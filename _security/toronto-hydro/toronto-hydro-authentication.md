@@ -7,25 +7,25 @@ api_specs:
   label: Toronto Hydro Application Information API
   slug: toronto-hydro-applicationinformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toronto-hydro/refs/heads/main/openapi/toronto-hydro-applicationinformation-api-openapi.yml
+  url: https://artifacts.apis.io/toronto-hydro/openapi/toronto-hydro-applicationinformation-api-openapi.yml
 - filename: toronto-hydro-authorization-api-openapi.yml
   format: yaml
   label: Toronto Hydro Authorization API
   slug: toronto-hydro-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toronto-hydro/refs/heads/main/openapi/toronto-hydro-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/toronto-hydro/openapi/toronto-hydro-authorization-api-openapi.yml
 - filename: toronto-hydro-batch-api-openapi.yml
   format: yaml
   label: Toronto Hydro Batch API
   slug: toronto-hydro-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toronto-hydro/refs/heads/main/openapi/toronto-hydro-batch-api-openapi.yml
+  url: https://artifacts.apis.io/toronto-hydro/openapi/toronto-hydro-batch-api-openapi.yml
 - filename: toronto-hydro-usagepoint-api-openapi.yml
   format: yaml
   label: Toronto Hydro Usage Point API
   slug: toronto-hydro-usagepoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toronto-hydro/refs/heads/main/openapi/toronto-hydro-usagepoint-api-openapi.yml
+  url: https://artifacts.apis.io/toronto-hydro/openapi/toronto-hydro-usagepoint-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: derived\nsource: openapi/toronto-
   \ or is offered \"an\n  alternative method to provide consent\" if they are not registered (Option B), and is\n  then redirected to the authorization page. Client credentials are issued only after the\n  third party is approved. The concrete Toronto Hydro endpoints were NOT observed and none\n  were invented.\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/authorize\n    tokenUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/token\n    scopes: 0\n  - flow: clientCredentials\n    tokenUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/token\n    scopes: 0\n  sources:\n  - openapi/toronto-hydro-green-button-espi-openapi.yml\nprovider_surface:\n  authentication_page_published: false\n  authentication_page_note: >-\n    Toronto Hydro names an authentication page in its Customer Guide\
   \ but does not publish\n    its URL. The two customer-facing management surfaces that ARE published both sit\n    behind the Liferay account login: https://www.torontohydro.com/my-account/green-button-data\n    (Download My Data) and https://www.torontohydro.com/my-account/green-button-connections\n    (manage and remove third-party Connect My Data connections).\n  token_endpoint_published: false\n  authorization_endpoint_published: false\n  oidc_discovery: false\n  credential_issuance: >-\n    After approval only — an online application through\n    https://torontoonboarding.savagedata.com/, a connectivity test, and acceptance of the\n    Third Party Terms and Conditions for Green Button Connect My Data.\n  consent_revocation: >-\n    The customer may revoke at any time and at their sole discretion, from the Green\n    Button connections page in their self-serve portal. Toronto Hydro's Third Party Terms\n    also state that Connect My Data is unavailable on or after the date a customer's\n\
   \    account is closed, including their final billing period.\ncross_links:\n  scopes: scopes/toronto-hydro-scopes.yml\n  conventions: conventions/toronto-hydro-conventions.yml\n  conformance: conformance/toronto-hydro-conformance.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toronto-hydro/refs/heads/main/authentication/toronto-hydro-authentication.yml
+source_yaml_url: https://artifacts.apis.io/toronto-hydro/authentication/toronto-hydro-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Energy

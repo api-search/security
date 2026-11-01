@@ -5,55 +5,55 @@ api_specs:
   label: GoodData Dashboards API
   slug: gooddata-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/openapi/gooddata-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/gooddata/openapi/gooddata-dashboards-api-openapi.yml
 - filename: gooddata-data-sources-api-openapi.yml
   format: yaml
   label: GoodData Data Sources API
   slug: gooddata-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/openapi/gooddata-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/gooddata/openapi/gooddata-data-sources-api-openapi.yml
 - filename: gooddata-execution-api-openapi.yml
   format: yaml
   label: GoodData Execution API
   slug: gooddata-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/openapi/gooddata-execution-api-openapi.yml
+  url: https://artifacts.apis.io/gooddata/openapi/gooddata-execution-api-openapi.yml
 - filename: gooddata-logical-data-model-api-openapi.yml
   format: yaml
   label: GoodData Logical Data Model API
   slug: gooddata-logical-data-model-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/openapi/gooddata-logical-data-model-api-openapi.yml
+  url: https://artifacts.apis.io/gooddata/openapi/gooddata-logical-data-model-api-openapi.yml
 - filename: gooddata-metrics-api-openapi.yml
   format: yaml
   label: GoodData Metrics API
   slug: gooddata-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/openapi/gooddata-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/gooddata/openapi/gooddata-metrics-api-openapi.yml
 - filename: gooddata-permissions-api-openapi.yml
   format: yaml
   label: GoodData Permissions API
   slug: gooddata-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/openapi/gooddata-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/gooddata/openapi/gooddata-permissions-api-openapi.yml
 - filename: gooddata-users-api-openapi.yml
   format: yaml
   label: GoodData Users API
   slug: gooddata-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/openapi/gooddata-users-api-openapi.yml
+  url: https://artifacts.apis.io/gooddata/openapi/gooddata-users-api-openapi.yml
 - filename: gooddata-visualizations-api-openapi.yml
   format: yaml
   label: GoodData Visualizations API
   slug: gooddata-visualizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/openapi/gooddata-visualizations-api-openapi.yml
+  url: https://artifacts.apis.io/gooddata/openapi/gooddata-visualizations-api-openapi.yml
 - filename: gooddata-workspaces-api-openapi.yml
   format: yaml
   label: GoodData Workspaces API
   slug: gooddata-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/openapi/gooddata-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/gooddata/openapi/gooddata-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -99,7 +99,7 @@ source_filename: gooddata-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.gooddata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 06:33:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.gooddata.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 10:03:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: gooddata.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"godaddy.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: gooddata.ai\n  dnssec: true\n  caa:\n  - apex-loadbalancer.netlify.com.\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/security/gooddata-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gooddata/security/gooddata-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Analytics

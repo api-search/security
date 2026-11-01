@@ -5,37 +5,37 @@ api_specs:
   label: NetApp Aggregates API
   slug: netapp-aggregates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/openapi/netapp-aggregates-api-openapi.yml
+  url: https://artifacts.apis.io/netapp/openapi/netapp-aggregates-api-openapi.yml
 - filename: netapp-cluster-api-openapi.yml
   format: yaml
   label: NetApp Cluster API
   slug: netapp-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/openapi/netapp-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/netapp/openapi/netapp-cluster-api-openapi.yml
 - filename: netapp-network-api-openapi.yml
   format: yaml
   label: NetApp Network API
   slug: netapp-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/openapi/netapp-network-api-openapi.yml
+  url: https://artifacts.apis.io/netapp/openapi/netapp-network-api-openapi.yml
 - filename: netapp-snapshots-api-openapi.yml
   format: yaml
   label: NetApp Snapshots API
   slug: netapp-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/openapi/netapp-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/netapp/openapi/netapp-snapshots-api-openapi.yml
 - filename: netapp-svms-api-openapi.yml
   format: yaml
   label: NetApp SVMs API
   slug: netapp-svms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/openapi/netapp-svms-api-openapi.yml
+  url: https://artifacts.apis.io/netapp/openapi/netapp-svms-api-openapi.yml
 - filename: netapp-volumes-api-openapi.yml
   format: yaml
   label: NetApp Volumes API
   slug: netapp-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/openapi/netapp-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/netapp/openapi/netapp-volumes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -83,7 +83,7 @@ source_filename: netapp-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.netapp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 20 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 15768000\n- host: cloudmanager.cloud.netapp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 23:59:59 2026 GMT\n  hsts: null\n- host: cloud.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: netapp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/security/netapp-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/netapp/security/netapp-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud

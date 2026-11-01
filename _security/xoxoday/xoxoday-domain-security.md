@@ -5,19 +5,19 @@ api_specs:
   label: Xoxoday Authentication API
   slug: xoxoday-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xoxoday/refs/heads/main/openapi/xoxoday-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/xoxoday/openapi/xoxoday-authentication-api-openapi.yml
 - filename: xoxoday-gift-cards-api-openapi.yml
   format: yaml
   label: Xoxoday Gift Cards API
   slug: xoxoday-gift-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xoxoday/refs/heads/main/openapi/xoxoday-gift-cards-api-openapi.yml
+  url: https://artifacts.apis.io/xoxoday/openapi/xoxoday-gift-cards-api-openapi.yml
 - filename: xoxoday-reward-links-api-openapi.yml
   format: yaml
   label: Xoxoday Reward Links API
   slug: xoxoday-reward-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xoxoday/refs/heads/main/openapi/xoxoday-reward-links-api-openapi.yml
+  url: https://artifacts.apis.io/xoxoday/openapi/xoxoday-reward-links-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: xoxoday-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.xoxoday.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 09:51:20 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developers.xoxoday.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 21:42:53 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: accounts.xoxoday.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 06:44:44 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: xoxoday.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xoxoday/refs/heads/main/security/xoxoday-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/xoxoday/security/xoxoday-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Rewards

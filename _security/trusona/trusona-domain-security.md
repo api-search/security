@@ -5,43 +5,43 @@ api_specs:
   label: Trusona Devices API
   slug: trusona-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/openapi/trusona-devices-api-openapi.yml
+  url: https://artifacts.apis.io/trusona/openapi/trusona-devices-api-openapi.yml
 - filename: trusona-documents-api-openapi.yml
   format: yaml
   label: Trusona Documents API
   slug: trusona-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/openapi/trusona-documents-api-openapi.yml
+  url: https://artifacts.apis.io/trusona/openapi/trusona-documents-api-openapi.yml
 - filename: trusona-encrypted-verifications-api-openapi.yml
   format: yaml
   label: Trusona Encrypted Verifications API
   slug: trusona-encrypted-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/openapi/trusona-encrypted-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/trusona/openapi/trusona-encrypted-verifications-api-openapi.yml
 - filename: trusona-id-verifications-api-openapi.yml
   format: yaml
   label: Trusona ID Verifications API
   slug: trusona-id-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/openapi/trusona-id-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/trusona/openapi/trusona-id-verifications-api-openapi.yml
 - filename: trusona-messages-api-openapi.yml
   format: yaml
   label: Trusona Messages API
   slug: trusona-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/openapi/trusona-messages-api-openapi.yml
+  url: https://artifacts.apis.io/trusona/openapi/trusona-messages-api-openapi.yml
 - filename: trusona-risk-scores-api-openapi.yml
   format: yaml
   label: Trusona Risk Scores API
   slug: trusona-risk-scores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/openapi/trusona-risk-scores-api-openapi.yml
+  url: https://artifacts.apis.io/trusona/openapi/trusona-risk-scores-api-openapi.yml
 - filename: trusona-verifications-api-openapi.yml
   format: yaml
   label: Trusona Verifications API
   slug: trusona-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/openapi/trusona-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/trusona/openapi/trusona-verifications-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -87,7 +87,7 @@ source_filename: trusona-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-01'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.trusona.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: authcloud.trusona.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 29 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: idproof-cert.trusona.net\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 23 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: trusona.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: trusona.net\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/security/trusona-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trusona/security/trusona-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

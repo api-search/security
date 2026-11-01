@@ -5,25 +5,25 @@ api_specs:
   label: Petpooja Menu API
   slug: petpooja-menu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petpooja/refs/heads/main/openapi/petpooja-menu-api-openapi.yml
+  url: https://artifacts.apis.io/petpooja/openapi/petpooja-menu-api-openapi.yml
 - filename: petpooja-orders-api-openapi.yml
   format: yaml
   label: Petpooja Orders API
   slug: petpooja-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petpooja/refs/heads/main/openapi/petpooja-orders-api-openapi.yml
+  url: https://artifacts.apis.io/petpooja/openapi/petpooja-orders-api-openapi.yml
 - filename: petpooja-stock-api-openapi.yml
   format: yaml
   label: Petpooja Stock API
   slug: petpooja-stock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petpooja/refs/heads/main/openapi/petpooja-stock-api-openapi.yml
+  url: https://artifacts.apis.io/petpooja/openapi/petpooja-stock-api-openapi.yml
 - filename: petpooja-stores-api-openapi.yml
   format: yaml
   label: Petpooja Stores API
   slug: petpooja-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petpooja/refs/heads/main/openapi/petpooja-stores-api-openapi.yml
+  url: https://artifacts.apis.io/petpooja/openapi/petpooja-stores-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: petpooja-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.petpooja.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: onlineorderingapisv210.docs.apiary.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 23:59:59 2026 GMT\n  hsts: false\n- host: qle1yy2ydc.execute-api.ap-southeast-1.amazonaws.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: petpooja.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: apiary.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/petpooja/refs/heads/main/security/petpooja-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/petpooja/security/petpooja-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Restaurant

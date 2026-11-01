@@ -7,67 +7,67 @@ api_specs:
   label: Comunicate.top API Articles API
   slug: comunicate-top-api-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-articles-api-openapi.yml
+  url: https://artifacts.apis.io/comunicate-top-api/openapi/comunicate-top-api-articles-api-openapi.yml
 - filename: comunicate-top-api-balance-and-reports-api-openapi.yml
   format: yaml
   label: Comunicate.top API Balance and reports API
   slug: comunicate-top-api-balance-and-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-balance-and-reports-api-openapi.yml
+  url: https://artifacts.apis.io/comunicate-top-api/openapi/comunicate-top-api-balance-and-reports-api-openapi.yml
 - filename: comunicate-top-api-campaigns-api-openapi.yml
   format: yaml
   label: Comunicate.top API Campaigns API
   slug: comunicate-top-api-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/comunicate-top-api/openapi/comunicate-top-api-campaigns-api-openapi.yml
 - filename: comunicate-top-api-catalogue-api-openapi.yml
   format: yaml
   label: Comunicate.top API Catalogue API
   slug: comunicate-top-api-catalogue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-catalogue-api-openapi.yml
+  url: https://artifacts.apis.io/comunicate-top-api/openapi/comunicate-top-api-catalogue-api-openapi.yml
 - filename: comunicate-top-api-checks-api-openapi.yml
   format: yaml
   label: Comunicate.top API Checks API
   slug: comunicate-top-api-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-checks-api-openapi.yml
+  url: https://artifacts.apis.io/comunicate-top-api/openapi/comunicate-top-api-checks-api-openapi.yml
 - filename: comunicate-top-api-domain-audit-api-openapi.yml
   format: yaml
   label: Comunicate.top API Domain audit API
   slug: comunicate-top-api-domain-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-domain-audit-api-openapi.yml
+  url: https://artifacts.apis.io/comunicate-top-api/openapi/comunicate-top-api-domain-audit-api-openapi.yml
 - filename: comunicate-top-api-key-and-permissions-api-openapi.yml
   format: yaml
   label: Comunicate.top API Key and permissions API
   slug: comunicate-top-api-key-and-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-key-and-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/comunicate-top-api/openapi/comunicate-top-api-key-and-permissions-api-openapi.yml
 - filename: comunicate-top-api-media-api-openapi.yml
   format: yaml
   label: Comunicate.top API Media API
   slug: comunicate-top-api-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-media-api-openapi.yml
+  url: https://artifacts.apis.io/comunicate-top-api/openapi/comunicate-top-api-media-api-openapi.yml
 - filename: comunicate-top-api-public-catalogue-api-openapi.yml
   format: yaml
   label: Comunicate.top API Public catalogue API
   slug: comunicate-top-api-public-catalogue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-public-catalogue-api-openapi.yml
+  url: https://artifacts.apis.io/comunicate-top-api/openapi/comunicate-top-api-public-catalogue-api-openapi.yml
 - filename: comunicate-top-api-publications-api-openapi.yml
   format: yaml
   label: Comunicate.top API Publications API
   slug: comunicate-top-api-publications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-publications-api-openapi.yml
+  url: https://artifacts.apis.io/comunicate-top-api/openapi/comunicate-top-api-publications-api-openapi.yml
 - filename: comunicate-top-api-writing-orders-api-openapi.yml
   format: yaml
   label: Comunicate.top API Writing orders API
   slug: comunicate-top-api-writing-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-writing-orders-api-openapi.yml
+  url: https://artifacts.apis.io/comunicate-top-api/openapi/comunicate-top-api-writing-orders-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -106,7 +106,7 @@ source_filename: comunicate-top-api-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-09'\nmethod: derived\nsource: openapi/comunicate-top-api-openapi-original.json\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: apiKey\n  type: http\n  scheme: bearer\n  description: API key from Integrations (bk_live_…)\n  sources:\n  - openapi/comunicate-top-api-openapi-original.json\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.comunicate.top/api/v1/oauth/authorize\n    tokenUrl: https://app.comunicate.top/api/v1/oauth/token\n    scopes: 10\n  description: OAuth 2.1 with PKCE (S256). Dynamic client registration at https://app.comunicate.top/api/v1/oauth/register.\n    The access token is an API key and is accepted everywhere an API key is.\n  sources:\n  - openapi/comunicate-top-api-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/authentication/comunicate-top-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/comunicate-top-api/authentication/comunicate-top-api-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Press Releases

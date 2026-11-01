@@ -5,19 +5,19 @@ api_specs:
   label: Aircover Discovery API
   slug: aircover-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aircover/refs/heads/main/openapi/aircover-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/aircover/openapi/aircover-discovery-api-openapi.yml
 - filename: aircover-mcp-api-openapi.yml
   format: yaml
   label: Aircover MCP API
   slug: aircover-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aircover/refs/heads/main/openapi/aircover-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/aircover/openapi/aircover-mcp-api-openapi.yml
 - filename: aircover-oauth-api-openapi.yml
   format: yaml
   label: Aircover OAuth API
   slug: aircover-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aircover/refs/heads/main/openapi/aircover-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/aircover/openapi/aircover-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: aircover-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.aircover.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 23:28:53 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.aircover.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  1 03:38:31 2026 GMT\n  hsts: null\ndomains:\n- domain: aircover.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aircover/refs/heads/main/security/aircover-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aircover/security/aircover-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Sales Enablement

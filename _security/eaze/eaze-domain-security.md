@@ -27,7 +27,7 @@ source_filename: eaze-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: eaze.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 29 17:50:42 2026 GMT\n  hsts: false\ndomains:\n- domain: eaze.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eaze/refs/heads/main/security/eaze-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/eaze/security/eaze-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

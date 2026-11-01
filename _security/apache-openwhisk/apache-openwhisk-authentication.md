@@ -7,37 +7,37 @@ api_specs:
   label: Apache OpenWhisk Actions API
   slug: apache-openwhisk-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/openapi/apache-openwhisk-actions-api-openapi.yml
+  url: https://artifacts.apis.io/apache-openwhisk/openapi/apache-openwhisk-actions-api-openapi.yml
 - filename: apache-openwhisk-activations-api-openapi.yml
   format: yaml
   label: Apache OpenWhisk Activations API
   slug: apache-openwhisk-activations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/openapi/apache-openwhisk-activations-api-openapi.yml
+  url: https://artifacts.apis.io/apache-openwhisk/openapi/apache-openwhisk-activations-api-openapi.yml
 - filename: apache-openwhisk-namespaces-api-openapi.yml
   format: yaml
   label: Apache OpenWhisk Namespaces API
   slug: apache-openwhisk-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/openapi/apache-openwhisk-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/apache-openwhisk/openapi/apache-openwhisk-namespaces-api-openapi.yml
 - filename: apache-openwhisk-packages-api-openapi.yml
   format: yaml
   label: Apache OpenWhisk Packages API
   slug: apache-openwhisk-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/openapi/apache-openwhisk-packages-api-openapi.yml
+  url: https://artifacts.apis.io/apache-openwhisk/openapi/apache-openwhisk-packages-api-openapi.yml
 - filename: apache-openwhisk-rules-api-openapi.yml
   format: yaml
   label: Apache OpenWhisk Rules API
   slug: apache-openwhisk-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/openapi/apache-openwhisk-rules-api-openapi.yml
+  url: https://artifacts.apis.io/apache-openwhisk/openapi/apache-openwhisk-rules-api-openapi.yml
 - filename: apache-openwhisk-triggers-api-openapi.yml
   format: yaml
   label: Apache OpenWhisk Triggers API
   slug: apache-openwhisk-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/openapi/apache-openwhisk-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/apache-openwhisk/openapi/apache-openwhisk-triggers-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +64,7 @@ source_filename: apache-openwhisk-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/apache-openwhisk-rest-api.yaml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication using OpenWhisk credentials\n  sources:\n  - openapi/apache-openwhisk-rest-api.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/authentication/apache-openwhisk-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apache-openwhisk/authentication/apache-openwhisk-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Cloud-Native

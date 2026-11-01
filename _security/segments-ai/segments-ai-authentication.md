@@ -8,31 +8,31 @@ api_specs:
   label: Segments.ai Datasets API
   slug: segments-ai-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/openapi/segments-ai-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/segments-ai/openapi/segments-ai-datasets-api-openapi.yml
 - filename: segments-ai-labels-api-openapi.yml
   format: yaml
   label: Segments.ai Labels API
   slug: segments-ai-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/openapi/segments-ai-labels-api-openapi.yml
+  url: https://artifacts.apis.io/segments-ai/openapi/segments-ai-labels-api-openapi.yml
 - filename: segments-ai-releases-api-openapi.yml
   format: yaml
   label: Segments.ai Releases API
   slug: segments-ai-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/openapi/segments-ai-releases-api-openapi.yml
+  url: https://artifacts.apis.io/segments-ai/openapi/segments-ai-releases-api-openapi.yml
 - filename: segments-ai-samples-api-openapi.yml
   format: yaml
   label: Segments.ai Samples API
   slug: segments-ai-samples-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/openapi/segments-ai-samples-api-openapi.yml
+  url: https://artifacts.apis.io/segments-ai/openapi/segments-ai-samples-api-openapi.yml
 - filename: segments-ai-label-sets-api-openapi.yml
   format: yaml
   label: Segments.ai Label Sets API
   slug: segments-ai-label-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/openapi/segments-ai-label-sets-api-openapi.yml
+  url: https://artifacts.apis.io/segments-ai/openapi/segments-ai-label-sets-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: segments-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/segments-ai-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: APIKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Send your API key in the Authorization header using the value `APIKey YOUR_API_KEY`.\n    Keys are generated in the Segments.ai account settings.\n  sources:\n  - openapi/segments-ai-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/authentication/segments-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/segments-ai/authentication/segments-ai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Data Labeling

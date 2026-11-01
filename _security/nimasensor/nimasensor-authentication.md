@@ -46,7 +46,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://nimanow.com/.well-known/openid-configuration\nnote: >-\n  Auth surface is Shopify's Customer Account API (platform-level), discovered from the store's\n  OIDC configuration - not a first-party NIMA developer API. Enables end-customer login to the\n  NIMA storefront. Included because it is a genuine, publicly discoverable authentication surface\n  on the provider domain.\nsummary:\n  types:\n  - oauth2\n  - openIdConnect\n  oauth2_flows:\n  - authorizationCode\n  issuer: https://shopify.com/authentication/61165174846\nschemes:\n- name: ShopifyCustomerAccountOIDC\n  type: openIdConnect\n  openIdConnectUrl: https://nimanow.com/.well-known/openid-configuration\n  issuer: https://shopify.com/authentication/61165174846\n  authorizationUrl: https://account.nimanow.com/authentication/oauth/authorize\n  tokenUrl: https://account.nimanow.com/authentication/oauth/token\n  end_session_endpoint: https://account.nimanow.com/authentication/logout\n\
   \  jwks_uri: https://account.nimanow.com/authentication/.well-known/jwks.json\n  grant_types:\n  - authorization_code\n  - refresh_token\n  - urn:ietf:params:oauth:grant-type:jwt-bearer\n  response_types:\n  - code\n  token_endpoint_auth_methods:\n  - client_secret_basic\n  pkce:\n  - S256\n  id_token_signing_alg:\n  - RS256\n  sources:\n  - well-known/nimasensor-openid-configuration.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nimasensor/refs/heads/main/authentication/nimasensor-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nimasensor/authentication/nimasensor-authentication.yml
 summary_line: oauth2/openIdConnect · 1 scheme
 tags:
 - Company

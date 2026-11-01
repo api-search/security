@@ -27,7 +27,7 @@ source_filename: donnees-montreal-ca-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: donnees.montreal.ca\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 11:25:15 2026 GMT\n  hsts: false\ndomains:\n- domain: montreal.ca\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/donnees-montreal-ca/refs/heads/main/security/donnees-montreal-ca-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/donnees-montreal-ca/security/donnees-montreal-ca-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Open Data

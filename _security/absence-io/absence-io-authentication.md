@@ -7,43 +7,43 @@ api_specs:
   label: Absence.io Absences API
   slug: absence-io-absences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/openapi/absence-io-absences-api-openapi.yml
+  url: https://artifacts.apis.io/absence-io/openapi/absence-io-absences-api-openapi.yml
 - filename: absence-io-allowances-api-openapi.yml
   format: yaml
   label: Absence.io Allowances API
   slug: absence-io-allowances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/openapi/absence-io-allowances-api-openapi.yml
+  url: https://artifacts.apis.io/absence-io/openapi/absence-io-allowances-api-openapi.yml
 - filename: absence-io-departments-api-openapi.yml
   format: yaml
   label: Absence.io Departments API
   slug: absence-io-departments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/openapi/absence-io-departments-api-openapi.yml
+  url: https://artifacts.apis.io/absence-io/openapi/absence-io-departments-api-openapi.yml
 - filename: absence-io-locations-api-openapi.yml
   format: yaml
   label: Absence.io Locations API
   slug: absence-io-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/openapi/absence-io-locations-api-openapi.yml
+  url: https://artifacts.apis.io/absence-io/openapi/absence-io-locations-api-openapi.yml
 - filename: absence-io-reason-types-api-openapi.yml
   format: yaml
   label: Absence.io Reason Types API
   slug: absence-io-reason-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/openapi/absence-io-reason-types-api-openapi.yml
+  url: https://artifacts.apis.io/absence-io/openapi/absence-io-reason-types-api-openapi.yml
 - filename: absence-io-timespans-api-openapi.yml
   format: yaml
   label: Absence.io Timespans API
   slug: absence-io-timespans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/openapi/absence-io-timespans-api-openapi.yml
+  url: https://artifacts.apis.io/absence-io/openapi/absence-io-timespans-api-openapi.yml
 - filename: absence-io-users-api-openapi.yml
   format: yaml
   label: Absence.io Users API
   slug: absence-io-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/openapi/absence-io-users-api-openapi.yml
+  url: https://artifacts.apis.io/absence-io/openapi/absence-io-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -70,7 +70,7 @@ source_filename: absence-io-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/absence-io-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: HawkAuth\n  type: http\n  scheme: hawk\n  description: Hawk authentication using an API key ID and API key. Generate your API key from\n    your absence.io account profile under the Integrations tab. Use the @hapi/hawk library to\n    generate the Authorization header with SHA256 algorithm.\n  sources:\n  - openapi/absence-io-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/authentication/absence-io-authentication.yml
+source_yaml_url: https://artifacts.apis.io/absence-io/authentication/absence-io-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Absences

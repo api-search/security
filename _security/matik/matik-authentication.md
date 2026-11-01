@@ -7,7 +7,7 @@ api_specs:
   label: Matik External API
   slug: matik-external-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/matik/refs/heads/main/postman/matik-oauth-postman-collection.json
+  url: https://artifacts.apis.io/matik/postman/matik-oauth-postman-collection.json
 auth_types:
 - oauth2
 description: ''
@@ -43,7 +43,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://developer.matik.io/guides/oauth\ndocs: https://developer.matik.io/guides/oauth\nsummary:\n  types: [oauth2]\n  oauth2_flows: [authorizationCode, refreshToken]\n  api_key_in: []\n  bearer: true\nschemes:\n  - name: OAuth2\n    type: oauth2\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://app.matik.io/oauth/authorize\n        tokenUrl: https://app.matik.io/api/v1/oauth/token/\n        refreshUrl: https://app.matik.io/api/v1/oauth/token/\n        scopes:\n          producer: Administrative access — create/manage templates, data sources, and content.\n          consumer: End-user access — generate presentations/documents from existing templates.\n    sources: [https://developer.matik.io/guides/oauth]\nrequest:\n  header: 'Authorization: Bearer {access_token}'\n  content_type: application/json\nnotes: >-\n  Register client credentials (client id + secret) with producer and consumer scopes.\n\
   \  Access tokens are bearer tokens presented against the REST API base https://app.matik.io/api/1.0/.\n  The MCP server uses the same OAuth 2.0 model with dynamic client registration.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/matik/refs/heads/main/authentication/matik-authentication.yml
+source_yaml_url: https://artifacts.apis.io/matik/authentication/matik-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

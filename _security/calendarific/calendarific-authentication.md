@@ -8,19 +8,19 @@ api_specs:
   label: Calendarific Countries API
   slug: calendarific-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendarific/refs/heads/main/openapi/calendarific-countries-api-openapi.yml
+  url: https://artifacts.apis.io/calendarific/openapi/calendarific-countries-api-openapi.yml
 - filename: calendarific-holidays-api-openapi.yml
   format: yaml
   label: Calendarific Holidays API
   slug: calendarific-holidays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendarific/refs/heads/main/openapi/calendarific-holidays-api-openapi.yml
+  url: https://artifacts.apis.io/calendarific/openapi/calendarific-holidays-api-openapi.yml
 - filename: calendarific-languages-api-openapi.yml
   format: yaml
   label: Calendarific Languages API
   slug: calendarific-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendarific/refs/heads/main/openapi/calendarific-languages-api-openapi.yml
+  url: https://artifacts.apis.io/calendarific/openapi/calendarific-languages-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: calendarific-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/calendarific-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: API key passed as a URL query parameter.\n  sources:\n  - openapi/calendarific-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/calendarific/refs/heads/main/authentication/calendarific-authentication.yml
+source_yaml_url: https://artifacts.apis.io/calendarific/authentication/calendarific-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Calendar

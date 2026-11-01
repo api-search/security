@@ -26,7 +26,7 @@ source_filename: acepodia-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.acepodia.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 11 03:23:57 2026 GMT\n  hsts: false\ndomains:\n- domain: acepodia.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acepodia/refs/heads/main/security/acepodia-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/acepodia/security/acepodia-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Company

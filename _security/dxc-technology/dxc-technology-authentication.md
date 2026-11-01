@@ -7,13 +7,13 @@ api_specs:
   label: DXC Technology Integration API
   slug: dxc-technology-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dxc-technology/refs/heads/main/openapi/dxc-technology-integration-api-openapi.yml
+  url: https://artifacts.apis.io/dxc-technology/openapi/dxc-technology-integration-api-openapi.yml
 - filename: dxc-technology-platform-api-openapi.yml
   format: yaml
   label: DXC Technology Platform API
   slug: dxc-technology-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dxc-technology/refs/heads/main/openapi/dxc-technology-platform-api-openapi.yml
+  url: https://artifacts.apis.io/dxc-technology/openapi/dxc-technology-platform-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: dxc-technology-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/dxc-developer-central-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/dxc-developer-central-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dxc-technology/refs/heads/main/authentication/dxc-technology-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dxc-technology/authentication/dxc-technology-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - IT Services

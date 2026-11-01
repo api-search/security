@@ -8,139 +8,139 @@ api_specs:
   label: First American Financial Employees API
   slug: first-american-financial-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-american-financial/refs/heads/main/openapi/first-american-financial-employees-api-openapi.yml
+  url: https://artifacts.apis.io/first-american-financial/openapi/first-american-financial-employees-api-openapi.yml
 - filename: first-american-financial-get-nmls-data-by-nmls-id-api-openapi.yml
   format: yaml
   label: First American Financial Get NMLS data by NMLS ID API
   slug: first-american-financial-get-nmls-data-by-nmls-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-american-financial/refs/heads/main/openapi/first-american-financial-get-nmls-data-by-nmls-id-api-openapi.yml
+  url: https://artifacts.apis.io/first-american-financial/openapi/first-american-financial-get-nmls-data-by-nmls-id-api-openapi.yml
 - filename: first-american-financial-get-response-api-openapi.yml
   format: yaml
   label: First American Financial Get Response API
   slug: first-american-financial-get-response-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-american-financial/refs/heads/main/openapi/first-american-financial-get-response-api-openapi.yml
+  url: https://artifacts.apis.io/first-american-financial/openapi/first-american-financial-get-response-api-openapi.yml
 - filename: first-american-financial-getidentityresponsebase-api-openapi.yml
   format: yaml
   label: First American Financial Get Identity Response Base API
   slug: first-american-financial-getidentityresponsebase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-american-financial/refs/heads/main/openapi/first-american-financial-getidentityresponsebase-api-openapi.yml
+  url: https://artifacts.apis.io/first-american-financial/openapi/first-american-financial-getidentityresponsebase-api-openapi.yml
 - filename: first-american-financial-getownershipresponse-api-openapi.yml
   format: yaml
   label: First American Financial Get Ownership Response API
   slug: first-american-financial-getownershipresponse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-american-financial/refs/heads/main/openapi/first-american-financial-getownershipresponse-api-openapi.yml
+  url: https://artifacts.apis.io/first-american-financial/openapi/first-american-financial-getownershipresponse-api-openapi.yml
 - filename: first-american-financial-getreversephoneresponse-api-openapi.yml
   format: yaml
   label: First American Financial Get Reverse Phone Response API
   slug: first-american-financial-getreversephoneresponse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-american-financial/refs/heads/main/openapi/first-american-financial-getreversephoneresponse-api-openapi.yml
+  url: https://artifacts.apis.io/first-american-financial/openapi/first-american-financial-getreversephoneresponse-api-openapi.yml
 - filename: first-american-financial-oauth-token-api-openapi.yml
   format: yaml
   label: First American Financial OAuth Token API
   slug: first-american-financial-oauth-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-american-financial/refs/heads/main/openapi/first-american-financial-oauth-token-api-openapi.yml
+  url: https://artifacts.apis.io/first-american-financial/openapi/first-american-financial-oauth-token-api-openapi.yml
 - filename: first-american-financial-offices-api-openapi.yml
   format: yaml
   label: First American Financial Offices API
   slug: first-american-financial-offices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-american-financial/refs/heads/main/openapi/first-american-financial-offices-api-openapi.yml
+  url: https://artifacts.apis.io/first-american-financial/openapi/first-american-financial-offices-api-openapi.yml
 - filename: first-american-financial-order-api-openapi.yml
   format: yaml
   label: First American Financial Order API
   slug: first-american-financial-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-american-financial/refs/heads/main/openapi/first-american-financial-order-api-openapi.yml
+  url: https://artifacts.apis.io/first-american-financial/openapi/first-american-financial-order-api-openapi.yml
 - filename: first-american-financial-orders-api-openapi.yml
   format: yaml
   label: First American Financial Orders API
   slug: first-american-financial-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-american-financial/refs/heads/main/openapi/first-american-financial-orders-api-openapi.yml
+  url: https://artifacts.apis.io/first-american-financial/openapi/first-american-financial-orders-api-openapi.yml
 - filename: first-american-financial-report-api-openapi.yml
   format: yaml
   label: First American Financial Report API
   slug: first-american-financial-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-american-financial/refs/heads/main/openapi/first-american-financial-report-api-openapi.yml
+  url: https://artifacts.apis.io/first-american-financial/openapi/first-american-financial-report-api-openapi.yml
 - filename: first-american-financial-request-api-openapi.yml
   format: yaml
   label: First American Financial Request API
   slug: first-american-financial-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-american-financial/refs/heads/main/openapi/first-american-financial-request-api-openapi.yml
+  url: https://artifacts.apis.io/first-american-financial/openapi/first-american-financial-request-api-openapi.yml
 - filename: first-american-financial-request-fema-api-openapi.yml
   format: yaml
   label: First American Financial Request FEMA API
   slug: first-american-financial-request-fema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-american-financial/refs/heads/main/openapi/first-american-financial-request-fema-api-openapi.yml
+  url: https://artifacts.apis.io/first-american-financial/openapi/first-american-financial-request-fema-api-openapi.yml
 - filename: first-american-financial-request-listing-data-api-openapi.yml
   format: yaml
   label: First American Financial Request Listing Data API
   slug: first-american-financial-request-listing-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-american-financial/refs/heads/main/openapi/first-american-financial-request-listing-data-api-openapi.yml
+  url: https://artifacts.apis.io/first-american-financial/openapi/first-american-financial-request-listing-data-api-openapi.yml
 - filename: first-american-financial-request-occupancy-api-openapi.yml
   format: yaml
   label: First American Financial Request Occupancy API
   slug: first-american-financial-request-occupancy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-american-financial/refs/heads/main/openapi/first-american-financial-request-occupancy-api-openapi.yml
+  url: https://artifacts.apis.io/first-american-financial/openapi/first-american-financial-request-occupancy-api-openapi.yml
 - filename: first-american-financial-request-property-api-openapi.yml
   format: yaml
   label: First American Financial Request Property API
   slug: first-american-financial-request-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-american-financial/refs/heads/main/openapi/first-american-financial-request-property-api-openapi.yml
+  url: https://artifacts.apis.io/first-american-financial/openapi/first-american-financial-request-property-api-openapi.yml
 - filename: first-american-financial-request-property-hoa-api-openapi.yml
   format: yaml
   label: First American Financial Request Property HOA API
   slug: first-american-financial-request-property-hoa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-american-financial/refs/heads/main/openapi/first-american-financial-request-property-hoa-api-openapi.yml
+  url: https://artifacts.apis.io/first-american-financial/openapi/first-american-financial-request-property-hoa-api-openapi.yml
 - filename: first-american-financial-requestidentity-api-openapi.yml
   format: yaml
   label: First American Financial Request Identity API
   slug: first-american-financial-requestidentity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-american-financial/refs/heads/main/openapi/first-american-financial-requestidentity-api-openapi.yml
+  url: https://artifacts.apis.io/first-american-financial/openapi/first-american-financial-requestidentity-api-openapi.yml
 - filename: first-american-financial-requestownership-api-openapi.yml
   format: yaml
   label: First American Financial Request Ownership API
   slug: first-american-financial-requestownership-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-american-financial/refs/heads/main/openapi/first-american-financial-requestownership-api-openapi.yml
+  url: https://artifacts.apis.io/first-american-financial/openapi/first-american-financial-requestownership-api-openapi.yml
 - filename: first-american-financial-requestreversephone-api-openapi.yml
   format: yaml
   label: First American Financial Request Reverse Phone API
   slug: first-american-financial-requestreversephone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-american-financial/refs/heads/main/openapi/first-american-financial-requestreversephone-api-openapi.yml
+  url: https://artifacts.apis.io/first-american-financial/openapi/first-american-financial-requestreversephone-api-openapi.yml
 - filename: first-american-financial-search-nmls-data-api-openapi.yml
   format: yaml
   label: First American Financial Search NMLS data API
   slug: first-american-financial-search-nmls-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-american-financial/refs/heads/main/openapi/first-american-financial-search-nmls-data-api-openapi.yml
+  url: https://artifacts.apis.io/first-american-financial/openapi/first-american-financial-search-nmls-data-api-openapi.yml
 - filename: first-american-financial-status-api-openapi.yml
   format: yaml
   label: First American Financial Status API
   slug: first-american-financial-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-american-financial/refs/heads/main/openapi/first-american-financial-status-api-openapi.yml
+  url: https://artifacts.apis.io/first-american-financial/openapi/first-american-financial-status-api-openapi.yml
 - filename: first-american-financial-webhooks-api-openapi.yml
   format: yaml
   label: First American Financial Webhooks API
   slug: first-american-financial-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-american-financial/refs/heads/main/openapi/first-american-financial-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/first-american-financial/openapi/first-american-financial-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -225,7 +225,7 @@ source_yaml: "generated: '2026-09-09'\nmethod: searched\nsource: openapi/ — 16
   \      - openapi/first-american-financial-reverse-phone-openapi.yml\n      - openapi/first-american-financial-scra-openapi.yml\n      - openapi/first-american-financial-watchlist-openapi.yml\n  - name: x-app-key\n    type: apiKey\n    in: header\n    parameter: x-app-key\n    aliases: [X-App-Key]\n    description: >-\n      Application Key, the secret half of the App credential pair. Paired with x-app-id on every\n      data-service call. An invalid pair returns HTTP 401 \"Invalid App ID or App Key\".\n    declared_as: required header parameter (not a securityDefinition)\n    operations: 70\n    sources: [see x-app-id]\n  - name: bearerAuth\n    type: http\n    scheme: bearer\n    bearerFormat: JWT\n    description: >-\n      OAuth (a.k.a JWT) Authentication is mandatory. Applied to all 16 non-token operations of the\n      Title & Settlement (Mortgage Services) API.\n    sources:\n      - openapi/first-american-financial-title-settlement-openapi.yml\n  - name: oauth2-client-credentials\n\
   \    type: oauth2\n    flow: clientCredentials\n    token_endpoint: POST /api/token\n    token_endpoint_note: >-\n      The demonstration host in the spec is https://lvis-oauth-swagger.lvisqa.firstam.com and is\n      explicitly marked \"THIS ENDPOINT IS FOR DEMONSTRATION PURPOSES ONLY\". The real authentication\n      URL is issued privately - the spec says to contact LVIS.support@firstam.com to obtain the URL\n      along with client_id, client_secret, scope and grant_type.\n    request_fields: [client_id, client_secret, scope, grant_type]\n    scopes_published: false\n    scopes_note: >-\n      `scope` is a REQUIRED form field on the token request but no scope values are published\n      anywhere. No scopes/ artifact is written rather than invent one.\n    sources:\n      - openapi/first-american-financial-title-settlement-openapi.yml\nonboarding:\n  self_service: false\n  steps:\n    - Sign up at https://developer.firstam.io/signup (two-factor by email).\n    - Account reviewed by\
   \ a Digital Gateway administrator; access granted within 1-2 business days.\n    - Create an App, then request access to specific APIs; approval may be automatic or administrator-gated.\n    - App ID and App Key appear in the App's Credentials section once approved.\n    - Production access additionally requires the First American relationship team and may require a contract and/or SOW.\n  contact: DigitalGateway@firstam.io\nadditional:\n  shared_secret:\n    documented: true\n    description: >-\n      The glossary documents a Shared Secret Key used for message-level symmetric cryptography on\n      some APIs, assigned in the portal. Not expressed in any harvested contract.\n    source: https://developer.firstam.io/api/docs\n  app_source_header:\n    documented: true\n    description: >-\n      'AppSource' is required for customers using source-level credentials on the Title & Settlement\n      document, message and cancel operations.\n    source: openapi/first-american-financial-title-settlement-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/first-american-financial/refs/heads/main/authentication/first-american-financial-authentication.yml
+source_yaml_url: https://artifacts.apis.io/first-american-financial/authentication/first-american-financial-authentication.yml
 summary_line: apiKey/http/oauth2 · 4 schemes
 tags:
 - Title Insurance

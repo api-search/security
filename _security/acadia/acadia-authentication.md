@@ -7,31 +7,31 @@ api_specs:
   label: Acadia Employees API
   slug: acadia-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acadia/refs/heads/main/openapi/acadia-employees-api-openapi.yml
+  url: https://artifacts.apis.io/acadia/openapi/acadia-employees-api-openapi.yml
 - filename: acadia-quizzes-api-openapi.yml
   format: yaml
   label: Acadia Quizzes API
   slug: acadia-quizzes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acadia/refs/heads/main/openapi/acadia-quizzes-api-openapi.yml
+  url: https://artifacts.apis.io/acadia/openapi/acadia-quizzes-api-openapi.yml
 - filename: acadia-roles-api-openapi.yml
   format: yaml
   label: Acadia Roles API
   slug: acadia-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acadia/refs/heads/main/openapi/acadia-roles-api-openapi.yml
+  url: https://artifacts.apis.io/acadia/openapi/acadia-roles-api-openapi.yml
 - filename: acadia-skills-api-openapi.yml
   format: yaml
   label: Acadia Skills API
   slug: acadia-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acadia/refs/heads/main/openapi/acadia-skills-api-openapi.yml
+  url: https://artifacts.apis.io/acadia/openapi/acadia-skills-api-openapi.yml
 - filename: acadia-work-instructions-api-openapi.yml
   format: yaml
   label: Acadia Work Instructions API
   slug: acadia-work-instructions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acadia/refs/heads/main/openapi/acadia-work-instructions-api-openapi.yml
+  url: https://artifacts.apis.io/acadia/openapi/acadia-work-instructions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -59,7 +59,7 @@ source_filename: acadia-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/acadia-platform.yaml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: JWT Bearer token for API authentication\n  sources:\n  - openapi/acadia-platform.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acadia/refs/heads/main/authentication/acadia-authentication.yml
+source_yaml_url: https://artifacts.apis.io/acadia/authentication/acadia-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Connected Worker

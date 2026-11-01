@@ -8,43 +8,43 @@ api_specs:
   label: Perchwell Listings API
   slug: perchwell-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/openapi/perchwell-listings-api-openapi.yml
+  url: https://artifacts.apis.io/perchwell/openapi/perchwell-listings-api-openapi.yml
 - filename: perchwell-media-api-openapi.yml
   format: yaml
   label: Perchwell Media API
   slug: perchwell-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/openapi/perchwell-media-api-openapi.yml
+  url: https://artifacts.apis.io/perchwell/openapi/perchwell-media-api-openapi.yml
 - filename: perchwell-member-api-openapi.yml
   format: yaml
   label: Perchwell Member API
   slug: perchwell-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/openapi/perchwell-member-api-openapi.yml
+  url: https://artifacts.apis.io/perchwell/openapi/perchwell-member-api-openapi.yml
 - filename: perchwell-metadata-api-openapi.yml
   format: yaml
   label: Perchwell Metadata API
   slug: perchwell-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/openapi/perchwell-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/perchwell/openapi/perchwell-metadata-api-openapi.yml
 - filename: perchwell-office-api-openapi.yml
   format: yaml
   label: Perchwell Office API
   slug: perchwell-office-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/openapi/perchwell-office-api-openapi.yml
+  url: https://artifacts.apis.io/perchwell/openapi/perchwell-office-api-openapi.yml
 - filename: perchwell-openhouse-api-openapi.yml
   format: yaml
   label: Perchwell OpenHouse API
   slug: perchwell-openhouse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/openapi/perchwell-openhouse-api-openapi.yml
+  url: https://artifacts.apis.io/perchwell/openapi/perchwell-openhouse-api-openapi.yml
 - filename: perchwell-property-api-openapi.yml
   format: yaml
   label: Perchwell Property API
   slug: perchwell-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/openapi/perchwell-property-api-openapi.yml
+  url: https://artifacts.apis.io/perchwell/openapi/perchwell-property-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -87,7 +87,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://docs.perchwell.com/#/reso_getting_started\ndocs: https://docs.perchwell.com\nsummary:\n  types: [apiKey, http]\n  api_key_in: [header]\n  oauth2_flows: []\n  notes: >-\n    All three Perchwell APIs use simple token authentication via the\n    Authorization header. The JSON API sends the raw token\n    (Authorization: {token}); the RESO Web API uses a Bearer token\n    (Authorization: Bearer {token}); the RETS API sends the token in the\n    Authorization header on Login/Search/GetMetadata transactions. There is no\n    OAuth 2.0 authorization server, so there is no scope surface. Credentials\n    are issued by Perchwell support (support@perchwell.com).\nschemes:\n- name: tokenAuth\n  type: apiKey\n  in: header\n  parameter_name: Authorization\n  description: JSON API simple token authentication (raw token in the Authorization header).\n  sources: [openapi/perchwell-json-api-openapi.yml]\n- name: bearerAuth\n  type:\
   \ http\n  scheme: bearer\n  description: RESO Web API token authentication (Authorization Bearer header).\n  sources: [openapi/perchwell-reso-web-api-openapi.yml]\n- name: retsToken\n  type: apiKey\n  in: header\n  parameter_name: Authorization\n  description: >-\n    RETS 1.7 server token authentication (Authorization header on Login, Search,\n    Logout, and GetMetadata transactions at http://rets.perchwell.com:6103).\n  sources: [https://docs.perchwell.com/#/rets_getting_started]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/authentication/perchwell-authentication.yml
+source_yaml_url: https://artifacts.apis.io/perchwell/authentication/perchwell-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Company

@@ -8,7 +8,7 @@ api_specs:
   label: Slab Graph QL API
   slug: slab-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slab/refs/heads/main/openapi/slab-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/slab/openapi/slab-graph-ql-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: slab-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/slab-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: SlabToken\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: API token generated in Slab under Team Settings -> Developer Tools, sent in the\n    Authorization header.\n  sources:\n  - openapi/slab-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/slab/refs/heads/main/authentication/slab-authentication.yml
+source_yaml_url: https://artifacts.apis.io/slab/authentication/slab-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Knowledge Base

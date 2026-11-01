@@ -5,25 +5,25 @@ api_specs:
   label: Solvela Health API
   slug: solvela-ai-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solvela-ai/refs/heads/main/openapi/solvela-ai-health-api-openapi.yml
+  url: https://artifacts.apis.io/solvela-ai/openapi/solvela-ai-health-api-openapi.yml
 - filename: solvela-ai-models-api-openapi.yml
   format: yaml
   label: Solvela Models API
   slug: solvela-ai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solvela-ai/refs/heads/main/openapi/solvela-ai-models-api-openapi.yml
+  url: https://artifacts.apis.io/solvela-ai/openapi/solvela-ai-models-api-openapi.yml
 - filename: solvela-ai-receipts-api-openapi.yml
   format: yaml
   label: Solvela Receipts API
   slug: solvela-ai-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solvela-ai/refs/heads/main/openapi/solvela-ai-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/solvela-ai/openapi/solvela-ai-receipts-api-openapi.yml
 - filename: solvela-ai-chat-completions-api-openapi.yml
   format: yaml
   label: Solvela Chat Completions API
   slug: solvela-ai-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solvela-ai/refs/heads/main/openapi/solvela-ai-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/solvela-ai/openapi/solvela-ai-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -78,7 +78,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: solvela.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 07:55:42 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  hsts_header: max-age=63072000\n  note: 'hsts was recorded null by probe-domain-security.py; strict-transport-security: max-age=63072000 was observed on the\n    402 DEPLOYMENT_DISABLED response from Vercel on 2026-09-19 (curl -i), so the value is corrected from direct observation.'\n- host: api.solvela.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 11:59:46 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_header: max-age=31536000; includeSubDomains\n  note: 'hsts was recorded null by probe-domain-security.py; strict-transport-security: max-age=31536000; includeSubDomains\n    was observed on every response from the gateway on 2026-09-19 (curl -i), so the value is corrected from direct observation.'\n\
   - host: solvela-gateway.fly.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 19 11:49:32 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_header: max-age=31536000; includeSubDomains\n  note: 'hsts was recorded null by probe-domain-security.py; strict-transport-security: max-age=31536000; includeSubDomains\n    was same gateway; observed on the agent-card response on 2026-09-19 (curl -i), so the value is corrected from direct observation.'\ndomains:\n- domain: solvela.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: fly.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n  note: Platform domain of the OpenAPI servers[1] host, not a Solvela domain; its DNS posture is Fly.io's.\nnote: api.solvela.ai answers with content-security-policy default-src none, x-content-type-options nosniff, x-frame-options\n  DENY and referrer-policy no-referrer on every response (observed 2026-09-19). solvela.ai MX is Cloudflare Email Routing;\n  SPF v=spf1\
   \ include:_spf.mx.cloudflare.net ~all; no DMARC record; no CAA; DNSSEC not enabled.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/solvela-ai/refs/heads/main/security/solvela-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/solvela-ai/security/solvela-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

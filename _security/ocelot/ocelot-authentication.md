@@ -7,19 +7,19 @@ api_specs:
   label: Ocelot Authentication API
   slug: ocelot-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocelot/refs/heads/main/openapi/ocelot-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/ocelot/openapi/ocelot-authentication-api-openapi.yml
 - filename: ocelot-cache-api-openapi.yml
   format: yaml
   label: Ocelot Cache API
   slug: ocelot-cache-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocelot/refs/heads/main/openapi/ocelot-cache-api-openapi.yml
+  url: https://artifacts.apis.io/ocelot/openapi/ocelot-cache-api-openapi.yml
 - filename: ocelot-configuration-api-openapi.yml
   format: yaml
   label: Ocelot Configuration API
   slug: ocelot-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocelot/refs/heads/main/openapi/ocelot-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/ocelot/openapi/ocelot-configuration-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: ocelot-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ocelot-administration-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/ocelot-administration-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ocelot/refs/heads/main/authentication/ocelot-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ocelot/authentication/ocelot-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - .NET

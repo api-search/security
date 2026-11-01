@@ -8,25 +8,25 @@ api_specs:
   label: United Natural Foods (UNFI) Insights API
   slug: united-natural-foods-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-natural-foods/refs/heads/main/openapi/united-natural-foods-insights-api-openapi.yml
+  url: https://artifacts.apis.io/united-natural-foods/openapi/united-natural-foods-insights-api-openapi.yml
 - filename: united-natural-foods-orders-api-openapi.yml
   format: yaml
   label: United Natural Foods (UNFI) Orders API
   slug: united-natural-foods-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-natural-foods/refs/heads/main/openapi/united-natural-foods-orders-api-openapi.yml
+  url: https://artifacts.apis.io/united-natural-foods/openapi/united-natural-foods-orders-api-openapi.yml
 - filename: united-natural-foods-products-api-openapi.yml
   format: yaml
   label: United Natural Foods (UNFI) Products API
   slug: united-natural-foods-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-natural-foods/refs/heads/main/openapi/united-natural-foods-products-api-openapi.yml
+  url: https://artifacts.apis.io/united-natural-foods/openapi/united-natural-foods-products-api-openapi.yml
 - filename: united-natural-foods-suppliers-api-openapi.yml
   format: yaml
   label: United Natural Foods (UNFI) Suppliers API
   slug: united-natural-foods-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-natural-foods/refs/heads/main/openapi/united-natural-foods-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/united-natural-foods/openapi/united-natural-foods-suppliers-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: united-natural-foods-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/unfi-supplier-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: UNFI supplier API key\n  sources:\n  - openapi/unfi-supplier-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/united-natural-foods/refs/heads/main/authentication/united-natural-foods-authentication.yml
+source_yaml_url: https://artifacts.apis.io/united-natural-foods/authentication/united-natural-foods-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Food Distribution

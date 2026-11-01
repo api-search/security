@@ -7,31 +7,31 @@ api_specs:
   label: Google AdSense Management Accounts API
   slug: google-adsense-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-adsense/refs/heads/main/openapi/google-adsense-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/google-adsense/openapi/google-adsense-accounts-api-openapi.yml
 - filename: google-adsense-adclients-api-openapi.yml
   format: yaml
   label: Google AdSense Management Adclients API
   slug: google-adsense-adclients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-adsense/refs/heads/main/openapi/google-adsense-adclients-api-openapi.yml
+  url: https://artifacts.apis.io/google-adsense/openapi/google-adsense-adclients-api-openapi.yml
 - filename: google-adsense-payments-api-openapi.yml
   format: yaml
   label: Google AdSense Management Payments API
   slug: google-adsense-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-adsense/refs/heads/main/openapi/google-adsense-payments-api-openapi.yml
+  url: https://artifacts.apis.io/google-adsense/openapi/google-adsense-payments-api-openapi.yml
 - filename: google-adsense-reports-generate-api-openapi.yml
   format: yaml
   label: Google AdSense Management Reports:generate API
   slug: google-adsense-reports-generate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-adsense/refs/heads/main/openapi/google-adsense-reports-generate-api-openapi.yml
+  url: https://artifacts.apis.io/google-adsense/openapi/google-adsense-reports-generate-api-openapi.yml
 - filename: google-adsense-ad-units-api-openapi.yml
   format: yaml
   label: Google AdSense Management Ad Units API
   slug: google-adsense-ad-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-adsense/refs/heads/main/openapi/google-adsense-ad-units-api-openapi.yml
+  url: https://artifacts.apis.io/google-adsense/openapi/google-adsense-ad-units-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -62,7 +62,7 @@ source_filename: google-adsense-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 2\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-adsense/refs/heads/main/authentication/google-adsense-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-adsense/authentication/google-adsense-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Ad Units

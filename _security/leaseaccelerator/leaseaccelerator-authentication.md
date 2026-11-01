@@ -7,55 +7,55 @@ api_specs:
   label: LeaseAccelerator Documents API
   slug: leaseaccelerator-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/openapi/leaseaccelerator-documents-api-openapi.yml
+  url: https://artifacts.apis.io/leaseaccelerator/openapi/leaseaccelerator-documents-api-openapi.yml
 - filename: leaseaccelerator-events-api-openapi.yml
   format: yaml
   label: LeaseAccelerator Events API
   slug: leaseaccelerator-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/openapi/leaseaccelerator-events-api-openapi.yml
+  url: https://artifacts.apis.io/leaseaccelerator/openapi/leaseaccelerator-events-api-openapi.yml
 - filename: leaseaccelerator-financials-api-openapi.yml
   format: yaml
   label: LeaseAccelerator Financials API
   slug: leaseaccelerator-financials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/openapi/leaseaccelerator-financials-api-openapi.yml
+  url: https://artifacts.apis.io/leaseaccelerator/openapi/leaseaccelerator-financials-api-openapi.yml
 - filename: leaseaccelerator-portfolio-api-openapi.yml
   format: yaml
   label: LeaseAccelerator Portfolio API
   slug: leaseaccelerator-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/openapi/leaseaccelerator-portfolio-api-openapi.yml
+  url: https://artifacts.apis.io/leaseaccelerator/openapi/leaseaccelerator-portfolio-api-openapi.yml
 - filename: leaseaccelerator-process-status-api-openapi.yml
   format: yaml
   label: LeaseAccelerator Process Status API
   slug: leaseaccelerator-process-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/openapi/leaseaccelerator-process-status-api-openapi.yml
+  url: https://artifacts.apis.io/leaseaccelerator/openapi/leaseaccelerator-process-status-api-openapi.yml
 - filename: leaseaccelerator-reference-data-api-openapi.yml
   format: yaml
   label: LeaseAccelerator Reference Data API
   slug: leaseaccelerator-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/openapi/leaseaccelerator-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/leaseaccelerator/openapi/leaseaccelerator-reference-data-api-openapi.yml
 - filename: leaseaccelerator-reporting-api-openapi.yml
   format: yaml
   label: LeaseAccelerator Reporting API
   slug: leaseaccelerator-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/openapi/leaseaccelerator-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/leaseaccelerator/openapi/leaseaccelerator-reporting-api-openapi.yml
 - filename: leaseaccelerator-search-api-openapi.yml
   format: yaml
   label: LeaseAccelerator Search API
   slug: leaseaccelerator-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/openapi/leaseaccelerator-search-api-openapi.yml
+  url: https://artifacts.apis.io/leaseaccelerator/openapi/leaseaccelerator-search-api-openapi.yml
 - filename: leaseaccelerator-user-provisioning-api-openapi.yml
   format: yaml
   label: LeaseAccelerator User Provisioning API
   slug: leaseaccelerator-user-provisioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/openapi/leaseaccelerator-user-provisioning-api-openapi.yml
+  url: https://artifacts.apis.io/leaseaccelerator/openapi/leaseaccelerator-user-provisioning-api-openapi.yml
 auth_types:
 - saml2
 - session-token
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: >-\n  https://d
   - name: saml2Token\n  type: saml2-bearer-token\n  transport: multipart/form-data field `token` on the operation POST\n  description: >-\n    A text security token obtained from the LeaseAccelerator SAML2 authentication layer. Instantiates a\n    secure session that can be used for multiple, concurrent, stateless method requests.\n  token_endpoint: https://{environment}.leaseaccelerator.com/auth/api\n  token_endpoint_production: https://www.leaseaccelerator.com/auth/api\n  flow:\n  - step: 1\n    action: >-\n      Obtain the URL for your identity provider (IdP) and login credentials for a user already federated\n      for access in LeaseAccelerator.\n  - step: 2\n    action: >-\n      Submit a SAML2 GET request to the LeaseAccelerator service provider (SP) URL\n      https://{environment}.leaseaccelerator.com/auth/api, identifying the IdP and the credentials to use.\n      This requires an identity provider that supports Enhanced Client or Proxy (ECP) mode.\n  - step: 3\n    action: Extract\
   \ the response, which takes the form of a text security token.\n  - step: 4\n    action: >-\n      POST to https://{environment}.leaseaccelerator.com/lease_accelerator/api/LeaseAccelerator/{operation}\n      with the `token` field set to that security token and the `file` field set to the <APIRequest>\n      document.\n  standards:\n  - SAML 2.0 (OASIS)\n  - SAML 2.0 Enhanced Client or Proxy (ECP) profile\n  reference_implementation:\n    language: java\n    library: shib-http-client\n    url: https://github.com/DARIAH-DE/shib-http-client\n    note: >-\n      The LeaseAccelerator developer documentation recommends this library for Java clients and publishes\n      a complete Java test client as an appendix, using the IdP endpoint\n      {idpBaseUrl}/idp/profile/SAML2/SOAP/ECP.\n    first_party: false\ntransport_security:\n  protocol: HTTPS\n  note: >-\n    LeaseAccelerator's API uses industry standard HTTPS (secure hypertext transfer protocol) with SAML 2\n    authentication for data transfer.\n\
   \  detail: security/leaseaccelerator-domain-security.yml\nuser_provisioning:\n  note: >-\n    LeaseAccelerator exposes SSO user lifecycle management as API operations rather than a separate SCIM\n    endpoint. These operations are intended for use only in environments where Single Sign-On is in use.\n  operations:\n  - FederateUser\n  - UpdateUser\n  - RevokeUser\nscopes:\n  model: role-and-scope-of-access\n  note: >-\n    Authorization is not expressed as OAuth scopes. Access is governed by LeaseAccelerator Access Control\n    roles and a ScopeOfAccess assigned to the federated user (set via the UpdateUser and FederateUser\n    operations). Because there is no OAuth surface, this repo carries no scopes/ artifact.\ndocs: https://docs-leaseaccelerator.insightsoftware.com/hc/en-us/articles/33895814655245-Application-Programming-Interface-API-for-Developers\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/authentication/leaseaccelerator-authentication.yml
+source_yaml_url: https://artifacts.apis.io/leaseaccelerator/authentication/leaseaccelerator-authentication.yml
 summary_line: saml2/session-token · 1 scheme
 tags:
 - Company

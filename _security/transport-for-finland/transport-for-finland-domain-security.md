@@ -27,7 +27,7 @@ source_filename: transport-for-finland-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: digitransit.fi\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 01:31:27 2026 GMT\n  hsts: null\ndomains:\n- domain: digitransit.fi\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transport-for-finland/refs/heads/main/security/transport-for-finland-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/transport-for-finland/security/transport-for-finland-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Transportation

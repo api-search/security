@@ -7,49 +7,49 @@ api_specs:
   label: Airtable Bases API
   slug: airtable-bases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/openapi/airtable-bases-api-openapi.yml
+  url: https://artifacts.apis.io/airtable/openapi/airtable-bases-api-openapi.yml
 - filename: airtable-comments-api-openapi.yml
   format: yaml
   label: Airtable Comments API
   slug: airtable-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/openapi/airtable-comments-api-openapi.yml
+  url: https://artifacts.apis.io/airtable/openapi/airtable-comments-api-openapi.yml
 - filename: airtable-fields-api-openapi.yml
   format: yaml
   label: Airtable Fields API
   slug: airtable-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/openapi/airtable-fields-api-openapi.yml
+  url: https://artifacts.apis.io/airtable/openapi/airtable-fields-api-openapi.yml
 - filename: airtable-groups-api-openapi.yml
   format: yaml
   label: Airtable Groups API
   slug: airtable-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/openapi/airtable-groups-api-openapi.yml
+  url: https://artifacts.apis.io/airtable/openapi/airtable-groups-api-openapi.yml
 - filename: airtable-records-api-openapi.yml
   format: yaml
   label: Airtable Records API
   slug: airtable-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/openapi/airtable-records-api-openapi.yml
+  url: https://artifacts.apis.io/airtable/openapi/airtable-records-api-openapi.yml
 - filename: airtable-tables-api-openapi.yml
   format: yaml
   label: Airtable Tables API
   slug: airtable-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/openapi/airtable-tables-api-openapi.yml
+  url: https://artifacts.apis.io/airtable/openapi/airtable-tables-api-openapi.yml
 - filename: airtable-users-api-openapi.yml
   format: yaml
   label: Airtable Users API
   slug: airtable-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/openapi/airtable-users-api-openapi.yml
+  url: https://artifacts.apis.io/airtable/openapi/airtable-users-api-openapi.yml
 - filename: airtable-webhooks-api-openapi.yml
   format: yaml
   label: Airtable Webhooks API
   slug: airtable-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/openapi/airtable-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/airtable/openapi/airtable-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -81,7 +81,7 @@ source_filename: airtable-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/airtable-airtable-api-openapi.yml, openapi/airtable-audit-logs-api-openapi.yml,\n  openapi/airtable-enterprise-api-openapi.yml, openapi/airtable-metadata-api-openapi.yml, openapi/airtable-scim-api-openapi.yml,\n  openapi/airtable-shares-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Airtable uses Bearer token authentication. Provide a personal access token or\n    OAuth access token in the Authorization header.\n  sources:\n  - openapi/airtable-airtable-api-openapi.yml\n  - openapi/airtable-audit-logs-api-openapi.yml\n  - openapi/airtable-enterprise-api-openapi.yml\n  - openapi/airtable-metadata-api-openapi.yml\n  - openapi/airtable-scim-api-openapi.yml\n  - openapi/airtable-shares-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/authentication/airtable-authentication.yml
+source_yaml_url: https://artifacts.apis.io/airtable/authentication/airtable-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Application

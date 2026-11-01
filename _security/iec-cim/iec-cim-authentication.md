@@ -7,31 +7,31 @@ api_specs:
   label: iec-cim Customers API
   slug: iec-cim-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iec-cim/refs/heads/main/openapi/iec-cim-customers-api-openapi.yml
+  url: https://artifacts.apis.io/iec-cim/openapi/iec-cim-customers-api-openapi.yml
 - filename: iec-cim-metering-api-openapi.yml
   format: yaml
   label: iec-cim Metering API
   slug: iec-cim-metering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iec-cim/refs/heads/main/openapi/iec-cim-metering-api-openapi.yml
+  url: https://artifacts.apis.io/iec-cim/openapi/iec-cim-metering-api-openapi.yml
 - filename: iec-cim-network-assets-api-openapi.yml
   format: yaml
   label: iec-cim Network Assets API
   slug: iec-cim-network-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iec-cim/refs/heads/main/openapi/iec-cim-network-assets-api-openapi.yml
+  url: https://artifacts.apis.io/iec-cim/openapi/iec-cim-network-assets-api-openapi.yml
 - filename: iec-cim-outages-api-openapi.yml
   format: yaml
   label: iec-cim Outages API
   slug: iec-cim-outages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iec-cim/refs/heads/main/openapi/iec-cim-outages-api-openapi.yml
+  url: https://artifacts.apis.io/iec-cim/openapi/iec-cim-outages-api-openapi.yml
 - filename: iec-cim-work-orders-api-openapi.yml
   format: yaml
   label: iec-cim Work Orders API
   slug: iec-cim-work-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iec-cim/refs/heads/main/openapi/iec-cim-work-orders-api-openapi.yml
+  url: https://artifacts.apis.io/iec-cim/openapi/iec-cim-work-orders-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -67,7 +67,7 @@ source_filename: iec-cim-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/iec-cim-61968-distribution-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.utility.example.com/oauth/token\n    scopes: 2\n  sources:\n  - openapi/iec-cim-61968-distribution-openapi.yml\n- name: BasicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/iec-cim-61968-distribution-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iec-cim/refs/heads/main/authentication/iec-cim-authentication.yml
+source_yaml_url: https://artifacts.apis.io/iec-cim/authentication/iec-cim-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Energy

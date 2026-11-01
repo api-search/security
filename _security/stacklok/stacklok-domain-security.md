@@ -5,97 +5,97 @@ api_specs:
   label: Stacklok Clients API
   slug: stacklok-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-clients-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-clients-api-openapi.yml
 - filename: stacklok-discovery-api-openapi.yml
   format: yaml
   label: Stacklok Discovery API
   slug: stacklok-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-discovery-api-openapi.yml
 - filename: stacklok-groups-api-openapi.yml
   format: yaml
   label: Stacklok Groups API
   slug: stacklok-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-groups-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-groups-api-openapi.yml
 - filename: stacklok-logs-api-openapi.yml
   format: yaml
   label: Stacklok Logs API
   slug: stacklok-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-logs-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-logs-api-openapi.yml
 - filename: stacklok-registry-api-openapi.yml
   format: yaml
   label: Stacklok Registry API
   slug: stacklok-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-registry-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-registry-api-openapi.yml
 - filename: stacklok-registry-servers-api-openapi.yml
   format: yaml
   label: Stacklok Registry Servers API
   slug: stacklok-registry-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-registry-servers-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-registry-servers-api-openapi.yml
 - filename: stacklok-registry-skills-api-openapi.yml
   format: yaml
   label: Stacklok Registry Skills API
   slug: stacklok-registry-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-registry-skills-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-registry-skills-api-openapi.yml
 - filename: stacklok-secrets-api-openapi.yml
   format: yaml
   label: Stacklok Secrets API
   slug: stacklok-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-secrets-api-openapi.yml
 - filename: stacklok-skills-api-openapi.yml
   format: yaml
   label: Stacklok Skills API
   slug: stacklok-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-skills-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-skills-api-openapi.yml
 - filename: stacklok-system-api-openapi.yml
   format: yaml
   label: Stacklok System API
   slug: stacklok-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-system-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-system-api-openapi.yml
 - filename: stacklok-version-api-openapi.yml
   format: yaml
   label: Stacklok Version API
   slug: stacklok-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-version-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-version-api-openapi.yml
 - filename: stacklok-workloads-api-openapi.yml
   format: yaml
   label: Stacklok Workloads API
   slug: stacklok-workloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-workloads-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-workloads-api-openapi.yml
 - filename: stacklok-entries-api-openapi.yml
   format: yaml
   label: Stacklok Entries API
   slug: stacklok-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-entries-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-entries-api-openapi.yml
 - filename: stacklok-me-api-openapi.yml
   format: yaml
   label: Stacklok Me API
   slug: stacklok-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-me-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-me-api-openapi.yml
 - filename: stacklok-registries-api-openapi.yml
   format: yaml
   label: Stacklok Registries API
   slug: stacklok-registries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-registries-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-registries-api-openapi.yml
 - filename: stacklok-sources-api-openapi.yml
   format: yaml
   label: Stacklok Sources API
   slug: stacklok-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-sources-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-sources-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -128,7 +128,7 @@ source_filename: stacklok-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.stacklok.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 22:40:31 2026 GMT\n  hsts: false\ndomains:\n- domain: stacklok.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 iodef \"mailto:infra@stacklok.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/security/stacklok-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/stacklok/security/stacklok-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

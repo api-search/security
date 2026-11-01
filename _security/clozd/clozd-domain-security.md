@@ -5,43 +5,43 @@ api_specs:
   label: Clozd /programs API
   slug: clozd-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/openapi/clozd-programs-api-openapi.yml
+  url: https://artifacts.apis.io/clozd/openapi/clozd-programs-api-openapi.yml
 - filename: clozd-programs-program-id-competitors-api-openapi.yml
   format: yaml
   label: Clozd /programs/:program Id/competitors API
   slug: clozd-programs-program-id-competitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/openapi/clozd-programs-program-id-competitors-api-openapi.yml
+  url: https://artifacts.apis.io/clozd/openapi/clozd-programs-program-id-competitors-api-openapi.yml
 - filename: clozd-programs-program-id-deals-api-openapi.yml
   format: yaml
   label: Clozd /programs/:program Id/deals API
   slug: clozd-programs-program-id-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/openapi/clozd-programs-program-id-deals-api-openapi.yml
+  url: https://artifacts.apis.io/clozd/openapi/clozd-programs-program-id-deals-api-openapi.yml
 - filename: clozd-programs-program-id-deals-deal-id-api-openapi.yml
   format: yaml
   label: Clozd /programs/:program Id/deals/:deal ID API
   slug: clozd-programs-program-id-deals-deal-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/openapi/clozd-programs-program-id-deals-deal-id-api-openapi.yml
+  url: https://artifacts.apis.io/clozd/openapi/clozd-programs-program-id-deals-deal-id-api-openapi.yml
 - filename: clozd-programs-program-id-deals-import-api-openapi.yml
   format: yaml
   label: Clozd /programs/:program Id/deals/import API
   slug: clozd-programs-program-id-deals-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/openapi/clozd-programs-program-id-deals-import-api-openapi.yml
+  url: https://artifacts.apis.io/clozd/openapi/clozd-programs-program-id-deals-import-api-openapi.yml
 - filename: clozd-programs-program-id-touchpoints-api-openapi.yml
   format: yaml
   label: Clozd /programs/:program Id/touchpoints API
   slug: clozd-programs-program-id-touchpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/openapi/clozd-programs-program-id-touchpoints-api-openapi.yml
+  url: https://artifacts.apis.io/clozd/openapi/clozd-programs-program-id-touchpoints-api-openapi.yml
 - filename: clozd-programs-program-id-touchpoints-touchpoint-id-api-openapi.yml
   format: yaml
   label: Clozd /programs/:program Id/touchpoints/:touchpoint ID API
   slug: clozd-programs-program-id-touchpoints-touchpoint-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/openapi/clozd-programs-program-id-touchpoints-touchpoint-id-api-openapi.yml
+  url: https://artifacts.apis.io/clozd/openapi/clozd-programs-program-id-touchpoints-touchpoint-id-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -88,7 +88,7 @@ source_filename: clozd-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.clozd.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 23:41:30 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: help.clozd.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 00:00:49 2026 GMT\n  hsts: true\n  hsts_max_age: 259200\n- host: mcp.clozd.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  4 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: clozd.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"sectigo.com\"\n  - 0 iodef \"mailto:security@clozd.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/security/clozd-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/clozd/security/clozd-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Win-Loss Analysis

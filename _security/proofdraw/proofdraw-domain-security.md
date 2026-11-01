@@ -5,31 +5,31 @@ api_specs:
   label: ProofDraw Account API
   slug: proofdraw-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/proofdraw/refs/heads/main/openapi/proofdraw-account-api-openapi.yml
+  url: https://artifacts.apis.io/proofdraw/openapi/proofdraw-account-api-openapi.yml
 - filename: proofdraw-auth-api-openapi.yml
   format: yaml
   label: ProofDraw Auth API
   slug: proofdraw-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/proofdraw/refs/heads/main/openapi/proofdraw-auth-api-openapi.yml
+  url: https://artifacts.apis.io/proofdraw/openapi/proofdraw-auth-api-openapi.yml
 - filename: proofdraw-draws-api-openapi.yml
   format: yaml
   label: ProofDraw Draws API
   slug: proofdraw-draws-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/proofdraw/refs/heads/main/openapi/proofdraw-draws-api-openapi.yml
+  url: https://artifacts.apis.io/proofdraw/openapi/proofdraw-draws-api-openapi.yml
 - filename: proofdraw-system-api-openapi.yml
   format: yaml
   label: ProofDraw System API
   slug: proofdraw-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/proofdraw/refs/heads/main/openapi/proofdraw-system-api-openapi.yml
+  url: https://artifacts.apis.io/proofdraw/openapi/proofdraw-system-api-openapi.yml
 - filename: proofdraw-verification-api-openapi.yml
   format: yaml
   label: ProofDraw Verification API
   slug: proofdraw-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/proofdraw/refs/heads/main/openapi/proofdraw-verification-api-openapi.yml
+  url: https://artifacts.apis.io/proofdraw/openapi/proofdraw-verification-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: proofdraw-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: proofdraw.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 00:56:57 2026 GMT\n  hsts: false\ndomains:\n- domain: proofdraw.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/proofdraw/refs/heads/main/security/proofdraw-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/proofdraw/security/proofdraw-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Randomness
@@ -67,7 +67,7 @@ tags:
 - Verifiable Randomness
 - Cryptography
 - raffle
-- Giveaway
+- Giveaways
 - Sweepstakes
 - Lottery
 - Verification

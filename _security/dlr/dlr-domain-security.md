@@ -5,19 +5,19 @@ api_specs:
   label: DLR Capabilities API
   slug: dlr-capabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dlr/refs/heads/main/openapi/dlr-capabilities-api-openapi.yml
+  url: https://artifacts.apis.io/dlr/openapi/dlr-capabilities-api-openapi.yml
 - filename: dlr-data-api-openapi.yml
   format: yaml
   label: DLR Data API
   slug: dlr-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dlr/refs/heads/main/openapi/dlr-data-api-openapi.yml
+  url: https://artifacts.apis.io/dlr/openapi/dlr-data-api-openapi.yml
 - filename: dlr-stac-api-openapi.yml
   format: yaml
   label: DLR STAC API
   slug: dlr-stac-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dlr/refs/heads/main/openapi/dlr-stac-api-openapi.yml
+  url: https://artifacts.apis.io/dlr/openapi/dlr-stac-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: dlr-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: geoservice.dlr.de\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 31 05:57:00 2026 GMT\n  hsts: true\n  hsts_max_age: 15768000\n- host: eoweb.dlr.de\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 22 11:41:13 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: dlr.de\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dlr/refs/heads/main/security/dlr-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dlr/security/dlr-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Earth Observation

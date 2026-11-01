@@ -5,7 +5,7 @@ api_specs:
   label: Clix Clix External Service API
   slug: clix-so-clixexternalservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clix-so/refs/heads/main/openapi/clix-so-clixexternalservice-api-openapi.yml
+  url: https://artifacts.apis.io/clix-so/openapi/clix-so-clixexternalservice-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,7 +39,7 @@ source_filename: clix-so-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: clix.so\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 17:18:31 2026 GMT\n  hsts: false\n- host: api.clix.so\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 10:38:42 2026 GMT\n  hsts: null\ndomains:\n- domain: clix.so\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clix-so/refs/heads/main/security/clix-so-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/clix-so/security/clix-so-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Push Notifications

@@ -5,43 +5,43 @@ api_specs:
   label: Allmodels Account API
   slug: allmodels-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allmodels/refs/heads/main/openapi/allmodels-account-api-openapi.yml
+  url: https://artifacts.apis.io/allmodels/openapi/allmodels-account-api-openapi.yml
 - filename: allmodels-allmodels-api-api-openapi.yml
   format: yaml
   label: Allmodels Allmodels API
   slug: allmodels-allmodels-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allmodels/refs/heads/main/openapi/allmodels-allmodels-api-api-openapi.yml
+  url: https://artifacts.apis.io/allmodels/openapi/allmodels-allmodels-api-api-openapi.yml
 - filename: allmodels-custom-voices-api-openapi.yml
   format: yaml
   label: Allmodels Custom Voices API
   slug: allmodels-custom-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allmodels/refs/heads/main/openapi/allmodels-custom-voices-api-openapi.yml
+  url: https://artifacts.apis.io/allmodels/openapi/allmodels-custom-voices-api-openapi.yml
 - filename: allmodels-el-api-openapi.yml
   format: yaml
   label: Allmodels El API
   slug: allmodels-el-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allmodels/refs/heads/main/openapi/allmodels-el-api-openapi.yml
+  url: https://artifacts.apis.io/allmodels/openapi/allmodels-el-api-openapi.yml
 - filename: allmodels-health-api-openapi.yml
   format: yaml
   label: Allmodels Health API
   slug: allmodels-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allmodels/refs/heads/main/openapi/allmodels-health-api-openapi.yml
+  url: https://artifacts.apis.io/allmodels/openapi/allmodels-health-api-openapi.yml
 - filename: allmodels-oai-api-openapi.yml
   format: yaml
   label: Allmodels Oai API
   slug: allmodels-oai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allmodels/refs/heads/main/openapi/allmodels-oai-api-openapi.yml
+  url: https://artifacts.apis.io/allmodels/openapi/allmodels-oai-api-openapi.yml
 - filename: allmodels-realtime-api-openapi.yml
   format: yaml
   label: Allmodels Realtime API
   slug: allmodels-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allmodels/refs/heads/main/openapi/allmodels-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/allmodels/openapi/allmodels-realtime-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,12 +70,12 @@ source_filename: allmodels-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: allmodels.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 10 08:14:59 2027 GMT\n  hsts: false\ndomains:\n- domain: allmodels.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allmodels/refs/heads/main/security/allmodels-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/allmodels/security/allmodels-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- VoiceAI
-- TextToSpeech
-- SpeechToText
+- Voice AI
+- Text-to-Speech
+- Speech-to-Text
 - Real-Time
 ---

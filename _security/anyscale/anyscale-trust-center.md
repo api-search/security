@@ -14,7 +14,7 @@ source_filename: anyscale-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.anyscale.com/\nurl: https://trust.anyscale.com/\nevidence:\n- source: https://trust.anyscale.com/\n  keywords:\n  - trust center\n  - compliance certification\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anyscale/refs/heads/main/security/anyscale-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/anyscale/security/anyscale-trust-center.yml
 summary_line: trust center published
 tags:
 - Artificial Intelligence

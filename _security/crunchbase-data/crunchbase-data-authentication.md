@@ -9,31 +9,31 @@ api_specs:
   label: Crunchbase Autocomplete API
   slug: crunchbase-data-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-data-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/crunchbase-data/openapi/crunchbase-data-autocomplete-api-openapi.yml
 - filename: crunchbase-data-deleted-entities-api-openapi.yml
   format: yaml
   label: Crunchbase Deleted Entities API
   slug: crunchbase-data-deleted-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-data-deleted-entities-api-openapi.yml
+  url: https://artifacts.apis.io/crunchbase-data/openapi/crunchbase-data-deleted-entities-api-openapi.yml
 - filename: crunchbase-data-entity-api-openapi.yml
   format: yaml
   label: Crunchbase Entity API
   slug: crunchbase-data-entity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-data-entity-api-openapi.yml
+  url: https://artifacts.apis.io/crunchbase-data/openapi/crunchbase-data-entity-api-openapi.yml
 - filename: crunchbase-data-metadata-api-openapi.yml
   format: yaml
   label: Crunchbase Metadata API
   slug: crunchbase-data-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-data-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/crunchbase-data/openapi/crunchbase-data-metadata-api-openapi.yml
 - filename: crunchbase-data-search-api-openapi.yml
   format: yaml
   label: Crunchbase Search API
   slug: crunchbase-data-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-data-search-api-openapi.yml
+  url: https://artifacts.apis.io/crunchbase-data/openapi/crunchbase-data-search-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: https://data.cr
   \ Documents (CIMD) supported; Dynamic Client Registration\n    explicitly NOT supported. Clients without CIMD need a client_id/client_secret\n    pre-registered by a Crunchbase CSM and retrieved under Settings > Integrations > MCP.\n  sources:\n  - https://www.crunchbase.com/.well-known/oauth-authorization-server\n  - https://mcp.crunchbase.com/.well-known/oauth-protected-resource\n  - https://data.crunchbase.com/docs/connecting-ai-tools\nkey_issuance:\n  self_serve: false\n  where: Crunchbase UI - Account Settings > Integrations > Crunchbase API Key (\"Show Key\")\n  gate: >-\n    Full API access requires an Enterprise or Applications licence. Holders of the paid\n    Crunchbase Basic plan get a reduced Basic API. There is no free or trial API key.\n  support_contact: api@crunchbase.com\n  note: >-\n    Legacy keys are being retired. Each legacy key has been mapped to the data package\n    that mirrors its previous plan; see lifecycle/crunchbase-data-lifecycle.yml.\ntransport:\n  https_required:\
   \ true\n  http_response: 426\nauthorization_model:\n  rest: >-\n    No scopes and no roles. Authorization is package-shaped: the key is provisioned to\n    one of Fundamentals / Insights / Predictions (published as six OpenAPI documents),\n    and an operation outside that package is simply not callable. There is no way to\n    express least privilege within a key.\n  mcp: >-\n    Two OAuth scopes (offline_access, lists.read) plus a per-user MCP seat that\n    Crunchbase documents as carrying its highest level of data access including\n    predictions and insights. Notably, no lists.write scope is advertised even though\n    cb_list_create and cb_list_add_entities are documented write tools.\nobserved:\n  unauthenticated_response:\n    status: 401\n    body: '[{\"status\":401,\"code\":\"LA401\",\"message\":\"Unauthorized user_key\"}]'\n    note: >-\n      Probed 2026-08-14. Every path on api.crunchbase.com returns this, including\n      /.well-known/* - the origin authenticates ahead of\
   \ routing.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/authentication/crunchbase-data-authentication.yml
+source_yaml_url: https://artifacts.apis.io/crunchbase-data/authentication/crunchbase-data-authentication.yml
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - Company Data

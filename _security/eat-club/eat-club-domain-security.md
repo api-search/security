@@ -28,7 +28,7 @@ source_filename: eat-club-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.eatclub.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 25 00:43:14 2026 GMT\n  hsts: true\n  hsts_max_age: 300\ndomains:\n- domain: eatclub.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eat-club/refs/heads/main/security/eat-club-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/eat-club/security/eat-club-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company

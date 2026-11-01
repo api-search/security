@@ -5,55 +5,55 @@ api_specs:
   label: Microsoft SharePoint Files API
   slug: sharepoint-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-files-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-files-api-openapi.yml
 - filename: sharepoint-items-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint Items API
   slug: sharepoint-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-items-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-items-api-openapi.yml
 - filename: sharepoint-lists-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint Lists API
   slug: sharepoint-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-lists-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-lists-api-openapi.yml
 - filename: sharepoint-search-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint Search API
   slug: sharepoint-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-search-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-search-api-openapi.yml
 - filename: sharepoint-sites-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint Sites API
   slug: sharepoint-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-sites-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-sites-api-openapi.yml
 - filename: sharepoint-user-profiles-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint User Profiles API
   slug: sharepoint-user-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-user-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-user-profiles-api-openapi.yml
 - filename: sharepoint-batch-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint $batch API
   slug: microsoft-sharepoint-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-batch-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-batch-api-openapi.yml
 - filename: sharepoint-listitems-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint ListItems API
   slug: microsoft-sharepoint-listitems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-listitems-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-listitems-api-openapi.yml
 - filename: sharepoint-site-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint Site API
   slug: microsoft-sharepoint-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-site-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-site-api-openapi.yml
 certification_count: 15
 certifications:
 - SOC 1 Type 2
@@ -85,7 +85,7 @@ source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-06-20'\nmethod: searched\nprobe: true\nurl: https://www.microsoft.com/en-us/trust-center\nservice_trust_portal: https://servicetrust.microsoft.com/\nnotes: >-\n  SharePoint Online is covered by the Microsoft 365 / Office 365 compliance program. Audit\n  reports (SOC 1/2/3, ISO, FedRAMP) are published behind the Service Trust Portal; most\n  downloads require a signed-in Microsoft Entra org account and NDA acceptance. Certifications\n  below are from the Microsoft compliance offerings documentation for Microsoft 365 services.\ncertifications:\n  - SOC 1 Type 2\n  - SOC 2 Type 2\n  - SOC 3\n  - ISO 27001\n  - ISO 27017\n  - ISO 27018\n  - ISO 27701\n  - ISO 22301\n  - ISO 9001\n  - FedRAMP High\n  - HIPAA / HITECH\n  - HITRUST CSF\n  - PCI DSS\n  - GDPR\n  - CSA STAR\nevidence:\n  - {source: https://learn.microsoft.com/en-us/compliance/regulatory/offering-home, keywords: [soc 2, iso 27001, fedramp, hipaa]}\n  - {source: https://servicetrust.microsoft.com/documents/compliancereports,\
   \ keywords: [audit reports, soc, iso]}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/security/sharepoint-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/sharepoint/security/sharepoint-trust-center.yml
 summary_line: SOC 1 Type 2, SOC 2 Type 2, SOC 3, ISO 27001, ISO 27017, ISO 27018, ISO 27701, ISO 22301, ISO 9001, FedRAMP High, HIPAA / HITECH, HITRUST CSF, PCI DSS, GDPR, CSA STAR
 tags:
 - Collaboration

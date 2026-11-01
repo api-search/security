@@ -8,7 +8,7 @@ api_specs:
   label: Imgur API
   slug: imgur-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/postman/medialab-ai-imgur-api.postman_collection.json
+  url: https://artifacts.apis.io/medialab-ai/postman/medialab-ai-imgur-api.postman_collection.json
 auth_types:
 - oauth2
 - http
@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-08-01'\nmethod: searched\nsource: https://docs.ge
   \ for read-only endpoints that are not restricted by a required scope -\n    it cannot create or manage annotations, vote, or read /account.\n  scoped: false\n- name: ImgurClientID\n  api: Imgur API\n  type: apiKey\n  in: header\n  name_in_request: Authorization\n  format: 'Authorization: Client-ID YOUR_CLIENT_ID'\n  source: https://apidocs.imgur.com/#authorization-and-oauth\n  description: >-\n    Application-level credential for public read-only and anonymous resources -\n    reading image info, looking up user comments, anonymous image upload, anonymous\n    album creation. Identifies the calling application; grants no account access.\n- name: ImgurOAuth2\n  api: Imgur API\n  type: oauth2\n  source: https://apidocs.imgur.com/#authorization-and-oauth\n  transport_required: HTTPS\n  registration_endpoint: https://api.imgur.com/oauth2/addclient\n  token_introspection: https://api.imgur.com/oauth2/secret\n  flows:\n  - flow: implicit\n    authorizationUrl: https://api.imgur.com/oauth2/authorize\n\
   \    response_type: token\n    note: >-\n      Imgur documents token as the only supported response_type - \"Only token should\n      be used, as the other methods have been deprecated.\" The code and pin response\n      types are deprecated.\n  - flow: refreshToken\n    tokenUrl: https://api.imgur.com/oauth2/token\n    grant_type: refresh_token\n    parameters:\n    - refresh_token\n    - client_id\n    - client_secret\n    - grant_type\n  deprecated_flows:\n  - response_type: code\n  - response_type: pin\n  token_lifetimes:\n    access_token: 1 month (documented); expires_in returned as 3600 in the example response\n    refresh_token: does not expire\n  token_presentation:\n  - location: header\n    form: 'Authorization: Bearer YOUR_ACCESS_TOKEN'\n    preferred: true\n  scopes: none\n  scopes_note: >-\n    Imgur's OAuth 2.0 implementation documents no scope parameter - an authorized\n    access token carries full account access for the granting user.\ncommercial_auth:\n- api: Imgur API\n\
   \  requirement: >-\n    Commercial use must be registered with RapidAPI. The base URL changes to\n    https://imgur-apiv3.p.rapidapi.com/ and an X-Mashape-Key request header carrying\n    the RapidAPI key must be set in addition to the Imgur credential.\n  source: https://apidocs.imgur.com/#commercial-usage\n- api: Genius API\n  requirement: >-\n    \"Commercial use of the Genius API is not allowed without a license.\" Licensing is\n    arranged by contacting api-sales@genius.com.\n  source: https://docs.genius.com/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/authentication/medialab-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/medialab-ai/authentication/medialab-ai-authentication.yml
 summary_line: oauth2/http · 4 schemes
 tags:
 - Company

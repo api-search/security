@@ -5,85 +5,85 @@ api_specs:
   label: Algorand Common API
   slug: algorand-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-common-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-common-api-openapi.yml
 - filename: algorand-key-api-openapi.yml
   format: yaml
   label: Algorand Key API
   slug: algorand-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-key-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-key-api-openapi.yml
 - filename: algorand-lookup-api-openapi.yml
   format: yaml
   label: Algorand Lookup API
   slug: algorand-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-lookup-api-openapi.yml
 - filename: algorand-master-key-api-openapi.yml
   format: yaml
   label: Algorand Master Key API
   slug: algorand-master-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-master-key-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-master-key-api-openapi.yml
 - filename: algorand-multisig-api-openapi.yml
   format: yaml
   label: Algorand Multisig API
   slug: algorand-multisig-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-multisig-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-multisig-api-openapi.yml
 - filename: algorand-private-api-openapi.yml
   format: yaml
   label: Algorand Private API
   slug: algorand-private-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-private-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-private-api-openapi.yml
 - filename: algorand-program-api-openapi.yml
   format: yaml
   label: Algorand Program API
   slug: algorand-program-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-program-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-program-api-openapi.yml
 - filename: algorand-public-api-openapi.yml
   format: yaml
   label: Algorand Public API
   slug: algorand-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-public-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-public-api-openapi.yml
 - filename: algorand-search-api-openapi.yml
   format: yaml
   label: Algorand Search API
   slug: algorand-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-search-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-search-api-openapi.yml
 - filename: algorand-swagger-json-api-openapi.yml
   format: yaml
   label: Algorand Swagger.json API
   slug: algorand-swagger-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-swagger-json-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-swagger-json-api-openapi.yml
 - filename: algorand-transaction-api-openapi.yml
   format: yaml
   label: Algorand Transaction API
   slug: algorand-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-transaction-api-openapi.yml
 - filename: algorand-versions-api-openapi.yml
   format: yaml
   label: Algorand Versions API
   slug: algorand-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-versions-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-versions-api-openapi.yml
 - filename: algorand-wallet-api-openapi.yml
   format: yaml
   label: Algorand Wallet API
   slug: algorand-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-wallet-api-openapi.yml
 - filename: algorand-wallets-api-openapi.yml
   format: yaml
   label: Algorand Wallets API
   slug: algorand-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-wallets-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -128,7 +128,7 @@ source_filename: algorand-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: algorand.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 18:41:32 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: dev.algorand.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 21:19:56 2026 GMT\n  hsts: false\n- host: mainnet-api.4160.nodely.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 16:09:24 2026 GMT\n  hsts: false\ndomains:\n- domain: algorand.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: nodely.dev\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/security/algorand-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/algorand/security/algorand-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Blockchain

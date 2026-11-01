@@ -5,25 +5,25 @@ api_specs:
   label: Patch Order Line Items API
   slug: patch-io-order-line-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/patch-io/refs/heads/main/openapi/patch-io-order-line-items-api-openapi.yml
+  url: https://artifacts.apis.io/patch-io/openapi/patch-io-order-line-items-api-openapi.yml
 - filename: patch-io-orders-api-openapi.yml
   format: yaml
   label: Patch Orders API
   slug: patch-io-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/patch-io/refs/heads/main/openapi/patch-io-orders-api-openapi.yml
+  url: https://artifacts.apis.io/patch-io/openapi/patch-io-orders-api-openapi.yml
 - filename: patch-io-projects-api-openapi.yml
   format: yaml
   label: Patch Projects API
   slug: patch-io-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/patch-io/refs/heads/main/openapi/patch-io-projects-api-openapi.yml
+  url: https://artifacts.apis.io/patch-io/openapi/patch-io-projects-api-openapi.yml
 - filename: patch-io-technology-types-api-openapi.yml
   format: yaml
   label: Patch Technology Types API
   slug: patch-io-technology-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/patch-io/refs/heads/main/openapi/patch-io-technology-types-api-openapi.yml
+  url: https://artifacts.apis.io/patch-io/openapi/patch-io-technology-types-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -65,7 +65,7 @@ source_filename: patch-io-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.patch.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 06:01:40 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.patch.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  7 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.patch.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  7 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: patch.io\n  dnssec: false\n  caa:\n  - ;; connection timed out; no servers could be reached\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/patch-io/refs/heads/main/security/patch-io-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/patch-io/security/patch-io-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Climate

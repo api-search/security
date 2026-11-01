@@ -28,7 +28,7 @@ source_filename: culturehero-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.culturehero.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 21:06:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\ndomains:\n- domain: culturehero.co\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/culturehero/refs/heads/main/security/culturehero-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/culturehero/security/culturehero-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Employee Engagement

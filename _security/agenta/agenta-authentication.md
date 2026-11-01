@@ -7,43 +7,43 @@ api_specs:
   label: Agenta Applications API
   slug: agenta-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenta/refs/heads/main/openapi/agenta-applications-api-openapi.yml
+  url: https://artifacts.apis.io/agenta/openapi/agenta-applications-api-openapi.yml
 - filename: agenta-configs-api-openapi.yml
   format: yaml
   label: Agenta Configs API
   slug: agenta-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenta/refs/heads/main/openapi/agenta-configs-api-openapi.yml
+  url: https://artifacts.apis.io/agenta/openapi/agenta-configs-api-openapi.yml
 - filename: agenta-evaluations-api-openapi.yml
   format: yaml
   label: Agenta Evaluations API
   slug: agenta-evaluations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenta/refs/heads/main/openapi/agenta-evaluations-api-openapi.yml
+  url: https://artifacts.apis.io/agenta/openapi/agenta-evaluations-api-openapi.yml
 - filename: agenta-evaluators-api-openapi.yml
   format: yaml
   label: Agenta Evaluators API
   slug: agenta-evaluators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenta/refs/heads/main/openapi/agenta-evaluators-api-openapi.yml
+  url: https://artifacts.apis.io/agenta/openapi/agenta-evaluators-api-openapi.yml
 - filename: agenta-traces-api-openapi.yml
   format: yaml
   label: Agenta Traces API
   slug: agenta-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenta/refs/heads/main/openapi/agenta-traces-api-openapi.yml
+  url: https://artifacts.apis.io/agenta/openapi/agenta-traces-api-openapi.yml
 - filename: agenta-open-telemetry-api-openapi.yml
   format: yaml
   label: Agenta Open Telemetry API
   slug: agenta-open-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenta/refs/heads/main/openapi/agenta-open-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/agenta/openapi/agenta-open-telemetry-api-openapi.yml
 - filename: agenta-test-sets-api-openapi.yml
   format: yaml
   label: Agenta Test Sets API
   slug: agenta-test-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenta/refs/heads/main/openapi/agenta-test-sets-api-openapi.yml
+  url: https://artifacts.apis.io/agenta/openapi/agenta-test-sets-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -70,7 +70,7 @@ source_filename: agenta-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/agenta-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: ApiKeyAuth\n  type: http\n  scheme: bearer\n  description: 'Agenta API key sent in the Authorization header. Generate keys from the Agenta\n    web app under Settings > API keys. The value is passed as `Authorization: ApiKey <key>`\n    (Bearer-style header credential).'\n  sources:\n  - openapi/agenta-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agenta/refs/heads/main/authentication/agenta-authentication.yml
+source_yaml_url: https://artifacts.apis.io/agenta/authentication/agenta-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

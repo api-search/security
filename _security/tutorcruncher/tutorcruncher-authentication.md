@@ -8,61 +8,61 @@ api_specs:
   label: TutorCruncher Agents API
   slug: tutorcruncher-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tutorcruncher/refs/heads/main/openapi/tutorcruncher-agents-api-openapi.yml
+  url: https://artifacts.apis.io/tutorcruncher/openapi/tutorcruncher-agents-api-openapi.yml
 - filename: tutorcruncher-appointments-api-openapi.yml
   format: yaml
   label: TutorCruncher Appointments API
   slug: tutorcruncher-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tutorcruncher/refs/heads/main/openapi/tutorcruncher-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/tutorcruncher/openapi/tutorcruncher-appointments-api-openapi.yml
 - filename: tutorcruncher-clients-api-openapi.yml
   format: yaml
   label: TutorCruncher Clients API
   slug: tutorcruncher-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tutorcruncher/refs/heads/main/openapi/tutorcruncher-clients-api-openapi.yml
+  url: https://artifacts.apis.io/tutorcruncher/openapi/tutorcruncher-clients-api-openapi.yml
 - filename: tutorcruncher-contractors-api-openapi.yml
   format: yaml
   label: TutorCruncher Contractors API
   slug: tutorcruncher-contractors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tutorcruncher/refs/heads/main/openapi/tutorcruncher-contractors-api-openapi.yml
+  url: https://artifacts.apis.io/tutorcruncher/openapi/tutorcruncher-contractors-api-openapi.yml
 - filename: tutorcruncher-invoices-api-openapi.yml
   format: yaml
   label: TutorCruncher Invoices API
   slug: tutorcruncher-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tutorcruncher/refs/heads/main/openapi/tutorcruncher-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/tutorcruncher/openapi/tutorcruncher-invoices-api-openapi.yml
 - filename: tutorcruncher-payments-api-openapi.yml
   format: yaml
   label: TutorCruncher Payments API
   slug: tutorcruncher-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tutorcruncher/refs/heads/main/openapi/tutorcruncher-payments-api-openapi.yml
+  url: https://artifacts.apis.io/tutorcruncher/openapi/tutorcruncher-payments-api-openapi.yml
 - filename: tutorcruncher-recipients-api-openapi.yml
   format: yaml
   label: TutorCruncher Recipients API
   slug: tutorcruncher-recipients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tutorcruncher/refs/heads/main/openapi/tutorcruncher-recipients-api-openapi.yml
+  url: https://artifacts.apis.io/tutorcruncher/openapi/tutorcruncher-recipients-api-openapi.yml
 - filename: tutorcruncher-reference-api-openapi.yml
   format: yaml
   label: TutorCruncher Reference API
   slug: tutorcruncher-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tutorcruncher/refs/heads/main/openapi/tutorcruncher-reference-api-openapi.yml
+  url: https://artifacts.apis.io/tutorcruncher/openapi/tutorcruncher-reference-api-openapi.yml
 - filename: tutorcruncher-services-api-openapi.yml
   format: yaml
   label: TutorCruncher Services API
   slug: tutorcruncher-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tutorcruncher/refs/heads/main/openapi/tutorcruncher-services-api-openapi.yml
+  url: https://artifacts.apis.io/tutorcruncher/openapi/tutorcruncher-services-api-openapi.yml
 - filename: tutorcruncher-webhooks-api-openapi.yml
   format: yaml
   label: TutorCruncher Webhooks API
   slug: tutorcruncher-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tutorcruncher/refs/heads/main/openapi/tutorcruncher-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/tutorcruncher/openapi/tutorcruncher-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -90,7 +90,7 @@ source_filename: tutorcruncher-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tutorcruncher-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: tokenAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Private API key sent as: Authorization: token <API KEY>'\n  sources:\n  - openapi/tutorcruncher-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tutorcruncher/refs/heads/main/authentication/tutorcruncher-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tutorcruncher/authentication/tutorcruncher-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Tutoring

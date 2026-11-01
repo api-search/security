@@ -7,31 +7,31 @@ api_specs:
   label: TensorWave Generate API
   slug: tensorwave-generate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensorwave/refs/heads/main/openapi/tensorwave-generate-api-openapi.yml
+  url: https://artifacts.apis.io/tensorwave/openapi/tensorwave-generate-api-openapi.yml
 - filename: tensorwave-health-api-openapi.yml
   format: yaml
   label: TensorWave Health API
   slug: tensorwave-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensorwave/refs/heads/main/openapi/tensorwave-health-api-openapi.yml
+  url: https://artifacts.apis.io/tensorwave/openapi/tensorwave-health-api-openapi.yml
 - filename: tensorwave-openai-api-openapi.yml
   format: yaml
   label: TensorWave Open AI API
   slug: tensorwave-openai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensorwave/refs/heads/main/openapi/tensorwave-openai-api-openapi.yml
+  url: https://artifacts.apis.io/tensorwave/openapi/tensorwave-openai-api-openapi.yml
 - filename: tensorwave-slurm-api-openapi.yml
   format: yaml
   label: TensorWave Slurm API
   slug: tensorwave-slurm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensorwave/refs/heads/main/openapi/tensorwave-slurm-api-openapi.yml
+  url: https://artifacts.apis.io/tensorwave/openapi/tensorwave-slurm-api-openapi.yml
 - filename: tensorwave-training-api-openapi.yml
   format: yaml
   label: TensorWave Training API
   slug: tensorwave-training-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensorwave/refs/heads/main/openapi/tensorwave-training-api-openapi.yml
+  url: https://artifacts.apis.io/tensorwave/openapi/tensorwave-training-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -54,7 +54,7 @@ source_yaml: "generated: '2026-08-02'\nmethod: searched\nsource: https://www.sca
   \ https://www.scalarlm.com/inference/\n  request: |\n    import scalarlm\n    scalarlm.api_url = \"https://gpt-oss.cray-lm.com\"\n    llm = scalarlm.SupermassiveIntelligence()\n  credentials: none\n  note: The Python client is configured with a base URL only; it takes no API key.\ncredentials_in_payloads:\n- field: hf_token\n  operation: publishToHuggingFace\n  kind: third-party bearer token\n  description: 'A Hugging Face access token with write permission, supplied by the caller in the\n    PublishRequest body so ScalarLM can push a checkpoint to the Hub. It authenticates to Hugging\n    Face, not to ScalarLM.'\n  handling: 'Per the source docstring, the token is forwarded to sbatch via env-var export and is\n    never written to disk or argv on the API pod side.'\nplatform_authentication:\n  scope: The TensorWave GPU cloud platform (not the ScalarLM API)\n  model: 'Not an API. Access to bare-metal nodes, Slurm and Kubernetes is by SSH public key,\n    managed per user; team membership\
   \ and access are administered by org admins in the TensorWave\n    console.'\n  docs:\n  - https://docs.tensorwave.com/user-and-team-management/syncing-public-keys\n  - https://docs.tensorwave.com/user-and-team-management/managing-team-member-access\n  - https://docs.tensorwave.com/user-and-team-management/self-serve-inviting-users\n  - https://docs.tensorwave.com/slurm/access\n  mechanisms:\n  - ssh-public-key\n  - organization-role (admin vs member)\noauth2: false\noidc: false\nscopes_artifact: null\nscopes_note: No OAuth 2.0 surface exists, so no scopes/ artifact is emitted.\nrisks:\n- id: unauthenticated-write-operations\n  severity: high\n  detail: 'With no application-level auth, every operation in the derived spec is reachable by any\n    caller who can reach the deployment, including destructive ones: clearQueue,\n    cancelTrainingJob, restartTrainingJob, deleteTrainingJob, cancelSlurmJob and\n    publishToHuggingFace. Operators must not expose a ScalarLM deployment directly to\
   \ the public\n    internet.'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tensorwave/refs/heads/main/authentication/tensorwave-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tensorwave/authentication/tensorwave-authentication.yml
 summary_line: 0 schemes
 tags:
 - Company

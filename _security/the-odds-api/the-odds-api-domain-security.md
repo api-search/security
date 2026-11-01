@@ -5,37 +5,37 @@ api_specs:
   label: The Odds API Events API
   slug: the-odds-api-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/openapi/the-odds-api-events-api-openapi.yml
+  url: https://artifacts.apis.io/the-odds-api/openapi/the-odds-api-events-api-openapi.yml
 - filename: the-odds-api-historical-api-openapi.yml
   format: yaml
   label: The Odds API Historical API
   slug: the-odds-api-historical-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/openapi/the-odds-api-historical-api-openapi.yml
+  url: https://artifacts.apis.io/the-odds-api/openapi/the-odds-api-historical-api-openapi.yml
 - filename: the-odds-api-odds-api-openapi.yml
   format: yaml
   label: The Odds API Odds API
   slug: the-odds-api-odds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/openapi/the-odds-api-odds-api-openapi.yml
+  url: https://artifacts.apis.io/the-odds-api/openapi/the-odds-api-odds-api-openapi.yml
 - filename: the-odds-api-participants-api-openapi.yml
   format: yaml
   label: The Odds API Participants API
   slug: the-odds-api-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/openapi/the-odds-api-participants-api-openapi.yml
+  url: https://artifacts.apis.io/the-odds-api/openapi/the-odds-api-participants-api-openapi.yml
 - filename: the-odds-api-scores-api-openapi.yml
   format: yaml
   label: The Odds API Scores API
   slug: the-odds-api-scores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/openapi/the-odds-api-scores-api-openapi.yml
+  url: https://artifacts.apis.io/the-odds-api/openapi/the-odds-api-scores-api-openapi.yml
 - filename: the-odds-api-sports-api-openapi.yml
   format: yaml
   label: The Odds API Sports API
   slug: the-odds-api-sports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/openapi/the-odds-api-sports-api-openapi.yml
+  url: https://artifacts.apis.io/the-odds-api/openapi/the-odds-api-sports-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: the-odds-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: the-odds-api.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 22:18:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\n- host: api.the-odds-api.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 23:59:59 2026 GMT\n  hsts: false\n- host: ipv6-api.the-odds-api.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 22 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: the-odds-api.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/security/the-odds-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/the-odds-api/security/the-odds-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Betting

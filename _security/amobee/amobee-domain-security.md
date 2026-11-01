@@ -5,31 +5,31 @@ api_specs:
   label: Amobee Env Vars Test Controller API
   slug: amobee-env-vars-test-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amobee/refs/heads/main/openapi/amobee-env-vars-test-controller-api-openapi.yml
+  url: https://artifacts.apis.io/amobee/openapi/amobee-env-vars-test-controller-api-openapi.yml
 - filename: amobee-gateway-swagger-controller-api-openapi.yml
   format: yaml
   label: Amobee Gateway Swagger Controller API
   slug: amobee-gateway-swagger-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amobee/refs/heads/main/openapi/amobee-gateway-swagger-controller-api-openapi.yml
+  url: https://artifacts.apis.io/amobee/openapi/amobee-gateway-swagger-controller-api-openapi.yml
 - filename: amobee-health-check-api-openapi.yml
   format: yaml
   label: Amobee Health Check API
   slug: amobee-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amobee/refs/heads/main/openapi/amobee-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/amobee/openapi/amobee-health-check-api-openapi.yml
 - filename: amobee-ip-controller-api-openapi.yml
   format: yaml
   label: Amobee Ip Controller API
   slug: amobee-ip-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amobee/refs/heads/main/openapi/amobee-ip-controller-api-openapi.yml
+  url: https://artifacts.apis.io/amobee/openapi/amobee-ip-controller-api-openapi.yml
 - filename: amobee-tcf-disclosure-controller-api-openapi.yml
   format: yaml
   label: Amobee Tcf Disclosure Controller API
   slug: amobee-tcf-disclosure-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amobee/refs/heads/main/openapi/amobee-tcf-disclosure-controller-api-openapi.yml
+  url: https://artifacts.apis.io/amobee/openapi/amobee-tcf-disclosure-controller-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: amobee-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.amobee.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 17 08:14:07 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: services.amobee.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 13 02:35:16 2026 GMT\n  hsts: null\ndomains:\n- domain: amobee.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amobee/refs/heads/main/security/amobee-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amobee/security/amobee-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Digital Advertising

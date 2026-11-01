@@ -8,43 +8,43 @@ api_specs:
   label: Luma Calendars API
   slug: luma-calendars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luma/refs/heads/main/openapi/luma-calendars-api-openapi.yml
+  url: https://artifacts.apis.io/luma/openapi/luma-calendars-api-openapi.yml
 - filename: luma-events-api-openapi.yml
   format: yaml
   label: Luma Events API
   slug: luma-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luma/refs/heads/main/openapi/luma-events-api-openapi.yml
+  url: https://artifacts.apis.io/luma/openapi/luma-events-api-openapi.yml
 - filename: luma-memberships-api-openapi.yml
   format: yaml
   label: Luma Memberships API
   slug: luma-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luma/refs/heads/main/openapi/luma-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/luma/openapi/luma-memberships-api-openapi.yml
 - filename: luma-miscellaneous-api-openapi.yml
   format: yaml
   label: Luma Miscellaneous API
   slug: luma-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luma/refs/heads/main/openapi/luma-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/luma/openapi/luma-miscellaneous-api-openapi.yml
 - filename: luma-organizations-api-openapi.yml
   format: yaml
   label: Luma Organizations API
   slug: luma-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luma/refs/heads/main/openapi/luma-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/luma/openapi/luma-organizations-api-openapi.yml
 - filename: luma-webhooks-api-openapi.yml
   format: yaml
   label: Luma Webhooks API
   slug: luma-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luma/refs/heads/main/openapi/luma-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/luma/openapi/luma-webhooks-api-openapi.yml
 - filename: luma-webhook-types-api-openapi.yml
   format: yaml
   label: Luma Webhook Types API
   slug: luma-webhook-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luma/refs/heads/main/openapi/luma-webhook-types-api-openapi.yml
+  url: https://artifacts.apis.io/luma/openapi/luma-webhook-types-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -72,7 +72,7 @@ source_filename: luma-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-luma-api-key\n  description: API key to authenticate requests to the Luma API. Generate an API key on your\n    Luma dashboard.\n  sources:\n  - openapi/openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/luma/refs/heads/main/authentication/luma-authentication.yml
+source_yaml_url: https://artifacts.apis.io/luma/authentication/luma-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Event

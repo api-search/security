@@ -5,67 +5,67 @@ api_specs:
   label: Snov.io Authentication API
   slug: snov-io-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-authentication-api-openapi.yml
 - filename: snov-io-campaigns-api-openapi.yml
   format: yaml
   label: Snov.io Campaigns API
   slug: snov-io-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-campaigns-api-openapi.yml
 - filename: snov-io-crm-pipeline-api-openapi.yml
   format: yaml
   label: Snov.io CRM Pipeline API
   slug: snov-io-crm-pipeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-crm-pipeline-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-crm-pipeline-api-openapi.yml
 - filename: snov-io-domain-search-api-openapi.yml
   format: yaml
   label: Snov.io Domain Search API
   slug: snov-io-domain-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-domain-search-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-domain-search-api-openapi.yml
 - filename: snov-io-email-accounts-api-openapi.yml
   format: yaml
   label: Snov.io Email Accounts API
   slug: snov-io-email-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-email-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-email-accounts-api-openapi.yml
 - filename: snov-io-email-finder-api-openapi.yml
   format: yaml
   label: Snov.io Email Finder API
   slug: snov-io-email-finder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-email-finder-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-email-finder-api-openapi.yml
 - filename: snov-io-email-verification-api-openapi.yml
   format: yaml
   label: Snov.io Email Verification API
   slug: snov-io-email-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-email-verification-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-email-verification-api-openapi.yml
 - filename: snov-io-email-warm-up-api-openapi.yml
   format: yaml
   label: Snov.io Email Warm-up API
   slug: snov-io-email-warm-up-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-email-warm-up-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-email-warm-up-api-openapi.yml
 - filename: snov-io-prospects-api-openapi.yml
   format: yaml
   label: Snov.io Prospects API
   slug: snov-io-prospects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-prospects-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-prospects-api-openapi.yml
 - filename: snov-io-user-api-openapi.yml
   format: yaml
   label: Snov.io User API
   slug: snov-io-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-user-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-user-api-openapi.yml
 - filename: snov-io-webhooks-api-openapi.yml
   format: yaml
   label: Snov.io Webhooks API
   slug: snov-io-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -100,7 +100,7 @@ source_filename: snov-io-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: snov.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.snov.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  5 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: snov.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/security/snov-io-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/snov-io/security/snov-io-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Sales Automation

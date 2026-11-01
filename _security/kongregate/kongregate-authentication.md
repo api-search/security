@@ -9,79 +9,79 @@ api_specs:
   label: Kongregate Authenticate.json API
   slug: kongregate-authenticate-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-authenticate-json-api-openapi.yml
+  url: https://artifacts.apis.io/kongregate/openapi/kongregate-authenticate-json-api-openapi.yml
 - filename: kongregate-characters-json-api-openapi.yml
   format: yaml
   label: Kongregate Characters.json API
   slug: kongregate-characters-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-characters-json-api-openapi.yml
+  url: https://artifacts.apis.io/kongregate/openapi/kongregate-characters-json-api-openapi.yml
 - filename: kongregate-guilds-api-openapi.yml
   format: yaml
   label: Kongregate Guilds API
   slug: kongregate-guilds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-guilds-api-openapi.yml
+  url: https://artifacts.apis.io/kongregate/openapi/kongregate-guilds-api-openapi.yml
 - filename: kongregate-guilds-json-api-openapi.yml
   format: yaml
   label: Kongregate Guilds.json API
   slug: kongregate-guilds-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-guilds-json-api-openapi.yml
+  url: https://artifacts.apis.io/kongregate/openapi/kongregate-guilds-json-api-openapi.yml
 - filename: kongregate-high-scores-api-openapi.yml
   format: yaml
   label: Kongregate High Scores API
   slug: kongregate-high-scores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-high-scores-api-openapi.yml
+  url: https://artifacts.apis.io/kongregate/openapi/kongregate-high-scores-api-openapi.yml
 - filename: kongregate-items-json-api-openapi.yml
   format: yaml
   label: Kongregate Items.json API
   slug: kongregate-items-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-items-json-api-openapi.yml
+  url: https://artifacts.apis.io/kongregate/openapi/kongregate-items-json-api-openapi.yml
 - filename: kongregate-kongpanions-api-openapi.yml
   format: yaml
   label: Kongregate Kongpanions API
   slug: kongregate-kongpanions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-kongpanions-api-openapi.yml
+  url: https://artifacts.apis.io/kongregate/openapi/kongregate-kongpanions-api-openapi.yml
 - filename: kongregate-kongpanions-json-api-openapi.yml
   format: yaml
   label: Kongregate Kongpanions.json API
   slug: kongregate-kongpanions-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-kongpanions-json-api-openapi.yml
+  url: https://artifacts.apis.io/kongregate/openapi/kongregate-kongpanions-json-api-openapi.yml
 - filename: kongregate-shared-links-api-openapi.yml
   format: yaml
   label: Kongregate Shared Links API
   slug: kongregate-shared-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-shared-links-api-openapi.yml
+  url: https://artifacts.apis.io/kongregate/openapi/kongregate-shared-links-api-openapi.yml
 - filename: kongregate-submit-statistics-json-api-openapi.yml
   format: yaml
   label: Kongregate Submit Statistics.json API
   slug: kongregate-submit-statistics-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-submit-statistics-json-api-openapi.yml
+  url: https://artifacts.apis.io/kongregate/openapi/kongregate-submit-statistics-json-api-openapi.yml
 - filename: kongregate-use-item-json-api-openapi.yml
   format: yaml
   label: Kongregate Use Item.json API
   slug: kongregate-use-item-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-use-item-json-api-openapi.yml
+  url: https://artifacts.apis.io/kongregate/openapi/kongregate-use-item-json-api-openapi.yml
 - filename: kongregate-user-info-json-api-openapi.yml
   format: yaml
   label: Kongregate User Info.json API
   slug: kongregate-user-info-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-user-info-json-api-openapi.yml
+  url: https://artifacts.apis.io/kongregate/openapi/kongregate-user-info-json-api-openapi.yml
 - filename: kongregate-user-items-json-api-openapi.yml
   format: yaml
   label: Kongregate User Items.json API
   slug: kongregate-user-items-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-user-items-json-api-openapi.yml
+  url: https://artifacts.apis.io/kongregate/openapi/kongregate-user-items-json-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -151,7 +151,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/kongreg
   \ authentication token that proves a specific player's identity. It is\n    obtained CLIENT-side via the JavaScript API call kongregate.services.getGameAuthToken()\n    and then passed to the game's own server, which exchanges it at\n    GET /authenticate.json for the player's user_id and username.\n  scope: user\n  secret: true\n  rotation: >-\n    Not stable. The documentation warns the token changes any time the user changes their\n    password, so it must never be cached as a permanent identifier.\n  sources:\n  - openapi/kongregate-server-api-openapi-original.json\n  used_by_operations:\n  - server-api-authenticate\n  - server-api-use-item\n  - server-api-create-shared-link\n  - server-api-destroy-shared-link\nmodel:\n  style: two-credential (game secret + per-user token)\n  description: >-\n    Kongregate splits authentication across a client-side and a server-side half. The game\n    client asks the Kongregate JavaScript API for a game_auth_token scoped to that player and\n    that\
   \ game. The game's own backend then calls GET /authenticate.json with\n    api_key + user_id + game_auth_token, and Kongregate returns the authoritative username and\n    user_id. The api_key is a server-only secret.\n  stable_identifier: user_id\n  unstable_identifier: username\n  identifier_note: >-\n    A player's username can change over time; the user_id is constant. The documentation is\n    explicit that a game's database must key off user_id, never username.\ncallback_verification:\n  mechanism: signed request (HMAC-SHA256)\n  docs: https://docs.kongregate.com/docs/concepts-signed-requests\n  description: >-\n    Kongregate's outbound API callbacks are delivered as a signed_request POST parameter in the\n    Facebook signed-request format: a base64url HMAC-SHA256 signature and a base64url-encoded\n    JSON payload joined by a period. The receiver splits on the period, base64url-decodes and\n    JSON-parses the payload, asserts payload.algorithm == \"HMAC-SHA256\", then recomputes\n\
   \    HMAC-SHA256 over the encoded payload using the game's API key as the secret and compares.\n  parameter: signed_request\n  algorithm: HMAC-SHA256\n  secret: the game's private API key\nwarnings:\n- >-\n  The API key must never be used from the game client. The documentation notes that a CORS\n  error when calling a server API from the browser almost always means the API key has already\n  been exposed in client code.\n- >-\n  There is no OAuth 2.0, OpenID Connect, or mutual TLS surface. There are no scopes and no\n  granular permissions; the game API key is all-or-nothing for that game.\n- >-\n  Credentials travel as query-string parameters on GET operations, so they can appear in\n  intermediary and server access logs.\nrelated:\n- conventions/kongregate-conventions.yml\n- errors/kongregate-problem-types.yml\n- security/kongregate-domain-security.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/authentication/kongregate-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kongregate/authentication/kongregate-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - Company

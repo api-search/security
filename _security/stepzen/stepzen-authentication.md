@@ -8,19 +8,19 @@ api_specs:
   label: StepZen Account API
   slug: stepzen-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stepzen/refs/heads/main/openapi/stepzen-account-api-openapi.yml
+  url: https://artifacts.apis.io/stepzen/openapi/stepzen-account-api-openapi.yml
 - filename: stepzen-api-keys-api-openapi.yml
   format: yaml
   label: StepZen API Keys API
   slug: stepzen-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stepzen/refs/heads/main/openapi/stepzen-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/stepzen/openapi/stepzen-api-keys-api-openapi.yml
 - filename: stepzen-endpoints-api-openapi.yml
   format: yaml
   label: StepZen Endpoints API
   slug: stepzen-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stepzen/refs/heads/main/openapi/stepzen-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/stepzen/openapi/stepzen-endpoints-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: stepzen-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/stepzen-admin-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: StepZen API key as Bearer token\n  sources:\n  - openapi/stepzen-admin-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stepzen/refs/heads/main/authentication/stepzen-authentication.yml
+source_yaml_url: https://artifacts.apis.io/stepzen/authentication/stepzen-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Backend Integration

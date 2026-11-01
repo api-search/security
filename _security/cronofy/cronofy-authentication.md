@@ -7,31 +7,31 @@ api_specs:
   label: Cronofy Availability API
   slug: cronofy-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronofy/refs/heads/main/openapi/cronofy-availability-api-openapi.yml
+  url: https://artifacts.apis.io/cronofy/openapi/cronofy-availability-api-openapi.yml
 - filename: cronofy-calendars-api-openapi.yml
   format: yaml
   label: Cronofy Calendars API
   slug: cronofy-calendars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronofy/refs/heads/main/openapi/cronofy-calendars-api-openapi.yml
+  url: https://artifacts.apis.io/cronofy/openapi/cronofy-calendars-api-openapi.yml
 - filename: cronofy-events-api-openapi.yml
   format: yaml
   label: Cronofy Events API
   slug: cronofy-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronofy/refs/heads/main/openapi/cronofy-events-api-openapi.yml
+  url: https://artifacts.apis.io/cronofy/openapi/cronofy-events-api-openapi.yml
 - filename: cronofy-push-notifications-api-openapi.yml
   format: yaml
   label: Cronofy Push Notifications API
   slug: cronofy-push-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronofy/refs/heads/main/openapi/cronofy-push-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/cronofy/openapi/cronofy-push-notifications-api-openapi.yml
 - filename: cronofy-smart-invites-api-openapi.yml
   format: yaml
   label: Cronofy Smart Invites API
   slug: cronofy-smart-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronofy/refs/heads/main/openapi/cronofy-smart-invites-api-openapi.yml
+  url: https://artifacts.apis.io/cronofy/openapi/cronofy-smart-invites-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: cronofy-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cronofy-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth 2.0 access token passed as an Authorization Bearer header.\n  sources:\n  - openapi/cronofy-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cronofy/refs/heads/main/authentication/cronofy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cronofy/authentication/cronofy-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Scheduling

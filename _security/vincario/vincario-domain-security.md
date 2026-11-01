@@ -5,43 +5,43 @@ api_specs:
   label: Vincario VIN Decoder API
   slug: vincario-vin-decoder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-vin-decoder-api-openapi.yml
+  url: https://artifacts.apis.io/vincario/openapi/vincario-vin-decoder-api-openapi.yml
 - filename: vincario-oem-vin-lookup-api-openapi.yml
   format: yaml
   label: Vincario OEM VIN Lookup API
   slug: vincario-oem-vin-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-oem-vin-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/vincario/openapi/vincario-oem-vin-lookup-api-openapi.yml
 - filename: vincario-oem-service-history-api-openapi.yml
   format: yaml
   label: Vincario OEM Service History API
   slug: vincario-oem-service-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-oem-service-history-api-openapi.yml
+  url: https://artifacts.apis.io/vincario/openapi/vincario-oem-service-history-api-openapi.yml
 - filename: vincario-vehicle-market-value-api-openapi.yml
   format: yaml
   label: Vincario Vehicle Market Value API
   slug: vincario-vehicle-market-value-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-vehicle-market-value-api-openapi.yml
+  url: https://artifacts.apis.io/vincario/openapi/vincario-vehicle-market-value-api-openapi.yml
 - filename: vincario-stolen-check-api-openapi.yml
   format: yaml
   label: Vincario Stolen Check API
   slug: vincario-stolen-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-stolen-check-api-openapi.yml
+  url: https://artifacts.apis.io/vincario/openapi/vincario-stolen-check-api-openapi.yml
 - filename: vincario-get-balance-api-openapi.yml
   format: yaml
   label: Vincario Credit Balance API
   slug: vincario-get-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-get-balance-api-openapi.yml
+  url: https://artifacts.apis.io/vincario/openapi/vincario-get-balance-api-openapi.yml
 - filename: vincario-enums-api-openapi.yml
   format: yaml
   label: Vincario Enums API
   slug: vincario-enums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-enums-api-openapi.yml
+  url: https://artifacts.apis.io/vincario/openapi/vincario-enums-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -94,12 +94,12 @@ source_filename: vincario-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: vincario.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 14:58:53 2026 GMT\n  hsts: true\n  hsts_max_age: 16000000\n- host: vindecoder.eu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 15:00:45 2026 GMT\n  hsts: true\n  hsts_max_age: 16000000\n- host: api.vindecoder.eu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 14:58:54 2026 GMT\n  hsts: null\ndomains:\n- domain: vincario.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: vindecoder.eu\n  dnssec: true\n  caa:\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/security/vincario-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vincario/security/vincario-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - VIN
 - Vehicle Data
 - Automotive
-- VIN Decoder
+- VIN Decoding
 - Market Value
 ---

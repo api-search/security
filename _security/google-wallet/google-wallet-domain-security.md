@@ -5,31 +5,31 @@ api_specs:
   label: Google Wallet Event Tickets API
   slug: google-wallet-event-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-wallet/refs/heads/main/openapi/google-wallet-event-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/google-wallet/openapi/google-wallet-event-tickets-api-openapi.yml
 - filename: google-wallet-generic-passes-api-openapi.yml
   format: yaml
   label: Google Wallet Generic Passes API
   slug: google-wallet-generic-passes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-wallet/refs/heads/main/openapi/google-wallet-generic-passes-api-openapi.yml
+  url: https://artifacts.apis.io/google-wallet/openapi/google-wallet-generic-passes-api-openapi.yml
 - filename: google-wallet-issuers-api-openapi.yml
   format: yaml
   label: Google Wallet Issuers API
   slug: google-wallet-issuers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-wallet/refs/heads/main/openapi/google-wallet-issuers-api-openapi.yml
+  url: https://artifacts.apis.io/google-wallet/openapi/google-wallet-issuers-api-openapi.yml
 - filename: google-wallet-jwt-api-openapi.yml
   format: yaml
   label: Google Wallet JWT API
   slug: google-wallet-jwt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-wallet/refs/heads/main/openapi/google-wallet-jwt-api-openapi.yml
+  url: https://artifacts.apis.io/google-wallet/openapi/google-wallet-jwt-api-openapi.yml
 - filename: google-wallet-loyalty-cards-api-openapi.yml
   format: yaml
   label: Google Wallet Loyalty Cards API
   slug: google-wallet-loyalty-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-wallet/refs/heads/main/openapi/google-wallet-loyalty-cards-api-openapi.yml
+  url: https://artifacts.apis.io/google-wallet/openapi/google-wallet-loyalty-cards-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -72,7 +72,7 @@ source_filename: google-wallet-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: walletobjects.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:17 2026 GMT\n  hsts: null\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-wallet/refs/heads/main/security/google-wallet-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/google-wallet/security/google-wallet-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Digital Wallet

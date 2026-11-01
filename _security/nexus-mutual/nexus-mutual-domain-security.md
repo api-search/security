@@ -5,19 +5,19 @@ api_specs:
   label: Nexus Mutual Capacity API
   slug: nexus-mutual-capacity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexus-mutual/refs/heads/main/openapi/nexus-mutual-capacity-api-openapi.yml
+  url: https://artifacts.apis.io/nexus-mutual/openapi/nexus-mutual-capacity-api-openapi.yml
 - filename: nexus-mutual-pricing-api-openapi.yml
   format: yaml
   label: Nexus Mutual Pricing API
   slug: nexus-mutual-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexus-mutual/refs/heads/main/openapi/nexus-mutual-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/nexus-mutual/openapi/nexus-mutual-pricing-api-openapi.yml
 - filename: nexus-mutual-quote-api-openapi.yml
   format: yaml
   label: Nexus Mutual Quote API
   slug: nexus-mutual-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexus-mutual/refs/heads/main/openapi/nexus-mutual-quote-api-openapi.yml
+  url: https://artifacts.apis.io/nexus-mutual/openapi/nexus-mutual-quote-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: nexus-mutual-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.nexusmutual.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 15:05:57 2026 GMT\n  hsts: false\n- host: api.nexusmutual.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 10:57:18 2026 GMT\n  hsts: null\n- host: 127.0.0.1\n  https: false\ndomains:\n- domain: nexusmutual.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nexus-mutual/refs/heads/main/security/nexus-mutual-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nexus-mutual/security/nexus-mutual-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Decentralized Insurance

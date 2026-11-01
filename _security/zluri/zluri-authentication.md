@@ -7,25 +7,25 @@ api_specs:
   label: Zluri Data Upload API
   slug: zluri-data-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zluri/refs/heads/main/openapi/zluri-data-upload-api-openapi.yml
+  url: https://artifacts.apis.io/zluri/openapi/zluri-data-upload-api-openapi.yml
 - filename: zluri-instances-api-openapi.yml
   format: yaml
   label: Zluri Instances API
   slug: zluri-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zluri/refs/heads/main/openapi/zluri-instances-api-openapi.yml
+  url: https://artifacts.apis.io/zluri/openapi/zluri-instances-api-openapi.yml
 - filename: zluri-syncs-api-openapi.yml
   format: yaml
   label: Zluri Syncs API
   slug: zluri-syncs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zluri/refs/heads/main/openapi/zluri-syncs-api-openapi.yml
+  url: https://artifacts.apis.io/zluri/openapi/zluri-syncs-api-openapi.yml
 - filename: zluri-webhooks-api-openapi.yml
   format: yaml
   label: Zluri Webhooks API
   slug: zluri-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zluri/refs/heads/main/openapi/zluri-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/zluri/openapi/zluri-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -53,7 +53,7 @@ source_filename: zluri-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/zluri-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Bearer token authentication. Obtain your API token from the Zluri admin dashboard.\n  sources:\n  - openapi/zluri-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zluri/refs/heads/main/authentication/zluri-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zluri/authentication/zluri-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Identity and Access Management

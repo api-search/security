@@ -8,133 +8,133 @@ api_specs:
   label: Anaconda Account API
   slug: anaconda-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-account-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-account-api-openapi.yml
 - filename: anaconda-ai-navigator-api-api-openapi.yml
   format: yaml
   label: Anaconda AI Navigator API
   slug: anaconda-ai-navigator-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-ai-navigator-api-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-ai-navigator-api-api-openapi.yml
 - filename: anaconda-artifacts-api-openapi.yml
   format: yaml
   label: Anaconda Artifacts API
   slug: anaconda-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-artifacts-api-openapi.yml
 - filename: anaconda-audit-logs-api-openapi.yml
   format: yaml
   label: Anaconda Audit Logs API
   slug: anaconda-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-audit-logs-api-openapi.yml
 - filename: anaconda-auth-api-openapi.yml
   format: yaml
   label: Anaconda Auth API
   slug: anaconda-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-auth-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-auth-api-openapi.yml
 - filename: anaconda-channels-api-openapi.yml
   format: yaml
   label: Anaconda Channels API
   slug: anaconda-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-channels-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-channels-api-openapi.yml
 - filename: anaconda-diagnosis-api-openapi.yml
   format: yaml
   label: Anaconda Diagnosis API
   slug: anaconda-diagnosis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-diagnosis-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-diagnosis-api-openapi.yml
 - filename: anaconda-docs-api-openapi.yml
   format: yaml
   label: Anaconda Docs API
   slug: anaconda-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-docs-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-docs-api-openapi.yml
 - filename: anaconda-files-api-openapi.yml
   format: yaml
   label: Anaconda Files API
   slug: anaconda-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-files-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-files-api-openapi.yml
 - filename: anaconda-groups-api-openapi.yml
   format: yaml
   label: Anaconda Groups API
   slug: anaconda-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-groups-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-groups-api-openapi.yml
 - filename: anaconda-installers-api-openapi.yml
   format: yaml
   label: Anaconda Installers API
   slug: anaconda-installers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-installers-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-installers-api-openapi.yml
 - filename: anaconda-mirrors-api-openapi.yml
   format: yaml
   label: Anaconda Mirrors API
   slug: anaconda-mirrors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-mirrors-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-mirrors-api-openapi.yml
 - filename: anaconda-models-api-openapi.yml
   format: yaml
   label: Anaconda Models API
   slug: anaconda-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-models-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-models-api-openapi.yml
 - filename: anaconda-organizations-api-openapi.yml
   format: yaml
   label: Anaconda Organizations API
   slug: anaconda-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-organizations-api-openapi.yml
 - filename: anaconda-repo-api-openapi.yml
   format: yaml
   label: Anaconda Repo API
   slug: anaconda-repo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-repo-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-repo-api-openapi.yml
 - filename: anaconda-reports-api-openapi.yml
   format: yaml
   label: Anaconda Reports API
   slug: anaconda-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-reports-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-reports-api-openapi.yml
 - filename: anaconda-servers-api-openapi.yml
   format: yaml
   label: Anaconda Servers API
   slug: anaconda-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-servers-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-servers-api-openapi.yml
 - filename: anaconda-system-api-openapi.yml
   format: yaml
   label: Anaconda System API
   slug: anaconda-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-system-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-system-api-openapi.yml
 - filename: anaconda-users-api-openapi.yml
   format: yaml
   label: Anaconda Users API
   slug: anaconda-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-users-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-users-api-openapi.yml
 - filename: anaconda-vectordb-api-openapi.yml
   format: yaml
   label: Anaconda Vector DB API
   slug: anaconda-vectordb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-vectordb-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-vectordb-api-openapi.yml
 - filename: anaconda-websocket-api-openapi.yml
   format: yaml
   label: Anaconda Websocket API
   slug: anaconda-websocket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-websocket-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-websocket-api-openapi.yml
 - filename: anaconda-cves-api-openapi.yml
   format: yaml
   label: Anaconda Cves API
   slug: anaconda-cves-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-cves-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-cves-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -210,7 +210,7 @@ source_yaml: "generated: '2026-08-02'\nmethod: searched\nsource: openapi/anacond
   \  grant_types_supported:\n  - authorization_code\n  - refresh_token\n  - client_credentials\n  - password\n  - urn:ietf:params:oauth:grant-type:device_code\n  response_types_supported:\n  - code\n  token_endpoint_auth_methods_supported:\n  - client_secret_basic\n  - client_secret_post\nservice_account_flow:\n  description: Machine-to-machine access for the Organization Management API and the\n    Audit Logs API. Create a service account in the Anaconda Platform admin console,\n    then exchange its client_id/client_secret for a short-lived bearer token.\n  token_endpoint: https://anaconda.com/api/iam/token\n  grant_type: client_credentials\n  content_type: application/x-www-form-urlencoded\n  token_type: Bearer\n  expires_in: 900\n  required_headers:\n  - name: Authorization\n    value: Bearer <ACCESS_TOKEN>\n  - name: X-Org-Name\n    value: <ORG_ID>\n  - name: X-API-Version\n    value: v1\n  docs: https://anaconda.com/docs/anaconda-platform/admin/audit-logs/audit-log-api\nschemes:\n\
   - name: JWT or Access Token\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Bearer token obtained by authenticating with an organization service\n    account's client_id and client_secret.\n  sources:\n  - openapi/anaconda-org-management-openapi-original.json\n  - openapi/anaconda-audit-logs-openapi-original.json\n- name: Organization Admin\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Bearer token obtained by authenticating with an organization admin's\n    email and password (grant_type=password).\n  sources:\n  - openapi/anaconda-org-management-openapi-original.json\n- name: jwt\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Anaconda Server / Anaconda Platform repository API bearer token.\n  sources:\n  - openapi/anaconda-server-openapi-original.json\n- name: user_token\n  type: apiKey\n  in: header\n  parameter: X-Auth\n  description: Long-lived user private token for the Anaconda Server repository API,\n    sent in\
   \ the X-Auth header. This is the token class `anaconda token install` provisions\n    for conda clients.\n  sources:\n  - openapi/anaconda-server-openapi-original.json\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: UUID\n  description: 'API key for the local Desktop and AI Navigator APIs (\"Enter your API\n    key here\").'\n  sources:\n  - openapi/anaconda-desktop-openapi-original.json\n  - openapi/anaconda-ai-navigator-openapi-original.json\n- name: anaconda.org token\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Anaconda.org repository token, created with `anaconda org auth --create`\n    or in the anaconda.org UI. Anonymous reads are permitted; writes and private-channel\n    reads require a token. Not declared in any OpenAPI — captured from the docs.'\n  sources:\n  - https://anaconda.com/docs/anaconda-org/admin-guide/tokens\nx-evidence:\n  fetched: '2026-08-02'\n  openid_configuration_http_status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/authentication/anaconda-authentication.yml
+source_yaml_url: https://artifacts.apis.io/anaconda/authentication/anaconda-authentication.yml
 summary_line: http/apiKey/openIdConnect · 6 schemes
 tags:
 - Company

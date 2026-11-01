@@ -5,43 +5,43 @@ api_specs:
   label: SignWell API Application API
   slug: signwell-api-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signwell/refs/heads/main/openapi/signwell-api-application-api-openapi.yml
+  url: https://artifacts.apis.io/signwell/openapi/signwell-api-application-api-openapi.yml
 - filename: signwell-bulk-send-api-openapi.yml
   format: yaml
   label: SignWell Bulk Send API
   slug: signwell-bulk-send-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signwell/refs/heads/main/openapi/signwell-bulk-send-api-openapi.yml
+  url: https://artifacts.apis.io/signwell/openapi/signwell-bulk-send-api-openapi.yml
 - filename: signwell-document-api-openapi.yml
   format: yaml
   label: SignWell Document API
   slug: signwell-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signwell/refs/heads/main/openapi/signwell-document-api-openapi.yml
+  url: https://artifacts.apis.io/signwell/openapi/signwell-document-api-openapi.yml
 - filename: signwell-me-api-openapi.yml
   format: yaml
   label: SignWell Me API
   slug: signwell-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signwell/refs/heads/main/openapi/signwell-me-api-openapi.yml
+  url: https://artifacts.apis.io/signwell/openapi/signwell-me-api-openapi.yml
 - filename: signwell-regional-api-openapi.yml
   format: yaml
   label: SignWell Regional API
   slug: signwell-regional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signwell/refs/heads/main/openapi/signwell-regional-api-openapi.yml
+  url: https://artifacts.apis.io/signwell/openapi/signwell-regional-api-openapi.yml
 - filename: signwell-template-api-openapi.yml
   format: yaml
   label: SignWell Template API
   slug: signwell-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signwell/refs/heads/main/openapi/signwell-template-api-openapi.yml
+  url: https://artifacts.apis.io/signwell/openapi/signwell-template-api-openapi.yml
 - filename: signwell-webhooks-api-openapi.yml
   format: yaml
   label: SignWell Webhooks API
   slug: signwell-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signwell/refs/heads/main/openapi/signwell-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/signwell/openapi/signwell-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -83,7 +83,7 @@ source_filename: signwell-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.signwell.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 11:44:26 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developers.signwell.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 19:59:21 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: signwell.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signwell/refs/heads/main/security/signwell-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/signwell/security/signwell-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - E-Signature

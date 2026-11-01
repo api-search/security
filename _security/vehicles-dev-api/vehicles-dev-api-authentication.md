@@ -8,37 +8,37 @@ api_specs:
   label: Vehicles.dev Control API
   slug: vehicles-dev-api-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/openapi/vehicles-dev-api-control-api-openapi.yml
+  url: https://artifacts.apis.io/vehicles-dev-api/openapi/vehicles-dev-api-control-api-openapi.yml
 - filename: vehicles-dev-api-employment-api-openapi.yml
   format: yaml
   label: Vehicles.dev Employment API
   slug: vehicles-dev-api-employment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/openapi/vehicles-dev-api-employment-api-openapi.yml
+  url: https://artifacts.apis.io/vehicles-dev-api/openapi/vehicles-dev-api-employment-api-openapi.yml
 - filename: vehicles-dev-api-operations-api-openapi.yml
   format: yaml
   label: Vehicles.dev Operations API
   slug: vehicles-dev-api-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/openapi/vehicles-dev-api-operations-api-openapi.yml
+  url: https://artifacts.apis.io/vehicles-dev-api/openapi/vehicles-dev-api-operations-api-openapi.yml
 - filename: vehicles-dev-api-operator-api-openapi.yml
   format: yaml
   label: Vehicles.dev Operator API
   slug: vehicles-dev-api-operator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/openapi/vehicles-dev-api-operator-api-openapi.yml
+  url: https://artifacts.apis.io/vehicles-dev-api/openapi/vehicles-dev-api-operator-api-openapi.yml
 - filename: vehicles-dev-api-vehicles-api-openapi.yml
   format: yaml
   label: Vehicles.dev Vehicles API
   slug: vehicles-dev-api-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/openapi/vehicles-dev-api-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/vehicles-dev-api/openapi/vehicles-dev-api-vehicles-api-openapi.yml
 - filename: vehicles-dev-api-webhooks-api-openapi.yml
   format: yaml
   label: Vehicles.dev Webhooks API
   slug: vehicles-dev-api-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/openapi/vehicles-dev-api-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/vehicles-dev-api/openapi/vehicles-dev-api-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-08-16'\nmethod: searched\nsource: https://vehicle
   \      - openapi/vehicles-dev-api-billing-api-openapi.yml\nunauthenticated_operations:\n  - {operation: getApiLiveness, path: /health/live}\n  - {operation: getApiReadiness, path: /health/ready}\n  - {operation: getOpenApiDocument, path: /openapi.json}\n  - operation: receivePaymentWebhook\n    path: '/webhooks/payments/{product}'\n    note: signature-verified inbound processor webhook\nusage:\n  header_format: 'Authorization: Bearer $VEHICLES_API_KEY'\n  scheme_token_case_sensitive: true\n  rejected_forms:\n    - {form: 'lowercase \"bearer\"', result: 401 invalid_credential}\n    - {form: double space after scheme, result: 401 invalid_credential}\n    - {form: query-string key, result: unsupported}\n    - {form: HTTP basic, result: unsupported}\n    - {form: Cookie header, result: 401 cookie_credentials_rejected}\nkey_management:\n  mint: dashboard API keys panel (https://vehicles.dev/dashboard)\n  api: 'POST /v1/control/api-keys (createControlApiKey) — requires a WorkOS session token,\
   \ not an API key'\n  revoke_api: 'DELETE /v1/control/api-keys/{id} (revokeControlApiKey)'\n  list_api: 'GET /v1/control/api-keys (listControlApiKeys)'\n  secret_visibility: displayed exactly once at creation and never recoverable\n  storage: provider stores only a hash and the last four characters\n  rotation: create-then-revoke; revocation takes effect immediately\n  product_scoping: >-\n    Keys are scoped to a single product. A key minted for another product on the same platform returns\n    401 invalid_credential.\n  enforcement_scope: >-\n    Rate limits and credit balances are enforced per account, not per key — splitting traffic across\n    several keys does not raise the throughput ceiling.\npermissions:\n  model: named permissions on machine keys (documented in prose, not in the contract)\n  note: >-\n    Not OAuth scopes — there is no oauth2 securityScheme and no scopes map in the OpenAPI, so no\n    scopes/ artifact is emitted. These permission strings appear only in the vehicle-history-report\n\
   \    section of the docs.\n  observed:\n    - {name: 'reports:order', requirement: 'Creating a history report, and explicitly retrying a durable submitting job, on the machine route'}\n    - {name: 'reports:read', requirement: Polling report status and reading the report result}\n    - {name: 'billing:write', requirement: The dashboard route for retrying a history-report submission}\nordering:\n  note: >-\n    Authentication runs before schema validation. A request that is both unauthenticated and malformed\n    returns 401, never 400.\ntransport_security:\n  https_required: true\n  tls_version_observed: TLSv1.3\n  hsts: false\n  see: security/vehicles-dev-api-domain-security.yml\noperational_guidance:\n  - Keep the key server-side; the API is not browser-callable and rejects any request carrying an Origin header.\n  - Never send a full key to support; redact to the last four characters.\n  - Authorization and Cookie headers are redacted from provider logs, so quote x-request-id instead.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/authentication/vehicles-dev-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vehicles-dev-api/authentication/vehicles-dev-api-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Automotive

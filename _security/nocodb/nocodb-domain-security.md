@@ -5,55 +5,55 @@ api_specs:
   label: NocoDB Attachments API
   slug: nocodb-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/nocodb/openapi/nocodb-attachments-api-openapi.yml
 - filename: nocodb-auth-api-openapi.yml
   format: yaml
   label: NocoDB Auth API
   slug: nocodb-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-auth-api-openapi.yml
+  url: https://artifacts.apis.io/nocodb/openapi/nocodb-auth-api-openapi.yml
 - filename: nocodb-bases-api-openapi.yml
   format: yaml
   label: NocoDB Bases API
   slug: nocodb-bases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-bases-api-openapi.yml
+  url: https://artifacts.apis.io/nocodb/openapi/nocodb-bases-api-openapi.yml
 - filename: nocodb-fields-api-openapi.yml
   format: yaml
   label: NocoDB Fields API
   slug: nocodb-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-fields-api-openapi.yml
+  url: https://artifacts.apis.io/nocodb/openapi/nocodb-fields-api-openapi.yml
 - filename: nocodb-hooks-api-openapi.yml
   format: yaml
   label: NocoDB Hooks API
   slug: nocodb-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/nocodb/openapi/nocodb-hooks-api-openapi.yml
 - filename: nocodb-links-api-openapi.yml
   format: yaml
   label: NocoDB Links API
   slug: nocodb-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-links-api-openapi.yml
+  url: https://artifacts.apis.io/nocodb/openapi/nocodb-links-api-openapi.yml
 - filename: nocodb-records-api-openapi.yml
   format: yaml
   label: NocoDB Records API
   slug: nocodb-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-records-api-openapi.yml
+  url: https://artifacts.apis.io/nocodb/openapi/nocodb-records-api-openapi.yml
 - filename: nocodb-tables-api-openapi.yml
   format: yaml
   label: NocoDB Tables API
   slug: nocodb-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-tables-api-openapi.yml
+  url: https://artifacts.apis.io/nocodb/openapi/nocodb-tables-api-openapi.yml
 - filename: nocodb-views-api-openapi.yml
   format: yaml
   label: NocoDB Views API
   slug: nocodb-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-views-api-openapi.yml
+  url: https://artifacts.apis.io/nocodb/openapi/nocodb-views-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -92,7 +92,7 @@ source_filename: nocodb-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: nocodb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.nocodb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: nocodb.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 iodef \"mailto:support@nocodb.com\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/security/nocodb-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nocodb/security/nocodb-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Database

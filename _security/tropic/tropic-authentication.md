@@ -7,31 +7,31 @@ api_specs:
   label: Tropic Contracts API
   slug: tropic-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/openapi/tropic-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/tropic/openapi/tropic-contracts-api-openapi.yml
 - filename: tropic-requests-api-openapi.yml
   format: yaml
   label: Tropic Requests API
   slug: tropic-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/openapi/tropic-requests-api-openapi.yml
+  url: https://artifacts.apis.io/tropic/openapi/tropic-requests-api-openapi.yml
 - filename: tropic-suppliers-api-openapi.yml
   format: yaml
   label: Tropic Suppliers API
   slug: tropic-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/openapi/tropic-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/tropic/openapi/tropic-suppliers-api-openapi.yml
 - filename: tropic-users-api-openapi.yml
   format: yaml
   label: Tropic Users API
   slug: tropic-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/openapi/tropic-users-api-openapi.yml
+  url: https://artifacts.apis.io/tropic/openapi/tropic-users-api-openapi.yml
 - filename: tropic-webhooks-api-openapi.yml
   format: yaml
   label: Tropic Webhooks API
   slug: tropic-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/openapi/tropic-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/tropic/openapi/tropic-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: tropic-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tropic-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: API key issued from the Tropic settings panel\n  sources:\n  - openapi/tropic-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/authentication/tropic-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tropic/authentication/tropic-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Benchmarking

@@ -5,25 +5,25 @@ api_specs:
   label: Contensis Content Types API
   slug: contensis-content-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/openapi/contensis-content-types-api-openapi.yml
+  url: https://artifacts.apis.io/contensis/openapi/contensis-content-types-api-openapi.yml
 - filename: contensis-entries-api-openapi.yml
   format: yaml
   label: Contensis Entries API
   slug: contensis-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/openapi/contensis-entries-api-openapi.yml
+  url: https://artifacts.apis.io/contensis/openapi/contensis-entries-api-openapi.yml
 - filename: contensis-projects-api-openapi.yml
   format: yaml
   label: Contensis Projects API
   slug: contensis-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/openapi/contensis-projects-api-openapi.yml
+  url: https://artifacts.apis.io/contensis/openapi/contensis-projects-api-openapi.yml
 - filename: contensis-taxonomy-api-openapi.yml
   format: yaml
   label: Contensis Taxonomy API
   slug: contensis-taxonomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/openapi/contensis-taxonomy-api-openapi.yml
+  url: https://artifacts.apis.io/contensis/openapi/contensis-taxonomy-api-openapi.yml
 certification_count: 1
 certifications:
 - ISO 27001
@@ -40,7 +40,7 @@ source_filename: contensis-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: searched\nprobe: true\nsource: https://www.contensis.com/security\nurl: https://www.contensis.com/security\ncertifications:\n- ISO 27001\nevidence:\n- source: https://www.contensis.com/security\n  keywords:\n  - iso 27001\n  - iso/iec 27001\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/security/contensis-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/contensis/security/contensis-trust-center.yml
 summary_line: ISO 27001
 tags:
 - CMS

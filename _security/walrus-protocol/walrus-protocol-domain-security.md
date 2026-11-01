@@ -5,7 +5,7 @@ api_specs:
   label: Walrus Protocol Routes API
   slug: walrus-protocol-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walrus-protocol/refs/heads/main/openapi/walrus-protocol-routes-api-openapi.yml
+  url: https://artifacts.apis.io/walrus-protocol/openapi/walrus-protocol-routes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -49,7 +49,7 @@ source_filename: walrus-protocol-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.walrus.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 17:12:55 2026 GMT\n  hsts: false\n- host: docs.wal.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 18:37:00 2026 GMT\n  hsts: false\n- host: aggregator.walrus-mainnet.walrus.space\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 14:47:24 2026 GMT\n  hsts: null\ndomains:\n- domain: walrus.xyz\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: wal.app\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/walrus-protocol/refs/heads/main/security/walrus-protocol-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/walrus-protocol/security/walrus-protocol-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

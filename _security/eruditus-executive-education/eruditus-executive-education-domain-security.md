@@ -5,13 +5,13 @@ api_specs:
   label: Eruditus Leads API
   slug: eruditus-executive-education-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/openapi/eruditus-executive-education-leads-api-openapi.yml
+  url: https://artifacts.apis.io/eruditus-executive-education/openapi/eruditus-executive-education-leads-api-openapi.yml
 - filename: eruditus-executive-education-programs-api-openapi.yml
   format: yaml
   label: Eruditus Programs API
   slug: eruditus-executive-education-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/openapi/eruditus-executive-education-programs-api-openapi.yml
+  url: https://artifacts.apis.io/eruditus-executive-education/openapi/eruditus-executive-education-programs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: eruditus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 24 04:28:01 2026 GMT\n  hsts: null\n- host: emeritus.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 04:28:00 2026 GMT\n  hsts: null\n- host: admissions.emeritus.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 08:16:46 2026 GMT\n  hsts: null\ndomains:\n- domain: eruditus.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: emeritus.org\n  dnssec: false\n  caa:\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\nnotes:\n- host: admissions.emeritus.org\n  observed: 'strict-transport-security:\
   \ max-age=631138519'\n  method: manual probe of GET /api/v1/programs_api/programs, 2026-08-04\n  note: The API endpoints do return HSTS even though the automated HEAD probe of the host root recorded none.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/security/eruditus-executive-education-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/eruditus-executive-education/security/eruditus-executive-education-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

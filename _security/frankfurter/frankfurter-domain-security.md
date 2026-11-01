@@ -5,37 +5,37 @@ api_specs:
   label: Frankfurter Currencies API
   slug: frankfurter-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frankfurter/refs/heads/main/openapi/frankfurter-currencies-api-openapi.yml
+  url: https://artifacts.apis.io/frankfurter/openapi/frankfurter-currencies-api-openapi.yml
 - filename: frankfurter-current-rates-api-openapi.yml
   format: yaml
   label: Frankfurter Current Rates API
   slug: frankfurter-current-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frankfurter/refs/heads/main/openapi/frankfurter-current-rates-api-openapi.yml
+  url: https://artifacts.apis.io/frankfurter/openapi/frankfurter-current-rates-api-openapi.yml
 - filename: frankfurter-historical-rates-api-openapi.yml
   format: yaml
   label: Frankfurter Historical Rates API
   slug: frankfurter-historical-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frankfurter/refs/heads/main/openapi/frankfurter-historical-rates-api-openapi.yml
+  url: https://artifacts.apis.io/frankfurter/openapi/frankfurter-historical-rates-api-openapi.yml
 - filename: frankfurter-metadata-api-openapi.yml
   format: yaml
   label: Frankfurter Metadata API
   slug: frankfurter-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frankfurter/refs/heads/main/openapi/frankfurter-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/frankfurter/openapi/frankfurter-metadata-api-openapi.yml
 - filename: frankfurter-providers-api-openapi.yml
   format: yaml
   label: Frankfurter Providers API
   slug: frankfurter-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frankfurter/refs/heads/main/openapi/frankfurter-providers-api-openapi.yml
+  url: https://artifacts.apis.io/frankfurter/openapi/frankfurter-providers-api-openapi.yml
 - filename: frankfurter-rates-api-openapi.yml
   format: yaml
   label: Frankfurter Rates API
   slug: frankfurter-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frankfurter/refs/heads/main/openapi/frankfurter-rates-api-openapi.yml
+  url: https://artifacts.apis.io/frankfurter/openapi/frankfurter-rates-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -68,7 +68,7 @@ source_filename: frankfurter-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: frankfurter.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 16:27:24 2026 GMT\n  hsts: false\n- host: api.frankfurter.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 16:27:24 2026 GMT\n  hsts: false\ndomains:\n- domain: frankfurter.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/frankfurter/refs/heads/main/security/frankfurter-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/frankfurter/security/frankfurter-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Foreign Exchange

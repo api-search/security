@@ -5,43 +5,43 @@ api_specs:
   label: Baremetrics Annotations API
   slug: baremetrics-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baremetrics/refs/heads/main/openapi/baremetrics-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/baremetrics/openapi/baremetrics-annotations-api-openapi.yml
 - filename: baremetrics-charges-api-openapi.yml
   format: yaml
   label: Baremetrics Charges API
   slug: baremetrics-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baremetrics/refs/heads/main/openapi/baremetrics-charges-api-openapi.yml
+  url: https://artifacts.apis.io/baremetrics/openapi/baremetrics-charges-api-openapi.yml
 - filename: baremetrics-customers-api-openapi.yml
   format: yaml
   label: Baremetrics Customers API
   slug: baremetrics-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baremetrics/refs/heads/main/openapi/baremetrics-customers-api-openapi.yml
+  url: https://artifacts.apis.io/baremetrics/openapi/baremetrics-customers-api-openapi.yml
 - filename: baremetrics-events-api-openapi.yml
   format: yaml
   label: Baremetrics Events API
   slug: baremetrics-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baremetrics/refs/heads/main/openapi/baremetrics-events-api-openapi.yml
+  url: https://artifacts.apis.io/baremetrics/openapi/baremetrics-events-api-openapi.yml
 - filename: baremetrics-metrics-api-openapi.yml
   format: yaml
   label: Baremetrics Metrics API
   slug: baremetrics-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baremetrics/refs/heads/main/openapi/baremetrics-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/baremetrics/openapi/baremetrics-metrics-api-openapi.yml
 - filename: baremetrics-plans-api-openapi.yml
   format: yaml
   label: Baremetrics Plans API
   slug: baremetrics-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baremetrics/refs/heads/main/openapi/baremetrics-plans-api-openapi.yml
+  url: https://artifacts.apis.io/baremetrics/openapi/baremetrics-plans-api-openapi.yml
 - filename: baremetrics-subscriptions-api-openapi.yml
   format: yaml
   label: Baremetrics Subscriptions API
   slug: baremetrics-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baremetrics/refs/heads/main/openapi/baremetrics-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/baremetrics/openapi/baremetrics-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -83,7 +83,7 @@ source_filename: baremetrics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: baremetrics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 00:48:04 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.baremetrics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 02:17:05 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.baremetrics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 19:25:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: baremetrics.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/baremetrics/refs/heads/main/security/baremetrics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/baremetrics/security/baremetrics-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Subscription Analytics

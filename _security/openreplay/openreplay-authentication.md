@@ -7,37 +7,37 @@ api_specs:
   label: OpenReplay Assist API
   slug: openreplay-assist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openreplay/refs/heads/main/openapi/openreplay-assist-api-openapi.yml
+  url: https://artifacts.apis.io/openreplay/openapi/openreplay-assist-api-openapi.yml
 - filename: openreplay-events-api-openapi.yml
   format: yaml
   label: OpenReplay Events API
   slug: openreplay-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openreplay/refs/heads/main/openapi/openreplay-events-api-openapi.yml
+  url: https://artifacts.apis.io/openreplay/openapi/openreplay-events-api-openapi.yml
 - filename: openreplay-jobs-api-openapi.yml
   format: yaml
   label: OpenReplay Jobs API
   slug: openreplay-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openreplay/refs/heads/main/openapi/openreplay-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/openreplay/openapi/openreplay-jobs-api-openapi.yml
 - filename: openreplay-projects-api-openapi.yml
   format: yaml
   label: OpenReplay Projects API
   slug: openreplay-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openreplay/refs/heads/main/openapi/openreplay-projects-api-openapi.yml
+  url: https://artifacts.apis.io/openreplay/openapi/openreplay-projects-api-openapi.yml
 - filename: openreplay-sessions-api-openapi.yml
   format: yaml
   label: OpenReplay Sessions API
   slug: openreplay-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openreplay/refs/heads/main/openapi/openreplay-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/openreplay/openapi/openreplay-sessions-api-openapi.yml
 - filename: openreplay-users-api-openapi.yml
   format: yaml
   label: OpenReplay Users API
   slug: openreplay-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openreplay/refs/heads/main/openapi/openreplay-users-api-openapi.yml
+  url: https://artifacts.apis.io/openreplay/openapi/openreplay-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +64,7 @@ source_filename: openreplay-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openreplay-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Organization API key from Preferences > Account > Organization API Key.\n  sources:\n  - openapi/openreplay-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openreplay/refs/heads/main/authentication/openreplay-authentication.yml
+source_yaml_url: https://artifacts.apis.io/openreplay/authentication/openreplay-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Debugging

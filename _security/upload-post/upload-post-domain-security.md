@@ -5,25 +5,25 @@ api_specs:
   label: Upload-Post Analytics API
   slug: upload-post-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upload-post/refs/heads/main/openapi/upload-post-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/upload-post/openapi/upload-post-analytics-api-openapi.yml
 - filename: upload-post-upload-api-openapi.yml
   format: yaml
   label: Upload-Post Upload API
   slug: upload-post-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upload-post/refs/heads/main/openapi/upload-post-upload-api-openapi.yml
+  url: https://artifacts.apis.io/upload-post/openapi/upload-post-upload-api-openapi.yml
 - filename: upload-post-upload-management-api-openapi.yml
   format: yaml
   label: Upload-Post Upload Management API
   slug: upload-post-upload-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upload-post/refs/heads/main/openapi/upload-post-upload-management-api-openapi.yml
+  url: https://artifacts.apis.io/upload-post/openapi/upload-post-upload-management-api-openapi.yml
 - filename: upload-post-users-api-openapi.yml
   format: yaml
   label: Upload-Post Users API
   slug: upload-post-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upload-post/refs/heads/main/openapi/upload-post-users-api-openapi.yml
+  url: https://artifacts.apis.io/upload-post/openapi/upload-post-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,7 +62,7 @@ source_filename: upload-post-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.upload-post.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 11:47:12 2026 GMT\n  hsts: false\n- host: docs.upload-post.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 11:47:12 2026 GMT\n  hsts: false\n- host: api.upload-post.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 14:50:07 2026 GMT\n  hsts: false\ndomains:\n- domain: upload-post.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upload-post/refs/heads/main/security/upload-post-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/upload-post/security/upload-post-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Social Media

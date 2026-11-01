@@ -28,7 +28,7 @@ source_filename: powerus-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: powerus.de\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 23:34:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: powerus.de\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/powerus/refs/heads/main/security/powerus-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/powerus/security/powerus-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

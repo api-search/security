@@ -26,7 +26,7 @@ source_filename: sequoiadb-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sequoiadb.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 18 07:38:12 2027 GMT\n  hsts: false\ndomains:\n- domain: sequoiadb.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sequoiadb/refs/heads/main/security/sequoiadb-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sequoiadb/security/sequoiadb-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Company
@@ -37,5 +37,5 @@ tags:
 - Document Database
 - Financial Services
 - Open Source
-- Vector Database
+- Vector Search
 ---

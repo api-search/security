@@ -5,37 +5,37 @@ api_specs:
   label: SnapAPI Metadata API
   slug: snapapi-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snapapi/refs/heads/main/openapi/snapapi-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/snapapi/openapi/snapapi-metadata-api-openapi.yml
 - filename: snapapi-pdf-api-openapi.yml
   format: yaml
   label: SnapAPI Pdf API
   slug: snapapi-pdf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snapapi/refs/heads/main/openapi/snapapi-pdf-api-openapi.yml
+  url: https://artifacts.apis.io/snapapi/openapi/snapapi-pdf-api-openapi.yml
 - filename: snapapi-screenshot-api-openapi.yml
   format: yaml
   label: SnapAPI Screenshot API
   slug: snapapi-screenshot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snapapi/refs/heads/main/openapi/snapapi-screenshot-api-openapi.yml
+  url: https://artifacts.apis.io/snapapi/openapi/snapapi-screenshot-api-openapi.yml
 - filename: snapapi-signup-api-openapi.yml
   format: yaml
   label: SnapAPI Signup API
   slug: snapapi-signup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snapapi/refs/heads/main/openapi/snapapi-signup-api-openapi.yml
+  url: https://artifacts.apis.io/snapapi/openapi/snapapi-signup-api-openapi.yml
 - filename: snapapi-text-api-openapi.yml
   format: yaml
   label: SnapAPI Text API
   slug: snapapi-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snapapi/refs/heads/main/openapi/snapapi-text-api-openapi.yml
+  url: https://artifacts.apis.io/snapapi/openapi/snapapi-text-api-openapi.yml
 - filename: snapapi-usage-api-openapi.yml
   format: yaml
   label: SnapAPI Usage API
   slug: snapapi-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snapapi/refs/heads/main/openapi/snapapi-usage-api-openapi.yml
+  url: https://artifacts.apis.io/snapapi/openapi/snapapi-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: snapapi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: snap.michaelcli.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 20:17:19 2026 GMT\n  hsts: false\ndomains:\n- domain: michaelcli.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snapapi/refs/heads/main/security/snapapi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/snapapi/security/snapapi-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Screenshots

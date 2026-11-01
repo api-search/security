@@ -8,7 +8,7 @@ api_specs:
   label: Fireflies.ai Transcripts API
   slug: fireflies-transcripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/openapi/fireflies-transcripts-api-openapi.yml
+  url: https://artifacts.apis.io/fireflies/openapi/fireflies-transcripts-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: https://docs.fi
   \ with no Authorization header returns 401 invalid_token / Missing Authorization header.'\n  sources:\n  - well-known/fireflies-api-oauth-authorization-server.json\n  - well-known/fireflies-mcp-oauth-authorization-server.json\nauthorization_model:\n  note: >-\n    Authorization is NOT expressed in the token. The two OAuth scopes are identity scopes only —\n    there is no read/write split and no per-resource scope. What a caller may do is decided\n    downstream by (a) plan tier and (b) meeting ownership or team-admin role.\n  tier_gates:\n  - {capability: 'uploadAudio', requires: 'Pro or higher', error: paid_required}\n  - {capability: 'AskFred / AI operations', requires: 'sufficient AI credits', error: require_ai_credits}\n  - {capability: 'rule_executions_by_meeting', requires: Enterprise, error: forbidden}\n  - {capability: 'auditEvents', requires: Enterprise, error: forbidden}\n  - {capability: 'team-wide webhooks', requires: 'Enterprise + Super Admin role'}\n  role_gates:\n  - {capability:\
   \ 'shareMeeting, revokeSharedMeetingAccess, updateMeetingTitle, updateMeetingChannel, updateMeetingPrivacy', requires: 'meeting owner or team admin', error: forbidden}\n  - {capability: 'setUserRole, team-level analytics', requires: admin, error: require_elevated_privilege}\n  - {capability: 'querying users outside your team', requires: same team, error: not_in_team}\n  super_admin:\n    docs: https://docs.fireflies.ai/fundamentals/super-admin\n    note: Enterprise role granting full workspace meeting access and team-wide webhooks.\nsecurity_practices:\n  documented:\n  - Treat the API key like a password; never expose it in client-side code\n  - Store in environment variables or secure storage\n  cross_ref: security/fireflies-domain-security.yml\nx-evidence:\n  fetched: '2026-08-14'\n  probes:\n  - {url: 'https://docs.fireflies.ai/fundamentals/authorization.md', http_status: 200}\n  - {url: 'https://api.fireflies.ai/graphql', http_status: 500, body: auth_failed}\n  - {url: 'https://api.fireflies.ai/mcp',\
   \ http_status: 401, body: invalid_token}\n  - {url: 'https://api.fireflies.ai/.well-known/oauth-authorization-server', http_status: 200}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/authentication/fireflies-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fireflies/authentication/fireflies-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Artificial Intelligence

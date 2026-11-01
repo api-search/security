@@ -5,49 +5,97 @@ api_specs:
   label: AWS Lambda Aliases API
   slug: aws-lambda-aliases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/openapi/aws-lambda-aliases-api-openapi.yml
+  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-aliases-api-openapi.yml
 - filename: aws-lambda-concurrency-api-openapi.yml
   format: yaml
   label: AWS Lambda Concurrency API
   slug: aws-lambda-concurrency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/openapi/aws-lambda-concurrency-api-openapi.yml
+  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-concurrency-api-openapi.yml
 - filename: aws-lambda-event-source-mappings-api-openapi.yml
   format: yaml
   label: AWS Lambda Event Source Mappings API
   slug: aws-lambda-event-source-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/openapi/aws-lambda-event-source-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-event-source-mappings-api-openapi.yml
 - filename: aws-lambda-function-url-api-openapi.yml
   format: yaml
   label: AWS Lambda Function URL API
   slug: aws-lambda-function-url-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/openapi/aws-lambda-function-url-api-openapi.yml
+  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-function-url-api-openapi.yml
 - filename: aws-lambda-functions-api-openapi.yml
   format: yaml
   label: AWS Lambda Functions API
   slug: aws-lambda-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/openapi/aws-lambda-functions-api-openapi.yml
+  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-functions-api-openapi.yml
 - filename: aws-lambda-layers-api-openapi.yml
   format: yaml
   label: AWS Lambda Layers API
   slug: aws-lambda-layers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/openapi/aws-lambda-layers-api-openapi.yml
+  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-layers-api-openapi.yml
 - filename: aws-lambda-tags-api-openapi.yml
   format: yaml
   label: AWS Lambda Tags API
   slug: aws-lambda-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/openapi/aws-lambda-tags-api-openapi.yml
+  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-tags-api-openapi.yml
 - filename: aws-lambda-versions-api-openapi.yml
   format: yaml
   label: AWS Lambda Versions API
   slug: aws-lambda-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/openapi/aws-lambda-versions-api-openapi.yml
+  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-versions-api-openapi.yml
+- filename: aws-lambda-capacity-providers-api-openapi.yml
+  format: yaml
+  label: AWS Lambda Lambda Capacity Providers API
+  slug: aws-lambda-capacity-providers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-capacity-providers-api-openapi.yml
+- filename: aws-lambda-code-signing-config-api-openapi.yml
+  format: yaml
+  label: AWS Lambda Lambda Code Signing Config API
+  slug: aws-lambda-code-signing-config-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-code-signing-config-api-openapi.yml
+- filename: aws-lambda-code-signing-configs-api-openapi.yml
+  format: yaml
+  label: AWS Lambda Lambda Code Signing Configs API
+  slug: aws-lambda-code-signing-configs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-code-signing-configs-api-openapi.yml
+- filename: aws-lambda-event-invoke-config-api-openapi.yml
+  format: yaml
+  label: AWS Lambda Lambda Event Invoke Config API
+  slug: aws-lambda-event-invoke-config-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-event-invoke-config-api-openapi.yml
+- filename: aws-lambda-operations-api-openapi.yml
+  format: yaml
+  label: AWS Lambda Lambda Operations API
+  slug: aws-lambda-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-operations-api-openapi.yml
+- filename: aws-lambda-policy-api-openapi.yml
+  format: yaml
+  label: AWS Lambda Lambda Policy API
+  slug: aws-lambda-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-policy-api-openapi.yml
+- filename: aws-lambda-provisioned-concurrency-api-openapi.yml
+  format: yaml
+  label: AWS Lambda Lambda Provisioned Concurrency API
+  slug: aws-lambda-provisioned-concurrency-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-provisioned-concurrency-api-openapi.yml
+- filename: aws-lambda-resource-policy-api-openapi.yml
+  format: yaml
+  label: AWS Lambda Lambda Resource Policy API
+  slug: aws-lambda-resource-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-resource-policy-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -83,7 +131,7 @@ source_filename: aws-lambda-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: docs.aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/security/aws-lambda-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aws-lambda/security/aws-lambda-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Serverless

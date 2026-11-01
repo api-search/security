@@ -7,13 +7,13 @@ api_specs:
   label: Attest Studies API
   slug: attest-studies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attest/refs/heads/main/openapi/attest-studies-api-openapi.yml
+  url: https://artifacts.apis.io/attest/openapi/attest-studies-api-openapi.yml
 - filename: attest-study-api-openapi.yml
   format: yaml
   label: Attest Study API
   slug: attest-study-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attest/refs/heads/main/openapi/attest-study-api-openapi.yml
+  url: https://artifacts.apis.io/attest/openapi/attest-study-api-openapi.yml
 auth_types: []
 description: Attest uses a simple API key authentication scheme.
 kind: authentication
@@ -39,7 +39,7 @@ source_filename: attest-authentication.yml
 source_heading: Authentication Profile
 source_url: https://developers.askattest.com/docs/authentication.md
 source_yaml: "generated: '2026-09-26'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://developers.askattest.com/docs/authentication.md\nsources:\n- https://developers.askattest.com/docs/authentication.md\n- https://developers.askattest.com/docs/authentication\n- https://help.askattest.com/en/articles/3494059-getting-started-with-your-first-survey\n- https://help.askattest.com/en/articles/5951282-getting-started-with-the-attest-platform\ndescription: Attest uses a simple API key authentication scheme.\nschemes:\n- type: apiKey\n  name: API Key\n  evidence: 'Pass your API key in the `X-API-Key` header on every request:'\n  location: header\n  header: X-API-Key\n  how_to_obtain: Log in to your Attest account, navigate to **API & MCP** on the main nav, scroll to the **API key** section, click **Create API\n    key**, then copy the generated key.\nnote: No OAuth2, HTTP Bearer, or other authentication methods are documented.\ndocs: https://developers.askattest.com/docs/authentication.md\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/attest/refs/heads/main/authentication/attest-authentication.yml
+source_yaml_url: https://artifacts.apis.io/attest/authentication/attest-authentication.yml
 summary_line: 1 scheme
 tags:
 - Artificial Intelligence

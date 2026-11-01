@@ -29,7 +29,7 @@ source_filename: lish-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/lish-wordpress-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: anonymous\n  type: apiKey\n  in: header\n  parameter: X-WP-Nonce\n  description: The public read surface documented here requires NO credentials — the live index\n    reports an empty `authentication` object. Authenticated operations use a cookie plus an\n    `X-WP-Nonce` header (same-origin), or HTTP Basic with a WordPress Application Password (`/wp/v2/users/<id>/application-passwords`\n    is present in the live index).\n  sources:\n  - openapi/lish-wordpress-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lish/refs/heads/main/authentication/lish-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lish/authentication/lish-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

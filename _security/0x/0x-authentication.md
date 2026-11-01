@@ -8,31 +8,31 @@ api_specs:
   label: 0x Cross-Chain API
   slug: 0x-cross-chain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/0x/refs/heads/main/openapi/0x-cross-chain-api-openapi.yml
+  url: https://artifacts.apis.io/0x/openapi/0x-cross-chain-api-openapi.yml
 - filename: 0x-gasless-api-openapi.yml
   format: yaml
   label: 0x Gasless API
   slug: 0x-gasless-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/0x/refs/heads/main/openapi/0x-gasless-api-openapi.yml
+  url: https://artifacts.apis.io/0x/openapi/0x-gasless-api-openapi.yml
 - filename: 0x-sources-api-openapi.yml
   format: yaml
   label: 0x Sources API
   slug: 0x-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/0x/refs/heads/main/openapi/0x-sources-api-openapi.yml
+  url: https://artifacts.apis.io/0x/openapi/0x-sources-api-openapi.yml
 - filename: 0x-swap-api-openapi.yml
   format: yaml
   label: 0x Swap API
   slug: 0x-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/0x/refs/heads/main/openapi/0x-swap-api-openapi.yml
+  url: https://artifacts.apis.io/0x/openapi/0x-swap-api-openapi.yml
 - filename: 0x-trade-analytics-api-openapi.yml
   format: yaml
   label: 0x Trade Analytics API
   slug: 0x-trade-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/0x/refs/heads/main/openapi/0x-trade-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/0x/openapi/0x-trade-analytics-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,14 +60,14 @@ source_filename: 0x-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/0x-api.yaml, openapi/0x-cross-chain.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: 0x-api-key\n  sources:\n  - openapi/0x-api.yaml\n  - openapi/0x-cross-chain.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/0x/refs/heads/main/authentication/0x-authentication.yml
+source_yaml_url: https://artifacts.apis.io/0x/authentication/0x-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Cryptocurrency
 - DeFi
 - DEX Aggregator
 - Swap
-- Gasless
+- Gasless Transactions
 - Cross-Chain
 - Permit2
 - Liquidity

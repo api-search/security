@@ -26,7 +26,7 @@ source_filename: j-entendi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: jaentendi.com.br\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  3 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: jaentendi.com.br\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/j-entendi/refs/heads/main/security/j-entendi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/j-entendi/security/j-entendi-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

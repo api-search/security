@@ -5,61 +5,73 @@ api_specs:
   label: Anam.ai Avatars API
   slug: anamai-avatars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/openapi/anamai-avatars-api-openapi.yml
+  url: https://artifacts.apis.io/anamai/openapi/anamai-avatars-api-openapi.yml
 - filename: anamai-engine-api-openapi.yml
   format: yaml
   label: Anam.ai Engine API
   slug: anamai-engine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/openapi/anamai-engine-api-openapi.yml
+  url: https://artifacts.apis.io/anamai/openapi/anamai-engine-api-openapi.yml
 - filename: anamai-knowledge-api-openapi.yml
   format: yaml
   label: Anam.ai Knowledge API
   slug: anamai-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/openapi/anamai-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/anamai/openapi/anamai-knowledge-api-openapi.yml
 - filename: anamai-meetings-api-openapi.yml
   format: yaml
   label: Anam.ai Meetings API
   slug: anamai-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/openapi/anamai-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/anamai/openapi/anamai-meetings-api-openapi.yml
 - filename: anamai-personas-api-openapi.yml
   format: yaml
   label: Anam.ai Personas API
   slug: anamai-personas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/openapi/anamai-personas-api-openapi.yml
+  url: https://artifacts.apis.io/anamai/openapi/anamai-personas-api-openapi.yml
 - filename: anamai-sessions-api-openapi.yml
   format: yaml
   label: Anam.ai Sessions API
   slug: anamai-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/openapi/anamai-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/anamai/openapi/anamai-sessions-api-openapi.yml
 - filename: anamai-share-links-api-openapi.yml
   format: yaml
   label: Anam.ai Share Links API
   slug: anamai-share-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/openapi/anamai-share-links-api-openapi.yml
+  url: https://artifacts.apis.io/anamai/openapi/anamai-share-links-api-openapi.yml
 - filename: anamai-tools-api-openapi.yml
   format: yaml
   label: Anam.ai Tools API
   slug: anamai-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/openapi/anamai-tools-api-openapi.yml
+  url: https://artifacts.apis.io/anamai/openapi/anamai-tools-api-openapi.yml
 - filename: anamai-voices-api-openapi.yml
   format: yaml
   label: Anam.ai Voices API
   slug: anamai-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/openapi/anamai-voices-api-openapi.yml
+  url: https://artifacts.apis.io/anamai/openapi/anamai-voices-api-openapi.yml
 - filename: anamai-llms-api-openapi.yml
   format: yaml
   label: Anam.ai LL Ms API
   slug: anamai-llms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/openapi/anamai-llms-api-openapi.yml
+  url: https://artifacts.apis.io/anamai/openapi/anamai-llms-api-openapi.yml
+- filename: anamai-avatar-videos-api-openapi.yml
+  format: yaml
+  label: Anam.ai Avatar Videos API
+  slug: anamai-avatar-videos-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anamai/openapi/anamai-avatar-videos-api-openapi.yml
+- filename: anamai-pronunciation-dictionaries-api-openapi.yml
+  format: yaml
+  label: Anam.ai Pronunciation Dictionaries API
+  slug: anamai-pronunciation-dictionaries-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anamai/openapi/anamai-pronunciation-dictionaries-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -95,7 +107,7 @@ source_filename: anamai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: anam.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 11:59:26 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.anam.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 12:55:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: anam.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/security/anamai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/anamai/security/anamai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

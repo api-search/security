@@ -7,19 +7,19 @@ api_specs:
   label: OPay Cashier API
   slug: opay-cashier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opay/refs/heads/main/openapi/opay-cashier-api-openapi.yml
+  url: https://artifacts.apis.io/opay/openapi/opay-cashier-api-openapi.yml
 - filename: opay-payments-api-openapi.yml
   format: yaml
   label: OPay Payments API
   slug: opay-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opay/refs/heads/main/openapi/opay-payments-api-openapi.yml
+  url: https://artifacts.apis.io/opay/openapi/opay-payments-api-openapi.yml
 - filename: opay-refunds-api-openapi.yml
   format: yaml
   label: OPay Refunds API
   slug: opay-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opay/refs/heads/main/openapi/opay-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/opay/openapi/opay-refunds-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: opay-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/opay-cashier-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: PublicKeyAuth\n  type: http\n  scheme: bearer\n  description: Bearer token = merchant public key (used for cashier/create).\n  sources:\n  - openapi/opay-cashier-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opay/refs/heads/main/authentication/opay-authentication.yml
+source_yaml_url: https://artifacts.apis.io/opay/authentication/opay-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Payments

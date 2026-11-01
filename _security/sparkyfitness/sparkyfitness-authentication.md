@@ -7,127 +7,127 @@ api_specs:
   label: SparkyFitness Admin API
   slug: sparkyfitness-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/openapi/sparkyfitness-admin-api-openapi.yml
+  url: https://artifacts.apis.io/sparkyfitness/openapi/sparkyfitness-admin-api-openapi.yml
 - filename: sparkyfitness-ai-api-openapi.yml
   format: yaml
   label: SparkyFitness AI API
   slug: sparkyfitness-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/openapi/sparkyfitness-ai-api-openapi.yml
+  url: https://artifacts.apis.io/sparkyfitness/openapi/sparkyfitness-ai-api-openapi.yml
 - filename: sparkyfitness-ai-insights-api-openapi.yml
   format: yaml
   label: SparkyFitness AI & Insights API
   slug: sparkyfitness-ai-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/openapi/sparkyfitness-ai-insights-api-openapi.yml
+  url: https://artifacts.apis.io/sparkyfitness/openapi/sparkyfitness-ai-insights-api-openapi.yml
 - filename: sparkyfitness-allergen-preferences-api-openapi.yml
   format: yaml
   label: SparkyFitness Allergen Preferences API
   slug: sparkyfitness-allergen-preferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/openapi/sparkyfitness-allergen-preferences-api-openapi.yml
+  url: https://artifacts.apis.io/sparkyfitness/openapi/sparkyfitness-allergen-preferences-api-openapi.yml
 - filename: sparkyfitness-authentication-api-openapi.yml
   format: yaml
   label: SparkyFitness Authentication API
   slug: sparkyfitness-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/openapi/sparkyfitness-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sparkyfitness/openapi/sparkyfitness-authentication-api-openapi.yml
 - filename: sparkyfitness-dashboard-api-openapi.yml
   format: yaml
   label: SparkyFitness Dashboard API
   slug: sparkyfitness-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/openapi/sparkyfitness-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/sparkyfitness/openapi/sparkyfitness-dashboard-api-openapi.yml
 - filename: sparkyfitness-dashboard-layouts-api-openapi.yml
   format: yaml
   label: SparkyFitness Dashboard Layouts API
   slug: sparkyfitness-dashboard-layouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/openapi/sparkyfitness-dashboard-layouts-api-openapi.yml
+  url: https://artifacts.apis.io/sparkyfitness/openapi/sparkyfitness-dashboard-layouts-api-openapi.yml
 - filename: sparkyfitness-exercise-entries-api-openapi.yml
   format: yaml
   label: SparkyFitness Exercise Entries API
   slug: sparkyfitness-exercise-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/openapi/sparkyfitness-exercise-entries-api-openapi.yml
+  url: https://artifacts.apis.io/sparkyfitness/openapi/sparkyfitness-exercise-entries-api-openapi.yml
 - filename: sparkyfitness-exercise-stats-api-openapi.yml
   format: yaml
   label: SparkyFitness Exercise Stats API
   slug: sparkyfitness-exercise-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/openapi/sparkyfitness-exercise-stats-api-openapi.yml
+  url: https://artifacts.apis.io/sparkyfitness/openapi/sparkyfitness-exercise-stats-api-openapi.yml
 - filename: sparkyfitness-exercise-workouts-api-openapi.yml
   format: yaml
   label: SparkyFitness Exercise & Workouts API
   slug: sparkyfitness-exercise-workouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/openapi/sparkyfitness-exercise-workouts-api-openapi.yml
+  url: https://artifacts.apis.io/sparkyfitness/openapi/sparkyfitness-exercise-workouts-api-openapi.yml
 - filename: sparkyfitness-external-integrations-api-openapi.yml
   format: yaml
   label: SparkyFitness External Integrations API
   slug: sparkyfitness-external-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/openapi/sparkyfitness-external-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/sparkyfitness/openapi/sparkyfitness-external-integrations-api-openapi.yml
 - filename: sparkyfitness-fitness-workouts-api-openapi.yml
   format: yaml
   label: SparkyFitness Fitness & Workouts API
   slug: sparkyfitness-fitness-workouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/openapi/sparkyfitness-fitness-workouts-api-openapi.yml
+  url: https://artifacts.apis.io/sparkyfitness/openapi/sparkyfitness-fitness-workouts-api-openapi.yml
 - filename: sparkyfitness-goals-personalization-api-openapi.yml
   format: yaml
   label: SparkyFitness Goals & Personalization API
   slug: sparkyfitness-goals-personalization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/openapi/sparkyfitness-goals-personalization-api-openapi.yml
+  url: https://artifacts.apis.io/sparkyfitness/openapi/sparkyfitness-goals-personalization-api-openapi.yml
 - filename: sparkyfitness-identity-security-api-openapi.yml
   format: yaml
   label: SparkyFitness Identity & Security API
   slug: sparkyfitness-identity-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/openapi/sparkyfitness-identity-security-api-openapi.yml
+  url: https://artifacts.apis.io/sparkyfitness/openapi/sparkyfitness-identity-security-api-openapi.yml
 - filename: sparkyfitness-medications-glp-1-api-openapi.yml
   format: yaml
   label: SparkyFitness Medications & GLP-1 API
   slug: sparkyfitness-medications-glp-1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/openapi/sparkyfitness-medications-glp-1-api-openapi.yml
+  url: https://artifacts.apis.io/sparkyfitness/openapi/sparkyfitness-medications-glp-1-api-openapi.yml
 - filename: sparkyfitness-nutrition-meals-api-openapi.yml
   format: yaml
   label: SparkyFitness Nutrition & Meals API
   slug: sparkyfitness-nutrition-meals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/openapi/sparkyfitness-nutrition-meals-api-openapi.yml
+  url: https://artifacts.apis.io/sparkyfitness/openapi/sparkyfitness-nutrition-meals-api-openapi.yml
 - filename: sparkyfitness-sleepscience-api-openapi.yml
   format: yaml
   label: SparkyFitness Sleep Science API
   slug: sparkyfitness-sleepscience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/openapi/sparkyfitness-sleepscience-api-openapi.yml
+  url: https://artifacts.apis.io/sparkyfitness/openapi/sparkyfitness-sleepscience-api-openapi.yml
 - filename: sparkyfitness-synced-data-api-openapi.yml
   format: yaml
   label: SparkyFitness Synced Data API
   slug: sparkyfitness-synced-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/openapi/sparkyfitness-synced-data-api-openapi.yml
+  url: https://artifacts.apis.io/sparkyfitness/openapi/sparkyfitness-synced-data-api-openapi.yml
 - filename: sparkyfitness-system-admin-api-openapi.yml
   format: yaml
   label: SparkyFitness System & Admin API
   slug: sparkyfitness-system-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/openapi/sparkyfitness-system-admin-api-openapi.yml
+  url: https://artifacts.apis.io/sparkyfitness/openapi/sparkyfitness-system-admin-api-openapi.yml
 - filename: sparkyfitness-utility-api-openapi.yml
   format: yaml
   label: SparkyFitness Utility API
   slug: sparkyfitness-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/openapi/sparkyfitness-utility-api-openapi.yml
+  url: https://artifacts.apis.io/sparkyfitness/openapi/sparkyfitness-utility-api-openapi.yml
 - filename: sparkyfitness-wellness-metrics-api-openapi.yml
   format: yaml
   label: SparkyFitness Wellness & Metrics API
   slug: sparkyfitness-wellness-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/openapi/sparkyfitness-wellness-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/sparkyfitness/openapi/sparkyfitness-wellness-metrics-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -152,7 +152,7 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: https://codewit
   \ with Row Level Security, scoped to the\n    user the API key authenticates. The MCP path deliberately scopes to\n    authenticatedUserId rather than the delegation cookie, so family-sharing\n    delegation cannot make an agent act as another user.\n  exception: >-\n    Five admin developer tools run on the owner pool and bypass RLS. They require\n    both DEV_TOOLS_ENABLED=true and an admin caller, and are gated at\n    registration so they never appear in a non-admin tools/list.\nfederated_identity:\n  protocol: OpenID Connect\n  library: openid-client\n  docs: https://codewithcj.github.io/SparkyFitness/administration/oauth-authentication\n  multiple_providers: true\n  scope: openid profile email\n  discovery: >-\n    The operator supplies an Issuer URL and SparkyFitness discovers the IdP\n    configuration from it. SparkyFitness is the OIDC RELYING PARTY here, not a\n    provider — it publishes no /.well-known/openid-configuration of its own.\n  configurable:\n    - Issuer URL\n  \
   \  - Client ID\n    - Client Secret\n    - Redirect URI\n    - Auto-register users\n    - Token endpoint auth method\n    - ID token signed response algorithm\n    - Userinfo signed response algorithm\n    - Request timeout (default 3500 ms)\n  admin_api: /admin/oidc-settings (GET, POST, PUT, DELETE)\nmfa:\n  supported: true\n  evidence: >-\n    /api/auth/mfa/* endpoints are rate-limited by name in the nginx config, and\n    an admin operation exists to reset a user's MFA\n    (POST /admin/auth/users/{userId}/mfa/reset) and to make MFA mandatory\n    (/admin/auth/settings/mfa-mandatory).\npasskeys:\n  supported: true\n  evidence: >-\n    SparkyFitnessServer/routes/auth/templates/passkey-login.html and\n    passkey-register.html ship with a bundled @simplewebauthn/browser build.\nagent_guidance: >-\n  An agent should use an API key. Generate it in the UI, send it as\n  \"Authorization: Bearer <key>\" (works for both REST and MCP) or as x-api-key,\n  and expect 401 for a missing/invalid\
   \ key and 403 when the key lacks the\n  required permission.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/authentication/sparkyfitness-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sparkyfitness/authentication/sparkyfitness-authentication.yml
 summary_line: 0 schemes
 tags:
 - Company

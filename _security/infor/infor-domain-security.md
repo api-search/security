@@ -1,17 +1,71 @@
 ---
 api_specs:
-- filename: infor-ion-documents-api-openapi.yml
+- filename: infor-contents-api-openapi.yml
   format: yaml
-  label: Infor ION Documents API
-  slug: infor-ion-documents-api
+  label: Infor Contents API
+  slug: infor-contents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/openapi/infor-ion-documents-api-openapi.yml
-- filename: infor-m3-api-api-openapi.yml
+  url: https://artifacts.apis.io/infor/openapi/infor-contents-api-openapi.yml
+- filename: infor-icua-api-openapi.yml
   format: yaml
-  label: Infor M3 API
-  slug: infor-m3-api-api
+  label: Infor ICUA API
+  slug: infor-icua-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/openapi/infor-m3-api-api-openapi.yml
+  url: https://artifacts.apis.io/infor/openapi/infor-icua-api-openapi.yml
+- filename: infor-languages-api-openapi.yml
+  format: yaml
+  label: Infor Languages API
+  slug: infor-languages-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infor/openapi/infor-languages-api-openapi.yml
+- filename: infor-products-api-openapi.yml
+  format: yaml
+  label: Infor Products API
+  slug: infor-products-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infor/openapi/infor-products-api-openapi.yml
+- filename: infor-recenttopics-api-openapi.yml
+  format: yaml
+  label: Infor Recent Topics API
+  slug: infor-recenttopics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infor/openapi/infor-recenttopics-api-openapi.yml
+- filename: infor-s3-docs-api-openapi.yml
+  format: yaml
+  label: Infor S3 Docs API
+  slug: infor-s3-docs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infor/openapi/infor-s3-docs-api-openapi.yml
+- filename: infor-search-api-openapi.yml
+  format: yaml
+  label: Infor Search API
+  slug: infor-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infor/openapi/infor-search-api-openapi.yml
+- filename: infor-security-api-openapi.yml
+  format: yaml
+  label: Infor Security API
+  slug: infor-security-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infor/openapi/infor-security-api-openapi.yml
+- filename: infor-solutions-api-openapi.yml
+  format: yaml
+  label: Infor Solutions API
+  slug: infor-solutions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infor/openapi/infor-solutions-api-openapi.yml
+- filename: infor-userfavorites-api-openapi.yml
+  format: yaml
+  label: Infor User Favorites API
+  slug: infor-userfavorites-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infor/openapi/infor-userfavorites-api-openapi.yml
+- filename: infor-web-api-openapi.yml
+  format: yaml
+  label: Infor Web API
+  slug: infor-web-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infor/openapi/infor-web-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -51,7 +105,7 @@ source_filename: infor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.infor.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.infor.com\n  https: false\n- host: mingledev01-ionapi.mingle.infor.com\n  https: false\ndomains:\n- domain: infor.com\n  dnssec: true\n  caa:\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/security/infor-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/infor/security/infor-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - ERP

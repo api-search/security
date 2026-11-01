@@ -8,37 +8,37 @@ api_specs:
   label: Gradium Metering API
   slug: gradium-metering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradium/refs/heads/main/openapi/gradium-metering-api-openapi.yml
+  url: https://artifacts.apis.io/gradium/openapi/gradium-metering-api-openapi.yml
 - filename: gradium-pronunciations-api-openapi.yml
   format: yaml
   label: Gradium Pronunciations API
   slug: gradium-pronunciations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradium/refs/heads/main/openapi/gradium-pronunciations-api-openapi.yml
+  url: https://artifacts.apis.io/gradium/openapi/gradium-pronunciations-api-openapi.yml
 - filename: gradium-s2s-api-openapi.yml
   format: yaml
   label: Gradium S2S API
   slug: gradium-s2s-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradium/refs/heads/main/openapi/gradium-s2s-api-openapi.yml
+  url: https://artifacts.apis.io/gradium/openapi/gradium-s2s-api-openapi.yml
 - filename: gradium-stt-api-openapi.yml
   format: yaml
   label: Gradium STT API
   slug: gradium-stt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradium/refs/heads/main/openapi/gradium-stt-api-openapi.yml
+  url: https://artifacts.apis.io/gradium/openapi/gradium-stt-api-openapi.yml
 - filename: gradium-tts-api-openapi.yml
   format: yaml
   label: Gradium TTS API
   slug: gradium-tts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradium/refs/heads/main/openapi/gradium-tts-api-openapi.yml
+  url: https://artifacts.apis.io/gradium/openapi/gradium-tts-api-openapi.yml
 - filename: gradium-voices-api-openapi.yml
   format: yaml
   label: Gradium Voices API
   slug: gradium-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradium/refs/heads/main/openapi/gradium-voices-api-openapi.yml
+  url: https://artifacts.apis.io/gradium/openapi/gradium-voices-api-openapi.yml
 auth_types:
 - apiKey
 - bearer-token
@@ -76,7 +76,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://docs.gradium.ai/guides/installation, https://docs.gradium.ai/guides/browser-websockets, https://docs.gradium.ai/guides/errors\ndocs: https://docs.gradium.ai/api-reference/introduction\nnote: >-\n  The published OpenAPI (openapi/gradium-openapi-original.json) declares no\n  components.securitySchemes; the authentication model below is captured from\n  the Gradium docs, not derived from the spec.\nsummary:\n  types: [apiKey, bearer-token]\n  api_key_in: [header]\n  api_key_header: x-api-key\n  api_key_prefix: gd_\n  oauth2_flows: []\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  key_prefix: gd_\n  env_var: GRADIUM_API_KEY\n  applies_to: All REST endpoints and server-to-server calls.\n  source: https://docs.gradium.ai/guides/installation\n- name: ShortLivedToken\n  type: token-exchange\n  description: >-\n    For browser/mobile WebSocket clients, exchange the server-side API key\
   \ for a\n    single-use, short-lived token via GET https://api.gradium.ai/api/api-keys/token\n    (x-api-key header). The client connects to the WebSocket endpoint with\n    ?token=<token>. Token is consumed on verification; issue one per connection.\n  token_endpoint: https://api.gradium.ai/api/api-keys/token\n  transport: query-parameter (?token=)\n  applies_to: WebSocket endpoints (/api/speech/tts, /api/speech/asr, /api/speech/s2s)\n  source: https://docs.gradium.ai/guides/browser-websockets\nerrors:\n  invalid_or_revoked_key:\n    code: 1008\n    rest: \"HTTP 500 plain-text body 'error from server 1008: API key is revoked or expired'\"\n    websocket: 'error message {\"type\":\"error\",\"message\":\"...\",\"code\":1008} then socket close'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gradium/refs/heads/main/authentication/gradium-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gradium/authentication/gradium-authentication.yml
 summary_line: apiKey/bearer-token · 2 schemes
 tags:
 - Company

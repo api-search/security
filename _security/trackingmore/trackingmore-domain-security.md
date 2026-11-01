@@ -5,19 +5,19 @@ api_specs:
   label: TrackingMore Air Waybills API
   slug: trackingmore-air-waybills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trackingmore/refs/heads/main/openapi/trackingmore-air-waybills-api-openapi.yml
+  url: https://artifacts.apis.io/trackingmore/openapi/trackingmore-air-waybills-api-openapi.yml
 - filename: trackingmore-couriers-api-openapi.yml
   format: yaml
   label: TrackingMore Couriers API
   slug: trackingmore-couriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trackingmore/refs/heads/main/openapi/trackingmore-couriers-api-openapi.yml
+  url: https://artifacts.apis.io/trackingmore/openapi/trackingmore-couriers-api-openapi.yml
 - filename: trackingmore-trackings-api-openapi.yml
   format: yaml
   label: TrackingMore Trackings API
   slug: trackingmore-trackings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trackingmore/refs/heads/main/openapi/trackingmore-trackings-api-openapi.yml
+  url: https://artifacts.apis.io/trackingmore/openapi/trackingmore-trackings-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -52,7 +52,7 @@ source_filename: trackingmore-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.trackingmore.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 19:29:19 2026 GMT\n  hsts: false\n- host: api.trackingmore.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 17:06:48 2026 GMT\n  hsts: false\ndomains:\n- domain: trackingmore.com\n  dnssec: true\n  caa:\n  - www.trackingmore.com.cdn.cloudflare.net.\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trackingmore/refs/heads/main/security/trackingmore-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trackingmore/security/trackingmore-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Logistics

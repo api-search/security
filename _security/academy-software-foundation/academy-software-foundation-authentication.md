@@ -7,25 +7,25 @@ api_specs:
   label: Academy Software Foundation Hosts API
   slug: academy-software-foundation-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/openapi/academy-software-foundation-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/academy-software-foundation/openapi/academy-software-foundation-hosts-api-openapi.yml
 - filename: academy-software-foundation-jobs-api-openapi.yml
   format: yaml
   label: Academy Software Foundation Jobs API
   slug: academy-software-foundation-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/openapi/academy-software-foundation-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/academy-software-foundation/openapi/academy-software-foundation-jobs-api-openapi.yml
 - filename: academy-software-foundation-layers-api-openapi.yml
   format: yaml
   label: Academy Software Foundation Layers API
   slug: academy-software-foundation-layers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/openapi/academy-software-foundation-layers-api-openapi.yml
+  url: https://artifacts.apis.io/academy-software-foundation/openapi/academy-software-foundation-layers-api-openapi.yml
 - filename: academy-software-foundation-shows-api-openapi.yml
   format: yaml
   label: Academy Software Foundation Shows API
   slug: academy-software-foundation-shows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/openapi/academy-software-foundation-shows-api-openapi.yml
+  url: https://artifacts.apis.io/academy-software-foundation/openapi/academy-software-foundation-shows-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -69,7 +69,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-29'\nmethod: searched\nsource: https://github.com/AcademySoftwareFoundation/OpenCue/blob/master/docs/_docs/reference/rest-api-reference.md\ndocs: https://www.opencue.io/docs/\nnote: >-\n  ASWF hosts no authenticated API of its own. The only authenticated interface any ASWF project\n  ships is the OpenCue REST Gateway, which studios deploy inside their own network; the credential\n  is therefore issued by the deploying studio, not by ASWF. The four OpenAPI documents in this repo\n  were written by API Evangelist from documentation and declare no securityScheme, so this profile\n  is taken from the provider's own REST API reference rather than derived from those specs.\nschemes:\n  - id: bearerAuth\n    api: academy-software-foundation:academy-software-foundation-jobs-api\n    type: http\n    scheme: bearer\n    bearer_format: JWT\n    location: header\n    header: Authorization\n    value_prefix: 'Bearer '\n    algorithm: HS256\n    required_claims:\n   \
   \   - sub\n      - exp\n    issued_by: the studio operating the gateway (shared HMAC secret), not by ASWF\n    applies_to: every gateway endpoint\n    exceptions:\n      - path: /swagger/\n        note: >-\n          The Swagger UI and the OpenAPI definitions it serves (/swagger/specs/<name>.swagger.json)\n          are the only unauthenticated routes. When the documentation routes are disabled or\n          SWAGGER_DIR is absent, /swagger/ falls through to the authenticated handler and returns 401.\n    failure_codes:\n      - status: 401\n        meaning: Missing or invalid Authorization header\n      - status: 403\n        meaning: Token validation failed or expired\noauth2: false\nopenid_connect: false\nmutual_tls: false\napi_keys: false\nguidance:\n  - Tokens are expected to be short-lived; the reference recommends 1-2 hour expirations.\n  - The reference requires HTTPS in production; the gateway itself speaks plain HTTP by default.\n  - >-\n    There is no ASWF-operated authorization\
   \ server. /.well-known/oauth-authorization-server and\n    /.well-known/openid-configuration were probed on every ASWF host and returned 404 (see\n    well-known/academy-software-foundation-well-known.yml).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/authentication/academy-software-foundation-authentication.yml
+source_yaml_url: https://artifacts.apis.io/academy-software-foundation/authentication/academy-software-foundation-authentication.yml
 summary_line: 1 scheme
 tags:
 - Animation

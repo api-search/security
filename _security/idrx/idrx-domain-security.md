@@ -5,19 +5,19 @@ api_specs:
   label: IDRX Onboarding API
   slug: idrx-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idrx/refs/heads/main/openapi/idrx-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/idrx/openapi/idrx-onboarding-api-openapi.yml
 - filename: idrx-transaction-api-openapi.yml
   format: yaml
   label: IDRX Transaction API
   slug: idrx-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idrx/refs/heads/main/openapi/idrx-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/idrx/openapi/idrx-transaction-api-openapi.yml
 - filename: idrx-idrx-api-api-openapi.yml
   format: yaml
   label: IDRX API
   slug: idrx-idrx-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idrx/refs/heads/main/openapi/idrx-idrx-api-api-openapi.yml
+  url: https://artifacts.apis.io/idrx/openapi/idrx-idrx-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: idrx-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: idrx.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 16:05:27 2026 GMT\n  hsts: false\ndomains:\n- domain: idrx.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/idrx/refs/heads/main/security/idrx-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/idrx/security/idrx-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Stablecoins

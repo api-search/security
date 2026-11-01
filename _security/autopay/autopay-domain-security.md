@@ -5,61 +5,61 @@ api_specs:
   label: Autopay Accounting API
   slug: autopay-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/openapi/autopay-accounting-api-openapi.yml
+  url: https://artifacts.apis.io/autopay/openapi/autopay-accounting-api-openapi.yml
 - filename: autopay-booking-api-openapi.yml
   format: yaml
   label: Autopay Booking API
   slug: autopay-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/openapi/autopay-booking-api-openapi.yml
+  url: https://artifacts.apis.io/autopay/openapi/autopay-booking-api-openapi.yml
 - filename: autopay-customer-club-api-openapi.yml
   format: yaml
   label: Autopay Customer Club API
   slug: autopay-customer-club-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/openapi/autopay-customer-club-api-openapi.yml
+  url: https://artifacts.apis.io/autopay/openapi/autopay-customer-club-api-openapi.yml
 - filename: autopay-fleet-api-openapi.yml
   format: yaml
   label: Autopay Fleet API
   slug: autopay-fleet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/openapi/autopay-fleet-api-openapi.yml
+  url: https://artifacts.apis.io/autopay/openapi/autopay-fleet-api-openapi.yml
 - filename: autopay-parking-api-openapi.yml
   format: yaml
   label: Autopay Parking API
   slug: autopay-parking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/openapi/autopay-parking-api-openapi.yml
+  url: https://artifacts.apis.io/autopay/openapi/autopay-parking-api-openapi.yml
 - filename: autopay-payment-api-openapi.yml
   format: yaml
   label: Autopay Payment API
   slug: autopay-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/openapi/autopay-payment-api-openapi.yml
+  url: https://artifacts.apis.io/autopay/openapi/autopay-payment-api-openapi.yml
 - filename: autopay-permit-api-openapi.yml
   format: yaml
   label: Autopay Permit API
   slug: autopay-permit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/openapi/autopay-permit-api-openapi.yml
+  url: https://artifacts.apis.io/autopay/openapi/autopay-permit-api-openapi.yml
 - filename: autopay-statistics-api-openapi.yml
   format: yaml
   label: Autopay Statistics API
   slug: autopay-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/openapi/autopay-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/autopay/openapi/autopay-statistics-api-openapi.yml
 - filename: autopay-status-api-openapi.yml
   format: yaml
   label: Autopay Status API
   slug: autopay-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/openapi/autopay-status-api-openapi.yml
+  url: https://artifacts.apis.io/autopay/openapi/autopay-status-api-openapi.yml
 - filename: autopay-vehicle-api-openapi.yml
   format: yaml
   label: Autopay Vehicle API
   slug: autopay-vehicle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/openapi/autopay-vehicle-api-openapi.yml
+  url: https://artifacts.apis.io/autopay/openapi/autopay-vehicle-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -106,7 +106,7 @@ source_filename: autopay-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.autopay.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 13:42:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\n- host: autopay.no\n  https: false\n- host: api.autopay.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 02:53:54 2026 GMT\n  hsts: null\ndomains:\n- domain: autopay.io\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:security@autopay.io\"\n  - 0 issue \"pki.goog\"\n  - 0 issuewild \";\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: autopay.no\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/security/autopay-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/autopay/security/autopay-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Parking

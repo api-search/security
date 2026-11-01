@@ -1,53 +1,11 @@
 ---
 api_specs:
-- filename: doppler-auth-api-openapi.yml
+- filename: doppler-workplace-api-openapi.yml
   format: yaml
-  label: Doppler Auth API
-  slug: doppler-auth-api
+  label: Doppler Workplace API
+  slug: doppler-workplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-auth-api-openapi.yml
-- filename: doppler-configs-api-openapi.yml
-  format: yaml
-  label: Doppler Configs API
-  slug: doppler-configs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-configs-api-openapi.yml
-- filename: doppler-environments-api-openapi.yml
-  format: yaml
-  label: Doppler Environments API
-  slug: doppler-environments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-environments-api-openapi.yml
-- filename: doppler-projects-api-openapi.yml
-  format: yaml
-  label: Doppler Projects API
-  slug: doppler-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-projects-api-openapi.yml
-- filename: doppler-secrets-api-openapi.yml
-  format: yaml
-  label: Doppler Secrets API
-  slug: doppler-secrets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-secrets-api-openapi.yml
-- filename: doppler-webhooks-api-openapi.yml
-  format: yaml
-  label: Doppler Webhooks API
-  slug: doppler-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-webhooks-api-openapi.yml
-- filename: doppler-activity-logs-api-openapi.yml
-  format: yaml
-  label: Doppler Activity Logs API
-  slug: doppler-activity-logs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-activity-logs-api-openapi.yml
-- filename: doppler-service-tokens-api-openapi.yml
-  format: yaml
-  label: Doppler Service Tokens API
-  slug: doppler-service-tokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-service-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/doppler/openapi/doppler-workplace-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -94,7 +52,7 @@ source_filename: doppler-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.doppler.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 10:36:07 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.doppler.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 18:27:28 2026 GMT\n  hsts: null\n- host: api.doppler.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 23:48:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: doppler.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/security/doppler-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/doppler/security/doppler-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Secrets Management

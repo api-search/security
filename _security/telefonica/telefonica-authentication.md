@@ -7,37 +7,37 @@ api_specs:
   label: Telefónica Device Roaming API
   slug: telefonica-device-roaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefonica/refs/heads/main/openapi/telefonica-device-roaming-api-openapi.yml
+  url: https://artifacts.apis.io/telefonica/openapi/telefonica-device-roaming-api-openapi.yml
 - filename: telefonica-kyc-match-api-openapi.yml
   format: yaml
   label: Telefónica KYC Match API
   slug: telefonica-kyc-match-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefonica/refs/heads/main/openapi/telefonica-kyc-match-api-openapi.yml
+  url: https://artifacts.apis.io/telefonica/openapi/telefonica-kyc-match-api-openapi.yml
 - filename: telefonica-location-verification-api-openapi.yml
   format: yaml
   label: Telefónica Location Verification API
   slug: telefonica-location-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefonica/refs/heads/main/openapi/telefonica-location-verification-api-openapi.yml
+  url: https://artifacts.apis.io/telefonica/openapi/telefonica-location-verification-api-openapi.yml
 - filename: telefonica-number-verification-api-openapi.yml
   format: yaml
   label: Telefónica Number Verification API
   slug: telefonica-number-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefonica/refs/heads/main/openapi/telefonica-number-verification-api-openapi.yml
+  url: https://artifacts.apis.io/telefonica/openapi/telefonica-number-verification-api-openapi.yml
 - filename: telefonica-qod-sessions-api-openapi.yml
   format: yaml
   label: Telefónica QoD Sessions API
   slug: telefonica-qod-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefonica/refs/heads/main/openapi/telefonica-qod-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/telefonica/openapi/telefonica-qod-sessions-api-openapi.yml
 - filename: telefonica-sim-swap-api-openapi.yml
   format: yaml
   label: Telefónica SIM Swap API
   slug: telefonica-sim-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefonica/refs/heads/main/openapi/telefonica-sim-swap-api-openapi.yml
+  url: https://artifacts.apis.io/telefonica/openapi/telefonica-sim-swap-api-openapi.yml
 auth_types:
 - openIdConnect
 description: ''
@@ -68,7 +68,7 @@ source_filename: telefonica-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/telefonica-device-roaming-openapi.yml, openapi/telefonica-kyc-match-openapi.yml,\n  openapi/telefonica-location-verification-openapi.yml, openapi/telefonica-number-verification-openapi.yml,\n  openapi/telefonica-quality-on-demand-openapi.yml, openapi/telefonica-sim-swap-openapi.yml\nsummary:\n  types:\n  - openIdConnect\nschemes:\n- name: openIdConnect\n  type: openIdConnect\n  openIdConnectUrl: https://opengateway.telefonica.com/.well-known/openid-configuration\n  sources:\n  - openapi/telefonica-device-roaming-openapi.yml\n  - openapi/telefonica-kyc-match-openapi.yml\n  - openapi/telefonica-location-verification-openapi.yml\n  - openapi/telefonica-number-verification-openapi.yml\n  - openapi/telefonica-quality-on-demand-openapi.yml\n  - openapi/telefonica-sim-swap-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/telefonica/refs/heads/main/authentication/telefonica-authentication.yml
+source_yaml_url: https://artifacts.apis.io/telefonica/authentication/telefonica-authentication.yml
 summary_line: openIdConnect · 1 scheme
 tags:
 - Telecommunications

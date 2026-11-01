@@ -2,42 +2,48 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
+- filename: cloudsek-openapi-generated.yml
+  format: yaml
+  label: CloudSEK API
+  slug: cloudsek-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cloudsek/openapi/_ae-authored/cloudsek-openapi-generated.yml
 - filename: cloudsek-bulk-api-openapi.yml
   format: yaml
   label: Cloudsek Bulk API
   slug: cloudsek-bulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudsek/refs/heads/main/openapi/cloudsek-bulk-api-openapi.yml
+  url: https://artifacts.apis.io/cloudsek/openapi/cloudsek-bulk-api-openapi.yml
 - filename: cloudsek-comments-api-openapi.yml
   format: yaml
   label: Cloudsek Comments API
   slug: cloudsek-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudsek/refs/heads/main/openapi/cloudsek-comments-api-openapi.yml
+  url: https://artifacts.apis.io/cloudsek/openapi/cloudsek-comments-api-openapi.yml
 - filename: cloudsek-events-api-openapi.yml
   format: yaml
   label: Cloudsek Events API
   slug: cloudsek-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudsek/refs/heads/main/openapi/cloudsek-events-api-openapi.yml
+  url: https://artifacts.apis.io/cloudsek/openapi/cloudsek-events-api-openapi.yml
 - filename: cloudsek-incidents-api-openapi.yml
   format: yaml
   label: Cloudsek Incidents API
   slug: cloudsek-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudsek/refs/heads/main/openapi/cloudsek-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/cloudsek/openapi/cloudsek-incidents-api-openapi.yml
 - filename: cloudsek-jobs-api-openapi.yml
   format: yaml
   label: Cloudsek Jobs API
   slug: cloudsek-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudsek/refs/heads/main/openapi/cloudsek-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/cloudsek/openapi/cloudsek-jobs-api-openapi.yml
 - filename: cloudsek-snapshot-api-openapi.yml
   format: yaml
   label: Cloudsek Snapshot API
   slug: cloudsek-snapshot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudsek/refs/heads/main/openapi/cloudsek-snapshot-api-openapi.yml
+  url: https://artifacts.apis.io/cloudsek/openapi/cloudsek-snapshot-api-openapi.yml
 auth_types: []
 description: Authentication schemes for CloudSEK API
 kind: authentication
@@ -63,7 +69,7 @@ source_filename: cloudsek-authentication.yml
 source_heading: Authentication Profile
 source_url: https://api.cloudsek.com/docs/intro/
 source_yaml: "generated: '2026-10-09'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://api.cloudsek.com/docs/intro/\nsources:\n- https://api.cloudsek.com/docs/intro/\n- https://api.cloudsek.com/docs/mcp/\n- https://api.cloudsek.com/docs/mcp/claude-desktop/\ndescription: Authentication schemes for CloudSEK API\nschemes:\n- type: http-bearer\n  name: Bearer token\n  evidence: 'Every request carries a bearer token in the Authorization header: Authorization: Bearer <your-access-token>'\n  location: header\n  header: Authorization\n  how_to_obtain: Create or rotate it in the CloudSEK platform under Integrations → Alerts API → Create token (or Rotate Token).\ndocs: https://api.cloudsek.com/docs/intro/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudsek/refs/heads/main/authentication/cloudsek-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cloudsek/authentication/cloudsek-authentication.yml
 summary_line: 1 scheme
 tags:
 - Security

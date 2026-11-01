@@ -8,25 +8,25 @@ api_specs:
   label: Docsumo Document Types API
   slug: docsumo-document-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docsumo/refs/heads/main/openapi/docsumo-document-types-api-openapi.yml
+  url: https://artifacts.apis.io/docsumo/openapi/docsumo-document-types-api-openapi.yml
 - filename: docsumo-documents-api-openapi.yml
   format: yaml
   label: Docsumo Documents API
   slug: docsumo-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docsumo/refs/heads/main/openapi/docsumo-documents-api-openapi.yml
+  url: https://artifacts.apis.io/docsumo/openapi/docsumo-documents-api-openapi.yml
 - filename: docsumo-extraction-api-openapi.yml
   format: yaml
   label: Docsumo Extraction API
   slug: docsumo-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docsumo/refs/heads/main/openapi/docsumo-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/docsumo/openapi/docsumo-extraction-api-openapi.yml
 - filename: docsumo-review-api-openapi.yml
   format: yaml
   label: Docsumo Review API
   slug: docsumo-review-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docsumo/refs/heads/main/openapi/docsumo-review-api-openapi.yml
+  url: https://artifacts.apis.io/docsumo/openapi/docsumo-review-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: docsumo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/docsumo-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: apikey\n  description: Personal API key from https://app.docsumo.com/settings/webhook-api/. Also accepted\n    as the `X-API-KEY` header.\n  sources:\n  - openapi/docsumo-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docsumo/refs/heads/main/authentication/docsumo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/docsumo/authentication/docsumo-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Document Processing

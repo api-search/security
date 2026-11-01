@@ -5,43 +5,43 @@ api_specs:
   label: Listings API Analytics API
   slug: listings-api-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listings-api/refs/heads/main/openapi/listings-api-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/listings-api/openapi/listings-api-analytics-api-openapi.yml
 - filename: listings-api-connected-accounts-api-openapi.yml
   format: yaml
   label: Listings API Connected Accounts API
   slug: listings-api-connected-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listings-api/refs/heads/main/openapi/listings-api-connected-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/listings-api/openapi/listings-api-connected-accounts-api-openapi.yml
 - filename: listings-api-listings-api-openapi.yml
   format: yaml
   label: Listings API Listings API
   slug: listings-api-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listings-api/refs/heads/main/openapi/listings-api-listings-api-openapi.yml
+  url: https://artifacts.apis.io/listings-api/openapi/listings-api-listings-api-openapi.yml
 - filename: listings-api-locations-api-openapi.yml
   format: yaml
   label: Listings API Locations API
   slug: listings-api-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listings-api/refs/heads/main/openapi/listings-api-locations-api-openapi.yml
+  url: https://artifacts.apis.io/listings-api/openapi/listings-api-locations-api-openapi.yml
 - filename: listings-api-posts-api-openapi.yml
   format: yaml
   label: Listings API Posts API
   slug: listings-api-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listings-api/refs/heads/main/openapi/listings-api-posts-api-openapi.yml
+  url: https://artifacts.apis.io/listings-api/openapi/listings-api-posts-api-openapi.yml
 - filename: listings-api-reviews-api-openapi.yml
   format: yaml
   label: Listings API Reviews API
   slug: listings-api-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listings-api/refs/heads/main/openapi/listings-api-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/listings-api/openapi/listings-api-reviews-api-openapi.yml
 - filename: listings-api-supporting-apis-api-openapi.yml
   format: yaml
   label: Listings API Supporting APIs API
   slug: listings-api-supporting-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listings-api/refs/heads/main/openapi/listings-api-supporting-apis-api-openapi.yml
+  url: https://artifacts.apis.io/listings-api/openapi/listings-api-supporting-apis-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: listings-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.listingsapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 19 23:59:59 2027 GMT\n  hsts: false\n- host: listingsapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 19 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: listingsapi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/listings-api/refs/heads/main/security/listings-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/listings-api/security/listings-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Business Listings

@@ -5,31 +5,31 @@ api_specs:
   label: Event Registry Articles API
   slug: event-registry-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/openapi/event-registry-articles-api-openapi.yml
+  url: https://artifacts.apis.io/event-registry/openapi/event-registry-articles-api-openapi.yml
 - filename: event-registry-events-api-openapi.yml
   format: yaml
   label: Event Registry Events API
   slug: event-registry-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/openapi/event-registry-events-api-openapi.yml
+  url: https://artifacts.apis.io/event-registry/openapi/event-registry-events-api-openapi.yml
 - filename: event-registry-suggest-api-openapi.yml
   format: yaml
   label: Event Registry Suggest API
   slug: event-registry-suggest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/openapi/event-registry-suggest-api-openapi.yml
+  url: https://artifacts.apis.io/event-registry/openapi/event-registry-suggest-api-openapi.yml
 - filename: event-registry-topic-pages-api-openapi.yml
   format: yaml
   label: Event Registry Topic Pages API
   slug: event-registry-topic-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/openapi/event-registry-topic-pages-api-openapi.yml
+  url: https://artifacts.apis.io/event-registry/openapi/event-registry-topic-pages-api-openapi.yml
 - filename: event-registry-usage-api-openapi.yml
   format: yaml
   label: Event Registry Usage API
   slug: event-registry-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/openapi/event-registry-usage-api-openapi.yml
+  url: https://artifacts.apis.io/event-registry/openapi/event-registry-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: event-registry-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: eventregistry.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  7 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: newsapi.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 20 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: eventregistry.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: newsapi.ai\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/security/event-registry-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/event-registry/security/event-registry-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - News

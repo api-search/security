@@ -5,25 +5,25 @@ api_specs:
   label: Dacast Analytics API
   slug: dacast-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dacast/refs/heads/main/openapi/dacast-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/dacast/openapi/dacast-analytics-api-openapi.yml
 - filename: dacast-live-channels-api-openapi.yml
   format: yaml
   label: Dacast Live Channels API
   slug: dacast-live-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dacast/refs/heads/main/openapi/dacast-live-channels-api-openapi.yml
+  url: https://artifacts.apis.io/dacast/openapi/dacast-live-channels-api-openapi.yml
 - filename: dacast-playlists-api-openapi.yml
   format: yaml
   label: Dacast Playlists API
   slug: dacast-playlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dacast/refs/heads/main/openapi/dacast-playlists-api-openapi.yml
+  url: https://artifacts.apis.io/dacast/openapi/dacast-playlists-api-openapi.yml
 - filename: dacast-vod-api-openapi.yml
   format: yaml
   label: Dacast VOD API
   slug: dacast-vod-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dacast/refs/heads/main/openapi/dacast-vod-api-openapi.yml
+  url: https://artifacts.apis.io/dacast/openapi/dacast-vod-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -69,7 +69,7 @@ source_filename: dacast-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dacast.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 10886400\n- host: docs.dacast.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 11:29:58 2026 GMT\n  hsts: null\n- host: developer.dacast.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 19 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: dacast.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"geotrust.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dacast/refs/heads/main/security/dacast-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dacast/security/dacast-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Live Streaming

@@ -5,37 +5,37 @@ api_specs:
   label: TRONITY Authentication API
   slug: tronity-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tronity/refs/heads/main/openapi/tronity-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/tronity/openapi/tronity-authentication-api-openapi.yml
 - filename: tronity-charging-battery-api-openapi.yml
   format: yaml
   label: TRONITY Charging & Battery API
   slug: tronity-charging-battery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tronity/refs/heads/main/openapi/tronity-charging-battery-api-openapi.yml
+  url: https://artifacts.apis.io/tronity/openapi/tronity-charging-battery-api-openapi.yml
 - filename: tronity-commands-api-openapi.yml
   format: yaml
   label: TRONITY Commands API
   slug: tronity-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tronity/refs/heads/main/openapi/tronity-commands-api-openapi.yml
+  url: https://artifacts.apis.io/tronity/openapi/tronity-commands-api-openapi.yml
 - filename: tronity-vehicle-data-api-openapi.yml
   format: yaml
   label: TRONITY Vehicle Data API
   slug: tronity-vehicle-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tronity/refs/heads/main/openapi/tronity-vehicle-data-api-openapi.yml
+  url: https://artifacts.apis.io/tronity/openapi/tronity-vehicle-data-api-openapi.yml
 - filename: tronity-vehicles-api-openapi.yml
   format: yaml
   label: TRONITY Vehicles API
   slug: tronity-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tronity/refs/heads/main/openapi/tronity-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/tronity/openapi/tronity-vehicles-api-openapi.yml
 - filename: tronity-webhooks-api-openapi.yml
   format: yaml
   label: TRONITY Webhooks API
   slug: tronity-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tronity/refs/heads/main/openapi/tronity-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/tronity/openapi/tronity-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,12 +75,12 @@ source_filename: tronity-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tronity.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 22:55:38 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.tronity.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 05:31:07 2026 GMT\n  hsts: false\n- host: api.tronity.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 22:55:38 2026 GMT\n  hsts: null\ndomains:\n- domain: tronity.tech\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tronity/refs/heads/main/security/tronity-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tronity/security/tronity-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Connected Vehicles
 - Electric Vehicles
 - Telematics
-- Fleet
+- Fleet Management
 - Vehicle Data
 ---

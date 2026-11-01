@@ -5,67 +5,67 @@ api_specs:
   label: BigChange Assets API
   slug: bigchange-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/openapi/bigchange-assets-api-openapi.yml
+  url: https://artifacts.apis.io/bigchange/openapi/bigchange-assets-api-openapi.yml
 - filename: bigchange-contacts-api-openapi.yml
   format: yaml
   label: BigChange Contacts API
   slug: bigchange-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/openapi/bigchange-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/bigchange/openapi/bigchange-contacts-api-openapi.yml
 - filename: bigchange-finance-api-openapi.yml
   format: yaml
   label: BigChange Finance API
   slug: bigchange-finance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/openapi/bigchange-finance-api-openapi.yml
+  url: https://artifacts.apis.io/bigchange/openapi/bigchange-finance-api-openapi.yml
 - filename: bigchange-jobs-api-openapi.yml
   format: yaml
   label: BigChange Jobs API
   slug: bigchange-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/openapi/bigchange-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/bigchange/openapi/bigchange-jobs-api-openapi.yml
 - filename: bigchange-persons-api-openapi.yml
   format: yaml
   label: BigChange Persons API
   slug: bigchange-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/openapi/bigchange-persons-api-openapi.yml
+  url: https://artifacts.apis.io/bigchange/openapi/bigchange-persons-api-openapi.yml
 - filename: bigchange-reference-data-api-openapi.yml
   format: yaml
   label: BigChange Reference Data API
   slug: bigchange-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/openapi/bigchange-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/bigchange/openapi/bigchange-reference-data-api-openapi.yml
 - filename: bigchange-resources-api-openapi.yml
   format: yaml
   label: BigChange Resources API
   slug: bigchange-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/openapi/bigchange-resources-api-openapi.yml
+  url: https://artifacts.apis.io/bigchange/openapi/bigchange-resources-api-openapi.yml
 - filename: bigchange-stock-api-openapi.yml
   format: yaml
   label: BigChange Stock API
   slug: bigchange-stock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/openapi/bigchange-stock-api-openapi.yml
+  url: https://artifacts.apis.io/bigchange/openapi/bigchange-stock-api-openapi.yml
 - filename: bigchange-users-api-openapi.yml
   format: yaml
   label: BigChange Users API
   slug: bigchange-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/openapi/bigchange-users-api-openapi.yml
+  url: https://artifacts.apis.io/bigchange/openapi/bigchange-users-api-openapi.yml
 - filename: bigchange-vehicles-api-openapi.yml
   format: yaml
   label: BigChange Vehicles API
   slug: bigchange-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/openapi/bigchange-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/bigchange/openapi/bigchange-vehicles-api-openapi.yml
 - filename: bigchange-webhooks-api-openapi.yml
   format: yaml
   label: BigChange Webhooks API
   slug: bigchange-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/openapi/bigchange-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/bigchange/openapi/bigchange-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -117,14 +117,14 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.bigchange.com\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: 'Amazon RSA 2048 M02'\n  cert_subject: 'CN=api.bigchange.com'\n  cert_starts: Aug 12 00:00:00 2025 GMT\n  cert_expires: Sep 10 23:59:59 2026 GMT\n  hsts: false\n  note: 'Root returns HTTP 403 (WAF/allowlisted); API paths respond. openssl handshake blocked, cert captured via curl.'\n- host: bigchange.com\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: 'Google Trust Services (WE1)'\n  cert_subject: 'CN=bigchange.com'\n  cert_starts: Jul  4 12:50:54 2026 GMT\n  cert_expires: Oct  2 13:50:44 2026 GMT\n  hsts: false\n- host: developers.bigchange.com\n  https: true\n  tls_version: TLSv1.3\n  hsts: true\n  hsts_max_age: 63072000\n  hsts_preload: true\n  note: 'Developer portal enforces HSTS with includeSubDomains and preload.'\ndomains:\n- domain: bigchange.com\n  dnssec: false\n  caa:\
   \ []\n  spf: true\n  spf_record: 'v=spf1 include:amazonses.com include:_spf.google.com include:spf.us.exclaimer.net include:spf.hubspotemail.net include:_spf.salesforce.com include:spf.bigchange.com ip4:167.89.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ~all'\n  dmarc: true\n  dmarc_policy: reject\n  dmarc_pct: 100\n  dmarc_record: 'v=DMARC1; p=reject; pct=100; rua=mailto:92gbf4jq@ag.eu.dmarcian.com;'\nnotes: >-\n  Live probes on 2026-07-12. Email authentication is strong on the apex domain\n  (SPF present, DMARC at p=reject/100%). No CAA records published and DNSSEC not\n  enabled (AD flag absent; NS on AWS Route 53). HSTS is enforced on the developer\n  portal but was not observed on api.bigchange.com or the apex www host at probe\n  time.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/security/bigchange-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bigchange/security/bigchange-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Field Service
+- Field Service Management
 - Job Management
 - Scheduling
 - Workforce Management
-- Fleet
+- Fleet Management
 - CRM
 - Software-as-a-Service
 ---

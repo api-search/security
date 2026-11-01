@@ -5,85 +5,85 @@ api_specs:
   label: Octav Airdrops API
   slug: octav-airdrops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/openapi/octav-airdrops-api-openapi.yml
+  url: https://artifacts.apis.io/octav/openapi/octav-airdrops-api-openapi.yml
 - filename: octav-approvals-api-openapi.yml
   format: yaml
   label: Octav Approvals API
   slug: octav-approvals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/openapi/octav-approvals-api-openapi.yml
+  url: https://artifacts.apis.io/octav/openapi/octav-approvals-api-openapi.yml
 - filename: octav-beacon-validators-api-openapi.yml
   format: yaml
   label: Octav Beacon Validators API
   slug: octav-beacon-validators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/openapi/octav-beacon-validators-api-openapi.yml
+  url: https://artifacts.apis.io/octav/openapi/octav-beacon-validators-api-openapi.yml
 - filename: octav-chains-api-openapi.yml
   format: yaml
   label: Octav Chains API
   slug: octav-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/openapi/octav-chains-api-openapi.yml
+  url: https://artifacts.apis.io/octav/openapi/octav-chains-api-openapi.yml
 - filename: octav-contract-protocol-api-openapi.yml
   format: yaml
   label: Octav Contract Protocol API
   slug: octav-contract-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/openapi/octav-contract-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/octav/openapi/octav-contract-protocol-api-openapi.yml
 - filename: octav-credits-api-openapi.yml
   format: yaml
   label: Octav Credits API
   slug: octav-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/openapi/octav-credits-api-openapi.yml
+  url: https://artifacts.apis.io/octav/openapi/octav-credits-api-openapi.yml
 - filename: octav-nav-api-openapi.yml
   format: yaml
   label: Octav Nav API
   slug: octav-nav-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/openapi/octav-nav-api-openapi.yml
+  url: https://artifacts.apis.io/octav/openapi/octav-nav-api-openapi.yml
 - filename: octav-portfolio-api-openapi.yml
   format: yaml
   label: Octav Portfolio API
   slug: octav-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/openapi/octav-portfolio-api-openapi.yml
+  url: https://artifacts.apis.io/octav/openapi/octav-portfolio-api-openapi.yml
 - filename: octav-status-api-openapi.yml
   format: yaml
   label: Octav Status API
   slug: octav-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/openapi/octav-status-api-openapi.yml
+  url: https://artifacts.apis.io/octav/openapi/octav-status-api-openapi.yml
 - filename: octav-sync-api-openapi.yml
   format: yaml
   label: Octav Sync API
   slug: octav-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/openapi/octav-sync-api-openapi.yml
+  url: https://artifacts.apis.io/octav/openapi/octav-sync-api-openapi.yml
 - filename: octav-tokens-api-openapi.yml
   format: yaml
   label: Octav Tokens API
   slug: octav-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/openapi/octav-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/octav/openapi/octav-tokens-api-openapi.yml
 - filename: octav-transactions-api-openapi.yml
   format: yaml
   label: Octav Transactions API
   slug: octav-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/openapi/octav-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/octav/openapi/octav-transactions-api-openapi.yml
 - filename: octav-virtual-users-api-openapi.yml
   format: yaml
   label: Octav Virtual Users API
   slug: octav-virtual-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/openapi/octav-virtual-users-api-openapi.yml
+  url: https://artifacts.apis.io/octav/openapi/octav-virtual-users-api-openapi.yml
 - filename: octav-wallet-api-openapi.yml
   format: yaml
   label: Octav Wallet API
   slug: octav-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/openapi/octav-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/octav/openapi/octav-wallet-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -118,7 +118,7 @@ source_filename: octav-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.octav.fi\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 14:41:13 2026 GMT\n  hsts: null\ndomains:\n- domain: octav.fi\n  dnssec: true\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"cloudflare.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/security/octav-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/octav/security/octav-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

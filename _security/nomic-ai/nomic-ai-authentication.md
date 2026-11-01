@@ -7,19 +7,19 @@ api_specs:
   label: Nomic AI Embeddings API
   slug: nomic-ai-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomic-ai/refs/heads/main/openapi/nomic-ai-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/nomic-ai/openapi/nomic-ai-embeddings-api-openapi.yml
 - filename: nomic-ai-files-api-openapi.yml
   format: yaml
   label: Nomic AI Files API
   slug: nomic-ai-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomic-ai/refs/heads/main/openapi/nomic-ai-files-api-openapi.yml
+  url: https://artifacts.apis.io/nomic-ai/openapi/nomic-ai-files-api-openapi.yml
 - filename: nomic-ai-tasks-api-openapi.yml
   format: yaml
   label: Nomic AI Tasks API
   slug: nomic-ai-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomic-ai/refs/heads/main/openapi/nomic-ai-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/nomic-ai/openapi/nomic-ai-tasks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -48,7 +48,7 @@ source_filename: nomic-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/nomic-ai-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: |-\n    API key passed as a Bearer token in the Authorization header:\n    `Authorization: Bearer [example key]`.\n  sources:\n  - openapi/nomic-ai-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nomic-ai/refs/heads/main/authentication/nomic-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nomic-ai/authentication/nomic-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Embeddings

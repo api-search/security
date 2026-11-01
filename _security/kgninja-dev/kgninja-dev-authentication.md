@@ -7,49 +7,49 @@ api_specs:
   label: KG-NINJA A2a API
   slug: kgninja-dev-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kgninja-dev/refs/heads/main/openapi/kgninja-dev-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/kgninja-dev/openapi/kgninja-dev-a2a-api-openapi.yml
 - filename: kgninja-dev-decision-support-api-openapi.yml
   format: yaml
   label: KG-NINJA Decision Support API
   slug: kgninja-dev-decision-support-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kgninja-dev/refs/heads/main/openapi/kgninja-dev-decision-support-api-openapi.yml
+  url: https://artifacts.apis.io/kgninja-dev/openapi/kgninja-dev-decision-support-api-openapi.yml
 - filename: kgninja-dev-discovery-api-openapi.yml
   format: yaml
   label: KG-NINJA Discovery API
   slug: kgninja-dev-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kgninja-dev/refs/heads/main/openapi/kgninja-dev-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/kgninja-dev/openapi/kgninja-dev-discovery-api-openapi.yml
 - filename: kgninja-dev-goals-api-openapi.yml
   format: yaml
   label: KG-NINJA Goals API
   slug: kgninja-dev-goals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kgninja-dev/refs/heads/main/openapi/kgninja-dev-goals-api-openapi.yml
+  url: https://artifacts.apis.io/kgninja-dev/openapi/kgninja-dev-goals-api-openapi.yml
 - filename: kgninja-dev-mcp-api-openapi.yml
   format: yaml
   label: KG-NINJA MCP API
   slug: kgninja-dev-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kgninja-dev/refs/heads/main/openapi/kgninja-dev-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/kgninja-dev/openapi/kgninja-dev-mcp-api-openapi.yml
 - filename: kgninja-dev-operations-api-openapi.yml
   format: yaml
   label: KG-NINJA Operations API
   slug: kgninja-dev-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kgninja-dev/refs/heads/main/openapi/kgninja-dev-operations-api-openapi.yml
+  url: https://artifacts.apis.io/kgninja-dev/openapi/kgninja-dev-operations-api-openapi.yml
 - filename: kgninja-dev-purchase-api-openapi.yml
   format: yaml
   label: KG-NINJA Purchase API
   slug: kgninja-dev-purchase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kgninja-dev/refs/heads/main/openapi/kgninja-dev-purchase-api-openapi.yml
+  url: https://artifacts.apis.io/kgninja-dev/openapi/kgninja-dev-purchase-api-openapi.yml
 - filename: kgninja-dev-registration-api-openapi.yml
   format: yaml
   label: KG-NINJA Registration API
   slug: kgninja-dev-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kgninja-dev/refs/heads/main/openapi/kgninja-dev-registration-api-openapi.yml
+  url: https://artifacts.apis.io/kgninja-dev/openapi/kgninja-dev-registration-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/kgninja
   :\"https://agent-economy.kgninja.dev/agent/registration\"}}}'\n  sources:\n  - openapi/kgninja-dev-openapi.json\n  - https://agent-economy.kgninja.dev/auth.md\npayment_authorization:\n  note: Not a securityScheme in the OpenAPI, but the gate that actually protects the paid operation. Recorded here because an agent choosing a credential strategy needs it next to the auth model.\n  protocol: x402 v2 (scheme exact)\n  applies_to: [verifyEvidence, mcp:verify_evidence]\n  precondition: a free precheck receipt digest (POST /validate-request) inside the unchanged paid intent; otherwise 409 PRECHECK_REQUIRED before any quote or 402\n  challenge: HTTP 402 with PAYMENT-REQUIRED header + X402PaymentRequired body; over MCP a tool error with _meta[\"x402/error\"]\n  proof: PAYMENT-SIGNATURE request header (REST) or _meta[\"x402/payment\"] (MCP) on the identical retry\n  settlement_receipt: PAYMENT-RESPONSE header (REST) or _meta[\"x402/payment-response\"] (MCP)\n  terms: 10000 atomic USDC on eip155:8453\
   \ to 0x4D7d842536De9Eb491AE2300126B3CDdE7B0aDE3, asset 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913, maxTimeoutSeconds 300 (well-known/kgninja-dev-x402.json)\n  scope_of_the_signature: '\"The x402 signature authorizes only the advertised payment and request. It is not a reusable application credential, is independent of optional agent registration, and does not create an authenticated session.\"'\n  binding: the signed payload must carry the same binding digest as the bound quote; \"A paid retry is accepted only when discovery survived into the paid call and the x402 payload contains the same binding digest.\"\n  operator_identity: Cloudflare Wallet handle @kgninja (https://cloudflare.pay/?handle=kgninja) — public identity of the payee, not a credential the caller uses\ncredential_handling_guidance:\n  verbatim:\n  - 'Never send seed phrases, wallet private keys, API secrets, third-party bearer tokens, or unrelated personal data. Send this service''s short-lived registration receipt only\
   \ to its documented claim endpoint.'\n  - 'Evidence must be bounded inline JSON. The service does not fetch caller-supplied URLs or execute caller code.'\n  - 'Verify returned evidence with https://agent-economy.kgninja.dev/.well-known/jwks.json.'\nverification_keys:\n  jwks: https://agent-economy.kgninja.dev/.well-known/jwks.json\n  file: well-known/kgninja-dev-jwks.json\n  purpose: 'Verifying the service''s Ed25519 evidence signatures (the service signs; callers verify). Not an authentication credential.'\nmcp_registry_proof:\n  url: https://agent-economy.kgninja.dev/.well-known/mcp-registry-auth\n  observed: 'v=MCPv1; k=ed25519; p=<public key>'\n  purpose: domain-ownership proof for MCP Registry publication; public key only\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kgninja-dev/refs/heads/main/authentication/kgninja-dev-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kgninja-dev/authentication/kgninja-dev-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Agents

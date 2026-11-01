@@ -5,31 +5,31 @@ api_specs:
   label: Yawplet Accounts API
   slug: yawplet-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yawplet/refs/heads/main/openapi/yawplet-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/yawplet/openapi/yawplet-accounts-api-openapi.yml
 - filename: yawplet-discovery-api-openapi.yml
   format: yaml
   label: Yawplet Discovery API
   slug: yawplet-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yawplet/refs/heads/main/openapi/yawplet-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/yawplet/openapi/yawplet-discovery-api-openapi.yml
 - filename: yawplet-posts-api-openapi.yml
   format: yaml
   label: Yawplet Posts API
   slug: yawplet-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yawplet/refs/heads/main/openapi/yawplet-posts-api-openapi.yml
+  url: https://artifacts.apis.io/yawplet/openapi/yawplet-posts-api-openapi.yml
 - filename: yawplet-webhooks-api-openapi.yml
   format: yaml
   label: Yawplet Webhooks API
   slug: yawplet-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yawplet/refs/heads/main/openapi/yawplet-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/yawplet/openapi/yawplet-webhooks-api-openapi.yml
 - filename: yawplet-oauth-api-openapi.yml
   format: yaml
   label: Yawplet OAuth API
   slug: yawplet-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yawplet/refs/heads/main/openapi/yawplet-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/yawplet/openapi/yawplet-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: yawplet-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: yawplet.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 11 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: yarnhen.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 11 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: hagglebee.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 11 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: yawplet.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: yarnhen.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yawplet/refs/heads/main/security/yawplet-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/yawplet/security/yawplet-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Agents

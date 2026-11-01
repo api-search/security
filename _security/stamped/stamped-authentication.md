@@ -8,31 +8,31 @@ api_specs:
   label: Stamped Customer Actions API
   slug: stamped-customer-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/openapi/stamped-customer-actions-api-openapi.yml
+  url: https://artifacts.apis.io/stamped/openapi/stamped-customer-actions-api-openapi.yml
 - filename: stamped-customers-api-openapi.yml
   format: yaml
   label: Stamped Customers API
   slug: stamped-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/openapi/stamped-customers-api-openapi.yml
+  url: https://artifacts.apis.io/stamped/openapi/stamped-customers-api-openapi.yml
 - filename: stamped-orders-api-openapi.yml
   format: yaml
   label: Stamped Orders API
   slug: stamped-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/openapi/stamped-orders-api-openapi.yml
+  url: https://artifacts.apis.io/stamped/openapi/stamped-orders-api-openapi.yml
 - filename: stamped-products-api-openapi.yml
   format: yaml
   label: Stamped Products API
   slug: stamped-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/openapi/stamped-products-api-openapi.yml
+  url: https://artifacts.apis.io/stamped/openapi/stamped-products-api-openapi.yml
 - filename: stamped-program-reporting-api-openapi.yml
   format: yaml
   label: Stamped Program Reporting API
   slug: stamped-program-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/openapi/stamped-program-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/stamped/openapi/stamped-program-reporting-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: stamped-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/stamped-loyalty-operations-openapi.json, openapi/stamped-merchant-data-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: StampedApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: stamped-api-key\n  sources:\n  - openapi/stamped-loyalty-operations-openapi.json\n  - openapi/stamped-merchant-data-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/authentication/stamped-authentication.yml
+source_yaml_url: https://artifacts.apis.io/stamped/authentication/stamped-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

@@ -27,12 +27,12 @@ source_filename: first-advantage-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: fadv.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 29 06:59:29 2026 GMT\n  hsts: false\ndomains:\n- domain: fadv.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/first-advantage/refs/heads/main/security/first-advantage-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/first-advantage/security/first-advantage-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Background-Checks
+- Background Checks
 - Screening
-- Identity-Verification
+- Identity Verification
 - Employment
 ---

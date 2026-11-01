@@ -27,7 +27,7 @@ source_filename: lendify-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: lendify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 16 01:35:30 2026 GMT\n  hsts: false\ndomains:\n- domain: lendify.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lendify/refs/heads/main/security/lendify-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lendify/security/lendify-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Finance

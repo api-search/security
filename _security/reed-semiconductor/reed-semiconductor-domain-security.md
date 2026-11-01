@@ -27,7 +27,7 @@ source_filename: reed-semiconductor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.reedsemi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 02:42:04 2026 GMT\n  hsts: false\ndomains:\n- domain: reedsemi.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reed-semiconductor/refs/heads/main/security/reed-semiconductor-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/reed-semiconductor/security/reed-semiconductor-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

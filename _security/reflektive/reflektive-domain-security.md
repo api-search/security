@@ -5,25 +5,25 @@ api_specs:
   label: Reflektive Real-time Feedback (v1) API
   slug: reflektive-real-time-feedback-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reflektive/refs/heads/main/openapi/reflektive-real-time-feedback-v1-api-openapi.yml
+  url: https://artifacts.apis.io/reflektive/openapi/reflektive-real-time-feedback-v1-api-openapi.yml
 - filename: reflektive-real-time-feedback-v2-api-openapi.yml
   format: yaml
   label: Reflektive Real-time Feedback (v2) API
   slug: reflektive-real-time-feedback-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reflektive/refs/heads/main/openapi/reflektive-real-time-feedback-v2-api-openapi.yml
+  url: https://artifacts.apis.io/reflektive/openapi/reflektive-real-time-feedback-v2-api-openapi.yml
 - filename: reflektive-reports-api-openapi.yml
   format: yaml
   label: Reflektive Reports API
   slug: reflektive-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reflektive/refs/heads/main/openapi/reflektive-reports-api-openapi.yml
+  url: https://artifacts.apis.io/reflektive/openapi/reflektive-reports-api-openapi.yml
 - filename: reflektive-tasks-api-openapi.yml
   format: yaml
   label: Reflektive Tasks API
   slug: reflektive-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reflektive/refs/heads/main/openapi/reflektive-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/reflektive/openapi/reflektive-tasks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: reflektive-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.reflektive.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 19 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.api.reflektive.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 18:45:49 2026 GMT\n  hsts: false\n- host: api.reflektive.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 19 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\ndomains:\n- domain: reflektive.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reflektive/refs/heads/main/security/reflektive-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/reflektive/security/reflektive-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Performance Management

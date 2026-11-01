@@ -8,37 +8,73 @@ api_specs:
   label: Amazon Audit Manager Assessments API
   slug: amazon-audit-manager-assessments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/openapi/amazon-audit-manager-assessments-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-audit-manager/openapi/amazon-audit-manager-assessments-api-openapi.yml
 - filename: amazon-audit-manager-controls-api-openapi.yml
   format: yaml
   label: Amazon Audit Manager Controls API
   slug: amazon-audit-manager-controls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/openapi/amazon-audit-manager-controls-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-audit-manager/openapi/amazon-audit-manager-controls-api-openapi.yml
 - filename: amazon-audit-manager-evidence-api-openapi.yml
   format: yaml
   label: Amazon Audit Manager Evidence API
   slug: amazon-audit-manager-evidence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/openapi/amazon-audit-manager-evidence-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-audit-manager/openapi/amazon-audit-manager-evidence-api-openapi.yml
 - filename: amazon-audit-manager-frameworks-api-openapi.yml
   format: yaml
   label: Amazon Audit Manager Frameworks API
   slug: amazon-audit-manager-frameworks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/openapi/amazon-audit-manager-frameworks-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-audit-manager/openapi/amazon-audit-manager-frameworks-api-openapi.yml
 - filename: amazon-audit-manager-reports-api-openapi.yml
   format: yaml
   label: Amazon Audit Manager Reports API
   slug: amazon-audit-manager-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/openapi/amazon-audit-manager-reports-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-audit-manager/openapi/amazon-audit-manager-reports-api-openapi.yml
 - filename: amazon-audit-manager-settings-api-openapi.yml
   format: yaml
   label: Amazon Audit Manager Settings API
   slug: amazon-audit-manager-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/openapi/amazon-audit-manager-settings-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-audit-manager/openapi/amazon-audit-manager-settings-api-openapi.yml
+- filename: amazon-audit-manager-account-api-openapi.yml
+  format: yaml
+  label: Amazon Audit Manager Audit Manager Account API
+  slug: amazon-audit-manager-account-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-audit-manager/openapi/amazon-audit-manager-account-api-openapi.yml
+- filename: amazon-audit-manager-assessmentframeworksharerequests-api-openapi.yml
+  format: yaml
+  label: Amazon Audit Manager Audit Manager Assessmentframeworksharerequests API
+  slug: amazon-audit-manager-assessmentframeworksharerequests-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-audit-manager/openapi/amazon-audit-manager-assessmentframeworksharerequests-api-openapi.yml
+- filename: amazon-audit-manager-delegations-api-openapi.yml
+  format: yaml
+  label: Amazon Audit Manager Audit Manager Delegations API
+  slug: amazon-audit-manager-delegations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-audit-manager/openapi/amazon-audit-manager-delegations-api-openapi.yml
+- filename: amazon-audit-manager-insights-api-openapi.yml
+  format: yaml
+  label: Amazon Audit Manager Audit Manager Insights API
+  slug: amazon-audit-manager-insights-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-audit-manager/openapi/amazon-audit-manager-insights-api-openapi.yml
+- filename: amazon-audit-manager-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Audit Manager Audit Manager Operations API
+  slug: amazon-audit-manager-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-audit-manager/openapi/amazon-audit-manager-operations-api-openapi.yml
+- filename: amazon-audit-manager-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Audit Manager Audit Manager Tags API
+  slug: amazon-audit-manager-tags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-audit-manager/openapi/amazon-audit-manager-tags-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +102,7 @@ source_filename: amazon-audit-manager-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-audit-manager-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: sigv4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4\n  sources:\n  - openapi/amazon-audit-manager-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/authentication/amazon-audit-manager-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-audit-manager/authentication/amazon-audit-manager-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Amazon Audit Manager

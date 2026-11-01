@@ -5,61 +5,61 @@ api_specs:
   label: University of Sheffield Admin API
   slug: university-of-sheffield-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-admin-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-sheffield/openapi/university-of-sheffield-admin-api-openapi.yml
 - filename: university-of-sheffield-api-auth-api-openapi.yml
   format: yaml
   label: University of Sheffield API Auth API
   slug: university-of-sheffield-api-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-api-auth-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-sheffield/openapi/university-of-sheffield-api-auth-api-openapi.yml
 - filename: university-of-sheffield-auth-api-openapi.yml
   format: yaml
   label: University of Sheffield Auth API
   slug: university-of-sheffield-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-auth-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-sheffield/openapi/university-of-sheffield-auth-api-openapi.yml
 - filename: university-of-sheffield-health-api-openapi.yml
   format: yaml
   label: University of Sheffield Health API
   slug: university-of-sheffield-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-health-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-sheffield/openapi/university-of-sheffield-health-api-openapi.yml
 - filename: university-of-sheffield-metrics-api-openapi.yml
   format: yaml
   label: University of Sheffield Metrics API
   slug: university-of-sheffield-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-sheffield/openapi/university-of-sheffield-metrics-api-openapi.yml
 - filename: university-of-sheffield-pvforecast-api-openapi.yml
   format: yaml
   label: University of Sheffield Pvforecast API
   slug: university-of-sheffield-pvforecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-pvforecast-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-sheffield/openapi/university-of-sheffield-pvforecast-api-openapi.yml
 - filename: university-of-sheffield-pvlive-api-openapi.yml
   format: yaml
   label: University of Sheffield Pvlive API
   slug: university-of-sheffield-pvlive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-pvlive-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-sheffield/openapi/university-of-sheffield-pvlive-api-openapi.yml
 - filename: university-of-sheffield-pvlive-eu-api-openapi.yml
   format: yaml
   label: University of Sheffield Pvlive Eu API
   slug: university-of-sheffield-pvlive-eu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-pvlive-eu-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-sheffield/openapi/university-of-sheffield-pvlive-eu-api-openapi.yml
 - filename: university-of-sheffield-user-api-openapi.yml
   format: yaml
   label: University of Sheffield User API
   slug: university-of-sheffield-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-user-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-sheffield/openapi/university-of-sheffield-user-api-openapi.yml
 - filename: university-of-sheffield-users-api-openapi.yml
   format: yaml
   label: University of Sheffield Users API
   slug: university-of-sheffield-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-users-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-sheffield/openapi/university-of-sheffield-users-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -119,7 +119,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sheffield.ac.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: orda.shef.ac.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 23:59:59 2027 GMT\n  hsts: false\n- host: api.figshare.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 25 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: sheffield.ac.uk\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issue \"amazon.com\"\n  - 0 iodef \"mailto:soc@sheffield.ac.uk\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: shef.ac.uk\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issuewild\
   \ \"sectigo.com\"\n  - 0 iodef \"mailto:soc@sheffield.ac.uk\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/security/university-of-sheffield-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/university-of-sheffield/security/university-of-sheffield-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - University

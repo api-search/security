@@ -7,19 +7,19 @@ api_specs:
   label: Blink Ledger Systems Authentication API
   slug: blink-ledger-systems-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/openapi/blink-ledger-systems-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/blink-ledger-systems/openapi/blink-ledger-systems-authentication-api-openapi.yml
 - filename: blink-ledger-systems-oauth-applications-api-openapi.yml
   format: yaml
   label: Blink Ledger Systems OAuth Applications API
   slug: blink-ledger-systems-oauth-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/openapi/blink-ledger-systems-oauth-applications-api-openapi.yml
+  url: https://artifacts.apis.io/blink-ledger-systems/openapi/blink-ledger-systems-oauth-applications-api-openapi.yml
 - filename: blink-ledger-systems-users-api-openapi.yml
   format: yaml
   label: Blink Ledger Systems Users API
   slug: blink-ledger-systems-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/openapi/blink-ledger-systems-users-api-openapi.yml
+  url: https://artifacts.apis.io/blink-ledger-systems/openapi/blink-ledger-systems-users-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://docs.bl
   \    privileged calls.\n- id: login_token\n  type: http\n  scheme: bearer\n  in: header\n  name: Authorization\n  surface: server-side-api\n  description: Bearer token obtained by POSTing client-credential email/password to /users/login/. Required\n    by /oauth/applications/register/, /oauth/applications/ and /oauth/access_token/.\n  obtain:\n    operation: getAuthToken\n    method: POST\n    path: /users/login/\n    request:\n      email: null\n      password: null\n    response:\n      key: null\n- id: oauth2_authorization_code\n  type: oauth2\n  flow: authorization_code\n  surface: login-with-blink\n  description: Login with Blink. The browser SDK's getAuthorizationCode() opens a Blink login modal and\n    returns an authorization code; the publisher's server exchanges that code plus client_id/client_secret\n    at POST /oauth/access_token/ for the Blink user profile. grant_type accepts only \"authorization_code\".\n    No scope parameter is documented — Blink publishes no scope registry,\
   \ so no scopes/ artifact is emitted.\n  token_endpoint: /oauth/access_token/\n  registration_endpoint: /oauth/applications/register/\n  scopes_documented: false\n- id: webhook_token\n  type: apiKey\n  in: header\n  name: Blink-Echo-Token\n  surface: webhooks\n  direction: inbound\n  description: Optional shared secret chosen at webhook-registration time. Blink sends it as the Blink-Echo-Token\n    request header on every notification POST so the receiver can verify origin.\n- id: webhook_signature\n  type: signature\n  algorithm: ed25519\n  encoding: base16\n  surface: webhooks\n  direction: inbound\n  description: Every notification is signed over the canonical form of the `event` object (no whitespace,\n    keys sorted lexicographically). The signature block carries algorithm, encoding, publicKey and signature\n    so receivers that cannot store secrets can still verify authenticity.\n- id: payment_info_signature\n  type: signature\n  algorithm: ed25519\n  encoding: base16\n  surface:\
   \ browser-sdk\n  direction: outbound\n  description: blinkSDK.requestPayment() accepts an optional merchantPublicKey and paymentInfoSignature\n    proving the payment info (amount, currencyIsoCode, offerId, comment) was authorized by the merchant.\nprovisioning:\n  self_service: false\n  contact: integration@blink.net\n  note: Client credentials, test-environment clientIds and webhook registrations are all issued by Blink\n    on request. Webhook registration goes through biz.support@blink.net.\nenvironments:\n  production:\n    api_base: https://api.blink.net\n  test:\n    api_base: https://api.test.blink.net\nrelated:\n- errors/blink-ledger-systems-problem-types.yml\n- conventions/blink-ledger-systems-conventions.yml\n- openapi/blink-ledger-systems-server-side-api-openapi.yml\ndocs_pages:\n- https://docs.blink.net/docs/server-side-api/api-overview.html\n- https://docs.blink.net/docs/server-side-api/get-auth-token.html\n- https://docs.blink.net/docs/guides/login-with-blink.html\n- https://docs.blink.net/docs/notifications/webHooks.html\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/authentication/blink-ledger-systems-authentication.yml
+source_yaml_url: https://artifacts.apis.io/blink-ledger-systems/authentication/blink-ledger-systems-authentication.yml
 summary_line: 6 schemes
 tags:
 - Company

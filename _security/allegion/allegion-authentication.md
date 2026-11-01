@@ -8,31 +8,31 @@ api_specs:
   label: Allegion Access Codes API
   slug: allegion-access-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/openapi/allegion-access-codes-api-openapi.yml
+  url: https://artifacts.apis.io/allegion/openapi/allegion-access-codes-api-openapi.yml
 - filename: allegion-commands-api-openapi.yml
   format: yaml
   label: Allegion Commands API
   slug: allegion-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/openapi/allegion-commands-api-openapi.yml
+  url: https://artifacts.apis.io/allegion/openapi/allegion-commands-api-openapi.yml
 - filename: allegion-devices-api-openapi.yml
   format: yaml
   label: Allegion Devices API
   slug: allegion-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/openapi/allegion-devices-api-openapi.yml
+  url: https://artifacts.apis.io/allegion/openapi/allegion-devices-api-openapi.yml
 - filename: allegion-mobile-credentials-api-openapi.yml
   format: yaml
   label: Allegion Mobile Credentials API
   slug: allegion-mobile-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/openapi/allegion-mobile-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/allegion/openapi/allegion-mobile-credentials-api-openapi.yml
 - filename: allegion-webhook-subscriptions-api-openapi.yml
   format: yaml
   label: Allegion Webhook Subscriptions API
   slug: allegion-webhook-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/openapi/allegion-webhook-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/allegion/openapi/allegion-webhook-subscriptions-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -78,7 +78,7 @@ source_filename: allegion-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/engage-credentialing-openapi.yml, openapi/schlage-home-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: SubscriptionKey\n  type: apiKey\n  in: header\n  parameter: alle-subscription-key\n  description: Azure API Management subscription key issued via the Allegion Developer Portal.\n  sources:\n  - openapi/engage-credentialing-openapi.yml\n- name: BasicAuth\n  type: http\n  scheme: basic\n  description: Basic Auth token generated from ENGAGE credentials.\n  sources:\n  - openapi/engage-credentialing-openapi.yml\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://account.schlage.com/OAuth2/authorize\n    tokenUrl: https://account.schlage.com/OAuth2/token\n    scopes: 5\n  sources:\n  - openapi/schlage-home-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/authentication/allegion-authentication.yml
+source_yaml_url: https://artifacts.apis.io/allegion/authentication/allegion-authentication.yml
 summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Access Control

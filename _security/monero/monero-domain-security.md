@@ -5,49 +5,49 @@ api_specs:
   label: Monero Blockchain API
   slug: monero-blockchain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/openapi/monero-blockchain-api-openapi.yml
+  url: https://artifacts.apis.io/monero/openapi/monero-blockchain-api-openapi.yml
 - filename: monero-json-rpc-api-openapi.yml
   format: yaml
   label: Monero JSON-RPC API
   slug: monero-json-rpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/openapi/monero-json-rpc-api-openapi.yml
+  url: https://artifacts.apis.io/monero/openapi/monero-json-rpc-api-openapi.yml
 - filename: monero-mining-api-openapi.yml
   format: yaml
   label: Monero Mining API
   slug: monero-mining-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/openapi/monero-mining-api-openapi.yml
+  url: https://artifacts.apis.io/monero/openapi/monero-mining-api-openapi.yml
 - filename: monero-network-api-openapi.yml
   format: yaml
   label: Monero Network API
   slug: monero-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/openapi/monero-network-api-openapi.yml
+  url: https://artifacts.apis.io/monero/openapi/monero-network-api-openapi.yml
 - filename: monero-node-info-api-openapi.yml
   format: yaml
   label: Monero Node Info API
   slug: monero-node-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/openapi/monero-node-info-api-openapi.yml
+  url: https://artifacts.apis.io/monero/openapi/monero-node-info-api-openapi.yml
 - filename: monero-outputs-api-openapi.yml
   format: yaml
   label: Monero Outputs API
   slug: monero-outputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/openapi/monero-outputs-api-openapi.yml
+  url: https://artifacts.apis.io/monero/openapi/monero-outputs-api-openapi.yml
 - filename: monero-transaction-pool-api-openapi.yml
   format: yaml
   label: Monero Transaction Pool API
   slug: monero-transaction-pool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/openapi/monero-transaction-pool-api-openapi.yml
+  url: https://artifacts.apis.io/monero/openapi/monero-transaction-pool-api-openapi.yml
 - filename: monero-transactions-api-openapi.yml
   format: yaml
   label: Monero Transactions API
   slug: monero-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/openapi/monero-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/monero/openapi/monero-transactions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -88,7 +88,7 @@ source_filename: monero-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.getmonero.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 13 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: docs.getmonero.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 19:00:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: getmonero.org\n  dnssec: true\n  caa:\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/security/monero-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/monero/security/monero-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Cryptocurrency

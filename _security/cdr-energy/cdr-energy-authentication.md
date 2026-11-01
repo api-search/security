@@ -7,103 +7,103 @@ api_specs:
   label: Consumer Data Right (Energy) Data Holder Admin API
   slug: cdr-energy-data-holder-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/openapi/cdr-energy-data-holder-admin-api-openapi.yml
+  url: https://artifacts.apis.io/cdr-energy/openapi/cdr-energy-data-holder-admin-api-openapi.yml
 - filename: cdr-energy-data-holder-client-registration-api-openapi.yml
   format: yaml
   label: Consumer Data Right (Energy) Data Holder Client Registration API
   slug: cdr-energy-data-holder-client-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/openapi/cdr-energy-data-holder-client-registration-api-openapi.yml
+  url: https://artifacts.apis.io/cdr-energy/openapi/cdr-energy-data-holder-client-registration-api-openapi.yml
 - filename: cdr-energy-data-holder-customers-api-openapi.yml
   format: yaml
   label: Consumer Data Right (Energy) Data Holder Customers API
   slug: cdr-energy-data-holder-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/openapi/cdr-energy-data-holder-customers-api-openapi.yml
+  url: https://artifacts.apis.io/cdr-energy/openapi/cdr-energy-data-holder-customers-api-openapi.yml
 - filename: cdr-energy-data-holder-operations-api-openapi.yml
   format: yaml
   label: Consumer Data Right (Energy) Data Holder Operations API
   slug: cdr-energy-data-holder-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/openapi/cdr-energy-data-holder-operations-api-openapi.yml
+  url: https://artifacts.apis.io/cdr-energy/openapi/cdr-energy-data-holder-operations-api-openapi.yml
 - filename: cdr-energy-distributed-energy-resources-api-openapi.yml
   format: yaml
   label: Consumer Data Right (Energy) Distributed Energy Resources API
   slug: cdr-energy-distributed-energy-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/openapi/cdr-energy-distributed-energy-resources-api-openapi.yml
+  url: https://artifacts.apis.io/cdr-energy/openapi/cdr-energy-distributed-energy-resources-api-openapi.yml
 - filename: cdr-energy-distributed-energy-resources-sr-api-openapi.yml
   format: yaml
   label: Consumer Data Right (Energy) Distributed Energy Resources (SR) API
   slug: cdr-energy-distributed-energy-resources-sr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/openapi/cdr-energy-distributed-energy-resources-sr-api-openapi.yml
+  url: https://artifacts.apis.io/cdr-energy/openapi/cdr-energy-distributed-energy-resources-sr-api-openapi.yml
 - filename: cdr-energy-electricity-service-points-api-openapi.yml
   format: yaml
   label: Consumer Data Right (Energy) Electricity Service Points API
   slug: cdr-energy-electricity-service-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/openapi/cdr-energy-electricity-service-points-api-openapi.yml
+  url: https://artifacts.apis.io/cdr-energy/openapi/cdr-energy-electricity-service-points-api-openapi.yml
 - filename: cdr-energy-electricity-service-points-sr-api-openapi.yml
   format: yaml
   label: Consumer Data Right (Energy) Electricity Service Points (SR) API
   slug: cdr-energy-electricity-service-points-sr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/openapi/cdr-energy-electricity-service-points-sr-api-openapi.yml
+  url: https://artifacts.apis.io/cdr-energy/openapi/cdr-energy-electricity-service-points-sr-api-openapi.yml
 - filename: cdr-energy-electricity-usage-api-openapi.yml
   format: yaml
   label: Consumer Data Right (Energy) Electricity Usage API
   slug: cdr-energy-electricity-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/openapi/cdr-energy-electricity-usage-api-openapi.yml
+  url: https://artifacts.apis.io/cdr-energy/openapi/cdr-energy-electricity-usage-api-openapi.yml
 - filename: cdr-energy-electricity-usage-sr-api-openapi.yml
   format: yaml
   label: Consumer Data Right (Energy) Electricity Usage (SR) API
   slug: cdr-energy-electricity-usage-sr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/openapi/cdr-energy-electricity-usage-sr-api-openapi.yml
+  url: https://artifacts.apis.io/cdr-energy/openapi/cdr-energy-electricity-usage-sr-api-openapi.yml
 - filename: cdr-energy-energy-account-balances-api-openapi.yml
   format: yaml
   label: Consumer Data Right (Energy) Energy Account Balances API
   slug: cdr-energy-energy-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/openapi/cdr-energy-energy-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/cdr-energy/openapi/cdr-energy-energy-account-balances-api-openapi.yml
 - filename: cdr-energy-energy-account-billing-api-openapi.yml
   format: yaml
   label: Consumer Data Right (Energy) Energy Account Billing API
   slug: cdr-energy-energy-account-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/openapi/cdr-energy-energy-account-billing-api-openapi.yml
+  url: https://artifacts.apis.io/cdr-energy/openapi/cdr-energy-energy-account-billing-api-openapi.yml
 - filename: cdr-energy-energy-accounts-api-openapi.yml
   format: yaml
   label: Consumer Data Right (Energy) Energy Accounts API
   slug: cdr-energy-energy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/openapi/cdr-energy-energy-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/cdr-energy/openapi/cdr-energy-energy-accounts-api-openapi.yml
 - filename: cdr-energy-energy-plans-api-openapi.yml
   format: yaml
   label: Consumer Data Right (Energy) Energy Plans API
   slug: cdr-energy-energy-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/openapi/cdr-energy-energy-plans-api-openapi.yml
+  url: https://artifacts.apis.io/cdr-energy/openapi/cdr-energy-energy-plans-api-openapi.yml
 - filename: cdr-energy-register-data-holder-discovery-api-openapi.yml
   format: yaml
   label: Consumer Data Right (Energy) Register Data Holder discovery API
   slug: cdr-energy-register-data-holder-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/openapi/cdr-energy-register-data-holder-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/cdr-energy/openapi/cdr-energy-register-data-holder-discovery-api-openapi.yml
 - filename: cdr-energy-register-data-recipient-discovery-api-openapi.yml
   format: yaml
   label: Consumer Data Right (Energy) Register Data Recipient discovery API
   slug: cdr-energy-register-data-recipient-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/openapi/cdr-energy-register-data-recipient-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/cdr-energy/openapi/cdr-energy-register-data-recipient-discovery-api-openapi.yml
 - filename: cdr-energy-register-operations-api-openapi.yml
   format: yaml
   label: Consumer Data Right (Energy) Register Operations API
   slug: cdr-energy-register-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/openapi/cdr-energy-register-operations-api-openapi.yml
+  url: https://artifacts.apis.io/cdr-energy/openapi/cdr-energy-register-operations-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -199,7 +199,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: https://consume
   \ true\n  scopes_supported: [cdr-register:read]\n  source: well-known/cdr-energy-register-openid-configuration.json\n  live_probe:\n    url: https://api.cdr.gov.au/idp/.well-known/openid-configuration\n    status: 200\n    date: '2026-07-27'\n- name: Bearer token\n  type: http\n  scheme: bearer\n  in: header\n  parameter: Authorization\n  source: 'Authorization header parameter declared on 5 operations across openapi/*.json'\n  note: >-\n    The Authorization header carries the consumer-authorised, certificate-bound access token. It is\n    the only credential visible in the OpenAPI documents.\nonboarding:\n  model: >-\n    There is no developer portal that issues keys. A prospective data recipient applies to the ACCC\n    for accreditation, registers a software product on the CDR Register, obtains a Software Statement\n    Assertion (SSA) from the Register, then self-registers with each data holder over mutual TLS\n    using Dynamic Client Registration.\n  steps:\n  - Apply for and obtain\
   \ ACCC accreditation as a Data Recipient.\n  - Register a software product and obtain PKI client certificates from the CDR Register.\n  - Authenticate to the Register OpenID Provider with client_credentials + private_key_jwt for scope cdr-register:read.\n  - GET the Software Statement Assertion (getSoftwareStatementAssertion).\n  - POST the SSA to each data holder's /register endpoint (postClientRegistration) over MTLS.\n  - Manage or delete that registration (getClientRegistration / putClientRegistration / deleteClientRegistration).\n  spec: openapi/cdr-dcr-openapi.json\n  ssa_claims: [iss, iat, exp, jti, legal_entity_id, legal_entity_name, org_id, org_name, client_name, client_description, client_uri, redirect_uris, sector_identifier_uri, logo_uri, tos_uri, policy_uri, jwks_uri, revocation_uri, recipient_base_uri, software_id, software_roles, scope]\nconsent:\n  model: >-\n    Consumer consent is explicit, scoped, time-bounded and revocable. Consent is expressed to the\n    consumer\
   \ in standardised data cluster and permission language rather than raw scope strings, and\n    is represented server to server as a CDR Arrangement identified by a cdr_arrangement_id.\n  revocation:\n    data_holder_endpoint: cdr_arrangement_revocation_endpoint (advertised in data holder OIDC metadata)\n    data_recipient_endpoint: revocation_uri / arrangements/revoke (advertised in the SSA)\n    note: Either party may revoke; see asyncapi/cdr-energy-webhooks.yml for the callback direction.\n  error_codes: [urn:au-cds:error:cds-all:Authorisation/RevokedConsent, urn:au-cds:error:cds-all:Authorisation/InvalidConsent, urn:au-cds:error:cds-all:Authorisation/InvalidArrangement, urn:au-cds:error:cds-all:Authorisation/AdrStatusNotActive]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/authentication/cdr-energy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cdr-energy/authentication/cdr-energy-authentication.yml
 summary_line: oauth2/openIdConnect/mutualTLS/http · 5 schemes
 tags:
 - Energy

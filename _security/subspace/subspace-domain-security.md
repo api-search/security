@@ -5,19 +5,19 @@ api_specs:
   label: Subspace AcceleratorService API
   slug: subspace-acceleratorservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/openapi/subspace-acceleratorservice-api-openapi.yml
+  url: https://artifacts.apis.io/subspace/openapi/subspace-acceleratorservice-api-openapi.yml
 - filename: subspace-sipteleportservice-api-openapi.yml
   format: yaml
   label: Subspace SipTeleportService API
   slug: subspace-sipteleportservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/openapi/subspace-sipteleportservice-api-openapi.yml
+  url: https://artifacts.apis.io/subspace/openapi/subspace-sipteleportservice-api-openapi.yml
 - filename: subspace-webrtccdnservice-api-openapi.yml
   format: yaml
   label: Subspace WebRtcCdnService API
   slug: subspace-webrtccdnservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/openapi/subspace-webrtccdnservice-api-openapi.yml
+  url: https://artifacts.apis.io/subspace/openapi/subspace-webrtccdnservice-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -48,7 +48,7 @@ source_filename: subspace-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.subspace.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 08:09:15 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.subspace.com\n  https: false\ndomains:\n- domain: subspace.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/security/subspace-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/subspace/security/subspace-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company

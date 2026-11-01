@@ -5,49 +5,49 @@ api_specs:
   label: LUX Collections Discovery — Search API
   slug: yale-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/openapi/yale-search-api-openapi.yml
+  url: https://artifacts.apis.io/yale/openapi/yale-search-api-openapi.yml
 - filename: yale-documents-api-openapi.yml
   format: yaml
   label: LUX Collections Discovery — Documents API
   slug: yale-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/openapi/yale-documents-api-openapi.yml
+  url: https://artifacts.apis.io/yale/openapi/yale-documents-api-openapi.yml
 - filename: yale-facets-api-openapi.yml
   format: yaml
   label: LUX Collections Discovery — Facets API
   slug: yale-facets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/openapi/yale-facets-api-openapi.yml
+  url: https://artifacts.apis.io/yale/openapi/yale-facets-api-openapi.yml
 - filename: yale-related-api-openapi.yml
   format: yaml
   label: LUX Collections Discovery — Related API
   slug: yale-related-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/openapi/yale-related-api-openapi.yml
+  url: https://artifacts.apis.io/yale/openapi/yale-related-api-openapi.yml
 - filename: yale-configuration-api-openapi.yml
   format: yaml
   label: LUX Collections Discovery — Configuration API
   slug: yale-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/openapi/yale-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/yale/openapi/yale-configuration-api-openapi.yml
 - filename: yale-federation-api-openapi.yml
   format: yaml
   label: Yale University Federation API
   slug: yale-federation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/openapi/yale-federation-api-openapi.yml
+  url: https://artifacts.apis.io/yale/openapi/yale-federation-api-openapi.yml
 - filename: yale-iiif-api-openapi.yml
   format: yaml
   label: Yale University IIIF API
   slug: yale-iiif-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/openapi/yale-iiif-api-openapi.yml
+  url: https://artifacts.apis.io/yale/openapi/yale-iiif-api-openapi.yml
 - filename: yale-info-api-openapi.yml
   format: yaml
   label: Yale University Info API
   slug: yale-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/openapi/yale-info-api-openapi.yml
+  url: https://artifacts.apis.io/yale/openapi/yale-info-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ source_filename: yale-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.yale.edu\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jul 25 04:21:54 2026 GMT\n  hsts: true\n  hsts_max_age: 31622400\n- host: developers.yale.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 14:15:33 2026 GMT\n  hsts: true\n  hsts_max_age: 31622400\n- host: gw.its.yale.edu\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 26 10:15:53 2026 GMT\n  hsts: null\ndomains:\n- domain: yale.edu\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/security/yale-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/yale/security/yale-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - University

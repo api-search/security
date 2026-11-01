@@ -5,247 +5,247 @@ api_specs:
   label: Netlify Account Type API
   slug: netlify-accounttype-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-accounttype-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-accounttype-api-openapi.yml
 - filename: netlify-asset-api-openapi.yml
   format: yaml
   label: Netlify Asset API
   slug: netlify-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-asset-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-asset-api-openapi.yml
 - filename: netlify-assetpublicsignature-api-openapi.yml
   format: yaml
   label: Netlify Asset Public Signature API
   slug: netlify-assetpublicsignature-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-assetpublicsignature-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-assetpublicsignature-api-openapi.yml
 - filename: netlify-build-api-openapi.yml
   format: yaml
   label: Netlify Build API
   slug: netlify-build-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-build-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-build-api-openapi.yml
 - filename: netlify-buildhook-api-openapi.yml
   format: yaml
   label: Netlify Build Hook API
   slug: netlify-buildhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-buildhook-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-buildhook-api-openapi.yml
 - filename: netlify-buildlogmsg-api-openapi.yml
   format: yaml
   label: Netlify Build Log Msg API
   slug: netlify-buildlogmsg-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-buildlogmsg-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-buildlogmsg-api-openapi.yml
 - filename: netlify-deploy-api-openapi.yml
   format: yaml
   label: Netlify Deploy API
   slug: netlify-deploy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-deploy-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-deploy-api-openapi.yml
 - filename: netlify-deployedbranch-api-openapi.yml
   format: yaml
   label: Netlify Deployed Branch API
   slug: netlify-deployedbranch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-deployedbranch-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-deployedbranch-api-openapi.yml
 - filename: netlify-deploykey-api-openapi.yml
   format: yaml
   label: Netlify Deploy Key API
   slug: netlify-deploykey-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-deploykey-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-deploykey-api-openapi.yml
 - filename: netlify-devserverhook-api-openapi.yml
   format: yaml
   label: Netlify Dev Server Hook API
   slug: netlify-devserverhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-devserverhook-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-devserverhook-api-openapi.yml
 - filename: netlify-dnszone-api-openapi.yml
   format: yaml
   label: Netlify Dns Zone API
   slug: netlify-dnszone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-dnszone-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-dnszone-api-openapi.yml
 - filename: netlify-file-api-openapi.yml
   format: yaml
   label: Netlify File API
   slug: netlify-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-file-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-file-api-openapi.yml
 - filename: netlify-form-api-openapi.yml
   format: yaml
   label: Netlify Form API
   slug: netlify-form-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-form-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-form-api-openapi.yml
 - filename: netlify-function-api-openapi.yml
   format: yaml
   label: Netlify Function API
   slug: netlify-function-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-function-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-function-api-openapi.yml
 - filename: netlify-hook-api-openapi.yml
   format: yaml
   label: Netlify Hook API
   slug: netlify-hook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-hook-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-hook-api-openapi.yml
 - filename: netlify-hooktype-api-openapi.yml
   format: yaml
   label: Netlify Hook Type API
   slug: netlify-hooktype-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-hooktype-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-hooktype-api-openapi.yml
 - filename: netlify-member-api-openapi.yml
   format: yaml
   label: Netlify Member API
   slug: netlify-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-member-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-member-api-openapi.yml
 - filename: netlify-metadata-api-openapi.yml
   format: yaml
   label: Netlify Metadata API
   slug: netlify-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-metadata-api-openapi.yml
 - filename: netlify-purge-api-openapi.yml
   format: yaml
   label: Netlify Purge API
   slug: netlify-purge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-purge-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-purge-api-openapi.yml
 - filename: netlify-serviceinstance-api-openapi.yml
   format: yaml
   label: Netlify Service Instance API
   slug: netlify-serviceinstance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-serviceinstance-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-serviceinstance-api-openapi.yml
 - filename: netlify-site-api-openapi.yml
   format: yaml
   label: Netlify Site API
   slug: netlify-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-site-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-site-api-openapi.yml
 - filename: netlify-snicertificate-api-openapi.yml
   format: yaml
   label: Netlify Sni Certificate API
   slug: netlify-snicertificate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-snicertificate-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-snicertificate-api-openapi.yml
 - filename: netlify-snippet-api-openapi.yml
   format: yaml
   label: Netlify Snippet API
   slug: netlify-snippet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-snippet-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-snippet-api-openapi.yml
 - filename: netlify-submission-api-openapi.yml
   format: yaml
   label: Netlify Submission API
   slug: netlify-submission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-submission-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-submission-api-openapi.yml
 - filename: netlify-ticket-api-openapi.yml
   format: yaml
   label: Netlify Ticket API
   slug: netlify-ticket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-ticket-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-ticket-api-openapi.yml
 - filename: netlify-user-api-openapi.yml
   format: yaml
   label: Netlify User API
   slug: netlify-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-user-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-user-api-openapi.yml
 - filename: netlify-x-internal-api-openapi.yml
   format: yaml
   label: Netlify X-Internal API
   slug: netlify-x-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-x-internal-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-x-internal-api-openapi.yml
 - filename: netlify-agentrunner-api-openapi.yml
   format: yaml
   label: Netlify Agent Runner API
   slug: netlify-agentrunner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-agentrunner-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-agentrunner-api-openapi.yml
 - filename: netlify-agentrunnerhook-api-openapi.yml
   format: yaml
   label: Netlify Agent Runner Hook API
   slug: netlify-agentrunnerhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-agentrunnerhook-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-agentrunnerhook-api-openapi.yml
 - filename: netlify-agentrunnersession-api-openapi.yml
   format: yaml
   label: Netlify Agent Runner Session API
   slug: netlify-agentrunnersession-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-agentrunnersession-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-agentrunnersession-api-openapi.yml
 - filename: netlify-database-api-openapi.yml
   format: yaml
   label: Netlify Database API
   slug: netlify-database-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-database-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-database-api-openapi.yml
 - filename: netlify-edgefunction-api-openapi.yml
   format: yaml
   label: Netlify Edge Function API
   slug: netlify-edgefunction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-edgefunction-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-edgefunction-api-openapi.yml
 - filename: netlify-service-api-openapi.yml
   format: yaml
   label: Netlify Service API
   slug: netlify-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-service-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-service-api-openapi.yml
 - filename: netlify-access-token-api-openapi.yml
   format: yaml
   label: Netlify Access Token API
   slug: netlify-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-access-token-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-access-token-api-openapi.yml
 - filename: netlify-account-membership-api-openapi.yml
   format: yaml
   label: Netlify Account Membership API
   slug: netlify-account-membership-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-account-membership-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-account-membership-api-openapi.yml
 - filename: netlify-ai-gateway-api-openapi.yml
   format: yaml
   label: Netlify AI Gateway API
   slug: netlify-ai-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-ai-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-ai-gateway-api-openapi.yml
 - filename: netlify-audit-log-api-openapi.yml
   format: yaml
   label: Netlify Audit Log API
   slug: netlify-audit-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-audit-log-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-audit-log-api-openapi.yml
 - filename: netlify-dev-server-api-openapi.yml
   format: yaml
   label: Netlify Dev Server API
   slug: netlify-dev-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-dev-server-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-dev-server-api-openapi.yml
 - filename: netlify-environment-variables-api-openapi.yml
   format: yaml
   label: Netlify Environment Variables API
   slug: netlify-environment-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-environment-variables-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-environment-variables-api-openapi.yml
 - filename: netlify-payment-method-api-openapi.yml
   format: yaml
   label: Netlify Payment Method API
   slug: netlify-payment-method-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-payment-method-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-payment-method-api-openapi.yml
 - filename: netlify-split-test-api-openapi.yml
   format: yaml
   label: Netlify Split Test API
   slug: netlify-split-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-split-test-api-openapi.yml
+  url: https://artifacts.apis.io/netlify/openapi/netlify-split-test-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -289,7 +289,7 @@ source_filename: netlify-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: app.netlify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  5 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.netlify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  5 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.netlify.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 27 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: netlify.com\n  dnssec: false\n  caa:\n  - 128 issue \"amazon.com\"\n  - 128 iodef \"mailto:security@netlify.com\"\n  - 128 issue \"digicert.com;account=2d83e9ac9b6776c3f215150f6ebceea8cefe3bc2e1fb5efffb1d71e200575226\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/security/netlify-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/netlify/security/netlify-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - CDN

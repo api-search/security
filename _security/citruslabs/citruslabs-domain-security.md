@@ -28,7 +28,7 @@ source_filename: citruslabs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: citruslabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  2 19:19:56 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: citruslabs.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/citruslabs/refs/heads/main/security/citruslabs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/citruslabs/security/citruslabs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

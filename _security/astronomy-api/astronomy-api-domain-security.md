@@ -5,25 +5,25 @@ api_specs:
   label: Astronomy API Bodies API
   slug: astronomy-api-bodies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astronomy-api/refs/heads/main/openapi/astronomy-api-bodies-api-openapi.yml
+  url: https://artifacts.apis.io/astronomy-api/openapi/astronomy-api-bodies-api-openapi.yml
 - filename: astronomy-api-events-api-openapi.yml
   format: yaml
   label: Astronomy API Events API
   slug: astronomy-api-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astronomy-api/refs/heads/main/openapi/astronomy-api-events-api-openapi.yml
+  url: https://artifacts.apis.io/astronomy-api/openapi/astronomy-api-events-api-openapi.yml
 - filename: astronomy-api-search-api-openapi.yml
   format: yaml
   label: Astronomy API Search API
   slug: astronomy-api-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astronomy-api/refs/heads/main/openapi/astronomy-api-search-api-openapi.yml
+  url: https://artifacts.apis.io/astronomy-api/openapi/astronomy-api-search-api-openapi.yml
 - filename: astronomy-api-studio-api-openapi.yml
   format: yaml
   label: Astronomy API Studio API
   slug: astronomy-api-studio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astronomy-api/refs/heads/main/openapi/astronomy-api-studio-api-openapi.yml
+  url: https://artifacts.apis.io/astronomy-api/openapi/astronomy-api-studio-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,7 +62,7 @@ source_filename: astronomy-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: astronomyapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 25 23:59:59 2027 GMT\n  hsts: false\n- host: docs.astronomyapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 02:00:55 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.astronomyapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 31 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: astronomyapi.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/astronomy-api/refs/heads/main/security/astronomy-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/astronomy-api/security/astronomy-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Astronomy

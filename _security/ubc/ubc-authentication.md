@@ -7,13 +7,13 @@ api_specs:
   label: UBC Library Abacus Dataverse API
   slug: abacus-dataverse
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/openapi/ubc-access-api-openapi.yml
+  url: https://artifacts.apis.io/ubc/openapi/ubc-access-api-openapi.yml
 - filename: ubc-collections-api-openapi.yml
   format: yaml
   label: University of British Columbia Collections API
   slug: ubc-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/openapi/ubc-collections-api-openapi.yml
+  url: https://artifacts.apis.io/ubc/openapi/ubc-collections-api-openapi.yml
 auth_types: []
 description: 'How authentication actually works across UBC''s institution-operated programmable surfaces. UBC has no single developer identity: each surface authenticates on its own terms, and the enterprise gateway is not self-service at all.'
 kind: authentication
@@ -37,7 +37,7 @@ source_yaml: "---\nspecification: API Commons Authentication\nspecificationVersi
   \ and files\n    are open; every write operation and every admin operation requires an API token issued\n    from a signed-in Abacus account. Accounts are created by UBC Library / Abacus support.\n  evidence:\n  - url: https://abacus.library.ubc.ca/api/info/version\n    status: 200\n    detail: '{\"status\":\"OK\",\"data\":{\"version\":\"5.9\",\"build\":null}} returned unauthenticated.'\n  - url: openapi/_original/ubc-abacus-dataverse.yaml\n    status: 200\n    detail: Contract exposes a `key` query parameter on access operations.\n\n- id: ubc:abacus-oai-pmh\n  name: Abacus OAI-PMH\n  x-operator: institution\n  type: none\n  anonymousAccess: true\n  detail: >-\n    Unauthenticated by protocol. Public visibility is controlled by set membership rather than\n    credential — the abacus_open set is described as \"Datasets available for the public without\n    authentication\", while sfulicensed and peer sets are not.\n  evidence:\n  - url: https://abacus.library.ubc.ca/oai?verb=Identify\n\
   \    status: 200\n\n- id: ubc:shibboleth-idp\n  name: UBC Shibboleth Identity Provider\n  x-operator: institution\n  type: saml2\n  anonymousAccess: false\n  detail: >-\n    UBC's own SAML 2.0 identity provider, entityID https://authentication.ubc.ca, asserting the\n    ubc.ca scope. This is the credential surface that every other UBC service federates\n    against, and it is the one machine-readable artifact UBC publishes about its own identity\n    layer. Signing certificate is self-issued to CN=authentication.ubc.ca.\n  evidence:\n  - url: https://authentication.ubc.ca/idp/shibboleth\n    status: 200\n    detail: 9,213 bytes application/xml SAML metadata, served without credential.\n\n- id: ubc:iec-api-gateway\n  name: UBC Integration Enablement Centre API gateway\n  x-operator: institution\n  type: gated\n  anonymousAccess: false\n  detail: >-\n    api.ubc.ca is live and refuses everything. There is no public token endpoint, no client\n    registration and no published scheme. Access\
   \ is granted per-API through UBC's Data Access\n    Framework, requested by ServiceNow ticket, and the API list itself sits behind UBC's\n    Confluence login. The authentication story is an internal procurement process, not an\n    interface.\n  registration: https://ubc.service-now.com/selfservice\n  evidence:\n  - url: https://api.ubc.ca/\n    status: 403\n    detail: >-\n      nginx 403 Forbidden with HSTS. DNS resolves api.ubc.ca -> api.iec.it.ubc.ca ->\n      ubc-iec.lb.anypointdns.net (MuleSoft Anypoint load balancer).\n  - url: https://confluence.it.ubc.ca/x/Jo14Bw\n    status: 200\n    detail: >-\n      The IEC's own API list. Redirects to confluence.it.ubc.ca/my.logout.php3?errorcode=19 —\n      authentication required, contents not readable.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/authentication/ubc-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ubc/authentication/ubc-authentication.yml
 summary_line: 0 schemes
 tags:
 - Education

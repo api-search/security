@@ -44,7 +44,7 @@ source_filename: university-of-north-carolina-at-chapel-hill-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.unc.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 07:41:31 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: guides.dataverse.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 30 23:59:59 2026 GMT\n  hsts: false\n- host: dataverse.unc.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: unc.edu\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: dataverse.org\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-north-carolina-at-chapel-hill/refs/heads/main/security/university-of-north-carolina-at-chapel-hill-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/university-of-north-carolina-at-chapel-hill/security/university-of-north-carolina-at-chapel-hill-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Education

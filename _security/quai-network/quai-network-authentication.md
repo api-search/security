@@ -35,7 +35,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://docs.qu.ai/build/playground/overview + https://docs.qu.ai/build/introduction\nsummary:\n  types: [none]\n  detail: >-\n    The Quai Network JSON-RPC and GraphQL endpoints are public and unauthenticated\n    (no API key or token). This is standard for a public blockchain node RPC.\n    State-changing operations are not authorized by an API credential but by\n    cryptographic transaction signatures: clients sign transactions with an\n    account private key (Quais SDK Wallet / QuaiHDWallet / QiHDWallet) and submit\n    the signed, Protobuf-encoded transaction via quai_sendRawTransaction.\nschemes:\n- name: public-rpc\n  type: none\n  detail: No credential required for read methods or for submitting pre-signed transactions.\n- name: transaction-signature\n  type: signature\n  detail: secp256k1 transaction signatures (via the Quais SDK) authorize on-chain state changes; Qi UTXO transactions use the Qi ledger signing model.\n\
   notes:\n- Operators exposing a private/authenticated node may front the RPC with their own gateway auth; that is deployment-specific and not part of the public API contract.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quai-network/refs/heads/main/authentication/quai-network-authentication.yml
+source_yaml_url: https://artifacts.apis.io/quai-network/authentication/quai-network-authentication.yml
 summary_line: none · 2 schemes
 tags:
 - Company

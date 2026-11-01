@@ -5,7 +5,7 @@ api_specs:
   label: DataFirst Microdata Catalog API (NADA)
   slug: datafirst-nada
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/openapi/university-of-cape-town-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-cape-town/openapi/university-of-cape-town-catalog-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -48,7 +48,7 @@ source_filename: university-of-cape-town-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.uct.ac.za\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 23:59:59 2026 GMT\n  hsts: null\n- host: www.datafirst.uct.ac.za\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 23 23:59:59 2027 GMT\n  hsts: null\n- host: open.uct.ac.za\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  9 11:30:25 2027 GMT\n  hsts: false\ndomains:\n- domain: uct.ac.za\n  dnssec: true\n  caa:\n  - 0 issue \"harica.gr\"\n  - 0 issuewild \"harica.gr\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/security/university-of-cape-town-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/university-of-cape-town/security/university-of-cape-town-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - University

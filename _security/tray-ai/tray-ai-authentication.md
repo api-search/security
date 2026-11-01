@@ -7,91 +7,91 @@ api_specs:
   label: Tray.ai Authentication API
   slug: tray-ai-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-authentication-api-openapi.yml
 - filename: tray-ai-authentications-api-openapi.yml
   format: yaml
   label: Tray.ai Authentications API
   slug: tray-ai-authentications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-authentications-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-authentications-api-openapi.yml
 - filename: tray-ai-call-connector-api-openapi.yml
   format: yaml
   label: Tray.ai Call Connector API
   slug: tray-ai-call-connector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-call-connector-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-call-connector-api-openapi.yml
 - filename: tray-ai-connectors-api-openapi.yml
   format: yaml
   label: Tray.ai Connectors API
   slug: tray-ai-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-connectors-api-openapi.yml
 - filename: tray-ai-deployments-api-openapi.yml
   format: yaml
   label: Tray.ai Deployments API
   slug: tray-ai-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-deployments-api-openapi.yml
 - filename: tray-ai-projects-api-openapi.yml
   format: yaml
   label: Tray.ai Projects API
   slug: tray-ai-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-projects-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-projects-api-openapi.yml
 - filename: tray-ai-solution-instances-api-openapi.yml
   format: yaml
   label: Tray.ai Solution Instances API
   slug: tray-ai-solution-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-solution-instances-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-solution-instances-api-openapi.yml
 - filename: tray-ai-solutions-api-openapi.yml
   format: yaml
   label: Tray.ai Solutions API
   slug: tray-ai-solutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-solutions-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-solutions-api-openapi.yml
 - filename: tray-ai-triggers-api-openapi.yml
   format: yaml
   label: Tray.ai Triggers API
   slug: tray-ai-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-triggers-api-openapi.yml
 - filename: tray-ai-users-api-openapi.yml
   format: yaml
   label: Tray.ai Users API
   slug: tray-ai-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-users-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-users-api-openapi.yml
 - filename: tray-ai-workflows-api-openapi.yml
   format: yaml
   label: Tray.ai Workflows API
   slug: tray-ai-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-workflows-api-openapi.yml
 - filename: tray-ai-workspaces-api-openapi.yml
   format: yaml
   label: Tray.ai Workspaces API
   slug: tray-ai-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-workspaces-api-openapi.yml
 - filename: tray-ai-agent-groups-api-openapi.yml
   format: yaml
   label: Tray.ai Agent Groups API
   slug: tray-ai-agent-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-agent-groups-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-agent-groups-api-openapi.yml
 - filename: tray-ai-agent-instances-api-openapi.yml
   format: yaml
   label: Tray.ai Agent Instances API
   slug: tray-ai-agent-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-agent-instances-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-agent-instances-api-openapi.yml
 - filename: tray-ai-permissions-api-openapi.yml
   format: yaml
   label: Tray.ai Permissions API
   slug: tray-ai-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-permissions-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -154,7 +154,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: searched\nsource: >-\n  https://t
   \    obtained_from: https://auth.tray.io/server/oauth2/authorize\n    acts_as: the signed-in Tray user, in the workspace chosen at sign-in\n    required_for: tools/list and tools/call on api.tray.io/mcp\nend_user_authentications:\n  description: >-\n    Distinct from the tokens above. An \"authentication\" is a stored credential for a THIRD-PARTY\n    service (Salesforce, Slack, ...) that Tray holds on behalf of a user, identified by a UUID and\n    passed as `authId` on every connector call.\n  operations: [create-user-authentication, get-user-authentication, update-user-authentication, delete-user-authentication, get-full-authentication, get-service-environments]\n  graphql_operations: [get-authentications, create-authentication, delete-authentication]\n  collection_ui: 'Hosted auth dialog (popup) — see components/tray-ai-components.yml'\n  custom_oauth_apps: https://tray.ai/documentation/developer/getting-started/prerequisites/custom-oauth-apps\n  note: >-\n    Partners can white-label\
   \ these with their own OAuth apps so end users see the partner's brand on\n    the third-party consent screen, not Tray's.\nagent_gateway_layers:\n  client_authentication:\n    - method: OAuth2\n      note: Required for dynamic (user-provided) tool authentication. Tray currently names Claude Desktop as the supported OAuth2 client, with more expanding.\n    - method: API token\n      note: Static bearer; works with all MCP clients; cannot use dynamic authentication — tools must use service-account credentials.\n  tool_authentication:\n    - mode: service account\n      note: One shared credential for every execution of the tool, whoever triggered it.\n    - mode: dynamic (user-provided)\n      note: The end user authenticates with their own credentials at runtime; actions execute with their permissions and are auditable to them. Mapping is valid for 7 days.\n  access_management: >-\n    Only users explicitly added on the MCP server's Access Management tab can execute its tools —\n    workspace\
   \ membership alone is not sufficient.\n  docs: https://tray.ai/documentation/platform/artificial-intelligence/agent-gateway/authentication-and-access\nregions:\n  note: A token is region-bound. US api.tray.io / tray.io, EU api.eu1.tray.io / eu1.tray.io, APAC api.ap1.tray.io / ap1.tray.io.\ngaps:\n  - No OIDC discovery document — /.well-known/openid-configuration 404s on api.tray.io and auth.tray.io.\n  - No scopes on the REST or GraphQL surfaces; a master token is all-or-nothing.\n  - No documented token rotation or expiry policy for master and RBAC tokens.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/authentication/tray-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tray-ai/authentication/tray-ai-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Automation

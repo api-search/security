@@ -8,79 +8,79 @@ api_specs:
   label: n3rgy Create Export Profiles API
   slug: n3rgy-create-export-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/openapi/n3rgy-create-export-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/n3rgy/openapi/n3rgy-create-export-profiles-api-openapi.yml
 - filename: n3rgy-customer-service-api-v2-api-openapi.yml
   format: yaml
   label: n3rgy Customer Service API V2 API
   slug: n3rgy-customer-service-api-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/openapi/n3rgy-customer-service-api-v2-api-openapi.yml
+  url: https://artifacts.apis.io/n3rgy/openapi/n3rgy-customer-service-api-v2-api-openapi.yml
 - filename: n3rgy-find-mpxn-api-openapi.yml
   format: yaml
   label: n3rgy Find Mpxn API
   slug: n3rgy-find-mpxn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/openapi/n3rgy-find-mpxn-api-openapi.yml
+  url: https://artifacts.apis.io/n3rgy/openapi/n3rgy-find-mpxn-api-openapi.yml
 - filename: n3rgy-get-update-frequencies-api-openapi.yml
   format: yaml
   label: n3rgy Get Update Frequencies API
   slug: n3rgy-get-update-frequencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/openapi/n3rgy-get-update-frequencies-api-openapi.yml
+  url: https://artifacts.apis.io/n3rgy/openapi/n3rgy-get-update-frequencies-api-openapi.yml
 - filename: n3rgy-internal-api-openapi.yml
   format: yaml
   label: n3rgy Internal API
   slug: n3rgy-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/openapi/n3rgy-internal-api-openapi.yml
+  url: https://artifacts.apis.io/n3rgy/openapi/n3rgy-internal-api-openapi.yml
 - filename: n3rgy-mpxn-api-openapi.yml
   format: yaml
   label: n3rgy Mpxn API
   slug: n3rgy-mpxn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/openapi/n3rgy-mpxn-api-openapi.yml
+  url: https://artifacts.apis.io/n3rgy/openapi/n3rgy-mpxn-api-openapi.yml
 - filename: n3rgy-push-api-openapi.yml
   format: yaml
   label: n3rgy Push API
   slug: n3rgy-push-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/openapi/n3rgy-push-api-openapi.yml
+  url: https://artifacts.apis.io/n3rgy/openapi/n3rgy-push-api-openapi.yml
 - filename: n3rgy-read-inventory-api-openapi.yml
   format: yaml
   label: n3rgy Read Inventory API
   slug: n3rgy-read-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/openapi/n3rgy-read-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/n3rgy/openapi/n3rgy-read-inventory-api-openapi.yml
 - filename: n3rgy-reset-all-update-frequencies-api-openapi.yml
   format: yaml
   label: n3rgy Reset All Update Frequencies API
   slug: n3rgy-reset-all-update-frequencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/openapi/n3rgy-reset-all-update-frequencies-api-openapi.yml
+  url: https://artifacts.apis.io/n3rgy/openapi/n3rgy-reset-all-update-frequencies-api-openapi.yml
 - filename: n3rgy-set-defaults-api-openapi.yml
   format: yaml
   label: n3rgy Set Defaults API
   slug: n3rgy-set-defaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/openapi/n3rgy-set-defaults-api-openapi.yml
+  url: https://artifacts.apis.io/n3rgy/openapi/n3rgy-set-defaults-api-openapi.yml
 - filename: n3rgy-set-meter-update-frequency-api-openapi.yml
   format: yaml
   label: n3rgy Set Meter Update Frequency API
   slug: n3rgy-set-meter-update-frequency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/openapi/n3rgy-set-meter-update-frequency-api-openapi.yml
+  url: https://artifacts.apis.io/n3rgy/openapi/n3rgy-set-meter-update-frequency-api-openapi.yml
 - filename: n3rgy-update-now-api-openapi.yml
   format: yaml
   label: n3rgy Update Now API
   slug: n3rgy-update-now-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/openapi/n3rgy-update-now-api-openapi.yml
+  url: https://artifacts.apis.io/n3rgy/openapi/n3rgy-update-now-api-openapi.yml
 - filename: n3rgy-upload-api-openapi.yml
   format: yaml
   label: n3rgy Upload API
   slug: n3rgy-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/openapi/n3rgy-upload-api-openapi.yml
+  url: https://artifacts.apis.io/n3rgy/openapi/n3rgy-upload-api-openapi.yml
 auth_types:
 - apiKey
 description: n3rgy authenticates with a single API key in the x-api-key header — and then authorises in two further layers that the OpenAPI cannot express. Layer 2 is end-customer CONSENT, validated server-side against the Home Area Network behind the supplied MPxN. Layer 3 is a per-account permission to change meter update frequencies. All three failures surface as HTTP 403 with different messages, so a client cannot distinguish "bad key" from "no consent" by status code alone — only by the message string.
@@ -114,7 +114,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: openapi/n3rgy-c
   \      - SetMeterUpdateFrequency\n  - layer: 3\n    name: frequency-change permission\n    mechanism: A per-customer flag allowing update-frequency changes.\n    failure: 403 \"User is not authorized to access this resource with an explicit deny.\"\n    applies_to:\n      - SetMeterUpdateFrequency\n      - SetDefaults\n      - ResetAllUpdateFrequencies\n\nkey_only_operations:\n  note: Authenticated by x-api-key alone, with no consent check.\n  operations:\n    - RetrieveConsentedMPxNs\n    - RetrieveMPxNAvailability\n    - mpxnFromAddress\n    - ReadInventory\n    - GetPushNotificationConfiguration\n    - EditPushNotificationConfiguration\n    - DeletePushNotificationConfiguration\n    - RetrievePushNotificationStatus\n\nunsecured_operations:\n  - operationId: RetrieveReadingTypeData\n    path: POST /internal/{mpxn}/{utility}/{readingType}\n    note: >-\n      Declares an EMPTY security array in the OpenAPI (no ApiKeyAuth). Almost\n      certainly an internal endpoint fronted by other\
   \ controls — flagged here as a\n      contract inconsistency worth raising with the provider, not as a claim that\n      the endpoint is publicly callable. The host answers 403 to anonymous\n      callers.\n\nnot_supported:\n  oauth2: >-\n    No oauth2 securityScheme; no /.well-known/oauth-authorization-server on any\n    host. Therefore no scopes/ artifact is emitted — there is no scope surface.\n  openid_connect: >-\n    No /.well-known/openid-configuration is served anywhere (401 on\n    consumer-api.data.n3rgy.com, SPA HTML shell on data.n3rgy.com).\n  mutual_tls: not declared\n  http_basic_bearer: not declared\n\nhistory:\n  - >-\n    n3rgy data 1.x authenticated with the Authorization header. n3rgy data 2.0\n    migrated every endpoint to X-API-KEY (\"With n3rgy data 2.0, all new endpoints\n    will be using X-API-KEY as header parameter instead of the old authorization\n    header.\" — developer guide Overview).\n  - >-\n    The legacy consumer API authenticated with the IHD MAC\
   \ address of the\n    property's in-home display. That API has been withdrawn.\n\ncross_references:\n  conventions: conventions/n3rgy-conventions.yml\n  errors: errors/n3rgy-problem-types.yml\n  sandbox: sandbox/n3rgy-sandbox.yml\n  well_known: well-known/n3rgy-well-known.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/authentication/n3rgy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/n3rgy/authentication/n3rgy-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Energy

@@ -2,36 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: inth-consent-api-openapi.yml
+- filename: inth-documentation-api-openapi.yml
   format: yaml
-  label: Inth Consent API
-  slug: inth-consent-api
+  label: Inth Documentation API
+  slug: inth-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/openapi/inth-consent-api-openapi.yml
-- filename: inth-init-api-openapi.yml
+  url: https://artifacts.apis.io/inth/openapi/inth-documentation-api-openapi.yml
+- filename: inth-operations-api-openapi.yml
   format: yaml
-  label: Inth Init API
-  slug: inth-init-api
+  label: Inth Operations API
+  slug: inth-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/openapi/inth-init-api-openapi.yml
-- filename: inth-legal-documents-api-openapi.yml
-  format: yaml
-  label: Inth Legal Documents API
-  slug: inth-legal-documents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/openapi/inth-legal-documents-api-openapi.yml
-- filename: inth-status-api-openapi.yml
-  format: yaml
-  label: Inth Status API
-  slug: inth-status-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/openapi/inth-status-api-openapi.yml
-- filename: inth-subjects-api-openapi.yml
-  format: yaml
-  label: Inth Subjects API
-  slug: inth-subjects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/openapi/inth-subjects-api-openapi.yml
+  url: https://artifacts.apis.io/inth/openapi/inth-operations-api-openapi.yml
 auth_types: []
 description: The c15t consent backend authenticates server-side requests with a Bearer API key. Browser-facing endpoints (init, status) are public and unauthenticated so the client SDK can bootstrap a banner without exposing a secret.
 kind: authentication
@@ -62,7 +44,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: >-\n  github.com/c15t/c15t packages/backend/src/middleware/auth/validate-api-key.ts\n  and c15t.com/docs/self-host. Auth profile derived from the open-source backend\n  and confirmed against docs.\ndescription: >-\n  The c15t consent backend authenticates server-side requests with a Bearer API\n  key. Browser-facing endpoints (init, status) are public and unauthenticated so\n  the client SDK can bootstrap a banner without exposing a secret.\ndocs: https://c15t.com/docs/self-host\nschemes:\n  - id: bearerAuth\n    type: http\n    scheme: bearer\n    location: header\n    header: Authorization\n    format: \"Bearer [example key]<key>\"\n    description: >-\n      Secret API key passed as a Bearer token. Keys are provisioned per instance\n      (inth.com dashboard) or configured for self-hosted deployments. The\n      extractBearerToken middleware requires the literal \"Bearer \" prefix.\n    applies_to:\n      - GET /subjects\
   \ (list by external ID)\n      - PUT /legal-documents/{type}/current\npublic_endpoints:\n  - GET /init\n  - GET /status\n  - GET /spec.json\noauth2: false\nopenid_connect: false\nmutual_tls: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/authentication/inth-authentication.yml
+source_yaml_url: https://artifacts.apis.io/inth/authentication/inth-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company

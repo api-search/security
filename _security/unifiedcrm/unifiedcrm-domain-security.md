@@ -27,7 +27,7 @@ source_filename: unifiedcrm-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: unifiedcrm.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 17:30:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: unifiedcrm.ai\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unifiedcrm/refs/heads/main/security/unifiedcrm-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/unifiedcrm/security/unifiedcrm-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

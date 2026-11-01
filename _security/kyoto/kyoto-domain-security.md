@@ -5,19 +5,19 @@ api_specs:
   label: KURENAI OAI-PMH API
   slug: kyoto-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/openapi/kyoto-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/kyoto/openapi/kyoto-oai-pmh-api-openapi.yml
 - filename: kyoto-rest-api-openapi.yml
   format: yaml
   label: KURENAI DSpace REST API
   slug: kyoto-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/openapi/kyoto-rest-api-openapi.yml
+  url: https://artifacts.apis.io/kyoto/openapi/kyoto-rest-api-openapi.yml
 - filename: kyoto-lms-api-openapi.yml
   format: yaml
   label: PandA Learning Support System API (Sakai Entity Broker + IMS LTI)
   slug: kyoto-lms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/openapi/kyoto-lms-api-openapi.yml
+  url: https://artifacts.apis.io/kyoto/openapi/kyoto-lms-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: kyoto-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.kyoto-u.ac.jp\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 06:18:07 2027 GMT\n  hsts: false\n- host: repository.kulib.kyoto-u.ac.jp\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 02:23:04 2026 GMT\n  hsts: false\n- host: www.iimc.kyoto-u.ac.jp\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 25 00:43:34 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: kyoto-u.ac.jp\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/security/kyoto-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kyoto/security/kyoto-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - University

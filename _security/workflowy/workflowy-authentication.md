@@ -7,13 +7,13 @@ api_specs:
   label: Workflowy Nodes API
   slug: workflowy-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workflowy/refs/heads/main/openapi/workflowy-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/workflowy/openapi/workflowy-nodes-api-openapi.yml
 - filename: workflowy-targets-api-openapi.yml
   format: yaml
   label: Workflowy Targets API
   slug: workflowy-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workflowy/refs/heads/main/openapi/workflowy-targets-api-openapi.yml
+  url: https://artifacts.apis.io/workflowy/openapi/workflowy-targets-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: workflowy-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://workflowy.com/api-reference/\ndocs: https://workflowy.com/api-reference/\nkey_management: https://workflowy.com/api-key/\nnotes: >-\n  The API reference documents a single auth mechanism - a Workflowy API key\n  sent as a bearer token (\"Authorization: Bearer <YOUR_API_KEY>\"). Keys are\n  generated at https://workflowy.com/api-key/. No OAuth, no scopes.\nsummary:\n  types:\n  - http\nschemes:\n- name: apiKey\n  type: http\n  scheme: bearer\n  description: Workflowy API key sent as a bearer token in the Authorization header. Generate\n    a key at https://workflowy.com/api-key/.\n  sources:\n  - openapi/workflowy-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workflowy/refs/heads/main/authentication/workflowy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/workflowy/authentication/workflowy-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Productivity

@@ -7,37 +7,37 @@ api_specs:
   label: PropertyMe Connection API
   slug: propertyme-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-connection-api-openapi.yml
+  url: https://artifacts.apis.io/propertyme/openapi/propertyme-connection-api-openapi.yml
 - filename: propertyme-scope-activities-api-openapi.yml
   format: yaml
   label: 'PropertyMe Scope: Activities API'
   slug: propertyme-scope-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-scope-activities-api-openapi.yml
+  url: https://artifacts.apis.io/propertyme/openapi/propertyme-scope-activities-api-openapi.yml
 - filename: propertyme-scope-bills-api-openapi.yml
   format: yaml
   label: 'PropertyMe Scope: Bills API'
   slug: propertyme-scope-bills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-scope-bills-api-openapi.yml
+  url: https://artifacts.apis.io/propertyme/openapi/propertyme-scope-bills-api-openapi.yml
 - filename: propertyme-scope-contacts-api-openapi.yml
   format: yaml
   label: 'PropertyMe Scope: Contacts API'
   slug: propertyme-scope-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-scope-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/propertyme/openapi/propertyme-scope-contacts-api-openapi.yml
 - filename: propertyme-scope-messages-api-openapi.yml
   format: yaml
   label: 'PropertyMe Scope: Messages API'
   slug: propertyme-scope-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-scope-messages-api-openapi.yml
+  url: https://artifacts.apis.io/propertyme/openapi/propertyme-scope-messages-api-openapi.yml
 - filename: propertyme-scope-properties-api-openapi.yml
   format: yaml
   label: 'PropertyMe Scope: Properties API'
   slug: propertyme-scope-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-scope-properties-api-openapi.yml
+  url: https://artifacts.apis.io/propertyme/openapi/propertyme-scope-properties-api-openapi.yml
 auth_types:
 - openIdConnect
 - oauth2
@@ -132,7 +132,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: https://login.p
   \    id_token_signing_alg: [RS256]\n    subject_types: [public]\n    sources: [https://login.propertyme.com/.well-known/openid-configuration]\n    endpoints:\n      authorization: https://login.propertyme.com/connect/authorize\n      token: https://login.propertyme.com/connect/token\n      userinfo: https://login.propertyme.com/connect/userinfo\n      introspection: https://login.propertyme.com/connect/introspect\n      revocation: https://login.propertyme.com/connect/revocation\n      end_session: https://login.propertyme.com/connect/endsession\n      check_session: https://login.propertyme.com/connect/checksession\n      device_authorization: https://login.propertyme.com/connect/deviceauthorization\n      backchannel_authentication: https://login.propertyme.com/connect/ciba\n      pushed_authorization_request: https://login.propertyme.com/connect/par\n      registration: https://login.propertyme.com/connect/dcr\n    grant_types:\n      - authorization_code\n      - client_credentials\n\
   \      - refresh_token\n      - implicit\n      - password\n      - urn:ietf:params:oauth:grant-type:device_code\n      - urn:openid:params:grant-type:ciba\n      - mcp_customer_switch\n      - on_behalf_of\n    client_auth_methods: [client_secret_basic, client_secret_post]\n    require_pushed_authorization_requests: false\n    dpop_signing_alg_values: [RS256, RS384, RS512, PS256, PS384, PS512, ES256, ES384, ES512]\n    prompt_values: [none, login, consent, select_account]\n    scopes_ref: scopes/propertyme-scopes.yml\n  - name: Bearer\n    type: http\n    scheme: bearer\n    in: header\n    parameter: Authorization\n    sources: [openapi/propertyme-openapi.json]\n    note: >-\n      Declared in the Swagger document as type apiKey with name Authorization in header. This is a\n      Swashbuckle description of an OIDC bearer token, not a static API key — PropertyMe issues no\n      long-lived API keys.\nconsent:\n  model: per-customer portfolio connection\n  granularity: one connected portfolio\
   \ per integration per agency\n  revocation:\n    by_agency: The agency disconnects the integration from within PropertyMe.\n    by_integration: DELETE /v1/portfolios/disconnect\n    note: Disconnecting invalidates the current access token; the portfolio user must choose to reconnect.\nnon_standard_grants:\n  - grant: mcp_customer_switch\n    observed: https://login.propertyme.com/.well-known/openid-configuration\n    reading: >-\n      Switches the acting customer portfolio for an already-authenticated session. Strong evidence of\n      an internal Model Context Protocol surface — see mcp/propertyme-mcp.yml.\n  - grant: on_behalf_of\n    observed: https://login.propertyme.com/.well-known/openid-configuration\n    reading: Token exchange so a service can act for a specific user or customer.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/authentication/propertyme-authentication.yml
+source_yaml_url: https://artifacts.apis.io/propertyme/authentication/propertyme-authentication.yml
 summary_line: openIdConnect/oauth2/http · 2 schemes
 tags:
 - Real Estate

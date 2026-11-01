@@ -5,31 +5,31 @@ api_specs:
   label: Prometeo Account Validation API
   slug: prometeo-account-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/openapi/prometeo-account-validation-api-openapi.yml
+  url: https://artifacts.apis.io/prometeo/openapi/prometeo-account-validation-api-openapi.yml
 - filename: prometeo-banking-api-openapi.yml
   format: yaml
   label: Prometeo Banking API
   slug: prometeo-banking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/openapi/prometeo-banking-api-openapi.yml
+  url: https://artifacts.apis.io/prometeo/openapi/prometeo-banking-api-openapi.yml
 - filename: prometeo-cross-border-api-openapi.yml
   format: yaml
   label: Prometeo Cross-Border API
   slug: prometeo-cross-border-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/openapi/prometeo-cross-border-api-openapi.yml
+  url: https://artifacts.apis.io/prometeo/openapi/prometeo-cross-border-api-openapi.yml
 - filename: prometeo-identity-api-openapi.yml
   format: yaml
   label: Prometeo Identity API
   slug: prometeo-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/openapi/prometeo-identity-api-openapi.yml
+  url: https://artifacts.apis.io/prometeo/openapi/prometeo-identity-api-openapi.yml
 - filename: prometeo-payment-api-openapi.yml
   format: yaml
   label: Prometeo Payment API
   slug: prometeo-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/openapi/prometeo-payment-api-openapi.yml
+  url: https://artifacts.apis.io/prometeo/openapi/prometeo-payment-api-openapi.yml
 description: ''
 domains:
 - domain: prometeoapi.com
@@ -74,7 +74,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: prometeoapi.com\n  https: true\n  note: Marketing and developer entry point; probe TLS on reconciliation.\n- host: docs.prometeoapi.com\n  https: true\n  note: Developer documentation (ReadMe-hosted).\n- host: banking.prometeoapi.net\n  https: true\n  note: Banking API production host.\n- host: account-validation.prometeoapi.net\n  https: true\n  note: Account Validation API production host.\n- host: crossborder.secure.prometeoapi.net\n  https: true\n  note: Cross-Border API production host (v1 base path).\n- host: payment.prometeoapi.net\n  https: true\n  note: Payment API production host.\n- host: identity.prometeoapi.net\n  https: true\n  note: Identity (CURP) API production host.\n- host: fiscal.prometeoapi.net\n  https: true\n  note: Fiscal (DIAN / SAT / CEP / BCU) API production host.\ndomains:\n- domain: prometeoapi.com\n  note: >-\n    Primary brand\
   \ domain. Production API surfaces are served from the\n    prometeoapi.net apex; sandbox surfaces from *.sandbox.prometeoapi.com.\n    DNSSEC / CAA / SPF / DMARC not reconciled in this artifact - verify on the\n    next live-probe pass.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/security/prometeo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/prometeo/security/prometeo-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Open Banking

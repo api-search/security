@@ -5,7 +5,7 @@ api_specs:
   label: ZenRows Universal Scraper API
   slug: zenrows-universal-scraper-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenrows/refs/heads/main/openapi/zenrows-universal-scraper-api-openapi.yml
+  url: https://artifacts.apis.io/zenrows/openapi/zenrows-universal-scraper-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: zenrows-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.zenrows.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 09:28:51 2026 GMT\n  hsts: null\n- host: docs.zenrows.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 02:04:21 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.zenrows.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 28 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: zenrows.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zenrows/refs/heads/main/security/zenrows-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zenrows/security/zenrows-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Web Scraping

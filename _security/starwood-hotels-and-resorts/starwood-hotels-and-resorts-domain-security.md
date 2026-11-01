@@ -5,19 +5,19 @@ api_specs:
   label: Starwood Hotels and Resorts Availability API
   slug: starwood-hotels-and-resorts-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/openapi/starwood-hotels-and-resorts-availability-api-openapi.yml
+  url: https://artifacts.apis.io/starwood-hotels-and-resorts/openapi/starwood-hotels-and-resorts-availability-api-openapi.yml
 - filename: starwood-hotels-and-resorts-hotels-api-openapi.yml
   format: yaml
   label: Starwood Hotels and Resorts Hotels API
   slug: starwood-hotels-and-resorts-hotels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/openapi/starwood-hotels-and-resorts-hotels-api-openapi.yml
+  url: https://artifacts.apis.io/starwood-hotels-and-resorts/openapi/starwood-hotels-and-resorts-hotels-api-openapi.yml
 - filename: starwood-hotels-and-resorts-properties-api-openapi.yml
   format: yaml
   label: Starwood Hotels and Resorts Properties API
   slug: starwood-hotels-and-resorts-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/openapi/starwood-hotels-and-resorts-properties-api-openapi.yml
+  url: https://artifacts.apis.io/starwood-hotels-and-resorts/openapi/starwood-hotels-and-resorts-properties-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: starwood-hotels-and-resorts-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.starwoodhotels.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 03:00:06 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: starwoodhotels.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/security/starwood-hotels-and-resorts-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/starwood-hotels-and-resorts/security/starwood-hotels-and-resorts-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Hotels

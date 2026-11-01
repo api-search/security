@@ -39,7 +39,7 @@ source_filename: todyl-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-30'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.todyl.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 20:13:19 2026 GMT\n  hsts: true\n  hsts_max_age: 0\n- host: api.todyl.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 19 14:08:06 2026 GMT\n  hsts: null\ndomains:\n- domain: todyl.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"awstrust.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/todyl/refs/heads/main/security/todyl-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/todyl/security/todyl-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

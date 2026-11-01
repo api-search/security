@@ -5,19 +5,19 @@ api_specs:
   label: PDF Generator API Documents API
   slug: pdfgeneratorapi-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfgeneratorapi/refs/heads/main/openapi/pdfgeneratorapi-documents-api-openapi.yml
+  url: https://artifacts.apis.io/pdfgeneratorapi/openapi/pdfgeneratorapi-documents-api-openapi.yml
 - filename: pdfgeneratorapi-templates-api-openapi.yml
   format: yaml
   label: PDF Generator API Templates API
   slug: pdfgeneratorapi-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfgeneratorapi/refs/heads/main/openapi/pdfgeneratorapi-templates-api-openapi.yml
+  url: https://artifacts.apis.io/pdfgeneratorapi/openapi/pdfgeneratorapi-templates-api-openapi.yml
 - filename: pdfgeneratorapi-workspaces-api-openapi.yml
   format: yaml
   label: PDF Generator API Workspaces API
   slug: pdfgeneratorapi-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfgeneratorapi/refs/heads/main/openapi/pdfgeneratorapi-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/pdfgeneratorapi/openapi/pdfgeneratorapi-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: pdfgeneratorapi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pdfgeneratorapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 23:25:42 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.pdfgeneratorapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 25 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: us1.pdfgeneratorapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: pdfgeneratorapi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pdfgeneratorapi/refs/heads/main/security/pdfgeneratorapi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pdfgeneratorapi/security/pdfgeneratorapi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - PDF

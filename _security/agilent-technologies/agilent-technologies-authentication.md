@@ -7,43 +7,43 @@ api_specs:
   label: agilent-technologies Cores API
   slug: agilent-technologies-cores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/openapi/agilent-technologies-cores-api-openapi.yml
+  url: https://artifacts.apis.io/agilent-technologies/openapi/agilent-technologies-cores-api-openapi.yml
 - filename: agilent-technologies-invoices-api-openapi.yml
   format: yaml
   label: agilent-technologies Invoices API
   slug: agilent-technologies-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/openapi/agilent-technologies-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/agilent-technologies/openapi/agilent-technologies-invoices-api-openapi.yml
 - filename: agilent-technologies-members-api-openapi.yml
   format: yaml
   label: agilent-technologies Members API
   slug: agilent-technologies-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/openapi/agilent-technologies-members-api-openapi.yml
+  url: https://artifacts.apis.io/agilent-technologies/openapi/agilent-technologies-members-api-openapi.yml
 - filename: agilent-technologies-projects-api-openapi.yml
   format: yaml
   label: agilent-technologies Projects API
   slug: agilent-technologies-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/openapi/agilent-technologies-projects-api-openapi.yml
+  url: https://artifacts.apis.io/agilent-technologies/openapi/agilent-technologies-projects-api-openapi.yml
 - filename: agilent-technologies-reservations-api-openapi.yml
   format: yaml
   label: agilent-technologies Reservations API
   slug: agilent-technologies-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/openapi/agilent-technologies-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/agilent-technologies/openapi/agilent-technologies-reservations-api-openapi.yml
 - filename: agilent-technologies-service-requests-api-openapi.yml
   format: yaml
   label: agilent-technologies Service Requests API
   slug: agilent-technologies-service-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/openapi/agilent-technologies-service-requests-api-openapi.yml
+  url: https://artifacts.apis.io/agilent-technologies/openapi/agilent-technologies-service-requests-api-openapi.yml
 - filename: agilent-technologies-services-api-openapi.yml
   format: yaml
   label: agilent-technologies Services API
   slug: agilent-technologies-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/openapi/agilent-technologies-services-api-openapi.yml
+  url: https://artifacts.apis.io/agilent-technologies/openapi/agilent-technologies-services-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -70,7 +70,7 @@ source_filename: agilent-technologies-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/agilent-ilab-operations-api.yaml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: API token obtained from iLab Administration > API Clients. Contact ilab-support@agilent.com\n    to obtain credentials.\n  sources:\n  - openapi/agilent-ilab-operations-api.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/authentication/agilent-technologies-authentication.yml
+source_yaml_url: https://artifacts.apis.io/agilent-technologies/authentication/agilent-technologies-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Fortune 500

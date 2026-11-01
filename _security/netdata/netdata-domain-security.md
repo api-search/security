@@ -5,13 +5,13 @@ api_specs:
   label: Netdata Alerts API
   slug: netdata-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netdata/refs/heads/main/openapi/netdata-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/netdata/openapi/netdata-alerts-api-openapi.yml
 - filename: netdata-charts-api-openapi.yml
   format: yaml
   label: Netdata Charts API
   slug: netdata-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netdata/refs/heads/main/openapi/netdata-charts-api-openapi.yml
+  url: https://artifacts.apis.io/netdata/openapi/netdata-charts-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: netdata-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.netdata.cloud\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 19:18:18 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: learn.netdata.cloud\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 05:07:14 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.netdata.cloud\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 18:05:47 2026 GMT\n  hsts: false\ndomains:\n- domain: netdata.cloud\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/netdata/refs/heads/main/security/netdata-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/netdata/security/netdata-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Monitoring

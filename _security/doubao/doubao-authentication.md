@@ -7,31 +7,31 @@ api_specs:
   label: ByteDance Doubao Batch API
   slug: doubao-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doubao/refs/heads/main/openapi/doubao-batch-api-openapi.yml
+  url: https://artifacts.apis.io/doubao/openapi/doubao-batch-api-openapi.yml
 - filename: doubao-embeddings-api-openapi.yml
   format: yaml
   label: ByteDance Doubao Embeddings API
   slug: doubao-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doubao/refs/heads/main/openapi/doubao-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/doubao/openapi/doubao-embeddings-api-openapi.yml
 - filename: doubao-images-api-openapi.yml
   format: yaml
   label: ByteDance Doubao Images API
   slug: doubao-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doubao/refs/heads/main/openapi/doubao-images-api-openapi.yml
+  url: https://artifacts.apis.io/doubao/openapi/doubao-images-api-openapi.yml
 - filename: doubao-videos-api-openapi.yml
   format: yaml
   label: ByteDance Doubao Videos API
   slug: doubao-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doubao/refs/heads/main/openapi/doubao-videos-api-openapi.yml
+  url: https://artifacts.apis.io/doubao/openapi/doubao-videos-api-openapi.yml
 - filename: doubao-chat-completions-api-openapi.yml
   format: yaml
   label: ByteDance Doubao Chat Completions API
   slug: doubao-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doubao/refs/heads/main/openapi/doubao-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/doubao/openapi/doubao-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: doubao-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/doubao-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: Ark API Key\n  sources:\n  - openapi/doubao-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doubao/refs/heads/main/authentication/doubao-authentication.yml
+source_yaml_url: https://artifacts.apis.io/doubao/authentication/doubao-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

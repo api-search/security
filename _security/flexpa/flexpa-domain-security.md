@@ -5,25 +5,25 @@ api_specs:
   label: Flexpa Access Tokens API
   slug: flexpa-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/openapi/flexpa-access-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/flexpa/openapi/flexpa-access-tokens-api-openapi.yml
 - filename: flexpa-claims-data-api-openapi.yml
   format: yaml
   label: Flexpa Claims Data API
   slug: flexpa-claims-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/openapi/flexpa-claims-data-api-openapi.yml
+  url: https://artifacts.apis.io/flexpa/openapi/flexpa-claims-data-api-openapi.yml
 - filename: flexpa-fhir-api-openapi.yml
   format: yaml
   label: Flexpa FHIR API
   slug: flexpa-fhir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/openapi/flexpa-fhir-api-openapi.yml
+  url: https://artifacts.apis.io/flexpa/openapi/flexpa-fhir-api-openapi.yml
 - filename: flexpa-link-api-openapi.yml
   format: yaml
   label: Flexpa Link API
   slug: flexpa-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/openapi/flexpa-link-api-openapi.yml
+  url: https://artifacts.apis.io/flexpa/openapi/flexpa-link-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -62,7 +62,7 @@ source_filename: flexpa-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.flexpa.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 20:10:11 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.flexpa.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 13 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: flexpa.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/security/flexpa-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/flexpa/security/flexpa-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Healthcare

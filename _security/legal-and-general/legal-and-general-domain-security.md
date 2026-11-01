@@ -86,7 +86,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml hosts plus every Legal & General host found in DNS\nhosts:\n- host: www.legalandgeneral.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  2 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: group.legalandgeneral.com\n  https: true\n  tls_version: TLSv1.3\n  hsts: true\n  hsts_max_age: 16070300\n  hsts_include_subdomains: true\n- host: am.landg.com\n  https: true\n  tls_version: TLSv1.3\n  hsts: true\n  hsts_max_age: 16070300\n  hsts_include_subdomains: true\n- host: fundcentres.lgim.com\n  https: true\n  tls_version: TLSv1.2\n  hsts: true\n  hsts_max_age: 15724800\n  hsts_include_subdomains: true\n- host: sandbox.legalandgeneral.com\n  https: true\n  tls_version: TLSv1.3\n  hsts: false\n  http_status: 403\n  note: CloudFront distribution, locked down — 403 with a 27-byte body on every path\n- host: api.lgamerica.com\n  https: true\n  tls_version: TLSv1.3\n \
   \ hsts: false\n  http_status: 403\n  note: Azure Traffic Manager / IIS backend of the former US protection arm; no public surface\n- host: api.landg.com\n  https: false\n  tls_version: null\n  hsts: null\n  note: >-\n    A record present (194.63.117.10) but TCP/443 is filtered — no TLS handshake\n    completes and every HTTPS request times out. Network-gated partner host.\ndomains:\n- domain: legalandgeneral.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: landg.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n  dmarc_subdomain_policy: reject\n- domain: lgim.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n  dmarc_subdomain_policy: reject\n- domain: lgamerica.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n  note: former US protection arm; weakest posture of the group (p=none, SPF ~all)\nfindings:\n- All primary web hosts serve TLS 1.3\
   \ with HSTS; fundcentres.lgim.com negotiates TLS 1.2.\n- No domain in the group publishes CAA records or has DNSSEC enabled.\n- SPF and DMARC are present on all four registrable domains; the three UK domains enforce p=reject.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/legal-and-general/refs/heads/main/security/legal-and-general-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/legal-and-general/security/legal-and-general-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance
@@ -99,7 +99,6 @@ tags:
 - Asset Management
 - Underwriting
 - Carrier
-- Design Systems
 - Agent Skills
 - Open Source
 ---

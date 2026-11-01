@@ -9,55 +9,55 @@ api_specs:
   label: Gitea Admin API
   slug: gitea-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-admin-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-admin-api-openapi.yml
 - filename: gitea-issue-api-openapi.yml
   format: yaml
   label: Gitea Issue API
   slug: gitea-issue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-issue-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-issue-api-openapi.yml
 - filename: gitea-miscellaneous-api-openapi.yml
   format: yaml
   label: Gitea Miscellaneous API
   slug: gitea-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-miscellaneous-api-openapi.yml
 - filename: gitea-notification-api-openapi.yml
   format: yaml
   label: Gitea Notification API
   slug: gitea-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-notification-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-notification-api-openapi.yml
 - filename: gitea-organization-api-openapi.yml
   format: yaml
   label: Gitea Organization API
   slug: gitea-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-organization-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-organization-api-openapi.yml
 - filename: gitea-package-api-openapi.yml
   format: yaml
   label: Gitea Package API
   slug: gitea-package-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-package-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-package-api-openapi.yml
 - filename: gitea-repository-api-openapi.yml
   format: yaml
   label: Gitea Repository API
   slug: gitea-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-repository-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-repository-api-openapi.yml
 - filename: gitea-settings-api-openapi.yml
   format: yaml
   label: Gitea Settings API
   slug: gitea-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-settings-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-settings-api-openapi.yml
 - filename: gitea-user-api-openapi.yml
   format: yaml
   label: Gitea User API
   slug: gitea-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-user-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-user-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -135,11 +135,10 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/gitea-rest-api-openapi-original.yml, openapi/gitea-rest-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: AccessToken\n  type: apiKey\n  in: query\n  parameter: access_token\n  description: This authentication option is deprecated for removal in Gitea 1.23. Please use\n    AuthorizationHeaderToken instead.\n  sources:\n  - openapi/gitea-rest-api-openapi-original.yml\n  - openapi/gitea-rest-api-openapi.yml\n- name: AuthorizationHeaderToken\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: API tokens must be prepended with \"token\" followed by a space.\n  sources:\n  - openapi/gitea-rest-api-openapi-original.yml\n  - openapi/gitea-rest-api-openapi.yml\n- name: BasicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/gitea-rest-api-openapi-original.yml\n  - openapi/gitea-rest-api-openapi.yml\n- name: SudoHeader\n  type: apiKey\n\
   \  in: header\n  parameter: Sudo\n  description: Sudo API request as the user provided as the key. Admin privileges are required.\n  sources:\n  - openapi/gitea-rest-api-openapi-original.yml\n  - openapi/gitea-rest-api-openapi.yml\n- name: SudoParam\n  type: apiKey\n  in: query\n  parameter: sudo\n  description: Sudo API request as the user provided as the key. Admin privileges are required.\n  sources:\n  - openapi/gitea-rest-api-openapi-original.yml\n  - openapi/gitea-rest-api-openapi.yml\n- name: TOTPHeader\n  type: apiKey\n  in: header\n  parameter: X-GITEA-OTP\n  description: Must be used in combination with BasicAuth if two-factor authentication is enabled.\n  sources:\n  - openapi/gitea-rest-api-openapi-original.yml\n  - openapi/gitea-rest-api-openapi.yml\n- name: Token\n  type: apiKey\n  in: query\n  parameter: token\n  description: This authentication option is deprecated for removal in Gitea 1.23. Please use\n    AuthorizationHeaderToken instead.\n  sources:\n  - openapi/gitea-rest-api-openapi-original.yml\n\
   \  - openapi/gitea-rest-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/authentication/gitea-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gitea/authentication/gitea-authentication.yml
 summary_line: apiKey/http · 7 schemes
 tags:
 - Gitea
-- Git
 - Version Control
 - DevOps
 - CI/CD

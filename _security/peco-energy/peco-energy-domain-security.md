@@ -48,7 +48,7 @@ source_filename: peco-energy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.peco.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 10886400\n- host: secure.peco.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 30 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 10886400\n- host: apps.apple.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 19:28:09 2026 GMT\n  hsts: null\ndomains:\n- domain: peco.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: apple.com\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:contact_pki@apple.com\"\n  - 0 issue \"pki.apple.com\"\n  - 0 issuewild \"pki.apple.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peco-energy/refs/heads/main/security/peco-energy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/peco-energy/security/peco-energy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Electric

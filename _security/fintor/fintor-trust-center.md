@@ -15,7 +15,7 @@ source_filename: fintor-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nprobe: true\nsource: https://trust.fintor.com/\nurl: https://trust.fintor.com/\ncertifications:\n- SOC 2 Type II\nevidence:\n- source: https://trust.fintor.com/\n  keywords:\n  - soc 2\n  - soc2\n  - trust center\n- source: https://www.fintor.com/\n  keywords:\n  - soc 2 type ii certified\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fintor/refs/heads/main/security/fintor-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/fintor/security/fintor-trust-center.yml
 summary_line: SOC 2 Type II
 tags:
 - Company

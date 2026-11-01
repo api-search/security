@@ -8,115 +8,115 @@ api_specs:
   label: MERCURY Cited Availability API
   slug: mercury-hq-com-cited-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury-hq-com/refs/heads/main/openapi/mercury-hq-com-cited-availability-api-openapi.yml
+  url: https://artifacts.apis.io/mercury-hq-com/openapi/mercury-hq-com-cited-availability-api-openapi.yml
 - filename: mercury-hq-com-cited-batch-api-openapi.yml
   format: yaml
   label: MERCURY Cited Batch API
   slug: mercury-hq-com-cited-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury-hq-com/refs/heads/main/openapi/mercury-hq-com-cited-batch-api-openapi.yml
+  url: https://artifacts.apis.io/mercury-hq-com/openapi/mercury-hq-com-cited-batch-api-openapi.yml
 - filename: mercury-hq-com-cited-diff-api-openapi.yml
   format: yaml
   label: MERCURY Cited Diff API
   slug: mercury-hq-com-cited-diff-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury-hq-com/refs/heads/main/openapi/mercury-hq-com-cited-diff-api-openapi.yml
+  url: https://artifacts.apis.io/mercury-hq-com/openapi/mercury-hq-com-cited-diff-api-openapi.yml
 - filename: mercury-hq-com-cited-dns-api-openapi.yml
   format: yaml
   label: MERCURY Cited Dns API
   slug: mercury-hq-com-cited-dns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury-hq-com/refs/heads/main/openapi/mercury-hq-com-cited-dns-api-openapi.yml
+  url: https://artifacts.apis.io/mercury-hq-com/openapi/mercury-hq-com-cited-dns-api-openapi.yml
 - filename: mercury-hq-com-cited-feed-api-openapi.yml
   format: yaml
   label: MERCURY Cited Feed API
   slug: mercury-hq-com-cited-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury-hq-com/refs/heads/main/openapi/mercury-hq-com-cited-feed-api-openapi.yml
+  url: https://artifacts.apis.io/mercury-hq-com/openapi/mercury-hq-com-cited-feed-api-openapi.yml
 - filename: mercury-hq-com-cited-headers-api-openapi.yml
   format: yaml
   label: MERCURY Cited Headers API
   slug: mercury-hq-com-cited-headers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury-hq-com/refs/heads/main/openapi/mercury-hq-com-cited-headers-api-openapi.yml
+  url: https://artifacts.apis.io/mercury-hq-com/openapi/mercury-hq-com-cited-headers-api-openapi.yml
 - filename: mercury-hq-com-cited-links-api-openapi.yml
   format: yaml
   label: MERCURY Cited Links API
   slug: mercury-hq-com-cited-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury-hq-com/refs/heads/main/openapi/mercury-hq-com-cited-links-api-openapi.yml
+  url: https://artifacts.apis.io/mercury-hq-com/openapi/mercury-hq-com-cited-links-api-openapi.yml
 - filename: mercury-hq-com-cited-markdown-api-openapi.yml
   format: yaml
   label: MERCURY Cited Markdown API
   slug: mercury-hq-com-cited-markdown-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury-hq-com/refs/heads/main/openapi/mercury-hq-com-cited-markdown-api-openapi.yml
+  url: https://artifacts.apis.io/mercury-hq-com/openapi/mercury-hq-com-cited-markdown-api-openapi.yml
 - filename: mercury-hq-com-cited-metadata-api-openapi.yml
   format: yaml
   label: MERCURY Cited Metadata API
   slug: mercury-hq-com-cited-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury-hq-com/refs/heads/main/openapi/mercury-hq-com-cited-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/mercury-hq-com/openapi/mercury-hq-com-cited-metadata-api-openapi.yml
 - filename: mercury-hq-com-cited-readability-api-openapi.yml
   format: yaml
   label: MERCURY Cited Readability API
   slug: mercury-hq-com-cited-readability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury-hq-com/refs/heads/main/openapi/mercury-hq-com-cited-readability-api-openapi.yml
+  url: https://artifacts.apis.io/mercury-hq-com/openapi/mercury-hq-com-cited-readability-api-openapi.yml
 - filename: mercury-hq-com-cited-redirect-api-openapi.yml
   format: yaml
   label: MERCURY Cited Redirect API
   slug: mercury-hq-com-cited-redirect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury-hq-com/refs/heads/main/openapi/mercury-hq-com-cited-redirect-api-openapi.yml
+  url: https://artifacts.apis.io/mercury-hq-com/openapi/mercury-hq-com-cited-redirect-api-openapi.yml
 - filename: mercury-hq-com-cited-sitemap-api-openapi.yml
   format: yaml
   label: MERCURY Cited Sitemap API
   slug: mercury-hq-com-cited-sitemap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury-hq-com/refs/heads/main/openapi/mercury-hq-com-cited-sitemap-api-openapi.yml
+  url: https://artifacts.apis.io/mercury-hq-com/openapi/mercury-hq-com-cited-sitemap-api-openapi.yml
 - filename: mercury-hq-com-data-api-openapi.yml
   format: yaml
   label: MERCURY Data API
   slug: mercury-hq-com-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury-hq-com/refs/heads/main/openapi/mercury-hq-com-data-api-openapi.yml
+  url: https://artifacts.apis.io/mercury-hq-com/openapi/mercury-hq-com-data-api-openapi.yml
 - filename: mercury-hq-com-html-table-extraction-api-openapi.yml
   format: yaml
   label: MERCURY Html Table Extraction API
   slug: mercury-hq-com-html-table-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury-hq-com/refs/heads/main/openapi/mercury-hq-com-html-table-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/mercury-hq-com/openapi/mercury-hq-com-html-table-extraction-api-openapi.yml
 - filename: mercury-hq-com-json-schema-validation-api-openapi.yml
   format: yaml
   label: MERCURY JSON Schema Validation API
   slug: mercury-hq-com-json-schema-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury-hq-com/refs/heads/main/openapi/mercury-hq-com-json-schema-validation-api-openapi.yml
+  url: https://artifacts.apis.io/mercury-hq-com/openapi/mercury-hq-com-json-schema-validation-api-openapi.yml
 - filename: mercury-hq-com-notarize-api-openapi.yml
   format: yaml
   label: MERCURY Notarize API
   slug: mercury-hq-com-notarize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury-hq-com/refs/heads/main/openapi/mercury-hq-com-notarize-api-openapi.yml
+  url: https://artifacts.apis.io/mercury-hq-com/openapi/mercury-hq-com-notarize-api-openapi.yml
 - filename: mercury-hq-com-robots-txt-api-openapi.yml
   format: yaml
   label: MERCURY Robots Txt API
   slug: mercury-hq-com-robots-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury-hq-com/refs/heads/main/openapi/mercury-hq-com-robots-txt-api-openapi.yml
+  url: https://artifacts.apis.io/mercury-hq-com/openapi/mercury-hq-com-robots-txt-api-openapi.yml
 - filename: mercury-hq-com-structured-data-extraction-api-openapi.yml
   format: yaml
   label: MERCURY Structured Data Extraction API
   slug: mercury-hq-com-structured-data-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury-hq-com/refs/heads/main/openapi/mercury-hq-com-structured-data-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/mercury-hq-com/openapi/mercury-hq-com-structured-data-extraction-api-openapi.yml
 - filename: mercury-hq-com-verifiable-web-fetch-api-openapi.yml
   format: yaml
   label: MERCURY Verifiable Web Fetch API
   slug: mercury-hq-com-verifiable-web-fetch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury-hq-com/refs/heads/main/openapi/mercury-hq-com-verifiable-web-fetch-api-openapi.yml
+  url: https://artifacts.apis.io/mercury-hq-com/openapi/mercury-hq-com-verifiable-web-fetch-api-openapi.yml
 auth_types:
 - x402-payment
 - apiKey
@@ -203,7 +203,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource:\n- openapi/merc
   \ the paid tier\n    \"Building\" while /developers and /pricing describe it as live - recorded as stated.\n  sources: [https://network.mercury-hq.com/developers, https://network.mercury-hq.com/university/developers, https://network.mercury-hq.com/pricing]\n  probe: {url: 'https://network.mercury-hq.com/api/dev/balance', method: GET, status: 401, credentials: none}\n- name: mcpRemote\n  type: apiKey (same Mercury key) over MCP\n  surface: POST https://network.mercury-hq.com/mcp\n  description: >-\n    initialize and tools/list answered without credentials (18 tools with inputSchema); the server\n    descriptor and initialize.instructions state that tools/call needs Authorization: Bearer mk_.... No\n    OAuth: /.well-known/oauth-protected-resource and /.well-known/oauth-authorization-server are 404 on\n    the MCP host, so there is no RFC 9728 / dynamic client registration path - a client must hold a key\n    minted out of band (or via the anonymous POST /api/dev/keys).\n  sources: [mcp/mercury-hq-com-mcp.yml]\n\
   \  probe: {url: 'https://network.mercury-hq.com/mcp', method: 'POST tools/list', status: 200, credentials: none}\n- name: mcpStdioWallet\n  type: wallet-key (x402 via environment)\n  surface: npx -y mercury-x402-mcp\n  description: 'The stdio server reads MERCURY_PRIVATE_KEY (a funded Base-mainnet wallet) and pays each tool call over x402 with x402-fetch; no Mercury key. mercury_catalog and mercury_verify work without a wallet (npm README; not run here).'\n  sources: [packages/mercury-hq-com-packages.yml]\n- name: anonymous\n  type: none\n  surface: GET /catalog, /.well-known/x402, /x402/discovery, /openapi.json, /llms.txt, /manifest, /health, /vs, /market, /scoreboard, /proof, /buy/signal ($0), /x402/attestation/sample, /x402/verify, POST /verify, POST /a2a message/send (free preview), GET /terms, /privacy, /trust\n  description: Free, keyless discovery and receipt verification. The receipt verification needs no MERCURY call at all (offline EIP-191 ecrecover against the pinned key at\
   \ /.well-known/mercury-attestation).\n  sources: [https://network.mercury-hq.com/llms.txt]\nreceipt_verification:\n  note: not an authentication scheme for callers but the trust anchor for results\n  signer: '0xACB40253BD71Bb9a5d491b2c6EFF755F2A33Fc75'\n  key_pin: https://network.mercury-hq.com/.well-known/mercury-attestation\n  alg: EIP-191-personal_sign over \"mercury-x402:fetch-attestation:v1\\nurl=...\\nstatus=...\\nsha256=...\\nfetchedAt=...\\nnonce=...\"\nscopes: none (no OAuth; no scope surface - scopes/ deliberately not written)\ncross_links:\n  conventions: conventions/mercury-hq-com-conventions.yml\n  plans: plans/mercury-hq-com-plans-pricing.yml\n  rate_limits: rate-limits/mercury-hq-com-rate-limits.yml\n  mcp: mcp/mercury-hq-com-mcp.yml\n  agent_card: a2a/mercury-hq-com-a2a.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mercury-hq-com/refs/heads/main/authentication/mercury-hq-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mercury-hq-com/authentication/mercury-hq-com-authentication.yml
 summary_line: x402-payment/apiKey/none · 5 schemes
 tags:
 - Company

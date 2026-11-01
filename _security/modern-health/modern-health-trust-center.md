@@ -16,7 +16,7 @@ source_filename: modern-health-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nprobe: true\nsource: https://www.modernhealth.com/security\nurl: https://www.modernhealth.com/security\ncertifications:\n- HIPAA\n- GDPR\nevidence:\n- source: https://www.modernhealth.com/security\n  keywords:\n  - hipaa\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/modern-health/refs/heads/main/security/modern-health-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/modern-health/security/modern-health-trust-center.yml
 summary_line: HIPAA, GDPR
 tags:
 - Company

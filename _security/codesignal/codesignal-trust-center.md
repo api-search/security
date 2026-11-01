@@ -5,7 +5,7 @@ api_specs:
   label: Codesignal Organization API
   slug: codesignal-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesignal/refs/heads/main/openapi/codesignal-organization-api-openapi.yml
+  url: https://artifacts.apis.io/codesignal/openapi/codesignal-organization-api-openapi.yml
 certification_count: 0
 certifications: []
 description: CodeSignal operates a public Trust Center at trust.codesignal.com (returns HTTP 200, titled "CodeSignal Trust Center"). The portal is a client-rendered application; specific certification names could not be extracted verbatim from the static response, so none are asserted here. No Compliance pointer is emitted until named certifications are verified.
@@ -21,7 +21,7 @@ source_filename: codesignal-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nprobe: false\nurl: https://trust.codesignal.com/\ndescription: >-\n  CodeSignal operates a public Trust Center at trust.codesignal.com (returns\n  HTTP 200, titled \"CodeSignal Trust Center\"). The portal is a client-rendered\n  application; specific certification names could not be extracted verbatim from\n  the static response, so none are asserted here. No Compliance pointer is\n  emitted until named certifications are verified.\ncertifications: []\nevidence:\n  - source: https://trust.codesignal.com/\n    note: Trust Center page present (HTTP 200); certifications not machine-extractable from static HTML.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codesignal/refs/heads/main/security/codesignal-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/codesignal/security/codesignal-trust-center.yml
 summary_line: trust center published
 tags:
 - Company

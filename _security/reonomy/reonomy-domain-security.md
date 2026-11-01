@@ -5,13 +5,13 @@ api_specs:
   label: Reonomy Property API
   slug: reonomy-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reonomy/refs/heads/main/openapi/reonomy-property-api-openapi.yml
+  url: https://artifacts.apis.io/reonomy/openapi/reonomy-property-api-openapi.yml
 - filename: reonomy-search-api-openapi.yml
   format: yaml
   label: Reonomy Search API
   slug: reonomy-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reonomy/refs/heads/main/openapi/reonomy-search-api-openapi.yml
+  url: https://artifacts.apis.io/reonomy/openapi/reonomy-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: reonomy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.reonomy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 17:18:54 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.reonomy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 17:18:54 2026 GMT\n  hsts: null\ndomains:\n- domain: reonomy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reonomy/refs/heads/main/security/reonomy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/reonomy/security/reonomy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Commercial Real Estate

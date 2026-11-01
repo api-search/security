@@ -5,31 +5,31 @@ api_specs:
   label: VivaLNK Devices API
   slug: vivalink-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivalink/refs/heads/main/openapi/vivalink-devices-api-openapi.yml
+  url: https://artifacts.apis.io/vivalink/openapi/vivalink-devices-api-openapi.yml
 - filename: vivalink-fhir-api-openapi.yml
   format: yaml
   label: VivaLNK FHIR API
   slug: vivalink-fhir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivalink/refs/heads/main/openapi/vivalink-fhir-api-openapi.yml
+  url: https://artifacts.apis.io/vivalink/openapi/vivalink-fhir-api-openapi.yml
 - filename: vivalink-subjects-api-openapi.yml
   format: yaml
   label: VivaLNK Subjects API
   slug: vivalink-subjects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivalink/refs/heads/main/openapi/vivalink-subjects-api-openapi.yml
+  url: https://artifacts.apis.io/vivalink/openapi/vivalink-subjects-api-openapi.yml
 - filename: vivalink-vital-signs-api-openapi.yml
   format: yaml
   label: VivaLNK Vital Signs API
   slug: vivalink-vital-signs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivalink/refs/heads/main/openapi/vivalink-vital-signs-api-openapi.yml
+  url: https://artifacts.apis.io/vivalink/openapi/vivalink-vital-signs-api-openapi.yml
 - filename: vivalink-webhooks-api-openapi.yml
   format: yaml
   label: VivaLNK Webhooks API
   slug: vivalink-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivalink/refs/heads/main/openapi/vivalink-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/vivalink/openapi/vivalink-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: vivalink-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.vivalink.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 08:05:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.vivalink.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 02:54:23 2026 GMT\n  hsts: null\ndomains:\n- domain: vivalink.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vivalink/refs/heads/main/security/vivalink-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vivalink/security/vivalink-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Connected Health

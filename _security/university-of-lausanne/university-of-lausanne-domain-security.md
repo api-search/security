@@ -5,31 +5,31 @@ api_specs:
   label: SPICA Atlas Projects.json API
   slug: university-of-lausanne-projects-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-lausanne/refs/heads/main/openapi/university-of-lausanne-projects-json-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-lausanne/openapi/university-of-lausanne-projects-json-api-openapi.yml
 - filename: university-of-lausanne-projects-api-openapi.yml
   format: yaml
   label: SPICA Atlas Projects API
   slug: university-of-lausanne-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-lausanne/refs/heads/main/openapi/university-of-lausanne-projects-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-lausanne/openapi/university-of-lausanne-projects-api-openapi.yml
 - filename: university-of-lausanne-core-api-openapi.yml
   format: yaml
   label: IRIS Repository Core API (DSpace REST)
   slug: university-of-lausanne-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-lausanne/refs/heads/main/openapi/university-of-lausanne-core-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-lausanne/openapi/university-of-lausanne-core-api-openapi.yml
 - filename: university-of-lausanne-discover-api-openapi.yml
   format: yaml
   label: IRIS Repository Discover API (DSpace Discovery)
   slug: university-of-lausanne-discover-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-lausanne/refs/heads/main/openapi/university-of-lausanne-discover-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-lausanne/openapi/university-of-lausanne-discover-api-openapi.yml
 - filename: university-of-lausanne-iris-repository-dspace-rest-api-api-openapi.yml
   format: yaml
   label: IRIS Repository API root (DSpace REST)
   slug: university-of-lausanne-iris-repository-dspace-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-lausanne/refs/heads/main/openapi/university-of-lausanne-iris-repository-dspace-rest-api-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-lausanne/openapi/university-of-lausanne-iris-repository-dspace-rest-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: university-of-lausanne-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.unil.ch\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 23:07:37 2026 GMT\n  hsts: true\n  hsts_max_age: 32140800\n- host: spica.unil.ch\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 06:52:30 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: iris.unil.ch\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 06:52:30 2026 GMT\n  hsts: false\ndomains:\n- domain: unil.ch\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-lausanne/refs/heads/main/security/university-of-lausanne-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/university-of-lausanne/security/university-of-lausanne-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Education

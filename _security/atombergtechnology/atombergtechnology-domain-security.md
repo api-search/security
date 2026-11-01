@@ -28,7 +28,7 @@ source_filename: atombergtechnology-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: atomberg.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 15:24:32 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\ndomains:\n- domain: atomberg.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atombergtechnology/refs/heads/main/security/atombergtechnology-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/atombergtechnology/security/atombergtechnology-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

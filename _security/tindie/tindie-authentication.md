@@ -9,19 +9,19 @@ api_specs:
   label: Tindie Order API
   slug: tindie-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tindie/refs/heads/main/openapi/tindie-order-api-openapi.yml
+  url: https://artifacts.apis.io/tindie/openapi/tindie-order-api-openapi.yml
 - filename: tindie-orderitem-api-openapi.yml
   format: yaml
   label: Tindie Orderitem API
   slug: tindie-orderitem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tindie/refs/heads/main/openapi/tindie-orderitem-api-openapi.yml
+  url: https://artifacts.apis.io/tindie/openapi/tindie-orderitem-api-openapi.yml
 - filename: tindie-product-api-openapi.yml
   format: yaml
   label: Tindie Product API
   slug: tindie-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tindie/refs/heads/main/openapi/tindie-product-api-openapi.yml
+  url: https://artifacts.apis.io/tindie/openapi/tindie-product-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -62,7 +62,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/tindie-openapi.yml\ndocs: https://www.tindie.com/help/\nsummary:\n  types: [apiKey]\n  api_key_in: [query, header]\n  oauth2_flows: []\n  note: >-\n    Tindie uses Django Tastypie ApiKeyAuthentication. Authenticated calls to the\n    order and orderitem resources require an API key issued from the seller's\n    account settings, passed as `api_key` + `username` query parameters or the\n    header `Authorization: ApiKey <username>:<api_key>`. The product resource is\n    public and requires no authentication. Verified live: /order/ and\n    /orderitem/ return HTTP 401 without credentials; /product/ is open.\nschemes:\n  - name: apiKeyQuery\n    type: apiKey\n    in: query\n    parameter: api_key\n    sources: [openapi/tindie-openapi.yml]\n  - name: usernameQuery\n    type: apiKey\n    in: query\n    parameter: username\n    sources: [openapi/tindie-openapi.yml]\n  - name: authorizationHeader\n    type: apiKey\n    in:\
   \ header\n    parameter: Authorization\n    format: 'ApiKey <username>:<api_key>'\n    sources: [openapi/tindie-openapi.yml]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tindie/refs/heads/main/authentication/tindie-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tindie/authentication/tindie-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - Company

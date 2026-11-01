@@ -5,31 +5,31 @@ api_specs:
   label: Zego Customer Integration API
   slug: zego-customer-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zego/refs/heads/main/openapi/zego-customer-integration-api-openapi.yml
+  url: https://artifacts.apis.io/zego/openapi/zego-customer-integration-api-openapi.yml
 - filename: zego-customers-api-openapi.yml
   format: yaml
   label: Zego Customers API
   slug: zego-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zego/refs/heads/main/openapi/zego-customers-api-openapi.yml
+  url: https://artifacts.apis.io/zego/openapi/zego-customers-api-openapi.yml
 - filename: zego-occupations-api-openapi.yml
   format: yaml
   label: Zego Occupations API
   slug: zego-occupations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zego/refs/heads/main/openapi/zego-occupations-api-openapi.yml
+  url: https://artifacts.apis.io/zego/openapi/zego-occupations-api-openapi.yml
 - filename: zego-policies-api-openapi.yml
   format: yaml
   label: Zego Policies API
   slug: zego-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zego/refs/heads/main/openapi/zego-policies-api-openapi.yml
+  url: https://artifacts.apis.io/zego/openapi/zego-policies-api-openapi.yml
 - filename: zego-shifts-api-openapi.yml
   format: yaml
   label: Zego Shifts API
   slug: zego-shifts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zego/refs/heads/main/openapi/zego-shifts-api-openapi.yml
+  url: https://artifacts.apis.io/zego/openapi/zego-shifts-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: zego-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.zego.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 17:30:27 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: developer.zego.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 13 23:59:59 2026 GMT\n  hsts: false\n- host: api.zego.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 17:30:27 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\ndomains:\n- domain: zego.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zego/refs/heads/main/security/zego-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zego/security/zego-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

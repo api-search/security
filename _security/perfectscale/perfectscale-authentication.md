@@ -7,25 +7,25 @@ api_specs:
   label: PerfectScale Authentication API
   slug: perfectscale-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perfectscale/refs/heads/main/openapi/perfectscale-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/perfectscale/openapi/perfectscale-authentication-api-openapi.yml
 - filename: perfectscale-automation-api-openapi.yml
   format: yaml
   label: PerfectScale Automation API
   slug: perfectscale-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perfectscale/refs/heads/main/openapi/perfectscale-automation-api-openapi.yml
+  url: https://artifacts.apis.io/perfectscale/openapi/perfectscale-automation-api-openapi.yml
 - filename: perfectscale-clusters-api-openapi.yml
   format: yaml
   label: PerfectScale Clusters API
   slug: perfectscale-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perfectscale/refs/heads/main/openapi/perfectscale-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/perfectscale/openapi/perfectscale-clusters-api-openapi.yml
 - filename: perfectscale-workloads-api-openapi.yml
   format: yaml
   label: PerfectScale Workloads API
   slug: perfectscale-workloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perfectscale/refs/heads/main/openapi/perfectscale-workloads-api-openapi.yml
+  url: https://artifacts.apis.io/perfectscale/openapi/perfectscale-workloads-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: perfectscale-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/perfectscale-perfectscale-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/perfectscale-perfectscale-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/perfectscale/refs/heads/main/authentication/perfectscale-authentication.yml
+source_yaml_url: https://artifacts.apis.io/perfectscale/authentication/perfectscale-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - FinOps

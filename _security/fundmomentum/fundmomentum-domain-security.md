@@ -5,7 +5,7 @@ api_specs:
   label: Fund Momentum API
   slug: fundmomentum-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundmomentum/refs/heads/main/openapi/fundmomentum-api-api-openapi.yml
+  url: https://artifacts.apis.io/fundmomentum/openapi/fundmomentum-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -35,12 +35,12 @@ source_filename: fundmomentum-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: fundmomentum.vc\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 29 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: fundmomentum.vc\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fundmomentum/refs/heads/main/security/fundmomentum-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fundmomentum/security/fundmomentum-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Fundraising
-- Venture-Capital
-- Data-Intelligence
-- AI-Agents
+- Venture Capital
+- Data Intelligence
+- AI Agents
 ---

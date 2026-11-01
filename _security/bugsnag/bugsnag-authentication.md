@@ -8,157 +8,157 @@ api_specs:
   label: bugsnag Builds API
   slug: bugsnag-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-builds-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-builds-api-openapi.yml
 - filename: bugsnag-collaborators-api-openapi.yml
   format: yaml
   label: bugsnag Collaborators API
   slug: bugsnag-collaborators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-collaborators-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-collaborators-api-openapi.yml
 - filename: bugsnag-comments-api-openapi.yml
   format: yaml
   label: bugsnag Comments API
   slug: bugsnag-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-comments-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-comments-api-openapi.yml
 - filename: bugsnag-errors-api-openapi.yml
   format: yaml
   label: bugsnag Errors API
   slug: bugsnag-errors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-errors-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-errors-api-openapi.yml
 - filename: bugsnag-eventfields-api-openapi.yml
   format: yaml
   label: bugsnag EventFields API
   slug: bugsnag-eventfields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-eventfields-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-eventfields-api-openapi.yml
 - filename: bugsnag-events-api-openapi.yml
   format: yaml
   label: bugsnag Events API
   slug: bugsnag-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-events-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-events-api-openapi.yml
 - filename: bugsnag-organizations-api-openapi.yml
   format: yaml
   label: bugsnag Organizations API
   slug: bugsnag-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-organizations-api-openapi.yml
 - filename: bugsnag-pivots-api-openapi.yml
   format: yaml
   label: bugsnag Pivots API
   slug: bugsnag-pivots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-pivots-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-pivots-api-openapi.yml
 - filename: bugsnag-projects-api-openapi.yml
   format: yaml
   label: bugsnag Projects API
   slug: bugsnag-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-projects-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-projects-api-openapi.yml
 - filename: bugsnag-releases-api-openapi.yml
   format: yaml
   label: bugsnag Releases API
   slug: bugsnag-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-releases-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-releases-api-openapi.yml
 - filename: bugsnag-sessions-api-openapi.yml
   format: yaml
   label: bugsnag Sessions API
   slug: bugsnag-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-sessions-api-openapi.yml
 - filename: bugsnag-stability-api-openapi.yml
   format: yaml
   label: bugsnag Stability API
   slug: bugsnag-stability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-stability-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-stability-api-openapi.yml
 - filename: bugsnag-traces-api-openapi.yml
   format: yaml
   label: bugsnag Traces API
   slug: bugsnag-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-traces-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-traces-api-openapi.yml
 - filename: bugsnag-trends-api-openapi.yml
   format: yaml
   label: bugsnag Trends API
   slug: bugsnag-trends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-trends-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-trends-api-openapi.yml
 - filename: bugsnag-current-user-api-openapi.yml
   format: yaml
   label: Bugsnag Current User API
   slug: bugsnag-current-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-current-user-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-current-user-api-openapi.yml
 - filename: bugsnag-android-api-openapi.yml
   format: yaml
   label: Bugsnag Android API
   slug: bugsnag-android-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-android-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-android-api-openapi.yml
 - filename: bugsnag-apple-api-openapi.yml
   format: yaml
   label: Bugsnag Apple API
   slug: bugsnag-apple-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-apple-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-apple-api-openapi.yml
 - filename: bugsnag-dart-api-openapi.yml
   format: yaml
   label: Bugsnag Dart API
   slug: bugsnag-dart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-dart-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-dart-api-openapi.yml
 - filename: bugsnag-integrations-api-openapi.yml
   format: yaml
   label: Bugsnag Integrations API
   slug: bugsnag-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-integrations-api-openapi.yml
 - filename: bugsnag-javascript-api-openapi.yml
   format: yaml
   label: Bugsnag JavaScript API
   slug: bugsnag-javascript-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-javascript-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-javascript-api-openapi.yml
 - filename: bugsnag-linux-api-openapi.yml
   format: yaml
   label: Bugsnag Linux API
   slug: bugsnag-linux-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-linux-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-linux-api-openapi.yml
 - filename: bugsnag-minidump-api-openapi.yml
   format: yaml
   label: Bugsnag Minidump API
   slug: bugsnag-minidump-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-minidump-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-minidump-api-openapi.yml
 - filename: bugsnag-minidumps-api-openapi.yml
   format: yaml
   label: Bugsnag Minidumps API
   slug: bugsnag-minidumps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-minidumps-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-minidumps-api-openapi.yml
 - filename: bugsnag-nintendo-api-openapi.yml
   format: yaml
   label: Bugsnag Nintendo API
   slug: bugsnag-nintendo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-nintendo-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-nintendo-api-openapi.yml
 - filename: bugsnag-scim-api-openapi.yml
   format: yaml
   label: Bugsnag SCIM API
   slug: bugsnag-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-scim-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-scim-api-openapi.yml
 - filename: bugsnag-unity-api-openapi.yml
   format: yaml
   label: Bugsnag Unity API
   slug: bugsnag-unity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-unity-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-unity-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -246,7 +246,7 @@ source_yaml: "generated: '2026-09-17'\nmethod: searched\nsource: >-\n  https://d
   \ client applications. None of the\n      ingest specs declare a securitySchemes block; the key travels as an\n      explicit parameter instead. Rotatable via the Data Access API\n      (regenerateProjectApiKey, regenerateProjectUploadApiKey).\n    sources:\n      - openapi/bugsnag-error-reporting-api-openapi.json\n      - openapi/bugsnag-upload-api-openapi.json\n      - openapi/bugsnag-trace-api-openapi.json\n      - openapi/bugsnag-session-tracking-api-openapi.json\n  - name: oauth2\n    surface: BugSnag remote MCP server (https://bugsnag.mcp.smartbear.com/mcp)\n    type: oauth2\n    flows:\n      authorizationCode:\n        authorizationUrl: https://oauth.bugsnag.com/authorize\n        tokenUrl: https://oauth.bugsnag.com/token\n        scopes:\n          api: Access the BugSnag API on behalf of the user\n          openid: OIDC sign-in\n          profile: OIDC profile claims\n    pkce: S256\n    dynamic_client_registration: https://oauth.bugsnag.com/register\n    description: >-\n  \
   \    Browser-based OAuth login for the hosted MCP server, added in May 2026 per\n      the BugSnag changelog (\"Self Hosted MCP Server OAuth 2.0 support — securely\n      connect to BugSnag via browser-based login instead of manual API tokens\").\n      The server also accepts a Bugsnag-Auth-Token header as an alternative.\n    sources:\n      - https://oauth.bugsnag.com/.well-known/oauth-authorization-server\n      - https://bugsnag.mcp.smartbear.com/.well-known/oauth-protected-resource\n      - https://docs.bugsnag.com/whats-new/\ntoken_management:\n  rotation:\n    - operationId: revokeOrganizationAuthToken\n      path: DELETE /organizations/{id}/auth_token\n    - operationId: revokeOrganizationApiKey\n      path: DELETE /organizations/{id}/api_key\n    - operationId: regenerateProjectApiKey\n      path: DELETE /projects/{project_id}/api_key\n    - operationId: regenerateProjectUploadApiKey\n      path: DELETE /projects/{project_id}/upload_api_key\n  note: >-\n    Both organization-level\
   \ and project-level credentials can be revoked or\n    regenerated programmatically — unusual, and a genuine agent-safety feature.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/authentication/bugsnag-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bugsnag/authentication/bugsnag-authentication.yml
 summary_line: apiKey/http/oauth2 · 4 schemes
 tags:
 - Monitoring

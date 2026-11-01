@@ -7,25 +7,25 @@ api_specs:
   label: Gravatar Avatars API
   slug: gravatar-avatars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gravatar/refs/heads/main/openapi/gravatar-avatars-api-openapi.yml
+  url: https://artifacts.apis.io/gravatar/openapi/gravatar-avatars-api-openapi.yml
 - filename: gravatar-experimental-api-openapi.yml
   format: yaml
   label: Gravatar Experimental API
   slug: gravatar-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gravatar/refs/heads/main/openapi/gravatar-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/gravatar/openapi/gravatar-experimental-api-openapi.yml
 - filename: gravatar-profiles-api-openapi.yml
   format: yaml
   label: Gravatar Profiles API
   slug: gravatar-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gravatar/refs/heads/main/openapi/gravatar-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/gravatar/openapi/gravatar-profiles-api-openapi.yml
 - filename: gravatar-qr-code-api-openapi.yml
   format: yaml
   label: Gravatar Qr Code API
   slug: gravatar-qr-code-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gravatar/refs/heads/main/openapi/gravatar-qr-code-api-openapi.yml
+  url: https://artifacts.apis.io/gravatar/openapi/gravatar-qr-code-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -63,7 +63,7 @@ source_filename: gravatar-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.json\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - implicit\nschemes:\n- name: apiKey\n  type: http\n  scheme: bearer\n  description: Bearer token to authenticate the request. Full profile information is only available\n    in authenticated requests.\n  sources:\n  - openapi/openapi.json\n- name: oauth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://public-api.wordpress.com/oauth2/authorize\n    scopes: 0\n  description: WordPress OAuth token to authenticate the request.\n  sources:\n  - openapi/openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gravatar/refs/heads/main/authentication/gravatar-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gravatar/authentication/gravatar-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Avatars

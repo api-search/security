@@ -5,49 +5,49 @@ api_specs:
   label: NodePing Accounts API
   slug: nodeping-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/openapi/nodeping-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/nodeping/openapi/nodeping-accounts-api-openapi.yml
 - filename: nodeping-checks-api-openapi.yml
   format: yaml
   label: NodePing Checks API
   slug: nodeping-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/openapi/nodeping-checks-api-openapi.yml
+  url: https://artifacts.apis.io/nodeping/openapi/nodeping-checks-api-openapi.yml
 - filename: nodeping-contacts-api-openapi.yml
   format: yaml
   label: NodePing Contacts API
   slug: nodeping-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/openapi/nodeping-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/nodeping/openapi/nodeping-contacts-api-openapi.yml
 - filename: nodeping-info-api-openapi.yml
   format: yaml
   label: NodePing Info API
   slug: nodeping-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/openapi/nodeping-info-api-openapi.yml
+  url: https://artifacts.apis.io/nodeping/openapi/nodeping-info-api-openapi.yml
 - filename: nodeping-notifications-api-openapi.yml
   format: yaml
   label: NodePing Notifications API
   slug: nodeping-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/openapi/nodeping-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/nodeping/openapi/nodeping-notifications-api-openapi.yml
 - filename: nodeping-results-api-openapi.yml
   format: yaml
   label: NodePing Results API
   slug: nodeping-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/openapi/nodeping-results-api-openapi.yml
+  url: https://artifacts.apis.io/nodeping/openapi/nodeping-results-api-openapi.yml
 - filename: nodeping-schedules-api-openapi.yml
   format: yaml
   label: NodePing Schedules API
   slug: nodeping-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/openapi/nodeping-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/nodeping/openapi/nodeping-schedules-api-openapi.yml
 - filename: nodeping-contact-groups-api-openapi.yml
   format: yaml
   label: NodePing Contact Groups API
   slug: nodeping-contact-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/openapi/nodeping-contact-groups-api-openapi.yml
+  url: https://artifacts.apis.io/nodeping/openapi/nodeping-contact-groups-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -85,7 +85,7 @@ source_filename: nodeping-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: nodeping.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 16 23:59:59 2026 GMT\n  hsts: false\n- host: api.nodeping.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 16 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: nodeping.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 iodef \"mailto:support@nodeping.com\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/security/nodeping-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nodeping/security/nodeping-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Monitoring

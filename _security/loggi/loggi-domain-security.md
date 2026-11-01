@@ -1,65 +1,65 @@
 ---
 api_specs:
-- filename: loggi-authapi-api-openapi.yml
-  format: yaml
-  label: Loggi Auth API
-  slug: loggi-authapi-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-authapi-api-openapi.yml
 - filename: loggi-detailsapi-api-openapi.yml
   format: yaml
   label: Loggi Details API
   slug: loggi-detailsapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-detailsapi-api-openapi.yml
+  url: https://artifacts.apis.io/loggi/openapi/loggi-detailsapi-api-openapi.yml
 - filename: loggi-dropofflocationsapi-api-openapi.yml
   format: yaml
   label: Loggi Dropoff Locations API
   slug: loggi-dropofflocationsapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-dropofflocationsapi-api-openapi.yml
+  url: https://artifacts.apis.io/loggi/openapi/loggi-dropofflocationsapi-api-openapi.yml
 - filename: loggi-integratorcompanyapi-api-openapi.yml
   format: yaml
   label: Loggi Integrator Company API
   slug: loggi-integratorcompanyapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-integratorcompanyapi-api-openapi.yml
+  url: https://artifacts.apis.io/loggi/openapi/loggi-integratorcompanyapi-api-openapi.yml
 - filename: loggi-labelapi-api-openapi.yml
   format: yaml
   label: Loggi Label API
   slug: loggi-labelapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-labelapi-api-openapi.yml
+  url: https://artifacts.apis.io/loggi/openapi/loggi-labelapi-api-openapi.yml
 - filename: loggi-packagecancelapi-api-openapi.yml
   format: yaml
   label: Loggi Package Cancel API
   slug: loggi-packagecancelapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-packagecancelapi-api-openapi.yml
+  url: https://artifacts.apis.io/loggi/openapi/loggi-packagecancelapi-api-openapi.yml
 - filename: loggi-packageupdateapi-api-openapi.yml
   format: yaml
   label: Loggi Package Update API
   slug: loggi-packageupdateapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-packageupdateapi-api-openapi.yml
+  url: https://artifacts.apis.io/loggi/openapi/loggi-packageupdateapi-api-openapi.yml
 - filename: loggi-quotationapi-api-openapi.yml
   format: yaml
   label: Loggi Quotation API
   slug: loggi-quotationapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-quotationapi-api-openapi.yml
+  url: https://artifacts.apis.io/loggi/openapi/loggi-quotationapi-api-openapi.yml
 - filename: loggi-shipmentapi-api-openapi.yml
   format: yaml
   label: Loggi Shipment API
   slug: loggi-shipmentapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-shipmentapi-api-openapi.yml
+  url: https://artifacts.apis.io/loggi/openapi/loggi-shipmentapi-api-openapi.yml
 - filename: loggi-trackingapi-api-openapi.yml
   format: yaml
   label: Loggi Tracking API
   slug: loggi-trackingapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-trackingapi-api-openapi.yml
+  url: https://artifacts.apis.io/loggi/openapi/loggi-trackingapi-api-openapi.yml
+- filename: loggi-oauth2token-api-openapi.yml
+  format: yaml
+  label: Loggi O Auth2 Token API
+  slug: loggi-oauth2token-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/loggi/openapi/loggi-oauth2token-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ source_filename: loggi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.loggi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 12:44:39 2026 GMT\n  hsts: false\ndomains:\n- domain: loggi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/security/loggi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/loggi/security/loggi-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

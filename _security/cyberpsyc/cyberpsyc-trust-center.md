@@ -16,7 +16,7 @@ source_filename: cyberpsyc-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nprobe: true\nsource: https://welltrack.com/compliance/\nurl: https://welltrack.com/compliance/\ncertifications:\n- HIPAA\n- GDPR\nevidence:\n- source: https://welltrack.com/compliance/\n  keywords:\n  - hipaa\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cyberpsyc/refs/heads/main/security/cyberpsyc-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/cyberpsyc/security/cyberpsyc-trust-center.yml
 summary_line: HIPAA, GDPR
 tags:
 - Company

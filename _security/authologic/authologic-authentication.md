@@ -7,49 +7,49 @@ api_specs:
   label: Authologic Advanced API
   slug: authologic-advanced-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/openapi/authologic-advanced-api-openapi.yml
+  url: https://artifacts.apis.io/authologic/openapi/authologic-advanced-api-openapi.yml
 - filename: authologic-affordability-assessment-api-openapi.yml
   format: yaml
   label: Authologic Affordability assessment API
   slug: authologic-affordability-assessment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/openapi/authologic-affordability-assessment-api-openapi.yml
+  url: https://artifacts.apis.io/authologic/openapi/authologic-affordability-assessment-api-openapi.yml
 - filename: authologic-aml-api-openapi.yml
   format: yaml
   label: Authologic AML API
   slug: authologic-aml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/openapi/authologic-aml-api-openapi.yml
+  url: https://artifacts.apis.io/authologic/openapi/authologic-aml-api-openapi.yml
 - filename: authologic-bank-api-openapi.yml
   format: yaml
   label: Authologic Bank API
   slug: authologic-bank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/openapi/authologic-bank-api-openapi.yml
+  url: https://artifacts.apis.io/authologic/openapi/authologic-bank-api-openapi.yml
 - filename: authologic-conversation-api-openapi.yml
   format: yaml
   label: Authologic Conversation API
   slug: authologic-conversation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/openapi/authologic-conversation-api-openapi.yml
+  url: https://artifacts.apis.io/authologic/openapi/authologic-conversation-api-openapi.yml
 - filename: authologic-database-verification-api-openapi.yml
   format: yaml
   label: Authologic Database Verification API
   slug: authologic-database-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/openapi/authologic-database-verification-api-openapi.yml
+  url: https://artifacts.apis.io/authologic/openapi/authologic-database-verification-api-openapi.yml
 - filename: authologic-enterprise-integration-api-openapi.yml
   format: yaml
   label: Authologic Enterprise Integration API
   slug: authologic-enterprise-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/openapi/authologic-enterprise-integration-api-openapi.yml
+  url: https://artifacts.apis.io/authologic/openapi/authologic-enterprise-integration-api-openapi.yml
 - filename: authologic-metadata-api-openapi.yml
   format: yaml
   label: Authologic Metadata API
   slug: authologic-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/openapi/authologic-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/authologic/openapi/authologic-metadata-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -107,7 +107,7 @@ source_yaml: "generated: '2026-09-14'\nmethod: searched\nsource: https://develop
   \ token_endpoint_auth_methods_supported:\n    - client_secret_basic\n    - client_secret_post\n    - client_secret_jwt\n    - private_key_jwt\n    - tls_client_auth\n    - self_signed_tls_client_auth\n  code_challenge_methods_supported:\n    - S256\n  tls_client_certificate_bound_access_tokens: true\n  dpop_signing_alg_values_supported:\n    - RS256\n    - RS384\n    - RS512\n    - PS256\n    - PS384\n    - PS512\n    - ES256\n    - ES384\n    - ES512\n  finding: >-\n    A significant undocumented capability gap. The developer documentation describes Basic auth only and\n    the OpenAPI declares only clientCredentials, yet the environment advertises authorization_code with\n    PKCE, refresh tokens, the device grant, token exchange, private_key_jwt, mutual-TLS client\n    authentication with certificate-bound access tokens (RFC 8705) and DPoP (RFC 9449). For an agent\n    integrator that is the difference between a shared static secret and a cryptographically bound\n    workload credential\
   \ — and nothing in the docs mentions it is available.\nwebhook_authentication:\n  direction: inbound (Authologic to integrator)\n  scheme: HMAC-SHA-256\n  headers:\n    - X-Signature\n    - X-Signature-Timestamp\n  key: >-\n    A dedicated signature key issued by Authologic, distinct from the API key. Replaced at go-live along\n    with the API address and API key.\n  replay_window_minutes: 5\n  detail: asyncapi/authologic-callbacks-webhooks.yml\ngaps:\n  - No OpenID Connect discovery document (/.well-known/openid-configuration returns 404 on every host).\n  - No /.well-known/oauth-protected-resource (RFC 9728), so an MCP-style client cannot discover the\n    authorization server from the resource.\n  - No published token lifetime, no key-rotation policy and no runtime expiry signal for API keys.\n  - >-\n    Production (api.authologic.com) adds an IP allowlist on top of credentials — an unlisted caller never\n    reaches the auth layer and receives an nginx 403 HTML page instead of a\
   \ JSON error.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/authentication/authologic-authentication.yml
+source_yaml_url: https://artifacts.apis.io/authologic/authentication/authologic-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - AML

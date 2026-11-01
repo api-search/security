@@ -7,31 +7,31 @@ api_specs:
   label: Context7 Add API
   slug: context7-add-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/context7/refs/heads/main/openapi/context7-add-api-openapi.yml
+  url: https://artifacts.apis.io/context7/openapi/context7-add-api-openapi.yml
 - filename: context7-context-api-openapi.yml
   format: yaml
   label: Context7 Context API
   slug: context7-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/context7/refs/heads/main/openapi/context7-context-api-openapi.yml
+  url: https://artifacts.apis.io/context7/openapi/context7-context-api-openapi.yml
 - filename: context7-libs-api-openapi.yml
   format: yaml
   label: Context7 Libs API
   slug: context7-libs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/context7/refs/heads/main/openapi/context7-libs-api-openapi.yml
+  url: https://artifacts.apis.io/context7/openapi/context7-libs-api-openapi.yml
 - filename: context7-policies-api-openapi.yml
   format: yaml
   label: Context7 Policies API
   slug: context7-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/context7/refs/heads/main/openapi/context7-policies-api-openapi.yml
+  url: https://artifacts.apis.io/context7/openapi/context7-policies-api-openapi.yml
 - filename: context7-refresh-api-openapi.yml
   format: yaml
   label: Context7 Refresh API
   slug: context7-refresh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/context7/refs/heads/main/openapi/context7-refresh-api-openapi.yml
+  url: https://artifacts.apis.io/context7/openapi/context7-refresh-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -57,7 +57,7 @@ source_filename: context7-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/context7-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/context7-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/context7/refs/heads/main/authentication/context7-authentication.yml
+source_yaml_url: https://artifacts.apis.io/context7/authentication/context7-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

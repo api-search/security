@@ -1,35 +1,41 @@
 ---
 api_specs:
+- filename: sovos-openapi-generated.yml
+  format: yaml
+  label: Sovos API
+  slug: sovos-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sovos/openapi/_ae-authored/sovos-openapi-generated.yml
 - filename: sovos-configurations-api-openapi.yml
   format: yaml
   label: Sovos Configurations API
   slug: sovos-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sovos/refs/heads/main/openapi/sovos-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/sovos/openapi/sovos-configurations-api-openapi.yml
 - filename: sovos-documents-api-openapi.yml
   format: yaml
   label: Sovos Documents API
   slug: sovos-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sovos/refs/heads/main/openapi/sovos-documents-api-openapi.yml
+  url: https://artifacts.apis.io/sovos/openapi/sovos-documents-api-openapi.yml
 - filename: sovos-notifications-api-openapi.yml
   format: yaml
   label: Sovos Notifications API
   slug: sovos-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sovos/refs/heads/main/openapi/sovos-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/sovos/openapi/sovos-notifications-api-openapi.yml
 - filename: sovos-oauth-api-openapi.yml
   format: yaml
   label: Sovos OAuth API
   slug: sovos-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sovos/refs/heads/main/openapi/sovos-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/sovos/openapi/sovos-oauth-api-openapi.yml
 - filename: sovos-taxid-checks-api-openapi.yml
   format: yaml
   label: Sovos Taxid Checks API
   slug: sovos-taxid-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sovos/refs/heads/main/openapi/sovos-taxid-checks-api-openapi.yml
+  url: https://artifacts.apis.io/sovos/openapi/sovos-taxid-checks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +65,7 @@ source_filename: sovos-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sovos.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  6 00:45:43 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: sovos.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sovos/refs/heads/main/security/sovos-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sovos/security/sovos-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Tax

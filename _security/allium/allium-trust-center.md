@@ -5,19 +5,19 @@ api_specs:
   label: Allium Explorer API
   slug: allium-explorer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/openapi/allium-explorer-api-openapi.yml
+  url: https://artifacts.apis.io/allium/openapi/allium-explorer-api-openapi.yml
 - filename: allium-ping-api-openapi.yml
   format: yaml
   label: Allium Ping API
   slug: allium-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/openapi/allium-ping-api-openapi.yml
+  url: https://artifacts.apis.io/allium/openapi/allium-ping-api-openapi.yml
 - filename: allium-polygon-api-openapi.yml
   format: yaml
   label: Allium Polygon API
   slug: allium-polygon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/openapi/allium-polygon-api-openapi.yml
+  url: https://artifacts.apis.io/allium/openapi/allium-polygon-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 1 Type 1
@@ -37,7 +37,7 @@ source_filename: allium-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nprobe: true\nsource: https://trust.allium.so/\nurl: https://trust.allium.so/\ncertifications:\n- SOC 1 Type 1\n- SOC 1 Type 2\n- SOC 2 Type 1\n- SOC 2 Type 2\ncertifications_source: https://www.allium.so/\nevidence:\n- source: https://trust.allium.so/\n  keywords:\n  - trust center\n  - compliance certification\n- source: https://www.allium.so/\n  keywords:\n  - SOC 1 & 2 Type 1 and 2 certified\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/security/allium-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/allium/security/allium-trust-center.yml
 summary_line: SOC 1 Type 1, SOC 1 Type 2, SOC 2 Type 1, SOC 2 Type 2
 tags:
 - Company

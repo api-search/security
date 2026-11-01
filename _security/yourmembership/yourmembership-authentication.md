@@ -7,37 +7,37 @@ api_specs:
   label: YourMembership Authentication API
   slug: yourmembership-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/yourmembership/openapi/yourmembership-authentication-api-openapi.yml
 - filename: yourmembership-certifications-api-openapi.yml
   format: yaml
   label: YourMembership Certifications API
   slug: yourmembership-certifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-certifications-api-openapi.yml
+  url: https://artifacts.apis.io/yourmembership/openapi/yourmembership-certifications-api-openapi.yml
 - filename: yourmembership-commerce-and-sales-api-openapi.yml
   format: yaml
   label: YourMembership Commerce and Sales API
   slug: yourmembership-commerce-and-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-commerce-and-sales-api-openapi.yml
+  url: https://artifacts.apis.io/yourmembership/openapi/yourmembership-commerce-and-sales-api-openapi.yml
 - filename: yourmembership-content-and-community-api-openapi.yml
   format: yaml
   label: YourMembership Content and Community API
   slug: yourmembership-content-and-community-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-content-and-community-api-openapi.yml
+  url: https://artifacts.apis.io/yourmembership/openapi/yourmembership-content-and-community-api-openapi.yml
 - filename: yourmembership-events-api-openapi.yml
   format: yaml
   label: YourMembership Events API
   slug: yourmembership-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-events-api-openapi.yml
+  url: https://artifacts.apis.io/yourmembership/openapi/yourmembership-events-api-openapi.yml
 - filename: yourmembership-members-api-openapi.yml
   format: yaml
   label: YourMembership Members API
   slug: yourmembership-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-members-api-openapi.yml
+  url: https://artifacts.apis.io/yourmembership/openapi/yourmembership-members-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -68,7 +68,7 @@ source_filename: yourmembership-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/yourmembership-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://ws.yourmembership.com/Ams/Authenticate\n    scopes: 0\n  description: OAuth authentication for the YM REST API, established via POST /Ams/Authenticate.\n    The YMCareers API instead uses an API_ACCESS_TOKEN (15-minute) Authorization header or a\n    non-expiring X-API-KEY header.\n  sources:\n  - openapi/yourmembership-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/authentication/yourmembership-authentication.yml
+source_yaml_url: https://artifacts.apis.io/yourmembership/authentication/yourmembership-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Membership Management

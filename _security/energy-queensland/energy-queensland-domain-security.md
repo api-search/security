@@ -5,55 +5,55 @@ api_specs:
   label: Energy Queensland Data Holder Customers API
   slug: energy-queensland-data-holder-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-data-holder-customers-api-openapi.yml
+  url: https://artifacts.apis.io/energy-queensland/openapi/energy-queensland-data-holder-customers-api-openapi.yml
 - filename: energy-queensland-data-holder-operations-api-openapi.yml
   format: yaml
   label: Energy Queensland Data Holder Operations API
   slug: energy-queensland-data-holder-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-data-holder-operations-api-openapi.yml
+  url: https://artifacts.apis.io/energy-queensland/openapi/energy-queensland-data-holder-operations-api-openapi.yml
 - filename: energy-queensland-distributed-energy-resources-api-openapi.yml
   format: yaml
   label: Energy Queensland Distributed Energy Resources API
   slug: energy-queensland-distributed-energy-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-distributed-energy-resources-api-openapi.yml
+  url: https://artifacts.apis.io/energy-queensland/openapi/energy-queensland-distributed-energy-resources-api-openapi.yml
 - filename: energy-queensland-electricity-service-points-api-openapi.yml
   format: yaml
   label: Energy Queensland Electricity Service Points API
   slug: energy-queensland-electricity-service-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-electricity-service-points-api-openapi.yml
+  url: https://artifacts.apis.io/energy-queensland/openapi/energy-queensland-electricity-service-points-api-openapi.yml
 - filename: energy-queensland-electricity-usage-api-openapi.yml
   format: yaml
   label: Energy Queensland Electricity Usage API
   slug: energy-queensland-electricity-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-electricity-usage-api-openapi.yml
+  url: https://artifacts.apis.io/energy-queensland/openapi/energy-queensland-electricity-usage-api-openapi.yml
 - filename: energy-queensland-energy-account-balances-api-openapi.yml
   format: yaml
   label: Energy Queensland Energy Account Balances API
   slug: energy-queensland-energy-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-energy-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/energy-queensland/openapi/energy-queensland-energy-account-balances-api-openapi.yml
 - filename: energy-queensland-energy-account-billing-api-openapi.yml
   format: yaml
   label: Energy Queensland Energy Account Billing API
   slug: energy-queensland-energy-account-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-energy-account-billing-api-openapi.yml
+  url: https://artifacts.apis.io/energy-queensland/openapi/energy-queensland-energy-account-billing-api-openapi.yml
 - filename: energy-queensland-energy-accounts-api-openapi.yml
   format: yaml
   label: Energy Queensland Energy Accounts API
   slug: energy-queensland-energy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-energy-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/energy-queensland/openapi/energy-queensland-energy-accounts-api-openapi.yml
 - filename: energy-queensland-energy-plans-api-openapi.yml
   format: yaml
   label: Energy Queensland Energy Plans API
   slug: energy-queensland-energy-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-energy-plans-api-openapi.yml
+  url: https://artifacts.apis.io/energy-queensland/openapi/energy-queensland-energy-plans-api-openapi.yml
 description: Transport and DNS security posture across the Energy Queensland estate. Two things stand out. First, the CDR host is the best-configured surface the group operates - HSTS with a two-year max-age and includeSubDomains, nosniff, and DENY framing - which is unsurprising given it was built to a mandated security profile rather than by choice. Second, every domain in the group shares one mail security configuration (SPF pointing at spf.energyq.com.au and Mimecast, DMARC p=reject with the same reporting mailbox), a clear signature of the 2016 Ergon/Energex merger into a single ICT function. No Energy Queensland domain has DNSSEC, and none publishes CAA records.
 domains:
 - caa: []
@@ -156,7 +156,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: probed\nsource: >-\n  Live DNS/TL
   \ issued by the CDR Register\n      certificate authority. No HTTP response is obtainable without one, so no\n      response headers are recorded.\n  - host: auth.cdr.ergonretail.com.au\n    role: resolves in DNS; purpose unconfirmed\n    https: true\n    note: >-\n      Serves HTTP but returns 404 at the root, at\n      /.well-known/oauth-authorization-server and at /cds-au/v1/discovery/status.\n      Recorded for what it returned; NOT assumed to be the InfoSec base URI.\ndomains:\n  - domain: energyq.com.au\n    dnssec: false\n    caa: []\n    spf: true\n    dmarc: true\n    dmarc_policy: reject\n  - domain: ergonretail.com.au\n    dnssec: false\n    caa: []\n    spf: true\n    spf_record: v=spf1 include:spf.energyq.com.au include:au._netblocks.mimecast.com -all\n    dmarc: true\n    dmarc_policy: reject\n    note: The registrable domain behind both public.cdr and api.cdr - i.e. the entire CDR estate.\n  - domain: ergon.com.au\n    dnssec: false\n    caa: []\n    spf: true\n    dmarc:\
   \ true\n    dmarc_policy: reject\n  - domain: energex.com.au\n    dnssec: false\n    caa: []\n    spf: true\n    spf_record: v=spf1 include:spf.energyq.com.au include:au._netblocks.mimecast.com include:amazonses.com -all\n    dmarc: true\n    dmarc_policy: reject\n  - domain: energymadeeasy.gov.au\n    dnssec: false\n    caa:\n      - 0 issuewild \"amazontrust.com\"\n      - 0 issuewild \"awstrust.com\"\n      - 0 issuewild \"amazon.com\"\n      - 0 issuewild \"amazonaws.com\"\n    spf: true\n    dmarc: true\n    dmarc_policy: quarantine\n    note: Australian Energy Regulator domain, not Energy Queensland's. The only domain in scope with CAA records.\nfindings:\n  - All four Energy Queensland domains publish SPF and a DMARC policy of p=reject with a shared reporting mailbox - a strong, consistent mail posture.\n  - No domain in the group has DNSSEC enabled.\n  - No Energy Queensland domain publishes CAA records, so certificate issuance is unconstrained.\n  - HSTS is present only on the\
   \ CDR public base URI, the one host built to a mandated security profile.\n  - The corporate sites are unobservable from outside a browser (Cloudflare 403), which also means no security.txt or disclosure policy page could be verified. See well-known/energy-queensland-well-known.yml.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/security/energy-queensland-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/energy-queensland/security/energy-queensland-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Energy

@@ -8,13 +8,13 @@ api_specs:
   label: Lavu Menu API
   slug: lavu-menu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lavu/refs/heads/main/openapi/lavu-menu-api-openapi.yml
+  url: https://artifacts.apis.io/lavu/openapi/lavu-menu-api-openapi.yml
 - filename: lavu-orders-api-openapi.yml
   format: yaml
   label: Lavu Orders API
   slug: lavu-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lavu/refs/heads/main/openapi/lavu-orders-api-openapi.yml
+  url: https://artifacts.apis.io/lavu/openapi/lavu-orders-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: lavu-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/lavu-poslavu-api.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: posLavuCredentials\n  type: apiKey\n  in: query\n  parameter: token\n  description: POSLavu requests are authenticated with three form-encoded credentials (`dataname`,\n    `key`, `token`) issued in the API tab of the POSLavu Control Panel. OpenAPI cannot express\n    a multi-field credential as a single scheme; the `token` field is declared here as the representative\n    credential and all three are required on every request.\n  sources:\n  - openapi/lavu-poslavu-api.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lavu/refs/heads/main/authentication/lavu-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lavu/authentication/lavu-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Restaurant

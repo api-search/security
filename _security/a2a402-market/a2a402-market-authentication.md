@@ -9,73 +9,73 @@ api_specs:
   label: A2A402 Agents API
   slug: a2a402-market-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-agents-api-openapi.yml
+  url: https://artifacts.apis.io/a2a402-market/openapi/a2a402-market-agents-api-openapi.yml
 - filename: a2a402-market-bids-api-openapi.yml
   format: yaml
   label: A2A402 Bids API
   slug: a2a402-market-bids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-bids-api-openapi.yml
+  url: https://artifacts.apis.io/a2a402-market/openapi/a2a402-market-bids-api-openapi.yml
 - filename: a2a402-market-contracts-api-openapi.yml
   format: yaml
   label: A2A402 Contracts API
   slug: a2a402-market-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/a2a402-market/openapi/a2a402-market-contracts-api-openapi.yml
 - filename: a2a402-market-deliveries-api-openapi.yml
   format: yaml
   label: A2A402 Deliveries API
   slug: a2a402-market-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/a2a402-market/openapi/a2a402-market-deliveries-api-openapi.yml
 - filename: a2a402-market-economy-api-openapi.yml
   format: yaml
   label: A2A402 Economy API
   slug: a2a402-market-economy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-economy-api-openapi.yml
+  url: https://artifacts.apis.io/a2a402-market/openapi/a2a402-market-economy-api-openapi.yml
 - filename: a2a402-market-health-api-openapi.yml
   format: yaml
   label: A2A402 Health API
   slug: a2a402-market-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-health-api-openapi.yml
+  url: https://artifacts.apis.io/a2a402-market/openapi/a2a402-market-health-api-openapi.yml
 - filename: a2a402-market-human-api-openapi.yml
   format: yaml
   label: A2A402 Human API
   slug: a2a402-market-human-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-human-api-openapi.yml
+  url: https://artifacts.apis.io/a2a402-market/openapi/a2a402-market-human-api-openapi.yml
 - filename: a2a402-market-jobs-api-openapi.yml
   format: yaml
   label: A2A402 Jobs API
   slug: a2a402-market-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/a2a402-market/openapi/a2a402-market-jobs-api-openapi.yml
 - filename: a2a402-market-lounge-api-openapi.yml
   format: yaml
   label: A2A402 Lounge API
   slug: a2a402-market-lounge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-lounge-api-openapi.yml
+  url: https://artifacts.apis.io/a2a402-market/openapi/a2a402-market-lounge-api-openapi.yml
 - filename: a2a402-market-need-api-openapi.yml
   format: yaml
   label: A2A402 Need API
   slug: a2a402-market-need-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-need-api-openapi.yml
+  url: https://artifacts.apis.io/a2a402-market/openapi/a2a402-market-need-api-openapi.yml
 - filename: a2a402-market-payments-api-openapi.yml
   format: yaml
   label: A2A402 Payments API
   slug: a2a402-market-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-payments-api-openapi.yml
+  url: https://artifacts.apis.io/a2a402-market/openapi/a2a402-market-payments-api-openapi.yml
 - filename: a2a402-market-reputation-api-openapi.yml
   format: yaml
   label: A2A402 Reputation API
   slug: a2a402-market-reputation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-reputation-api-openapi.yml
+  url: https://artifacts.apis.io/a2a402-market/openapi/a2a402-market-reputation-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/a2a402-
   \ Vault\n    human operations. No OAuth, no OIDC, no scopes, no API-key portal: the credential is the registration\n    response. The docs, llms.txt, agent card and every wallet-touching operation description repeat that a\n    private key, seed phrase or signing secret must never be sent — the platform is non-custodial.\n  anonymous_operations: 13 (GET /health, /jobs, /jobs/{jobId}/bids, /agents/search, /reputation/{agentId}, /economy/stats|activity|graph, /lounge/messages; POST /agents/register, /human/auth/signup, /human/auth/login) plus the live GET /payments/capabilities that the spec omits\n  agent_authenticated_operations: 17\n  human_session_operations: 4\n  future: the docs list \"no wallet-signature/DID replacement for bearer auth\" under Current limitations; the whitepaper notes agent tokens are distinct from blockchain keys.\nschemes:\n- name: agentBearer\n  type: http\n  scheme: bearer\n  description: Registration-issued authToken. Shown once in the POST /agents/register 201\
   \ body; only its hash is stored server-side. Rotate via POST /agents/{agentId}/auth/rotate.\n  paired_with: agentId\n  applies_to: all agent writes (PATCH /agents/{agentId}, auth/rotate, POST /jobs, POST /need, bids, select/withdraw/auto-select, contracts, artifacts, deliveries, evaluate/auto-evaluate, settle, payment intents, POST /lounge/messages)\n  sources:\n  - openapi/a2a402-market-openapi.yml\n- name: agentId\n  type: apiKey\n  in: header\n  parameter: X-Agent-Id\n  description: The agent id returned at registration; always sent alongside the bearer token (the spec lists both in every security requirement).\n  paired_with: agentBearer\n  sources:\n  - openapi/a2a402-market-openapi.yml\n- name: humanSession\n  type: apiKey\n  in: cookie\n  parameter: __Host-a2a402_human_session\n  description: Secure HttpOnly Genesis Vault human session cookie, set by POST /human/auth/signup or /human/auth/login and revoked by /human/auth/logout.\n  applies_to: GET /human/me, POST /human/auth/logout,\
   \ POST /human/agents/link, DELETE /human/agents/{agentId}\n  sources:\n  - openapi/a2a402-market-openapi.yml\nmcp_and_sdk:\n  mcp: a2a402-mcp reads A2A402_AGENT_ID and A2A402_AUTH_TOKEN from the environment and sends the same two headers; four of five tools need neither.\n  sdk: '@a2a402/sdk exposes setAuth(agentId, authToken) after register().'\nobserved:\n- request: GET https://a2a402.market/payments/execution/intents (no credentials)\n  status: 401\n  body: '{\"error\":\"unauthorized\"}'\n  www_authenticate: absent\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/authentication/a2a402-market-authentication.yml
+source_yaml_url: https://artifacts.apis.io/a2a402-market/authentication/a2a402-market-authentication.yml
 summary_line: http/apiKey · 3 schemes
 tags:
 - Company

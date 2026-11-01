@@ -9,121 +9,121 @@ api_specs:
   label: Axway Aca API
   slug: axway-aca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-aca-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-aca-api-openapi.yml
 - filename: axway-activity-api-openapi.yml
   format: yaml
   label: Axway Activity API
   slug: axway-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-activity-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-activity-api-openapi.yml
 - filename: axway-analytics-api-openapi.yml
   format: yaml
   label: Axway Analytics API
   slug: axway-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-analytics-api-openapi.yml
 - filename: axway-app-api-openapi.yml
   format: yaml
   label: Axway App API
   slug: axway-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-app-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-app-api-openapi.yml
 - filename: axway-auth-api-openapi.yml
   format: yaml
   label: Axway Auth API
   slug: axway-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-auth-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-auth-api-openapi.yml
 - filename: axway-client-api-openapi.yml
   format: yaml
   label: Axway Client API
   slug: axway-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-client-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-client-api-openapi.yml
 - filename: axway-domain-api-openapi.yml
   format: yaml
   label: Axway Domain API
   slug: axway-domain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-domain-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-domain-api-openapi.yml
 - filename: axway-entitlement-api-openapi.yml
   format: yaml
   label: Axway Entitlement API
   slug: axway-entitlement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-entitlement-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-entitlement-api-openapi.yml
 - filename: axway-env-api-openapi.yml
   format: yaml
   label: Axway Env API
   slug: axway-env-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-env-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-env-api-openapi.yml
 - filename: axway-export-api-openapi.yml
   format: yaml
   label: Axway Export API
   slug: axway-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-export-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-export-api-openapi.yml
 - filename: axway-idp-api-openapi.yml
   format: yaml
   label: Axway Idp API
   slug: axway-idp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-idp-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-idp-api-openapi.yml
 - filename: axway-org-api-openapi.yml
   format: yaml
   label: Axway Org API
   slug: axway-org-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-org-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-org-api-openapi.yml
 - filename: axway-provider-api-openapi.yml
   format: yaml
   label: Axway Provider API
   slug: axway-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-provider-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-provider-api-openapi.yml
 - filename: axway-role-api-openapi.yml
   format: yaml
   label: Axway Role API
   slug: axway-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-role-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-role-api-openapi.yml
 - filename: axway-session-api-openapi.yml
   format: yaml
   label: Axway Session API
   slug: axway-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-session-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-session-api-openapi.yml
 - filename: axway-subscription-api-openapi.yml
   format: yaml
   label: Axway Subscription API
   slug: axway-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-subscription-api-openapi.yml
 - filename: axway-team-api-openapi.yml
   format: yaml
   label: Axway Team API
   slug: axway-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-team-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-team-api-openapi.yml
 - filename: axway-telemetry-api-openapi.yml
   format: yaml
   label: Axway Telemetry API
   slug: axway-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-telemetry-api-openapi.yml
 - filename: axway-usage-api-openapi.yml
   format: yaml
   label: Axway Usage API
   slug: axway-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-usage-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-usage-api-openapi.yml
 - filename: axway-user-api-openapi.yml
   format: yaml
   label: Axway User API
   slug: axway-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-user-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-user-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -200,7 +200,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/axway-amplify-platform-openapi-original.json\nsummary:\n  types:\n  - apiKey\n  - http\n  - oauth2\n  api_key_in:\n  - cookie\n  - header\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\n  - implicit\nschemes:\n- name: AuthToken\n  type: apiKey\n  in: header\n  parameter: x-auth-token\n  description: Auth token for internal services\n  sources:\n  - openapi/axway-amplify-platform-openapi-original.json\n- name: BearerClient\n  type: http\n  scheme: bearer\n  bearerFormat: jwt\n  description: Service account access token\n  sources:\n  - openapi/axway-amplify-platform-openapi-original.json\n- name: MFA\n  type: apiKey\n  in: header\n  parameter: x-auth-code\n  description: Multi-factor authentication code\n  sources:\n  - openapi/axway-amplify-platform-openapi-original.json\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.axway.com/auth/realms/Broker/protocol/openid-connect/token\n\
   \    scopes: 0\n  - flow: authorizationCode\n    authorizationUrl: https://login.axway.com/auth/realms/Broker/openid-connect/auth\n    tokenUrl: https://login.axway.com/auth/realms/Broker/openid-connect/token\n    scopes: 0\n  - flow: implicit\n    authorizationUrl: https://login.axway.com/auth/realms/Broker/openid-connect/auth\n    scopes: 0\n  sources:\n  - openapi/axway-amplify-platform-openapi-original.json\n- name: Password\n  type: apiKey\n  in: header\n  parameter: x-auth-password\n  description: User password\n  sources:\n  - openapi/axway-amplify-platform-openapi-original.json\n- name: SessionCookie\n  type: apiKey\n  in: cookie\n  parameter: connect.sid\n  description: Platform session cookie\n  sources:\n  - openapi/axway-amplify-platform-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/authentication/axway-authentication.yml
+source_yaml_url: https://artifacts.apis.io/axway/authentication/axway-authentication.yml
 summary_line: apiKey/http/oauth2 · 6 schemes
 tags:
 - API Management

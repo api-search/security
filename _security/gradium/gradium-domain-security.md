@@ -5,37 +5,37 @@ api_specs:
   label: Gradium Metering API
   slug: gradium-metering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradium/refs/heads/main/openapi/gradium-metering-api-openapi.yml
+  url: https://artifacts.apis.io/gradium/openapi/gradium-metering-api-openapi.yml
 - filename: gradium-pronunciations-api-openapi.yml
   format: yaml
   label: Gradium Pronunciations API
   slug: gradium-pronunciations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradium/refs/heads/main/openapi/gradium-pronunciations-api-openapi.yml
+  url: https://artifacts.apis.io/gradium/openapi/gradium-pronunciations-api-openapi.yml
 - filename: gradium-s2s-api-openapi.yml
   format: yaml
   label: Gradium S2S API
   slug: gradium-s2s-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradium/refs/heads/main/openapi/gradium-s2s-api-openapi.yml
+  url: https://artifacts.apis.io/gradium/openapi/gradium-s2s-api-openapi.yml
 - filename: gradium-stt-api-openapi.yml
   format: yaml
   label: Gradium STT API
   slug: gradium-stt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradium/refs/heads/main/openapi/gradium-stt-api-openapi.yml
+  url: https://artifacts.apis.io/gradium/openapi/gradium-stt-api-openapi.yml
 - filename: gradium-tts-api-openapi.yml
   format: yaml
   label: Gradium TTS API
   slug: gradium-tts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradium/refs/heads/main/openapi/gradium-tts-api-openapi.yml
+  url: https://artifacts.apis.io/gradium/openapi/gradium-tts-api-openapi.yml
 - filename: gradium-voices-api-openapi.yml
   format: yaml
   label: Gradium Voices API
   slug: gradium-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradium/refs/heads/main/openapi/gradium-voices-api-openapi.yml
+  url: https://artifacts.apis.io/gradium/openapi/gradium-voices-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: gradium-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gradium.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 13:22:38 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.gradium.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 13:48:29 2026 GMT\n  hsts: null\ndomains:\n- domain: gradium.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gradium/refs/heads/main/security/gradium-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gradium/security/gradium-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

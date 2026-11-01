@@ -7,73 +7,73 @@ api_specs:
   label: Vers Commit Tags API
   slug: vers-commit-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/openapi/vers-commit-tags-api-openapi.yml
+  url: https://artifacts.apis.io/vers/openapi/vers-commit-tags-api-openapi.yml
 - filename: vers-commits-api-openapi.yml
   format: yaml
   label: Vers Commits API
   slug: vers-commits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/openapi/vers-commits-api-openapi.yml
+  url: https://artifacts.apis.io/vers/openapi/vers-commits-api-openapi.yml
 - filename: vers-deploy-api-openapi.yml
   format: yaml
   label: Vers Deploy API
   slug: vers-deploy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/openapi/vers-deploy-api-openapi.yml
+  url: https://artifacts.apis.io/vers/openapi/vers-deploy-api-openapi.yml
 - filename: vers-domains-api-openapi.yml
   format: yaml
   label: Vers Domains API
   slug: vers-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/openapi/vers-domains-api-openapi.yml
+  url: https://artifacts.apis.io/vers/openapi/vers-domains-api-openapi.yml
 - filename: vers-env-vars-api-openapi.yml
   format: yaml
   label: Vers Env Vars API
   slug: vers-env-vars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/openapi/vers-env-vars-api-openapi.yml
+  url: https://artifacts.apis.io/vers/openapi/vers-env-vars-api-openapi.yml
 - filename: vers-images-api-openapi.yml
   format: yaml
   label: Vers Images API
   slug: vers-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/openapi/vers-images-api-openapi.yml
+  url: https://artifacts.apis.io/vers/openapi/vers-images-api-openapi.yml
 - filename: vers-keys-api-openapi.yml
   format: yaml
   label: Vers Keys API
   slug: vers-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/openapi/vers-keys-api-openapi.yml
+  url: https://artifacts.apis.io/vers/openapi/vers-keys-api-openapi.yml
 - filename: vers-public-repositories-api-openapi.yml
   format: yaml
   label: Vers Public Repositories API
   slug: vers-public-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/openapi/vers-public-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/vers/openapi/vers-public-repositories-api-openapi.yml
 - filename: vers-repositories-api-openapi.yml
   format: yaml
   label: Vers Repositories API
   slug: vers-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/openapi/vers-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/vers/openapi/vers-repositories-api-openapi.yml
 - filename: vers-system-api-openapi.yml
   format: yaml
   label: Vers System API
   slug: vers-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/openapi/vers-system-api-openapi.yml
+  url: https://artifacts.apis.io/vers/openapi/vers-system-api-openapi.yml
 - filename: vers-vm-api-openapi.yml
   format: yaml
   label: Vers Vm API
   slug: vers-vm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/openapi/vers-vm-api-openapi.yml
+  url: https://artifacts.apis.io/vers/openapi/vers-vm-api-openapi.yml
 - filename: vers-vms-api-openapi.yml
   format: yaml
   label: Vers Vms API
   slug: vers-vms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/openapi/vers-vms-api-openapi.yml
+  url: https://artifacts.apis.io/vers/openapi/vers-vms-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -100,7 +100,7 @@ source_filename: vers-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/vers-openapi-original.json\nsummary:\n  types:\n  - http\nschemes:\n- name: bearer_auth\n  type: http\n  scheme: bearer\n  bearerFormat: Token\n  sources:\n  - openapi/vers-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/authentication/vers-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vers/authentication/vers-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

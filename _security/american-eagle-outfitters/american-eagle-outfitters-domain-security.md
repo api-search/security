@@ -45,7 +45,7 @@ source_filename: american-eagle-outfitters-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ae.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 26 23:59:59 2027 GMT\n  hsts: null\n- host: www.unsubscribed.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  1 15:09:03 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\ndomains:\n- domain: ae.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 iodef \"mailto:url@ae.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: unsubscribed.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/american-eagle-outfitters/refs/heads/main/security/american-eagle-outfitters-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/american-eagle-outfitters/security/american-eagle-outfitters-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Retail

@@ -26,7 +26,7 @@ source_filename: data-city-yokohama-lg-jp-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: data.city.yokohama.lg.jp\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 08:02:04 2026 GMT\n  hsts: false\ndomains:\n- domain: lg.jp\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/data-city-yokohama-lg-jp/refs/heads/main/security/data-city-yokohama-lg-jp-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/data-city-yokohama-lg-jp/security/data-city-yokohama-lg-jp-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Open Data

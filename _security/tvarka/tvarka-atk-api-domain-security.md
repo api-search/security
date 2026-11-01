@@ -17,73 +17,73 @@ api_specs:
   label: Tvarka Sign API
   slug: tvarka-sign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-sign-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-sign-api-openapi.yml
 - filename: tvarka-auth-api-openapi.yml
   format: yaml
   label: Tvarka ATK API Auth API
   slug: tvarka-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-auth-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-auth-api-openapi.yml
 - filename: tvarka-batches-api-openapi.yml
   format: yaml
   label: Tvarka ATK API Batches API
   slug: tvarka-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-batches-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-batches-api-openapi.yml
 - filename: tvarka-erasure-api-openapi.yml
   format: yaml
   label: Tvarka ATK API Erasure API
   slug: tvarka-erasure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-erasure-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-erasure-api-openapi.yml
 - filename: tvarka-files-api-openapi.yml
   format: yaml
   label: Tvarka ATK API Files API
   slug: tvarka-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-files-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-files-api-openapi.yml
 - filename: tvarka-ltv-api-openapi.yml
   format: yaml
   label: Tvarka ATK API LTV API
   slug: tvarka-ltv-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-ltv-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-ltv-api-openapi.yml
 - filename: tvarka-pairing-api-openapi.yml
   format: yaml
   label: Tvarka ATK API Pairing API
   slug: tvarka-pairing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-pairing-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-pairing-api-openapi.yml
 - filename: tvarka-signings-api-openapi.yml
   format: yaml
   label: Tvarka ATK API Signings API
   slug: tvarka-signings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-signings-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-signings-api-openapi.yml
 - filename: tvarka-tvarka-atk-api-api-openapi.yml
   format: yaml
   label: Tvarka ATK API Tvarka ATK API
   slug: tvarka-tvarka-atk-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-tvarka-atk-api-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-tvarka-atk-api-api-openapi.yml
 - filename: tvarka-tvarka-sign-api-api-openapi.yml
   format: yaml
   label: Tvarka ATK API Tvarka Sign API
   slug: tvarka-tvarka-sign-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-tvarka-sign-api-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-tvarka-sign-api-api-openapi.yml
 - filename: tvarka-validation-api-openapi.yml
   format: yaml
   label: Tvarka ATK API Validation API
   slug: tvarka-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-validation-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-validation-api-openapi.yml
 - filename: tvarka-well-known-api-openapi.yml
   format: yaml
   label: Tvarka ATK API Well Known API
   slug: tvarka-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-well-known-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -170,7 +170,7 @@ source_yaml: "generated: '2026-08-31'\nmethod: probed\nsource: live DNS/TLS/HTTP
   comodoca.com\"\n      - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n      - 0 issuewild \"letsencrypt.org\"\n      - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n      - 0 issuewild \"sectigo.com\"\n      - 0 issuewild \"ssl.com\"\n    spf: true\n    spf_record: v=spf1 include:_spf.purelymail.com ~all\n    dmarc: true\n    dmarc_policy: quarantine\n    dmarc_record: 'v=DMARC1; p=quarantine; rua=mailto:dmarc@tvarka.pro; ruf=mailto:dmarc@tvarka.pro; fo=1; adkim=r; aspf=r'\ntxt_records_of_note:\n  - record: 'v=MCPv1; k=ed25519; p=<ed25519 public key>'\n    zone: tvarka.pro\n    kind: MCP server identity\n    note: >-\n      An MCPv1 DNS TXT record publishing an ed25519 public key at the apex. Found 2026-08-31; it was\n      not present, or not looked for, on 2026-08-09. It sits alongside the live MCP server at\n      https://sign-api.tvarka.pro/mcp, so this is a DNS-level identity claim for that server rather\n      than a stray record. Key value not reproduced here - it\
   \ is a public key, but there is no reason\n      to mirror it and every reason to read it from DNS at verification time.\n  - record: purelymail_ownership_proof=...\n    zone: tvarka.pro\n    kind: mail-provider domain verification\nposture:\n  strengths:\n    - HSTS with a one-year max-age and includeSubDomains on every host in the estate.\n    - TLS 1.3 everywhere, single wildcard-style certificate across all four hosts.\n    - CAA published, restricting issuance to six named CAs for both exact and wildcard names.\n    - SPF and DMARC published, DMARC at p=quarantine with both aggregate and forensic reporting.\n  gaps:\n    - No DNSSEC.\n    - HSTS is not preloaded.\n    - DMARC is p=quarantine rather than p=reject.\nchanges_since_previous_probe:\n  - Certificates renewed - expiry moved from Sep 18 2026 to Nov 16 2026.\n  - >-\n    HSTS max-age raised from 15552000 (180 days) to 31536000 (1 year) on every host, still with\n    includeSubDomains.\n  - New host in the estate - sign-api.tvarka.pro,\
   \ with the same posture as the rest.\n  - An MCPv1 DNS TXT identity record is now published at the tvarka.pro apex.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/security/tvarka-atk-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tvarka/security/tvarka-atk-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Authentication

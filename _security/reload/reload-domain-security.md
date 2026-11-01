@@ -5,37 +5,37 @@ api_specs:
   label: Reload Channels API
   slug: reload-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/openapi/reload-channels-api-openapi.yml
+  url: https://artifacts.apis.io/reload/openapi/reload-channels-api-openapi.yml
 - filename: reload-files-api-openapi.yml
   format: yaml
   label: Reload Files API
   slug: reload-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/openapi/reload-files-api-openapi.yml
+  url: https://artifacts.apis.io/reload/openapi/reload-files-api-openapi.yml
 - filename: reload-memory-api-openapi.yml
   format: yaml
   label: Reload Memory API
   slug: reload-memory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/openapi/reload-memory-api-openapi.yml
+  url: https://artifacts.apis.io/reload/openapi/reload-memory-api-openapi.yml
 - filename: reload-messages-api-openapi.yml
   format: yaml
   label: Reload Messages API
   slug: reload-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/openapi/reload-messages-api-openapi.yml
+  url: https://artifacts.apis.io/reload/openapi/reload-messages-api-openapi.yml
 - filename: reload-tasks-api-openapi.yml
   format: yaml
   label: Reload Tasks API
   slug: reload-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/openapi/reload-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/reload/openapi/reload-tasks-api-openapi.yml
 - filename: reload-workspace-api-openapi.yml
   format: yaml
   label: Reload Workspace API
   slug: reload-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/openapi/reload-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/reload/openapi/reload-workspace-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,7 +81,7 @@ source_filename: reload-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: reload.team\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 19:05:34 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.reload.chat\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 05:11:29 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.reload.chat\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 05:53:24 2026 GMT\n  hsts: null\ndomains:\n- domain: reload.team\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: reload.chat\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/security/reload-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/reload/security/reload-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

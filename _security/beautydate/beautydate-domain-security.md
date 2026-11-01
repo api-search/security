@@ -27,7 +27,7 @@ source_filename: beautydate-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: beautydate.com.br\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 21:17:17 2026 GMT\n  hsts: null\ndomains:\n- domain: beautydate.com.br\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beautydate/refs/heads/main/security/beautydate-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/beautydate/security/beautydate-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -26,7 +26,7 @@ source_filename: curovax-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: en.curovax.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 13 00:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: curovax.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/curovax/refs/heads/main/security/curovax-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/curovax/security/curovax-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company
@@ -34,5 +34,5 @@ tags:
 - Vaccines
 - China
 - Biotechnology Company
-- High-Tech
+- HighTech
 ---

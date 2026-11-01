@@ -32,7 +32,7 @@ source_filename: altru-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: altrulabs.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31622400\ndomains:\n- domain: altrulabs.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"amazon.com\"\n  - 0 iodef \"mailto:domains@icims.com\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/altru/refs/heads/main/security/altru-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/altru/security/altru-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company

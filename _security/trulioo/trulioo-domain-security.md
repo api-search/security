@@ -5,115 +5,115 @@ api_specs:
   label: Trulioo Verifications API
   slug: trulioo-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-verifications-api-openapi.yml
 - filename: trulioo-configuration-api-openapi.yml
   format: yaml
   label: Trulioo Configuration API
   slug: trulioo-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-configuration-api-openapi.yml
 - filename: trulioo-connection-api-openapi.yml
   format: yaml
   label: Trulioo Connection API
   slug: trulioo-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-connection-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-connection-api-openapi.yml
 - filename: trulioo-business-verification-api-openapi.yml
   format: yaml
   label: Trulioo Business Verification API
   slug: trulioo-business-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-business-verification-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-business-verification-api-openapi.yml
 - filename: trulioo-person-fraud-api-openapi.yml
   format: yaml
   label: Trulioo Person Fraud API
   slug: trulioo-person-fraud-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-person-fraud-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-person-fraud-api-openapi.yml
 - filename: trulioo-document-verification-api-openapi.yml
   format: yaml
   label: Trulioo Identity Document Verification API
   slug: trulioo-document-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-document-verification-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-document-verification-api-openapi.yml
 - filename: trulioo-authentication-api-openapi.yml
   format: yaml
   label: Trulioo Authentication API
   slug: trulioo-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-authentication-api-openapi.yml
 - filename: trulioo-business-configuration-api-openapi.yml
   format: yaml
   label: Trulioo Business Configuration API
   slug: trulioo-business-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-business-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-business-configuration-api-openapi.yml
 - filename: trulioo-business-reports-api-openapi.yml
   format: yaml
   label: Trulioo Business Reports API
   slug: trulioo-business-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-business-reports-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-business-reports-api-openapi.yml
 - filename: trulioo-business-search-api-openapi.yml
   format: yaml
   label: Trulioo Business Search API
   slug: trulioo-business-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-business-search-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-business-search-api-openapi.yml
 - filename: trulioo-document-configuration-api-openapi.yml
   format: yaml
   label: Trulioo Document Configuration API
   slug: trulioo-document-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-document-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-document-configuration-api-openapi.yml
 - filename: trulioo-documents-api-openapi.yml
   format: yaml
   label: Trulioo Documents API
   slug: trulioo-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-documents-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-documents-api-openapi.yml
 - filename: trulioo-end-clients-api-openapi.yml
   format: yaml
   label: Trulioo End Clients API
   slug: trulioo-end-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-end-clients-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-end-clients-api-openapi.yml
 - filename: trulioo-events-api-openapi.yml
   format: yaml
   label: Trulioo Events API
   slug: trulioo-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-events-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-events-api-openapi.yml
 - filename: trulioo-flows-api-openapi.yml
   format: yaml
   label: Trulioo Flows API
   slug: trulioo-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-flows-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-flows-api-openapi.yml
 - filename: trulioo-known-faces-api-openapi.yml
   format: yaml
   label: Trulioo Known Faces API
   slug: trulioo-known-faces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-known-faces-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-known-faces-api-openapi.yml
 - filename: trulioo-sessions-api-openapi.yml
   format: yaml
   label: Trulioo Sessions API
   slug: trulioo-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-sessions-api-openapi.yml
 - filename: trulioo-transactions-api-openapi.yml
   format: yaml
   label: Trulioo Transactions API
   slug: trulioo-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-transactions-api-openapi.yml
 - filename: trulioo-workflows-api-openapi.yml
   format: yaml
   label: Trulioo Workflows API
   slug: trulioo-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-workflows-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -159,7 +159,7 @@ source_filename: trulioo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.trulioo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 17 06:49:55 2026 GMT\n  hsts: false\n- host: developer.trulioo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  1 19:39:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.trulioo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  3 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: trulioo.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/security/trulioo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trulioo/security/trulioo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Identity Verification

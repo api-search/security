@@ -7,49 +7,49 @@ api_specs:
   label: ZippyKid Account API
   slug: zippykid-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-account-api-openapi.yml
+  url: https://artifacts.apis.io/zippykid/openapi/zippykid-account-api-openapi.yml
 - filename: zippykid-activity-api-openapi.yml
   format: yaml
   label: ZippyKid Activity API
   slug: zippykid-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-activity-api-openapi.yml
+  url: https://artifacts.apis.io/zippykid/openapi/zippykid-activity-api-openapi.yml
 - filename: zippykid-auth-api-openapi.yml
   format: yaml
   label: ZippyKid Auth API
   slug: zippykid-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-auth-api-openapi.yml
+  url: https://artifacts.apis.io/zippykid/openapi/zippykid-auth-api-openapi.yml
 - filename: zippykid-collaborators-api-openapi.yml
   format: yaml
   label: ZippyKid Collaborators API
   slug: zippykid-collaborators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-collaborators-api-openapi.yml
+  url: https://artifacts.apis.io/zippykid/openapi/zippykid-collaborators-api-openapi.yml
 - filename: zippykid-http-api-openapi.yml
   format: yaml
   label: 'ZippyKid http: API'
   slug: zippykid-http-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-http-api-openapi.yml
+  url: https://artifacts.apis.io/zippykid/openapi/zippykid-http-api-openapi.yml
 - filename: zippykid-mu-plugins-api-openapi.yml
   format: yaml
   label: ZippyKid Mu Plugins API
   slug: zippykid-mu-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-mu-plugins-api-openapi.yml
+  url: https://artifacts.apis.io/zippykid/openapi/zippykid-mu-plugins-api-openapi.yml
 - filename: zippykid-sites-api-openapi.yml
   format: yaml
   label: ZippyKid Sites API
   slug: zippykid-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-sites-api-openapi.yml
+  url: https://artifacts.apis.io/zippykid/openapi/zippykid-sites-api-openapi.yml
 - filename: zippykid-zones-api-openapi.yml
   format: yaml
   label: ZippyKid Zones API
   slug: zippykid-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-zones-api-openapi.yml
+  url: https://artifacts.apis.io/zippykid/openapi/zippykid-zones-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -94,7 +94,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://my.pressable.com/documentation/api/v1/authentication.md\ndocs: https://my.pressable.com/documentation/api/v1\nsummary:\n  types: [oauth2]\n  oauth2_flows: [clientCredentials]\n  token_type: Bearer\n  token_lifetime_seconds: 3600\nschemes:\n- name: OAuth2ClientCredentials\n  type: oauth2\n  description: >-\n    API v1 authenticates with OAuth 2.0 client-credentials. A client_id and\n    client_secret are generated in the My Pressable Control Panel and exchanged\n    for a Bearer access token valid for one hour. Request a new token before the\n    current one expires; tokens can be revoked.\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://my.pressable.com/auth/token\n    revocationUrl: https://my.pressable.com/auth/revoke\n    grant_type: client_credentials\n  applied_as: Authorization Bearer <access_token>\n  sources: [https://my.pressable.com/documentation/api/v1/authentication.md]\n- name: MCPOAuth\n \
   \ type: oauth2\n  description: >-\n    Pressable's remote MCP server uses a distinct OAuth authorization-code flow\n    with PKCE (S256) and dynamic client registration, advertised via RFC 8414\n    metadata at /.well-known/oauth-authorization-server. Scope: mcp. An Access\n    Token from the control panel may be used as an alternative credential.\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://my.pressable.com/auth/authorize\n    tokenUrl: https://my.pressable.com/auth/token\n    registrationUrl: https://my.pressable.com/auth/register\n    pkce: S256\n  sources: [https://my.pressable.com/.well-known/oauth-authorization-server]\nnotes: >-\n  The published OpenAPI does not declare securitySchemes (components empty), so\n  this profile is sourced from the human docs and the well-known metadata rather\n  than derived. See scopes/zippykid-scopes.yml for the permission model.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/authentication/zippykid-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zippykid/authentication/zippykid-authentication.yml
 summary_line: oauth2 · 2 schemes
 tags:
 - Company

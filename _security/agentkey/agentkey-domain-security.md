@@ -1,11 +1,17 @@
 ---
 api_specs:
+- filename: agentkey-openapi-generated.yml
+  format: yaml
+  label: AgentKey API
+  slug: agentkey-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentkey/openapi/_ae-authored/agentkey-openapi-generated.yml
 - filename: agentkey-install-api-openapi.yml
   format: yaml
   label: AgentKey (Data API Layer) Install API
   slug: agentkey-install-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentkey/refs/heads/main/openapi/agentkey-install-api-openapi.yml
+  url: https://artifacts.apis.io/agentkey/openapi/agentkey-install-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -33,7 +39,7 @@ source_filename: agentkey-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: agentkey.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: agentkey.app\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentkey/refs/heads/main/security/agentkey-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/agentkey/security/agentkey-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

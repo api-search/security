@@ -30,7 +30,7 @@ source_filename: vadivelu-http-codes-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: vadivelu.anoram.com\n  https: false\ndomains:\n- domain: anoram.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vadivelu-http-codes/refs/heads/main/security/vadivelu-http-codes-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vadivelu-http-codes/security/vadivelu-http-codes-domain-security.yml
 summary_line: DMARC
 tags:
 - Personality

@@ -5,13 +5,13 @@ api_specs:
   label: Skinory (submitted as g2push) Inventories API
   slug: skinory-inventories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skinory/refs/heads/main/openapi/skinory-inventories-api-openapi.yml
+  url: https://artifacts.apis.io/skinory/openapi/skinory-inventories-api-openapi.yml
 - filename: skinory-inventory-api-openapi.yml
   format: yaml
   label: Skinory (submitted as g2push) Inventory API
   slug: skinory-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skinory/refs/heads/main/openapi/skinory-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/skinory/openapi/skinory-inventory-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +40,7 @@ source_filename: skinory-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: skinory.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 26 11:20:54 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: skinory.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skinory/refs/heads/main/security/skinory-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/skinory/security/skinory-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company

@@ -8,13 +8,13 @@ api_specs:
   label: Azure AI Search Documents API
   slug: microsoft-azure-search-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-search/refs/heads/main/openapi/microsoft-azure-search-documents-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-search/openapi/microsoft-azure-search-documents-api-openapi.yml
 - filename: microsoft-azure-search-indexes-api-openapi.yml
   format: yaml
   label: Azure AI Search Indexes API
   slug: microsoft-azure-search-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-search/refs/heads/main/openapi/microsoft-azure-search-indexes-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-search/openapi/microsoft-azure-search-indexes-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -41,7 +41,7 @@ source_filename: microsoft-azure-search-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-azure-search-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: api-key\n  sources:\n  - openapi/microsoft-azure-search-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-search/refs/heads/main/authentication/microsoft-azure-search-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-search/authentication/microsoft-azure-search-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - AI Search

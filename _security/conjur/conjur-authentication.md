@@ -8,7 +8,7 @@ api_specs:
   label: Conjur / CyberArk Secrets Manager API
   slug: conjur-cyberark-secrets-manager-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conjur/refs/heads/main/openapi/_original/openapi.yml
+  url: https://artifacts.apis.io/conjur/openapi/_original/openapi.yml
 auth_types:
 - apiKey
 - http
@@ -55,7 +55,7 @@ source_filename: conjur-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: |-\n    Basic authentication with Conjur username and password (users only)\n    or API key (hosts and users).\n  sources:\n  - openapi/openapi.yml\n- name: conjurAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Conjur access token in `Token token=<base64_encoded_token>` format.\n  sources:\n  - openapi/openapi.yml\n- name: conjurKubernetesMutualTls\n  type: http\n  scheme: mutual\n  description: |-\n    Conjur Kubernetes authenticator mutual TLS authentication.\n    To authenticate using this method, you must provide a trusted client\n    certificate\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/conjur/refs/heads/main/authentication/conjur-authentication.yml
+source_yaml_url: https://artifacts.apis.io/conjur/authentication/conjur-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Company

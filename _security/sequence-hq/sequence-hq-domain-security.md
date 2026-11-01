@@ -5,37 +5,37 @@ api_specs:
   label: Sequence Billing Schedules API
   slug: sequence-hq-billing-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/openapi/sequence-hq-billing-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/sequence-hq/openapi/sequence-hq-billing-schedules-api-openapi.yml
 - filename: sequence-hq-customers-api-openapi.yml
   format: yaml
   label: Sequence Customers API
   slug: sequence-hq-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/openapi/sequence-hq-customers-api-openapi.yml
+  url: https://artifacts.apis.io/sequence-hq/openapi/sequence-hq-customers-api-openapi.yml
 - filename: sequence-hq-invoices-api-openapi.yml
   format: yaml
   label: Sequence Invoices API
   slug: sequence-hq-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/openapi/sequence-hq-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/sequence-hq/openapi/sequence-hq-invoices-api-openapi.yml
 - filename: sequence-hq-products-api-openapi.yml
   format: yaml
   label: Sequence Products API
   slug: sequence-hq-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/openapi/sequence-hq-products-api-openapi.yml
+  url: https://artifacts.apis.io/sequence-hq/openapi/sequence-hq-products-api-openapi.yml
 - filename: sequence-hq-quotes-api-openapi.yml
   format: yaml
   label: Sequence Quotes API
   slug: sequence-hq-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/openapi/sequence-hq-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/sequence-hq/openapi/sequence-hq-quotes-api-openapi.yml
 - filename: sequence-hq-usage-api-openapi.yml
   format: yaml
   label: Sequence Usage API
   slug: sequence-hq-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/openapi/sequence-hq-usage-api-openapi.yml
+  url: https://artifacts.apis.io/sequence-hq/openapi/sequence-hq-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: sequence-hq-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sequencehq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 16:19:43 2026 GMT\n  hsts: null\n- host: docs.sequencehq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 27 22:29:39 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: eu.sequencehq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 10:59:27 2026 GMT\n  hsts: null\ndomains:\n- domain: sequencehq.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/security/sequence-hq-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sequence-hq/security/sequence-hq-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Billing

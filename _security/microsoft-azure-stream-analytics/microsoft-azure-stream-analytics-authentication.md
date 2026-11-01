@@ -7,37 +7,37 @@ api_specs:
   label: Azure Stream Analytics Clusters API
   slug: microsoft-azure-stream-analytics-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-stream-analytics/refs/heads/main/openapi/microsoft-azure-stream-analytics-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-stream-analytics/openapi/microsoft-azure-stream-analytics-clusters-api-openapi.yml
 - filename: microsoft-azure-stream-analytics-functions-api-openapi.yml
   format: yaml
   label: Azure Stream Analytics Functions API
   slug: microsoft-azure-stream-analytics-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-stream-analytics/refs/heads/main/openapi/microsoft-azure-stream-analytics-functions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-stream-analytics/openapi/microsoft-azure-stream-analytics-functions-api-openapi.yml
 - filename: microsoft-azure-stream-analytics-inputs-api-openapi.yml
   format: yaml
   label: Azure Stream Analytics Inputs API
   slug: microsoft-azure-stream-analytics-inputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-stream-analytics/refs/heads/main/openapi/microsoft-azure-stream-analytics-inputs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-stream-analytics/openapi/microsoft-azure-stream-analytics-inputs-api-openapi.yml
 - filename: microsoft-azure-stream-analytics-outputs-api-openapi.yml
   format: yaml
   label: Azure Stream Analytics Outputs API
   slug: microsoft-azure-stream-analytics-outputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-stream-analytics/refs/heads/main/openapi/microsoft-azure-stream-analytics-outputs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-stream-analytics/openapi/microsoft-azure-stream-analytics-outputs-api-openapi.yml
 - filename: microsoft-azure-stream-analytics-streamingjobs-api-openapi.yml
   format: yaml
   label: Azure Stream Analytics StreamingJobs API
   slug: microsoft-azure-stream-analytics-streamingjobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-stream-analytics/refs/heads/main/openapi/microsoft-azure-stream-analytics-streamingjobs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-stream-analytics/openapi/microsoft-azure-stream-analytics-streamingjobs-api-openapi.yml
 - filename: microsoft-azure-stream-analytics-transformations-api-openapi.yml
   format: yaml
   label: Azure Stream Analytics Transformations API
   slug: microsoft-azure-stream-analytics-transformations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-stream-analytics/refs/heads/main/openapi/microsoft-azure-stream-analytics-transformations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-stream-analytics/openapi/microsoft-azure-stream-analytics-transformations-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +64,7 @@ source_filename: microsoft-azure-stream-analytics-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-azure-stream-analytics-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/microsoft-azure-stream-analytics-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-stream-analytics/refs/heads/main/authentication/microsoft-azure-stream-analytics-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-stream-analytics/authentication/microsoft-azure-stream-analytics-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Stream Processing

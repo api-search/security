@@ -5,31 +5,31 @@ api_specs:
   label: Allianz Future Cloud Platform Deployments API
   slug: allianz-future-cloud-platform-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/openapi/allianz-future-cloud-platform-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-future-cloud-platform/openapi/allianz-future-cloud-platform-deployments-api-openapi.yml
 - filename: allianz-future-cloud-platform-infrastructure-api-openapi.yml
   format: yaml
   label: Allianz Future Cloud Platform Infrastructure API
   slug: allianz-future-cloud-platform-infrastructure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/openapi/allianz-future-cloud-platform-infrastructure-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-future-cloud-platform/openapi/allianz-future-cloud-platform-infrastructure-api-openapi.yml
 - filename: allianz-future-cloud-platform-namespaces-api-openapi.yml
   format: yaml
   label: Allianz Future Cloud Platform Namespaces API
   slug: allianz-future-cloud-platform-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/openapi/allianz-future-cloud-platform-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-future-cloud-platform/openapi/allianz-future-cloud-platform-namespaces-api-openapi.yml
 - filename: allianz-future-cloud-platform-observability-api-openapi.yml
   format: yaml
   label: Allianz Future Cloud Platform Observability API
   slug: allianz-future-cloud-platform-observability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/openapi/allianz-future-cloud-platform-observability-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-future-cloud-platform/openapi/allianz-future-cloud-platform-observability-api-openapi.yml
 - filename: allianz-future-cloud-platform-services-api-openapi.yml
   format: yaml
   label: Allianz Future Cloud Platform Services API
   slug: allianz-future-cloud-platform-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/openapi/allianz-future-cloud-platform-services-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-future-cloud-platform/openapi/allianz-future-cloud-platform-services-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -73,7 +73,7 @@ source_filename: allianz-future-cloud-platform-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.allianz.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 12 16:58:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: architecture.cncf.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 20:53:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: platform.allianz.com\n  https: false\ndomains:\n- domain: allianz.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: cncf.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/security/allianz-future-cloud-platform-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/allianz-future-cloud-platform/security/allianz-future-cloud-platform-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud Platform

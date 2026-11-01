@@ -8,67 +8,67 @@ api_specs:
   label: Browser Use Billing API
   slug: browser-use-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-billing-api-openapi.yml
+  url: https://artifacts.apis.io/browser-use/openapi/browser-use-billing-api-openapi.yml
 - filename: browser-use-browsers-api-openapi.yml
   format: yaml
   label: Browser Use Browsers API
   slug: browser-use-browsers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-browsers-api-openapi.yml
+  url: https://artifacts.apis.io/browser-use/openapi/browser-use-browsers-api-openapi.yml
 - filename: browser-use-files-api-openapi.yml
   format: yaml
   label: Browser Use Files API
   slug: browser-use-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-files-api-openapi.yml
+  url: https://artifacts.apis.io/browser-use/openapi/browser-use-files-api-openapi.yml
 - filename: browser-use-profiles-api-openapi.yml
   format: yaml
   label: Browser Use Profiles API
   slug: browser-use-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/browser-use/openapi/browser-use-profiles-api-openapi.yml
 - filename: browser-use-runs-api-openapi.yml
   format: yaml
   label: Browser Use Runs API
   slug: browser-use-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-runs-api-openapi.yml
+  url: https://artifacts.apis.io/browser-use/openapi/browser-use-runs-api-openapi.yml
 - filename: browser-use-sessions-api-openapi.yml
   format: yaml
   label: Browser Use Sessions API
   slug: browser-use-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/browser-use/openapi/browser-use-sessions-api-openapi.yml
 - filename: browser-use-skills-api-openapi.yml
   format: yaml
   label: Browser Use Skills API
   slug: browser-use-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-skills-api-openapi.yml
+  url: https://artifacts.apis.io/browser-use/openapi/browser-use-skills-api-openapi.yml
 - filename: browser-use-skills-marketplace-api-openapi.yml
   format: yaml
   label: Browser Use Skills Marketplace API
   slug: browser-use-skills-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-skills-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/browser-use/openapi/browser-use-skills-marketplace-api-openapi.yml
 - filename: browser-use-tasks-api-openapi.yml
   format: yaml
   label: Browser Use Tasks API
   slug: browser-use-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/browser-use/openapi/browser-use-tasks-api-openapi.yml
 - filename: browser-use-workspaces-api-openapi.yml
   format: yaml
   label: Browser Use Workspaces API
   slug: browser-use-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/browser-use/openapi/browser-use-workspaces-api-openapi.yml
 - filename: browser-use-x402-api-openapi.yml
   format: yaml
   label: Browser Use X402 API
   slug: browser-use-x402-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-x402-api-openapi.yml
+  url: https://artifacts.apis.io/browser-use/openapi/browser-use-x402-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -133,16 +133,15 @@ source_url: ''
 source_yaml: "generated: '2026-08-29'\nmethod: searched\nsource: https://browser-use.com/auth.md\ndocs: https://browser-use.com/auth.md\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  note: >-\n    Browser Use publishes two authentication paths. The REST APIs (v2, v3, v4) and both Cloud SDKs use\n    a project API key in the X-Browser-Use-API-Key header; keys are prefixed bu_ and are minted in the\n    Cloud dashboard. The hosted MCP resource is additionally protected by an OAuth 2.0 authorization\n    server that advertises Authorization Code with PKCE and Device Authorization, dynamic client\n    registration, and a single published scope, mcp.\nschemes:\n- name: APIKeyHeader\n  type: apiKey\n  in: header\n  parameter: X-Browser-Use-API-Key\n  key_prefix: bu_\n  issued_at: https://cloud.browser-use.com/settings?tab=api-keys&new=1\n  applies_to:\n  - https://api.browser-use.com/api/v4\n  - https://api.browser-use.com/api/v3\n  - https://api.browser-use.com/api/v2\n\
   \  - https://api.browser-use.com/mcp\n  - https://api.browser-use.com/v3/mcp\n  sources:\n  - openapi/browser-use-api-v2-openapi.json\n  - openapi/browser-use-api-v3-openapi.json\n  - openapi/browser-use-api-v4-openapi.json\n  - https://browser-use.com/auth.md\n- name: BrowserUseOAuth\n  type: oauth2\n  applies_to:\n  - https://api.browser-use.com/mcp\n  metadata: well-known/browser-use-oauth-authorization-server.json\n  protected_resource: well-known/browser-use-oauth-protected-resource.json\n  issuer: https://api.browser-use.com\n  authorization_endpoint: https://api.browser-use.com/oauth/authorize\n  token_endpoint: https://api.browser-use.com/oauth/token\n  registration_endpoint: https://api.browser-use.com/oauth/register\n  revocation_endpoint: https://api.browser-use.com/oauth/revoke\n  grant_types:\n  - authorization_code\n  - urn:ietf:params:oauth:grant-type:device_code\n  pkce:\n  - S256\n  scopes:\n  - mcp\n  token_endpoint_auth_methods:\n  - none\n  sources:\n  - https://browser-use.com/.well-known/oauth-authorization-server\n\
   \  - https://api.browser-use.com/.well-known/oauth-protected-resource\n  - https://browser-use.com/auth.md\nguidance:\n  published: >-\n    \"Do not put API keys in prompts, source control, browser-delivered code, or logs. Isolate keys by\n    environment, store them in a secret manager, and revoke keys that are no longer needed.\"\n  source: https://browser-use.com/auth.md\ngaps:\n- >-\n  The OpenAPI documents declare only the APIKeyHeader scheme; the OAuth 2.0 path is documented in\n  auth.md and in the well-known metadata but is not represented in any securityScheme.\n- >-\n  No finer-grained REST scopes are advertised. Browser Use states this explicitly: \"Finer-grained REST\n  API OAuth scopes are not currently advertised by the public authorization metadata.\"\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/authentication/browser-use-authentication.yml
+source_yaml_url: https://artifacts.apis.io/browser-use/authentication/browser-use-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - AI Automation
 - Browser Automation
 - Web Agents
 - Web Scraping
-- Headless Browser
 - Agent Infrastructure
 - MCP
-- Cloud Browsers
+- Cloud Browser
 - A2A
 ---

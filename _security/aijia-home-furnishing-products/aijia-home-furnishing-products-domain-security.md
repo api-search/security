@@ -26,7 +26,7 @@ source_filename: aijia-home-furnishing-products-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ihomefnt.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 13 07:01:35 2027 GMT\n  hsts: false\ndomains:\n- domain: ihomefnt.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aijia-home-furnishing-products/refs/heads/main/security/aijia-home-furnishing-products-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aijia-home-furnishing-products/security/aijia-home-furnishing-products-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

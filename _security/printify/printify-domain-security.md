@@ -5,37 +5,37 @@ api_specs:
   label: Printify Catalog API
   slug: printify-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/openapi/printify-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/printify/openapi/printify-catalog-api-openapi.yml
 - filename: printify-orders-api-openapi.yml
   format: yaml
   label: Printify Orders API
   slug: printify-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/openapi/printify-orders-api-openapi.yml
+  url: https://artifacts.apis.io/printify/openapi/printify-orders-api-openapi.yml
 - filename: printify-products-api-openapi.yml
   format: yaml
   label: Printify Products API
   slug: printify-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/openapi/printify-products-api-openapi.yml
+  url: https://artifacts.apis.io/printify/openapi/printify-products-api-openapi.yml
 - filename: printify-shops-api-openapi.yml
   format: yaml
   label: Printify Shops API
   slug: printify-shops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/openapi/printify-shops-api-openapi.yml
+  url: https://artifacts.apis.io/printify/openapi/printify-shops-api-openapi.yml
 - filename: printify-uploads-api-openapi.yml
   format: yaml
   label: Printify Uploads API
   slug: printify-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/openapi/printify-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/printify/openapi/printify-uploads-api-openapi.yml
 - filename: printify-webhooks-api-openapi.yml
   format: yaml
   label: Printify Webhooks API
   slug: printify-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/openapi/printify-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/printify/openapi/printify-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -74,7 +74,7 @@ source_filename: printify-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: printify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 13:30:14 2026 GMT\n  hsts: false\n- host: developers.printify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 13:30:14 2026 GMT\n  hsts: false\n- host: api.printify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 13:30:14 2026 GMT\n  hsts: null\ndomains:\n- domain: printify.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/security/printify-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/printify/security/printify-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Print on Demand

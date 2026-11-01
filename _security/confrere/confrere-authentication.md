@@ -8,13 +8,13 @@ api_specs:
   label: Confrere Room API
   slug: confrere-room-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confrere/refs/heads/main/openapi/confrere-room-api-openapi.yml
+  url: https://artifacts.apis.io/confrere/openapi/confrere-room-api-openapi.yml
 - filename: confrere-token-api-openapi.yml
   format: yaml
   label: Confrere Token API
   slug: confrere-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confrere/refs/heads/main/openapi/confrere-token-api-openapi.yml
+  url: https://artifacts.apis.io/confrere/openapi/confrere-token-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -60,7 +60,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://docs.compodium.com/api/\ndocs: https://docs.compodium.com/api/\nnotes: >-\n  The published OpenAPI declares no named securitySchemes — authentication is\n  documented as three required request headers on every operation. Captured\n  here from the docs rather than derived from an (absent) securitySchemes block.\nsummary:\n  types: [http, apiKey]\n  api_key_in: [header]\n  oauth2_flows: []\nschemes:\n  - name: BearerToken\n    type: http\n    scheme: bearer\n    in: header\n    header: Authorization\n    format: \"Bearer $TOKEN\"\n    description: >-\n      Signed bearer token for the request, sent as `Authorization: Bearer\n      $TOKEN`. Paired with the X-Vidicue-Nonce and X-Vidicue-Key headers.\n    sources: [openapi/confrere-video-openapi.yml]\n  - name: ApiKey\n    type: apiKey\n    in: header\n    header: X-Vidicue-Key\n    description: The API key issued for your integration.\n    sources: [openapi/confrere-video-openapi.yml]\n\
   \  - name: Nonce\n    type: apiKey\n    in: header\n    header: X-Vidicue-Nonce\n    description: A numeric nonce accompanying the bearer authorization.\n    sources: [openapi/confrere-video-openapi.yml]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/confrere/refs/heads/main/authentication/confrere-authentication.yml
+source_yaml_url: https://artifacts.apis.io/confrere/authentication/confrere-authentication.yml
 summary_line: http/apiKey · 3 schemes
 tags:
 - Company

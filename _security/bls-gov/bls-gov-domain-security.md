@@ -5,19 +5,19 @@ api_specs:
   label: Bureau of Labor Statistics Popular Series API
   slug: bls-gov-popular-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bls-gov/refs/heads/main/openapi/bls-gov-popular-series-api-openapi.yml
+  url: https://artifacts.apis.io/bls-gov/openapi/bls-gov-popular-series-api-openapi.yml
 - filename: bls-gov-surveys-api-openapi.yml
   format: yaml
   label: Bureau of Labor Statistics Surveys API
   slug: bls-gov-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bls-gov/refs/heads/main/openapi/bls-gov-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/bls-gov/openapi/bls-gov-surveys-api-openapi.yml
 - filename: bls-gov-time-series-api-openapi.yml
   format: yaml
   label: Bureau of Labor Statistics Time Series API
   slug: bls-gov-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bls-gov/refs/heads/main/openapi/bls-gov-time-series-api-openapi.yml
+  url: https://artifacts.apis.io/bls-gov/openapi/bls-gov-time-series-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: bls-gov-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bls.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 28 23:59:59 2026 GMT\n  hsts: null\n- host: api.bls.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar 22 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: bls.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bls-gov/refs/heads/main/security/bls-gov-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bls-gov/security/bls-gov-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Federal Government

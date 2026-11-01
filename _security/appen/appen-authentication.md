@@ -7,43 +7,43 @@ api_specs:
   label: Appen Download API
   slug: appen-download-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appen/refs/heads/main/openapi/appen-download-api-openapi.yml
+  url: https://artifacts.apis.io/appen/openapi/appen-download-api-openapi.yml
 - filename: appen-internal-contributors-api-openapi.yml
   format: yaml
   label: Appen Internal Contributors API
   slug: appen-internal-contributors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appen/refs/heads/main/openapi/appen-internal-contributors-api-openapi.yml
+  url: https://artifacts.apis.io/appen/openapi/appen-internal-contributors-api-openapi.yml
 - filename: appen-jobs-api-openapi.yml
   format: yaml
   label: Appen Jobs API
   slug: appen-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appen/refs/heads/main/openapi/appen-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/appen/openapi/appen-jobs-api-openapi.yml
 - filename: appen-projects-api-openapi.yml
   format: yaml
   label: Appen Projects API
   slug: appen-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appen/refs/heads/main/openapi/appen-projects-api-openapi.yml
+  url: https://artifacts.apis.io/appen/openapi/appen-projects-api-openapi.yml
 - filename: appen-route-units-api-openapi.yml
   format: yaml
   label: Appen Route Units API
   slug: appen-route-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appen/refs/heads/main/openapi/appen-route-units-api-openapi.yml
+  url: https://artifacts.apis.io/appen/openapi/appen-route-units-api-openapi.yml
 - filename: appen-test-questions-api-openapi.yml
   format: yaml
   label: Appen Test Questions API
   slug: appen-test-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appen/refs/heads/main/openapi/appen-test-questions-api-openapi.yml
+  url: https://artifacts.apis.io/appen/openapi/appen-test-questions-api-openapi.yml
 - filename: appen-upload-api-openapi.yml
   format: yaml
   label: Appen Upload API
   slug: appen-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appen/refs/heads/main/openapi/appen-upload-api-openapi.yml
+  url: https://artifacts.apis.io/appen/openapi/appen-upload-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -73,7 +73,7 @@ source_filename: appen-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-22'\nmethod: derived\nsource: openapi/appen-openapi-remote.yaml\nsummary:\n  types:\n  - http\nschemes:\n- name: TokenAuth\n  type: http\n  scheme: bearer\n  bearerFormat: Token\n  description: |-\n    API Token authentication. Pass your API token in the Authorization header:\n    `Authorization: Token token=your-api-token-here`\n  sources:\n  - openapi/appen-openapi-remote.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appen/refs/heads/main/authentication/appen-authentication.yml
+source_yaml_url: https://artifacts.apis.io/appen/authentication/appen-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

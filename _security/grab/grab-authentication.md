@@ -7,19 +7,19 @@ api_specs:
   label: Grab GrabExpress API
   slug: grab-grabexpress-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grab/refs/heads/main/openapi/grab-grabexpress-api-openapi.yml
+  url: https://artifacts.apis.io/grab/openapi/grab-grabexpress-api-openapi.yml
 - filename: grab-grabid-api-openapi.yml
   format: yaml
   label: Grab GrabID API
   slug: grab-grabid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grab/refs/heads/main/openapi/grab-grabid-api-openapi.yml
+  url: https://artifacts.apis.io/grab/openapi/grab-grabid-api-openapi.yml
 - filename: grab-grabpay-api-openapi.yml
   format: yaml
   label: Grab GrabPay API
   slug: grab-grabpay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grab/refs/heads/main/openapi/grab-grabpay-api-openapi.yml
+  url: https://artifacts.apis.io/grab/openapi/grab-grabpay-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: grab-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/grab-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/grab-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/grab/refs/heads/main/authentication/grab-authentication.yml
+source_yaml_url: https://artifacts.apis.io/grab/authentication/grab-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Ride Hailing

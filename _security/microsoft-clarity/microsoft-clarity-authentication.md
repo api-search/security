@@ -7,7 +7,7 @@ api_specs:
   label: Microsoft Clarity Data Export API
   slug: microsoft-clarity-data-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-clarity/refs/heads/main/openapi/microsoft-clarity-data-export-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-clarity/openapi/microsoft-clarity-data-export-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://learn.m
   \  - openapi/microsoft-clarity-dataexport-api-openapi.yml\n      - https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-data-export-api\n    obtain:\n      steps:\n        - Go to your Clarity project.\n        - Select Settings -> Data Export -> Generate new API token.\n        - Provide a descriptive name for the token.\n        - Copy and save the generated token securely.\n      constraints:\n        token_name_min_length: 4\n        token_name_max_length: 32\n        token_name_allowed: 'A-Z a-z 0-9 and - _ .'\n        token_name_disallowed: 'spaces and @ # $ % & * !'\n        token_name_unique_within_project: true\n    rotation:\n      automatic_expiry_published: false\n      guidance: >-\n        Clarity's published best practice is to promptly replace API tokens if a\n        user with access is removed from the project, and to protect and\n        securely store tokens.\n    failure_modes:\n      - status: 401\n        cause: Missing, invalid, or expired token\n\
   \      - status: 403\n        cause: Token not authorized for operation\nclient_api_credential:\n  note: >-\n    Separate from the HTTP API. For the in-page client API Clarity states \"Your\n    Clarity ID serves as your API key. No other client API key is necessary, and\n    there is no cost for using Clarity client APIs.\"\n  docs: https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-api\nmcp_credential:\n  note: >-\n    The first-party MCP server reuses the same Data Export API token, passed as\n    --clarity_api_token on the command line or as a tool parameter.\n  see: mcp/microsoft-clarity-mcp.yml\noauth:\n  present: false\n  discovery_probe:\n    - url: https://www.clarity.ms/.well-known/oauth-authorization-server\n      status: 404\n    - url: https://www.clarity.ms/.well-known/openid-configuration\n      status: 404\n  note: >-\n    Probed 2026-08-13. No authorization server metadata is published, so\n    scopes/microsoft-clarity-scopes.yml is intentionally\
   \ absent.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-clarity/refs/heads/main/authentication/microsoft-clarity-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-clarity/authentication/microsoft-clarity-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Analytics

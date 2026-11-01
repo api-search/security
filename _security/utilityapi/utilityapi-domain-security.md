@@ -5,55 +5,55 @@ api_specs:
   label: UtilityAPI Accounting API
   slug: utilityapi-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/openapi/utilityapi-accounting-api-openapi.yml
+  url: https://artifacts.apis.io/utilityapi/openapi/utilityapi-accounting-api-openapi.yml
 - filename: utilityapi-authorizations-api-openapi.yml
   format: yaml
   label: UtilityAPI Authorizations API
   slug: utilityapi-authorizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/openapi/utilityapi-authorizations-api-openapi.yml
+  url: https://artifacts.apis.io/utilityapi/openapi/utilityapi-authorizations-api-openapi.yml
 - filename: utilityapi-bills-api-openapi.yml
   format: yaml
   label: UtilityAPI Bills API
   slug: utilityapi-bills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/openapi/utilityapi-bills-api-openapi.yml
+  url: https://artifacts.apis.io/utilityapi/openapi/utilityapi-bills-api-openapi.yml
 - filename: utilityapi-events-api-openapi.yml
   format: yaml
   label: UtilityAPI Events API
   slug: utilityapi-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/openapi/utilityapi-events-api-openapi.yml
+  url: https://artifacts.apis.io/utilityapi/openapi/utilityapi-events-api-openapi.yml
 - filename: utilityapi-files-api-openapi.yml
   format: yaml
   label: UtilityAPI Files API
   slug: utilityapi-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/openapi/utilityapi-files-api-openapi.yml
+  url: https://artifacts.apis.io/utilityapi/openapi/utilityapi-files-api-openapi.yml
 - filename: utilityapi-forms-api-openapi.yml
   format: yaml
   label: UtilityAPI Forms API
   slug: utilityapi-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/openapi/utilityapi-forms-api-openapi.yml
+  url: https://artifacts.apis.io/utilityapi/openapi/utilityapi-forms-api-openapi.yml
 - filename: utilityapi-intervals-api-openapi.yml
   format: yaml
   label: UtilityAPI Intervals API
   slug: utilityapi-intervals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/openapi/utilityapi-intervals-api-openapi.yml
+  url: https://artifacts.apis.io/utilityapi/openapi/utilityapi-intervals-api-openapi.yml
 - filename: utilityapi-meters-api-openapi.yml
   format: yaml
   label: UtilityAPI Meters API
   slug: utilityapi-meters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/openapi/utilityapi-meters-api-openapi.yml
+  url: https://artifacts.apis.io/utilityapi/openapi/utilityapi-meters-api-openapi.yml
 - filename: utilityapi-templates-api-openapi.yml
   format: yaml
   label: UtilityAPI Templates API
   slug: utilityapi-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/openapi/utilityapi-templates-api-openapi.yml
+  url: https://artifacts.apis.io/utilityapi/openapi/utilityapi-templates-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: utilityapi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: utilityapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 19:11:25 2026 GMT\n  hsts: false\ndomains:\n- domain: utilityapi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/security/utilityapi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/utilityapi/security/utilityapi-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Energy

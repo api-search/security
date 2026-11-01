@@ -8,19 +8,19 @@ api_specs:
   label: Rhumbix Batch Export API
   slug: rhumbix-batch-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhumbix/refs/heads/main/openapi/rhumbix-batch-export-api-openapi.yml
+  url: https://artifacts.apis.io/rhumbix/openapi/rhumbix-batch-export-api-openapi.yml
 - filename: rhumbix-batch-import-api-openapi.yml
   format: yaml
   label: Rhumbix Batch Import API
   slug: rhumbix-batch-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhumbix/refs/heads/main/openapi/rhumbix-batch-import-api-openapi.yml
+  url: https://artifacts.apis.io/rhumbix/openapi/rhumbix-batch-import-api-openapi.yml
 - filename: rhumbix-cors-api-openapi.yml
   format: yaml
   label: Rhumbix CORS API
   slug: rhumbix-cors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhumbix/refs/heads/main/openapi/rhumbix-cors-api-openapi.yml
+  url: https://artifacts.apis.io/rhumbix/openapi/rhumbix-cors-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -47,7 +47,7 @@ source_filename: rhumbix-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/rhumbix-public-api-openapi-original.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: api_key\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/rhumbix-public-api-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rhumbix/refs/heads/main/authentication/rhumbix-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rhumbix/authentication/rhumbix-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

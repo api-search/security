@@ -7,7 +7,7 @@ api_specs:
   label: RealSelf Lead Sharing
   slug: realself-lead-sharing
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/asyncapi/realself-lead-sharing-asyncapi.yml
+  url: https://artifacts.apis.io/realself/asyncapi/realself-lead-sharing-asyncapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -56,7 +56,7 @@ source_yaml: "generated: '2026-08-26'\nmethod: searched\nsource: >-\n  https://g
   \ notifications (RealSelf -> partner endpoint)\n  transport: https POST from \"Amazon Simple Notification Service Agent\"\n  description: >-\n    Every SNS message carries Signature, SignatureVersion and SigningCertURL. RealSelf's own\n    example validates with the AWS SDK before processing and returns 401 Unauthorized on\n    failure. This is the only authentication on the inbound leg — there is no shared secret,\n    bearer token or mTLS between RealSelf and the partner endpoint.\n  headers:\n  - x-amz-sns-message-type\n  - x-amz-sns-message-id\n  - x-amz-sns-topic-arn\n  - x-amz-sns-subscription-arn\n  verification: Amazon.SimpleNotificationService.Util.Message.IsMessageSignatureValid()\n  evidence: https://github.com/RealSelf/rs-lead-sharing-subscriber-example#processing-notification\n- id: lead-callback-jws\n  type: jws-token\n  applies_to: outbound lead-update callback (partner -> RealSelf)\n  description: >-\n    Each notification carries a `callback` URL and a `token`. The token\
   \ is a detached-style\n    JWS whose header declares alg ES512, typ JOSE+JSON, a kid, and a jku pointing at a JWKS\n    document; its payload carries `lead_id` and an `exp`. The token is also appended to the\n    callback URL as a `token` query parameter in RealSelf's published example.\n  algorithm: ES512\n  token_location: query parameter `token` on the callback URL, and the `token` payload field\n  claims:\n  - lead_id\n  - exp\n  jwks:\n    jku_observed: https://api.rsdev.co/.well-known/jwks.json\n    note: >-\n      The jku in RealSelf's published example points at their DEVELOPMENT host (api.rsdev.co).\n      Neither that URL nor https://api.realself.com/.well-known/jwks.json is anonymously\n      readable — both return 403 Missing Authentication Token — so key material cannot be\n      verified from outside an onboarded partner account.\n  expiry: short-lived (exp claim present in the published example token)\n  evidence: json-schema/realself-new-lead-webhook-1-0-0.json (properties.token)\n\
   onboarding:\n  self_service: false\n  model: >-\n    Partner onboarding is sales-mediated. RealSelf provisions the SNS topic and subscribes the\n    partner's endpoint; there is no developer signup, key dashboard or public request flow.\n  contact: https://www.realself.com/dr/advertise\noauth2: false\nopenid_connect: false\napi_keys: false\nmutual_tls: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/authentication/realself-authentication.yml
+source_yaml_url: https://artifacts.apis.io/realself/authentication/realself-authentication.yml
 summary_line: 2 schemes
 tags:
 - Company

@@ -5,67 +5,67 @@ api_specs:
   label: Sana Assignments API
   slug: sana-labs-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/sana-labs/openapi/sana-labs-assignments-api-openapi.yml
 - filename: sana-labs-authentication-api-openapi.yml
   format: yaml
   label: Sana Authentication API
   slug: sana-labs-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sana-labs/openapi/sana-labs-authentication-api-openapi.yml
 - filename: sana-labs-courses-api-openapi.yml
   format: yaml
   label: Sana Courses API
   slug: sana-labs-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-courses-api-openapi.yml
+  url: https://artifacts.apis.io/sana-labs/openapi/sana-labs-courses-api-openapi.yml
 - filename: sana-labs-groups-api-openapi.yml
   format: yaml
   label: Sana Groups API
   slug: sana-labs-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-groups-api-openapi.yml
+  url: https://artifacts.apis.io/sana-labs/openapi/sana-labs-groups-api-openapi.yml
 - filename: sana-labs-insights-api-openapi.yml
   format: yaml
   label: Sana Insights API
   slug: sana-labs-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-insights-api-openapi.yml
+  url: https://artifacts.apis.io/sana-labs/openapi/sana-labs-insights-api-openapi.yml
 - filename: sana-labs-paths-api-openapi.yml
   format: yaml
   label: Sana Paths API
   slug: sana-labs-paths-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-paths-api-openapi.yml
+  url: https://artifacts.apis.io/sana-labs/openapi/sana-labs-paths-api-openapi.yml
 - filename: sana-labs-programs-api-openapi.yml
   format: yaml
   label: Sana Programs API
   slug: sana-labs-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-programs-api-openapi.yml
+  url: https://artifacts.apis.io/sana-labs/openapi/sana-labs-programs-api-openapi.yml
 - filename: sana-labs-reporting-api-openapi.yml
   format: yaml
   label: Sana Reporting API
   slug: sana-labs-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/sana-labs/openapi/sana-labs-reporting-api-openapi.yml
 - filename: sana-labs-teamspaces-api-openapi.yml
   format: yaml
   label: Sana Teamspaces API
   slug: sana-labs-teamspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-teamspaces-api-openapi.yml
+  url: https://artifacts.apis.io/sana-labs/openapi/sana-labs-teamspaces-api-openapi.yml
 - filename: sana-labs-users-api-openapi.yml
   format: yaml
   label: Sana Users API
   slug: sana-labs-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-users-api-openapi.yml
+  url: https://artifacts.apis.io/sana-labs/openapi/sana-labs-users-api-openapi.yml
 - filename: sana-labs-x-api-api-openapi.yml
   format: yaml
   label: Sana x API
   slug: sana-labs-x-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-x-api-api-openapi.yml
+  url: https://artifacts.apis.io/sana-labs/openapi/sana-labs-x-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -102,7 +102,7 @@ source_filename: sana-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sana.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 10:25:05 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.sana.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 08:49:35 2026 GMT\n  hsts: null\n- host: <domain>.sana.ai\n  https: false\ndomains:\n- domain: sana.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/security/sana-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sana-labs/security/sana-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

@@ -11,19 +11,19 @@ api_specs:
   label: Kore.ai Chat API
   slug: koreai-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/openapi/koreai-chat-api-openapi.yml
+  url: https://artifacts.apis.io/koreai/openapi/koreai-chat-api-openapi.yml
 - filename: koreai-conversation-api-openapi.yml
   format: yaml
   label: Kore.ai Conversation API
   slug: koreai-conversation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/openapi/koreai-conversation-api-openapi.yml
+  url: https://artifacts.apis.io/koreai/openapi/koreai-conversation-api-openapi.yml
 - filename: koreai-workflows-api-openapi.yml
   format: yaml
   label: Kore.ai Workflows API
   slug: koreai-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/openapi/koreai-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/koreai/openapi/koreai-workflows-api-openapi.yml
 certification_count: 7
 certifications:
 - SOC 2 Type 2
@@ -49,7 +49,7 @@ source_yaml: "generated: '2026-08-23'\nmethod: searched\nsource: https://trust.k
   \ backups, customer data protection)\n- Secure Software Development Life Cycle\n- Responsible AI Framework\n- AI Transparency and Explainability (bias and hallucination monitoring)\n- Product security (SSO, RBAC, MFA)\n- Infrastructure and network security (firewall, anti-DDoS)\n- Business continuity and disaster recovery\n- Incident response and management\n- Security awareness and training policies\nlegal_and_commercial_documents:\n- Certificate of Liability Insurance\n- Enterprise Service Level Agreement\n- Platform License Agreement\nin_product_security_controls:\n  note: >-\n    Beyond the trust center, the platform ships customer-facing controls documented in the\n    release notes and admin docs — BYOK/KMS with Azure Key Vault and AWS, a selectable\n    KMS compliance level of GDPR / SOC2 / NIST enforced at configuration-write time, split\n    DEK-retirement and KEK-rewrap key rotation with preflight checks, PII protection,\n    guardrails, and a session-scoped encrypted secret\
   \ vault that keeps tool-returned\n    credentials out of the LLM context.\n  sources:\n  - https://docs.kore.ai/agent-platform/administration/security-observability-settings\n  - https://docs.kore.ai/agent-platform/pii-protection\n  - https://docs.kore.ai/agent-platform/release-notes/recent-updates\nvulnerability_disclosure:\n  public_policy: false\n  bug_bounty: false\n  note: >-\n    NO public vulnerability disclosure path was found. /.well-known/security.txt returns\n    404 on www.kore.ai, docs.kore.ai and agents.kore.ai and 403 on platform.kore.ai and\n    bots.kore.ai; no HackerOne, Bugcrowd or Intigriti program was found; and no\n    /security or /responsible-disclosure page exists (www.kore.ai/security returns 404).\n    The trust center lists a \"Vulnerability Management Process and SLA Policy\" document,\n    but that is an internal process description behind the request gate, not a route for an\n    outside researcher to report a finding. Because there is no public route, this\
   \ repo\n    emits no Security / VulnerabilityDisclosure pointer.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/security/koreai-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/koreai/security/koreai-trust-center.yml
 summary_line: SOC 2 Type 2, PCI DSS, ISO/IEC 27001:2022, GDPR, CCPA, EU AI Act, DESC Cloud Service Provider
 tags:
 - Company

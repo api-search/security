@@ -8,49 +8,49 @@ api_specs:
   label: 5DollarFootballAPI Bookmakers API
   slug: 5dollarfootballapi-bookmakers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/openapi/5dollarfootballapi-bookmakers-api-openapi.yml
+  url: https://artifacts.apis.io/5dollarfootballapi/openapi/5dollarfootballapi-bookmakers-api-openapi.yml
 - filename: 5dollarfootballapi-countries-api-openapi.yml
   format: yaml
   label: 5DollarFootballAPI Countries API
   slug: 5dollarfootballapi-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/openapi/5dollarfootballapi-countries-api-openapi.yml
+  url: https://artifacts.apis.io/5dollarfootballapi/openapi/5dollarfootballapi-countries-api-openapi.yml
 - filename: 5dollarfootballapi-fixtures-api-openapi.yml
   format: yaml
   label: 5DollarFootballAPI Fixtures API
   slug: 5dollarfootballapi-fixtures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/openapi/5dollarfootballapi-fixtures-api-openapi.yml
+  url: https://artifacts.apis.io/5dollarfootballapi/openapi/5dollarfootballapi-fixtures-api-openapi.yml
 - filename: 5dollarfootballapi-leagues-api-openapi.yml
   format: yaml
   label: 5DollarFootballAPI Leagues API
   slug: 5dollarfootballapi-leagues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/openapi/5dollarfootballapi-leagues-api-openapi.yml
+  url: https://artifacts.apis.io/5dollarfootballapi/openapi/5dollarfootballapi-leagues-api-openapi.yml
 - filename: 5dollarfootballapi-standings-api-openapi.yml
   format: yaml
   label: 5DollarFootballAPI Standings API
   slug: 5dollarfootballapi-standings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/openapi/5dollarfootballapi-standings-api-openapi.yml
+  url: https://artifacts.apis.io/5dollarfootballapi/openapi/5dollarfootballapi-standings-api-openapi.yml
 - filename: 5dollarfootballapi-status-api-openapi.yml
   format: yaml
   label: 5DollarFootballAPI Status API
   slug: 5dollarfootballapi-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/openapi/5dollarfootballapi-status-api-openapi.yml
+  url: https://artifacts.apis.io/5dollarfootballapi/openapi/5dollarfootballapi-status-api-openapi.yml
 - filename: 5dollarfootballapi-teams-api-openapi.yml
   format: yaml
   label: 5DollarFootballAPI Teams API
   slug: 5dollarfootballapi-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/openapi/5dollarfootballapi-teams-api-openapi.yml
+  url: https://artifacts.apis.io/5dollarfootballapi/openapi/5dollarfootballapi-teams-api-openapi.yml
 - filename: 5dollarfootballapi-bookmakers-api-openapi.yml
   format: yaml
   label: 5DollarFootballAPI Bookmakers API
   slug: 5dollarfootballapi-bookmakers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/openapi/5dollarfootballapi-bookmakers-api-openapi.yml
+  url: https://artifacts.apis.io/5dollarfootballapi/openapi/5dollarfootballapi-bookmakers-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -98,7 +98,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-11'\nmethod: derived\nsource: openapi/5dollarfootballapi-bookmakers-api-openapi.yml, openapi/5dollarfootballapi-countries-api-openapi.yml,\n  openapi/5dollarfootballapi-fixtures-api-openapi.yml, openapi/5dollarfootballapi-leagues-api-openapi.yml,\n  openapi/5dollarfootballapi-standings-api-openapi.yml, openapi/5dollarfootballapi-status-api-openapi.yml,\n  openapi/5dollarfootballapi-teams-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Send your key as `Authorization: Bearer <key>`.'\n  sources:\n  - openapi/5dollarfootballapi-bookmakers-api-openapi.yml\n  - openapi/5dollarfootballapi-countries-api-openapi.yml\n  - openapi/5dollarfootballapi-fixtures-api-openapi.yml\n  - openapi/5dollarfootballapi-leagues-api-openapi.yml\n  - openapi/5dollarfootballapi-standings-api-openapi.yml\n  - openapi/5dollarfootballapi-status-api-openapi.yml\n  - openapi/5dollarfootballapi-teams-api-openapi.yml\n\
   - name: apiKeyHeader\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: Alternative to the Authorization header.\n  sources:\n  - openapi/5dollarfootballapi-bookmakers-api-openapi.yml\n  - openapi/5dollarfootballapi-countries-api-openapi.yml\n  - openapi/5dollarfootballapi-fixtures-api-openapi.yml\n  - openapi/5dollarfootballapi-leagues-api-openapi.yml\n  - openapi/5dollarfootballapi-standings-api-openapi.yml\n  - openapi/5dollarfootballapi-status-api-openapi.yml\n  - openapi/5dollarfootballapi-teams-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/authentication/5dollarfootballapi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/5dollarfootballapi/authentication/5dollarfootballapi-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Football

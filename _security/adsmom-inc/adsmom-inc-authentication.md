@@ -7,85 +7,85 @@ api_specs:
   label: Adsmom Inc. Account API
   slug: adsmom-inc-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/openapi/adsmom-inc-account-api-openapi.yml
+  url: https://artifacts.apis.io/adsmom-inc/openapi/adsmom-inc-account-api-openapi.yml
 - filename: adsmom-inc-analytics-google-api-openapi.yml
   format: yaml
   label: Adsmom Inc. Analytics · Google API
   slug: adsmom-inc-analytics-google-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/openapi/adsmom-inc-analytics-google-api-openapi.yml
+  url: https://artifacts.apis.io/adsmom-inc/openapi/adsmom-inc-analytics-google-api-openapi.yml
 - filename: adsmom-inc-analytics-meta-api-openapi.yml
   format: yaml
   label: Adsmom Inc. Analytics · Meta API
   slug: adsmom-inc-analytics-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/openapi/adsmom-inc-analytics-meta-api-openapi.yml
+  url: https://artifacts.apis.io/adsmom-inc/openapi/adsmom-inc-analytics-meta-api-openapi.yml
 - filename: adsmom-inc-analytics-tiktok-api-openapi.yml
   format: yaml
   label: Adsmom Inc. Analytics · TikTok API
   slug: adsmom-inc-analytics-tiktok-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/openapi/adsmom-inc-analytics-tiktok-api-openapi.yml
+  url: https://artifacts.apis.io/adsmom-inc/openapi/adsmom-inc-analytics-tiktok-api-openapi.yml
 - filename: adsmom-inc-explore-google-ads-api-openapi.yml
   format: yaml
   label: Adsmom Inc. Explore · Google Ads API
   slug: adsmom-inc-explore-google-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/openapi/adsmom-inc-explore-google-ads-api-openapi.yml
+  url: https://artifacts.apis.io/adsmom-inc/openapi/adsmom-inc-explore-google-ads-api-openapi.yml
 - filename: adsmom-inc-explore-linkedin-ads-api-openapi.yml
   format: yaml
   label: Adsmom Inc. Explore · LinkedIn Ads API
   slug: adsmom-inc-explore-linkedin-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/openapi/adsmom-inc-explore-linkedin-ads-api-openapi.yml
+  url: https://artifacts.apis.io/adsmom-inc/openapi/adsmom-inc-explore-linkedin-ads-api-openapi.yml
 - filename: adsmom-inc-explore-meta-ads-api-openapi.yml
   format: yaml
   label: Adsmom Inc. Explore · Meta Ads API
   slug: adsmom-inc-explore-meta-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/openapi/adsmom-inc-explore-meta-ads-api-openapi.yml
+  url: https://artifacts.apis.io/adsmom-inc/openapi/adsmom-inc-explore-meta-ads-api-openapi.yml
 - filename: adsmom-inc-explore-tiktok-ads-api-openapi.yml
   format: yaml
   label: Adsmom Inc. Explore · TikTok Ads API
   slug: adsmom-inc-explore-tiktok-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/openapi/adsmom-inc-explore-tiktok-ads-api-openapi.yml
+  url: https://artifacts.apis.io/adsmom-inc/openapi/adsmom-inc-explore-tiktok-ads-api-openapi.yml
 - filename: adsmom-inc-insights-google-api-openapi.yml
   format: yaml
   label: Adsmom Inc. Insights · Google API
   slug: adsmom-inc-insights-google-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/openapi/adsmom-inc-insights-google-api-openapi.yml
+  url: https://artifacts.apis.io/adsmom-inc/openapi/adsmom-inc-insights-google-api-openapi.yml
 - filename: adsmom-inc-insights-instagram-organic-api-openapi.yml
   format: yaml
   label: Adsmom Inc. Insights · Instagram Organic API
   slug: adsmom-inc-insights-instagram-organic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/openapi/adsmom-inc-insights-instagram-organic-api-openapi.yml
+  url: https://artifacts.apis.io/adsmom-inc/openapi/adsmom-inc-insights-instagram-organic-api-openapi.yml
 - filename: adsmom-inc-insights-linkedin-api-openapi.yml
   format: yaml
   label: Adsmom Inc. Insights · LinkedIn API
   slug: adsmom-inc-insights-linkedin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/openapi/adsmom-inc-insights-linkedin-api-openapi.yml
+  url: https://artifacts.apis.io/adsmom-inc/openapi/adsmom-inc-insights-linkedin-api-openapi.yml
 - filename: adsmom-inc-insights-meta-api-openapi.yml
   format: yaml
   label: Adsmom Inc. Insights · Meta API
   slug: adsmom-inc-insights-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/openapi/adsmom-inc-insights-meta-api-openapi.yml
+  url: https://artifacts.apis.io/adsmom-inc/openapi/adsmom-inc-insights-meta-api-openapi.yml
 - filename: adsmom-inc-insights-tiktok-api-openapi.yml
   format: yaml
   label: Adsmom Inc. Insights · TikTok API
   slug: adsmom-inc-insights-tiktok-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/openapi/adsmom-inc-insights-tiktok-api-openapi.yml
+  url: https://artifacts.apis.io/adsmom-inc/openapi/adsmom-inc-insights-tiktok-api-openapi.yml
 - filename: adsmom-inc-insights-tiktok-organic-api-openapi.yml
   format: yaml
   label: Adsmom Inc. Insights · TikTok Organic API
   slug: adsmom-inc-insights-tiktok-organic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/openapi/adsmom-inc-insights-tiktok-organic-api-openapi.yml
+  url: https://artifacts.apis.io/adsmom-inc/openapi/adsmom-inc-insights-tiktok-organic-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://a
   \  - none\n  - client_secret_post\n  scopes_supported:\n  - mcp:invoke\n  - api:read\n  - api:write\n  - billing:read\n  authorization_response_iss_parameter_supported: true\n  dynamic_client_registration: true\n  file: well-known/adsmom-inc-oauth-authorization-server.json\n\nprotected_resources:\n- resource: https://app.adsmom.com\n  authorization_servers:\n  - https://app.adsmom.com\n  scopes_supported:\n  - mcp:invoke\n  file: well-known/adsmom-inc-oauth-protected-resource.json\n- resource: https://app.adsmom.com/mcp\n  authorization_servers:\n  - https://app.adsmom.com/mcp\n  scopes_supported:\n  - mcp:invoke\n  file: well-known/adsmom-inc-mcp-oauth-protected-resource.json\n  note: >-\n    The MCP-scoped protected-resource document names its own `mcp` path as the\n    authorization server; the root document and the WWW-Authenticate challenge\n    both name https://app.adsmom.com. Treat the issuer as https://app.adsmom.com.\n\nchallenges:\n- surface: REST\n  url: https://api.adsmom.com/api/v1/usage\n\
   \  http_status: 401\n  content_type: application/problem+json\n  www_authenticate: Bearer resource_metadata=\"https://app.adsmom.com/.well-known/oauth-protected-resource\"\n- surface: MCP\n  url: https://api.adsmom.com/mcp\n  http_status: 401\n  content_type: application/json\n  www_authenticate: Bearer realm=\"mcp\", resource_metadata=\"https://app.adsmom.com/.well-known/oauth-protected-resource/mcp\"\n\nflows:\n- name: client_credentials\n  use: server-to-server REST access (pipelines, internal tools, scheduled jobs)\n  evidence: >-\n    `client_credentials` is listed in grant_types_supported on the root\n    authorization-server metadata, and the OpenAPI info.description says\n    \"Authenticate with OAuth 2.0 client_credentials\".\n- name: authorization_code\n  use: interactive MCP client connection (Claude, Codex, Cursor, Gemini)\n  pkce: required (S256 is the only code_challenge_method offered)\n  evidence: >-\n    The /mcp-scoped authorization-server metadata offers only authorization_code\n\
   \    + refresh_token with token_endpoint_auth_methods_supported [\"none\"], the\n    public-client shape MCP clients use.\n\ncredentials:\n  provisioning: >-\n    Created by the account holder from the Integrations section of\n    https://app.adsmom.com/. Not self-service outside a paid plan — API and MCP\n    access are included on all paid tiers (see plans/adsmom-inc-plans.yml).\n  rotation: not documented publicly\n  cross_links:\n    scopes: scopes/adsmom-inc-scopes.yml\n    well_known: well-known/adsmom-inc-well-known.yml\n    conventions: conventions/adsmom-inc-conventions.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/authentication/adsmom-inc-authentication.yml
+source_yaml_url: https://artifacts.apis.io/adsmom-inc/authentication/adsmom-inc-authentication.yml
 summary_line: http/oauth2 · 1 scheme
 tags:
 - Company

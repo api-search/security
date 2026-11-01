@@ -37,7 +37,7 @@ source_filename: meal-ticket-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://login.mealticket.com/.well-known/openid-configuration\nsummary:\n  types: [openIdConnect]\n  surface: customer-login-sso\n  note: >-\n    Meal Ticket exposes an OpenID Connect provider for its customer / product\n    login (login.mealticket.com). No public developer API or API-key/OAuth\n    developer program is documented, so this profile captures the identity/SSO\n    surface only.\nschemes:\n- name: OpenIDConnect\n  type: openIdConnect\n  openIdConnectUrl: https://login.mealticket.com/.well-known/openid-configuration\n  issuer: https://login.mealticket.com/\n  authorization_endpoint: https://login.mealticket.com/authorize\n  token_endpoint: https://login.mealticket.com/auth/token\n  jwks_uri: https://login.mealticket.com/.well-known/jwks.json\n  response_types: [code]\n  id_token_signing_alg: [RS256]\n  scopes: [openid, email]\n  sources: [well-known/meal-ticket-openid-configuration.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meal-ticket/refs/heads/main/authentication/meal-ticket-authentication.yml
+source_yaml_url: https://artifacts.apis.io/meal-ticket/authentication/meal-ticket-authentication.yml
 summary_line: openIdConnect · 1 scheme
 tags:
 - Company

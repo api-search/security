@@ -7,283 +7,283 @@ api_specs:
   label: Customer.io Track API
   slug: track-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-track-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-track-api-openapi.yml
 - filename: customer-io-activities-api-openapi.yml
   format: yaml
   label: Customer.io Activities API
   slug: customer-io-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-activities-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-activities-api-openapi.yml
 - filename: customer-io-alias-api-openapi.yml
   format: yaml
   label: Customer.io Alias API
   slug: customer-io-alias-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-alias-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-alias-api-openapi.yml
 - filename: customer-io-batch-api-openapi.yml
   format: yaml
   label: Customer.io Batch API
   slug: customer-io-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-batch-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-batch-api-openapi.yml
 - filename: customer-io-broadcasts-api-openapi.yml
   format: yaml
   label: Customer.io Broadcasts API
   slug: customer-io-broadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-broadcasts-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-broadcasts-api-openapi.yml
 - filename: customer-io-collections-api-openapi.yml
   format: yaml
   label: Customer.io Collections API
   slug: customer-io-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-collections-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-collections-api-openapi.yml
 - filename: customer-io-customers-api-openapi.yml
   format: yaml
   label: Customer.io Customers API
   slug: customer-io-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-customers-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-customers-api-openapi.yml
 - filename: customer-io-exports-api-openapi.yml
   format: yaml
   label: Customer.io Exports API
   slug: customer-io-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-exports-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-exports-api-openapi.yml
 - filename: customer-io-group-api-openapi.yml
   format: yaml
   label: Customer.io Group API
   slug: customer-io-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-group-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-group-api-openapi.yml
 - filename: customer-io-identify-api-openapi.yml
   format: yaml
   label: Customer.io Identify API
   slug: customer-io-identify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-identify-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-identify-api-openapi.yml
 - filename: customer-io-messages-api-openapi.yml
   format: yaml
   label: Customer.io Messages API
   slug: customer-io-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-messages-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-messages-api-openapi.yml
 - filename: customer-io-newsletters-api-openapi.yml
   format: yaml
   label: Customer.io Newsletters API
   slug: customer-io-newsletters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-newsletters-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-newsletters-api-openapi.yml
 - filename: customer-io-page-api-openapi.yml
   format: yaml
   label: Customer.io Page API
   slug: customer-io-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-page-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-page-api-openapi.yml
 - filename: customer-io-screen-api-openapi.yml
   format: yaml
   label: Customer.io Screen API
   slug: customer-io-screen-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-screen-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-screen-api-openapi.yml
 - filename: customer-io-segments-api-openapi.yml
   format: yaml
   label: Customer.io Segments API
   slug: customer-io-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-segments-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-segments-api-openapi.yml
 - filename: customer-io-sender-identities-api-openapi.yml
   format: yaml
   label: Customer.io Sender Identities API
   slug: customer-io-sender-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-sender-identities-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-sender-identities-api-openapi.yml
 - filename: customer-io-snippets-api-openapi.yml
   format: yaml
   label: Customer.io Snippets API
   slug: customer-io-snippets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-snippets-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-snippets-api-openapi.yml
 - filename: customer-io-transactional-api-openapi.yml
   format: yaml
   label: Customer.io Transactional API
   slug: customer-io-transactional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-transactional-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-transactional-api-openapi.yml
 - filename: customer-io-assets-api-openapi.yml
   format: yaml
   label: Customer.io Assets API
   slug: customer-io-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-assets-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-assets-api-openapi.yml
 - filename: customer-io-data-index-api-openapi.yml
   format: yaml
   label: Customer.io Data Index API
   slug: customer-io-data-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-data-index-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-data-index-api-openapi.yml
 - filename: customer-io-esp-suppression-api-openapi.yml
   format: yaml
   label: Customer.io ESP Suppression API
   slug: customer-io-esp-suppression-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-esp-suppression-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-esp-suppression-api-openapi.yml
 - filename: customer-io-forms-api-openapi.yml
   format: yaml
   label: Customer.io Forms API
   slug: customer-io-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-forms-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-forms-api-openapi.yml
 - filename: customer-io-imports-api-openapi.yml
   format: yaml
   label: Customer.io Imports API
   slug: customer-io-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-imports-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-imports-api-openapi.yml
 - filename: customer-io-info-api-openapi.yml
   format: yaml
   label: Customer.io Info API
   slug: customer-io-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-info-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-info-api-openapi.yml
 - filename: customer-io-live-notifications-api-openapi.yml
   format: yaml
   label: Customer.io Live Notifications API
   slug: customer-io-live-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-live-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-live-notifications-api-openapi.yml
 - filename: customer-io-newsletter-metrics-api-openapi.yml
   format: yaml
   label: Customer.io Newsletter Metrics API
   slug: customer-io-newsletter-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-newsletter-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-newsletter-metrics-api-openapi.yml
 - filename: customer-io-newsletter-variants-api-openapi.yml
   format: yaml
   label: Customer.io Newsletter Variants API
   slug: customer-io-newsletter-variants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-newsletter-variants-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-newsletter-variants-api-openapi.yml
 - filename: customer-io-objects-api-openapi.yml
   format: yaml
   label: Customer.io Objects API
   slug: customer-io-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-objects-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-objects-api-openapi.yml
 - filename: customer-io-opt-outs-api-openapi.yml
   format: yaml
   label: Customer.io Opt Outs API
   slug: customer-io-opt-outs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-opt-outs-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-opt-outs-api-openapi.yml
 - filename: customer-io-reporting-webhooks-api-openapi.yml
   format: yaml
   label: Customer.io Reporting Webhooks API
   slug: customer-io-reporting-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-reporting-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-reporting-webhooks-api-openapi.yml
 - filename: customer-io-send-messages-api-openapi.yml
   format: yaml
   label: Customer.io Send Messages API
   slug: customer-io-send-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-send-messages-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-send-messages-api-openapi.yml
 - filename: customer-io-subscription-center-api-openapi.yml
   format: yaml
   label: Customer.io Subscription Center API
   slug: customer-io-subscription-center-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-subscription-center-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-subscription-center-api-openapi.yml
 - filename: customer-io-track-customers-api-openapi.yml
   format: yaml
   label: Customer.io Track Customers API
   slug: customer-io-track-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-track-customers-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-track-customers-api-openapi.yml
 - filename: customer-io-track-events-api-openapi.yml
   format: yaml
   label: Customer.io Track Events API
   slug: customer-io-track-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-track-events-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-track-events-api-openapi.yml
 - filename: customer-io-track-segments-api-openapi.yml
   format: yaml
   label: Customer.io Track Segments API
   slug: customer-io-track-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-track-segments-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-track-segments-api-openapi.yml
 - filename: customer-io-track-v2-api-openapi.yml
   format: yaml
   label: Customer.io Track V2 API
   slug: customer-io-track-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-track-v2-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-track-v2-api-openapi.yml
 - filename: customer-io-trackregion-api-openapi.yml
   format: yaml
   label: Customer.io Track Region API
   slug: customer-io-trackregion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-trackregion-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-trackregion-api-openapi.yml
 - filename: customer-io-workspaces-api-openapi.yml
   format: yaml
   label: Customer.io Workspaces API
   slug: customer-io-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-workspaces-api-openapi.yml
 - filename: customer-io-automations-api-openapi.yml
   format: yaml
   label: Customer.io Automations API
   slug: customer-io-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-automations-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-automations-api-openapi.yml
 - filename: customer-io-components-api-openapi.yml
   format: yaml
   label: Customer.io Components API
   slug: customer-io-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-components-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-components-api-openapi.yml
 - filename: customer-io-customer-io-journeys-api-reference-api-openapi.yml
   format: yaml
   label: Customer.io Customer.io Journeys API Reference API
   slug: customer-io-customer-io-journeys-api-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-customer-io-journeys-api-reference-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-customer-io-journeys-api-reference-api-openapi.yml
 - filename: customer-io-email-link-and-publish-api-openapi.yml
   format: yaml
   label: Customer.io Email link and publish API
   slug: customer-io-email-link-and-publish-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-email-link-and-publish-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-email-link-and-publish-api-openapi.yml
 - filename: customer-io-email-testing-api-openapi.yml
   format: yaml
   label: Customer.io Email testing API
   slug: customer-io-email-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-email-testing-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-email-testing-api-openapi.yml
 - filename: customer-io-emails-api-openapi.yml
   format: yaml
   label: Customer.io Emails API
   slug: customer-io-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-emails-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-emails-api-openapi.yml
 - filename: customer-io-folders-api-openapi.yml
   format: yaml
   label: Customer.io Folders API
   slug: customer-io-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-folders-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-folders-api-openapi.yml
 - filename: customer-io-sms-api-openapi.yml
   format: yaml
   label: Customer.io SMS API
   slug: customer-io-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-sms-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-sms-api-openapi.yml
 - filename: customer-io-sms-link-and-publish-api-openapi.yml
   format: yaml
   label: Customer.io SMS link and publish API
   slug: customer-io-sms-link-and-publish-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-sms-link-and-publish-api-openapi.yml
+  url: https://artifacts.apis.io/customer-io/openapi/customer-io-sms-link-and-publish-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -385,7 +385,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://d
   \  - https://track.customer.io\n  - https://track-eu.customer.io\n  credential: Site ID + API key\n  description: >-\n    HTTP basic authentication. The username is the workspace Site ID and the\n    password is the Track API key, base64-encoded as site_id:api_key.\n  create_at: https://fly.customer.io/settings/api_credentials\n  sources:\n  - openapi/_original/customer-io-track-api-openapi.json\n- name: Basic-Auth\n  type: http\n  scheme: basic\n  api: Pipelines API (CDP)\n  base_urls:\n  - https://cdp.customer.io/v1\n  - https://cdp-eu.customer.io/v1\n  credential: CDP API key\n  description: >-\n    HTTP basic authentication where the CDP API key is the username and the\n    password is left blank, base64-encoded as API_key: — the Segment-spec\n    convention.\n  sources:\n  - openapi/_original/customer-io-pipelines-api-openapi.json\n- name: MCP-OAuth\n  type: oauth2\n  flow: authorization_code\n  api: Customer.io MCP\n  base_urls:\n  - https://mcp.customer.io/mcp\n  - https://mcp-eu.customer.io/mcp\n\
   \  description: >-\n    OAuth 2.1 authorization code with PKCE. Dynamic client registration is\n    supported (RFC 7591), and the metadata is published anonymously at\n    /.well-known/oauth-authorization-server and\n    /.well-known/oauth-protected-resource. Each user authorizes with their own\n    Customer.io login, so a connection can never exceed that person's\n    permissions.\n  authorization_endpoint: https://mcp.customer.io/oauth2/authorize\n  token_endpoint: https://mcp.customer.io/oauth2/token\n  registration_endpoint: https://mcp.customer.io/oauth2/register\n  revocation_endpoint: https://mcp.customer.io/oauth2/revoke\n  code_challenge_methods:\n  - S256\n  - plain\n  scopes: scopes/customer-io-scopes.yml\n  sources:\n  - well-known/customer-io-oauth-authorization-server.json\n  - well-known/customer-io-oauth-protected-resource.json\nregions:\n  note: >-\n    Every surface is regionalised. A US credential does not work against an EU\n    host and vice versa. The Track API exposes\
   \ GET /api/v1/accounts/region\n    (operationId getRegion) so a client can discover which region a workspace\n    lives in.\n  discovery_operation: getRegion\nwebhook_verification:\n  header_timestamp: x-cio-timestamp\n  header_signature: x-cio-signature\n  algorithm: HMAC-SHA256\n  description: >-\n    Reporting webhooks are signed. x-cio-signature is an HMAC-SHA256 of the\n    request body keyed with the webhook signing key, and x-cio-timestamp carries\n    the send time so replays can be rejected.\n  source: openapi/_original/customer-io-reporting-webhooks-openapi.json\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/authentication/customer-io-authentication.yml
+source_yaml_url: https://artifacts.apis.io/customer-io/authentication/customer-io-authentication.yml
 summary_line: http/oauth2 · 5 schemes
 tags:
 - Behavioral Data

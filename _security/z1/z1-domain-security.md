@@ -27,7 +27,7 @@ source_filename: z1-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bunch.live\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 23:50:26 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: bunch.live\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/z1/refs/heads/main/security/z1-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/z1/security/z1-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company

@@ -7,91 +7,91 @@ api_specs:
   label: GitDealFlow Agents API
   slug: gitdealflow-com-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-agents-api-openapi.yml
+  url: https://artifacts.apis.io/gitdealflow-com/openapi/gitdealflow-com-agents-api-openapi.yml
 - filename: gitdealflow-com-answer-api-openapi.yml
   format: yaml
   label: GitDealFlow Answer API
   slug: gitdealflow-com-answer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-answer-api-openapi.yml
+  url: https://artifacts.apis.io/gitdealflow-com/openapi/gitdealflow-com-answer-api-openapi.yml
 - filename: gitdealflow-com-badges-api-openapi.yml
   format: yaml
   label: GitDealFlow Badges API
   slug: gitdealflow-com-badges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-badges-api-openapi.yml
+  url: https://artifacts.apis.io/gitdealflow-com/openapi/gitdealflow-com-badges-api-openapi.yml
 - filename: gitdealflow-com-brand-api-openapi.yml
   format: yaml
   label: GitDealFlow Brand API
   slug: gitdealflow-com-brand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-brand-api-openapi.yml
+  url: https://artifacts.apis.io/gitdealflow-com/openapi/gitdealflow-com-brand-api-openapi.yml
 - filename: gitdealflow-com-business-model-api-openapi.yml
   format: yaml
   label: GitDealFlow Business Model API
   slug: gitdealflow-com-business-model-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-business-model-api-openapi.yml
+  url: https://artifacts.apis.io/gitdealflow-com/openapi/gitdealflow-com-business-model-api-openapi.yml
 - filename: gitdealflow-com-citation-api-openapi.yml
   format: yaml
   label: GitDealFlow Citation API
   slug: gitdealflow-com-citation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-citation-api-openapi.yml
+  url: https://artifacts.apis.io/gitdealflow-com/openapi/gitdealflow-com-citation-api-openapi.yml
 - filename: gitdealflow-com-community-api-openapi.yml
   format: yaml
   label: GitDealFlow Community API
   slug: gitdealflow-com-community-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-community-api-openapi.yml
+  url: https://artifacts.apis.io/gitdealflow-com/openapi/gitdealflow-com-community-api-openapi.yml
 - filename: gitdealflow-com-deep-signal-api-openapi.yml
   format: yaml
   label: GitDealFlow Deep Signal API
   slug: gitdealflow-com-deep-signal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-deep-signal-api-openapi.yml
+  url: https://artifacts.apis.io/gitdealflow-com/openapi/gitdealflow-com-deep-signal-api-openapi.yml
 - filename: gitdealflow-com-glossary-api-openapi.yml
   format: yaml
   label: GitDealFlow Glossary API
   slug: gitdealflow-com-glossary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-glossary-api-openapi.yml
+  url: https://artifacts.apis.io/gitdealflow-com/openapi/gitdealflow-com-glossary-api-openapi.yml
 - filename: gitdealflow-com-markets-api-openapi.yml
   format: yaml
   label: GitDealFlow Markets API
   slug: gitdealflow-com-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-markets-api-openapi.yml
+  url: https://artifacts.apis.io/gitdealflow-com/openapi/gitdealflow-com-markets-api-openapi.yml
 - filename: gitdealflow-com-meta-api-openapi.yml
   format: yaml
   label: GitDealFlow Meta API
   slug: gitdealflow-com-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-meta-api-openapi.yml
+  url: https://artifacts.apis.io/gitdealflow-com/openapi/gitdealflow-com-meta-api-openapi.yml
 - filename: gitdealflow-com-methodology-api-openapi.yml
   format: yaml
   label: GitDealFlow Methodology API
   slug: gitdealflow-com-methodology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-methodology-api-openapi.yml
+  url: https://artifacts.apis.io/gitdealflow-com/openapi/gitdealflow-com-methodology-api-openapi.yml
 - filename: gitdealflow-com-scout-api-openapi.yml
   format: yaml
   label: GitDealFlow Scout API
   slug: gitdealflow-com-scout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-scout-api-openapi.yml
+  url: https://artifacts.apis.io/gitdealflow-com/openapi/gitdealflow-com-scout-api-openapi.yml
 - filename: gitdealflow-com-search-api-openapi.yml
   format: yaml
   label: GitDealFlow Search API
   slug: gitdealflow-com-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-search-api-openapi.yml
+  url: https://artifacts.apis.io/gitdealflow-com/openapi/gitdealflow-com-search-api-openapi.yml
 - filename: gitdealflow-com-signals-api-openapi.yml
   format: yaml
   label: GitDealFlow Signals API
   slug: gitdealflow-com-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-signals-api-openapi.yml
+  url: https://artifacts.apis.io/gitdealflow-com/openapi/gitdealflow-com-signals-api-openapi.yml
 auth_types:
 - none
 - http-bearer
@@ -157,7 +157,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/gitdeal
   \ scout predict) and the MCP/A2A/NLWeb endpoints\n  observed: 200 anonymous on /api/signals.json, /api/openapi.json, MCP initialize/tools/list, A2A tasks/get, NLWeb GET\n- name: creditPackKey\n  type: http\n  scheme: bearer\n  bearerFormat: gdf_v2.<customerId>.<hmac>\n  description: Per-request credit-pack API key delivered by email after Stripe checkout (EUR 19 = 100 credits). HMAC-keyed, validated without a database lookup per the credits page. Format gdf_v2.<stripe_customer_id>.<hmac16>.\n  header: 'Authorization: Bearer gdf_v2.…'\n  operations: [getDeepSignal, redeemDeepSignalSolana, getCredits]\n  mcp_env: GITDEALFLOW_API_KEY (stdio package, paid tools)\n  failure: 401 {\"error\":\"missing_api_key\", ...purchaseUrl, x402Url} (observed); 402 when credits are exhausted\n  obtain: https://signals.gitdealflow.com/agents/credits\n  rotation: 'support page: never email the full key; send the first eight characters and support verifies or rotates it'\n  sources: [openapi/gitdealflow-com-signals-openapi.yml]\n\
   - name: x402\n  type: payment\n  scheme: x402 (HTTP 402 + EIP-3009 transferWithAuthorization, USDC on Base mainnet)\n  header: X-PAYMENT (request) / X-PAYMENT-RESPONSE and PAYMENT-REQUIRED (response)\n  operations: [getDeepSignalX402]\n  description: No account or key; the agent's wallet signs each request. 402 challenge observed with accepts[] {scheme exact, network base, asset 0x8335…2913 USDC, maxAmountRequired 190000, maxTimeoutSeconds 30}; settled by the Coinbase x402 facilitator. Misses (404) are not charged.\n- name: oauth2-client-credentials\n  type: oauth2\n  flow: clientCredentials\n  token_url: https://signals.gitdealflow.com/api/oauth/token\n  scopes: {mcp:read: Read access to the MCP server}\n  client_authentication: none (anonymous clients receive a token)\n  required: false\n  applies_to: https://signals.gitdealflow.com/api/mcp/rpc\n  metadata: https://signals.gitdealflow.com/.well-known/oauth-authorization-server\n  observed: POST grant_type=client_credentials&scope=mcp:read\
   \ -> 200, Bearer JWT, expires_in 3600\n  detail: scopes/gitdealflow-com-scopes.yml\nkey_prefixes:\n  gdf_v2: credit-pack API key (paid REST routes / paid MCP tool)\ntest_mode: none — no sandbox or test keys are published (sandbox/ intentionally absent)\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/authentication/gitdealflow-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gitdealflow-com/authentication/gitdealflow-com-authentication.yml
 summary_line: none/http-bearer/x402-payment/oauth2-client-credentials · 4 schemes
 tags:
 - Venture Capital

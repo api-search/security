@@ -5,19 +5,19 @@ api_specs:
   label: Wealth-X Dossiers API
   slug: wealth-x-dossiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/openapi/wealth-x-dossiers-api-openapi.yml
+  url: https://artifacts.apis.io/wealth-x/openapi/wealth-x-dossiers-api-openapi.yml
 - filename: wealth-x-reference-api-openapi.yml
   format: yaml
   label: Wealth-X Reference API
   slug: wealth-x-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/openapi/wealth-x-reference-api-openapi.yml
+  url: https://artifacts.apis.io/wealth-x/openapi/wealth-x-reference-api-openapi.yml
 - filename: wealth-x-search-api-openapi.yml
   format: yaml
   label: Wealth-X Search API
   slug: wealth-x-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/openapi/wealth-x-search-api-openapi.yml
+  url: https://artifacts.apis.io/wealth-x/openapi/wealth-x-search-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -39,7 +39,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: https://altrata
   \ Letter\" is published on the page.\n    source: https://altrata.com/altratas-privacy-promise\nregulatory_compliance:\n  - regime: GDPR\n    posture: >-\n      Data controller relying on legitimate interests as its Article 6(1) lawful\n      basis, with documented Legitimate Interest Assessments and Standard\n      Contractual Clauses where applicable.\n    source: https://altrata.com/altratas-privacy-promise\n  - regime: CCPA / CPRA\n    posture: >-\n      Compliant, with a published \"Do Not Sell\" rights process and independent\n      CCPA Validation.\n    source: https://altrata.com/altratas-privacy-promise\n  - regime: China PIPL\n    posture: Named as a standard Altrata states it is compliant with.\n    source: https://altrata.com/altratas-privacy-promise\n  - regime: US state data broker registration\n    posture: >-\n      Altrata holds current data broker registrations in California, Oregon,\n      Texas and Vermont — material for a provider whose product is third-party\n   \
   \   personal data on private individuals.\n    source: https://altrata.com/altratas-privacy-promise\nsecurity_practices:\n  - practice: Independent annual third-party security assessment\n    source: https://altrata.com/altratas-privacy-promise\n  - practice: Continuous penetration testing\n    source: https://altrata.com/altratas-privacy-promise\n  - practice: Patch and vulnerability management process\n    source: https://altrata.com/altratas-privacy-promise\n  - practice: Documented data deletion policy\n    source: https://altrata.com/altratas-privacy-promise\n  - practice: Security-by-design process and personnel security training\n    source: https://altrata.com/altratas-privacy-promise\ngaps:\n  - No published security.txt on wealthx.com, connect.wealthx.com or altrata.com (all 404).\n  - No vulnerability disclosure policy or bug bounty program found.\n  - No self-serve trust portal; every artifact is gated behind a sales conversation.\n  - No compliance page on wealthx.com itself\
   \ — the entire posture is published under the parent brand.\nevidence:\n  - url: https://altrata.com/altratas-privacy-promise\n    status: 200\n  - url: https://wealthx.com/llms.txt\n    status: 200\n    note: '\"Altrata is a subsidiary of Delinian and is SOC 2 certified.\" — served from Wealth-X''s own domain.'\n  - url: https://altrata.com/.well-known/security.txt\n    status: 404\n  - url: https://wealthx.com/.well-known/security.txt\n    status: 404\n  - url: https://trust.altrata.com/\n    status: 0\n    note: Host does not resolve.\n  - url: https://altrata.com/compliance\n    status: 404\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/security/wealth-x-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/wealth-x/security/wealth-x-trust-center.yml
 summary_line: SOC 2, CCPA Validation
 tags:
 - Company

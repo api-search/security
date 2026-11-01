@@ -5,37 +5,37 @@ api_specs:
   label: Packlink Clients API
   slug: packlink-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/openapi/packlink-clients-api-openapi.yml
+  url: https://artifacts.apis.io/packlink/openapi/packlink-clients-api-openapi.yml
 - filename: packlink-customs-api-openapi.yml
   format: yaml
   label: Packlink Customs API
   slug: packlink-customs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/openapi/packlink-customs-api-openapi.yml
+  url: https://artifacts.apis.io/packlink/openapi/packlink-customs-api-openapi.yml
 - filename: packlink-integrations-api-openapi.yml
   format: yaml
   label: Packlink Integrations API
   slug: packlink-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/openapi/packlink-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/packlink/openapi/packlink-integrations-api-openapi.yml
 - filename: packlink-locations-api-openapi.yml
   format: yaml
   label: Packlink Locations API
   slug: packlink-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/openapi/packlink-locations-api-openapi.yml
+  url: https://artifacts.apis.io/packlink/openapi/packlink-locations-api-openapi.yml
 - filename: packlink-services-api-openapi.yml
   format: yaml
   label: Packlink Services API
   slug: packlink-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/openapi/packlink-services-api-openapi.yml
+  url: https://artifacts.apis.io/packlink/openapi/packlink-services-api-openapi.yml
 - filename: packlink-shipments-api-openapi.yml
   format: yaml
   label: Packlink Shipments API
   slug: packlink-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/openapi/packlink-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/packlink/openapi/packlink-shipments-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: packlink-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.packlink.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 20:06:55 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: packlink.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/security/packlink-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/packlink/security/packlink-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

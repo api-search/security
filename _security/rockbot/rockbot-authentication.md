@@ -7,37 +7,37 @@ api_specs:
   label: Rockbot Audio Messaging API
   slug: rockbot-audio-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockbot/refs/heads/main/openapi/rockbot-audio-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/rockbot/openapi/rockbot-audio-messaging-api-openapi.yml
 - filename: rockbot-auth-api-openapi.yml
   format: yaml
   label: Rockbot Auth API
   slug: rockbot-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockbot/refs/heads/main/openapi/rockbot-auth-api-openapi.yml
+  url: https://artifacts.apis.io/rockbot/openapi/rockbot-auth-api-openapi.yml
 - filename: rockbot-data-api-openapi.yml
   format: yaml
   label: Rockbot Data API
   slug: rockbot-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockbot/refs/heads/main/openapi/rockbot-data-api-openapi.yml
+  url: https://artifacts.apis.io/rockbot/openapi/rockbot-data-api-openapi.yml
 - filename: rockbot-devices-api-openapi.yml
   format: yaml
   label: Rockbot Devices API
   slug: rockbot-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockbot/refs/heads/main/openapi/rockbot-devices-api-openapi.yml
+  url: https://artifacts.apis.io/rockbot/openapi/rockbot-devices-api-openapi.yml
 - filename: rockbot-music-api-openapi.yml
   format: yaml
   label: Rockbot Music API
   slug: rockbot-music-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockbot/refs/heads/main/openapi/rockbot-music-api-openapi.yml
+  url: https://artifacts.apis.io/rockbot/openapi/rockbot-music-api-openapi.yml
 - filename: rockbot-signage-api-openapi.yml
   format: yaml
   label: Rockbot Signage API
   slug: rockbot-signage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockbot/refs/heads/main/openapi/rockbot-signage-api-openapi.yml
+  url: https://artifacts.apis.io/rockbot/openapi/rockbot-signage-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -131,7 +131,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://d
   \      saved: well-known/rockbot-mcp-authorization-server.json\n    issuer: https://auth.rockbot.com/application/o/mcp-server/\n    software: authentik 2026.5.4\n    authorization_endpoint: https://auth.rockbot.com/application/o/authorize/\n    token_endpoint: https://auth.rockbot.com/application/o/token/\n    userinfo_endpoint: https://auth.rockbot.com/application/o/userinfo/\n    introspection_endpoint: https://auth.rockbot.com/application/o/introspect/\n    revocation_endpoint: https://auth.rockbot.com/application/o/revoke/\n    device_authorization_endpoint: https://auth.rockbot.com/application/o/device/\n    jwks_uri: https://auth.rockbot.com/application/o/mcp-server/jwks/\n    grant_types_supported:\n      - authorization_code\n      - refresh_token\n      - implicit\n      - client_credentials\n      - password\n      - urn:ietf:params:oauth:grant-type:device_code\n    token_endpoint_auth_methods_supported:\n      - client_secret_post\n      - client_secret_basic\n    code_challenge_methods_supported:\
   \ [S256, plain]\n    id_token_signing_alg_values_supported: [RS256]\n    scopes_supported: [openid, email, profile]\n    bearer_methods_supported: [header]\n    challenge: >-\n      An unauthenticated call returns HTTP 401 with body `no bearer token` and\n      WWW-Authenticate: Bearer\n      resource_metadata=\"https://api.rockbot.com/.well-known/oauth-protected-resource/v5/mcp\"\n    onboarding: >-\n      Not documented. No public client registration endpoint is advertised\n      (registration_endpoint is absent from the discovery document), and dynamic\n      client registration was not offered, so obtaining MCP credentials appears\n      to require Rockbot to provision them.\n    description: >-\n      OpenID Connect / OAuth 2.0 against Rockbot's self-hosted authentik. Used\n      only by the MCP surface. Advertises standard OIDC scopes; no Rockbot\n      resource scopes appear in discovery.\n    sources:\n      - https://api.rockbot.com/.well-known/oauth-protected-resource\n     \
   \ - https://auth.rockbot.com/application/o/mcp-server/.well-known/openid-configuration\n      - mcp/rockbot-mcp.yml\nobservations:\n  - >-\n    PKCE is supported (S256), but `plain` is also advertised, and the implicit\n    and password grants remain enabled on the authentik provider. Those are\n    deprecated grants and are worth flagging to Rockbot.\n  - >-\n    Invalid client credentials at the REST token endpoint return HTTP 500, not\n    401/400 — see errors/rockbot-problem-types.yml. Clients must not treat that\n    500 as retryable.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rockbot/refs/heads/main/authentication/rockbot-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rockbot/authentication/rockbot-authentication.yml
 summary_line: oauth2/openIdConnect · 2 schemes
 tags:
 - Company

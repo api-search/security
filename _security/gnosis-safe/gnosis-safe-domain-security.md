@@ -5,73 +5,73 @@ api_specs:
   label: Safe (Gnosis Safe) about API
   slug: gnosis-safe-about-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/openapi/gnosis-safe-about-api-openapi.yml
+  url: https://artifacts.apis.io/gnosis-safe/openapi/gnosis-safe-about-api-openapi.yml
 - filename: gnosis-safe-analytics-api-openapi.yml
   format: yaml
   label: Safe (Gnosis Safe) analytics API
   slug: gnosis-safe-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/openapi/gnosis-safe-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/gnosis-safe/openapi/gnosis-safe-analytics-api-openapi.yml
 - filename: gnosis-safe-contracts-api-openapi.yml
   format: yaml
   label: Safe (Gnosis Safe) Contracts API
   slug: gnosis-safe-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/openapi/gnosis-safe-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/gnosis-safe/openapi/gnosis-safe-contracts-api-openapi.yml
 - filename: gnosis-safe-data-decoder-api-openapi.yml
   format: yaml
   label: Safe (Gnosis Safe) Data Decoder API
   slug: gnosis-safe-data-decoder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/openapi/gnosis-safe-data-decoder-api-openapi.yml
+  url: https://artifacts.apis.io/gnosis-safe/openapi/gnosis-safe-data-decoder-api-openapi.yml
 - filename: gnosis-safe-delegates-api-openapi.yml
   format: yaml
   label: Safe (Gnosis Safe) Delegates API
   slug: gnosis-safe-delegates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/openapi/gnosis-safe-delegates-api-openapi.yml
+  url: https://artifacts.apis.io/gnosis-safe/openapi/gnosis-safe-delegates-api-openapi.yml
 - filename: gnosis-safe-messages-api-openapi.yml
   format: yaml
   label: Safe (Gnosis Safe) Messages API
   slug: gnosis-safe-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/openapi/gnosis-safe-messages-api-openapi.yml
+  url: https://artifacts.apis.io/gnosis-safe/openapi/gnosis-safe-messages-api-openapi.yml
 - filename: gnosis-safe-modules-api-openapi.yml
   format: yaml
   label: Safe (Gnosis Safe) Modules API
   slug: gnosis-safe-modules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/openapi/gnosis-safe-modules-api-openapi.yml
+  url: https://artifacts.apis.io/gnosis-safe/openapi/gnosis-safe-modules-api-openapi.yml
 - filename: gnosis-safe-owners-api-openapi.yml
   format: yaml
   label: Safe (Gnosis Safe) Owners API
   slug: gnosis-safe-owners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/openapi/gnosis-safe-owners-api-openapi.yml
+  url: https://artifacts.apis.io/gnosis-safe/openapi/gnosis-safe-owners-api-openapi.yml
 - filename: gnosis-safe-safes-api-openapi.yml
   format: yaml
   label: Safe (Gnosis Safe) Safes API
   slug: gnosis-safe-safes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/openapi/gnosis-safe-safes-api-openapi.yml
+  url: https://artifacts.apis.io/gnosis-safe/openapi/gnosis-safe-safes-api-openapi.yml
 - filename: gnosis-safe-tokens-api-openapi.yml
   format: yaml
   label: Safe (Gnosis Safe) Tokens API
   slug: gnosis-safe-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/openapi/gnosis-safe-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/gnosis-safe/openapi/gnosis-safe-tokens-api-openapi.yml
 - filename: gnosis-safe-transactions-api-openapi.yml
   format: yaml
   label: Safe (Gnosis Safe) Transactions API
   slug: gnosis-safe-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/openapi/gnosis-safe-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/gnosis-safe/openapi/gnosis-safe-transactions-api-openapi.yml
 - filename: gnosis-safe-tx-service-api-openapi.yml
   format: yaml
   label: Safe (Gnosis Safe) Tx Service API
   slug: gnosis-safe-tx-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/openapi/gnosis-safe-tx-service-api-openapi.yml
+  url: https://artifacts.apis.io/gnosis-safe/openapi/gnosis-safe-tx-service-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -117,7 +117,7 @@ source_filename: gnosis-safe-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: safe.global\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 24 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.safe.global\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 24 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.safe.global\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 24 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: safe.global\n  dnssec: true\n  caa:\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/security/gnosis-safe-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gnosis-safe/security/gnosis-safe-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Multisig

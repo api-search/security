@@ -5,25 +5,25 @@ api_specs:
   label: Apple Pay Merchant Registration API
   slug: apple-pay-merchant-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple-pay/refs/heads/main/openapi/apple-pay-merchant-registration-api-openapi.yml
+  url: https://artifacts.apis.io/apple-pay/openapi/apple-pay-merchant-registration-api-openapi.yml
 - filename: apple-pay-merchant-validation-api-openapi.yml
   format: yaml
   label: Apple Pay Merchant Validation API
   slug: apple-pay-merchant-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple-pay/refs/heads/main/openapi/apple-pay-merchant-validation-api-openapi.yml
+  url: https://artifacts.apis.io/apple-pay/openapi/apple-pay-merchant-validation-api-openapi.yml
 - filename: apple-pay-payment-processing-api-openapi.yml
   format: yaml
   label: Apple Pay Payment Processing API
   slug: apple-pay-payment-processing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple-pay/refs/heads/main/openapi/apple-pay-payment-processing-api-openapi.yml
+  url: https://artifacts.apis.io/apple-pay/openapi/apple-pay-payment-processing-api-openapi.yml
 - filename: apple-pay-payment-status-api-openapi.yml
   format: yaml
   label: Apple Pay Payment Status API
   slug: apple-pay-payment-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple-pay/refs/heads/main/openapi/apple-pay-payment-status-api-openapi.yml
+  url: https://artifacts.apis.io/apple-pay/openapi/apple-pay-payment-status-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -66,7 +66,7 @@ source_filename: apple-pay-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.apple.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 17:10:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apple-pay-gateway.apple.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  3 18:13:48 2026 GMT\n  hsts: null\n- host: apple-pay-gateway-nc-pod5.apple.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 19:18:09 2026 GMT\n  hsts: null\ndomains:\n- domain: apple.com\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:contact_pki@apple.com\"\n  - 0 issue \"pki.apple.com\"\n  - 0 issuewild \"pki.apple.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apple-pay/refs/heads/main/security/apple-pay-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apple-pay/security/apple-pay-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Apple

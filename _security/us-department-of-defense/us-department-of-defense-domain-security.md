@@ -5,49 +5,49 @@ api_specs:
   label: US Department of Defense Catalog API
   slug: us-department-of-defense-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-defense/refs/heads/main/openapi/us-department-of-defense-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/us-department-of-defense/openapi/us-department-of-defense-catalog-api-openapi.yml
 - filename: us-department-of-defense-levels-api-openapi.yml
   format: yaml
   label: US Department of Defense Levels API
   slug: us-department-of-defense-levels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-defense/refs/heads/main/openapi/us-department-of-defense-levels-api-openapi.yml
+  url: https://artifacts.apis.io/us-department-of-defense/openapi/us-department-of-defense-levels-api-openapi.yml
 - filename: us-department-of-defense-locations-api-openapi.yml
   format: yaml
   label: US Department of Defense Locations API
   slug: us-department-of-defense-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-defense/refs/heads/main/openapi/us-department-of-defense-locations-api-openapi.yml
+  url: https://artifacts.apis.io/us-department-of-defense/openapi/us-department-of-defense-locations-api-openapi.yml
 - filename: us-department-of-defense-measurements-api-openapi.yml
   format: yaml
   label: US Department of Defense Measurements API
   slug: us-department-of-defense-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-defense/refs/heads/main/openapi/us-department-of-defense-measurements-api-openapi.yml
+  url: https://artifacts.apis.io/us-department-of-defense/openapi/us-department-of-defense-measurements-api-openapi.yml
 - filename: us-department-of-defense-offices-api-openapi.yml
   format: yaml
   label: US Department of Defense Offices API
   slug: us-department-of-defense-offices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-defense/refs/heads/main/openapi/us-department-of-defense-offices-api-openapi.yml
+  url: https://artifacts.apis.io/us-department-of-defense/openapi/us-department-of-defense-offices-api-openapi.yml
 - filename: us-department-of-defense-projects-api-openapi.yml
   format: yaml
   label: US Department of Defense Projects API
   slug: us-department-of-defense-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-defense/refs/heads/main/openapi/us-department-of-defense-projects-api-openapi.yml
+  url: https://artifacts.apis.io/us-department-of-defense/openapi/us-department-of-defense-projects-api-openapi.yml
 - filename: us-department-of-defense-ratings-api-openapi.yml
   format: yaml
   label: US Department of Defense Ratings API
   slug: us-department-of-defense-ratings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-defense/refs/heads/main/openapi/us-department-of-defense-ratings-api-openapi.yml
+  url: https://artifacts.apis.io/us-department-of-defense/openapi/us-department-of-defense-ratings-api-openapi.yml
 - filename: us-department-of-defense-time-series-api-openapi.yml
   format: yaml
   label: US Department of Defense Time Series API
   slug: us-department-of-defense-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-defense/refs/heads/main/openapi/us-department-of-defense-time-series-api-openapi.yml
+  url: https://artifacts.apis.io/us-department-of-defense/openapi/us-department-of-defense-time-series-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -90,7 +90,7 @@ source_filename: us-department-of-defense-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cwms-data.usace.army.mil\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 16:46:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: corpslocks.usace.army.mil\n  https: false\n- host: data.defense.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 29 18:07:45 2026 GMT\n  hsts: null\ndomains:\n- domain: army.mil\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: defense.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-department-of-defense/refs/heads/main/security/us-department-of-defense-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/us-department-of-defense/security/us-department-of-defense-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Federal Government

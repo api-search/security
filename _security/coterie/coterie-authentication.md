@@ -7,37 +7,37 @@ api_specs:
   label: Coterie Insurance Applications API
   slug: coterie-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/openapi/coterie-applications-api-openapi.yml
+  url: https://artifacts.apis.io/coterie/openapi/coterie-applications-api-openapi.yml
 - filename: coterie-documents-api-openapi.yml
   format: yaml
   label: Coterie Insurance Documents API
   slug: coterie-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/openapi/coterie-documents-api-openapi.yml
+  url: https://artifacts.apis.io/coterie/openapi/coterie-documents-api-openapi.yml
 - filename: coterie-industry-api-openapi.yml
   format: yaml
   label: Coterie Insurance Industry API
   slug: coterie-industry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/openapi/coterie-industry-api-openapi.yml
+  url: https://artifacts.apis.io/coterie/openapi/coterie-industry-api-openapi.yml
 - filename: coterie-policies-api-openapi.yml
   format: yaml
   label: Coterie Insurance Policies API
   slug: coterie-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/openapi/coterie-policies-api-openapi.yml
+  url: https://artifacts.apis.io/coterie/openapi/coterie-policies-api-openapi.yml
 - filename: coterie-quotes-api-openapi.yml
   format: yaml
   label: Coterie Insurance Quotes API
   slug: coterie-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/openapi/coterie-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/coterie/openapi/coterie-quotes-api-openapi.yml
 - filename: coterie-webhooks-api-openapi.yml
   format: yaml
   label: Coterie Insurance Webhooks API
   slug: coterie-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/openapi/coterie-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/coterie/openapi/coterie-webhooks-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -74,7 +74,7 @@ source_filename: coterie-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/coterie-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Pass your Coterie API key as a Bearer token in the Authorization header. Channel\n    partners are issued a Publishable Key (client-side) and a Secret Key (server-side only);\n    some operations require the Secret Key. Partners may also authenticate via OAuth2 client-credentials\n    to obtain a Bearer access token. Producer attribution uses the token producer_{producerId}\n    form.\n  sources:\n  - openapi/coterie-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.coterieinsurance.com/v1/oauth/token\n    scopes: 0\n  sources:\n  - openapi/coterie-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/authentication/coterie-authentication.yml
+source_yaml_url: https://artifacts.apis.io/coterie/authentication/coterie-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Insurance

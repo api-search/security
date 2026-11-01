@@ -7,49 +7,49 @@ api_specs:
   label: Scalable Press Billing API
   slug: scalablepress-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-billing-api-openapi.yml
+  url: https://artifacts.apis.io/scalablepress/openapi/scalablepress-billing-api-openapi.yml
 - filename: scalablepress-customization-api-openapi.yml
   format: yaml
   label: Scalable Press Customization API
   slug: scalablepress-customization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-customization-api-openapi.yml
+  url: https://artifacts.apis.io/scalablepress/openapi/scalablepress-customization-api-openapi.yml
 - filename: scalablepress-design-api-openapi.yml
   format: yaml
   label: Scalable Press Design API
   slug: scalablepress-design-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-design-api-openapi.yml
+  url: https://artifacts.apis.io/scalablepress/openapi/scalablepress-design-api-openapi.yml
 - filename: scalablepress-event-api-openapi.yml
   format: yaml
   label: Scalable Press Event API
   slug: scalablepress-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-event-api-openapi.yml
+  url: https://artifacts.apis.io/scalablepress/openapi/scalablepress-event-api-openapi.yml
 - filename: scalablepress-mockup-api-openapi.yml
   format: yaml
   label: Scalable Press Mockup API
   slug: scalablepress-mockup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-mockup-api-openapi.yml
+  url: https://artifacts.apis.io/scalablepress/openapi/scalablepress-mockup-api-openapi.yml
 - filename: scalablepress-order-api-openapi.yml
   format: yaml
   label: Scalable Press Order API
   slug: scalablepress-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-order-api-openapi.yml
+  url: https://artifacts.apis.io/scalablepress/openapi/scalablepress-order-api-openapi.yml
 - filename: scalablepress-product-api-openapi.yml
   format: yaml
   label: Scalable Press Product API
   slug: scalablepress-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-product-api-openapi.yml
+  url: https://artifacts.apis.io/scalablepress/openapi/scalablepress-product-api-openapi.yml
 - filename: scalablepress-quote-api-openapi.yml
   format: yaml
   label: Scalable Press Quote API
   slug: scalablepress-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-quote-api-openapi.yml
+  url: https://artifacts.apis.io/scalablepress/openapi/scalablepress-quote-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -76,7 +76,7 @@ source_filename: scalablepress-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/scalablepress-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication. Supply your private Scalable Press API key as the\n    password; the username is left blank.\n  sources:\n  - openapi/scalablepress-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/authentication/scalablepress-authentication.yml
+source_yaml_url: https://artifacts.apis.io/scalablepress/authentication/scalablepress-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Print on Demand

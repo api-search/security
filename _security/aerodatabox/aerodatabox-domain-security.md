@@ -5,49 +5,49 @@ api_specs:
   label: AeroDataBox Aircraft API
   slug: aerodatabox-aircraft-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-aircraft-api-api-openapi.yml
+  url: https://artifacts.apis.io/aerodatabox/openapi/aerodatabox-aircraft-api-api-openapi.yml
 - filename: aerodatabox-airport-api-api-openapi.yml
   format: yaml
   label: AeroDataBox Airport API
   slug: aerodatabox-airport-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-airport-api-api-openapi.yml
+  url: https://artifacts.apis.io/aerodatabox/openapi/aerodatabox-airport-api-api-openapi.yml
 - filename: aerodatabox-flight-alert-api-api-openapi.yml
   format: yaml
   label: AeroDataBox Flight Alert API
   slug: aerodatabox-flight-alert-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-flight-alert-api-api-openapi.yml
+  url: https://artifacts.apis.io/aerodatabox/openapi/aerodatabox-flight-alert-api-api-openapi.yml
 - filename: aerodatabox-flight-api-api-openapi.yml
   format: yaml
   label: AeroDataBox Flight API
   slug: aerodatabox-flight-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-flight-api-api-openapi.yml
+  url: https://artifacts.apis.io/aerodatabox/openapi/aerodatabox-flight-api-api-openapi.yml
 - filename: aerodatabox-healthcheck-api-api-openapi.yml
   format: yaml
   label: AeroDataBox Healthcheck API
   slug: aerodatabox-healthcheck-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-healthcheck-api-api-openapi.yml
+  url: https://artifacts.apis.io/aerodatabox/openapi/aerodatabox-healthcheck-api-api-openapi.yml
 - filename: aerodatabox-industry-api-api-openapi.yml
   format: yaml
   label: AeroDataBox Industry API
   slug: aerodatabox-industry-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-industry-api-api-openapi.yml
+  url: https://artifacts.apis.io/aerodatabox/openapi/aerodatabox-industry-api-api-openapi.yml
 - filename: aerodatabox-miscellaneous-api-api-openapi.yml
   format: yaml
   label: AeroDataBox Miscellaneous API
   slug: aerodatabox-miscellaneous-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-miscellaneous-api-api-openapi.yml
+  url: https://artifacts.apis.io/aerodatabox/openapi/aerodatabox-miscellaneous-api-api-openapi.yml
 - filename: aerodatabox-statistical-api-api-openapi.yml
   format: yaml
   label: AeroDataBox Statistical API
   slug: aerodatabox-statistical-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-statistical-api-api-openapi.yml
+  url: https://artifacts.apis.io/aerodatabox/openapi/aerodatabox-statistical-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -93,7 +93,7 @@ source_filename: aerodatabox-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.aerodatabox.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 09:18:09 2026 GMT\n  hsts: false\n- host: doc.aerodatabox.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 09:18:09 2026 GMT\n  hsts: false\n- host: prod.api.market\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 00:28:08 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: aerodatabox.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: api.market\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/security/aerodatabox-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aerodatabox/security/aerodatabox-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Aviation

@@ -33,7 +33,7 @@ source_filename: data-parliament-uk-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: explore.data.parliament.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 05:19:51 2026 GMT\n  hsts: false\ndomains:\n- domain: parliament.uk\n  dnssec: false\n  caa:\n  - 0 issuewild \"entrust.net\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"digicert.com\"\n  - 0 issuemail \"sectigo.com\"\n  - 0 issuewild \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/data-parliament-uk/refs/heads/main/security/data-parliament-uk-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/data-parliament-uk/security/data-parliament-uk-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Government

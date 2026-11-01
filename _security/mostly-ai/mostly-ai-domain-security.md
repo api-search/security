@@ -5,61 +5,61 @@ api_specs:
   label: MOSTLY AI About API
   slug: mostly-ai-about-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/openapi/mostly-ai-about-api-openapi.yml
+  url: https://artifacts.apis.io/mostly-ai/openapi/mostly-ai-about-api-openapi.yml
 - filename: mostly-ai-computes-api-openapi.yml
   format: yaml
   label: MOSTLY AI Computes API
   slug: mostly-ai-computes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/openapi/mostly-ai-computes-api-openapi.yml
+  url: https://artifacts.apis.io/mostly-ai/openapi/mostly-ai-computes-api-openapi.yml
 - filename: mostly-ai-connectors-api-openapi.yml
   format: yaml
   label: MOSTLY AI Connectors API
   slug: mostly-ai-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/openapi/mostly-ai-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/mostly-ai/openapi/mostly-ai-connectors-api-openapi.yml
 - filename: mostly-ai-datasets-api-openapi.yml
   format: yaml
   label: MOSTLY AI Datasets API
   slug: mostly-ai-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/openapi/mostly-ai-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/mostly-ai/openapi/mostly-ai-datasets-api-openapi.yml
 - filename: mostly-ai-generators-api-openapi.yml
   format: yaml
   label: MOSTLY AI Generators API
   slug: mostly-ai-generators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/openapi/mostly-ai-generators-api-openapi.yml
+  url: https://artifacts.apis.io/mostly-ai/openapi/mostly-ai-generators-api-openapi.yml
 - filename: mostly-ai-models-api-openapi.yml
   format: yaml
   label: MOSTLY AI Models API
   slug: mostly-ai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/openapi/mostly-ai-models-api-openapi.yml
+  url: https://artifacts.apis.io/mostly-ai/openapi/mostly-ai-models-api-openapi.yml
 - filename: mostly-ai-organizations-api-openapi.yml
   format: yaml
   label: MOSTLY AI Organizations API
   slug: mostly-ai-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/openapi/mostly-ai-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/mostly-ai/openapi/mostly-ai-organizations-api-openapi.yml
 - filename: mostly-ai-synthetic-datasets-api-openapi.yml
   format: yaml
   label: MOSTLY AI Synthetic Datasets API
   slug: mostly-ai-synthetic-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/openapi/mostly-ai-synthetic-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/mostly-ai/openapi/mostly-ai-synthetic-datasets-api-openapi.yml
 - filename: mostly-ai-synthetic-probes-api-openapi.yml
   format: yaml
   label: MOSTLY AI Synthetic Probes API
   slug: mostly-ai-synthetic-probes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/openapi/mostly-ai-synthetic-probes-api-openapi.yml
+  url: https://artifacts.apis.io/mostly-ai/openapi/mostly-ai-synthetic-probes-api-openapi.yml
 - filename: mostly-ai-users-api-openapi.yml
   format: yaml
   label: MOSTLY AI Users API
   slug: mostly-ai-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/openapi/mostly-ai-users-api-openapi.yml
+  url: https://artifacts.apis.io/mostly-ai/openapi/mostly-ai-users-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -97,7 +97,7 @@ source_filename: mostly-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mostly.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 12:28:35 2026 GMT\n  hsts: false\n- host: api-docs.mostly.ai\n  https: false\n- host: app.mostly.ai\n  https: false\ndomains:\n- domain: mostly.ai\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/security/mostly-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mostly-ai/security/mostly-ai-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Synthetic Data

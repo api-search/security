@@ -5,37 +5,37 @@ api_specs:
   label: Hilos Contact API
   slug: hilos-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/openapi/hilos-contact-api-openapi.yml
+  url: https://artifacts.apis.io/hilos/openapi/hilos-contact-api-openapi.yml
 - filename: hilos-conversation-api-openapi.yml
   format: yaml
   label: Hilos Conversation API
   slug: hilos-conversation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/openapi/hilos-conversation-api-openapi.yml
+  url: https://artifacts.apis.io/hilos/openapi/hilos-conversation-api-openapi.yml
 - filename: hilos-flow-execution-api-openapi.yml
   format: yaml
   label: Hilos Flow Execution API
   slug: hilos-flow-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/openapi/hilos-flow-execution-api-openapi.yml
+  url: https://artifacts.apis.io/hilos/openapi/hilos-flow-execution-api-openapi.yml
 - filename: hilos-flow-execution-contact-api-openapi.yml
   format: yaml
   label: Hilos Flow Execution Contact API
   slug: hilos-flow-execution-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/openapi/hilos-flow-execution-contact-api-openapi.yml
+  url: https://artifacts.apis.io/hilos/openapi/hilos-flow-execution-contact-api-openapi.yml
 - filename: hilos-user-api-openapi.yml
   format: yaml
   label: Hilos User API
   slug: hilos-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/openapi/hilos-user-api-openapi.yml
+  url: https://artifacts.apis.io/hilos/openapi/hilos-user-api-openapi.yml
 - filename: hilos-whats-app-api-openapi.yml
   format: yaml
   label: Hilos Whats App API
   slug: hilos-whats-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/openapi/hilos-whats-app-api-openapi.yml
+  url: https://artifacts.apis.io/hilos/openapi/hilos-whats-app-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: hilos-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: hilos.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 06:08:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.hilos.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 06:08:48 2026 GMT\n  hsts: null\ndomains:\n- domain: hilos.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/security/hilos-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hilos/security/hilos-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

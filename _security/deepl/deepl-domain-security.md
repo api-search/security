@@ -5,43 +5,91 @@ api_specs:
   label: DeepL Voice API
   slug: deepl-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-voice-api-openapi.yml
-- filename: deepl-documents-api-openapi.yml
+  url: https://artifacts.apis.io/deepl/openapi/deepl-voice-api-openapi.yml
+- filename: deepl-adminapi-api-openapi.yml
   format: yaml
-  label: DeepL Documents API
-  slug: deepl-documents-api
+  label: DeepL Admin API
+  slug: deepl-adminapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-documents-api-openapi.yml
-- filename: deepl-glossaries-api-openapi.yml
+  url: https://artifacts.apis.io/deepl/openapi/deepl-adminapi-api-openapi.yml
+- filename: deepl-correcttext-api-openapi.yml
   format: yaml
-  label: DeepL Glossaries API
-  slug: deepl-glossaries-api
+  label: DeepL Correct Text API
+  slug: deepl-correcttext-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-glossaries-api-openapi.yml
-- filename: deepl-languages-api-openapi.yml
+  url: https://artifacts.apis.io/deepl/openapi/deepl-correcttext-api-openapi.yml
+- filename: deepl-manageglossaries-api-openapi.yml
   format: yaml
-  label: DeepL Languages API
-  slug: deepl-languages-api
+  label: DeepL Manage Glossaries API
+  slug: deepl-manageglossaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-languages-api-openapi.yml
-- filename: deepl-translate-api-openapi.yml
+  url: https://artifacts.apis.io/deepl/openapi/deepl-manageglossaries-api-openapi.yml
+- filename: deepl-managemultilingualglossaries-api-openapi.yml
   format: yaml
-  label: DeepL Translate API
-  slug: deepl-translate-api
+  label: DeepL Manage Multilingual Glossaries API
+  slug: deepl-managemultilingualglossaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-translate-api-openapi.yml
-- filename: deepl-usage-api-openapi.yml
+  url: https://artifacts.apis.io/deepl/openapi/deepl-managemultilingualglossaries-api-openapi.yml
+- filename: deepl-managespokenterms-api-openapi.yml
   format: yaml
-  label: DeepL Usage API
-  slug: deepl-usage-api
+  label: DeepL Manage Spoken Terms API
+  slug: deepl-managespokenterms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-usage-api-openapi.yml
-- filename: deepl-write-api-openapi.yml
+  url: https://artifacts.apis.io/deepl/openapi/deepl-managespokenterms-api-openapi.yml
+- filename: deepl-metainformation-api-openapi.yml
   format: yaml
-  label: DeepL Write API
-  slug: deepl-write-api
+  label: DeepL Meta Information API
+  slug: deepl-metainformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-write-api-openapi.yml
+  url: https://artifacts.apis.io/deepl/openapi/deepl-metainformation-api-openapi.yml
+- filename: deepl-qualityevaluation-api-openapi.yml
+  format: yaml
+  label: DeepL Quality Evaluation API
+  slug: deepl-qualityevaluation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/deepl/openapi/deepl-qualityevaluation-api-openapi.yml
+- filename: deepl-rephrasetext-api-openapi.yml
+  format: yaml
+  label: DeepL Rephrase Text API
+  slug: deepl-rephrasetext-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/deepl/openapi/deepl-rephrasetext-api-openapi.yml
+- filename: deepl-style-rules-api-openapi.yml
+  format: yaml
+  label: DeepL Style Rules API
+  slug: deepl-style-rules-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/deepl/openapi/deepl-style-rules-api-openapi.yml
+- filename: deepl-translatedocuments-api-openapi.yml
+  format: yaml
+  label: DeepL Translate Documents API
+  slug: deepl-translatedocuments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/deepl/openapi/deepl-translatedocuments-api-openapi.yml
+- filename: deepl-translatetext-api-openapi.yml
+  format: yaml
+  label: DeepL Translate Text API
+  slug: deepl-translatetext-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/deepl/openapi/deepl-translatetext-api-openapi.yml
+- filename: deepl-translationmemories-api-openapi.yml
+  format: yaml
+  label: DeepL Translation Memories API
+  slug: deepl-translationmemories-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/deepl/openapi/deepl-translationmemories-api-openapi.yml
+- filename: deepl-voiceapi-api-openapi.yml
+  format: yaml
+  label: DeepL Voice API
+  slug: deepl-voiceapi-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/deepl/openapi/deepl-voiceapi-api-openapi.yml
+- filename: deepl-voicetranslatejob-api-openapi.yml
+  format: yaml
+  label: DeepL Voice Translate Job API
+  slug: deepl-voicetranslatejob-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/deepl/openapi/deepl-voicetranslatejob-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -88,7 +136,7 @@ source_filename: deepl-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.deepl.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 15:55:52 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developers.deepl.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 04:23:03 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.deepl.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 12:15:10 2026 GMT\n  hsts: null\ndomains:\n- domain: deepl.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/security/deepl-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/deepl/security/deepl-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

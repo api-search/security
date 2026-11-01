@@ -9,49 +9,49 @@ api_specs:
   label: VigLink (Sovrn Commerce) Account API
   slug: viglink-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-account-api-openapi.yml
+  url: https://artifacts.apis.io/viglink/openapi/viglink-account-api-openapi.yml
 - filename: viglink-ai-orchestration-api-openapi.yml
   format: yaml
   label: VigLink (Sovrn Commerce) Ai Orchestration API
   slug: viglink-ai-orchestration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-ai-orchestration-api-openapi.yml
+  url: https://artifacts.apis.io/viglink/openapi/viglink-ai-orchestration-api-openapi.yml
 - filename: viglink-bid-api-openapi.yml
   format: yaml
   label: VigLink (Sovrn Commerce) Bid API
   slug: viglink-bid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-bid-api-openapi.yml
+  url: https://artifacts.apis.io/viglink/openapi/viglink-bid-api-openapi.yml
 - filename: viglink-link-api-openapi.yml
   format: yaml
   label: VigLink (Sovrn Commerce) Link API
   slug: viglink-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-link-api-openapi.yml
+  url: https://artifacts.apis.io/viglink/openapi/viglink-link-api-openapi.yml
 - filename: viglink-merchant-group-summaries-api-openapi.yml
   format: yaml
   label: VigLink (Sovrn Commerce) Merchant Group Summaries API
   slug: viglink-merchant-group-summaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-merchant-group-summaries-api-openapi.yml
+  url: https://artifacts.apis.io/viglink/openapi/viglink-merchant-group-summaries-api-openapi.yml
 - filename: viglink-product-coupons-api-openapi.yml
   format: yaml
   label: VigLink (Sovrn Commerce) Product Coupons API
   slug: viglink-product-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-product-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/viglink/openapi/viglink-product-coupons-api-openapi.yml
 - filename: viglink-reports-api-openapi.yml
   format: yaml
   label: VigLink (Sovrn Commerce) reports API
   slug: viglink-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-reports-api-openapi.yml
+  url: https://artifacts.apis.io/viglink/openapi/viglink-reports-api-openapi.yml
 - filename: viglink-sites-api-openapi.yml
   format: yaml
   label: VigLink (Sovrn Commerce) Sites API
   slug: viglink-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-sites-api-openapi.yml
+  url: https://artifacts.apis.io/viglink/openapi/viglink-sites-api-openapi.yml
 auth_types:
 - apiKey
 description: 'Every Sovrn Commerce (formerly VigLink) API authenticates with a static, per-SITE API key. There is no OAuth, no OIDC, no mTLS, and no token exchange anywhere in the estate. Two key materials exist and they are not interchangeable: a SECRET key sent in the Authorization header for the authenticated data APIs and the MCP server, and a PUBLIC Commerce API key sent as a `key` query parameter on the link/bid check surface and embedded in the client-side JavaScript snippet.'
@@ -130,7 +130,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://develop
   \ >-\n      A \"regenerate\" link on the same Commerce Settings screen invalidates the previous\n      secret key and issues a new one.\n    breaking: >-\n      Sovrn warns that regenerating immediately breaks every call still using the old\n      key — there is no overlap/grace window and no multi-key support, so rotation is\n      a hard cutover.\n  used_by:\n  - Campaigns API\n  - Real-Time Reports APIs\n  - Merchant Group Summaries APIs\n  - Product Promo Codes API\n  - Price Comparisons API\n  - Commerce MCP Server (https://mcp.sovrn.com/commerce)\n  sources:\n  - openapi/viglink-merchant-group-summaries-api-openapi.yml\n  - openapi/viglink-product-coupons-api-openapi.yml\n  - https://developer.sovrn.com/docs/authorization\n  - https://developer.sovrn.com/docs/mcp\n- name: sec0\n  type: apiKey\n  in: header\n  parameter: authorization\n  description: >-\n    ReadMe-generated scheme name for the same Authorization header contract as\n    SecretKey. The duplicate naming is an artifact\
   \ of Sovrn's docs tooling, not two\n    different credentials.\n  sources:\n  - openapi/viglink-account-api-openapi.yml\n  - openapi/viglink-sites-api-openapi.yml\n  - openapi/viglink-reports-api-openapi.yml\n- name: CommerceApiKey\n  type: apiKey\n  in: query\n  parameter: key\n  description: >-\n    Public Commerce API key, found on the account page at commerce.sovrn.com and in\n    Site Settings. Passed as a `key` query parameter.\n  public: true\n  public_note: >-\n    This key is embedded in the client-side vglnk.js snippet and in wrapped affiliate\n    link URLs (https://sovrn.co?key=YOUR_API_KEY&u=…), so it is public by design and\n    must not be treated as a secret.\n  used_by:\n  - Link Check API\n  - Bid Check API\n  - Commerce JavaScript library (vglnk)\n  - Affiliate link wrapping (sovrn.co)\n  sources:\n  - https://developer.sovrn.com/reference/link\n  - https://developer.sovrn.com/reference/building-affiliate-links\ntransport:\n  tls_minimum: TLS 1.2\n  tls_source: https://www.sovrn.com/about-sovrn/security/\n\
   observed:\n- url: https://viglink.io/v1/reports/transactions\n  unauthenticated_status: 401\n  checked: '2026-08-13'\n- url: https://viglink.io/merchants/rates/summaries/delta\n  unauthenticated_status: 401\n  checked: '2026-08-13'\n- url: https://mcp.sovrn.com/commerce\n  method: POST tools/list\n  unauthenticated_status: 401\n  body: '{\"error\":\"invalid_token\"}'\n  checked: '2026-08-13'\ngaps:\n- No OAuth 2.0 / OIDC option for delegated access — a third-party tool acting for a\n  publisher must hold that publisher's long-lived site Secret Key.\n- No scoped or read-only key variant; one key grants the full authenticated surface\n  for its site.\n- No key expiry, and rotation has no overlap window.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/authentication/viglink-authentication.yml
+source_yaml_url: https://artifacts.apis.io/viglink/authentication/viglink-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - Affiliate Marketing

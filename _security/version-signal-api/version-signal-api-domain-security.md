@@ -5,7 +5,7 @@ api_specs:
   label: Version Signal Version API
   slug: version-signal-api-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/version-signal-api/refs/heads/main/openapi/version-signal-api-version-api-openapi.yml
+  url: https://artifacts.apis.io/version-signal-api/openapi/version-signal-api-version-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -34,7 +34,7 @@ source_filename: version-signal-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: version-signal.inboxtzdjqv.workers.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 19 11:19:31 2026 GMT\n  hsts: false\ndomains:\n- domain: workers.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/version-signal-api/refs/heads/main/security/version-signal-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/version-signal-api/security/version-signal-api-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Developer Tools

@@ -7,37 +7,37 @@ api_specs:
   label: APIIDA Alarms API
   slug: apiida-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/apiida/openapi/apiida-alarms-api-openapi.yml
 - filename: apiida-deployments-api-openapi.yml
   format: yaml
   label: APIIDA Deployments API
   slug: apiida-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/apiida/openapi/apiida-deployments-api-openapi.yml
 - filename: apiida-gateways-api-openapi.yml
   format: yaml
   label: APIIDA Gateways API
   slug: apiida-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/apiida/openapi/apiida-gateways-api-openapi.yml
 - filename: apiida-monitoring-api-openapi.yml
   format: yaml
   label: APIIDA Monitoring API
   slug: apiida-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/apiida/openapi/apiida-monitoring-api-openapi.yml
 - filename: apiida-versions-api-openapi.yml
   format: yaml
   label: APIIDA Versions API
   slug: apiida-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-versions-api-openapi.yml
+  url: https://artifacts.apis.io/apiida/openapi/apiida-versions-api-openapi.yml
 - filename: apiida-apis-api-openapi.yml
   format: yaml
   label: APIIDA APIS API
   slug: apiida-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apiida/openapi/apiida-apis-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -65,7 +65,7 @@ source_filename: apiida-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/apiida-api-control-plane-openapi.yml, openapi/apiida-api-gateway-manager-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token authentication\n  sources:\n  - openapi/apiida-api-control-plane-openapi.yml\n  - openapi/apiida-api-gateway-manager-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/authentication/apiida-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apiida/authentication/apiida-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - API Gateway

@@ -5,43 +5,43 @@ api_specs:
   label: Synthient API Account API
   slug: synthient-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthient/refs/heads/main/openapi/synthient-account-api-openapi.yml
+  url: https://artifacts.apis.io/synthient/openapi/synthient-account-api-openapi.yml
 - filename: synthient-anonymizers-api-openapi.yml
   format: yaml
   label: Synthient API Anonymizers API
   slug: synthient-anonymizers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthient/refs/heads/main/openapi/synthient-anonymizers-api-openapi.yml
+  url: https://artifacts.apis.io/synthient/openapi/synthient-anonymizers-api-openapi.yml
 - filename: synthient-helios-api-openapi.yml
   format: yaml
   label: Synthient API Helios API
   slug: synthient-helios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthient/refs/heads/main/openapi/synthient-helios-api-openapi.yml
+  url: https://artifacts.apis.io/synthient/openapi/synthient-helios-api-openapi.yml
 - filename: synthient-ja4t-api-openapi.yml
   format: yaml
   label: Synthient API JA4T API
   slug: synthient-ja4t-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthient/refs/heads/main/openapi/synthient-ja4t-api-openapi.yml
+  url: https://artifacts.apis.io/synthient/openapi/synthient-ja4t-api-openapi.yml
 - filename: synthient-lookup-api-openapi.yml
   format: yaml
   label: Synthient API Lookup API
   slug: synthient-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthient/refs/heads/main/openapi/synthient-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/synthient/openapi/synthient-lookup-api-openapi.yml
 - filename: synthient-proxies-api-openapi.yml
   format: yaml
   label: Synthient API Proxies API
   slug: synthient-proxies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthient/refs/heads/main/openapi/synthient-proxies-api-openapi.yml
+  url: https://artifacts.apis.io/synthient/openapi/synthient-proxies-api-openapi.yml
 - filename: synthient-torrents-api-openapi.yml
   format: yaml
   label: Synthient API Torrents API
   slug: synthient-torrents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthient/refs/heads/main/openapi/synthient-torrents-api-openapi.yml
+  url: https://artifacts.apis.io/synthient/openapi/synthient-torrents-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: synthient-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: synthient.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 23 03:47:02 2026 GMT\n  hsts: null\ndomains:\n- domain: synthient.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synthient/refs/heads/main/security/synthient-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/synthient/security/synthient-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

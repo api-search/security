@@ -5,31 +5,31 @@ api_specs:
   label: LeanIX Configurations API
   slug: leanix-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanix/refs/heads/main/openapi/leanix-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/leanix/openapi/leanix-configurations-api-openapi.yml
 - filename: leanix-examples-api-openapi.yml
   format: yaml
   label: LeanIX Examples API
   slug: leanix-examples-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanix/refs/heads/main/openapi/leanix-examples-api-openapi.yml
+  url: https://artifacts.apis.io/leanix/openapi/leanix-examples-api-openapi.yml
 - filename: leanix-fastsynchronizationruns-api-openapi.yml
   format: yaml
   label: LeanIX Fast Synchronization Runs API
   slug: leanix-fastsynchronizationruns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanix/refs/heads/main/openapi/leanix-fastsynchronizationruns-api-openapi.yml
+  url: https://artifacts.apis.io/leanix/openapi/leanix-fastsynchronizationruns-api-openapi.yml
 - filename: leanix-storages-api-openapi.yml
   format: yaml
   label: LeanIX Storages API
   slug: leanix-storages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanix/refs/heads/main/openapi/leanix-storages-api-openapi.yml
+  url: https://artifacts.apis.io/leanix/openapi/leanix-storages-api-openapi.yml
 - filename: leanix-synchronizationruns-api-openapi.yml
   format: yaml
   label: LeanIX Synchronization Runs API
   slug: leanix-synchronizationruns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanix/refs/heads/main/openapi/leanix-synchronizationruns-api-openapi.yml
+  url: https://artifacts.apis.io/leanix/openapi/leanix-synchronizationruns-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: leanix-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.leanix.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 22:59:26 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: help.sap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.leanix.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: leanix.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: sap.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leanix/refs/heads/main/security/leanix-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/leanix/security/leanix-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Enterprise Architecture

@@ -5,31 +5,55 @@ api_specs:
   label: Inflection.io Contact Activity API
   slug: inflectionio-contact-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-contact-activity-api-openapi.yml
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-contact-activity-api-openapi.yml
 - filename: inflectionio-contacts-api-openapi.yml
   format: yaml
   label: Inflection.io Contacts API
   slug: inflectionio-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-contacts-api-openapi.yml
 - filename: inflectionio-emails-api-openapi.yml
   format: yaml
   label: Inflection.io Emails API
   slug: inflectionio-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-emails-api-openapi.yml
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-emails-api-openapi.yml
 - filename: inflectionio-email-versions-api-openapi.yml
   format: yaml
   label: Inflection.io Email Versions API
   slug: inflectionio-email-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-email-versions-api-openapi.yml
-- filename: inflectionio-lists-and-members-api-openapi.yml
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-email-versions-api-openapi.yml
+- filename: inflectionio-journeys-api-openapi.yml
   format: yaml
-  label: Inflection.io Lists and Members API
-  slug: inflectionio-lists-and-members-api
+  label: Inflection.io Journeys API
+  slug: inflectionio-journeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-lists-and-members-api-openapi.yml
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-journeys-api-openapi.yml
+- filename: inflectionio-lists-api-openapi.yml
+  format: yaml
+  label: Inflection.io Lists API
+  slug: inflectionio-lists-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-lists-api-openapi.yml
+- filename: inflectionio-organizations-api-openapi.yml
+  format: yaml
+  label: Inflection.io Organizations API
+  slug: inflectionio-organizations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-organizations-api-openapi.yml
+- filename: inflectionio-product-users-api-openapi.yml
+  format: yaml
+  label: Inflection.io Product Users API
+  slug: inflectionio-product-users-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-product-users-api-openapi.yml
+- filename: inflectionio-stats-api-openapi.yml
+  format: yaml
+  label: Inflection.io Stats API
+  slug: inflectionio-stats-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-stats-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -52,7 +76,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nurl: https
   \ NDA on request from support@inflection.io\n- name: GDPR\n  status: DPA available on request\n  evidence_availability: Data Processing Addendum on request from support@inflection.io\n- name: CCPA\n  status: compliant\n  evidence_availability: data subject rights honored per the published Privacy Policy\n- name: Penetration test\n  status: independent third-party test conducted 2026\n  evidence_availability: summary available under NDA on request\nout_of_scope:\n- {name: PCI DSS, note: Not in scope — Inflection does not process payment card data.}\n- {name: HIPAA, note: Not in scope — Inflection does not process protected health information.}\nposture:\n  deployment: multi-tenant SaaS, single global region\n  cloud: Amazon Web Services, US region\n  encryption_in_transit: TLS 1.2 minimum, HSTS enabled\n  encryption_at_rest: AES-256 via AWS KMS\n  authentication: OAuth 2.1 with PKCE, S256 only (plain rejected)\n  token_lifetime: 15-minute access tokens; refresh-token rotation with reuse\
   \ detection\n  per_call_verification: every MCP tool call re-verifies the bearer token with the authorization server\n  tenant_isolation: every MCP tool call scoped to the caller's tenant id; cross-tenant reads not possible\n  token_handling: verified tokens cached in memory for their lifetime; raw tokens not logged or persisted\n  cors: wildcard Access-Control-Allow-Origin with Access-Control-Allow-Credentials false, documented and justified\nretention:\n  assets_days: 30\n  agent_outputs_days: 7\n  intermediate_results_hours: 24\n  tracing: LangSmith traces include user_email, tenant_id, session_id and user-agent; retention follows LangSmith defaults\nsubprocessors:\n- {name: Amazon Web Services, purpose: infrastructure (compute, storage, network, managed database), data: all tenant data at rest and in transit}\n- {name: OpenAI, purpose: LLM inference for AI agents, data: prompts and conversation context}\n- {name: LangSmith, purpose: agent trace observability, data: user email, tenant\
   \ id, prompts, tool calls}\ndata_subject_rights:\n  url: https://docs.inflection.io/settings/data-subject-erasure-requests\n  note: Self-serve Data Subject Erasure Requests (DSRs) for GDPR/CCPA deletion requests.\nprivacy_policy: https://www.inflection.io/legal/privacy-policy\nterms: https://www.inflection.io/legal/terms\nevidence:\n- source: https://docs.inflection.io/agents/mcp-trust-security\n  http_status: 200\n  keywords: [soc 2 type ii, gdpr, ccpa, penetration test, encryption, tenant isolation, subprocessors]\n- {source: 'https://trust.inflection.io', http_status: 0, note: does not resolve}\n- {source: 'https://www.inflection.io/security', http_status: 404}\npage_changelog:\n- {date: '2026-06-02', change: Initial publication.}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/security/inflectionio-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/inflectionio/security/inflectionio-trust-center.yml
 summary_line: SOC 2, GDPR, CCPA, Penetration test
 tags:
 - Company

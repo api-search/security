@@ -5,55 +5,55 @@ api_specs:
   label: Weights and Biases Calls API
   slug: wandb-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wandb/refs/heads/main/openapi/wandb-calls-api-openapi.yml
+  url: https://artifacts.apis.io/wandb/openapi/wandb-calls-api-openapi.yml
 - filename: wandb-costs-api-openapi.yml
   format: yaml
   label: Weights and Biases Costs API
   slug: wandb-costs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wandb/refs/heads/main/openapi/wandb-costs-api-openapi.yml
+  url: https://artifacts.apis.io/wandb/openapi/wandb-costs-api-openapi.yml
 - filename: wandb-feedback-api-openapi.yml
   format: yaml
   label: Weights and Biases Feedback API
   slug: wandb-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wandb/refs/heads/main/openapi/wandb-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/wandb/openapi/wandb-feedback-api-openapi.yml
 - filename: wandb-files-api-openapi.yml
   format: yaml
   label: Weights and Biases Files API
   slug: wandb-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wandb/refs/heads/main/openapi/wandb-files-api-openapi.yml
+  url: https://artifacts.apis.io/wandb/openapi/wandb-files-api-openapi.yml
 - filename: wandb-objects-api-openapi.yml
   format: yaml
   label: Weights and Biases Objects API
   slug: wandb-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wandb/refs/heads/main/openapi/wandb-objects-api-openapi.yml
+  url: https://artifacts.apis.io/wandb/openapi/wandb-objects-api-openapi.yml
 - filename: wandb-refs-api-openapi.yml
   format: yaml
   label: Weights and Biases Refs API
   slug: wandb-refs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wandb/refs/heads/main/openapi/wandb-refs-api-openapi.yml
+  url: https://artifacts.apis.io/wandb/openapi/wandb-refs-api-openapi.yml
 - filename: wandb-service-api-openapi.yml
   format: yaml
   label: Weights and Biases Service API
   slug: wandb-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wandb/refs/heads/main/openapi/wandb-service-api-openapi.yml
+  url: https://artifacts.apis.io/wandb/openapi/wandb-service-api-openapi.yml
 - filename: wandb-table-api-openapi.yml
   format: yaml
   label: Weights and Biases Table API
   slug: wandb-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wandb/refs/heads/main/openapi/wandb-table-api-openapi.yml
+  url: https://artifacts.apis.io/wandb/openapi/wandb-table-api-openapi.yml
 - filename: wandb-tables-api-openapi.yml
   format: yaml
   label: Weights and Biases Tables API
   slug: wandb-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wandb/refs/heads/main/openapi/wandb-tables-api-openapi.yml
+  url: https://artifacts.apis.io/wandb/openapi/wandb-tables-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -97,7 +97,7 @@ source_filename: wandb-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: wandb.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 22:58:04 2026 GMT\n  hsts: false\n- host: docs.wandb.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 20:23:08 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.wandb.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 19:57:25 2026 GMT\n  hsts: null\ndomains:\n- domain: wandb.ai\n  dnssec: true\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"digicert.com\"\n  - 0 iodef \"mailto:security+caa@wandb.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wandb/refs/heads/main/security/wandb-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wandb/security/wandb-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - MLOps

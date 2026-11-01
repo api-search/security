@@ -5,19 +5,19 @@ api_specs:
   label: Country State City API Cities API
   slug: country-state-city-api-cities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/country-state-city-api/refs/heads/main/openapi/country-state-city-api-cities-api-openapi.yml
+  url: https://artifacts.apis.io/country-state-city-api/openapi/country-state-city-api-cities-api-openapi.yml
 - filename: country-state-city-api-countries-api-openapi.yml
   format: yaml
   label: Country State City API Countries API
   slug: country-state-city-api-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/country-state-city-api/refs/heads/main/openapi/country-state-city-api-countries-api-openapi.yml
+  url: https://artifacts.apis.io/country-state-city-api/openapi/country-state-city-api-countries-api-openapi.yml
 - filename: country-state-city-api-states-api-openapi.yml
   format: yaml
   label: Country State City API States API
   slug: country-state-city-api-states-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/country-state-city-api/refs/heads/main/openapi/country-state-city-api-states-api-openapi.yml
+  url: https://artifacts.apis.io/country-state-city-api/openapi/country-state-city-api-states-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: country-state-city-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: countrystatecity.in\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 13 01:14:25 2026 GMT\n  hsts: false\n- host: docs.countrystatecity.in\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 13 01:14:25 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.countrystatecity.in\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 13 01:14:25 2026 GMT\n  hsts: null\ndomains:\n- domain: countrystatecity.in\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/country-state-city-api/refs/heads/main/security/country-state-city-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/country-state-city-api/security/country-state-city-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Capital

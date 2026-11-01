@@ -8,103 +8,103 @@ api_specs:
   label: Configure8 Catalog Entities API
   slug: configure8-catalog-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/configure8/refs/heads/main/openapi/configure8-catalog-entities-api-openapi.yml
+  url: https://artifacts.apis.io/configure8/openapi/configure8-catalog-entities-api-openapi.yml
 - filename: configure8-catalog-relations-api-openapi.yml
   format: yaml
   label: Configure8 Catalog Relations API
   slug: configure8-catalog-relations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/configure8/refs/heads/main/openapi/configure8-catalog-relations-api-openapi.yml
+  url: https://artifacts.apis.io/configure8/openapi/configure8-catalog-relations-api-openapi.yml
 - filename: configure8-deployments-api-openapi.yml
   format: yaml
   label: Configure8 Deployments API
   slug: configure8-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/configure8/refs/heads/main/openapi/configure8-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/configure8/openapi/configure8-deployments-api-openapi.yml
 - filename: configure8-scorecards-api-openapi.yml
   format: yaml
   label: Configure8 Scorecards API
   slug: configure8-scorecards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/configure8/refs/heads/main/openapi/configure8-scorecards-api-openapi.yml
+  url: https://artifacts.apis.io/configure8/openapi/configure8-scorecards-api-openapi.yml
 - filename: configure8-users-api-openapi.yml
   format: yaml
   label: Configure8 Users API
   slug: configure8-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/configure8/refs/heads/main/openapi/configure8-users-api-openapi.yml
+  url: https://artifacts.apis.io/configure8/openapi/configure8-users-api-openapi.yml
 - filename: configure8-catalog-entity-api-openapi.yml
   format: yaml
   label: Configure8 Catalog Entity API
   slug: configure8-catalog-entity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/configure8/refs/heads/main/openapi/configure8-catalog-entity-api-openapi.yml
+  url: https://artifacts.apis.io/configure8/openapi/configure8-catalog-entity-api-openapi.yml
 - filename: configure8-catalog-entity-batch-api-openapi.yml
   format: yaml
   label: Configure8 Catalog Entity Batch API
   slug: configure8-catalog-entity-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/configure8/refs/heads/main/openapi/configure8-catalog-entity-batch-api-openapi.yml
+  url: https://artifacts.apis.io/configure8/openapi/configure8-catalog-entity-batch-api-openapi.yml
 - filename: configure8-catalog-entity-metadata-api-openapi.yml
   format: yaml
   label: Configure8 Catalog Entity Metadata API
   slug: configure8-catalog-entity-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/configure8/refs/heads/main/openapi/configure8-catalog-entity-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/configure8/openapi/configure8-catalog-entity-metadata-api-openapi.yml
 - filename: configure8-catalog-relation-api-openapi.yml
   format: yaml
   label: Configure8 Catalog Relation API
   slug: configure8-catalog-relation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/configure8/refs/heads/main/openapi/configure8-catalog-relation-api-openapi.yml
+  url: https://artifacts.apis.io/configure8/openapi/configure8-catalog-relation-api-openapi.yml
 - filename: configure8-credential-api-openapi.yml
   format: yaml
   label: Configure8 Credential API
   slug: configure8-credential-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/configure8/refs/heads/main/openapi/configure8-credential-api-openapi.yml
+  url: https://artifacts.apis.io/configure8/openapi/configure8-credential-api-openapi.yml
 - filename: configure8-deployment-api-openapi.yml
   format: yaml
   label: Configure8 Deployment API
   slug: configure8-deployment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/configure8/refs/heads/main/openapi/configure8-deployment-api-openapi.yml
+  url: https://artifacts.apis.io/configure8/openapi/configure8-deployment-api-openapi.yml
 - filename: configure8-module-settings-api-openapi.yml
   format: yaml
   label: Configure8 Module Settings API
   slug: configure8-module-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/configure8/refs/heads/main/openapi/configure8-module-settings-api-openapi.yml
+  url: https://artifacts.apis.io/configure8/openapi/configure8-module-settings-api-openapi.yml
 - filename: configure8-private-scim-api-openapi.yml
   format: yaml
   label: Configure8 Private SCIM API
   slug: configure8-private-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/configure8/refs/heads/main/openapi/configure8-private-scim-api-openapi.yml
+  url: https://artifacts.apis.io/configure8/openapi/configure8-private-scim-api-openapi.yml
 - filename: configure8-scim-api-openapi.yml
   format: yaml
   label: Configure8 SCIM API
   slug: configure8-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/configure8/refs/heads/main/openapi/configure8-scim-api-openapi.yml
+  url: https://artifacts.apis.io/configure8/openapi/configure8-scim-api-openapi.yml
 - filename: configure8-scorecard-api-openapi.yml
   format: yaml
   label: Configure8 Scorecard API
   slug: configure8-scorecard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/configure8/refs/heads/main/openapi/configure8-scorecard-api-openapi.yml
+  url: https://artifacts.apis.io/configure8/openapi/configure8-scorecard-api-openapi.yml
 - filename: configure8-sync-api-openapi.yml
   format: yaml
   label: Configure8 Sync API
   slug: configure8-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/configure8/refs/heads/main/openapi/configure8-sync-api-openapi.yml
+  url: https://artifacts.apis.io/configure8/openapi/configure8-sync-api-openapi.yml
 - filename: configure8-templates-api-openapi.yml
   format: yaml
   label: Configure8 Templates API
   slug: configure8-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/configure8/refs/heads/main/openapi/configure8-templates-api-openapi.yml
+  url: https://artifacts.apis.io/configure8/openapi/configure8-templates-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -172,7 +172,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: >-\n  https://c
   \ scorecard and\n      self-service action) then decides what that key may touch.\n    retrieval: >-\n      Shown once at creation and irretrievable afterwards — \"Configure8 API keys are\n      irretrievable, therefore this is the only time it is shown to you\"\n    revocation: >-\n      Admins can see and revoke every key in the organization; users can manage only keys\n      they created. Expired keys remain listed alongside active ones.\n    expiry: mandatory expiration period chosen at creation\n  plan_gating: >-\n    API access is an Enterprise-plan feature. The pricing table's \"API Access\" row reads\n    \"No\" for the Free plan.\n  sources:\n  - openapi/configure8-c8-public-api-openapi.json\n  - https://configure8.io/docs-sub/configure8-product-docs/fundamentals/settings/api-key-management\n- name: bearer\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  primary: false\n  description: >-\n    Declared in the contract and attached as the only security requirement on the\
   \ 19 SCIM\n    operations (/public/v2/scim/* and the Private SCIM config at /api/v1/scim). The\n    documentation does not describe how this token is obtained; SCIM provisioning is set up\n    through the identity-management settings for Okta or Microsoft Entra ID rather than by\n    a developer minting a token.\n  applies_to: SCIM and Private SCIM operations\n  sources:\n  - openapi/configure8-c8-public-api-openapi.json\nsuperseded_schemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  status: superseded\n  reason: >-\n    This scheme comes only from openapi/_original/configure8-openapi.yml and the five split\n    files derived from it, which are a best-effort reconstruction written from the docs, not\n    a harvested contract — that file says so in its own info.description. The provider's\n    published contract and its documentation both use the `Api-Key` header, not\n    `Authorization`. Recorded here so a later derive pass does not resurrect it.\n  sources:\n\
   \  - openapi/configure8-catalog-entities-api-openapi.yml\n  - openapi/configure8-catalog-relations-api-openapi.yml\n  - openapi/configure8-deployments-api-openapi.yml\n  - openapi/configure8-scorecards-api-openapi.yml\n  - openapi/configure8-users-api-openapi.yml\ndocument_level_security:\n  declared: false\n  note: >-\n    The published spec sets no top-level `security`, leaving 52 of 71 operations with no\n    stated requirement even though the docs say every call must be authenticated. The gap is\n    corrected in overlays/configure8-c8-public-api-overlay.yaml rather than by editing the\n    harvested document.\nportal_sso:\n  note: >-\n    Distinct from API authentication. Portal sign-in supports SSO (Okta, Microsoft Entra ID),\n    Sign in with Google and email; SSO is an Enterprise feature. SCIM handles user and group\n    provisioning.\n  docs: https://configure8.io/docs-sub/configure8-product-docs/fundamentals/settings/identity-management\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/configure8/refs/heads/main/authentication/configure8-authentication.yml
+source_yaml_url: https://artifacts.apis.io/configure8/authentication/configure8-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Catalog

@@ -8,19 +8,19 @@ api_specs:
   label: Pepperdata Alarms API
   slug: pepperdata-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pepperdata/refs/heads/main/openapi/pepperdata-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/pepperdata/openapi/pepperdata-alarms-api-openapi.yml
 - filename: pepperdata-job-details-api-openapi.yml
   format: yaml
   label: Pepperdata Job Details API
   slug: pepperdata-job-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pepperdata/refs/heads/main/openapi/pepperdata-job-details-api-openapi.yml
+  url: https://artifacts.apis.io/pepperdata/openapi/pepperdata-job-details-api-openapi.yml
 - filename: pepperdata-metrics-api-openapi.yml
   format: yaml
   label: Pepperdata Metrics API
   slug: pepperdata-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pepperdata/refs/heads/main/openapi/pepperdata-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/pepperdata/openapi/pepperdata-metrics-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: pepperdata-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/pepperdata-rest-api-openapi.yml\ndocs: https://docs.pepperdata.com/rest-api/00-common-api/\nnotes: >-\n  API key auth. Keys are created at https://dashboard.pepperdata.com/account/apikeys\n  (Create API Key) and sent in the Authorization header with the custom PDAPI scheme:\n  `Authorization: PDAPI <API-key-id>:<API-key-token>`. Keys are reusable until deleted\n  or revoked. All requests are HTTPS (TLS 1.2+).\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: PDAPIAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'API key authentication. Send the header `Authorization: PDAPI <API-key-id>:<API-key-token>`.\n    Obtain a key at https://dashboard.pepperdata.com/account/apikeys and click Create API Key.\n    A key is reusable until deleted or revoked.'\n  sources:\n  - openapi/pepperdata-rest-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pepperdata/refs/heads/main/authentication/pepperdata-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pepperdata/authentication/pepperdata-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

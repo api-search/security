@@ -5,61 +5,61 @@ api_specs:
   label: OpenMeter Billing API
   slug: openmeter-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-billing-api-openapi.yml
+  url: https://artifacts.apis.io/openmeter/openapi/openmeter-billing-api-openapi.yml
 - filename: openmeter-customers-api-openapi.yml
   format: yaml
   label: OpenMeter Customers API
   slug: openmeter-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-customers-api-openapi.yml
+  url: https://artifacts.apis.io/openmeter/openapi/openmeter-customers-api-openapi.yml
 - filename: openmeter-entitlements-api-openapi.yml
   format: yaml
   label: OpenMeter Entitlements API
   slug: openmeter-entitlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-entitlements-api-openapi.yml
+  url: https://artifacts.apis.io/openmeter/openapi/openmeter-entitlements-api-openapi.yml
 - filename: openmeter-events-api-openapi.yml
   format: yaml
   label: OpenMeter Events API
   slug: openmeter-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-events-api-openapi.yml
+  url: https://artifacts.apis.io/openmeter/openapi/openmeter-events-api-openapi.yml
 - filename: openmeter-features-api-openapi.yml
   format: yaml
   label: OpenMeter Features API
   slug: openmeter-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-features-api-openapi.yml
+  url: https://artifacts.apis.io/openmeter/openapi/openmeter-features-api-openapi.yml
 - filename: openmeter-grants-api-openapi.yml
   format: yaml
   label: OpenMeter Grants API
   slug: openmeter-grants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-grants-api-openapi.yml
+  url: https://artifacts.apis.io/openmeter/openapi/openmeter-grants-api-openapi.yml
 - filename: openmeter-meters-api-openapi.yml
   format: yaml
   label: OpenMeter Meters API
   slug: openmeter-meters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-meters-api-openapi.yml
+  url: https://artifacts.apis.io/openmeter/openapi/openmeter-meters-api-openapi.yml
 - filename: openmeter-notifications-api-openapi.yml
   format: yaml
   label: OpenMeter Notifications API
   slug: openmeter-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/openmeter/openapi/openmeter-notifications-api-openapi.yml
 - filename: openmeter-plans-api-openapi.yml
   format: yaml
   label: OpenMeter Plans API
   slug: openmeter-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-plans-api-openapi.yml
+  url: https://artifacts.apis.io/openmeter/openapi/openmeter-plans-api-openapi.yml
 - filename: openmeter-subjects-api-openapi.yml
   format: yaml
   label: OpenMeter Subjects API
   slug: openmeter-subjects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-subjects-api-openapi.yml
+  url: https://artifacts.apis.io/openmeter/openapi/openmeter-subjects-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -100,7 +100,7 @@ source_filename: openmeter-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: openmeter.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 05:58:39 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: openmeter.cloud\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 04:23:31 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: openmeter.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: openmeter.cloud\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/security/openmeter-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/openmeter/security/openmeter-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Usage Metering

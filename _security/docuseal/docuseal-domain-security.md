@@ -5,19 +5,19 @@ api_specs:
   label: DocuSeal Submissions API
   slug: docuseal-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/openapi/docuseal-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/docuseal/openapi/docuseal-submissions-api-openapi.yml
 - filename: docuseal-submitters-api-openapi.yml
   format: yaml
   label: DocuSeal Submitters API
   slug: docuseal-submitters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/openapi/docuseal-submitters-api-openapi.yml
+  url: https://artifacts.apis.io/docuseal/openapi/docuseal-submitters-api-openapi.yml
 - filename: docuseal-templates-api-openapi.yml
   format: yaml
   label: DocuSeal Templates API
   slug: docuseal-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/openapi/docuseal-templates-api-openapi.yml
+  url: https://artifacts.apis.io/docuseal/openapi/docuseal-templates-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,7 +62,7 @@ source_filename: docuseal-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.docuseal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.docuseal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 20:49:36 2026 GMT\n  hsts: null\n- host: api.docuseal.eu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 18:17:14 2026 GMT\n  hsts: null\ndomains:\n- domain: docuseal.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: docuseal.eu\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/security/docuseal-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/docuseal/security/docuseal-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - E-Signature

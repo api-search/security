@@ -5,19 +5,19 @@ api_specs:
   label: Loon Finance Attestations API
   slug: loon-finance-attestations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loon-finance/refs/heads/main/openapi/loon-finance-attestations-api-openapi.yml
+  url: https://artifacts.apis.io/loon-finance/openapi/loon-finance-attestations-api-openapi.yml
 - filename: loon-finance-issuances-api-openapi.yml
   format: yaml
   label: Loon Finance Issuances API
   slug: loon-finance-issuances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loon-finance/refs/heads/main/openapi/loon-finance-issuances-api-openapi.yml
+  url: https://artifacts.apis.io/loon-finance/openapi/loon-finance-issuances-api-openapi.yml
 - filename: loon-finance-supply-api-openapi.yml
   format: yaml
   label: Loon Finance Supply API
   slug: loon-finance-supply-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loon-finance/refs/heads/main/openapi/loon-finance-supply-api-openapi.yml
+  url: https://artifacts.apis.io/loon-finance/openapi/loon-finance-supply-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: loon-finance-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: loon.finance\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 17:59:47 2026 GMT\n  hsts: false\ndomains:\n- domain: loon.finance\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loon-finance/refs/heads/main/security/loon-finance-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/loon-finance/security/loon-finance-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

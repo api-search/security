@@ -107,25 +107,25 @@ api_specs:
   label: APIs.io Provider Control API
   slug: apis-io-provider-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-provider-control-api-openapi.yml
+  url: https://artifacts.apis.io/apis-io/openapi/apis-io-provider-control-api-openapi.yml
 - filename: apis-io-watches-api-openapi.yml
   format: yaml
   label: APIs.io Watches API
   slug: apis-io-watches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-watches-api-openapi.yml
+  url: https://artifacts.apis.io/apis-io/openapi/apis-io-watches-api-openapi.yml
 - filename: apis-io-apis-api-openapi.yml
   format: yaml
   label: APIs.io APIs API
   slug: apis-io-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apis-io/openapi/apis-io-apis-api-openapi.yml
 - filename: apis-io-prices-api-openapi.yml
   format: yaml
   label: APIs.io Prices API
   slug: apis-io-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-prices-api-openapi.yml
+  url: https://artifacts.apis.io/apis-io/openapi/apis-io-prices-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -154,7 +154,7 @@ source_filename: apis-io-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: apis.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  3 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: apis.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/security/apis-io-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apis-io/security/apis-io-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - API Aggregation

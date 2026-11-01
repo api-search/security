@@ -8,37 +8,37 @@ api_specs:
   label: TwelveLabs Analyze API
   slug: twelvelabs-analyze-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/openapi/twelvelabs-analyze-api-openapi.yml
+  url: https://artifacts.apis.io/twelvelabs/openapi/twelvelabs-analyze-api-openapi.yml
 - filename: twelvelabs-embed-api-openapi.yml
   format: yaml
   label: TwelveLabs Embed API
   slug: twelvelabs-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/openapi/twelvelabs-embed-api-openapi.yml
+  url: https://artifacts.apis.io/twelvelabs/openapi/twelvelabs-embed-api-openapi.yml
 - filename: twelvelabs-indexes-api-openapi.yml
   format: yaml
   label: TwelveLabs Indexes API
   slug: twelvelabs-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/openapi/twelvelabs-indexes-api-openapi.yml
+  url: https://artifacts.apis.io/twelvelabs/openapi/twelvelabs-indexes-api-openapi.yml
 - filename: twelvelabs-search-api-openapi.yml
   format: yaml
   label: TwelveLabs Search API
   slug: twelvelabs-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/openapi/twelvelabs-search-api-openapi.yml
+  url: https://artifacts.apis.io/twelvelabs/openapi/twelvelabs-search-api-openapi.yml
 - filename: twelvelabs-tasks-api-openapi.yml
   format: yaml
   label: TwelveLabs Tasks API
   slug: twelvelabs-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/openapi/twelvelabs-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/twelvelabs/openapi/twelvelabs-tasks-api-openapi.yml
 - filename: twelvelabs-videos-api-openapi.yml
   format: yaml
   label: TwelveLabs Videos API
   slug: twelvelabs-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/openapi/twelvelabs-videos-api-openapi.yml
+  url: https://artifacts.apis.io/twelvelabs/openapi/twelvelabs-videos-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: twelvelabs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/twelvelabs-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: TwelveLabs API key sent in the `x-api-key` request header.\n  sources:\n  - openapi/twelvelabs-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/authentication/twelvelabs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/twelvelabs/authentication/twelvelabs-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence

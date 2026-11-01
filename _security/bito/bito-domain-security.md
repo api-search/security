@@ -5,43 +5,43 @@ api_specs:
   label: Bito Authentication Method Kubernetes Service API
   slug: bito-authenticationmethodkubernetesservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/openapi/bito-authenticationmethodkubernetesservice-api-openapi.yml
+  url: https://artifacts.apis.io/bito/openapi/bito-authenticationmethodkubernetesservice-api-openapi.yml
 - filename: bito-authenticationmethodoidcservice-api-openapi.yml
   format: yaml
   label: Bito Authentication Method OIDC Service API
   slug: bito-authenticationmethodoidcservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/openapi/bito-authenticationmethodoidcservice-api-openapi.yml
+  url: https://artifacts.apis.io/bito/openapi/bito-authenticationmethodoidcservice-api-openapi.yml
 - filename: bito-authenticationmethodtokenservice-api-openapi.yml
   format: yaml
   label: Bito Authentication Method Token Service API
   slug: bito-authenticationmethodtokenservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/openapi/bito-authenticationmethodtokenservice-api-openapi.yml
+  url: https://artifacts.apis.io/bito/openapi/bito-authenticationmethodtokenservice-api-openapi.yml
 - filename: bito-evaluationservice-api-openapi.yml
   format: yaml
   label: Bito Evaluation Service API
   slug: bito-evaluationservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/openapi/bito-evaluationservice-api-openapi.yml
+  url: https://artifacts.apis.io/bito/openapi/bito-evaluationservice-api-openapi.yml
 - filename: bito-flipt-api-openapi.yml
   format: yaml
   label: Bito Flipt API
   slug: bito-flipt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/openapi/bito-flipt-api-openapi.yml
+  url: https://artifacts.apis.io/bito/openapi/bito-flipt-api-openapi.yml
 - filename: bito-ofrepservice-api-openapi.yml
   format: yaml
   label: Bito OFREP Service API
   slug: bito-ofrepservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/openapi/bito-ofrepservice-api-openapi.yml
+  url: https://artifacts.apis.io/bito/openapi/bito-ofrepservice-api-openapi.yml
 - filename: bito-authentication-service-api-openapi.yml
   format: yaml
   label: Bito Authentication Service API
   slug: bito-authentication-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/openapi/bito-authentication-service-api-openapi.yml
+  url: https://artifacts.apis.io/bito/openapi/bito-authentication-service-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -72,7 +72,7 @@ source_filename: bito-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bito.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  5 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: bito.ai\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/security/bito-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bito/security/bito-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

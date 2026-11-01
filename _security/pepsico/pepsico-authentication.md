@@ -7,7 +7,7 @@ api_specs:
   label: PepsiCo Food API
   slug: pepsico-food-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pepsico/refs/heads/main/openapi/pepsico-food-api-openapi.yml
+  url: https://artifacts.apis.io/pepsico/openapi/pepsico-food-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -33,7 +33,7 @@ source_filename: pepsico-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pepsico-pepsico-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/pepsico-pepsico-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pepsico/refs/heads/main/authentication/pepsico-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pepsico/authentication/pepsico-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Beverages

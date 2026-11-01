@@ -8,133 +8,133 @@ api_specs:
   label: ArangoDB Administration API
   slug: arangodb-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-administration-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-administration-api-openapi.yml
 - filename: arangodb-analyzers-api-openapi.yml
   format: yaml
   label: ArangoDB Analyzers API
   slug: arangodb-analyzers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-analyzers-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-analyzers-api-openapi.yml
 - filename: arangodb-authentication-api-openapi.yml
   format: yaml
   label: ArangoDB Authentication API
   slug: arangodb-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-authentication-api-openapi.yml
 - filename: arangodb-batch-requests-api-openapi.yml
   format: yaml
   label: ArangoDB Batch Requests API
   slug: arangodb-batch-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-batch-requests-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-batch-requests-api-openapi.yml
 - filename: arangodb-cluster-api-openapi.yml
   format: yaml
   label: ArangoDB Cluster API
   slug: arangodb-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-cluster-api-openapi.yml
 - filename: arangodb-collections-api-openapi.yml
   format: yaml
   label: ArangoDB Collections API
   slug: arangodb-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-collections-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-collections-api-openapi.yml
 - filename: arangodb-databases-api-openapi.yml
   format: yaml
   label: ArangoDB Databases API
   slug: arangodb-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-databases-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-databases-api-openapi.yml
 - filename: arangodb-documents-api-openapi.yml
   format: yaml
   label: ArangoDB Documents API
   slug: arangodb-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-documents-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-documents-api-openapi.yml
 - filename: arangodb-foxx-api-openapi.yml
   format: yaml
   label: ArangoDB Foxx API
   slug: arangodb-foxx-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-foxx-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-foxx-api-openapi.yml
 - filename: arangodb-graphs-api-openapi.yml
   format: yaml
   label: ArangoDB Graphs API
   slug: arangodb-graphs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-graphs-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-graphs-api-openapi.yml
 - filename: arangodb-hot-backups-api-openapi.yml
   format: yaml
   label: ArangoDB Hot Backups API
   slug: arangodb-hot-backups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-hot-backups-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-hot-backups-api-openapi.yml
 - filename: arangodb-import-api-openapi.yml
   format: yaml
   label: ArangoDB Import API
   slug: arangodb-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-import-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-import-api-openapi.yml
 - filename: arangodb-indexes-api-openapi.yml
   format: yaml
   label: ArangoDB Indexes API
   slug: arangodb-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-indexes-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-indexes-api-openapi.yml
 - filename: arangodb-jobs-api-openapi.yml
   format: yaml
   label: ArangoDB Jobs API
   slug: arangodb-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-jobs-api-openapi.yml
 - filename: arangodb-monitoring-api-openapi.yml
   format: yaml
   label: ArangoDB Monitoring API
   slug: arangodb-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-monitoring-api-openapi.yml
 - filename: arangodb-queries-api-openapi.yml
   format: yaml
   label: ArangoDB Queries API
   slug: arangodb-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-queries-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-queries-api-openapi.yml
 - filename: arangodb-replication-api-openapi.yml
   format: yaml
   label: ArangoDB Replication API
   slug: arangodb-replication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-replication-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-replication-api-openapi.yml
 - filename: arangodb-security-api-openapi.yml
   format: yaml
   label: ArangoDB Security API
   slug: arangodb-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-security-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-security-api-openapi.yml
 - filename: arangodb-tasks-api-openapi.yml
   format: yaml
   label: ArangoDB Tasks API
   slug: arangodb-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-tasks-api-openapi.yml
 - filename: arangodb-transactions-api-openapi.yml
   format: yaml
   label: ArangoDB Transactions API
   slug: arangodb-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-transactions-api-openapi.yml
 - filename: arangodb-users-api-openapi.yml
   format: yaml
   label: ArangoDB Users API
   slug: arangodb-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-users-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-users-api-openapi.yml
 - filename: arangodb-views-api-openapi.yml
   format: yaml
   label: ArangoDB Views API
   slug: arangodb-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-views-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-views-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -160,7 +160,7 @@ source_yaml: "generated: '2026-08-02'\nmethod: searched\nsource: >-\n  https://d
   \  - option: --server.authentication\n    default: true\n    description: Require HTTP authentication for incoming requests.\n  - option: --server.authentication-system-only\n    default: true\n    description: >-\n      When true, only the internal database APIs (/_api/, /_admin/) require\n      authentication; custom Foxx services do not.\n  challenge:\n    status: 401\n    header: Www-Authenticate\n    suppress_with: 'X-Omit-Www-Authenticate (any value)'\n  authorization_model:\n    kind: user permissions\n    levels: [database, collection]\n    grades: [rw, ro, none]\n    admin_operations: [getUserDatabasePermissions, setUserDatabasePermissions, deleteUserDatabasePermissions,\n      getUserCollectionPermissions, setUserCollectionPermissions, deleteUserCollectionPermissions]\n- api: Arango Managed Platform (AMP) API\n  spec: grpc/arangodb-iam.proto\n  schemes:\n  - name: ampApiKey\n    type: apiKey\n    in: header\n    parameter: authorization\n    description: >-\n      An AMP API\
   \ key (key ID + secret) is exchanged for a short-lived access token\n      via the IAM service RPC AuthenticateAPIKey; the token is then sent as a\n      standard gRPC bearer credential on every call.\n    token_exchange_rpc: iam.v1.IAMService/AuthenticateAPIKey\n    key_options: [scope to one organization or all, expiration in hours, read-only]\n  docs: https://docs.arango.ai/amp/api/get-started/\n- api: Arango Managed Platform SCIM API\n  schemes:\n  - name: scimBasic\n    type: http\n    scheme: basic\n    in: header\n    parameter: Authorization\n    description: AMP API key ID as the username and the API key secret as the password.\n  docs: https://docs.arango.ai/amp/security-and-access-control/single-sign-on/scim-provisioning/\nsingle_sign_on:\n  supported: true\n  scope: Arango Managed Platform organizations\n  protocols: [SAML 2.0, SCIM 2.0 provisioning]\n  docs: https://docs.arango.ai/amp/security-and-access-control/single-sign-on/\nscopes: null\nscopes_note: >-\n  No OAuth 2.0\
   \ surface is published for either the Core API or the AMP API, so\n  there is no scope catalogue to capture. Authorization is expressed as ArangoDB\n  user permissions (Core) and as AMP roles/role-bindings/policies (AMP).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/authentication/arangodb-authentication.yml
+source_yaml_url: https://artifacts.apis.io/arangodb/authentication/arangodb-authentication.yml
 summary_line: http/apiKey · 0 schemes
 tags:
 - Company

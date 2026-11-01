@@ -7,19 +7,19 @@ api_specs:
   label: Funding Circle Decisions API
   slug: funding-circle-decisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/funding-circle/refs/heads/main/openapi/funding-circle-decisions-api-openapi.yml
+  url: https://artifacts.apis.io/funding-circle/openapi/funding-circle-decisions-api-openapi.yml
 - filename: funding-circle-documents-api-openapi.yml
   format: yaml
   label: Funding Circle Documents API
   slug: funding-circle-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/funding-circle/refs/heads/main/openapi/funding-circle-documents-api-openapi.yml
+  url: https://artifacts.apis.io/funding-circle/openapi/funding-circle-documents-api-openapi.yml
 - filename: funding-circle-loan-applications-api-openapi.yml
   format: yaml
   label: Funding Circle Loan Applications API
   slug: funding-circle-loan-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/funding-circle/refs/heads/main/openapi/funding-circle-loan-applications-api-openapi.yml
+  url: https://artifacts.apis.io/funding-circle/openapi/funding-circle-loan-applications-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -51,7 +51,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://www.fundingcircle.com/uk/partners/developer/api-doc/\ndocs: https://www.fundingcircle.com/uk/partners/developer/api-doc/\nsummary:\n  types: [oauth2]\n  oauth2_flows: [clientCredentials]\n  api_key_in: []\nschemes:\n  - name: oauth2\n    type: oauth2\n    flow: clientCredentials\n    description: >-\n      OAuth 2.0 Client Credentials grant (RFC 6749 Section 4.4). Base64-encode\n      `client_id:client_secret` and POST to the token endpoint to receive an\n      access_token valid for 24 hours. Send it as `Authorization: Bearer\n      {access_token}` on every request except the presigned document-upload PUT.\n    token_url_sandbox: https://auth.sandbox.api.fundingcircle.co.uk/oauth2/token\n    token_ttl_seconds: 86400\n    scopes: []\n    sources: [openapi/funding-circle-introducer-openapi.yml]\nnotes:\n  - No OAuth scopes are documented (client-credentials, coarse-grained access).\n  - Do not attach the bearer token\
   \ to the presigned S3 document-upload PUT request.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/funding-circle/refs/heads/main/authentication/funding-circle-authentication.yml
+source_yaml_url: https://artifacts.apis.io/funding-circle/authentication/funding-circle-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

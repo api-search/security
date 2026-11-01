@@ -14,7 +14,7 @@ source_filename: virtue-ai-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nurl: https://trust.virtueai.com/\nplatform: vanta\ncertifications: []\ndescription: >-\n  Virtue AI publishes a Vanta-hosted trust center at trust.virtueai.com\n  (page title \"Virtue AI Trust Center\"). The certification/compliance detail is\n  rendered client-side from the Vanta trust-report manifest and was not present\n  in the raw HTML at probe time, so no named certifications are asserted here.\n  Presence of the trust center is confirmed; specific frameworks (e.g. SOC 2)\n  should be read from the live page.\nevidence:\n  - source: https://trust.virtueai.com/\n    keywords: [trust center, vanta]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/virtue-ai/refs/heads/main/security/virtue-ai-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/virtue-ai/security/virtue-ai-trust-center.yml
 summary_line: trust center published
 tags:
 - Company

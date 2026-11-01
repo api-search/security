@@ -8,25 +8,25 @@ api_specs:
   label: DiscountedTokens API Messages API
   slug: discountedtokens-api-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discountedtokens-api/refs/heads/main/openapi/discountedtokens-api-messages-api-openapi.yml
+  url: https://artifacts.apis.io/discountedtokens-api/openapi/discountedtokens-api-messages-api-openapi.yml
 - filename: discountedtokens-api-models-api-openapi.yml
   format: yaml
   label: DiscountedTokens API Models API
   slug: discountedtokens-api-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discountedtokens-api/refs/heads/main/openapi/discountedtokens-api-models-api-openapi.yml
+  url: https://artifacts.apis.io/discountedtokens-api/openapi/discountedtokens-api-models-api-openapi.yml
 - filename: discountedtokens-api-responses-api-openapi.yml
   format: yaml
   label: DiscountedTokens API Responses API
   slug: discountedtokens-api-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discountedtokens-api/refs/heads/main/openapi/discountedtokens-api-responses-api-openapi.yml
+  url: https://artifacts.apis.io/discountedtokens-api/openapi/discountedtokens-api-responses-api-openapi.yml
 - filename: discountedtokens-api-chat-completions-api-openapi.yml
   format: yaml
   label: DiscountedTokens API Chat Completions API
   slug: discountedtokens-api-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discountedtokens-api/refs/heads/main/openapi/discountedtokens-api-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/discountedtokens-api/openapi/discountedtokens-api-chat-completions-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -59,7 +59,7 @@ source_filename: discountedtokens-api-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-17'\nmethod: derived\nsource: openapi/discountedtokens-api-openapi.json\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/discountedtokens-api-openapi.json\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/discountedtokens-api-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/discountedtokens-api/refs/heads/main/authentication/discountedtokens-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/discountedtokens-api/authentication/discountedtokens-api-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Artificial Intelligence

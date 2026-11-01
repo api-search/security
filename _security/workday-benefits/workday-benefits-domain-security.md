@@ -5,79 +5,79 @@ api_specs:
   label: Workday Benefits Benefit Enrollments API
   slug: workday-benefits-benefit-enrollments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-benefit-enrollments-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-benefit-enrollments-api-openapi.yml
 - filename: workday-benefits-benefit-events-api-openapi.yml
   format: yaml
   label: Workday Benefits Benefit Events API
   slug: workday-benefits-benefit-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-benefit-events-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-benefit-events-api-openapi.yml
 - filename: workday-benefits-benefit-plans-api-openapi.yml
   format: yaml
   label: Workday Benefits Benefit Plans API
   slug: workday-benefits-benefit-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-benefit-plans-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-benefit-plans-api-openapi.yml
 - filename: workday-benefits-dependents-api-openapi.yml
   format: yaml
   label: Workday Benefits Dependents API
   slug: workday-benefits-dependents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-dependents-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-dependents-api-openapi.yml
 - filename: workday-benefits-employee-benefits-api-openapi.yml
   format: yaml
   label: Workday Benefits Employee Benefits API
   slug: workday-benefits-employee-benefits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-employee-benefits-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-employee-benefits-api-openapi.yml
 - filename: workday-benefits-time-off-plans-api-openapi.yml
   format: yaml
   label: Workday Benefits Time Off Plans API
   slug: workday-benefits-time-off-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-time-off-plans-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-time-off-plans-api-openapi.yml
 - filename: workday-benefits-06-15-2024-api-openapi.yml
   format: yaml
   label: Workday Benefits 06/15/2024 API
   slug: workday-benefits-06-15-2024-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-06-15-2024-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-06-15-2024-api-openapi.yml
 - filename: workday-benefits-06-15-2026-api-openapi.yml
   format: yaml
   label: Workday Benefits 06/15/2026 API
   slug: workday-benefits-06-15-2026-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-06-15-2026-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-06-15-2026-api-openapi.yml
 - filename: workday-benefits-06-30-2026-api-openapi.yml
   format: yaml
   label: Workday Benefits 06/30/2026 API
   slug: workday-benefits-06-30-2026-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-06-30-2026-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-06-30-2026-api-openapi.yml
 - filename: workday-benefits-08-17-2026-api-openapi.yml
   format: yaml
   label: Workday Benefits 08/17/2026 API
   slug: workday-benefits-08-17-2026-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-08-17-2026-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-08-17-2026-api-openapi.yml
 - filename: workday-benefits-09-09-2023-api-openapi.yml
   format: yaml
   label: Workday Benefits 09/09/2023 API
   slug: workday-benefits-09-09-2023-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-09-09-2023-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-09-09-2023-api-openapi.yml
 - filename: workday-benefits-employeeenrollmentevent-api-openapi.yml
   format: yaml
   label: Workday Benefits Employee Enrollment Event API
   slug: workday-benefits-employeeenrollmentevent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-employeeenrollmentevent-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-employeeenrollmentevent-api-openapi.yml
 - filename: workday-benefits-programs-api-openapi.yml
   format: yaml
   label: Workday Benefits Programs API
   slug: workday-benefits-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-programs-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-programs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -118,7 +118,7 @@ source_filename: workday-benefits-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.workday.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 10 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: wd2-impl-services1.workday.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 19:44:37 2026 GMT\n  hsts: null\n- host: developer.workday.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  9 01:18:54 2026 GMT\n  hsts: true\n  hsts_max_age: 15638400\ndomains:\n- domain: workday.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/security/workday-benefits-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/workday-benefits/security/workday-benefits-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Benefits

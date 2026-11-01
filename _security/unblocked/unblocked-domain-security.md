@@ -5,19 +5,19 @@ api_specs:
   label: Unblocked Answers API
   slug: unblocked-answers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/openapi/unblocked-answers-api-openapi.yml
+  url: https://artifacts.apis.io/unblocked/openapi/unblocked-answers-api-openapi.yml
 - filename: unblocked-collections-api-openapi.yml
   format: yaml
   label: Unblocked Collections API
   slug: unblocked-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/openapi/unblocked-collections-api-openapi.yml
+  url: https://artifacts.apis.io/unblocked/openapi/unblocked-collections-api-openapi.yml
 - filename: unblocked-documents-api-openapi.yml
   format: yaml
   label: Unblocked Documents API
   slug: unblocked-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/openapi/unblocked-documents-api-openapi.yml
+  url: https://artifacts.apis.io/unblocked/openapi/unblocked-documents-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: unblocked-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: getunblocked.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  6 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 15724800\ndomains:\n- domain: getunblocked.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/security/unblocked-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/unblocked/security/unblocked-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

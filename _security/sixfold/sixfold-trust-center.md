@@ -16,7 +16,7 @@ source_filename: sixfold-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.sixfold.ai/\nurl: https://trust.sixfold.ai/\ncertifications:\n- SOC 2\n- HIPAA\nevidence:\n- source: https://trust.sixfold.ai/\n  keywords:\n  - soc 2\n  - hipaa\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sixfold/refs/heads/main/security/sixfold-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/sixfold/security/sixfold-trust-center.yml
 summary_line: SOC 2, HIPAA
 tags:
 - Insurance

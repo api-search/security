@@ -5,19 +5,19 @@ api_specs:
   label: Liberty Global Applications API
   slug: liberty-global-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/openapi/liberty-global-applications-api-openapi.yml
+  url: https://artifacts.apis.io/liberty-global/openapi/liberty-global-applications-api-openapi.yml
 - filename: liberty-global-maintainer-api-openapi.yml
   format: yaml
   label: Liberty Global Maintainer API
   slug: liberty-global-maintainer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/openapi/liberty-global-maintainer-api-openapi.yml
+  url: https://artifacts.apis.io/liberty-global/openapi/liberty-global-maintainer-api-openapi.yml
 - filename: liberty-global-stb-api-openapi.yml
   format: yaml
   label: Liberty Global STB API
   slug: liberty-global-stb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/openapi/liberty-global-stb-api-openapi.yml
+  url: https://artifacts.apis.io/liberty-global/openapi/liberty-global-stb-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -52,7 +52,7 @@ source_filename: liberty-global-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.libertyglobal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 27 12:42:18 2027 GMT\n  hsts: false\ndomains:\n- domain: libertyglobal.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"pki.goog\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issuewild \"amazontrust.com\"\n  - 0 iodef \"mailto:pki@libertyglobal.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/security/liberty-global-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/liberty-global/security/liberty-global-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Telecommunications

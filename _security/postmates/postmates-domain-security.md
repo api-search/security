@@ -43,7 +43,7 @@ source_filename: postmates-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: postmates.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 02:27:14 2026 GMT\n  hsts: null\n- host: developer.uber.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 16 23:59:59 2027 GMT\n  hsts: null\n- host: api.postmates.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 02:27:14 2026 GMT\n  hsts: null\ndomains:\n- domain: postmates.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: uber.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/postmates/refs/heads/main/security/postmates-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/postmates/security/postmates-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Acquired

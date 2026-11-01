@@ -5,7 +5,7 @@ api_specs:
   label: Limble CMMS Routes API
   slug: limble-cmms-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/openapi/limble-cmms-routes-api-openapi.yml
+  url: https://artifacts.apis.io/limble-cmms/openapi/limble-cmms-routes-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -23,7 +23,7 @@ source_filename: limble-cmms-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.limble.com/\nurl: https://trust.limble.com/\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://trust.limble.com/\n  keywords:\n  - soc 2\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/security/limble-cmms-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/limble-cmms/security/limble-cmms-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - CMMS

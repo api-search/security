@@ -5,31 +5,31 @@ api_specs:
   label: WebsitePros Domains API
   slug: websitepros-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/openapi/websitepros-domains-api-openapi.yml
+  url: https://artifacts.apis.io/websitepros/openapi/websitepros-domains-api-openapi.yml
 - filename: websitepros-health-api-openapi.yml
   format: yaml
   label: WebsitePros Health API
   slug: websitepros-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/openapi/websitepros-health-api-openapi.yml
+  url: https://artifacts.apis.io/websitepros/openapi/websitepros-health-api-openapi.yml
 - filename: websitepros-sales-orders-api-openapi.yml
   format: yaml
   label: WebsitePros Sales Orders API
   slug: websitepros-sales-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/openapi/websitepros-sales-orders-api-openapi.yml
+  url: https://artifacts.apis.io/websitepros/openapi/websitepros-sales-orders-api-openapi.yml
 - filename: websitepros-service-orders-api-openapi.yml
   format: yaml
   label: WebsitePros Service Orders API
   slug: websitepros-service-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/openapi/websitepros-service-orders-api-openapi.yml
+  url: https://artifacts.apis.io/websitepros/openapi/websitepros-service-orders-api-openapi.yml
 - filename: websitepros-sso-api-openapi.yml
   format: yaml
   label: WebsitePros SSO API
   slug: websitepros-sso-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/openapi/websitepros-sso-api-openapi.yml
+  url: https://artifacts.apis.io/websitepros/openapi/websitepros-sso-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: websitepros-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.web.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 21:46:28 2026 GMT\n  hsts: null\n- host: api-docs.intl.web.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  1 01:26:41 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.nts.web.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: web.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/security/websitepros-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/websitepros/security/websitepros-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

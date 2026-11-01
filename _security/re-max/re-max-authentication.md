@@ -7,13 +7,13 @@ api_specs:
   label: RE/MAX Europe Datahub API
   slug: re-max-eu-datahub-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/re-max/refs/heads/main/collections/re-max-eu-datahub-api.postman_collection.json
+  url: https://artifacts.apis.io/re-max/collections/re-max-eu-datahub-api.postman_collection.json
 - filename: re-max-eu-listings-api.postman_collection.json
   format: json
   label: RE/MAX Europe Listings API
   slug: re-max-eu-listings-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/re-max/refs/heads/main/collections/re-max-eu-listings-api.postman_collection.json
+  url: https://artifacts.apis.io/re-max/collections/re-max-eu-listings-api.postman_collection.json
 auth_types:
 - oauth2
 description: ''
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource:\n- collections/
   \    status: 404\n    note: 404 to an anonymous GET; the collection documents it as a POST token endpoint\n  - url: https://oauth.datahub.remax.eu/.well-known/openid-configuration\n    status: 404\n  - url: https://oauth.datahub.remax.eu/.well-known/oauth-authorization-server\n    status: 404\n- name: listings-oauth2-staging\n  api: RE/MAX Europe Listings API (staging)\n  type: oauth2\n  flow: authorizationCode\n  authorizationUrl: https://oauth.pre-prod.remaxeu-datahub.bwscloud.tech/authorize\n  tokenUrl: https://oauth.pre-prod.remaxeu-datahub.bwscloud.tech/token\n  client_id_placeholder: <client-id>\n  scopes: []\n  token_transport: access_token query parameter on every request\n  sources:\n  - collections/re-max-eu-listings-api.postman_collection.json\n  probes:\n  - url: https://oauth.pre-prod.remaxeu-datahub.bwscloud.tech/.well-known/openid-configuration\n    status: 403\n    note: origin returns nginx 403 to all anonymous paths\n- name: wordpress-rest\n  api: RE/MAX Europe Site API\
   \ (WordPress REST)\n  type: cookie-or-application-password\n  flow: null\n  anonymous_read: true\n  sources:\n  - well-known/re-max-eu-wp-json.json\n  probes:\n  - url: https://www.remax.eu/wp-json/wp/v2/posts?per_page=1\n    status: 200\n    note: anonymous read of published content succeeds\n  - url: https://www.remax.eu/wp-json/wp-abilities/v1/abilities\n    status: 401\n    body: '{\"code\":\"rest_forbidden\",\"message\":\"Sorry, you are not allowed to do that.\"}'\n  - url: https://www.remax.eu/wp-json/mcp/mcp-adapter-default-server\n    status: 401\n    method_probed: 'POST tools/list'\nenforcement_evidence:\n- url: https://api.datahub.remax.eu/external/regions/\n  status: 400\n  body: '{\"status\":[{\"code\":4007,\"message\":\"Login parameter Required\"}],\"result\":{}}'\n  finding: calling without an access_token is rejected\n- url: https://api.datahub.remax.eu/external/regions/?access_token=invalidtoken123\n  status: 403\n  body: '{\"status\":[{\"code\":4004,\"message\":\"Invalid\
   \ or expired Session/Token\"}],\"result\":{}}'\n  finding: an invalid token is rejected; the gate is real and enforced\nsecurity_observations:\n- >-\n  Bearer material in the query string. Both RE/MAX Europe APIs pass the OAuth\n  access token as a URL query parameter, so tokens land in server logs, proxy\n  logs, referrer headers and browser history. An Authorization header is the\n  RFC 6750 recommended transport.\n- >-\n  No authorization-server metadata. Neither OIDC discovery nor RFC 8414 metadata\n  is served, so a client cannot machine-discover endpoints, supported grants,\n  PKCE support or signing keys.\n- >-\n  No published scopes. Without a scope vocabulary, every issued credential is\n  effectively coarse-grained from a consumer's point of view.\n- >-\n  The published staging Listings collection embedded a live-looking 128-character\n  hexadecimal access_token in four request URLs; those values were redacted\n  before this repo saved the file (see review.yml harvest.collections).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/re-max/refs/heads/main/authentication/re-max-authentication.yml
+source_yaml_url: https://artifacts.apis.io/re-max/authentication/re-max-authentication.yml
 summary_line: oauth2 · 3 schemes
 tags:
 - Real Estate

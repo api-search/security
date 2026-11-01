@@ -5,31 +5,31 @@ api_specs:
   label: Agentcard Authentication API
   slug: agentcard-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/openapi/agentcard-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/agentcard/openapi/agentcard-authentication-api-openapi.yml
 - filename: agentcard-connect-api-openapi.yml
   format: yaml
   label: Agentcard Connect API
   slug: agentcard-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/openapi/agentcard-connect-api-openapi.yml
+  url: https://artifacts.apis.io/agentcard/openapi/agentcard-connect-api-openapi.yml
 - filename: agentcard-identity-verification-api-openapi.yml
   format: yaml
   label: Agentcard Identity verification API
   slug: agentcard-identity-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/openapi/agentcard-identity-verification-api-openapi.yml
-- filename: agentcard-wallet-funding-api-openapi.yml
+  url: https://artifacts.apis.io/agentcard/openapi/agentcard-identity-verification-api-openapi.yml
+- filename: agentcard-member-cards-api-openapi.yml
   format: yaml
-  label: Agentcard Wallet funding API
-  slug: agentcard-wallet-funding-api
+  label: Agentcard Member cards API
+  slug: agentcard-member-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/openapi/agentcard-wallet-funding-api-openapi.yml
-- filename: agentcard-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/agentcard/openapi/agentcard-member-cards-api-openapi.yml
+- filename: agentcard-purchase-api-openapi.yml
   format: yaml
-  label: Agentcard Withdrawals API
-  slug: agentcard-withdrawals-api
+  label: Agentcard Purchase API
+  slug: agentcard-purchase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/openapi/agentcard-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/agentcard/openapi/agentcard-purchase-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -62,7 +62,7 @@ source_filename: agentcard-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.agentcard.sh\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 17:23:40 2026 GMT\n  hsts: null\ndomains:\n- domain: agentcard.sh\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/security/agentcard-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/agentcard/security/agentcard-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

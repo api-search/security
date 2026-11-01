@@ -5,25 +5,25 @@ api_specs:
   label: RubiConnect Campaigns API
   slug: rubiconnect-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/openapi/rubiconnect-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/rubiconnect/openapi/rubiconnect-campaigns-api-openapi.yml
 - filename: rubiconnect-capabilities-api-openapi.yml
   format: yaml
   label: RubiConnect Capabilities API
   slug: rubiconnect-capabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/openapi/rubiconnect-capabilities-api-openapi.yml
+  url: https://artifacts.apis.io/rubiconnect/openapi/rubiconnect-capabilities-api-openapi.yml
 - filename: rubiconnect-messages-api-openapi.yml
   format: yaml
   label: RubiConnect Messages API
   slug: rubiconnect-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/openapi/rubiconnect-messages-api-openapi.yml
+  url: https://artifacts.apis.io/rubiconnect/openapi/rubiconnect-messages-api-openapi.yml
 - filename: rubiconnect-webhooks-api-openapi.yml
   format: yaml
   label: RubiConnect Webhooks API
   slug: rubiconnect-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/openapi/rubiconnect-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/rubiconnect/openapi/rubiconnect-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: rubiconnect-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: console.rubiconnect.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 00:30:49 2026 GMT\n  hsts: false\ndomains:\n- domain: rubiconnect.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/security/rubiconnect-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rubiconnect/security/rubiconnect-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - CPaaS

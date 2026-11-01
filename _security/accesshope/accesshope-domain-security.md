@@ -42,7 +42,7 @@ source_filename: accesshope-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.myaccesshope.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 07:42:30 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.myaccesshope.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 10 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  note: member/staff portal, credentialed; robots.txt Disallow /\n- host: docs.myaccesshope.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  note: document portal behind login; not developer documentation\ndomains:\n- domain: myaccesshope.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/accesshope/refs/heads/main/security/accesshope-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/accesshope/security/accesshope-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -27,7 +27,7 @@ source_filename: bioprotonics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bioprotonics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 17 11:06:38 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\ndomains:\n- domain: bioprotonics.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bioprotonics/refs/heads/main/security/bioprotonics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bioprotonics/security/bioprotonics-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

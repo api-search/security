@@ -5,13 +5,49 @@ api_specs:
   label: Amazon KMS Cryptographic Operations API
   slug: amazon-kms-cryptographic-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/openapi/amazon-kms-cryptographic-operations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-kms/openapi/amazon-kms-cryptographic-operations-api-openapi.yml
 - filename: amazon-kms-keys-api-openapi.yml
   format: yaml
   label: Amazon KMS Keys API
   slug: amazon-kms-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/openapi/amazon-kms-keys-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-kms/openapi/amazon-kms-keys-api-openapi.yml
+- filename: amazon-kms-alias-api-openapi.yml
+  format: yaml
+  label: Amazon KMS Kms Alias API
+  slug: amazon-kms-alias-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kms/openapi/amazon-kms-alias-api-openapi.yml
+- filename: amazon-kms-custom-key-store-api-openapi.yml
+  format: yaml
+  label: Amazon KMS Kms Custom Key Store API
+  slug: amazon-kms-custom-key-store-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kms/openapi/amazon-kms-custom-key-store-api-openapi.yml
+- filename: amazon-kms-grant-api-openapi.yml
+  format: yaml
+  label: Amazon KMS Kms Grant API
+  slug: amazon-kms-grant-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kms/openapi/amazon-kms-grant-api-openapi.yml
+- filename: amazon-kms-key-policy-api-openapi.yml
+  format: yaml
+  label: Amazon KMS Kms Key Policy API
+  slug: amazon-kms-key-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kms/openapi/amazon-kms-key-policy-api-openapi.yml
+- filename: amazon-kms-key-rotation-api-openapi.yml
+  format: yaml
+  label: Amazon KMS Kms Key Rotation API
+  slug: amazon-kms-key-rotation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kms/openapi/amazon-kms-key-rotation-api-openapi.yml
+- filename: amazon-kms-operations-api-openapi.yml
+  format: yaml
+  label: Amazon KMS Kms Operations API
+  slug: amazon-kms-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kms/openapi/amazon-kms-operations-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -32,7 +68,7 @@ source_filename: amazon-kms-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://aws.amazon.com/compliance/\nurl: https://aws.amazon.com/compliance/\ncertifications:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://aws.amazon.com/compliance/\n  keywords:\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/security/amazon-kms-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/amazon-kms/security/amazon-kms-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Cryptography

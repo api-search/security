@@ -1,23 +1,53 @@
 ---
 api_specs:
-- filename: htmlcsstoimage-image-generation-api-openapi.yml
-  format: yaml
-  label: HTML/CSS to Image Generation API
-  slug: htmlcsstoimage-image-generation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/openapi/htmlcsstoimage-image-generation-api-openapi.yml
-- filename: htmlcsstoimage-signed-urls-api-openapi.yml
-  format: yaml
-  label: HTML/CSS to Image Signed URLs API
-  slug: htmlcsstoimage-signed-urls-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/openapi/htmlcsstoimage-signed-urls-api-openapi.yml
 - filename: htmlcsstoimage-templates-api-openapi.yml
   format: yaml
   label: HTML/CSS to Image Templates API
   slug: htmlcsstoimage-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/openapi/htmlcsstoimage-templates-api-openapi.yml
+  url: https://artifacts.apis.io/htmlcsstoimage/openapi/htmlcsstoimage-templates-api-openapi.yml
+- filename: htmlcsstoimage-api-keys-api-openapi.yml
+  format: yaml
+  label: HTML/CSS to Image API Keys API
+  slug: htmlcsstoimage-api-keys-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/htmlcsstoimage/openapi/htmlcsstoimage-api-keys-api-openapi.yml
+- filename: htmlcsstoimage-feedback-api-openapi.yml
+  format: yaml
+  label: HTML/CSS to Image Feedback API
+  slug: htmlcsstoimage-feedback-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/htmlcsstoimage/openapi/htmlcsstoimage-feedback-api-openapi.yml
+- filename: htmlcsstoimage-images-api-openapi.yml
+  format: yaml
+  label: HTML/CSS to Image Images API
+  slug: htmlcsstoimage-images-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/htmlcsstoimage/openapi/htmlcsstoimage-images-api-openapi.yml
+- filename: htmlcsstoimage-og-configs-api-openapi.yml
+  format: yaml
+  label: HTML/CSS to Image OG Configs API
+  slug: htmlcsstoimage-og-configs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/htmlcsstoimage/openapi/htmlcsstoimage-og-configs-api-openapi.yml
+- filename: htmlcsstoimage-proxies-api-openapi.yml
+  format: yaml
+  label: HTML/CSS to Image Proxies API
+  slug: htmlcsstoimage-proxies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/htmlcsstoimage/openapi/htmlcsstoimage-proxies-api-openapi.yml
+- filename: htmlcsstoimage-storage-destinations-api-openapi.yml
+  format: yaml
+  label: HTML/CSS to Image Storage Destinations API
+  slug: htmlcsstoimage-storage-destinations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/htmlcsstoimage/openapi/htmlcsstoimage-storage-destinations-api-openapi.yml
+- filename: htmlcsstoimage-usage-api-openapi.yml
+  format: yaml
+  label: HTML/CSS to Image Usage API
+  slug: htmlcsstoimage-usage-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/htmlcsstoimage/openapi/htmlcsstoimage-usage-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -67,7 +97,7 @@ source_filename: htmlcsstoimage-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: htmlcsstoimage.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 18:13:55 2026 GMT\n  hsts: null\n- host: docs.htmlcsstoimage.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 18:29:19 2026 GMT\n  hsts: false\n- host: hcti.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 03:14:39 2026 GMT\n  hsts: false\ndomains:\n- domain: htmlcsstoimage.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n- domain: hcti.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/security/htmlcsstoimage-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/htmlcsstoimage/security/htmlcsstoimage-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Image Generation

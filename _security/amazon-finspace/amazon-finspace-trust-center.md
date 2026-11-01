@@ -5,37 +5,37 @@ api_specs:
   label: Amazon FinSpace Environments API
   slug: amazon-finspace-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-finspace/refs/heads/main/openapi/amazon-finspace-environments-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-finspace/openapi/amazon-finspace-environments-api-openapi.yml
 - filename: amazon-finspace-kdb-clusters-api-openapi.yml
   format: yaml
   label: Amazon FinSpace Kdb Clusters API
   slug: amazon-finspace-kdb-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-finspace/refs/heads/main/openapi/amazon-finspace-kdb-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-finspace/openapi/amazon-finspace-kdb-clusters-api-openapi.yml
 - filename: amazon-finspace-kdb-databases-api-openapi.yml
   format: yaml
   label: Amazon FinSpace Kdb Databases API
   slug: amazon-finspace-kdb-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-finspace/refs/heads/main/openapi/amazon-finspace-kdb-databases-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-finspace/openapi/amazon-finspace-kdb-databases-api-openapi.yml
 - filename: amazon-finspace-kdb-environments-api-openapi.yml
   format: yaml
   label: Amazon FinSpace Kdb Environments API
   slug: amazon-finspace-kdb-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-finspace/refs/heads/main/openapi/amazon-finspace-kdb-environments-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-finspace/openapi/amazon-finspace-kdb-environments-api-openapi.yml
 - filename: amazon-finspace-kdb-users-api-openapi.yml
   format: yaml
   label: Amazon FinSpace Kdb Users API
   slug: amazon-finspace-kdb-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-finspace/refs/heads/main/openapi/amazon-finspace-kdb-users-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-finspace/openapi/amazon-finspace-kdb-users-api-openapi.yml
 - filename: amazon-finspace-tagging-api-openapi.yml
   format: yaml
   label: Amazon FinSpace Tagging API
   slug: amazon-finspace-tagging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-finspace/refs/heads/main/openapi/amazon-finspace-tagging-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-finspace/openapi/amazon-finspace-tagging-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -56,7 +56,7 @@ source_filename: amazon-finspace-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://aws.amazon.com/compliance/\nurl: https://aws.amazon.com/compliance/\ncertifications:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://aws.amazon.com/compliance/\n  keywords:\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-finspace/refs/heads/main/security/amazon-finspace-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/amazon-finspace/security/amazon-finspace-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Capital Markets

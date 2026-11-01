@@ -5,43 +5,43 @@ api_specs:
   label: Reachdesk Bulk Sends API
   slug: reachdesk-bulk-sends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/openapi/reachdesk-bulk-sends-api-openapi.yml
+  url: https://artifacts.apis.io/reachdesk/openapi/reachdesk-bulk-sends-api-openapi.yml
 - filename: reachdesk-campaigns-api-openapi.yml
   format: yaml
   label: Reachdesk Campaigns API
   slug: reachdesk-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/openapi/reachdesk-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/reachdesk/openapi/reachdesk-campaigns-api-openapi.yml
 - filename: reachdesk-contacts-api-openapi.yml
   format: yaml
   label: Reachdesk Contacts API
   slug: reachdesk-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/openapi/reachdesk-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/reachdesk/openapi/reachdesk-contacts-api-openapi.yml
 - filename: reachdesk-gdpr-api-openapi.yml
   format: yaml
   label: Reachdesk Gdpr API
   slug: reachdesk-gdpr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/openapi/reachdesk-gdpr-api-openapi.yml
+  url: https://artifacts.apis.io/reachdesk/openapi/reachdesk-gdpr-api-openapi.yml
 - filename: reachdesk-organization-api-openapi.yml
   format: yaml
   label: Reachdesk Organization API
   slug: reachdesk-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/openapi/reachdesk-organization-api-openapi.yml
+  url: https://artifacts.apis.io/reachdesk/openapi/reachdesk-organization-api-openapi.yml
 - filename: reachdesk-sends-api-openapi.yml
   format: yaml
   label: Reachdesk Sends API
   slug: reachdesk-sends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/openapi/reachdesk-sends-api-openapi.yml
+  url: https://artifacts.apis.io/reachdesk/openapi/reachdesk-sends-api-openapi.yml
 - filename: reachdesk-transactions-api-openapi.yml
   format: yaml
   label: Reachdesk Transactions API
   slug: reachdesk-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/openapi/reachdesk-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/reachdesk/openapi/reachdesk-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -83,7 +83,7 @@ source_filename: reachdesk-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.reachdesk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 13:01:55 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: support.reachdesk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 23:41:35 2026 GMT\n  hsts: true\n  hsts_max_age: 259200\n- host: app.reachdesk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\ndomains:\n- domain: reachdesk.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/security/reachdesk-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/reachdesk/security/reachdesk-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Corporate Gifting

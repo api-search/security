@@ -8,13 +8,13 @@ api_specs:
   label: Keyper Permissions API
   slug: keyper-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keyper/refs/heads/main/openapi/keyper-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/keyper/openapi/keyper-permissions-api-openapi.yml
 - filename: keyper-transactions-api-openapi.yml
   format: yaml
   label: Keyper Transactions API
   slug: keyper-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keyper/refs/heads/main/openapi/keyper-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/keyper/openapi/keyper-transactions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -50,7 +50,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://github.com/keyper/keyper-access-api/blob/master/apiary.apib\ndocs: https://developers.keyper.com\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  oauth2_flows: []\nschemes:\n- name: keyperAuth\n  type: apiKey\n  in: header\n  header: Authorization\n  description: >-\n    The Authorization header carries either an application secret or a user\n    authentication token. Two documented forms:\n      - \"Authorization: APPSECRET <secret>\"   (string app secret)\n      - \"Authorization: AUTHTOKEN <guid>\"     (per-user authentication token)\n  forms:\n  - kind: app-secret\n    prefix: APPSECRET\n    example_shape: \"APPSECRET <string>\"\n  - kind: auth-token\n    prefix: AUTHTOKEN\n    example_shape: \"AUTHTOKEN <guid>\"\n  sources: [openapi/keyper-access-openapi.yml]\nnotes:\n- API keys / app secrets are obtained by registering a business account at app.keyper.io/business.\n- Invalid or expired credentials return\
   \ HTTP 401 with the keyper error envelope.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keyper/refs/heads/main/authentication/keyper-authentication.yml
+source_yaml_url: https://artifacts.apis.io/keyper/authentication/keyper-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

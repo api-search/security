@@ -7,7 +7,7 @@ api_specs:
   label: Tokyo Institute of Technology OAI PMH API
   slug: tokyo-institute-of-technology-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tokyo-institute-of-technology/refs/heads/main/openapi/tokyo-institute-of-technology-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/tokyo-institute-of-technology/openapi/tokyo-institute-of-technology-oai-pmh-api-openapi.yml
 auth_types:
 - saml2
 description: ''
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-08-30'\nmethod: derived\nevidence_method: probed\
   \ urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST\n    location: https://idp-gakunin.nap.gsic.titech.ac.jp/idp/profile/SAML2/POST/SSO\n  - binding: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect\n    location: https://idp-gakunin.nap.gsic.titech.ac.jp/idp/profile/SAML2/Redirect/SSO\n  - binding: urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding\n    location: https://idp-gakunin.nap.gsic.titech.ac.jp:8443/idp/profile/SAML1/SOAP/AttributeQuery\n  - binding: urn:oasis:names:tc:SAML:2.0:bindings:SOAP\n    location: https://idp-gakunin.nap.gsic.titech.ac.jp:8443/idp/profile/SAML2/SOAP/AttributeQuery\n  observed: >-\n    GET https://idp-gakunin.nap.gsic.titech.ac.jp/idp/shibboleth redirects (HTTP 200) to the\n    institution's own login portal at portal.nap.gsic.titech.ac.jp with resource id\n    idp-gakunin-2015 and an authentication-factor list including CERTIFICATE, GRID, TOKENRO and\n    OTP. Probed 2026-08-30.\n  audience: Members of the institution and of GakuNin-federated services.\
   \ Not issuable to third-party developers.\n- name: EX-TIC GakuNin entity for Institute of Science Tokyo\n  type: saml2\n  operator: tenant\n  entity_id: https://isct.ex-tic.com/auth/gakunin/saml2/assertions\n  organization: Institute of Science Tokyo / 東京科学大学\n  organization_url: https://www.tmd.ac.jp\n  federation: GakuNin\n  metadata_source: https://metadata.gakunin.nii.ac.jp/gakunin-metadata.xml\n  endpoints:\n  - binding: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST\n    location: https://isct.ex-tic.com/auth/gakunin/saml2/assertions\n  - binding: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect\n    location: https://isct.ex-tic.com/auth/gakunin/saml2/assertions\n  observed: >-\n    A bare GET returns HTTP 400 — correct for a SAML assertion endpoint that expects a POST, and\n    not evidence of a dead host. Probed 2026-08-30.\n  operator_note: >-\n    The host is an institution-specific subdomain on ex-tic.com, a commercial platform. The\n    institution's identity is real and\
   \ federated here; the engineering is the vendor's. Recorded\n    as a tenant relationship, which is a genuine institutional fact, rather than credited to the\n    institution or deleted.\nabsent:\n- id: oauth2\n  evidence: No authorization or token endpoint published on any institution host.\n- id: oidc\n  evidence: /.well-known/openid-configuration not served on isct.ac.jp or titech.ac.jp hosts probed.\n- id: api-key\n  evidence: No key issuance surface, no developer portal, no signup flow found.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tokyo-institute-of-technology/refs/heads/main/authentication/tokyo-institute-of-technology-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tokyo-institute-of-technology/authentication/tokyo-institute-of-technology-authentication.yml
 summary_line: saml2 · 2 schemes
 tags:
 - Education

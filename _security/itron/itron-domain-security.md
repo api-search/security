@@ -5,25 +5,25 @@ api_specs:
   label: Itron Device Templates API
   slug: itron-device-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/openapi/itron-device-templates-api-openapi.yml
+  url: https://artifacts.apis.io/itron/openapi/itron-device-templates-api-openapi.yml
 - filename: itron-devices-api-openapi.yml
   format: yaml
   label: Itron Devices API
   slug: itron-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/openapi/itron-devices-api-openapi.yml
+  url: https://artifacts.apis.io/itron/openapi/itron-devices-api-openapi.yml
 - filename: itron-observations-api-openapi.yml
   format: yaml
   label: Itron Observations API
   slug: itron-observations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/openapi/itron-observations-api-openapi.yml
+  url: https://artifacts.apis.io/itron/openapi/itron-observations-api-openapi.yml
 - filename: itron-tokens-api-openapi.yml
   format: yaml
   label: Itron Tokens API
   slug: itron-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/openapi/itron-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/itron/openapi/itron-tokens-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: itron-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: na.itron.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 14:47:00 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: partner.itron.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 14:47:00 2026 GMT\n  hsts: null\n- host: developer.ssni.com\n  https: false\ndomains:\n- domain: itron.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: ssni.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/security/itron-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/itron/security/itron-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Itron

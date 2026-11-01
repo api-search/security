@@ -16,7 +16,7 @@ source_filename: datapad-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nprobe: true\nsource: https://datapad.io/security\nurl: https://datapad.io/security\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://datapad.io/security\n  keywords:\n  - soc 2\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datapad/refs/heads/main/security/datapad-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/datapad/security/datapad-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - Company

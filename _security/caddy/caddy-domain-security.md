@@ -5,31 +5,31 @@ api_specs:
   label: Caddy Adapt API
   slug: caddy-adapt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caddy/refs/heads/main/openapi/caddy-adapt-api-openapi.yml
+  url: https://artifacts.apis.io/caddy/openapi/caddy-adapt-api-openapi.yml
 - filename: caddy-configuration-api-openapi.yml
   format: yaml
   label: Caddy Configuration API
   slug: caddy-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caddy/refs/heads/main/openapi/caddy-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/caddy/openapi/caddy-configuration-api-openapi.yml
 - filename: caddy-lifecycle-api-openapi.yml
   format: yaml
   label: Caddy Lifecycle API
   slug: caddy-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caddy/refs/heads/main/openapi/caddy-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/caddy/openapi/caddy-lifecycle-api-openapi.yml
 - filename: caddy-pki-api-openapi.yml
   format: yaml
   label: Caddy PKI API
   slug: caddy-pki-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caddy/refs/heads/main/openapi/caddy-pki-api-openapi.yml
+  url: https://artifacts.apis.io/caddy/openapi/caddy-pki-api-openapi.yml
 - filename: caddy-reverse-proxy-api-openapi.yml
   format: yaml
   label: Caddy Reverse Proxy API
   slug: caddy-reverse-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caddy/refs/heads/main/openapi/caddy-reverse-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/caddy/openapi/caddy-reverse-proxy-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -64,7 +64,7 @@ source_filename: caddy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: caddyserver.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 13:44:27 2026 GMT\n  hsts: false\ndomains:\n- domain: caddyserver.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/caddy/refs/heads/main/security/caddy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/caddy/security/caddy-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Automatic HTTPS

@@ -5,25 +5,25 @@ api_specs:
   label: RSC Filter API
   slug: rsc-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rsc/refs/heads/main/openapi/rsc-filter-api-openapi.yml
+  url: https://artifacts.apis.io/rsc/openapi/rsc-filter-api-openapi.yml
 - filename: rsc-lookups-api-openapi.yml
   format: yaml
   label: RSC Lookups API
   slug: rsc-lookups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rsc/refs/heads/main/openapi/rsc-lookups-api-openapi.yml
+  url: https://artifacts.apis.io/rsc/openapi/rsc-lookups-api-openapi.yml
 - filename: rsc-records-api-openapi.yml
   format: yaml
   label: RSC Records API
   slug: rsc-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rsc/refs/heads/main/openapi/rsc-records-api-openapi.yml
+  url: https://artifacts.apis.io/rsc/openapi/rsc-records-api-openapi.yml
 - filename: rsc-tools-api-openapi.yml
   format: yaml
   label: RSC Tools API
   slug: rsc-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rsc/refs/heads/main/openapi/rsc-tools-api-openapi.yml
+  url: https://artifacts.apis.io/rsc/openapi/rsc-tools-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: rsc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.rsc.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.rsc.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 16 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: rsc.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rsc/refs/heads/main/security/rsc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rsc/security/rsc-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Chemistry

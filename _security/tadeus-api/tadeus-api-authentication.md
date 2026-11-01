@@ -8,55 +8,55 @@ api_specs:
   label: Tadeus API Attempts API
   slug: tadeus-api-attempts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/openapi/tadeus-api-attempts-api-openapi.yml
+  url: https://artifacts.apis.io/tadeus-api/openapi/tadeus-api-attempts-api-openapi.yml
 - filename: tadeus-api-billing-api-openapi.yml
   format: yaml
   label: Tadeus API Billing API
   slug: tadeus-api-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/openapi/tadeus-api-billing-api-openapi.yml
+  url: https://artifacts.apis.io/tadeus-api/openapi/tadeus-api-billing-api-openapi.yml
 - filename: tadeus-api-campaigns-api-openapi.yml
   format: yaml
   label: Tadeus API Campaigns API
   slug: tadeus-api-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/openapi/tadeus-api-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/tadeus-api/openapi/tadeus-api-campaigns-api-openapi.yml
 - filename: tadeus-api-insights-api-openapi.yml
   format: yaml
   label: Tadeus API Insights API
   slug: tadeus-api-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/openapi/tadeus-api-insights-api-openapi.yml
+  url: https://artifacts.apis.io/tadeus-api/openapi/tadeus-api-insights-api-openapi.yml
 - filename: tadeus-api-organisation-api-openapi.yml
   format: yaml
   label: Tadeus API Organisation API
   slug: tadeus-api-organisation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/openapi/tadeus-api-organisation-api-openapi.yml
+  url: https://artifacts.apis.io/tadeus-api/openapi/tadeus-api-organisation-api-openapi.yml
 - filename: tadeus-api-results-api-openapi.yml
   format: yaml
   label: Tadeus API Results API
   slug: tadeus-api-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/openapi/tadeus-api-results-api-openapi.yml
+  url: https://artifacts.apis.io/tadeus-api/openapi/tadeus-api-results-api-openapi.yml
 - filename: tadeus-api-sessions-api-openapi.yml
   format: yaml
   label: Tadeus API Sessions API
   slug: tadeus-api-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/openapi/tadeus-api-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/tadeus-api/openapi/tadeus-api-sessions-api-openapi.yml
 - filename: tadeus-api-templates-api-openapi.yml
   format: yaml
   label: Tadeus API Templates API
   slug: tadeus-api-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/openapi/tadeus-api-templates-api-openapi.yml
+  url: https://artifacts.apis.io/tadeus-api/openapi/tadeus-api-templates-api-openapi.yml
 - filename: tadeus-api-transcripts-api-openapi.yml
   format: yaml
   label: Tadeus API Transcripts API
   slug: tadeus-api-transcripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/openapi/tadeus-api-transcripts-api-openapi.yml
+  url: https://artifacts.apis.io/tadeus-api/openapi/tadeus-api-transcripts-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-08-11'\nmethod: searched\nsource: openapi/tadeus-
   \    sources:\n      - openapi/tadeus-api-integration-openapi.json\n      - https://tadeus.net/api-examples\nspec_vs_docs_discrepancy: >-\n  The Swagger document declares the two headers as SEPARATE apiKey schemes and combines them\n  in a top-level `security: [{api_key: []}, {api_secret: []}]` array, which is OR semantics —\n  a code generator reading the contract alone will produce a client that sends only one\n  header. The documentation is unambiguous that both are required on every call. Correct\n  behaviour is AND; the contract says OR.\nagent_surface:\n  mcp:\n    url: https://app.tadeus.net/mcp\n    scheme: same key pair\n    parameter_names: [api_key_id, api_secret]\n    accepted_in: [query parameters, headers]\n    challenge_status: 401\n    challenge_body: >-\n      {\"detail\":\"Authentication required. Pass 'api_key_id' and 'api_secret' in query\n      parameters or headers.\"}\n    oauth: false\n    note: >-\n      The MCP server accepts the credentials in QUERY PARAMETERS\
   \ as well as headers, which\n      puts long-lived secrets into URLs, proxy logs and browser history. It also does not\n      implement the MCP OAuth flow, and publishes no\n      /.well-known/oauth-protected-resource (403), so an MCP client cannot discover the auth\n      requirement programmatically.\nobserved_behaviour:\n  - url: https://app.tadeus.net/api/integration/v1/organisation/\n    sent: no credentials\n    status: 403\n    body: '{\"detail\":\"Authentication credentials were not provided.\"}'\n    www_authenticate: absent\n    note: >-\n      Returns 403 rather than the 401 RFC 9110 specifies for a missing credential, and sends\n      no WWW-Authenticate challenge.\nenterprise:\n  sso: true\n  saml: true\n  note: >-\n    \"SSO, SAML & EU data residency\" is an Enterprise-tier entitlement\n    (https://tadeus.net/#pricing). This is dashboard sign-in, not API authentication — the\n    API surface is key-pair only at every tier.\nprovider_gaps:\n  - >-\n    Express the two headers\
   \ as a single AND requirement in the contract\n    (`security: [{api_key: [], api_secret: []}]`), or the generated clients will be wrong.\n  - Publish key rotation and expiry guidance; neither is documented.\n  - Return 401 with WWW-Authenticate instead of 403 for a missing credential.\n  - Stop accepting the secret in MCP query parameters.\n  - No scopes or least-privilege model exists — one key pair is full account access.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/authentication/tadeus-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tadeus-api/authentication/tadeus-api-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Voice AI

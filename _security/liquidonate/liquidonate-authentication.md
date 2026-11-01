@@ -8,37 +8,37 @@ api_specs:
   label: LiquiDonate Donate API
   slug: liquidonate-donate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/openapi/liquidonate-donate-api-openapi.yml
+  url: https://artifacts.apis.io/liquidonate/openapi/liquidonate-donate-api-openapi.yml
 - filename: liquidonate-match-api-openapi.yml
   format: yaml
   label: LiquiDonate Match API
   slug: liquidonate-match-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/openapi/liquidonate-match-api-openapi.yml
+  url: https://artifacts.apis.io/liquidonate/openapi/liquidonate-match-api-openapi.yml
 - filename: liquidonate-orders-api-openapi.yml
   format: yaml
   label: LiquiDonate Orders API
   slug: liquidonate-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/openapi/liquidonate-orders-api-openapi.yml
+  url: https://artifacts.apis.io/liquidonate/openapi/liquidonate-orders-api-openapi.yml
 - filename: liquidonate-retailer-api-openapi.yml
   format: yaml
   label: LiquiDonate Retailer API
   slug: liquidonate-retailer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/openapi/liquidonate-retailer-api-openapi.yml
+  url: https://artifacts.apis.io/liquidonate/openapi/liquidonate-retailer-api-openapi.yml
 - filename: liquidonate-ship-api-openapi.yml
   format: yaml
   label: LiquiDonate Ship API
   slug: liquidonate-ship-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/openapi/liquidonate-ship-api-openapi.yml
+  url: https://artifacts.apis.io/liquidonate/openapi/liquidonate-ship-api-openapi.yml
 - filename: liquidonate-returnsdirect-by-liquidonate-beta-api-openapi.yml
   format: yaml
   label: LiquiDonate ReturnsDirect By LiquiDonate (Beta) API
   slug: liquidonate-returnsdirect-by-liquidonate-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/openapi/liquidonate-returnsdirect-by-liquidonate-beta-api-openapi.yml
+  url: https://artifacts.apis.io/liquidonate/openapi/liquidonate-returnsdirect-by-liquidonate-beta-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -88,7 +88,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/liquidonate-magicmatch-openapi.yml, openapi/liquidonate-returnsdirect-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: liquidonateKey\n  type: apiKey\n  in: header\n  parameter: X-LiquiDonate-Key\n  description: Retailer API key issued by v1/setupRetailer. Prefixed `ld_`.\n  sources:\n  - openapi/liquidonate-magicmatch-openapi.yml\n- name: liquidonateSecret\n  type: apiKey\n  in: header\n  parameter: X-LiquiDonate-Secret\n  description: Retailer API secret issued by v1/setupRetailer. Prefixed `ld_sk_`.\n  sources:\n  - openapi/liquidonate-magicmatch-openapi.yml\n- name: shopDomain\n  type: apiKey\n  in: header\n  parameter: X-Shop-Domain\n  description: Your shop identifier, e.g. acme.com. Must match the value LiquiDonate has on\n    file.\n  sources:\n  - openapi/liquidonate-returnsdirect-openapi.yml\n- name: hmacSignature\n  type: apiKey\n  in: header\n  parameter: X-Signature\n\
   \  description: HMAC-SHA256 of the raw request body using the shared secret LiquiDonate provisions\n    for your shop, as lowercase hex.\n  sources:\n  - openapi/liquidonate-returnsdirect-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/authentication/liquidonate-authentication.yml
+source_yaml_url: https://artifacts.apis.io/liquidonate/authentication/liquidonate-authentication.yml
 summary_line: apiKey · 4 schemes
 tags:
 - Reverse Logistics

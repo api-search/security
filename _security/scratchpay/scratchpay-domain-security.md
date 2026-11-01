@@ -5,13 +5,13 @@ api_specs:
   label: Scratchpay Borrower application API
   slug: scratchpay-borrower-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scratchpay/refs/heads/main/openapi/scratchpay-borrower-application-api-openapi.yml
+  url: https://artifacts.apis.io/scratchpay/openapi/scratchpay-borrower-application-api-openapi.yml
 - filename: scratchpay-borrower-application-result-api-openapi.yml
   format: yaml
   label: Scratchpay Borrower application result API
   slug: scratchpay-borrower-application-result-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scratchpay/refs/heads/main/openapi/scratchpay-borrower-application-result-api-openapi.yml
+  url: https://artifacts.apis.io/scratchpay/openapi/scratchpay-borrower-application-result-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,7 +41,7 @@ source_filename: scratchpay-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: scratchpay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 14:47:53 2026 GMT\n  hsts: true\n  hsts_max_age: 0\ndomains:\n- domain: scratchpay.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scratchpay/refs/heads/main/security/scratchpay-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/scratchpay/security/scratchpay-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

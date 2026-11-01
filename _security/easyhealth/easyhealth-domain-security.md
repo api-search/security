@@ -28,7 +28,7 @@ source_filename: easyhealth-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.easyhealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 21:15:46 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: easyhealth.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/easyhealth/refs/heads/main/security/easyhealth-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/easyhealth/security/easyhealth-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

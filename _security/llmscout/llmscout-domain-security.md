@@ -26,11 +26,11 @@ source_filename: llmscout-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: llmscout.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  2 22:45:02 2027 GMT\n  hsts: false\ndomains:\n- domain: llmscout.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/llmscout/refs/heads/main/security/llmscout-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/llmscout/security/llmscout-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Verification
 - Safety
 - Compliance

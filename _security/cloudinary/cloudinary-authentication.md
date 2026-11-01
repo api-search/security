@@ -7,25 +7,25 @@ api_specs:
   label: Cloudinary Notifications and Webhooks
   slug: notifications
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudinary/refs/heads/main/asyncapi/cloudinary-notifications-asyncapi.yml
+  url: https://artifacts.apis.io/cloudinary/asyncapi/cloudinary-notifications-asyncapi.yml
 - filename: cloudinary-backup-api-openapi.yml
   format: yaml
   label: Cloudinary Backup API
   slug: cloudinary-backup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudinary/refs/heads/main/openapi/cloudinary-backup-api-openapi.yml
+  url: https://artifacts.apis.io/cloudinary/openapi/cloudinary-backup-api-openapi.yml
 - filename: cloudinary-transformation-api-openapi.yml
   format: yaml
   label: Cloudinary Transformation API
   slug: cloudinary-transformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudinary/refs/heads/main/openapi/cloudinary-transformation-api-openapi.yml
+  url: https://artifacts.apis.io/cloudinary/openapi/cloudinary-transformation-api-openapi.yml
 - filename: cloudinary-upload-api-openapi.yml
   format: yaml
   label: Cloudinary Upload API
   slug: cloudinary-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudinary/refs/heads/main/openapi/cloudinary-upload-api-openapi.yml
+  url: https://artifacts.apis.io/cloudinary/openapi/cloudinary-upload-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: cloudinary-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cloudinary-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic auth using API key as username and API secret as password.\n  sources:\n  - openapi/cloudinary-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudinary/refs/heads/main/authentication/cloudinary-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cloudinary/authentication/cloudinary-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Asset Management

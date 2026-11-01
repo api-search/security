@@ -15,7 +15,7 @@ source_filename: clover-security-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nprobe: true\nsource: https://trust.clover.security/\nurl: https://trust.clover.security/\ncertifications:\n- SOC 2 Type 2\nframeworks:\n- CAIQ Lite\nresponsible_disclosure: listed (no public contact/bounty published)\nevidence:\n- source: https://trust.clover.security/\n  keywords:\n  - soc 2 type 2\n  - caiq lite\n  - responsible disclosure\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clover-security/refs/heads/main/security/clover-security-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/clover-security/security/clover-security-trust-center.yml
 summary_line: SOC 2 Type 2
 tags:
 - Company

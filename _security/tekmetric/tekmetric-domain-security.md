@@ -5,55 +5,55 @@ api_specs:
   label: Tekmetric Appointments API
   slug: tekmetric-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/tekmetric/openapi/tekmetric-appointments-api-openapi.yml
 - filename: tekmetric-canned-jobs-api-openapi.yml
   format: yaml
   label: Tekmetric Canned Jobs API
   slug: tekmetric-canned-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-canned-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/tekmetric/openapi/tekmetric-canned-jobs-api-openapi.yml
 - filename: tekmetric-customers-api-openapi.yml
   format: yaml
   label: Tekmetric Customers API
   slug: tekmetric-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-customers-api-openapi.yml
+  url: https://artifacts.apis.io/tekmetric/openapi/tekmetric-customers-api-openapi.yml
 - filename: tekmetric-employees-api-openapi.yml
   format: yaml
   label: Tekmetric Employees API
   slug: tekmetric-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-employees-api-openapi.yml
+  url: https://artifacts.apis.io/tekmetric/openapi/tekmetric-employees-api-openapi.yml
 - filename: tekmetric-inventory-api-openapi.yml
   format: yaml
   label: Tekmetric Inventory API
   slug: tekmetric-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/tekmetric/openapi/tekmetric-inventory-api-openapi.yml
 - filename: tekmetric-jobs-api-openapi.yml
   format: yaml
   label: Tekmetric Jobs API
   slug: tekmetric-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/tekmetric/openapi/tekmetric-jobs-api-openapi.yml
 - filename: tekmetric-repair-orders-api-openapi.yml
   format: yaml
   label: Tekmetric Repair Orders API
   slug: tekmetric-repair-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-repair-orders-api-openapi.yml
+  url: https://artifacts.apis.io/tekmetric/openapi/tekmetric-repair-orders-api-openapi.yml
 - filename: tekmetric-shops-api-openapi.yml
   format: yaml
   label: Tekmetric Shops API
   slug: tekmetric-shops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-shops-api-openapi.yml
+  url: https://artifacts.apis.io/tekmetric/openapi/tekmetric-shops-api-openapi.yml
 - filename: tekmetric-vehicles-api-openapi.yml
   format: yaml
   label: Tekmetric Vehicles API
   slug: tekmetric-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/tekmetric/openapi/tekmetric-vehicles-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -95,12 +95,12 @@ source_filename: tekmetric-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tekmetric.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 03:07:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.tekmetric.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: shop.tekmetric.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: tekmetric.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/security/tekmetric-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tekmetric/security/tekmetric-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Automotive
 - Auto Repair
 - Shop Management
-- Fleet
+- Fleet Management
 - Vertical SaaS
 ---

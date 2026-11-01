@@ -5,25 +5,25 @@ api_specs:
   label: Semsee Submissions API
   slug: semsee-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semsee/refs/heads/main/openapi/_original/semsee-openapi.yml
+  url: https://artifacts.apis.io/semsee/openapi/_original/semsee-openapi.yml
 - filename: semsee-openapi.yml
   format: yaml
   label: Semsee Quotes API
   slug: semsee-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semsee/refs/heads/main/openapi/_original/semsee-openapi.yml
+  url: https://artifacts.apis.io/semsee/openapi/_original/semsee-openapi.yml
 - filename: semsee-openapi.yml
   format: yaml
   label: Semsee Carriers API
   slug: semsee-carriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semsee/refs/heads/main/openapi/_original/semsee-openapi.yml
+  url: https://artifacts.apis.io/semsee/openapi/_original/semsee-openapi.yml
 - filename: semsee-openapi.yml
   format: yaml
   label: Semsee Webhooks API
   slug: semsee-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semsee/refs/heads/main/openapi/_original/semsee-openapi.yml
+  url: https://artifacts.apis.io/semsee/openapi/_original/semsee-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: semsee-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.semsee.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 14 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: semsee.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 13:43:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: semsee.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/semsee/refs/heads/main/security/semsee-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/semsee/security/semsee-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance

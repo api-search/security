@@ -5,13 +5,13 @@ api_specs:
   label: Binance.US WebSocket API
   slug: websocket-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/asyncapi/binance.us-websocket-api-asyncapi.yml
+  url: https://artifacts.apis.io/binance.us/asyncapi/binance.us-websocket-api-asyncapi.yml
 - filename: binance.us-websocket-streams-asyncapi.yml
   format: yaml
   label: Binance.US WebSocket Streams
   slug: websocket-streams
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/asyncapi/binance.us-websocket-streams-asyncapi.yml
+  url: https://artifacts.apis.io/binance.us/asyncapi/binance.us-websocket-streams-asyncapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -30,7 +30,7 @@ source_filename: binance.us-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-07'\nmethod: searched\nprobe: true\nsource: https://www.binance.us/trust\nurl: https://www.binance.us/trust\ncertifications:\n- SOC 2\n- ISO 27001\n- PCI DSS\nevidence:\n- source: https://www.binance.us/trust\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - pci dss\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/security/binance.us-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/binance.us/security/binance.us-trust-center.yml
 summary_line: SOC 2, ISO 27001, PCI DSS
 tags:
 - Company

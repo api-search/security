@@ -5,25 +5,25 @@ api_specs:
   label: Kaedim Assets API
   slug: kaedim-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/openapi/kaedim-assets-api-openapi.yml
+  url: https://artifacts.apis.io/kaedim/openapi/kaedim-assets-api-openapi.yml
 - filename: kaedim-auth-api-openapi.yml
   format: yaml
   label: Kaedim Auth API
   slug: kaedim-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/openapi/kaedim-auth-api-openapi.yml
+  url: https://artifacts.apis.io/kaedim/openapi/kaedim-auth-api-openapi.yml
 - filename: kaedim-generation-api-openapi.yml
   format: yaml
   label: Kaedim Generation API
   slug: kaedim-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/openapi/kaedim-generation-api-openapi.yml
+  url: https://artifacts.apis.io/kaedim/openapi/kaedim-generation-api-openapi.yml
 - filename: kaedim-webhooks-api-openapi.yml
   format: yaml
   label: Kaedim Webhooks API
   slug: kaedim-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/openapi/kaedim-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/kaedim/openapi/kaedim-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -58,7 +58,7 @@ source_filename: kaedim-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.kaedim3d.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 13:44:17 2026 GMT\n  hsts: null\ndomains:\n- domain: kaedim3d.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/security/kaedim-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kaedim/security/kaedim-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -27,7 +27,7 @@ source_filename: safely-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: safely.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 13:02:38 2026 GMT\n  hsts: false\ndomains:\n- domain: safely.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/safely/refs/heads/main/security/safely-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/safely/security/safely-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

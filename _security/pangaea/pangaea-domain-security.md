@@ -5,31 +5,31 @@ api_specs:
   label: PANGAEA DOI Filter API
   slug: pangaea-doi-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pangaea/refs/heads/main/openapi/pangaea-doi-filter-api-openapi.yml
+  url: https://artifacts.apis.io/pangaea/openapi/pangaea-doi-filter-api-openapi.yml
 - filename: pangaea-geo-filter-api-openapi.yml
   format: yaml
   label: PANGAEA Geo Filter API
   slug: pangaea-geo-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pangaea/refs/heads/main/openapi/pangaea-geo-filter-api-openapi.yml
+  url: https://artifacts.apis.io/pangaea/openapi/pangaea-geo-filter-api-openapi.yml
 - filename: pangaea-oai-pmh-api-openapi.yml
   format: yaml
   label: PANGAEA OAI-PMH API
   slug: pangaea-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pangaea/refs/heads/main/openapi/pangaea-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/pangaea/openapi/pangaea-oai-pmh-api-openapi.yml
 - filename: pangaea-search-api-openapi.yml
   format: yaml
   label: PANGAEA Search API
   slug: pangaea-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pangaea/refs/heads/main/openapi/pangaea-search-api-openapi.yml
+  url: https://artifacts.apis.io/pangaea/openapi/pangaea-search-api-openapi.yml
 - filename: pangaea-terms-api-openapi.yml
   format: yaml
   label: PANGAEA Terms API
   slug: pangaea-terms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pangaea/refs/heads/main/openapi/pangaea-terms-api-openapi.yml
+  url: https://artifacts.apis.io/pangaea/openapi/pangaea-terms-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -73,7 +73,7 @@ source_filename: pangaea-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: wiki.pangaea.de\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 05:40:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: ws.pangaea.de\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 05:40:36 2026 GMT\n  hsts: false\n- host: www.pangaea.de\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 05:40:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: pangaea.de\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.dfn.de\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pangaea/refs/heads/main/security/pangaea-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pangaea/security/pangaea-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Earth Science

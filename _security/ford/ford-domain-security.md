@@ -5,37 +5,37 @@ api_specs:
   label: Ford Charging API
   slug: ford-charging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/openapi/ford-charging-api-openapi.yml
+  url: https://artifacts.apis.io/ford/openapi/ford-charging-api-openapi.yml
 - filename: ford-commands-api-openapi.yml
   format: yaml
   label: Ford Commands API
   slug: ford-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/openapi/ford-commands-api-openapi.yml
+  url: https://artifacts.apis.io/ford/openapi/ford-commands-api-openapi.yml
 - filename: ford-images-api-openapi.yml
   format: yaml
   label: Ford Images API
   slug: ford-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/openapi/ford-images-api-openapi.yml
+  url: https://artifacts.apis.io/ford/openapi/ford-images-api-openapi.yml
 - filename: ford-status-api-openapi.yml
   format: yaml
   label: Ford Status API
   slug: ford-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/openapi/ford-status-api-openapi.yml
+  url: https://artifacts.apis.io/ford/openapi/ford-status-api-openapi.yml
 - filename: ford-vehicles-api-openapi.yml
   format: yaml
   label: Ford Vehicles API
   slug: ford-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/openapi/ford-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/ford/openapi/ford-vehicles-api-openapi.yml
 - filename: ford-oauth-api-openapi.yml
   format: yaml
   label: Ford O Auth API
   slug: ford-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/openapi/ford-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/ford/openapi/ford-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -74,7 +74,7 @@ source_filename: ford-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-10'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.ford.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 20 16:08:13 2027 GMT\n  hsts: false\n- host: www.ford.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 10:48:50 2026 GMT\n  hsts: null\n- host: api.mps.ford.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 21 11:35:01 2026 GMT\n  hsts: null\ndomains:\n- domain: ford.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/security/ford-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ford/security/ford-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Automobiles
@@ -84,5 +84,5 @@ tags:
 - Automotive
 - Telematics
 - Electric Vehicles
-- Fleet
+- Fleet Management
 ---

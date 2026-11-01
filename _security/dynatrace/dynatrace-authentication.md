@@ -8,139 +8,139 @@ api_specs:
   label: Dynatrace Entities API
   slug: dynatrace-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-entities-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-entities-api-openapi.yml
 - filename: dynatrace-environments-api-openapi.yml
   format: yaml
   label: Dynatrace Environments API
   slug: dynatrace-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-environments-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-environments-api-openapi.yml
 - filename: dynatrace-events-api-openapi.yml
   format: yaml
   label: Dynatrace Events API
   slug: dynatrace-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-events-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-events-api-openapi.yml
 - filename: dynatrace-groups-api-openapi.yml
   format: yaml
   label: Dynatrace Groups API
   slug: dynatrace-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-groups-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-groups-api-openapi.yml
 - filename: dynatrace-logs-api-openapi.yml
   format: yaml
   label: Dynatrace Logs API
   slug: dynatrace-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-logs-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-logs-api-openapi.yml
 - filename: dynatrace-metrics-api-openapi.yml
   format: yaml
   label: Dynatrace Metrics API
   slug: dynatrace-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-metrics-api-openapi.yml
 - filename: dynatrace-permissions-api-openapi.yml
   format: yaml
   label: Dynatrace Permissions API
   slug: dynatrace-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-permissions-api-openapi.yml
 - filename: dynatrace-problems-api-openapi.yml
   format: yaml
   label: Dynatrace Problems API
   slug: dynatrace-problems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-problems-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-problems-api-openapi.yml
 - filename: dynatrace-users-api-openapi.yml
   format: yaml
   label: Dynatrace Users API
   slug: dynatrace-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-users-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-users-api-openapi.yml
 - filename: dynatrace-account-audits-api-openapi.yml
   format: yaml
   label: Dynatrace Account Audits API
   slug: dynatrace-account-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-account-audits-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-account-audits-api-openapi.yml
 - filename: dynatrace-account-limits-api-openapi.yml
   format: yaml
   label: Dynatrace Account limits API
   slug: dynatrace-account-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-account-limits-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-account-limits-api-openapi.yml
 - filename: dynatrace-account-settings-api-openapi.yml
   format: yaml
   label: Dynatrace Account Settings API
   slug: dynatrace-account-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-account-settings-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-account-settings-api-openapi.yml
 - filename: dynatrace-dynatrace-platform-subscription-api-openapi.yml
   format: yaml
   label: Dynatrace Dynatrace Platform Subscription API
   slug: dynatrace-dynatrace-platform-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-dynatrace-platform-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-dynatrace-platform-subscription-api-openapi.yml
 - filename: dynatrace-environment-management-api-openapi.yml
   format: yaml
   label: Dynatrace Environment management API
   slug: dynatrace-environment-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-environment-management-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-environment-management-api-openapi.yml
 - filename: dynatrace-group-management-api-openapi.yml
   format: yaml
   label: Dynatrace Group management API
   slug: dynatrace-group-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-group-management-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-group-management-api-openapi.yml
 - filename: dynatrace-notifications-api-openapi.yml
   format: yaml
   label: Dynatrace Notifications API
   slug: dynatrace-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-notifications-api-openapi.yml
 - filename: dynatrace-permission-management-api-openapi.yml
   format: yaml
   label: Dynatrace Permission management API
   slug: dynatrace-permission-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-permission-management-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-permission-management-api-openapi.yml
 - filename: dynatrace-platform-tokens-api-openapi.yml
   format: yaml
   label: Dynatrace Platform tokens API
   slug: dynatrace-platform-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-platform-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-platform-tokens-api-openapi.yml
 - filename: dynatrace-policy-management-api-openapi.yml
   format: yaml
   label: Dynatrace Policy management API
   slug: dynatrace-policy-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-policy-management-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-policy-management-api-openapi.yml
 - filename: dynatrace-reference-data-api-openapi.yml
   format: yaml
   label: Dynatrace Reference data API
   slug: dynatrace-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-reference-data-api-openapi.yml
 - filename: dynatrace-service-user-management-api-openapi.yml
   format: yaml
   label: Dynatrace Service user management API
   slug: dynatrace-service-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-service-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-service-user-management-api-openapi.yml
 - filename: dynatrace-user-management-api-openapi.yml
   format: yaml
   label: Dynatrace User management API
   slug: dynatrace-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-user-management-api-openapi.yml
 - filename: dynatrace-workload-identity-federation-api-openapi.yml
   format: yaml
   label: Dynatrace Workload Identity Federation API
   slug: dynatrace-workload-identity-federation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-workload-identity-federation-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-workload-identity-federation-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -187,7 +187,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-29'\nmethod: derived\nsource: openapi/dynatrace-entities-api-openapi.yml, openapi/dynatrace-environments-api-openapi.yml,\n  openapi/dynatrace-events-api-openapi.yml, openapi/dynatrace-groups-api-openapi.yml, openapi/dynatrace-logs-api-openapi.yml,\n  openapi/dynatrace-metrics-api-openapi.yml, openapi/dynatrace-permissions-api-openapi.yml,\n  openapi/dynatrace-problems-api-openapi.yml, openapi/dynatrace-users-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: api-token\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Dynatrace API token. Use the format: Api-Token {your-token} Required scopes:\n    entities.read'\n  sources:\n  - openapi/dynatrace-entities-api-openapi.yml\n  - openapi/dynatrace-events-api-openapi.yml\n  - openapi/dynatrace-logs-api-openapi.yml\n  - openapi/dynatrace-metrics-api-openapi.yml\n  - openapi/dynatrace-problems-api-openapi.yml\n\
   - name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://sso.dynatrace.com/sso/oauth2/token\n    scopes: 3\n  description: 'OAuth 2.0 authentication for the Account Management API. Use the client credentials\n    flow to obtain a bearer token. Required scopes vary by endpoint: account-idm-read for GET\n    operations, account-idm-write for POST/PUT/DELETE operations.'\n  sources:\n  - openapi/dynatrace-environments-api-openapi.yml\n  - openapi/dynatrace-groups-api-openapi.yml\n  - openapi/dynatrace-permissions-api-openapi.yml\n  - openapi/dynatrace-users-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/authentication/dynatrace-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dynatrace/authentication/dynatrace-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - AI Operations

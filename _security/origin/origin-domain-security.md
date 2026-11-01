@@ -5,7 +5,7 @@ api_specs:
   label: Origin Trades API
   slug: origin-trades-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin/refs/heads/main/openapi/origin-trades-api-openapi.yml
+  url: https://artifacts.apis.io/origin/openapi/origin-trades-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,7 +41,7 @@ source_filename: origin-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: originmarkets.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 01:03:19 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: airbrush.originmarkets.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  6 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: originmarkets.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/origin/refs/heads/main/security/origin-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/origin/security/origin-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

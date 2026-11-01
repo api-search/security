@@ -8,43 +8,43 @@ api_specs:
   label: TextGears Account API
   slug: textgears-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textgears/refs/heads/main/openapi/textgears-account-api-openapi.yml
+  url: https://artifacts.apis.io/textgears/openapi/textgears-account-api-openapi.yml
 - filename: textgears-dictionaries-api-openapi.yml
   format: yaml
   label: TextGears Dictionaries API
   slug: textgears-dictionaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textgears/refs/heads/main/openapi/textgears-dictionaries-api-openapi.yml
+  url: https://artifacts.apis.io/textgears/openapi/textgears-dictionaries-api-openapi.yml
 - filename: textgears-exceptions-api-openapi.yml
   format: yaml
   label: TextGears Exceptions API
   slug: textgears-exceptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textgears/refs/heads/main/openapi/textgears-exceptions-api-openapi.yml
+  url: https://artifacts.apis.io/textgears/openapi/textgears-exceptions-api-openapi.yml
 - filename: textgears-grammar-api-openapi.yml
   format: yaml
   label: TextGears Grammar API
   slug: textgears-grammar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textgears/refs/heads/main/openapi/textgears-grammar-api-openapi.yml
+  url: https://artifacts.apis.io/textgears/openapi/textgears-grammar-api-openapi.yml
 - filename: textgears-language-api-openapi.yml
   format: yaml
   label: TextGears Language API
   slug: textgears-language-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textgears/refs/heads/main/openapi/textgears-language-api-openapi.yml
+  url: https://artifacts.apis.io/textgears/openapi/textgears-language-api-openapi.yml
 - filename: textgears-readability-api-openapi.yml
   format: yaml
   label: TextGears Readability API
   slug: textgears-readability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textgears/refs/heads/main/openapi/textgears-readability-api-openapi.yml
+  url: https://artifacts.apis.io/textgears/openapi/textgears-readability-api-openapi.yml
 - filename: textgears-summarization-api-openapi.yml
   format: yaml
   label: TextGears Summarization API
   slug: textgears-summarization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textgears/refs/heads/main/openapi/textgears-summarization-api-openapi.yml
+  url: https://artifacts.apis.io/textgears/openapi/textgears-summarization-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -79,7 +79,7 @@ source_filename: textgears-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - query\nschemes:\n- name: apiKeyQuery\n  type: apiKey\n  in: query\n  parameter: key\n  description: API key passed as a query parameter\n  sources:\n  - openapi/openapi.yml\n- name: apiKeyHeader\n  type: http\n  scheme: basic\n  description: API key passed as HTTP Basic Authorization header value\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/textgears/refs/heads/main/authentication/textgears-authentication.yml
+source_yaml_url: https://artifacts.apis.io/textgears/authentication/textgears-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Grammar

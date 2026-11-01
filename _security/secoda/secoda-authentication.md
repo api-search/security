@@ -33,7 +33,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://docs.secoda.co/api/authentication\ndocs: https://docs.secoda.co/api/authentication\nsummary:\n  types: [http]\n  http_schemes: [bearer]\n  api_key_in: [header]\n  oauth2_flows: []\nschemes:\n  - name: bearerAuth\n    type: http\n    scheme: bearer\n    description: >-\n      Secoda API requests authenticate with a workspace API key passed in the\n      Authorization header as a Bearer token (Authorization: Bearer <API_KEY>).\n      The key is generated from workspace Settings > API and grants the same\n      workspace access as the user who created it. No OAuth or scopes are\n      documented; access is governed by the creating user's role and permissions.\n    location: header\n    parameter: Authorization\n    format: 'Bearer <API_KEY>'\n    token_url: https://app.secoda.co/settings/api\n    sources: [docs.secoda.co/api/authentication]\nnotes:\n  - Regional base hosts each require a key from that region's workspace.\n\
   \  - MCP server passes the same key as an API_TOKEN environment variable.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/secoda/refs/heads/main/authentication/secoda-authentication.yml
+source_yaml_url: https://artifacts.apis.io/secoda/authentication/secoda-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

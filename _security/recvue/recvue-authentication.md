@@ -7,61 +7,61 @@ api_specs:
   label: RecVue Authentication API
   slug: recvue-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/recvue/openapi/recvue-authentication-api-openapi.yml
 - filename: recvue-billing-api-openapi.yml
   format: yaml
   label: RecVue Billing API
   slug: recvue-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-billing-api-openapi.yml
+  url: https://artifacts.apis.io/recvue/openapi/recvue-billing-api-openapi.yml
 - filename: recvue-billing-schedules-api-openapi.yml
   format: yaml
   label: RecVue Billing Schedules API
   slug: recvue-billing-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-billing-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/recvue/openapi/recvue-billing-schedules-api-openapi.yml
 - filename: recvue-customers-api-openapi.yml
   format: yaml
   label: RecVue Customers API
   slug: recvue-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-customers-api-openapi.yml
+  url: https://artifacts.apis.io/recvue/openapi/recvue-customers-api-openapi.yml
 - filename: recvue-invoices-api-openapi.yml
   format: yaml
   label: RecVue Invoices API
   slug: recvue-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/recvue/openapi/recvue-invoices-api-openapi.yml
 - filename: recvue-orders-api-openapi.yml
   format: yaml
   label: RecVue Orders API
   slug: recvue-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-orders-api-openapi.yml
+  url: https://artifacts.apis.io/recvue/openapi/recvue-orders-api-openapi.yml
 - filename: recvue-pricing-api-openapi.yml
   format: yaml
   label: RecVue Pricing API
   slug: recvue-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/recvue/openapi/recvue-pricing-api-openapi.yml
 - filename: recvue-programs-api-openapi.yml
   format: yaml
   label: RecVue Programs API
   slug: recvue-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-programs-api-openapi.yml
+  url: https://artifacts.apis.io/recvue/openapi/recvue-programs-api-openapi.yml
 - filename: recvue-revenue-recognition-api-openapi.yml
   format: yaml
   label: RecVue Revenue Recognition API
   slug: recvue-revenue-recognition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-revenue-recognition-api-openapi.yml
+  url: https://artifacts.apis.io/recvue/openapi/recvue-revenue-recognition-api-openapi.yml
 - filename: recvue-usage-api-openapi.yml
   format: yaml
   label: RecVue Usage API
   slug: recvue-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-usage-api-openapi.yml
+  url: https://artifacts.apis.io/recvue/openapi/recvue-usage-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -90,7 +90,7 @@ source_filename: recvue-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: sourced\nsource: https://developer.recvue.com/reference/tokenusingpost\nsummary:\n  types:\n  - oauth2\nschemes:\n- name: oauth2ClientCredentials\n  type: oauth2\n  flow: clientCredentials\n  tokenUrl: https://api.recvue.com/api/v2.0/api/scim/oauth/token\n  grantType: client_credentials\n  description: >-\n    RecVue authenticates with OAuth2 using the client_credentials grant.\n    Request an access token from the token endpoint by sending\n    grant_type=client_credentials with a Basic auth header (client_id:client_secret)\n    or client_id/client_secret as x-www-form-urlencoded form params. The\n    returned access token is passed as an Authorization Bearer header on\n    subsequent API calls. Sandbox uses host sandbox-api.recvue.com.\n  sources:\n  - https://developer.recvue.com/reference/tokenusingpost\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/authentication/recvue-authentication.yml
+source_yaml_url: https://artifacts.apis.io/recvue/authentication/recvue-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Revenue Recognition

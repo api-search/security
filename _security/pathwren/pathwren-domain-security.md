@@ -5,31 +5,31 @@ api_specs:
   label: AI Crawler Index Bulk API
   slug: pathwren-bulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pathwren/refs/heads/main/openapi/pathwren-bulk-api-openapi.yml
+  url: https://artifacts.apis.io/pathwren/openapi/pathwren-bulk-api-openapi.yml
 - filename: pathwren-crawlers-api-openapi.yml
   format: yaml
   label: AI Crawler Index Crawlers API
   slug: pathwren-crawlers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pathwren/refs/heads/main/openapi/pathwren-crawlers-api-openapi.yml
+  url: https://artifacts.apis.io/pathwren/openapi/pathwren-crawlers-api-openapi.yml
 - filename: pathwren-ip-ranges-api-openapi.yml
   format: yaml
   label: AI Crawler Index Ip Ranges API
   slug: pathwren-ip-ranges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pathwren/refs/heads/main/openapi/pathwren-ip-ranges-api-openapi.yml
+  url: https://artifacts.apis.io/pathwren/openapi/pathwren-ip-ranges-api-openapi.yml
 - filename: pathwren-robots-api-openapi.yml
   format: yaml
   label: AI Crawler Index Robots API
   slug: pathwren-robots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pathwren/refs/heads/main/openapi/pathwren-robots-api-openapi.yml
+  url: https://artifacts.apis.io/pathwren/openapi/pathwren-robots-api-openapi.yml
 - filename: pathwren-status-api-openapi.yml
   format: yaml
   label: AI Crawler Index Status API
   slug: pathwren-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pathwren/refs/heads/main/openapi/pathwren-status-api-openapi.yml
+  url: https://artifacts.apis.io/pathwren/openapi/pathwren-status-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: pathwren-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-01'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.pathwren.workers.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 29 20:21:16 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: workers.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pathwren/refs/heads/main/security/pathwren-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pathwren/security/pathwren-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI crawlers

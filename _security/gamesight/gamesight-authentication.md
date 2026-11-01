@@ -8,13 +8,13 @@ api_specs:
   label: Gamesight Measurement API
   slug: gamesight-measurement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/openapi/gamesight-measurement-api-openapi.yml
+  url: https://artifacts.apis.io/gamesight/openapi/gamesight-measurement-api-openapi.yml
 - filename: gamesight-reporting-api-openapi.yml
   format: yaml
   label: Gamesight Reporting API
   slug: gamesight-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/openapi/gamesight-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/gamesight/openapi/gamesight-reporting-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  openapi/g
   \      Reporting API keys carry the Reporting, Aggregate Reporting, GDPR, or Audit\n      scope; the Measurement (in-game/web ingest) key is a separate credential\n      provisioned under Management > In-Game Integration.\n    scopes:\n      - Reporting\n      - Aggregate Reporting\n      - GDPR\n      - Audit\n      - Event Measurement\n    docs: https://docs.gamesight.io/docs/api-key-management\n    applies_to:\n      - openapi/gamesight-measurement-api-openapi.yml\n      - openapi/gamesight-reporting-api-openapi.yml\n    sources:\n      - openapi/_original/gamesight-measurement-openapi.json\n      - openapi/_original/gamesight-reporting-openapi.json\n  - name: GamesightOAuth2\n    type: oauth2\n    description: >-\n      OAuth 2.0 authorization-code flow with PKCE (S256) and RFC 7591 dynamic\n      client registration, issued by console.gamesight.io. NOT documented in the\n      public developer docs — discovered by probing /.well-known/ on the API\n      hosts. Its single advertised\
   \ scope, \"mcp\", gates the hosted MCP server at\n      https://console.gamesight.io/mcp. It does not apply to the two REST APIs,\n      which remain API-key authenticated.\n    issuer: https://console.gamesight.io\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://console.gamesight.io/authorize\n        tokenUrl: https://console.gamesight.io/api/app/oauth/token\n        scopes:\n          mcp: Access to the Gamesight MCP Server\n    pkce: S256\n    token_endpoint_auth_methods:\n      - client_secret_post\n      - client_secret_basic\n    dynamic_client_registration: https://console.gamesight.io/api/app/oauth/register\n    revocation_endpoint: https://console.gamesight.io/api/app/oauth/revoke\n    documented: false\n    applies_to:\n      - mcp/gamesight-mcp.yml\n    sources:\n      - well-known/gamesight-oauth-authorization-server.json\n      - well-known/gamesight-console-oauth-authorization-server.json\nsso:\n  saml: https://docs.gamesight.io/docs/okta-saml-config\n\
   \  scim: https://docs.gamesight.io/docs/okta-scim-config\n  providers:\n    - Okta\n    - Google Workspace\n  note: Console (human) access supports SAML SSO and SCIM 2.0 user provisioning; this is dashboard access, not API auth.\nref:\n  scopes: scopes/gamesight-scopes.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/authentication/gamesight-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gamesight/authentication/gamesight-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company

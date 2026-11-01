@@ -5,13 +5,13 @@ api_specs:
   label: Paidy Payments API
   slug: paidy-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paidy/refs/heads/main/openapi/paidy-payments-api-openapi.yml
+  url: https://artifacts.apis.io/paidy/openapi/paidy-payments-api-openapi.yml
 - filename: paidy-tokens-api-openapi.yml
   format: yaml
   label: Paidy Tokens API
   slug: paidy-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paidy/refs/heads/main/openapi/paidy-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/paidy/openapi/paidy-tokens-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: paidy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: paidy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.paidy.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 13 23:59:59 2026 GMT\n  hsts: null\n- host: apps.paidy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 11 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: paidy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paidy/refs/heads/main/security/paidy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/paidy/security/paidy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Buy Now Pay Later

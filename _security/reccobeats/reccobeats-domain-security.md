@@ -5,37 +5,37 @@ api_specs:
   label: ReccoBeats Album API
   slug: reccobeats-album-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reccobeats/refs/heads/main/openapi/reccobeats-album-api-openapi.yml
+  url: https://artifacts.apis.io/reccobeats/openapi/reccobeats-album-api-openapi.yml
 - filename: reccobeats-artist-api-openapi.yml
   format: yaml
   label: ReccoBeats Artist API
   slug: reccobeats-artist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reccobeats/refs/heads/main/openapi/reccobeats-artist-api-openapi.yml
+  url: https://artifacts.apis.io/reccobeats/openapi/reccobeats-artist-api-openapi.yml
 - filename: reccobeats-audio-analysis-api-openapi.yml
   format: yaml
   label: ReccoBeats Audio Analysis API
   slug: reccobeats-audio-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reccobeats/refs/heads/main/openapi/reccobeats-audio-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/reccobeats/openapi/reccobeats-audio-analysis-api-openapi.yml
 - filename: reccobeats-audio-features-api-openapi.yml
   format: yaml
   label: ReccoBeats Audio Features API
   slug: reccobeats-audio-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reccobeats/refs/heads/main/openapi/reccobeats-audio-features-api-openapi.yml
+  url: https://artifacts.apis.io/reccobeats/openapi/reccobeats-audio-features-api-openapi.yml
 - filename: reccobeats-recommendation-api-openapi.yml
   format: yaml
   label: ReccoBeats Recommendation API
   slug: reccobeats-recommendation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reccobeats/refs/heads/main/openapi/reccobeats-recommendation-api-openapi.yml
+  url: https://artifacts.apis.io/reccobeats/openapi/reccobeats-recommendation-api-openapi.yml
 - filename: reccobeats-track-api-openapi.yml
   format: yaml
   label: ReccoBeats Track API
   slug: reccobeats-track-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reccobeats/refs/heads/main/openapi/reccobeats-track-api-openapi.yml
+  url: https://artifacts.apis.io/reccobeats/openapi/reccobeats-track-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -68,7 +68,7 @@ source_filename: reccobeats-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: reccobeats.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 13:47:49 2026 GMT\n  hsts: false\n- host: api.reccobeats.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 13:47:49 2026 GMT\n  hsts: null\ndomains:\n- domain: reccobeats.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reccobeats/refs/heads/main/security/reccobeats-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/reccobeats/security/reccobeats-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Music

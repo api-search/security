@@ -7,37 +7,37 @@ api_specs:
   label: Even Financial Analytics API
   slug: even-financial-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/even-financial/refs/heads/main/openapi/even-financial-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/even-financial/openapi/even-financial-analytics-api-openapi.yml
 - filename: even-financial-approval-probability-api-openapi.yml
   format: yaml
   label: Even Financial Approval Probability API
   slug: even-financial-approval-probability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/even-financial/refs/heads/main/openapi/even-financial-approval-probability-api-openapi.yml
+  url: https://artifacts.apis.io/even-financial/openapi/even-financial-approval-probability-api-openapi.yml
 - filename: even-financial-lead-api-openapi.yml
   format: yaml
   label: Even Financial Lead API
   slug: even-financial-lead-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/even-financial/refs/heads/main/openapi/even-financial-lead-api-openapi.yml
+  url: https://artifacts.apis.io/even-financial/openapi/even-financial-lead-api-openapi.yml
 - filename: even-financial-offer-preview-api-openapi.yml
   format: yaml
   label: Even Financial Offer Preview API
   slug: even-financial-offer-preview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/even-financial/refs/heads/main/openapi/even-financial-offer-preview-api-openapi.yml
+  url: https://artifacts.apis.io/even-financial/openapi/even-financial-offer-preview-api-openapi.yml
 - filename: even-financial-ui-utils-api-openapi.yml
   format: yaml
   label: Even Financial UI Utils API
   slug: even-financial-ui-utils-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/even-financial/refs/heads/main/openapi/even-financial-ui-utils-api-openapi.yml
+  url: https://artifacts.apis.io/even-financial/openapi/even-financial-ui-utils-api-openapi.yml
 - filename: even-financial-pre-fill-api-openapi.yml
   format: yaml
   label: Even Financial Pre Fill API
   slug: even-financial-pre-fill-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/even-financial/refs/heads/main/openapi/even-financial-pre-fill-api-openapi.yml
+  url: https://artifacts.apis.io/even-financial/openapi/even-financial-pre-fill-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -77,7 +77,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/even-financial-openapi-original.json\ndocs: https://engine.tech/docs/api-reference/\nsummary:\n  types:\n  - http\n  http_schemes:\n  - bearer\n  notes: >-\n    All requests to the Engine by MoneyLion (formerly Even Financial) API are authenticated\n    with a bearer token in the Authorization header, prefixed with \"Bearer \". Tokens are two\n    UUIDs concatenated with an underscore. There are two production token classes plus an\n    experimental class; there is no OAuth 2.0 / OpenID Connect flow.\nschemes:\n- name: publishableBearerToken\n  type: http\n  scheme: bearer\n  description: >-\n    A publishable bearer token, safe to ship in application/client code and downloaded to a\n    user's device. Restricted access — only non-sensitive endpoints (e.g. lead submission,\n    UI utilities).\n  sources:\n  - openapi/even-financial-openapi-original.json\n- name: confidentialBearerToken\n  type: http\n  scheme: bearer\n\
   \  description: >-\n    A confidential bearer token that must be managed like a password and kept server-side.\n    Grants access to sensitive endpoints (analytics, payouts, full lead data).\n  sources:\n  - openapi/even-financial-openapi-original.json\n- name: experimentalBearerToken\n  type: http\n  scheme: bearer\n  description: >-\n    A bearer token scoped to experimental / early-access endpoints.\n  sources:\n  - openapi/even-financial-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/even-financial/refs/heads/main/authentication/even-financial-authentication.yml
+source_yaml_url: https://artifacts.apis.io/even-financial/authentication/even-financial-authentication.yml
 summary_line: http · 3 schemes
 tags:
 - Company

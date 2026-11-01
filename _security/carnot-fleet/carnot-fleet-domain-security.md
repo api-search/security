@@ -26,7 +26,7 @@ source_filename: carnot-fleet-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: carnotfleet.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 18 11:37:14 2026 GMT\n  hsts: false\ndomains:\n- domain: carnotfleet.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carnot-fleet/refs/heads/main/security/carnot-fleet-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/carnot-fleet/security/carnot-fleet-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Company
@@ -36,6 +36,6 @@ tags:
 - Refrigeration
 - Temperature Monitoring
 - IoT
-- Fleet
+- Fleet Management
 - Hardware
 ---

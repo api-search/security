@@ -24,7 +24,7 @@ source_filename: boxcast-authentication.yml
 source_heading: Authentication Profile
 source_url: https://support.boxcast.com/en/articles/4235095-configure-an-rtmp-destination-with-user-authentication.md
 source_yaml: "generated: '2026-10-03'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://support.boxcast.com/en/articles/4235095-configure-an-rtmp-destination-with-user-authentication.md\nsources:\n- https://support.boxcast.com/en/articles/4235095-configure-an-rtmp-destination-with-user-authentication.md\n- https://support.boxcast.com/en/articles/6376916-how-to-use-producer-by-boxcast-quick-start-guide.md\n- https://support.boxcast.com/en/articles/8011659-getting-started-with-spark.md\n- https://support.boxcast.com/en/articles/8461520-boxcast-sites-getting-started-guide.md\nschemes:\n- type: other\n  name: RTMP username/password\n  evidence: BoxCast supports RTMP destinations that require you to authenticate the RTMP with a username and password.\n  location: server URL (user:pass@host)\ndocs: https://support.boxcast.com/en/articles/4235095-configure-an-rtmp-destination-with-user-authentication.md\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boxcast/refs/heads/main/authentication/boxcast-authentication.yml
+source_yaml_url: https://artifacts.apis.io/boxcast/authentication/boxcast-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company

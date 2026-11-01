@@ -8,13 +8,13 @@ api_specs:
   label: Plasmic Items API
   slug: plasmic-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plasmic/refs/heads/main/openapi/plasmic-items-api-openapi.yml
+  url: https://artifacts.apis.io/plasmic/openapi/plasmic-items-api-openapi.yml
 - filename: plasmic-rows-api-openapi.yml
   format: yaml
   label: Plasmic Rows API
   slug: plasmic-rows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plasmic/refs/heads/main/openapi/plasmic-rows-api-openapi.yml
+  url: https://artifacts.apis.io/plasmic/openapi/plasmic-rows-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -46,7 +46,7 @@ source_filename: plasmic-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/plasmic-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: cmsTokens\n  type: apiKey\n  in: header\n  parameter: x-plasmic-api-cms-tokens\n  description: |-\n    Plasmic CMS authentication header in the form `CMS_ID:TOKEN`. Use the\n    public token for read operations and the secret token for write\n    operations.\n  sources:\n  - openapi/plasmic-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plasmic/refs/heads/main/authentication/plasmic-authentication.yml
+source_yaml_url: https://artifacts.apis.io/plasmic/authentication/plasmic-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Visual Builder

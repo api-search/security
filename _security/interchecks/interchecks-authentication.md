@@ -7,97 +7,97 @@ api_specs:
   label: Interchecks Accounts API
   slug: interchecks-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/interchecks/openapi/interchecks-accounts-api-openapi.yml
 - filename: interchecks-authentication-api-openapi.yml
   format: yaml
   label: Interchecks Authentication API
   slug: interchecks-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/interchecks/openapi/interchecks-authentication-api-openapi.yml
 - filename: interchecks-payers-api-openapi.yml
   format: yaml
   label: Interchecks Payers API
   slug: interchecks-payers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-payers-api-openapi.yml
+  url: https://artifacts.apis.io/interchecks/openapi/interchecks-payers-api-openapi.yml
 - filename: interchecks-payload-api-openapi.yml
   format: yaml
   label: Interchecks Payload API
   slug: interchecks-payload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-payload-api-openapi.yml
+  url: https://artifacts.apis.io/interchecks/openapi/interchecks-payload-api-openapi.yml
 - filename: interchecks-payment-accounts-bank-api-openapi.yml
   format: yaml
   label: Interchecks Payment Accounts - Bank API
   slug: interchecks-payment-accounts-bank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-payment-accounts-bank-api-openapi.yml
+  url: https://artifacts.apis.io/interchecks/openapi/interchecks-payment-accounts-bank-api-openapi.yml
 - filename: interchecks-payment-accounts-card-api-openapi.yml
   format: yaml
   label: Interchecks Payment Accounts - Card API
   slug: interchecks-payment-accounts-card-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-payment-accounts-card-api-openapi.yml
+  url: https://artifacts.apis.io/interchecks/openapi/interchecks-payment-accounts-card-api-openapi.yml
 - filename: interchecks-payment-accounts-paypal-api-openapi.yml
   format: yaml
   label: Interchecks Payment Accounts - PayPal API
   slug: interchecks-payment-accounts-paypal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-payment-accounts-paypal-api-openapi.yml
+  url: https://artifacts.apis.io/interchecks/openapi/interchecks-payment-accounts-paypal-api-openapi.yml
 - filename: interchecks-payments-api-openapi.yml
   format: yaml
   label: Interchecks Payments API
   slug: interchecks-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-payments-api-openapi.yml
+  url: https://artifacts.apis.io/interchecks/openapi/interchecks-payments-api-openapi.yml
 - filename: interchecks-recipient-emails-api-openapi.yml
   format: yaml
   label: Interchecks Recipient Emails API
   slug: interchecks-recipient-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-recipient-emails-api-openapi.yml
+  url: https://artifacts.apis.io/interchecks/openapi/interchecks-recipient-emails-api-openapi.yml
 - filename: interchecks-recipient-verification-api-openapi.yml
   format: yaml
   label: Interchecks Recipient Verification API
   slug: interchecks-recipient-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-recipient-verification-api-openapi.yml
+  url: https://artifacts.apis.io/interchecks/openapi/interchecks-recipient-verification-api-openapi.yml
 - filename: interchecks-recipients-api-openapi.yml
   format: yaml
   label: Interchecks Recipients API
   slug: interchecks-recipients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-recipients-api-openapi.yml
+  url: https://artifacts.apis.io/interchecks/openapi/interchecks-recipients-api-openapi.yml
 - filename: interchecks-reports-api-openapi.yml
   format: yaml
   label: Interchecks Reports API
   slug: interchecks-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-reports-api-openapi.yml
+  url: https://artifacts.apis.io/interchecks/openapi/interchecks-reports-api-openapi.yml
 - filename: interchecks-test-harness-api-openapi.yml
   format: yaml
   label: Interchecks Test Harness API
   slug: interchecks-test-harness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-test-harness-api-openapi.yml
+  url: https://artifacts.apis.io/interchecks/openapi/interchecks-test-harness-api-openapi.yml
 - filename: interchecks-transactions-api-openapi.yml
   format: yaml
   label: Interchecks Transactions API
   slug: interchecks-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/interchecks/openapi/interchecks-transactions-api-openapi.yml
 - filename: interchecks-widgets-api-openapi.yml
   format: yaml
   label: Interchecks Widgets API
   slug: interchecks-widgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-widgets-api-openapi.yml
+  url: https://artifacts.apis.io/interchecks/openapi/interchecks-widgets-api-openapi.yml
 - filename: interchecks-oauth2-api-openapi.yml
   format: yaml
   label: Interchecks Oauth2 API
   slug: interchecks-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/interchecks/openapi/interchecks-oauth2-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -147,7 +147,7 @@ source_yaml: "generated: '2026-08-23'\nmethod: searched\nsource: https://docs-v2
   \  response_fields:\n  - access_token\n  - expires_in\n  - token_type\n  scopes: []\n  scopes_note: >-\n    The published securityScheme declares no scopes and the documentation defines no scope or\n    permission vocabulary. Authorization is scoped by the payer_id in the request path and by the\n    payer/aggregator configuration held by Interchecks, not by OAuth scopes. No scopes/ artifact\n    is emitted for this provider.\n  sources:\n  - openapi/interchecks-payments-api-v2.json\n  - https://docs-v2.interchecks.com/reference/get-access-token\n- name: httpBearer\n  type: http\n  scheme: bearer\n  bearer_format: JWT\n  note: >-\n    The older published document (payments-api-v2.json, OpenAPI 3.0.0) declares the same\n    credential as a plain http/bearer scheme rather than an oauth2 clientCredentials flow.\n  sources:\n  - openapi/interchecks-payments-api-v2-registry.json\ntenancy:\n  path_parameter: payer_id\n  note: >-\n    Every business operation is addressed under /api/v2/{payer_id}/...,\
   \ where payer_id identifies\n    the aggregator or the payer. An aggregator-level API account acts across its payers.\nadditional_controls:\n- name: Payload envelope encryption\n  header: 'X-ENCRYPTED: <Payer ID>'\n  description: >-\n    Optional per-payer envelope encryption of request and response bodies. Payload is encrypted\n    with AES (AES/GCM/NoPadding by default, AES/CBC/PKCS5Padding via X-AES-MODE:\n    CBC_PKCS5PADDING); the AES key and IV are encrypted with the counterparty RSA public key\n    using RSA/ECB/OAEPPadding with SHA-256 OAEP and SHA-256 MGF1. Interchecks publishes its\n    public key in PEM or JWK form via get-encryption-public-key.\n  docs: https://docs-v2.interchecks.com/docs/encrypted-requests\n- name: Webhook signature verification\n  header: x-verification\n  description: >-\n    Inbound webhooks carry an RS256 JWT in the x-verification header whose payload holds iat and\n    request_body_sha256_hash. The verifying public key is fetched by kid from\n    /api/v2/{payer_id}/webhooks/get_validation_key/{kid}.\
   \ Webhooks older than 5 minutes should be\n    rejected.\n  docs: https://docs-v2.interchecks.com/docs/webhooks\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/authentication/interchecks-authentication.yml
+source_yaml_url: https://artifacts.apis.io/interchecks/authentication/interchecks-authentication.yml
 summary_line: oauth2/http · 2 schemes
 tags:
 - Payments

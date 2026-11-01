@@ -13,19 +13,19 @@ api_specs:
   label: HiveMQ Data Hub API
   slug: hivemq-data-hub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hivemq/refs/heads/main/openapi/hivemq-data-hub-api-openapi.yml
+  url: https://artifacts.apis.io/hivemq/openapi/hivemq-data-hub-api-openapi.yml
 - filename: hivemq-management-api-openapi.yml
   format: yaml
   label: HiveMQ Management API
   slug: hivemq-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hivemq/refs/heads/main/openapi/hivemq-management-api-openapi.yml
+  url: https://artifacts.apis.io/hivemq/openapi/hivemq-management-api-openapi.yml
 - filename: hivemq-mqtt-api-openapi.yml
   format: yaml
   label: HiveMQ Mqtt API
   slug: hivemq-mqtt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hivemq/refs/heads/main/openapi/hivemq-mqtt-api-openapi.yml
+  url: https://artifacts.apis.io/hivemq/openapi/hivemq-mqtt-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -56,7 +56,7 @@ source_filename: hivemq-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/hivemq-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: |-\n    Authentication is disabled by default. When enabled via the\n    HiveMQ Enterprise Security Extension or Enterprise Extension SDK\n    REST Service, a bearer token is required.\n  sources:\n  - openapi/hivemq-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hivemq/refs/heads/main/authentication/hivemq-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hivemq/authentication/hivemq-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - MQTT

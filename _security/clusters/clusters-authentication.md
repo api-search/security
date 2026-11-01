@@ -8,37 +8,37 @@ api_specs:
   label: Clusters Authentication API
   slug: clusters-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/openapi/clusters-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/clusters/openapi/clusters-authentication-api-openapi.yml
 - filename: clusters-clusters-api-openapi.yml
   format: yaml
   label: Clusters API
   slug: clusters-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/openapi/clusters-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/clusters/openapi/clusters-clusters-api-openapi.yml
 - filename: clusters-communities-api-openapi.yml
   format: yaml
   label: Clusters Communities API
   slug: clusters-communities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/openapi/clusters-communities-api-openapi.yml
+  url: https://artifacts.apis.io/clusters/openapi/clusters-communities-api-openapi.yml
 - filename: clusters-events-api-openapi.yml
   format: yaml
   label: Clusters Events API
   slug: clusters-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/openapi/clusters-events-api-openapi.yml
+  url: https://artifacts.apis.io/clusters/openapi/clusters-events-api-openapi.yml
 - filename: clusters-names-api-openapi.yml
   format: yaml
   label: Clusters Names API
   slug: clusters-names-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/openapi/clusters-names-api-openapi.yml
+  url: https://artifacts.apis.io/clusters/openapi/clusters-names-api-openapi.yml
 - filename: clusters-registration-api-openapi.yml
   format: yaml
   label: Clusters Registration API
   slug: clusters-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/openapi/clusters-registration-api-openapi.yml
+  url: https://artifacts.apis.io/clusters/openapi/clusters-registration-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -73,7 +73,7 @@ source_filename: clusters-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/clusters-v1-openapi.yml\ndocs: https://docs.clusters.xyz/getting-started/api/v1/authentication\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-KEY\n  description: Optional API key from https://clusters.xyz/developer to raise rate limits.\n  sources:\n  - openapi/clusters-v1-openapi.yml\n- name: WalletBearerAuth\n  type: http\n  scheme: bearer\n  description: Wallet-signature auth token obtained from POST /auth/token.\n  sources:\n  - openapi/clusters-v1-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/authentication/clusters-authentication.yml
+source_yaml_url: https://artifacts.apis.io/clusters/authentication/clusters-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

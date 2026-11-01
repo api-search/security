@@ -5,205 +5,205 @@ api_specs:
   label: Sigma Computing Auth API
   slug: sigma-computing-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-auth-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-auth-api-openapi.yml
 - filename: sigma-computing-connections-api-openapi.yml
   format: yaml
   label: Sigma Computing Connections API
   slug: sigma-computing-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-connections-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-connections-api-openapi.yml
 - filename: sigma-computing-credentials-api-openapi.yml
   format: yaml
   label: Sigma Computing Credentials API
   slug: sigma-computing-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-credentials-api-openapi.yml
 - filename: sigma-computing-datasets-api-openapi.yml
   format: yaml
   label: Sigma Computing Datasets API
   slug: sigma-computing-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-datasets-api-openapi.yml
 - filename: sigma-computing-deploymentpolicies-api-openapi.yml
   format: yaml
   label: Sigma Computing Deployment Policies API
   slug: sigma-computing-deploymentpolicies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-deploymentpolicies-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-deploymentpolicies-api-openapi.yml
 - filename: sigma-computing-favorites-api-openapi.yml
   format: yaml
   label: Sigma Computing Favorites API
   slug: sigma-computing-favorites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-favorites-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-favorites-api-openapi.yml
 - filename: sigma-computing-files-api-openapi.yml
   format: yaml
   label: Sigma Computing Files API
   slug: sigma-computing-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-files-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-files-api-openapi.yml
 - filename: sigma-computing-grants-api-openapi.yml
   format: yaml
   label: Sigma Computing Grants API
   slug: sigma-computing-grants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-grants-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-grants-api-openapi.yml
 - filename: sigma-computing-members-api-openapi.yml
   format: yaml
   label: Sigma Computing Members API
   slug: sigma-computing-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-members-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-members-api-openapi.yml
 - filename: sigma-computing-organizations-api-openapi.yml
   format: yaml
   label: Sigma Computing Organizations API
   slug: sigma-computing-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-organizations-api-openapi.yml
 - filename: sigma-computing-plugins-api-openapi.yml
   format: yaml
   label: Sigma Computing Plugins API
   slug: sigma-computing-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-plugins-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-plugins-api-openapi.yml
 - filename: sigma-computing-query-api-openapi.yml
   format: yaml
   label: Sigma Computing Query API
   slug: sigma-computing-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-query-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-query-api-openapi.yml
 - filename: sigma-computing-reports-api-openapi.yml
   format: yaml
   label: Sigma Computing Reports API
   slug: sigma-computing-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-reports-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-reports-api-openapi.yml
 - filename: sigma-computing-saml-api-openapi.yml
   format: yaml
   label: Sigma Computing SAML API
   slug: sigma-computing-saml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-saml-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-saml-api-openapi.yml
 - filename: sigma-computing-shortcuts-api-openapi.yml
   format: yaml
   label: Sigma Computing Shortcuts API
   slug: sigma-computing-shortcuts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-shortcuts-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-shortcuts-api-openapi.yml
 - filename: sigma-computing-sourceswappolicies-api-openapi.yml
   format: yaml
   label: Sigma Computing Source Swap Policies API
   slug: sigma-computing-sourceswappolicies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-sourceswappolicies-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-sourceswappolicies-api-openapi.yml
 - filename: sigma-computing-tags-api-openapi.yml
   format: yaml
   label: Sigma Computing Tags API
   slug: sigma-computing-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-tags-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-tags-api-openapi.yml
 - filename: sigma-computing-teams-api-openapi.yml
   format: yaml
   label: Sigma Computing Teams API
   slug: sigma-computing-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-teams-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-teams-api-openapi.yml
 - filename: sigma-computing-templates-api-openapi.yml
   format: yaml
   label: Sigma Computing Templates API
   slug: sigma-computing-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-templates-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-templates-api-openapi.yml
 - filename: sigma-computing-tenants-api-openapi.yml
   format: yaml
   label: Sigma Computing Tenants API
   slug: sigma-computing-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-tenants-api-openapi.yml
 - filename: sigma-computing-translations-api-openapi.yml
   format: yaml
   label: Sigma Computing Translations API
   slug: sigma-computing-translations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-translations-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-translations-api-openapi.yml
 - filename: sigma-computing-webhooks-api-openapi.yml
   format: yaml
   label: Sigma Computing Webhooks API
   slug: sigma-computing-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-webhooks-api-openapi.yml
 - filename: sigma-computing-whoami-api-openapi.yml
   format: yaml
   label: Sigma Computing Whoami API
   slug: sigma-computing-whoami-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-whoami-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-whoami-api-openapi.yml
 - filename: sigma-computing-workbooks-api-openapi.yml
   format: yaml
   label: Sigma Computing Workbooks API
   slug: sigma-computing-workbooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-workbooks-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-workbooks-api-openapi.yml
 - filename: sigma-computing-workspaces-api-openapi.yml
   format: yaml
   label: Sigma Computing Workspaces API
   slug: sigma-computing-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-workspaces-api-openapi.yml
 - filename: sigma-computing-allowedips-api-openapi.yml
   format: yaml
   label: Sigma Computing Allowed Ips API
   slug: sigma-computing-allowedips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-allowedips-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-allowedips-api-openapi.yml
 - filename: sigma-computing-allowedips-batchcreate-api-openapi.yml
   format: yaml
   label: Sigma Computing Allowed Ips\:batch Create API
   slug: sigma-computing-allowedips-batchcreate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-allowedips-batchcreate-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-allowedips-batchcreate-api-openapi.yml
 - filename: sigma-computing-allowedips-batchdelete-api-openapi.yml
   format: yaml
   label: Sigma Computing Allowed Ips\:batch Delete API
   slug: sigma-computing-allowedips-batchdelete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-allowedips-batchdelete-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-allowedips-batchdelete-api-openapi.yml
 - filename: sigma-computing-api-connectors-api-openapi.yml
   format: yaml
   label: Sigma Computing API Connectors API
   slug: sigma-computing-api-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-api-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-api-connectors-api-openapi.yml
 - filename: sigma-computing-api-credentials-api-openapi.yml
   format: yaml
   label: Sigma Computing API Credentials API
   slug: sigma-computing-api-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-api-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-api-credentials-api-openapi.yml
 - filename: sigma-computing-shared-templates-api-openapi.yml
   format: yaml
   label: Sigma Computing Shared Templates API
   slug: sigma-computing-shared-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-shared-templates-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-shared-templates-api-openapi.yml
 - filename: sigma-computing-user-attributes-api-openapi.yml
   format: yaml
   label: Sigma Computing User Attributes API
   slug: sigma-computing-user-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-user-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-user-attributes-api-openapi.yml
 - filename: sigma-computing-account-types-api-openapi.yml
   format: yaml
   label: Sigma Computing Account Types API
   slug: sigma-computing-account-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-account-types-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-account-types-api-openapi.yml
 - filename: sigma-computing-data-models-api-openapi.yml
   format: yaml
   label: Sigma Computing Data models API
   slug: sigma-computing-data-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-data-models-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-computing/openapi/sigma-computing-data-models-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -244,7 +244,7 @@ source_filename: sigma-computing-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sigmacomputing.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 20:23:48 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: help.sigmacomputing.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 23:36:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.sigmacomputing.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 21:50:21 2026 GMT\n  hsts: null\ndomains:\n- domain: sigmacomputing.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/security/sigma-computing-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sigma-computing/security/sigma-computing-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Business Intelligence

@@ -7,7 +7,7 @@ api_specs:
   label: tRPC Procedures API
   slug: trpc-procedures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trpc/refs/heads/main/openapi/trpc-procedures-api-openapi.yml
+  url: https://artifacts.apis.io/trpc/openapi/trpc-procedures-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -34,7 +34,7 @@ source_filename: trpc-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/trpc-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token for protected procedures\n  sources:\n  - openapi/trpc-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trpc/refs/heads/main/authentication/trpc-authentication.yml
+source_yaml_url: https://artifacts.apis.io/trpc/authentication/trpc-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - API Composition

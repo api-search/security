@@ -8,25 +8,25 @@ api_specs:
   label: Blumira Health API
   slug: blumira-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blumira/refs/heads/main/openapi/blumira-health-api-openapi.yml
+  url: https://artifacts.apis.io/blumira/openapi/blumira-health-api-openapi.yml
 - filename: blumira-msp-api-openapi.yml
   format: yaml
   label: Blumira Msp API
   slug: blumira-msp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blumira/refs/heads/main/openapi/blumira-msp-api-openapi.yml
+  url: https://artifacts.apis.io/blumira/openapi/blumira-msp-api-openapi.yml
 - filename: blumira-org-api-openapi.yml
   format: yaml
   label: Blumira Org API
   slug: blumira-org-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blumira/refs/heads/main/openapi/blumira-org-api-openapi.yml
+  url: https://artifacts.apis.io/blumira/openapi/blumira-org-api-openapi.yml
 - filename: blumira-resolutions-api-openapi.yml
   format: yaml
   label: Blumira Resolutions API
   slug: blumira-resolutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blumira/refs/heads/main/openapi/blumira-resolutions-api-openapi.yml
+  url: https://artifacts.apis.io/blumira/openapi/blumira-resolutions-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -60,7 +60,7 @@ source_filename: blumira-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-29'\nmethod: derived\nsource: openapi/blumira-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: pax8ApiTokenV1\n  sources:\n  - openapi/blumira-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/blumira-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blumira/refs/heads/main/authentication/blumira-authentication.yml
+source_yaml_url: https://artifacts.apis.io/blumira/authentication/blumira-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

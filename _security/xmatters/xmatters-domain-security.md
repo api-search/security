@@ -5,61 +5,61 @@ api_specs:
   label: xMatters Devices API
   slug: xmatters-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-devices-api-openapi.yml
+  url: https://artifacts.apis.io/xmatters/openapi/xmatters-devices-api-openapi.yml
 - filename: xmatters-events-api-openapi.yml
   format: yaml
   label: xMatters Events API
   slug: xmatters-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-events-api-openapi.yml
+  url: https://artifacts.apis.io/xmatters/openapi/xmatters-events-api-openapi.yml
 - filename: xmatters-groups-api-openapi.yml
   format: yaml
   label: xMatters Groups API
   slug: xmatters-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-groups-api-openapi.yml
+  url: https://artifacts.apis.io/xmatters/openapi/xmatters-groups-api-openapi.yml
 - filename: xmatters-integrations-api-openapi.yml
   format: yaml
   label: xMatters Integrations API
   slug: xmatters-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/xmatters/openapi/xmatters-integrations-api-openapi.yml
 - filename: xmatters-people-api-openapi.yml
   format: yaml
   label: xMatters People API
   slug: xmatters-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-people-api-openapi.yml
+  url: https://artifacts.apis.io/xmatters/openapi/xmatters-people-api-openapi.yml
 - filename: xmatters-plans-api-openapi.yml
   format: yaml
   label: xMatters Plans API
   slug: xmatters-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-plans-api-openapi.yml
+  url: https://artifacts.apis.io/xmatters/openapi/xmatters-plans-api-openapi.yml
 - filename: xmatters-scenarios-api-openapi.yml
   format: yaml
   label: xMatters Scenarios API
   slug: xmatters-scenarios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-scenarios-api-openapi.yml
+  url: https://artifacts.apis.io/xmatters/openapi/xmatters-scenarios-api-openapi.yml
 - filename: xmatters-services-api-openapi.yml
   format: yaml
   label: xMatters Services API
   slug: xmatters-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-services-api-openapi.yml
+  url: https://artifacts.apis.io/xmatters/openapi/xmatters-services-api-openapi.yml
 - filename: xmatters-shifts-api-openapi.yml
   format: yaml
   label: xMatters Shifts API
   slug: xmatters-shifts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-shifts-api-openapi.yml
+  url: https://artifacts.apis.io/xmatters/openapi/xmatters-shifts-api-openapi.yml
 - filename: xmatters-on-call-api-openapi.yml
   format: yaml
   label: xMatters On Call API
   slug: xmatters-on-call-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-on-call-api-openapi.yml
+  url: https://artifacts.apis.io/xmatters/openapi/xmatters-on-call-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -101,7 +101,7 @@ source_filename: xmatters-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.xmatters.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: help.xmatters.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: xmatters.com\n  dnssec: true\n  caa:\n  - 0 iodef \"mailto:security@xmatters.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issuewild \"pki.goog\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/security/xmatters-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/xmatters/security/xmatters-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Incident Management

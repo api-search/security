@@ -7,19 +7,19 @@ api_specs:
   label: Cleanlab Codex API
   slug: cleanlab-codex-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cleanlab/refs/heads/main/openapi/cleanlab-codex-api-openapi.yml
+  url: https://artifacts.apis.io/cleanlab/openapi/cleanlab-codex-api-openapi.yml
 - filename: cleanlab-studio-api-openapi.yml
   format: yaml
   label: Cleanlab Studio API
   slug: cleanlab-studio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cleanlab/refs/heads/main/openapi/cleanlab-studio-api-openapi.yml
+  url: https://artifacts.apis.io/cleanlab/openapi/cleanlab-studio-api-openapi.yml
 - filename: cleanlab-tlm-api-openapi.yml
   format: yaml
   label: Cleanlab TLM API
   slug: cleanlab-tlm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cleanlab/refs/heads/main/openapi/cleanlab-tlm-api-openapi.yml
+  url: https://artifacts.apis.io/cleanlab/openapi/cleanlab-tlm-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: cleanlab-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cleanlab-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Cleanlab API key (TLM / Studio) or Codex project access key, supplied as a Bearer\n    token in the Authorization header.\n  sources:\n  - openapi/cleanlab-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cleanlab/refs/heads/main/authentication/cleanlab-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cleanlab/authentication/cleanlab-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

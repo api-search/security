@@ -5,67 +5,67 @@ api_specs:
   label: Timeular Activities API
   slug: timeular-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-activities-api-openapi.yml
+  url: https://artifacts.apis.io/timeular/openapi/timeular-activities-api-openapi.yml
 - filename: timeular-authentication-api-openapi.yml
   format: yaml
   label: Timeular Authentication API
   slug: timeular-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/timeular/openapi/timeular-authentication-api-openapi.yml
 - filename: timeular-current-tracking-api-openapi.yml
   format: yaml
   label: Timeular Current Tracking API
   slug: timeular-current-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-current-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/timeular/openapi/timeular-current-tracking-api-openapi.yml
 - filename: timeular-folders-api-openapi.yml
   format: yaml
   label: Timeular Folders API
   slug: timeular-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-folders-api-openapi.yml
+  url: https://artifacts.apis.io/timeular/openapi/timeular-folders-api-openapi.yml
 - filename: timeular-leaves-api-openapi.yml
   format: yaml
   label: Timeular Leaves API
   slug: timeular-leaves-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-leaves-api-openapi.yml
+  url: https://artifacts.apis.io/timeular/openapi/timeular-leaves-api-openapi.yml
 - filename: timeular-members-api-openapi.yml
   format: yaml
   label: Timeular Members API
   slug: timeular-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-members-api-openapi.yml
+  url: https://artifacts.apis.io/timeular/openapi/timeular-members-api-openapi.yml
 - filename: timeular-reports-api-openapi.yml
   format: yaml
   label: Timeular Reports API
   slug: timeular-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-reports-api-openapi.yml
+  url: https://artifacts.apis.io/timeular/openapi/timeular-reports-api-openapi.yml
 - filename: timeular-tags-mentions-api-openapi.yml
   format: yaml
   label: Timeular Tags & Mentions API
   slug: timeular-tags-mentions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-tags-mentions-api-openapi.yml
+  url: https://artifacts.apis.io/timeular/openapi/timeular-tags-mentions-api-openapi.yml
 - filename: timeular-time-entries-api-openapi.yml
   format: yaml
   label: Timeular Time Entries API
   slug: timeular-time-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-time-entries-api-openapi.yml
+  url: https://artifacts.apis.io/timeular/openapi/timeular-time-entries-api-openapi.yml
 - filename: timeular-users-api-openapi.yml
   format: yaml
   label: Timeular Users API
   slug: timeular-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-users-api-openapi.yml
+  url: https://artifacts.apis.io/timeular/openapi/timeular-users-api-openapi.yml
 - filename: timeular-webhooks-api-openapi.yml
   format: yaml
   label: Timeular Webhooks API
   slug: timeular-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/timeular/openapi/timeular-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -106,7 +106,7 @@ source_filename: timeular-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: early.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 14:46:17 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.early.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 09:55:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.early.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 12 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: early.app\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/security/timeular-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/timeular/security/timeular-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

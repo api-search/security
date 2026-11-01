@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: horoscope-api-horoscope-api-openapi.yml
+- filename: horoscope-api-calendar-api-openapi.yml
   format: yaml
-  label: Horoscope API Horoscope API
-  slug: horoscope-api-horoscope-api
+  label: Horoscope API Calendar API
+  slug: horoscope-api-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horoscope-api/refs/heads/main/openapi/horoscope-api-horoscope-api-openapi.yml
+  url: https://artifacts.apis.io/horoscope-api/openapi/horoscope-api-calendar-api-openapi.yml
+- filename: horoscope-api-horoscopes-api-openapi.yml
+  format: yaml
+  label: Horoscope API Horoscopes API
+  slug: horoscope-api-horoscopes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/horoscope-api/openapi/horoscope-api-horoscopes-api-openapi.yml
+- filename: horoscope-api-planetary-data-api-openapi.yml
+  format: yaml
+  label: Horoscope API Planetary data API
+  slug: horoscope-api-planetary-data-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/horoscope-api/openapi/horoscope-api-planetary-data-api-openapi.yml
+- filename: horoscope-api-tarot-api-openapi.yml
+  format: yaml
+  label: Horoscope API Tarot API
+  slug: horoscope-api-tarot-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/horoscope-api/openapi/horoscope-api-tarot-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -33,7 +51,7 @@ source_filename: horoscope-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: freehoroscopeapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 05:42:44 2026 GMT\n  hsts: false\ndomains:\n- domain: freehoroscopeapi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/horoscope-api/refs/heads/main/security/horoscope-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/horoscope-api/security/horoscope-api-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Astrology

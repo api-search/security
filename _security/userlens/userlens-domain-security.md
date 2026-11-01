@@ -5,7 +5,7 @@ api_specs:
   label: Userlens Events API
   slug: userlens-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/userlens/refs/heads/main/openapi/userlens-events-api-openapi.yml
+  url: https://artifacts.apis.io/userlens/openapi/userlens-events-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: userlens-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: userlens.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 18:53:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: userlens.gitbook.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 19:03:12 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: events.userlens.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 08:29:27 2026 GMT\n  hsts: null\ndomains:\n- domain: userlens.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: gitbook.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/userlens/refs/heads/main/security/userlens-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/userlens/security/userlens-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

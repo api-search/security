@@ -5,55 +5,55 @@ api_specs:
   label: Signal Accounts API
   slug: signal-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/signal/openapi/signal-accounts-api-openapi.yml
 - filename: signal-attachments-api-openapi.yml
   format: yaml
   label: Signal Attachments API
   slug: signal-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/signal/openapi/signal-attachments-api-openapi.yml
 - filename: signal-certificates-api-openapi.yml
   format: yaml
   label: Signal Certificates API
   slug: signal-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/signal/openapi/signal-certificates-api-openapi.yml
 - filename: signal-devices-api-openapi.yml
   format: yaml
   label: Signal Devices API
   slug: signal-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-devices-api-openapi.yml
+  url: https://artifacts.apis.io/signal/openapi/signal-devices-api-openapi.yml
 - filename: signal-keys-api-openapi.yml
   format: yaml
   label: Signal Keys API
   slug: signal-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-keys-api-openapi.yml
+  url: https://artifacts.apis.io/signal/openapi/signal-keys-api-openapi.yml
 - filename: signal-messages-api-openapi.yml
   format: yaml
   label: Signal Messages API
   slug: signal-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-messages-api-openapi.yml
+  url: https://artifacts.apis.io/signal/openapi/signal-messages-api-openapi.yml
 - filename: signal-profiles-api-openapi.yml
   format: yaml
   label: Signal Profiles API
   slug: signal-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/signal/openapi/signal-profiles-api-openapi.yml
 - filename: signal-registration-api-openapi.yml
   format: yaml
   label: Signal Registration API
   slug: signal-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-registration-api-openapi.yml
+  url: https://artifacts.apis.io/signal/openapi/signal-registration-api-openapi.yml
 - filename: signal-stickers-api-openapi.yml
   format: yaml
   label: Signal Stickers API
   slug: signal-stickers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-stickers-api-openapi.yml
+  url: https://artifacts.apis.io/signal/openapi/signal-stickers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -86,7 +86,7 @@ source_filename: signal-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: signal.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 17:16:42 2026 GMT\n  hsts: false\n- host: chat.signal.org\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get\n    local issuer certificate (_ssl.c:1082)'\n  hsts: null\ndomains:\n- domain: signal.org\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/security/signal-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/signal/security/signal-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Encryption

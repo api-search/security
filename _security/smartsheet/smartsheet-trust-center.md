@@ -5,31 +5,31 @@ api_specs:
   label: Smartsheet Columns API
   slug: smartsheet-columns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-columns-api-openapi.yml
+  url: https://artifacts.apis.io/smartsheet/openapi/smartsheet-columns-api-openapi.yml
 - filename: smartsheet-reports-api-openapi.yml
   format: yaml
   label: Smartsheet Reports API
   slug: smartsheet-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-reports-api-openapi.yml
+  url: https://artifacts.apis.io/smartsheet/openapi/smartsheet-reports-api-openapi.yml
 - filename: smartsheet-rows-api-openapi.yml
   format: yaml
   label: Smartsheet Rows API
   slug: smartsheet-rows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-rows-api-openapi.yml
+  url: https://artifacts.apis.io/smartsheet/openapi/smartsheet-rows-api-openapi.yml
 - filename: smartsheet-sheets-api-openapi.yml
   format: yaml
   label: Smartsheet Sheets API
   slug: smartsheet-sheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-sheets-api-openapi.yml
+  url: https://artifacts.apis.io/smartsheet/openapi/smartsheet-sheets-api-openapi.yml
 - filename: smartsheet-webhooks-api-openapi.yml
   format: yaml
   label: Smartsheet Webhooks API
   slug: smartsheet-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/smartsheet/openapi/smartsheet-webhooks-api-openapi.yml
 certification_count: 2
 certifications:
 - HIPAA
@@ -47,7 +47,7 @@ source_filename: smartsheet-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.smartsheet.com/trust\nurl: https://www.smartsheet.com/trust\ncertifications:\n- HIPAA\n- FedRAMP\nevidence:\n- source: https://www.smartsheet.com/trust\n  keywords:\n  - hipaa\n  - fedramp\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/security/smartsheet-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/smartsheet/security/smartsheet-trust-center.yml
 summary_line: HIPAA, FedRAMP
 tags:
 - Work Management

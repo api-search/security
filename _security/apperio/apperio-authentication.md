@@ -8,31 +8,31 @@ api_specs:
   label: Apperio Analytics API
   slug: apperio-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/openapi/apperio-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/apperio/openapi/apperio-analytics-api-openapi.yml
 - filename: apperio-e-billing-api-openapi.yml
   format: yaml
   label: Apperio E-billing API
   slug: apperio-e-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/openapi/apperio-e-billing-api-openapi.yml
+  url: https://artifacts.apis.io/apperio/openapi/apperio-e-billing-api-openapi.yml
 - filename: apperio-filter-api-openapi.yml
   format: yaml
   label: Apperio Filter API
   slug: apperio-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/openapi/apperio-filter-api-openapi.yml
+  url: https://artifacts.apis.io/apperio/openapi/apperio-filter-api-openapi.yml
 - filename: apperio-matter-information-api-openapi.yml
   format: yaml
   label: Apperio Matter information API
   slug: apperio-matter-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/openapi/apperio-matter-information-api-openapi.yml
+  url: https://artifacts.apis.io/apperio/openapi/apperio-matter-information-api-openapi.yml
 - filename: apperio-users-api-openapi.yml
   format: yaml
   label: Apperio Users API
   slug: apperio-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/openapi/apperio-users-api-openapi.yml
+  url: https://artifacts.apis.io/apperio/openapi/apperio-users-api-openapi.yml
 auth_types:
 - apiKey
 description: Apperio authenticates every API request with a user-scoped API token supplied in the HTTP Authorization header using the "Token" scheme. The OpenAPI does not declare a securityScheme, so this profile is captured from the published docs.
@@ -64,13 +64,12 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://developer.apperio.com/ — Authentication section of the Apperio API Documentation\ndocs: https://developer.apperio.com/\ndescription: >-\n  Apperio authenticates every API request with a user-scoped API token supplied\n  in the HTTP Authorization header using the \"Token\" scheme. The OpenAPI does not\n  declare a securityScheme, so this profile is captured from the published docs.\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  oauth2_flows: []\nschemes:\n  - name: ApiToken\n    type: apiKey\n    in: header\n    parameter: Authorization\n    format: 'Authorization: Token <TOKEN VALUE>'\n    scope: >-\n      A token carries all capabilities of the user who created it (business or\n      law-firm side). Apperio recommends least-privilege service accounts and\n      cycling the key at least every 12 months.\n    provisioning: >-\n      Create an API Key from the profile page in the Apperio application; contact\n\
   \      Customer Success to enable API access on the account.\n    management: >-\n      Tokens are self-managed via the Users endpoints\n      (GET/POST /api/v1/users/tokens/, DELETE /api/v1/users/tokens/{token-id}/,\n      PUT /api/v1/users/tokens/{token-id}/status/). Apperio cannot recover a lost\n      token; a new one must be generated.\n    sources: [openapi/apperio-openapi-original.yml]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/authentication/apperio-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apperio/authentication/apperio-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Legal
-- Legal Spend Management
-- Legal Tech
 - E-Billing
+- Legal Tech
 - Matter Management
 - Legal Operations
 - Analytics

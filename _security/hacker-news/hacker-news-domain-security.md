@@ -5,25 +5,25 @@ api_specs:
   label: Hacker News Items API
   slug: hacker-news-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacker-news/refs/heads/main/openapi/hacker-news-items-api-openapi.yml
+  url: https://artifacts.apis.io/hacker-news/openapi/hacker-news-items-api-openapi.yml
 - filename: hacker-news-lists-api-openapi.yml
   format: yaml
   label: Hacker News Lists API
   slug: hacker-news-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacker-news/refs/heads/main/openapi/hacker-news-lists-api-openapi.yml
+  url: https://artifacts.apis.io/hacker-news/openapi/hacker-news-lists-api-openapi.yml
 - filename: hacker-news-live-api-openapi.yml
   format: yaml
   label: Hacker News Live API
   slug: hacker-news-live-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacker-news/refs/heads/main/openapi/hacker-news-live-api-openapi.yml
+  url: https://artifacts.apis.io/hacker-news/openapi/hacker-news-live-api-openapi.yml
 - filename: hacker-news-users-api-openapi.yml
   format: yaml
   label: Hacker News Users API
   slug: hacker-news-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacker-news/refs/heads/main/openapi/hacker-news-users-api-openapi.yml
+  url: https://artifacts.apis.io/hacker-news/openapi/hacker-news-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,7 +62,7 @@ source_filename: hacker-news-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: news.ycombinator.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 08:05:33 2026 GMT\n  hsts: null\n- host: hacker-news.firebaseio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 15:01:46 2026 GMT\n  hsts: null\ndomains:\n- domain: ycombinator.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: firebaseio.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hacker-news/refs/heads/main/security/hacker-news-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hacker-news/security/hacker-news-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Developer Community

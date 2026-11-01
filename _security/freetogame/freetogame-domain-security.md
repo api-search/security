@@ -5,7 +5,7 @@ api_specs:
   label: FreeToGame Games API
   slug: freetogame-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freetogame/refs/heads/main/openapi/freetogame-games-api-openapi.yml
+  url: https://artifacts.apis.io/freetogame/openapi/freetogame-games-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -34,7 +34,7 @@ source_filename: freetogame-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.freetogame.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 05:05:28 2026 GMT\n  hsts: null\ndomains:\n- domain: freetogame.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freetogame/refs/heads/main/security/freetogame-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/freetogame/security/freetogame-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Games

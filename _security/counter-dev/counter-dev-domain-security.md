@@ -5,19 +5,19 @@ api_specs:
   label: Counter Account API
   slug: counter-dev-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/counter-dev/refs/heads/main/openapi/counter-dev-account-api-openapi.yml
+  url: https://artifacts.apis.io/counter-dev/openapi/counter-dev-account-api-openapi.yml
 - filename: counter-dev-stats-api-openapi.yml
   format: yaml
   label: Counter Stats API
   slug: counter-dev-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/counter-dev/refs/heads/main/openapi/counter-dev-stats-api-openapi.yml
+  url: https://artifacts.apis.io/counter-dev/openapi/counter-dev-stats-api-openapi.yml
 - filename: counter-dev-tracking-api-openapi.yml
   format: yaml
   label: Counter Tracking API
   slug: counter-dev-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/counter-dev/refs/heads/main/openapi/counter-dev-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/counter-dev/openapi/counter-dev-tracking-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: counter-dev-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: counter.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 17:30:52 2026 GMT\n  hsts: false\n- host: t.counter.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 17:30:52 2026 GMT\n  hsts: null\ndomains:\n- domain: counter.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/counter-dev/refs/heads/main/security/counter-dev-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/counter-dev/security/counter-dev-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Web Analytics

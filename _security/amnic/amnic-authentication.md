@@ -8,7 +8,7 @@ api_specs:
   label: Amnic Cost Analyzer API
   slug: amnic-cost-analyzer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amnic/refs/heads/main/openapi/amnic-cost-analyzer-api-openapi.yml
+  url: https://artifacts.apis.io/amnic/openapi/amnic-cost-analyzer-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: amnic-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amnic-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: API key for authenticating requests to the Amnic API. Obtain your API key from\n    the Amnic dashboard.\n  sources:\n  - openapi/amnic-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amnic/refs/heads/main/authentication/amnic-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amnic/authentication/amnic-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Cloud Cost Observability

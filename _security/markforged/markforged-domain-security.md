@@ -5,37 +5,37 @@ api_specs:
   label: Markforged Builds API
   slug: markforged-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/openapi/markforged-builds-api-openapi.yml
+  url: https://artifacts.apis.io/markforged/openapi/markforged-builds-api-openapi.yml
 - filename: markforged-devices-api-openapi.yml
   format: yaml
   label: Markforged Devices API
   slug: markforged-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/openapi/markforged-devices-api-openapi.yml
+  url: https://artifacts.apis.io/markforged/openapi/markforged-devices-api-openapi.yml
 - filename: markforged-organizations-api-openapi.yml
   format: yaml
   label: Markforged Organizations API
   slug: markforged-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/openapi/markforged-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/markforged/openapi/markforged-organizations-api-openapi.yml
 - filename: markforged-parts-api-openapi.yml
   format: yaml
   label: Markforged Parts API
   slug: markforged-parts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/openapi/markforged-parts-api-openapi.yml
+  url: https://artifacts.apis.io/markforged/openapi/markforged-parts-api-openapi.yml
 - filename: markforged-print-jobs-api-openapi.yml
   format: yaml
   label: Markforged Print Jobs API
   slug: markforged-print-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/openapi/markforged-print-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/markforged/openapi/markforged-print-jobs-api-openapi.yml
 - filename: markforged-printed-parts-api-openapi.yml
   format: yaml
   label: Markforged Printed Parts API
   slug: markforged-printed-parts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/openapi/markforged-printed-parts-api-openapi.yml
+  url: https://artifacts.apis.io/markforged/openapi/markforged-printed-parts-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -84,7 +84,7 @@ source_filename: markforged-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: markforged.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 30 23:59:59 2027 GMT\n  hsts: null\n- host: www.eiger.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  5 15:34:19 2027 GMT\n  hsts: null\ndomains:\n- domain: markforged.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 iodef \"mailto:devops+caa@markforged.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: eiger.io\n  dnssec: false\n  caa:\n  - 0 issue \"starfieldtech.com\"\n  - 0 iodef \"mailto:devops+caa@markforged.com\"\n  - 0 issue \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/security/markforged-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/markforged/security/markforged-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - 3D Printing

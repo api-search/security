@@ -8,7 +8,25 @@ api_specs:
   label: Amazon WorkSpaces Amazon WorkSpaces API
   slug: amazon-workspaces-amazon-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-amazon-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-workspaces/openapi/amazon-workspaces-amazon-workspaces-api-openapi.yml
+- filename: amazon-workspaces-account-link-invitation-api-openapi.yml
+  format: yaml
+  label: Amazon WorkSpaces Workspaces Account Link Invitation API
+  slug: amazon-workspaces-account-link-invitation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-workspaces/openapi/amazon-workspaces-account-link-invitation-api-openapi.yml
+- filename: amazon-workspaces-operations-api-openapi.yml
+  format: yaml
+  label: Amazon WorkSpaces Workspaces Operations API
+  slug: amazon-workspaces-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-workspaces/openapi/amazon-workspaces-operations-api-openapi.yml
+- filename: amazon-workspaces-workspaces-pool-api-openapi.yml
+  format: yaml
+  label: Amazon WorkSpaces Workspaces Workspaces Pool API
+  slug: amazon-workspaces-workspaces-pool-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-workspaces/openapi/amazon-workspaces-workspaces-pool-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +54,7 @@ source_filename: amazon-workspaces-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-workspaces-openapi-original.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-workspaces-openapi-original.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/authentication/amazon-workspaces-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-workspaces/authentication/amazon-workspaces-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Desktop

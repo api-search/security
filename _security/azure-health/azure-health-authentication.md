@@ -7,79 +7,79 @@ api_specs:
   label: Microsoft Azure Health Data Services Collection API
   slug: azure-health-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/openapi/azure-health-collection-api-openapi.yml
+  url: https://artifacts.apis.io/azure-health/openapi/azure-health-collection-api-openapi.yml
 - filename: azure-health-deid-api-openapi.yml
   format: yaml
   label: Microsoft Azure Health Data Services Deid API
   slug: azure-health-deid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/openapi/azure-health-deid-api-openapi.yml
+  url: https://artifacts.apis.io/azure-health/openapi/azure-health-deid-api-openapi.yml
 - filename: azure-health-dicomservices-api-openapi.yml
   format: yaml
   label: Microsoft Azure Health Data Services DicomServices API
   slug: azure-health-dicomservices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/openapi/azure-health-dicomservices-api-openapi.yml
+  url: https://artifacts.apis.io/azure-health/openapi/azure-health-dicomservices-api-openapi.yml
 - filename: azure-health-fhirservices-api-openapi.yml
   format: yaml
   label: Microsoft Azure Health Data Services FhirServices API
   slug: azure-health-fhirservices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/openapi/azure-health-fhirservices-api-openapi.yml
+  url: https://artifacts.apis.io/azure-health/openapi/azure-health-fhirservices-api-openapi.yml
 - filename: azure-health-iotconnectors-api-openapi.yml
   format: yaml
   label: Microsoft Azure Health Data Services IotConnectors API
   slug: azure-health-iotconnectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/openapi/azure-health-iotconnectors-api-openapi.yml
+  url: https://artifacts.apis.io/azure-health/openapi/azure-health-iotconnectors-api-openapi.yml
 - filename: azure-health-jobs-api-openapi.yml
   format: yaml
   label: Microsoft Azure Health Data Services Jobs API
   slug: azure-health-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/openapi/azure-health-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/azure-health/openapi/azure-health-jobs-api-openapi.yml
 - filename: azure-health-privatelinkresources-api-openapi.yml
   format: yaml
   label: Microsoft Azure Health Data Services PrivateLinkResources API
   slug: azure-health-privatelinkresources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/openapi/azure-health-privatelinkresources-api-openapi.yml
+  url: https://artifacts.apis.io/azure-health/openapi/azure-health-privatelinkresources-api-openapi.yml
 - filename: azure-health-proxy-api-openapi.yml
   format: yaml
   label: Microsoft Azure Health Data Services Proxy API
   slug: azure-health-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/openapi/azure-health-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/azure-health/openapi/azure-health-proxy-api-openapi.yml
 - filename: azure-health-resource-api-openapi.yml
   format: yaml
   label: Microsoft Azure Health Data Services Resource API
   slug: azure-health-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/openapi/azure-health-resource-api-openapi.yml
+  url: https://artifacts.apis.io/azure-health/openapi/azure-health-resource-api-openapi.yml
 - filename: azure-health-workspaceprivateendpointconnections-api-openapi.yml
   format: yaml
   label: Microsoft Azure Health Data Services WorkspacePrivateEndpointConnections API
   slug: azure-health-workspaceprivateendpointconnections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/openapi/azure-health-workspaceprivateendpointconnections-api-openapi.yml
+  url: https://artifacts.apis.io/azure-health/openapi/azure-health-workspaceprivateendpointconnections-api-openapi.yml
 - filename: azure-health-workspaceprivatelinkresources-api-openapi.yml
   format: yaml
   label: Microsoft Azure Health Data Services WorkspacePrivateLinkResources API
   slug: azure-health-workspaceprivatelinkresources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/openapi/azure-health-workspaceprivatelinkresources-api-openapi.yml
+  url: https://artifacts.apis.io/azure-health/openapi/azure-health-workspaceprivatelinkresources-api-openapi.yml
 - filename: azure-health-workspaces-api-openapi.yml
   format: yaml
   label: Microsoft Azure Health Data Services Workspaces API
   slug: azure-health-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/openapi/azure-health-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/azure-health/openapi/azure-health-workspaces-api-openapi.yml
 - filename: azure-health-private-endpoint-connections-api-openapi.yml
   format: yaml
   label: Microsoft Azure Health Data Services Private Endpoint Connections API
   slug: azure-health-private-endpoint-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/openapi/azure-health-private-endpoint-connections-api-openapi.yml
+  url: https://artifacts.apis.io/azure-health/openapi/azure-health-private-endpoint-connections-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -121,7 +121,7 @@ source_filename: azure-health-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/health-data-ai-deid-2024-11-15.json, openapi/healthcare-apis-2024-03-31.json\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - implicit\nschemes:\n- name: AadToken\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/token\n    scopes: 1\n  description: The Azure Active Directory OAuth2 Flow\n  sources:\n  - openapi/health-data-ai-deid-2024-11-15.json\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  description: Azure Active Directory OAuth2 Flow\n  sources:\n  - openapi/healthcare-apis-2024-03-31.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/authentication/azure-health-authentication.yml
+source_yaml_url: https://artifacts.apis.io/azure-health/authentication/azure-health-authentication.yml
 summary_line: oauth2 · 2 schemes
 tags:
 - Healthcare

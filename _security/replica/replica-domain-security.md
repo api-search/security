@@ -58,7 +58,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.replicahq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 13:31:47 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: documentation.replicahq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 18:16:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  note: ReadMe.io-hosted data documentation\n- host: help.replicahq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 19:12:40 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n  hsts_include_subdomains: true\n  hsts_preload: true\n  note: Intercom-hosted help center\n- host: studio.replicahq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 04:32:06 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  note: Replica Studio application (authenticated)\n- host: api.studio.replicahq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires:\
   \ Sep 16 02:23:41 2026 GMT\n  hsts: false\n  note: private session-authenticated backend for Replica Studio; not a published\n    developer API\ndomains:\n- domain: replicahq.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/replica/refs/heads/main/security/replica-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/replica/security/replica-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

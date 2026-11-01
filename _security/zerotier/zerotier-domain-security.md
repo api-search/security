@@ -5,49 +5,49 @@ api_specs:
   label: ZeroTier Controller API
   slug: zerotier-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/openapi/zerotier-controller-api-openapi.yml
+  url: https://artifacts.apis.io/zerotier/openapi/zerotier-controller-api-openapi.yml
 - filename: zerotier-network-api-openapi.yml
   format: yaml
   label: ZeroTier Network API
   slug: zerotier-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/openapi/zerotier-network-api-openapi.yml
+  url: https://artifacts.apis.io/zerotier/openapi/zerotier-network-api-openapi.yml
 - filename: zerotier-network-member-api-openapi.yml
   format: yaml
   label: ZeroTier Network Member API
   slug: zerotier-network-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/openapi/zerotier-network-member-api-openapi.yml
+  url: https://artifacts.apis.io/zerotier/openapi/zerotier-network-member-api-openapi.yml
 - filename: zerotier-organizations-api-openapi.yml
   format: yaml
   label: ZeroTier Organizations API
   slug: zerotier-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/openapi/zerotier-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/zerotier/openapi/zerotier-organizations-api-openapi.yml
 - filename: zerotier-peer-api-openapi.yml
   format: yaml
   label: ZeroTier Peer API
   slug: zerotier-peer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/openapi/zerotier-peer-api-openapi.yml
+  url: https://artifacts.apis.io/zerotier/openapi/zerotier-peer-api-openapi.yml
 - filename: zerotier-status-api-openapi.yml
   format: yaml
   label: ZeroTier Status API
   slug: zerotier-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/openapi/zerotier-status-api-openapi.yml
+  url: https://artifacts.apis.io/zerotier/openapi/zerotier-status-api-openapi.yml
 - filename: zerotier-user-api-openapi.yml
   format: yaml
   label: ZeroTier User API
   slug: zerotier-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/openapi/zerotier-user-api-openapi.yml
+  url: https://artifacts.apis.io/zerotier/openapi/zerotier-user-api-openapi.yml
 - filename: zerotier-util-api-openapi.yml
   format: yaml
   label: ZeroTier Util API
   slug: zerotier-util-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/openapi/zerotier-util-api-openapi.yml
+  url: https://artifacts.apis.io/zerotier/openapi/zerotier-util-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -86,7 +86,7 @@ source_filename: zerotier-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.zerotier.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 03:04:13 2026 GMT\n  hsts: false\n- host: docs.zerotier.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 15:38:51 2026 GMT\n  hsts: false\n- host: api.zerotier.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 16:00:55 2026 GMT\n  hsts: null\ndomains:\n- domain: zerotier.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/security/zerotier-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zerotier/security/zerotier-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

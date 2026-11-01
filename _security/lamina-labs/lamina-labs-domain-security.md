@@ -42,7 +42,7 @@ source_filename: lamina-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.laminalabs.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 18:25:48 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: app.laminalabs.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 10:49:45 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.laminalabs.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 21:08:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  hsts_note: Recorded from a direct curl HEAD/GET; the mechanical probe returned null\n    because the host answers 401 on every unmatched path.\ndomains:\n- domain: laminalabs.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lamina-labs/refs/heads/main/security/lamina-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lamina-labs/security/lamina-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

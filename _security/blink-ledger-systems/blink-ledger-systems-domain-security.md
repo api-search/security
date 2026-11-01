@@ -5,19 +5,19 @@ api_specs:
   label: Blink Ledger Systems Authentication API
   slug: blink-ledger-systems-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/openapi/blink-ledger-systems-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/blink-ledger-systems/openapi/blink-ledger-systems-authentication-api-openapi.yml
 - filename: blink-ledger-systems-oauth-applications-api-openapi.yml
   format: yaml
   label: Blink Ledger Systems OAuth Applications API
   slug: blink-ledger-systems-oauth-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/openapi/blink-ledger-systems-oauth-applications-api-openapi.yml
+  url: https://artifacts.apis.io/blink-ledger-systems/openapi/blink-ledger-systems-oauth-applications-api-openapi.yml
 - filename: blink-ledger-systems-users-api-openapi.yml
   format: yaml
   label: Blink Ledger Systems Users API
   slug: blink-ledger-systems-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/openapi/blink-ledger-systems-users-api-openapi.yml
+  url: https://artifacts.apis.io/blink-ledger-systems/openapi/blink-ledger-systems-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -55,7 +55,7 @@ source_filename: blink-ledger-systems-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: blink.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 28 23:59:59 2027 GMT\n  hsts: false\n- host: docs.blink.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 28 23:59:59 2027 GMT\n  hsts: false\n- host: api.blink.net\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar 31 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: blink.net\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/security/blink-ledger-systems-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/blink-ledger-systems/security/blink-ledger-systems-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

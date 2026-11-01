@@ -7,31 +7,31 @@ api_specs:
   label: Zuva Classification API
   slug: zuva-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuva/refs/heads/main/openapi/zuva-classification-api-openapi.yml
+  url: https://artifacts.apis.io/zuva/openapi/zuva-classification-api-openapi.yml
 - filename: zuva-field-extraction-api-openapi.yml
   format: yaml
   label: Zuva Field Extraction API
   slug: zuva-field-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuva/refs/heads/main/openapi/zuva-field-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/zuva/openapi/zuva-field-extraction-api-openapi.yml
 - filename: zuva-fields-api-openapi.yml
   format: yaml
   label: Zuva Fields API
   slug: zuva-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuva/refs/heads/main/openapi/zuva-fields-api-openapi.yml
+  url: https://artifacts.apis.io/zuva/openapi/zuva-fields-api-openapi.yml
 - filename: zuva-files-api-openapi.yml
   format: yaml
   label: Zuva Files API
   slug: zuva-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuva/refs/heads/main/openapi/zuva-files-api-openapi.yml
+  url: https://artifacts.apis.io/zuva/openapi/zuva-files-api-openapi.yml
 - filename: zuva-ocr-api-openapi.yml
   format: yaml
   label: Zuva OCR API
   slug: zuva-ocr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuva/refs/heads/main/openapi/zuva-ocr-api-openapi.yml
+  url: https://artifacts.apis.io/zuva/openapi/zuva-ocr-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: zuva-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/zuva-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Zuva API token passed in the Authorization header as `Authorization: Bearer\n    <token>`.'\n  sources:\n  - openapi/zuva-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zuva/refs/heads/main/authentication/zuva-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zuva/authentication/zuva-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

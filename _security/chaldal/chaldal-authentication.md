@@ -8,31 +8,31 @@ api_specs:
   label: Chaldal Accounts API
   slug: chaldal-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaldal/refs/heads/main/openapi/chaldal-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/chaldal/openapi/chaldal-accounts-api-openapi.yml
 - filename: chaldal-heartbeat-api-openapi.yml
   format: yaml
   label: Chaldal Heartbeat API
   slug: chaldal-heartbeat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaldal/refs/heads/main/openapi/chaldal-heartbeat-api-openapi.yml
+  url: https://artifacts.apis.io/chaldal/openapi/chaldal-heartbeat-api-openapi.yml
 - filename: chaldal-identity-api-openapi.yml
   format: yaml
   label: Chaldal Identity API
   slug: chaldal-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaldal/refs/heads/main/openapi/chaldal-identity-api-openapi.yml
+  url: https://artifacts.apis.io/chaldal/openapi/chaldal-identity-api-openapi.yml
 - filename: chaldal-organization-api-openapi.yml
   format: yaml
   label: Chaldal Organization API
   slug: chaldal-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaldal/refs/heads/main/openapi/chaldal-organization-api-openapi.yml
+  url: https://artifacts.apis.io/chaldal/openapi/chaldal-organization-api-openapi.yml
 - filename: chaldal-task-api-openapi.yml
   format: yaml
   label: Chaldal Task API
   slug: chaldal-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaldal/refs/heads/main/openapi/chaldal-task-api-openapi.yml
+  url: https://artifacts.apis.io/chaldal/openapi/chaldal-task-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -68,7 +68,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://gogobangla.com/static/api-docs/\ndocs: https://gogobangla.com/static/api-docs/\nnote: >-\n  The Egg Transport (Gogo Bangla) API uses header-based API-key authentication. Two secret\n  values must be sent on every request: the API key as X-Egg-ApiKey and the User Id as\n  X-Egg-UserId. The OpenAPI document itself declares no securitySchemes, so this profile is\n  captured from the published API reference rather than derived from the spec. Credentials are\n  issued on request by contacting tech@chaldal.com.\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  oauth2_flows: []\nschemes:\n- name: X-Egg-ApiKey\n  type: apiKey\n  in: header\n  parameter_name: X-Egg-ApiKey\n  description: Secret API key issued to the organization.\n  sources:\n  - https://gogobangla.com/static/api-docs/\n- name: X-Egg-UserId\n  type: apiKey\n  in: header\n  parameter_name: X-Egg-UserId\n  description: User Id paired with the API key.\n\
   \  sources:\n  - https://gogobangla.com/static/api-docs/\nexample: >-\n  curl 'https://eggtransport.chaldal.com/api/Organization/GetOrgPickupPoints'\n  -H 'Accept: application/json'\n  -H 'X-Egg-ApiKey: 00000000-0000-0000-0000-000000000000'\n  -H 'X-Egg-UserId: 00000000-0000-0000-0000-000000000000'\ncredentials_contact: tech@chaldal.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chaldal/refs/heads/main/authentication/chaldal-authentication.yml
+source_yaml_url: https://artifacts.apis.io/chaldal/authentication/chaldal-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company

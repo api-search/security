@@ -5,49 +5,49 @@ api_specs:
   label: HackNotice Alerts API
   slug: hacknotice-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/openapi/hacknotice-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/hacknotice/openapi/hacknotice-alerts-api-openapi.yml
 - filename: hacknotice-all-business-accounts-api-openapi.yml
   format: yaml
   label: HackNotice All Business Accounts API
   slug: hacknotice-all-business-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/openapi/hacknotice-all-business-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/hacknotice/openapi/hacknotice-all-business-accounts-api-openapi.yml
 - filename: hacknotice-calc-endpoints-api-openapi.yml
   format: yaml
   label: HackNotice Calc endpoints API
   slug: hacknotice-calc-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/openapi/hacknotice-calc-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/hacknotice/openapi/hacknotice-calc-endpoints-api-openapi.yml
 - filename: hacknotice-deprecated-api-openapi.yml
   format: yaml
   label: HackNotice Deprecated API
   slug: hacknotice-deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/openapi/hacknotice-deprecated-api-openapi.yml
+  url: https://artifacts.apis.io/hacknotice/openapi/hacknotice-deprecated-api-openapi.yml
 - filename: hacknotice-domain-business-accounts-api-openapi.yml
   format: yaml
   label: HackNotice Domain Business Accounts API
   slug: hacknotice-domain-business-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/openapi/hacknotice-domain-business-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/hacknotice/openapi/hacknotice-domain-business-accounts-api-openapi.yml
 - filename: hacknotice-enduser-business-accounts-api-openapi.yml
   format: yaml
   label: HackNotice Enduser Business Accounts API
   slug: hacknotice-enduser-business-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/openapi/hacknotice-enduser-business-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/hacknotice/openapi/hacknotice-enduser-business-accounts-api-openapi.yml
 - filename: hacknotice-research-service-accounts-api-openapi.yml
   format: yaml
   label: HackNotice Research Service Accounts API
   slug: hacknotice-research-service-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/openapi/hacknotice-research-service-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/hacknotice/openapi/hacknotice-research-service-accounts-api-openapi.yml
 - filename: hacknotice-third-party-accounts-api-openapi.yml
   format: yaml
   label: HackNotice Third Party Accounts API
   slug: hacknotice-third-party-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/openapi/hacknotice-third-party-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/hacknotice/openapi/hacknotice-third-party-accounts-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ source_filename: hacknotice-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: hacknotice.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 22:11:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api-docs.hacknotice.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 22:11:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: extensionapi.hacknotice.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 14 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: hacknotice.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/security/hacknotice-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hacknotice/security/hacknotice-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

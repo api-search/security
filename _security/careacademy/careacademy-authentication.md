@@ -7,31 +7,31 @@ api_specs:
   label: CareAcademy Compliance Report API
   slug: careacademy-compliance-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/openapi/careacademy-compliance-report-api-openapi.yml
+  url: https://artifacts.apis.io/careacademy/openapi/careacademy-compliance-report-api-openapi.yml
 - filename: careacademy-locations-api-openapi.yml
   format: yaml
   label: CareAcademy Locations API
   slug: careacademy-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/openapi/careacademy-locations-api-openapi.yml
+  url: https://artifacts.apis.io/careacademy/openapi/careacademy-locations-api-openapi.yml
 - filename: careacademy-organizations-api-openapi.yml
   format: yaml
   label: CareAcademy Organizations API
   slug: careacademy-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/openapi/careacademy-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/careacademy/openapi/careacademy-organizations-api-openapi.yml
 - filename: careacademy-practitioners-api-openapi.yml
   format: yaml
   label: CareAcademy Practitioners API
   slug: careacademy-practitioners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/openapi/careacademy-practitioners-api-openapi.yml
+  url: https://artifacts.apis.io/careacademy/openapi/careacademy-practitioners-api-openapi.yml
 - filename: careacademy-sign-in-url-api-openapi.yml
   format: yaml
   label: CareAcademy Sign In Url API
   slug: careacademy-sign-in-url-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/openapi/careacademy-sign-in-url-api-openapi.yml
+  url: https://artifacts.apis.io/careacademy/openapi/careacademy-sign-in-url-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -57,7 +57,7 @@ source_filename: careacademy-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/careacademy-openapi-original.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/careacademy-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/authentication/careacademy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/careacademy/authentication/careacademy-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company
@@ -65,7 +65,6 @@ tags:
 - Education
 - Compliance
 - Home Care
-- Home Health
 - Hospice
 - Senior Living
 - Healthcare

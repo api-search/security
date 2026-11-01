@@ -7,19 +7,19 @@ api_specs:
   label: TRM Labs Reports API
   slug: trm-labs-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/heads/main/openapi/trm-labs-reports-api-openapi.yml
+  url: https://artifacts.apis.io/trm-labs/openapi/trm-labs-reports-api-openapi.yml
 - filename: trm-labs-sanctions-api-openapi.yml
   format: yaml
   label: TRM Labs Sanctions API
   slug: trm-labs-sanctions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/heads/main/openapi/trm-labs-sanctions-api-openapi.yml
+  url: https://artifacts.apis.io/trm-labs/openapi/trm-labs-sanctions-api-openapi.yml
 - filename: trm-labs-sanctions-screening-api-openapi.yml
   format: yaml
   label: TRM Labs Sanctions Screening API
   slug: trm-labs-sanctions-screening-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/heads/main/openapi/trm-labs-sanctions-screening-api-openapi.yml
+  url: https://artifacts.apis.io/trm-labs/openapi/trm-labs-sanctions-screening-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -55,7 +55,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://docs.trmlabs.com/guides/chainabuse/getting-started\ndocs: https://docs.trmlabs.com/guides/chainabuse/getting-started\nsummary:\n  types: [http]\n  http_schemes: [basic]\n  oauth2_flows: []\n  api_key_in: []\nschemes:\n  - name: basicAuth\n    type: http\n    scheme: basic\n    description: >-\n      TRM Sanctions API uses HTTP Basic authentication with the API key supplied\n      as both username and password. Request an API key at\n      https://www.trmlabs.com/products/sanctions.\n    sources: [openapi/trm-labs-sanctions-openapi.yml]\n    api: TRM Sanctions API\n  - name: basicAuth\n    type: http\n    scheme: basic\n    description: >-\n      Chainabuse Public API uses HTTP Basic authentication. Credentials are\n      generated from your Chainabuse user profile and passed in the\n      Authorization header as base64-encoded credentials.\n    sources: [openapi/trm-labs-chainabuse-openapi.yml]\n    api: Chainabuse\
   \ Public API\nnotes: >-\n  Both public TRM Labs APIs authenticate with HTTP Basic. There is no documented\n  OAuth2/OIDC surface, so no scopes artifact applies.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/heads/main/authentication/trm-labs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/trm-labs/authentication/trm-labs-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Company

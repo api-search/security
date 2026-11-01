@@ -11,7 +11,7 @@ api_specs:
   label: sFOX WebSocket API
   slug: sfox-websocket-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sfox/refs/heads/main/asyncapi/sfox-websocket-asyncapi.yml
+  url: https://artifacts.apis.io/sfox/asyncapi/sfox-websocket-asyncapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: sfox-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.sfox.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 08:31:12 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.sfox.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 15:46:35 2026 GMT\n  hsts: null\n- host: ws.sfox.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 16:10:18 2026 GMT\n  hsts: null\ndomains:\n- domain: sfox.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sfox/refs/heads/main/security/sfox-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sfox/security/sfox-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

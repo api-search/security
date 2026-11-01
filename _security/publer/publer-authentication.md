@@ -8,49 +8,49 @@ api_specs:
   label: Publer Accounts API
   slug: publer-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/publer/openapi/publer-accounts-api-openapi.yml
 - filename: publer-analytics-api-openapi.yml
   format: yaml
   label: Publer Analytics API
   slug: publer-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/publer/openapi/publer-analytics-api-openapi.yml
 - filename: publer-competitors-api-openapi.yml
   format: yaml
   label: Publer Competitors API
   slug: publer-competitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-competitors-api-openapi.yml
+  url: https://artifacts.apis.io/publer/openapi/publer-competitors-api-openapi.yml
 - filename: publer-jobs-api-openapi.yml
   format: yaml
   label: Publer Jobs API
   slug: publer-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/publer/openapi/publer-jobs-api-openapi.yml
 - filename: publer-media-api-openapi.yml
   format: yaml
   label: Publer Media API
   slug: publer-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-media-api-openapi.yml
+  url: https://artifacts.apis.io/publer/openapi/publer-media-api-openapi.yml
 - filename: publer-posts-api-openapi.yml
   format: yaml
   label: Publer Posts API
   slug: publer-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-posts-api-openapi.yml
+  url: https://artifacts.apis.io/publer/openapi/publer-posts-api-openapi.yml
 - filename: publer-users-api-openapi.yml
   format: yaml
   label: Publer Users API
   slug: publer-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-users-api-openapi.yml
+  url: https://artifacts.apis.io/publer/openapi/publer-users-api-openapi.yml
 - filename: publer-workspaces-api-openapi.yml
   format: yaml
   label: Publer Workspaces API
   slug: publer-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/publer/openapi/publer-workspaces-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\ndocs: https://publer.co
   \   Declared as a securityScheme in some of Publer's per-page OpenAPI blocks and\n    as a required header PARAMETER in others — the specification is not\n    internally consistent about which it is.\nkey_management:\n  issuance: >-\n    Self-service in the Publer app — Settings -> Access & Login -> API Keys (the\n    help center also documents Settings -> API & Webhooks). Name is required;\n    scopes are selected at creation.\n  visibility: shown once at creation; not retrievable afterwards\n  rotation: >-\n    Manual. Publer recommends rotating every 90-180 days, or after team changes\n    or incidents. Keys cannot be re-scoped — remove and recreate.\n  revocation: self-service removal from the same settings screen\n  expiry: not documented\n  multiple_keys: >-\n    Supported and recommended (separate keys per use case for least privilege),\n    but note the rate limit is applied per USER ACCOUNT across all keys, so\n    splitting keys does not split throughput.\n  self_test: >-\n \
   \   The app provides a \"Try it out\" console that fires test requests against\n    selected endpoints with the new key.\nscopes:\n  supported: true\n  model: per-key permission scopes selected at creation\n  mandatory:\n  - workspaces\n  - accounts\n  optional:\n  - posts\n  - media\n  - analytics\n  see: scopes/publer-scopes.yml\nerrors:\n  '401':\n  - Missing or invalid Authorization header\n  - Key revoked or expired\n  '403':\n  - Insufficient scopes for the endpoint\n  - Missing Publer-Workspace-Id header\n  - Plan entitlement missing (e.g. analytics requires a paying subscription)\n  body: '{\"errors\": [\"Detailed error message\"]}'\n  note: >-\n    403 conflates three unrelated causes and there is no machine-readable code\n    to tell them apart — only the message string.\nentitlement:\n  gated: true\n  requirement: >-\n    Enterprise plan, Business plan in good standing (no failed or locked\n    subscription), or Top Ambassador status.\n  source: https://publer.com/help/en/article/does-publer-have-a-public-api-194nknf/\n\
   transport:\n  https_required: true\n  tls: TLSv1.3 on app.publer.com (probed 2026-08-13)\n  see: security/publer-domain-security.yml\nprovider_guidance:\n- Store keys in environment variables or a secrets vault, never in code.\n- Rotate every 90-180 days or after any team change or incident.\n- Create separate keys per use case (least privilege).\n- Never log a full key; mask all but the last 4 characters.\n- Always use HTTPS.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/authentication/publer-authentication.yml
+source_yaml_url: https://artifacts.apis.io/publer/authentication/publer-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Social Media

@@ -8,13 +8,13 @@ api_specs:
   label: Placekey Bulk API
   slug: placekey-bulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/placekey/refs/heads/main/openapi/placekey-bulk-api-openapi.yml
+  url: https://artifacts.apis.io/placekey/openapi/placekey-bulk-api-openapi.yml
 - filename: placekey-lookup-api-openapi.yml
   format: yaml
   label: Placekey Lookup API
   slug: placekey-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/placekey/refs/heads/main/openapi/placekey-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/placekey/openapi/placekey-lookup-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: placekey-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/placekey-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: apikey\n  description: Placekey API key supplied in the apikey request header.\n  sources:\n  - openapi/placekey-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/placekey/refs/heads/main/authentication/placekey-authentication.yml
+source_yaml_url: https://artifacts.apis.io/placekey/authentication/placekey-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Location

@@ -27,7 +27,7 @@ source_filename: caidya-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.caidya.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 06:25:07 2026 GMT\n  hsts: false\ndomains:\n- domain: caidya.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/caidya/refs/heads/main/security/caidya-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/caidya/security/caidya-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

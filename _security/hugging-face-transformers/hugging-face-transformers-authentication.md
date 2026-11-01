@@ -7,139 +7,139 @@ api_specs:
   label: Hugging Face Transformers Agentic Provisioning API
   slug: hugging-face-transformers-agentic-provisioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/openapi/hugging-face-transformers-agentic-provisioning-api-openapi.yml
+  url: https://artifacts.apis.io/hugging-face-transformers/openapi/hugging-face-transformers-agentic-provisioning-api-openapi.yml
 - filename: hugging-face-transformers-auth-api-openapi.yml
   format: yaml
   label: Hugging Face Transformers Auth API
   slug: hugging-face-transformers-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/openapi/hugging-face-transformers-auth-api-openapi.yml
+  url: https://artifacts.apis.io/hugging-face-transformers/openapi/hugging-face-transformers-auth-api-openapi.yml
 - filename: hugging-face-transformers-buckets-api-openapi.yml
   format: yaml
   label: Hugging Face Transformers Buckets API
   slug: hugging-face-transformers-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/openapi/hugging-face-transformers-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/hugging-face-transformers/openapi/hugging-face-transformers-buckets-api-openapi.yml
 - filename: hugging-face-transformers-collections-api-openapi.yml
   format: yaml
   label: Hugging Face Transformers Collections API
   slug: hugging-face-transformers-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/openapi/hugging-face-transformers-collections-api-openapi.yml
+  url: https://artifacts.apis.io/hugging-face-transformers/openapi/hugging-face-transformers-collections-api-openapi.yml
 - filename: hugging-face-transformers-datasets-api-openapi.yml
   format: yaml
   label: Hugging Face Transformers Datasets API
   slug: hugging-face-transformers-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/openapi/hugging-face-transformers-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/hugging-face-transformers/openapi/hugging-face-transformers-datasets-api-openapi.yml
 - filename: hugging-face-transformers-discussions-api-openapi.yml
   format: yaml
   label: Hugging Face Transformers Discussions API
   slug: hugging-face-transformers-discussions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/openapi/hugging-face-transformers-discussions-api-openapi.yml
+  url: https://artifacts.apis.io/hugging-face-transformers/openapi/hugging-face-transformers-discussions-api-openapi.yml
 - filename: hugging-face-transformers-docs-api-openapi.yml
   format: yaml
   label: Hugging Face Transformers Docs API
   slug: hugging-face-transformers-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/openapi/hugging-face-transformers-docs-api-openapi.yml
+  url: https://artifacts.apis.io/hugging-face-transformers/openapi/hugging-face-transformers-docs-api-openapi.yml
 - filename: hugging-face-transformers-inference-endpoints-api-openapi.yml
   format: yaml
   label: Hugging Face Transformers Inference Endpoints API
   slug: hugging-face-transformers-inference-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/openapi/hugging-face-transformers-inference-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/hugging-face-transformers/openapi/hugging-face-transformers-inference-endpoints-api-openapi.yml
 - filename: hugging-face-transformers-jobs-api-openapi.yml
   format: yaml
   label: Hugging Face Transformers Jobs API
   slug: hugging-face-transformers-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/openapi/hugging-face-transformers-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/hugging-face-transformers/openapi/hugging-face-transformers-jobs-api-openapi.yml
 - filename: hugging-face-transformers-kernels-api-openapi.yml
   format: yaml
   label: Hugging Face Transformers Kernels API
   slug: hugging-face-transformers-kernels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/openapi/hugging-face-transformers-kernels-api-openapi.yml
+  url: https://artifacts.apis.io/hugging-face-transformers/openapi/hugging-face-transformers-kernels-api-openapi.yml
 - filename: hugging-face-transformers-models-api-openapi.yml
   format: yaml
   label: Hugging Face Transformers Models API
   slug: hugging-face-transformers-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/openapi/hugging-face-transformers-models-api-openapi.yml
+  url: https://artifacts.apis.io/hugging-face-transformers/openapi/hugging-face-transformers-models-api-openapi.yml
 - filename: hugging-face-transformers-notifications-api-openapi.yml
   format: yaml
   label: Hugging Face Transformers Notifications API
   slug: hugging-face-transformers-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/openapi/hugging-face-transformers-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/hugging-face-transformers/openapi/hugging-face-transformers-notifications-api-openapi.yml
 - filename: hugging-face-transformers-orgs-api-openapi.yml
   format: yaml
   label: Hugging Face Transformers Orgs API
   slug: hugging-face-transformers-orgs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/openapi/hugging-face-transformers-orgs-api-openapi.yml
+  url: https://artifacts.apis.io/hugging-face-transformers/openapi/hugging-face-transformers-orgs-api-openapi.yml
 - filename: hugging-face-transformers-papers-api-openapi.yml
   format: yaml
   label: Hugging Face Transformers Papers API
   slug: hugging-face-transformers-papers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/openapi/hugging-face-transformers-papers-api-openapi.yml
+  url: https://artifacts.apis.io/hugging-face-transformers/openapi/hugging-face-transformers-papers-api-openapi.yml
 - filename: hugging-face-transformers-repo-search-api-openapi.yml
   format: yaml
   label: Hugging Face Transformers Repo Search API
   slug: hugging-face-transformers-repo-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/openapi/hugging-face-transformers-repo-search-api-openapi.yml
+  url: https://artifacts.apis.io/hugging-face-transformers/openapi/hugging-face-transformers-repo-search-api-openapi.yml
 - filename: hugging-face-transformers-repos-api-openapi.yml
   format: yaml
   label: Hugging Face Transformers Repos API
   slug: hugging-face-transformers-repos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/openapi/hugging-face-transformers-repos-api-openapi.yml
+  url: https://artifacts.apis.io/hugging-face-transformers/openapi/hugging-face-transformers-repos-api-openapi.yml
 - filename: hugging-face-transformers-resource-groups-api-openapi.yml
   format: yaml
   label: Hugging Face Transformers Resource Groups API
   slug: hugging-face-transformers-resource-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/openapi/hugging-face-transformers-resource-groups-api-openapi.yml
+  url: https://artifacts.apis.io/hugging-face-transformers/openapi/hugging-face-transformers-resource-groups-api-openapi.yml
 - filename: hugging-face-transformers-scim-api-openapi.yml
   format: yaml
   label: Hugging Face Transformers SCIM API
   slug: hugging-face-transformers-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/openapi/hugging-face-transformers-scim-api-openapi.yml
+  url: https://artifacts.apis.io/hugging-face-transformers/openapi/hugging-face-transformers-scim-api-openapi.yml
 - filename: hugging-face-transformers-spaces-api-openapi.yml
   format: yaml
   label: Hugging Face Transformers Spaces API
   slug: hugging-face-transformers-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/openapi/hugging-face-transformers-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/hugging-face-transformers/openapi/hugging-face-transformers-spaces-api-openapi.yml
 - filename: hugging-face-transformers-sql-console-api-openapi.yml
   format: yaml
   label: Hugging Face Transformers Sql Console API
   slug: hugging-face-transformers-sql-console-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/openapi/hugging-face-transformers-sql-console-api-openapi.yml
+  url: https://artifacts.apis.io/hugging-face-transformers/openapi/hugging-face-transformers-sql-console-api-openapi.yml
 - filename: hugging-face-transformers-users-api-openapi.yml
   format: yaml
   label: Hugging Face Transformers Users API
   slug: hugging-face-transformers-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/openapi/hugging-face-transformers-users-api-openapi.yml
+  url: https://artifacts.apis.io/hugging-face-transformers/openapi/hugging-face-transformers-users-api-openapi.yml
 - filename: hugging-face-transformers-webhooks-api-openapi.yml
   format: yaml
   label: Hugging Face Transformers Webhooks API
   slug: hugging-face-transformers-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/openapi/hugging-face-transformers-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/hugging-face-transformers/openapi/hugging-face-transformers-webhooks-api-openapi.yml
 - filename: hugging-face-transformers-oauth-api-openapi.yml
   format: yaml
   label: Hugging Face Transformers OAUTH API
   slug: hugging-face-transformers-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/openapi/hugging-face-transformers-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/hugging-face-transformers/openapi/hugging-face-transformers-oauth-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -182,7 +182,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/hugging-face-transformers-openapi.json\ndocs: https://huggingface.co/docs/hub/security-tokens\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - deviceCode\n  - tokenExchange\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    User Access Token (hf_...) or OAuth access token (hf_oauth_...) passed as\n    `Authorization: Bearer <token>`. User Access Tokens are created in account\n    settings and can be fine-grained (scoped to repos/permissions) or classic\n    (read / write / fine-grained). As of Jul 2026 tokens can be created from\n    presets (Read-Only, Inference, Write, CI/CD, Full Access).\n  sources:\n  - openapi/hugging-face-transformers-openapi.json\n- name: OAuth2\n  type: oauth2\n  description: >-\n    Sign in with Hugging Face — full OAuth 2.0 / OIDC authorization server.\n    Authorization Code (PKCE S256), Device Code, and RFC 8693 Token\
   \ Exchange\n    (Enterprise) grants. See scopes/hugging-face-transformers-scopes.yml.\n  issuer: https://huggingface.co\n  authorizationUrl: https://huggingface.co/oauth/authorize\n  tokenUrl: https://huggingface.co/oauth/token\n  deviceAuthorizationUrl: https://huggingface.co/oauth/device\n  userinfoUrl: https://huggingface.co/oauth/userinfo\n  jwksUri: https://huggingface.co/oauth/jwks\n  sources:\n  - https://huggingface.co/.well-known/openid-configuration\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/authentication/hugging-face-transformers-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hugging-face-transformers/authentication/hugging-face-transformers-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Artificial Intelligence

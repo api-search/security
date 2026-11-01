@@ -28,7 +28,7 @@ source_filename: eloquii-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: eloquii.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 30 20:01:37 2026 GMT\n  hsts: true\n  hsts_max_age: 300\ndomains:\n- domain: eloquii.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eloquii/refs/heads/main/security/eloquii-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/eloquii/security/eloquii-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company

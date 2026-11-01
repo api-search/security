@@ -5,19 +5,19 @@ api_specs:
   label: Photon Realtime Transport Protocol
   slug: photonengine-realtime-transport-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/photonengine/refs/heads/main/asyncapi/photonengine-asyncapi.yml
+  url: https://artifacts.apis.io/photonengine/asyncapi/photonengine-asyncapi.yml
 - filename: photonengine-custom-authentication-api-openapi.yml
   format: yaml
   label: Photon Engine Custom Authentication API
   slug: photonengine-custom-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/photonengine/refs/heads/main/openapi/photonengine-custom-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/photonengine/openapi/photonengine-custom-authentication-api-openapi.yml
 - filename: photonengine-room-lifecycle-webhooks-api-openapi.yml
   format: yaml
   label: Photon Engine Room Lifecycle WebHooks API
   slug: photonengine-room-lifecycle-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/photonengine/refs/heads/main/openapi/photonengine-room-lifecycle-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/photonengine/openapi/photonengine-room-lifecycle-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: photonengine-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.photonengine.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 07:36:22 2026 GMT\n  hsts: false\n- host: doc.photonengine.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 07:36:22 2026 GMT\n  hsts: false\n- host: ns.exitgames.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: photonengine.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: exitgames.com\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:admin@exitgames.com\"\n  - 0 issuewild \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/photonengine/refs/heads/main/security/photonengine-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/photonengine/security/photonengine-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Gaming

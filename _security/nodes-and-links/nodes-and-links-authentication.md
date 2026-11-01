@@ -31,7 +31,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://developer.nodeslinks.com/\ndocs: https://developer.nodeslinks.com/\nnotes: >-\n  Nodes & Links exposes a production API at https://api.app.nodeslinks.com behind\n  AWS API Gateway (unauthenticated requests return HTTP 403\n  {\"message\":\"Missing Authentication Token\"}). The developer-portal single-page app\n  (developer.nodeslinks.com) drives an OAuth token exchange against an oauth/token\n  endpoint using client_id + scope, indicating an OAuth 2.0 bearer-token model for\n  programmatic access. No public OpenAPI is published (the reference is served inside\n  the authenticated portal), so security schemes could not be derived mechanically.\nsummary:\n  types:\n  - oauth2\n  api_key_in: []\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.app.nodeslinks.com/oauth/token\n    evidence: developer-portal main.js references\
   \ oauth/token, client_id, scope\n  sources:\n  - https://developer.nodeslinks.com/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nodes-and-links/refs/heads/main/authentication/nodes-and-links-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nodes-and-links/authentication/nodes-and-links-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

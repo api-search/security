@@ -7,13 +7,13 @@ api_specs:
   label: CuratorSearch Data API
   slug: curatorsearch-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curatorsearch/refs/heads/main/openapi/curatorsearch-data-api-openapi.yml
+  url: https://artifacts.apis.io/curatorsearch/openapi/curatorsearch-data-api-openapi.yml
 - filename: curatorsearch-jobs-api-openapi.yml
   format: yaml
   label: CuratorSearch Jobs API
   slug: curatorsearch-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curatorsearch/refs/heads/main/openapi/curatorsearch-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/curatorsearch/openapi/curatorsearch-jobs-api-openapi.yml
 auth_types:
 - none
 description: ''
@@ -34,7 +34,7 @@ source_filename: curatorsearch-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-20'\nmethod: searched\nsource: https://curatorsearch.com/developers\ndocs: https://curatorsearch.com/developers#access\nsummary:\n  types: [none]\n  public_access: keyless\n  api_key_in: []\n  oauth2_flows: []\nnote: >-\n  The public JSON API and the MCP server are keyless (no authentication key). The provider asks\n  callers to send a descriptive User-Agent header identifying their project, but this is a courtesy\n  request, not an enforced credential. The OpenAPI 3.1 contract declares no securitySchemes, matching\n  the keyless model. CORS is open. A separate keyed partner feed exists for bulk/scraping needs and is\n  granted on request (email support@curatorsearch.com, subject \"Partner feed\"); its credentials are\n  not publicly documented.\nschemes: []\npartner_feed:\n  gated: true\n  access: on request\n  contact: support@curatorsearch.com\n  note: Credentials and scheme not publicly documented.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/curatorsearch/refs/heads/main/authentication/curatorsearch-authentication.yml
+source_yaml_url: https://artifacts.apis.io/curatorsearch/authentication/curatorsearch-authentication.yml
 summary_line: none · 0 schemes
 tags:
 - Agent-Native

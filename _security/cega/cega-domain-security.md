@@ -24,7 +24,7 @@ source_filename: cega-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cega.fi\n  https: false\ndomains:\n- domain: cega.fi\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cega/refs/heads/main/security/cega-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cega/security/cega-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

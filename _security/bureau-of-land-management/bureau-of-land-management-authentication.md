@@ -7,49 +7,49 @@ api_specs:
   label: Bureau of Land Management Catalog API
   slug: bureau-of-land-management-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-land-management/openapi/bureau-of-land-management-catalog-api-openapi.yml
 - filename: bureau-of-land-management-collection-api-openapi.yml
   format: yaml
   label: Bureau of Land Management Collection API
   slug: bureau-of-land-management-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-collection-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-land-management/openapi/bureau-of-land-management-collection-api-openapi.yml
 - filename: bureau-of-land-management-geoservice-beta-api-openapi.yml
   format: yaml
   label: Bureau of Land Management Geoservice Beta API
   slug: bureau-of-land-management-geoservice-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-geoservice-beta-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-land-management/openapi/bureau-of-land-management-geoservice-beta-api-openapi.yml
 - filename: bureau-of-land-management-ogcitem-api-openapi.yml
   format: yaml
   label: Bureau of Land Management Ogc Item API
   slug: bureau-of-land-management-ogcitem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-ogcitem-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-land-management/openapi/bureau-of-land-management-ogcitem-api-openapi.yml
 - filename: bureau-of-land-management-ogcitemaggregation-api-openapi.yml
   format: yaml
   label: Bureau of Land Management Ogc Item Aggregation API
   slug: bureau-of-land-management-ogcitemaggregation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-ogcitemaggregation-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-land-management/openapi/bureau-of-land-management-ogcitemaggregation-api-openapi.yml
 - filename: bureau-of-land-management-ogcroot-api-openapi.yml
   format: yaml
   label: Bureau of Land Management Ogc Root API
   slug: bureau-of-land-management-ogcroot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-ogcroot-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-land-management/openapi/bureau-of-land-management-ogcroot-api-openapi.yml
 - filename: bureau-of-land-management-ogcrootconformance-api-openapi.yml
   format: yaml
   label: Bureau of Land Management Ogc Root Conformance API
   slug: bureau-of-land-management-ogcrootconformance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-ogcrootconformance-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-land-management/openapi/bureau-of-land-management-ogcrootconformance-api-openapi.yml
 - filename: bureau-of-land-management-queryable-api-openapi.yml
   format: yaml
   label: Bureau of Land Management Queryable API
   slug: bureau-of-land-management-queryable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-queryable-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-land-management/openapi/bureau-of-land-management-queryable-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -144,7 +144,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: >-\n  openapi/bur
   ]. Needed only to publish or reach non-public\n      items; BLM's published content is open.\n  - name: mlrs-oidc\n    type: openIdConnect\n    surface: Mineral and Land Records System (mlrs.blm.gov)\n    openIdConnectUrl: https://mlrs.blm.gov/.well-known/openid-configuration\n    issuer: https://mlrs.blm.gov\n    endpoints:\n      authorization: https://mlrs.blm.gov/services/oauth2/authorize\n      token: https://mlrs.blm.gov/services/oauth2/token\n      userinfo: https://mlrs.blm.gov/services/oauth2/userinfo\n      revocation: https://mlrs.blm.gov/services/oauth2/revoke\n      introspection: https://mlrs.blm.gov/services/oauth2/introspect\n      registration: https://mlrs.blm.gov/services/oauth2/register\n      jwks_uri: https://mlrs.blm.gov/id/keys\n      end_session: https://mlrs.blm.gov/services/auth/idp/oidc/logout\n    sources: [well-known/bureau-of-land-management-mlrs-openid-configuration.json]\n    evidence: >-\n      HTTP 200 anonymously on 2026-09-05. Every other probed path\
   \ on this host answered 401.\n      The 36 advertised scopes are the stock Salesforce platform scope set (api, web, openid,\n      refresh_token, cdp_*, pardot_api, ...), not a BLM-authored permission model — see\n      scopes/bureau-of-land-management-scopes.yml.\n  - name: glorecords-oidc\n    type: openIdConnect\n    surface: General Land Office Records (glorecords.blm.gov)\n    openIdConnectUrl: https://glorecords.blm.gov/.well-known/openid-configuration\n    issuer: https://glorecords.blm.gov\n    endpoints:\n      authorization: https://glorecords.blm.gov/services/oauth2/authorize\n      token: https://glorecords.blm.gov/services/oauth2/token\n      userinfo: https://glorecords.blm.gov/services/oauth2/userinfo\n      revocation: https://glorecords.blm.gov/services/oauth2/revoke\n      introspection: https://glorecords.blm.gov/services/oauth2/introspect\n      registration: https://glorecords.blm.gov/services/oauth2/register\n      jwks_uri: https://glorecords.blm.gov/id/keys\n  \
   \    end_session: https://glorecords.blm.gov/services/auth/idp/oidc/logout\n    sources: [well-known/bureau-of-land-management-glorecords-openid-configuration.json]\n    evidence: HTTP 200 anonymously on 2026-09-05; all other paths on this host answered 401.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/authentication/bureau-of-land-management-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bureau-of-land-management/authentication/bureau-of-land-management-authentication.yml
 summary_line: none/oauth2/openIdConnect · 6 schemes
 tags:
 - Environment

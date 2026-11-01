@@ -7,55 +7,55 @@ api_specs:
   label: Landgate Datasets API
   slug: landgate-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/openapi/landgate-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/landgate/openapi/landgate-datasets-api-openapi.yml
 - filename: landgate-discovery-api-openapi.yml
   format: yaml
   label: Landgate Discovery API
   slug: landgate-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/openapi/landgate-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/landgate/openapi/landgate-discovery-api-openapi.yml
 - filename: landgate-organizations-api-openapi.yml
   format: yaml
   label: Landgate Organizations API
   slug: landgate-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/openapi/landgate-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/landgate/openapi/landgate-organizations-api-openapi.yml
 - filename: landgate-query-api-openapi.yml
   format: yaml
   label: Landgate Query API
   slug: landgate-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/openapi/landgate-query-api-openapi.yml
+  url: https://artifacts.apis.io/landgate/openapi/landgate-query-api-openapi.yml
 - filename: landgate-server-api-openapi.yml
   format: yaml
   label: Landgate Server API
   slug: landgate-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/openapi/landgate-server-api-openapi.yml
+  url: https://artifacts.apis.io/landgate/openapi/landgate-server-api-openapi.yml
 - filename: landgate-services-api-openapi.yml
   format: yaml
   label: Landgate Services API
   slug: landgate-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/openapi/landgate-services-api-openapi.yml
+  url: https://artifacts.apis.io/landgate/openapi/landgate-services-api-openapi.yml
 - filename: landgate-site-api-openapi.yml
   format: yaml
   label: Landgate Site API
   slug: landgate-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/openapi/landgate-site-api-openapi.yml
+  url: https://artifacts.apis.io/landgate/openapi/landgate-site-api-openapi.yml
 - filename: landgate-wfs-api-openapi.yml
   format: yaml
   label: Landgate WFS API
   slug: landgate-wfs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/openapi/landgate-wfs-api-openapi.yml
+  url: https://artifacts.apis.io/landgate/openapi/landgate-wfs-api-openapi.yml
 - filename: landgate-wms-api-openapi.yml
   format: yaml
   label: Landgate WMS API
   slug: landgate-wms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/openapi/landgate-wms-api-openapi.yml
+  url: https://artifacts.apis.io/landgate/openapi/landgate-wms-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -145,7 +145,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: live probes of 
   \ 200\n      probed: '2026-07-26'\nschemes:\n  - name: MyLandgateOIDC\n    type: openIdConnect\n    openIdConnectUrl: https://sign-on.app.landgate.wa.gov.au/.well-known/openid-configuration\n    issuer: https://sign-on.app.landgate.wa.gov.au\n    product: PingFederate\n    sources:\n      - well-known/landgate-openid-configuration.json\n      - openapi/landgate-mylandgate-openid-configuration.json\n  - name: MyLandgateOAuth2\n    type: oauth2\n    sources: [well-known/landgate-oauth-authorization-server.json]\n    metadata: RFC 8414 OAuth 2.0 Authorization Server Metadata\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://sign-on.app.landgate.wa.gov.au/as/authorization.oauth2\n        tokenUrl: https://sign-on.app.landgate.wa.gov.au/as/token.oauth2\n        scopes: [openid, profile, email, address, phone, ATO]\n      - flow: implicit\n        authorizationUrl: https://sign-on.app.landgate.wa.gov.au/as/authorization.oauth2\n      - flow: clientCredentials\n\
   \        tokenUrl: https://sign-on.app.landgate.wa.gov.au/as/token.oauth2\n      - flow: deviceCode\n        deviceAuthorizationUrl: https://sign-on.app.landgate.wa.gov.au/as/device_authz.oauth2\n    endpoints:\n      token: https://sign-on.app.landgate.wa.gov.au/as/token.oauth2\n      revocation: https://sign-on.app.landgate.wa.gov.au/as/revoke_token.oauth2\n      introspection: https://sign-on.app.landgate.wa.gov.au/as/introspect.oauth2\n      userinfo: https://sign-on.app.landgate.wa.gov.au/idp/userinfo.openid\n      jwks: https://sign-on.app.landgate.wa.gov.au/pf/JWKS\n      registration: https://sign-on.app.landgate.wa.gov.au/as/clients.oauth2\n      end_session: https://sign-on.app.landgate.wa.gov.au/idp/init_logout.openid\n    token_endpoint_auth_methods: [client_secret_basic, client_secret_post, client_secret_jwt,\n      private_key_jwt, tls_client_auth, none]\n    note: |\n      A registration_endpoint is advertised but this is the standard PingFederate dynamic\n      client registration\
   \ URL — no public developer flow, documentation or onboarding page was\n      found for it. Treat the identity surface as staff/subscriber sign-on, not a developer API.\nonboarding:\n  self_service: false\n  api_key_issuance: none found\n  gate: signed licence (SLIP subscription / publication / broker / distributor / VAR) plus a\n    MyLandgate account for bulk downloads\n  contact: https://www.landgate.wa.gov.au/help-centre/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/authentication/landgate-authentication.yml
+source_yaml_url: https://artifacts.apis.io/landgate/authentication/landgate-authentication.yml
 summary_line: none/oauth2/openIdConnect · 2 schemes
 tags:
 - Real Estate

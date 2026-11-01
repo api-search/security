@@ -31,7 +31,7 @@ source_filename: national-institute-of-food-and-agriculture-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nifa.usda.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 17 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: usda.gov\n  dnssec: true\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 iodef \"mailto:icam_as_notify@ocio.usda.gov\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-institute-of-food-and-agriculture/refs/heads/main/security/national-institute-of-food-and-agriculture-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/national-institute-of-food-and-agriculture/security/national-institute-of-food-and-agriculture-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Agriculture

@@ -5,19 +5,19 @@ api_specs:
   label: Userback Feedback API
   slug: userback-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/userback/refs/heads/main/openapi/userback-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/userback/openapi/userback-feedback-api-openapi.yml
 - filename: userback-feedback-comments-api-openapi.yml
   format: yaml
   label: Userback Feedback Comments API
   slug: userback-feedback-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/userback/refs/heads/main/openapi/userback-feedback-comments-api-openapi.yml
+  url: https://artifacts.apis.io/userback/openapi/userback-feedback-comments-api-openapi.yml
 - filename: userback-projects-api-openapi.yml
   format: yaml
   label: Userback Projects API
   slug: userback-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/userback/refs/heads/main/openapi/userback-projects-api-openapi.yml
+  url: https://artifacts.apis.io/userback/openapi/userback-projects-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: userback-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.userback.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 26 01:50:27 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.userback.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 16:00:34 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: rest.userback.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 24 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: userback.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/userback/refs/heads/main/security/userback-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/userback/security/userback-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Customer Feedback

@@ -35,7 +35,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://support.sigfox.com/docs/api-credential-creation\ndocs: https://support.sigfox.com/docs/api-credential-creation\nsummary:\n  types: [http]\n  scheme: basic\n  api_key_in: []\n  oauth2_flows: []\n  notes: >-\n    The Sigfox Cloud API authenticates with HTTP Basic credentials. An\n    \"API access\" is created in the Sigfox backend under a Group (Group tab >\n    API access > New). Each API access has a login (id) and password, plus a\n    display name, a timezone for responses, and one or more granted profiles\n    that define its role-based permissions. The credentials are sent as the\n    HTTP Basic Authorization header on every request. Rights are granted per\n    API access, so what endpoints an API user can call is determined by the\n    assigned profiles.\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: >-\n    HTTP Basic authentication using the API access login (username) and\n    password\
   \ created in the Sigfox backend API access page. Authorization is\n    governed by the profiles granted to the API access.\n  sources: [https://support.sigfox.com/docs/api-credential-creation]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sigfox/refs/heads/main/authentication/sigfox-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sigfox/authentication/sigfox-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

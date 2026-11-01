@@ -5,67 +5,67 @@ api_specs:
   label: Flow Accounts API
   slug: flow-blockchain-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flow-blockchain/refs/heads/main/openapi/flow-blockchain-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/flow-blockchain/openapi/flow-blockchain-accounts-api-openapi.yml
 - filename: flow-blockchain-blocks-api-openapi.yml
   format: yaml
   label: Flow Blocks API
   slug: flow-blockchain-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flow-blockchain/refs/heads/main/openapi/flow-blockchain-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/flow-blockchain/openapi/flow-blockchain-blocks-api-openapi.yml
 - filename: flow-blockchain-collections-api-openapi.yml
   format: yaml
   label: Flow Collections API
   slug: flow-blockchain-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flow-blockchain/refs/heads/main/openapi/flow-blockchain-collections-api-openapi.yml
+  url: https://artifacts.apis.io/flow-blockchain/openapi/flow-blockchain-collections-api-openapi.yml
 - filename: flow-blockchain-events-api-openapi.yml
   format: yaml
   label: Flow Events API
   slug: flow-blockchain-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flow-blockchain/refs/heads/main/openapi/flow-blockchain-events-api-openapi.yml
+  url: https://artifacts.apis.io/flow-blockchain/openapi/flow-blockchain-events-api-openapi.yml
 - filename: flow-blockchain-execution-receipts-api-openapi.yml
   format: yaml
   label: Flow Execution Receipts API
   slug: flow-blockchain-execution-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flow-blockchain/refs/heads/main/openapi/flow-blockchain-execution-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/flow-blockchain/openapi/flow-blockchain-execution-receipts-api-openapi.yml
 - filename: flow-blockchain-execution-results-api-openapi.yml
   format: yaml
   label: Flow Execution Results API
   slug: flow-blockchain-execution-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flow-blockchain/refs/heads/main/openapi/flow-blockchain-execution-results-api-openapi.yml
+  url: https://artifacts.apis.io/flow-blockchain/openapi/flow-blockchain-execution-results-api-openapi.yml
 - filename: flow-blockchain-network-api-openapi.yml
   format: yaml
   label: Flow Network API
   slug: flow-blockchain-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flow-blockchain/refs/heads/main/openapi/flow-blockchain-network-api-openapi.yml
+  url: https://artifacts.apis.io/flow-blockchain/openapi/flow-blockchain-network-api-openapi.yml
 - filename: flow-blockchain-nodeversioninfo-api-openapi.yml
   format: yaml
   label: Flow NodeVersionInfo API
   slug: flow-blockchain-nodeversioninfo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flow-blockchain/refs/heads/main/openapi/flow-blockchain-nodeversioninfo-api-openapi.yml
+  url: https://artifacts.apis.io/flow-blockchain/openapi/flow-blockchain-nodeversioninfo-api-openapi.yml
 - filename: flow-blockchain-scripts-api-openapi.yml
   format: yaml
   label: Flow Scripts API
   slug: flow-blockchain-scripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flow-blockchain/refs/heads/main/openapi/flow-blockchain-scripts-api-openapi.yml
+  url: https://artifacts.apis.io/flow-blockchain/openapi/flow-blockchain-scripts-api-openapi.yml
 - filename: flow-blockchain-subscribe-events-api-openapi.yml
   format: yaml
   label: Flow Subscribe events API
   slug: flow-blockchain-subscribe-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flow-blockchain/refs/heads/main/openapi/flow-blockchain-subscribe-events-api-openapi.yml
+  url: https://artifacts.apis.io/flow-blockchain/openapi/flow-blockchain-subscribe-events-api-openapi.yml
 - filename: flow-blockchain-transactions-api-openapi.yml
   format: yaml
   label: Flow Transactions API
   slug: flow-blockchain-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flow-blockchain/refs/heads/main/openapi/flow-blockchain-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/flow-blockchain/openapi/flow-blockchain-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -111,7 +111,7 @@ source_filename: flow-blockchain-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.flow.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 14:30:05 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: rest-mainnet.onflow.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 12:20:54 2026 GMT\n  hsts: null\n- host: rest-testnet.onflow.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 16:45:40 2026 GMT\n  hsts: null\ndomains:\n- domain: flow.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: onflow.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flow-blockchain/refs/heads/main/security/flow-blockchain-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/flow-blockchain/security/flow-blockchain-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Blockchain

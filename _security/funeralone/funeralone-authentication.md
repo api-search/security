@@ -7,7 +7,7 @@ api_specs:
   label: funeralOne Cases API
   slug: funeralone-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/funeralone/refs/heads/main/openapi/funeralone-cases-api-openapi.yml
+  url: https://artifacts.apis.io/funeralone/openapi/funeralone-cases-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -34,7 +34,7 @@ source_filename: funeralone-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/funeralone-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication. Use the funeralOne-issued API key as the username\n    and a blank/dummy password.\n  sources:\n  - openapi/funeralone-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/funeralone/refs/heads/main/authentication/funeralone-authentication.yml
+source_yaml_url: https://artifacts.apis.io/funeralone/authentication/funeralone-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Funeral Homes

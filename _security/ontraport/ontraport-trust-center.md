@@ -5,13 +5,13 @@ api_specs:
   label: Ontraport Metadata API
   slug: ontraport-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/openapi/ontraport-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/ontraport/openapi/ontraport-metadata-api-openapi.yml
 - filename: ontraport-objects-api-openapi.yml
   format: yaml
   label: Ontraport Objects API
   slug: ontraport-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/openapi/ontraport-objects-api-openapi.yml
+  url: https://artifacts.apis.io/ontraport/openapi/ontraport-objects-api-openapi.yml
 certification_count: 2
 certifications:
 - PCI DSS
@@ -32,7 +32,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://o
   \ claimed\n  claim: >-\n    \"Ontraport meets the highest level of security – PCI-DSS Level 1 Certification\"\n  source: https://ontraport.com/features/platform/security-and-scalability/\n  corroboration: >-\n    A \"PCI DSS, Level 1\" badge appears in the site footer across ontraport.com pages.\n  attestation_published: false\n  qsa: not named\n  attestation_date: not published\n  note: >-\n    Credible for a platform that processes card payments through its own gateway integrations\n    and describes an isolated payment-processing system, but it is a self-assertion — no AOC\n    or ROC summary is downloadable.\n- name: GDPR\n  role: data processor\n  status: claimed\n  claim: >-\n    \"Ontraport attests that we comply with GDPR as a Data Processor but does not and can not\n    ensure your compliance as a Data Controller.\"\n  source: https://ontraport.com/legal\n  sub_processors:\n    committed: true\n    published_url: not resolvable\n    note: >-\n      The legal page states \"We maintain\
   \ a list of sub-processors below for your review\". The\n      list is rendered inside the accordion sections of https://ontraport.com/legal rather\n      than at a stable, linkable URL.\nnot_claimed:\n- SOC 2 Type I or Type II\n- ISO/IEC 27001\n- ISO/IEC 27017 or 27018\n- HIPAA / BAA\n- FedRAMP\n- CSA STAR\n- TX-RAMP or StateRAMP\nsecurity_practices_published:\n  source: https://ontraport.com/features/platform/security-and-scalability/\n  claims:\n  - Daily off-site backups with redundancy\n  - Multi-factor authentication (SMS, email, or social login)\n  - Role-based permission management\n  - Free SSL certificates for all hosted pages\n  - Encryption of sensitive data in transit\n  - Custom-built breach response technology\n  - Payment processing isolated from the main application\n  - 24/7 systems monitoring with automated hourly tests\n  - An in-product Automation Log tracking team actions and changes\n  - Dedicated infrastructure available on enterprise accounts\n  uptime_commitment:\
   \ none published\n  data_center_locations: not published\n  pen_test_summary: not published\n  encryption_at_rest: not stated\ngaps:\n- >-\n  No SOC 2 — the single most common enterprise procurement requirement, and the one a CRM\n  holding an entire customer database is most often asked for.\n- >-\n  No trust portal, so every security question is a sales conversation rather than a\n  self-serve document.\n- >-\n  No published sub-processor list at a stable URL, despite a contractual commitment in the\n  Terms of Service to maintain one.\n- >-\n  No vulnerability disclosure policy and no security contact. See\n  security/ontraport-vulnerability-disclosure.yml.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/security/ontraport-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/ontraport/security/ontraport-trust-center.yml
 summary_line: PCI DSS, GDPR
 tags:
 - CRM

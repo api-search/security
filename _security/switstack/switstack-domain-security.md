@@ -5,49 +5,49 @@ api_specs:
   label: Switstack Auth API
   slug: switstack-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/openapi/switstack-auth-api-openapi.yml
+  url: https://artifacts.apis.io/switstack/openapi/switstack-auth-api-openapi.yml
 - filename: switstack-bom-api-openapi.yml
   format: yaml
   label: Switstack BOM API
   slug: switstack-bom-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/openapi/switstack-bom-api-openapi.yml
+  url: https://artifacts.apis.io/switstack/openapi/switstack-bom-api-openapi.yml
 - filename: switstack-config-api-openapi.yml
   format: yaml
   label: Switstack Config API
   slug: switstack-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/openapi/switstack-config-api-openapi.yml
+  url: https://artifacts.apis.io/switstack/openapi/switstack-config-api-openapi.yml
 - filename: switstack-parser-api-openapi.yml
   format: yaml
   label: Switstack Parser API
   slug: switstack-parser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/openapi/switstack-parser-api-openapi.yml
+  url: https://artifacts.apis.io/switstack/openapi/switstack-parser-api-openapi.yml
 - filename: switstack-payment-api-openapi.yml
   format: yaml
   label: Switstack Payment API
   slug: switstack-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/openapi/switstack-payment-api-openapi.yml
+  url: https://artifacts.apis.io/switstack/openapi/switstack-payment-api-openapi.yml
 - filename: switstack-suite-api-openapi.yml
   format: yaml
   label: Switstack Suite API
   slug: switstack-suite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/openapi/switstack-suite-api-openapi.yml
+  url: https://artifacts.apis.io/switstack/openapi/switstack-suite-api-openapi.yml
 - filename: switstack-test-api-openapi.yml
   format: yaml
   label: Switstack Test API
   slug: switstack-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/openapi/switstack-test-api-openapi.yml
+  url: https://artifacts.apis.io/switstack/openapi/switstack-test-api-openapi.yml
 - filename: switstack-validation-api-openapi.yml
   format: yaml
   label: Switstack Validation API
   slug: switstack-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/openapi/switstack-validation-api-openapi.yml
+  url: https://artifacts.apis.io/switstack/openapi/switstack-validation-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -85,7 +85,7 @@ source_filename: switstack-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.switstack.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 05:17:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.switstack.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 13:49:18 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n- host: switcloud.switstack.io\n  https: false\ndomains:\n- domain: switstack.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/security/switstack-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/switstack/security/switstack-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

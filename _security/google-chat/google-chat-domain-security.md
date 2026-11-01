@@ -5,43 +5,43 @@ api_specs:
   label: Google Chat Google Chat API
   slug: google-chat-google-chat-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chat/refs/heads/main/openapi/google-chat-google-chat-api-api-openapi.yml
+  url: https://artifacts.apis.io/google-chat/openapi/google-chat-google-chat-api-api-openapi.yml
 - filename: google-chat-members-api-openapi.yml
   format: yaml
   label: Google Chat Members API
   slug: google-chat-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chat/refs/heads/main/openapi/google-chat-members-api-openapi.yml
+  url: https://artifacts.apis.io/google-chat/openapi/google-chat-members-api-openapi.yml
 - filename: google-chat-messages-api-openapi.yml
   format: yaml
   label: Google Chat Messages API
   slug: google-chat-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chat/refs/heads/main/openapi/google-chat-messages-api-openapi.yml
+  url: https://artifacts.apis.io/google-chat/openapi/google-chat-messages-api-openapi.yml
 - filename: google-chat-reactions-api-openapi.yml
   format: yaml
   label: Google Chat Reactions API
   slug: google-chat-reactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chat/refs/heads/main/openapi/google-chat-reactions-api-openapi.yml
+  url: https://artifacts.apis.io/google-chat/openapi/google-chat-reactions-api-openapi.yml
 - filename: google-chat-spaces-api-openapi.yml
   format: yaml
   label: Google Chat Spaces API
   slug: google-chat-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chat/refs/heads/main/openapi/google-chat-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/google-chat/openapi/google-chat-spaces-api-openapi.yml
 - filename: google-chat-spaces-setup-api-openapi.yml
   format: yaml
   label: Google Chat Spaces:setup API
   slug: google-chat-spaces-setup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chat/refs/heads/main/openapi/google-chat-spaces-setup-api-openapi.yml
+  url: https://artifacts.apis.io/google-chat/openapi/google-chat-spaces-setup-api-openapi.yml
 - filename: google-chat-custom-emojis-api-openapi.yml
   format: yaml
   label: Google Chat Custom Emojis API
   slug: google-chat-custom-emojis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chat/refs/heads/main/openapi/google-chat-custom-emojis-api-openapi.yml
+  url: https://artifacts.apis.io/google-chat/openapi/google-chat-custom-emojis-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -84,7 +84,7 @@ source_filename: google-chat-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: chat.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:17 2026 GMT\n  hsts: null\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-chat/refs/heads/main/security/google-chat-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/google-chat/security/google-chat-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Chat

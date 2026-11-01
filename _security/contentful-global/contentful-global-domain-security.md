@@ -5,37 +5,37 @@ api_specs:
   label: Contentful Global Design System Import API
   slug: contentful-global-designsystemimport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentful-global/refs/heads/main/openapi/contentful-global-designsystemimport-api-openapi.yml
+  url: https://artifacts.apis.io/contentful-global/openapi/contentful-global-designsystemimport-api-openapi.yml
 - filename: contentful-global-designsystemsource-api-openapi.yml
   format: yaml
   label: Contentful Global Design System Source API
   slug: contentful-global-designsystemsource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentful-global/refs/heads/main/openapi/contentful-global-designsystemsource-api-openapi.yml
+  url: https://artifacts.apis.io/contentful-global/openapi/contentful-global-designsystemsource-api-openapi.yml
 - filename: contentful-global-githubinstallationrepositories-api-openapi.yml
   format: yaml
   label: Contentful Global Git Hub Installation Repositories API
   slug: contentful-global-githubinstallationrepositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentful-global/refs/heads/main/openapi/contentful-global-githubinstallationrepositories-api-openapi.yml
+  url: https://artifacts.apis.io/contentful-global/openapi/contentful-global-githubinstallationrepositories-api-openapi.yml
 - filename: contentful-global-githubinstallations-api-openapi.yml
   format: yaml
   label: Contentful Global Git Hub Installations API
   slug: contentful-global-githubinstallations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentful-global/refs/heads/main/openapi/contentful-global-githubinstallations-api-openapi.yml
+  url: https://artifacts.apis.io/contentful-global/openapi/contentful-global-githubinstallations-api-openapi.yml
 - filename: contentful-global-githubinstallationstatus-api-openapi.yml
   format: yaml
   label: Contentful Global Git Hub Installation Status API
   slug: contentful-global-githubinstallationstatus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentful-global/refs/heads/main/openapi/contentful-global-githubinstallationstatus-api-openapi.yml
+  url: https://artifacts.apis.io/contentful-global/openapi/contentful-global-githubinstallationstatus-api-openapi.yml
 - filename: contentful-global-githubrepositorybranches-api-openapi.yml
   format: yaml
   label: Contentful Global Git Hub Repository Branches API
   slug: contentful-global-githubrepositorybranches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentful-global/refs/heads/main/openapi/contentful-global-githubrepositorybranches-api-openapi.yml
+  url: https://artifacts.apis.io/contentful-global/openapi/contentful-global-githubrepositorybranches-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: contentful-global-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-10'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.contentful.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 16:06:31 2026 GMT\n  hsts: null\ndomains:\n- domain: contentful.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contentful-global/refs/heads/main/security/contentful-global-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/contentful-global/security/contentful-global-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Content Management

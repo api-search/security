@@ -7,7 +7,7 @@ api_specs:
   label: Motorola Solutions Public Safety API
   slug: motorola-solutions-public-safety-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/motorola-solutions/refs/heads/main/openapi/motorola-solutions-public-safety-api-openapi.yml
+  url: https://artifacts.apis.io/motorola-solutions/openapi/motorola-solutions-public-safety-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -33,7 +33,7 @@ source_filename: motorola-solutions-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/motorola-solutions-motorola-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/motorola-solutions-motorola-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/motorola-solutions/refs/heads/main/authentication/motorola-solutions-authentication.yml
+source_yaml_url: https://artifacts.apis.io/motorola-solutions/authentication/motorola-solutions-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Public Safety

@@ -7,55 +7,55 @@ api_specs:
   label: toksta Account API
   slug: toksta-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/openapi/toksta-account-api-openapi.yml
+  url: https://artifacts.apis.io/toksta/openapi/toksta-account-api-openapi.yml
 - filename: toksta-analysis-api-openapi.yml
   format: yaml
   label: toksta Analysis API
   slug: toksta-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/openapi/toksta-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/toksta/openapi/toksta-analysis-api-openapi.yml
 - filename: toksta-campaigns-api-openapi.yml
   format: yaml
   label: toksta Campaigns API
   slug: toksta-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/openapi/toksta-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/toksta/openapi/toksta-campaigns-api-openapi.yml
 - filename: toksta-creator-lists-api-openapi.yml
   format: yaml
   label: toksta Creator Lists API
   slug: toksta-creator-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/openapi/toksta-creator-lists-api-openapi.yml
+  url: https://artifacts.apis.io/toksta/openapi/toksta-creator-lists-api-openapi.yml
 - filename: toksta-creators-api-openapi.yml
   format: yaml
   label: toksta Creators API
   slug: toksta-creators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/openapi/toksta-creators-api-openapi.yml
+  url: https://artifacts.apis.io/toksta/openapi/toksta-creators-api-openapi.yml
 - filename: toksta-enrichment-api-openapi.yml
   format: yaml
   label: toksta Enrichment API
   slug: toksta-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/openapi/toksta-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/toksta/openapi/toksta-enrichment-api-openapi.yml
 - filename: toksta-evidence-api-openapi.yml
   format: yaml
   label: toksta Evidence API
   slug: toksta-evidence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/openapi/toksta-evidence-api-openapi.yml
+  url: https://artifacts.apis.io/toksta/openapi/toksta-evidence-api-openapi.yml
 - filename: toksta-jobs-api-openapi.yml
   format: yaml
   label: toksta Jobs API
   slug: toksta-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/openapi/toksta-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/toksta/openapi/toksta-jobs-api-openapi.yml
 - filename: toksta-system-api-openapi.yml
   format: yaml
   label: toksta System API
   slug: toksta-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/openapi/toksta-system-api-openapi.yml
+  url: https://artifacts.apis.io/toksta/openapi/toksta-system-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -130,7 +130,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://help.to
   \ auth.\n  - No cookie auth.\n  - No X-Api-Key header — the docs state Authorization Bearer is the only accepted form.\n  sources:\n  - https://help.toksta.com/public-api/authentication\n  - openapi/toksta-public-api-openapi.yml\n- name: mcpOAuth\n  type: oauth2\n  applies_to: https://mcp.toksta.com/mcp\n  description: >-\n    The hosted Toksta MCP server is an OAuth 2.0 protected resource. Unauthenticated\n    POSTs to /mcp return 401 with a WWW-Authenticate Bearer challenge carrying\n    resource_metadata, and the resource metadata names a Supabase Auth authorization\n    server. Dynamic client registration is advertised.\n  flows:\n  - flow: authorizationCode\n    issuer: https://zkdnqaotketigndjpfqw.supabase.co/auth/v1\n    authorization_endpoint: https://zkdnqaotketigndjpfqw.supabase.co/auth/v1/oauth/authorize\n    token_endpoint: https://zkdnqaotketigndjpfqw.supabase.co/auth/v1/oauth/token\n    registration_endpoint: https://zkdnqaotketigndjpfqw.supabase.co/auth/v1/oauth/clients/register\n\
   \    grant_types: [authorization_code, refresh_token]\n    response_types: [code]\n    pkce: [S256, plain]\n    token_endpoint_auth_methods: [client_secret_basic, client_secret_post, none]\n    scopes_supported: null\n    scopes_note: >-\n      The authorization-server metadata document declares no scopes_supported. Entitlement\n      is enforced by plan/credit state rather than by OAuth scope — see mcp/toksta-mcp.yml.\n  sources:\n  - well-known/toksta-mcp-oauth-authorization-server.json\n  - well-known/toksta-mcp-oauth-protected-resource.json\nobserved:\n- probe: 'POST https://api.toksta.com/v1/creators/search (no Authorization header)'\n  http_status: 401\n  body: '{\"success\":false,\"error\":{\"code\":\"UNAUTHORIZED\",\"message\":\"Provide an API key using the Authorization: Bearer header.\"},...}'\n  fetched: '2026-08-13'\n- probe: 'POST https://mcp.toksta.com/mcp (tools/list, no Authorization header)'\n  http_status: 401\n  www_authenticate: 'Bearer error=\"invalid_token\", error_description=\"\
   Missing Authorization header\", resource_metadata=\"https://mcp.toksta.com/.well-known/oauth-protected-resource/mcp\"'\n  fetched: '2026-08-13'\nsecurity_guidance_published:\n- Call the API server-to-server only; never embed keys in browser or mobile clients.\n- Store keys in a secrets manager, not in source control.\n- Use a separate key per integration or service.\n- Rotate on a schedule and after team-member offboarding.\n- Monitor consumption via GET /v1/account/usage.\ncross_links:\n  scopes: scopes/toksta-scopes.yml\n  conventions: conventions/toksta-conventions.yml\n  errors: errors/toksta-problem-types.yml\n  mcp: mcp/toksta-mcp.yml\n  well_known: well-known/toksta-well-known.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/authentication/toksta-authentication.yml
+source_yaml_url: https://artifacts.apis.io/toksta/authentication/toksta-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

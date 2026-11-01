@@ -5,43 +5,43 @@ api_specs:
   label: Vectara Agents API
   slug: vectara-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-agents-api-openapi.yml
+  url: https://artifacts.apis.io/vectara/openapi/vectara-agents-api-openapi.yml
 - filename: vectara-authentication-api-openapi.yml
   format: yaml
   label: Vectara Authentication API
   slug: vectara-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/vectara/openapi/vectara-authentication-api-openapi.yml
 - filename: vectara-corpora-api-openapi.yml
   format: yaml
   label: Vectara Corpora API
   slug: vectara-corpora-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-corpora-api-openapi.yml
+  url: https://artifacts.apis.io/vectara/openapi/vectara-corpora-api-openapi.yml
 - filename: vectara-documents-api-openapi.yml
   format: yaml
   label: Vectara Documents API
   slug: vectara-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-documents-api-openapi.yml
+  url: https://artifacts.apis.io/vectara/openapi/vectara-documents-api-openapi.yml
 - filename: vectara-pipelines-api-openapi.yml
   format: yaml
   label: Vectara Pipelines API
   slug: vectara-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/vectara/openapi/vectara-pipelines-api-openapi.yml
 - filename: vectara-query-api-openapi.yml
   format: yaml
   label: Vectara Query API
   slug: vectara-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-query-api-openapi.yml
+  url: https://artifacts.apis.io/vectara/openapi/vectara-query-api-openapi.yml
 - filename: vectara-tools-api-openapi.yml
   format: yaml
   label: Vectara Tools API
   slug: vectara-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-tools-api-openapi.yml
+  url: https://artifacts.apis.io/vectara/openapi/vectara-tools-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -87,7 +87,7 @@ source_filename: vectara-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.vectara.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 20:52:20 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.vectara.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 17:15:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.vectara.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 09:03:05 2026 GMT\n  hsts: null\ndomains:\n- domain: vectara.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: vectara.io\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/security/vectara-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vectara/security/vectara-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Artificial Intelligence

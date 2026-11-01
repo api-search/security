@@ -5,19 +5,19 @@ api_specs:
   label: PostalCodes.info Downloads API
   slug: postalcodes-info-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalcodes-info/refs/heads/main/openapi/postalcodes-info-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/postalcodes-info/openapi/postalcodes-info-downloads-api-openapi.yml
 - filename: postalcodes-info-lookup-pages-api-openapi.yml
   format: yaml
   label: PostalCodes.info Lookup Pages API
   slug: postalcodes-info-lookup-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalcodes-info/refs/heads/main/openapi/postalcodes-info-lookup-pages-api-openapi.yml
+  url: https://artifacts.apis.io/postalcodes-info/openapi/postalcodes-info-lookup-pages-api-openapi.yml
 - filename: postalcodes-info-search-api-openapi.yml
   format: yaml
   label: PostalCodes.info Search API
   slug: postalcodes-info-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalcodes-info/refs/heads/main/openapi/postalcodes-info-search-api-openapi.yml
+  url: https://artifacts.apis.io/postalcodes-info/openapi/postalcodes-info-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: postalcodes-info-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: postalcodes.info\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 14:29:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: postalcodes.info\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/postalcodes-info/refs/heads/main/security/postalcodes-info-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/postalcodes-info/security/postalcodes-info-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Postal Codes

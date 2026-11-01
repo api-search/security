@@ -8,19 +8,19 @@ api_specs:
   label: Endgame Threads API
   slug: end-game-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/end-game/refs/heads/main/openapi/end-game-threads-api-openapi.yml
+  url: https://artifacts.apis.io/end-game/openapi/end-game-threads-api-openapi.yml
 - filename: end-game-internal-api-openapi.yml
   format: yaml
   label: Endgame Internal API
   slug: end-game-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/end-game/refs/heads/main/openapi/end-game-internal-api-openapi.yml
+  url: https://artifacts.apis.io/end-game/openapi/end-game-internal-api-openapi.yml
 - filename: end-game-protected-static-api-openapi.yml
   format: yaml
   label: Endgame Protected Static API
   slug: end-game-protected-static-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/end-game/refs/heads/main/openapi/end-game-protected-static-api-openapi.yml
+  url: https://artifacts.apis.io/end-game/openapi/end-game-protected-static-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/end-gam
   \ tokenUrl: https://login.endgame.io/oauth2/token\n  jwks_uri: https://login.endgame.io/oauth2/jwks\n  introspection_endpoint: https://login.endgame.io/oauth2/introspection\n  registration_endpoint: https://login.endgame.io/oauth2/register\n  dynamic_client_registration: true\n  scopes_ref: scopes/end-game-scopes.yml\n  sources:\n  - https://app.endgame.io/.well-known/oauth-authorization-server\n  - https://docs.endgame.io/api-reference/authentication\ncredentials:\n- kind: api-key\n  prefix: eak_\n  scope_toggle: [Personal, Org-wide]\n  provisioning: https://app.endgame.io/settings/api-keys\n  admin_only: true\n  shown_once: true\n  scope_immutable: true\n  revocation: >-\n    Revoked from the API Keys settings page; immediate. Personal keys are revoked\n    automatically when the owning user leaves the organization.\n- kind: m2m-application\n  provisioning: https://app.endgame.io/settings/applications\n  admin_only: true\n  grant: client_credentials\n  token_endpoint: https://login.endgame.io/oauth2/token\n\
   \  token_format: JWT\n  note: >-\n    Endgame provisions a WorkOS OAuth client and returns a client id and secret; the\n    secret is shown once and can be rotated. Deleting the application revokes all\n    tokens issued under it. Endgame's own docs prefer M2M over org-wide API keys for\n    read-only service integrations because short-lived tokens are easier to contain.\nauthorization:\n  model: principal-based\n  principals:\n  - {principal: user, credentials: [personal API key, user OAuth token], writes: true, reads: 'own threads + every org-published thread'}\n  - {principal: org-wide service identity, credentials: [org-wide API key, M2M application token], writes: false, reads: 'every org-published thread'}\n  mutation_rule: >-\n    Writes require a user identity. Org-wide credentials return 403 FORBIDDEN on\n    create, rename and delete. Only a thread's creator may rename or delete it, even\n    when the thread is published to the organization. Cross-organization access is\n   \
   \ always denied.\n  gap: >-\n    Endgame's own documentation states org-wide write scope is on the roadmap; today\n    a write-capable automation must use a personal API key issued under a dedicated\n    service-account user.\nfailure_modes:\n- {status: 401, code: UNAUTHORIZED, cause: missing, malformed or revoked credential}\n- {status: 403, code: FORBIDDEN, cause: valid credential without permission to mutate this thread}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/end-game/refs/heads/main/authentication/end-game-authentication.yml
+source_yaml_url: https://artifacts.apis.io/end-game/authentication/end-game-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

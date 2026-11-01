@@ -5,25 +5,25 @@ api_specs:
   label: ingest0r Comps API
   slug: ingest0r-com-comps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ingest0r-com/refs/heads/main/openapi/ingest0r-com-comps-api-openapi.yml
+  url: https://artifacts.apis.io/ingest0r-com/openapi/ingest0r-com-comps-api-openapi.yml
 - filename: ingest0r-com-dossier-api-openapi.yml
   format: yaml
   label: ingest0r Dossier API
   slug: ingest0r-com-dossier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ingest0r-com/refs/heads/main/openapi/ingest0r-com-dossier-api-openapi.yml
+  url: https://artifacts.apis.io/ingest0r-com/openapi/ingest0r-com-dossier-api-openapi.yml
 - filename: ingest0r-com-parcel-api-openapi.yml
   format: yaml
   label: ingest0r Parcel API
   slug: ingest0r-com-parcel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ingest0r-com/refs/heads/main/openapi/ingest0r-com-parcel-api-openapi.yml
+  url: https://artifacts.apis.io/ingest0r-com/openapi/ingest0r-com-parcel-api-openapi.yml
 - filename: ingest0r-com-search-api-openapi.yml
   format: yaml
   label: ingest0r Search API
   slug: ingest0r-com-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ingest0r-com/refs/heads/main/openapi/ingest0r-com-search-api-openapi.yml
+  url: https://artifacts.apis.io/ingest0r-com/openapi/ingest0r-com-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: ingest0r-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.ingest0r.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 15:58:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: ingest0r.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ingest0r-com/refs/heads/main/security/ingest0r-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ingest0r-com/security/ingest0r-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

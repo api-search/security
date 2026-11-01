@@ -5,31 +5,31 @@ api_specs:
   label: Hagglebee Accounts API
   slug: hagglebee-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hagglebee/refs/heads/main/openapi/hagglebee-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/hagglebee/openapi/hagglebee-accounts-api-openapi.yml
 - filename: hagglebee-discovery-api-openapi.yml
   format: yaml
   label: Hagglebee Discovery API
   slug: hagglebee-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hagglebee/refs/heads/main/openapi/hagglebee-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/hagglebee/openapi/hagglebee-discovery-api-openapi.yml
 - filename: hagglebee-posts-api-openapi.yml
   format: yaml
   label: Hagglebee Posts API
   slug: hagglebee-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hagglebee/refs/heads/main/openapi/hagglebee-posts-api-openapi.yml
+  url: https://artifacts.apis.io/hagglebee/openapi/hagglebee-posts-api-openapi.yml
 - filename: hagglebee-webhooks-api-openapi.yml
   format: yaml
   label: Hagglebee Webhooks API
   slug: hagglebee-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hagglebee/refs/heads/main/openapi/hagglebee-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/hagglebee/openapi/hagglebee-webhooks-api-openapi.yml
 - filename: hagglebee-oauth-api-openapi.yml
   format: yaml
   label: Hagglebee OAuth API
   slug: hagglebee-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hagglebee/refs/heads/main/openapi/hagglebee-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/hagglebee/openapi/hagglebee-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: hagglebee-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: hagglebee.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 11 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: yawplet.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 11 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: yarnhen.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 11 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: hagglebee.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: yawplet.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hagglebee/refs/heads/main/security/hagglebee-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hagglebee/security/hagglebee-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Agents

@@ -8,25 +8,25 @@ api_specs:
   label: Gooten Orders API
   slug: gooten-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/openapi/gooten-orders-api-openapi.yml
+  url: https://artifacts.apis.io/gooten/openapi/gooten-orders-api-openapi.yml
 - filename: gooten-print-assets-api-openapi.yml
   format: yaml
   label: Gooten Print Assets API
   slug: gooten-print-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/openapi/gooten-print-assets-api-openapi.yml
+  url: https://artifacts.apis.io/gooten/openapi/gooten-print-assets-api-openapi.yml
 - filename: gooten-products-api-openapi.yml
   format: yaml
   label: Gooten Products API
   slug: gooten-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/openapi/gooten-products-api-openapi.yml
+  url: https://artifacts.apis.io/gooten/openapi/gooten-products-api-openapi.yml
 - filename: gooten-shipping-api-openapi.yml
   format: yaml
   label: Gooten Shipping API
   slug: gooten-shipping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/openapi/gooten-shipping-api-openapi.yml
+  url: https://artifacts.apis.io/gooten/openapi/gooten-shipping-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: gooten-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/gooten-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: recipeId\n  type: apiKey\n  in: query\n  parameter: RecipeID\n  description: Public RecipeID from the Gooten Admin, required on every request. Order-writing\n    and billing endpoints additionally require a private PartnerBillingKey query parameter (URL-encoded).\n  sources:\n  - openapi/gooten-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/authentication/gooten-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gooten/authentication/gooten-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Print on Demand

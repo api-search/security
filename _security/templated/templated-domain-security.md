@@ -5,13 +5,13 @@ api_specs:
   label: Templated Renders API
   slug: templated-renders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/templated/refs/heads/main/openapi/templated-renders-api-openapi.yml
+  url: https://artifacts.apis.io/templated/openapi/templated-renders-api-openapi.yml
 - filename: templated-templates-api-openapi.yml
   format: yaml
   label: Templated Templates API
   slug: templated-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/templated/refs/heads/main/openapi/templated-templates-api-openapi.yml
+  url: https://artifacts.apis.io/templated/openapi/templated-templates-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: templated-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: templated.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  1 23:59:59 2026 GMT\n  hsts: false\n- host: api.templated.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  1 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: templated.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/templated/refs/heads/main/security/templated-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/templated/security/templated-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Image Generation

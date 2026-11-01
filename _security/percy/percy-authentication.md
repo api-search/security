@@ -7,25 +7,25 @@ api_specs:
   label: Percy Builds API
   slug: percy-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/percy/refs/heads/main/openapi/percy-builds-api-openapi.yml
+  url: https://artifacts.apis.io/percy/openapi/percy-builds-api-openapi.yml
 - filename: percy-projects-api-openapi.yml
   format: yaml
   label: Percy Projects API
   slug: percy-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/percy/refs/heads/main/openapi/percy-projects-api-openapi.yml
+  url: https://artifacts.apis.io/percy/openapi/percy-projects-api-openapi.yml
 - filename: percy-snapshots-api-openapi.yml
   format: yaml
   label: Percy Snapshots API
   slug: percy-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/percy/refs/heads/main/openapi/percy-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/percy/openapi/percy-snapshots-api-openapi.yml
 - filename: percy-visual-git-api-openapi.yml
   format: yaml
   label: Percy Visual Git API
   slug: percy-visual-git-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/percy/refs/heads/main/openapi/percy-visual-git-api-openapi.yml
+  url: https://artifacts.apis.io/percy/openapi/percy-visual-git-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -63,7 +63,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: sourced\nsource: BrowserStack Percy API reference (builds, snapshots, projects, visual-git)\nsummary:\n  types:\n  - apiKey\n  - http\nschemes:\n- name: projectToken\n  type: apiKey\n  in: header\n  headerName: Authorization\n  description: >-\n    Per-project token used for read operations (list/get on projects, builds, and\n    snapshots, and all Visual Git calls). Passed in the Authorization header using\n    Percy's token scheme - literally `Authorization: Token token=<PROJECT_TOKEN>`.\n    The project token (PERCY_TOKEN) is the same value the Percy CLI/SDK uses to\n    upload snapshots during a build; find it in the project settings in the Percy /\n    BrowserStack dashboard.\n  sources:\n  - https://www.browserstack.com/docs/percy/api-reference/builds\n  - https://www.browserstack.com/docs/percy/api-reference/snapshots\n- name: browserstackBasic\n  type: http\n  scheme: basic\n  description: >-\n    BrowserStack HTTP Basic auth (base64\
   \ of username:accesskey), required for review\n    and write operations - approving/unapproving/rejecting a build, manually failing\n    or deleting a build, and creating or updating a project. Uses your BrowserStack\n    username and access key.\n  sources:\n  - https://www.browserstack.com/docs/percy/api-reference/builds\n  - https://www.browserstack.com/docs/percy/api-reference/projects\nnotes: >-\n  Snapshot capture and upload during a build is performed by the open-source Percy\n  CLI/SDK using the same PERCY_TOKEN project token; that upload path is SDK-internal\n  and is not part of the documented public REST reference.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/percy/refs/heads/main/authentication/percy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/percy/authentication/percy-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Visual Testing

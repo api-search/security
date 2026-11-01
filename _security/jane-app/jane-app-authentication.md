@@ -7,85 +7,85 @@ api_specs:
   label: Jane Appointments API
   slug: jane-app-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/jane-app/openapi/jane-app-appointments-api-openapi.yml
 - filename: jane-app-catalog-api-openapi.yml
   format: yaml
   label: Jane Catalog API
   slug: jane-app-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/jane-app/openapi/jane-app-catalog-api-openapi.yml
 - filename: jane-app-company-api-openapi.yml
   format: yaml
   label: Jane Company API
   slug: jane-app-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-company-api-openapi.yml
+  url: https://artifacts.apis.io/jane-app/openapi/jane-app-company-api-openapi.yml
 - filename: jane-app-disciplines-api-openapi.yml
   format: yaml
   label: Jane Disciplines API
   slug: jane-app-disciplines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-disciplines-api-openapi.yml
+  url: https://artifacts.apis.io/jane-app/openapi/jane-app-disciplines-api-openapi.yml
 - filename: jane-app-documentuploads-api-openapi.yml
   format: yaml
   label: Jane Document Uploads API
   slug: jane-app-documentuploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-documentuploads-api-openapi.yml
+  url: https://artifacts.apis.io/jane-app/openapi/jane-app-documentuploads-api-openapi.yml
 - filename: jane-app-extensions-api-openapi.yml
   format: yaml
   label: Jane Extensions API
   slug: jane-app-extensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-extensions-api-openapi.yml
+  url: https://artifacts.apis.io/jane-app/openapi/jane-app-extensions-api-openapi.yml
 - filename: jane-app-locations-api-openapi.yml
   format: yaml
   label: Jane Locations API
   slug: jane-app-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-locations-api-openapi.yml
+  url: https://artifacts.apis.io/jane-app/openapi/jane-app-locations-api-openapi.yml
 - filename: jane-app-medications-api-openapi.yml
   format: yaml
   label: Jane Medications API
   slug: jane-app-medications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-medications-api-openapi.yml
+  url: https://artifacts.apis.io/jane-app/openapi/jane-app-medications-api-openapi.yml
 - filename: jane-app-observations-api-openapi.yml
   format: yaml
   label: Jane Observations API
   slug: jane-app-observations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-observations-api-openapi.yml
+  url: https://artifacts.apis.io/jane-app/openapi/jane-app-observations-api-openapi.yml
 - filename: jane-app-patients-api-openapi.yml
   format: yaml
   label: Jane Patients API
   slug: jane-app-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-patients-api-openapi.yml
+  url: https://artifacts.apis.io/jane-app/openapi/jane-app-patients-api-openapi.yml
 - filename: jane-app-treatments-api-openapi.yml
   format: yaml
   label: Jane Treatments API
   slug: jane-app-treatments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-treatments-api-openapi.yml
+  url: https://artifacts.apis.io/jane-app/openapi/jane-app-treatments-api-openapi.yml
 - filename: jane-app-webhooks-api-openapi.yml
   format: yaml
   label: Jane Webhooks API
   slug: jane-app-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/jane-app/openapi/jane-app-webhooks-api-openapi.yml
 - filename: jane-app-care-plans-api-openapi.yml
   format: yaml
   label: Jane Care Plans API
   slug: jane-app-care-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-care-plans-api-openapi.yml
+  url: https://artifacts.apis.io/jane-app/openapi/jane-app-care-plans-api-openapi.yml
 - filename: jane-app-staff-members-api-openapi.yml
   format: yaml
   label: Jane Staff Members API
   slug: jane-app-staff-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-staff-members-api-openapi.yml
+  url: https://artifacts.apis.io/jane-app/openapi/jane-app-staff-members-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -141,7 +141,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-24'\nmethod: searched\nsource: openapi/jane-app-jdp-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  pkce: required (S256)\n  identity_provider: Keycloak\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.id.janeapp.com/realms/jane_partner_sandbox/protocol/openid-connect/auth?response_type=code&resource=https://jdpdocsdemo.jane.qa&prompt=consent\n    tokenUrl: https://login.id.janeapp.com/realms/jane_partner_sandbox/protocol/openid-connect/token\n    scopes: 27\n  description: 'OAuth2 authorization code flow with PKCE (Proof Key for Code Exchange) support.\n\n\n    **PKCE Flow Required**: All integrations must use PKCE flow for authentication.\n\n\n    **PKCE Benefits:**\n\n    - Enhanced security against authorization code interception attacks\n\n    - S256 code challenge method supported\n\n    - Industry best practice for OAuth2 implementations\n\
   \n\n    **Implementation**: Use the authorization code flow with PK'\n  sources:\n  - openapi/jane-app-jdp-openapi.yml\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/jane-app-jdp-openapi.yml\ndocs: https://developers.jane.app/docs/getting-started\noidc_discovery:\n  production: https://login.id.janeapp.com/realms/jane/.well-known/openid-configuration\n  sandbox: https://login.id.janeapp.com/realms/jane_partner_sandbox/.well-known/openid-configuration\n  oauth_authorization_server: https://login.id.janeapp.com/realms/jane/.well-known/oauth-authorization-server\n  saved:\n  - well-known/jane-app-prod-openid-configuration.json\n  - well-known/jane-app-sandbox-openid-configuration.json\n  - well-known/jane-app-oauth-authorization-server.json\nendpoints:\n  authorization: https://login.id.janeapp.com/realms/{realm}/protocol/openid-connect/auth\n  token: https://login.id.janeapp.com/realms/{realm}/protocol/openid-connect/token\n  introspection:\
   \ https://login.id.janeapp.com/realms/{realm}/protocol/openid-connect/token/introspect\n  revocation: https://login.id.janeapp.com/realms/{realm}/protocol/openid-connect/revoke\n  jwks: https://login.id.janeapp.com/realms/{realm}/protocol/openid-connect/certs\n  realms:\n    production: jane\n    sandbox: jane_partner_sandbox\ntokens:\n  format: RS256-signed JWT\n  type: Bearer\n  access_token_ttl: 300s (5 min)\n  refresh_token_ttl: 1800s (30 min)\n  code_challenge_methods:\n  - S256\n  claims:\n  - exp\n  - iat\n  - jti\n  - iss\n  - aud\n  - sub\n  - azp\n  - resource_access\n  - resource_owner\n  - scope\nnote: OAuth 2.0 Authorization Code + PKCE over OIDC (Keycloak). BearerAuth (http/bearer JWT) is the resource-server\n  token presentation. Not SMART-on-FHIR.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/authentication/jane-app-authentication.yml
+source_yaml_url: https://artifacts.apis.io/jane-app/authentication/jane-app-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Healthcare

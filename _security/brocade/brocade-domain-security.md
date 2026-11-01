@@ -5,37 +5,37 @@ api_specs:
   label: Brocade Chassis API
   slug: brocade-chassis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/openapi/brocade-chassis-api-openapi.yml
+  url: https://artifacts.apis.io/brocade/openapi/brocade-chassis-api-openapi.yml
 - filename: brocade-interfaces-api-openapi.yml
   format: yaml
   label: Brocade Interfaces API
   slug: brocade-interfaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/openapi/brocade-interfaces-api-openapi.yml
+  url: https://artifacts.apis.io/brocade/openapi/brocade-interfaces-api-openapi.yml
 - filename: brocade-operations-api-openapi.yml
   format: yaml
   label: Brocade Operations API
   slug: brocade-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/openapi/brocade-operations-api-openapi.yml
+  url: https://artifacts.apis.io/brocade/openapi/brocade-operations-api-openapi.yml
 - filename: brocade-session-api-openapi.yml
   format: yaml
   label: Brocade Session API
   slug: brocade-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/openapi/brocade-session-api-openapi.yml
+  url: https://artifacts.apis.io/brocade/openapi/brocade-session-api-openapi.yml
 - filename: brocade-switch-api-openapi.yml
   format: yaml
   label: Brocade Switch API
   slug: brocade-switch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/openapi/brocade-switch-api-openapi.yml
+  url: https://artifacts.apis.io/brocade/openapi/brocade-switch-api-openapi.yml
 - filename: brocade-zoning-api-openapi.yml
   format: yaml
   label: Brocade Zoning API
   slug: brocade-zoning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/openapi/brocade-zoning-api-openapi.yml
+  url: https://artifacts.apis.io/brocade/openapi/brocade-zoning-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: brocade-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: techdocs.broadcom.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 23 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.broadcom.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 20 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.broadcom.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 20 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: broadcom.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/security/brocade-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/brocade/security/brocade-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Data Center

@@ -8,7 +8,7 @@ api_specs:
   label: Seam AI Completions API
   slug: seam-ai-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seam-ai/refs/heads/main/openapi/seam-ai-completions-api-openapi.yml
+  url: https://artifacts.apis.io/seam-ai/openapi/seam-ai-completions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -35,7 +35,7 @@ source_filename: seam-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/seam-ai-enrichment-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: APIKeyHeader\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/seam-ai-enrichment-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seam-ai/refs/heads/main/authentication/seam-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/seam-ai/authentication/seam-ai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

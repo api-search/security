@@ -5,37 +5,37 @@ api_specs:
   label: Sonar Issues API
   slug: sonar-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonar/refs/heads/main/openapi/sonar-issues-api-openapi.yml
+  url: https://artifacts.apis.io/sonar/openapi/sonar-issues-api-openapi.yml
 - filename: sonar-measures-api-openapi.yml
   format: yaml
   label: Sonar Measures API
   slug: sonar-measures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonar/refs/heads/main/openapi/sonar-measures-api-openapi.yml
+  url: https://artifacts.apis.io/sonar/openapi/sonar-measures-api-openapi.yml
 - filename: sonar-organizations-api-openapi.yml
   format: yaml
   label: Sonar Organizations API
   slug: sonar-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonar/refs/heads/main/openapi/sonar-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/sonar/openapi/sonar-organizations-api-openapi.yml
 - filename: sonar-projects-api-openapi.yml
   format: yaml
   label: Sonar Projects API
   slug: sonar-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonar/refs/heads/main/openapi/sonar-projects-api-openapi.yml
+  url: https://artifacts.apis.io/sonar/openapi/sonar-projects-api-openapi.yml
 - filename: sonar-quality-gates-api-openapi.yml
   format: yaml
   label: Sonar Quality Gates API
   slug: sonar-quality-gates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonar/refs/heads/main/openapi/sonar-quality-gates-api-openapi.yml
+  url: https://artifacts.apis.io/sonar/openapi/sonar-quality-gates-api-openapi.yml
 - filename: sonar-user-tokens-api-openapi.yml
   format: yaml
   label: Sonar User Tokens API
   slug: sonar-user-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonar/refs/heads/main/openapi/sonar-user-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/sonar/openapi/sonar-user-tokens-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -96,7 +96,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sonarsource.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.sonarsource.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 16:14:33 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: sonarcloud.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  3 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: sonarsource.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 128 iodef \"mailto:infra@sonarsource.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: sonarcloud.io\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issuewild \"amazontrust.com\"\
   \n  - 0 issue \"digicert.com\"\n  - 128 iodef \"mailto:infra@sonarsource.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sonar/refs/heads/main/security/sonar-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sonar/security/sonar-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - CI/CD

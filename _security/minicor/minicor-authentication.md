@@ -9,7 +9,7 @@ api_specs:
   label: Minicor External API
   slug: minicor-external-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/openapi/minicor-external-api-openapi.yml
+  url: https://artifacts.apis.io/minicor/openapi/minicor-external-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -45,7 +45,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/minicor-openapi.json\ndocs: https://docs.laminar.run/running-an-integration/api-key\nnotes: >-\n  The Laminar external API authenticates with an API key, supplied either as the\n  api_key query parameter (documented primary method) or the X-API-KEY request\n  header. Keys are created and managed in workspace settings. Separately, the\n  Laminar workflow engine can store downstream target-API credentials\n  (AuthCredentials) supporting OAuth client-credentials, OAuth password grant,\n  API key, bearer token, basic and custom auth for the protected endpoints a\n  workflow calls; those are per-workflow secrets, not the Laminar API auth.\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: api-key-query\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: API key authentication via query parameter\n  sources:\n  - openapi/minicor-openapi.json\n- name: api-key\n  type: apiKey\n\
   \  in: header\n  parameter: X-API-KEY\n  description: API key authentication via header\n  sources:\n  - openapi/minicor-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/authentication/minicor-authentication.yml
+source_yaml_url: https://artifacts.apis.io/minicor/authentication/minicor-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company

@@ -27,12 +27,12 @@ source_filename: companion-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-10'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: companion.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 16 11:36:56 2026 GMT\n  hsts: false\ndomains:\n- domain: companion.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/companion/refs/heads/main/security/companion-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/companion/security/companion-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Artificial Intelligence
 - Communications
-- interface
+- Interfaces
 - Intelligence
 - Platform
 ---

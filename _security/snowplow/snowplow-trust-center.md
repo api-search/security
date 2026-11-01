@@ -5,19 +5,19 @@ api_specs:
   label: Snowplow Authentication API
   slug: snowplow-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/openapi/snowplow-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/snowplow/openapi/snowplow-authentication-api-openapi.yml
 - filename: snowplow-data-products-api-openapi.yml
   format: yaml
   label: Snowplow Data Products API
   slug: snowplow-data-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/openapi/snowplow-data-products-api-openapi.yml
+  url: https://artifacts.apis.io/snowplow/openapi/snowplow-data-products-api-openapi.yml
 - filename: snowplow-data-structures-api-openapi.yml
   format: yaml
   label: Snowplow Data Structures API
   slug: snowplow-data-structures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/openapi/snowplow-data-structures-api-openapi.yml
+  url: https://artifacts.apis.io/snowplow/openapi/snowplow-data-structures-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -37,7 +37,7 @@ source_filename: snowplow-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://snowplow.io/security\nurl: https://snowplow.io/security\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\n- GDPR\nevidence:\n- source: https://snowplow.io/security\n  keywords:\n  - soc 2\n  - iso 27001\n  - hipaa\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/security/snowplow-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/snowplow/security/snowplow-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Analytics Platform

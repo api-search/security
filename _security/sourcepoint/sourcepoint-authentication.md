@@ -8,37 +8,37 @@ api_specs:
   label: Sourcepoint GDPR reporting API
   slug: sourcepoint-gdpr-reporting-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/openapi/sourcepoint-gdpr-reporting-api-api-openapi.yml
+  url: https://artifacts.apis.io/sourcepoint/openapi/sourcepoint-gdpr-reporting-api-api-openapi.yml
 - filename: sourcepoint-gdpr-tcf-end-user-consent-status-api-openapi.yml
   format: yaml
   label: Sourcepoint GDPR TCF end-user consent status API
   slug: sourcepoint-gdpr-tcf-end-user-consent-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/openapi/sourcepoint-gdpr-tcf-end-user-consent-status-api-openapi.yml
+  url: https://artifacts.apis.io/sourcepoint/openapi/sourcepoint-gdpr-tcf-end-user-consent-status-api-openapi.yml
 - filename: sourcepoint-gdpr-tcf-vendor-list-api-openapi.yml
   format: yaml
   label: Sourcepoint GDPR TCF vendor list API
   slug: sourcepoint-gdpr-tcf-vendor-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/openapi/sourcepoint-gdpr-tcf-vendor-list-api-openapi.yml
+  url: https://artifacts.apis.io/sourcepoint/openapi/sourcepoint-gdpr-tcf-vendor-list-api-openapi.yml
 - filename: sourcepoint-preferences-end-user-history-api-openapi.yml
   format: yaml
   label: Sourcepoint Preferences end-user history API
   slug: sourcepoint-preferences-end-user-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/openapi/sourcepoint-preferences-end-user-history-api-openapi.yml
+  url: https://artifacts.apis.io/sourcepoint/openapi/sourcepoint-preferences-end-user-history-api-openapi.yml
 - filename: sourcepoint-u-s-multi-state-privacy-end-user-consent-status-api-openapi.yml
   format: yaml
   label: Sourcepoint U.S. Multi-State Privacy end-user consent status API
   slug: sourcepoint-u-s-multi-state-privacy-end-user-consent-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/openapi/sourcepoint-u-s-multi-state-privacy-end-user-consent-status-api-openapi.yml
+  url: https://artifacts.apis.io/sourcepoint/openapi/sourcepoint-u-s-multi-state-privacy-end-user-consent-status-api-openapi.yml
 - filename: sourcepoint-u-s-multi-state-privacy-reporting-api-api-openapi.yml
   format: yaml
   label: Sourcepoint U.S. Multi-State Privacy reporting API
   slug: sourcepoint-u-s-multi-state-privacy-reporting-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/openapi/sourcepoint-u-s-multi-state-privacy-reporting-api-api-openapi.yml
+  url: https://artifacts.apis.io/sourcepoint/openapi/sourcepoint-u-s-multi-state-privacy-reporting-api-api-openapi.yml
 auth_types:
 - apiKey
 - none
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: https://sourcep
   \  observed: POST to https://portal.sourcepoint.com/api/external/v1/reports/tcfv2/dashboard-v2-pv-users/day\n    with no key returned HTTP 403 \"no route access\" (2026-08-12), not the 401 the spec models.\n- name: None (property-scoped)\n  type: none\n  applies_to:\n  - openapi/sourcepoint-gdpr-tcf-openapi.yml\n  - openapi/sourcepoint-gdpr-standard-openapi.yml\n  - openapi/sourcepoint-usnat-openapi.yml\n  - openapi/sourcepoint-global-enterprise-openapi.yml\n  - openapi/sourcepoint-preferences-openapi.yml\n  note: No securityScheme is declared on any of the 17 consent, vendor-list and preferences operations.\n    Access is scoped by knowing the property id (siteId/propertyId/accountId) together with the end-user\n    identifier (consentUUID / usnatUUID / globalcmpUUID / uuid) or the customer-supplied authId. These\n    endpoints are served from the same CDN host the browser CMP calls, and an anonymous GET against the\n    vendor-list operation returned an application-level 404 (\"no active\
   \ vl for siteId\") rather than an\n    auth challenge, confirming they answer without credentials.\n  implication: Consent read and DELETE operations are addressed by identifier alone. Treat the UUIDs and\n    authId as capability tokens, never log them, and expect no auth error to distinguish \"wrong id\" from\n    \"not permitted\".\nauthenticated_consent:\n  mechanism: authId\n  description: A customer-supplied identifier passed to the CMP so an end-user consent profile follows\n    them across devices and sessions; usable in place of the per-regulation UUID on every consent operation.\n  docs: https://docs.sourcepoint.com/hc/en-us/articles/4403274791699-Authenticated-consent\noauth:\n  supported: false\n  note: No OAuth 2.0 or OIDC anywhere; /.well-known/openid-configuration and /.well-known/oauth-authorization-server\n    miss on every host. No scopes/ artifact is emitted.\nmcp:\n  endpoint: https://sourcepoint-public-api.readme.io/mcp\n  auth: required\n  observed: HTTP 401 {\"jsonrpc\"\
   :\"2.0\",\"error\":{\"code\":-32001,\"message\":\"Authorization required\"}}\n  note: No WWW-Authenticate header and no /.well-known/oauth-protected-resource (404), so there is no\n    advertised way for an agent to obtain the credential.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/authentication/sourcepoint-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sourcepoint/authentication/sourcepoint-authentication.yml
 summary_line: apiKey/none · 2 schemes
 tags:
 - Privacy

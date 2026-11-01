@@ -5,13 +5,13 @@ api_specs:
   label: Plasmic Items API
   slug: plasmic-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plasmic/refs/heads/main/openapi/plasmic-items-api-openapi.yml
+  url: https://artifacts.apis.io/plasmic/openapi/plasmic-items-api-openapi.yml
 - filename: plasmic-rows-api-openapi.yml
   format: yaml
   label: Plasmic Rows API
   slug: plasmic-rows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plasmic/refs/heads/main/openapi/plasmic-rows-api-openapi.yml
+  url: https://artifacts.apis.io/plasmic/openapi/plasmic-rows-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: plasmic-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.plasmic.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 04:03:50 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: studio.plasmic.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 08:37:01 2026 GMT\n  hsts: false\n- host: docs.plasmic.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 19:48:00 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: plasmic.app\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plasmic/refs/heads/main/security/plasmic-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/plasmic/security/plasmic-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Visual Builder

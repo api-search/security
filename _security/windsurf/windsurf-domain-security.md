@@ -5,31 +5,31 @@ api_specs:
   label: Windsurf CascadeAnalytics API
   slug: windsurf-cascadeanalytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurf-cascadeanalytics-api-openapi.yml
+  url: https://artifacts.apis.io/windsurf/openapi/windsurf-cascadeanalytics-api-openapi.yml
 - filename: windsurf-creditbalance-api-openapi.yml
   format: yaml
   label: Windsurf CreditBalance API
   slug: windsurf-creditbalance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurf-creditbalance-api-openapi.yml
+  url: https://artifacts.apis.io/windsurf/openapi/windsurf-creditbalance-api-openapi.yml
 - filename: windsurf-customanalytics-api-openapi.yml
   format: yaml
   label: Windsurf CustomAnalytics API
   slug: windsurf-customanalytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurf-customanalytics-api-openapi.yml
+  url: https://artifacts.apis.io/windsurf/openapi/windsurf-customanalytics-api-openapi.yml
 - filename: windsurf-usageconfiguration-api-openapi.yml
   format: yaml
   label: Windsurf UsageConfiguration API
   slug: windsurf-usageconfiguration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurf-usageconfiguration-api-openapi.yml
+  url: https://artifacts.apis.io/windsurf/openapi/windsurf-usageconfiguration-api-openapi.yml
 - filename: windsurf-user-analytics-api-openapi.yml
   format: yaml
   label: Windsurf User Analytics API
   slug: windsurf-user-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurf-user-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/windsurf/openapi/windsurf-user-analytics-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -77,7 +77,7 @@ source_filename: windsurf-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: windsurf.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 12:51:55 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: server.codeium.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 22:42:07 2026 GMT\n  hsts: null\ndomains:\n- domain: windsurf.com\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: codeium.com\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/security/windsurf-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/windsurf/security/windsurf-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Artificial Intelligence

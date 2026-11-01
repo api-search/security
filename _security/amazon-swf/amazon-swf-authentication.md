@@ -8,7 +8,13 @@ api_specs:
   label: Amazon Simple Workflow Service Amazon Simple Workflow Service API
   slug: amazon-swf-amazon-simple-workflow-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-swf/refs/heads/main/openapi/amazon-swf-amazon-simple-workflow-service-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-swf/openapi/amazon-swf-amazon-simple-workflow-service-api-openapi.yml
+- filename: amazon-swf-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Simple Workflow Service Swf Operations API
+  slug: amazon-swf-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-swf/openapi/amazon-swf-operations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +42,7 @@ source_filename: amazon-swf-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-swf-openapi-original.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-swf-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-swf/refs/heads/main/authentication/amazon-swf-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-swf/authentication/amazon-swf-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Automation

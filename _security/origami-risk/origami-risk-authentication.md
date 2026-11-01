@@ -8,31 +8,31 @@ api_specs:
   label: Origami Risk Authentication API
   slug: origami-risk-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origami-risk/refs/heads/main/openapi/origami-risk-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/origami-risk/openapi/origami-risk-authentication-api-openapi.yml
 - filename: origami-risk-hastokenexpired-api-openapi.yml
   format: yaml
   label: Origami Risk Has Token Expired API
   slug: origami-risk-hastokenexpired-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origami-risk/refs/heads/main/openapi/origami-risk-hastokenexpired-api-openapi.yml
+  url: https://artifacts.apis.io/origami-risk/openapi/origami-risk-hastokenexpired-api-openapi.yml
 - filename: origami-risk-new-endpoint-1-api-openapi.yml
   format: yaml
   label: Origami Risk New Endpoint 1 API
   slug: origami-risk-new-endpoint-1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origami-risk/refs/heads/main/openapi/origami-risk-new-endpoint-1-api-openapi.yml
+  url: https://artifacts.apis.io/origami-risk/openapi/origami-risk-new-endpoint-1-api-openapi.yml
 - filename: origami-risk-new-endpoint-api-openapi.yml
   format: yaml
   label: Origami Risk New Endpoint API
   slug: origami-risk-new-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origami-risk/refs/heads/main/openapi/origami-risk-new-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/origami-risk/openapi/origami-risk-new-endpoint-api-openapi.yml
 - filename: origami-risk-requests-api-openapi.yml
   format: yaml
   label: Origami Risk Requests API
   slug: origami-risk-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origami-risk/refs/heads/main/openapi/origami-risk-requests-api-openapi.yml
+  url: https://artifacts.apis.io/origami-risk/openapi/origami-risk-requests-api-openapi.yml
 auth_types:
 - apiKey
 - token-endpoint
@@ -157,7 +157,7 @@ source_yaml: "generated: '2026-07-25'\nmethod: searched\nsource: https://develop
   \  - name: content-type\n    required: true\n    description: >-\n      Content type of the call (e.g. application/json). Omitted for GET calls, where it\n      does not apply.\n  - name: x-api-date\n    required: true\n    description: >-\n      Request date in the format \"yyyy-MM-dd HH:mm:ss zzzz\" (e.g. 2018-10-10 22:57:40\n      -05:00). Requests with a date older than 120 seconds are rejected.\n  - name: x-api-key\n    required: true\n    description: Key identifier string for the calling client application, provided during API setup.\n  - name: x-api-signature\n    required: true\n    description: Base64-encoded HMAC-SHA1 hash of the canonical string.\n  - name: x-api-clientname\n    required: false\n    description: >-\n      For API accounts with cross-client access, selects the Client Name for the\n      connection. Not required for single-client accounts.\n  string_to_sign: >-\n    Concatenate with no separators: HTTP method verb (UPPER CASE) + content type\n    (empty string\
   \ when no content-type header was sent) + request date (matching\n    x-api-date) + request URI path and query without the host (e.g.\n    /OrigamiApi/api/Webhook/GetHandlers) + the secret key issued at API setup. HMAC-SHA1\n    that input using x-api-key, then base64-encode the result.\n  replay_window_seconds: 120\n  code_samples_published:\n  - C#\n  - Python\n  - PHP\n  - Java\n  - JavaScript (Node.js)\n  - Ruby\n- name: Token expiry check\n  type: utility\n  endpoint: GET /Authentication/HasTokenExpired\n  docs: https://developers.origamirisk.com/reference/check-if-api-token-has-expired\n  note: Confirms whether a previously issued token is still valid.\n- name: Availability ping\n  type: utility\n  endpoint: GET /Authentication/Ping\n  docs: https://developers.origamirisk.com/reference/ping\n  note: Availability probe published alongside the authentication surface.\noidc_discovery: false\noauth_authorization_server_metadata: false\nnotes:\n- No /.well-known/openid-configuration or\
   \ /.well-known/oauth-authorization-server is\n  served on any Origami Risk host (probed 2026-07-25, all 404).\n- No OAuth scopes are documented; authorization is governed by the Origami user's\n  configured permissions and client scoping, not by scope strings.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/origami-risk/refs/heads/main/authentication/origami-risk-authentication.yml
+source_yaml_url: https://artifacts.apis.io/origami-risk/authentication/origami-risk-authentication.yml
 summary_line: apiKey/token-endpoint/hmac · 6 schemes
 tags:
 - Insurance

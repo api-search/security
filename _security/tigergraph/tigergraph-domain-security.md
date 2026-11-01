@@ -5,31 +5,31 @@ api_specs:
   label: TigerGraph Authentication API
   slug: tigergraph-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tigergraph/refs/heads/main/openapi/tigergraph-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/tigergraph/openapi/tigergraph-authentication-api-openapi.yml
 - filename: tigergraph-data-api-openapi.yml
   format: yaml
   label: TigerGraph Data API
   slug: tigergraph-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tigergraph/refs/heads/main/openapi/tigergraph-data-api-openapi.yml
+  url: https://artifacts.apis.io/tigergraph/openapi/tigergraph-data-api-openapi.yml
 - filename: tigergraph-query-api-openapi.yml
   format: yaml
   label: TigerGraph Query API
   slug: tigergraph-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tigergraph/refs/heads/main/openapi/tigergraph-query-api-openapi.yml
+  url: https://artifacts.apis.io/tigergraph/openapi/tigergraph-query-api-openapi.yml
 - filename: tigergraph-schema-api-openapi.yml
   format: yaml
   label: TigerGraph Schema API
   slug: tigergraph-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tigergraph/refs/heads/main/openapi/tigergraph-schema-api-openapi.yml
+  url: https://artifacts.apis.io/tigergraph/openapi/tigergraph-schema-api-openapi.yml
 - filename: tigergraph-system-api-openapi.yml
   format: yaml
   label: TigerGraph System API
   slug: tigergraph-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tigergraph/refs/heads/main/openapi/tigergraph-system-api-openapi.yml
+  url: https://artifacts.apis.io/tigergraph/openapi/tigergraph-system-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -72,7 +72,7 @@ source_filename: tigergraph-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tigergraph.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  8 23:59:59 2027 GMT\n  hsts: false\n- host: docs.tigergraph.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 10:01:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: <workspace-id>.i.tgcloud.io\n  https: false\ndomains:\n- domain: tigergraph.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: tgcloud.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tigergraph/refs/heads/main/security/tigergraph-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tigergraph/security/tigergraph-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Graph Database

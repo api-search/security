@@ -7,25 +7,25 @@ api_specs:
   label: Splitit Authentication API
   slug: splitit-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splitit/refs/heads/main/openapi/splitit-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/splitit/openapi/splitit-authentication-api-openapi.yml
 - filename: splitit-eligibility-api-openapi.yml
   format: yaml
   label: Splitit Eligibility API
   slug: splitit-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splitit/refs/heads/main/openapi/splitit-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/splitit/openapi/splitit-eligibility-api-openapi.yml
 - filename: splitit-installment-plans-api-openapi.yml
   format: yaml
   label: Splitit Installment Plans API
   slug: splitit-installment-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splitit/refs/heads/main/openapi/splitit-installment-plans-api-openapi.yml
+  url: https://artifacts.apis.io/splitit/openapi/splitit-installment-plans-api-openapi.yml
 - filename: splitit-merchant-management-api-openapi.yml
   format: yaml
   label: Splitit Merchant Management API
   slug: splitit-merchant-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splitit/refs/heads/main/openapi/splitit-merchant-management-api-openapi.yml
+  url: https://artifacts.apis.io/splitit/openapi/splitit-merchant-management-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -53,7 +53,7 @@ source_filename: splitit-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/splitit-account-management-api.yml, openapi/splitit-installments-api-v3.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/splitit-account-management-api.yml\n  - openapi/splitit-installments-api-v3.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/splitit/refs/heads/main/authentication/splitit-authentication.yml
+source_yaml_url: https://artifacts.apis.io/splitit/authentication/splitit-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Payments

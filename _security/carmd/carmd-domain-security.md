@@ -5,7 +5,7 @@ api_specs:
   label: CarMD Vehicle API
   slug: carmd
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carmd/refs/heads/main/openapi/carmd-openapi.yml
+  url: https://artifacts.apis.io/carmd/openapi/carmd-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -37,7 +37,7 @@ source_filename: carmd-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: carmd.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 20:04:32 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\n- host: api.carmd.com\n  https: false\ndomains:\n- domain: carmd.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carmd/refs/heads/main/security/carmd-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/carmd/security/carmd-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Automobiles

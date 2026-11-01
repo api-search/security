@@ -20,37 +20,37 @@ api_specs:
   label: PlayHT Agents API
   slug: playht-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/openapi/playht-agents-api-openapi.yml
+  url: https://artifacts.apis.io/playht/openapi/playht-agents-api-openapi.yml
 - filename: playht-conversations-api-openapi.yml
   format: yaml
   label: PlayHT Conversations API
   slug: playht-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/openapi/playht-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/playht/openapi/playht-conversations-api-openapi.yml
 - filename: playht-external-functions-api-openapi.yml
   format: yaml
   label: PlayHT External Functions API
   slug: playht-external-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/openapi/playht-external-functions-api-openapi.yml
+  url: https://artifacts.apis.io/playht/openapi/playht-external-functions-api-openapi.yml
 - filename: playht-playnote-api-openapi.yml
   format: yaml
   label: PlayHT PlayNote API
   slug: playht-playnote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/openapi/playht-playnote-api-openapi.yml
+  url: https://artifacts.apis.io/playht/openapi/playht-playnote-api-openapi.yml
 - filename: playht-tts-api-openapi.yml
   format: yaml
   label: PlayHT TTS API
   slug: playht-tts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/openapi/playht-tts-api-openapi.yml
+  url: https://artifacts.apis.io/playht/openapi/playht-tts-api-openapi.yml
 - filename: playht-voices-api-openapi.yml
   format: yaml
   label: PlayHT Voices API
   slug: playht-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/openapi/playht-voices-api-openapi.yml
+  url: https://artifacts.apis.io/playht/openapi/playht-voices-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -85,11 +85,10 @@ source_filename: playht-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/playht-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: AUTHORIZATION\n  description: Secret API key issued in the PlayAI console.\n  sources:\n  - openapi/playht-openapi.yml\n- name: userId\n  type: apiKey\n  in: header\n  parameter: X-USER-ID\n  description: PlayAI user identifier paired with the API key.\n  sources:\n  - openapi/playht-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/authentication/playht-authentication.yml
+source_yaml_url: https://artifacts.apis.io/playht/authentication/playht-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Voice
-- TTS
 - Text-to-Speech
 - Voice Cloning
 - Voice Agents

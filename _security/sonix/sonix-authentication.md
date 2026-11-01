@@ -7,37 +7,37 @@ api_specs:
   label: Sonix AI Analysis API
   slug: sonix-ai-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonix/refs/heads/main/openapi/sonix-ai-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/sonix/openapi/sonix-ai-analysis-api-openapi.yml
 - filename: sonix-exports-api-openapi.yml
   format: yaml
   label: Sonix Exports API
   slug: sonix-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonix/refs/heads/main/openapi/sonix-exports-api-openapi.yml
+  url: https://artifacts.apis.io/sonix/openapi/sonix-exports-api-openapi.yml
 - filename: sonix-folders-api-openapi.yml
   format: yaml
   label: Sonix Folders API
   slug: sonix-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonix/refs/heads/main/openapi/sonix-folders-api-openapi.yml
+  url: https://artifacts.apis.io/sonix/openapi/sonix-folders-api-openapi.yml
 - filename: sonix-media-api-openapi.yml
   format: yaml
   label: Sonix Media API
   slug: sonix-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonix/refs/heads/main/openapi/sonix-media-api-openapi.yml
+  url: https://artifacts.apis.io/sonix/openapi/sonix-media-api-openapi.yml
 - filename: sonix-transcripts-api-openapi.yml
   format: yaml
   label: Sonix Transcripts API
   slug: sonix-transcripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonix/refs/heads/main/openapi/sonix-transcripts-api-openapi.yml
+  url: https://artifacts.apis.io/sonix/openapi/sonix-transcripts-api-openapi.yml
 - filename: sonix-translations-api-openapi.yml
   format: yaml
   label: Sonix Translations API
   slug: sonix-translations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonix/refs/heads/main/openapi/sonix-translations-api-openapi.yml
+  url: https://artifacts.apis.io/sonix/openapi/sonix-translations-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -65,7 +65,7 @@ source_filename: sonix-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sonix-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    Sonix API key passed as `Authorization: Bearer <API Key>`. Subscribers\n    retrieve their key at https://my.sonix.ai/api; trial accounts request one\n    from Sonix support. The current API version is v1 at https://api.sonix.ai/v1.\n  sources:\n  - openapi/sonix-openapi.yml\n  - https://sonix.ai/docs/api\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sonix/refs/heads/main/authentication/sonix-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sonix/authentication/sonix-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Audio Transcription

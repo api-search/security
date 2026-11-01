@@ -41,7 +41,7 @@ source_filename: goose-insurance-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.gooseinsurance.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 23:06:56 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.gooseinsurance.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 23:31:27 2026 GMT\n  hsts: false\n  note: >-\n    Private Heroku-fronted mobile-app backend (server: Heroku, heroku-nel\n    reporting headers). Answers HTTP/2 404 at every probed path; no HSTS header\n    is returned. Not a documented product API.\n- host: support.gooseinsurance.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 23:40:22 2026 GMT\n  hsts: true\n  hsts_max_age: 259200\n  note: Zendesk consumer help center; blocks non-browser agents (403).\ndomains:\n- domain: gooseinsurance.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goose-insurance/refs/heads/main/security/goose-insurance-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/goose-insurance/security/goose-insurance-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance

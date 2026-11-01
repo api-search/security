@@ -7,31 +7,31 @@ api_specs:
   label: Acrux Core Account API
   slug: acruxcore-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acruxcore/refs/heads/main/openapi/acruxcore-account-api-openapi.yml
+  url: https://artifacts.apis.io/acruxcore/openapi/acruxcore-account-api-openapi.yml
 - filename: acruxcore-acrux-core-api-api-openapi.yml
   format: yaml
   label: Acrux Core Acrux Core API
   slug: acruxcore-acrux-core-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acruxcore/refs/heads/main/openapi/acruxcore-acrux-core-api-api-openapi.yml
+  url: https://artifacts.apis.io/acruxcore/openapi/acruxcore-acrux-core-api-api-openapi.yml
 - filename: acruxcore-prompts-api-openapi.yml
   format: yaml
   label: Acrux Core Prompts API
   slug: acruxcore-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acruxcore/refs/heads/main/openapi/acruxcore-prompts-api-openapi.yml
+  url: https://artifacts.apis.io/acruxcore/openapi/acruxcore-prompts-api-openapi.yml
 - filename: acruxcore-tools-api-openapi.yml
   format: yaml
   label: Acrux Core Tools API
   slug: acruxcore-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acruxcore/refs/heads/main/openapi/acruxcore-tools-api-openapi.yml
+  url: https://artifacts.apis.io/acruxcore/openapi/acruxcore-tools-api-openapi.yml
 - filename: acruxcore-traces-api-openapi.yml
   format: yaml
   label: Acrux Core Traces API
   slug: acruxcore-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acruxcore/refs/heads/main/openapi/acruxcore-traces-api-openapi.yml
+  url: https://artifacts.apis.io/acruxcore/openapi/acruxcore-traces-api-openapi.yml
 auth_types: []
 description: Every endpoint authenticates with a Bearer API key in the Authorization header.
 kind: authentication
@@ -57,7 +57,7 @@ source_filename: acruxcore-authentication.yml
 source_heading: Authentication Profile
 source_url: https://docs.acruxcore.com/api-reference/api-keys
 source_yaml: "generated: '2026-10-15'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://docs.acruxcore.com/api-reference/api-keys\nsources:\n- https://docs.acruxcore.com/api-reference/api-keys\n- https://docs.acruxcore.com/api-reference/authentication\n- https://docs.acruxcore.com/docs/getting-started/quickstart\n- https://docs.acruxcore.com/docs/getting-started/core-concepts\ndescription: Every endpoint authenticates with a Bearer API key in the Authorization header.\nschemes:\n- type: http-bearer\n  name: API Key\n  evidence: 'Every endpoint in this reference authenticates the same way: a Bearer API key in the Authorization header.'\n  location: header\n  header: Authorization\n  how_to_obtain: Generate a key in the dashboard (Account & keys → New key) and export it as an environment variable.\ndocs: https://docs.acruxcore.com/api-reference/api-keys\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acruxcore/refs/heads/main/authentication/acruxcore-authentication.yml
+source_yaml_url: https://artifacts.apis.io/acruxcore/authentication/acruxcore-authentication.yml
 summary_line: 1 scheme
 tags:
 - LLMOps

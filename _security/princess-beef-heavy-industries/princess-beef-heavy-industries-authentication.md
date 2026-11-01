@@ -8,7 +8,7 @@ api_specs:
   label: Princess Beef Heavy Industries Product API
   slug: princess-beef-heavy-industries-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/princess-beef-heavy-industries/refs/heads/main/openapi/princess-beef-heavy-industries-product-api-openapi.yml
+  url: https://artifacts.apis.io/princess-beef-heavy-industries/openapi/princess-beef-heavy-industries-product-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: princess-beef-heavy-industries-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/princess-beef-heavy-industries-giftshop-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: API Key authentication. Provide your API key as the value of the `X-API-Key`\n    header.\n  sources:\n  - openapi/princess-beef-heavy-industries-giftshop-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/princess-beef-heavy-industries/refs/heads/main/authentication/princess-beef-heavy-industries-authentication.yml
+source_yaml_url: https://artifacts.apis.io/princess-beef-heavy-industries/authentication/princess-beef-heavy-industries-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Commerce

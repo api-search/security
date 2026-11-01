@@ -1,41 +1,47 @@
 ---
 api_specs:
+- filename: openfaas-openapi-generated.yml
+  format: yaml
+  label: OpenFaaS API
+  slug: openfaas-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/openfaas/openapi/_ae-authored/openfaas-openapi-generated.yml
 - filename: openfaas-alexellis-api-openapi.yml
   format: yaml
   label: OpenFaaS Alexellis API
   slug: openfaas-alexellis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openfaas/refs/heads/main/openapi/openfaas-alexellis-api-openapi.yml
+  url: https://artifacts.apis.io/openfaas/openapi/openfaas-alexellis-api-openapi.yml
 - filename: openfaas-async-function-api-openapi.yml
   format: yaml
   label: OpenFaaS Async Function API
   slug: openfaas-async-function-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openfaas/refs/heads/main/openapi/openfaas-async-function-api-openapi.yml
+  url: https://artifacts.apis.io/openfaas/openapi/openfaas-async-function-api-openapi.yml
 - filename: openfaas-auth-api-openapi.yml
   format: yaml
   label: OpenFaaS Auth API
   slug: openfaas-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openfaas/refs/heads/main/openapi/openfaas-auth-api-openapi.yml
+  url: https://artifacts.apis.io/openfaas/openapi/openfaas-auth-api-openapi.yml
 - filename: openfaas-function-api-openapi.yml
   format: yaml
   label: OpenFaaS Function API
   slug: openfaas-function-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openfaas/refs/heads/main/openapi/openfaas-function-api-openapi.yml
+  url: https://artifacts.apis.io/openfaas/openapi/openfaas-function-api-openapi.yml
 - filename: openfaas-openfaas-api-api-openapi.yml
   format: yaml
   label: OpenFaaS OpenFaaS API
   slug: openfaas-openfaas-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openfaas/refs/heads/main/openapi/openfaas-openfaas-api-api-openapi.yml
+  url: https://artifacts.apis.io/openfaas/openapi/openfaas-openfaas-api-api-openapi.yml
 - filename: openfaas-system-api-openapi.yml
   format: yaml
   label: OpenFaaS System API
   slug: openfaas-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openfaas/refs/heads/main/openapi/openfaas-system-api-openapi.yml
+  url: https://artifacts.apis.io/openfaas/openapi/openfaas-system-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +70,7 @@ source_filename: openfaas-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.openfaas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 23:53:51 2026 GMT\n  hsts: false\ndomains:\n- domain: openfaas.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openfaas/refs/heads/main/security/openfaas-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/openfaas/security/openfaas-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

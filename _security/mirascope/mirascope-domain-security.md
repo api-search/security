@@ -5,7 +5,7 @@ api_specs:
   label: Mirascope API
   slug: mirascope-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mirascope/refs/heads/main/openapi/_ae-authored/mirascope-openapi-generated.yml
+  url: https://artifacts.apis.io/mirascope/openapi/_ae-authored/mirascope-openapi-generated.yml
 description: ''
 domains:
 - caa: []
@@ -33,12 +33,12 @@ source_filename: mirascope-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mirascope.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  7 23:57:51 2027 GMT\n  hsts: false\ndomains:\n- domain: mirascope.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mirascope/refs/heads/main/security/mirascope-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mirascope/security/mirascope-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - LLM
 - Framework
-- AI
+- Artificial Intelligence
 - Versioning
 - Tracing
 - Cost Tracking

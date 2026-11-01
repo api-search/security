@@ -5,31 +5,31 @@ api_specs:
   label: Cronofy Availability API
   slug: cronofy-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronofy/refs/heads/main/openapi/cronofy-availability-api-openapi.yml
+  url: https://artifacts.apis.io/cronofy/openapi/cronofy-availability-api-openapi.yml
 - filename: cronofy-calendars-api-openapi.yml
   format: yaml
   label: Cronofy Calendars API
   slug: cronofy-calendars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronofy/refs/heads/main/openapi/cronofy-calendars-api-openapi.yml
+  url: https://artifacts.apis.io/cronofy/openapi/cronofy-calendars-api-openapi.yml
 - filename: cronofy-events-api-openapi.yml
   format: yaml
   label: Cronofy Events API
   slug: cronofy-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronofy/refs/heads/main/openapi/cronofy-events-api-openapi.yml
+  url: https://artifacts.apis.io/cronofy/openapi/cronofy-events-api-openapi.yml
 - filename: cronofy-push-notifications-api-openapi.yml
   format: yaml
   label: Cronofy Push Notifications API
   slug: cronofy-push-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronofy/refs/heads/main/openapi/cronofy-push-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/cronofy/openapi/cronofy-push-notifications-api-openapi.yml
 - filename: cronofy-smart-invites-api-openapi.yml
   format: yaml
   label: Cronofy Smart Invites API
   slug: cronofy-smart-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronofy/refs/heads/main/openapi/cronofy-smart-invites-api-openapi.yml
+  url: https://artifacts.apis.io/cronofy/openapi/cronofy-smart-invites-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -73,7 +73,7 @@ source_filename: cronofy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cronofy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 05:45:57 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.cronofy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.cronofy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 27 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: cronofy.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 iodef \"mailto:ops@cronofy.com\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cronofy/refs/heads/main/security/cronofy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cronofy/security/cronofy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Scheduling

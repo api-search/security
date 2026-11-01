@@ -5,25 +5,25 @@ api_specs:
   label: Netflix Conductor Events API
   slug: netflix-conductor-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netflix-conductor/refs/heads/main/openapi/netflix-conductor-events-api-openapi.yml
+  url: https://artifacts.apis.io/netflix-conductor/openapi/netflix-conductor-events-api-openapi.yml
 - filename: netflix-conductor-metadata-api-openapi.yml
   format: yaml
   label: Netflix Conductor Metadata API
   slug: netflix-conductor-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netflix-conductor/refs/heads/main/openapi/netflix-conductor-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/netflix-conductor/openapi/netflix-conductor-metadata-api-openapi.yml
 - filename: netflix-conductor-tasks-api-openapi.yml
   format: yaml
   label: Netflix Conductor Tasks API
   slug: netflix-conductor-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netflix-conductor/refs/heads/main/openapi/netflix-conductor-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/netflix-conductor/openapi/netflix-conductor-tasks-api-openapi.yml
 - filename: netflix-conductor-workflow-api-openapi.yml
   format: yaml
   label: Netflix Conductor Workflow API
   slug: netflix-conductor-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netflix-conductor/refs/heads/main/openapi/netflix-conductor-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/netflix-conductor/openapi/netflix-conductor-workflow-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: netflix-conductor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: conductor-oss.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  1 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: conductor-oss.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/netflix-conductor/refs/heads/main/security/netflix-conductor-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/netflix-conductor/security/netflix-conductor-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Event-Driven

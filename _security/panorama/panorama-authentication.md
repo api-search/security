@@ -9,13 +9,13 @@ api_specs:
   label: Panorama API
   slug: panorama-panorama-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/panorama/refs/heads/main/openapi/panorama-panorama-api-api-openapi.yml
+  url: https://artifacts.apis.io/panorama/openapi/panorama-panorama-api-api-openapi.yml
 - filename: panorama-rest-api-api-openapi.yml
   format: yaml
   label: Panorama REST API
   slug: panorama-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/panorama/refs/heads/main/openapi/panorama-rest-api-api-openapi.yml
+  url: https://artifacts.apis.io/panorama/openapi/panorama-rest-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -50,7 +50,7 @@ source_filename: panorama-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/panorama-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: ApiKeyHeader\n  type: apiKey\n  in: header\n  parameter: X-PAN-KEY\n  description: API key generated via `/api/?type=keygen`.\n  sources:\n  - openapi/panorama-openapi.yml\n- name: ApiKeyQuery\n  type: apiKey\n  in: query\n  parameter: key\n  description: API key passed as a query parameter (XML API).\n  sources:\n  - openapi/panorama-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/panorama/refs/heads/main/authentication/panorama-authentication.yml
+source_yaml_url: https://artifacts.apis.io/panorama/authentication/panorama-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Firewall Management

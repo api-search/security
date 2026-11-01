@@ -5,31 +5,31 @@ api_specs:
   label: Payerset Billing Codes API
   slug: payerset-billing-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/openapi/payerset-billing-codes-api-openapi.yml
+  url: https://artifacts.apis.io/payerset/openapi/payerset-billing-codes-api-openapi.yml
 - filename: payerset-hospital-mrf-api-openapi.yml
   format: yaml
   label: Payerset Hospital MRF API
   slug: payerset-hospital-mrf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/openapi/payerset-hospital-mrf-api-openapi.yml
+  url: https://artifacts.apis.io/payerset/openapi/payerset-hospital-mrf-api-openapi.yml
 - filename: payerset-payers-api-openapi.yml
   format: yaml
   label: Payerset Payers API
   slug: payerset-payers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/openapi/payerset-payers-api-openapi.yml
+  url: https://artifacts.apis.io/payerset/openapi/payerset-payers-api-openapi.yml
 - filename: payerset-providers-api-openapi.yml
   format: yaml
   label: Payerset Providers API
   slug: payerset-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/openapi/payerset-providers-api-openapi.yml
+  url: https://artifacts.apis.io/payerset/openapi/payerset-providers-api-openapi.yml
 - filename: payerset-rates-api-openapi.yml
   format: yaml
   label: Payerset Rates API
   slug: payerset-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/openapi/payerset-rates-api-openapi.yml
+  url: https://artifacts.apis.io/payerset/openapi/payerset-rates-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -67,7 +67,7 @@ source_filename: payerset-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.payerset.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 16:38:38 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.payerset.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 31 19:39:40 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.payerset.com\n  https: false\ndomains:\n- domain: payerset.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/security/payerset-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/payerset/security/payerset-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Healthcare

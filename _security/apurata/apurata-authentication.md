@@ -8,25 +8,25 @@ api_specs:
   label: Apurata Config API
   slug: apurata-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apurata/refs/heads/main/openapi/apurata-config-api-openapi.yml
+  url: https://artifacts.apis.io/apurata/openapi/apurata-config-api-openapi.yml
 - filename: apurata-orders-api-openapi.yml
   format: yaml
   label: Apurata Orders API
   slug: apurata-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apurata/refs/heads/main/openapi/apurata-orders-api-openapi.yml
+  url: https://artifacts.apis.io/apurata/openapi/apurata-orders-api-openapi.yml
 - filename: apurata-refunds-api-openapi.yml
   format: yaml
   label: Apurata Refunds API
   slug: apurata-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apurata/refs/heads/main/openapi/apurata-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/apurata/openapi/apurata-refunds-api-openapi.yml
 - filename: apurata-widgets-api-openapi.yml
   format: yaml
   label: Apurata Widgets API
   slug: apurata-widgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apurata/refs/heads/main/openapi/apurata-widgets-api-openapi.yml
+  url: https://artifacts.apis.io/apurata/openapi/apurata-widgets-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -78,7 +78,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/apurata-acuotaz-pos-openapi.yml\ndocs: https://docs.apurata.com/POS/rest_api/authentication/\nsummary:\n  types:\n  - http\n  - apiKey\n  api_key_in:\n  - header\n  notes: >-\n    aCuotaz uses a per-merchant secret token as an HTTP Bearer credential over\n    mandatory HTTPS. Two additional header credentials appear on specific\n    operations: Client_id (identifies the merchant for the checkout widget\n    endpoints) and X-Unique-Token (an idempotency token required on refunds).\n    Webhooks delivered by Apurata carry their own Apurata-Auth Bearer header that\n    the merchant validates. There is no OAuth surface.\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Merchant secret token issued by Apurata, sent as Authorization: Bearer <secret_token>. HTTPS is mandatory.'\n  applies_to: all /pos/order and /pos/client operations\n  sources:\n  - openapi/apurata-acuotaz-pos-openapi.yml\n- name:\
   \ clientIdHeader\n  type: apiKey\n  in: header\n  parameter_name: Client_id\n  description: Merchant client id used to authenticate the checkout widget endpoints (pay-with-apurata-add-on, info-steps).\n  sources:\n  - openapi/apurata-acuotaz-pos-openapi.yml\n- name: uniqueTokenHeader\n  type: apiKey\n  in: header\n  parameter_name: X-Unique-Token\n  description: Caller-generated idempotency token required on total-refund and partial-refund to prevent duplicate refunds.\n  sources:\n  - openapi/apurata-acuotaz-pos-openapi.yml\n- name: webhookAuth\n  type: http\n  scheme: bearer\n  parameter_name: Apurata-Auth\n  description: >-\n    Bearer credential Apurata includes on outbound webhook POSTs\n    (header \"Apurata-Auth: Bearer <secret_token>\"); merchant validation is\n    optional but recommended.\n  direction: inbound-to-merchant\n  sources:\n  - https://docs.apurata.com/POS/webhooks/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apurata/refs/heads/main/authentication/apurata-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apurata/authentication/apurata-authentication.yml
 summary_line: http/apiKey · 4 schemes
 tags:
 - Company

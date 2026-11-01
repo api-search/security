@@ -5,19 +5,19 @@ api_specs:
   label: Restack Agents API
   slug: restack-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restack/refs/heads/main/openapi/restack-agents-api-openapi.yml
+  url: https://artifacts.apis.io/restack/openapi/restack-agents-api-openapi.yml
 - filename: restack-system-api-openapi.yml
   format: yaml
   label: Restack System API
   slug: restack-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restack/refs/heads/main/openapi/restack-system-api-openapi.yml
+  url: https://artifacts.apis.io/restack/openapi/restack-system-api-openapi.yml
 - filename: restack-workflows-api-openapi.yml
   format: yaml
   label: Restack Workflows API
   slug: restack-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restack/refs/heads/main/openapi/restack-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/restack/openapi/restack-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -49,7 +49,7 @@ source_filename: restack-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.restack.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 17:31:14 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.restack.io\n  https: false\ndomains:\n- domain: restack.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/restack/refs/heads/main/security/restack-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/restack/security/restack-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI Agents

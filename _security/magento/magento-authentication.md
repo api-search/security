@@ -7,79 +7,79 @@ api_specs:
   label: Adobe Commerce Webhooks
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/asyncapi/magento-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/magento/asyncapi/magento-webhooks-asyncapi.yml
 - filename: magento-events-asyncapi.yml
   format: yaml
   label: Adobe Commerce Eventing
   slug: events
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/asyncapi/magento-events-asyncapi.yml
+  url: https://artifacts.apis.io/magento/asyncapi/magento-events-asyncapi.yml
 - filename: magento-authentication-api-openapi.yml
   format: yaml
   label: magento Authentication API
   slug: magento-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/openapi/magento-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/magento/openapi/magento-authentication-api-openapi.yml
 - filename: magento-carts-api-openapi.yml
   format: yaml
   label: magento Carts API
   slug: magento-carts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/openapi/magento-carts-api-openapi.yml
+  url: https://artifacts.apis.io/magento/openapi/magento-carts-api-openapi.yml
 - filename: magento-categories-api-openapi.yml
   format: yaml
   label: magento Categories API
   slug: magento-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/openapi/magento-categories-api-openapi.yml
+  url: https://artifacts.apis.io/magento/openapi/magento-categories-api-openapi.yml
 - filename: magento-customers-api-openapi.yml
   format: yaml
   label: magento Customers API
   slug: magento-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/openapi/magento-customers-api-openapi.yml
+  url: https://artifacts.apis.io/magento/openapi/magento-customers-api-openapi.yml
 - filename: magento-inventory-api-openapi.yml
   format: yaml
   label: magento Inventory API
   slug: magento-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/openapi/magento-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/magento/openapi/magento-inventory-api-openapi.yml
 - filename: magento-invoices-api-openapi.yml
   format: yaml
   label: magento Invoices API
   slug: magento-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/openapi/magento-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/magento/openapi/magento-invoices-api-openapi.yml
 - filename: magento-orders-api-openapi.yml
   format: yaml
   label: magento Orders API
   slug: magento-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/openapi/magento-orders-api-openapi.yml
+  url: https://artifacts.apis.io/magento/openapi/magento-orders-api-openapi.yml
 - filename: magento-products-api-openapi.yml
   format: yaml
   label: magento Products API
   slug: magento-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/openapi/magento-products-api-openapi.yml
+  url: https://artifacts.apis.io/magento/openapi/magento-products-api-openapi.yml
 - filename: magento-shipments-api-openapi.yml
   format: yaml
   label: magento Shipments API
   slug: magento-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/openapi/magento-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/magento/openapi/magento-shipments-api-openapi.yml
 - filename: magento-stores-api-openapi.yml
   format: yaml
   label: magento Stores API
   slug: magento-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/openapi/magento-stores-api-openapi.yml
+  url: https://artifacts.apis.io/magento/openapi/magento-stores-api-openapi.yml
 - filename: magento-tax-api-openapi.yml
   format: yaml
   label: magento Tax API
   slug: magento-tax-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/openapi/magento-tax-api-openapi.yml
+  url: https://artifacts.apis.io/magento/openapi/magento-tax-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -106,7 +106,7 @@ source_filename: magento-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/magento-rest-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token obtained from the /V1/integration/admin/token or /V1/integration/customer/token\n    endpoint. Include in the Authorization header as \"Bearer {token}\".\n  sources:\n  - openapi/magento-rest-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/authentication/magento-authentication.yml
+source_yaml_url: https://artifacts.apis.io/magento/authentication/magento-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - E-Commerce

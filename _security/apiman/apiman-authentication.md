@@ -7,91 +7,91 @@ api_specs:
   label: Apiman Actions API
   slug: apiman-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/openapi/apiman-actions-api-openapi.yml
+  url: https://artifacts.apis.io/apiman/openapi/apiman-actions-api-openapi.yml
 - filename: apiman-blobs-api-openapi.yml
   format: yaml
   label: Apiman Blobs API
   slug: apiman-blobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/openapi/apiman-blobs-api-openapi.yml
+  url: https://artifacts.apis.io/apiman/openapi/apiman-blobs-api-openapi.yml
 - filename: apiman-developers-api-openapi.yml
   format: yaml
   label: Apiman Developers API
   slug: apiman-developers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/openapi/apiman-developers-api-openapi.yml
+  url: https://artifacts.apis.io/apiman/openapi/apiman-developers-api-openapi.yml
 - filename: apiman-devportal-api-openapi.yml
   format: yaml
   label: Apiman Devportal API
   slug: apiman-devportal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/openapi/apiman-devportal-api-openapi.yml
+  url: https://artifacts.apis.io/apiman/openapi/apiman-devportal-api-openapi.yml
 - filename: apiman-downloads-api-openapi.yml
   format: yaml
   label: Apiman Downloads API
   slug: apiman-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/openapi/apiman-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/apiman/openapi/apiman-downloads-api-openapi.yml
 - filename: apiman-events-api-openapi.yml
   format: yaml
   label: Apiman Events API
   slug: apiman-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/openapi/apiman-events-api-openapi.yml
+  url: https://artifacts.apis.io/apiman/openapi/apiman-events-api-openapi.yml
 - filename: apiman-experimental-api-openapi.yml
   format: yaml
   label: Apiman Experimental API
   slug: apiman-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/openapi/apiman-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/apiman/openapi/apiman-experimental-api-openapi.yml
 - filename: apiman-gateways-api-openapi.yml
   format: yaml
   label: Apiman Gateways API
   slug: apiman-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/openapi/apiman-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/apiman/openapi/apiman-gateways-api-openapi.yml
 - filename: apiman-organizations-api-openapi.yml
   format: yaml
   label: Apiman Organizations API
   slug: apiman-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/openapi/apiman-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/apiman/openapi/apiman-organizations-api-openapi.yml
 - filename: apiman-plugins-api-openapi.yml
   format: yaml
   label: Apiman Plugins API
   slug: apiman-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/openapi/apiman-plugins-api-openapi.yml
+  url: https://artifacts.apis.io/apiman/openapi/apiman-plugins-api-openapi.yml
 - filename: apiman-policy-definitions-api-openapi.yml
   format: yaml
   label: Apiman Policy Definitions API
   slug: apiman-policy-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/openapi/apiman-policy-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/apiman/openapi/apiman-policy-definitions-api-openapi.yml
 - filename: apiman-roles-api-openapi.yml
   format: yaml
   label: Apiman Roles API
   slug: apiman-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/openapi/apiman-roles-api-openapi.yml
+  url: https://artifacts.apis.io/apiman/openapi/apiman-roles-api-openapi.yml
 - filename: apiman-search-api-openapi.yml
   format: yaml
   label: Apiman Search API
   slug: apiman-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/openapi/apiman-search-api-openapi.yml
+  url: https://artifacts.apis.io/apiman/openapi/apiman-search-api-openapi.yml
 - filename: apiman-system-api-openapi.yml
   format: yaml
   label: Apiman System API
   slug: apiman-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/openapi/apiman-system-api-openapi.yml
+  url: https://artifacts.apis.io/apiman/openapi/apiman-system-api-openapi.yml
 - filename: apiman-users-api-openapi.yml
   format: yaml
   label: Apiman Users API
   slug: apiman-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/openapi/apiman-users-api-openapi.yml
+  url: https://artifacts.apis.io/apiman/openapi/apiman-users-api-openapi.yml
 auth_types:
 - openIdConnect
 - http
@@ -173,7 +173,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: searched\nsource: >-\n  https://w
   \ the Apiman gateway (runtime traffic, not the Manager API)\n  description: >-\n    Apiman mints an API key per Client App version, retrieved with getClientApiKey and\n    rotated with updateClientApiKey. Consumers present it to the gateway when calling a\n    managed API under a contract. This authenticates the gateway's downstream consumers,\n    NOT calls to the Manager REST API — do not confuse the two surfaces.\n  operations: [getClientApiKey, updateClientApiKey, getApiRegistryJSON, getApiRegistryXML]\n  policy_plugin: io.apiman.plugins:apiman-plugins-apikey-policy\n  sources: [openapi/apiman-organizations-api-openapi.yml]\nauthorization:\n  model: role-based\n  realm_roles:\n  - name: apipublisher\n    description: Required to invoke the Gateway configuration REST API.\n  - name: apiadmin\n    description: Apiman administrator (system administration section, gateways, plugins, policy definitions, roles).\n  organization_roles:\n  - name: Organization Owner\n    description: Automatically\
   \ granted to the creator of an organization; all permissions.\n  - name: API Developer\n    description: Plan view/edit/admin and API view/edit/admin.\n  - name: Client App Developer\n    description: Client App view/edit/admin only.\n  custom_roles: >-\n    Administrators can define arbitrary roles from the permission set (org/plan/API/client\n    view, edit, admin) in the Roles section of System Administration, and mark roles as\n    auto-granted on organization creation (RoleBean.autoGrant, at least one such role must exist).\n  discoverability: >-\n    Apiman also has an implicit read-permission system (\"discoverability\") analogous to a\n    public GitHub repository, letting non-members — including anonymous users — find and\n    subscribe to APIs. It is set per API version and per plan (ApiVersionBean.discoverability,\n    ApiPlanBean.discoverability).\n  inspection_operations: [getPermissionsForUser, getInfo, listMembers, grant, revoke, revokeAll]\n  no_scopes: >-\n    Apiman publishes\
   \ no OAuth scope reference. Authorization is expressed as Keycloak\n    realm roles plus Apiman's own organization-scoped permission grid, so scopes/ is\n    deliberately absent rather than empty.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/authentication/apiman-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apiman/authentication/apiman-authentication.yml
 summary_line: openIdConnect/http · 3 schemes
 tags:
 - API Gateway

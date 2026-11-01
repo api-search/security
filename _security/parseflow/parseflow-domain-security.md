@@ -5,85 +5,85 @@ api_specs:
   label: Parseflow Admin API
   slug: parseflow-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/openapi/parseflow-admin-api-openapi.yml
+  url: https://artifacts.apis.io/parseflow/openapi/parseflow-admin-api-openapi.yml
 - filename: parseflow-analyze-api-openapi.yml
   format: yaml
   label: Parseflow Analyze API
   slug: parseflow-analyze-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/openapi/parseflow-analyze-api-openapi.yml
+  url: https://artifacts.apis.io/parseflow/openapi/parseflow-analyze-api-openapi.yml
 - filename: parseflow-batch-api-openapi.yml
   format: yaml
   label: Parseflow Batch API
   slug: parseflow-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/openapi/parseflow-batch-api-openapi.yml
+  url: https://artifacts.apis.io/parseflow/openapi/parseflow-batch-api-openapi.yml
 - filename: parseflow-billing-api-openapi.yml
   format: yaml
   label: Parseflow Billing API
   slug: parseflow-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/openapi/parseflow-billing-api-openapi.yml
+  url: https://artifacts.apis.io/parseflow/openapi/parseflow-billing-api-openapi.yml
 - filename: parseflow-health-api-openapi.yml
   format: yaml
   label: Parseflow Health API
   slug: parseflow-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/openapi/parseflow-health-api-openapi.yml
+  url: https://artifacts.apis.io/parseflow/openapi/parseflow-health-api-openapi.yml
 - filename: parseflow-index-api-openapi.yml
   format: yaml
   label: Parseflow Index API
   slug: parseflow-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/openapi/parseflow-index-api-openapi.yml
+  url: https://artifacts.apis.io/parseflow/openapi/parseflow-index-api-openapi.yml
 - filename: parseflow-jobs-api-openapi.yml
   format: yaml
   label: Parseflow Jobs API
   slug: parseflow-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/openapi/parseflow-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/parseflow/openapi/parseflow-jobs-api-openapi.yml
 - filename: parseflow-me-api-openapi.yml
   format: yaml
   label: Parseflow Me API
   slug: parseflow-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/openapi/parseflow-me-api-openapi.yml
+  url: https://artifacts.apis.io/parseflow/openapi/parseflow-me-api-openapi.yml
 - filename: parseflow-pack-api-openapi.yml
   format: yaml
   label: Parseflow Pack API
   slug: parseflow-pack-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/openapi/parseflow-pack-api-openapi.yml
+  url: https://artifacts.apis.io/parseflow/openapi/parseflow-pack-api-openapi.yml
 - filename: parseflow-process-api-openapi.yml
   format: yaml
   label: Parseflow Process API
   slug: parseflow-process-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/openapi/parseflow-process-api-openapi.yml
+  url: https://artifacts.apis.io/parseflow/openapi/parseflow-process-api-openapi.yml
 - filename: parseflow-search-api-openapi.yml
   format: yaml
   label: Parseflow Search API
   slug: parseflow-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/openapi/parseflow-search-api-openapi.yml
+  url: https://artifacts.apis.io/parseflow/openapi/parseflow-search-api-openapi.yml
 - filename: parseflow-stats-api-openapi.yml
   format: yaml
   label: Parseflow Stats API
   slug: parseflow-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/openapi/parseflow-stats-api-openapi.yml
+  url: https://artifacts.apis.io/parseflow/openapi/parseflow-stats-api-openapi.yml
 - filename: parseflow-usage-api-openapi.yml
   format: yaml
   label: Parseflow Usage API
   slug: parseflow-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/openapi/parseflow-usage-api-openapi.yml
+  url: https://artifacts.apis.io/parseflow/openapi/parseflow-usage-api-openapi.yml
 - filename: parseflow-webhooks-api-openapi.yml
   format: yaml
   label: Parseflow Webhooks API
   slug: parseflow-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/openapi/parseflow-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/parseflow/openapi/parseflow-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -119,7 +119,7 @@ source_filename: parseflow-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.parseflow.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 03:54:26 2026 GMT\n  hsts: false\n- host: parseflow-api.thankfulisland-fec0f8f2.westus2.azurecontainerapps.io\n  https: false\ndomains:\n- domain: parseflow.tech\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: azurecontainerapps.io\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/security/parseflow-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/parseflow/security/parseflow-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Document Parsing

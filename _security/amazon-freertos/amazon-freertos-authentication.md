@@ -8,19 +8,19 @@ api_specs:
   label: Amazon FreeRTOS OTA Updates API
   slug: amazon-freertos-ota-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-freertos/refs/heads/main/openapi/amazon-freertos-ota-updates-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-freertos/openapi/amazon-freertos-ota-updates-api-openapi.yml
 - filename: amazon-freertos-software-configurations-api-openapi.yml
   format: yaml
   label: Amazon FreeRTOS Software Configurations API
   slug: amazon-freertos-software-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-freertos/refs/heads/main/openapi/amazon-freertos-software-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-freertos/openapi/amazon-freertos-software-configurations-api-openapi.yml
 - filename: amazon-freertos-tags-api-openapi.yml
   format: yaml
   label: Amazon FreeRTOS Tags API
   slug: amazon-freertos-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-freertos/refs/heads/main/openapi/amazon-freertos-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-freertos/openapi/amazon-freertos-tags-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: amazon-freertos-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-freertos-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: awsSigV4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4\n  sources:\n  - openapi/amazon-freertos-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-freertos/refs/heads/main/authentication/amazon-freertos-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-freertos/authentication/amazon-freertos-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Embedded Systems

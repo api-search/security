@@ -5,31 +5,31 @@ api_specs:
   label: Yardi Billing and Payments Interface
   slug: yardi-billing-and-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/openapi/yardi-billing-and-payments-api-openapi.yml
+  url: https://artifacts.apis.io/yardi/openapi/yardi-billing-and-payments-api-openapi.yml
 - filename: yardi-common-data-api-openapi.yml
   format: yaml
   label: Yardi Common Data Interface
   slug: yardi-common-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/openapi/yardi-common-data-api-openapi.yml
+  url: https://artifacts.apis.io/yardi/openapi/yardi-common-data-api-openapi.yml
 - filename: yardi-job-cost-api-openapi.yml
   format: yaml
   label: Yardi Job Cost Interface
   slug: yardi-job-cost-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/openapi/yardi-job-cost-api-openapi.yml
+  url: https://artifacts.apis.io/yardi/openapi/yardi-job-cost-api-openapi.yml
 - filename: yardi-service-requests-api-openapi.yml
   format: yaml
   label: Yardi Service Requests Interface
   slug: yardi-service-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/openapi/yardi-service-requests-api-openapi.yml
+  url: https://artifacts.apis.io/yardi/openapi/yardi-service-requests-api-openapi.yml
 - filename: yardi-vendor-invoicing-api-openapi.yml
   format: yaml
   label: Yardi Vendor Invoicing Interface
   slug: yardi-vendor-invoicing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/openapi/yardi-vendor-invoicing-api-openapi.yml
+  url: https://artifacts.apis.io/yardi/openapi/yardi-vendor-invoicing-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -73,7 +73,7 @@ source_filename: yardi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.yardi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 02:36:40 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.yardi.com\n  https: false\n- host: www.rentcafe.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 08:00:16 2026 GMT\n  hsts: false\ndomains:\n- domain: yardi.com\n  dnssec: false\n  caa:\n  - ;; connection timed out; no servers could be reached\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: rentcafe.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/security/yardi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/yardi/security/yardi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Accounting

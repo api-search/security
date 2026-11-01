@@ -8,37 +8,67 @@ api_specs:
   label: Amazon MSK Clusters API
   slug: amazon-msk-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/openapi/amazon-msk-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-msk/openapi/amazon-msk-clusters-api-openapi.yml
 - filename: amazon-msk-compatible-kafka-versions-api-openapi.yml
   format: yaml
   label: Amazon MSK Compatible Kafka Versions API
   slug: amazon-msk-compatible-kafka-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/openapi/amazon-msk-compatible-kafka-versions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-msk/openapi/amazon-msk-compatible-kafka-versions-api-openapi.yml
 - filename: amazon-msk-configurations-api-openapi.yml
   format: yaml
   label: Amazon MSK Configurations API
   slug: amazon-msk-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/openapi/amazon-msk-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-msk/openapi/amazon-msk-configurations-api-openapi.yml
 - filename: amazon-msk-kafka-versions-api-openapi.yml
   format: yaml
   label: Amazon MSK Kafka Versions API
   slug: amazon-msk-kafka-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/openapi/amazon-msk-kafka-versions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-msk/openapi/amazon-msk-kafka-versions-api-openapi.yml
 - filename: amazon-msk-operations-api-openapi.yml
   format: yaml
   label: Amazon MSK Operations API
   slug: amazon-msk-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/openapi/amazon-msk-operations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-msk/openapi/amazon-msk-operations-api-openapi.yml
 - filename: amazon-msk-tags-api-openapi.yml
   format: yaml
   label: Amazon MSK Tags API
   slug: amazon-msk-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/openapi/amazon-msk-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-msk/openapi/amazon-msk-tags-api-openapi.yml
+- filename: amazon-msk-channels-api-openapi.yml
+  format: yaml
+  label: Amazon MSK Msk Channels API
+  slug: amazon-msk-channels-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-msk/openapi/amazon-msk-channels-api-openapi.yml
+- filename: amazon-msk-policy-api-openapi.yml
+  format: yaml
+  label: Amazon MSK Msk Policy API
+  slug: amazon-msk-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-msk/openapi/amazon-msk-policy-api-openapi.yml
+- filename: amazon-msk-replication-api-openapi.yml
+  format: yaml
+  label: Amazon MSK Msk Replication API
+  slug: amazon-msk-replication-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-msk/openapi/amazon-msk-replication-api-openapi.yml
+- filename: amazon-msk-topics-api-openapi.yml
+  format: yaml
+  label: Amazon MSK Msk Topics API
+  slug: amazon-msk-topics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-msk/openapi/amazon-msk-topics-api-openapi.yml
+- filename: amazon-msk-vpc-connection-api-openapi.yml
+  format: yaml
+  label: Amazon MSK Msk Vpc Connection API
+  slug: amazon-msk-vpc-connection-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-msk/openapi/amazon-msk-vpc-connection-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +96,7 @@ source_filename: amazon-msk-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-msk-openapi-original.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-msk-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/authentication/amazon-msk-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-msk/authentication/amazon-msk-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Streaming

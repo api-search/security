@@ -5,25 +5,25 @@ api_specs:
   label: Moonbounce Batch Processing API
   slug: moonbounce-batch-processing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moonbounce/refs/heads/main/openapi/moonbounce-batch-processing-api-openapi.yml
+  url: https://artifacts.apis.io/moonbounce/openapi/moonbounce-batch-processing-api-openapi.yml
 - filename: moonbounce-create-jobs-api-openapi.yml
   format: yaml
   label: Moonbounce Create Jobs API
   slug: moonbounce-create-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moonbounce/refs/heads/main/openapi/moonbounce-create-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/moonbounce/openapi/moonbounce-create-jobs-api-openapi.yml
 - filename: moonbounce-get-jobs-api-openapi.yml
   format: yaml
   label: Moonbounce Get Jobs API
   slug: moonbounce-get-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moonbounce/refs/heads/main/openapi/moonbounce-get-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/moonbounce/openapi/moonbounce-get-jobs-api-openapi.yml
 - filename: moonbounce-labels-api-openapi.yml
   format: yaml
   label: Moonbounce Labels API
   slug: moonbounce-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moonbounce/refs/heads/main/openapi/moonbounce-labels-api-openapi.yml
+  url: https://artifacts.apis.io/moonbounce/openapi/moonbounce-labels-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: moonbounce-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: moonbounce.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 17:42:25 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: gateway.app.clavata.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: moonbounce.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: clavata.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moonbounce/refs/heads/main/security/moonbounce-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/moonbounce/security/moonbounce-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -5,37 +5,37 @@ api_specs:
   label: Harbor Challenges API
   slug: harbor-challenges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/openapi/harbor-challenges-api-openapi.yml
+  url: https://artifacts.apis.io/harbor/openapi/harbor-challenges-api-openapi.yml
 - filename: harbor-communities-api-openapi.yml
   format: yaml
   label: Harbor Communities API
   slug: harbor-communities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/openapi/harbor-communities-api-openapi.yml
+  url: https://artifacts.apis.io/harbor/openapi/harbor-communities-api-openapi.yml
 - filename: harbor-leaderboards-api-openapi.yml
   format: yaml
   label: Harbor Leaderboards API
   slug: harbor-leaderboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/openapi/harbor-leaderboards-api-openapi.yml
+  url: https://artifacts.apis.io/harbor/openapi/harbor-leaderboards-api-openapi.yml
 - filename: harbor-members-api-openapi.yml
   format: yaml
   label: Harbor Members API
   slug: harbor-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/openapi/harbor-members-api-openapi.yml
+  url: https://artifacts.apis.io/harbor/openapi/harbor-members-api-openapi.yml
 - filename: harbor-redemptions-api-openapi.yml
   format: yaml
   label: Harbor Redemptions API
   slug: harbor-redemptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/openapi/harbor-redemptions-api-openapi.yml
+  url: https://artifacts.apis.io/harbor/openapi/harbor-redemptions-api-openapi.yml
 - filename: harbor-rewards-api-openapi.yml
   format: yaml
   label: Harbor Rewards API
   slug: harbor-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/openapi/harbor-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/harbor/openapi/harbor-rewards-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -73,7 +73,7 @@ source_filename: harbor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.harbor.gg\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 17 23:59:59 2027 GMT\n  hsts: false\n- host: api.harbor.gg\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  7 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: harbor.gg\n  dnssec: false\n  caa:\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/security/harbor-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/harbor/security/harbor-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Community

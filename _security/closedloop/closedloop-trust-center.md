@@ -5,67 +5,67 @@ api_specs:
   label: ClosedLoop AI Analytics API
   slug: closedloop-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-analytics-api-openapi.yml
 - filename: closedloop-competitors-api-openapi.yml
   format: yaml
   label: ClosedLoop AI Competitors API
   slug: closedloop-competitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-competitors-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-competitors-api-openapi.yml
 - filename: closedloop-context-api-openapi.yml
   format: yaml
   label: ClosedLoop AI Context API
   slug: closedloop-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-context-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-context-api-openapi.yml
 - filename: closedloop-customers-api-openapi.yml
   format: yaml
   label: ClosedLoop AI Customers API
   slug: closedloop-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-customers-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-customers-api-openapi.yml
 - filename: closedloop-features-api-openapi.yml
   format: yaml
   label: ClosedLoop AI Features API
   slug: closedloop-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-features-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-features-api-openapi.yml
 - filename: closedloop-insights-api-openapi.yml
   format: yaml
   label: ClosedLoop AI Insights API
   slug: closedloop-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-insights-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-insights-api-openapi.yml
 - filename: closedloop-integrations-api-openapi.yml
   format: yaml
   label: ClosedLoop AI Integrations API
   slug: closedloop-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-integrations-api-openapi.yml
 - filename: closedloop-meta-api-openapi.yml
   format: yaml
   label: ClosedLoop AI Meta API
   slug: closedloop-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-meta-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-meta-api-openapi.yml
 - filename: closedloop-products-api-openapi.yml
   format: yaml
   label: ClosedLoop AI Products API
   slug: closedloop-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-products-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-products-api-openapi.yml
 - filename: closedloop-themes-api-openapi.yml
   format: yaml
   label: ClosedLoop AI Themes API
   slug: closedloop-themes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-themes-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-themes-api-openapi.yml
 - filename: closedloop-usage-api-openapi.yml
   format: yaml
   label: ClosedLoop AI Usage API
   slug: closedloop-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-usage-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-usage-api-openapi.yml
 certification_count: 5
 certifications:
 - SOC 2 Type II
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-08-30'\nmethod: searched\nsource: https://closedl
   \ a documentation page written FOR the buyer's security, privacy or\n    procurement team, giving the legal entity, registered address, processor role, contacts, data\n    categories and every policy link in a copy-paste block. Most providers make a buyer assemble\n    this from a PDF.\n  legal_entity: ClosedLoop Labs LLC, doing business as ClosedLoop AI\n  registered_address: 7901 4th St N Ste 300, St. Petersburg, FL 33702, United States\n  role: Data processor / vendor\n  privacy_contact: dpo@closedloop.sh\n  support_contact: support@closedloop.sh\n  documents:\n  - name: Privacy Policy\n    url: https://closedloop.sh/privacy\n    status: 200\n  - name: Data Processing Agreement\n    url: https://closedloop.sh/dpa\n    status: 200\n  - name: Subprocessors\n    url: https://closedloop.sh/subprocessors\n    status: 200\n  - name: AI Terms\n    url: https://closedloop.sh/ai-terms\n    status: 200\n  - name: Terms of Service\n    url: https://closedloop.sh/terms\n    status: 200\ndata_residency:\n\
   \  regions: [us, eu]\n  selection: chosen during onboarding, per workspace\n  guarantee: >-\n    \"During normal operations, EU workspace data does not leave the EU region.\" Carried through\n    every surface -- app (eu.app), REST API (eu.api), MCP (eu.mcp), SCIM and SSO all have EU\n    equivalents.\n  source: https://closedloop.sh/docs/guides/vendor-listing\naccess_posture:\n  read_only_connections: true\n  read_only_source: https://closedloop.sh/pricing\n  read_only_detail: >-\n    \"Read-only connections\" is listed as an on-every-plan property, and the /v1 API is GET-only,\n    which corroborates it from the contract side rather than from marketing alone.\nenterprise_controls:\n  sso: [Okta OIDC, Google Workspace SAML, Microsoft Entra ID SAML]\n  provisioning: SCIM 2.0 (Okta, Entra ID) with Group Push and role entitlements\n  offboarding: Global Token Revocation endpoint (Okta Universal Logout)\n  plan_gate: Enterprise\n  cross_ref: conformance/closedloop-conformance.yml\nvulnerability_disclosure:\n\
   \  published: false\n  probes:\n  - url: https://closedloop.sh/.well-known/security.txt\n    status: 404\n  - url: https://api.closedloop.sh/.well-known/security.txt\n    status: 404\n  - url: https://docs.closedloop.sh/.well-known/security.txt\n    status: 404\n  - url: https://closedloop.sh/security.txt\n    status: 404\n  - url: https://closedloop.sh/security\n    status: 404\n  detail: >-\n    No security.txt on any host, no /security page, no bug-bounty program found on HackerOne,\n    Bugcrowd or Intigriti, and no disclosure policy in the docs. A researcher who finds a\n    vulnerability has no published channel other than support@closedloop.sh. This is the clearest\n    single gap in an otherwise strong security posture, and it is cheap for the provider to close.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/security/closedloop-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/closedloop/security/closedloop-trust-center.yml
 summary_line: SOC 2 Type II, ISO 27001, PCI DSS, HIPAA, FedRAMP
 tags:
 - Product Intelligence

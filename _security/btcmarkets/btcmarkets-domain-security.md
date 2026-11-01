@@ -5,49 +5,49 @@ api_specs:
   label: BTC Markets Account APIs API
   slug: btcmarkets-account-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/openapi/btcmarkets-account-apis-api-openapi.yml
+  url: https://artifacts.apis.io/btcmarkets/openapi/btcmarkets-account-apis-api-openapi.yml
 - filename: btcmarkets-batch-order-apis-api-openapi.yml
   format: yaml
   label: BTC Markets Batch Order APIs API
   slug: btcmarkets-batch-order-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/openapi/btcmarkets-batch-order-apis-api-openapi.yml
+  url: https://artifacts.apis.io/btcmarkets/openapi/btcmarkets-batch-order-apis-api-openapi.yml
 - filename: btcmarkets-fund-management-apis-api-openapi.yml
   format: yaml
   label: BTC Markets Fund Management APIs API
   slug: btcmarkets-fund-management-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/openapi/btcmarkets-fund-management-apis-api-openapi.yml
+  url: https://artifacts.apis.io/btcmarkets/openapi/btcmarkets-fund-management-apis-api-openapi.yml
 - filename: btcmarkets-market-data-apis-api-openapi.yml
   format: yaml
   label: BTC Markets Market Data APIs API
   slug: btcmarkets-market-data-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/openapi/btcmarkets-market-data-apis-api-openapi.yml
+  url: https://artifacts.apis.io/btcmarkets/openapi/btcmarkets-market-data-apis-api-openapi.yml
 - filename: btcmarkets-misc-apis-api-openapi.yml
   format: yaml
   label: BTC Markets Misc APIs API
   slug: btcmarkets-misc-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/openapi/btcmarkets-misc-apis-api-openapi.yml
+  url: https://artifacts.apis.io/btcmarkets/openapi/btcmarkets-misc-apis-api-openapi.yml
 - filename: btcmarkets-order-placement-apis-api-openapi.yml
   format: yaml
   label: BTC Markets Order Placement APIs API
   slug: btcmarkets-order-placement-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/openapi/btcmarkets-order-placement-apis-api-openapi.yml
+  url: https://artifacts.apis.io/btcmarkets/openapi/btcmarkets-order-placement-apis-api-openapi.yml
 - filename: btcmarkets-report-apis-api-openapi.yml
   format: yaml
   label: BTC Markets Report APIs API
   slug: btcmarkets-report-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/openapi/btcmarkets-report-apis-api-openapi.yml
+  url: https://artifacts.apis.io/btcmarkets/openapi/btcmarkets-report-apis-api-openapi.yml
 - filename: btcmarkets-trade-apis-api-openapi.yml
   format: yaml
   label: BTC Markets Trade APIs API
   slug: btcmarkets-trade-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/openapi/btcmarkets-trade-apis-api-openapi.yml
+  url: https://artifacts.apis.io/btcmarkets/openapi/btcmarkets-trade-apis-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: btcmarkets-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.btcmarkets.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 25 22:20:42 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: btcmarkets.net\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/security/btcmarkets-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/btcmarkets/security/btcmarkets-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

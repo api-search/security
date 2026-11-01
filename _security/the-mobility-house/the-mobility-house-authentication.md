@@ -54,7 +54,7 @@ source_yaml: "generated: '2026-08-30'\nmethod: searched\nsource: 'https://vdv-do
   \ with a username and password issued by The Mobility House when the site is\n    configured for VDV 463.'\n  credential_issuance: 'Manual. The customer requests a ChargePilot site be enabled for VDV 463; The\n    Mobility House configures the site, generates customer-specific credentials, and delivers them\n    together with a recommended TMH certificate. There is no self-service key issuance.'\n  transport_security: 'TLS mandatory — VDV 463 defines WebSocket Secure as the transport. The Mobility\n    House additionally recommends pinning the certificate it supplies to prevent unauthorized access.'\n  rotation: not documented\n  scopes: none documented\n- id: push-api-subscription-key\n  api: the-mobility-house-chargepilot-charging-data-push-api\n  type: apiKey\n  in: header\n  name: Ocp-Apim-Subscription-Key\n  description: 'ChargePilot presents an Azure API Management subscription key to the customer-operated\n    receiving endpoint when POSTing charging session data. The direction\
   \ is inverted relative to a\n    normal API key: the provider authenticates itself to the consumer.'\n  credential_issuance: 'Agreed during Push-API onboarding with the customer success manager.'\n  rotation: not documented\n  scopes: none documented\n- id: modbus-tcp-no-auth\n  api: chargepilot-modbus-interface\n  type: none\n  description: 'The ChargePilot / TMH Controller Modbus TCP/IP server exposes no authentication. Access\n    control is network-level only: the interface is deactivated by default, must be enabled by a\n    customer success manager, is reachable on the local site network at a configurable IP with slave\n    ID 1, and can be restricted to read-only (input registers) or read/write (input plus holding\n    registers).'\n  rotation: n/a\n  scopes: n/a\n- id: ocpp-station-auth\n  api: chargepilot-ocpp\n  type: http\n  scheme: basic\n  description: 'Charging stations connect into ChargePilot over OCPP. OCPP 1.6-J and 2.0.1 station\n    authentication is defined by the\
   \ OCPP standard rather than by a Mobility House-specific scheme;\n    The Mobility House does not publish its per-station credential policy.'\n  note: 'Recorded for completeness of the auth surface; not independently verified against a Mobility\n    House document.'\noauth2: false\nopenid_connect: false\nmutual_tls: 'partial — a TMH-issued certificate is recommended (not documented as required) on the\n  VDV 463 connection.'\nself_service_signup: false\nsignup_path: 'Sales / customer success. https://www.mobilityhouse.com/int_en/contact'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-mobility-house/refs/heads/main/authentication/the-mobility-house-authentication.yml
+source_yaml_url: https://artifacts.apis.io/the-mobility-house/authentication/the-mobility-house-authentication.yml
 summary_line: 4 schemes
 tags:
 - Company
@@ -65,7 +65,7 @@ tags:
 - Energy Management
 - Vehicle-to-Grid
 - Load Management
-- Fleet
+- Fleet Management
 - OCPP
 - VDV 463
 - Modbus

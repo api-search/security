@@ -8,7 +8,7 @@ api_specs:
   label: Local Infusion MCP API
   slug: local-infusion-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/openapi/local-infusion-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/local-infusion/openapi/local-infusion-mcp-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -57,7 +57,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-25'\nmethod: derived\nsource: openapi/local-infusion-mcp-api-openapi.yml, openapi/local-infusion-oembed-1-0-api-openapi.yml,\n  openapi/local-infusion-root-api-openapi.yml, openapi/local-infusion-wp-abilities-v1-api-openapi.yml,\n  openapi/local-infusion-wp-v2-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: mcpOAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://mylocalinfusion.com/oauth/authorize\n    tokenUrl: https://mylocalinfusion.com/oauth/token\n    scopes: 1\n  description: OAuth 2.1 authorization-code + PKCE (S256), as advertised by the provider's RFC\n    8414 metadata at https://mylocalinfusion.com/.well-known/oauth-authorization-server (fetched\n    2026-08-25, HTTP 200). Guards the `mcp` namespace; the RFC 9728 protected-resource metadata\n    names https://mylocalinfusion.com/wp-json/mcp/mcp-oauth-server.\n\
   \  sources:\n  - openapi/local-infusion-mcp-api-openapi.yml\n  - openapi/local-infusion-oembed-1-0-api-openapi.yml\n  - openapi/local-infusion-root-api-openapi.yml\n  - openapi/local-infusion-wp-abilities-v1-api-openapi.yml\n  - openapi/local-infusion-wp-v2-api-openapi.yml\n- name: wpNonce\n  type: apiKey\n  in: header\n  parameter: X-WP-Nonce\n  description: WordPress cookie-authentication nonce. Advertised by the live server in its Access-Control-Allow-Headers\n    response header (Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type),\n    observed on a 401 from the MCP endpoint.\n  sources:\n  - openapi/local-infusion-mcp-api-openapi.yml\n  - openapi/local-infusion-oembed-1-0-api-openapi.yml\n  - openapi/local-infusion-root-api-openapi.yml\n  - openapi/local-infusion-wp-abilities-v1-api-openapi.yml\n  - openapi/local-infusion-wp-v2-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/authentication/local-infusion-authentication.yml
+source_yaml_url: https://artifacts.apis.io/local-infusion/authentication/local-infusion-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company

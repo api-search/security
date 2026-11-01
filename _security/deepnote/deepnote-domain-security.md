@@ -5,31 +5,31 @@ api_specs:
   label: Deepnote Execute (v1) API
   slug: deepnote-execute-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepnote/refs/heads/main/openapi/deepnote-execute-v1-api-openapi.yml
+  url: https://artifacts.apis.io/deepnote/openapi/deepnote-execute-v1-api-openapi.yml
 - filename: deepnote-me-api-openapi.yml
   format: yaml
   label: Deepnote Me API
   slug: deepnote-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepnote/refs/heads/main/openapi/deepnote-me-api-openapi.yml
+  url: https://artifacts.apis.io/deepnote/openapi/deepnote-me-api-openapi.yml
 - filename: deepnote-notebooks-api-openapi.yml
   format: yaml
   label: Deepnote Notebooks API
   slug: deepnote-notebooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepnote/refs/heads/main/openapi/deepnote-notebooks-api-openapi.yml
+  url: https://artifacts.apis.io/deepnote/openapi/deepnote-notebooks-api-openapi.yml
 - filename: deepnote-projects-api-openapi.yml
   format: yaml
   label: Deepnote Projects API
   slug: deepnote-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepnote/refs/heads/main/openapi/deepnote-projects-api-openapi.yml
+  url: https://artifacts.apis.io/deepnote/openapi/deepnote-projects-api-openapi.yml
 - filename: deepnote-runs-api-openapi.yml
   format: yaml
   label: Deepnote Runs API
   slug: deepnote-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepnote/refs/heads/main/openapi/deepnote-runs-api-openapi.yml
+  url: https://artifacts.apis.io/deepnote/openapi/deepnote-runs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: deepnote-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: deepnote.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.deepnote.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 15:38:27 2026 GMT\n  hsts: null\ndomains:\n- domain: deepnote.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deepnote/refs/heads/main/security/deepnote-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/deepnote/security/deepnote-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data Science

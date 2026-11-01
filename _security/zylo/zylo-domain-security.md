@@ -5,25 +5,25 @@ api_specs:
   label: Zylo Applications API
   slug: zylo-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zylo/refs/heads/main/openapi/zylo-applications-api-openapi.yml
+  url: https://artifacts.apis.io/zylo/openapi/zylo-applications-api-openapi.yml
 - filename: zylo-export-jobs-api-openapi.yml
   format: yaml
   label: Zylo Export Jobs API
   slug: zylo-export-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zylo/refs/heads/main/openapi/zylo-export-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/zylo/openapi/zylo-export-jobs-api-openapi.yml
 - filename: zylo-import-jobs-api-openapi.yml
   format: yaml
   label: Zylo Import Jobs API
   slug: zylo-import-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zylo/refs/heads/main/openapi/zylo-import-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/zylo/openapi/zylo-import-jobs-api-openapi.yml
 - filename: zylo-subscriptions-api-openapi.yml
   format: yaml
   label: Zylo Subscriptions API
   slug: zylo-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zylo/refs/heads/main/openapi/zylo-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/zylo/openapi/zylo-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -67,7 +67,7 @@ source_filename: zylo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: zylo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 02:30:41 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.zylo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 21:26:49 2026 GMT\n  hsts: null\n- host: api.zylo.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 31 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: zylo.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zylo/refs/heads/main/security/zylo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zylo/security/zylo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Budgets

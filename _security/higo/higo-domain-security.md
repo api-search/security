@@ -24,7 +24,7 @@ source_filename: higo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: higo.io\n  https: false\ndomains:\n- domain: higo.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/higo/refs/heads/main/security/higo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/higo/security/higo-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

@@ -5,43 +5,43 @@ api_specs:
   label: S&P Global LLM-Ready API (kFinance)
   slug: kensho-llm-ready-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/openapi/sp-global-auditors-api-openapi.yml
+  url: https://artifacts.apis.io/sp-global/openapi/sp-global-auditors-api-openapi.yml
 - filename: sp-global-extractions-api-openapi.yml
   format: yaml
   label: Kensho Extract API
   slug: kensho-extract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/openapi/sp-global-extractions-api-openapi.yml
+  url: https://artifacts.apis.io/sp-global/openapi/sp-global-extractions-api-openapi.yml
 - filename: sp-global-annotations-async-api-openapi.yml
   format: yaml
   label: Kensho NERD API
   slug: kensho-nerd-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/openapi/sp-global-annotations-async-api-openapi.yml
+  url: https://artifacts.apis.io/sp-global/openapi/sp-global-annotations-async-api-openapi.yml
 - filename: sp-global-transcription-api-openapi.yml
   format: yaml
   label: Kensho Scribe Batch API v2
   slug: kensho-scribe-batch-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/openapi/sp-global-transcription-api-openapi.yml
+  url: https://artifacts.apis.io/sp-global/openapi/sp-global-transcription-api-openapi.yml
 - filename: kensho-scribe-realtime-asyncapi.yml
   format: yaml
   label: Kensho Scribe Real Time API
   slug: kensho-scribe-realtime-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/asyncapi/kensho-scribe-realtime-asyncapi.yml
+  url: https://artifacts.apis.io/sp-global/asyncapi/kensho-scribe-realtime-asyncapi.yml
 - filename: sp-global-transcription-api-openapi.yml
   format: yaml
   label: Kensho Scribe Batch API v1
   slug: kensho-scribe-batch-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/openapi/sp-global-transcription-api-openapi.yml
+  url: https://artifacts.apis.io/sp-global/openapi/sp-global-transcription-api-openapi.yml
 - filename: sp-global-funding-rounds-api-openapi.yml
   format: yaml
   label: S&P Global Funding Rounds API
   slug: sp-global-funding-rounds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/openapi/sp-global-funding-rounds-api-openapi.yml
+  url: https://artifacts.apis.io/sp-global/openapi/sp-global-funding-rounds-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -87,7 +87,7 @@ source_filename: sp-global-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.spglobal.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar  4 23:59:59 2027 GMT\n  hsts: false\n- host: docs.kensho.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 12 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 86400\n- host: kfinance.kensho.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 12 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: spglobal.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: kensho.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/security/sp-global-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sp-global/security/sp-global-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Capital IQ

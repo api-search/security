@@ -8,25 +8,103 @@ api_specs:
   label: Amazon Clean Rooms Collaborations API
   slug: amazon-clean-rooms-collaborations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/openapi/amazon-clean-rooms-collaborations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-clean-rooms/openapi/amazon-clean-rooms-collaborations-api-openapi.yml
 - filename: amazon-clean-rooms-configured-tables-api-openapi.yml
   format: yaml
   label: Amazon Clean Rooms Configured Tables API
   slug: amazon-clean-rooms-configured-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/openapi/amazon-clean-rooms-configured-tables-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-clean-rooms/openapi/amazon-clean-rooms-configured-tables-api-openapi.yml
 - filename: amazon-clean-rooms-memberships-api-openapi.yml
   format: yaml
   label: Amazon Clean Rooms Memberships API
   slug: amazon-clean-rooms-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/openapi/amazon-clean-rooms-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-clean-rooms/openapi/amazon-clean-rooms-memberships-api-openapi.yml
 - filename: amazon-clean-rooms-protected-queries-api-openapi.yml
   format: yaml
   label: Amazon Clean Rooms Protected Queries API
   slug: amazon-clean-rooms-protected-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/openapi/amazon-clean-rooms-protected-queries-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-clean-rooms/openapi/amazon-clean-rooms-protected-queries-api-openapi.yml
+- filename: amazon-clean-rooms-analysislogexports-api-openapi.yml
+  format: yaml
+  label: Amazon Clean Rooms Clean Rooms Analysislogexports API
+  slug: amazon-clean-rooms-analysislogexports-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-clean-rooms/openapi/amazon-clean-rooms-analysislogexports-api-openapi.yml
+- filename: amazon-clean-rooms-analysisrule-api-openapi.yml
+  format: yaml
+  label: Amazon Clean Rooms Clean Rooms Analysisrule API
+  slug: amazon-clean-rooms-analysisrule-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-clean-rooms/openapi/amazon-clean-rooms-analysisrule-api-openapi.yml
+- filename: amazon-clean-rooms-analysistemplates-api-openapi.yml
+  format: yaml
+  label: Amazon Clean Rooms Clean Rooms Analysistemplates API
+  slug: amazon-clean-rooms-analysistemplates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-clean-rooms/openapi/amazon-clean-rooms-analysistemplates-api-openapi.yml
+- filename: amazon-clean-rooms-changerequests-api-openapi.yml
+  format: yaml
+  label: Amazon Clean Rooms Clean Rooms Changerequests API
+  slug: amazon-clean-rooms-changerequests-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-clean-rooms/openapi/amazon-clean-rooms-changerequests-api-openapi.yml
+- filename: amazon-clean-rooms-configuredaudiencemodelassociations-api-openapi.yml
+  format: yaml
+  label: Amazon Clean Rooms Clean Rooms Configuredaudiencemodelassociations API
+  slug: amazon-clean-rooms-configuredaudiencemodelassociations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-clean-rooms/openapi/amazon-clean-rooms-configuredaudiencemodelassociations-api-openapi.yml
+- filename: amazon-clean-rooms-configuredtableassociations-api-openapi.yml
+  format: yaml
+  label: Amazon Clean Rooms Clean Rooms Configuredtableassociations API
+  slug: amazon-clean-rooms-configuredtableassociations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-clean-rooms/openapi/amazon-clean-rooms-configuredtableassociations-api-openapi.yml
+- filename: amazon-clean-rooms-idmappingtables-api-openapi.yml
+  format: yaml
+  label: Amazon Clean Rooms Clean Rooms Idmappingtables API
+  slug: amazon-clean-rooms-idmappingtables-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-clean-rooms/openapi/amazon-clean-rooms-idmappingtables-api-openapi.yml
+- filename: amazon-clean-rooms-idnamespaceassociations-api-openapi.yml
+  format: yaml
+  label: Amazon Clean Rooms Clean Rooms Idnamespaceassociations API
+  slug: amazon-clean-rooms-idnamespaceassociations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-clean-rooms/openapi/amazon-clean-rooms-idnamespaceassociations-api-openapi.yml
+- filename: amazon-clean-rooms-intermediatetables-api-openapi.yml
+  format: yaml
+  label: Amazon Clean Rooms Clean Rooms Intermediatetables API
+  slug: amazon-clean-rooms-intermediatetables-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-clean-rooms/openapi/amazon-clean-rooms-intermediatetables-api-openapi.yml
+- filename: amazon-clean-rooms-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Clean Rooms Clean Rooms Operations API
+  slug: amazon-clean-rooms-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-clean-rooms/openapi/amazon-clean-rooms-operations-api-openapi.yml
+- filename: amazon-clean-rooms-privacybudgettemplates-api-openapi.yml
+  format: yaml
+  label: Amazon Clean Rooms Clean Rooms Privacybudgettemplates API
+  slug: amazon-clean-rooms-privacybudgettemplates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-clean-rooms/openapi/amazon-clean-rooms-privacybudgettemplates-api-openapi.yml
+- filename: amazon-clean-rooms-protectedjobs-api-openapi.yml
+  format: yaml
+  label: Amazon Clean Rooms Clean Rooms Protectedjobs API
+  slug: amazon-clean-rooms-protectedjobs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-clean-rooms/openapi/amazon-clean-rooms-protectedjobs-api-openapi.yml
+- filename: amazon-clean-rooms-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Clean Rooms Clean Rooms Tags API
+  slug: amazon-clean-rooms-tags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-clean-rooms/openapi/amazon-clean-rooms-tags-api-openapi.yml
 auth_types:
 - aws-sigv4
 description: ''
@@ -65,7 +143,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://d
   \  parameter: Authorization\n  algorithm: AWS4-HMAC-SHA256\n  service_name: cleanrooms\n  region_scoped: true\n  description: >-\n    AWS Signature Version 4. The Authorization header carries the credential\n    scope (access key / date / region / service / aws4_request), the signed\n    header list, and the hex signature.\n  sources:\n  - openapi/amazon-clean-rooms-collaborations-api-openapi.yml\n  - openapi/amazon-clean-rooms-configured-tables-api-openapi.yml\n  - openapi/amazon-clean-rooms-memberships-api-openapi.yml\n  - openapi/amazon-clean-rooms-protected-queries-api-openapi.yml\n  - https://docs.aws.amazon.com/clean-rooms/latest/apireference/CommonParameters.html\nquery_string_signing:\n  supported: true\n  note: >-\n    Authentication information may be placed in the query string instead of the\n    Authorization header (presigned-style), using the parameters below.\n  parameters:\n  - name: X-Amz-Algorithm\n    values: [AWS4-HMAC-SHA256]\n    required: conditional\n  - name: X-Amz-Credential\n\
   \    format: access_key/YYYYMMDD/region/service/aws4_request\n    required: conditional\n  - name: X-Amz-Date\n    format: ISO 8601 basic (YYYYMMDD'T'HHMMSS'Z')\n    required: conditional\n  - name: X-Amz-Signature\n    required: conditional\n  - name: X-Amz-SignedHeaders\n    required: conditional\n  - name: X-Amz-Security-Token\n    required: conditional\n    note: Required when using temporary credentials from AWS STS.\ntemporary_credentials:\n  supported: true\n  issuer: AWS Security Token Service (STS)\n  header: X-Amz-Security-Token\nauthorization:\n  model: AWS IAM + collaboration member abilities\n  action_namespace: cleanrooms:*\n  managed_policies:\n  - AWSCleanRoomsFullAccess\n  - AWSCleanRoomsFullAccessNoQuerying\n  - AWSCleanRoomsReadOnlyAccess\n  - AWSCleanRoomsMLFullAccess\n  - AWSCleanRoomsMLReadOnlyAccess\n  member_abilities:\n  - CAN_QUERY\n  - CAN_RECEIVE_RESULTS\n  - CAN_RUN_JOB\n  - CAN_EXPORT_QUERY_ANALYSIS_LOG\n  note: >-\n    Two independent authorization layers.\
   \ IAM decides whether the calling\n    principal may invoke the API at all; the collaboration's member abilities\n    decide what that member may do inside a given collaboration. A principal with\n    full IAM access still cannot query if its membership lacks CAN_QUERY.\n  docs: https://docs.aws.amazon.com/clean-rooms/latest/userguide/security-iam.html\n  service_roles: https://docs.aws.amazon.com/clean-rooms/latest/userguide/setting-up-roles.html\nscopes:\n  applicable: false\n  note: >-\n    No OAuth 2.0 surface, therefore no scope registry. Access is expressed as IAM\n    actions and member abilities, not scopes — scopes/ is intentionally absent\n    rather than empty.\nerrors:\n- code: IncompleteSignature\n  status: 403\n- code: UnrecognizedClientException\n  status: 403\n- code: ExpiredTokenException\n  status: 403\n- code: AccessDeniedException\n  status: 403\n- code: NotAuthorized\n  status: 401\ncatalog: errors/amazon-clean-rooms-error-codes.yml\nconventions: conventions/amazon-clean-rooms-conventions.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/authentication/amazon-clean-rooms-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-clean-rooms/authentication/amazon-clean-rooms-authentication.yml
 summary_line: aws-sigv4 · 1 scheme
 tags:
 - Cleanroom

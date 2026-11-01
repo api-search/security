@@ -5,19 +5,19 @@ api_specs:
   label: University of Göttingen IIIF Image API
   slug: university-of-gottingen-iiif-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-iiif-image-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-gottingen/openapi/university-of-gottingen-iiif-image-api-openapi.yml
 - filename: university-of-gottingen-iiif-presentation-api-openapi.yml
   format: yaml
   label: University of Göttingen IIIF Presentation API
   slug: university-of-gottingen-iiif-presentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-iiif-presentation-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-gottingen/openapi/university-of-gottingen-iiif-presentation-api-openapi.yml
 - filename: university-of-gottingen-oai-pmh-api-openapi.yml
   format: yaml
   label: University of Göttingen OAI PMH API
   slug: university-of-gottingen-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-gottingen/openapi/university-of-gottingen-oai-pmh-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,7 +62,7 @@ source_filename: university-of-gottingen-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: generated\nx-evidence-method: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.uni-goettingen.de\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 23 10:32:54 2026 GMT\n  hsts: false\n- host: data.goettingen-research-online.de\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 13:27:42 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: guides.dataverse.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 30 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: uni-goettingen.de\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: goettingen-research-online.de\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/security/university-of-gottingen-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/university-of-gottingen/security/university-of-gottingen-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - University

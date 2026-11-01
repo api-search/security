@@ -7,19 +7,25 @@ api_specs:
   label: Gitar GitLab MR Status API
   slug: gitar-gitlab-mr-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitar/refs/heads/main/openapi/gitar-gitlab-mr-status-api-openapi.yml
+  url: https://artifacts.apis.io/gitar/openapi/gitar-gitlab-mr-status-api-openapi.yml
 - filename: gitar-gitlab-projects-api-openapi.yml
   format: yaml
   label: Gitar GitLab Projects API
   slug: gitar-gitlab-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitar/refs/heads/main/openapi/gitar-gitlab-projects-api-openapi.yml
+  url: https://artifacts.apis.io/gitar/openapi/gitar-gitlab-projects-api-openapi.yml
 - filename: gitar-installation-health-api-openapi.yml
   format: yaml
   label: Gitar Installation Health API
   slug: gitar-installation-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitar/refs/heads/main/openapi/gitar-installation-health-api-openapi.yml
+  url: https://artifacts.apis.io/gitar/openapi/gitar-installation-health-api-openapi.yml
+- filename: gitar-organizations-api-openapi.yml
+  format: yaml
+  label: Gitar Organizations API
+  slug: gitar-organizations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gitar/openapi/gitar-organizations-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -45,7 +51,7 @@ source_filename: gitar-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/gitar-openapi-original.json\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/gitar-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gitar/refs/heads/main/authentication/gitar-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gitar/authentication/gitar-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

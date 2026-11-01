@@ -7,31 +7,31 @@ api_specs:
   label: Truework Subpackage Orders API
   slug: truework-subpackage-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/openapi/truework-subpackage-orders-api-openapi.yml
+  url: https://artifacts.apis.io/truework/openapi/truework-subpackage-orders-api-openapi.yml
 - filename: truework-subpackage-qualificationchecks-api-openapi.yml
   format: yaml
   label: Truework Subpackage Qualification Checks API
   slug: truework-subpackage-qualificationchecks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/openapi/truework-subpackage-qualificationchecks-api-openapi.yml
+  url: https://artifacts.apis.io/truework/openapi/truework-subpackage-qualificationchecks-api-openapi.yml
 - filename: truework-subpackage-reports-api-openapi.yml
   format: yaml
   label: Truework Subpackage Reports API
   slug: truework-subpackage-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/openapi/truework-subpackage-reports-api-openapi.yml
+  url: https://artifacts.apis.io/truework/openapi/truework-subpackage-reports-api-openapi.yml
 - filename: truework-subpackage-tenantproperties-api-openapi.yml
   format: yaml
   label: Truework Subpackage Tenant Properties API
   slug: truework-subpackage-tenantproperties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/openapi/truework-subpackage-tenantproperties-api-openapi.yml
+  url: https://artifacts.apis.io/truework/openapi/truework-subpackage-tenantproperties-api-openapi.yml
 - filename: truework-truework-webhooks-api-openapi.yml
   format: yaml
   label: Truework Webhooks API
   slug: truework-truework-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/openapi/truework-truework-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/truework/openapi/truework-truework-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -72,7 +72,7 @@ source_filename: truework-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/truework-beta-openapi.yml, openapi/truework-verifications-orders-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: Bearer\n  type: http\n  scheme: bearer\n  description: |-\n    Bearer tokens conform to the [RFC6750](https://datatracker.ietf.org/doc/html/rfc6750#section-2.1) spec.\n\n\n    Production API keys (secret keys) are prefixed with `tw_sk_` and sandbox keys are prefixed with `tw_sk_test_`. If your secret key is published, you should rotate your API keys.\n\n    Truework.JS publishable keys are prefixed with `tw_pk_` and `tw_pk_test` respectively.\n\n\n    **Examples**\n    - For Authoriz\n  sources:\n  - openapi/truework-beta-openapi.yml\n  - openapi/truework-verifications-orders-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/authentication/truework-authentication.yml
+source_yaml_url: https://artifacts.apis.io/truework/authentication/truework-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Verification

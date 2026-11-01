@@ -14,61 +14,61 @@ api_specs:
   label: Act! CRM Activity Series API
   slug: act-activityseries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-activityseries-api-openapi.yml
+  url: https://artifacts.apis.io/act/openapi/act-activityseries-api-openapi.yml
 - filename: act-historytypes-api-openapi.yml
   format: yaml
   label: Act! CRM History Types API
   slug: act-historytypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-historytypes-api-openapi.yml
+  url: https://artifacts.apis.io/act/openapi/act-historytypes-api-openapi.yml
 - filename: act-marketingautomations-api-openapi.yml
   format: yaml
   label: Act! CRM Marketing Automations API
   slug: act-marketingautomations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-marketingautomations-api-openapi.yml
+  url: https://artifacts.apis.io/act/openapi/act-marketingautomations-api-openapi.yml
 - filename: act-metadatainfo-api-openapi.yml
   format: yaml
   label: Act! CRM Metadata Info API
   slug: act-metadatainfo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-metadatainfo-api-openapi.yml
+  url: https://artifacts.apis.io/act/openapi/act-metadatainfo-api-openapi.yml
 - filename: act-secondarycontacts-api-openapi.yml
   format: yaml
   label: Act! CRM Secondary Contacts API
   slug: act-secondarycontacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-secondarycontacts-api-openapi.yml
+  url: https://artifacts.apis.io/act/openapi/act-secondarycontacts-api-openapi.yml
 - filename: act-supplementalfiles-api-openapi.yml
   format: yaml
   label: Act! CRM Supplemental Files API
   slug: act-supplementalfiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-supplementalfiles-api-openapi.yml
+  url: https://artifacts.apis.io/act/openapi/act-supplementalfiles-api-openapi.yml
 - filename: act-custom-entities-api-openapi.yml
   format: yaml
   label: Act! CRM Custom Entities API
   slug: act-custom-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-custom-entities-api-openapi.yml
+  url: https://artifacts.apis.io/act/openapi/act-custom-entities-api-openapi.yml
 - filename: act-document-types-api-openapi.yml
   format: yaml
   label: Act! CRM Document Types API
   slug: act-document-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-document-types-api-openapi.yml
+  url: https://artifacts.apis.io/act/openapi/act-document-types-api-openapi.yml
 - filename: act-sync-data-api-openapi.yml
   format: yaml
   label: Act! CRM Sync Data API
   slug: act-sync-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-sync-data-api-openapi.yml
+  url: https://artifacts.apis.io/act/openapi/act-sync-data-api-openapi.yml
 - filename: act-task-types-api-openapi.yml
   format: yaml
   label: Act! CRM Task Types API
   slug: act-task-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-task-types-api-openapi.yml
+  url: https://artifacts.apis.io/act/openapi/act-task-types-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -205,7 +205,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/act-acti
   \  - openapi/act-history-api-openapi.yml\n  - openapi/act-history-types-api-openapi.yml\n  - openapi/act-import-api-openapi.yml\n  - openapi/act-marketing-automations-api-openapi.yml\n  - openapi/act-metadata-info-api-openapi.yml\n  - openapi/act-notes-api-openapi.yml\n  - openapi/act-opportunities-api-openapi.yml\n  - openapi/act-preferences-api-openapi.yml\n  - openapi/act-products-api-openapi.yml\n  - openapi/act-secondary-contacts-api-openapi.yml\n  - openapi/act-supplemental-files-api-openapi.yml\n  - openapi/act-sync-data-api-openapi.yml\n  - openapi/act-system-api-openapi.yml\n  - openapi/act-task-types-api-openapi.yml\n  - openapi/act-tasks-api-openapi.yml\n  - openapi/act-teams-api-openapi.yml\n  - openapi/act-users-api-openapi.yml\n  - openapi/act-webhooks-api-openapi.yml\n- name: actDatabaseName\n  type: apiKey\n  in: header\n  parameter: Act-Database-Name\n  description: Name of the Act! database the request is scoped to.\n  sources:\n  - openapi/act-activity-series-api-openapi.yml\n\
   \  - openapi/act-analytics-api-openapi.yml\n  - openapi/act-calendar-api-openapi.yml\n  - openapi/act-companies-api-openapi.yml\n  - openapi/act-configurations-api-openapi.yml\n  - openapi/act-contacts-api-openapi.yml\n  - openapi/act-cors-api-openapi.yml\n  - openapi/act-custom-entities-api-openapi.yml\n  - openapi/act-database-api-openapi.yml\n  - openapi/act-document-types-api-openapi.yml\n  - openapi/act-documents-api-openapi.yml\n  - openapi/act-geographics-api-openapi.yml\n  - openapi/act-groups-api-openapi.yml\n  - openapi/act-history-api-openapi.yml\n  - openapi/act-history-types-api-openapi.yml\n  - openapi/act-import-api-openapi.yml\n  - openapi/act-marketing-automations-api-openapi.yml\n  - openapi/act-metadata-info-api-openapi.yml\n  - openapi/act-notes-api-openapi.yml\n  - openapi/act-opportunities-api-openapi.yml\n  - openapi/act-preferences-api-openapi.yml\n  - openapi/act-products-api-openapi.yml\n  - openapi/act-secondary-contacts-api-openapi.yml\n  - openapi/act-supplemental-files-api-openapi.yml\n\
   \  - openapi/act-sync-data-api-openapi.yml\n  - openapi/act-system-api-openapi.yml\n  - openapi/act-task-types-api-openapi.yml\n  - openapi/act-tasks-api-openapi.yml\n  - openapi/act-teams-api-openapi.yml\n  - openapi/act-users-api-openapi.yml\n  - openapi/act-webhooks-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/authentication/act-authentication.yml
+source_yaml_url: https://artifacts.apis.io/act/authentication/act-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - CRM

@@ -5,55 +5,55 @@ api_specs:
   label: Obsidian Active File API
   slug: obsidian-active-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/obsidian/refs/heads/main/openapi/obsidian-active-file-api-openapi.yml
+  url: https://artifacts.apis.io/obsidian/openapi/obsidian-active-file-api-openapi.yml
 - filename: obsidian-commands-api-openapi.yml
   format: yaml
   label: Obsidian Commands API
   slug: obsidian-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/obsidian/refs/heads/main/openapi/obsidian-commands-api-openapi.yml
+  url: https://artifacts.apis.io/obsidian/openapi/obsidian-commands-api-openapi.yml
 - filename: obsidian-open-api-openapi.yml
   format: yaml
   label: Obsidian Open API
   slug: obsidian-open-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/obsidian/refs/heads/main/openapi/obsidian-open-api-openapi.yml
+  url: https://artifacts.apis.io/obsidian/openapi/obsidian-open-api-openapi.yml
 - filename: obsidian-periodic-notes-api-openapi.yml
   format: yaml
   label: Obsidian Periodic Notes API
   slug: obsidian-periodic-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/obsidian/refs/heads/main/openapi/obsidian-periodic-notes-api-openapi.yml
+  url: https://artifacts.apis.io/obsidian/openapi/obsidian-periodic-notes-api-openapi.yml
 - filename: obsidian-search-api-openapi.yml
   format: yaml
   label: Obsidian Search API
   slug: obsidian-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/obsidian/refs/heads/main/openapi/obsidian-search-api-openapi.yml
+  url: https://artifacts.apis.io/obsidian/openapi/obsidian-search-api-openapi.yml
 - filename: obsidian-system-api-openapi.yml
   format: yaml
   label: Obsidian System API
   slug: obsidian-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/obsidian/refs/heads/main/openapi/obsidian-system-api-openapi.yml
+  url: https://artifacts.apis.io/obsidian/openapi/obsidian-system-api-openapi.yml
 - filename: obsidian-tags-api-openapi.yml
   format: yaml
   label: Obsidian Tags API
   slug: obsidian-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/obsidian/refs/heads/main/openapi/obsidian-tags-api-openapi.yml
+  url: https://artifacts.apis.io/obsidian/openapi/obsidian-tags-api-openapi.yml
 - filename: obsidian-vault-directories-api-openapi.yml
   format: yaml
   label: Obsidian Vault Directories API
   slug: obsidian-vault-directories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/obsidian/refs/heads/main/openapi/obsidian-vault-directories-api-openapi.yml
+  url: https://artifacts.apis.io/obsidian/openapi/obsidian-vault-directories-api-openapi.yml
 - filename: obsidian-vault-files-api-openapi.yml
   format: yaml
   label: Obsidian Vault Files API
   slug: obsidian-vault-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/obsidian/refs/heads/main/openapi/obsidian-vault-files-api-openapi.yml
+  url: https://artifacts.apis.io/obsidian/openapi/obsidian-vault-files-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -97,7 +97,7 @@ source_filename: obsidian-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: obsidian.md\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 12:19:07 2026 GMT\n  hsts: true\n  hsts_max_age: 7776000\n- host: docs.obsidian.md\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 12:19:07 2026 GMT\n  hsts: true\n  hsts_max_age: 7776000\n- host: 127.0.0.1\n  https: false\ndomains:\n- domain: obsidian.md\n  dnssec: false\n  caa:\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/obsidian/refs/heads/main/security/obsidian-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/obsidian/security/obsidian-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Productivity

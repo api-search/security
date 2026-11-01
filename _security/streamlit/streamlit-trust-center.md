@@ -5,19 +5,19 @@ api_specs:
   label: Streamlit Apps API
   slug: streamlit-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamlit/refs/heads/main/openapi/streamlit-apps-api-openapi.yml
+  url: https://artifacts.apis.io/streamlit/openapi/streamlit-apps-api-openapi.yml
 - filename: streamlit-secrets-api-openapi.yml
   format: yaml
   label: Streamlit Secrets API
   slug: streamlit-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamlit/refs/heads/main/openapi/streamlit-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/streamlit/openapi/streamlit-secrets-api-openapi.yml
 - filename: streamlit-workspaces-api-openapi.yml
   format: yaml
   label: Streamlit Workspaces API
   slug: streamlit-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamlit/refs/heads/main/openapi/streamlit-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/streamlit/openapi/streamlit-workspaces-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -35,7 +35,7 @@ source_filename: streamlit-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://streamlit.io/security\nurl: https://streamlit.io/security\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://streamlit.io/security\n  keywords:\n  - soc 2\n  - soc2\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/streamlit/refs/heads/main/security/streamlit-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/streamlit/security/streamlit-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Data Science

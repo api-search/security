@@ -5,25 +5,25 @@ api_specs:
   label: IBM Language Translator Documents API
   slug: ibm-translate-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-translate/refs/heads/main/openapi/ibm-translate-documents-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-translate/openapi/ibm-translate-documents-api-openapi.yml
 - filename: ibm-translate-languages-api-openapi.yml
   format: yaml
   label: IBM Language Translator Languages API
   slug: ibm-translate-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-translate/refs/heads/main/openapi/ibm-translate-languages-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-translate/openapi/ibm-translate-languages-api-openapi.yml
 - filename: ibm-translate-models-api-openapi.yml
   format: yaml
   label: IBM Language Translator Models API
   slug: ibm-translate-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-translate/refs/heads/main/openapi/ibm-translate-models-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-translate/openapi/ibm-translate-models-api-openapi.yml
 - filename: ibm-translate-translation-api-openapi.yml
   format: yaml
   label: IBM Language Translator Translation API
   slug: ibm-translate-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-translate/refs/heads/main/openapi/ibm-translate-translation-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-translate/openapi/ibm-translate-translation-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -60,7 +60,7 @@ source_filename: ibm-translate-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ibm.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: cloud.ibm.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 27 23:59:59 2027 GMT\n  hsts: null\n- host: api.us-south.language-translator.watson.cloud.ibm.com\n  https: false\ndomains:\n- domain: ibm.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ibm-translate/refs/heads/main/security/ibm-translate-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ibm-translate/security/ibm-translate-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Translation

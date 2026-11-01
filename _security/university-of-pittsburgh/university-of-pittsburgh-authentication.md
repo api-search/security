@@ -7,13 +7,13 @@ api_specs:
   label: University of Pittsburgh Data API
   slug: university-of-pittsburgh-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/openapi/university-of-pittsburgh-data-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-pittsburgh/openapi/university-of-pittsburgh-data-api-openapi.yml
 - filename: university-of-pittsburgh-variables-api-openapi.yml
   format: yaml
   label: University of Pittsburgh Variables API
   slug: university-of-pittsburgh-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/openapi/university-of-pittsburgh-variables-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-pittsburgh/openapi/university-of-pittsburgh-variables-api-openapi.yml
 auth_types:
 - api_key
 - none
@@ -105,7 +105,7 @@ source_yaml: "# authorship: API Evangelist. Not published by the University of P
   \  description: >-\n    The PKP Open Journal Systems REST API is deployed alongside each OAI-PMH provider but is closed\n    to the public: it answers HTTP 403 with {\"error\":\"api.403.unauthorized\"} to unauthenticated\n    callers. OJS gates this API behind a per-user API token issued inside the journal, which is not\n    obtainable by a member of the public. Recorded so the surface is not mistaken for an open one.\n  evidence:\n    url: https://anthro-age.pitt.edu/ojs/anthro-age/api/v1/issues\n    status: 403\n    content_type: application/json\n    body: '{\"error\":\"api.403.unauthorized\",\"errorMessage\":\"You are not authorized to access the requested resource.\"}'\n- name: DScholarshipOaiPmhPublicRead\n  type: none\n  operator: tenant\n  vendor: Hyku Commons (Samvera Hyku)\n  applies_to: https://d-scholarship.pitt.edu/catalog/oai\n  description: >-\n    D-Scholarship@Pitt's OAI-PMH provider is open to anonymous harvesting. Identify,\n    ListMetadataFormats (oai_dc, oai_hyku)\
   \ and ListRecords all answered HTTP 200 with no credential\n    on 2026-08-30. Recorded with operator `tenant`: d-scholarship.pitt.edu CNAMEs to\n    pittir.hykucommons.org and the provider is Hyku's blacklight_oai_provider, so the content and\n    the DOIs are Pitt's but the endpoint and its access model are the platform's. Note that the\n    repository's HTML surface at the same hostname returns HTTP 403 behind a Cloudflare challenge to\n    the same client that the OAI path serves without complaint.\n  evidence:\n    url: https://d-scholarship.pitt.edu/catalog/oai?verb=Identify\n    status: 200\n    content_type: text/xml\n- name: PittPassportShibboleth\n  type: saml\n  operator: institution\n  applies_to: https://passport.pitt.edu/idp/shibboleth\n  description: >-\n    Pitt Passport is the campus SAML 2.0 / Shibboleth identity provider. It authenticates people to\n    relying service providers; it is not a data API and issues no credential a machine client can\n    use to call one.\
   \ Recorded because it is the most unambiguously institution-operated\n    machine-readable surface the University of Pittsburgh publishes, and because it is what makes\n    the `shibboleth` and `saml` conformance hits real.\n  evidence:\n    url: https://passport.pitt.edu/idp/shibboleth\n    status: 200\n    content_type: application/xml\nnotes:\n- >-\n  The University of Pittsburgh operates no OAuth 2.0 authorization server, no API gateway, no\n  developer portal and no institution-wide key issuance. developer.pitt.edu and apis.pitt.edu do\n  not resolve; https://www.pitt.edu/apis.json and https://www.pitt.edu/llms.txt return 404. Each\n  surface above carries its own unrelated auth model because each was built by a different unit.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/authentication/university-of-pittsburgh-authentication.yml
+source_yaml_url: https://artifacts.apis.io/university-of-pittsburgh/authentication/university-of-pittsburgh-authentication.yml
 summary_line: api_key/none/saml · 6 schemes
 tags:
 - University

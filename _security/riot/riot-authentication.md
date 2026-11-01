@@ -8,55 +8,55 @@ api_specs:
   label: Riot Awareness API
   slug: riot-awareness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-awareness-api-openapi.yml
+  url: https://artifacts.apis.io/riot/openapi/riot-awareness-api-openapi.yml
 - filename: riot-breaches-api-openapi.yml
   format: yaml
   label: Riot Breaches API
   slug: riot-breaches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-breaches-api-openapi.yml
+  url: https://artifacts.apis.io/riot/openapi/riot-breaches-api-openapi.yml
 - filename: riot-general-api-openapi.yml
   format: yaml
   label: Riot General API
   slug: riot-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-general-api-openapi.yml
+  url: https://artifacts.apis.io/riot/openapi/riot-general-api-openapi.yml
 - filename: riot-groups-api-openapi.yml
   format: yaml
   label: Riot Groups API
   slug: riot-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-groups-api-openapi.yml
+  url: https://artifacts.apis.io/riot/openapi/riot-groups-api-openapi.yml
 - filename: riot-inbox-api-openapi.yml
   format: yaml
   label: Riot Inbox API
   slug: riot-inbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-inbox-api-openapi.yml
+  url: https://artifacts.apis.io/riot/openapi/riot-inbox-api-openapi.yml
 - filename: riot-scim-api-openapi.yml
   format: yaml
   label: Riot SCIM API
   slug: riot-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-scim-api-openapi.yml
+  url: https://artifacts.apis.io/riot/openapi/riot-scim-api-openapi.yml
 - filename: riot-simulation-api-openapi.yml
   format: yaml
   label: Riot Simulation API
   slug: riot-simulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-simulation-api-openapi.yml
+  url: https://artifacts.apis.io/riot/openapi/riot-simulation-api-openapi.yml
 - filename: riot-slash-api-openapi.yml
   format: yaml
   label: Riot Slash API
   slug: riot-slash-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-slash-api-openapi.yml
+  url: https://artifacts.apis.io/riot/openapi/riot-slash-api-openapi.yml
 - filename: riot-sonar-api-openapi.yml
   format: yaml
   label: Riot Sonar API
   slug: riot-sonar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-sonar-api-openapi.yml
+  url: https://artifacts.apis.io/riot/openapi/riot-sonar-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -83,7 +83,7 @@ source_filename: riot-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-05'\nmethod: derived\nsource: openapi/riot-public-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/riot-public-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/authentication/riot-authentication.yml
+source_yaml_url: https://artifacts.apis.io/riot/authentication/riot-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Cybersecurity

@@ -5,13 +5,13 @@ api_specs:
   label: glhf Models API
   slug: glhf-chat-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glhf-chat/refs/heads/main/openapi/glhf-chat-models-api-openapi.yml
+  url: https://artifacts.apis.io/glhf-chat/openapi/glhf-chat-models-api-openapi.yml
 - filename: glhf-chat-chat-completions-api-openapi.yml
   format: yaml
   label: glhf Chat Completions API
   slug: glhf-chat-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glhf-chat/refs/heads/main/openapi/glhf-chat-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/glhf-chat/openapi/glhf-chat-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,7 +39,7 @@ source_filename: glhf-chat-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: glhf.chat\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 18:42:33 2026 GMT\n  hsts: null\ndomains:\n- domain: glhf.chat\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/glhf-chat/refs/heads/main/security/glhf-chat-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/glhf-chat/security/glhf-chat-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Artificial Intelligence

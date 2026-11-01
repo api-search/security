@@ -19,7 +19,7 @@ source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: https://trust.vonlabs.ai/\nurl: https://trust.vonlabs.ai/\nplatform: SafeBase by Drata\ncertifications:\n- SOC 2 Type 2\n- SOC 3\n- ISO/IEC 27001:2022\n- CASA Tier 2\ncontacts:\n  support: Support@vonlabs.ai\n  security: security@vonlabs.ai\ndocuments:\n- CASA Tier 2\n- SOC 2 Type 2\n- SOC 3\n- Data Processing Agreement\n- Pentest Report\n- Access Monitoring\n- Certificates of Destruction\n- Data Asset Classification\nsubprocessors:\n- Anthropic\n- Amazon Web Services (AWS)\n- Airbyte\n- Scalekit\n- OpenAI\nprivacy_frameworks:\n- CCPA\nevidence:\n- source: https://trust.vonlabs.ai/\n  http_status: 200\n  fetched: '2026-08-13'\n  keywords:\n  - soc 2 type 2\n  - soc 3\n  - iso 27001\n  - casa tier 2\n  - safebase\n  - drata\n  - responsible disclosure\nnote: >-\n  Re-verified live 2026-08-13 (HTTP 200). The mechanical probe pass had\n  flattened this file to two certifications; the full SafeBase listing\n  (certifications,\
   \ documents, subprocessors, contacts) was restored from the\n  live page rather than left downgraded. Von publishes no other security\n  surface: no /.well-known/security.txt, no bug bounty program.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/von/refs/heads/main/security/von-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/von/security/von-trust-center.yml
 summary_line: SOC 2 Type 2, SOC 3, ISO/IEC 27001:2022, CASA Tier 2
 tags:
 - Company

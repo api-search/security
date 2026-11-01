@@ -5,25 +5,25 @@ api_specs:
   label: Move Home Organisation CIC Branches API
   slug: movehome-org-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/movehome-org/refs/heads/main/openapi/movehome-org-branches-api-openapi.yml
+  url: https://artifacts.apis.io/movehome-org/openapi/movehome-org-branches-api-openapi.yml
 - filename: movehome-org-listings-api-openapi.yml
   format: yaml
   label: Move Home Organisation CIC Listings API
   slug: movehome-org-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/movehome-org/refs/heads/main/openapi/movehome-org-listings-api-openapi.yml
+  url: https://artifacts.apis.io/movehome-org/openapi/movehome-org-listings-api-openapi.yml
 - filename: movehome-org-operational-api-openapi.yml
   format: yaml
   label: Move Home Organisation CIC Operational API
   slug: movehome-org-operational-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/movehome-org/refs/heads/main/openapi/movehome-org-operational-api-openapi.yml
+  url: https://artifacts.apis.io/movehome-org/openapi/movehome-org-operational-api-openapi.yml
 - filename: movehome-org-products-api-openapi.yml
   format: yaml
   label: Move Home Organisation CIC Products API
   slug: movehome-org-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/movehome-org/refs/heads/main/openapi/movehome-org-products-api-openapi.yml
+  url: https://artifacts.apis.io/movehome-org/openapi/movehome-org-products-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: movehome-org-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: movehome.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  3 20:11:08 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: movehome.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/movehome-org/refs/heads/main/security/movehome-org-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/movehome-org/security/movehome-org-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Real Estate

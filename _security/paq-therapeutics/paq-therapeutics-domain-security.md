@@ -26,7 +26,7 @@ source_filename: paq-therapeutics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.paqtx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 05:23:59 2026 GMT\n  hsts: false\ndomains:\n- domain: paqtx.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paq-therapeutics/refs/heads/main/security/paq-therapeutics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/paq-therapeutics/security/paq-therapeutics-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

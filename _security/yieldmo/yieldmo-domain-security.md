@@ -5,43 +5,43 @@ api_specs:
   label: Yieldmo Canned Reports API
   slug: yieldmo-canned-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/openapi/yieldmo-canned-reports-api-openapi.yml
+  url: https://artifacts.apis.io/yieldmo/openapi/yieldmo-canned-reports-api-openapi.yml
 - filename: yieldmo-dcs-api-openapi.yml
   format: yaml
   label: Yieldmo Dcs API
   slug: yieldmo-dcs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/openapi/yieldmo-dcs-api-openapi.yml
+  url: https://artifacts.apis.io/yieldmo/openapi/yieldmo-dcs-api-openapi.yml
 - filename: yieldmo-manage-api-openapi.yml
   format: yaml
   label: Yieldmo Manage API
   slug: yieldmo-manage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/openapi/yieldmo-manage-api-openapi.yml
+  url: https://artifacts.apis.io/yieldmo/openapi/yieldmo-manage-api-openapi.yml
 - filename: yieldmo-mcp-api-openapi.yml
   format: yaml
   label: Yieldmo MCP API
   slug: yieldmo-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/openapi/yieldmo-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/yieldmo/openapi/yieldmo-mcp-api-openapi.yml
 - filename: yieldmo-ping-api-openapi.yml
   format: yaml
   label: Yieldmo Ping API
   slug: yieldmo-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/openapi/yieldmo-ping-api-openapi.yml
+  url: https://artifacts.apis.io/yieldmo/openapi/yieldmo-ping-api-openapi.yml
 - filename: yieldmo-register-api-openapi.yml
   format: yaml
   label: Yieldmo Register API
   slug: yieldmo-register-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/openapi/yieldmo-register-api-openapi.yml
+  url: https://artifacts.apis.io/yieldmo/openapi/yieldmo-register-api-openapi.yml
 - filename: yieldmo-well-known-api-openapi.yml
   format: yaml
   label: Yieldmo .well Known API
   slug: yieldmo-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/openapi/yieldmo-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/yieldmo/openapi/yieldmo-well-known-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -106,7 +106,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: yieldmo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 15:35:04 2026 GMT\n  hsts: false\n- host: ads.yieldmo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 26 23:59:59 2027 GMT\n  hsts: null\n- host: docs.prebid.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 08:30:18 2026 GMT\n  hsts: false\n- host: api.yieldmo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  3 23:59:59 2026 GMT\n  hsts: false\n  note: API host carrying the MCP server and DCS reporting API. Probed manually 2026-08-12 — probe-domain-security.py\n    did not enumerate it. No Strict-Transport-Security header on the AWS API Gateway responses.\n- host: apps.yieldmo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 06:01:38 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  note: YMax console/login host. Probed\
   \ manually 2026-08-12. The only Yieldmo host observed serving HSTS.\ndomains:\n- domain: yieldmo.com\n  dnssec: false\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"symantec.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: prebid.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\nx-addendum:\n  manual_hosts_added: 2026-08-12 — api.yieldmo.com and apps.yieldmo.com probed by hand (openssl s_client\n    + curl -I); both discovered this enrichment round and not enumerated by the script.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/security/yieldmo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/yieldmo/security/yieldmo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Advertising

@@ -5,37 +5,37 @@ api_specs:
   label: Xerox EULA API
   slug: xerox-eula-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/openapi/xerox-eula-api-openapi.yml
+  url: https://artifacts.apis.io/xerox/openapi/xerox-eula-api-openapi.yml
 - filename: xerox-jobs-api-openapi.yml
   format: yaml
   label: Xerox Jobs API
   slug: xerox-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/openapi/xerox-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/xerox/openapi/xerox-jobs-api-openapi.yml
 - filename: xerox-provider-types-api-openapi.yml
   format: yaml
   label: Xerox Provider Types API
   slug: xerox-provider-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/openapi/xerox-provider-types-api-openapi.yml
+  url: https://artifacts.apis.io/xerox/openapi/xerox-provider-types-api-openapi.yml
 - filename: xerox-providers-api-openapi.yml
   format: yaml
   label: Xerox Providers API
   slug: xerox-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/openapi/xerox-providers-api-openapi.yml
+  url: https://artifacts.apis.io/xerox/openapi/xerox-providers-api-openapi.yml
 - filename: xerox-sites-api-openapi.yml
   format: yaml
   label: Xerox Sites API
   slug: xerox-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/openapi/xerox-sites-api-openapi.yml
+  url: https://artifacts.apis.io/xerox/openapi/xerox-sites-api-openapi.yml
 - filename: xerox-status-api-openapi.yml
   format: yaml
   label: Xerox Status API
   slug: xerox-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/openapi/xerox-status-api-openapi.yml
+  url: https://artifacts.apis.io/xerox/openapi/xerox-status-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: xerox-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.xerox.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 24 23:59:59 2026 GMT\n  hsts: false\n- host: publicprintapi.services.xerox.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  2 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: xerox.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/security/xerox-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/xerox/security/xerox-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Document Management

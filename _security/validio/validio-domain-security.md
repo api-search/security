@@ -1,11 +1,17 @@
 ---
 api_specs:
+- filename: validio-openapi-generated.yml
+  format: yaml
+  label: Validio API
+  slug: validio-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/validio/openapi/_ae-authored/validio-openapi-generated.yml
 - filename: validio-export-api-openapi.yml
   format: yaml
   label: Validio Export API
   slug: validio-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validio/refs/heads/main/openapi/validio-export-api-openapi.yml
+  url: https://artifacts.apis.io/validio/openapi/validio-export-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -41,12 +47,12 @@ source_filename: validio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: validio.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 24 17:38:37 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: validio.io\n  dnssec: true\n  caa:\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/validio/refs/heads/main/security/validio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/validio/security/validio-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Data Quality
 - Observability
-- Lineage
+- Data Lineage
 - Artificial Intelligence
 ---

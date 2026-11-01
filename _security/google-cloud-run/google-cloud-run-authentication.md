@@ -7,19 +7,19 @@ api_specs:
   label: Google Cloud Run Jobs API
   slug: google-cloud-run-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-run/refs/heads/main/openapi/google-cloud-run-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-run/openapi/google-cloud-run-jobs-api-openapi.yml
 - filename: google-cloud-run-projects-api-openapi.yml
   format: yaml
   label: Google Cloud Run Projects API
   slug: google-cloud-run-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-run/refs/heads/main/openapi/google-cloud-run-projects-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-run/openapi/google-cloud-run-projects-api-openapi.yml
 - filename: google-cloud-run-revisions-api-openapi.yml
   format: yaml
   label: Google Cloud Run Revisions API
   slug: google-cloud-run-revisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-run/refs/heads/main/openapi/google-cloud-run-revisions-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-run/openapi/google-cloud-run-revisions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -50,7 +50,7 @@ source_filename: google-cloud-run-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/google-cloud-run-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 2\n  sources:\n  - openapi/google-cloud-run-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-run/refs/heads/main/authentication/google-cloud-run-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-run/authentication/google-cloud-run-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Cloud Run

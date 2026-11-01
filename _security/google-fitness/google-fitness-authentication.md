@@ -7,7 +7,7 @@ api_specs:
   label: Google Fit REST Users API
   slug: google-fitness-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-fitness/refs/heads/main/openapi/google-fitness-users-api-openapi.yml
+  url: https://artifacts.apis.io/google-fitness/openapi/google-fitness-users-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -38,7 +38,7 @@ source_filename: google-fitness-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fitness.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 6\n  sources:\n  - openapi/fitness.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-fitness/refs/heads/main/authentication/google-fitness-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-fitness/authentication/google-fitness-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Activity Tracking

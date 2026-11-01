@@ -27,7 +27,7 @@ source_filename: adlai-nortye-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.adlainortye.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 15 01:13:23 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: adlainortye.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adlai-nortye/refs/heads/main/security/adlai-nortye-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/adlai-nortye/security/adlai-nortye-domain-security.yml
 summary_line: TLSv1.2 · HSTS
 tags:
 - Company

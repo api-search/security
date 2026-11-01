@@ -5,91 +5,91 @@ api_specs:
   label: OpsMill Artifact API
   slug: opsmill-artifact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-artifact-api-openapi.yml
+  url: https://artifacts.apis.io/opsmill/openapi/opsmill-artifact-api-openapi.yml
 - filename: opsmill-auth-api-openapi.yml
   format: yaml
   label: OpsMill Auth API
   slug: opsmill-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-auth-api-openapi.yml
+  url: https://artifacts.apis.io/opsmill/openapi/opsmill-auth-api-openapi.yml
 - filename: opsmill-config-api-openapi.yml
   format: yaml
   label: OpsMill Config API
   slug: opsmill-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-config-api-openapi.yml
+  url: https://artifacts.apis.io/opsmill/openapi/opsmill-config-api-openapi.yml
 - filename: opsmill-diff-api-openapi.yml
   format: yaml
   label: OpsMill Diff API
   slug: opsmill-diff-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-diff-api-openapi.yml
+  url: https://artifacts.apis.io/opsmill/openapi/opsmill-diff-api-openapi.yml
 - filename: opsmill-file-api-openapi.yml
   format: yaml
   label: OpsMill File API
   slug: opsmill-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-file-api-openapi.yml
+  url: https://artifacts.apis.io/opsmill/openapi/opsmill-file-api-openapi.yml
 - filename: opsmill-info-api-openapi.yml
   format: yaml
   label: OpsMill Info API
   slug: opsmill-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-info-api-openapi.yml
+  url: https://artifacts.apis.io/opsmill/openapi/opsmill-info-api-openapi.yml
 - filename: opsmill-menu-api-openapi.yml
   format: yaml
   label: OpsMill Menu API
   slug: opsmill-menu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-menu-api-openapi.yml
+  url: https://artifacts.apis.io/opsmill/openapi/opsmill-menu-api-openapi.yml
 - filename: opsmill-oidc-api-openapi.yml
   format: yaml
   label: OpsMill Oidc API
   slug: opsmill-oidc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-oidc-api-openapi.yml
+  url: https://artifacts.apis.io/opsmill/openapi/opsmill-oidc-api-openapi.yml
 - filename: opsmill-query-api-openapi.yml
   format: yaml
   label: OpsMill Query API
   slug: opsmill-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-query-api-openapi.yml
+  url: https://artifacts.apis.io/opsmill/openapi/opsmill-query-api-openapi.yml
 - filename: opsmill-schema-api-openapi.yml
   format: yaml
   label: OpsMill Schema API
   slug: opsmill-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-schema-api-openapi.yml
+  url: https://artifacts.apis.io/opsmill/openapi/opsmill-schema-api-openapi.yml
 - filename: opsmill-schema-graphql-api-openapi.yml
   format: yaml
   label: OpsMill Schema.graphql API
   slug: opsmill-schema-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-schema-graphql-api-openapi.yml
+  url: https://artifacts.apis.io/opsmill/openapi/opsmill-schema-graphql-api-openapi.yml
 - filename: opsmill-storage-api-openapi.yml
   format: yaml
   label: OpsMill Storage API
   slug: opsmill-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-storage-api-openapi.yml
+  url: https://artifacts.apis.io/opsmill/openapi/opsmill-storage-api-openapi.yml
 - filename: opsmill-telemetry-api-openapi.yml
   format: yaml
   label: OpsMill Telemetry API
   slug: opsmill-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/opsmill/openapi/opsmill-telemetry-api-openapi.yml
 - filename: opsmill-transform-api-openapi.yml
   format: yaml
   label: OpsMill Transform API
   slug: opsmill-transform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-transform-api-openapi.yml
+  url: https://artifacts.apis.io/opsmill/openapi/opsmill-transform-api-openapi.yml
 - filename: opsmill-oauth2-api-openapi.yml
   format: yaml
   label: OpsMill Oauth2 API
   slug: opsmill-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/opsmill/openapi/opsmill-oauth2-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -133,7 +133,7 @@ source_filename: opsmill-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: opsmill.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 18:11:12 2026 GMT\n  hsts: false\n- host: docs.infrahub.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 15:17:56 2026 GMT\n  hsts: false\n- host: sandbox.infrahub.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 02:15:34 2026 GMT\n  hsts: null\ndomains:\n- domain: opsmill.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: infrahub.app\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/security/opsmill-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/opsmill/security/opsmill-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

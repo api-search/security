@@ -5,91 +5,91 @@ api_specs:
   label: Spotify Albums API
   slug: spotify-albums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-albums-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-albums-api-openapi.yml
 - filename: spotify-artists-api-openapi.yml
   format: yaml
   label: Spotify Artists API
   slug: spotify-artists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-artists-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-artists-api-openapi.yml
 - filename: spotify-audiobooks-api-openapi.yml
   format: yaml
   label: Spotify Audiobooks API
   slug: spotify-audiobooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-audiobooks-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-audiobooks-api-openapi.yml
 - filename: spotify-categories-api-openapi.yml
   format: yaml
   label: Spotify Categories API
   slug: spotify-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-categories-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-categories-api-openapi.yml
 - filename: spotify-chapters-api-openapi.yml
   format: yaml
   label: Spotify Chapters API
   slug: spotify-chapters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-chapters-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-chapters-api-openapi.yml
 - filename: spotify-episodes-api-openapi.yml
   format: yaml
   label: Spotify Episodes API
   slug: spotify-episodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-episodes-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-episodes-api-openapi.yml
 - filename: spotify-genres-api-openapi.yml
   format: yaml
   label: Spotify Genres API
   slug: spotify-genres-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-genres-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-genres-api-openapi.yml
 - filename: spotify-library-api-openapi.yml
   format: yaml
   label: Spotify Library API
   slug: spotify-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-library-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-library-api-openapi.yml
 - filename: spotify-markets-api-openapi.yml
   format: yaml
   label: Spotify Markets API
   slug: spotify-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-markets-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-markets-api-openapi.yml
 - filename: spotify-player-api-openapi.yml
   format: yaml
   label: Spotify Player API
   slug: spotify-player-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-player-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-player-api-openapi.yml
 - filename: spotify-playlists-api-openapi.yml
   format: yaml
   label: Spotify Playlists API
   slug: spotify-playlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-playlists-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-playlists-api-openapi.yml
 - filename: spotify-search-api-openapi.yml
   format: yaml
   label: Spotify Search API
   slug: spotify-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-search-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-search-api-openapi.yml
 - filename: spotify-shows-api-openapi.yml
   format: yaml
   label: Spotify Shows API
   slug: spotify-shows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-shows-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-shows-api-openapi.yml
 - filename: spotify-tracks-api-openapi.yml
   format: yaml
   label: Spotify Tracks API
   slug: spotify-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-tracks-api-openapi.yml
 - filename: spotify-users-api-openapi.yml
   format: yaml
   label: Spotify Users API
   slug: spotify-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-users-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -125,7 +125,7 @@ source_filename: spotify-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.spotify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.spotify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 23 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: spotify.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/security/spotify-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/spotify/security/spotify-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Music

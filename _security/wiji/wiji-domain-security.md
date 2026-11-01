@@ -26,7 +26,7 @@ source_filename: wiji-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: imrsv.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 23:06:05 2026 GMT\n  hsts: false\ndomains:\n- domain: imrsv.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wiji/refs/heads/main/security/wiji-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wiji/security/wiji-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

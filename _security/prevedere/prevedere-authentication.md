@@ -8,115 +8,115 @@ api_specs:
   label: Prevedere Alert API
   slug: prevedere-alert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prevedere/refs/heads/main/openapi/prevedere-alert-api-openapi.yml
+  url: https://artifacts.apis.io/prevedere/openapi/prevedere-alert-api-openapi.yml
 - filename: prevedere-alertdefinition-api-openapi.yml
   format: yaml
   label: Prevedere AlertDefinition API
   slug: prevedere-alertdefinition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prevedere/refs/heads/main/openapi/prevedere-alertdefinition-api-openapi.yml
+  url: https://artifacts.apis.io/prevedere/openapi/prevedere-alertdefinition-api-openapi.yml
 - filename: prevedere-analysisjob-api-openapi.yml
   format: yaml
   label: Prevedere AnalysisJob API
   slug: prevedere-analysisjob-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prevedere/refs/heads/main/openapi/prevedere-analysisjob-api-openapi.yml
+  url: https://artifacts.apis.io/prevedere/openapi/prevedere-analysisjob-api-openapi.yml
 - filename: prevedere-componentcontributionoverridevalues-api-openapi.yml
   format: yaml
   label: Prevedere ComponentContributionOverrideValues API
   slug: prevedere-componentcontributionoverridevalues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prevedere/refs/heads/main/openapi/prevedere-componentcontributionoverridevalues-api-openapi.yml
+  url: https://artifacts.apis.io/prevedere/openapi/prevedere-componentcontributionoverridevalues-api-openapi.yml
 - filename: prevedere-context-api-openapi.yml
   format: yaml
   label: Prevedere Context API
   slug: prevedere-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prevedere/refs/heads/main/openapi/prevedere-context-api-openapi.yml
+  url: https://artifacts.apis.io/prevedere/openapi/prevedere-context-api-openapi.yml
 - filename: prevedere-discoverjob-api-openapi.yml
   format: yaml
   label: Prevedere DiscoverJob API
   slug: prevedere-discoverjob-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prevedere/refs/heads/main/openapi/prevedere-discoverjob-api-openapi.yml
+  url: https://artifacts.apis.io/prevedere/openapi/prevedere-discoverjob-api-openapi.yml
 - filename: prevedere-enumeration-api-openapi.yml
   format: yaml
   label: Prevedere Enumeration API
   slug: prevedere-enumeration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prevedere/refs/heads/main/openapi/prevedere-enumeration-api-openapi.yml
+  url: https://artifacts.apis.io/prevedere/openapi/prevedere-enumeration-api-openapi.yml
 - filename: prevedere-favorites-api-openapi.yml
   format: yaml
   label: Prevedere Favorites API
   slug: prevedere-favorites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prevedere/refs/heads/main/openapi/prevedere-favorites-api-openapi.yml
+  url: https://artifacts.apis.io/prevedere/openapi/prevedere-favorites-api-openapi.yml
 - filename: prevedere-forecastmodel-api-openapi.yml
   format: yaml
   label: Prevedere ForecastModel API
   slug: prevedere-forecastmodel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prevedere/refs/heads/main/openapi/prevedere-forecastmodel-api-openapi.yml
+  url: https://artifacts.apis.io/prevedere/openapi/prevedere-forecastmodel-api-openapi.yml
 - filename: prevedere-forecastmodelhistory-api-openapi.yml
   format: yaml
   label: Prevedere ForecastModelHistory API
   slug: prevedere-forecastmodelhistory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prevedere/refs/heads/main/openapi/prevedere-forecastmodelhistory-api-openapi.yml
+  url: https://artifacts.apis.io/prevedere/openapi/prevedere-forecastmodelhistory-api-openapi.yml
 - filename: prevedere-forecastsummary-api-openapi.yml
   format: yaml
   label: Prevedere ForecastSummary API
   slug: prevedere-forecastsummary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prevedere/refs/heads/main/openapi/prevedere-forecastsummary-api-openapi.yml
+  url: https://artifacts.apis.io/prevedere/openapi/prevedere-forecastsummary-api-openapi.yml
 - filename: prevedere-indicator-api-openapi.yml
   format: yaml
   label: Prevedere Indicator API
   slug: prevedere-indicator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prevedere/refs/heads/main/openapi/prevedere-indicator-api-openapi.yml
+  url: https://artifacts.apis.io/prevedere/openapi/prevedere-indicator-api-openapi.yml
 - filename: prevedere-provider-api-openapi.yml
   format: yaml
   label: Prevedere Provider API
   slug: prevedere-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prevedere/refs/heads/main/openapi/prevedere-provider-api-openapi.yml
+  url: https://artifacts.apis.io/prevedere/openapi/prevedere-provider-api-openapi.yml
 - filename: prevedere-scenario-api-openapi.yml
   format: yaml
   label: Prevedere Scenario API
   slug: prevedere-scenario-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prevedere/refs/heads/main/openapi/prevedere-scenario-api-openapi.yml
+  url: https://artifacts.apis.io/prevedere/openapi/prevedere-scenario-api-openapi.yml
 - filename: prevedere-tag-api-openapi.yml
   format: yaml
   label: Prevedere Tag API
   slug: prevedere-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prevedere/refs/heads/main/openapi/prevedere-tag-api-openapi.yml
+  url: https://artifacts.apis.io/prevedere/openapi/prevedere-tag-api-openapi.yml
 - filename: prevedere-test-api-openapi.yml
   format: yaml
   label: Prevedere Test API
   slug: prevedere-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prevedere/refs/heads/main/openapi/prevedere-test-api-openapi.yml
+  url: https://artifacts.apis.io/prevedere/openapi/prevedere-test-api-openapi.yml
 - filename: prevedere-workbench-api-openapi.yml
   format: yaml
   label: Prevedere Workbench API
   slug: prevedere-workbench-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prevedere/refs/heads/main/openapi/prevedere-workbench-api-openapi.yml
+  url: https://artifacts.apis.io/prevedere/openapi/prevedere-workbench-api-openapi.yml
 - filename: prevedere-data-integration-api-openapi.yml
   format: yaml
   label: Prevedere Data Integration API
   slug: prevedere-data-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prevedere/refs/heads/main/openapi/prevedere-data-integration-api-openapi.yml
+  url: https://artifacts.apis.io/prevedere/openapi/prevedere-data-integration-api-openapi.yml
 - filename: prevedere-user-context-api-openapi.yml
   format: yaml
   label: Prevedere User Context API
   slug: prevedere-user-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prevedere/refs/heads/main/openapi/prevedere-user-context-api-openapi.yml
+  url: https://artifacts.apis.io/prevedere/openapi/prevedere-user-context-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -143,7 +143,7 @@ source_filename: prevedere-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/prevedere-openapi-original.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: api key\n  type: apiKey\n  in: query\n  parameter: ApiKey\n  sources:\n  - openapi/prevedere-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prevedere/refs/heads/main/authentication/prevedere-authentication.yml
+source_yaml_url: https://artifacts.apis.io/prevedere/authentication/prevedere-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

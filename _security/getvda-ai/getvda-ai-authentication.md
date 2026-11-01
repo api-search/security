@@ -7,157 +7,157 @@ api_specs:
   label: Verified Digital Agents (VDA) Agents API
   slug: getvda-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvda-ai/refs/heads/main/openapi/getvda-ai-agents-api-openapi.yml
+  url: https://artifacts.apis.io/getvda-ai/openapi/getvda-ai-agents-api-openapi.yml
 - filename: getvda-ai-bundles-api-openapi.yml
   format: yaml
   label: Verified Digital Agents (VDA) Bundles API
   slug: getvda-ai-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvda-ai/refs/heads/main/openapi/getvda-ai-bundles-api-openapi.yml
+  url: https://artifacts.apis.io/getvda-ai/openapi/getvda-ai-bundles-api-openapi.yml
 - filename: getvda-ai-c2md-edge-api-openapi.yml
   format: yaml
   label: Verified Digital Agents (VDA) C2MD Edge API
   slug: getvda-ai-c2md-edge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvda-ai/refs/heads/main/openapi/getvda-ai-c2md-edge-api-openapi.yml
+  url: https://artifacts.apis.io/getvda-ai/openapi/getvda-ai-c2md-edge-api-openapi.yml
 - filename: getvda-ai-copilot-studio-yaml-api-openapi.yml
   format: yaml
   label: Verified Digital Agents (VDA) Copilot Studio.yaml API
   slug: getvda-ai-copilot-studio-yaml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvda-ai/refs/heads/main/openapi/getvda-ai-copilot-studio-yaml-api-openapi.yml
+  url: https://artifacts.apis.io/getvda-ai/openapi/getvda-ai-copilot-studio-yaml-api-openapi.yml
 - filename: getvda-ai-environments-api-openapi.yml
   format: yaml
   label: Verified Digital Agents (VDA) Environments API
   slug: getvda-ai-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvda-ai/refs/heads/main/openapi/getvda-ai-environments-api-openapi.yml
+  url: https://artifacts.apis.io/getvda-ai/openapi/getvda-ai-environments-api-openapi.yml
 - filename: getvda-ai-genesis-api-openapi.yml
   format: yaml
   label: Verified Digital Agents (VDA) Genesis API
   slug: getvda-ai-genesis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvda-ai/refs/heads/main/openapi/getvda-ai-genesis-api-openapi.yml
+  url: https://artifacts.apis.io/getvda-ai/openapi/getvda-ai-genesis-api-openapi.yml
 - filename: getvda-ai-gosce-portfolio-api-openapi.yml
   format: yaml
   label: Verified Digital Agents (VDA) GOSCE Portfolio API
   slug: getvda-ai-gosce-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvda-ai/refs/heads/main/openapi/getvda-ai-gosce-portfolio-api-openapi.yml
+  url: https://artifacts.apis.io/getvda-ai/openapi/getvda-ai-gosce-portfolio-api-openapi.yml
 - filename: getvda-ai-governance-md-api-openapi.yml
   format: yaml
   label: Verified Digital Agents (VDA) Governance.md API
   slug: getvda-ai-governance-md-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvda-ai/refs/heads/main/openapi/getvda-ai-governance-md-api-openapi.yml
+  url: https://artifacts.apis.io/getvda-ai/openapi/getvda-ai-governance-md-api-openapi.yml
 - filename: getvda-ai-health-api-openapi.yml
   format: yaml
   label: Verified Digital Agents (VDA) Health API
   slug: getvda-ai-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvda-ai/refs/heads/main/openapi/getvda-ai-health-api-openapi.yml
+  url: https://artifacts.apis.io/getvda-ai/openapi/getvda-ai-health-api-openapi.yml
 - filename: getvda-ai-healthz-api-openapi.yml
   format: yaml
   label: Verified Digital Agents (VDA) Healthz API
   slug: getvda-ai-healthz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvda-ai/refs/heads/main/openapi/getvda-ai-healthz-api-openapi.yml
+  url: https://artifacts.apis.io/getvda-ai/openapi/getvda-ai-healthz-api-openapi.yml
 - filename: getvda-ai-livez-api-openapi.yml
   format: yaml
   label: Verified Digital Agents (VDA) Livez API
   slug: getvda-ai-livez-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvda-ai/refs/heads/main/openapi/getvda-ai-livez-api-openapi.yml
+  url: https://artifacts.apis.io/getvda-ai/openapi/getvda-ai-livez-api-openapi.yml
 - filename: getvda-ai-llms-txt-api-openapi.yml
   format: yaml
   label: Verified Digital Agents (VDA) Llms.txt API
   slug: getvda-ai-llms-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvda-ai/refs/heads/main/openapi/getvda-ai-llms-txt-api-openapi.yml
+  url: https://artifacts.apis.io/getvda-ai/openapi/getvda-ai-llms-txt-api-openapi.yml
 - filename: getvda-ai-mcp-api-openapi.yml
   format: yaml
   label: Verified Digital Agents (VDA) MCP API
   slug: getvda-ai-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvda-ai/refs/heads/main/openapi/getvda-ai-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/getvda-ai/openapi/getvda-ai-mcp-api-openapi.yml
 - filename: getvda-ai-mcp-free-api-openapi.yml
   format: yaml
   label: Verified Digital Agents (VDA) Mcp Free API
   slug: getvda-ai-mcp-free-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvda-ai/refs/heads/main/openapi/getvda-ai-mcp-free-api-openapi.yml
+  url: https://artifacts.apis.io/getvda-ai/openapi/getvda-ai-mcp-free-api-openapi.yml
 - filename: getvda-ai-mcp-metered-api-openapi.yml
   format: yaml
   label: Verified Digital Agents (VDA) Mcp Metered API
   slug: getvda-ai-mcp-metered-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvda-ai/refs/heads/main/openapi/getvda-ai-mcp-metered-api-openapi.yml
+  url: https://artifacts.apis.io/getvda-ai/openapi/getvda-ai-mcp-metered-api-openapi.yml
 - filename: getvda-ai-openapi-json-api-openapi.yml
   format: yaml
   label: Verified Digital Agents (VDA) Openapi.json API
   slug: getvda-ai-openapi-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvda-ai/refs/heads/main/openapi/getvda-ai-openapi-json-api-openapi.yml
+  url: https://artifacts.apis.io/getvda-ai/openapi/getvda-ai-openapi-json-api-openapi.yml
 - filename: getvda-ai-readyz-api-openapi.yml
   format: yaml
   label: Verified Digital Agents (VDA) Readyz API
   slug: getvda-ai-readyz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvda-ai/refs/heads/main/openapi/getvda-ai-readyz-api-openapi.yml
+  url: https://artifacts.apis.io/getvda-ai/openapi/getvda-ai-readyz-api-openapi.yml
 - filename: getvda-ai-robots-txt-api-openapi.yml
   format: yaml
   label: Verified Digital Agents (VDA) Robots.txt API
   slug: getvda-ai-robots-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvda-ai/refs/heads/main/openapi/getvda-ai-robots-txt-api-openapi.yml
+  url: https://artifacts.apis.io/getvda-ai/openapi/getvda-ai-robots-txt-api-openapi.yml
 - filename: getvda-ai-router-api-openapi.yml
   format: yaml
   label: Verified Digital Agents (VDA) Router API
   slug: getvda-ai-router-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvda-ai/refs/heads/main/openapi/getvda-ai-router-api-openapi.yml
+  url: https://artifacts.apis.io/getvda-ai/openapi/getvda-ai-router-api-openapi.yml
 - filename: getvda-ai-selftest-api-openapi.yml
   format: yaml
   label: Verified Digital Agents (VDA) Selftest API
   slug: getvda-ai-selftest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvda-ai/refs/heads/main/openapi/getvda-ai-selftest-api-openapi.yml
+  url: https://artifacts.apis.io/getvda-ai/openapi/getvda-ai-selftest-api-openapi.yml
 - filename: getvda-ai-sitemap-xml-api-openapi.yml
   format: yaml
   label: Verified Digital Agents (VDA) Sitemap.xml API
   slug: getvda-ai-sitemap-xml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvda-ai/refs/heads/main/openapi/getvda-ai-sitemap-xml-api-openapi.yml
+  url: https://artifacts.apis.io/getvda-ai/openapi/getvda-ai-sitemap-xml-api-openapi.yml
 - filename: getvda-ai-solutions-api-openapi.yml
   format: yaml
   label: Verified Digital Agents (VDA) Solutions API
   slug: getvda-ai-solutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvda-ai/refs/heads/main/openapi/getvda-ai-solutions-api-openapi.yml
+  url: https://artifacts.apis.io/getvda-ai/openapi/getvda-ai-solutions-api-openapi.yml
 - filename: getvda-ai-tools-api-openapi.yml
   format: yaml
   label: Verified Digital Agents (VDA) Tools API
   slug: getvda-ai-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvda-ai/refs/heads/main/openapi/getvda-ai-tools-api-openapi.yml
+  url: https://artifacts.apis.io/getvda-ai/openapi/getvda-ai-tools-api-openapi.yml
 - filename: getvda-ai-verify-api-openapi.yml
   format: yaml
   label: Verified Digital Agents (VDA) Verify API
   slug: getvda-ai-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvda-ai/refs/heads/main/openapi/getvda-ai-verify-api-openapi.yml
+  url: https://artifacts.apis.io/getvda-ai/openapi/getvda-ai-verify-api-openapi.yml
 - filename: getvda-ai-well-known-api-openapi.yml
   format: yaml
   label: Verified Digital Agents (VDA) .well Known API
   slug: getvda-ai-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvda-ai/refs/heads/main/openapi/getvda-ai-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/getvda-ai/openapi/getvda-ai-well-known-api-openapi.yml
 - filename: getvda-ai-witness-api-openapi.yml
   format: yaml
   label: Verified Digital Agents (VDA) Witness API
   slug: getvda-ai-witness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvda-ai/refs/heads/main/openapi/getvda-ai-witness-api-openapi.yml
+  url: https://artifacts.apis.io/getvda-ai/openapi/getvda-ai-witness-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -288,7 +288,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://witness
   \ card-signing key — the docs call out THREE keys.\n  sources: [https://witness.getvda.ai/llms.txt]\n- name: google_oauth2\n  type: oauth2\n  flows:\n    authorizationCode:\n      authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n      tokenUrl: https://oauth2.googleapis.com/token\n      scopes: [c2md:assess, c2md:generate_starter, c2md:generate_pro, c2md:generate_journey, c2md:commercial_deploy]\n  description: Google Sign-In for Workspace and personal accounts; token validated via Google's JWKS; used for C2MD skill-tier scope assertion against subscription state.\n  used_by: [c2md.getvda.ai]\n  sources: [a2a/getvda-ai-c2md-agent-card.json]\n- name: microsoft_oauth2\n  type: oauth2\n  flows:\n    authorizationCode:\n      authorizationUrl: https://login.microsoftonline.com/organizations/oauth2/v2.0/authorize\n      tokenUrl: https://login.microsoftonline.com/organizations/oauth2/v2.0/token\n      scopes: [c2md:assess, c2md:generate_starter, c2md:generate_pro, c2md:generate_journey,\
   \ c2md:commercial_deploy]\n    clientCredentials:\n      tokenUrl: https://login.microsoftonline.com/organizations/oauth2/v2.0/token\n      scopes: ['7c89fa90-05ca-4779-8128-32c7f11f604b/.default']\n  description: Microsoft Entra ID, organisations only (personal accounts unsupported); clientCredentials is for pre-registered service principals (Tier 3, by arrangement — hello@getvda.ai).\n  used_by: [c2md.getvda.ai]\n  sources: [a2a/getvda-ai-c2md-agent-card.json]\n- name: approver_oidc\n  type: http\n  scheme: bearer\n  in: header\n  header: X-Approver-Credential\n  description: An OIDC token from the customer's IdP identifying a human approver on ACP's decision route. DECLARED but not live — GET https://acp.getvda.ai/readyz reports identity \"disabled\" (\"set OIDC_ISSUER + OIDC_AUDIENCE to enable\").\n  used_by: [acp.getvda.ai]\n  status: staged\n  sources: [a2a/getvda-ai-acp-agent-card.json, openapi/getvda-ai-acp-openapi.json]\n- name: tenantBearer\n  type: http\n  scheme: bearer\n \
   \ description: Per-tenant service-account token for the Onboarding agent's admit_agent, revoke_credential and get_admission_status skills.\n  used_by: [onboard.getvda.ai]\n  sources: [a2a/getvda-ai-onboard-agent-card.json]\n- name: x402\n  type: payment\n  scheme: x402 v2 (HTTP 402 challenge)\n  description: >-\n    The GOSCE fleet (98 servers + router) requires NO authentication; metered tools answer 402 with a base64\n    PAYMENT-REQUIRED header and are retried with a PAYMENT-SIGNATURE header — an EIP-3009 transferWithAuthorization\n    in USDC on Base (eip155:8453) or an nvm:card-delegation Stripe checkout for humans. The C2MD card notes\n    generated Copilot Studio connectors are \"remote streamable-HTTP MCP servers requiring NO authentication\".\n  used_by: ['*.getvda.ai fleet', router.getvda.ai]\n  sources: [well-known/getvda-ai-agents-ai-catalog.json, https://agents.getvda.ai/llms.txt]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/getvda-ai/refs/heads/main/authentication/getvda-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/getvda-ai/authentication/getvda-ai-authentication.yml
 summary_line: http/oauth2/x402-payment · 7 schemes
 tags:
 - Company

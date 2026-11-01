@@ -7,37 +7,37 @@ api_specs:
   label: Bank of America Accounts API
   slug: bank-of-america-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/openapi/bank-of-america-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-america/openapi/bank-of-america-accounts-api-openapi.yml
 - filename: bank-of-america-balances-api-openapi.yml
   format: yaml
   label: Bank of America Balances API
   slug: bank-of-america-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/openapi/bank-of-america-balances-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-america/openapi/bank-of-america-balances-api-openapi.yml
 - filename: bank-of-america-banking-api-openapi.yml
   format: yaml
   label: Bank of America Banking API
   slug: bank-of-america-banking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/openapi/bank-of-america-banking-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-america/openapi/bank-of-america-banking-api-openapi.yml
 - filename: bank-of-america-payments-api-openapi.yml
   format: yaml
   label: Bank of America Payments API
   slug: bank-of-america-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/openapi/bank-of-america-payments-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-america/openapi/bank-of-america-payments-api-openapi.yml
 - filename: bank-of-america-statements-api-openapi.yml
   format: yaml
   label: Bank of America Statements API
   slug: bank-of-america-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/openapi/bank-of-america-statements-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-america/openapi/bank-of-america-statements-api-openapi.yml
 - filename: bank-of-america-transactions-api-openapi.yml
   format: yaml
   label: Bank of America Transactions API
   slug: bank-of-america-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/openapi/bank-of-america-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-america/openapi/bank-of-america-transactions-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -73,7 +73,7 @@ source_filename: bank-of-america-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bank-of-america-bofa-api-openapi.yml, openapi/bank-of-america-cashpro-api-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/bank-of-america-bofa-api-openapi.yml\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.bankofamerica.com/oauth/token\n    scopes: 4\n  sources:\n  - openapi/bank-of-america-cashpro-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/authentication/bank-of-america-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bank-of-america/authentication/bank-of-america-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Banking

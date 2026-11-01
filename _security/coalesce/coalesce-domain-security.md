@@ -5,43 +5,37 @@ api_specs:
   label: Coalesce Environments API
   slug: coalesce-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coalesce/refs/heads/main/openapi/coalesce-environments-api-openapi.yml
+  url: https://artifacts.apis.io/coalesce/openapi/coalesce-environments-api-openapi.yml
 - filename: coalesce-git-accounts-api-openapi.yml
   format: yaml
   label: Coalesce Git Accounts API
   slug: coalesce-git-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coalesce/refs/heads/main/openapi/coalesce-git-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/coalesce/openapi/coalesce-git-accounts-api-openapi.yml
 - filename: coalesce-nodes-api-openapi.yml
   format: yaml
   label: Coalesce Nodes API
   slug: coalesce-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coalesce/refs/heads/main/openapi/coalesce-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/coalesce/openapi/coalesce-nodes-api-openapi.yml
 - filename: coalesce-projects-api-openapi.yml
   format: yaml
   label: Coalesce Projects API
   slug: coalesce-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coalesce/refs/heads/main/openapi/coalesce-projects-api-openapi.yml
+  url: https://artifacts.apis.io/coalesce/openapi/coalesce-projects-api-openapi.yml
 - filename: coalesce-runs-api-openapi.yml
   format: yaml
   label: Coalesce Runs API
   slug: coalesce-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coalesce/refs/heads/main/openapi/coalesce-runs-api-openapi.yml
-- filename: coalesce-scheduler-api-openapi.yml
-  format: yaml
-  label: Coalesce Scheduler API
-  slug: coalesce-scheduler-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coalesce/refs/heads/main/openapi/coalesce-scheduler-api-openapi.yml
+  url: https://artifacts.apis.io/coalesce/openapi/coalesce-runs-api-openapi.yml
 - filename: coalesce-users-api-openapi.yml
   format: yaml
   label: Coalesce Users API
   slug: coalesce-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coalesce/refs/heads/main/openapi/coalesce-users-api-openapi.yml
+  url: https://artifacts.apis.io/coalesce/openapi/coalesce-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -89,7 +83,7 @@ source_filename: coalesce-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: coalesce.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 09:42:43 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.coalesce.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 04:44:14 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.coalescesoftware.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 21:10:21 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: coalesce.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: coalescesoftware.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coalesce/refs/heads/main/security/coalesce-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/coalesce/security/coalesce-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data Transformation

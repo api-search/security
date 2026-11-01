@@ -37,7 +37,7 @@ source_filename: lendbuzz-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-01'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.lendbuzz.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 12:08:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.lendbuzz.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 06:04:14 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.lendbuzz.com\n  https: false\n  note: DNS resolves (44.237.92.21, 35.162.221.233) but TCP 443 and 80 both time out\n    from the public internet — not a publicly reachable API host\ndomains:\n- domain: lendbuzz.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lendbuzz/refs/heads/main/security/lendbuzz-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lendbuzz/security/lendbuzz-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -7,7 +7,7 @@ api_specs:
   label: Patreon Oauth2 API
   slug: patreon-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/patreon/refs/heads/main/openapi/patreon-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/patreon/openapi/patreon-oauth2-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -37,7 +37,7 @@ source_filename: patreon-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/patreon-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: OAuth2 access token\n  description: |-\n    Pass `Authorization: Bearer {access_token}`. Tokens are issued via\n    the Patreon OAuth flow (`/oauth2/authorize` and `/api/oauth2/token`).\n  sources:\n  - openapi/patreon-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/patreon/refs/heads/main/authentication/patreon-authentication.yml
+source_yaml_url: https://artifacts.apis.io/patreon/authentication/patreon-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Creator Economy

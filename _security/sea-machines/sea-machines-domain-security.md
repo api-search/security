@@ -5,13 +5,13 @@ api_specs:
   label: SMLink Streaming-API
   slug: smlink-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sea-machines/refs/heads/main/openapi/_original/sea-machines-openapi.yml
+  url: https://artifacts.apis.io/sea-machines/openapi/_original/sea-machines-openapi.yml
 - filename: sea-machines-openapi.yml
   format: yaml
   label: SMLink Control-API
   slug: smlink-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sea-machines/refs/heads/main/openapi/_original/sea-machines-openapi.yml
+  url: https://artifacts.apis.io/sea-machines/openapi/_original/sea-machines-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +40,7 @@ source_filename: sea-machines-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sea-machines.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 12 17:01:37 2026 GMT\n  hsts: false\ndomains:\n- domain: sea-machines.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sea-machines/refs/heads/main/security/sea-machines-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sea-machines/security/sea-machines-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Marine

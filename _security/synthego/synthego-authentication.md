@@ -8,7 +8,7 @@ api_specs:
   label: Synthego Order API
   slug: synthego-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthego/refs/heads/main/openapi/synthego-order-api-openapi.yml
+  url: https://artifacts.apis.io/synthego/openapi/synthego-order-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -35,7 +35,7 @@ source_filename: synthego-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/synthego-order-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: UserSecurity\n  type: apiKey\n  in: header\n  parameter: SYNTHEGOAPIKEY\n  sources:\n  - openapi/synthego-order-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synthego/refs/heads/main/authentication/synthego-authentication.yml
+source_yaml_url: https://artifacts.apis.io/synthego/authentication/synthego-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

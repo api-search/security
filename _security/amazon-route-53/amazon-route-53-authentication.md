@@ -8,19 +8,67 @@ api_specs:
   label: Amazon Route 53 Health Checks API
   slug: amazon-route-53-health-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-route-53/refs/heads/main/openapi/amazon-route-53-health-checks-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-route-53/openapi/amazon-route-53-health-checks-api-openapi.yml
 - filename: amazon-route-53-hosted-zones-api-openapi.yml
   format: yaml
   label: Amazon Route 53 Hosted Zones API
   slug: amazon-route-53-hosted-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-route-53/refs/heads/main/openapi/amazon-route-53-hosted-zones-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-route-53/openapi/amazon-route-53-hosted-zones-api-openapi.yml
 - filename: amazon-route-53-resource-record-sets-api-openapi.yml
   format: yaml
   label: Amazon Route 53 Resource Record Sets API
   slug: amazon-route-53-resource-record-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-route-53/refs/heads/main/openapi/amazon-route-53-resource-record-sets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-route-53/openapi/amazon-route-53-resource-record-sets-api-openapi.yml
+- filename: amazon-route-53-cidrcollection-api-openapi.yml
+  format: yaml
+  label: Amazon Route 53 Route 53 Cidrcollection API
+  slug: amazon-route-53-cidrcollection-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-route-53/openapi/amazon-route-53-cidrcollection-api-openapi.yml
+- filename: amazon-route-53-delegationset-api-openapi.yml
+  format: yaml
+  label: Amazon Route 53 Route 53 Delegationset API
+  slug: amazon-route-53-delegationset-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-route-53/openapi/amazon-route-53-delegationset-api-openapi.yml
+- filename: amazon-route-53-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Route 53 Route 53 Operations API
+  slug: amazon-route-53-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-route-53/openapi/amazon-route-53-operations-api-openapi.yml
+- filename: amazon-route-53-queryloggingconfig-api-openapi.yml
+  format: yaml
+  label: Amazon Route 53 Route 53 Queryloggingconfig API
+  slug: amazon-route-53-queryloggingconfig-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-route-53/openapi/amazon-route-53-queryloggingconfig-api-openapi.yml
+- filename: amazon-route-53-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Route 53 Route 53 Tags API
+  slug: amazon-route-53-tags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-route-53/openapi/amazon-route-53-tags-api-openapi.yml
+- filename: amazon-route-53-trafficpolicy-api-openapi.yml
+  format: yaml
+  label: Amazon Route 53 Route 53 Trafficpolicy API
+  slug: amazon-route-53-trafficpolicy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-route-53/openapi/amazon-route-53-trafficpolicy-api-openapi.yml
+- filename: amazon-route-53-trafficpolicyinstance-api-openapi.yml
+  format: yaml
+  label: Amazon Route 53 Route 53 Trafficpolicyinstance API
+  slug: amazon-route-53-trafficpolicyinstance-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-route-53/openapi/amazon-route-53-trafficpolicyinstance-api-openapi.yml
+- filename: amazon-route-53-trafficpolicyinstances-api-openapi.yml
+  format: yaml
+  label: Amazon Route 53 Route 53 Trafficpolicyinstances API
+  slug: amazon-route-53-trafficpolicyinstances-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-route-53/openapi/amazon-route-53-trafficpolicyinstances-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +96,7 @@ source_filename: amazon-route-53-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-route-53-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: aws_sig_v4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4 authentication\n  sources:\n  - openapi/amazon-route-53-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-route-53/refs/heads/main/authentication/amazon-route-53-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-route-53/authentication/amazon-route-53-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - DNS

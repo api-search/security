@@ -7,25 +7,25 @@ api_specs:
   label: Amdocs Billing API
   slug: amdocs-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/openapi/amdocs-billing-api-openapi.yml
+  url: https://artifacts.apis.io/amdocs/openapi/amdocs-billing-api-openapi.yml
 - filename: amdocs-customers-api-openapi.yml
   format: yaml
   label: Amdocs Customers API
   slug: amdocs-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/openapi/amdocs-customers-api-openapi.yml
+  url: https://artifacts.apis.io/amdocs/openapi/amdocs-customers-api-openapi.yml
 - filename: amdocs-products-api-openapi.yml
   format: yaml
   label: Amdocs Products API
   slug: amdocs-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/openapi/amdocs-products-api-openapi.yml
+  url: https://artifacts.apis.io/amdocs/openapi/amdocs-products-api-openapi.yml
 - filename: amdocs-subscriptions-api-openapi.yml
   format: yaml
   label: Amdocs Subscriptions API
   slug: amdocs-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/openapi/amdocs-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/amdocs/openapi/amdocs-subscriptions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -55,7 +55,7 @@ source_filename: amdocs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amdocs-connectx-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.amdocs-dbs.com/oauth/token\n    scopes: 4\n  sources:\n  - openapi/amdocs-connectx-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/authentication/amdocs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amdocs/authentication/amdocs-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Telecommunications

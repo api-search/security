@@ -5,31 +5,31 @@ api_specs:
   label: Tillo Balance API
   slug: tillo-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tillo/refs/heads/main/openapi/tillo-balance-api-openapi.yml
+  url: https://artifacts.apis.io/tillo/openapi/tillo-balance-api-openapi.yml
 - filename: tillo-brands-api-openapi.yml
   format: yaml
   label: Tillo Brands API
   slug: tillo-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tillo/refs/heads/main/openapi/tillo-brands-api-openapi.yml
+  url: https://artifacts.apis.io/tillo/openapi/tillo-brands-api-openapi.yml
 - filename: tillo-digital-cards-api-openapi.yml
   format: yaml
   label: Tillo Digital Cards API
   slug: tillo-digital-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tillo/refs/heads/main/openapi/tillo-digital-cards-api-openapi.yml
+  url: https://artifacts.apis.io/tillo/openapi/tillo-digital-cards-api-openapi.yml
 - filename: tillo-float-api-openapi.yml
   format: yaml
   label: Tillo Float API
   slug: tillo-float-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tillo/refs/heads/main/openapi/tillo-float-api-openapi.yml
+  url: https://artifacts.apis.io/tillo/openapi/tillo-float-api-openapi.yml
 - filename: tillo-orders-api-openapi.yml
   format: yaml
   label: Tillo Orders API
   slug: tillo-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tillo/refs/heads/main/openapi/tillo-orders-api-openapi.yml
+  url: https://artifacts.apis.io/tillo/openapi/tillo-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: tillo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tillo.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 17:33:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.tillo.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: tillo.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 23 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: tillo.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: tillo.tech\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tillo/refs/heads/main/security/tillo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tillo/security/tillo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Finance

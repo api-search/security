@@ -5,19 +5,19 @@ api_specs:
   label: Replit Deployments API
   slug: replit-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replit/refs/heads/main/openapi/replit-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/replit/openapi/replit-deployments-api-openapi.yml
 - filename: replit-repls-api-openapi.yml
   format: yaml
   label: Replit Repls API
   slug: replit-repls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replit/refs/heads/main/openapi/replit-repls-api-openapi.yml
+  url: https://artifacts.apis.io/replit/openapi/replit-repls-api-openapi.yml
 - filename: replit-users-api-openapi.yml
   format: yaml
   label: Replit Users API
   slug: replit-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replit/refs/heads/main/openapi/replit-users-api-openapi.yml
+  url: https://artifacts.apis.io/replit/openapi/replit-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: replit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: replit.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 13 06:47:00 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: replit.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/replit/refs/heads/main/security/replit-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/replit/security/replit-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Code

@@ -5,19 +5,19 @@ api_specs:
   label: Johnson & Johnson Devices API
   slug: johnson-and-johnson-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/openapi/johnson-and-johnson-devices-api-openapi.yml
+  url: https://artifacts.apis.io/johnson-and-johnson/openapi/johnson-and-johnson-devices-api-openapi.yml
 - filename: johnson-and-johnson-glucose-readings-api-openapi.yml
   format: yaml
   label: Johnson & Johnson Glucose Readings API
   slug: johnson-and-johnson-glucose-readings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/openapi/johnson-and-johnson-glucose-readings-api-openapi.yml
+  url: https://artifacts.apis.io/johnson-and-johnson/openapi/johnson-and-johnson-glucose-readings-api-openapi.yml
 - filename: johnson-and-johnson-patients-api-openapi.yml
   format: yaml
   label: Johnson & Johnson Patients API
   slug: johnson-and-johnson-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/openapi/johnson-and-johnson-patients-api-openapi.yml
+  url: https://artifacts.apis.io/johnson-and-johnson/openapi/johnson-and-johnson-patients-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -54,7 +54,7 @@ source_filename: johnson-and-johnson-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.jnj.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 21 23:59:59 2027 GMT\n  hsts: false\n- host: api.lifescan.com\n  https: false\ndomains:\n- domain: jnj.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: lifescan.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/security/johnson-and-johnson-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/johnson-and-johnson/security/johnson-and-johnson-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Healthcare

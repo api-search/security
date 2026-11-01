@@ -8,43 +8,43 @@ api_specs:
   label: Copper Activities API
   slug: copper-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/openapi/copper-activities-api-openapi.yml
+  url: https://artifacts.apis.io/copper/openapi/copper-activities-api-openapi.yml
 - filename: copper-companies-api-openapi.yml
   format: yaml
   label: Copper Companies API
   slug: copper-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/openapi/copper-companies-api-openapi.yml
+  url: https://artifacts.apis.io/copper/openapi/copper-companies-api-openapi.yml
 - filename: copper-leads-api-openapi.yml
   format: yaml
   label: Copper Leads API
   slug: copper-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/openapi/copper-leads-api-openapi.yml
+  url: https://artifacts.apis.io/copper/openapi/copper-leads-api-openapi.yml
 - filename: copper-opportunities-api-openapi.yml
   format: yaml
   label: Copper Opportunities API
   slug: copper-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/openapi/copper-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/copper/openapi/copper-opportunities-api-openapi.yml
 - filename: copper-people-api-openapi.yml
   format: yaml
   label: Copper People API
   slug: copper-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/openapi/copper-people-api-openapi.yml
+  url: https://artifacts.apis.io/copper/openapi/copper-people-api-openapi.yml
 - filename: copper-tasks-api-openapi.yml
   format: yaml
   label: Copper Tasks API
   slug: copper-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/openapi/copper-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/copper/openapi/copper-tasks-api-openapi.yml
 - filename: copper-webhooks-api-openapi.yml
   format: yaml
   label: Copper Webhooks API
   slug: copper-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/openapi/copper-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/copper/openapi/copper-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -86,7 +86,7 @@ source_filename: copper-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/copper-developer-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: PWAccessToken\n  type: apiKey\n  in: header\n  parameter: X-PW-AccessToken\n  description: API access token for the user\n  sources:\n  - openapi/copper-developer-api-openapi.yml\n- name: PWApplication\n  type: apiKey\n  in: header\n  parameter: X-PW-Application\n  description: Application identifier, set to 'developer_api'\n  sources:\n  - openapi/copper-developer-api-openapi.yml\n- name: PWUserEmail\n  type: apiKey\n  in: header\n  parameter: X-PW-UserEmail\n  description: Email address of the API token owner\n  sources:\n  - openapi/copper-developer-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/authentication/copper-authentication.yml
+source_yaml_url: https://artifacts.apis.io/copper/authentication/copper-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - Activities

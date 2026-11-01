@@ -5,31 +5,31 @@ api_specs:
   label: PostOnce Accounts API
   slug: postonce-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postonce/refs/heads/main/openapi/postonce-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/postonce/openapi/postonce-accounts-api-openapi.yml
 - filename: postonce-drafts-api-openapi.yml
   format: yaml
   label: PostOnce Drafts API
   slug: postonce-drafts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postonce/refs/heads/main/openapi/postonce-drafts-api-openapi.yml
+  url: https://artifacts.apis.io/postonce/openapi/postonce-drafts-api-openapi.yml
 - filename: postonce-media-api-openapi.yml
   format: yaml
   label: PostOnce Media API
   slug: postonce-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postonce/refs/heads/main/openapi/postonce-media-api-openapi.yml
+  url: https://artifacts.apis.io/postonce/openapi/postonce-media-api-openapi.yml
 - filename: postonce-posts-api-openapi.yml
   format: yaml
   label: PostOnce Posts API
   slug: postonce-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postonce/refs/heads/main/openapi/postonce-posts-api-openapi.yml
+  url: https://artifacts.apis.io/postonce/openapi/postonce-posts-api-openapi.yml
 - filename: postonce-workflows-api-openapi.yml
   format: yaml
   label: PostOnce Workflows API
   slug: postonce-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postonce/refs/heads/main/openapi/postonce-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/postonce/openapi/postonce-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: postonce-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: postonce.to\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 10:40:42 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: postonce.to\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/postonce/refs/heads/main/security/postonce-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/postonce/security/postonce-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

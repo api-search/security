@@ -8,25 +8,25 @@ api_specs:
   label: ActivTrak Administration API
   slug: activtrak-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/openapi/activtrak-administration-api-openapi.yml
+  url: https://artifacts.apis.io/activtrak/openapi/activtrak-administration-api-openapi.yml
 - filename: activtrak-administration-scim-api-openapi.yml
   format: yaml
   label: ActivTrak Administration - SCIM API
   slug: activtrak-administration-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/openapi/activtrak-administration-scim-api-openapi.yml
+  url: https://artifacts.apis.io/activtrak/openapi/activtrak-administration-scim-api-openapi.yml
 - filename: activtrak-bulk-import-api-openapi.yml
   format: yaml
   label: ActivTrak Bulk Import API
   slug: activtrak-bulk-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/openapi/activtrak-bulk-import-api-openapi.yml
+  url: https://artifacts.apis.io/activtrak/openapi/activtrak-bulk-import-api-openapi.yml
 - filename: activtrak-reports-api-openapi.yml
   format: yaml
   label: ActivTrak Reports API
   slug: activtrak-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/openapi/activtrak-reports-api-openapi.yml
+  url: https://artifacts.apis.io/activtrak/openapi/activtrak-reports-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: activtrak-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: derived\nsource: openapi/activtrak-openapi-original.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: 'Public API key sent in the x-api-key header. Some endpoints also accept `Authorization:\n    Bearer {apiKey}`. Keys are created in the ActivTrak app under API & Integrations > API Keys.'\n  sources:\n  - openapi/activtrak-openapi-original.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/authentication/activtrak-authentication.yml
+source_yaml_url: https://artifacts.apis.io/activtrak/authentication/activtrak-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

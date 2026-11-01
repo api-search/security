@@ -7,25 +7,25 @@ api_specs:
   label: Quiver Quantitative Beta API
   slug: quiver-quantitative-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quiver-quantitative/refs/heads/main/openapi/quiver-quantitative-beta-api-openapi.yml
+  url: https://artifacts.apis.io/quiver-quantitative/openapi/quiver-quantitative-beta-api-openapi.yml
 - filename: quiver-quantitative-tier-1-api-openapi.yml
   format: yaml
   label: Quiver Quantitative Tier 1 API
   slug: quiver-quantitative-tier-1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quiver-quantitative/refs/heads/main/openapi/quiver-quantitative-tier-1-api-openapi.yml
+  url: https://artifacts.apis.io/quiver-quantitative/openapi/quiver-quantitative-tier-1-api-openapi.yml
 - filename: quiver-quantitative-tier-2-api-openapi.yml
   format: yaml
   label: Quiver Quantitative Tier 2 API
   slug: quiver-quantitative-tier-2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quiver-quantitative/refs/heads/main/openapi/quiver-quantitative-tier-2-api-openapi.yml
+  url: https://artifacts.apis.io/quiver-quantitative/openapi/quiver-quantitative-tier-2-api-openapi.yml
 - filename: quiver-quantitative-tier-new-constructs-ratings-api-openapi.yml
   format: yaml
   label: Quiver Quantitative Tier New Constructs Ratings API
   slug: quiver-quantitative-tier-new-constructs-ratings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quiver-quantitative/refs/heads/main/openapi/quiver-quantitative-tier-new-constructs-ratings-api-openapi.yml
+  url: https://artifacts.apis.io/quiver-quantitative/openapi/quiver-quantitative-tier-new-constructs-ratings-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -51,7 +51,7 @@ source_filename: quiver-quantitative-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-21'\nmethod: derived\nsource: openapi/quiver-quantitative-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: WebPlatformTokenAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/quiver-quantitative-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quiver-quantitative/refs/heads/main/authentication/quiver-quantitative-authentication.yml
+source_yaml_url: https://artifacts.apis.io/quiver-quantitative/authentication/quiver-quantitative-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

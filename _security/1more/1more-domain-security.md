@@ -36,7 +36,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: usa.1more.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 02:57:32 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\n- host: www.1more.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  2 02:20:11 2027 GMT\n  hsts: false\n  hsts_max_age: null\n  note: 1MORE's corporate site (nginx origin). Probed manually 2026-09-05; not covered by the automated\n    pass because apis.yml carries it as CorporateWebsite. No Strict-Transport-Security header is returned.\ndomains:\n- domain: 1more.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\nnote: usa.1more.com is the Shopify-hosted US storefront and carries HSTS; www.1more.com is 1MORE's own\n  corporate origin and does not. The apex https://1more.com returned HTTP 504 on every request and global.1more.com\n  did not resolve to a reachable origin, so neither\
   \ could be probed. The registrable domain 1more.com\n  publishes SPF and DMARC but DMARC policy is p=none (monitor only), and there is no DNSSEC and no CAA\n  record.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1more/refs/heads/main/security/1more-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/1more/security/1more-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

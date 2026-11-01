@@ -5,25 +5,25 @@ api_specs:
   label: Open Connectivity for Tours, Activities, and Attractions Availability API
   slug: octo-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octo/refs/heads/main/openapi/octo-availability-api-openapi.yml
+  url: https://artifacts.apis.io/octo/openapi/octo-availability-api-openapi.yml
 - filename: octo-bookings-api-openapi.yml
   format: yaml
   label: Open Connectivity for Tours, Activities, and Attractions Bookings API
   slug: octo-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octo/refs/heads/main/openapi/octo-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/octo/openapi/octo-bookings-api-openapi.yml
 - filename: octo-products-api-openapi.yml
   format: yaml
   label: Open Connectivity for Tours, Activities, and Attractions Products API
   slug: octo-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octo/refs/heads/main/openapi/octo-products-api-openapi.yml
+  url: https://artifacts.apis.io/octo/openapi/octo-products-api-openapi.yml
 - filename: octo-supplier-api-openapi.yml
   format: yaml
   label: Open Connectivity for Tours, Activities, and Attractions Supplier API
   slug: octo-supplier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octo/refs/heads/main/openapi/octo-supplier-api-openapi.yml
+  url: https://artifacts.apis.io/octo/openapi/octo-supplier-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: octo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.octo.travel\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 13:47:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: octo.travel\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/octo/refs/heads/main/security/octo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/octo/security/octo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Activities

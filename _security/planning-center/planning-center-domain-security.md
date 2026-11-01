@@ -5,55 +5,55 @@ api_specs:
   label: Planning Center Calendar API
   slug: planning-center-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-calendar-api-openapi.yml
 - filename: planning-center-check-ins-api-openapi.yml
   format: yaml
   label: Planning Center Check-Ins API
   slug: planning-center-check-ins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-check-ins-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-check-ins-api-openapi.yml
 - filename: planning-center-giving-api-openapi.yml
   format: yaml
   label: Planning Center Giving API
   slug: planning-center-giving-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-giving-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-giving-api-openapi.yml
 - filename: planning-center-groups-api-openapi.yml
   format: yaml
   label: Planning Center Groups API
   slug: planning-center-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-groups-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-groups-api-openapi.yml
 - filename: planning-center-people-api-openapi.yml
   format: yaml
   label: Planning Center People API
   slug: planning-center-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-people-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-people-api-openapi.yml
 - filename: planning-center-publishing-api-openapi.yml
   format: yaml
   label: Planning Center Publishing API
   slug: planning-center-publishing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-publishing-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-publishing-api-openapi.yml
 - filename: planning-center-registrations-api-openapi.yml
   format: yaml
   label: Planning Center Registrations API
   slug: planning-center-registrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-registrations-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-registrations-api-openapi.yml
 - filename: planning-center-services-api-openapi.yml
   format: yaml
   label: Planning Center Services API
   slug: planning-center-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-services-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-services-api-openapi.yml
 - filename: planning-center-webhooks-api-openapi.yml
   format: yaml
   label: Planning Center Webhooks API
   slug: planning-center-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -100,7 +100,7 @@ source_filename: planning-center-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.planningcenter.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 22:04:08 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.planning.center\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 12 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.planningcenteronline.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: planningcenter.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: planning.center\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/security/planning-center-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/planning-center/security/planning-center-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Church Management

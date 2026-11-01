@@ -5,43 +5,43 @@ api_specs:
   label: Numbers API Date API
   slug: numbers-api-date-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numbers-api/refs/heads/main/openapi/numbers-api-date-api-openapi.yml
+  url: https://artifacts.apis.io/numbers-api/openapi/numbers-api-date-api-openapi.yml
 - filename: numbers-api-math-api-openapi.yml
   format: yaml
   label: Numbers API Math API
   slug: numbers-api-math-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numbers-api/refs/heads/main/openapi/numbers-api-math-api-openapi.yml
+  url: https://artifacts.apis.io/numbers-api/openapi/numbers-api-math-api-openapi.yml
 - filename: numbers-api-numbers-api-api-openapi.yml
   format: yaml
   label: Numbers API Numbers API
   slug: numbers-api-numbers-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numbers-api/refs/heads/main/openapi/numbers-api-numbers-api-api-openapi.yml
+  url: https://artifacts.apis.io/numbers-api/openapi/numbers-api-numbers-api-api-openapi.yml
 - filename: numbers-api-random-api-openapi.yml
   format: yaml
   label: Numbers API Random API
   slug: numbers-api-random-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numbers-api/refs/heads/main/openapi/numbers-api-random-api-openapi.yml
+  url: https://artifacts.apis.io/numbers-api/openapi/numbers-api-random-api-openapi.yml
 - filename: numbers-api-trivia-api-openapi.yml
   format: yaml
   label: Numbers API Trivia API
   slug: numbers-api-trivia-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numbers-api/refs/heads/main/openapi/numbers-api-trivia-api-openapi.yml
+  url: https://artifacts.apis.io/numbers-api/openapi/numbers-api-trivia-api-openapi.yml
 - filename: numbers-api-year-api-openapi.yml
   format: yaml
   label: Numbers API Year API
   slug: numbers-api-year-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numbers-api/refs/heads/main/openapi/numbers-api-year-api-openapi.yml
+  url: https://artifacts.apis.io/numbers-api/openapi/numbers-api-year-api-openapi.yml
 - filename: numbers-api-batch-api-openapi.yml
   format: yaml
   label: Numbers API Batch API
   slug: numbers-api-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numbers-api/refs/heads/main/openapi/numbers-api-batch-api-openapi.yml
+  url: https://artifacts.apis.io/numbers-api/openapi/numbers-api-batch-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: numbers-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: numbersapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 02:38:32 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: numbersapi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/numbers-api/refs/heads/main/security/numbers-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/numbers-api/security/numbers-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Numbers

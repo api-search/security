@@ -5,37 +5,37 @@ api_specs:
   label: DeepInfra Audio API
   slug: deepinfra-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/openapi/deepinfra-audio-api-openapi.yml
+  url: https://artifacts.apis.io/deepinfra/openapi/deepinfra-audio-api-openapi.yml
 - filename: deepinfra-completions-api-openapi.yml
   format: yaml
   label: DeepInfra Completions API
   slug: deepinfra-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/openapi/deepinfra-completions-api-openapi.yml
+  url: https://artifacts.apis.io/deepinfra/openapi/deepinfra-completions-api-openapi.yml
 - filename: deepinfra-embeddings-api-openapi.yml
   format: yaml
   label: DeepInfra Embeddings API
   slug: deepinfra-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/openapi/deepinfra-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/deepinfra/openapi/deepinfra-embeddings-api-openapi.yml
 - filename: deepinfra-images-api-openapi.yml
   format: yaml
   label: DeepInfra Images API
   slug: deepinfra-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/openapi/deepinfra-images-api-openapi.yml
+  url: https://artifacts.apis.io/deepinfra/openapi/deepinfra-images-api-openapi.yml
 - filename: deepinfra-models-api-openapi.yml
   format: yaml
   label: DeepInfra Models API
   slug: deepinfra-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/openapi/deepinfra-models-api-openapi.yml
+  url: https://artifacts.apis.io/deepinfra/openapi/deepinfra-models-api-openapi.yml
 - filename: deepinfra-chat-completions-api-openapi.yml
   format: yaml
   label: DeepInfra Chat Completions API
   slug: deepinfra-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/openapi/deepinfra-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/deepinfra/openapi/deepinfra-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: deepinfra-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: deepinfra.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 10:44:54 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.deepinfra.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 06:41:40 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.deepinfra.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 22:20:35 2026 GMT\n  hsts: null\ndomains:\n- domain: deepinfra.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/security/deepinfra-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/deepinfra/security/deepinfra-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

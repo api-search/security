@@ -7,37 +7,37 @@ api_specs:
   label: Apicbase Ingredients API
   slug: apicbase-ingredients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-ingredients-api-openapi.yml
+  url: https://artifacts.apis.io/apicbase/openapi/apicbase-ingredients-api-openapi.yml
 - filename: apicbase-outlets-api-openapi.yml
   format: yaml
   label: Apicbase Outlets API
   slug: apicbase-outlets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-outlets-api-openapi.yml
+  url: https://artifacts.apis.io/apicbase/openapi/apicbase-outlets-api-openapi.yml
 - filename: apicbase-procurement-api-openapi.yml
   format: yaml
   label: Apicbase Procurement API
   slug: apicbase-procurement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-procurement-api-openapi.yml
+  url: https://artifacts.apis.io/apicbase/openapi/apicbase-procurement-api-openapi.yml
 - filename: apicbase-recipes-api-openapi.yml
   format: yaml
   label: Apicbase Recipes API
   slug: apicbase-recipes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-recipes-api-openapi.yml
+  url: https://artifacts.apis.io/apicbase/openapi/apicbase-recipes-api-openapi.yml
 - filename: apicbase-stock-api-openapi.yml
   format: yaml
   label: Apicbase Stock API
   slug: apicbase-stock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-stock-api-openapi.yml
+  url: https://artifacts.apis.io/apicbase/openapi/apicbase-stock-api-openapi.yml
 - filename: apicbase-suppliers-api-openapi.yml
   format: yaml
   label: Apicbase Suppliers API
   slug: apicbase-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/apicbase/openapi/apicbase-suppliers-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -69,7 +69,7 @@ source_filename: apicbase-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/apicbase-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.apicbase.com/oauth/authorize/\n    tokenUrl: https://api.apicbase.com/oauth/token/\n    scopes: 2\n  description: OAuth 2.0 authorization code flow. Access tokens are bearer tokens valid for\n    7 days; refresh tokens obtain new access tokens. Include the token in the Authorization\n    header as \"Bearer ACCESS_TOKEN\".\n  sources:\n  - openapi/apicbase-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/authentication/apicbase-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apicbase/authentication/apicbase-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Food and Beverage

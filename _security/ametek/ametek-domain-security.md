@@ -5,19 +5,19 @@ api_specs:
   label: AMETEK Alarms API
   slug: ametek-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ametek/refs/heads/main/openapi/ametek-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/ametek/openapi/ametek-alarms-api-openapi.yml
 - filename: ametek-device-identity-api-openapi.yml
   format: yaml
   label: AMETEK Device Identity API
   slug: ametek-device-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ametek/refs/heads/main/openapi/ametek-device-identity-api-openapi.yml
+  url: https://artifacts.apis.io/ametek/openapi/ametek-device-identity-api-openapi.yml
 - filename: ametek-ups-monitoring-api-openapi.yml
   format: yaml
   label: AMETEK UPS Monitoring API
   slug: ametek-ups-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ametek/refs/heads/main/openapi/ametek-ups-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/ametek/openapi/ametek-ups-monitoring-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -53,7 +53,7 @@ source_filename: ametek-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ametek.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 10 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: ametek.com\n  dnssec: false\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"geotrust.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ametek/refs/heads/main/security/ametek-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ametek/security/ametek-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Electronic Instruments

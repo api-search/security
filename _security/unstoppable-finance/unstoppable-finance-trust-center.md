@@ -5,55 +5,55 @@ api_specs:
   label: Unstoppable Finance (Iron) Addresses API
   slug: unstoppable-finance-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/openapi/unstoppable-finance-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-finance/openapi/unstoppable-finance-addresses-api-openapi.yml
 - filename: unstoppable-finance-autoramp-api-openapi.yml
   format: yaml
   label: Unstoppable Finance (Iron) Autoramp API
   slug: unstoppable-finance-autoramp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/openapi/unstoppable-finance-autoramp-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-finance/openapi/unstoppable-finance-autoramp-api-openapi.yml
 - filename: unstoppable-finance-currencies-api-openapi.yml
   format: yaml
   label: Unstoppable Finance (Iron) Currencies API
   slug: unstoppable-finance-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/openapi/unstoppable-finance-currencies-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-finance/openapi/unstoppable-finance-currencies-api-openapi.yml
 - filename: unstoppable-finance-customer-api-openapi.yml
   format: yaml
   label: Unstoppable Finance (Iron) Customer API
   slug: unstoppable-finance-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/openapi/unstoppable-finance-customer-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-finance/openapi/unstoppable-finance-customer-api-openapi.yml
 - filename: unstoppable-finance-sandbox-api-openapi.yml
   format: yaml
   label: Unstoppable Finance (Iron) Sandbox API
   slug: unstoppable-finance-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/openapi/unstoppable-finance-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-finance/openapi/unstoppable-finance-sandbox-api-openapi.yml
 - filename: unstoppable-finance-webhooks-api-openapi.yml
   format: yaml
   label: Unstoppable Finance (Iron) Webhooks API
   slug: unstoppable-finance-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/openapi/unstoppable-finance-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-finance/openapi/unstoppable-finance-webhooks-api-openapi.yml
 - filename: unstoppable-finance-exchange-rate-api-openapi.yml
   format: yaml
   label: Unstoppable Finance (Iron) Exchange Rate API
   slug: unstoppable-finance-exchange-rate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/openapi/unstoppable-finance-exchange-rate-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-finance/openapi/unstoppable-finance-exchange-rate-api-openapi.yml
 - filename: unstoppable-finance-fee-profiles-api-openapi.yml
   format: yaml
   label: Unstoppable Finance (Iron) Fee Profiles API
   slug: unstoppable-finance-fee-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/openapi/unstoppable-finance-fee-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-finance/openapi/unstoppable-finance-fee-profiles-api-openapi.yml
 - filename: unstoppable-finance-terms-and-conditions-api-openapi.yml
   format: yaml
   label: Unstoppable Finance (Iron) Terms And Conditions API
   slug: unstoppable-finance-terms-and-conditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/openapi/unstoppable-finance-terms-and-conditions-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-finance/openapi/unstoppable-finance-terms-and-conditions-api-openapi.yml
 certification_count: 7
 certifications:
 - SOC 2
@@ -76,7 +76,7 @@ source_filename: unstoppable-finance-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nurl: https://iron.xyz/security\nparent: https://www.moonpay.com/security\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27701\n- ISO 27018\n- PCI DSS\n- CMMC\n- GDPR\nevidence:\n- source: https://iron.xyz/security\n  keywords:\n  - SOC 2\n  - ISO 27001\n  - ISO 27701\n  - ISO 27018\n  - PCI DSS\n  - CMMC\n  - GDPR\n  - bug bounty\n- source: https://iron.xyz/compliance\n  keywords:\n  - licenses\n  - MiCA\n  - CASP\n  - MSB\n  - VASP\n  - money transmitter\nnotes: Iron is a MoonPay company; security certifications and the licensing program\n  are published at iron.xyz/security and iron.xyz/compliance, with full detail at\n  moonpay.com/security and moonpay.com/legal/licenses. Data encrypted in transit (TLS\n  1.2+) and at rest (AES-256) in PCI DSS / ISO 27001 compliant data centers.\nsource: https://iron.xyz/security\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/security/unstoppable-finance-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/unstoppable-finance/security/unstoppable-finance-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27701, ISO 27018, PCI DSS, CMMC, GDPR
 tags:
 - Company

@@ -7,103 +7,103 @@ api_specs:
   label: Vaultfire Protocol Agent API
   slug: theloopbreaker-com-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-agent-api-openapi.yml
+  url: https://artifacts.apis.io/theloopbreaker-com/openapi/theloopbreaker-com-agent-api-openapi.yml
 - filename: theloopbreaker-com-analytics-api-openapi.yml
   format: yaml
   label: Vaultfire Protocol Analytics API
   slug: theloopbreaker-com-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/theloopbreaker-com/openapi/theloopbreaker-com-analytics-api-openapi.yml
 - filename: theloopbreaker-com-bonds-api-openapi.yml
   format: yaml
   label: Vaultfire Protocol Bonds API
   slug: theloopbreaker-com-bonds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-bonds-api-openapi.yml
+  url: https://artifacts.apis.io/theloopbreaker-com/openapi/theloopbreaker-com-bonds-api-openapi.yml
 - filename: theloopbreaker-com-bridge-api-openapi.yml
   format: yaml
   label: Vaultfire Protocol Bridge API
   slug: theloopbreaker-com-bridge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-bridge-api-openapi.yml
+  url: https://artifacts.apis.io/theloopbreaker-com/openapi/theloopbreaker-com-bridge-api-openapi.yml
 - filename: theloopbreaker-com-compliance-api-openapi.yml
   format: yaml
   label: Vaultfire Protocol Compliance API
   slug: theloopbreaker-com-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/theloopbreaker-com/openapi/theloopbreaker-com-compliance-api-openapi.yml
 - filename: theloopbreaker-com-discovery-api-openapi.yml
   format: yaml
   label: Vaultfire Protocol Discovery API
   slug: theloopbreaker-com-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/theloopbreaker-com/openapi/theloopbreaker-com-discovery-api-openapi.yml
 - filename: theloopbreaker-com-disputes-api-openapi.yml
   format: yaml
   label: Vaultfire Protocol Disputes API
   slug: theloopbreaker-com-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/theloopbreaker-com/openapi/theloopbreaker-com-disputes-api-openapi.yml
 - filename: theloopbreaker-com-governance-api-openapi.yml
   format: yaml
   label: Vaultfire Protocol Governance API
   slug: theloopbreaker-com-governance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-governance-api-openapi.yml
+  url: https://artifacts.apis.io/theloopbreaker-com/openapi/theloopbreaker-com-governance-api-openapi.yml
 - filename: theloopbreaker-com-identity-api-openapi.yml
   format: yaml
   label: Vaultfire Protocol Identity API
   slug: theloopbreaker-com-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-identity-api-openapi.yml
+  url: https://artifacts.apis.io/theloopbreaker-com/openapi/theloopbreaker-com-identity-api-openapi.yml
 - filename: theloopbreaker-com-insurance-api-openapi.yml
   format: yaml
   label: Vaultfire Protocol Insurance API
   slug: theloopbreaker-com-insurance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-insurance-api-openapi.yml
+  url: https://artifacts.apis.io/theloopbreaker-com/openapi/theloopbreaker-com-insurance-api-openapi.yml
 - filename: theloopbreaker-com-keys-api-openapi.yml
   format: yaml
   label: Vaultfire Protocol Keys API
   slug: theloopbreaker-com-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-keys-api-openapi.yml
+  url: https://artifacts.apis.io/theloopbreaker-com/openapi/theloopbreaker-com-keys-api-openapi.yml
 - filename: theloopbreaker-com-protocol-api-openapi.yml
   format: yaml
   label: Vaultfire Protocol Protocol API
   slug: theloopbreaker-com-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/theloopbreaker-com/openapi/theloopbreaker-com-protocol-api-openapi.yml
 - filename: theloopbreaker-com-routing-api-openapi.yml
   format: yaml
   label: Vaultfire Protocol Routing API
   slug: theloopbreaker-com-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-routing-api-openapi.yml
+  url: https://artifacts.apis.io/theloopbreaker-com/openapi/theloopbreaker-com-routing-api-openapi.yml
 - filename: theloopbreaker-com-system-api-openapi.yml
   format: yaml
   label: Vaultfire Protocol System API
   slug: theloopbreaker-com-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-system-api-openapi.yml
+  url: https://artifacts.apis.io/theloopbreaker-com/openapi/theloopbreaker-com-system-api-openapi.yml
 - filename: theloopbreaker-com-tasks-api-openapi.yml
   format: yaml
   label: Vaultfire Protocol Tasks API
   slug: theloopbreaker-com-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/theloopbreaker-com/openapi/theloopbreaker-com-tasks-api-openapi.yml
 - filename: theloopbreaker-com-trust-api-openapi.yml
   format: yaml
   label: Vaultfire Protocol Trust API
   slug: theloopbreaker-com-trust-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-trust-api-openapi.yml
+  url: https://artifacts.apis.io/theloopbreaker-com/openapi/theloopbreaker-com-trust-api-openapi.yml
 - filename: theloopbreaker-com-webhooks-api-openapi.yml
   format: yaml
   label: Vaultfire Protocol Webhooks API
   slug: theloopbreaker-com-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/theloopbreaker-com/openapi/theloopbreaker-com-webhooks-api-openapi.yml
 auth_types:
 - none
 - erc-8128-http-signature
@@ -163,7 +163,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\ndocs: https://theloopbr
   \ false\n  mtls: false\nschemes:\n  - name: publicRead\n    type: none\n    applies_to: every GET operation in openapi/theloopbreaker-com-openapi.yml and the two free x402 endpoints (/api/x402/trust/health, /api/x402/oracle/chainlink-status)\n    evidence: 'GET /api/agent/status?address=0xfA15...813C -> 200 with no credential (2026-09-19)'\n  - name: erc8128HttpSignature\n    type: http-message-signature\n    standard: ERC-8128 (profile of RFC 9421 HTTP Message Signatures, signed by the agent wallet key)\n    headers: [Signature, Signature-Input]\n    applies_to: routeTask (POST /agent/route) — observed; possibly other write operations, which the spec does not say\n    evidence: 'POST /api/agent/route {} -> 401 {\"error\":\"unsigned\",\"reason\":\"Request is missing ERC-8128 Signature and/or Signature-Input headers\"}'\n    documented_in_spec: false\n  - name: x402Payment\n    type: payment\n    standard: x402 v2, scheme exact, USDC on Base (eip155:8453)\n    headers: [PAYMENT-SIGNATURE\
   \ (request), PAYMENT-REQUIRED (402 challenge), PAYMENT-RESPONSE (settled response)]\n    applies_to: 75 priced endpoints under /api/x402/* (well-known/theloopbreaker-com-x402.json)\n    facilitator: https://api.cdp.coinbase.com/platform/v2/x402\n    evidence: '402 challenge observed on GET /api/x402/bonds/agent-bond-status and POST /api/x402/actions/accept-bid'\n  - name: walletSignature\n    type: self-custody\n    applies_to: registerAgent, createBond, prepareTask, prepareVKPAction — the API returns an unsigned transaction / contract ABI; state changes happen only when the caller signs and broadcasts with their own wallet\n    evidence: OpenAPI response descriptions (\"Unsigned transaction to submit on-chain\"); agent card authentication.note; Terms section 3 (self-custody)\n  - name: mcpPrivateKey\n    type: environment-secret\n    applies_to: the two write tools of the stdio MCP server (vaultfire_register_agent, vaultfire_create_bond)\n    variable: PRIVATE_KEY\n    evidence: '@vaultfire/mcp-server\
   \ README, \"Write Tools (require PRIVATE_KEY env var)\"'\n    note: A wallet private key held by the local process, never sent to Vaultfire.\ncredential_issuance: none — there is no sign-up, API key or OAuth client; identity is the caller's wallet address\nspec_gap: >-\n  The contract declares no securitySchemes at all, so the ERC-8128 requirement on routeTask and the x402\n  requirement on the priced surface are invisible to a generated client. Captured in\n  overlays/theloopbreaker-com-openapi-overlay.yaml.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/authentication/theloopbreaker-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/theloopbreaker-com/authentication/theloopbreaker-com-authentication.yml
 summary_line: none/erc-8128-http-signature/x402-payment/wallet-signature · 5 schemes
 tags:
 - AI Agents

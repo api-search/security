@@ -33,7 +33,7 @@ source_filename: bio-rad-laboratories-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bio-rad.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 13:28:10 2026 GMT\n  hsts: null\ndomains:\n- domain: bio-rad.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bio-rad-laboratories/refs/heads/main/security/bio-rad-laboratories-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bio-rad-laboratories/security/bio-rad-laboratories-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Life Sciences

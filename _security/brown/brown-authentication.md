@@ -7,37 +7,37 @@ api_specs:
   label: Brown University Collections API
   slug: brown-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/openapi/brown-collections-api-openapi.yml
+  url: https://artifacts.apis.io/brown/openapi/brown-collections-api-openapi.yml
 - filename: brown-discovery-api-openapi.yml
   format: yaml
   label: Brown University Discovery API
   slug: brown-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/openapi/brown-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/brown/openapi/brown-discovery-api-openapi.yml
 - filename: brown-iiif-image-api-openapi.yml
   format: yaml
   label: Brown University IIIF Image API
   slug: brown-iiif-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/openapi/brown-iiif-image-api-openapi.yml
+  url: https://artifacts.apis.io/brown/openapi/brown-iiif-image-api-openapi.yml
 - filename: brown-iiif-presentation-api-openapi.yml
   format: yaml
   label: Brown University IIIF Presentation API
   slug: brown-iiif-presentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/openapi/brown-iiif-presentation-api-openapi.yml
+  url: https://artifacts.apis.io/brown/openapi/brown-iiif-presentation-api-openapi.yml
 - filename: brown-items-api-openapi.yml
   format: yaml
   label: Brown University Items API
   slug: brown-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/openapi/brown-items-api-openapi.yml
+  url: https://artifacts.apis.io/brown/openapi/brown-items-api-openapi.yml
 - filename: brown-search-api-openapi.yml
   format: yaml
   label: Brown University Search API
   slug: brown-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/openapi/brown-search-api-openapi.yml
+  url: https://artifacts.apis.io/brown/openapi/brown-search-api-openapi.yml
 auth_types: []
 description: 'Brown''s programmable surface has two authentication stories and they do not meet. The public BDR API has no authentication at all — no key, no OAuth, no registration, nothing to obtain. The institution''s real identity infrastructure is a SAML 2.0 Shibboleth identity provider registered in InCommon, which is a browser SSO protocol and is not usable as API credentials. There is no bridge: no OAuth authorization server, no token endpoint, no OIDC discovery document, no dynamic client registration, no protected-resource metadata. An agent or a script cannot authenticate to anything at Brown; it can only read what is already public.'
 kind: authentication
@@ -60,7 +60,7 @@ source_yaml: "specification: API Evangelist Authentication\nspecificationVersion
   \ real identity infrastructure is a SAML 2.0 Shibboleth identity provider registered in\n  InCommon, which is a browser SSO protocol and is not usable as API credentials. There is no bridge:\n  no OAuth authorization server, no token endpoint, no OIDC discovery document, no dynamic client\n  registration, no protected-resource metadata. An agent or a script cannot authenticate to anything\n  at Brown; it can only read what is already public.\nsurfaces:\n- name: Brown Digital Repository (BDR) API\n  x-operator: institution\n  scheme: none\n  registration: not applicable\n  evidence:\n    url: https://repository.library.brown.edu/api/search/?q=*&rows=1\n    status: 200\n    note: Returned 200 and a full result set with no credential of any kind.\n  boundary: >-\n    The access boundary is visibility, not authentication. Every indexed object carries\n    `_display_public_bsi`, `_display_brown_bsi` and `_display_private_bsi`; the anonymous API sees\n    the public set. Every search response\
   \ includes a `links.login` URL pointing at\n    `https://repository.library.brown.edu/api/login/?next=<the same query>`, which is the API\n    telling a caller that a larger, Brown-authenticated view of that exact query exists. That login\n    is a browser Shibboleth redirect, not a token grant.\n- name: Brown Shibboleth Identity Provider\n  x-operator: institution\n  scheme: SAML 2.0 web browser SSO\n  entityID: https://sso.brown.edu/idp/shibboleth\n  evidence:\n    url: https://sso.brown.edu/idp/shibboleth\n    status: 200\n    content_type: application/xml;charset=UTF-8\n    bytes: 5652\n  bindings:\n  - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST -> https://sso.brown.edu/idp/profile/SAML2/POST/SSO\n  - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect -> https://sso.brown.edu/idp/profile/SAML2/Redirect/SSO\n  - urn:mace:shibboleth:1.0:profiles:AuthnRequest -> https://sso.brown.edu/idp/profile/Shibboleth/SSO\n  scope: brown.edu\n  note: >-\n    Machine-readable and self-published,\
   \ which is rare — most institutions leave their IdP metadata\n    to the federation aggregate. It is nonetheless a human-browser protocol. It grants no API access.\nabsent:\n  oauth2: true\n  openid_connect_discovery: true\n  api_keys: true\n  dynamic_client_registration: true\n  protected_resource_metadata: true\n  delegated_identity: true\n  service_accounts: true\n  note: >-\n    Probed and not found. Recorded as absent rather than omitted, because absence here is the\n    finding: Brown publishes a strong institutional identity contract and no way for software to use it.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/authentication/brown-authentication.yml
+source_yaml_url: https://artifacts.apis.io/brown/authentication/brown-authentication.yml
 summary_line: 0 schemes
 tags:
 - Education

@@ -8,79 +8,79 @@ api_specs:
   label: Airstack Casts API
   slug: airstack-casts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-casts-api-openapi.yml
+  url: https://artifacts.apis.io/airstack/openapi/airstack-casts-api-openapi.yml
 - filename: airstack-hubevents-api-openapi.yml
   format: yaml
   label: Airstack HubEvents API
   slug: airstack-hubevents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-hubevents-api-openapi.yml
+  url: https://artifacts.apis.io/airstack/openapi/airstack-hubevents-api-openapi.yml
 - filename: airstack-links-api-openapi.yml
   format: yaml
   label: Airstack Links API
   slug: airstack-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-links-api-openapi.yml
+  url: https://artifacts.apis.io/airstack/openapi/airstack-links-api-openapi.yml
 - filename: airstack-onchainevents-api-openapi.yml
   format: yaml
   label: Airstack OnChainEvents API
   slug: airstack-onchainevents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-onchainevents-api-openapi.yml
+  url: https://artifacts.apis.io/airstack/openapi/airstack-onchainevents-api-openapi.yml
 - filename: airstack-reactions-api-openapi.yml
   format: yaml
   label: Airstack Reactions API
   slug: airstack-reactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-reactions-api-openapi.yml
+  url: https://artifacts.apis.io/airstack/openapi/airstack-reactions-api-openapi.yml
 - filename: airstack-storage-api-openapi.yml
   format: yaml
   label: Airstack Storage API
   slug: airstack-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-storage-api-openapi.yml
+  url: https://artifacts.apis.io/airstack/openapi/airstack-storage-api-openapi.yml
 - filename: airstack-submitmessage-api-openapi.yml
   format: yaml
   label: Airstack SubmitMessage API
   slug: airstack-submitmessage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-submitmessage-api-openapi.yml
+  url: https://artifacts.apis.io/airstack/openapi/airstack-submitmessage-api-openapi.yml
 - filename: airstack-usernames-api-openapi.yml
   format: yaml
   label: Airstack Usernames API
   slug: airstack-usernames-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-usernames-api-openapi.yml
+  url: https://artifacts.apis.io/airstack/openapi/airstack-usernames-api-openapi.yml
 - filename: airstack-validatemessage-api-openapi.yml
   format: yaml
   label: Airstack ValidateMessage API
   slug: airstack-validatemessage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-validatemessage-api-openapi.yml
+  url: https://artifacts.apis.io/airstack/openapi/airstack-validatemessage-api-openapi.yml
 - filename: airstack-verifications-api-openapi.yml
   format: yaml
   label: Airstack Verifications API
   slug: airstack-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/airstack/openapi/airstack-verifications-api-openapi.yml
 - filename: airstack-webhooks-api-openapi.yml
   format: yaml
   label: Airstack Webhooks API
   slug: airstack-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/airstack/openapi/airstack-webhooks-api-openapi.yml
 - filename: airstack-fids-api-openapi.yml
   format: yaml
   label: Airstack FI Ds API
   slug: airstack-fids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-fids-api-openapi.yml
+  url: https://artifacts.apis.io/airstack/openapi/airstack-fids-api-openapi.yml
 - filename: airstack-user-data-api-openapi.yml
   format: yaml
   label: Airstack User Data API
   slug: airstack-user-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-user-data-api-openapi.yml
+  url: https://artifacts.apis.io/airstack/openapi/airstack-user-data-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -113,7 +113,7 @@ source_filename: airstack-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/farcaster-hub-rest-api.json, openapi/farcaster-webhooks-api.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-airstack-hubs\n  sources:\n  - openapi/farcaster-hub-rest-api.json\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/farcaster-webhooks-api.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/authentication/airstack-authentication.yml
+source_yaml_url: https://artifacts.apis.io/airstack/authentication/airstack-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Web3

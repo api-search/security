@@ -5,25 +5,25 @@ api_specs:
   label: Quiltt Connections API
   slug: quiltt-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quiltt/refs/heads/main/openapi/quiltt-connections-api-openapi.yml
+  url: https://artifacts.apis.io/quiltt/openapi/quiltt-connections-api-openapi.yml
 - filename: quiltt-profiles-api-openapi.yml
   format: yaml
   label: Quiltt Profiles API
   slug: quiltt-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quiltt/refs/heads/main/openapi/quiltt-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/quiltt/openapi/quiltt-profiles-api-openapi.yml
 - filename: quiltt-session-tokens-api-openapi.yml
   format: yaml
   label: Quiltt Session Tokens API
   slug: quiltt-session-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quiltt/refs/heads/main/openapi/quiltt-session-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/quiltt/openapi/quiltt-session-tokens-api-openapi.yml
 - filename: quiltt-webhooks-api-openapi.yml
   format: yaml
   label: Quiltt Webhooks API
   slug: quiltt-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quiltt/refs/heads/main/openapi/quiltt-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/quiltt/openapi/quiltt-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +71,7 @@ source_filename: quiltt-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.quiltt.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 12:46:43 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.quiltt.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 22:20:56 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.quiltt.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 16:22:53 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: quiltt.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: quiltt.dev\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quiltt/refs/heads/main/security/quiltt-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/quiltt/security/quiltt-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Fintech

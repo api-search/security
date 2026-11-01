@@ -7,73 +7,73 @@ api_specs:
   label: Fipto AISP/PISP API
   slug: fipto-aisp-pisp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fipto/refs/heads/main/openapi/fipto-aisp-pisp-api-openapi.yml
+  url: https://artifacts.apis.io/fipto/openapi/fipto-aisp-pisp-api-openapi.yml
 - filename: fipto-assets-api-openapi.yml
   format: yaml
   label: Fipto Assets API
   slug: fipto-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fipto/refs/heads/main/openapi/fipto-assets-api-openapi.yml
+  url: https://artifacts.apis.io/fipto/openapi/fipto-assets-api-openapi.yml
 - filename: fipto-automations-api-openapi.yml
   format: yaml
   label: Fipto Automations API
   slug: fipto-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fipto/refs/heads/main/openapi/fipto-automations-api-openapi.yml
+  url: https://artifacts.apis.io/fipto/openapi/fipto-automations-api-openapi.yml
 - filename: fipto-beneficiaries-api-openapi.yml
   format: yaml
   label: Fipto Beneficiaries API
   slug: fipto-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fipto/refs/heads/main/openapi/fipto-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/fipto/openapi/fipto-beneficiaries-api-openapi.yml
 - filename: fipto-companies-api-openapi.yml
   format: yaml
   label: Fipto Companies API
   slug: fipto-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fipto/refs/heads/main/openapi/fipto-companies-api-openapi.yml
+  url: https://artifacts.apis.io/fipto/openapi/fipto-companies-api-openapi.yml
 - filename: fipto-conversions-api-openapi.yml
   format: yaml
   label: Fipto Conversions API
   slug: fipto-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fipto/refs/heads/main/openapi/fipto-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/fipto/openapi/fipto-conversions-api-openapi.yml
 - filename: fipto-internal-transfers-api-openapi.yml
   format: yaml
   label: Fipto Internal Transfers API
   slug: fipto-internal-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fipto/refs/heads/main/openapi/fipto-internal-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/fipto/openapi/fipto-internal-transfers-api-openapi.yml
 - filename: fipto-payin-simulation-api-openapi.yml
   format: yaml
   label: Fipto Payin Simulation API
   slug: fipto-payin-simulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fipto/refs/heads/main/openapi/fipto-payin-simulation-api-openapi.yml
+  url: https://artifacts.apis.io/fipto/openapi/fipto-payin-simulation-api-openapi.yml
 - filename: fipto-payment-links-api-openapi.yml
   format: yaml
   label: Fipto Payment links API
   slug: fipto-payment-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fipto/refs/heads/main/openapi/fipto-payment-links-api-openapi.yml
+  url: https://artifacts.apis.io/fipto/openapi/fipto-payment-links-api-openapi.yml
 - filename: fipto-transactions-api-openapi.yml
   format: yaml
   label: Fipto Transactions API
   slug: fipto-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fipto/refs/heads/main/openapi/fipto-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/fipto/openapi/fipto-transactions-api-openapi.yml
 - filename: fipto-travel-rule-api-openapi.yml
   format: yaml
   label: Fipto Travel Rule API
   slug: fipto-travel-rule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fipto/refs/heads/main/openapi/fipto-travel-rule-api-openapi.yml
+  url: https://artifacts.apis.io/fipto/openapi/fipto-travel-rule-api-openapi.yml
 - filename: fipto-wallets-api-openapi.yml
   format: yaml
   label: Fipto Wallets API
   slug: fipto-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fipto/refs/heads/main/openapi/fipto-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/fipto/openapi/fipto-wallets-api-openapi.yml
 auth_types:
 - httpSignature
 description: ''
@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-08-17'\nmethod: searched\nsource: https://docs.fi
   \ are not self-serve. A prospective user requests access at https://www.fipto.com/demo,\n    supplies an RSA public key, and Fipto issues the API user UUID and company id. Production\n    credentials are issued only after KYB.\n  request_access: https://www.fipto.com/demo\nhelpers:\n- kind: postman\n  description: Fipto publishes a public Postman collection whose pre-request script builds the\n    Signature header, so the signing algorithm does not have to be implemented by hand to try the API.\n  url: https://www.postman.com/galactic-meadow-917828/workspace/fipto-api-demo-environment/collection/24959087-42b9da95-ca00-4b9a-89cc-52d84d432d5f\n  docs: https://docs.fipto.com/docs/postman-guide\n- kind: mcp\n  description: The open-source Fipto MCP server signs requests on the agent's behalf given USER_ID and\n    PRIVATE_KEY environment variables.\n  url: https://github.com/fipto/mcp-fipto\ndelegated_access:\n  model: AISP/PISP\n  description: >-\n    Fipto exposes a separate delegated-access\
   \ surface for Account Information Service Providers and\n    Payment Initiation Service Providers under PSD2. An AISP/PISP is registered as its own API user\n    against a company and gets scoped operations (payout initiation, wallet/transaction/beneficiary\n    read) under /aisp-pisp/ paths.\n  operations: [listAispPisp, createCompanyAispPisp, listCompanyAispPisp, getCompanyAispPisp,\n    deleteCompanyAispPisp, initiatePayoutAispPisp, getWalletAispPisp, listWalletAispPisp,\n    searchTransactionsAispPispByCompanyId, getTransactionAispPisp, listBeneficiariesAispPisp,\n    getBeneficiaryAispPisp]\nstrong_authentication:\n  required: true\n  description: >-\n    Some operations require two-factor verification. createAutomation is documented in the spec as\n    \"Requires 2FA verification\". Fipto documents Strong Customer Authentication (PSD2 SCA) for\n    platform users.\n  docs: https://docs.fipto.com/docs/what-is-strong-authentication\nwebhook_authentication:\n  direction: inbound-to-customer\n\
   \  header: Fipto-Signature\n  algorithm: Base64(RSASSA-PKCS1-v1_5(webhook private key, SHA-512, SHA-512(eventBody)))\n  verification: Fipto publishes per-environment RSA public keys for signature verification\n  docs: https://docs.fipto.com/docs/webhooks\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fipto/refs/heads/main/authentication/fipto-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fipto/authentication/fipto-authentication.yml
 summary_line: httpSignature · 1 scheme
 tags:
 - Company

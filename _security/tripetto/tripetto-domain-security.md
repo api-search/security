@@ -5,19 +5,19 @@ api_specs:
   label: Tripetto Forms API
   slug: tripetto-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/openapi/tripetto-forms-api-openapi.yml
+  url: https://artifacts.apis.io/tripetto/openapi/tripetto-forms-api-openapi.yml
 - filename: tripetto-responses-api-openapi.yml
   format: yaml
   label: Tripetto Responses API
   slug: tripetto-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/openapi/tripetto-responses-api-openapi.yml
+  url: https://artifacts.apis.io/tripetto/openapi/tripetto-responses-api-openapi.yml
 - filename: tripetto-webhooks-api-openapi.yml
   format: yaml
   label: Tripetto Webhooks API
   slug: tripetto-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/openapi/tripetto-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/tripetto/openapi/tripetto-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: tripetto-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tripetto.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: tripetto.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/security/tripetto-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tripetto/security/tripetto-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Forms

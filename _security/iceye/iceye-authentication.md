@@ -8,19 +8,19 @@ api_specs:
   label: ICEYE Catalog API
   slug: iceye-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iceye/refs/heads/main/openapi/iceye-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/iceye/openapi/iceye-catalog-api-openapi.yml
 - filename: iceye-company-api-openapi.yml
   format: yaml
   label: ICEYE Company API
   slug: iceye-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iceye/refs/heads/main/openapi/iceye-company-api-openapi.yml
+  url: https://artifacts.apis.io/iceye/openapi/iceye-company-api-openapi.yml
 - filename: iceye-tasking-api-openapi.yml
   format: yaml
   label: ICEYE Tasking API
   slug: iceye-tasking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iceye/refs/heads/main/openapi/iceye-tasking-api-openapi.yml
+  url: https://artifacts.apis.io/iceye/openapi/iceye-tasking-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: iceye-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/iceye-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: API key issued by ICEYE.\n  sources:\n  - openapi/iceye-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iceye/refs/heads/main/authentication/iceye-authentication.yml
+source_yaml_url: https://artifacts.apis.io/iceye/authentication/iceye-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - SAR

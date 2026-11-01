@@ -11,43 +11,43 @@ api_specs:
   label: LiveChat Chats API
   slug: livechat-chats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/openapi/livechat-chats-api-openapi.yml
+  url: https://artifacts.apis.io/livechat/openapi/livechat-chats-api-openapi.yml
 - filename: livechat-customers-api-openapi.yml
   format: yaml
   label: LiveChat Customers API
   slug: livechat-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/openapi/livechat-customers-api-openapi.yml
+  url: https://artifacts.apis.io/livechat/openapi/livechat-customers-api-openapi.yml
 - filename: livechat-events-api-openapi.yml
   format: yaml
   label: LiveChat Events API
   slug: livechat-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/openapi/livechat-events-api-openapi.yml
+  url: https://artifacts.apis.io/livechat/openapi/livechat-events-api-openapi.yml
 - filename: livechat-other-api-openapi.yml
   format: yaml
   label: LiveChat Other API
   slug: livechat-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/openapi/livechat-other-api-openapi.yml
+  url: https://artifacts.apis.io/livechat/openapi/livechat-other-api-openapi.yml
 - filename: livechat-properties-api-openapi.yml
   format: yaml
   label: LiveChat Properties API
   slug: livechat-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/openapi/livechat-properties-api-openapi.yml
+  url: https://artifacts.apis.io/livechat/openapi/livechat-properties-api-openapi.yml
 - filename: livechat-status-api-openapi.yml
   format: yaml
   label: LiveChat Status API
   slug: livechat-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/openapi/livechat-status-api-openapi.yml
+  url: https://artifacts.apis.io/livechat/openapi/livechat-status-api-openapi.yml
 - filename: livechat-threads-api-openapi.yml
   format: yaml
   label: LiveChat Threads API
   slug: livechat-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/openapi/livechat-threads-api-openapi.yml
+  url: https://artifacts.apis.io/livechat/openapi/livechat-threads-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -94,7 +94,7 @@ source_filename: livechat-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.livechat.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  6 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: platform.text.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  6 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.livechatinc.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  6 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: livechat.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: text.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/security/livechat-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/livechat/security/livechat-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Live Chat

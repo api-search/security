@@ -7,31 +7,31 @@ api_specs:
   label: Red Hat Enterprise Linux Advisories API
   slug: rhel-advisories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-advisories-api-openapi.yml
+  url: https://artifacts.apis.io/rhel/openapi/rhel-advisories-api-openapi.yml
 - filename: rhel-oval-api-openapi.yml
   format: yaml
   label: Red Hat Enterprise Linux OVAL API
   slug: rhel-oval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-oval-api-openapi.yml
+  url: https://artifacts.apis.io/rhel/openapi/rhel-oval-api-openapi.yml
 - filename: rhel-subscriptions-api-openapi.yml
   format: yaml
   label: Red Hat Enterprise Linux Subscriptions API
   slug: rhel-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/rhel/openapi/rhel-subscriptions-api-openapi.yml
 - filename: rhel-systems-api-openapi.yml
   format: yaml
   label: Red Hat Enterprise Linux Systems API
   slug: rhel-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-systems-api-openapi.yml
+  url: https://artifacts.apis.io/rhel/openapi/rhel-systems-api-openapi.yml
 - filename: rhel-cves-api-openapi.yml
   format: yaml
   label: Red Hat Enterprise Linux CV Es API
   slug: rhel-cves-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-cves-api-openapi.yml
+  url: https://artifacts.apis.io/rhel/openapi/rhel-cves-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -61,7 +61,7 @@ source_filename: rhel-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/rhel-subscription-management-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - password\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: password\n    tokenUrl: https://sso.redhat.com/auth/realms/redhat-external/protocol/openid-connect/token\n    scopes: 0\n  sources:\n  - openapi/rhel-subscription-management-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/authentication/rhel-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rhel/authentication/rhel-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Automation

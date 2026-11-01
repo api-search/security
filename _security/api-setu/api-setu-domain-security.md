@@ -28,7 +28,7 @@ source_filename: api-setu-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.apisetu.gov.in\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 03:23:36 2026 GMT\n  hsts: null\ndomains:\n- domain: apisetu.gov.in\n  dnssec: false\n  caa:\n  - 0 issue \"emsign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-setu/refs/heads/main/security/api-setu-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/api-setu/security/api-setu-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Open Data

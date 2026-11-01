@@ -5,37 +5,49 @@ api_specs:
   label: Anrok Customer certificates API
   slug: anrok-customer-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/openapi/anrok-customer-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/anrok/openapi/anrok-customer-certificates-api-openapi.yml
 - filename: anrok-filings-api-openapi.yml
   format: yaml
   label: Anrok Filings API
   slug: anrok-filings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/openapi/anrok-filings-api-openapi.yml
+  url: https://artifacts.apis.io/anrok/openapi/anrok-filings-api-openapi.yml
 - filename: anrok-product-mappings-api-openapi.yml
   format: yaml
   label: Anrok Product mappings API
   slug: anrok-product-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/openapi/anrok-product-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/anrok/openapi/anrok-product-mappings-api-openapi.yml
 - filename: anrok-products-api-openapi.yml
   format: yaml
   label: Anrok Products API
   slug: anrok-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/openapi/anrok-products-api-openapi.yml
+  url: https://artifacts.apis.io/anrok/openapi/anrok-products-api-openapi.yml
 - filename: anrok-tax-id-validation-api-openapi.yml
   format: yaml
   label: Anrok Tax ID validation API
   slug: anrok-tax-id-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/openapi/anrok-tax-id-validation-api-openapi.yml
+  url: https://artifacts.apis.io/anrok/openapi/anrok-tax-id-validation-api-openapi.yml
 - filename: anrok-transactions-api-openapi.yml
   format: yaml
   label: Anrok Transactions API
   slug: anrok-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/openapi/anrok-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/anrok/openapi/anrok-transactions-api-openapi.yml
+- filename: anrok-address-resolution-api-openapi.yml
+  format: yaml
+  label: Anrok Address resolution API
+  slug: anrok-address-resolution-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anrok/openapi/anrok-address-resolution-api-openapi.yml
+- filename: anrok-customers-api-openapi.yml
+  format: yaml
+  label: Anrok Customers API
+  slug: anrok-customers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anrok/openapi/anrok-customers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +87,7 @@ source_filename: anrok-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.anrok.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 18:18:46 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apidocs.anrok.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 18:55:19 2026 GMT\n  hsts: false\n- host: api.anrok.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 06:29:11 2026 GMT\n  hsts: null\ndomains:\n- domain: anrok.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/security/anrok-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/anrok/security/anrok-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Sales Tax

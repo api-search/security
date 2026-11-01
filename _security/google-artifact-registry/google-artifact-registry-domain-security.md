@@ -5,73 +5,73 @@ api_specs:
   label: Google Artifact Registry DockerImages API
   slug: google-artifact-registry-dockerimages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/openapi/google-artifact-registry-dockerimages-api-openapi.yml
+  url: https://artifacts.apis.io/google-artifact-registry/openapi/google-artifact-registry-dockerimages-api-openapi.yml
 - filename: google-artifact-registry-files-api-openapi.yml
   format: yaml
   label: Google Artifact Registry Files API
   slug: google-artifact-registry-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/openapi/google-artifact-registry-files-api-openapi.yml
+  url: https://artifacts.apis.io/google-artifact-registry/openapi/google-artifact-registry-files-api-openapi.yml
 - filename: google-artifact-registry-google-artifact-registry-api-api-openapi.yml
   format: yaml
   label: Google Artifact Registry Google Artifact Registry API
   slug: google-artifact-registry-google-artifact-registry-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/openapi/google-artifact-registry-google-artifact-registry-api-api-openapi.yml
+  url: https://artifacts.apis.io/google-artifact-registry/openapi/google-artifact-registry-google-artifact-registry-api-api-openapi.yml
 - filename: google-artifact-registry-locations-api-openapi.yml
   format: yaml
   label: Google Artifact Registry Locations API
   slug: google-artifact-registry-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/openapi/google-artifact-registry-locations-api-openapi.yml
+  url: https://artifacts.apis.io/google-artifact-registry/openapi/google-artifact-registry-locations-api-openapi.yml
 - filename: google-artifact-registry-mavenartifacts-api-openapi.yml
   format: yaml
   label: Google Artifact Registry MavenArtifacts API
   slug: google-artifact-registry-mavenartifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/openapi/google-artifact-registry-mavenartifacts-api-openapi.yml
+  url: https://artifacts.apis.io/google-artifact-registry/openapi/google-artifact-registry-mavenartifacts-api-openapi.yml
 - filename: google-artifact-registry-npmpackages-api-openapi.yml
   format: yaml
   label: Google Artifact Registry NpmPackages API
   slug: google-artifact-registry-npmpackages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/openapi/google-artifact-registry-npmpackages-api-openapi.yml
+  url: https://artifacts.apis.io/google-artifact-registry/openapi/google-artifact-registry-npmpackages-api-openapi.yml
 - filename: google-artifact-registry-packages-api-openapi.yml
   format: yaml
   label: Google Artifact Registry Packages API
   slug: google-artifact-registry-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/openapi/google-artifact-registry-packages-api-openapi.yml
+  url: https://artifacts.apis.io/google-artifact-registry/openapi/google-artifact-registry-packages-api-openapi.yml
 - filename: google-artifact-registry-pythonpackages-api-openapi.yml
   format: yaml
   label: Google Artifact Registry PythonPackages API
   slug: google-artifact-registry-pythonpackages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/openapi/google-artifact-registry-pythonpackages-api-openapi.yml
+  url: https://artifacts.apis.io/google-artifact-registry/openapi/google-artifact-registry-pythonpackages-api-openapi.yml
 - filename: google-artifact-registry-repositories-api-openapi.yml
   format: yaml
   label: Google Artifact Registry Repositories API
   slug: google-artifact-registry-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/openapi/google-artifact-registry-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/google-artifact-registry/openapi/google-artifact-registry-repositories-api-openapi.yml
 - filename: google-artifact-registry-tags-api-openapi.yml
   format: yaml
   label: Google Artifact Registry Tags API
   slug: google-artifact-registry-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/openapi/google-artifact-registry-tags-api-openapi.yml
+  url: https://artifacts.apis.io/google-artifact-registry/openapi/google-artifact-registry-tags-api-openapi.yml
 - filename: google-artifact-registry-versions-api-openapi.yml
   format: yaml
   label: Google Artifact Registry Versions API
   slug: google-artifact-registry-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/openapi/google-artifact-registry-versions-api-openapi.yml
+  url: https://artifacts.apis.io/google-artifact-registry/openapi/google-artifact-registry-versions-api-openapi.yml
 - filename: google-artifact-registry-projects-api-openapi.yml
   format: yaml
   label: Google Artifact Registry Projects API
   slug: google-artifact-registry-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/openapi/google-artifact-registry-projects-api-openapi.yml
+  url: https://artifacts.apis.io/google-artifact-registry/openapi/google-artifact-registry-projects-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -114,7 +114,7 @@ source_filename: google-artifact-registry-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cloud.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: artifactregistry.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:17 2026 GMT\n  hsts: null\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/security/google-artifact-registry-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/google-artifact-registry/security/google-artifact-registry-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artifacts

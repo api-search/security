@@ -8,19 +8,19 @@ api_specs:
   label: Langtrace AI Projects API
   slug: langtrace-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langtrace/refs/heads/main/openapi/langtrace-projects-api-openapi.yml
+  url: https://artifacts.apis.io/langtrace/openapi/langtrace-projects-api-openapi.yml
 - filename: langtrace-prompt-registry-api-openapi.yml
   format: yaml
   label: Langtrace AI Prompt Registry API
   slug: langtrace-prompt-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langtrace/refs/heads/main/openapi/langtrace-prompt-registry-api-openapi.yml
+  url: https://artifacts.apis.io/langtrace/openapi/langtrace-prompt-registry-api-openapi.yml
 - filename: langtrace-traces-api-openapi.yml
   format: yaml
   label: Langtrace AI Traces API
   slug: langtrace-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langtrace/refs/heads/main/openapi/langtrace-traces-api-openapi.yml
+  url: https://artifacts.apis.io/langtrace/openapi/langtrace-traces-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: langtrace-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/langtrace-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: Project-level (or team-level for project creation) API key.\n  sources:\n  - openapi/langtrace-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/langtrace/refs/heads/main/authentication/langtrace-authentication.yml
+source_yaml_url: https://artifacts.apis.io/langtrace/authentication/langtrace-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence

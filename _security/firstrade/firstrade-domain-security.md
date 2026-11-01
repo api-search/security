@@ -1,35 +1,11 @@
 ---
 api_specs:
-- filename: firstrade-account-api-openapi.yml
+- filename: firstrade-plaid-api-openapi.yml
   format: yaml
-  label: Firstrade Account API
-  slug: firstrade-account-api
+  label: Firstrade Plaid API
+  slug: firstrade-plaid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/openapi/firstrade-account-api-openapi.yml
-- filename: firstrade-authentication-api-openapi.yml
-  format: yaml
-  label: Firstrade Authentication API
-  slug: firstrade-authentication-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/openapi/firstrade-authentication-api-openapi.yml
-- filename: firstrade-market-data-api-openapi.yml
-  format: yaml
-  label: Firstrade Market Data API
-  slug: firstrade-market-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/openapi/firstrade-market-data-api-openapi.yml
-- filename: firstrade-orders-api-openapi.yml
-  format: yaml
-  label: Firstrade Orders API
-  slug: firstrade-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/openapi/firstrade-orders-api-openapi.yml
-- filename: firstrade-watchlist-api-openapi.yml
-  format: yaml
-  label: Firstrade Watchlist API
-  slug: firstrade-watchlist-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/openapi/firstrade-watchlist-api-openapi.yml
+  url: https://artifacts.apis.io/firstrade/openapi/firstrade-plaid-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +52,7 @@ source_filename: firstrade-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.firstrade.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 17:50:12 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: plaid.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: production.plaid.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 13 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: firstrade.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: plaid.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/security/firstrade-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/firstrade/security/firstrade-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Brokerage

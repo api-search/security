@@ -8,19 +8,19 @@ api_specs:
   label: LevelBlue Alarms API
   slug: levelblue-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/levelblue/refs/heads/main/openapi/levelblue-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/levelblue/openapi/levelblue-alarms-api-openapi.yml
 - filename: levelblue-events-api-openapi.yml
   format: yaml
   label: LevelBlue Events API
   slug: levelblue-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/levelblue/refs/heads/main/openapi/levelblue-events-api-openapi.yml
+  url: https://artifacts.apis.io/levelblue/openapi/levelblue-events-api-openapi.yml
 - filename: levelblue-oauth-api-openapi.yml
   format: yaml
   label: LevelBlue O Auth API
   slug: levelblue-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/levelblue/refs/heads/main/openapi/levelblue-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/levelblue/openapi/levelblue-oauth-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/levelbl
   \  applies_to: [all operations except POST /oauth/token]\n  default: true\n  detail: 'Root-level security requirement — sent as Authorization: Bearer <access_token>.'\n\ntoken_exchange:\n  endpoint: POST /oauth/token\n  base_url_template: https://<subdomain>.alienvault.cloud/api/2.0\n  grant_type: client_credentials\n  request_content_type: application/x-www-form-urlencoded\n  client_authentication: http-basic\n  response:\n    access_token: JWT\n    token_type: bearer\n    expires_in: 899\n    scope: trust read write\n    jti: token identifier\n  failure: 401 Unauthorized (ErrorResponse envelope)\n\ncredential_provisioning:\n  ui_path: Profile Settings > API Clients\n  minimum_role: Manager\n  actions: [create client, enable/disable client, edit client ID]\n  detail: >-\n    Client credentials are created in the USM Anywhere web UI, not through an API. A newly\n    created client must be explicitly toggled enabled before it can obtain a token.\n  docs: https://docs.levelblue.com/documentation/usm-anywhere/user-guide/user-management/api-clients\n\
   \nauthorization:\n  model: role-based\n  roles: [Read-Only, Investigator, Analyst, Manager]\n  note: >-\n    Effective permissions follow the USM Anywhere role attached to the API client rather\n    than a requestable scope subset. See scopes/levelblue-scopes.yml.\n\nsecondary_surfaces:\n- name: USM Anywhere webhook ingestion\n  type: apiKey\n  in: header\n  parameter_name: API_KEY\n  also_accepted_in: query\n  endpoint: 'POST https://<base_url>/api/1.0/webhook/push'\n  rotatable: true\n  docs: https://docs.levelblue.com/documentation/usm-anywhere/user-guide/cloud-connector/webhook_connector/reset_api_key\n- name: LevelBlue Open Threat Exchange (OTX) DirectConnect API\n  type: apiKey\n  base_url: https://otx.alienvault.com/api/v1\n  validation_endpoint: /api/v1/users/me\n  docs: https://otx.alienvault.com/assets/static/external_api.html\n\nadditional_controls:\n  multifactor_authentication:\n    supported: true\n    scope: web UI sign-in (can be required tenant-wide); not applicable to\
   \ API clients\n    docs: https://docs.levelblue.com/documentation/usm-anywhere/user-guide/introduction/multifactor-authentication\n  single_sign_on:\n    supported: true\n    scope: web UI sign-in via SAML SSO configuration; not applicable to API clients\n    docs: https://docs.levelblue.com/documentation/usm-anywhere/user-guide/user-management/configuring-sso\n\ngaps:\n- No mutualTLS, openIdConnect or OIDC discovery document is published.\n- No token revocation or introspection endpoint is documented.\n- No refresh token is issued — clients re-run the client_credentials exchange.\n- The REST API is available only in the Standard and Premium editions of USM Anywhere.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/levelblue/refs/heads/main/authentication/levelblue-authentication.yml
+source_yaml_url: https://artifacts.apis.io/levelblue/authentication/levelblue-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Company

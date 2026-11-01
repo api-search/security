@@ -33,7 +33,7 @@ source_filename: hydromancer-leading-hyperliquid-data-provider-domain-security.y
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.hydromancer.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  1 17:49:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.hydromancer.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 27 12:27:47 2026 GMT\n  hsts: null\ndomains:\n- domain: hydromancer.xyz\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hydromancer-leading-hyperliquid-data-provider/refs/heads/main/security/hydromancer-leading-hyperliquid-data-provider-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hydromancer-leading-hyperliquid-data-provider/security/hydromancer-leading-hyperliquid-data-provider-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Hyperliquid

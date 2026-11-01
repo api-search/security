@@ -8,19 +8,19 @@ api_specs:
   label: DeSci Labs Data API
   slug: desci-labs-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/desci-labs/refs/heads/main/openapi/desci-labs-data-api-openapi.yml
+  url: https://artifacts.apis.io/desci-labs/openapi/desci-labs-data-api-openapi.yml
 - filename: desci-labs-query-api-openapi.yml
   format: yaml
   label: DeSci Labs Query API
   slug: desci-labs-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/desci-labs/refs/heads/main/openapi/desci-labs-query-api-openapi.yml
+  url: https://artifacts.apis.io/desci-labs/openapi/desci-labs-query-api-openapi.yml
 - filename: desci-labs-resolve-api-openapi.yml
   format: yaml
   label: DeSci Labs Resolve API
   slug: desci-labs-resolve-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/desci-labs/refs/heads/main/openapi/desci-labs-resolve-api-openapi.yml
+  url: https://artifacts.apis.io/desci-labs/openapi/desci-labs-resolve-api-openapi.yml
 auth_types:
 - none
 - apiKey
@@ -63,7 +63,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://github.com/desci-labs/nodes/blob/develop/nodes-lib/README.md, https://github.com/desci-labs/sciweave-mcp\nsummary:\n  types:\n  - none\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows: []\nnote: >-\n  The public dPID Resolver API (beta.dpid.org) requires no authentication — it is a read-only\n  resolver with no securitySchemes in its OpenAPI. The DeSci Nodes backend (desci-server, via\n  @desci-labs/nodes-lib) authenticates with a per-user API key created under the profile at\n  nodes.desci.com and set via setApiKey; write operations on draft nodes additionally require\n  cryptographic signing (Metamask signer or a private-key signer). The SciWeave MCP server\n  authenticates with OAuth 2.0 or a Bearer API key.\nschemes:\n- name: dpid-resolver-public\n  service: dPID Resolver API\n  type: none\n  applies_to: https://beta.dpid.org/api\n- name: nodes-api-key\n  service: DeSci Nodes backend (desci-server)\n\
   \  type: apiKey\n  in: header\n  docs: https://desci-labs.github.io/nodes/\n  note: API key generated at nodes.desci.com profile; set via nodes-lib setApiKey().\n- name: nodes-signer\n  service: DeSci Nodes publishing\n  type: crypto-signature\n  note: Metamask signer or signerFromPkey private-key signer for publishing/on-chain actions.\n- name: sciweave-mcp-oauth\n  service: SciWeave MCP Server\n  type: oauth2\n  alt: bearer\n  docs: https://mcp.sciweave.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/desci-labs/refs/heads/main/authentication/desci-labs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/desci-labs/authentication/desci-labs-authentication.yml
 summary_line: none/apiKey/oauth2 · 4 schemes
 tags:
 - Company

@@ -5,19 +5,19 @@ api_specs:
   label: CloudWalk Checkout Links API
   slug: cloudwalk-checkout-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/openapi/cloudwalk-checkout-links-api-openapi.yml
+  url: https://artifacts.apis.io/cloudwalk/openapi/cloudwalk-checkout-links-api-openapi.yml
 - filename: cloudwalk-infinitepay-checkout-api-api-openapi.yml
   format: yaml
   label: CloudWalk InfinitePay Checkout API
   slug: cloudwalk-infinitepay-checkout-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/openapi/cloudwalk-infinitepay-checkout-api-api-openapi.yml
+  url: https://artifacts.apis.io/cloudwalk/openapi/cloudwalk-infinitepay-checkout-api-api-openapi.yml
 - filename: cloudwalk-payments-api-openapi.yml
   format: yaml
   label: CloudWalk Payments API
   slug: cloudwalk-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/openapi/cloudwalk-payments-api-openapi.yml
+  url: https://artifacts.apis.io/cloudwalk/openapi/cloudwalk-payments-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: cloudwalk-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-01'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cloudwalk.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 16:19:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.infinitepay.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 08:30:51 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.checkout.infinitepay.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 03:10:30 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: cloudwalk.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: infinitepay.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/security/cloudwalk-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cloudwalk/security/cloudwalk-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

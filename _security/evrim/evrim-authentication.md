@@ -7,109 +7,109 @@ api_specs:
   label: Evrim Answers API
   slug: evrim-answers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-answers-api-openapi.yml
+  url: https://artifacts.apis.io/evrim/openapi/evrim-answers-api-openapi.yml
 - filename: evrim-blank-api-openapi.yml
   format: yaml
   label: Evrim Blank API
   slug: evrim-blank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-blank-api-openapi.yml
+  url: https://artifacts.apis.io/evrim/openapi/evrim-blank-api-openapi.yml
 - filename: evrim-bulk-api-openapi.yml
   format: yaml
   label: Evrim Bulk API
   slug: evrim-bulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-bulk-api-openapi.yml
+  url: https://artifacts.apis.io/evrim/openapi/evrim-bulk-api-openapi.yml
 - filename: evrim-collections-api-openapi.yml
   format: yaml
   label: Evrim Collections API
   slug: evrim-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-collections-api-openapi.yml
+  url: https://artifacts.apis.io/evrim/openapi/evrim-collections-api-openapi.yml
 - filename: evrim-compose-api-openapi.yml
   format: yaml
   label: Evrim Compose API
   slug: evrim-compose-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-compose-api-openapi.yml
+  url: https://artifacts.apis.io/evrim/openapi/evrim-compose-api-openapi.yml
 - filename: evrim-costs-api-openapi.yml
   format: yaml
   label: Evrim Costs API
   slug: evrim-costs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-costs-api-openapi.yml
+  url: https://artifacts.apis.io/evrim/openapi/evrim-costs-api-openapi.yml
 - filename: evrim-created-fields-api-openapi.yml
   format: yaml
   label: Evrim Created Fields API
   slug: evrim-created-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-created-fields-api-openapi.yml
+  url: https://artifacts.apis.io/evrim/openapi/evrim-created-fields-api-openapi.yml
 - filename: evrim-extract-api-openapi.yml
   format: yaml
   label: Evrim Extract API
   slug: evrim-extract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-extract-api-openapi.yml
+  url: https://artifacts.apis.io/evrim/openapi/evrim-extract-api-openapi.yml
 - filename: evrim-fields-api-openapi.yml
   format: yaml
   label: Evrim Fields API
   slug: evrim-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-fields-api-openapi.yml
+  url: https://artifacts.apis.io/evrim/openapi/evrim-fields-api-openapi.yml
 - filename: evrim-health-api-openapi.yml
   format: yaml
   label: Evrim Health API
   slug: evrim-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-health-api-openapi.yml
+  url: https://artifacts.apis.io/evrim/openapi/evrim-health-api-openapi.yml
 - filename: evrim-prod-api-openapi.yml
   format: yaml
   label: Evrim Prod API
   slug: evrim-prod-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-prod-api-openapi.yml
+  url: https://artifacts.apis.io/evrim/openapi/evrim-prod-api-openapi.yml
 - filename: evrim-profiles-api-openapi.yml
   format: yaml
   label: Evrim Profiles API
   slug: evrim-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/evrim/openapi/evrim-profiles-api-openapi.yml
 - filename: evrim-prompt-templates-api-openapi.yml
   format: yaml
   label: Evrim Prompt Templates API
   slug: evrim-prompt-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-prompt-templates-api-openapi.yml
+  url: https://artifacts.apis.io/evrim/openapi/evrim-prompt-templates-api-openapi.yml
 - filename: evrim-questions-api-openapi.yml
   format: yaml
   label: Evrim Questions API
   slug: evrim-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-questions-api-openapi.yml
+  url: https://artifacts.apis.io/evrim/openapi/evrim-questions-api-openapi.yml
 - filename: evrim-snapshots-api-openapi.yml
   format: yaml
   label: Evrim Snapshots API
   slug: evrim-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/evrim/openapi/evrim-snapshots-api-openapi.yml
 - filename: evrim-tags-api-openapi.yml
   format: yaml
   label: Evrim Tags API
   slug: evrim-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-tags-api-openapi.yml
+  url: https://artifacts.apis.io/evrim/openapi/evrim-tags-api-openapi.yml
 - filename: evrim-templates-api-openapi.yml
   format: yaml
   label: Evrim Templates API
   slug: evrim-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-templates-api-openapi.yml
+  url: https://artifacts.apis.io/evrim/openapi/evrim-templates-api-openapi.yml
 - filename: evrim-transform-api-openapi.yml
   format: yaml
   label: Evrim Transform API
   slug: evrim-transform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-transform-api-openapi.yml
+  url: https://artifacts.apis.io/evrim/openapi/evrim-transform-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -139,7 +139,7 @@ source_filename: evrim-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/evrim-openapi-original.yml\ndocs: https://docs.evrim.ai\nsummary:\n  types:\n  - http\n  api_key_in: []\n  oauth2_flows: []\nnotes: >-\n  Evrim authenticates every operation with a single Knox-issued API token\n  presented as an HTTP Bearer credential (Authorization: Bearer <token>). The\n  official Python SDK reads the token from the EVRIM_API_TOKEN environment\n  variable (or an `api_token` client keyword). All 91 operations apply the\n  knoxApiToken scheme; there is no OAuth2/OIDC and no API-key query or header\n  parameter.\nschemes:\n- name: knoxApiToken\n  type: http\n  scheme: bearer\n  description: >-\n    Django Knox API token presented as a Bearer credential in the Authorization\n    header. Token supplied to the SDK via EVRIM_API_TOKEN.\n  applied_to_all_operations: true\n  sources:\n  - openapi/evrim-openapi-original.yml\n  evidence:\n  - https://github.com/evrimai/python-client/blob/HEAD/README.md\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/authentication/evrim-authentication.yml
+source_yaml_url: https://artifacts.apis.io/evrim/authentication/evrim-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

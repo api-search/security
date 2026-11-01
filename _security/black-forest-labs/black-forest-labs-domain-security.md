@@ -5,19 +5,19 @@ api_specs:
   label: Black Forest Labs Editing API
   slug: black-forest-labs-editing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/black-forest-labs/refs/heads/main/openapi/black-forest-labs-editing-api-openapi.yml
+  url: https://artifacts.apis.io/black-forest-labs/openapi/black-forest-labs-editing-api-openapi.yml
 - filename: black-forest-labs-generation-api-openapi.yml
   format: yaml
   label: Black Forest Labs Generation API
   slug: black-forest-labs-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/black-forest-labs/refs/heads/main/openapi/black-forest-labs-generation-api-openapi.yml
+  url: https://artifacts.apis.io/black-forest-labs/openapi/black-forest-labs-generation-api-openapi.yml
 - filename: black-forest-labs-utility-api-openapi.yml
   format: yaml
   label: Black Forest Labs Utility API
   slug: black-forest-labs-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/black-forest-labs/refs/heads/main/openapi/black-forest-labs-utility-api-openapi.yml
+  url: https://artifacts.apis.io/black-forest-labs/openapi/black-forest-labs-utility-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: black-forest-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: blackforestlabs.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 12 09:18:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.bfl.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.bfl.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: blackforestlabs.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: bfl.ai\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/black-forest-labs/refs/heads/main/security/black-forest-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/black-forest-labs/security/black-forest-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

@@ -8,25 +8,25 @@ api_specs:
   label: Abortion Policy API Gestational Limits API
   slug: abortion-policy-api-gestational-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abortion-policy-api/refs/heads/main/openapi/abortion-policy-api-gestational-limits-api-openapi.yml
+  url: https://artifacts.apis.io/abortion-policy-api/openapi/abortion-policy-api-gestational-limits-api-openapi.yml
 - filename: abortion-policy-api-insurance-coverage-api-openapi.yml
   format: yaml
   label: Abortion Policy API Insurance Coverage API
   slug: abortion-policy-api-insurance-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abortion-policy-api/refs/heads/main/openapi/abortion-policy-api-insurance-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/abortion-policy-api/openapi/abortion-policy-api-insurance-coverage-api-openapi.yml
 - filename: abortion-policy-api-minors-api-openapi.yml
   format: yaml
   label: Abortion Policy API Minors API
   slug: abortion-policy-api-minors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abortion-policy-api/refs/heads/main/openapi/abortion-policy-api-minors-api-openapi.yml
+  url: https://artifacts.apis.io/abortion-policy-api/openapi/abortion-policy-api-minors-api-openapi.yml
 - filename: abortion-policy-api-waiting-periods-api-openapi.yml
   format: yaml
   label: Abortion Policy API Waiting Periods API
   slug: abortion-policy-api-waiting-periods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abortion-policy-api/refs/heads/main/openapi/abortion-policy-api-waiting-periods-api-openapi.yml
+  url: https://artifacts.apis.io/abortion-policy-api/openapi/abortion-policy-api-waiting-periods-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: abortion-policy-api-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/abortion-policy-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: token\n  description: API key for authentication. Request access at https://www.abortionpolicyapi.com/request-access\n  sources:\n  - openapi/abortion-policy-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abortion-policy-api/refs/heads/main/authentication/abortion-policy-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/abortion-policy-api/authentication/abortion-policy-api-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Abortion

@@ -8,19 +8,19 @@ api_specs:
   label: Snapchat Conversion Events API
   slug: snapchat-conversion-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/openapi/snapchat-conversion-events-api-openapi.yml
+  url: https://artifacts.apis.io/snapchat/openapi/snapchat-conversion-events-api-openapi.yml
 - filename: snapchat-user-profile-api-openapi.yml
   format: yaml
   label: Snapchat User Profile API
   slug: snapchat-user-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/openapi/snapchat-user-profile-api-openapi.yml
+  url: https://artifacts.apis.io/snapchat/openapi/snapchat-user-profile-api-openapi.yml
 - filename: snapchat-oauth-api-openapi.yml
   format: yaml
   label: Snapchat O Auth API
   slug: snapchat-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/openapi/snapchat-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/snapchat/openapi/snapchat-oauth-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -129,7 +129,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://d
   \  description: >-\n    Snap's implementation of OAuth 2.0 for \"Log in with Snapchat\". The Login Kit SDKs are being\n    deprecated; the OAuth 2.0 service behind them remains fully supported. Returns no id_token —\n    identity is read from GET /me on kit.snapchat.com.\n  sources:\n  - openapi/_original/snapchat-login-kit-openapi.yml\n  - https://developers.snap.com/snap-kit/login-kit/overview\n- name: mcpOAuth\n  type: oauth2\n  product: Snapchat Ads MCP Server\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://mcp.snapchat.com/authorize\n    tokenUrl: https://mcp.snapchat.com/token\n    pkce: S256\n    scopes:\n    - snapads.read\n  resource: https://mcp.snapchat.com/ads\n  token_endpoint_auth_method: none\n  dynamic_client_registration: false\n  description: >-\n    Separate authorization server for the hosted MCP endpoint. Client ids are registered by Snap per\n    agent vendor (claude-snap-ads, codex-snap-ads, chatgpt-snap-ads, antigravity-snap-ads,\n    gemini-snap-ads)\
   \ — advertisers cannot register their own, and other client ids are rejected.\n    Approval is two-stage: an org Admin or Business Admin approves the agent for the organization,\n    then each member authorizes individually.\n  revocation: https://accounts.snapchat.com/v2/manage-apps\n  sources:\n  - https://developers.snap.com/marketing-api/Ads-MCP/Introduction\n  - https://mcp.snapchat.com/.well-known/oauth-authorization-server/ads\n- name: accessToken\n  type: apiKey\n  in: query\n  parameter: access_token\n  product: Snapchat Conversions API\n  description: >-\n    Static long-lived access token generated from the Business Details page of Ads Manager, passed\n    as a query parameter. Accepted alongside OAuth bearer tokens on the Conversions API and its\n    /events/validate test endpoint, provided the pixel or app is owned by the organization that\n    generated the token.\n  risk: >-\n    A long-lived bearer credential in a URL leaks into access logs, browser history and Referer\n\
   \    headers. Prefer the OAuth flow where the integration can support it.\n  sources:\n  - openapi/_original/snapchat-conversions-api-openapi.yml\n  - https://developers.snap.com/marketing-api/Conversions-API/GetStarted\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  product: Login Kit profile API\n  description: Bearer access token from the Login Kit OAuth flow, used against https://kit.snapchat.com/v1/me.\n  sources:\n  - openapi/_original/snapchat-login-kit-openapi.yml\nscopes: scopes/snapchat-scopes.yml\nnotes:\n- No OpenID Connect layer. /.well-known/openid-configuration 404s on accounts.snapchat.com, snapchat.com and mcp.snapchat.com.\n- No mutual TLS, no HTTP signature scheme, no request signing.\n- >-\n  Roles, not scopes, carry most Marketing API authorization. Business Manager roles (including\n  agency_admin and agency_member, added 2026-07-01) determine what an authorized token can reach.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/authentication/snapchat-authentication.yml
+source_yaml_url: https://artifacts.apis.io/snapchat/authentication/snapchat-authentication.yml
 summary_line: oauth2/http/apiKey · 5 schemes
 tags:
 - Advertising

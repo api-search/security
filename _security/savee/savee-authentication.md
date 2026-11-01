@@ -7,31 +7,31 @@ api_specs:
   label: Savee Boards API
   slug: savee-boards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/savee/refs/heads/main/openapi/savee-boards-api-openapi.yml
+  url: https://artifacts.apis.io/savee/openapi/savee-boards-api-openapi.yml
 - filename: savee-saves-api-openapi.yml
   format: yaml
   label: Savee Saves API
   slug: savee-saves-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/savee/refs/heads/main/openapi/savee-saves-api-openapi.yml
+  url: https://artifacts.apis.io/savee/openapi/savee-saves-api-openapi.yml
 - filename: savee-search-api-openapi.yml
   format: yaml
   label: Savee Search API
   slug: savee-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/savee/refs/heads/main/openapi/savee-search-api-openapi.yml
+  url: https://artifacts.apis.io/savee/openapi/savee-search-api-openapi.yml
 - filename: savee-system-api-openapi.yml
   format: yaml
   label: Savee System API
   slug: savee-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/savee/refs/heads/main/openapi/savee-system-api-openapi.yml
+  url: https://artifacts.apis.io/savee/openapi/savee-system-api-openapi.yml
 - filename: savee-user-api-openapi.yml
   format: yaml
   label: Savee User API
   slug: savee-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/savee/refs/heads/main/openapi/savee-user-api-openapi.yml
+  url: https://artifacts.apis.io/savee/openapi/savee-user-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-09-03'\nmethod: searched\nsource: openapi/savee-b
   \    tokenUrl: https://savee.com/api/oauth/token/\n    scopes: 4\n  description: |-\n    **OAuth access token** (`sv_at_…`) — obtained on one of your users’ behalf and limited to the scopes they approved. Use this when you’re building a product other people sign into with Savee. See https://docs.savee.com/api/oauth.\n\n    Missing the scope below returns `403` with a `WWW-Authenticate: Bearer error=\"insufficient_scope\"` header naming it.\n  sources:\n  - openapi/savee-boards-api-openapi.yml\n  - openapi/savee-saves-api-openapi.yml\n  - openapi/savee-search-api-openapi.yml\n  - openapi/savee-user-api-openapi.yml\ndocs: https://docs.savee.com/api/authentication\ndetails:\n  personal_access_token:\n    format: sv_live_ prefix followed by 24 characters\n    issuance: Savee → Settings → Developers → API Access; shown once, SHA-256 hash stored\n    concurrency: At most one active token per user; generating a new one revokes the previous\n    expiry: None — revoked by regenerate/revoke, or\
   \ rejected with 402 while the subscription is lapsed\n    scope: Carries every scope implicitly\n  oauth:\n    access_token: sv_at_ prefix; 1-hour lifetime (expires_in 3600)\n    refresh_token: sv_rt_ prefix; 30-day lifetime, rotates on every use; replaying a used refresh token\n      revokes the entire chain\n    client_type: Confidential — client secret required at the token endpoint (client_secret_basic or client_secret_post)\n    pkce: S256 required; plain rejected\n    resource_indicator: resource=https://api.savee.com required on authorization and token requests (RFC\n      8707)\n    registration: Invite-only while partner integrations are onboarded one at a time (hey@savee.com);\n      up to 6 apps and 10 redirect URLs per account, exact-match https redirects (http only on localhost)\n    metadata: https://savee.com/.well-known/oauth-authorization-server (RFC 8414, probed 200 on 2026-09-03)\n    revocation: https://savee.com/api/oauth/revoke/ (RFC 7009)\n  subscription_gate: Both\
   \ token types require an active paid Savee subscription, checked on every request\n    — 402 PAYMENT_REQUIRED when lapsed\n  cors: 'Access-Control-Allow-Origin: * is sent, with explicit guidance never to ship tokens to browsers'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/savee/refs/heads/main/authentication/savee-authentication.yml
+source_yaml_url: https://artifacts.apis.io/savee/authentication/savee-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Design

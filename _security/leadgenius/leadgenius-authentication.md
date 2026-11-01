@@ -8,37 +8,37 @@ api_specs:
   label: LeadGenius Campaigns API
   slug: leadgenius-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadgenius/refs/heads/main/openapi/leadgenius-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/leadgenius/openapi/leadgenius-campaigns-api-openapi.yml
 - filename: leadgenius-exclusion-api-openapi.yml
   format: yaml
   label: LeadGenius Exclusion API
   slug: leadgenius-exclusion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadgenius/refs/heads/main/openapi/leadgenius-exclusion-api-openapi.yml
+  url: https://artifacts.apis.io/leadgenius/openapi/leadgenius-exclusion-api-openapi.yml
 - filename: leadgenius-rapid-enrichment-api-openapi.yml
   format: yaml
   label: LeadGenius Rapid Enrichment API
   slug: leadgenius-rapid-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadgenius/refs/heads/main/openapi/leadgenius-rapid-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/leadgenius/openapi/leadgenius-rapid-enrichment-api-openapi.yml
 - filename: leadgenius-records-api-openapi.yml
   format: yaml
   label: LeadGenius Records API
   slug: leadgenius-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadgenius/refs/heads/main/openapi/leadgenius-records-api-openapi.yml
+  url: https://artifacts.apis.io/leadgenius/openapi/leadgenius-records-api-openapi.yml
 - filename: leadgenius-usage-api-openapi.yml
   format: yaml
   label: LeadGenius Usage API
   slug: leadgenius-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadgenius/refs/heads/main/openapi/leadgenius-usage-api-openapi.yml
+  url: https://artifacts.apis.io/leadgenius/openapi/leadgenius-usage-api-openapi.yml
 - filename: leadgenius-leadgenius-enrichment-api-api-openapi.yml
   format: yaml
   label: LeadGenius Enrichment API
   slug: leadgenius-leadgenius-enrichment-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadgenius/refs/heads/main/openapi/leadgenius-leadgenius-enrichment-api-api-openapi.yml
+  url: https://artifacts.apis.io/leadgenius/openapi/leadgenius-leadgenius-enrichment-api-api-openapi.yml
 auth_types:
 - apiKey
 description: LeadGenius authenticates every API request with a single account API key sent in the Authorization header using the `Token` scheme. There is no OAuth, no OpenID Connect, no scope surface and no per-request signing. Derived from the captured OpenAPI securitySchemes and upgraded from the published authentication section of the API reference.
@@ -70,7 +70,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/leadgenius-enrichment-api-openapi.yml\ndocs: https://docs.leadgenius.com/#authentication\ndescription: >-\n  LeadGenius authenticates every API request with a single account API key sent in the Authorization\n  header using the `Token` scheme. There is no OAuth, no OpenID Connect, no scope surface and no\n  per-request signing. Derived from the captured OpenAPI securitySchemes and upgraded from the\n  published authentication section of the API reference.\nsummary:\n  types:\n    - apiKey\n  api_key_in:\n    - header\n  oauth2_flows: []\n  scopes: none\nschemes:\n  - name: TokenAuth\n    type: apiKey\n    in: header\n    parameter: Authorization\n    value_format: 'Token {apikey}'\n    description: >-\n      LeadGenius uses API keys to allow access to the API. The key must be included in all API\n      requests to the server in a header of the form `Authorization: Token {apikey}`, alongside\n      `Content-Type: application/json`.\n\
   \    sources:\n      - openapi/leadgenius-enrichment-api-openapi.yml\n      - https://docs.leadgenius.com/#authentication\nprovisioning:\n  self_serve: https://app.leadgenius.com/sign-up\n  self_serve_note: >-\n    LeadGenius launched a self-serve API trial in 2026 — registering issues an API key without human\n    interaction. See\n    https://www.leadgenius.com/resources/introducing-the-new-leadgenius-api-experience-real-time-enrichment-zero-bottlenecks\n  sales: sales@leadgenius.com\n  sales_note: >-\n    LeadGenius customers may also contact Sales or their Customer Success rep for an API subscription\n    and key.\n  login: https://app.leadgenius.com/sign-in\nrotation:\n  documented: false\nkey_scoping:\n  documented: false\n  note: A single account-level key; no restricted or publishable key classes are documented.\nerrors:\n  invalid_key:\n    status: 401\n    meaning: Unauthorized -- Your API key is invalid.\nrelated:\n  conventions: conventions/leadgenius-conventions.yml\n  errors:\
   \ errors/leadgenius-problem-types.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leadgenius/refs/heads/main/authentication/leadgenius-authentication.yml
+source_yaml_url: https://artifacts.apis.io/leadgenius/authentication/leadgenius-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

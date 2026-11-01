@@ -30,7 +30,7 @@ source_filename: xkcd-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: xkcd.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  9 22:00:18 2027 GMT\n  hsts: false\ndomains:\n- domain: xkcd.com\n  dnssec: false\n  caa:\n  - 128 issue \"globalsign.com\"\n  - 128 issuewild \"globalsign.com\"\n  - 128 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xkcd/refs/heads/main/security/xkcd-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/xkcd/security/xkcd-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Public APIs

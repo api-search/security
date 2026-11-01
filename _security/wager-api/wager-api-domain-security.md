@@ -5,31 +5,31 @@ api_specs:
   label: Wager API Futures API
   slug: wager-api-futures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/openapi/wager-api-futures-api-openapi.yml
+  url: https://artifacts.apis.io/wager-api/openapi/wager-api-futures-api-openapi.yml
 - filename: wager-api-games-api-openapi.yml
   format: yaml
   label: Wager API Games API
   slug: wager-api-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/openapi/wager-api-games-api-openapi.yml
+  url: https://artifacts.apis.io/wager-api/openapi/wager-api-games-api-openapi.yml
 - filename: wager-api-odds-api-openapi.yml
   format: yaml
   label: Wager API Odds API
   slug: wager-api-odds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/openapi/wager-api-odds-api-openapi.yml
+  url: https://artifacts.apis.io/wager-api/openapi/wager-api-odds-api-openapi.yml
 - filename: wager-api-players-api-openapi.yml
   format: yaml
   label: Wager API Players API
   slug: wager-api-players-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/openapi/wager-api-players-api-openapi.yml
+  url: https://artifacts.apis.io/wager-api/openapi/wager-api-players-api-openapi.yml
 - filename: wager-api-props-api-openapi.yml
   format: yaml
   label: Wager API Props API
   slug: wager-api-props-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/openapi/wager-api-props-api-openapi.yml
+  url: https://artifacts.apis.io/wager-api/openapi/wager-api-props-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -60,7 +60,7 @@ source_filename: wager-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: wagerapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 13 19:24:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.wagerapi.com\n  https: false\ndomains:\n- domain: wagerapi.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/security/wager-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wager-api/security/wager-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Sports Betting

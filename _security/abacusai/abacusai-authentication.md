@@ -31,7 +31,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://abacus.ai/help/python-sdk/getting-started\ndocs: https://abacus.ai/help/python-sdk/getting-started\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - client\n  oauth2_flows: []\n  notes: Authentication is via an API key generated from the Abacus.AI user profile\n    (https://abacus.ai/app/profile/apikey). The key is supplied to the first-party\n    Python client at construction time (ApiClient(api_key)); the SDK manages the API\n    key transport to the REST API internally. No OAuth2 / OpenID Connect flow is documented\n    for the platform REST API.\nschemes:\n- name: ApiKey\n  type: apiKey\n  in: client\n  description: API key generated at https://abacus.ai/app/profile/apikey and passed\n    to the ApiClient (Python client) or sent to the REST API. Within Abacus.AI hosted\n    Notebooks the client initializes without an explicit key.\n  key_management: https://abacus.ai/app/profile/apikey\n  sources:\n  - https://abacus.ai/help/python-sdk/getting-started\n\
   \  - https://github.com/abacusai/api-python\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abacusai/refs/heads/main/authentication/abacusai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/abacusai/authentication/abacusai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

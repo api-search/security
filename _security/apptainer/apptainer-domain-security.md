@@ -5,13 +5,13 @@ api_specs:
   label: Apptainer Images API
   slug: apptainer-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apptainer/refs/heads/main/openapi/apptainer-images-api-openapi.yml
+  url: https://artifacts.apis.io/apptainer/openapi/apptainer-images-api-openapi.yml
 - filename: apptainer-instances-api-openapi.yml
   format: yaml
   label: Apptainer Instances API
   slug: apptainer-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apptainer/refs/heads/main/openapi/apptainer-instances-api-openapi.yml
+  url: https://artifacts.apis.io/apptainer/openapi/apptainer-instances-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -43,7 +43,7 @@ source_filename: apptainer-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: apptainer.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 03:19:21 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n- host: api.apptainer.org\n  https: false\ndomains:\n- domain: apptainer.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apptainer/refs/heads/main/security/apptainer-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apptainer/security/apptainer-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Containers

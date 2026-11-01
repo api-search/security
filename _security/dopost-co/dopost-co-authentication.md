@@ -8,19 +8,19 @@ api_specs:
   label: dopost Media API
   slug: dopost-co-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopost-co/refs/heads/main/openapi/dopost-co-media-api-openapi.yml
+  url: https://artifacts.apis.io/dopost-co/openapi/dopost-co-media-api-openapi.yml
 - filename: dopost-co-posts-api-openapi.yml
   format: yaml
   label: dopost Posts API
   slug: dopost-co-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopost-co/refs/heads/main/openapi/dopost-co-posts-api-openapi.yml
+  url: https://artifacts.apis.io/dopost-co/openapi/dopost-co-posts-api-openapi.yml
 - filename: dopost-co-social-accounts-api-openapi.yml
   format: yaml
   label: dopost Social Accounts API
   slug: dopost-co-social-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopost-co/refs/heads/main/openapi/dopost-co-social-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/dopost-co/openapi/dopost-co-social-accounts-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: dopost-co-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/dopost-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: Workspace API key issued from the dopost web app.\n  sources:\n  - openapi/dopost-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dopost-co/refs/heads/main/authentication/dopost-co-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dopost-co/authentication/dopost-co-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Social Media

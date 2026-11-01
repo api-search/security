@@ -8,151 +8,151 @@ api_specs:
   label: Cymetica API Keys API
   slug: cymetica-com-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cymetica-com/refs/heads/main/openapi/cymetica-com-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-api-keys-api-openapi.yml
 - filename: cymetica-com-asset-universe-api-openapi.yml
   format: yaml
   label: Cymetica Asset Universe API
   slug: cymetica-com-asset-universe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cymetica-com/refs/heads/main/openapi/cymetica-com-asset-universe-api-openapi.yml
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-asset-universe-api-openapi.yml
 - filename: cymetica-com-authentication-api-openapi.yml
   format: yaml
   label: Cymetica Authentication API
   slug: cymetica-com-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cymetica-com/refs/heads/main/openapi/cymetica-com-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-authentication-api-openapi.yml
 - filename: cymetica-com-backtest-labs-api-api-openapi.yml
   format: yaml
   label: Cymetica Backtest Labs API
   slug: cymetica-com-backtest-labs-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cymetica-com/refs/heads/main/openapi/cymetica-com-backtest-labs-api-api-openapi.yml
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-backtest-labs-api-api-openapi.yml
 - filename: cymetica-com-clob-api-openapi.yml
   format: yaml
   label: Cymetica CLOB API
   slug: cymetica-com-clob-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cymetica-com/refs/heads/main/openapi/cymetica-com-clob-api-openapi.yml
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-clob-api-openapi.yml
 - filename: cymetica-com-cloned-bots-api-openapi.yml
   format: yaml
   label: Cymetica Cloned Bots API
   slug: cymetica-com-cloned-bots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cymetica-com/refs/heads/main/openapi/cymetica-com-cloned-bots-api-openapi.yml
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-cloned-bots-api-openapi.yml
 - filename: cymetica-com-clones-api-openapi.yml
   format: yaml
   label: Cymetica Clones API
   slug: cymetica-com-clones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cymetica-com/refs/heads/main/openapi/cymetica-com-clones-api-openapi.yml
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-clones-api-openapi.yml
 - filename: cymetica-com-crypto-outlook-api-openapi.yml
   format: yaml
   label: Cymetica Crypto Outlook API
   slug: cymetica-com-crypto-outlook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cymetica-com/refs/heads/main/openapi/cymetica-com-crypto-outlook-api-openapi.yml
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-crypto-outlook-api-openapi.yml
 - filename: cymetica-com-event-cards-api-openapi.yml
   format: yaml
   label: Cymetica Event Cards API
   slug: cymetica-com-event-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cymetica-com/refs/heads/main/openapi/cymetica-com-event-cards-api-openapi.yml
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-event-cards-api-openapi.yml
 - filename: cymetica-com-exchange-api-openapi.yml
   format: yaml
   label: Cymetica Exchange API
   slug: cymetica-com-exchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cymetica-com/refs/heads/main/openapi/cymetica-com-exchange-api-openapi.yml
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-exchange-api-openapi.yml
 - filename: cymetica-com-funder-rewards-api-openapi.yml
   format: yaml
   label: Cymetica Funder Rewards API
   slug: cymetica-com-funder-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cymetica-com/refs/heads/main/openapi/cymetica-com-funder-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-funder-rewards-api-openapi.yml
 - filename: cymetica-com-funding-api-openapi.yml
   format: yaml
   label: Cymetica Funding API
   slug: cymetica-com-funding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cymetica-com/refs/heads/main/openapi/cymetica-com-funding-api-openapi.yml
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-funding-api-openapi.yml
 - filename: cymetica-com-macromarket-api-openapi.yml
   format: yaml
   label: Cymetica Macromarket API
   slug: cymetica-com-macromarket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cymetica-com/refs/heads/main/openapi/cymetica-com-macromarket-api-openapi.yml
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-macromarket-api-openapi.yml
 - filename: cymetica-com-markets-api-openapi.yml
   format: yaml
   label: Cymetica Markets API
   slug: cymetica-com-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cymetica-com/refs/heads/main/openapi/cymetica-com-markets-api-openapi.yml
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-markets-api-openapi.yml
 - filename: cymetica-com-mcp-public-interface-api-openapi.yml
   format: yaml
   label: Cymetica MCP Public Interface API
   slug: cymetica-com-mcp-public-interface-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cymetica-com/refs/heads/main/openapi/cymetica-com-mcp-public-interface-api-openapi.yml
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-mcp-public-interface-api-openapi.yml
 - filename: cymetica-com-oauth-api-openapi.yml
   format: yaml
   label: Cymetica OAuth API
   slug: cymetica-com-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cymetica-com/refs/heads/main/openapi/cymetica-com-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-oauth-api-openapi.yml
 - filename: cymetica-com-portfolio-api-openapi.yml
   format: yaml
   label: Cymetica Portfolio API
   slug: cymetica-com-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cymetica-com/refs/heads/main/openapi/cymetica-com-portfolio-api-openapi.yml
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-portfolio-api-openapi.yml
 - filename: cymetica-com-posted-links-api-openapi.yml
   format: yaml
   label: Cymetica Posted Links API
   slug: cymetica-com-posted-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cymetica-com/refs/heads/main/openapi/cymetica-com-posted-links-api-openapi.yml
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-posted-links-api-openapi.yml
 - filename: cymetica-com-research-backtest-api-api-openapi.yml
   format: yaml
   label: Cymetica Research Backtest API
   slug: cymetica-com-research-backtest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cymetica-com/refs/heads/main/openapi/cymetica-com-research-backtest-api-api-openapi.yml
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-research-backtest-api-api-openapi.yml
 - filename: cymetica-com-robinhood-testnet-api-openapi.yml
   format: yaml
   label: Cymetica Robinhood Testnet API
   slug: cymetica-com-robinhood-testnet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cymetica-com/refs/heads/main/openapi/cymetica-com-robinhood-testnet-api-openapi.yml
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-robinhood-testnet-api-openapi.yml
 - filename: cymetica-com-rst-api-openapi.yml
   format: yaml
   label: Cymetica Rst API
   slug: cymetica-com-rst-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cymetica-com/refs/heads/main/openapi/cymetica-com-rst-api-openapi.yml
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-rst-api-openapi.yml
 - filename: cymetica-com-rst-crypto-buy-api-openapi.yml
   format: yaml
   label: Cymetica Rst Crypto Buy API
   slug: cymetica-com-rst-crypto-buy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cymetica-com/refs/heads/main/openapi/cymetica-com-rst-crypto-buy-api-openapi.yml
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-rst-crypto-buy-api-openapi.yml
 - filename: cymetica-com-swap-api-openapi.yml
   format: yaml
   label: Cymetica Swap API
   slug: cymetica-com-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cymetica-com/refs/heads/main/openapi/cymetica-com-swap-api-openapi.yml
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-swap-api-openapi.yml
 - filename: cymetica-com-token-launchpad-on-chain-api-openapi.yml
   format: yaml
   label: Cymetica Token Launchpad (on-chain) API
   slug: cymetica-com-token-launchpad-on-chain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cymetica-com/refs/heads/main/openapi/cymetica-com-token-launchpad-on-chain-api-openapi.yml
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-token-launchpad-on-chain-api-openapi.yml
 - filename: cymetica-com-withdrawals-api-openapi.yml
   format: yaml
   label: Cymetica Withdrawals API
   slug: cymetica-com-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cymetica-com/refs/heads/main/openapi/cymetica-com-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-withdrawals-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -239,7 +239,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/cymetic
   \  issuance:\n  - POST /auth/api-key (JWT or email+password bootstrap) -> api_key + api_secret\n  - POST /api/v1/api-keys (session JWT only) -> named key with permissions {read, trade, withdraw}\n  - POST /mcp/v1/register (no auth) -> mcp_ key, trust_level recognized\n  permissions:\n  - read\n  - trade\n  - withdraw (registered agent keys only; user keys and OAuth tokens cannot withdraw)\n  storage: SHA-256 hashed; plaintext shown once\n- name: BearerJWT\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Account session JWT (from /auth/login). Key-management routes accept only this — never an API key.\n  sources:\n  - openapi/cymetica-com-eventtrader-public-api-openapi.yml\n  issuance:\n  - POST /auth/login (email/password) -> access_token + refresh_token\n  - POST /auth/register\n  - SIWE wallet sign-in (EventTrader.from_wallet in the Python SDK)\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://cymetica.com/oauth/authorize\n\
   \    tokenUrl: https://cymetica.com/oauth/token\n    scopes: 3\n  sources:\n  - openapi/cymetica-com-eventtrader-public-api-openapi.yml\n  discovery:\n    authorization_server_metadata: well-known/cymetica-com-oauth-authorization-server.json\n    protected_resource_metadata: well-known/cymetica-com-oauth-protected-resource.json\n    registration_endpoint: https://cymetica.com/oauth/register\n    revocation_endpoint: https://cymetica.com/oauth/revoke\n    userinfo_endpoint: https://cymetica.com/oauth/userinfo\n    pkce: S256\n    grant_types:\n    - authorization_code\n    - refresh_token\n    token_endpoint_auth_methods:\n    - none\n    - client_secret_post\n    - client_secret_basic\n  note: OAuth bearer tokens work on the REST API (/api/v1/*); the /mcp/v1 JSON-RPC endpoint uses X-API-Key (mcp.json\n    authentication.oauth.note).\n- name: HMAC (api_secret)\n  type: custom\n  status: mentioned-not-specified\n  description: POST /auth/api-key returns an api_secret \"for HMAC-signed integrations\"\
   \ (docs); the signing scheme\n    is not documented in the spec or the docs.\n  sources:\n  - https://cymetica.com/api-docs\n  - https://cymetica.com/getting-started\ndocs: https://cymetica.com/api-docs#authentication\nsources_searched:\n- https://cymetica.com/api-docs (Authentication, API Key Management)\n- https://cymetica.com/getting-started\n- https://cymetica.com/sdk (Authentication)\n- https://cymetica.com/.well-known/oauth-authorization-server\n- https://cymetica.com/.well-known/oauth-protected-resource\n- https://cymetica.com/.well-known/mcp.json\n- live 401 probe of GET /api/v1/portfolio/positions\nmcp:\n  endpoint: https://cymetica.com/mcp/v1\n  anonymous_access: 57 public tools with no credentials\n  header: X-API-Key\n  trust_tiers:\n  - unknown\n  - recognized\n  - trusted\n  - allied\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cymetica-com/refs/heads/main/authentication/cymetica-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cymetica-com/authentication/cymetica-com-authentication.yml
 summary_line: apiKey/http/oauth2 · 4 schemes
 tags:
 - Prediction Markets

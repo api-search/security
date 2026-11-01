@@ -5,37 +5,37 @@ api_specs:
   label: Mydentify Public API Directories API
   slug: mydentify-public-api-directories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mydentify-public-api/refs/heads/main/openapi/mydentify-public-api-directories-api-openapi.yml
+  url: https://artifacts.apis.io/mydentify-public-api/openapi/mydentify-public-api-directories-api-openapi.yml
 - filename: mydentify-public-api-directories-json-api-openapi.yml
   format: yaml
   label: Mydentify Public API Directories.json API
   slug: mydentify-public-api-directories-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mydentify-public-api/refs/heads/main/openapi/mydentify-public-api-directories-json-api-openapi.yml
+  url: https://artifacts.apis.io/mydentify-public-api/openapi/mydentify-public-api-directories-json-api-openapi.yml
 - filename: mydentify-public-api-imports-api-openapi.yml
   format: yaml
   label: Mydentify Public API Imports API
   slug: mydentify-public-api-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mydentify-public-api/refs/heads/main/openapi/mydentify-public-api-imports-api-openapi.yml
+  url: https://artifacts.apis.io/mydentify-public-api/openapi/mydentify-public-api-imports-api-openapi.yml
 - filename: mydentify-public-api-leaderboards-api-openapi.yml
   format: yaml
   label: Mydentify Public API Leaderboards API
   slug: mydentify-public-api-leaderboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mydentify-public-api/refs/heads/main/openapi/mydentify-public-api-leaderboards-api-openapi.yml
+  url: https://artifacts.apis.io/mydentify-public-api/openapi/mydentify-public-api-leaderboards-api-openapi.yml
 - filename: mydentify-public-api-leaderboards-json-api-openapi.yml
   format: yaml
   label: Mydentify Public API Leaderboards.json API
   slug: mydentify-public-api-leaderboards-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mydentify-public-api/refs/heads/main/openapi/mydentify-public-api-leaderboards-json-api-openapi.yml
+  url: https://artifacts.apis.io/mydentify-public-api/openapi/mydentify-public-api-leaderboards-json-api-openapi.yml
 - filename: mydentify-public-api-product-categories-json-api-openapi.yml
   format: yaml
   label: Mydentify Public API Product Categories.json API
   slug: mydentify-public-api-product-categories-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mydentify-public-api/refs/heads/main/openapi/mydentify-public-api-product-categories-json-api-openapi.yml
+  url: https://artifacts.apis.io/mydentify-public-api/openapi/mydentify-public-api-product-categories-json-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: mydentify-public-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mydentify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 03:21:04 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: mydentify.com\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mydentify-public-api/refs/heads/main/security/mydentify-public-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mydentify-public-api/security/mydentify-public-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Product Discovery

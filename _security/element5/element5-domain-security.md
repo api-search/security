@@ -5,25 +5,25 @@ api_specs:
   label: Element5 Authorization API
   slug: element5-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/openapi/element5-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/element5/openapi/element5-authorization-api-openapi.yml
 - filename: element5-eligibility-api-openapi.yml
   format: yaml
   label: Element5 Eligibility API
   slug: element5-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/openapi/element5-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/element5/openapi/element5-eligibility-api-openapi.yml
 - filename: element5-object-store-api-openapi.yml
   format: yaml
   label: Element5 Object Store API
   slug: element5-object-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/openapi/element5-object-store-api-openapi.yml
+  url: https://artifacts.apis.io/element5/openapi/element5-object-store-api-openapi.yml
 - filename: element5-automation-api-openapi.yml
   format: yaml
   label: Element5 Automation API
   slug: element5-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/openapi/element5-automation-api-openapi.yml
+  url: https://artifacts.apis.io/element5/openapi/element5-automation-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: element5-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.e5.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 18:53:43 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api-doc.e5.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 23 23:59:59 2027 GMT\n  hsts: false\n- host: api.e5.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 24 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: e5.ai\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/security/element5-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/element5/security/element5-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

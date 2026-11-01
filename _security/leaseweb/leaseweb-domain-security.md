@@ -5,55 +5,55 @@ api_specs:
   label: Leaseweb Abuse API
   slug: leaseweb-abuse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseweb/refs/heads/main/openapi/leaseweb-abuse-api-openapi.yml
+  url: https://artifacts.apis.io/leaseweb/openapi/leaseweb-abuse-api-openapi.yml
 - filename: leaseweb-aggregationpack-api-openapi.yml
   format: yaml
   label: Leaseweb Aggregationpack API
   slug: leaseweb-aggregationpack-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseweb/refs/heads/main/openapi/leaseweb-aggregationpack-api-openapi.yml
+  url: https://artifacts.apis.io/leaseweb/openapi/leaseweb-aggregationpack-api-openapi.yml
 - filename: leaseweb-dedicatedserver-api-openapi.yml
   format: yaml
   label: Leaseweb Dedicatedserver API
   slug: leaseweb-dedicatedserver-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseweb/refs/heads/main/openapi/leaseweb-dedicatedserver-api-openapi.yml
+  url: https://artifacts.apis.io/leaseweb/openapi/leaseweb-dedicatedserver-api-openapi.yml
 - filename: leaseweb-dns-api-openapi.yml
   format: yaml
   label: Leaseweb Dns API
   slug: leaseweb-dns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseweb/refs/heads/main/openapi/leaseweb-dns-api-openapi.yml
+  url: https://artifacts.apis.io/leaseweb/openapi/leaseweb-dns-api-openapi.yml
 - filename: leaseweb-invoice-api-openapi.yml
   format: yaml
   label: Leaseweb Invoice API
   slug: leaseweb-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseweb/refs/heads/main/openapi/leaseweb-invoice-api-openapi.yml
+  url: https://artifacts.apis.io/leaseweb/openapi/leaseweb-invoice-api-openapi.yml
 - filename: leaseweb-ipmgmt-api-openapi.yml
   format: yaml
   label: Leaseweb Ipmgmt API
   slug: leaseweb-ipmgmt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseweb/refs/heads/main/openapi/leaseweb-ipmgmt-api-openapi.yml
+  url: https://artifacts.apis.io/leaseweb/openapi/leaseweb-ipmgmt-api-openapi.yml
 - filename: leaseweb-networkequipment-api-openapi.yml
   format: yaml
   label: Leaseweb Networkequipment API
   slug: leaseweb-networkequipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseweb/refs/heads/main/openapi/leaseweb-networkequipment-api-openapi.yml
+  url: https://artifacts.apis.io/leaseweb/openapi/leaseweb-networkequipment-api-openapi.yml
 - filename: leaseweb-objectstorage-api-openapi.yml
   format: yaml
   label: Leaseweb Objectstorage API
   slug: leaseweb-objectstorage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseweb/refs/heads/main/openapi/leaseweb-objectstorage-api-openapi.yml
+  url: https://artifacts.apis.io/leaseweb/openapi/leaseweb-objectstorage-api-openapi.yml
 - filename: leaseweb-ordering-api-openapi.yml
   format: yaml
   label: Leaseweb Ordering API
   slug: leaseweb-ordering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseweb/refs/heads/main/openapi/leaseweb-ordering-api-openapi.yml
+  url: https://artifacts.apis.io/leaseweb/openapi/leaseweb-ordering-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -87,7 +87,7 @@ source_filename: leaseweb-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.leaseweb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  8 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: leaseweb.com\n  dnssec: true\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"trust-provider.com\"\n  - 0 issue \"usertrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leaseweb/refs/heads/main/security/leaseweb-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/leaseweb/security/leaseweb-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

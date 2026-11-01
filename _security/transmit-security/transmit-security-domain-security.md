@@ -5,49 +5,49 @@ api_specs:
   label: Transmit Security Applications API
   slug: transmit-security-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/openapi/transmit-security-applications-api-openapi.yml
+  url: https://artifacts.apis.io/transmit-security/openapi/transmit-security-applications-api-openapi.yml
 - filename: transmit-security-auth-api-openapi.yml
   format: yaml
   label: Transmit Security Auth API
   slug: transmit-security-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/openapi/transmit-security-auth-api-openapi.yml
+  url: https://artifacts.apis.io/transmit-security/openapi/transmit-security-auth-api-openapi.yml
 - filename: transmit-security-manage-api-openapi.yml
   format: yaml
   label: Transmit Security Manage API
   slug: transmit-security-manage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/openapi/transmit-security-manage-api-openapi.yml
+  url: https://artifacts.apis.io/transmit-security/openapi/transmit-security-manage-api-openapi.yml
 - filename: transmit-security-organizations-api-openapi.yml
   format: yaml
   label: Transmit Security Organizations API
   slug: transmit-security-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/openapi/transmit-security-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/transmit-security/openapi/transmit-security-organizations-api-openapi.yml
 - filename: transmit-security-recommendation-api-openapi.yml
   format: yaml
   label: Transmit Security Recommendation API
   slug: transmit-security-recommendation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/openapi/transmit-security-recommendation-api-openapi.yml
+  url: https://artifacts.apis.io/transmit-security/openapi/transmit-security-recommendation-api-openapi.yml
 - filename: transmit-security-token-api-openapi.yml
   format: yaml
   label: Transmit Security Token API
   slug: transmit-security-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/openapi/transmit-security-token-api-openapi.yml
+  url: https://artifacts.apis.io/transmit-security/openapi/transmit-security-token-api-openapi.yml
 - filename: transmit-security-users-api-openapi.yml
   format: yaml
   label: Transmit Security Users API
   slug: transmit-security-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/openapi/transmit-security-users-api-openapi.yml
+  url: https://artifacts.apis.io/transmit-security/openapi/transmit-security-users-api-openapi.yml
 - filename: transmit-security-verification-api-openapi.yml
   format: yaml
   label: Transmit Security Verification API
   slug: transmit-security-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/openapi/transmit-security-verification-api-openapi.yml
+  url: https://artifacts.apis.io/transmit-security/openapi/transmit-security-verification-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -93,7 +93,7 @@ source_filename: transmit-security-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: transmitsecurity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 31 16:29:23 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.transmitsecurity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 12:11:03 2026 GMT\n  hsts: false\n- host: api.transmitsecurity.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 29 05:46:18 2026 GMT\n  hsts: null\ndomains:\n- domain: transmitsecurity.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: transmitsecurity.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/security/transmit-security-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/transmit-security/security/transmit-security-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - CIAM

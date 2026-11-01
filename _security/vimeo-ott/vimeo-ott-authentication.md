@@ -7,37 +7,37 @@ api_specs:
   label: Vimeo OTT Analytics API
   slug: vimeo-ott-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vimeo-ott/refs/heads/main/openapi/vimeo-ott-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/vimeo-ott/openapi/vimeo-ott-analytics-api-openapi.yml
 - filename: vimeo-ott-authorizations-api-openapi.yml
   format: yaml
   label: Vimeo OTT Authorizations API
   slug: vimeo-ott-authorizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vimeo-ott/refs/heads/main/openapi/vimeo-ott-authorizations-api-openapi.yml
+  url: https://artifacts.apis.io/vimeo-ott/openapi/vimeo-ott-authorizations-api-openapi.yml
 - filename: vimeo-ott-collections-api-openapi.yml
   format: yaml
   label: Vimeo OTT Collections API
   slug: vimeo-ott-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vimeo-ott/refs/heads/main/openapi/vimeo-ott-collections-api-openapi.yml
+  url: https://artifacts.apis.io/vimeo-ott/openapi/vimeo-ott-collections-api-openapi.yml
 - filename: vimeo-ott-customers-api-openapi.yml
   format: yaml
   label: Vimeo OTT Customers API
   slug: vimeo-ott-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vimeo-ott/refs/heads/main/openapi/vimeo-ott-customers-api-openapi.yml
+  url: https://artifacts.apis.io/vimeo-ott/openapi/vimeo-ott-customers-api-openapi.yml
 - filename: vimeo-ott-products-api-openapi.yml
   format: yaml
   label: Vimeo OTT Products API
   slug: vimeo-ott-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vimeo-ott/refs/heads/main/openapi/vimeo-ott-products-api-openapi.yml
+  url: https://artifacts.apis.io/vimeo-ott/openapi/vimeo-ott-products-api-openapi.yml
 - filename: vimeo-ott-videos-api-openapi.yml
   format: yaml
   label: Vimeo OTT Videos API
   slug: vimeo-ott-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vimeo-ott/refs/heads/main/openapi/vimeo-ott-videos-api-openapi.yml
+  url: https://artifacts.apis.io/vimeo-ott/openapi/vimeo-ott-videos-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +64,7 @@ source_filename: vimeo-ott-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/vimeo-ott-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic Auth. Supply your Vimeo OTT API key as the username and leave the\n    password blank.\n  sources:\n  - openapi/vimeo-ott-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vimeo-ott/refs/heads/main/authentication/vimeo-ott-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vimeo-ott/authentication/vimeo-ott-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - OTT

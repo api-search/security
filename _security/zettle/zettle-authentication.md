@@ -7,13 +7,13 @@ api_specs:
   label: Zettle Accounts API
   slug: zettle-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zettle/refs/heads/main/openapi/zettle-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/zettle/openapi/zettle-accounts-api-openapi.yml
 - filename: zettle-payout-api-openapi.yml
   format: yaml
   label: Zettle Payout API
   slug: zettle-payout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zettle/refs/heads/main/openapi/zettle-payout-api-openapi.yml
+  url: https://artifacts.apis.io/zettle/openapi/zettle-payout-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -45,7 +45,7 @@ source_filename: zettle-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/zettle-finance-api-openapi.yaml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: ZettleOauth\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth.zettle.com/authorize\n    tokenUrl: https://oauth.zettle.com/token\n    scopes: 1\n  description: For more information, see the [OAuth API documentation](https://developer.zettle.com/docs/api/oauth/overview).\n  sources:\n  - openapi/zettle-finance-api-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zettle/refs/heads/main/authentication/zettle-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zettle/authentication/zettle-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Point-of-Sale

@@ -5,13 +5,13 @@ api_specs:
   label: Near Space Labs Tile API
   slug: near-space-labs-tile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/near-space-labs/refs/heads/main/openapi/near-space-labs-tile-api-openapi.yml
+  url: https://artifacts.apis.io/near-space-labs/openapi/near-space-labs-tile-api-openapi.yml
 - filename: near-space-labs-oauth-api-openapi.yml
   format: yaml
   label: Near Space Labs OAUTH API
   slug: near-space-labs-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/near-space-labs/refs/heads/main/openapi/near-space-labs-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/near-space-labs/openapi/near-space-labs-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -56,7 +56,7 @@ source_filename: near-space-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nearspacelabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 01:49:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.nearspacelabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 15:19:36 2026 GMT\n  hsts: false\n- host: api.nearspacelabs.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 14:27:02 2026 GMT\n  hsts: null\ndomains:\n- domain: nearspacelabs.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: nearspacelabs.net\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/near-space-labs/refs/heads/main/security/near-space-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/near-space-labs/security/near-space-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

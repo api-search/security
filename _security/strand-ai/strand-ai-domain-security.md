@@ -5,25 +5,25 @@ api_specs:
   label: Strand AI Jobs API
   slug: strand-ai-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strand-ai/refs/heads/main/openapi/strand-ai-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/strand-ai/openapi/strand-ai-jobs-api-openapi.yml
 - filename: strand-ai-predict-api-openapi.yml
   format: yaml
   label: Strand AI Predict API
   slug: strand-ai-predict-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strand-ai/refs/heads/main/openapi/strand-ai-predict-api-openapi.yml
+  url: https://artifacts.apis.io/strand-ai/openapi/strand-ai-predict-api-openapi.yml
 - filename: strand-ai-samples-api-openapi.yml
   format: yaml
   label: Strand AI Samples API
   slug: strand-ai-samples-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strand-ai/refs/heads/main/openapi/strand-ai-samples-api-openapi.yml
+  url: https://artifacts.apis.io/strand-ai/openapi/strand-ai-samples-api-openapi.yml
 - filename: strand-ai-uploads-api-openapi.yml
   format: yaml
   label: Strand AI Uploads API
   slug: strand-ai-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strand-ai/refs/heads/main/openapi/strand-ai-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/strand-ai/openapi/strand-ai-uploads-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: strand-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: app.strandai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 13:31:01 2026 GMT\n  hsts: false\ndomains:\n- domain: strandai.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/strand-ai/refs/heads/main/security/strand-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/strand-ai/security/strand-ai-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

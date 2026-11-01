@@ -5,31 +5,31 @@ api_specs:
   label: PyannoteAI Media API
   slug: pyannoteai-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pyannoteai/refs/heads/main/openapi/pyannoteai-media-api-openapi.yml
+  url: https://artifacts.apis.io/pyannoteai/openapi/pyannoteai-media-api-openapi.yml
 - filename: pyannoteai-streaming-api-openapi.yml
   format: yaml
   label: PyannoteAI Streaming API
   slug: pyannoteai-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pyannoteai/refs/heads/main/openapi/pyannoteai-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/pyannoteai/openapi/pyannoteai-streaming-api-openapi.yml
 - filename: pyannoteai-jobs-api-openapi.yml
   format: yaml
   label: PyannoteAI Jobs API
   slug: pyannoteai-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pyannoteai/refs/heads/main/openapi/pyannoteai-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/pyannoteai/openapi/pyannoteai-jobs-api-openapi.yml
 - filename: pyannoteai-operations-api-openapi.yml
   format: yaml
   label: PyannoteAI Operations API
   slug: pyannoteai-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pyannoteai/refs/heads/main/openapi/pyannoteai-operations-api-openapi.yml
+  url: https://artifacts.apis.io/pyannoteai/openapi/pyannoteai-operations-api-openapi.yml
 - filename: pyannoteai-test-api-openapi.yml
   format: yaml
   label: PyannoteAI Test API
   slug: pyannoteai-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pyannoteai/refs/heads/main/openapi/pyannoteai-test-api-openapi.yml
+  url: https://artifacts.apis.io/pyannoteai/openapi/pyannoteai-test-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: pyannoteai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pyannote.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 17:03:03 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.pyannote.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 01:51:38 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.pyannote.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 12:03:38 2026 GMT\n  hsts: null\ndomains:\n- domain: pyannote.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pyannoteai/refs/heads/main/security/pyannoteai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pyannoteai/security/pyannoteai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

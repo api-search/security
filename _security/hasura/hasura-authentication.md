@@ -14,49 +14,49 @@ api_specs:
   label: Hasura Healthz API
   slug: hasura-healthz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-healthz-api-openapi.yml
+  url: https://artifacts.apis.io/hasura/openapi/hasura-healthz-api-openapi.yml
 - filename: hasura-metadata-api-openapi.yml
   format: yaml
   label: Hasura Metadata API
   slug: hasura-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/hasura/openapi/hasura-metadata-api-openapi.yml
 - filename: hasura-query-api-openapi.yml
   format: yaml
   label: Hasura Query API
   slug: hasura-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-query-api-openapi.yml
+  url: https://artifacts.apis.io/hasura/openapi/hasura-query-api-openapi.yml
 - filename: hasura-source-health-api-openapi.yml
   format: yaml
   label: Hasura Source Health API
   slug: hasura-source-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-source-health-api-openapi.yml
+  url: https://artifacts.apis.io/hasura/openapi/hasura-source-health-api-openapi.yml
 - filename: hasura-v1alpha1-api-openapi.yml
   format: yaml
   label: Hasura V1alpha1 API
   slug: hasura-v1alpha1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-v1alpha1-api-openapi.yml
+  url: https://artifacts.apis.io/hasura/openapi/hasura-v1alpha1-api-openapi.yml
 - filename: hasura-v1beta1-api-openapi.yml
   format: yaml
   label: Hasura V1beta1 API
   slug: hasura-v1beta1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-v1beta1-api-openapi.yml
+  url: https://artifacts.apis.io/hasura/openapi/hasura-v1beta1-api-openapi.yml
 - filename: hasura-version-api-openapi.yml
   format: yaml
   label: Hasura Version API
   slug: hasura-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-version-api-openapi.yml
+  url: https://artifacts.apis.io/hasura/openapi/hasura-version-api-openapi.yml
 - filename: hasura-graph-ql-api-openapi.yml
   format: yaml
   label: Hasura Graph QL API
   slug: hasura-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/hasura/openapi/hasura-graph-ql-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -92,7 +92,7 @@ source_filename: hasura-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/hasura-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: adminSecret\n  type: apiKey\n  in: header\n  parameter: x-hasura-admin-secret\n  description: Admin secret configured via HASURA_GRAPHQL_ADMIN_SECRET.\n  sources:\n  - openapi/hasura-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: JWT token, when JWT authentication is configured.\n  sources:\n  - openapi/hasura-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/authentication/hasura-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hasura/authentication/hasura-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Data Access

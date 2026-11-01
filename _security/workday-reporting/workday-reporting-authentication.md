@@ -7,13 +7,13 @@ api_specs:
   label: Workday Reporting Report Metadata API
   slug: workday-reporting-report-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-reporting/refs/heads/main/openapi/workday-reporting-report-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/workday-reporting/openapi/workday-reporting-report-metadata-api-openapi.yml
 - filename: workday-reporting-reports-api-openapi.yml
   format: yaml
   label: Workday Reporting Reports API
   slug: workday-reporting-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-reporting/refs/heads/main/openapi/workday-reporting-reports-api-openapi.yml
+  url: https://artifacts.apis.io/workday-reporting/openapi/workday-reporting-reports-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -47,7 +47,7 @@ source_filename: workday-reporting-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/workday-reporting-raas-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication using Workday integration system user credentials (ISU\n    username and password).\n  sources:\n  - openapi/workday-reporting-raas-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: OAuth 2.0 bearer token obtained via Workday authentication for report access.\n  sources:\n  - openapi/workday-reporting-raas-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workday-reporting/refs/heads/main/authentication/workday-reporting-authentication.yml
+source_yaml_url: https://artifacts.apis.io/workday-reporting/authentication/workday-reporting-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Analytics

@@ -28,7 +28,7 @@ source_filename: petkit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: petkit.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 23:31:01 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\ndomains:\n- domain: petkit.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/petkit/refs/heads/main/security/petkit-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/petkit/security/petkit-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

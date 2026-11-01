@@ -42,7 +42,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nnote: >-\n  webloyalty.co.uk was probed by hand on 2026-08-13 because it is the host that\n  actually serves Webloyalty's programmable surface (the OAuth authorization\n  server and the MCP endpoint), and it is not reachable from an apis[] entry —\n  the profile has none. A later automated run of probe-domain-security.py will\n  regenerate this file from apis.yml hosts only and may drop that row.\nhosts:\n- host: webloyalty.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 13 23:59:59 2026 GMT\n  hsts: false\n- host: webloyalty.co.uk\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  5 23:59:59 2027 GMT\n  cert_issuer: Amazon RSA 2048 M01\n  hsts: false\n  method: probed-by-hand\ndomains:\n- domain: webloyalty.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: webloyalty.co.uk\n  dnssec: false\n  caa: []\n\
   \  spf: true\n  dmarc: true\n  dmarc_policy: reject\n  method: probed-by-hand\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/webloyalty/refs/heads/main/security/webloyalty-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/webloyalty/security/webloyalty-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

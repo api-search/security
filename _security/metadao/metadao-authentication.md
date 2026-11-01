@@ -7,25 +7,25 @@ api_specs:
   label: MetaDAO Meta API
   slug: metadao-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/openapi/metadao-meta-api-openapi.yml
+  url: https://artifacts.apis.io/metadao/openapi/metadao-meta-api-openapi.yml
 - filename: metadao-supply-api-openapi.yml
   format: yaml
   label: MetaDAO Supply API
   slug: metadao-supply-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/openapi/metadao-supply-api-openapi.yml
+  url: https://artifacts.apis.io/metadao/openapi/metadao-supply-api-openapi.yml
 - filename: metadao-tickers-api-openapi.yml
   format: yaml
   label: MetaDAO Tickers API
   slug: metadao-tickers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/openapi/metadao-tickers-api-openapi.yml
+  url: https://artifacts.apis.io/metadao/openapi/metadao-tickers-api-openapi.yml
 - filename: metadao-volume-api-openapi.yml
   format: yaml
   label: MetaDAO Volume API
   slug: metadao-volume-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/openapi/metadao-volume-api-openapi.yml
+  url: https://artifacts.apis.io/metadao/openapi/metadao-volume-api-openapi.yml
 auth_types:
 - none
 description: ''
@@ -46,7 +46,7 @@ source_filename: metadao-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://api-docs.metadao.fi/quickstart\ndocs: https://api-docs.metadao.fi/api-reference/overview\nsummary:\n  types: [none]\n  note: >-\n    The MetaDAO Futarchy DEX API is a public, read-only API. No API key,\n    OAuth flow, or bearer token is required or documented. All endpoints are\n    open GET requests. Access is governed only by IP-based rate limiting\n    (60 requests per minute per IP).\nschemes: []\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/authentication/metadao-authentication.yml
+source_yaml_url: https://artifacts.apis.io/metadao/authentication/metadao-authentication.yml
 summary_line: none · 0 schemes
 tags:
 - Company

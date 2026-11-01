@@ -7,13 +7,13 @@ api_specs:
   label: BMW ConnectedDrive Containers API
   slug: bmw-connecteddrive-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmw-connecteddrive/refs/heads/main/openapi/bmw-connecteddrive-containers-api-openapi.yml
+  url: https://artifacts.apis.io/bmw-connecteddrive/openapi/bmw-connecteddrive-containers-api-openapi.yml
 - filename: bmw-connecteddrive-vehicles-api-openapi.yml
   format: yaml
   label: BMW ConnectedDrive Vehicles API
   slug: bmw-connecteddrive-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmw-connecteddrive/refs/heads/main/openapi/bmw-connecteddrive-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/bmw-connecteddrive/openapi/bmw-connecteddrive-vehicles-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -41,7 +41,7 @@ source_filename: bmw-connecteddrive-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bmw-cardata-customer-api-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: opaque\n  description: GCDM Access Token\n  sources:\n  - openapi/bmw-cardata-customer-api-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bmw-connecteddrive/refs/heads/main/authentication/bmw-connecteddrive-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bmw-connecteddrive/authentication/bmw-connecteddrive-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Automotive

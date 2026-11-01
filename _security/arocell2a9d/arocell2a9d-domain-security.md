@@ -27,7 +27,7 @@ source_filename: arocell2a9d-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: arocellus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  5 19:08:02 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\ndomains:\n- domain: arocellus.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arocell2a9d/refs/heads/main/security/arocell2a9d-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/arocell2a9d/security/arocell2a9d-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

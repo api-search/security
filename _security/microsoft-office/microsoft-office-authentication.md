@@ -7,19 +7,19 @@ api_specs:
   label: Microsoft Office Drive API
   slug: microsoft-office-drive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office/refs/heads/main/openapi/microsoft-office-drive-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-office/openapi/microsoft-office-drive-api-openapi.yml
 - filename: microsoft-office-mail-api-openapi.yml
   format: yaml
   label: Microsoft Office Mail API
   slug: microsoft-office-mail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office/refs/heads/main/openapi/microsoft-office-mail-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-office/openapi/microsoft-office-mail-api-openapi.yml
 - filename: microsoft-office-teams-api-openapi.yml
   format: yaml
   label: Microsoft Office Teams API
   slug: microsoft-office-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office/refs/heads/main/openapi/microsoft-office-teams-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-office/openapi/microsoft-office-teams-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -51,7 +51,7 @@ source_filename: microsoft-office-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/microsoft-office-openapi.yml\ndocs: https://learn.microsoft.com/en-us/graph/auth/\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n    scopes: 7\n  description: Microsoft Entra ID (Azure AD) OAuth 2.0. Use the authorization code, client credentials,\n    or device code flow depending on the scenario.\n  sources:\n  - openapi/microsoft-office-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-office/refs/heads/main/authentication/microsoft-office-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-office/authentication/microsoft-office-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Collaboration

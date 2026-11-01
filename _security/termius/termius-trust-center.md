@@ -5,13 +5,13 @@ api_specs:
   label: Termius Group API
   slug: termius-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/termius/refs/heads/main/openapi/termius-group-api-openapi.yml
+  url: https://artifacts.apis.io/termius/openapi/termius-group-api-openapi.yml
 - filename: termius-host-api-openapi.yml
   format: yaml
   label: Termius Host API
   slug: termius-host-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/termius/refs/heads/main/openapi/termius-host-api-openapi.yml
+  url: https://artifacts.apis.io/termius/openapi/termius-host-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2
@@ -28,7 +28,7 @@ source_filename: termius-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nurl: https://security.termius.com\nsecurity_page: https://termius.com/security\ncertifications:\n  - SOC 2\nevidence:\n  - source: https://termius.com/llms.txt\n    detail: >-\n      \"Termius Security Center: Security overview, whitepaper SOC2 report\" —\n      links the Security Center at security.termius.com.\n  - source: https://security.termius.com\n    kind: trust-center\n    note: JavaScript-rendered trust center (SafeBase-style); SOC 2 report referenced.\nnote: >-\n  Termius operates a Security Center / Trust Center at security.termius.com with a\n  published SOC 2 report and security whitepaper. Only SOC 2 was confirmed by name\n  in this pass; other frameworks (ISO 27001, etc.) were not verified.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/termius/refs/heads/main/security/termius-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/termius/security/termius-trust-center.yml
 summary_line: SOC 2
 tags:
 - Company

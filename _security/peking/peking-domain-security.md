@@ -5,31 +5,31 @@ api_specs:
   label: Peking University Collections API
   slug: peking-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peking/refs/heads/main/openapi/peking-collections-api-openapi.yml
+  url: https://artifacts.apis.io/peking/openapi/peking-collections-api-openapi.yml
 - filename: peking-communities-api-openapi.yml
   format: yaml
   label: Peking University Communities API
   slug: peking-communities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peking/refs/heads/main/openapi/peking-communities-api-openapi.yml
+  url: https://artifacts.apis.io/peking/openapi/peking-communities-api-openapi.yml
 - filename: peking-harvesting-api-openapi.yml
   format: yaml
   label: Peking University Harvesting API
   slug: peking-harvesting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peking/refs/heads/main/openapi/peking-harvesting-api-openapi.yml
+  url: https://artifacts.apis.io/peking/openapi/peking-harvesting-api-openapi.yml
 - filename: peking-items-api-openapi.yml
   format: yaml
   label: Peking University Items API
   slug: peking-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peking/refs/heads/main/openapi/peking-items-api-openapi.yml
+  url: https://artifacts.apis.io/peking/openapi/peking-items-api-openapi.yml
 - filename: peking-status-api-openapi.yml
   format: yaml
   label: Peking University Status API
   slug: peking-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peking/refs/heads/main/openapi/peking-status-api-openapi.yml
+  url: https://artifacts.apis.io/peking/openapi/peking-status-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: peking-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: english.pku.edu.cn\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar 24 05:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: opendata.pku.edu.cn\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar 24 05:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: pku.edu.cn\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peking/refs/heads/main/security/peking-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/peking/security/peking-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - University

@@ -5,31 +5,31 @@ api_specs:
   label: Terapi Actions API
   slug: terapi-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terapi/refs/heads/main/openapi/terapi-actions-api-openapi.yml
+  url: https://artifacts.apis.io/terapi/openapi/terapi-actions-api-openapi.yml
 - filename: terapi-authentication-api-openapi.yml
   format: yaml
   label: Terapi Authentication API
   slug: terapi-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terapi/refs/heads/main/openapi/terapi-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/terapi/openapi/terapi-authentication-api-openapi.yml
 - filename: terapi-connections-api-openapi.yml
   format: yaml
   label: Terapi Connections API
   slug: terapi-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terapi/refs/heads/main/openapi/terapi-connections-api-openapi.yml
+  url: https://artifacts.apis.io/terapi/openapi/terapi-connections-api-openapi.yml
 - filename: terapi-integrations-api-openapi.yml
   format: yaml
   label: Terapi Integrations API
   slug: terapi-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terapi/refs/heads/main/openapi/terapi-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/terapi/openapi/terapi-integrations-api-openapi.yml
 - filename: terapi-sync-api-openapi.yml
   format: yaml
   label: Terapi Sync API
   slug: terapi-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terapi/refs/heads/main/openapi/terapi-sync-api-openapi.yml
+  url: https://artifacts.apis.io/terapi/openapi/terapi-sync-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: terapi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: terapi.dev\n  https: false\n- host: api.terapi.dev\n  https: false\ndomains:\n- domain: terapi.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/terapi/refs/heads/main/security/terapi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/terapi/security/terapi-domain-security.yml
 summary_line: DMARC
 tags:
 - Authentication

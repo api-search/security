@@ -5,31 +5,31 @@ api_specs:
   label: Leadspace Authorization API
   slug: leadspace-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/openapi/leadspace-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/leadspace/openapi/leadspace-authorization-api-openapi.yml
 - filename: leadspace-discovery-api-openapi.yml
   format: yaml
   label: Leadspace Discovery API
   slug: leadspace-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/openapi/leadspace-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/leadspace/openapi/leadspace-discovery-api-openapi.yml
 - filename: leadspace-enrichment-api-openapi.yml
   format: yaml
   label: Leadspace Enrichment API
   slug: leadspace-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/openapi/leadspace-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/leadspace/openapi/leadspace-enrichment-api-openapi.yml
 - filename: leadspace-intent-api-openapi.yml
   format: yaml
   label: Leadspace Intent API
   slug: leadspace-intent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/openapi/leadspace-intent-api-openapi.yml
+  url: https://artifacts.apis.io/leadspace/openapi/leadspace-intent-api-openapi.yml
 - filename: leadspace-results-api-openapi.yml
   format: yaml
   label: Leadspace Results API
   slug: leadspace-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/openapi/leadspace-results-api-openapi.yml
+  url: https://artifacts.apis.io/leadspace/openapi/leadspace-results-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: leadspace-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.leadspace.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 09:04:43 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: support.leadspace.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 23:39:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apigw.leadspace.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: leadspace.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/security/leadspace-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/leadspace/security/leadspace-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - MCP

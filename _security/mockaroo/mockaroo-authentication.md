@@ -9,25 +9,25 @@ api_specs:
   label: Mockaroo Datasets API
   slug: mockaroo-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mockaroo/refs/heads/main/openapi/mockaroo-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/mockaroo/openapi/mockaroo-datasets-api-openapi.yml
 - filename: mockaroo-downloads-api-openapi.yml
   format: yaml
   label: Mockaroo Downloads API
   slug: mockaroo-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mockaroo/refs/heads/main/openapi/mockaroo-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/mockaroo/openapi/mockaroo-downloads-api-openapi.yml
 - filename: mockaroo-generate-api-openapi.yml
   format: yaml
   label: Mockaroo Generate API
   slug: mockaroo-generate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mockaroo/refs/heads/main/openapi/mockaroo-generate-api-openapi.yml
+  url: https://artifacts.apis.io/mockaroo/openapi/mockaroo-generate-api-openapi.yml
 - filename: mockaroo-types-api-openapi.yml
   format: yaml
   label: Mockaroo Types API
   slug: mockaroo-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mockaroo/refs/heads/main/openapi/mockaroo-types-api-openapi.yml
+  url: https://artifacts.apis.io/mockaroo/openapi/mockaroo-types-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -62,7 +62,7 @@ source_filename: mockaroo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/mockaroo-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: apiKeyQuery\n  type: apiKey\n  in: query\n  parameter: key\n  description: Mockaroo API key passed as a query parameter.\n  sources:\n  - openapi/mockaroo-openapi.yml\n- name: apiKeyHeader\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: Mockaroo API key passed as a request header.\n  sources:\n  - openapi/mockaroo-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mockaroo/refs/heads/main/authentication/mockaroo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mockaroo/authentication/mockaroo-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Test Data

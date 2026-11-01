@@ -8,19 +8,19 @@ api_specs:
   label: Bureau of Consular Affairs Datastore API
   slug: bureau-of-consular-affairs-datastore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-consular-affairs/refs/heads/main/openapi/bureau-of-consular-affairs-datastore-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-consular-affairs/openapi/bureau-of-consular-affairs-datastore-api-openapi.yml
 - filename: bureau-of-consular-affairs-discovery-api-openapi.yml
   format: yaml
   label: Bureau of Consular Affairs Discovery API
   slug: bureau-of-consular-affairs-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-consular-affairs/refs/heads/main/openapi/bureau-of-consular-affairs-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-consular-affairs/openapi/bureau-of-consular-affairs-discovery-api-openapi.yml
 - filename: bureau-of-consular-affairs-write-api-openapi.yml
   format: yaml
   label: Bureau of Consular Affairs Write API
   slug: bureau-of-consular-affairs-write-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-consular-affairs/refs/heads/main/openapi/bureau-of-consular-affairs-write-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-consular-affairs/openapi/bureau-of-consular-affairs-write-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -50,7 +50,7 @@ source_filename: bureau-of-consular-affairs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: derived\nsource: openapi/bureau-of-consular-affairs-datastore-api-openapi.yml, openapi/bureau-of-consular-affairs-discovery-api-openapi.yml,\n  openapi/bureau-of-consular-affairs-write-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiToken\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: CKAN API token, generated from the CKAN user profile.\n  sources:\n  - openapi/bureau-of-consular-affairs-datastore-api-openapi.yml\n  - openapi/bureau-of-consular-affairs-discovery-api-openapi.yml\n  - openapi/bureau-of-consular-affairs-write-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-consular-affairs/refs/heads/main/authentication/bureau-of-consular-affairs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bureau-of-consular-affairs/authentication/bureau-of-consular-affairs-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Federal Government

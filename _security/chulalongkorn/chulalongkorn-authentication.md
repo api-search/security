@@ -2,30 +2,96 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: chulalongkorn-authentication-api-openapi.yml
-  format: yaml
-  label: Chulalongkorn University Authentication API
-  slug: chulalongkorn-authentication-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chulalongkorn/refs/heads/main/openapi/chulalongkorn-authentication-api-openapi.yml
 - filename: chulalongkorn-curriculum-api-openapi.yml
   format: yaml
   label: Chulalongkorn University Curriculum API
   slug: chulalongkorn-curriculum-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chulalongkorn/refs/heads/main/openapi/chulalongkorn-curriculum-api-openapi.yml
+  url: https://artifacts.apis.io/chulalongkorn/openapi/chulalongkorn-curriculum-api-openapi.yml
 - filename: chulalongkorn-meta-api-openapi.yml
   format: yaml
   label: Chulalongkorn University Meta API
   slug: chulalongkorn-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chulalongkorn/refs/heads/main/openapi/chulalongkorn-meta-api-openapi.yml
-- filename: chulalongkorn-validation-api-openapi.yml
+  url: https://artifacts.apis.io/chulalongkorn/openapi/chulalongkorn-meta-api-openapi.yml
+- filename: chulalongkorn-about-api-openapi.yml
   format: yaml
-  label: Chulalongkorn University Validation API
-  slug: chulalongkorn-validation-api
+  label: Chulalongkorn University About API
+  slug: chulalongkorn-about-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chulalongkorn/refs/heads/main/openapi/chulalongkorn-validation-api-openapi.yml
+  url: https://artifacts.apis.io/chulalongkorn/openapi/chulalongkorn-about-api-openapi.yml
+- filename: chulalongkorn-admin-api-openapi.yml
+  format: yaml
+  label: Chulalongkorn University Admin API
+  slug: chulalongkorn-admin-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chulalongkorn/openapi/chulalongkorn-admin-api-openapi.yml
+- filename: chulalongkorn-chulasso-service-api-openapi.yml
+  format: yaml
+  label: Chulalongkorn University ChulaSSO Service API
+  slug: chulalongkorn-chulasso-service-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chulalongkorn/openapi/chulalongkorn-chulasso-service-api-openapi.yml
+- filename: chulalongkorn-html-api-openapi.yml
+  format: yaml
+  label: Chulalongkorn University Html API
+  slug: chulalongkorn-html-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chulalongkorn/openapi/chulalongkorn-html-api-openapi.yml
+- filename: chulalongkorn-login-api-openapi.yml
+  format: yaml
+  label: Chulalongkorn University Login API
+  slug: chulalongkorn-login-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chulalongkorn/openapi/chulalongkorn-login-api-openapi.yml
+- filename: chulalongkorn-logout-api-openapi.yml
+  format: yaml
+  label: Chulalongkorn University Logout API
+  slug: chulalongkorn-logout-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chulalongkorn/openapi/chulalongkorn-logout-api-openapi.yml
+- filename: chulalongkorn-myapps-api-openapi.yml
+  format: yaml
+  label: Chulalongkorn University Myapps API
+  slug: chulalongkorn-myapps-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chulalongkorn/openapi/chulalongkorn-myapps-api-openapi.yml
+- filename: chulalongkorn-qr-api-openapi.yml
+  format: yaml
+  label: Chulalongkorn University Qr API
+  slug: chulalongkorn-qr-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chulalongkorn/openapi/chulalongkorn-qr-api-openapi.yml
+- filename: chulalongkorn-qrvalidation-api-openapi.yml
+  format: yaml
+  label: Chulalongkorn University Qr Validation API
+  slug: chulalongkorn-qrvalidation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chulalongkorn/openapi/chulalongkorn-qrvalidation-api-openapi.yml
+- filename: chulalongkorn-servicevalidation-api-openapi.yml
+  format: yaml
+  label: Chulalongkorn University Service Validation API
+  slug: chulalongkorn-servicevalidation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chulalongkorn/openapi/chulalongkorn-servicevalidation-api-openapi.yml
+- filename: chulalongkorn-tickets-api-openapi.yml
+  format: yaml
+  label: Chulalongkorn University Tickets API
+  slug: chulalongkorn-tickets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chulalongkorn/openapi/chulalongkorn-tickets-api-openapi.yml
+- filename: chulalongkorn-users-api-openapi.yml
+  format: yaml
+  label: Chulalongkorn University Users API
+  slug: chulalongkorn-users-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chulalongkorn/openapi/chulalongkorn-users-api-openapi.yml
+- filename: chulalongkorn-2-fa-api-openapi.yml
+  format: yaml
+  label: Chulalongkorn University 2 FA API
+  slug: chulalongkorn-2-fa-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chulalongkorn/openapi/chulalongkorn-2-fa-api-openapi.yml
 auth_types: []
 description: 'Chulalongkorn University runs two distinct authentication stories and they do not meet. Its own campus SSO is a bespoke CAS 1.0 variant with an added application-authentication step, in production since January 2017 and documented in prose on a public wiki. Its cloud identity is a Microsoft Entra ID tenant covering both chula.ac.th and student.chula.ac.th, whose OIDC and SAML metadata are fully machine-readable. Neither is presented to developers as an API program: there is no self-service registration, no published client-credentials flow, and no developer portal at which either could be claimed.'
 kind: authentication
@@ -49,7 +115,7 @@ source_yaml: "specification: API Evangelist Authentication\nspecificationVersion
   \ the wiki names the address. There is no registration form, no console, and\n    no published turnaround or terms. This is the single largest ergonomics gap in the\n    profile: the contract is well documented and the door to it is a person's inbox.\n  documentation: https://account.it.chula.ac.th/wiki/doku.php?id=how_does_it_work\n  backend: University LDAP directory operated by the Office of Information Technology\n  status_probed: '2026-09-01'\n  status: 200\n\n- id: cu-reg-course-schedule-anonymous\n  name: CU-REG Course Schedule — no authentication\n  x-operator: institution\n  type: none\n  self_service: true\n  detail: >-\n    GET https://cas.reg.chula.ac.th/class/api/course-studies and /version both return HTTP\n    200 JSON to an unauthenticated, unkeyed request from outside the campus network. No\n    API key, no token, no CORS preflight and no rate-limit headers were observed. The\n    thirteen further endpoints the client bundle declares return HTTP 404 to the same\n    unauthenticated\
   \ caller.\n  status_probed: '2026-09-01'\n  status: 200\n\n- id: entra-id-tenant\n  name: Microsoft Entra ID tenant (OpenID Connect / SAML 2.0)\n  x-operator: federation\n  type: oidc\n  issuer: https://login.microsoftonline.com/271d5e7b-1350-4b96-ab84-52dbda4cf40c/v2.0\n  tenant_id: 271d5e7b-1350-4b96-ab84-52dbda4cf40c\n  discovery: https://login.microsoftonline.com/chula.ac.th/v2.0/.well-known/openid-configuration\n  saml_metadata: https://login.microsoftonline.com/271d5e7b-1350-4b96-ab84-52dbda4cf40c/federationmetadata/2007-06/federationmetadata.xml\n  saml_entity_id: https://sts.windows.net/271d5e7b-1350-4b96-ab84-52dbda4cf40c/\n  domains:\n  - chula.ac.th\n  - student.chula.ac.th\n  namespace_type: Managed\n  detail: >-\n    A managed (not federated) Entra tenant branded \"Chulalongkorn University\". Both the\n    OIDC discovery document and the SAML 2.0 federation metadata resolve HTTP 200 without\n    credentials. This is the institution's own identity surface running on Microsoft's\n\
   \    infrastructure, and it is the most complete machine-readable identity contract the\n    university has — but it is a tenant deployment, not an authorization server the\n    university offers to third-party developers.\n  status_probed: '2026-09-01'\n  status: 200\n\ngaps:\n- No OAuth 2.0 or OpenID Connect authorization server is offered to third-party developers\n  under any chula.ac.th host.\n- No self-service developer registration anywhere in the estate.\n- No published rate limits, quotas or terms of use for either institution-operated API.\n- CU Data Gateway, the university's central data exchange, is restricted to assigned\n  university personnel; its documentation host sits behind an Imperva bot challenge and its\n  portal (datagateway.chula.ac.th) does not answer from outside the campus network.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chulalongkorn/refs/heads/main/authentication/chulalongkorn-authentication.yml
+source_yaml_url: https://artifacts.apis.io/chulalongkorn/authentication/chulalongkorn-authentication.yml
 summary_line: 0 schemes
 tags:
 - Education

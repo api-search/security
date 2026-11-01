@@ -34,7 +34,7 @@ source_filename: cocampo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cocampo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  3 19:24:51 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: cocampo.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cocampo/refs/heads/main/security/cocampo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cocampo/security/cocampo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -10,13 +10,13 @@ api_specs:
   label: VulnCheck Endpoints API
   slug: vulncheck-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vulncheck/refs/heads/main/openapi/vulncheck-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/vulncheck/openapi/vulncheck-endpoints-api-openapi.yml
 - filename: vulncheck-indices-api-openapi.yml
   format: yaml
   label: VulnCheck Indices API
   slug: vulncheck-indices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vulncheck/refs/heads/main/openapi/vulncheck-indices-api-openapi.yml
+  url: https://artifacts.apis.io/vulncheck/openapi/vulncheck-indices-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-09-04'\nmethod: searched\nsource: https://docs.vu
   \ Real\n    and supported, but a credential in a URL is recorded in proxy logs, browser history and\n    Referer headers. Recorded because VulnCheck publishes it, not because it is advisable.\n- name: token (cookie)\n  type: apiKey\n  in: cookie\n  parameter: token\n  format: 'Cookie: token=<token>'\n  declared_in_spec: false\n  documented: true\n  sources:\n  - https://docs.vulncheck.com/getting-started/api-tokens\n  note: This is how VulnCheck's own web portal authenticates against the same API.\ntoken:\n  kind: long-lived API token\n  shared_with: The same token authenticates both the API and the web portal.\n  issue: https://console.vulncheck.com/settings/tokens\n  issue_flow: Tokens & SSH Keys page -> Create Token -> label + icon. The value is shown ONCE.\n  rotation: Self-service create and remove; no automated rotation endpoint.\n  expiry: A token unused for 30 days expires and must be recreated.\n  revocation: Remove the token from the Tokens & SSH Keys page, or via `vulncheck\
   \ token remove`.\n  env_var: VC_TOKEN\n  cli: vulncheck auth login (browser or paste-token)\nfailure:\n  status: 401\n  body: '{\"error\":true,\"errors\":[\"unauthorized\"]}'\n  www_authenticate: false\n  method: probed\n  probe:\n    url: https://api.vulncheck.com/v3/index/a10\n    status: 401\n    note: >-\n      No WWW-Authenticate challenge is returned, so a client cannot discover the required\n      scheme from the response. The 401 body is also typed as a bare `string` in the spec.\nanonymous_surface:\n- url: https://api.vulncheck.com/v3/openapi\n  status: 200\n  note: The OpenAPI document itself is the only operation reachable without a token.\ngaps:\n- id: no-global-security-requirement\n  detail: >-\n    The OpenAPI declares no top-level `security` and applies the Bearer scheme to no operation,\n    so a generated client reads all 521 operations as anonymous when 520 of them return 401.\n    Captured as a correction in overlays/vulncheck-api-overlay.yaml.\n- id: undeclared-transports\n\
   \  detail: The query-parameter and cookie transports are documented but absent from the spec.\n- id: no-scopes\n  detail: >-\n    There is no scope or permission model. Access is all-or-nothing per token, differentiated\n    only by the account's entitlements (GET /entitlements returns a map of roles to\n    entitlements). An agent cannot be issued a narrowed credential.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vulncheck/refs/heads/main/authentication/vulncheck-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vulncheck/authentication/vulncheck-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - Company

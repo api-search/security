@@ -31,7 +31,7 @@ source_filename: heal-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.heal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 21:29:10 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: heal.com\n  dnssec: true\n  caa:\n  - 0 iodef \"mailto:security@heal.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/heal/refs/heads/main/security/heal-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/heal/security/heal-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
@@ -41,6 +41,6 @@ tags:
 - Primary Care
 - Remote Patient Monitoring
 - Medicare
-- Home Health
+- Home Care
 - Acquired
 ---

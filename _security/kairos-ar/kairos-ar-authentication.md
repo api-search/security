@@ -8,19 +8,19 @@ api_specs:
   label: Kairos AR Emotion Analysis API
   slug: kairos-ar-emotion-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/openapi/kairos-ar-emotion-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/kairos-ar/openapi/kairos-ar-emotion-analysis-api-openapi.yml
 - filename: kairos-ar-face-recognition-api-openapi.yml
   format: yaml
   label: Kairos AR Face Recognition API
   slug: kairos-ar-face-recognition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/openapi/kairos-ar-face-recognition-api-openapi.yml
+  url: https://artifacts.apis.io/kairos-ar/openapi/kairos-ar-face-recognition-api-openapi.yml
 - filename: kairos-ar-galleries-api-openapi.yml
   format: yaml
   label: Kairos AR Galleries API
   slug: kairos-ar-galleries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/openapi/kairos-ar-galleries-api-openapi.yml
+  url: https://artifacts.apis.io/kairos-ar/openapi/kairos-ar-galleries-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -55,7 +55,7 @@ source_filename: kairos-ar-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/kairos-ar-openapi.yml\ndocs: https://face.kairos.com/docs/api/\nnotes: >-\n  Every request must send two apiKey headers together — app_id and app_key.\n  Keys are created and managed from the developer dashboard at\n  https://developer.kairos.com. There is no OAuth surface and no scopes.\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: app_id\n  type: apiKey\n  in: header\n  parameter: app_id\n  description: Your Kairos APP_ID, from https://developer.kairos.com.\n  sources:\n  - openapi/kairos-ar-openapi.yml\n- name: app_key\n  type: apiKey\n  in: header\n  parameter: app_key\n  description: Your Kairos APP_KEY, from https://developer.kairos.com.\n  sources:\n  - openapi/kairos-ar-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/authentication/kairos-ar-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kairos-ar/authentication/kairos-ar-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company

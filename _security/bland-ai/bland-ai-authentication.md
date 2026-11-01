@@ -8,7 +8,7 @@ api_specs:
   label: Bland AI Calls API
   slug: bland-ai-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bland-ai/refs/heads/main/openapi/bland-ai-calls-api-openapi.yml
+  url: https://artifacts.apis.io/bland-ai/openapi/bland-ai-calls-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: bland-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bland-ai-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: authorization\n  description: Bland API key supplied as the raw value of the `authorization` header.\n  sources:\n  - openapi/bland-ai-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bland-ai/refs/heads/main/authentication/bland-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bland-ai/authentication/bland-ai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence

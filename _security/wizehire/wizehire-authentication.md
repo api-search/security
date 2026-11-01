@@ -7,25 +7,25 @@ api_specs:
   label: WizeHire Agent API
   slug: wizehire-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wizehire/refs/heads/main/openapi/wizehire-agent-api-openapi.yml
+  url: https://artifacts.apis.io/wizehire/openapi/wizehire-agent-api-openapi.yml
 - filename: wizehire-candidates-api-openapi.yml
   format: yaml
   label: WizeHire Candidates API
   slug: wizehire-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wizehire/refs/heads/main/openapi/wizehire-candidates-api-openapi.yml
+  url: https://artifacts.apis.io/wizehire/openapi/wizehire-candidates-api-openapi.yml
 - filename: wizehire-health-api-openapi.yml
   format: yaml
   label: WizeHire Health API
   slug: wizehire-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wizehire/refs/heads/main/openapi/wizehire-health-api-openapi.yml
+  url: https://artifacts.apis.io/wizehire/openapi/wizehire-health-api-openapi.yml
 - filename: wizehire-interviews-api-openapi.yml
   format: yaml
   label: WizeHire Interviews API
   slug: wizehire-interviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wizehire/refs/heads/main/openapi/wizehire-interviews-api-openapi.yml
+  url: https://artifacts.apis.io/wizehire/openapi/wizehire-interviews-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -51,7 +51,7 @@ source_filename: wizehire-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: derived\nsource: openapi/wizehire-scout-service-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: HTTPBearer\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/wizehire-scout-service-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wizehire/refs/heads/main/authentication/wizehire-authentication.yml
+source_yaml_url: https://artifacts.apis.io/wizehire/authentication/wizehire-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Hiring

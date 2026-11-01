@@ -8,37 +8,37 @@ api_specs:
   label: PeopleSearch.im Credits API
   slug: peoplesearch-im-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peoplesearch-im/refs/heads/main/openapi/peoplesearch-im-credits-api-openapi.yml
+  url: https://artifacts.apis.io/peoplesearch-im/openapi/peoplesearch-im-credits-api-openapi.yml
 - filename: peoplesearch-im-deliver-api-openapi.yml
   format: yaml
   label: PeopleSearch.im Deliver API
   slug: peoplesearch-im-deliver-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peoplesearch-im/refs/heads/main/openapi/peoplesearch-im-deliver-api-openapi.yml
+  url: https://artifacts.apis.io/peoplesearch-im/openapi/peoplesearch-im-deliver-api-openapi.yml
 - filename: peoplesearch-im-email-api-openapi.yml
   format: yaml
   label: PeopleSearch.im Email API
   slug: peoplesearch-im-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peoplesearch-im/refs/heads/main/openapi/peoplesearch-im-email-api-openapi.yml
+  url: https://artifacts.apis.io/peoplesearch-im/openapi/peoplesearch-im-email-api-openapi.yml
 - filename: peoplesearch-im-reveal-api-openapi.yml
   format: yaml
   label: PeopleSearch.im Reveal API
   slug: peoplesearch-im-reveal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peoplesearch-im/refs/heads/main/openapi/peoplesearch-im-reveal-api-openapi.yml
+  url: https://artifacts.apis.io/peoplesearch-im/openapi/peoplesearch-im-reveal-api-openapi.yml
 - filename: peoplesearch-im-search-api-openapi.yml
   format: yaml
   label: PeopleSearch.im Search API
   slug: peoplesearch-im-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peoplesearch-im/refs/heads/main/openapi/peoplesearch-im-search-api-openapi.yml
+  url: https://artifacts.apis.io/peoplesearch-im/openapi/peoplesearch-im-search-api-openapi.yml
 - filename: peoplesearch-im-tools-api-openapi.yml
   format: yaml
   label: PeopleSearch.im Tools API
   slug: peoplesearch-im-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peoplesearch-im/refs/heads/main/openapi/peoplesearch-im-tools-api-openapi.yml
+  url: https://artifacts.apis.io/peoplesearch-im/openapi/peoplesearch-im-tools-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -74,7 +74,7 @@ source_filename: peoplesearch-im-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: derived\nsource: openapi/peoplesearch-im-openapi.json\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: sk_sift_…\n  description: A PeopleSearch.im API key, created at /developers.\n  sources:\n  - openapi/peoplesearch-im-openapi.json\n- name: apiKeyHeader\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: The same PeopleSearch.im API key (sk_sift_…), sent as a header.\n  sources:\n  - openapi/peoplesearch-im-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peoplesearch-im/refs/heads/main/authentication/peoplesearch-im-authentication.yml
+source_yaml_url: https://artifacts.apis.io/peoplesearch-im/authentication/peoplesearch-im-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

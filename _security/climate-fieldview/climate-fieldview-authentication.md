@@ -2,36 +2,54 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: climate-fieldview-application-api-openapi.yml
-  format: yaml
-  label: Climate FieldView Application API
-  slug: climate-fieldview-application-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-fieldview/refs/heads/main/openapi/climate-fieldview-application-api-openapi.yml
 - filename: climate-fieldview-fields-api-openapi.yml
   format: yaml
   label: Climate FieldView Fields API
   slug: climate-fieldview-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-fieldview/refs/heads/main/openapi/climate-fieldview-fields-api-openapi.yml
-- filename: climate-fieldview-harvest-api-openapi.yml
+  url: https://artifacts.apis.io/climate-fieldview/openapi/climate-fieldview-fields-api-openapi.yml
+- filename: climate-fieldview-boundaries-api-openapi.yml
   format: yaml
-  label: Climate FieldView Harvest API
-  slug: climate-fieldview-harvest-api
+  label: Climate FieldView Boundaries API
+  slug: climate-fieldview-boundaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-fieldview/refs/heads/main/openapi/climate-fieldview-harvest-api-openapi.yml
-- filename: climate-fieldview-planting-api-openapi.yml
+  url: https://artifacts.apis.io/climate-fieldview/openapi/climate-fieldview-boundaries-api-openapi.yml
+- filename: climate-fieldview-exports-api-openapi.yml
   format: yaml
-  label: Climate FieldView Planting API
-  slug: climate-fieldview-planting-api
+  label: Climate FieldView Exports API
+  slug: climate-fieldview-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-fieldview/refs/heads/main/openapi/climate-fieldview-planting-api-openapi.yml
-- filename: climate-fieldview-soil-sampling-api-openapi.yml
+  url: https://artifacts.apis.io/climate-fieldview/openapi/climate-fieldview-exports-api-openapi.yml
+- filename: climate-fieldview-farmorganizations-api-openapi.yml
   format: yaml
-  label: Climate FieldView Soil Sampling API
-  slug: climate-fieldview-soil-sampling-api
+  label: Climate FieldView Farm Organizations API
+  slug: climate-fieldview-farmorganizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-fieldview/refs/heads/main/openapi/climate-fieldview-soil-sampling-api-openapi.yml
+  url: https://artifacts.apis.io/climate-fieldview/openapi/climate-fieldview-farmorganizations-api-openapi.yml
+- filename: climate-fieldview-layers-api-openapi.yml
+  format: yaml
+  label: Climate FieldView Layers API
+  slug: climate-fieldview-layers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/climate-fieldview/openapi/climate-fieldview-layers-api-openapi.yml
+- filename: climate-fieldview-operations-api-openapi.yml
+  format: yaml
+  label: Climate FieldView Operations API
+  slug: climate-fieldview-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/climate-fieldview/openapi/climate-fieldview-operations-api-openapi.yml
+- filename: climate-fieldview-resourceowners-api-openapi.yml
+  format: yaml
+  label: Climate FieldView Resource Owners API
+  slug: climate-fieldview-resourceowners-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/climate-fieldview/openapi/climate-fieldview-resourceowners-api-openapi.yml
+- filename: climate-fieldview-uploads-api-openapi.yml
+  format: yaml
+  label: Climate FieldView Uploads API
+  slug: climate-fieldview-uploads-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/climate-fieldview/openapi/climate-fieldview-uploads-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -63,7 +81,7 @@ source_filename: climate-fieldview-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/climate-fieldview-platform-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.climate.com/api/oauth/authorize\n    tokenUrl: https://api.climate.com/api/oauth/token\n    scopes: 5\n  description: OAuth 2.0 authorization for Climate FieldView API\n  sources:\n  - openapi/climate-fieldview-platform-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/climate-fieldview/refs/heads/main/authentication/climate-fieldview-authentication.yml
+source_yaml_url: https://artifacts.apis.io/climate-fieldview/authentication/climate-fieldview-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Agriculture

@@ -5,67 +5,67 @@ api_specs:
   label: Clearstreet8e71 Accounts API
   slug: clearstreet8e71-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/openapi/clearstreet8e71-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/clearstreet8e71/openapi/clearstreet8e71-accounts-api-openapi.yml
 - filename: clearstreet8e71-api-version-api-openapi.yml
   format: yaml
   label: Clearstreet8e71 API version API
   slug: clearstreet8e71-api-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/openapi/clearstreet8e71-api-version-api-openapi.yml
+  url: https://artifacts.apis.io/clearstreet8e71/openapi/clearstreet8e71-api-version-api-openapi.yml
 - filename: clearstreet8e71-calendar-api-openapi.yml
   format: yaml
   label: Clearstreet8e71 Calendar API
   slug: clearstreet8e71-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/openapi/clearstreet8e71-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/clearstreet8e71/openapi/clearstreet8e71-calendar-api-openapi.yml
 - filename: clearstreet8e71-instrument-data-api-openapi.yml
   format: yaml
   label: Clearstreet8e71 Instrument Data API
   slug: clearstreet8e71-instrument-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/openapi/clearstreet8e71-instrument-data-api-openapi.yml
+  url: https://artifacts.apis.io/clearstreet8e71/openapi/clearstreet8e71-instrument-data-api-openapi.yml
 - filename: clearstreet8e71-instruments-api-openapi.yml
   format: yaml
   label: Clearstreet8e71 Instruments API
   slug: clearstreet8e71-instruments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/openapi/clearstreet8e71-instruments-api-openapi.yml
+  url: https://artifacts.apis.io/clearstreet8e71/openapi/clearstreet8e71-instruments-api-openapi.yml
 - filename: clearstreet8e71-omni-ai-api-openapi.yml
   format: yaml
   label: Clearstreet8e71 Omni AI API
   slug: clearstreet8e71-omni-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/openapi/clearstreet8e71-omni-ai-api-openapi.yml
+  url: https://artifacts.apis.io/clearstreet8e71/openapi/clearstreet8e71-omni-ai-api-openapi.yml
 - filename: clearstreet8e71-orders-api-openapi.yml
   format: yaml
   label: Clearstreet8e71 Orders API
   slug: clearstreet8e71-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/openapi/clearstreet8e71-orders-api-openapi.yml
+  url: https://artifacts.apis.io/clearstreet8e71/openapi/clearstreet8e71-orders-api-openapi.yml
 - filename: clearstreet8e71-positions-api-openapi.yml
   format: yaml
   label: Clearstreet8e71 Positions API
   slug: clearstreet8e71-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/openapi/clearstreet8e71-positions-api-openapi.yml
+  url: https://artifacts.apis.io/clearstreet8e71/openapi/clearstreet8e71-positions-api-openapi.yml
 - filename: clearstreet8e71-private-markets-api-openapi.yml
   format: yaml
   label: Clearstreet8e71 Private Markets API
   slug: clearstreet8e71-private-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/openapi/clearstreet8e71-private-markets-api-openapi.yml
+  url: https://artifacts.apis.io/clearstreet8e71/openapi/clearstreet8e71-private-markets-api-openapi.yml
 - filename: clearstreet8e71-screener-api-openapi.yml
   format: yaml
   label: Clearstreet8e71 Screener API
   slug: clearstreet8e71-screener-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/openapi/clearstreet8e71-screener-api-openapi.yml
+  url: https://artifacts.apis.io/clearstreet8e71/openapi/clearstreet8e71-screener-api-openapi.yml
 - filename: clearstreet8e71-watchlist-api-openapi.yml
   format: yaml
   label: Clearstreet8e71 Watchlist API
   slug: clearstreet8e71-watchlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/openapi/clearstreet8e71-watchlist-api-openapi.yml
+  url: https://artifacts.apis.io/clearstreet8e71/openapi/clearstreet8e71-watchlist-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -101,7 +101,7 @@ source_filename: clearstreet8e71-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.clearstreet.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 27 05:18:14 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: clearstreet.io\n  dnssec: false\n  caa:\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/security/clearstreet8e71-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/clearstreet8e71/security/clearstreet8e71-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -7,67 +7,67 @@ api_specs:
   label: Consumer Financial Protection Bureau (CFPB) Aggregations API
   slug: cfpb-aggregations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfpb/refs/heads/main/openapi/cfpb-aggregations-api-openapi.yml
+  url: https://artifacts.apis.io/cfpb/openapi/cfpb-aggregations-api-openapi.yml
 - filename: cfpb-complaints-api-openapi.yml
   format: yaml
   label: Consumer Financial Protection Bureau (CFPB) Complaints API
   slug: cfpb-complaints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfpb/refs/heads/main/openapi/cfpb-complaints-api-openapi.yml
+  url: https://artifacts.apis.io/cfpb/openapi/cfpb-complaints-api-openapi.yml
 - filename: cfpb-csv-api-openapi.yml
   format: yaml
   label: Consumer Financial Protection Bureau (CFPB) CSV API
   slug: cfpb-csv-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfpb/refs/heads/main/openapi/cfpb-csv-api-openapi.yml
+  url: https://artifacts.apis.io/cfpb/openapi/cfpb-csv-api-openapi.yml
 - filename: cfpb-edits-api-openapi.yml
   format: yaml
   label: Consumer Financial Protection Bureau (CFPB) Edits API
   slug: cfpb-edits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfpb/refs/heads/main/openapi/cfpb-edits-api-openapi.yml
+  url: https://artifacts.apis.io/cfpb/openapi/cfpb-edits-api-openapi.yml
 - filename: cfpb-filers-api-openapi.yml
   format: yaml
   label: Consumer Financial Protection Bureau (CFPB) Filers API
   slug: cfpb-filers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfpb/refs/heads/main/openapi/cfpb-filers-api-openapi.yml
+  url: https://artifacts.apis.io/cfpb/openapi/cfpb-filers-api-openapi.yml
 - filename: cfpb-filings-api-openapi.yml
   format: yaml
   label: Consumer Financial Protection Bureau (CFPB) Filings API
   slug: cfpb-filings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfpb/refs/heads/main/openapi/cfpb-filings-api-openapi.yml
+  url: https://artifacts.apis.io/cfpb/openapi/cfpb-filings-api-openapi.yml
 - filename: cfpb-health-api-openapi.yml
   format: yaml
   label: Consumer Financial Protection Bureau (CFPB) Health API
   slug: cfpb-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfpb/refs/heads/main/openapi/cfpb-health-api-openapi.yml
+  url: https://artifacts.apis.io/cfpb/openapi/cfpb-health-api-openapi.yml
 - filename: cfpb-institutions-api-openapi.yml
   format: yaml
   label: Consumer Financial Protection Bureau (CFPB) Institutions API
   slug: cfpb-institutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfpb/refs/heads/main/openapi/cfpb-institutions-api-openapi.yml
+  url: https://artifacts.apis.io/cfpb/openapi/cfpb-institutions-api-openapi.yml
 - filename: cfpb-submissions-api-openapi.yml
   format: yaml
   label: Consumer Financial Protection Bureau (CFPB) Submissions API
   slug: cfpb-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfpb/refs/heads/main/openapi/cfpb-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/cfpb/openapi/cfpb-submissions-api-openapi.yml
 - filename: cfpb-trends-api-openapi.yml
   format: yaml
   label: Consumer Financial Protection Bureau (CFPB) Trends API
   slug: cfpb-trends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfpb/refs/heads/main/openapi/cfpb-trends-api-openapi.yml
+  url: https://artifacts.apis.io/cfpb/openapi/cfpb-trends-api-openapi.yml
 - filename: cfpb-typeahead-api-openapi.yml
   format: yaml
   label: Consumer Financial Protection Bureau (CFPB) Typeahead API
   slug: cfpb-typeahead-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfpb/refs/heads/main/openapi/cfpb-typeahead-api-openapi.yml
+  url: https://artifacts.apis.io/cfpb/openapi/cfpb-typeahead-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -94,7 +94,7 @@ source_filename: cfpb-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cfpb-hmda-filing-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/cfpb-hmda-filing-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cfpb/refs/heads/main/authentication/cfpb-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cfpb/authentication/cfpb-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Consumer Finance

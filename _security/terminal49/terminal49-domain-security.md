@@ -5,43 +5,43 @@ api_specs:
   label: Terminal49 Containers API
   slug: terminal49-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/openapi/terminal49-containers-api-openapi.yml
+  url: https://artifacts.apis.io/terminal49/openapi/terminal49-containers-api-openapi.yml
 - filename: terminal49-shipments-api-openapi.yml
   format: yaml
   label: Terminal49 Shipments API
   slug: terminal49-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/openapi/terminal49-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/terminal49/openapi/terminal49-shipments-api-openapi.yml
 - filename: terminal49-shipping-lines-api-openapi.yml
   format: yaml
   label: Terminal49 Shipping Lines API
   slug: terminal49-shipping-lines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/openapi/terminal49-shipping-lines-api-openapi.yml
+  url: https://artifacts.apis.io/terminal49/openapi/terminal49-shipping-lines-api-openapi.yml
 - filename: terminal49-terminals-api-openapi.yml
   format: yaml
   label: Terminal49 Terminals API
   slug: terminal49-terminals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/openapi/terminal49-terminals-api-openapi.yml
+  url: https://artifacts.apis.io/terminal49/openapi/terminal49-terminals-api-openapi.yml
 - filename: terminal49-tracking-requests-api-openapi.yml
   format: yaml
   label: Terminal49 Tracking Requests API
   slug: terminal49-tracking-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/openapi/terminal49-tracking-requests-api-openapi.yml
+  url: https://artifacts.apis.io/terminal49/openapi/terminal49-tracking-requests-api-openapi.yml
 - filename: terminal49-transport-events-api-openapi.yml
   format: yaml
   label: Terminal49 Transport Events API
   slug: terminal49-transport-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/openapi/terminal49-transport-events-api-openapi.yml
+  url: https://artifacts.apis.io/terminal49/openapi/terminal49-transport-events-api-openapi.yml
 - filename: terminal49-webhooks-api-openapi.yml
   format: yaml
   label: Terminal49 Webhooks API
   slug: terminal49-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/openapi/terminal49-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/terminal49/openapi/terminal49-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -83,7 +83,7 @@ source_filename: terminal49-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.terminal49.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 10:09:56 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: terminal49.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 16:01:10 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.terminal49.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 23:36:30 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: terminal49.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/security/terminal49-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/terminal49/security/terminal49-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Container Tracking

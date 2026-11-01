@@ -7,31 +7,31 @@ api_specs:
   label: Vanderbilt University Broadcasts API
   slug: vanderbilt-broadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vanderbilt/refs/heads/main/openapi/vanderbilt-broadcasts-api-openapi.yml
+  url: https://artifacts.apis.io/vanderbilt/openapi/vanderbilt-broadcasts-api-openapi.yml
 - filename: vanderbilt-metadata-api-openapi.yml
   format: yaml
   label: Vanderbilt University Metadata API
   slug: vanderbilt-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vanderbilt/refs/heads/main/openapi/vanderbilt-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/vanderbilt/openapi/vanderbilt-metadata-api-openapi.yml
 - filename: vanderbilt-search-api-openapi.yml
   format: yaml
   label: Vanderbilt University Search API
   slug: vanderbilt-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vanderbilt/refs/heads/main/openapi/vanderbilt-search-api-openapi.yml
+  url: https://artifacts.apis.io/vanderbilt/openapi/vanderbilt-search-api-openapi.yml
 - filename: vanderbilt-service-api-openapi.yml
   format: yaml
   label: Vanderbilt University Service API
   slug: vanderbilt-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vanderbilt/refs/heads/main/openapi/vanderbilt-service-api-openapi.yml
+  url: https://artifacts.apis.io/vanderbilt/openapi/vanderbilt-service-api-openapi.yml
 - filename: vanderbilt-sparql-api-openapi.yml
   format: yaml
   label: Vanderbilt University SPARQL API
   slug: vanderbilt-sparql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vanderbilt/refs/heads/main/openapi/vanderbilt-sparql-api-openapi.yml
+  url: https://artifacts.apis.io/vanderbilt/openapi/vanderbilt-sparql-api-openapi.yml
 auth_types: []
 description: How authentication works across Vanderbilt's institution-operated programmable surfaces. The distinguishing fact for this institution is that its three public read APIs need no credential at all, while everything that touches a person's account runs through Vanderbilt's federated identity estate.
 kind: authentication
@@ -55,7 +55,7 @@ source_yaml: "---\nname: Vanderbilt University — Authentication\ndescription: 
   \ true\n    scheme: none for anonymous read; SAML/Shibboleth for authenticated actions\n    detail: >-\n      The HAL root, community listing and the OAI-PMH request endpoint are open. Deposit,\n      workflow and administrative operations authenticate through the DSpace Shibboleth SP\n      (entityID https://ir.vanderbilt.edu/shibboleth), which redirects to Vanderbilt's Okta\n      IdP at onevu.vanderbilt.edu.\n    evidence:\n      - { url: 'https://irbe.library.vanderbilt.edu/server/api', status: 200 }\n      - { url: 'https://irbe.library.vanderbilt.edu/Shibboleth.sso/Metadata', status: 200 }\n      - { url: 'https://irbe.library.vanderbilt.edu/Shibboleth.sso/DiscoFeed', status: 200 }\nidentity_providers:\n  - name: Vanderbilt Okta (OneVU)\n    operator: federation\n    host: onevu.vanderbilt.edu\n    platform: Okta (custom domain; CNAME -> vanderbilt.customdomains.okta.com)\n    protocols: [OpenID Connect 1.0, OAuth 2.0, SAML 2.0]\n    discovery: https://onevu.vanderbilt.edu/.well-known/openid-configuration\n\
   \    issuer: https://onevu.vanderbilt.edu\n    authorization_endpoint: https://onevu.vanderbilt.edu/oauth2/v1/authorize\n    token_endpoint: https://onevu.vanderbilt.edu/oauth2/v1/token\n    userinfo_endpoint: https://onevu.vanderbilt.edu/oauth2/v1/userinfo\n    jwks_uri: https://onevu.vanderbilt.edu/oauth2/v1/keys\n    registration_endpoint: https://onevu.vanderbilt.edu/oauth2/v1/clients\n    pkce: [S256]\n    token_endpoint_auth_methods:\n      - client_secret_post\n      - client_secret_basic\n      - private_key_jwt\n      - self_signed_tls_client_auth\n    saml_metadata: https://onevu.vanderbilt.edu/app/exk1wcg5n16M91Uyd1d8/sso/saml/metadata\n    saml_entity_id: http://www.okta.com/exk1wcg5n16M91Uyd1d8\n  - name: Vanderbilt Microsoft Entra ID tenant\n    operator: federation\n    domain: vanderbilt.edu\n    tenant_id: ba5a7f39-e3be-4ab3-b450-67fa80faecad\n    protocols: [OpenID Connect 1.0, OAuth 2.0, SAML 2.0, WS-Federation]\n    discovery: https://login.microsoftonline.com/vanderbilt.edu/v2.0/.well-known/openid-configuration\n\
   \    issuer: https://login.microsoftonline.com/ba5a7f39-e3be-4ab3-b450-67fa80faecad/v2.0\n    saml_metadata: https://login.microsoftonline.com/vanderbilt.edu/federationmetadata/2007-06/federationmetadata.xml\n    saml_entity_id: https://sts.windows.net/ba5a7f39-e3be-4ab3-b450-67fa80faecad/\nnotes:\n  - >-\n    InCommon MDQ (https://mdq.incommon.org/entities/{entityID}) returned 404 for\n    urn:mace:incommon:vanderbilt.edu, https://ir.vanderbilt.edu/shibboleth,\n    http://www.okta.com/exk1wcg5n16M91Uyd1d8 and four guessed IdP entityIDs. No InCommon\n    registration was confirmed, so none is claimed here.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vanderbilt/refs/heads/main/authentication/vanderbilt-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vanderbilt/authentication/vanderbilt-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

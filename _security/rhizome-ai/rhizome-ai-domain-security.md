@@ -5,7 +5,7 @@ api_specs:
   label: Rhizome Ai Documents API
   slug: rhizome-ai-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhizome-ai/refs/heads/main/openapi/rhizome-ai-documents-api-openapi.yml
+  url: https://artifacts.apis.io/rhizome-ai/openapi/rhizome-ai-documents-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -46,7 +46,7 @@ source_filename: rhizome-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: rhizomeai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 06:25:01 2026 GMT\n  hsts: false\n- host: docs.rhizomeai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 12:50:21 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: rhizomeai.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rhizome-ai/refs/heads/main/security/rhizome-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rhizome-ai/security/rhizome-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

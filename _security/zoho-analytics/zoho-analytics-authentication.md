@@ -7,67 +7,67 @@ api_specs:
   label: Zoho Analytics Bulk Export - Asynchronous API
   slug: zoho-analytics-bulk-export-asynchronous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-bulk-export-asynchronous-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-bulk-export-asynchronous-api-openapi.yml
 - filename: zoho-analytics-bulk-export-synchronous-api-openapi.yml
   format: yaml
   label: Zoho Analytics Bulk Export - Synchronous API
   slug: zoho-analytics-bulk-export-synchronous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-bulk-export-synchronous-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-bulk-export-synchronous-api-openapi.yml
 - filename: zoho-analytics-bulk-import-asynchronous-api-openapi.yml
   format: yaml
   label: Zoho Analytics Bulk Import - Asynchronous API
   slug: zoho-analytics-bulk-import-asynchronous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-bulk-import-asynchronous-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-bulk-import-asynchronous-api-openapi.yml
 - filename: zoho-analytics-bulk-import-batch-api-openapi.yml
   format: yaml
   label: Zoho Analytics Bulk Import - Batch API
   slug: zoho-analytics-bulk-import-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-bulk-import-batch-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-bulk-import-batch-api-openapi.yml
 - filename: zoho-analytics-bulk-import-synchronous-api-openapi.yml
   format: yaml
   label: Zoho Analytics Bulk Import - Synchronous API
   slug: zoho-analytics-bulk-import-synchronous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-bulk-import-synchronous-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-bulk-import-synchronous-api-openapi.yml
 - filename: zoho-analytics-data-apis-api-openapi.yml
   format: yaml
   label: Zoho Analytics Data APIs API
   slug: zoho-analytics-data-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-data-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-data-apis-api-openapi.yml
 - filename: zoho-analytics-embed-apis-api-openapi.yml
   format: yaml
   label: Zoho Analytics Embed APIs API
   slug: zoho-analytics-embed-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-embed-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-embed-apis-api-openapi.yml
 - filename: zoho-analytics-metadata-apis-api-openapi.yml
   format: yaml
   label: Zoho Analytics Metadata APIs API
   slug: zoho-analytics-metadata-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-metadata-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-metadata-apis-api-openapi.yml
 - filename: zoho-analytics-modeling-apis-api-openapi.yml
   format: yaml
   label: Zoho Analytics Modeling APIs API
   slug: zoho-analytics-modeling-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-modeling-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-modeling-apis-api-openapi.yml
 - filename: zoho-analytics-sharing-collaboration-apis-api-openapi.yml
   format: yaml
   label: Zoho Analytics Sharing & Collaboration APIs API
   slug: zoho-analytics-sharing-collaboration-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-sharing-collaboration-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-sharing-collaboration-apis-api-openapi.yml
 - filename: zoho-analytics-user-management-apis-api-openapi.yml
   format: yaml
   label: Zoho Analytics User Management APIs API
   slug: zoho-analytics-user-management-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-user-management-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-user-management-apis-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -104,7 +104,7 @@ source_filename: zoho-analytics-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bulk-api.json, openapi/data-api.json, openapi/embed-api.json, openapi/metadata-api.json,\n  openapi/modeling-api.json, openapi/share-api.json, openapi/usermanagement-api.json\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: iam-oauth2-schema\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.zoho.com/oauth/v2/auth\n    tokenUrl: https://accounts.zoho.com/oauth/v2/token\n    scopes: 6\n  sources:\n  - openapi/bulk-api.json\n  - openapi/data-api.json\n  - openapi/embed-api.json\n  - openapi/metadata-api.json\n  - openapi/modeling-api.json\n  - openapi/share-api.json\n  - openapi/usermanagement-api.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/authentication/zoho-analytics-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zoho-analytics/authentication/zoho-analytics-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Business Intelligence

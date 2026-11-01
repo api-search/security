@@ -5,31 +5,31 @@ api_specs:
   label: SMART Health IT Bulk Data API
   slug: smarthealthit-bulk-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthealthit/refs/heads/main/openapi/smarthealthit-bulk-data-api-openapi.yml
+  url: https://artifacts.apis.io/smarthealthit/openapi/smarthealthit-bulk-data-api-openapi.yml
 - filename: smarthealthit-clinical-records-api-openapi.yml
   format: yaml
   label: SMART Health IT Clinical Records API
   slug: smarthealthit-clinical-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthealthit/refs/heads/main/openapi/smarthealthit-clinical-records-api-openapi.yml
+  url: https://artifacts.apis.io/smarthealthit/openapi/smarthealthit-clinical-records-api-openapi.yml
 - filename: smarthealthit-conformance-api-openapi.yml
   format: yaml
   label: SMART Health IT Conformance API
   slug: smarthealthit-conformance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthealthit/refs/heads/main/openapi/smarthealthit-conformance-api-openapi.yml
+  url: https://artifacts.apis.io/smarthealthit/openapi/smarthealthit-conformance-api-openapi.yml
 - filename: smarthealthit-patients-api-openapi.yml
   format: yaml
   label: SMART Health IT Patients API
   slug: smarthealthit-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthealthit/refs/heads/main/openapi/smarthealthit-patients-api-openapi.yml
+  url: https://artifacts.apis.io/smarthealthit/openapi/smarthealthit-patients-api-openapi.yml
 - filename: smarthealthit-smart-app-launch-api-openapi.yml
   format: yaml
   label: SMART Health IT SMART App Launch API
   slug: smarthealthit-smart-app-launch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthealthit/refs/heads/main/openapi/smarthealthit-smart-app-launch-api-openapi.yml
+  url: https://artifacts.apis.io/smarthealthit/openapi/smarthealthit-smart-app-launch-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -68,7 +68,7 @@ source_filename: smarthealthit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: smarthealthit.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 08:44:01 2026 GMT\n  hsts: false\n- host: r4.smarthealthit.org\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 29 16:23:57 2026 GMT\n  hsts: null\n- host: launch.smarthealthit.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 23:24:48 2026 GMT\n  hsts: false\ndomains:\n- domain: smarthealthit.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smarthealthit/refs/heads/main/security/smarthealthit-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/smarthealthit/security/smarthealthit-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - SMART on FHIR

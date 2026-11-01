@@ -7,7 +7,7 @@ api_specs:
   label: Number26 Default API
   slug: number26-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/number26/refs/heads/main/openapi/number26-default-api-openapi.yml
+  url: https://artifacts.apis.io/number26/openapi/number26-default-api-openapi.yml
 auth_types:
 - http
 - mutualTLS
@@ -40,7 +40,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/number26-xs2a-openapi-original.yml\ndocs: https://github.com/n26/psd2-tpp-docs\nsummary:\n  types: [http, mutualTLS]\n  http_schemes: [bearer]\n  notes: >-\n    N26's XS2A (Access to Account) interface follows the Berlin Group NextGenPSD2\n    1.3.6 standard under EU PSD2. Third-party providers (AISP/PISP/CBPII) must\n    present a valid eIDAS QWAC certificate (role-specific for AIS vs PIS) at the\n    TLS layer (mutual TLS), then obtain an OAuth2 bearer access token via the\n    dedicated interface's authorization step before calling the account/consent\n    endpoints. Account-data calls additionally carry a Consent-ID header bound to\n    a previously approved consent.\nschemes:\n  - name: bearerAuth\n    type: http\n    scheme: bearer\n    sources: [openapi/number26-xs2a-openapi-original.yml]\n  - name: eidas-qwac\n    type: mutualTLS\n    description: >-\n      eIDAS QWAC (Qualified Website Authentication Certificate)\
   \ required at the\n      transport layer; role-specific certificates for AIS and PIS, with concurrent\n      certificate support for automatic renewal.\n    sources: [https://github.com/n26/psd2-tpp-docs]\nconsent_binding:\n  header: Consent-ID\n  description: >-\n    Account information endpoints require a Consent-ID header referencing a\n    consent resource created via POST /consents and approved by the PSU.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/number26/refs/heads/main/authentication/number26-xs2a-authentication.yml
+source_yaml_url: https://artifacts.apis.io/number26/authentication/number26-xs2a-authentication.yml
 summary_line: http/mutualTLS · 2 schemes
 tags:
 - Company

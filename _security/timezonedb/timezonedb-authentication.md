@@ -8,13 +8,13 @@ api_specs:
   label: TimezoneDB Conversion API
   slug: timezonedb-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timezonedb/refs/heads/main/openapi/timezonedb-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/timezonedb/openapi/timezonedb-conversion-api-openapi.yml
 - filename: timezonedb-timezones-api-openapi.yml
   format: yaml
   label: TimezoneDB Timezones API
   slug: timezonedb-timezones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timezonedb/refs/heads/main/openapi/timezonedb-timezones-api-openapi.yml
+  url: https://artifacts.apis.io/timezonedb/openapi/timezonedb-timezones-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: timezonedb-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: key\n  description: API key obtained from https://timezonedb.com/register\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/timezonedb/refs/heads/main/authentication/timezonedb-authentication.yml
+source_yaml_url: https://artifacts.apis.io/timezonedb/authentication/timezonedb-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Timezone

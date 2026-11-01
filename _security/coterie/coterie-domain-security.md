@@ -5,37 +5,37 @@ api_specs:
   label: Coterie Insurance Applications API
   slug: coterie-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/openapi/coterie-applications-api-openapi.yml
+  url: https://artifacts.apis.io/coterie/openapi/coterie-applications-api-openapi.yml
 - filename: coterie-documents-api-openapi.yml
   format: yaml
   label: Coterie Insurance Documents API
   slug: coterie-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/openapi/coterie-documents-api-openapi.yml
+  url: https://artifacts.apis.io/coterie/openapi/coterie-documents-api-openapi.yml
 - filename: coterie-industry-api-openapi.yml
   format: yaml
   label: Coterie Insurance Industry API
   slug: coterie-industry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/openapi/coterie-industry-api-openapi.yml
+  url: https://artifacts.apis.io/coterie/openapi/coterie-industry-api-openapi.yml
 - filename: coterie-policies-api-openapi.yml
   format: yaml
   label: Coterie Insurance Policies API
   slug: coterie-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/openapi/coterie-policies-api-openapi.yml
+  url: https://artifacts.apis.io/coterie/openapi/coterie-policies-api-openapi.yml
 - filename: coterie-quotes-api-openapi.yml
   format: yaml
   label: Coterie Insurance Quotes API
   slug: coterie-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/openapi/coterie-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/coterie/openapi/coterie-quotes-api-openapi.yml
 - filename: coterie-webhooks-api-openapi.yml
   format: yaml
   label: Coterie Insurance Webhooks API
   slug: coterie-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/openapi/coterie-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/coterie/openapi/coterie-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -74,7 +74,7 @@ source_filename: coterie-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: coterieinsurance.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 17:26:19 2026 GMT\n  hsts: false\n- host: docs.coterieinsurance.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 07:43:19 2026 GMT\n  hsts: null\n- host: api.coterieinsurance.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: coterieinsurance.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/security/coterie-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/coterie/security/coterie-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Insurance

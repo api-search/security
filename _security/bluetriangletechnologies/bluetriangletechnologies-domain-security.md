@@ -5,25 +5,25 @@ api_specs:
   label: Bluetriangletechnologies Content Security Policies API
   slug: bluetriangletechnologies-content-security-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluetriangletechnologies/refs/heads/main/openapi/bluetriangletechnologies-content-security-policies-api-openapi.yml
+  url: https://artifacts.apis.io/bluetriangletechnologies/openapi/bluetriangletechnologies-content-security-policies-api-openapi.yml
 - filename: bluetriangletechnologies-event-markers-api-openapi.yml
   format: yaml
   label: Bluetriangletechnologies Event Markers API
   slug: bluetriangletechnologies-event-markers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluetriangletechnologies/refs/heads/main/openapi/bluetriangletechnologies-event-markers-api-openapi.yml
+  url: https://artifacts.apis.io/bluetriangletechnologies/openapi/bluetriangletechnologies-event-markers-api-openapi.yml
 - filename: bluetriangletechnologies-performance-api-openapi.yml
   format: yaml
   label: Bluetriangletechnologies Performance API
   slug: bluetriangletechnologies-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluetriangletechnologies/refs/heads/main/openapi/bluetriangletechnologies-performance-api-openapi.yml
+  url: https://artifacts.apis.io/bluetriangletechnologies/openapi/bluetriangletechnologies-performance-api-openapi.yml
 - filename: bluetriangletechnologies-resource-api-openapi.yml
   format: yaml
   label: Bluetriangletechnologies Resource API
   slug: bluetriangletechnologies-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluetriangletechnologies/refs/heads/main/openapi/bluetriangletechnologies-resource-api-openapi.yml
+  url: https://artifacts.apis.io/bluetriangletechnologies/openapi/bluetriangletechnologies-resource-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: bluetriangletechnologies-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bluetriangle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 02:02:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: bluetriangle.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bluetriangletechnologies/refs/heads/main/security/bluetriangletechnologies-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bluetriangletechnologies/security/bluetriangletechnologies-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

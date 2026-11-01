@@ -5,49 +5,49 @@ api_specs:
   label: Quix Streaming Reader API (Real-time)
   slug: streaming-reader-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/asyncapi/quix-asyncapi.yml
+  url: https://artifacts.apis.io/quix/asyncapi/quix-asyncapi.yml
 - filename: quix-definitions-api-openapi.yml
   format: yaml
   label: Quix Definitions API
   slug: quix-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/openapi/quix-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/quix/openapi/quix-definitions-api-openapi.yml
 - filename: quix-deployments-api-openapi.yml
   format: yaml
   label: Quix Deployments API
   slug: quix-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/openapi/quix-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/quix/openapi/quix-deployments-api-openapi.yml
 - filename: quix-event-data-api-openapi.yml
   format: yaml
   label: Quix Event Data API
   slug: quix-event-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/openapi/quix-event-data-api-openapi.yml
+  url: https://artifacts.apis.io/quix/openapi/quix-event-data-api-openapi.yml
 - filename: quix-parameter-data-api-openapi.yml
   format: yaml
   label: Quix Parameter Data API
   slug: quix-parameter-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/openapi/quix-parameter-data-api-openapi.yml
+  url: https://artifacts.apis.io/quix/openapi/quix-parameter-data-api-openapi.yml
 - filename: quix-streams-api-openapi.yml
   format: yaml
   label: Quix Streams API
   slug: quix-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/openapi/quix-streams-api-openapi.yml
+  url: https://artifacts.apis.io/quix/openapi/quix-streams-api-openapi.yml
 - filename: quix-topics-api-openapi.yml
   format: yaml
   label: Quix Topics API
   slug: quix-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/openapi/quix-topics-api-openapi.yml
+  url: https://artifacts.apis.io/quix/openapi/quix-topics-api-openapi.yml
 - filename: quix-workspaces-api-openapi.yml
   format: yaml
   label: Quix Workspaces API
   slug: quix-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/openapi/quix-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/quix/openapi/quix-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -78,7 +78,7 @@ source_filename: quix-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: quix.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 23:59:59 2026 GMT\n  hsts: false\n- host: portal-api.platform.quix.io\n  https: false\ndomains:\n- domain: quix.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/security/quix-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/quix/security/quix-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Stream Processing

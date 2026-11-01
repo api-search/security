@@ -8,31 +8,31 @@ api_specs:
   label: Notyfi Account API
   slug: notyfi-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/openapi/notyfi-account-api-openapi.yml
+  url: https://artifacts.apis.io/notyfi/openapi/notyfi-account-api-openapi.yml
 - filename: notyfi-billing-api-openapi.yml
   format: yaml
   label: Notyfi Billing API
   slug: notyfi-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/openapi/notyfi-billing-api-openapi.yml
+  url: https://artifacts.apis.io/notyfi/openapi/notyfi-billing-api-openapi.yml
 - filename: notyfi-keys-api-openapi.yml
   format: yaml
   label: Notyfi Keys API
   slug: notyfi-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/openapi/notyfi-keys-api-openapi.yml
+  url: https://artifacts.apis.io/notyfi/openapi/notyfi-keys-api-openapi.yml
 - filename: notyfi-trackers-api-openapi.yml
   format: yaml
   label: Notyfi Trackers API
   slug: notyfi-trackers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/openapi/notyfi-trackers-api-openapi.yml
+  url: https://artifacts.apis.io/notyfi/openapi/notyfi-trackers-api-openapi.yml
 - filename: notyfi-webhooks-api-openapi.yml
   format: yaml
   label: Notyfi Webhooks API
   slug: notyfi-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/openapi/notyfi-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/notyfi/openapi/notyfi-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -67,7 +67,7 @@ source_filename: notyfi-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/notyfi-openapi-original.json\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Notyfi API key: `Authorization: Bearer notyfi_mk_...`'\n  sources:\n  - openapi/notyfi-openapi-original.json\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-Api-Key\n  description: Notyfi API key as X-Api-Key.\n  sources:\n  - openapi/notyfi-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/authentication/notyfi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/notyfi/authentication/notyfi-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

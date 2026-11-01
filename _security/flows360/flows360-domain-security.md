@@ -1,23 +1,29 @@
 ---
 api_specs:
+- filename: flows360-openapi-generated.yml
+  format: yaml
+  label: Flows360 API
+  slug: flows360-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/flows360/openapi/_ae-authored/flows360-openapi-generated.yml
 - filename: flows360-purchase-orders-api-openapi.yml
   format: yaml
   label: Flows360 Purchase Orders API
   slug: flows360-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flows360/refs/heads/main/openapi/flows360-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/flows360/openapi/flows360-purchase-orders-api-openapi.yml
 - filename: flows360-session-api-openapi.yml
   format: yaml
   label: Flows360 Session API
   slug: flows360-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flows360/refs/heads/main/openapi/flows360-session-api-openapi.yml
+  url: https://artifacts.apis.io/flows360/openapi/flows360-session-api-openapi.yml
 - filename: flows360-suppliers-api-openapi.yml
   format: yaml
   label: Flows360 Suppliers API
   slug: flows360-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flows360/refs/heads/main/openapi/flows360-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/flows360/openapi/flows360-suppliers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +52,7 @@ source_filename: flows360-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-16'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: flows360.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 26 14:34:53 2026 GMT\n  hsts: false\ndomains:\n- domain: flows360.co\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flows360/refs/heads/main/security/flows360-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/flows360/security/flows360-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

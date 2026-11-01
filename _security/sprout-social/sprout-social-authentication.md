@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://api.spr
   \ https://identity.sproutsocial.com/oauth2/84e39c75-d770-45d9-90a9-7b79e3037d2c\n  openid_configuration_url: https://identity.sproutsocial.com/oauth2/84e39c75-d770-45d9-90a9-7b79e3037d2c/.well-known/openid-configuration\n  userinfo_endpoint: https://identity.sproutsocial.com/oauth2/84e39c75-d770-45d9-90a9-7b79e3037d2c/v1/userinfo\n  jwks_uri: https://identity.sproutsocial.com/oauth2/84e39c75-d770-45d9-90a9-7b79e3037d2c/v1/jwks\n  id_token_signing_alg_values:\n  - RS256\n  - ES512\n  claims:\n  - sub\n  - aud\n  - email\n  - exp\n  - family_name\n  - given_name\n  - iat\n  - iss\n  - sid\n  - client_id\n  - oid\n  - iid\n  - actor\n  source: well-known/sprout-social-openid-configuration.json\n\nauthorization_server:\n  issuer: https://identity.sproutsocial.com/oauth2/84e39c75-d770-45d9-90a9-7b79e3037d2c\n  metadata_url: https://identity.sproutsocial.com/oauth2/84e39c75-d770-45d9-90a9-7b79e3037d2c/.well-known/oauth-authorization-server\n  grant_types_supported:\n  - authorization_code\n\
   \  - refresh_token\n  - client_credentials\n  response_types_supported:\n  - code\n  response_modes_supported:\n  - query\n  - form_post\n  code_challenge_methods_supported:\n  - S256\n  introspection_endpoint: https://identity.sproutsocial.com/oauth2/84e39c75-d770-45d9-90a9-7b79e3037d2c/v1/introspect\n  revocation_endpoint: https://identity.sproutsocial.com/oauth2/84e39c75-d770-45d9-90a9-7b79e3037d2c/v1/revoke\n  file: well-known/sprout-social-oauth-authorization-server.json\n\naccess_requirements:\n  plan: Advanced or higher (or Enterprise)\n  plan_source: https://sproutsocial.com/pricing/\n  additional_agreement: >-\n    Access to X (Twitter) data through the Sprout API additionally requires a Sprout\n    user with the API Permissions permission to accept the Sprout API X Content End\n    User License Agreement, presented at the top of the API page under Global Features\n    in Settings.\n  terms: https://sproutsocial.com/legal/api-terms-of-service/\n\nrequest_headers:\n- header: Authorization\n\
   \  value: Bearer <OAuth access token OR API token>\n  required: true\n- header: Accept\n  value: application/json\n  required: true\n- header: Content-Type\n  value: application/json\n  required: true\n\nnotes:\n- The Authorization header accepts both account-scoped API tokens and OAuth access\n  tokens interchangeably; the API does not distinguish them at the header level.\n- No mutual TLS, no request signing, and no HTTP Basic authentication is documented\n  for the data API itself. Basic auth appears only as a token-endpoint client\n  authentication method on the authorization server.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sprout-social/refs/heads/main/authentication/sprout-social-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sprout-social/authentication/sprout-social-authentication.yml
 summary_line: http/oauth2/openIdConnect · 4 schemes
 tags:
 - Social Media
@@ -93,5 +93,5 @@ tags:
 - Analytics
 - Reporting
 - Messaging
-- Listening
+- Social Listening
 ---

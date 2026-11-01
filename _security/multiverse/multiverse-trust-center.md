@@ -14,7 +14,7 @@ source_filename: multiverse-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nprobe: true\nsource: https://trust.multiverse.io/\nurl: https://trust.multiverse.io/\nevidence:\n- source: https://trust.multiverse.io/\n  keywords:\n  - trust center\n  - trust centre\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/multiverse/refs/heads/main/security/multiverse-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/multiverse/security/multiverse-trust-center.yml
 summary_line: trust center published
 tags:
 - Company

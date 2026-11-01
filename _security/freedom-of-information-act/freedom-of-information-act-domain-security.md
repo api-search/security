@@ -5,19 +5,19 @@ api_specs:
   label: Freedom of Information Act Agency Components API
   slug: freedom-of-information-act-agency-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freedom-of-information-act/refs/heads/main/openapi/freedom-of-information-act-agency-components-api-openapi.yml
+  url: https://artifacts.apis.io/freedom-of-information-act/openapi/freedom-of-information-act-agency-components-api-openapi.yml
 - filename: freedom-of-information-act-agency-submission-api-openapi.yml
   format: yaml
   label: Freedom of Information Act Agency Submission API
   slug: freedom-of-information-act-agency-submission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freedom-of-information-act/refs/heads/main/openapi/freedom-of-information-act-agency-submission-api-openapi.yml
+  url: https://artifacts.apis.io/freedom-of-information-act/openapi/freedom-of-information-act-agency-submission-api-openapi.yml
 - filename: freedom-of-information-act-annual-reports-api-openapi.yml
   format: yaml
   label: Freedom of Information Act Annual Reports API
   slug: freedom-of-information-act-annual-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freedom-of-information-act/refs/heads/main/openapi/freedom-of-information-act-annual-reports-api-openapi.yml
+  url: https://artifacts.apis.io/freedom-of-information-act/openapi/freedom-of-information-act-annual-reports-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: freedom-of-information-act-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.foia.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.foia.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 13:20:52 2026 GMT\n  hsts: null\ndomains:\n- domain: foia.gov\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freedom-of-information-act/refs/heads/main/security/freedom-of-information-act-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/freedom-of-information-act/security/freedom-of-information-act-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Federal Government

@@ -7,25 +7,25 @@ api_specs:
   label: Google Cloud Chronicle Alerts API
   slug: google-cloud-chronicle-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-chronicle/refs/heads/main/openapi/google-cloud-chronicle-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-chronicle/openapi/google-cloud-chronicle-alerts-api-openapi.yml
 - filename: google-cloud-chronicle-feeds-api-openapi.yml
   format: yaml
   label: Google Cloud Chronicle Feeds API
   slug: google-cloud-chronicle-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-chronicle/refs/heads/main/openapi/google-cloud-chronicle-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-chronicle/openapi/google-cloud-chronicle-feeds-api-openapi.yml
 - filename: google-cloud-chronicle-referencelists-api-openapi.yml
   format: yaml
   label: Google Cloud Chronicle ReferenceLists API
   slug: google-cloud-chronicle-referencelists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-chronicle/refs/heads/main/openapi/google-cloud-chronicle-referencelists-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-chronicle/openapi/google-cloud-chronicle-referencelists-api-openapi.yml
 - filename: google-cloud-chronicle-rules-api-openapi.yml
   format: yaml
   label: Google Cloud Chronicle Rules API
   slug: google-cloud-chronicle-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-chronicle/refs/heads/main/openapi/google-cloud-chronicle-rules-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-chronicle/openapi/google-cloud-chronicle-rules-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -56,7 +56,7 @@ source_filename: google-cloud-chronicle-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/chronicle-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 1\n  sources:\n  - openapi/chronicle-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-chronicle/refs/heads/main/authentication/google-cloud-chronicle-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-chronicle/authentication/google-cloud-chronicle-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Incident Response

@@ -7,7 +7,7 @@ api_specs:
   label: FASHN AI Predictions API
   slug: fashn-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fashn/refs/heads/main/openapi/fashn-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/fashn/openapi/fashn-predictions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -34,7 +34,7 @@ source_filename: fashn-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fashn-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: API Key\n  sources:\n  - openapi/fashn-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fashn/refs/heads/main/authentication/fashn-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fashn/authentication/fashn-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

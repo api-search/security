@@ -5,37 +5,37 @@ api_specs:
   label: Open States Bills API
   slug: openstates-bills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstates/refs/heads/main/openapi/openstates-bills-api-openapi.yml
+  url: https://artifacts.apis.io/openstates/openapi/openstates-bills-api-openapi.yml
 - filename: openstates-committees-api-openapi.yml
   format: yaml
   label: Open States Committees API
   slug: openstates-committees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstates/refs/heads/main/openapi/openstates-committees-api-openapi.yml
+  url: https://artifacts.apis.io/openstates/openapi/openstates-committees-api-openapi.yml
 - filename: openstates-events-api-openapi.yml
   format: yaml
   label: Open States Events API
   slug: openstates-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstates/refs/heads/main/openapi/openstates-events-api-openapi.yml
+  url: https://artifacts.apis.io/openstates/openapi/openstates-events-api-openapi.yml
 - filename: openstates-jurisdictions-api-openapi.yml
   format: yaml
   label: Open States Jurisdictions API
   slug: openstates-jurisdictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstates/refs/heads/main/openapi/openstates-jurisdictions-api-openapi.yml
+  url: https://artifacts.apis.io/openstates/openapi/openstates-jurisdictions-api-openapi.yml
 - filename: openstates-metrics-api-openapi.yml
   format: yaml
   label: Open States Metrics API
   slug: openstates-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstates/refs/heads/main/openapi/openstates-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/openstates/openapi/openstates-metrics-api-openapi.yml
 - filename: openstates-people-api-openapi.yml
   format: yaml
   label: Open States People API
   slug: openstates-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstates/refs/heads/main/openapi/openstates-people-api-openapi.yml
+  url: https://artifacts.apis.io/openstates/openapi/openstates-people-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,11 +81,11 @@ source_filename: openstates-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pluralpolicy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 01:34:40 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.openstates.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 17:45:48 2026 GMT\n  hsts: false\n- host: v3.openstates.org\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 11 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: pluralpolicy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: openstates.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openstates/refs/heads/main/security/openstates-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/openstates/security/openstates-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Government
-- Legislative Data
+- Legislative
 - Civic Technology
 - State Legislature
 - Bills

@@ -5,37 +5,37 @@ api_specs:
   label: Shovels Addresses API
   slug: shovels-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shovels/refs/heads/main/openapi/shovels-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/shovels/openapi/shovels-addresses-api-openapi.yml
 - filename: shovels-contractors-api-openapi.yml
   format: yaml
   label: Shovels Contractors API
   slug: shovels-contractors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shovels/refs/heads/main/openapi/shovels-contractors-api-openapi.yml
+  url: https://artifacts.apis.io/shovels/openapi/shovels-contractors-api-openapi.yml
 - filename: shovels-geography-api-openapi.yml
   format: yaml
   label: Shovels Geography API
   slug: shovels-geography-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shovels/refs/heads/main/openapi/shovels-geography-api-openapi.yml
+  url: https://artifacts.apis.io/shovels/openapi/shovels-geography-api-openapi.yml
 - filename: shovels-lists-api-openapi.yml
   format: yaml
   label: Shovels Lists API
   slug: shovels-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shovels/refs/heads/main/openapi/shovels-lists-api-openapi.yml
+  url: https://artifacts.apis.io/shovels/openapi/shovels-lists-api-openapi.yml
 - filename: shovels-meta-api-openapi.yml
   format: yaml
   label: Shovels Meta API
   slug: shovels-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shovels/refs/heads/main/openapi/shovels-meta-api-openapi.yml
+  url: https://artifacts.apis.io/shovels/openapi/shovels-meta-api-openapi.yml
 - filename: shovels-permits-api-openapi.yml
   format: yaml
   label: Shovels Permits API
   slug: shovels-permits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shovels/refs/heads/main/openapi/shovels-permits-api-openapi.yml
+  url: https://artifacts.apis.io/shovels/openapi/shovels-permits-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2
@@ -52,7 +52,7 @@ source_filename: shovels-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.shovels.ai/\nurl: https://trust.shovels.ai/\ncertifications:\n- SOC 2\nevidence:\n- source: https://trust.shovels.ai/\n  keywords:\n  - soc 2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shovels/refs/heads/main/security/shovels-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/shovels/security/shovels-trust-center.yml
 summary_line: SOC 2
 tags:
 - Construction

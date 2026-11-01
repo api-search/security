@@ -8,31 +8,31 @@ api_specs:
   label: CharitySense Assistant API
   slug: charitysense-com-assistant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charitysense-com/refs/heads/main/openapi/charitysense-com-assistant-api-openapi.yml
+  url: https://artifacts.apis.io/charitysense-com/openapi/charitysense-com-assistant-api-openapi.yml
 - filename: charitysense-com-dataset-api-openapi.yml
   format: yaml
   label: CharitySense Dataset API
   slug: charitysense-com-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charitysense-com/refs/heads/main/openapi/charitysense-com-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/charitysense-com/openapi/charitysense-com-dataset-api-openapi.yml
 - filename: charitysense-com-discovery-api-openapi.yml
   format: yaml
   label: CharitySense Discovery API
   slug: charitysense-com-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charitysense-com/refs/heads/main/openapi/charitysense-com-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/charitysense-com/openapi/charitysense-com-discovery-api-openapi.yml
 - filename: charitysense-com-profiles-api-openapi.yml
   format: yaml
   label: CharitySense Profiles API
   slug: charitysense-com-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charitysense-com/refs/heads/main/openapi/charitysense-com-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/charitysense-com/openapi/charitysense-com-profiles-api-openapi.yml
 - filename: charitysense-com-usage-api-openapi.yml
   format: yaml
   label: CharitySense Usage API
   slug: charitysense-com-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charitysense-com/refs/heads/main/openapi/charitysense-com-usage-api-openapi.yml
+  url: https://artifacts.apis.io/charitysense-com/openapi/charitysense-com-usage-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -65,7 +65,7 @@ source_filename: charitysense-com-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: derived\nsource: openapi/charitysense-com-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/charitysense-com-openapi.yml\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-CharitySense-API-Key\n  sources:\n  - openapi/charitysense-com-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/charitysense-com/refs/heads/main/authentication/charitysense-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/charitysense-com/authentication/charitysense-com-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Non-Profit

@@ -5,37 +5,37 @@ api_specs:
   label: Devialet Audio Settings API
   slug: devialet-audio-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/openapi/devialet-audio-settings-api-openapi.yml
+  url: https://artifacts.apis.io/devialet/openapi/devialet-audio-settings-api-openapi.yml
 - filename: devialet-devices-api-openapi.yml
   format: yaml
   label: Devialet Devices API
   slug: devialet-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/openapi/devialet-devices-api-openapi.yml
+  url: https://artifacts.apis.io/devialet/openapi/devialet-devices-api-openapi.yml
 - filename: devialet-groups-api-openapi.yml
   format: yaml
   label: Devialet Groups API
   slug: devialet-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/openapi/devialet-groups-api-openapi.yml
+  url: https://artifacts.apis.io/devialet/openapi/devialet-groups-api-openapi.yml
 - filename: devialet-playback-api-openapi.yml
   format: yaml
   label: Devialet Playback API
   slug: devialet-playback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/openapi/devialet-playback-api-openapi.yml
+  url: https://artifacts.apis.io/devialet/openapi/devialet-playback-api-openapi.yml
 - filename: devialet-sound-control-api-openapi.yml
   format: yaml
   label: Devialet Sound Control API
   slug: devialet-sound-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/openapi/devialet-sound-control-api-openapi.yml
+  url: https://artifacts.apis.io/devialet/openapi/devialet-sound-control-api-openapi.yml
 - filename: devialet-systems-api-openapi.yml
   format: yaml
   label: Devialet Systems API
   slug: devialet-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/openapi/devialet-systems-api-openapi.yml
+  url: https://artifacts.apis.io/devialet/openapi/devialet-systems-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +71,7 @@ source_filename: devialet-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.devialet.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 11:47:14 2026 GMT\n  hsts: null\n- host: help.devialet.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 23:39:06 2026 GMT\n  hsts: null\n- host: 192.168.1.20\n  https: false\ndomains:\n- domain: devialet.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/security/devialet-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/devialet/security/devialet-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Audio

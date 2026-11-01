@@ -8,13 +8,13 @@ api_specs:
   label: Sophos Alerts API
   slug: sophos-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sophos/refs/heads/main/openapi/sophos-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/sophos/openapi/sophos-alerts-api-openapi.yml
 - filename: sophos-events-api-openapi.yml
   format: yaml
   label: Sophos Events API
   slug: sophos-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sophos/refs/heads/main/openapi/sophos-events-api-openapi.yml
+  url: https://artifacts.apis.io/sophos/openapi/sophos-events-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -47,7 +47,7 @@ source_filename: sophos-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sophos-central-siem-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/sophos-central-siem-openapi.yml\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/sophos-central-siem-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sophos/refs/heads/main/authentication/sophos-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sophos/authentication/sophos-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Cybersecurity

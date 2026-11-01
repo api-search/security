@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: datamuse-suggestions-api-openapi.yml
-  format: yaml
-  label: Datamuse Suggestions API
-  slug: datamuse-suggestions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datamuse/refs/heads/main/openapi/datamuse-suggestions-api-openapi.yml
 - filename: datamuse-words-api-openapi.yml
   format: yaml
   label: Datamuse Words API
   slug: datamuse-words-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datamuse/refs/heads/main/openapi/datamuse-words-api-openapi.yml
+  url: https://artifacts.apis.io/datamuse/openapi/datamuse-words-api-openapi.yml
+- filename: datamuse-pets-api-openapi.yml
+  format: yaml
+  label: Datamuse Pets API
+  slug: datamuse-pets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/datamuse/openapi/datamuse-pets-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: datamuse-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.datamuse.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 11 23:59:59 2026 GMT\n  hsts: false\n- host: api.datamuse.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: datamuse.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datamuse/refs/heads/main/security/datamuse-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/datamuse/security/datamuse-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Word Finding

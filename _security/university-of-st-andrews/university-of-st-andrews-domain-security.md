@@ -40,7 +40,7 @@ source_filename: university-of-st-andrews-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.st-andrews.ac.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 23:16:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: status.st-andrews.ac.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 16:18:02 2026 GMT\n  hsts: true\n  hsts_max_age: 0\n- host: research-portal.st-andrews.ac.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 15:28:29 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\ndomains:\n- domain: st-andrews.ac.uk\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-st-andrews/refs/heads/main/security/university-of-st-andrews-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/university-of-st-andrews/security/university-of-st-andrews-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Education

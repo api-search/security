@@ -8,37 +8,37 @@ api_specs:
   label: WebCrawlerAPI Agent API
   slug: webcrawlerapi-com-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webcrawlerapi-com/refs/heads/main/openapi/webcrawlerapi-com-agent-api-openapi.yml
+  url: https://artifacts.apis.io/webcrawlerapi-com/openapi/webcrawlerapi-com-agent-api-openapi.yml
 - filename: webcrawlerapi-com-feeds-api-openapi.yml
   format: yaml
   label: WebCrawlerAPI Feeds API
   slug: webcrawlerapi-com-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webcrawlerapi-com/refs/heads/main/openapi/webcrawlerapi-com-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/webcrawlerapi-com/openapi/webcrawlerapi-com-feeds-api-openapi.yml
 - filename: webcrawlerapi-com-jobs-api-openapi.yml
   format: yaml
   label: WebCrawlerAPI Jobs API
   slug: webcrawlerapi-com-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webcrawlerapi-com/refs/heads/main/openapi/webcrawlerapi-com-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/webcrawlerapi-com/openapi/webcrawlerapi-com-jobs-api-openapi.yml
 - filename: webcrawlerapi-com-organization-api-openapi.yml
   format: yaml
   label: WebCrawlerAPI Organization API
   slug: webcrawlerapi-com-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webcrawlerapi-com/refs/heads/main/openapi/webcrawlerapi-com-organization-api-openapi.yml
+  url: https://artifacts.apis.io/webcrawlerapi-com/openapi/webcrawlerapi-com-organization-api-openapi.yml
 - filename: webcrawlerapi-com-status-api-openapi.yml
   format: yaml
   label: WebCrawlerAPI Status API
   slug: webcrawlerapi-com-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webcrawlerapi-com/refs/heads/main/openapi/webcrawlerapi-com-status-api-openapi.yml
+  url: https://artifacts.apis.io/webcrawlerapi-com/openapi/webcrawlerapi-com-status-api-openapi.yml
 - filename: webcrawlerapi-com-v2-scraping-api-openapi.yml
   format: yaml
   label: WebCrawlerAPI V2 Scraping API
   slug: webcrawlerapi-com-v2-scraping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webcrawlerapi-com/refs/heads/main/openapi/webcrawlerapi-com-v2-scraping-api-openapi.yml
+  url: https://artifacts.apis.io/webcrawlerapi-com/openapi/webcrawlerapi-com-v2-scraping-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -92,7 +92,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://webcrawlerapi.com/docs/access-key + openapi/_original/webcrawlerapi-com-swagger.json (securityDefinitions.ApiKeyAuth)\n  + live unauthenticated 401 from api.webcrawlerapi.com observed 2026-09-19 + changelog 2026-03-29 (multiple API\n  keys)\ndocs: https://webcrawlerapi.com/docs/access-key\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  style: Bearer token carrying a static API key\n  oauth2: false\n  openid_connect: false\n  mutual_tls: false\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  format: Bearer {api_key}\n  description: 'Docs: \"Webcrawler API uses Bearer Token authentication scheme. You need to include the API key in\n    the Authorization header\" - Authorization: Bearer <API key>. The Swagger document models this as an apiKey scheme\n    named Authorization with description \"API key for authentication. Format: Bearer {api_key}\" rather than as http/bearer;\n\
   \    the wire format is identical. Applied per operation on 23 of 24 operations; GET /ping is anonymous.'\n  obtain: Sign up at https://dash.webcrawlerapi.com/sign-up (no credit card), then copy a key from https://dash.webcrawlerapi.com/access.\n  key_management:\n    keys_per_organization: 20\n    named_keys: true\n    default_key: true\n    individual_revocation: true\n    regenerate: at any time from the dashboard\n    source: https://webcrawlerapi.com/changelog/2026-03-29-multiple-api-keys\n  admin_key:\n    required_for:\n    - GET /v2/organization/usage\n    source: https://webcrawlerapi.com/docs/api/organization/usage\n    note: The usage endpoint docs call for an \"admin API key\"; the spec declares the same ApiKeyAuth scheme with\n      no scope distinction.\n  failure:\n    status: 401\n    body: '{\"error\":\"Unauthorized\",\"message\":\"No Authorization header. Read the docs: https://webcrawlerapi.com/docs/access-key\"}'\n    observed: 2026-09-19 on POST /v1/crawl without a\
   \ header\n    docs_example: '{\"error\": \"Unauthorized\"}'\n  sdk_env_vars:\n    mcp_server: WEBCRAWLER_API_KEY\n    claude_code_skill: WEBCRAWLERAPI_API_KEY\n    cli: stored via `webcr auth set`\n  sources:\n  - https://webcrawlerapi.com/docs/access-key\n  - openapi/webcrawlerapi-com-openapi.yml\nscopes: null\nscopes_note: No OAuth, no scopes; the only privilege distinction documented is the admin key for usage statistics.\nguidance: Keep the key server-side (docs warn against client-side code and public repos). Content URLs on data.webcrawlerapi.com\n  returned inside job items are fetched WITHOUT the key.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/webcrawlerapi-com/refs/heads/main/authentication/webcrawlerapi-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/webcrawlerapi-com/authentication/webcrawlerapi-com-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Web Scraping

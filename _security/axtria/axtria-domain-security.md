@@ -43,7 +43,7 @@ source_filename: axtria-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-31'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.axtria.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  7 10:24:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.axtria.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 04:25:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  note: 'product documentation host; HTTP Basic auth gated (401, WWW-Authenticate:\n    Basic realm=\"docs.axtria.com\")'\n- host: insights.axtria.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 11 11:02:44 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  note: HubSpot-hosted content/asset host (hubfs) used for the blog and resource library\ndomains:\n- domain: axtria.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/axtria/refs/heads/main/security/axtria-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/axtria/security/axtria-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

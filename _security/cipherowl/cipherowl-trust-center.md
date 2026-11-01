@@ -5,19 +5,19 @@ api_specs:
   label: CipherOwl Onchain Service API
   slug: cipherowl-onchain-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/openapi/cipherowl-onchain-service-api-openapi.yml
+  url: https://artifacts.apis.io/cipherowl/openapi/cipherowl-onchain-service-api-openapi.yml
 - filename: cipherowl-private-data-api-api-openapi.yml
   format: yaml
   label: CipherOwl Private Data API
   slug: cipherowl-private-data-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/openapi/cipherowl-private-data-api-api-openapi.yml
+  url: https://artifacts.apis.io/cipherowl/openapi/cipherowl-private-data-api-api-openapi.yml
 - filename: cipherowl-srr-api-api-openapi.yml
   format: yaml
   label: CipherOwl SRR API
   slug: cipherowl-srr-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/openapi/cipherowl-srr-api-api-openapi.yml
+  url: https://artifacts.apis.io/cipherowl/openapi/cipherowl-srr-api-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2 Type II
@@ -34,7 +34,7 @@ source_filename: cipherowl-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://cipherowl.com/trust\nurl: https://cipherowl.com/trust\ntrust_report: https://app.vanta.com/cipherowl.com/trust/ua1li0yqp3zk221yfd1c8u\ncertifications:\n- SOC 2 Type II\nmemberships:\n- Internet Watch Foundation (IWF)\nin_progress:\n- ISO 27001\npractices:\n  encryption: AES-256 at rest, TLS 1.3 in transit; role-based key management with\n    automatic rotation.\n  architecture: Zero-trust design with tenant isolation and API access controls.\n  infrastructure: Cloud providers holding SOC 2 / SOC 3 / ISO 27001; on-premises\n    deployment available.\n  monitoring: Continuous monitoring with automated anomaly detection and third-party\n    penetration testing.\nevidence:\n- source: https://cipherowl.com/trust\n  keywords: [soc 2 type ii, iso 27001, iwf, tls 1.3, zero-trust, vanta trust report]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/security/cipherowl-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/cipherowl/security/cipherowl-trust-center.yml
 summary_line: SOC 2 Type II
 tags:
 - Blockchain

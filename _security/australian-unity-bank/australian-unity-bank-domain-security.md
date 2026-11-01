@@ -5,43 +5,43 @@ api_specs:
   label: Australian Unity Bank Banking Account Balances API
   slug: australian-unity-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/australian-unity-bank/openapi/australian-unity-bank-banking-account-balances-api-openapi.yml
 - filename: australian-unity-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Australian Unity Bank Banking Account Direct Debits API
   slug: australian-unity-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/australian-unity-bank/openapi/australian-unity-bank-banking-account-direct-debits-api-openapi.yml
 - filename: australian-unity-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Australian Unity Bank Banking Account Scheduled Payments API
   slug: australian-unity-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/australian-unity-bank/openapi/australian-unity-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: australian-unity-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Australian Unity Bank Banking Account Transactions API
   slug: australian-unity-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/australian-unity-bank/openapi/australian-unity-bank-banking-account-transactions-api-openapi.yml
 - filename: australian-unity-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Australian Unity Bank Banking Accounts API
   slug: australian-unity-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/australian-unity-bank/openapi/australian-unity-bank-banking-accounts-api-openapi.yml
 - filename: australian-unity-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Australian Unity Bank Banking Payees API
   slug: australian-unity-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/australian-unity-bank/openapi/australian-unity-bank-banking-payees-api-openapi.yml
 - filename: australian-unity-bank-banking-products-api-openapi.yml
   format: yaml
   label: Australian Unity Bank Banking Products API
   slug: australian-unity-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/australian-unity-bank/openapi/australian-unity-bank-banking-products-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: australian-unity-bank-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.australianunity.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 19 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: open-banking.australianunity.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 11 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: australianunity.com.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/security/australian-unity-bank-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/australian-unity-bank/security/australian-unity-bank-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Finance

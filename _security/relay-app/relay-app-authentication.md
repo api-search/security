@@ -8,19 +8,19 @@ api_specs:
   label: Relay App Runs API
   slug: relay-app-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relay-app/refs/heads/main/openapi/relay-app-runs-api-openapi.yml
+  url: https://artifacts.apis.io/relay-app/openapi/relay-app-runs-api-openapi.yml
 - filename: relay-app-webhooks-api-openapi.yml
   format: yaml
   label: Relay App Webhooks API
   slug: relay-app-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relay-app/refs/heads/main/openapi/relay-app-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/relay-app/openapi/relay-app-webhooks-api-openapi.yml
 - filename: relay-app-workflows-api-openapi.yml
   format: yaml
   label: Relay App Workflows API
   slug: relay-app-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relay-app/refs/heads/main/openapi/relay-app-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/relay-app/openapi/relay-app-workflows-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: relay-app-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/relay-app-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-Relay-API-Key\n  description: API key for authenticating requests to the Relay App API.\n  sources:\n  - openapi/relay-app-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/relay-app/refs/heads/main/authentication/relay-app-authentication.yml
+source_yaml_url: https://artifacts.apis.io/relay-app/authentication/relay-app-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Automation

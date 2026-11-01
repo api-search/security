@@ -28,7 +28,7 @@ source_filename: takeda-pharmaceutical-company-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.takeda.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  3 12:30:05 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: takeda.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/takeda-pharmaceutical-company/refs/heads/main/security/takeda-pharmaceutical-company-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/takeda-pharmaceutical-company/security/takeda-pharmaceutical-company-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -8,55 +8,55 @@ api_specs:
   label: Echo Global Logistics Documents API
   slug: echo-global-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-documents-api-openapi.yml
+  url: https://artifacts.apis.io/echo-global/openapi/echo-global-documents-api-openapi.yml
 - filename: echo-global-health-api-openapi.yml
   format: yaml
   label: Echo Global Logistics Health API
   slug: echo-global-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-health-api-openapi.yml
+  url: https://artifacts.apis.io/echo-global/openapi/echo-global-health-api-openapi.yml
 - filename: echo-global-ping-api-openapi.yml
   format: yaml
   label: Echo Global Logistics Ping API
   slug: echo-global-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-ping-api-openapi.yml
+  url: https://artifacts.apis.io/echo-global/openapi/echo-global-ping-api-openapi.yml
 - filename: echo-global-query-api-openapi.yml
   format: yaml
   label: Echo Global Logistics Query API
   slug: echo-global-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-query-api-openapi.yml
+  url: https://artifacts.apis.io/echo-global/openapi/echo-global-query-api-openapi.yml
 - filename: echo-global-quotes-api-openapi.yml
   format: yaml
   label: Echo Global Logistics Quotes API
   slug: echo-global-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/echo-global/openapi/echo-global-quotes-api-openapi.yml
 - filename: echo-global-rates-api-openapi.yml
   format: yaml
   label: Echo Global Logistics Rates API
   slug: echo-global-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-rates-api-openapi.yml
+  url: https://artifacts.apis.io/echo-global/openapi/echo-global-rates-api-openapi.yml
 - filename: echo-global-shipments-api-openapi.yml
   format: yaml
   label: Echo Global Logistics Shipments API
   slug: echo-global-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/echo-global/openapi/echo-global-shipments-api-openapi.yml
 - filename: echo-global-token-api-openapi.yml
   format: yaml
   label: Echo Global Logistics Token API
   slug: echo-global-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-token-api-openapi.yml
+  url: https://artifacts.apis.io/echo-global/openapi/echo-global-token-api-openapi.yml
 - filename: echosync-carrier-api.json
   format: json
   label: EchoSync Carrier API
   slug: carrier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echosync-carrier-api.json
+  url: https://artifacts.apis.io/echo-global/openapi/echosync-carrier-api.json
 auth_types:
 - apiKey
 - http
@@ -96,7 +96,7 @@ source_filename: echo-global-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/echosync-authorizer-api.json, openapi/echosync-customer-api.json, openapi/echosync-partner-connect-api.json\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/echosync-authorizer-api.json\n  - openapi/echosync-partner-connect-api.json\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/echosync-authorizer-api.json\n- name: customer_api_authorizer_post\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/echosync-customer-api.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/authentication/echo-global-authentication.yml
+source_yaml_url: https://artifacts.apis.io/echo-global/authentication/echo-global-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Freight

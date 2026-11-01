@@ -8,25 +8,25 @@ api_specs:
   label: Thoughtly Agent API
   slug: thoughtly-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/openapi/thoughtly-agent-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtly/openapi/thoughtly-agent-api-openapi.yml
 - filename: thoughtly-contact-api-openapi.yml
   format: yaml
   label: Thoughtly Contact API
   slug: thoughtly-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/openapi/thoughtly-contact-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtly/openapi/thoughtly-contact-api-openapi.yml
 - filename: thoughtly-user-api-openapi.yml
   format: yaml
   label: Thoughtly User API
   slug: thoughtly-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/openapi/thoughtly-user-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtly/openapi/thoughtly-user-api-openapi.yml
 - filename: thoughtly-webhooks-api-openapi.yml
   format: yaml
   label: Thoughtly Webhooks API
   slug: thoughtly-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/openapi/thoughtly-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtly/openapi/thoughtly-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -61,7 +61,7 @@ source_filename: thoughtly-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/thoughtly-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-token\n  description: API token from Thoughtly Developer Settings.\n  sources:\n  - openapi/thoughtly-api-openapi.yml\n- name: TeamIdAuth\n  type: apiKey\n  in: header\n  parameter: team_id\n  description: Team identifier from Thoughtly Developer Settings.\n  sources:\n  - openapi/thoughtly-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/authentication/thoughtly-authentication.yml
+source_yaml_url: https://artifacts.apis.io/thoughtly/authentication/thoughtly-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Voice AI

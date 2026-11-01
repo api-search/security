@@ -5,25 +5,25 @@ api_specs:
   label: Arlula Archive API
   slug: arlula-archive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arlula/refs/heads/main/openapi/arlula-archive-api-openapi.yml
+  url: https://artifacts.apis.io/arlula/openapi/arlula-archive-api-openapi.yml
 - filename: arlula-connection-api-openapi.yml
   format: yaml
   label: Arlula Connection API
   slug: arlula-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arlula/refs/heads/main/openapi/arlula-connection-api-openapi.yml
+  url: https://artifacts.apis.io/arlula/openapi/arlula-connection-api-openapi.yml
 - filename: arlula-orders-api-openapi.yml
   format: yaml
   label: Arlula Orders API
   slug: arlula-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arlula/refs/heads/main/openapi/arlula-orders-api-openapi.yml
+  url: https://artifacts.apis.io/arlula/openapi/arlula-orders-api-openapi.yml
 - filename: arlula-tasking-api-openapi.yml
   format: yaml
   label: Arlula Tasking API
   slug: arlula-tasking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arlula/refs/heads/main/openapi/arlula-tasking-api-openapi.yml
+  url: https://artifacts.apis.io/arlula/openapi/arlula-tasking-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: arlula-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: arlula.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 05:42:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: dashboard.arlula.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 23:48:34 2026 GMT\n  hsts: null\n- host: api.arlula.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 23:48:48 2026 GMT\n  hsts: null\ndomains:\n- domain: arlula.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arlula/refs/heads/main/security/arlula-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/arlula/security/arlula-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Earth Observation

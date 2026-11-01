@@ -9,73 +9,73 @@ api_specs:
   label: La Poste Groupe Administration API
   slug: la-poste-groupe-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/openapi/la-poste-groupe-administration-api-openapi.yml
+  url: https://artifacts.apis.io/la-poste-groupe/openapi/la-poste-groupe-administration-api-openapi.yml
 - filename: la-poste-groupe-applications-api-openapi.yml
   format: yaml
   label: La Poste Groupe Applications API
   slug: la-poste-groupe-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/openapi/la-poste-groupe-applications-api-openapi.yml
+  url: https://artifacts.apis.io/la-poste-groupe/openapi/la-poste-groupe-applications-api-openapi.yml
 - filename: la-poste-groupe-digiposte-api-openapi.yml
   format: yaml
   label: La Poste Groupe Digiposte API
   slug: la-poste-groupe-digiposte-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/openapi/la-poste-groupe-digiposte-api-openapi.yml
+  url: https://artifacts.apis.io/la-poste-groupe/openapi/la-poste-groupe-digiposte-api-openapi.yml
 - filename: la-poste-groupe-jdd-ditable-api-openapi.yml
   format: yaml
   label: La Poste Groupe JDD / Éditable API
   slug: la-poste-groupe-jdd-ditable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/openapi/la-poste-groupe-jdd-ditable-api-openapi.yml
+  url: https://artifacts.apis.io/la-poste-groupe/openapi/la-poste-groupe-jdd-ditable-api-openapi.yml
 - filename: la-poste-groupe-jdd-donn-es-api-openapi.yml
   format: yaml
   label: La Poste Groupe JDD / Données API
   slug: la-poste-groupe-jdd-donn-es-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/openapi/la-poste-groupe-jdd-donn-es-api-openapi.yml
+  url: https://artifacts.apis.io/la-poste-groupe/openapi/la-poste-groupe-jdd-donn-es-api-openapi.yml
 - filename: la-poste-groupe-jdd-m-tadonn-es-api-openapi.yml
   format: yaml
   label: La Poste Groupe JDD / Métadonnées API
   slug: la-poste-groupe-jdd-m-tadonn-es-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/openapi/la-poste-groupe-jdd-m-tadonn-es-api-openapi.yml
+  url: https://artifacts.apis.io/la-poste-groupe/openapi/la-poste-groupe-jdd-m-tadonn-es-api-openapi.yml
 - filename: la-poste-groupe-jeux-de-donn-es-jdd-api-openapi.yml
   format: yaml
   label: La Poste Groupe Jeux de données (JDD) API
   slug: la-poste-groupe-jeux-de-donn-es-jdd-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/openapi/la-poste-groupe-jeux-de-donn-es-jdd-api-openapi.yml
+  url: https://artifacts.apis.io/la-poste-groupe/openapi/la-poste-groupe-jeux-de-donn-es-jdd-api-openapi.yml
 - filename: la-poste-groupe-lh-pro-resources-api-openapi.yml
   format: yaml
   label: La Poste Groupe LH PRO resources API
   slug: la-poste-groupe-lh-pro-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/openapi/la-poste-groupe-lh-pro-resources-api-openapi.yml
+  url: https://artifacts.apis.io/la-poste-groupe/openapi/la-poste-groupe-lh-pro-resources-api-openapi.yml
 - filename: la-poste-groupe-partner-api-openapi.yml
   format: yaml
   label: La Poste Groupe Partner API
   slug: la-poste-groupe-partner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/openapi/la-poste-groupe-partner-api-openapi.yml
+  url: https://artifacts.apis.io/la-poste-groupe/openapi/la-poste-groupe-partner-api-openapi.yml
 - filename: la-poste-groupe-resend-purl-api-openapi.yml
   format: yaml
   label: La Poste Groupe Resend Purl API
   slug: la-poste-groupe-resend-purl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/openapi/la-poste-groupe-resend-purl-api-openapi.yml
+  url: https://artifacts.apis.io/la-poste-groupe/openapi/la-poste-groupe-resend-purl-api-openapi.yml
 - filename: la-poste-groupe-suivi-api-openapi.yml
   format: yaml
   label: La Poste Groupe Suivi API
   slug: la-poste-groupe-suivi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/openapi/la-poste-groupe-suivi-api-openapi.yml
+  url: https://artifacts.apis.io/la-poste-groupe/openapi/la-poste-groupe-suivi-api-openapi.yml
 - filename: la-poste-groupe-user-api-openapi.yml
   format: yaml
   label: La Poste Groupe User API
   slug: la-poste-groupe-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/openapi/la-poste-groupe-user-api-openapi.yml
+  url: https://artifacts.apis.io/la-poste-groupe/openapi/la-poste-groupe-user-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -148,7 +148,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-02'\nmethod: derived\nsource: openapi/la-poste-groupe-digiposte-openapi.json, openapi/la-poste-groupe-lettre-recommandee-en-ligne-openapi.json,\n  openapi/la-poste-groupe-open-data-openapi.json, openapi/la-poste-groupe-suivi-openapi.json\nsummary:\n  types:\n  - apiKey\n  - http\n  - oauth2\n  api_key_in:\n  - cookie\n  - header\n  oauth2_flows:\n  - authorizationCode\n  - implicit\nschemes:\n- name: basic\n  type: http\n  scheme: basic\n  sources:\n  - openapi/la-poste-groupe-digiposte-openapi.json\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: /\n    tokenUrl: /\n    scopes: 0\n  sources:\n  - openapi/la-poste-groupe-digiposte-openapi.json\n- name: default\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://test.com\n    scopes: 0\n  sources:\n  - openapi/la-poste-groupe-lettre-recommandee-en-ligne-openapi.json\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: x-apiKey\n\
   \  sources:\n  - openapi/la-poste-groupe-open-data-openapi.json\n- name: sdCookie\n  type: apiKey\n  in: cookie\n  parameter: id_token\n  sources:\n  - openapi/la-poste-groupe-open-data-openapi.json\n- name: OKAPIkey\n  type: apiKey\n  in: header\n  parameter: X-Okapi-Key\n  sources:\n  - openapi/la-poste-groupe-suivi-openapi.json\n- name: JWT\n  type: apiKey\n  in: cookie\n  parameter: access_token\n  sources:\n  - openapi/la-poste-groupe-suivi-openapi.json\ndocs: https://developer.laposte.fr/getting-started\nprimary_model: >-\n  API key in the X-Okapi-Key request header, issued per application on\n  developer.laposte.fr and bound to a plan subscription. Confirmed live: an\n  unauthenticated GET of https://api.laposte.fr/suivi/v2/idships/6M20132968235 on\n  2026-09-02 returned HTTP 401 with\n  {\"code\":\"UNAUTHORIZED\",\"message\":\"This action requires an authorization\"}.\nsandbox_keys: >-\n  The same header carries both production and sandbox keys; nothing in the\n  credential distinguishes\
   \ the two. See sandbox/la-poste-groupe-sandbox.yml.\nplaceholder_warnings:\n- scheme: oauth2 (Digiposte v3)\n  finding: >-\n    authorizationUrl and tokenUrl are both the literal \"/\". The real token endpoint\n    is POST /digiposte/v3/oauth/token, discoverable only from the path list. Basic\n    auth mints the client_credentials token; bearer is used thereafter.\n- scheme: default (Lettre recommandee en ligne v1)\n  finding: >-\n    authorizationUrl is https://test.com - a springdoc generator default that\n    reached production. Not a usable authorization server; treat this API's\n    credential model as undocumented.\n- scheme: JWT (Suivi v2)\n  finding: >-\n    Declared as an apiKey in an access_token COOKIE. This is the browser-session\n    path, not a server-to-server one; server integrations use X-Okapi-Key.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/authentication/la-poste-groupe-authentication.yml
+source_yaml_url: https://artifacts.apis.io/la-poste-groupe/authentication/la-poste-groupe-authentication.yml
 summary_line: apiKey/http/oauth2 · 7 schemes
 tags:
 - Company

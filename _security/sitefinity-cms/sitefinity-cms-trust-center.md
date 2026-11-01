@@ -5,19 +5,19 @@ api_specs:
   label: Sitefinity CMS Blog Posts API
   slug: sitefinity-cms-blog-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/openapi/sitefinity-cms-blog-posts-api-openapi.yml
+  url: https://artifacts.apis.io/sitefinity-cms/openapi/sitefinity-cms-blog-posts-api-openapi.yml
 - filename: sitefinity-cms-events-api-openapi.yml
   format: yaml
   label: Sitefinity CMS Events API
   slug: sitefinity-cms-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/openapi/sitefinity-cms-events-api-openapi.yml
+  url: https://artifacts.apis.io/sitefinity-cms/openapi/sitefinity-cms-events-api-openapi.yml
 - filename: sitefinity-cms-news-items-api-openapi.yml
   format: yaml
   label: Sitefinity CMS News Items API
   slug: sitefinity-cms-news-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/openapi/sitefinity-cms-news-items-api-openapi.yml
+  url: https://artifacts.apis.io/sitefinity-cms/openapi/sitefinity-cms-news-items-api-openapi.yml
 certification_count: 9
 certifications:
 - SOC 2
@@ -42,7 +42,7 @@ source_filename: sitefinity-cms-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.progress.com/\nurl: https://trust.progress.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- CSA STAR\nevidence:\n- source: https://trust.progress.com/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/security/sitefinity-cms-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/sitefinity-cms/security/sitefinity-cms-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, GDPR, CSA STAR
 tags:
 - Content Management

@@ -7,13 +7,13 @@ api_specs:
   label: Seoul National University OAI PMH API
   slug: snu-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snu/refs/heads/main/openapi/snu-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/snu/openapi/snu-oai-pmh-api-openapi.yml
 - filename: snu-open-search-api-openapi.yml
   format: yaml
   label: Seoul National University Open Search API
   slug: snu-open-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snu/refs/heads/main/openapi/snu-open-search-api-openapi.yml
+  url: https://artifacts.apis.io/snu/openapi/snu-open-search-api-openapi.yml
 auth_types:
 - none
 - saml2
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-08-19'\nmethod: probed\nsource: >-\n  openapi/snu
   \ as a general developer surface.\n    software: SimpleSAMLphp\n    endpoints:\n      single_sign_on:\n        - binding: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect\n          location: https://kafegw.snu.ac.kr/saml/module.php/saml/idp/singleSignOnService\n        - binding: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST\n          location: https://kafegw.snu.ac.kr/saml/module.php/saml/idp/singleSignOnService\n      single_logout:\n        - binding: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect\n          location: https://kafegw.snu.ac.kr/saml/module.php/saml/idp/singleLogout\n        - binding: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST\n          location: https://kafegw.snu.ac.kr/saml/module.php/saml/idp/singleLogout\n    name_id_formats:\n      - urn:oasis:names:tc:SAML:2.0:nameid-format:transient\n    scope: snu.ac.kr\n    entity_categories:\n      - http://refeds.org/category/research-and-scholarship\n    assurance_certifications:\n      - https://refeds.org/sirtfi\n\
   \    keys:\n      - use: signing\n        subject: CN=kafegw.snu.ac.kr, O=SNU, OU=Information Systems and Technology, L=Seoul, C=KR\n        not_after: '2028-06-03'\n      - use: encryption\n        subject: CN=kafegw.snu.ac.kr, O=SNU, OU=Information Systems and Technology, L=Seoul, C=KR\n        not_after: '2028-06-03'\n    contacts:\n      technical: ercc_infra@snu.ac.kr\n      security: ym0427@snu.ac.kr\n    sources:\n      - authentication/snu-kafe-saml-idp-metadata.xml\nfindings:\n  - id: idp-metadata-endpoint-500\n    severity: medium\n    detail: >-\n      The IdP does not serve its own metadata. The conventional SimpleSAMLphp path\n      https://kafegw.snu.ac.kr/saml/module.php/saml/idp/metadata.php returns HTTP 500, and\n      the entityID URL https://kafegw.snu.ac.kr/idp/simplesamlphp returns 404. The only\n      retrievable copy of SNU's SAML metadata is the KAFE/eduGAIN aggregate. A relying\n      party cannot self-serve it from SNU.\n  - id: idp-privacy-statement-dead\n  \
   \  severity: low\n    detail: >-\n      The mdui:PrivacyStatementURL published in SNU's own IdP metadata,\n      http://en.snu.ac.kr/upload/footer/privacy.pdf, returns HTTP 404. A federation\n      partner following SNU's declared privacy statement gets nothing. The live policy is\n      at https://en.snu.ac.kr/privacy-policy.\n  - id: registration-policy-soft-404\n    severity: low\n    detail: >-\n      The KAFE registration policy URL in the metadata,\n      https://www.kafe.or.kr/kafe-mrps-v1.1.pdf, returns HTTP 200 with 10,732 bytes of\n      HTML — the KAFE homepage, not a PDF. Soft-404. This is KAFE's defect, not SNU's,\n      but it is in the chain a relying party would follow.\n  - id: no-oauth-no-oidc\n    severity: informational\n    detail: >-\n      No /.well-known/openid-configuration, no /.well-known/oauth-authorization-server,\n      and no /.well-known/security.txt on www.snu.ac.kr (404 on each). No OAuth 2.0 or\n      OIDC surface exists for third-party developers.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snu/refs/heads/main/authentication/snu-authentication.yml
+source_yaml_url: https://artifacts.apis.io/snu/authentication/snu-authentication.yml
 summary_line: none/saml2 · 3 schemes
 tags:
 - University

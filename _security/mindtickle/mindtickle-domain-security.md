@@ -5,25 +5,25 @@ api_specs:
   label: Mindtickle Assethub API
   slug: mindtickle-assethub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindtickle/refs/heads/main/openapi/mindtickle-assethub-api-openapi.yml
+  url: https://artifacts.apis.io/mindtickle/openapi/mindtickle-assethub-api-openapi.yml
 - filename: mindtickle-public-api-openapi.yml
   format: yaml
   label: Mindtickle Public API
   slug: mindtickle-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindtickle/refs/heads/main/openapi/mindtickle-public-api-openapi.yml
+  url: https://artifacts.apis.io/mindtickle/openapi/mindtickle-public-api-openapi.yml
 - filename: mindtickle-reports-api-openapi.yml
   format: yaml
   label: Mindtickle Reports API
   slug: mindtickle-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindtickle/refs/heads/main/openapi/mindtickle-reports-api-openapi.yml
+  url: https://artifacts.apis.io/mindtickle/openapi/mindtickle-reports-api-openapi.yml
 - filename: mindtickle-services-api-openapi.yml
   format: yaml
   label: Mindtickle Services API
   slug: mindtickle-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindtickle/refs/heads/main/openapi/mindtickle-services-api-openapi.yml
+  url: https://artifacts.apis.io/mindtickle/openapi/mindtickle-services-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,7 +62,7 @@ source_filename: mindtickle-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mindtickle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  4 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.mindtickle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 11 23:59:59 2027 GMT\n  hsts: null\n- host: api-gateway.callai.www.mindtickle.com\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''api-gateway'\n  hsts: null\ndomains:\n- domain: mindtickle.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mindtickle/refs/heads/main/security/mindtickle-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mindtickle/security/mindtickle-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Sales Enablement

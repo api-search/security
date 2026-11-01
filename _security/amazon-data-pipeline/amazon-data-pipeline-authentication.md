@@ -8,25 +8,31 @@ api_specs:
   label: Amazon Data Pipeline Objects API
   slug: amazon-data-pipeline-pipeline-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/openapi/amazon-data-pipeline-pipeline-objects-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-data-pipeline/openapi/amazon-data-pipeline-pipeline-objects-api-openapi.yml
 - filename: amazon-data-pipeline-pipeline-runs-api-openapi.yml
   format: yaml
   label: Amazon Data Pipeline Runs API
   slug: amazon-data-pipeline-pipeline-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/openapi/amazon-data-pipeline-pipeline-runs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-data-pipeline/openapi/amazon-data-pipeline-pipeline-runs-api-openapi.yml
 - filename: amazon-data-pipeline-pipelines-api-openapi.yml
   format: yaml
   label: Amazon Data Pipeline Pipelines API
   slug: amazon-data-pipeline-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/openapi/amazon-data-pipeline-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-data-pipeline/openapi/amazon-data-pipeline-pipelines-api-openapi.yml
 - filename: amazon-data-pipeline-tags-api-openapi.yml
   format: yaml
   label: Amazon Data Pipeline Tags API
   slug: amazon-data-pipeline-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/openapi/amazon-data-pipeline-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-data-pipeline/openapi/amazon-data-pipeline-tags-api-openapi.yml
+- filename: amazon-data-pipeline-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Data Pipeline Data Pipeline Operations API
+  slug: amazon-data-pipeline-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-data-pipeline/openapi/amazon-data-pipeline-operations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +60,7 @@ source_filename: amazon-data-pipeline-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-data-pipeline-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: awsSignatureV4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4 authentication\n  sources:\n  - openapi/amazon-data-pipeline-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/authentication/amazon-data-pipeline-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-data-pipeline/authentication/amazon-data-pipeline-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Data Processing

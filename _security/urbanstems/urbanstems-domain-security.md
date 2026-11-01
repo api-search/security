@@ -40,7 +40,7 @@ source_filename: urbanstems-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: urbanstems.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 29 15:58:02 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\n- host: 274513-24.myshopify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 15:01:35 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\ndomains:\n- domain: urbanstems.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: myshopify.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/security/urbanstems-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/urbanstems/security/urbanstems-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

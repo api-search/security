@@ -26,7 +26,7 @@ source_filename: tierra-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tierra.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 17:21:50 2026 GMT\n  hsts: false\ndomains:\n- domain: tierra.co\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tierra/refs/heads/main/security/tierra-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tierra/security/tierra-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

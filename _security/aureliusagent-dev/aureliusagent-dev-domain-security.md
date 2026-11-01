@@ -5,55 +5,55 @@ api_specs:
   label: WunderCorp AI Generation API
   slug: aureliusagent-dev-ai-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aureliusagent-dev/refs/heads/main/openapi/aureliusagent-dev-ai-generation-api-openapi.yml
+  url: https://artifacts.apis.io/aureliusagent-dev/openapi/aureliusagent-dev-ai-generation-api-openapi.yml
 - filename: aureliusagent-dev-app-planning-api-openapi.yml
   format: yaml
   label: WunderCorp App Planning API
   slug: aureliusagent-dev-app-planning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aureliusagent-dev/refs/heads/main/openapi/aureliusagent-dev-app-planning-api-openapi.yml
+  url: https://artifacts.apis.io/aureliusagent-dev/openapi/aureliusagent-dev-app-planning-api-openapi.yml
 - filename: aureliusagent-dev-builderstudio-api-openapi.yml
   format: yaml
   label: WunderCorp Builder Studio API
   slug: aureliusagent-dev-builderstudio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aureliusagent-dev/refs/heads/main/openapi/aureliusagent-dev-builderstudio-api-openapi.yml
+  url: https://artifacts.apis.io/aureliusagent-dev/openapi/aureliusagent-dev-builderstudio-api-openapi.yml
 - filename: aureliusagent-dev-capacity-api-openapi.yml
   format: yaml
   label: WunderCorp Capacity API
   slug: aureliusagent-dev-capacity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aureliusagent-dev/refs/heads/main/openapi/aureliusagent-dev-capacity-api-openapi.yml
+  url: https://artifacts.apis.io/aureliusagent-dev/openapi/aureliusagent-dev-capacity-api-openapi.yml
 - filename: aureliusagent-dev-commerce-api-openapi.yml
   format: yaml
   label: WunderCorp Commerce API
   slug: aureliusagent-dev-commerce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aureliusagent-dev/refs/heads/main/openapi/aureliusagent-dev-commerce-api-openapi.yml
+  url: https://artifacts.apis.io/aureliusagent-dev/openapi/aureliusagent-dev-commerce-api-openapi.yml
 - filename: aureliusagent-dev-inference-gateway-api-openapi.yml
   format: yaml
   label: WunderCorp Inference Gateway API
   slug: aureliusagent-dev-inference-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aureliusagent-dev/refs/heads/main/openapi/aureliusagent-dev-inference-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/aureliusagent-dev/openapi/aureliusagent-dev-inference-gateway-api-openapi.yml
 - filename: aureliusagent-dev-machine-payments-api-openapi.yml
   format: yaml
   label: WunderCorp Machine Payments API
   slug: aureliusagent-dev-machine-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aureliusagent-dev/refs/heads/main/openapi/aureliusagent-dev-machine-payments-api-openapi.yml
+  url: https://artifacts.apis.io/aureliusagent-dev/openapi/aureliusagent-dev-machine-payments-api-openapi.yml
 - filename: aureliusagent-dev-mpp-api-openapi.yml
   format: yaml
   label: WunderCorp Mpp API
   slug: aureliusagent-dev-mpp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aureliusagent-dev/refs/heads/main/openapi/aureliusagent-dev-mpp-api-openapi.yml
+  url: https://artifacts.apis.io/aureliusagent-dev/openapi/aureliusagent-dev-mpp-api-openapi.yml
 - filename: aureliusagent-dev-openmodel-pricing-api-openapi.yml
   format: yaml
   label: WunderCorp OpenModel Pricing API
   slug: aureliusagent-dev-openmodel-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aureliusagent-dev/refs/heads/main/openapi/aureliusagent-dev-openmodel-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/aureliusagent-dev/openapi/aureliusagent-dev-openmodel-pricing-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -98,7 +98,7 @@ source_filename: aureliusagent-dev-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aureliusagent.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 19 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: rpc.aureliusagent.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 21 23:59:59 2026 GMT\n  hsts: null\n- host: wundercorp.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 26 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: aureliusagent.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: wundercorp.co\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aureliusagent-dev/refs/heads/main/security/aureliusagent-dev-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aureliusagent-dev/security/aureliusagent-dev-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

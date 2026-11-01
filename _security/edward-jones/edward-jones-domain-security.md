@@ -24,7 +24,7 @@ source_filename: edward-jones-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.edward-jones.com\n  https: false\ndomains:\n- domain: edward-jones.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edward-jones/refs/heads/main/security/edward-jones-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/edward-jones/security/edward-jones-domain-security.yml
 summary_line: DMARC
 tags: []
 ---

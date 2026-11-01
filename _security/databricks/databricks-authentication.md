@@ -7,19 +7,19 @@ api_specs:
   label: Databricks Clusters API
   slug: databricks-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/openapi/databricks-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/databricks/openapi/databricks-clusters-api-openapi.yml
 - filename: databricks-jobs-api-openapi.yml
   format: yaml
   label: Databricks Jobs API
   slug: databricks-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/openapi/databricks-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/databricks/openapi/databricks-jobs-api-openapi.yml
 - filename: databricks-workspace-api-openapi.yml
   format: yaml
   label: Databricks Workspace API
   slug: databricks-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/openapi/databricks-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/databricks/openapi/databricks-workspace-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -47,7 +47,7 @@ source_filename: databricks-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/databricks-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: PAT\n  description: Databricks personal access token (PAT) or OAuth M2M token. Pass the token in\n    the Authorization header as 'Bearer <token>'.\n  sources:\n  - openapi/databricks-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/authentication/databricks-authentication.yml
+source_yaml_url: https://artifacts.apis.io/databricks/authentication/databricks-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Cleanroom

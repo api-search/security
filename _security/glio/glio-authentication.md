@@ -7,13 +7,13 @@ api_specs:
   label: Glio Jobs API
   slug: glio-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glio/refs/heads/main/openapi/glio-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/glio/openapi/glio-jobs-api-openapi.yml
 - filename: glio-llm-api-openapi.yml
   format: yaml
   label: Glio LLM API
   slug: glio-llm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glio/refs/heads/main/openapi/glio-llm-api-openapi.yml
+  url: https://artifacts.apis.io/glio/openapi/glio-llm-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -41,7 +41,7 @@ source_filename: glio-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/glio-openapi-original.json\ndocs: https://glio.io/docs/getting-started\nnotes: >-\n  Single scheme. All endpoints require an Authorization: Bearer header carrying\n  either a Glio API key or a JWT. No OAuth 2.0 / OpenID Connect scope surface is\n  published; API keys are issued from the dashboard at https://glio.io/app/.\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: API Key or JWT\n  description: 'API key or JWT token: `Bearer <your-token>`'\n  sources:\n  - openapi/glio-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/glio/refs/heads/main/authentication/glio-authentication.yml
+source_yaml_url: https://artifacts.apis.io/glio/authentication/glio-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

@@ -5,25 +5,25 @@ api_specs:
   label: Ketch Configuration API
   slug: ketch-io-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ketch-io/refs/heads/main/openapi/ketch-io-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/ketch-io/openapi/ketch-io-configuration-api-openapi.yml
 - filename: ketch-io-consent-api-openapi.yml
   format: yaml
   label: Ketch Consent API
   slug: ketch-io-consent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ketch-io/refs/heads/main/openapi/ketch-io-consent-api-openapi.yml
+  url: https://artifacts.apis.io/ketch-io/openapi/ketch-io-consent-api-openapi.yml
 - filename: ketch-io-preferences-api-openapi.yml
   format: yaml
   label: Ketch Preferences API
   slug: ketch-io-preferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ketch-io/refs/heads/main/openapi/ketch-io-preferences-api-openapi.yml
+  url: https://artifacts.apis.io/ketch-io/openapi/ketch-io-preferences-api-openapi.yml
 - filename: ketch-io-rights-api-openapi.yml
   format: yaml
   label: Ketch Rights API
   slug: ketch-io-rights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ketch-io/refs/heads/main/openapi/ketch-io-rights-api-openapi.yml
+  url: https://artifacts.apis.io/ketch-io/openapi/ketch-io-rights-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -76,7 +76,7 @@ source_filename: ketch-io-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ketch.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 08:13:20 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: docs.ketch.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 12:20:18 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: global.ketchapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  4 06:13:34 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\ndomains:\n- domain: ketch.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"pki.goog\"\n  - 0 iodef \"mailto:caa-reporting@ketch.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"certainly.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: ketchapi.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ketch-io/refs/heads/main/security/ketch-io-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ketch-io/security/ketch-io-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Ketch

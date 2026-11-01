@@ -23,7 +23,7 @@ source_filename: aepona-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.aepona.com\n  https: false\ndomains:\n- domain: aepona.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aepona/refs/heads/main/security/aepona-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aepona/security/aepona-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

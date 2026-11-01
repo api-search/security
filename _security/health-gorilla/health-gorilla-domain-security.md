@@ -5,61 +5,61 @@ api_specs:
   label: Health Gorilla Binary API
   slug: health-gorilla-binary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-binary-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-binary-api-openapi.yml
 - filename: health-gorilla-coverage-api-openapi.yml
   format: yaml
   label: Health Gorilla Coverage API
   slug: health-gorilla-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-coverage-api-openapi.yml
 - filename: health-gorilla-diagnosticreport-api-openapi.yml
   format: yaml
   label: Health Gorilla DiagnosticReport API
   slug: health-gorilla-diagnosticreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-diagnosticreport-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-diagnosticreport-api-openapi.yml
 - filename: health-gorilla-observation-api-openapi.yml
   format: yaml
   label: Health Gorilla Observation API
   slug: health-gorilla-observation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-observation-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-observation-api-openapi.yml
 - filename: health-gorilla-patient-api-openapi.yml
   format: yaml
   label: Health Gorilla Patient API
   slug: health-gorilla-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-patient-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-patient-api-openapi.yml
 - filename: health-gorilla-practitioner-api-openapi.yml
   format: yaml
   label: Health Gorilla Practitioner API
   slug: health-gorilla-practitioner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-practitioner-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-practitioner-api-openapi.yml
 - filename: health-gorilla-requestgroup-api-openapi.yml
   format: yaml
   label: Health Gorilla RequestGroup API
   slug: health-gorilla-requestgroup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-requestgroup-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-requestgroup-api-openapi.yml
 - filename: health-gorilla-servicerequest-api-openapi.yml
   format: yaml
   label: Health Gorilla ServiceRequest API
   slug: health-gorilla-servicerequest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-servicerequest-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-servicerequest-api-openapi.yml
 - filename: health-gorilla-capability-statement-api-openapi.yml
   format: yaml
   label: Health Gorilla Capability Statement API
   slug: health-gorilla-capability-statement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-capability-statement-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-capability-statement-api-openapi.yml
 - filename: health-gorilla-document-reference-api-openapi.yml
   format: yaml
   label: Health Gorilla Document Reference API
   slug: health-gorilla-document-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-document-reference-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-document-reference-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -100,7 +100,7 @@ source_filename: health-gorilla-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.healthgorilla.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.healthgorilla.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 20:33:21 2026 GMT\n  hsts: null\n- host: api.healthgorilla.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: healthgorilla.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/security/health-gorilla-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/health-gorilla/security/health-gorilla-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Health

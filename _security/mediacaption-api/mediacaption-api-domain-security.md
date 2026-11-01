@@ -5,43 +5,43 @@ api_specs:
   label: MediaCaption API Balance API
   slug: mediacaption-api-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/openapi/mediacaption-api-balance-api-openapi.yml
+  url: https://artifacts.apis.io/mediacaption-api/openapi/mediacaption-api-balance-api-openapi.yml
 - filename: mediacaption-api-jobs-api-openapi.yml
   format: yaml
   label: MediaCaption API Jobs API
   slug: mediacaption-api-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/openapi/mediacaption-api-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/mediacaption-api/openapi/mediacaption-api-jobs-api-openapi.yml
 - filename: mediacaption-api-transcriptions-api-openapi.yml
   format: yaml
   label: MediaCaption API Transcriptions API
   slug: mediacaption-api-transcriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/openapi/mediacaption-api-transcriptions-api-openapi.yml
+  url: https://artifacts.apis.io/mediacaption-api/openapi/mediacaption-api-transcriptions-api-openapi.yml
 - filename: mediacaption-api-transcripts-api-openapi.yml
   format: yaml
   label: MediaCaption API Transcripts API
   slug: mediacaption-api-transcripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/openapi/mediacaption-api-transcripts-api-openapi.yml
+  url: https://artifacts.apis.io/mediacaption-api/openapi/mediacaption-api-transcripts-api-openapi.yml
 - filename: mediacaption-api-uploads-api-openapi.yml
   format: yaml
   label: MediaCaption API Uploads API
   slug: mediacaption-api-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/openapi/mediacaption-api-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/mediacaption-api/openapi/mediacaption-api-uploads-api-openapi.yml
 - filename: mediacaption-api-user-api-openapi.yml
   format: yaml
   label: MediaCaption API User API
   slug: mediacaption-api-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/openapi/mediacaption-api-user-api-openapi.yml
+  url: https://artifacts.apis.io/mediacaption-api/openapi/mediacaption-api-user-api-openapi.yml
 - filename: mediacaption-api-webhooks-api-openapi.yml
   format: yaml
   label: MediaCaption API Webhooks API
   slug: mediacaption-api-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/openapi/mediacaption-api-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/mediacaption-api/openapi/mediacaption-api-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: mediacaption-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mediacaption.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 06:21:17 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.mediacaption.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 22:43:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: mediacaption.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/security/mediacaption-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mediacaption-api/security/mediacaption-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - YouTube

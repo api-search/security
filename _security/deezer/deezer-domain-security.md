@@ -5,67 +5,67 @@ api_specs:
   label: Deezer Album API
   slug: deezer-album-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deezer/refs/heads/main/openapi/deezer-album-api-openapi.yml
+  url: https://artifacts.apis.io/deezer/openapi/deezer-album-api-openapi.yml
 - filename: deezer-artist-api-openapi.yml
   format: yaml
   label: Deezer Artist API
   slug: deezer-artist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deezer/refs/heads/main/openapi/deezer-artist-api-openapi.yml
+  url: https://artifacts.apis.io/deezer/openapi/deezer-artist-api-openapi.yml
 - filename: deezer-chart-api-openapi.yml
   format: yaml
   label: Deezer Chart API
   slug: deezer-chart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deezer/refs/heads/main/openapi/deezer-chart-api-openapi.yml
+  url: https://artifacts.apis.io/deezer/openapi/deezer-chart-api-openapi.yml
 - filename: deezer-editorial-api-openapi.yml
   format: yaml
   label: Deezer Editorial API
   slug: deezer-editorial-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deezer/refs/heads/main/openapi/deezer-editorial-api-openapi.yml
+  url: https://artifacts.apis.io/deezer/openapi/deezer-editorial-api-openapi.yml
 - filename: deezer-genre-api-openapi.yml
   format: yaml
   label: Deezer Genre API
   slug: deezer-genre-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deezer/refs/heads/main/openapi/deezer-genre-api-openapi.yml
+  url: https://artifacts.apis.io/deezer/openapi/deezer-genre-api-openapi.yml
 - filename: deezer-infos-api-openapi.yml
   format: yaml
   label: Deezer Infos API
   slug: deezer-infos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deezer/refs/heads/main/openapi/deezer-infos-api-openapi.yml
+  url: https://artifacts.apis.io/deezer/openapi/deezer-infos-api-openapi.yml
 - filename: deezer-playlist-api-openapi.yml
   format: yaml
   label: Deezer Playlist API
   slug: deezer-playlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deezer/refs/heads/main/openapi/deezer-playlist-api-openapi.yml
+  url: https://artifacts.apis.io/deezer/openapi/deezer-playlist-api-openapi.yml
 - filename: deezer-radio-api-openapi.yml
   format: yaml
   label: Deezer Radio API
   slug: deezer-radio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deezer/refs/heads/main/openapi/deezer-radio-api-openapi.yml
+  url: https://artifacts.apis.io/deezer/openapi/deezer-radio-api-openapi.yml
 - filename: deezer-search-api-openapi.yml
   format: yaml
   label: Deezer Search API
   slug: deezer-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deezer/refs/heads/main/openapi/deezer-search-api-openapi.yml
+  url: https://artifacts.apis.io/deezer/openapi/deezer-search-api-openapi.yml
 - filename: deezer-track-api-openapi.yml
   format: yaml
   label: Deezer Track API
   slug: deezer-track-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deezer/refs/heads/main/openapi/deezer-track-api-openapi.yml
+  url: https://artifacts.apis.io/deezer/openapi/deezer-track-api-openapi.yml
 - filename: deezer-user-api-openapi.yml
   format: yaml
   label: Deezer User API
   slug: deezer-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deezer/refs/heads/main/openapi/deezer-user-api-openapi.yml
+  url: https://artifacts.apis.io/deezer/openapi/deezer-user-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -107,7 +107,7 @@ source_filename: deezer-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.deezer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.deezer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 29 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.deezer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: deezer.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deezer/refs/heads/main/security/deezer-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/deezer/security/deezer-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Music

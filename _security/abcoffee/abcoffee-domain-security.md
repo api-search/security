@@ -27,7 +27,7 @@ source_filename: abcoffee-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: abcoffee.in\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  3 18:10:31 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\ndomains:\n- domain: abcoffee.in\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abcoffee/refs/heads/main/security/abcoffee-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/abcoffee/security/abcoffee-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

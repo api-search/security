@@ -9,85 +9,85 @@ api_specs:
   label: Mailmodo Campaigns API
   slug: mailmodo-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/mailmodo/openapi/mailmodo-campaigns-api-openapi.yml
 - filename: mailmodo-contact-lists-api-openapi.yml
   format: yaml
   label: Mailmodo Contact Lists API
   slug: mailmodo-contact-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-contact-lists-api-openapi.yml
+  url: https://artifacts.apis.io/mailmodo/openapi/mailmodo-contact-lists-api-openapi.yml
 - filename: mailmodo-contacts-api-openapi.yml
   format: yaml
   label: Mailmodo Contacts API
   slug: mailmodo-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/mailmodo/openapi/mailmodo-contacts-api-openapi.yml
 - filename: mailmodo-events-api-openapi.yml
   format: yaml
   label: Mailmodo Events API
   slug: mailmodo-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-events-api-openapi.yml
+  url: https://artifacts.apis.io/mailmodo/openapi/mailmodo-events-api-openapi.yml
 - filename: mailmodo-templates-api-openapi.yml
   format: yaml
   label: Mailmodo Templates API
   slug: mailmodo-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-templates-api-openapi.yml
+  url: https://artifacts.apis.io/mailmodo/openapi/mailmodo-templates-api-openapi.yml
 - filename: mailmodo-addevent-api-openapi.yml
   format: yaml
   label: Mailmodo Add Event API
   slug: mailmodo-addevent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-addevent-api-openapi.yml
+  url: https://artifacts.apis.io/mailmodo/openapi/mailmodo-addevent-api-openapi.yml
 - filename: mailmodo-addtolist-api-openapi.yml
   format: yaml
   label: Mailmodo Add To List API
   slug: mailmodo-addtolist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-addtolist-api-openapi.yml
+  url: https://artifacts.apis.io/mailmodo/openapi/mailmodo-addtolist-api-openapi.yml
 - filename: mailmodo-bulktriggercampaign-api-openapi.yml
   format: yaml
   label: Mailmodo Bulktrigger Campaign API
   slug: mailmodo-bulktriggercampaign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-bulktriggercampaign-api-openapi.yml
+  url: https://artifacts.apis.io/mailmodo/openapi/mailmodo-bulktriggercampaign-api-openapi.yml
 - filename: mailmodo-getallcontactlists-api-openapi.yml
   format: yaml
   label: Mailmodo Get All Contact Lists API
   slug: mailmodo-getallcontactlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-getallcontactlists-api-openapi.yml
+  url: https://artifacts.apis.io/mailmodo/openapi/mailmodo-getallcontactlists-api-openapi.yml
 - filename: mailmodo-getalltemplates-api-openapi.yml
   format: yaml
   label: Mailmodo Get All Templates API
   slug: mailmodo-getalltemplates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-getalltemplates-api-openapi.yml
+  url: https://artifacts.apis.io/mailmodo/openapi/mailmodo-getalltemplates-api-openapi.yml
 - filename: mailmodo-getcontactdetails-api-openapi.yml
   format: yaml
   label: Mailmodo Get Contact Details API
   slug: mailmodo-getcontactdetails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-getcontactdetails-api-openapi.yml
+  url: https://artifacts.apis.io/mailmodo/openapi/mailmodo-getcontactdetails-api-openapi.yml
 - filename: mailmodo-hooks-api-openapi.yml
   format: yaml
   label: Mailmodo Hooks API
   slug: mailmodo-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/mailmodo/openapi/mailmodo-hooks-api-openapi.yml
 - filename: mailmodo-removefromlist-api-openapi.yml
   format: yaml
   label: Mailmodo Remove From List API
   slug: mailmodo-removefromlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-removefromlist-api-openapi.yml
+  url: https://artifacts.apis.io/mailmodo/openapi/mailmodo-removefromlist-api-openapi.yml
 - filename: mailmodo-triggercampaign-api-openapi.yml
   format: yaml
   label: Mailmodo Trigger Campaign API
   slug: mailmodo-triggercampaign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-triggercampaign-api-openapi.yml
+  url: https://artifacts.apis.io/mailmodo/openapi/mailmodo-triggercampaign-api-openapi.yml
 auth_types:
 - apiKey
 description: 'One credential class, one mechanism: a workspace API key sent in the `mmApiKey` header. There is no OAuth, no OpenID Connect, no mutual TLS, no scopes, no permissions model and no test/live key split. A Mailmodo API key is a single account-wide bearer of full API authority — anything holding it can read every contact and send mail as the workspace.'
@@ -133,7 +133,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://w
   \    description: >-\n      The Campaign Data spec declares the SAME credential as a query parameter rather than a header.\n      Treat this as a spec defect and send the header — putting a long-lived credential in a URL\n      leaks it into logs, proxies and referrers.\n    sources:\n      - openapi/_original/mailmodo-campaign-data-openapi.yaml\n    status: inconsistent\nkey_management:\n  obtain: Settings > API Keys > \"Show API Key\" in https://manage.mailmodo.com/app/settings/apikey\n  multiple_keys: true\n  create: '\"Add new API Key\" button in the dashboard'\n  format: 'XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX — four hyphen-separated groups of 7 uppercase alphanumerics'\n  format_source: https://www.npmjs.com/package/@mailmodo/cli\n  environment_variable: MAILMODO_API_KEY\n  expiry: none-published\n  rotation_policy: none-published\n  revocation: not-documented\n  test_keys: false\n  scoping: >-\n    None. There is no read-only key, no per-list key and no per-operation restriction. The dashboard\n\
   \    has role-based access control (admin / read-write / read-only) for HUMANS, per\n    https://www.mailmodo.com/security/, but that model does not extend to API keys.\ntransport:\n  tls_required: true\n  minimum_tls: 'TLS 1.2+ (stated on https://www.mailmodo.com/security/)'\nagent_surfaces:\n  - surface: MCP (remote)\n    endpoint: https://mcp.app.mailmodo.com/mcp\n    credential: same mmApiKey, passed as a header via mcp-remote\n    probed: '2026-08-13 — HTTP 400 {\"code\":-32000,\"message\":\"Bad Request: No valid mmApiKey provided\"}'\n  - surface: MCP (local stdio)\n    credential: MAILMODO_API_KEY environment variable\n  - surface: '@mailmodo/cli'\n    credential: MAILMODO_API_KEY env var or ~/.mailmodo/config\n    note: Targets api.mailmodo.dev, not api.mailmodo.com.\ngaps:\n  - >-\n    No OAuth means no delegated authorization: a third-party integration cannot act for a Mailmodo\n    customer without holding that customer's full-authority key.\n  - No published expiry, rotation\
   \ or revocation procedure.\n  - No 401/403 response is declared on ANY operation in ANY published spec.\n  - No /.well-known/oauth-authorization-server or openid-configuration on any host (all 404).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/authentication/mailmodo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mailmodo/authentication/mailmodo-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Email

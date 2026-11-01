@@ -51,7 +51,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.vapor.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 23:12:19 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: synse.readthedocs.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 13:31:53 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: vapor.io\n  dnssec: false\n  caa:\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  spf: true\n  dmarc: false\n- domain: readthedocs.io\n  dnssec: false\n  caa:\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\
   \n  - 0 issue \" amazontrust.com\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vapor-io/refs/heads/main/security/vapor-io-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vapor-io/security/vapor-io-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

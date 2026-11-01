@@ -8,43 +8,43 @@ api_specs:
   label: Safello Account API
   slug: safello-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-account-api-openapi.yml
+  url: https://artifacts.apis.io/safello/openapi/safello-account-api-openapi.yml
 - filename: safello-auth-api-openapi.yml
   format: yaml
   label: Safello Auth API
   slug: safello-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-auth-api-openapi.yml
+  url: https://artifacts.apis.io/safello/openapi/safello-auth-api-openapi.yml
 - filename: safello-compliance-api-openapi.yml
   format: yaml
   label: Safello Compliance API
   slug: safello-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/safello/openapi/safello-compliance-api-openapi.yml
 - filename: safello-market-api-openapi.yml
   format: yaml
   label: Safello Market API
   slug: safello-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-market-api-openapi.yml
+  url: https://artifacts.apis.io/safello/openapi/safello-market-api-openapi.yml
 - filename: safello-orders-api-openapi.yml
   format: yaml
   label: Safello Orders API
   slug: safello-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-orders-api-openapi.yml
+  url: https://artifacts.apis.io/safello/openapi/safello-orders-api-openapi.yml
 - filename: safello-prices-api-openapi.yml
   format: yaml
   label: Safello Prices API
   slug: safello-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-prices-api-openapi.yml
+  url: https://artifacts.apis.io/safello/openapi/safello-prices-api-openapi.yml
 - filename: safello-wallet-api-openapi.yml
   format: yaml
   label: Safello Wallet API
   slug: safello-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/safello/openapi/safello-wallet-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -102,7 +102,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/safello-app-openapi.json, openapi/safello-institutional-openapi.json\ndocs: https://safello.github.io/safello-api/docs/getting-started/getting-started-auth\nauthorization_server:\n  metadata: https://api.safello.com/.well-known/oauth-authorization-server\n  issuer: https://api.safello.com\n  authorization_endpoint: https://api.safello.com/oauth2/authorize\n  token_endpoint: https://api.safello.com/oauth2/token\n  jwks_uri: https://api.safello.com/oauth2/jwks\n  introspection_endpoint: https://api.safello.com/oauth2/introspect\n  revocation_endpoint: https://api.safello.com/oauth2/revoke\n  token_endpoint_auth_methods_supported: [client_secret_basic, client_secret_post, client_secret_jwt, private_key_jwt]\n  grant_types_supported: [authorization_code, client_credentials, refresh_token]\n  code_challenge_methods_supported: [S256]\n  access_token_format: JWT\n  access_token_ttl_seconds: 300\nsummary:\n  types:\n  - apiKey\n\
   \  - http\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\n  - urn:safello:params:oauth:grant-type:bankid\nschemes:\n- name: AccessToken\n  type: apiKey\n  in: header\n  parameter: Access-Token\n  sources:\n  - openapi/safello-app-openapi.json\n- name: AppId\n  type: apiKey\n  in: header\n  parameter: App-Id\n  sources:\n  - openapi/safello-app-openapi.json\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: urn:safello:params:oauth:grant-type:bankid\n    tokenUrl: /oauth2/token\n    scopes: 8\n  - flow: clientCredentials\n    tokenUrl: /oauth2/token\n    scopes: 1\n  - flow: authorizationCode\n    tokenUrl: /oauth2/token\n    scopes: 8\n  sources:\n  - openapi/safello-institutional-openapi.json\n- name: BasicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/safello-institutional-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/authentication/safello-authentication.yml
+source_yaml_url: https://artifacts.apis.io/safello/authentication/safello-authentication.yml
 summary_line: apiKey/http/oauth2 · 4 schemes
 tags:
 - Company

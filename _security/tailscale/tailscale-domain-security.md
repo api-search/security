@@ -5,43 +5,43 @@ api_specs:
   label: Tailscale Devices API
   slug: tailscale-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tailscale/refs/heads/main/openapi/tailscale-devices-api-openapi.yml
+  url: https://artifacts.apis.io/tailscale/openapi/tailscale-devices-api-openapi.yml
 - filename: tailscale-dns-api-openapi.yml
   format: yaml
   label: Tailscale DNS API
   slug: tailscale-dns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tailscale/refs/heads/main/openapi/tailscale-dns-api-openapi.yml
+  url: https://artifacts.apis.io/tailscale/openapi/tailscale-dns-api-openapi.yml
 - filename: tailscale-invites-api-openapi.yml
   format: yaml
   label: Tailscale Invites API
   slug: tailscale-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tailscale/refs/heads/main/openapi/tailscale-invites-api-openapi.yml
+  url: https://artifacts.apis.io/tailscale/openapi/tailscale-invites-api-openapi.yml
 - filename: tailscale-keys-api-openapi.yml
   format: yaml
   label: Tailscale Keys API
   slug: tailscale-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tailscale/refs/heads/main/openapi/tailscale-keys-api-openapi.yml
+  url: https://artifacts.apis.io/tailscale/openapi/tailscale-keys-api-openapi.yml
 - filename: tailscale-logging-api-openapi.yml
   format: yaml
   label: Tailscale Logging API
   slug: tailscale-logging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tailscale/refs/heads/main/openapi/tailscale-logging-api-openapi.yml
+  url: https://artifacts.apis.io/tailscale/openapi/tailscale-logging-api-openapi.yml
 - filename: tailscale-policy-api-openapi.yml
   format: yaml
   label: Tailscale Policy API
   slug: tailscale-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tailscale/refs/heads/main/openapi/tailscale-policy-api-openapi.yml
+  url: https://artifacts.apis.io/tailscale/openapi/tailscale-policy-api-openapi.yml
 - filename: tailscale-tailnet-api-openapi.yml
   format: yaml
   label: Tailscale Tailnet API
   slug: tailscale-tailnet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tailscale/refs/heads/main/openapi/tailscale-tailnet-api-openapi.yml
+  url: https://artifacts.apis.io/tailscale/openapi/tailscale-tailnet-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -83,7 +83,7 @@ source_filename: tailscale-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tailscale.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar 17 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.tailscale.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 06:41:16 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: tailscale.com\n  dnssec: false\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \";\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tailscale/refs/heads/main/security/tailscale-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tailscale/security/tailscale-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - VPN

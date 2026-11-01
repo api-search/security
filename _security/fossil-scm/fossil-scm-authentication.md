@@ -7,19 +7,19 @@ api_specs:
   label: Fossil SCM Home API
   slug: fossil-scm-home-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fossil-scm/refs/heads/main/openapi/fossil-scm-home-api-openapi.yml
+  url: https://artifacts.apis.io/fossil-scm/openapi/fossil-scm-home-api-openapi.yml
 - filename: fossil-scm-json-api-openapi.yml
   format: yaml
   label: Fossil SCM JSON API
   slug: fossil-scm-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fossil-scm/refs/heads/main/openapi/fossil-scm-json-api-openapi.yml
+  url: https://artifacts.apis.io/fossil-scm/openapi/fossil-scm-json-api-openapi.yml
 - filename: fossil-scm-wikis-api-openapi.yml
   format: yaml
   label: Fossil SCM Wikis API
   slug: fossil-scm-wikis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fossil-scm/refs/heads/main/openapi/fossil-scm-wikis-api-openapi.yml
+  url: https://artifacts.apis.io/fossil-scm/openapi/fossil-scm-wikis-api-openapi.yml
 auth_types: []
 description: Authentication methods described in Fossil documentation
 kind: authentication
@@ -52,7 +52,7 @@ source_heading: Authentication Profile
 source_url: https://fossil-scm.org/home/doc/trunk/www/password.wiki
 source_yaml: "generated: '2026-09-22'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://fossil-scm.org/home/doc/trunk/www/password.wiki\nsources:\n- https://fossil-scm.org/home/doc/trunk/www/password.wiki\n- https://fossil-scm.org/home/doc/trunk/www/quickstart.wiki\n- https://fossil-scm.org/home/doc/trunk/www/caps/admin-v-setup.md\ndescription: Authentication methods described in Fossil documentation\nschemes:\n- type: apiKey\n  name: session cookie\n  evidence: If they match, the server sets a cookie on the client to record the login.\n  location: header\n  header: Cookie\n  how_to_obtain: Obtained after a successful login via the web interface; the server returns a Set-Cookie header.\n- type: http-basic\n  name: sync protocol credentials\n  evidence: The client normally gets the login and password from the \"remote URL\". http://login:password@servername.org/path\n  location: header\n  header: Authorization\n  how_to_obtain: Credentials are supplied as user:password\
   \ in the repository URL used for sync, push, pull, or clone operations.\ndocs: https://fossil-scm.org/home/doc/trunk/www/password.wiki\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fossil-scm/refs/heads/main/authentication/fossil-scm-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fossil-scm/authentication/fossil-scm-authentication.yml
 summary_line: 2 schemes
 tags:
 - Version Control

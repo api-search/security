@@ -5,25 +5,25 @@ api_specs:
   label: Weatherbys Bank ATM API
   slug: weatherbys-bank-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/openapi/weatherbys-bank-atm-api-openapi.yml
+  url: https://artifacts.apis.io/weatherbys-bank/openapi/weatherbys-bank-atm-api-openapi.yml
 - filename: weatherbys-bank-bca-api-openapi.yml
   format: yaml
   label: Weatherbys Bank BCA API
   slug: weatherbys-bank-bca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/openapi/weatherbys-bank-bca-api-openapi.yml
+  url: https://artifacts.apis.io/weatherbys-bank/openapi/weatherbys-bank-bca-api-openapi.yml
 - filename: weatherbys-bank-branch-api-openapi.yml
   format: yaml
   label: Weatherbys Bank Branch API
   slug: weatherbys-bank-branch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/openapi/weatherbys-bank-branch-api-openapi.yml
+  url: https://artifacts.apis.io/weatherbys-bank/openapi/weatherbys-bank-branch-api-openapi.yml
 - filename: weatherbys-bank-pca-api-openapi.yml
   format: yaml
   label: Weatherbys Bank PCA API
   slug: weatherbys-bank-pca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/openapi/weatherbys-bank-pca-api-openapi.yml
+  url: https://artifacts.apis.io/weatherbys-bank/openapi/weatherbys-bank-pca-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -67,7 +67,7 @@ source_filename: weatherbys-bank-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-23'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.weatherbys.bank\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 22 11:16:23 2027 GMT\n  hsts: true\n  hsts_max_age: 15768000\n- host: www.openbanking.org.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: openbanking.weatherbysbank.com\n  https: false\ndomains:\n- domain: weatherbys.bank\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: openbanking.org.uk\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/security/weatherbys-bank-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/weatherbys-bank/security/weatherbys-bank-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Financial Services

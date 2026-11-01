@@ -5,43 +5,43 @@ api_specs:
   label: Hume Bank Banking Account Balances API
   slug: hume-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/openapi/hume-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/hume-bank/openapi/hume-bank-banking-account-balances-api-openapi.yml
 - filename: hume-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Hume Bank Banking Account Direct Debits API
   slug: hume-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/openapi/hume-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/hume-bank/openapi/hume-bank-banking-account-direct-debits-api-openapi.yml
 - filename: hume-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Hume Bank Banking Account Scheduled Payments API
   slug: hume-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/openapi/hume-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/hume-bank/openapi/hume-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: hume-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Hume Bank Banking Account Transactions API
   slug: hume-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/openapi/hume-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/hume-bank/openapi/hume-bank-banking-account-transactions-api-openapi.yml
 - filename: hume-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Hume Bank Banking Accounts API
   slug: hume-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/openapi/hume-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/hume-bank/openapi/hume-bank-banking-accounts-api-openapi.yml
 - filename: hume-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Hume Bank Banking Payees API
   slug: hume-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/openapi/hume-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/hume-bank/openapi/hume-bank-banking-payees-api-openapi.yml
 - filename: hume-bank-banking-products-api-openapi.yml
   format: yaml
   label: Hume Bank Banking Products API
   slug: hume-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/openapi/hume-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/hume-bank/openapi/hume-bank-banking-products-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: hume-bank-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.humebank.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  6 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: ibankob.humebank.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 06:15:46 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: humebank.com.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\nnote: OpenAPI servers[] enumerate all ~90 Australian CDR data holders (shared multi-bank\n  spec); only Hume Bank hosts are probed here.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/security/hume-bank-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hume-bank/security/hume-bank-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Finance

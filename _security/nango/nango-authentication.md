@@ -7,31 +7,31 @@ api_specs:
   label: Nango Actions API
   slug: nango-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/openapi/nango-actions-api-openapi.yml
+  url: https://artifacts.apis.io/nango/openapi/nango-actions-api-openapi.yml
 - filename: nango-connections-api-openapi.yml
   format: yaml
   label: Nango Connections API
   slug: nango-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/openapi/nango-connections-api-openapi.yml
+  url: https://artifacts.apis.io/nango/openapi/nango-connections-api-openapi.yml
 - filename: nango-integrations-api-openapi.yml
   format: yaml
   label: Nango Integrations API
   slug: nango-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/openapi/nango-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/nango/openapi/nango-integrations-api-openapi.yml
 - filename: nango-proxy-api-openapi.yml
   format: yaml
   label: Nango Proxy API
   slug: nango-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/openapi/nango-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/nango/openapi/nango-proxy-api-openapi.yml
 - filename: nango-syncs-api-openapi.yml
   format: yaml
   label: Nango Syncs API
   slug: nango-syncs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/openapi/nango-syncs-api-openapi.yml
+  url: https://artifacts.apis.io/nango/openapi/nango-syncs-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: nango-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/nango-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Nango secret key supplied as a bearer token.\n  sources:\n  - openapi/nango-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/authentication/nango-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nango/authentication/nango-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - AI Agents

@@ -9,7 +9,7 @@ api_specs:
   label: Finnhub Default API
   slug: finnhub-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finnhub/refs/heads/main/openapi/finnhub-default-api-openapi.yml
+  url: https://artifacts.apis.io/finnhub/openapi/finnhub-default-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: finnhub-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/finnhub-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: tokenQuery\n  type: apiKey\n  in: query\n  parameter: token\n  sources:\n  - openapi/finnhub-openapi.yml\n- name: tokenHeader\n  type: apiKey\n  in: header\n  parameter: X-Finnhub-Token\n  sources:\n  - openapi/finnhub-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/finnhub/refs/heads/main/authentication/finnhub-authentication.yml
+source_yaml_url: https://artifacts.apis.io/finnhub/authentication/finnhub-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Finance

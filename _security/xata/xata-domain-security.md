@@ -5,73 +5,73 @@ api_specs:
   label: Xata API Keys API
   slug: xata-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-api-keys-api-openapi.yml
 - filename: xata-billing-api-openapi.yml
   format: yaml
   label: Xata Billing API
   slug: xata-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-billing-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-billing-api-openapi.yml
 - filename: xata-branches-api-openapi.yml
   format: yaml
   label: Xata Branches API
   slug: xata-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-branches-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-branches-api-openapi.yml
 - filename: xata-gateway-api-openapi.yml
   format: yaml
   label: Xata Gateway API
   slug: xata-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-gateway-api-openapi.yml
 - filename: xata-github-app-api-openapi.yml
   format: yaml
   label: Xata GitHub App API
   slug: xata-github-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-github-app-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-github-app-api-openapi.yml
 - filename: xata-logs-api-openapi.yml
   format: yaml
   label: Xata Logs API
   slug: xata-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-logs-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-logs-api-openapi.yml
 - filename: xata-marketplace-api-openapi.yml
   format: yaml
   label: Xata Marketplace API
   slug: xata-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-marketplace-api-openapi.yml
 - filename: xata-metrics-api-openapi.yml
   format: yaml
   label: Xata Metrics API
   slug: xata-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-metrics-api-openapi.yml
 - filename: xata-organizations-api-openapi.yml
   format: yaml
   label: Xata Organizations API
   slug: xata-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-organizations-api-openapi.yml
 - filename: xata-projects-api-openapi.yml
   format: yaml
   label: Xata Projects API
   slug: xata-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-projects-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-projects-api-openapi.yml
 - filename: xata-projects-webhooks-api-openapi.yml
   format: yaml
   label: Xata Projects Webhooks API
   slug: xata-projects-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-projects-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-projects-webhooks-api-openapi.yml
 - filename: xata-webhooks-api-openapi.yml
   format: yaml
   label: Xata Webhooks API
   slug: xata-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -117,7 +117,7 @@ source_filename: xata-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: xata.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 16:55:05 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.xata.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 06:40:25 2026 GMT\n  hsts: null\ndomains:\n- domain: xata.io\n  dnssec: false\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: xata.tech\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/security/xata-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/xata/security/xata-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Database

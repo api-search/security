@@ -27,12 +27,12 @@ source_filename: centre-for-sight-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.centreforsight.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 21 06:06:12 2026 GMT\n  hsts: false\ndomains:\n- domain: centreforsight.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/centre-for-sight/refs/heads/main/security/centre-for-sight-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/centre-for-sight/security/centre-for-sight-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Healthcare
 - Ophthalmology
-- EyeCare
+- Eye Care
 - Medical
 - United Kingdom
 ---

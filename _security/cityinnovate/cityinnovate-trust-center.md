@@ -17,7 +17,7 @@ source_filename: cityinnovate-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: searched\nprobe: true\nsource: https://authorium.com/security-and-compliance/\nurl: https://authorium.com/security-and-compliance/\ncertifications:\n- HIPAA\n- FedRAMP\n- FIPS 140\nevidence:\n- source: https://authorium.com/security-and-compliance/\n  keywords:\n  - hipaa\n  - fedramp\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cityinnovate/refs/heads/main/security/cityinnovate-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/cityinnovate/security/cityinnovate-trust-center.yml
 summary_line: HIPAA, FedRAMP, FIPS 140
 tags:
 - Government

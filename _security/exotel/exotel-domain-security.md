@@ -5,37 +5,37 @@ api_specs:
   label: Exotel AgentStream Voice Streaming API
   slug: exotel-agentstream-voice-streaming-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/asyncapi/exotel-asyncapi.yml
+  url: https://artifacts.apis.io/exotel/asyncapi/exotel-asyncapi.yml
 - filename: exotel-call-details-api-openapi.yml
   format: yaml
   label: Exotel Call Details API
   slug: exotel-call-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/openapi/exotel-call-details-api-openapi.yml
+  url: https://artifacts.apis.io/exotel/openapi/exotel-call-details-api-openapi.yml
 - filename: exotel-campaigns-api-openapi.yml
   format: yaml
   label: Exotel Campaigns API
   slug: exotel-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/openapi/exotel-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/exotel/openapi/exotel-campaigns-api-openapi.yml
 - filename: exotel-numbers-api-openapi.yml
   format: yaml
   label: Exotel Numbers API
   slug: exotel-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/openapi/exotel-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/exotel/openapi/exotel-numbers-api-openapi.yml
 - filename: exotel-sms-api-openapi.yml
   format: yaml
   label: Exotel SMS API
   slug: exotel-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/openapi/exotel-sms-api-openapi.yml
+  url: https://artifacts.apis.io/exotel/openapi/exotel-sms-api-openapi.yml
 - filename: exotel-voice-api-openapi.yml
   format: yaml
   label: Exotel Voice API
   slug: exotel-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/openapi/exotel-voice-api-openapi.yml
+  url: https://artifacts.apis.io/exotel/openapi/exotel-voice-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -93,7 +93,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + API/docs hosts\nhosts:\n- host: exotel.com\n  https: true\n  cert_issuer: 'C=US, O=Amazon, CN=Amazon RSA 2048 M04'\n  cert_not_before: Apr 17 00:00:00 2026 GMT\n  cert_expires: Oct 31 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  server: nginx/1.28.3\n- host: api.exotel.com\n  https: true\n  cert_issuer: 'C=US, O=Amazon, CN=Amazon RSA 2048 M04'\n  cert_not_before: Jun 15 00:00:00 2026 GMT\n  cert_expires: Dec 29 23:59:59 2026 GMT\n  hsts: false\n  server: Apache\n  notes: >-\n    API host (Singapore cluster). Returns HTTP 400 to an unauthenticated\n    root request, as expected for a credentialed API base.\n- host: developer.exotel.com\n  https: true\n  cert_issuer: 'C=US, O=Amazon, CN=Amazon RSA 2048 M04'\n  cert_not_before: Apr  2 00:00:00 2026 GMT\n  cert_expires: Oct 16 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  hsts_include_subdomains: true\n  hsts_preload:\
   \ true\n  server: Vercel\ndomains:\n- domain: exotel.com\n  dnssec: false\n  caa:\n  - '0 issue \"letsencrypt.org\"'\n  - '0 issue \"amazon.com\"'\n  - '0 issuewild \"amazon.com\"'\n  - '0 issuewild \"letsencrypt.org\"'\n  - '0 iodef \"mailto:itadmin@exotel.com\"'\n  spf: true\n  spf_record: 'v=spf1 include:_spf.google.com include:_spf.salesforce.com include:spf.secure.ravenmail.io include:aspmx.pardot.com include:stspg-customer.com -all'\n  dmarc: true\n  dmarc_policy: quarantine\n  dmarc_rua: 'mailto:team-it@exotel.com'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/security/exotel-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/exotel/security/exotel-domain-security.yml
 summary_line: HSTS · DMARC
 tags:
 - Cloud Telephony

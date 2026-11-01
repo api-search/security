@@ -7,61 +7,61 @@ api_specs:
   label: Sponge Agents API
   slug: sponge-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-agents-api-openapi.yml
+  url: https://artifacts.apis.io/sponge/openapi/sponge-agents-api-openapi.yml
 - filename: sponge-cards-api-openapi.yml
   format: yaml
   label: Sponge Cards API
   slug: sponge-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-cards-api-openapi.yml
+  url: https://artifacts.apis.io/sponge/openapi/sponge-cards-api-openapi.yml
 - filename: sponge-fiat-api-openapi.yml
   format: yaml
   label: Sponge Fiat API
   slug: sponge-fiat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-fiat-api-openapi.yml
+  url: https://artifacts.apis.io/sponge/openapi/sponge-fiat-api-openapi.yml
 - filename: sponge-mpp-api-openapi.yml
   format: yaml
   label: Sponge MPP API
   slug: sponge-mpp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-mpp-api-openapi.yml
+  url: https://artifacts.apis.io/sponge/openapi/sponge-mpp-api-openapi.yml
 - filename: sponge-payments-api-openapi.yml
   format: yaml
   label: Sponge Payments API
   slug: sponge-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-payments-api-openapi.yml
+  url: https://artifacts.apis.io/sponge/openapi/sponge-payments-api-openapi.yml
 - filename: sponge-secrets-api-openapi.yml
   format: yaml
   label: Sponge Secrets API
   slug: sponge-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/sponge/openapi/sponge-secrets-api-openapi.yml
 - filename: sponge-sponge-card-api-openapi.yml
   format: yaml
   label: Sponge Card API
   slug: sponge-sponge-card-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-sponge-card-api-openapi.yml
+  url: https://artifacts.apis.io/sponge/openapi/sponge-sponge-card-api-openapi.yml
 - filename: sponge-trading-api-openapi.yml
   format: yaml
   label: Sponge Trading API
   slug: sponge-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-trading-api-openapi.yml
+  url: https://artifacts.apis.io/sponge/openapi/sponge-trading-api-openapi.yml
 - filename: sponge-transfers-api-openapi.yml
   format: yaml
   label: Sponge Transfers API
   slug: sponge-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/sponge/openapi/sponge-transfers-api-openapi.yml
 - filename: sponge-wallet-api-openapi.yml
   format: yaml
   label: Sponge Wallet API
   slug: sponge-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/sponge/openapi/sponge-wallet-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -115,7 +115,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/sponge-openapi-original.json\ndocs: https://docs.paysponge.com/wallet/ai-agents.md\ndescription: >-\n  Sponge's public Wallet API authenticates with a per-agent bearer API key. A\n  browser device flow issues agent credentials interactively; agent keys are used\n  non-interactively for servers/CI. Separately, an OAuth 2.0 / OIDC authorization\n  server (S256 PKCE, dynamic client registration) fronts the hosted MCP servers\n  for connectors that support OAuth.\nsummary:\n  types:\n  - http\n  - oauth2\n  - openIdConnect\n  api_key_prefixes: [sponge_live_, sponge_test_]\n  oauth2_flows: [authorizationCode]\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: API Key\n  key_prefixes: [sponge_live_, sponge_test_]\n  env: SPONGE_API_KEY\n  sources:\n  - openapi/sponge-openapi-original.json\n  - https://docs.paysponge.com/wallet/ai-agents.md\n- name: DeviceFlow\n  type: oauth2-device\n  description:\
   \ SpongeWallet.connect() starts a browser-based device flow when no local credentials exist; credentials cached at ~/.spongewallet/credentials.json with owner-only permissions.\n  sources:\n  - https://docs.paysponge.com/wallet/ai-agents.md\n- name: OAuth2\n  type: oauth2\n  description: OAuth 2.0 authorization-code flow (S256 PKCE, dynamic client registration) fronting the hosted MCP servers.\n  authorization_url: https://api.wallet.paysponge.com/oauth/authorize\n  token_url: https://api.wallet.paysponge.com/oauth/token\n  scopes_ref: scopes/sponge-scopes.yml\n  sources:\n  - well-known/sponge-openid-configuration.json\n- name: SIWE\n  type: eip-4361\n  description: Sign-In With Ethereum (EIP-4361) signatures for endpoints that require them (POST /api/siwe/generate).\n  sources:\n  - https://sponge.md\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/authentication/sponge-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sponge/authentication/sponge-authentication.yml
 summary_line: http/oauth2/openIdConnect · 4 schemes
 tags:
 - Company

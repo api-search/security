@@ -23,7 +23,7 @@ source_filename: am-thyste-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.amethyste.moe\n  https: false\ndomains:\n- domain: amethyste.moe\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/am-thyste/refs/heads/main/security/am-thyste-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/am-thyste/security/am-thyste-domain-security.yml
 summary_line: DNSSEC
 tags:
 - Public APIs

@@ -28,7 +28,7 @@ source_filename: crewline-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: crewline.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 03:38:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: crewline.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crewline/refs/heads/main/security/crewline-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/crewline/security/crewline-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

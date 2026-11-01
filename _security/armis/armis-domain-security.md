@@ -5,67 +5,67 @@ api_specs:
   label: Armis Alerts API
   slug: armis-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-alerts-api-openapi.yml
 - filename: armis-arp-api-openapi.yml
   format: yaml
   label: Armis ARP API
   slug: armis-arp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-arp-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-arp-api-openapi.yml
 - filename: armis-assets-api-openapi.yml
   format: yaml
   label: Armis Assets API
   slug: armis-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-assets-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-assets-api-openapi.yml
 - filename: armis-authentication-api-openapi.yml
   format: yaml
   label: Armis Authentication API
   slug: armis-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-authentication-api-openapi.yml
 - filename: armis-boundaries-api-openapi.yml
   format: yaml
   label: Armis Boundaries API
   slug: armis-boundaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-boundaries-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-boundaries-api-openapi.yml
 - filename: armis-collectors-api-openapi.yml
   format: yaml
   label: Armis Collectors API
   slug: armis-collectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-collectors-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-collectors-api-openapi.yml
 - filename: armis-data-export-api-openapi.yml
   format: yaml
   label: Armis Data Export API
   slug: armis-data-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-data-export-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-data-export-api-openapi.yml
 - filename: armis-device-custom-properties-api-openapi.yml
   format: yaml
   label: Armis Device Custom Properties API
   slug: armis-device-custom-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-device-custom-properties-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-device-custom-properties-api-openapi.yml
 - filename: armis-integrations-api-openapi.yml
   format: yaml
   label: Armis Integrations API
   slug: armis-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-integrations-api-openapi.yml
 - filename: armis-policies-api-openapi.yml
   format: yaml
   label: Armis Policies API
   slug: armis-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-policies-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-policies-api-openapi.yml
 - filename: armis-sites-api-openapi.yml
   format: yaml
   label: Armis Sites API
   slug: armis-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-sites-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-sites-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -101,7 +101,7 @@ source_filename: armis-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.armis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  1 18:02:58 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: armis.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazontrust.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"globalsign.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/security/armis-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/armis/security/armis-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

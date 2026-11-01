@@ -5,43 +5,43 @@ api_specs:
   label: Qomplement API Keys API
   slug: qomplement-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/openapi/qomplement-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/qomplement/openapi/qomplement-api-keys-api-openapi.yml
 - filename: qomplement-extract-api-openapi.yml
   format: yaml
   label: Qomplement Extract API
   slug: qomplement-extract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/openapi/qomplement-extract-api-openapi.yml
+  url: https://artifacts.apis.io/qomplement/openapi/qomplement-extract-api-openapi.yml
 - filename: qomplement-fill-excel-api-openapi.yml
   format: yaml
   label: Qomplement Fill Excel API
   slug: qomplement-fill-excel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/openapi/qomplement-fill-excel-api-openapi.yml
+  url: https://artifacts.apis.io/qomplement/openapi/qomplement-fill-excel-api-openapi.yml
 - filename: qomplement-fill-pdf-api-openapi.yml
   format: yaml
   label: Qomplement Fill PDF API
   slug: qomplement-fill-pdf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/openapi/qomplement-fill-pdf-api-openapi.yml
+  url: https://artifacts.apis.io/qomplement/openapi/qomplement-fill-pdf-api-openapi.yml
 - filename: qomplement-health-api-openapi.yml
   format: yaml
   label: Qomplement Health API
   slug: qomplement-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/openapi/qomplement-health-api-openapi.yml
+  url: https://artifacts.apis.io/qomplement/openapi/qomplement-health-api-openapi.yml
 - filename: qomplement-jobs-api-openapi.yml
   format: yaml
   label: Qomplement Jobs API
   slug: qomplement-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/openapi/qomplement-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/qomplement/openapi/qomplement-jobs-api-openapi.yml
 - filename: qomplement-usage-api-openapi.yml
   format: yaml
   label: Qomplement Usage API
   slug: qomplement-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/openapi/qomplement-usage-api-openapi.yml
+  url: https://artifacts.apis.io/qomplement/openapi/qomplement-usage-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -78,7 +78,7 @@ source_filename: qomplement-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.qomplement.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 23:59:59 2026 GMT\n  hsts: false\n- host: developer-api.qomplement.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: qomplement.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 iodef \"mailto:andres@qomplement.com\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/security/qomplement-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/qomplement/security/qomplement-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -5,31 +5,31 @@ api_specs:
   label: SSH Authorized Keys API
   slug: ssh-authorized-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssh/refs/heads/main/openapi/ssh-authorized-keys-api-openapi.yml
+  url: https://artifacts.apis.io/ssh/openapi/ssh-authorized-keys-api-openapi.yml
 - filename: ssh-certificates-api-openapi.yml
   format: yaml
   label: SSH Certificates API
   slug: ssh-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssh/refs/heads/main/openapi/ssh-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/ssh/openapi/ssh-certificates-api-openapi.yml
 - filename: ssh-host-keys-api-openapi.yml
   format: yaml
   label: SSH Host Keys API
   slug: ssh-host-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssh/refs/heads/main/openapi/ssh-host-keys-api-openapi.yml
+  url: https://artifacts.apis.io/ssh/openapi/ssh-host-keys-api-openapi.yml
 - filename: ssh-keys-api-openapi.yml
   format: yaml
   label: SSH Keys API
   slug: ssh-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssh/refs/heads/main/openapi/ssh-keys-api-openapi.yml
+  url: https://artifacts.apis.io/ssh/openapi/ssh-keys-api-openapi.yml
 - filename: ssh-known-hosts-api-openapi.yml
   format: yaml
   label: SSH Known Hosts API
   slug: ssh-known-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssh/refs/heads/main/openapi/ssh-known-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/ssh/openapi/ssh-known-hosts-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: ssh-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.openssh.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 15:55:53 2026 GMT\n  hsts: false\n- host: goteleport.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 06:20:38 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: openssh.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: goteleport.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"ssl.com\"\n  - 0 iodef \"mailto:caa-reports@goteleport.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ssh/refs/heads/main/security/ssh-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ssh/security/ssh-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - SSH

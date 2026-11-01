@@ -5,55 +5,55 @@ api_specs:
   label: Spektr Action API
   slug: spektr-action-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-action-api-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-action-api-api-openapi.yml
 - filename: spektr-events-api-api-openapi.yml
   format: yaml
   label: Spektr Events API
   slug: spektr-events-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-events-api-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-events-api-api-openapi.yml
 - filename: spektr-execution-api-api-openapi.yml
   format: yaml
   label: Spektr Execution API
   slug: spektr-execution-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-execution-api-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-execution-api-api-openapi.yml
 - filename: spektr-import-api-api-openapi.yml
   format: yaml
   label: Spektr Import API
   slug: spektr-import-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-import-api-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-import-api-api-openapi.yml
 - filename: spektr-orchestration-api-api-openapi.yml
   format: yaml
   label: Spektr Orchestration API
   slug: spektr-orchestration-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-orchestration-api-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-orchestration-api-api-openapi.yml
 - filename: spektr-records-api-api-openapi.yml
   format: yaml
   label: Spektr Records API
   slug: spektr-records-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-records-api-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-records-api-api-openapi.yml
 - filename: spektr-transaction-definitions-api-openapi.yml
   format: yaml
   label: Spektr Transaction Definitions API
   slug: spektr-transaction-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-transaction-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-transaction-definitions-api-openapi.yml
 - filename: spektr-transactions-api-openapi.yml
   format: yaml
   label: Spektr Transactions API
   slug: spektr-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-transactions-api-openapi.yml
 - filename: spektr-workspace-fields-api-api-openapi.yml
   format: yaml
   label: Spektr Workspace Fields API
   slug: spektr-workspace-fields-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-workspace-fields-api-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-workspace-fields-api-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -72,7 +72,7 @@ source_filename: spektr-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nsource: https://www.spektr.com/trust\nurl: https://www.spektr.com/trust\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://www.spektr.com/trust\n  keywords:\n  - soc 2\n  - iso 27001\n  - iso/iec 27001\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/security/spektr-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/spektr/security/spektr-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company

@@ -7,7 +7,7 @@ api_specs:
   label: HookDeploy API
   slug: hookdeploy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeploy/refs/heads/main/openapi/_ae-authored/hookdeploy-openapi-generated.yml
+  url: https://artifacts.apis.io/hookdeploy/openapi/_ae-authored/hookdeploy-openapi-generated.yml
 auth_types: []
 description: HookDeploy authenticates API requests using API keys passed as Bearer tokens in the Authorization header.
 kind: authentication
@@ -33,12 +33,12 @@ source_filename: hookdeploy-authentication.yml
 source_heading: Authentication Profile
 source_url: https://hookdeploy.dev/docs/organizations/api-keys/
 source_yaml: "generated: '2026-10-18'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://hookdeploy.dev/docs/organizations/api-keys/\nsources:\n- https://hookdeploy.dev/docs/organizations/api-keys/\n- https://hookdeploy.dev/docs/api/overview/\n- https://hookdeploy.dev/docs/concepts/security/\n- https://hookdeploy.dev/docs/getting-started/introduction/\ndescription: HookDeploy authenticates API requests using API keys passed as Bearer tokens in the Authorization header.\nschemes:\n- type: http-bearer\n  name: Authorization\n  evidence: 'Every request, including GET /v1/health , requires an API key in the Authorization header: Authorization: Bearer hd_live_<your-key>'\n  location: header\n  header: Authorization\n  how_to_obtain: Create API keys in the dashboard under Settings → API Keys; the full key is shown once.\ndocs: https://hookdeploy.dev/docs/organizations/api-keys/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hookdeploy/refs/heads/main/authentication/hookdeploy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hookdeploy/authentication/hookdeploy-authentication.yml
 summary_line: 1 scheme
 tags:
-- Webhooks
+- Webhook
 - PrivateInfrastructure
 - Security
 - Integration
-- DeveloperTools
+- Developer Tools
 ---

@@ -7,73 +7,73 @@ api_specs:
   label: DataForSEO AiOptimization API
   slug: dataforseo-aioptimization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-aioptimization-api-openapi.yml
+  url: https://artifacts.apis.io/dataforseo/openapi/dataforseo-aioptimization-api-openapi.yml
 - filename: dataforseo-appendix-api-openapi.yml
   format: yaml
   label: DataForSEO Appendix API
   slug: dataforseo-appendix-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-appendix-api-openapi.yml
+  url: https://artifacts.apis.io/dataforseo/openapi/dataforseo-appendix-api-openapi.yml
 - filename: dataforseo-backlinks-api-openapi.yml
   format: yaml
   label: DataForSEO Backlinks API
   slug: dataforseo-backlinks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-backlinks-api-openapi.yml
+  url: https://artifacts.apis.io/dataforseo/openapi/dataforseo-backlinks-api-openapi.yml
 - filename: dataforseo-businessdata-api-openapi.yml
   format: yaml
   label: DataForSEO BusinessData API
   slug: dataforseo-businessdata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-businessdata-api-openapi.yml
+  url: https://artifacts.apis.io/dataforseo/openapi/dataforseo-businessdata-api-openapi.yml
 - filename: dataforseo-dataforseolabs-api-openapi.yml
   format: yaml
   label: DataForSEO DataforseoLabs API
   slug: dataforseo-dataforseolabs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-dataforseolabs-api-openapi.yml
+  url: https://artifacts.apis.io/dataforseo/openapi/dataforseo-dataforseolabs-api-openapi.yml
 - filename: dataforseo-domainanalytics-api-openapi.yml
   format: yaml
   label: DataForSEO DomainAnalytics API
   slug: dataforseo-domainanalytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-domainanalytics-api-openapi.yml
+  url: https://artifacts.apis.io/dataforseo/openapi/dataforseo-domainanalytics-api-openapi.yml
 - filename: dataforseo-keywordsdata-api-openapi.yml
   format: yaml
   label: DataForSEO KeywordsData API
   slug: dataforseo-keywordsdata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-keywordsdata-api-openapi.yml
+  url: https://artifacts.apis.io/dataforseo/openapi/dataforseo-keywordsdata-api-openapi.yml
 - filename: dataforseo-merchant-api-openapi.yml
   format: yaml
   label: DataForSEO Merchant API
   slug: dataforseo-merchant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-merchant-api-openapi.yml
+  url: https://artifacts.apis.io/dataforseo/openapi/dataforseo-merchant-api-openapi.yml
 - filename: dataforseo-onpage-api-openapi.yml
   format: yaml
   label: DataForSEO OnPage API
   slug: dataforseo-onpage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-onpage-api-openapi.yml
+  url: https://artifacts.apis.io/dataforseo/openapi/dataforseo-onpage-api-openapi.yml
 - filename: dataforseo-serp-api-openapi.yml
   format: yaml
   label: DataForSEO Serp API
   slug: dataforseo-serp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-serp-api-openapi.yml
+  url: https://artifacts.apis.io/dataforseo/openapi/dataforseo-serp-api-openapi.yml
 - filename: dataforseo-app-data-api-openapi.yml
   format: yaml
   label: DataForSEO App Data API
   slug: dataforseo-app-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-app-data-api-openapi.yml
+  url: https://artifacts.apis.io/dataforseo/openapi/dataforseo-app-data-api-openapi.yml
 - filename: dataforseo-content-analysis-api-openapi.yml
   format: yaml
   label: DataForSEO Content Analysis API
   slug: dataforseo-content-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-content-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/dataforseo/openapi/dataforseo-content-analysis-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -163,7 +163,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/*.yml (
   \   with status_code 40207.\n    sources:\n      - openapi/dataforseo-aioptimization-api-openapi.yml\n      - openapi/dataforseo-appdata-api-openapi.yml\n      - openapi/dataforseo-appendix-api-openapi.yml\n      - openapi/dataforseo-backlinks-api-openapi.yml\n      - openapi/dataforseo-businessdata-api-openapi.yml\n      - openapi/dataforseo-contentanalysis-api-openapi.yml\n      - openapi/dataforseo-dataforseolabs-api-openapi.yml\n      - openapi/dataforseo-domainanalytics-api-openapi.yml\n      - openapi/dataforseo-keywordsdata-api-openapi.yml\n      - openapi/dataforseo-merchant-api-openapi.yml\n      - openapi/dataforseo-onpage-api-openapi.yml\n      - openapi/dataforseo-serp-api-openapi.yml\n\n  - name: oauth2\n    type: oauth2\n    surface: MCP server (https://mcp.dataforseo.com)\n    issuer: https://data.dataforseo.com\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://data.dataforseo.com/oauth/authorize\n        tokenUrl: https://data.dataforseo.com/oauth/token\n\
   \        refreshable: true\n        scopes: {api: Access to the DataForSEO API, profile: Access to the account profile}\n    pkce: [S256]\n    token_endpoint_auth_methods: [none]\n    dynamic_client_registration: https://data.dataforseo.com/oauth/clients/register\n    revocation: https://data.dataforseo.com/oauth/tokens/revoke\n    bearer_methods_supported: [header]\n    discovery:\n      authorization_server_metadata: https://data.dataforseo.com/.well-known/oauth-authorization-server\n      protected_resource_metadata: https://mcp.dataforseo.com/.well-known/oauth-protected-resource\n    sources:\n      - well-known/dataforseo-oauth-authorization-server.json\n      - well-known/dataforseo-oauth-protected-resource.json\n    note: >-\n      Not declared in any OpenAPI document — discovered by probing the MCP host's\n      RFC 9728 metadata and the authorization server's RFC 8414 metadata.\n\n  - name: env-credentials\n    type: http\n    scheme: basic\n    surface: MCP stdio transport and\
   \ CLI\n    env: [DATAFORSEO_LOGIN, DATAFORSEO_PASSWORD]\n    note: >-\n      OAuth is not available on stdio or the CLI; those modes require the same\n      Basic credentials supplied through environment variables. On the HTTP\n      transport, env credentials are the fallback used when no Authorization\n      header is present.\n\nauth_errors:\n  - {code: 40100, meaning: not authorized / credentials do not match}\n  - {code: 40104, meaning: account not verified (email/phone verification required)}\n  - {code: 40201, meaning: unusual activity — account access restricted}\n  - {code: 40207, meaning: IP not whitelisted}\n\nrelated:\n  - {type: OAuthScopes, url: scopes/dataforseo-scopes.yml}\n  - {type: Conventions, url: conventions/dataforseo-conventions.yml}\n  - {type: MCPServer, url: mcp/dataforseo-mcp.yml}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/authentication/dataforseo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dataforseo/authentication/dataforseo-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
 - SEO

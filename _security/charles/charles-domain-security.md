@@ -5,43 +5,43 @@ api_specs:
   label: LINDAT Translation Languages API
   slug: charles-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/openapi/charles-languages-api-openapi.yml
+  url: https://artifacts.apis.io/charles/openapi/charles-languages-api-openapi.yml
 - filename: charles-models-api-openapi.yml
   format: yaml
   label: LINDAT Translation Models API
   slug: charles-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/openapi/charles-models-api-openapi.yml
+  url: https://artifacts.apis.io/charles/openapi/charles-models-api-openapi.yml
 - filename: charles-root-api-openapi.yml
   format: yaml
   label: LINDAT Translation Root API
   slug: charles-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/openapi/charles-root-api-openapi.yml
+  url: https://artifacts.apis.io/charles/openapi/charles-root-api-openapi.yml
 - filename: charles-udpipe-api-openapi.yml
   format: yaml
   label: LINDAT UDPipe API
   slug: lindat-udpipe
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/openapi/charles-udpipe-api-openapi.yml
+  url: https://artifacts.apis.io/charles/openapi/charles-udpipe-api-openapi.yml
 - filename: charles-nametag-api-openapi.yml
   format: yaml
   label: LINDAT NameTag API
   slug: lindat-nametag
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/openapi/charles-nametag-api-openapi.yml
+  url: https://artifacts.apis.io/charles/openapi/charles-nametag-api-openapi.yml
 - filename: charles-morphodita-api-openapi.yml
   format: yaml
   label: LINDAT MorphoDiTa API
   slug: lindat-morphodita
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/openapi/charles-morphodita-api-openapi.yml
+  url: https://artifacts.apis.io/charles/openapi/charles-morphodita-api-openapi.yml
 - filename: charles-korektor-api-openapi.yml
   format: yaml
   label: LINDAT Korektor API
   slug: lindat-korektor
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/openapi/charles-korektor-api-openapi.yml
+  url: https://artifacts.apis.io/charles/openapi/charles-korektor-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -87,7 +87,7 @@ source_filename: charles-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cuni.cz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 11:05:25 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: dspace.cuni.cz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 14:35:48 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: publications.cuni.cz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 14:35:36 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: cuni.cz\n  dnssec: true\n  caa:\n  - 0 iodef \"mailto:tcs@cuni.cz\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"harica.gr\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/security/charles-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/charles/security/charles-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - University

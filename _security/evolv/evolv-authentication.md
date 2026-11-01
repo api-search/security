@@ -8,7 +8,7 @@ api_specs:
   label: Evolv Participant API
   slug: evolv-participant-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/evolv/refs/heads/main/postman/evolv-participant-api.postman_collection.json
+  url: https://artifacts.apis.io/evolv/postman/evolv-participant-api.postman_collection.json
 auth_types:
 - apiKey
 - http
@@ -56,7 +56,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  Evolv-pub
   \ (every request path is\n    {{root_domain}}/{{participant_api_version}}/{{environment_id}}/...)\n  - evolv-ai/android-sdk EvolvConfig.java (DEFAULT_ENDPOINT https://participants.evolv.ai/v1)\n- name: participantUid\n  type: apiKey\n  in: query\n  description: >-\n    A participant/visitor identifier (uid), and optionally a session id (sid), identify the\n    subject of the request. They are carried as query parameters on the GET operations and\n    as form fields on the POST/PATCH operations. Both are minted and persisted by the Evolv\n    SDK (format `<random>_<epoch-millis>`), not issued by Evolv as an account credential —\n    they are identity, not authorization.\n  sources:\n  - postman/evolv-participant-api.postman_collection.json\n  - evolv-ai/javascript-sdk src/index.js\n- name: bearerToken\n  type: http\n  scheme: bearer\n  in: header\n  status: declared-not-observable\n  description: >-\n    Evolv's own published Postman collection declares collection-level auth of\n    `{\"\
   type\":\"bearer\",\"bearer\":{\"token\":\"<token>\"}}`, so a bearer token is the intended\n    credential for at least some Participant API usage. No published documentation\n    explains how that token is issued, scoped, rotated or revoked, and no individual\n    operation in the collection overrides or annotates it.\n  observability: >-\n    The declaration could not be confirmed against the live API anonymously. Unauthenticated\n    calls to the routed endpoints return HTTP 404 `{\"msg\":\"Not found\"}` rather than 401 or\n    403, so the API does not distinguish \"unauthenticated\" from \"unknown environment\" on the\n    wire and enforcement cannot be observed without a real environment id. Recorded as\n    declared by the provider, not as verified by probe.\n  sources:\n  - postman/evolv-participant-api.postman_collection.json (collection `auth` block)\nmanagement_api:\n  status: undocumented\n  detail: >-\n    Authoring and management of experiments happens in the Evolv Manager\
   \ console\n    (https://app.evolv.ai, HTTP 200, login required) and via the first-party\n    experiment-management-cli, both against an authenticated Evolv account. Evolv publishes\n    no reference for that management surface, so no scheme for it is recorded here.\ndocs: https://developers.evolv.ai/\nnotes: >-\n  There is no OAuth, no OpenID Connect, no scope model and no mTLS on the Evolv runtime\n  surface; `scopes/` is therefore correctly absent rather than empty. This profile is built\n  from Evolv's published Postman collection and SDK source because Evolv publishes no\n  OpenAPI. The bearer scheme is recorded exactly as strongly as the evidence supports —\n  declared by Evolv, unverifiable anonymously.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evolv/refs/heads/main/authentication/evolv-authentication.yml
+source_yaml_url: https://artifacts.apis.io/evolv/authentication/evolv-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Experimentation

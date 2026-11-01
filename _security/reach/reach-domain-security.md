@@ -27,7 +27,7 @@ source_filename: reach-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: reachpower.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 21:24:17 2026 GMT\n  hsts: false\ndomains:\n- domain: reachpower.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reach/refs/heads/main/security/reach-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/reach/security/reach-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

@@ -5,37 +5,37 @@ api_specs:
   label: Coviu Auth API
   slug: coviu-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/openapi/coviu-auth-api-openapi.yml
+  url: https://artifacts.apis.io/coviu/openapi/coviu-auth-api-openapi.yml
 - filename: coviu-collections-api-openapi.yml
   format: yaml
   label: Coviu Collections API
   slug: coviu-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/openapi/coviu-collections-api-openapi.yml
+  url: https://artifacts.apis.io/coviu/openapi/coviu-collections-api-openapi.yml
 - filename: coviu-participants-api-openapi.yml
   format: yaml
   label: Coviu Participants API
   slug: coviu-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/openapi/coviu-participants-api-openapi.yml
+  url: https://artifacts.apis.io/coviu/openapi/coviu-participants-api-openapi.yml
 - filename: coviu-sessions-api-openapi.yml
   format: yaml
   label: Coviu Sessions API
   slug: coviu-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/openapi/coviu-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/coviu/openapi/coviu-sessions-api-openapi.yml
 - filename: coviu-waiting-area-api-openapi.yml
   format: yaml
   label: Coviu Waiting Area API
   slug: coviu-waiting-area-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/openapi/coviu-waiting-area-api-openapi.yml
+  url: https://artifacts.apis.io/coviu/openapi/coviu-waiting-area-api-openapi.yml
 - filename: coviu-webhook-requests-api-openapi.yml
   format: yaml
   label: Coviu Webhook Requests API
   slug: coviu-webhook-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/openapi/coviu-webhook-requests-api-openapi.yml
+  url: https://artifacts.apis.io/coviu/openapi/coviu-webhook-requests-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: coviu-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-24'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.coviu.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: coviu.readme.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 13:12:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.coviu.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 18 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: coviu.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: readme.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/security/coviu-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/coviu/security/coviu-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Healthcare

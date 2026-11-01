@@ -7,61 +7,61 @@ api_specs:
   label: HyperTrack Authentication API
   slug: hypertrack-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypertrack/refs/heads/main/openapi/hypertrack-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/hypertrack/openapi/hypertrack-authentication-api-openapi.yml
 - filename: hypertrack-export-api-openapi.yml
   format: yaml
   label: HyperTrack Export API
   slug: hypertrack-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypertrack/refs/heads/main/openapi/hypertrack-export-api-openapi.yml
+  url: https://artifacts.apis.io/hypertrack/openapi/hypertrack-export-api-openapi.yml
 - filename: hypertrack-geotags-api-openapi.yml
   format: yaml
   label: HyperTrack Geotags API
   slug: hypertrack-geotags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypertrack/refs/heads/main/openapi/hypertrack-geotags-api-openapi.yml
+  url: https://artifacts.apis.io/hypertrack/openapi/hypertrack-geotags-api-openapi.yml
 - filename: hypertrack-nearby-api-openapi.yml
   format: yaml
   label: HyperTrack Nearby API
   slug: hypertrack-nearby-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypertrack/refs/heads/main/openapi/hypertrack-nearby-api-openapi.yml
+  url: https://artifacts.apis.io/hypertrack/openapi/hypertrack-nearby-api-openapi.yml
 - filename: hypertrack-orders-api-openapi.yml
   format: yaml
   label: HyperTrack Orders API
   slug: hypertrack-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypertrack/refs/heads/main/openapi/hypertrack-orders-api-openapi.yml
+  url: https://artifacts.apis.io/hypertrack/openapi/hypertrack-orders-api-openapi.yml
 - filename: hypertrack-places-api-openapi.yml
   format: yaml
   label: HyperTrack Places API
   slug: hypertrack-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypertrack/refs/heads/main/openapi/hypertrack-places-api-openapi.yml
+  url: https://artifacts.apis.io/hypertrack/openapi/hypertrack-places-api-openapi.yml
 - filename: hypertrack-tracking-api-openapi.yml
   format: yaml
   label: HyperTrack Tracking API
   slug: hypertrack-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypertrack/refs/heads/main/openapi/hypertrack-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/hypertrack/openapi/hypertrack-tracking-api-openapi.yml
 - filename: hypertrack-visits-api-openapi.yml
   format: yaml
   label: HyperTrack Visits API
   slug: hypertrack-visits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypertrack/refs/heads/main/openapi/hypertrack-visits-api-openapi.yml
+  url: https://artifacts.apis.io/hypertrack/openapi/hypertrack-visits-api-openapi.yml
 - filename: hypertrack-workerexport-api-openapi.yml
   format: yaml
   label: HyperTrack Worker Export API
   slug: hypertrack-workerexport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypertrack/refs/heads/main/openapi/hypertrack-workerexport-api-openapi.yml
+  url: https://artifacts.apis.io/hypertrack/openapi/hypertrack-workerexport-api-openapi.yml
 - filename: hypertrack-workers-api-openapi.yml
   format: yaml
   label: HyperTrack Workers API
   slug: hypertrack-workers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypertrack/refs/heads/main/openapi/hypertrack-workers-api-openapi.yml
+  url: https://artifacts.apis.io/hypertrack/openapi/hypertrack-workers-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-08-22'\nmethod: searched\nsource: >-\n  https://h
   \  token_endpoint_operation_id: postOauthToken\n  request_media_type: application/x-www-form-urlencoded\n  request_params:\n    required: [grant_type, client_id, client_secret]\n    optional: [scope]\n  response_fields: [access_token, token_type, expires_in]\n  token_lifetime: short-lived; expires_in returned per token, value not documented as a constant\n  errors:\n    '401': Invalid client credentials.\n    '400': Invalid parameters (missing embed_url or invalid grant_type).\n  scopes:\n    published: false\n    note: >-\n      The token endpoint accepts an optional space-delimited `scope` parameter but HyperTrack\n      publishes no scope names and no securityScheme declares scopes. No scopes/ artifact is\n      written, because deriving one would mean inventing scope strings.\nembed_tokens:\n  operation: POST /oauth/embed-token\n  operation_id: postOauthEmbedToken\n  summary: Secure embed view\n  purpose: Mints a scoped token authorising an embedded HyperTrack Ops view for a given\
   \ embed_url.\n  see: components/hypertrack-components.yml\nmobile_sdk_credential:\n  name: Publishable Key\n  where: AndroidManifest / Info.plist, key HyperTrackPublishableKey\n  docs: https://hypertrack.com/docs/sdk-config\n  note: >-\n    A distinct credential from the server-side SecretKey, shipped inside the customer's mobile app.\n    Confusing the two is the most likely credential mistake in a HyperTrack integration, so it is\n    recorded here explicitly.\nmcp_credential:\n  env: [HYPERTRACK_ACCOUNT_ID, HYPERTRACK_SECRET_KEY]\n  note: >-\n    The MCP server reuses the same AccountID/SecretKey pair. There is no scoped or read-only\n    credential to hand an agent — the read-only guarantee comes from the server's tool set, not\n    from the key. See mcp/hypertrack-mcp.yml.\nunauthenticated_surface:\n- operation: GET /tracking/{tracking_id}\n  note: The public order-tracking view; the only data operation in the contract with no security requirement.\n- operation: POST /oauth/token\n\
   - operation: POST /oauth/embed-token\nmtls: false\nopenid_connect: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hypertrack/refs/heads/main/authentication/hypertrack-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hypertrack/authentication/hypertrack-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Company
@@ -122,7 +122,7 @@ tags:
 - Tracking
 - Logistics
 - Last Mile Delivery
-- Field Service
+- Field Service Management
 - Workforce
 - Time and Attendance
 - Mobile SDK

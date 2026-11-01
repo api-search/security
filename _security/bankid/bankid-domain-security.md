@@ -5,43 +5,43 @@ api_specs:
   label: BankID Auth API
   slug: bankid-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankid/refs/heads/main/openapi/bankid-auth-api-openapi.yml
+  url: https://artifacts.apis.io/bankid/openapi/bankid-auth-api-openapi.yml
 - filename: bankid-cancel-api-openapi.yml
   format: yaml
   label: BankID Cancel API
   slug: bankid-cancel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankid/refs/heads/main/openapi/bankid-cancel-api-openapi.yml
+  url: https://artifacts.apis.io/bankid/openapi/bankid-cancel-api-openapi.yml
 - filename: bankid-collect-api-openapi.yml
   format: yaml
   label: BankID Collect API
   slug: bankid-collect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankid/refs/heads/main/openapi/bankid-collect-api-openapi.yml
+  url: https://artifacts.apis.io/bankid/openapi/bankid-collect-api-openapi.yml
 - filename: bankid-other-api-openapi.yml
   format: yaml
   label: BankID Other API
   slug: bankid-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankid/refs/heads/main/openapi/bankid-other-api-openapi.yml
+  url: https://artifacts.apis.io/bankid/openapi/bankid-other-api-openapi.yml
 - filename: bankid-payment-api-openapi.yml
   format: yaml
   label: BankID Payment API
   slug: bankid-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankid/refs/heads/main/openapi/bankid-payment-api-openapi.yml
+  url: https://artifacts.apis.io/bankid/openapi/bankid-payment-api-openapi.yml
 - filename: bankid-phone-api-openapi.yml
   format: yaml
   label: BankID Phone API
   slug: bankid-phone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankid/refs/heads/main/openapi/bankid-phone-api-openapi.yml
+  url: https://artifacts.apis.io/bankid/openapi/bankid-phone-api-openapi.yml
 - filename: bankid-sign-api-openapi.yml
   format: yaml
   label: BankID Sign API
   slug: bankid-sign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankid/refs/heads/main/openapi/bankid-sign-api-openapi.yml
+  url: https://artifacts.apis.io/bankid/openapi/bankid-sign-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -74,7 +74,7 @@ source_filename: bankid-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bankid.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: bankid.com\n  dnssec: true\n  caa:\n  - 0 iodef \"mailto:abuse@bankid.com\"\n  - 128 issue \"digicert.com\"\n  - 128 issuewild \";\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bankid/refs/heads/main/security/bankid-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bankid/security/bankid-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

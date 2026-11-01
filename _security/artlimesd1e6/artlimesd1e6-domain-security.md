@@ -27,7 +27,7 @@ source_filename: artlimesd1e6-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: artlimes.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 08:44:07 2026 GMT\n  hsts: false\ndomains:\n- domain: artlimes.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/artlimesd1e6/refs/heads/main/security/artlimesd1e6-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/artlimesd1e6/security/artlimesd1e6-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

@@ -5,169 +5,169 @@ api_specs:
   label: Oracle Cloud Infrastructure Alarms API
   slug: oracle-cloud-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-alarms-api-openapi.yml
 - filename: oracle-cloud-buckets-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Buckets API
   slug: oracle-cloud-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-buckets-api-openapi.yml
 - filename: oracle-cloud-compartments-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Compartments API
   slug: oracle-cloud-compartments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-compartments-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-compartments-api-openapi.yml
 - filename: oracle-cloud-groups-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Groups API
   slug: oracle-cloud-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-groups-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-groups-api-openapi.yml
 - filename: oracle-cloud-images-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Images API
   slug: oracle-cloud-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-images-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-images-api-openapi.yml
 - filename: oracle-cloud-instances-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Instances API
   slug: oracle-cloud-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-instances-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-instances-api-openapi.yml
 - filename: oracle-cloud-metrics-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Metrics API
   slug: oracle-cloud-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-metrics-api-openapi.yml
 - filename: oracle-cloud-namespaces-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Namespaces API
   slug: oracle-cloud-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-namespaces-api-openapi.yml
 - filename: oracle-cloud-objects-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Objects API
   slug: oracle-cloud-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-objects-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-objects-api-openapi.yml
 - filename: oracle-cloud-policies-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Policies API
   slug: oracle-cloud-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-policies-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-policies-api-openapi.yml
 - filename: oracle-cloud-preauthenticated-requests-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Preauthenticated Requests API
   slug: oracle-cloud-preauthenticated-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-preauthenticated-requests-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-preauthenticated-requests-api-openapi.yml
 - filename: oracle-cloud-shapes-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Shapes API
   slug: oracle-cloud-shapes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-shapes-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-shapes-api-openapi.yml
 - filename: oracle-cloud-users-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Users API
   slug: oracle-cloud-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-users-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-users-api-openapi.yml
 - filename: oracle-cloud-volume-attachments-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Volume Attachments API
   slug: oracle-cloud-volume-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-volume-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-volume-attachments-api-openapi.yml
 - filename: oracle-cloud-blockstorage-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Blockstorage API
   slug: oracle-cloud-blockstorage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-blockstorage-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-blockstorage-api-openapi.yml
 - filename: oracle-cloud-compute-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Compute API
   slug: oracle-cloud-compute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-compute-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-compute-api-openapi.yml
 - filename: oracle-cloud-computemanagement-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Compute Management API
   slug: oracle-cloud-computemanagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-computemanagement-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-computemanagement-api-openapi.yml
 - filename: oracle-cloud-containerengine-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Container Engine API
   slug: oracle-cloud-containerengine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-containerengine-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-containerengine-api-openapi.yml
 - filename: oracle-cloud-database-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Database API
   slug: oracle-cloud-database-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-database-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-database-api-openapi.yml
 - filename: oracle-cloud-events-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Events API
   slug: oracle-cloud-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-events-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-events-api-openapi.yml
 - filename: oracle-cloud-functionsinvoke-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Functions Invoke API
   slug: oracle-cloud-functionsinvoke-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-functionsinvoke-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-functionsinvoke-api-openapi.yml
 - filename: oracle-cloud-functionsmanagement-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Functions Management API
   slug: oracle-cloud-functionsmanagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-functionsmanagement-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-functionsmanagement-api-openapi.yml
 - filename: oracle-cloud-identity-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Identity API
   slug: oracle-cloud-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-identity-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-identity-api-openapi.yml
 - filename: oracle-cloud-monitoring-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Monitoring API
   slug: oracle-cloud-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-monitoring-api-openapi.yml
 - filename: oracle-cloud-notificationcontrolplane-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Notification Control Plane API
   slug: oracle-cloud-notificationcontrolplane-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-notificationcontrolplane-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-notificationcontrolplane-api-openapi.yml
 - filename: oracle-cloud-notificationdataplane-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Notification Data Plane API
   slug: oracle-cloud-notificationdataplane-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-notificationdataplane-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-notificationdataplane-api-openapi.yml
 - filename: oracle-cloud-virtualnetwork-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Virtual Network API
   slug: oracle-cloud-virtualnetwork-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-virtualnetwork-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-virtualnetwork-api-openapi.yml
 - filename: oracle-cloud-object-storage-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Object Storage API
   slug: oracle-cloud-object-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-object-storage-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-object-storage-api-openapi.yml
 certification_count: 27
 certifications:
 - SOC 1
@@ -213,7 +213,7 @@ source_yaml: "generated: '2026-08-29'\nmethod: searched\nsource: >-\n  https://w
   \ or geographic region.\"\ncertifications:\n  - {name: SOC 1, scope: attestation}\n  - {name: SOC 2, scope: attestation}\n  - {name: SOC 3, scope: attestation}\n  - {name: ISO/IEC 27001, scope: certification}\n  - {name: ISO/IEC 27017, scope: certification}\n  - {name: ISO/IEC 27018, scope: certification}\n  - {name: ISO/IEC 27701, scope: certification}\n  - {name: PCI DSS, scope: attestation}\n  - {name: HIPAA, scope: attestation}\n  - {name: HITRUST, scope: certification}\n  - {name: FedRAMP, scope: authorization, region: United States}\n  - {name: DoD Impact Levels, scope: authorization, region: United States}\n  - {name: CJIS, scope: attestation, region: United States}\n  - {name: ITAR, scope: attestation, region: United States}\n  - {name: IRAP, scope: assessment, region: Australia}\n  - {name: C5, scope: attestation, region: Germany}\n  - {name: ENS, scope: certification, region: Spain}\n  - {name: HDS, scope: certification, region: France}\n  - {name: G-Cloud / Cyber Essentials,\
   \ scope: certification, region: United Kingdom}\n  - {name: ISMAP, scope: registration, region: Japan}\n  - {name: K-ISMS, scope: certification, region: Korea}\n  - {name: MTCS, scope: certification, region: Singapore}\n  - {name: TISAX, scope: assessment, region: Europe (automotive)}\n  - {name: CSA STAR, scope: registry}\n  - {name: CSA AI STAR, scope: registry, note: 'Cloud Security Alliance assurance framework extended to AI systems.'}\n  - {name: GDPR, scope: regulatory alignment, region: European Union}\n  - {name: NIST, scope: framework alignment}\nshared_responsibility:\n  documented: true\n  statement: >-\n    Oracle publishes a shared management model on the same page: responsibility for security and\n    privacy is split between Oracle and the customer, and the split varies by service model\n    (IaaS/PaaS/SaaS).\nsubprocessors_page: null\nstatus_page: https://ocistatus.oraclecloud.com/\nnote: >-\n  Framework names were read from the live page body on 2026-08-29. Per-framework\
   \ scope beyond what\n  the page states (which services, which regions, current report dates) was not fetched and is not\n  asserted here.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/security/oracle-cloud-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/oracle-cloud/security/oracle-cloud-trust-center.yml
 summary_line: SOC 1, SOC 2, SOC 3, ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018, ISO/IEC 27701, PCI DSS, HIPAA, HITRUST, FedRAMP, DoD Impact Levels, CJIS, ITAR, IRAP, C5, ENS, HDS, G-Cloud / Cyber Essentials, ISMAP, K-ISMS, MTCS, TISAX, CSA STAR, CSA AI STAR, GDPR, NIST
 tags:
 - Cloud Computing

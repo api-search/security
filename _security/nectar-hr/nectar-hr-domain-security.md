@@ -5,37 +5,37 @@ api_specs:
   label: Nectar Analytics API
   slug: nectar-hr-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nectar-hr/refs/heads/main/openapi/nectar-hr-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/nectar-hr/openapi/nectar-hr-analytics-api-openapi.yml
 - filename: nectar-hr-custom-awards-api-openapi.yml
   format: yaml
   label: Nectar Custom Awards API
   slug: nectar-hr-custom-awards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nectar-hr/refs/heads/main/openapi/nectar-hr-custom-awards-api-openapi.yml
+  url: https://artifacts.apis.io/nectar-hr/openapi/nectar-hr-custom-awards-api-openapi.yml
 - filename: nectar-hr-flows-api-openapi.yml
   format: yaml
   label: Nectar Flows API
   slug: nectar-hr-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nectar-hr/refs/heads/main/openapi/nectar-hr-flows-api-openapi.yml
+  url: https://artifacts.apis.io/nectar-hr/openapi/nectar-hr-flows-api-openapi.yml
 - filename: nectar-hr-health-api-openapi.yml
   format: yaml
   label: Nectar Health API
   slug: nectar-hr-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nectar-hr/refs/heads/main/openapi/nectar-hr-health-api-openapi.yml
+  url: https://artifacts.apis.io/nectar-hr/openapi/nectar-hr-health-api-openapi.yml
 - filename: nectar-hr-recognition-api-openapi.yml
   format: yaml
   label: Nectar Recognition API
   slug: nectar-hr-recognition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nectar-hr/refs/heads/main/openapi/nectar-hr-recognition-api-openapi.yml
+  url: https://artifacts.apis.io/nectar-hr/openapi/nectar-hr-recognition-api-openapi.yml
 - filename: nectar-hr-users-api-openapi.yml
   format: yaml
   label: Nectar Users API
   slug: nectar-hr-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nectar-hr/refs/heads/main/openapi/nectar-hr-users-api-openapi.yml
+  url: https://artifacts.apis.io/nectar-hr/openapi/nectar-hr-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: nectar-hr-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: nectarhr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 21:52:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.nectarhr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 13:12:26 2026 GMT\n  hsts: null\ndomains:\n- domain: nectarhr.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nectar-hr/refs/heads/main/security/nectar-hr-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nectar-hr/security/nectar-hr-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Employee Recognition

@@ -1,35 +1,17 @@
 ---
 api_specs:
-- filename: archal-auth-api-openapi.yml
-  format: yaml
-  label: Archal Auth API
-  slug: archal-auth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archal/refs/heads/main/openapi/archal-auth-api-openapi.yml
-- filename: archal-catalog-api-openapi.yml
-  format: yaml
-  label: Archal Catalog API
-  slug: archal-catalog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archal/refs/heads/main/openapi/archal-catalog-api-openapi.yml
-- filename: archal-results-api-openapi.yml
-  format: yaml
-  label: Archal Results API
-  slug: archal-results-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archal/refs/heads/main/openapi/archal-results-api-openapi.yml
-- filename: archal-runtime-api-openapi.yml
-  format: yaml
-  label: Archal Runtime API
-  slug: archal-runtime-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archal/refs/heads/main/openapi/archal-runtime-api-openapi.yml
 - filename: archal-sessions-api-openapi.yml
   format: yaml
   label: Archal Sessions API
   slug: archal-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archal/refs/heads/main/openapi/archal-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/archal/openapi/archal-sessions-api-openapi.yml
+- filename: archal-environments-api-openapi.yml
+  format: yaml
+  label: Archal Environments API
+  slug: archal-environments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/archal/openapi/archal-environments-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -60,7 +42,7 @@ source_filename: archal-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: archal.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 04:04:30 2026 GMT\n  hsts: null\n- host: api.archal.ai\n  https: false\ndomains:\n- domain: archal.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/archal/refs/heads/main/security/archal-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/archal/security/archal-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

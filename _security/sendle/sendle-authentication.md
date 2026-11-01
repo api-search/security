@@ -7,31 +7,31 @@ api_specs:
   label: Sendle Orders API
   slug: sendle-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendle/refs/heads/main/openapi/sendle-orders-api-openapi.yml
+  url: https://artifacts.apis.io/sendle/openapi/sendle-orders-api-openapi.yml
 - filename: sendle-products-api-openapi.yml
   format: yaml
   label: Sendle Products & Quoting API
   slug: sendle-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendle/refs/heads/main/openapi/sendle-products-api-openapi.yml
+  url: https://artifacts.apis.io/sendle/openapi/sendle-products-api-openapi.yml
 - filename: sendle-tracking-api-openapi.yml
   format: yaml
   label: Sendle Tracking API
   slug: sendle-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendle/refs/heads/main/openapi/sendle-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/sendle/openapi/sendle-tracking-api-openapi.yml
 - filename: sendle-manifests-api-openapi.yml
   format: yaml
   label: Sendle Shipping Manifests API
   slug: sendle-manifests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendle/refs/heads/main/openapi/sendle-manifests-api-openapi.yml
+  url: https://artifacts.apis.io/sendle/openapi/sendle-manifests-api-openapi.yml
 - filename: sendle-utility-api-openapi.yml
   format: yaml
   label: Sendle Utility API
   slug: sendle-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendle/refs/heads/main/openapi/sendle-utility-api-openapi.yml
+  url: https://artifacts.apis.io/sendle/openapi/sendle-utility-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -61,7 +61,7 @@ source_filename: sendle-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: derived\nsource: openapi/sendle-manifests-api-openapi.yml, openapi/sendle-orders-api-openapi.yml, openapi/sendle-products-api-openapi.yml,\n  openapi/sendle-tracking-api-openapi.yml, openapi/sendle-utility-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/sendle-manifests-api-openapi.yml\n  - openapi/sendle-orders-api-openapi.yml\n  - openapi/sendle-products-api-openapi.yml\n  - openapi/sendle-tracking-api-openapi.yml\n  - openapi/sendle-utility-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sendle/refs/heads/main/authentication/sendle-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sendle/authentication/sendle-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Shipping

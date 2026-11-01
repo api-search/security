@@ -8,25 +8,25 @@ api_specs:
   label: BotSociety Conversations API
   slug: botsociety-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/botsociety/refs/heads/main/openapi/botsociety-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/botsociety/openapi/botsociety-conversations-api-openapi.yml
 - filename: botsociety-designs-api-openapi.yml
   format: yaml
   label: BotSociety Designs API
   slug: botsociety-designs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/botsociety/refs/heads/main/openapi/botsociety-designs-api-openapi.yml
+  url: https://artifacts.apis.io/botsociety/openapi/botsociety-designs-api-openapi.yml
 - filename: botsociety-messages-api-openapi.yml
   format: yaml
   label: BotSociety Messages API
   slug: botsociety-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/botsociety/refs/heads/main/openapi/botsociety-messages-api-openapi.yml
+  url: https://artifacts.apis.io/botsociety/openapi/botsociety-messages-api-openapi.yml
 - filename: botsociety-variables-api-openapi.yml
   format: yaml
   label: BotSociety Variables API
   slug: botsociety-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/botsociety/refs/heads/main/openapi/botsociety-variables-api-openapi.yml
+  url: https://artifacts.apis.io/botsociety/openapi/botsociety-variables-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -61,7 +61,7 @@ source_filename: botsociety-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/botsociety-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: user_id\n  type: apiKey\n  in: header\n  parameter: user_id\n  description: The Botsociety user id, obtained from the Botsociety app.\n  sources:\n  - openapi/botsociety-openapi.yml\n- name: api_key_public\n  type: apiKey\n  in: header\n  parameter: api_key_public\n  description: The Botsociety public API key, obtained from the Botsociety app.\n  sources:\n  - openapi/botsociety-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/botsociety/refs/heads/main/authentication/botsociety-authentication.yml
+source_yaml_url: https://artifacts.apis.io/botsociety/authentication/botsociety-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company

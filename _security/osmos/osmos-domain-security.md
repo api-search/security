@@ -27,7 +27,7 @@ source_filename: osmos-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: osmos.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 17:13:46 2026 GMT\n  hsts: null\ndomains:\n- domain: osmos.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/osmos/refs/heads/main/security/osmos-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/osmos/security/osmos-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

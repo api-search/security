@@ -7,25 +7,25 @@ api_specs:
   label: Universität Hamburg Communities API
   slug: universitat-hamburg-communities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/universitat-hamburg/refs/heads/main/openapi/universitat-hamburg-communities-api-openapi.yml
+  url: https://artifacts.apis.io/universitat-hamburg/openapi/universitat-hamburg-communities-api-openapi.yml
 - filename: universitat-hamburg-files-api-openapi.yml
   format: yaml
   label: Universität Hamburg Files API
   slug: universitat-hamburg-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/universitat-hamburg/refs/heads/main/openapi/universitat-hamburg-files-api-openapi.yml
+  url: https://artifacts.apis.io/universitat-hamburg/openapi/universitat-hamburg-files-api-openapi.yml
 - filename: universitat-hamburg-licenses-api-openapi.yml
   format: yaml
   label: Universität Hamburg Licenses API
   slug: universitat-hamburg-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/universitat-hamburg/refs/heads/main/openapi/universitat-hamburg-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/universitat-hamburg/openapi/universitat-hamburg-licenses-api-openapi.yml
 - filename: universitat-hamburg-records-api-openapi.yml
   format: yaml
   label: Universität Hamburg Records API
   slug: universitat-hamburg-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/universitat-hamburg/refs/heads/main/openapi/universitat-hamburg-records-api-openapi.yml
+  url: https://artifacts.apis.io/universitat-hamburg/openapi/universitat-hamburg-records-api-openapi.yml
 auth_types: []
 description: Universität Hamburg's public read surfaces are open and unauthenticated. Write access to the research-data repository, and access to every campus system, runs through the institution's own Shibboleth/SAML 2.0 Identity Provider — which is itself the institution's strongest machine-readable surface.
 kind: authentication
@@ -69,7 +69,7 @@ source_yaml: "specification: API Commons Authentication\nspecificationVersion: '
   \     - https://ediss.sub.uni-hamburg.de/oai/request\n      - https://hup.sub.uni-hamburg.de/index.php/index/oai\n      - https://journals.sub.uni-hamburg.de/index.php/index/oai\n      - https://digitalisate.sub.uni-hamburg.de/oai\n    detail: >-\n      No credential of any kind is required. Verified 2026-09-01: all six return\n      200 with no Authorization header sent. The ZFDM API additionally sets\n      `Access-Control-Allow-Origin: *`, so browser clients can call it directly.\n  - name: bearer-token\n    applies_to:\n      - https://www.fdr.uni-hamburg.de/api/deposit/depositions\n    detail: >-\n      Deposit (write) paths are credentialed. Verified 2026-09-01 returning\n      HTTP 401 with a JSON body stating that the server could not verify\n      authorization. Token issuance is account-based and is not self-service;\n      no public registration flow was found.\n  - name: saml2-shibboleth\n    applies_to:\n      - STiNE campus management (https://www.stine.uni-hamburg.de/)\n\
   \      - RRZ GitLab (https://gitlab.rrz.uni-hamburg.de/)\n      - Licensed library and e-resource services\n    detail: >-\n      Federated single sign-on via the institution's own Shibboleth IdP,\n      entityID https://login.uni-hamburg.de/idp/shibboleth, registered in DFN-AAI\n      (registrationAuthority https://www.aai.dfn.de) and thereby in eduGAIN.\n      Metadata is served at the entityID URL and via the DFN-AAI MDQ service.\n      The IdP asserts support for the REFEDS Research & Scholarship entity\n      category and the GÉANT Data Protection Code of Conduct v1.\n    metadata_url: https://login.uni-hamburg.de/idp/shibboleth\n    federation: DFN-AAI (eduGAIN)\nnot_offered:\n  - oauth2_authorization_code\n  - oauth2_client_credentials\n  - dynamic_client_registration\n  - api_key_self_service\nnotes: >-\n  No OAuth 2.0 authorization server, no RFC 9728 protected-resource metadata and\n  no /.well-known catalog were found on any uni-hamburg.de host; /llms.txt and\n  /.well-known/security.txt\
   \ on www.uni-hamburg.de both return 404.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/universitat-hamburg/refs/heads/main/authentication/universitat-hamburg-authentication.yml
+source_yaml_url: https://artifacts.apis.io/universitat-hamburg/authentication/universitat-hamburg-authentication.yml
 summary_line: 3 schemes
 tags:
 - Education

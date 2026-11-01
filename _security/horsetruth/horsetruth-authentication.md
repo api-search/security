@@ -7,37 +7,37 @@ api_specs:
   label: Horse Truth Horses API
   slug: horsetruth-horses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horsetruth/refs/heads/main/openapi/horsetruth-horses-api-openapi.yml
+  url: https://artifacts.apis.io/horsetruth/openapi/horsetruth-horses-api-openapi.yml
 - filename: horsetruth-identity-api-openapi.yml
   format: yaml
   label: Horse Truth Identity API
   slug: horsetruth-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horsetruth/refs/heads/main/openapi/horsetruth-identity-api-openapi.yml
+  url: https://artifacts.apis.io/horsetruth/openapi/horsetruth-identity-api-openapi.yml
 - filename: horsetruth-machine-api-openapi.yml
   format: yaml
   label: Horse Truth Machine API
   slug: horsetruth-machine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horsetruth/refs/heads/main/openapi/horsetruth-machine-api-openapi.yml
+  url: https://artifacts.apis.io/horsetruth/openapi/horsetruth-machine-api-openapi.yml
 - filename: horsetruth-mcp-api-openapi.yml
   format: yaml
   label: Horse Truth MCP API
   slug: horsetruth-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horsetruth/refs/heads/main/openapi/horsetruth-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/horsetruth/openapi/horsetruth-mcp-api-openapi.yml
 - filename: horsetruth-sandbox-api-openapi.yml
   format: yaml
   label: Horse Truth Sandbox API
   slug: horsetruth-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horsetruth/refs/heads/main/openapi/horsetruth-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/horsetruth/openapi/horsetruth-sandbox-api-openapi.yml
 - filename: horsetruth-x402-api-openapi.yml
   format: yaml
   label: Horse Truth X402 API
   slug: horsetruth-x402-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horsetruth/refs/heads/main/openapi/horsetruth-x402-api-openapi.yml
+  url: https://artifacts.apis.io/horsetruth/openapi/horsetruth-x402-api-openapi.yml
 auth_types: []
 description: Authentication schemes for Horse Truth API
 kind: authentication
@@ -62,7 +62,7 @@ source_filename: horsetruth-authentication.yml
 source_heading: Authentication Profile
 source_url: https://horsetruth.com.au/developers/machine
 source_yaml: "generated: '2026-10-14'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://horsetruth.com.au/developers/machine\nsources:\n- https://horsetruth.com.au/developers/machine\ndescription: Authentication schemes for Horse Truth API\nschemes:\n- type: other\n  name: x402 payment signature\n  evidence: With x402 the first reply is HTTP 402 with a PAYMENT-REQUIRED header (base64 JSON). Sign it, send PAYMENT-SIGNATURE , and retry the\n    same request.\n  location: header\n  header: PAYMENT-SIGNATURE\ndocs: https://horsetruth.com.au/developers/machine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/horsetruth/refs/heads/main/authentication/horsetruth-authentication.yml
+source_yaml_url: https://artifacts.apis.io/horsetruth/authentication/horsetruth-authentication.yml
 summary_line: 1 scheme
 tags:
 - Racehorse Intelligence

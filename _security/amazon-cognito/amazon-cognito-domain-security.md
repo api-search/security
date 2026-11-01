@@ -5,13 +5,43 @@ api_specs:
   label: Amazon Cognito Amazon Cognito Identity API
   slug: amazon-cognito-amazon-cognito-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cognito/refs/heads/main/openapi/amazon-cognito-amazon-cognito-identity-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-cognito/openapi/amazon-cognito-amazon-cognito-identity-api-openapi.yml
 - filename: amazon-cognito-amazon-cognito-identity-provider-api-openapi.yml
   format: yaml
   label: Amazon Cognito Amazon Cognito Identity Provider API
   slug: amazon-cognito-amazon-cognito-identity-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cognito/refs/heads/main/openapi/amazon-cognito-amazon-cognito-identity-provider-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-cognito/openapi/amazon-cognito-amazon-cognito-identity-provider-api-openapi.yml
+- filename: amazon-cognito-managed-login-branding-api-openapi.yml
+  format: yaml
+  label: Amazon Cognito Cognito Managed Login Branding API
+  slug: amazon-cognito-managed-login-branding-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cognito/openapi/amazon-cognito-managed-login-branding-api-openapi.yml
+- filename: amazon-cognito-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Cognito Cognito Operations API
+  slug: amazon-cognito-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cognito/openapi/amazon-cognito-operations-api-openapi.yml
+- filename: amazon-cognito-term-api-openapi.yml
+  format: yaml
+  label: Amazon Cognito Cognito Term API
+  slug: amazon-cognito-term-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cognito/openapi/amazon-cognito-term-api-openapi.yml
+- filename: amazon-cognito-user-pool-client-secret-api-openapi.yml
+  format: yaml
+  label: Amazon Cognito Cognito User Pool Client Secret API
+  slug: amazon-cognito-user-pool-client-secret-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cognito/openapi/amazon-cognito-user-pool-client-secret-api-openapi.yml
+- filename: amazon-cognito-user-pool-replica-api-openapi.yml
+  format: yaml
+  label: Amazon Cognito Cognito User Pool Replica API
+  slug: amazon-cognito-user-pool-replica-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cognito/openapi/amazon-cognito-user-pool-replica-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +88,7 @@ source_filename: amazon-cognito-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: docs.aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: cognito-idp.us-east-1.amazonaws.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 20 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-cognito/refs/heads/main/security/amazon-cognito-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amazon-cognito/security/amazon-cognito-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Authentication

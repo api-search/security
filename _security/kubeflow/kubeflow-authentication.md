@@ -7,25 +7,25 @@ api_specs:
   label: Kubeflow Experiments API
   slug: kubeflow-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeflow/refs/heads/main/openapi/kubeflow-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/kubeflow/openapi/kubeflow-experiments-api-openapi.yml
 - filename: kubeflow-health-api-openapi.yml
   format: yaml
   label: Kubeflow Health API
   slug: kubeflow-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeflow/refs/heads/main/openapi/kubeflow-health-api-openapi.yml
+  url: https://artifacts.apis.io/kubeflow/openapi/kubeflow-health-api-openapi.yml
 - filename: kubeflow-pipelines-api-openapi.yml
   format: yaml
   label: Kubeflow Pipelines API
   slug: kubeflow-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeflow/refs/heads/main/openapi/kubeflow-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/kubeflow/openapi/kubeflow-pipelines-api-openapi.yml
 - filename: kubeflow-pipeline-versions-api-openapi.yml
   format: yaml
   label: Kubeflow Pipeline Versions API
   slug: kubeflow-pipeline-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeflow/refs/heads/main/openapi/kubeflow-pipeline-versions-api-openapi.yml
+  url: https://artifacts.apis.io/kubeflow/openapi/kubeflow-pipeline-versions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: kubeflow-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/kubeflow-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token issued by your Kubeflow distribution's identity provider. Some deployments\n    use a session cookie instead.\n  sources:\n  - openapi/kubeflow-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kubeflow/refs/heads/main/authentication/kubeflow-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kubeflow/authentication/kubeflow-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

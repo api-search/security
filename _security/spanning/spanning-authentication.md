@@ -8,19 +8,19 @@ api_specs:
   label: Spanning Exports API
   slug: spanning-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spanning/refs/heads/main/openapi/spanning-exports-api-openapi.yml
+  url: https://artifacts.apis.io/spanning/openapi/spanning-exports-api-openapi.yml
 - filename: spanning-shared-drives-api-openapi.yml
   format: yaml
   label: Spanning Shared Drives API
   slug: spanning-shared-drives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spanning/refs/heads/main/openapi/spanning-shared-drives-api-openapi.yml
+  url: https://artifacts.apis.io/spanning/openapi/spanning-shared-drives-api-openapi.yml
 - filename: spanning-users-api-openapi.yml
   format: yaml
   label: Spanning Users API
   slug: spanning-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spanning/refs/heads/main/openapi/spanning-users-api-openapi.yml
+  url: https://artifacts.apis.io/spanning/openapi/spanning-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: spanning-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/spanning-google-workspace-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Spanning API token obtained from Settings > Backup and Security > API Token in\n    the admin portal\n  sources:\n  - openapi/spanning-google-workspace-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spanning/refs/heads/main/authentication/spanning-authentication.yml
+source_yaml_url: https://artifacts.apis.io/spanning/authentication/spanning-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Data Protection

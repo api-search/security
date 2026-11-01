@@ -7,13 +7,13 @@ api_specs:
   label: QA Wolf CI API
   slug: qa-wolf-ci-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/openapi/qa-wolf-ci-api-openapi.yml
+  url: https://artifacts.apis.io/qa-wolf/openapi/qa-wolf-ci-api-openapi.yml
 - filename: qa-wolf-webhooks-api-openapi.yml
   format: yaml
   label: QA Wolf Webhooks API
   slug: qa-wolf-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/openapi/qa-wolf-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/qa-wolf/openapi/qa-wolf-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,15 +40,14 @@ source_filename: qa-wolf-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/qa-wolf-rest-openapi.yml\ndocs: https://docs.qawolf.com/qawolf/local-execution/authenticate\nnotes: >-\n  API access uses a workspace API key (QAWOLF_API_KEY) passed as a bearer token\n  in the Authorization header. Platform sign-in additionally supports SSO via an\n  identity provider (Okta, OneLogin, Entra ID) and MFA. Inbound bug-tracker\n  webhooks from QA Wolf can carry optional HTTP basic auth.\nsso:\n  supported: true\n  providers: [Okta, OneLogin, Entra ID]\n  docs: https://docs.qawolf.com/qawolf/sso\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token using the workspace API key (QAWOLF_API_KEY). Find the key in the\n    platform under Workspace Settings -> Integrations -> API Access.\n  sources:\n  - openapi/qa-wolf-rest-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/authentication/qa-wolf-authentication.yml
+source_yaml_url: https://artifacts.apis.io/qa-wolf/authentication/qa-wolf-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company
-- DevTools
+- Developer Tools
 - Testing
 - Test Automation
 - QA
 - CI/CD
 - Playwright
-- Developer Tools
 ---

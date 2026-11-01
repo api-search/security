@@ -33,7 +33,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.advisorcheck.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  3 01:56:51 2026 GMT\n  hsts: null\n- host: api.advisorcheck.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 29 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: advisorcheck.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\nnote: Probed 2026-09-09. Neither host sets Strict-Transport-Security (no HSTS on the Vercel front end\n  or the AWS API Gateway host). advisorcheck.com publishes NO DNSSEC and NO CAA record, and DMARC is present\n  but set to p=none (monitor only, no enforcement). DNS also carries THREE conflicting v=spf1 TXT records\n  (Outlook/SES, Zoho One, Zoho zcsend) — RFC 7208 permits exactly one, so receivers must return permerror\n  and SPF is effectively unenforceable on this domain. www.advisorcheck.com is Vercel\
   \ (cname.vercel-dns.com);\n  api.advisorcheck.com is an AWS API Gateway custom domain; help.advisorcheck.com is Gleap (customers.gleap.help).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/advisorcheck/refs/heads/main/security/advisorcheck-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/advisorcheck/security/advisorcheck-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

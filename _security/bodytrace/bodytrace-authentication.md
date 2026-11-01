@@ -7,31 +7,31 @@ api_specs:
   label: BodyTrace Alerts API
   slug: bodytrace-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bodytrace/refs/heads/main/openapi/bodytrace-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/bodytrace/openapi/bodytrace-alerts-api-openapi.yml
 - filename: bodytrace-data-messages-api-openapi.yml
   format: yaml
   label: BodyTrace Data Messages API
   slug: bodytrace-data-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bodytrace/refs/heads/main/openapi/bodytrace-data-messages-api-openapi.yml
+  url: https://artifacts.apis.io/bodytrace/openapi/bodytrace-data-messages-api-openapi.yml
 - filename: bodytrace-devices-api-openapi.yml
   format: yaml
   label: BodyTrace Devices API
   slug: bodytrace-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bodytrace/refs/heads/main/openapi/bodytrace-devices-api-openapi.yml
+  url: https://artifacts.apis.io/bodytrace/openapi/bodytrace-devices-api-openapi.yml
 - filename: bodytrace-observations-api-openapi.yml
   format: yaml
   label: BodyTrace Observations API
   slug: bodytrace-observations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bodytrace/refs/heads/main/openapi/bodytrace-observations-api-openapi.yml
+  url: https://artifacts.apis.io/bodytrace/openapi/bodytrace-observations-api-openapi.yml
 - filename: bodytrace-provisioning-api-openapi.yml
   format: yaml
   label: BodyTrace Provisioning API
   slug: bodytrace-provisioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bodytrace/refs/heads/main/openapi/bodytrace-provisioning-api-openapi.yml
+  url: https://artifacts.apis.io/bodytrace/openapi/bodytrace-provisioning-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: bodytrace-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bodytrace-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication using the username and password issued by BodyTrace\n    for your account. The same credential model secures the customer-hosted push endpoint (you\n    define the username/password BodyTrace uses when POSTing measurements to you).\n  sources:\n  - openapi/bodytrace-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bodytrace/refs/heads/main/authentication/bodytrace-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bodytrace/authentication/bodytrace-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Remote Patient Monitoring

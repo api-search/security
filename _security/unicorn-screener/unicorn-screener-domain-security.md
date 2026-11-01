@@ -5,25 +5,25 @@ api_specs:
   label: Unicorn Screener Agent API
   slug: unicorn-screener-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unicorn-screener/refs/heads/main/openapi/unicorn-screener-agent-api-openapi.yml
+  url: https://artifacts.apis.io/unicorn-screener/openapi/unicorn-screener-agent-api-openapi.yml
 - filename: unicorn-screener-autocomplete-api-openapi.yml
   format: yaml
   label: Unicorn Screener Autocomplete API
   slug: unicorn-screener-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unicorn-screener/refs/heads/main/openapi/unicorn-screener-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/unicorn-screener/openapi/unicorn-screener-autocomplete-api-openapi.yml
 - filename: unicorn-screener-request-report-api-openapi.yml
   format: yaml
   label: Unicorn Screener Request Report API
   slug: unicorn-screener-request-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unicorn-screener/refs/heads/main/openapi/unicorn-screener-request-report-api-openapi.yml
+  url: https://artifacts.apis.io/unicorn-screener/openapi/unicorn-screener-request-report-api-openapi.yml
 - filename: unicorn-screener-screen-status-api-openapi.yml
   format: yaml
   label: Unicorn Screener Screen Status API
   slug: unicorn-screener-screen-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unicorn-screener/refs/heads/main/openapi/unicorn-screener-screen-status-api-openapi.yml
+  url: https://artifacts.apis.io/unicorn-screener/openapi/unicorn-screener-screen-status-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: unicorn-screener-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-10'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: unicornscreener.vc\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 19 19:59:10 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: unicornscreener.vc\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unicorn-screener/refs/heads/main/security/unicorn-screener-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/unicorn-screener/security/unicorn-screener-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Venture Capital

@@ -5,37 +5,37 @@ api_specs:
   label: Pandium Connector Calls API
   slug: pandium-connector-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/openapi/pandium-connector-calls-api-openapi.yml
+  url: https://artifacts.apis.io/pandium/openapi/pandium-connector-calls-api-openapi.yml
 - filename: pandium-integrations-api-openapi.yml
   format: yaml
   label: Pandium Integrations API
   slug: pandium-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/openapi/pandium-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/pandium/openapi/pandium-integrations-api-openapi.yml
 - filename: pandium-runs-api-openapi.yml
   format: yaml
   label: Pandium Runs API
   slug: pandium-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/openapi/pandium-runs-api-openapi.yml
+  url: https://artifacts.apis.io/pandium/openapi/pandium-runs-api-openapi.yml
 - filename: pandium-tenant-metadata-api-openapi.yml
   format: yaml
   label: Pandium Tenant Metadata API
   slug: pandium-tenant-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/openapi/pandium-tenant-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/pandium/openapi/pandium-tenant-metadata-api-openapi.yml
 - filename: pandium-tenants-api-openapi.yml
   format: yaml
   label: Pandium Tenants API
   slug: pandium-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/openapi/pandium-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/pandium/openapi/pandium-tenants-api-openapi.yml
 - filename: pandium-builds-api-openapi.yml
   format: yaml
   label: Pandium Builds API
   slug: pandium-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/openapi/pandium-builds-api-openapi.yml
+  url: https://artifacts.apis.io/pandium/openapi/pandium-builds-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -80,7 +80,7 @@ source_filename: pandium-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.pandium.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 08:09:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.pandium.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 09:42:35 2026 GMT\n  hsts: null\n- host: api.sandbox.pandium.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 15:36:48 2026 GMT\n  hsts: null\ndomains:\n- domain: pandium.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: pandium.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/security/pandium-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pandium/security/pandium-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - B2B

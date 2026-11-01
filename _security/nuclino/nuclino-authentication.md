@@ -8,37 +8,37 @@ api_specs:
   label: Nuclino Collections API
   slug: nuclino-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/openapi/nuclino-collections-api-openapi.yml
+  url: https://artifacts.apis.io/nuclino/openapi/nuclino-collections-api-openapi.yml
 - filename: nuclino-files-api-openapi.yml
   format: yaml
   label: Nuclino Files API
   slug: nuclino-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/openapi/nuclino-files-api-openapi.yml
+  url: https://artifacts.apis.io/nuclino/openapi/nuclino-files-api-openapi.yml
 - filename: nuclino-items-api-openapi.yml
   format: yaml
   label: Nuclino Items API
   slug: nuclino-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/openapi/nuclino-items-api-openapi.yml
+  url: https://artifacts.apis.io/nuclino/openapi/nuclino-items-api-openapi.yml
 - filename: nuclino-teams-api-openapi.yml
   format: yaml
   label: Nuclino Teams API
   slug: nuclino-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/openapi/nuclino-teams-api-openapi.yml
+  url: https://artifacts.apis.io/nuclino/openapi/nuclino-teams-api-openapi.yml
 - filename: nuclino-users-api-openapi.yml
   format: yaml
   label: Nuclino Users API
   slug: nuclino-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/openapi/nuclino-users-api-openapi.yml
+  url: https://artifacts.apis.io/nuclino/openapi/nuclino-users-api-openapi.yml
 - filename: nuclino-workspaces-api-openapi.yml
   format: yaml
   label: Nuclino Workspaces API
   slug: nuclino-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/openapi/nuclino-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/nuclino/openapi/nuclino-workspaces-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: nuclino-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/nuclino-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: API key authentication. Pass your API key in the Authorization header.\n  sources:\n  - openapi/nuclino-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/authentication/nuclino-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nuclino/authentication/nuclino-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Knowledge Management

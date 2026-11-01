@@ -35,7 +35,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://github.com/fidor/fidor_api\ndocs: https://github.com/fidor/fidor_api#readme\nnotes: >-\n  No OpenAPI/Swagger spec is retrievable (the Stoplight-hosted docs at\n  api-docs.fidor.de and api-docs.sandbox.fidor.com are offline and fidor.com is a\n  parked domain), so this profile is searched from the official Ruby client's\n  documentation rather than derived from a spec. The Fidor REST API used OAuth2\n  with the authorization-code flow; bearer access tokens were then presented to\n  the API.\nsummary:\n  types: [oauth2]\n  oauth2_flows: [authorizationCode]\nschemes:\n  - name: OAuth2\n    type: oauth2\n    flow: authorizationCode\n    token_type: bearer\n    environments:\n      - name: sandbox\n        host_pattern: '*.sandbox.fidor.com'\n      - name: production\n        host_pattern: '*.fidor.de'\n    sources: [https://github.com/fidor/fidor_api]\n    description: >-\n      OAuth2 authorization-code flow. The official\
   \ Ruby client exposes\n      authorize_start / authorize_complete helpers to obtain an access token\n      that is then used as a bearer token against the classic transfer, account\n      and transaction APIs.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fidor-bank/refs/heads/main/authentication/fidor-bank-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fidor-bank/authentication/fidor-bank-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

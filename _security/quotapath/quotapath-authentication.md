@@ -8,43 +8,43 @@ api_specs:
   label: QuotaPath Data API
   slug: quotapath-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/openapi/quotapath-data-api-openapi.yml
+  url: https://artifacts.apis.io/quotapath/openapi/quotapath-data-api-openapi.yml
 - filename: quotapath-deal-api-openapi.yml
   format: yaml
   label: QuotaPath Deal API
   slug: quotapath-deal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/openapi/quotapath-deal-api-openapi.yml
+  url: https://artifacts.apis.io/quotapath/openapi/quotapath-deal-api-openapi.yml
 - filename: quotapath-path-api-openapi.yml
   format: yaml
   label: QuotaPath Path API
   slug: quotapath-path-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/openapi/quotapath-path-api-openapi.yml
+  url: https://artifacts.apis.io/quotapath/openapi/quotapath-path-api-openapi.yml
 - filename: quotapath-payout-api-openapi.yml
   format: yaml
   label: QuotaPath Payout API
   slug: quotapath-payout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/openapi/quotapath-payout-api-openapi.yml
+  url: https://artifacts.apis.io/quotapath/openapi/quotapath-payout-api-openapi.yml
 - filename: quotapath-plan-api-openapi.yml
   format: yaml
   label: QuotaPath Plan API
   slug: quotapath-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/openapi/quotapath-plan-api-openapi.yml
+  url: https://artifacts.apis.io/quotapath/openapi/quotapath-plan-api-openapi.yml
 - filename: quotapath-team-api-openapi.yml
   format: yaml
   label: QuotaPath Team API
   slug: quotapath-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/openapi/quotapath-team-api-openapi.yml
+  url: https://artifacts.apis.io/quotapath/openapi/quotapath-team-api-openapi.yml
 - filename: quotapath-user-api-openapi.yml
   format: yaml
   label: QuotaPath User API
   slug: quotapath-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/openapi/quotapath-user-api-openapi.yml
+  url: https://artifacts.apis.io/quotapath/openapi/quotapath-user-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -72,7 +72,7 @@ source_filename: quotapath-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/quotapath-openapi-original.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: token_auth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'API Key authentication header. Prefix QuotaPath-generated api key with ''Token\n    '' in Authorization header value. Example: ''Token abcdef12345'''\n  sources:\n  - openapi/quotapath-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/authentication/quotapath-authentication.yml
+source_yaml_url: https://artifacts.apis.io/quotapath/authentication/quotapath-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

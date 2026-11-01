@@ -29,7 +29,7 @@ source_filename: transparentbusiness-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: transparentbusiness.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov  3 09:13:16 2026 GMT\n  hsts: max-age=2592000; includeSubDomains; preload\n  http_status: 403\n  note: 'The origin is fronted by Cloudflare and answers every automated request with a 403 \"Attention\n    Required!\" interstitial; the HSTS header above was read off that 403 response, which is why the\n    automated probe recorded it as absent.'\ndomains:\n- domain: transparentbusiness.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transparentbusiness/refs/heads/main/security/transparentbusiness-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/transparentbusiness/security/transparentbusiness-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company

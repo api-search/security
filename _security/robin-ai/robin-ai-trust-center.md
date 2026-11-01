@@ -5,31 +5,31 @@ api_specs:
   label: Robin AI Documents API
   slug: robin-ai-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/openapi/robin-ai-documents-api-openapi.yml
+  url: https://artifacts.apis.io/robin-ai/openapi/robin-ai-documents-api-openapi.yml
 - filename: robin-ai-groups-api-openapi.yml
   format: yaml
   label: Robin AI Groups API
   slug: robin-ai-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/openapi/robin-ai-groups-api-openapi.yml
+  url: https://artifacts.apis.io/robin-ai/openapi/robin-ai-groups-api-openapi.yml
 - filename: robin-ai-properties-api-openapi.yml
   format: yaml
   label: Robin AI Properties API
   slug: robin-ai-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/openapi/robin-ai-properties-api-openapi.yml
+  url: https://artifacts.apis.io/robin-ai/openapi/robin-ai-properties-api-openapi.yml
 - filename: robin-ai-tables-api-openapi.yml
   format: yaml
   label: Robin AI Tables API
   slug: robin-ai-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/openapi/robin-ai-tables-api-openapi.yml
+  url: https://artifacts.apis.io/robin-ai/openapi/robin-ai-tables-api-openapi.yml
 - filename: robin-ai-templates-api-openapi.yml
   format: yaml
   label: Robin AI Templates API
   slug: robin-ai-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/openapi/robin-ai-templates-api-openapi.yml
+  url: https://artifacts.apis.io/robin-ai/openapi/robin-ai-templates-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -48,7 +48,7 @@ source_filename: robin-ai-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://robinai.com/security\nurl: https://robinai.com/security\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://robinai.com/security\n  keywords:\n  - soc 2\n  - soc2\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/security/robin-ai-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/robin-ai/security/robin-ai-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Legal

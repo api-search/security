@@ -7,43 +7,43 @@ api_specs:
   label: CyberArk Authentication API
   slug: cyberark-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark/openapi/cyberark-authentication-api-openapi.yml
 - filename: cyberark-health-api-openapi.yml
   format: yaml
   label: CyberArk Health API
   slug: cyberark-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-health-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark/openapi/cyberark-health-api-openapi.yml
 - filename: cyberark-policies-api-openapi.yml
   format: yaml
   label: CyberArk Policies API
   slug: cyberark-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-policies-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark/openapi/cyberark-policies-api-openapi.yml
 - filename: cyberark-resources-api-openapi.yml
   format: yaml
   label: CyberArk Resources API
   slug: cyberark-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-resources-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark/openapi/cyberark-resources-api-openapi.yml
 - filename: cyberark-roles-api-openapi.yml
   format: yaml
   label: CyberArk Roles API
   slug: cyberark-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-roles-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark/openapi/cyberark-roles-api-openapi.yml
 - filename: cyberark-secrets-api-openapi.yml
   format: yaml
   label: CyberArk Secrets API
   slug: cyberark-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark/openapi/cyberark-secrets-api-openapi.yml
 - filename: cyberark-public-keys-api-openapi.yml
   format: yaml
   label: CyberArk Public Keys API
   slug: cyberark-public-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-public-keys-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark/openapi/cyberark-public-keys-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -70,7 +70,7 @@ source_filename: cyberark-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cyberark-conjur-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: ConjurAuth\n  type: http\n  scheme: bearer\n  bearerFormat: ConjurAccessToken\n  sources:\n  - openapi/cyberark-conjur-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/authentication/cyberark-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cyberark/authentication/cyberark-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Authentication

@@ -5,31 +5,31 @@ api_specs:
   label: Nango Actions API
   slug: nango-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/openapi/nango-actions-api-openapi.yml
+  url: https://artifacts.apis.io/nango/openapi/nango-actions-api-openapi.yml
 - filename: nango-connections-api-openapi.yml
   format: yaml
   label: Nango Connections API
   slug: nango-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/openapi/nango-connections-api-openapi.yml
+  url: https://artifacts.apis.io/nango/openapi/nango-connections-api-openapi.yml
 - filename: nango-integrations-api-openapi.yml
   format: yaml
   label: Nango Integrations API
   slug: nango-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/openapi/nango-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/nango/openapi/nango-integrations-api-openapi.yml
 - filename: nango-proxy-api-openapi.yml
   format: yaml
   label: Nango Proxy API
   slug: nango-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/openapi/nango-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/nango/openapi/nango-proxy-api-openapi.yml
 - filename: nango-syncs-api-openapi.yml
   format: yaml
   label: Nango Syncs API
   slug: nango-syncs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/openapi/nango-syncs-api-openapi.yml
+  url: https://artifacts.apis.io/nango/openapi/nango-syncs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: nango-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: app.nango.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.nango.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 23:59:59 2026 GMT\n  hsts: false\n- host: api.nango.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 5184000\ndomains:\n- domain: nango.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/security/nango-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nango/security/nango-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI Agents

@@ -5,43 +5,43 @@ api_specs:
   label: SingleFile Documents API
   slug: singlefile-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-documents-api-openapi.yml
+  url: https://artifacts.apis.io/singlefile/openapi/singlefile-documents-api-openapi.yml
 - filename: singlefile-entities-api-openapi.yml
   format: yaml
   label: SingleFile Entities API
   slug: singlefile-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-entities-api-openapi.yml
+  url: https://artifacts.apis.io/singlefile/openapi/singlefile-entities-api-openapi.yml
 - filename: singlefile-jurisdictions-api-openapi.yml
   format: yaml
   label: SingleFile Jurisdictions API
   slug: singlefile-jurisdictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-jurisdictions-api-openapi.yml
+  url: https://artifacts.apis.io/singlefile/openapi/singlefile-jurisdictions-api-openapi.yml
 - filename: singlefile-orders-api-openapi.yml
   format: yaml
   label: SingleFile Orders API
   slug: singlefile-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-orders-api-openapi.yml
+  url: https://artifacts.apis.io/singlefile/openapi/singlefile-orders-api-openapi.yml
 - filename: singlefile-organizations-api-openapi.yml
   format: yaml
   label: SingleFile Organizations API
   slug: singlefile-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/singlefile/openapi/singlefile-organizations-api-openapi.yml
 - filename: singlefile-schemas-api-openapi.yml
   format: yaml
   label: SingleFile Schemas API
   slug: singlefile-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/singlefile/openapi/singlefile-schemas-api-openapi.yml
 - filename: singlefile-tasks-api-openapi.yml
   format: yaml
   label: SingleFile Tasks API
   slug: singlefile-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/singlefile/openapi/singlefile-tasks-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2 Type II
@@ -58,7 +58,7 @@ source_filename: singlefile-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nsource: https://www.singlefile.ai/\nurl: https://www.singlefile.ai/\ncertifications:\n- SOC 2 Type II\nevidence:\n- source: https://www.singlefile.ai/\n  keywords:\n  - soc 2 type ii\n  - aicpa soc\nnote: SingleFile states SOC 2 Type II certification (AICPA SOC) on its site. No dedicated trust.<domain> portal found.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/security/singlefile-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/singlefile/security/singlefile-trust-center.yml
 summary_line: SOC 2 Type II
 tags:
 - Company

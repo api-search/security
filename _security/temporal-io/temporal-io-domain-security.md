@@ -5,31 +5,31 @@ api_specs:
   label: Temporal Cluster API
   slug: temporal-io-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temporal-io/refs/heads/main/openapi/temporal-io-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/temporal-io/openapi/temporal-io-cluster-api-openapi.yml
 - filename: temporal-io-namespaces-api-openapi.yml
   format: yaml
   label: Temporal Namespaces API
   slug: temporal-io-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temporal-io/refs/heads/main/openapi/temporal-io-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/temporal-io/openapi/temporal-io-namespaces-api-openapi.yml
 - filename: temporal-io-workflow-lifecycle-api-openapi.yml
   format: yaml
   label: Temporal Workflow Lifecycle API
   slug: temporal-io-workflow-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temporal-io/refs/heads/main/openapi/temporal-io-workflow-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/temporal-io/openapi/temporal-io-workflow-lifecycle-api-openapi.yml
 - filename: temporal-io-workflow-messaging-api-openapi.yml
   format: yaml
   label: Temporal Workflow Messaging API
   slug: temporal-io-workflow-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temporal-io/refs/heads/main/openapi/temporal-io-workflow-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/temporal-io/openapi/temporal-io-workflow-messaging-api-openapi.yml
 - filename: temporal-io-workflows-api-openapi.yml
   format: yaml
   label: Temporal Workflows API
   slug: temporal-io-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temporal-io/refs/heads/main/openapi/temporal-io-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/temporal-io/openapi/temporal-io-workflows-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -75,7 +75,7 @@ source_filename: temporal-io-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: temporal.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 16:02:20 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.temporal.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 07:02:20 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: <namespace>.<account>.tmprl.cloud\n  https: false\ndomains:\n- domain: temporal.io\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: tmprl.cloud\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/temporal-io/refs/heads/main/security/temporal-io-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/temporal-io/security/temporal-io-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Durable Execution

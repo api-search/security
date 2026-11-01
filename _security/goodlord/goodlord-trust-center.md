@@ -5,91 +5,91 @@ api_specs:
   label: Goodlord Agent API
   slug: goodlord-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/openapi/goodlord-agent-api-openapi.yml
+  url: https://artifacts.apis.io/goodlord/openapi/goodlord-agent-api-openapi.yml
 - filename: goodlord-application-api-openapi.yml
   format: yaml
   label: Goodlord Application API
   slug: goodlord-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/openapi/goodlord-application-api-openapi.yml
+  url: https://artifacts.apis.io/goodlord/openapi/goodlord-application-api-openapi.yml
 - filename: goodlord-authentication-api-openapi.yml
   format: yaml
   label: Goodlord Authentication API
   slug: goodlord-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/openapi/goodlord-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/goodlord/openapi/goodlord-authentication-api-openapi.yml
 - filename: goodlord-company-api-openapi.yml
   format: yaml
   label: Goodlord Company API
   slug: goodlord-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/openapi/goodlord-company-api-openapi.yml
+  url: https://artifacts.apis.io/goodlord/openapi/goodlord-company-api-openapi.yml
 - filename: goodlord-file-api-openapi.yml
   format: yaml
   label: Goodlord File API
   slug: goodlord-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/openapi/goodlord-file-api-openapi.yml
+  url: https://artifacts.apis.io/goodlord/openapi/goodlord-file-api-openapi.yml
 - filename: goodlord-insuranceclaim-api-openapi.yml
   format: yaml
   label: Goodlord Insurance Claim API
   slug: goodlord-insuranceclaim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/openapi/goodlord-insuranceclaim-api-openapi.yml
+  url: https://artifacts.apis.io/goodlord/openapi/goodlord-insuranceclaim-api-openapi.yml
 - filename: goodlord-media-api-openapi.yml
   format: yaml
   label: Goodlord Media API
   slug: goodlord-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/openapi/goodlord-media-api-openapi.yml
+  url: https://artifacts.apis.io/goodlord/openapi/goodlord-media-api-openapi.yml
 - filename: goodlord-payment-api-openapi.yml
   format: yaml
   label: Goodlord Payment API
   slug: goodlord-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/openapi/goodlord-payment-api-openapi.yml
+  url: https://artifacts.apis.io/goodlord/openapi/goodlord-payment-api-openapi.yml
 - filename: goodlord-rentschedule-api-openapi.yml
   format: yaml
   label: Goodlord Rent Schedule API
   slug: goodlord-rentschedule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/openapi/goodlord-rentschedule-api-openapi.yml
+  url: https://artifacts.apis.io/goodlord/openapi/goodlord-rentschedule-api-openapi.yml
 - filename: goodlord-rentschedulerow-api-openapi.yml
   format: yaml
   label: Goodlord Rent Schedule Row API
   slug: goodlord-rentschedulerow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/openapi/goodlord-rentschedulerow-api-openapi.yml
+  url: https://artifacts.apis.io/goodlord/openapi/goodlord-rentschedulerow-api-openapi.yml
 - filename: goodlord-rentschedulerowpostdto-api-openapi.yml
   format: yaml
   label: Goodlord Rent Schedule Row Post Dto API
   slug: goodlord-rentschedulerowpostdto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/openapi/goodlord-rentschedulerowpostdto-api-openapi.yml
+  url: https://artifacts.apis.io/goodlord/openapi/goodlord-rentschedulerowpostdto-api-openapi.yml
 - filename: goodlord-rentschedulerowupdate-api-openapi.yml
   format: yaml
   label: Goodlord Rent Schedule Row Update API
   slug: goodlord-rentschedulerowupdate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/openapi/goodlord-rentschedulerowupdate-api-openapi.yml
+  url: https://artifacts.apis.io/goodlord/openapi/goodlord-rentschedulerowupdate-api-openapi.yml
 - filename: goodlord-role-api-openapi.yml
   format: yaml
   label: Goodlord Role API
   slug: goodlord-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/openapi/goodlord-role-api-openapi.yml
+  url: https://artifacts.apis.io/goodlord/openapi/goodlord-role-api-openapi.yml
 - filename: goodlord-rolegroup-api-openapi.yml
   format: yaml
   label: Goodlord Role Group API
   slug: goodlord-rolegroup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/openapi/goodlord-rolegroup-api-openapi.yml
+  url: https://artifacts.apis.io/goodlord/openapi/goodlord-rolegroup-api-openapi.yml
 - filename: goodlord-subject-api-openapi.yml
   format: yaml
   label: Goodlord Subject API
   slug: goodlord-subject-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/openapi/goodlord-subject-api-openapi.yml
+  url: https://artifacts.apis.io/goodlord/openapi/goodlord-subject-api-openapi.yml
 certification_count: 2
 certifications:
 - ISO 27001
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nprobe: true\nsource: ht
   \ and Authentication\n  - Encrypting Data At Rest\n  - Data Backups\n  - Testing for Reliability and Integrity\n  - Limit Network Connections\n  - Anomalous Behavior\n  - Isolation of Information System Components\n  - Conspicuous Link To Privacy Notice\n  - Code of Business Conduct\n  - Roles & Responsibilities\n  - Competency Screening\nresources:\n  published: true\n  count: 43\n  access: gated behind \"Request access\"\n  examples:\n  - Communications & Network Security Policy\n  - Business Continuity Plan\n  - Asset Management Procedure\n  - Business Continuity & Disaster Recovery Policy\n  - Code of Business Conduct Policy\n  - HR Security Procedure\nsubprocessors:\n  published: true\n  count: 40\n  access: partially listed, remainder behind \"Request access\"\n  named:\n  - {name: AWS, category: Cloud Providers}\n  - {name: Supabase, category: IT infrastructure}\n  - {name: Credas, category: Others}\n  - {name: Konfir, category: Others}\n  - {name: Agiito, category: Payment Processing}\n\
   \  - {name: RocketReach, category: Sales}\n  note: >-\n    Credas (identity verification and AML) and Konfir (employment and income verification) are\n    the two that matter for the Referencing API — they are the third parties behind the checks\n    the API orchestrates.\naccess_gate:\n  request_access_required: true\n  what_is_gated: [certificates, full policy library, full subprocessor register]\n  what_is_open: [compliance claims, AI posture, control names, policy names, some subprocessor names]\nregulatory:\n  fca:\n    regulated: true\n    detail: >-\n      Goodlord operates as an Appointed Representative of Goodlord Protect Limited, authorised\n      and regulated by the UK Financial Conduct Authority for insurance distribution activities,\n      Firm Reference Number 836727. A permission for the rent-protection insurance product, not\n      an API or security certification.\nevidence:\n- source: https://trust.goodlord.com/\n  keywords: [iso 27001, trust center, gdpr]\n  observed:\
   \ '2026-07-26'\nrelated:\n  conformance: conformance/goodlord-conformance.yml\n  domain_security: security/goodlord-domain-security.yml\n  privacy_policy: https://www.goodlord.com/privacy-policy\n  terms: https://www.goodlord.com/terms\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/security/goodlord-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/goodlord/security/goodlord-trust-center.yml
 summary_line: ISO 27001, GDPR
 tags:
 - Real Estate

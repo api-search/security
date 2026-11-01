@@ -9,109 +9,109 @@ api_specs:
   label: Fodda (PSFK) Accounts API
   slug: fodda-ai-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-accounts-api-openapi.yml
 - filename: fodda-ai-admin-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Admin API
   slug: fodda-ai-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-admin-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-admin-api-openapi.yml
 - filename: fodda-ai-analysts-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Analysts API
   slug: fodda-ai-analysts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-analysts-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-analysts-api-openapi.yml
 - filename: fodda-ai-brand-intelligence-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Brand Intelligence API
   slug: fodda-ai-brand-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-brand-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-brand-intelligence-api-openapi.yml
 - filename: fodda-ai-context-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Context API
   slug: fodda-ai-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-context-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-context-api-openapi.yml
 - filename: fodda-ai-copilot-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Copilot API
   slug: fodda-ai-copilot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-copilot-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-copilot-api-openapi.yml
 - filename: fodda-ai-graph-slice-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Graph Slice API
   slug: fodda-ai-graph-slice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-graph-slice-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-graph-slice-api-openapi.yml
 - filename: fodda-ai-graphs-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Graphs API
   slug: fodda-ai-graphs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-graphs-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-graphs-api-openapi.yml
 - filename: fodda-ai-health-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Health API
   slug: fodda-ai-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-health-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-health-api-openapi.yml
 - filename: fodda-ai-log-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Log API
   slug: fodda-ai-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-log-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-log-api-openapi.yml
 - filename: fodda-ai-offerings-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Offerings API
   slug: fodda-ai-offerings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-offerings-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-offerings-api-openapi.yml
 - filename: fodda-ai-psfk-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Psfk API
   slug: fodda-ai-psfk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-psfk-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-psfk-api-openapi.yml
 - filename: fodda-ai-research-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Research API
   slug: fodda-ai-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-research-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-research-api-openapi.yml
 - filename: fodda-ai-search-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Search API
   slug: fodda-ai-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-search-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-search-api-openapi.yml
 - filename: fodda-ai-sources-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Sources API
   slug: fodda-ai-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-sources-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-sources-api-openapi.yml
 - filename: fodda-ai-spt-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Spt API
   slug: fodda-ai-spt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-spt-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-spt-api-openapi.yml
 - filename: fodda-ai-supplemental-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Supplemental API
   slug: fodda-ai-supplemental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-supplemental-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-supplemental-api-openapi.yml
 - filename: fodda-ai-user-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) User API
   slug: fodda-ai-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-user-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-user-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -241,7 +241,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/fodda-a
   \    - client_secret_basic\n    - client_secret_post\n    - none\n  - flow: deviceCode\n    device_authorization_endpoint: https://clerk.fodda.ai/oauth/device_authorization\n    grant_types:\n    - urn:ietf:params:oauth:grant-type:device_code\n  protected_resources:\n  - resource: https://mcp.fodda.ai\n    metadata: well-known/fodda-ai-mcp-oauth-protected-resource.json\n  - resource: https://mcp.fodda.ai/mcp\n    metadata: well-known/fodda-ai-mcp-oauth-protected-resource-mcp.json\n  - resource: https://mcp.fodda.ai/copilot\n    metadata: well-known/fodda-ai-mcp-oauth-protected-resource-copilot.json\n  - resource: https://mcp.fodda.ai/mcp (as published on www)\n    metadata: well-known/fodda-ai-www-oauth-protected-resource.json\n    scopes_supported:\n    - read\n    bearer_methods_supported:\n    - header\n  sources:\n  - well-known/fodda-ai-clerk-oauth-authorization-server.json\n  - live WWW-Authenticate on POST https://mcp.fodda.ai/mcp\n  surfaces:\n  - MCP\n- name: personalConnectionUrl\n\
   \  type: apiKey\n  in: path\n  parameter: token\n  description: 'MCP-only: https://mcp.fodda.ai/c/<token> from app.fodda.ai -> Account -> MCP Integration, pasted\n    into Claude/ChatGPT connectors with OAuth client fields left blank. Legacy ?api_key= / ?user_id= URLs are deprecated\n    and return 401.'\n  sources:\n  - fodda-mcp README\n  - https://www.fodda.ai/platform-integration-anthropic-claude\n  surfaces:\n  - MCP\npublic_tier:\n  no_credential_required:\n  - GET /v1/health\n  - GET /v1/research/pricing\n  - GET /v1/offerings\n  - GET /v1/research/offerings\n  - GET /v1/graphs/catalog\n  - GET /v1/analysts\n  - GET /v1/graph-slice\n  - GET /v1/catalog.okf\n  - GET /openapi.json\n  note: Verified live 2026-09-19. The spec marks POST /v1/psfk/overview public but it answered 402 unauthenticated.\nchallenges_observed:\n- surface: api.fodda.ai secured operation\n  status: 402\n  www_authenticate: stripe-spt amount=50 currency=usd\n- surface: mcp.fodda.ai /mcp, /copilot, /sse\n  status:\
   \ 401\n  www_authenticate: Bearer resource_metadata=\"https://mcp.fodda.ai/.well-known/oauth-protected-resource/mcp\"\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/authentication/fodda-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fodda-ai/authentication/fodda-ai-authentication.yml
 summary_line: apiKey/http/openIdConnect/oauth2 · 5 schemes
 tags:
 - Market Intelligence

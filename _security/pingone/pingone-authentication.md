@@ -13,31 +13,31 @@ api_specs:
   label: PingOne Applications API
   slug: pingone-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pingone/refs/heads/main/openapi/pingone-applications-api-openapi.yml
+  url: https://artifacts.apis.io/pingone/openapi/pingone-applications-api-openapi.yml
 - filename: pingone-authentication-api-openapi.yml
   format: yaml
   label: PingOne Authentication API
   slug: pingone-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pingone/refs/heads/main/openapi/pingone-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/pingone/openapi/pingone-authentication-api-openapi.yml
 - filename: pingone-environments-api-openapi.yml
   format: yaml
   label: PingOne Environments API
   slug: pingone-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pingone/refs/heads/main/openapi/pingone-environments-api-openapi.yml
+  url: https://artifacts.apis.io/pingone/openapi/pingone-environments-api-openapi.yml
 - filename: pingone-populations-api-openapi.yml
   format: yaml
   label: PingOne Populations API
   slug: pingone-populations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pingone/refs/heads/main/openapi/pingone-populations-api-openapi.yml
+  url: https://artifacts.apis.io/pingone/openapi/pingone-populations-api-openapi.yml
 - filename: pingone-users-api-openapi.yml
   format: yaml
   label: PingOne Users API
   slug: pingone-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pingone/refs/heads/main/openapi/pingone-users-api-openapi.yml
+  url: https://artifacts.apis.io/pingone/openapi/pingone-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -67,7 +67,7 @@ source_filename: pingone-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pingone-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: |-\n    OAuth 2.0 Bearer access token issued by the PingOne authentication\n    service at auth.pingone.com.\n  sources:\n  - openapi/pingone-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pingone/refs/heads/main/authentication/pingone-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pingone/authentication/pingone-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Identity

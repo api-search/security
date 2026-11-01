@@ -5,13 +5,13 @@ api_specs:
   label: Bazel Modules API
   slug: bazel-build-modules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazel-build/refs/heads/main/openapi/bazel-build-modules-api-openapi.yml
+  url: https://artifacts.apis.io/bazel-build/openapi/bazel-build-modules-api-openapi.yml
 - filename: bazel-build-registry-api-openapi.yml
   format: yaml
   label: Bazel Registry API
   slug: bazel-build-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazel-build/refs/heads/main/openapi/bazel-build-registry-api-openapi.yml
+  url: https://artifacts.apis.io/bazel-build/openapi/bazel-build-registry-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -54,7 +54,7 @@ source_filename: bazel-build-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bazel.build\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: registry.bazel.build\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 12:30:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n- host: bcr.bazel.build\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 16:18:35 2026 GMT\n  hsts: false\ndomains:\n- domain: bazel.build\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bazel-build/refs/heads/main/security/bazel-build-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bazel-build/security/bazel-build-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Build Systems

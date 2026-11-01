@@ -20,73 +20,73 @@ api_specs:
   label: Tvarka Sign API
   slug: tvarka-sign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-sign-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-sign-api-openapi.yml
 - filename: tvarka-auth-api-openapi.yml
   format: yaml
   label: Tvarka ATK API Auth API
   slug: tvarka-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-auth-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-auth-api-openapi.yml
 - filename: tvarka-batches-api-openapi.yml
   format: yaml
   label: Tvarka ATK API Batches API
   slug: tvarka-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-batches-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-batches-api-openapi.yml
 - filename: tvarka-erasure-api-openapi.yml
   format: yaml
   label: Tvarka ATK API Erasure API
   slug: tvarka-erasure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-erasure-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-erasure-api-openapi.yml
 - filename: tvarka-files-api-openapi.yml
   format: yaml
   label: Tvarka ATK API Files API
   slug: tvarka-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-files-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-files-api-openapi.yml
 - filename: tvarka-ltv-api-openapi.yml
   format: yaml
   label: Tvarka ATK API LTV API
   slug: tvarka-ltv-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-ltv-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-ltv-api-openapi.yml
 - filename: tvarka-pairing-api-openapi.yml
   format: yaml
   label: Tvarka ATK API Pairing API
   slug: tvarka-pairing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-pairing-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-pairing-api-openapi.yml
 - filename: tvarka-signings-api-openapi.yml
   format: yaml
   label: Tvarka ATK API Signings API
   slug: tvarka-signings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-signings-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-signings-api-openapi.yml
 - filename: tvarka-tvarka-atk-api-api-openapi.yml
   format: yaml
   label: Tvarka ATK API Tvarka ATK API
   slug: tvarka-tvarka-atk-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-tvarka-atk-api-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-tvarka-atk-api-api-openapi.yml
 - filename: tvarka-tvarka-sign-api-api-openapi.yml
   format: yaml
   label: Tvarka ATK API Tvarka Sign API
   slug: tvarka-tvarka-sign-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-tvarka-sign-api-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-tvarka-sign-api-api-openapi.yml
 - filename: tvarka-validation-api-openapi.yml
   format: yaml
   label: Tvarka ATK API Validation API
   slug: tvarka-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-validation-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-validation-api-openapi.yml
 - filename: tvarka-well-known-api-openapi.yml
   format: yaml
   label: Tvarka ATK API Well Known API
   slug: tvarka-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-well-known-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -144,7 +144,7 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: https://atk.tva
   \ creation, scoped\n\n    `{tenant, requestId, purpose, method, allowedOrigins}`. Safe to hand to a browser/mobile client:\n\n    it cannot create requests, read tenant data, or touch other requests. For browser clients the API\n\n    enforces `Origin` against `allowedOrigins` (rejects cross-origin replay).'\n  sources:\n  - openapi/tvarka-atk-api-auth-openapi.yaml\n  - openapi/tvarka-atk-api-openapi-original.json\n  - openapi/tvarka-atk-api-sign-openapi.yaml\n- name: downloadToken\n  type: apiKey\n  in: query\n  parameter: downloadToken\n  description: One-off token returned with a completed sign result, for fetching the signed document.\n  sources:\n  - openapi/tvarka-atk-api-openapi-original.json\n  - openapi/tvarka-atk-api-sign-openapi.yaml\ndocs: https://atk.tvarka.pro/docs/quickstart/\nmodel:\n  server_to_server: HTTP Basic keyId:keySecret, additionally gated by the provider server IP allow-list.\n    Document-level default security. Creates requests, polls, cancels, erases, downloads\
   \ and calls the\n    trust services. Never placed in a browser or mobile client.\n  client: A per-request ES256 JWT (clientToken) minted at request creation and scoped {tenant, requestId,\n    purpose, method, allowedOrigins}. It cannot create requests, read tenant data or touch another request.\n    For browser clients the API enforces Origin against allowedOrigins and rejects cross-origin replay.\n  download: A one-off downloadToken query parameter returned with a completed result.\n  operation_token: 'Not a securityScheme, but a second single-use factor inside the ceremony: the operationToken\n    returned with the data-to-be-signed must be presented on complete, and is spent on first use (409\n    operation_token_spent).'\n  unauthenticated: 'claimPairing (POST /pairing/claim) declares security: [] - possession of the short-lived\n    one-claim pairing token is the credential. getJwks is also public.'\ncredential_issuance:\n  url: https://atk.tvarka.pro/docs/access/\n  process: Manual\
   \ review; the credential-claim link is emailed but the secret itself is never emailed.\n  environments:\n  - sandbox\n  - production\n  note: The environment is a property of the issued credential, not a separate host or key prefix.\nfailure_codes:\n- invalid_basic_credentials (401)\n- invalid_client_token (401)\n- client_token_expired (401)\n- operation_token_expired (401)\n- invalid_download_token (401)\n- origin_not_allowed (403)\n- ip_not_allowed (403)\n- tenant_suspended (403)\n- tier_forbidden (403)\n- operation_token_spent (409)\nverification:\n  jwks: well-known/tvarka-atk-api-atk-jwks.json\n  note: The optional identity assertion JWT is verifiable against the published JWKS (kid atk-1, ES256).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/authentication/tvarka-atk-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tvarka/authentication/tvarka-atk-api-authentication.yml
 summary_line: http/apiKey · 3 schemes
 tags:
 - Authentication

@@ -8,7 +8,7 @@ api_specs:
   label: DODO Trade API
   slug: dodo-trade-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dodo/refs/heads/main/openapi/dodo-trade-api-openapi.yml
+  url: https://artifacts.apis.io/dodo/openapi/dodo-trade-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: dodo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/dodo-trade-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiKeyQuery\n  type: apiKey\n  in: query\n  parameter: apikey\n  description: API key issued by the DODO Developer Portal (https://docs.dodoex.io/en/developer),\n    passed as the `apikey` query parameter on production Route API requests.\n  sources:\n  - openapi/dodo-trade-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dodo/refs/heads/main/authentication/dodo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dodo/authentication/dodo-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

@@ -5,25 +5,25 @@ api_specs:
   label: Evisort Authentication API
   slug: evisort-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evisort/refs/heads/main/openapi/evisort-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/evisort/openapi/evisort-authentication-api-openapi.yml
 - filename: evisort-documents-api-openapi.yml
   format: yaml
   label: Evisort Documents API
   slug: evisort-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evisort/refs/heads/main/openapi/evisort-documents-api-openapi.yml
+  url: https://artifacts.apis.io/evisort/openapi/evisort-documents-api-openapi.yml
 - filename: evisort-fields-api-openapi.yml
   format: yaml
   label: Evisort Fields API
   slug: evisort-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evisort/refs/heads/main/openapi/evisort-fields-api-openapi.yml
+  url: https://artifacts.apis.io/evisort/openapi/evisort-fields-api-openapi.yml
 - filename: evisort-search-api-openapi.yml
   format: yaml
   label: Evisort Search API
   slug: evisort-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evisort/refs/heads/main/openapi/evisort-search-api-openapi.yml
+  url: https://artifacts.apis.io/evisort/openapi/evisort-search-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -69,7 +69,7 @@ source_filename: evisort-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.evisort.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: documents.developers.evisort.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 14:25:03 2026 GMT\n  hsts: null\n- host: api.evisort.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 04:43:27 2026 GMT\n  hsts: null\ndomains:\n- domain: evisort.com\n  dnssec: true\n  caa:\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evisort/refs/heads/main/security/evisort-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/evisort/security/evisort-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Contract Lifecycle Management

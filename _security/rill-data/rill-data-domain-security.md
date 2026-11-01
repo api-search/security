@@ -5,7 +5,7 @@ api_specs:
   label: Rill Data Orgs API
   slug: rill-data-orgs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rill-data/refs/heads/main/openapi/rill-data-orgs-api-openapi.yml
+  url: https://artifacts.apis.io/rill-data/openapi/rill-data-orgs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -35,7 +35,7 @@ source_filename: rill-data-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.rilldata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 08:04:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: rilldata.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rill-data/refs/heads/main/security/rill-data-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rill-data/security/rill-data-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

@@ -5,85 +5,85 @@ api_specs:
   label: Amazon SimSpace Weaver Createsnapshot API
   slug: amazon-simspace-weaver-createsnapshot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-simspace-weaver/refs/heads/main/openapi/amazon-simspace-weaver-createsnapshot-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-simspace-weaver/openapi/amazon-simspace-weaver-createsnapshot-api-openapi.yml
 - filename: amazon-simspace-weaver-listsimulations-api-openapi.yml
   format: yaml
   label: Amazon SimSpace Weaver Listsimulations API
   slug: amazon-simspace-weaver-listsimulations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-simspace-weaver/refs/heads/main/openapi/amazon-simspace-weaver-listsimulations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-simspace-weaver/openapi/amazon-simspace-weaver-listsimulations-api-openapi.yml
 - filename: amazon-simspace-weaver-startapp-api-openapi.yml
   format: yaml
   label: Amazon SimSpace Weaver Startapp API
   slug: amazon-simspace-weaver-startapp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-simspace-weaver/refs/heads/main/openapi/amazon-simspace-weaver-startapp-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-simspace-weaver/openapi/amazon-simspace-weaver-startapp-api-openapi.yml
 - filename: amazon-simspace-weaver-startclock-api-openapi.yml
   format: yaml
   label: Amazon SimSpace Weaver Startclock API
   slug: amazon-simspace-weaver-startclock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-simspace-weaver/refs/heads/main/openapi/amazon-simspace-weaver-startclock-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-simspace-weaver/openapi/amazon-simspace-weaver-startclock-api-openapi.yml
 - filename: amazon-simspace-weaver-startsimulation-api-openapi.yml
   format: yaml
   label: Amazon SimSpace Weaver Startsimulation API
   slug: amazon-simspace-weaver-startsimulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-simspace-weaver/refs/heads/main/openapi/amazon-simspace-weaver-startsimulation-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-simspace-weaver/openapi/amazon-simspace-weaver-startsimulation-api-openapi.yml
 - filename: amazon-simspace-weaver-stopapp-api-openapi.yml
   format: yaml
   label: Amazon SimSpace Weaver Stopapp API
   slug: amazon-simspace-weaver-stopapp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-simspace-weaver/refs/heads/main/openapi/amazon-simspace-weaver-stopapp-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-simspace-weaver/openapi/amazon-simspace-weaver-stopapp-api-openapi.yml
 - filename: amazon-simspace-weaver-stopclock-api-openapi.yml
   format: yaml
   label: Amazon SimSpace Weaver Stopclock API
   slug: amazon-simspace-weaver-stopclock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-simspace-weaver/refs/heads/main/openapi/amazon-simspace-weaver-stopclock-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-simspace-weaver/openapi/amazon-simspace-weaver-stopclock-api-openapi.yml
 - filename: amazon-simspace-weaver-stopsimulation-api-openapi.yml
   format: yaml
   label: Amazon SimSpace Weaver Stopsimulation API
   slug: amazon-simspace-weaver-stopsimulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-simspace-weaver/refs/heads/main/openapi/amazon-simspace-weaver-stopsimulation-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-simspace-weaver/openapi/amazon-simspace-weaver-stopsimulation-api-openapi.yml
 - filename: amazon-simspace-weaver-tags-api-openapi.yml
   format: yaml
   label: Amazon SimSpace Weaver Tags API
   slug: amazon-simspace-weaver-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-simspace-weaver/refs/heads/main/openapi/amazon-simspace-weaver-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-simspace-weaver/openapi/amazon-simspace-weaver-tags-api-openapi.yml
 - filename: amazon-simspace-weaver-deletesimulation-api-openapi.yml
   format: yaml
   label: Amazon SimSpace Weaver Deletesimulation API
   slug: amazon-simspace-weaver-deletesimulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-simspace-weaver/refs/heads/main/openapi/amazon-simspace-weaver-deletesimulation-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-simspace-weaver/openapi/amazon-simspace-weaver-deletesimulation-api-openapi.yml
 - filename: amazon-simspace-weaver-describesimulation-api-openapi.yml
   format: yaml
   label: Amazon SimSpace Weaver Describesimulation API
   slug: amazon-simspace-weaver-describesimulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-simspace-weaver/refs/heads/main/openapi/amazon-simspace-weaver-describesimulation-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-simspace-weaver/openapi/amazon-simspace-weaver-describesimulation-api-openapi.yml
 - filename: amazon-simspace-weaver-delete-app-api-openapi.yml
   format: yaml
   label: Amazon SimSpace Weaver Delete App API
   slug: amazon-simspace-weaver-delete-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-simspace-weaver/refs/heads/main/openapi/amazon-simspace-weaver-delete-app-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-simspace-weaver/openapi/amazon-simspace-weaver-delete-app-api-openapi.yml
 - filename: amazon-simspace-weaver-describe-app-api-openapi.yml
   format: yaml
   label: Amazon SimSpace Weaver Describe App API
   slug: amazon-simspace-weaver-describe-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-simspace-weaver/refs/heads/main/openapi/amazon-simspace-weaver-describe-app-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-simspace-weaver/openapi/amazon-simspace-weaver-describe-app-api-openapi.yml
 - filename: amazon-simspace-weaver-list-apps-api-openapi.yml
   format: yaml
   label: Amazon SimSpace Weaver List Apps API
   slug: amazon-simspace-weaver-list-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-simspace-weaver/refs/heads/main/openapi/amazon-simspace-weaver-list-apps-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-simspace-weaver/openapi/amazon-simspace-weaver-list-apps-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -104,7 +104,7 @@ source_filename: amazon-simspace-weaver-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://aws.amazon.com/compliance/\nurl: https://aws.amazon.com/compliance/\ncertifications:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://aws.amazon.com/compliance/\n  keywords:\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-simspace-weaver/refs/heads/main/security/amazon-simspace-weaver-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/amazon-simspace-weaver/security/amazon-simspace-weaver-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Defense

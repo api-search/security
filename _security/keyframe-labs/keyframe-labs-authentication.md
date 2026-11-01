@@ -7,25 +7,37 @@ api_specs:
   label: Keyframe Labs LLM models API
   slug: keyframe-labs-llm-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/openapi/keyframe-labs-llm-models-api-openapi.yml
+  url: https://artifacts.apis.io/keyframe-labs/openapi/keyframe-labs-llm-models-api-openapi.yml
 - filename: keyframe-labs-meet-bots-api-openapi.yml
   format: yaml
   label: Keyframe Labs Meet bots API
   slug: keyframe-labs-meet-bots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/openapi/keyframe-labs-meet-bots-api-openapi.yml
+  url: https://artifacts.apis.io/keyframe-labs/openapi/keyframe-labs-meet-bots-api-openapi.yml
 - filename: keyframe-labs-sessions-api-openapi.yml
   format: yaml
   label: Keyframe Labs Sessions API
   slug: keyframe-labs-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/openapi/keyframe-labs-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/keyframe-labs/openapi/keyframe-labs-sessions-api-openapi.yml
 - filename: keyframe-labs-voices-api-openapi.yml
   format: yaml
   label: Keyframe Labs Voices API
   slug: keyframe-labs-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/openapi/keyframe-labs-voices-api-openapi.yml
+  url: https://artifacts.apis.io/keyframe-labs/openapi/keyframe-labs-voices-api-openapi.yml
+- filename: keyframe-labs-avatars-api-openapi.yml
+  format: yaml
+  label: Keyframe Labs Avatars API
+  slug: keyframe-labs-avatars-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/keyframe-labs/openapi/keyframe-labs-avatars-api-openapi.yml
+- filename: keyframe-labs-generations-api-openapi.yml
+  format: yaml
+  label: Keyframe Labs Generations API
+  slug: keyframe-labs-generations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/keyframe-labs/openapi/keyframe-labs-generations-api-openapi.yml
 auth_types:
 - http
 description: 'The Keyframe Sessions API is authenticated with a bearer API key. Create and manage keys in the Keyframe platform dashboard (https://platform.keyframelabs.com/api-keys); a key is shown only once at creation. Pass the key as an HTTP bearer token in the Authorization header (Authorization: Bearer <api_key>) on every request.'
@@ -56,7 +68,7 @@ source_filename: keyframe-labs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/keyframe-labs-sessions-openapi-original.json\ndocs: https://docs.keyframelabs.com/guides/getting-started/get-your-api-key\nsummary:\n  types:\n  - http\n  http_schemes:\n  - bearer\ndescription: >-\n  The Keyframe Sessions API is authenticated with a bearer API key. Create and\n  manage keys in the Keyframe platform dashboard (https://platform.keyframelabs.com/api-keys);\n  a key is shown only once at creation. Pass the key as an HTTP bearer token in\n  the Authorization header (Authorization: Bearer <api_key>) on every request.\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  in: header\n  header: Authorization\n  format: 'Bearer <api_key>'\n  docs: https://docs.keyframelabs.com/guides/getting-started/get-your-api-key\n  key_management: https://platform.keyframelabs.com/api-keys\n  sources:\n  - openapi/keyframe-labs-sessions-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/authentication/keyframe-labs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/keyframe-labs/authentication/keyframe-labs-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

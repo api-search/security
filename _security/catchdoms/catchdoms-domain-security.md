@@ -5,19 +5,19 @@ api_specs:
   label: CatchDoms Expired Domains API Domains API
   slug: catchdoms-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/catchdoms/refs/heads/main/openapi/catchdoms-domains-api-openapi.yml
+  url: https://artifacts.apis.io/catchdoms/openapi/catchdoms-domains-api-openapi.yml
 - filename: catchdoms-free-api-openapi.yml
   format: yaml
   label: CatchDoms Expired Domains API Free API
   slug: catchdoms-free-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/catchdoms/refs/heads/main/openapi/catchdoms-free-api-openapi.yml
+  url: https://artifacts.apis.io/catchdoms/openapi/catchdoms-free-api-openapi.yml
 - filename: catchdoms-pending-delete-api-openapi.yml
   format: yaml
   label: CatchDoms Expired Domains API Pending Delete API
   slug: catchdoms-pending-delete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/catchdoms/refs/heads/main/openapi/catchdoms-pending-delete-api-openapi.yml
+  url: https://artifacts.apis.io/catchdoms/openapi/catchdoms-pending-delete-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: catchdoms-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: catchdoms.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  7 17:29:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: catchdoms.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/catchdoms/refs/heads/main/security/catchdoms-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/catchdoms/security/catchdoms-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

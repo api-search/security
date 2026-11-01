@@ -5,25 +5,25 @@ api_specs:
   label: Microsoft Intune Device Compliance Policies API
   slug: microsoft-intune-device-compliance-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-intune/refs/heads/main/openapi/microsoft-intune-device-compliance-policies-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-intune/openapi/microsoft-intune-device-compliance-policies-api-openapi.yml
 - filename: microsoft-intune-device-configurations-api-openapi.yml
   format: yaml
   label: Microsoft Intune Device Configurations API
   slug: microsoft-intune-device-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-intune/refs/heads/main/openapi/microsoft-intune-device-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-intune/openapi/microsoft-intune-device-configurations-api-openapi.yml
 - filename: microsoft-intune-managed-devices-api-openapi.yml
   format: yaml
   label: Microsoft Intune Managed Devices API
   slug: microsoft-intune-managed-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-intune/refs/heads/main/openapi/microsoft-intune-managed-devices-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-intune/openapi/microsoft-intune-managed-devices-api-openapi.yml
 - filename: microsoft-intune-remote-actions-api-openapi.yml
   format: yaml
   label: Microsoft Intune Remote Actions API
   slug: microsoft-intune-remote-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-intune/refs/heads/main/openapi/microsoft-intune-remote-actions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-intune/openapi/microsoft-intune-remote-actions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -61,7 +61,7 @@ source_filename: microsoft-intune-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 06:59:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: graph.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 03:53:00 2026 GMT\n  hsts: null\n- host: api.manage.microsoft.com\n  https: false\ndomains:\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-intune/refs/heads/main/security/microsoft-intune-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-intune/security/microsoft-intune-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - App Protection

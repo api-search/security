@@ -7,19 +7,19 @@ api_specs:
   label: Paychex Companies API
   slug: paychex-developer-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paychex-developer/refs/heads/main/openapi/paychex-developer-companies-api-openapi.yml
+  url: https://artifacts.apis.io/paychex-developer/openapi/paychex-developer-companies-api-openapi.yml
 - filename: paychex-developer-time-entries-api-openapi.yml
   format: yaml
   label: Paychex Time Entries API
   slug: paychex-developer-time-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paychex-developer/refs/heads/main/openapi/paychex-developer-time-entries-api-openapi.yml
+  url: https://artifacts.apis.io/paychex-developer/openapi/paychex-developer-time-entries-api-openapi.yml
 - filename: paychex-developer-workers-api-openapi.yml
   format: yaml
   label: Paychex Workers API
   slug: paychex-developer-workers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paychex-developer/refs/heads/main/openapi/paychex-developer-workers-api-openapi.yml
+  url: https://artifacts.apis.io/paychex-developer/openapi/paychex-developer-workers-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -51,7 +51,7 @@ source_filename: paychex-developer-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/paychex-payroll-companies-openapi.yml, openapi/paychex-time-openapi.yml, openapi/paychex-workers-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2ClientCredentials\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.paychex.com/auth/oauth/v2/token\n    scopes: 0\n  sources:\n  - openapi/paychex-payroll-companies-openapi.yml\n  - openapi/paychex-time-openapi.yml\n  - openapi/paychex-workers-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paychex-developer/refs/heads/main/authentication/paychex-developer-authentication.yml
+source_yaml_url: https://artifacts.apis.io/paychex-developer/authentication/paychex-developer-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Benefits

@@ -5,31 +5,31 @@ api_specs:
   label: Compabase Companies API
   slug: compabase-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compabase/refs/heads/main/openapi/compabase-companies-api-openapi.yml
+  url: https://artifacts.apis.io/compabase/openapi/compabase-companies-api-openapi.yml
 - filename: compabase-health-api-openapi.yml
   format: yaml
   label: Compabase Health API
   slug: compabase-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compabase/refs/heads/main/openapi/compabase-health-api-openapi.yml
+  url: https://artifacts.apis.io/compabase/openapi/compabase-health-api-openapi.yml
 - filename: compabase-persons-api-openapi.yml
   format: yaml
   label: Compabase Persons API
   slug: compabase-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compabase/refs/heads/main/openapi/compabase-persons-api-openapi.yml
+  url: https://artifacts.apis.io/compabase/openapi/compabase-persons-api-openapi.yml
 - filename: compabase-usage-api-openapi.yml
   format: yaml
   label: Compabase Usage API
   slug: compabase-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compabase/refs/heads/main/openapi/compabase-usage-api-openapi.yml
+  url: https://artifacts.apis.io/compabase/openapi/compabase-usage-api-openapi.yml
 - filename: compabase-watchlist-api-openapi.yml
   format: yaml
   label: Compabase Watchlist API
   slug: compabase-watchlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compabase/refs/heads/main/openapi/compabase-watchlist-api-openapi.yml
+  url: https://artifacts.apis.io/compabase/openapi/compabase-watchlist-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: compabase-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: compabase.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  9 22:04:11 2026 GMT\n  hsts: false\ndomains:\n- domain: compabase.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/compabase/refs/heads/main/security/compabase-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/compabase/security/compabase-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

@@ -7,25 +7,25 @@ api_specs:
   label: IFS Finance API
   slug: ifs-finance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/openapi/ifs-finance-api-openapi.yml
+  url: https://artifacts.apis.io/ifs/openapi/ifs-finance-api-openapi.yml
 - filename: ifs-inventory-api-openapi.yml
   format: yaml
   label: IFS Inventory API
   slug: ifs-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/openapi/ifs-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/ifs/openapi/ifs-inventory-api-openapi.yml
 - filename: ifs-procurement-api-openapi.yml
   format: yaml
   label: IFS Procurement API
   slug: ifs-procurement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/openapi/ifs-procurement-api-openapi.yml
+  url: https://artifacts.apis.io/ifs/openapi/ifs-procurement-api-openapi.yml
 - filename: ifs-work-orders-api-openapi.yml
   format: yaml
   label: IFS Work Orders API
   slug: ifs-work-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/openapi/ifs-work-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ifs/openapi/ifs-work-orders-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -98,11 +98,11 @@ source_yaml: "generated: '2026-09-13'\nmethod: searched\nsource: https://docs.if
   \ Yields an\n      access token for a service user associated with the IAM client itself. Client ID and\n      client secret act as the username and password of the integrating application.\n    parameters:\n      grant_type: client_credentials\n      scope: openid microprofile-jwt\n      client_id: Client ID of the IFS IAM client\n      client_secret: Client secret of the IFS IAM client\n    docs: https://docs.ifs.com/techdocs/26r1/030_administration/010_security/040_iam_settings/035_iam_clients/020_authenticate_external_integration/300_client_credential_flow/\n  - flow: authorizationCode\n    docs: https://docs.ifs.com/techdocs/26r1/030_administration/010_security/040_iam_settings/035_iam_clients/020_authenticate_external_integration/100_authorization_code_flow/\n  - flow: authorizationCode+PKCE\n    docs: https://docs.ifs.com/techdocs/26r1/030_administration/010_security/040_iam_settings/035_iam_clients/020_authenticate_external_integration/200_authorization_code_flow_pkce/\n  - flow:\
   \ password\n    name: Resource Owner Password Credentials\n    docs: https://docs.ifs.com/techdocs/26r1/030_administration/010_security/040_iam_settings/035_iam_clients/020_authenticate_external_integration/400_resource_owner_pw_credentials/\n    caution: Legacy flow; IFS documents it but OAuth 2.1 removes it.\n- name: Basic authentication\n  type: http\n  scheme: basic\n  status: legacy-not-for-integrations\n  note: >-\n    \"In IFS Cloud the authentication mechanism is independent from the main/int endpoints\n    ('Compatibility mode' that was available in Apps 10 is no longer available). In other\n    words, basic authentication is available in both end points but only for ease of\n    upgrade. That means basic authentication is not for the consumption of integrations.\"\n  docs: https://docs.ifs.com/techdocs/26r1/030_administration/010_security/040_iam_settings/035_iam_clients/020_authenticate_external_integration/500_basic_authentication_flow/\nclient_registration:\n  where: IFS Cloud\
   \ > Solution Manager > Security > Identity and Access Manager > IAM Client Details\n  self_serve: false\n  note: >-\n    A custom IAM client must be registered inside the customer's own IFS Cloud environment by\n    an administrator before an access token can be obtained. There is no public developer\n    signup that yields IFS Cloud API credentials.\nauthorization:\n  model: permission sets\n  note: >-\n    Access to a projection and its entity sets is granted through IFS Cloud permission sets\n    (projection grants, per-projection access levels), plus Access Control Lists applied at\n    projection level. StandardEntity-class APIs additionally require activation by a system\n    administrator before use.\n  docs: https://docs.ifs.com/techdocs/26r1/030_administration/010_security/020_permission_sets/004_permission_set_overview/010_projections/\nauditing:\n  docs: https://docs.ifs.com/techdocs/26r1/030_administration/010_security/040_iam_settings/080_authentication_auditing/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/authentication/ifs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ifs/authentication/ifs-authentication.yml
 summary_line: oauth2/openIdConnect · 2 schemes
 tags:
 - ERP
-- Field Service
+- Field Service Management
 - Asset Management
 - Manufacturing
 - Energy

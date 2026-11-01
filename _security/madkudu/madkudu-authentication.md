@@ -9,73 +9,73 @@ api_specs:
   label: MadKudu Accounts API
   slug: madkudu-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/openapi/madkudu-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/madkudu/openapi/madkudu-accounts-api-openapi.yml
 - filename: madkudu-ai-api-openapi.yml
   format: yaml
   label: MadKudu AI API
   slug: madkudu-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/openapi/madkudu-ai-api-openapi.yml
+  url: https://artifacts.apis.io/madkudu/openapi/madkudu-ai-api-openapi.yml
 - filename: madkudu-companies-api-openapi.yml
   format: yaml
   label: MadKudu Companies API
   slug: madkudu-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/openapi/madkudu-companies-api-openapi.yml
+  url: https://artifacts.apis.io/madkudu/openapi/madkudu-companies-api-openapi.yml
 - filename: madkudu-enrichment-api-openapi.yml
   format: yaml
   label: MadKudu Enrichment API
   slug: madkudu-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/openapi/madkudu-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/madkudu/openapi/madkudu-enrichment-api-openapi.yml
 - filename: madkudu-ingestion-api-openapi.yml
   format: yaml
   label: MadKudu Ingestion API
   slug: madkudu-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/openapi/madkudu-ingestion-api-openapi.yml
+  url: https://artifacts.apis.io/madkudu/openapi/madkudu-ingestion-api-openapi.yml
 - filename: madkudu-job-changes-api-openapi.yml
   format: yaml
   label: MadKudu Job Changes API
   slug: madkudu-job-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/openapi/madkudu-job-changes-api-openapi.yml
+  url: https://artifacts.apis.io/madkudu/openapi/madkudu-job-changes-api-openapi.yml
 - filename: madkudu-lookup-api-openapi.yml
   format: yaml
   label: MadKudu Lookup API
   slug: madkudu-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/openapi/madkudu-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/madkudu/openapi/madkudu-lookup-api-openapi.yml
 - filename: madkudu-organisation-api-openapi.yml
   format: yaml
   label: MadKudu Organisation API
   slug: madkudu-organisation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/openapi/madkudu-organisation-api-openapi.yml
+  url: https://artifacts.apis.io/madkudu/openapi/madkudu-organisation-api-openapi.yml
 - filename: madkudu-persons-api-openapi.yml
   format: yaml
   label: MadKudu Persons API
   slug: madkudu-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/openapi/madkudu-persons-api-openapi.yml
+  url: https://artifacts.apis.io/madkudu/openapi/madkudu-persons-api-openapi.yml
 - filename: madkudu-search-api-openapi.yml
   format: yaml
   label: MadKudu Search API
   slug: madkudu-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/openapi/madkudu-search-api-openapi.yml
+  url: https://artifacts.apis.io/madkudu/openapi/madkudu-search-api-openapi.yml
 - filename: madkudu-sourcing-api-openapi.yml
   format: yaml
   label: MadKudu Sourcing API
   slug: madkudu-sourcing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/openapi/madkudu-sourcing-api-openapi.yml
+  url: https://artifacts.apis.io/madkudu/openapi/madkudu-sourcing-api-openapi.yml
 - filename: madkudu-utilities-api-openapi.yml
   format: yaml
   label: MadKudu Utilities API
   slug: madkudu-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/openapi/madkudu-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/madkudu/openapi/madkudu-utilities-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -121,7 +121,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: https://develop
   \ HTTP fail. Base URL https://madapi.madkudu.com\n    (staging https://madapi.wisekudu.com). The docs spell the header `X-API-Key` and the published\n    OpenAPI declares `x-api-key` — HTTP header names are case-insensitive, so both work.\n  applies_to: MadKudu API (MadAPI)\n- name: LegacyBasicAuth\n  type: http\n  scheme: basic\n  declared_in: openapi/madkudu-legacy-api-openapi.yml\n  description: >-\n    The legacy Scoring API uses HTTP Basic authentication with the API key as the username and an\n    empty password — Base64 encode `YOUR_API_KEY:` (note the trailing colon) and send\n    `Authorization: Basic <encoded>`. Base URL https://api.madkudu.com. The docs state this key is\n    DIFFERENT from the MadAPI key.\n  applies_to: MadKudu Legacy Scoring API\n- name: MCPPathKey\n  type: apiKey\n  in: path\n  parameter_name: YOUR_API_KEY\n  description: >-\n    The hosted MCP server takes the same MadAPI key as a URL PATH SEGMENT —\n    https://mcp.madkudu.com/YOUR_API_KEY/mcp (or /sse).\
   \ The credential therefore travels in the\n    URL, where it is exposed to proxy logs, browser history, MCP client config files and any tool\n    that records server URLs, and it cannot be rotated per-request. MadKudu's own integration docs\n    tell Dust and n8n users to set \"no Bearer token\" / \"Authentication: None\" because the key is\n    already in the path.\n  applies_to: MadKudu MCP server (MadMCP)\n  ref: mcp/madkudu-mcp.yml\nkey_management:\n  issuance: https://admin.madkudu.com > Personal Settings > My API Keys > Create API key\n  prerequisites:\n  - An active MadKudu account\n  - MadKudu Admin role\n  scoping: >-\n    Keys are PERSONAL — tied to the creating user and that user's permissions — and MadKudu\n    recommends creating a separate key per integration (named e.g. \"Cursor\", \"Zapier\", \"Claude\") so\n    usage can be attributed per key in Settings > API Usage.\n  rotation_policy: null\n  expiry: null\n  scopes: none — there is no OAuth scope or permission model\
   \ on the key itself; it inherits the\n    user's permissions.\n  warning: >-\n    \"Your API keys carry many privileges, so be sure to keep them secure! Do not share your secret\n    API keys in publicly accessible areas such as GitHub, client-side code, and so forth.\" —\n    published verbatim by MadKudu.\nnotes: >-\n  No OAuth 2.0, no OpenID Connect, no mutual TLS, and no /.well-known/ discovery document on any\n  host. Every surface is a single long-lived bearer-equivalent secret, and on the agent surface\n  that secret is in the URL.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/authentication/madkudu-authentication.yml
+source_yaml_url: https://artifacts.apis.io/madkudu/authentication/madkudu-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Company

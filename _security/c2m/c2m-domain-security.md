@@ -26,7 +26,7 @@ source_filename: c2m-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: connected2.me\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 04:40:15 2026 GMT\n  hsts: null\ndomains:\n- domain: connected2.me\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/c2m/refs/heads/main/security/c2m-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/c2m/security/c2m-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

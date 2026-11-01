@@ -7,19 +7,19 @@ api_specs:
   label: Azure Databricks Clusters API
   slug: microsoft-azure-databricks-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/openapi/microsoft-azure-databricks-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-databricks/openapi/microsoft-azure-databricks-clusters-api-openapi.yml
 - filename: microsoft-azure-databricks-jobs-api-openapi.yml
   format: yaml
   label: Azure Databricks Jobs API
   slug: microsoft-azure-databricks-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/openapi/microsoft-azure-databricks-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-databricks/openapi/microsoft-azure-databricks-jobs-api-openapi.yml
 - filename: microsoft-azure-databricks-workspace-api-openapi.yml
   format: yaml
   label: Azure Databricks Workspace API
   slug: microsoft-azure-databricks-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/openapi/microsoft-azure-databricks-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-databricks/openapi/microsoft-azure-databricks-workspace-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -58,7 +58,7 @@ source_filename: azure-databricks-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-databricks-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Databricks personal access token. Pass the token in the Authorization header\n    as Bearer <token>.\n  sources:\n  - openapi/azure-databricks-openapi.yml\n- name: AzureADToken\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenant_id}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenant_id}/oauth2/v2.0/token\n    scopes: 1\n  description: Azure Active Directory token for authenticating with Azure Databricks. Supports\n    both user and service principal authentication.\n  sources:\n  - openapi/azure-databricks-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/authentication/azure-databricks-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-databricks/authentication/azure-databricks-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Analytics

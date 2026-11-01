@@ -7,25 +7,25 @@ api_specs:
   label: Microsoft Fabric Capacities API
   slug: microsoft-fabric-capacities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-fabric/refs/heads/main/openapi/microsoft-fabric-capacities-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-fabric/openapi/microsoft-fabric-capacities-api-openapi.yml
 - filename: microsoft-fabric-connections-api-openapi.yml
   format: yaml
   label: Microsoft Fabric Connections API
   slug: microsoft-fabric-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-fabric/refs/heads/main/openapi/microsoft-fabric-connections-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-fabric/openapi/microsoft-fabric-connections-api-openapi.yml
 - filename: microsoft-fabric-items-api-openapi.yml
   format: yaml
   label: Microsoft Fabric Items API
   slug: microsoft-fabric-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-fabric/refs/heads/main/openapi/microsoft-fabric-items-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-fabric/openapi/microsoft-fabric-items-api-openapi.yml
 - filename: microsoft-fabric-workspaces-api-openapi.yml
   format: yaml
   label: Microsoft Fabric Workspaces API
   slug: microsoft-fabric-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-fabric/refs/heads/main/openapi/microsoft-fabric-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-fabric/openapi/microsoft-fabric-workspaces-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: microsoft-fabric-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-fabric-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/microsoft-fabric-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-fabric/refs/heads/main/authentication/microsoft-fabric-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-fabric/authentication/microsoft-fabric-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Data Analytics

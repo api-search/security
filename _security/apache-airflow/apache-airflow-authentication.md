@@ -2,180 +2,210 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
+- filename: apache-airflow-experimental-api-openapi.yml
+  format: yaml
+  label: Apache Airflow Experimental API (Deprecated)
+  slug: apache-airflow-experimental-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-experimental-api-openapi.yml
 - filename: apache-airflow-config-api-openapi.yml
   format: yaml
   label: Apache Airflow Config API
   slug: apache-airflow-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-config-api-openapi.yml
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-config-api-openapi.yml
 - filename: apache-airflow-connection-api-openapi.yml
   format: yaml
   label: Apache Airflow Connection API
   slug: apache-airflow-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-connection-api-openapi.yml
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-connection-api-openapi.yml
 - filename: apache-airflow-dag-api-openapi.yml
   format: yaml
   label: Apache Airflow DAG API
   slug: apache-airflow-dag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-dag-api-openapi.yml
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-dag-api-openapi.yml
 - filename: apache-airflow-dagwarning-api-openapi.yml
   format: yaml
   label: Apache Airflow DagWarning API
   slug: apache-airflow-dagwarning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-dagwarning-api-openapi.yml
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-dagwarning-api-openapi.yml
 - filename: apache-airflow-dataset-api-openapi.yml
   format: yaml
   label: Apache Airflow Dataset API
   slug: apache-airflow-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-dataset-api-openapi.yml
 - filename: apache-airflow-monitoring-api-openapi.yml
   format: yaml
   label: Apache Airflow Monitoring API
   slug: apache-airflow-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-monitoring-api-openapi.yml
 - filename: apache-airflow-permission-api-openapi.yml
   format: yaml
   label: Apache Airflow Permission API
   slug: apache-airflow-permission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-permission-api-openapi.yml
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-permission-api-openapi.yml
 - filename: apache-airflow-plugin-api-openapi.yml
   format: yaml
   label: Apache Airflow Plugin API
   slug: apache-airflow-plugin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-plugin-api-openapi.yml
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-plugin-api-openapi.yml
 - filename: apache-airflow-pool-api-openapi.yml
   format: yaml
   label: Apache Airflow Pool API
   slug: apache-airflow-pool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-pool-api-openapi.yml
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-pool-api-openapi.yml
 - filename: apache-airflow-provider-api-openapi.yml
   format: yaml
   label: Apache Airflow Provider API
   slug: apache-airflow-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-provider-api-openapi.yml
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-provider-api-openapi.yml
 - filename: apache-airflow-role-api-openapi.yml
   format: yaml
   label: Apache Airflow Role API
   slug: apache-airflow-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-role-api-openapi.yml
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-role-api-openapi.yml
 - filename: apache-airflow-user-api-openapi.yml
   format: yaml
   label: Apache Airflow User API
   slug: apache-airflow-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-user-api-openapi.yml
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-user-api-openapi.yml
 - filename: apache-airflow-variable-api-openapi.yml
   format: yaml
   label: Apache Airflow Variable API
   slug: apache-airflow-variable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-variable-api-openapi.yml
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-variable-api-openapi.yml
 - filename: apache-airflow-xcom-api-openapi.yml
   format: yaml
   label: Apache Airflow XCom API
   slug: apache-airflow-xcom-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-xcom-api-openapi.yml
-- filename: apache-airflow-dag-run-api-openapi.yml
-  format: yaml
-  label: Apache Airflow DAG Run API
-  slug: apache-airflow-dag-run-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-dag-run-api-openapi.yml
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-xcom-api-openapi.yml
 - filename: apache-airflow-event-log-api-openapi.yml
   format: yaml
   label: Apache Airflow Event Log API
   slug: apache-airflow-event-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-event-log-api-openapi.yml
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-event-log-api-openapi.yml
 - filename: apache-airflow-import-error-api-openapi.yml
   format: yaml
   label: Apache Airflow Import Error API
   slug: apache-airflow-import-error-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-import-error-api-openapi.yml
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-import-error-api-openapi.yml
 - filename: apache-airflow-task-instance-api-openapi.yml
   format: yaml
   label: Apache Airflow Task Instance API
   slug: apache-airflow-task-instance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-task-instance-api-openapi.yml
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-task-instance-api-openapi.yml
 - filename: apache-airflow-asset-api-openapi.yml
   format: yaml
   label: Apache Airflow Asset API
   slug: apache-airflow-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-asset-api-openapi.yml
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-asset-api-openapi.yml
 - filename: apache-airflow-backfill-api-openapi.yml
   format: yaml
   label: Apache Airflow Backfill API
   slug: apache-airflow-backfill-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-backfill-api-openapi.yml
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-backfill-api-openapi.yml
 - filename: apache-airflow-dag-parsing-api-openapi.yml
   format: yaml
   label: Apache Airflow DAG Parsing API
   slug: apache-airflow-dag-parsing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-dag-parsing-api-openapi.yml
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-dag-parsing-api-openapi.yml
 - filename: apache-airflow-dagsource-api-openapi.yml
   format: yaml
   label: Apache Airflow Dag Source API
   slug: apache-airflow-dagsource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-dagsource-api-openapi.yml
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-dagsource-api-openapi.yml
 - filename: apache-airflow-dagstats-api-openapi.yml
   format: yaml
   label: Apache Airflow Dag Stats API
   slug: apache-airflow-dagstats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-dagstats-api-openapi.yml
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-dagstats-api-openapi.yml
 - filename: apache-airflow-dagversion-api-openapi.yml
   format: yaml
   label: Apache Airflow Dag Version API
   slug: apache-airflow-dagversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-dagversion-api-openapi.yml
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-dagversion-api-openapi.yml
 - filename: apache-airflow-job-api-openapi.yml
   format: yaml
   label: Apache Airflow Job API
   slug: apache-airflow-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-job-api-openapi.yml
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-job-api-openapi.yml
 - filename: apache-airflow-login-api-openapi.yml
   format: yaml
   label: Apache Airflow Login API
   slug: apache-airflow-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-login-api-openapi.yml
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-login-api-openapi.yml
 - filename: apache-airflow-monitor-api-openapi.yml
   format: yaml
   label: Apache Airflow Monitor API
   slug: apache-airflow-monitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-monitor-api-openapi.yml
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-monitor-api-openapi.yml
 - filename: apache-airflow-task-api-openapi.yml
   format: yaml
   label: Apache Airflow Task API
   slug: apache-airflow-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-task-api-openapi.yml
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-task-api-openapi.yml
 - filename: apache-airflow-version-api-openapi.yml
   format: yaml
   label: Apache Airflow Version API
   slug: apache-airflow-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-version-api-openapi.yml
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-version-api-openapi.yml
+- filename: apache-airflow-asset-state-store-api-openapi.yml
+  format: yaml
+  label: Apache Airflow Asset State Store API
+  slug: apache-airflow-asset-state-store-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-asset-state-store-api-openapi.yml
+- filename: apache-airflow-experimental-api-openapi.yml
+  format: yaml
+  label: Apache Airflow Experimental API
+  slug: apache-airflow-experimental-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-experimental-api-openapi.yml
+- filename: apache-airflow-extra-links-api-openapi.yml
+  format: yaml
+  label: Apache Airflow Extra Links API
+  slug: apache-airflow-extra-links-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-extra-links-api-openapi.yml
+- filename: apache-airflow-task-state-store-api-openapi.yml
+  format: yaml
+  label: Apache Airflow Task State Store API
+  slug: apache-airflow-task-state-store-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-task-state-store-api-openapi.yml
+- filename: apache-airflow-dag-run-api-openapi.yml
+  format: yaml
+  label: Apache Airflow DAG Run API
+  slug: apache-airflow-dag-run-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apache-airflow/openapi/apache-airflow-dag-run-api-openapi.yml
 auth_types:
 - http
 - openIdConnect
@@ -212,7 +242,7 @@ source_filename: apache-airflow-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/apache-airflow-openapi.yaml\nsummary:\n  types:\n  - http\n  - openIdConnect\nschemes:\n- name: Basic\n  type: http\n  scheme: basic\n  sources:\n  - openapi/apache-airflow-openapi.yaml\n- name: GoogleOpenId\n  type: openIdConnect\n  openIdConnectUrl: https://accounts.google.com/.well-known/openid-configuration\n  sources:\n  - openapi/apache-airflow-openapi.yaml\n- name: Kerberos\n  type: http\n  scheme: negotiate\n  sources:\n  - openapi/apache-airflow-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/authentication/apache-airflow-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apache-airflow/authentication/apache-airflow-authentication.yml
 summary_line: http/openIdConnect · 3 schemes
 tags:
 - Apache

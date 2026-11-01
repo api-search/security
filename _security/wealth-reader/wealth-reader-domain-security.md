@@ -5,19 +5,19 @@ api_specs:
   label: Wealth Reader Advanced API
   slug: wealth-reader-advanced-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealth-reader/refs/heads/main/openapi/wealth-reader-advanced-api-openapi.yml
+  url: https://artifacts.apis.io/wealth-reader/openapi/wealth-reader-advanced-api-openapi.yml
 - filename: wealth-reader-cards-real-time-api-openapi.yml
   format: yaml
   label: Wealth Reader Cards (real time) API
   slug: wealth-reader-cards-real-time-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealth-reader/refs/heads/main/openapi/wealth-reader-cards-real-time-api-openapi.yml
+  url: https://artifacts.apis.io/wealth-reader/openapi/wealth-reader-cards-real-time-api-openapi.yml
 - filename: wealth-reader-core-api-openapi.yml
   format: yaml
   label: Wealth Reader Core API
   slug: wealth-reader-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealth-reader/refs/heads/main/openapi/wealth-reader-core-api-openapi.yml
+  url: https://artifacts.apis.io/wealth-reader/openapi/wealth-reader-core-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: wealth-reader-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.wealthreader.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 04:23:36 2026 GMT\n  hsts: false\n- host: api.wealthreader.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 13 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: wealthreader.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wealth-reader/refs/heads/main/security/wealth-reader-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wealth-reader/security/wealth-reader-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Bank Aggregation

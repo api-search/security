@@ -5,37 +5,37 @@ api_specs:
   label: WebCrawlerAPI Agent API
   slug: webcrawlerapi-com-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webcrawlerapi-com/refs/heads/main/openapi/webcrawlerapi-com-agent-api-openapi.yml
+  url: https://artifacts.apis.io/webcrawlerapi-com/openapi/webcrawlerapi-com-agent-api-openapi.yml
 - filename: webcrawlerapi-com-feeds-api-openapi.yml
   format: yaml
   label: WebCrawlerAPI Feeds API
   slug: webcrawlerapi-com-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webcrawlerapi-com/refs/heads/main/openapi/webcrawlerapi-com-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/webcrawlerapi-com/openapi/webcrawlerapi-com-feeds-api-openapi.yml
 - filename: webcrawlerapi-com-jobs-api-openapi.yml
   format: yaml
   label: WebCrawlerAPI Jobs API
   slug: webcrawlerapi-com-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webcrawlerapi-com/refs/heads/main/openapi/webcrawlerapi-com-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/webcrawlerapi-com/openapi/webcrawlerapi-com-jobs-api-openapi.yml
 - filename: webcrawlerapi-com-organization-api-openapi.yml
   format: yaml
   label: WebCrawlerAPI Organization API
   slug: webcrawlerapi-com-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webcrawlerapi-com/refs/heads/main/openapi/webcrawlerapi-com-organization-api-openapi.yml
+  url: https://artifacts.apis.io/webcrawlerapi-com/openapi/webcrawlerapi-com-organization-api-openapi.yml
 - filename: webcrawlerapi-com-status-api-openapi.yml
   format: yaml
   label: WebCrawlerAPI Status API
   slug: webcrawlerapi-com-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webcrawlerapi-com/refs/heads/main/openapi/webcrawlerapi-com-status-api-openapi.yml
+  url: https://artifacts.apis.io/webcrawlerapi-com/openapi/webcrawlerapi-com-status-api-openapi.yml
 - filename: webcrawlerapi-com-v2-scraping-api-openapi.yml
   format: yaml
   label: WebCrawlerAPI V2 Scraping API
   slug: webcrawlerapi-com-v2-scraping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webcrawlerapi-com/refs/heads/main/openapi/webcrawlerapi-com-v2-scraping-api-openapi.yml
+  url: https://artifacts.apis.io/webcrawlerapi-com/openapi/webcrawlerapi-com-v2-scraping-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: webcrawlerapi-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: webcrawlerapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  3 11:28:36 2026 GMT\n  hsts: false\ndomains:\n- domain: webcrawlerapi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/webcrawlerapi-com/refs/heads/main/security/webcrawlerapi-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/webcrawlerapi-com/security/webcrawlerapi-com-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Web Scraping

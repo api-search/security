@@ -10,7 +10,7 @@ api_specs:
   label: Open Policy API
   slug: open-insurance-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/openapi/open-insurance-policy-api-openapi.yml
+  url: https://artifacts.apis.io/open-insurance/openapi/open-insurance-policy-api-openapi.yml
 auth_types:
 - apiKey
 - jwt-bearer (deprecated)
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-07-25'\nmethod: searched\nsource: openapi/open-in
   \  parameters:\n  - key\n  applies_to:\n  - URL Handover\n  - Open.Widget iframe src\n  description: >-\n    The redirect and embed surfaces carry the API key as the `key` query\n    parameter, e.g. https://stage.huddle.com.au/?key=API_KEY&pc=PRODUCT_CODE.\n  docs: https://developers.beopen.com/docs/basic-redirection\n- name: jwt_hs256\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  algorithm: HS256\n  status: deprecated\n  deprecation_note: >-\n    \"This feature has been deprecated and should not be used in new\n    implementation!\" — verbatim from the docs page.\n  description: >-\n    An HS256 JWT signed with the account secret key unlocks advanced SDK\n    workflows (customer_ref linking, resume-quote). Passed as the authToken\n    option to opensdk.load, or as the `jwt` query parameter on a URL Handover.\n    Payload documented as {\"customer_ref\": \"123\"}.\n  docs: https://developers.beopen.com/docs/authenticating-using-jwt\n- name: readme_oidc_mcp\n  type: oauth2\n \
   \ scope: documentation MCP endpoint only\n  authorization_servers:\n  - https://dash.readme.com/oidc\n  applies_to:\n  - https://developers.beopen.com/mcp\n  description: >-\n    Third-party. The developer hub's MCP endpoint is protected by ReadMe's own\n    OIDC authorization server, advertised via RFC 9728 metadata at\n    /.well-known/oauth-protected-resource/mcp. This is documentation-platform\n    auth, not Open API auth.\n  first_party: false\nkey_management:\n  issuance: Open account manager / sales@beopen.com at partner account creation\n  rotation: not documented\n  self_serve_console: false\n  guidance: >-\n    Docs advise storing keys in a password manager or secrets service, keeping\n    them out of source control, and treating public exposure as an account\n    compromise (\"A user might abuse API calls or create insurance quotes on\n    behalf of your account\").\n  docs: https://developers.beopen.com/docs/keys\ngaps:\n- The OpenAPI does not declare any securityScheme, so\
   \ generated clients get no auth wiring.\n- Credentials travel in the request body, which excludes them from standard Authorization-header tooling and proxy redaction.\n- No documented key rotation, expiry or revocation procedure.\n- No OAuth 2.0 / OIDC option for partner or end-user delegated access.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/authentication/open-insurance-authentication.yml
+source_yaml_url: https://artifacts.apis.io/open-insurance/authentication/open-insurance-authentication.yml
 summary_line: apiKey/jwt-bearer (deprecated) · 5 schemes
 tags:
 - Insurance

@@ -8,19 +8,19 @@ api_specs:
   label: Amazon Transit Gateway Route Tables API
   slug: amazon-transit-gateway-route-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/openapi/amazon-transit-gateway-route-tables-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-transit-gateway/openapi/amazon-transit-gateway-route-tables-api-openapi.yml
 - filename: amazon-transit-gateway-transit-gateways-api-openapi.yml
   format: yaml
   label: Amazon Transit Gateway Transit Gateways API
   slug: amazon-transit-gateway-transit-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/openapi/amazon-transit-gateway-transit-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-transit-gateway/openapi/amazon-transit-gateway-transit-gateways-api-openapi.yml
 - filename: amazon-transit-gateway-vpc-attachments-api-openapi.yml
   format: yaml
   label: Amazon Transit Gateway VPC Attachments API
   slug: amazon-transit-gateway-vpc-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/openapi/amazon-transit-gateway-vpc-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-transit-gateway/openapi/amazon-transit-gateway-vpc-attachments-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: amazon-transit-gateway-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-transit-gateway-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: aws_sig_v4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4 authentication.\n  sources:\n  - openapi/amazon-transit-gateway-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/authentication/amazon-transit-gateway-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-transit-gateway/authentication/amazon-transit-gateway-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Cloud Networking

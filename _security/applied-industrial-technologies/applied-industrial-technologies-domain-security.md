@@ -5,13 +5,13 @@ api_specs:
   label: Applied Industrial Technologies Orders API
   slug: applied-industrial-technologies-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applied-industrial-technologies/refs/heads/main/openapi/applied-industrial-technologies-orders-api-openapi.yml
+  url: https://artifacts.apis.io/applied-industrial-technologies/openapi/applied-industrial-technologies-orders-api-openapi.yml
 - filename: applied-industrial-technologies-products-api-openapi.yml
   format: yaml
   label: Applied Industrial Technologies Products API
   slug: applied-industrial-technologies-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applied-industrial-technologies/refs/heads/main/openapi/applied-industrial-technologies-products-api-openapi.yml
+  url: https://artifacts.apis.io/applied-industrial-technologies/openapi/applied-industrial-technologies-products-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: applied-industrial-technologies-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.applied.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 20 23:59:59 2027 GMT\n  hsts: null\n- host: api.applied-industrial-technologies.com\n  https: false\ndomains:\n- domain: applied.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: applied-industrial-technologies.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/applied-industrial-technologies/refs/heads/main/security/applied-industrial-technologies-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/applied-industrial-technologies/security/applied-industrial-technologies-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Industrial Distribution

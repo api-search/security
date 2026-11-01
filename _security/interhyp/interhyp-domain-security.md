@@ -5,49 +5,49 @@ api_specs:
   label: Interhyp Commands API
   slug: interhyp-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/openapi/interhyp-commands-api-openapi.yml
+  url: https://artifacts.apis.io/interhyp/openapi/interhyp-commands-api-openapi.yml
 - filename: interhyp-documents-api-openapi.yml
   format: yaml
   label: Interhyp Documents API
   slug: interhyp-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/openapi/interhyp-documents-api-openapi.yml
+  url: https://artifacts.apis.io/interhyp/openapi/interhyp-documents-api-openapi.yml
 - filename: interhyp-financing-application-api-openapi.yml
   format: yaml
   label: Interhyp Financing Application API
   slug: interhyp-financing-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/openapi/interhyp-financing-application-api-openapi.yml
+  url: https://artifacts.apis.io/interhyp/openapi/interhyp-financing-application-api-openapi.yml
 - filename: interhyp-info-api-openapi.yml
   format: yaml
   label: Interhyp Info API
   slug: interhyp-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/openapi/interhyp-info-api-openapi.yml
+  url: https://artifacts.apis.io/interhyp/openapi/interhyp-info-api-openapi.yml
 - filename: interhyp-logbook-api-openapi.yml
   format: yaml
   label: Interhyp Logbook API
   slug: interhyp-logbook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/openapi/interhyp-logbook-api-openapi.yml
+  url: https://artifacts.apis.io/interhyp/openapi/interhyp-logbook-api-openapi.yml
 - filename: interhyp-pre-submission-checks-api-openapi.yml
   format: yaml
   label: Interhyp Pre Submission Checks API
   slug: interhyp-pre-submission-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/openapi/interhyp-pre-submission-checks-api-openapi.yml
+  url: https://artifacts.apis.io/interhyp/openapi/interhyp-pre-submission-checks-api-openapi.yml
 - filename: interhyp-protocol-api-openapi.yml
   format: yaml
   label: Interhyp Protocol API
   slug: interhyp-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/openapi/interhyp-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/interhyp/openapi/interhyp-protocol-api-openapi.yml
 - filename: interhyp-submissions-api-openapi.yml
   format: yaml
   label: Interhyp Submissions API
   slug: interhyp-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/openapi/interhyp-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/interhyp/openapi/interhyp-submissions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -92,7 +92,7 @@ source_filename: interhyp-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.ehyphome.de\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  6 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.interhyp.de\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 11 23:59:59 2026 GMT\n  hsts: null\n- host: api-test.interhyp.de\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 25 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: ehyphome.de\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: interhyp.de\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/security/interhyp-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/interhyp/security/interhyp-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company

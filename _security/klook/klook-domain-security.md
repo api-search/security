@@ -5,25 +5,25 @@ api_specs:
   label: Klook Availability API
   slug: klook-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/openapi/klook-availability-api-openapi.yml
+  url: https://artifacts.apis.io/klook/openapi/klook-availability-api-openapi.yml
 - filename: klook-bookings-api-openapi.yml
   format: yaml
   label: Klook Bookings API
   slug: klook-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/openapi/klook-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/klook/openapi/klook-bookings-api-openapi.yml
 - filename: klook-products-api-openapi.yml
   format: yaml
   label: Klook Products API
   slug: klook-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/openapi/klook-products-api-openapi.yml
+  url: https://artifacts.apis.io/klook/openapi/klook-products-api-openapi.yml
 - filename: klook-supplier-api-openapi.yml
   format: yaml
   label: Klook Supplier API
   slug: klook-supplier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/openapi/klook-supplier-api-openapi.yml
+  url: https://artifacts.apis.io/klook/openapi/klook-supplier-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: klook-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.klook.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  7 23:59:59 2027 GMT\n  hsts: null\n- host: klook.gitbook.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 19:03:12 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: klook.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: gitbook.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/security/klook-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/klook/security/klook-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

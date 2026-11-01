@@ -5,103 +5,127 @@ api_specs:
   label: Hookdeck Connections API
   slug: hookdeck-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-connections-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-connections-api-openapi.yml
 - filename: hookdeck-sources-api-openapi.yml
   format: yaml
   label: Hookdeck Sources API
   slug: hookdeck-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-sources-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-sources-api-openapi.yml
 - filename: hookdeck-destinations-api-openapi.yml
   format: yaml
   label: Hookdeck Destinations API
   slug: hookdeck-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-destinations-api-openapi.yml
 - filename: hookdeck-events-api-openapi.yml
   format: yaml
   label: Hookdeck Events API
   slug: hookdeck-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-events-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-events-api-openapi.yml
 - filename: hookdeck-requests-api-openapi.yml
   format: yaml
   label: Hookdeck Requests API
   slug: hookdeck-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-requests-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-requests-api-openapi.yml
 - filename: hookdeck-transformations-api-openapi.yml
   format: yaml
   label: Hookdeck Transformations API
   slug: hookdeck-transformations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-transformations-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-transformations-api-openapi.yml
 - filename: hookdeck-bookmarks-api-openapi.yml
   format: yaml
   label: Hookdeck Bookmarks API
   slug: hookdeck-bookmarks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-bookmarks-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-bookmarks-api-openapi.yml
 - filename: hookdeck-issues-api-openapi.yml
   format: yaml
   label: Hookdeck Issues API
   slug: hookdeck-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-issues-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-issues-api-openapi.yml
 - filename: hookdeck-metrics-api-openapi.yml
   format: yaml
   label: Hookdeck Metrics API
   slug: hookdeck-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-metrics-api-openapi.yml
 - filename: hookdeck-integrations-api-openapi.yml
   format: yaml
   label: Hookdeck Integrations API
   slug: hookdeck-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-integrations-api-openapi.yml
 - filename: hookdeck-notifications-api-openapi.yml
   format: yaml
   label: Hookdeck Notifications API
   slug: hookdeck-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-notifications-api-openapi.yml
 - filename: hookdeck-attempts-api-openapi.yml
   format: yaml
   label: Hookdeck Attempts API
   slug: hookdeck-attempts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-attempts-api-openapi.yml
-- filename: hookdeck-bulk-cancel-events-api-openapi.yml
-  format: yaml
-  label: Hookdeck Bulk cancel events API
-  slug: hookdeck-bulk-cancel-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-bulk-cancel-events-api-openapi.yml
-- filename: hookdeck-bulk-retry-events-api-openapi.yml
-  format: yaml
-  label: Hookdeck Bulk retry events API
-  slug: hookdeck-bulk-retry-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-bulk-retry-events-api-openapi.yml
-- filename: hookdeck-bulk-retry-ignored-events-api-openapi.yml
-  format: yaml
-  label: Hookdeck Bulk retry ignored events API
-  slug: hookdeck-bulk-retry-ignored-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-bulk-retry-ignored-events-api-openapi.yml
-- filename: hookdeck-bulk-retry-requests-api-openapi.yml
-  format: yaml
-  label: Hookdeck Bulk retry requests API
-  slug: hookdeck-bulk-retry-requests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-bulk-retry-requests-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-attempts-api-openapi.yml
 - filename: hookdeck-issue-triggers-api-openapi.yml
   format: yaml
   label: Hookdeck Issue Triggers API
   slug: hookdeck-issue-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-issue-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-issue-triggers-api-openapi.yml
+- filename: hookdeck-configuration-api-openapi.yml
+  format: yaml
+  label: Hookdeck Configuration API
+  slug: hookdeck-configuration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-configuration-api-openapi.yml
+- filename: hookdeck-health-api-openapi.yml
+  format: yaml
+  label: Hookdeck Health API
+  slug: hookdeck-health-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-health-api-openapi.yml
+- filename: hookdeck-operator-events-api-openapi.yml
+  format: yaml
+  label: Hookdeck Operator Events API
+  slug: hookdeck-operator-events-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-operator-events-api-openapi.yml
+- filename: hookdeck-publish-api-openapi.yml
+  format: yaml
+  label: Hookdeck Publish API
+  slug: hookdeck-publish-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-publish-api-openapi.yml
+- filename: hookdeck-retry-api-openapi.yml
+  format: yaml
+  label: Hookdeck Retry API
+  slug: hookdeck-retry-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-retry-api-openapi.yml
+- filename: hookdeck-schemas-api-openapi.yml
+  format: yaml
+  label: Hookdeck Schemas API
+  slug: hookdeck-schemas-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-schemas-api-openapi.yml
+- filename: hookdeck-tenants-api-openapi.yml
+  format: yaml
+  label: Hookdeck Tenants API
+  slug: hookdeck-tenants-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-tenants-api-openapi.yml
+- filename: hookdeck-topics-api-openapi.yml
+  format: yaml
+  label: Hookdeck Topics API
+  slug: hookdeck-topics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-topics-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -136,7 +160,7 @@ source_filename: hookdeck-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: hookdeck.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 19:39:58 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.hookdeck.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 20:24:33 2026 GMT\n  hsts: null\ndomains:\n- domain: hookdeck.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/security/hookdeck-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hookdeck/security/hookdeck-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Webhook

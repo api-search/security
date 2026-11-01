@@ -7,55 +7,55 @@ api_specs:
   label: Simply Energy Data Holder Customers API
   slug: simply-energy-data-holder-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-data-holder-customers-api-openapi.yml
+  url: https://artifacts.apis.io/simply-energy/openapi/simply-energy-data-holder-customers-api-openapi.yml
 - filename: simply-energy-data-holder-operations-api-openapi.yml
   format: yaml
   label: Simply Energy Data Holder Operations API
   slug: simply-energy-data-holder-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-data-holder-operations-api-openapi.yml
+  url: https://artifacts.apis.io/simply-energy/openapi/simply-energy-data-holder-operations-api-openapi.yml
 - filename: simply-energy-distributed-energy-resources-api-openapi.yml
   format: yaml
   label: Simply Energy Distributed Energy Resources API
   slug: simply-energy-distributed-energy-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-distributed-energy-resources-api-openapi.yml
+  url: https://artifacts.apis.io/simply-energy/openapi/simply-energy-distributed-energy-resources-api-openapi.yml
 - filename: simply-energy-electricity-service-points-api-openapi.yml
   format: yaml
   label: Simply Energy Electricity Service Points API
   slug: simply-energy-electricity-service-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-electricity-service-points-api-openapi.yml
+  url: https://artifacts.apis.io/simply-energy/openapi/simply-energy-electricity-service-points-api-openapi.yml
 - filename: simply-energy-electricity-usage-api-openapi.yml
   format: yaml
   label: Simply Energy Electricity Usage API
   slug: simply-energy-electricity-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-electricity-usage-api-openapi.yml
+  url: https://artifacts.apis.io/simply-energy/openapi/simply-energy-electricity-usage-api-openapi.yml
 - filename: simply-energy-energy-account-balances-api-openapi.yml
   format: yaml
   label: Simply Energy Account Balances API
   slug: simply-energy-energy-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-energy-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/simply-energy/openapi/simply-energy-energy-account-balances-api-openapi.yml
 - filename: simply-energy-energy-account-billing-api-openapi.yml
   format: yaml
   label: Simply Energy Account Billing API
   slug: simply-energy-energy-account-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-energy-account-billing-api-openapi.yml
+  url: https://artifacts.apis.io/simply-energy/openapi/simply-energy-energy-account-billing-api-openapi.yml
 - filename: simply-energy-energy-accounts-api-openapi.yml
   format: yaml
   label: Simply Energy Accounts API
   slug: simply-energy-energy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-energy-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/simply-energy/openapi/simply-energy-energy-accounts-api-openapi.yml
 - filename: simply-energy-energy-plans-api-openapi.yml
   format: yaml
   label: Simply Energy Plans API
   slug: simply-energy-energy-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-energy-plans-api-openapi.yml
+  url: https://artifacts.apis.io/simply-energy/openapi/simply-energy-energy-plans-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: openapi/simply-
   \ 1.0\n    docs: https://consumerdatastandardsaustralia.github.io/standards/#security-profile\n    mechanisms:\n    - OAuth 2.0 authorization code flow with OpenID Connect\n    - Pushed Authorisation Requests (PAR)\n    - PKCE (Proof Key for Code Exchange)\n    - private_key_jwt client authentication\n    - Mutually Authenticated TLS (MTLS) with holder-of-key token binding\n    - JARM (JWT Secured Authorization Response Mode)\n    - Pairwise Pseudonymous Identifiers (PPID) as subject type\n    - Request objects signed as JWT\n    prerequisites:\n    - ACCC accreditation as a data recipient under the CDR Rules\n    - CDR client certificate issued under the CDR PKI\n    - Software product registered on the CDR Register (Dynamic Client Registration)\n    - Explicit, scoped, time-limited consumer consent (CDR consent model)\n    scopes: scopes/simply-energy-scopes.yml\nrequest_context_headers:\n- name: x-v\n  required: true\n  detail: Endpoint version requested. Must be a positive integer.\
   \ Mismatch returns HTTP 406\n    urn:au-cds:error:cds-all:Header/UnsupportedVersion.\n- name: x-min-v\n  required: false\n  detail: Minimum acceptable endpoint version.\n- name: x-fapi-interaction-id\n  required: false\n  detail: RFC 4122 UUID correlation id. The data holder MUST play it back in the response.\n    Confirmed present on live responses from both public hosts.\n- name: x-fapi-auth-date\n  required: conditional\n  detail: Time the customer last logged in to the data recipient software product. Required\n    for all authenticated resource calls. Not used on unauthenticated calls.\n- name: x-fapi-customer-ip-address\n  required: false\n  detail: Customer's original IP when the call is customer-present. Not to be included for\n    unauthenticated calls.\n- name: x-cds-client-headers\n  required: conditional\n  detail: Base64-encoded original customer HTTP headers. Mandatory for customer-present calls.\nevidence:\n- {source: 'live probe 2026-07-27', detail: 'GET https://cdr.energymadeeasy.gov.au/engie/cds-au/v1/energy/plans?page-size=1\
   \ (x-v 1) -> HTTP 200, no credential presented'}\n- {source: 'live probe 2026-07-27', detail: 'GET https://public.cdr.engie.com.au/cds-au/v1/discovery/status (x-v 1) -> HTTP 200, no credential presented'}\n- {source: 'live probe 2026-07-27', detail: 'GET https://public.cdr.engie.com.au/cds-au/v1/discovery/status (x-v 9) -> {\"errors\":[{\"code\":\"urn:au-cds:error:cds-all:Header/UnsupportedVersion\",...}]}'}\n- {source: https://consumerdatastandardsaustralia.github.io/standards/#security-profile, detail: CDR Security Profile - FAPI 1.0 Advanced, PAR, PKCE, private_key_jwt, MTLS, JARM}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/authentication/simply-energy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/simply-energy/authentication/simply-energy-authentication.yml
 summary_line: none/oauth2/openIdConnect/mutualTLS · 0 schemes
 tags:
 - Energy

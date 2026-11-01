@@ -5,31 +5,31 @@ api_specs:
   label: Fever Authentication API
   slug: fever-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/openapi/fever-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/fever/openapi/fever-authentication-api-openapi.yml
 - filename: fever-feverzone-api-openapi.yml
   format: yaml
   label: Fever FeverZone API
   slug: fever-feverzone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/openapi/fever-feverzone-api-openapi.yml
+  url: https://artifacts.apis.io/fever/openapi/fever-feverzone-api-openapi.yml
 - filename: fever-order-items-api-openapi.yml
   format: yaml
   label: Fever Order Items API
   slug: fever-order-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/openapi/fever-order-items-api-openapi.yml
+  url: https://artifacts.apis.io/fever/openapi/fever-order-items-api-openapi.yml
 - filename: fever-plans-api-openapi.yml
   format: yaml
   label: Fever Plans API
   slug: fever-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/openapi/fever-plans-api-openapi.yml
+  url: https://artifacts.apis.io/fever/openapi/fever-plans-api-openapi.yml
 - filename: fever-sessions-api-openapi.yml
   format: yaml
   label: Fever Sessions API
   slug: fever-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/openapi/fever-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/fever/openapi/fever-sessions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: fever-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.feverup.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 13 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: feverup.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/security/fever-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fever/security/fever-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

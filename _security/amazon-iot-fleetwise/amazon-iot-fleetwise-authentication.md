@@ -8,7 +8,19 @@ api_specs:
   label: Amazon IoT FleetWise AWS IoT FleetWise API
   slug: amazon-iot-fleetwise-aws-iot-fleetwise-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-fleetwise/refs/heads/main/openapi/amazon-iot-fleetwise-aws-iot-fleetwise-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-fleetwise/openapi/amazon-iot-fleetwise-aws-iot-fleetwise-api-openapi.yml
+- filename: amazon-iot-fleetwise-operations-api-openapi.yml
+  format: yaml
+  label: Amazon IoT FleetWise Iot Fleetwise Operations API
+  slug: amazon-iot-fleetwise-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-fleetwise/openapi/amazon-iot-fleetwise-operations-api-openapi.yml
+- filename: amazon-iot-fleetwise-state-template-api-openapi.yml
+  format: yaml
+  label: Amazon IoT FleetWise Iot Fleetwise State Template API
+  slug: amazon-iot-fleetwise-state-template-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-fleetwise/openapi/amazon-iot-fleetwise-state-template-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +48,7 @@ source_filename: amazon-iot-fleetwise-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-iot-fleetwise-openapi-original.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-iot-fleetwise-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-fleetwise/refs/heads/main/authentication/amazon-iot-fleetwise-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-iot-fleetwise/authentication/amazon-iot-fleetwise-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Automotive

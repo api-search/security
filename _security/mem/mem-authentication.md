@@ -9,13 +9,13 @@ api_specs:
   label: Mem CoreApi__service-info API
   slug: mem-coreapi-service-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem/refs/heads/main/openapi/mem-coreapi-service-info-api-openapi.yml
+  url: https://artifacts.apis.io/mem/openapi/mem-coreapi-service-info-api-openapi.yml
 - filename: mem-external-api-openapi.yml
   format: yaml
   label: Mem External API
   slug: mem-external-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem/refs/heads/main/openapi/mem-external-api-openapi.yml
+  url: https://artifacts.apis.io/mem/openapi/mem-external-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -58,7 +58,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/mem-openapi-original.json\ndocs: https://docs.mem.ai/api-reference/overview/authentication\nsummary:\n  types:\n  - apiKey\n  - http\n  - oauth2\n  api_key_in:\n  - header\n  - query\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\n  primary: >-\n    REST API requests authenticate with a personal bearer token\n    (Authorization: Bearer $MEM_API_KEY) created in Mem settings. OAuth 2.0 is\n    used for the hosted MCP server and third-party app connectors, advertised\n    via RFC 8414 / OIDC discovery on api.mem.ai (scopes content.read,\n    content.write, profile.read, profile.write). See scopes/mem-scopes.yml.\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/mem-openapi-original.json\n- name: CoreApi__AssetAccessToken\n  type: apiKey\n  in: query\n  parameter: token\n  sources:\n  - openapi/mem-openapi-original.json\n- name: CoreApi__Authorization\n  type: apiKey\n\
   \  in: header\n  parameter: Authorization\n  sources:\n  - openapi/mem-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mem/refs/heads/main/authentication/mem-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mem/authentication/mem-authentication.yml
 summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Company

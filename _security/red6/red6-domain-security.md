@@ -27,7 +27,7 @@ source_filename: red6-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: red6ar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 18:52:15 2026 GMT\n  hsts: false\ndomains:\n- domain: red6ar.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/red6/refs/heads/main/security/red6-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/red6/security/red6-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

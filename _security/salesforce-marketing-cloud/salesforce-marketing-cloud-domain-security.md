@@ -5,19 +5,19 @@ api_specs:
   label: Salesforce Marketing Cloud Assets API
   slug: salesforce-marketing-cloud-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/openapi/salesforce-marketing-cloud-assets-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-marketing-cloud/openapi/salesforce-marketing-cloud-assets-api-openapi.yml
 - filename: salesforce-marketing-cloud-contacts-api-openapi.yml
   format: yaml
   label: Salesforce Marketing Cloud Contacts API
   slug: salesforce-marketing-cloud-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/openapi/salesforce-marketing-cloud-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-marketing-cloud/openapi/salesforce-marketing-cloud-contacts-api-openapi.yml
 - filename: salesforce-marketing-cloud-journeys-api-openapi.yml
   format: yaml
   label: Salesforce Marketing Cloud Journeys API
   slug: salesforce-marketing-cloud-journeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/openapi/salesforce-marketing-cloud-journeys-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-marketing-cloud/openapi/salesforce-marketing-cloud-journeys-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: salesforce-marketing-cloud-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.salesforce.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 23:59:59 2026 GMT\n  hsts: null\n- host: your_subdomain.rest.marketingcloudapis.com\n  https: false\n- host: your_subdomain.soap.marketingcloudapis.com\n  https: false\ndomains:\n- domain: salesforce.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: marketingcloudapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 iodef \"mailto:caa-violations@salesforce.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/security/salesforce-marketing-cloud-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/salesforce-marketing-cloud/security/salesforce-marketing-cloud-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Automation

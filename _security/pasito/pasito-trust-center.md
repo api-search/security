@@ -16,7 +16,7 @@ source_filename: pasito-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nprobe: true\nsource: https://pasito.ai/security\nurl: https://pasito.ai/security\ncertifications:\n- SOC 2\n- HIPAA\nevidence:\n- source: https://pasito.ai/security\n  keywords:\n  - soc 2\n  - hipaa\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pasito/refs/heads/main/security/pasito-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/pasito/security/pasito-trust-center.yml
 summary_line: SOC 2, HIPAA
 tags:
 - Company

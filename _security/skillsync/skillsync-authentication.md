@@ -30,7 +30,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://skillsync.com/docs/quickstart\ndescription: >-\n  Skillsync has no public REST API or OpenAPI; authentication is documented for\n  the CLI and MCP server. `skl login` opens a browser sign-in flow on\n  skillsync.com and returns control to the CLI once the local callback completes,\n  persisting credentials on the machine. Local-only operations (reading sessions\n  on disk) need no login; any operation that reaches skillsync.com (upload,\n  search published threads, skills) is login-gated. The MCP server calls the\n  auth_status tool before any login-gated tool.\nsummary:\n  types: [oauth2-browser]\n  api_key_in: []\n  oauth2_flows: [authorizationCode]   # browser sign-in with local callback\nschemes:\n  - name: browser-signin\n    type: oauth2\n    flow: authorizationCode\n    description: >-\n      `skl login` opens the Skillsync sign-in flow in the browser; a local\n      callback completes authentication and the\
   \ CLI stores credentials on the\n      machine. Confirm with `skl whoami` (CLI) or the auth_status MCP tool.\n    sources: [https://skillsync.com/docs/cli-reference, https://skillsync.com/docs/mcp-server]\ngating:\n  local_only_no_auth: [list_sessions, search_sessions, get_session]\n  login_required: [upload_session, search_replay, get_replay_thread, list_workspaces, list_skills, install_skill, upload_skill]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skillsync/refs/heads/main/authentication/skillsync-authentication.yml
+source_yaml_url: https://artifacts.apis.io/skillsync/authentication/skillsync-authentication.yml
 summary_line: oauth2-browser · 1 scheme
 tags:
 - Company

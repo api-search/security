@@ -7,7 +7,7 @@ api_specs:
   label: 31 OpenAPI
   slug: 31huiyi-openapi
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/31huiyi/refs/heads/main/postman/31huiyi-openapi.postman_collection.json
+  url: https://artifacts.apis.io/31huiyi/postman/31huiyi-openapi.postman_collection.json
 auth_types: []
 description: ''
 kind: authentication
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: https://api-hel
   \ introspection and device\n    authorization endpoints, RS256 id_tokens and PKCE (plain and S256).\n  source: https://oauth.31huiyi.com/.well-known/openid-configuration\ntoken:\n  format: JWT Bearer (RS256, per the OIDC discovery id_token_signing_alg_values_supported)\n  access_token_ttl: 30 minutes\n  refresh_token_ttl: 2 hours\n  header: 'Authorization: Bearer ${access_token}'\n  source: https://api-help.31huiyi.com/zh/home\nendpoints:\n  authorization: https://oauth.31huiyi.com/connect/authorize\n  token: https://oauth.31huiyi.com/connect/token\n  userinfo: https://oauth.31huiyi.com/connect/userinfo\n  revocation: https://oauth.31huiyi.com/connect/revocation\n  introspection: https://oauth.31huiyi.com/connect/introspect\n  end_session: https://oauth.31huiyi.com/connect/endsession\n  device_authorization: https://oauth.31huiyi.com/connect/deviceauthorization\n  jwks: https://oauth.31huiyi.com/.well-known/openid-configuration/jwks\ngrant_types_supported:\n- authorization_code\n- client_credentials\n\
   - refresh_token\n- implicit\n- password\n- urn:ietf:params:oauth:grant-type:device_code\n- custom_user_code\ntoken_endpoint_auth_methods_supported:\n- client_secret_basic\n- client_secret_post\npkce:\n  supported: true\n  code_challenge_methods: [plain, S256]\nsso:\n  description: >-\n    31 documents a partner SSO handshake: create or resolve an account with\n    POST /op/userresource/AccountUser/v1/createForClient to obtain an accountId, exchange it for a login\n    code with GET /op/security/usercode?loginUserId=<accountId>, then redirect the browser to\n    {ConfHost}/home/autoLogin.html?uid=<accountId>&code=<usercode>&returl=<target> which lands the user\n    on the target page with a session token.\n  source: https://api-help.31huiyi.com/zh/oauth\nnotes:\n- Credentials are not self-service — the docs state each client contacts 31's integration staff to be\n  issued a unique client id and secret.\n- No API-key authentication scheme is documented; every documented surface is OAuth\
   \ bearer or an\n  explicitly token-free (/op/notoken/) path.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/31huiyi/refs/heads/main/authentication/31huiyi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/31huiyi/authentication/31huiyi-authentication.yml
 summary_line: 4 schemes
 tags:
 - Company

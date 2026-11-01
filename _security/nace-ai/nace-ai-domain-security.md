@@ -5,13 +5,13 @@ api_specs:
   label: Nace Ai Health API
   slug: nace-ai-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nace-ai/refs/heads/main/openapi/nace-ai-health-api-openapi.yml
+  url: https://artifacts.apis.io/nace-ai/openapi/nace-ai-health-api-openapi.yml
 - filename: nace-ai-public-api-api-openapi.yml
   format: yaml
   label: Nace Ai Public API
   slug: nace-ai-public-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nace-ai/refs/heads/main/openapi/nace-ai-public-api-api-openapi.yml
+  url: https://artifacts.apis.io/nace-ai/openapi/nace-ai-public-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: nace-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: nace.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 17:59:08 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.ndi.nace.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 03:11:47 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: ndi-api.nace.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 21 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: nace.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nace-ai/refs/heads/main/security/nace-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nace-ai/security/nace-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

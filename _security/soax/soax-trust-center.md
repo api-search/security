@@ -5,31 +5,31 @@ api_specs:
   label: SOAX Web Data API
   slug: soax-web-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/openapi/soax-web-data-api-openapi.yml
+  url: https://artifacts.apis.io/soax/openapi/soax-web-data-api-openapi.yml
 - filename: soax-ecommerce-data-api-openapi.yml
   format: yaml
   label: SOAX Ecommerce Data API
   slug: soax-ecommerce-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/openapi/soax-ecommerce-data-api-openapi.yml
+  url: https://artifacts.apis.io/soax/openapi/soax-ecommerce-data-api-openapi.yml
 - filename: soax-geo-targeting-api-openapi.yml
   format: yaml
   label: SOAX Geo Targeting API
   slug: soax-geo-targeting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/openapi/soax-geo-targeting-api-openapi.yml
+  url: https://artifacts.apis.io/soax/openapi/soax-geo-targeting-api-openapi.yml
 - filename: soax-ip-whitelist-api-openapi.yml
   format: yaml
   label: SOAX IP Whitelist API
   slug: soax-ip-whitelist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/openapi/soax-ip-whitelist-api-openapi.yml
+  url: https://artifacts.apis.io/soax/openapi/soax-ip-whitelist-api-openapi.yml
 - filename: soax-serp-data-api-openapi.yml
   format: yaml
   label: SOAX SERP Data API
   slug: soax-serp-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/openapi/soax-serp-data-api-openapi.yml
+  url: https://artifacts.apis.io/soax/openapi/soax-serp-data-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -48,7 +48,7 @@ source_filename: soax-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://soax.com/trust\nurl: https://soax.com/trust\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://soax.com/trust\n  keywords:\n  - soc 2\n  - iso 27001\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/security/soax-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/soax/security/soax-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Proxy

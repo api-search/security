@@ -26,7 +26,7 @@ source_filename: boaconsulta-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.boaconsulta.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 10 01:40:01 2027 GMT\n  hsts: null\ndomains:\n- domain: boaconsulta.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boaconsulta/refs/heads/main/security/boaconsulta-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/boaconsulta/security/boaconsulta-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

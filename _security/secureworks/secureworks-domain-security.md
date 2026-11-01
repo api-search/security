@@ -5,19 +5,19 @@ api_specs:
   label: Secureworks Authentication API
   slug: secureworks-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/secureworks/refs/heads/main/openapi/secureworks-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/secureworks/openapi/secureworks-authentication-api-openapi.yml
 - filename: secureworks-system-api-openapi.yml
   format: yaml
   label: Secureworks System API
   slug: secureworks-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/secureworks/refs/heads/main/openapi/secureworks-system-api-openapi.yml
+  url: https://artifacts.apis.io/secureworks/openapi/secureworks-system-api-openapi.yml
 - filename: secureworks-graph-ql-api-openapi.yml
   format: yaml
   label: Secureworks Graph QL API
   slug: secureworks-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/secureworks/refs/heads/main/openapi/secureworks-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/secureworks/openapi/secureworks-graph-ql-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -63,7 +63,7 @@ source_filename: secureworks-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.secureworks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 07:34:11 2026 GMT\n  hsts: null\n- host: docs.taegis.secureworks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 23 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.ctpx.secureworks.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov  8 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: secureworks.com\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/secureworks/refs/heads/main/security/secureworks-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/secureworks/security/secureworks-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cybersecurity

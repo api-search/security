@@ -5,7 +5,7 @@ api_specs:
   label: Redpanda Admin API
   slug: redpanda-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redpanda/refs/heads/main/openapi/redpanda-admin-cluster-openapi.json
+  url: https://artifacts.apis.io/redpanda/openapi/redpanda-admin-cluster-openapi.json
 certification_count: 3
 certifications:
 - SOC 2
@@ -24,7 +24,7 @@ source_filename: redpanda-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.redpanda.com/\nurl: https://trust.redpanda.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\nevidence:\n- source: https://trust.redpanda.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - hipaa\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/redpanda/refs/heads/main/security/redpanda-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/redpanda/security/redpanda-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA
 tags:
 - Streaming

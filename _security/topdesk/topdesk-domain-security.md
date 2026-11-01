@@ -52,7 +52,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.topdesk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.topdesk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 11:00:18 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: yourcompany.topdesk.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 03:36:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: topdesk.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: topdesk.net\n  dnssec: true\n  caa:\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  spf: true\n  dmarc:\
   \ false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/topdesk/refs/heads/main/security/topdesk-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/topdesk/security/topdesk-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - ITSM

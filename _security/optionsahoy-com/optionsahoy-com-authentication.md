@@ -7,55 +7,55 @@ api_specs:
   label: OptionsAhoy Concentration API
   slug: optionsahoy-com-concentration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-concentration-api-openapi.yml
+  url: https://artifacts.apis.io/optionsahoy-com/openapi/optionsahoy-com-concentration-api-openapi.yml
 - filename: optionsahoy-com-discovery-api-openapi.yml
   format: yaml
   label: OptionsAhoy Discovery API
   slug: optionsahoy-com-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/optionsahoy-com/openapi/optionsahoy-com-discovery-api-openapi.yml
 - filename: optionsahoy-com-equityfunding-api-openapi.yml
   format: yaml
   label: OptionsAhoy Equity Funding API
   slug: optionsahoy-com-equityfunding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-equityfunding-api-openapi.yml
+  url: https://artifacts.apis.io/optionsahoy-com/openapi/optionsahoy-com-equityfunding-api-openapi.yml
 - filename: optionsahoy-com-hedging-api-openapi.yml
   format: yaml
   label: OptionsAhoy Hedging API
   slug: optionsahoy-com-hedging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-hedging-api-openapi.yml
+  url: https://artifacts.apis.io/optionsahoy-com/openapi/optionsahoy-com-hedging-api-openapi.yml
 - filename: optionsahoy-com-iso-api-openapi.yml
   format: yaml
   label: OptionsAhoy ISO API
   slug: optionsahoy-com-iso-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-iso-api-openapi.yml
+  url: https://artifacts.apis.io/optionsahoy-com/openapi/optionsahoy-com-iso-api-openapi.yml
 - filename: optionsahoy-com-nso-api-openapi.yml
   format: yaml
   label: OptionsAhoy NSO API
   slug: optionsahoy-com-nso-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-nso-api-openapi.yml
+  url: https://artifacts.apis.io/optionsahoy-com/openapi/optionsahoy-com-nso-api-openapi.yml
 - filename: optionsahoy-com-qsbs-api-openapi.yml
   format: yaml
   label: OptionsAhoy QSBS API
   slug: optionsahoy-com-qsbs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-qsbs-api-openapi.yml
+  url: https://artifacts.apis.io/optionsahoy-com/openapi/optionsahoy-com-qsbs-api-openapi.yml
 - filename: optionsahoy-com-rsu-api-openapi.yml
   format: yaml
   label: OptionsAhoy RSU API
   slug: optionsahoy-com-rsu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-rsu-api-openapi.yml
+  url: https://artifacts.apis.io/optionsahoy-com/openapi/optionsahoy-com-rsu-api-openapi.yml
 - filename: optionsahoy-com-rsulotoptimize-api-openapi.yml
   format: yaml
   label: OptionsAhoy Rsu Lot Optimize API
   slug: optionsahoy-com-rsulotoptimize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-rsulotoptimize-api-openapi.yml
+  url: https://artifacts.apis.io/optionsahoy-com/openapi/optionsahoy-com-rsulotoptimize-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/options
   \ all 404). This is a genuine\n    zero-credential public API, not an undocumented gate: derive-authentication.py correctly produced no\n    profile, and this file records the absence from the provider's own statements so the auth model reads as\n    \"open\" rather than \"unknown\".\nschemes: []\nsurfaces:\n- {surface: REST, endpoint: 'https://optionsahoy.com/api/v1/*', auth: none, evidence: 'OpenAPI has no securitySchemes/security; live GET /api/v1 200 and POST /api/v1/qsbs 400 (validation, not 401) with no credential'}\n- {surface: MCP, endpoint: 'https://optionsahoy.com/mcp', auth: none, evidence: 'initialize/tools/list/resources/list/prompts/list all 200 anonymously; no RFC 9728 or RFC 8414 metadata on the host; CORS allows any origin'}\n- {surface: A2A, endpoint: 'https://optionsahoy.com/a2a', auth: none, evidence: 'agent card declares no securitySchemes/security; POST message/send with empty params returned a JSON-RPC -32602 validation error, not an auth challenge'}\n- {surface:\
   \ stdio package, install: 'npx -y optionsahoy-mcp', auth: none, evidence: 'llms-install.md: \"Requirements: Node 20 or newer. No environment variables are needed.\"'}\naccess_controls_that_exist_instead:\n- {kind: abuse rate limiting at the edge, evidence: 'privacy policy: a hash of the caller IP is stored so the server can \"rate limit abusive traffic without keeping the address itself\"; no threshold published (rate-limits/optionsahoy-com-rate-limits.yml)'}\n- {kind: license terms, evidence: 'OpenAPI info.license: \"Proprietary. Free for non-commercial use during beta.\" — a legal constraint, not a technical one'}\n- {kind: Cloudflare Turnstile, scope: 'the beta-signup and scenario-email FORMS on the website only, per the privacy policy; not the API'}\nsessions:\n  mcp: 'mcp-session-id assigned in the initialize response and echoed by the client (Streamable HTTP); a session handle, not a credential'\nmtls: false\nsigned_requests: false\nnote: >-\n  Because nothing authenticates the caller,\
   \ an agent should treat every response as public data and treat its\n  own inputs as leaving the user's device (llms.txt: \"an agent that calls them is sending inputs over the\n  network by design\"); SECURITY.md states the inputs are not retained.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/authentication/optionsahoy-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/optionsahoy-com/authentication/optionsahoy-com-authentication.yml
 summary_line: 0 schemes
 tags:
 - Equity Compensation

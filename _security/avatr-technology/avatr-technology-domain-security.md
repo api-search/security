@@ -37,7 +37,7 @@ source_filename: avatr-technology-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.avatr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 23:59:59 2026 GMT\n  hsts: false\n- host: www.avatr.hk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 03:05:13 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\ndomains:\n- domain: avatr.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: avatr.hk\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avatr-technology/refs/heads/main/security/avatr-technology-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/avatr-technology/security/avatr-technology-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

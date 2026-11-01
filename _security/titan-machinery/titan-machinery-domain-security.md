@@ -27,7 +27,7 @@ source_filename: titan-machinery-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.titanmachinery.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 12 21:13:43 2026 GMT\n  hsts: false\ndomains:\n- domain: titanmachinery.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/titan-machinery/refs/heads/main/security/titan-machinery-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/titan-machinery/security/titan-machinery-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Agriculture

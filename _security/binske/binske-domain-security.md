@@ -38,7 +38,7 @@ source_filename: binske-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: binske.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 23:48:32 2026 GMT\n  hsts: false\n- host: shopbinske.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 06:49:02 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\ndomains:\n- domain: binske.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: shopbinske.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/security/binske-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/binske/security/binske-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cannabis

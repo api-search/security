@@ -5,13 +5,13 @@ api_specs:
   label: Phonely Agents API
   slug: phonely-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phonely/refs/heads/main/openapi/phonely-agents-api-openapi.yml
+  url: https://artifacts.apis.io/phonely/openapi/phonely-agents-api-openapi.yml
 - filename: phonely-webhooks-asyncapi.yml
   format: yaml
   label: Phonely Webhooks API
   slug: phonely-webhooks-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phonely/refs/heads/main/asyncapi/phonely-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/phonely/asyncapi/phonely-webhooks-asyncapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: phonely-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.phonely.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 23:29:18 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.phonely.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 08:38:32 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: app.phonely.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 08:38:32 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: phonely.ai\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/phonely/refs/heads/main/security/phonely-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/phonely/security/phonely-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Artificial Intelligence

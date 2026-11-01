@@ -5,31 +5,31 @@ api_specs:
   label: 123FormBuilder Accounts API
   slug: 123formbuilder-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/openapi/123formbuilder-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/123formbuilder/openapi/123formbuilder-accounts-api-openapi.yml
 - filename: 123formbuilder-forms-api-openapi.yml
   format: yaml
   label: 123FormBuilder Forms API
   slug: 123formbuilder-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/openapi/123formbuilder-forms-api-openapi.yml
+  url: https://artifacts.apis.io/123formbuilder/openapi/123formbuilder-forms-api-openapi.yml
 - filename: 123formbuilder-groups-api-openapi.yml
   format: yaml
   label: 123FormBuilder Groups API
   slug: 123formbuilder-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/openapi/123formbuilder-groups-api-openapi.yml
+  url: https://artifacts.apis.io/123formbuilder/openapi/123formbuilder-groups-api-openapi.yml
 - filename: 123formbuilder-login-api-openapi.yml
   format: yaml
   label: 123FormBuilder Login API
   slug: 123formbuilder-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/openapi/123formbuilder-login-api-openapi.yml
+  url: https://artifacts.apis.io/123formbuilder/openapi/123formbuilder-login-api-openapi.yml
 - filename: 123formbuilder-users-api-openapi.yml
   format: yaml
   label: 123FormBuilder Users API
   slug: 123formbuilder-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/openapi/123formbuilder-users-api-openapi.yml
+  url: https://artifacts.apis.io/123formbuilder/openapi/123formbuilder-users-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -75,7 +75,7 @@ source_filename: 123formbuilder-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.123formbuilder.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 09:09:14 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.123formbuilder.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 27 23:59:59 2026 GMT\n  hsts: null\n- host: eu-api.123formbuilder.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 28 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: 123formbuilder.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"sectigo.com\"\n  - 0 iodef \"mailto:devteam@123contactform.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/security/123formbuilder-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/123formbuilder/security/123formbuilder-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Online Forms

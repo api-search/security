@@ -5,25 +5,25 @@ api_specs:
   label: Microsoft .NET PackageContent API
   slug: microsoft-net-packagecontent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/openapi/microsoft-net-packagecontent-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-net/openapi/microsoft-net-packagecontent-api-openapi.yml
 - filename: microsoft-net-registration-api-openapi.yml
   format: yaml
   label: Microsoft .NET Registration API
   slug: microsoft-net-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/openapi/microsoft-net-registration-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-net/openapi/microsoft-net-registration-api-openapi.yml
 - filename: microsoft-net-search-api-openapi.yml
   format: yaml
   label: Microsoft .NET Search API
   slug: microsoft-net-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/openapi/microsoft-net-search-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-net/openapi/microsoft-net-search-api-openapi.yml
 - filename: microsoft-net-service-index-api-openapi.yml
   format: yaml
   label: Microsoft .NET Service Index API
   slug: microsoft-net-service-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/openapi/microsoft-net-service-index-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-net/openapi/microsoft-net-service-index-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -72,7 +72,7 @@ source_filename: microsoft-net-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dotnet.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 22 22:25:49 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: learn.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  8 00:23:13 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.nuget.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 21:50:38 2026 GMT\n  hsts: null\ndomains:\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: nuget.org\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/security/microsoft-net-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-net/security/microsoft-net-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - .NET

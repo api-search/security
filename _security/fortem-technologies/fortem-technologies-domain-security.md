@@ -27,7 +27,7 @@ source_filename: fortem-technologies-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: fortemtech.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 07:49:29 2026 GMT\n  hsts: false\ndomains:\n- domain: fortemtech.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fortem-technologies/refs/heads/main/security/fortem-technologies-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fortem-technologies/security/fortem-technologies-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

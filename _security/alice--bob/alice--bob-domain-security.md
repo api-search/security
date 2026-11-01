@@ -5,19 +5,19 @@ api_specs:
   label: Alice Bob Health API
   slug: alice--bob-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alice--bob/refs/heads/main/openapi/alice--bob-health-api-openapi.yml
+  url: https://artifacts.apis.io/alice--bob/openapi/alice--bob-health-api-openapi.yml
 - filename: alice--bob-jobs-api-openapi.yml
   format: yaml
   label: Alice Bob Jobs API
   slug: alice--bob-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alice--bob/refs/heads/main/openapi/alice--bob-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/alice--bob/openapi/alice--bob-jobs-api-openapi.yml
 - filename: alice--bob-targets-api-openapi.yml
   format: yaml
   label: Alice Bob Targets API
   slug: alice--bob-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alice--bob/refs/heads/main/openapi/alice--bob-targets-api-openapi.yml
+  url: https://artifacts.apis.io/alice--bob/openapi/alice--bob-targets-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: alice--bob-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: alice-bob.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 09:04:09 2026 GMT\n  hsts: false\n- host: felis.alice-bob.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 01:12:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n- host: api-gcp.alice-bob.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 15:24:24 2026 GMT\n  hsts: null\ndomains:\n- domain: alice-bob.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alice--bob/refs/heads/main/security/alice--bob-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/alice--bob/security/alice--bob-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -7,13 +7,13 @@ api_specs:
   label: AptarGroup Orders API
   slug: aptargroup-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptargroup/refs/heads/main/openapi/aptargroup-orders-api-openapi.yml
+  url: https://artifacts.apis.io/aptargroup/openapi/aptargroup-orders-api-openapi.yml
 - filename: aptargroup-products-api-openapi.yml
   format: yaml
   label: AptarGroup Products API
   slug: aptargroup-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptargroup/refs/heads/main/openapi/aptargroup-products-api-openapi.yml
+  url: https://artifacts.apis.io/aptargroup/openapi/aptargroup-products-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: aptargroup-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/aptargroup-openapi.yaml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/aptargroup-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aptargroup/refs/heads/main/authentication/aptargroup-authentication.yml
+source_yaml_url: https://artifacts.apis.io/aptargroup/authentication/aptargroup-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Packaging

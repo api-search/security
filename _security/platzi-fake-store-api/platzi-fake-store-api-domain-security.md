@@ -5,31 +5,31 @@ api_specs:
   label: Platzi Fake Store API Auth API
   slug: platzi-fake-store-api-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/platzi-fake-store-api/refs/heads/main/openapi/platzi-fake-store-api-auth-api-openapi.yml
+  url: https://artifacts.apis.io/platzi-fake-store-api/openapi/platzi-fake-store-api-auth-api-openapi.yml
 - filename: platzi-fake-store-api-categories-api-openapi.yml
   format: yaml
   label: Platzi Fake Store API Categories API
   slug: platzi-fake-store-api-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/platzi-fake-store-api/refs/heads/main/openapi/platzi-fake-store-api-categories-api-openapi.yml
+  url: https://artifacts.apis.io/platzi-fake-store-api/openapi/platzi-fake-store-api-categories-api-openapi.yml
 - filename: platzi-fake-store-api-files-api-openapi.yml
   format: yaml
   label: Platzi Fake Store API Files API
   slug: platzi-fake-store-api-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/platzi-fake-store-api/refs/heads/main/openapi/platzi-fake-store-api-files-api-openapi.yml
+  url: https://artifacts.apis.io/platzi-fake-store-api/openapi/platzi-fake-store-api-files-api-openapi.yml
 - filename: platzi-fake-store-api-products-api-openapi.yml
   format: yaml
   label: Platzi Fake Store API Products API
   slug: platzi-fake-store-api-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/platzi-fake-store-api/refs/heads/main/openapi/platzi-fake-store-api-products-api-openapi.yml
+  url: https://artifacts.apis.io/platzi-fake-store-api/openapi/platzi-fake-store-api-products-api-openapi.yml
 - filename: platzi-fake-store-api-users-api-openapi.yml
   format: yaml
   label: Platzi Fake Store API Users API
   slug: platzi-fake-store-api-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/platzi-fake-store-api/refs/heads/main/openapi/platzi-fake-store-api-users-api-openapi.yml
+  url: https://artifacts.apis.io/platzi-fake-store-api/openapi/platzi-fake-store-api-users-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -75,7 +75,7 @@ source_filename: platzi-fake-store-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: fakeapi.platzi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  9 11:19:11 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.escuelajs.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 01:07:33 2026 GMT\n  hsts: null\ndomains:\n- domain: platzi.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: escuelajs.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/platzi-fake-store-api/refs/heads/main/security/platzi-fake-store-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/platzi-fake-store-api/security/platzi-fake-store-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - E-Commerce

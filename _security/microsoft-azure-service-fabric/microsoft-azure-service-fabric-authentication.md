@@ -7,13 +7,13 @@ api_specs:
   label: Azure Service Fabric Clusters API
   slug: microsoft-azure-service-fabric-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-service-fabric/refs/heads/main/openapi/microsoft-azure-service-fabric-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-clusters-api-openapi.yml
 - filename: microsoft-azure-service-fabric-operations-api-openapi.yml
   format: yaml
   label: Azure Service Fabric Operations API
   slug: microsoft-azure-service-fabric-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-service-fabric/refs/heads/main/openapi/microsoft-azure-service-fabric-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-operations-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -44,7 +44,7 @@ source_filename: microsoft-azure-service-fabric-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-azure-service-fabric-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - implicit\nschemes:\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  description: Azure Active Directory OAuth2 Flow.\n  sources:\n  - openapi/microsoft-azure-service-fabric-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-service-fabric/refs/heads/main/authentication/microsoft-azure-service-fabric-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-service-fabric/authentication/microsoft-azure-service-fabric-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Microservices

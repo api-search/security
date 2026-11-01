@@ -37,7 +37,7 @@ source_filename: darewise-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.lifebeyondstudios.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 16:38:30 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.darewise.com\n  https: false\n  note: legacy brand domain; DNS resolves to 139.177.176.71 but TCP 443 and 80 both refuse/time out,\n    so no TLS or HSTS posture can be measured. Last Internet Archive capture serving HTTP 200 was\n    2025-04-21; captures from 2025-05-04 onward are 301s.\ndomains:\n- domain: lifebeyondstudios.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: darewise.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n  note: web is offline but mail is still actively managed — Google Workspace MX, \"v=spf1\n    include:_spf.google.com ~all\", and DMARC p=quarantine pct=100 adkim=s aspf=s reporting to\n    it-security@darewise.com.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/darewise/refs/heads/main/security/darewise-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/darewise/security/darewise-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

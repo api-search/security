@@ -40,7 +40,7 @@ source_filename: betterworks-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.betterworks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 19:25:30 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.betterworks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 15:59:03 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.betterworks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 17:31:03 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: betterworks.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/betterworks/refs/heads/main/security/betterworks-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/betterworks/security/betterworks-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - OKRs

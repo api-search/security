@@ -9,55 +9,55 @@ api_specs:
   label: News Break Account Billing API
   slug: news-break-account-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/openapi/news-break-account-billing-api-openapi.yml
+  url: https://artifacts.apis.io/news-break/openapi/news-break-account-billing-api-openapi.yml
 - filename: news-break-ad-account-api-openapi.yml
   format: yaml
   label: News Break Ad Account API
   slug: news-break-ad-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/openapi/news-break-ad-account-api-openapi.yml
+  url: https://artifacts.apis.io/news-break/openapi/news-break-ad-account-api-openapi.yml
 - filename: news-break-ad-api-openapi.yml
   format: yaml
   label: News Break Ad API
   slug: news-break-ad-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/openapi/news-break-ad-api-openapi.yml
+  url: https://artifacts.apis.io/news-break/openapi/news-break-ad-api-openapi.yml
 - filename: news-break-ad-set-api-openapi.yml
   format: yaml
   label: News Break Ad Set API
   slug: news-break-ad-set-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/openapi/news-break-ad-set-api-openapi.yml
+  url: https://artifacts.apis.io/news-break/openapi/news-break-ad-set-api-openapi.yml
 - filename: news-break-campaign-api-openapi.yml
   format: yaml
   label: News Break Campaign API
   slug: news-break-campaign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/openapi/news-break-campaign-api-openapi.yml
+  url: https://artifacts.apis.io/news-break/openapi/news-break-campaign-api-openapi.yml
 - filename: news-break-event-management-api-openapi.yml
   format: yaml
   label: News Break Event Management API
   slug: news-break-event-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/openapi/news-break-event-management-api-openapi.yml
+  url: https://artifacts.apis.io/news-break/openapi/news-break-event-management-api-openapi.yml
 - filename: news-break-organization-api-openapi.yml
   format: yaml
   label: News Break Organization API
   slug: news-break-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/openapi/news-break-organization-api-openapi.yml
+  url: https://artifacts.apis.io/news-break/openapi/news-break-organization-api-openapi.yml
 - filename: news-break-report-api-openapi.yml
   format: yaml
   label: News Break Report API
   slug: news-break-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/openapi/news-break-report-api-openapi.yml
+  url: https://artifacts.apis.io/news-break/openapi/news-break-report-api-openapi.yml
 - filename: news-break-reporting-api-openapi.yml
   format: yaml
   label: News Break Reporting API
   slug: news-break-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/openapi/news-break-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/news-break/openapi/news-break-reporting-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-08-01'\nmethod: searched\nsource: https://adverti
   \    description: >-\n      Authorized access token. Carries the permissions granted by the advertiser on the ad account.\n    issuance:\n      self_service: true\n      location: NewsBreak Ad Manager -> Resources -> API Access Tokens\n      action: Generate Token\n      prerequisite: An ad account must already exist in the NewsBreak Ad Manager.\n    transport: HTTP request header\n    example_header: 'Access-Token: your_access_token'\n  - name: ApiToken\n    type: apiKey\n    in: query\n    parameter_name: token\n    api: NewsBreak MSP Monetization Reporting API\n    sources:\n      - openapi/news-break-monetization-reporting-openapi.yml\n    description: >-\n      API token for an MSP organization, sent as the `token` query parameter alongside the `org_id`\n      and `app_id` query parameters that scope the request.\n    transport: URL query string\n    caveat: >-\n      Credential-in-URL. Query-string secrets leak into access logs, referrer headers and CDN\n      caches; this is a weaker\
   \ posture than the header-based Advertising API scheme.\nauthorization:\n  model: role-based, granted per ad account by the advertiser\n  roles:\n    - name: ORG_ADMIN\n      scope: organization\n      description: >-\n        Organization administrator. Required to update account spending caps. getAdminOrgs returns\n        the organizations where the caller holds this role.\n    - name: ACC_ADMIN\n      scope: ad account\n      description: Ad account administrator.\n    - name: ACC_OPERATOR\n      scope: ad account\n      description: Ad account operator.\n    - name: ACC_VIEWER\n      scope: ad account\n      description: Ad account read-only viewer.\n  assignment_operations:\n    - openapi/news-break-advertising-openapi.yml#addAdAccountUser\n    - openapi/news-break-advertising-openapi.yml#deleteAdAccountUser\n  enforcement: >-\n    Authorization failures surface as return code 403 (Permission denied) inside an HTTP 200\n    response body. Missing credentials return 4031 (Not login);\
   \ a bad token returns 4033\n    (Invalid access token).\ngaps:\n  - No documented token lifetime, expiry or rotation policy.\n  - No OAuth 2.0 or OpenID Connect; therefore no delegated authorization and no scopes.\n  - No documented token revocation endpoint.\n  - No mTLS, no request signing, no proof-of-possession.\n  - The MSP Reporting API passes the secret in the query string rather than a header.\nsee_also:\n  - errors/news-break-problem-types.yml\n  - conventions/news-break-conventions.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/authentication/news-break-authentication.yml
+source_yaml_url: https://artifacts.apis.io/news-break/authentication/news-break-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company

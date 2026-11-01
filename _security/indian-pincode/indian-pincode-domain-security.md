@@ -26,7 +26,7 @@ source_filename: indian-pincode-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: indianpincode.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 04:49:15 2026 GMT\n  hsts: null\ndomains:\n- domain: indianpincode.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/indian-pincode/refs/heads/main/security/indian-pincode-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/indian-pincode/security/indian-pincode-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Government

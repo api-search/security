@@ -5,19 +5,19 @@ api_specs:
   label: Endgame Threads API
   slug: end-game-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/end-game/refs/heads/main/openapi/end-game-threads-api-openapi.yml
+  url: https://artifacts.apis.io/end-game/openapi/end-game-threads-api-openapi.yml
 - filename: end-game-internal-api-openapi.yml
   format: yaml
   label: Endgame Internal API
   slug: end-game-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/end-game/refs/heads/main/openapi/end-game-internal-api-openapi.yml
+  url: https://artifacts.apis.io/end-game/openapi/end-game-internal-api-openapi.yml
 - filename: end-game-protected-static-api-openapi.yml
   format: yaml
   label: Endgame Protected Static API
   slug: end-game-protected-static-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/end-game/refs/heads/main/openapi/end-game-protected-static-api-openapi.yml
+  url: https://artifacts.apis.io/end-game/openapi/end-game-protected-static-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -35,7 +35,7 @@ source_filename: end-game-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: https://app.drata.com/trust/9cbf820f-0c38-11ee-865f-029d78a187d9\nurl: https://app.drata.com/trust/9cbf820f-0c38-11ee-865f-029d78a187d9\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://app.drata.com/trust/9cbf820f-0c38-11ee-865f-029d78a187d9\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/end-game/refs/heads/main/security/end-game-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/end-game/security/end-game-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Company

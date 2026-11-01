@@ -5,7 +5,7 @@ api_specs:
   label: Sex Offenders API Sex Offenders API
   slug: sex-offenders-api-sex-offenders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sex-offenders-api/refs/heads/main/openapi/sex-offenders-api-sex-offenders-api-openapi.yml
+  url: https://artifacts.apis.io/sex-offenders-api/openapi/sex-offenders-api-sex-offenders-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,12 +40,12 @@ source_filename: sex-offenders-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.crimeometer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 04:34:29 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n- host: api.crimeometer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 17 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: crimeometer.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sex-offenders-api/refs/heads/main/security/sex-offenders-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sex-offenders-api/security/sex-offenders-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Sex Offenders
 - Public Safety
-- Crime Data
+- Crime
 - Background Checks
 - Criminal Justice
 - Government Data

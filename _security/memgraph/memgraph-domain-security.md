@@ -5,7 +5,7 @@ api_specs:
   label: Memgraph Monitoring API
   slug: memgraph-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memgraph/refs/heads/main/openapi/memgraph-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/memgraph/openapi/memgraph-monitoring-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -35,7 +35,7 @@ source_filename: memgraph-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: memgraph.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 22:20:27 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: memgraph.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/memgraph/refs/heads/main/security/memgraph-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/memgraph/security/memgraph-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Graph Database

@@ -5,19 +5,19 @@ api_specs:
   label: Orca Protocol API
   slug: orca-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/openapi/orca-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/orca/openapi/orca-protocol-api-openapi.yml
 - filename: orca-tokens-api-openapi.yml
   format: yaml
   label: Orca Tokens API
   slug: orca-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/openapi/orca-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/orca/openapi/orca-tokens-api-openapi.yml
 - filename: orca-whirlpools-api-openapi.yml
   format: yaml
   label: Orca Whirlpools API
   slug: orca-whirlpools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/openapi/orca-whirlpools-api-openapi.yml
+  url: https://artifacts.apis.io/orca/openapi/orca-whirlpools-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: orca-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: orca.so\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 18:56:14 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: orca.so\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/security/orca-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/orca/security/orca-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

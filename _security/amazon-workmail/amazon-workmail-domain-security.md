@@ -5,7 +5,19 @@ api_specs:
   label: Amazon WorkMail Amazon WorkMail API
   slug: amazon-workmail-amazon-workmail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/openapi/amazon-workmail-amazon-workmail-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-workmail/openapi/amazon-workmail-amazon-workmail-api-openapi.yml
+- filename: amazon-workmail-identity-provider-configuration-api-openapi.yml
+  format: yaml
+  label: Amazon WorkMail Workmail Identity Provider Configuration API
+  slug: amazon-workmail-identity-provider-configuration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-workmail/openapi/amazon-workmail-identity-provider-configuration-api-openapi.yml
+- filename: amazon-workmail-operations-api-openapi.yml
+  format: yaml
+  label: Amazon WorkMail Workmail Operations API
+  slug: amazon-workmail-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-workmail/openapi/amazon-workmail-operations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -43,7 +55,7 @@ source_filename: amazon-workmail-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: workmail.amazonaws.com\n  https: false\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/security/amazon-workmail-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amazon-workmail/security/amazon-workmail-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Business Communication

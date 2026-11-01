@@ -5,25 +5,25 @@ api_specs:
   label: Superlog API keys API
   slug: superlog-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/openapi/superlog-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/superlog/openapi/superlog-api-keys-api-openapi.yml
 - filename: superlog-github-integration-api-openapi.yml
   format: yaml
   label: Superlog GitHub integration API
   slug: superlog-github-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/openapi/superlog-github-integration-api-openapi.yml
+  url: https://artifacts.apis.io/superlog/openapi/superlog-github-integration-api-openapi.yml
 - filename: superlog-projects-api-openapi.yml
   format: yaml
   label: Superlog Projects API
   slug: superlog-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/openapi/superlog-projects-api-openapi.yml
+  url: https://artifacts.apis.io/superlog/openapi/superlog-projects-api-openapi.yml
 - filename: superlog-telemetry-read-api-openapi.yml
   format: yaml
   label: Superlog Telemetry read API
   slug: superlog-telemetry-read-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/openapi/superlog-telemetry-read-api-openapi.yml
+  url: https://artifacts.apis.io/superlog/openapi/superlog-telemetry-read-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: superlog-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.superlog.sh\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 17:40:26 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.superlog.sh\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: superlog.sh\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/security/superlog-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/superlog/security/superlog-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

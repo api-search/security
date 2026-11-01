@@ -8,25 +8,25 @@ api_specs:
   label: LeadIQ Account API
   slug: leadiq-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadiq/refs/heads/main/openapi/leadiq-account-api-openapi.yml
+  url: https://artifacts.apis.io/leadiq/openapi/leadiq-account-api-openapi.yml
 - filename: leadiq-lists-api-openapi.yml
   format: yaml
   label: LeadIQ Lists API
   slug: leadiq-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadiq/refs/heads/main/openapi/leadiq-lists-api-openapi.yml
+  url: https://artifacts.apis.io/leadiq/openapi/leadiq-lists-api-openapi.yml
 - filename: leadiq-prospects-api-openapi.yml
   format: yaml
   label: LeadIQ Prospects API
   slug: leadiq-prospects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadiq/refs/heads/main/openapi/leadiq-prospects-api-openapi.yml
+  url: https://artifacts.apis.io/leadiq/openapi/leadiq-prospects-api-openapi.yml
 - filename: leadiq-graph-ql-api-openapi.yml
   format: yaml
   label: LeadIQ Graph QL API
   slug: leadiq-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadiq/refs/heads/main/openapi/leadiq-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/leadiq/openapi/leadiq-graph-ql-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/leadiq-
   \ your LeadIQ API key as the X-API-Key header value — no prefix, no encoding.\"\n    The value is the DECODED form of the Secret Base64 key; LeadIQ's own bash samples\n    run `printf '%s' \"$LEADIQ_API_KEY\" | base64 -d` to produce it.\n  sources:\n  - openapi/leadiq-prospector-api-openapi.yml\n  - https://leadiqhelp.zendesk.com/hc/en-us/articles/29375289152795-LeadIQ-Public-API-Guide\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  surface: Prospector REST API (https://prospector.leadiq.com)\n  description: >-\n    Alternative to the API key on the Prospector REST API — \"OAuth2 access token (JWT)\n    issued for an audience accepted by this service.\" Declared as a second top-level\n    security option in the published OpenAPI. LeadIQ does not document how a caller\n    obtains this token outside the MCP flow.\n  sources:\n  - openapi/leadiq-prospector-api-openapi.yml\n- name: MCPOAuth2\n  type: oauth2\n  surface: MCP connector (https://mcp.leadiq.com/mcp)\n\
   \  description: >-\n    OAuth 2.0 with dynamic client registration — no client id or secret to configure.\n    The user signs in with their LeadIQ email/password or Google login and the token\n    carries their own account permissions and credit balance. Discovered from the RFC\n    9728 protected-resource document, not from a spec.\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://leadiq-mcp-prod.us.auth0.com/authorize\n    tokenUrl: https://leadiq-mcp-prod.us.auth0.com/oauth/token\n    scopes: [leadiq:api, offline_access]\n  authorization_server: https://leadiq-mcp-prod.us.auth0.com/\n  artifact: scopes/leadiq-scopes.yml\n  sources:\n  - https://mcp.leadiq.com/.well-known/oauth-protected-resource\n  - https://developer.leadiq.com/\nfailure_modes:\n- {status: 401, meaning: Invalid or missing API key}\n- {status: 402, meaning: Insufficient credits}\nnotes:\n- Never commit the key; rotate it from Settings -> API if compromised (provider guidance).\n- Enterprise SSO orgs\
   \ signing into the MCP connector should enter their email address directly rather than using \"Sign in with Google\", which errors when the org's Google domain is linked to LeadIQ.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leadiq/refs/heads/main/authentication/leadiq-authentication.yml
+source_yaml_url: https://artifacts.apis.io/leadiq/authentication/leadiq-authentication.yml
 summary_line: apiKey/http/oauth2 · 4 schemes
 tags:
 - Sales Intelligence

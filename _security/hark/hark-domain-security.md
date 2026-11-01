@@ -27,7 +27,7 @@ source_filename: hark-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: hark.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 08:36:34 2026 GMT\n  hsts: null\ndomains:\n- domain: hark.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hark/refs/heads/main/security/hark-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hark/security/hark-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

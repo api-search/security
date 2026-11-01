@@ -8,37 +8,37 @@ api_specs:
   label: Transistor Account API
   slug: transistor-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-account-api-openapi.yml
+  url: https://artifacts.apis.io/transistor/openapi/transistor-account-api-openapi.yml
 - filename: transistor-analytics-api-openapi.yml
   format: yaml
   label: Transistor Analytics API
   slug: transistor-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/transistor/openapi/transistor-analytics-api-openapi.yml
 - filename: transistor-episodes-api-openapi.yml
   format: yaml
   label: Transistor Episodes API
   slug: transistor-episodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-episodes-api-openapi.yml
+  url: https://artifacts.apis.io/transistor/openapi/transistor-episodes-api-openapi.yml
 - filename: transistor-shows-api-openapi.yml
   format: yaml
   label: Transistor Shows API
   slug: transistor-shows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-shows-api-openapi.yml
+  url: https://artifacts.apis.io/transistor/openapi/transistor-shows-api-openapi.yml
 - filename: transistor-subscribers-api-openapi.yml
   format: yaml
   label: Transistor Subscribers API
   slug: transistor-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/transistor/openapi/transistor-subscribers-api-openapi.yml
 - filename: transistor-webhooks-api-openapi.yml
   format: yaml
   label: Transistor Webhooks API
   slug: transistor-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/transistor/openapi/transistor-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: transistor-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/transistor-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: API key generated in the Transistor dashboard Account area.\n  sources:\n  - openapi/transistor-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/authentication/transistor-authentication.yml
+source_yaml_url: https://artifacts.apis.io/transistor/authentication/transistor-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Podcasts

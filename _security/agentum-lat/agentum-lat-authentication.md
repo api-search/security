@@ -7,31 +7,31 @@ api_specs:
   label: AGENTUM Business Intelligence API
   slug: agentum-lat-business-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentum-lat/refs/heads/main/openapi/agentum-lat-business-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/agentum-lat/openapi/agentum-lat-business-intelligence-api-openapi.yml
 - filename: agentum-lat-company-intelligence-api-openapi.yml
   format: yaml
   label: AGENTUM Company Intelligence API
   slug: agentum-lat-company-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentum-lat/refs/heads/main/openapi/agentum-lat-company-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/agentum-lat/openapi/agentum-lat-company-intelligence-api-openapi.yml
 - filename: agentum-lat-counterparty-verification-api-openapi.yml
   format: yaml
   label: AGENTUM Counterparty Verification API
   slug: agentum-lat-counterparty-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentum-lat/refs/heads/main/openapi/agentum-lat-counterparty-verification-api-openapi.yml
+  url: https://artifacts.apis.io/agentum-lat/openapi/agentum-lat-counterparty-verification-api-openapi.yml
 - filename: agentum-lat-finance-api-openapi.yml
   format: yaml
   label: AGENTUM Finance API
   slug: agentum-lat-finance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentum-lat/refs/heads/main/openapi/agentum-lat-finance-api-openapi.yml
+  url: https://artifacts.apis.io/agentum-lat/openapi/agentum-lat-finance-api-openapi.yml
 - filename: agentum-lat-verification-api-openapi.yml
   format: yaml
   label: AGENTUM Verification API
   slug: agentum-lat-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentum-lat/refs/heads/main/openapi/agentum-lat-verification-api-openapi.yml
+  url: https://artifacts.apis.io/agentum-lat/openapi/agentum-lat-verification-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -54,7 +54,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://agentum
   \ and /.well-known/security.txt]\n  discovery: none — no RFC 8414 authorization-server metadata, no RFC 9728 protected-resource metadata, no OpenID configuration on any host (well-known/agentum-lat-well-known.yml). The machine-readable access contract is the 402 challenge itself.\n  dynamic_client_registration: false\n  delegated_identity: false\n  consent_identity: false\nschemes: []\npayment_gate:\n  protocol: x402 v2\n  scheme: exact\n  network: eip155:8453\n  asset: USDC 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913\n  challenge: HTTP 402 with PAYMENT-REQUIRED (base64 JSON PaymentRequirements) on every paid route; maxTimeoutSeconds 300\n  identity: the payer's on-chain address is the only identity the server sees; there is no account, session, key or token to issue, rotate or revoke\n  pay_to:\n    agentum_lat: '0xB4f9061e3a6A5533431336506b34e1035029599f'\n    business_agentum_lat: '0x7D1EDdfBd167787251fed83b250ABBeA1cf59a6F'\n  gate_order: the payment gate answers before input validation\
   \ — malformed identifiers (cnpj=123, q=) received a 402, not the contract's 400\n  reference_client: '@agentum/mcp-server holds the CALLER''s wallet private key in env AGENTUM_MCP_WALLET_KEY and signs with @x402/fetch; the provider never issues or holds a credential'\nagent_auth:\n  model: wallet-as-principal. An agent needs a funded Base wallet and an x402-capable client; nothing else. No scopes, no consent screen, no delegation — the wallet key IS full authority to spend, which the provider's README treats as the main risk (dedicated wallet, minimal balance, never commit the key).\n  human_in_the_loop: none at the protocol level; the provider's separate @agentum/x402-spend-guard library offers caller-side caps, allowlists and a kill switch\na2a_surface:\n  securitySchemes: >-\n    {} (empty) and securityRequirements [] in the agent card; the JSON-RPC root accepted an unauthenticated GetTask (answered -32001 TASK_NOT_FOUND). Whether paid skills are x402-gated over A2A was not observed.\n\
   notes:\n- 'No OAuthScopes artifact is emitted: there is no OAuth surface. scopes/ is intentionally absent.'\n- 'The derive-authentication.py pass produced no profile (0 securitySchemes across both specs), which is correct; this file was written by hand from the provider''s statements and the observed gate.'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentum-lat/refs/heads/main/authentication/agentum-lat-authentication.yml
+source_yaml_url: https://artifacts.apis.io/agentum-lat/authentication/agentum-lat-authentication.yml
 summary_line: 0 schemes
 tags:
 - Company

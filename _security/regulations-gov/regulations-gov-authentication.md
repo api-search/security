@@ -8,25 +8,25 @@ api_specs:
   label: Regulations.gov comment submission utilities API
   slug: regulations-gov-comment-submission-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regulations-gov/refs/heads/main/openapi/regulations-gov-comment-submission-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/regulations-gov/openapi/regulations-gov-comment-submission-utilities-api-openapi.yml
 - filename: regulations-gov-comments-api-openapi.yml
   format: yaml
   label: Regulations.gov Comments API
   slug: regulations-gov-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regulations-gov/refs/heads/main/openapi/regulations-gov-comments-api-openapi.yml
+  url: https://artifacts.apis.io/regulations-gov/openapi/regulations-gov-comments-api-openapi.yml
 - filename: regulations-gov-dockets-api-openapi.yml
   format: yaml
   label: Regulations.gov Dockets API
   slug: regulations-gov-dockets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regulations-gov/refs/heads/main/openapi/regulations-gov-dockets-api-openapi.yml
+  url: https://artifacts.apis.io/regulations-gov/openapi/regulations-gov-dockets-api-openapi.yml
 - filename: regulations-gov-documents-api-openapi.yml
   format: yaml
   label: Regulations.gov Documents API
   slug: regulations-gov-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regulations-gov/refs/heads/main/openapi/regulations-gov-documents-api-openapi.yml
+  url: https://artifacts.apis.io/regulations-gov/openapi/regulations-gov-documents-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -53,7 +53,7 @@ source_filename: regulations-gov-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/regulations-gov-regulations-gov-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-Api-Key\n  sources:\n  - openapi/regulations-gov-regulations-gov-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/regulations-gov/refs/heads/main/authentication/regulations-gov-authentication.yml
+source_yaml_url: https://artifacts.apis.io/regulations-gov/authentication/regulations-gov-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Government

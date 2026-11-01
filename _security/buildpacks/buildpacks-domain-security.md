@@ -5,7 +5,7 @@ api_specs:
   label: Cloud Native Buildpacks Kpack API
   slug: buildpacks-kpack-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/openapi/buildpacks-kpack-api-openapi.yml
+  url: https://artifacts.apis.io/buildpacks/openapi/buildpacks-kpack-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -46,7 +46,7 @@ source_filename: buildpacks-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: buildpacks.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 16:40:17 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n- host: registry.buildpacks.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 01:47:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\ndomains:\n- domain: buildpacks.io\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/security/buildpacks-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/buildpacks/security/buildpacks-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Cloud Native Buildpacks

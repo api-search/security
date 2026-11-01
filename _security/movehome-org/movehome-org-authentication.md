@@ -7,25 +7,25 @@ api_specs:
   label: Move Home Organisation CIC Branches API
   slug: movehome-org-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/movehome-org/refs/heads/main/openapi/movehome-org-branches-api-openapi.yml
+  url: https://artifacts.apis.io/movehome-org/openapi/movehome-org-branches-api-openapi.yml
 - filename: movehome-org-listings-api-openapi.yml
   format: yaml
   label: Move Home Organisation CIC Listings API
   slug: movehome-org-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/movehome-org/refs/heads/main/openapi/movehome-org-listings-api-openapi.yml
+  url: https://artifacts.apis.io/movehome-org/openapi/movehome-org-listings-api-openapi.yml
 - filename: movehome-org-operational-api-openapi.yml
   format: yaml
   label: Move Home Organisation CIC Operational API
   slug: movehome-org-operational-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/movehome-org/refs/heads/main/openapi/movehome-org-operational-api-openapi.yml
+  url: https://artifacts.apis.io/movehome-org/openapi/movehome-org-operational-api-openapi.yml
 - filename: movehome-org-products-api-openapi.yml
   format: yaml
   label: Move Home Organisation CIC Products API
   slug: movehome-org-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/movehome-org/refs/heads/main/openapi/movehome-org-products-api-openapi.yml
+  url: https://artifacts.apis.io/movehome-org/openapi/movehome-org-products-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/movehom
   \ 3600, scope }'\n    scope_handling: requested scope is intersected with the credential's allowed_scopes; omit scope to receive all\n      allowed scopes\n    verification: server-side only — HS256 with a shared secret; the published JWKS (/.well-known/jwks.json) is\n      empty, so third parties cannot verify these tokens (the RAIA spec recommends RS256 for that reason)\n  credential_issuance:\n    how: out-of-band by the MoveHome operator (scripts/portal-create-credential.cjs in the provider's repository);\n      the secret is shown once\n    contact: admin@movehome.org\n    signup: none — no self-service developer portal\n  rate_limit: token endpoint 10 requests/min per client; API 60/min per credential per endpoint group\n  observed:\n  - 'POST /oauth/token grant_type=client_credentials (no client) -> 401 application/problem+json {\"type\":\"https://movehome.org/errors/unauthorized\",\"detail\":\"Missing\n    client_id / client_secret. Use HTTP Basic or form fields.\",\"instance\"\
   :\"/oauth/token\"} with WWW-Authenticate:\n    Bearer realm=\"raia-portal-feed\"'\n  - 'GET /api/raia/portal/v1/listings/AE-PROBE (no token) -> 401 {\"detail\":\"Missing Authorization: Bearer header.\"}'\n  - GET /api/raia/portal/v1/branches/x/listings (no token) -> 401\n  - 'GET /api/raia/portal/v1/healthz -> 200 (security: [])'\n  description: 'Server-to-server OAuth2 client credentials flow. The token endpoint is\n\n    published by the implementer; credentials are issued out-of-band\n\n    during onboarding. Tokens are short-lived Bearer JWTs.'\n  sources:\n  - openapi/movehome-org-raia-portal-feed-openapi.yaml\n  - https://github.com/MoveHome/MoveHome.Org/blob/main/docs/raia-portal-feed-api.md#3-authentication\n  - https://github.com/MoveHome/MoveHome.Org/blob/main/src/app/oauth/token/route.ts\ndiscovery:\n  openid_configuration:\n    url: https://movehome.org/.well-known/openid-configuration\n    status: 404\n  oauth_authorization_server:\n    url: https://movehome.org/.well-known/oauth-authorization-server\n\
   \    status: 404\n  oauth_protected_resource:\n    url: https://movehome.org/.well-known/oauth-protected-resource\n    status: 404\n  jwks:\n    url: https://movehome.org/.well-known/jwks.json\n    status: 200\n    body: '{\"keys\":[]}'\nscopes_detail: scopes/movehome-org-scopes.yml\ndocs_all:\n- https://movehome.org/skills.md\n- https://github.com/MoveHome/MoveHome.Org/blob/main/docs/raia-portal-feed-api.md#3-authentication\n- https://github.com/MoveHome/MoveHome.Org/blob/main/docs/raia-a2a-api.md\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/movehome-org/refs/heads/main/authentication/movehome-org-authentication.yml
+source_yaml_url: https://artifacts.apis.io/movehome-org/authentication/movehome-org-authentication.yml
 summary_line: none/oauth2 · 2 schemes
 tags:
 - Real Estate

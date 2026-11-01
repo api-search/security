@@ -2,12 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
+- filename: agentkey-openapi-generated.yml
+  format: yaml
+  label: AgentKey API
+  slug: agentkey-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentkey/openapi/_ae-authored/agentkey-openapi-generated.yml
 - filename: agentkey-install-api-openapi.yml
   format: yaml
   label: AgentKey (Data API Layer) Install API
   slug: agentkey-install-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentkey/refs/heads/main/openapi/agentkey-install-api-openapi.yml
+  url: https://artifacts.apis.io/agentkey/openapi/agentkey-install-api-openapi.yml
 auth_types: []
 description: Authentication schemes for AgentKey
 kind: authentication
@@ -31,7 +37,7 @@ source_filename: agentkey-authentication.yml
 source_heading: Authentication Profile
 source_url: https://docs.agentkey.app/authentication.md
 source_yaml: "generated: '2026-10-15'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://docs.agentkey.app/authentication.md\nsources:\n- https://docs.agentkey.app/authentication.md\n- https://docs.agentkey.app/quickstart.md\ndescription: Authentication schemes for AgentKey\nschemes:\n- type: apiKey\n  name: master key\n  evidence: AgentKey authenticates with a single **master key**.\n  how_to_obtain: Generate a key in the console.\nnote: No OAuth flows or other authentication types are documented.\ndocs: https://docs.agentkey.app/authentication.md\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentkey/refs/heads/main/authentication/agentkey-authentication.yml
+source_yaml_url: https://artifacts.apis.io/agentkey/authentication/agentkey-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company

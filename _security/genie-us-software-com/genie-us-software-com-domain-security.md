@@ -26,7 +26,7 @@ source_filename: genie-us-software-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: genie-us-software.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 13 20:01:20 2026 GMT\n  hsts: false\ndomains:\n- domain: genie-us-software.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/genie-us-software-com/refs/heads/main/security/genie-us-software-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/genie-us-software-com/security/genie-us-software-com-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

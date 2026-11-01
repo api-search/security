@@ -7,43 +7,43 @@ api_specs:
   label: Efí Authorization API
   slug: efi-bank-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/efi-bank/openapi/efi-bank-authorization-api-openapi.yml
 - filename: efi-bank-carn-api-openapi.yml
   format: yaml
   label: Efí Carnê API
   slug: efi-bank-carn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-carn-api-openapi.yml
+  url: https://artifacts.apis.io/efi-bank/openapi/efi-bank-carn-api-openapi.yml
 - filename: efi-bank-cobran-as-api-openapi.yml
   format: yaml
   label: Efí Cobranças API
   slug: efi-bank-cobran-as-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-cobran-as-api-openapi.yml
+  url: https://artifacts.apis.io/efi-bank/openapi/efi-bank-cobran-as-api-openapi.yml
 - filename: efi-bank-open-finance-api-openapi.yml
   format: yaml
   label: Efí Open Finance API
   slug: efi-bank-open-finance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-open-finance-api-openapi.yml
+  url: https://artifacts.apis.io/efi-bank/openapi/efi-bank-open-finance-api-openapi.yml
 - filename: efi-bank-pix-charges-api-openapi.yml
   format: yaml
   label: Efí Pix Charges API
   slug: efi-bank-pix-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-pix-charges-api-openapi.yml
+  url: https://artifacts.apis.io/efi-bank/openapi/efi-bank-pix-charges-api-openapi.yml
 - filename: efi-bank-pix-payments-api-openapi.yml
   format: yaml
   label: Efí Pix Payments API
   slug: efi-bank-pix-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-pix-payments-api-openapi.yml
+  url: https://artifacts.apis.io/efi-bank/openapi/efi-bank-pix-payments-api-openapi.yml
 - filename: efi-bank-pix-webhooks-api-openapi.yml
   format: yaml
   label: Efí Pix Webhooks API
   slug: efi-bank-pix-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-pix-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/efi-bank/openapi/efi-bank-pix-webhooks-api-openapi.yml
 auth_types:
 - oauth2
 - mutualTLS
@@ -85,7 +85,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: derived\nsource: openapi/efi-bank-openapi.yml\nsummary:\n  types:\n  - oauth2\n  - mutualTLS\nschemes:\n- name: oAuth2ClientCredentials\n  type: oauth2\n  flow: clientCredentials\n  description: >-\n    OAuth2 client-credentials across all Efí hosts. Obtain a bearer token from\n    the host's token endpoint using HTTP Basic auth with Client_Id and\n    Client_Secret, then send it as `Authorization: Bearer`. Token endpoints\n    differ per host: Pix `POST /oauth/token`\n    (https://pix.api.efipay.com.br), Cobranças `POST /v1/authorize`\n    (https://cobrancas.api.efipay.com.br), Open Finance `POST /v1/oauth/token`\n    (https://openfinance.api.efipay.com.br). Access is scoped (cob.write,\n    cob.read, pix.read, pix.send, webhook.write, gn.opb.payment.pix.send, etc).\n  sources:\n  - openapi/efi-bank-openapi.yml\n  - https://dev.efipay.com.br/docs/api-pix/credenciais\n  - https://dev.efipay.com.br/docs/api-cobrancas/credenciais\n- name: mutualTLS\n\
   \  type: mutualTLS\n  description: >-\n    Mutual TLS (mTLS) client certificate is MANDATORY on every request to the\n    Pix and Open Finance hosts, including the OAuth2 token request. Efí issues a\n    `.p12` (PKCS#12) certificate in the account dashboard, which can be converted\n    to `.pem`. This is a Brazilian Central Bank (BACEN) requirement for the Pix\n    arrangement, not an Efí-specific choice. The Cobranças (Charges / Carnê) host\n    does NOT require mTLS - OAuth2 alone is sufficient there. mTLS cannot be fully\n    expressed as an OpenAPI 3.0 security scheme, so it is documented separately\n    here and in prose within the OpenAPI description.\n  requiredOnHosts:\n  - https://pix.api.efipay.com.br\n  - https://openfinance.api.efipay.com.br\n  notRequiredOnHosts:\n  - https://cobrancas.api.efipay.com.br\n  sources:\n  - https://dev.efipay.com.br/docs/api-pix/credenciais\n  - https://dev.efipay.com.br/docs/api-open-finance/credenciais\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/authentication/efi-bank-authentication.yml
+source_yaml_url: https://artifacts.apis.io/efi-bank/authentication/efi-bank-authentication.yml
 summary_line: oauth2/mutualTLS · 2 schemes
 tags:
 - Payments

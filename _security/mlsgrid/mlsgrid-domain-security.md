@@ -5,43 +5,43 @@ api_specs:
   label: mlsgrid Lookup API
   slug: mlsgrid-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/openapi/mlsgrid-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/mlsgrid/openapi/mlsgrid-lookup-api-openapi.yml
 - filename: mlsgrid-media-api-openapi.yml
   format: yaml
   label: mlsgrid Media API
   slug: mlsgrid-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/openapi/mlsgrid-media-api-openapi.yml
+  url: https://artifacts.apis.io/mlsgrid/openapi/mlsgrid-media-api-openapi.yml
 - filename: mlsgrid-member-api-openapi.yml
   format: yaml
   label: mlsgrid Member API
   slug: mlsgrid-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/openapi/mlsgrid-member-api-openapi.yml
+  url: https://artifacts.apis.io/mlsgrid/openapi/mlsgrid-member-api-openapi.yml
 - filename: mlsgrid-metadata-api-openapi.yml
   format: yaml
   label: mlsgrid Metadata API
   slug: mlsgrid-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/openapi/mlsgrid-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/mlsgrid/openapi/mlsgrid-metadata-api-openapi.yml
 - filename: mlsgrid-office-api-openapi.yml
   format: yaml
   label: mlsgrid Office API
   slug: mlsgrid-office-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/openapi/mlsgrid-office-api-openapi.yml
+  url: https://artifacts.apis.io/mlsgrid/openapi/mlsgrid-office-api-openapi.yml
 - filename: mlsgrid-openhouse-api-openapi.yml
   format: yaml
   label: mlsgrid OpenHouse API
   slug: mlsgrid-openhouse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/openapi/mlsgrid-openhouse-api-openapi.yml
+  url: https://artifacts.apis.io/mlsgrid/openapi/mlsgrid-openhouse-api-openapi.yml
 - filename: mlsgrid-property-api-openapi.yml
   format: yaml
   label: mlsgrid Property API
   slug: mlsgrid-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/openapi/mlsgrid-property-api-openapi.yml
+  url: https://artifacts.apis.io/mlsgrid/openapi/mlsgrid-property-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: mlsgrid-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mlsgrid.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 03:42:09 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: docs.mlsgrid.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 05:04:38 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.mlsgrid.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  6 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: mlsgrid.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/security/mlsgrid-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mlsgrid/security/mlsgrid-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Real Estate

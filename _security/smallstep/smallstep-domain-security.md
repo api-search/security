@@ -5,37 +5,37 @@ api_specs:
   label: SmallStep Authentication API
   slug: smallstep-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/openapi/smallstep-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/smallstep/openapi/smallstep-authentication-api-openapi.yml
 - filename: smallstep-certificates-api-openapi.yml
   format: yaml
   label: SmallStep Certificates API
   slug: smallstep-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/openapi/smallstep-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/smallstep/openapi/smallstep-certificates-api-openapi.yml
 - filename: smallstep-credentials-api-openapi.yml
   format: yaml
   label: SmallStep Credentials API
   slug: smallstep-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/openapi/smallstep-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/smallstep/openapi/smallstep-credentials-api-openapi.yml
 - filename: smallstep-device-inventory-api-openapi.yml
   format: yaml
   label: SmallStep Device Inventory API
   slug: smallstep-device-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/openapi/smallstep-device-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/smallstep/openapi/smallstep-device-inventory-api-openapi.yml
 - filename: smallstep-pki-architecture-api-openapi.yml
   format: yaml
   label: SmallStep PKI Architecture API
   slug: smallstep-pki-architecture-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/openapi/smallstep-pki-architecture-api-openapi.yml
+  url: https://artifacts.apis.io/smallstep/openapi/smallstep-pki-architecture-api-openapi.yml
 - filename: smallstep-protect-api-openapi.yml
   format: yaml
   label: SmallStep Protect API
   slug: smallstep-protect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/openapi/smallstep-protect-api-openapi.yml
+  url: https://artifacts.apis.io/smallstep/openapi/smallstep-protect-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +71,7 @@ source_filename: smallstep-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.smallstep.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 05:33:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: gateway.smallstep.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 02:39:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: smallstep.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/security/smallstep-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/smallstep/security/smallstep-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

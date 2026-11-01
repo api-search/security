@@ -28,7 +28,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://developers.staffbase.com/api/\ndocs: https://developers.staffbase.com/api/\nnotes: >-\n  Derived from the Staffbase developer portal and a live 401 challenge against the\n  API base. No downloadable OpenAPI/Swagger definition is published, so this profile\n  is documented from the developer portal rather than mechanically derived from a spec.\nbase_url: https://app.staffbase.com/api\nsummary:\n  types: [http]\n  http_schemes: [basic]\n  api_key_in: []\n  oauth2_flows: []\nschemes:\n  - name: apiToken\n    type: http\n    scheme: basic\n    description: >-\n      API access uses HTTP Basic authentication carrying a Staffbase API token.\n      Tokens are generated per-installation in the Staffbase Studio admin and scope\n      access to a branch/space. Unauthenticated calls return HTTP 401 with a JSON\n      error envelope (ref ERROR_LOGIN_REQUIRED).\n    evidence:\n      - \"GET https://app.staffbase.com/api/users ->\
   \ 401 application/json {ref: ERROR_LOGIN_REQUIRED}\"\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/staffbase/refs/heads/main/authentication/staffbase-authentication.yml
+source_yaml_url: https://artifacts.apis.io/staffbase/authentication/staffbase-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

@@ -8,19 +8,73 @@ api_specs:
   label: Bloom Account API
   slug: trybloom-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/openapi/trybloom-account-api-openapi.yml
+  url: https://artifacts.apis.io/trybloom/openapi/trybloom-account-api-openapi.yml
 - filename: trybloom-brands-api-openapi.yml
   format: yaml
   label: Bloom Brands API
   slug: trybloom-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/openapi/trybloom-brands-api-openapi.yml
+  url: https://artifacts.apis.io/trybloom/openapi/trybloom-brands-api-openapi.yml
 - filename: trybloom-images-api-openapi.yml
   format: yaml
   label: Bloom Images API
   slug: trybloom-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/openapi/trybloom-images-api-openapi.yml
+  url: https://artifacts.apis.io/trybloom/openapi/trybloom-images-api-openapi.yml
+- filename: trybloom-audio-api-openapi.yml
+  format: yaml
+  label: Bloom Audio API
+  slug: trybloom-audio-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/trybloom/openapi/trybloom-audio-api-openapi.yml
+- filename: trybloom-briefs-api-openapi.yml
+  format: yaml
+  label: Bloom Briefs API
+  slug: trybloom-briefs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/trybloom/openapi/trybloom-briefs-api-openapi.yml
+- filename: trybloom-feedback-api-openapi.yml
+  format: yaml
+  label: Bloom Feedback API
+  slug: trybloom-feedback-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/trybloom/openapi/trybloom-feedback-api-openapi.yml
+- filename: trybloom-generations-api-openapi.yml
+  format: yaml
+  label: Bloom Generations API
+  slug: trybloom-generations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/trybloom/openapi/trybloom-generations-api-openapi.yml
+- filename: trybloom-library-api-openapi.yml
+  format: yaml
+  label: Bloom Library API
+  slug: trybloom-library-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/trybloom/openapi/trybloom-library-api-openapi.yml
+- filename: trybloom-models-api-openapi.yml
+  format: yaml
+  label: Bloom Models API
+  slug: trybloom-models-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/trybloom/openapi/trybloom-models-api-openapi.yml
+- filename: trybloom-reviews-api-openapi.yml
+  format: yaml
+  label: Bloom Reviews API
+  slug: trybloom-reviews-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/trybloom/openapi/trybloom-reviews-api-openapi.yml
+- filename: trybloom-uploads-api-openapi.yml
+  format: yaml
+  label: Bloom Uploads API
+  slug: trybloom-uploads-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/trybloom/openapi/trybloom-uploads-api-openapi.yml
+- filename: trybloom-videos-api-openapi.yml
+  format: yaml
+  label: Bloom Videos API
+  slug: trybloom-videos-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/trybloom/openapi/trybloom-videos-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -79,7 +133,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/_original/trybloom-api-openapi.json\ndocs: https://www.trybloom.ai/docs/api/authentication\nsummary:\n  types:\n  - apiKey\n  - http\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\n  - refreshToken\nnotes: >-\n  Every request needs a Bloom API key (bloom_sk_...) or a Bloom OAuth access\n  token. The key is accepted in either header; x-api-key wins when both are\n  present. OAuth tokens resolve to the same user identity as an API key (same\n  access to brands, images, credits, plan gates, workspaces). Public clients\n  use Authorization Code + PKCE S256 with dynamic client registration and no\n  client_secret; wildcard redirect URIs are not supported. Keys are generated\n  at https://www.trybloom.ai/settings#api-keys.\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: 'Bloom API key, for example `x-api-key: bloom_sk_...`.'\n\
   \  sources:\n  - openapi/_original/trybloom-api-openapi.json\n- name: bearer\n  type: http\n  scheme: bearer\n  description: Bloom API key (`Bearer bloom_sk_...`) or Bloom OAuth access token.\n  sources:\n  - openapi/_original/trybloom-api-openapi.json\n- name: Bloom OAuth\n  type: oauth2\n  description: >-\n    App-integration OAuth (not declared in the OpenAPI securitySchemes;\n    documented in docs/api/authentication with RFC 8414 metadata at\n    /.well-known/oauth-authorization-server).\n  issuer: https://www.trybloom.ai/api/auth\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.trybloom.ai/api/auth/oauth2/authorize\n    tokenUrl: https://www.trybloom.ai/api/auth/oauth2/token\n    pkce: S256\n  - flow: clientCredentials\n    tokenUrl: https://www.trybloom.ai/api/auth/oauth2/token\n  - flow: refreshToken\n    tokenUrl: https://www.trybloom.ai/api/auth/oauth2/token\n  registration: https://www.trybloom.ai/api/auth/oauth2/register\n  scopes: scopes/trybloom-scopes.yml\n\
   \  sources:\n  - https://www.trybloom.ai/docs/api/authentication\n  - well-known/trybloom-oauth-authorization-server.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/authentication/trybloom-authentication.yml
+source_yaml_url: https://artifacts.apis.io/trybloom/authentication/trybloom-authentication.yml
 summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Company

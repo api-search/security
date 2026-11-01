@@ -5,25 +5,25 @@ api_specs:
   label: Science Museum Group Documents API
   slug: science-museum-group-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/science-museum-group/refs/heads/main/openapi/science-museum-group-documents-api-openapi.yml
+  url: https://artifacts.apis.io/science-museum-group/openapi/science-museum-group-documents-api-openapi.yml
 - filename: science-museum-group-objects-api-openapi.yml
   format: yaml
   label: Science Museum Group Objects API
   slug: science-museum-group-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/science-museum-group/refs/heads/main/openapi/science-museum-group-objects-api-openapi.yml
+  url: https://artifacts.apis.io/science-museum-group/openapi/science-museum-group-objects-api-openapi.yml
 - filename: science-museum-group-people-api-openapi.yml
   format: yaml
   label: Science Museum Group People API
   slug: science-museum-group-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/science-museum-group/refs/heads/main/openapi/science-museum-group-people-api-openapi.yml
+  url: https://artifacts.apis.io/science-museum-group/openapi/science-museum-group-people-api-openapi.yml
 - filename: science-museum-group-search-api-openapi.yml
   format: yaml
   label: Science Museum Group Search API
   slug: science-museum-group-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/science-museum-group/refs/heads/main/openapi/science-museum-group-search-api-openapi.yml
+  url: https://artifacts.apis.io/science-museum-group/openapi/science-museum-group-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: science-museum-group-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sciencemuseumgroup.org.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 13 02:24:27 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: collection.sciencemuseumgroup.org.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 31 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: sciencemuseumgroup.org.uk\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/science-museum-group/refs/heads/main/security/science-museum-group-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/science-museum-group/security/science-museum-group-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Museums

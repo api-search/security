@@ -7,37 +7,37 @@ api_specs:
   label: Instock Articles API
   slug: instock-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/openapi/instock-articles-api-openapi.yml
+  url: https://artifacts.apis.io/instock/openapi/instock-articles-api-openapi.yml
 - filename: instock-inventory-api-openapi.yml
   format: yaml
   label: Instock Inventory API
   slug: instock-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/openapi/instock-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/instock/openapi/instock-inventory-api-openapi.yml
 - filename: instock-moves-api-openapi.yml
   format: yaml
   label: Instock Moves API
   slug: instock-moves-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/openapi/instock-moves-api-openapi.yml
+  url: https://artifacts.apis.io/instock/openapi/instock-moves-api-openapi.yml
 - filename: instock-orders-api-openapi.yml
   format: yaml
   label: Instock Orders API
   slug: instock-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/openapi/instock-orders-api-openapi.yml
+  url: https://artifacts.apis.io/instock/openapi/instock-orders-api-openapi.yml
 - filename: instock-ordertasks-api-openapi.yml
   format: yaml
   label: Instock Ordertasks API
   slug: instock-ordertasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/openapi/instock-ordertasks-api-openapi.yml
+  url: https://artifacts.apis.io/instock/openapi/instock-ordertasks-api-openapi.yml
 - filename: instock-sites-api-openapi.yml
   format: yaml
   label: Instock Sites API
   slug: instock-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/openapi/instock-sites-api-openapi.yml
+  url: https://artifacts.apis.io/instock/openapi/instock-sites-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +64,7 @@ source_filename: instock-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/instock-openapi.json\ndocs: https://instock.com/en/docs/api/\ndetail: >-\n  Instock API authenticates with a Bearer token (JWT). The token must be present\n  in the Authorization header of every request; requests without authentication\n  fail, and HTTPS is required. The token grants full access to all resources and\n  methods of the Instock API for its client. Tokens are currently issued by\n  Instock and supplied to API users during onboarding (no self-service token\n  provisioning / OAuth flow is documented). There are no scopes documented — the\n  token is all-or-nothing per client.\nsummary:\n  types:\n  - http\n  http_schemes:\n  - bearer\n  token_header: Authorization\n  token_format: JWT\n  self_service: false\n  issued_by: Instock (during onboarding)\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/instock-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/authentication/instock-authentication.yml
+source_yaml_url: https://artifacts.apis.io/instock/authentication/instock-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

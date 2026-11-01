@@ -5,37 +5,37 @@ api_specs:
   label: Mob.ly Activations API
   slug: mobly-activations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/openapi/mobly-activations-api-openapi.yml
+  url: https://artifacts.apis.io/mobly/openapi/mobly-activations-api-openapi.yml
 - filename: mobly-events-api-openapi.yml
   format: yaml
   label: Mob.ly Events API
   slug: mobly-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/openapi/mobly-events-api-openapi.yml
+  url: https://artifacts.apis.io/mobly/openapi/mobly-events-api-openapi.yml
 - filename: mobly-industryevents-api-openapi.yml
   format: yaml
   label: Mob.ly Industry Events API
   slug: mobly-industryevents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/openapi/mobly-industryevents-api-openapi.yml
+  url: https://artifacts.apis.io/mobly/openapi/mobly-industryevents-api-openapi.yml
 - filename: mobly-leadactivityevents-api-openapi.yml
   format: yaml
   label: Mob.ly Lead Activity Events API
   slug: mobly-leadactivityevents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/openapi/mobly-leadactivityevents-api-openapi.yml
+  url: https://artifacts.apis.io/mobly/openapi/mobly-leadactivityevents-api-openapi.yml
 - filename: mobly-leads-api-openapi.yml
   format: yaml
   label: Mob.ly Leads API
   slug: mobly-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/openapi/mobly-leads-api-openapi.yml
+  url: https://artifacts.apis.io/mobly/openapi/mobly-leads-api-openapi.yml
 - filename: mobly-tag-groups-api-openapi.yml
   format: yaml
   label: Mob.ly Tag Groups API
   slug: mobly-tag-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/openapi/mobly-tag-groups-api-openapi.yml
+  url: https://artifacts.apis.io/mobly/openapi/mobly-tag-groups-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: mobly-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.getmobly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 21:23:50 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: help.getmobly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 21:11:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: core-api.getmobly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  7 01:48:34 2026 GMT\n  hsts: false\ndomains:\n- domain: getmobly.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/security/mobly-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mobly/security/mobly-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

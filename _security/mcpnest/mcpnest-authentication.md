@@ -7,7 +7,7 @@ api_specs:
   label: MCPNest API
   slug: mcpnest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcpnest/refs/heads/main/openapi/_ae-authored/mcpnest-openapi-generated.yml
+  url: https://artifacts.apis.io/mcpnest/openapi/_ae-authored/mcpnest-openapi-generated.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -30,12 +30,12 @@ source_filename: mcpnest-authentication.yml
 source_heading: Authentication Profile
 source_url: https://mcpnest.io/servers/remote-mcp-server-with-auth
 source_yaml: "generated: '2026-10-18'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://mcpnest.io/servers/remote-mcp-server-with-auth\nsources:\n- https://mcpnest.io/servers/remote-mcp-server-with-auth\n- https://mcpnest.io/servers/mcp-chinese-getting-started-guide-1\nschemes:\n- type: oauth2\n  name: GitHub OAuth\n  evidence: This MCP server allows users to interact with a PostgreSQL database through a secure GitHub OAuth authentication.\ndocs: https://mcpnest.io/servers/remote-mcp-server-with-auth\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mcpnest/refs/heads/main/authentication/mcpnest-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mcpnest/authentication/mcpnest-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company
 - Security
 - Cloud
 - DevOps
-- AI
+- Artificial Intelligence
 ---

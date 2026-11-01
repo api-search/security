@@ -8,49 +8,49 @@ api_specs:
   label: Coasty Keys API
   slug: coasty-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-keys-api-openapi.yml
+  url: https://artifacts.apis.io/coasty/openapi/coasty-keys-api-openapi.yml
 - filename: coasty-machines-api-openapi.yml
   format: yaml
   label: Coasty Machines API
   slug: coasty-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-machines-api-openapi.yml
+  url: https://artifacts.apis.io/coasty/openapi/coasty-machines-api-openapi.yml
 - filename: coasty-predict-api-openapi.yml
   format: yaml
   label: Coasty Predict API
   slug: coasty-predict-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-predict-api-openapi.yml
+  url: https://artifacts.apis.io/coasty/openapi/coasty-predict-api-openapi.yml
 - filename: coasty-runs-api-openapi.yml
   format: yaml
   label: Coasty Runs API
   slug: coasty-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-runs-api-openapi.yml
+  url: https://artifacts.apis.io/coasty/openapi/coasty-runs-api-openapi.yml
 - filename: coasty-schedules-api-openapi.yml
   format: yaml
   label: Coasty Schedules API
   slug: coasty-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/coasty/openapi/coasty-schedules-api-openapi.yml
 - filename: coasty-sessions-api-openapi.yml
   format: yaml
   label: Coasty Sessions API
   slug: coasty-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/coasty/openapi/coasty-sessions-api-openapi.yml
 - filename: coasty-triggers-api-openapi.yml
   format: yaml
   label: Coasty Triggers API
   slug: coasty-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/coasty/openapi/coasty-triggers-api-openapi.yml
 - filename: coasty-workflows-api-openapi.yml
   format: yaml
   label: Coasty Workflows API
   slug: coasty-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/coasty/openapi/coasty-workflows-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -102,7 +102,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/coasty-openapi-original.json\ndocs: https://coasty.ai/docs\ndiscovery: https://coasty.ai/api/discovery\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\n  key_header: X-API-Key\n  bearer_equivalent: true\n  live_key_prefix: sk-coasty-live-\n  sandbox_key_prefix: sk-coasty-test-\n  sandbox_free: true\n  key_management: Keys are minted/revoked via POST /v1/keys, GET /v1/keys, DELETE /v1/keys/{key_id}; each key is scoped.\n  scopes:\n  - predict\n  - ground\n  - parse\n  - session\n  - keys\n  - usage\n  - machines:read\n  - machines:write\n  - actions:exec\n  - terminal:exec\n  - files:read\n  - files:write\n  - browser:execute\n  - snapshots:write\n  - connection:read\n  - schedules:read\n  - schedules:write\n  - triggers:write\n  - runs:read\n  - runs:write\n  - workflows:read\n  - workflows:write\n  - llm_keys\n  byok:\n    description: Bring-your-own-model — run every LLM call on your own Anthropic/OpenAI\
   \ key.\n    request_headers:\n    - X-LLM-Provider\n    - X-LLM-Api-Key\n    - X-LLM-Model\n    stored_key_endpoint: PUT /v1/llm/keys/{provider}\n    at_rest: AES-256-GCM encrypted; only a sha256-prefix fingerprint is echoed.\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: 'Coasty API key. Live: `sk-coasty-live-...`. Sandbox: `sk-coasty-test-...`.'\n  sources:\n  - openapi/coasty-openapi-original.json\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: Coasty API key (sk-coasty-{live,test}-...)\n  description: Equivalent to X-API-Key. Use whichever your client supports.\n  sources:\n  - openapi/coasty-openapi-original.json\n- name: webhookHmac\n  type: apiKey\n  in: header\n  parameter: Coasty-Signature\n  description: 'HMAC-SHA256 credential for external schedule webhooks: t=<unix_ts>,v1=<hex_digest>.'\n  sources:\n  - openapi/coasty-openapi-original.json\n- name: webhookHmacLegacy\n  type: apiKey\n  in: header\n  parameter:\
   \ X-Coasty-Signature\n  description: Compatibility alias for the Coasty-Signature HMAC credential.\n  sources:\n  - openapi/coasty-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/authentication/coasty-authentication.yml
+source_yaml_url: https://artifacts.apis.io/coasty/authentication/coasty-authentication.yml
 summary_line: apiKey/http · 4 schemes
 tags:
 - Company

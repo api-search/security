@@ -7,25 +7,25 @@ api_specs:
   label: Balena Applications API
   slug: balena-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/balena/refs/heads/main/openapi/balena-applications-api-openapi.yml
+  url: https://artifacts.apis.io/balena/openapi/balena-applications-api-openapi.yml
 - filename: balena-device-tags-api-openapi.yml
   format: yaml
   label: Balena Device Tags API
   slug: balena-device-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/balena/refs/heads/main/openapi/balena-device-tags-api-openapi.yml
+  url: https://artifacts.apis.io/balena/openapi/balena-device-tags-api-openapi.yml
 - filename: balena-devices-api-openapi.yml
   format: yaml
   label: Balena Devices API
   slug: balena-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/balena/refs/heads/main/openapi/balena-devices-api-openapi.yml
+  url: https://artifacts.apis.io/balena/openapi/balena-devices-api-openapi.yml
 - filename: balena-releases-api-openapi.yml
   format: yaml
   label: Balena Releases API
   slug: balena-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/balena/refs/heads/main/openapi/balena-releases-api-openapi.yml
+  url: https://artifacts.apis.io/balena/openapi/balena-releases-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -57,7 +57,7 @@ source_filename: balena-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/balena-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearer\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: |-\n    Session token or named API key supplied as\n    `Authorization: Bearer <token>`. Create named API keys at\n    https://dashboard.balena-cloud.com/preferences/access-tokens.\n  sources:\n  - openapi/balena-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/balena/refs/heads/main/authentication/balena-authentication.yml
+source_yaml_url: https://artifacts.apis.io/balena/authentication/balena-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Containers

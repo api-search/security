@@ -15,7 +15,7 @@ source_filename: mentimeter-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nprobe: true\nsource: https://www.mentimeter.com/trust\nurl: https://www.mentimeter.com/trust\ncertifications:\n- GDPR\nevidence:\n- source: https://www.mentimeter.com/trust\n  keywords:\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mentimeter/refs/heads/main/security/mentimeter-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/mentimeter/security/mentimeter-trust-center.yml
 summary_line: GDPR
 tags:
 - Company

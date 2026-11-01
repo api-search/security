@@ -7,229 +7,229 @@ api_specs:
   label: Harvard University Access API
   slug: harvard-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-access-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-access-api-openapi.yml
 - filename: harvard-actions-api-openapi.yml
   format: yaml
   label: Harvard University Actions API
   slug: harvard-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-actions-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-actions-api-openapi.yml
 - filename: harvard-addfilestodataset-api-openapi.yml
   format: yaml
   label: Harvard University Add Files To Dataset API
   slug: harvard-addfilestodataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-addfilestodataset-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-addfilestodataset-api-openapi.yml
 - filename: harvard-addfiletodataset-api-openapi.yml
   format: yaml
   label: Harvard University Add File To Dataset API
   slug: harvard-addfiletodataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-addfiletodataset-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-addfiletodataset-api-openapi.yml
 - filename: harvard-addglobusfilestodataset-api-openapi.yml
   format: yaml
   label: Harvard University Add Globus Files To Dataset API
   slug: harvard-addglobusfilestodataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-addglobusfilestodataset-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-addglobusfilestodataset-api-openapi.yml
 - filename: harvard-admin-api-openapi.yml
   format: yaml
   label: Harvard University Admin API
   slug: harvard-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-admin-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-admin-api-openapi.yml
 - filename: harvard-batch-api-openapi.yml
   format: yaml
   label: Harvard University Batch API
   slug: harvard-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-batch-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-batch-api-openapi.yml
 - filename: harvard-builtin-users-api-openapi.yml
   format: yaml
   label: Harvard University Builtin Users API
   slug: harvard-builtin-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-builtin-users-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-builtin-users-api-openapi.yml
 - filename: harvard-datasetfields-api-openapi.yml
   format: yaml
   label: Harvard University Datasetfields API
   slug: harvard-datasetfields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-datasetfields-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-datasetfields-api-openapi.yml
 - filename: harvard-datasets-api-openapi.yml
   format: yaml
   label: Harvard University Datasets API
   slug: harvard-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-datasets-api-openapi.yml
 - filename: harvard-datatags-api-openapi.yml
   format: yaml
   label: Harvard University Datatags API
   slug: harvard-datatags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-datatags-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-datatags-api-openapi.yml
 - filename: harvard-dataversefeatureditems-api-openapi.yml
   format: yaml
   label: Harvard University Dataverse Featured Items API
   slug: harvard-dataversefeatureditems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-dataversefeatureditems-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-dataversefeatureditems-api-openapi.yml
 - filename: harvard-dataverses-api-openapi.yml
   format: yaml
   label: Harvard University Dataverses API
   slug: harvard-dataverses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-dataverses-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-dataverses-api-openapi.yml
 - filename: harvard-edit-api-openapi.yml
   format: yaml
   label: Harvard University Edit API
   slug: harvard-edit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-edit-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-edit-api-openapi.yml
 - filename: harvard-files-api-openapi.yml
   format: yaml
   label: Harvard University Files API
   slug: harvard-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-files-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-files-api-openapi.yml
 - filename: harvard-guestbooks-api-openapi.yml
   format: yaml
   label: Harvard University Guestbooks API
   slug: harvard-guestbooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-guestbooks-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-guestbooks-api-openapi.yml
 - filename: harvard-harvest-api-openapi.yml
   format: yaml
   label: Harvard University Harvest API
   slug: harvard-harvest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-harvest-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-harvest-api-openapi.yml
 - filename: harvard-inbox-api-openapi.yml
   format: yaml
   label: Harvard University Inbox API
   slug: harvard-inbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-inbox-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-inbox-api-openapi.yml
 - filename: harvard-info-api-openapi.yml
   format: yaml
   label: Harvard University Info API
   slug: harvard-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-info-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-info-api-openapi.yml
 - filename: harvard-ingest-api-openapi.yml
   format: yaml
   label: Harvard University Ingest API
   slug: harvard-ingest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-ingest-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-ingest-api-openapi.yml
 - filename: harvard-licenses-api-openapi.yml
   format: yaml
   label: Harvard University Licenses API
   slug: harvard-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-licenses-api-openapi.yml
 - filename: harvard-localcontexts-api-openapi.yml
   format: yaml
   label: Harvard University Localcontexts API
   slug: harvard-localcontexts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-localcontexts-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-localcontexts-api-openapi.yml
 - filename: harvard-logout-api-openapi.yml
   format: yaml
   label: Harvard University Logout API
   slug: harvard-logout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-logout-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-logout-api-openapi.yml
 - filename: harvard-mail-api-openapi.yml
   format: yaml
   label: Harvard University Mail API
   slug: harvard-mail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-mail-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-mail-api-openapi.yml
 - filename: harvard-meta-api-openapi.yml
   format: yaml
   label: Harvard University Meta API
   slug: harvard-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-meta-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-meta-api-openapi.yml
 - filename: harvard-metadatablocks-api-openapi.yml
   format: yaml
   label: Harvard University Metadatablocks API
   slug: harvard-metadatablocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-metadatablocks-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-metadatablocks-api-openapi.yml
 - filename: harvard-mydata-api-openapi.yml
   format: yaml
   label: Harvard University Mydata API
   slug: harvard-mydata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-mydata-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-mydata-api-openapi.yml
 - filename: harvard-notifications-api-openapi.yml
   format: yaml
   label: Harvard University Notifications API
   slug: harvard-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-notifications-api-openapi.yml
 - filename: harvard-pids-api-openapi.yml
   format: yaml
   label: Harvard University Pids API
   slug: harvard-pids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-pids-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-pids-api-openapi.yml
 - filename: harvard-replacefilesindataset-api-openapi.yml
   format: yaml
   label: Harvard University Replace Files In Dataset API
   slug: harvard-replacefilesindataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-replacefilesindataset-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-replacefilesindataset-api-openapi.yml
 - filename: harvard-roles-api-openapi.yml
   format: yaml
   label: Harvard University Roles API
   slug: harvard-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-roles-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-roles-api-openapi.yml
 - filename: harvard-saveauxiliaryfilewithversion-api-openapi.yml
   format: yaml
   label: Harvard University Save Auxiliary File With Version API
   slug: harvard-saveauxiliaryfilewithversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-saveauxiliaryfilewithversion-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-saveauxiliaryfilewithversion-api-openapi.yml
 - filename: harvard-search-api-openapi.yml
   format: yaml
   label: Harvard University Search API
   slug: harvard-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-search-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-search-api-openapi.yml
 - filename: harvard-uploaddatasetlogo-api-openapi.yml
   format: yaml
   label: Harvard University Upload Dataset Logo API
   slug: harvard-uploaddatasetlogo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-uploaddatasetlogo-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-uploaddatasetlogo-api-openapi.yml
 - filename: harvard-users-api-openapi.yml
   format: yaml
   label: Harvard University Users API
   slug: harvard-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-users-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-users-api-openapi.yml
 - filename: harvard-workflows-api-openapi.yml
   format: yaml
   label: Harvard University Workflows API
   slug: harvard-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-workflows-api-openapi.yml
 - filename: harvard-external-tools-api-openapi.yml
   format: yaml
   label: Harvard University External Tools API
   slug: harvard-external-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-external-tools-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-external-tools-api-openapi.yml
 - filename: harvard-send-feedback-api-openapi.yml
   format: yaml
   label: Harvard University Send Feedback API
   slug: harvard-send-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-send-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/harvard/openapi/harvard-send-feedback-api-openapi.yml
 auth_types: []
 description: 'Authentication posture per institution-operated surface. Harvard has no single front door: each unit authenticates its own way, ranging from wholly open harvesting endpoints to a HarvardKey/SAML-gated central portal. There is no institution-wide developer identity.'
 kind: authentication
@@ -333,7 +333,7 @@ source_yaml: "specification: API Commons Authentication\nspecificationVersion: '
   \          \"access-control-allow-headers: Accept, Content-Type, X-Dataverse-key, Range\",\n          which is where the token header name is confirmed.\n      - url: https://dataverse.harvard.edu/api/admin/isOrcid\n        status: 403\n        note: Administrative operations are correctly refused to anonymous callers.\n  - surface: Harvard API Portal (HUIT)\n    baseURL: https://portal.apis.huit.harvard.edu\n    x-operator: institution\n    type: federated\n    note: >-\n      Access to the catalog, to any base URL and to credentials requires HarvardKey login,\n      application registration and a per-API access grant. HarvardKey authenticates against\n      Harvard's own Shibboleth IdP (see conformance/), so the developer identity here is the\n      same SAML identity as the rest of the institution. The portal is a Google Apigee\n      developer portal; the identity behind it is Harvard's.\n    evidence:\n      - url: https://portal.apis.huit.harvard.edu/apis\n        status: 200\n \
   \       note: >-\n          Returns a 2,138-byte Angular shell. Every catalog data path probed\n          (/api/apidocs, /portal/api/apidocs, /apis/list, /consumers/api/v1/apidocs)\n          returned either the same shell or 404, so the API inventory itself is not\n          readable without an account.\n  - surface: Legal Ed Skills Hub (Harvard Library Innovation Lab)\n    baseURL: https://harvard-lil.github.io/lawskills-hub\n    x-operator: institution\n    type: none\n    note: Static JSON served from GitHub Pages; designed for anonymous agent consumption.\n    evidence:\n      - url: https://harvard-lil.github.io/lawskills-hub/actions/personas.json\n        status: 200\n  - surface: Harvard University Shibboleth IdP (InCommon)\n    entityID: https://fed.huit.harvard.edu/idp/shibboleth\n    x-operator: institution\n    type: saml\n    note: >-\n      Not an API in the REST sense - it is the SAML 2.0 authentication authority the rest of\n      Harvard's gated surfaces delegate to. Registered\
   \ in InCommon with REFEDS SIRTFI and the\n      Research and Scholarship entity category.\n    evidence:\n      - url: https://mdq.incommon.org/entities/https%3A%2F%2Ffed.huit.harvard.edu%2Fidp%2Fshibboleth\n        status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/authentication/harvard-authentication.yml
+source_yaml_url: https://artifacts.apis.io/harvard/authentication/harvard-authentication.yml
 summary_line: 8 schemes
 tags:
 - University

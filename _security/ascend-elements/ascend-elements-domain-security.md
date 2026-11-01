@@ -35,7 +35,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ascendelements.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 16:15:29 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  hsts_include_subdomains: true\n  hsts_note: >-\n    The mechanical probe recorded hsts null because it HEADs the site root, and\n    ascendelements.com answers every front-end HTML path with HTTP 503 (Retry-After: 600) to\n    non-browser clients. HSTS was observed directly on the API host path instead:\n    GET https://ascendelements.com/wp-json/wp/v2/posts returned\n    `strict-transport-security: max-age=63072000; includeSubDomains;` on 2026-08-02.\n  other_headers_observed:\n  - 'x-content-type-options: nosniff'\n  - 'x-robots-tag: noindex'\n  edge: 'Cloudflare in front of WP Engine (server: cloudflare, x-powered-by: WP Engine)'\ndomains:\n- domain: ascendelements.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc:\
   \ true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ascend-elements/refs/heads/main/security/ascend-elements-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ascend-elements/security/ascend-elements-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

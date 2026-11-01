@@ -34,7 +34,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: >-\n  https://www.burnerapp.com/llms.txt ;\n  https://github.com/adhoclabs/burner-app-starter-kit (src/core/BurnerApi.js, README Authentication section)\nsummary:\n  types: [oauth2]\n  api_key_in: []\n  oauth2_flows: [authorizationCode]\n  token_transport: bearer\nnotes: >-\n  Burner authenticates API access with OAuth 2.0. Third-party apps request Burner\n  OAuth app credentials, obtain an access token, and call the API with an\n  `Authorization: Bearer <token>` header. The official client also sends an\n  `X-Application-Version` header. Derived from the documented developer surface\n  (llms.txt) and the first-party Burner App Starter Kit client, which is the\n  authoritative reference for the live request shape. No published OpenAPI spec.\nschemes:\n  - name: OAuth2\n    type: oauth2\n    flows:\n      - flow: authorizationCode\n    token_transport: bearer\n    header: Authorization\n    format: \"Bearer <access_token>\"\n\
   \    sources:\n      - https://www.burnerapp.com/llms.txt\n      - https://github.com/adhoclabs/burner-app-starter-kit\n    evidence: >-\n      llms.txt: \"OAuth 2.0 authentication for API access and third-party\n      integrations\"; BASK README \"Request Burner OAuth app credentials\";\n      BurnerApi.js sends `Authorization: Bearer ${this.token}`.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/burner/refs/heads/main/authentication/burner-authentication.yml
+source_yaml_url: https://artifacts.apis.io/burner/authentication/burner-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

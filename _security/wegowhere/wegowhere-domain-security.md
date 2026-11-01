@@ -23,7 +23,7 @@ source_filename: wegowhere-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: wegowhere.com\n  https: false\ndomains:\n- domain: wegowhere.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wegowhere/refs/heads/main/security/wegowhere-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wegowhere/security/wegowhere-domain-security.yml
 summary_line: DNSSEC
 tags:
 - Company

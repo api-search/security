@@ -45,7 +45,7 @@ source_filename: solarize-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.solarize.de\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 15:46:46 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api-docs.solarize.energy\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 05:19:30 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.solarize.energy\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 05:19:30 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: solarize.de\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: solarize.energy\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/solarize/refs/heads/main/security/solarize-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/solarize/security/solarize-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

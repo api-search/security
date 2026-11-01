@@ -7,91 +7,91 @@ api_specs:
   label: Memo Bank Account assessments API
   slug: memo-bank-account-assessments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-account-assessments-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-account-assessments-api-openapi.yml
 - filename: memo-bank-accounts-api-openapi.yml
   format: yaml
   label: Memo Bank Accounts API
   slug: memo-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-accounts-api-openapi.yml
 - filename: memo-bank-ais-api-openapi.yml
   format: yaml
   label: Memo Bank AIS API
   slug: memo-bank-ais-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-ais-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-ais-api-openapi.yml
 - filename: memo-bank-attachments-api-openapi.yml
   format: yaml
   label: Memo Bank Attachments API
   slug: memo-bank-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-attachments-api-openapi.yml
 - filename: memo-bank-collections-api-openapi.yml
   format: yaml
   label: Memo Bank Collections API
   slug: memo-bank-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-collections-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-collections-api-openapi.yml
 - filename: memo-bank-mandate-signature-requests-api-openapi.yml
   format: yaml
   label: Memo Bank Mandate signature requests API
   slug: memo-bank-mandate-signature-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-mandate-signature-requests-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-mandate-signature-requests-api-openapi.yml
 - filename: memo-bank-pis-api-openapi.yml
   format: yaml
   label: Memo Bank PIS API
   slug: memo-bank-pis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-pis-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-pis-api-openapi.yml
 - filename: memo-bank-sandbox-api-openapi.yml
   format: yaml
   label: Memo Bank Sandbox API
   slug: memo-bank-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-sandbox-api-openapi.yml
 - filename: memo-bank-transactions-api-openapi.yml
   format: yaml
   label: Memo Bank Transactions API
   slug: memo-bank-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-transactions-api-openapi.yml
 - filename: memo-bank-transfers-api-openapi.yml
   format: yaml
   label: Memo Bank Transfers API
   slug: memo-bank-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-transfers-api-openapi.yml
 - filename: memo-bank-webhook-api-openapi.yml
   format: yaml
   label: Memo Bank Webhook API
   slug: memo-bank-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-webhook-api-openapi.yml
 - filename: memo-bank-webhooks-api-openapi.yml
   format: yaml
   label: Memo Bank Webhooks API
   slug: memo-bank-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-webhooks-api-openapi.yml
 - filename: memo-bank-wire-transfers-api-openapi.yml
   format: yaml
   label: Memo Bank Wire Transfers API
   slug: memo-bank-wire-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-wire-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-wire-transfers-api-openapi.yml
 - filename: memo-bank-ibans-api-openapi.yml
   format: yaml
   label: Memo Bank IBA Ns API
   slug: memo-bank-ibans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-ibans-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-ibans-api-openapi.yml
 - filename: memo-bank-oauth2-api-openapi.yml
   format: yaml
   label: Memo Bank O Auth2 API
   slug: memo-bank-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-oauth2-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -217,7 +217,7 @@ source_yaml: "generated: '2026-08-17'\nmethod: searched\nsource:\n- https://docs
   \ API follows Berlin Group Implementation Guidelines 1.3.11, which require a QWAC/QSEALC\n    eIDAS certificate to identify the third-party provider. Recorded as a scheme because it is part of the\n    regime the spec declares conformance to, though it is not expressed as a securityScheme in the document.\ncredential_provisioning:\n  self_serve: false\n  gate: >-\n    A Memo Bank banker must activate the API feature on the workspace before any credential can be created.\n  premium_bank_api:\n    managed_at: https://client.memo.bank/api\n    roles: Owners and administrators create applications and manage their permissions.\n    collaboration: >-\n      Collaborators can be invited per application to manage certificates, IP allow-lists and webhooks.\n    artifacts_issued:\n    - A certificate and its SHA-256 thumbprint\n    - A secret code\n    - An RSA private key\n  marketplace:\n    contact: openbanking@memo.bank\n    applicant_provides:\n    - A private key to sign request JWTs\n   \
   \ - The set of scopes the application needs\n    - One or more redirect URIs\n    artifacts_issued:\n    - A certificate and its SHA-256 thumbprint\n    - A secret code\n    - A client ID\n    - A client secret\n    - A token used to authenticate Memo Bank's calls to the application's webhook\n    guidance: Keep secrets secure and never expose them in client-side code.\nadditional_controls:\n  ip_allow_list: Configurable per application.\n  granular_permissions: Per-application permissions, managed by owners and administrators.\n  two_factor: >-\n    Required on the user sign-in step of the MCP connector OAuth flow, and on the web interface generally.\n  mfa_app: Memo Bank Authenticator (iOS and Android).\ngaps:\n- >-\n  components.securitySchemes is missing from the Premium Bank and Marketplace OpenAPI documents while every\n  operation references an undefined `JWT` scheme.\n- No PKCE documented on the authorization-code flow.\n- >-\n  No RFC 8414 authorization-server metadata is served,\
   \ so the authorize and token endpoints cannot be\n  discovered programmatically even though the MCP connector advertises RFC 9728 protected-resource metadata.\n- >-\n  NextGenPSD2 declares tokenUrl and refreshUrl as the relative path /oauth2/token rather than an absolute\n  URL, which is ambiguous against the /nextgenpsd2-prefixed server base.\ncross_links:\n  scopes: scopes/memo-bank-scopes.yml\n  conventions: conventions/memo-bank-conventions.yml\n  well_known: well-known/memo-bank-well-known.yml\n  mcp: mcp/memo-bank-mcp.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/authentication/memo-bank-authentication.yml
+source_yaml_url: https://artifacts.apis.io/memo-bank/authentication/memo-bank-authentication.yml
 summary_line: http/oauth2/mutualTLS · 4 schemes
 tags:
 - Company

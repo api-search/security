@@ -5,19 +5,19 @@ api_specs:
   label: RisingWave Events API
   slug: risingwave-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/risingwave/refs/heads/main/openapi/risingwave-events-api-openapi.yml
+  url: https://artifacts.apis.io/risingwave/openapi/risingwave-events-api-openapi.yml
 - filename: risingwave-healthz-api-openapi.yml
   format: yaml
   label: RisingWave Healthz API
   slug: risingwave-healthz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/risingwave/refs/heads/main/openapi/risingwave-healthz-api-openapi.yml
+  url: https://artifacts.apis.io/risingwave/openapi/risingwave-healthz-api-openapi.yml
 - filename: risingwave-sql-api-openapi.yml
   format: yaml
   label: RisingWave Sql API
   slug: risingwave-sql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/risingwave/refs/heads/main/openapi/risingwave-sql-api-openapi.yml
+  url: https://artifacts.apis.io/risingwave/openapi/risingwave-sql-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: risingwave-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: risingwave.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 23:59:59 2026 GMT\n  hsts: false\n- host: docs.risingwave.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 00:17:02 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: risingwave.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/risingwave/refs/heads/main/security/risingwave-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/risingwave/security/risingwave-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Streaming

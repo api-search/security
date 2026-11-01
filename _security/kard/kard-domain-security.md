@@ -5,103 +5,103 @@ api_specs:
   label: Kard Attributions API
   slug: kard-attributions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-attributions-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-attributions-api-openapi.yml
 - filename: kard-files-api-openapi.yml
   format: yaml
   label: Kard Files API
   slug: kard-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-files-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-files-api-openapi.yml
 - filename: kard-notifications-notifications-api-openapi.yml
   format: yaml
   label: Kard notifications > Notifications API
   slug: kard-notifications-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-notifications-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-notifications-notifications-api-openapi.yml
 - filename: kard-notifications-subscriptions-api-openapi.yml
   format: yaml
   label: Kard notifications > Subscriptions API
   slug: kard-notifications-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-notifications-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-notifications-subscriptions-api-openapi.yml
 - filename: kard-organizations-api-openapi.yml
   format: yaml
   label: Kard Organizations API
   slug: kard-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-organizations-api-openapi.yml
 - filename: kard-organizations-children-api-openapi.yml
   format: yaml
   label: Kard Organizations > Children API
   slug: kard-organizations-children-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-organizations-children-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-organizations-children-api-openapi.yml
 - filename: kard-organizations-contentstrategies-api-openapi.yml
   format: yaml
   label: Kard Organizations > ContentStrategies API
   slug: kard-organizations-contentstrategies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-organizations-contentstrategies-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-organizations-contentstrategies-api-openapi.yml
 - filename: kard-organizations-placements-api-openapi.yml
   format: yaml
   label: Kard Organizations > Placements API
   slug: kard-organizations-placements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-organizations-placements-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-organizations-placements-api-openapi.yml
 - filename: kard-ping-api-openapi.yml
   format: yaml
   label: Kard Ping API
   slug: kard-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-ping-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-ping-api-openapi.yml
 - filename: kard-rewards-api-openapi.yml
   format: yaml
   label: Kard Rewards API
   slug: kard-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-rewards-api-openapi.yml
 - filename: kard-transactions-api-openapi.yml
   format: yaml
   label: Kard Transactions API
   slug: kard-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-transactions-api-openapi.yml
 - filename: kard-users-api-openapi.yml
   format: yaml
   label: Kard Users API
   slug: kard-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-users-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-users-api-openapi.yml
 - filename: kard-users-attributions-api-openapi.yml
   format: yaml
   label: Kard users > attributions API
   slug: kard-users-attributions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-users-attributions-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-users-attributions-api-openapi.yml
 - filename: kard-users-rewards-api-openapi.yml
   format: yaml
   label: Kard users > Rewards API
   slug: kard-users-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-users-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-users-rewards-api-openapi.yml
 - filename: kard-users-uploads-api-openapi.yml
   format: yaml
   label: Kard users > uploads API
   slug: kard-users-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-users-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-users-uploads-api-openapi.yml
 - filename: kard-users-webview-api-openapi.yml
   format: yaml
   label: Kard users > WebView API
   slug: kard-users-webview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-users-webview-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-users-webview-api-openapi.yml
 - filename: kard-api-reference-api-openapi.yml
   format: yaml
   label: Kard API Reference API
   slug: kard-api-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-api-reference-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-api-reference-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -133,7 +133,7 @@ source_filename: kard-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: getkard.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 20:29:31 2026 GMT\n  hsts: null\ndomains:\n- domain: getkard.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/security/kard-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kard/security/kard-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

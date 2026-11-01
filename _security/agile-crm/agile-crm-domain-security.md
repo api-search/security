@@ -5,61 +5,61 @@ api_specs:
   label: Agile CRM Campaigns API
   slug: agile-crm-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/openapi/agile-crm-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/agile-crm/openapi/agile-crm-campaigns-api-openapi.yml
 - filename: agile-crm-companies-api-openapi.yml
   format: yaml
   label: Agile CRM Companies API
   slug: agile-crm-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/openapi/agile-crm-companies-api-openapi.yml
+  url: https://artifacts.apis.io/agile-crm/openapi/agile-crm-companies-api-openapi.yml
 - filename: agile-crm-contacts-api-openapi.yml
   format: yaml
   label: Agile CRM Contacts API
   slug: agile-crm-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/openapi/agile-crm-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/agile-crm/openapi/agile-crm-contacts-api-openapi.yml
 - filename: agile-crm-deals-api-openapi.yml
   format: yaml
   label: Agile CRM Deals API
   slug: agile-crm-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/openapi/agile-crm-deals-api-openapi.yml
+  url: https://artifacts.apis.io/agile-crm/openapi/agile-crm-deals-api-openapi.yml
 - filename: agile-crm-documents-api-openapi.yml
   format: yaml
   label: Agile CRM Documents API
   slug: agile-crm-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/openapi/agile-crm-documents-api-openapi.yml
+  url: https://artifacts.apis.io/agile-crm/openapi/agile-crm-documents-api-openapi.yml
 - filename: agile-crm-events-api-openapi.yml
   format: yaml
   label: Agile CRM Events API
   slug: agile-crm-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/openapi/agile-crm-events-api-openapi.yml
+  url: https://artifacts.apis.io/agile-crm/openapi/agile-crm-events-api-openapi.yml
 - filename: agile-crm-helpdesk-api-openapi.yml
   format: yaml
   label: Agile CRM HelpDesk API
   slug: agile-crm-helpdesk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/openapi/agile-crm-helpdesk-api-openapi.yml
+  url: https://artifacts.apis.io/agile-crm/openapi/agile-crm-helpdesk-api-openapi.yml
 - filename: agile-crm-notes-api-openapi.yml
   format: yaml
   label: Agile CRM Notes API
   slug: agile-crm-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/openapi/agile-crm-notes-api-openapi.yml
+  url: https://artifacts.apis.io/agile-crm/openapi/agile-crm-notes-api-openapi.yml
 - filename: agile-crm-tasks-api-openapi.yml
   format: yaml
   label: Agile CRM Tasks API
   slug: agile-crm-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/openapi/agile-crm-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/agile-crm/openapi/agile-crm-tasks-api-openapi.yml
 - filename: agile-crm-tracks-api-openapi.yml
   format: yaml
   label: Agile CRM Tracks API
   slug: agile-crm-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/openapi/agile-crm-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/agile-crm/openapi/agile-crm-tracks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ source_filename: agile-crm-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.agilecrm.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 07:09:18 2026 GMT\n  hsts: false\ndomains:\n- domain: agilecrm.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/security/agile-crm-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/agile-crm/security/agile-crm-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - CRM

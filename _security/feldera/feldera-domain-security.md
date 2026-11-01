@@ -5,37 +5,37 @@ api_specs:
   label: Feldera Input Connectors API
   slug: feldera-input-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/openapi/feldera-input-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/feldera/openapi/feldera-input-connectors-api-openapi.yml
 - filename: feldera-metrics-debugging-api-openapi.yml
   format: yaml
   label: Feldera Metrics & Debugging API
   slug: feldera-metrics-debugging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/openapi/feldera-metrics-debugging-api-openapi.yml
+  url: https://artifacts.apis.io/feldera/openapi/feldera-metrics-debugging-api-openapi.yml
 - filename: feldera-output-connectors-api-openapi.yml
   format: yaml
   label: Feldera Output Connectors API
   slug: feldera-output-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/openapi/feldera-output-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/feldera/openapi/feldera-output-connectors-api-openapi.yml
 - filename: feldera-pipeline-crud-api-openapi.yml
   format: yaml
   label: Feldera Pipeline CRUD API
   slug: feldera-pipeline-crud-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/openapi/feldera-pipeline-crud-api-openapi.yml
+  url: https://artifacts.apis.io/feldera/openapi/feldera-pipeline-crud-api-openapi.yml
 - filename: feldera-pipeline-lifecycle-api-openapi.yml
   format: yaml
   label: Feldera Pipeline Lifecycle API
   slug: feldera-pipeline-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/openapi/feldera-pipeline-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/feldera/openapi/feldera-pipeline-lifecycle-api-openapi.yml
 - filename: feldera-platform-api-openapi.yml
   format: yaml
   label: Feldera Platform API
   slug: feldera-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/openapi/feldera-platform-api-openapi.yml
+  url: https://artifacts.apis.io/feldera/openapi/feldera-platform-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -70,7 +70,7 @@ source_filename: feldera-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.feldera.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 11:23:44 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: feldera.com\n  dnssec: false\n  caa:\n  - 128 issue \"letsencrypt.org\"\n  - 128 issue \"pki.goog\"\n  - 128 issue \"sectigo.com\"\n  - 128 issuewild \";\"\n  - 128 iodef \"mailto:security@feldera.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/security/feldera-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/feldera/security/feldera-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

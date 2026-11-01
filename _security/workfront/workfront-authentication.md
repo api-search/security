@@ -9,37 +9,37 @@ api_specs:
   label: Adobe Workfront Fields API
   slug: workfront-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-fields-api-openapi.yml
+  url: https://artifacts.apis.io/workfront/openapi/workfront-fields-api-openapi.yml
 - filename: workfront-permissions-api-openapi.yml
   format: yaml
   label: Adobe Workfront Permissions API
   slug: workfront-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/workfront/openapi/workfront-permissions-api-openapi.yml
 - filename: workfront-record-types-api-openapi.yml
   format: yaml
   label: Adobe Workfront Record Types API
   slug: workfront-record-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-record-types-api-openapi.yml
+  url: https://artifacts.apis.io/workfront/openapi/workfront-record-types-api-openapi.yml
 - filename: workfront-records-api-openapi.yml
   format: yaml
   label: Adobe Workfront Records API
   slug: workfront-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-records-api-openapi.yml
+  url: https://artifacts.apis.io/workfront/openapi/workfront-records-api-openapi.yml
 - filename: workfront-views-api-openapi.yml
   format: yaml
   label: Adobe Workfront Views API
   slug: workfront-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-views-api-openapi.yml
+  url: https://artifacts.apis.io/workfront/openapi/workfront-views-api-openapi.yml
 - filename: workfront-workspaces-api-openapi.yml
   format: yaml
   label: Adobe Workfront Workspaces API
   slug: workfront-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/workfront/openapi/workfront-workspaces-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -141,7 +141,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: https://experie
   \  status: current\n- name: OAuth2 authorization code with PKCE\n  api: Adobe Workfront API\n  type: oauth2\n  flow: authorizationCode\n  pkce: true\n  docs: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/oauth-app-pkce-flow\n  status: current\n- name: OAuth2 server-to-server (JWT / client credentials)\n  api: Adobe Workfront API, Workfront Planning API\n  type: oauth2\n  flow: clientCredentials\n  description: For automated integrations and backend services with no user interaction. A public/\n    private key pair is generated, a JWT signed with the private key is exchanged for an access token.\n    Credentials are created in the Adobe Developer Console.\n  docs: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/oauth-app-jwt-flow\n  status: current\n- name: Event Subscription API session\n  api: Adobe Workfront Event Subscription API\n  type: apiKey\n  in: header\n  parameter_name: sessionID\n  description:\
   \ Creating, querying or deleting an event subscription requires a sessionID header AND a\n    System Administrator access level. Outbound event messages carry a customer-supplied authToken.\n  status: current\n- name: MCP OAuth 2.1 bearer\n  api: Adobe Workfront MCP Server\n  type: oauth2\n  flow: authorizationCode\n  pkce: [S256]\n  bearer_methods_supported: [header]\n  authorization_endpoint: https://mcp.workfront.adobe.com/oauth/authorize\n  token_endpoint: https://mcp.workfront.adobe.com/oauth/token\n  jwks_uri: https://mcp.workfront.adobe.com/oauth/jwks\n  registration_endpoint: https://mcp.workfront.adobe.com/mcp/v1/oauth/register\n  revocation_endpoint: https://ims-na1.adobelogin.com/ims/revoke\n  grant_types_supported: [authorization_code, refresh_token]\n  resource_indicators_supported: true\n  description: The MCP endpoint returns a 401 with an RFC 9728 WWW-Authenticate challenge to\n    unauthenticated callers, pointing at its protected-resource metadata. Dynamic client registration\n\
   \    is open.\n  sources:\n  - well-known/workfront-oauth-authorization-server.json\n  - well-known/workfront-oauth-protected-resource.json\n  status: current\nscopes: scopes/workfront-scopes.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/authentication/workfront-authentication.yml
+source_yaml_url: https://artifacts.apis.io/workfront/authentication/workfront-authentication.yml
 summary_line: http/apiKey/oauth2 · 8 schemes
 tags:
 - Company

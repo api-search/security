@@ -42,7 +42,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://openart.ai/.well-known/oauth-authorization-server\ndocs: https://openart.ai/mcp\nsummary:\n  types: [oauth2]\n  oauth2_flows: [authorizationCode]\n  pkce: true\n  dynamic_client_registration: true\n  public_clients: true\n  scopes: [full_access]\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://openart.ai/suite/api/auth/oauth/authorize\n    tokenUrl: https://openart.ai/suite/api/auth/oauth/token\n    registrationUrl: https://openart.ai/suite/api/auth/oauth/register\n    revocationUrl: https://openart.ai/suite/api/auth/oauth/revoke\n    codeChallengeMethods: [S256]\n    grantTypes: [authorization_code, refresh_token]\n    tokenEndpointAuthMethods: [none]\n    scopes:\n      full_access: Full access to the authenticated OpenArt account\n  sources: [well-known/openart-oauth-authorization-server.json]\nnotes: >-\n  OpenArt's authenticated surface is its remote\
   \ MCP server\n  (https://mcp.openart.ai/mcp). Authentication is OAuth 2.0 Authorization Code\n  with PKCE and RFC 7591 Dynamic Client Registration; clients are public\n  (no client secret). OpenID Connect discovery is also published. No public REST\n  API key program is documented.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openart/refs/heads/main/authentication/openart-authentication.yml
+source_yaml_url: https://artifacts.apis.io/openart/authentication/openart-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

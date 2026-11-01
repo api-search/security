@@ -7,25 +7,25 @@ api_specs:
   label: Universiti Putra Malaysia Export API
   slug: upm-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upm/refs/heads/main/openapi/upm-export-api-openapi.yml
+  url: https://artifacts.apis.io/upm/openapi/upm-export-api-openapi.yml
 - filename: upm-oai-pmh-api-openapi.yml
   format: yaml
   label: Universiti Putra Malaysia OAI PMH API
   slug: upm-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upm/refs/heads/main/openapi/upm-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/upm/openapi/upm-oai-pmh-api-openapi.yml
 - filename: upm-rest-api-openapi.yml
   format: yaml
   label: Universiti Putra Malaysia REST API
   slug: upm-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upm/refs/heads/main/openapi/upm-rest-api-openapi.yml
+  url: https://artifacts.apis.io/upm/openapi/upm-rest-api-openapi.yml
 - filename: upm-search-api-openapi.yml
   format: yaml
   label: Universiti Putra Malaysia Search API
   slug: upm-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upm/refs/heads/main/openapi/upm-search-api-openapi.yml
+  url: https://artifacts.apis.io/upm/openapi/upm-search-api-openapi.yml
 auth_types: []
 description: 'How authentication works across Universiti Putra Malaysia''s machine-readable surfaces. The picture is unusually clean for this cohort: the two harvesting surfaces are entirely open and the identity surface is the authentication system itself, published as SAML metadata rather than protected by it. There is no API key, no OAuth authorization server, no developer registration, and no self-service credential of any kind — because there is no developer programme. Everything an outside consumer can reach, they can reach anonymously.'
 kind: authentication
@@ -50,7 +50,7 @@ source_yaml: "specification: API Evangelist Authentication\nspecificationVersion
   \ system. The metadata document at the entityID is served\n      anonymously — that is required, it is how relying parties consume it — while the SSO and\n      SLO endpoints behind it perform SAML 2.0 authentication for UPM-ID holders. Federated\n      access is governed by SIFULAN and eduGAIN membership, not by any self-service registration.\n      An outside developer cannot obtain UPM credentials; a federated service provider obtains\n      access by joining the federation.\n    mechanisms:\n      - urn:oasis:names:tc:SAML:2.0:protocol\n      - urn:oasis:names:tc:SAML:1.1:protocol\n      - urn:mace:shibboleth:1.0\n    scope: upm.edu.my\n    evidence:\n      - url: https://idf.upm.edu.my/idp/shibboleth\n        status: 200\n    transport:\n      https: true\n      tls_certificate_subject: CN=idf.upm.edu.my\n\nnot_available:\n  - mechanism: api_key\n    detail: No API key issuance, developer registration or key-management surface was found.\n  - mechanism: oauth2\n    detail: >-\n  \
   \    No OAuth 2.0 authorization server, no /.well-known/oauth-authorization-server and no\n      /.well-known/openid-configuration were found on any UPM host probed.\n  - mechanism: protected_resource_metadata\n    detail: No RFC 9728 protected-resource metadata document exists on any UPM host.\n  - mechanism: dynamic_client_registration\n    detail: No RFC 7591 dynamic client registration endpoint exists.\n\ngated_systems:\n  detail: >-\n    UPM's student, staff and administrative applications — the Putra portal, SMP, the study\n    portal, PutraBLAST — sit behind UPM-ID single sign-on and publish no public interface\n    documentation. They are recorded here as gated rather than as APIs, because no public\n    contract for them was found and none is claimed.\n  evidence:\n    - url: https://sso.upm.edu.my/\n      status: 200\n      note: Answers, but serves a 239-byte redirect stub; no public interface documentation.\n    - url: https://smp.upm.edu.my/\n      status: 200\n      note:\
   \ Answers with a 320-byte stub; login-gated.\n    - url: https://putra.upm.edu.my/\n      status: 200\n      note: Answers with a 1,924-byte stub; login-gated.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upm/refs/heads/main/authentication/upm-authentication.yml
+source_yaml_url: https://artifacts.apis.io/upm/authentication/upm-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

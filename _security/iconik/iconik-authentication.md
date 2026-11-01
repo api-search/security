@@ -8,37 +8,37 @@ api_specs:
   label: iconik Assets API
   slug: iconik-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-assets-api-openapi.yml
+  url: https://artifacts.apis.io/iconik/openapi/iconik-assets-api-openapi.yml
 - filename: iconik-collections-api-openapi.yml
   format: yaml
   label: iconik Collections API
   slug: iconik-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-collections-api-openapi.yml
+  url: https://artifacts.apis.io/iconik/openapi/iconik-collections-api-openapi.yml
 - filename: iconik-files-api-openapi.yml
   format: yaml
   label: iconik Files API
   slug: iconik-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-files-api-openapi.yml
+  url: https://artifacts.apis.io/iconik/openapi/iconik-files-api-openapi.yml
 - filename: iconik-jobs-api-openapi.yml
   format: yaml
   label: iconik Jobs API
   slug: iconik-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/iconik/openapi/iconik-jobs-api-openapi.yml
 - filename: iconik-metadata-api-openapi.yml
   format: yaml
   label: iconik Metadata API
   slug: iconik-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/iconik/openapi/iconik-metadata-api-openapi.yml
 - filename: iconik-search-api-openapi.yml
   format: yaml
   label: iconik Search API
   slug: iconik-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-search-api-openapi.yml
+  url: https://artifacts.apis.io/iconik/openapi/iconik-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -73,7 +73,7 @@ source_filename: iconik-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/iconik-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: appId\n  type: apiKey\n  in: header\n  parameter: App-ID\n  description: The iconik application ID generated in the web UI.\n  sources:\n  - openapi/iconik-openapi.yml\n- name: authToken\n  type: apiKey\n  in: header\n  parameter: Auth-Token\n  description: The iconik auth token paired with the application ID.\n  sources:\n  - openapi/iconik-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/authentication/iconik-authentication.yml
+source_yaml_url: https://artifacts.apis.io/iconik/authentication/iconik-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Media Asset Management

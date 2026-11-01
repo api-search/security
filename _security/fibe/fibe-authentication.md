@@ -39,7 +39,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://www.fibe.in/.well-known/oauth-authorization-server\nsummary:\n  types: [oauth2]\n  oauth2_flows: [authorizationCode]\n  pkce: S256\n  dynamic_client_registration: true\n  token_endpoint_auth: none    # public clients\nschemes:\n- name: OAuth2\n  type: oauth2\n  applies_to: Fibe MCP server (https://www.fibe.in/api/mcp)\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.fibe.in/api/mcp/oauth/authorize\n    tokenUrl: https://www.fibe.in/api/mcp/oauth/token\n    registrationUrl: https://www.fibe.in/api/mcp/oauth/register\n    code_challenge_methods: [S256]\n    scopes:\n      loan.read: Read loan / eligibility information\n      loan.apply: Submit or initiate a loan application\n  bearer:\n    where: header\n    scheme: Bearer\nnotes: >-\n  Fibe's only public machine-facing surface is its MCP server, protected by OAuth 2.0\n  authorization-code flow with PKCE (S256) and RFC 7591 dynamic client registration.\n\
   \  No REST/OpenAPI or API-key surface is published. The consumer web/app portal\n  (portal.fibe.in) uses a separate session login not documented for programmatic use.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fibe/refs/heads/main/authentication/fibe-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fibe/authentication/fibe-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

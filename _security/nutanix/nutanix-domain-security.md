@@ -5,91 +5,91 @@ api_specs:
   label: Nutanix Alerts API
   slug: nutanix-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/nutanix/openapi/nutanix-alerts-api-openapi.yml
 - filename: nutanix-categories-api-openapi.yml
   format: yaml
   label: Nutanix Categories API
   slug: nutanix-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-categories-api-openapi.yml
+  url: https://artifacts.apis.io/nutanix/openapi/nutanix-categories-api-openapi.yml
 - filename: nutanix-clusters-api-openapi.yml
   format: yaml
   label: Nutanix Clusters API
   slug: nutanix-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/nutanix/openapi/nutanix-clusters-api-openapi.yml
 - filename: nutanix-hosts-api-openapi.yml
   format: yaml
   label: Nutanix Hosts API
   slug: nutanix-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/nutanix/openapi/nutanix-hosts-api-openapi.yml
 - filename: nutanix-images-api-openapi.yml
   format: yaml
   label: Nutanix Images API
   slug: nutanix-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-images-api-openapi.yml
+  url: https://artifacts.apis.io/nutanix/openapi/nutanix-images-api-openapi.yml
 - filename: nutanix-network-security-rules-api-openapi.yml
   format: yaml
   label: Nutanix Network Security Rules API
   slug: nutanix-network-security-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-network-security-rules-api-openapi.yml
+  url: https://artifacts.apis.io/nutanix/openapi/nutanix-network-security-rules-api-openapi.yml
 - filename: nutanix-projects-api-openapi.yml
   format: yaml
   label: Nutanix Projects API
   slug: nutanix-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-projects-api-openapi.yml
+  url: https://artifacts.apis.io/nutanix/openapi/nutanix-projects-api-openapi.yml
 - filename: nutanix-protection-domains-api-openapi.yml
   format: yaml
   label: Nutanix Protection Domains API
   slug: nutanix-protection-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-protection-domains-api-openapi.yml
+  url: https://artifacts.apis.io/nutanix/openapi/nutanix-protection-domains-api-openapi.yml
 - filename: nutanix-snapshots-api-openapi.yml
   format: yaml
   label: Nutanix Snapshots API
   slug: nutanix-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/nutanix/openapi/nutanix-snapshots-api-openapi.yml
 - filename: nutanix-storage-containers-api-openapi.yml
   format: yaml
   label: Nutanix Storage Containers API
   slug: nutanix-storage-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-storage-containers-api-openapi.yml
+  url: https://artifacts.apis.io/nutanix/openapi/nutanix-storage-containers-api-openapi.yml
 - filename: nutanix-storage-pools-api-openapi.yml
   format: yaml
   label: Nutanix Storage Pools API
   slug: nutanix-storage-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-storage-pools-api-openapi.yml
+  url: https://artifacts.apis.io/nutanix/openapi/nutanix-storage-pools-api-openapi.yml
 - filename: nutanix-subnets-api-openapi.yml
   format: yaml
   label: Nutanix Subnets API
   slug: nutanix-subnets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-subnets-api-openapi.yml
+  url: https://artifacts.apis.io/nutanix/openapi/nutanix-subnets-api-openapi.yml
 - filename: nutanix-virtual-disks-api-openapi.yml
   format: yaml
   label: Nutanix Virtual Disks API
   slug: nutanix-virtual-disks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-virtual-disks-api-openapi.yml
+  url: https://artifacts.apis.io/nutanix/openapi/nutanix-virtual-disks-api-openapi.yml
 - filename: nutanix-webhooks-api-openapi.yml
   format: yaml
   label: Nutanix Webhooks API
   slug: nutanix-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/nutanix/openapi/nutanix-webhooks-api-openapi.yml
 - filename: nutanix-vms-api-openapi.yml
   format: yaml
   label: Nutanix V Ms API
   slug: nutanix-vms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-vms-api-openapi.yml
+  url: https://artifacts.apis.io/nutanix/openapi/nutanix-vms-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -138,7 +138,7 @@ source_filename: nutanix-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nutanix.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.nutanix.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 27 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.nutanix.com\n  https: false\ndomains:\n- domain: nutanix.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"certainly.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: nutanix.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/security/nutanix-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nutanix/security/nutanix-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud Management

@@ -9,43 +9,43 @@ api_specs:
   label: Unifonic Call Management and Status API
   slug: unifonic-call-management-and-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/openapi/unifonic-call-management-and-status-api-openapi.yml
+  url: https://artifacts.apis.io/unifonic/openapi/unifonic-call-management-and-status-api-openapi.yml
 - filename: unifonic-call-queue-management-api-openapi.yml
   format: yaml
   label: Unifonic Call Queue Management API
   slug: unifonic-call-queue-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/openapi/unifonic-call-queue-management-api-openapi.yml
+  url: https://artifacts.apis.io/unifonic/openapi/unifonic-call-queue-management-api-openapi.yml
 - filename: unifonic-number-masking-api-openapi.yml
   format: yaml
   label: Unifonic Number Masking API
   slug: unifonic-number-masking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/openapi/unifonic-number-masking-api-openapi.yml
+  url: https://artifacts.apis.io/unifonic/openapi/unifonic-number-masking-api-openapi.yml
 - filename: unifonic-rest-api-openapi.yml
   format: yaml
   label: Unifonic Rest API
   slug: unifonic-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/openapi/unifonic-rest-api-openapi.yml
+  url: https://artifacts.apis.io/unifonic/openapi/unifonic-rest-api-openapi.yml
 - filename: unifonic-verifications-api-openapi.yml
   format: yaml
   label: Unifonic Verifications API
   slug: unifonic-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/openapi/unifonic-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/unifonic/openapi/unifonic-verifications-api-openapi.yml
 - filename: unifonic-webhooks-api-openapi.yml
   format: yaml
   label: Unifonic Webhooks API
   slug: unifonic-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/openapi/unifonic-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/unifonic/openapi/unifonic-webhooks-api-openapi.yml
 - filename: unifonic-wrapper-api-openapi.yml
   format: yaml
   label: Unifonic Wrapper API
   slug: unifonic-wrapper-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/openapi/unifonic-wrapper-api-openapi.yml
+  url: https://artifacts.apis.io/unifonic/openapi/unifonic-wrapper-api-openapi.yml
 auth_types:
 - http-basic
 - apiKey
@@ -95,7 +95,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi (unifonic-sms, unifonic-authenticate, unifonic-voice) + docs\ndocs: https://docs.unifonic.com/articles/api-documentation/security-authentication\ndescription: >-\n  Provider-wide authentication profile for Unifonic's public APIs, derived from\n  the securitySchemes declared in the three official OpenAPI documents in this\n  repo's openapi/ directory and upgraded with the docs Security &\n  Authentication page. Unifonic uses an AppSid/AppsId application credential\n  model rather than OAuth: the SMS NextGen REST API declares HTTP basic\n  authentication and additionally requires an AppSid query parameter on every\n  operation; the Authenticate (OTP) API authenticates with an\n  x-authenticate-app-id header plus an Authorization bearer-token header; the\n  Voice API uses a custom AppsId credential obtained from the Unifonic\n  Console's Voice Applications tab. HTTPS is recommended for all requests. No\n  oauth2 or openIdConnect\
   \ security schemes are declared anywhere in the\n  published specs, so there is no OAuth scope surface.\nsummary:\n  types: [http-basic, apiKey]\n  api_key_in: [header, query]\n  oauth2_flows: []\nschemes:\n  - name: auth\n    type: http\n    scheme: basic\n    sources: [openapi/unifonic-sms-openapi-original.json]\n    note: >-\n      Declared as the global security requirement of the SMS API. Operations\n      also carry a required AppSid query parameter (\"a character string that\n      uniquely identifies your app\"); the docs note authentication parameters\n      are base64 encoded (error 459 covers incorrect encoding).\n  - name: authenticate-app-id\n    type: apiKey\n    in: header\n    parameter: x-authenticate-app-id\n    sources: [openapi/unifonic-authenticate-openapi-original.json]\n  - name: Authorization\n    type: apiKey\n    in: header\n    parameter: Authorization\n    description: Bearer Auth Token\n    sources: [openapi/unifonic-authenticate-openapi-original.json]\n  -\
   \ name: AppsId (Voice)\n    type: custom\n    in: request\n    parameter: AppsId\n    sources: [https://docs.unifonic.com/articles/api-documentation/security-authentication]\n    note: >-\n      \"This API uses Custom Authentication - AppsId. AppsId is derived from the\n      Unifonic Console's Voice Application's tab.\" The published Voice OpenAPI\n      declares no components.securitySchemes.\ncredential_provisioning: >-\n  Per the SMS API introduction: \"To start using the API you need to send an\n  email to Unifonic to create Appsid for you.\" Credentials are otherwise\n  managed in the Unifonic cloud console (cloud.unifonic.com).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/authentication/unifonic-authentication.yml
+source_yaml_url: https://artifacts.apis.io/unifonic/authentication/unifonic-authentication.yml
 summary_line: http-basic/apiKey · 4 schemes
 tags:
 - Company

@@ -8,97 +8,97 @@ api_specs:
   label: Moveworks Authentication API
   slug: moveworks-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-authentication-api-openapi.yml
 - filename: moveworks-conversations-api-openapi.yml
   format: yaml
   label: Moveworks Conversations API
   slug: moveworks-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-conversations-api-openapi.yml
 - filename: moveworks-deprecated-api-openapi.yml
   format: yaml
   label: Moveworks Deprecated API
   slug: moveworks-deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-deprecated-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-deprecated-api-openapi.yml
 - filename: moveworks-events-api-openapi.yml
   format: yaml
   label: Moveworks Events API
   slug: moveworks-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-events-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-events-api-openapi.yml
 - filename: moveworks-messages-api-openapi.yml
   format: yaml
   label: Moveworks Messages API
   slug: moveworks-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-messages-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-messages-api-openapi.yml
 - filename: moveworks-responses-api-openapi.yml
   format: yaml
   label: Moveworks Responses API
   slug: moveworks-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-responses-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-responses-api-openapi.yml
 - filename: moveworks-smartforms-api-openapi.yml
   format: yaml
   label: Moveworks Smart Forms API
   slug: moveworks-smartforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-smartforms-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-smartforms-api-openapi.yml
 - filename: moveworks-webhooks-api-openapi.yml
   format: yaml
   label: Moveworks Webhooks API
   slug: moveworks-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-webhooks-api-openapi.yml
 - filename: moveworks-articles-api-openapi.yml
   format: yaml
   label: Moveworks Articles API
   slug: moveworks-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-articles-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-articles-api-openapi.yml
 - filename: moveworks-files-api-openapi.yml
   format: yaml
   label: Moveworks Files API
   slug: moveworks-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-files-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-files-api-openapi.yml
 - filename: moveworks-groups-api-openapi.yml
   format: yaml
   label: Moveworks Groups API
   slug: moveworks-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-groups-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-groups-api-openapi.yml
 - filename: moveworks-interactions-api-openapi.yml
   format: yaml
   label: Moveworks Interactions API
   slug: moveworks-interactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-interactions-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-interactions-api-openapi.yml
 - filename: moveworks-plugin-calls-api-openapi.yml
   format: yaml
   label: Moveworks Plugin Calls API
   slug: moveworks-plugin-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-plugin-calls-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-plugin-calls-api-openapi.yml
 - filename: moveworks-plugin-resources-api-openapi.yml
   format: yaml
   label: Moveworks Plugin Resources API
   slug: moveworks-plugin-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-plugin-resources-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-plugin-resources-api-openapi.yml
 - filename: moveworks-records-api-openapi.yml
   format: yaml
   label: Moveworks Records API
   slug: moveworks-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-records-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-records-api-openapi.yml
 - filename: moveworks-users-api-openapi.yml
   format: yaml
   label: Moveworks Users API
   slug: moveworks-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-users-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-users-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -146,7 +146,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/moveworks-beta-conversations-api-openapi.yaml, openapi/moveworks-conversations-api-openapi.yaml,\n  openapi/moveworks-data-api-openapi.yaml, openapi/moveworks-events-api-openapi.yaml, openapi/moveworks-forms-gateway-openapi.yaml,\n  openapi/moveworks-identity-gateway-openapi.yaml, openapi/moveworks-knowledge-gateway-openapi.yaml,\n  openapi/moveworks-webhook-listeners-openapi.yaml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: JWT bearer token authentication. Obtain an access token from the Moveworks auth\n    endpoint and include it in the Authorization header as 'Bearer <token>'.\n  sources:\n  - openapi/moveworks-beta-conversations-api-openapi.yaml\n  - openapi/moveworks-conversations-api-openapi.yaml\n  - openapi/moveworks-data-api-openapi.yaml\n  - openapi/moveworks-events-api-openapi.yaml\n  - openapi/moveworks-forms-gateway-openapi.yaml\n\
   \  - openapi/moveworks-identity-gateway-openapi.yaml\n  - openapi/moveworks-knowledge-gateway-openapi.yaml\n  - openapi/moveworks-webhook-listeners-openapi.yaml\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/moveworks-data-api-openapi.yaml\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-KEY\n  sources:\n  - openapi/moveworks-forms-gateway-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/authentication/moveworks-authentication.yml
+source_yaml_url: https://artifacts.apis.io/moveworks/authentication/moveworks-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Company

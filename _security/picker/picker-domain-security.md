@@ -5,385 +5,385 @@ api_specs:
   label: Picker Accounting API
   slug: picker-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-accounting-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-accounting-api-openapi.yml
 - filename: picker-admin-api-openapi.yml
   format: yaml
   label: Picker Admin API
   slug: picker-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-admin-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-admin-api-openapi.yml
 - filename: picker-appversion-api-openapi.yml
   format: yaml
   label: Picker App Version API
   slug: picker-appversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-appversion-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-appversion-api-openapi.yml
 - filename: picker-banner-api-openapi.yml
   format: yaml
   label: Picker Banner API
   slug: picker-banner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-banner-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-banner-api-openapi.yml
 - filename: picker-bill-api-openapi.yml
   format: yaml
   label: Picker Bill API
   slug: picker-bill-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-bill-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-bill-api-openapi.yml
 - filename: picker-booking-api-openapi.yml
   format: yaml
   label: Picker Booking API
   slug: picker-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-booking-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-booking-api-openapi.yml
 - filename: picker-bookingassignment-api-openapi.yml
   format: yaml
   label: Picker Booking Assignment API
   slug: picker-bookingassignment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-bookingassignment-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-bookingassignment-api-openapi.yml
 - filename: picker-bookingissue-api-openapi.yml
   format: yaml
   label: Picker Booking Issue API
   slug: picker-bookingissue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-bookingissue-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-bookingissue-api-openapi.yml
 - filename: picker-bookingissues-api-openapi.yml
   format: yaml
   label: Picker BookingIssues API
   slug: picker-bookingissues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-bookingissues-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-bookingissues-api-openapi.yml
 - filename: picker-bookings-api-openapi.yml
   format: yaml
   label: Picker Bookings API
   slug: picker-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-bookings-api-openapi.yml
 - filename: picker-business-api-openapi.yml
   format: yaml
   label: Picker Business API
   slug: picker-business-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-business-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-business-api-openapi.yml
 - filename: picker-businesses-api-openapi.yml
   format: yaml
   label: Picker Businesses API
   slug: picker-businesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-businesses-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-businesses-api-openapi.yml
 - filename: picker-busy-api-openapi.yml
   format: yaml
   label: Picker Busy API
   slug: picker-busy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-busy-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-busy-api-openapi.yml
 - filename: picker-cancel-api-openapi.yml
   format: yaml
   label: Picker Cancel API
   slug: picker-cancel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-cancel-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-cancel-api-openapi.yml
 - filename: picker-cancelreason-api-openapi.yml
   format: yaml
   label: Picker Cancel Reason API
   slug: picker-cancelreason-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-cancelreason-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-cancelreason-api-openapi.yml
 - filename: picker-card-api-openapi.yml
   format: yaml
   label: Picker Card API
   slug: picker-card-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-card-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-card-api-openapi.yml
 - filename: picker-cards-api-openapi.yml
   format: yaml
   label: Picker Cards API
   slug: picker-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-cards-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-cards-api-openapi.yml
 - filename: picker-chat-api-openapi.yml
   format: yaml
   label: Picker Chat API
   slug: picker-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-chat-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-chat-api-openapi.yml
 - filename: picker-chatbot-api-openapi.yml
   format: yaml
   label: Picker Chatbot API
   slug: picker-chatbot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-chatbot-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-chatbot-api-openapi.yml
 - filename: picker-customer-api-openapi.yml
   format: yaml
   label: Picker Customer API
   slug: picker-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-customer-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-customer-api-openapi.yml
 - filename: picker-dashboard-api-openapi.yml
   format: yaml
   label: Picker Dashboard API
   slug: picker-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-dashboard-api-openapi.yml
 - filename: picker-datil-api-openapi.yml
   format: yaml
   label: Picker Datil API
   slug: picker-datil-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-datil-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-datil-api-openapi.yml
 - filename: picker-deliverypartner-api-openapi.yml
   format: yaml
   label: Picker Delivery Partner API
   slug: picker-deliverypartner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-deliverypartner-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-deliverypartner-api-openapi.yml
 - filename: picker-deliverypartnermarketingdata-api-openapi.yml
   format: yaml
   label: Picker DeliveryPartnerMarketingData API
   slug: picker-deliverypartnermarketingdata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-deliverypartnermarketingdata-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-deliverypartnermarketingdata-api-openapi.yml
 - filename: picker-driver-api-openapi.yml
   format: yaml
   label: Picker Driver API
   slug: picker-driver-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-driver-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-driver-api-openapi.yml
 - filename: picker-drivertag-api-openapi.yml
   format: yaml
   label: Picker Driver Tag API
   slug: picker-drivertag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-drivertag-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-drivertag-api-openapi.yml
 - filename: picker-duty-api-openapi.yml
   format: yaml
   label: Picker Duty API
   slug: picker-duty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-duty-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-duty-api-openapi.yml
 - filename: picker-fares-api-openapi.yml
   format: yaml
   label: Picker Fares API
   slug: picker-fares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-fares-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-fares-api-openapi.yml
 - filename: picker-favorite-api-openapi.yml
   format: yaml
   label: Picker Favorite API
   slug: picker-favorite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-favorite-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-favorite-api-openapi.yml
 - filename: picker-health-check-api-openapi.yml
   format: yaml
   label: Picker Health Check API
   slug: picker-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-health-check-api-openapi.yml
 - filename: picker-integrations-api-openapi.yml
   format: yaml
   label: Picker Integrations API
   slug: picker-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-integrations-api-openapi.yml
 - filename: picker-list-api-openapi.yml
   format: yaml
   label: Picker List API
   slug: picker-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-list-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-list-api-openapi.yml
 - filename: picker-location-api-openapi.yml
   format: yaml
   label: Picker Location API
   slug: picker-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-location-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-location-api-openapi.yml
 - filename: picker-mass-delivery-api-openapi.yml
   format: yaml
   label: Picker Mass Delivery API
   slug: picker-mass-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-mass-delivery-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-mass-delivery-api-openapi.yml
 - filename: picker-notification-api-openapi.yml
   format: yaml
   label: Picker Notification API
   slug: picker-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-notification-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-notification-api-openapi.yml
 - filename: picker-pause-api-openapi.yml
   format: yaml
   label: Picker Pause API
   slug: picker-pause-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-pause-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-pause-api-openapi.yml
 - filename: picker-paymentez-api-openapi.yml
   format: yaml
   label: Picker Paymentez API
   slug: picker-paymentez-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-paymentez-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-paymentez-api-openapi.yml
 - filename: picker-play-api-openapi.yml
   format: yaml
   label: Picker Play API
   slug: picker-play-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-play-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-play-api-openapi.yml
 - filename: picker-product-api-openapi.yml
   format: yaml
   label: Picker Product API
   slug: picker-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-product-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-product-api-openapi.yml
 - filename: picker-products-api-openapi.yml
   format: yaml
   label: Picker Products API
   slug: picker-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-products-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-products-api-openapi.yml
 - filename: picker-promo-api-openapi.yml
   format: yaml
   label: Picker Promo API
   slug: picker-promo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-promo-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-promo-api-openapi.yml
 - filename: picker-public-api-openapi.yml
   format: yaml
   label: Picker Public API
   slug: picker-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-public-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-public-api-openapi.yml
 - filename: picker-referral-api-openapi.yml
   format: yaml
   label: Picker Referral API
   slug: picker-referral-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-referral-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-referral-api-openapi.yml
 - filename: picker-region-api-openapi.yml
   format: yaml
   label: Picker Region API
   slug: picker-region-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-region-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-region-api-openapi.yml
 - filename: picker-reports-api-openapi.yml
   format: yaml
   label: Picker Reports API
   slug: picker-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-reports-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-reports-api-openapi.yml
 - filename: picker-review-api-openapi.yml
   format: yaml
   label: Picker Review API
   slug: picker-review-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-review-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-review-api-openapi.yml
 - filename: picker-service-api-openapi.yml
   format: yaml
   label: Picker Service API
   slug: picker-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-service-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-service-api-openapi.yml
 - filename: picker-share-my-ride-api-openapi.yml
   format: yaml
   label: Picker Share My Ride API
   slug: picker-share-my-ride-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-share-my-ride-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-share-my-ride-api-openapi.yml
 - filename: picker-shopify-api-openapi.yml
   format: yaml
   label: Picker Shopify API
   slug: picker-shopify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-shopify-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-shopify-api-openapi.yml
 - filename: picker-social-api-openapi.yml
   format: yaml
   label: Picker Social API
   slug: picker-social-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-social-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-social-api-openapi.yml
 - filename: picker-spoonity-api-openapi.yml
   format: yaml
   label: Picker Spoonity API
   slug: picker-spoonity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-spoonity-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-spoonity-api-openapi.yml
 - filename: picker-stripepay-api-openapi.yml
   format: yaml
   label: Picker Stripe Pay API
   slug: picker-stripepay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-stripepay-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-stripepay-api-openapi.yml
 - filename: picker-support-api-openapi.yml
   format: yaml
   label: Picker Support API
   slug: picker-support-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-support-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-support-api-openapi.yml
 - filename: picker-ticket-api-openapi.yml
   format: yaml
   label: Picker Ticket API
   slug: picker-ticket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-ticket-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-ticket-api-openapi.yml
 - filename: picker-tracking-api-openapi.yml
   format: yaml
   label: Picker Tracking API
   slug: picker-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-tracking-api-openapi.yml
 - filename: picker-update-api-openapi.yml
   format: yaml
   label: Picker Update API
   slug: picker-update-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-update-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-update-api-openapi.yml
 - filename: picker-user-api-openapi.yml
   format: yaml
   label: Picker User API
   slug: picker-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-user-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-user-api-openapi.yml
 - filename: picker-usermarketingdata-api-openapi.yml
   format: yaml
   label: Picker UsermarketingData API
   slug: picker-usermarketingdata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-usermarketingdata-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-usermarketingdata-api-openapi.yml
 - filename: picker-users-api-openapi.yml
   format: yaml
   label: Picker Users API
   slug: picker-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-users-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-users-api-openapi.yml
 - filename: picker-vehicles-api-openapi.yml
   format: yaml
   label: Picker Vehicles API
   slug: picker-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-vehicles-api-openapi.yml
 - filename: picker-vtex-api-openapi.yml
   format: yaml
   label: Picker Vtex API
   slug: picker-vtex-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-vtex-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-vtex-api-openapi.yml
 - filename: picker-anti-fraud-api-openapi.yml
   format: yaml
   label: Picker anti Fraud API
   slug: picker-anti-fraud-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-anti-fraud-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-anti-fraud-api-openapi.yml
 - filename: picker-cron-jobs-api-openapi.yml
   format: yaml
   label: Picker Cron Jobs API
   slug: picker-cron-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-cron-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-cron-jobs-api-openapi.yml
 - filename: picker-service-provider-api-openapi.yml
   format: yaml
   label: Picker Service Provider API
   slug: picker-service-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-service-provider-api-openapi.yml
+  url: https://artifacts.apis.io/picker/openapi/picker-service-provider-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -424,7 +424,7 @@ source_filename: picker-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pickerexpress.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 23:50:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.pickerexpress.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 00:58:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.pickerexpress.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 11:48:40 2026 GMT\n  hsts: null\ndomains:\n- domain: pickerexpress.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/security/picker-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/picker/security/picker-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

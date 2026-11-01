@@ -5,13 +5,13 @@ api_specs:
   label: University of Pittsburgh Data API
   slug: university-of-pittsburgh-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/openapi/university-of-pittsburgh-data-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-pittsburgh/openapi/university-of-pittsburgh-data-api-openapi.yml
 - filename: university-of-pittsburgh-variables-api-openapi.yml
   format: yaml
   label: University of Pittsburgh Variables API
   slug: university-of-pittsburgh-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/openapi/university-of-pittsburgh-variables-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-pittsburgh/openapi/university-of-pittsburgh-variables-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -63,7 +63,7 @@ source_filename: university-of-pittsburgh-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.pitt.edu\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug  4 10:22:57 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: data.wprdc.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 22:03:11 2026 GMT\n  hsts: false\n- host: www.tycho.pitt.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  5 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 3600\ndomains:\n- domain: pitt.edu\n  dnssec: true\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"hubspot.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: wprdc.org\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/security/university-of-pittsburgh-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/university-of-pittsburgh/security/university-of-pittsburgh-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - University

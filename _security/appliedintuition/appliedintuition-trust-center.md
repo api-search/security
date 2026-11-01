@@ -16,7 +16,7 @@ source_filename: appliedintuition-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: searched\nprobe: true\nsource: https://www.appliedintuition.com/security\nurl: https://www.appliedintuition.com/security\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://www.appliedintuition.com/security\n  keywords:\n  - soc 2\n  - iso/iec 27001\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appliedintuition/refs/heads/main/security/appliedintuition-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/appliedintuition/security/appliedintuition-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Company

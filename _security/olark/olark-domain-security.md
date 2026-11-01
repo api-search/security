@@ -5,31 +5,31 @@ api_specs:
   label: Olark Box API
   slug: olark-box-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olark/refs/heads/main/openapi/olark-box-api-openapi.yml
+  url: https://artifacts.apis.io/olark/openapi/olark-box-api-openapi.yml
 - filename: olark-chat-api-openapi.yml
   format: yaml
   label: Olark Chat API
   slug: olark-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olark/refs/heads/main/openapi/olark-chat-api-openapi.yml
+  url: https://artifacts.apis.io/olark/openapi/olark-chat-api-openapi.yml
 - filename: olark-configure-api-openapi.yml
   format: yaml
   label: Olark Configure API
   slug: olark-configure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olark/refs/heads/main/openapi/olark-configure-api-openapi.yml
+  url: https://artifacts.apis.io/olark/openapi/olark-configure-api-openapi.yml
 - filename: olark-rules-api-openapi.yml
   format: yaml
   label: Olark Rules API
   slug: olark-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olark/refs/heads/main/openapi/olark-rules-api-openapi.yml
+  url: https://artifacts.apis.io/olark/openapi/olark-rules-api-openapi.yml
 - filename: olark-visitor-api-openapi.yml
   format: yaml
   label: Olark Visitor API
   slug: olark-visitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olark/refs/heads/main/openapi/olark-visitor-api-openapi.yml
+  url: https://artifacts.apis.io/olark/openapi/olark-visitor-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: olark-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.olark.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  9 10:27:44 2026 GMT\n  hsts: false\ndomains:\n- domain: olark.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/olark/refs/heads/main/security/olark-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/olark/security/olark-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Live Chat

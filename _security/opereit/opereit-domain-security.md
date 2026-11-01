@@ -5,13 +5,13 @@ api_specs:
   label: Opereit Contracts API
   slug: opereit-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opereit/refs/heads/main/openapi/opereit-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/opereit/openapi/opereit-contracts-api-openapi.yml
 - filename: opereit-invoice-audits-api-openapi.yml
   format: yaml
   label: Opereit Invoice Audits API
   slug: opereit-invoice-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opereit/refs/heads/main/openapi/opereit-invoice-audits-api-openapi.yml
+  url: https://artifacts.apis.io/opereit/openapi/opereit-invoice-audits-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: opereit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: opereit.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 17:38:50 2026 GMT\n  hsts: false\n- host: api.opereit.com\n  https: false\ndomains:\n- domain: opereit.ai\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n- domain: opereit.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opereit/refs/heads/main/security/opereit-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/opereit/security/opereit-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

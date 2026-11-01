@@ -10,19 +10,19 @@ api_specs:
   label: ChainAware.ai Behaviour Prediction API
   slug: chainaware-ai-behaviour-prediction-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainaware-ai/refs/heads/main/openapi/chainaware-ai-behaviour-prediction-api-api-openapi.yml
+  url: https://artifacts.apis.io/chainaware-ai/openapi/chainaware-ai-behaviour-prediction-api-api-openapi.yml
 - filename: chainaware-ai-credit-score-api-api-openapi.yml
   format: yaml
   label: ChainAware.ai Credit Score API
   slug: chainaware-ai-credit-score-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainaware-ai/refs/heads/main/openapi/chainaware-ai-credit-score-api-api-openapi.yml
+  url: https://artifacts.apis.io/chainaware-ai/openapi/chainaware-ai-credit-score-api-api-openapi.yml
 - filename: chainaware-ai-fraud-api-api-openapi.yml
   format: yaml
   label: ChainAware.ai Fraud API
   slug: chainaware-ai-fraud-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainaware-ai/refs/heads/main/openapi/chainaware-ai-fraud-api-api-openapi.yml
+  url: https://artifacts.apis.io/chainaware-ai/openapi/chainaware-ai-fraud-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/chainaw
   \ https://api.chainaware.ai/api/* (and MCP tool calls when apiKey is omitted, per the README)\n  description: 'x402 micropayment header. See https://x402.org for payment construction details. An unpaid request returns HTTP 402 with a base64 `payment-required` header (x402 v2 PaymentRequirements: exact scheme, eip155:8453, 150000 units of USDC 0x8335…2913 = $0.15, payTo 0x9e60…CeA08, 300 s validity).'\n  evidence: a2a/chainaware-ai-x402-payment-required.json\n  sources:\n  - a2a/chainaware-ai-agent-card.json\n  - https://api.chainaware.ai/api/capabilities\n- name: X-API-Key (MCP connection header)\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  surface: MCP SSE connection to https://prediction.mcp.chainaware.ai/sse (Claude Code `--header`, Cursor `headers`, SDK requestInit)\n  description: Documented connection-level key; the connection, initialize and tools/list nevertheless succeed without it.\n  sources:\n  - https://chainaware.ai/learn/prediction-mcp/setup.html\n  - mcp/chainaware-ai-mcp.yml\n\
   - name: apiKey (MCP SSE query parameter)\n  type: apiKey\n  in: query\n  parameter: apiKey\n  surface: 'MCP SSE URL for ChatGPT Connectors and Claude Web/Desktop Integrations: https://prediction.mcp.chainaware.ai/sse?apiKey=YOUR_API_KEY'\n  description: The setup guide documents the key in the URL for clients that cannot set headers. A key in a URL is logged by intermediaries; the guide does not warn about this.\n  sources:\n  - https://chainaware.ai/learn/prediction-mcp/setup.html\n- name: apiKey (MCP tool argument)\n  type: apiKey\n  in: tool-argument\n  parameter: apiKey\n  surface: 'Six MCP tools: predictive_fraud, predictive_fraud_batch, predictive_behaviour, predictive_behaviour_batch, predictive_rug_pull, credit_score (required inputSchema property)'\n  description: 'The credential travels INSIDE the JSON-RPC tool call, visible to the model. SKILL.md: \"Passed as the apiKey parameter in every tool call ... Never logged or included in output. Sourced exclusively from the CHAINAWARE_API_KEY\
   \ environment variable — never hardcoded.\" Omit it to pay with x402 instead (README). Failure: 403 \"invalid or missing apiKey\" as tool-result text.'\n  sources:\n  - mcp/chainaware-ai-mcp-tools.json\n  - skills/chainaware-ai-SKILL.md\nnote: >-\n  One credential (a ChainAware API key) presented five ways across three surfaces, plus x402 payment as a\n  credential-free alternative on the agent surfaces. No OAuth 2.0, OIDC, scopes or client registration exist,\n  and no RFC 8414 / 9728 discovery document is served on any host (see well-known/). Keys are per account with\n  no documented test/live prefix, rotation or expiry.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chainaware-ai/refs/heads/main/authentication/chainaware-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/chainaware-ai/authentication/chainaware-ai-authentication.yml
 summary_line: apiKey · 6 schemes
 tags:
 - Blockchain

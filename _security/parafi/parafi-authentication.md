@@ -7,25 +7,25 @@ api_specs:
   label: Parafi Avalanche API
   slug: parafi-avalanche-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/openapi/parafi-avalanche-api-openapi.yml
+  url: https://artifacts.apis.io/parafi/openapi/parafi-avalanche-api-openapi.yml
 - filename: parafi-ethereum-api-openapi.yml
   format: yaml
   label: Parafi Ethereum API
   slug: parafi-ethereum-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/openapi/parafi-ethereum-api-openapi.yml
+  url: https://artifacts.apis.io/parafi/openapi/parafi-ethereum-api-openapi.yml
 - filename: parafi-market-api-openapi.yml
   format: yaml
   label: Parafi Market API
   slug: parafi-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/openapi/parafi-market-api-openapi.yml
+  url: https://artifacts.apis.io/parafi/openapi/parafi-market-api-openapi.yml
 - filename: parafi-solana-api-openapi.yml
   format: yaml
   label: Parafi Solana API
   slug: parafi-solana-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/openapi/parafi-solana-api-openapi.yml
+  url: https://artifacts.apis.io/parafi/openapi/parafi-solana-api-openapi.yml
 auth_types:
 - none
 description: ''
@@ -46,7 +46,7 @@ source_filename: parafi-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://parafi.tech/skill.md\ndocs: https://parafi.tech/api-docs\nsummary:\n  types: [none]\n  api_key_in: []\n  oauth2_flows: []\n  note: >-\n    The ParaFi Tech API is public and read-only. Provider documentation states\n    \"No API key required\" and the OpenAPI declares no securitySchemes.\nschemes: []\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/authentication/parafi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/parafi/authentication/parafi-authentication.yml
 summary_line: none · 0 schemes
 tags:
 - Company

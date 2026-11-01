@@ -16,7 +16,7 @@ source_filename: segmentstream-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: https://segmentstream.com/trust\nurl: https://segmentstream.com/trust\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://segmentstream.com/trust\n  keywords:\n  - soc 2\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/segmentstream/refs/heads/main/security/segmentstream-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/segmentstream/security/segmentstream-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - Company

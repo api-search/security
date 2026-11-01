@@ -7,43 +7,43 @@ api_specs:
   label: APIZR APIZR API
   slug: apizr-apizr-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apizr/refs/heads/main/openapi/apizr-apizr-api-api-openapi.yml
+  url: https://artifacts.apis.io/apizr/openapi/apizr-apizr-api-api-openapi.yml
 - filename: apizr-events-api-openapi.yml
   format: yaml
   label: APIZR Events API
   slug: apizr-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apizr/refs/heads/main/openapi/apizr-events-api-openapi.yml
+  url: https://artifacts.apis.io/apizr/openapi/apizr-events-api-openapi.yml
 - filename: apizr-flux-test-api-openapi.yml
   format: yaml
   label: APIZR Flux Test API
   slug: apizr-flux-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apizr/refs/heads/main/openapi/apizr-flux-test-api-openapi.yml
+  url: https://artifacts.apis.io/apizr/openapi/apizr-flux-test-api-openapi.yml
 - filename: apizr-oauth-api-openapi.yml
   format: yaml
   label: APIZR OAuth API
   slug: apizr-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apizr/refs/heads/main/openapi/apizr-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/apizr/openapi/apizr-oauth-api-openapi.yml
 - filename: apizr-order-api-openapi.yml
   format: yaml
   label: APIZR Order API
   slug: apizr-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apizr/refs/heads/main/openapi/apizr-order-api-openapi.yml
+  url: https://artifacts.apis.io/apizr/openapi/apizr-order-api-openapi.yml
 - filename: apizr-orders-api-openapi.yml
   format: yaml
   label: APIZR Orders API
   slug: apizr-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apizr/refs/heads/main/openapi/apizr-orders-api-openapi.yml
+  url: https://artifacts.apis.io/apizr/openapi/apizr-orders-api-openapi.yml
 - filename: apizr-webhooks-api-openapi.yml
   format: yaml
   label: APIZR Webhooks API
   slug: apizr-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apizr/refs/heads/main/openapi/apizr-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/apizr/openapi/apizr-webhooks-api-openapi.yml
 auth_types: []
 description: Authentication methods supported by APIZR Ecosystem
 kind: authentication
@@ -84,7 +84,7 @@ source_heading: Authentication Profile
 source_url: https://docs.ecosystem.apizr.io/en/docs/credentials/introduction/
 source_yaml: "generated: '2026-10-16'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://docs.ecosystem.apizr.io/en/docs/credentials/introduction/\nsources:\n- https://docs.ecosystem.apizr.io/en/docs/credentials/introduction/\n- https://docs.ecosystem.apizr.io/docs/credentials/create-credential.md\n- https://docs.ecosystem.apizr.io/docs/credentials/use-in-workflows.md\n- https://docs.ecosystem.apizr.io/docs/credentials/types.md\ndescription: Authentication methods supported by APIZR Ecosystem\nschemes:\n- type: http-basic\n  name: Basic Auth\n  evidence: 'Ecosystem ajoute automatiquement l''en-tête `Authorization: Basic xxx`.'\n  location: header\n  header: Authorization\n  how_to_obtain: Provide a username and password in the authentication method configuration.\n- type: oauth2\n  name: OAuth 2\n  evidence: Ecosystem obtient le token et le rafraîchit automatiquement à expiration.\n  how_to_obtain: Provide client ID, client secret and token URL (and optional\
   \ scopes) in the authentication method configuration.\n- type: apiKey\n  name: API Key\n  evidence: Ecosystem injecte automatiquement ces valeurs lorsque la méthode est sélectionnée dans un nœud Requête HTTP(S), Agent ou Code.\n  location: header_or_query\n  how_to_obtain: Provide key/value pairs for headers and/or query parameters in the authentication method configuration.\n- type: other\n  name: Custom\n  evidence: Exécute un **code personnalisé** qui gère un token et sa date d'expiration.\n  location: header_or_query_or_cookie\n  how_to_obtain: Provide custom JavaScript code that returns an accessToken and expiresIn, and specify where (header, query param, or cookie)\n    and the name to inject.\ndocs: https://docs.ecosystem.apizr.io/en/docs/credentials/introduction/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apizr/refs/heads/main/authentication/apizr-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apizr/authentication/apizr-authentication.yml
 summary_line: 4 schemes
 tags:
 - iPaaS

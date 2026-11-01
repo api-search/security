@@ -8,37 +8,37 @@ api_specs:
   label: Alchemy Node API (JSON-RPC)
   slug: node-rpc
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/asyncapi/alchemy-asyncapi.yml
+  url: https://artifacts.apis.io/alchemy/asyncapi/alchemy-asyncapi.yml
 - filename: alchemy-transfers-api-openapi.yml
   format: yaml
   label: Alchemy Transfers API
   slug: transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/openapi/alchemy-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/alchemy/openapi/alchemy-transfers-api-openapi.yml
 - filename: alchemy-paymaster-api-openapi.yml
   format: yaml
   label: Alchemy Paymaster API
   slug: alchemy-paymaster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/openapi/alchemy-paymaster-api-openapi.yml
+  url: https://artifacts.apis.io/alchemy/openapi/alchemy-paymaster-api-openapi.yml
 - filename: alchemy-policies-api-openapi.yml
   format: yaml
   label: Alchemy Policies API
   slug: alchemy-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/openapi/alchemy-policies-api-openapi.yml
+  url: https://artifacts.apis.io/alchemy/openapi/alchemy-policies-api-openapi.yml
 - filename: alchemy-token-balances-api-openapi.yml
   format: yaml
   label: Alchemy Token Balances API
   slug: alchemy-token-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/openapi/alchemy-token-balances-api-openapi.yml
+  url: https://artifacts.apis.io/alchemy/openapi/alchemy-token-balances-api-openapi.yml
 - filename: alchemy-token-metadata-api-openapi.yml
   format: yaml
   label: Alchemy Token Metadata API
   slug: alchemy-token-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/openapi/alchemy-token-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/alchemy/openapi/alchemy-token-metadata-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -75,7 +75,7 @@ source_filename: alchemy-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/alchemy-gas-manager-api-openapi.yml, openapi/alchemy-token-api-openapi.yml,\n  openapi/alchemy-transfers-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token for Gas Manager Management API authentication.\n  sources:\n  - openapi/alchemy-gas-manager-api-openapi.yml\n- name: apiKeyHeader\n  type: apiKey\n  in: header\n  parameter: X-Alchemy-Token\n  description: Alchemy API key for RPC endpoint authentication.\n  sources:\n  - openapi/alchemy-gas-manager-api-openapi.yml\n  - openapi/alchemy-token-api-openapi.yml\n  - openapi/alchemy-transfers-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/authentication/alchemy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/alchemy/authentication/alchemy-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Web3

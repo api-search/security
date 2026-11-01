@@ -5,31 +5,31 @@ api_specs:
   label: NALA Bank API
   slug: nala-bank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/openapi/nala-bank-api-openapi.yml
+  url: https://artifacts.apis.io/nala/openapi/nala-bank-api-openapi.yml
 - filename: nala-lookup-api-openapi.yml
   format: yaml
   label: NALA Lookup API
   slug: nala-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/openapi/nala-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/nala/openapi/nala-lookup-api-openapi.yml
 - filename: nala-payment-account-api-openapi.yml
   format: yaml
   label: NALA Payment Account API
   slug: nala-payment-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/openapi/nala-payment-account-api-openapi.yml
+  url: https://artifacts.apis.io/nala/openapi/nala-payment-account-api-openapi.yml
 - filename: nala-payout-api-openapi.yml
   format: yaml
   label: NALA Payout API
   slug: nala-payout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/openapi/nala-payout-api-openapi.yml
+  url: https://artifacts.apis.io/nala/openapi/nala-payout-api-openapi.yml
 - filename: nala-wallet-api-openapi.yml
   format: yaml
   label: NALA Wallet API
   slug: nala-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/openapi/nala-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/nala/openapi/nala-wallet-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: nala-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nala.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 06:58:53 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.rafiki.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 16:58:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: rest.prod.rafiki-api.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  1 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: nala.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: rafiki.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/security/nala-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nala/security/nala-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

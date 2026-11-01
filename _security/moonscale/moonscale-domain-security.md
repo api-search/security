@@ -5,13 +5,13 @@ api_specs:
   label: Moonscale Live Avatar API
   slug: moonscale-live-avatar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moonscale/refs/heads/main/openapi/moonscale-live-avatar-api-openapi.yml
+  url: https://artifacts.apis.io/moonscale/openapi/moonscale-live-avatar-api-openapi.yml
 - filename: moonscale-video-generation-api-openapi.yml
   format: yaml
   label: Moonscale Video Generation API
   slug: moonscale-video-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moonscale/refs/heads/main/openapi/moonscale-video-generation-api-openapi.yml
+  url: https://artifacts.apis.io/moonscale/openapi/moonscale-video-generation-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -60,7 +60,7 @@ source_filename: moonscale-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.moonscale.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 13:05:33 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: vidlab7-d7584a5d.mintlify.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 02:10:29 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api-prd.moonscale.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 05:32:51 2026 GMT\n  hsts: null\ndomains:\n- domain: moonscale.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: mintlify.app\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moonscale/refs/heads/main/security/moonscale-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/moonscale/security/moonscale-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

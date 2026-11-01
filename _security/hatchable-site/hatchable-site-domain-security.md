@@ -5,19 +5,19 @@ api_specs:
   label: IntentGuard Intent Check API
   slug: hatchable-site-intent-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hatchable-site/refs/heads/main/openapi/hatchable-site-intent-check-api-openapi.yml
+  url: https://artifacts.apis.io/hatchable-site/openapi/hatchable-site-intent-check-api-openapi.yml
 - filename: hatchable-site-route-api-openapi.yml
   format: yaml
   label: IntentGuard Route API
   slug: hatchable-site-route-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hatchable-site/refs/heads/main/openapi/hatchable-site-route-api-openapi.yml
+  url: https://artifacts.apis.io/hatchable-site/openapi/hatchable-site-route-api-openapi.yml
 - filename: hatchable-site-router-preview-api-openapi.yml
   format: yaml
   label: IntentGuard Router Preview API
   slug: hatchable-site-router-preview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hatchable-site/refs/heads/main/openapi/hatchable-site-router-preview-api-openapi.yml
+  url: https://artifacts.apis.io/hatchable-site/openapi/hatchable-site-router-preview-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: hatchable-site-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: intentguard.hatchable.site\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 15:43:16 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: hatchable.site\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hatchable-site/refs/heads/main/security/hatchable-site-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hatchable-site/security/hatchable-site-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

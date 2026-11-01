@@ -8,7 +8,7 @@ api_specs:
   label: Checkiday - National Holiday and Event API Events API
   slug: checkiday-national-holiday-api-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkiday-national-holiday-api/refs/heads/main/openapi/checkiday-national-holiday-api-events-api-openapi.yml
+  url: https://artifacts.apis.io/checkiday-national-holiday-api/openapi/checkiday-national-holiday-api-events-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: checkiday-national-holiday-api-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/checkiday-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: apikey\n  description: Your apilayer API key for the Checkiday API. Issued from the apilayer marketplace.\n  sources:\n  - openapi/checkiday-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/checkiday-national-holiday-api/refs/heads/main/authentication/checkiday-national-holiday-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/checkiday-national-holiday-api/authentication/checkiday-national-holiday-api-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Calendar

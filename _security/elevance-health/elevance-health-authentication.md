@@ -7,31 +7,31 @@ api_specs:
   label: Elevance Health Claims API
   slug: elevance-health-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/openapi/elevance-health-claims-api-openapi.yml
+  url: https://artifacts.apis.io/elevance-health/openapi/elevance-health-claims-api-openapi.yml
 - filename: elevance-health-conformance-api-openapi.yml
   format: yaml
   label: Elevance Health Conformance API
   slug: elevance-health-conformance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/openapi/elevance-health-conformance-api-openapi.yml
+  url: https://artifacts.apis.io/elevance-health/openapi/elevance-health-conformance-api-openapi.yml
 - filename: elevance-health-coverage-api-openapi.yml
   format: yaml
   label: Elevance Health Coverage API
   slug: elevance-health-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/openapi/elevance-health-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/elevance-health/openapi/elevance-health-coverage-api-openapi.yml
 - filename: elevance-health-patient-api-openapi.yml
   format: yaml
   label: Elevance Health Patient API
   slug: elevance-health-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/openapi/elevance-health-patient-api-openapi.yml
+  url: https://artifacts.apis.io/elevance-health/openapi/elevance-health-patient-api-openapi.yml
 - filename: elevance-health-provider-directory-api-openapi.yml
   format: yaml
   label: Elevance Health Provider Directory API
   slug: elevance-health-provider-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/openapi/elevance-health-provider-directory-api-openapi.yml
+  url: https://artifacts.apis.io/elevance-health/openapi/elevance-health-provider-directory-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -191,7 +191,7 @@ source_yaml: "generated: '2026-09-07'\nmethod: probed\nsource: >-\n  Anonymous G
   \  onboarding: Provider Directory API / Formulary API Production Environment request forms on the Anthem developer portal.\n  sources:\n  - https://www.anthem.com/content/dam/digital/developers-portal/Anthem-IOProviderDirectoryAndFormulary-API-Documentation.pdf\n  - conformance/elevance-health-provider-directory-capabilitystatement.json\n- name: patient360-dstu2\n  api: Patient360 FHIR (DSTU2, CareEvolution HIEBus)\n  type: oauth2\n  standard: SMART on FHIR (restful-security-service code SMART-on-FHIR in the conformance statement)\n  discovery: https://patient360.anthem.com/P360Member/api/fhir/.well-known/smart-configuration\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://patient360c.anthem.com/P360Member/identityserver/connect/authorize\n    tokenUrl: https://patient360c.anthem.com/P360Member/identityserver/connect/token\n    scopes: 205\n  introspection_endpoint: https://patient360c.anthem.com/P360Member/api/tokenintrospection\n  token_endpoint_auth_methods:\n \
   \ - client_secret_post\n  - client_secret_basic\n  - private_key_jwt\n  smart_capabilities:\n  - launch-ehr\n  - launch-standalone\n  - client-public\n  - client-confidential-symmetric\n  - sso-openid-connect\n  - context-banner\n  - context-ehr-patient\n  - context-standalone-patient\n  - permission-offline\n  - permission-patient\n  - permission-user\n  cors: true\n  sources:\n  - well-known/elevance-health-patient360-smart-configuration.json\n  - well-known/elevance-health-patient360c-smart-configuration.json\n  - conformance/elevance-health-patient360-dstu2-conformance.xml\n- name: patient360-openid-connect\n  api: Patient360 IdentityServer\n  type: openIdConnect\n  openIdConnectUrl: https://patient360c.anthem.com/P360Member/identityserver/.well-known/openid-configuration\n  issuer: https://patient360.anthem.com/P360Member/identityserver\n  jwks_uri: https://patient360c.anthem.com/P360Member/identityserver/.well-known/jwks\n  userinfo_endpoint: https://patient360c.anthem.com/P360Member/identityserver/connect/userinfo\n\
   \  revocation_endpoint: https://patient360c.anthem.com/P360Member/identityserver/connect/revocation\n  introspection_endpoint: https://patient360c.anthem.com/P360Member/identityserver/connect/introspect\n  end_session_endpoint: https://patient360c.anthem.com/P360Member/identityserver/connect/endsession\n  grant_types_supported: [authorization_code, client_credentials, password, refresh_token, implicit, post_login, cookie_to_token, new_token, external_token]\n  id_token_signing_alg_values_supported: [RS256]\n  code_challenge_methods_supported: [plain, S256]\n  claims_supported: [sub, role, email, email_verified, name, family_name, given_name, middle_name, nickname, preferred_username, picture, website, gender, birthdate, zoneinfo, locale, updated_at, profile, fhirUser, patientidentifier, participantidentifier, verifiedemail]\n  scopes_supported_count: 1048\n  sources:\n  - well-known/elevance-health-patient360c-openid-configuration.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/authentication/elevance-health-authentication.yml
+source_yaml_url: https://artifacts.apis.io/elevance-health/authentication/elevance-health-authentication.yml
 summary_line: oauth2/openIdConnect · 4 schemes
 tags:
 - Fortune 500

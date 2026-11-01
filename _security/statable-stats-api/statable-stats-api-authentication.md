@@ -7,25 +7,25 @@ api_specs:
   label: Statable Stats API Bootstrap API
   slug: statable-stats-api-bootstrap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statable-stats-api/refs/heads/main/openapi/statable-stats-api-bootstrap-api-openapi.yml
+  url: https://artifacts.apis.io/statable-stats-api/openapi/statable-stats-api-bootstrap-api-openapi.yml
 - filename: statable-stats-api-keys-api-openapi.yml
   format: yaml
   label: Statable Stats API Keys API
   slug: statable-stats-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statable-stats-api/refs/heads/main/openapi/statable-stats-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/statable-stats-api/openapi/statable-stats-api-keys-api-openapi.yml
 - filename: statable-stats-api-sites-api-openapi.yml
   format: yaml
   label: Statable Stats API Sites API
   slug: statable-stats-api-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statable-stats-api/refs/heads/main/openapi/statable-stats-api-sites-api-openapi.yml
+  url: https://artifacts.apis.io/statable-stats-api/openapi/statable-stats-api-sites-api-openapi.yml
 - filename: statable-stats-api-stats-api-openapi.yml
   format: yaml
   label: Statable Stats API Stats API
   slug: statable-stats-api-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statable-stats-api/refs/heads/main/openapi/statable-stats-api-stats-api-openapi.yml
+  url: https://artifacts.apis.io/statable-stats-api/openapi/statable-stats-api-stats-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -53,7 +53,7 @@ source_filename: statable-stats-api-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-18'\nmethod: derived\nsource: openapi/statable-stats-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: stbl_<secret>\n  description: A key minted in Settings → API. All tokens start with `stbl_`. Missing, malformed,\n    invalid, expired, or revoked → 401. Every operation in this spec requires the key's `read`\n    scope; without it → 403 `insufficient_scope`.\n  sources:\n  - openapi/statable-stats-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/statable-stats-api/refs/heads/main/authentication/statable-stats-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/statable-stats-api/authentication/statable-stats-api-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Analytics

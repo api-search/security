@@ -8,55 +8,55 @@ api_specs:
   label: Experian Address Validation API
   slug: experian-address-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/experian/refs/heads/main/openapi/experian-address-validation-api-openapi.yml
+  url: https://artifacts.apis.io/experian/openapi/experian-address-validation-api-openapi.yml
 - filename: experian-bulk-address-api-openapi.yml
   format: yaml
   label: Experian Bulk Address API
   slug: experian-bulk-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/experian/refs/heads/main/openapi/experian-bulk-address-api-openapi.yml
+  url: https://artifacts.apis.io/experian/openapi/experian-bulk-address-api-openapi.yml
 - filename: experian-bulk-email-api-openapi.yml
   format: yaml
   label: Experian Bulk Email API
   slug: experian-bulk-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/experian/refs/heads/main/openapi/experian-bulk-email-api-openapi.yml
+  url: https://artifacts.apis.io/experian/openapi/experian-bulk-email-api-openapi.yml
 - filename: experian-bulk-phone-api-openapi.yml
   format: yaml
   label: Experian Bulk Phone API
   slug: experian-bulk-phone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/experian/refs/heads/main/openapi/experian-bulk-phone-api-openapi.yml
+  url: https://artifacts.apis.io/experian/openapi/experian-bulk-phone-api-openapi.yml
 - filename: experian-email-validation-api-openapi.yml
   format: yaml
   label: Experian Email Validation API
   slug: experian-email-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/experian/refs/heads/main/openapi/experian-email-validation-api-openapi.yml
+  url: https://artifacts.apis.io/experian/openapi/experian-email-validation-api-openapi.yml
 - filename: experian-enrichment-api-openapi.yml
   format: yaml
   label: Experian Enrichment API
   slug: experian-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/experian/refs/heads/main/openapi/experian-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/experian/openapi/experian-enrichment-api-openapi.yml
 - filename: experian-identity-append-usa-only-api-openapi.yml
   format: yaml
   label: Experian Identity Append (USA only) API
   slug: experian-identity-append-usa-only-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/experian/refs/heads/main/openapi/experian-identity-append-usa-only-api-openapi.yml
+  url: https://artifacts.apis.io/experian/openapi/experian-identity-append-usa-only-api-openapi.yml
 - filename: experian-phone-validation-api-openapi.yml
   format: yaml
   label: Experian Phone Validation API
   slug: experian-phone-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/experian/refs/heads/main/openapi/experian-phone-validation-api-openapi.yml
+  url: https://artifacts.apis.io/experian/openapi/experian-phone-validation-api-openapi.yml
 - filename: experian-reverse-phone-append-usa-only-api-openapi.yml
   format: yaml
   label: Experian Reverse Phone Append (USA only) API
   slug: experian-reverse-phone-append-usa-only-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/experian/refs/heads/main/openapi/experian-reverse-phone-append-usa-only-api-openapi.yml
+  url: https://artifacts.apis.io/experian/openapi/experian-reverse-phone-append-usa-only-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -134,7 +134,7 @@ source_yaml: "generated: '2026-09-13'\nmethod: searched\ndocs:\n- https://develo
   \ with another product, or the account has insufficient credits\n  - token is disabled and must be activated in the Self Service Portal\n  - the calling domain is not on the integration allowlist\n  - the calling IP is not on the integration allowlist\n  source: errors/experian-problem-types.yml\nsource: openapi/experian-addressvalidation-openapi.json, openapi/experian-aperture-openapi.json,\n  openapi/experian-bulkaddress-openapi.json, openapi/experian-bulkemail-openapi.json, openapi/experian-bulkphone-openapi.json,\n  openapi/experian-emailvalidation-openapi.json, openapi/experian-emailvalidationv2-openapi.json,\n  openapi/experian-enrichment-openapi.json, openapi/experian-identityappend-openapi.json, openapi/experian-phonevalidation-openapi.json,\n  openapi/experian-reversephoneappend-openapi.json\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: OAuth2\n  type: http\n  scheme: Bearer\n  bearerFormat: JWT\n  description: \"Token URL: https://sso.experianaperture.io/oauth2/aust0wkxjeKyT3HRO4x7/v1/token\\\
   \n    \\ \\n\\n Flow: clientCredentials\"\n  sources:\n  - openapi/experian-addressvalidation-openapi.json\n  - openapi/experian-aperture-openapi.json\n  - openapi/experian-bulkaddress-openapi.json\n  - openapi/experian-bulkemail-openapi.json\n  - openapi/experian-bulkphone-openapi.json\n  - openapi/experian-emailvalidation-openapi.json\n  - openapi/experian-emailvalidationv2-openapi.json\n  - openapi/experian-enrichment-openapi.json\n  - openapi/experian-identityappend-openapi.json\n  - openapi/experian-phonevalidation-openapi.json\n  - openapi/experian-reversephoneappend-openapi.json\n- name: Auth-Token\n  type: apiKey\n  in: header\n  parameter: Auth-Token\n  description: Your unique key, called a token, that is required to submit an API request.\n  sources:\n  - openapi/experian-addressvalidation-openapi.json\n  - openapi/experian-aperture-openapi.json\n  - openapi/experian-bulkaddress-openapi.json\n  - openapi/experian-bulkemail-openapi.json\n  - openapi/experian-bulkphone-openapi.json\n\
   \  - openapi/experian-emailvalidation-openapi.json\n  - openapi/experian-emailvalidationv2-openapi.json\n  - openapi/experian-enrichment-openapi.json\n  - openapi/experian-identityappend-openapi.json\n  - openapi/experian-phonevalidation-openapi.json\n  - openapi/experian-reversephoneappend-openapi.json\n- name: x-app-key\n  type: apiKey\n  in: header\n  parameter: x-app-key\n  description: Alternative Auth Token header.\n  sources:\n  - openapi/experian-addressvalidation-openapi.json\n  - openapi/experian-aperture-openapi.json\n  - openapi/experian-bulkaddress-openapi.json\n  - openapi/experian-bulkemail-openapi.json\n  - openapi/experian-bulkphone-openapi.json\n  - openapi/experian-emailvalidation-openapi.json\n  - openapi/experian-emailvalidationv2-openapi.json\n  - openapi/experian-enrichment-openapi.json\n  - openapi/experian-identityappend-openapi.json\n  - openapi/experian-phonevalidation-openapi.json\n  - openapi/experian-reversephoneappend-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/experian/refs/heads/main/authentication/experian-authentication.yml
+source_yaml_url: https://artifacts.apis.io/experian/authentication/experian-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Company

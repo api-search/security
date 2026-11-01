@@ -33,7 +33,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://docs.heylua.ai/cli/authentication\ndocs: https://docs.heylua.ai/cli/authentication\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  http_scheme: bearer\n  oauth2_flows: []\nschemes:\n  - name: bearerAuth\n    type: http\n    scheme: bearer\n    location: header\n    header: Authorization\n    format: \"Bearer YOUR_API_KEY\"\n    applies_to: https://api.heylua.ai HTTP API (chat generate/stream)\n    sources: [docs, changelog examples]\nprovisioning:\n  - method: email-otp\n    description: >-\n      Recommended. A 6-digit code is emailed and, on verification, an API key\n      is generated and saved automatically (via `lua auth`).\n  - method: existing-key\n    description: Supply a pre-existing key; it is validated and stored locally.\nkey_resolution_priority:\n  - LUA_API_KEY (environment variable — highest priority, CI/CD)\n  - ~/.lua-cli/credentials (local credentials file, 0600 perms)\n  - .env (local development\
   \ fallback)\nnotes: >-\n  API-key / bearer-token auth only — no OAuth2, OIDC, or mTLS surface, so no\n  scopes/ artifact. Keys are the complete credential. No published real OpenAPI\n  exists (the docs openapi.json is the Mintlify Plant Store placeholder), so\n  this profile is derived from the documented HTTP API + CLI auth pages.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lua-global-inc/refs/heads/main/authentication/lua-global-inc-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lua-global-inc/authentication/lua-global-inc-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

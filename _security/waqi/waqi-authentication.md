@@ -8,19 +8,19 @@ api_specs:
   label: World Air Quality Index (WAQI) Feed API
   slug: waqi-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/waqi/refs/heads/main/openapi/waqi-feed-api-openapi.yml
+  url: https://artifacts.apis.io/waqi/openapi/waqi-feed-api-openapi.yml
 - filename: waqi-map-api-openapi.yml
   format: yaml
   label: World Air Quality Index (WAQI) Map API
   slug: waqi-map-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/waqi/refs/heads/main/openapi/waqi-map-api-openapi.yml
+  url: https://artifacts.apis.io/waqi/openapi/waqi-map-api-openapi.yml
 - filename: waqi-search-api-openapi.yml
   format: yaml
   label: World Air Quality Index (WAQI) Search API
   slug: waqi-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/waqi/refs/heads/main/openapi/waqi-search-api-openapi.yml
+  url: https://artifacts.apis.io/waqi/openapi/waqi-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: waqi-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/waqi-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: tokenAuth\n  type: apiKey\n  in: query\n  parameter: token\n  description: API token obtained from the Air Quality Open Data Platform at https://aqicn.org/data-platform/token/\n  sources:\n  - openapi/waqi-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/waqi/refs/heads/main/authentication/waqi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/waqi/authentication/waqi-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Air Quality

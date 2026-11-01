@@ -5,31 +5,31 @@ api_specs:
   label: Sourcebot Enterprise (EE) API
   slug: sourcebot-enterprise-ee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sourcebot/refs/heads/main/openapi/sourcebot-enterprise-ee-api-openapi.yml
+  url: https://artifacts.apis.io/sourcebot/openapi/sourcebot-enterprise-ee-api-openapi.yml
 - filename: sourcebot-git-api-openapi.yml
   format: yaml
   label: Sourcebot Git API
   slug: sourcebot-git-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sourcebot/refs/heads/main/openapi/sourcebot-git-api-openapi.yml
+  url: https://artifacts.apis.io/sourcebot/openapi/sourcebot-git-api-openapi.yml
 - filename: sourcebot-repositories-api-openapi.yml
   format: yaml
   label: Sourcebot Repositories API
   slug: sourcebot-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sourcebot/refs/heads/main/openapi/sourcebot-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/sourcebot/openapi/sourcebot-repositories-api-openapi.yml
 - filename: sourcebot-search-navigation-api-openapi.yml
   format: yaml
   label: Sourcebot Search & Navigation API
   slug: sourcebot-search-navigation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sourcebot/refs/heads/main/openapi/sourcebot-search-navigation-api-openapi.yml
+  url: https://artifacts.apis.io/sourcebot/openapi/sourcebot-search-navigation-api-openapi.yml
 - filename: sourcebot-system-api-openapi.yml
   format: yaml
   label: Sourcebot System API
   slug: sourcebot-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sourcebot/refs/heads/main/openapi/sourcebot-system-api-openapi.yml
+  url: https://artifacts.apis.io/sourcebot/openapi/sourcebot-system-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +71,7 @@ source_filename: sourcebot-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sourcebot.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 03:38:25 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.sourcebot.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 18:45:47 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: app.sourcebot.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: sourcebot.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sourcebot/refs/heads/main/security/sourcebot-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sourcebot/security/sourcebot-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
@@ -79,7 +79,7 @@ tags:
 - Code Intelligence
 - Developer Tools
 - Source Code
-- Git
+- Version Control
 - MCP
 - AI Coding Agents
 - Enterprise Search

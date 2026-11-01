@@ -29,7 +29,7 @@ source_filename: inbrace-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-23'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: inbrace.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 16 17:33:38 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  note: >-\n    inbrace.com resolves to Cloudflare and answers HTTP 301 on every path probed\n    (apex, /.well-known/*, /openapi.json, /llms.txt, /docs, /api), redirecting wholesale\n    to https://insmilebraces.com/ — the site of InSmile Braces, the separate company that\n    acquired the InBrace IP after Swift Health Systems, Inc. ceased operations in April\n    2025. The TLS/HSTS/DNS posture recorded here therefore describes the domain as it is\n    operated today by the successor, not any surviving InBrace origin.\ndomains:\n- domain: inbrace.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inbrace/refs/heads/main/security/inbrace-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/inbrace/security/inbrace-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

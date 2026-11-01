@@ -5,43 +5,43 @@ api_specs:
   label: Thunder Compute Instances API
   slug: thundercompute-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thundercompute/refs/heads/main/openapi/thundercompute-instances-api-openapi.yml
+  url: https://artifacts.apis.io/thundercompute/openapi/thundercompute-instances-api-openapi.yml
 - filename: thundercompute-pricing-api-openapi.yml
   format: yaml
   label: Thunder Compute Pricing API
   slug: thundercompute-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thundercompute/refs/heads/main/openapi/thundercompute-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/thundercompute/openapi/thundercompute-pricing-api-openapi.yml
 - filename: thundercompute-snapshots-api-openapi.yml
   format: yaml
   label: Thunder Compute Snapshots API
   slug: thundercompute-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thundercompute/refs/heads/main/openapi/thundercompute-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/thundercompute/openapi/thundercompute-snapshots-api-openapi.yml
 - filename: thundercompute-specs-api-openapi.yml
   format: yaml
   label: Thunder Compute Specs API
   slug: thundercompute-specs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thundercompute/refs/heads/main/openapi/thundercompute-specs-api-openapi.yml
+  url: https://artifacts.apis.io/thundercompute/openapi/thundercompute-specs-api-openapi.yml
 - filename: thundercompute-ssh-keys-api-openapi.yml
   format: yaml
   label: Thunder Compute SSH Keys API
   slug: thundercompute-ssh-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thundercompute/refs/heads/main/openapi/thundercompute-ssh-keys-api-openapi.yml
+  url: https://artifacts.apis.io/thundercompute/openapi/thundercompute-ssh-keys-api-openapi.yml
 - filename: thundercompute-templates-api-openapi.yml
   format: yaml
   label: Thunder Compute Templates API
   slug: thundercompute-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thundercompute/refs/heads/main/openapi/thundercompute-templates-api-openapi.yml
+  url: https://artifacts.apis.io/thundercompute/openapi/thundercompute-templates-api-openapi.yml
 - filename: thundercompute-tokens-api-openapi.yml
   format: yaml
   label: Thunder Compute Tokens API
   slug: thundercompute-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thundercompute/refs/heads/main/openapi/thundercompute-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/thundercompute/openapi/thundercompute-tokens-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -82,7 +82,7 @@ source_filename: thundercompute-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.thundercompute.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 23:47:51 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.thundercompute.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 20:28:17 2026 GMT\n  hsts: null\ndomains:\n- domain: thundercompute.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thundercompute/refs/heads/main/security/thundercompute-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/thundercompute/security/thundercompute-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - GPU

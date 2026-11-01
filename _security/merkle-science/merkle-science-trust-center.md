@@ -5,7 +5,7 @@ api_specs:
   label: Merkle Science VASP Entities API
   slug: merkle-science-vasp-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/merkle-science/refs/heads/main/openapi/merkle-science-vasp-entities-api-openapi.yml
+  url: https://artifacts.apis.io/merkle-science/openapi/merkle-science-vasp-entities-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -24,7 +24,7 @@ source_filename: merkle-science-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nprobe: true\nsource: https://trust.merklescience.com/\nurl: https://trust.merklescience.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://trust.merklescience.com/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/merkle-science/refs/heads/main/security/merkle-science-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/merkle-science/security/merkle-science-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company

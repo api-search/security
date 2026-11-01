@@ -5,31 +5,31 @@ api_specs:
   label: SeatGeek Events API
   slug: seatgeek-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seatgeek/refs/heads/main/openapi/seatgeek-events-api-openapi.yml
+  url: https://artifacts.apis.io/seatgeek/openapi/seatgeek-events-api-openapi.yml
 - filename: seatgeek-performers-api-openapi.yml
   format: yaml
   label: SeatGeek Performers API
   slug: seatgeek-performers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seatgeek/refs/heads/main/openapi/seatgeek-performers-api-openapi.yml
+  url: https://artifacts.apis.io/seatgeek/openapi/seatgeek-performers-api-openapi.yml
 - filename: seatgeek-recommendations-api-openapi.yml
   format: yaml
   label: SeatGeek Recommendations API
   slug: seatgeek-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seatgeek/refs/heads/main/openapi/seatgeek-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/seatgeek/openapi/seatgeek-recommendations-api-openapi.yml
 - filename: seatgeek-taxonomies-api-openapi.yml
   format: yaml
   label: SeatGeek Taxonomies API
   slug: seatgeek-taxonomies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seatgeek/refs/heads/main/openapi/seatgeek-taxonomies-api-openapi.yml
+  url: https://artifacts.apis.io/seatgeek/openapi/seatgeek-taxonomies-api-openapi.yml
 - filename: seatgeek-venues-api-openapi.yml
   format: yaml
   label: SeatGeek Venues API
   slug: seatgeek-venues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seatgeek/refs/heads/main/openapi/seatgeek-venues-api-openapi.yml
+  url: https://artifacts.apis.io/seatgeek/openapi/seatgeek-venues-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: seatgeek-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: seatgeek.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 09:27:43 2026 GMT\n  hsts: null\n- host: api.seatgeek.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 09:27:43 2026 GMT\n  hsts: null\ndomains:\n- domain: seatgeek.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seatgeek/refs/heads/main/security/seatgeek-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/seatgeek/security/seatgeek-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Event

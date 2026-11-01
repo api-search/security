@@ -7,31 +7,31 @@ api_specs:
   label: Capsule CRM Entries API
   slug: capsule-crm-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capsule-crm/refs/heads/main/openapi/capsule-crm-entries-api-openapi.yml
+  url: https://artifacts.apis.io/capsule-crm/openapi/capsule-crm-entries-api-openapi.yml
 - filename: capsule-crm-opportunities-api-openapi.yml
   format: yaml
   label: Capsule CRM Opportunities API
   slug: capsule-crm-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capsule-crm/refs/heads/main/openapi/capsule-crm-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/capsule-crm/openapi/capsule-crm-opportunities-api-openapi.yml
 - filename: capsule-crm-parties-api-openapi.yml
   format: yaml
   label: Capsule CRM Parties API
   slug: capsule-crm-parties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capsule-crm/refs/heads/main/openapi/capsule-crm-parties-api-openapi.yml
+  url: https://artifacts.apis.io/capsule-crm/openapi/capsule-crm-parties-api-openapi.yml
 - filename: capsule-crm-projects-api-openapi.yml
   format: yaml
   label: Capsule CRM Projects API
   slug: capsule-crm-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capsule-crm/refs/heads/main/openapi/capsule-crm-projects-api-openapi.yml
+  url: https://artifacts.apis.io/capsule-crm/openapi/capsule-crm-projects-api-openapi.yml
 - filename: capsule-crm-tasks-api-openapi.yml
   format: yaml
   label: Capsule CRM Tasks API
   slug: capsule-crm-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capsule-crm/refs/heads/main/openapi/capsule-crm-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/capsule-crm/openapi/capsule-crm-tasks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: capsule-crm-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/capsule-crm-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Personal access token or OAuth 2 access token\n  sources:\n  - openapi/capsule-crm-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/capsule-crm/refs/heads/main/authentication/capsule-crm-authentication.yml
+source_yaml_url: https://artifacts.apis.io/capsule-crm/authentication/capsule-crm-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - CRM

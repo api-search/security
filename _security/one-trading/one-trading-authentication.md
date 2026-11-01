@@ -8,31 +8,31 @@ api_specs:
   label: One Trading WebSocket Streams API
   slug: one-trading-websocket-streams-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/asyncapi/one-trading-streams-asyncapi.yml
+  url: https://artifacts.apis.io/one-trading/asyncapi/one-trading-streams-asyncapi.yml
 - filename: one-trading-funding-api-openapi.yml
   format: yaml
   label: One Trading Funding API
   slug: one-trading-funding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/openapi/one-trading-funding-api-openapi.yml
+  url: https://artifacts.apis.io/one-trading/openapi/one-trading-funding-api-openapi.yml
 - filename: one-trading-futures-api-openapi.yml
   format: yaml
   label: One Trading Futures API
   slug: one-trading-futures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/openapi/one-trading-futures-api-openapi.yml
+  url: https://artifacts.apis.io/one-trading/openapi/one-trading-futures-api-openapi.yml
 - filename: one-trading-public-api-openapi.yml
   format: yaml
   label: One Trading Public API
   slug: one-trading-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/openapi/one-trading-public-api-openapi.yml
+  url: https://artifacts.apis.io/one-trading/openapi/one-trading-public-api-openapi.yml
 - filename: one-trading-trading-api-openapi.yml
   format: yaml
   label: One Trading API
   slug: one-trading-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/openapi/one-trading-trading-api-openapi.yml
+  url: https://artifacts.apis.io/one-trading/openapi/one-trading-trading-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +64,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource:\n  - https://docs.onetrading.com/rest/trading/create-order.md\n  - https://docs.onetrading.com/websocket/authenticate.md\n  - https://support.onetrading.com/hc/en-gb/articles/16357722538129\n  - live probes of https://api.onetrading.com/fast/v1\ndocs: https://docs.onetrading.com\nsummary:\n  types: [http]\n  http_schemes: [bearer]\n  api_key_in: [header]\n  oauth2_flows: []\nschemes:\n  - name: BearerToken\n    type: http\n    scheme: bearer\n    bearerFormat: JWT\n    in: header\n    header: Authorization\n    format: 'Authorization: Bearer <token>'\n    token_source: >-\n      API tokens are generated in the One Trading UI. Each token is granted one\n      or more permission scopes at creation time.\n    sources: [openapi/one-trading-fast-openapi.yml]\npermissions:\n  model: named-scopes-per-token\n  scopes:\n    - { name: Read, grants: All GET endpoints (account balances, orders, trades, market data) }\n    - { name: Trade,\
   \ grants: Place or cancel orders via POST/DELETE and private WebSocket trading channels }\n    - { name: Withdraw, grants: Deposit and withdraw funds to/from off-site wallets }\n    - { name: SUBACCOUNT_TRANSFER, grants: Transfer balances between the account holder's subaccounts (POST /v1/subaccounts/transfers) }\nwebsocket:\n  url: wss://streams.fast.onetrading.com\n  flow: Send an AUTHENTICATE message with api_token before subscribing to private channels; token must carry the Trade permission.\n  failure_codes: [AUTHENTICATION_FAILED, AUTH_ERROR]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/authentication/one-trading-authentication.yml
+source_yaml_url: https://artifacts.apis.io/one-trading/authentication/one-trading-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

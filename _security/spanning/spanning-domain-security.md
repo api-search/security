@@ -5,19 +5,19 @@ api_specs:
   label: Spanning Exports API
   slug: spanning-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spanning/refs/heads/main/openapi/spanning-exports-api-openapi.yml
+  url: https://artifacts.apis.io/spanning/openapi/spanning-exports-api-openapi.yml
 - filename: spanning-shared-drives-api-openapi.yml
   format: yaml
   label: Spanning Shared Drives API
   slug: spanning-shared-drives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spanning/refs/heads/main/openapi/spanning-shared-drives-api-openapi.yml
+  url: https://artifacts.apis.io/spanning/openapi/spanning-shared-drives-api-openapi.yml
 - filename: spanning-users-api-openapi.yml
   format: yaml
   label: Spanning Users API
   slug: spanning-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spanning/refs/heads/main/openapi/spanning-users-api-openapi.yml
+  url: https://artifacts.apis.io/spanning/openapi/spanning-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: spanning-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: spanning.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  4 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: api.spanningbackup.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 21 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: o365-us.spanningbackup.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 21 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: spanning.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: spanningbackup.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spanning/refs/heads/main/security/spanning-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/spanning/security/spanning-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data Protection

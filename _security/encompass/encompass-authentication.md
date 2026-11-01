@@ -7,61 +7,61 @@ api_specs:
   label: Encompass Authentication API
   slug: encompass-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/openapi/encompass-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/encompass/openapi/encompass-authentication-api-openapi.yml
 - filename: encompass-borrower-pairs-api-openapi.yml
   format: yaml
   label: Encompass Borrower Pairs API
   slug: encompass-borrower-pairs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/openapi/encompass-borrower-pairs-api-openapi.yml
+  url: https://artifacts.apis.io/encompass/openapi/encompass-borrower-pairs-api-openapi.yml
 - filename: encompass-conditions-api-openapi.yml
   format: yaml
   label: Encompass Conditions API
   slug: encompass-conditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/openapi/encompass-conditions-api-openapi.yml
+  url: https://artifacts.apis.io/encompass/openapi/encompass-conditions-api-openapi.yml
 - filename: encompass-contacts-api-openapi.yml
   format: yaml
   label: Encompass Contacts API
   slug: encompass-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/openapi/encompass-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/encompass/openapi/encompass-contacts-api-openapi.yml
 - filename: encompass-efolder-api-openapi.yml
   format: yaml
   label: Encompass eFolder API
   slug: encompass-efolder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/openapi/encompass-efolder-api-openapi.yml
+  url: https://artifacts.apis.io/encompass/openapi/encompass-efolder-api-openapi.yml
 - filename: encompass-loan-management-api-openapi.yml
   format: yaml
   label: Encompass Loan Management API
   slug: encompass-loan-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/openapi/encompass-loan-management-api-openapi.yml
+  url: https://artifacts.apis.io/encompass/openapi/encompass-loan-management-api-openapi.yml
 - filename: encompass-loan-pipeline-api-openapi.yml
   format: yaml
   label: Encompass Loan Pipeline API
   slug: encompass-loan-pipeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/openapi/encompass-loan-pipeline-api-openapi.yml
+  url: https://artifacts.apis.io/encompass/openapi/encompass-loan-pipeline-api-openapi.yml
 - filename: encompass-milestones-api-openapi.yml
   format: yaml
   label: Encompass Milestones API
   slug: encompass-milestones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/openapi/encompass-milestones-api-openapi.yml
+  url: https://artifacts.apis.io/encompass/openapi/encompass-milestones-api-openapi.yml
 - filename: encompass-users-api-openapi.yml
   format: yaml
   label: Encompass Users API
   slug: encompass-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/openapi/encompass-users-api-openapi.yml
+  url: https://artifacts.apis.io/encompass/openapi/encompass-users-api-openapi.yml
 - filename: encompass-webhooks-api-openapi.yml
   format: yaml
   label: Encompass Webhooks API
   slug: encompass-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/openapi/encompass-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/encompass/openapi/encompass-webhooks-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -99,7 +99,7 @@ source_filename: encompass-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/encompass-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oAuth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.elliemae.com/oauth2/v1/token\n    scopes: 0\n  description: OAuth 2.0 client credentials / authorization code issued per Encompass instance.\n  sources:\n  - openapi/encompass-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/encompass-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/authentication/encompass-authentication.yml
+source_yaml_url: https://artifacts.apis.io/encompass/authentication/encompass-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Mortgage

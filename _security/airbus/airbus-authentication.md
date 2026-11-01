@@ -7,13 +7,13 @@ api_specs:
   label: Airbus Authentication API
   slug: airbus-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus/refs/heads/main/openapi/airbus-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/airbus/openapi/airbus-authentication-api-openapi.yml
 - filename: airbus-catalog-api-openapi.yml
   format: yaml
   label: Airbus Catalog API
   slug: airbus-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus/refs/heads/main/openapi/airbus-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/airbus/openapi/airbus-catalog-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -42,7 +42,7 @@ source_filename: airbus-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/airbus-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: |-\n    Bearer access token obtained via POST\n    /auth/realms/IDP/protocol/openid-connect/token with grant_type=api_key.\n  sources:\n  - openapi/airbus-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airbus/refs/heads/main/authentication/airbus-authentication.yml
+source_yaml_url: https://artifacts.apis.io/airbus/authentication/airbus-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Aerospace

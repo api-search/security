@@ -9,31 +9,31 @@ api_specs:
   label: Zencoder Accounts API
   slug: zencoder-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zencoder/refs/heads/main/openapi/zencoder-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/zencoder/openapi/zencoder-accounts-api-openapi.yml
 - filename: zencoder-inputs-api-openapi.yml
   format: yaml
   label: Zencoder Inputs API
   slug: zencoder-inputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zencoder/refs/heads/main/openapi/zencoder-inputs-api-openapi.yml
+  url: https://artifacts.apis.io/zencoder/openapi/zencoder-inputs-api-openapi.yml
 - filename: zencoder-jobs-api-openapi.yml
   format: yaml
   label: Zencoder Jobs API
   slug: zencoder-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zencoder/refs/heads/main/openapi/zencoder-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/zencoder/openapi/zencoder-jobs-api-openapi.yml
 - filename: zencoder-outputs-api-openapi.yml
   format: yaml
   label: Zencoder Outputs API
   slug: zencoder-outputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zencoder/refs/heads/main/openapi/zencoder-outputs-api-openapi.yml
+  url: https://artifacts.apis.io/zencoder/openapi/zencoder-outputs-api-openapi.yml
 - filename: zencoder-reports-api-openapi.yml
   format: yaml
   label: Zencoder Reports API
   slug: zencoder-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zencoder/refs/heads/main/openapi/zencoder-reports-api-openapi.yml
+  url: https://artifacts.apis.io/zencoder/openapi/zencoder-reports-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -62,7 +62,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://zencoder.support.brightcove.com/getting-started/getting-api-key.html\ndocs: https://zencoder.support.brightcove.com/getting-started/getting-api-key.html\nnotes: >-\n  The Zencoder v2 OpenAPI models the credential as a required request parameter (ZencoderApiKey) rather\n  than a formal components.securitySchemes entry, so the mechanical auth-derive returns nothing; this\n  profile is authored from the docs. Zencoder authenticates every request with an API key sent in the\n  `Zencoder-Api-Key` HTTP header. The key may alternatively be passed as an `api_key` query-string\n  parameter. There is no OAuth 2.0 / OIDC surface, hence no scopes/ artifact.\nsummary:\n  types: [apiKey]\n  api_key_in: [header, query]\n  oauth2_flows: []\nschemes:\n- name: ZencoderApiKey\n  type: apiKey\n  in: header\n  parameter_name: Zencoder-Api-Key\n  description: >-\n    API key sent on every request in the Zencoder-Api-Key header. Also accepted\
   \ as an `api_key`\n    query-string parameter (e.g. ?api_key=...).\n  sources: [openapi/zencoder-openapi-original.yml]\nkey_types:\n- name: full-access\n  description: Allows any request to the Zencoder API; required to submit jobs and retrieve outputs. Requires a paid plan.\n- name: read-only\n  description: Allows GET requests only (job/output status), no job submission.\n- name: integration-mode\n  description: >-\n    Allows job submission for testing without processing (jobs are accepted but not encoded). Used to\n    build and test integrations before purchasing a paid plan. See sandbox/zencoder-sandbox.yml.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zencoder/refs/heads/main/authentication/zencoder-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zencoder/authentication/zencoder-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

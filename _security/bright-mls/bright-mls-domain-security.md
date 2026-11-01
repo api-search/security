@@ -5,31 +5,31 @@ api_specs:
   label: Bright MLS Auth API
   slug: bright-mls-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-mls/refs/heads/main/openapi/bright-mls-auth-api-openapi.yml
+  url: https://artifacts.apis.io/bright-mls/openapi/bright-mls-auth-api-openapi.yml
 - filename: bright-mls-listing-api-openapi.yml
   format: yaml
   label: Bright MLS Listing API
   slug: bright-mls-listing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-mls/refs/heads/main/openapi/bright-mls-listing-api-openapi.yml
+  url: https://artifacts.apis.io/bright-mls/openapi/bright-mls-listing-api-openapi.yml
 - filename: bright-mls-manifests-api-openapi.yml
   format: yaml
   label: Bright MLS Manifests API
   slug: bright-mls-manifests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-mls/refs/heads/main/openapi/bright-mls-manifests-api-openapi.yml
+  url: https://artifacts.apis.io/bright-mls/openapi/bright-mls-manifests-api-openapi.yml
 - filename: bright-mls-user-api-openapi.yml
   format: yaml
   label: Bright MLS User API
   slug: bright-mls-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-mls/refs/heads/main/openapi/bright-mls-user-api-openapi.yml
+  url: https://artifacts.apis.io/bright-mls/openapi/bright-mls-user-api-openapi.yml
 - filename: bright-mls-data-hub-api-openapi.yml
   format: yaml
   label: Bright MLS Data Hub API
   slug: bright-mls-data-hub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-mls/refs/heads/main/openapi/bright-mls-data-hub-api-openapi.yml
+  url: https://artifacts.apis.io/bright-mls/openapi/bright-mls-data-hub-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: bright-mls-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.brightmls.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  7 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: brightmls.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bright-mls/refs/heads/main/security/bright-mls-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bright-mls/security/bright-mls-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

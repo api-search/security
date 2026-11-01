@@ -8,19 +8,19 @@ api_specs:
   label: Bitwise Funds API
   slug: bitwise-funds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitwise/refs/heads/main/openapi/bitwise-funds-api-openapi.yml
+  url: https://artifacts.apis.io/bitwise/openapi/bitwise-funds-api-openapi.yml
 - filename: bitwise-indexes-api-openapi.yml
   format: yaml
   label: Bitwise Indexes API
   slug: bitwise-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitwise/refs/heads/main/openapi/bitwise-indexes-api-openapi.yml
+  url: https://artifacts.apis.io/bitwise/openapi/bitwise-indexes-api-openapi.yml
 - filename: bitwise-etfs-api-openapi.yml
   format: yaml
   label: Bitwise ET Fs API
   slug: bitwise-etfs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitwise/refs/heads/main/openapi/bitwise-etfs-api-openapi.yml
+  url: https://artifacts.apis.io/bitwise/openapi/bitwise-etfs-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: bitwise-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/bitwise-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: API key sent in the Authorization header. Request a key from api@bitwiseinvestments.com.\n  sources:\n  - openapi/bitwise-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitwise/refs/heads/main/authentication/bitwise-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bitwise/authentication/bitwise-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

@@ -7,43 +7,43 @@ api_specs:
   label: Luciq Webhooks
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/asyncapi/instabug-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/instabug/asyncapi/instabug-webhooks-asyncapi.yml
 - filename: instabug-app-hangs-api-openapi.yml
   format: yaml
   label: Instabug (Luciq) App Hangs API
   slug: instabug-app-hangs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/openapi/instabug-app-hangs-api-openapi.yml
+  url: https://artifacts.apis.io/instabug/openapi/instabug-app-hangs-api-openapi.yml
 - filename: instabug-applications-api-openapi.yml
   format: yaml
   label: Instabug (Luciq) Applications API
   slug: instabug-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/openapi/instabug-applications-api-openapi.yml
+  url: https://artifacts.apis.io/instabug/openapi/instabug-applications-api-openapi.yml
 - filename: instabug-bugs-api-openapi.yml
   format: yaml
   label: Instabug (Luciq) Bugs API
   slug: instabug-bugs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/openapi/instabug-bugs-api-openapi.yml
+  url: https://artifacts.apis.io/instabug/openapi/instabug-bugs-api-openapi.yml
 - filename: instabug-crashes-api-openapi.yml
   format: yaml
   label: Instabug (Luciq) Crashes API
   slug: instabug-crashes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/openapi/instabug-crashes-api-openapi.yml
+  url: https://artifacts.apis.io/instabug/openapi/instabug-crashes-api-openapi.yml
 - filename: instabug-occurrences-api-openapi.yml
   format: yaml
   label: Instabug (Luciq) Occurrences API
   slug: instabug-occurrences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/openapi/instabug-occurrences-api-openapi.yml
+  url: https://artifacts.apis.io/instabug/openapi/instabug-occurrences-api-openapi.yml
 - filename: instabug-reviews-api-openapi.yml
   format: yaml
   label: Instabug (Luciq) Reviews API
   slug: instabug-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/openapi/instabug-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/instabug/openapi/instabug-reviews-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -83,7 +83,7 @@ source_filename: instabug-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/instabug-mcp-server-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.luciq.ai/oauth/authorize\n    tokenUrl: https://api.luciq.ai/oauth/token\n    scopes: 1\n  description: OAuth 2.0 with Dynamic Client Registration. The Luciq MCP server advertises its\n    authorization and token endpoints to MCP clients that register dynamically — no pre-shared\n    client ID/secret is required.\n  sources:\n  - openapi/instabug-mcp-server-openapi.yml\n- name: personalAccessToken\n  type: http\n  scheme: bearer\n  bearerFormat: token\n  description: 'Personal Access Token generated from the Luciq dashboard under Account Management\n    > Luciq MCP. Pass as `Authorization: Bearer <pat>`.'\n  sources:\n  - openapi/instabug-mcp-server-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/authentication/instabug-authentication.yml
+source_yaml_url: https://artifacts.apis.io/instabug/authentication/instabug-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - AI Agents

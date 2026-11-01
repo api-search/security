@@ -5,61 +5,61 @@ api_specs:
   label: Paymob Accounts API
   slug: paymob-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/paymob/openapi/paymob-accounts-api-openapi.yml
 - filename: paymob-authentication-api-openapi.yml
   format: yaml
   label: Paymob Authentication API
   slug: paymob-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/paymob/openapi/paymob-authentication-api-openapi.yml
 - filename: paymob-capture-api-openapi.yml
   format: yaml
   label: Paymob Capture API
   slug: paymob-capture-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-capture-api-openapi.yml
+  url: https://artifacts.apis.io/paymob/openapi/paymob-capture-api-openapi.yml
 - filename: paymob-disbursement-api-openapi.yml
   format: yaml
   label: Paymob Disbursement API
   slug: paymob-disbursement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-disbursement-api-openapi.yml
+  url: https://artifacts.apis.io/paymob/openapi/paymob-disbursement-api-openapi.yml
 - filename: paymob-orders-api-openapi.yml
   format: yaml
   label: Paymob Orders API
   slug: paymob-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-orders-api-openapi.yml
+  url: https://artifacts.apis.io/paymob/openapi/paymob-orders-api-openapi.yml
 - filename: paymob-payment-keys-api-openapi.yml
   format: yaml
   label: Paymob Payment Keys API
   slug: paymob-payment-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-payment-keys-api-openapi.yml
+  url: https://artifacts.apis.io/paymob/openapi/paymob-payment-keys-api-openapi.yml
 - filename: paymob-payment-links-api-openapi.yml
   format: yaml
   label: Paymob Payment Links API
   slug: paymob-payment-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-payment-links-api-openapi.yml
+  url: https://artifacts.apis.io/paymob/openapi/paymob-payment-links-api-openapi.yml
 - filename: paymob-payments-api-openapi.yml
   format: yaml
   label: Paymob Payments API
   slug: paymob-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-payments-api-openapi.yml
+  url: https://artifacts.apis.io/paymob/openapi/paymob-payments-api-openapi.yml
 - filename: paymob-transactions-api-openapi.yml
   format: yaml
   label: Paymob Transactions API
   slug: paymob-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/paymob/openapi/paymob-transactions-api-openapi.yml
 - filename: paymob-top-up-api-openapi.yml
   format: yaml
   label: Paymob Top Up API
   slug: paymob-top-up-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-top-up-api-openapi.yml
+  url: https://artifacts.apis.io/paymob/openapi/paymob-top-up-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -105,7 +105,7 @@ source_filename: paymob-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: paymob.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 23:59:59 2026 GMT\n  hsts: false\n- host: developers.paymob.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 12:18:15 2026 GMT\n  hsts: null\n- host: payouts.paymobsolutions.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jul 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: paymob.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: paymobsolutions.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/security/paymob-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/paymob/security/paymob-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments

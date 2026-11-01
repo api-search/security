@@ -5,43 +5,43 @@ api_specs:
   label: OpenRouter Completions API
   slug: openrouter-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openrouter/refs/heads/main/openapi/openrouter-completions-api-openapi.yml
+  url: https://artifacts.apis.io/openrouter/openapi/openrouter-completions-api-openapi.yml
 - filename: openrouter-credits-api-openapi.yml
   format: yaml
   label: OpenRouter Credits API
   slug: openrouter-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openrouter/refs/heads/main/openapi/openrouter-credits-api-openapi.yml
+  url: https://artifacts.apis.io/openrouter/openapi/openrouter-credits-api-openapi.yml
 - filename: openrouter-generation-api-openapi.yml
   format: yaml
   label: OpenRouter Generation API
   slug: openrouter-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openrouter/refs/heads/main/openapi/openrouter-generation-api-openapi.yml
+  url: https://artifacts.apis.io/openrouter/openapi/openrouter-generation-api-openapi.yml
 - filename: openrouter-keys-api-openapi.yml
   format: yaml
   label: OpenRouter Keys API
   slug: openrouter-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openrouter/refs/heads/main/openapi/openrouter-keys-api-openapi.yml
+  url: https://artifacts.apis.io/openrouter/openapi/openrouter-keys-api-openapi.yml
 - filename: openrouter-models-api-openapi.yml
   format: yaml
   label: OpenRouter Models API
   slug: openrouter-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openrouter/refs/heads/main/openapi/openrouter-models-api-openapi.yml
+  url: https://artifacts.apis.io/openrouter/openapi/openrouter-models-api-openapi.yml
 - filename: openrouter-providers-api-openapi.yml
   format: yaml
   label: OpenRouter Providers API
   slug: openrouter-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openrouter/refs/heads/main/openapi/openrouter-providers-api-openapi.yml
+  url: https://artifacts.apis.io/openrouter/openapi/openrouter-providers-api-openapi.yml
 - filename: openrouter-chat-completions-api-openapi.yml
   format: yaml
   label: OpenRouter Chat Completions API
   slug: openrouter-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openrouter/refs/heads/main/openapi/openrouter-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/openrouter/openapi/openrouter-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +71,7 @@ source_filename: openrouter-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: openrouter.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 19:49:33 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: openrouter.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openrouter/refs/heads/main/security/openrouter-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/openrouter/security/openrouter-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

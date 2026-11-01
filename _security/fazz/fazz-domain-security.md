@@ -5,19 +5,19 @@ api_specs:
   label: Fazz Disbursements API
   slug: fazz-disbursements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/openapi/fazz-disbursements-api-openapi.yml
+  url: https://artifacts.apis.io/fazz/openapi/fazz-disbursements-api-openapi.yml
 - filename: fazz-payment-methods-api-openapi.yml
   format: yaml
   label: Fazz Payment Methods API
   slug: fazz-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/openapi/fazz-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/fazz/openapi/fazz-payment-methods-api-openapi.yml
 - filename: fazz-payments-api-openapi.yml
   format: yaml
   label: Fazz Payments API
   slug: fazz-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/openapi/fazz-payments-api-openapi.yml
+  url: https://artifacts.apis.io/fazz/openapi/fazz-payments-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -74,7 +74,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.xfers.io\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: Google Trust Services (WE1)\n  cert_expires: Aug 23 03:38:06 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  notes: Production Fazz Payments API host (base path /api/v4).\n- host: fazz.com\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: Google Trust Services (WE1)\n  cert_expires: Sep 23 07:17:40 2026 GMT\n  hsts: false\n  notes: Corporate/marketing site; no HSTS header observed on the root response.\n- host: docs.fazz.com\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: Let's Encrypt (YE2)\n  cert_expires: Aug 29 07:54:17 2026 GMT\n  notes: Developer documentation portal.\ndomains:\n- domain: fazz.com\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: 'v=spf1 include:_spf.google.com include:mail.zendesk.com include:_spf.smtp.mailtrap.live\
   \ ~all'\n  dmarc: true\n  dmarc_policy: quarantine\n  dmarc_record: 'v=DMARC1; p=quarantine; rua=mailto:dmarc@smtp.mailtrap.live; ruf=mailto:dmarc@smtp.mailtrap.live; rf=afrf; pct=100'\n- domain: xfers.io\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: 'v=spf1 include:_spf.google.com include:mailgun.org ~all'\n  dmarc: true\n  dmarc_policy: quarantine\n  dmarc_record: 'v=DMARC1; p=quarantine; rua=mailto:enablethisnexttime@xfers.io'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/security/fazz-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fazz/security/fazz-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fintech

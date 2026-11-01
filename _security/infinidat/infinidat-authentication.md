@@ -8,49 +8,49 @@ api_specs:
   label: Infinidat Components API
   slug: infinidat-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infinidat/refs/heads/main/openapi/infinidat-components-api-openapi.yml
+  url: https://artifacts.apis.io/infinidat/openapi/infinidat-components-api-openapi.yml
 - filename: infinidat-config-api-openapi.yml
   format: yaml
   label: Infinidat Config API
   slug: infinidat-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infinidat/refs/heads/main/openapi/infinidat-config-api-openapi.yml
+  url: https://artifacts.apis.io/infinidat/openapi/infinidat-config-api-openapi.yml
 - filename: infinidat-filesystems-api-openapi.yml
   format: yaml
   label: Infinidat Filesystems API
   slug: infinidat-filesystems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infinidat/refs/heads/main/openapi/infinidat-filesystems-api-openapi.yml
+  url: https://artifacts.apis.io/infinidat/openapi/infinidat-filesystems-api-openapi.yml
 - filename: infinidat-hosts-api-openapi.yml
   format: yaml
   label: Infinidat Hosts API
   slug: infinidat-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infinidat/refs/heads/main/openapi/infinidat-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/infinidat/openapi/infinidat-hosts-api-openapi.yml
 - filename: infinidat-metadata-api-openapi.yml
   format: yaml
   label: Infinidat Metadata API
   slug: infinidat-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infinidat/refs/heads/main/openapi/infinidat-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/infinidat/openapi/infinidat-metadata-api-openapi.yml
 - filename: infinidat-pools-api-openapi.yml
   format: yaml
   label: Infinidat Pools API
   slug: infinidat-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infinidat/refs/heads/main/openapi/infinidat-pools-api-openapi.yml
+  url: https://artifacts.apis.io/infinidat/openapi/infinidat-pools-api-openapi.yml
 - filename: infinidat-system-api-openapi.yml
   format: yaml
   label: Infinidat System API
   slug: infinidat-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infinidat/refs/heads/main/openapi/infinidat-system-api-openapi.yml
+  url: https://artifacts.apis.io/infinidat/openapi/infinidat-system-api-openapi.yml
 - filename: infinidat-users-api-openapi.yml
   format: yaml
   label: Infinidat Users API
   slug: infinidat-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infinidat/refs/heads/main/openapi/infinidat-users-api-openapi.yml
+  url: https://artifacts.apis.io/infinidat/openapi/infinidat-users-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -85,7 +85,7 @@ source_filename: infinidat-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-01'\nmethod: derived\nsource: openapi/infinidat-infinibox-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - cookie\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication with an InfiniBox user, as used by InfiniSDK.\n  sources:\n  - openapi/infinidat-infinibox-openapi.yml\n- name: sessionCookie\n  type: apiKey\n  in: cookie\n  parameter: sessionid\n  description: Session established by POST /users/login and torn down by POST /users/logout.\n  sources:\n  - openapi/infinidat-infinibox-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infinidat/refs/heads/main/authentication/infinidat-authentication.yml
+source_yaml_url: https://artifacts.apis.io/infinidat/authentication/infinidat-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

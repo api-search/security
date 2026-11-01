@@ -5,25 +5,25 @@ api_specs:
   label: Sojo Industries Chat API
   slug: sojo-industries-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sojo-industries/refs/heads/main/openapi/sojo-industries-chat-api-openapi.yml
+  url: https://artifacts.apis.io/sojo-industries/openapi/sojo-industries-chat-api-openapi.yml
 - filename: sojo-industries-conversations-api-openapi.yml
   format: yaml
   label: Sojo Industries Conversations API
   slug: sojo-industries-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sojo-industries/refs/heads/main/openapi/sojo-industries-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/sojo-industries/openapi/sojo-industries-conversations-api-openapi.yml
 - filename: sojo-industries-files-api-openapi.yml
   format: yaml
   label: Sojo Industries Files API
   slug: sojo-industries-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sojo-industries/refs/heads/main/openapi/sojo-industries-files-api-openapi.yml
+  url: https://artifacts.apis.io/sojo-industries/openapi/sojo-industries-files-api-openapi.yml
 - filename: sojo-industries-health-api-openapi.yml
   format: yaml
   label: Sojo Industries Health API
   slug: sojo-industries-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sojo-industries/refs/heads/main/openapi/sojo-industries-health-api-openapi.yml
+  url: https://artifacts.apis.io/sojo-industries/openapi/sojo-industries-health-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -68,7 +68,7 @@ source_filename: sojo-industries-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sojoindustries.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 17:24:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: sojoshield.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 18 23:59:59 2027 GMT\n  hsts: false\n- host: victoria-agent.sojoshield.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 23 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: sojoindustries.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: sojoshield.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sojo-industries/refs/heads/main/security/sojo-industries-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sojo-industries/security/sojo-industries-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

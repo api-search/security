@@ -8,7 +8,7 @@ api_specs:
   label: FoodData Central FDC API
   slug: fooddata-fdc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fooddata-central/refs/heads/main/openapi/fooddata-central-fdc-api-openapi.yml
+  url: https://artifacts.apis.io/fooddata-central/openapi/fooddata-central-fdc-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -35,7 +35,7 @@ source_filename: fooddata-central-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fooddata-central-api-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: query\n  parameter: api_key\n  sources:\n  - openapi/fooddata-central-api-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fooddata-central/refs/heads/main/authentication/fooddata-central-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fooddata-central/authentication/fooddata-central-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Health

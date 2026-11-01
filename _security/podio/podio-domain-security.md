@@ -5,31 +5,31 @@ api_specs:
   label: Podio Applications API
   slug: podio-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/openapi/podio-applications-api-openapi.yml
+  url: https://artifacts.apis.io/podio/openapi/podio-applications-api-openapi.yml
 - filename: podio-hooks-api-openapi.yml
   format: yaml
   label: Podio Hooks API
   slug: podio-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/openapi/podio-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/podio/openapi/podio-hooks-api-openapi.yml
 - filename: podio-items-api-openapi.yml
   format: yaml
   label: Podio Items API
   slug: podio-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/openapi/podio-items-api-openapi.yml
+  url: https://artifacts.apis.io/podio/openapi/podio-items-api-openapi.yml
 - filename: podio-tasks-api-openapi.yml
   format: yaml
   label: Podio Tasks API
   slug: podio-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/openapi/podio-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/podio/openapi/podio-tasks-api-openapi.yml
 - filename: podio-oauth-api-openapi.yml
   format: yaml
   label: Podio O Auth API
   slug: podio-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/openapi/podio-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/podio/openapi/podio-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: podio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.podio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 20 23:59:59 2026 GMT\n  hsts: false\n- host: developers.podio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 29 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.podio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 29 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: podio.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/security/podio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/podio/security/podio-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Work Management

@@ -7,43 +7,43 @@ api_specs:
   label: Corbado Exports API
   slug: corbado-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-exports-api-openapi.yml
+  url: https://artifacts.apis.io/corbado/openapi/corbado-exports-api-openapi.yml
 - filename: corbado-identifiers-api-openapi.yml
   format: yaml
   label: Corbado Identifiers API
   slug: corbado-identifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-identifiers-api-openapi.yml
+  url: https://artifacts.apis.io/corbado/openapi/corbado-identifiers-api-openapi.yml
 - filename: corbado-passkeyevents-api-openapi.yml
   format: yaml
   label: Corbado PasskeyEvents API
   slug: corbado-passkeyevents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-passkeyevents-api-openapi.yml
+  url: https://artifacts.apis.io/corbado/openapi/corbado-passkeyevents-api-openapi.yml
 - filename: corbado-passkeys-api-openapi.yml
   format: yaml
   label: Corbado Passkeys API
   slug: corbado-passkeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-passkeys-api-openapi.yml
+  url: https://artifacts.apis.io/corbado/openapi/corbado-passkeys-api-openapi.yml
 - filename: corbado-sessions-api-openapi.yml
   format: yaml
   label: Corbado Sessions API
   slug: corbado-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/corbado/openapi/corbado-sessions-api-openapi.yml
 - filename: corbado-users-api-openapi.yml
   format: yaml
   label: Corbado Users API
   slug: corbado-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-users-api-openapi.yml
+  url: https://artifacts.apis.io/corbado/openapi/corbado-users-api-openapi.yml
 - filename: corbado-connect-tokens-api-openapi.yml
   format: yaml
   label: Corbado Connect Tokens API
   slug: corbado-connect-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-connect-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/corbado/openapi/corbado-connect-tokens-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -70,7 +70,7 @@ source_filename: corbado-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/corbado-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication. The username is the project ID (e.g. pro-1234567890)\n    and the password is the API secret, both issued from the Corbado Developer Panel.\n  sources:\n  - openapi/corbado-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/authentication/corbado-authentication.yml
+source_yaml_url: https://artifacts.apis.io/corbado/authentication/corbado-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Authentication

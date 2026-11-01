@@ -8,31 +8,31 @@ api_specs:
   label: Windsurf CascadeAnalytics API
   slug: windsurf-cascadeanalytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurf-cascadeanalytics-api-openapi.yml
+  url: https://artifacts.apis.io/windsurf/openapi/windsurf-cascadeanalytics-api-openapi.yml
 - filename: windsurf-creditbalance-api-openapi.yml
   format: yaml
   label: Windsurf CreditBalance API
   slug: windsurf-creditbalance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurf-creditbalance-api-openapi.yml
+  url: https://artifacts.apis.io/windsurf/openapi/windsurf-creditbalance-api-openapi.yml
 - filename: windsurf-customanalytics-api-openapi.yml
   format: yaml
   label: Windsurf CustomAnalytics API
   slug: windsurf-customanalytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurf-customanalytics-api-openapi.yml
+  url: https://artifacts.apis.io/windsurf/openapi/windsurf-customanalytics-api-openapi.yml
 - filename: windsurf-usageconfiguration-api-openapi.yml
   format: yaml
   label: Windsurf UsageConfiguration API
   slug: windsurf-usageconfiguration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurf-usageconfiguration-api-openapi.yml
+  url: https://artifacts.apis.io/windsurf/openapi/windsurf-usageconfiguration-api-openapi.yml
 - filename: windsurf-user-analytics-api-openapi.yml
   format: yaml
   label: Windsurf User Analytics API
   slug: windsurf-user-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurf-user-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/windsurf/openapi/windsurf-user-analytics-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: windsurf-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/windsurf-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: serviceKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Service key authentication for Windsurf enterprise deployments\n  sources:\n  - openapi/windsurf-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/authentication/windsurf-authentication.yml
+source_yaml_url: https://artifacts.apis.io/windsurf/authentication/windsurf-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence

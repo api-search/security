@@ -19,7 +19,7 @@ source_filename: inovalon-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nprobe: true\nsource: https://trust.inovalon.com/\nurl: https://trust.inovalon.com/\ncertifications:\n- HITRUST\n- PCI DSS v4.0.1\n- SOC 1 Type 2\n- SOC 2\n- SOC 2 Type 2\ncompliance_programs:\n- HIPAA\n- Cloud Security Guidance\nresponsible_disclosure: true\nevidence:\n- source: https://trust.inovalon.com/\n  keywords:\n  - hitrust\n  - soc 1 type 2\n  - soc 2 type 2\n  - pci dss v4.0.1\n  - responsible disclosure\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inovalon/refs/heads/main/security/inovalon-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/inovalon/security/inovalon-trust-center.yml
 summary_line: HITRUST, PCI DSS v4.0.1, SOC 1 Type 2, SOC 2, SOC 2 Type 2
 tags:
 - Company

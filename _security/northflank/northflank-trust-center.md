@@ -5,25 +5,25 @@ api_specs:
   label: Northflank Jobs API
   slug: northflank-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northflank/refs/heads/main/openapi/northflank-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/northflank/openapi/northflank-jobs-api-openapi.yml
 - filename: northflank-projects-api-openapi.yml
   format: yaml
   label: Northflank Projects API
   slug: northflank-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northflank/refs/heads/main/openapi/northflank-projects-api-openapi.yml
+  url: https://artifacts.apis.io/northflank/openapi/northflank-projects-api-openapi.yml
 - filename: northflank-services-api-openapi.yml
   format: yaml
   label: Northflank Services API
   slug: northflank-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northflank/refs/heads/main/openapi/northflank-services-api-openapi.yml
+  url: https://artifacts.apis.io/northflank/openapi/northflank-services-api-openapi.yml
 - filename: northflank-add-ons-api-openapi.yml
   format: yaml
   label: Northflank Add Ons API
   slug: northflank-add-ons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northflank/refs/heads/main/openapi/northflank-add-ons-api-openapi.yml
+  url: https://artifacts.apis.io/northflank/openapi/northflank-add-ons-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -42,7 +42,7 @@ source_filename: northflank-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://northflank.com/security\nurl: https://northflank.com/security\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\nevidence:\n- source: https://northflank.com/security\n  keywords:\n  - soc 2\n  - iso 27001\n  - hipaa\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/northflank/refs/heads/main/security/northflank-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/northflank/security/northflank-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA
 tags:
 - Cloud Deployment

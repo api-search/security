@@ -7,49 +7,49 @@ api_specs:
   label: Virtual Peaker Commands API
   slug: virtual-peaker-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/openapi/virtual-peaker-commands-api-openapi.yml
+  url: https://artifacts.apis.io/virtual-peaker/openapi/virtual-peaker-commands-api-openapi.yml
 - filename: virtual-peaker-devices-api-openapi.yml
   format: yaml
   label: Virtual Peaker Devices API
   slug: virtual-peaker-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/openapi/virtual-peaker-devices-api-openapi.yml
+  url: https://artifacts.apis.io/virtual-peaker/openapi/virtual-peaker-devices-api-openapi.yml
 - filename: virtual-peaker-energy-interval-endpoint-api-openapi.yml
   format: yaml
   label: Virtual Peaker Energy Interval Endpoint API
   slug: virtual-peaker-energy-interval-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/openapi/virtual-peaker-energy-interval-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/virtual-peaker/openapi/virtual-peaker-energy-interval-endpoint-api-openapi.yml
 - filename: virtual-peaker-group-management-api-openapi.yml
   format: yaml
   label: Virtual Peaker Group Management API
   slug: virtual-peaker-group-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/openapi/virtual-peaker-group-management-api-openapi.yml
+  url: https://artifacts.apis.io/virtual-peaker/openapi/virtual-peaker-group-management-api-openapi.yml
 - filename: virtual-peaker-oauth-device-discovery-preferred-api-openapi.yml
   format: yaml
   label: Virtual Peaker OAuth Device Discovery (Preferred) API
   slug: virtual-peaker-oauth-device-discovery-preferred-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/openapi/virtual-peaker-oauth-device-discovery-preferred-api-openapi.yml
+  url: https://artifacts.apis.io/virtual-peaker/openapi/virtual-peaker-oauth-device-discovery-preferred-api-openapi.yml
 - filename: virtual-peaker-pairing-code-device-discovery-end-user-app-api-openapi.yml
   format: yaml
   label: Virtual Peaker Pairing Code Device Discovery - End User App API
   slug: virtual-peaker-pairing-code-device-discovery-end-user-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/openapi/virtual-peaker-pairing-code-device-discovery-end-user-app-api-openapi.yml
+  url: https://artifacts.apis.io/virtual-peaker/openapi/virtual-peaker-pairing-code-device-discovery-end-user-app-api-openapi.yml
 - filename: virtual-peaker-pairing-code-device-discovery-utility-commissioned-installation-api-openapi.yml
   format: yaml
   label: Virtual Peaker Pairing Code Device Discovery - Utility Commissioned Installation API
   slug: virtual-peaker-pairing-code-device-discovery-utility-commissioned-installation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/openapi/virtual-peaker-pairing-code-device-discovery-utility-commissioned-installation-api-openapi.yml
+  url: https://artifacts.apis.io/virtual-peaker/openapi/virtual-peaker-pairing-code-device-discovery-utility-commissioned-installation-api-openapi.yml
 - filename: virtual-peaker-publishing-api-openapi.yml
   format: yaml
   label: Virtual Peaker Publishing API
   slug: virtual-peaker-publishing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/openapi/virtual-peaker-publishing-api-openapi.yml
+  url: https://artifacts.apis.io/virtual-peaker/openapi/virtual-peaker-publishing-api-openapi.yml
 auth_types:
 - oauth2
 - hmac
@@ -144,7 +144,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: openapi/virtual
   \ VPP -> Device Partner (homeowner-consented)\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/oauth/authorize\n    tokenUrl: https://example.com/oauth/token\n    scopes: 1\n    scope_names: [user_read]\n  description: >-\n    If using the OAuth onboarding method, this authentication method is used for the respective\n    endpoints (published description). Used by the OAuth Device Discovery enrollment flow, where\n    the homeowner logs in to the device partner and grants the VPP access to their devices. May\n    reuse the client-credentials application or use separate credentials.\n  applies_to_operations: [readCurrentUser, readCurrentUserDevices]\n  pkce: not specified in the specification\n  sources:\n  - openapi/virtual-peaker-gravity-connect-device-partner-api-openapi.yml\n- name: publish_hmac\n  type: hmac\n  algorithm: HMAC-SHA256\n  direction: Device Partner -> VPP\n  declared_in_spec: false\n  header: Authorization\n  value_format: 'Publish <hex-hmac>'\n\
   \  signed_material: the raw JSON request body\n  key_material:\n  - name: PROGRAM_PUBLISH_SECRET\n    issued: when the utility program is set up\n    used_by: [publishCommand, publishDeviceEnrollment, publishDevicePartnerDrivenEnrollment]\n  - name: DEVICE_PUBLISH_SECRET\n    issued: per device, delivered when the VPP calls modifySubscription at enrollment\n    used_by: [publishSignalSetting, publishDeviceCommand]\n  path_identifier: PROGRAM_PUBLISH_KEY (path parameter on every publishing endpoint)\n  reference_implementation: |\n    const crypto = require('crypto');\n    const computedHMAC = crypto.createHmac('sha256', secret).update(body).digest('hex');\n    // Authorization: Publish ${computedHMAC}\n  history: spec 1.2.0 clarified the header is `Authorization`, not `Authentication`\n  sources:\n  - https://assets.virtualpeaker.io/gravity-connect/vp-api.html#section/Authentication\n  - openapi/virtual-peaker-gravity-connect-vpp-api-openapi.yml\ngaps:\n- the VPP publishing document declares\
   \ no securityScheme at all — see\n  overlays/virtual-peaker-gravity-connect-vpp-api-overlay.yaml for the recommended declaration\n- the root security requirement of the device-partner document references a scope\n  (device_partner_basic_auth) that no flow declares\n- no OIDC discovery, no RFC 8414 metadata, no PKCE requirement, no mTLS\n- no token lifetime, refresh or rotation policy is published\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/authentication/virtual-peaker-authentication.yml
+source_yaml_url: https://artifacts.apis.io/virtual-peaker/authentication/virtual-peaker-authentication.yml
 summary_line: oauth2/hmac · 3 schemes
 tags:
 - Energy

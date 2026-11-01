@@ -5,43 +5,43 @@ api_specs:
   label: Vocode Actions API
   slug: vocode-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vocode/refs/heads/main/openapi/vocode-actions-api-openapi.yml
+  url: https://artifacts.apis.io/vocode/openapi/vocode-actions-api-openapi.yml
 - filename: vocode-agents-api-openapi.yml
   format: yaml
   label: Vocode Agents API
   slug: vocode-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vocode/refs/heads/main/openapi/vocode-agents-api-openapi.yml
+  url: https://artifacts.apis.io/vocode/openapi/vocode-agents-api-openapi.yml
 - filename: vocode-calls-api-openapi.yml
   format: yaml
   label: Vocode Calls API
   slug: vocode-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vocode/refs/heads/main/openapi/vocode-calls-api-openapi.yml
+  url: https://artifacts.apis.io/vocode/openapi/vocode-calls-api-openapi.yml
 - filename: vocode-numbers-api-openapi.yml
   format: yaml
   label: Vocode Numbers API
   slug: vocode-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vocode/refs/heads/main/openapi/vocode-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/vocode/openapi/vocode-numbers-api-openapi.yml
 - filename: vocode-usage-api-openapi.yml
   format: yaml
   label: Vocode Usage API
   slug: vocode-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vocode/refs/heads/main/openapi/vocode-usage-api-openapi.yml
+  url: https://artifacts.apis.io/vocode/openapi/vocode-usage-api-openapi.yml
 - filename: vocode-voices-api-openapi.yml
   format: yaml
   label: Vocode Voices API
   slug: vocode-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vocode/refs/heads/main/openapi/vocode-voices-api-openapi.yml
+  url: https://artifacts.apis.io/vocode/openapi/vocode-voices-api-openapi.yml
 - filename: vocode-webhooks-api-openapi.yml
   format: yaml
   label: Vocode Webhooks API
   slug: vocode-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vocode/refs/heads/main/openapi/vocode-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/vocode/openapi/vocode-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -79,7 +79,7 @@ source_filename: vocode-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.vocode.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 07:58:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.vocode.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 14:35:54 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.vocode.dev\n  https: false\ndomains:\n- domain: vocode.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vocode/refs/heads/main/security/vocode-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vocode/security/vocode-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Voice AI

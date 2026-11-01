@@ -7,13 +7,13 @@ api_specs:
   label: CopThis Orders API
   slug: copthis-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/copthis/refs/heads/main/openapi/copthis-orders-api-openapi.yml
+  url: https://artifacts.apis.io/copthis/openapi/copthis-orders-api-openapi.yml
 - filename: copthis-stores-api-openapi.yml
   format: yaml
   label: CopThis Stores API
   slug: copthis-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/copthis/refs/heads/main/openapi/copthis-stores-api-openapi.yml
+  url: https://artifacts.apis.io/copthis/openapi/copthis-stores-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: copthis-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/copthis-partner-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic Authentication over HTTPS. Merchbar recommends a randomly generated\n    token as the username and a blank password. Non-TLS connections are rejected.\n  sources:\n  - openapi/copthis-partner-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/copthis/refs/heads/main/authentication/copthis-authentication.yml
+source_yaml_url: https://artifacts.apis.io/copthis/authentication/copthis-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

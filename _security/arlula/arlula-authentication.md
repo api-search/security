@@ -7,25 +7,25 @@ api_specs:
   label: Arlula Archive API
   slug: arlula-archive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arlula/refs/heads/main/openapi/arlula-archive-api-openapi.yml
+  url: https://artifacts.apis.io/arlula/openapi/arlula-archive-api-openapi.yml
 - filename: arlula-connection-api-openapi.yml
   format: yaml
   label: Arlula Connection API
   slug: arlula-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arlula/refs/heads/main/openapi/arlula-connection-api-openapi.yml
+  url: https://artifacts.apis.io/arlula/openapi/arlula-connection-api-openapi.yml
 - filename: arlula-orders-api-openapi.yml
   format: yaml
   label: Arlula Orders API
   slug: arlula-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arlula/refs/heads/main/openapi/arlula-orders-api-openapi.yml
+  url: https://artifacts.apis.io/arlula/openapi/arlula-orders-api-openapi.yml
 - filename: arlula-tasking-api-openapi.yml
   format: yaml
   label: Arlula Tasking API
   slug: arlula-tasking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arlula/refs/heads/main/openapi/arlula-tasking-api-openapi.yml
+  url: https://artifacts.apis.io/arlula/openapi/arlula-tasking-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: arlula-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/arlula-openapi.yaml\nsummary:\n  types:\n  - http\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic Authentication using API Key as username and API Secret as password.\n    Credentials are obtained from the Arlula dashboard at https://dashboard.arlula.com/apis.\n  sources:\n  - openapi/arlula-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arlula/refs/heads/main/authentication/arlula-authentication.yml
+source_yaml_url: https://artifacts.apis.io/arlula/authentication/arlula-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Earth Observation

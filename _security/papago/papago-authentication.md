@@ -8,7 +8,7 @@ api_specs:
   label: Papago API
   slug: papago-papago-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/papago/refs/heads/main/openapi/papago-papago-api-openapi.yml
+  url: https://artifacts.apis.io/papago/openapi/papago-papago-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -43,7 +43,7 @@ source_filename: papago-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: clientId\n  type: apiKey\n  in: header\n  parameter: X-Naver-Client-Id\n  description: Client ID issued when registering an application on the Naver Developer Center.\n  sources:\n  - openapi/openapi.yaml\n- name: clientSecret\n  type: apiKey\n  in: header\n  parameter: X-Naver-Client-Secret\n  description: Client secret issued when registering an application on the Naver Developer Center.\n  sources:\n  - openapi/openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/papago/refs/heads/main/authentication/papago-authentication.yml
+source_yaml_url: https://artifacts.apis.io/papago/authentication/papago-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Translation

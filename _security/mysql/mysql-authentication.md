@@ -8,7 +8,7 @@ api_specs:
   label: MySQL Authentication API
   slug: mysql-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mysql/refs/heads/main/openapi/mysql-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/mysql/openapi/mysql-authentication-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -43,7 +43,7 @@ source_filename: mysql-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/mysql-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - cookie\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token obtained from an MRS authentication flow.\n  sources:\n  - openapi/mysql-openapi.yml\n- name: cookieAuth\n  type: apiKey\n  in: cookie\n  parameter: session_id\n  description: Session cookie obtained from an MRS authentication flow.\n  sources:\n  - openapi/mysql-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mysql/refs/heads/main/authentication/mysql-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mysql/authentication/mysql-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Database

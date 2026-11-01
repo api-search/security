@@ -5,13 +5,13 @@ api_specs:
   label: Propel O Auth2 API
   slug: propel-data-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propel-data/refs/heads/main/openapi/propel-data-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/propel-data/openapi/propel-data-oauth2-api-openapi.yml
 - filename: propel-data-graph-ql-api-openapi.yml
   format: yaml
   label: Propel Graph QL API
   slug: propel-data-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propel-data/refs/heads/main/openapi/propel-data-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/propel-data/openapi/propel-data-graph-ql-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -44,7 +44,7 @@ source_filename: propel-data-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.propeldata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 22 14:42:25 2026 GMT\n  hsts: false\n- host: api.us-east-2.propeldata.com\n  https: false\n- host: auth.us-east-2.propeldata.com\n  https: false\ndomains:\n- domain: propeldata.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/propel-data/refs/heads/main/security/propel-data-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/propel-data/security/propel-data-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Analytics

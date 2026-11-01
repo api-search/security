@@ -5,37 +5,37 @@ api_specs:
   label: MLflow Artifacts API
   slug: mlflow-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/openapi/mlflow-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/mlflow/openapi/mlflow-artifacts-api-openapi.yml
 - filename: mlflow-experiments-api-openapi.yml
   format: yaml
   label: MLflow Experiments API
   slug: mlflow-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/openapi/mlflow-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/mlflow/openapi/mlflow-experiments-api-openapi.yml
 - filename: mlflow-metrics-api-openapi.yml
   format: yaml
   label: MLflow Metrics API
   slug: mlflow-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/openapi/mlflow-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/mlflow/openapi/mlflow-metrics-api-openapi.yml
 - filename: mlflow-model-versions-api-openapi.yml
   format: yaml
   label: MLflow Model Versions API
   slug: mlflow-model-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/openapi/mlflow-model-versions-api-openapi.yml
+  url: https://artifacts.apis.io/mlflow/openapi/mlflow-model-versions-api-openapi.yml
 - filename: mlflow-registered-models-api-openapi.yml
   format: yaml
   label: MLflow Registered Models API
   slug: mlflow-registered-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/openapi/mlflow-registered-models-api-openapi.yml
+  url: https://artifacts.apis.io/mlflow/openapi/mlflow-registered-models-api-openapi.yml
 - filename: mlflow-runs-api-openapi.yml
   format: yaml
   label: MLflow Runs API
   slug: mlflow-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/openapi/mlflow-runs-api-openapi.yml
+  url: https://artifacts.apis.io/mlflow/openapi/mlflow-runs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: mlflow-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mlflow.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  7 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: mlflow.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/security/mlflow-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mlflow/security/mlflow-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Machine Learning

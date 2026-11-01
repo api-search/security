@@ -7,31 +7,31 @@ api_specs:
   label: Indico Data Authentication API
   slug: indico-data-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/openapi/indico-data-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/indico-data/openapi/indico-data-authentication-api-openapi.yml
 - filename: indico-data-datasets-api-openapi.yml
   format: yaml
   label: Indico Data Datasets API
   slug: indico-data-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/openapi/indico-data-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/indico-data/openapi/indico-data-datasets-api-openapi.yml
 - filename: indico-data-storage-api-openapi.yml
   format: yaml
   label: Indico Data Storage API
   slug: indico-data-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/openapi/indico-data-storage-api-openapi.yml
+  url: https://artifacts.apis.io/indico-data/openapi/indico-data-storage-api-openapi.yml
 - filename: indico-data-submissions-api-openapi.yml
   format: yaml
   label: Indico Data Submissions API
   slug: indico-data-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/openapi/indico-data-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/indico-data/openapi/indico-data-submissions-api-openapi.yml
 - filename: indico-data-workflows-api-openapi.yml
   format: yaml
   label: Indico Data Workflows API
   slug: indico-data-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/openapi/indico-data-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/indico-data/openapi/indico-data-workflows-api-openapi.yml
 auth_types:
 - http-basic
 - http-bearer
@@ -68,7 +68,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://developer.indicodata.ai/docs/getting-started\ndocs: https://developer.indicodata.ai/docs/getting-started\nsummary:\n  types: [http-basic, http-bearer]\n  api_key_in: []\n  oauth2_flows: []\n  model: >-\n    Two-step token auth. Download an API token from the Account page of the\n    Intake / Agent Studio app. POST it via HTTP Basic Authentication to\n    /restapi/api/v1/auth/refreshToken to receive a short-lived JWT access_token\n    (expires after 15 minutes). Send that JWT as a Bearer token on all other REST\n    endpoints. Generating a new API token immediately expires all prior tokens.\nschemes:\n  - name: basicAuth\n    type: http\n    scheme: basic\n    used_for: /api/v1/auth/refreshToken (token exchange only)\n    sources: [openapi/indico-data-openapi.yml]\n  - name: bearerAuth\n    type: http\n    scheme: bearer\n    bearer_format: JWT\n    token_lifetime: 15 minutes\n    used_for: all data endpoints\n    sources:\
   \ [openapi/indico-data-openapi.yml]\nnotes:\n  - The GraphQL API (served at /graph/api/graphql) uses the same JWT bearer token.\n  - No OAuth2 authorization/scope surface is documented; there are no OAuth scopes.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/authentication/indico-data-authentication.yml
+source_yaml_url: https://artifacts.apis.io/indico-data/authentication/indico-data-authentication.yml
 summary_line: http-basic/http-bearer · 2 schemes
 tags:
 - Company

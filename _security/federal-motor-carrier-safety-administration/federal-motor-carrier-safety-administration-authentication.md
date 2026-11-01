@@ -8,7 +8,7 @@ api_specs:
   label: Federal Motor Carrier Safety Administration Carriers API
   slug: federal-motor-carrier-safety-administration-carriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-motor-carrier-safety-administration/refs/heads/main/openapi/federal-motor-carrier-safety-administration-carriers-api-openapi.yml
+  url: https://artifacts.apis.io/federal-motor-carrier-safety-administration/openapi/federal-motor-carrier-safety-administration-carriers-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -35,7 +35,7 @@ source_filename: federal-motor-carrier-safety-administration-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/federal-motor-carrier-safety-administration-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: WebKey\n  type: apiKey\n  in: query\n  parameter: webKey\n  sources:\n  - openapi/federal-motor-carrier-safety-administration-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/federal-motor-carrier-safety-administration/refs/heads/main/authentication/federal-motor-carrier-safety-administration-authentication.yml
+source_yaml_url: https://artifacts.apis.io/federal-motor-carrier-safety-administration/authentication/federal-motor-carrier-safety-administration-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Federal Government

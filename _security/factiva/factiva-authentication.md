@@ -44,31 +44,31 @@ api_specs:
   label: Factiva Content API
   slug: factiva-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-content-api-openapi.yml
+  url: https://artifacts.apis.io/factiva/openapi/factiva-content-api-openapi.yml
 - filename: factiva-content-search-api-openapi.yml
   format: yaml
   label: Factiva Content Search API
   slug: factiva-content-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-content-search-api-openapi.yml
+  url: https://artifacts.apis.io/factiva/openapi/factiva-content-search-api-openapi.yml
 - filename: factiva-default-api-openapi.yml
   format: yaml
   label: Factiva Default API
   slug: factiva-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-default-api-openapi.yml
+  url: https://artifacts.apis.io/factiva/openapi/factiva-default-api-openapi.yml
 - filename: factiva-editions-api-openapi.yml
   format: yaml
   label: Factiva Editions API
   slug: factiva-editions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-editions-api-openapi.yml
+  url: https://artifacts.apis.io/factiva/openapi/factiva-editions-api-openapi.yml
 - filename: factiva-newsletters-api-openapi.yml
   format: yaml
   label: Factiva Newsletters API
   slug: factiva-newsletters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-newsletters-api-openapi.yml
+  url: https://artifacts.apis.io/factiva/openapi/factiva-newsletters-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/factiva
   \ https://sso.accounts.dowjones.com/authorize\n  jwks_uri: https://sso.accounts.dowjones.com/.well-known/jwks.json\n  grant_types_supported:\n    - authorization_code\n    - implicit\n    - refresh_token\n    - password\n    - client_credentials\n    - urn:ietf:params:oauth:grant-type:jwt-bearer\n  grant_type_used_by_factiva: password\n  connection: service-account\n  pkce: [S256, plain]\n  id_token_signing_alg: [RS256, HS256]\n  documented_flows:\n    - name: Service Account Integration\n      grant: password\n      note: >-\n        The flow the Factiva Integration docs prescribe for server-to-server use; parameters are\n        username, client_id, password, connection=service-account, grant_type=password, scope.\n    - name: Authorization Code Grant Flow\n      grant: authorization_code\n      source: https://developer.dowjones.com/documents/site-docs-factiva_apis-factiva_analytics_apis-factiva_article_retrieval-authentication-authorization_code_grant_flow\n    - name: Implicit Grant\
   \ Flow\n      grant: implicit\n      source: https://developer.dowjones.com/documents/site-docs-factiva_apis-factiva_analytics_apis-factiva_article_retrieval-authentication-implicit_grant_flow\nschemes:\n  - name: bearerAuth\n    type: http\n    scheme: bearer\n    bearerFormat: JWT\n    sources:\n      - openapi/factiva-company-news-radar-api-openapi.json\n      - openapi/factiva-newsletters-api-openapi.json\n  - name: Bearer\n    type: apiKey\n    in: header\n    parameter: Authorization\n    sources:\n      - openapi/factiva-content-api-swagger.json\n    note: >-\n      Modelled as an apiKey header in the Swagger 2.0 Content API document; semantically the same\n      bearer token as `bearerAuth` in the OpenAPI 3 documents.\ncredentials:\n  issuance: >-\n    Credentials are not self-service. A customer submits the Request Trial form, a Dow Jones\n    representative matches the use case to a product, and credentials arrive by email.\n  request_url: https://developer.dowjones.com/request-trial\n\
   \  docs: https://developer.dowjones.com/documents/site-docs-getting_started-quick_start-getting_credentials\nobserved:\n  - request: GET https://api.dowjones.com/content/swagger (unauthenticated)\n    http_status: 403\n    body: '{\"errors\":[{\"title\":\"Authentication parameters missing\",\"status\":403,\"code\":1011001}]}'\n    fetched: '2026-08-13'\n    note: >-\n      Live unauthenticated probe. Confirms the gateway rejects with 403 (not 401) and returns a\n      JSON:API-shaped `errors[]` envelope carrying a numeric Dow Jones error code.\nrelated:\n  - scopes/factiva-scopes.yml\n  - conventions/factiva-conventions.yml\n  - well-known/factiva-well-known.yml\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/authentication/factiva-authentication.yml
+source_yaml_url: https://artifacts.apis.io/factiva/authentication/factiva-authentication.yml
 summary_line: apiKey/http/oauth2 · 2 schemes
 tags:
 - Artificial Intelligence

@@ -5,25 +5,25 @@ api_specs:
   label: Thoughtly Agent API
   slug: thoughtly-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/openapi/thoughtly-agent-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtly/openapi/thoughtly-agent-api-openapi.yml
 - filename: thoughtly-contact-api-openapi.yml
   format: yaml
   label: Thoughtly Contact API
   slug: thoughtly-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/openapi/thoughtly-contact-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtly/openapi/thoughtly-contact-api-openapi.yml
 - filename: thoughtly-user-api-openapi.yml
   format: yaml
   label: Thoughtly User API
   slug: thoughtly-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/openapi/thoughtly-user-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtly/openapi/thoughtly-user-api-openapi.yml
 - filename: thoughtly-webhooks-api-openapi.yml
   format: yaml
   label: Thoughtly Webhooks API
   slug: thoughtly-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/openapi/thoughtly-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtly/openapi/thoughtly-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: thoughtly-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: thoughtly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 16:10:45 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.thoughtly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 20:08:11 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.thoughtly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 06:05:13 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: thoughtly.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/security/thoughtly-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/thoughtly/security/thoughtly-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Voice AI

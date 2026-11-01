@@ -5,25 +5,25 @@ api_specs:
   label: Metals-API Analytics API
   slug: metals-api-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metals-api/refs/heads/main/openapi/metals-api-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/metals-api/openapi/metals-api-analytics-api-openapi.yml
 - filename: metals-api-conversion-api-openapi.yml
   format: yaml
   label: Metals-API Conversion API
   slug: metals-api-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metals-api/refs/heads/main/openapi/metals-api-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/metals-api/openapi/metals-api-conversion-api-openapi.yml
 - filename: metals-api-rates-api-openapi.yml
   format: yaml
   label: Metals-API Rates API
   slug: metals-api-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metals-api/refs/heads/main/openapi/metals-api-rates-api-openapi.yml
+  url: https://artifacts.apis.io/metals-api/openapi/metals-api-rates-api-openapi.yml
 - filename: metals-api-reference-api-openapi.yml
   format: yaml
   label: Metals-API Reference API
   slug: metals-api-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metals-api/refs/heads/main/openapi/metals-api-reference-api-openapi.yml
+  url: https://artifacts.apis.io/metals-api/openapi/metals-api-reference-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: metals-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: metals-api.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 02:43:54 2026 GMT\n  hsts: false\ndomains:\n- domain: metals-api.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metals-api/refs/heads/main/security/metals-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/metals-api/security/metals-api-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Currency

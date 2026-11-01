@@ -9,61 +9,61 @@ api_specs:
   label: Bureau of Transportation Statistics Metadata API
   slug: bureau-of-transportation-statistics-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-transportation-statistics/openapi/bureau-of-transportation-statistics-metadata-api-openapi.yml
 - filename: bureau-of-transportation-statistics-resource-api-openapi.yml
   format: yaml
   label: Bureau of Transportation Statistics Resource API
   slug: bureau-of-transportation-statistics-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-resource-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-transportation-statistics/openapi/bureau-of-transportation-statistics-resource-api-openapi.yml
 - filename: bureau-of-transportation-statistics-catalog-api-openapi.yml
   format: yaml
   label: Bureau of Transportation Statistics Catalog API
   slug: bureau-of-transportation-statistics-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-transportation-statistics/openapi/bureau-of-transportation-statistics-catalog-api-openapi.yml
 - filename: bureau-of-transportation-statistics-collection-api-openapi.yml
   format: yaml
   label: Bureau of Transportation Statistics Collection API
   slug: bureau-of-transportation-statistics-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-collection-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-transportation-statistics/openapi/bureau-of-transportation-statistics-collection-api-openapi.yml
 - filename: bureau-of-transportation-statistics-geoservice-beta-api-openapi.yml
   format: yaml
   label: Bureau of Transportation Statistics Geoservice Beta API
   slug: bureau-of-transportation-statistics-geoservice-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-geoservice-beta-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-transportation-statistics/openapi/bureau-of-transportation-statistics-geoservice-beta-api-openapi.yml
 - filename: bureau-of-transportation-statistics-ogcitem-api-openapi.yml
   format: yaml
   label: Bureau of Transportation Statistics Ogc Item API
   slug: bureau-of-transportation-statistics-ogcitem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-ogcitem-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-transportation-statistics/openapi/bureau-of-transportation-statistics-ogcitem-api-openapi.yml
 - filename: bureau-of-transportation-statistics-ogcitemaggregation-api-openapi.yml
   format: yaml
   label: Bureau of Transportation Statistics Ogc Item Aggregation API
   slug: bureau-of-transportation-statistics-ogcitemaggregation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-ogcitemaggregation-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-transportation-statistics/openapi/bureau-of-transportation-statistics-ogcitemaggregation-api-openapi.yml
 - filename: bureau-of-transportation-statistics-ogcroot-api-openapi.yml
   format: yaml
   label: Bureau of Transportation Statistics Ogc Root API
   slug: bureau-of-transportation-statistics-ogcroot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-ogcroot-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-transportation-statistics/openapi/bureau-of-transportation-statistics-ogcroot-api-openapi.yml
 - filename: bureau-of-transportation-statistics-ogcrootconformance-api-openapi.yml
   format: yaml
   label: Bureau of Transportation Statistics Ogc Root Conformance API
   slug: bureau-of-transportation-statistics-ogcrootconformance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-ogcrootconformance-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-transportation-statistics/openapi/bureau-of-transportation-statistics-ogcrootconformance-api-openapi.yml
 - filename: bureau-of-transportation-statistics-queryable-api-openapi.yml
   format: yaml
   label: Bureau of Transportation Statistics Queryable API
   slug: bureau-of-transportation-statistics-queryable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-queryable-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-transportation-statistics/openapi/bureau-of-transportation-statistics-queryable-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: openapi/bureau-
   . Register free, send it on every call, and expect nothing else\n  from it.\nschemes:\n- name: appToken\n  type: apiKey\n  in: header\n  parameter: X-App-Token\n  description: Socrata application token from data.bts.gov developer registration.\n  required: false\n  registration: https://data.bts.gov/profile/edit/developer_settings\n  docs: https://dev.socrata.com/docs/app-tokens.html\n  sources:\n  - openapi/bureau-of-transportation-statistics-resource-api-openapi.yml\n  - openapi/bureau-of-transportation-statistics-metadata-api-openapi.yml\n- name: appTokenQuery\n  type: apiKey\n  in: query\n  parameter: $$app_token\n  description: >-\n    The same application token passed as a query parameter, for clients that cannot set a\n    custom header (e.g. a browser fetch from a static page).\n  required: false\n  sources:\n  - openapi/bureau-of-transportation-statistics-resource-api-openapi.yml\nsurfaces:\n- host: data.bts.gov\n  auth: optional-api-key\n  scheme: appToken\n  verified: >-\n \
   \   GET https://data.bts.gov/resource/bw6n-ddqk.json?$limit=2 returned HTTP 200 with no\n    credential, 2026-09-05.\n- host: geodata.bts.gov\n  auth: none\n  scheme: null\n  verified: >-\n    GET https://geodata.bts.gov/api/search/v1/conformance and\n    /api/search/definition/?f=json both returned HTTP 200 anonymously, 2026-09-05. The\n    published OpenAPI declares no securitySchemes. Individual operations accept an optional\n    `token` query parameter for ArcGIS-secured items only.\n- host: services.arcgis.com/xOi1kZaI0eWDREZv\n  auth: optional-token\n  scheme: arcgis-token\n  verified: >-\n    GET .../arcgis/rest/info?f=json returns\n    authInfo.isTokenBasedSecurity true with tokenServicesUrl\n    https://www.arcgis.com/sharing/generateToken — this governs private items in the USDOT\n    ArcGIS Online tenant; the NTAD feature services referenced from geodata.bts.gov are\n    public and read without a token.\n- host: www.transtats.bts.gov\n  auth: none\n  scheme: null\n  verified:\
   \ >-\n    HTML query forms only, no machine-readable contract and no credential (HTTP 200,\n    2026-09-05).\noauth: false\nscopes: false\nscopes_note: >-\n  No scopes/ artifact is written: there is no OAuth surface anywhere on this provider, so\n  there is nothing to scope.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/authentication/bureau-of-transportation-statistics-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bureau-of-transportation-statistics/authentication/bureau-of-transportation-statistics-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Federal Government

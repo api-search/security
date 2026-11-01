@@ -5,55 +5,55 @@ api_specs:
   label: Phraseanet Account API
   slug: phraseanet-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-account-api-openapi.yml
+  url: https://artifacts.apis.io/phraseanet/openapi/phraseanet-account-api-openapi.yml
 - filename: phraseanet-baskets-api-openapi.yml
   format: yaml
   label: Phraseanet Baskets API
   slug: phraseanet-baskets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-baskets-api-openapi.yml
+  url: https://artifacts.apis.io/phraseanet/openapi/phraseanet-baskets-api-openapi.yml
 - filename: phraseanet-databoxes-api-openapi.yml
   format: yaml
   label: Phraseanet Databoxes API
   slug: phraseanet-databoxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-databoxes-api-openapi.yml
+  url: https://artifacts.apis.io/phraseanet/openapi/phraseanet-databoxes-api-openapi.yml
 - filename: phraseanet-feeds-api-openapi.yml
   format: yaml
   label: Phraseanet Feeds API
   slug: phraseanet-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/phraseanet/openapi/phraseanet-feeds-api-openapi.yml
 - filename: phraseanet-metadata-api-openapi.yml
   format: yaml
   label: Phraseanet Metadata API
   slug: phraseanet-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/phraseanet/openapi/phraseanet-metadata-api-openapi.yml
 - filename: phraseanet-quarantine-api-openapi.yml
   format: yaml
   label: Phraseanet Quarantine API
   slug: phraseanet-quarantine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-quarantine-api-openapi.yml
+  url: https://artifacts.apis.io/phraseanet/openapi/phraseanet-quarantine-api-openapi.yml
 - filename: phraseanet-records-api-openapi.yml
   format: yaml
   label: Phraseanet Records API
   slug: phraseanet-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-records-api-openapi.yml
+  url: https://artifacts.apis.io/phraseanet/openapi/phraseanet-records-api-openapi.yml
 - filename: phraseanet-search-api-openapi.yml
   format: yaml
   label: Phraseanet Search API
   slug: phraseanet-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-search-api-openapi.yml
+  url: https://artifacts.apis.io/phraseanet/openapi/phraseanet-search-api-openapi.yml
 - filename: phraseanet-stories-api-openapi.yml
   format: yaml
   label: Phraseanet Stories API
   slug: phraseanet-stories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-stories-api-openapi.yml
+  url: https://artifacts.apis.io/phraseanet/openapi/phraseanet-stories-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -86,7 +86,7 @@ source_filename: phraseanet-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.phraseanet.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 06:06:49 2026 GMT\n  hsts: false\n- host: docs.phraseanet.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 22 01:02:07 2026 GMT\n  hsts: false\ndomains:\n- domain: phraseanet.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/security/phraseanet-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/phraseanet/security/phraseanet-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Digital Asset Management

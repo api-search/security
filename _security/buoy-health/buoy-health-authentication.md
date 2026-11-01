@@ -7,37 +7,37 @@ api_specs:
   label: Buoy Health Complaints API
   slug: buoy-health-complaints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/openapi/buoy-health-complaints-api-openapi.yml
+  url: https://artifacts.apis.io/buoy-health/openapi/buoy-health-complaints-api-openapi.yml
 - filename: buoy-health-intents-api-openapi.yml
   format: yaml
   label: Buoy Health Intents API
   slug: buoy-health-intents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/openapi/buoy-health-intents-api-openapi.yml
+  url: https://artifacts.apis.io/buoy-health/openapi/buoy-health-intents-api-openapi.yml
 - filename: buoy-health-interviews-api-openapi.yml
   format: yaml
   label: Buoy Health Interviews API
   slug: buoy-health-interviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/openapi/buoy-health-interviews-api-openapi.yml
+  url: https://artifacts.apis.io/buoy-health/openapi/buoy-health-interviews-api-openapi.yml
 - filename: buoy-health-queries-api-openapi.yml
   format: yaml
   label: Buoy Health Queries API
   slug: buoy-health-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/openapi/buoy-health-queries-api-openapi.yml
+  url: https://artifacts.apis.io/buoy-health/openapi/buoy-health-queries-api-openapi.yml
 - filename: buoy-health-questions-api-openapi.yml
   format: yaml
   label: Buoy Health Questions API
   slug: buoy-health-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/openapi/buoy-health-questions-api-openapi.yml
+  url: https://artifacts.apis.io/buoy-health/openapi/buoy-health-questions-api-openapi.yml
 - filename: buoy-health-results-api-openapi.yml
   format: yaml
   label: Buoy Health Results API
   slug: buoy-health-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/openapi/buoy-health-results-api-openapi.yml
+  url: https://artifacts.apis.io/buoy-health/openapi/buoy-health-results-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-08-08'\nmethod: searched\nsource: openapi/buoy-he
   \  revocation_endpoint: https://auth.sandbox.buoyhealth.com/oauth/revoke\n  registration_endpoint: https://auth.sandbox.buoyhealth.com/oidc/register\n  device_authorization_endpoint: https://auth.sandbox.buoyhealth.com/oauth/device/code\n  discovery:\n  - well-known/buoy-health-sandbox-openid-configuration.json\n  - well-known/buoy-health-sandbox-oauth-authorization-server.json\n  platform: Auth0\ngrant_types_supported:\n- client_credentials\n- authorization_code\n- refresh_token\n- password\n- implicit\n- 'urn:ietf:params:oauth:grant-type:device_code'\n- 'urn:ietf:params:oauth:grant-type:token-exchange'\n- 'urn:ietf:params:oauth:grant-type:jwt-bearer'\n- 'http://auth0.com/oauth/grant-type/password-realm'\n- 'http://auth0.com/oauth/grant-type/passwordless/otp'\n- 'http://auth0.com/oauth/grant-type/mfa-oob'\n- 'http://auth0.com/oauth/grant-type/mfa-otp'\n- 'http://auth0.com/oauth/grant-type/mfa-recovery-code'\ntoken_endpoint_auth_methods_supported:\n- client_secret_basic\n- client_secret_post\n\
   - private_key_jwt\n- none\npkce:\n  supported: true\n  code_challenge_methods: [S256, plain]\nid_token_signing_alg_values_supported: [HS256, RS256, PS256]\nmfa:\n  challenge_endpoint: https://auth.buoyhealth.com/mfa/challenge\n  grant_types: [mfa-oob, mfa-otp, mfa-recovery-code]\nobservations:\n- id: spec-points-at-sandbox-only\n  detail: >-\n    The OpenAPI's oauth2 flow hardcodes the SANDBOX authorization and token endpoints\n    (auth.sandbox.buoyhealth.com) while listing both the sandbox and production API servers. A client\n    generated straight from the spec will authenticate against sandbox even when calling production.\n    The production issuer (auth.buoyhealth.com) is only discoverable by probing /.well-known/.\n- id: empty-scopes-map\n  detail: >-\n    The oauth2 scheme declares an empty `scopes` map and no operation names a scope, so the spec\n    conveys no least-privilege model — a token is all-or-nothing across the whole triage surface.\n- id: plain-pkce-allowed\n  detail:\
   \ >-\n    The authorization server advertises `plain` alongside `S256` in code_challenge_methods_supported.\n- id: no-protected-resource-metadata\n  detail: >-\n    Neither API host publishes RFC 9728 oauth-protected-resource metadata, so the resource-to-issuer\n    binding cannot be discovered mechanically.\nx-evidence:\n- url: https://auth.buoyhealth.com/.well-known/openid-configuration\n  http_status: 200\n  fetched: '2026-08-08'\n- url: https://auth.sandbox.buoyhealth.com/.well-known/oauth-authorization-server\n  http_status: 200\n  fetched: '2026-08-08'\n- url: https://sandbox.buoyhealth.com/auth/redoc/\n  http_status: 401\n  fetched: '2026-08-08'\n  note: The Buoy Auth API reference the OpenAPI links to is itself credential-gated.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/authentication/buoy-health-authentication.yml
+source_yaml_url: https://artifacts.apis.io/buoy-health/authentication/buoy-health-authentication.yml
 summary_line: oauth2/openIdConnect · 1 scheme
 tags:
 - Symptom Checker

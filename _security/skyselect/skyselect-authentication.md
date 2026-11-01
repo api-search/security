@@ -28,7 +28,7 @@ source_filename: skyselect-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://support.rotabull.com/docs/skyselect\ndocs: https://help.skyselect.com/\nnote: >-\n  SkySelect exposes an API for buyer/supplier integrations (inventory sync, RFQ\n  reception, quote submission). Access is gated behind a login: credentials are\n  generated in the SkySelect app under Settings > Developer Settings. No public\n  OpenAPI or developer portal is published, so this profile is captured from the\n  provider Help Center and the Rotabull integration documentation.\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  oauth2_flows: []\nschemes:\n- name: apiKeyAndSecret\n  type: apiKey\n  in: header\n  description: >-\n    API Key and Secret pair generated in the SkySelect application under\n    Settings > Developer Settings. Presented on API requests to authenticate\n    integration partners (e.g. Rotabull) for inventory, RFQ, and quote flows.\n  sources:\n  - https://support.rotabull.com/docs/skyselect\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skyselect/refs/heads/main/authentication/skyselect-authentication.yml
+source_yaml_url: https://artifacts.apis.io/skyselect/authentication/skyselect-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

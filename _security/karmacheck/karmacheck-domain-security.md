@@ -5,55 +5,55 @@ api_specs:
   label: KarmaCheck Authentication API
   slug: karmacheck-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karmacheck/refs/heads/main/openapi/karmacheck-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/karmacheck/openapi/karmacheck-authentication-api-openapi.yml
 - filename: karmacheck-candidate-onboarding-api-openapi.yml
   format: yaml
   label: KarmaCheck Candidate onboarding API
   slug: karmacheck-candidate-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karmacheck/refs/heads/main/openapi/karmacheck-candidate-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/karmacheck/openapi/karmacheck-candidate-onboarding-api-openapi.yml
 - filename: karmacheck-case-api-openapi.yml
   format: yaml
   label: KarmaCheck Case API
   slug: karmacheck-case-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karmacheck/refs/heads/main/openapi/karmacheck-case-api-openapi.yml
+  url: https://artifacts.apis.io/karmacheck/openapi/karmacheck-case-api-openapi.yml
 - filename: karmacheck-cases-api-openapi.yml
   format: yaml
   label: KarmaCheck Cases API
   slug: karmacheck-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karmacheck/refs/heads/main/openapi/karmacheck-cases-api-openapi.yml
+  url: https://artifacts.apis.io/karmacheck/openapi/karmacheck-cases-api-openapi.yml
 - filename: karmacheck-packages-api-openapi.yml
   format: yaml
   label: KarmaCheck Packages API
   slug: karmacheck-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karmacheck/refs/heads/main/openapi/karmacheck-packages-api-openapi.yml
+  url: https://artifacts.apis.io/karmacheck/openapi/karmacheck-packages-api-openapi.yml
 - filename: karmacheck-secure-documents-api-openapi.yml
   format: yaml
   label: KarmaCheck Secure documents API
   slug: karmacheck-secure-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karmacheck/refs/heads/main/openapi/karmacheck-secure-documents-api-openapi.yml
+  url: https://artifacts.apis.io/karmacheck/openapi/karmacheck-secure-documents-api-openapi.yml
 - filename: karmacheck-services-api-openapi.yml
   format: yaml
   label: KarmaCheck Services API
   slug: karmacheck-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karmacheck/refs/heads/main/openapi/karmacheck-services-api-openapi.yml
+  url: https://artifacts.apis.io/karmacheck/openapi/karmacheck-services-api-openapi.yml
 - filename: karmacheck-users-api-openapi.yml
   format: yaml
   label: KarmaCheck Users API
   slug: karmacheck-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karmacheck/refs/heads/main/openapi/karmacheck-users-api-openapi.yml
+  url: https://artifacts.apis.io/karmacheck/openapi/karmacheck-users-api-openapi.yml
 - filename: karmacheck-verification-book-api-openapi.yml
   format: yaml
   label: KarmaCheck Verification Book API
   slug: karmacheck-verification-book-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karmacheck/refs/heads/main/openapi/karmacheck-verification-book-api-openapi.yml
+  url: https://artifacts.apis.io/karmacheck/openapi/karmacheck-verification-book-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -99,7 +99,7 @@ source_filename: karmacheck-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-23'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.karmacheck.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 21:16:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.karmacheck.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 06:09:39 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.karmacheck.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  5 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: karmacheck.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: karmacheck.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/karmacheck/refs/heads/main/security/karmacheck-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/karmacheck/security/karmacheck-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Background Checks

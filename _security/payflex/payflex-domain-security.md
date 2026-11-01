@@ -5,25 +5,25 @@ api_specs:
   label: Payflex Authentication API
   slug: payflex-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payflex/refs/heads/main/openapi/payflex-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/payflex/openapi/payflex-authentication-api-openapi.yml
 - filename: payflex-configuration-api-openapi.yml
   format: yaml
   label: Payflex Configuration API
   slug: payflex-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payflex/refs/heads/main/openapi/payflex-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/payflex/openapi/payflex-configuration-api-openapi.yml
 - filename: payflex-orders-api-openapi.yml
   format: yaml
   label: Payflex Orders API
   slug: payflex-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payflex/refs/heads/main/openapi/payflex-orders-api-openapi.yml
+  url: https://artifacts.apis.io/payflex/openapi/payflex-orders-api-openapi.yml
 - filename: payflex-refunds-api-openapi.yml
   format: yaml
   label: Payflex Refunds API
   slug: payflex-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payflex/refs/heads/main/openapi/payflex-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/payflex/openapi/payflex-refunds-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: payflex-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: payflex.co.za\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 13:44:59 2026 GMT\n  hsts: false\n- host: docs.payflex.co.za\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 14:15:32 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.payflex.co.za\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 13:44:59 2026 GMT\n  hsts: false\ndomains:\n- domain: payflex.co.za\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payflex/refs/heads/main/security/payflex-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/payflex/security/payflex-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Buy Now Pay Later

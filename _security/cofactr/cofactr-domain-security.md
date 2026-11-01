@@ -5,13 +5,13 @@ api_specs:
   label: Cofactr Batch API
   slug: cofactr-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/openapi/cofactr-batch-api-openapi.yml
+  url: https://artifacts.apis.io/cofactr/openapi/cofactr-batch-api-openapi.yml
 - filename: cofactr-products-api-openapi.yml
   format: yaml
   label: Cofactr Products API
   slug: cofactr-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/openapi/cofactr-products-api-openapi.yml
+  url: https://artifacts.apis.io/cofactr/openapi/cofactr-products-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,7 +41,7 @@ source_filename: cofactr-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cofactr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 17:11:38 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: cofactr.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/security/cofactr-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cofactr/security/cofactr-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

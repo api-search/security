@@ -7,25 +7,37 @@ api_specs:
   label: Ex-Human Animations API
   slug: ex-human-animations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/openapi/ex-human-animations-api-openapi.yml
+  url: https://artifacts.apis.io/ex-human/openapi/ex-human-animations-api-openapi.yml
 - filename: ex-human-chatbot-api-openapi.yml
   format: yaml
   label: Ex-Human Chatbot API
   slug: ex-human-chatbot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/openapi/ex-human-chatbot-api-openapi.yml
+  url: https://artifacts.apis.io/ex-human/openapi/ex-human-chatbot-api-openapi.yml
 - filename: ex-human-image-generation-api-openapi.yml
   format: yaml
   label: Ex-Human Image Generation API
   slug: ex-human-image-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/openapi/ex-human-image-generation-api-openapi.yml
+  url: https://artifacts.apis.io/ex-human/openapi/ex-human-image-generation-api-openapi.yml
 - filename: ex-human-text-to-speech-api-openapi.yml
   format: yaml
   label: Ex-Human Text to Speech API
   slug: ex-human-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/openapi/ex-human-text-to-speech-api-openapi.yml
+  url: https://artifacts.apis.io/ex-human/openapi/ex-human-text-to-speech-api-openapi.yml
+- filename: ex-human-admin-api-openapi.yml
+  format: yaml
+  label: Ex-Human Admin API
+  slug: ex-human-admin-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ex-human/openapi/ex-human-admin-api-openapi.yml
+- filename: ex-human-metrics-api-openapi.yml
+  format: yaml
+  label: Ex-Human Metrics API
+  slug: ex-human-metrics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ex-human/openapi/ex-human-metrics-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -53,7 +65,7 @@ source_filename: ex-human-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/ex-human-openapi.yml\ndocs: https://docs.exh.ai/reference/getting-started-with-your-api\nsummary:\n  types:\n  - http\n  http_schemes:\n  - bearer\n  notes: >-\n    All Ex-Human API operations require an HTTP Bearer token. Create a Bearer token in the admin\n    console at https://admin.exh.ai/ and send it as `Authorization: Bearer <your-token>` on every\n    request. There is a single provider-wide security scheme (HTTPBearer); no OAuth 2.0, no OAuth\n    scopes, and no API-key query/header alternative are documented.\nschemes:\n- name: HTTPBearer\n  type: http\n  scheme: bearer\n  admin_url: https://admin.exh.ai/\n  applied_to: all operations\n  sources:\n  - openapi/ex-human-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/authentication/ex-human-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ex-human/authentication/ex-human-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

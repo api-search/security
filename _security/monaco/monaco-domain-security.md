@@ -5,79 +5,79 @@ api_specs:
   label: Monaco Accounts API
   slug: monaco-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/monaco/openapi/monaco-accounts-api-openapi.yml
 - filename: monaco-audiences-api-openapi.yml
   format: yaml
   label: Monaco Audiences API
   slug: monaco-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/monaco/openapi/monaco-audiences-api-openapi.yml
 - filename: monaco-auth-api-openapi.yml
   format: yaml
   label: Monaco Auth API
   slug: monaco-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-auth-api-openapi.yml
+  url: https://artifacts.apis.io/monaco/openapi/monaco-auth-api-openapi.yml
 - filename: monaco-campaigns-api-openapi.yml
   format: yaml
   label: Monaco Campaigns API
   slug: monaco-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/monaco/openapi/monaco-campaigns-api-openapi.yml
 - filename: monaco-contacts-api-openapi.yml
   format: yaml
   label: Monaco Contacts API
   slug: monaco-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/monaco/openapi/monaco-contacts-api-openapi.yml
 - filename: monaco-meetings-api-openapi.yml
   format: yaml
   label: Monaco Meetings API
   slug: monaco-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/monaco/openapi/monaco-meetings-api-openapi.yml
 - filename: monaco-opportunities-api-openapi.yml
   format: yaml
   label: Monaco Opportunities API
   slug: monaco-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/monaco/openapi/monaco-opportunities-api-openapi.yml
 - filename: monaco-schemas-api-openapi.yml
   format: yaml
   label: Monaco Schemas API
   slug: monaco-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/monaco/openapi/monaco-schemas-api-openapi.yml
 - filename: monaco-sequence-templates-api-openapi.yml
   format: yaml
   label: Monaco Sequence Templates API
   slug: monaco-sequence-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-sequence-templates-api-openapi.yml
+  url: https://artifacts.apis.io/monaco/openapi/monaco-sequence-templates-api-openapi.yml
 - filename: monaco-sequences-api-openapi.yml
   format: yaml
   label: Monaco Sequences API
   slug: monaco-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-sequences-api-openapi.yml
+  url: https://artifacts.apis.io/monaco/openapi/monaco-sequences-api-openapi.yml
 - filename: monaco-tags-api-openapi.yml
   format: yaml
   label: Monaco Tags API
   slug: monaco-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-tags-api-openapi.yml
+  url: https://artifacts.apis.io/monaco/openapi/monaco-tags-api-openapi.yml
 - filename: monaco-tasks-api-openapi.yml
   format: yaml
   label: Monaco Tasks API
   slug: monaco-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/monaco/openapi/monaco-tasks-api-openapi.yml
 - filename: monaco-users-api-openapi.yml
   format: yaml
   label: Monaco Users API
   slug: monaco-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-users-api-openapi.yml
+  url: https://artifacts.apis.io/monaco/openapi/monaco-users-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -121,7 +121,7 @@ source_filename: monaco-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.monaco.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 14:05:38 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.monaco.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 18:42:29 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.monaco.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 20 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: monaco.com\n  dnssec: true\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 iodef \"mailto:security@monaco.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/security/monaco-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/monaco/security/monaco-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

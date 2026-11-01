@@ -5,55 +5,55 @@ api_specs:
   label: Sui Coin Query API
   slug: sui-coin-query-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-coin-query-api-api-openapi.yml
+  url: https://artifacts.apis.io/sui/openapi/sui-coin-query-api-api-openapi.yml
 - filename: sui-extended-api-api-openapi.yml
   format: yaml
   label: Sui Extended API
   slug: sui-extended-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-extended-api-api-openapi.yml
+  url: https://artifacts.apis.io/sui/openapi/sui-extended-api-api-openapi.yml
 - filename: sui-governance-read-api-api-openapi.yml
   format: yaml
   label: Sui Governance Read API
   slug: sui-governance-read-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-governance-read-api-api-openapi.yml
+  url: https://artifacts.apis.io/sui/openapi/sui-governance-read-api-api-openapi.yml
 - filename: sui-move-utils-api-openapi.yml
   format: yaml
   label: Sui Move Utils API
   slug: sui-move-utils-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-move-utils-api-openapi.yml
+  url: https://artifacts.apis.io/sui/openapi/sui-move-utils-api-openapi.yml
 - filename: sui-pubsub-api-openapi.yml
   format: yaml
   label: Sui PubSub API
   slug: sui-pubsub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-pubsub-api-openapi.yml
+  url: https://artifacts.apis.io/sui/openapi/sui-pubsub-api-openapi.yml
 - filename: sui-read-api-api-openapi.yml
   format: yaml
   label: Sui Read API
   slug: sui-read-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-read-api-api-openapi.yml
+  url: https://artifacts.apis.io/sui/openapi/sui-read-api-api-openapi.yml
 - filename: sui-transaction-builder-api-api-openapi.yml
   format: yaml
   label: Sui Transaction Builder API
   slug: sui-transaction-builder-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-transaction-builder-api-api-openapi.yml
+  url: https://artifacts.apis.io/sui/openapi/sui-transaction-builder-api-api-openapi.yml
 - filename: sui-websocket-api-openapi.yml
   format: yaml
   label: Sui Websocket API
   slug: sui-websocket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-websocket-api-openapi.yml
+  url: https://artifacts.apis.io/sui/openapi/sui-websocket-api-openapi.yml
 - filename: sui-write-api-api-openapi.yml
   format: yaml
   label: Sui Write API
   slug: sui-write-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-write-api-api-openapi.yml
+  url: https://artifacts.apis.io/sui/openapi/sui-write-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -94,7 +94,7 @@ source_filename: sui-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sui.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 18:48:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.sui.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 11:46:41 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: fullnode.mainnet.sui.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 14:09:56 2026 GMT\n  hsts: null\ndomains:\n- domain: sui.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/security/sui-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sui/security/sui-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Blockchain

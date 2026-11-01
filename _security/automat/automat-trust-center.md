@@ -5,7 +5,7 @@ api_specs:
   label: Automat Extract API
   slug: automat-extract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automat/refs/heads/main/openapi/automat-extract-api-openapi.yml
+  url: https://artifacts.apis.io/automat/openapi/automat-extract-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -25,7 +25,7 @@ source_filename: automat-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://runautomat.com/llms.txt\nurl: https://trust.runautomat.com/\ncertifications:\n  - SOC 2\n  - ISO 27001\n  - HIPAA\n  - GDPR\nevidence:\n  - source: https://runautomat.com/llms.txt\n    quote: \"SOC 2, GDPR, HIPAA, ISO 27001 certified\"\n  - source: https://trust.runautomat.com/\n    note: Live trust center subdomain returns HTTP 200 (JavaScript-rendered trust portal).\nnotes: >-\n  Certifications captured from Automat's own published llms.txt Key Differentiators section and the\n  live trust center subdomain. The trust portal is client-side rendered so the automated\n  keyword/cert extractor could not read it; the certification list here is the provider's own claim.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/automat/refs/heads/main/security/automat-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/automat/security/automat-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Company

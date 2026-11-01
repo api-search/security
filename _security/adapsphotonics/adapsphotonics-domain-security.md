@@ -44,7 +44,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of the apis.yml website host (no API hosts exist for this company)\nhosts:\n- host: www.adapsphotonics.com\n  https: true\n  tls_version: TLSv1.3\n  http_status: 200\n  server: wts\n  cert_subject: CN=*.adapsphotonics.com\n  cert_issuer: C=CN, O=GeoSSL, Inc., CN=GeoSSL DV TLS CA\n  cert_not_before: '2025-12-25'\n  cert_not_after: '2026-12-24'\n  cert_sans:\n  - '*.adapsphotonics.com'\n  - adapsphotonics.com\n  chain_length: 1\n  tls_cert_error: >-\n    Verification fails against the Mozilla/certifi root store: the origin serves the leaf\n    certificate only (chain_length 1) and its issuer, \"GeoSSL DV TLS CA\", is not present in\n    that store. macOS/curl accepted the connection; Python with certifi did not. This is an\n    incomplete/untrusted chain, observed 2026-09-06, not a probe failure.\n  hsts: false\n  security_headers:\n    x_content_type_options: nosniff\n    x_frame_options: SAMEORIGIN\n\
   \    x_xss_protection: 1; mode=block\n    x_permitted_cross_domain_policies: master-only\n    strict_transport_security: null\n  note: >-\n    Origin is intermittently slow and answers 403 to repeated automated requests; probes\n    required 30-45s timeouts and retries.\ndomains:\n- domain: adapsphotonics.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adapsphotonics/refs/heads/main/security/adapsphotonics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/adapsphotonics/security/adapsphotonics-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

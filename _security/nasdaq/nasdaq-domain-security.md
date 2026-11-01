@@ -11,7 +11,7 @@ api_specs:
   label: Nasdaq Cloud Data Service (NCDS) REST API
   slug: nasdaq-cloud-data-service-ncds-rest-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/nasdaq/refs/heads/main/postman/nasdaq-ncds-rest-postman-collection.json
+  url: https://artifacts.apis.io/nasdaq/postman/nasdaq-ncds-rest-postman-collection.json
 description: ''
 domains:
 - caa: []
@@ -48,7 +48,7 @@ source_filename: nasdaq-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nasdaq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 12 23:59:59 2027 GMT\n  hsts: false\n- host: streams.ncds.nasdaq.com\n  https: false\n- host: data.nasdaq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  3 08:09:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: nasdaq.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nasdaq/refs/heads/main/security/nasdaq-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nasdaq/security/nasdaq-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data Marketplace
@@ -58,4 +58,7 @@ tags:
 - Market Data
 - Stock Exchange
 - Streaming
+- Financial Services
+- Capital Markets
+- Economics
 ---

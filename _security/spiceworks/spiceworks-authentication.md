@@ -7,25 +7,25 @@ api_specs:
   label: Spiceworks Comments API
   slug: spiceworks-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/openapi/spiceworks-comments-api-openapi.yml
+  url: https://artifacts.apis.io/spiceworks/openapi/spiceworks-comments-api-openapi.yml
 - filename: spiceworks-devices-api-openapi.yml
   format: yaml
   label: Spiceworks Devices API
   slug: spiceworks-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/openapi/spiceworks-devices-api-openapi.yml
+  url: https://artifacts.apis.io/spiceworks/openapi/spiceworks-devices-api-openapi.yml
 - filename: spiceworks-tickets-api-openapi.yml
   format: yaml
   label: Spiceworks Tickets API
   slug: spiceworks-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/openapi/spiceworks-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/spiceworks/openapi/spiceworks-tickets-api-openapi.yml
 - filename: spiceworks-users-api-openapi.yml
   format: yaml
   label: Spiceworks Users API
   slug: spiceworks-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/openapi/spiceworks-users-api-openapi.yml
+  url: https://artifacts.apis.io/spiceworks/openapi/spiceworks-users-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -56,7 +56,7 @@ source_filename: spiceworks-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/spiceworks-cloud-apps-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - implicit\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://community.spiceworks.com/oauth/authorize\n    scopes: 3\n  description: OAuth 2.0 authentication via the Spiceworks Cloud Apps platform. Applications\n    receive an implicit grant token through the JS SDK postMessage bridge when running inside\n    the Spiceworks UI.\n  sources:\n  - openapi/spiceworks-cloud-apps-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/authentication/spiceworks-authentication.yml
+source_yaml_url: https://artifacts.apis.io/spiceworks/authentication/spiceworks-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Community

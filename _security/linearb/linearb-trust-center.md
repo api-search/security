@@ -5,31 +5,31 @@ api_specs:
   label: LinearB Deployments API
   slug: linearb-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/linearb/openapi/linearb-deployments-api-openapi.yml
 - filename: linearb-incidents-api-openapi.yml
   format: yaml
   label: LinearB Incidents API
   slug: linearb-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/linearb/openapi/linearb-incidents-api-openapi.yml
 - filename: linearb-measurements-api-openapi.yml
   format: yaml
   label: LinearB Measurements API
   slug: linearb-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-measurements-api-openapi.yml
+  url: https://artifacts.apis.io/linearb/openapi/linearb-measurements-api-openapi.yml
 - filename: linearb-services-api-openapi.yml
   format: yaml
   label: LinearB Services API
   slug: linearb-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-services-api-openapi.yml
+  url: https://artifacts.apis.io/linearb/openapi/linearb-services-api-openapi.yml
 - filename: linearb-teams-api-openapi.yml
   format: yaml
   label: LinearB Teams API
   slug: linearb-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-teams-api-openapi.yml
+  url: https://artifacts.apis.io/linearb/openapi/linearb-teams-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -47,7 +47,7 @@ source_filename: linearb-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.linearb.io/\nurl: https://trust.linearb.io/\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://trust.linearb.io/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/security/linearb-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/linearb/security/linearb-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Engineering Analytics

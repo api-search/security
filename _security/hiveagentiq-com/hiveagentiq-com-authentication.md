@@ -8,43 +8,43 @@ api_specs:
   label: Hive Agent IQ Bank API
   slug: hiveagentiq-com-bank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiveagentiq-com/refs/heads/main/openapi/hiveagentiq-com-bank-api-openapi.yml
+  url: https://artifacts.apis.io/hiveagentiq-com/openapi/hiveagentiq-com-bank-api-openapi.yml
 - filename: hiveagentiq-com-comply-api-openapi.yml
   format: yaml
   label: Hive Agent IQ Comply API
   slug: hiveagentiq-com-comply-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiveagentiq-com/refs/heads/main/openapi/hiveagentiq-com-comply-api-openapi.yml
+  url: https://artifacts.apis.io/hiveagentiq-com/openapi/hiveagentiq-com-comply-api-openapi.yml
 - filename: hiveagentiq-com-credential-api-openapi.yml
   format: yaml
   label: Hive Agent IQ Credential API
   slug: hiveagentiq-com-credential-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiveagentiq-com/refs/heads/main/openapi/hiveagentiq-com-credential-api-openapi.yml
+  url: https://artifacts.apis.io/hiveagentiq-com/openapi/hiveagentiq-com-credential-api-openapi.yml
 - filename: hiveagentiq-com-gate-api-openapi.yml
   format: yaml
   label: Hive Agent IQ Gate API
   slug: hiveagentiq-com-gate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiveagentiq-com/refs/heads/main/openapi/hiveagentiq-com-gate-api-openapi.yml
+  url: https://artifacts.apis.io/hiveagentiq-com/openapi/hiveagentiq-com-gate-api-openapi.yml
 - filename: hiveagentiq-com-identity-api-openapi.yml
   format: yaml
   label: Hive Agent IQ Identity API
   slug: hiveagentiq-com-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiveagentiq-com/refs/heads/main/openapi/hiveagentiq-com-identity-api-openapi.yml
+  url: https://artifacts.apis.io/hiveagentiq-com/openapi/hiveagentiq-com-identity-api-openapi.yml
 - filename: hiveagentiq-com-law-api-openapi.yml
   format: yaml
   label: Hive Agent IQ Law API
   slug: hiveagentiq-com-law-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiveagentiq-com/refs/heads/main/openapi/hiveagentiq-com-law-api-openapi.yml
+  url: https://artifacts.apis.io/hiveagentiq-com/openapi/hiveagentiq-com-law-api-openapi.yml
 - filename: hiveagentiq-com-trust-api-openapi.yml
   format: yaml
   label: Hive Agent IQ Trust API
   slug: hiveagentiq-com-trust-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiveagentiq-com/refs/heads/main/openapi/hiveagentiq-com-trust-api-openapi.yml
+  url: https://artifacts.apis.io/hiveagentiq-com/openapi/hiveagentiq-com-trust-api-openapi.yml
 auth_types:
 - apiKey
 - http-bearer
@@ -148,7 +148,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://hivetru
   \ response-signature\n  standard: Ed25519 over a canonical request line (\"smash.prov\")\n  headers: [X-Hive-Prov-Iss, X-Hive-Prov-Ts, X-Hive-Prov-Sig, X-Hive-Prov-Pubkey, X-Hive-Prov-Payload]\n  description: >-\n    Not a client credential: every response from hivetrust, hivegate and hivebank carries an issuer DID (did:hive:hivetrust,\n    did:hive:hivegate, did:hive:hivebank), a timestamp, a base64url Ed25519 signature and a pointer to the public key at\n    /v1/prov/pubkey (\"every door 200s, every byte signed\"). Observed on 2026-09-19 on GET / and POST /mcp responses.\n  pubkeys:\n  - {issuer: 'did:hive:hivetrust', url: 'https://hivetrust.hiveagentiq.com/v1/prov/pubkey', algorithm: Ed25519}\n  - {issuer: 'did:hive:hivegate', url: 'https://hivegate.hiveagentiq.com/v1/prov/pubkey', algorithm: Ed25519}\nunauthenticated_envelope:\n  hivetrust_and_hivebank:\n    http_status: 401\n    body: '{\"status\":\"unregistered_agent\",\"error\":\"agent_not_registered\",\"message\":\"Welcome to Hive\
   \ Civilization — register your agent DID to unlock 21 services across 12 layers.\",\"onboard\":{\"url\":\"https://hivegate.hiveagentiq.com/v1/gate/onboard\", ...}, \"recruitment\": {...}}'\n    observed_on: ['GET /v1/agents', 'GET /v1/webhooks', 'GET /v1/bond/tiers', 'GET /v1/bond/pool', 'GET /v1/liquidation/stats', 'GET /v1/reputation/status/{did}', 'GET /v1/bank/stats']\n  hivegate:\n    http_status: 402\n    body: '{\"error\":\"payment_required\",\"code\":\"HIVE_402\", ...}'\n    observed_on: ['GET /v1/gate/adapters', 'GET /v1/gate/stats', 'GET /v1/gate/directory', 'GET /v1/mcp/tools', 'GET /docs']\npublic_operations:\n  note: >-\n    Free without any credential, observed 200 on 2026-09-19: hivetrust GET /health, /v1/stats, /v1/pricing/status,\n    /v1/oracle/streams, /v1/trust/lookup/{did}, /v1/prov/pubkey, /openapi.json, /llms.txt, /.well-known/*; hivegate\n    GET /health, /v1/gate/queue/stats, /v1/gate/sample, /openapi.json, /llms.txt, /.well-known/*; hivelaw GET /health,\n    /v1/jurisdictions,\
   \ /v1/case-law/stats, /v1/mcp/tools; hivebank GET /health, /openapi.json, /llms.txt. MCP initialize\n    and tools/list answer anonymously on hivetrust, hivegate and hivebank.\ndiscovery:\n  oauth_authorization_server: 'hivetrust 200 but a catch-all JSON \"not a real endpoint\" body; hivegate 404; hivelaw 404; hivebank 200 catch-all hint body'\n  oauth_protected_resource: same pattern — no RFC 9728 metadata on any host\n  openid_configuration: same pattern — no OIDC\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hiveagentiq-com/refs/heads/main/authentication/hiveagentiq-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hiveagentiq-com/authentication/hiveagentiq-com-authentication.yml
 summary_line: apiKey/http-bearer/payment/signature · 6 schemes
 tags:
 - Agents

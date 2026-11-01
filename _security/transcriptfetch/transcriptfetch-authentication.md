@@ -7,13 +7,13 @@ api_specs:
   label: TranscriptFetch System API
   slug: transcriptfetch-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/openapi/transcriptfetch-system-api-openapi.yml
+  url: https://artifacts.apis.io/transcriptfetch/openapi/transcriptfetch-system-api-openapi.yml
 - filename: transcriptfetch-transcripts-api-openapi.yml
   format: yaml
   label: TranscriptFetch Transcripts API
   slug: transcriptfetch-transcripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/openapi/transcriptfetch-transcripts-api-openapi.yml
+  url: https://artifacts.apis.io/transcriptfetch/openapi/transcriptfetch-transcripts-api-openapi.yml
 auth_types:
 - http
 - oauth2 (MCP surface)
@@ -55,7 +55,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-09'\nmethod: searched\nsource: openapi/transcriptfetch-api-v1-openapi.json, openapi/transcriptfetch-api-v2-openapi.json\ndocs: https://transcriptfetch.com/docs/api-reference\nsummary:\n  types:\n  - http\n  - oauth2 (MCP surface)\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Send your API key as `Authorization: Bearer <key>`.'\n  key_prefix: tf_live_\n  sources:\n  - openapi/transcriptfetch-api-v1-openapi.json\n  - openapi/transcriptfetch-api-v2-openapi.json\n  notes:\n  - Keys are created in the dashboard; a SHA-256 hash is stored server-side, never the plaintext, so a key cannot be shown again after creation.\n  - Multiple keys per account, independently revocable (immediate), each with its own rate limit — rotation without downtime.\n  - Send keys only in the Authorization header, never a query string or browser JavaScript; the API deliberately sends no CORS headers.\n- name: mcp-oauth\n  type: oauth2\n  surface: MCP server\
   \ only (https://transcriptfetch.com/mcp)\n  description: >-\n    OAuth 2.0 authorization-code with PKCE (S256) against the Clerk-run authorization\n    server at clerk.transcriptfetch.com, with dynamic client registration. RFC 9728\n    protected-resource metadata at /.well-known/oauth-protected-resource names the MCP\n    endpoint as the resource. The MCP server also accepts the same tf_live_ bearer keys.\n  metadata:\n  - well-known/transcriptfetch-oauth-protected-resource.json\n  - well-known/clerk-transcriptfetch-oauth-authorization-server.json\npublic_endpoints:\n- GET /api/v2/health and /api/v2/health/deep need no key.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/authentication/transcriptfetch-authentication.yml
+source_yaml_url: https://artifacts.apis.io/transcriptfetch/authentication/transcriptfetch-authentication.yml
 summary_line: http/oauth2 (MCP surface) · 2 schemes
 tags:
 - Transcripts

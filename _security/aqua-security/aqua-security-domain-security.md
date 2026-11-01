@@ -5,37 +5,37 @@ api_specs:
   label: Aqua Security Authentication API
   slug: aqua-security-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/openapi/aqua-security-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/aqua-security/openapi/aqua-security-authentication-api-openapi.yml
 - filename: aqua-security-containers-api-openapi.yml
   format: yaml
   label: Aqua Security Containers API
   slug: aqua-security-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/openapi/aqua-security-containers-api-openapi.yml
+  url: https://artifacts.apis.io/aqua-security/openapi/aqua-security-containers-api-openapi.yml
 - filename: aqua-security-images-api-openapi.yml
   format: yaml
   label: Aqua Security Images API
   slug: aqua-security-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/openapi/aqua-security-images-api-openapi.yml
+  url: https://artifacts.apis.io/aqua-security/openapi/aqua-security-images-api-openapi.yml
 - filename: aqua-security-policies-api-openapi.yml
   format: yaml
   label: Aqua Security Policies API
   slug: aqua-security-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/openapi/aqua-security-policies-api-openapi.yml
+  url: https://artifacts.apis.io/aqua-security/openapi/aqua-security-policies-api-openapi.yml
 - filename: aqua-security-registries-api-openapi.yml
   format: yaml
   label: Aqua Security Registries API
   slug: aqua-security-registries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/openapi/aqua-security-registries-api-openapi.yml
+  url: https://artifacts.apis.io/aqua-security/openapi/aqua-security-registries-api-openapi.yml
 - filename: aqua-security-users-api-openapi.yml
   format: yaml
   label: Aqua Security Users API
   slug: aqua-security-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/openapi/aqua-security-users-api-openapi.yml
+  url: https://artifacts.apis.io/aqua-security/openapi/aqua-security-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,7 +81,7 @@ source_filename: aqua-security-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.aquasec.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 15:01:53 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: trivy.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 20:29:34 2026 GMT\n  hsts: false\ndomains:\n- domain: aquasec.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: trivy.dev\n  dnssec: false\n  caa:\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/security/aqua-security-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aqua-security/security/aqua-security-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud-Native

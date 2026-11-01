@@ -8,25 +8,25 @@ api_specs:
   label: Jitterbit Login API
   slug: jitterbit-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/openapi/jitterbit-login-api-openapi.yml
+  url: https://artifacts.apis.io/jitterbit/openapi/jitterbit-login-api-openapi.yml
 - filename: jitterbit-operations-api-openapi.yml
   format: yaml
   label: Jitterbit Operations API
   slug: jitterbit-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/openapi/jitterbit-operations-api-openapi.yml
+  url: https://artifacts.apis.io/jitterbit/openapi/jitterbit-operations-api-openapi.yml
 - filename: jitterbit-projects-api-openapi.yml
   format: yaml
   label: Jitterbit Projects API
   slug: jitterbit-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/openapi/jitterbit-projects-api-openapi.yml
+  url: https://artifacts.apis.io/jitterbit/openapi/jitterbit-projects-api-openapi.yml
 - filename: jitterbit-schedules-api-openapi.yml
   format: yaml
   label: Jitterbit Schedules API
   slug: jitterbit-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/openapi/jitterbit-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/jitterbit/openapi/jitterbit-schedules-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: openapi/jitterb
   \    EMEA: https://emea-west.jitterbit.com/jitterbit-cloud-restful-service/\n    APAC: https://apac-southeast.jitterbit.com/jitterbit-cloud-restful-service/\n  note: >-\n    A token is bound to a region. The organization's region determines the host;\n    Finding My Region is the documented way to establish it.\nplatform_authentication:\n  note: >-\n    Distinct from the API above. These are the authentication mechanisms\n    Jitterbit gives to the APIs its CUSTOMERS publish through API Manager, and\n    to Harmony platform login.\n  harmony_login:\n    - password with configurable policy (special-character requirement, TFA requirement)\n    - two-factor authentication by emailed code\n    - 'single sign-on via SAML 2.0 or OAuth 2.0 against an external identity provider (docs: https://docs.jitterbit.com/getting-started/jitterbit-security/sso/)'\n    - security question and answer as an additional identity verification (12.8)\n  customer_api_security_profiles:\n    - anonymous\n    - basic\n\
   \    - api-key\n    - 'OAuth 2.0 two-legged (Microsoft Entra ID / Azure AD, Okta)'\n    - 'OAuth 2.0 three-legged (Microsoft Entra ID / Azure AD, Okta, Google, Salesforce)'\n    - JWT\n    - trusted IP groups (network-level restriction, rejects with 429)\n  api_key_expiry:\n    since: '12.9'\n    default_days: 180\n    behavior: >-\n      An API key security profile can be configured to expire; requests using an\n      expired key are rejected. An Expiring soon pill appears within 7 days and a\n      reminder email goes to organization administrators. The cloud API gateway\n      enforces expiry automatically; a private API gateway requires 12.9 or later.\n  credential_masking:\n    since: '12.9'\n    behavior: 'Header values carrying credentials or session data (authorization, password, x_api_key) are replaced with [removed] in API logs.'\ngaps:\n  - No OAuth 2.0, OIDC or scoped authorization for Jitterbit's own APIs — a single all-or-nothing session token.\n  - Credentials are passed\
   \ as query parameters on the Harmony platform API's POST /login, so they land in URLs and can be logged upstream.\n  - No token refresh or revocation operation is published; the token simply expires after 4 hours.\n  - No /.well-known/openid-configuration or /.well-known/oauth-authorization-server on any host (all 404).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/authentication/jitterbit-authentication.yml
+source_yaml_url: https://artifacts.apis.io/jitterbit/authentication/jitterbit-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - API Management

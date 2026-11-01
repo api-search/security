@@ -5,19 +5,19 @@ api_specs:
   label: Warp Agent API
   slug: warp-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warp/refs/heads/main/openapi/warp-agent-api-openapi.yml
+  url: https://artifacts.apis.io/warp/openapi/warp-agent-api-openapi.yml
 - filename: warp-harness-support-api-openapi.yml
   format: yaml
   label: Warp Harness Support API
   slug: warp-harness-support-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warp/refs/heads/main/openapi/warp-harness-support-api-openapi.yml
+  url: https://artifacts.apis.io/warp/openapi/warp-harness-support-api-openapi.yml
 - filename: warp-schedules-api-openapi.yml
   format: yaml
   label: Warp Schedules API
   slug: warp-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warp/refs/heads/main/openapi/warp-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/warp/openapi/warp-schedules-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: warp-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.warp.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 07:36:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.warp.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 14:32:26 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: app.warp.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 15:29:25 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: warp.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/warp/refs/heads/main/security/warp-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/warp/security/warp-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Developer Tools

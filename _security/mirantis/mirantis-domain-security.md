@@ -45,7 +45,7 @@ source_filename: mirantis-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mirantis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 29 06:37:17 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: k0rdent.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 28 05:39:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n- host: k0sproject.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 18:18:21 2026 GMT\n  hsts: false\ndomains:\n- domain: mirantis.com\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:it-security@mirantis.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: k0rdent.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mirantis/refs/heads/main/security/mirantis-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mirantis/security/mirantis-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Kubernetes

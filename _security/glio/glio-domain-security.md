@@ -5,13 +5,13 @@ api_specs:
   label: Glio Jobs API
   slug: glio-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glio/refs/heads/main/openapi/glio-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/glio/openapi/glio-jobs-api-openapi.yml
 - filename: glio-llm-api-openapi.yml
   format: yaml
   label: Glio LLM API
   slug: glio-llm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glio/refs/heads/main/openapi/glio-llm-api-openapi.yml
+  url: https://artifacts.apis.io/glio/openapi/glio-llm-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: glio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: glio.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  8 14:14:06 2026 GMT\n  hsts: false\n- host: api.glio.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  8 14:14:06 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: glio.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/glio/refs/heads/main/security/glio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/glio/security/glio-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company

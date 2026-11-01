@@ -5,25 +5,25 @@ api_specs:
   label: Unisys Combined Isolation API
   slug: unisys-combined-isolation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unisys/refs/heads/main/openapi/unisys-combined-isolation-api-openapi.yml
+  url: https://artifacts.apis.io/unisys/openapi/unisys-combined-isolation-api-openapi.yml
 - filename: unisys-endpoint-isolation-api-openapi.yml
   format: yaml
   label: Unisys Endpoint Isolation API
   slug: unisys-endpoint-isolation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unisys/refs/heads/main/openapi/unisys-endpoint-isolation-api-openapi.yml
+  url: https://artifacts.apis.io/unisys/openapi/unisys-endpoint-isolation-api-openapi.yml
 - filename: unisys-roles-api-openapi.yml
   format: yaml
   label: Unisys Roles API
   slug: unisys-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unisys/refs/heads/main/openapi/unisys-roles-api-openapi.yml
+  url: https://artifacts.apis.io/unisys/openapi/unisys-roles-api-openapi.yml
 - filename: unisys-user-isolation-api-openapi.yml
   format: yaml
   label: Unisys User Isolation API
   slug: unisys-user-isolation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unisys/refs/heads/main/openapi/unisys-user-isolation-api-openapi.yml
+  url: https://artifacts.apis.io/unisys/openapi/unisys-user-isolation-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: unisys-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: stealthsecurity.unisys.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 16 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: unisys.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unisys/refs/heads/main/security/unisys-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/unisys/security/unisys-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Fortune 1000

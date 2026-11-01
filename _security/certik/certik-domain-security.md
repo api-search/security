@@ -5,13 +5,13 @@ api_specs:
   label: CertiK Security Score API
   slug: certik-security-score-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certik/refs/heads/main/openapi/certik-security-score-api-openapi.yml
+  url: https://artifacts.apis.io/certik/openapi/certik-security-score-api-openapi.yml
 - filename: certik-token-scan-api-openapi.yml
   format: yaml
   label: CertiK Token Scan API
   slug: certik-token-scan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certik/refs/heads/main/openapi/certik-token-scan-api-openapi.yml
+  url: https://artifacts.apis.io/certik/openapi/certik-token-scan-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -47,7 +47,7 @@ source_filename: certik-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.certik.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 05:59:30 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: certik.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"globalsign.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/certik/refs/heads/main/security/certik-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/certik/security/certik-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

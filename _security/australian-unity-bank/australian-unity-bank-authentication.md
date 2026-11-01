@@ -7,43 +7,43 @@ api_specs:
   label: Australian Unity Bank Banking Account Balances API
   slug: australian-unity-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/australian-unity-bank/openapi/australian-unity-bank-banking-account-balances-api-openapi.yml
 - filename: australian-unity-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Australian Unity Bank Banking Account Direct Debits API
   slug: australian-unity-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/australian-unity-bank/openapi/australian-unity-bank-banking-account-direct-debits-api-openapi.yml
 - filename: australian-unity-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Australian Unity Bank Banking Account Scheduled Payments API
   slug: australian-unity-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/australian-unity-bank/openapi/australian-unity-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: australian-unity-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Australian Unity Bank Banking Account Transactions API
   slug: australian-unity-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/australian-unity-bank/openapi/australian-unity-bank-banking-account-transactions-api-openapi.yml
 - filename: australian-unity-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Australian Unity Bank Banking Accounts API
   slug: australian-unity-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/australian-unity-bank/openapi/australian-unity-bank-banking-accounts-api-openapi.yml
 - filename: australian-unity-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Australian Unity Bank Banking Payees API
   slug: australian-unity-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/australian-unity-bank/openapi/australian-unity-bank-banking-payees-api-openapi.yml
 - filename: australian-unity-bank-banking-products-api-openapi.yml
   format: yaml
   label: Australian Unity Bank Banking Products API
   slug: australian-unity-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/australian-unity-bank/openapi/australian-unity-bank-banking-products-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -90,7 +90,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://consumerdatastandardsaustralia.github.io/standards/#security-profile\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#security-profile\nnotes: >-\n  The harvested CDS Banking OpenAPI (v1.36.0) declares no securitySchemes because\n  the CDR authorization model lives in the separate DSB InfoSec / Security Profile.\n  Australian Unity Bank, as a CDR data holder, implements that shared profile.\n  Product Reference Data (products) endpoints are public/unauthenticated; all\n  consumer-data endpoints require the full CDR security profile.\nsummary:\n  types: [oauth2, openIdConnect, mutualTLS]\n  public_endpoints: [listBankingProducts, getBankingProductDetail]\n  oauth2_flows: [authorizationCode, hybrid]\nschemes:\n  - name: CDR-Security-Profile\n    type: openIdConnect\n    profile: FAPI 1.0 Advanced\n    features:\n      - private_key_jwt client authentication\n      - Pushed Authorization Requests (PAR)\n\
   \      - PKCE\n      - request objects signed (JARM/signed responses)\n      - mutual TLS sender-constrained access tokens\n      - CDR Register trust framework (ADR accreditation + SSA)\n    authorizationServer: https://open-banking.australianunity.com.au (OIDC discovery geo/WAF-gated; HTTP 403 to non-AU probe 2026-07-21)\n    scopes_ref: scopes/australian-unity-bank-scopes.yml\n  - name: mTLS\n    type: mutualTLS\n    description: Mutual TLS is required on token and resource endpoints; access tokens are sender-constrained (holder-of-key).\n  - name: PublicPRD\n    type: none\n    description: Product Reference Data endpoints are public and require no credentials.\n    operations: [listBankingProducts, getBankingProductDetail]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/authentication/australian-unity-bank-authentication.yml
+source_yaml_url: https://artifacts.apis.io/australian-unity-bank/authentication/australian-unity-bank-authentication.yml
 summary_line: oauth2/openIdConnect/mutualTLS · 3 schemes
 tags:
 - Finance

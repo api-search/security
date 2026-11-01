@@ -5,31 +5,31 @@ api_specs:
   label: Tavily Crawl API
   slug: tavily-crawl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tavily/refs/heads/main/openapi/tavily-crawl-api-openapi.yml
+  url: https://artifacts.apis.io/tavily/openapi/tavily-crawl-api-openapi.yml
 - filename: tavily-extract-api-openapi.yml
   format: yaml
   label: Tavily Extract API
   slug: tavily-extract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tavily/refs/heads/main/openapi/tavily-extract-api-openapi.yml
+  url: https://artifacts.apis.io/tavily/openapi/tavily-extract-api-openapi.yml
 - filename: tavily-map-api-openapi.yml
   format: yaml
   label: Tavily Map API
   slug: tavily-map-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tavily/refs/heads/main/openapi/tavily-map-api-openapi.yml
+  url: https://artifacts.apis.io/tavily/openapi/tavily-map-api-openapi.yml
 - filename: tavily-research-api-openapi.yml
   format: yaml
   label: Tavily Research API
   slug: tavily-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tavily/refs/heads/main/openapi/tavily-research-api-openapi.yml
+  url: https://artifacts.apis.io/tavily/openapi/tavily-research-api-openapi.yml
 - filename: tavily-search-api-openapi.yml
   format: yaml
   label: Tavily Search API
   slug: tavily-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tavily/refs/heads/main/openapi/tavily-search-api-openapi.yml
+  url: https://artifacts.apis.io/tavily/openapi/tavily-search-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -72,7 +72,7 @@ source_filename: tavily-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tavily.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 13 23:59:59 2027 GMT\n  hsts: false\n- host: docs.tavily.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 07:22:15 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.tavily.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: tavily.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tavily/refs/heads/main/security/tavily-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tavily/security/tavily-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Search

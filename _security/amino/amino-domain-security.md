@@ -24,7 +24,7 @@ source_filename: amino-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aminoapps.com\n  https: false\ndomains:\n- domain: aminoapps.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amino/refs/heads/main/security/amino-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amino/security/amino-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

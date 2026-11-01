@@ -8,13 +8,13 @@ api_specs:
   label: Scrapfly Scraping API
   slug: scrapfly-scraping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapfly/refs/heads/main/openapi/scrapfly-scraping-api-openapi.yml
+  url: https://artifacts.apis.io/scrapfly/openapi/scrapfly-scraping-api-openapi.yml
 - filename: scrapfly-screenshots-api-openapi.yml
   format: yaml
   label: Scrapfly Screenshots API
   slug: scrapfly-screenshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapfly/refs/heads/main/openapi/scrapfly-screenshots-api-openapi.yml
+  url: https://artifacts.apis.io/scrapfly/openapi/scrapfly-screenshots-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: scrapfly-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/scrapfly-scrape-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyQuery\n  type: apiKey\n  in: query\n  parameter: key\n  description: Scrapfly API key from your dashboard\n  sources:\n  - openapi/scrapfly-scrape-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scrapfly/refs/heads/main/authentication/scrapfly-authentication.yml
+source_yaml_url: https://artifacts.apis.io/scrapfly/authentication/scrapfly-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence

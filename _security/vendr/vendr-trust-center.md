@@ -5,25 +5,25 @@ api_specs:
   label: Vendr Catalog API
   slug: vendr-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendr/refs/heads/main/openapi/vendr-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/vendr/openapi/vendr-catalog-api-openapi.yml
 - filename: vendr-pricing-api-openapi.yml
   format: yaml
   label: Vendr Pricing API
   slug: vendr-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendr/refs/heads/main/openapi/vendr-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/vendr/openapi/vendr-pricing-api-openapi.yml
 - filename: vendr-scope-api-openapi.yml
   format: yaml
   label: Vendr Scope API
   slug: vendr-scope-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendr/refs/heads/main/openapi/vendr-scope-api-openapi.yml
+  url: https://artifacts.apis.io/vendr/openapi/vendr-scope-api-openapi.yml
 - filename: vendr-webhooks-api-openapi.yml
   format: yaml
   label: Vendr Webhooks API
   slug: vendr-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendr/refs/heads/main/openapi/vendr-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/vendr/openapi/vendr-webhooks-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -41,7 +41,7 @@ source_filename: vendr-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.vendr.com/\nurl: https://www.vendr.com/\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://www.vendr.com/\n  keywords:\n  - soc 2\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vendr/refs/heads/main/security/vendr-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/vendr/security/vendr-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - Pricing

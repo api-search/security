@@ -5,61 +5,61 @@ api_specs:
   label: CDC App Notifications API
   slug: cdc-gov-app-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdc-gov/refs/heads/main/openapi/cdc-gov-app-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/cdc-gov/openapi/cdc-gov-app-notifications-api-openapi.yml
 - filename: cdc-gov-code-systems-api-openapi.yml
   format: yaml
   label: CDC Code Systems API
   slug: cdc-gov-code-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdc-gov/refs/heads/main/openapi/cdc-gov-code-systems-api-openapi.yml
+  url: https://artifacts.apis.io/cdc-gov/openapi/cdc-gov-code-systems-api-openapi.yml
 - filename: cdc-gov-conditions-api-openapi.yml
   format: yaml
   label: CDC Conditions API
   slug: cdc-gov-conditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdc-gov/refs/heads/main/openapi/cdc-gov-conditions-api-openapi.yml
+  url: https://artifacts.apis.io/cdc-gov/openapi/cdc-gov-conditions-api-openapi.yml
 - filename: cdc-gov-configurations-api-openapi.yml
   format: yaml
   label: CDC Configurations API
   slug: cdc-gov-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdc-gov/refs/heads/main/openapi/cdc-gov-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/cdc-gov/openapi/cdc-gov-configurations-api-openapi.yml
 - filename: cdc-gov-events-api-openapi.yml
   format: yaml
   label: CDC Events API
   slug: cdc-gov-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdc-gov/refs/heads/main/openapi/cdc-gov-events-api-openapi.yml
+  url: https://artifacts.apis.io/cdc-gov/openapi/cdc-gov-events-api-openapi.yml
 - filename: cdc-gov-query-api-openapi.yml
   format: yaml
   label: CDC Query API
   slug: cdc-gov-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdc-gov/refs/heads/main/openapi/cdc-gov-query-api-openapi.yml
+  url: https://artifacts.apis.io/cdc-gov/openapi/cdc-gov-query-api-openapi.yml
 - filename: cdc-gov-query-connector-api-openapi-3-0-api-openapi.yml
   format: yaml
   label: CDC Query Connector API OpenAPI 3.0 API
   slug: cdc-gov-query-connector-api-openapi-3-0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdc-gov/refs/heads/main/openapi/cdc-gov-query-connector-api-openapi-3-0-api-openapi.yml
+  url: https://artifacts.apis.io/cdc-gov/openapi/cdc-gov-query-connector-api-openapi-3-0-api-openapi.yml
 - filename: cdc-gov-releases-api-openapi.yml
   format: yaml
   label: CDC Releases API
   slug: cdc-gov-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdc-gov/refs/heads/main/openapi/cdc-gov-releases-api-openapi.yml
+  url: https://artifacts.apis.io/cdc-gov/openapi/cdc-gov-releases-api-openapi.yml
 - filename: cdc-gov-simulator-api-openapi.yml
   format: yaml
   label: CDC Simulator API
   slug: cdc-gov-simulator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdc-gov/refs/heads/main/openapi/cdc-gov-simulator-api-openapi.yml
+  url: https://artifacts.apis.io/cdc-gov/openapi/cdc-gov-simulator-api-openapi.yml
 - filename: cdc-gov-user-api-openapi.yml
   format: yaml
   label: CDC User API
   slug: cdc-gov-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdc-gov/refs/heads/main/openapi/cdc-gov-user-api-openapi.yml
+  url: https://artifacts.apis.io/cdc-gov/openapi/cdc-gov-user-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -96,7 +96,7 @@ source_filename: cdc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: open.cdc.gov\n  https: false\n- host: data.cdc.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 16 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: wonder.cdc.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 13:32:05 2026 GMT\n  hsts: null\ndomains:\n- domain: cdc.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cdc-gov/refs/heads/main/security/cdc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cdc-gov/security/cdc-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Public Health

@@ -8,19 +8,19 @@ api_specs:
   label: OpenTripMap Geographic coordinates of populated place API
   slug: opentripmap-geographic-coordinates-of-populated-place-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentripmap/refs/heads/main/openapi/opentripmap-geographic-coordinates-of-populated-place-api-openapi.yml
+  url: https://artifacts.apis.io/opentripmap/openapi/opentripmap-geographic-coordinates-of-populated-place-api-openapi.yml
 - filename: opentripmap-object-properties-api-openapi.yml
   format: yaml
   label: OpenTripMap Object properties API
   slug: opentripmap-object-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentripmap/refs/heads/main/openapi/opentripmap-object-properties-api-openapi.yml
+  url: https://artifacts.apis.io/opentripmap/openapi/opentripmap-object-properties-api-openapi.yml
 - filename: opentripmap-objects-list-api-openapi.yml
   format: yaml
   label: OpenTripMap Objects list API
   slug: opentripmap-objects-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentripmap/refs/heads/main/openapi/opentripmap-objects-list-api-openapi.yml
+  url: https://artifacts.apis.io/opentripmap/openapi/opentripmap-objects-list-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -47,7 +47,7 @@ source_filename: opentripmap-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/opentripmap-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: query\n  parameter: apikey\n  sources:\n  - openapi/opentripmap-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opentripmap/refs/heads/main/authentication/opentripmap-authentication.yml
+source_yaml_url: https://artifacts.apis.io/opentripmap/authentication/opentripmap-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Travel

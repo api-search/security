@@ -5,19 +5,19 @@ api_specs:
   label: Rotessa Customers API
   slug: rotessa-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/openapi/rotessa-customers-api-openapi.yml
+  url: https://artifacts.apis.io/rotessa/openapi/rotessa-customers-api-openapi.yml
 - filename: rotessa-transaction-report-api-openapi.yml
   format: yaml
   label: Rotessa Transaction Report API
   slug: rotessa-transaction-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/openapi/rotessa-transaction-report-api-openapi.yml
+  url: https://artifacts.apis.io/rotessa/openapi/rotessa-transaction-report-api-openapi.yml
 - filename: rotessa-transaction-schedules-api-openapi.yml
   format: yaml
   label: Rotessa Transaction Schedules API
   slug: rotessa-transaction-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/openapi/rotessa-transaction-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/rotessa/openapi/rotessa-transaction-schedules-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -59,7 +59,7 @@ source_filename: rotessa-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-24'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: rotessa.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 00:29:47 2026 GMT\n  hsts: false\n- host: api.rotessa.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 00:29:47 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: sandbox-api.rotessa.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 00:29:47 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: rotessa.com\n  dnssec: false\n  caa:\n  - ;; connection timed out; no servers could be reached\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/security/rotessa-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rotessa/security/rotessa-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments

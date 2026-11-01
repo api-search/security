@@ -1,41 +1,23 @@
 ---
 api_specs:
-- filename: flinks-authorize-api-openapi.yml
-  format: yaml
-  label: Flinks Authorize API
-  slug: flinks-authorize-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/openapi/flinks-authorize-api-openapi.yml
 - filename: flinks-connect-api-openapi.yml
   format: yaml
   label: Flinks Connect API
   slug: flinks-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/openapi/flinks-connect-api-openapi.yml
+  url: https://artifacts.apis.io/flinks/openapi/flinks-connect-api-openapi.yml
 - filename: flinks-enrich-api-openapi.yml
   format: yaml
   label: Flinks Enrich API
   slug: flinks-enrich-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/openapi/flinks-enrich-api-openapi.yml
-- filename: flinks-fraud-api-openapi.yml
+  url: https://artifacts.apis.io/flinks/openapi/flinks-enrich-api-openapi.yml
+- filename: flinks-authorization-api-openapi.yml
   format: yaml
-  label: Flinks Fraud API
-  slug: flinks-fraud-api
+  label: Flinks Authorization API
+  slug: flinks-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/openapi/flinks-fraud-api-openapi.yml
-- filename: flinks-identity-api-openapi.yml
-  format: yaml
-  label: Flinks Identity API
-  slug: flinks-identity-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/openapi/flinks-identity-api-openapi.yml
-- filename: flinks-score-api-openapi.yml
-  format: yaml
-  label: Flinks Score API
-  slug: flinks-score-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/openapi/flinks-score-api-openapi.yml
+  url: https://artifacts.apis.io/flinks/openapi/flinks-authorization-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +53,7 @@ source_filename: flinks-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: flinks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 22:58:31 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.flinks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 16:01:19 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: flinks.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/security/flinks-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/flinks/security/flinks-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Financial Data

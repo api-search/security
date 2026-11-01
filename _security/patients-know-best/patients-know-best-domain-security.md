@@ -40,7 +40,7 @@ source_filename: patients-know-best-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: patientsknowbest.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 16:40:29 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: wiki.patientsknowbest.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 06:13:00 2026 GMT\n  hsts: true\n  hsts_max_age: 34560000\n- host: my.patientsknowbest.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 12:24:17 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: patientsknowbest.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/patients-know-best/refs/heads/main/security/patients-know-best-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/patients-know-best/security/patients-know-best-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

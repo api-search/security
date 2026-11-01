@@ -38,7 +38,7 @@ source_filename: strivr-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.strivr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 13:09:46 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.strivr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  3 17:16:32 2026 GMT\n  hsts: false\n- host: api.strivr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 15:25:43 2026 GMT\n  hsts: null\ndomains:\n- domain: strivr.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/strivr/refs/heads/main/security/strivr-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/strivr/security/strivr-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Immersive Learning

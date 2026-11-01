@@ -8,25 +8,25 @@ api_specs:
   label: M0 Order API
   slug: m0-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/m0/refs/heads/main/openapi/m0-order-api-openapi.yml
+  url: https://artifacts.apis.io/m0/openapi/m0-order-api-openapi.yml
 - filename: m0-permit-api-openapi.yml
   format: yaml
   label: M0 Permit API
   slug: m0-permit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/m0/refs/heads/main/openapi/m0-permit-api-openapi.yml
+  url: https://artifacts.apis.io/m0/openapi/m0-permit-api-openapi.yml
 - filename: m0-quote-api-openapi.yml
   format: yaml
   label: M0 Quote API
   slug: m0-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/m0/refs/heads/main/openapi/m0-quote-api-openapi.yml
+  url: https://artifacts.apis.io/m0/openapi/m0-quote-api-openapi.yml
 - filename: m0-topology-api-openapi.yml
   format: yaml
   label: M0 Topology API
   slug: m0-topology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/m0/refs/heads/main/openapi/m0-topology-api-openapi.yml
+  url: https://artifacts.apis.io/m0/openapi/m0-topology-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -53,7 +53,7 @@ source_filename: m0-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/m0-orchestration-openapi-original.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/m0-orchestration-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/m0/refs/heads/main/authentication/m0-authentication.yml
+source_yaml_url: https://artifacts.apis.io/m0/authentication/m0-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

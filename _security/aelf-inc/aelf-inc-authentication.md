@@ -7,97 +7,97 @@ api_specs:
   label: Aelf Admin API
   slug: aelf-inc-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-admin-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-admin-api-openapi.yml
 - filename: aelf-inc-approvals-api-openapi.yml
   format: yaml
   label: Aelf Approvals API
   slug: aelf-inc-approvals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-approvals-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-approvals-api-openapi.yml
 - filename: aelf-inc-balances-api-openapi.yml
   format: yaml
   label: Aelf Balances API
   slug: aelf-inc-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-balances-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-balances-api-openapi.yml
 - filename: aelf-inc-blockchain-api-openapi.yml
   format: yaml
   label: Aelf Block Chain API
   slug: aelf-inc-blockchain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-blockchain-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-blockchain-api-openapi.yml
 - filename: aelf-inc-chains-api-openapi.yml
   format: yaml
   label: Aelf Chains API
   slug: aelf-inc-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-chains-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-chains-api-openapi.yml
 - filename: aelf-inc-chainstatus-api-openapi.yml
   format: yaml
   label: Aelf Chain Status API
   slug: aelf-inc-chainstatus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-chainstatus-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-chainstatus-api-openapi.yml
 - filename: aelf-inc-contractfiledescriptorset-api-openapi.yml
   format: yaml
   label: Aelf Contract File Descriptor Set API
   slug: aelf-inc-contractfiledescriptorset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-contractfiledescriptorset-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-contractfiledescriptorset-api-openapi.yml
 - filename: aelf-inc-explorer-api-openapi.yml
   format: yaml
   label: Aelf Explorer API
   slug: aelf-inc-explorer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-explorer-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-explorer-api-openapi.yml
 - filename: aelf-inc-health-api-openapi.yml
   format: yaml
   label: Aelf Health API
   slug: aelf-inc-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-health-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-health-api-openapi.yml
 - filename: aelf-inc-net-api-openapi.yml
   format: yaml
   label: Aelf Net API
   slug: aelf-inc-net-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-net-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-net-api-openapi.yml
 - filename: aelf-inc-taskqueuestatus-api-openapi.yml
   format: yaml
   label: Aelf Task Queue Status API
   slug: aelf-inc-taskqueuestatus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-taskqueuestatus-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-taskqueuestatus-api-openapi.yml
 - filename: aelf-inc-transaction-api-openapi.yml
   format: yaml
   label: Aelf Transaction API
   slug: aelf-inc-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-transaction-api-openapi.yml
 - filename: aelf-inc-transactionresult-api-openapi.yml
   format: yaml
   label: Aelf Transaction Result API
   slug: aelf-inc-transactionresult-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-transactionresult-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-transactionresult-api-openapi.yml
 - filename: aelf-inc-transactions-api-openapi.yml
   format: yaml
   label: Aelf Transactions API
   slug: aelf-inc-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-transactions-api-openapi.yml
 - filename: aelf-inc-transfers-api-openapi.yml
   format: yaml
   label: Aelf Transfers API
   slug: aelf-inc-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-transfers-api-openapi.yml
 - filename: aelf-inc-wallets-api-openapi.yml
   format: yaml
   label: Aelf Wallets API
   slug: aelf-inc-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-wallets-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -120,7 +120,7 @@ source_yaml: "generated: '2026-09-09'\nmethod: searched\nsource: >-\n  https://d
   \ declared_security_schemes: []\n  effective_model: none (anonymous) for all /api/blockChain operations\n  authority_model: >-\n    Write authority is cryptographic, not HTTP. A transaction carries From, To, MethodName, Params,\n    RefBlockNumber/RefBlockPrefix and a Signature produced by the sender's private key; the node\n    validates the signature (error 20013 InvalidSignature) and the chain enforces permissions.\n    Sending a transaction is therefore an open endpoint that only accepts already-authorized bytes.\n  key_management: >-\n    Keys live client-side — created by `aelf-command create`, loaded from private key or mnemonic,\n    or held by a wallet (NightElf, Portkey). The API never sees them.\n  exceptions:\n  - operations:\n    - POST /api/net/peer\n    - DELETE /api/net/peer\n    scheme: http basic\n    documented_at: https://docs.aelf.com/tools/web-api/net-api/\n    source_signal: >-\n      Error.cs carries the constant NeedBasicAuth = \"User name and password for basic\
   \ auth should\n      be set\", confirming the node enforces it when configured.\n    gap: >-\n      The served OpenAPI declares NO securitySchemes at all, so these two operations look\n      anonymous to any machine reading the contract. A generated client will fail on them.\n- surface: aelf Agent Gateway\n  spec: openapi/aelf-inc-agent-gateway-openapi.yaml\n  declared_security_schemes:\n  - name: GatewayBearerAuth\n    type: http\n    scheme: bearer\n  effective_model: bearer token, plus NyxID identity and delegation JWTs in production\n  details:\n    open_operations:\n    - GET /health\n    - /openapi.json\n    - /docs\n    production_verification: signature, issuer, audience, scope and expiry\n    configuration:\n    - NYXID_JWKS_URL\n    - NYXID_ISSUER\n    - NYXID_AUDIENCE\n    - NYXID_REQUIRED_DELEGATION_SCOPE\n    admin_model: >-\n      Admin access derives only from a verified `sub` present in GATEWAY_ADMIN_NYX_USER_IDS;\n      role/scope headers cannot grant it. `trusted_headers`\
   \ identity is restricted to\n      non-production loopback development.\n    scopes_note: >-\n      A dedicated `wallet:write` delegation scope is named in the provider's own release notes as a\n      remaining blocker rather than a shipped feature, so no scope reference page exists and no\n      scopes/ artifact is emitted.\n- surface: MCP (aelf-node-skill)\n  transport: stdio\n  effective_model: none for reads; AELF_PRIVATE_KEY environment variable for writes\n  detail: mcp/aelf-inc-mcp.yml\noauth2: false\noidc: false\nmtls: false\napi_keys: false\ndiscovery_documents:\n  openid_configuration: absent\n  oauth_authorization_server: absent\n  probed: well-known/aelf-inc-well-known.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/authentication/aelf-inc-authentication.yml
+source_yaml_url: https://artifacts.apis.io/aelf-inc/authentication/aelf-inc-authentication.yml
 summary_line: 0 schemes
 tags:
 - Company

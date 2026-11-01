@@ -1,35 +1,41 @@
 ---
 api_specs:
-- filename: lamini-classify-api-openapi.yml
-  format: yaml
-  label: Lamini Classify API
-  slug: lamini-classify-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-classify-api-openapi.yml
 - filename: lamini-embeddings-api-openapi.yml
   format: yaml
   label: Lamini Embeddings API
   slug: lamini-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-embeddings-api-openapi.yml
-- filename: lamini-fine-tuning-api-openapi.yml
+  url: https://artifacts.apis.io/lamini/openapi/lamini-embeddings-api-openapi.yml
+- filename: lamini-classifier-api-openapi.yml
   format: yaml
-  label: Lamini Fine-Tuning API
-  slug: lamini-fine-tuning-api
+  label: Lamini Classifier API
+  slug: lamini-classifier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-fine-tuning-api-openapi.yml
-- filename: lamini-inference-api-openapi.yml
+  url: https://artifacts.apis.io/lamini/openapi/lamini-classifier-api-openapi.yml
+- filename: lamini-completions-api-openapi.yml
   format: yaml
-  label: Lamini Inference API
-  slug: lamini-inference-api
+  label: Lamini Completions API
+  slug: lamini-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-inference-api-openapi.yml
-- filename: lamini-platform-api-openapi.yml
+  url: https://artifacts.apis.io/lamini/openapi/lamini-completions-api-openapi.yml
+- filename: lamini-memory-rag-api-openapi.yml
   format: yaml
-  label: Lamini Platform API
-  slug: lamini-platform-api
+  label: Lamini memory rag API
+  slug: lamini-memory-rag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-platform-api-openapi.yml
+  url: https://artifacts.apis.io/lamini/openapi/lamini-memory-rag-api-openapi.yml
+- filename: lamini-model-management-api-openapi.yml
+  format: yaml
+  label: Lamini model management API
+  slug: lamini-model-management-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lamini/openapi/lamini-model-management-api-openapi.yml
+- filename: lamini-train-api-openapi.yml
+  format: yaml
+  label: Lamini Train API
+  slug: lamini-train-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lamini/openapi/lamini-train-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +71,7 @@ source_filename: lamini-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.lamini.ai\n  https: false\n- host: docs.lamini.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 03:26:50 2026 GMT\n  hsts: false\n- host: api.lamini.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 03:26:50 2026 GMT\n  hsts: null\ndomains:\n- domain: lamini.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/security/lamini-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lamini/security/lamini-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Artificial Intelligence

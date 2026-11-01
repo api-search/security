@@ -8,25 +8,25 @@ api_specs:
   label: pfSense Authentication API
   slug: pfsense-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pfsense/refs/heads/main/openapi/pfsense-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/pfsense/openapi/pfsense-authentication-api-openapi.yml
 - filename: pfsense-firewall-aliases-api-openapi.yml
   format: yaml
   label: pfSense Firewall Aliases API
   slug: pfsense-firewall-aliases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pfsense/refs/heads/main/openapi/pfsense-firewall-aliases-api-openapi.yml
+  url: https://artifacts.apis.io/pfsense/openapi/pfsense-firewall-aliases-api-openapi.yml
 - filename: pfsense-firewall-apply-api-openapi.yml
   format: yaml
   label: pfSense Firewall Apply API
   slug: pfsense-firewall-apply-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pfsense/refs/heads/main/openapi/pfsense-firewall-apply-api-openapi.yml
+  url: https://artifacts.apis.io/pfsense/openapi/pfsense-firewall-apply-api-openapi.yml
 - filename: pfsense-firewall-rules-api-openapi.yml
   format: yaml
   label: pfSense Firewall Rules API
   slug: pfsense-firewall-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pfsense/refs/heads/main/openapi/pfsense-firewall-rules-api-openapi.yml
+  url: https://artifacts.apis.io/pfsense/openapi/pfsense-firewall-rules-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -72,7 +72,7 @@ source_filename: pfsense-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pfsense-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic auth with a pfSense local database username and password.\n  sources:\n  - openapi/pfsense-openapi.yml\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: |-\n    API key generated through the webConfigurator or API endpoints. Keys\n    inherit the permissions of the user that issued them.\n  sources:\n  - openapi/pfsense-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: |-\n    JWT bearer token obtained from POST /api/v2/auth/jwt. Tokens default\n    to one hour of validity.\n  sources:\n  - openapi/pfsense-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pfsense/refs/heads/main/authentication/pfsense-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pfsense/authentication/pfsense-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Firewall

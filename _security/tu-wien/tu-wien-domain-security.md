@@ -5,7 +5,7 @@ api_specs:
   label: TU Wien Public API
   slug: tu-wien-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tu-wien/refs/heads/main/openapi/tu-wien-public-api-openapi.yml
+  url: https://artifacts.apis.io/tu-wien/openapi/tu-wien-public-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: tu-wien-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tuwien.at\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  6 11:58:26 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: researchdata.tuwien.ac.at\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 21:20:39 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\n- host: repositum.tuwien.at\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 09:25:49 2026 GMT\n  hsts: false\ndomains:\n- domain: tuwien.at\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: tuwien.ac.at\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tu-wien/refs/heads/main/security/tu-wien-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tu-wien/security/tu-wien-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - University

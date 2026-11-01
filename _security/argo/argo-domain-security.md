@@ -5,79 +5,79 @@ api_specs:
   label: Argo Events API
   slug: argo-events-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argo/refs/heads/main/asyncapi/argo-events-asyncapi.yml
+  url: https://artifacts.apis.io/argo/asyncapi/argo-events-asyncapi.yml
 - filename: argo-applications-api-openapi.yml
   format: yaml
   label: Argo Applications API
   slug: argo-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argo/refs/heads/main/openapi/argo-applications-api-openapi.yml
+  url: https://artifacts.apis.io/argo/openapi/argo-applications-api-openapi.yml
 - filename: argo-clusters-api-openapi.yml
   format: yaml
   label: Argo Clusters API
   slug: argo-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argo/refs/heads/main/openapi/argo-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/argo/openapi/argo-clusters-api-openapi.yml
 - filename: argo-cron-workflows-api-openapi.yml
   format: yaml
   label: Argo Cron Workflows API
   slug: argo-cron-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argo/refs/heads/main/openapi/argo-cron-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/argo/openapi/argo-cron-workflows-api-openapi.yml
 - filename: argo-info-api-openapi.yml
   format: yaml
   label: Argo Info API
   slug: argo-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argo/refs/heads/main/openapi/argo-info-api-openapi.yml
+  url: https://artifacts.apis.io/argo/openapi/argo-info-api-openapi.yml
 - filename: argo-projects-api-openapi.yml
   format: yaml
   label: Argo Projects API
   slug: argo-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argo/refs/heads/main/openapi/argo-projects-api-openapi.yml
+  url: https://artifacts.apis.io/argo/openapi/argo-projects-api-openapi.yml
 - filename: argo-repositories-api-openapi.yml
   format: yaml
   label: Argo Repositories API
   slug: argo-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argo/refs/heads/main/openapi/argo-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/argo/openapi/argo-repositories-api-openapi.yml
 - filename: argo-session-api-openapi.yml
   format: yaml
   label: Argo Session API
   slug: argo-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argo/refs/heads/main/openapi/argo-session-api-openapi.yml
+  url: https://artifacts.apis.io/argo/openapi/argo-session-api-openapi.yml
 - filename: argo-settings-api-openapi.yml
   format: yaml
   label: Argo Settings API
   slug: argo-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argo/refs/heads/main/openapi/argo-settings-api-openapi.yml
+  url: https://artifacts.apis.io/argo/openapi/argo-settings-api-openapi.yml
 - filename: argo-version-api-openapi.yml
   format: yaml
   label: Argo Version API
   slug: argo-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argo/refs/heads/main/openapi/argo-version-api-openapi.yml
+  url: https://artifacts.apis.io/argo/openapi/argo-version-api-openapi.yml
 - filename: argo-workflow-archives-api-openapi.yml
   format: yaml
   label: Argo Workflow Archives API
   slug: argo-workflow-archives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argo/refs/heads/main/openapi/argo-workflow-archives-api-openapi.yml
+  url: https://artifacts.apis.io/argo/openapi/argo-workflow-archives-api-openapi.yml
 - filename: argo-workflow-templates-api-openapi.yml
   format: yaml
   label: Argo Workflow Templates API
   slug: argo-workflow-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argo/refs/heads/main/openapi/argo-workflow-templates-api-openapi.yml
+  url: https://artifacts.apis.io/argo/openapi/argo-workflow-templates-api-openapi.yml
 - filename: argo-workflows-api-openapi.yml
   format: yaml
   label: Argo Workflows API
   slug: argo-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argo/refs/heads/main/openapi/argo-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/argo/openapi/argo-workflows-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -124,7 +124,7 @@ source_filename: argo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: argo-workflows.readthedocs.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 13:13:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: argo-cd.readthedocs.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 13:13:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: argo-rollouts.readthedocs.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 13:13:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: readthedocs.io\n  dnssec: false\n  caa:\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \" amazontrust.com\"\n  - 0 issue \"comodoca.com\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/argo/refs/heads/main/security/argo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/argo/security/argo-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - CNCF

@@ -5,37 +5,37 @@ api_specs:
   label: TinyFish Automation API
   slug: tinyfish-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/openapi/tinyfish-automation-api-openapi.yml
+  url: https://artifacts.apis.io/tinyfish/openapi/tinyfish-automation-api-openapi.yml
 - filename: tinyfish-runs-api-openapi.yml
   format: yaml
   label: TinyFish Runs API
   slug: tinyfish-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/openapi/tinyfish-runs-api-openapi.yml
+  url: https://artifacts.apis.io/tinyfish/openapi/tinyfish-runs-api-openapi.yml
 - filename: tinyfish-tinyfish-browser-api-api-openapi.yml
   format: yaml
   label: TinyFish Browser API
   slug: tinyfish-tinyfish-browser-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/openapi/tinyfish-tinyfish-browser-api-api-openapi.yml
+  url: https://artifacts.apis.io/tinyfish/openapi/tinyfish-tinyfish-browser-api-api-openapi.yml
 - filename: tinyfish-tinyfish-search-api-api-openapi.yml
   format: yaml
   label: TinyFish Search API
   slug: tinyfish-tinyfish-search-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/openapi/tinyfish-tinyfish-search-api-api-openapi.yml
+  url: https://artifacts.apis.io/tinyfish/openapi/tinyfish-tinyfish-search-api-api-openapi.yml
 - filename: tinyfish-usage-api-openapi.yml
   format: yaml
   label: TinyFish Usage API
   slug: tinyfish-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/openapi/tinyfish-usage-api-openapi.yml
+  url: https://artifacts.apis.io/tinyfish/openapi/tinyfish-usage-api-openapi.yml
 - filename: tinyfish-vault-api-openapi.yml
   format: yaml
   label: TinyFish Vault API
   slug: tinyfish-vault-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/openapi/tinyfish-vault-api-openapi.yml
+  url: https://artifacts.apis.io/tinyfish/openapi/tinyfish-vault-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -79,16 +79,15 @@ source_filename: tinyfish-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tinyfish.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 17:36:27 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.browser.tinyfish.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 23:59:59 2026 GMT\n  hsts: null\n- host: api.fetch.tinyfish.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: tinyfish.ai\n  dnssec: true\n  caa:\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/security/tinyfish-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tinyfish/security/tinyfish-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Web Automation
+- Browser Automation
 - Web Scraping
 - Search
-- Browser Automation
 - MCP
 - Data Extraction
 ---

@@ -5,31 +5,31 @@ api_specs:
   label: Noun Project Autocomplete API
   slug: noun-project-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/openapi/noun-project-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/noun-project/openapi/noun-project-autocomplete-api-openapi.yml
 - filename: noun-project-blocklist-api-openapi.yml
   format: yaml
   label: Noun Project Blocklist API
   slug: noun-project-blocklist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/openapi/noun-project-blocklist-api-openapi.yml
+  url: https://artifacts.apis.io/noun-project/openapi/noun-project-blocklist-api-openapi.yml
 - filename: noun-project-collection-api-openapi.yml
   format: yaml
   label: Noun Project Collection API
   slug: noun-project-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/openapi/noun-project-collection-api-openapi.yml
+  url: https://artifacts.apis.io/noun-project/openapi/noun-project-collection-api-openapi.yml
 - filename: noun-project-icon-api-openapi.yml
   format: yaml
   label: Noun Project Icon API
   slug: noun-project-icon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/openapi/noun-project-icon-api-openapi.yml
+  url: https://artifacts.apis.io/noun-project/openapi/noun-project-icon-api-openapi.yml
 - filename: noun-project-usage-api-openapi.yml
   format: yaml
   label: Noun Project Usage API
   slug: noun-project-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/openapi/noun-project-usage-api-openapi.yml
+  url: https://artifacts.apis.io/noun-project/openapi/noun-project-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: noun-project-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: thenounproject.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 24 23:59:59 2027 GMT\n  hsts: false\n- host: api.thenounproject.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 24 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: thenounproject.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/security/noun-project-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/noun-project/security/noun-project-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Icons

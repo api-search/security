@@ -8,55 +8,55 @@ api_specs:
   label: PostalForm Api Keys API
   slug: postalform-com-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/postalform-com/openapi/postalform-com-api-keys-api-openapi.yml
 - filename: postalform-com-credits-api-openapi.yml
   format: yaml
   label: PostalForm Credits API
   slug: postalform-com-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-credits-api-openapi.yml
+  url: https://artifacts.apis.io/postalform-com/openapi/postalform-com-credits-api-openapi.yml
 - filename: postalform-com-documents-api-openapi.yml
   format: yaml
   label: PostalForm Documents API
   slug: postalform-com-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-documents-api-openapi.yml
+  url: https://artifacts.apis.io/postalform-com/openapi/postalform-com-documents-api-openapi.yml
 - filename: postalform-com-letters-api-openapi.yml
   format: yaml
   label: PostalForm Letters API
   slug: postalform-com-letters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-letters-api-openapi.yml
+  url: https://artifacts.apis.io/postalform-com/openapi/postalform-com-letters-api-openapi.yml
 - filename: postalform-com-machine-api-openapi.yml
   format: yaml
   label: PostalForm Machine API
   slug: postalform-com-machine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-machine-api-openapi.yml
+  url: https://artifacts.apis.io/postalform-com/openapi/postalform-com-machine-api-openapi.yml
 - filename: postalform-com-postcards-api-openapi.yml
   format: yaml
   label: PostalForm Postcards API
   slug: postalform-com-postcards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-postcards-api-openapi.yml
+  url: https://artifacts.apis.io/postalform-com/openapi/postalform-com-postcards-api-openapi.yml
 - filename: postalform-com-return-receipts-api-openapi.yml
   format: yaml
   label: PostalForm Return Receipts API
   slug: postalform-com-return-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-return-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/postalform-com/openapi/postalform-com-return-receipts-api-openapi.yml
 - filename: postalform-com-webhook-endpoints-api-openapi.yml
   format: yaml
   label: PostalForm Webhook Endpoints API
   slug: postalform-com-webhook-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-webhook-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/postalform-com/openapi/postalform-com-webhook-endpoints-api-openapi.yml
 - filename: postalform-com-webhook-events-api-openapi.yml
   format: yaml
   label: PostalForm Webhook Events API
   slug: postalform-com-webhook-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-webhook-events-api-openapi.yml
+  url: https://artifacts.apis.io/postalform-com/openapi/postalform-com-webhook-events-api-openapi.yml
 auth_types:
 - http
 - none
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://postalf
   \ {test: pf_test_, live: pf_live_}\n  header_example: 'Authorization: Bearer pf_test_...'\n  issuance: 'https://projects.postalform.com/signup (dashboard) or Stripe Projects provisioning of postalform/mail, which returns POSTALFORM_TEST_API_KEY and POSTALFORM_LIVE_API_KEY'\n  rotation: 'POST /api/v1/api-keys/rotate {mode: test|live} -> ApiKeyRotation {api_key (returned once), api_key_prefix}; GET /api/v1/api-keys lists prefixes and status active|disabled|revoked with last_used_at'\n  scopes: none (one key per mode; no scoped permissions documented)\n  sources: [openapi/postalform-com-projects-openapi.json, https://postalform.com/developer-mail-api]\n- name: none (payment-gated)\n  type: none\n  surface: PostalForm Machine Payments API (https://postalform.com/api/machine/*)\n  applied_to: all 17 operations\n  gate: >-\n    HTTP 402. x402 family: PAYMENT-REQUIRED challenge, PAYMENT-SIGNATURE on retry, PAYMENT-RESPONSE on\n    success (USDC on Base). MPP family: one WWW-Authenticate: Payment\
   \ challenge per method (tempo, stripe,\n    card), Authorization: Payment on retry, Payment-Receipt on success. Reads (forms catalog, schemas, order\n    status) and validate endpoints are open.\n  note: 'The OpenAPI declares \"security\": [] at the top level and no components.securitySchemes — an accurate declaration of \"no authentication\", not an omission.'\n  sources: [openapi/postalform-com-machine-payments-openapi.json, https://postalform.com/agents]\n- name: none (MCP)\n  type: none\n  surface: MCP server (https://postalform.com/mcp) and its UCP (/ucp/mcp) and ACP (/acp/mcp) siblings\n  applied_to: initialize, tools/list, resources/list, read-only tools\n  gate_on_writes: 'hosted checkout_url (human pays on Stripe-hosted page); complete_checkout with a Stripe shared payment token (spt_..., provider stripe); postalform.create_machine_order 402 challenge retried with payment_authorization (MPP) or payment_signature (x402). UCP calls additionally require a platform profile in _meta.ucp.profile.'\n\
   \  rfc9728: 'not served — /.well-known/oauth-protected-resource 404 on the MCP host'\n  sources: [https://postalform.com/.well-known/mcp.json, https://postalform.com/developers, https://postalform.com/.well-known/capability-card.json]\nwebhook_verification:\n  header: PostalForm-Signature\n  secret: endpoint-scoped signing_secret, returned once on create/rotate\n  source: https://postalform.com/developer-mail-api (\"Verify the PostalForm-Signature header before trusting webhook payloads\")\n  note: The signature algorithm and header format are not documented publicly.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/authentication/postalform-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/postalform-com/authentication/postalform-com-authentication.yml
 summary_line: http/none/payment-gated · 3 schemes
 tags:
 - Physical Mail

@@ -5,43 +5,43 @@ api_specs:
   label: Cryptomus Recurring Payments API
   slug: cryptomus-recurring-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cryptomus/refs/heads/main/openapi/cryptomus-recurring-payments-api-openapi.yml
+  url: https://artifacts.apis.io/cryptomus/openapi/cryptomus-recurring-payments-api-openapi.yml
 - filename: cryptomus-exchange-api-openapi.yml
   format: yaml
   label: Cryptomus Exchange API
   slug: cryptomus-exchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cryptomus/refs/heads/main/openapi/cryptomus-exchange-api-openapi.yml
+  url: https://artifacts.apis.io/cryptomus/openapi/cryptomus-exchange-api-openapi.yml
 - filename: cryptomus-payments-api-openapi.yml
   format: yaml
   label: Cryptomus Payments API
   slug: cryptomus-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cryptomus/refs/heads/main/openapi/cryptomus-payments-api-openapi.yml
+  url: https://artifacts.apis.io/cryptomus/openapi/cryptomus-payments-api-openapi.yml
 - filename: cryptomus-payouts-api-openapi.yml
   format: yaml
   label: Cryptomus Payouts API
   slug: cryptomus-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cryptomus/refs/heads/main/openapi/cryptomus-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/cryptomus/openapi/cryptomus-payouts-api-openapi.yml
 - filename: cryptomus-recurring-payments-api-openapi.yml
   format: yaml
   label: Cryptomus Recurring Payments API
   slug: cryptomus-recurring-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cryptomus/refs/heads/main/openapi/cryptomus-recurring-payments-api-openapi.yml
+  url: https://artifacts.apis.io/cryptomus/openapi/cryptomus-recurring-payments-api-openapi.yml
 - filename: cryptomus-wallets-api-openapi.yml
   format: yaml
   label: Cryptomus Wallets API
   slug: cryptomus-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cryptomus/refs/heads/main/openapi/cryptomus-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/cryptomus/openapi/cryptomus-wallets-api-openapi.yml
 - filename: cryptomus-webhooks-api-openapi.yml
   format: yaml
   label: Cryptomus Webhooks API
   slug: cryptomus-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cryptomus/refs/heads/main/openapi/cryptomus-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cryptomus/openapi/cryptomus-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -80,7 +80,7 @@ source_filename: cryptomus-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cryptomus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 14:50:35 2026 GMT\n  hsts: false\n- host: doc.cryptomus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 14:50:35 2026 GMT\n  hsts: false\n- host: api.cryptomus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 14:50:35 2026 GMT\n  hsts: false\ndomains:\n- domain: cryptomus.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cryptomus/refs/heads/main/security/cryptomus-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cryptomus/security/cryptomus-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Cryptocurrency

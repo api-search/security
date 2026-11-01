@@ -8,37 +8,37 @@ api_specs:
   label: The News API All News API
   slug: the-news-api-all-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-news-api/refs/heads/main/openapi/the-news-api-all-news-api-openapi.yml
+  url: https://artifacts.apis.io/the-news-api/openapi/the-news-api-all-news-api-openapi.yml
 - filename: the-news-api-articles-api-openapi.yml
   format: yaml
   label: The News API Articles API
   slug: the-news-api-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-news-api/refs/heads/main/openapi/the-news-api-articles-api-openapi.yml
+  url: https://artifacts.apis.io/the-news-api/openapi/the-news-api-articles-api-openapi.yml
 - filename: the-news-api-headlines-api-openapi.yml
   format: yaml
   label: The News API Headlines API
   slug: the-news-api-headlines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-news-api/refs/heads/main/openapi/the-news-api-headlines-api-openapi.yml
+  url: https://artifacts.apis.io/the-news-api/openapi/the-news-api-headlines-api-openapi.yml
 - filename: the-news-api-similar-news-api-openapi.yml
   format: yaml
   label: The News API Similar News API
   slug: the-news-api-similar-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-news-api/refs/heads/main/openapi/the-news-api-similar-news-api-openapi.yml
+  url: https://artifacts.apis.io/the-news-api/openapi/the-news-api-similar-news-api-openapi.yml
 - filename: the-news-api-sources-api-openapi.yml
   format: yaml
   label: The News API Sources API
   slug: the-news-api-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-news-api/refs/heads/main/openapi/the-news-api-sources-api-openapi.yml
+  url: https://artifacts.apis.io/the-news-api/openapi/the-news-api-sources-api-openapi.yml
 - filename: the-news-api-top-stories-api-openapi.yml
   format: yaml
   label: The News API Top Stories API
   slug: the-news-api-top-stories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-news-api/refs/heads/main/openapi/the-news-api-top-stories-api-openapi.yml
+  url: https://artifacts.apis.io/the-news-api/openapi/the-news-api-top-stories-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -65,7 +65,7 @@ source_filename: the-news-api-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/the-news-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiToken\n  type: apiKey\n  in: query\n  parameter: api_token\n  sources:\n  - openapi/the-news-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-news-api/refs/heads/main/authentication/the-news-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/the-news-api/authentication/the-news-api-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Articles

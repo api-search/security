@@ -5,13 +5,13 @@ api_specs:
   label: Workday Reporting Report Metadata API
   slug: workday-reporting-report-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-reporting/refs/heads/main/openapi/workday-reporting-report-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/workday-reporting/openapi/workday-reporting-report-metadata-api-openapi.yml
 - filename: workday-reporting-reports-api-openapi.yml
   format: yaml
   label: Workday Reporting Reports API
   slug: workday-reporting-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-reporting/refs/heads/main/openapi/workday-reporting-reports-api-openapi.yml
+  url: https://artifacts.apis.io/workday-reporting/openapi/workday-reporting-reports-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: workday-reporting-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.workday.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: community.workday.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 23:59:59 2026 GMT\n  hsts: null\n- host: doc.workday.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 12 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31557600\ndomains:\n- domain: workday.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workday-reporting/refs/heads/main/security/workday-reporting-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/workday-reporting/security/workday-reporting-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics

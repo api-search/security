@@ -9,25 +9,25 @@ api_specs:
   label: Proxmox VE Access API
   slug: proxmox-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/proxmox/refs/heads/main/openapi/proxmox-access-api-openapi.yml
+  url: https://artifacts.apis.io/proxmox/openapi/proxmox-access-api-openapi.yml
 - filename: proxmox-cluster-api-openapi.yml
   format: yaml
   label: Proxmox VE Cluster API
   slug: proxmox-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/proxmox/refs/heads/main/openapi/proxmox-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/proxmox/openapi/proxmox-cluster-api-openapi.yml
 - filename: proxmox-containers-api-openapi.yml
   format: yaml
   label: Proxmox VE Containers API
   slug: proxmox-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/proxmox/refs/heads/main/openapi/proxmox-containers-api-openapi.yml
+  url: https://artifacts.apis.io/proxmox/openapi/proxmox-containers-api-openapi.yml
 - filename: proxmox-nodes-api-openapi.yml
   format: yaml
   label: Proxmox VE Nodes API
   slug: proxmox-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/proxmox/refs/heads/main/openapi/proxmox-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/proxmox/openapi/proxmox-nodes-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -70,7 +70,7 @@ source_filename: proxmox-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/proxmox-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - cookie\n  - header\nschemes:\n- name: apiTokenAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: |-\n    Stateless API token. Send header\n    `Authorization: PVEAPIToken=USER@REALM!TOKENID=UUID`.\n    No CSRFPreventionToken required.\n  sources:\n  - openapi/proxmox-openapi.yml\n- name: ticketAuth\n  type: apiKey\n  in: cookie\n  parameter: PVEAuthCookie\n  description: |-\n    Ticket issued by POST /access/ticket. Carried as a cookie. Write\n    operations also require the `CSRFPreventionToken` header returned with\n    the ticket. Tickets expire after 2 hours.\n  sources:\n  - openapi/proxmox-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/proxmox/refs/heads/main/authentication/proxmox-authentication.yml
+source_yaml_url: https://artifacts.apis.io/proxmox/authentication/proxmox-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Virtualization

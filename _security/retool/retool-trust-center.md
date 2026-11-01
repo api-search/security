@@ -5,31 +5,31 @@ api_specs:
   label: Retool Apps API
   slug: retool-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retool/refs/heads/main/openapi/retool-apps-api-openapi.yml
+  url: https://artifacts.apis.io/retool/openapi/retool-apps-api-openapi.yml
 - filename: retool-folders-api-openapi.yml
   format: yaml
   label: Retool Folders API
   slug: retool-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retool/refs/heads/main/openapi/retool-folders-api-openapi.yml
+  url: https://artifacts.apis.io/retool/openapi/retool-folders-api-openapi.yml
 - filename: retool-groups-api-openapi.yml
   format: yaml
   label: Retool Groups API
   slug: retool-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retool/refs/heads/main/openapi/retool-groups-api-openapi.yml
+  url: https://artifacts.apis.io/retool/openapi/retool-groups-api-openapi.yml
 - filename: retool-resources-api-openapi.yml
   format: yaml
   label: Retool Resources API
   slug: retool-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retool/refs/heads/main/openapi/retool-resources-api-openapi.yml
+  url: https://artifacts.apis.io/retool/openapi/retool-resources-api-openapi.yml
 - filename: retool-users-api-openapi.yml
   format: yaml
   label: Retool Users API
   slug: retool-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retool/refs/heads/main/openapi/retool-users-api-openapi.yml
+  url: https://artifacts.apis.io/retool/openapi/retool-users-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -48,7 +48,7 @@ source_filename: retool-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-04'\nmethod: searched\nprobe: true\nsource: https://trust.retool.com/\nurl: https://trust.retool.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://trust.retool.com/\n  keywords:\n  - soc 2\n  - soc2\n  - iso/iec 27001\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/retool/refs/heads/main/security/retool-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/retool/security/retool-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Admin Panel

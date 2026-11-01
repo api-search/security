@@ -5,37 +5,37 @@ api_specs:
   label: Ceros Accounts API
   slug: ceros-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceros/refs/heads/main/openapi/ceros-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/ceros/openapi/ceros-accounts-api-openapi.yml
 - filename: ceros-embedcodes-api-openapi.yml
   format: yaml
   label: Ceros Embed Codes API
   slug: ceros-embedcodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceros/refs/heads/main/openapi/ceros-embedcodes-api-openapi.yml
+  url: https://artifacts.apis.io/ceros/openapi/ceros-embedcodes-api-openapi.yml
 - filename: ceros-experience-api-openapi.yml
   format: yaml
   label: Ceros Experience API
   slug: ceros-experience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceros/refs/heads/main/openapi/ceros-experience-api-openapi.yml
+  url: https://artifacts.apis.io/ceros/openapi/ceros-experience-api-openapi.yml
 - filename: ceros-experiencepage-api-openapi.yml
   format: yaml
   label: Ceros Experience Page API
   slug: ceros-experiencepage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceros/refs/heads/main/openapi/ceros-experiencepage-api-openapi.yml
+  url: https://artifacts.apis.io/ceros/openapi/ceros-experiencepage-api-openapi.yml
 - filename: ceros-folders-api-openapi.yml
   format: yaml
   label: Ceros Folders API
   slug: ceros-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceros/refs/heads/main/openapi/ceros-folders-api-openapi.yml
+  url: https://artifacts.apis.io/ceros/openapi/ceros-folders-api-openapi.yml
 - filename: ceros-o-embed-api-openapi.yml
   format: yaml
   label: Ceros o Embed API
   slug: ceros-o-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceros/refs/heads/main/openapi/ceros-o-embed-api-openapi.yml
+  url: https://artifacts.apis.io/ceros/openapi/ceros-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -87,7 +87,7 @@ source_filename: ceros-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: forgeglobal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 20:15:48 2026 GMT\n  hsts: null\n- host: view.ceros.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 18:57:09 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: rest.ceros.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 17:57:54 2026 GMT\n  hsts: null\ndomains:\n- domain: forgeglobal.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: ceros.com\n  dnssec: true\n  caa:\n  - 0 iodef \"mailto:domains@ceros.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ceros/refs/heads/main/security/ceros-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ceros/security/ceros-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Content Management

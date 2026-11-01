@@ -7,25 +7,25 @@ api_specs:
   label: Ciena Alarms API
   slug: ciena-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/openapi/ciena-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/ciena/openapi/ciena-alarms-api-openapi.yml
 - filename: ciena-performance-api-openapi.yml
   format: yaml
   label: Ciena Performance API
   slug: ciena-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/openapi/ciena-performance-api-openapi.yml
+  url: https://artifacts.apis.io/ciena/openapi/ciena-performance-api-openapi.yml
 - filename: ciena-services-api-openapi.yml
   format: yaml
   label: Ciena Services API
   slug: ciena-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/openapi/ciena-services-api-openapi.yml
+  url: https://artifacts.apis.io/ciena/openapi/ciena-services-api-openapi.yml
 - filename: ciena-topology-api-openapi.yml
   format: yaml
   label: Ciena Topology API
   slug: ciena-topology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/openapi/ciena-topology-api-openapi.yml
+  url: https://artifacts.apis.io/ciena/openapi/ciena-topology-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -56,7 +56,7 @@ source_filename: ciena-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ciena-blue-planet-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.blueplanet.com/oauth/token\n    scopes: 5\n  description: OAuth 2.0 authentication for Blue Planet API\n  sources:\n  - openapi/ciena-blue-planet-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/authentication/ciena-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ciena/authentication/ciena-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - MEF

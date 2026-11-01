@@ -5,19 +5,19 @@ api_specs:
   label: WarpPay402 Studio Feeds API
   slug: warppay402-com-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warppay402-com/refs/heads/main/openapi/warppay402-com-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/warppay402-com/openapi/warppay402-com-feeds-api-openapi.yml
 - filename: warppay402-com-public-data-feed-api-openapi.yml
   format: yaml
   label: WarpPay402 Studio Public Data Feed API
   slug: warppay402-com-public-data-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warppay402-com/refs/heads/main/openapi/warppay402-com-public-data-feed-api-openapi.yml
+  url: https://artifacts.apis.io/warppay402-com/openapi/warppay402-com-public-data-feed-api-openapi.yml
 - filename: warppay402-com-tools-api-openapi.yml
   format: yaml
   label: WarpPay402 Studio Tools API
   slug: warppay402-com-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warppay402-com/refs/heads/main/openapi/warppay402-com-tools-api-openapi.yml
+  url: https://artifacts.apis.io/warppay402-com/openapi/warppay402-com-tools-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: warppay402-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: warppay402.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 16 16:09:31 2026 GMT\n  hsts: false\ndomains:\n- domain: warppay402.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/warppay402-com/refs/heads/main/security/warppay402-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/warppay402-com/security/warppay402-com-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - x402

@@ -5,19 +5,19 @@ api_specs:
   label: Browserless Browser REST APIs API
   slug: browserless-browser-rest-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserless/refs/heads/main/openapi/browserless-browser-rest-apis-api-openapi.yml
+  url: https://artifacts.apis.io/browserless/openapi/browserless-browser-rest-apis-api-openapi.yml
 - filename: browserless-browser-websocket-apis-api-openapi.yml
   format: yaml
   label: Browserless Browser WebSocket APIs API
   slug: browserless-browser-websocket-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserless/refs/heads/main/openapi/browserless-browser-websocket-apis-api-openapi.yml
+  url: https://artifacts.apis.io/browserless/openapi/browserless-browser-websocket-apis-api-openapi.yml
 - filename: browserless-management-rest-apis-api-openapi.yml
   format: yaml
   label: Browserless Management REST APIs API
   slug: browserless-management-rest-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserless/refs/heads/main/openapi/browserless-management-rest-apis-api-openapi.yml
+  url: https://artifacts.apis.io/browserless/openapi/browserless-management-rest-apis-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,12 +58,11 @@ source_filename: browserless-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.browserless.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 16:44:03 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.browserless.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 04:23:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: production-sfo.browserless.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 10:42:13 2026 GMT\n  hsts: null\ndomains:\n- domain: browserless.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/browserless/refs/heads/main/security/browserless-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/browserless/security/browserless-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Headless Browser
+- Browser Automation
 - Browser Infrastructure
-- Web Automation
 - AI Agents
 - Web Scraping
 - BrowserQL
@@ -82,5 +81,4 @@ tags:
 - Session Recording
 - Hybrid Automation
 - Chrome DevTools Protocol
-- Browser Automation
 ---

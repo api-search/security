@@ -7,25 +7,25 @@ api_specs:
   label: dope.security Authorization API
   slug: dopesecurity-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/openapi/dopesecurity-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/dopesecurity/openapi/dopesecurity-authorization-api-openapi.yml
 - filename: dopesecurity-custom-categories-api-openapi.yml
   format: yaml
   label: dope.security Custom Categories API
   slug: dopesecurity-custom-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/openapi/dopesecurity-custom-categories-api-openapi.yml
+  url: https://artifacts.apis.io/dopesecurity/openapi/dopesecurity-custom-categories-api-openapi.yml
 - filename: dopesecurity-endpoints-api-openapi.yml
   format: yaml
   label: dope.security Endpoints API
   slug: dopesecurity-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/openapi/dopesecurity-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/dopesecurity/openapi/dopesecurity-endpoints-api-openapi.yml
 - filename: dopesecurity-policies-api-openapi.yml
   format: yaml
   label: dope.security Policies API
   slug: dopesecurity-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/openapi/dopesecurity-policies-api-openapi.yml
+  url: https://artifacts.apis.io/dopesecurity/openapi/dopesecurity-policies-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: dopesecurity-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/dopesecurity-flightdeck-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/dopesecurity-flightdeck-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/authentication/dopesecurity-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dopesecurity/authentication/dopesecurity-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

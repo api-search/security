@@ -1,43 +1,6 @@
 ---
 anonymous_access: false
 api_key_in: []
-api_specs:
-- filename: target-inventory-api-openapi.yml
-  format: yaml
-  label: target Inventory API
-  slug: target-inventory-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/openapi/target-inventory-api-openapi.yml
-- filename: target-orders-api-openapi.yml
-  format: yaml
-  label: target Orders API
-  slug: target-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/openapi/target-orders-api-openapi.yml
-- filename: target-products-api-openapi.yml
-  format: yaml
-  label: target Products API
-  slug: target-products-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/openapi/target-products-api-openapi.yml
-- filename: target-search-api-openapi.yml
-  format: yaml
-  label: target Search API
-  slug: target-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/openapi/target-search-api-openapi.yml
-- filename: target-status-api-openapi.yml
-  format: yaml
-  label: target Status API
-  slug: target-status-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/openapi/target-status-api-openapi.yml
-- filename: target-stores-api-openapi.yml
-  format: yaml
-  label: target Stores API
-  slug: target-stores-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/openapi/target-stores-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -147,7 +110,7 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: https://oauth.i
   \ - authorization_code\n  - implicit\n  response_types_supported:\n  - code\n  - token id_token\n  scopes_supported:\n  - openid\n  - email\n  - profile\n  - openid_client_registration\n  token_endpoint_auth_methods_supported:\n  - client_secret_basic\n  - client_secret_post\n  id_token_signing_alg_values_supported:\n  - RS256\n  - HS256\n  subject_types_supported:\n  - pairwise\n  audience: Target suppliers, vendors and Target Plus marketplace partners\n  file: well-known/target-oauth-iam-partnersonline-openid-configuration.json\n  x-evidence:\n    fetched: '2026-08-27'\n    url: https://oauth.iam.partnersonline.com/.well-known/openid-configuration\n    http_status: 200\n    content_type: application/json\n- name: developerPortalApiKey\n  type: apiKey\n  in: header\n  method: probed\n  description: >-\n    The developer.target.com catalog backend rejects anonymous calls with HTTP 401 and the body\n    {\"message\":\"Invalid Key\",\"errors\":[{\"resource\":\"Go-Proxy\",\"reason\":\"no\
   \ API key ...\"}]}, so an\n    API key issued through the portal is the credential for the catalog itself. The header name is\n    not disclosed anonymously.\n  x-evidence:\n    fetched: '2026-08-27'\n    url: https://developer.target.com/api/docs/v1/docs/\n    http_status: 401\n    body_signature: 'message: Invalid Key / resource: Go-Proxy'\ngaps:\n- id: service-documentation-404\n  detail: >-\n    Both discovery documents advertise service_documentation (a Swagger definition for the OAuth v2\n    service). Both URLs return 404. See well-known/target-well-known.yml findings[].\n- id: no-rfc8414\n  detail: Neither issuer serves /.well-known/oauth-authorization-server (both 404); discovery is OIDC-only.\nunverified_prior_claims:\n- scheme: bearerAuth\n  detail: >-\n    Earlier rounds derived an http/bearer JWT scheme from openapi/target-target-api-openapi.yml.\n    That spec is an API Evangelist scaffold, not a Target-published contract (see\n    openapi/PROVENANCE.md), so the bearer scheme\
   \ is NOT carried forward as evidenced.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/authentication/target-authentication.yml
+source_yaml_url: https://artifacts.apis.io/target/authentication/target-authentication.yml
 summary_line: oauth2/openIdConnect · 3 schemes
 tags:
 - Fortune 100

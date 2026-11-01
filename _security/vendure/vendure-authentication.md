@@ -9,13 +9,13 @@ api_specs:
   label: Vendure Assets API
   slug: vendure-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendure/refs/heads/main/openapi/vendure-assets-api-openapi.yml
+  url: https://artifacts.apis.io/vendure/openapi/vendure-assets-api-openapi.yml
 - filename: vendure-vendure-admin-api-api-openapi.yml
   format: yaml
   label: Vendure Admin API
   slug: vendure-vendure-admin-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendure/refs/heads/main/openapi/vendure-vendure-admin-api-api-openapi.yml
+  url: https://artifacts.apis.io/vendure/openapi/vendure-vendure-admin-api-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -58,7 +58,7 @@ source_filename: vendure-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/vendure-admin-api-openapi.yml, openapi/vendure-shop-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - cookie\n  - header\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/vendure-admin-api-openapi.yml\n  - openapi/vendure-shop-api-openapi.yml\n- name: CookieAuth\n  type: apiKey\n  in: cookie\n  parameter: session\n  sources:\n  - openapi/vendure-admin-api-openapi.yml\n  - openapi/vendure-shop-api-openapi.yml\n- name: ChannelToken\n  type: apiKey\n  in: header\n  parameter: vendure-token\n  sources:\n  - openapi/vendure-admin-api-openapi.yml\n  - openapi/vendure-shop-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vendure/refs/heads/main/authentication/vendure-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vendure/authentication/vendure-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Commerce

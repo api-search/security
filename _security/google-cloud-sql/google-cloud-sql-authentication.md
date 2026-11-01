@@ -7,25 +7,25 @@ api_specs:
   label: Google Cloud SQL BackupRuns API
   slug: google-cloud-sql-backupruns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/openapi/google-cloud-sql-backupruns-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-sql/openapi/google-cloud-sql-backupruns-api-openapi.yml
 - filename: google-cloud-sql-databases-api-openapi.yml
   format: yaml
   label: Google Cloud SQL Databases API
   slug: google-cloud-sql-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/openapi/google-cloud-sql-databases-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-sql/openapi/google-cloud-sql-databases-api-openapi.yml
 - filename: google-cloud-sql-instances-api-openapi.yml
   format: yaml
   label: Google Cloud SQL Instances API
   slug: google-cloud-sql-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/openapi/google-cloud-sql-instances-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-sql/openapi/google-cloud-sql-instances-api-openapi.yml
 - filename: google-cloud-sql-users-api-openapi.yml
   format: yaml
   label: Google Cloud SQL Users API
   slug: google-cloud-sql-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/openapi/google-cloud-sql-users-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-sql/openapi/google-cloud-sql-users-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -56,7 +56,7 @@ source_filename: google-cloud-sql-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cloud-sql-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 2\n  sources:\n  - openapi/cloud-sql-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/authentication/google-cloud-sql-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-sql/authentication/google-cloud-sql-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Database

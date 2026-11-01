@@ -5,31 +5,31 @@ api_specs:
   label: SAP API Management API Products API
   slug: sap-api-management-api-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-api-management/refs/heads/main/openapi/sap-api-management-api-products-api-openapi.yml
+  url: https://artifacts.apis.io/sap-api-management/openapi/sap-api-management-api-products-api-openapi.yml
 - filename: sap-api-management-api-providers-api-openapi.yml
   format: yaml
   label: SAP API Management API Providers API
   slug: sap-api-management-api-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-api-management/refs/heads/main/openapi/sap-api-management-api-providers-api-openapi.yml
+  url: https://artifacts.apis.io/sap-api-management/openapi/sap-api-management-api-providers-api-openapi.yml
 - filename: sap-api-management-api-proxies-api-openapi.yml
   format: yaml
   label: SAP API Management API Proxies API
   slug: sap-api-management-api-proxies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-api-management/refs/heads/main/openapi/sap-api-management-api-proxies-api-openapi.yml
+  url: https://artifacts.apis.io/sap-api-management/openapi/sap-api-management-api-proxies-api-openapi.yml
 - filename: sap-api-management-applications-api-openapi.yml
   format: yaml
   label: SAP API Management Applications API
   slug: sap-api-management-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-api-management/refs/heads/main/openapi/sap-api-management-applications-api-openapi.yml
+  url: https://artifacts.apis.io/sap-api-management/openapi/sap-api-management-applications-api-openapi.yml
 - filename: sap-api-management-key-value-maps-api-openapi.yml
   format: yaml
   label: SAP API Management Key Value Maps API
   slug: sap-api-management-key-value-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-api-management/refs/heads/main/openapi/sap-api-management-key-value-maps-api-openapi.yml
+  url: https://artifacts.apis.io/sap-api-management/openapi/sap-api-management-key-value-maps-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: sap-api-management-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.sap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 28 23:59:59 2027 GMT\n  hsts: null\n- host: www.sap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 13 23:59:59 2027 GMT\n  hsts: null\n- host: help.sap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: sap.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap-api-management/refs/heads/main/security/sap-api-management-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sap-api-management/security/sap-api-management-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - API Management

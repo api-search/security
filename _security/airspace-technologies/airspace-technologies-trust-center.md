@@ -5,37 +5,37 @@ api_specs:
   label: Airspace Technologies Address Books API
   slug: airspace-technologies-address-books-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/openapi/airspace-technologies-address-books-api-openapi.yml
+  url: https://artifacts.apis.io/airspace-technologies/openapi/airspace-technologies-address-books-api-openapi.yml
 - filename: airspace-technologies-invoices-api-openapi.yml
   format: yaml
   label: Airspace Technologies Invoices API
   slug: airspace-technologies-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/openapi/airspace-technologies-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/airspace-technologies/openapi/airspace-technologies-invoices-api-openapi.yml
 - filename: airspace-technologies-labels-api-openapi.yml
   format: yaml
   label: Airspace Technologies Labels API
   slug: airspace-technologies-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/openapi/airspace-technologies-labels-api-openapi.yml
+  url: https://artifacts.apis.io/airspace-technologies/openapi/airspace-technologies-labels-api-openapi.yml
 - filename: airspace-technologies-orders-api-openapi.yml
   format: yaml
   label: Airspace Technologies Orders API
   slug: airspace-technologies-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/openapi/airspace-technologies-orders-api-openapi.yml
+  url: https://artifacts.apis.io/airspace-technologies/openapi/airspace-technologies-orders-api-openapi.yml
 - filename: airspace-technologies-piece-libraries-api-openapi.yml
   format: yaml
   label: Airspace Technologies Piece Libraries API
   slug: airspace-technologies-piece-libraries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/openapi/airspace-technologies-piece-libraries-api-openapi.yml
+  url: https://artifacts.apis.io/airspace-technologies/openapi/airspace-technologies-piece-libraries-api-openapi.yml
 - filename: airspace-technologies-quotes-api-openapi.yml
   format: yaml
   label: Airspace Technologies Quotes API
   slug: airspace-technologies-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/openapi/airspace-technologies-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/airspace-technologies/openapi/airspace-technologies-quotes-api-openapi.yml
 certification_count: 3
 certifications:
 - ISO 27001
@@ -54,7 +54,7 @@ source_filename: airspace-technologies-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nprobe: true\nsource: https://trust.airspace.com/\nurl: https://trust.airspace.com/\ncertifications:\n- ISO 27001\n- HIPAA\n- GDPR\nevidence:\n- source: https://trust.airspace.com/\n  keywords:\n  - iso/iec 27001\n  - hipaa\n  - trust center\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/security/airspace-technologies-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/airspace-technologies/security/airspace-technologies-trust-center.yml
 summary_line: ISO 27001, HIPAA, GDPR
 tags:
 - Company

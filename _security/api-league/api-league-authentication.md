@@ -9,73 +9,73 @@ api_specs:
   label: API League Art API
   slug: api-league-art-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-art-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-art-api-openapi.yml
 - filename: api-league-books-api-openapi.yml
   format: yaml
   label: API League Books API
   slug: api-league-books-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-books-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-books-api-openapi.yml
 - filename: api-league-food-api-openapi.yml
   format: yaml
   label: API League Food API
   slug: api-league-food-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-food-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-food-api-openapi.yml
 - filename: api-league-games-api-openapi.yml
   format: yaml
   label: API League Games API
   slug: api-league-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-games-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-games-api-openapi.yml
 - filename: api-league-humor-api-openapi.yml
   format: yaml
   label: API League Humor API
   slug: api-league-humor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-humor-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-humor-api-openapi.yml
 - filename: api-league-knowledge-api-openapi.yml
   format: yaml
   label: API League Knowledge API
   slug: api-league-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-knowledge-api-openapi.yml
 - filename: api-league-math-api-openapi.yml
   format: yaml
   label: API League Math API
   slug: api-league-math-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-math-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-math-api-openapi.yml
 - filename: api-league-media-api-openapi.yml
   format: yaml
   label: API League Media API
   slug: api-league-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-media-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-media-api-openapi.yml
 - filename: api-league-news-api-openapi.yml
   format: yaml
   label: API League News API
   slug: api-league-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-news-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-news-api-openapi.yml
 - filename: api-league-storage-api-openapi.yml
   format: yaml
   label: API League Storage API
   slug: api-league-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-storage-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-storage-api-openapi.yml
 - filename: api-league-text-api-openapi.yml
   format: yaml
   label: API League Text API
   slug: api-league-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-text-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-text-api-openapi.yml
 - filename: api-league-web-api-openapi.yml
   format: yaml
   label: API League Web API
   slug: api-league-web-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-web-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-web-api-openapi.yml
 auth_types:
 - apiKey
 description: 'API League authenticates with a single API key and nothing else. There is no OAuth, no OIDC, no scopes, no service accounts and no key rotation surface documented — one key grants the whole 55-operation surface, and the plan attached to that key is what varies. Two interchangeable apiKey schemes are declared in the OpenAPI and applied globally, and the provider documents both: `?api-key=YOUR-API-KEY` in the query string, or the `x-api-key` request header.
@@ -136,7 +136,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: searched\nsource: openapi/api-lea
   \ key rotation surface documented — one key grants the whole 55-operation\n  surface, and the plan attached to that key is what varies. Two interchangeable apiKey schemes are declared\n  in the OpenAPI and applied globally, and the provider documents both: `?api-key=YOUR-API-KEY` in the\n  query string, or the `x-api-key` request header.\n\n  The query-string form is the one the provider leads with in its own examples, and it is the weaker of\n  the two — a key in a URL lands in proxy logs, browser history, referrer headers and shell history. An\n  agent should use the x-api-key header. The terms of use place the consequences on the consumer: the\n  key must be kept confidential, must be stripped before posting code to a forum or GitHub, and the account\n  holder is responsible for any charges or harm from a compromised key.'\nobtain:\n  signup: https://apileague.com/console/\n  free_tier: true\n  card_required: false\n  note: Keys are issued from the console after a free signup; the Free\
   \ plan needs no payment method.\nexamples:\n- style: query\n  request: GET https://api.apileague.com/search-books?api-key=YOUR-API-KEY&query=romance\n  source: https://apileague.com/docs/authentication/\n- style: header\n  request: 'GET https://api.apileague.com/search-books?query=romance\n\n    x-api-key: YOUR-API-KEY'\n  source: https://apileague.com/docs/authentication/\nfailure:\n  status: 401\n  body: '{\"status\":\"failure\",\"code\":401,\"message\":\"Please read https://apileague.com/docs/authentication\"}'\n  note: Returned for a missing or invalid key AND for every non-existent path on api.apileague.com — a\n    401 on that host is not evidence a path exists.\ngaps:\n- No OAuth 2.0 / OIDC and no scopes — a key is all-or-nothing across all 55 operations.\n- No documented key rotation, expiry, or per-key restriction (IP, referrer, endpoint).\n- The provider's primary documented example puts the secret in the URL query string.\n- No /.well-known/oauth-authorization-server or openid-configuration\
   \ on any host (see well-known/api-league-well-known.yml).\nevidence:\n- url: https://apileague.com/docs/authentication/\n  status: 200\n- url: https://api.apileague.com/\n  status: 401\n- url: https://apileague.com/terms/\n  status: 200\ncross_links:\n  conventions: conventions/api-league-conventions.yml\n  errors: errors/api-league-problem-types.yml\nmaintainers:\n- FN: Kin Lane\n  email: info@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/authentication/api-league-authentication.yml
+source_yaml_url: https://artifacts.apis.io/api-league/authentication/api-league-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - API Marketplace

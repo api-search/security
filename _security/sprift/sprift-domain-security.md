@@ -5,43 +5,43 @@ api_specs:
   label: Sprift Home API
   slug: sprift-home-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-home-api-openapi.yml
+  url: https://artifacts.apis.io/sprift/openapi/sprift-home-api-openapi.yml
 - filename: sprift-insider-api-openapi.yml
   format: yaml
   label: Sprift Insider API
   slug: sprift-insider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-insider-api-openapi.yml
+  url: https://artifacts.apis.io/sprift/openapi/sprift-insider-api-openapi.yml
 - filename: sprift-property-api-openapi.yml
   format: yaml
   label: Sprift Property API
   slug: sprift-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-property-api-openapi.yml
+  url: https://artifacts.apis.io/sprift/openapi/sprift-property-api-openapi.yml
 - filename: sprift-property-v2-api-openapi.yml
   format: yaml
   label: Sprift Property V2 API
   slug: sprift-property-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-property-v2-api-openapi.yml
+  url: https://artifacts.apis.io/sprift/openapi/sprift-property-v2-api-openapi.yml
 - filename: sprift-search-api-openapi.yml
   format: yaml
   label: Sprift Search API
   slug: sprift-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-search-api-openapi.yml
+  url: https://artifacts.apis.io/sprift/openapi/sprift-search-api-openapi.yml
 - filename: sprift-share-api-openapi.yml
   format: yaml
   label: Sprift Share API
   slug: sprift-share-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-share-api-openapi.yml
+  url: https://artifacts.apis.io/sprift/openapi/sprift-share-api-openapi.yml
 - filename: sprift-user-api-openapi.yml
   format: yaml
   label: Sprift User API
   slug: sprift-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-user-api-openapi.yml
+  url: https://artifacts.apis.io/sprift/openapi/sprift-user-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +71,7 @@ source_filename: sprift-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sprift.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: sprift.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/security/sprift-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sprift/security/sprift-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Real Estate

@@ -5,13 +5,13 @@ api_specs:
   label: Ontraport Metadata API
   slug: ontraport-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/openapi/ontraport-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/ontraport/openapi/ontraport-metadata-api-openapi.yml
 - filename: ontraport-objects-api-openapi.yml
   format: yaml
   label: Ontraport Objects API
   slug: ontraport-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/openapi/ontraport-objects-api-openapi.yml
+  url: https://artifacts.apis.io/ontraport/openapi/ontraport-objects-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: ontraport-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ontraport.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 20:40:50 2026 GMT\n  hsts: false\n- host: api.ontraport.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 21 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: ontraport.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/security/ontraport-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ontraport/security/ontraport-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - CRM

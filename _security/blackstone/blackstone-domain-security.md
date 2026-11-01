@@ -34,7 +34,7 @@ source_filename: blackstone-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-10'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.blackstone.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 11:15:58 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: blackstone.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"pki.goog\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org; accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/2174218105\"\n  - 0 issue \"letsencrypt.org;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/2032741667\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blackstone/refs/heads/main/security/blackstone-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/blackstone/security/blackstone-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Alternative Assets

@@ -5,7 +5,7 @@ api_specs:
   label: Time.now Developer API
   slug: time-now-developer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/time-now/refs/heads/main/openapi/time-now-developer-api-openapi.yml
+  url: https://artifacts.apis.io/time-now/openapi/time-now-developer-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -33,7 +33,7 @@ source_filename: time-now-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: time.now\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 10 15:02:51 2027 GMT\n  hsts: false\ndomains:\n- domain: time.now\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/time-now/refs/heads/main/security/time-now-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/time-now/security/time-now-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - World Time API

@@ -5,49 +5,49 @@ api_specs:
   label: Pigment BlocksApi API
   slug: pigment-blocksapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/openapi/pigment-blocksapi-api-openapi.yml
+  url: https://artifacts.apis.io/pigment/openapi/pigment-blocksapi-api-openapi.yml
 - filename: pigment-export-api-openapi.yml
   format: yaml
   label: Pigment Export API
   slug: pigment-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/openapi/pigment-export-api-openapi.yml
+  url: https://artifacts.apis.io/pigment/openapi/pigment-export-api-openapi.yml
 - filename: pigment-exportv1-api-openapi.yml
   format: yaml
   label: Pigment ExportV1 API
   slug: pigment-exportv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/openapi/pigment-exportv1-api-openapi.yml
+  url: https://artifacts.apis.io/pigment/openapi/pigment-exportv1-api-openapi.yml
 - filename: pigment-importconfigurationapi-api-openapi.yml
   format: yaml
   label: Pigment ImportConfigurationApi API
   slug: pigment-importconfigurationapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/openapi/pigment-importconfigurationapi-api-openapi.yml
+  url: https://artifacts.apis.io/pigment/openapi/pigment-importconfigurationapi-api-openapi.yml
 - filename: pigment-importv1-api-openapi.yml
   format: yaml
   label: Pigment ImportV1 API
   slug: pigment-importv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/openapi/pigment-importv1-api-openapi.yml
+  url: https://artifacts.apis.io/pigment/openapi/pigment-importv1-api-openapi.yml
 - filename: pigment-viewapi-api-openapi.yml
   format: yaml
   label: Pigment ViewApi API
   slug: pigment-viewapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/openapi/pigment-viewapi-api-openapi.yml
+  url: https://artifacts.apis.io/pigment/openapi/pigment-viewapi-api-openapi.yml
 - filename: pigment-application-api-api-openapi.yml
   format: yaml
   label: Pigment Application API
   slug: pigment-application-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/openapi/pigment-application-api-api-openapi.yml
+  url: https://artifacts.apis.io/pigment/openapi/pigment-application-api-api-openapi.yml
 - filename: pigment-import-api-api-openapi.yml
   format: yaml
   label: Pigment Import API
   slug: pigment-import-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/openapi/pigment-import-api-api-openapi.yml
+  url: https://artifacts.apis.io/pigment/openapi/pigment-import-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -95,7 +95,7 @@ source_filename: pigment-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.pigment.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 06:56:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: kb.pigment.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 14:00:41 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: pigment.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 09:50:25 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: pigment.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: pigment.app\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/security/pigment-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pigment/security/pigment-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

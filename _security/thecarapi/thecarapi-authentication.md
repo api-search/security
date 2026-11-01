@@ -9,67 +9,67 @@ api_specs:
   label: TheCarApi Auctions & history API
   slug: thecarapi-auctions-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-auctions-history-api-openapi.yml
+  url: https://artifacts.apis.io/thecarapi/openapi/thecarapi-auctions-history-api-openapi.yml
 - filename: thecarapi-catalog-api-openapi.yml
   format: yaml
   label: TheCarApi Catalog API
   slug: thecarapi-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/thecarapi/openapi/thecarapi-catalog-api-openapi.yml
 - filename: thecarapi-european-classifieds-api-openapi.yml
   format: yaml
   label: TheCarApi European classifieds API
   slug: thecarapi-european-classifieds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-european-classifieds-api-openapi.yml
+  url: https://artifacts.apis.io/thecarapi/openapi/thecarapi-european-classifieds-api-openapi.yml
 - filename: thecarapi-filter-facets-api-openapi.yml
   format: yaml
   label: TheCarApi Filter facets API
   slug: thecarapi-filter-facets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-filter-facets-api-openapi.yml
+  url: https://artifacts.apis.io/thecarapi/openapi/thecarapi-filter-facets-api-openapi.yml
 - filename: thecarapi-health-contract-api-openapi.yml
   format: yaml
   label: TheCarApi Health & contract API
   slug: thecarapi-health-contract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-health-contract-api-openapi.yml
+  url: https://artifacts.apis.io/thecarapi/openapi/thecarapi-health-contract-api-openapi.yml
 - filename: thecarapi-import-calculator-api-openapi.yml
   format: yaml
   label: TheCarApi Import calculator API
   slug: thecarapi-import-calculator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-import-calculator-api-openapi.yml
+  url: https://artifacts.apis.io/thecarapi/openapi/thecarapi-import-calculator-api-openapi.yml
 - filename: thecarapi-market-intelligence-api-openapi.yml
   format: yaml
   label: TheCarApi Market intelligence API
   slug: thecarapi-market-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-market-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/thecarapi/openapi/thecarapi-market-intelligence-api-openapi.yml
 - filename: thecarapi-seo-helpers-api-openapi.yml
   format: yaml
   label: TheCarApi SEO helpers API
   slug: thecarapi-seo-helpers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-seo-helpers-api-openapi.yml
+  url: https://artifacts.apis.io/thecarapi/openapi/thecarapi-seo-helpers-api-openapi.yml
 - filename: thecarapi-top-offers-api-openapi.yml
   format: yaml
   label: TheCarApi Top offers API
   slug: thecarapi-top-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-top-offers-api-openapi.yml
+  url: https://artifacts.apis.io/thecarapi/openapi/thecarapi-top-offers-api-openapi.yml
 - filename: thecarapi-vehicle-details-api-openapi.yml
   format: yaml
   label: TheCarApi Vehicle details API
   slug: thecarapi-vehicle-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-vehicle-details-api-openapi.yml
+  url: https://artifacts.apis.io/thecarapi/openapi/thecarapi-vehicle-details-api-openapi.yml
 - filename: thecarapi-search-and-discovery-api-openapi.yml
   format: yaml
   label: TheCarApi Search and Discovery API
   slug: thecarapi-search-and-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-search-and-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/thecarapi/openapi/thecarapi-search-and-discovery-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -119,7 +119,7 @@ source_yaml: "generated: '2026-09-01'\nmethod: searched\nsource: https://thecara
   \ 'Authorization: Bearer <key>. Documented as equivalent to X-API-Key.'\n    sources:\n      - openapi/thecarapi-openapi.json\n      - https://thecarapi.com/docs/authentication\n  - name: queryApiKey\n    type: apiKey\n    in: query\n    parameter: api_key\n    documented_only: true\n    default_enabled: false\n    description: >-\n      ?api_key=<key>. Disabled by default and enabled per key on request. The provider warns that\n      keys in URLs end up in logs and referrers. Not declared in the OpenAPI securitySchemes.\n    sources:\n      - https://thecarapi.com/docs/authentication\nunauthenticated_endpoints:\n  - operationId: get_api_health_live\n    path: /api/health/live\n    note: Process liveness probe. No key, no quota.\n  - operationId: get_api_health_ready\n    path: /api/health/ready\n    note: Readiness probe. No key, no quota. 503 while the data layer is unreachable.\nkey_restrictions:\n  - restriction: ip_or_cidr_allowlist\n    effect_when_violated: '403'\n  - restriction:\
   \ origin_allowlist\n    effect_when_violated: '403'\n    note: Browser requests from other origins.\n  - restriction: expiry_date\n    effect_when_violated: '401'\n  - restriction: status_revoked_or_suspended\n    effect_when_violated: '403'\n  - restriction: scope_set\n    effect_when_violated: '403'\n    body: '{\"success\": false, \"error\": \"API key is not authorized for this route\"}'\n    note: >-\n      No machine-readable error code in the body — the provider tells clients to branch on the\n      status code, not the message text.\nbrute_force_lockout:\n  trigger: five failed authentication attempts from one IP\n  effect: every subsequent request from that address returns 429 for 15 minutes, including requests carrying a valid key\n  reset: a successful authentication clears the counter\n  source: https://thecarapi.com/docs/authentication\nclient_side_guidance: >-\n  The provider explicitly warns against shipping a full-access key to a browser or mobile app, and\n  recommends\
   \ a separate key with an origin allowlist and minimum scopes, or a backend proxy.\nscopes_artifact: scopes/thecarapi-scopes.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/authentication/thecarapi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/thecarapi/authentication/thecarapi-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Automotive

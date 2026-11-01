@@ -28,7 +28,7 @@ source_filename: office-of-fossil-energy-and-carbon-management-domain-security.y
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.energy.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: energy.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/office-of-fossil-energy-and-carbon-management/refs/heads/main/security/office-of-fossil-energy-and-carbon-management-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/office-of-fossil-energy-and-carbon-management/security/office-of-fossil-energy-and-carbon-management-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Federal Government

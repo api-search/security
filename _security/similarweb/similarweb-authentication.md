@@ -9,79 +9,79 @@ api_specs:
   label: SimilarWeb Account API
   slug: similarweb-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-account-api-openapi.yml
+  url: https://artifacts.apis.io/similarweb/openapi/similarweb-account-api-openapi.yml
 - filename: similarweb-app-intelligence-api-openapi.yml
   format: yaml
   label: SimilarWeb App Intelligence API
   slug: similarweb-app-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-app-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/similarweb/openapi/similarweb-app-intelligence-api-openapi.yml
 - filename: similarweb-credits-api-openapi.yml
   format: yaml
   label: SimilarWeb Credits API
   slug: similarweb-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-credits-api-openapi.yml
+  url: https://artifacts.apis.io/similarweb/openapi/similarweb-credits-api-openapi.yml
 - filename: similarweb-geography-api-openapi.yml
   format: yaml
   label: SimilarWeb Geography API
   slug: similarweb-geography-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-geography-api-openapi.yml
+  url: https://artifacts.apis.io/similarweb/openapi/similarweb-geography-api-openapi.yml
 - filename: similarweb-integrations-api-openapi.yml
   format: yaml
   label: SimilarWeb Integrations API
   slug: similarweb-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/similarweb/openapi/similarweb-integrations-api-openapi.yml
 - filename: similarweb-keywords-api-openapi.yml
   format: yaml
   label: SimilarWeb Keywords API
   slug: similarweb-keywords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-keywords-api-openapi.yml
+  url: https://artifacts.apis.io/similarweb/openapi/similarweb-keywords-api-openapi.yml
 - filename: similarweb-lead-enrichment-api-openapi.yml
   format: yaml
   label: SimilarWeb Lead Enrichment API
   slug: similarweb-lead-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-lead-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/similarweb/openapi/similarweb-lead-enrichment-api-openapi.yml
 - filename: similarweb-rankings-api-openapi.yml
   format: yaml
   label: SimilarWeb Rankings API
   slug: similarweb-rankings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-rankings-api-openapi.yml
+  url: https://artifacts.apis.io/similarweb/openapi/similarweb-rankings-api-openapi.yml
 - filename: similarweb-reports-api-openapi.yml
   format: yaml
   label: SimilarWeb Reports API
   slug: similarweb-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-reports-api-openapi.yml
+  url: https://artifacts.apis.io/similarweb/openapi/similarweb-reports-api-openapi.yml
 - filename: similarweb-similar-sites-api-openapi.yml
   format: yaml
   label: SimilarWeb Similar Sites API
   slug: similarweb-similar-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-similar-sites-api-openapi.yml
+  url: https://artifacts.apis.io/similarweb/openapi/similarweb-similar-sites-api-openapi.yml
 - filename: similarweb-traffic-and-engagement-api-openapi.yml
   format: yaml
   label: SimilarWeb Traffic and Engagement API
   slug: similarweb-traffic-and-engagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-traffic-and-engagement-api-openapi.yml
+  url: https://artifacts.apis.io/similarweb/openapi/similarweb-traffic-and-engagement-api-openapi.yml
 - filename: similarweb-traffic-sources-api-openapi.yml
   format: yaml
   label: SimilarWeb Traffic Sources API
   slug: similarweb-traffic-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-traffic-sources-api-openapi.yml
+  url: https://artifacts.apis.io/similarweb/openapi/similarweb-traffic-sources-api-openapi.yml
 - filename: similarweb-webhooks-api-openapi.yml
   format: yaml
   label: SimilarWeb Webhooks API
   slug: similarweb-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/similarweb/openapi/similarweb-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -148,7 +148,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/*.yml\n
   \ and referrers — prefer the header.\n  applies_to: [rest]\n  sources: [openapi/_original/similarweb-rest-api-openapi.yml]\n- name: mcpBearer\n  type: http\n  scheme: bearer\n  description: >-\n    OAuth 2.1 bearer token accepted by the hosted MCP server as an alternative to the\n    api-key header. Issued by https://mcp-auth.similarweb.com.\n  applies_to: [mcp]\n  sources: [well-known/similarweb-oauth-protected-resource.json]\n\nkey_lifecycle:\n  issued_by: account administrators only\n  console: https://account.similarweb.com/standard-api\n  platform_path: Settings > Account > Data Tools > REST API / Batch API\n  max_active_keys_per_user: 3\n  expiry: none\n  activation_required: true\n  activation_note: >-\n    A newly created key must have its Activation toggle switched on. An inactive key returns\n    \"Invalid API key\" errors, which reads identically to a wrong key.\n  scoped_key: false\n  unified_key: >-\n    As of API V5, ONE key works across both REST and Batch. API V4 required\
   \ separate keys\n    for the two surfaces — a migration detail that breaks V4-era integrations silently.\n  credit_limits: >-\n    Admins can set per-user credit limits per API (for example 10K on REST and 10K on\n    Batch). Limits are per user, not per key.\n  revocation: >-\n    Removing a user from the account revokes their keys; keys can also be transferred to\n    another active user or disabled individually.\n\nfailure_modes:\n- {status: 401, meaning: 'invalid or inactive key (observed body: `invalid API key`) — also returned for a malformed domain'}\n- {status: 403, meaning: invalid API key or exhausted data credits (REST, per the error guide)}\n\ngaps:\n- No OAuth, OIDC or mTLS on the REST/Batch surface\n- No key rotation API — keys are managed only through the platform UI\n- No scoping: a key carries the whole subscription entitlement\n- 401 is overloaded across authentication failure and data-not-found\n\nx-evidence:\n  fetched: '2026-08-13'\n  probes:\n  - {url: https://docs.similarweb.com/api-v5/getting-started/authentication.md,\
   \ http_status: 200}\n  - {url: https://developers.similarweb.com/docs/authentication.md, http_status: 200}\n  - {url: 'https://api.similarweb.com/v1/website/cnn.com/total-traffic-and-engagement/visits (invalid key)', http_status: 401}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/authentication/similarweb-authentication.yml
+source_yaml_url: https://artifacts.apis.io/similarweb/authentication/similarweb-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Digital Intelligence

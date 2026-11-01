@@ -8,307 +8,331 @@ api_specs:
   label: Drata Account Members API
   slug: drata-account-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-account-members-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-account-members-api-openapi.yml
 - filename: drata-accounts-api-openapi.yml
   format: yaml
   label: Drata Accounts API
   slug: drata-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-accounts-api-openapi.yml
 - filename: drata-assets-api-openapi.yml
   format: yaml
   label: Drata Assets API
   slug: drata-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-assets-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-assets-api-openapi.yml
 - filename: drata-audit-requests-api-openapi.yml
   format: yaml
   label: Drata Audit Requests API
   slug: drata-audit-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-audit-requests-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-audit-requests-api-openapi.yml
 - filename: drata-audits-api-openapi.yml
   format: yaml
   label: Drata Audits API
   slug: drata-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-audits-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-audits-api-openapi.yml
 - filename: drata-background-checks-api-openapi.yml
   format: yaml
   label: Drata Background Checks API
   slug: drata-background-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-background-checks-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-background-checks-api-openapi.yml
 - filename: drata-company-api-openapi.yml
   format: yaml
   label: Drata Company API
   slug: drata-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-company-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-company-api-openapi.yml
 - filename: drata-control-library-api-openapi.yml
   format: yaml
   label: Drata Control Library API
   slug: drata-control-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-control-library-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-control-library-api-openapi.yml
 - filename: drata-control-notes-api-openapi.yml
   format: yaml
   label: Drata Control Notes API
   slug: drata-control-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-control-notes-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-control-notes-api-openapi.yml
 - filename: drata-control-owners-api-openapi.yml
   format: yaml
   label: Drata Control Owners API
   slug: drata-control-owners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-control-owners-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-control-owners-api-openapi.yml
 - filename: drata-controls-api-openapi.yml
   format: yaml
   label: Drata Controls API
   slug: drata-controls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-controls-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-controls-api-openapi.yml
 - filename: drata-custom-connections-api-openapi.yml
   format: yaml
   label: Drata Custom Connections API
   slug: drata-custom-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-custom-connections-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-custom-connections-api-openapi.yml
 - filename: drata-custom-data-records-api-openapi.yml
   format: yaml
   label: Drata Custom Data Records API
   slug: drata-custom-data-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-custom-data-records-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-custom-data-records-api-openapi.yml
 - filename: drata-custom-field-definitions-api-openapi.yml
   format: yaml
   label: Drata Custom Field Definitions API
   slug: drata-custom-field-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-custom-field-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-custom-field-definitions-api-openapi.yml
 - filename: drata-device-documents-api-openapi.yml
   format: yaml
   label: Drata Device Documents API
   slug: drata-device-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-device-documents-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-device-documents-api-openapi.yml
 - filename: drata-devices-api-openapi.yml
   format: yaml
   label: Drata Devices API
   slug: drata-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-devices-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-devices-api-openapi.yml
 - filename: drata-documents-api-openapi.yml
   format: yaml
   label: Drata Documents API
   slug: drata-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-documents-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-documents-api-openapi.yml
 - filename: drata-events-api-openapi.yml
   format: yaml
   label: Drata Events API
   slug: drata-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-events-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-events-api-openapi.yml
 - filename: drata-evidence-api-openapi.yml
   format: yaml
   label: Drata Evidence API
   slug: drata-evidence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-evidence-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-evidence-api-openapi.yml
 - filename: drata-evidence-library-api-openapi.yml
   format: yaml
   label: Drata Evidence Library API
   slug: drata-evidence-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-evidence-library-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-evidence-library-api-openapi.yml
 - filename: drata-frameworks-api-openapi.yml
   format: yaml
   label: Drata Frameworks API
   slug: drata-frameworks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-frameworks-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-frameworks-api-openapi.yml
 - filename: drata-groups-api-openapi.yml
   format: yaml
   label: Drata Groups API
   slug: drata-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-groups-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-groups-api-openapi.yml
 - filename: drata-hris-user-identities-api-openapi.yml
   format: yaml
   label: Drata HRIS User Identities API
   slug: drata-hris-user-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-hris-user-identities-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-hris-user-identities-api-openapi.yml
 - filename: drata-knowledge-base-api-openapi.yml
   format: yaml
   label: Drata Knowledge Base API
   slug: drata-knowledge-base-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-knowledge-base-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-knowledge-base-api-openapi.yml
 - filename: drata-monitoring-tests-api-openapi.yml
   format: yaml
   label: Drata Monitoring Tests API
   slug: drata-monitoring-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-monitoring-tests-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-monitoring-tests-api-openapi.yml
 - filename: drata-organization-api-openapi.yml
   format: yaml
   label: Drata Organization API
   slug: drata-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-organization-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-organization-api-openapi.yml
 - filename: drata-personnel-api-openapi.yml
   format: yaml
   label: Drata Personnel API
   slug: drata-personnel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-personnel-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-personnel-api-openapi.yml
 - filename: drata-policies-api-openapi.yml
   format: yaml
   label: Drata Policies API
   slug: drata-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-policies-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-policies-api-openapi.yml
 - filename: drata-policy-languages-api-openapi.yml
   format: yaml
   label: Drata Policy Languages API
   slug: drata-policy-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-policy-languages-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-policy-languages-api-openapi.yml
 - filename: drata-portals-api-openapi.yml
   format: yaml
   label: Drata Portals API
   slug: drata-portals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-portals-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-portals-api-openapi.yml
 - filename: drata-procurement-connection-mappings-api-openapi.yml
   format: yaml
   label: Drata Procurement Connection Mappings API
   slug: drata-procurement-connection-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-procurement-connection-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-procurement-connection-mappings-api-openapi.yml
 - filename: drata-products-api-openapi.yml
   format: yaml
   label: Drata Products API
   slug: drata-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-products-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-products-api-openapi.yml
 - filename: drata-questionnaires-api-openapi.yml
   format: yaml
   label: Drata Questionnaires API
   slug: drata-questionnaires-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-questionnaires-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-questionnaires-api-openapi.yml
 - filename: drata-requests-api-openapi.yml
   format: yaml
   label: Drata Requests API
   slug: drata-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-requests-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-requests-api-openapi.yml
 - filename: drata-risk-documents-api-openapi.yml
   format: yaml
   label: Drata Risk Documents API
   slug: drata-risk-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-risk-documents-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-risk-documents-api-openapi.yml
 - filename: drata-risk-library-api-openapi.yml
   format: yaml
   label: Drata Risk Library API
   slug: drata-risk-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-risk-library-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-risk-library-api-openapi.yml
 - filename: drata-risk-notes-api-openapi.yml
   format: yaml
   label: Drata Risk Notes API
   slug: drata-risk-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-risk-notes-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-risk-notes-api-openapi.yml
 - filename: drata-risk-registers-api-openapi.yml
   format: yaml
   label: Drata Risk Registers API
   slug: drata-risk-registers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-risk-registers-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-risk-registers-api-openapi.yml
 - filename: drata-risks-api-openapi.yml
   format: yaml
   label: Drata Risks API
   slug: drata-risks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-risks-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-risks-api-openapi.yml
 - filename: drata-tags-api-openapi.yml
   format: yaml
   label: Drata Tags API
   slug: drata-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-tags-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-tags-api-openapi.yml
 - filename: drata-tasks-api-openapi.yml
   format: yaml
   label: Drata Tasks API
   slug: drata-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-tasks-api-openapi.yml
 - filename: drata-trust-center-updates-api-openapi.yml
   format: yaml
   label: Drata Trust Center Updates API
   slug: drata-trust-center-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-trust-center-updates-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-trust-center-updates-api-openapi.yml
 - filename: drata-uploads-api-openapi.yml
   format: yaml
   label: Drata Uploads API
   slug: drata-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-uploads-api-openapi.yml
 - filename: drata-user-documents-api-openapi.yml
   format: yaml
   label: Drata User Documents API
   slug: drata-user-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-user-documents-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-user-documents-api-openapi.yml
 - filename: drata-user-s-assigned-policies-api-openapi.yml
   format: yaml
   label: Drata User's Assigned Policies API
   slug: drata-user-s-assigned-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-user-s-assigned-policies-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-user-s-assigned-policies-api-openapi.yml
 - filename: drata-users-and-roles-api-openapi.yml
   format: yaml
   label: Drata Users and Roles API
   slug: drata-users-and-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-users-and-roles-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-users-and-roles-api-openapi.yml
 - filename: drata-vendor-documents-api-openapi.yml
   format: yaml
   label: Drata Vendor Documents API
   slug: drata-vendor-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-vendor-documents-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-vendor-documents-api-openapi.yml
 - filename: drata-vendor-security-reviews-api-openapi.yml
   format: yaml
   label: Drata Vendor Security Reviews API
   slug: drata-vendor-security-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-vendor-security-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-vendor-security-reviews-api-openapi.yml
 - filename: drata-vendor-types-api-openapi.yml
   format: yaml
   label: Drata Vendor Types API
   slug: drata-vendor-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-vendor-types-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-vendor-types-api-openapi.yml
 - filename: drata-vendors-api-openapi.yml
   format: yaml
   label: Drata Vendors API
   slug: drata-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-vendors-api-openapi.yml
 - filename: drata-workspaces-api-openapi.yml
   format: yaml
   label: Drata Workspaces API
   slug: drata-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/drata/openapi/drata-workspaces-api-openapi.yml
+- filename: drata-auth0-proxy-api-openapi.yml
+  format: yaml
+  label: Drata Auth0 Proxy API
+  slug: drata-auth0-proxy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/drata/openapi/drata-auth0-proxy-api-openapi.yml
+- filename: drata-health-api-openapi.yml
+  format: yaml
+  label: Drata Health API
+  slug: drata-health-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/drata/openapi/drata-health-api-openapi.yml
+- filename: drata-ready-api-openapi.yml
+  format: yaml
+  label: Drata Ready API
+  slug: drata-ready-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/drata/openapi/drata-ready-api-openapi.yml
+- filename: drata-well-known-api-openapi.yml
+  format: yaml
+  label: Drata .well Known API
+  slug: drata-well-known-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/drata/openapi/drata-well-known-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -374,7 +398,7 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: >-\n  openapi/d
   \ the key is active.\n  - name: Expiration date\n    options: [12 months (default), Never, Custom]\n  - name: Allowed IP Addresses\n    note: >-\n      Optional source-IP allowlist. Empty means all sources. Interacts with the per-source-IP\n      rate limit — pinning a key to one egress IP also pins it to one 500/min budget.\n  - name: Access / scopes\n    options: [Custom, All read, All read and write]\n    note: >-\n      \"All read\" and \"All read and write\" enable all CURRENT AND FUTURE scopes — a forward\n      grant that silently widens as Drata ships new endpoints. Prefer Custom for agents.\n  statuses:\n  - name: Active\n    description: Usable for the scopes it was provisioned for.\n  - name: Expires soon\n    description: Still usable; expires within 30 days.\n  - name: Expired\n    description: Unusable. Permanent — an expired key cannot be reactivated.\n  - name: Revoked\n    description: Unusable. Permanent — revocation cannot be undone.\n  observability: >-\n    The key\
   \ table shows name, status, creator, last-used timestamp and expiry. Last-used is the\n    only usage telemetry Drata exposes for a key.\n  rotation_note: >-\n    Scopes can be edited at any time on a key that has not expired or been revoked, but the key\n    VALUE cannot be rotated in place — rotation means creating a new key and revoking the old\n    one, and revocation is irreversible.\n\ntenant_gate:\n  status: 412\n  description: >-\n    All 196 authenticated operations declare a 412 response: \"You must accept the Drata terms\n    and conditions to use the API.\" A valid, correctly scoped key still fails until a Drata\n    administrator accepts the API terms in the app. Treat 412 as a human-escalation, not a\n    credential problem.\n\nentitlement_gate:\n  status: 402\n  operations: 37\n  description: >-\n    \"You must upgrade your plan to use this feature\" / \"The required account entitlement is not\n    enabled.\" Distinct from 403 — widening scopes will never clear a 402.\n\n\
   authorization_model:\n  layers:\n  - Credential scopes (API key scopes, or MCP OAuth scopes)\n  - Drata role-based permissions on the authenticated user\n  - Workspace scoping via the {workspaceId} path parameter\n  rule: >-\n    Effective access is the INTERSECTION of the granted scopes and the caller's Drata role.\n    Granting a scope never widens what a user can reach.\n  source: https://developers.drata.com/developer-portal/v2/recipes/mcp-oauth-setup/\n\nevidence:\n- url: https://help.drata.com/en/articles/6695964-drata-public-api\n  status: 200\n- url: https://developers.drata.com/developer-portal/v2/recipes/mcp-oauth-setup/\n  status: 200\n- url: https://mcp.drata.com/.well-known/oauth-authorization-server\n  status: 200\n- url: https://public-api.drata.com/public/v2/openapi.json\n  status: 401\n  note: 'Unauthenticated probe of the API host returns {\"statusCode\":401,\"message\":\"Unauthorized\",\"code\":26430}.'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/authentication/drata-authentication.yml
+source_yaml_url: https://artifacts.apis.io/drata/authentication/drata-authentication.yml
 summary_line: http/apiKey/oauth2 · 3 schemes
 tags:
 - GRC

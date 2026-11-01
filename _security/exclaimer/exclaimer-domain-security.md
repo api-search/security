@@ -5,55 +5,55 @@ api_specs:
   label: Exclaimer End Users API
   slug: exclaimer-end-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/openapi/exclaimer-end-users-api-openapi.yml
+  url: https://artifacts.apis.io/exclaimer/openapi/exclaimer-end-users-api-openapi.yml
 - filename: exclaimer-mailboxes-api-openapi.yml
   format: yaml
   label: Exclaimer Mailboxes API
   slug: exclaimer-mailboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/openapi/exclaimer-mailboxes-api-openapi.yml
+  url: https://artifacts.apis.io/exclaimer/openapi/exclaimer-mailboxes-api-openapi.yml
 - filename: exclaimer-miscellaneous-api-openapi.yml
   format: yaml
   label: Exclaimer Miscellaneous API
   slug: exclaimer-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/openapi/exclaimer-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/exclaimer/openapi/exclaimer-miscellaneous-api-openapi.yml
 - filename: exclaimer-msp-api-openapi.yml
   format: yaml
   label: Exclaimer MSP API
   slug: exclaimer-msp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/openapi/exclaimer-msp-api-openapi.yml
+  url: https://artifacts.apis.io/exclaimer/openapi/exclaimer-msp-api-openapi.yml
 - filename: exclaimer-reference-resources-api-openapi.yml
   format: yaml
   label: Exclaimer Reference Resources API
   slug: exclaimer-reference-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/openapi/exclaimer-reference-resources-api-openapi.yml
+  url: https://artifacts.apis.io/exclaimer/openapi/exclaimer-reference-resources-api-openapi.yml
 - filename: exclaimer-resellers-api-openapi.yml
   format: yaml
   label: Exclaimer Resellers API
   slug: exclaimer-resellers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/openapi/exclaimer-resellers-api-openapi.yml
+  url: https://artifacts.apis.io/exclaimer/openapi/exclaimer-resellers-api-openapi.yml
 - filename: exclaimer-subscription-transfers-api-openapi.yml
   format: yaml
   label: Exclaimer Subscription Transfers API
   slug: exclaimer-subscription-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/openapi/exclaimer-subscription-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/exclaimer/openapi/exclaimer-subscription-transfers-api-openapi.yml
 - filename: exclaimer-subscription-users-api-openapi.yml
   format: yaml
   label: Exclaimer Subscription Users API
   slug: exclaimer-subscription-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/openapi/exclaimer-subscription-users-api-openapi.yml
+  url: https://artifacts.apis.io/exclaimer/openapi/exclaimer-subscription-users-api-openapi.yml
 - filename: exclaimer-subscriptions-api-openapi.yml
   format: yaml
   label: Exclaimer Subscriptions API
   slug: exclaimer-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/openapi/exclaimer-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/exclaimer/openapi/exclaimer-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -95,7 +95,7 @@ source_filename: exclaimer-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: exclaimer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 18:21:34 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: cloudapi.exclaimer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 14:00:24 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: exclaimer.com\n  dnssec: true\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 iodef \"mailto:dnsadmin@exclaimer.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/security/exclaimer-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/exclaimer/security/exclaimer-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

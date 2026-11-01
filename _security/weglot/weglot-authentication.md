@@ -8,19 +8,19 @@ api_specs:
   label: Weglot Languages API
   slug: weglot-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weglot/refs/heads/main/openapi/weglot-languages-api-openapi.yml
+  url: https://artifacts.apis.io/weglot/openapi/weglot-languages-api-openapi.yml
 - filename: weglot-status-api-openapi.yml
   format: yaml
   label: Weglot Status API
   slug: weglot-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weglot/refs/heads/main/openapi/weglot-status-api-openapi.yml
+  url: https://artifacts.apis.io/weglot/openapi/weglot-status-api-openapi.yml
 - filename: weglot-translate-api-openapi.yml
   format: yaml
   label: Weglot Translate API
   slug: weglot-translate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weglot/refs/heads/main/openapi/weglot-translate-api-openapi.yml
+  url: https://artifacts.apis.io/weglot/openapi/weglot-translate-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: weglot-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/weglot-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: api_key\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: Weglot project API key passed as the api_key query parameter.\n  sources:\n  - openapi/weglot-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weglot/refs/heads/main/authentication/weglot-authentication.yml
+source_yaml_url: https://artifacts.apis.io/weglot/authentication/weglot-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Translation

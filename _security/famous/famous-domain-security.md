@@ -5,55 +5,55 @@ api_specs:
   label: Famous Internal API
   slug: famous-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/famous/refs/heads/main/openapi/famous-internal-api-openapi.yml
+  url: https://artifacts.apis.io/famous/openapi/famous-internal-api-openapi.yml
 - filename: famous-seller-api-openapi.yml
   format: yaml
   label: Famous Seller API
   slug: famous-seller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/famous/refs/heads/main/openapi/famous-seller-api-openapi.yml
+  url: https://artifacts.apis.io/famous/openapi/famous-seller-api-openapi.yml
 - filename: famous-auth-tokens-api-openapi.yml
   format: yaml
   label: Famous Auth Tokens API
   slug: famous-auth-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/famous/refs/heads/main/openapi/famous-auth-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/famous/openapi/famous-auth-tokens-api-openapi.yml
 - filename: famous-campaigns-api-openapi.yml
   format: yaml
   label: Famous Campaigns API
   slug: famous-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/famous/refs/heads/main/openapi/famous-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/famous/openapi/famous-campaigns-api-openapi.yml
 - filename: famous-categories-api-openapi.yml
   format: yaml
   label: Famous Categories API
   slug: famous-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/famous/refs/heads/main/openapi/famous-categories-api-openapi.yml
+  url: https://artifacts.apis.io/famous/openapi/famous-categories-api-openapi.yml
 - filename: famous-recommenders-api-openapi.yml
   format: yaml
   label: Famous Recommenders API
   slug: famous-recommenders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/famous/refs/heads/main/openapi/famous-recommenders-api-openapi.yml
+  url: https://artifacts.apis.io/famous/openapi/famous-recommenders-api-openapi.yml
 - filename: famous-rush-prices-api-openapi.yml
   format: yaml
   label: Famous Rush Prices API
   slug: famous-rush-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/famous/refs/heads/main/openapi/famous-rush-prices-api-openapi.yml
+  url: https://artifacts.apis.io/famous/openapi/famous-rush-prices-api-openapi.yml
 - filename: famous-search-suggestions-api-openapi.yml
   format: yaml
   label: Famous Search Suggestions API
   slug: famous-search-suggestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/famous/refs/heads/main/openapi/famous-search-suggestions-api-openapi.yml
+  url: https://artifacts.apis.io/famous/openapi/famous-search-suggestions-api-openapi.yml
 - filename: famous-users-api-openapi.yml
   format: yaml
   label: Famous Users API
   slug: famous-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/famous/refs/heads/main/openapi/famous-users-api-openapi.yml
+  url: https://artifacts.apis.io/famous/openapi/famous-users-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -99,7 +99,7 @@ source_filename: famous-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: amaze.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 22:31:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.teespring.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 19:28:04 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: amaze.co\n  dnssec: false\n  caa:\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: teespring.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/famous/refs/heads/main/security/famous-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/famous/security/famous-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -7,19 +7,19 @@ api_specs:
   label: Gradient Completions API
   slug: gradient-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradient/refs/heads/main/openapi/gradient-completions-api-openapi.yml
+  url: https://artifacts.apis.io/gradient/openapi/gradient-completions-api-openapi.yml
 - filename: gradient-models-api-openapi.yml
   format: yaml
   label: Gradient Models API
   slug: gradient-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradient/refs/heads/main/openapi/gradient-models-api-openapi.yml
+  url: https://artifacts.apis.io/gradient/openapi/gradient-models-api-openapi.yml
 - filename: gradient-chat-completions-api-openapi.yml
   format: yaml
   label: Gradient Chat Completions API
   slug: gradient-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradient/refs/heads/main/openapi/gradient-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/gradient/openapi/gradient-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: gradient-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/gradient-cloud-openapi.yml\ndocs: https://docs.gradient.network/enterprise-solutions/gradient-cloud/api-reference-documentation\nnotes: >-\n  Gradient Cloud uses Access Key authentication passed as an HTTP Bearer token\n  (`Authorization: Bearer <access-key>`). The List Models endpoint is public (no\n  auth). No OAuth or OpenID Connect surface is published; there is no scope model.\nsummary:\n  types:\n  - http\nschemes:\n- name: AccessKey\n  type: http\n  scheme: bearer\n  description: 'Access Key passed as `Authorization: Bearer <access-key>`.'\n  sources:\n  - openapi/gradient-cloud-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gradient/refs/heads/main/authentication/gradient-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gradient/authentication/gradient-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

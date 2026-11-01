@@ -27,7 +27,7 @@ source_filename: cleverdeck-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cleverdeck.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 29 15:50:43 2026 GMT\n  hsts: false\ndomains:\n- domain: cleverdeck.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cleverdeck/refs/heads/main/security/cleverdeck-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cleverdeck/security/cleverdeck-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

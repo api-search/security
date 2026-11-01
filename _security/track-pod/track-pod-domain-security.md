@@ -5,49 +5,49 @@ api_specs:
   label: Track-POD Address API
   slug: track-pod-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/openapi/track-pod-address-api-openapi.yml
+  url: https://artifacts.apis.io/track-pod/openapi/track-pod-address-api-openapi.yml
 - filename: track-pod-driver-api-openapi.yml
   format: yaml
   label: Track-POD Driver API
   slug: track-pod-driver-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/openapi/track-pod-driver-api-openapi.yml
+  url: https://artifacts.apis.io/track-pod/openapi/track-pod-driver-api-openapi.yml
 - filename: track-pod-order-api-openapi.yml
   format: yaml
   label: Track-POD Order API
   slug: track-pod-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/openapi/track-pod-order-api-openapi.yml
+  url: https://artifacts.apis.io/track-pod/openapi/track-pod-order-api-openapi.yml
 - filename: track-pod-route-api-openapi.yml
   format: yaml
   label: Track-POD Route API
   slug: track-pod-route-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/openapi/track-pod-route-api-openapi.yml
+  url: https://artifacts.apis.io/track-pod/openapi/track-pod-route-api-openapi.yml
 - filename: track-pod-test-api-openapi.yml
   format: yaml
   label: Track-POD Test API
   slug: track-pod-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/openapi/track-pod-test-api-openapi.yml
+  url: https://artifacts.apis.io/track-pod/openapi/track-pod-test-api-openapi.yml
 - filename: track-pod-vehicle-api-openapi.yml
   format: yaml
   label: Track-POD Vehicle API
   slug: track-pod-vehicle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/openapi/track-pod-vehicle-api-openapi.yml
+  url: https://artifacts.apis.io/track-pod/openapi/track-pod-vehicle-api-openapi.yml
 - filename: track-pod-vehiclecheck-api-openapi.yml
   format: yaml
   label: Track-POD VehicleCheck API
   slug: track-pod-vehiclecheck-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/openapi/track-pod-vehiclecheck-api-openapi.yml
+  url: https://artifacts.apis.io/track-pod/openapi/track-pod-vehiclecheck-api-openapi.yml
 - filename: track-pod-reject-reason-api-openapi.yml
   format: yaml
   label: Track-POD Reject Reason API
   slug: track-pod-reject-reason-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/openapi/track-pod-reject-reason-api-openapi.yml
+  url: https://artifacts.apis.io/track-pod/openapi/track-pod-reject-reason-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -87,7 +87,7 @@ source_filename: track-pod-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.track-pod.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 06:46:21 2026 GMT\n  hsts: false\n- host: api.track-pod.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 11 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: track-pod.com\n  dnssec: false\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/security/track-pod-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/track-pod/security/track-pod-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Delivery
@@ -102,7 +102,7 @@ tags:
 - Fleet Management
 - Driver Tracking
 - Couriers
-- Field Service
+- Field Service Management
 - Transportation
 - Shipping
 ---

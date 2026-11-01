@@ -5,79 +5,79 @@ api_specs:
   label: Przelewy24 Additional API functionality API
   slug: przelewy24-additional-api-functionality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-additional-api-functionality-api-openapi.yml
+  url: https://artifacts.apis.io/przelewy24/openapi/przelewy24-additional-api-functionality-api-openapi.yml
 - filename: przelewy24-additional-services-mass-payments-transactions-api-openapi.yml
   format: yaml
   label: Przelewy24 Additional services Mass Payments Transactions API
   slug: przelewy24-additional-services-mass-payments-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-additional-services-mass-payments-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/przelewy24/openapi/przelewy24-additional-services-mass-payments-transactions-api-openapi.yml
 - filename: przelewy24-apay-api-api-openapi.yml
   format: yaml
   label: Przelewy24 APay API
   slug: przelewy24-apay-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-apay-api-api-openapi.yml
+  url: https://artifacts.apis.io/przelewy24/openapi/przelewy24-apay-api-api-openapi.yml
 - filename: przelewy24-blik-api-api-openapi.yml
   format: yaml
   label: Przelewy24 BLIK API
   slug: przelewy24-blik-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-blik-api-api-openapi.yml
+  url: https://artifacts.apis.io/przelewy24/openapi/przelewy24-blik-api-api-openapi.yml
 - filename: przelewy24-card-api-api-openapi.yml
   format: yaml
   label: Przelewy24 Card API
   slug: przelewy24-card-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-card-api-api-openapi.yml
+  url: https://artifacts.apis.io/przelewy24/openapi/przelewy24-card-api-api-openapi.yml
 - filename: przelewy24-ekspres-p24-api-api-openapi.yml
   format: yaml
   label: Przelewy24 Ekspres P24 API
   slug: przelewy24-ekspres-p24-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-ekspres-p24-api-api-openapi.yml
+  url: https://artifacts.apis.io/przelewy24/openapi/przelewy24-ekspres-p24-api-api-openapi.yml
 - filename: przelewy24-gpay-api-api-openapi.yml
   format: yaml
   label: Przelewy24 GPay API
   slug: przelewy24-gpay-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-gpay-api-api-openapi.yml
+  url: https://artifacts.apis.io/przelewy24/openapi/przelewy24-gpay-api-api-openapi.yml
 - filename: przelewy24-marketplace-management-api-api-openapi.yml
   format: yaml
   label: Przelewy24 Marketplace Management API
   slug: przelewy24-marketplace-management-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-marketplace-management-api-api-openapi.yml
+  url: https://artifacts.apis.io/przelewy24/openapi/przelewy24-marketplace-management-api-api-openapi.yml
 - filename: przelewy24-marketplace-merchant-api-api-openapi.yml
   format: yaml
   label: Przelewy24 Marketplace Merchant API
   slug: przelewy24-marketplace-merchant-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-marketplace-merchant-api-api-openapi.yml
+  url: https://artifacts.apis.io/przelewy24/openapi/przelewy24-marketplace-merchant-api-api-openapi.yml
 - filename: przelewy24-marketplace-partner-api-api-openapi.yml
   format: yaml
   label: Przelewy24 Marketplace Partner API
   slug: przelewy24-marketplace-partner-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-marketplace-partner-api-api-openapi.yml
+  url: https://artifacts.apis.io/przelewy24/openapi/przelewy24-marketplace-partner-api-api-openapi.yml
 - filename: przelewy24-recursion-dopayment-api-openapi.yml
   format: yaml
   label: Przelewy24 Recursion (doPayment) API
   slug: przelewy24-recursion-dopayment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-recursion-dopayment-api-openapi.yml
+  url: https://artifacts.apis.io/przelewy24/openapi/przelewy24-recursion-dopayment-api-openapi.yml
 - filename: przelewy24-report-api-api-openapi.yml
   format: yaml
   label: Przelewy24 Report API
   slug: przelewy24-report-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-report-api-api-openapi.yml
+  url: https://artifacts.apis.io/przelewy24/openapi/przelewy24-report-api-api-openapi.yml
 - filename: przelewy24-transaction-service-api-api-openapi.yml
   format: yaml
   label: Przelewy24 Transaction service API
   slug: przelewy24-transaction-service-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-transaction-service-api-api-openapi.yml
+  url: https://artifacts.apis.io/przelewy24/openapi/przelewy24-transaction-service-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -118,7 +118,7 @@ source_filename: przelewy24-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.przelewy24.pl\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 31 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.przelewy24.pl\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 31 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: secure.przelewy24.pl\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  4 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: przelewy24.pl\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/security/przelewy24-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/przelewy24/security/przelewy24-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments

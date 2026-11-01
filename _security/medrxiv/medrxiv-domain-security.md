@@ -5,19 +5,19 @@ api_specs:
   label: medRxiv Details API
   slug: medrxiv-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medrxiv/refs/heads/main/openapi/medrxiv-details-api-openapi.yml
+  url: https://artifacts.apis.io/medrxiv/openapi/medrxiv-details-api-openapi.yml
 - filename: medrxiv-publications-api-openapi.yml
   format: yaml
   label: medRxiv Publications API
   slug: medrxiv-publications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medrxiv/refs/heads/main/openapi/medrxiv-publications-api-openapi.yml
+  url: https://artifacts.apis.io/medrxiv/openapi/medrxiv-publications-api-openapi.yml
 - filename: medrxiv-usage-api-openapi.yml
   format: yaml
   label: medRxiv Usage API
   slug: medrxiv-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medrxiv/refs/heads/main/openapi/medrxiv-usage-api-openapi.yml
+  url: https://artifacts.apis.io/medrxiv/openapi/medrxiv-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -60,7 +60,7 @@ source_filename: medrxiv-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.medrxiv.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 19:32:53 2026 GMT\n  hsts: false\n- host: api.medrxiv.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 15:58:56 2026 GMT\n  hsts: false\n- host: api.biorxiv.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 20:53:32 2026 GMT\n  hsts: false\ndomains:\n- domain: medrxiv.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: biorxiv.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/medrxiv/refs/heads/main/security/medrxiv-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/medrxiv/security/medrxiv-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Health Sciences

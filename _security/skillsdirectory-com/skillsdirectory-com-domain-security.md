@@ -5,31 +5,31 @@ api_specs:
   label: Skills Directory Categories API
   slug: skillsdirectory-com-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skillsdirectory-com/refs/heads/main/openapi/skillsdirectory-com-categories-api-openapi.yml
+  url: https://artifacts.apis.io/skillsdirectory-com/openapi/skillsdirectory-com-categories-api-openapi.yml
 - filename: skillsdirectory-com-registry-api-openapi.yml
   format: yaml
   label: Skills Directory Registry API
   slug: skillsdirectory-com-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skillsdirectory-com/refs/heads/main/openapi/skillsdirectory-com-registry-api-openapi.yml
+  url: https://artifacts.apis.io/skillsdirectory-com/openapi/skillsdirectory-com-registry-api-openapi.yml
 - filename: skillsdirectory-com-scan-api-openapi.yml
   format: yaml
   label: Skills Directory Scan API
   slug: skillsdirectory-com-scan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skillsdirectory-com/refs/heads/main/openapi/skillsdirectory-com-scan-api-openapi.yml
+  url: https://artifacts.apis.io/skillsdirectory-com/openapi/skillsdirectory-com-scan-api-openapi.yml
 - filename: skillsdirectory-com-skills-api-openapi.yml
   format: yaml
   label: Skills Directory Skills API
   slug: skillsdirectory-com-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skillsdirectory-com/refs/heads/main/openapi/skillsdirectory-com-skills-api-openapi.yml
+  url: https://artifacts.apis.io/skillsdirectory-com/openapi/skillsdirectory-com-skills-api-openapi.yml
 - filename: skillsdirectory-com-stats-api-openapi.yml
   format: yaml
   label: Skills Directory Stats API
   slug: skillsdirectory-com-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skillsdirectory-com/refs/heads/main/openapi/skillsdirectory-com-stats-api-openapi.yml
+  url: https://artifacts.apis.io/skillsdirectory-com/openapi/skillsdirectory-com-stats-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: skillsdirectory-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.skillsdirectory.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 13:36:33 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: skillsdirectory.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skillsdirectory-com/refs/heads/main/security/skillsdirectory-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/skillsdirectory-com/security/skillsdirectory-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Agent Skills

@@ -8,85 +8,85 @@ api_specs:
   label: Aider Chat API
   slug: aider-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-chat-api-openapi.yml
+  url: https://artifacts.apis.io/aider/openapi/aider-chat-api-openapi.yml
 - filename: aider-editing-api-openapi.yml
   format: yaml
   label: Aider Editing API
   slug: aider-editing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-editing-api-openapi.yml
+  url: https://artifacts.apis.io/aider/openapi/aider-editing-api-openapi.yml
 - filename: aider-files-api-openapi.yml
   format: yaml
   label: Aider Files API
   slug: aider-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-files-api-openapi.yml
+  url: https://artifacts.apis.io/aider/openapi/aider-files-api-openapi.yml
 - filename: aider-git-api-openapi.yml
   format: yaml
   label: Aider Git API
   slug: aider-git-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-git-api-openapi.yml
+  url: https://artifacts.apis.io/aider/openapi/aider-git-api-openapi.yml
 - filename: aider-launch-api-openapi.yml
   format: yaml
   label: Aider Launch API
   slug: aider-launch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-launch-api-openapi.yml
+  url: https://artifacts.apis.io/aider/openapi/aider-launch-api-openapi.yml
 - filename: aider-map-api-openapi.yml
   format: yaml
   label: Aider Map API
   slug: aider-map-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-map-api-openapi.yml
+  url: https://artifacts.apis.io/aider/openapi/aider-map-api-openapi.yml
 - filename: aider-models-api-openapi.yml
   format: yaml
   label: Aider Models API
   slug: aider-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-models-api-openapi.yml
+  url: https://artifacts.apis.io/aider/openapi/aider-models-api-openapi.yml
 - filename: aider-modes-api-openapi.yml
   format: yaml
   label: Aider Modes API
   slug: aider-modes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-modes-api-openapi.yml
+  url: https://artifacts.apis.io/aider/openapi/aider-modes-api-openapi.yml
 - filename: aider-quality-api-openapi.yml
   format: yaml
   label: Aider Quality API
   slug: aider-quality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-quality-api-openapi.yml
+  url: https://artifacts.apis.io/aider/openapi/aider-quality-api-openapi.yml
 - filename: aider-session-api-openapi.yml
   format: yaml
   label: Aider Session API
   slug: aider-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-session-api-openapi.yml
+  url: https://artifacts.apis.io/aider/openapi/aider-session-api-openapi.yml
 - filename: aider-settings-api-openapi.yml
   format: yaml
   label: Aider Settings API
   slug: aider-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-settings-api-openapi.yml
+  url: https://artifacts.apis.io/aider/openapi/aider-settings-api-openapi.yml
 - filename: aider-voice-api-openapi.yml
   format: yaml
   label: Aider Voice API
   slug: aider-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-voice-api-openapi.yml
+  url: https://artifacts.apis.io/aider/openapi/aider-voice-api-openapi.yml
 - filename: aider-web-api-openapi.yml
   format: yaml
   label: Aider Web API
   slug: aider-web-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-web-api-openapi.yml
+  url: https://artifacts.apis.io/aider/openapi/aider-web-api-openapi.yml
 - filename: aider-i-o-api-openapi.yml
   format: yaml
   label: Aider I/O API
   slug: aider-i-o-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-i-o-api-openapi.yml
+  url: https://artifacts.apis.io/aider/openapi/aider-i-o-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -114,7 +114,7 @@ source_filename: aider-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/aider-cli-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: LLMProviderKey\n  type: apiKey\n  in: header\n  parameter: X-Provider-API-Key\n  description: Placeholder for documentation purposes. Aider does not authenticate with an \"aider\n    API\"; it reads the relevant upstream provider key (ANTHROPIC_API_KEY, OPENAI_API_KEY, etc.)\n    from the local environment and passes it to the chosen LLM provider directly.\n  sources:\n  - openapi/aider-cli-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/authentication/aider-authentication.yml
+source_yaml_url: https://artifacts.apis.io/aider/authentication/aider-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence
@@ -128,7 +128,7 @@ tags:
 - Python
 - Apache 2.0
 - LLM
-- Git
+- Version Control
 - BYO LLM
 - Terminal
 - Polyglot

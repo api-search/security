@@ -5,85 +5,85 @@ api_specs:
   label: Cloudflare R2 Buckets API
   slug: cloudflare-r2-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/openapi/cloudflare-r2-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-r2/openapi/cloudflare-r2-buckets-api-openapi.yml
 - filename: cloudflare-r2-cors-api-openapi.yml
   format: yaml
   label: Cloudflare R2 CORS API
   slug: cloudflare-r2-cors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/openapi/cloudflare-r2-cors-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-r2/openapi/cloudflare-r2-cors-api-openapi.yml
 - filename: cloudflare-r2-credential-management-api-openapi.yml
   format: yaml
   label: Cloudflare R2 Credential Management API
   slug: cloudflare-r2-credential-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/openapi/cloudflare-r2-credential-management-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-r2/openapi/cloudflare-r2-credential-management-api-openapi.yml
 - filename: cloudflare-r2-lifecycle-api-openapi.yml
   format: yaml
   label: Cloudflare R2 Lifecycle API
   slug: cloudflare-r2-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/openapi/cloudflare-r2-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-r2/openapi/cloudflare-r2-lifecycle-api-openapi.yml
 - filename: cloudflare-r2-maintenance-configuration-api-openapi.yml
   format: yaml
   label: Cloudflare R2 Maintenance Configuration API
   slug: cloudflare-r2-maintenance-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/openapi/cloudflare-r2-maintenance-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-r2/openapi/cloudflare-r2-maintenance-configuration-api-openapi.yml
 - filename: cloudflare-r2-multipart-upload-api-openapi.yml
   format: yaml
   label: Cloudflare R2 Multipart Upload API
   slug: cloudflare-r2-multipart-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/openapi/cloudflare-r2-multipart-upload-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-r2/openapi/cloudflare-r2-multipart-upload-api-openapi.yml
 - filename: cloudflare-r2-namespace-management-api-openapi.yml
   format: yaml
   label: Cloudflare R2 Namespace Management API
   slug: cloudflare-r2-namespace-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/openapi/cloudflare-r2-namespace-management-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-r2/openapi/cloudflare-r2-namespace-management-api-openapi.yml
 - filename: cloudflare-r2-objects-api-openapi.yml
   format: yaml
   label: Cloudflare R2 Objects API
   slug: cloudflare-r2-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/openapi/cloudflare-r2-objects-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-r2/openapi/cloudflare-r2-objects-api-openapi.yml
 - filename: cloudflare-r2-r2-account-api-openapi.yml
   format: yaml
   label: Cloudflare R2 R2 Account API
   slug: cloudflare-r2-r2-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/openapi/cloudflare-r2-r2-account-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-r2/openapi/cloudflare-r2-r2-account-api-openapi.yml
 - filename: cloudflare-r2-r2-bucket-api-openapi.yml
   format: yaml
   label: Cloudflare R2 R2 Bucket API
   slug: cloudflare-r2-r2-bucket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/openapi/cloudflare-r2-r2-bucket-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-r2/openapi/cloudflare-r2-r2-bucket-api-openapi.yml
 - filename: cloudflare-r2-r2-catalog-management-api-openapi.yml
   format: yaml
   label: Cloudflare R2 R2 Catalog Management API
   slug: cloudflare-r2-r2-catalog-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/openapi/cloudflare-r2-r2-catalog-management-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-r2/openapi/cloudflare-r2-r2-catalog-management-api-openapi.yml
 - filename: cloudflare-r2-r2-object-api-openapi.yml
   format: yaml
   label: Cloudflare R2 R2 Object API
   slug: cloudflare-r2-r2-object-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/openapi/cloudflare-r2-r2-object-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-r2/openapi/cloudflare-r2-r2-object-api-openapi.yml
 - filename: cloudflare-r2-table-maintenance-configuration-api-openapi.yml
   format: yaml
   label: Cloudflare R2 Table Maintenance Configuration API
   slug: cloudflare-r2-table-maintenance-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/openapi/cloudflare-r2-table-maintenance-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-r2/openapi/cloudflare-r2-table-maintenance-configuration-api-openapi.yml
 - filename: cloudflare-r2-table-management-api-openapi.yml
   format: yaml
   label: Cloudflare R2 Table Management API
   slug: cloudflare-r2-table-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/openapi/cloudflare-r2-table-management-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-r2/openapi/cloudflare-r2-table-management-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -132,7 +132,7 @@ source_filename: cloudflare-r2-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cloudflare.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 07:46:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.cloudflare.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 16:43:14 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: <account_id>.r2.cloudflarestorage.com\n  https: false\ndomains:\n- domain: cloudflare.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 iodef \"mailto:tls-abuse@cloudflare.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: cloudflarestorage.com\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/security/cloudflare-r2-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cloudflare-r2/security/cloudflare-r2-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Object Storage

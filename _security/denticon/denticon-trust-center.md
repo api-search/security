@@ -16,7 +16,7 @@ source_filename: denticon-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.planetdds.com/\nurl: https://www.planetdds.com/\ncertifications:\n- HIPAA\n- GDPR\nevidence:\n- source: https://www.planetdds.com/\n  keywords:\n  - hipaa\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/denticon/refs/heads/main/security/denticon-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/denticon/security/denticon-trust-center.yml
 summary_line: HIPAA, GDPR
 tags:
 - Dental

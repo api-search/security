@@ -7,19 +7,19 @@ api_specs:
   label: Maven Central Deployment API
   slug: maven-central-deployment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-central/refs/heads/main/openapi/maven-central-deployment-api-openapi.yml
+  url: https://artifacts.apis.io/maven-central/openapi/maven-central-deployment-api-openapi.yml
 - filename: maven-central-download-api-openapi.yml
   format: yaml
   label: Maven Central Download API
   slug: maven-central-download-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-central/refs/heads/main/openapi/maven-central-download-api-openapi.yml
+  url: https://artifacts.apis.io/maven-central/openapi/maven-central-download-api-openapi.yml
 - filename: maven-central-search-api-openapi.yml
   format: yaml
   label: Maven Central Search API
   slug: maven-central-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-central/refs/heads/main/openapi/maven-central-search-api-openapi.yml
+  url: https://artifacts.apis.io/maven-central/openapi/maven-central-search-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: maven-central-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/maven-central-portal-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Authorization header `Bearer <base64(username:password)>` using a user token\n    generated from the Central Portal account settings.\n  sources:\n  - openapi/maven-central-portal-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maven-central/refs/heads/main/authentication/maven-central-authentication.yml
+source_yaml_url: https://artifacts.apis.io/maven-central/authentication/maven-central-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artifacts

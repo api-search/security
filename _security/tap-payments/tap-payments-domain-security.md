@@ -5,55 +5,55 @@ api_specs:
   label: Tap Payments Authorize API
   slug: tap-payments-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-authorize-api-openapi.yml
+  url: https://artifacts.apis.io/tap-payments/openapi/tap-payments-authorize-api-openapi.yml
 - filename: tap-payments-business-api-openapi.yml
   format: yaml
   label: Tap Payments Business API
   slug: tap-payments-business-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-business-api-openapi.yml
+  url: https://artifacts.apis.io/tap-payments/openapi/tap-payments-business-api-openapi.yml
 - filename: tap-payments-cards-api-openapi.yml
   format: yaml
   label: Tap Payments Cards API
   slug: tap-payments-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-cards-api-openapi.yml
+  url: https://artifacts.apis.io/tap-payments/openapi/tap-payments-cards-api-openapi.yml
 - filename: tap-payments-charges-api-openapi.yml
   format: yaml
   label: Tap Payments Charges API
   slug: tap-payments-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-charges-api-openapi.yml
+  url: https://artifacts.apis.io/tap-payments/openapi/tap-payments-charges-api-openapi.yml
 - filename: tap-payments-customers-api-openapi.yml
   format: yaml
   label: Tap Payments Customers API
   slug: tap-payments-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-customers-api-openapi.yml
+  url: https://artifacts.apis.io/tap-payments/openapi/tap-payments-customers-api-openapi.yml
 - filename: tap-payments-invoices-api-openapi.yml
   format: yaml
   label: Tap Payments Invoices API
   slug: tap-payments-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/tap-payments/openapi/tap-payments-invoices-api-openapi.yml
 - filename: tap-payments-payouts-api-openapi.yml
   format: yaml
   label: Tap Payments Payouts API
   slug: tap-payments-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/tap-payments/openapi/tap-payments-payouts-api-openapi.yml
 - filename: tap-payments-refunds-api-openapi.yml
   format: yaml
   label: Tap Payments Refunds API
   slug: tap-payments-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/tap-payments/openapi/tap-payments-refunds-api-openapi.yml
 - filename: tap-payments-tokens-api-openapi.yml
   format: yaml
   label: Tap Payments Tokens API
   slug: tap-payments-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/tap-payments/openapi/tap-payments-tokens-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -102,7 +102,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tap.company\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: GoDaddy Secure Certificate Authority - G2\n  cert_expires: Nov 29 13:20:39 2026 GMT\n  hsts: false\n- host: developers.tap.company\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: Let's Encrypt\n  cert_expires: Sep  2 02:00:34 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.tap.company\n  https: true\n  tls_version: TLSv1.2\n  cert_issuer: GoDaddy Secure Certificate Authority - G2\n  cert_expires: Dec  5 11:12:48 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n  hsts_include_subdomains: true\n  note: Bare host returns HTTP 404; the API base path is /v2. Fronted by an AWS ELB in eu-west-1.\ndomains:\n- domain: tap.company\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: v=spf1 include:_spf.google.com include:mailgun.org include:spf.mandrillapp.com include:mg.tap.com.kw\
   \ ~all\n  dmarc: true\n  dmarc_policy: quarantine\n  dmarc_rua: mailto:email_dmarc_reports@tap.company\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/security/tap-payments-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tap-payments/security/tap-payments-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments

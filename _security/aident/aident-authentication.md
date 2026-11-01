@@ -30,7 +30,7 @@ source_filename: aident-authentication.yml
 source_heading: Authentication Profile
 source_url: https://docs.aident.ai/loadout/setup-agents.md
 source_yaml: "generated: '2026-10-05'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://docs.aident.ai/loadout/setup-agents.md\nsources:\n- https://docs.aident.ai/loadout/setup-agents.md\n- https://docs.aident.ai/documentation/mcp-server-setup.md\ndescription: Authentication uses Aident's OAuth flow discovered automatically by the MCP client.\nschemes:\n- type: oauth2\n  name: Aident OAuth\n  evidence: 'On first use, your MCP client will automatically:\n\n    1. Discover Aident''s OAuth endpoints\n\n    2. Open your browser for login (Google OAuth or magic link)\n\n    3. Store your access token locally'\n  how_to_obtain: The MCP client discovers the OAuth endpoints, opens a browser for the user to sign in, and stores the access token locally.\ndocs: https://docs.aident.ai/loadout/setup-agents.md\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aident/refs/heads/main/authentication/aident-authentication.yml
+source_yaml_url: https://artifacts.apis.io/aident/authentication/aident-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company

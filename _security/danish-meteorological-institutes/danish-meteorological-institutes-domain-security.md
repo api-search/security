@@ -5,25 +5,25 @@ api_specs:
   label: Danish Meteorological Institutes Climate Data API
   slug: danish-meteorological-institutes-climatedata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/danish-meteorological-institutes/refs/heads/main/openapi/danish-meteorological-institutes-climatedata-api-openapi.yml
+  url: https://artifacts.apis.io/danish-meteorological-institutes/openapi/danish-meteorological-institutes-climatedata-api-openapi.yml
 - filename: danish-meteorological-institutes-lightningdata-api-openapi.yml
   format: yaml
   label: Danish Meteorological Institutes Lightning Data API
   slug: danish-meteorological-institutes-lightningdata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/danish-meteorological-institutes/refs/heads/main/openapi/danish-meteorological-institutes-lightningdata-api-openapi.yml
+  url: https://artifacts.apis.io/danish-meteorological-institutes/openapi/danish-meteorological-institutes-lightningdata-api-openapi.yml
 - filename: danish-meteorological-institutes-metobs-api-openapi.yml
   format: yaml
   label: Danish Meteorological Institutes Met Obs API
   slug: danish-meteorological-institutes-metobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/danish-meteorological-institutes/refs/heads/main/openapi/danish-meteorological-institutes-metobs-api-openapi.yml
+  url: https://artifacts.apis.io/danish-meteorological-institutes/openapi/danish-meteorological-institutes-metobs-api-openapi.yml
 - filename: danish-meteorological-institutes-oceanobs-api-openapi.yml
   format: yaml
   label: Danish Meteorological Institutes Ocean Obs API
   slug: danish-meteorological-institutes-oceanobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/danish-meteorological-institutes/refs/heads/main/openapi/danish-meteorological-institutes-oceanobs-api-openapi.yml
+  url: https://artifacts.apis.io/danish-meteorological-institutes/openapi/danish-meteorological-institutes-oceanobs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -68,7 +68,7 @@ source_filename: danish-meteorological-institutes-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dmi.dk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 07:31:50 2026 GMT\n  hsts: false\n- host: opendatadocs.dmi.govcloud.dk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 05:51:26 2026 GMT\n  hsts: null\n- host: opendataapi.dmi.dk\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  8 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: dmi.dk\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: govcloud.dk\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/danish-meteorological-institutes/refs/heads/main/security/danish-meteorological-institutes-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/danish-meteorological-institutes/security/danish-meteorological-institutes-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Climate

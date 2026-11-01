@@ -5,19 +5,19 @@ api_specs:
   label: USDA Agricultural Research Service (ARS) Datasets API
   slug: usda-agricultural-research-service-ars--datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usda-agricultural-research-service-ars-/refs/heads/main/openapi/usda-agricultural-research-service-ars--datasets-api-openapi.yml
+  url: https://artifacts.apis.io/usda-agricultural-research-service-ars-/openapi/usda-agricultural-research-service-ars--datasets-api-openapi.yml
 - filename: usda-agricultural-research-service-ars--food-search-api-openapi.yml
   format: yaml
   label: USDA Agricultural Research Service (ARS) Food Search API
   slug: usda-agricultural-research-service-ars--food-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usda-agricultural-research-service-ars-/refs/heads/main/openapi/usda-agricultural-research-service-ars--food-search-api-openapi.yml
+  url: https://artifacts.apis.io/usda-agricultural-research-service-ars-/openapi/usda-agricultural-research-service-ars--food-search-api-openapi.yml
 - filename: usda-agricultural-research-service-ars--foods-api-openapi.yml
   format: yaml
   label: USDA Agricultural Research Service (ARS) Foods API
   slug: usda-agricultural-research-service-ars--foods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usda-agricultural-research-service-ars-/refs/heads/main/openapi/usda-agricultural-research-service-ars--foods-api-openapi.yml
+  url: https://artifacts.apis.io/usda-agricultural-research-service-ars-/openapi/usda-agricultural-research-service-ars--foods-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -62,7 +62,7 @@ source_filename: usda-agricultural-research-service-ars--domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: fdc.nal.usda.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 10 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: agdatacommons.nal.usda.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 23:59:59 2026 GMT\n  hsts: false\n- host: data.nal.usda.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 10 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: usda.gov\n  dnssec: true\n  caa:\n  - 0 iodef \"mailto:icam_as_notify@ocio.usda.gov\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/usda-agricultural-research-service-ars-/refs/heads/main/security/usda-agricultural-research-service-ars--domain-security.yml
+source_yaml_url: https://artifacts.apis.io/usda-agricultural-research-service-ars-/security/usda-agricultural-research-service-ars--domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Federal Government

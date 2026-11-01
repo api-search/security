@@ -1,0 +1,30 @@
+{%- comment -%}
+  compare-links.html — "Compared on APIs.io": links from a provider or cohort detail page to the
+  /compare/ showcase pages it appears in. Reads _data/compare_links.json (written by
+  scripts/build-compare-showcase.py, distributed by bootstrap-sites.py). Called from
+  api-mcp.html, which every provider and cohort page already includes; renders nothing on a
+  page that is in no showcase pair. The key's kind comes from the site (nav_active).
+{%- endcomment -%}
+{%- assign _cl_kind = nil -%}
+{%- case site.nav_active -%}
+  {%- when 'providers' -%}{%- assign _cl_kind = 'provider' -%}
+  {%- when 'tags' -%}{%- assign _cl_kind = 'tag' -%}
+  {%- when 'industries' -%}{%- assign _cl_kind = 'industry' -%}
+  {%- when 'regions' -%}{%- assign _cl_kind = 'region' -%}
+  {%- when 'areas' -%}{%- assign _cl_kind = 'area' -%}
+  {%- when 'vcs' -%}{%- assign _cl_kind = 'vc' -%}
+{%- endcase -%}
+{%- if _cl_kind and page.slug and site.data.compare_links -%}
+{%- assign _cl_key = _cl_kind | append: ':' | append: page.slug -%}
+{%- assign _cl = site.data.compare_links[_cl_key] -%}
+{%- if _cl and _cl.size > 0 -%}
+<h2 class="section-anchor" id="compared"><a href="#compared">Compared on APIs.io</a></h2>
+<p class="section-blurb">Side by side with {% if _cl_kind == 'provider' %}a competitor{% else %}another market{% endif %}, using the <code>{% if _cl_kind == 'provider' %}compare_providers{% else %}compare_cohorts{% endif %}</code> tool: facet by facet, with the full tool response.</p>
+<ul class="list-unstyled">
+  {%- for l in _cl %}
+  <li style="margin-bottom:0.4rem"><a href="https://apis.io{{ l.url }}"><strong>vs {{ l.vs }}</strong></a> <span class="text-muted small">{{ l.title }}</span></li>
+  {%- endfor %}
+  <li class="small"><a href="https://apis.io/compare/">All comparisons &rarr;</a></li>
+</ul>
+{%- endif -%}
+{%- endif -%}

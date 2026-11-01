@@ -5,61 +5,61 @@ api_specs:
   label: 2X Alignment API
   slug: 2x-alignment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/openapi/2x-alignment-api-openapi.yml
+  url: https://artifacts.apis.io/2x/openapi/2x-alignment-api-openapi.yml
 - filename: 2x-api-keys-api-openapi.yml
   format: yaml
   label: 2X API Keys API
   slug: 2x-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/openapi/2x-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/2x/openapi/2x-api-keys-api-openapi.yml
 - filename: 2x-clients-api-openapi.yml
   format: yaml
   label: 2X Clients API
   slug: 2x-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/openapi/2x-clients-api-openapi.yml
+  url: https://artifacts.apis.io/2x/openapi/2x-clients-api-openapi.yml
 - filename: 2x-documentation-api-openapi.yml
   format: yaml
   label: 2X Documentation API
   slug: 2x-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/openapi/2x-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/2x/openapi/2x-documentation-api-openapi.yml
 - filename: 2x-health-api-openapi.yml
   format: yaml
   label: 2X Health API
   slug: 2x-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/openapi/2x-health-api-openapi.yml
+  url: https://artifacts.apis.io/2x/openapi/2x-health-api-openapi.yml
 - filename: 2x-portfolios-api-openapi.yml
   format: yaml
   label: 2X Portfolios API
   slug: 2x-portfolios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/openapi/2x-portfolios-api-openapi.yml
+  url: https://artifacts.apis.io/2x/openapi/2x-portfolios-api-openapi.yml
 - filename: 2x-root-api-openapi.yml
   format: yaml
   label: 2X Root API
   slug: 2x-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/openapi/2x-root-api-openapi.yml
+  url: https://artifacts.apis.io/2x/openapi/2x-root-api-openapi.yml
 - filename: 2x-status-api-openapi.yml
   format: yaml
   label: 2X Status API
   slug: 2x-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/openapi/2x-status-api-openapi.yml
+  url: https://artifacts.apis.io/2x/openapi/2x-status-api-openapi.yml
 - filename: 2x-streams-api-openapi.yml
   format: yaml
   label: 2X Streams API
   slug: 2x-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/openapi/2x-streams-api-openapi.yml
+  url: https://artifacts.apis.io/2x/openapi/2x-streams-api-openapi.yml
 - filename: 2x-topics-api-openapi.yml
   format: yaml
   label: 2X Topics API
   slug: 2x-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/openapi/2x-topics-api-openapi.yml
+  url: https://artifacts.apis.io/2x/openapi/2x-topics-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -105,7 +105,7 @@ source_filename: 2x-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: 2x.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 04:35:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.knownwell.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 16:33:25 2026 GMT\n  hsts: null\n- host: mcp.knownwell.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 22:54:27 2026 GMT\n  hsts: null\ndomains:\n- domain: 2x.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: knownwell.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/security/2x-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/2x/security/2x-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -7,61 +7,61 @@ api_specs:
   label: Codesphere Clusters API
   slug: codesphere-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/codesphere/openapi/codesphere-clusters-api-openapi.yml
 - filename: codesphere-domains-api-openapi.yml
   format: yaml
   label: Codesphere Domains API
   slug: codesphere-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-domains-api-openapi.yml
+  url: https://artifacts.apis.io/codesphere/openapi/codesphere-domains-api-openapi.yml
 - filename: codesphere-managed-services-api-openapi.yml
   format: yaml
   label: Codesphere Managed Services API
   slug: codesphere-managed-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-managed-services-api-openapi.yml
+  url: https://artifacts.apis.io/codesphere/openapi/codesphere-managed-services-api-openapi.yml
 - filename: codesphere-metadata-api-openapi.yml
   format: yaml
   label: Codesphere Metadata API
   slug: codesphere-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/codesphere/openapi/codesphere-metadata-api-openapi.yml
 - filename: codesphere-organizations-api-openapi.yml
   format: yaml
   label: Codesphere Organizations API
   slug: codesphere-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/codesphere/openapi/codesphere-organizations-api-openapi.yml
 - filename: codesphere-ssh-api-openapi.yml
   format: yaml
   label: Codesphere Ssh API
   slug: codesphere-ssh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-ssh-api-openapi.yml
+  url: https://artifacts.apis.io/codesphere/openapi/codesphere-ssh-api-openapi.yml
 - filename: codesphere-teams-api-openapi.yml
   format: yaml
   label: Codesphere Teams API
   slug: codesphere-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-teams-api-openapi.yml
+  url: https://artifacts.apis.io/codesphere/openapi/codesphere-teams-api-openapi.yml
 - filename: codesphere-usage-api-openapi.yml
   format: yaml
   label: Codesphere Usage API
   slug: codesphere-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-usage-api-openapi.yml
+  url: https://artifacts.apis.io/codesphere/openapi/codesphere-usage-api-openapi.yml
 - filename: codesphere-vault-api-openapi.yml
   format: yaml
   label: Codesphere Vault API
   slug: codesphere-vault-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-vault-api-openapi.yml
+  url: https://artifacts.apis.io/codesphere/openapi/codesphere-vault-api-openapi.yml
 - filename: codesphere-workspaces-api-openapi.yml
   format: yaml
   label: Codesphere Workspaces API
   slug: codesphere-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/codesphere/openapi/codesphere-workspaces-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -87,7 +87,7 @@ source_filename: codesphere-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/codesphere-openapi-original.json\ndocs: https://docs.codesphere.com/user-settings/api-keys\nsummary:\n  types:\n  - http\n  http_schemes:\n  - bearer\n  token_model: Personal Access Token (PAT)\n  header: 'Authorization: Bearer <token>'\n  token_source: https://docs.codesphere.com/user-settings/api-keys\n  notes: >-\n    Tokens are generated in User Settings > API Keys and shown once; the `cs`\n    CLI reads the same token from the CS_TOKEN environment variable.\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/codesphere-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/authentication/codesphere-authentication.yml
+source_yaml_url: https://artifacts.apis.io/codesphere/authentication/codesphere-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

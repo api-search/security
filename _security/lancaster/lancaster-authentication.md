@@ -7,13 +7,13 @@ api_specs:
   label: Lancaster EPrints OAI-PMH 2.0 Interface
   slug: lancaster-oai2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lancaster/refs/heads/main/openapi/lancaster-oai2-api-openapi.yml
+  url: https://artifacts.apis.io/lancaster/openapi/lancaster-oai2-api-openapi.yml
 - filename: lancaster-idp-api-openapi.yml
   format: yaml
   label: Lancaster University Idp API
   slug: lancaster-idp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lancaster/refs/heads/main/openapi/lancaster-idp-api-openapi.yml
+  url: https://artifacts.apis.io/lancaster/openapi/lancaster-idp-api-openapi.yml
 auth_types: []
 description: Lancaster University publishes no API key programme, no developer registration and no OAuth authorisation server of its own. Its one open machine-readable API is unauthenticated; its identity surface is the authentication system itself; everything else on a lancaster.ac.uk or lancs.ac.uk hostname that a client might want is behind institutional single sign-on.
 kind: authentication
@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-08-30'\nmethod: probed\nsource: >-\n  Authenticat
   \ anonymously - that is the point of it. Using the IdP,\n      as opposed to reading its metadata, requires the relying party to be a registered UK\n      Access Federation or eduGAIN service provider; attribute release is governed by the\n      federation, not by a self-service developer signup.\n  endpoints:\n    sso_post: https://idp.lancs.ac.uk/idp/profile/SAML2/POST/SSO\n    sso_redirect: https://idp.lancs.ac.uk/idp/profile/SAML2/Redirect/SSO\n    attribute_query: https://idp.lancs.ac.uk:8443/idp/profile/SAML2/SOAP/AttributeQuery\n    artifact_resolution: https://idp.lancs.ac.uk:8443/idp/profile/SAML2/SOAP/ArtifactResolution\n- api: lancaster:student-portal\n  name: iLancaster / Lancaster portal\n  x-operator: institution\n  scheme: sso\n  registration: institutional_account\n  evidence:\n    url: https://portal.lancaster.ac.uk/\n    status: 200\n    detail: >-\n      Redirects to https://weblogin.lancs.ac.uk/login/?cosign-https-cosign2.lancs.ac.uk with a\n      JWT handoff (jwt/auth_any.php?ID=PortalLive).\
   \ Lancaster runs CoSign for local web SSO\n      alongside Shibboleth for federated access. No anonymous data is reachable behind it, so no\n      contract is described here.\n- api: lancaster:pure-research-directory\n  name: Elsevier Pure research directory\n  x-operator: tenant\n  scheme: vendor_controlled\n  detail: >-\n    Pure's /ws/api web service responds on the tenant host but rejects unversioned requests -\n    HTTP 500 with body {\"timestamp\":...,\"status\":999,\"error\":\"None\"}. Keys for it are issued by\n    Elsevier through the institution's Pure administrators, not by a Lancaster developer programme.\n- api: lancaster:library-discovery\n  name: Ex Libris Alma / Primo VE\n  x-operator: tenant\n  scheme: vendor_controlled\n  detail: >-\n    Alma API keys are issued through the Ex Libris Developer Network against the institution's\n    Alma instance. Lancaster operates the tenancy; Ex Libris operates the key programme.\nabsent:\n- api_keys\n- oauth2\n- openid_connect_discovery\n\
   - developer_registration\n- mtls\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lancaster/refs/heads/main/authentication/lancaster-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lancaster/authentication/lancaster-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

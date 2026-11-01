@@ -5,43 +5,43 @@ api_specs:
   label: MiniMax Files API
   slug: minimax-ai-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/openapi/minimax-ai-files-api-openapi.yml
+  url: https://artifacts.apis.io/minimax-ai/openapi/minimax-ai-files-api-openapi.yml
 - filename: minimax-ai-image-api-openapi.yml
   format: yaml
   label: MiniMax Image API
   slug: minimax-ai-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/openapi/minimax-ai-image-api-openapi.yml
+  url: https://artifacts.apis.io/minimax-ai/openapi/minimax-ai-image-api-openapi.yml
 - filename: minimax-ai-music-api-openapi.yml
   format: yaml
   label: MiniMax Music API
   slug: minimax-ai-music-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/openapi/minimax-ai-music-api-openapi.yml
+  url: https://artifacts.apis.io/minimax-ai/openapi/minimax-ai-music-api-openapi.yml
 - filename: minimax-ai-text-generation-api-openapi.yml
   format: yaml
   label: MiniMax Text Generation API
   slug: minimax-ai-text-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/openapi/minimax-ai-text-generation-api-openapi.yml
+  url: https://artifacts.apis.io/minimax-ai/openapi/minimax-ai-text-generation-api-openapi.yml
 - filename: minimax-ai-text-to-audio-api-openapi.yml
   format: yaml
   label: MiniMax Text to Audio API
   slug: minimax-ai-text-to-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/openapi/minimax-ai-text-to-audio-api-openapi.yml
+  url: https://artifacts.apis.io/minimax-ai/openapi/minimax-ai-text-to-audio-api-openapi.yml
 - filename: minimax-ai-video-api-openapi.yml
   format: yaml
   label: MiniMax Video API
   slug: minimax-ai-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/openapi/minimax-ai-video-api-openapi.yml
+  url: https://artifacts.apis.io/minimax-ai/openapi/minimax-ai-video-api-openapi.yml
 - filename: minimax-ai-voice-api-openapi.yml
   format: yaml
   label: MiniMax Voice API
   slug: minimax-ai-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/openapi/minimax-ai-voice-api-openapi.yml
+  url: https://artifacts.apis.io/minimax-ai/openapi/minimax-ai-voice-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -81,7 +81,7 @@ source_filename: minimax-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.minimax.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 08:21:43 2026 GMT\n  hsts: false\n- host: platform.minimax.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 11 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.minimax.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 11 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: minimax.io\n  dnssec: true\n  caa:\n  - alb-5wxesx27onoewtiobw.us-east-1.alb.aliyuncsslbintl.com.\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/security/minimax-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/minimax-ai/security/minimax-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Artificial Intelligence

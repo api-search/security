@@ -7,7 +7,7 @@ api_specs:
   label: Photon Health Graph QL API
   slug: photon-health-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/photon-health/refs/heads/main/openapi/photon-health-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/photon-health/openapi/photon-health-graph-ql-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -35,7 +35,7 @@ source_filename: photon-health-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/photon-health-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: OAuth2 Bearer access token obtained through a client_credentials exchange (client_id,\n    client_secret, audience, grant_type) against auth.photon.health.\n  sources:\n  - openapi/photon-health-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/photon-health/refs/heads/main/authentication/photon-health-authentication.yml
+source_yaml_url: https://artifacts.apis.io/photon-health/authentication/photon-health-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Health

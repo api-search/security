@@ -5,19 +5,19 @@ api_specs:
   label: PubChem Compounds API
   slug: pubchem-compounds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pubchem/refs/heads/main/openapi/pubchem-compounds-api-openapi.yml
+  url: https://artifacts.apis.io/pubchem/openapi/pubchem-compounds-api-openapi.yml
 - filename: pubchem-structure-search-api-openapi.yml
   format: yaml
   label: PubChem Structure Search API
   slug: pubchem-structure-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pubchem/refs/heads/main/openapi/pubchem-structure-search-api-openapi.yml
+  url: https://artifacts.apis.io/pubchem/openapi/pubchem-structure-search-api-openapi.yml
 - filename: pubchem-utilities-api-openapi.yml
   format: yaml
   label: PubChem Utilities API
   slug: pubchem-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pubchem/refs/heads/main/openapi/pubchem-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/pubchem/openapi/pubchem-utilities-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -53,7 +53,7 @@ source_filename: pubchem-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pubchem.ncbi.nlm.nih.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 14:06:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: nih.gov\n  dnssec: true\n  caa:\n  - 0 issuewild \"identrust.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pubchem/refs/heads/main/security/pubchem-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pubchem/security/pubchem-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Chemistry

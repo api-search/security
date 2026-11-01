@@ -7,97 +7,97 @@ api_specs:
   label: Hummingbot /chain/ethereum API
   slug: hummingbot-chain-ethereum-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-chain-ethereum-api-openapi.yml
+  url: https://artifacts.apis.io/hummingbot/openapi/hummingbot-chain-ethereum-api-openapi.yml
 - filename: hummingbot-chain-solana-api-openapi.yml
   format: yaml
   label: Hummingbot /chain/solana API
   slug: hummingbot-chain-solana-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-chain-solana-api-openapi.yml
+  url: https://artifacts.apis.io/hummingbot/openapi/hummingbot-chain-solana-api-openapi.yml
 - filename: hummingbot-config-api-openapi.yml
   format: yaml
   label: Hummingbot /config API
   slug: hummingbot-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-config-api-openapi.yml
+  url: https://artifacts.apis.io/hummingbot/openapi/hummingbot-config-api-openapi.yml
 - filename: hummingbot-connector-0x-api-openapi.yml
   format: yaml
   label: Hummingbot /connector/0x API
   slug: hummingbot-connector-0x-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-connector-0x-api-openapi.yml
+  url: https://artifacts.apis.io/hummingbot/openapi/hummingbot-connector-0x-api-openapi.yml
 - filename: hummingbot-connector-jupiter-api-openapi.yml
   format: yaml
   label: Hummingbot /connector/jupiter API
   slug: hummingbot-connector-jupiter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-connector-jupiter-api-openapi.yml
+  url: https://artifacts.apis.io/hummingbot/openapi/hummingbot-connector-jupiter-api-openapi.yml
 - filename: hummingbot-connector-meteora-api-openapi.yml
   format: yaml
   label: Hummingbot /connector/meteora API
   slug: hummingbot-connector-meteora-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-connector-meteora-api-openapi.yml
+  url: https://artifacts.apis.io/hummingbot/openapi/hummingbot-connector-meteora-api-openapi.yml
 - filename: hummingbot-connector-orca-api-openapi.yml
   format: yaml
   label: Hummingbot /connector/orca API
   slug: hummingbot-connector-orca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-connector-orca-api-openapi.yml
+  url: https://artifacts.apis.io/hummingbot/openapi/hummingbot-connector-orca-api-openapi.yml
 - filename: hummingbot-connector-pancakeswap-api-openapi.yml
   format: yaml
   label: Hummingbot /connector/pancakeswap API
   slug: hummingbot-connector-pancakeswap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-connector-pancakeswap-api-openapi.yml
+  url: https://artifacts.apis.io/hummingbot/openapi/hummingbot-connector-pancakeswap-api-openapi.yml
 - filename: hummingbot-connector-pancakeswap-sol-api-openapi.yml
   format: yaml
   label: Hummingbot /connector/pancakeswap-sol API
   slug: hummingbot-connector-pancakeswap-sol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-connector-pancakeswap-sol-api-openapi.yml
+  url: https://artifacts.apis.io/hummingbot/openapi/hummingbot-connector-pancakeswap-sol-api-openapi.yml
 - filename: hummingbot-connector-raydium-api-openapi.yml
   format: yaml
   label: Hummingbot /connector/raydium API
   slug: hummingbot-connector-raydium-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-connector-raydium-api-openapi.yml
+  url: https://artifacts.apis.io/hummingbot/openapi/hummingbot-connector-raydium-api-openapi.yml
 - filename: hummingbot-connector-uniswap-api-openapi.yml
   format: yaml
   label: Hummingbot /connector/uniswap API
   slug: hummingbot-connector-uniswap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-connector-uniswap-api-openapi.yml
+  url: https://artifacts.apis.io/hummingbot/openapi/hummingbot-connector-uniswap-api-openapi.yml
 - filename: hummingbot-pools-api-openapi.yml
   format: yaml
   label: Hummingbot /pools API
   slug: hummingbot-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-pools-api-openapi.yml
+  url: https://artifacts.apis.io/hummingbot/openapi/hummingbot-pools-api-openapi.yml
 - filename: hummingbot-tokens-api-openapi.yml
   format: yaml
   label: Hummingbot /tokens API
   slug: hummingbot-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/hummingbot/openapi/hummingbot-tokens-api-openapi.yml
 - filename: hummingbot-trading-clmm-api-openapi.yml
   format: yaml
   label: Hummingbot /trading/clmm API
   slug: hummingbot-trading-clmm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-trading-clmm-api-openapi.yml
+  url: https://artifacts.apis.io/hummingbot/openapi/hummingbot-trading-clmm-api-openapi.yml
 - filename: hummingbot-trading-swap-api-openapi.yml
   format: yaml
   label: Hummingbot /trading/swap API
   slug: hummingbot-trading-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-trading-swap-api-openapi.yml
+  url: https://artifacts.apis.io/hummingbot/openapi/hummingbot-trading-swap-api-openapi.yml
 - filename: hummingbot-wallet-api-openapi.yml
   format: yaml
   label: Hummingbot /wallet API
   slug: hummingbot-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/openapi/hummingbot-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/hummingbot/openapi/hummingbot-wallet-api-openapi.yml
 auth_types:
 - http-basic
 - passphrase
@@ -139,7 +139,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: >-\n  https://hummingbot.org/hummingbot-api/, https://github.com/hummingbot/hummingbot-api,\n  https://github.com/hummingbot/gateway — auth captured from the component docs\n  and READMEs. The Gateway OpenAPI declares no securitySchemes, so this profile\n  is documentation-sourced rather than spec-derived.\ndescription: >-\n  Hummingbot's two server components authenticate differently, and neither uses\n  OAuth or issued API tokens: the Hummingbot API uses HTTP Basic auth, while\n  Gateway protects wallet keys with a startup passphrase and TLS.\nsummary:\n  types: [http-basic, passphrase, mtls-optional]\n  hosted_oauth: false\n  api_keys: false\nschemes:\n  - name: HummingbotAPIBasic\n    component: Hummingbot API (FastAPI server, default :8000)\n    type: http\n    scheme: basic\n    detail: >-\n      Username/password set during `make setup` (defaults admin/admin, meant to\n      be changed). Sent as an HTTP Basic Authorization\
   \ header on every request.\n    docs: https://hummingbot.org/hummingbot-api/\n  - name: GatewayPassphrase\n    component: Gateway (TypeScript DEX middleware, default :15888)\n    type: passphrase\n    detail: >-\n      Gateway is started with `--passphrase=<PASSPHRASE>`; the passphrase encrypts\n      the wallet key store. There is no per-request API token — access control is\n      network isolation plus the encrypted wallet. Production mode requires TLS\n      certificates (HTTPS); `--dev` runs unencrypted HTTP for local use.\n    docs: https://hummingbot.org/gateway/\n  - name: GatewayTLS\n    component: Gateway (production mode)\n    type: mutualTLS\n    optional: true\n    detail: >-\n      In production Gateway serves HTTPS with TLS certificates; client certs can\n      be used to restrict access to the Gateway host.\n    docs: https://hummingbot.org/gateway/\nexchange_credentials:\n  note: >-\n    Individual CEX/DEX connectors require the user's own exchange API keys\n    (entered\
   \ via the Hummingbot client `connect` command or stored per-account\n    via the API `add_credential`). These are the end user's exchange keys, not a\n    Hummingbot-issued credential.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/authentication/hummingbot-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hummingbot/authentication/hummingbot-authentication.yml
 summary_line: http-basic/passphrase/mtls-optional · 3 schemes
 tags:
 - Company

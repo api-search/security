@@ -7,49 +7,49 @@ api_specs:
   label: MemberClicks Attributes API
   slug: memberclicks-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/memberclicks/openapi/memberclicks-attributes-api-openapi.yml
 - filename: memberclicks-authorization-api-openapi.yml
   format: yaml
   label: MemberClicks Authorization API
   slug: memberclicks-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/memberclicks/openapi/memberclicks-authorization-api-openapi.yml
 - filename: memberclicks-continuing-education-api-openapi.yml
   format: yaml
   label: MemberClicks Continuing Education API
   slug: memberclicks-continuing-education-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-continuing-education-api-openapi.yml
+  url: https://artifacts.apis.io/memberclicks/openapi/memberclicks-continuing-education-api-openapi.yml
 - filename: memberclicks-events-api-openapi.yml
   format: yaml
   label: MemberClicks Events API
   slug: memberclicks-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-events-api-openapi.yml
+  url: https://artifacts.apis.io/memberclicks/openapi/memberclicks-events-api-openapi.yml
 - filename: memberclicks-groups-api-openapi.yml
   format: yaml
   label: MemberClicks Groups API
   slug: memberclicks-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-groups-api-openapi.yml
+  url: https://artifacts.apis.io/memberclicks/openapi/memberclicks-groups-api-openapi.yml
 - filename: memberclicks-profile-search-api-openapi.yml
   format: yaml
   label: MemberClicks Profile Search API
   slug: memberclicks-profile-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-profile-search-api-openapi.yml
+  url: https://artifacts.apis.io/memberclicks/openapi/memberclicks-profile-search-api-openapi.yml
 - filename: memberclicks-profiles-api-openapi.yml
   format: yaml
   label: MemberClicks Profiles API
   slug: memberclicks-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/memberclicks/openapi/memberclicks-profiles-api-openapi.yml
 - filename: memberclicks-reference-data-api-openapi.yml
   format: yaml
   label: MemberClicks Reference Data API
   slug: memberclicks-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/memberclicks/openapi/memberclicks-reference-data-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -80,7 +80,7 @@ source_filename: memberclicks-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/memberclicks-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{orgId}.memberclicks.net/oauth/v1/token\n    scopes: 2\n  description: OAuth 2.0. Obtain a bearer token from /oauth/v1/token using HTTP Basic client\n    credentials (Base64 clientId:clientSecret) with scope read, write, or read write.\n  sources:\n  - openapi/memberclicks-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/authentication/memberclicks-authentication.yml
+source_yaml_url: https://artifacts.apis.io/memberclicks/authentication/memberclicks-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Membership Management

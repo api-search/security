@@ -8,73 +8,73 @@ api_specs:
   label: Celcoin AnnotationCompetenceCalendar API
   slug: celcoin-annotationcompetencecalendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/openapi/celcoin-annotationcompetencecalendar-api-openapi.yml
+  url: https://artifacts.apis.io/celcoin/openapi/celcoin-annotationcompetencecalendar-api-openapi.yml
 - filename: celcoin-bankcorrespondentagent-api-openapi.yml
   format: yaml
   label: Celcoin BankCorrespondentAgent API
   slug: celcoin-bankcorrespondentagent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/openapi/celcoin-bankcorrespondentagent-api-openapi.yml
+  url: https://artifacts.apis.io/celcoin/openapi/celcoin-bankcorrespondentagent-api-openapi.yml
 - filename: celcoin-consignee-api-openapi.yml
   format: yaml
   label: Celcoin Consignee API
   slug: celcoin-consignee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/openapi/celcoin-consignee-api-openapi.yml
+  url: https://artifacts.apis.io/celcoin/openapi/celcoin-consignee-api-openapi.yml
 - filename: celcoin-files-api-openapi.yml
   format: yaml
   label: Celcoin Files API
   slug: celcoin-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/openapi/celcoin-files-api-openapi.yml
+  url: https://artifacts.apis.io/celcoin/openapi/celcoin-files-api-openapi.yml
 - filename: celcoin-guarantee-api-openapi.yml
   format: yaml
   label: Celcoin Guarantee API
   slug: celcoin-guarantee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/openapi/celcoin-guarantee-api-openapi.yml
+  url: https://artifacts.apis.io/celcoin/openapi/celcoin-guarantee-api-openapi.yml
 - filename: celcoin-legacyguarantee-api-openapi.yml
   format: yaml
   label: Celcoin LegacyGuarantee API
   slug: celcoin-legacyguarantee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/openapi/celcoin-legacyguarantee-api-openapi.yml
+  url: https://artifacts.apis.io/celcoin/openapi/celcoin-legacyguarantee-api-openapi.yml
 - filename: celcoin-legalperson-api-openapi.yml
   format: yaml
   label: Celcoin LegalPerson API
   slug: celcoin-legalperson-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/openapi/celcoin-legalperson-api-openapi.yml
+  url: https://artifacts.apis.io/celcoin/openapi/celcoin-legalperson-api-openapi.yml
 - filename: celcoin-naturalperson-api-openapi.yml
   format: yaml
   label: Celcoin NaturalPerson API
   slug: celcoin-naturalperson-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/openapi/celcoin-naturalperson-api-openapi.yml
+  url: https://artifacts.apis.io/celcoin/openapi/celcoin-naturalperson-api-openapi.yml
 - filename: celcoin-proposal-api-openapi.yml
   format: yaml
   label: Celcoin Proposal API
   slug: celcoin-proposal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/openapi/celcoin-proposal-api-openapi.yml
+  url: https://artifacts.apis.io/celcoin/openapi/celcoin-proposal-api-openapi.yml
 - filename: celcoin-settlement-api-openapi.yml
   format: yaml
   label: Celcoin Settlement API
   slug: celcoin-settlement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/openapi/celcoin-settlement-api-openapi.yml
+  url: https://artifacts.apis.io/celcoin/openapi/celcoin-settlement-api-openapi.yml
 - filename: celcoin-taggingjourney-api-openapi.yml
   format: yaml
   label: Celcoin TaggingJourney API
   slug: celcoin-taggingjourney-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/openapi/celcoin-taggingjourney-api-openapi.yml
+  url: https://artifacts.apis.io/celcoin/openapi/celcoin-taggingjourney-api-openapi.yml
 - filename: celcoin-outstanding-balance-api-openapi.yml
   format: yaml
   label: Celcoin Outstanding Balance API
   slug: celcoin-outstanding-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/openapi/celcoin-outstanding-balance-api-openapi.yml
+  url: https://artifacts.apis.io/celcoin/openapi/celcoin-outstanding-balance-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -117,7 +117,7 @@ source_filename: celcoin-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/celcoin-billissuance-settlement-openapi.json, openapi/celcoin-credit-openapi.json,\n  openapi/celcoin-onboarding-openapi.json\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: Bearer\n  type: http\n  scheme: Bearer\n  bearerFormat: JWT\n  description: Autenticação utilizando JTW Bearer Token\n  sources:\n  - openapi/celcoin-billissuance-settlement-openapi.json\n- name: Bearer\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: 'JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer\n    {token}\"'\n  sources:\n  - openapi/celcoin-credit-openapi.json\n- name: Bearer\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: '[API V5] - Please enter into field the word ''Bearer'' following by space and\n    the access_token (JWT)'\n  sources:\n  - openapi/celcoin-onboarding-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/authentication/celcoin-authentication.yml
+source_yaml_url: https://artifacts.apis.io/celcoin/authentication/celcoin-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Banking as a Service

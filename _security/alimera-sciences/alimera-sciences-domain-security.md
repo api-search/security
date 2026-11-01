@@ -1,0 +1,36 @@
+---
+description: ''
+domains:
+- caa: []
+  dmarc: true
+  dmarc_policy: quarantine
+  dnssec: false
+  domain: alimerasciences.com
+  spf: true
+hosts:
+- cert_expires: Dec 13 07:19:27 2026 GMT
+  host: www.alimerasciences.com
+  hsts: false
+  https: true
+  tls_version: TLSv1.3
+hosts_probed: 1
+kind: domain-security
+layout: security
+method: probed
+name: Alimera Sciences Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for Alimera Sciences, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Alimera Sciences
+provider_slug: alimera-sciences
+slug: alimera-sciences-domain-security
+source_filename: alimera-sciences-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-10-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.alimerasciences.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 13 07:19:27 2026 GMT\n  hsts: false\ndomains:\n- domain: alimerasciences.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml_url: https://artifacts.apis.io/alimera-sciences/security/alimera-sciences-domain-security.yml
+summary_line: TLSv1.3 · DMARC
+tags:
+- Rare Disease
+- Contract Manufacturing
+- Pharmaceuticals
+---

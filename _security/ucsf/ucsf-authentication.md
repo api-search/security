@@ -7,13 +7,13 @@ api_specs:
   label: University of California, San Francisco Documents API
   slug: ucsf-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsf/refs/heads/main/openapi/ucsf-documents-api-openapi.yml
+  url: https://artifacts.apis.io/ucsf/openapi/ucsf-documents-api-openapi.yml
 - filename: ucsf-profiles-api-openapi.yml
   format: yaml
   label: University of California, San Francisco Profiles API
   slug: ucsf-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsf/refs/heads/main/openapi/ucsf-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/ucsf/openapi/ucsf-profiles-api-openapi.yml
 auth_types: []
 description: Authentication posture across every institution-operated UCSF surface API Evangelist was able to reach and verify from the public internet.
 kind: authentication
@@ -37,7 +37,7 @@ source_yaml: "name: UCSF Authentication\ndescription: >-\n  Authentication postu
   \        - binding: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect\n          location: https://dp.ucsf.edu/idp/profile/SAML2/Redirect/SSO\n        - binding: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST\n          location: https://dp.ucsf.edu/idp/profile/SAML2/POST/SSO\n        - binding: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign\n          location: https://dp.ucsf.edu/idp/profile/SAML2/POST-SimpleSign/SSO\n        - binding: urn:mace:shibboleth:1.0:profiles:AuthnRequest\n          location: https://dp.ucsf.edu/idp/profile/Shibboleth/SSO\n      SingleLogoutService:\n        - binding: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect\n          location: https://dp.ucsf.edu/idp/profile/SAML2/Redirect/SLO\n        - binding: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST\n          location: https://dp.ucsf.edu/idp/profile/SAML2/POST/SLO\n    notes: >-\n      UCSF operates its own Shibboleth Identity Provider and registers it in the InCommon\n      Federation,\
   \ which is re-exported to eduGAIN. This is machine-readable, signed, publicly\n      retrievable federation metadata and it is unambiguously institution-operated. A local copy\n      of the signed metadata retrieved on 2026-08-19 is stored alongside this file as\n      ucsf-incommon-saml-metadata.xml, alongside UCSF's own first-party copy retrieved from\n      https://dp.ucsf.edu/idp/shibboleth as ucsf-idp-self-published-metadata.xml — an EntitiesDescriptor\n      named https://ucsf-federation.edu/metadata/myaccess-ucsf.xml carrying an IDPSSODescriptor, an\n      AttributeAuthorityDescriptor, an SPSSODescriptor and shibmd:Scope ucsf.edu. UCSF separately fronts interactive login with Okta at\n      login.ucsf.edu; the federated SAML entity remains dp.ucsf.edu.\n    verified: '2026-08-19'\n    verified_status: 200\ngated:\n  - host: unified-api.ucsf.edu\n    x-operator: institution\n    observed_status: 403\n    notes: >-\n      Live host under ucsf.edu fronted by a Citrix NetScaler JavaScript\
   \ challenge. No public\n      documentation for it was located, so no surface is claimed from it. Recorded as evidence\n      that UCSF runs an API gateway, not as a consumable API.\n    verified: '2026-08-19'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ucsf/refs/heads/main/authentication/ucsf-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ucsf/authentication/ucsf-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

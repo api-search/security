@@ -5,25 +5,25 @@ api_specs:
   label: OpenCost Allocation API
   slug: opencost-allocation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opencost/refs/heads/main/openapi/opencost-allocation-api-openapi.yml
+  url: https://artifacts.apis.io/opencost/openapi/opencost-allocation-api-openapi.yml
 - filename: opencost-assets-api-openapi.yml
   format: yaml
   label: OpenCost Assets API
   slug: opencost-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opencost/refs/heads/main/openapi/opencost-assets-api-openapi.yml
+  url: https://artifacts.apis.io/opencost/openapi/opencost-assets-api-openapi.yml
 - filename: opencost-cloudcost-api-openapi.yml
   format: yaml
   label: OpenCost CloudCost API
   slug: opencost-cloudcost-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opencost/refs/heads/main/openapi/opencost-cloudcost-api-openapi.yml
+  url: https://artifacts.apis.io/opencost/openapi/opencost-cloudcost-api-openapi.yml
 - filename: opencost-customcost-api-openapi.yml
   format: yaml
   label: OpenCost CustomCost API
   slug: opencost-customcost-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opencost/refs/heads/main/openapi/opencost-customcost-api-openapi.yml
+  url: https://artifacts.apis.io/opencost/openapi/opencost-customcost-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: opencost-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: opencost.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 03:36:04 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.opencost.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 03:36:04 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: opencost.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opencost/refs/heads/main/security/opencost-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/opencost/security/opencost-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Cloud Cost Management

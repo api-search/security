@@ -8,7 +8,7 @@ api_specs:
   label: Yubico Validation API
   slug: yubico-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yubico/refs/heads/main/openapi/yubico-validation-api-openapi.yml
+  url: https://artifacts.apis.io/yubico/openapi/yubico-validation-api-openapi.yml
 auth_types:
 - apiKey
 - hmac-signature
@@ -45,7 +45,7 @@ source_filename: yubico-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://developers.yubico.com/OTP/Specifications/OTP_validation_protocol.html\nsummary:\n  types: [apiKey, hmac-signature]\n  api_key_in: [query]\n  oauth2_flows: []\nschemes:\n  - name: clientId\n    type: apiKey\n    in: query\n    parameter: id\n    description: >-\n      Numeric Client ID issued free by the Yubico API key generator\n      (https://upgrade.yubico.com/getapikey/).\n    sources: [openapi/yubico-yubicloud-openapi.yml]\n  - name: requestSignature\n    type: hmac\n    algorithm: HMAC-SHA1\n    in: query\n    parameter: h\n    description: >-\n      Base64 HMAC-SHA1 signature of the sorted request parameters, computed with\n      the shared secret issued alongside the Client ID. Clients must also verify\n      the signature on the response.\n    sources: [https://developers.yubico.com/OTP/Specifications/OTP_validation_protocol.html]\ndocs: https://developers.yubico.com/OTP/Specifications/OTP_validation_protocol.html\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yubico/refs/heads/main/authentication/yubico-authentication.yml
+source_yaml_url: https://artifacts.apis.io/yubico/authentication/yubico-authentication.yml
 summary_line: apiKey/hmac-signature · 2 schemes
 tags:
 - Company

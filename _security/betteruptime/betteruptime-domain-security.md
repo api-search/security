@@ -5,25 +5,25 @@ api_specs:
   label: Better Uptime Heartbeats API
   slug: betteruptime-heartbeats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betteruptime/refs/heads/main/openapi/betteruptime-heartbeats-api-openapi.yml
+  url: https://artifacts.apis.io/betteruptime/openapi/betteruptime-heartbeats-api-openapi.yml
 - filename: betteruptime-incidents-api-openapi.yml
   format: yaml
   label: Better Uptime Incidents API
   slug: betteruptime-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betteruptime/refs/heads/main/openapi/betteruptime-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/betteruptime/openapi/betteruptime-incidents-api-openapi.yml
 - filename: betteruptime-monitors-api-openapi.yml
   format: yaml
   label: Better Uptime Monitors API
   slug: betteruptime-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betteruptime/refs/heads/main/openapi/betteruptime-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/betteruptime/openapi/betteruptime-monitors-api-openapi.yml
 - filename: betteruptime-status-pages-api-openapi.yml
   format: yaml
   label: Better Uptime Status Pages API
   slug: betteruptime-status-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betteruptime/refs/heads/main/openapi/betteruptime-status-pages-api-openapi.yml
+  url: https://artifacts.apis.io/betteruptime/openapi/betteruptime-status-pages-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: betteruptime-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: betterstack.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 13:54:01 2026 GMT\n  hsts: true\n  hsts_max_age: 63113904\n- host: uptime.betterstack.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 21:14:46 2026 GMT\n  hsts: true\n  hsts_max_age: 63113904\ndomains:\n- domain: betterstack.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/betteruptime/refs/heads/main/security/betteruptime-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/betteruptime/security/betteruptime-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Uptime Monitoring

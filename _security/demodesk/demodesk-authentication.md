@@ -8,25 +8,25 @@ api_specs:
   label: Demodesk Externally recorded demos API
   slug: demodesk-externally-recorded-demos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/openapi/demodesk-externally-recorded-demos-api-openapi.yml
+  url: https://artifacts.apis.io/demodesk/openapi/demodesk-externally-recorded-demos-api-openapi.yml
 - filename: demodesk-recordings-api-openapi.yml
   format: yaml
   label: Demodesk Recordings API
   slug: demodesk-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/openapi/demodesk-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/demodesk/openapi/demodesk-recordings-api-openapi.yml
 - filename: demodesk-users-api-openapi.yml
   format: yaml
   label: Demodesk Users API
   slug: demodesk-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/openapi/demodesk-users-api-openapi.yml
+  url: https://artifacts.apis.io/demodesk/openapi/demodesk-users-api-openapi.yml
 - filename: demodesk-demodesk-public-api-api-openapi.yml
   format: yaml
   label: Demodesk Public API
   slug: demodesk-demodesk-public-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/openapi/demodesk-demodesk-public-api-api-openapi.yml
+  url: https://artifacts.apis.io/demodesk/openapi/demodesk-demodesk-public-api-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -80,7 +80,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/demodesk-v1-openapi.json, openapi/demodesk-v2-openapi.yml\ndocs: https://demodesk.com/api/docs/index.html\nsummary:\n  types:\n  - apiKey\n  - http\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_note: >-\n    OAuth2 (authorization_code + PKCE S256, scope mcp:tools) backs the hosted MCP\n    server at https://demodesk.com/mcp. See scopes/demodesk-scopes.yml and\n    well-known/demodesk-oauth-authorization-server.json. The REST API itself uses\n    Bearer API keys.\nschemes:\n- name: api-key\n  type: apiKey\n  in: header\n  parameter: api-key\n  sources:\n  - openapi/demodesk-v1-openapi.json\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: API key or OAuth token\n  description: |-\n    Pass your API key or OAuth token as a Bearer token in the `Authorization` HTTP header.\n\n    ```\n    curl -H \"Authorization: Bearer [example key]\" https://demodesk.com/api/v2/recordings\n    ```\n\n    **Obtaining\
   \ a key:** Generate an API key in your Demodesk account under\n    *Settings > Integrations > Other*.\n\n    **Permissions:** The key inherits the permissions of the user who created it.\n    So when trying to access resource\n  sources:\n  - openapi/demodesk-v2-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/authentication/demodesk-authentication.yml
+source_yaml_url: https://artifacts.apis.io/demodesk/authentication/demodesk-authentication.yml
 summary_line: apiKey/http/oauth2 · 2 schemes
 tags:
 - Company

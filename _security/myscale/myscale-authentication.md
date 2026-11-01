@@ -8,7 +8,7 @@ api_specs:
   label: MyScale Query API
   slug: myscale-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myscale/refs/heads/main/openapi/myscale-query-api-openapi.yml
+  url: https://artifacts.apis.io/myscale/openapi/myscale-query-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -50,13 +50,12 @@ source_filename: myscale-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/myscale-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: Cluster username and password (from the MyScale Cloud console Connection Details)\n    supplied as HTTP Basic credentials.\n  sources:\n  - openapi/myscale-openapi.yml\n- name: clickhouseUserHeader\n  type: apiKey\n  in: header\n  parameter: X-ClickHouse-User\n  description: Cluster username, paired with X-ClickHouse-Key.\n  sources:\n  - openapi/myscale-openapi.yml\n- name: clickhouseKeyHeader\n  type: apiKey\n  in: header\n  parameter: X-ClickHouse-Key\n  description: Cluster password, paired with X-ClickHouse-User.\n  sources:\n  - openapi/myscale-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/myscale/refs/heads/main/authentication/myscale-authentication.yml
+source_yaml_url: https://artifacts.apis.io/myscale/authentication/myscale-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
-- Vector Database
+- Vector Search
 - SQL
 - ClickHouse
-- Vector Search
 - Full-Text Search
 - RAG
 ---

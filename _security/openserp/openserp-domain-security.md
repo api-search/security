@@ -5,31 +5,31 @@ api_specs:
   label: OpenSERP Docs API
   slug: openserp-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/openapi/openserp-docs-api-openapi.yml
+  url: https://artifacts.apis.io/openserp/openapi/openserp-docs-api-openapi.yml
 - filename: openserp-health-api-openapi.yml
   format: yaml
   label: OpenSERP Health API
   slug: openserp-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/openapi/openserp-health-api-openapi.yml
+  url: https://artifacts.apis.io/openserp/openapi/openserp-health-api-openapi.yml
 - filename: openserp-mega-api-openapi.yml
   format: yaml
   label: OpenSERP Mega API
   slug: openserp-mega-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/openapi/openserp-mega-api-openapi.yml
+  url: https://artifacts.apis.io/openserp/openapi/openserp-mega-api-openapi.yml
 - filename: openserp-search-api-openapi.yml
   format: yaml
   label: OpenSERP Search API
   slug: openserp-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/openapi/openserp-search-api-openapi.yml
+  url: https://artifacts.apis.io/openserp/openapi/openserp-search-api-openapi.yml
 - filename: openserp-stats-api-openapi.yml
   format: yaml
   label: OpenSERP Stats API
   slug: openserp-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/openapi/openserp-stats-api-openapi.yml
+  url: https://artifacts.apis.io/openserp/openapi/openserp-stats-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -66,13 +66,12 @@ source_filename: openserp-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-10'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: openserp.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 21:12:58 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.openserp.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 01:23:10 2026 GMT\n  hsts: null\n- host: 127.0.0.1\n  https: false\ndomains:\n- domain: openserp.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/security/openserp-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/openserp/security/openserp-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Search
 - SERP
-- Search API
 - Web Scraping
 - Content Extraction
 - AI Grounding

@@ -5,25 +5,25 @@ api_specs:
   label: University of Cambridge Group API
   slug: university-of-cambridge-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-cambridge/refs/heads/main/openapi/university-of-cambridge-group-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-cambridge/openapi/university-of-cambridge-group-api-openapi.yml
 - filename: university-of-cambridge-ibis-api-openapi.yml
   format: yaml
   label: University of Cambridge Ibis API
   slug: university-of-cambridge-ibis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-cambridge/refs/heads/main/openapi/university-of-cambridge-ibis-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-cambridge/openapi/university-of-cambridge-ibis-api-openapi.yml
 - filename: university-of-cambridge-institution-api-openapi.yml
   format: yaml
   label: University of Cambridge Institution API
   slug: university-of-cambridge-institution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-cambridge/refs/heads/main/openapi/university-of-cambridge-institution-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-cambridge/openapi/university-of-cambridge-institution-api-openapi.yml
 - filename: university-of-cambridge-person-api-openapi.yml
   format: yaml
   label: University of Cambridge Person API
   slug: university-of-cambridge-person-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-cambridge/refs/heads/main/openapi/university-of-cambridge-person-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-cambridge/openapi/university-of-cambridge-person-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: university-of-cambridge-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cam.ac.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 08:04:12 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: www.lookup.cam.ac.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 23:59:59 2026 GMT\n  hsts: null\n- host: docs.raven.cam.ac.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 17:28:33 2026 GMT\n  hsts: false\ndomains:\n- domain: cam.ac.uk\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-cambridge/refs/heads/main/security/university-of-cambridge-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/university-of-cambridge/security/university-of-cambridge-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Education

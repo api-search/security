@@ -9,13 +9,13 @@ api_specs:
   label: Google Places API
   slug: google-places-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-places/refs/heads/main/openapi/google-places-places-api-openapi.yml
+  url: https://artifacts.apis.io/google-places/openapi/google-places-places-api-openapi.yml
 - filename: google-places-search-api-openapi.yml
   format: yaml
   label: Google Places Search API
   slug: google-places-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-places/refs/heads/main/openapi/google-places-search-api-openapi.yml
+  url: https://artifacts.apis.io/google-places/openapi/google-places-search-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -62,7 +62,7 @@ source_filename: google-places-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  - query\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-Goog-Api-Key\n  description: Google Maps Platform API key passed in the X-Goog-Api-Key header.\n  sources:\n  - openapi/openapi.yml\n- name: ApiKeyQuery\n  type: apiKey\n  in: query\n  parameter: key\n  description: Google Maps Platform API key passed as the key query parameter.\n  sources:\n  - openapi/openapi.yml\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 1\n  description: OAuth 2.0 bearer token authorization for the Google Maps Platform.\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-places/refs/heads/main/authentication/google-places-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-places/authentication/google-places-authentication.yml
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - Restaurant

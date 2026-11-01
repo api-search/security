@@ -7,55 +7,55 @@ api_specs:
   label: Temple Health Allergy Intolerance API
   slug: temple-health-allergy-intolerance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/openapi/temple-health-allergy-intolerance-api-openapi.yml
+  url: https://artifacts.apis.io/temple-health/openapi/temple-health-allergy-intolerance-api-openapi.yml
 - filename: temple-health-bulk-data-api-openapi.yml
   format: yaml
   label: Temple Health Bulk Data API
   slug: temple-health-bulk-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/openapi/temple-health-bulk-data-api-openapi.yml
+  url: https://artifacts.apis.io/temple-health/openapi/temple-health-bulk-data-api-openapi.yml
 - filename: temple-health-condition-api-openapi.yml
   format: yaml
   label: Temple Health Condition API
   slug: temple-health-condition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/openapi/temple-health-condition-api-openapi.yml
+  url: https://artifacts.apis.io/temple-health/openapi/temple-health-condition-api-openapi.yml
 - filename: temple-health-document-reference-api-openapi.yml
   format: yaml
   label: Temple Health Document Reference API
   slug: temple-health-document-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/openapi/temple-health-document-reference-api-openapi.yml
+  url: https://artifacts.apis.io/temple-health/openapi/temple-health-document-reference-api-openapi.yml
 - filename: temple-health-encounter-api-openapi.yml
   format: yaml
   label: Temple Health Encounter API
   slug: temple-health-encounter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/openapi/temple-health-encounter-api-openapi.yml
+  url: https://artifacts.apis.io/temple-health/openapi/temple-health-encounter-api-openapi.yml
 - filename: temple-health-medication-request-api-openapi.yml
   format: yaml
   label: Temple Health Medication Request API
   slug: temple-health-medication-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/openapi/temple-health-medication-request-api-openapi.yml
+  url: https://artifacts.apis.io/temple-health/openapi/temple-health-medication-request-api-openapi.yml
 - filename: temple-health-metadata-api-openapi.yml
   format: yaml
   label: Temple Health Metadata API
   slug: temple-health-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/openapi/temple-health-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/temple-health/openapi/temple-health-metadata-api-openapi.yml
 - filename: temple-health-observation-api-openapi.yml
   format: yaml
   label: Temple Health Observation API
   slug: temple-health-observation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/openapi/temple-health-observation-api-openapi.yml
+  url: https://artifacts.apis.io/temple-health/openapi/temple-health-observation-api-openapi.yml
 - filename: temple-health-patient-api-openapi.yml
   format: yaml
   label: Temple Health Patient API
   slug: temple-health-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/openapi/temple-health-patient-api-openapi.yml
+  url: https://artifacts.apis.io/temple-health/openapi/temple-health-patient-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-08-15'\nmethod: probed\nsource: Live GET of the S
   discovery:\n  smart_configuration:\n    url: https://epicaccess.templehealth.org/FhirProxyPrd/api/FHIR/R4/.well-known/smart-configuration\n    status: 200\n    file: well-known/temple-health-smart-configuration.json\n  openid_configuration:\n    url: https://epicaccess.templehealth.org/FhirProxyPrd/oauth2/.well-known/openid-configuration\n    status: 200\n    file: well-known/temple-health-openid-configuration.json\n  jwks:\n    url: https://epicaccess.templehealth.org/FhirProxyPrd/api/epic/2019/Security/Open/PublicKeys/530027/OIDC\n    status: 200\n    file: well-known/temple-health-oidc-jwks.json\n  oauth_authorization_server_rfc8414:\n    status: 404\n  oauth_protected_resource_rfc9728:\n    status: 404\n  dstu2_smart_configuration:\n    status: 404\n    note: The legacy DSTU2 base publishes no SMART discovery document; read the oauth-uris extension from\n      its Conformance resource instead.\nopenid_connect:\n  issuer: https://epicaccess.templehealth.org/FhirProxyPrd/oauth2\n  id_token_signing_alg_values_supported:\n\
   \  - RS256\n  subject_types_supported:\n  - public\n  response_types_supported:\n  - code\n  response_modes_supported:\n  - query\nprofiles:\n- name: SMART App Launch — standalone patient\n  grant: authorization_code + PKCE S256\n  client: public or confidential\n  use: Patient-access apps under CMS-9115-F\n  capability_evidence:\n  - launch-standalone\n  - context-standalone-patient\n  - permission-patient\n  - permission-offline\n- name: SMART App Launch — EHR launch\n  grant: authorization_code + PKCE S256\n  client: confidential\n  use: Provider-facing apps launched from inside Epic\n  capability_evidence:\n  - launch-ehr\n  - context-ehr-patient\n  - context-ehr-encounter\n  - permission-user\n- name: SMART Backend Services\n  grant: client_credentials with private_key_jwt (RFC 7523)\n  client: confidential-asymmetric\n  use: Bulk Data Group $export under a data-use agreement\n  capability_evidence:\n  - client-confidential-asymmetric\nonboarding:\n  app_registration: https://fhir.epic.com/Developer/Apps\n\
   \  production_access: Approved by Temple Health per app against the production endpoint; no self-service\n    path.\n  endpoint_directory: https://open.epic.com/Endpoints/R4\ngaps:\n- No RFC 9728 protected-resource metadata — the 401 challenge carries no pointer to the authorization\n  server.\n- No RFC 8414 authorization-server metadata at either the origin root or the FHIR base.\n- The 401 body is an empty JSON string, not an OperationOutcome — no machine-readable reason for the rejection.\n- No dynamic client registration endpoint published.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/authentication/temple-health-authentication.yml
+source_yaml_url: https://artifacts.apis.io/temple-health/authentication/temple-health-authentication.yml
 summary_line: oauth2/openIdConnect · 1 scheme
 tags:
 - Academic Medical Center

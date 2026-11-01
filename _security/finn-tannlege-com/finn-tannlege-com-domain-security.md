@@ -5,31 +5,31 @@ api_specs:
   label: Finn-tannlege A2a API
   slug: finn-tannlege-com-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finn-tannlege-com/refs/heads/main/openapi/finn-tannlege-com-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/finn-tannlege-com/openapi/finn-tannlege-com-a2a-api-openapi.yml
 - filename: finn-tannlege-com-llms-txt-api-openapi.yml
   format: yaml
   label: Finn-tannlege Llms.txt API
   slug: finn-tannlege-com-llms-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finn-tannlege-com/refs/heads/main/openapi/finn-tannlege-com-llms-txt-api-openapi.yml
+  url: https://artifacts.apis.io/finn-tannlege-com/openapi/finn-tannlege-com-llms-txt-api-openapi.yml
 - filename: finn-tannlege-com-mcp-api-openapi.yml
   format: yaml
   label: Finn-tannlege MCP API
   slug: finn-tannlege-com-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finn-tannlege-com/refs/heads/main/openapi/finn-tannlege-com-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/finn-tannlege-com/openapi/finn-tannlege-com-mcp-api-openapi.yml
 - filename: finn-tannlege-com-tannlege-api-openapi.yml
   format: yaml
   label: Finn-tannlege Tannlege API
   slug: finn-tannlege-com-tannlege-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finn-tannlege-com/refs/heads/main/openapi/finn-tannlege-com-tannlege-api-openapi.yml
+  url: https://artifacts.apis.io/finn-tannlege-com/openapi/finn-tannlege-com-tannlege-api-openapi.yml
 - filename: finn-tannlege-com-well-known-api-openapi.yml
   format: yaml
   label: Finn-tannlege .well Known API
   slug: finn-tannlege-com-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finn-tannlege-com/refs/heads/main/openapi/finn-tannlege-com-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/finn-tannlege-com/openapi/finn-tannlege-com-well-known-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: finn-tannlege-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: finn-tannlege.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  1 23:38:18 2026 GMT\n  hsts: null\ndomains:\n- domain: finn-tannlege.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/finn-tannlege-com/refs/heads/main/security/finn-tannlege-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/finn-tannlege-com/security/finn-tannlege-com-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Dental

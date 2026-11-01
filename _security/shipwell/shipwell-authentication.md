@@ -8,31 +8,31 @@ api_specs:
   label: Shipwell Carriers API
   slug: shipwell-carriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipwell/refs/heads/main/openapi/shipwell-carriers-api-openapi.yml
+  url: https://artifacts.apis.io/shipwell/openapi/shipwell-carriers-api-openapi.yml
 - filename: shipwell-orders-api-openapi.yml
   format: yaml
   label: Shipwell Orders API
   slug: shipwell-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipwell/refs/heads/main/openapi/shipwell-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shipwell/openapi/shipwell-orders-api-openapi.yml
 - filename: shipwell-quoting-api-openapi.yml
   format: yaml
   label: Shipwell Quoting API
   slug: shipwell-quoting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipwell/refs/heads/main/openapi/shipwell-quoting-api-openapi.yml
+  url: https://artifacts.apis.io/shipwell/openapi/shipwell-quoting-api-openapi.yml
 - filename: shipwell-shipments-api-openapi.yml
   format: yaml
   label: Shipwell Shipments API
   slug: shipwell-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipwell/refs/heads/main/openapi/shipwell-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/shipwell/openapi/shipwell-shipments-api-openapi.yml
 - filename: shipwell-events-webhooks-api-openapi.yml
   format: yaml
   label: Shipwell Events & Webhooks API
   slug: shipwell-events-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipwell/refs/heads/main/openapi/shipwell-events-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/shipwell/openapi/shipwell-events-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: shipwell-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/shipwell-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: authToken\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Company-scoped API key passed in the Authorization header (the docs refer to\n    this as the AuthToken scheme). Production and sandbox use separate keys. Keys can be permission-restricted.\n  sources:\n  - openapi/shipwell-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shipwell/refs/heads/main/authentication/shipwell-authentication.yml
+source_yaml_url: https://artifacts.apis.io/shipwell/authentication/shipwell-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Transportation Management

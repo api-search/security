@@ -13,73 +13,73 @@ api_specs:
   label: Deribit Account Management API
   slug: deribit-account-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-account-management-api-openapi.yml
+  url: https://artifacts.apis.io/deribit/openapi/deribit-account-management-api-openapi.yml
 - filename: deribit-authentication-api-openapi.yml
   format: yaml
   label: Deribit Authentication API
   slug: deribit-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/deribit/openapi/deribit-authentication-api-openapi.yml
 - filename: deribit-block-rfq-api-openapi.yml
   format: yaml
   label: Deribit Block RFQ API
   slug: deribit-block-rfq-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-block-rfq-api-openapi.yml
+  url: https://artifacts.apis.io/deribit/openapi/deribit-block-rfq-api-openapi.yml
 - filename: deribit-block-trade-api-openapi.yml
   format: yaml
   label: Deribit Block Trade API
   slug: deribit-block-trade-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-block-trade-api-openapi.yml
+  url: https://artifacts.apis.io/deribit/openapi/deribit-block-trade-api-openapi.yml
 - filename: deribit-combo-books-api-openapi.yml
   format: yaml
   label: Deribit Combo Books API
   slug: deribit-combo-books-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-combo-books-api-openapi.yml
+  url: https://artifacts.apis.io/deribit/openapi/deribit-combo-books-api-openapi.yml
 - filename: deribit-market-data-api-openapi.yml
   format: yaml
   label: Deribit Market Data API
   slug: deribit-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/deribit/openapi/deribit-market-data-api-openapi.yml
 - filename: deribit-portfolio-management-api-openapi.yml
   format: yaml
   label: Deribit Portfolio Management API
   slug: deribit-portfolio-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-portfolio-management-api-openapi.yml
+  url: https://artifacts.apis.io/deribit/openapi/deribit-portfolio-management-api-openapi.yml
 - filename: deribit-session-management-api-openapi.yml
   format: yaml
   label: Deribit Session Management API
   slug: deribit-session-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-session-management-api-openapi.yml
+  url: https://artifacts.apis.io/deribit/openapi/deribit-session-management-api-openapi.yml
 - filename: deribit-subscription-management-api-openapi.yml
   format: yaml
   label: Deribit Subscription Management API
   slug: deribit-subscription-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-subscription-management-api-openapi.yml
+  url: https://artifacts.apis.io/deribit/openapi/deribit-subscription-management-api-openapi.yml
 - filename: deribit-supporting-api-openapi.yml
   format: yaml
   label: Deribit Supporting API
   slug: deribit-supporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-supporting-api-openapi.yml
+  url: https://artifacts.apis.io/deribit/openapi/deribit-supporting-api-openapi.yml
 - filename: deribit-trading-api-openapi.yml
   format: yaml
   label: Deribit Trading API
   slug: deribit-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-trading-api-openapi.yml
+  url: https://artifacts.apis.io/deribit/openapi/deribit-trading-api-openapi.yml
 - filename: deribit-wallet-api-openapi.yml
   format: yaml
   label: Deribit Wallet API
   slug: deribit-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/deribit/openapi/deribit-wallet-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -106,7 +106,7 @@ source_filename: deribit-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/deribit-starbase-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: API key passed as a Bearer token. The authenticated session determines the portfolio\n    that operations are applied to.\n  sources:\n  - openapi/deribit-starbase-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/authentication/deribit-authentication.yml
+source_yaml_url: https://artifacts.apis.io/deribit/authentication/deribit-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Derivatives

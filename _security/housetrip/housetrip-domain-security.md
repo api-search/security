@@ -27,7 +27,7 @@ source_filename: housetrip-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.housetrip.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 11:56:09 2026 GMT\n  hsts: false\ndomains:\n- domain: housetrip.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/housetrip/refs/heads/main/security/housetrip-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/housetrip/security/housetrip-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

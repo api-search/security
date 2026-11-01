@@ -5,85 +5,85 @@ api_specs:
   label: temp.md Accounts API
   slug: temp-md-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-accounts-api-openapi.yml
 - filename: temp-md-agents-api-openapi.yml
   format: yaml
   label: temp.md Agents API
   slug: temp-md-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-agents-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-agents-api-openapi.yml
 - filename: temp-md-applications-api-openapi.yml
   format: yaml
   label: temp.md Applications API
   slug: temp-md-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-applications-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-applications-api-openapi.yml
 - filename: temp-md-comments-api-openapi.yml
   format: yaml
   label: temp.md Comments API
   slug: temp-md-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-comments-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-comments-api-openapi.yml
 - filename: temp-md-health-api-openapi.yml
   format: yaml
   label: temp.md Health API
   slug: temp-md-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-health-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-health-api-openapi.yml
 - filename: temp-md-lifecycle-api-openapi.yml
   format: yaml
   label: temp.md Lifecycle API
   slug: temp-md-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-lifecycle-api-openapi.yml
 - filename: temp-md-organizations-api-openapi.yml
   format: yaml
   label: temp.md Organizations API
   slug: temp-md-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-organizations-api-openapi.yml
 - filename: temp-md-previews-api-openapi.yml
   format: yaml
   label: temp.md Previews API
   slug: temp-md-previews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-previews-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-previews-api-openapi.yml
 - filename: temp-md-publish-api-openapi.yml
   format: yaml
   label: temp.md Publish API
   slug: temp-md-publish-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-publish-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-publish-api-openapi.yml
 - filename: temp-md-publish-grants-api-openapi.yml
   format: yaml
   label: temp.md Publish Grants API
   slug: temp-md-publish-grants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-publish-grants-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-publish-grants-api-openapi.yml
 - filename: temp-md-publish-sessions-api-openapi.yml
   format: yaml
   label: temp.md Publish Sessions API
   slug: temp-md-publish-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-publish-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-publish-sessions-api-openapi.yml
 - filename: temp-md-review-requests-api-openapi.yml
   format: yaml
   label: temp.md Review Requests API
   slug: temp-md-review-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-review-requests-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-review-requests-api-openapi.yml
 - filename: temp-md-safety-api-openapi.yml
   format: yaml
   label: temp.md Safety API
   slug: temp-md-safety-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-safety-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-safety-api-openapi.yml
 - filename: temp-md-usage-api-openapi.yml
   format: yaml
   label: temp.md Usage API
   slug: temp-md-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-usage-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -117,7 +117,7 @@ source_filename: temp-md-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: temp.md\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 07:01:29 2026 GMT\n  hsts: false\n- host: api.temp.md\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 04:42:57 2026 GMT\n  hsts: null\ndomains:\n- domain: temp.md\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/security/temp-md-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/temp-md/security/temp-md-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Web Publishing

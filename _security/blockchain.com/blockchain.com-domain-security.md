@@ -5,115 +5,115 @@ api_specs:
   label: Blockchain.com NFT Market API
   slug: blockchaincom-nft-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/_original/blockchain.com-nft-market-api-swagger.json
+  url: https://artifacts.apis.io/blockchain.com/openapi/_original/blockchain.com-nft-market-api-swagger.json
 - filename: blockchain.com-eligibility-api-openapi.yml
   format: yaml
   label: Blockchain.com Eligibility API
   slug: blockchain.com-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-eligibility-api-openapi.yml
 - filename: blockchain.com-nft-api-openapi.yml
   format: yaml
   label: Blockchain.com Nft API
   slug: blockchain.com-nft-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-nft-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-nft-api-openapi.yml
 - filename: blockchain.com-nft-v2-api-openapi.yml
   format: yaml
   label: Blockchain.com Nft V2 API
   slug: blockchain.com-nft-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-nft-v2-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-nft-v2-api-openapi.yml
 - filename: blockchain.com-orders-api-openapi.yml
   format: yaml
   label: Blockchain.com Orders API
   slug: blockchain.com-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-orders-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-orders-api-openapi.yml
 - filename: blockchain.com-payments-api-openapi.yml
   format: yaml
   label: Blockchain.com Payments API
   slug: blockchain.com-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-payments-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-payments-api-openapi.yml
 - filename: blockchain.com-public-api-openapi.yml
   format: yaml
   label: Blockchain.com Public API
   slug: blockchain.com-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-public-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-public-api-openapi.yml
 - filename: blockchain.com-quote-api-openapi.yml
   format: yaml
   label: Blockchain.com Quote API
   slug: blockchain.com-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-quote-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-quote-api-openapi.yml
 - filename: blockchain.com-trading-api-openapi.yml
   format: yaml
   label: Blockchain.com Trading API
   slug: blockchain.com-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-trading-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-trading-api-openapi.yml
 - filename: blockchain.com-unauthenticated-api-openapi.yml
   format: yaml
   label: Blockchain.com Unauthenticated API
   slug: blockchain.com-unauthenticated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-unauthenticated-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-unauthenticated-api-openapi.yml
 - filename: blockchain-com-asyncapi.yml
   format: yaml
   label: Blockchain.com WebSocket APIs
   slug: blockchaincom-websocket-apis
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/asyncapi/blockchain-com-asyncapi.yml
+  url: https://artifacts.apis.io/blockchain.com/asyncapi/blockchain-com-asyncapi.yml
 - filename: blockchain.com-addresses-api-openapi.yml
   format: yaml
   label: Blockchain.com Addresses API
   slug: blockchain.com-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-addresses-api-openapi.yml
 - filename: blockchain.com-blocks-api-openapi.yml
   format: yaml
   label: Blockchain.com Blocks API
   slug: blockchain.com-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-blocks-api-openapi.yml
 - filename: blockchain.com-charts-api-openapi.yml
   format: yaml
   label: Blockchain.com Charts API
   slug: blockchain.com-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-charts-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-charts-api-openapi.yml
 - filename: blockchain.com-market-data-api-openapi.yml
   format: yaml
   label: Blockchain.com Market Data API
   slug: blockchain.com-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-market-data-api-openapi.yml
 - filename: blockchain.com-network-api-openapi.yml
   format: yaml
   label: Blockchain.com Network API
   slug: blockchain.com-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-network-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-network-api-openapi.yml
 - filename: blockchain.com-pools-api-openapi.yml
   format: yaml
   label: Blockchain.com Pools API
   slug: blockchain.com-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-pools-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-pools-api-openapi.yml
 - filename: blockchain.com-stats-api-openapi.yml
   format: yaml
   label: Blockchain.com Stats API
   slug: blockchain.com-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-stats-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-stats-api-openapi.yml
 - filename: blockchain.com-transactions-api-openapi.yml
   format: yaml
   label: Blockchain.com Transactions API
   slug: blockchain.com-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -155,7 +155,7 @@ source_filename: blockchain.com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.blockchain.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.blockchain.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: exchange.blockchain.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 21:11:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: blockchain.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/security/blockchain.com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/blockchain.com/security/blockchain.com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Cryptocurrency

@@ -5,25 +5,25 @@ api_specs:
   label: 6sense Company API
   slug: 6sense-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/openapi/6sense-company-api-openapi.yml
+  url: https://artifacts.apis.io/6sense/openapi/6sense-company-api-openapi.yml
 - filename: 6sense-enrichment-api-openapi.yml
   format: yaml
   label: 6sense Enrichment API
   slug: 6sense-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/openapi/6sense-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/6sense/openapi/6sense-enrichment-api-openapi.yml
 - filename: 6sense-people-api-openapi.yml
   format: yaml
   label: 6sense People API
   slug: 6sense-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/openapi/6sense-people-api-openapi.yml
+  url: https://artifacts.apis.io/6sense/openapi/6sense-people-api-openapi.yml
 - filename: 6sense-scoring-api-openapi.yml
   format: yaml
   label: 6sense Scoring API
   slug: 6sense-scoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/openapi/6sense-scoring-api-openapi.yml
+  url: https://artifacts.apis.io/6sense/openapi/6sense-scoring-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -63,7 +63,7 @@ source_filename: 6sense-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: 6sense.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 19:06:08 2026 GMT\n  hsts: null\n- host: api.6sense.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: 6sense.com\n  dnssec: true\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/security/6sense-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/6sense/security/6sense-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Account Based Marketing

@@ -8,43 +8,43 @@ api_specs:
   label: Equipmentwatch Bulk API
   slug: equipmentwatch-bulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equipmentwatch/refs/heads/main/openapi/equipmentwatch-bulk-api-openapi.yml
+  url: https://artifacts.apis.io/equipmentwatch/openapi/equipmentwatch-bulk-api-openapi.yml
 - filename: equipmentwatch-cost-api-openapi.yml
   format: yaml
   label: Equipmentwatch Cost API
   slug: equipmentwatch-cost-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equipmentwatch/refs/heads/main/openapi/equipmentwatch-cost-api-openapi.yml
+  url: https://artifacts.apis.io/equipmentwatch/openapi/equipmentwatch-cost-api-openapi.yml
 - filename: equipmentwatch-rental-api-openapi.yml
   format: yaml
   label: Equipmentwatch Rental API
   slug: equipmentwatch-rental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equipmentwatch/refs/heads/main/openapi/equipmentwatch-rental-api-openapi.yml
+  url: https://artifacts.apis.io/equipmentwatch/openapi/equipmentwatch-rental-api-openapi.yml
 - filename: equipmentwatch-specifications-api-openapi.yml
   format: yaml
   label: Equipmentwatch Specifications API
   slug: equipmentwatch-specifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equipmentwatch/refs/heads/main/openapi/equipmentwatch-specifications-api-openapi.yml
+  url: https://artifacts.apis.io/equipmentwatch/openapi/equipmentwatch-specifications-api-openapi.yml
 - filename: equipmentwatch-taxonomy-api-openapi.yml
   format: yaml
   label: Equipmentwatch Taxonomy API
   slug: equipmentwatch-taxonomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equipmentwatch/refs/heads/main/openapi/equipmentwatch-taxonomy-api-openapi.yml
+  url: https://artifacts.apis.io/equipmentwatch/openapi/equipmentwatch-taxonomy-api-openapi.yml
 - filename: equipmentwatch-values-api-openapi.yml
   format: yaml
   label: Equipmentwatch Values API
   slug: equipmentwatch-values-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equipmentwatch/refs/heads/main/openapi/equipmentwatch-values-api-openapi.yml
+  url: https://artifacts.apis.io/equipmentwatch/openapi/equipmentwatch-values-api-openapi.yml
 - filename: equipmentwatch-verification-api-openapi.yml
   format: yaml
   label: Equipmentwatch Verification API
   slug: equipmentwatch-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equipmentwatch/refs/heads/main/openapi/equipmentwatch-verification-api-openapi.yml
+  url: https://artifacts.apis.io/equipmentwatch/openapi/equipmentwatch-verification-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -71,7 +71,7 @@ source_filename: equipmentwatch-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: derived\nsource: openapi/equipmentwatch-api-openapi.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: API Key\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/equipmentwatch-api-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/equipmentwatch/refs/heads/main/authentication/equipmentwatch-authentication.yml
+source_yaml_url: https://artifacts.apis.io/equipmentwatch/authentication/equipmentwatch-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Construction

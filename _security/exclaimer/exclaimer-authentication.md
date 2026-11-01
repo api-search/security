@@ -8,55 +8,55 @@ api_specs:
   label: Exclaimer End Users API
   slug: exclaimer-end-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/openapi/exclaimer-end-users-api-openapi.yml
+  url: https://artifacts.apis.io/exclaimer/openapi/exclaimer-end-users-api-openapi.yml
 - filename: exclaimer-mailboxes-api-openapi.yml
   format: yaml
   label: Exclaimer Mailboxes API
   slug: exclaimer-mailboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/openapi/exclaimer-mailboxes-api-openapi.yml
+  url: https://artifacts.apis.io/exclaimer/openapi/exclaimer-mailboxes-api-openapi.yml
 - filename: exclaimer-miscellaneous-api-openapi.yml
   format: yaml
   label: Exclaimer Miscellaneous API
   slug: exclaimer-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/openapi/exclaimer-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/exclaimer/openapi/exclaimer-miscellaneous-api-openapi.yml
 - filename: exclaimer-msp-api-openapi.yml
   format: yaml
   label: Exclaimer MSP API
   slug: exclaimer-msp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/openapi/exclaimer-msp-api-openapi.yml
+  url: https://artifacts.apis.io/exclaimer/openapi/exclaimer-msp-api-openapi.yml
 - filename: exclaimer-reference-resources-api-openapi.yml
   format: yaml
   label: Exclaimer Reference Resources API
   slug: exclaimer-reference-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/openapi/exclaimer-reference-resources-api-openapi.yml
+  url: https://artifacts.apis.io/exclaimer/openapi/exclaimer-reference-resources-api-openapi.yml
 - filename: exclaimer-resellers-api-openapi.yml
   format: yaml
   label: Exclaimer Resellers API
   slug: exclaimer-resellers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/openapi/exclaimer-resellers-api-openapi.yml
+  url: https://artifacts.apis.io/exclaimer/openapi/exclaimer-resellers-api-openapi.yml
 - filename: exclaimer-subscription-transfers-api-openapi.yml
   format: yaml
   label: Exclaimer Subscription Transfers API
   slug: exclaimer-subscription-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/openapi/exclaimer-subscription-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/exclaimer/openapi/exclaimer-subscription-transfers-api-openapi.yml
 - filename: exclaimer-subscription-users-api-openapi.yml
   format: yaml
   label: Exclaimer Subscription Users API
   slug: exclaimer-subscription-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/openapi/exclaimer-subscription-users-api-openapi.yml
+  url: https://artifacts.apis.io/exclaimer/openapi/exclaimer-subscription-users-api-openapi.yml
 - filename: exclaimer-subscriptions-api-openapi.yml
   format: yaml
   label: Exclaimer Subscriptions API
   slug: exclaimer-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/openapi/exclaimer-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/exclaimer/openapi/exclaimer-subscriptions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://c
   \ when the header is absent or the token is invalid — declared\n    on all 39 operations. Observed live: every path on cloudapi.exclaimer.com\n    returns 401 with an empty body to an anonymous request, except / (the\n    reference page) and /openapi.json (the specification), which are public.\n  case_note: >-\n    The prose writes the header as \"ExAPIToken\" while the securityScheme declares\n    \"ExApiToken\". HTTP header names are case-insensitive (RFC 9110), so both\n    resolve to the same header.\n  sources:\n  - openapi/_original/exclaimer-cloud-api-openapi.json\n  - openapi/exclaimer-subscriptions-openapi.yml\n  - openapi/exclaimer-msp-openapi.yml\n  - openapi/exclaimer-subscription-users-openapi.yml\n  - openapi/exclaimer-subscription-transfers-openapi.yml\n  - openapi/exclaimer-end-users-openapi.yml\n  - openapi/exclaimer-resellers-openapi.yml\n  - openapi/exclaimer-mailboxes-openapi.yml\n  - openapi/exclaimer-reference-resources-openapi.yml\n  - openapi/exclaimer-miscellaneous-openapi.yml\n\
   authorization:\n  model: >-\n    Coarse — permission is a property of the partner account behind the token, not\n    of the token. 403 Forbidden is returned when the token is valid but the caller\n    lacks the required permission, and specifically on the MSP operations when\n    \"the API user is not an MSP type\". There are no scopes and no per-token\n    restriction mechanism.\n  roles_in_api: >-\n    Subscription USERS (the humans who log into a tenant's portal) carry a Roles\n    array set via POST /1.0/subscriptions/{SubscriptionID}/users and PUT\n    /1.0/subscriptions/{SubscriptionID}/users/{UserID}/roles. Those are end-user\n    portal roles, not API token scopes.\ngaps:\n- No OAuth 2.0 or OpenID Connect; /.well-known/oauth-authorization-server and\n  /.well-known/openid-configuration return 404 on exclaimer.com.\n- No documented token lifetime, expiry or rotation for the Cloud API token.\n- No scope model, so a partner token is all-or-nothing across every operation\n  including\
   \ destructive ones (end subscription, delete user, claim transfer).\nrelated_but_distinct:\n  name: Exclaimer Exchange Transport Agent API keys\n  docs: https://support.exclaimer.com/hc/en-gb/articles/12959044101277-API-Keys\n  note: >-\n    A separate mechanism. These keys authenticate an on-premises Exchange server\n    to the Exclaimer environment during Transport Agent installation, are managed\n    in the Exclaimer admin portal by an Exclaimer Administrator, and expire after\n    one year. They are NOT credentials for the Exclaimer Cloud API.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/authentication/exclaimer-authentication.yml
+source_yaml_url: https://artifacts.apis.io/exclaimer/authentication/exclaimer-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

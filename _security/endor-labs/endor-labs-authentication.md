@@ -7,43 +7,43 @@ api_specs:
   label: Endor Labs Authentication API
   slug: endor-labs-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/endor-labs/openapi/endor-labs-authentication-api-openapi.yml
 - filename: endor-labs-findings-api-openapi.yml
   format: yaml
   label: Endor Labs Findings API
   slug: endor-labs-findings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-findings-api-openapi.yml
+  url: https://artifacts.apis.io/endor-labs/openapi/endor-labs-findings-api-openapi.yml
 - filename: endor-labs-namespaces-api-openapi.yml
   format: yaml
   label: Endor Labs Namespaces API
   slug: endor-labs-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/endor-labs/openapi/endor-labs-namespaces-api-openapi.yml
 - filename: endor-labs-packages-api-openapi.yml
   format: yaml
   label: Endor Labs Packages API
   slug: endor-labs-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-packages-api-openapi.yml
+  url: https://artifacts.apis.io/endor-labs/openapi/endor-labs-packages-api-openapi.yml
 - filename: endor-labs-policies-api-openapi.yml
   format: yaml
   label: Endor Labs Policies API
   slug: endor-labs-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-policies-api-openapi.yml
+  url: https://artifacts.apis.io/endor-labs/openapi/endor-labs-policies-api-openapi.yml
 - filename: endor-labs-projects-api-openapi.yml
   format: yaml
   label: Endor Labs Projects API
   slug: endor-labs-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-projects-api-openapi.yml
+  url: https://artifacts.apis.io/endor-labs/openapi/endor-labs-projects-api-openapi.yml
 - filename: endor-labs-scan-results-api-openapi.yml
   format: yaml
   label: Endor Labs Scan Results API
   slug: endor-labs-scan-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-scan-results-api-openapi.yml
+  url: https://artifacts.apis.io/endor-labs/openapi/endor-labs-scan-results-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -71,7 +71,7 @@ source_filename: endor-labs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/endor-labs-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Bearer access token obtained from POST /v1/auth/api-key by exchanging an Endor\n    Labs API key and secret.\n  sources:\n  - openapi/endor-labs-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/authentication/endor-labs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/endor-labs/authentication/endor-labs-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Security

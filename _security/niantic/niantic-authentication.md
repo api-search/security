@@ -38,7 +38,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://www.nianticspatial.com/docs/nsdk/\ndocs: https://www.nianticspatial.com/docs/nsdk/\nnotes: >-\n  No OpenAPI is published for the Niantic Spatial platform (SDK-first: Unity/Swift/\n  Kotlin/ROS 2), so this profile is captured from the developer documentation rather\n  than derived from a spec. Two documented models coexist across SDK generations.\nsummary:\n  types: [apiKey, token]\n  api_key_in: [sdk-config]\nschemes:\n  - name: NianticSpatialToken\n    type: token\n    scheme: bearer-token\n    description: >-\n      NSDK 4.0 introduced a token-based authentication model for the Niantic\n      Spatial platform, replacing the legacy API-key-only approach. Simplifies\n      auth for testing and iteration across Unity, Swift, and Kotlin.\n    since: NSDK 4.0\n    sources: [docs]\n  - name: LightshipApiKey\n    type: apiKey\n    in: sdk-config\n    description: >-\n      Legacy Lightship ARDK model. An API key created\
   \ in the developer account is\n      configured into the app; VPS validates the app's API key against the\n      developer account. Superseded by token-based auth in NSDK 4.0.\n    deprecated: true\n    sources: [docs]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/niantic/refs/heads/main/authentication/niantic-authentication.yml
+source_yaml_url: https://artifacts.apis.io/niantic/authentication/niantic-authentication.yml
 summary_line: apiKey/token · 2 schemes
 tags:
 - Company

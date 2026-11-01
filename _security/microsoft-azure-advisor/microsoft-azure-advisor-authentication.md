@@ -7,13 +7,13 @@ api_specs:
   label: Microsoft Azure Advisor Operations API
   slug: microsoft-azure-advisor-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-advisor/refs/heads/main/openapi/microsoft-azure-advisor-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-advisor/openapi/microsoft-azure-advisor-operations-api-openapi.yml
 - filename: microsoft-azure-advisor-recommendations-api-openapi.yml
   format: yaml
   label: Microsoft Azure Advisor Recommendations API
   slug: microsoft-azure-advisor-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-advisor/refs/heads/main/openapi/microsoft-azure-advisor-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-advisor/openapi/microsoft-azure-advisor-recommendations-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -44,7 +44,7 @@ source_filename: microsoft-azure-advisor-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-azure-advisor-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - implicit\nschemes:\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  description: Azure Active Directory OAuth2 Flow.\n  sources:\n  - openapi/microsoft-azure-advisor-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-advisor/refs/heads/main/authentication/microsoft-azure-advisor-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-advisor/authentication/microsoft-azure-advisor-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Advisor

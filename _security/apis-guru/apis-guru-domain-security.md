@@ -5,7 +5,7 @@ api_specs:
   label: APIs.guru APIs API
   slug: apis-guru-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apis-guru/refs/heads/main/openapi/apis-guru-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apis-guru/openapi/apis-guru-apis-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,7 +39,7 @@ source_filename: apis-guru-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: apis.guru\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 15:09:58 2026 GMT\n  hsts: false\n- host: api.apis.guru\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 02:24:31 2026 GMT\n  hsts: null\ndomains:\n- domain: apis.guru\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apis-guru/refs/heads/main/security/apis-guru-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apis-guru/security/apis-guru-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - API Catalog

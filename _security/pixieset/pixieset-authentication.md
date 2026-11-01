@@ -8,31 +8,31 @@ api_specs:
   label: Pixieset Clients API
   slug: pixieset-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/openapi/pixieset-clients-api-openapi.yml
+  url: https://artifacts.apis.io/pixieset/openapi/pixieset-clients-api-openapi.yml
 - filename: pixieset-collections-api-openapi.yml
   format: yaml
   label: Pixieset Collections API
   slug: pixieset-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/openapi/pixieset-collections-api-openapi.yml
+  url: https://artifacts.apis.io/pixieset/openapi/pixieset-collections-api-openapi.yml
 - filename: pixieset-contracts-api-openapi.yml
   format: yaml
   label: Pixieset Contracts API
   slug: pixieset-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/openapi/pixieset-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/pixieset/openapi/pixieset-contracts-api-openapi.yml
 - filename: pixieset-invoices-api-openapi.yml
   format: yaml
   label: Pixieset Invoices API
   slug: pixieset-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/openapi/pixieset-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/pixieset/openapi/pixieset-invoices-api-openapi.yml
 - filename: pixieset-sessions-api-openapi.yml
   format: yaml
   label: Pixieset Sessions API
   slug: pixieset-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/openapi/pixieset-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/pixieset/openapi/pixieset-sessions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: pixieset-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pixieset-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - cookie\nschemes:\n- name: sessionCookie\n  type: apiKey\n  in: cookie\n  parameter: session_cookie\n  description: Session cookie issued by the Pixieset web login flow (studio.pixieset.com/login\n    or galleries.pixieset.com/login). This is the internal web-app session mechanism, not a\n    published API-key or OAuth developer credential - Pixieset does not offer either for third-party\n    use. Write operations additionally require an X-CSRF-Token header per the reverse-engineered\n    documentation.\n  sources:\n  - openapi/pixieset-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/authentication/pixieset-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pixieset/authentication/pixieset-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Photography

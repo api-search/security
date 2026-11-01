@@ -5,43 +5,43 @@ api_specs:
   label: weclapp Article API
   slug: weclapp-article-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weclapp/refs/heads/main/openapi/weclapp-article-api-openapi.yml
+  url: https://artifacts.apis.io/weclapp/openapi/weclapp-article-api-openapi.yml
 - filename: weclapp-customer-api-openapi.yml
   format: yaml
   label: weclapp Customer API
   slug: weclapp-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weclapp/refs/heads/main/openapi/weclapp-customer-api-openapi.yml
+  url: https://artifacts.apis.io/weclapp/openapi/weclapp-customer-api-openapi.yml
 - filename: weclapp-purchase-order-api-openapi.yml
   format: yaml
   label: weclapp Purchase Order API
   slug: weclapp-purchase-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weclapp/refs/heads/main/openapi/weclapp-purchase-order-api-openapi.yml
+  url: https://artifacts.apis.io/weclapp/openapi/weclapp-purchase-order-api-openapi.yml
 - filename: weclapp-quotation-api-openapi.yml
   format: yaml
   label: weclapp Quotation API
   slug: weclapp-quotation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weclapp/refs/heads/main/openapi/weclapp-quotation-api-openapi.yml
+  url: https://artifacts.apis.io/weclapp/openapi/weclapp-quotation-api-openapi.yml
 - filename: weclapp-sales-invoice-api-openapi.yml
   format: yaml
   label: weclapp Sales Invoice API
   slug: weclapp-sales-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weclapp/refs/heads/main/openapi/weclapp-sales-invoice-api-openapi.yml
+  url: https://artifacts.apis.io/weclapp/openapi/weclapp-sales-invoice-api-openapi.yml
 - filename: weclapp-sales-order-api-openapi.yml
   format: yaml
   label: weclapp Sales Order API
   slug: weclapp-sales-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weclapp/refs/heads/main/openapi/weclapp-sales-order-api-openapi.yml
+  url: https://artifacts.apis.io/weclapp/openapi/weclapp-sales-order-api-openapi.yml
 - filename: weclapp-shipment-api-openapi.yml
   format: yaml
   label: weclapp Shipment API
   slug: weclapp-shipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weclapp/refs/heads/main/openapi/weclapp-shipment-api-openapi.yml
+  url: https://artifacts.apis.io/weclapp/openapi/weclapp-shipment-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -80,7 +80,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml hosts (per-tenant API host not probeable without a real tenant)\nhosts:\n- host: weclapp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15768000\n  hsts_include_subdomains: true\n  hsts_preload: true\n  note: Redirects to https://www.weclapp.com/. Served by nginx.\n- host: www.weclapp.com\n  https: true\n  tls_version: TLSv1.3\n  hsts: true\ndomains:\n- domain: weclapp.com\n  dnssec: true\n  caa: []\n  spf: true\n  spf_policy: '-all'\n  dmarc: true\n  dmarc_policy: none\nnotes: >-\n  The REST API is served per tenant at https://<tenant>.weclapp.com/webapp/api/v1/.\n  There is no shared, tenant-agnostic API host to probe, so TLS/HSTS results above\n  are for the corporate/apex domain (weclapp.com) and its www host. Tenant hosts\n  inherit the weclapp.com wildcard TLS and HSTS includeSubDomains/preload policy.\nmaintainers:\n\
   - FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weclapp/refs/heads/main/security/weclapp-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/weclapp/security/weclapp-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - ERP

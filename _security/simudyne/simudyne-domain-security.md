@@ -26,7 +26,7 @@ source_filename: simudyne-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: simudyne.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 25 13:04:36 2027 GMT\n  hsts: false\ndomains:\n- domain: simudyne.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simudyne/refs/heads/main/security/simudyne-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/simudyne/security/simudyne-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

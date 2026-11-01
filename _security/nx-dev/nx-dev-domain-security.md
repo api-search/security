@@ -40,7 +40,7 @@ source_filename: nx-dev-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: nx.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 11:24:33 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: nrwl.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 05:49:40 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: nx.dev\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: nrwl.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nx-dev/refs/heads/main/security/nx-dev-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nx-dev/security/nx-dev-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Monorepo

@@ -31,7 +31,7 @@ source_filename: ethan-allen-interiors-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ethanallen.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  3 19:16:00 2026 GMT\n  hsts: false\n- host: developer.ethanallen.com\n  https: false\n- host: api.ethanallen.com\n  https: false\ndomains:\n- domain: ethanallen.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ethan-allen-interiors/refs/heads/main/security/ethan-allen-interiors-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ethan-allen-interiors/security/ethan-allen-interiors-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Furniture

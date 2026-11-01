@@ -7,13 +7,13 @@ api_specs:
   label: Apptainer Images API
   slug: apptainer-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apptainer/refs/heads/main/openapi/apptainer-images-api-openapi.yml
+  url: https://artifacts.apis.io/apptainer/openapi/apptainer-images-api-openapi.yml
 - filename: apptainer-instances-api-openapi.yml
   format: yaml
   label: Apptainer Instances API
   slug: apptainer-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apptainer/refs/heads/main/openapi/apptainer-instances-api-openapi.yml
+  url: https://artifacts.apis.io/apptainer/openapi/apptainer-instances-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: apptainer-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/apptainer-openapi.yaml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/apptainer-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apptainer/refs/heads/main/authentication/apptainer-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apptainer/authentication/apptainer-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Containers

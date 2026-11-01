@@ -7,31 +7,31 @@ api_specs:
   label: Employ Inc Status API
   slug: employ-inc-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/openapi/employ-inc-status-api-openapi.yml
+  url: https://artifacts.apis.io/employ-inc/openapi/employ-inc-status-api-openapi.yml
 - filename: employ-inc-components-api-openapi.yml
   format: yaml
   label: Employ Components API
   slug: employ-inc-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/openapi/employ-inc-components-api-openapi.yml
+  url: https://artifacts.apis.io/employ-inc/openapi/employ-inc-components-api-openapi.yml
 - filename: employ-inc-incidents-api-openapi.yml
   format: yaml
   label: Employ Incidents API
   slug: employ-inc-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/openapi/employ-inc-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/employ-inc/openapi/employ-inc-incidents-api-openapi.yml
 - filename: employ-inc-maintenance-api-openapi.yml
   format: yaml
   label: Employ Maintenance API
   slug: employ-inc-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/openapi/employ-inc-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/employ-inc/openapi/employ-inc-maintenance-api-openapi.yml
 - filename: employ-inc-summary-api-openapi.yml
   format: yaml
   label: Employ Summary API
   slug: employ-inc-summary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/openapi/employ-inc-summary-api-openapi.yml
+  url: https://artifacts.apis.io/employ-inc/openapi/employ-inc-summary-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -59,7 +59,7 @@ source_filename: employ-inc-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-13'\nmethod: derived\nsource: openapi/employ-inc-content-api-openapi.yml, openapi/employ-inc-tec-events-rest-api-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: applicationPassword\n  type: http\n  scheme: basic\n  description: 'WordPress application password (HTTP Basic). Authorization endpoint: https://www.employinc.com/wp-admin/authorize-application.php.\n    Declared by the site''s own discovery document under authentication.application-passwords.'\n  sources:\n  - openapi/employ-inc-content-api-openapi.yml\n  - openapi/employ-inc-tec-events-rest-api-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/authentication/employ-inc-authentication.yml
+source_yaml_url: https://artifacts.apis.io/employ-inc/authentication/employ-inc-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Human Resources

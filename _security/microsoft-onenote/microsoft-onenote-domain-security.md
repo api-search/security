@@ -5,25 +5,25 @@ api_specs:
   label: Microsoft OneNote Notebooks API
   slug: microsoft-onenote-notebooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-onenote/refs/heads/main/openapi/microsoft-onenote-notebooks-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-onenote/openapi/microsoft-onenote-notebooks-api-openapi.yml
 - filename: microsoft-onenote-pages-api-openapi.yml
   format: yaml
   label: Microsoft OneNote Pages API
   slug: microsoft-onenote-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-onenote/refs/heads/main/openapi/microsoft-onenote-pages-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-onenote/openapi/microsoft-onenote-pages-api-openapi.yml
 - filename: microsoft-onenote-sectiongroups-api-openapi.yml
   format: yaml
   label: Microsoft OneNote SectionGroups API
   slug: microsoft-onenote-sectiongroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-onenote/refs/heads/main/openapi/microsoft-onenote-sectiongroups-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-onenote/openapi/microsoft-onenote-sectiongroups-api-openapi.yml
 - filename: microsoft-onenote-sections-api-openapi.yml
   format: yaml
   label: Microsoft OneNote Sections API
   slug: microsoft-onenote-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-onenote/refs/heads/main/openapi/microsoft-onenote-sections-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-onenote/openapi/microsoft-onenote-sections-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -72,7 +72,7 @@ source_filename: microsoft-onenote-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: portal.azure.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 19:53:18 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 17 19:55:21 2027 GMT\n  hsts: false\n- host: learn.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 02:26:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: azure.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-onenote/refs/heads/main/security/microsoft-onenote-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-onenote/security/microsoft-onenote-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Microsoft

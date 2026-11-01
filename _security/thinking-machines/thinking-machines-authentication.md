@@ -28,7 +28,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: 2026-07-21\nmethod: searched\nsource: https://tinker-docs.thinkingmachines.ai/tinker/quickstart/\nname: Thinking Machines (Tinker) authentication\ndescription: >-\n  The Tinker API and SDK authenticate with a single API key issued from the\n  Tinker Console. The key is supplied to the SDK/CLI via the TINKER_API_KEY\n  environment variable and is sent as a bearer credential to the service.\nschemes:\n- id: api_key\n  type: apiKey\n  in: env\n  name: TINKER_API_KEY\n  transport: bearer\n  description: >-\n    Personal/organization API key obtained from the Tinker Console\n    (https://tinker.thinkingmachines.ai/). Set as `export TINKER_API_KEY=...`;\n    the Python SDK (import tinker) and the tinker CLI read it automatically.\n  provisioning: https://tinker.thinkingmachines.ai/\noauth2: false\nopenid_connect: false\nmutual_tls: false\nnotes: >-\n  Access control is enforced beyond authentication via a project-scoped\n  permission model (organizations, teams, projects,\
   \ sessions) documented at\n  https://tinker-docs.thinkingmachines.ai/tinker/data-model/. The SDK surfaces\n  AuthenticationError and PermissionDeniedError for credential/authorization\n  failures.\ndocs: https://tinker-docs.thinkingmachines.ai/tinker/quickstart/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thinking-machines/refs/heads/main/authentication/thinking-machines-authentication.yml
+source_yaml_url: https://artifacts.apis.io/thinking-machines/authentication/thinking-machines-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company

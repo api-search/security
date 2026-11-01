@@ -24,12 +24,12 @@ source_filename: lytix-authentication.yml
 source_heading: Authentication Profile
 source_url: https://docs.lytix.co/APIKeys/api-key-setup.md
 source_yaml: "generated: '2026-10-18'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://docs.lytix.co/APIKeys/api-key-setup.md\nsources:\n- https://docs.lytix.co/APIKeys/api-key-setup.md\n- https://docs.lytix.co/APIKeys/set-api-key-in-code.md\n- https://docs.lytix.co/APIKeys/api-keys-and-workflows.md\n- https://docs.lytix.co/APIKeys/env-var-setup.md\ndescription: Authentication schemes for Lytix\nschemes:\n- type: apiKey\n  name: API Key\n  evidence: All Lytix SDKs use the `LX_API_KEY` environment variable to authenticate with the Lytix platform.\n  how_to_obtain: Create an API key in the Lytix platform Settings → API Keys page and copy it.\ndocs: https://docs.lytix.co/APIKeys/api-key-setup.md\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lytix/refs/heads/main/authentication/lytix-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lytix/authentication/lytix-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - LLMOps
 - Evaluation
 - Monitoring
-- OpenSource
+- Open Source
 ---

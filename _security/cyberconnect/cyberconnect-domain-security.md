@@ -56,7 +56,7 @@ source_filename: cyberconnect-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cyber.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 11:18:34 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: cyberconnect-docs-v2.vercel.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 13:27:56 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.cybertino.io\n  https: false\ndomains:\n- domain: cyber.co\n  dnssec: false\n  caa:\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: vercel.app\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cyberconnect/refs/heads/main/security/cyberconnect-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cyberconnect/security/cyberconnect-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Web3

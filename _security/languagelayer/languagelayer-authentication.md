@@ -8,13 +8,13 @@ api_specs:
   label: languagelayer Batch API
   slug: languagelayer-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/languagelayer/refs/heads/main/openapi/languagelayer-batch-api-openapi.yml
+  url: https://artifacts.apis.io/languagelayer/openapi/languagelayer-batch-api-openapi.yml
 - filename: languagelayer-detect-api-openapi.yml
   format: yaml
   label: languagelayer Detect API
   slug: languagelayer-detect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/languagelayer/refs/heads/main/openapi/languagelayer-detect-api-openapi.yml
+  url: https://artifacts.apis.io/languagelayer/openapi/languagelayer-detect-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: languagelayer-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: accessKey\n  type: apiKey\n  in: query\n  parameter: access_key\n  description: API access key obtained from languagelayer.com.\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/languagelayer/refs/heads/main/authentication/languagelayer-authentication.yml
+source_yaml_url: https://artifacts.apis.io/languagelayer/authentication/languagelayer-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Language Detection

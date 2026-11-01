@@ -37,7 +37,7 @@ source_filename: elegen-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: elegenbio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 19:09:49 2026 GMT\n  hsts: false\n- host: ecommerce.elegen.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 13 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: elegenbio.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: elegen.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elegen/refs/heads/main/security/elegen-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/elegen/security/elegen-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

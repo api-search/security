@@ -26,11 +26,11 @@ source_filename: convertabankstatement-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-16'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: convertabankstatement.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  6 22:04:11 2026 GMT\n  hsts: false\ndomains:\n- domain: convertabankstatement.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/convertabankstatement/refs/heads/main/security/convertabankstatement-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/convertabankstatement/security/convertabankstatement-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company
 - Fintech
 - Banking
-- DataTransformation
+- Data Transformation
 ---

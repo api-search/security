@@ -5,43 +5,43 @@ api_specs:
   label: Director of National Intelligence Discovery API
   slug: director-of-national-intelligence-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/openapi/director-of-national-intelligence-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/director-of-national-intelligence/openapi/director-of-national-intelligence-discovery-api-openapi.yml
 - filename: director-of-national-intelligence-media-api-openapi.yml
   format: yaml
   label: Director of National Intelligence Media API
   slug: director-of-national-intelligence-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/openapi/director-of-national-intelligence-media-api-openapi.yml
+  url: https://artifacts.apis.io/director-of-national-intelligence/openapi/director-of-national-intelligence-media-api-openapi.yml
 - filename: director-of-national-intelligence-news-api-openapi.yml
   format: yaml
   label: Director of National Intelligence News API
   slug: director-of-national-intelligence-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/openapi/director-of-national-intelligence-news-api-openapi.yml
+  url: https://artifacts.apis.io/director-of-national-intelligence/openapi/director-of-national-intelligence-news-api-openapi.yml
 - filename: director-of-national-intelligence-pages-api-openapi.yml
   format: yaml
   label: Director of National Intelligence Pages API
   slug: director-of-national-intelligence-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/openapi/director-of-national-intelligence-pages-api-openapi.yml
+  url: https://artifacts.apis.io/director-of-national-intelligence/openapi/director-of-national-intelligence-pages-api-openapi.yml
 - filename: director-of-national-intelligence-publications-api-openapi.yml
   format: yaml
   label: Director of National Intelligence Publications API
   slug: director-of-national-intelligence-publications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/openapi/director-of-national-intelligence-publications-api-openapi.yml
+  url: https://artifacts.apis.io/director-of-national-intelligence/openapi/director-of-national-intelligence-publications-api-openapi.yml
 - filename: director-of-national-intelligence-search-api-openapi.yml
   format: yaml
   label: Director of National Intelligence Search API
   slug: director-of-national-intelligence-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/openapi/director-of-national-intelligence-search-api-openapi.yml
+  url: https://artifacts.apis.io/director-of-national-intelligence/openapi/director-of-national-intelligence-search-api-openapi.yml
 - filename: director-of-national-intelligence-taxonomy-api-openapi.yml
   format: yaml
   label: Director of National Intelligence Taxonomy API
   slug: director-of-national-intelligence-taxonomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/openapi/director-of-national-intelligence-taxonomy-api-openapi.yml
+  url: https://artifacts.apis.io/director-of-national-intelligence/openapi/director-of-national-intelligence-taxonomy-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: director-of-national-intelligence-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.odni.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: odni.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/security/director-of-national-intelligence-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/director-of-national-intelligence/security/director-of-national-intelligence-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Federal Government

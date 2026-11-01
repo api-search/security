@@ -5,7 +5,7 @@ api_specs:
   label: Carta Fa464 V1Alpha1 API
   slug: carta-fa464-v1alpha1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carta-fa464/refs/heads/main/openapi/carta-fa464-v1alpha1-api-openapi.yml
+  url: https://artifacts.apis.io/carta-fa464/openapi/carta-fa464-v1alpha1-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -24,7 +24,7 @@ source_filename: carta-fa464-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-07'\nmethod: searched\nprobe: true\nsource: https://trust.carta.com/\nurl: https://trust.carta.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://trust.carta.com/\n  keywords:\n  - soc 2\n  - soc2\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carta-fa464/refs/heads/main/security/carta-fa464-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/carta-fa464/security/carta-fa464-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Equity Management

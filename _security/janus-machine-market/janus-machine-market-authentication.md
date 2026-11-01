@@ -7,7 +7,7 @@ api_specs:
   label: JANUS Machine Market Repos API
   slug: janus-machine-market-repos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/janus-machine-market/refs/heads/main/openapi/janus-machine-market-repos-api-openapi.yml
+  url: https://artifacts.apis.io/janus-machine-market/openapi/janus-machine-market-repos-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -35,7 +35,7 @@ source_filename: janus-machine-market-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-25'\nmethod: derived\nsource: openapi/janus-machine-market-pr-review-github-ingress-openapi.yml, openapi/janus-machine-market-search-github-ingress-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: githubBearer\n  type: http\n  scheme: bearer\n  description: Caller-supplied GitHub credential used only to create/read the Market issue.\n  sources:\n  - openapi/janus-machine-market-pr-review-github-ingress-openapi.yml\n  - openapi/janus-machine-market-search-github-ingress-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/janus-machine-market/refs/heads/main/authentication/janus-machine-market-authentication.yml
+source_yaml_url: https://artifacts.apis.io/janus-machine-market/authentication/janus-machine-market-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - AI Agents

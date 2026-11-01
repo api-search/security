@@ -5,31 +5,31 @@ api_specs:
   label: CMS Open Payments Datastore Query API
   slug: open-payments-datastore-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-payments/refs/heads/main/openapi/open-payments-datastore-query-api-openapi.yml
+  url: https://artifacts.apis.io/open-payments/openapi/open-payments-datastore-query-api-openapi.yml
 - filename: open-payments-datastore-sql-api-openapi.yml
   format: yaml
   label: CMS Open Payments Datastore SQL API
   slug: open-payments-datastore-sql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-payments/refs/heads/main/openapi/open-payments-datastore-sql-api-openapi.yml
+  url: https://artifacts.apis.io/open-payments/openapi/open-payments-datastore-sql-api-openapi.yml
 - filename: open-payments-download-api-openapi.yml
   format: yaml
   label: CMS Open Payments Download API
   slug: open-payments-download-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-payments/refs/heads/main/openapi/open-payments-download-api-openapi.yml
+  url: https://artifacts.apis.io/open-payments/openapi/open-payments-download-api-openapi.yml
 - filename: open-payments-metastore-api-openapi.yml
   format: yaml
   label: CMS Open Payments Metastore API
   slug: open-payments-metastore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-payments/refs/heads/main/openapi/open-payments-metastore-api-openapi.yml
+  url: https://artifacts.apis.io/open-payments/openapi/open-payments-metastore-api-openapi.yml
 - filename: open-payments-search-api-openapi.yml
   format: yaml
   label: CMS Open Payments Search API
   slug: open-payments-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-payments/refs/heads/main/openapi/open-payments-search-api-openapi.yml
+  url: https://artifacts.apis.io/open-payments/openapi/open-payments-search-api-openapi.yml
 description: ''
 domains:
 - dmarc: true
@@ -59,7 +59,7 @@ source_filename: open-payments-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: openpaymentsdata.cms.gov\n  https: true\n  tls_version: TLSv1.3\n  cipher: TLS_AES_256_GCM_SHA384\n  cert_expires: Dec 21 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\ndomains:\n- domain: cms.gov\n  dmarc: true\n  dmarc_policy: reject\n  notes: >-\n    Federal .gov domain. DMARC is enforced with p=reject and DHS Cyber\n    aggregate/forensic reporting. Served over TLS 1.3 with HSTS\n    (max-age 31536000, includeSubDomains).\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-payments/refs/heads/main/security/open-payments-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/open-payments/security/open-payments-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Government Data

@@ -5,25 +5,25 @@ api_specs:
   label: Texas A&M University Dining API
   slug: texas-a-m-university-dining-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/texas-a-m-university/refs/heads/main/openapi/texas-a-m-university-dining-api-openapi.yml
+  url: https://artifacts.apis.io/texas-a-m-university/openapi/texas-a-m-university-dining-api-openapi.yml
 - filename: texas-a-m-university-federation-api-openapi.yml
   format: yaml
   label: Texas A&M University Federation API
   slug: texas-a-m-university-federation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/texas-a-m-university/refs/heads/main/openapi/texas-a-m-university-federation-api-openapi.yml
+  url: https://artifacts.apis.io/texas-a-m-university/openapi/texas-a-m-university-federation-api-openapi.yml
 - filename: texas-a-m-university-geocoding-api-openapi.yml
   format: yaml
   label: Texas A&M University Geocoding API
   slug: texas-a-m-university-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/texas-a-m-university/refs/heads/main/openapi/texas-a-m-university-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/texas-a-m-university/openapi/texas-a-m-university-geocoding-api-openapi.yml
 - filename: texas-a-m-university-micromobility-api-openapi.yml
   format: yaml
   label: Texas A&M University Micromobility API
   slug: texas-a-m-university-micromobility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/texas-a-m-university/refs/heads/main/openapi/texas-a-m-university-micromobility-api-openapi.yml
+  url: https://artifacts.apis.io/texas-a-m-university/openapi/texas-a-m-university-micromobility-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: texas-a-m-university-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "# x-method: generated\n# Written by all/0-working/probe-domain-security.py from live DNS/TLS/HTTP probes.\ngenerated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tamu.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 12 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: geoservices.tamu.edu\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 28 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: it.tamus.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 15:53:37 2026 GMT\n  hsts: false\ndomains:\n- domain: tamu.edu\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: tamus.edu\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/texas-a-m-university/refs/heads/main/security/texas-a-m-university-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/texas-a-m-university/security/texas-a-m-university-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - University

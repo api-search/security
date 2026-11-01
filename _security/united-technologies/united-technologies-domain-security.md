@@ -5,19 +5,19 @@ api_specs:
   label: United Technologies Flights API
   slug: united-technologies-flights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-technologies/refs/heads/main/openapi/united-technologies-flights-api-openapi.yml
+  url: https://artifacts.apis.io/united-technologies/openapi/united-technologies-flights-api-openapi.yml
 - filename: united-technologies-messages-api-openapi.yml
   format: yaml
   label: United Technologies Messages API
   slug: united-technologies-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-technologies/refs/heads/main/openapi/united-technologies-messages-api-openapi.yml
+  url: https://artifacts.apis.io/united-technologies/openapi/united-technologies-messages-api-openapi.yml
 - filename: united-technologies-weather-api-openapi.yml
   format: yaml
   label: United Technologies Weather API
   slug: united-technologies-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-technologies/refs/heads/main/openapi/united-technologies-weather-api-openapi.yml
+  url: https://artifacts.apis.io/united-technologies/openapi/united-technologies-weather-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -67,7 +67,7 @@ source_filename: united-technologies-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.rtx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 10:20:19 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: arinconline.collinsaerospace.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 03:23:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.arinconline.collinsaerospace.com\n  https: false\ndomains:\n- domain: rtx.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issuewild \"ssl.com\"\n  - 0 iodef \"sectigo.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: collinsaerospace.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/united-technologies/refs/heads/main/security/united-technologies-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/united-technologies/security/united-technologies-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Aerospace

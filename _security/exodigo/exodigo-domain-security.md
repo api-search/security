@@ -27,11 +27,11 @@ source_filename: exodigo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.exodigo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 09:58:30 2026 GMT\n  hsts: null\ndomains:\n- domain: exodigo.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exodigo/refs/heads/main/security/exodigo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/exodigo/security/exodigo-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- Subsurface Intelligence
+- Subsurface
 - Underground Mapping
 - Geophysics
 - Infrastructure

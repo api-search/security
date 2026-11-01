@@ -5,31 +5,31 @@ api_specs:
   label: Creatio OData API
   slug: creatio-odata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/openapi/creatio-odata-api-openapi.yml
+  url: https://artifacts.apis.io/creatio/openapi/creatio-odata-api-openapi.yml
 - filename: creatio-clear-bundles-api-openapi.yml
   format: yaml
   label: Creatio Clear Bundles API
   slug: creatio-clear-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/openapi/creatio-clear-bundles-api-openapi.yml
+  url: https://artifacts.apis.io/creatio/openapi/creatio-clear-bundles-api-openapi.yml
 - filename: creatio-minify-content-api-openapi.yml
   format: yaml
   label: Creatio Minify Content API
   slug: creatio-minify-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/openapi/creatio-minify-content-api-openapi.yml
+  url: https://artifacts.apis.io/creatio/openapi/creatio-minify-content-api-openapi.yml
 - filename: creatio-odata-api-openapi.yml
   format: yaml
   label: Creatio Odata API
   slug: creatio-odata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/openapi/creatio-odata-api-openapi.yml
+  url: https://artifacts.apis.io/creatio/openapi/creatio-odata-api-openapi.yml
 - filename: creatio-process-content-api-openapi.yml
   format: yaml
   label: Creatio Process Content API
   slug: creatio-process-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/openapi/creatio-process-content-api-openapi.yml
+  url: https://artifacts.apis.io/creatio/openapi/creatio-process-content-api-openapi.yml
 certification_count: 6
 certifications:
 - ISO/IEC 27001:2013
@@ -54,7 +54,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://www.cre
   \  - name: ISO/IEC 27001:2013\n    status: certified\n    evidence: >-\n      \"ISO / IEC 27001: 2013 compliance certificate issued to the Creatio cloud\n      services.\"\n    document_url: null\n  - name: SOC 1\n    status: claimed\n    evidence: Listed among the standards Creatio's data processing centers comply with.\n    document_url: null\n  - name: SOC 2\n    status: claimed\n    evidence: Listed among the standards Creatio's data processing centers comply with.\n    document_url: null\n  - name: GDPR\n    status: compliant\n    evidence: >-\n      \"The data processing centers are compliant with international industry\n      standards, including GDPR.\" Creatio also publishes a shared security\n      responsibility model and a Data Processing Addendum.\n    document_url: https://www.creatio.com/gdpr/shared-security-responsibility-model\n  - name: HIPAA\n    status: claimed\n    evidence: >-\n      \"Creatio complies with the HIPAA security requirements.\" The HIPAA\n      compliance\
   \ option is listed as an Enterprise-plan capability on the\n      pricing comparison.\n    document_url: null\n  - name: FedRAMP\n    status: badge-displayed\n    evidence: >-\n      A FedRAMP compliance badge is displayed on the security page. No\n      authorization package, agency sponsor or Marketplace listing is linked, so\n      this is recorded as displayed-but-unverified rather than authorized.\n    document_url: null\nsecurity_program:\n  vulnerability_scanning: true\n  penetration_testing: true\n  penetration_testing_note: >-\n    \"Regular internal and external penetration testing for the network and\n    software.\" Third-party tools are also used for scanning and security\n    testing. No report or summary is published.\n  compliance_audits: true\n  bug_bounty: false\n  vulnerability_disclosure_program: false\n  disclosure_note: >-\n    No vulnerability disclosure policy, security@ contact, or bug bounty program\n    was found. /.well-known/security.txt is WAF-blocked (HTTP\
   \ 403) on\n    www.creatio.com, academy.creatio.com and community.creatio.com — blocked,\n    not served, so it is not a published disclosure channel. No listing found on\n    HackerOne, Bugcrowd or Intigriti.\ninfrastructure:\n  hosting:\n    - Amazon Web Services\n    - Microsoft Azure\n  note: Cloud instances are hosted on AWS and Azure data processing centers.\ngaps:\n  - No trust center or certificate portal — attestations are sales-gated.\n  - No published vulnerability disclosure policy or security.txt (403, WAF-blocked).\n  - FedRAMP badge is displayed without a linked authorization.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/security/creatio-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/creatio/security/creatio-trust-center.yml
 summary_line: ISO/IEC 27001:2013, SOC 1, SOC 2, GDPR, HIPAA, FedRAMP
 tags:
 - Company

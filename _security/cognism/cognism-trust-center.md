@@ -5,37 +5,37 @@ api_specs:
   label: Cognism Compliance API
   slug: cognism-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/cognism/openapi/cognism-compliance-api-openapi.yml
 - filename: cognism-enrich-api-openapi.yml
   format: yaml
   label: Cognism Enrich API
   slug: cognism-enrich-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-enrich-api-openapi.yml
+  url: https://artifacts.apis.io/cognism/openapi/cognism-enrich-api-openapi.yml
 - filename: cognism-entitlement-api-openapi.yml
   format: yaml
   label: Cognism Entitlement API
   slug: cognism-entitlement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-entitlement-api-openapi.yml
+  url: https://artifacts.apis.io/cognism/openapi/cognism-entitlement-api-openapi.yml
 - filename: cognism-filter-api-openapi.yml
   format: yaml
   label: Cognism Filter API
   slug: cognism-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-filter-api-openapi.yml
+  url: https://artifacts.apis.io/cognism/openapi/cognism-filter-api-openapi.yml
 - filename: cognism-redeem-api-openapi.yml
   format: yaml
   label: Cognism Redeem API
   slug: cognism-redeem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-redeem-api-openapi.yml
+  url: https://artifacts.apis.io/cognism/openapi/cognism-redeem-api-openapi.yml
 - filename: cognism-search-api-openapi.yml
   format: yaml
   label: Cognism Search API
   slug: cognism-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-search-api-openapi.yml
+  url: https://artifacts.apis.io/cognism/openapi/cognism-search-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -53,7 +53,7 @@ source_filename: cognism-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: https://www.cognism.com/security\nurl: https://www.cognism.com/security\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://www.cognism.com/security\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - trust centre\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/security/cognism-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/cognism/security/cognism-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Sales Intelligence

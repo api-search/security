@@ -7,49 +7,49 @@ api_specs:
   label: ABBYY Catalog Records API
   slug: abbyy-catalogrecords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/openapi/abbyy-catalogrecords-api-openapi.yml
+  url: https://artifacts.apis.io/abbyy/openapi/abbyy-catalogrecords-api-openapi.yml
 - filename: abbyy-catalogs-api-openapi.yml
   format: yaml
   label: ABBYY Catalogs API
   slug: abbyy-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/openapi/abbyy-catalogs-api-openapi.yml
+  url: https://artifacts.apis.io/abbyy/openapi/abbyy-catalogs-api-openapi.yml
 - filename: abbyy-invites-api-openapi.yml
   format: yaml
   label: ABBYY Invites API
   slug: abbyy-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/openapi/abbyy-invites-api-openapi.yml
+  url: https://artifacts.apis.io/abbyy/openapi/abbyy-invites-api-openapi.yml
 - filename: abbyy-report-api-openapi.yml
   format: yaml
   label: ABBYY Report API
   slug: abbyy-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/openapi/abbyy-report-api-openapi.yml
+  url: https://artifacts.apis.io/abbyy/openapi/abbyy-report-api-openapi.yml
 - filename: abbyy-report-v1-api-openapi.yml
   format: yaml
   label: ABBYY Report v1 API
   slug: abbyy-report-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/openapi/abbyy-report-v1-api-openapi.yml
+  url: https://artifacts.apis.io/abbyy/openapi/abbyy-report-v1-api-openapi.yml
 - filename: abbyy-skills-api-openapi.yml
   format: yaml
   label: ABBYY Skills API
   slug: abbyy-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/openapi/abbyy-skills-api-openapi.yml
+  url: https://artifacts.apis.io/abbyy/openapi/abbyy-skills-api-openapi.yml
 - filename: abbyy-transactions-api-openapi.yml
   format: yaml
   label: ABBYY Transactions API
   slug: abbyy-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/openapi/abbyy-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/abbyy/openapi/abbyy-transactions-api-openapi.yml
 - filename: abbyy-transaction-documents-api-openapi.yml
   format: yaml
   label: ABBYY Transaction Documents API
   slug: abbyy-transaction-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/openapi/abbyy-transaction-documents-api-openapi.yml
+  url: https://artifacts.apis.io/abbyy/openapi/abbyy-transaction-documents-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -84,7 +84,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-29'\nmethod: searched\nsource: https://docs.abbyy.com/vantage/developer/authentication/authentication + openapi/_original/abbyy-vantage-processing-openapi.json\n  (fetched https://docs.abbyy.com/openapi.json, HTTP 200)\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: OAuth2Security\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://vantage-us.abbyy.com/auth2/connect/authorize\n    tokenUrl: https://vantage-us.abbyy.com/auth2/connect/token\n    scopes: 3\n  sources:\n  - openapi/abbyy-vantage-processing-openapi.yml\n  - openapi/abbyy-vantage-reporting-openapi.yml\n  - openapi/abbyy-vantage-reporting-v1-openapi.yml\ndocs: https://docs.abbyy.com/vantage/developer/authentication/authentication\nnote: The Vantage OpenAPI declares only the OAuth 2.0 authorization-code flow, but ABBYY documents three flows for\n  the same token endpoint. Bearer token goes in the Authorization header on\
   \ every request. The FlexiCapture Cloud\n  for Invoices API is a separate surface using HTTP Basic auth with an application id and token, base64-encoded.\ndocumented_flows:\n- flow: authorizationCode\n  pkce: true\n  best_for: User-facing applications\n  docs: https://docs.abbyy.com/vantage/developer/authentication/authorization-code-flow\n- flow: clientCredentials\n  best_for: Machine-to-machine integrations\n  docs: https://docs.abbyy.com/vantage/developer/authentication/client-credentials\n- flow: password\n  best_for: Server-to-server integrations (Resource Owner Password Credentials)\n  docs: https://docs.abbyy.com/vantage/developer/authentication/resource-owner-password-credentials\ntoken_endpoints:\n- region: US\n  authorizationUrl: https://vantage-us.abbyy.com/auth2/connect/authorize\n  tokenUrl: https://vantage-us.abbyy.com/auth2/connect/token\n- region: EU\n  authorizationUrl: https://vantage-eu.abbyy.com/auth2/connect/authorize\n  tokenUrl: https://vantage-eu.abbyy.com/auth2/connect/token\n\
   - region: AU\n  authorizationUrl: https://vantage-au.abbyy.com/auth2/connect/authorize\n  tokenUrl: https://vantage-au.abbyy.com/auth2/connect/token\nother_surfaces:\n- api: ABBYY FlexiCapture Cloud for Invoices API\n  type: http\n  scheme: basic\n  credential: application id + token, colon-joined and base64-encoded\n  docs: https://docs.abbyy.com/flexi-capture/cloud/cloud-f-cfor-invoices-api-auth\n- api: ABBYY Documentation MCP Server\n  type: none\n  credential: anonymous — no token required\n  docs: https://docs.abbyy.com/vantage/developer/mcp-server\nonboarding:\n  self_serve: false\n  note: A Vantage tenant is provisioned by ABBYY on request; API clients are then created by the tenant admin under\n    Administration > API clients.\n  request_url: https://www.abbyy.com/company/contact-us/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/authentication/abbyy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/abbyy/authentication/abbyy-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - AI Automation

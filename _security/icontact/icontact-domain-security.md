@@ -5,7 +5,7 @@ api_specs:
   label: iContact REST API
   slug: rest-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/icontact/refs/heads/main/asyncapi/icontact-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/icontact/asyncapi/icontact-webhooks-asyncapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +40,7 @@ source_filename: icontact-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.icontact.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 17:14:40 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: app.icontact.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 19:57:30 2026 GMT\n  hsts: null\ndomains:\n- domain: icontact.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/icontact/refs/heads/main/security/icontact-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/icontact/security/icontact-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Email Marketing

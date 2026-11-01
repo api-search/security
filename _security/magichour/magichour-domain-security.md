@@ -5,25 +5,25 @@ api_specs:
   label: Magic Hour Audio Projects API
   slug: magichour-audio-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magichour/refs/heads/main/openapi/magichour-audio-projects-api-openapi.yml
+  url: https://artifacts.apis.io/magichour/openapi/magichour-audio-projects-api-openapi.yml
 - filename: magichour-files-api-openapi.yml
   format: yaml
   label: Magic Hour Files API
   slug: magichour-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magichour/refs/heads/main/openapi/magichour-files-api-openapi.yml
+  url: https://artifacts.apis.io/magichour/openapi/magichour-files-api-openapi.yml
 - filename: magichour-image-projects-api-openapi.yml
   format: yaml
   label: Magic Hour Image Projects API
   slug: magichour-image-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magichour/refs/heads/main/openapi/magichour-image-projects-api-openapi.yml
+  url: https://artifacts.apis.io/magichour/openapi/magichour-image-projects-api-openapi.yml
 - filename: magichour-video-projects-api-openapi.yml
   format: yaml
   label: Magic Hour Video Projects API
   slug: magichour-video-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magichour/refs/heads/main/openapi/magichour-video-projects-api-openapi.yml
+  url: https://artifacts.apis.io/magichour/openapi/magichour-video-projects-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: magichour-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: magichour.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 03:01:52 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.magichour.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 30 15:26:03 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.magichour.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 03:01:52 2026 GMT\n  hsts: null\ndomains:\n- domain: magichour.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/magichour/refs/heads/main/security/magichour-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/magichour/security/magichour-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI Video

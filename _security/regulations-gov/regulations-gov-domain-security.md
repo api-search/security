@@ -5,25 +5,25 @@ api_specs:
   label: Regulations.gov comment submission utilities API
   slug: regulations-gov-comment-submission-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regulations-gov/refs/heads/main/openapi/regulations-gov-comment-submission-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/regulations-gov/openapi/regulations-gov-comment-submission-utilities-api-openapi.yml
 - filename: regulations-gov-comments-api-openapi.yml
   format: yaml
   label: Regulations.gov Comments API
   slug: regulations-gov-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regulations-gov/refs/heads/main/openapi/regulations-gov-comments-api-openapi.yml
+  url: https://artifacts.apis.io/regulations-gov/openapi/regulations-gov-comments-api-openapi.yml
 - filename: regulations-gov-dockets-api-openapi.yml
   format: yaml
   label: Regulations.gov Dockets API
   slug: regulations-gov-dockets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regulations-gov/refs/heads/main/openapi/regulations-gov-dockets-api-openapi.yml
+  url: https://artifacts.apis.io/regulations-gov/openapi/regulations-gov-dockets-api-openapi.yml
 - filename: regulations-gov-documents-api-openapi.yml
   format: yaml
   label: Regulations.gov Documents API
   slug: regulations-gov-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regulations-gov/refs/heads/main/openapi/regulations-gov-documents-api-openapi.yml
+  url: https://artifacts.apis.io/regulations-gov/openapi/regulations-gov-documents-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: regulations-gov-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.regulations.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 31 23:59:59 2026 GMT\n  hsts: null\n- host: open.gsa.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 10:21:32 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.regulations.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 11 17:21:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: regulations.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: gsa.gov\n  dnssec: true\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"entrust.net\"\n  - 0 issue \"globalsign.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 iodef \"mailto:hostmaster@gsa.gov\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/regulations-gov/refs/heads/main/security/regulations-gov-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/regulations-gov/security/regulations-gov-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Government

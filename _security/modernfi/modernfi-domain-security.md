@@ -5,43 +5,43 @@ api_specs:
   label: ModernFi Accounts API
   slug: modernfi-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/openapi/modernfi-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/modernfi/openapi/modernfi-accounts-api-openapi.yml
 - filename: modernfi-auth-api-openapi.yml
   format: yaml
   label: ModernFi Auth API
   slug: modernfi-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/openapi/modernfi-auth-api-openapi.yml
+  url: https://artifacts.apis.io/modernfi/openapi/modernfi-auth-api-openapi.yml
 - filename: modernfi-custombenchmarks-api-openapi.yml
   format: yaml
   label: ModernFi Custom Benchmarks API
   slug: modernfi-custombenchmarks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/openapi/modernfi-custombenchmarks-api-openapi.yml
+  url: https://artifacts.apis.io/modernfi/openapi/modernfi-custombenchmarks-api-openapi.yml
 - filename: modernfi-depositors-api-openapi.yml
   format: yaml
   label: ModernFi Depositors API
   slug: modernfi-depositors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/openapi/modernfi-depositors-api-openapi.yml
+  url: https://artifacts.apis.io/modernfi/openapi/modernfi-depositors-api-openapi.yml
 - filename: modernfi-files-api-openapi.yml
   format: yaml
   label: ModernFi Files API
   slug: modernfi-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/openapi/modernfi-files-api-openapi.yml
+  url: https://artifacts.apis.io/modernfi/openapi/modernfi-files-api-openapi.yml
 - filename: modernfi-pricinggroups-api-openapi.yml
   format: yaml
   label: ModernFi Pricing Groups API
   slug: modernfi-pricinggroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/openapi/modernfi-pricinggroups-api-openapi.yml
+  url: https://artifacts.apis.io/modernfi/openapi/modernfi-pricinggroups-api-openapi.yml
 - filename: modernfi-transactions-api-openapi.yml
   format: yaml
   label: ModernFi Transactions API
   slug: modernfi-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/openapi/modernfi-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/modernfi/openapi/modernfi-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,7 +81,7 @@ source_filename: modernfi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.modernfi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 24 23:59:59 2027 GMT\n  hsts: null\n- host: api.uat.modernfi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 24 23:59:59 2027 GMT\n  hsts: null\n- host: auth.modernfi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 16:11:40 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: modernfi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/security/modernfi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/modernfi/security/modernfi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

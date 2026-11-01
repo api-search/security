@@ -5,61 +5,61 @@ api_specs:
   label: Amazon Ad Groups API
   slug: amazon-ad-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-ad-groups-api-openapi.yml
+  url: https://artifacts.apis.io/amazon/openapi/amazon-ad-groups-api-openapi.yml
 - filename: amazon-campaigns-api-openapi.yml
   format: yaml
   label: Amazon Campaigns API
   slug: amazon-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/amazon/openapi/amazon-campaigns-api-openapi.yml
 - filename: amazon-charge-permissions-api-openapi.yml
   format: yaml
   label: Amazon Charge Permissions API
   slug: amazon-charge-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-charge-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon/openapi/amazon-charge-permissions-api-openapi.yml
 - filename: amazon-charges-api-openapi.yml
   format: yaml
   label: Amazon Charges API
   slug: amazon-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-charges-api-openapi.yml
+  url: https://artifacts.apis.io/amazon/openapi/amazon-charges-api-openapi.yml
 - filename: amazon-checkout-sessions-api-openapi.yml
   format: yaml
   label: Amazon Checkout Sessions API
   slug: amazon-checkout-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-checkout-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon/openapi/amazon-checkout-sessions-api-openapi.yml
 - filename: amazon-keywords-api-openapi.yml
   format: yaml
   label: Amazon Keywords API
   slug: amazon-keywords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-keywords-api-openapi.yml
+  url: https://artifacts.apis.io/amazon/openapi/amazon-keywords-api-openapi.yml
 - filename: amazon-profiles-api-openapi.yml
   format: yaml
   label: Amazon Profiles API
   slug: amazon-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/amazon/openapi/amazon-profiles-api-openapi.yml
 - filename: amazon-refunds-api-openapi.yml
   format: yaml
   label: Amazon Refunds API
   slug: amazon-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/amazon/openapi/amazon-refunds-api-openapi.yml
 - filename: amazon-reports-api-openapi.yml
   format: yaml
   label: Amazon Ads Reports API
   slug: amazon-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-reports-api-openapi.yml
+  url: https://artifacts.apis.io/amazon/openapi/amazon-reports-api-openapi.yml
 - filename: amazon-targets-api-openapi.yml
   format: yaml
   label: Amazon Targets API
   slug: amazon-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-targets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon/openapi/amazon-targets-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -101,7 +101,7 @@ source_filename: amazon-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  4 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 18 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47474747\n- host: developer-docs.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  9 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/security/amazon-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amazon/security/amazon-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Amazon

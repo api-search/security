@@ -5,19 +5,19 @@ api_specs:
   label: BidMachine Authentication API
   slug: bidmachine-io-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bidmachine-io/refs/heads/main/openapi/bidmachine-io-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/bidmachine-io/openapi/bidmachine-io-authentication-api-openapi.yml
 - filename: bidmachine-io-placements-api-openapi.yml
   format: yaml
   label: BidMachine Placements API
   slug: bidmachine-io-placements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bidmachine-io/refs/heads/main/openapi/bidmachine-io-placements-api-openapi.yml
+  url: https://artifacts.apis.io/bidmachine-io/openapi/bidmachine-io-placements-api-openapi.yml
 - filename: bidmachine-io-reporting-api-openapi.yml
   format: yaml
   label: BidMachine Reporting API
   slug: bidmachine-io-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bidmachine-io/refs/heads/main/openapi/bidmachine-io-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/bidmachine-io/openapi/bidmachine-io-reporting-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: bidmachine-io-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bidmachine.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 08:31:30 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.bidmachine.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  5 14:23:09 2026 GMT\n  hsts: false\n- host: api-eu.bidmachine.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 27 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: bidmachine.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bidmachine-io/refs/heads/main/security/bidmachine-io-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bidmachine-io/security/bidmachine-io-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Advertising

@@ -46,7 +46,7 @@ source_filename: column-tax-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.columntax.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 19:13:30 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.columntax.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 13:46:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: prod.columnapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\ndomains:\n- domain: columntax.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: columnapi.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/column-tax/refs/heads/main/security/column-tax-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/column-tax/security/column-tax-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -5,55 +5,55 @@ api_specs:
   label: Cybereason Authentication API
   slug: cybereason-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/cybereason/openapi/cybereason-authentication-api-openapi.yml
 - filename: cybereason-customdetectionrules-api-openapi.yml
   format: yaml
   label: Cybereason CustomDetectionRules API
   slug: cybereason-customdetectionrules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-customdetectionrules-api-openapi.yml
+  url: https://artifacts.apis.io/cybereason/openapi/cybereason-customdetectionrules-api-openapi.yml
 - filename: cybereason-isolationrules-api-openapi.yml
   format: yaml
   label: Cybereason IsolationRules API
   slug: cybereason-isolationrules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-isolationrules-api-openapi.yml
+  url: https://artifacts.apis.io/cybereason/openapi/cybereason-isolationrules-api-openapi.yml
 - filename: cybereason-malops-api-openapi.yml
   format: yaml
   label: Cybereason Malops API
   slug: cybereason-malops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-malops-api-openapi.yml
+  url: https://artifacts.apis.io/cybereason/openapi/cybereason-malops-api-openapi.yml
 - filename: cybereason-remediation-api-openapi.yml
   format: yaml
   label: Cybereason Remediation API
   slug: cybereason-remediation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-remediation-api-openapi.yml
+  url: https://artifacts.apis.io/cybereason/openapi/cybereason-remediation-api-openapi.yml
 - filename: cybereason-reputation-api-openapi.yml
   format: yaml
   label: Cybereason Reputation API
   slug: cybereason-reputation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-reputation-api-openapi.yml
+  url: https://artifacts.apis.io/cybereason/openapi/cybereason-reputation-api-openapi.yml
 - filename: cybereason-sensors-api-openapi.yml
   format: yaml
   label: Cybereason Sensors API
   slug: cybereason-sensors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-sensors-api-openapi.yml
+  url: https://artifacts.apis.io/cybereason/openapi/cybereason-sensors-api-openapi.yml
 - filename: cybereason-threat-intel-api-openapi.yml
   format: yaml
   label: Cybereason Threat Intel API
   slug: cybereason-threat-intel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-threat-intel-api-openapi.yml
+  url: https://artifacts.apis.io/cybereason/openapi/cybereason-threat-intel-api-openapi.yml
 - filename: cybereason-visual-search-api-openapi.yml
   format: yaml
   label: Cybereason Visual search API
   slug: cybereason-visual-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-visual-search-api-openapi.yml
+  url: https://artifacts.apis.io/cybereason/openapi/cybereason-visual-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -101,7 +101,7 @@ source_filename: cybereason-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cybereason.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 24 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: nest.cybereason.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 24 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.cybereason.net\n  https: false\ndomains:\n- domain: cybereason.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: cybereason.net\n  dnssec: false\n  caa:\n  - 0 issue \"geotrust.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/security/cybereason-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cybereason/security/cybereason-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cybersecurity

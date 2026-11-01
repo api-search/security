@@ -5,31 +5,31 @@ api_specs:
   label: ABC Trainerize Client Data API
   slug: trainerize-client-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainerize/refs/heads/main/openapi/trainerize-client-data-api-openapi.yml
+  url: https://artifacts.apis.io/trainerize/openapi/trainerize-client-data-api-openapi.yml
 - filename: trainerize-clients-api-openapi.yml
   format: yaml
   label: ABC Trainerize Clients API
   slug: trainerize-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainerize/refs/heads/main/openapi/trainerize-clients-api-openapi.yml
+  url: https://artifacts.apis.io/trainerize/openapi/trainerize-clients-api-openapi.yml
 - filename: trainerize-messaging-api-openapi.yml
   format: yaml
   label: ABC Trainerize Messaging API
   slug: trainerize-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainerize/refs/heads/main/openapi/trainerize-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/trainerize/openapi/trainerize-messaging-api-openapi.yml
 - filename: trainerize-training-api-openapi.yml
   format: yaml
   label: ABC Trainerize Training API
   slug: trainerize-training-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainerize/refs/heads/main/openapi/trainerize-training-api-openapi.yml
+  url: https://artifacts.apis.io/trainerize/openapi/trainerize-training-api-openapi.yml
 - filename: trainerize-webhooks-api-openapi.yml
   format: yaml
   label: ABC Trainerize Webhooks API
   slug: trainerize-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainerize/refs/heads/main/openapi/trainerize-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/trainerize/openapi/trainerize-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -85,7 +85,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.trainerize.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 21:06:58 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  server: Cloudflare (fronting)\n  note: Marketing / app site. Fronted by Cloudflare.\n- host: trainerize.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 15 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  note: Apex redirects (301) to www.\n- host: api.trainerize.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 15 23:59:59 2027 GMT\n  hsts: false\n  server: Microsoft-IIS/10.0 (ASP.NET Web API, behind Cloudflare + AWS ELB)\n  note: >-\n    Live API host. Root returns 403 Forbidden; the /v03 version prefix responds\n    200. No HSTS header observed on the API host. Requires provisioned\n    credentials (Studio/Enterprise).\n- host: help.trainerize.com\n  https: true\n  tls_version:\
   \ TLSv1.3\n  cert_expires: Sep 23 23:39:36 2026 GMT\n  hsts: true\n  hsts_max_age: 259200\n  note: Zendesk-hosted help center (CNAME to trainerize.zendesk.com). Returns 403 to automated fetchers.\ndomains:\n- domain: trainerize.com\n  dnssec: false\n  caa: []\n  spf: true\n  spf_policy: '-all'\n  spf_record: 'v=spf1 include:spf.recurly.com include:spf.mandrillapp.com include:mail.zendesk.com include:_spf.google.com include:us._netblocks.mimecast.com include:spf.protection.outlook.com ip4:192.54.252.0/24 ip4:168.215.168.0/24 -all'\n  dmarc: true\n  dmarc_policy: none\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trainerize/refs/heads/main/security/trainerize-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trainerize/security/trainerize-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fitness

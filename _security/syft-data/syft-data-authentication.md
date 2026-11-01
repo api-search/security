@@ -7,19 +7,19 @@ api_specs:
   label: Syft Data Export API
   slug: syft-data-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/openapi/syft-data-export-api-openapi.yml
+  url: https://artifacts.apis.io/syft-data/openapi/syft-data-export-api-openapi.yml
 - filename: syft-data-lookup-api-openapi.yml
   format: yaml
   label: Syft Data Lookup API
   slug: syft-data-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/openapi/syft-data-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/syft-data/openapi/syft-data-lookup-api-openapi.yml
 - filename: syft-data-events-api-openapi.yml
   format: yaml
   label: Syft Data Event Collection API
   slug: syft-data-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/openapi/syft-data-events-api-openapi.yml
+  url: https://artifacts.apis.io/syft-data/openapi/syft-data-events-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -81,7 +81,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://docs.syftdata.com/implementation/lookup-api and https://docs.syftdata.com/ai-agents/connect\napi: Syft Data Lookup & Export API\nsummary: >-\n  Server-side REST APIs authenticate with a Server Secret Key (sk_live_ prefix)\n  as a Bearer token or x-syft-secret-key header. The client-side tracking SDK\n  uses a public sourceId. The MCP server supports OAuth (Auth0) or API-key bearer.\nschemes:\n  - type: http\n    scheme: bearer\n    name: Server Secret Key (Bearer)\n    location: Authorization header\n    format: \"Authorization: Bearer sk_live_...\"\n    used_by: [Lookup API, Export API, MCP server]\n    key_prefix: sk_live_\n    obtain: https://app.syftdata.com/dashboard/settings/snippets\n  - type: apiKey\n    in: header\n    name: x-syft-secret-key\n    format: \"x-syft-secret-key: sk_live_...\"\n    used_by: [Lookup API, Export API]\n  - type: apiKey\n    in: body\n    name: secretKey\n    used_by: [Lookup API]\n\
   \  - type: apiKey\n    name: sourceId\n    location: client SDK init / data attribute\n    used_by: [JavaScript tracking SDK]\n    note: Public source identifier used by the browser tracking pixel; not a secret.\n  - type: oauth2\n    name: MCP OAuth (Auth0)\n    issuer: https://syft-studio.us.auth0.com/\n    used_by: [MCP server (Claude, ChatGPT, Claude Code)]\n    scopes_supported: [openid, profile, email, offline_access]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/authentication/syft-data-authentication.yml
+source_yaml_url: https://artifacts.apis.io/syft-data/authentication/syft-data-authentication.yml
 summary_line: 5 schemes
 tags:
 - Company

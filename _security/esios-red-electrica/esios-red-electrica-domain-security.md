@@ -5,25 +5,25 @@ api_specs:
   label: Red Electrica (e-sios) Archives API
   slug: esios-red-electrica-archives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esios-red-electrica/refs/heads/main/openapi/esios-red-electrica-archives-api-openapi.yml
+  url: https://artifacts.apis.io/esios-red-electrica/openapi/esios-red-electrica-archives-api-openapi.yml
 - filename: esios-red-electrica-calculator-data-api-openapi.yml
   format: yaml
   label: Red Electrica (e-sios) Calculator Data API
   slug: esios-red-electrica-calculator-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esios-red-electrica/refs/heads/main/openapi/esios-red-electrica-calculator-data-api-openapi.yml
+  url: https://artifacts.apis.io/esios-red-electrica/openapi/esios-red-electrica-calculator-data-api-openapi.yml
 - filename: esios-red-electrica-contents-api-openapi.yml
   format: yaml
   label: Red Electrica (e-sios) Contents API
   slug: esios-red-electrica-contents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esios-red-electrica/refs/heads/main/openapi/esios-red-electrica-contents-api-openapi.yml
+  url: https://artifacts.apis.io/esios-red-electrica/openapi/esios-red-electrica-contents-api-openapi.yml
 - filename: esios-red-electrica-es-api-openapi.yml
   format: yaml
   label: Red Electrica (e-sios) Es API
   slug: esios-red-electrica-es-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esios-red-electrica/refs/heads/main/openapi/esios-red-electrica-es-api-openapi.yml
+  url: https://artifacts.apis.io/esios-red-electrica/openapi/esios-red-electrica-es-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: esios-red-electrica-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.esios.ree.es\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 08:54:07 2026 GMT\n  hsts: null\ndomains:\n- domain: ree.es\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/esios-red-electrica/refs/heads/main/security/esios-red-electrica-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/esios-red-electrica/security/esios-red-electrica-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

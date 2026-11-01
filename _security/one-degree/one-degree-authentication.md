@@ -8,37 +8,37 @@ api_specs:
   label: One Degree Housing API
   slug: one-degree-housing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/openapi/one-degree-housing-api-openapi.yml
+  url: https://artifacts.apis.io/one-degree/openapi/one-degree-housing-api-openapi.yml
 - filename: one-degree-locations-api-openapi.yml
   format: yaml
   label: One Degree Locations API
   slug: one-degree-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/openapi/one-degree-locations-api-openapi.yml
+  url: https://artifacts.apis.io/one-degree/openapi/one-degree-locations-api-openapi.yml
 - filename: one-degree-opportunities-api-openapi.yml
   format: yaml
   label: One Degree Opportunities API
   slug: one-degree-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/openapi/one-degree-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/one-degree/openapi/one-degree-opportunities-api-openapi.yml
 - filename: one-degree-organizations-api-openapi.yml
   format: yaml
   label: One Degree Organizations API
   slug: one-degree-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/openapi/one-degree-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/one-degree/openapi/one-degree-organizations-api-openapi.yml
 - filename: one-degree-reference-api-openapi.yml
   format: yaml
   label: One Degree Reference API
   slug: one-degree-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/openapi/one-degree-reference-api-openapi.yml
+  url: https://artifacts.apis.io/one-degree/openapi/one-degree-reference-api-openapi.yml
 - filename: one-degree-submissions-api-openapi.yml
   format: yaml
   label: One Degree Submissions API
   slug: one-degree-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/openapi/one-degree-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/one-degree/openapi/one-degree-submissions-api-openapi.yml
 auth_types:
 - apiKey
 - custom-signature
@@ -81,7 +81,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/one-degree-openapi.yml\ndocs: https://github.com/1deg/resource-server-api-docs/blob/main/docs/requests.md\nsummary:\n  types:\n  - apiKey\n  - custom-signature\n  api_key_in:\n  - query\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: >-\n    All requests require an api_key query parameter. Request a key at\n    http://socialservicedata.org/api/get-key/\n  sources:\n  - openapi/one-degree-openapi.yml\n- name: requestSignature\n  type: custom\n  applies_to:\n  - POST\n  - PUT\n  - DELETE\n  description: >-\n    Write requests must include two additional headers: 1deg-Date (an ISO 8601 UTC timestamp,\n    accepted within a 60-second window) and 1deg-Signature (a request signature). The signature is\n    an HMAC-SHA256 chain: (1) HMAC-SHA256 hex digest of the request body keyed by the API secret\n    token; (2) HMAC-SHA256 hex digest of the 1deg-Date timestamp keyed by the\
   \ step-1 digest;\n    (3) SHA-256 hex digest of the step-2 result.\n  headers:\n  - name: 1deg-Date\n    description: ISO 8601 UTC timestamp (YYYY-MM-DDTHH:mm:ssZ), no milliseconds or timezone offset.\n  - name: 1deg-Signature\n    description: Hexadecimal HMAC-SHA256 request signature authenticating the sender.\n  docs: https://github.com/1deg/resource-server-api-docs/blob/main/docs/request-signatures.md\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/authentication/one-degree-authentication.yml
+source_yaml_url: https://artifacts.apis.io/one-degree/authentication/one-degree-authentication.yml
 summary_line: apiKey/custom-signature · 2 schemes
 tags:
 - Company
@@ -89,7 +89,7 @@ tags:
 - Social Services
 - Community Resources
 - Human Services
-- Public Benefit
+- Public-benefit
 - Housing
 - Open Data
 - Civic Tech

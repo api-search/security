@@ -5,7 +5,7 @@ api_specs:
   label: StarTree (Cortexdata) Query API
   slug: startree-cortexdata-query-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/startree-cortexdata/refs/heads/main/openapi/startree-cortexdata-query-api-api-openapi.yml
+  url: https://artifacts.apis.io/startree-cortexdata/openapi/startree-cortexdata-query-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -34,7 +34,7 @@ source_filename: startree-cortexdata-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.startree.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 02:02:52 2026 GMT\n  hsts: false\ndomains:\n- domain: startree.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/startree-cortexdata/refs/heads/main/security/startree-cortexdata-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/startree-cortexdata/security/startree-cortexdata-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -42,7 +42,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.equifax.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 07:14:04 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.equifax.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  4 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.equifax.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 25 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_note: >-\n    Corrected by hand from a live HEAD https://api.equifax.com/ on 2026-09-06, which\n    returned 'Strict-Transport-Security: max-age=31536000; includeSubDomains; preload'.\n    probe-domain-security.py recorded null because the Apigee gateway answers its own\n    root with HTTP 404, which raises in the script's urllib path and skips header\n    inspection - a false negative for any API host that 404s '/'.\ndomains:\n\
   - domain: equifax.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/equifax/refs/heads/main/security/equifax-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/equifax/security/equifax-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Credit

@@ -5,61 +5,85 @@ api_specs:
   label: Amazon MediaTailor Channel API
   slug: amazon-mediatailor-channel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/openapi/amazon-mediatailor-channel-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-channel-api-openapi.yml
 - filename: amazon-mediatailor-channels-api-openapi.yml
   format: yaml
   label: Amazon MediaTailor Channels API
   slug: amazon-mediatailor-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/openapi/amazon-mediatailor-channels-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-channels-api-openapi.yml
 - filename: amazon-mediatailor-tags-api-openapi.yml
   format: yaml
   label: Amazon MediaTailor Tags API
   slug: amazon-mediatailor-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/openapi/amazon-mediatailor-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-tags-api-openapi.yml
 - filename: amazon-mediatailor-alerts-api-openapi.yml
   format: yaml
   label: Amazon MediaTailor Alerts API
   slug: amazon-mediatailor-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/openapi/amazon-mediatailor-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-alerts-api-openapi.yml
 - filename: amazon-mediatailor-configure-logs-api-openapi.yml
   format: yaml
   label: Amazon MediaTailor Configure Logs API
   slug: amazon-mediatailor-configure-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/openapi/amazon-mediatailor-configure-logs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-configure-logs-api-openapi.yml
 - filename: amazon-mediatailor-playback-configuration-api-openapi.yml
   format: yaml
   label: Amazon MediaTailor Playback Configuration API
   slug: amazon-mediatailor-playback-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/openapi/amazon-mediatailor-playback-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-playback-configuration-api-openapi.yml
 - filename: amazon-mediatailor-playback-configurations-api-openapi.yml
   format: yaml
   label: Amazon MediaTailor Playback Configurations API
   slug: amazon-mediatailor-playback-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/openapi/amazon-mediatailor-playback-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-playback-configurations-api-openapi.yml
 - filename: amazon-mediatailor-prefetch-schedule-api-openapi.yml
   format: yaml
   label: Amazon MediaTailor Prefetch Schedule API
   slug: amazon-mediatailor-prefetch-schedule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/openapi/amazon-mediatailor-prefetch-schedule-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-prefetch-schedule-api-openapi.yml
 - filename: amazon-mediatailor-source-location-api-openapi.yml
   format: yaml
   label: Amazon MediaTailor Source Location API
   slug: amazon-mediatailor-source-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/openapi/amazon-mediatailor-source-location-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-source-location-api-openapi.yml
 - filename: amazon-mediatailor-source-locations-api-openapi.yml
   format: yaml
   label: Amazon MediaTailor Source Locations API
   slug: amazon-mediatailor-source-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/openapi/amazon-mediatailor-source-locations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-source-locations-api-openapi.yml
+- filename: amazon-mediatailor-function-api-openapi.yml
+  format: yaml
+  label: Amazon MediaTailor Mediatailor Function API
+  slug: amazon-mediatailor-function-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-function-api-openapi.yml
+- filename: amazon-mediatailor-livesource-api-openapi.yml
+  format: yaml
+  label: Amazon MediaTailor Mediatailor Livesource API
+  slug: amazon-mediatailor-livesource-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-livesource-api-openapi.yml
+- filename: amazon-mediatailor-operations-api-openapi.yml
+  format: yaml
+  label: Amazon MediaTailor Mediatailor Operations API
+  slug: amazon-mediatailor-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-operations-api-openapi.yml
+- filename: amazon-mediatailor-vodsource-api-openapi.yml
+  format: yaml
+  label: Amazon MediaTailor Mediatailor Vodsource API
+  slug: amazon-mediatailor-vodsource-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-vodsource-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -89,7 +113,7 @@ source_filename: amazon-mediatailor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/security/amazon-mediatailor-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amazon-mediatailor/security/amazon-mediatailor-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Broadcasting

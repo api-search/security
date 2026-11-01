@@ -5,19 +5,19 @@ api_specs:
   label: Snyk Container Projects API
   slug: snyk-container-container-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/openapi/snyk-container-container-projects-api-openapi.yml
+  url: https://artifacts.apis.io/snyk-container/openapi/snyk-container-container-projects-api-openapi.yml
 - filename: snyk-container-issues-api-openapi.yml
   format: yaml
   label: Snyk Container Issues API
   slug: snyk-container-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/openapi/snyk-container-issues-api-openapi.yml
+  url: https://artifacts.apis.io/snyk-container/openapi/snyk-container-issues-api-openapi.yml
 - filename: snyk-container-targets-api-openapi.yml
   format: yaml
   label: Snyk Container Targets API
   slug: snyk-container-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/openapi/snyk-container-targets-api-openapi.yml
+  url: https://artifacts.apis.io/snyk-container/openapi/snyk-container-targets-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -36,7 +36,7 @@ source_filename: snyk-container-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.snyk.io/\nurl: https://trust.snyk.io/\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://trust.snyk.io/\n  keywords:\n  - soc2\n  - iso 27001\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/security/snyk-container-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/snyk-container/security/snyk-container-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Container Images

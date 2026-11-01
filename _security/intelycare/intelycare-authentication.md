@@ -8,25 +8,25 @@ api_specs:
   label: IntelyCare Check In / Check Out API
   slug: intelycare-check-in-check-out-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/openapi/intelycare-check-in-check-out-api-openapi.yml
+  url: https://artifacts.apis.io/intelycare/openapi/intelycare-check-in-check-out-api-openapi.yml
 - filename: intelycare-shift-api-openapi.yml
   format: yaml
   label: IntelyCare Shift API
   slug: intelycare-shift-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/openapi/intelycare-shift-api-openapi.yml
+  url: https://artifacts.apis.io/intelycare/openapi/intelycare-shift-api-openapi.yml
 - filename: intelycare-webhook-events-api-openapi.yml
   format: yaml
   label: IntelyCare Webhook Events API
   slug: intelycare-webhook-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/openapi/intelycare-webhook-events-api-openapi.yml
+  url: https://artifacts.apis.io/intelycare/openapi/intelycare-webhook-events-api-openapi.yml
 - filename: intelycare-time-card-api-openapi.yml
   format: yaml
   label: IntelyCare Time Card API
   slug: intelycare-time-card-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/openapi/intelycare-time-card-api-openapi.yml
+  url: https://artifacts.apis.io/intelycare/openapi/intelycare-time-card-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-08-01'\nmethod: searched\nsource: openapi/intelyc
   \  scope. \"API Keys are tied to individual clients and cannot be used outside their provided\n    scope.\"\n  example_shape: uuid v4\n  applies_to:\n  - shift_create_api_v1\n  - shift_update_api_v1\n  - shift_delete_api_v1\n  - timecard_create_api_v1\n  - update_timecard_api_v1\n  - check_in_out_api_v1\n  sources:\n  - openapi/intelycare-external-scheduling-openapi.yml\n- name: HMACSignature\n  type: apiKey\n  in: header\n  parameter: X-Signature-IC\n  direction: outbound\n  actual_mechanism: HMAC-SHA256 hex digest of the body payload, computed with the webhook secret\n  description: >-\n    The hash signature of the payload. IntelyCare webhooks use a HMAC hex digest (SHA256) to\n    compute the signature of the body payload with the webhook secret. Verify in constant time\n    before processing a webhook; it is the only authentication on the callback.\n  applies_to:\n  - shift_accept_webhook_v1\n  - shift_release_webhook_v1\n  sources:\n  - openapi/intelycare-external-scheduling-openapi.yml\n\
   companion_headers:\n- name: X-CLIENT-ID\n  required: true\n  description: >-\n    IntelyCare's unique identifier of the client. Required on all six REST operations alongside\n    X-API-KEY. It is declared as a required parameter on every operation but is NOT declared as a\n    securityScheme, so a spec-driven client generator will not treat it as a credential.\n  applies_to:\n  - shift_create_api_v1\n  - shift_update_api_v1\n  - shift_delete_api_v1\n  - timecard_create_api_v1\n  - update_timecard_api_v1\n  - check_in_out_api_v1\nkey_management:\n  self_serve: false\n  rotation_policy: not published\n  provisioning: Keys are issued per client by IntelyCare; contact apisupport@intelycare.com\n  scopes: none — the key is scoped to a client, not to permissions\n  expiry: not published\nfailure_mode:\n  status: 401\n  body: {message: Unauthorized}\n  header: WWW_Authenticate\n  header_note: >-\n    Declared with an underscore in the published spec; the RFC 9110 header is WWW-Authenticate.\n\
   gaps:\n- No OAuth 2.0 or OpenID Connect; /.well-known/openid-configuration and\n  /.well-known/oauth-authorization-server return 404 (www) / 403 (api host).\n- No scope or permission model — a key is all-or-nothing inside its client scope.\n- X-CLIENT-ID is a required credential-adjacent header but is not modelled as a securityScheme.\n- No documented key rotation, expiry, or revocation process.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/authentication/intelycare-authentication.yml
+source_yaml_url: https://artifacts.apis.io/intelycare/authentication/intelycare-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Healthcare

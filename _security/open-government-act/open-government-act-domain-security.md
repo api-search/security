@@ -28,7 +28,7 @@ source_filename: open-government-act-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.data.act.gov.au\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov  1 19:08:08 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: act.gov.au\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-government-act/refs/heads/main/security/open-government-act-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/open-government-act/security/open-government-act-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Government

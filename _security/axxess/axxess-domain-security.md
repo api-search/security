@@ -32,10 +32,10 @@ source_filename: axxess-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.axxess.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 14 15:21:53 2026 GMT\n  hsts: false\n- host: engage.axxess.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 10:39:38 2026 GMT\n  hsts: false\ndomains:\n- domain: axxess.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/axxess/refs/heads/main/security/axxess-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/axxess/security/axxess-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
-- Home Health
+- Home Care
 - Hospice
 - Private Duty
 - Electronic Health Records
@@ -45,5 +45,4 @@ tags:
 - Billing
 - Scheduling
 - Visit Documentation
-- Home Care
 ---

@@ -27,7 +27,7 @@ source_filename: tactile-games-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tactilegames.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 14:30:53 2026 GMT\n  hsts: false\ndomains:\n- domain: tactilegames.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tactile-games/refs/heads/main/security/tactile-games-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tactile-games/security/tactile-games-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

@@ -5,19 +5,19 @@ api_specs:
   label: Switchfly Machine to Machine (OAuth2 & Refund) API
   slug: switchfly-machine-to-machine-oauth2-refund-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switchfly/refs/heads/main/openapi/switchfly-machine-to-machine-oauth2-refund-api-openapi.yml
+  url: https://artifacts.apis.io/switchfly/openapi/switchfly-machine-to-machine-oauth2-refund-api-openapi.yml
 - filename: switchfly-oauth-2-sso-authorize-api-openapi.yml
   format: yaml
   label: Switchfly OAuth 2 - SSO Authorize API
   slug: switchfly-oauth-2-sso-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switchfly/refs/heads/main/openapi/switchfly-oauth-2-sso-authorize-api-openapi.yml
+  url: https://artifacts.apis.io/switchfly/openapi/switchfly-oauth-2-sso-authorize-api-openapi.yml
 - filename: switchfly-shopping-flow-api-openapi.yml
   format: yaml
   label: Switchfly Shopping Flow API
   slug: switchfly-shopping-flow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switchfly/refs/heads/main/openapi/switchfly-shopping-flow-api-openapi.yml
+  url: https://artifacts.apis.io/switchfly/openapi/switchfly-shopping-flow-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: switchfly-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.switchfly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 10:42:46 2026 GMT\n  hsts: true\n  hsts_max_age: 3628800\ndomains:\n- domain: switchfly.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/switchfly/refs/heads/main/security/switchfly-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/switchfly/security/switchfly-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

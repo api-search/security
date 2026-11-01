@@ -8,79 +8,79 @@ api_specs:
   label: 4Paradigm Account API
   slug: 4paradigm-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/openapi/4paradigm-account-api-openapi.yml
+  url: https://artifacts.apis.io/4paradigm/openapi/4paradigm-account-api-openapi.yml
 - filename: 4paradigm-applications-api-openapi.yml
   format: yaml
   label: 4Paradigm Applications API
   slug: 4paradigm-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/openapi/4paradigm-applications-api-openapi.yml
+  url: https://artifacts.apis.io/4paradigm/openapi/4paradigm-applications-api-openapi.yml
 - filename: 4paradigm-competition-api-openapi.yml
   format: yaml
   label: 4Paradigm Competition API
   slug: 4paradigm-competition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/openapi/4paradigm-competition-api-openapi.yml
+  url: https://artifacts.apis.io/4paradigm/openapi/4paradigm-competition-api-openapi.yml
 - filename: 4paradigm-computeunit-api-openapi.yml
   format: yaml
   label: 4Paradigm Computeunit API
   slug: 4paradigm-computeunit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/openapi/4paradigm-computeunit-api-openapi.yml
+  url: https://artifacts.apis.io/4paradigm/openapi/4paradigm-computeunit-api-openapi.yml
 - filename: 4paradigm-computing-resource-api-openapi.yml
   format: yaml
   label: 4Paradigm Computing Resource API
   slug: 4paradigm-computing-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/openapi/4paradigm-computing-resource-api-openapi.yml
+  url: https://artifacts.apis.io/4paradigm/openapi/4paradigm-computing-resource-api-openapi.yml
 - filename: 4paradigm-environments-api-openapi.yml
   format: yaml
   label: 4Paradigm Environments API
   slug: 4paradigm-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/openapi/4paradigm-environments-api-openapi.yml
+  url: https://artifacts.apis.io/4paradigm/openapi/4paradigm-environments-api-openapi.yml
 - filename: 4paradigm-finished-api-openapi.yml
   format: yaml
   label: 4Paradigm Finished API
   slug: 4paradigm-finished-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/openapi/4paradigm-finished-api-openapi.yml
+  url: https://artifacts.apis.io/4paradigm/openapi/4paradigm-finished-api-openapi.yml
 - filename: 4paradigm-images-api-openapi.yml
   format: yaml
   label: 4Paradigm Images API
   slug: 4paradigm-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/openapi/4paradigm-images-api-openapi.yml
+  url: https://artifacts.apis.io/4paradigm/openapi/4paradigm-images-api-openapi.yml
 - filename: 4paradigm-logs-api-openapi.yml
   format: yaml
   label: 4Paradigm Logs API
   slug: 4paradigm-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/openapi/4paradigm-logs-api-openapi.yml
+  url: https://artifacts.apis.io/4paradigm/openapi/4paradigm-logs-api-openapi.yml
 - filename: 4paradigm-releases-api-openapi.yml
   format: yaml
   label: 4Paradigm Releases API
   slug: 4paradigm-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/openapi/4paradigm-releases-api-openapi.yml
+  url: https://artifacts.apis.io/4paradigm/openapi/4paradigm-releases-api-openapi.yml
 - filename: 4paradigm-storage-api-openapi.yml
   format: yaml
   label: 4Paradigm Storage API
   slug: 4paradigm-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/openapi/4paradigm-storage-api-openapi.yml
+  url: https://artifacts.apis.io/4paradigm/openapi/4paradigm-storage-api-openapi.yml
 - filename: 4paradigm-users-api-openapi.yml
   format: yaml
   label: 4Paradigm Users API
   slug: 4paradigm-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/openapi/4paradigm-users-api-openapi.yml
+  url: https://artifacts.apis.io/4paradigm/openapi/4paradigm-users-api-openapi.yml
 - filename: 4paradigm-app-store-api-openapi.yml
   format: yaml
   label: 4Paradigm App Store API
   slug: 4paradigm-app-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/openapi/4paradigm-app-store-api-openapi.yml
+  url: https://artifacts.apis.io/4paradigm/openapi/4paradigm-app-store-api-openapi.yml
 auth_types:
 - apiKey
 - openIdConnect
@@ -150,7 +150,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: >-\n  derived f
   \  surface: OpenMLDB (SDKs, CLI, APIServer, TaskManager)\n  status: alpha, disabled by default\n  docs: https://openmldb.ai/docs/en/main/deploy/auth.html\n  detail: >-\n    Introduced in 0.8.5 and made an explicit alpha in 0.9.0. Off unless every client and server is\n    started with --skip_grant_tables=false. Until then the cluster accepts the root user with an EMPTY\n    password, and CREATE USER / ALTER USER / DELETE USER are rejected. Credentials are set with SQL\n    (`alter user root set options (password='...')`), and the APIServer and TaskManager must\n    themselves be reconfigured with --user/--password because they connect as clients.\n- name: ZooKeeper credentials\n  type: username-password\n  surface: OpenMLDB cluster coordination\n  status: available since 0.8.4\n  docs: https://openmldb.ai/docs/en/main/deploy/auth.html\n  detail: >-\n    Separate from cluster authentication. Configured as zookeeper.cert=user:passwd (TaskManager),\n    --zk_cert=user:passwd (servers and\
   \ CLI), SdkOption.setZkCert(...) (Java) or zkCert= (Python), and\n    it may be passed inside a JDBC URL — which puts a credential in a connection string.\n- name: PhanthyMotus driver MCP endpoints\n  type: none\n  surface: 'http://localhost:<port>/mcp, 16 driver bundles'\n  sources:\n  - mcp/4paradigm-mcp.yml\n  detail: >-\n    No auth is declared in any driver.yaml. The security model is the loopback bind plus the private\n    network the robot sits on. Identity, pairing and signed requests exist only for robot-to-robot peer\n    delegation, not for the tool surface an agent calls.\n- name: Sage App Store catalogue API\n  type: none\n  surface: https://apps.4paradigm.com/api\n  method: probed\n  detail: >-\n    Live, public and unauthenticated — /api/model, /api/model-category, /api/solutions,\n    /api/highlights/latest and /api/top-banners all returned 200 application/json to an anonymous\n    request on 2026-09-05. Read-only catalogue content; no credential is offered or required.\n\
   mtls:\n  supported: false\ntoken_endpoints:\n  published: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/authentication/4paradigm-authentication.yml
+source_yaml_url: https://artifacts.apis.io/4paradigm/authentication/4paradigm-authentication.yml
 summary_line: apiKey/openIdConnect/none · 6 schemes
 tags:
 - Company

@@ -40,7 +40,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: amperecomputing.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 17:18:29 2026 GMT\n  hsts: false\n  chain_certs: 4\n  chain_verifies: true\n- host: api.amperecomputing.com\n  https: true\n  cert_subject: CN=api.amperecomputing.com\n  cert_issuer: 'C=US, O=GoDaddy.com, CN=GoDaddy TLS Intermediate CA DV - R1v1'\n  cert_not_before: Jun  8 21:46:34 2026 GMT\n  cert_expires: Dec 23 21:46:34 2026 GMT\n  chain_certs: 2\n  chain_verifies: false\n  chain_error: 'openssl verify code 20 (unable to get local issuer certificate); curl\n    exits 60 without -k, while the control host amperecomputing.com verifies cleanly\n    from the same trust store — the gateway serves an incomplete/unanchored chain'\n  note: Azure API Management gateway (apim-ampere-prod.azure-api.net); not listed in\n    apis.yml because no public API product is published on it\ndomains:\n\
   - domain: amperecomputing.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ampere-computing/refs/heads/main/security/ampere-computing-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ampere-computing/security/ampere-computing-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -24,7 +24,7 @@ source_filename: indieflow-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: indieflow.me\n  https: false\ndomains:\n- domain: indieflow.me\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/indieflow/refs/heads/main/security/indieflow-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/indieflow/security/indieflow-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

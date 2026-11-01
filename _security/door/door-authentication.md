@@ -7,37 +7,37 @@ api_specs:
   label: Door Access Management API
   slug: door-access-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/door/refs/heads/main/openapi/door-access-management-api-openapi.yml
+  url: https://artifacts.apis.io/door/openapi/door-access-management-api-openapi.yml
 - filename: door-buildings-api-openapi.yml
   format: yaml
   label: Door Buildings API
   slug: door-buildings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/door/refs/heads/main/openapi/door-buildings-api-openapi.yml
+  url: https://artifacts.apis.io/door/openapi/door-buildings-api-openapi.yml
 - filename: door-doors-and-keys-api-openapi.yml
   format: yaml
   label: Door Doors and Keys API
   slug: door-doors-and-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/door/refs/heads/main/openapi/door-doors-and-keys-api-openapi.yml
+  url: https://artifacts.apis.io/door/openapi/door-doors-and-keys-api-openapi.yml
 - filename: door-partner-authentication-api-openapi.yml
   format: yaml
   label: Door Partner Authentication API
   slug: door-partner-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/door/refs/heads/main/openapi/door-partner-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/door/openapi/door-partner-authentication-api-openapi.yml
 - filename: door-user-authentication-api-openapi.yml
   format: yaml
   label: Door User Authentication API
   slug: door-user-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/door/refs/heads/main/openapi/door-user-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/door/openapi/door-user-authentication-api-openapi.yml
 - filename: door-users-api-openapi.yml
   format: yaml
   label: Door Users API
   slug: door-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/door/refs/heads/main/openapi/door-users-api-openapi.yml
+  url: https://artifacts.apis.io/door/openapi/door-users-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -87,7 +87,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/door-partner-openapi.json, openapi/door-authentication-openapi.json\ndocs: https://developers.door.com/docs/partner-backend.md\nsummary:\n  types:\n  - http\n  - oauth2\n  api_key_in: []\n  oauth2_flows:\n  - clientCredentials\n  - passwordless\nmodel: >-\n  OpenDOOR uses Auth0 (auth.prod.latch.com) as its identity provider. DOOR issues each\n  partner a unique Auth0 application with two credential sets: partner-scoped (machine-to-machine,\n  client_credentials) and user-scoped (passwordless, email verification code). The Partner\n  backend exchanges its Client ID/Secret for a JWT; the JWT is presented as a Bearer token\n  to the OpenDOOR Partner REST API (rest.latchaccess.com). Tokens are scoped by claims\n  (Partner ID, and User ID for user-scoped tokens) rather than by OAuth scope strings.\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  applies_to: openapi/door-partner-openapi.json\n\
   \  sources:\n  - openapi/door-partner-openapi.json\n- name: partner-m2m\n  type: oauth2\n  flow: clientCredentials\n  token_url: https://auth.prod.latch.com/oauth/token\n  description: >-\n    Partner-scoped (machine-to-machine) token for non-user OpenDOOR API calls. Client ID/Secret\n    provisioned by DOOR through secure channels; DOOR reserves the right to rotate the secret.\n  sources:\n  - https://developers.door.com/docs/partner-backend.md\n  - openapi/door-authentication-openapi.json\n- name: user-passwordless\n  type: oauth2\n  flow: passwordless\n  start_url: https://auth.prod.latch.com/passwordless/start\n  token_url: https://auth.prod.latch.com/oauth/token\n  description: >-\n    User-scoped token obtained via email-based verification code (Auth0 passwordless, connection=email).\n    Used to make SDK/API calls on behalf of a provisioned end-user. No user password is collected.\n  sources:\n  - https://developers.door.com/docs/partner-backend.md\n  - openapi/door-authentication-openapi.json\n\
   idp:\n  provider: Auth0\n  issuer: https://auth.prod.latch.com/\n  openid_configuration: well-known/door-openid-configuration.json\n  jwks_uri: https://auth.prod.latch.com/.well-known/jwks.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/door/refs/heads/main/authentication/door-authentication.yml
+source_yaml_url: https://artifacts.apis.io/door/authentication/door-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Company

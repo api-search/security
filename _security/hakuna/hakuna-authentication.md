@@ -8,61 +8,61 @@ api_specs:
   label: Hakuna Absences API
   slug: hakuna-absences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/openapi/hakuna-absences-api-openapi.yml
+  url: https://artifacts.apis.io/hakuna/openapi/hakuna-absences-api-openapi.yml
 - filename: hakuna-company-api-openapi.yml
   format: yaml
   label: Hakuna Company API
   slug: hakuna-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/openapi/hakuna-company-api-openapi.yml
+  url: https://artifacts.apis.io/hakuna/openapi/hakuna-company-api-openapi.yml
 - filename: hakuna-management-api-openapi.yml
   format: yaml
   label: Hakuna Management API
   slug: hakuna-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/openapi/hakuna-management-api-openapi.yml
+  url: https://artifacts.apis.io/hakuna/openapi/hakuna-management-api-openapi.yml
 - filename: hakuna-organization-api-openapi.yml
   format: yaml
   label: Hakuna Organization API
   slug: hakuna-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/openapi/hakuna-organization-api-openapi.yml
+  url: https://artifacts.apis.io/hakuna/openapi/hakuna-organization-api-openapi.yml
 - filename: hakuna-overview-api-openapi.yml
   format: yaml
   label: Hakuna Overview API
   slug: hakuna-overview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/openapi/hakuna-overview-api-openapi.yml
+  url: https://artifacts.apis.io/hakuna/openapi/hakuna-overview-api-openapi.yml
 - filename: hakuna-projects-api-openapi.yml
   format: yaml
   label: Hakuna Projects API
   slug: hakuna-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/openapi/hakuna-projects-api-openapi.yml
+  url: https://artifacts.apis.io/hakuna/openapi/hakuna-projects-api-openapi.yml
 - filename: hakuna-tasks-api-openapi.yml
   format: yaml
   label: Hakuna Tasks API
   slug: hakuna-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/openapi/hakuna-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/hakuna/openapi/hakuna-tasks-api-openapi.yml
 - filename: hakuna-time-entries-api-openapi.yml
   format: yaml
   label: Hakuna Time Entries API
   slug: hakuna-time-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/openapi/hakuna-time-entries-api-openapi.yml
+  url: https://artifacts.apis.io/hakuna/openapi/hakuna-time-entries-api-openapi.yml
 - filename: hakuna-timer-api-openapi.yml
   format: yaml
   label: Hakuna Timer API
   slug: hakuna-timer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/openapi/hakuna-timer-api-openapi.yml
+  url: https://artifacts.apis.io/hakuna/openapi/hakuna-timer-api-openapi.yml
 - filename: hakuna-users-api-openapi.yml
   format: yaml
   label: Hakuna Users API
   slug: hakuna-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/openapi/hakuna-users-api-openapi.yml
+  url: https://artifacts.apis.io/hakuna/openapi/hakuna-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -90,7 +90,7 @@ source_filename: hakuna-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/hakuna-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: AuthToken\n  type: apiKey\n  in: header\n  parameter: X-Auth-Token\n  description: Personal API token managed under \"My Settings\". Organization endpoints require\n    a separate organization-level token; management endpoints require an admin token.\n  sources:\n  - openapi/hakuna-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/authentication/hakuna-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hakuna/authentication/hakuna-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

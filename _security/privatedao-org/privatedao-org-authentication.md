@@ -7,91 +7,91 @@ api_specs:
   label: PrivateDAO Acquisition API
   slug: privatedao-org-acquisition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/privatedao-org/refs/heads/main/openapi/privatedao-org-acquisition-api-openapi.yml
+  url: https://artifacts.apis.io/privatedao-org/openapi/privatedao-org-acquisition-api-openapi.yml
 - filename: privatedao-org-agreements-api-openapi.yml
   format: yaml
   label: PrivateDAO Agreements API
   slug: privatedao-org-agreements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/privatedao-org/refs/heads/main/openapi/privatedao-org-agreements-api-openapi.yml
+  url: https://artifacts.apis.io/privatedao-org/openapi/privatedao-org-agreements-api-openapi.yml
 - filename: privatedao-org-discovery-api-openapi.yml
   format: yaml
   label: PrivateDAO Discovery API
   slug: privatedao-org-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/privatedao-org/refs/heads/main/openapi/privatedao-org-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/privatedao-org/openapi/privatedao-org-discovery-api-openapi.yml
 - filename: privatedao-org-health-api-openapi.yml
   format: yaml
   label: PrivateDAO Health API
   slug: privatedao-org-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/privatedao-org/refs/heads/main/openapi/privatedao-org-health-api-openapi.yml
+  url: https://artifacts.apis.io/privatedao-org/openapi/privatedao-org-health-api-openapi.yml
 - filename: privatedao-org-jobs-api-openapi.yml
   format: yaml
   label: PrivateDAO Jobs API
   slug: privatedao-org-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/privatedao-org/refs/heads/main/openapi/privatedao-org-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/privatedao-org/openapi/privatedao-org-jobs-api-openapi.yml
 - filename: privatedao-org-logistics-api-openapi.yml
   format: yaml
   label: PrivateDAO Logistics API
   slug: privatedao-org-logistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/privatedao-org/refs/heads/main/openapi/privatedao-org-logistics-api-openapi.yml
+  url: https://artifacts.apis.io/privatedao-org/openapi/privatedao-org-logistics-api-openapi.yml
 - filename: privatedao-org-marketplace-api-openapi.yml
   format: yaml
   label: PrivateDAO Marketplace API
   slug: privatedao-org-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/privatedao-org/refs/heads/main/openapi/privatedao-org-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/privatedao-org/openapi/privatedao-org-marketplace-api-openapi.yml
 - filename: privatedao-org-pricing-api-openapi.yml
   format: yaml
   label: PrivateDAO Pricing API
   slug: privatedao-org-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/privatedao-org/refs/heads/main/openapi/privatedao-org-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/privatedao-org/openapi/privatedao-org-pricing-api-openapi.yml
 - filename: privatedao-org-proof-workflows-api-openapi.yml
   format: yaml
   label: PrivateDAO Proof Workflows API
   slug: privatedao-org-proof-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/privatedao-org/refs/heads/main/openapi/privatedao-org-proof-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/privatedao-org/openapi/privatedao-org-proof-workflows-api-openapi.yml
 - filename: privatedao-org-receipts-api-openapi.yml
   format: yaml
   label: PrivateDAO Receipts API
   slug: privatedao-org-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/privatedao-org/refs/heads/main/openapi/privatedao-org-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/privatedao-org/openapi/privatedao-org-receipts-api-openapi.yml
 - filename: privatedao-org-referrals-api-openapi.yml
   format: yaml
   label: PrivateDAO Referrals API
   slug: privatedao-org-referrals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/privatedao-org/refs/heads/main/openapi/privatedao-org-referrals-api-openapi.yml
+  url: https://artifacts.apis.io/privatedao-org/openapi/privatedao-org-referrals-api-openapi.yml
 - filename: privatedao-org-registry-api-openapi.yml
   format: yaml
   label: PrivateDAO Registry API
   slug: privatedao-org-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/privatedao-org/refs/heads/main/openapi/privatedao-org-registry-api-openapi.yml
+  url: https://artifacts.apis.io/privatedao-org/openapi/privatedao-org-registry-api-openapi.yml
 - filename: privatedao-org-revenue-api-openapi.yml
   format: yaml
   label: PrivateDAO Revenue API
   slug: privatedao-org-revenue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/privatedao-org/refs/heads/main/openapi/privatedao-org-revenue-api-openapi.yml
+  url: https://artifacts.apis.io/privatedao-org/openapi/privatedao-org-revenue-api-openapi.yml
 - filename: privatedao-org-services-api-openapi.yml
   format: yaml
   label: PrivateDAO Services API
   slug: privatedao-org-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/privatedao-org/refs/heads/main/openapi/privatedao-org-services-api-openapi.yml
+  url: https://artifacts.apis.io/privatedao-org/openapi/privatedao-org-services-api-openapi.yml
 - filename: privatedao-org-treasury-api-openapi.yml
   format: yaml
   label: PrivateDAO Treasury API
   slug: privatedao-org-treasury-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/privatedao-org/refs/heads/main/openapi/privatedao-org-treasury-api-openapi.yml
+  url: https://artifacts.apis.io/privatedao-org/openapi/privatedao-org-treasury-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -128,7 +128,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://agents.privatedao.org/.well-known/agent-card.json (authentication.schemes), https://agents.privatedao.org/llms.txt,\n  both OpenAPIs (no components.securitySchemes, no security requirement), https://privatedao.org/developers/blind-policy-api/\n  and /blind-policy-sdk/ (client created with baseUrl only, no credential), CORS preflight headers observed on api.privatedao.org\n  (2026-09-19).\ndocs: https://agents.privatedao.org/llms.txt\nsummary: 'Neither public API requires a credential. The Agent Exchange gates paid services by payment, not identity:\n  a paid createJob returns 402 with a payment_intent and is unlocked by submitting a finalized Solana mainnet USDC\n  transaction signature. The Blind Policy API console and SDK call https://api.privatedao.org/api/v1 with no key.\n  derive-authentication.py found no securitySchemes in either spec, which is why this profile is hand-written from\n  the docs rather than derived.'\n\
   schemes:\n- id: none\n  type: none\n  apis:\n  - agent-exchange\n  - blind-policy\n  evidence: Agent Card authentication.schemes includes \"none\"; every GET and the free createJob services were called\n    anonymously during this pass.\n- id: solana-payment\n  type: payment-gate\n  apis:\n  - agent-exchange\n  status_code: 402\n  field: payment_intent\n  flow: POST /api/jobs -> 402 payment_intent (exact USDC quote + treasury token account) -> agent signs its own\n    finalized USDC transfer on solana:mainnet-beta -> POST /api/jobs/{jobId}/payment {signature} -> GET /api/jobs/{jobId}\n  evidence: Agent Card authentication.schemes includes \"solana-payment\"; workflow.paid and payment blocks; llms.txt\n    flow line.\n  note: Not a registered A2A/OpenAPI security scheme type; it authorises one job, not a caller.\nobserved_undocumented:\n- header: x-private-dao-operator-token\n  host: api.privatedao.org\n  evidence: Listed in access-control-allow-headers on https://api.privatedao.org/api/v1/proof-workflows/blind-policy/status\n\
   \  note: Not documented anywhere public; presumably guards operator/anchor routes outside the published Blind Policy\n    contract. Recorded as observed only - no route requiring it was identified and none was probed.\n- header: x-private-dao-anchor-token\n  host: api.privatedao.org\n  evidence: Same CORS allow-list\n  note: As above.\noauth2: null\nopenid_connect: null\napi_keys: null\nmutual_tls: null\ncross_links:\n  conventions: conventions/privatedao-org-conventions.yml\n  conformance: conformance/privatedao-org-conformance.yml\n  a2a: a2a/privatedao-org-a2a.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/privatedao-org/refs/heads/main/authentication/privatedao-org-authentication.yml
+source_yaml_url: https://artifacts.apis.io/privatedao-org/authentication/privatedao-org-authentication.yml
 summary_line: 2 schemes
 tags:
 - Company

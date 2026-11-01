@@ -5,43 +5,43 @@ api_specs:
   label: Yodeck Layouts API
   slug: yodeck-signage-layouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/openapi/yodeck-signage-layouts-api-openapi.yml
+  url: https://artifacts.apis.io/yodeck-signage/openapi/yodeck-signage-layouts-api-openapi.yml
 - filename: yodeck-signage-media-api-openapi.yml
   format: yaml
   label: Yodeck Media API
   slug: yodeck-signage-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/openapi/yodeck-signage-media-api-openapi.yml
+  url: https://artifacts.apis.io/yodeck-signage/openapi/yodeck-signage-media-api-openapi.yml
 - filename: yodeck-signage-playlists-api-openapi.yml
   format: yaml
   label: Yodeck Playlists API
   slug: yodeck-signage-playlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/openapi/yodeck-signage-playlists-api-openapi.yml
+  url: https://artifacts.apis.io/yodeck-signage/openapi/yodeck-signage-playlists-api-openapi.yml
 - filename: yodeck-signage-schedules-api-openapi.yml
   format: yaml
   label: Yodeck Schedules API
   slug: yodeck-signage-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/openapi/yodeck-signage-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/yodeck-signage/openapi/yodeck-signage-schedules-api-openapi.yml
 - filename: yodeck-signage-screens-api-openapi.yml
   format: yaml
   label: Yodeck Screens API
   slug: yodeck-signage-screens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/openapi/yodeck-signage-screens-api-openapi.yml
+  url: https://artifacts.apis.io/yodeck-signage/openapi/yodeck-signage-screens-api-openapi.yml
 - filename: yodeck-signage-shows-api-openapi.yml
   format: yaml
   label: Yodeck Shows API
   slug: yodeck-signage-shows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/openapi/yodeck-signage-shows-api-openapi.yml
+  url: https://artifacts.apis.io/yodeck-signage/openapi/yodeck-signage-shows-api-openapi.yml
 - filename: yodeck-signage-workspaces-api-openapi.yml
   format: yaml
   label: Yodeck Workspaces API
   slug: yodeck-signage-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/openapi/yodeck-signage-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/yodeck-signage/openapi/yodeck-signage-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: yodeck-signage-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.yodeck.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.yodeck.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 16000000\ndomains:\n- domain: yodeck.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/security/yodeck-signage-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/yodeck-signage/security/yodeck-signage-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Digital Signage

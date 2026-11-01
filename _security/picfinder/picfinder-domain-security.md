@@ -37,7 +37,7 @@ source_filename: picfinder-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: picfinder.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 07:55:45 2026 GMT\n  hsts: null\n- host: ws-api.diffusionmaster.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 16:40:22 2026 GMT\n  hsts: null\ndomains:\n- domain: picfinder.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: diffusionmaster.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/picfinder/refs/heads/main/security/picfinder-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/picfinder/security/picfinder-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -7,19 +7,19 @@ api_specs:
   label: Forethought Conversations API
   slug: forethought-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forethought/refs/heads/main/openapi/forethought-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/forethought/openapi/forethought-conversations-api-openapi.yml
 - filename: forethought-metadata-api-openapi.yml
   format: yaml
   label: Forethought Metadata API
   slug: forethought-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forethought/refs/heads/main/openapi/forethought-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/forethought/openapi/forethought-metadata-api-openapi.yml
 - filename: forethought-predictions-api-openapi.yml
   format: yaml
   label: Forethought Predictions API
   slug: forethought-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forethought/refs/heads/main/openapi/forethought-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/forethought/openapi/forethought-predictions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -47,7 +47,7 @@ source_filename: forethought-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/forethought-solve-api-openapi.yml, openapi/forethought-triage-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: Solve API token\n  sources:\n  - openapi/forethought-solve-api-openapi.yml\n  - openapi/forethought-triage-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forethought/refs/heads/main/authentication/forethought-authentication.yml
+source_yaml_url: https://artifacts.apis.io/forethought/authentication/forethought-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

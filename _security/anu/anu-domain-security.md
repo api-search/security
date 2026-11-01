@@ -5,13 +5,13 @@ api_specs:
   label: Australian National University Harvesting API
   slug: anu-harvesting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/openapi/anu-harvesting-api-openapi.yml
+  url: https://artifacts.apis.io/anu/openapi/anu-harvesting-api-openapi.yml
 - filename: anu-random-numbers-api-openapi.yml
   format: yaml
   label: Australian National University Random Numbers API
   slug: anu-random-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/openapi/anu-random-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/anu/openapi/anu-random-numbers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: anu-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.anu.edu.au\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 23 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: qrng.anu.edu.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 23:59:59 2026 GMT\n  hsts: false\n- host: openresearch.anu.edu.au\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 23 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: anu.edu.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/security/anu-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/anu/security/anu-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - University

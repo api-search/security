@@ -8,13 +8,13 @@ api_specs:
   label: Google Gemini Content Generation API
   slug: google-gemini-content-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-gemini/refs/heads/main/openapi/google-gemini-content-generation-api-openapi.yml
+  url: https://artifacts.apis.io/google-gemini/openapi/google-gemini-content-generation-api-openapi.yml
 - filename: google-gemini-embeddings-api-openapi.yml
   format: yaml
   label: Google Gemini Embeddings API
   slug: google-gemini-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-gemini/refs/heads/main/openapi/google-gemini-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/google-gemini/openapi/google-gemini-embeddings-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: google-gemini-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/google-gemini-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: query\n  parameter: key\n  description: API key for authenticating requests. Obtain from Google AI Studio at https://aistudio.google.com/app/apikey.\n  sources:\n  - openapi/google-gemini-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-gemini/refs/heads/main/authentication/google-gemini-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-gemini/authentication/google-gemini-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - AI Agents

@@ -5,43 +5,43 @@ api_specs:
   label: Microsoft Dynamics 365 Business Central Companies API
   slug: microsoft-dynamics-365-business-central-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/openapi/microsoft-dynamics-365-business-central-companies-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-business-central/openapi/microsoft-dynamics-365-business-central-companies-api-openapi.yml
 - filename: microsoft-dynamics-365-business-central-customers-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Business Central Customers API
   slug: microsoft-dynamics-365-business-central-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/openapi/microsoft-dynamics-365-business-central-customers-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-business-central/openapi/microsoft-dynamics-365-business-central-customers-api-openapi.yml
 - filename: microsoft-dynamics-365-business-central-items-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Business Central Items API
   slug: microsoft-dynamics-365-business-central-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/openapi/microsoft-dynamics-365-business-central-items-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-business-central/openapi/microsoft-dynamics-365-business-central-items-api-openapi.yml
 - filename: microsoft-dynamics-365-business-central-vendors-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Business Central Vendors API
   slug: microsoft-dynamics-365-business-central-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/openapi/microsoft-dynamics-365-business-central-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-business-central/openapi/microsoft-dynamics-365-business-central-vendors-api-openapi.yml
 - filename: microsoft-dynamics-365-business-central-purchase-orders-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Business Central Purchase Orders API
   slug: microsoft-dynamics-365-business-central-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/openapi/microsoft-dynamics-365-business-central-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-business-central/openapi/microsoft-dynamics-365-business-central-purchase-orders-api-openapi.yml
 - filename: microsoft-dynamics-365-business-central-sales-invoices-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Business Central Sales Invoices API
   slug: microsoft-dynamics-365-business-central-sales-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/openapi/microsoft-dynamics-365-business-central-sales-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-business-central/openapi/microsoft-dynamics-365-business-central-sales-invoices-api-openapi.yml
 - filename: microsoft-dynamics-365-business-central-sales-orders-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Business Central Sales Orders API
   slug: microsoft-dynamics-365-business-central-sales-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/openapi/microsoft-dynamics-365-business-central-sales-orders-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-business-central/openapi/microsoft-dynamics-365-business-central-sales-orders-api-openapi.yml
 certification_count: 1
 certifications:
 - GDPR
@@ -58,7 +58,7 @@ source_filename: microsoft-dynamics-365-business-central-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.microsoft.com/en-us/trust-center\nurl: https://www.microsoft.com/en-us/trust-center\ncertifications:\n- GDPR\nevidence:\n- source: https://www.microsoft.com/en-us/trust-center\n  keywords:\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/security/microsoft-dynamics-365-business-central-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-dynamics-365-business-central/security/microsoft-dynamics-365-business-central-trust-center.yml
 summary_line: GDPR
 tags:
 - ERP

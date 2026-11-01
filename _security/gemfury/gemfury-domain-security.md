@@ -5,31 +5,31 @@ api_specs:
   label: Gemfury Accounts API
   slug: gemfury-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/openapi/gemfury-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/gemfury/openapi/gemfury-accounts-api-openapi.yml
 - filename: gemfury-members-api-openapi.yml
   format: yaml
   label: Gemfury Members API
   slug: gemfury-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/openapi/gemfury-members-api-openapi.yml
+  url: https://artifacts.apis.io/gemfury/openapi/gemfury-members-api-openapi.yml
 - filename: gemfury-packages-api-openapi.yml
   format: yaml
   label: Gemfury Packages API
   slug: gemfury-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/openapi/gemfury-packages-api-openapi.yml
+  url: https://artifacts.apis.io/gemfury/openapi/gemfury-packages-api-openapi.yml
 - filename: gemfury-tokens-api-openapi.yml
   format: yaml
   label: Gemfury Tokens API
   slug: gemfury-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/openapi/gemfury-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/gemfury/openapi/gemfury-tokens-api-openapi.yml
 - filename: gemfury-versions-api-openapi.yml
   format: yaml
   label: Gemfury Versions API
   slug: gemfury-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/openapi/gemfury-versions-api-openapi.yml
+  url: https://artifacts.apis.io/gemfury/openapi/gemfury-versions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: gemfury-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gemfury.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.fury.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: gemfury.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: fury.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/security/gemfury-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gemfury/security/gemfury-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Package Repository

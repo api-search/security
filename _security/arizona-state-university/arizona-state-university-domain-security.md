@@ -45,7 +45,7 @@ source_filename: arizona-state-university-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.asu.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 13:47:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: dataverse.asu.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 13 21:42:22 2026 GMT\n  hsts: null\n- host: lib.asu.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 21:43:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: asu.edu\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"emsign.com\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arizona-state-university/refs/heads/main/security/arizona-state-university-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/arizona-state-university/security/arizona-state-university-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - University

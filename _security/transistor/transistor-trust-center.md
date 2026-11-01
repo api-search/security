@@ -5,37 +5,37 @@ api_specs:
   label: Transistor Account API
   slug: transistor-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-account-api-openapi.yml
+  url: https://artifacts.apis.io/transistor/openapi/transistor-account-api-openapi.yml
 - filename: transistor-analytics-api-openapi.yml
   format: yaml
   label: Transistor Analytics API
   slug: transistor-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/transistor/openapi/transistor-analytics-api-openapi.yml
 - filename: transistor-episodes-api-openapi.yml
   format: yaml
   label: Transistor Episodes API
   slug: transistor-episodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-episodes-api-openapi.yml
+  url: https://artifacts.apis.io/transistor/openapi/transistor-episodes-api-openapi.yml
 - filename: transistor-shows-api-openapi.yml
   format: yaml
   label: Transistor Shows API
   slug: transistor-shows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-shows-api-openapi.yml
+  url: https://artifacts.apis.io/transistor/openapi/transistor-shows-api-openapi.yml
 - filename: transistor-subscribers-api-openapi.yml
   format: yaml
   label: Transistor Subscribers API
   slug: transistor-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/transistor/openapi/transistor-subscribers-api-openapi.yml
 - filename: transistor-webhooks-api-openapi.yml
   format: yaml
   label: Transistor Webhooks API
   slug: transistor-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/transistor/openapi/transistor-webhooks-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -53,7 +53,7 @@ source_filename: transistor-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://transistor.fm/security/\nurl: https://transistor.fm/security/\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://transistor.fm/security/\n  keywords:\n  - soc 2\n  - iso 27001\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/security/transistor-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/transistor/security/transistor-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Podcasts

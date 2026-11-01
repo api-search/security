@@ -5,61 +5,61 @@ api_specs:
   label: Forgejo Activitypub API
   slug: forgejo-activitypub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/openapi/forgejo-activitypub-api-openapi.yml
+  url: https://artifacts.apis.io/forgejo/openapi/forgejo-activitypub-api-openapi.yml
 - filename: forgejo-admin-api-openapi.yml
   format: yaml
   label: Forgejo Admin API
   slug: forgejo-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/openapi/forgejo-admin-api-openapi.yml
+  url: https://artifacts.apis.io/forgejo/openapi/forgejo-admin-api-openapi.yml
 - filename: forgejo-issue-api-openapi.yml
   format: yaml
   label: Forgejo Issue API
   slug: forgejo-issue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/openapi/forgejo-issue-api-openapi.yml
+  url: https://artifacts.apis.io/forgejo/openapi/forgejo-issue-api-openapi.yml
 - filename: forgejo-miscellaneous-api-openapi.yml
   format: yaml
   label: Forgejo Miscellaneous API
   slug: forgejo-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/openapi/forgejo-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/forgejo/openapi/forgejo-miscellaneous-api-openapi.yml
 - filename: forgejo-notification-api-openapi.yml
   format: yaml
   label: Forgejo Notification API
   slug: forgejo-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/openapi/forgejo-notification-api-openapi.yml
+  url: https://artifacts.apis.io/forgejo/openapi/forgejo-notification-api-openapi.yml
 - filename: forgejo-organization-api-openapi.yml
   format: yaml
   label: Forgejo Organization API
   slug: forgejo-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/openapi/forgejo-organization-api-openapi.yml
+  url: https://artifacts.apis.io/forgejo/openapi/forgejo-organization-api-openapi.yml
 - filename: forgejo-package-api-openapi.yml
   format: yaml
   label: Forgejo Package API
   slug: forgejo-package-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/openapi/forgejo-package-api-openapi.yml
+  url: https://artifacts.apis.io/forgejo/openapi/forgejo-package-api-openapi.yml
 - filename: forgejo-repository-api-openapi.yml
   format: yaml
   label: Forgejo Repository API
   slug: forgejo-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/openapi/forgejo-repository-api-openapi.yml
+  url: https://artifacts.apis.io/forgejo/openapi/forgejo-repository-api-openapi.yml
 - filename: forgejo-settings-api-openapi.yml
   format: yaml
   label: Forgejo Settings API
   slug: forgejo-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/openapi/forgejo-settings-api-openapi.yml
+  url: https://artifacts.apis.io/forgejo/openapi/forgejo-settings-api-openapi.yml
 - filename: forgejo-user-api-openapi.yml
   format: yaml
   label: Forgejo User API
   slug: forgejo-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/openapi/forgejo-user-api-openapi.yml
+  url: https://artifacts.apis.io/forgejo/openapi/forgejo-user-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -93,10 +93,9 @@ source_filename: forgejo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: forgejo.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 08:10:40 2026 GMT\n  hsts: false\n- host: code.forgejo.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 04:49:46 2026 GMT\n  hsts: false\ndomains:\n- domain: forgejo.org\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/security/forgejo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/forgejo/security/forgejo-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- Git
 - Version Control
 - Self-Hosted
 - DevOps

@@ -5,13 +5,49 @@ api_specs:
   label: Amazon Managed Service for Prometheus Tags API
   slug: amazon-managed-prometheus-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/openapi/amazon-managed-prometheus-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-managed-prometheus/openapi/amazon-managed-prometheus-tags-api-openapi.yml
 - filename: amazon-managed-prometheus-workspaces-api-openapi.yml
   format: yaml
   label: Amazon Managed Service for Prometheus Workspaces API
   slug: amazon-managed-prometheus-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/openapi/amazon-managed-prometheus-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-managed-prometheus/openapi/amazon-managed-prometheus-workspaces-api-openapi.yml
+- filename: amazon-managed-prometheus-anomalydetectors-api-openapi.yml
+  format: yaml
+  label: Amazon Managed Service for Prometheus Managed Prometheus Anomalydetectors API
+  slug: amazon-managed-prometheus-anomalydetectors-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-managed-prometheus/openapi/amazon-managed-prometheus-anomalydetectors-api-openapi.yml
+- filename: amazon-managed-prometheus-logging-api-openapi.yml
+  format: yaml
+  label: Amazon Managed Service for Prometheus Managed Prometheus Logging API
+  slug: amazon-managed-prometheus-logging-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-managed-prometheus/openapi/amazon-managed-prometheus-logging-api-openapi.yml
+- filename: amazon-managed-prometheus-logging-configuration-api-openapi.yml
+  format: yaml
+  label: Amazon Managed Service for Prometheus Managed Prometheus Logging Configuration API
+  slug: amazon-managed-prometheus-logging-configuration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-managed-prometheus/openapi/amazon-managed-prometheus-logging-configuration-api-openapi.yml
+- filename: amazon-managed-prometheus-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Managed Service for Prometheus Managed Prometheus Operations API
+  slug: amazon-managed-prometheus-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-managed-prometheus/openapi/amazon-managed-prometheus-operations-api-openapi.yml
+- filename: amazon-managed-prometheus-policy-api-openapi.yml
+  format: yaml
+  label: Amazon Managed Service for Prometheus Managed Prometheus Policy API
+  slug: amazon-managed-prometheus-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-managed-prometheus/openapi/amazon-managed-prometheus-policy-api-openapi.yml
+- filename: amazon-managed-prometheus-scrapers-api-openapi.yml
+  format: yaml
+  label: Amazon Managed Service for Prometheus Managed Prometheus Scrapers API
+  slug: amazon-managed-prometheus-scrapers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-managed-prometheus/openapi/amazon-managed-prometheus-scrapers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -49,7 +85,7 @@ source_filename: amazon-managed-prometheus-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: aps.amazonaws.com\n  https: false\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/security/amazon-managed-prometheus-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amazon-managed-prometheus/security/amazon-managed-prometheus-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Containers

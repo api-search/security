@@ -7,55 +7,55 @@ api_specs:
   label: Hopae, Inc. Console - API Keys API
   slug: hopae-inc-console-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-console-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-console-api-keys-api-openapi.yml
 - filename: hopae-inc-providers-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Providers API
   slug: hopae-inc-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-providers-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-providers-api-openapi.yml
 - filename: hopae-inc-token-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Token API
   slug: hopae-inc-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-token-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-token-api-openapi.yml
 - filename: hopae-inc-verifications-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Verifications API
   slug: hopae-inc-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-verifications-api-openapi.yml
 - filename: hopae-inc-workspace-api-activation-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Workspace API - Activation API
   slug: hopae-inc-workspace-api-activation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-workspace-api-activation-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-workspace-api-activation-api-openapi.yml
 - filename: hopae-inc-workspace-api-apps-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Workspace API - Apps API
   slug: hopae-inc-workspace-api-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-workspace-api-apps-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-workspace-api-apps-api-openapi.yml
 - filename: hopae-inc-workspace-api-production-tests-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Workspace API - Production Tests API
   slug: hopae-inc-workspace-api-production-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-workspace-api-production-tests-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-workspace-api-production-tests-api-openapi.yml
 - filename: hopae-inc-workspace-api-workflows-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Workspace API - Workflows API
   slug: hopae-inc-workspace-api-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-workspace-api-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-workspace-api-workflows-api-openapi.yml
 - filename: hopae-inc-workspace-api-workspace-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Workspace API - Workspace API
   slug: hopae-inc-workspace-api-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-workspace-api-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-workspace-api-workspace-api-openapi.yml
 auth_types:
 - http
 - openIdConnect
@@ -91,7 +91,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/hopae-inc-hconnect-openapi-original.json\ndocs: https://docs.hopae.com/api-reference/authentication\nnote: >-\n  hConnect exposes two auth surfaces. Workspace API (managing Apps/Workflows/Providers/\n  Activation/Production Tests) uses HTTP Bearer with a workspace key\n  (sk_workspace_test_... / sk_workspace_prod_...). App API (/verifications, /userinfo)\n  uses HTTP Basic with the App's clientId:clientSecret (returned once from POST /v1/apps).\n  A separate OIDC OP surface (connect.hopae.com) handles browser sign-in — see\n  scopes/hopae-inc-scopes.yml. Console endpoints also accept a Clerk-issued JWT bearer.\nsummary:\n  types:\n  - http\n  - openIdConnect\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: 'Basic authentication using clientId and clientSecret. For direct API calls,\n    format the Authorization header as `Authorization: Basic <base64(clientId:clientSecret)>`.\n    In the Mintlify\
   \ playground, enter the clientId and clientSecret in the Basic Auth panel\n    and the header is generated automatically.'\n  sources:\n  - openapi/hopae-inc-hconnect-openapi-original.json\n- name: workspaceApiKey\n  type: http\n  scheme: bearer\n  bearerFormat: API Key\n  description: 'Workspace API key authentication. Pass your workspace API key as `Authorization:\n    Bearer [example key]`.'\n  sources:\n  - openapi/hopae-inc-hconnect-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/authentication/hopae-inc-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hopae-inc/authentication/hopae-inc-authentication.yml
 summary_line: http/openIdConnect · 2 schemes
 tags:
 - Company

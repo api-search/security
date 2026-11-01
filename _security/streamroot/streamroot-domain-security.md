@@ -23,7 +23,7 @@ source_filename: streamroot-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: streamroot.io\n  https: false\ndomains:\n- domain: streamroot.io\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/streamroot/refs/heads/main/security/streamroot-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/streamroot/security/streamroot-domain-security.yml
 summary_line: DNSSEC
 tags:
 - Company

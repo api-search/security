@@ -5,109 +5,109 @@ api_specs:
   label: Roadsync Authenticated API
   slug: roadsync-authenticated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roadsync/refs/heads/main/openapi/roadsync-authenticated-api-openapi.yml
+  url: https://artifacts.apis.io/roadsync/openapi/roadsync-authenticated-api-openapi.yml
 - filename: roadsync-brokers-api-openapi.yml
   format: yaml
   label: Roadsync Brokers API
   slug: roadsync-brokers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roadsync/refs/heads/main/openapi/roadsync-brokers-api-openapi.yml
+  url: https://artifacts.apis.io/roadsync/openapi/roadsync-brokers-api-openapi.yml
 - filename: roadsync-department-api-openapi.yml
   format: yaml
   label: Roadsync Department API
   slug: roadsync-department-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roadsync/refs/heads/main/openapi/roadsync-department-api-openapi.yml
+  url: https://artifacts.apis.io/roadsync/openapi/roadsync-department-api-openapi.yml
 - filename: roadsync-directory-api-openapi.yml
   format: yaml
   label: Roadsync Directory API
   slug: roadsync-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roadsync/refs/heads/main/openapi/roadsync-directory-api-openapi.yml
+  url: https://artifacts.apis.io/roadsync/openapi/roadsync-directory-api-openapi.yml
 - filename: roadsync-eta-api-openapi.yml
   format: yaml
   label: Roadsync Eta API
   slug: roadsync-eta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roadsync/refs/heads/main/openapi/roadsync-eta-api-openapi.yml
+  url: https://artifacts.apis.io/roadsync/openapi/roadsync-eta-api-openapi.yml
 - filename: roadsync-funding-sources-api-openapi.yml
   format: yaml
   label: Roadsync funding sources API
   slug: roadsync-funding-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roadsync/refs/heads/main/openapi/roadsync-funding-sources-api-openapi.yml
+  url: https://artifacts.apis.io/roadsync/openapi/roadsync-funding-sources-api-openapi.yml
 - filename: roadsync-invoice-api-openapi.yml
   format: yaml
   label: Roadsync Invoice API
   slug: roadsync-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roadsync/refs/heads/main/openapi/roadsync-invoice-api-openapi.yml
+  url: https://artifacts.apis.io/roadsync/openapi/roadsync-invoice-api-openapi.yml
 - filename: roadsync-loads-api-openapi.yml
   format: yaml
   label: Roadsync Loads API
   slug: roadsync-loads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roadsync/refs/heads/main/openapi/roadsync-loads-api-openapi.yml
+  url: https://artifacts.apis.io/roadsync/openapi/roadsync-loads-api-openapi.yml
 - filename: roadsync-location-api-openapi.yml
   format: yaml
   label: Roadsync Location API
   slug: roadsync-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roadsync/refs/heads/main/openapi/roadsync-location-api-openapi.yml
+  url: https://artifacts.apis.io/roadsync/openapi/roadsync-location-api-openapi.yml
 - filename: roadsync-payables-api-openapi.yml
   format: yaml
   label: Roadsync Payables API
   slug: roadsync-payables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roadsync/refs/heads/main/openapi/roadsync-payables-api-openapi.yml
+  url: https://artifacts.apis.io/roadsync/openapi/roadsync-payables-api-openapi.yml
 - filename: roadsync-payees-api-openapi.yml
   format: yaml
   label: Roadsync Payees API
   slug: roadsync-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roadsync/refs/heads/main/openapi/roadsync-payees-api-openapi.yml
+  url: https://artifacts.apis.io/roadsync/openapi/roadsync-payees-api-openapi.yml
 - filename: roadsync-payment-api-openapi.yml
   format: yaml
   label: Roadsync Payment API
   slug: roadsync-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roadsync/refs/heads/main/openapi/roadsync-payment-api-openapi.yml
+  url: https://artifacts.apis.io/roadsync/openapi/roadsync-payment-api-openapi.yml
 - filename: roadsync-ping-api-openapi.yml
   format: yaml
   label: Roadsync Ping API
   slug: roadsync-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roadsync/refs/heads/main/openapi/roadsync-ping-api-openapi.yml
+  url: https://artifacts.apis.io/roadsync/openapi/roadsync-ping-api-openapi.yml
 - filename: roadsync-product-api-openapi.yml
   format: yaml
   label: Roadsync Product API
   slug: roadsync-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roadsync/refs/heads/main/openapi/roadsync-product-api-openapi.yml
+  url: https://artifacts.apis.io/roadsync/openapi/roadsync-product-api-openapi.yml
 - filename: roadsync-shift-api-openapi.yml
   format: yaml
   label: Roadsync Shift API
   slug: roadsync-shift-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roadsync/refs/heads/main/openapi/roadsync-shift-api-openapi.yml
+  url: https://artifacts.apis.io/roadsync/openapi/roadsync-shift-api-openapi.yml
 - filename: roadsync-transactions-api-openapi.yml
   format: yaml
   label: Roadsync Transactions API
   slug: roadsync-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roadsync/refs/heads/main/openapi/roadsync-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/roadsync/openapi/roadsync-transactions-api-openapi.yml
 - filename: roadsync-unauthenticated-api-openapi.yml
   format: yaml
   label: Roadsync Unauthenticated API
   slug: roadsync-unauthenticated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roadsync/refs/heads/main/openapi/roadsync-unauthenticated-api-openapi.yml
+  url: https://artifacts.apis.io/roadsync/openapi/roadsync-unauthenticated-api-openapi.yml
 - filename: roadsync-work-orders-api-openapi.yml
   format: yaml
   label: Roadsync Work Orders API
   slug: roadsync-work-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roadsync/refs/heads/main/openapi/roadsync-work-orders-api-openapi.yml
+  url: https://artifacts.apis.io/roadsync/openapi/roadsync-work-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -153,7 +153,7 @@ source_filename: roadsync-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.roadsync.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 02:22:38 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: test.api.roadsync.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  1 23:59:59 2027 GMT\n  hsts: null\n- host: api.roadsync.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  1 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: roadsync.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: roadsync.app\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/roadsync/refs/heads/main/security/roadsync-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/roadsync/security/roadsync-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

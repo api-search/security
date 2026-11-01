@@ -5,37 +5,37 @@ api_specs:
   label: Amazon Panorama Application Instances API
   slug: amazon-panorama-application-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/openapi/amazon-panorama-application-instances-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-panorama/openapi/amazon-panorama-application-instances-api-openapi.yml
 - filename: amazon-panorama-devices-api-openapi.yml
   format: yaml
   label: Amazon Panorama Devices API
   slug: amazon-panorama-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/openapi/amazon-panorama-devices-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-panorama/openapi/amazon-panorama-devices-api-openapi.yml
 - filename: amazon-panorama-jobs-api-openapi.yml
   format: yaml
   label: Amazon Panorama Jobs API
   slug: amazon-panorama-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/openapi/amazon-panorama-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-panorama/openapi/amazon-panorama-jobs-api-openapi.yml
 - filename: amazon-panorama-nodes-api-openapi.yml
   format: yaml
   label: Amazon Panorama Nodes API
   slug: amazon-panorama-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/openapi/amazon-panorama-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-panorama/openapi/amazon-panorama-nodes-api-openapi.yml
 - filename: amazon-panorama-packages-api-openapi.yml
   format: yaml
   label: Amazon Panorama Packages API
   slug: amazon-panorama-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/openapi/amazon-panorama-packages-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-panorama/openapi/amazon-panorama-packages-api-openapi.yml
 - filename: amazon-panorama-tags-api-openapi.yml
   format: yaml
   label: Amazon Panorama Tags API
   slug: amazon-panorama-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/openapi/amazon-panorama-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-panorama/openapi/amazon-panorama-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -73,7 +73,7 @@ source_filename: amazon-panorama-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: panorama.amazonaws.com\n  https: false\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/security/amazon-panorama-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amazon-panorama/security/amazon-panorama-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Camera

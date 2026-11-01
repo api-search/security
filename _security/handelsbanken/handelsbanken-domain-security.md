@@ -30,7 +30,7 @@ source_filename: handelsbanken-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: handelsbanken.se\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  3 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: handelsbanken.se\n  dnssec: true\n  caa:\n  - 0 iodef \"mailto:sirt@handelsbanken.se\"\n  - 0 issuewild \";\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/handelsbanken/refs/heads/main/security/handelsbanken-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/handelsbanken/security/handelsbanken-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Banking

@@ -5,43 +5,43 @@ api_specs:
   label: Nmbrs Absences API
   slug: nmbrs-absences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-absences-api-openapi.yml
+  url: https://artifacts.apis.io/nmbrs/openapi/nmbrs-absences-api-openapi.yml
 - filename: nmbrs-companies-api-openapi.yml
   format: yaml
   label: Nmbrs Companies API
   slug: nmbrs-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-companies-api-openapi.yml
+  url: https://artifacts.apis.io/nmbrs/openapi/nmbrs-companies-api-openapi.yml
 - filename: nmbrs-employees-api-openapi.yml
   format: yaml
   label: Nmbrs Employees API
   slug: nmbrs-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-employees-api-openapi.yml
+  url: https://artifacts.apis.io/nmbrs/openapi/nmbrs-employees-api-openapi.yml
 - filename: nmbrs-employments-api-openapi.yml
   format: yaml
   label: Nmbrs Employments API
   slug: nmbrs-employments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-employments-api-openapi.yml
+  url: https://artifacts.apis.io/nmbrs/openapi/nmbrs-employments-api-openapi.yml
 - filename: nmbrs-salaries-api-openapi.yml
   format: yaml
   label: Nmbrs Salaries API
   slug: nmbrs-salaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-salaries-api-openapi.yml
+  url: https://artifacts.apis.io/nmbrs/openapi/nmbrs-salaries-api-openapi.yml
 - filename: nmbrs-wage-components-api-openapi.yml
   format: yaml
   label: Nmbrs Wage Components API
   slug: nmbrs-wage-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-wage-components-api-openapi.yml
+  url: https://artifacts.apis.io/nmbrs/openapi/nmbrs-wage-components-api-openapi.yml
 - filename: nmbrs-pay-runs-api-openapi.yml
   format: yaml
   label: Nmbrs Pay Runs API
   slug: nmbrs-pay-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-pay-runs-api-openapi.yml
+  url: https://artifacts.apis.io/nmbrs/openapi/nmbrs-pay-runs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -103,7 +103,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: nmbrs.com\n  https: true\n  cert_expires: Dec 10 00:39:30 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.nmbrsapp.com\n  https: true\n  cert_expires: Dec 17 13:25:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_preload: true\n  note: Current REST API host. GET /api/companies returns 401 unauthenticated.\n- host: api.nmbrs.nl\n  https: true\n  cert_expires: Jan  9 14:28:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  note: Legacy SOAP v3 host (deprecated, retiring 2027-03-01).\n- host: developer.nmbrs.com\n  https: true\n  cert_expires: Dec 10 00:39:30 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: identityservice.nmbrs.com\n  https: true\n  cert_expires: Dec 10 00:39:30 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n  note: OAuth 2.0 authorization/token endpoints.\ndomains:\n- domain: nmbrs.com\n  dnssec: false\n\
   \  caa: []\n  spf: true\n  spf_policy: -all\n  dmarc: true\n  dmarc_policy: none\n- domain: nmbrsapp.com\n  dnssec: false\n  caa: []\n  spf: true\n  spf_policy: ~all\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/security/nmbrs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nmbrs/security/nmbrs-domain-security.yml
 summary_line: HSTS · DMARC
 tags:
 - Human Resources

@@ -32,7 +32,7 @@ source_filename: university-of-barcelona-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ub.edu\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 11 07:26:05 2026 GMT\n  hsts: null\n- host: diposit.ub.edu\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 29 09:59:43 2026 GMT\n  hsts: false\ndomains:\n- domain: ub.edu\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-barcelona/refs/heads/main/security/university-of-barcelona-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/university-of-barcelona/security/university-of-barcelona-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - University

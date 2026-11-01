@@ -26,7 +26,7 @@ source_filename: alkami-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://www.alkami.com/build-with-us/developers/\ndocs: https://developer.alkami.com\nsummary:\n  types: [openIdConnect]\n  oauth2_flows: []\n  note: >-\n    Alkami documents that its digital-banking APIs are \"built on OpenID Connect,\n    providing secure authentication without exposing PII.\" Full authentication\n    details (endpoints, flows, scopes, client registration) are published inside\n    the gated Alkami DevPortal at developer.alkami.com and are not available on\n    the public marketing surface.\nschemes:\n- name: openIdConnect\n  type: openIdConnect\n  description: >-\n    OpenID Connect based authentication for Alkami's D2C, B2B, and Open Banking\n    REST APIs. Discovery/issuer details are provided to authorized financial\n    institutions and fintech partners in the DevPortal.\n  sources:\n  - https://www.alkami.com/build-with-us/developers/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alkami/refs/heads/main/authentication/alkami-authentication.yml
+source_yaml_url: https://artifacts.apis.io/alkami/authentication/alkami-authentication.yml
 summary_line: openIdConnect · 1 scheme
 tags:
 - Company

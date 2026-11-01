@@ -5,49 +5,49 @@ api_specs:
   label: Coasty Keys API
   slug: coasty-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-keys-api-openapi.yml
+  url: https://artifacts.apis.io/coasty/openapi/coasty-keys-api-openapi.yml
 - filename: coasty-machines-api-openapi.yml
   format: yaml
   label: Coasty Machines API
   slug: coasty-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-machines-api-openapi.yml
+  url: https://artifacts.apis.io/coasty/openapi/coasty-machines-api-openapi.yml
 - filename: coasty-predict-api-openapi.yml
   format: yaml
   label: Coasty Predict API
   slug: coasty-predict-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-predict-api-openapi.yml
+  url: https://artifacts.apis.io/coasty/openapi/coasty-predict-api-openapi.yml
 - filename: coasty-runs-api-openapi.yml
   format: yaml
   label: Coasty Runs API
   slug: coasty-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-runs-api-openapi.yml
+  url: https://artifacts.apis.io/coasty/openapi/coasty-runs-api-openapi.yml
 - filename: coasty-schedules-api-openapi.yml
   format: yaml
   label: Coasty Schedules API
   slug: coasty-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/coasty/openapi/coasty-schedules-api-openapi.yml
 - filename: coasty-sessions-api-openapi.yml
   format: yaml
   label: Coasty Sessions API
   slug: coasty-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/coasty/openapi/coasty-sessions-api-openapi.yml
 - filename: coasty-triggers-api-openapi.yml
   format: yaml
   label: Coasty Triggers API
   slug: coasty-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/coasty/openapi/coasty-triggers-api-openapi.yml
 - filename: coasty-workflows-api-openapi.yml
   format: yaml
   label: Coasty Workflows API
   slug: coasty-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/coasty/openapi/coasty-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: coasty-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: coasty.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 02:20:18 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: coasty.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/security/coasty-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/coasty/security/coasty-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

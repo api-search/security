@@ -5,25 +5,25 @@ api_specs:
   label: intel Attestation API
   slug: intel-attestation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intel/refs/heads/main/openapi/intel-attestation-api-openapi.yml
+  url: https://artifacts.apis.io/intel/openapi/intel-attestation-api-openapi.yml
 - filename: intel-policies-api-openapi.yml
   format: yaml
   label: intel Policies API
   slug: intel-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intel/refs/heads/main/openapi/intel-policies-api-openapi.yml
+  url: https://artifacts.apis.io/intel/openapi/intel-policies-api-openapi.yml
 - filename: intel-tokens-api-openapi.yml
   format: yaml
   label: intel Tokens API
   slug: intel-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intel/refs/heads/main/openapi/intel-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/intel/openapi/intel-tokens-api-openapi.yml
 - filename: intel-tools-api-openapi.yml
   format: yaml
   label: intel Tools API
   slug: intel-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intel/refs/heads/main/openapi/intel-tools-api-openapi.yml
+  url: https://artifacts.apis.io/intel/openapi/intel-tools-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: intel-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.trustauthority.intel.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.trustauthority.intel.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 23:59:59 2026 GMT\n  hsts: null\n- host: www.intel.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: intel.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intel/refs/heads/main/security/intel-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/intel/security/intel-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fortune 100

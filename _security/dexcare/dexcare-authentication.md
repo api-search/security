@@ -8,115 +8,115 @@ api_specs:
   label: DexCare Assignmentqualifiers API
   slug: dexcare-assignmentqualifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-assignmentqualifiers-api-openapi.yml
+  url: https://artifacts.apis.io/dexcare/openapi/dexcare-assignmentqualifiers-api-openapi.yml
 - filename: dexcare-external-api-openapi.yml
   format: yaml
   label: DexCare External API
   slug: dexcare-external-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-external-api-openapi.yml
+  url: https://artifacts.apis.io/dexcare/openapi/dexcare-external-api-openapi.yml
 - filename: dexcare-modalities-api-openapi.yml
   format: yaml
   label: DexCare Modalities API
   slug: dexcare-modalities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-modalities-api-openapi.yml
+  url: https://artifacts.apis.io/dexcare/openapi/dexcare-modalities-api-openapi.yml
 - filename: dexcare-omnianalytics-api-openapi.yml
   format: yaml
   label: DexCare Omni Analytics API
   slug: dexcare-omnianalytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-omnianalytics-api-openapi.yml
+  url: https://artifacts.apis.io/dexcare/openapi/dexcare-omnianalytics-api-openapi.yml
 - filename: dexcare-omnidata-api-openapi.yml
   format: yaml
   label: DexCare Omni Data API
   slug: dexcare-omnidata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-omnidata-api-openapi.yml
+  url: https://artifacts.apis.io/dexcare/openapi/dexcare-omnidata-api-openapi.yml
 - filename: dexcare-omnisearch-api-openapi.yml
   format: yaml
   label: DexCare Omni Search API
   slug: dexcare-omnisearch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-omnisearch-api-openapi.yml
+  url: https://artifacts.apis.io/dexcare/openapi/dexcare-omnisearch-api-openapi.yml
 - filename: dexcare-omnisearchanalytics-api-openapi.yml
   format: yaml
   label: DexCare Omni Search Analytics API
   slug: dexcare-omnisearchanalytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-omnisearchanalytics-api-openapi.yml
+  url: https://artifacts.apis.io/dexcare/openapi/dexcare-omnisearchanalytics-api-openapi.yml
 - filename: dexcare-omnisearchfacets-api-openapi.yml
   format: yaml
   label: DexCare Omni Search Facets API
   slug: dexcare-omnisearchfacets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-omnisearchfacets-api-openapi.yml
+  url: https://artifacts.apis.io/dexcare/openapi/dexcare-omnisearchfacets-api-openapi.yml
 - filename: dexcare-omnisitemap-api-openapi.yml
   format: yaml
   label: DexCare Omni Sitemap API
   slug: dexcare-omnisitemap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-omnisitemap-api-openapi.yml
+  url: https://artifacts.apis.io/dexcare/openapi/dexcare-omnisitemap-api-openapi.yml
 - filename: dexcare-omnislugs-api-openapi.yml
   format: yaml
   label: DexCare Omni Slugs API
   slug: dexcare-omnislugs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-omnislugs-api-openapi.yml
+  url: https://artifacts.apis.io/dexcare/openapi/dexcare-omnislugs-api-openapi.yml
 - filename: dexcare-omnisynonyms-api-openapi.yml
   format: yaml
   label: DexCare Omni Synonyms API
   slug: dexcare-omnisynonyms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-omnisynonyms-api-openapi.yml
+  url: https://artifacts.apis.io/dexcare/openapi/dexcare-omnisynonyms-api-openapi.yml
 - filename: dexcare-pdm-api-openapi.yml
   format: yaml
   label: DexCare Pdm API
   slug: dexcare-pdm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-pdm-api-openapi.yml
+  url: https://artifacts.apis.io/dexcare/openapi/dexcare-pdm-api-openapi.yml
 - filename: dexcare-providers-api-openapi.yml
   format: yaml
   label: DexCare Providers API
   slug: dexcare-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-providers-api-openapi.yml
+  url: https://artifacts.apis.io/dexcare/openapi/dexcare-providers-api-openapi.yml
 - filename: dexcare-queued-guest-visit-api-openapi.yml
   format: yaml
   label: DexCare Queued Guest Visit API
   slug: dexcare-queued-guest-visit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-queued-guest-visit-api-openapi.yml
+  url: https://artifacts.apis.io/dexcare/openapi/dexcare-queued-guest-visit-api-openapi.yml
 - filename: dexcare-slots-api-openapi.yml
   format: yaml
   label: DexCare Slots API
   slug: dexcare-slots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-slots-api-openapi.yml
+  url: https://artifacts.apis.io/dexcare/openapi/dexcare-slots-api-openapi.yml
 - filename: dexcare-tokbox-api-openapi.yml
   format: yaml
   label: DexCare Tokbox API
   slug: dexcare-tokbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-tokbox-api-openapi.yml
+  url: https://artifacts.apis.io/dexcare/openapi/dexcare-tokbox-api-openapi.yml
 - filename: dexcare-virtual-visits-api-openapi.yml
   format: yaml
   label: DexCare Virtual Visits API
   slug: dexcare-virtual-visits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-virtual-visits-api-openapi.yml
+  url: https://artifacts.apis.io/dexcare/openapi/dexcare-virtual-visits-api-openapi.yml
 - filename: dexcare-visits-api-openapi.yml
   format: yaml
   label: DexCare Visits API
   slug: dexcare-visits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-visits-api-openapi.yml
+  url: https://artifacts.apis.io/dexcare/openapi/dexcare-visits-api-openapi.yml
 - filename: dexcare-waittimes-api-openapi.yml
   format: yaml
   label: DexCare Waittimes API
   slug: dexcare-waittimes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-waittimes-api-openapi.yml
+  url: https://artifacts.apis.io/dexcare/openapi/dexcare-waittimes-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -205,7 +205,7 @@ source_yaml: "generated: '2026-08-15'\nmethod: searched\nsource: https://develop
   \ endpoint working\n      with protected health information (PHI) or personally identifiable information\n      (PII) is annotated AUTH TOKEN REQUIRED in the REST API reference and needs a JWT\n      in the Authorization header.\n    sources: [https://developers.dexcarehealth.com/api/]\n  - name: oauth2AuthorizationCode\n    type: oauth2\n    flow: authorizationCode\n    scopes: {}\n    description: >-\n      OAuth 2.0 Authorization Code Grant used to obtain the JWT bearer token. DexCare\n      states the flow exists so the patient or authorized caregiver knowingly consents\n      to sharing health information. Authorization and token endpoints are supplied per\n      health system by that system's identity provider; no global endpoint, no\n      discovery document (all /.well-known/ probes 404 — see\n      well-known/dexcare-well-known.yml) and no scope vocabulary are published.\n    sources: [https://developers.dexcarehealth.com/api/]\n  - name: dcTokenServiceKey\n    type: apiKey\n\
   \    in: header\n    header: Authorization\n    value_prefix: 'dc-token '\n    description: >-\n      Reporting service key, sent as `Authorization: dc-token <SECRET_TOKEN>`. Used by\n      the All Visits Report and All Providers Report endpoints. DexCare warns\n      explicitly that this token must never live in a mobile or client-side JavaScript\n      application. Obtained from a DexCare account manager. Rejection is a 403 with\n      {\"message\":\"Authorization failed: bad service token\"}.\n    sources: [https://developers.dexcarehealth.com/api/reporting]\n  - name: public\n    type: none\n    description: >-\n      Publicly available information is served without authentication: clinic and\n      provider directories, care-options discovery, and — confirmed in the published\n      specifications — getAggregatedSlotsV1, getAvailabilityAndWaitTimes,\n      getRegionAvailabilityAndWaitTimes, getModalities, getAssignmentQualifiers and\n      the entire Omni Search surface, which declares\
   \ `security: [{}]`.\n    sources:\n      - https://developers.dexcarehealth.com/api/\n      - openapi/dexcare-visit-service-openapi.yml\n      - openapi/dexcare-omni-search-openapi.yml\ngaps:\n  - No OAuth scope vocabulary is published anywhere, so scopes/ cannot be derived.\n  - >-\n    No /.well-known/openid-configuration or /.well-known/oauth-authorization-server is\n    served on any DexCare host; every probe returned 404.\n  - >-\n    Key rotation, expiry and revocation policy is undocumented for both the x-api-key\n    and dc-token credentials.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/authentication/dexcare-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dexcare/authentication/dexcare-authentication.yml
 summary_line: oauth2/http/apiKey/none · 7 schemes
 tags:
 - Company

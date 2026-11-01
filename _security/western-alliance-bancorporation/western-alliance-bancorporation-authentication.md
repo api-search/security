@@ -8,151 +8,151 @@ api_specs:
   label: Western Alliance Bank Check Image API
   slug: western-alliance-bancorporation-check-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-alliance-bancorporation/refs/heads/main/openapi/western-alliance-bancorporation-check-image-api-openapi.yml
+  url: https://artifacts.apis.io/western-alliance-bancorporation/openapi/western-alliance-bancorporation-check-image-api-openapi.yml
 - filename: western-alliance-bancorporation-stop-payments-api-openapi.yml
   format: yaml
   label: Western Alliance Bank Stop Payments API
   slug: western-alliance-bancorporation-stop-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-alliance-bancorporation/refs/heads/main/openapi/western-alliance-bancorporation-stop-payments-api-openapi.yml
+  url: https://artifacts.apis.io/western-alliance-bancorporation/openapi/western-alliance-bancorporation-stop-payments-api-openapi.yml
 - filename: western-alliance-bancorporation-book-transfer-api-openapi.yml
   format: yaml
   label: Western Alliance Bank Book Transfer API
   slug: western-alliance-bancorporation-book-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-alliance-bancorporation/refs/heads/main/openapi/western-alliance-bancorporation-book-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/western-alliance-bancorporation/openapi/western-alliance-bancorporation-book-transfer-api-openapi.yml
 - filename: western-alliance-bancorporation-intrabank-transfer-api-openapi.yml
   format: yaml
   label: Western Alliance Bank Intrabank Transfer API
   slug: western-alliance-bancorporation-intrabank-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-alliance-bancorporation/refs/heads/main/openapi/western-alliance-bancorporation-intrabank-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/western-alliance-bancorporation/openapi/western-alliance-bancorporation-intrabank-transfer-api-openapi.yml
 - filename: western-alliance-bancorporation-ach-request-api-openapi.yml
   format: yaml
   label: Western Alliance Bancorporation ACH Request API
   slug: western-alliance-bancorporation-ach-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-alliance-bancorporation/refs/heads/main/openapi/western-alliance-bancorporation-ach-request-api-openapi.yml
+  url: https://artifacts.apis.io/western-alliance-bancorporation/openapi/western-alliance-bancorporation-ach-request-api-openapi.yml
 - filename: western-alliance-bancorporation-balance-api-openapi.yml
   format: yaml
   label: Western Alliance Bancorporation Balance API
   slug: western-alliance-bancorporation-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-alliance-bancorporation/refs/heads/main/openapi/western-alliance-bancorporation-balance-api-openapi.yml
+  url: https://artifacts.apis.io/western-alliance-bancorporation/openapi/western-alliance-bancorporation-balance-api-openapi.yml
 - filename: western-alliance-bancorporation-client-data-api-openapi.yml
   format: yaml
   label: Western Alliance Bancorporation Client Data API
   slug: western-alliance-bancorporation-client-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-alliance-bancorporation/refs/heads/main/openapi/western-alliance-bancorporation-client-data-api-openapi.yml
+  url: https://artifacts.apis.io/western-alliance-bancorporation/openapi/western-alliance-bancorporation-client-data-api-openapi.yml
 - filename: western-alliance-bancorporation-date-range-transaction-history-api-openapi.yml
   format: yaml
   label: Western Alliance Bancorporation Date Range Transaction History API
   slug: western-alliance-bancorporation-date-range-transaction-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-alliance-bancorporation/refs/heads/main/openapi/western-alliance-bancorporation-date-range-transaction-history-api-openapi.yml
+  url: https://artifacts.apis.io/western-alliance-bancorporation/openapi/western-alliance-bancorporation-date-range-transaction-history-api-openapi.yml
 - filename: western-alliance-bancorporation-deposite-api-openapi.yml
   format: yaml
   label: Western Alliance Bancorporation Deposite API
   slug: western-alliance-bancorporation-deposite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-alliance-bancorporation/refs/heads/main/openapi/western-alliance-bancorporation-deposite-api-openapi.yml
+  url: https://artifacts.apis.io/western-alliance-bancorporation/openapi/western-alliance-bancorporation-deposite-api-openapi.yml
 - filename: western-alliance-bancorporation-get-balance-api-openapi.yml
   format: yaml
   label: Western Alliance Bancorporation Get Balance API
   slug: western-alliance-bancorporation-get-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-alliance-bancorporation/refs/heads/main/openapi/western-alliance-bancorporation-get-balance-api-openapi.yml
+  url: https://artifacts.apis.io/western-alliance-bancorporation/openapi/western-alliance-bancorporation-get-balance-api-openapi.yml
 - filename: western-alliance-bancorporation-get-bank-statement-api-api-openapi.yml
   format: yaml
   label: Western Alliance Bancorporation Get Bank Statement API
   slug: western-alliance-bancorporation-get-bank-statement-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-alliance-bancorporation/refs/heads/main/openapi/western-alliance-bancorporation-get-bank-statement-api-api-openapi.yml
+  url: https://artifacts.apis.io/western-alliance-bancorporation/openapi/western-alliance-bancorporation-get-bank-statement-api-api-openapi.yml
 - filename: western-alliance-bancorporation-get-tassat-login-token-api-openapi.yml
   format: yaml
   label: Western Alliance Bancorporation Get Tassat Login Token API
   slug: western-alliance-bancorporation-get-tassat-login-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-alliance-bancorporation/refs/heads/main/openapi/western-alliance-bancorporation-get-tassat-login-token-api-openapi.yml
+  url: https://artifacts.apis.io/western-alliance-bancorporation/openapi/western-alliance-bancorporation-get-tassat-login-token-api-openapi.yml
 - filename: western-alliance-bancorporation-get-token-api-openapi.yml
   format: yaml
   label: Western Alliance Bancorporation Get Token API
   slug: western-alliance-bancorporation-get-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-alliance-bancorporation/refs/heads/main/openapi/western-alliance-bancorporation-get-token-api-openapi.yml
+  url: https://artifacts.apis.io/western-alliance-bancorporation/openapi/western-alliance-bancorporation-get-token-api-openapi.yml
 - filename: western-alliance-bancorporation-get-user-token-api-openapi.yml
   format: yaml
   label: Western Alliance Bancorporation Get User Token API
   slug: western-alliance-bancorporation-get-user-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-alliance-bancorporation/refs/heads/main/openapi/western-alliance-bancorporation-get-user-token-api-openapi.yml
+  url: https://artifacts.apis.io/western-alliance-bancorporation/openapi/western-alliance-bancorporation-get-user-token-api-openapi.yml
 - filename: western-alliance-bancorporation-get-wab-token-api-openapi.yml
   format: yaml
   label: Western Alliance Bancorporation Get WAB Token API
   slug: western-alliance-bancorporation-get-wab-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-alliance-bancorporation/refs/heads/main/openapi/western-alliance-bancorporation-get-wab-token-api-openapi.yml
+  url: https://artifacts.apis.io/western-alliance-bancorporation/openapi/western-alliance-bancorporation-get-wab-token-api-openapi.yml
 - filename: western-alliance-bancorporation-health-check-api-openapi.yml
   format: yaml
   label: Western Alliance Bancorporation Health Check API
   slug: western-alliance-bancorporation-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-alliance-bancorporation/refs/heads/main/openapi/western-alliance-bancorporation-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/western-alliance-bancorporation/openapi/western-alliance-bancorporation-health-check-api-openapi.yml
 - filename: western-alliance-bancorporation-intrabank-search-api-openapi.yml
   format: yaml
   label: Western Alliance Bancorporation Intrabank Search API
   slug: western-alliance-bancorporation-intrabank-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-alliance-bancorporation/refs/heads/main/openapi/western-alliance-bancorporation-intrabank-search-api-openapi.yml
+  url: https://artifacts.apis.io/western-alliance-bancorporation/openapi/western-alliance-bancorporation-intrabank-search-api-openapi.yml
 - filename: western-alliance-bancorporation-redeem-api-openapi.yml
   format: yaml
   label: Western Alliance Bancorporation Redeem API
   slug: western-alliance-bancorporation-redeem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-alliance-bancorporation/refs/heads/main/openapi/western-alliance-bancorporation-redeem-api-openapi.yml
+  url: https://artifacts.apis.io/western-alliance-bancorporation/openapi/western-alliance-bancorporation-redeem-api-openapi.yml
 - filename: western-alliance-bancorporation-send-api-openapi.yml
   format: yaml
   label: Western Alliance Bancorporation Send API
   slug: western-alliance-bancorporation-send-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-alliance-bancorporation/refs/heads/main/openapi/western-alliance-bancorporation-send-api-openapi.yml
+  url: https://artifacts.apis.io/western-alliance-bancorporation/openapi/western-alliance-bancorporation-send-api-openapi.yml
 - filename: western-alliance-bancorporation-transaction-history-intraday-api-openapi.yml
   format: yaml
   label: Western Alliance Bancorporation Transaction History Intraday API
   slug: western-alliance-bancorporation-transaction-history-intraday-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-alliance-bancorporation/refs/heads/main/openapi/western-alliance-bancorporation-transaction-history-intraday-api-openapi.yml
+  url: https://artifacts.apis.io/western-alliance-bancorporation/openapi/western-alliance-bancorporation-transaction-history-intraday-api-openapi.yml
 - filename: western-alliance-bancorporation-transaction-history-priorday-api-openapi.yml
   format: yaml
   label: Western Alliance Bancorporation Transaction History Priorday API
   slug: western-alliance-bancorporation-transaction-history-priorday-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-alliance-bancorporation/refs/heads/main/openapi/western-alliance-bancorporation-transaction-history-priorday-api-openapi.yml
+  url: https://artifacts.apis.io/western-alliance-bancorporation/openapi/western-alliance-bancorporation-transaction-history-priorday-api-openapi.yml
 - filename: western-alliance-bancorporation-transactions-api-openapi.yml
   format: yaml
   label: Western Alliance Bancorporation Transactions API
   slug: western-alliance-bancorporation-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-alliance-bancorporation/refs/heads/main/openapi/western-alliance-bancorporation-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/western-alliance-bancorporation/openapi/western-alliance-bancorporation-transactions-api-openapi.yml
 - filename: western-alliance-bancorporation-wallet-balance-api-openapi.yml
   format: yaml
   label: Western Alliance Bancorporation Wallet balance API
   slug: western-alliance-bancorporation-wallet-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-alliance-bancorporation/refs/heads/main/openapi/western-alliance-bancorporation-wallet-balance-api-openapi.yml
+  url: https://artifacts.apis.io/western-alliance-bancorporation/openapi/western-alliance-bancorporation-wallet-balance-api-openapi.yml
 - filename: western-alliance-bancorporation-wallet-names-api-openapi.yml
   format: yaml
   label: Western Alliance Bancorporation Wallet Names API
   slug: western-alliance-bancorporation-wallet-names-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-alliance-bancorporation/refs/heads/main/openapi/western-alliance-bancorporation-wallet-names-api-openapi.yml
+  url: https://artifacts.apis.io/western-alliance-bancorporation/openapi/western-alliance-bancorporation-wallet-names-api-openapi.yml
 - filename: western-alliance-bancorporation-wires-request-api-api-openapi.yml
   format: yaml
   label: Western Alliance Bancorporation Wires Request API
   slug: western-alliance-bancorporation-wires-request-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-alliance-bancorporation/refs/heads/main/openapi/western-alliance-bancorporation-wires-request-api-api-openapi.yml
+  url: https://artifacts.apis.io/western-alliance-bancorporation/openapi/western-alliance-bancorporation-wires-request-api-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -250,7 +250,7 @@ source_yaml: "generated: '2026-09-17'\nmethod: searched\nsource: openapi/western
   \  - openapi/western-alliance-bancorporation-tassatpay-eapi-beta-openapi.yml\n  - openapi/western-alliance-bancorporation-token-api-openapi.yml\n  - openapi/western-alliance-bancorporation-wires-request-api-openapi.yml\n- name: clientCertificate\n  type: mutualTLS\n  description: WAB-issued Client Certificate installed on approved company servers \"capable of and/or allowed to\n    initiate a funds transfer\" (API Services Terms 1(i), 6(c)(ii)). Documented in the Terms, not in any published\n    collection.\n  sources:\n  - https://www.westernalliancebancorporation.com/sites/default/files/2025-05/api-services-terms-conditions.pdf\ndocs:\n- https://www.westernalliancebancorporation.com/sites/default/files/2025-05/api-services-terms-conditions.pdf\n- https://developer.westernalliancebank.com/s/get-token-tutorial\n- https://developer.westernalliancebank.com/sfsites/c/cms/delivery/media/MCPZ4TMDU3SZEDPHAR5JH5YAK6EY\nnote: Upgraded from the API Services Terms & Conditions (v6, May 14 2025)\
   \ and the provider Token API Postman collection.\n  Enrollment through Treasury Management issues a Client ID and Client Secret (Terms 1(j)/(k), 6(c)(i)); the client\n  sends them as the appClientId / appClientSecret headers to GET /entitlements-get-token-eapi/api/v1/token?Scope=<Informational|...>\n  and receives a bearer token \"valid for a limited period of time\" (Terms 6(c)(iii)); every API call must be signed\n  with that token. Funds-transfer clients also install a WAB-issued Client Certificate on approved servers (Terms\n  1(i), 6(c)(ii)) - a mutual-TLS control the Postman collections cannot show. The TassatPay beta adds a second credential\n  layer (Tassat client_id/client_secret -> access_token, then a user_token per wallet user). Multi-factor procedures\n  may be required (Terms 7). The developer.westernalliancebank.com openid-configuration is the Salesforce portal\n  login IdP, not the API auth server.\nflow:\n- step: 1\n  action: Enroll in Treasury Management API services;\
   \ WAB issues Client ID + Client Secret (and a Client Certificate\n    for funds-transfer products).\n- step: 2\n  action: GET https://api-connect.westernalliancebank.com/entitlements-get-token-eapi/api/v1/token?Scope=Informational\n    with headers appClientId, appClientSecret, X-Correlation-ID (GUID).\n  operationId: getToken\n- step: 3\n  action: 'Send Authorization: Bearer <token> plus X-Correlation-ID on every product API call; refresh the token\n    when it expires (lifetime not published).'\nscopes:\n  style: query parameter Scope on the token endpoint\n  documented_values:\n  - Informational\n  note: Only \"Informational\" appears in the published collections; the Transactional and Digital Assets collections\n    request the same scope value. No scope reference page is published anonymously.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/western-alliance-bancorporation/refs/heads/main/authentication/western-alliance-bancorporation-authentication.yml
+source_yaml_url: https://artifacts.apis.io/western-alliance-bancorporation/authentication/western-alliance-bancorporation-authentication.yml
 summary_line: apiKey/http/mutualTLS · 4 schemes
 tags:
 - Banking

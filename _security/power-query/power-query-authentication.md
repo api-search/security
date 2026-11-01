@@ -7,19 +7,19 @@ api_specs:
   label: Power Query Items API
   slug: power-query-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/openapi/power-query-items-api-openapi.yml
+  url: https://artifacts.apis.io/power-query/openapi/power-query-items-api-openapi.yml
 - filename: power-query-background-jobs-api-openapi.yml
   format: yaml
   label: Power Query Background Jobs API
   slug: power-query-background-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/openapi/power-query-background-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/power-query/openapi/power-query-background-jobs-api-openapi.yml
 - filename: power-query-query-execution-api-openapi.yml
   format: yaml
   label: Power Query Query Execution API
   slug: power-query-query-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/openapi/power-query-query-execution-api-openapi.yml
+  url: https://artifacts.apis.io/power-query/openapi/power-query-query-execution-api-openapi.yml
 auth_types: []
 description: The Power Query programmatic surface (the Fabric Dataflow REST API on api.fabric.microsoft.com) authenticates exclusively with Microsoft Entra ID OAuth 2.0 bearer tokens. There are no API keys and no basic auth. The published Swagger carries no securityDefinitions block — the auth model is documented on the Fabric REST articles rather than in the contract, which is recorded here as a contract gap, not as an absence of authentication.
 kind: authentication
@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-08-29'\nmethod: searched\nsource: >-\n  https://l
   \    format: 'Bearer <access_token>'\n    flows:\n      - authorization_code\n      - client_credentials\n      - device_code\n    authorization_endpoint: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    token_endpoint: https://login.microsoftonline.com/common/oauth2/v2.0/token\n    issuer: https://login.microsoftonline.com/{tenantid}/v2.0\n    discovery: https://login.microsoftonline.com/common/v2.0/.well-known/openid-configuration\n    discovery_status: 200\n    resource: https://api.fabric.microsoft.com\n    scopes_reference: scopes/power-query-scopes.yml\nidentities_supported:\n  - identity: user\n    supported: true\n  - identity: service principal\n    supported: true\n  - identity: managed identity\n    supported: true\n    note: >-\n      Per the Fabric scopes article, direct access by service principals and\n      managed identities is governed by Fabric admin tenant switches and\n      workspace permissions rather than by delegated scopes.\nauthorization_model:\n\
   \  - layer: Entra delegated scope\n    note: Applies only to delegated (on-behalf-of-user) access.\n  - layer: Fabric workspace role\n    note: >-\n      Every Dataflow operation additionally requires a workspace role. Creating a\n      dataflow requires the contributor workspace role; reading a definition\n      requires read permission; delete requires write permission.\n  - layer: Fabric tenant admin switches\n    note: >-\n      Tenant admins can disable service-principal API access and features such as\n      soft delete independently of any token the caller holds.\ncontract_gaps:\n  - >-\n    openapi/power-query-fabric-dataflow-swagger.json declares `\"security\": []`\n    and no `securityDefinitions`. A client generated straight from the spec would\n    emit unauthenticated calls. Auth is documented only in prose on the operation\n    descriptions and the Fabric REST articles.\nevidence:\n  - url: https://login.microsoftonline.com/common/v2.0/.well-known/openid-configuration\n \
   \   status: 200\n  - url: https://learn.microsoft.com/en-us/rest/api/fabric/articles/scopes\n    status: 200\n  - url: https://learn.microsoft.com/en-us/rest/api/fabric/dataflow/items/create-dataflow\n    status: 200\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n    url: https://apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/authentication/power-query-authentication.yml
+source_yaml_url: https://artifacts.apis.io/power-query/authentication/power-query-authentication.yml
 summary_line: 1 scheme
 tags:
 - Business Intelligence

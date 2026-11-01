@@ -9,37 +9,37 @@ api_specs:
   label: Thought Industries Content API
   slug: thought-industries-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/openapi/thought-industries-content-api-openapi.yml
+  url: https://artifacts.apis.io/thought-industries/openapi/thought-industries-content-api-openapi.yml
 - filename: thought-industries-courses-api-openapi.yml
   format: yaml
   label: Thought Industries Courses API
   slug: thought-industries-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/openapi/thought-industries-courses-api-openapi.yml
+  url: https://artifacts.apis.io/thought-industries/openapi/thought-industries-courses-api-openapi.yml
 - filename: thought-industries-enrollments-api-openapi.yml
   format: yaml
   label: Thought Industries Enrollments API
   slug: thought-industries-enrollments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/openapi/thought-industries-enrollments-api-openapi.yml
+  url: https://artifacts.apis.io/thought-industries/openapi/thought-industries-enrollments-api-openapi.yml
 - filename: thought-industries-groups-api-openapi.yml
   format: yaml
   label: Thought Industries Groups API
   slug: thought-industries-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/openapi/thought-industries-groups-api-openapi.yml
+  url: https://artifacts.apis.io/thought-industries/openapi/thought-industries-groups-api-openapi.yml
 - filename: thought-industries-reports-api-openapi.yml
   format: yaml
   label: Thought Industries Reports API
   slug: thought-industries-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/openapi/thought-industries-reports-api-openapi.yml
+  url: https://artifacts.apis.io/thought-industries/openapi/thought-industries-reports-api-openapi.yml
 - filename: thought-industries-users-api-openapi.yml
   format: yaml
   label: Thought Industries Users API
   slug: thought-industries-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/openapi/thought-industries-users-api-openapi.yml
+  url: https://artifacts.apis.io/thought-industries/openapi/thought-industries-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -74,7 +74,7 @@ source_filename: thought-industries-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/thought-industries-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: ApiKeyHeader\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: API key passed as X-API-Key request header.\n  sources:\n  - openapi/thought-industries-openapi.yml\n- name: ApiKeyQuery\n  type: apiKey\n  in: query\n  parameter: apiKey\n  description: API key passed as apiKey query parameter.\n  sources:\n  - openapi/thought-industries-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/authentication/thought-industries-authentication.yml
+source_yaml_url: https://artifacts.apis.io/thought-industries/authentication/thought-industries-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Education

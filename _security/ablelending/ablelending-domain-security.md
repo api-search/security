@@ -26,7 +26,7 @@ source_filename: ablelending-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ablelending.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 03:13:00 2026 GMT\n  hsts: null\ndomains:\n- domain: ablelending.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ablelending/refs/heads/main/security/ablelending-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ablelending/security/ablelending-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

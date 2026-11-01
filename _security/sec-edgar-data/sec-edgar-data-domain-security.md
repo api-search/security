@@ -32,7 +32,7 @@ source_filename: sec-edgar-data-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sec.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: sec.gov\n  dnssec: true\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \";\"\n  - 0 issue \"entrust.net\"\n  - 0 iodef \"mailto:CAIssues@sec.gov\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sec-edgar-data/refs/heads/main/security/sec-edgar-data-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sec-edgar-data/security/sec-edgar-data-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Finance

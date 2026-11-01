@@ -41,7 +41,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://everlane.com/.well-known/openid-configuration\ndocs: https://everlane.com/.well-known/openid-configuration\nsummary:\n  types: [oauth2, openIdConnect]\n  oauth2_flows: [authorizationCode]\n  grant_types: [authorization_code, refresh_token, 'urn:ietf:params:oauth:grant-type:jwt-bearer']\n  pkce: [S256]\n  token_endpoint_auth: [client_secret_basic]\n  id_token_signing: [RS256]\nschemes:\n- name: ShopifyCustomerAccountOIDC\n  type: openIdConnect\n  issuer: https://shopify.com/authentication/62379163734\n  openIdConnectUrl: https://everlane.com/.well-known/openid-configuration\n  authorization_endpoint: https://account.everlane.com/authentication/oauth/authorize\n  token_endpoint: https://account.everlane.com/authentication/oauth/token\n  jwks_uri: https://account.everlane.com/authentication/.well-known/jwks.json\n  end_session_endpoint: https://account.everlane.com/authentication/logout\n  response_types: [code]\n  scopes_supported:\
   \ [openid, email, 'customer-account-api:full', 'customer-account-mcp-api:full']\n  sources: ['well-known/everlane-openid-configuration.json']\nnotes: Shopify-managed Customer Account authentication (OIDC/OAuth2) exposed on the account.everlane.com subdomain. The public storefront MCP at everlane.com/api/mcp is unauthenticated for read/cart; checkout requires buyer approval.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/everlane/refs/heads/main/authentication/everlane-authentication.yml
+source_yaml_url: https://artifacts.apis.io/everlane/authentication/everlane-authentication.yml
 summary_line: oauth2/openIdConnect · 1 scheme
 tags:
 - Company

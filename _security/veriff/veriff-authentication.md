@@ -8,37 +8,37 @@ api_specs:
   label: Veriff Attempts API
   slug: veriff-attempts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veriff/refs/heads/main/openapi/veriff-attempts-api-openapi.yml
+  url: https://artifacts.apis.io/veriff/openapi/veriff-attempts-api-openapi.yml
 - filename: veriff-decisions-api-openapi.yml
   format: yaml
   label: Veriff Decisions API
   slug: veriff-decisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veriff/refs/heads/main/openapi/veriff-decisions-api-openapi.yml
+  url: https://artifacts.apis.io/veriff/openapi/veriff-decisions-api-openapi.yml
 - filename: veriff-media-api-openapi.yml
   format: yaml
   label: Veriff Media API
   slug: veriff-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veriff/refs/heads/main/openapi/veriff-media-api-openapi.yml
+  url: https://artifacts.apis.io/veriff/openapi/veriff-media-api-openapi.yml
 - filename: veriff-persons-api-openapi.yml
   format: yaml
   label: Veriff Persons API
   slug: veriff-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veriff/refs/heads/main/openapi/veriff-persons-api-openapi.yml
+  url: https://artifacts.apis.io/veriff/openapi/veriff-persons-api-openapi.yml
 - filename: veriff-sessions-api-openapi.yml
   format: yaml
   label: Veriff Sessions API
   slug: veriff-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veriff/refs/heads/main/openapi/veriff-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/veriff/openapi/veriff-sessions-api-openapi.yml
 - filename: veriff-watchlist-api-openapi.yml
   format: yaml
   label: Veriff Watchlist API
   slug: veriff-watchlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veriff/refs/heads/main/openapi/veriff-watchlist-api-openapi.yml
+  url: https://artifacts.apis.io/veriff/openapi/veriff-watchlist-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: veriff-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/veriff-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: VeriffAuth\n  type: apiKey\n  in: header\n  parameter: X-AUTH-CLIENT\n  description: Veriff requires X-AUTH-CLIENT (API key) and X-HMAC-SIGNATURE (HMAC-SHA256 of\n    the request body using the shared secret) headers on every request.\n  sources:\n  - openapi/veriff-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veriff/refs/heads/main/authentication/veriff-authentication.yml
+source_yaml_url: https://artifacts.apis.io/veriff/authentication/veriff-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - KYC

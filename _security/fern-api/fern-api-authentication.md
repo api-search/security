@@ -7,13 +7,13 @@ api_specs:
   label: Fern Ask API
   slug: fern-api-ask-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fern-api/refs/heads/main/openapi/fern-api-ask-api-openapi.yml
+  url: https://artifacts.apis.io/fern-api/openapi/fern-api-ask-api-openapi.yml
 - filename: fern-api-website-sources-api-openapi.yml
   format: yaml
   label: Fern Website Sources API
   slug: fern-api-website-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fern-api/refs/heads/main/openapi/fern-api-website-sources-api-openapi.yml
+  url: https://artifacts.apis.io/fern-api/openapi/fern-api-website-sources-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -41,7 +41,7 @@ source_filename: fern-api-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fern-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    Bearer token generated with the `fern token` CLI command and passed as\n    `Authorization: Bearer [example key]`. The token is scoped to your Fern\n    organization and does not expire. Used for the hosted Ask Fern REST API and\n    to authenticate the `fern` CLI in CI/CD. The Ask Fern API is available on the\n    Team and Enterprise plans.\n  sources:\n  - openapi/fern-api-openapi.yml\n  - https://buildwithfern.com/learn/cli-api-reference/cli-reference/commands\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fern-api/refs/heads/main/authentication/fern-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fern-api/authentication/fern-api-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - API Lifecycle

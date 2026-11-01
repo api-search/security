@@ -7,19 +7,19 @@ api_specs:
   label: Replit Deployments API
   slug: replit-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replit/refs/heads/main/openapi/replit-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/replit/openapi/replit-deployments-api-openapi.yml
 - filename: replit-repls-api-openapi.yml
   format: yaml
   label: Replit Repls API
   slug: replit-repls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replit/refs/heads/main/openapi/replit-repls-api-openapi.yml
+  url: https://artifacts.apis.io/replit/openapi/replit-repls-api-openapi.yml
 - filename: replit-users-api-openapi.yml
   format: yaml
   label: Replit Users API
   slug: replit-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replit/refs/heads/main/openapi/replit-users-api-openapi.yml
+  url: https://artifacts.apis.io/replit/openapi/replit-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: replit-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/replit-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: API Token from https://replit.com/account#api-tokens\n  sources:\n  - openapi/replit-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/replit/refs/heads/main/authentication/replit-authentication.yml
+source_yaml_url: https://artifacts.apis.io/replit/authentication/replit-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Code

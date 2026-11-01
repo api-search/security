@@ -5,25 +5,25 @@ api_specs:
   label: Radio Browser Categories API
   slug: radio-browser-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-browser/refs/heads/main/openapi/radio-browser-categories-api-openapi.yml
+  url: https://artifacts.apis.io/radio-browser/openapi/radio-browser-categories-api-openapi.yml
 - filename: radio-browser-interactions-api-openapi.yml
   format: yaml
   label: Radio Browser Interactions API
   slug: radio-browser-interactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-browser/refs/heads/main/openapi/radio-browser-interactions-api-openapi.yml
+  url: https://artifacts.apis.io/radio-browser/openapi/radio-browser-interactions-api-openapi.yml
 - filename: radio-browser-service-api-openapi.yml
   format: yaml
   label: Radio Browser Service API
   slug: radio-browser-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-browser/refs/heads/main/openapi/radio-browser-service-api-openapi.yml
+  url: https://artifacts.apis.io/radio-browser/openapi/radio-browser-service-api-openapi.yml
 - filename: radio-browser-stations-api-openapi.yml
   format: yaml
   label: Radio Browser Stations API
   slug: radio-browser-stations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-browser/refs/heads/main/openapi/radio-browser-stations-api-openapi.yml
+  url: https://artifacts.apis.io/radio-browser/openapi/radio-browser-stations-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -69,7 +69,7 @@ source_filename: radio-browser-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.radio-browser.info\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 04:33:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.radio-browser.info\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 23:03:43 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: de1.api.radio-browser.info\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 19:24:46 2026 GMT\n  hsts: null\ndomains:\n- domain: radio-browser.info\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/radio-browser/refs/heads/main/security/radio-browser-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/radio-browser/security/radio-browser-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Music

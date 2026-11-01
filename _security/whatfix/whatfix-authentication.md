@@ -8,31 +8,31 @@ api_specs:
   label: Whatfix Analytics API
   slug: whatfix-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whatfix/refs/heads/main/openapi/whatfix-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/whatfix/openapi/whatfix-analytics-api-openapi.yml
 - filename: whatfix-content-api-openapi.yml
   format: yaml
   label: Whatfix Content API
   slug: whatfix-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whatfix/refs/heads/main/openapi/whatfix-content-api-openapi.yml
+  url: https://artifacts.apis.io/whatfix/openapi/whatfix-content-api-openapi.yml
 - filename: whatfix-end-users-api-openapi.yml
   format: yaml
   label: Whatfix End Users API
   slug: whatfix-end-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whatfix/refs/heads/main/openapi/whatfix-end-users-api-openapi.yml
+  url: https://artifacts.apis.io/whatfix/openapi/whatfix-end-users-api-openapi.yml
 - filename: whatfix-reports-api-openapi.yml
   format: yaml
   label: Whatfix Reports API
   slug: whatfix-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whatfix/refs/heads/main/openapi/whatfix-reports-api-openapi.yml
+  url: https://artifacts.apis.io/whatfix/openapi/whatfix-reports-api-openapi.yml
 - filename: whatfix-segments-api-openapi.yml
   format: yaml
   label: Whatfix Segments API
   slug: whatfix-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whatfix/refs/heads/main/openapi/whatfix-segments-api-openapi.yml
+  url: https://artifacts.apis.io/whatfix/openapi/whatfix-segments-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: whatfix-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/whatfix-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-whatfix-integration-key\n  description: User API token obtained from the Whatfix dashboard. Pass your registered Whatfix\n    email address in the x-whatfix-user header as well.\n  sources:\n  - openapi/whatfix-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whatfix/refs/heads/main/authentication/whatfix-authentication.yml
+source_yaml_url: https://artifacts.apis.io/whatfix/authentication/whatfix-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Digital Adoption

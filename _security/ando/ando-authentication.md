@@ -8,49 +8,73 @@ api_specs:
   label: Ando Calls API
   slug: ando-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/ando-calls-api-openapi.yml
-- filename: ando-clipboards-api-openapi.yml
-  format: yaml
-  label: Ando Clipboards API
-  slug: ando-clipboards-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/ando-clipboards-api-openapi.yml
+  url: https://artifacts.apis.io/ando/openapi/ando-calls-api-openapi.yml
 - filename: ando-members-api-openapi.yml
   format: yaml
   label: Ando Members API
   slug: ando-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/ando-members-api-openapi.yml
+  url: https://artifacts.apis.io/ando/openapi/ando-members-api-openapi.yml
 - filename: ando-messages-api-openapi.yml
   format: yaml
   label: Ando Messages API
   slug: ando-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/ando-messages-api-openapi.yml
+  url: https://artifacts.apis.io/ando/openapi/ando-messages-api-openapi.yml
 - filename: ando-realtime-api-openapi.yml
   format: yaml
   label: Ando Realtime API
   slug: ando-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/ando-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/ando/openapi/ando-realtime-api-openapi.yml
 - filename: ando-search-api-openapi.yml
   format: yaml
   label: Ando Search API
   slug: ando-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/ando-search-api-openapi.yml
-- filename: ando-tasks-api-openapi.yml
-  format: yaml
-  label: Ando Tasks API
-  slug: ando-tasks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/ando-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/ando/openapi/ando-search-api-openapi.yml
 - filename: ando-webhooks-api-openapi.yml
   format: yaml
   label: Ando Webhooks API
   slug: ando-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/ando-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/ando/openapi/ando-webhooks-api-openapi.yml
+- filename: ando-agents-api-openapi.yml
+  format: yaml
+  label: Ando Agents API
+  slug: ando-agents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ando/openapi/ando-agents-api-openapi.yml
+- filename: ando-api-keys-api-openapi.yml
+  format: yaml
+  label: Ando API Keys API
+  slug: ando-api-keys-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ando/openapi/ando-api-keys-api-openapi.yml
+- filename: ando-conversations-api-openapi.yml
+  format: yaml
+  label: Ando Conversations API
+  slug: ando-conversations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ando/openapi/ando-conversations-api-openapi.yml
+- filename: ando-files-api-openapi.yml
+  format: yaml
+  label: Ando Files API
+  slug: ando-files-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ando/openapi/ando-files-api-openapi.yml
+- filename: ando-imports-api-openapi.yml
+  format: yaml
+  label: Ando Imports API
+  slug: ando-imports-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ando/openapi/ando-imports-api-openapi.yml
+- filename: ando-webhook-sources-api-openapi.yml
+  format: yaml
+  label: Ando Webhook sources API
+  slug: ando-webhook-sources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ando/openapi/ando-webhook-sources-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -87,7 +111,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: openapi/ando-public-api-v1-openapi.json\ndocs: https://docs.ando.so/api-reference/authorization\nnotes: >-\n  Server-side workspace API keys with the ando_sk_ prefix, created in Settings ->\n  API keys. Send via the x-api-key header (preferred) or Authorization: Bearer\n  for compatibility with older clients. Each key is scoped to one workspace and\n  Ando derives authorship from the key or connected-agent identity. Third-party\n  agent keys and workspace/service keys are additional actor variants of the same\n  API-key model. No OAuth surface (no scopes artifact).\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: AndoApiKey\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: Workspace API key. Current accepted keys use the ando_sk_ prefix.\n  sources:\n  - openapi/ando-public-api-v1-openapi.json\n- name: BearerApiKey\n  type: http\n  scheme: bearer\n  bearerFormat: ando_sk\n\
   \  description: Compatibility transport for workspace API keys.\n  sources:\n  - openapi/ando-public-api-v1-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/authentication/ando-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ando/authentication/ando-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

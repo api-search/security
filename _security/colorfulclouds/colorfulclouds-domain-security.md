@@ -5,37 +5,37 @@ api_specs:
   label: ColorfulClouds Air Quality API
   slug: colorfulclouds-air-quality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colorfulclouds/refs/heads/main/openapi/colorfulclouds-air-quality-api-openapi.yml
+  url: https://artifacts.apis.io/colorfulclouds/openapi/colorfulclouds-air-quality-api-openapi.yml
 - filename: colorfulclouds-alerts-api-openapi.yml
   format: yaml
   label: ColorfulClouds Alerts API
   slug: colorfulclouds-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colorfulclouds/refs/heads/main/openapi/colorfulclouds-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/colorfulclouds/openapi/colorfulclouds-alerts-api-openapi.yml
 - filename: colorfulclouds-forecast-api-openapi.yml
   format: yaml
   label: ColorfulClouds Forecast API
   slug: colorfulclouds-forecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colorfulclouds/refs/heads/main/openapi/colorfulclouds-forecast-api-openapi.yml
+  url: https://artifacts.apis.io/colorfulclouds/openapi/colorfulclouds-forecast-api-openapi.yml
 - filename: colorfulclouds-precipitation-map-api-openapi.yml
   format: yaml
   label: ColorfulClouds Precipitation Map API
   slug: colorfulclouds-precipitation-map-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colorfulclouds/refs/heads/main/openapi/colorfulclouds-precipitation-map-api-openapi.yml
+  url: https://artifacts.apis.io/colorfulclouds/openapi/colorfulclouds-precipitation-map-api-openapi.yml
 - filename: colorfulclouds-realtime-api-openapi.yml
   format: yaml
   label: ColorfulClouds Realtime API
   slug: colorfulclouds-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colorfulclouds/refs/heads/main/openapi/colorfulclouds-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/colorfulclouds/openapi/colorfulclouds-realtime-api-openapi.yml
 - filename: colorfulclouds-weather-api-openapi.yml
   format: yaml
   label: ColorfulClouds Weather API
   slug: colorfulclouds-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colorfulclouds/refs/heads/main/openapi/colorfulclouds-weather-api-openapi.yml
+  url: https://artifacts.apis.io/colorfulclouds/openapi/colorfulclouds-weather-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -77,7 +77,7 @@ source_filename: colorfulclouds-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: caiyunapp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 11 23:59:59 2027 GMT\n  hsts: false\n- host: docs.caiyunapp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 11 23:59:59 2027 GMT\n  hsts: false\n- host: api.caiyunapp.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 11 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: caiyunapp.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/colorfulclouds/refs/heads/main/security/colorfulclouds-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/colorfulclouds/security/colorfulclouds-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Weather

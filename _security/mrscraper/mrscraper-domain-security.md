@@ -5,49 +5,49 @@ api_specs:
   label: MrScraper Analytic API
   slug: mrscraper-analytic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mrscraper/refs/heads/main/openapi/mrscraper-analytic-api-openapi.yml
+  url: https://artifacts.apis.io/mrscraper/openapi/mrscraper-analytic-api-openapi.yml
 - filename: mrscraper-auth-api-openapi.yml
   format: yaml
   label: MrScraper Auth API
   slug: mrscraper-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mrscraper/refs/heads/main/openapi/mrscraper-auth-api-openapi.yml
+  url: https://artifacts.apis.io/mrscraper/openapi/mrscraper-auth-api-openapi.yml
 - filename: mrscraper-gateway-api-openapi.yml
   format: yaml
   label: MrScraper Gateway API
   slug: mrscraper-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mrscraper/refs/heads/main/openapi/mrscraper-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/mrscraper/openapi/mrscraper-gateway-api-openapi.yml
 - filename: mrscraper-jobs-api-openapi.yml
   format: yaml
   label: MrScraper Jobs API
   slug: mrscraper-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mrscraper/refs/heads/main/openapi/mrscraper-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/mrscraper/openapi/mrscraper-jobs-api-openapi.yml
 - filename: mrscraper-proxies-api-openapi.yml
   format: yaml
   label: MrScraper Proxies API
   slug: mrscraper-proxies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mrscraper/refs/heads/main/openapi/mrscraper-proxies-api-openapi.yml
+  url: https://artifacts.apis.io/mrscraper/openapi/mrscraper-proxies-api-openapi.yml
 - filename: mrscraper-results-api-openapi.yml
   format: yaml
   label: MrScraper Results API
   slug: mrscraper-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mrscraper/refs/heads/main/openapi/mrscraper-results-api-openapi.yml
+  url: https://artifacts.apis.io/mrscraper/openapi/mrscraper-results-api-openapi.yml
 - filename: mrscraper-storage-api-openapi.yml
   format: yaml
   label: MrScraper Storage API
   slug: mrscraper-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mrscraper/refs/heads/main/openapi/mrscraper-storage-api-openapi.yml
+  url: https://artifacts.apis.io/mrscraper/openapi/mrscraper-storage-api-openapi.yml
 - filename: mrscraper-tasks-api-openapi.yml
   format: yaml
   label: MrScraper Tasks API
   slug: mrscraper-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mrscraper/refs/heads/main/openapi/mrscraper-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/mrscraper/openapi/mrscraper-tasks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -77,7 +77,7 @@ source_filename: mrscraper-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mrscraper.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 31 06:06:03 2026 GMT\n  hsts: false\ndomains:\n- domain: mrscraper.com\n  dnssec: true\n  caa:\n  - mrscraper.b-cdn.net.\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mrscraper/refs/heads/main/security/mrscraper-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mrscraper/security/mrscraper-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

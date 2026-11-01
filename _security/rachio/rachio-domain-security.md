@@ -5,49 +5,49 @@ api_specs:
   label: Rachio Public API
   slug: rachio-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/openapi/rachio-public-api-openapi.yml
+  url: https://artifacts.apis.io/rachio/openapi/rachio-public-api-openapi.yml
 - filename: rachio-lightingservice-api-openapi.yml
   format: yaml
   label: Rachio Lighting Service API
   slug: rachio-lightingservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/openapi/rachio-lightingservice-api-openapi.yml
+  url: https://artifacts.apis.io/rachio/openapi/rachio-lightingservice-api-openapi.yml
 - filename: rachio-programservice-api-openapi.yml
   format: yaml
   label: Rachio Program Service API
   slug: rachio-programservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/openapi/rachio-programservice-api-openapi.yml
+  url: https://artifacts.apis.io/rachio/openapi/rachio-programservice-api-openapi.yml
 - filename: rachio-propertyservice-api-openapi.yml
   format: yaml
   label: Rachio Property Service API
   slug: rachio-propertyservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/openapi/rachio-propertyservice-api-openapi.yml
+  url: https://artifacts.apis.io/rachio/openapi/rachio-propertyservice-api-openapi.yml
 - filename: rachio-public-api-openapi.yml
   format: yaml
   label: Rachio Public API
   slug: rachio-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/openapi/rachio-public-api-openapi.yml
+  url: https://artifacts.apis.io/rachio/openapi/rachio-public-api-openapi.yml
 - filename: rachio-summaryservice-api-openapi.yml
   format: yaml
   label: Rachio Summary Service API
   slug: rachio-summaryservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/openapi/rachio-summaryservice-api-openapi.yml
+  url: https://artifacts.apis.io/rachio/openapi/rachio-summaryservice-api-openapi.yml
 - filename: rachio-valveservice-api-openapi.yml
   format: yaml
   label: Rachio Valve Service API
   slug: rachio-valveservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/openapi/rachio-valveservice-api-openapi.yml
+  url: https://artifacts.apis.io/rachio/openapi/rachio-valveservice-api-openapi.yml
 - filename: rachio-webhookservice-api-openapi.yml
   format: yaml
   label: Rachio Webhook Service API
   slug: rachio-webhookservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/openapi/rachio-webhookservice-api-openapi.yml
+  url: https://artifacts.apis.io/rachio/openapi/rachio-webhookservice-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: rachio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: rachio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 09:28:03 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: rachio.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/security/rachio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rachio/security/rachio-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

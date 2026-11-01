@@ -7,37 +7,37 @@ api_specs:
   label: Tamara Captures API
   slug: tamara-captures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/openapi/tamara-captures-api-openapi.yml
+  url: https://artifacts.apis.io/tamara/openapi/tamara-captures-api-openapi.yml
 - filename: tamara-channel-partner-webhooks-api-openapi.yml
   format: yaml
   label: Tamara Channel Partner Webhooks API
   slug: tamara-channel-partner-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/openapi/tamara-channel-partner-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/tamara/openapi/tamara-channel-partner-webhooks-api-openapi.yml
 - filename: tamara-checkout-sessions-api-openapi.yml
   format: yaml
   label: Tamara Checkout Sessions API
   slug: tamara-checkout-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/openapi/tamara-checkout-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/tamara/openapi/tamara-checkout-sessions-api-openapi.yml
 - filename: tamara-merchant-api-keys-api-openapi.yml
   format: yaml
   label: Tamara Merchant API Keys API
   slug: tamara-merchant-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/openapi/tamara-merchant-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/tamara/openapi/tamara-merchant-api-keys-api-openapi.yml
 - filename: tamara-merchant-onboarding-api-openapi.yml
   format: yaml
   label: Tamara Merchant Onboarding API
   slug: tamara-merchant-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/openapi/tamara-merchant-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/tamara/openapi/tamara-merchant-onboarding-api-openapi.yml
 - filename: tamara-refunds-api-openapi.yml
   format: yaml
   label: Tamara Refunds API
   slug: tamara-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/openapi/tamara-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/tamara/openapi/tamara-refunds-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -70,7 +70,7 @@ source_filename: tamara-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tamara-channel-partners-api-openapi.yml, openapi/tamara-checkout-api-openapi.yml,\n  openapi/tamara-disputes-api-openapi.yml, openapi/tamara-eligibility-api-openapi.yml, openapi/tamara-in-store-checkout-api-openapi.yml,\n  openapi/tamara-orders-api-openapi.yml, openapi/tamara-payments-api-openapi.yml, openapi/tamara-webhooks-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/tamara-channel-partners-api-openapi.yml\n  - openapi/tamara-checkout-api-openapi.yml\n  - openapi/tamara-disputes-api-openapi.yml\n  - openapi/tamara-eligibility-api-openapi.yml\n  - openapi/tamara-in-store-checkout-api-openapi.yml\n  - openapi/tamara-orders-api-openapi.yml\n  - openapi/tamara-payments-api-openapi.yml\n  - openapi/tamara-webhooks-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/authentication/tamara-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tamara/authentication/tamara-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Buy Now Pay Later

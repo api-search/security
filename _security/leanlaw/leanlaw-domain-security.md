@@ -5,61 +5,61 @@ api_specs:
   label: LeanLaw Client API
   slug: leanlaw-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/openapi/leanlaw-client-api-openapi.yml
+  url: https://artifacts.apis.io/leanlaw/openapi/leanlaw-client-api-openapi.yml
 - filename: leanlaw-codes-api-openapi.yml
   format: yaml
   label: LeanLaw Codes API
   slug: leanlaw-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/openapi/leanlaw-codes-api-openapi.yml
+  url: https://artifacts.apis.io/leanlaw/openapi/leanlaw-codes-api-openapi.yml
 - filename: leanlaw-expense-api-openapi.yml
   format: yaml
   label: LeanLaw Expense API
   slug: leanlaw-expense-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/openapi/leanlaw-expense-api-openapi.yml
+  url: https://artifacts.apis.io/leanlaw/openapi/leanlaw-expense-api-openapi.yml
 - filename: leanlaw-fixedfee-api-openapi.yml
   format: yaml
   label: LeanLaw Fixed Fee API
   slug: leanlaw-fixedfee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/openapi/leanlaw-fixedfee-api-openapi.yml
+  url: https://artifacts.apis.io/leanlaw/openapi/leanlaw-fixedfee-api-openapi.yml
 - filename: leanlaw-invoice-api-openapi.yml
   format: yaml
   label: LeanLaw Invoice API
   slug: leanlaw-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/openapi/leanlaw-invoice-api-openapi.yml
+  url: https://artifacts.apis.io/leanlaw/openapi/leanlaw-invoice-api-openapi.yml
 - filename: leanlaw-matter-api-openapi.yml
   format: yaml
   label: LeanLaw Matter API
   slug: leanlaw-matter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/openapi/leanlaw-matter-api-openapi.yml
+  url: https://artifacts.apis.io/leanlaw/openapi/leanlaw-matter-api-openapi.yml
 - filename: leanlaw-practicearea-api-openapi.yml
   format: yaml
   label: LeanLaw Practice Area API
   slug: leanlaw-practicearea-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/openapi/leanlaw-practicearea-api-openapi.yml
+  url: https://artifacts.apis.io/leanlaw/openapi/leanlaw-practicearea-api-openapi.yml
 - filename: leanlaw-user-api-openapi.yml
   format: yaml
   label: LeanLaw User API
   slug: leanlaw-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/openapi/leanlaw-user-api-openapi.yml
+  url: https://artifacts.apis.io/leanlaw/openapi/leanlaw-user-api-openapi.yml
 - filename: leanlaw-custom-field-api-openapi.yml
   format: yaml
   label: LeanLaw Custom Field API
   slug: leanlaw-custom-field-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/openapi/leanlaw-custom-field-api-openapi.yml
+  url: https://artifacts.apis.io/leanlaw/openapi/leanlaw-custom-field-api-openapi.yml
 - filename: leanlaw-time-entry-api-openapi.yml
   format: yaml
   label: LeanLaw Time entry API
   slug: leanlaw-time-entry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/openapi/leanlaw-time-entry-api-openapi.yml
+  url: https://artifacts.apis.io/leanlaw/openapi/leanlaw-time-entry-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -105,7 +105,7 @@ source_filename: leanlaw-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.leanlaw.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 20:33:33 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: platform.leanlaw.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 11:03:37 2026 GMT\n  hsts: false\n- host: api.leanlaw.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 13:23:00 2026 GMT\n  hsts: null\ndomains:\n- domain: leanlaw.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: leanlaw.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/security/leanlaw-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/leanlaw/security/leanlaw-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Legal

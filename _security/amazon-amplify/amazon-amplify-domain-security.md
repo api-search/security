@@ -5,7 +5,49 @@ api_specs:
   label: Amazon Amplify Apps API
   slug: amazon-amplify-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/openapi/amazon-amplify-apps-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-amplify/openapi/amazon-amplify-apps-api-openapi.yml
+- filename: amazon-amplify-backendenvironments-api-openapi.yml
+  format: yaml
+  label: Amazon Amplify Amplify Backendenvironments API
+  slug: amazon-amplify-backendenvironments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-amplify/openapi/amazon-amplify-backendenvironments-api-openapi.yml
+- filename: amazon-amplify-branches-api-openapi.yml
+  format: yaml
+  label: Amazon Amplify Amplify Branches API
+  slug: amazon-amplify-branches-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-amplify/openapi/amazon-amplify-branches-api-openapi.yml
+- filename: amazon-amplify-domains-api-openapi.yml
+  format: yaml
+  label: Amazon Amplify Amplify Domains API
+  slug: amazon-amplify-domains-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-amplify/openapi/amazon-amplify-domains-api-openapi.yml
+- filename: amazon-amplify-jobs-api-openapi.yml
+  format: yaml
+  label: Amazon Amplify Amplify Jobs API
+  slug: amazon-amplify-jobs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-amplify/openapi/amazon-amplify-jobs-api-openapi.yml
+- filename: amazon-amplify-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Amplify Amplify Operations API
+  slug: amazon-amplify-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-amplify/openapi/amazon-amplify-operations-api-openapi.yml
+- filename: amazon-amplify-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Amplify Amplify Tags API
+  slug: amazon-amplify-tags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-amplify/openapi/amazon-amplify-tags-api-openapi.yml
+- filename: amazon-amplify-webhooks-api-openapi.yml
+  format: yaml
+  label: Amazon Amplify Amplify Webhooks API
+  slug: amazon-amplify-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-amplify/openapi/amazon-amplify-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -43,7 +85,7 @@ source_filename: amazon-amplify-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: amplify.amazonaws.com\n  https: false\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/security/amazon-amplify-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amazon-amplify/security/amazon-amplify-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Frontend

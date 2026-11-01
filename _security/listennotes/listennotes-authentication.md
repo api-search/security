@@ -8,37 +8,37 @@ api_specs:
   label: Listen Notes Insights API
   slug: insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-insights-api-api-openapi.yml
+  url: https://artifacts.apis.io/listennotes/openapi/listennotes-insights-api-api-openapi.yml
 - filename: listennotes-playlist-api-api-openapi.yml
   format: yaml
   label: Listen Notes Playlist API
   slug: playlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-playlist-api-api-openapi.yml
+  url: https://artifacts.apis.io/listennotes/openapi/listennotes-playlist-api-api-openapi.yml
 - filename: listennotes-podcaster-api-api-openapi.yml
   format: yaml
   label: Listen Notes Podcaster API
   slug: listennotes-podcaster-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-podcaster-api-api-openapi.yml
+  url: https://artifacts.apis.io/listennotes/openapi/listennotes-podcaster-api-api-openapi.yml
 - filename: listennotes-search-api-api-openapi.yml
   format: yaml
   label: Listen Notes Search API
   slug: listennotes-search-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-search-api-api-openapi.yml
+  url: https://artifacts.apis.io/listennotes/openapi/listennotes-search-api-api-openapi.yml
 - filename: listennotes-directory-api-api-openapi.yml
   format: yaml
   label: Listen Notes Directory API
   slug: listennotes-directory-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-directory-api-api-openapi.yml
+  url: https://artifacts.apis.io/listennotes/openapi/listennotes-directory-api-api-openapi.yml
 - filename: listennotes-listen-api-podcast-search-directory-and-insights-api-api-openapi.yml
   format: yaml
   label: 'Listen Notes Listen API: Podcast Search, Directory, And Insights API'
   slug: listennotes-listen-api-podcast-search-directory-and-insights-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-listen-api-podcast-search-directory-and-insights-api-api-openapi.yml
+  url: https://artifacts.apis.io/listennotes/openapi/listennotes-listen-api-podcast-search-directory-and-insights-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: listennotes-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/listennotes-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyHeader\n  type: apiKey\n  in: header\n  parameter: X-ListenAPI-Key\n  description: Your Listen API key, sent in the X-ListenAPI-Key request header.\n  sources:\n  - openapi/listennotes-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/authentication/listennotes-authentication.yml
+source_yaml_url: https://artifacts.apis.io/listennotes/authentication/listennotes-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Podcasts

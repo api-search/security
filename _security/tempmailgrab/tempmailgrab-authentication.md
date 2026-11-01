@@ -8,31 +8,31 @@ api_specs:
   label: TempMailGrab API Byod API
   slug: tempmailgrab-byod-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/openapi/tempmailgrab-byod-api-openapi.yml
+  url: https://artifacts.apis.io/tempmailgrab/openapi/tempmailgrab-byod-api-openapi.yml
 - filename: tempmailgrab-inbox-api-openapi.yml
   format: yaml
   label: TempMailGrab API Inbox API
   slug: tempmailgrab-inbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/openapi/tempmailgrab-inbox-api-openapi.yml
+  url: https://artifacts.apis.io/tempmailgrab/openapi/tempmailgrab-inbox-api-openapi.yml
 - filename: tempmailgrab-messages-api-openapi.yml
   format: yaml
   label: TempMailGrab API Messages API
   slug: tempmailgrab-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/openapi/tempmailgrab-messages-api-openapi.yml
+  url: https://artifacts.apis.io/tempmailgrab/openapi/tempmailgrab-messages-api-openapi.yml
 - filename: tempmailgrab-tempmailgrab-api-api-openapi.yml
   format: yaml
   label: TempMailGrab API TempMailGrab API
   slug: tempmailgrab-tempmailgrab-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/openapi/tempmailgrab-tempmailgrab-api-api-openapi.yml
+  url: https://artifacts.apis.io/tempmailgrab/openapi/tempmailgrab-tempmailgrab-api-api-openapi.yml
 - filename: tempmailgrab-webhooks-api-openapi.yml
   format: yaml
   label: TempMailGrab API Webhooks API
   slug: tempmailgrab-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/openapi/tempmailgrab-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/tempmailgrab/openapi/tempmailgrab-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-09-01'\nmethod: searched\nsource: https://tempmai
   \ this \"the legacy header\" and states both work on every request.'\n  sources:\n  - openapi/tempmailgrab-openapi.json\n  - https://tempmailgrab.com/api-docs\nkey_management:\n  issuance: >-\n    Create a free account on the developer dashboard (email/password or GitHub sign-in), then mint an API\n    key. Every key is tied to the account, so keys and the dashboard share the same private inboxes.\n  dashboard: https://tempmailgrab.com/dashboard\n  sign_in_methods:\n  - email/password\n  - GitHub\n  rotation: >-\n    Keys can be rotated from the dashboard. The provider advises rotating immediately on suspected exposure\n    rather than waiting to confirm misuse.\n  scoping: >-\n    Account-scoped bearer credential - anyone holding it can act as the account. There are no scopes,\n    no per-key permissions, and no read-only key class.\n  storage_guidance: >-\n    \"Keep it in an environment variable or your CI provider's secret store, never in committed source, and\n    never in client-side\
   \ code where a browser would expose it.\" (https://tempmailgrab.com/security)\n  transport: TLS only.\nauthorization:\n  model: ownership\n  description: >-\n    Inboxes are private to the key's account; another key cannot read your mail. There is no scope, role, or\n    consent surface - authorization is entirely \"did this key create this resource\".\n  scopes_published: false\nrate_limit_binding: >-\n  Limits are enforced per API key rather than per IP, so a CI runner behind shared NAT gets its own budget.\n  See rate-limits/tempmailgrab-rate-limits.yml.\nwebhook_authentication:\n  outbound: HMAC-SHA256 over the raw body in X-TMG-Signature, keyed by a whsec_ secret returned once at\n    webhook creation.\n  see: asyncapi/tempmailgrab-webhooks.yml\nnegative_probes:\n- url: https://tempmailgrab.com/.well-known/openid-configuration\n  status: 404\n- url: https://tempmailgrab.com/.well-known/oauth-authorization-server\n  status: 404\n- url: https://tempmailgrab.com/.well-known/oauth-protected-resource\n\
   \  status: 404\n- url: https://tempmailgrab.com/api/v1/openapi.json\n  status: 401\n  note: Confirms every /api/v1 path is gated - an unauthenticated call returns 401, not a public error page.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/authentication/tempmailgrab-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tempmailgrab/authentication/tempmailgrab-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Email

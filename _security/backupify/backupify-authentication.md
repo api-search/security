@@ -7,13 +7,13 @@ api_specs:
   label: Backupify Domains API
   slug: backupify-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backupify/refs/heads/main/openapi/backupify-domains-api-openapi.yml
+  url: https://artifacts.apis.io/backupify/openapi/backupify-domains-api-openapi.yml
 - filename: backupify-seats-api-openapi.yml
   format: yaml
   label: Backupify Seats API
   slug: backupify-seats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backupify/refs/heads/main/openapi/backupify-seats-api-openapi.yml
+  url: https://artifacts.apis.io/backupify/openapi/backupify-seats-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: backupify-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/backupify-saas-protection-api.yaml\nsummary:\n  types:\n  - http\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication using API public key as username and private key as\n    password\n  sources:\n  - openapi/backupify-saas-protection-api.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/backupify/refs/heads/main/authentication/backupify-authentication.yml
+source_yaml_url: https://artifacts.apis.io/backupify/authentication/backupify-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - SaaS Backup

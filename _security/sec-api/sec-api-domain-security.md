@@ -5,43 +5,43 @@ api_specs:
   label: SEC API Filing Stream API
   slug: sec-api-filing-stream-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/asyncapi/sec-api-asyncapi.yml
+  url: https://artifacts.apis.io/sec-api/asyncapi/sec-api-asyncapi.yml
 - filename: sec-api-extractor-api-openapi.yml
   format: yaml
   label: SEC API Extractor API
   slug: sec-api-extractor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/openapi/sec-api-extractor-api-openapi.yml
+  url: https://artifacts.apis.io/sec-api/openapi/sec-api-extractor-api-openapi.yml
 - filename: sec-api-filing-query-api-openapi.yml
   format: yaml
   label: SEC API Filing Query API
   slug: sec-api-filing-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/openapi/sec-api-filing-query-api-openapi.yml
+  url: https://artifacts.apis.io/sec-api/openapi/sec-api-filing-query-api-openapi.yml
 - filename: sec-api-form-13f-api-openapi.yml
   format: yaml
   label: SEC API Form 13F API
   slug: sec-api-form-13f-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/openapi/sec-api-form-13f-api-openapi.yml
+  url: https://artifacts.apis.io/sec-api/openapi/sec-api-form-13f-api-openapi.yml
 - filename: sec-api-full-text-search-api-openapi.yml
   format: yaml
   label: SEC API Full-Text Search API
   slug: sec-api-full-text-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/openapi/sec-api-full-text-search-api-openapi.yml
+  url: https://artifacts.apis.io/sec-api/openapi/sec-api-full-text-search-api-openapi.yml
 - filename: sec-api-insider-trading-api-openapi.yml
   format: yaml
   label: SEC API Insider Trading API
   slug: sec-api-insider-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/openapi/sec-api-insider-trading-api-openapi.yml
+  url: https://artifacts.apis.io/sec-api/openapi/sec-api-insider-trading-api-openapi.yml
 - filename: sec-api-xbrl-api-openapi.yml
   format: yaml
   label: SEC API XBRL API
   slug: sec-api-xbrl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/openapi/sec-api-xbrl-api-openapi.yml
+  url: https://artifacts.apis.io/sec-api/openapi/sec-api-xbrl-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -79,7 +79,7 @@ source_filename: sec-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI + WebSocket hosts\nhosts:\n- host: sec-api.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 23:59:59 2026 GMT\n  hsts: false\n- host: api.sec-api.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 23:59:59 2026 GMT\n  hsts: false\n- host: stream.sec-api.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: sec-api.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/security/sec-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sec-api/security/sec-api-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - SEC Filings

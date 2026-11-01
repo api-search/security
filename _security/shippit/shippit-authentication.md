@@ -7,37 +7,37 @@ api_specs:
   label: Shippit Book API
   slug: shippit-book-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippit/refs/heads/main/openapi/shippit-book-api-openapi.yml
+  url: https://artifacts.apis.io/shippit/openapi/shippit-book-api-openapi.yml
 - filename: shippit-label-api-openapi.yml
   format: yaml
   label: Shippit Label API
   slug: shippit-label-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippit/refs/heads/main/openapi/shippit-label-api-openapi.yml
+  url: https://artifacts.apis.io/shippit/openapi/shippit-label-api-openapi.yml
 - filename: shippit-merchant-api-openapi.yml
   format: yaml
   label: Shippit Merchant API
   slug: shippit-merchant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippit/refs/heads/main/openapi/shippit-merchant-api-openapi.yml
+  url: https://artifacts.apis.io/shippit/openapi/shippit-merchant-api-openapi.yml
 - filename: shippit-orders-api-openapi.yml
   format: yaml
   label: Shippit Orders API
   slug: shippit-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippit/refs/heads/main/openapi/shippit-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shippit/openapi/shippit-orders-api-openapi.yml
 - filename: shippit-quote-api-openapi.yml
   format: yaml
   label: Shippit Quote API
   slug: shippit-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippit/refs/heads/main/openapi/shippit-quote-api-openapi.yml
+  url: https://artifacts.apis.io/shippit/openapi/shippit-quote-api-openapi.yml
 - filename: shippit-tracking-api-openapi.yml
   format: yaml
   label: Shippit Tracking API
   slug: shippit-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippit/refs/heads/main/openapi/shippit-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/shippit/openapi/shippit-tracking-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -65,7 +65,7 @@ source_filename: shippit-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: derived\nsource: https://developer.shippit.com/dev_guide/using_apis/authentication.html\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Per-merchant API key (referred to in Shippit docs as the API Secret)\n    passed as an HTTP Bearer token: `Authorization: Bearer [example key]`. The key\n    is obtained from the Shippit merchant dashboard. Shippit also recommends sending\n    `user-agent` and `x-shippit-platform` headers to identify the integration. Use\n    a staging key against the staging base URL (https://app.staging.shippit.com/api/3)\n    and a production key against production (https://app.shippit.com/api/3). No HMAC\n    request signing is documented.'\n  sources:\n  - https://developer.shippit.com/dev_guide/using_apis/authentication.html\n  - https://developer.shippit.com/dev_guide/using_apis/using_apis.html\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shippit/refs/heads/main/authentication/shippit-authentication.yml
+source_yaml_url: https://artifacts.apis.io/shippit/authentication/shippit-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Shipping

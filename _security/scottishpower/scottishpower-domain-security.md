@@ -5,13 +5,13 @@ api_specs:
   label: ScottishPower Catalog API
   slug: scottishpower-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scottishpower/refs/heads/main/openapi/scottishpower-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/scottishpower/openapi/scottishpower-catalog-api-openapi.yml
 - filename: scottishpower-dataset-api-openapi.yml
   format: yaml
   label: ScottishPower Dataset API
   slug: scottishpower-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scottishpower/refs/heads/main/openapi/scottishpower-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/scottishpower/openapi/scottishpower-dataset-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: scottishpower-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.scottishpower.co.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 23:59:59 2026 GMT\n  hsts: null\n- host: www.spenergynetworks.co.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 23:59:59 2026 GMT\n  hsts: null\n- host: spenergynetworks.opendatasoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 21:02:03 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: scottishpower.co.uk\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: spenergynetworks.co.uk\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scottishpower/refs/heads/main/security/scottishpower-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/scottishpower/security/scottishpower-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Energy

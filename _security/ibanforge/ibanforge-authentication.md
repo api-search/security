@@ -9,55 +9,55 @@ api_specs:
   label: IBANforge API Keys API
   slug: ibanforge-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/ibanforge/openapi/ibanforge-api-keys-api-openapi.yml
 - filename: ibanforge-bic-api-openapi.yml
   format: yaml
   label: IBANforge BIC API
   slug: ibanforge-bic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-bic-api-openapi.yml
+  url: https://artifacts.apis.io/ibanforge/openapi/ibanforge-bic-api-openapi.yml
 - filename: ibanforge-compliance-api-openapi.yml
   format: yaml
   label: IBANforge Compliance API
   slug: ibanforge-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/ibanforge/openapi/ibanforge-compliance-api-openapi.yml
 - filename: ibanforge-credits-api-openapi.yml
   format: yaml
   label: IBANforge Credits API
   slug: ibanforge-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-credits-api-openapi.yml
+  url: https://artifacts.apis.io/ibanforge/openapi/ibanforge-credits-api-openapi.yml
 - filename: ibanforge-free-api-openapi.yml
   format: yaml
   label: IBANforge Free API
   slug: ibanforge-free-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-free-api-openapi.yml
+  url: https://artifacts.apis.io/ibanforge/openapi/ibanforge-free-api-openapi.yml
 - filename: ibanforge-iban-api-openapi.yml
   format: yaml
   label: IBANforge IBAN API
   slug: ibanforge-iban-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-iban-api-openapi.yml
+  url: https://artifacts.apis.io/ibanforge/openapi/ibanforge-iban-api-openapi.yml
 - filename: ibanforge-mcp-api-openapi.yml
   format: yaml
   label: IBANforge MCP API
   slug: ibanforge-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/ibanforge/openapi/ibanforge-mcp-api-openapi.yml
 - filename: ibanforge-swiss-clearing-api-openapi.yml
   format: yaml
   label: IBANforge Swiss Clearing API
   slug: ibanforge-swiss-clearing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-swiss-clearing-api-openapi.yml
+  url: https://artifacts.apis.io/ibanforge/openapi/ibanforge-swiss-clearing-api-openapi.yml
 - filename: ibanforge-account-api-openapi.yml
   format: yaml
   label: IBANforge Account API
   slug: ibanforge-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-account-api-openapi.yml
+  url: https://artifacts.apis.io/ibanforge/openapi/ibanforge-account-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -125,7 +125,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-25'\nmethod: derived\nsource: openapi/ibanforge-account-api-openapi.yml, openapi/ibanforge-api-keys-api-openapi.yml,\n  openapi/ibanforge-bic-api-openapi.yml, openapi/ibanforge-compliance-api-openapi.yml, openapi/ibanforge-credits-api-openapi.yml,\n  openapi/ibanforge-free-api-openapi.yml, openapi/ibanforge-iban-api-openapi.yml, openapi/ibanforge-mcp-api-openapi.yml,\n  openapi/ibanforge-swiss-clearing-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - cookie\n  - header\nschemes:\n- name: x402Payment\n  type: apiKey\n  in: header\n  parameter: PAYMENT-SIGNATURE\n  description: x402 USDC micropayment signature (protocol v2). Clients holding v1 payment requirements\n    may send the same signature as X-Payment; both are accepted.\n  sources:\n  - openapi/ibanforge-account-api-openapi.yml\n  - openapi/ibanforge-api-keys-api-openapi.yml\n  - openapi/ibanforge-bic-api-openapi.yml\n  - openapi/ibanforge-compliance-api-openapi.yml\n\
   \  - openapi/ibanforge-credits-api-openapi.yml\n  - openapi/ibanforge-free-api-openapi.yml\n  - openapi/ibanforge-iban-api-openapi.yml\n  - openapi/ibanforge-mcp-api-openapi.yml\n  - openapi/ibanforge-swiss-clearing-api-openapi.yml\n- name: apiKey\n  type: http\n  scheme: bearer\n  description: API key (Bearer ifk_xxx) — 25 free requests/month without an email address, 200\n    a month once claimed, or a custom quota for paid keys\n  sources:\n  - openapi/ibanforge-account-api-openapi.yml\n  - openapi/ibanforge-api-keys-api-openapi.yml\n  - openapi/ibanforge-bic-api-openapi.yml\n  - openapi/ibanforge-compliance-api-openapi.yml\n  - openapi/ibanforge-credits-api-openapi.yml\n  - openapi/ibanforge-free-api-openapi.yml\n  - openapi/ibanforge-iban-api-openapi.yml\n  - openapi/ibanforge-mcp-api-openapi.yml\n  - openapi/ibanforge-swiss-clearing-api-openapi.yml\n- name: accountSession\n  type: apiKey\n  in: cookie\n  parameter: ibanforge_account\n  description: 'Session of the account page, set\
   \ by POST /v1/account/session: HttpOnly, Secure,\n    SameSite=Strict, Path=/v1/account, 7 days from sign-in. Read-only: it opens no paid route\n    and no route that acts on a key.'\n  sources:\n  - openapi/ibanforge-account-api-openapi.yml\n  - openapi/ibanforge-api-keys-api-openapi.yml\n  - openapi/ibanforge-bic-api-openapi.yml\n  - openapi/ibanforge-compliance-api-openapi.yml\n  - openapi/ibanforge-credits-api-openapi.yml\n  - openapi/ibanforge-free-api-openapi.yml\n  - openapi/ibanforge-iban-api-openapi.yml\n  - openapi/ibanforge-mcp-api-openapi.yml\n  - openapi/ibanforge-swiss-clearing-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/authentication/ibanforge-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ibanforge/authentication/ibanforge-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Finance

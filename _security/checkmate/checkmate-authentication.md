@@ -8,19 +8,19 @@ api_specs:
   label: Checkmate Health API
   slug: checkmate-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/openapi/checkmate-health-api-openapi.yml
+  url: https://artifacts.apis.io/checkmate/openapi/checkmate-health-api-openapi.yml
 - filename: checkmate-merchants-api-openapi.yml
   format: yaml
   label: Checkmate Merchants API
   slug: checkmate-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/openapi/checkmate-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/checkmate/openapi/checkmate-merchants-api-openapi.yml
 - filename: checkmate-shoppers-api-openapi.yml
   format: yaml
   label: Checkmate Shoppers API
   slug: checkmate-shoppers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/openapi/checkmate-shoppers-api-openapi.yml
+  url: https://artifacts.apis.io/checkmate/openapi/checkmate-shoppers-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -51,7 +51,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://api.openstock.sh/openapi.json (info.description) + https://openstock.sh\ndocs: https://api.openstock.sh/docs\nsummary:\n  types:\n  - http\n  api_key_in:\n  - header\n  oauth2_flows: []\n  note: >-\n    The OpenStock OpenAPI does not declare a formal components.securitySchemes\n    block; authentication is documented in prose in the spec description and on\n    the OpenStock site. All authenticated endpoints require a bearer API key.\nschemes:\n- name: bearerApiKey\n  type: http\n  scheme: bearer\n  in: header\n  parameter: Authorization\n  format: 'Authorization: Bearer <api_key>'\n  description: >-\n    Partner API key issued by a Checkmate/OpenStock partner representative\n    (\"Ask partner representative for the API key\"). Presented as an\n    HTTP bearer token on every request except GET /health. Missing or invalid\n    keys return 401. Rate limits are enforced per partner.\n  sources:\n  - openapi/checkmate-openstock-openapi-original.json\n\
   mcp_auth:\n  server: https://mcp.joincheckmate.com\n  scheme: bearer\n  header: Authorization\n  format: 'Authorization: Bearer ${KEY}'\n  note: >-\n    The OpenStock MCP server uses the same bearer credential; a single\n    credential grants access to the entire 284,000+ merchant network.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/authentication/checkmate-authentication.yml
+source_yaml_url: https://artifacts.apis.io/checkmate/authentication/checkmate-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

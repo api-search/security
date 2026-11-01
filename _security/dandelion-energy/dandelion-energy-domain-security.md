@@ -27,7 +27,7 @@ source_filename: dandelion-energy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dandelionenergy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 12:49:16 2026 GMT\n  hsts: false\ndomains:\n- domain: dandelionenergy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dandelion-energy/refs/heads/main/security/dandelion-energy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dandelion-energy/security/dandelion-energy-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

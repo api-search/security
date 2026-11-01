@@ -44,7 +44,7 @@ source_filename: scada-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.isa.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: opcfoundation.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 01:15:05 2026 GMT\n  hsts: false\n- host: mqtt.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 20:15:21 2026 GMT\n  hsts: false\ndomains:\n- domain: isa.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: opcfoundation.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scada/refs/heads/main/security/scada-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/scada/security/scada-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Critical Infrastructure

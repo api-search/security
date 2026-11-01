@@ -8,49 +8,49 @@ api_specs:
   label: Upsie Authorization API
   slug: upsie-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/openapi/upsie-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/upsie/openapi/upsie-authorization-api-openapi.yml
 - filename: upsie-repair-assignments-repairassignments-api-openapi.yml
   format: yaml
   label: Upsie Repair Assignments (/repairassignments) API
   slug: upsie-repair-assignments-repairassignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/openapi/upsie-repair-assignments-repairassignments-api-openapi.yml
+  url: https://artifacts.apis.io/upsie/openapi/upsie-repair-assignments-repairassignments-api-openapi.yml
 - filename: upsie-repair-categories-api-openapi.yml
   format: yaml
   label: Upsie Repair Categories API
   slug: upsie-repair-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/openapi/upsie-repair-categories-api-openapi.yml
+  url: https://artifacts.apis.io/upsie/openapi/upsie-repair-categories-api-openapi.yml
 - filename: upsie-repair-item-templates-api-openapi.yml
   format: yaml
   label: Upsie Repair Item Templates API
   slug: upsie-repair-item-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/openapi/upsie-repair-item-templates-api-openapi.yml
+  url: https://artifacts.apis.io/upsie/openapi/upsie-repair-item-templates-api-openapi.yml
 - filename: upsie-repair-items-repairitems-api-openapi.yml
   format: yaml
   label: Upsie Repair Items (/repairitems) API
   slug: upsie-repair-items-repairitems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/openapi/upsie-repair-items-repairitems-api-openapi.yml
+  url: https://artifacts.apis.io/upsie/openapi/upsie-repair-items-repairitems-api-openapi.yml
 - filename: upsie-repair-notes-api-openapi.yml
   format: yaml
   label: Upsie Repair Notes API
   slug: upsie-repair-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/openapi/upsie-repair-notes-api-openapi.yml
+  url: https://artifacts.apis.io/upsie/openapi/upsie-repair-notes-api-openapi.yml
 - filename: upsie-repairs-repairs-api-openapi.yml
   format: yaml
   label: Upsie Repairs (/repairs) API
   slug: upsie-repairs-repairs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/openapi/upsie-repairs-repairs-api-openapi.yml
+  url: https://artifacts.apis.io/upsie/openapi/upsie-repairs-repairs-api-openapi.yml
 - filename: upsie-webhooks-api-openapi.yml
   format: yaml
   label: Upsie Webhooks API
   slug: upsie-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/openapi/upsie-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/upsie/openapi/upsie-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: Authentication profile for the Upsie Partner Network API, captured from the official Postman documentation (api.upsie.com/docs). The API authenticates every request with a JSON Web Token passed in a custom `token` header. Tokens are obtained by partner-user login (username/password) and then exchanged for longer-lived API access and refresh tokens; partner-scoped API access tokens can also be generated and invalidated through the Upsie Partner Portal.
@@ -81,7 +81,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://documenter.getpostman.com/view/16328390/2s8ZDeUykK\ndescription: >-\n  Authentication profile for the Upsie Partner Network API, captured from the\n  official Postman documentation (api.upsie.com/docs). The API authenticates\n  every request with a JSON Web Token passed in a custom `token` header. Tokens\n  are obtained by partner-user login (username/password) and then exchanged for\n  longer-lived API access and refresh tokens; partner-scoped API access tokens\n  can also be generated and invalidated through the Upsie Partner Portal.\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  header_name: token\n  token_format: JWT\nschemes:\n  - name: jwtToken\n    type: apiKey\n    in: header\n    parameter: token\n    format: JWT\n    sources: [openapi/upsie-partner-network-openapi.yml]\n    notes: >-\n      JWT passed in a `token` header with each API request. Documented token\n      lifetimes: access tokens 30 days,\
   \ refresh tokens 60 days, partner-scoped\n      API access tokens 10 years. Tokens carry an encoded expiration date and\n      can be invalidated at any time via POST /partner/auth/invalidateapitokens\n      or the Partner Portal.\nflows:\n  - step: 1\n    operation: partnerLogin\n    request: POST /partner/auth/login\n    detail: Partner user login with username/password returns a user JWT.\n  - step: 2\n    operation: generateApiAccessToken\n    request: POST /partner/auth/apiaccess\n    detail: Exchange the user token for an API access token (30-day expiry).\n  - step: 3\n    operation: generateApiRefreshToken\n    request: POST /partner/auth/apirefresh\n    detail: Refresh tokens (60-day expiry) mint new access tokens.\n  - step: 4\n    operation: whoAmI\n    request: GET /partner/auth/whoami\n    detail: Verify the identity bound to the presented token.\n  - step: 5\n    operation: invalidateApiTokens\n    request: POST /partner/auth/invalidateapitokens\n    detail: Invalidate the\
   \ account's API tokens if lost or stolen.\nguidance:\n  - Do not share API keys in publicly accessible areas such as GitHub or client-side code.\n  - Always use HTTPS when making API requests.\n  - Invalidate tokens immediately if one is suspected lost or stolen.\ncontact: dev@upsie.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/authentication/upsie-authentication.yml
+source_yaml_url: https://artifacts.apis.io/upsie/authentication/upsie-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

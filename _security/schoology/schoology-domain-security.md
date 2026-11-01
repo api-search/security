@@ -5,73 +5,73 @@ api_specs:
   label: Schoology Assignments API
   slug: schoology-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schoology/refs/heads/main/openapi/schoology-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/schoology/openapi/schoology-assignments-api-openapi.yml
 - filename: schoology-courses-api-openapi.yml
   format: yaml
   label: Schoology Courses API
   slug: schoology-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schoology/refs/heads/main/openapi/schoology-courses-api-openapi.yml
+  url: https://artifacts.apis.io/schoology/openapi/schoology-courses-api-openapi.yml
 - filename: schoology-enrollments-api-openapi.yml
   format: yaml
   label: Schoology Enrollments API
   slug: schoology-enrollments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schoology/refs/heads/main/openapi/schoology-enrollments-api-openapi.yml
+  url: https://artifacts.apis.io/schoology/openapi/schoology-enrollments-api-openapi.yml
 - filename: schoology-grades-api-openapi.yml
   format: yaml
   label: Schoology Grades API
   slug: schoology-grades-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schoology/refs/heads/main/openapi/schoology-grades-api-openapi.yml
+  url: https://artifacts.apis.io/schoology/openapi/schoology-grades-api-openapi.yml
 - filename: schoology-groups-api-openapi.yml
   format: yaml
   label: Schoology Groups API
   slug: schoology-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schoology/refs/heads/main/openapi/schoology-groups-api-openapi.yml
+  url: https://artifacts.apis.io/schoology/openapi/schoology-groups-api-openapi.yml
 - filename: schoology-multi-call-api-openapi.yml
   format: yaml
   label: Schoology Multi-Call API
   slug: schoology-multi-call-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schoology/refs/heads/main/openapi/schoology-multi-call-api-openapi.yml
+  url: https://artifacts.apis.io/schoology/openapi/schoology-multi-call-api-openapi.yml
 - filename: schoology-sections-api-openapi.yml
   format: yaml
   label: Schoology Sections API
   slug: schoology-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schoology/refs/heads/main/openapi/schoology-sections-api-openapi.yml
+  url: https://artifacts.apis.io/schoology/openapi/schoology-sections-api-openapi.yml
 - filename: schoology-submissions-api-openapi.yml
   format: yaml
   label: Schoology Submissions API
   slug: schoology-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schoology/refs/heads/main/openapi/schoology-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/schoology/openapi/schoology-submissions-api-openapi.yml
 - filename: schoology-subscriptions-api-openapi.yml
   format: yaml
   label: Schoology Subscriptions API
   slug: schoology-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schoology/refs/heads/main/openapi/schoology-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/schoology/openapi/schoology-subscriptions-api-openapi.yml
 - filename: schoology-targets-api-openapi.yml
   format: yaml
   label: Schoology Targets API
   slug: schoology-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schoology/refs/heads/main/openapi/schoology-targets-api-openapi.yml
+  url: https://artifacts.apis.io/schoology/openapi/schoology-targets-api-openapi.yml
 - filename: schoology-users-api-openapi.yml
   format: yaml
   label: Schoology Users API
   slug: schoology-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schoology/refs/heads/main/openapi/schoology-users-api-openapi.yml
+  url: https://artifacts.apis.io/schoology/openapi/schoology-users-api-openapi.yml
 - filename: schoology-events-api-openapi.yml
   format: yaml
   label: Schoology Events API
   slug: schoology-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schoology/refs/heads/main/openapi/schoology-events-api-openapi.yml
+  url: https://artifacts.apis.io/schoology/openapi/schoology-events-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -112,7 +112,7 @@ source_filename: schoology-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.schoology.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  4 00:22:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.schoology.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  6 23:59:59 2027 GMT\n  hsts: false\n- host: api.schoology.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  6 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: schoology.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/schoology/refs/heads/main/security/schoology-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/schoology/security/schoology-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - EdTech

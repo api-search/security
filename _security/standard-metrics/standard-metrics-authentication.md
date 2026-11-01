@@ -7,85 +7,85 @@ api_specs:
   label: Standard Metrics Budgets API
   slug: standard-metrics-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-budgets-api-openapi.yml
+  url: https://artifacts.apis.io/standard-metrics/openapi/standard-metrics-budgets-api-openapi.yml
 - filename: standard-metrics-cap-table-api-openapi.yml
   format: yaml
   label: Standard Metrics Cap Table API
   slug: standard-metrics-cap-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-cap-table-api-openapi.yml
+  url: https://artifacts.apis.io/standard-metrics/openapi/standard-metrics-cap-table-api-openapi.yml
 - filename: standard-metrics-companies-api-openapi.yml
   format: yaml
   label: Standard Metrics Companies API
   slug: standard-metrics-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-companies-api-openapi.yml
+  url: https://artifacts.apis.io/standard-metrics/openapi/standard-metrics-companies-api-openapi.yml
 - filename: standard-metrics-custom-columns-api-openapi.yml
   format: yaml
   label: Standard Metrics Custom Columns API
   slug: standard-metrics-custom-columns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-custom-columns-api-openapi.yml
+  url: https://artifacts.apis.io/standard-metrics/openapi/standard-metrics-custom-columns-api-openapi.yml
 - filename: standard-metrics-documents-api-openapi.yml
   format: yaml
   label: Standard Metrics Documents API
   slug: standard-metrics-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-documents-api-openapi.yml
+  url: https://artifacts.apis.io/standard-metrics/openapi/standard-metrics-documents-api-openapi.yml
 - filename: standard-metrics-firm-details-api-openapi.yml
   format: yaml
   label: Standard Metrics Firm Details API
   slug: standard-metrics-firm-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-firm-details-api-openapi.yml
+  url: https://artifacts.apis.io/standard-metrics/openapi/standard-metrics-firm-details-api-openapi.yml
 - filename: standard-metrics-funds-api-openapi.yml
   format: yaml
   label: Standard Metrics Funds API
   slug: standard-metrics-funds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-funds-api-openapi.yml
+  url: https://artifacts.apis.io/standard-metrics/openapi/standard-metrics-funds-api-openapi.yml
 - filename: standard-metrics-information-reports-api-openapi.yml
   format: yaml
   label: Standard Metrics Information Reports API
   slug: standard-metrics-information-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-information-reports-api-openapi.yml
+  url: https://artifacts.apis.io/standard-metrics/openapi/standard-metrics-information-reports-api-openapi.yml
 - filename: standard-metrics-information-requests-api-openapi.yml
   format: yaml
   label: Standard Metrics Information Requests API
   slug: standard-metrics-information-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-information-requests-api-openapi.yml
+  url: https://artifacts.apis.io/standard-metrics/openapi/standard-metrics-information-requests-api-openapi.yml
 - filename: standard-metrics-metrics-api-openapi.yml
   format: yaml
   label: Standard Metrics API
   slug: standard-metrics-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/standard-metrics/openapi/standard-metrics-metrics-api-openapi.yml
 - filename: standard-metrics-notes-api-openapi.yml
   format: yaml
   label: Standard Metrics Notes API
   slug: standard-metrics-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-notes-api-openapi.yml
+  url: https://artifacts.apis.io/standard-metrics/openapi/standard-metrics-notes-api-openapi.yml
 - filename: standard-metrics-o-api-openapi.yml
   format: yaml
   label: Standard Metrics O API
   slug: standard-metrics-o-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-o-api-openapi.yml
+  url: https://artifacts.apis.io/standard-metrics/openapi/standard-metrics-o-api-openapi.yml
 - filename: standard-metrics-users-api-openapi.yml
   format: yaml
   label: Standard Metrics Users API
   slug: standard-metrics-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-users-api-openapi.yml
+  url: https://artifacts.apis.io/standard-metrics/openapi/standard-metrics-users-api-openapi.yml
 - filename: standard-metrics-whoami-api-openapi.yml
   format: yaml
   label: Standard Metrics Whoami API
   slug: standard-metrics-whoami-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-whoami-api-openapi.yml
+  url: https://artifacts.apis.io/standard-metrics/openapi/standard-metrics-whoami-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -134,7 +134,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://docs.standardmetrics.io/api-reference/setting-up\ndocs: https://docs.standardmetrics.io/guides/initialsetup\ndescription: >-\n  Standard Metrics authenticates with OAuth2 client-credentials. A firm admin creates an\n  OAuth application in Developer Settings, producing a client_id and client_secret. Those\n  are Basic-auth-encoded and POSTed to the token endpoint (grant_type=client_credentials)\n  to obtain a short-lived Bearer JWT (expires_in 3600s), which is then sent as\n  'Authorization: Bearer <token>' on every API request. Per-key data access is governed by\n  admin-configured user permissions.\nsummary:\n  types: [oauth2, http]\n  oauth2_flows: [clientCredentials]\n  bearer_format: JWT\n  token_endpoint: https://api.standardmetrics.io/o/token/\n  token_ttl_seconds: 3600\nschemes:\n- name: OAuth2 Client Credentials\n  type: oauth2\n  flow: clientCredentials\n  tokenUrl: https://api.standardmetrics.io/o/token/\n\
   \  scopes: [read, write, all]\n  note: client_id/client_secret exchanged (Basic auth) for a Bearer access token.\n  sources: [https://docs.standardmetrics.io/api-reference/setting-up]\n- name: basicAuth\n  type: http\n  scheme: basic\n  note: Used only on the token endpoint (client_id:client_secret) to obtain a Bearer token.\n  sources: [openapi/standard-metrics-auth-openapi.json]\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  note: Applied to all data endpoints across the main and investment-data APIs.\n  sources:\n  - openapi/standard-metrics-main-openapi.json\n  - openapi/standard-metrics-investment-data-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/authentication/standard-metrics-authentication.yml
+source_yaml_url: https://artifacts.apis.io/standard-metrics/authentication/standard-metrics-authentication.yml
 summary_line: oauth2/http · 3 schemes
 tags:
 - Company

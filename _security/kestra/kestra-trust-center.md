@@ -5,37 +5,37 @@ api_specs:
   label: Kestra Executions API
   slug: kestra-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-executions-api-openapi.yml
+  url: https://artifacts.apis.io/kestra/openapi/kestra-executions-api-openapi.yml
 - filename: kestra-files-api-openapi.yml
   format: yaml
   label: Kestra Files API
   slug: kestra-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-files-api-openapi.yml
+  url: https://artifacts.apis.io/kestra/openapi/kestra-files-api-openapi.yml
 - filename: kestra-flows-api-openapi.yml
   format: yaml
   label: Kestra Flows API
   slug: kestra-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-flows-api-openapi.yml
+  url: https://artifacts.apis.io/kestra/openapi/kestra-flows-api-openapi.yml
 - filename: kestra-namespaces-api-openapi.yml
   format: yaml
   label: Kestra Namespaces API
   slug: kestra-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/kestra/openapi/kestra-namespaces-api-openapi.yml
 - filename: kestra-triggers-api-openapi.yml
   format: yaml
   label: Kestra Triggers API
   slug: kestra-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/kestra/openapi/kestra-triggers-api-openapi.yml
 - filename: kestra-kv-store-api-openapi.yml
   format: yaml
   label: Kestra KV Store API
   slug: kestra-kv-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-kv-store-api-openapi.yml
+  url: https://artifacts.apis.io/kestra/openapi/kestra-kv-store-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -53,7 +53,7 @@ source_filename: kestra-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://app.drata.com/trust/0a8e867d-7c4c-4fc5-bdc7-217f9c839604\nurl: https://app.drata.com/trust/0a8e867d-7c4c-4fc5-bdc7-217f9c839604\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://app.drata.com/trust/0a8e867d-7c4c-4fc5-bdc7-217f9c839604\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/security/kestra-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/kestra/security/kestra-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Automation

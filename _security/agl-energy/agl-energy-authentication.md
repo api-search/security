@@ -7,55 +7,55 @@ api_specs:
   label: AGL Energy Data Holder Customers API
   slug: agl-energy-data-holder-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-data-holder-customers-api-openapi.yml
+  url: https://artifacts.apis.io/agl-energy/openapi/agl-energy-data-holder-customers-api-openapi.yml
 - filename: agl-energy-data-holder-operations-api-openapi.yml
   format: yaml
   label: AGL Energy Data Holder Operations API
   slug: agl-energy-data-holder-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-data-holder-operations-api-openapi.yml
+  url: https://artifacts.apis.io/agl-energy/openapi/agl-energy-data-holder-operations-api-openapi.yml
 - filename: agl-energy-distributed-energy-resources-api-openapi.yml
   format: yaml
   label: AGL Energy Distributed Energy Resources API
   slug: agl-energy-distributed-energy-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-distributed-energy-resources-api-openapi.yml
+  url: https://artifacts.apis.io/agl-energy/openapi/agl-energy-distributed-energy-resources-api-openapi.yml
 - filename: agl-energy-electricity-service-points-api-openapi.yml
   format: yaml
   label: AGL Energy Electricity Service Points API
   slug: agl-energy-electricity-service-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-electricity-service-points-api-openapi.yml
+  url: https://artifacts.apis.io/agl-energy/openapi/agl-energy-electricity-service-points-api-openapi.yml
 - filename: agl-energy-electricity-usage-api-openapi.yml
   format: yaml
   label: AGL Energy Electricity Usage API
   slug: agl-energy-electricity-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-electricity-usage-api-openapi.yml
+  url: https://artifacts.apis.io/agl-energy/openapi/agl-energy-electricity-usage-api-openapi.yml
 - filename: agl-energy-energy-account-balances-api-openapi.yml
   format: yaml
   label: AGL Energy Account Balances API
   slug: agl-energy-energy-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-energy-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/agl-energy/openapi/agl-energy-energy-account-balances-api-openapi.yml
 - filename: agl-energy-energy-account-billing-api-openapi.yml
   format: yaml
   label: AGL Energy Account Billing API
   slug: agl-energy-energy-account-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-energy-account-billing-api-openapi.yml
+  url: https://artifacts.apis.io/agl-energy/openapi/agl-energy-energy-account-billing-api-openapi.yml
 - filename: agl-energy-energy-accounts-api-openapi.yml
   format: yaml
   label: AGL Energy Accounts API
   slug: agl-energy-energy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-energy-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/agl-energy/openapi/agl-energy-energy-accounts-api-openapi.yml
 - filename: agl-energy-energy-plans-api-openapi.yml
   format: yaml
   label: AGL Energy Plans API
   slug: agl-energy-energy-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-energy-plans-api-openapi.yml
+  url: https://artifacts.apis.io/agl-energy/openapi/agl-energy-energy-plans-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: >-\n  Consumer 
   \ (PAR, RFC 9126) — the authorisation request is pushed server-to-server\n  - private_key_jwt client authentication\n  - mTLS-bound (sender-constrained) access tokens, RFC 8705\n  - request object signing (PS256 / ES256)\n  - OIDC Hybrid or Authorization Code flow per the profile version in force\n  - CDR Arrangement ID issued per consent, revocable by the consumer or the ADR\n  scopes_artifact: scopes/agl-energy-scopes.yml\n- name: CDR transport security\n  type: mutualTLS\n  source: https://consumerdatastandardsaustralia.github.io/standards/#security-profile\n  detail: >-\n    All consumer-data calls between an Accredited Data Recipient and AGL as data\n    holder run over mutual TLS using transport certificates issued by the CDR\n    Register certificate authority. Signing certificates are separately issued.\n- name: Anonymous (public CDR surfaces)\n  type: none\n  detail: >-\n    Discovery and Product Reference Data endpoints carry no authentication. The\n    x-v version header is\
   \ mandatory but is not a credential.\nrequest_headers:\n- {name: x-v, required: true, purpose: requested endpoint version (positive integer)}\n- {name: x-min-v, required: false, purpose: minimum acceptable endpoint version}\n- {name: x-fapi-interaction-id, required: false, purpose: RFC 4122 UUID correlation id; echoed by the data holder}\n- {name: x-fapi-auth-date, required: false, purpose: time the consumer last logged in to the ADR software product}\n- {name: x-fapi-customer-ip-address, required: false, purpose: consumer's original IP when they are present}\n- {name: x-cds-client-headers, required: false, purpose: consumer's original HTTP headers, base64 encoded}\nonboarding:\n  self_serve: false\n  path: >-\n    Accreditation by the ACCC as a Data Recipient under the Consumer Data Right,\n    or operating under an existing ADR as a CDR representative or\n    sponsored/affiliate. Meet CDR Rules Schedule 2 information-security\n    controls, obtain CDR Register transport and signing certificates,\
   \ register a\n    software product, then obtain the individual consumer's authorisation\n    through AGL's own CDR consent flow.\n  docs: https://www.cdr.gov.au/for-providers\n  sandbox: false\noidc_discovery:\n  anonymous_document_found: false\n  probes:\n  - {url: 'https://public.cdr.agl.com.au/.well-known/openid-configuration', status: 404}\n  - {url: 'https://public.cdr.agl.com.au/.well-known/oauth-authorization-server', status: 404}\n  - {url: 'https://public.cdr.agl.com.au/.well-known/oauth-protected-resource', status: 404}\n  - {url: 'https://www.agl.com.au/.well-known/openid-configuration', status: 403}\n  note: >-\n    Expected under the CDR — data holder authorisation-server metadata is\n    published to the CDR Register and retrieved by accredited recipients, not\n    served anonymously.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/authentication/agl-energy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/agl-energy/authentication/agl-energy-authentication.yml
 summary_line: oauth2/openIdConnect/mutualTLS/none · 3 schemes
 tags:
 - Energy

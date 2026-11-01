@@ -5,19 +5,19 @@ api_specs:
   label: agent402.dev Developer tools API
   slug: agent402-dev-developer-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agent402-dev/refs/heads/main/openapi/agent402-dev-developer-tools-api-openapi.yml
+  url: https://artifacts.apis.io/agent402-dev/openapi/agent402-dev-developer-tools-api-openapi.yml
 - filename: agent402-dev-downloads-api-openapi.yml
   format: yaml
   label: agent402.dev Downloads API
   slug: agent402-dev-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agent402-dev/refs/heads/main/openapi/agent402-dev-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/agent402-dev/openapi/agent402-dev-downloads-api-openapi.yml
 - filename: agent402-dev-productivity-api-openapi.yml
   format: yaml
   label: agent402.dev Productivity API
   slug: agent402-dev-productivity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agent402-dev/refs/heads/main/openapi/agent402-dev-productivity-api-openapi.yml
+  url: https://artifacts.apis.io/agent402-dev/openapi/agent402-dev-productivity-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: agent402-dev-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: agent402.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 10:16:20 2026 GMT\n  hsts: false\ndomains:\n- domain: agent402.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agent402-dev/refs/heads/main/security/agent402-dev-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/agent402-dev/security/agent402-dev-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

@@ -27,7 +27,7 @@ source_filename: mendaera-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mendaera.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 18:27:05 2026 GMT\n  hsts: false\ndomains:\n- domain: mendaera.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mendaera/refs/heads/main/security/mendaera-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mendaera/security/mendaera-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

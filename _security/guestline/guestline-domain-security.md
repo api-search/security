@@ -27,7 +27,7 @@ source_filename: guestline-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: guestline.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec  4 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: guestline.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/guestline/refs/heads/main/security/guestline-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/guestline/security/guestline-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

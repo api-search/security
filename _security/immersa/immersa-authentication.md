@@ -2,12 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
+- filename: immersa-immersa-api-api-openapi.yml
+  format: yaml
+  label: Immersa API
+  slug: immersa-api-2
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/immersa/openapi/immersa-immersa-api-api-openapi.yml
 - filename: immersa-openapi-generated.yml
   format: yaml
   label: Immersa API
   slug: immersa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/immersa/refs/heads/main/openapi/_ae-authored/immersa-openapi-generated.yml
+  url: https://artifacts.apis.io/immersa/openapi/_ae-authored/immersa-openapi-generated.yml
 auth_types: []
 description: Authentication methods for Immersa MarcoPolo
 kind: authentication
@@ -32,11 +38,11 @@ source_filename: immersa-authentication.yml
 source_heading: Authentication Profile
 source_url: https://docs.marcopolo.dev/getting-started
 source_yaml: "generated: '2026-10-18'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://docs.marcopolo.dev/getting-started\nsources:\n- https://docs.marcopolo.dev/getting-started\n- https://docs.marcopolo.dev/getting-started/claude-plugin\n- https://docs.marcopolo.dev/getting-started/codex-plugin\n- https://docs.marcopolo.dev/getting-started/deployment-options\ndescription: Authentication methods for Immersa MarcoPolo\nschemes:\n- type: http-bearer\n  name: API token\n  evidence: Python SDK Authenticate with an API token, connect providers through hosted OAuth, run governed queries, and build agents on Marcopolo's\n    tools.\n  location: header\n  header: Authorization\nnote: Other identity options such as Google, Microsoft, GitHub, or Email are mentioned but not described with concrete authentication details\n  on the pages.\ndocs: https://docs.marcopolo.dev/getting-started\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/immersa/refs/heads/main/authentication/immersa-authentication.yml
+source_yaml_url: https://artifacts.apis.io/immersa/authentication/immersa-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - DataGateway
 - Platform
 - Security

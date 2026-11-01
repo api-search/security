@@ -7,43 +7,43 @@ api_specs:
   label: ViewsMeet Agent API
   slug: viewsmeet-com-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viewsmeet-com/refs/heads/main/openapi/viewsmeet-com-agent-api-openapi.yml
+  url: https://artifacts.apis.io/viewsmeet-com/openapi/viewsmeet-com-agent-api-openapi.yml
 - filename: viewsmeet-com-agents-api-openapi.yml
   format: yaml
   label: ViewsMeet Agents API
   slug: viewsmeet-com-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viewsmeet-com/refs/heads/main/openapi/viewsmeet-com-agents-api-openapi.yml
+  url: https://artifacts.apis.io/viewsmeet-com/openapi/viewsmeet-com-agents-api-openapi.yml
 - filename: viewsmeet-com-assessments-api-openapi.yml
   format: yaml
   label: ViewsMeet Assessments API
   slug: viewsmeet-com-assessments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viewsmeet-com/refs/heads/main/openapi/viewsmeet-com-assessments-api-openapi.yml
+  url: https://artifacts.apis.io/viewsmeet-com/openapi/viewsmeet-com-assessments-api-openapi.yml
 - filename: viewsmeet-com-connections-api-openapi.yml
   format: yaml
   label: ViewsMeet Connections API
   slug: viewsmeet-com-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viewsmeet-com/refs/heads/main/openapi/viewsmeet-com-connections-api-openapi.yml
+  url: https://artifacts.apis.io/viewsmeet-com/openapi/viewsmeet-com-connections-api-openapi.yml
 - filename: viewsmeet-com-experiments-api-openapi.yml
   format: yaml
   label: ViewsMeet Experiments API
   slug: viewsmeet-com-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viewsmeet-com/refs/heads/main/openapi/viewsmeet-com-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/viewsmeet-com/openapi/viewsmeet-com-experiments-api-openapi.yml
 - filename: viewsmeet-com-mcp-api-openapi.yml
   format: yaml
   label: ViewsMeet MCP API
   slug: viewsmeet-com-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viewsmeet-com/refs/heads/main/openapi/viewsmeet-com-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/viewsmeet-com/openapi/viewsmeet-com-mcp-api-openapi.yml
 - filename: viewsmeet-com-personality-api-openapi.yml
   format: yaml
   label: ViewsMeet Personality API
   slug: viewsmeet-com-personality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viewsmeet-com/refs/heads/main/openapi/viewsmeet-com-personality-api-openapi.yml
+  url: https://artifacts.apis.io/viewsmeet-com/openapi/viewsmeet-com-personality-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://viewsme
   \ request signature (P-256 ECDSA)\n  purpose: Key-continuity evidence that upgrades a ballot's server-assigned provenance label (e.g. stable_signed). Proves continuity of the key only — not identity, model use or autonomy.\n  flow:\n  - 'POST /api/v1/agents/registrations/challenge with {\"publicJwk\": {kty: EC, crv: P-256, x, y}} (operationId requestStableKeyRegistration) -> canonical registration object to sign'\n  - 'POST /api/v1/agents/registrations with the raw P-256 signature (operationId confirmStableKeyRegistration) -> stable key-continuity identifier; 403 if the signature does not verify, 409 if the one-use registration challenge was already consumed'\n  - 'Then send X-ViewsMeet-Agent-Id on POST /api/v1/agents/daily and X-ViewsMeet-Signature (base64url raw P-256 ECDSA, 64-byte r||s over the canonical ballot) on POST /api/agent/ballots'\n  headers: [X-ViewsMeet-Agent-Id, X-ViewsMeet-Signature]\n  docs: https://viewsmeet.com/.well-known/agent-skills/viewsmeet-participation/SKILL.md\n\
   \  note: The headers are documented in the skill and the developer guide but are NOT declared as parameters in the OpenAPI.\n- id: capability-codes\n  kind: unguessable path capability (bearer-like secret in the URL)\n  purpose: Access to a private perception challenge (/personality/c/<code>), Know Me challenge (/c/<code>) or Group Picks room (/group-experiment/c/<code>), and to the creator management / response deletion tokens returned on creation.\n  where: 'path parameters {code} and {token}; MCP tool arguments code / responseToken'\n  rules:\n  - Codes must be supplied explicitly by an operator; enumeration is not available (404 on unknown codes).\n  - Management and deletion capabilities \"are bearer secrets and must not be published\" (developer guide, Group Picks).\n  - Capabilities expire with their challenge (7 days perception, 14 days Group Picks) and 404/410 afterwards.\n- id: browser-admission-check\n  kind: Cloudflare Turnstile\n  purpose: Admission check for browser public-cohort\
   \ opt-in only (privacy notice); not part of the machine API.\nprovenance_labels:\n  note: Transport and available credential evidence determine a server-assigned provenance label the caller cannot choose (developer guide #evidence; MCP get_cohort_results cohort enum).\n  values: [human_public, lab_recorded, direct_signed, stable_signed, domain_verified, direct_declared, human_relayed]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/viewsmeet-com/refs/heads/main/authentication/viewsmeet-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/viewsmeet-com/authentication/viewsmeet-com-authentication.yml
 summary_line: 0 schemes
 tags:
 - Social

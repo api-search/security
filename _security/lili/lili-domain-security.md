@@ -5,7 +5,7 @@ api_specs:
   label: Lili API
   slug: lili-lili-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/openapi/lili-lili-api-openapi.yml
+  url: https://artifacts.apis.io/lili/openapi/lili-lili-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -50,7 +50,7 @@ source_filename: lili-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: lili.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 06:22:02 2026 GMT\n  hsts: true\n- host: dev.lili.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 07:05:54 2026 GMT\n  hsts: false\n- host: prod.lili.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 20 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: lili.co\n  dnssec: true\n  caa:\n  - 0 iodef \"mailto:compliance@lili.co\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazontrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/security/lili-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lili/security/lili-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Banking

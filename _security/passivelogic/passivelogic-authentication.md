@@ -8,109 +8,109 @@ api_specs:
   label: PassiveLogic Account API
   slug: passivelogic-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-account-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-account-api-openapi.yml
 - filename: passivelogic-app-api-openapi.yml
   format: yaml
   label: PassiveLogic App API
   slug: passivelogic-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-app-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-app-api-openapi.yml
 - filename: passivelogic-auth-groups-api-openapi.yml
   format: yaml
   label: PassiveLogic Auth Groups API
   slug: passivelogic-auth-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-auth-groups-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-auth-groups-api-openapi.yml
 - filename: passivelogic-authentication-api-openapi.yml
   format: yaml
   label: PassiveLogic Authentication API
   slug: passivelogic-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-authentication-api-openapi.yml
 - filename: passivelogic-bindings-api-openapi.yml
   format: yaml
   label: PassiveLogic Bindings API
   slug: passivelogic-bindings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-bindings-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-bindings-api-openapi.yml
 - filename: passivelogic-export-api-openapi.yml
   format: yaml
   label: PassiveLogic Export API
   slug: passivelogic-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-export-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-export-api-openapi.yml
 - filename: passivelogic-health-api-openapi.yml
   format: yaml
   label: PassiveLogic Health API
   slug: passivelogic-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-health-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-health-api-openapi.yml
 - filename: passivelogic-images-api-openapi.yml
   format: yaml
   label: PassiveLogic Images API
   slug: passivelogic-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-images-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-images-api-openapi.yml
 - filename: passivelogic-organization-api-openapi.yml
   format: yaml
   label: PassiveLogic Organization API
   slug: passivelogic-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-organization-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-organization-api-openapi.yml
 - filename: passivelogic-passivelogic-device-api-openapi.yml
   format: yaml
   label: PassiveLogic Device API
   slug: passivelogic-passivelogic-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-passivelogic-device-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-passivelogic-device-api-openapi.yml
 - filename: passivelogic-quantum-sync-api-openapi.yml
   format: yaml
   label: PassiveLogic Quantum Sync API
   slug: passivelogic-quantum-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-quantum-sync-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-quantum-sync-api-openapi.yml
 - filename: passivelogic-site-api-openapi.yml
   format: yaml
   label: PassiveLogic Site API
   slug: passivelogic-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-site-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-site-api-openapi.yml
 - filename: passivelogic-tunnel-api-openapi.yml
   format: yaml
   label: PassiveLogic Tunnel API
   slug: passivelogic-tunnel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-tunnel-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-tunnel-api-openapi.yml
 - filename: passivelogic-utility-api-openapi.yml
   format: yaml
   label: PassiveLogic Utility API
   slug: passivelogic-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-utility-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-utility-api-openapi.yml
 - filename: passivelogic-meta-json-api-openapi.yml
   format: yaml
   label: PassiveLogic Meta.json API
   slug: passivelogic-meta-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-meta-json-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-meta-json-api-openapi.yml
 - filename: passivelogic-metrics-api-openapi.yml
   format: yaml
   label: PassiveLogic Metrics API
   slug: passivelogic-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-metrics-api-openapi.yml
 - filename: passivelogic-passivelogic-rest-api-api-openapi.yml
   format: yaml
   label: PassiveLogic PassiveLogic REST API
   slug: passivelogic-passivelogic-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-passivelogic-rest-api-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-passivelogic-rest-api-api-openapi.yml
 - filename: passivelogic-graph-ql-api-openapi.yml
   format: yaml
   label: PassiveLogic Graph QL API
   slug: passivelogic-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-graph-ql-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -176,7 +176,7 @@ source_yaml: "generated: '2026-08-04'\nmethod: searched\nsource: openapi/passive
   \ header\n  parameter: PL-API-KEY\n  description: >-\n    Long-lived API key issued to a user by GET /api/auth/api-key/generate. Per the Quantum documentation an API key\n    \"acts with the same permissions as a JWT for the user who generated them\" and is intended for command-line and\n    scripting use. Keys are revoked with DELETE /api/auth/api-key.\n  sources:\n  - openapi/passivelogic-rest-api-openapi.yml\n  - https://quantumalliance.org/documentation/\n- name: 'DEPRECATED - PL API Key'\n  type: apiKey\n  in: header\n  parameter: 'Authorization: PL-API-KEY'\n  description: DEPRECATED - PL API Key in Bearer header\n  deprecated: true\n  sources:\n  - openapi/passivelogic-rest-api-openapi.yml\n- name: Keycloak OpenID Connect\n  type: openIdConnect\n  openIdConnectUrl: https://login.passivelogic.com/realms/prod/.well-known/openid-configuration\n  description: >-\n    Not declared in the OpenAPI, but the actual interactive login path. Every /app/login/* operation in the spec is\n   \
   \ documented as \"Redirects to external authentication provider (Keycloak)\", and the public\n    GET /api/util/externalauthconfig endpoint returns the issuer, authorization endpoint and account-management URI\n    for the login.passivelogic.com \"prod\" realm. Supports authorization_code (PKCE S256), client_credentials,\n    device_code, refresh_token, token-exchange and CIBA; DPoP and mTLS-bound access tokens are advertised.\n  sources:\n  - well-known/passivelogic-openid-configuration.json\n  - https://passivelogic.com/api/util/externalauthconfig\ntoken_signing:\n  jwks_endpoint: https://passivelogic.com/api/auth/keys\n  note: >-\n    PassiveLogic publishes the public keys used to sign its own JSON Web Tokens at GET /api/auth/keys (anonymous,\n    ES384 over P-384). The Keycloak realm publishes a separate JWKS at\n    https://login.passivelogic.com/realms/prod/protocol/openid-connect/certs.\nx-evidence:\n  fetched: '2026-08-04'\n  probes:\n  - url: https://passivelogic.com/api/doc\n\
   \    http_status: 200\n  - url: https://passivelogic.com/api/util/externalauthconfig\n    http_status: 200\n  - url: https://passivelogic.com/api/auth/keys\n    http_status: 200\n  - url: https://login.passivelogic.com/realms/prod/.well-known/openid-configuration\n    http_status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/authentication/passivelogic-authentication.yml
+source_yaml_url: https://artifacts.apis.io/passivelogic/authentication/passivelogic-authentication.yml
 summary_line: apiKey/http/openIdConnect · 5 schemes
 tags:
 - Company

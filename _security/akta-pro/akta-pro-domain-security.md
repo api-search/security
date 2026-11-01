@@ -5,31 +5,31 @@ api_specs:
   label: akta.pro Company API
   slug: akta-pro-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/openapi/akta-pro-company-api-openapi.yml
+  url: https://artifacts.apis.io/akta-pro/openapi/akta-pro-company-api-openapi.yml
 - filename: akta-pro-list-generation-api-openapi.yml
   format: yaml
   label: akta.pro List Generation API
   slug: akta-pro-list-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/openapi/akta-pro-list-generation-api-openapi.yml
+  url: https://artifacts.apis.io/akta-pro/openapi/akta-pro-list-generation-api-openapi.yml
 - filename: akta-pro-news-api-openapi.yml
   format: yaml
   label: akta.pro News API
   slug: akta-pro-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/openapi/akta-pro-news-api-openapi.yml
+  url: https://artifacts.apis.io/akta-pro/openapi/akta-pro-news-api-openapi.yml
 - filename: akta-pro-reviews-api-openapi.yml
   format: yaml
   label: akta.pro Reviews API
   slug: akta-pro-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/openapi/akta-pro-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/akta-pro/openapi/akta-pro-reviews-api-openapi.yml
 - filename: akta-pro-supporting-apis-api-openapi.yml
   format: yaml
   label: akta.pro Supporting APIs API
   slug: akta-pro-supporting-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/openapi/akta-pro-supporting-apis-api-openapi.yml
+  url: https://artifacts.apis.io/akta-pro/openapi/akta-pro-supporting-apis-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: akta-pro-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: akta.pro\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 05:53:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: akta.pro\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/security/akta-pro-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/akta-pro/security/akta-pro-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

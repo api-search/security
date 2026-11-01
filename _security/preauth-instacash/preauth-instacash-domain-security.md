@@ -5,7 +5,7 @@ api_specs:
   label: PreAuth (Instacash) Orders API
   slug: preauth-instacash-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/openapi/preauth-instacash-orders-api-openapi.yml
+  url: https://artifacts.apis.io/preauth-instacash/openapi/preauth-instacash-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: preauth-instacash-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: preauth.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 24 23:59:59 2026 GMT\n  hsts: false\n- host: docs.preauth.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 10:11:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.preauth.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: preauth.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/security/preauth-instacash-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/preauth-instacash/security/preauth-instacash-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

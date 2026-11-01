@@ -29,7 +29,7 @@ source_filename: nymcard-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://docs.nymcard.com/get-started/api-core-principles.md\ndocs: https://docs.nymcard.com/get-started/api-core-principles\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  oauth2_flows: []\nschemes:\n- name: apikey\n  type: apiKey\n  in: header\n  parameter_name: apikey\n  description: >-\n    The nCore API uses standard API-key authentication. After signing up on the\n    nCore platform you receive a static API key whose value does not change. It\n    must be supplied in the `apikey` request header on every call. All API\n    traffic is served only over TLS (HTTPS).\n  sources: [docs.nymcard.com/get-started/api-core-principles]\nnotes: >-\n  Webhook callbacks from nCore to your endpoint use HTTP Basic Auth (base64\n  encoded) in the notification header — see asyncapi/nymcard-webhooks.yml.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nymcard/refs/heads/main/authentication/nymcard-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nymcard/authentication/nymcard-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

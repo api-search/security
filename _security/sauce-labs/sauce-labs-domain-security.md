@@ -5,37 +5,37 @@ api_specs:
   label: Sauce Labs Devices API
   slug: sauce-labs-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/openapi/sauce-labs-devices-api-openapi.yml
+  url: https://artifacts.apis.io/sauce-labs/openapi/sauce-labs-devices-api-openapi.yml
 - filename: sauce-labs-job-assets-api-openapi.yml
   format: yaml
   label: Sauce Labs Job Assets API
   slug: sauce-labs-job-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/openapi/sauce-labs-job-assets-api-openapi.yml
+  url: https://artifacts.apis.io/sauce-labs/openapi/sauce-labs-job-assets-api-openapi.yml
 - filename: sauce-labs-jobs-api-openapi.yml
   format: yaml
   label: Sauce Labs Jobs API
   slug: sauce-labs-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/openapi/sauce-labs-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/sauce-labs/openapi/sauce-labs-jobs-api-openapi.yml
 - filename: sauce-labs-platform-api-openapi.yml
   format: yaml
   label: Sauce Labs Platform API
   slug: sauce-labs-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/openapi/sauce-labs-platform-api-openapi.yml
+  url: https://artifacts.apis.io/sauce-labs/openapi/sauce-labs-platform-api-openapi.yml
 - filename: sauce-labs-sessions-api-openapi.yml
   format: yaml
   label: Sauce Labs Sessions API
   slug: sauce-labs-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/openapi/sauce-labs-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/sauce-labs/openapi/sauce-labs-sessions-api-openapi.yml
 - filename: sauce-labs-users-api-openapi.yml
   format: yaml
   label: Sauce Labs Users API
   slug: sauce-labs-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/openapi/sauce-labs-users-api-openapi.yml
+  url: https://artifacts.apis.io/sauce-labs/openapi/sauce-labs-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: sauce-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: saucelabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.saucelabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 20:07:48 2026 GMT\n  hsts: false\n- host: api.us-west-1.saucelabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: saucelabs.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/security/sauce-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sauce-labs/security/sauce-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Testing

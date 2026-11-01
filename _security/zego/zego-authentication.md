@@ -8,31 +8,31 @@ api_specs:
   label: Zego Customer Integration API
   slug: zego-customer-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zego/refs/heads/main/openapi/zego-customer-integration-api-openapi.yml
+  url: https://artifacts.apis.io/zego/openapi/zego-customer-integration-api-openapi.yml
 - filename: zego-customers-api-openapi.yml
   format: yaml
   label: Zego Customers API
   slug: zego-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zego/refs/heads/main/openapi/zego-customers-api-openapi.yml
+  url: https://artifacts.apis.io/zego/openapi/zego-customers-api-openapi.yml
 - filename: zego-occupations-api-openapi.yml
   format: yaml
   label: Zego Occupations API
   slug: zego-occupations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zego/refs/heads/main/openapi/zego-occupations-api-openapi.yml
+  url: https://artifacts.apis.io/zego/openapi/zego-occupations-api-openapi.yml
 - filename: zego-policies-api-openapi.yml
   format: yaml
   label: Zego Policies API
   slug: zego-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zego/refs/heads/main/openapi/zego-policies-api-openapi.yml
+  url: https://artifacts.apis.io/zego/openapi/zego-policies-api-openapi.yml
 - filename: zego-shifts-api-openapi.yml
   format: yaml
   label: Zego Shifts API
   slug: zego-shifts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zego/refs/heads/main/openapi/zego-shifts-api-openapi.yml
+  url: https://artifacts.apis.io/zego/openapi/zego-shifts-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: zego-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://developer.zego.com/\ndocs: https://developer.zego.com/\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  oauth2_flows: []\nnotes: >-\n  The Zego Partner API uses token-based authentication. Partners are issued an\n  authorization token by the Zego Partnerships Manager and send it in the\n  Authorization header on every request. There is no self-serve OAuth flow; the\n  API is partner/work-provider gated. Inbound webhooks are authenticated by\n  Zego with an X-ZEGO-SIGNATURE header on the request.\nschemes:\n  - name: partnerToken\n    type: apiKey\n    in: header\n    parameter: Authorization\n    sources: [openapi/zego-partner-openapi.yml]\n    description: >-\n      Partner authorization token issued by the Zego Partnerships Manager.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zego/refs/heads/main/authentication/zego-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zego/authentication/zego-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

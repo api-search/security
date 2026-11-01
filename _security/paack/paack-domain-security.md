@@ -11,43 +11,43 @@ api_specs:
   label: Paack Check coverage API
   slug: paack-check-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/openapi/paack-check-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/paack/openapi/paack-check-coverage-api-openapi.yml
 - filename: paack-generate-labels-api-openapi.yml
   format: yaml
   label: Paack Generate labels API
   slug: paack-generate-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/openapi/paack-generate-labels-api-openapi.yml
+  url: https://artifacts.apis.io/paack/openapi/paack-generate-labels-api-openapi.yml
 - filename: paack-get-access-token-api-openapi.yml
   format: yaml
   label: Paack Get access token API
   slug: paack-get-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/openapi/paack-get-access-token-api-openapi.yml
+  url: https://artifacts.apis.io/paack/openapi/paack-get-access-token-api-openapi.yml
 - filename: paack-manage-orders-api-openapi.yml
   format: yaml
   label: Paack Manage orders API
   slug: paack-manage-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/openapi/paack-manage-orders-api-openapi.yml
+  url: https://artifacts.apis.io/paack/openapi/paack-manage-orders-api-openapi.yml
 - filename: paack-retrieve-delivery-proof-api-openapi.yml
   format: yaml
   label: Paack Retrieve delivery proof API
   slug: paack-retrieve-delivery-proof-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/openapi/paack-retrieve-delivery-proof-api-openapi.yml
+  url: https://artifacts.apis.io/paack/openapi/paack-retrieve-delivery-proof-api-openapi.yml
 - filename: paack-retrieve-events-history-api-openapi.yml
   format: yaml
   label: Paack Retrieve events history API
   slug: paack-retrieve-events-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/openapi/paack-retrieve-events-history-api-openapi.yml
+  url: https://artifacts.apis.io/paack/openapi/paack-retrieve-events-history-api-openapi.yml
 - filename: paack-retrieve-last-event-api-openapi.yml
   format: yaml
   label: Paack Retrieve last event API
   slug: paack-retrieve-last-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/openapi/paack-retrieve-last-event-api-openapi.yml
+  url: https://artifacts.apis.io/paack/openapi/paack-retrieve-last-event-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -99,7 +99,7 @@ source_filename: paack-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: paack.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 19:09:44 2026 GMT\n  hsts: false\n- host: paack.readme.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 13:12:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.paack.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 15:30:06 2026 GMT\n  hsts: null\ndomains:\n- domain: paack.co\n  dnssec: true\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: readme.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/security/paack-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/paack/security/paack-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

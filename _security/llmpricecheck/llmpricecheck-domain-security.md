@@ -26,11 +26,11 @@ source_filename: llmpricecheck-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: llmpricecheck.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 25 05:42:56 2026 GMT\n  hsts: false\ndomains:\n- domain: llmpricecheck.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/llmpricecheck/refs/heads/main/security/llmpricecheck-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/llmpricecheck/security/llmpricecheck-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Pricing
 - LLM
 - Comparison

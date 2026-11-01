@@ -7,55 +7,55 @@ api_specs:
   label: Uplisting Account API
   slug: uplisting-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-account-api-openapi.yml
+  url: https://artifacts.apis.io/uplisting/openapi/uplisting-account-api-openapi.yml
 - filename: uplisting-availability-api-openapi.yml
   format: yaml
   label: Uplisting Availability API
   slug: uplisting-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-availability-api-openapi.yml
+  url: https://artifacts.apis.io/uplisting/openapi/uplisting-availability-api-openapi.yml
 - filename: uplisting-bookings-api-openapi.yml
   format: yaml
   label: Uplisting Bookings API
   slug: uplisting-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/uplisting/openapi/uplisting-bookings-api-openapi.yml
 - filename: uplisting-calendar-api-openapi.yml
   format: yaml
   label: Uplisting Calendar API
   slug: uplisting-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/uplisting/openapi/uplisting-calendar-api-openapi.yml
 - filename: uplisting-guests-api-openapi.yml
   format: yaml
   label: Uplisting Guests API
   slug: uplisting-guests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-guests-api-openapi.yml
+  url: https://artifacts.apis.io/uplisting/openapi/uplisting-guests-api-openapi.yml
 - filename: uplisting-messages-api-openapi.yml
   format: yaml
   label: Uplisting Messages API
   slug: uplisting-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-messages-api-openapi.yml
+  url: https://artifacts.apis.io/uplisting/openapi/uplisting-messages-api-openapi.yml
 - filename: uplisting-properties-api-openapi.yml
   format: yaml
   label: Uplisting Properties API
   slug: uplisting-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-properties-api-openapi.yml
+  url: https://artifacts.apis.io/uplisting/openapi/uplisting-properties-api-openapi.yml
 - filename: uplisting-rates-api-openapi.yml
   format: yaml
   label: Uplisting Rates API
   slug: uplisting-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-rates-api-openapi.yml
+  url: https://artifacts.apis.io/uplisting/openapi/uplisting-rates-api-openapi.yml
 - filename: uplisting-webhooks-api-openapi.yml
   format: yaml
   label: Uplisting Webhooks API
   slug: uplisting-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/uplisting/openapi/uplisting-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -82,7 +82,7 @@ source_filename: uplisting-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/uplisting-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: 'HTTP Basic auth. Send `Authorization: Basic <base64(api_key)>`, where api_key\n    is generated on the Uplisting Connect page. V2 endpoints also require a Client ID partner\n    identifier.'\n  sources:\n  - openapi/uplisting-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/authentication/uplisting-authentication.yml
+source_yaml_url: https://artifacts.apis.io/uplisting/authentication/uplisting-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Vacation Rentals

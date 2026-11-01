@@ -7,43 +7,43 @@ api_specs:
   label: Opera Inventory API
   slug: opera-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opera/refs/heads/main/openapi/opera-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/opera/openapi/opera-inventory-api-openapi.yml
 - filename: opera-marketing-api-openapi.yml
   format: yaml
   label: Opera Marketing API
   slug: opera-marketing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opera/refs/heads/main/openapi/opera-marketing-api-openapi.yml
+  url: https://artifacts.apis.io/opera/openapi/opera-marketing-api-openapi.yml
 - filename: opera-report-api-openapi.yml
   format: yaml
   label: Opera Report API
   slug: opera-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opera/refs/heads/main/openapi/opera-report-api-openapi.yml
+  url: https://artifacts.apis.io/opera/openapi/opera-report-api-openapi.yml
 - filename: opera-dspreport-api-openapi.yml
   format: yaml
   label: Opera DSP Report API
   slug: opera-dspreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opera/refs/heads/main/openapi/opera-dspreport-api-openapi.yml
+  url: https://artifacts.apis.io/opera/openapi/opera-dspreport-api-openapi.yml
 - filename: opera-publisherreport-api-openapi.yml
   format: yaml
   label: Opera Publisher Report API
   slug: opera-publisherreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opera/refs/heads/main/openapi/opera-publisherreport-api-openapi.yml
+  url: https://artifacts.apis.io/opera/openapi/opera-publisherreport-api-openapi.yml
 - filename: opera-upload-api-openapi.yml
   format: yaml
   label: Opera Upload API
   slug: opera-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opera/refs/heads/main/openapi/opera-upload-api-openapi.yml
+  url: https://artifacts.apis.io/opera/openapi/opera-upload-api-openapi.yml
 - filename: opera-file-management-api-openapi.yml
   format: yaml
   label: Opera File Management API
   slug: opera-file-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opera/refs/heads/main/openapi/opera-file-management-api-openapi.yml
+  url: https://artifacts.apis.io/opera/openapi/opera-file-management-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -131,7 +131,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://d
   \ The DSP Report API and the older SSP inventory\n    report take the credential as a `token` QUERY PARAMETER, which puts a\n    long-lived secret into URLs, proxy logs and browser history. Opera's own\n    documentation demonstrates it with a live-looking token in a GET example.\n  issuance: Issued by Opera to the DSP/SSP partner.\n  used_by:\n  - openapi/opera-dsp-report-api-openapi.yml\n  - openapi/opera-publisher-report-api-openapi.yml\n  risk: credential-in-url\n  sources:\n  - https://doc.adx.opera.com/adx/dsp/report-api\n  - https://doc.adx.opera.com/adx/ssp/report\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  name_param: X-API-Key\n  key_prefix: adx_\n  description: >-\n    File Upload API option A. Static API key issued by the Opera team, prefixed\n    `adx_`. Rotation is by contacting Opera support; there is no self-serve\n    rotation.\n  used_by:\n  - openapi/opera-file-upload-api-openapi.yml\n  sources:\n  - https://doc.adx.opera.com/advertiser/file_upload_api\n- name:\
   \ hmacAuth\n  type: custom-hmac\n  algorithm: HMAC-SHA256\n  headers:\n  - X-HMAC-Key-Id\n  - X-HMAC-Timestamp\n  - X-HMAC-Signature\n  key_id_prefix: ADX_HMAC_\n  signature_message: '{METHOD}\\n{PATH}\\n{TIMESTAMP}'\n  encoding: lowercase hex\n  timestamp_window: '±300 seconds'\n  description: >-\n    File Upload API option B and the strongest scheme Opera publishes.\n    Per-request signature over method, path and Unix timestamp; the shared\n    secret never travels with the request, and the timestamp window prevents\n    replay. Opera recommends it over the static API key.\n  used_by:\n  - openapi/opera-file-upload-api-openapi.yml\n  sources:\n  - https://doc.adx.opera.com/advertiser/file_upload_api\n- name: none\n  type: unauthenticated\n  description: >-\n    The server-to-server Marketing conversion postback\n    (https://cb.adx.opera.com/marketing/pb) carries NO credential. Identity is\n    the Opera-allocated `cvid` plus the per-click `click_id` captured from the\n    landing-page\
   \ query string. There is no signature, no shared secret and no\n    timestamp, so the endpoint's integrity rests entirely on click_id secrecy.\n  used_by:\n  - openapi/opera-marketing-api-openapi.yml\n  sources:\n  - https://doc.adx.opera.com/advertiser/events-integration/server-to-server-marketing-api\nauthorization:\n  scopes: []\n  note: >-\n    Several APIs return \"403 Forbidden — Insufficient scope\", but Opera\n    publishes no scope registry, no scope names and no way to inspect a token's\n    grants. Nothing derivable; scopes/ is intentionally not written.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opera/refs/heads/main/authentication/opera-authentication.yml
+source_yaml_url: https://artifacts.apis.io/opera/authentication/opera-authentication.yml
 summary_line: http/apiKey/custom-hmac/unauthenticated · 5 schemes
 tags:
 - Company

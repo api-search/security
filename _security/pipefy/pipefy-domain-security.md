@@ -5,7 +5,7 @@ api_specs:
   label: Pipefy Graph QL API
   slug: pipefy-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipefy/refs/heads/main/openapi/pipefy-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/pipefy/openapi/pipefy-graph-ql-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -53,7 +53,7 @@ source_filename: pipefy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.pipefy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 16:58:32 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: developers.pipefy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 17:32:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.pipefy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 00:15:34 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: pipefy.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pipefy/refs/heads/main/security/pipefy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pipefy/security/pipefy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Workflow Automation

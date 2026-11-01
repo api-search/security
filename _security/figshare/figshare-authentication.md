@@ -7,61 +7,61 @@ api_specs:
   label: Figshare Altmetric API
   slug: figshare-altmetric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-altmetric-api-openapi.yml
+  url: https://artifacts.apis.io/figshare/openapi/figshare-altmetric-api-openapi.yml
 - filename: figshare-articles-api-openapi.yml
   format: yaml
   label: Figshare Articles API
   slug: figshare-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-articles-api-openapi.yml
+  url: https://artifacts.apis.io/figshare/openapi/figshare-articles-api-openapi.yml
 - filename: figshare-authors-api-openapi.yml
   format: yaml
   label: Figshare Authors API
   slug: figshare-authors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-authors-api-openapi.yml
+  url: https://artifacts.apis.io/figshare/openapi/figshare-authors-api-openapi.yml
 - filename: figshare-collections-api-openapi.yml
   format: yaml
   label: Figshare Collections API
   slug: figshare-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-collections-api-openapi.yml
+  url: https://artifacts.apis.io/figshare/openapi/figshare-collections-api-openapi.yml
 - filename: figshare-institutions-api-openapi.yml
   format: yaml
   label: Figshare Institutions API
   slug: figshare-institutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-institutions-api-openapi.yml
+  url: https://artifacts.apis.io/figshare/openapi/figshare-institutions-api-openapi.yml
 - filename: figshare-other-api-openapi.yml
   format: yaml
   label: Figshare Other API
   slug: figshare-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-other-api-openapi.yml
+  url: https://artifacts.apis.io/figshare/openapi/figshare-other-api-openapi.yml
 - filename: figshare-profiles-api-openapi.yml
   format: yaml
   label: Figshare Profiles API
   slug: figshare-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/figshare/openapi/figshare-profiles-api-openapi.yml
 - filename: figshare-projects-api-openapi.yml
   format: yaml
   label: Figshare Projects API
   slug: figshare-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-projects-api-openapi.yml
+  url: https://artifacts.apis.io/figshare/openapi/figshare-projects-api-openapi.yml
 - filename: figshare-symplectic-api-openapi.yml
   format: yaml
   label: Figshare Symplectic API
   slug: figshare-symplectic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-symplectic-api-openapi.yml
+  url: https://artifacts.apis.io/figshare/openapi/figshare-symplectic-api-openapi.yml
 - filename: figshare-oauth-api-openapi.yml
   format: yaml
   label: Figshare OAUTH API
   slug: figshare-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/figshare/openapi/figshare-oauth-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -92,7 +92,7 @@ source_filename: figshare-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/figshare-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://figshare.com/account/applications/authorize\n    tokenUrl: https://api.figshare.com/v2/token\n    scopes: 1\n  sources:\n  - openapi/figshare-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/authentication/figshare-authentication.yml
+source_yaml_url: https://artifacts.apis.io/figshare/authentication/figshare-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Research Data

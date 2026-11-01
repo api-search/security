@@ -7,43 +7,43 @@ api_specs:
   label: MaiCoin Convert API
   slug: maicoin-convert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/openapi/maicoin-convert-api-openapi.yml
+  url: https://artifacts.apis.io/maicoin/openapi/maicoin-convert-api-openapi.yml
 - filename: maicoin-order-api-openapi.yml
   format: yaml
   label: MaiCoin Order API
   slug: maicoin-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/openapi/maicoin-order-api-openapi.yml
+  url: https://artifacts.apis.io/maicoin/openapi/maicoin-order-api-openapi.yml
 - filename: maicoin-public-api-openapi.yml
   format: yaml
   label: MaiCoin Public API
   slug: maicoin-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/openapi/maicoin-public-api-openapi.yml
+  url: https://artifacts.apis.io/maicoin/openapi/maicoin-public-api-openapi.yml
 - filename: maicoin-trade-api-openapi.yml
   format: yaml
   label: MaiCoin Trade API
   slug: maicoin-trade-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/openapi/maicoin-trade-api-openapi.yml
+  url: https://artifacts.apis.io/maicoin/openapi/maicoin-trade-api-openapi.yml
 - filename: maicoin-transaction-api-openapi.yml
   format: yaml
   label: MaiCoin Transaction API
   slug: maicoin-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/openapi/maicoin-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/maicoin/openapi/maicoin-transaction-api-openapi.yml
 - filename: maicoin-user-api-openapi.yml
   format: yaml
   label: MaiCoin User API
   slug: maicoin-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/openapi/maicoin-user-api-openapi.yml
+  url: https://artifacts.apis.io/maicoin/openapi/maicoin-user-api-openapi.yml
 - filename: maicoin-wallet-api-openapi.yml
   format: yaml
   label: MaiCoin Wallet API
   slug: maicoin-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/openapi/maicoin-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/maicoin/openapi/maicoin-wallet-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -132,7 +132,7 @@ source_yaml: "generated: '2026-08-25'\nmethod: searched\nsource: https://max-api
   \    parameter_transport: GET appends parameters to the query string; POST/PUT/DELETE send them in the JSON body. The signed payload must match either way.\n  replay_protection:\n    mechanism: nonce\n    unit: milliseconds since Unix epoch\n    max_clock_skew_seconds: 30\n    single_use: true\n    note: 'Each nonce may be used only once and must be within 30 seconds of server time. The WebSocket surface returns error 1006 for skew and 1012 for reuse.'\n- id: max-websocket-auth\n  type: apiKey\n  in: message\n  applies_to: MAX Exchange WebSocket API (private channels)\n  action: auth\n  fields:\n  - apiKey\n  - nonce\n  - signature\n  - id\n  - filters\n  algorithm: HMAC-SHA256\n  signing:\n    note: >-\n      DIFFERENT FROM REST. The WebSocket signature is the hex HMAC-SHA256 of the NONCE STRING ALONE,\n      keyed by the API secret — not of a base64 payload. A client that reuses the REST signing routine\n      here will fail with error 1007 (authentication failed). This divergence is\
   \ undocumented as a\n      divergence; it is only visible by reading both pages.\n  success_event: authenticated\n  filters:\n    default: [order, trade, account]\n    available: [order, trade, account, trade_update, fast_trade_update, mwallet_order, mwallet_trade, mwallet_fast_trade_update, mwallet_account, ad_ratio, borrowing]\n- id: none\n  type: none\n  applies_to: MAX Exchange REST API v3 public endpoints (12 of 54 operations) and all public WebSocket channels\n  note: 'Public market data — markets, currencies, timestamp, k, depth, trades, tickers, ticker, and the four m-wallet public index/limit/interest endpoints — needs no credentials. Verified live: GET /api/v3/markets returned 200 unauthenticated on 2026-08-25.'\ncredential_issuance:\n  url: https://max.maicoin.com/api_tokens\n  prerequisites:\n  - A registered MAX account (https://max.maicoin.com/signup)\n  - Completed identity verification\n  permissions_model: >-\n    Tokens carry per-scope read permissions selected at creation\
   \ time. The WebSocket docs name\n    \"read permission for Order / Trade\" and \"read permission for Account & Personal Information\"\n    as separate grants. MaiCoin publishes no enumerated machine-readable permission list, so\n    scopes/ is intentionally absent — this is key auth, not OAuth.\noauth2: false\nopenid_connect: false\nmutual_tls: false\nsecurity_guidance:\n  published:\n  - Do not share API keys.\n  - Rotate API keys periodically.\n  - Configure an IP allow-list for additional security.\n  source: MAX V3 API reference, \"安全指南\" section\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/authentication/maicoin-authentication.yml
+source_yaml_url: https://artifacts.apis.io/maicoin/authentication/maicoin-authentication.yml
 summary_line: 3 schemes
 tags:
 - Company

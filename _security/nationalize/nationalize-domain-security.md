@@ -5,7 +5,7 @@ api_specs:
   label: Nationalize.io Nationality API
   slug: nationalize-nationality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nationalize/refs/heads/main/openapi/nationalize-nationality-api-openapi.yml
+  url: https://artifacts.apis.io/nationalize/openapi/nationalize-nationality-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,7 +38,7 @@ source_filename: nationalize-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: nationalize.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 27 14:12:54 2026 GMT\n  hsts: false\n- host: api.nationalize.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 27 14:12:54 2026 GMT\n  hsts: null\ndomains:\n- domain: nationalize.io\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nationalize/refs/heads/main/security/nationalize-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nationalize/security/nationalize-domain-security.yml
 summary_line: TLSv1.2 · DNSSEC
 tags:
 - Nationality

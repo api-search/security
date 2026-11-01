@@ -5,19 +5,19 @@ api_specs:
   label: Encore Apps API
   slug: encore-dev-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encore-dev/refs/heads/main/openapi/encore-dev-apps-api-openapi.yml
+  url: https://artifacts.apis.io/encore-dev/openapi/encore-dev-apps-api-openapi.yml
 - filename: encore-dev-encore-api-openapi.yml
   format: yaml
   label: Encore API
   slug: encore-dev-encore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encore-dev/refs/heads/main/openapi/encore-dev-encore-api-openapi.yml
+  url: https://artifacts.apis.io/encore-dev/openapi/encore-dev-encore-api-openapi.yml
 - filename: encore-dev-encore-framework-api-api-openapi.yml
   format: yaml
   label: Encore Framework API
   slug: encore-dev-encore-framework-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encore-dev/refs/heads/main/openapi/encore-dev-encore-framework-api-api-openapi.yml
+  url: https://artifacts.apis.io/encore-dev/openapi/encore-dev-encore-framework-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: encore-dev-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: encore.cloud\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 01:54:37 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: encore.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 22:32:38 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.encore.cloud\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 16:53:53 2026 GMT\n  hsts: null\ndomains:\n- domain: encore.cloud\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: encore.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/encore-dev/refs/heads/main/security/encore-dev-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/encore-dev/security/encore-dev-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Backend

@@ -7,31 +7,31 @@ api_specs:
   label: Fathom Analytics Account API
   slug: fathom-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fathom/refs/heads/main/openapi/fathom-account-api-openapi.yml
+  url: https://artifacts.apis.io/fathom/openapi/fathom-account-api-openapi.yml
 - filename: fathom-events-api-openapi.yml
   format: yaml
   label: Fathom Analytics Events API
   slug: fathom-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fathom/refs/heads/main/openapi/fathom-events-api-openapi.yml
+  url: https://artifacts.apis.io/fathom/openapi/fathom-events-api-openapi.yml
 - filename: fathom-milestones-api-openapi.yml
   format: yaml
   label: Fathom Analytics Milestones API
   slug: fathom-milestones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fathom/refs/heads/main/openapi/fathom-milestones-api-openapi.yml
+  url: https://artifacts.apis.io/fathom/openapi/fathom-milestones-api-openapi.yml
 - filename: fathom-reports-api-openapi.yml
   format: yaml
   label: Fathom Analytics Reports API
   slug: fathom-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fathom/refs/heads/main/openapi/fathom-reports-api-openapi.yml
+  url: https://artifacts.apis.io/fathom/openapi/fathom-reports-api-openapi.yml
 - filename: fathom-sites-api-openapi.yml
   format: yaml
   label: Fathom Analytics Sites API
   slug: fathom-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fathom/refs/heads/main/openapi/fathom-sites-api-openapi.yml
+  url: https://artifacts.apis.io/fathom/openapi/fathom-sites-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: fathom-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fathom-analytics-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: API key generated in account settings at https://app.usefathom.com/api\n  sources:\n  - openapi/fathom-analytics-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fathom/refs/heads/main/authentication/fathom-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fathom/authentication/fathom-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Analytics

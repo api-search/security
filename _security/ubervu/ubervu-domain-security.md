@@ -27,7 +27,7 @@ source_filename: ubervu-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ubervu.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 15 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: ubervu.com\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ubervu/refs/heads/main/security/ubervu-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ubervu/security/ubervu-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC
 tags:
 - Company

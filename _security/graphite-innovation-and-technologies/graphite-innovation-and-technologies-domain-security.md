@@ -26,7 +26,7 @@ source_filename: graphite-innovation-and-technologies-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gitcoatings.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 08:58:29 2026 GMT\n  hsts: false\ndomains:\n- domain: gitcoatings.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/graphite-innovation-and-technologies/refs/heads/main/security/graphite-innovation-and-technologies-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/graphite-innovation-and-technologies/security/graphite-innovation-and-technologies-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

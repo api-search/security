@@ -5,31 +5,31 @@ api_specs:
   label: Agora Accounts API
   slug: agora-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora/refs/heads/main/openapi/agora-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/agora/openapi/agora-accounts-api-openapi.yml
 - filename: agora-auth-api-openapi.yml
   format: yaml
   label: Agora Auth API
   slug: agora-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora/refs/heads/main/openapi/agora-auth-api-openapi.yml
+  url: https://artifacts.apis.io/agora/openapi/agora-auth-api-openapi.yml
 - filename: agora-metrics-api-openapi.yml
   format: yaml
   label: Agora Metrics API
   slug: agora-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora/refs/heads/main/openapi/agora-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/agora/openapi/agora-metrics-api-openapi.yml
 - filename: agora-routes-api-openapi.yml
   format: yaml
   label: Agora Routes API
   slug: agora-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora/refs/heads/main/openapi/agora-routes-api-openapi.yml
+  url: https://artifacts.apis.io/agora/openapi/agora-routes-api-openapi.yml
 - filename: agora-transactions-api-openapi.yml
   format: yaml
   label: Agora Transactions API
   slug: agora-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora/refs/heads/main/openapi/agora-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/agora/openapi/agora-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: agora-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.agora.finance\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 16:31:06 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.agora.finance\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 03:28:46 2026 GMT\n  hsts: null\ndomains:\n- domain: agora.finance\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agora/refs/heads/main/security/agora-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/agora/security/agora-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

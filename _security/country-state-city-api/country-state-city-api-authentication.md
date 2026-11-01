@@ -8,19 +8,19 @@ api_specs:
   label: Country State City API Cities API
   slug: country-state-city-api-cities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/country-state-city-api/refs/heads/main/openapi/country-state-city-api-cities-api-openapi.yml
+  url: https://artifacts.apis.io/country-state-city-api/openapi/country-state-city-api-cities-api-openapi.yml
 - filename: country-state-city-api-countries-api-openapi.yml
   format: yaml
   label: Country State City API Countries API
   slug: country-state-city-api-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/country-state-city-api/refs/heads/main/openapi/country-state-city-api-countries-api-openapi.yml
+  url: https://artifacts.apis.io/country-state-city-api/openapi/country-state-city-api-countries-api-openapi.yml
 - filename: country-state-city-api-states-api-openapi.yml
   format: yaml
   label: Country State City API States API
   slug: country-state-city-api-states-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/country-state-city-api/refs/heads/main/openapi/country-state-city-api-states-api-openapi.yml
+  url: https://artifacts.apis.io/country-state-city-api/openapi/country-state-city-api-states-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -47,7 +47,7 @@ source_filename: country-state-city-api-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/country-state-city-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-CSCAPI-KEY\n  sources:\n  - openapi/country-state-city-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/country-state-city-api/refs/heads/main/authentication/country-state-city-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/country-state-city-api/authentication/country-state-city-api-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Capital

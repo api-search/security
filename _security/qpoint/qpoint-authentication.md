@@ -46,7 +46,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://docs.qpoint.io/guides/qplane-guides/mcp-getting-started.md\n# No OpenAPI is published (Qpoint's control plane is gRPC/Connect + MCP), so this profile\n# is captured from the docs rather than derived from a spec.\nsummary:\n  types: [http-bearer, apiKey, oauth2]\n  api_key_in: [header, cli-flag]\n  oauth2_flows: [firebase-auth]\nschemes:\n- name: mcp-bearer\n  type: http\n  scheme: bearer\n  in: header\n  parameter: Authorization\n  applies_to: MCP server (pulse.qpoint.io/mcp/v1)\n  docs: https://docs.qpoint.io/guides/qplane-guides/mcp-getting-started.md\n  note: Token minted in Qplane dashboard under Settings -> Deployments.\n- name: registration-token\n  type: apiKey\n  in: cli-flag\n  parameter: --registration-token\n  applies_to: qtap agent registration with Qplane\n  docs: https://docs.qpoint.io/getting-started/qtap/cli.md\n- name: qplane-app-auth\n  type: oauth2\n  scheme: firebase-auth\n  applies_to: Qplane web\
   \ app (app.qpoint.io)\n  note: Firebase Authentication; supports SSO for dashboard access per Security & Compliance docs.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qpoint/refs/heads/main/authentication/qpoint-authentication.yml
+source_yaml_url: https://artifacts.apis.io/qpoint/authentication/qpoint-authentication.yml
 summary_line: http-bearer/apiKey/oauth2 · 3 schemes
 tags:
 - Company

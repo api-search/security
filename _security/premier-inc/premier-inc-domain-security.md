@@ -41,7 +41,7 @@ source_filename: premier-inc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.premierinc.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 19:13:47 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.premierinc.com\n  https: false\n- host: api.premierinc.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  7 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: premierinc.com\n  dnssec: false\n  caa:\n  - 0 issue \"cloudflare.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issuewild \"pki.goog\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issuewild \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/premier-inc/refs/heads/main/security/premier-inc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/premier-inc/security/premier-inc-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Healthcare

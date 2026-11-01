@@ -5,25 +5,25 @@ api_specs:
   label: PointCheckout Branches API
   slug: pointcheckout-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/openapi/pointcheckout-branches-api-openapi.yml
+  url: https://artifacts.apis.io/pointcheckout/openapi/pointcheckout-branches-api-openapi.yml
 - filename: pointcheckout-checkout-api-openapi.yml
   format: yaml
   label: PointCheckout Checkout API
   slug: pointcheckout-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/openapi/pointcheckout-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/pointcheckout/openapi/pointcheckout-checkout-api-openapi.yml
 - filename: pointcheckout-customer-subscription-api-openapi.yml
   format: yaml
   label: PointCheckout Customer subscription API
   slug: pointcheckout-customer-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/openapi/pointcheckout-customer-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/pointcheckout/openapi/pointcheckout-customer-subscription-api-openapi.yml
 - filename: pointcheckout-webhooks-api-openapi.yml
   format: yaml
   label: PointCheckout Webhooks API
   slug: pointcheckout-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/openapi/pointcheckout-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/pointcheckout/openapi/pointcheckout-webhooks-api-openapi.yml
 certification_count: 1
 certifications:
 - PCI DSS
@@ -40,7 +40,7 @@ source_filename: pointcheckout-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://www.paymennt.com/ (footer / security statement)\nnotes: >-\n  PointCheckout / Paymennt publicly states PCI DSS Level 1 compliance on its own\n  website. No dedicated trust center portal, and no SOC 2 / ISO 27001 / HIPAA /\n  FedRAMP certifications were disclosed as of the probe date.\ntrust_center_url: null\ncertifications:\n- name: PCI DSS\n  level: Level 1\n  status: compliant\n  role: service provider\n  evidence: '\"Paymennt.com is PCI DSS Level 1 compliant.\" (paymennt.com)'\n  source: https://www.paymennt.com/\nrelated_legal:\n- name: Data Safety\n  url: https://www.paymennt.com/legal/data-safety/\n- name: Privacy Policy\n  url: https://www.paymennt.com/legal/privacy-policy/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/security/pointcheckout-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/pointcheckout/security/pointcheckout-trust-center.yml
 summary_line: PCI DSS
 tags:
 - Company

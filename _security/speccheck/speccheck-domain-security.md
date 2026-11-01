@@ -5,25 +5,25 @@ api_specs:
   label: SpecCheck Authentication API
   slug: speccheck-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/openapi/speccheck-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/speccheck/openapi/speccheck-authentication-api-openapi.yml
 - filename: speccheck-catalogs-api-openapi.yml
   format: yaml
   label: SpecCheck Catalogs API
   slug: speccheck-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/openapi/speccheck-catalogs-api-openapi.yml
+  url: https://artifacts.apis.io/speccheck/openapi/speccheck-catalogs-api-openapi.yml
 - filename: speccheck-labs-api-openapi.yml
   format: yaml
   label: SpecCheck Labs API
   slug: speccheck-labs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/openapi/speccheck-labs-api-openapi.yml
+  url: https://artifacts.apis.io/speccheck/openapi/speccheck-labs-api-openapi.yml
 - filename: speccheck-orders-api-openapi.yml
   format: yaml
   label: SpecCheck Orders API
   slug: speccheck-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/openapi/speccheck-orders-api-openapi.yml
+  url: https://artifacts.apis.io/speccheck/openapi/speccheck-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: speccheck-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: speccheckrx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 05:17:46 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.speccheckrx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 31 23:59:59 2027 GMT\n  hsts: null\n- host: api-staging.speccheckrx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  3 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: speccheckrx.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/security/speccheck-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/speccheck/security/speccheck-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

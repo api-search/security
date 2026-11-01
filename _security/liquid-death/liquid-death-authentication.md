@@ -7,7 +7,7 @@ api_specs:
   label: Liquid Death Discovery API
   slug: liquid-death-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquid-death/refs/heads/main/openapi/liquid-death-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/liquid-death/openapi/liquid-death-discovery-api-openapi.yml
 auth_types:
 - none
 - openIdConnect
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-08-01'\nmethod: probed\nsource: https://liquiddea
   \ account, hosted at\n      account.liquiddeath.com and issued by Shopify on behalf of the store.\n    endpoints:\n      authorization: https://account.liquiddeath.com/authentication/oauth/authorize\n      token: https://account.liquiddeath.com/authentication/oauth/token\n      end_session: https://account.liquiddeath.com/authentication/logout\n      jwks: https://account.liquiddeath.com/authentication/.well-known/jwks.json\n    flows:\n      - flow: authorizationCode\n        pkce: true\n        code_challenge_methods: [S256]\n        authorizationUrl: https://account.liquiddeath.com/authentication/oauth/authorize\n        tokenUrl: https://account.liquiddeath.com/authentication/oauth/token\n    grant_types_supported:\n      - authorization_code\n      - refresh_token\n      - 'urn:ietf:params:oauth:grant-type:jwt-bearer'\n    response_types_supported: [code]\n    token_endpoint_auth_methods_supported: [client_secret_basic]\n    id_token_signing_alg_values_supported: [RS256]\n    subject_types_supported:\
   \ [public]\n    claims_supported: [iss, sub, aud, exp, iat, nonce, sid, email, email_verified]\n    scopes_supported:\n      - openid\n      - email\n      - 'customer-account-api:full'\n      - 'customer-account-mcp-api:full'\n    source: well-known/liquid-death-openid-configuration.json\n  - name: customer-account-oauth2\n    type: oauth2\n    description: >-\n      The same authorization server also publishes RFC 8414 OAuth 2.0 Authorization Server Metadata at\n      /.well-known/oauth-authorization-server with an identical payload, so plain OAuth 2.0 clients can\n      discover it without OIDC semantics.\n    metadata_url: https://liquiddeath.com/.well-known/oauth-authorization-server\n    source: well-known/liquid-death-oauth-authorization-server.json\nobservations:\n  - >-\n    Publishing BOTH /.well-known/openid-configuration and /.well-known/oauth-authorization-server is\n    uncommon and materially improves discoverability for agent clients that only implement RFC 8414.\n  - >-\n\
   \    The customer-account-mcp-api:full scope indicates the identity provider is already wired for\n    MCP-mediated customer access, distinct from the anonymous UCP shopping transport.\nx-evidence:\n  fetched: '2026-08-01'\n  urls:\n    - {url: 'https://liquiddeath.com/.well-known/openid-configuration', http_status: 200}\n    - {url: 'https://liquiddeath.com/.well-known/oauth-authorization-server', http_status: 200}\n    - {url: 'https://account.liquiddeath.com/authentication/.well-known/jwks.json', http_status: 200}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liquid-death/refs/heads/main/authentication/liquid-death-authentication.yml
+source_yaml_url: https://artifacts.apis.io/liquid-death/authentication/liquid-death-authentication.yml
 summary_line: none/openIdConnect/oauth2/agentProfile · 4 schemes
 tags:
 - Company

@@ -8,37 +8,37 @@ api_specs:
   label: Brocade Chassis API
   slug: brocade-chassis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/openapi/brocade-chassis-api-openapi.yml
+  url: https://artifacts.apis.io/brocade/openapi/brocade-chassis-api-openapi.yml
 - filename: brocade-interfaces-api-openapi.yml
   format: yaml
   label: Brocade Interfaces API
   slug: brocade-interfaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/openapi/brocade-interfaces-api-openapi.yml
+  url: https://artifacts.apis.io/brocade/openapi/brocade-interfaces-api-openapi.yml
 - filename: brocade-operations-api-openapi.yml
   format: yaml
   label: Brocade Operations API
   slug: brocade-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/openapi/brocade-operations-api-openapi.yml
+  url: https://artifacts.apis.io/brocade/openapi/brocade-operations-api-openapi.yml
 - filename: brocade-session-api-openapi.yml
   format: yaml
   label: Brocade Session API
   slug: brocade-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/openapi/brocade-session-api-openapi.yml
+  url: https://artifacts.apis.io/brocade/openapi/brocade-session-api-openapi.yml
 - filename: brocade-switch-api-openapi.yml
   format: yaml
   label: Brocade Switch API
   slug: brocade-switch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/openapi/brocade-switch-api-openapi.yml
+  url: https://artifacts.apis.io/brocade/openapi/brocade-switch-api-openapi.yml
 - filename: brocade-zoning-api-openapi.yml
   format: yaml
   label: Brocade Zoning API
   slug: brocade-zoning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/openapi/brocade-zoning-api-openapi.yml
+  url: https://artifacts.apis.io/brocade/openapi/brocade-zoning-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -71,7 +71,7 @@ source_filename: brocade-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/brocade-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/brocade-openapi.yml\n- name: SessionToken\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/brocade-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/authentication/brocade-authentication.yml
+source_yaml_url: https://artifacts.apis.io/brocade/authentication/brocade-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Data Center

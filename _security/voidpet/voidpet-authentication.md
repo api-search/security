@@ -7,13 +7,13 @@ api_specs:
   label: Voidpet Discovery API
   slug: voidpet-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voidpet/refs/heads/main/openapi/voidpet-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/voidpet/openapi/voidpet-discovery-api-openapi.yml
 - filename: voidpet-health-api-openapi.yml
   format: yaml
   label: Voidpet Health API
   slug: voidpet-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voidpet/refs/heads/main/openapi/voidpet-health-api-openapi.yml
+  url: https://artifacts.apis.io/voidpet/openapi/voidpet-health-api-openapi.yml
 auth_types:
 - none
 description: ''
@@ -34,7 +34,7 @@ source_filename: voidpet-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://voidpet.com/.well-known/api-docs.md\ndocs: https://voidpet.com/.well-known/openapi.json\nsummary:\n  types: [none]\n  note: >-\n    The Voidpet Public Discovery API is public and read-only. It declares no\n    securitySchemes in its OpenAPI and the MCP server card sets\n    authentication.required = false. It exposes no accounts, game state, or\n    authenticated actions, so there is no API key, OAuth, or bearer surface to\n    document.\nschemes: []\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voidpet/refs/heads/main/authentication/voidpet-authentication.yml
+source_yaml_url: https://artifacts.apis.io/voidpet/authentication/voidpet-authentication.yml
 summary_line: none · 0 schemes
 tags:
 - Company

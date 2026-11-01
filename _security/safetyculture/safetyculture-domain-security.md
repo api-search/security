@@ -5,210 +5,193 @@ api_specs:
   label: SafetyCulture Actions API
   slug: safetyculture-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-actions-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-actions-api-openapi.yml
 - filename: safetyculture-apps-api-openapi.yml
   format: yaml
   label: SafetyCulture Apps API
   slug: safetyculture-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-apps-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-apps-api-openapi.yml
 - filename: safetyculture-assets-api-openapi.yml
   format: yaml
   label: SafetyCulture Assets API
   slug: safetyculture-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-assets-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-assets-api-openapi.yml
 - filename: safetyculture-bulk-user-operations-api-openapi.yml
   format: yaml
   label: SafetyCulture Bulk user operations API
   slug: safetyculture-bulk-user-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-bulk-user-operations-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-bulk-user-operations-api-openapi.yml
 - filename: safetyculture-companies-api-openapi.yml
   format: yaml
   label: SafetyCulture Companies API
   slug: safetyculture-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-companies-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-companies-api-openapi.yml
 - filename: safetyculture-credentials-api-openapi.yml
   format: yaml
   label: SafetyCulture Credentials API
   slug: safetyculture-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-credentials-api-openapi.yml
 - filename: safetyculture-data-feeds-api-openapi.yml
   format: yaml
   label: SafetyCulture Data Feeds API
   slug: safetyculture-data-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-data-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-data-feeds-api-openapi.yml
 - filename: safetyculture-directory-sites-api-openapi.yml
   format: yaml
   label: SafetyCulture Directory (Sites) API
   slug: safetyculture-directory-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-directory-sites-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-directory-sites-api-openapi.yml
 - filename: safetyculture-documents-api-openapi.yml
   format: yaml
   label: SafetyCulture Documents API
   slug: safetyculture-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-documents-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-documents-api-openapi.yml
 - filename: safetyculture-groups-api-openapi.yml
   format: yaml
   label: SafetyCulture Groups API
   slug: safetyculture-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-groups-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-groups-api-openapi.yml
 - filename: safetyculture-heads-up-api-openapi.yml
   format: yaml
   label: SafetyCulture Heads Up API
   slug: safetyculture-heads-up-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-heads-up-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-heads-up-api-openapi.yml
 - filename: safetyculture-inspections-api-openapi.yml
   format: yaml
   label: SafetyCulture Inspections API
   slug: safetyculture-inspections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-inspections-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-inspections-api-openapi.yml
 - filename: safetyculture-investigations-api-openapi.yml
   format: yaml
   label: SafetyCulture Investigations API
   slug: safetyculture-investigations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-investigations-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-investigations-api-openapi.yml
 - filename: safetyculture-issues-api-openapi.yml
   format: yaml
   label: SafetyCulture Issues API
   slug: safetyculture-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-issues-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-issues-api-openapi.yml
 - filename: safetyculture-lone-worker-api-openapi.yml
   format: yaml
   label: SafetyCulture Lone Worker API
   slug: safetyculture-lone-worker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-lone-worker-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-lone-worker-api-openapi.yml
 - filename: safetyculture-media-api-openapi.yml
   format: yaml
   label: SafetyCulture Media API
   slug: safetyculture-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-media-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-media-api-openapi.yml
 - filename: safetyculture-osha-api-openapi.yml
   format: yaml
   label: SafetyCulture OSHA API
   slug: safetyculture-osha-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-osha-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-osha-api-openapi.yml
 - filename: safetyculture-response-sets-api-openapi.yml
   format: yaml
   label: SafetyCulture Response Sets API
   slug: safetyculture-response-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-response-sets-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-response-sets-api-openapi.yml
 - filename: safetyculture-roles-api-openapi.yml
   format: yaml
   label: SafetyCulture Roles API
   slug: safetyculture-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-roles-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-roles-api-openapi.yml
 - filename: safetyculture-schedules-api-openapi.yml
   format: yaml
   label: SafetyCulture Schedules API
   slug: safetyculture-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-schedules-api-openapi.yml
 - filename: safetyculture-schedules-legacy-api-openapi.yml
   format: yaml
   label: SafetyCulture Schedules (legacy) API
   slug: safetyculture-schedules-legacy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-schedules-legacy-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-schedules-legacy-api-openapi.yml
 - filename: safetyculture-sensors-api-openapi.yml
   format: yaml
   label: SafetyCulture Sensors API
   slug: safetyculture-sensors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-sensors-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-sensors-api-openapi.yml
 - filename: safetyculture-structures-api-openapi.yml
   format: yaml
   label: SafetyCulture Structures API
   slug: safetyculture-structures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-structures-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-structures-api-openapi.yml
 - filename: safetyculture-templates-api-openapi.yml
   format: yaml
   label: SafetyCulture Templates API
   slug: safetyculture-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-templates-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-templates-api-openapi.yml
 - filename: safetyculture-training-api-openapi.yml
   format: yaml
   label: SafetyCulture Training API
   slug: safetyculture-training-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-training-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-training-api-openapi.yml
 - filename: safetyculture-users-api-openapi.yml
   format: yaml
   label: SafetyCulture Users API
   slug: safetyculture-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-users-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-users-api-openapi.yml
 - filename: safetyculture-webhooks-api-openapi.yml
   format: yaml
   label: SafetyCulture Webhooks API
   slug: safetyculture-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
   dmarc: true
   dmarc_policy: quarantine
-  dnssec: false
-  domain: mitti.com
-  spf: true
-- caa: []
-  dmarc: true
-  dmarc_policy: quarantine
   dnssec: true
-  domain: safetyculture.io
+  domain: safetyculture.com
   spf: true
 hosts:
-- cert_expires: Dec 30 18:53:35 2026 GMT
-  host: mitti.com
+- cert_expires: Oct 13 16:05:15 2026 GMT
+  host: safetyculture.com
   hsts: true
   hsts_max_age: 15552000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Jan  6 22:59:08 2027 GMT
-  host: developer.mitti.com
-  hsts: null
-  https: true
-  tls_version: TLSv1.3
-- cert_expires: Nov 28 23:53:02 2026 GMT
-  host: api.safetyculture.io
-  hsts: true
-  hsts_max_age: 15552000
-  https: true
-  tls_version: TLSv1.3
-hosts_probed: 3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
 name: Safetyculture Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for SafetyCulture, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+overview: 'Domain security posture for SafetyCulture, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
 provider_name: SafetyCulture
 provider_slug: safetyculture
 slug: safetyculture-domain-security
 source_filename: safetyculture-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mitti.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 18:53:35 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: developer.mitti.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  6 22:59:08 2027 GMT\n  hsts: null\n- host: api.safetyculture.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 23:53:02 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: mitti.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: safetyculture.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/security/safetyculture-domain-security.yml
+source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: safetyculture.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 16:05:15 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: safetyculture.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml_url: https://artifacts.apis.io/safetyculture/security/safetyculture-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
@@ -219,7 +202,7 @@ tags:
 - EHS
 - Compliance
 - Training
-- Field Service
+- Field Service Management
 - Webhook
 - Australia
 ---

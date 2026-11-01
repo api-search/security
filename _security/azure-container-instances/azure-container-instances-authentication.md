@@ -7,25 +7,25 @@ api_specs:
   label: Azure Container Instances Operations API
   slug: azure-container-instances-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/openapi/azure-container-instances-operations-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-instances/openapi/azure-container-instances-operations-api-openapi.yml
 - filename: azure-container-instances-subscriptions-api-openapi.yml
   format: yaml
   label: Azure Container Instances Subscriptions API
   slug: azure-container-instances-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/openapi/azure-container-instances-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-instances/openapi/azure-container-instances-subscriptions-api-openapi.yml
 - filename: azure-container-instances-container-groups-api-openapi.yml
   format: yaml
   label: Azure Container Instances Container Groups API
   slug: microsoft-azure-container-instances-container-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/openapi/azure-container-instances-container-groups-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-instances/openapi/azure-container-instances-container-groups-api-openapi.yml
 - filename: azure-container-instances-operations-api-openapi.yml
   format: yaml
   label: Azure Container Instances Operations API
   slug: microsoft-azure-container-instances-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/openapi/azure-container-instances-operations-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-instances/openapi/azure-container-instances-operations-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -56,7 +56,7 @@ source_filename: azure-container-instances-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-container-instances-openapi.yaml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - implicit\nschemes:\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  description: Azure Active Directory OAuth2 Flow\n  sources:\n  - openapi/azure-container-instances-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/authentication/azure-container-instances-authentication.yml
+source_yaml_url: https://artifacts.apis.io/azure-container-instances/authentication/azure-container-instances-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Microsoft Azure

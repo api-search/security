@@ -9,49 +9,49 @@ api_specs:
   label: FERC Data API
   slug: ferc-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ferc/refs/heads/main/openapi/ferc-data-api-openapi.yml
+  url: https://artifacts.apis.io/ferc/openapi/ferc-data-api-openapi.yml
 - filename: ferc-data-assets-api-openapi.yml
   format: yaml
   label: FERC Data Assets API
   slug: ferc-data-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ferc/refs/heads/main/openapi/ferc-data-assets-api-openapi.yml
+  url: https://artifacts.apis.io/ferc/openapi/ferc-data-assets-api-openapi.yml
 - filename: ferc-details-api-openapi.yml
   format: yaml
   label: FERC Details API
   slug: ferc-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ferc/refs/heads/main/openapi/ferc-details-api-openapi.yml
+  url: https://artifacts.apis.io/ferc/openapi/ferc-details-api-openapi.yml
 - filename: ferc-dictionary-api-openapi.yml
   format: yaml
   label: FERC Dictionary API
   slug: ferc-dictionary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ferc/refs/heads/main/openapi/ferc-dictionary-api-openapi.yml
+  url: https://artifacts.apis.io/ferc/openapi/ferc-dictionary-api-openapi.yml
 - filename: ferc-filing-api-openapi.yml
   format: yaml
   label: FERC Filing API
   slug: ferc-filing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ferc/refs/heads/main/openapi/ferc-filing-api-openapi.yml
+  url: https://artifacts.apis.io/ferc/openapi/ferc-filing-api-openapi.yml
 - filename: ferc-public-filings-api-openapi.yml
   format: yaml
   label: FERC Public Filings API
   slug: ferc-public-filings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ferc/refs/heads/main/openapi/ferc-public-filings-api-openapi.yml
+  url: https://artifacts.apis.io/ferc/openapi/ferc-public-filings-api-openapi.yml
 - filename: ferc-reference-api-openapi.yml
   format: yaml
   label: FERC Reference API
   slug: ferc-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ferc/refs/heads/main/openapi/ferc-reference-api-openapi.yml
+  url: https://artifacts.apis.io/ferc/openapi/ferc-reference-api-openapi.yml
 - filename: ferc-taxonomy-api-openapi.yml
   format: yaml
   label: FERC Taxonomy API
   slug: ferc-taxonomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ferc/refs/heads/main/openapi/ferc-taxonomy-api-openapi.yml
+  url: https://artifacts.apis.io/ferc/openapi/ferc-taxonomy-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: openapi/ferc-da
   \ Owner Password Credentials grant (RFC 6749 section 4.3). Credentials are the\n      filer's FERC eRegistration username (email) and password; the filer must be registered to file\n      for the company. No scopes are issued.\n    sources:\n      - collections/ferc-xbrl-submission-api.postman_collection.json\n      - https://www.ferc.gov/media/ferc-submission-api-step-step-guide\n  - name: filerBearer\n    api: ferc:ferc-eforms-xbrl-submission-api\n    type: http\n    scheme: bearer\n    description: Bearer token returned by the password grant, presented on the filing endpoints.\n    sources:\n      - openapi/ferc-eforms-api-openapi-derived.yml\ncredential_issuance:\n  - api: ferc:ferc-open-data-api\n    method: self-serve web form\n    url: https://data.ferc.gov/developer/gettingstarted/sign-up-form/\n    cost: free\n    key_format: 40-character key delivered by email\n    delivery: >-\n      Usually instant; FERC documents delivery may take up to 24 hours. Lost keys are replaced by\n\
   \      re-submitting the sign-up form; old keys are deactivated on request via support.\n  - api: ferc:ferc-eforms-xbrl-submission-api\n    method: FERC eRegistration + Company Registration\n    url: https://www.ferc.gov/company-registration\n    cost: free\n    note: >-\n      Not a developer credential. The filer must be an individual registered with FERC and authorized\n      to file for a specific company CID.\nanonymous_access:\n  - api: ferc:ferc-eforms-xbrl-submission-api\n    note: >-\n      Verified 2026-07-27 — GET /PublicSubmissionHistory, /SubmissionDetail/{filingID},\n      /SubmissionHistory/forms, /getTestStatus, /TaxonomyHistory (and its file/sample/release-notes\n      children) and /faq all return HTTP 200 with no credential of any kind. FERC does not document\n      these as a public API.\nevidence:\n  - probe: GET https://api.data.ferc.gov/v1/data-assets/ with no key\n    date: '2026-07-27'\n    status: 403\n    body: '{\"error\":{\"code\":\"API_KEY_MISSING\"}}'\n \
   \ - probe: GET https://api.data.ferc.gov/v1/data-assets/?api_key=<invalid>\n    date: '2026-07-27'\n    status: 403\n    body: '{\"error\":{\"code\":\"API_KEY_INVALID\"}}'\n  - probe: GET https://ecollection.ferc.gov/api/token\n    date: '2026-07-27'\n    status: 400\n    body: '{\"error\":\"unsupported_grant_type\"}'\n  - probe: GET https://ecollection.ferc.gov/api/claims\n    date: '2026-07-27'\n    status: 401\n    body: '{\"message\":\"Authorization has been denied for this request.\"}'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ferc/refs/heads/main/authentication/ferc-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ferc/authentication/ferc-authentication.yml
 summary_line: apiKey/oauth2/http · 4 schemes
 tags:
 - Energy

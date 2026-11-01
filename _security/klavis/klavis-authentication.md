@@ -7,25 +7,25 @@ api_specs:
   label: Klavis AI MCP Servers API
   slug: klavis-mcp-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klavis/refs/heads/main/openapi/klavis-mcp-servers-api-openapi.yml
+  url: https://artifacts.apis.io/klavis/openapi/klavis-mcp-servers-api-openapi.yml
 - filename: klavis-sandbox-api-openapi.yml
   format: yaml
   label: Klavis AI Sandbox API
   slug: klavis-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klavis/refs/heads/main/openapi/klavis-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/klavis/openapi/klavis-sandbox-api-openapi.yml
 - filename: klavis-tools-api-openapi.yml
   format: yaml
   label: Klavis AI Tools API
   slug: klavis-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klavis/refs/heads/main/openapi/klavis-tools-api-openapi.yml
+  url: https://artifacts.apis.io/klavis/openapi/klavis-tools-api-openapi.yml
 - filename: klavis-users-api-openapi.yml
   format: yaml
   label: Klavis AI Users API
   slug: klavis-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klavis/refs/heads/main/openapi/klavis-users-api-openapi.yml
+  url: https://artifacts.apis.io/klavis/openapi/klavis-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: klavis-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/klavis-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Klavis account API key passed via the Authorization Bearer header\n  sources:\n  - openapi/klavis-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/klavis/refs/heads/main/authentication/klavis-authentication.yml
+source_yaml_url: https://artifacts.apis.io/klavis/authentication/klavis-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - MCP

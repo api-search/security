@@ -5,13 +5,13 @@ api_specs:
   label: AI Router AI Router API
   slug: airouter-ai-router-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airouter/refs/heads/main/openapi/airouter-ai-router-api-api-openapi.yml
+  url: https://artifacts.apis.io/airouter/openapi/airouter-ai-router-api-api-openapi.yml
 - filename: airouter-chat-completions-api-openapi.yml
   format: yaml
   label: AI Router Chat Completions API
   slug: airouter-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airouter/refs/heads/main/openapi/airouter-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/airouter/openapi/airouter-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,7 +41,7 @@ source_filename: airouter-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: airouter.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 02:49:15 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: airouter.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airouter/refs/heads/main/security/airouter-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/airouter/security/airouter-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - LLM Cost Optimization

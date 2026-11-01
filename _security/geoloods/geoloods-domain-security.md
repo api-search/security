@@ -5,37 +5,37 @@ api_specs:
   label: Geoloods Agent API
   slug: geoloods-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoloods/refs/heads/main/openapi/geoloods-agent-api-openapi.yml
+  url: https://artifacts.apis.io/geoloods/openapi/geoloods-agent-api-openapi.yml
 - filename: geoloods-bbox-api-openapi.yml
   format: yaml
   label: Geoloods Bbox API
   slug: geoloods-bbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoloods/refs/heads/main/openapi/geoloods-bbox-api-openapi.yml
+  url: https://artifacts.apis.io/geoloods/openapi/geoloods-bbox-api-openapi.yml
 - filename: geoloods-countries-api-openapi.yml
   format: yaml
   label: Geoloods Countries API
   slug: geoloods-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoloods/refs/heads/main/openapi/geoloods-countries-api-openapi.yml
+  url: https://artifacts.apis.io/geoloods/openapi/geoloods-countries-api-openapi.yml
 - filename: geoloods-geocode-api-openapi.yml
   format: yaml
   label: Geoloods Geocode API
   slug: geoloods-geocode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoloods/refs/heads/main/openapi/geoloods-geocode-api-openapi.yml
+  url: https://artifacts.apis.io/geoloods/openapi/geoloods-geocode-api-openapi.yml
 - filename: geoloods-nearby-api-openapi.yml
   format: yaml
   label: Geoloods Nearby API
   slug: geoloods-nearby-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoloods/refs/heads/main/openapi/geoloods-nearby-api-openapi.yml
+  url: https://artifacts.apis.io/geoloods/openapi/geoloods-nearby-api-openapi.yml
 - filename: geoloods-search-api-openapi.yml
   format: yaml
   label: Geoloods Search API
   slug: geoloods-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoloods/refs/heads/main/openapi/geoloods-search-api-openapi.yml
+  url: https://artifacts.apis.io/geoloods/openapi/geoloods-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -68,7 +68,7 @@ source_filename: geoloods-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: geoloods.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 09:01:32 2026 GMT\n  hsts: false\n- host: api.geoloods.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 08:58:20 2026 GMT\n  hsts: null\ndomains:\n- domain: geoloods.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/geoloods/refs/heads/main/security/geoloods-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/geoloods/security/geoloods-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Geocoding

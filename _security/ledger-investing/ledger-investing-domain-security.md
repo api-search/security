@@ -5,37 +5,37 @@ api_specs:
   label: Ledger Investing Cashflow Models API
   slug: ledger-investing-cashflow-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/openapi/ledger-investing-cashflow-models-api-openapi.yml
+  url: https://artifacts.apis.io/ledger-investing/openapi/ledger-investing-cashflow-models-api-openapi.yml
 - filename: ledger-investing-development-models-api-openapi.yml
   format: yaml
   label: Ledger Investing Development Models API
   slug: ledger-investing-development-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/openapi/ledger-investing-development-models-api-openapi.yml
+  url: https://artifacts.apis.io/ledger-investing/openapi/ledger-investing-development-models-api-openapi.yml
 - filename: ledger-investing-forecast-models-api-openapi.yml
   format: yaml
   label: Ledger Investing Forecast Models API
   slug: ledger-investing-forecast-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/openapi/ledger-investing-forecast-models-api-openapi.yml
+  url: https://artifacts.apis.io/ledger-investing/openapi/ledger-investing-forecast-models-api-openapi.yml
 - filename: ledger-investing-tail-models-api-openapi.yml
   format: yaml
   label: Ledger Investing Tail Models API
   slug: ledger-investing-tail-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/openapi/ledger-investing-tail-models-api-openapi.yml
+  url: https://artifacts.apis.io/ledger-investing/openapi/ledger-investing-tail-models-api-openapi.yml
 - filename: ledger-investing-tasks-api-openapi.yml
   format: yaml
   label: Ledger Investing Tasks API
   slug: ledger-investing-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/openapi/ledger-investing-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/ledger-investing/openapi/ledger-investing-tasks-api-openapi.yml
 - filename: ledger-investing-triangles-api-openapi.yml
   format: yaml
   label: Ledger Investing Triangles API
   slug: ledger-investing-triangles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/openapi/ledger-investing-triangles-api-openapi.yml
+  url: https://artifacts.apis.io/ledger-investing/openapi/ledger-investing-triangles-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -87,7 +87,7 @@ source_filename: ledger-investing-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ledgerinvesting.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 20:20:08 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: ledger-investing-ledger-analytics.readthedocs-hosted.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 18:43:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.korra.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 20:29:14 2026 GMT\n  hsts: null\ndomains:\n- domain: ledgerinvesting.com\n  dnssec: false\n  caa:\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: readthedocs-hosted.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/security/ledger-investing-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ledger-investing/security/ledger-investing-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

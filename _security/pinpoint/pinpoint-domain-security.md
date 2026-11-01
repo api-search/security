@@ -5,25 +5,25 @@ api_specs:
   label: Pinpoint Applicants API
   slug: pinpoint-applicants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinpoint/refs/heads/main/openapi/pinpoint-applicants-api-openapi.yml
+  url: https://artifacts.apis.io/pinpoint/openapi/pinpoint-applicants-api-openapi.yml
 - filename: pinpoint-applications-api-openapi.yml
   format: yaml
   label: Pinpoint Applications API
   slug: pinpoint-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinpoint/refs/heads/main/openapi/pinpoint-applications-api-openapi.yml
+  url: https://artifacts.apis.io/pinpoint/openapi/pinpoint-applications-api-openapi.yml
 - filename: pinpoint-comments-api-openapi.yml
   format: yaml
   label: Pinpoint Comments API
   slug: pinpoint-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinpoint/refs/heads/main/openapi/pinpoint-comments-api-openapi.yml
+  url: https://artifacts.apis.io/pinpoint/openapi/pinpoint-comments-api-openapi.yml
 - filename: pinpoint-jobs-api-openapi.yml
   format: yaml
   label: Pinpoint Jobs API
   slug: pinpoint-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinpoint/refs/heads/main/openapi/pinpoint-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/pinpoint/openapi/pinpoint-jobs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: pinpoint-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.pinpointhq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 13:45:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.pinpointhq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 06:23:34 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: pinpointhq.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pinpoint/refs/heads/main/security/pinpoint-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pinpoint/security/pinpoint-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Applicant Tracking

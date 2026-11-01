@@ -5,55 +5,55 @@ api_specs:
   label: Soundcharts Album API
   slug: soundcharts-album-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-album-api-openapi.yml
+  url: https://artifacts.apis.io/soundcharts/openapi/soundcharts-album-api-openapi.yml
 - filename: soundcharts-artist-api-openapi.yml
   format: yaml
   label: Soundcharts Artist API
   slug: soundcharts-artist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-artist-api-openapi.yml
+  url: https://artifacts.apis.io/soundcharts/openapi/soundcharts-artist-api-openapi.yml
 - filename: soundcharts-chart-api-openapi.yml
   format: yaml
   label: Soundcharts Chart API
   slug: soundcharts-chart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-chart-api-openapi.yml
+  url: https://artifacts.apis.io/soundcharts/openapi/soundcharts-chart-api-openapi.yml
 - filename: soundcharts-metrics-api-openapi.yml
   format: yaml
   label: Soundcharts Metrics API
   slug: soundcharts-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/soundcharts/openapi/soundcharts-metrics-api-openapi.yml
 - filename: soundcharts-playlist-api-openapi.yml
   format: yaml
   label: Soundcharts Playlist API
   slug: soundcharts-playlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-playlist-api-openapi.yml
+  url: https://artifacts.apis.io/soundcharts/openapi/soundcharts-playlist-api-openapi.yml
 - filename: soundcharts-radio-api-openapi.yml
   format: yaml
   label: Soundcharts Radio API
   slug: soundcharts-radio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-radio-api-openapi.yml
+  url: https://artifacts.apis.io/soundcharts/openapi/soundcharts-radio-api-openapi.yml
 - filename: soundcharts-referential-api-openapi.yml
   format: yaml
   label: Soundcharts Referential API
   slug: soundcharts-referential-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-referential-api-openapi.yml
+  url: https://artifacts.apis.io/soundcharts/openapi/soundcharts-referential-api-openapi.yml
 - filename: soundcharts-search-api-openapi.yml
   format: yaml
   label: Soundcharts Search API
   slug: soundcharts-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-search-api-openapi.yml
+  url: https://artifacts.apis.io/soundcharts/openapi/soundcharts-search-api-openapi.yml
 - filename: soundcharts-song-api-openapi.yml
   format: yaml
   label: Soundcharts Song API
   slug: soundcharts-song-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-song-api-openapi.yml
+  url: https://artifacts.apis.io/soundcharts/openapi/soundcharts-song-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -94,7 +94,7 @@ source_filename: soundcharts-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: soundcharts.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 01:02:39 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.soundcharts.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 01:02:38 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: customer.api.soundcharts.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 20:52:39 2026 GMT\n  hsts: null\ndomains:\n- domain: soundcharts.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/security/soundcharts-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/soundcharts/security/soundcharts-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Music

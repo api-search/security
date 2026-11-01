@@ -5,25 +5,25 @@ api_specs:
   label: Bandcamp Account API
   slug: bandcamp-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bandcamp/refs/heads/main/openapi/bandcamp-account-api-openapi.yml
+  url: https://artifacts.apis.io/bandcamp/openapi/bandcamp-account-api-openapi.yml
 - filename: bandcamp-merch-orders-api-openapi.yml
   format: yaml
   label: Bandcamp Merch Orders API
   slug: bandcamp-merch-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bandcamp/refs/heads/main/openapi/bandcamp-merch-orders-api-openapi.yml
+  url: https://artifacts.apis.io/bandcamp/openapi/bandcamp-merch-orders-api-openapi.yml
 - filename: bandcamp-sales-api-openapi.yml
   format: yaml
   label: Bandcamp Sales API
   slug: bandcamp-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bandcamp/refs/heads/main/openapi/bandcamp-sales-api-openapi.yml
+  url: https://artifacts.apis.io/bandcamp/openapi/bandcamp-sales-api-openapi.yml
 - filename: bandcamp-oauth-api-openapi.yml
   format: yaml
   label: Bandcamp O Auth API
   slug: bandcamp-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bandcamp/refs/heads/main/openapi/bandcamp-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/bandcamp/openapi/bandcamp-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: bandcamp-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bandcamp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 22:08:16 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: bandcamp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bandcamp/refs/heads/main/security/bandcamp-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bandcamp/security/bandcamp-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Music

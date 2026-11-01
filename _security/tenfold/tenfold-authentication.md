@@ -7,49 +7,49 @@ api_specs:
   label: Tenfold Analytics API
   slug: tenfold-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenfold/refs/heads/main/openapi/tenfold-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/tenfold/openapi/tenfold-analytics-api-openapi.yml
 - filename: tenfold-authentication-api-openapi.yml
   format: yaml
   label: Tenfold Authentication API
   slug: tenfold-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenfold/refs/heads/main/openapi/tenfold-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/tenfold/openapi/tenfold-authentication-api-openapi.yml
 - filename: tenfold-calls-api-openapi.yml
   format: yaml
   label: Tenfold Calls API
   slug: tenfold-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenfold/refs/heads/main/openapi/tenfold-calls-api-openapi.yml
+  url: https://artifacts.apis.io/tenfold/openapi/tenfold-calls-api-openapi.yml
 - filename: tenfold-contact-lists-api-openapi.yml
   format: yaml
   label: Tenfold Contact Lists API
   slug: tenfold-contact-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenfold/refs/heads/main/openapi/tenfold-contact-lists-api-openapi.yml
+  url: https://artifacts.apis.io/tenfold/openapi/tenfold-contact-lists-api-openapi.yml
 - filename: tenfold-crm-records-api-openapi.yml
   format: yaml
   label: Tenfold CRM Records API
   slug: tenfold-crm-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenfold/refs/heads/main/openapi/tenfold-crm-records-api-openapi.yml
+  url: https://artifacts.apis.io/tenfold/openapi/tenfold-crm-records-api-openapi.yml
 - filename: tenfold-organizations-api-openapi.yml
   format: yaml
   label: Tenfold Organizations API
   slug: tenfold-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenfold/refs/heads/main/openapi/tenfold-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/tenfold/openapi/tenfold-organizations-api-openapi.yml
 - filename: tenfold-tracking-api-openapi.yml
   format: yaml
   label: Tenfold Tracking API
   slug: tenfold-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenfold/refs/heads/main/openapi/tenfold-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/tenfold/openapi/tenfold-tracking-api-openapi.yml
 - filename: tenfold-users-api-openapi.yml
   format: yaml
   label: Tenfold Users API
   slug: tenfold-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenfold/refs/heads/main/openapi/tenfold-users-api-openapi.yml
+  url: https://artifacts.apis.io/tenfold/openapi/tenfold-users-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -93,7 +93,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://apidocs.tenfold.com/\ndocs: https://apidocs.tenfold.com/\nsummary:\n  types: [oauth2, http]\n  http_schemes: [bearer]\n  oauth2_flows: [password, clientCredentials]\n  notes: >-\n    Tenfold supports OAuth 2.0 (Resource Owner Password Credentials and Client\n    Credentials grants) across v1 and v2, and a JWT bearer token obtained from\n    /v2/users/login. v2 primarily uses JWT presented as\n    \"Authorization: Bearer JWT <token>\". OAuth access tokens are presented as\n    \"Authorization: Bearer <token>\". No OAuth scope catalog is documented.\nschemes:\n  - name: oauth2Password\n    type: oauth2\n    flow: password\n    tokenUrl: https://api.tenfold.com/v2/oauth/token\n    sources: [openapi/tenfold-openapi.yml]\n  - name: oauth2ClientCredentials\n    type: oauth2\n    flow: clientCredentials\n    tokenUrl: https://api.tenfold.com/v2/oauth/token\n    sources: [openapi/tenfold-openapi.yml]\n  - name: bearerJWT\n\
   \    type: http\n    scheme: bearer\n    bearerFormat: JWT\n    login_endpoint: https://api.tenfold.com/v2/users/login\n    sources: [openapi/tenfold-openapi.yml]\ntoken_endpoints:\n  v1: POST https://api.tenfold.com/api/v1/oauth/token\n  v2: PUT https://api.tenfold.com/v2/oauth/token\n  jwt_login: POST https://api.tenfold.com/v2/users/login\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tenfold/refs/heads/main/authentication/tenfold-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tenfold/authentication/tenfold-authentication.yml
 summary_line: oauth2/http · 3 schemes
 tags:
 - Company

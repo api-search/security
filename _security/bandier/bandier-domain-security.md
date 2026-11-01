@@ -27,7 +27,7 @@ source_filename: bandier-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bandier.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 20 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: bandier.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bandier/refs/heads/main/security/bandier-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bandier/security/bandier-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

@@ -5,19 +5,37 @@ api_specs:
   label: Makeswift Locale API
   slug: makeswift-locale-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeswift/refs/heads/main/openapi/makeswift-locale-api-openapi.yml
+  url: https://artifacts.apis.io/makeswift/openapi/makeswift-locale-api-openapi.yml
 - filename: makeswift-page-api-openapi.yml
   format: yaml
   label: Makeswift Page API
   slug: makeswift-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeswift/refs/heads/main/openapi/makeswift-page-api-openapi.yml
+  url: https://artifacts.apis.io/makeswift/openapi/makeswift-page-api-openapi.yml
 - filename: makeswift-site-api-openapi.yml
   format: yaml
   label: Makeswift Site API
   slug: makeswift-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeswift/refs/heads/main/openapi/makeswift-site-api-openapi.yml
+  url: https://artifacts.apis.io/makeswift/openapi/makeswift-site-api-openapi.yml
+- filename: makeswift-region-api-openapi.yml
+  format: yaml
+  label: Makeswift Region API
+  slug: makeswift-region-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/makeswift/openapi/makeswift-region-api-openapi.yml
+- filename: makeswift-swatch-api-openapi.yml
+  format: yaml
+  label: Makeswift Swatch API
+  slug: makeswift-swatch-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/makeswift/openapi/makeswift-swatch-api-openapi.yml
+- filename: makeswift-typography-api-openapi.yml
+  format: yaml
+  label: Makeswift Typography API
+  slug: makeswift-typography-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/makeswift/openapi/makeswift-typography-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +70,7 @@ source_filename: makeswift-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: makeswift.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 14:42:00 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.makeswift.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 13:45:14 2026 GMT\n  hsts: null\ndomains:\n- domain: makeswift.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/makeswift/refs/heads/main/security/makeswift-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/makeswift/security/makeswift-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

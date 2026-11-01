@@ -5,31 +5,31 @@ api_specs:
   label: TrueProxies Analytics API
   slug: trueproxies-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trueproxies/refs/heads/main/openapi/trueproxies-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/trueproxies/openapi/trueproxies-analytics-api-openapi.yml
 - filename: trueproxies-catalog-api-openapi.yml
   format: yaml
   label: TrueProxies Catalog API
   slug: trueproxies-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trueproxies/refs/heads/main/openapi/trueproxies-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/trueproxies/openapi/trueproxies-catalog-api-openapi.yml
 - filename: trueproxies-invoices-api-openapi.yml
   format: yaml
   label: TrueProxies Invoices API
   slug: trueproxies-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trueproxies/refs/heads/main/openapi/trueproxies-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/trueproxies/openapi/trueproxies-invoices-api-openapi.yml
 - filename: trueproxies-me-api-openapi.yml
   format: yaml
   label: TrueProxies Me API
   slug: trueproxies-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trueproxies/refs/heads/main/openapi/trueproxies-me-api-openapi.yml
+  url: https://artifacts.apis.io/trueproxies/openapi/trueproxies-me-api-openapi.yml
 - filename: trueproxies-services-api-openapi.yml
   format: yaml
   label: TrueProxies Services API
   slug: trueproxies-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trueproxies/refs/heads/main/openapi/trueproxies-services-api-openapi.yml
+  url: https://artifacts.apis.io/trueproxies/openapi/trueproxies-services-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: trueproxies-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: trueproxies.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 30 01:03:45 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.trueproxies.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 30 01:03:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.trueproxies.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 17 12:51:31 2026 GMT\n  hsts: null\ndomains:\n- domain: trueproxies.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trueproxies/refs/heads/main/security/trueproxies-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trueproxies/security/trueproxies-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Proxies

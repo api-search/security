@@ -5,19 +5,19 @@ api_specs:
   label: AirCube AirCube API
   slug: aircube-aircube-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aircube/refs/heads/main/openapi/aircube-aircube-api-api-openapi.yml
+  url: https://artifacts.apis.io/aircube/openapi/aircube-aircube-api-api-openapi.yml
 - filename: aircube-models-api-openapi.yml
   format: yaml
   label: AirCube Models API
   slug: aircube-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aircube/refs/heads/main/openapi/aircube-models-api-openapi.yml
+  url: https://artifacts.apis.io/aircube/openapi/aircube-models-api-openapi.yml
 - filename: aircube-qwen-image-api-openapi.yml
   format: yaml
   label: AirCube Qwen Image API
   slug: aircube-qwen-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aircube/refs/heads/main/openapi/aircube-qwen-image-api-openapi.yml
+  url: https://artifacts.apis.io/aircube/openapi/aircube-qwen-image-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: aircube-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aircube.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 27 10:54:01 2026 GMT\n  hsts: false\n- host: api.aircube.ai\n  https: false\ndomains:\n- domain: aircube.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aircube/refs/heads/main/security/aircube-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aircube/security/aircube-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Artificial Intelligence

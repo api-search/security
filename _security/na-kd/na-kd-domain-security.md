@@ -27,7 +27,7 @@ source_filename: na-kd-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: na-kd.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 01:26:58 2026 GMT\n  hsts: false\ndomains:\n- domain: na-kd.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/na-kd/refs/heads/main/security/na-kd-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/na-kd/security/na-kd-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

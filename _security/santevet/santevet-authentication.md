@@ -8,157 +8,157 @@ api_specs:
   label: SantéVet Appareil API
   slug: santevet-appareil-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-appareil-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-appareil-api-openapi.yml
 - filename: santevet-civilite-api-openapi.yml
   format: yaml
   label: SantéVet Civilite API
   slug: santevet-civilite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-civilite-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-civilite-api-openapi.yml
 - filename: santevet-contratraisonannulation-api-openapi.yml
   format: yaml
   label: SantéVet Contrat Raison Annulation API
   slug: santevet-contratraisonannulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-contratraisonannulation-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-contratraisonannulation-api-openapi.yml
 - filename: santevet-espece-api-openapi.yml
   format: yaml
   label: SantéVet Espece API
   slug: santevet-espece-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-espece-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-espece-api-openapi.yml
 - filename: santevet-fractionnement-api-openapi.yml
   format: yaml
   label: SantéVet Fractionnement API
   slug: santevet-fractionnement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-fractionnement-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-fractionnement-api-openapi.yml
 - filename: santevet-langue-api-openapi.yml
   format: yaml
   label: SantéVet Langue API
   slug: santevet-langue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-langue-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-langue-api-openapi.yml
 - filename: santevet-motifnonremboursement-api-openapi.yml
   format: yaml
   label: SantéVet Motif Non Remboursement API
   slug: santevet-motifnonremboursement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-motifnonremboursement-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-motifnonremboursement-api-openapi.yml
 - filename: santevet-motifperiode-api-openapi.yml
   format: yaml
   label: SantéVet Motif Periode API
   slug: santevet-motifperiode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-motifperiode-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-motifperiode-api-openapi.yml
 - filename: santevet-originecommerciale-api-openapi.yml
   format: yaml
   label: SantéVet Origine Commerciale API
   slug: santevet-originecommerciale-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-originecommerciale-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-originecommerciale-api-openapi.yml
 - filename: santevet-origineconnaissance-api-openapi.yml
   format: yaml
   label: SantéVet Origine Connaissance API
   slug: santevet-origineconnaissance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-origineconnaissance-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-origineconnaissance-api-openapi.yml
 - filename: santevet-pays-api-openapi.yml
   format: yaml
   label: SantéVet Pays API
   slug: santevet-pays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-pays-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-pays-api-openapi.yml
 - filename: santevet-race-api-openapi.yml
   format: yaml
   label: SantéVet Race API
   slug: santevet-race-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-race-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-race-api-openapi.yml
 - filename: santevet-reimbursement-api-openapi.yml
   format: yaml
   label: SantéVet Reimbursement API
   slug: santevet-reimbursement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-reimbursement-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-reimbursement-api-openapi.yml
 - filename: santevet-sinistremotifretour-api-openapi.yml
   format: yaml
   label: SantéVet Sinistre Motif Retour API
   slug: santevet-sinistremotifretour-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-sinistremotifretour-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-sinistremotifretour-api-openapi.yml
 - filename: santevet-statutsocialpartenaire-api-openapi.yml
   format: yaml
   label: SantéVet Statut Social Partenaire API
   slug: santevet-statutsocialpartenaire-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-statutsocialpartenaire-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-statutsocialpartenaire-api-openapi.yml
 - filename: santevet-svdefcontratassurance-api-openapi.yml
   format: yaml
   label: SantéVet Sv Def Contrat Assurance API
   slug: santevet-svdefcontratassurance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-svdefcontratassurance-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-svdefcontratassurance-api-openapi.yml
 - filename: santevet-svdefoptionappliqueeaudefcontrat-api-openapi.yml
   format: yaml
   label: SantéVet Sv Def Option Appliquee Au Def Contrat API
   slug: santevet-svdefoptionappliqueeaudefcontrat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-svdefoptionappliqueeaudefcontrat-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-svdefoptionappliqueeaudefcontrat-api-openapi.yml
 - filename: santevet-svgrouperace-api-openapi.yml
   format: yaml
   label: SantéVet Sv Groupe Race API
   slug: santevet-svgrouperace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-svgrouperace-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-svgrouperace-api-openapi.yml
 - filename: santevet-svmarquetel-api-openapi.yml
   format: yaml
   label: SantéVet Sv Marque Tel API
   slug: santevet-svmarquetel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-svmarquetel-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-svmarquetel-api-openapi.yml
 - filename: santevet-svpromo-api-openapi.yml
   format: yaml
   label: SantéVet Sv Promo API
   slug: santevet-svpromo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-svpromo-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-svpromo-api-openapi.yml
 - filename: santevet-svtarifscontrat-api-openapi.yml
   format: yaml
   label: SantéVet Sv Tarifs Contrat API
   slug: santevet-svtarifscontrat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-svtarifscontrat-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-svtarifscontrat-api-openapi.yml
 - filename: santevet-typeidentifiantofficielpartenaire-api-openapi.yml
   format: yaml
   label: SantéVet Type Identifiant Officiel Partenaire API
   slug: santevet-typeidentifiantofficielpartenaire-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-typeidentifiantofficielpartenaire-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-typeidentifiantofficielpartenaire-api-openapi.yml
 - filename: santevet-typeoption-api-openapi.yml
   format: yaml
   label: SantéVet Type Option API
   slug: santevet-typeoption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-typeoption-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-typeoption-api-openapi.yml
 - filename: santevet-typepartenaire-api-openapi.yml
   format: yaml
   label: SantéVet Type Partenaire API
   slug: santevet-typepartenaire-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-typepartenaire-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-typepartenaire-api-openapi.yml
 - filename: santevet-typereglement-api-openapi.yml
   format: yaml
   label: SantéVet Type Reglement API
   slug: santevet-typereglement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-typereglement-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-typereglement-api-openapi.yml
 - filename: santevet-typesinistre-api-openapi.yml
   format: yaml
   label: SantéVet Type Sinistre API
   slug: santevet-typesinistre-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-typesinistre-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-typesinistre-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -205,7 +205,7 @@ source_yaml: "generated: '2026-08-17'\nmethod: probed\nsource: >-\n  openapi/san
   \ an auth failure as a validation\n    failure. Worth raising with the provider.\n- api: file\n  host: https://file.api.santevet.com\n  declared_scheme: none\n  observed_anonymous:\n  - request: every path probed, including /.well-known/*\n    status: 401\n    note: this host returns 401 for absolutely everything; no documentation is exposed\n- api: vet practice-management integrations\n  hosts:\n  - https://api-bourgelat.santevet.com\n  - https://api-epivet.santevet.com\n  - https://api-fuga.santevet.com\n  - https://api-gmvet.santevet.com\n  - https://api-myvetapps.santevet.com\n  - https://api-vetocom.santevet.com\n  declared_scheme: unknown\n  observed_anonymous:\n  - request: every path probed\n    status: 403\n    note: >-\n      Blocked at the edge/WAF before any application response, so no authentication scheme can be\n      observed. These are per-vendor integration endpoints for third-party veterinary\n      practice-management systems (Bourgelat, EpiVet, Fuga, GMVet, MyVetApps,\
   \ VetoCom).\ncredential_issuance:\n  self_serve: false\n  signup_url: null\n  portal_url: null\n  process: >-\n    Commercial. The B2B partner page (https://www.santevet.com/partenaire-btob) routes every\n    enquiry to a Typeform (https://aaxko64pztt.typeform.com/to/I7vhM5Bm) or a phone number. There\n    is no developer registration, no key-management console, and no documented key rotation,\n    expiry or scoping.\n  broker_route: https://courtier.santevet.com/login\n  developer_contact: devs-web@santevet.com\noauth:\n  present: false\n  evidence: >-\n    derive-oauth-scopes.py found zero oauth2 schemes and zero scopes across both specifications.\n    /.well-known/oauth-authorization-server and /.well-known/openid-configuration return 404 on\n    every SantéVet host. No scopes/ artifact is emitted, correctly — there is no scope surface.\nauthorization_model:\n  scopes: false\n  roles: false\n  tenancy: >-\n    Probably brand-scoped in practice — ref_id_marque (the SvMarque foreign key)\
   \ threads through\n    the acquisition, toolkit and distribution models and is the natural partner boundary — but\n    SantéVet publishes no statement of what a partner key is authorised to see or do.\n  note: >-\n    A single opaque header credential with no scopes, no roles and no documented tenancy is the\n    weakest authorization posture in this estate. A partner key that can read\n    /clients/{clientId}/reimbursements has no published constraint limiting it to that partner's\n    own clients.\ngaps:\n- Two of three APIs declare no securityScheme despite enforcing authentication.\n- No operation on any API declares a 401 or 403 response.\n- The acquisition API's published meaning for 401 contradicts its runtime behaviour.\n- No scopes, no roles, no documented tenancy boundary.\n- No documented key rotation, expiry, revocation or rate-limit-per-key policy.\n- No HSTS on the API hosts (see security/santevet-domain-security.yml).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/authentication/santevet-authentication.yml
+source_yaml_url: https://artifacts.apis.io/santevet/authentication/santevet-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Insurance

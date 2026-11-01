@@ -5,79 +5,79 @@ api_specs:
   label: Cabify Delivery API
   slug: cabify-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-delivery-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-delivery-api-openapi.yml
 - filename: cabify-estimates-api-openapi.yml
   format: yaml
   label: Cabify Estimates API
   slug: cabify-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-estimates-api-openapi.yml
 - filename: cabify-hubs-api-openapi.yml
   format: yaml
   label: Cabify Hubs API
   slug: cabify-hubs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-hubs-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-hubs-api-openapi.yml
 - filename: cabify-journeys-api-openapi.yml
   format: yaml
   label: Cabify Journeys API
   slug: cabify-journeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-journeys-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-journeys-api-openapi.yml
 - filename: cabify-label-api-openapi.yml
   format: yaml
   label: Cabify Label API
   slug: cabify-label-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-label-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-label-api-openapi.yml
 - filename: cabify-labels-api-openapi.yml
   format: yaml
   label: Cabify Labels API
   slug: cabify-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-labels-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-labels-api-openapi.yml
 - filename: cabify-parcels-api-openapi.yml
   format: yaml
   label: Cabify Parcels API
   slug: cabify-parcels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-parcels-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-parcels-api-openapi.yml
 - filename: cabify-sales-api-openapi.yml
   format: yaml
   label: Cabify Sales API
   slug: cabify-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-sales-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-sales-api-openapi.yml
 - filename: cabify-shipment-api-openapi.yml
   format: yaml
   label: Cabify Shipment API
   slug: cabify-shipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-shipment-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-shipment-api-openapi.yml
 - filename: cabify-shipping-types-api-openapi.yml
   format: yaml
   label: Cabify Shipping Types API
   slug: cabify-shipping-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-shipping-types-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-shipping-types-api-openapi.yml
 - filename: cabify-status-api-openapi.yml
   format: yaml
   label: Cabify Status API
   slug: cabify-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-status-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-status-api-openapi.yml
 - filename: cabify-users-api-openapi.yml
   format: yaml
   label: Cabify Users API
   slug: cabify-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-users-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-users-api-openapi.yml
 - filename: cabify-webhooks-api-openapi.yml
   format: yaml
   label: Cabify Webhooks API
   slug: cabify-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -120,7 +120,7 @@ source_filename: cabify-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cabify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 15:28:06 2026 GMT\n  hsts: true\n  hsts_max_age: 6\n- host: developers.cabify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 02:40:20 2026 GMT\n  hsts: true\n  hsts_max_age: 6\n- host: logistics.api.cabify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 15:28:06 2026 GMT\n  hsts: null\ndomains:\n- domain: cabify.com\n  dnssec: true\n  caa:\n  - 128 issuewild \"letsencrypt.org\"\n  - 128 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/security/cabify-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cabify/security/cabify-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

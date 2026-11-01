@@ -7,13 +7,13 @@ api_specs:
   label: Ambitioninc Account API
   slug: ambitioninc-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambitioninc/refs/heads/main/openapi/ambitioninc-account-api-openapi.yml
+  url: https://artifacts.apis.io/ambitioninc/openapi/ambitioninc-account-api-openapi.yml
 - filename: ambitioninc-data-api-openapi.yml
   format: yaml
   label: Ambitioninc Data API
   slug: ambitioninc-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambitioninc/refs/heads/main/openapi/ambitioninc-data-api-openapi.yml
+  url: https://artifacts.apis.io/ambitioninc/openapi/ambitioninc-data-api-openapi.yml
 auth_types: []
 description: Token‑Based Authentication using a URL query parameter
 kind: authentication
@@ -39,7 +39,7 @@ source_heading: Authentication Profile
 source_url: https://help.ambition.com/articles/4273107736-how-can-i-display-a-tv-if-my-device-doesn-t-support-password-based-authentication
 source_yaml: "generated: '2026-09-24'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://help.ambition.com/articles/4273107736-how-can-i-display-a-tv-if-my-device-doesn-t-support-password-based-authentication\nsources:\n- https://help.ambition.com/articles/4273107736-how-can-i-display-a-tv-if-my-device-doesn-t-support-password-based-authentication\n- https://help.ambition.com/articles/4369357246-how-do-i-set-up-the-coaching-quickstart-and-access-check-in-visualizations-within-domo\n- https://help.ambition.com/articles/9502903582-how-can-i-use-hidden-mode-to-test-my-competition-setup\n- https://help.ambition.com/articles/2508363429-how-do-i-set-custom-targets-or-build-ramp-time-into-scorecards\ndescription: Token‑Based Authentication using a URL query parameter\nschemes:\n- type: apiKey\n  name: URL token\n  evidence: 'If you are using token-based authentication, you will need to append the following to your TV URL: ?_tva=YOUR_TOKEN_HERE'\n  location: query\n\
   \  how_to_obtain: Request a token by emailing gethelp@ambition.com\ndocs: https://help.ambition.com/articles/4273107736-how-can-i-display-a-tv-if-my-device-doesn-t-support-password-based-authentication\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ambitioninc/refs/heads/main/authentication/ambitioninc-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ambitioninc/authentication/ambitioninc-authentication.yml
 summary_line: 1 scheme
 tags:
 - Software-as-a-Service

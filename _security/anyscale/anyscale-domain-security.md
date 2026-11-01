@@ -40,7 +40,7 @@ source_filename: anyscale-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.anyscale.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 00:42:29 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.anyscale.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 09:48:51 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n- host: console.anyscale.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: anyscale.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anyscale/refs/heads/main/security/anyscale-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/anyscale/security/anyscale-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

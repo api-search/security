@@ -5,25 +5,25 @@ api_specs:
   label: Google Apps Script Processes API
   slug: google-apps-script-processes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/openapi/google-apps-script-processes-api-openapi.yml
+  url: https://artifacts.apis.io/google-apps-script/openapi/google-apps-script-processes-api-openapi.yml
 - filename: google-apps-script-processes-listscriptprocesses-api-openapi.yml
   format: yaml
   label: Google Apps Script processes:listScriptProcesses API
   slug: google-apps-script-processes-listscriptprocesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/openapi/google-apps-script-processes-listscriptprocesses-api-openapi.yml
+  url: https://artifacts.apis.io/google-apps-script/openapi/google-apps-script-processes-listscriptprocesses-api-openapi.yml
 - filename: google-apps-script-projects-api-openapi.yml
   format: yaml
   label: Google Apps Script Projects API
   slug: google-apps-script-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/openapi/google-apps-script-projects-api-openapi.yml
+  url: https://artifacts.apis.io/google-apps-script/openapi/google-apps-script-projects-api-openapi.yml
 - filename: google-apps-script-scripts-api-openapi.yml
   format: yaml
   label: Google Apps Script Scripts API
   slug: google-apps-script-scripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/openapi/google-apps-script-scripts-api-openapi.yml
+  url: https://artifacts.apis.io/google-apps-script/openapi/google-apps-script-scripts-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -66,7 +66,7 @@ source_filename: google-apps-script-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: script.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:17 2026 GMT\n  hsts: null\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/security/google-apps-script-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/google-apps-script/security/google-apps-script-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Apps Script

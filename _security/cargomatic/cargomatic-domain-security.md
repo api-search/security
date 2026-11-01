@@ -5,31 +5,31 @@ api_specs:
   label: Cargomatic Authorization API
   slug: cargomatic-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/openapi/cargomatic-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/cargomatic/openapi/cargomatic-authorization-api-openapi.yml
 - filename: cargomatic-carrier-api-openapi.yml
   format: yaml
   label: Cargomatic Carrier API
   slug: cargomatic-carrier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/openapi/cargomatic-carrier-api-openapi.yml
+  url: https://artifacts.apis.io/cargomatic/openapi/cargomatic-carrier-api-openapi.yml
 - filename: cargomatic-document-api-openapi.yml
   format: yaml
   label: Cargomatic Document API
   slug: cargomatic-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/openapi/cargomatic-document-api-openapi.yml
+  url: https://artifacts.apis.io/cargomatic/openapi/cargomatic-document-api-openapi.yml
 - filename: cargomatic-shipper-api-openapi.yml
   format: yaml
   label: Cargomatic Shipper API
   slug: cargomatic-shipper-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/openapi/cargomatic-shipper-api-openapi.yml
+  url: https://artifacts.apis.io/cargomatic/openapi/cargomatic-shipper-api-openapi.yml
 - filename: cargomatic-stops-api-openapi.yml
   format: yaml
   label: Cargomatic Stops API
   slug: cargomatic-stops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/openapi/cargomatic-stops-api-openapi.yml
+  url: https://artifacts.apis.io/cargomatic/openapi/cargomatic-stops-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -68,7 +68,7 @@ source_filename: cargomatic-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cargomatic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 05:24:06 2026 GMT\n  hsts: null\n- host: api-docs.cargomatic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 21 17:43:17 2026 GMT\n  hsts: false\n- host: api.cargomatic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 21 17:43:17 2026 GMT\n  hsts: null\ndomains:\n- domain: cargomatic.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/security/cargomatic-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cargomatic/security/cargomatic-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

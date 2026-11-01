@@ -7,13 +7,13 @@ api_specs:
   label: PayTabs Payments API
   slug: paytabs-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paytabs/refs/heads/main/openapi/paytabs-payments-api-openapi.yml
+  url: https://artifacts.apis.io/paytabs/openapi/paytabs-payments-api-openapi.yml
 - filename: paytabs-transactions-api-openapi.yml
   format: yaml
   label: PayTabs Transactions API
   slug: paytabs-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paytabs/refs/heads/main/openapi/paytabs-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/paytabs/openapi/paytabs-transactions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -51,7 +51,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: derived\nsource: openapi/paytabs-openapi.yml\nsummary:\n  types:\n  - apiKey\nnotes: >-\n  PayTabs PT2 authenticates server-to-server calls with a merchant server key\n  sent as the raw value of the `authorization` HTTP header (NOT an OAuth/Bearer\n  token). The `profile_id` in the request body identifies which profile the\n  server key acts on. A separate client key is used for browser-side own-form /\n  tokenization. Keys are region-scoped: a key must be used against the host that\n  matches its region (e.g. secure.paytabs.sa for KSA) or authentication fails.\nschemes:\n- name: server_key\n  type: apiKey\n  in: header\n  header: authorization\n  format: server key (e.g. SXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX)\n  sources:\n  - openapi/paytabs-openapi.yml\n  - https://support.paytabs.com/en/support/solutions/articles/60000709801-how-to-get-my-authentication-integration-api-keys-\n- name: client_key\n  type: apiKey\n  in: header\n  header: client key\n\
   \  format: CXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX\n  usage: Browser-side own-form and card tokenization; paired with profile_id.\n  sources:\n  - https://support.paytabs.com/en/support/solutions/articles/60000709773-authentication-integration-api-keys\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paytabs/refs/heads/main/authentication/paytabs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/paytabs/authentication/paytabs-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Payments

@@ -2,42 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: circle-signing-api-openapi.yml
+- filename: circle-audit-logs-api-openapi.yml
   format: yaml
-  label: Circle Signing API
-  slug: circle-signing-api
+  label: Circle Audit Logs API
+  slug: circle-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/openapi/circle-signing-api-openapi.yml
-- filename: circle-tokens-api-openapi.yml
-  format: yaml
-  label: Circle Tokens API
-  slug: circle-tokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/openapi/circle-tokens-api-openapi.yml
-- filename: circle-transactions-api-openapi.yml
-  format: yaml
-  label: Circle Transactions API
-  slug: circle-transactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/openapi/circle-transactions-api-openapi.yml
-- filename: circle-wallet-sets-api-openapi.yml
-  format: yaml
-  label: Circle Wallet Sets API
-  slug: circle-wallet-sets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/openapi/circle-wallet-sets-api-openapi.yml
-- filename: circle-wallets-api-openapi.yml
-  format: yaml
-  label: Circle Wallets API
-  slug: circle-wallets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/openapi/circle-wallets-api-openapi.yml
-- filename: circle-nfts-api-openapi.yml
-  format: yaml
-  label: Circle NF Ts API
-  slug: circle-nfts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/openapi/circle-nfts-api-openapi.yml
+  url: https://artifacts.apis.io/circle/openapi/circle-audit-logs-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +34,7 @@ source_filename: circle-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/circle-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Circle API key, formatted as `PREFIX:ID:SECRET`, supplied as Bearer token.\n  sources:\n  - openapi/circle-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/authentication/circle-authentication.yml
+source_yaml_url: https://artifacts.apis.io/circle/authentication/circle-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Blockchain

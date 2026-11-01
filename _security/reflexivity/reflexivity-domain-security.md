@@ -43,7 +43,7 @@ source_filename: reflexivity-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: reflexivity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 13:58:08 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api-docs.tgl.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 08:56:56 2026 GMT\n  hsts: null\n- host: api.reflexivity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 13:58:08 2026 GMT\n  hsts: null\ndomains:\n- domain: reflexivity.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: tgl.ai\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reflexivity/refs/heads/main/security/reflexivity-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/reflexivity/security/reflexivity-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

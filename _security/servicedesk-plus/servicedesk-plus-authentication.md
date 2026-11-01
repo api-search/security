@@ -7,7 +7,7 @@ api_specs:
   label: ManageEngine ServiceDesk Plus Requests API
   slug: servicedesk-plus-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicedesk-plus/refs/heads/main/openapi/servicedesk-plus-requests-api-openapi.yml
+  url: https://artifacts.apis.io/servicedesk-plus/openapi/servicedesk-plus-requests-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -38,7 +38,7 @@ source_filename: servicedesk-plus-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/servicedesk-plus-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.zoho.com/oauth/v2/auth\n    tokenUrl: https://accounts.zoho.com/oauth/v2/token\n    scopes: 5\n  sources:\n  - openapi/servicedesk-plus-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicedesk-plus/refs/heads/main/authentication/servicedesk-plus-authentication.yml
+source_yaml_url: https://artifacts.apis.io/servicedesk-plus/authentication/servicedesk-plus-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - ITSM

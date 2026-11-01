@@ -5,31 +5,31 @@ api_specs:
   label: Smartcar Charging API
   slug: smartcar-charging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/openapi/smartcar-charging-api-openapi.yml
+  url: https://artifacts.apis.io/smartcar/openapi/smartcar-charging-api-openapi.yml
 - filename: smartcar-connections-api-openapi.yml
   format: yaml
   label: Smartcar Connections API
   slug: smartcar-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/openapi/smartcar-connections-api-openapi.yml
+  url: https://artifacts.apis.io/smartcar/openapi/smartcar-connections-api-openapi.yml
 - filename: smartcar-navigation-api-openapi.yml
   format: yaml
   label: Smartcar Navigation API
   slug: smartcar-navigation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/openapi/smartcar-navigation-api-openapi.yml
+  url: https://artifacts.apis.io/smartcar/openapi/smartcar-navigation-api-openapi.yml
 - filename: smartcar-security-api-openapi.yml
   format: yaml
   label: Smartcar Security API
   slug: smartcar-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/openapi/smartcar-security-api-openapi.yml
+  url: https://artifacts.apis.io/smartcar/openapi/smartcar-security-api-openapi.yml
 - filename: smartcar-vehicle-data-api-openapi.yml
   format: yaml
   label: Smartcar Vehicle Data API
   slug: smartcar-vehicle-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/openapi/smartcar-vehicle-data-api-openapi.yml
+  url: https://artifacts.apis.io/smartcar/openapi/smartcar-vehicle-data-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: smartcar-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: smartcar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 05:34:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: vehicle.api.smartcar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 23:59:59 2026 GMT\n  hsts: null\n- host: management.api.smartcar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: smartcar.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/security/smartcar-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/smartcar/security/smartcar-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Automotive

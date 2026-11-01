@@ -14,7 +14,7 @@ source_filename: yabie-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-15'\nmethod: searched\nprobe: true\nsource: https://trust.yabie.com/\nurl: https://trust.yabie.com/\nevidence:\n- source: https://trust.yabie.com/\n  keywords:\n  - trust center\n  - trust centre\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yabie/refs/heads/main/security/yabie-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/yabie/security/yabie-trust-center.yml
 summary_line: trust center published
 tags:
 - Company

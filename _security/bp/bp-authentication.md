@@ -7,49 +7,49 @@ api_specs:
   label: BP Cards API
   slug: bp-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/openapi/bp-cards-api-openapi.yml
+  url: https://artifacts.apis.io/bp/openapi/bp-cards-api-openapi.yml
 - filename: bp-fueling-api-openapi.yml
   format: yaml
   label: BP Fueling API
   slug: bp-fueling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/openapi/bp-fueling-api-openapi.yml
+  url: https://artifacts.apis.io/bp/openapi/bp-fueling-api-openapi.yml
 - filename: bp-openapiinvoices-api-openapi.yml
   format: yaml
   label: BP Open API Invoices API
   slug: bp-openapiinvoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/openapi/bp-openapiinvoices-api-openapi.yml
+  url: https://artifacts.apis.io/bp/openapi/bp-openapiinvoices-api-openapi.yml
 - filename: bp-openapitransactions-api-openapi.yml
   format: yaml
   label: BP Open API Transactions API
   slug: bp-openapitransactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/openapi/bp-openapitransactions-api-openapi.yml
+  url: https://artifacts.apis.io/bp/openapi/bp-openapitransactions-api-openapi.yml
 - filename: bp-sitediscovery-api-openapi.yml
   format: yaml
   label: BP Site Discovery API
   slug: bp-sitediscovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/openapi/bp-sitediscovery-api-openapi.yml
+  url: https://artifacts.apis.io/bp/openapi/bp-sitediscovery-api-openapi.yml
 - filename: bp-token-api-openapi.yml
   format: yaml
   label: BP Token API
   slug: bp-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/openapi/bp-token-api-openapi.yml
+  url: https://artifacts.apis.io/bp/openapi/bp-token-api-openapi.yml
 - filename: bp-health-check-api-openapi.yml
   format: yaml
   label: BP Health Check API
   slug: bp-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/openapi/bp-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/bp/openapi/bp-health-check-api-openapi.yml
 - filename: bp-payment-method-api-openapi.yml
   format: yaml
   label: BP Payment Method API
   slug: bp-payment-method-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/openapi/bp-payment-method-api-openapi.yml
+  url: https://artifacts.apis.io/bp/openapi/bp-payment-method-api-openapi.yml
 auth_types: []
 description: 'Authentication profile for the bp Open Fleet API platform. Two distinct surfaces exist: a machine-to-machine client-credentials exchange that issues the bearer token every Open Fleet API requires, and a browser OpenID Connect flow on BP''s B2B identity host used to sign in to the developer portal itself.'
 kind: authentication
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-09-04'\nmethod: searched\nsource: >-\n  https://b
   \    scheme: http-bearer\n    header: Authorization\n    format: \"Bearer <access_token>\"\n    declared_as: >-\n      Every resource spec declares securitySchemes.Bearer as type apiKey, in header, name\n      Authorization, described as \"JWT Authorization header using the Bearer scheme\". That is an\n      apiKey-typed declaration of what is functionally HTTP bearer auth — a common OpenAPI 3.0\n      idiom, recorded here as published rather than corrected.\n    applies_to:\n      - Card Management\n      - Invoice Management\n      - Transaction Management\n      - Retail Site Information\n      - Aral AppConnect (Pay@Pump)\n  - name: bp B2B identity (developer portal sign-in)\n    type: user\n    scheme: openid-connect\n    issuer: https://b2bid.bp.com/am/oauth2\n    discovery: https://b2bid.bp.com/.well-known/openid-configuration\n    platform: ForgeRock Access Management\n    client_id_observed: openfleet-global-web\n    endpoints:\n      authorization: https://b2bid.bp.com/am/oauth2/authorize\n\
   \      token: https://b2bid.bp.com/am/oauth2/access_token\n      userinfo: https://b2bid.bp.com/am/oauth2/userinfo\n      jwks: https://b2bid.bp.com/am/oauth2/connect/jwk_uri\n      registration: https://b2bid.bp.com/am/oauth2/register\n      introspection: https://b2bid.bp.com/am/oauth2/introspect\n      revocation: https://b2bid.bp.com/am/oauth2/token/revoke\n      end_session: https://b2bid.bp.com/am/oauth2/connect/endSession\n      pushed_authorization_request: https://b2bid.bp.com/am/oauth2/par\n    pkce:\n      supported: true\n      methods: [plain, S256]\n      observed_in_use: S256\n    grant_types_supported:\n      - authorization_code\n      - client_credentials\n      - refresh_token\n      - implicit\n      - password\n      - urn:ietf:params:oauth:grant-type:device_code\n      - urn:ietf:params:oauth:grant-type:jwt-bearer\n      - urn:ietf:params:oauth:grant-type:saml2-bearer\n      - urn:ietf:params:oauth:grant-type:uma-ticket\n      - urn:openid:params:grant-type:ciba\n\
   \    token_endpoint_auth_methods_supported:\n      - client_secret_basic\n      - client_secret_post\n      - private_key_jwt\n      - tls_client_auth\n      - self_signed_tls_client_auth\n      - none\n    mutual_tls_bound_access_tokens: true\n    dynamic_client_registration: true\n    pushed_authorization_requests: true\n    require_pushed_authorization_requests: false\nnotes:\n  - >-\n    No API key, basic-auth or mTLS option is documented for the Open Fleet resource APIs; a\n    bearer token from the Authentication API is the only published path.\n  - >-\n    The separate bp API Marketplace (api.developer.bp.com) documents Basic Auth and OAuth2, but\n    its catalogue is behind a login and no machine-readable contract was reachable anonymously.\nmaintainers:\n  - FN: Kin Lane\n    email: info@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/authentication/bp-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bp/authentication/bp-authentication.yml
 summary_line: 0 schemes
 tags:
 - Energy
@@ -81,7 +81,7 @@ tags:
 - Gas
 - Renewables
 - Developer Platform
-- Fleet
+- Fleet Management
 - Fuel Cards
 - Mobility
 - Retail Fuel

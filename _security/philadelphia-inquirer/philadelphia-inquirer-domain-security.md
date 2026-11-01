@@ -5,25 +5,25 @@ api_specs:
   label: The Philadelphia Inquirer Feeds API
   slug: philadelphia-inquirer-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/philadelphia-inquirer/refs/heads/main/openapi/philadelphia-inquirer-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/philadelphia-inquirer/openapi/philadelphia-inquirer-feeds-api-openapi.yml
 - filename: philadelphia-inquirer-health-api-openapi.yml
   format: yaml
   label: The Philadelphia Inquirer Health API
   slug: philadelphia-inquirer-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/philadelphia-inquirer/refs/heads/main/openapi/philadelphia-inquirer-health-api-openapi.yml
+  url: https://artifacts.apis.io/philadelphia-inquirer/openapi/philadelphia-inquirer-health-api-openapi.yml
 - filename: philadelphia-inquirer-mcp-api-openapi.yml
   format: yaml
   label: The Philadelphia Inquirer MCP API
   slug: philadelphia-inquirer-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/philadelphia-inquirer/refs/heads/main/openapi/philadelphia-inquirer-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/philadelphia-inquirer/openapi/philadelphia-inquirer-mcp-api-openapi.yml
 - filename: philadelphia-inquirer-sitemaps-api-openapi.yml
   format: yaml
   label: The Philadelphia Inquirer Sitemaps API
   slug: philadelphia-inquirer-sitemaps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/philadelphia-inquirer/refs/heads/main/openapi/philadelphia-inquirer-sitemaps-api-openapi.yml
+  url: https://artifacts.apis.io/philadelphia-inquirer/openapi/philadelphia-inquirer-sitemaps-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -55,7 +55,7 @@ source_filename: philadelphia-inquirer-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.inquirer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 06:40:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: 127.0.0.1\n  https: false\ndomains:\n- domain: inquirer.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/philadelphia-inquirer/refs/heads/main/security/philadelphia-inquirer-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/philadelphia-inquirer/security/philadelphia-inquirer-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - News

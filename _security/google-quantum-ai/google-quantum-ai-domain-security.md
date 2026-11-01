@@ -5,37 +5,37 @@ api_specs:
   label: Google Quantum AI Calibrations API
   slug: google-quantum-ai-calibrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-quantum-ai/refs/heads/main/openapi/google-quantum-ai-calibrations-api-openapi.yml
+  url: https://artifacts.apis.io/google-quantum-ai/openapi/google-quantum-ai-calibrations-api-openapi.yml
 - filename: google-quantum-ai-jobs-api-openapi.yml
   format: yaml
   label: Google Quantum AI Jobs API
   slug: google-quantum-ai-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-quantum-ai/refs/heads/main/openapi/google-quantum-ai-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/google-quantum-ai/openapi/google-quantum-ai-jobs-api-openapi.yml
 - filename: google-quantum-ai-processors-api-openapi.yml
   format: yaml
   label: Google Quantum AI Processors API
   slug: google-quantum-ai-processors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-quantum-ai/refs/heads/main/openapi/google-quantum-ai-processors-api-openapi.yml
+  url: https://artifacts.apis.io/google-quantum-ai/openapi/google-quantum-ai-processors-api-openapi.yml
 - filename: google-quantum-ai-programs-api-openapi.yml
   format: yaml
   label: Google Quantum AI Programs API
   slug: google-quantum-ai-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-quantum-ai/refs/heads/main/openapi/google-quantum-ai-programs-api-openapi.yml
+  url: https://artifacts.apis.io/google-quantum-ai/openapi/google-quantum-ai-programs-api-openapi.yml
 - filename: google-quantum-ai-reservations-api-openapi.yml
   format: yaml
   label: Google Quantum AI Reservations API
   slug: google-quantum-ai-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-quantum-ai/refs/heads/main/openapi/google-quantum-ai-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/google-quantum-ai/openapi/google-quantum-ai-reservations-api-openapi.yml
 - filename: google-quantum-ai-results-api-openapi.yml
   format: yaml
   label: Google Quantum AI Results API
   slug: google-quantum-ai-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-quantum-ai/refs/heads/main/openapi/google-quantum-ai-results-api-openapi.yml
+  url: https://artifacts.apis.io/google-quantum-ai/openapi/google-quantum-ai-results-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -83,7 +83,7 @@ source_filename: google-quantum-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: quantumai.google\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: quantum.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:17 2026 GMT\n  hsts: null\n- host: www.tensorflow.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: quantumai.google\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: false\n  dmarc: false\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-quantum-ai/refs/heads/main/security/google-quantum-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/google-quantum-ai/security/google-quantum-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Quantum Computing

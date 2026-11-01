@@ -7,103 +7,103 @@ api_specs:
   label: University of Texas at Austin Applications API
   slug: university-of-texas-at-austin-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-applications-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-texas-at-austin/openapi/university-of-texas-at-austin-applications-api-openapi.yml
 - filename: university-of-texas-at-austin-archive-transfers-beta-api-openapi.yml
   format: yaml
   label: University of Texas at Austin Archive transfers (Beta) API
   slug: university-of-texas-at-austin-archive-transfers-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-archive-transfers-beta-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-texas-at-austin/openapi/university-of-texas-at-austin-archive-transfers-beta-api-openapi.yml
 - filename: university-of-texas-at-austin-child-systems-api-openapi.yml
   format: yaml
   label: University of Texas at Austin Child Systems API
   slug: university-of-texas-at-austin-child-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-child-systems-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-texas-at-austin/openapi/university-of-texas-at-austin-child-systems-api-openapi.yml
 - filename: university-of-texas-at-austin-content-api-openapi.yml
   format: yaml
   label: University of Texas at Austin Content API
   slug: university-of-texas-at-austin-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-content-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-texas-at-austin/openapi/university-of-texas-at-austin-content-api-openapi.yml
 - filename: university-of-texas-at-austin-credentials-api-openapi.yml
   format: yaml
   label: University of Texas at Austin Credentials API
   slug: university-of-texas-at-austin-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-texas-at-austin/openapi/university-of-texas-at-austin-credentials-api-openapi.yml
 - filename: university-of-texas-at-austin-events-api-openapi.yml
   format: yaml
   label: University of Texas at Austin Events API
   slug: university-of-texas-at-austin-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-events-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-texas-at-austin/openapi/university-of-texas-at-austin-events-api-openapi.yml
 - filename: university-of-texas-at-austin-file-operations-api-openapi.yml
   format: yaml
   label: University of Texas at Austin File Operations API
   slug: university-of-texas-at-austin-file-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-file-operations-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-texas-at-austin/openapi/university-of-texas-at-austin-file-operations-api-openapi.yml
 - filename: university-of-texas-at-austin-general-api-openapi.yml
   format: yaml
   label: University of Texas at Austin General API
   slug: university-of-texas-at-austin-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-general-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-texas-at-austin/openapi/university-of-texas-at-austin-general-api-openapi.yml
 - filename: university-of-texas-at-austin-jobs-api-openapi.yml
   format: yaml
   label: University of Texas at Austin Jobs API
   slug: university-of-texas-at-austin-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-texas-at-austin/openapi/university-of-texas-at-austin-jobs-api-openapi.yml
 - filename: university-of-texas-at-austin-permissions-api-openapi.yml
   format: yaml
   label: University of Texas at Austin Permissions API
   slug: university-of-texas-at-austin-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-texas-at-austin/openapi/university-of-texas-at-austin-permissions-api-openapi.yml
 - filename: university-of-texas-at-austin-postits-api-openapi.yml
   format: yaml
   label: University of Texas at Austin Post Its API
   slug: university-of-texas-at-austin-postits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-postits-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-texas-at-austin/openapi/university-of-texas-at-austin-postits-api-openapi.yml
 - filename: university-of-texas-at-austin-scheduler-profiles-api-openapi.yml
   format: yaml
   label: University of Texas at Austin Scheduler Profiles API
   slug: university-of-texas-at-austin-scheduler-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-scheduler-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-texas-at-austin/openapi/university-of-texas-at-austin-scheduler-profiles-api-openapi.yml
 - filename: university-of-texas-at-austin-sharing-api-openapi.yml
   format: yaml
   label: University of Texas at Austin Sharing API
   slug: university-of-texas-at-austin-sharing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-sharing-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-texas-at-austin/openapi/university-of-texas-at-austin-sharing-api-openapi.yml
 - filename: university-of-texas-at-austin-subscriptions-api-openapi.yml
   format: yaml
   label: University of Texas at Austin Subscriptions API
   slug: university-of-texas-at-austin-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-texas-at-austin/openapi/university-of-texas-at-austin-subscriptions-api-openapi.yml
 - filename: university-of-texas-at-austin-systems-api-openapi.yml
   format: yaml
   label: University of Texas at Austin Systems API
   slug: university-of-texas-at-austin-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-systems-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-texas-at-austin/openapi/university-of-texas-at-austin-systems-api-openapi.yml
 - filename: university-of-texas-at-austin-test-api-openapi.yml
   format: yaml
   label: University of Texas at Austin Test API
   slug: university-of-texas-at-austin-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-test-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-texas-at-austin/openapi/university-of-texas-at-austin-test-api-openapi.yml
 - filename: university-of-texas-at-austin-transfers-api-openapi.yml
   format: yaml
   label: University of Texas at Austin Transfers API
   slug: university-of-texas-at-austin-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-texas-at-austin/openapi/university-of-texas-at-austin-transfers-api-openapi.yml
 auth_types: []
 description: How each University of Texas at Austin surface authenticates. Every entry was observed on a live unauthenticated request; nothing here is inferred from documentation prose.
 kind: authentication
@@ -128,7 +128,7 @@ source_yaml: "---\nname: University of Texas at Austin — authentication\ndescr
   \ DSpace REST API\n    x-operator: institution\n    base_url: https://repositories.lib.utexas.edu/server/api\n    anonymous_read: true\n    anonymous_read_status: 200\n    challenge_header: >-\n      shibboleth realm=\"DSpace REST API\",\n      location=\"https://repositories.lib.utexas.edu/Shibboleth.sso/Login?target=https%3A%2F%2Frepositories.lib.utexas.edu%2Fserver%2Fapi%2Fauthn%2Fshibboleth\",\n      password realm=\"DSpace REST API\"\n    schemes:\n      - name: Shibboleth SSO\n        detail: >-\n          Advertised in the WWW-Authenticate header on\n          /server/api/authn/status. Routes to the institution's own\n          Shibboleth.sso service provider.\n      - name: Password (EPerson)\n        detail: DSpace native login against a repository account.\n    csrf: DSpace requires an X-XSRF-TOKEN header for state-changing requests.\n    generated: '2026-08-30'\n    method: probed\n    source: https://repositories.lib.utexas.edu/server/api/authn/status\n  - surface: Tapis v3\
   \ platform — TACC production tenant\n    x-operator: institution\n    base_url: https://tacc.tapis.io/v3\n    anonymous_read: false\n    scheme: JWT bearer token (X-Tapis-Token header), issued by the tenant authenticator\n    authenticator: https://tacc.tapis.io/v3/oauth2\n    observed_rejection: >-\n      HTTP 401 \"TAPIS_SECURITY_MISSING_JWT_INFO HTTP GET request rejected due to\n      missing JSON Web Token information.\" on GET /v3/systems\n    account_prerequisite: A TACC user account; allocation required for compute resources.\n    generated: '2026-08-30'\n    method: probed\n    source: https://tacc.tapis.io/v3/systems\n  - surface: Texas Data Repository (Dataverse)\n    x-operator: tenant\n    base_url: https://dataverse.tdl.org/api\n    anonymous_read: true\n    anonymous_read_status: 200\n    scheme: X-Dataverse-key API token for write operations\n    note: >-\n      The authentication model is the Texas Digital Library's, not UT Austin's.\n      Recorded because UT Austin's\
   \ research data lands here, not because UT\n      Austin operates it.\n    generated: '2026-08-30'\n    method: probed\n    source: https://dataverse.tdl.org/api/dataverses/utexas\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/authentication/university-of-texas-at-austin-authentication.yml
+source_yaml_url: https://artifacts.apis.io/university-of-texas-at-austin/authentication/university-of-texas-at-austin-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

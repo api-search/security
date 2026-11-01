@@ -7,7 +7,7 @@ api_specs:
   label: Chargefox Fleets API
   slug: chargefox-fleets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chargefox/refs/heads/main/openapi/chargefox-fleets-api-openapi.yml
+  url: https://artifacts.apis.io/chargefox/openapi/chargefox-fleets-api-openapi.yml
 auth_types:
 - http
 - custom
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: openapi/chargef
   \  in: header\n  header: Authorization\n  format: 'Bearer <token>'\n  sources:\n  - openapi/chargefox-fleets-api-openapi.json\n  applied_to:\n  - GET /api/fleets/v1/usage\n  - GET /api/fleets/v1/sessions\n  - GET /api/fleets/v1/vehicles\n  - GET /api/fleets/v1/invoices\n  issuance:\n    self_service: false\n    process: >-\n      Chargefox's getting-started page states that a fleet customer interested\n      in using the API should speak to a team member or reach out via\n      fleetsupport@chargefox.com. No developer portal signup, no key-management\n      console and no sandbox key exist.\n    contact: fleetsupport@chargefox.com\n  token_format: opaque\n  rotation: undocumented\n  expiry: undocumented\n  scopes: none\n  docs: https://app.chargefox.com/developers/docs/getting_started\n  example_request: >-\n    curl --request GET --url\n    'https://app.chargefox.com/api/fleets/v1/usage' --header 'Authorization:\n    Bearer <token>'\n- name: ocpiToken\n  type: custom\n  scheme: Token\n\
   \  api: chargefox:chargefox-ocpi-cpo-api\n  in: header\n  header: Authorization\n  format: 'Token <credentials-token>'\n  sources:\n  - live probe of https://app.chargefox.com/ocpi/cpo/* on 2026-07-27\n  evidence: >-\n    Anonymous GET of /ocpi/cpo/versions, /ocpi/cpo/2.1.1/,\n    /ocpi/cpo/2.1.1/locations, /ocpi/cpo/2.2/, /ocpi/cpo/2.2.1/ and\n    /ocpi/emsp/versions each returned HTTP 401 with the response header\n    `WWW-Authenticate: Token realm=\"Application\"`. Sibling paths /ocpi/,\n    /ocpi/cpo/ and /ocpi/xyz/versions returned 404, confirming the 401 marks a\n    real authenticated route rather than a blanket wall.\n  issuance:\n    self_service: false\n    process: >-\n      OCPI credentials are exchanged in the specification's own credentials\n      module handshake once a roaming agreement is in place. Chargefox publishes\n      roaming partner terms and conditions rather than a developer signup.\n    terms: https://www.chargefox.com/legal/roaming-partner-terms-and-conditions\n\
   \    partners: https://www.chargefox.com/partners\n  specification: https://github.com/ocpi/ocpi\n  scopes: none\ndiscovery:\n  well_known_probed: well-known/chargefox-well-known.yml\n  oauth_authorization_server: 404\n  oauth_protected_resource: 404\n  openid_configuration: 404\n  security_txt: '403 (app.chargefox.com) / 404 (www.chargefox.com)'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chargefox/refs/heads/main/authentication/chargefox-authentication.yml
+source_yaml_url: https://artifacts.apis.io/chargefox/authentication/chargefox-authentication.yml
 summary_line: http/custom · 2 schemes
 tags:
 - Energy
@@ -84,7 +84,7 @@ tags:
 - OCPI
 - Charge Point Operator
 - Roaming
-- Fleet
+- Fleet Management
 - Mobility
 - Charging Sessions
 - Electrification

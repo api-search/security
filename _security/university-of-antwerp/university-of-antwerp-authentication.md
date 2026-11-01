@@ -7,7 +7,7 @@ api_specs:
   label: University of Antwerp IRUA OAI PMH Metadata Interface API
   slug: university-of-antwerp-irua-oai-pmh-metadata-interface-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-antwerp/refs/heads/main/openapi/university-of-antwerp-irua-oai-pmh-metadata-interface-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-antwerp/openapi/university-of-antwerp-irua-oai-pmh-metadata-interface-api-openapi.yml
 auth_types: []
 description: 'How access is established across the University of Antwerp''s surfaces. There is no API key programme, no OAuth authorization server the institution operates for third parties, and no developer registration of any kind. Access is binary: metadata harvesting is fully anonymous, and everything else is behind institutional SAML single sign-on.'
 kind: authentication
@@ -56,7 +56,7 @@ source_yaml: "specification: API Evangelist Authentication\nspecificationVersion
   \ This is the institution's real\n    authorization contract and it is machine-readable.\n    See identity-federation/university-of-antwerp-identity-federation.yml.\n- surface: Wander / Brocade library platform\n  url: https://go.wander.be/\n  x-operator: institution\n  scheme: proprietary-session\n  detail: >-\n    Form login against the Brocade/Wander application, session propagated as a numeric\n    `session` query parameter across framesets. Public OPAC views are reachable anonymously;\n    staff functions are not. No documented programmatic authentication.\n- surface: Blackboard Learn (Anthology)\n  url: https://blackboard.uantwerpen.be/learn/api/public/v1/\n  x-operator: tenant\n  scheme: oauth2\n  detail: >-\n    Anthology's Blackboard Learn REST API is reachable on the university's hostname:\n    /learn/api/public/v1/system/version returns HTTP 200 with a version document\n    (learn 4000.21.0, build rel.28+435d029), while /learn/api/public/v1/courses returns\n    HTTP 401 {\"\
   status\":401,\"message\":\"API request is not authenticated.\"}. Blackboard's REST\n    API uses OAuth 2.0 with developer keys issued per-institution. The contract, the OAuth\n    server and the engineering are Anthology's; the tenancy is the university's. Recorded, not\n    credited.\n- surface: Flemish Supercomputer Centre account portal\n  url: https://account.vscentrum.be/\n  x-operator: tenant\n  scheme: saml2\n  detail: >-\n    Redirects to a Shibboleth discovery service whose institution list includes \"Universiteit\n    Antwerpen\" against entityID https://idpx.ua.ac.be/idp/shibboleth — the university's own\n    IdP authenticating into a consortium service that Ghent University operates\n    (157.193.43.57, RUGNET1).\nabsent:\n  api_keys: No API key issuance, developer portal or registration flow found on any host.\n  oauth_authorization_server: >-\n    None operated by the institution. The only OAuth in evidence belongs to Anthology\n    (Blackboard) and to ORCID, both third parties.\n\
   \  well_known: >-\n    https://www.uantwerpen.be/.well-known/security.txt returns 404, and no\n    /.well-known/oauth-protected-resource or openid-configuration was found on any\n    institution host.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-antwerp/refs/heads/main/authentication/university-of-antwerp-authentication.yml
+source_yaml_url: https://artifacts.apis.io/university-of-antwerp/authentication/university-of-antwerp-authentication.yml
 summary_line: 5 schemes
 tags:
 - Education

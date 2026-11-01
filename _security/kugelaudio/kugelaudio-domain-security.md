@@ -1,89 +1,41 @@
 ---
 api_specs:
-- filename: kugelaudio-11labs-api-openapi.yml
-  format: yaml
-  label: KugelAudio 11labs API
-  slug: kugelaudio-11labs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-11labs-api-openapi.yml
-- filename: kugelaudio-audio-api-openapi.yml
-  format: yaml
-  label: KugelAudio Audio API
-  slug: kugelaudio-audio-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-audio-api-openapi.yml
-- filename: kugelaudio-billing-api-openapi.yml
-  format: yaml
-  label: KugelAudio Billing API
-  slug: kugelaudio-billing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-billing-api-openapi.yml
 - filename: kugelaudio-dictionaries-api-openapi.yml
   format: yaml
   label: KugelAudio Dictionaries API
   slug: kugelaudio-dictionaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-dictionaries-api-openapi.yml
-- filename: kugelaudio-health-api-openapi.yml
-  format: yaml
-  label: KugelAudio Health API
-  slug: kugelaudio-health-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-health-api-openapi.yml
-- filename: kugelaudio-license-api-openapi.yml
-  format: yaml
-  label: KugelAudio License API
-  slug: kugelaudio-license-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-license-api-openapi.yml
+  url: https://artifacts.apis.io/kugelaudio/openapi/kugelaudio-dictionaries-api-openapi.yml
 - filename: kugelaudio-models-api-openapi.yml
   format: yaml
   label: KugelAudio Models API
   slug: kugelaudio-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-models-api-openapi.yml
-- filename: kugelaudio-normalize-api-openapi.yml
-  format: yaml
-  label: KugelAudio Normalize API
-  slug: kugelaudio-normalize-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-normalize-api-openapi.yml
-- filename: kugelaudio-post-overrides-api-openapi.yml
-  format: yaml
-  label: KugelAudio Post Overrides API
-  slug: kugelaudio-post-overrides-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-post-overrides-api-openapi.yml
-- filename: kugelaudio-predict-api-openapi.yml
-  format: yaml
-  label: KugelAudio Predict API
-  slug: kugelaudio-predict-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-predict-api-openapi.yml
-- filename: kugelaudio-ready-api-openapi.yml
-  format: yaml
-  label: KugelAudio Ready API
-  slug: kugelaudio-ready-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-ready-api-openapi.yml
-- filename: kugelaudio-tts-api-openapi.yml
-  format: yaml
-  label: KugelAudio Tts API
-  slug: kugelaudio-tts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-tts-api-openapi.yml
-- filename: kugelaudio-vapi-api-openapi.yml
-  format: yaml
-  label: KugelAudio Vapi API
-  slug: kugelaudio-vapi-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-vapi-api-openapi.yml
+  url: https://artifacts.apis.io/kugelaudio/openapi/kugelaudio-models-api-openapi.yml
 - filename: kugelaudio-voices-api-openapi.yml
   format: yaml
   label: KugelAudio Voices API
   slug: kugelaudio-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-voices-api-openapi.yml
+  url: https://artifacts.apis.io/kugelaudio/openapi/kugelaudio-voices-api-openapi.yml
+- filename: kugelaudio-elevenlabs-compatible-api-openapi.yml
+  format: yaml
+  label: KugelAudio ElevenLabs compatible API
+  slug: kugelaudio-elevenlabs-compatible-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kugelaudio/openapi/kugelaudio-elevenlabs-compatible-api-openapi.yml
+- filename: kugelaudio-projects-api-openapi.yml
+  format: yaml
+  label: KugelAudio Projects API
+  slug: kugelaudio-projects-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kugelaudio/openapi/kugelaudio-projects-api-openapi.yml
+- filename: kugelaudio-text-to-speech-api-openapi.yml
+  format: yaml
+  label: KugelAudio Text to Speech API
+  slug: kugelaudio-text-to-speech-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kugelaudio/openapi/kugelaudio-text-to-speech-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -124,7 +76,7 @@ source_filename: kugelaudio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.kugelaudio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 00:54:29 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.kugelaudio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 13:04:24 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.kugelaudio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 00:54:29 2026 GMT\n  hsts: null\ndomains:\n- domain: kugelaudio.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/security/kugelaudio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kugelaudio/security/kugelaudio-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Voice

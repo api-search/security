@@ -5,25 +5,25 @@ api_specs:
   label: Block Lottos Advertising API
   slug: blocklottos-com-advertising-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blocklottos-com/refs/heads/main/openapi/blocklottos-com-advertising-api-openapi.yml
+  url: https://artifacts.apis.io/blocklottos-com/openapi/blocklottos-com-advertising-api-openapi.yml
 - filename: blocklottos-com-affiliate-api-openapi.yml
   format: yaml
   label: Block Lottos Affiliate API
   slug: blocklottos-com-affiliate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blocklottos-com/refs/heads/main/openapi/blocklottos-com-affiliate-api-openapi.yml
+  url: https://artifacts.apis.io/blocklottos-com/openapi/blocklottos-com-affiliate-api-openapi.yml
 - filename: blocklottos-com-agents-api-openapi.yml
   format: yaml
   label: Block Lottos Agents API
   slug: blocklottos-com-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blocklottos-com/refs/heads/main/openapi/blocklottos-com-agents-api-openapi.yml
+  url: https://artifacts.apis.io/blocklottos-com/openapi/blocklottos-com-agents-api-openapi.yml
 - filename: blocklottos-com-lottery-api-openapi.yml
   format: yaml
   label: Block Lottos Lottery API
   slug: blocklottos-com-lottery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blocklottos-com/refs/heads/main/openapi/blocklottos-com-lottery-api-openapi.yml
+  url: https://artifacts.apis.io/blocklottos-com/openapi/blocklottos-com-lottery-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: blocklottos-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: blocklottos.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 29 07:01:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: blocklottos.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blocklottos-com/refs/heads/main/security/blocklottos-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/blocklottos-com/security/blocklottos-com-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company

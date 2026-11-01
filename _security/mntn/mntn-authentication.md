@@ -9,109 +9,109 @@ api_specs:
   label: MNTN Reporting API 3.0
   slug: mntn-reporting-api-30
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/mntn/openapi/mntn-reporting-api-openapi.yml
 - filename: mntn-advertisers-api-openapi.yml
   format: yaml
   label: MNTN Advertisers API
   slug: mntn-advertisers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-advertisers-api-openapi.yml
+  url: https://artifacts.apis.io/mntn/openapi/mntn-advertisers-api-openapi.yml
 - filename: mntn-attribution-api-openapi.yml
   format: yaml
   label: MNTN Attribution API
   slug: mntn-attribution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-attribution-api-openapi.yml
+  url: https://artifacts.apis.io/mntn/openapi/mntn-attribution-api-openapi.yml
 - filename: mntn-audiences-api-openapi.yml
   format: yaml
   label: MNTN Audiences API
   slug: mntn-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/mntn/openapi/mntn-audiences-api-openapi.yml
 - filename: mntn-batch-api-openapi.yml
   format: yaml
   label: MNTN Batch API
   slug: mntn-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-batch-api-openapi.yml
+  url: https://artifacts.apis.io/mntn/openapi/mntn-batch-api-openapi.yml
 - filename: mntn-campaigns-api-openapi.yml
   format: yaml
   label: MNTN Campaigns API
   slug: mntn-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/mntn/openapi/mntn-campaigns-api-openapi.yml
 - filename: mntn-creatives-api-openapi.yml
   format: yaml
   label: MNTN Creatives API
   slug: mntn-creatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-creatives-api-openapi.yml
+  url: https://artifacts.apis.io/mntn/openapi/mntn-creatives-api-openapi.yml
 - filename: mntn-flights-api-openapi.yml
   format: yaml
   label: MNTN Flights API
   slug: mntn-flights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-flights-api-openapi.yml
+  url: https://artifacts.apis.io/mntn/openapi/mntn-flights-api-openapi.yml
 - filename: mntn-organizations-api-openapi.yml
   format: yaml
   label: MNTN Organizations API
   slug: mntn-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/mntn/openapi/mntn-organizations-api-openapi.yml
 - filename: mntn-pixel-api-openapi.yml
   format: yaml
   label: MNTN Pixel API
   slug: mntn-pixel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-pixel-api-openapi.yml
+  url: https://artifacts.apis.io/mntn/openapi/mntn-pixel-api-openapi.yml
 - filename: mntn-pmp-campaign-deals-api-openapi.yml
   format: yaml
   label: MNTN Pmp Campaign Deals API
   slug: mntn-pmp-campaign-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-pmp-campaign-deals-api-openapi.yml
+  url: https://artifacts.apis.io/mntn/openapi/mntn-pmp-campaign-deals-api-openapi.yml
 - filename: mntn-pmp-channels-api-openapi.yml
   format: yaml
   label: MNTN Pmp Channels API
   slug: mntn-pmp-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-pmp-channels-api-openapi.yml
+  url: https://artifacts.apis.io/mntn/openapi/mntn-pmp-channels-api-openapi.yml
 - filename: mntn-pmp-deal-groups-api-openapi.yml
   format: yaml
   label: MNTN Pmp Deal Groups API
   slug: mntn-pmp-deal-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-pmp-deal-groups-api-openapi.yml
+  url: https://artifacts.apis.io/mntn/openapi/mntn-pmp-deal-groups-api-openapi.yml
 - filename: mntn-pmp-deals-api-openapi.yml
   format: yaml
   label: MNTN Pmp Deals API
   slug: mntn-pmp-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-pmp-deals-api-openapi.yml
+  url: https://artifacts.apis.io/mntn/openapi/mntn-pmp-deals-api-openapi.yml
 - filename: mntn-pmp-partners-api-openapi.yml
   format: yaml
   label: MNTN Pmp Partners API
   slug: mntn-pmp-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-pmp-partners-api-openapi.yml
+  url: https://artifacts.apis.io/mntn/openapi/mntn-pmp-partners-api-openapi.yml
 - filename: mntn-reference-api-openapi.yml
   format: yaml
   label: MNTN Reference API
   slug: mntn-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-reference-api-openapi.yml
+  url: https://artifacts.apis.io/mntn/openapi/mntn-reference-api-openapi.yml
 - filename: mntn-apidata-api-openapi.yml
   format: yaml
   label: MNTN Apidata API
   slug: mntn-apidata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-apidata-api-openapi.yml
+  url: https://artifacts.apis.io/mntn/openapi/mntn-apidata-api-openapi.yml
 - filename: mntn-apilist-api-openapi.yml
   format: yaml
   label: MNTN Apilist API
   slug: mntn-apilist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-apilist-api-openapi.yml
+  url: https://artifacts.apis.io/mntn/openapi/mntn-apilist-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -185,7 +185,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\ndocs:\n- https://help.m
   \  - openapi/mntn-ptv-campaigns-openapi.yml\n  - openapi/mntn-ptv-creatives-openapi.yml\n  - openapi/mntn-ptv-flights-openapi.yml\n  - openapi/mntn-ptv-organizations-openapi.yml\n  - openapi/mntn-ptv-pixel-openapi.yml\n  - openapi/mntn-ptv-pmp-campaign-deals-openapi.yml\n  - openapi/mntn-ptv-pmp-channels-openapi.yml\n  - openapi/mntn-ptv-pmp-deal-groups-openapi.yml\n  - openapi/mntn-ptv-pmp-deals-openapi.yml\n  - openapi/mntn-ptv-pmp-partners-openapi.yml\n  - openapi/mntn-ptv-reference-openapi.yml\n  - openapi/mntn-ptv-reporting-openapi.yml\n\nkey_issuance:\n  self_service: true\n  where: MNTN platform UI, My Account / Account Settings -> API tab\n  docs: https://help.mountain.com/en/articles/6511970-access-your-reporting-api-key\n  note: >-\n    MNTN issues one advertiser-scoped Reporting API key per account from the platform UI. The help\n    center instructs customers to \"treat it like a password and only share it with platforms you\n    trust\" -- there is no published key rotation,\
   \ expiry, or scoping model, and no OAuth 2.0 or\n    OpenID Connect surface is documented on any MNTN host.\nsurfaces:\n- api: MNTN Performance TV (PTV) API\n  host: https://api.mountain.com\n  accepted:\n  - {scheme: Bearer, transport: 'Authorization: Bearer <JWT>', format: JWT}\n  - {scheme: API Key, transport: 'X-API-Key: <key>', format: opaque}\n  unauthenticated_behavior:\n    status: 401\n    body: '{\"error\":\"Authentication required\"}'\n    content_type: application/json\n    note: >-\n      The api.mountain.com gateway (istio-envoy) answers 401 for every path except /openapi.json,\n      /openapi.yaml and /docs, which are served anonymously.\n- api: MNTN Reporting API 3.0 and Async Batch Export API\n  host: https://api3.mountain.com\n  accepted:\n  - {scheme: API Key, transport: 'key=<key> query parameter', format: opaque}\n  unauthenticated_behavior:\n    status: 401\n    body: RFC 9457 application/problem+json\n  note: >-\n    The reporting API carries the credential in the\
   \ URL query string, which leaks the key into proxy\n    logs, browser history, and referrer headers. A header-borne alternative is not documented.\noauth2: false\nopenid_connect: false\nmutual_tls: false\nscopes: none published\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/authentication/mntn-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mntn/authentication/mntn-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Connected TV

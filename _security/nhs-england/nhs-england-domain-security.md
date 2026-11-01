@@ -5,115 +5,115 @@ api_specs:
   label: NHS England Booking API
   slug: nhs-england-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-booking-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-booking-api-openapi.yml
 - filename: nhs-england-callbacks-api-openapi.yml
   format: yaml
   label: NHS England Callbacks API
   slug: nhs-england-callbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-callbacks-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-callbacks-api-openapi.yml
 - filename: nhs-england-channels-api-openapi.yml
   format: yaml
   label: NHS England Channels API
   slug: nhs-england-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-channels-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-channels-api-openapi.yml
 - filename: nhs-england-codesystem-api-openapi.yml
   format: yaml
   label: NHS England Code System API
   slug: nhs-england-codesystem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-codesystem-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-codesystem-api-openapi.yml
 - filename: nhs-england-communication-api-openapi.yml
   format: yaml
   label: NHS England Communication API
   slug: nhs-england-communication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-communication-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-communication-api-openapi.yml
 - filename: nhs-england-immunization-api-openapi.yml
   format: yaml
   label: NHS England Immunization API
   slug: nhs-england-immunization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-immunization-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-immunization-api-openapi.yml
 - filename: nhs-england-list-id-api-openapi.yml
   format: yaml
   label: NHS England List{id} API
   slug: nhs-england-list-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-list-id-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-list-id-api-openapi.yml
 - filename: nhs-england-message-api-openapi.yml
   format: yaml
   label: NHS England Message API
   slug: nhs-england-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-message-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-message-api-openapi.yml
 - filename: nhs-england-message-batches-api-openapi.yml
   format: yaml
   label: NHS England Message Batches API
   slug: nhs-england-message-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-message-batches-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-message-batches-api-openapi.yml
 - filename: nhs-england-messages-api-openapi.yml
   format: yaml
   label: NHS England Messages API
   slug: nhs-england-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-messages-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-messages-api-openapi.yml
 - filename: nhs-england-metadata-api-openapi.yml
   format: yaml
   label: NHS England Metadata API
   slug: nhs-england-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-metadata-api-openapi.yml
 - filename: nhs-england-organisation-api-openapi.yml
   format: yaml
   label: NHS England Organisation API
   slug: nhs-england-organisation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-organisation-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-organisation-api-openapi.yml
 - filename: nhs-england-organization-api-openapi.yml
   format: yaml
   label: NHS England Organization API
   slug: nhs-england-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-organization-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-organization-api-openapi.yml
 - filename: nhs-england-organizationaffiliation-api-openapi.yml
   format: yaml
   label: NHS England Organization Affiliation API
   slug: nhs-england-organizationaffiliation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-organizationaffiliation-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-organizationaffiliation-api-openapi.yml
 - filename: nhs-england-r4-api-openapi.yml
   format: yaml
   label: NHS England R4 API
   slug: nhs-england-r4-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-r4-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-r4-api-openapi.yml
 - filename: nhs-england-referral-api-openapi.yml
   format: yaml
   label: NHS England Referral API
   slug: nhs-england-referral-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-referral-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-referral-api-openapi.yml
 - filename: nhs-england-slots-api-openapi.yml
   format: yaml
   label: NHS England Slots API
   slug: nhs-england-slots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-slots-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-slots-api-openapi.yml
 - filename: nhs-england-stu3-api-openapi.yml
   format: yaml
   label: NHS England STU3 API
   slug: nhs-england-stu3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-stu3-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-stu3-api-openapi.yml
 - filename: nhs-england-valueset-api-openapi.yml
   format: yaml
   label: NHS England Value Set API
   slug: nhs-england-valueset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-valueset-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-valueset-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -158,7 +158,7 @@ source_filename: nhs-england-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-24'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: digital.nhs.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 21:58:44 2026 GMT\n  hsts: null\n- host: api.service.nhs.uk\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 24 23:59:59 2026 GMT\n  hsts: null\n- host: beta.ods.dc4h.link\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  7 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: nhs.uk\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: dc4h.link\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/security/nhs-england-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nhs-england/security/nhs-england-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Healthcare

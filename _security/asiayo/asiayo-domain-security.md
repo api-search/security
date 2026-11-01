@@ -30,7 +30,7 @@ source_filename: asiayo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: asiayo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 27 21:48:31 2027 GMT\n  hsts: null\ndomains:\n- domain: asiayo.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"godaddy.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/asiayo/refs/heads/main/security/asiayo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/asiayo/security/asiayo-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Travel

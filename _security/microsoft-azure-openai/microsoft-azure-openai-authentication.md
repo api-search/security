@@ -8,19 +8,19 @@ api_specs:
   label: Azure OpenAI Service Completions API
   slug: microsoft-azure-openai-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-openai/refs/heads/main/openapi/microsoft-azure-openai-completions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-openai/openapi/microsoft-azure-openai-completions-api-openapi.yml
 - filename: microsoft-azure-openai-embeddings-api-openapi.yml
   format: yaml
   label: Azure OpenAI Service Embeddings API
   slug: microsoft-azure-openai-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-openai/refs/heads/main/openapi/microsoft-azure-openai-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-openai/openapi/microsoft-azure-openai-embeddings-api-openapi.yml
 - filename: microsoft-azure-openai-images-api-openapi.yml
   format: yaml
   label: Azure OpenAI Service Images API
   slug: microsoft-azure-openai-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-openai/refs/heads/main/openapi/microsoft-azure-openai-images-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-openai/openapi/microsoft-azure-openai-images-api-openapi.yml
 - filename: azure-openai-asyncapi.yml
   format: yaml
   label: Azure OpenAI Inference REST API
@@ -32,13 +32,13 @@ api_specs:
   label: Azure OpenAI Service Audio API
   slug: microsoft-azure-openai-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-openai/refs/heads/main/openapi/microsoft-azure-openai-audio-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-openai/openapi/microsoft-azure-openai-audio-api-openapi.yml
 - filename: microsoft-azure-openai-chat-completions-api-openapi.yml
   format: yaml
   label: Azure OpenAI Service Chat Completions API
   slug: microsoft-azure-openai-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-openai/refs/heads/main/openapi/microsoft-azure-openai-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-openai/openapi/microsoft-azure-openai-chat-completions-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -75,7 +75,7 @@ source_filename: microsoft-azure-openai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-azure-openai-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - implicit\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: api-key\n  sources:\n  - openapi/microsoft-azure-openai-openapi.yml\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  sources:\n  - openapi/microsoft-azure-openai-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-openai/refs/heads/main/authentication/microsoft-azure-openai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-openai/authentication/microsoft-azure-openai-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Artificial Intelligence

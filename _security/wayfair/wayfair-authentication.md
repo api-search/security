@@ -7,13 +7,13 @@ api_specs:
   label: Wayfair Authentication API
   slug: wayfair-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wayfair/refs/heads/main/openapi/wayfair-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/wayfair/openapi/wayfair-authentication-api-openapi.yml
 - filename: wayfair-graph-ql-api-openapi.yml
   format: yaml
   label: Wayfair Graph QL API
   slug: wayfair-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wayfair/refs/heads/main/openapi/wayfair-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/wayfair/openapi/wayfair-graph-ql-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -41,7 +41,7 @@ source_filename: wayfair-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/wayfair-supplier-api.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: 'OAuth2 Bearer token obtained from the /auth/token endpoint. Include as Authorization:\n    Bearer {token} header on all GraphQL requests.'\n  sources:\n  - openapi/wayfair-supplier-api.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wayfair/refs/heads/main/authentication/wayfair-authentication.yml
+source_yaml_url: https://artifacts.apis.io/wayfair/authentication/wayfair-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - E-Commerce

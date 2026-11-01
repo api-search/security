@@ -8,43 +8,43 @@ api_specs:
   label: Onomondo Connectors API
   slug: onomondo-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/openapi/onomondo-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/onomondo/openapi/onomondo-connectors-api-openapi.yml
 - filename: onomondo-network-lists-api-openapi.yml
   format: yaml
   label: Onomondo Network Lists API
   slug: onomondo-network-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/openapi/onomondo-network-lists-api-openapi.yml
+  url: https://artifacts.apis.io/onomondo/openapi/onomondo-network-lists-api-openapi.yml
 - filename: onomondo-sms-api-openapi.yml
   format: yaml
   label: Onomondo SMS API
   slug: onomondo-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/openapi/onomondo-sms-api-openapi.yml
+  url: https://artifacts.apis.io/onomondo/openapi/onomondo-sms-api-openapi.yml
 - filename: onomondo-tags-api-openapi.yml
   format: yaml
   label: Onomondo Tags API
   slug: onomondo-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/openapi/onomondo-tags-api-openapi.yml
+  url: https://artifacts.apis.io/onomondo/openapi/onomondo-tags-api-openapi.yml
 - filename: onomondo-usage-api-openapi.yml
   format: yaml
   label: Onomondo Usage API
   slug: onomondo-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/openapi/onomondo-usage-api-openapi.yml
+  url: https://artifacts.apis.io/onomondo/openapi/onomondo-usage-api-openapi.yml
 - filename: onomondo-webhooks-api-openapi.yml
   format: yaml
   label: Onomondo Webhooks API
   slug: onomondo-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/openapi/onomondo-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/onomondo/openapi/onomondo-webhooks-api-openapi.yml
 - filename: onomondo-sims-api-openapi.yml
   format: yaml
   label: Onomondo SI Ms API
   slug: onomondo-sims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/openapi/onomondo-sims-api-openapi.yml
+  url: https://artifacts.apis.io/onomondo/openapi/onomondo-sims-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -72,7 +72,7 @@ source_filename: onomondo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/onomondo-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Organization-scoped API key supplied in the Authorization header. Generated in\n    the Onomondo platform and coupled to the organization under which it is created.\n  sources:\n  - openapi/onomondo-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/authentication/onomondo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/onomondo/authentication/onomondo-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - IoT

@@ -8,49 +8,49 @@ api_specs:
   label: DPD Geo Countries API
   slug: geoapi-countries
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dpd-group/refs/heads/main/openapi/dpd-group-countries-api-openapi.yml
+  url: https://artifacts.apis.io/dpd-group/openapi/dpd-group-countries-api-openapi.yml
 - filename: dpd-group-customers-api-openapi.yml
   format: yaml
   label: DPD Geo Customers API
   slug: geoapi-customers
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dpd-group/refs/heads/main/openapi/dpd-group-customers-api-openapi.yml
+  url: https://artifacts.apis.io/dpd-group/openapi/dpd-group-customers-api-openapi.yml
 - filename: dpd-group-me-api-openapi.yml
   format: yaml
   label: DPD Geo Me API
   slug: geoapi-me
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dpd-group/refs/heads/main/openapi/dpd-group-me-api-openapi.yml
+  url: https://artifacts.apis.io/dpd-group/openapi/dpd-group-me-api-openapi.yml
 - filename: dpd-group-parcels-api-openapi.yml
   format: yaml
   label: DPD Geo Parcels API
   slug: geoapi-parcels
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dpd-group/refs/heads/main/openapi/dpd-group-parcels-api-openapi.yml
+  url: https://artifacts.apis.io/dpd-group/openapi/dpd-group-parcels-api-openapi.yml
 - filename: dpd-group-pickup-orders-api-openapi.yml
   format: yaml
   label: DPD Geo Pickup Orders API
   slug: geoapi-pickup-orders
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dpd-group/refs/heads/main/openapi/dpd-group-pickup-orders-api-openapi.yml
+  url: https://artifacts.apis.io/dpd-group/openapi/dpd-group-pickup-orders-api-openapi.yml
 - filename: dpd-group-shipments-api-openapi.yml
   format: yaml
   label: DPD Geo Shipments API
   slug: geoapi-shipments
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dpd-group/refs/heads/main/openapi/dpd-group-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/dpd-group/openapi/dpd-group-shipments-api-openapi.yml
 - filename: dpd-group-shipping-services-api-openapi.yml
   format: yaml
   label: DPD Geo Shipping Services API
   slug: geoapi-shipping-services
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dpd-group/refs/heads/main/openapi/dpd-group-shipping-services-api-openapi.yml
+  url: https://artifacts.apis.io/dpd-group/openapi/dpd-group-shipping-services-api-openapi.yml
 - filename: dpd-group-shipping-api-openapi.yml
   format: yaml
   label: DPD META-API Shipment
   slug: meta-api-shipping
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dpd-group/refs/heads/main/openapi/dpd-group-shipping-api-openapi.yml
+  url: https://artifacts.apis.io/dpd-group/openapi/dpd-group-shipping-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -92,7 +92,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: derived\nsource: openapi/dpd-group-countries-api-openapi.yml, openapi/dpd-group-customers-api-openapi.yml,\n  openapi/dpd-group-me-api-openapi.yml, openapi/dpd-group-parcels-api-openapi.yml, openapi/dpd-group-pickup-orders-api-openapi.yml,\n  openapi/dpd-group-shipments-api-openapi.yml, openapi/dpd-group-shipping-api-openapi.yml, openapi/dpd-group-shipping-services-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: \"Every account will receive its unique API key.  \\nThis key is used to uniquely\\\n    \\ identify your account.\"\n  sources:\n  - openapi/dpd-group-countries-api-openapi.yml\n  - openapi/dpd-group-customers-api-openapi.yml\n  - openapi/dpd-group-me-api-openapi.yml\n  - openapi/dpd-group-parcels-api-openapi.yml\n  - openapi/dpd-group-pickup-orders-api-openapi.yml\n  - openapi/dpd-group-shipments-api-openapi.yml\n\
   \  - openapi/dpd-group-shipping-services-api-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/dpd-group-shipping-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dpd-group/refs/heads/main/authentication/dpd-group-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dpd-group/authentication/dpd-group-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Logistics

@@ -5,61 +5,61 @@ api_specs:
   label: Veritas InfoScale Alerts API
   slug: veritas-infoscale-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/openapi/veritas-infoscale-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-infoscale/openapi/veritas-infoscale-alerts-api-openapi.yml
 - filename: veritas-infoscale-clusters-api-openapi.yml
   format: yaml
   label: Veritas InfoScale Clusters API
   slug: veritas-infoscale-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/openapi/veritas-infoscale-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-infoscale/openapi/veritas-infoscale-clusters-api-openapi.yml
 - filename: veritas-infoscale-disk-groups-api-openapi.yml
   format: yaml
   label: Veritas InfoScale Disk Groups API
   slug: veritas-infoscale-disk-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/openapi/veritas-infoscale-disk-groups-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-infoscale/openapi/veritas-infoscale-disk-groups-api-openapi.yml
 - filename: veritas-infoscale-disks-api-openapi.yml
   format: yaml
   label: Veritas InfoScale Disks API
   slug: veritas-infoscale-disks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/openapi/veritas-infoscale-disks-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-infoscale/openapi/veritas-infoscale-disks-api-openapi.yml
 - filename: veritas-infoscale-fencing-api-openapi.yml
   format: yaml
   label: Veritas InfoScale Fencing API
   slug: veritas-infoscale-fencing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/openapi/veritas-infoscale-fencing-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-infoscale/openapi/veritas-infoscale-fencing-api-openapi.yml
 - filename: veritas-infoscale-jobs-api-openapi.yml
   format: yaml
   label: Veritas InfoScale Jobs API
   slug: veritas-infoscale-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/openapi/veritas-infoscale-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-infoscale/openapi/veritas-infoscale-jobs-api-openapi.yml
 - filename: veritas-infoscale-resources-api-openapi.yml
   format: yaml
   label: Veritas InfoScale Resources API
   slug: veritas-infoscale-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/openapi/veritas-infoscale-resources-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-infoscale/openapi/veritas-infoscale-resources-api-openapi.yml
 - filename: veritas-infoscale-service-groups-api-openapi.yml
   format: yaml
   label: Veritas InfoScale Service Groups API
   slug: veritas-infoscale-service-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/openapi/veritas-infoscale-service-groups-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-infoscale/openapi/veritas-infoscale-service-groups-api-openapi.yml
 - filename: veritas-infoscale-systems-api-openapi.yml
   format: yaml
   label: Veritas InfoScale Systems API
   slug: veritas-infoscale-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/openapi/veritas-infoscale-systems-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-infoscale/openapi/veritas-infoscale-systems-api-openapi.yml
 - filename: veritas-infoscale-volumes-api-openapi.yml
   format: yaml
   label: Veritas InfoScale Volumes API
   slug: veritas-infoscale-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/openapi/veritas-infoscale-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-infoscale/openapi/veritas-infoscale-volumes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -95,7 +95,7 @@ source_filename: veritas-infoscale-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: my.veritas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 16 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.veritas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 16 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: veritas.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/security/veritas-infoscale-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/veritas-infoscale/security/veritas-infoscale-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Clustering

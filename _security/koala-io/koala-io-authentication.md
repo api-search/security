@@ -7,25 +7,25 @@ api_specs:
   label: Koala Accounts API
   slug: koala-io-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/openapi/koala-io-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/koala-io/openapi/koala-io-accounts-api-openapi.yml
 - filename: koala-io-collection-api-openapi.yml
   format: yaml
   label: Koala Collection API
   slug: koala-io-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/openapi/koala-io-collection-api-openapi.yml
+  url: https://artifacts.apis.io/koala-io/openapi/koala-io-collection-api-openapi.yml
 - filename: koala-io-deletion-api-openapi.yml
   format: yaml
   label: Koala Deletion API
   slug: koala-io-deletion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/openapi/koala-io-deletion-api-openapi.yml
+  url: https://artifacts.apis.io/koala-io/openapi/koala-io-deletion-api-openapi.yml
 - filename: koala-io-sdk-api-openapi.yml
   format: yaml
   label: Koala SDK API
   slug: koala-io-sdk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/openapi/koala-io-sdk-api-openapi.yml
+  url: https://artifacts.apis.io/koala-io/openapi/koala-io-sdk-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -56,7 +56,7 @@ source_filename: koala-io-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/koala-io-accounts-api-openapi.yml, openapi/koala-io-collection-api-openapi.yml,\n  openapi/koala-io-deletion-api-openapi.yml, openapi/koala-io-sdk-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: SecretApiKey\n  type: http\n  scheme: bearer\n  bearerFormat: sk_\n  description: 'Secret API key created in Settings -> API Keys, sent as `Authorization: Bearer\n    sk_...`. Used only by the Deletion (GDPR) API.'\n  sources:\n  - openapi/koala-io-accounts-api-openapi.yml\n  - openapi/koala-io-collection-api-openapi.yml\n  - openapi/koala-io-deletion-api-openapi.yml\n  - openapi/koala-io-sdk-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/authentication/koala-io-authentication.yml
+source_yaml_url: https://artifacts.apis.io/koala-io/authentication/koala-io-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Buyer Intent

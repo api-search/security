@@ -5,85 +5,85 @@ api_specs:
   label: Kita Applications API
   slug: kita-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-applications-api-openapi.yml
+  url: https://artifacts.apis.io/kita/openapi/kita-applications-api-openapi.yml
 - filename: kita-batch-api-openapi.yml
   format: yaml
   label: Kita Batch API
   slug: kita-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-batch-api-openapi.yml
+  url: https://artifacts.apis.io/kita/openapi/kita-batch-api-openapi.yml
 - filename: kita-conversation-api-openapi.yml
   format: yaml
   label: Kita Conversation API
   slug: kita-conversation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-conversation-api-openapi.yml
+  url: https://artifacts.apis.io/kita/openapi/kita-conversation-api-openapi.yml
 - filename: kita-credit-api-openapi.yml
   format: yaml
   label: Kita Credit API
   slug: kita-credit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-credit-api-openapi.yml
+  url: https://artifacts.apis.io/kita/openapi/kita-credit-api-openapi.yml
 - filename: kita-documents-api-openapi.yml
   format: yaml
   label: Kita Documents API
   slug: kita-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-documents-api-openapi.yml
+  url: https://artifacts.apis.io/kita/openapi/kita-documents-api-openapi.yml
 - filename: kita-exports-api-openapi.yml
   format: yaml
   label: Kita Exports API
   slug: kita-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-exports-api-openapi.yml
+  url: https://artifacts.apis.io/kita/openapi/kita-exports-api-openapi.yml
 - filename: kita-folders-api-openapi.yml
   format: yaml
   label: Kita Folders API
   slug: kita-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-folders-api-openapi.yml
+  url: https://artifacts.apis.io/kita/openapi/kita-folders-api-openapi.yml
 - filename: kita-memo-api-openapi.yml
   format: yaml
   label: Kita Memo API
   slug: kita-memo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-memo-api-openapi.yml
+  url: https://artifacts.apis.io/kita/openapi/kita-memo-api-openapi.yml
 - filename: kita-processing-api-openapi.yml
   format: yaml
   label: Kita Processing API
   slug: kita-processing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-processing-api-openapi.yml
+  url: https://artifacts.apis.io/kita/openapi/kita-processing-api-openapi.yml
 - filename: kita-results-api-openapi.yml
   format: yaml
   label: Kita Results API
   slug: kita-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-results-api-openapi.yml
+  url: https://artifacts.apis.io/kita/openapi/kita-results-api-openapi.yml
 - filename: kita-schemas-api-openapi.yml
   format: yaml
   label: Kita Schemas API
   slug: kita-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/kita/openapi/kita-schemas-api-openapi.yml
 - filename: kita-transcripts-api-openapi.yml
   format: yaml
   label: Kita Transcripts API
   slug: kita-transcripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-transcripts-api-openapi.yml
+  url: https://artifacts.apis.io/kita/openapi/kita-transcripts-api-openapi.yml
 - filename: kita-verification-api-openapi.yml
   format: yaml
   label: Kita Verification API
   slug: kita-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-verification-api-openapi.yml
+  url: https://artifacts.apis.io/kita/openapi/kita-verification-api-openapi.yml
 - filename: kita-webhooks-api-openapi.yml
   format: yaml
   label: Kita Webhooks API
   slug: kita-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/kita/openapi/kita-webhooks-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2 Type II
@@ -103,7 +103,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nprobe: true\nsource: https://www.kita.ai/security\nurl: https://www.kita.ai/security\ndedicated_trust_portal: false\nnotes: 'Kita publishes a security and compliance page rather than a hosted trust portal.\n  trust.kita.ai does not resolve. Security questionnaire responses, penetration-test\n  summaries, architecture diagrams, the DPA and Standard Contractual Clauses are stated to be\n  available on request.'\ncertifications:\n- name: SOC 2 Type II\n  status: in-progress\n  detail: Active engagement for an independent audit of security, availability and\n    confidentiality controls. Engagement letter available on request. Not yet certified.\n- name: ISO 27001\n  status: in-progress\n  detail: Active engagement. Engagement letter available on request. Not yet certified.\nencryption:\n  at_rest: AES-256\n  in_transit: TLS 1.3\n  notes: Document data is encrypted before it reaches disk; keys are rotated automatically.\ndata_residency:\n\
   \  model: region-pinned per organization\n  regions:\n  - ap-southeast-1 (Singapore) — default for all organizations unless flagged for MX residency\n  - mx-central-1 (Mexico) — Mexican-residency customers (regulated)\n  active_markets:\n  - United States\n  - Mexico\n  - Singapore\n  - Indonesia\n  cross_region_replication: opt-in only\nlegal:\n  dpa: available on request\n  standard_contractual_clauses: available on request\nsubprocessors:\n  list: named list available on request\n  disclosed_categories:\n  - Vercel (hosting / edge delivery)\n  - Resend (email delivery)\n  - cloud infrastructure and AI/ML inference providers (customer-pinned)\n  - observability and support platforms\npenetration_testing:\n  cadence: annual, third-party, against production\n  between_cycles: continuous internal scanning\nenterprise_controls:\n- SSO/SAML\n- VPC and on-premises deployment options\nevidence:\n- source: https://www.kita.ai/security\n  keywords:\n  - soc 2\n  - iso 27001\n  - aes-256\n  -\
   \ tls 1.3\n  - data residency\n  - subprocessors\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/security/kita-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/kita/security/kita-trust-center.yml
 summary_line: SOC 2 Type II, ISO 27001
 tags:
 - Company

@@ -8,25 +8,25 @@ api_specs:
   label: Orange Health Orders API
   slug: orange-health-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orange-health/refs/heads/main/openapi/orange-health-orders-api-openapi.yml
+  url: https://artifacts.apis.io/orange-health/openapi/orange-health-orders-api-openapi.yml
 - filename: orange-health-results-api-openapi.yml
   format: yaml
   label: Orange Health Results API
   slug: orange-health-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orange-health/refs/heads/main/openapi/orange-health-results-api-openapi.yml
+  url: https://artifacts.apis.io/orange-health/openapi/orange-health-results-api-openapi.yml
 - filename: orange-health-serviceability-api-openapi.yml
   format: yaml
   label: Orange Health Serviceability API
   slug: orange-health-serviceability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orange-health/refs/heads/main/openapi/orange-health-serviceability-api-openapi.yml
+  url: https://artifacts.apis.io/orange-health/openapi/orange-health-serviceability-api-openapi.yml
 - filename: orange-health-orange-health-partner-api-api-openapi.yml
   format: yaml
   label: Orange Health Orange Health Partner API
   slug: orange-health-orange-health-partner-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orange-health/refs/heads/main/openapi/orange-health-orange-health-partner-api-api-openapi.yml
+  url: https://artifacts.apis.io/orange-health/openapi/orange-health-orange-health-partner-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: orange-health-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/orange-health-partner-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: api_key\n  description: 'Partner API key sent in the api_key header. Public sandbox keys: partner-alwaysPartner,\n    partner-alwaysOH, partner-decidedAtOrderLevel. Production keys via integrations@orangehealth.in.'\n  sources:\n  - openapi/orange-health-partner-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orange-health/refs/heads/main/authentication/orange-health-authentication.yml
+source_yaml_url: https://artifacts.apis.io/orange-health/authentication/orange-health-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

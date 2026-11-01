@@ -5,7 +5,7 @@ api_specs:
   label: FusionFeed
   slug: fusionfeed
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tempus-ex/refs/heads/main/asyncapi/tempus-ex-fusionfeed-asyncapi.yml
+  url: https://artifacts.apis.io/tempus-ex/asyncapi/tempus-ex-fusionfeed-asyncapi.yml
 description: ''
 domains:
 - caa: []
@@ -44,7 +44,7 @@ source_filename: tempus-ex-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tempus-ex.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  7 23:59:59 2027 GMT\n  hsts: false\n- host: docs.tempus-ex.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 23:59:59 2026 GMT\n  hsts: false\n- host: feed.fusion.tempus-ex.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 06:42:51 2026 GMT\n  hsts: false\ndomains:\n- domain: tempus-ex.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tempus-ex/refs/heads/main/security/tempus-ex-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tempus-ex/security/tempus-ex-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

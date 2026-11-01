@@ -8,7 +8,7 @@ api_specs:
   label: Chargetrip Graph QL API
   slug: chargetrip-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chargetrip/refs/heads/main/openapi/chargetrip-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/chargetrip/openapi/chargetrip-graph-ql-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -43,7 +43,7 @@ source_filename: chargetrip-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/chargetrip-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: clientId\n  type: apiKey\n  in: header\n  parameter: x-client-id\n  description: Chargetrip client identifier sent on every request.\n  sources:\n  - openapi/chargetrip-openapi.yml\n- name: appId\n  type: apiKey\n  in: header\n  parameter: x-app-id\n  description: Chargetrip application identifier sent on every request.\n  sources:\n  - openapi/chargetrip-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chargetrip/refs/heads/main/authentication/chargetrip-authentication.yml
+source_yaml_url: https://artifacts.apis.io/chargetrip/authentication/chargetrip-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Electric Vehicles

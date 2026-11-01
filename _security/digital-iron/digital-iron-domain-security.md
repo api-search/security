@@ -27,14 +27,14 @@ source_filename: digital-iron-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: digitaliron.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  3 11:38:44 2026 GMT\n  hsts: false\ndomains:\n- domain: digitaliron.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/digital-iron/refs/heads/main/security/digital-iron-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/digital-iron/security/digital-iron-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Artificial Intelligence
 - Heavy Machinery
 - Aftersales
-- Field Service
+- Field Service Management
 - Equipment Dealers
 - OEM
 - Service Data

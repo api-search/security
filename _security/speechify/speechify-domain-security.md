@@ -5,13 +5,13 @@ api_specs:
   label: Speechify Audio API
   slug: speechify-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speechify/refs/heads/main/openapi/speechify-audio-api-openapi.yml
+  url: https://artifacts.apis.io/speechify/openapi/speechify-audio-api-openapi.yml
 - filename: speechify-voices-api-openapi.yml
   format: yaml
   label: Speechify Voices API
   slug: speechify-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speechify/refs/heads/main/openapi/speechify-voices-api-openapi.yml
+  url: https://artifacts.apis.io/speechify/openapi/speechify-voices-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: speechify-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: speechify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 08:05:07 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.sws.speechify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 13:58:20 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.sws.speechify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 01:07:07 2026 GMT\n  hsts: null\ndomains:\n- domain: speechify.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/speechify/refs/heads/main/security/speechify-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/speechify/security/speechify-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

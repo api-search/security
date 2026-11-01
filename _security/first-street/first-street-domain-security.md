@@ -5,19 +5,19 @@ api_specs:
   label: First Street Enterprise API
   slug: first-street-enterprise-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-street/refs/heads/main/openapi/first-street-enterprise-api-openapi.yml
+  url: https://artifacts.apis.io/first-street/openapi/first-street-enterprise-api-openapi.yml
 - filename: first-street-maps-api-openapi.yml
   format: yaml
   label: First Street Maps API
   slug: first-street-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-street/refs/heads/main/openapi/first-street-maps-api-openapi.yml
+  url: https://artifacts.apis.io/first-street/openapi/first-street-maps-api-openapi.yml
 - filename: first-street-graph-ql-api-openapi.yml
   format: yaml
   label: First Street Graph QL API
   slug: first-street-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-street/refs/heads/main/openapi/first-street-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/first-street/openapi/first-street-graph-ql-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-09-10'\nmethod: probed\nsource: live DNS/TLS/HTTP
   \ false\n  hsts_max_age: null\n  note: >-\n    The API host is the only First Street host with NO HSTS header. Every other host in\n    this list sets one, several with preload. Given that the documented authentication\n    style puts the API key in a query string, a missing HSTS on the credential-bearing\n    host is the most actionable finding in this file.\n- host: mcp.firststreet.org\n  https: true\n  tls_version: null\n  cert_expires: Dec 10 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  hsts_preload: true\n  hsts_include_subdomains: true\n- host: auth.firststreet.org\n  https: true\n  tls_version: null\n  cert_expires: Dec 10 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  note: SAML SP metadata host.\n- host: app.firststreet.org\n  https: true\n  tls_version: null\n  cert_expires: Dec 10 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  hsts_preload: true\n  hsts_include_subdomains: true\n  note: Enterprise Suite\
   \ application.\n- host: status.firststreet.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  5 13:37:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63113904\n  hsts_preload: true\n  hsts_include_subdomains: true\n  note: Better Stack status page.\n- host: security.firststreet.org\n  https: true\n  tls_version: null\n  cert_expires: Oct 19 10:14:03 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  note: Vanta trust centre.\ndomains:\n- domain: firststreet.org\n  dnssec: false\n  caa: []\n  caa_note: No CAA record — any CA may issue for this domain.\n  spf: true\n  spf_record: >-\n    v=spf1 a include:_spf.google.com include:44226531.spf04.hubspotemail.net\n    include:mail.zendesk.com include:servers.mcsv.net include:amazonses.com ~all\n  spf_qualifier: '~all (softfail)'\n  dmarc: true\n  dmarc_policy: quarantine\n  dmarc_record: 'v=DMARC1; p=quarantine; rua=mailto:tech@firststreet.org; adkim=r; aspf=r'\n  dmarc_alignment: relaxed (adkim=r,\
   \ aspf=r)\nfindings:\n  - >-\n    api.firststreet.org serves no Strict-Transport-Security header while every other\n    First Street host does — including mcp, app and auth with preload.\n  - >-\n    No DNSSEC and no CAA record on firststreet.org.\n  - >-\n    DMARC is at p=quarantine with relaxed alignment and a softfail SPF, rather than\n    p=reject with strict alignment.\n  - >-\n    The apex TXT set names the vendor estate — Google Workspace SAML, HubSpot, Zendesk,\n    Mailchimp, Amazon SES, Zoom, 1Password, Wiz and Better Stack.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/first-street/refs/heads/main/security/first-street-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/first-street/security/first-street-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Climate

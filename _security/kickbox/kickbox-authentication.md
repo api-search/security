@@ -9,31 +9,31 @@ api_specs:
   label: Kickbox Account API
   slug: kickbox-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kickbox/refs/heads/main/openapi/kickbox-account-api-openapi.yml
+  url: https://artifacts.apis.io/kickbox/openapi/kickbox-account-api-openapi.yml
 - filename: kickbox-batch-api-openapi.yml
   format: yaml
   label: Kickbox Batch API
   slug: kickbox-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kickbox/refs/heads/main/openapi/kickbox-batch-api-openapi.yml
+  url: https://artifacts.apis.io/kickbox/openapi/kickbox-batch-api-openapi.yml
 - filename: kickbox-open-api-openapi.yml
   format: yaml
   label: Kickbox Open API
   slug: kickbox-open-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kickbox/refs/heads/main/openapi/kickbox-open-api-openapi.yml
+  url: https://artifacts.apis.io/kickbox/openapi/kickbox-open-api-openapi.yml
 - filename: kickbox-verification-api-openapi.yml
   format: yaml
   label: Kickbox Verification API
   slug: kickbox-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kickbox/refs/heads/main/openapi/kickbox-verification-api-openapi.yml
+  url: https://artifacts.apis.io/kickbox/openapi/kickbox-verification-api-openapi.yml
 - filename: kickbox-disposable-api-openapi.yml
   format: yaml
   label: Kickbox Disposable API
   slug: kickbox-disposable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kickbox/refs/heads/main/openapi/kickbox-disposable-api-openapi.yml
+  url: https://artifacts.apis.io/kickbox/openapi/kickbox-disposable-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://docs.ki
   \    description: >-\n      The API key supplied as the access token of an Authorization header using the Bearer scheme.\n    example: 'Authorization: Bearer YOUR_API_KEY'\n    sources: [https://docs.kickbox.com/docs/using-the-api]\nspec_schemes:\n  - name: TokenAuth\n    type: http\n    scheme: bearer\n    bearerFormat: token\n    sources:\n      - openapi/kickbox-account-api-openapi.yml\n      - openapi/kickbox-batch-api-openapi.yml\n      - openapi/kickbox-open-api-openapi.yml\n      - openapi/kickbox-verification-api-openapi.yml\ncredentials:\n  issuance:\n    where: Kickbox dashboard, API > Manage Keys\n    url: https://app.kickbox.com/signup\n    self_serve: true\n  key_prefixes:\n    live: live_\n    test: test_\n    note: >-\n      The prefix is how a holder can tell a production key from a sandbox key by inspection.\n      Production keys start with `live_`, sandbox keys start with `test_`.\n  modes:\n    - {mode: production, prefix: live_, consumes_credits: true}\n    - {mode:\
   \ sandbox, prefix: test_, consumes_credits: false}\n  mode_immutable: true\n  mode_immutable_note: >-\n    A key's mode is fixed at creation. The docs state you cannot switch a key between sandbox and\n    production mode; a new key must be created instead.\n  scoping:\n    style: per-key endpoint permissions\n    note: >-\n      Each key is granted permission to specific API endpoints at creation, and permissions are\n      editable afterwards. This is the closest thing Kickbox has to OAuth scopes, but it is\n      dashboard-configured rather than declared in a token, so there is no scope string an agent can\n      request or inspect. No scopes/ artifact is emitted for this provider.\n  rotation: undocumented\n  expiry: none documented\n  revocation:\n    note: >-\n      A key can be effectively disabled by editing it and unchecking all Verify permissions, which\n      the docs present as the pause/shut-off mechanism.\nunauthenticated_surface:\n  - operation: isDisposable\n    endpoint:\
   \ GET /v1/disposable/{email}\n    host: https://open.kickbox.com\n    note: >-\n      The open disposable-domain lookup requires no authentication. Kickbox's own published OpenAPI\n      for it declares `\"security\": [{}]`, i.e. explicitly optional/no security.\n    source: openapi/kickbox-disposable-openapi.json\naccount_authentication:\n  note: Dashboard/console sign-in, distinct from API authentication.\n  methods: [password, Sign in with Google, two-factor authentication, Okta SSO]\n  docs:\n    - https://docs.kickbox.com/docs/authentication-methods\n    - https://docs.kickbox.com/docs/okta-authentication\nregional:\n  note: >-\n    EU-only accounts authenticate against api.eu.kickbox.com rather than api.kickbox.com. The host is\n    a property of the account, not a parameter, so credentials are not portable between the two.\n  hosts: [https://api.kickbox.com, https://api.eu.kickbox.com]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kickbox/refs/heads/main/authentication/kickbox-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kickbox/authentication/kickbox-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Email Verification

@@ -33,7 +33,7 @@ source_filename: little-eye-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: littleeye.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 21:00:55 2026 GMT\n  hsts: false\ndomains:\n- domain: littleeye.co\n  dnssec: false\n  caa:\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/little-eye/refs/heads/main/security/little-eye-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/little-eye/security/little-eye-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

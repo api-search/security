@@ -7,37 +7,37 @@ api_specs:
   label: Ambassador Diagnostics API
   slug: ambassador-diagnostics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/openapi/ambassador-diagnostics-api-openapi.yml
+  url: https://artifacts.apis.io/ambassador/openapi/ambassador-diagnostics-api-openapi.yml
 - filename: ambassador-hosts-api-openapi.yml
   format: yaml
   label: Ambassador Hosts API
   slug: ambassador-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/openapi/ambassador-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/ambassador/openapi/ambassador-hosts-api-openapi.yml
 - filename: ambassador-mappings-api-openapi.yml
   format: yaml
   label: Ambassador Mappings API
   slug: ambassador-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/openapi/ambassador-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/ambassador/openapi/ambassador-mappings-api-openapi.yml
 - filename: ambassador-modules-api-openapi.yml
   format: yaml
   label: Ambassador Modules API
   slug: ambassador-modules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/openapi/ambassador-modules-api-openapi.yml
+  url: https://artifacts.apis.io/ambassador/openapi/ambassador-modules-api-openapi.yml
 - filename: ambassador-tlscontexts-api-openapi.yml
   format: yaml
   label: Ambassador TLSContexts API
   slug: ambassador-tlscontexts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/openapi/ambassador-tlscontexts-api-openapi.yml
+  url: https://artifacts.apis.io/ambassador/openapi/ambassador-tlscontexts-api-openapi.yml
 - filename: ambassador-rate-limits-api-openapi.yml
   format: yaml
   label: Ambassador Rate Limits API
   slug: ambassador-rate-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/openapi/ambassador-rate-limits-api-openapi.yml
+  url: https://artifacts.apis.io/ambassador/openapi/ambassador-rate-limits-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +64,7 @@ source_filename: ambassador-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ambassador-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token authentication. Tokens are managed through the Ambassador Edge Stack\n    management interface or Kubernetes service account tokens.\n  sources:\n  - openapi/ambassador-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/authentication/ambassador-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ambassador/authentication/ambassador-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - API Development
@@ -72,7 +72,7 @@ tags:
 - Ingress
 - Kubernetes
 - Mock Servers
-- Mocks
+- Mock
 - Platform
 - Testing
 - API Gateway

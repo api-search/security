@@ -5,37 +5,37 @@ api_specs:
   label: LiquiDonate Donate API
   slug: liquidonate-donate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/openapi/liquidonate-donate-api-openapi.yml
+  url: https://artifacts.apis.io/liquidonate/openapi/liquidonate-donate-api-openapi.yml
 - filename: liquidonate-match-api-openapi.yml
   format: yaml
   label: LiquiDonate Match API
   slug: liquidonate-match-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/openapi/liquidonate-match-api-openapi.yml
+  url: https://artifacts.apis.io/liquidonate/openapi/liquidonate-match-api-openapi.yml
 - filename: liquidonate-orders-api-openapi.yml
   format: yaml
   label: LiquiDonate Orders API
   slug: liquidonate-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/openapi/liquidonate-orders-api-openapi.yml
+  url: https://artifacts.apis.io/liquidonate/openapi/liquidonate-orders-api-openapi.yml
 - filename: liquidonate-retailer-api-openapi.yml
   format: yaml
   label: LiquiDonate Retailer API
   slug: liquidonate-retailer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/openapi/liquidonate-retailer-api-openapi.yml
+  url: https://artifacts.apis.io/liquidonate/openapi/liquidonate-retailer-api-openapi.yml
 - filename: liquidonate-ship-api-openapi.yml
   format: yaml
   label: LiquiDonate Ship API
   slug: liquidonate-ship-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/openapi/liquidonate-ship-api-openapi.yml
+  url: https://artifacts.apis.io/liquidonate/openapi/liquidonate-ship-api-openapi.yml
 - filename: liquidonate-returnsdirect-by-liquidonate-beta-api-openapi.yml
   format: yaml
   label: LiquiDonate ReturnsDirect By LiquiDonate (Beta) API
   slug: liquidonate-returnsdirect-by-liquidonate-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/openapi/liquidonate-returnsdirect-by-liquidonate-beta-api-openapi.yml
+  url: https://artifacts.apis.io/liquidonate/openapi/liquidonate-returnsdirect-by-liquidonate-beta-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: liquidonate-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.liquidonate.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 02:02:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs-magicmatch.liquidonate.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 07:31:08 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.liquidonate.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 15:14:55 2026 GMT\n  hsts: null\ndomains:\n- domain: liquidonate.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/security/liquidonate-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/liquidonate/security/liquidonate-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Reverse Logistics

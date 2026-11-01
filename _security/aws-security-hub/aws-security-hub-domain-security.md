@@ -5,73 +5,157 @@ api_specs:
   label: AWS Security Hub Action Targets API
   slug: aws-security-hub-action-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-security-hub/refs/heads/main/openapi/aws-security-hub-action-targets-api-openapi.yml
+  url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-action-targets-api-openapi.yml
 - filename: aws-security-hub-automation-rules-api-openapi.yml
   format: yaml
   label: AWS Security Hub Automation Rules API
   slug: aws-security-hub-automation-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-security-hub/refs/heads/main/openapi/aws-security-hub-automation-rules-api-openapi.yml
+  url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-automation-rules-api-openapi.yml
 - filename: aws-security-hub-configuration-policies-api-openapi.yml
   format: yaml
   label: AWS Security Hub Configuration Policies API
   slug: aws-security-hub-configuration-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-security-hub/refs/heads/main/openapi/aws-security-hub-configuration-policies-api-openapi.yml
+  url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-configuration-policies-api-openapi.yml
 - filename: aws-security-hub-controls-api-openapi.yml
   format: yaml
   label: AWS Security Hub Controls API
   slug: aws-security-hub-controls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-security-hub/refs/heads/main/openapi/aws-security-hub-controls-api-openapi.yml
+  url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-controls-api-openapi.yml
 - filename: aws-security-hub-findings-api-openapi.yml
   format: yaml
   label: AWS Security Hub Findings API
   slug: aws-security-hub-findings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-security-hub/refs/heads/main/openapi/aws-security-hub-findings-api-openapi.yml
+  url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-findings-api-openapi.yml
 - filename: aws-security-hub-hub-api-openapi.yml
   format: yaml
   label: AWS Security Hub API
   slug: aws-security-hub-hub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-security-hub/refs/heads/main/openapi/aws-security-hub-hub-api-openapi.yml
+  url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-hub-api-openapi.yml
 - filename: aws-security-hub-insights-api-openapi.yml
   format: yaml
   label: AWS Security Hub Insights API
   slug: aws-security-hub-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-security-hub/refs/heads/main/openapi/aws-security-hub-insights-api-openapi.yml
+  url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-insights-api-openapi.yml
 - filename: aws-security-hub-invitations-api-openapi.yml
   format: yaml
   label: AWS Security Hub Invitations API
   slug: aws-security-hub-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-security-hub/refs/heads/main/openapi/aws-security-hub-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-invitations-api-openapi.yml
 - filename: aws-security-hub-members-api-openapi.yml
   format: yaml
   label: AWS Security Hub Members API
   slug: aws-security-hub-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-security-hub/refs/heads/main/openapi/aws-security-hub-members-api-openapi.yml
+  url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-members-api-openapi.yml
 - filename: aws-security-hub-standards-api-openapi.yml
   format: yaml
   label: AWS Security Hub Standards API
   slug: aws-security-hub-standards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-security-hub/refs/heads/main/openapi/aws-security-hub-standards-api-openapi.yml
+  url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-standards-api-openapi.yml
 - filename: aws-security-hub-tags-api-openapi.yml
   format: yaml
   label: AWS Security Hub Tags API
   slug: aws-security-hub-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-security-hub/refs/heads/main/openapi/aws-security-hub-tags-api-openapi.yml
+  url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-tags-api-openapi.yml
 - filename: aws-security-hub-integrations-api-openapi.yml
   format: yaml
   label: AWS Security Hub Integrations API
   slug: aws-security-hub-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-security-hub/refs/heads/main/openapi/aws-security-hub-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-integrations-api-openapi.yml
+- filename: aws-security-hub-administrator-api-openapi.yml
+  format: yaml
+  label: AWS Security Hub Security Hub Administrator API
+  slug: aws-security-hub-administrator-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-administrator-api-openapi.yml
+- filename: aws-security-hub-aggregatorv2-api-openapi.yml
+  format: yaml
+  label: AWS Security Hub Security Hub Aggregatorv2 API
+  slug: aws-security-hub-aggregatorv2-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-aggregatorv2-api-openapi.yml
+- filename: aws-security-hub-associations-api-openapi.yml
+  format: yaml
+  label: AWS Security Hub Security Hub Associations API
+  slug: aws-security-hub-associations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-associations-api-openapi.yml
+- filename: aws-security-hub-automationrulesv2-api-openapi.yml
+  format: yaml
+  label: AWS Security Hub Security Hub Automationrulesv2 API
+  slug: aws-security-hub-automationrulesv2-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-automationrulesv2-api-openapi.yml
+- filename: aws-security-hub-configurationpolicyassociation-api-openapi.yml
+  format: yaml
+  label: AWS Security Hub Security Hub Configurationpolicyassociation API
+  slug: aws-security-hub-configurationpolicyassociation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-configurationpolicyassociation-api-openapi.yml
+- filename: aws-security-hub-connectors-api-openapi.yml
+  format: yaml
+  label: AWS Security Hub Security Hub Connectors API
+  slug: aws-security-hub-connectors-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-connectors-api-openapi.yml
+- filename: aws-security-hub-connectorsv2-api-openapi.yml
+  format: yaml
+  label: AWS Security Hub Security Hub Connectorsv2 API
+  slug: aws-security-hub-connectorsv2-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-connectorsv2-api-openapi.yml
+- filename: aws-security-hub-exportjobsv2-api-openapi.yml
+  format: yaml
+  label: AWS Security Hub Security Hub Exportjobsv2 API
+  slug: aws-security-hub-exportjobsv2-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-exportjobsv2-api-openapi.yml
+- filename: aws-security-hub-findingaggregator-api-openapi.yml
+  format: yaml
+  label: AWS Security Hub Security Hub Findingaggregator API
+  slug: aws-security-hub-findingaggregator-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-findingaggregator-api-openapi.yml
+- filename: aws-security-hub-findingsv2-api-openapi.yml
+  format: yaml
+  label: AWS Security Hub Security Hub Findingsv2 API
+  slug: aws-security-hub-findingsv2-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-findingsv2-api-openapi.yml
+- filename: aws-security-hub-hubv2-api-openapi.yml
+  format: yaml
+  label: AWS Security Hub Security Hub Hubv2 API
+  slug: aws-security-hub-hubv2-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-hubv2-api-openapi.yml
+- filename: aws-security-hub-master-api-openapi.yml
+  format: yaml
+  label: AWS Security Hub Security Hub Master API
+  slug: aws-security-hub-master-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-master-api-openapi.yml
+- filename: aws-security-hub-operations-api-openapi.yml
+  format: yaml
+  label: AWS Security Hub Security Hub Operations API
+  slug: aws-security-hub-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-operations-api-openapi.yml
+- filename: aws-security-hub-organization-api-openapi.yml
+  format: yaml
+  label: AWS Security Hub Security Hub Organization API
+  slug: aws-security-hub-organization-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-organization-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -118,7 +202,7 @@ source_filename: aws-security-hub-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: docs.aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: securityhub.us-east-1.amazonaws.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 13 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-security-hub/refs/heads/main/security/aws-security-hub-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aws-security-hub/security/aws-security-hub-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Security

@@ -7,55 +7,55 @@ api_specs:
   label: Quandela Api - Job Token API
   slug: quandela-api-job-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-api-job-token-api-openapi.yml
+  url: https://artifacts.apis.io/quandela/openapi/quandela-api-job-token-api-openapi.yml
 - filename: quandela-api-perceval-job-api-openapi.yml
   format: yaml
   label: Quandela Api - Perceval Job API
   slug: quandela-api-perceval-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-api-perceval-job-api-openapi.yml
+  url: https://artifacts.apis.io/quandela/openapi/quandela-api-perceval-job-api-openapi.yml
 - filename: quandela-api-perceval-job-token-api-openapi.yml
   format: yaml
   label: Quandela Api - Perceval Job Token API
   slug: quandela-api-perceval-job-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-api-perceval-job-token-api-openapi.yml
+  url: https://artifacts.apis.io/quandela/openapi/quandela-api-perceval-job-token-api-openapi.yml
 - filename: quandela-qrng-api-openapi.yml
   format: yaml
   label: Quandela QRNG API
   slug: quandela-qrng-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-qrng-api-openapi.yml
+  url: https://artifacts.apis.io/quandela/openapi/quandela-qrng-api-openapi.yml
 - filename: quandela-quantumtoolbox-api-openapi.yml
   format: yaml
   label: Quandela Quantum Toolbox API
   slug: quandela-quantumtoolbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-quantumtoolbox-api-openapi.yml
+  url: https://artifacts.apis.io/quandela/openapi/quandela-quantumtoolbox-api-openapi.yml
 - filename: quandela-health-api-openapi.yml
   format: yaml
   label: Quandela Health API
   slug: quandela-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-health-api-openapi.yml
+  url: https://artifacts.apis.io/quandela/openapi/quandela-health-api-openapi.yml
 - filename: quandela-openapi-json-api-openapi.yml
   format: yaml
   label: Quandela Openapi.json API
   slug: quandela-openapi-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-openapi-json-api-openapi.yml
+  url: https://artifacts.apis.io/quandela/openapi/quandela-openapi-json-api-openapi.yml
 - filename: quandela-qt-openapi-json-api-openapi.yml
   format: yaml
   label: Quandela Qt Openapi.json API
   slug: quandela-qt-openapi-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-qt-openapi-json-api-openapi.yml
+  url: https://artifacts.apis.io/quandela/openapi/quandela-qt-openapi-json-api-openapi.yml
 - filename: quandela-quandela-cloud-api-api-openapi.yml
   format: yaml
   label: Quandela Quandela Cloud API
   slug: quandela-quandela-cloud-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-quandela-cloud-api-api-openapi.yml
+  url: https://artifacts.apis.io/quandela/openapi/quandela-quandela-cloud-api-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-08-17'\nmethod: searched\nsource: >-\n  https://a
   \ path: 'GET /', status: 302, note: 'redirects to /api/docs/, which then requires login'}\n    - {operation: 'openapi/quandela-platform-openapi.yml#get_health', path: 'GET /health', status: 200, body: '{\"message\":\"ok\"}'}\n    - {operation: 'openapi/quandela-platform-openapi.yml#get_openapi_json', path: 'GET /openapi.json', status: 200, note: 'the full 59-operation contract, anonymous'}\n    - {operation: 'openapi/quandela-platform-openapi.yml#get_qt_openapi_json', path: 'GET /qt-openapi.json', status: 200, note: 'the Quantum Toolbox sub-contract, anonymous'}\n  undocumented_anonymous:\n    - {url: 'https://api.cloud.quandela.com/api/status', status: 200, body: '{\"db\":\"ok\",\"server\":\"ok\"}'}\n    - {url: 'https://api.cloud.quandela.com/api/platforms/public', status: 200, note: 'per-platform status, maintenance windows and daily availability'}\nsdk_authentication:\n  library: perceval-quandela\n  class: perceval.providers.quandela.quandela_session.Session\n  signature: Session(platform_name,\
   \ token, url=None)\n  source: https://perceval.quandela.net/docs/v1.2/reference/providers.html\n  note: >-\n    The Python SDK takes the Cloud Job Token directly as the `token` argument\n    and defaults `url` to the Quandela Cloud endpoint. Perceval can persist the\n    token in its PersistentData store (path overridable via\n    PCVL_PERSISTENT_PATH, added in v1.1.0) so it is not re-supplied per run.\ngaps:\n  - >-\n    Two credential classes share one undifferentiated BearerAuth scheme; which\n    credential an operation wants is stated only in tag prose.\n  - >-\n    No OAuth 2.0 or OIDC. account.quandela.com publishes no discovery document,\n    so obtaining the account access token is undocumented and unautomatable from\n    public material.\n  - No scopes or permissions model — a Cloud Job Token is all-or-nothing within its offer.\n  - No token introspection or revocation-check endpoint for a bearer holder.\n  - No mTLS, no proof-of-possession, no DPoP.\n  - No bearerFormat declared;\
   \ token structure is opaque and undocumented.\n  - The rendered auth documentation is behind a login at account.quandela.com.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/authentication/quandela-authentication.yml
+source_yaml_url: https://artifacts.apis.io/quandela/authentication/quandela-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Quantum Computing

@@ -7,19 +7,19 @@ api_specs:
   label: BMC XIV Discovery API
   slug: bmcxiv-com-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmcxiv-com/refs/heads/main/openapi/bmcxiv-com-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/bmcxiv-com/openapi/bmcxiv-com-discovery-api-openapi.yml
 - filename: bmcxiv-com-owner-verification-api-openapi.yml
   format: yaml
   label: BMC XIV Owner Verification API
   slug: bmcxiv-com-owner-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmcxiv-com/refs/heads/main/openapi/bmcxiv-com-owner-verification-api-openapi.yml
+  url: https://artifacts.apis.io/bmcxiv-com/openapi/bmcxiv-com-owner-verification-api-openapi.yml
 - filename: bmcxiv-com-paid-check-api-openapi.yml
   format: yaml
   label: BMC XIV Paid Check API
   slug: bmcxiv-com-paid-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmcxiv-com/refs/heads/main/openapi/bmcxiv-com-paid-check-api-openapi.yml
+  url: https://artifacts.apis.io/bmcxiv-com/openapi/bmcxiv-com-paid-check-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: bmcxiv-com-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: derived\nsource: openapi/bmcxiv-com-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: opaque-token\n  sources:\n  - openapi/bmcxiv-com-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bmcxiv-com/refs/heads/main/authentication/bmcxiv-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bmcxiv-com/authentication/bmcxiv-com-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

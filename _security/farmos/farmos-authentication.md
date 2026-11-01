@@ -7,37 +7,37 @@ api_specs:
   label: farmOS Assets API
   slug: farmos-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/openapi/farmos-assets-api-openapi.yml
+  url: https://artifacts.apis.io/farmos/openapi/farmos-assets-api-openapi.yml
 - filename: farmos-logs-api-openapi.yml
   format: yaml
   label: farmOS Logs API
   slug: farmos-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/openapi/farmos-logs-api-openapi.yml
+  url: https://artifacts.apis.io/farmos/openapi/farmos-logs-api-openapi.yml
 - filename: farmos-plans-api-openapi.yml
   format: yaml
   label: farmOS Plans API
   slug: farmos-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/openapi/farmos-plans-api-openapi.yml
+  url: https://artifacts.apis.io/farmos/openapi/farmos-plans-api-openapi.yml
 - filename: farmos-quantities-api-openapi.yml
   format: yaml
   label: farmOS Quantities API
   slug: farmos-quantities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/openapi/farmos-quantities-api-openapi.yml
+  url: https://artifacts.apis.io/farmos/openapi/farmos-quantities-api-openapi.yml
 - filename: farmos-server-info-api-openapi.yml
   format: yaml
   label: farmOS Server Info API
   slug: farmos-server-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/openapi/farmos-server-info-api-openapi.yml
+  url: https://artifacts.apis.io/farmos/openapi/farmos-server-info-api-openapi.yml
 - filename: farmos-taxonomy-api-openapi.yml
   format: yaml
   label: farmOS Taxonomy API
   slug: farmos-taxonomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/openapi/farmos-taxonomy-api-openapi.yml
+  url: https://artifacts.apis.io/farmos/openapi/farmos-taxonomy-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -83,7 +83,7 @@ source_filename: farmos-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/farmos-farmos-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: oauth2AuthorizationCode\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: /oauth/authorize\n    tokenUrl: /oauth/token\n    scopes: 3\n  description: |-\n    OAuth2 Authorization Code grant for third-party integrations. Users\n    authorize the client application to access their farmOS data.\n  sources:\n  - openapi/farmos-farmos-api-openapi.yml\n- name: oauth2ClientCredentials\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n    scopes: 3\n  description: |-\n    OAuth2 Client Credentials grant for machine-to-machine authentication.\n    Used when no user account is required.\n  sources:\n  - openapi/farmos-farmos-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/authentication/farmos-authentication.yml
+source_yaml_url: https://artifacts.apis.io/farmos/authentication/farmos-authentication.yml
 summary_line: oauth2 · 2 schemes
 tags:
 - Agriculture

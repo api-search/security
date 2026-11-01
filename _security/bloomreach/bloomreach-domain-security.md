@@ -5,109 +5,109 @@ api_specs:
   label: Bloomreach Autosuggest API v2 API
   slug: bloomreach-autosuggest-api-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/openapi/bloomreach-autosuggest-api-v2-api-openapi.yml
+  url: https://artifacts.apis.io/bloomreach/openapi/bloomreach-autosuggest-api-v2-api-openapi.yml
 - filename: bloomreach-catalog-configuration-api-openapi.yml
   format: yaml
   label: Bloomreach Catalog configuration API
   slug: bloomreach-catalog-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/openapi/bloomreach-catalog-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/bloomreach/openapi/bloomreach-catalog-configuration-api-openapi.yml
 - filename: bloomreach-category-based-widget-api-openapi.yml
   format: yaml
   label: Bloomreach Category-based widget API
   slug: bloomreach-category-based-widget-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/openapi/bloomreach-category-based-widget-api-openapi.yml
+  url: https://artifacts.apis.io/bloomreach/openapi/bloomreach-category-based-widget-api-openapi.yml
 - filename: bloomreach-category-based-widget-products-api-openapi.yml
   format: yaml
   label: Bloomreach Category-based Widget Products API
   slug: bloomreach-category-based-widget-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/openapi/bloomreach-category-based-widget-products-api-openapi.yml
+  url: https://artifacts.apis.io/bloomreach/openapi/bloomreach-category-based-widget-products-api-openapi.yml
 - filename: bloomreach-feed-indexing-api-openapi.yml
   format: yaml
   label: Bloomreach Feed indexing API
   slug: bloomreach-feed-indexing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/openapi/bloomreach-feed-indexing-api-openapi.yml
+  url: https://artifacts.apis.io/bloomreach/openapi/bloomreach-feed-indexing-api-openapi.yml
 - filename: bloomreach-global-recommendation-widget-products-api-openapi.yml
   format: yaml
   label: Bloomreach Global Recommendation Widget Products API
   slug: bloomreach-global-recommendation-widget-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/openapi/bloomreach-global-recommendation-widget-products-api-openapi.yml
+  url: https://artifacts.apis.io/bloomreach/openapi/bloomreach-global-recommendation-widget-products-api-openapi.yml
 - filename: bloomreach-global-recommendations-widget-api-openapi.yml
   format: yaml
   label: Bloomreach Global recommendations widget API
   slug: bloomreach-global-recommendations-widget-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/openapi/bloomreach-global-recommendations-widget-api-openapi.yml
+  url: https://artifacts.apis.io/bloomreach/openapi/bloomreach-global-recommendations-widget-api-openapi.yml
 - filename: bloomreach-imports-api-openapi.yml
   format: yaml
   label: Bloomreach Imports API
   slug: bloomreach-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/openapi/bloomreach-imports-api-openapi.yml
+  url: https://artifacts.apis.io/bloomreach/openapi/bloomreach-imports-api-openapi.yml
 - filename: bloomreach-item-based-recommendation-widget-api-openapi.yml
   format: yaml
   label: Bloomreach Item-based recommendation widget API
   slug: bloomreach-item-based-recommendation-widget-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/openapi/bloomreach-item-based-recommendation-widget-api-openapi.yml
+  url: https://artifacts.apis.io/bloomreach/openapi/bloomreach-item-based-recommendation-widget-api-openapi.yml
 - filename: bloomreach-item-based-recommendation-widget-products-api-openapi.yml
   format: yaml
   label: Bloomreach Item-based Recommendation Widget Products API
   slug: bloomreach-item-based-recommendation-widget-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/openapi/bloomreach-item-based-recommendation-widget-products-api-openapi.yml
+  url: https://artifacts.apis.io/bloomreach/openapi/bloomreach-item-based-recommendation-widget-products-api-openapi.yml
 - filename: bloomreach-job-processing-api-openapi.yml
   format: yaml
   label: Bloomreach Job processing API
   slug: bloomreach-job-processing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/openapi/bloomreach-job-processing-api-openapi.yml
+  url: https://artifacts.apis.io/bloomreach/openapi/bloomreach-job-processing-api-openapi.yml
 - filename: bloomreach-keyword-based-widget-api-openapi.yml
   format: yaml
   label: Bloomreach Keyword-based widget API
   slug: bloomreach-keyword-based-widget-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/openapi/bloomreach-keyword-based-widget-api-openapi.yml
+  url: https://artifacts.apis.io/bloomreach/openapi/bloomreach-keyword-based-widget-api-openapi.yml
 - filename: bloomreach-keyword-based-widget-products-api-openapi.yml
   format: yaml
   label: Bloomreach Keyword-based Widget Products API
   slug: bloomreach-keyword-based-widget-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/openapi/bloomreach-keyword-based-widget-products-api-openapi.yml
+  url: https://artifacts.apis.io/bloomreach/openapi/bloomreach-keyword-based-widget-products-api-openapi.yml
 - filename: bloomreach-manage-feed-records-api-openapi.yml
   format: yaml
   label: Bloomreach Manage feed records API
   slug: bloomreach-manage-feed-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/openapi/bloomreach-manage-feed-records-api-openapi.yml
+  url: https://artifacts.apis.io/bloomreach/openapi/bloomreach-manage-feed-records-api-openapi.yml
 - filename: bloomreach-personalization-based-widget-products-api-openapi.yml
   format: yaml
   label: Bloomreach Personalization-based Widget Products API
   slug: bloomreach-personalization-based-widget-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/openapi/bloomreach-personalization-based-widget-products-api-openapi.yml
+  url: https://artifacts.apis.io/bloomreach/openapi/bloomreach-personalization-based-widget-products-api-openapi.yml
 - filename: bloomreach-personalization-based-widgets-api-openapi.yml
   format: yaml
   label: Bloomreach Personalization-based widgets API
   slug: bloomreach-personalization-based-widgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/openapi/bloomreach-personalization-based-widgets-api-openapi.yml
+  url: https://artifacts.apis.io/bloomreach/openapi/bloomreach-personalization-based-widgets-api-openapi.yml
 - filename: bloomreach-view-catalogs-data-api-openapi.yml
   format: yaml
   label: Bloomreach View Catalogs data API
   slug: bloomreach-view-catalogs-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/openapi/bloomreach-view-catalogs-data-api-openapi.yml
+  url: https://artifacts.apis.io/bloomreach/openapi/bloomreach-view-catalogs-data-api-openapi.yml
 - filename: bloomreach-visual-search-api-openapi.yml
   format: yaml
   label: Bloomreach Visual search API
   slug: bloomreach-visual-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/openapi/bloomreach-visual-search-api-openapi.yml
+  url: https://artifacts.apis.io/bloomreach/openapi/bloomreach-visual-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -154,7 +154,7 @@ source_filename: bloomreach-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bloomreach.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 23:48:11 2026 GMT\n  hsts: false\n- host: documentation.bloomreach.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 22:52:17 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.exponea.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 20:18:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: bloomreach.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: exponea.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/security/bloomreach-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bloomreach/security/bloomreach-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Digital Commerce

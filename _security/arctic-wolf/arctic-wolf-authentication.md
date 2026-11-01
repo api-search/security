@@ -7,19 +7,19 @@ api_specs:
   label: Arctic Wolf Attachment API
   slug: arctic-wolf-attachment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arctic-wolf/refs/heads/main/openapi/arctic-wolf-attachment-api-openapi.yml
+  url: https://artifacts.apis.io/arctic-wolf/openapi/arctic-wolf-attachment-api-openapi.yml
 - filename: arctic-wolf-comment-api-openapi.yml
   format: yaml
   label: Arctic Wolf Comment API
   slug: arctic-wolf-comment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arctic-wolf/refs/heads/main/openapi/arctic-wolf-comment-api-openapi.yml
+  url: https://artifacts.apis.io/arctic-wolf/openapi/arctic-wolf-comment-api-openapi.yml
 - filename: arctic-wolf-ticket-api-openapi.yml
   format: yaml
   label: Arctic Wolf Ticket API
   slug: arctic-wolf-ticket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arctic-wolf/refs/heads/main/openapi/arctic-wolf-ticket-api-openapi.yml
+  url: https://artifacts.apis.io/arctic-wolf/openapi/arctic-wolf-ticket-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -47,7 +47,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/arctic-wolf-ticket-api-openapi.json\ndocs: https://docs.arcticwolf.com/en/developer-and-oem/ticket-api/ticket-api-quick-start-guide/use-the-ticket-api\nsummary:\n  types:\n  - http\n  http_schemes:\n  - bearer\n  token_format: JWT\n  credential: Personal API Key\nnotes: >-\n  Arctic Wolf APIs (Ticket API, User API, Aurora Endpoint Defense API) authenticate\n  with a bearer JWT. Developers generate a Personal API Key in the Unified Portal\n  (portal.arcticwolf.com) under Organization Profile > Personal API Keys, then pass\n  it as a bearer token. Service endpoints are regional pods (US001/US002/US003,\n  EU001, AU001, CA001); select the pod that matches your organization. The Aurora\n  Endpoint Defense API additionally documents a short-lived access-token lifecycle\n  (tokens are single-use per request and valid for a few minutes).\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n \
   \ sources:\n  - openapi/arctic-wolf-ticket-api-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arctic-wolf/refs/heads/main/authentication/arctic-wolf-authentication.yml
+source_yaml_url: https://artifacts.apis.io/arctic-wolf/authentication/arctic-wolf-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

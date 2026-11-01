@@ -7,19 +7,19 @@ api_specs:
   label: World Health Organization (WHO) Foundation API
   slug: who-foundation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/who/refs/heads/main/openapi/who-foundation-api-openapi.yml
+  url: https://artifacts.apis.io/who/openapi/who-foundation-api-openapi.yml
 - filename: who-icd10-api-openapi.yml
   format: yaml
   label: World Health Organization (WHO) ICD10 API
   slug: who-icd10-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/who/refs/heads/main/openapi/who-icd10-api-openapi.yml
+  url: https://artifacts.apis.io/who/openapi/who-icd10-api-openapi.yml
 - filename: who-linearization-classification-endpoints-api-openapi.yml
   format: yaml
   label: World Health Organization (WHO) Linearization (classification endpoints) API
   slug: who-linearization-classification-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/who/refs/heads/main/openapi/who-linearization-classification-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/who/openapi/who-linearization-classification-endpoints-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -49,7 +49,7 @@ source_filename: who-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/who-icd-api-openapi.json\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://icdaccessmanagement.who.int/connect/token\n    scopes: 1\n  sources:\n  - openapi/who-icd-api-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/who/refs/heads/main/authentication/who-authentication.yml
+source_yaml_url: https://artifacts.apis.io/who/authentication/who-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Health

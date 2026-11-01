@@ -9,7 +9,7 @@ api_specs:
   label: Centrica Oauth2 API
   slug: centrica-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/openapi/centrica-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/centrica/openapi/centrica-oauth2-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: centrica-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-27'\nmethod: derived\nsource: openapi/centrica-fieldops-identity-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: apiKeyHeader\n  type: apiKey\n  in: header\n  parameter: Ocp-Apim-Subscription-Key\n  sources:\n  - openapi/centrica-fieldops-identity-api-openapi.yml\n- name: apiKeyQuery\n  type: apiKey\n  in: query\n  parameter: subscription-key\n  sources:\n  - openapi/centrica-fieldops-identity-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/authentication/centrica-authentication.yml
+source_yaml_url: https://artifacts.apis.io/centrica/authentication/centrica-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Energy
@@ -54,5 +54,5 @@ tags:
 - Energy Retail
 - Energy Markets
 - Ireland
-- Field Service
+- Field Service Management
 ---

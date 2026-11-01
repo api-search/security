@@ -8,43 +8,43 @@ api_specs:
   label: Lightly Datasets API
   slug: lightly-ai-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/openapi/lightly-ai-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/lightly-ai/openapi/lightly-ai-datasets-api-openapi.yml
 - filename: lightly-ai-embeddings-api-openapi.yml
   format: yaml
   label: Lightly Embeddings API
   slug: lightly-ai-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/openapi/lightly-ai-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/lightly-ai/openapi/lightly-ai-embeddings-api-openapi.yml
 - filename: lightly-ai-jobs-api-openapi.yml
   format: yaml
   label: Lightly Jobs API
   slug: lightly-ai-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/openapi/lightly-ai-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/lightly-ai/openapi/lightly-ai-jobs-api-openapi.yml
 - filename: lightly-ai-samples-api-openapi.yml
   format: yaml
   label: Lightly Samples API
   slug: lightly-ai-samples-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/openapi/lightly-ai-samples-api-openapi.yml
+  url: https://artifacts.apis.io/lightly-ai/openapi/lightly-ai-samples-api-openapi.yml
 - filename: lightly-ai-selection-api-openapi.yml
   format: yaml
   label: Lightly Selection API
   slug: lightly-ai-selection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/openapi/lightly-ai-selection-api-openapi.yml
+  url: https://artifacts.apis.io/lightly-ai/openapi/lightly-ai-selection-api-openapi.yml
 - filename: lightly-ai-tags-api-openapi.yml
   format: yaml
   label: Lightly Tags API
   slug: lightly-ai-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/openapi/lightly-ai-tags-api-openapi.yml
+  url: https://artifacts.apis.io/lightly-ai/openapi/lightly-ai-tags-api-openapi.yml
 - filename: lightly-ai-data-sources-api-openapi.yml
   format: yaml
   label: Lightly Data Sources API
   slug: lightly-ai-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/openapi/lightly-ai-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/lightly-ai/openapi/lightly-ai-data-sources-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -80,7 +80,7 @@ source_filename: lightly-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/lightly-ai-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: query\n  parameter: token\n  description: LightlyOne API token passed as the `token` query parameter. Find your token in\n    the preferences menu of the LightlyOne Platform.\n  sources:\n  - openapi/lightly-ai-openapi.yml\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: 'Public JWT bearer token passed in the `Authorization: Bearer <token>` header\n    for browser / public-token authenticated calls.'\n  sources:\n  - openapi/lightly-ai-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/authentication/lightly-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lightly-ai/authentication/lightly-ai-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Artificial Intelligence

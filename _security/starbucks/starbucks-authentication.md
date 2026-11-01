@@ -7,31 +7,31 @@ api_specs:
   label: Starbucks Loyalty API
   slug: starbucks-loyalty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starbucks/refs/heads/main/openapi/starbucks-loyalty-api-openapi.yml
+  url: https://artifacts.apis.io/starbucks/openapi/starbucks-loyalty-api-openapi.yml
 - filename: starbucks-menu-api-openapi.yml
   format: yaml
   label: Starbucks Menu API
   slug: starbucks-menu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starbucks/refs/heads/main/openapi/starbucks-menu-api-openapi.yml
+  url: https://artifacts.apis.io/starbucks/openapi/starbucks-menu-api-openapi.yml
 - filename: starbucks-orders-api-openapi.yml
   format: yaml
   label: Starbucks Orders API
   slug: starbucks-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starbucks/refs/heads/main/openapi/starbucks-orders-api-openapi.yml
+  url: https://artifacts.apis.io/starbucks/openapi/starbucks-orders-api-openapi.yml
 - filename: starbucks-status-api-openapi.yml
   format: yaml
   label: Starbucks Status API
   slug: starbucks-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starbucks/refs/heads/main/openapi/starbucks-status-api-openapi.yml
+  url: https://artifacts.apis.io/starbucks/openapi/starbucks-status-api-openapi.yml
 - filename: starbucks-stores-api-openapi.yml
   format: yaml
   label: Starbucks Stores API
   slug: starbucks-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starbucks/refs/heads/main/openapi/starbucks-stores-api-openapi.yml
+  url: https://artifacts.apis.io/starbucks/openapi/starbucks-stores-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: starbucks-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/starbucks-starbucks-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/starbucks-starbucks-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/starbucks/refs/heads/main/authentication/starbucks-authentication.yml
+source_yaml_url: https://artifacts.apis.io/starbucks/authentication/starbucks-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Coffee

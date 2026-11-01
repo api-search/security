@@ -43,7 +43,7 @@ source_filename: angular-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: angular.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 05:52:38 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\n- host: cli.angular.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 23:18:58 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\ndomains:\n- domain: angular.dev\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n- domain: angular.io\n  dnssec: true\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 iodef \"mailto:angular-devinfra@google.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/angular/refs/heads/main/security/angular-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/angular/security/angular-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Deferrable Views

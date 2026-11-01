@@ -8,55 +8,55 @@ api_specs:
   label: Altruistiq Export API
   slug: altruistiq-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-export-api-openapi.yml
+  url: https://artifacts.apis.io/altruistiq/openapi/altruistiq-export-api-openapi.yml
 - filename: altruistiq-facility-api-openapi.yml
   format: yaml
   label: Altruistiq Facility API
   slug: altruistiq-facility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-facility-api-openapi.yml
+  url: https://artifacts.apis.io/altruistiq/openapi/altruistiq-facility-api-openapi.yml
 - filename: altruistiq-location-api-openapi.yml
   format: yaml
   label: Altruistiq Location API
   slug: altruistiq-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-location-api-openapi.yml
+  url: https://artifacts.apis.io/altruistiq/openapi/altruistiq-location-api-openapi.yml
 - filename: altruistiq-organization-api-openapi.yml
   format: yaml
   label: Altruistiq Organization API
   slug: altruistiq-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-organization-api-openapi.yml
+  url: https://artifacts.apis.io/altruistiq/openapi/altruistiq-organization-api-openapi.yml
 - filename: altruistiq-product-api-openapi.yml
   format: yaml
   label: Altruistiq Product API
   slug: altruistiq-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-product-api-openapi.yml
+  url: https://artifacts.apis.io/altruistiq/openapi/altruistiq-product-api-openapi.yml
 - filename: altruistiq-product-structure-api-openapi.yml
   format: yaml
   label: Altruistiq Product structure API
   slug: altruistiq-product-structure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-product-structure-api-openapi.yml
+  url: https://artifacts.apis.io/altruistiq/openapi/altruistiq-product-structure-api-openapi.yml
 - filename: altruistiq-product-structure-inputs-api-openapi.yml
   format: yaml
   label: Altruistiq Product structure inputs API
   slug: altruistiq-product-structure-inputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-product-structure-inputs-api-openapi.yml
+  url: https://artifacts.apis.io/altruistiq/openapi/altruistiq-product-structure-inputs-api-openapi.yml
 - filename: altruistiq-security-api-openapi.yml
   format: yaml
   label: Altruistiq Security API
   slug: altruistiq-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-security-api-openapi.yml
+  url: https://artifacts.apis.io/altruistiq/openapi/altruistiq-security-api-openapi.yml
 - filename: altruistiq-data-source-api-openapi.yml
   format: yaml
   label: Altruistiq Data Source API
   slug: altruistiq-data-source-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-data-source-api-openapi.yml
+  url: https://artifacts.apis.io/altruistiq/openapi/altruistiq-data-source-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -94,7 +94,7 @@ source_filename: altruistiq-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/altruistiq-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: bearerAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Enter the token with the `Bearer: ` prefix, e.g. `Bearer: apiKey`.'\n  sources:\n  - openapi/altruistiq-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://app.altruistiq.com/api/public/v1/oauth2/token\n    scopes: 0\n  sources:\n  - openapi/altruistiq-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/authentication/altruistiq-authentication.yml
+source_yaml_url: https://artifacts.apis.io/altruistiq/authentication/altruistiq-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Sustainability

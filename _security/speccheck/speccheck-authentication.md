@@ -7,25 +7,25 @@ api_specs:
   label: SpecCheck Authentication API
   slug: speccheck-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/openapi/speccheck-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/speccheck/openapi/speccheck-authentication-api-openapi.yml
 - filename: speccheck-catalogs-api-openapi.yml
   format: yaml
   label: SpecCheck Catalogs API
   slug: speccheck-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/openapi/speccheck-catalogs-api-openapi.yml
+  url: https://artifacts.apis.io/speccheck/openapi/speccheck-catalogs-api-openapi.yml
 - filename: speccheck-labs-api-openapi.yml
   format: yaml
   label: SpecCheck Labs API
   slug: speccheck-labs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/openapi/speccheck-labs-api-openapi.yml
+  url: https://artifacts.apis.io/speccheck/openapi/speccheck-labs-api-openapi.yml
 - filename: speccheck-orders-api-openapi.yml
   format: yaml
   label: SpecCheck Orders API
   slug: speccheck-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/openapi/speccheck-orders-api-openapi.yml
+  url: https://artifacts.apis.io/speccheck/openapi/speccheck-orders-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: speccheck-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/speccheck-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token obtained from POST /v1/oauth/token using client credentials. Tokens\n    expire after 24 hours.\n  sources:\n  - openapi/speccheck-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/authentication/speccheck-authentication.yml
+source_yaml_url: https://artifacts.apis.io/speccheck/authentication/speccheck-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

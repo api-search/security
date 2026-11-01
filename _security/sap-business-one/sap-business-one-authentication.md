@@ -8,55 +8,55 @@ api_specs:
   label: SAP Business One BusinessPartners('{CardCode}') API
   slug: sap-business-one-businesspartners-cardcode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-businesspartners-cardcode-api-openapi.yml
+  url: https://artifacts.apis.io/sap-business-one/openapi/sap-business-one-businesspartners-cardcode-api-openapi.yml
 - filename: sap-business-one-companyservice-getcompanyinfo-api-openapi.yml
   format: yaml
   label: SAP Business One CompanyService GetCompanyInfo API
   slug: sap-business-one-companyservice-getcompanyinfo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-companyservice-getcompanyinfo-api-openapi.yml
+  url: https://artifacts.apis.io/sap-business-one/openapi/sap-business-one-companyservice-getcompanyinfo-api-openapi.yml
 - filename: sap-business-one-invoices-api-openapi.yml
   format: yaml
   label: SAP Business One Invoices API
   slug: sap-business-one-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/sap-business-one/openapi/sap-business-one-invoices-api-openapi.yml
 - filename: sap-business-one-items-api-openapi.yml
   format: yaml
   label: SAP Business One Items API
   slug: sap-business-one-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-items-api-openapi.yml
+  url: https://artifacts.apis.io/sap-business-one/openapi/sap-business-one-items-api-openapi.yml
 - filename: sap-business-one-login-api-openapi.yml
   format: yaml
   label: SAP Business One Login API
   slug: sap-business-one-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-login-api-openapi.yml
+  url: https://artifacts.apis.io/sap-business-one/openapi/sap-business-one-login-api-openapi.yml
 - filename: sap-business-one-logout-api-openapi.yml
   format: yaml
   label: SAP Business One Logout API
   slug: sap-business-one-logout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-logout-api-openapi.yml
+  url: https://artifacts.apis.io/sap-business-one/openapi/sap-business-one-logout-api-openapi.yml
 - filename: sap-business-one-orders-api-openapi.yml
   format: yaml
   label: SAP Business One Orders API
   slug: sap-business-one-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-orders-api-openapi.yml
+  url: https://artifacts.apis.io/sap-business-one/openapi/sap-business-one-orders-api-openapi.yml
 - filename: sap-business-one-orders-docentry-api-openapi.yml
   format: yaml
   label: SAP Business One Orders({DocEntry}) API
   slug: sap-business-one-orders-docentry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-orders-docentry-api-openapi.yml
+  url: https://artifacts.apis.io/sap-business-one/openapi/sap-business-one-orders-docentry-api-openapi.yml
 - filename: sap-business-one-business-partners-api-openapi.yml
   format: yaml
   label: SAP Business One Business Partners API
   slug: sap-business-one-business-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-business-partners-api-openapi.yml
+  url: https://artifacts.apis.io/sap-business-one/openapi/sap-business-one-business-partners-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -84,7 +84,7 @@ source_filename: sap-business-one-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sap-business-one-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - cookie\nschemes:\n- name: sessionCookie\n  type: apiKey\n  in: cookie\n  parameter: B1SESSION\n  description: Session cookie returned from POST /Login.\n  sources:\n  - openapi/sap-business-one-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/authentication/sap-business-one-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sap-business-one/authentication/sap-business-one-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - ERP

@@ -8,61 +8,61 @@ api_specs:
   label: 2X Alignment API
   slug: 2x-alignment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/openapi/2x-alignment-api-openapi.yml
+  url: https://artifacts.apis.io/2x/openapi/2x-alignment-api-openapi.yml
 - filename: 2x-api-keys-api-openapi.yml
   format: yaml
   label: 2X API Keys API
   slug: 2x-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/openapi/2x-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/2x/openapi/2x-api-keys-api-openapi.yml
 - filename: 2x-clients-api-openapi.yml
   format: yaml
   label: 2X Clients API
   slug: 2x-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/openapi/2x-clients-api-openapi.yml
+  url: https://artifacts.apis.io/2x/openapi/2x-clients-api-openapi.yml
 - filename: 2x-documentation-api-openapi.yml
   format: yaml
   label: 2X Documentation API
   slug: 2x-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/openapi/2x-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/2x/openapi/2x-documentation-api-openapi.yml
 - filename: 2x-health-api-openapi.yml
   format: yaml
   label: 2X Health API
   slug: 2x-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/openapi/2x-health-api-openapi.yml
+  url: https://artifacts.apis.io/2x/openapi/2x-health-api-openapi.yml
 - filename: 2x-portfolios-api-openapi.yml
   format: yaml
   label: 2X Portfolios API
   slug: 2x-portfolios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/openapi/2x-portfolios-api-openapi.yml
+  url: https://artifacts.apis.io/2x/openapi/2x-portfolios-api-openapi.yml
 - filename: 2x-root-api-openapi.yml
   format: yaml
   label: 2X Root API
   slug: 2x-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/openapi/2x-root-api-openapi.yml
+  url: https://artifacts.apis.io/2x/openapi/2x-root-api-openapi.yml
 - filename: 2x-status-api-openapi.yml
   format: yaml
   label: 2X Status API
   slug: 2x-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/openapi/2x-status-api-openapi.yml
+  url: https://artifacts.apis.io/2x/openapi/2x-status-api-openapi.yml
 - filename: 2x-streams-api-openapi.yml
   format: yaml
   label: 2X Streams API
   slug: 2x-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/openapi/2x-streams-api-openapi.yml
+  url: https://artifacts.apis.io/2x/openapi/2x-streams-api-openapi.yml
 - filename: 2x-topics-api-openapi.yml
   format: yaml
   label: 2X Topics API
   slug: 2x-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/openapi/2x-topics-api-openapi.yml
+  url: https://artifacts.apis.io/2x/openapi/2x-topics-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -130,7 +130,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/2x-know
   \ Sent on every request as X-API-Key. A missing key returns\n    HTTP 401 with body {\"detail\":\"API key is required. Provide it in the X-API-Key header.\"}\n    (observed 2026-08-13). Keys are issued and revoked through the /v1/api-keys operations,\n    which are themselves protected by a separate `authorization` header parameter, so there\n    is no anonymous self-serve key issuance.\n  key_management:\n    create: create_api_key_v1_api_keys_post\n    list: list_api_keys_v1_api_keys_get\n    revoke: revoke_api_key_v1_api_keys__key_id__delete\n    scoped: true\n    scope_field: scope\n    expiry_field: expires_days\n- name: KnownwellMCPOAuth\n  type: oauth2\n  applies_to: https://mcp.knownwell.com/mcp\n  method: probed\n  sources:\n  - well-known/2x-oauth-authorization-server.json\n  - well-known/2x-oauth-protected-resource.json\n  description: >-\n    OAuth 2.1 authorization-code flow with mandatory PKCE, protecting the remote MCP\n    endpoint. Supports dynamic client registration,\
   \ so an MCP client can onboard without a\n    pre-provisioned client_id.\n  issuer: https://mcp.knownwell.com/\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://mcp.knownwell.com/authorize\n    tokenUrl: https://mcp.knownwell.com/token\n    scopes:\n      knownwell.read: Read access to Knownwell commercial-intelligence data\n  registration_endpoint: https://mcp.knownwell.com/register\n  revocation_endpoint: https://mcp.knownwell.com/revoke\n  code_challenge_methods: [S256]\n  grant_types: [authorization_code, refresh_token]\n  token_endpoint_auth_methods: [client_secret_post, client_secret_basic]\n  bearer_methods: [header]\nanonymous_surfaces:\n- url: https://api.knownwell.com/openapi.json\n  note: the OpenAPI document itself is served without authentication\n- url: https://api.knownwell.com/health\n  note: health check is anonymous\n- url: https://2x.com/wp-json/\n  note: >-\n    the corporate site's WordPress REST API is anonymously readable; WordPress application\n\
   \    passwords are the documented write-side auth but no anonymous write is exposed\nx-evidence:\n  fetched: '2026-08-13'\n  probes:\n  - url: https://api.knownwell.com/v1/clients\n    status: 401\n    body: '{\"detail\":\"API key is required. Provide it in the X-API-Key header.\"}'\n  - url: https://mcp.knownwell.com/mcp\n    status: 401\n    www_authenticate: Bearer error=\"invalid_token\"\n  - url: https://mcp.knownwell.com/.well-known/oauth-authorization-server\n    status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/authentication/2x-authentication.yml
+source_yaml_url: https://artifacts.apis.io/2x/authentication/2x-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company

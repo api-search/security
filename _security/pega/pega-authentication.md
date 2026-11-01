@@ -36,7 +36,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://github.com/pegasystems/pega-launchpad-agent-skills (launchpad-dx-apis/webembed SKILL.md) + docs.pega.com DX API authentication\ndocs: https://docs.pega.com/bundle/platform/page/platform/dx-api/dx-api-overview.html\nsummary:\n  types: [oauth2]\n  oauth2_flows: [clientCredentials, authorizationCode]\n  notes: >-\n    Pega DX APIs authenticate with OAuth 2.0. Access is granted via an OAuth 2.0\n    Client Registration rule in the Pega/Launchpad environment; the Persona bound\n    to the client registration determines the access roles and privileges (and\n    therefore which DX API operations the credentials may invoke). Callers are\n    provisioned an Application URL, an Access Token URL, a Client ID and a Client\n    Secret.\nschemes:\n  - name: OAuth2 Client Credentials\n    type: oauth2\n    flow: clientCredentials\n    token_url_pattern: \"https://<accessTokenURL>/token\"\n    grant: client_credentials\n    used_for:\
   \ Server-to-server / external-system DX API integration (create case, get case, run action, query data views).\n    role_binding: Persona on the Client Registration rule\n  - name: OAuth2 Authorization Code (PKCE)\n    type: oauth2\n    flow: authorizationCode\n    pkce: true\n    used_for: Browser/embedded experiences (e.g. the <pega-embed> web-embed component) acting on behalf of an interactive user.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/authentication/pega-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pega/authentication/pega-authentication.yml
 summary_line: oauth2 · 2 schemes
 tags:
 - Company

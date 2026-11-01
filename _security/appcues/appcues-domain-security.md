@@ -5,79 +5,79 @@ api_specs:
   label: Appcues Banners API
   slug: appcues-banners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcues/refs/heads/main/openapi/appcues-banners-api-openapi.yml
+  url: https://artifacts.apis.io/appcues/openapi/appcues-banners-api-openapi.yml
 - filename: appcues-events-api-openapi.yml
   format: yaml
   label: Appcues Events API
   slug: appcues-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcues/refs/heads/main/openapi/appcues-events-api-openapi.yml
+  url: https://artifacts.apis.io/appcues/openapi/appcues-events-api-openapi.yml
 - filename: appcues-exports-api-openapi.yml
   format: yaml
   label: Appcues Exports API
   slug: appcues-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcues/refs/heads/main/openapi/appcues-exports-api-openapi.yml
+  url: https://artifacts.apis.io/appcues/openapi/appcues-exports-api-openapi.yml
 - filename: appcues-flows-api-openapi.yml
   format: yaml
   label: Appcues Flows API
   slug: appcues-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcues/refs/heads/main/openapi/appcues-flows-api-openapi.yml
+  url: https://artifacts.apis.io/appcues/openapi/appcues-flows-api-openapi.yml
 - filename: appcues-groups-api-openapi.yml
   format: yaml
   label: Appcues Groups API
   slug: appcues-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcues/refs/heads/main/openapi/appcues-groups-api-openapi.yml
+  url: https://artifacts.apis.io/appcues/openapi/appcues-groups-api-openapi.yml
 - filename: appcues-imports-api-openapi.yml
   format: yaml
   label: Appcues Imports API
   slug: appcues-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcues/refs/heads/main/openapi/appcues-imports-api-openapi.yml
+  url: https://artifacts.apis.io/appcues/openapi/appcues-imports-api-openapi.yml
 - filename: appcues-jobs-api-openapi.yml
   format: yaml
   label: Appcues Jobs API
   slug: appcues-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcues/refs/heads/main/openapi/appcues-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/appcues/openapi/appcues-jobs-api-openapi.yml
 - filename: appcues-launchpads-api-openapi.yml
   format: yaml
   label: Appcues Launchpads API
   slug: appcues-launchpads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcues/refs/heads/main/openapi/appcues-launchpads-api-openapi.yml
+  url: https://artifacts.apis.io/appcues/openapi/appcues-launchpads-api-openapi.yml
 - filename: appcues-mobile-api-openapi.yml
   format: yaml
   label: Appcues Mobile API
   slug: appcues-mobile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcues/refs/heads/main/openapi/appcues-mobile-api-openapi.yml
+  url: https://artifacts.apis.io/appcues/openapi/appcues-mobile-api-openapi.yml
 - filename: appcues-pins-api-openapi.yml
   format: yaml
   label: Appcues Pins API
   slug: appcues-pins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcues/refs/heads/main/openapi/appcues-pins-api-openapi.yml
+  url: https://artifacts.apis.io/appcues/openapi/appcues-pins-api-openapi.yml
 - filename: appcues-segments-api-openapi.yml
   format: yaml
   label: Appcues Segments API
   slug: appcues-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcues/refs/heads/main/openapi/appcues-segments-api-openapi.yml
+  url: https://artifacts.apis.io/appcues/openapi/appcues-segments-api-openapi.yml
 - filename: appcues-tags-api-openapi.yml
   format: yaml
   label: Appcues Tags API
   slug: appcues-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcues/refs/heads/main/openapi/appcues-tags-api-openapi.yml
+  url: https://artifacts.apis.io/appcues/openapi/appcues-tags-api-openapi.yml
 - filename: appcues-users-api-openapi.yml
   format: yaml
   label: Appcues Users API
   slug: appcues-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcues/refs/heads/main/openapi/appcues-users-api-openapi.yml
+  url: https://artifacts.apis.io/appcues/openapi/appcues-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -116,7 +116,7 @@ source_filename: appcues-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.appcues.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 01:45:28 2026 GMT\n  hsts: false\n- host: api.appcues.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 15 23:59:59 2026 GMT\n  hsts: false\n- host: api.eu.appcues.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 10 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: appcues.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appcues/refs/heads/main/security/appcues-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/appcues/security/appcues-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Product

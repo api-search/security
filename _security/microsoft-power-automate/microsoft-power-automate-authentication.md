@@ -7,37 +7,37 @@ api_specs:
   label: Microsoft Power Automate Connections API
   slug: microsoft-power-automate-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/openapi/microsoft-power-automate-connections-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-power-automate/openapi/microsoft-power-automate-connections-api-openapi.yml
 - filename: microsoft-power-automate-connectors-api-openapi.yml
   format: yaml
   label: Microsoft Power Automate Connectors API
   slug: microsoft-power-automate-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/openapi/microsoft-power-automate-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-power-automate/openapi/microsoft-power-automate-connectors-api-openapi.yml
 - filename: microsoft-power-automate-environments-api-openapi.yml
   format: yaml
   label: Microsoft Power Automate Environments API
   slug: microsoft-power-automate-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/openapi/microsoft-power-automate-environments-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-power-automate/openapi/microsoft-power-automate-environments-api-openapi.yml
 - filename: microsoft-power-automate-flow-permissions-api-openapi.yml
   format: yaml
   label: Microsoft Power Automate Flow Permissions API
   slug: microsoft-power-automate-flow-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/openapi/microsoft-power-automate-flow-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-power-automate/openapi/microsoft-power-automate-flow-permissions-api-openapi.yml
 - filename: microsoft-power-automate-flow-runs-api-openapi.yml
   format: yaml
   label: Microsoft Power Automate Flow Runs API
   slug: microsoft-power-automate-flow-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/openapi/microsoft-power-automate-flow-runs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-power-automate/openapi/microsoft-power-automate-flow-runs-api-openapi.yml
 - filename: microsoft-power-automate-flows-api-openapi.yml
   format: yaml
   label: Microsoft Power Automate Flows API
   slug: microsoft-power-automate-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/openapi/microsoft-power-automate-flows-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-power-automate/openapi/microsoft-power-automate-flows-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -69,7 +69,7 @@ source_filename: microsoft-power-automate-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/microsoft-power-automate-management-api.yaml\ndocs: https://learn.microsoft.com/en-us/power-automate/web-api#authentication\noidc_discovery: well-known/microsoft-power-automate-openid-configuration.json\nnotes: >-\n  Authentication is Microsoft Entra ID (Azure AD) OAuth 2.0. The API is a\n  protected resource (https://service.flow.microsoft.com); clients acquire a\n  token via the authorization code flow and present it as a Bearer token.\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/token\n    scopes: 1\n  description: Microsoft Entra ID (Azure AD) OAuth 2.0 authentication.\n  sources:\n  - openapi/microsoft-power-automate-management-api.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/authentication/microsoft-power-automate-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-power-automate/authentication/microsoft-power-automate-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Automation

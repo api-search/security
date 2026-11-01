@@ -7,61 +7,61 @@ api_specs:
   label: University of Sheffield Admin API
   slug: university-of-sheffield-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-admin-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-sheffield/openapi/university-of-sheffield-admin-api-openapi.yml
 - filename: university-of-sheffield-api-auth-api-openapi.yml
   format: yaml
   label: University of Sheffield API Auth API
   slug: university-of-sheffield-api-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-api-auth-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-sheffield/openapi/university-of-sheffield-api-auth-api-openapi.yml
 - filename: university-of-sheffield-auth-api-openapi.yml
   format: yaml
   label: University of Sheffield Auth API
   slug: university-of-sheffield-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-auth-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-sheffield/openapi/university-of-sheffield-auth-api-openapi.yml
 - filename: university-of-sheffield-health-api-openapi.yml
   format: yaml
   label: University of Sheffield Health API
   slug: university-of-sheffield-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-health-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-sheffield/openapi/university-of-sheffield-health-api-openapi.yml
 - filename: university-of-sheffield-metrics-api-openapi.yml
   format: yaml
   label: University of Sheffield Metrics API
   slug: university-of-sheffield-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-sheffield/openapi/university-of-sheffield-metrics-api-openapi.yml
 - filename: university-of-sheffield-pvforecast-api-openapi.yml
   format: yaml
   label: University of Sheffield Pvforecast API
   slug: university-of-sheffield-pvforecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-pvforecast-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-sheffield/openapi/university-of-sheffield-pvforecast-api-openapi.yml
 - filename: university-of-sheffield-pvlive-api-openapi.yml
   format: yaml
   label: University of Sheffield Pvlive API
   slug: university-of-sheffield-pvlive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-pvlive-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-sheffield/openapi/university-of-sheffield-pvlive-api-openapi.yml
 - filename: university-of-sheffield-pvlive-eu-api-openapi.yml
   format: yaml
   label: University of Sheffield Pvlive Eu API
   slug: university-of-sheffield-pvlive-eu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-pvlive-eu-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-sheffield/openapi/university-of-sheffield-pvlive-eu-api-openapi.yml
 - filename: university-of-sheffield-user-api-openapi.yml
   format: yaml
   label: University of Sheffield User API
   slug: university-of-sheffield-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-user-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-sheffield/openapi/university-of-sheffield-user-api-openapi.yml
 - filename: university-of-sheffield-users-api-openapi.yml
   format: yaml
   label: University of Sheffield Users API
   slug: university-of-sheffield-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-users-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-sheffield/openapi/university-of-sheffield-users-api-openapi.yml
 auth_types:
 - oauth2
 - apiKey
@@ -130,7 +130,7 @@ source_yaml: "---\ngenerated: '2026-08-30'\nmethod: derived\nsource: openapi/uni
   \ and /admin operations, not the open PV_Live reads.\n    source: https://api.solar.sheffield.ac.uk/openapi.json\n  - name: APIKeyCookie\n    api: Sheffield Solar API\n    type: apiKey\n    in: cookie\n    parameter: ssapi_session\n    note: Browser session cookie for the Sheffield Solar web UI.\n    source: https://api.solar.sheffield.ac.uk/openapi.json\n  - name: HTTPBasic\n    api: Sheffield Solar API\n    type: http\n    scheme: basic\n    source: https://api.solar.sheffield.ac.uk/openapi.json\n  - name: X-User-Id\n    api: Sheffield Solar API\n    type: apiKey\n    in: header\n    parameter: X-User-Id\n    note: >-\n      NOT declared in the published OpenAPI. Enforced at runtime on PV_Forecast\n      endpoints and discovered by live probe — a 401 body naming the header.\n      Recorded as an undocumented-but-real access control.\n    method: probed\n    source: https://api.solar.sheffield.ac.uk/pvforecast/api/v4/gsp/0\n  - name: Shibboleth IdP (SAML 2.0)\n    api: Institutional identity\
   \ federation\n    type: saml2\n    entity_id: https://idp.shef.ac.uk/shibboleth\n    metadata: https://idp.shef.ac.uk/idp/shibboleth\n    bindings:\n      - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST\n      - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign\n      - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect\n      - urn:oasis:names:tc:SAML:2.0:bindings:SOAP\n    note: >-\n      Institution-operated Shibboleth identity provider. This is how a University\n      of Sheffield affiliate authenticates into every vendor-tenanted service the\n      institution buys, and it is the one access surface here that is unambiguously\n      the institution's own engineering.\n    method: probed\n    source: https://idp.shef.ac.uk/idp/shibboleth\nnotes: >-\n  The University of Sheffield operates no central API gateway, no developer-key\n  issuance and no self-service developer portal. Access is either fully open\n  (PV_Live), gated by a per-service registration (PV_Forecast), or gated\
   \ by\n  institutional SSO through the Shibboleth IdP.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/authentication/university-of-sheffield-authentication.yml
+source_yaml_url: https://artifacts.apis.io/university-of-sheffield/authentication/university-of-sheffield-authentication.yml
 summary_line: oauth2/apiKey/http/saml2 · 5 schemes
 tags:
 - University

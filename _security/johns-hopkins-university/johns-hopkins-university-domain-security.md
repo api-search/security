@@ -5,25 +5,25 @@ api_specs:
   label: Johns Hopkins University SIS Classes API
   slug: johns-hopkins-university-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/openapi/johns-hopkins-university-classes-api-openapi.yml
+  url: https://artifacts.apis.io/johns-hopkins-university/openapi/johns-hopkins-university-classes-api-openapi.yml
 - filename: johns-hopkins-university-codes-api-openapi.yml
   format: yaml
   label: Johns Hopkins University SIS Codes API
   slug: johns-hopkins-university-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/openapi/johns-hopkins-university-codes-api-openapi.yml
+  url: https://artifacts.apis.io/johns-hopkins-university/openapi/johns-hopkins-university-codes-api-openapi.yml
 - filename: johns-hopkins-university-content-api-openapi.yml
   format: yaml
   label: Johns Hopkins University Content API
   slug: johns-hopkins-university-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/openapi/johns-hopkins-university-content-api-openapi.yml
+  url: https://artifacts.apis.io/johns-hopkins-university/openapi/johns-hopkins-university-content-api-openapi.yml
 - filename: johns-hopkins-university-taxonomy-api-openapi.yml
   format: yaml
   label: Johns Hopkins University Taxonomy API
   slug: johns-hopkins-university-taxonomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/openapi/johns-hopkins-university-taxonomy-api-openapi.yml
+  url: https://artifacts.apis.io/johns-hopkins-university/openapi/johns-hopkins-university-taxonomy-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: johns-hopkins-university-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.jhu.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 21:28:07 2026 GMT\n  hsts: null\n- host: api.hub.jhu.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 21:27:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: sis.jhu.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 10:52:09 2026 GMT\n  hsts: null\ndomains:\n- domain: jhu.edu\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/security/johns-hopkins-university-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/johns-hopkins-university/security/johns-hopkins-university-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - University

@@ -5,43 +5,61 @@ api_specs:
   label: dbt Accounts API
   slug: dbt-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/dbt/openapi/dbt-accounts-api-openapi.yml
 - filename: dbt-environments-api-openapi.yml
   format: yaml
   label: dbt Environments API
   slug: dbt-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-environments-api-openapi.yml
+  url: https://artifacts.apis.io/dbt/openapi/dbt-environments-api-openapi.yml
 - filename: dbt-jobs-api-openapi.yml
   format: yaml
   label: dbt Jobs API
   slug: dbt-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-jobs-api-openapi.yml
-- filename: dbt-metadata-api-openapi.yml
-  format: yaml
-  label: dbt Metadata API
-  slug: dbt-metadata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/dbt/openapi/dbt-jobs-api-openapi.yml
 - filename: dbt-metrics-api-openapi.yml
   format: yaml
   label: dbt Metrics API
   slug: dbt-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/dbt/openapi/dbt-metrics-api-openapi.yml
 - filename: dbt-projects-api-openapi.yml
   format: yaml
   label: dbt Projects API
   slug: dbt-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-projects-api-openapi.yml
+  url: https://artifacts.apis.io/dbt/openapi/dbt-projects-api-openapi.yml
 - filename: dbt-runs-api-openapi.yml
   format: yaml
   label: dbt Runs API
   slug: dbt-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-runs-api-openapi.yml
+  url: https://artifacts.apis.io/dbt/openapi/dbt-runs-api-openapi.yml
+- filename: dbt-fastapi-api-openapi.yml
+  format: yaml
+  label: dbt Fast API
+  slug: dbt-fastapi-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dbt/openapi/dbt-fastapi-api-openapi.yml
+- filename: dbt-private-api-openapi.yml
+  format: yaml
+  label: dbt Private API
+  slug: dbt-private-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dbt/openapi/dbt-private-api-openapi.yml
+- filename: dbt-ready-api-openapi.yml
+  format: yaml
+  label: dbt Ready API
+  slug: dbt-ready-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dbt/openapi/dbt-ready-api-openapi.yml
+- filename: dbt-graph-ql-api-openapi.yml
+  format: yaml
+  label: dbt Graph QL API
+  slug: dbt-graph-ql-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dbt/openapi/dbt-graph-ql-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -83,7 +101,7 @@ source_filename: dbt-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.getdbt.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 08:58:58 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.getdbt.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 19:37:10 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: cloud.getdbt.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 05:21:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: getdbt.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/security/dbt-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dbt/security/dbt-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics Engineering

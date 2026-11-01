@@ -5,103 +5,103 @@ api_specs:
   label: Dyno Admin API
   slug: dyno-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-admin-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-admin-api-openapi.yml
 - filename: dyno-agents-api-openapi.yml
   format: yaml
   label: Dyno Agents API
   slug: dyno-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-agents-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-agents-api-openapi.yml
 - filename: dyno-artifacts-api-openapi.yml
   format: yaml
   label: Dyno Artifacts API
   slug: dyno-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-artifacts-api-openapi.yml
 - filename: dyno-assets-api-openapi.yml
   format: yaml
   label: Dyno Assets API
   slug: dyno-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-assets-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-assets-api-openapi.yml
 - filename: dyno-auth-api-openapi.yml
   format: yaml
   label: Dyno Auth API
   slug: dyno-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-auth-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-auth-api-openapi.yml
 - filename: dyno-datasets-api-openapi.yml
   format: yaml
   label: Dyno Datasets API
   slug: dyno-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-datasets-api-openapi.yml
 - filename: dyno-files-api-openapi.yml
   format: yaml
   label: Dyno Files API
   slug: dyno-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-files-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-files-api-openapi.yml
 - filename: dyno-health-api-openapi.yml
   format: yaml
   label: Dyno Health API
   slug: dyno-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-health-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-health-api-openapi.yml
 - filename: dyno-ingest-api-openapi.yml
   format: yaml
   label: Dyno Ingest API
   slug: dyno-ingest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-ingest-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-ingest-api-openapi.yml
 - filename: dyno-jobs-api-openapi.yml
   format: yaml
   label: Dyno Jobs API
   slug: dyno-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-jobs-api-openapi.yml
 - filename: dyno-phi-api-openapi.yml
   format: yaml
   label: Dyno Phi API
   slug: dyno-phi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-phi-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-phi-api-openapi.yml
 - filename: dyno-protocols-api-openapi.yml
   format: yaml
   label: Dyno Protocols API
   slug: dyno-protocols-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-protocols-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-protocols-api-openapi.yml
 - filename: dyno-research-notes-api-openapi.yml
   format: yaml
   label: Dyno Research Notes API
   slug: dyno-research-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-research-notes-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-research-notes-api-openapi.yml
 - filename: dyno-runs-api-openapi.yml
   format: yaml
   label: Dyno Runs API
   slug: dyno-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-runs-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-runs-api-openapi.yml
 - filename: dyno-tools-api-openapi.yml
   format: yaml
   label: Dyno Tools API
   slug: dyno-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-tools-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-tools-api-openapi.yml
 - filename: dyno-tutorial-api-openapi.yml
   format: yaml
   label: Dyno Tutorial API
   slug: dyno-tutorial-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-tutorial-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-tutorial-api-openapi.yml
 - filename: dyno-workflows-api-openapi.yml
   format: yaml
   label: Dyno Workflows API
   slug: dyno-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -148,7 +148,7 @@ source_filename: dyno-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-10'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dynotx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 03:54:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: design.dynotx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 12:18:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.dyno-agents.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 15:51:34 2026 GMT\n  hsts: null\ndomains:\n- domain: dynotx.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: dyno-agents.app\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/security/dyno-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dyno/security/dyno-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

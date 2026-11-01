@@ -5,31 +5,31 @@ api_specs:
   label: Bored API Activities API
   slug: bored-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bored/refs/heads/main/openapi/bored-activities-api-openapi.yml
+  url: https://artifacts.apis.io/bored/openapi/bored-activities-api-openapi.yml
 - filename: bored-facts-api-openapi.yml
   format: yaml
   label: Bored API Facts API
   slug: bored-facts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bored/refs/heads/main/openapi/bored-facts-api-openapi.yml
+  url: https://artifacts.apis.io/bored/openapi/bored-facts-api-openapi.yml
 - filename: bored-riddles-api-openapi.yml
   format: yaml
   label: Bored API Riddles API
   slug: bored-riddles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bored/refs/heads/main/openapi/bored-riddles-api-openapi.yml
+  url: https://artifacts.apis.io/bored/openapi/bored-riddles-api-openapi.yml
 - filename: bored-suggestions-api-openapi.yml
   format: yaml
   label: Bored API Suggestions API
   slug: bored-suggestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bored/refs/heads/main/openapi/bored-suggestions-api-openapi.yml
+  url: https://artifacts.apis.io/bored/openapi/bored-suggestions-api-openapi.yml
 - filename: bored-websites-api-openapi.yml
   format: yaml
   label: Bored API Websites API
   slug: bored-websites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bored/refs/heads/main/openapi/bored-websites-api-openapi.yml
+  url: https://artifacts.apis.io/bored/openapi/bored-websites-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: bored-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.boredapi.com\n  https: false\n- host: bored-api.appbrewery.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 02:59:42 2026 GMT\n  hsts: false\ndomains:\n- domain: boredapi.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: appbrewery.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bored/refs/heads/main/security/bored-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bored/security/bored-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Activities

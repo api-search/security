@@ -28,7 +28,7 @@ source_filename: softbank-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.softbank.jp\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 28 14:59:00 2027 GMT\n  hsts: false\ndomains:\n- domain: softbank.jp\n  dnssec: false\n  caa:\n  - 0 contactemail \"sbbgrp-ssp-pmp@g.softbank.co.jp\"\n  - 0 contactemail \"SBBGRP-SPO2-IAA@g.softbank.co.jp\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/softbank/refs/heads/main/security/softbank-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/softbank/security/softbank-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

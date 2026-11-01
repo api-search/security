@@ -9,7 +9,7 @@ api_specs:
   label: University of Western Australia Oai Pmh API
   slug: uwa-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uwa/refs/heads/main/openapi/uwa-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/uwa/openapi/uwa-oai-pmh-api-openapi.yml
 auth_types:
 - none
 - apiKey
@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-08-30'\nmethod: probed\nsource: >-\n  Live probes
   - name: azure-apim-subscription-key\n  type: apiKey\n  in: header\n  parameter: Ocp-Apim-Subscription-Key\n  surface: uwa:developer-portal\n  x-operator: institution\n  confidence: medium\n  description: >-\n    api-portal.uwa.edu.au is a Microsoft Azure API Management developer portal (\"Discover APIs,\n    learn how to use them, try them out interactively, and sign up to acquire keys\"), and\n    api.uwa.edu.au answers as a live APIM gateway (HTTP/2 404, content-type application/json,\n    Azure request-context header). Azure APIM's subscription-key header is the platform default.\n    Marked medium confidence because the product catalog is behind sign-in — the specific header\n    name and any per-product override could not be read without an account, and /signup returns\n    404. No key was obtained and no protected operation was called.\n  sources:\n  - https://api-portal.uwa.edu.au/\n  - https://api.uwa.edu.au/\n- name: shibboleth-saml2\n  type: saml2\n  surface: uwa:identity-federation\n\
   \  x-operator: institution\n  description: >-\n    UWA operates its own Shibboleth SAML 2.0 identity provider at\n    https://idp.uwa.edu.au/idp/shibboleth, scoped to uwa.edu.au, with HTTP-POST and HTTP-Redirect\n    SingleSignOnService bindings and transient NameID. This is the credential behind essentially\n    every affiliation-gated UWA service, and it is the institution's most significant\n    machine-readable, standards-based surface.\n  sources:\n  - https://idp.uwa.edu.au/idp/shibboleth\nnot_assessed:\n- surface: Elsevier Pure Web Service (api.research-repository.uwa.edu.au/ws/api/524)\n  x-operator: tenant\n  reason: >-\n    Requires a Pure API key issued from the Pure Administrator tab. The contract is Elsevier's\n    (\"Pure Web Service 524\", info.contact.name \"Elsevier\"), so its auth model is Elsevier's\n    engineering and belongs to the Elsevier repo, not to UWA's.\n- surface: Ex Libris Primo VE (onesearch.library.uwa.edu.au)\n  x-operator: tenant\n  reason: Ex Libris\
   \ product; UWA is tenant 61UWA_INST. Auth model is Ex Libris's.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uwa/refs/heads/main/authentication/uwa-authentication.yml
+source_yaml_url: https://artifacts.apis.io/uwa/authentication/uwa-authentication.yml
 summary_line: none/apiKey/saml2 · 3 schemes
 tags:
 - Education

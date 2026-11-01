@@ -40,7 +40,7 @@ source_filename: mosyle-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mosyle.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 21 21:24:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: business.mosyle.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 21 21:24:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: businessapi.mosyle.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 21 21:24:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: mosyle.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mosyle/refs/heads/main/security/mosyle-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mosyle/security/mosyle-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company

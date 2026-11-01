@@ -5,19 +5,19 @@ api_specs:
   label: Coala Life Patient Sessions API
   slug: coala-life-patientsessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coala-life/refs/heads/main/openapi/coala-life-patientsessions-api-openapi.yml
+  url: https://artifacts.apis.io/coala-life/openapi/coala-life-patientsessions-api-openapi.yml
 - filename: coala-life-platform-api-api-openapi.yml
   format: yaml
   label: Coala Life Platform.Api API
   slug: coala-life-platform-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coala-life/refs/heads/main/openapi/coala-life-platform-api-api-openapi.yml
+  url: https://artifacts.apis.io/coala-life/openapi/coala-life-platform-api-api-openapi.yml
 - filename: coala-life-sessions-api-openapi.yml
   format: yaml
   label: Coala Life Sessions API
   slug: coala-life-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coala-life/refs/heads/main/openapi/coala-life-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/coala-life/openapi/coala-life-sessions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: coala-life-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.coalalife.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 22 19:45:32 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: coalalife.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coala-life/refs/heads/main/security/coala-life-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/coala-life/security/coala-life-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

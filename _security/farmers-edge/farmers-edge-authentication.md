@@ -8,67 +8,67 @@ api_specs:
   label: Farmers Edge Canplug API
   slug: farmers-edge-canplug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/openapi/farmers-edge-canplug-api-openapi.yml
+  url: https://artifacts.apis.io/farmers-edge/openapi/farmers-edge-canplug-api-openapi.yml
 - filename: farmers-edge-carbon-api-openapi.yml
   format: yaml
   label: Farmers Edge Carbon API
   slug: farmers-edge-carbon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/openapi/farmers-edge-carbon-api-openapi.yml
+  url: https://artifacts.apis.io/farmers-edge/openapi/farmers-edge-carbon-api-openapi.yml
 - filename: farmers-edge-client-api-openapi.yml
   format: yaml
   label: Farmers Edge Client API
   slug: farmers-edge-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/openapi/farmers-edge-client-api-openapi.yml
+  url: https://artifacts.apis.io/farmers-edge/openapi/farmers-edge-client-api-openapi.yml
 - filename: farmers-edge-contact-api-openapi.yml
   format: yaml
   label: Farmers Edge Contact API
   slug: farmers-edge-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/openapi/farmers-edge-contact-api-openapi.yml
+  url: https://artifacts.apis.io/farmers-edge/openapi/farmers-edge-contact-api-openapi.yml
 - filename: farmers-edge-gridcalc-api-openapi.yml
   format: yaml
   label: Farmers Edge Gridcalc API
   slug: farmers-edge-gridcalc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/openapi/farmers-edge-gridcalc-api-openapi.yml
+  url: https://artifacts.apis.io/farmers-edge/openapi/farmers-edge-gridcalc-api-openapi.yml
 - filename: farmers-edge-hefty-api-openapi.yml
   format: yaml
   label: Farmers Edge Hefty API
   slug: farmers-edge-hefty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/openapi/farmers-edge-hefty-api-openapi.yml
+  url: https://artifacts.apis.io/farmers-edge/openapi/farmers-edge-hefty-api-openapi.yml
 - filename: farmers-edge-integrations-api-openapi.yml
   format: yaml
   label: Farmers Edge Integrations API
   slug: farmers-edge-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/openapi/farmers-edge-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/farmers-edge/openapi/farmers-edge-integrations-api-openapi.yml
 - filename: farmers-edge-labcommand-api-openapi.yml
   format: yaml
   label: Farmers Edge Labcommand API
   slug: farmers-edge-labcommand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/openapi/farmers-edge-labcommand-api-openapi.yml
+  url: https://artifacts.apis.io/farmers-edge/openapi/farmers-edge-labcommand-api-openapi.yml
 - filename: farmers-edge-payments-api-openapi.yml
   format: yaml
   label: Farmers Edge Payments API
   slug: farmers-edge-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/openapi/farmers-edge-payments-api-openapi.yml
+  url: https://artifacts.apis.io/farmers-edge/openapi/farmers-edge-payments-api-openapi.yml
 - filename: farmers-edge-recengine-api-openapi.yml
   format: yaml
   label: Farmers Edge Recengine API
   slug: farmers-edge-recengine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/openapi/farmers-edge-recengine-api-openapi.yml
+  url: https://artifacts.apis.io/farmers-edge/openapi/farmers-edge-recengine-api-openapi.yml
 - filename: farmers-edge-token-login-api-openapi.yml
   format: yaml
   label: Farmers Edge Token Login API
   slug: farmers-edge-token-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/openapi/farmers-edge-token-login-api-openapi.yml
+  url: https://artifacts.apis.io/farmers-edge/openapi/farmers-edge-token-login-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -95,7 +95,7 @@ source_filename: farmers-edge-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/farmers-edge-farmcommand-openapi-original.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: FarmCommand Token\n  type: apiKey\n  in: query\n  parameter: token\n  sources:\n  - openapi/farmers-edge-farmcommand-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/authentication/farmers-edge-authentication.yml
+source_yaml_url: https://artifacts.apis.io/farmers-edge/authentication/farmers-edge-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

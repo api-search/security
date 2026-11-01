@@ -5,43 +5,43 @@ api_specs:
   label: Amazon Detective Graph API
   slug: amazon-detective-graph-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/openapi/amazon-detective-graph-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-detective/openapi/amazon-detective-graph-api-openapi.yml
 - filename: amazon-detective-investigations-api-openapi.yml
   format: yaml
   label: Amazon Detective Investigations API
   slug: amazon-detective-investigations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/openapi/amazon-detective-investigations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-detective/openapi/amazon-detective-investigations-api-openapi.yml
 - filename: amazon-detective-invitations-api-openapi.yml
   format: yaml
   label: Amazon Detective Invitations API
   slug: amazon-detective-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/openapi/amazon-detective-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-detective/openapi/amazon-detective-invitations-api-openapi.yml
 - filename: amazon-detective-members-api-openapi.yml
   format: yaml
   label: Amazon Detective Members API
   slug: amazon-detective-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/openapi/amazon-detective-members-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-detective/openapi/amazon-detective-members-api-openapi.yml
 - filename: amazon-detective-organizations-api-openapi.yml
   format: yaml
   label: Amazon Detective Organizations API
   slug: amazon-detective-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/openapi/amazon-detective-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-detective/openapi/amazon-detective-organizations-api-openapi.yml
 - filename: amazon-detective-tags-api-openapi.yml
   format: yaml
   label: Amazon Detective Tags API
   slug: amazon-detective-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/openapi/amazon-detective-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-detective/openapi/amazon-detective-tags-api-openapi.yml
 - filename: amazon-detective-data-sources-api-openapi.yml
   format: yaml
   label: Amazon Detective Data Sources API
   slug: amazon-detective-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/openapi/amazon-detective-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-detective/openapi/amazon-detective-data-sources-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -79,7 +79,7 @@ source_filename: amazon-detective-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: api.detective.amazonaws.com\n  https: false\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/security/amazon-detective-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amazon-detective/security/amazon-detective-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Forensics

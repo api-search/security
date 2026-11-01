@@ -5,55 +5,55 @@ api_specs:
   label: Fundrise Acknowledgments API
   slug: fundrise-acknowledgments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-acknowledgments-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-acknowledgments-api-openapi.yml
 - filename: fundrise-authentication-api-openapi.yml
   format: yaml
   label: Fundrise Authentication API
   slug: fundrise-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-authentication-api-openapi.yml
 - filename: fundrise-clients-api-openapi.yml
   format: yaml
   label: Fundrise Clients API
   slug: fundrise-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-clients-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-clients-api-openapi.yml
 - filename: fundrise-holdings-api-openapi.yml
   format: yaml
   label: Fundrise Holdings API
   slug: fundrise-holdings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-holdings-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-holdings-api-openapi.yml
 - filename: fundrise-investments-api-openapi.yml
   format: yaml
   label: Fundrise Investments API
   slug: fundrise-investments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-investments-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-investments-api-openapi.yml
 - filename: fundrise-liquidations-api-openapi.yml
   format: yaml
   label: Fundrise Liquidations API
   slug: fundrise-liquidations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-liquidations-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-liquidations-api-openapi.yml
 - filename: fundrise-offerings-api-openapi.yml
   format: yaml
   label: Fundrise Offerings API
   slug: fundrise-offerings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-offerings-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-offerings-api-openapi.yml
 - filename: fundrise-tax-forms-api-openapi.yml
   format: yaml
   label: Fundrise Tax Forms API
   slug: fundrise-tax-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-tax-forms-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-tax-forms-api-openapi.yml
 - filename: fundrise-transactions-api-openapi.yml
   format: yaml
   label: Fundrise Transactions API
   slug: fundrise-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -84,7 +84,7 @@ source_filename: fundrise-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: fundrise.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 23:59:59 2026 GMT\n  hsts: null\n- host: sandbox.fundrise.com\n  https: false\ndomains:\n- domain: fundrise.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/security/fundrise-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fundrise/security/fundrise-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

@@ -5,61 +5,61 @@ api_specs:
   label: United States Army Corps of Engineers Basins API
   slug: united-states-army-corps-of-engineers-basins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/openapi/united-states-army-corps-of-engineers-basins-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-army-corps-of-engineers/openapi/united-states-army-corps-of-engineers-basins-api-openapi.yml
 - filename: united-states-army-corps-of-engineers-catalog-api-openapi.yml
   format: yaml
   label: United States Army Corps of Engineers Catalog API
   slug: united-states-army-corps-of-engineers-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/openapi/united-states-army-corps-of-engineers-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-army-corps-of-engineers/openapi/united-states-army-corps-of-engineers-catalog-api-openapi.yml
 - filename: united-states-army-corps-of-engineers-forecasts-api-openapi.yml
   format: yaml
   label: United States Army Corps of Engineers Forecasts API
   slug: united-states-army-corps-of-engineers-forecasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/openapi/united-states-army-corps-of-engineers-forecasts-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-army-corps-of-engineers/openapi/united-states-army-corps-of-engineers-forecasts-api-openapi.yml
 - filename: united-states-army-corps-of-engineers-levels-api-openapi.yml
   format: yaml
   label: United States Army Corps of Engineers Levels API
   slug: united-states-army-corps-of-engineers-levels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/openapi/united-states-army-corps-of-engineers-levels-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-army-corps-of-engineers/openapi/united-states-army-corps-of-engineers-levels-api-openapi.yml
 - filename: united-states-army-corps-of-engineers-locations-api-openapi.yml
   format: yaml
   label: United States Army Corps of Engineers Locations API
   slug: united-states-army-corps-of-engineers-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/openapi/united-states-army-corps-of-engineers-locations-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-army-corps-of-engineers/openapi/united-states-army-corps-of-engineers-locations-api-openapi.yml
 - filename: united-states-army-corps-of-engineers-parameters-api-openapi.yml
   format: yaml
   label: United States Army Corps of Engineers Parameters API
   slug: united-states-army-corps-of-engineers-parameters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/openapi/united-states-army-corps-of-engineers-parameters-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-army-corps-of-engineers/openapi/united-states-army-corps-of-engineers-parameters-api-openapi.yml
 - filename: united-states-army-corps-of-engineers-projects-api-openapi.yml
   format: yaml
   label: United States Army Corps of Engineers Projects API
   slug: united-states-army-corps-of-engineers-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/openapi/united-states-army-corps-of-engineers-projects-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-army-corps-of-engineers/openapi/united-states-army-corps-of-engineers-projects-api-openapi.yml
 - filename: united-states-army-corps-of-engineers-ratings-api-openapi.yml
   format: yaml
   label: United States Army Corps of Engineers Ratings API
   slug: united-states-army-corps-of-engineers-ratings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/openapi/united-states-army-corps-of-engineers-ratings-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-army-corps-of-engineers/openapi/united-states-army-corps-of-engineers-ratings-api-openapi.yml
 - filename: united-states-army-corps-of-engineers-time-series-api-openapi.yml
   format: yaml
   label: United States Army Corps of Engineers Time Series API
   slug: united-states-army-corps-of-engineers-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/openapi/united-states-army-corps-of-engineers-time-series-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-army-corps-of-engineers/openapi/united-states-army-corps-of-engineers-time-series-api-openapi.yml
 - filename: united-states-army-corps-of-engineers-version-api-openapi.yml
   format: yaml
   label: United States Army Corps of Engineers Version API
   slug: united-states-army-corps-of-engineers-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/openapi/united-states-army-corps-of-engineers-version-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-army-corps-of-engineers/openapi/united-states-army-corps-of-engineers-version-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -100,7 +100,7 @@ source_filename: united-states-army-corps-of-engineers-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.usace.army.mil\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  3 14:09:16 2026 GMT\n  hsts: null\n- host: cwms-data.usace.army.mil\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 16:46:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: water.usace.army.mil\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 09:07:03 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: army.mil\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/security/united-states-army-corps-of-engineers-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/united-states-army-corps-of-engineers/security/united-states-army-corps-of-engineers-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Engineering

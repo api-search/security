@@ -5,25 +5,25 @@ api_specs:
   label: Digital Public Library of America Authentication API
   slug: dpla-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dpla/refs/heads/main/openapi/dpla-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/dpla/openapi/dpla-authentication-api-openapi.yml
 - filename: dpla-items-api-openapi.yml
   format: yaml
   label: Digital Public Library of America Items API
   slug: dpla-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dpla/refs/heads/main/openapi/dpla-items-api-openapi.yml
+  url: https://artifacts.apis.io/dpla/openapi/dpla-items-api-openapi.yml
 - filename: dpla-primary-source-sets-api-openapi.yml
   format: yaml
   label: Digital Public Library of America Primary Source Sets API
   slug: dpla-primary-source-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dpla/refs/heads/main/openapi/dpla-primary-source-sets-api-openapi.yml
+  url: https://artifacts.apis.io/dpla/openapi/dpla-primary-source-sets-api-openapi.yml
 - filename: dpla-utilities-api-openapi.yml
   format: yaml
   label: Digital Public Library of America Utilities API
   slug: dpla-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dpla/refs/heads/main/openapi/dpla-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/dpla/openapi/dpla-utilities-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,7 +62,7 @@ source_filename: dpla-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dp.la\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 23:59:59 2026 GMT\n  hsts: null\n- host: pro.dp.la\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 23:59:59 2026 GMT\n  hsts: null\n- host: api.dp.la\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: dp.la\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dpla/refs/heads/main/security/dpla-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dpla/security/dpla-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Cultural Heritage

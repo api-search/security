@@ -27,7 +27,7 @@ source_filename: scimar-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: derived\nsource: openapi/scimar-content-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: applicationPassword\n  type: http\n  scheme: basic\n  description: WordPress Application Passwords (HTTP Basic). The scimar.ca WordPress install\n    registers the application-passwords routes at /wp/v2/users/{user_id}/application-passwords\n    and the authorization endpoint at https://scimar.ca/wp-admin/authorize-application.php.\n    Read operations on wp/v2 are anonymous.\n  sources:\n  - openapi/scimar-content-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scimar/refs/heads/main/authentication/scimar-authentication.yml
+source_yaml_url: https://artifacts.apis.io/scimar/authentication/scimar-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

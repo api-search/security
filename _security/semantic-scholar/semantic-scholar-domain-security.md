@@ -5,37 +5,37 @@ api_specs:
   label: Semantic Scholar Author Data API
   slug: semantic-scholar-author-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semantic-scholar/refs/heads/main/openapi/semantic-scholar-author-data-api-openapi.yml
+  url: https://artifacts.apis.io/semantic-scholar/openapi/semantic-scholar-author-data-api-openapi.yml
 - filename: semantic-scholar-incremental-updates-api-openapi.yml
   format: yaml
   label: Semantic Scholar Incremental Updates API
   slug: semantic-scholar-incremental-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semantic-scholar/refs/heads/main/openapi/semantic-scholar-incremental-updates-api-openapi.yml
+  url: https://artifacts.apis.io/semantic-scholar/openapi/semantic-scholar-incremental-updates-api-openapi.yml
 - filename: semantic-scholar-paper-data-api-openapi.yml
   format: yaml
   label: Semantic Scholar Paper Data API
   slug: semantic-scholar-paper-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semantic-scholar/refs/heads/main/openapi/semantic-scholar-paper-data-api-openapi.yml
+  url: https://artifacts.apis.io/semantic-scholar/openapi/semantic-scholar-paper-data-api-openapi.yml
 - filename: semantic-scholar-paper-recommendations-api-openapi.yml
   format: yaml
   label: Semantic Scholar Paper Recommendations API
   slug: semantic-scholar-paper-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semantic-scholar/refs/heads/main/openapi/semantic-scholar-paper-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/semantic-scholar/openapi/semantic-scholar-paper-recommendations-api-openapi.yml
 - filename: semantic-scholar-release-data-api-openapi.yml
   format: yaml
   label: Semantic Scholar Release Data API
   slug: semantic-scholar-release-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semantic-scholar/refs/heads/main/openapi/semantic-scholar-release-data-api-openapi.yml
+  url: https://artifacts.apis.io/semantic-scholar/openapi/semantic-scholar-release-data-api-openapi.yml
 - filename: semantic-scholar-snippet-text-api-openapi.yml
   format: yaml
   label: Semantic Scholar Snippet Text API
   slug: semantic-scholar-snippet-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semantic-scholar/refs/heads/main/openapi/semantic-scholar-snippet-text-api-openapi.yml
+  url: https://artifacts.apis.io/semantic-scholar/openapi/semantic-scholar-snippet-text-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -75,7 +75,7 @@ source_filename: semantic-scholar-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.semanticscholar.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  4 23:59:59 2027 GMT\n  hsts: false\n- host: api.semanticscholar.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  4 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: semanticscholar.org\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/semantic-scholar/refs/heads/main/security/semantic-scholar-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/semantic-scholar/security/semantic-scholar-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Academic

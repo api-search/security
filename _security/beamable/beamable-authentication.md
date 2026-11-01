@@ -8,13 +8,13 @@ api_specs:
   label: Beamable Basic API
   slug: beamable-basic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beamable/refs/heads/main/openapi/beamable-basic-api-openapi.yml
+  url: https://artifacts.apis.io/beamable/openapi/beamable-basic-api-openapi.yml
 - filename: beamable-object-api-openapi.yml
   format: yaml
   label: Beamable Object API
   slug: beamable-object-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beamable/refs/heads/main/openapi/beamable-object-api-openapi.yml
+  url: https://artifacts.apis.io/beamable/openapi/beamable-object-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -71,7 +71,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/beamable-leaderboards-openapi.yml, openapi/beamable-live-events-openapi.yml,\n  openapi/beamable-microservices-openapi.yml, openapi/beamable-player-accounts-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: server\n  type: apiKey\n  in: header\n  parameter: X-DE-SIGNATURE\n  description: Signed Request authentication using project secret key.\n  sources:\n  - openapi/beamable-leaderboards-openapi.yml\n  - openapi/beamable-live-events-openapi.yml\n  - openapi/beamable-microservices-openapi.yml\n  - openapi/beamable-player-accounts-openapi.yml\n- name: user\n  type: http\n  scheme: bearer\n  bearerFormat: Bearer <Access Token>\n  description: Bearer authentication with a player access token in the Authorization header.\n  sources:\n  - openapi/beamable-leaderboards-openapi.yml\n  - openapi/beamable-live-events-openapi.yml\n  - openapi/beamable-microservices-openapi.yml\n\
   \  - openapi/beamable-player-accounts-openapi.yml\n- name: userRequired\n  type: apiKey\n  in: header\n  parameter: X-DE-GAMERTAG\n  description: Gamer Tag of the player.\n  sources:\n  - openapi/beamable-live-events-openapi.yml\n- name: scope\n  type: apiKey\n  in: header\n  parameter: X-DE-SCOPE\n  description: Customer and project scope. This should contain the '<customer-id>.<project-id>'.\n  sources:\n  - openapi/beamable-live-events-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beamable/refs/heads/main/authentication/beamable-authentication.yml
+source_yaml_url: https://artifacts.apis.io/beamable/authentication/beamable-authentication.yml
 summary_line: apiKey/http · 4 schemes
 tags:
 - Game Backend

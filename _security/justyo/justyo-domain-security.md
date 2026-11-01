@@ -5,13 +5,13 @@ api_specs:
   label: justyo Account API
   slug: justyo-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justyo/refs/heads/main/openapi/justyo-account-api-openapi.yml
+  url: https://artifacts.apis.io/justyo/openapi/justyo-account-api-openapi.yml
 - filename: justyo-yo-api-openapi.yml
   format: yaml
   label: justyo Yo API
   slug: justyo-yo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justyo/refs/heads/main/openapi/justyo-yo-api-openapi.yml
+  url: https://artifacts.apis.io/justyo/openapi/justyo-yo-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,7 +38,7 @@ source_filename: justyo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: justyo.co\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has\n    expired (_ssl.c:1082)'\n  hsts: null\ndomains:\n- domain: justyo.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/justyo/refs/heads/main/security/justyo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/justyo/security/justyo-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

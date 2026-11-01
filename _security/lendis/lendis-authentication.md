@@ -36,7 +36,7 @@ source_filename: lendis-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/lendis-content-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: applicationPassword\n  type: http\n  scheme: basic\n  description: WordPress Application Passwords (username plus application password) sent as\n    HTTP Basic over TLS. Required for write operations and privileged routes; anonymous read\n    access needs no credentials.\n  sources:\n  - openapi/lendis-content-openapi.yml\n- name: nonce\n  type: apiKey\n  in: header\n  parameter: X-WP-Nonce\n  description: Cookie-authenticated first-party browser requests send a WordPress nonce in the\n    X-WP-Nonce header, advertised in Access-Control-Allow-Headers on live responses.\n  sources:\n  - openapi/lendis-content-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lendis/refs/heads/main/authentication/lendis-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lendis/authentication/lendis-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

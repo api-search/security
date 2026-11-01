@@ -7,7 +7,7 @@ api_specs:
   label: University of Bristol OAI PMH API
   slug: university-of-bristol-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-bristol/refs/heads/main/openapi/university-of-bristol-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-bristol/openapi/university-of-bristol-oai-pmh-api-openapi.yml
 auth_types:
 - none
 - apiKey
@@ -33,7 +33,7 @@ source_yaml: "generated: '2026-08-30'\nmethod: probed\nsource: live unauthentica
   \        status: 200\n        detail: 100 records returned with no credential presented.\n  - id: idp-shibboleth-metadata\n    x-operator: institution\n    endpoint: https://idp.bris.ac.uk/idp/shibboleth\n    scheme: none\n    detail: >-\n      SAML 2.0 IdP metadata is served anonymously. The identity service itself is of course\n      credential-gated; the METADATA describing it is public, which is what makes it a\n      machine-readable surface.\n    evidence:\n      - url: https://idp.bris.ac.uk/idp/shibboleth\n        status: 200\n        detail: 5,990 bytes of application/xml SAML 2.0 metadata, no credential presented.\n  - id: idp-shibboleth-sso\n    x-operator: institution\n    endpoint: https://idp.bris.ac.uk/idp/profile/SAML2/Redirect/SSO\n    scheme: saml\n    detail: >-\n      SAML 2.0 web browser SSO. Bindings observed in the live metadata: Shibboleth/SSO,\n      SAML2/POST/SSO, SAML2/POST-SimpleSign/SSO, SAML2/Redirect/SSO. Trust is established through\n      the UK Access\
   \ Management Federation, not through a self-serve credential; scope bris.ac.uk;\n      REFEDS Research & Scholarship entity category asserted.\n  - id: data-bris-research-data-repository\n    x-operator: institution\n    endpoint: https://data.bris.ac.uk/datasets/\n    scheme: none\n    detail: >-\n      Open dataset payload index served without credentials. Individual datasets may carry their own\n      access conditions; the index itself answered anonymously (200, 315,475 bytes).\ntenant_surfaces:\n  - id: pure-web-services\n    x-operator: tenant\n    endpoint: https://research-information.bris.ac.uk/ws/api\n    scheme: apiKey\n    detail: >-\n      Elsevier Pure Web Services running under the institution's host. api-key gated; no key is\n      issued self-serve. Verified 2026-08-30: GET /ws/api/524/research-outputs returned 401 with no\n      key. The OpenAPI describing it is Elsevier's product contract\n      (info.title \"Pure API\", info.contact.email pure-support@elsevier.com,\
   \ 826 paths) and is\n      deliberately NOT stored in this repository.\n    evidence:\n      - url: https://research-information.bris.ac.uk/ws/api/524/research-outputs\n        status: 401\n      - url: https://research-information.bris.ac.uk/ws/api/openapi.json\n        status: 200\n        detail: The vendor's own contract, publicly readable, 1,740,065 bytes.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-bristol/refs/heads/main/authentication/university-of-bristol-authentication.yml
+source_yaml_url: https://artifacts.apis.io/university-of-bristol/authentication/university-of-bristol-authentication.yml
 summary_line: none/apiKey/saml · 0 schemes
 tags:
 - University

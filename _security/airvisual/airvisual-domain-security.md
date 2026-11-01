@@ -5,31 +5,31 @@ api_specs:
   label: IQAir AirVisual Cities API
   slug: airvisual-cities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airvisual/refs/heads/main/openapi/airvisual-cities-api-openapi.yml
+  url: https://artifacts.apis.io/airvisual/openapi/airvisual-cities-api-openapi.yml
 - filename: airvisual-countries-api-openapi.yml
   format: yaml
   label: IQAir AirVisual Countries API
   slug: airvisual-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airvisual/refs/heads/main/openapi/airvisual-countries-api-openapi.yml
+  url: https://artifacts.apis.io/airvisual/openapi/airvisual-countries-api-openapi.yml
 - filename: airvisual-rankings-api-openapi.yml
   format: yaml
   label: IQAir AirVisual Rankings API
   slug: airvisual-rankings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airvisual/refs/heads/main/openapi/airvisual-rankings-api-openapi.yml
+  url: https://artifacts.apis.io/airvisual/openapi/airvisual-rankings-api-openapi.yml
 - filename: airvisual-states-api-openapi.yml
   format: yaml
   label: IQAir AirVisual States API
   slug: airvisual-states-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airvisual/refs/heads/main/openapi/airvisual-states-api-openapi.yml
+  url: https://artifacts.apis.io/airvisual/openapi/airvisual-states-api-openapi.yml
 - filename: airvisual-stations-api-openapi.yml
   format: yaml
   label: IQAir AirVisual Stations API
   slug: airvisual-stations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airvisual/refs/heads/main/openapi/airvisual-stations-api-openapi.yml
+  url: https://artifacts.apis.io/airvisual/openapi/airvisual-stations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: airvisual-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.iqair.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 21:03:49 2026 GMT\n  hsts: null\n- host: api.airvisual.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  2 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: iqair.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: airvisual.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airvisual/refs/heads/main/security/airvisual-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/airvisual/security/airvisual-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Air Quality

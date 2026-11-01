@@ -7,13 +7,13 @@ api_specs:
   label: Stablesea Liquidity Providers API
   slug: stablesea-liquidity-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stablesea/refs/heads/main/openapi/stablesea-liquidity-providers-api-openapi.yml
+  url: https://artifacts.apis.io/stablesea/openapi/stablesea-liquidity-providers-api-openapi.yml
 - filename: stablesea-organizations-api-openapi.yml
   format: yaml
   label: Stablesea Organizations API
   slug: stablesea-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stablesea/refs/heads/main/openapi/stablesea-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/stablesea/openapi/stablesea-organizations-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: stablesea-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/stablesea-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Use your API key as the bearer token\n  sources:\n  - openapi/stablesea-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stablesea/refs/heads/main/authentication/stablesea-authentication.yml
+source_yaml_url: https://artifacts.apis.io/stablesea/authentication/stablesea-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

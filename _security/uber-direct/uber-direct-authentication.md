@@ -7,7 +7,7 @@ api_specs:
   label: Uber Direct Customers API
   slug: uber-direct-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber-direct/refs/heads/main/openapi/uber-direct-customers-api-openapi.yml
+  url: https://artifacts.apis.io/uber-direct/openapi/uber-direct-customers-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -37,7 +37,7 @@ source_filename: uber-direct-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/uber-direct-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.uber.com/oauth/v2/token\n    scopes: 1\n  sources:\n  - openapi/uber-direct-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uber-direct/refs/heads/main/authentication/uber-direct-authentication.yml
+source_yaml_url: https://artifacts.apis.io/uber-direct/authentication/uber-direct-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Logistics

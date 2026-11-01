@@ -5,19 +5,19 @@ api_specs:
   label: Cloud Academy Learning Management System API
   slug: cloud-academy-learning-management-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloud-academy/refs/heads/main/openapi/cloud-academy-learning-management-system-api-openapi.yml
+  url: https://artifacts.apis.io/cloud-academy/openapi/cloud-academy-learning-management-system-api-openapi.yml
 - filename: cloud-academy-organizations-api-openapi.yml
   format: yaml
   label: Cloud Academy Organizations API
   slug: cloud-academy-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloud-academy/refs/heads/main/openapi/cloud-academy-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/cloud-academy/openapi/cloud-academy-organizations-api-openapi.yml
 - filename: cloud-academy-reports-api-openapi.yml
   format: yaml
   label: Cloud Academy Reports API
   slug: cloud-academy-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloud-academy/refs/heads/main/openapi/cloud-academy-reports-api-openapi.yml
+  url: https://artifacts.apis.io/cloud-academy/openapi/cloud-academy-reports-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -68,7 +68,7 @@ source_filename: cloud-academy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cloudacademy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 21 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: platform.qa.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: cloudacademy.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: qa.com\n  dnssec: false\n  caa:\n  - 5 issue \"godaddy.com\"\n  - 1 issue \"letsencrypt.org\"\n  - 4 issue \"certainly.com\"\n  - 0 issue \"sectigo.com\"\n  - 2 issue \"pki.goog\"\n  - 3 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloud-academy/refs/heads/main/security/cloud-academy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cloud-academy/security/cloud-academy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

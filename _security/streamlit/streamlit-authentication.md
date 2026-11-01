@@ -7,19 +7,19 @@ api_specs:
   label: Streamlit Apps API
   slug: streamlit-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamlit/refs/heads/main/openapi/streamlit-apps-api-openapi.yml
+  url: https://artifacts.apis.io/streamlit/openapi/streamlit-apps-api-openapi.yml
 - filename: streamlit-secrets-api-openapi.yml
   format: yaml
   label: Streamlit Secrets API
   slug: streamlit-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamlit/refs/heads/main/openapi/streamlit-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/streamlit/openapi/streamlit-secrets-api-openapi.yml
 - filename: streamlit-workspaces-api-openapi.yml
   format: yaml
   label: Streamlit Workspaces API
   slug: streamlit-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamlit/refs/heads/main/openapi/streamlit-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/streamlit/openapi/streamlit-workspaces-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: streamlit-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/streamlit-cloud-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: streamlitBearerAuth\n  type: http\n  scheme: bearer\n  description: 'Bearer token issued from the Streamlit Community Cloud account settings. Include\n    as Authorization: Bearer {token}.'\n  sources:\n  - openapi/streamlit-cloud-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/streamlit/refs/heads/main/authentication/streamlit-authentication.yml
+source_yaml_url: https://artifacts.apis.io/streamlit/authentication/streamlit-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Data Science

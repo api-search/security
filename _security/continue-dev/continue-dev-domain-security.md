@@ -5,7 +5,7 @@ api_specs:
   label: Continue Ide API
   slug: continue-dev-ide-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/continue-dev/refs/heads/main/openapi/continue-dev-ide-api-openapi.yml
+  url: https://artifacts.apis.io/continue-dev/openapi/continue-dev-ide-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: continue-dev-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.continue.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 10:40:12 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.continue.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 23 23:59:59 2027 GMT\n  hsts: null\n- host: docs.continue.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  9 22:04:19 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: continue.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/continue-dev/refs/heads/main/security/continue-dev-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/continue-dev/security/continue-dev-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

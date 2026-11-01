@@ -43,7 +43,7 @@ source_filename: comcast-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.comcast.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  3 23:59:59 2027 GMT\n  hsts: null\n- host: docs.developer.comcast.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 10:03:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: sat-prod.codebig2.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  6 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: comcast.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: codebig2.net\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/security/comcast-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/comcast/security/comcast-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Cable

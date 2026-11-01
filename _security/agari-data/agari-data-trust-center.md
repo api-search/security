@@ -17,7 +17,7 @@ source_filename: agari-data-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nprobe: true\nsource: https://www.fortra.com/platform/email-security\nurl: https://www.fortra.com/platform/email-security\ncertifications:\n- PCI DSS\n- HIPAA\n- GDPR\nevidence:\n- source: https://www.fortra.com/platform/email-security\n  keywords:\n  - pci dss\n  - hipaa\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agari-data/refs/heads/main/security/agari-data-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/agari-data/security/agari-data-trust-center.yml
 summary_line: PCI DSS, HIPAA, GDPR
 tags:
 - Company

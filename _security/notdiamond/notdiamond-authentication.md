@@ -7,25 +7,25 @@ api_specs:
   label: Not Diamond Custom Routers API
   slug: notdiamond-custom-routers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notdiamond/refs/heads/main/openapi/notdiamond-custom-routers-api-openapi.yml
+  url: https://artifacts.apis.io/notdiamond/openapi/notdiamond-custom-routers-api-openapi.yml
 - filename: notdiamond-feedback-api-openapi.yml
   format: yaml
   label: Not Diamond Feedback API
   slug: notdiamond-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notdiamond/refs/heads/main/openapi/notdiamond-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/notdiamond/openapi/notdiamond-feedback-api-openapi.yml
 - filename: notdiamond-model-routing-api-openapi.yml
   format: yaml
   label: Not Diamond Model Routing API
   slug: notdiamond-model-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notdiamond/refs/heads/main/openapi/notdiamond-model-routing-api-openapi.yml
+  url: https://artifacts.apis.io/notdiamond/openapi/notdiamond-model-routing-api-openapi.yml
 - filename: notdiamond-models-api-openapi.yml
   format: yaml
   label: Not Diamond Models API
   slug: notdiamond-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notdiamond/refs/heads/main/openapi/notdiamond-models-api-openapi.yml
+  url: https://artifacts.apis.io/notdiamond/openapi/notdiamond-models-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: notdiamond-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/notdiamond-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Not Diamond API key passed as a Bearer token.\n  sources:\n  - openapi/notdiamond-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/notdiamond/refs/heads/main/authentication/notdiamond-authentication.yml
+source_yaml_url: https://artifacts.apis.io/notdiamond/authentication/notdiamond-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

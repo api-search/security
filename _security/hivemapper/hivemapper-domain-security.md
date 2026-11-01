@@ -5,31 +5,37 @@ api_specs:
   label: Hivemapper Account API
   slug: hivemapper-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/openapi/hivemapper-account-api-openapi.yml
+  url: https://artifacts.apis.io/hivemapper/openapi/hivemapper-account-api-openapi.yml
 - filename: hivemapper-ai-events-api-openapi.yml
   format: yaml
   label: Hivemapper AI Events API
   slug: hivemapper-ai-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/openapi/hivemapper-ai-events-api-openapi.yml
+  url: https://artifacts.apis.io/hivemapper/openapi/hivemapper-ai-events-api-openapi.yml
 - filename: hivemapper-bursts-api-openapi.yml
   format: yaml
   label: Hivemapper Bursts API
   slug: hivemapper-bursts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/openapi/hivemapper-bursts-api-openapi.yml
+  url: https://artifacts.apis.io/hivemapper/openapi/hivemapper-bursts-api-openapi.yml
 - filename: hivemapper-imagery-api-openapi.yml
   format: yaml
   label: Hivemapper Imagery API
   slug: hivemapper-imagery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/openapi/hivemapper-imagery-api-openapi.yml
+  url: https://artifacts.apis.io/hivemapper/openapi/hivemapper-imagery-api-openapi.yml
 - filename: hivemapper-map-features-api-openapi.yml
   format: yaml
   label: Hivemapper Map Features API
   slug: hivemapper-map-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/openapi/hivemapper-map-features-api-openapi.yml
+  url: https://artifacts.apis.io/hivemapper/openapi/hivemapper-map-features-api-openapi.yml
+- filename: hivemapper-devices-api-openapi.yml
+  format: yaml
+  label: Hivemapper Devices API
+  slug: hivemapper-devices-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hivemapper/openapi/hivemapper-devices-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -74,7 +80,7 @@ source_filename: hivemapper-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: hivemapper.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 05:27:20 2026 GMT\n  hsts: false\n- host: docs.beemaps.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 10:33:01 2026 GMT\n  hsts: false\n- host: beemaps.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 10:33:01 2026 GMT\n  hsts: false\ndomains:\n- domain: hivemapper.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: beemaps.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/security/hivemapper-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hivemapper/security/hivemapper-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

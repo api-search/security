@@ -5,43 +5,43 @@ api_specs:
   label: National Hockey League Game Center API
   slug: national-hockey-league-game-center-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/openapi/national-hockey-league-game-center-api-openapi.yml
+  url: https://artifacts.apis.io/national-hockey-league/openapi/national-hockey-league-game-center-api-openapi.yml
 - filename: national-hockey-league-players-api-openapi.yml
   format: yaml
   label: National Hockey League Players API
   slug: national-hockey-league-players-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/openapi/national-hockey-league-players-api-openapi.yml
+  url: https://artifacts.apis.io/national-hockey-league/openapi/national-hockey-league-players-api-openapi.yml
 - filename: national-hockey-league-schedule-api-openapi.yml
   format: yaml
   label: National Hockey League Schedule API
   slug: national-hockey-league-schedule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/openapi/national-hockey-league-schedule-api-openapi.yml
+  url: https://artifacts.apis.io/national-hockey-league/openapi/national-hockey-league-schedule-api-openapi.yml
 - filename: national-hockey-league-scores-api-openapi.yml
   format: yaml
   label: National Hockey League Scores API
   slug: national-hockey-league-scores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/openapi/national-hockey-league-scores-api-openapi.yml
+  url: https://artifacts.apis.io/national-hockey-league/openapi/national-hockey-league-scores-api-openapi.yml
 - filename: national-hockey-league-standings-api-openapi.yml
   format: yaml
   label: National Hockey League Standings API
   slug: national-hockey-league-standings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/openapi/national-hockey-league-standings-api-openapi.yml
+  url: https://artifacts.apis.io/national-hockey-league/openapi/national-hockey-league-standings-api-openapi.yml
 - filename: national-hockey-league-stats-api-openapi.yml
   format: yaml
   label: National Hockey League Stats API
   slug: national-hockey-league-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/openapi/national-hockey-league-stats-api-openapi.yml
+  url: https://artifacts.apis.io/national-hockey-league/openapi/national-hockey-league-stats-api-openapi.yml
 - filename: national-hockey-league-teams-api-openapi.yml
   format: yaml
   label: National Hockey League Teams API
   slug: national-hockey-league-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/openapi/national-hockey-league-teams-api-openapi.yml
+  url: https://artifacts.apis.io/national-hockey-league/openapi/national-hockey-league-teams-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -87,7 +87,7 @@ source_filename: national-hockey-league-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nhl.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 08:57:00 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api-web.nhle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 04:30:44 2026 GMT\n  hsts: null\n- host: api.nhle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 04:30:44 2026 GMT\n  hsts: null\ndomains:\n- domain: nhl.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: nhle.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/security/national-hockey-league-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/national-hockey-league/security/national-hockey-league-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Sports

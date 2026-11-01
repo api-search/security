@@ -5,55 +5,55 @@ api_specs:
   label: Epic Games Achievements API
   slug: epic-games-achievements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epic-games/refs/heads/main/openapi/epic-games-achievements-api-openapi.yml
+  url: https://artifacts.apis.io/epic-games/openapi/epic-games-achievements-api-openapi.yml
 - filename: epic-games-auth-api-openapi.yml
   format: yaml
   label: Epic Games Auth API
   slug: epic-games-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epic-games/refs/heads/main/openapi/epic-games-auth-api-openapi.yml
+  url: https://artifacts.apis.io/epic-games/openapi/epic-games-auth-api-openapi.yml
 - filename: epic-games-connect-api-openapi.yml
   format: yaml
   label: Epic Games Connect API
   slug: epic-games-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epic-games/refs/heads/main/openapi/epic-games-connect-api-openapi.yml
+  url: https://artifacts.apis.io/epic-games/openapi/epic-games-connect-api-openapi.yml
 - filename: epic-games-ecom-api-openapi.yml
   format: yaml
   label: Epic Games Ecom API
   slug: epic-games-ecom-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epic-games/refs/heads/main/openapi/epic-games-ecom-api-openapi.yml
+  url: https://artifacts.apis.io/epic-games/openapi/epic-games-ecom-api-openapi.yml
 - filename: epic-games-leaderboards-api-openapi.yml
   format: yaml
   label: Epic Games Leaderboards API
   slug: epic-games-leaderboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epic-games/refs/heads/main/openapi/epic-games-leaderboards-api-openapi.yml
+  url: https://artifacts.apis.io/epic-games/openapi/epic-games-leaderboards-api-openapi.yml
 - filename: epic-games-playerdatastorage-api-openapi.yml
   format: yaml
   label: Epic Games PlayerDataStorage API
   slug: epic-games-playerdatastorage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epic-games/refs/heads/main/openapi/epic-games-playerdatastorage-api-openapi.yml
+  url: https://artifacts.apis.io/epic-games/openapi/epic-games-playerdatastorage-api-openapi.yml
 - filename: epic-games-sanctions-api-openapi.yml
   format: yaml
   label: Epic Games Sanctions API
   slug: epic-games-sanctions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epic-games/refs/heads/main/openapi/epic-games-sanctions-api-openapi.yml
+  url: https://artifacts.apis.io/epic-games/openapi/epic-games-sanctions-api-openapi.yml
 - filename: epic-games-stats-api-openapi.yml
   format: yaml
   label: Epic Games Stats API
   slug: epic-games-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epic-games/refs/heads/main/openapi/epic-games-stats-api-openapi.yml
+  url: https://artifacts.apis.io/epic-games/openapi/epic-games-stats-api-openapi.yml
 - filename: epic-games-titlestorage-api-openapi.yml
   format: yaml
   label: Epic Games TitleStorage API
   slug: epic-games-titlestorage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epic-games/refs/heads/main/openapi/epic-games-titlestorage-api-openapi.yml
+  url: https://artifacts.apis.io/epic-games/openapi/epic-games-titlestorage-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -97,7 +97,7 @@ source_filename: epic-games-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.epicgames.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 01:27:43 2026 GMT\n  hsts: null\n- host: dev.epicgames.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 01:58:57 2026 GMT\n  hsts: false\n- host: api.epicgames.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 17:29:26 2026 GMT\n  hsts: null\ndomains:\n- domain: epicgames.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: epicgames.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/epic-games/refs/heads/main/security/epic-games-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/epic-games/security/epic-games-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Achievements

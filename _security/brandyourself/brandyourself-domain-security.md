@@ -27,7 +27,7 @@ source_filename: brandyourself-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: brandyourself.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  4 11:54:47 2026 GMT\n  hsts: null\ndomains:\n- domain: brandyourself.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brandyourself/refs/heads/main/security/brandyourself-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/brandyourself/security/brandyourself-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Reputation

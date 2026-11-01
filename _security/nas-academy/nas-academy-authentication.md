@@ -7,13 +7,13 @@ api_specs:
   label: Nas Academy AI discovery API
   slug: nas-academy-ai-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nas-academy/refs/heads/main/openapi/nas-academy-ai-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/nas-academy/openapi/nas-academy-ai-discovery-api-openapi.yml
 - filename: nas-academy-developer-discovery-api-openapi.yml
   format: yaml
   label: Nas Academy Developer discovery API
   slug: nas-academy-developer-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nas-academy/refs/heads/main/openapi/nas-academy-developer-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/nas-academy/openapi/nas-academy-developer-discovery-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -60,7 +60,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://nas.com/auth.md\ndocs: https://nas.com/auth.md\nsummary:\n  types: [none, oauth2]\n  oauth2_flows: [authorizationCode]\n  notes: >-\n    Nas.com exposes public agent discovery (OpenAPI, llms.txt, well-known documents, page context)\n    as read-only, unauthenticated resources — the Public Discovery OpenAPI declares no security\n    schemes. The official hosted Nas.com MCP endpoint (https://mcp.nas.com/mcp) requires an OAuth\n    bearer token from https://auth.nas.io with the appropriate scopes.\nschemes:\n  - name: PublicDiscovery\n    type: none\n    applies_to: https://nas.com/openapi.json\n    description: Public read-only discovery resources require no credentials.\n  - name: OAuth2Bearer\n    type: oauth2\n    applies_to: https://mcp.nas.com/mcp\n    scheme: bearer\n    issuer: https://auth.nas.com\n    authorization_server: https://auth.nas.io\n    flows:\n      - flow: authorizationCode\n        authorizationUrl:\
   \ https://auth.nas.com/oauth/authorize\n        tokenUrl: https://auth.nas.com/oauth/token\n        pkce: S256\n        dynamic_client_registration: https://auth.nas.com/oauth/register\n    scopes:\n      - nas.communities.read\n      - nas.communities.write\n      - nas.members.read\n      - nas.products.read\n      - nas.products.write\n      - nas.orders.read\noauth_discovery_chain:\n  - https://nas.com/auth.md\n  - https://mcp.nas.com/.well-known/oauth-protected-resource\n  - https://auth.nas.io/.well-known/oauth-authorization-server\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nas-academy/refs/heads/main/authentication/nas-academy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nas-academy/authentication/nas-academy-authentication.yml
 summary_line: none/oauth2 · 2 schemes
 tags:
 - Company

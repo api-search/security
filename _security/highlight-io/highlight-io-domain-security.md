@@ -5,25 +5,25 @@ api_specs:
   label: Highlight (highlight.io) Logs API
   slug: highlight-io-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highlight-io/refs/heads/main/openapi/highlight-io-logs-api-openapi.yml
+  url: https://artifacts.apis.io/highlight-io/openapi/highlight-io-logs-api-openapi.yml
 - filename: highlight-io-metrics-api-openapi.yml
   format: yaml
   label: Highlight (highlight.io) Metrics API
   slug: highlight-io-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highlight-io/refs/heads/main/openapi/highlight-io-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/highlight-io/openapi/highlight-io-metrics-api-openapi.yml
 - filename: highlight-io-sessions-api-openapi.yml
   format: yaml
   label: Highlight (highlight.io) Sessions API
   slug: highlight-io-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highlight-io/refs/heads/main/openapi/highlight-io-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/highlight-io/openapi/highlight-io-sessions-api-openapi.yml
 - filename: highlight-io-traces-api-openapi.yml
   format: yaml
   label: Highlight (highlight.io) Traces API
   slug: highlight-io-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highlight-io/refs/heads/main/openapi/highlight-io-traces-api-openapi.yml
+  url: https://artifacts.apis.io/highlight-io/openapi/highlight-io-traces-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,7 +62,7 @@ source_filename: highlight-io-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.highlight.io\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has\n    expired (_ssl.c:1082)'\n  hsts: null\n- host: app.highlight.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: otel.highlight.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: highlight.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/highlight-io/refs/heads/main/security/highlight-io-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/highlight-io/security/highlight-io-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Observability

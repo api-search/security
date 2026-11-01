@@ -5,7 +5,7 @@ api_specs:
   label: Theta Lake API
   slug: theta-lake-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theta-lake/refs/heads/main/openapi/_original/theta-lake-openapi-original.yml
+  url: https://artifacts.apis.io/theta-lake/openapi/_original/theta-lake-openapi-original.yml
 certification_count: 7
 certifications:
 - SOC 2 Type 2
@@ -28,7 +28,7 @@ source_filename: theta-lake-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nsource: https://trust.thetalake.com/\nurl: https://trust.thetalake.com/\ncertifications:\n- SOC 2 Type 2\n- ISO/IEC 27001\n- ISO/IEC 42001\n- PCI DSS\n- HIPAA\n- CSA STAR for AI (Level 2)\n- GDPR\nevidence:\n- source: https://trust.thetalake.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - iso 42001\n  - pci dss\n  - trust center\n  - gdpr\n  - csa star\n- source: https://thetalake.com/security/\n  keywords:\n  - soc 2 type 2\n  - iso 27001\n  - iso/iec 42001\n  - pci dss\n  - hipaa\n  - csa star for ai level 2\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/theta-lake/refs/heads/main/security/theta-lake-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/theta-lake/security/theta-lake-trust-center.yml
 summary_line: SOC 2 Type 2, ISO/IEC 27001, ISO/IEC 42001, PCI DSS, HIPAA, CSA STAR for AI (Level 2), GDPR
 tags:
 - Communications Governance

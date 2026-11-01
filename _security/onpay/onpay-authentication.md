@@ -8,37 +8,37 @@ api_specs:
   label: OnPay Company API
   slug: onpay-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/openapi/onpay-company-api-openapi.yml
+  url: https://artifacts.apis.io/onpay/openapi/onpay-company-api-openapi.yml
 - filename: onpay-deductions-api-openapi.yml
   format: yaml
   label: OnPay Deductions API
   slug: onpay-deductions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/openapi/onpay-deductions-api-openapi.yml
+  url: https://artifacts.apis.io/onpay/openapi/onpay-deductions-api-openapi.yml
 - filename: onpay-employees-api-openapi.yml
   format: yaml
   label: OnPay Employees API
   slug: onpay-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/openapi/onpay-employees-api-openapi.yml
+  url: https://artifacts.apis.io/onpay/openapi/onpay-employees-api-openapi.yml
 - filename: onpay-pay-runs-api-openapi.yml
   format: yaml
   label: OnPay Pay Runs API
   slug: onpay-pay-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/openapi/onpay-pay-runs-api-openapi.yml
+  url: https://artifacts.apis.io/onpay/openapi/onpay-pay-runs-api-openapi.yml
 - filename: onpay-reports-api-openapi.yml
   format: yaml
   label: OnPay Reports API
   slug: onpay-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/openapi/onpay-reports-api-openapi.yml
+  url: https://artifacts.apis.io/onpay/openapi/onpay-reports-api-openapi.yml
 - filename: onpay-user-api-openapi.yml
   format: yaml
   label: OnPay User API
   slug: onpay-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/openapi/onpay-user-api-openapi.yml
+  url: https://artifacts.apis.io/onpay/openapi/onpay-user-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-08-04'\nmethod: searched\nsource: openapi/onpay-a
   \ 6\n  sources:\n  - openapi/onpay-api-openapi.json\n- name: Bearer\n  type: apiKey\n  in: header\n  parameter: Authorization\n  format: 'Bearer {access_token}'\n  sources:\n  - openapi/onpay-api-openapi.json\nflow:\n  grant: authorization_code\n  steps:\n  - Redirect the user to /app/oauth/authorize with client_id, redirect_uri and state.\n  - The user approves access to their OnPay company.\n  - OnPay redirects back to redirect_uri with an authorization code.\n  - Server-side POST to /app/oauth/token (application/x-www-form-urlencoded) with client_id,\n    client_secret, redirect_uri, code and grant_type=authorization_code.\n  - Send Authorization \"Bearer {access_token}\" on every API request.\n  - Exchange the refresh token for a new access/refresh pair with grant_type=refresh_token.\n  token:\n    type: bearer\n    lifetime_seconds: 7200\n    response_fields: [access_token, token_type, expires_in, refresh_token, company_id, access_type,\n      company_name]\n    company_scoped: true\n\
   \    note: >-\n      The token response carries company_id and company_name — one token authorizes exactly one OnPay\n      company, and access_type carries the numeric role (see scopes/onpay-scopes.yml).\n  refresh_token:\n    single_use: true\n    note: >-\n      \"You can exchange your refresh token for a new access token, only once.\" Each exchange returns a\n      NEW refresh token; failing to persist it loses the connection.\n  failure: >-\n    The docs state that a missing or expired access token results in a 401. Observed live, a request\n    with no Authorization header returns HTTP 400 with error_code 100 \"Missing token\"; an invalid\n    bearer token can return 401 or 403 with \"expired token\".\ngaps:\n- No OAuth 2.0 Authorization Server Metadata (RFC 8414) — /.well-known/oauth-authorization-server 404s.\n- No OpenID Connect discovery document.\n- No PKCE guidance, and no documented state/nonce requirements beyond the example link.\n- No token-revocation or introspection endpoint\
   \ is published.\n- No mTLS, no API-key alternative, and no service-to-service credential for backend integrations.\n- The authorization guide still instructs partners to send client_id, client_secret and authorization\n  codes to onpaydev.com, a domain that is now parked (see sandbox/onpay-sandbox.yml).\nx-evidence:\n- url: https://onpay.readme.io/reference/authorization.md\n  http_status: 200\n  fetched: '2026-08-04'\n- url: https://app.onpay.com/app/oauth/authorize\n  http_status: 302\n  fetched: '2026-08-04'\n- url: https://api.onpay.com/v2/employees\n  http_status: 400\n  fetched: '2026-08-04'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/authentication/onpay-authentication.yml
+source_yaml_url: https://artifacts.apis.io/onpay/authentication/onpay-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Payroll

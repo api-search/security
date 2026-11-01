@@ -7,55 +7,55 @@ api_specs:
   label: Contextual AI Agents API
   slug: contextual-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/openapi/contextual-ai-agents-api-openapi.yml
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-agents-api-openapi.yml
 - filename: contextual-ai-agents-query-api-openapi.yml
   format: yaml
   label: Contextual AI Agents Query API
   slug: contextual-ai-agents-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/openapi/contextual-ai-agents-query-api-openapi.yml
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-agents-query-api-openapi.yml
 - filename: contextual-ai-datastores-api-openapi.yml
   format: yaml
   label: Contextual AI Datastores API
   slug: contextual-ai-datastores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/openapi/contextual-ai-datastores-api-openapi.yml
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-datastores-api-openapi.yml
 - filename: contextual-ai-documents-api-openapi.yml
   format: yaml
   label: Contextual AI Documents API
   slug: contextual-ai-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/openapi/contextual-ai-documents-api-openapi.yml
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-documents-api-openapi.yml
 - filename: contextual-ai-generate-api-openapi.yml
   format: yaml
   label: Contextual AI Generate API
   slug: contextual-ai-generate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/openapi/contextual-ai-generate-api-openapi.yml
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-generate-api-openapi.yml
 - filename: contextual-ai-lmunit-api-openapi.yml
   format: yaml
   label: Contextual AI LMUnit API
   slug: contextual-ai-lmunit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/openapi/contextual-ai-lmunit-api-openapi.yml
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-lmunit-api-openapi.yml
 - filename: contextual-ai-parse-api-openapi.yml
   format: yaml
   label: Contextual AI Parse API
   slug: contextual-ai-parse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/openapi/contextual-ai-parse-api-openapi.yml
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-parse-api-openapi.yml
 - filename: contextual-ai-rerank-api-openapi.yml
   format: yaml
   label: Contextual AI Rerank API
   slug: contextual-ai-rerank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/openapi/contextual-ai-rerank-api-openapi.yml
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-rerank-api-openapi.yml
 - filename: contextual-ai-users-api-openapi.yml
   format: yaml
   label: Contextual AI Users API
   slug: contextual-ai-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/openapi/contextual-ai-users-api-openapi.yml
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -82,7 +82,7 @@ source_filename: contextual-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/contextual-ai-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Contextual AI API key supplied as a Bearer token.\n  sources:\n  - openapi/contextual-ai-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/authentication/contextual-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/contextual-ai/authentication/contextual-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

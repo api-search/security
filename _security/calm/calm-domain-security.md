@@ -5,13 +5,13 @@ api_specs:
   label: Calm Authentication API
   slug: calm-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/openapi/calm-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/calm/openapi/calm-authentication-api-openapi.yml
 - filename: calm-subscriptions-api-openapi.yml
   format: yaml
   label: Calm Subscriptions API
   slug: calm-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/openapi/calm-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/calm/openapi/calm-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: calm-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: partner.calm.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 18 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: auth.calm.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 19 23:59:59 2027 GMT\n  hsts: null\n- host: auth-ga.aws-dev.useast1.calm.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 24 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: calm.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/security/calm-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/calm/security/calm-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

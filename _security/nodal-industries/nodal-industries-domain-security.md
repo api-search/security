@@ -27,7 +27,7 @@ source_filename: nodal-industries-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: nodalsecurity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 01:57:56 2026 GMT\n  hsts: false\ndomains:\n- domain: nodalsecurity.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nodal-industries/refs/heads/main/security/nodal-industries-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nodal-industries/security/nodal-industries-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

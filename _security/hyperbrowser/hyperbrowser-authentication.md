@@ -8,67 +8,103 @@ api_specs:
   label: Hyperbrowser Sessions API
   slug: sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-sessions-api-openapi.yml
 - filename: hyperbrowser-profiles-api-openapi.yml
   format: yaml
   label: Hyperbrowser Profiles API
   slug: profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-profiles-api-openapi.yml
 - filename: hyperbrowser-scrape-api-openapi.yml
   format: yaml
   label: Hyperbrowser Scrape API
   slug: scrape-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-scrape-api-openapi.yml
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-scrape-api-openapi.yml
 - filename: hyperbrowser-crawl-api-openapi.yml
   format: yaml
   label: Hyperbrowser Crawl API
   slug: crawl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-crawl-api-openapi.yml
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-crawl-api-openapi.yml
 - filename: hyperbrowser-extract-api-openapi.yml
   format: yaml
   label: Hyperbrowser Extract API
   slug: extract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-extract-api-openapi.yml
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-extract-api-openapi.yml
 - filename: hyperbrowser-extensions-api-openapi.yml
   format: yaml
   label: Hyperbrowser Extensions API
   slug: extensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-extensions-api-openapi.yml
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-extensions-api-openapi.yml
 - filename: hyperbrowser-web-api-openapi.yml
   format: yaml
   label: Hyperbrowser Web API
   slug: web-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-web-api-openapi.yml
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-web-api-openapi.yml
 - filename: hyperbrowser-profile-api-openapi.yml
   format: yaml
   label: Hyperbrowser Profile API
   slug: hyperbrowser-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-profile-api-openapi.yml
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-profile-api-openapi.yml
 - filename: hyperbrowser-session-api-openapi.yml
   format: yaml
   label: Hyperbrowser Session API
   slug: hyperbrowser-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-session-api-openapi.yml
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-session-api-openapi.yml
 - filename: hyperbrowser-task-api-openapi.yml
   format: yaml
   label: Hyperbrowser Task API
   slug: hyperbrowser-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-task-api-openapi.yml
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-task-api-openapi.yml
 - filename: hyperbrowser-x402-api-openapi.yml
   format: yaml
   label: Hyperbrowser X402 API
   slug: hyperbrowser-x402-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-x402-api-openapi.yml
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-x402-api-openapi.yml
+- filename: hyperbrowser-images-api-openapi.yml
+  format: yaml
+  label: Hyperbrowser Images API
+  slug: hyperbrowser-images-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-images-api-openapi.yml
+- filename: hyperbrowser-sandboxes-api-openapi.yml
+  format: yaml
+  label: Hyperbrowser Sandboxes API
+  slug: hyperbrowser-sandboxes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-sandboxes-api-openapi.yml
+- filename: hyperbrowser-secrets-api-openapi.yml
+  format: yaml
+  label: Hyperbrowser Secrets API
+  slug: hyperbrowser-secrets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-secrets-api-openapi.yml
+- filename: hyperbrowser-snapshots-api-openapi.yml
+  format: yaml
+  label: Hyperbrowser Snapshots API
+  slug: hyperbrowser-snapshots-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-snapshots-api-openapi.yml
+- filename: hyperbrowser-vaults-api-openapi.yml
+  format: yaml
+  label: Hyperbrowser Vaults API
+  slug: hyperbrowser-vaults-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-vaults-api-openapi.yml
+- filename: hyperbrowser-volumes-api-openapi.yml
+  format: yaml
+  label: Hyperbrowser Volumes API
+  slug: hyperbrowser-volumes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-volumes-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -105,16 +141,15 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/hyperbrowser-agents-api-openapi.yml, openapi/hyperbrowser-crawl-api-openapi.yml,\n  openapi/hyperbrowser-extensions-api-openapi.yml, openapi/hyperbrowser-extract-api-openapi.yml,\n  openapi/hyperbrowser-openapi.json, openapi/hyperbrowser-profiles-api-openapi.yml, openapi/hyperbrowser-scrape-api-openapi.yml,\n  openapi/hyperbrowser-sessions-api-openapi.yml, openapi/hyperbrowser-web-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: Account API key from app.hyperbrowser.ai\n  sources:\n  - openapi/hyperbrowser-agents-api-openapi.yml\n  - openapi/hyperbrowser-crawl-api-openapi.yml\n  - openapi/hyperbrowser-extensions-api-openapi.yml\n  - openapi/hyperbrowser-extract-api-openapi.yml\n  - openapi/hyperbrowser-openapi.json\n  - openapi/hyperbrowser-profiles-api-openapi.yml\n  - openapi/hyperbrowser-scrape-api-openapi.yml\n\
   \  - openapi/hyperbrowser-sessions-api-openapi.yml\n  - openapi/hyperbrowser-web-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/authentication/hyperbrowser-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hyperbrowser/authentication/hyperbrowser-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Headless Browser
+- Browser Automation
 - Browser Infrastructure
 - Web Scraping
 - Web Crawling
 - Data Extraction
 - AI Agents
-- Browser Automation
 - Computer Use
 - Stealth
 - Proxies

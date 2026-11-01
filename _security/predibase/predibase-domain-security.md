@@ -5,43 +5,43 @@ api_specs:
   label: Predibase Adapters API
   slug: predibase-adapters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-adapters-api-openapi.yml
+  url: https://artifacts.apis.io/predibase/openapi/predibase-adapters-api-openapi.yml
 - filename: predibase-batch-inference-api-openapi.yml
   format: yaml
   label: Predibase Batch Inference API
   slug: predibase-batch-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-batch-inference-api-openapi.yml
+  url: https://artifacts.apis.io/predibase/openapi/predibase-batch-inference-api-openapi.yml
 - filename: predibase-datasets-api-openapi.yml
   format: yaml
   label: Predibase Datasets API
   slug: predibase-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/predibase/openapi/predibase-datasets-api-openapi.yml
 - filename: predibase-deployments-api-openapi.yml
   format: yaml
   label: Predibase Deployments API
   slug: predibase-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/predibase/openapi/predibase-deployments-api-openapi.yml
 - filename: predibase-fine-tuning-api-openapi.yml
   format: yaml
   label: Predibase Fine-Tuning API
   slug: predibase-fine-tuning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-fine-tuning-api-openapi.yml
+  url: https://artifacts.apis.io/predibase/openapi/predibase-fine-tuning-api-openapi.yml
 - filename: predibase-inference-api-openapi.yml
   format: yaml
   label: Predibase Inference API
   slug: predibase-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-inference-api-openapi.yml
+  url: https://artifacts.apis.io/predibase/openapi/predibase-inference-api-openapi.yml
 - filename: predibase-models-api-openapi.yml
   format: yaml
   label: Predibase Models API
   slug: predibase-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-models-api-openapi.yml
+  url: https://artifacts.apis.io/predibase/openapi/predibase-models-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: predibase-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: predibase.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 15:45:16 2026 GMT\n  hsts: null\n- host: docs.predibase.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 15:45:16 2026 GMT\n  hsts: null\n- host: api.app.predibase.com\n  https: false\ndomains:\n- domain: predibase.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/security/predibase-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/predibase/security/predibase-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Artificial Intelligence

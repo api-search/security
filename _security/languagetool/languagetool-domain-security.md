@@ -5,19 +5,19 @@ api_specs:
   label: LanguageTool Check API
   slug: languagetool-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/languagetool/refs/heads/main/openapi/languagetool-check-api-openapi.yml
+  url: https://artifacts.apis.io/languagetool/openapi/languagetool-check-api-openapi.yml
 - filename: languagetool-languages-api-openapi.yml
   format: yaml
   label: LanguageTool Languages API
   slug: languagetool-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/languagetool/refs/heads/main/openapi/languagetool-languages-api-openapi.yml
+  url: https://artifacts.apis.io/languagetool/openapi/languagetool-languages-api-openapi.yml
 - filename: languagetool-words-api-openapi.yml
   format: yaml
   label: LanguageTool Words API
   slug: languagetool-words-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/languagetool/refs/heads/main/openapi/languagetool-words-api-openapi.yml
+  url: https://artifacts.apis.io/languagetool/openapi/languagetool-words-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -61,7 +61,7 @@ source_filename: languagetool-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: languagetool.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 05:00:51 2026 GMT\n  hsts: false\n- host: api.languagetool.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 13:21:47 2026 GMT\n  hsts: null\n- host: api.languagetoolplus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 13:23:51 2026 GMT\n  hsts: null\ndomains:\n- domain: languagetool.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: languagetoolplus.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/languagetool/refs/heads/main/security/languagetool-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/languagetool/security/languagetool-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Grammar

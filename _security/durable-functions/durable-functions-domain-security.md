@@ -5,13 +5,13 @@ api_specs:
   label: Azure Durable Functions Entities API
   slug: durable-functions-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/durable-functions/refs/heads/main/openapi/durable-functions-entities-api-openapi.yml
+  url: https://artifacts.apis.io/durable-functions/openapi/durable-functions-entities-api-openapi.yml
 - filename: durable-functions-orchestrations-api-openapi.yml
   format: yaml
   label: Azure Durable Functions Orchestrations API
   slug: durable-functions-orchestrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/durable-functions/refs/heads/main/openapi/durable-functions-orchestrations-api-openapi.yml
+  url: https://artifacts.apis.io/durable-functions/openapi/durable-functions-orchestrations-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -42,7 +42,7 @@ source_filename: durable-functions-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: learn.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 02:26:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/durable-functions/refs/heads/main/security/durable-functions-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/durable-functions/security/durable-functions-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - API Composition

@@ -7,25 +7,25 @@ api_specs:
   label: Truist Financial Accounts API
   slug: truist-financial-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/openapi/truist-financial-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/truist-financial/openapi/truist-financial-accounts-api-openapi.yml
 - filename: truist-financial-commercial-accounts-api-openapi.yml
   format: yaml
   label: Truist Financial Commercial Accounts API
   slug: truist-financial-commercial-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/openapi/truist-financial-commercial-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/truist-financial/openapi/truist-financial-commercial-accounts-api-openapi.yml
 - filename: truist-financial-commercial-transactions-api-openapi.yml
   format: yaml
   label: Truist Financial Commercial Transactions API
   slug: truist-financial-commercial-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/openapi/truist-financial-commercial-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/truist-financial/openapi/truist-financial-commercial-transactions-api-openapi.yml
 - filename: truist-financial-transactions-api-openapi.yml
   format: yaml
   label: Truist Financial Transactions API
   slug: truist-financial-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/openapi/truist-financial-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/truist-financial/openapi/truist-financial-transactions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -67,7 +67,7 @@ source_filename: truist-financial-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/truist-commercial-account-transactions-openapi.yml, openapi/truist-commercial-accounts-openapi.yml,\n  openapi/truist-personal-small-business-accounts-openapi.yml, openapi/truist-personal-small-business-transactions-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.truist.com/oauth2/token\n    scopes: 1\n  sources:\n  - openapi/truist-commercial-account-transactions-openapi.yml\n  - openapi/truist-commercial-accounts-openapi.yml\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.truist.com/oauth2/authorize\n    tokenUrl: https://api.truist.com/oauth2/token\n    scopes: 1\n  sources:\n  - openapi/truist-personal-small-business-accounts-openapi.yml\n  - openapi/truist-personal-small-business-transactions-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/authentication/truist-financial-authentication.yml
+source_yaml_url: https://artifacts.apis.io/truist-financial/authentication/truist-financial-authentication.yml
 summary_line: oauth2 · 2 schemes
 tags:
 - Banking

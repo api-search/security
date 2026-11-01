@@ -8,31 +8,31 @@ api_specs:
   label: Scispot ELN API
   slug: scispot-eln-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/openapi/scispot-eln-api-openapi.yml
+  url: https://artifacts.apis.io/scispot/openapi/scispot-eln-api-openapi.yml
 - filename: scispot-labsheets-api-openapi.yml
   format: yaml
   label: Scispot Labsheets API
   slug: scispot-labsheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/openapi/scispot-labsheets-api-openapi.yml
+  url: https://artifacts.apis.io/scispot/openapi/scispot-labsheets-api-openapi.yml
 - filename: scispot-manifests-api-openapi.yml
   format: yaml
   label: Scispot Manifests API
   slug: scispot-manifests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/openapi/scispot-manifests-api-openapi.yml
+  url: https://artifacts.apis.io/scispot/openapi/scispot-manifests-api-openapi.yml
 - filename: scispot-samples-api-openapi.yml
   format: yaml
   label: Scispot Samples API
   slug: scispot-samples-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/openapi/scispot-samples-api-openapi.yml
+  url: https://artifacts.apis.io/scispot/openapi/scispot-samples-api-openapi.yml
 - filename: scispot-sequences-api-openapi.yml
   format: yaml
   label: Scispot Sequences API
   slug: scispot-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/openapi/scispot-sequences-api-openapi.yml
+  url: https://artifacts.apis.io/scispot/openapi/scispot-sequences-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: scispot-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/scispot-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: apiKey\n  description: Personal API token generated from Scispot Account Settings > Personal Tokens.\n    All API requests require this header.\n  sources:\n  - openapi/scispot-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/authentication/scispot-authentication.yml
+source_yaml_url: https://artifacts.apis.io/scispot/authentication/scispot-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Laboratory

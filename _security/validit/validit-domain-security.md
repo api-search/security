@@ -41,7 +41,7 @@ source_filename: validit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: validit.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 08:50:17 2026 GMT\n  hsts: false\n- host: api.validit.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 23:59:59 2026 GMT\n  hsts: false\n  note: Live production API host (NestJS-style JSON 404 envelope); no public spec or docs.\n- host: app.validit.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 9 23:59:59 2026 GMT\n  hsts: false\n  note: Web-based assessment app (React SPA on CloudFront).\ndomains:\n- domain: validit.ai\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n  txt_notes:\n  - amazonses domain verification present\n  - postman-domain-verification TXT present (no public Postman workspace found)\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/validit/refs/heads/main/security/validit-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/validit/security/validit-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

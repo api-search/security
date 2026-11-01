@@ -5,25 +5,25 @@ api_specs:
   label: Salesforce Knowledge Management Articles API
   slug: salesforce-knowledge-management-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-knowledge-management/refs/heads/main/openapi/salesforce-knowledge-management-articles-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-knowledge-management/openapi/salesforce-knowledge-management-articles-api-openapi.yml
 - filename: salesforce-knowledge-management-categories-api-openapi.yml
   format: yaml
   label: Salesforce Knowledge Management Categories API
   slug: salesforce-knowledge-management-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-knowledge-management/refs/heads/main/openapi/salesforce-knowledge-management-categories-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-knowledge-management/openapi/salesforce-knowledge-management-categories-api-openapi.yml
 - filename: salesforce-knowledge-management-search-api-openapi.yml
   format: yaml
   label: Salesforce Knowledge Management Search API
   slug: salesforce-knowledge-management-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-knowledge-management/refs/heads/main/openapi/salesforce-knowledge-management-search-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-knowledge-management/openapi/salesforce-knowledge-management-search-api-openapi.yml
 - filename: salesforce-knowledge-management-suggestions-api-openapi.yml
   format: yaml
   label: Salesforce Knowledge Management Suggestions API
   slug: salesforce-knowledge-management-suggestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-knowledge-management/refs/heads/main/openapi/salesforce-knowledge-management-suggestions-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-knowledge-management/openapi/salesforce-knowledge-management-suggestions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -54,7 +54,7 @@ source_filename: salesforce-knowledge-management-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.salesforce.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 23:59:59 2026 GMT\n  hsts: null\n- host: yourinstance.salesforce.com\n  https: false\ndomains:\n- domain: salesforce.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce-knowledge-management/refs/heads/main/security/salesforce-knowledge-management-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/salesforce-knowledge-management/security/salesforce-knowledge-management-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Articles

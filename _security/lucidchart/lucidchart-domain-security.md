@@ -1,17 +1,29 @@
 ---
 api_specs:
-- filename: lucidchart-documents-api-openapi.yml
+- filename: lucidchart-groups-api-openapi.yml
   format: yaml
-  label: Lucidchart Documents API
-  slug: lucidchart-documents-api
+  label: Lucidchart Groups API
+  slug: lucidchart-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucidchart/refs/heads/main/openapi/lucidchart-documents-api-openapi.yml
-- filename: lucidchart-folders-api-openapi.yml
+  url: https://artifacts.apis.io/lucidchart/openapi/lucidchart-groups-api-openapi.yml
+- filename: lucidchart-schemas-api-openapi.yml
   format: yaml
-  label: Lucidchart Folders API
-  slug: lucidchart-folders-api
+  label: Lucidchart Schemas API
+  slug: lucidchart-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucidchart/refs/heads/main/openapi/lucidchart-folders-api-openapi.yml
+  url: https://artifacts.apis.io/lucidchart/openapi/lucidchart-schemas-api-openapi.yml
+- filename: lucidchart-service-provider-config-api-openapi.yml
+  format: yaml
+  label: Lucidchart Service Provider Config API
+  slug: lucidchart-service-provider-config-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lucidchart/openapi/lucidchart-service-provider-config-api-openapi.yml
+- filename: lucidchart-users-api-openapi.yml
+  format: yaml
+  label: Lucidchart Users API
+  slug: lucidchart-users-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lucidchart/openapi/lucidchart-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +70,7 @@ source_filename: lucidchart-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.lucidchart.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 07:09:13 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.lucid.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 03:57:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.lucid.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  5 19:02:32 2026 GMT\n  hsts: null\ndomains:\n- domain: lucidchart.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: lucid.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lucidchart/refs/heads/main/security/lucidchart-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lucidchart/security/lucidchart-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Productivity

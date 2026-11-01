@@ -26,7 +26,7 @@ source_filename: kirilys-therapeutics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: kirilystx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 21:22:33 2026 GMT\n  hsts: false\ndomains:\n- domain: kirilystx.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kirilys-therapeutics/refs/heads/main/security/kirilys-therapeutics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kirilys-therapeutics/security/kirilys-therapeutics-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

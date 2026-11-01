@@ -7,67 +7,67 @@ api_specs:
   label: Digits Chart of Accounts API
   slug: digits-com-chart-of-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-chart-of-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/digits-com/openapi/digits-com-chart-of-accounts-api-openapi.yml
 - filename: digits-com-connections-api-openapi.yml
   format: yaml
   label: Digits Connections API
   slug: digits-com-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-connections-api-openapi.yml
+  url: https://artifacts.apis.io/digits-com/openapi/digits-com-connections-api-openapi.yml
 - filename: digits-com-financial-statements-api-openapi.yml
   format: yaml
   label: Digits Financial Statements API
   slug: digits-com-financial-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-financial-statements-api-openapi.yml
+  url: https://artifacts.apis.io/digits-com/openapi/digits-com-financial-statements-api-openapi.yml
 - filename: digits-com-organizations-api-openapi.yml
   format: yaml
   label: Digits Organizations API
   slug: digits-com-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/digits-com/openapi/digits-com-organizations-api-openapi.yml
 - filename: digits-com-parties-api-openapi.yml
   format: yaml
   label: Digits Parties API
   slug: digits-com-parties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-parties-api-openapi.yml
+  url: https://artifacts.apis.io/digits-com/openapi/digits-com-parties-api-openapi.yml
 - filename: digits-com-sources-api-openapi.yml
   format: yaml
   label: Digits Sources API
   slug: digits-com-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-sources-api-openapi.yml
+  url: https://artifacts.apis.io/digits-com/openapi/digits-com-sources-api-openapi.yml
 - filename: digits-com-transactions-api-openapi.yml
   format: yaml
   label: Digits Transactions API
   slug: digits-com-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/digits-com/openapi/digits-com-transactions-api-openapi.yml
 - filename: digits-com-webhooks-api-openapi.yml
   format: yaml
   label: Digits Webhooks API
   slug: digits-com-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/digits-com/openapi/digits-com-webhooks-api-openapi.yml
 - filename: digits-com-llms-txt-api-openapi.yml
   format: yaml
   label: Digits Llms.txt API
   slug: digits-com-llms-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-llms-txt-api-openapi.yml
+  url: https://artifacts.apis.io/digits-com/openapi/digits-com-llms-txt-api-openapi.yml
 - filename: digits-com-sitemap-xml-api-openapi.yml
   format: yaml
   label: Digits Sitemap.xml API
   slug: digits-com-sitemap-xml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-sitemap-xml-api-openapi.yml
+  url: https://artifacts.apis.io/digits-com/openapi/digits-com-sitemap-xml-api-openapi.yml
 - filename: digits-com-well-known-api-openapi.yml
   format: yaml
   label: Digits .well Known API
   slug: digits-com-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/digits-com/openapi/digits-com-well-known-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -99,7 +99,7 @@ source_filename: digits-com-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/digits-com-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://connect.digits.com/v1/oauth/authorize\n    tokenUrl: https://connect.digits.com/v1/oauth/token\n    scopes: 2\n  description: OAuth 2.0 authorization code grant.\n  sources:\n  - openapi/digits-com-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/authentication/digits-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/digits-com/authentication/digits-com-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Accounting

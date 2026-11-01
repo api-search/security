@@ -27,7 +27,7 @@ source_filename: host-hotels-and-resorts-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hosthotels.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 16 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: hosthotels.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/host-hotels-and-resorts/refs/heads/main/security/host-hotels-and-resorts-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/host-hotels-and-resorts/security/host-hotels-and-resorts-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Hospitality

@@ -5,13 +5,13 @@ api_specs:
   label: AppSumo Licenses API
   slug: appsumo-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsumo/refs/heads/main/openapi/appsumo-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/appsumo/openapi/appsumo-licenses-api-openapi.yml
 - filename: appsumo-profile-api-openapi.yml
   format: yaml
   label: AppSumo Profile API
   slug: appsumo-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsumo/refs/heads/main/openapi/appsumo-profile-api-openapi.yml
+  url: https://artifacts.apis.io/appsumo/openapi/appsumo-profile-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: appsumo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: appsumo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 11 22:59:53 2026 GMT\n  hsts: false\n- host: docs.licensing.appsumo.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 28 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: appsumo.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appsumo/refs/heads/main/security/appsumo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/appsumo/security/appsumo-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Marketplace

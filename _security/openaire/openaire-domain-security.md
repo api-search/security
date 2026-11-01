@@ -5,25 +5,25 @@ api_specs:
   label: OpenAIRE Broker API
   slug: openaire-broker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaire/refs/heads/main/openapi/openaire-broker-api-openapi.yml
+  url: https://artifacts.apis.io/openaire/openapi/openaire-broker-api-openapi.yml
 - filename: openaire-oidc-api-openapi.yml
   format: yaml
   label: OpenAIRE Oidc API
   slug: openaire-oidc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaire/refs/heads/main/openapi/openaire-oidc-api-openapi.yml
+  url: https://artifacts.apis.io/openaire/openapi/openaire-oidc-api-openapi.yml
 - filename: openaire-openaire-api-api-openapi.yml
   format: yaml
   label: OpenAIRE OpenAIRE API
   slug: openaire-openaire-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaire/refs/heads/main/openapi/openaire-openaire-api-api-openapi.yml
+  url: https://artifacts.apis.io/openaire/openapi/openaire-openaire-api-api-openapi.yml
 - filename: openaire-skg-if-api-openapi.yml
   format: yaml
   label: OpenAIRE Skg If API
   slug: openaire-skg-if-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaire/refs/heads/main/openapi/openaire-skg-if-api-openapi.yml
+  url: https://artifacts.apis.io/openaire/openapi/openaire-skg-if-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: openaire-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.openaire.eu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 20 10:50:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: openaire.eu\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openaire/refs/heads/main/security/openaire-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/openaire/security/openaire-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

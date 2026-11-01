@@ -5,67 +5,67 @@ api_specs:
   label: Google Cloud Service Mesh Gateways API
   slug: google-cloud-service-mesh-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/openapi/google-cloud-service-mesh-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-gateways-api-openapi.yml
 - filename: google-cloud-service-mesh-google-cloud-network-services-api-service-mesh-api-openapi.yml
   format: yaml
   label: Google Cloud Service Mesh Google Cloud Network Services API (Service Mesh) API
   slug: google-cloud-service-mesh-google-cloud-network-services-api-service-mesh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/openapi/google-cloud-service-mesh-google-cloud-network-services-api-service-mesh-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-google-cloud-network-services-api-service-mesh-api-openapi.yml
 - filename: google-cloud-service-mesh-grpcroutes-api-openapi.yml
   format: yaml
   label: Google Cloud Service Mesh GrpcRoutes API
   slug: google-cloud-service-mesh-grpcroutes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/openapi/google-cloud-service-mesh-grpcroutes-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-grpcroutes-api-openapi.yml
 - filename: google-cloud-service-mesh-httproutes-api-openapi.yml
   format: yaml
   label: Google Cloud Service Mesh HttpRoutes API
   slug: google-cloud-service-mesh-httproutes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/openapi/google-cloud-service-mesh-httproutes-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-httproutes-api-openapi.yml
 - filename: google-cloud-service-mesh-locations-api-openapi.yml
   format: yaml
   label: Google Cloud Service Mesh Locations API
   slug: google-cloud-service-mesh-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/openapi/google-cloud-service-mesh-locations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-locations-api-openapi.yml
 - filename: google-cloud-service-mesh-meshes-api-openapi.yml
   format: yaml
   label: Google Cloud Service Mesh Meshes API
   slug: google-cloud-service-mesh-meshes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/openapi/google-cloud-service-mesh-meshes-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-meshes-api-openapi.yml
 - filename: google-cloud-service-mesh-operations-api-openapi.yml
   format: yaml
   label: Google Cloud Service Mesh Operations API
   slug: google-cloud-service-mesh-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/openapi/google-cloud-service-mesh-operations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-operations-api-openapi.yml
 - filename: google-cloud-service-mesh-servicelbpolicies-api-openapi.yml
   format: yaml
   label: Google Cloud Service Mesh ServiceLbPolicies API
   slug: google-cloud-service-mesh-servicelbpolicies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/openapi/google-cloud-service-mesh-servicelbpolicies-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-servicelbpolicies-api-openapi.yml
 - filename: google-cloud-service-mesh-tcproutes-api-openapi.yml
   format: yaml
   label: Google Cloud Service Mesh TcpRoutes API
   slug: google-cloud-service-mesh-tcproutes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/openapi/google-cloud-service-mesh-tcproutes-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-tcproutes-api-openapi.yml
 - filename: google-cloud-service-mesh-tlsroutes-api-openapi.yml
   format: yaml
   label: Google Cloud Service Mesh TlsRoutes API
   slug: google-cloud-service-mesh-tlsroutes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/openapi/google-cloud-service-mesh-tlsroutes-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-tlsroutes-api-openapi.yml
 - filename: google-cloud-service-mesh-endpoint-policies-api-openapi.yml
   format: yaml
   label: Google Cloud Service Mesh Endpoint Policies API
   slug: google-cloud-service-mesh-endpoint-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/openapi/google-cloud-service-mesh-endpoint-policies-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-endpoint-policies-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -113,7 +113,7 @@ source_filename: google-cloud-service-mesh-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cloud.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: networkservices.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:17 2026 GMT\n  hsts: null\n- host: networksecurity.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:17 2026 GMT\n  hsts: null\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/security/google-cloud-service-mesh-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-service-mesh/security/google-cloud-service-mesh-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Google Cloud

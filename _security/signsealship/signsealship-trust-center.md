@@ -5,49 +5,49 @@ api_specs:
   label: SignSealShip Partner API Closing Passports API
   slug: signsealship-closing-passports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/openapi/signsealship-closing-passports-api-openapi.yml
+  url: https://artifacts.apis.io/signsealship/openapi/signsealship-closing-passports-api-openapi.yml
 - filename: signsealship-closing-rooms-api-openapi.yml
   format: yaml
   label: SignSealShip Partner API Closing Rooms API
   slug: signsealship-closing-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/openapi/signsealship-closing-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/signsealship/openapi/signsealship-closing-rooms-api-openapi.yml
 - filename: signsealship-launchpad-analytics-api-openapi.yml
   format: yaml
   label: SignSealShip Partner API Launchpad & Analytics API
   slug: signsealship-launchpad-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/openapi/signsealship-launchpad-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/signsealship/openapi/signsealship-launchpad-analytics-api-openapi.yml
 - filename: signsealship-onboarding-api-openapi.yml
   format: yaml
   label: SignSealShip Partner API Onboarding API
   slug: signsealship-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/openapi/signsealship-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/signsealship/openapi/signsealship-onboarding-api-openapi.yml
 - filename: signsealship-orders-api-openapi.yml
   format: yaml
   label: SignSealShip Partner API Orders API
   slug: signsealship-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/openapi/signsealship-orders-api-openapi.yml
+  url: https://artifacts.apis.io/signsealship/openapi/signsealship-orders-api-openapi.yml
 - filename: signsealship-proof-passport-api-openapi.yml
   format: yaml
   label: SignSealShip Partner API Proof Passport API
   slug: signsealship-proof-passport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/openapi/signsealship-proof-passport-api-openapi.yml
+  url: https://artifacts.apis.io/signsealship/openapi/signsealship-proof-passport-api-openapi.yml
 - filename: signsealship-sandbox-api-openapi.yml
   format: yaml
   label: SignSealShip Partner API Sandbox API
   slug: signsealship-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/openapi/signsealship-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/signsealship/openapi/signsealship-sandbox-api-openapi.yml
 - filename: signsealship-webhooks-api-openapi.yml
   format: yaml
   label: SignSealShip Partner API Webhooks API
   slug: signsealship-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/openapi/signsealship-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/signsealship/openapi/signsealship-webhooks-api-openapi.yml
 certification_count: 3
 certifications:
 - count
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-09-01'\nmethod: searched\nsource: https://signsea
   \ 7-year retention bucket.\n  infrastructure: >-\n    Cloud Run, Cloud SQL (managed PostgreSQL) and Cloud KMS. Each deployed service runs under its\n    own dedicated service account with least-privilege access. Secrets mounted from a managed\n    secret store, never baked into images. Deploys ship by immutable image digest with the source\n    commit verifiable at https://signsealship.com/api/version.\n  edge: >-\n    Cloudflare in front of public /api/* traffic with an origin shared-secret check and rate\n    limits on every public write.\n  inbound_webhooks: >-\n    Fail closed -- every inbound vendor event must pass signature verification, and if a vendor's\n    verification is not configured its route does not exist in production.\n  data_handling: >-\n    Uploads are malware-scanned (event-driven ClamAV) and DLP-classified with category names only\n    -- never content -- in logs.\nsubprocessors:\n  published: true\n  disclosure_level: by role, not by name\n  named_directly:\n  -\
   \ Google Cloud Platform\n  - Stripe\n  by_role:\n  - Remote online notarization network partner\n  - Shipping API partner (USPS, UPS, FedEx labels and tracking)\n  - Print-and-mail fulfillment partner\n  - Transactional email provider\n  note: >-\n    Business customers can request the fully named subprocessor list under a data-processing\n    agreement. Partial naming is a real limitation for a vendor-review process, and the page says\n    so rather than hiding it.\nverifiability_claim: >-\n  The distinguishing posture of this trust center is that its central security claim is\n  independently checkable by the reader without trusting the vendor: open a sealed PDF in free\n  Adobe Reader and inspect the signature panel. Very few trust centers of any size offer a\n  reader-executable proof in place of a badge.\ngaps:\n- No SOC 2, ISO 27001 or any third-party attestation.\n- No named subprocessor list without a DPA.\n- No /.well-known/security.txt -- see security/signsealship-vulnerability-disclosure.yml.\n\
   - No penetration-test summary or architecture attestation published.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/security/signsealship-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/signsealship/security/signsealship-trust-center.yml
 summary_line: count, named, note
 tags:
 - Notarization

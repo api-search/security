@@ -5,13 +5,13 @@ api_specs:
   label: AISHub Stations API
   slug: aishub-stations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aishub/refs/heads/main/openapi/aishub-stations-api-openapi.yml
+  url: https://artifacts.apis.io/aishub/openapi/aishub-stations-api-openapi.yml
 - filename: aishub-vessel-positions-api-openapi.yml
   format: yaml
   label: AISHub Vessel Positions API
   slug: aishub-vessel-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aishub/refs/heads/main/openapi/aishub-vessel-positions-api-openapi.yml
+  url: https://artifacts.apis.io/aishub/openapi/aishub-vessel-positions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -44,7 +44,7 @@ source_filename: aishub-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.aishub.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 20:33:05 2026 GMT\n  hsts: false\n- host: data.aishub.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 20:33:05 2026 GMT\n  hsts: false\ndomains:\n- domain: aishub.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aishub/refs/heads/main/security/aishub-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aishub/security/aishub-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Vessel Tracking

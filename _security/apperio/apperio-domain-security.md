@@ -5,31 +5,31 @@ api_specs:
   label: Apperio Analytics API
   slug: apperio-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/openapi/apperio-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/apperio/openapi/apperio-analytics-api-openapi.yml
 - filename: apperio-e-billing-api-openapi.yml
   format: yaml
   label: Apperio E-billing API
   slug: apperio-e-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/openapi/apperio-e-billing-api-openapi.yml
+  url: https://artifacts.apis.io/apperio/openapi/apperio-e-billing-api-openapi.yml
 - filename: apperio-filter-api-openapi.yml
   format: yaml
   label: Apperio Filter API
   slug: apperio-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/openapi/apperio-filter-api-openapi.yml
+  url: https://artifacts.apis.io/apperio/openapi/apperio-filter-api-openapi.yml
 - filename: apperio-matter-information-api-openapi.yml
   format: yaml
   label: Apperio Matter information API
   slug: apperio-matter-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/openapi/apperio-matter-information-api-openapi.yml
+  url: https://artifacts.apis.io/apperio/openapi/apperio-matter-information-api-openapi.yml
 - filename: apperio-users-api-openapi.yml
   format: yaml
   label: Apperio Users API
   slug: apperio-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/openapi/apperio-users-api-openapi.yml
+  url: https://artifacts.apis.io/apperio/openapi/apperio-users-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -76,13 +76,12 @@ source_filename: apperio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: apperio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: sandbox.apperio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.apperio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: apperio.com\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issuewild \";\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/security/apperio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apperio/security/apperio-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Legal
-- Legal Spend Management
-- Legal Tech
 - E-Billing
+- Legal Tech
 - Matter Management
 - Legal Operations
 - Analytics

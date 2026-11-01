@@ -5,61 +5,61 @@ api_specs:
   label: Fulfil Authentication API
   slug: fulfil-io-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-authentication-api-openapi.yml
 - filename: fulfil-io-customers-api-openapi.yml
   format: yaml
   label: Fulfil Customers API
   slug: fulfil-io-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-customers-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-customers-api-openapi.yml
 - filename: fulfil-io-inventory-stock-api-openapi.yml
   format: yaml
   label: Fulfil Inventory & Stock API
   slug: fulfil-io-inventory-stock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-inventory-stock-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-inventory-stock-api-openapi.yml
 - filename: fulfil-io-manufacturing-api-openapi.yml
   format: yaml
   label: Fulfil Manufacturing API
   slug: fulfil-io-manufacturing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-manufacturing-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-manufacturing-api-openapi.yml
 - filename: fulfil-io-model-interface-api-openapi.yml
   format: yaml
   label: Fulfil Model Interface API
   slug: fulfil-io-model-interface-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-model-interface-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-model-interface-api-openapi.yml
 - filename: fulfil-io-products-variants-api-openapi.yml
   format: yaml
   label: Fulfil Products & Variants API
   slug: fulfil-io-products-variants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-products-variants-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-products-variants-api-openapi.yml
 - filename: fulfil-io-purchases-api-openapi.yml
   format: yaml
   label: Fulfil Purchases API
   slug: fulfil-io-purchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-purchases-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-purchases-api-openapi.yml
 - filename: fulfil-io-sales-orders-api-openapi.yml
   format: yaml
   label: Fulfil Sales Orders API
   slug: fulfil-io-sales-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-sales-orders-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-sales-orders-api-openapi.yml
 - filename: fulfil-io-shipments-api-openapi.yml
   format: yaml
   label: Fulfil Shipments API
   slug: fulfil-io-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-shipments-api-openapi.yml
 - filename: fulfil-io-webhooks-api-openapi.yml
   format: yaml
   label: Fulfil Webhooks API
   slug: fulfil-io-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-webhooks-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -77,7 +77,7 @@ source_filename: fulfil-io-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.fulfil.io/security/\nurl: https://www.fulfil.io/security/\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://www.fulfil.io/security/\n  keywords:\n  - soc 2\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/security/fulfil-io-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/fulfil-io/security/fulfil-io-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - ERP

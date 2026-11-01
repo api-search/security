@@ -7,43 +7,43 @@ api_specs:
   label: Spinwheel Bank Accounts API
   slug: spinwheel-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinwheel/refs/heads/main/openapi/spinwheel-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/spinwheel/openapi/spinwheel-bank-accounts-api-openapi.yml
 - filename: spinwheel-credit-data-api-openapi.yml
   format: yaml
   label: Spinwheel Credit Data API
   slug: spinwheel-credit-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinwheel/refs/heads/main/openapi/spinwheel-credit-data-api-openapi.yml
+  url: https://artifacts.apis.io/spinwheel/openapi/spinwheel-credit-data-api-openapi.yml
 - filename: spinwheel-liabilities-api-openapi.yml
   format: yaml
   label: Spinwheel Liabilities API
   slug: spinwheel-liabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinwheel/refs/heads/main/openapi/spinwheel-liabilities-api-openapi.yml
+  url: https://artifacts.apis.io/spinwheel/openapi/spinwheel-liabilities-api-openapi.yml
 - filename: spinwheel-payments-api-openapi.yml
   format: yaml
   label: Spinwheel Payments API
   slug: spinwheel-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinwheel/refs/heads/main/openapi/spinwheel-payments-api-openapi.yml
+  url: https://artifacts.apis.io/spinwheel/openapi/spinwheel-payments-api-openapi.yml
 - filename: spinwheel-reference-api-openapi.yml
   format: yaml
   label: Spinwheel Reference API
   slug: spinwheel-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinwheel/refs/heads/main/openapi/spinwheel-reference-api-openapi.yml
+  url: https://artifacts.apis.io/spinwheel/openapi/spinwheel-reference-api-openapi.yml
 - filename: spinwheel-users-api-openapi.yml
   format: yaml
   label: Spinwheel Users API
   slug: spinwheel-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinwheel/refs/heads/main/openapi/spinwheel-users-api-openapi.yml
+  url: https://artifacts.apis.io/spinwheel/openapi/spinwheel-users-api-openapi.yml
 - filename: spinwheel-webhooks-api-openapi.yml
   format: yaml
   label: Spinwheel Webhooks API
   slug: spinwheel-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinwheel/refs/heads/main/openapi/spinwheel-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/spinwheel/openapi/spinwheel-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -70,7 +70,7 @@ source_filename: spinwheel-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/spinwheel-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Spinwheel secret API key issued from the developer portal (https://developer.spinwheel.io).\n    The exact transport header is gated behind the developer login and not reconciled here.\n  sources:\n  - openapi/spinwheel-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spinwheel/refs/heads/main/authentication/spinwheel-authentication.yml
+source_yaml_url: https://artifacts.apis.io/spinwheel/authentication/spinwheel-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Fintech

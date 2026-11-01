@@ -38,7 +38,7 @@ source_filename: cme-group-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cmegroup.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 23:59:59 2026 GMT\n  hsts: null\n- host: dataservices.cmegroup.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 22 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 86400\n- host: refdata.api.cmegroup.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 20:12:51 2026 GMT\n  hsts: null\ndomains:\n- domain: cmegroup.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/security/cme-group-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cme-group/security/cme-group-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Capital Markets

@@ -27,7 +27,7 @@ source_filename: akur8-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.akur8.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 18:28:12 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: akur8.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/akur8/refs/heads/main/security/akur8-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/akur8/security/akur8-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance

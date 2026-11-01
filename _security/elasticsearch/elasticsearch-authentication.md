@@ -8,31 +8,31 @@ api_specs:
   label: Elasticsearch Cat API
   slug: elasticsearch-cat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elasticsearch/refs/heads/main/openapi/elasticsearch-cat-api-openapi.yml
+  url: https://artifacts.apis.io/elasticsearch/openapi/elasticsearch-cat-api-openapi.yml
 - filename: elasticsearch-cluster-api-openapi.yml
   format: yaml
   label: Elasticsearch Cluster API
   slug: elasticsearch-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elasticsearch/refs/heads/main/openapi/elasticsearch-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/elasticsearch/openapi/elasticsearch-cluster-api-openapi.yml
 - filename: elasticsearch-document-api-openapi.yml
   format: yaml
   label: Elasticsearch Document API
   slug: elasticsearch-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elasticsearch/refs/heads/main/openapi/elasticsearch-document-api-openapi.yml
+  url: https://artifacts.apis.io/elasticsearch/openapi/elasticsearch-document-api-openapi.yml
 - filename: elasticsearch-index-api-openapi.yml
   format: yaml
   label: Elasticsearch Index API
   slug: elasticsearch-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elasticsearch/refs/heads/main/openapi/elasticsearch-index-api-openapi.yml
+  url: https://artifacts.apis.io/elasticsearch/openapi/elasticsearch-index-api-openapi.yml
 - filename: elasticsearch-search-api-openapi.yml
   format: yaml
   label: Elasticsearch Search API
   slug: elasticsearch-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elasticsearch/refs/heads/main/openapi/elasticsearch-search-api-openapi.yml
+  url: https://artifacts.apis.io/elasticsearch/openapi/elasticsearch-search-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -68,7 +68,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/elasticsearch-openapi.yml\ndocs: https://www.elastic.co/docs/deploy-manage/users-roles/cluster-or-deployment-auth\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\n  model: >-\n    Elasticsearch REST API authentication is per-cluster. HTTP Basic and API\n    keys are the primary programmatic mechanisms; the security layer also\n    supports bearer/service tokens, PKI (mutual TLS), and enterprise SSO realms\n    (SAML, OIDC, Kerberos, LDAP/Active Directory). Authorization is\n    role-based (RBAC) via cluster and index privileges, not OAuth scopes.\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/elasticsearch-openapi.yml\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  format: '\"Authorization: ApiKey <base64(id:api_key)>\"'\n  docs: https://www.elastic.co/docs/reference/elasticsearch/rest-apis/create-api-keys\n  sources:\n  - openapi/elasticsearch-openapi.yml\n\
   realms:\n- native\n- api_key\n- token (bearer / service account tokens)\n- pki (mutual TLS)\n- saml\n- oidc\n- kerberos\n- ldap\n- active_directory\nauthorization:\n  model: rbac\n  concepts:\n    - cluster privileges\n    - index privileges\n    - application privileges\n    - roles and role mappings\n  docs: https://www.elastic.co/docs/deploy-manage/users-roles/cluster-or-deployment-auth/user-roles\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elasticsearch/refs/heads/main/authentication/elasticsearch-authentication.yml
+source_yaml_url: https://artifacts.apis.io/elasticsearch/authentication/elasticsearch-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Analytics

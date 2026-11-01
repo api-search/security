@@ -43,7 +43,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://github.com/feedvisor/api-sample\ndocs: https://feedvisor.com\nnotes: >-\n  Grounded in Feedvisor's first-party External API sample code (feedvisor/api-sample,\n  ExternalApiHelper.java / AuthenticationExample.java). The full API reference lives in\n  Feedvisor's gated Knowledge Base; only the auth mechanics observable in the public\n  sample are captured here (no scheme is fabricated).\nsummary:\n  types:\n  - oauth2\n  - http\n  oauth2_flows:\n  - clientCredentials\n  api_key_in: []\nschemes:\n- name: OAuth2ClientCredentials\n  type: oauth2\n  flow: clientCredentials\n  token_url: https://api.feedvisor.com/external/oauth/token/\n  token_request:\n    method: POST\n    content_type: application/x-www-form-urlencoded\n    body:\n      grant_type: client_credentials\n    client_auth: HTTP Basic (base64 of \"client_id:client_secret\" in Authorization header)\n  returns: JSON access_token\n  sources:\n  - https://github.com/feedvisor/api-sample\n\
   - name: BearerToken\n  type: http\n  scheme: bearer\n  usage: >-\n    The access_token from the client-credentials exchange is sent as\n    \"Authorization: Bearer <access_token>\" on all subsequent External API calls.\n  sources:\n  - https://github.com/feedvisor/api-sample\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/feedvisor/refs/heads/main/authentication/feedvisor-authentication.yml
+source_yaml_url: https://artifacts.apis.io/feedvisor/authentication/feedvisor-authentication.yml
 summary_line: oauth2/http · 2 schemes
 tags:
 - Company

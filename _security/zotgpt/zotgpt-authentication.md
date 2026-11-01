@@ -7,13 +7,13 @@ api_specs:
   label: ZotGPT (UC Irvine) Embeddings API
   slug: zotgpt-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zotgpt/refs/heads/main/openapi/zotgpt-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/zotgpt/openapi/zotgpt-embeddings-api-openapi.yml
 - filename: zotgpt-chat-completions-api-openapi.yml
   format: yaml
   label: ZotGPT (UC Irvine) Chat Completions API
   slug: zotgpt-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zotgpt/refs/heads/main/openapi/zotgpt-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/zotgpt/openapi/zotgpt-chat-completions-api-openapi.yml
 auth_types: []
 description: 'ZotGPT runs two distinct authentication planes. Human access to every interactive product is federated campus SSO — a Shibboleth SAML2 redirect to shib.service.uci.edu, observed live on chat.zotgpt.uci.edu. Machine access is key-based, and the key is always minted only after a human has authenticated with UCInetID: an Azure API Management subscription key for the deprecated API, and a workspace virtual key for the Gateway. There is no anonymous self-service signup on either plane, and there is no public OAuth authorization server.'
 kind: authentication
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-28'\nmethod: searched\nsource:\n  - https://zo
   \ may spend.\n  - name: Gateway virtual API key\n    type: apiKey\n    in: header\n    header: x-portkey-api-key\n    also_accepted_as: >-\n      bearer scheme, documented for Anthropic-style clients such as Claude\n      Desktop\n    applies_to: https://api.portkey.ai/v1\n    issued_by: >-\n      The user, self-service, inside their ZotGPT Gateway workspace after\n      UCInetID sign-in.\n    scoped_to: workspace\n    controls:\n      - per-key spend limits\n      - workspace budget enforcement\n      - provider selection via x-portkey-provider alias\n    handling: >-\n      UCI documents the virtual key as \"treat as a password.\"\n    notes: >-\n      Self-managed key issuance is the structural change from the previous\n      generation: the old API required a ServiceNow ticket per developer, the\n      Gateway does not.\n  - name: Azure API Management key (deprecated)\n    type: http\n    scheme: bearer\n    applies_to: https://api.zotgpt.uci.edu/v1\n    issued_by: >-\n      Azure\
   \ API Management developer portal at portal.azureapi.zotgpt.uci.edu,\n      after an approved ServiceNow request\n      (uci.service-now.com KB0013367).\n    eligibility: UCI faculty and staff\n    status: deprecated\n    end_of_life: >-\n      \"All remaining Azure API keys disabled\" at the end of the three-month\n      migration window.\nprovider_routing:\n  description: >-\n    The Gateway does not expose upstream vendor credentials to callers. A campus\n    alias is presented instead, and UCI holds the vendor contracts and keys\n    behind it. This is the control point that lets UCI change vendors without\n    changing any campus client code.\n  header: x-portkey-provider\n  aliases_documented:\n    - '@zotgpt-api-bedrock'\n    - '@openai-prod'\n  example_model_slug: '@zotgpt-api-bedrock/us.anthropic.claude-opus-4-7'\noauth:\n  authorization_server: none published\n  probed:\n    - path: /.well-known/oauth-authorization-server\n      host: zotgpt.uci.edu\n      status: 404\ngaps:\n\
   \  - No public, machine-readable authentication reference (no OpenAPI\n    securitySchemes published by UCI, no OIDC discovery document).\n  - No documented key rotation policy or key lifetime for Gateway virtual keys.\n  - No documented scope model — a virtual key is bounded by budget, not by\n    capability.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zotgpt/refs/heads/main/authentication/zotgpt-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zotgpt/authentication/zotgpt-authentication.yml
 summary_line: 3 schemes
 tags:
 - Authentication

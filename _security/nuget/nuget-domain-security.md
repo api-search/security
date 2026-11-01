@@ -5,43 +5,43 @@ api_specs:
   label: NuGet Package Publish API
   slug: nuget-package-publish-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-package-publish-api-openapi.yml
+  url: https://artifacts.apis.io/nuget/openapi/nuget-package-publish-api-openapi.yml
 - filename: nuget-registration-api-openapi.yml
   format: yaml
   label: NuGet Registration API
   slug: nuget-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-registration-api-openapi.yml
+  url: https://artifacts.apis.io/nuget/openapi/nuget-registration-api-openapi.yml
 - filename: nuget-service-index-api-openapi.yml
   format: yaml
   label: NuGet Service Index API
   slug: nuget-service-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-service-index-api-openapi.yml
+  url: https://artifacts.apis.io/nuget/openapi/nuget-service-index-api-openapi.yml
 - filename: nuget-autocomplete-api-openapi.yml
   format: yaml
   label: Microsoft NuGet Autocomplete API
   slug: microsoft-nuget-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/nuget/openapi/nuget-autocomplete-api-openapi.yml
 - filename: nuget-flatcontainer-api-openapi.yml
   format: yaml
   label: Microsoft NuGet Flatcontainer API
   slug: microsoft-nuget-flatcontainer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-flatcontainer-api-openapi.yml
+  url: https://artifacts.apis.io/nuget/openapi/nuget-flatcontainer-api-openapi.yml
 - filename: nuget-query-api-openapi.yml
   format: yaml
   label: Microsoft NuGet Query API
   slug: microsoft-nuget-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-query-api-openapi.yml
+  url: https://artifacts.apis.io/nuget/openapi/nuget-query-api-openapi.yml
 - filename: nuget-registration5-gz-semver2-api-openapi.yml
   format: yaml
   label: Microsoft NuGet Registration5 Gz Semver2 API
   slug: microsoft-nuget-registration5-gz-semver2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-registration5-gz-semver2-api-openapi.yml
+  url: https://artifacts.apis.io/nuget/openapi/nuget-registration5-gz-semver2-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -90,7 +90,7 @@ source_filename: nuget-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: learn.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 02:26:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.nuget.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 13:23:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.nuget.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 13:23:07 2026 GMT\n  hsts: null\ndomains:\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: nuget.org\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/security/nuget-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nuget/security/nuget-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Package Management

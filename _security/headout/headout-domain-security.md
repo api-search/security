@@ -5,37 +5,37 @@ api_specs:
   label: HeadOut Booking API
   slug: headout-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/headout/refs/heads/main/openapi/headout-booking-api-openapi.yml
+  url: https://artifacts.apis.io/headout/openapi/headout-booking-api-openapi.yml
 - filename: headout-categories-api-openapi.yml
   format: yaml
   label: HeadOut Categories API
   slug: headout-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/headout/refs/heads/main/openapi/headout-categories-api-openapi.yml
+  url: https://artifacts.apis.io/headout/openapi/headout-categories-api-openapi.yml
 - filename: headout-collections-api-openapi.yml
   format: yaml
   label: HeadOut Collections API
   slug: headout-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/headout/refs/heads/main/openapi/headout-collections-api-openapi.yml
+  url: https://artifacts.apis.io/headout/openapi/headout-collections-api-openapi.yml
 - filename: headout-inventory-api-openapi.yml
   format: yaml
   label: HeadOut Inventory API
   slug: headout-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/headout/refs/heads/main/openapi/headout-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/headout/openapi/headout-inventory-api-openapi.yml
 - filename: headout-products-api-openapi.yml
   format: yaml
   label: HeadOut Products API
   slug: headout-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/headout/refs/heads/main/openapi/headout-products-api-openapi.yml
+  url: https://artifacts.apis.io/headout/openapi/headout-products-api-openapi.yml
 - filename: headout-subcategories-api-openapi.yml
   format: yaml
   label: HeadOut Subcategories API
   slug: headout-subcategories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/headout/refs/heads/main/openapi/headout-subcategories-api-openapi.yml
+  url: https://artifacts.apis.io/headout/openapi/headout-subcategories-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: headout-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: headout.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 23:59:59 2026 GMT\n  hsts: false\n- host: www.headout.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 23:59:59 2026 GMT\n  hsts: false\n- host: sandbox.api.test-headout.com\n  https: false\ndomains:\n- domain: headout.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: test-headout.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/headout/refs/heads/main/security/headout-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/headout/security/headout-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Travel

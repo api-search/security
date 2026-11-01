@@ -5,7 +5,7 @@ api_specs:
   label: Claravine API
   slug: claravine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/claravine/refs/heads/main/openapi/_ae-authored/claravine-openapi-generated.yml
+  url: https://artifacts.apis.io/claravine/openapi/_ae-authored/claravine-openapi-generated.yml
 description: ''
 domains:
 - caa: []
@@ -35,11 +35,11 @@ source_filename: claravine-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.claravine.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 15 18:58:31 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: claravine.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/claravine/refs/heads/main/security/claravine-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/claravine/security/claravine-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Data-Standards
+- Data Standards
 - Marketing
 - Software-as-a-Service
 ---

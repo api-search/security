@@ -27,7 +27,7 @@ source_filename: medely-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: medely.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 03:25:16 2026 GMT\n  hsts: false\ndomains:\n- domain: medely.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/medely/refs/heads/main/security/medely-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/medely/security/medely-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

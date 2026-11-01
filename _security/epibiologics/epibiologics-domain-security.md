@@ -27,7 +27,7 @@ source_filename: epibiologics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.epibiologics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 01:26:47 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: epibiologics.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/epibiologics/refs/heads/main/security/epibiologics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/epibiologics/security/epibiologics-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

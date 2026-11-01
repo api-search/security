@@ -5,13 +5,13 @@ api_specs:
   label: Ninetailed Events API
   slug: ninetailed-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninetailed/refs/heads/main/openapi/ninetailed-events-api-openapi.yml
+  url: https://artifacts.apis.io/ninetailed/openapi/ninetailed-events-api-openapi.yml
 - filename: ninetailed-profiles-api-openapi.yml
   format: yaml
   label: Ninetailed Profiles API
   slug: ninetailed-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninetailed/refs/heads/main/openapi/ninetailed-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/ninetailed/openapi/ninetailed-profiles-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -29,7 +29,7 @@ source_filename: ninetailed-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.contentful.com/security/\nurl: https://www.contentful.com/security/\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://www.contentful.com/security/\n  keywords:\n  - soc 2\n  - iso 27001\n  - iso/iec 27001\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ninetailed/refs/heads/main/security/ninetailed-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/ninetailed/security/ninetailed-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Personalization

@@ -8,13 +8,13 @@ api_specs:
   label: Knack Object Records API
   slug: knack-object-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knack/refs/heads/main/openapi/knack-object-records-api-openapi.yml
+  url: https://artifacts.apis.io/knack/openapi/knack-object-records-api-openapi.yml
 - filename: knack-view-records-api-openapi.yml
   format: yaml
   label: Knack View Records API
   slug: knack-view-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knack/refs/heads/main/openapi/knack-view-records-api-openapi.yml
+  url: https://artifacts.apis.io/knack/openapi/knack-view-records-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -49,7 +49,7 @@ source_filename: knack-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/knack-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApplicationId\n  type: apiKey\n  in: header\n  parameter: X-Knack-Application-Id\n  description: Knack Application ID identifying the target application\n  sources:\n  - openapi/knack-openapi.yml\n- name: RestApiKey\n  type: apiKey\n  in: header\n  parameter: X-Knack-REST-API-Key\n  description: REST API key authorizing the request\n  sources:\n  - openapi/knack-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/knack/refs/heads/main/authentication/knack-authentication.yml
+source_yaml_url: https://artifacts.apis.io/knack/authentication/knack-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - No-Code

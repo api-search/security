@@ -5,7 +5,7 @@ api_specs:
   label: Bond Pet Foods Website (WordPress REST)
   slug: bondpets-com-website-wordpress-rest
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bond-pet-foods/refs/heads/main/openapi/bond-pet-foods-wp-rest-index-original.json
+  url: https://artifacts.apis.io/bond-pet-foods/openapi/bond-pet-foods-wp-rest-index-original.json
 description: ''
 domains:
 - caa: []
@@ -34,7 +34,7 @@ source_filename: bond-pet-foods-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bondpets.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 11:34:44 2026 GMT\n  hsts: false\ndomains:\n- domain: bondpets.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bond-pet-foods/refs/heads/main/security/bond-pet-foods-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bond-pet-foods/security/bond-pet-foods-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Pet Food

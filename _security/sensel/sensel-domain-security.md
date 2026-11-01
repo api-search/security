@@ -32,7 +32,7 @@ source_filename: sensel-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sensel.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 20 21:32:30 2026 GMT\n  hsts: null\n- host: guide.sensel.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 20 23:13:18 2026 GMT\n  hsts: false\ndomains:\n- domain: sensel.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sensel/refs/heads/main/security/sensel-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sensel/security/sensel-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

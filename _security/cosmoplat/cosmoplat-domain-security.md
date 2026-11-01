@@ -5,61 +5,61 @@ api_specs:
   label: COSMOPlat IoT Telemetry (MQTT)
   slug: cosmoplat-iot-telemetry-mqtt
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/asyncapi/cosmoplat-iot-telemetry-asyncapi.yml
+  url: https://artifacts.apis.io/cosmoplat/asyncapi/cosmoplat-iot-telemetry-asyncapi.yml
 - filename: cosmoplat-alarm-records-api-openapi.yml
   format: yaml
   label: Cosmoplat Alarm Records API
   slug: cosmoplat-alarm-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/openapi/cosmoplat-alarm-records-api-openapi.yml
+  url: https://artifacts.apis.io/cosmoplat/openapi/cosmoplat-alarm-records-api-openapi.yml
 - filename: cosmoplat-alarm-rules-api-openapi.yml
   format: yaml
   label: Cosmoplat Alarm Rules API
   slug: cosmoplat-alarm-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/openapi/cosmoplat-alarm-rules-api-openapi.yml
+  url: https://artifacts.apis.io/cosmoplat/openapi/cosmoplat-alarm-rules-api-openapi.yml
 - filename: cosmoplat-attribute-data-api-openapi.yml
   format: yaml
   label: Cosmoplat Attribute Data API
   slug: cosmoplat-attribute-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/openapi/cosmoplat-attribute-data-api-openapi.yml
+  url: https://artifacts.apis.io/cosmoplat/openapi/cosmoplat-attribute-data-api-openapi.yml
 - filename: cosmoplat-device-management-api-openapi.yml
   format: yaml
   label: Cosmoplat Device Management API
   slug: cosmoplat-device-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/openapi/cosmoplat-device-management-api-openapi.yml
+  url: https://artifacts.apis.io/cosmoplat/openapi/cosmoplat-device-management-api-openapi.yml
 - filename: cosmoplat-device-rpc-api-openapi.yml
   format: yaml
   label: Cosmoplat Device RPC API
   slug: cosmoplat-device-rpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/openapi/cosmoplat-device-rpc-api-openapi.yml
+  url: https://artifacts.apis.io/cosmoplat/openapi/cosmoplat-device-rpc-api-openapi.yml
 - filename: cosmoplat-product-management-api-openapi.yml
   format: yaml
   label: Cosmoplat Product Management API
   slug: cosmoplat-product-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/openapi/cosmoplat-product-management-api-openapi.yml
+  url: https://artifacts.apis.io/cosmoplat/openapi/cosmoplat-product-management-api-openapi.yml
 - filename: cosmoplat-rule-chains-api-openapi.yml
   format: yaml
   label: Cosmoplat Rule Chains API
   slug: cosmoplat-rule-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/openapi/cosmoplat-rule-chains-api-openapi.yml
+  url: https://artifacts.apis.io/cosmoplat/openapi/cosmoplat-rule-chains-api-openapi.yml
 - filename: cosmoplat-thing-model-telemetry-profile-api-openapi.yml
   format: yaml
   label: Cosmoplat Thing Model (Telemetry Profile) API
   slug: cosmoplat-thing-model-telemetry-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/openapi/cosmoplat-thing-model-telemetry-profile-api-openapi.yml
+  url: https://artifacts.apis.io/cosmoplat/openapi/cosmoplat-thing-model-telemetry-profile-api-openapi.yml
 - filename: cosmoplat-time-series-data-api-openapi.yml
   format: yaml
   label: Cosmoplat Time-series Data API
   slug: cosmoplat-time-series-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/openapi/cosmoplat-time-series-data-api-openapi.yml
+  url: https://artifacts.apis.io/cosmoplat/openapi/cosmoplat-time-series-data-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -92,7 +92,7 @@ source_filename: cosmoplat-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cosmoplat.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  3 09:39:30 2027 GMT\n  hsts: false\n- host: iot-mqtt.cosmoplat.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  3 09:39:30 2027 GMT\n  hsts: null\ndomains:\n- domain: cosmoplat.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/security/cosmoplat-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cosmoplat/security/cosmoplat-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

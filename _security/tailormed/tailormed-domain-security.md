@@ -45,7 +45,7 @@ source_filename: tailormed-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tailormed.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 17:38:27 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: hub.tailormed.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 14:38:37 2026 GMT\n  hsts: false\n- host: auth.tailormed.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov  7 11:31:13 2026 GMT\n  hsts: true\n  hsts_max_age: 315360000\ndomains:\n- domain: tailormed.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: tailormed.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/security/tailormed-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tailormed/security/tailormed-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

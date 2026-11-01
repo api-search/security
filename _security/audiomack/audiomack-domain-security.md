@@ -5,49 +5,49 @@ api_specs:
   label: Audiomack Artist API
   slug: audiomack-artist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/openapi/audiomack-artist-api-openapi.yml
+  url: https://artifacts.apis.io/audiomack/openapi/audiomack-artist-api-openapi.yml
 - filename: audiomack-chart-api-openapi.yml
   format: yaml
   label: Audiomack Chart API
   slug: audiomack-chart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/openapi/audiomack-chart-api-openapi.yml
+  url: https://artifacts.apis.io/audiomack/openapi/audiomack-chart-api-openapi.yml
 - filename: audiomack-music-api-openapi.yml
   format: yaml
   label: Audiomack Music API
   slug: audiomack-music-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/openapi/audiomack-music-api-openapi.yml
+  url: https://artifacts.apis.io/audiomack/openapi/audiomack-music-api-openapi.yml
 - filename: audiomack-playlist-api-openapi.yml
   format: yaml
   label: Audiomack Playlist API
   slug: audiomack-playlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/openapi/audiomack-playlist-api-openapi.yml
+  url: https://artifacts.apis.io/audiomack/openapi/audiomack-playlist-api-openapi.yml
 - filename: audiomack-search-api-openapi.yml
   format: yaml
   label: Audiomack Search API
   slug: audiomack-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/openapi/audiomack-search-api-openapi.yml
+  url: https://artifacts.apis.io/audiomack/openapi/audiomack-search-api-openapi.yml
 - filename: audiomack-stats-api-openapi.yml
   format: yaml
   label: Audiomack Stats API
   slug: audiomack-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/openapi/audiomack-stats-api-openapi.yml
+  url: https://artifacts.apis.io/audiomack/openapi/audiomack-stats-api-openapi.yml
 - filename: audiomack-user-api-openapi.yml
   format: yaml
   label: Audiomack User API
   slug: audiomack-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/openapi/audiomack-user-api-openapi.yml
+  url: https://artifacts.apis.io/audiomack/openapi/audiomack-user-api-openapi.yml
 - filename: audiomack-oauth-api-openapi.yml
   format: yaml
   label: Audiomack O Auth API
   slug: audiomack-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/openapi/audiomack-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/audiomack/openapi/audiomack-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -89,7 +89,7 @@ source_filename: audiomack-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: audiomack.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 31 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 345600\n- host: creators.audiomack.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  7 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: www.audiomack.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 31 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 345600\ndomains:\n- domain: audiomack.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/security/audiomack-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/audiomack/security/audiomack-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Music

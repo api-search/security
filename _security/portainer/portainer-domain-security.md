@@ -5,193 +5,193 @@ api_specs:
   label: Portainer Auth API
   slug: portainer-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-auth-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-auth-api-openapi.yml
 - filename: portainer-backup-api-openapi.yml
   format: yaml
   label: Portainer Backup API
   slug: portainer-backup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-backup-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-backup-api-openapi.yml
 - filename: portainer-custom-templates-api-openapi.yml
   format: yaml
   label: Portainer Custom Templates API
   slug: portainer-custom-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-custom-templates-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-custom-templates-api-openapi.yml
 - filename: portainer-docker-api-openapi.yml
   format: yaml
   label: Portainer Docker API
   slug: portainer-docker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-docker-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-docker-api-openapi.yml
 - filename: portainer-edge-api-openapi.yml
   format: yaml
   label: Portainer Edge API
   slug: portainer-edge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-edge-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-edge-api-openapi.yml
 - filename: portainer-edge-groups-api-openapi.yml
   format: yaml
   label: Portainer Edge Groups API
   slug: portainer-edge-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-edge-groups-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-edge-groups-api-openapi.yml
 - filename: portainer-edge-jobs-api-openapi.yml
   format: yaml
   label: Portainer Edge Jobs API
   slug: portainer-edge-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-edge-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-edge-jobs-api-openapi.yml
 - filename: portainer-edge-stacks-api-openapi.yml
   format: yaml
   label: Portainer Edge Stacks API
   slug: portainer-edge-stacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-edge-stacks-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-edge-stacks-api-openapi.yml
 - filename: portainer-endpoint-groups-api-openapi.yml
   format: yaml
   label: Portainer Endpoint Groups API
   slug: portainer-endpoint-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-endpoint-groups-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-endpoint-groups-api-openapi.yml
 - filename: portainer-endpoints-api-openapi.yml
   format: yaml
   label: Portainer Endpoints API
   slug: portainer-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-endpoints-api-openapi.yml
 - filename: portainer-helm-api-openapi.yml
   format: yaml
   label: Portainer Helm API
   slug: portainer-helm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-helm-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-helm-api-openapi.yml
 - filename: portainer-intel-api-openapi.yml
   format: yaml
   label: Portainer Intel API
   slug: portainer-intel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-intel-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-intel-api-openapi.yml
 - filename: portainer-kubernetes-api-openapi.yml
   format: yaml
   label: Portainer Kubernetes API
   slug: portainer-kubernetes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-kubernetes-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-kubernetes-api-openapi.yml
 - filename: portainer-ldap-api-openapi.yml
   format: yaml
   label: Portainer Ldap API
   slug: portainer-ldap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-ldap-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-ldap-api-openapi.yml
 - filename: portainer-motd-api-openapi.yml
   format: yaml
   label: Portainer Motd API
   slug: portainer-motd-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-motd-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-motd-api-openapi.yml
 - filename: portainer-registries-api-openapi.yml
   format: yaml
   label: Portainer Registries API
   slug: portainer-registries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-registries-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-registries-api-openapi.yml
 - filename: portainer-resource-controls-api-openapi.yml
   format: yaml
   label: Portainer Resource Controls API
   slug: portainer-resource-controls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-resource-controls-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-resource-controls-api-openapi.yml
 - filename: portainer-roles-api-openapi.yml
   format: yaml
   label: Portainer Roles API
   slug: portainer-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-roles-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-roles-api-openapi.yml
 - filename: portainer-settings-api-openapi.yml
   format: yaml
   label: Portainer Settings API
   slug: portainer-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-settings-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-settings-api-openapi.yml
 - filename: portainer-ssl-api-openapi.yml
   format: yaml
   label: Portainer Ssl API
   slug: portainer-ssl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-ssl-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-ssl-api-openapi.yml
 - filename: portainer-stacks-api-openapi.yml
   format: yaml
   label: Portainer Stacks API
   slug: portainer-stacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-stacks-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-stacks-api-openapi.yml
 - filename: portainer-status-api-openapi.yml
   format: yaml
   label: Portainer Status API
   slug: portainer-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-status-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-status-api-openapi.yml
 - filename: portainer-system-api-openapi.yml
   format: yaml
   label: Portainer System API
   slug: portainer-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-system-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-system-api-openapi.yml
 - filename: portainer-tags-api-openapi.yml
   format: yaml
   label: Portainer Tags API
   slug: portainer-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-tags-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-tags-api-openapi.yml
 - filename: portainer-team-memberships-api-openapi.yml
   format: yaml
   label: Portainer Team Memberships API
   slug: portainer-team-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-team-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-team-memberships-api-openapi.yml
 - filename: portainer-teams-api-openapi.yml
   format: yaml
   label: Portainer Teams API
   slug: portainer-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-teams-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-teams-api-openapi.yml
 - filename: portainer-templates-api-openapi.yml
   format: yaml
   label: Portainer Templates API
   slug: portainer-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-templates-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-templates-api-openapi.yml
 - filename: portainer-upload-api-openapi.yml
   format: yaml
   label: Portainer Upload API
   slug: portainer-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-upload-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-upload-api-openapi.yml
 - filename: portainer-users-api-openapi.yml
   format: yaml
   label: Portainer Users API
   slug: portainer-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-users-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-users-api-openapi.yml
 - filename: portainer-webhooks-api-openapi.yml
   format: yaml
   label: Portainer Webhooks API
   slug: portainer-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-webhooks-api-openapi.yml
 - filename: portainer-websocket-api-openapi.yml
   format: yaml
   label: Portainer Websocket API
   slug: portainer-websocket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-websocket-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-websocket-api-openapi.yml
 - filename: portainer-git-ops-api-openapi.yml
   format: yaml
   label: Portainer Git Ops API
   slug: portainer-git-ops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-git-ops-api-openapi.yml
+  url: https://artifacts.apis.io/portainer/openapi/portainer-git-ops-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -231,7 +231,7 @@ source_filename: portainer-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.portainer.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 03:51:17 2026 GMT\n  hsts: false\n- host: api-docs.portainer.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 03:35:57 2026 GMT\n  hsts: false\ndomains:\n- domain: portainer.io\n  dnssec: true\n  caa:\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"cloudflare.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/security/portainer-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/portainer/security/portainer-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Container Management

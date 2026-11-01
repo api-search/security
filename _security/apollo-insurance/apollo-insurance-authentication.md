@@ -8,19 +8,19 @@ api_specs:
   label: APOLLO Insurance Affiliates API
   slug: apollo-insurance-affiliates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-insurance/refs/heads/main/openapi/apollo-insurance-affiliates-api-openapi.yml
+  url: https://artifacts.apis.io/apollo-insurance/openapi/apollo-insurance-affiliates-api-openapi.yml
 - filename: apollo-insurance-compliance-api-openapi.yml
   format: yaml
   label: APOLLO Insurance Compliance API
   slug: apollo-insurance-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-insurance/refs/heads/main/openapi/apollo-insurance-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/apollo-insurance/openapi/apollo-insurance-compliance-api-openapi.yml
 - filename: apollo-insurance-quote-api-openapi.yml
   format: yaml
   label: APOLLO Insurance Quote API
   slug: apollo-insurance-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-insurance/refs/heads/main/openapi/apollo-insurance-quote-api-openapi.yml
+  url: https://artifacts.apis.io/apollo-insurance/openapi/apollo-insurance-quote-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-25'\nmethod: searched\nsource: openapi/apollo-
   \ by hand by an APOLLO contact. The documentation is genuinely public — no\n    login wall, no gate, no sign-in prompt — but the integration is partner-scoped. Open docs,\n    closed credentials.\n  request_via: https://apollocover.com/partnerships\n  per_environment: true\n  environments:\n  - {mode: test, host: 'https://o73td82enk.execute-api.ca-central-1.amazonaws.com/1_0_0', api: Affiliates}\n  - {mode: live, host: 'https://fpl95knwc1.execute-api.ca-central-1.amazonaws.com/1_0_0', api: Affiliates}\n  - {mode: test, host: 'https://api.covertrack-dev.ca', api: CoverTrack}\n  - {mode: live, host: 'https://api.covertrack.ca', api: CoverTrack}\n  rotation: not published\n  expiry: not published\n  revocation: not published\n\nauthorization:\n  model: path-scoped\n  note: >-\n    The token carries no scopes, roles or claims. Every authorization boundary is a path\n    identifier the partner is given — affiliateId on the Affiliates API, and\n    partnerId/propertyId/tenantId on CoverTrack.\
   \ A key plus a guessed identifier is the only\n    thing between a caller and another partner's data, so identifier entropy is load-bearing.\n  scopes: none\n  detail: conventions/apollo-insurance-conventions.yml\n\nfailure_modes:\n  '403': Forbidden — invalid token, or a token from the other environment\n  '401': not documented on any operation\n  note: >-\n    APOLLO documents no 401 anywhere. An authentication failure surfaces as 403.\n\nend_user_auth:\n  present: false\n  note: >-\n    There is no consumer-facing API and no end-user authorization. Consumers authenticate only on\n    the hosted co-branded launchpad and in the customer portal\n    (https://policy-portal.apollocover.com/), neither of which has a documented API. APOLLO's\n    security page states end users can protect their APOLLO data with two-factor authentication\n    via email — that is a web-app control, not an API one.\n\ndiscovery:\n  well_known: none\n  openid_configuration: 404/403 on every host\n  oauth_authorization_server:\
   \ 404/403 on every host\n  detail: well-known/apollo-insurance-well-known.yml\n\ntransport_security:\n  tls_minimum_published: TLS v1.2 (per https://apollocover.com/security)\n  tls_observed: TLSv1.3 on apollocover.com, docs.apollocover.com, api.covertrack.ca and the API Gateway host\n  detail: security/apollo-insurance-domain-security.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apollo-insurance/refs/heads/main/authentication/apollo-insurance-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apollo-insurance/authentication/apollo-insurance-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - Insurance

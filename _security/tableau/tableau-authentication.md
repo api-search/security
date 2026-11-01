@@ -8,79 +8,79 @@ api_specs:
   label: Tableau Authentication API
   slug: tableau-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/openapi/tableau-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/tableau/openapi/tableau-authentication-api-openapi.yml
 - filename: tableau-data-sources-api-openapi.yml
   format: yaml
   label: Tableau Data Sources API
   slug: tableau-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/openapi/tableau-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/tableau/openapi/tableau-data-sources-api-openapi.yml
 - filename: tableau-favorites-api-openapi.yml
   format: yaml
   label: Tableau Favorites API
   slug: tableau-favorites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/openapi/tableau-favorites-api-openapi.yml
+  url: https://artifacts.apis.io/tableau/openapi/tableau-favorites-api-openapi.yml
 - filename: tableau-groups-api-openapi.yml
   format: yaml
   label: Tableau Groups API
   slug: tableau-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/openapi/tableau-groups-api-openapi.yml
+  url: https://artifacts.apis.io/tableau/openapi/tableau-groups-api-openapi.yml
 - filename: tableau-jobs-api-openapi.yml
   format: yaml
   label: Tableau Jobs API
   slug: tableau-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/openapi/tableau-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/tableau/openapi/tableau-jobs-api-openapi.yml
 - filename: tableau-permissions-api-openapi.yml
   format: yaml
   label: Tableau Permissions API
   slug: tableau-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/openapi/tableau-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/tableau/openapi/tableau-permissions-api-openapi.yml
 - filename: tableau-projects-api-openapi.yml
   format: yaml
   label: Tableau Projects API
   slug: tableau-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/openapi/tableau-projects-api-openapi.yml
+  url: https://artifacts.apis.io/tableau/openapi/tableau-projects-api-openapi.yml
 - filename: tableau-schedules-api-openapi.yml
   format: yaml
   label: Tableau Schedules API
   slug: tableau-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/openapi/tableau-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/tableau/openapi/tableau-schedules-api-openapi.yml
 - filename: tableau-sites-api-openapi.yml
   format: yaml
   label: Tableau Sites API
   slug: tableau-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/openapi/tableau-sites-api-openapi.yml
+  url: https://artifacts.apis.io/tableau/openapi/tableau-sites-api-openapi.yml
 - filename: tableau-subscriptions-api-openapi.yml
   format: yaml
   label: Tableau Subscriptions API
   slug: tableau-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/openapi/tableau-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/tableau/openapi/tableau-subscriptions-api-openapi.yml
 - filename: tableau-users-api-openapi.yml
   format: yaml
   label: Tableau Users API
   slug: tableau-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/openapi/tableau-users-api-openapi.yml
+  url: https://artifacts.apis.io/tableau/openapi/tableau-users-api-openapi.yml
 - filename: tableau-views-api-openapi.yml
   format: yaml
   label: Tableau Views API
   slug: tableau-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/openapi/tableau-views-api-openapi.yml
+  url: https://artifacts.apis.io/tableau/openapi/tableau-views-api-openapi.yml
 - filename: tableau-workbooks-api-openapi.yml
   format: yaml
   label: Tableau Workbooks API
   slug: tableau-workbooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/openapi/tableau-workbooks-api-openapi.yml
+  url: https://artifacts.apis.io/tableau/openapi/tableau-workbooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -108,7 +108,7 @@ source_filename: tableau-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tableau-rest-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: TableauAuth\n  type: apiKey\n  in: header\n  parameter: X-Tableau-Auth\n  description: The authentication token obtained from the Sign In method. Include this token\n    in the X-Tableau-Auth header of all subsequent requests.\n  sources:\n  - openapi/tableau-rest-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/authentication/tableau-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tableau/authentication/tableau-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Analytics

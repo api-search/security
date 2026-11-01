@@ -7,25 +7,25 @@ api_specs:
   label: Children's Hospital of Philadelphia Bulk Data API
   slug: childrens-hospital-of-philadelphia-bulk-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/childrens-hospital-of-philadelphia/refs/heads/main/openapi/childrens-hospital-of-philadelphia-bulk-data-api-openapi.yml
+  url: https://artifacts.apis.io/childrens-hospital-of-philadelphia/openapi/childrens-hospital-of-philadelphia-bulk-data-api-openapi.yml
 - filename: childrens-hospital-of-philadelphia-patient-access-api-openapi.yml
   format: yaml
   label: Children's Hospital of Philadelphia Patient Access API
   slug: childrens-hospital-of-philadelphia-patient-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/childrens-hospital-of-philadelphia/refs/heads/main/openapi/childrens-hospital-of-philadelphia-patient-access-api-openapi.yml
+  url: https://artifacts.apis.io/childrens-hospital-of-philadelphia/openapi/childrens-hospital-of-philadelphia-patient-access-api-openapi.yml
 - filename: childrens-hospital-of-philadelphia-provider-directory-api-openapi.yml
   format: yaml
   label: Children's Hospital of Philadelphia Provider Directory API
   slug: childrens-hospital-of-philadelphia-provider-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/childrens-hospital-of-philadelphia/refs/heads/main/openapi/childrens-hospital-of-philadelphia-provider-directory-api-openapi.yml
+  url: https://artifacts.apis.io/childrens-hospital-of-philadelphia/openapi/childrens-hospital-of-philadelphia-provider-directory-api-openapi.yml
 - filename: childrens-hospital-of-philadelphia-smart-api-openapi.yml
   format: yaml
   label: Children's Hospital of Philadelphia SMART API
   slug: childrens-hospital-of-philadelphia-smart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/childrens-hospital-of-philadelphia/refs/heads/main/openapi/childrens-hospital-of-philadelphia-smart-api-openapi.yml
+  url: https://artifacts.apis.io/childrens-hospital-of-philadelphia/openapi/childrens-hospital-of-philadelphia-smart-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -60,7 +60,7 @@ source_filename: childrens-hospital-of-philadelphia-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/chop-fhir-r4-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: smartOnFhir\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://epicnsproxy.chop.edu/fhir/oauth2/authorize\n    tokenUrl: https://epicnsproxy.chop.edu/fhir/oauth2/token\n    scopes: 5\n  - flow: clientCredentials\n    tokenUrl: https://epicnsproxy.chop.edu/fhir/oauth2/token\n    scopes: 1\n  sources:\n  - openapi/chop-fhir-r4-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/childrens-hospital-of-philadelphia/refs/heads/main/authentication/childrens-hospital-of-philadelphia-authentication.yml
+source_yaml_url: https://artifacts.apis.io/childrens-hospital-of-philadelphia/authentication/childrens-hospital-of-philadelphia-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Healthcare

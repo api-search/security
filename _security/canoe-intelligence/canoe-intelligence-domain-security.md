@@ -5,61 +5,61 @@ api_specs:
   label: Canoe Intelligence Allocations API
   slug: canoe-intelligence-allocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/openapi/canoe-intelligence-allocations-api-openapi.yml
+  url: https://artifacts.apis.io/canoe-intelligence/openapi/canoe-intelligence-allocations-api-openapi.yml
 - filename: canoe-intelligence-authentication-api-openapi.yml
   format: yaml
   label: Canoe Intelligence Authentication API
   slug: canoe-intelligence-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/openapi/canoe-intelligence-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/canoe-intelligence/openapi/canoe-intelligence-authentication-api-openapi.yml
 - filename: canoe-intelligence-custom-fields-api-openapi.yml
   format: yaml
   label: Canoe Intelligence Custom Fields API
   slug: canoe-intelligence-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/openapi/canoe-intelligence-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/canoe-intelligence/openapi/canoe-intelligence-custom-fields-api-openapi.yml
 - filename: canoe-intelligence-documents-api-openapi.yml
   format: yaml
   label: Canoe Intelligence Documents API
   slug: canoe-intelligence-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/openapi/canoe-intelligence-documents-api-openapi.yml
+  url: https://artifacts.apis.io/canoe-intelligence/openapi/canoe-intelligence-documents-api-openapi.yml
 - filename: canoe-intelligence-funds-api-openapi.yml
   format: yaml
   label: Canoe Intelligence Funds API
   slug: canoe-intelligence-funds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/openapi/canoe-intelligence-funds-api-openapi.yml
+  url: https://artifacts.apis.io/canoe-intelligence/openapi/canoe-intelligence-funds-api-openapi.yml
 - filename: canoe-intelligence-organizations-api-openapi.yml
   format: yaml
   label: Canoe Intelligence Organizations API
   slug: canoe-intelligence-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/openapi/canoe-intelligence-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/canoe-intelligence/openapi/canoe-intelligence-organizations-api-openapi.yml
 - filename: canoe-intelligence-password-grant-tokens-api-openapi.yml
   format: yaml
   label: Canoe Intelligence Password Grant Tokens API
   slug: canoe-intelligence-password-grant-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/openapi/canoe-intelligence-password-grant-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/canoe-intelligence/openapi/canoe-intelligence-password-grant-tokens-api-openapi.yml
 - filename: canoe-intelligence-terms-api-openapi.yml
   format: yaml
   label: Canoe Intelligence Terms API
   slug: canoe-intelligence-terms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/openapi/canoe-intelligence-terms-api-openapi.yml
+  url: https://artifacts.apis.io/canoe-intelligence/openapi/canoe-intelligence-terms-api-openapi.yml
 - filename: canoe-intelligence-user-api-openapi.yml
   format: yaml
   label: Canoe Intelligence User API
   slug: canoe-intelligence-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/openapi/canoe-intelligence-user-api-openapi.yml
+  url: https://artifacts.apis.io/canoe-intelligence/openapi/canoe-intelligence-user-api-openapi.yml
 - filename: canoe-intelligence-introduction-api-openapi.yml
   format: yaml
   label: Canoe Intelligence Introduction API
   slug: canoe-intelligence-introduction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/openapi/canoe-intelligence-introduction-api-openapi.yml
+  url: https://artifacts.apis.io/canoe-intelligence/openapi/canoe-intelligence-introduction-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -100,7 +100,7 @@ source_filename: canoe-intelligence-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: canoeintelligence.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 19:45:07 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.canoesoftware.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 26 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: canoeintelligence.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: canoesoftware.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/security/canoe-intelligence-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/canoe-intelligence/security/canoe-intelligence-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Alternative Investments

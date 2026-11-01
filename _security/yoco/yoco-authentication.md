@@ -7,31 +7,31 @@ api_specs:
   label: Yoco Checkout API
   slug: yoco-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoco/refs/heads/main/openapi/yoco-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/yoco/openapi/yoco-checkout-api-openapi.yml
 - filename: yoco-payment-links-api-openapi.yml
   format: yaml
   label: Yoco Payment Links API
   slug: yoco-payment-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoco/refs/heads/main/openapi/yoco-payment-links-api-openapi.yml
+  url: https://artifacts.apis.io/yoco/openapi/yoco-payment-links-api-openapi.yml
 - filename: yoco-payments-api-openapi.yml
   format: yaml
   label: Yoco Payments API
   slug: yoco-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoco/refs/heads/main/openapi/yoco-payments-api-openapi.yml
+  url: https://artifacts.apis.io/yoco/openapi/yoco-payments-api-openapi.yml
 - filename: yoco-refunds-api-openapi.yml
   format: yaml
   label: Yoco Refunds API
   slug: yoco-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoco/refs/heads/main/openapi/yoco-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/yoco/openapi/yoco-refunds-api-openapi.yml
 - filename: yoco-webhooks-api-openapi.yml
   format: yaml
   label: Yoco Webhooks API
   slug: yoco-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoco/refs/heads/main/openapi/yoco-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/yoco/openapi/yoco-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -68,7 +68,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: documented\nsource: openapi/yoco-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: secretKey\n  type: http\n  scheme: bearer\n  description: >-\n    Secret integration key for the Checkout API (https://payments.yoco.com/api),\n    passed as `Authorization: Bearer [example key]` (live) or\n    `Authorization: Bearer [example key]` (test). Keys are self-served from the\n    Yoco app under Sales -> Payment Gateway. The Checkout API must be called\n    server-side so the secret key is never exposed to the browser.\n  sources:\n  - https://developer.yoco.com/online/resources/integration-keys/\n  - https://developer.yoco.com/online/resources/get-started\n- name: jwtBearer\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: >-\n    JWT Bearer credential for the versioned Yoco API\n    (https://api.yoco.com/v1, sandbox https://api.yocosandbox.com/v1),\n    authorized with OAuth-style scopes such as business/orders:read. Used\
   \ by\n    the payments, refunds, and payment-links read endpoints.\n  sources:\n  - https://developer.yoco.com/api-reference/yoco-api/payments/list-payments-v-1-payments-get\n  - https://developer.yoco.com/api-reference/yoco-api/refunds/fetch-refund-v-1-refunds-refund-id-get\nwebhookVerification:\n  description: >-\n    Outbound webhook deliveries are signed. Each request carries webhook-id,\n    webhook-timestamp, and webhook-signature headers. Verify by computing an\n    HMAC-SHA256 over the signed content (id.timestamp.payload) with your\n    endpoint's signing secret, base64-encoding the result, and comparing in\n    constant time. Reject deliveries whose webhook-timestamp is outside an\n    acceptable threshold (Yoco recommends ~3 minutes).\n  sources:\n  - https://developer.yoco.com/online/api-reference/webhooks/verifying-events/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yoco/refs/heads/main/authentication/yoco-authentication.yml
+source_yaml_url: https://artifacts.apis.io/yoco/authentication/yoco-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Payments

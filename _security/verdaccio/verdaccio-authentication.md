@@ -7,49 +7,49 @@ api_specs:
   label: Verdaccio Dist Tags API
   slug: verdaccio-dist-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-dist-tags-api-openapi.yml
+  url: https://artifacts.apis.io/verdaccio/openapi/verdaccio-dist-tags-api-openapi.yml
 - filename: verdaccio-packages-api-openapi.yml
   format: yaml
   label: Verdaccio Packages API
   slug: verdaccio-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-packages-api-openapi.yml
+  url: https://artifacts.apis.io/verdaccio/openapi/verdaccio-packages-api-openapi.yml
 - filename: verdaccio-profile-api-openapi.yml
   format: yaml
   label: Verdaccio Profile API
   slug: verdaccio-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-profile-api-openapi.yml
+  url: https://artifacts.apis.io/verdaccio/openapi/verdaccio-profile-api-openapi.yml
 - filename: verdaccio-publish-api-openapi.yml
   format: yaml
   label: Verdaccio Publish API
   slug: verdaccio-publish-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-publish-api-openapi.yml
+  url: https://artifacts.apis.io/verdaccio/openapi/verdaccio-publish-api-openapi.yml
 - filename: verdaccio-search-api-openapi.yml
   format: yaml
   label: Verdaccio Search API
   slug: verdaccio-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-search-api-openapi.yml
+  url: https://artifacts.apis.io/verdaccio/openapi/verdaccio-search-api-openapi.yml
 - filename: verdaccio-tokens-api-openapi.yml
   format: yaml
   label: Verdaccio Tokens API
   slug: verdaccio-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/verdaccio/openapi/verdaccio-tokens-api-openapi.yml
 - filename: verdaccio-user-api-openapi.yml
   format: yaml
   label: Verdaccio User API
   slug: verdaccio-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-user-api-openapi.yml
+  url: https://artifacts.apis.io/verdaccio/openapi/verdaccio-user-api-openapi.yml
 - filename: verdaccio-utility-api-openapi.yml
   format: yaml
   label: Verdaccio Utility API
   slug: verdaccio-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-utility-api-openapi.yml
+  url: https://artifacts.apis.io/verdaccio/openapi/verdaccio-utility-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -83,7 +83,7 @@ source_filename: verdaccio-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/verdaccio-npm-registry-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: JWT token issued by Verdaccio on login\n  sources:\n  - openapi/verdaccio-npm-registry-api-openapi.yml\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic Auth with registry username and password\n  sources:\n  - openapi/verdaccio-npm-registry-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/authentication/verdaccio-authentication.yml
+source_yaml_url: https://artifacts.apis.io/verdaccio/authentication/verdaccio-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - npm

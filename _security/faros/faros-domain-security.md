@@ -5,37 +5,37 @@ api_specs:
   label: Faros AI Account API
   slug: faros-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faros/refs/heads/main/openapi/faros-account-api-openapi.yml
+  url: https://artifacts.apis.io/faros/openapi/faros-account-api-openapi.yml
 - filename: faros-events-api-openapi.yml
   format: yaml
   label: Faros AI Events API
   slug: faros-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faros/refs/heads/main/openapi/faros-events-api-openapi.yml
+  url: https://artifacts.apis.io/faros/openapi/faros-events-api-openapi.yml
 - filename: faros-graphs-api-openapi.yml
   format: yaml
   label: Faros AI Graphs API
   slug: faros-graphs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faros/refs/heads/main/openapi/faros-graphs-api-openapi.yml
+  url: https://artifacts.apis.io/faros/openapi/faros-graphs-api-openapi.yml
 - filename: faros-ingestion-api-openapi.yml
   format: yaml
   label: Faros AI Ingestion API
   slug: faros-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faros/refs/heads/main/openapi/faros-ingestion-api-openapi.yml
+  url: https://artifacts.apis.io/faros/openapi/faros-ingestion-api-openapi.yml
 - filename: faros-webhooks-api-openapi.yml
   format: yaml
   label: Faros AI Webhooks API
   slug: faros-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faros/refs/heads/main/openapi/faros-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/faros/openapi/faros-webhooks-api-openapi.yml
 - filename: faros-graph-ql-api-openapi.yml
   format: yaml
   label: Faros AI Graph QL API
   slug: faros-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faros/refs/heads/main/openapi/faros-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/faros/openapi/faros-graph-ql-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -81,7 +81,7 @@ source_filename: faros-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.faros.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 09:17:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.faros.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 04:44:26 2026 GMT\n  hsts: null\n- host: prod.api.faros.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 17 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: faros.ai\n  dnssec: true\n  caa:\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/faros/refs/heads/main/security/faros-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/faros/security/faros-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Engineering Operations

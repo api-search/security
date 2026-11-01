@@ -5,37 +5,37 @@ api_specs:
   label: Luminary Documents API
   slug: luminary-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-documents-api-openapi.yml
+  url: https://artifacts.apis.io/luminary/openapi/luminary-documents-api-openapi.yml
 - filename: luminary-entities-api-openapi.yml
   format: yaml
   label: Luminary Entities API
   slug: luminary-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-entities-api-openapi.yml
+  url: https://artifacts.apis.io/luminary/openapi/luminary-entities-api-openapi.yml
 - filename: luminary-households-api-openapi.yml
   format: yaml
   label: Luminary Households API
   slug: luminary-households-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-households-api-openapi.yml
+  url: https://artifacts.apis.io/luminary/openapi/luminary-households-api-openapi.yml
 - filename: luminary-individuals-api-openapi.yml
   format: yaml
   label: Luminary Individuals API
   slug: luminary-individuals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-individuals-api-openapi.yml
+  url: https://artifacts.apis.io/luminary/openapi/luminary-individuals-api-openapi.yml
 - filename: luminary-users-api-openapi.yml
   format: yaml
   label: Luminary Users API
   slug: luminary-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-users-api-openapi.yml
+  url: https://artifacts.apis.io/luminary/openapi/luminary-users-api-openapi.yml
 - filename: luminary-valuations-api-openapi.yml
   format: yaml
   label: Luminary Valuations API
   slug: luminary-valuations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-valuations-api-openapi.yml
+  url: https://artifacts.apis.io/luminary/openapi/luminary-valuations-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2
@@ -52,7 +52,7 @@ source_filename: luminary-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nprobe: true\nsource: https://www.withluminary.com/security\nurl: https://www.withluminary.com/security\ncertifications:\n- SOC 2\nevidence:\n- source: https://www.withluminary.com/security\n  keywords:\n  - soc 2\n  - soc2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/security/luminary-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/luminary/security/luminary-trust-center.yml
 summary_line: SOC 2
 tags:
 - Company

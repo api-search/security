@@ -5,13 +5,13 @@ api_specs:
   label: ScraperAPI Structured API
   slug: scraper-api-structured-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scraper-api/refs/heads/main/openapi/scraper-api-structured-api-openapi.yml
+  url: https://artifacts.apis.io/scraper-api/openapi/scraper-api-structured-api-openapi.yml
 - filename: scraper-api-sync-api-openapi.yml
   format: yaml
   label: ScraperAPI Sync API
   slug: scraper-api-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scraper-api/refs/heads/main/openapi/scraper-api-sync-api-openapi.yml
+  url: https://artifacts.apis.io/scraper-api/openapi/scraper-api-sync-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,7 +50,7 @@ source_filename: scraper-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.scraperapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 04:07:49 2026 GMT\n  hsts: false\n- host: api.scraperapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 28 00:42:41 2026 GMT\n  hsts: null\n- host: async.scraperapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 14:50:23 2026 GMT\n  hsts: null\ndomains:\n- domain: scraperapi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scraper-api/refs/heads/main/security/scraper-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/scraper-api/security/scraper-api-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Data Extraction

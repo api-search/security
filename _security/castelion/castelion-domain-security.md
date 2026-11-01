@@ -27,7 +27,7 @@ source_filename: castelion-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.castelion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 12:45:03 2026 GMT\n  hsts: false\ndomains:\n- domain: castelion.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/castelion/refs/heads/main/security/castelion-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/castelion/security/castelion-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

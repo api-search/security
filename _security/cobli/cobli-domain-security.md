@@ -1,11 +1,17 @@
 ---
 api_specs:
+- filename: cobli-openapi-generated.yml
+  format: yaml
+  label: Cobli API
+  slug: cobli-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cobli/openapi/_ae-authored/cobli-openapi-generated.yml
 - filename: cobli-public-api-openapi.yml
   format: yaml
   label: Cobli Public API
   slug: cobli-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cobli/refs/heads/main/openapi/cobli-public-api-openapi.yml
+  url: https://artifacts.apis.io/cobli/openapi/cobli-public-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -35,7 +41,7 @@ source_filename: cobli-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cobli.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 20:04:03 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: cobli.co\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cobli/refs/heads/main/security/cobli-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cobli/security/cobli-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

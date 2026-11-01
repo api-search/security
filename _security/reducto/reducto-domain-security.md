@@ -5,103 +5,103 @@ api_specs:
   label: Reducto Cancel API
   slug: reducto-cancel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reducto/refs/heads/main/openapi/reducto-cancel-api-openapi.yml
+  url: https://artifacts.apis.io/reducto/openapi/reducto-cancel-api-openapi.yml
 - filename: reducto-classify-api-openapi.yml
   format: yaml
   label: Reducto Classify API
   slug: reducto-classify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reducto/refs/heads/main/openapi/reducto-classify-api-openapi.yml
+  url: https://artifacts.apis.io/reducto/openapi/reducto-classify-api-openapi.yml
 - filename: reducto-configure-webhook-api-openapi.yml
   format: yaml
   label: Reducto Configure Webhook API
   slug: reducto-configure-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reducto/refs/heads/main/openapi/reducto-configure-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/reducto/openapi/reducto-configure-webhook-api-openapi.yml
 - filename: reducto-edit-api-openapi.yml
   format: yaml
   label: Reducto Edit API
   slug: reducto-edit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reducto/refs/heads/main/openapi/reducto-edit-api-openapi.yml
+  url: https://artifacts.apis.io/reducto/openapi/reducto-edit-api-openapi.yml
 - filename: reducto-edit-async-api-openapi.yml
   format: yaml
   label: Reducto Edit Async API
   slug: reducto-edit-async-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reducto/refs/heads/main/openapi/reducto-edit-async-api-openapi.yml
+  url: https://artifacts.apis.io/reducto/openapi/reducto-edit-async-api-openapi.yml
 - filename: reducto-extract-api-openapi.yml
   format: yaml
   label: Reducto Extract API
   slug: reducto-extract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reducto/refs/heads/main/openapi/reducto-extract-api-openapi.yml
+  url: https://artifacts.apis.io/reducto/openapi/reducto-extract-api-openapi.yml
 - filename: reducto-extract-async-api-openapi.yml
   format: yaml
   label: Reducto Extract Async API
   slug: reducto-extract-async-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reducto/refs/heads/main/openapi/reducto-extract-async-api-openapi.yml
+  url: https://artifacts.apis.io/reducto/openapi/reducto-extract-async-api-openapi.yml
 - filename: reducto-job-api-openapi.yml
   format: yaml
   label: Reducto Job API
   slug: reducto-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reducto/refs/heads/main/openapi/reducto-job-api-openapi.yml
+  url: https://artifacts.apis.io/reducto/openapi/reducto-job-api-openapi.yml
 - filename: reducto-jobs-api-openapi.yml
   format: yaml
   label: Reducto Jobs API
   slug: reducto-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reducto/refs/heads/main/openapi/reducto-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/reducto/openapi/reducto-jobs-api-openapi.yml
 - filename: reducto-parse-api-openapi.yml
   format: yaml
   label: Reducto Parse API
   slug: reducto-parse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reducto/refs/heads/main/openapi/reducto-parse-api-openapi.yml
+  url: https://artifacts.apis.io/reducto/openapi/reducto-parse-api-openapi.yml
 - filename: reducto-parse-async-api-openapi.yml
   format: yaml
   label: Reducto Parse Async API
   slug: reducto-parse-async-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reducto/refs/heads/main/openapi/reducto-parse-async-api-openapi.yml
+  url: https://artifacts.apis.io/reducto/openapi/reducto-parse-async-api-openapi.yml
 - filename: reducto-pipeline-api-openapi.yml
   format: yaml
   label: Reducto Pipeline API
   slug: reducto-pipeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reducto/refs/heads/main/openapi/reducto-pipeline-api-openapi.yml
+  url: https://artifacts.apis.io/reducto/openapi/reducto-pipeline-api-openapi.yml
 - filename: reducto-pipeline-async-api-openapi.yml
   format: yaml
   label: Reducto Pipeline Async API
   slug: reducto-pipeline-async-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reducto/refs/heads/main/openapi/reducto-pipeline-async-api-openapi.yml
+  url: https://artifacts.apis.io/reducto/openapi/reducto-pipeline-async-api-openapi.yml
 - filename: reducto-split-api-openapi.yml
   format: yaml
   label: Reducto Split API
   slug: reducto-split-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reducto/refs/heads/main/openapi/reducto-split-api-openapi.yml
+  url: https://artifacts.apis.io/reducto/openapi/reducto-split-api-openapi.yml
 - filename: reducto-split-async-api-openapi.yml
   format: yaml
   label: Reducto Split Async API
   slug: reducto-split-async-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reducto/refs/heads/main/openapi/reducto-split-async-api-openapi.yml
+  url: https://artifacts.apis.io/reducto/openapi/reducto-split-async-api-openapi.yml
 - filename: reducto-upload-api-openapi.yml
   format: yaml
   label: Reducto Upload API
   slug: reducto-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reducto/refs/heads/main/openapi/reducto-upload-api-openapi.yml
+  url: https://artifacts.apis.io/reducto/openapi/reducto-upload-api-openapi.yml
 - filename: reducto-version-api-openapi.yml
   format: yaml
   label: Reducto Version API
   slug: reducto-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reducto/refs/heads/main/openapi/reducto-version-api-openapi.yml
+  url: https://artifacts.apis.io/reducto/openapi/reducto-version-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -145,7 +145,7 @@ source_filename: reducto-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: reducto.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 01:49:49 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.reducto.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 11:39:00 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.reductoai.com\n  https: false\ndomains:\n- domain: reducto.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: reductoai.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reducto/refs/heads/main/security/reducto-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/reducto/security/reducto-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Document Parsing

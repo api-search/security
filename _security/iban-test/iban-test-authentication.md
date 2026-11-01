@@ -7,7 +7,7 @@ api_specs:
   label: ToadTec API
   slug: iban-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iban-test/refs/heads/main/openapi/_ae-authored/iban-test-openapi-generated.yml
+  url: https://artifacts.apis.io/iban-test/openapi/_ae-authored/iban-test-openapi-generated.yml
 auth_types: []
 description: Authentication methods as described on the registration page.
 kind: authentication
@@ -31,12 +31,11 @@ source_filename: iban-test-authentication.yml
 source_heading: Authentication Profile
 source_url: https://www.iban-test.eu/Registration
 source_yaml: "generated: '2026-10-18'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://www.iban-test.eu/Registration\nsources:\n- https://www.iban-test.eu/Registration\ndescription: Authentication methods as described on the registration page.\nschemes:\n- type: apiKey\n  name: API Key\n  evidence: Register for free and get 10 API requests every 24 hours with your own API key.\n  how_to_obtain: By registering for a free account.\ndocs: https://www.iban-test.eu/Registration\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iban-test/refs/heads/main/authentication/iban-test-authentication.yml
+source_yaml_url: https://artifacts.apis.io/iban-test/authentication/iban-test-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company
 - Finance
 - Payments
 - Validation
-- API
 ---

@@ -5,13 +5,13 @@ api_specs:
   label: Ressl Providers API
   slug: ressl-ai-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ressl-ai/refs/heads/main/openapi/ressl-ai-providers-api-openapi.yml
+  url: https://artifacts.apis.io/ressl-ai/openapi/ressl-ai-providers-api-openapi.yml
 - filename: ressl-ai-snapshots-api-openapi.yml
   format: yaml
   label: Ressl Snapshots API
   slug: ressl-ai-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ressl-ai/refs/heads/main/openapi/ressl-ai-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/ressl-ai/openapi/ressl-ai-snapshots-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,7 +41,7 @@ source_filename: ressl-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: simulation.ressl.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 10:30:19 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: ressl.ai\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ressl-ai/refs/heads/main/security/ressl-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ressl-ai/security/ressl-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Mock APIs

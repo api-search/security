@@ -7,79 +7,79 @@ api_specs:
   label: PPL Contract API
   slug: ppl-london-market-contract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-contract-api-openapi.yml
+  url: https://artifacts.apis.io/ppl-london-market/openapi/ppl-london-market-contract-api-openapi.yml
 - filename: ppl-london-market-document-api-openapi.yml
   format: yaml
   label: PPL Document API
   slug: ppl-london-market-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-document-api-openapi.yml
+  url: https://artifacts.apis.io/ppl-london-market/openapi/ppl-london-market-document-api-openapi.yml
 - filename: ppl-london-market-health-api-openapi.yml
   format: yaml
   label: PPL Health API
   slug: ppl-london-market-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-health-api-openapi.yml
+  url: https://artifacts.apis.io/ppl-london-market/openapi/ppl-london-market-health-api-openapi.yml
 - filename: ppl-london-market-negotiation-api-openapi.yml
   format: yaml
   label: PPL Negotiation API
   slug: ppl-london-market-negotiation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-negotiation-api-openapi.yml
+  url: https://artifacts.apis.io/ppl-london-market/openapi/ppl-london-market-negotiation-api-openapi.yml
 - filename: ppl-london-market-notification-api-openapi.yml
   format: yaml
   label: PPL Notification API
   slug: ppl-london-market-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-notification-api-openapi.yml
+  url: https://artifacts.apis.io/ppl-london-market/openapi/ppl-london-market-notification-api-openapi.yml
 - filename: ppl-london-market-organisation-api-openapi.yml
   format: yaml
   label: PPL Organisation API
   slug: ppl-london-market-organisation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-organisation-api-openapi.yml
+  url: https://artifacts.apis.io/ppl-london-market/openapi/ppl-london-market-organisation-api-openapi.yml
 - filename: ppl-london-market-participation-api-openapi.yml
   format: yaml
   label: PPL Participation API
   slug: ppl-london-market-participation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-participation-api-openapi.yml
+  url: https://artifacts.apis.io/ppl-london-market/openapi/ppl-london-market-participation-api-openapi.yml
 - filename: ppl-london-market-placement-api-openapi.yml
   format: yaml
   label: PPL Placement API
   slug: ppl-london-market-placement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-placement-api-openapi.yml
+  url: https://artifacts.apis.io/ppl-london-market/openapi/ppl-london-market-placement-api-openapi.yml
 - filename: ppl-london-market-programme-api-openapi.yml
   format: yaml
   label: PPL Programme API
   slug: ppl-london-market-programme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-programme-api-openapi.yml
+  url: https://artifacts.apis.io/ppl-london-market/openapi/ppl-london-market-programme-api-openapi.yml
 - filename: ppl-london-market-section-api-openapi.yml
   format: yaml
   label: PPL Section API
   slug: ppl-london-market-section-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-section-api-openapi.yml
+  url: https://artifacts.apis.io/ppl-london-market/openapi/ppl-london-market-section-api-openapi.yml
 - filename: ppl-london-market-submission-api-openapi.yml
   format: yaml
   label: PPL Submission API
   slug: ppl-london-market-submission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-submission-api-openapi.yml
+  url: https://artifacts.apis.io/ppl-london-market/openapi/ppl-london-market-submission-api-openapi.yml
 - filename: ppl-london-market-transaction-api-openapi.yml
   format: yaml
   label: PPL Transaction API
   slug: ppl-london-market-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/ppl-london-market/openapi/ppl-london-market-transaction-api-openapi.yml
 - filename: ppl-london-market-version-api-openapi.yml
   format: yaml
   label: PPL Version API
   slug: ppl-london-market-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-version-api-openapi.yml
+  url: https://artifacts.apis.io/ppl-london-market/openapi/ppl-london-market-version-api-openapi.yml
 auth_types:
 - oauth2
 - mutualTLS
@@ -152,7 +152,7 @@ source_yaml: "generated: '2026-07-25'\nmethod: searched\nsource: openapi/ (5 Ope
   \ If-Match and\n      If-Unmodified-Since, the shipped APIs use the X-Last-Modified request header.\n  - name: X-Correlation-Id\n    required: false\n    scope: documented platform-wide for request tracing across the platform\nonboarding:\n  self_serve: false\n  gates:\n  - stage: 1\n    name: Developer Portal onboarding\n    action: Contact the PPL team\n    contact: PPLEnquiries@placingplatformlimited.com\n  - stage: 2\n    name: LIMOSS API Common Services subscription\n    action: >-\n      Register with the LIMOSS API Gateway and request \"Subscribe to PPL API\". New LIMOSS SSO\n      users go through the LIMOSS Service Desk; existing users use the LIMOSS Self-Service Portal.\n      The account is then guested into the Azure AD tenant of ONE environment — Sand, PreProd or\n      Prod — and each environment requires separate guesting.\n    urls:\n    - https://limoss.london/limoss-sso-sde-and-api-gateway\n    - https://limoss.london/contact\n    - https://customer.hornbill.com/limoss/\n\
   \  - stage: 3\n    name: Application and certificate registration\n    action: >-\n      Register the application in the Common Services Azure Active Directory and register an X.509\n      certificate, per environment.\n    guide: https://admin.limoss.london/wp-content/uploads/2020/04/CS-Developers-On-Boarding-Guide-v1.1.pdf\ndiscovery:\n  well_known: false\n  note: >-\n    No OpenID Connect discovery document and no RFC 8414 authorization-server metadata is served\n    on any PPL or LIMOSS gateway host — /.well-known/openid-configuration and\n    /.well-known/oauth-authorization-server return 404 on api.londonmarketgroup.co.uk,\n    sand-api.londonmarketgroup.co.uk, developer.pplnextgen.com, www.pplnextgen.com and\n    placingplatformlimited.com. Discovery happens through Microsoft's own tenant endpoints once a\n    TenantId has been issued during onboarding.\nrelated:\n  scopes: scopes/ppl-london-market-scopes.yml\n  conventions: conventions/ppl-london-market-conventions.yml\n  well_known:\
   \ well-known/ppl-london-market-well-known.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/authentication/ppl-london-market-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ppl-london-market/authentication/ppl-london-market-authentication.yml
 summary_line: oauth2/mutualTLS · 3 schemes
 tags:
 - Insurance

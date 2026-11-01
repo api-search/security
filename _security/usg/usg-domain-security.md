@@ -28,7 +28,7 @@ source_filename: usg-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.usg.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 16:38:03 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: usg.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/usg/refs/heads/main/security/usg-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/usg/security/usg-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Building Materials

@@ -5,31 +5,31 @@ api_specs:
   label: LLMWhisperer Extraction API
   slug: llmwhisperer-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmwhisperer/refs/heads/main/openapi/llmwhisperer-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/llmwhisperer/openapi/llmwhisperer-extraction-api-openapi.yml
 - filename: llmwhisperer-highlights-api-openapi.yml
   format: yaml
   label: LLMWhisperer Highlights API
   slug: llmwhisperer-highlights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmwhisperer/refs/heads/main/openapi/llmwhisperer-highlights-api-openapi.yml
+  url: https://artifacts.apis.io/llmwhisperer/openapi/llmwhisperer-highlights-api-openapi.yml
 - filename: llmwhisperer-retrieve-api-openapi.yml
   format: yaml
   label: LLMWhisperer Retrieve API
   slug: llmwhisperer-retrieve-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmwhisperer/refs/heads/main/openapi/llmwhisperer-retrieve-api-openapi.yml
+  url: https://artifacts.apis.io/llmwhisperer/openapi/llmwhisperer-retrieve-api-openapi.yml
 - filename: llmwhisperer-status-api-openapi.yml
   format: yaml
   label: LLMWhisperer Status API
   slug: llmwhisperer-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmwhisperer/refs/heads/main/openapi/llmwhisperer-status-api-openapi.yml
+  url: https://artifacts.apis.io/llmwhisperer/openapi/llmwhisperer-status-api-openapi.yml
 - filename: llmwhisperer-webhooks-api-openapi.yml
   format: yaml
   label: LLMWhisperer Webhooks API
   slug: llmwhisperer-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmwhisperer/refs/heads/main/openapi/llmwhisperer-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/llmwhisperer/openapi/llmwhisperer-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -68,7 +68,7 @@ source_filename: llmwhisperer-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: unstract.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 07:41:51 2026 GMT\n  hsts: false\n- host: docs.unstract.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 22:15:44 2026 GMT\n  hsts: false\n- host: llmwhisperer-api.us-central.unstract.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 23:53:13 2026 GMT\n  hsts: null\ndomains:\n- domain: unstract.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/llmwhisperer/refs/heads/main/security/llmwhisperer-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/llmwhisperer/security/llmwhisperer-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Artificial Intelligence

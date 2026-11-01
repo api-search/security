@@ -5,7 +5,7 @@ api_specs:
   label: Bot Butcher Classification API
   slug: bot-butcher-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bot-butcher/refs/heads/main/openapi/bot-butcher-classification-api-openapi.yml
+  url: https://artifacts.apis.io/bot-butcher/openapi/bot-butcher-classification-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,7 +38,7 @@ source_filename: bot-butcher-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: botbutcher.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 08:57:18 2026 GMT\n  hsts: false\n- host: api.botbutcher.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  5 04:30:24 2026 GMT\n  hsts: null\ndomains:\n- domain: botbutcher.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bot-butcher/refs/heads/main/security/bot-butcher-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bot-butcher/security/bot-butcher-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Bots

@@ -7,13 +7,13 @@ api_specs:
   label: Azure Migrate Operations API
   slug: microsoft-azure-migrate-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-migrate/refs/heads/main/openapi/microsoft-azure-migrate-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-migrate/openapi/microsoft-azure-migrate-operations-api-openapi.yml
 - filename: microsoft-azure-migrate-projects-api-openapi.yml
   format: yaml
   label: Azure Migrate Projects API
   slug: microsoft-azure-migrate-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-migrate/refs/heads/main/openapi/microsoft-azure-migrate-projects-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-migrate/openapi/microsoft-azure-migrate-projects-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -44,7 +44,7 @@ source_filename: microsoft-azure-migrate-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-azure-migrate-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - implicit\nschemes:\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  description: Azure Active Directory OAuth2 Flow.\n  sources:\n  - openapi/microsoft-azure-migrate-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-migrate/refs/heads/main/authentication/microsoft-azure-migrate-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-migrate/authentication/microsoft-azure-migrate-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Cloud Migration

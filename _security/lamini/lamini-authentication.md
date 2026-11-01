@@ -2,36 +2,42 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: lamini-classify-api-openapi.yml
-  format: yaml
-  label: Lamini Classify API
-  slug: lamini-classify-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-classify-api-openapi.yml
 - filename: lamini-embeddings-api-openapi.yml
   format: yaml
   label: Lamini Embeddings API
   slug: lamini-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-embeddings-api-openapi.yml
-- filename: lamini-fine-tuning-api-openapi.yml
+  url: https://artifacts.apis.io/lamini/openapi/lamini-embeddings-api-openapi.yml
+- filename: lamini-classifier-api-openapi.yml
   format: yaml
-  label: Lamini Fine-Tuning API
-  slug: lamini-fine-tuning-api
+  label: Lamini Classifier API
+  slug: lamini-classifier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-fine-tuning-api-openapi.yml
-- filename: lamini-inference-api-openapi.yml
+  url: https://artifacts.apis.io/lamini/openapi/lamini-classifier-api-openapi.yml
+- filename: lamini-completions-api-openapi.yml
   format: yaml
-  label: Lamini Inference API
-  slug: lamini-inference-api
+  label: Lamini Completions API
+  slug: lamini-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-inference-api-openapi.yml
-- filename: lamini-platform-api-openapi.yml
+  url: https://artifacts.apis.io/lamini/openapi/lamini-completions-api-openapi.yml
+- filename: lamini-memory-rag-api-openapi.yml
   format: yaml
-  label: Lamini Platform API
-  slug: lamini-platform-api
+  label: Lamini memory rag API
+  slug: lamini-memory-rag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-platform-api-openapi.yml
+  url: https://artifacts.apis.io/lamini/openapi/lamini-memory-rag-api-openapi.yml
+- filename: lamini-model-management-api-openapi.yml
+  format: yaml
+  label: Lamini model management API
+  slug: lamini-model-management-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lamini/openapi/lamini-model-management-api-openapi.yml
+- filename: lamini-train-api-openapi.yml
+  format: yaml
+  label: Lamini Train API
+  slug: lamini-train-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lamini/openapi/lamini-train-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +64,7 @@ source_filename: lamini-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/lamini-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Lamini platform API key passed as Authorization: Bearer <API_KEY>. Requests\n    may also include a Lamini-Version header.'\n  sources:\n  - openapi/lamini-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/authentication/lamini-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lamini/authentication/lamini-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

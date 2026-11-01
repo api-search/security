@@ -5,43 +5,43 @@ api_specs:
   label: Sybase Backups API
   slug: sybase-backups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/openapi/sybase-backups-api-openapi.yml
+  url: https://artifacts.apis.io/sybase/openapi/sybase-backups-api-openapi.yml
 - filename: sybase-configuration-api-openapi.yml
   format: yaml
   label: Sybase Configuration API
   slug: sybase-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/openapi/sybase-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/sybase/openapi/sybase-configuration-api-openapi.yml
 - filename: sybase-databases-api-openapi.yml
   format: yaml
   label: Sybase Databases API
   slug: sybase-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/openapi/sybase-databases-api-openapi.yml
+  url: https://artifacts.apis.io/sybase/openapi/sybase-databases-api-openapi.yml
 - filename: sybase-devices-api-openapi.yml
   format: yaml
   label: Sybase Devices API
   slug: sybase-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/openapi/sybase-devices-api-openapi.yml
+  url: https://artifacts.apis.io/sybase/openapi/sybase-devices-api-openapi.yml
 - filename: sybase-performance-api-openapi.yml
   format: yaml
   label: Sybase Performance API
   slug: sybase-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/openapi/sybase-performance-api-openapi.yml
+  url: https://artifacts.apis.io/sybase/openapi/sybase-performance-api-openapi.yml
 - filename: sybase-servers-api-openapi.yml
   format: yaml
   label: Sybase Servers API
   slug: sybase-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/openapi/sybase-servers-api-openapi.yml
+  url: https://artifacts.apis.io/sybase/openapi/sybase-servers-api-openapi.yml
 - filename: sybase-users-api-openapi.yml
   format: yaml
   label: Sybase Users API
   slug: sybase-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/openapi/sybase-users-api-openapi.yml
+  url: https://artifacts.apis.io/sybase/openapi/sybase-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: sybase-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: support.sap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 13 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.sap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 13 23:59:59 2027 GMT\n  hsts: null\n- host: help.sap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: sap.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/security/sybase-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sybase/security/sybase-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Database

@@ -23,7 +23,7 @@ source_filename: be-biopharma-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: be.bio\n  https: false\ndomains:\n- domain: be.bio\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/be-biopharma/refs/heads/main/security/be-biopharma-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/be-biopharma/security/be-biopharma-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

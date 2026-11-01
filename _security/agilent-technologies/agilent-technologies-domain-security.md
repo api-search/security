@@ -5,43 +5,43 @@ api_specs:
   label: agilent-technologies Cores API
   slug: agilent-technologies-cores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/openapi/agilent-technologies-cores-api-openapi.yml
+  url: https://artifacts.apis.io/agilent-technologies/openapi/agilent-technologies-cores-api-openapi.yml
 - filename: agilent-technologies-invoices-api-openapi.yml
   format: yaml
   label: agilent-technologies Invoices API
   slug: agilent-technologies-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/openapi/agilent-technologies-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/agilent-technologies/openapi/agilent-technologies-invoices-api-openapi.yml
 - filename: agilent-technologies-members-api-openapi.yml
   format: yaml
   label: agilent-technologies Members API
   slug: agilent-technologies-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/openapi/agilent-technologies-members-api-openapi.yml
+  url: https://artifacts.apis.io/agilent-technologies/openapi/agilent-technologies-members-api-openapi.yml
 - filename: agilent-technologies-projects-api-openapi.yml
   format: yaml
   label: agilent-technologies Projects API
   slug: agilent-technologies-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/openapi/agilent-technologies-projects-api-openapi.yml
+  url: https://artifacts.apis.io/agilent-technologies/openapi/agilent-technologies-projects-api-openapi.yml
 - filename: agilent-technologies-reservations-api-openapi.yml
   format: yaml
   label: agilent-technologies Reservations API
   slug: agilent-technologies-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/openapi/agilent-technologies-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/agilent-technologies/openapi/agilent-technologies-reservations-api-openapi.yml
 - filename: agilent-technologies-service-requests-api-openapi.yml
   format: yaml
   label: agilent-technologies Service Requests API
   slug: agilent-technologies-service-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/openapi/agilent-technologies-service-requests-api-openapi.yml
+  url: https://artifacts.apis.io/agilent-technologies/openapi/agilent-technologies-service-requests-api-openapi.yml
 - filename: agilent-technologies-services-api-openapi.yml
   format: yaml
   label: agilent-technologies Services API
   slug: agilent-technologies-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/openapi/agilent-technologies-services-api-openapi.yml
+  url: https://artifacts.apis.io/agilent-technologies/openapi/agilent-technologies-services-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ source_filename: agilent-technologies-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.agilent.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 23:59:59 2026 GMT\n  hsts: null\n- host: help.ilab.agilent.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 16 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.ilabsolutions.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 28 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: agilent.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: ilabsolutions.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/security/agilent-technologies-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/agilent-technologies/security/agilent-technologies-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Fortune 500

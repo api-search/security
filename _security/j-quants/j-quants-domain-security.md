@@ -5,55 +5,55 @@ api_specs:
   label: J-Quants Derivatives API
   slug: j-quants-derivatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/openapi/j-quants-derivatives-api-openapi.yml
+  url: https://artifacts.apis.io/j-quants/openapi/j-quants-derivatives-api-openapi.yml
 - filename: j-quants-equities-api-openapi.yml
   format: yaml
   label: J-Quants Equities API
   slug: j-quants-equities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/openapi/j-quants-equities-api-openapi.yml
+  url: https://artifacts.apis.io/j-quants/openapi/j-quants-equities-api-openapi.yml
 - filename: j-quants-fins-api-openapi.yml
   format: yaml
   label: J-Quants Fins API
   slug: j-quants-fins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/openapi/j-quants-fins-api-openapi.yml
+  url: https://artifacts.apis.io/j-quants/openapi/j-quants-fins-api-openapi.yml
 - filename: j-quants-indices-api-openapi.yml
   format: yaml
   label: J-Quants Indices API
   slug: j-quants-indices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/openapi/j-quants-indices-api-openapi.yml
+  url: https://artifacts.apis.io/j-quants/openapi/j-quants-indices-api-openapi.yml
 - filename: j-quants-listed-api-openapi.yml
   format: yaml
   label: J-Quants Listed API
   slug: j-quants-listed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/openapi/j-quants-listed-api-openapi.yml
+  url: https://artifacts.apis.io/j-quants/openapi/j-quants-listed-api-openapi.yml
 - filename: j-quants-markets-api-openapi.yml
   format: yaml
   label: J-Quants Markets API
   slug: j-quants-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/openapi/j-quants-markets-api-openapi.yml
+  url: https://artifacts.apis.io/j-quants/openapi/j-quants-markets-api-openapi.yml
 - filename: j-quants-option-api-openapi.yml
   format: yaml
   label: J-Quants Option API
   slug: j-quants-option-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/openapi/j-quants-option-api-openapi.yml
+  url: https://artifacts.apis.io/j-quants/openapi/j-quants-option-api-openapi.yml
 - filename: j-quants-prices-api-openapi.yml
   format: yaml
   label: J-Quants Prices API
   slug: j-quants-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/openapi/j-quants-prices-api-openapi.yml
+  url: https://artifacts.apis.io/j-quants/openapi/j-quants-prices-api-openapi.yml
 - filename: j-quants-token-api-openapi.yml
   format: yaml
   label: J-Quants Token API
   slug: j-quants-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/openapi/j-quants-token-api-openapi.yml
+  url: https://artifacts.apis.io/j-quants/openapi/j-quants-token-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -93,7 +93,7 @@ source_filename: j-quants-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: jpx-jquants.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.jquants.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 28 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: jpx-jquants.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n- domain: jquants.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/security/j-quants-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/j-quants/security/j-quants-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Financial Data

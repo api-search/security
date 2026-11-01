@@ -5,13 +5,13 @@ api_specs:
   label: Creatomate Renders API
   slug: creatomate-renders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatomate/refs/heads/main/openapi/creatomate-renders-api-openapi.yml
+  url: https://artifacts.apis.io/creatomate/openapi/creatomate-renders-api-openapi.yml
 - filename: creatomate-templates-api-openapi.yml
   format: yaml
   label: Creatomate Templates API
   slug: creatomate-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatomate/refs/heads/main/openapi/creatomate-templates-api-openapi.yml
+  url: https://artifacts.apis.io/creatomate/openapi/creatomate-templates-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: creatomate-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: creatomate.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 12:29:13 2026 GMT\n  hsts: false\n- host: api.creatomate.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 12:29:13 2026 GMT\n  hsts: null\ndomains:\n- domain: creatomate.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/creatomate/refs/heads/main/security/creatomate-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/creatomate/security/creatomate-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Media

@@ -5,7 +5,7 @@ api_specs:
   label: Amazon VPN AWS VPN API (Amazon EC2 Query API Subset) API
   slug: amazon-vpn-aws-vpn-api-amazon-ec2-query-api-subset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/openapi/amazon-vpn-aws-vpn-api-amazon-ec2-query-api-subset-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-vpn/openapi/amazon-vpn-aws-vpn-api-amazon-ec2-query-api-subset-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: amazon-vpn-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-01'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: ec2.amazonaws.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/security/amazon-vpn-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amazon-vpn/security/amazon-vpn-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Networking

@@ -5,49 +5,49 @@ api_specs:
   label: HiBob Attendance API
   slug: bob-attendance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/bob-attendance-api-openapi.yml
+  url: https://artifacts.apis.io/bob/openapi/bob-attendance-api-openapi.yml
 - filename: bob-documents-api-openapi.yml
   format: yaml
   label: HiBob Documents API
   slug: bob-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/bob-documents-api-openapi.yml
+  url: https://artifacts.apis.io/bob/openapi/bob-documents-api-openapi.yml
 - filename: bob-employee-tables-api-openapi.yml
   format: yaml
   label: HiBob Employee Tables API
   slug: bob-employee-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/bob-employee-tables-api-openapi.yml
+  url: https://artifacts.apis.io/bob/openapi/bob-employee-tables-api-openapi.yml
 - filename: bob-goals-api-openapi.yml
   format: yaml
   label: HiBob Goals API
   slug: bob-goals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/bob-goals-api-openapi.yml
+  url: https://artifacts.apis.io/bob/openapi/bob-goals-api-openapi.yml
 - filename: bob-hiring-api-openapi.yml
   format: yaml
   label: HiBob Hiring API
   slug: bob-hiring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/bob-hiring-api-openapi.yml
+  url: https://artifacts.apis.io/bob/openapi/bob-hiring-api-openapi.yml
 - filename: bob-learning-api-openapi.yml
   format: yaml
   label: HiBob Learning API
   slug: bob-learning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/bob-learning-api-openapi.yml
+  url: https://artifacts.apis.io/bob/openapi/bob-learning-api-openapi.yml
 - filename: bob-people-api-openapi.yml
   format: yaml
   label: HiBob People API
   slug: bob-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/bob-people-api-openapi.yml
+  url: https://artifacts.apis.io/bob/openapi/bob-people-api-openapi.yml
 - filename: bob-projects-api-openapi.yml
   format: yaml
   label: HiBob Projects API
   slug: bob-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/bob-projects-api-openapi.yml
+  url: https://artifacts.apis.io/bob/openapi/bob-projects-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -89,7 +89,7 @@ source_filename: bob-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hibob.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 11:27:00 2026 GMT\n  hsts: true\n  hsts_max_age: 6\n- host: apidocs.hibob.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 21:36:06 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.hibob.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 11:05:12 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: hibob.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/security/bob-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bob/security/bob-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Human Resources

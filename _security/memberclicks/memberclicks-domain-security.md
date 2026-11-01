@@ -5,49 +5,49 @@ api_specs:
   label: MemberClicks Attributes API
   slug: memberclicks-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/memberclicks/openapi/memberclicks-attributes-api-openapi.yml
 - filename: memberclicks-authorization-api-openapi.yml
   format: yaml
   label: MemberClicks Authorization API
   slug: memberclicks-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/memberclicks/openapi/memberclicks-authorization-api-openapi.yml
 - filename: memberclicks-continuing-education-api-openapi.yml
   format: yaml
   label: MemberClicks Continuing Education API
   slug: memberclicks-continuing-education-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-continuing-education-api-openapi.yml
+  url: https://artifacts.apis.io/memberclicks/openapi/memberclicks-continuing-education-api-openapi.yml
 - filename: memberclicks-events-api-openapi.yml
   format: yaml
   label: MemberClicks Events API
   slug: memberclicks-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-events-api-openapi.yml
+  url: https://artifacts.apis.io/memberclicks/openapi/memberclicks-events-api-openapi.yml
 - filename: memberclicks-groups-api-openapi.yml
   format: yaml
   label: MemberClicks Groups API
   slug: memberclicks-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-groups-api-openapi.yml
+  url: https://artifacts.apis.io/memberclicks/openapi/memberclicks-groups-api-openapi.yml
 - filename: memberclicks-profile-search-api-openapi.yml
   format: yaml
   label: MemberClicks Profile Search API
   slug: memberclicks-profile-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-profile-search-api-openapi.yml
+  url: https://artifacts.apis.io/memberclicks/openapi/memberclicks-profile-search-api-openapi.yml
 - filename: memberclicks-profiles-api-openapi.yml
   format: yaml
   label: MemberClicks Profiles API
   slug: memberclicks-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/memberclicks/openapi/memberclicks-profiles-api-openapi.yml
 - filename: memberclicks-reference-data-api-openapi.yml
   format: yaml
   label: MemberClicks Reference Data API
   slug: memberclicks-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/memberclicks/openapi/memberclicks-reference-data-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: memberclicks-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: memberclicks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 17:31:22 2026 GMT\n  hsts: false\n- host: help.memberclicks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 23:44:36 2026 GMT\n  hsts: true\n  hsts_max_age: 259200\ndomains:\n- domain: memberclicks.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/security/memberclicks-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/memberclicks/security/memberclicks-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Membership Management

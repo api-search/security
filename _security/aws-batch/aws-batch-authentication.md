@@ -8,37 +8,43 @@ api_specs:
   label: AWS Batch Compute Environments API
   slug: aws-batch-compute-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-batch/refs/heads/main/openapi/aws-batch-compute-environments-api-openapi.yml
+  url: https://artifacts.apis.io/aws-batch/openapi/aws-batch-compute-environments-api-openapi.yml
 - filename: aws-batch-job-definitions-api-openapi.yml
   format: yaml
   label: AWS Batch Job Definitions API
   slug: aws-batch-job-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-batch/refs/heads/main/openapi/aws-batch-job-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/aws-batch/openapi/aws-batch-job-definitions-api-openapi.yml
 - filename: aws-batch-job-queues-api-openapi.yml
   format: yaml
   label: AWS Batch Job Queues API
   slug: aws-batch-job-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-batch/refs/heads/main/openapi/aws-batch-job-queues-api-openapi.yml
+  url: https://artifacts.apis.io/aws-batch/openapi/aws-batch-job-queues-api-openapi.yml
 - filename: aws-batch-jobs-api-openapi.yml
   format: yaml
   label: AWS Batch Jobs API
   slug: aws-batch-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-batch/refs/heads/main/openapi/aws-batch-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/aws-batch/openapi/aws-batch-jobs-api-openapi.yml
 - filename: aws-batch-scheduling-policies-api-openapi.yml
   format: yaml
   label: AWS Batch Scheduling Policies API
   slug: aws-batch-scheduling-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-batch/refs/heads/main/openapi/aws-batch-scheduling-policies-api-openapi.yml
+  url: https://artifacts.apis.io/aws-batch/openapi/aws-batch-scheduling-policies-api-openapi.yml
 - filename: aws-batch-tags-api-openapi.yml
   format: yaml
   label: AWS Batch Tags API
   slug: aws-batch-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-batch/refs/heads/main/openapi/aws-batch-tags-api-openapi.yml
+  url: https://artifacts.apis.io/aws-batch/openapi/aws-batch-tags-api-openapi.yml
+- filename: aws-batch-operations-api-openapi.yml
+  format: yaml
+  label: AWS Batch Batch Operations API
+  slug: aws-batch-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-batch/openapi/aws-batch-operations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +72,7 @@ source_filename: aws-batch-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/aws-batch-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: SigV4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4 signed Authorization header\n  sources:\n  - openapi/aws-batch-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-batch/refs/heads/main/authentication/aws-batch-authentication.yml
+source_yaml_url: https://artifacts.apis.io/aws-batch/authentication/aws-batch-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Batch Computing

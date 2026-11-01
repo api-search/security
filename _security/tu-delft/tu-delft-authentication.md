@@ -7,25 +7,25 @@ api_specs:
   label: Delft University of Technology Account API
   slug: tu-delft-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/openapi/tu-delft-account-api-openapi.yml
+  url: https://artifacts.apis.io/tu-delft/openapi/tu-delft-account-api-openapi.yml
 - filename: tu-delft-collections-api-openapi.yml
   format: yaml
   label: Delft University of Technology Collections API
   slug: tu-delft-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/openapi/tu-delft-collections-api-openapi.yml
+  url: https://artifacts.apis.io/tu-delft/openapi/tu-delft-collections-api-openapi.yml
 - filename: tu-delft-datasets-api-openapi.yml
   format: yaml
   label: Delft University of Technology Datasets API
   slug: tu-delft-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/openapi/tu-delft-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/tu-delft/openapi/tu-delft-datasets-api-openapi.yml
 - filename: tu-delft-reference-api-openapi.yml
   format: yaml
   label: Delft University of Technology Reference API
   slug: tu-delft-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/openapi/tu-delft-reference-api-openapi.yml
+  url: https://artifacts.apis.io/tu-delft/openapi/tu-delft-reference-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -49,7 +49,7 @@ source_yaml: "generated: '2026-08-19'\nmethod: probed\nsource: >-\n  Live probes
   \ SURFconext service providers, eduGAIN\n    x-operator: institution\n    type: saml2\n    entity_id: https://login.tudelft.nl/sso/saml2/idp/metadata.php\n    metadata_url: https://login.tudelft.nl/sso/saml2/idp/metadata.php\n    software: SimpleSAMLphp\n    federation: SURFconext (SURF, Netherlands) -> eduGAIN\n    federation_metadata: https://metadata.surfconext.nl/idps-metadata.xml\n    display_names: ['Technische Universiteit Delft', 'Delft University of Technology']\n    evidence: >-\n      The entity is present in the live SURFconext IdP aggregate with a SingleSignOnService\n      HTTP-Redirect binding at\n      https://engine.surfconext.nl/authentication/idp/single-sign-on/key:20230503/a2f60e8691e4518b7cb67605ecd88a8d,\n      and the institution's own metadata document is served directly from login.tudelft.nl.\n    local_copy: authentication/tu-delft-saml-idp-metadata.xml\n  - id: sram\n    name: SURF Research Access Management (SRAM) collaboration\n    applies_to: 4TU.ResearchData\
   \ depositor onboarding\n    x-operator: tenant\n    type: saml2-broker\n    evidence: >-\n      djehuty's configuration documentation describes joining an SRAM collaboration to grant\n      access to a djehuty instance (organization-api-token + collaboration-id). SRAM is\n      operated by SURF, not by TU Delft.\n  - id: orcid\n    name: ORCID as identity provider\n    applies_to: 4TU.ResearchData depositor login and author records\n    x-operator: vendor\n    type: oauth2\n    evidence: >-\n      djehuty documents ORCID both as a primary login identity provider and as a way to couple\n      an author record to an ORCID iD. ORCID is operated by ORCID, Inc.\n  - id: pure-ws\n    name: Elsevier Pure Web Service\n    applies_to: pure.tudelft.nl / research.tudelft.nl\n    x-operator: tenant\n    type: api-key\n    evidence: >-\n      https://pure.tudelft.nl/ws/oai?verb=Identify returns HTTP 401 — the interface exists and\n      is gated, not absent. The API documentation served under pure.tudelft.nl/ws/api/\
   \ carries\n      rel=canonical to https://api.elsevierpure.com/ws/api/index.html, which is the ownership\n      signal: the contract is Elsevier's, the tenancy is TU Delft's.\n  - id: legacy-oauth\n    name: api.tudelft.nl OAuth 2.0 authorization service (retired)\n    applies_to: The former TU Delft institutional API platform\n    x-operator: institution\n    type: oauth2\n    status: unreachable\n    evidence: >-\n      api.tudelft.nl resolves to 131.180.187.26 and oauth.tudelft.nl to 131.180.187.27, both\n      inside TU Delft's DUNET netblock, but TCP connections to ports 80 and 443 time out from\n      the public internet. apidoc.tudelft.nl has no DNS record at all. The OAuth 2.0\n      developer's guide previously published at api.tudelft.nl/cms/developers-guide/oauth2/\n      is not retrievable.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/authentication/tu-delft-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tu-delft/authentication/tu-delft-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

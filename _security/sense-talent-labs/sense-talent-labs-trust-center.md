@@ -5,67 +5,67 @@ api_specs:
   label: Sense Talent Labs Appointment API
   slug: sense-talent-labs-appointment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/openapi/sense-talent-labs-appointment-api-openapi.yml
+  url: https://artifacts.apis.io/sense-talent-labs/openapi/sense-talent-labs-appointment-api-openapi.yml
 - filename: sense-talent-labs-authentication-api-openapi.yml
   format: yaml
   label: Sense Talent Labs Authentication API
   slug: sense-talent-labs-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/openapi/sense-talent-labs-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sense-talent-labs/openapi/sense-talent-labs-authentication-api-openapi.yml
 - filename: sense-talent-labs-candidate-api-openapi.yml
   format: yaml
   label: Sense Talent Labs Candidate API
   slug: sense-talent-labs-candidate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/openapi/sense-talent-labs-candidate-api-openapi.yml
+  url: https://artifacts.apis.io/sense-talent-labs/openapi/sense-talent-labs-candidate-api-openapi.yml
 - filename: sense-talent-labs-certification-api-openapi.yml
   format: yaml
   label: Sense Talent Labs Certification API
   slug: sense-talent-labs-certification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/openapi/sense-talent-labs-certification-api-openapi.yml
+  url: https://artifacts.apis.io/sense-talent-labs/openapi/sense-talent-labs-certification-api-openapi.yml
 - filename: sense-talent-labs-company-api-openapi.yml
   format: yaml
   label: Sense Talent Labs Company API
   slug: sense-talent-labs-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/openapi/sense-talent-labs-company-api-openapi.yml
+  url: https://artifacts.apis.io/sense-talent-labs/openapi/sense-talent-labs-company-api-openapi.yml
 - filename: sense-talent-labs-internaluser-api-openapi.yml
   format: yaml
   label: Sense Talent Labs Internal User API
   slug: sense-talent-labs-internaluser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/openapi/sense-talent-labs-internaluser-api-openapi.yml
+  url: https://artifacts.apis.io/sense-talent-labs/openapi/sense-talent-labs-internaluser-api-openapi.yml
 - filename: sense-talent-labs-joborder-api-openapi.yml
   format: yaml
   label: Sense Talent Labs Job Order API
   slug: sense-talent-labs-joborder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/openapi/sense-talent-labs-joborder-api-openapi.yml
+  url: https://artifacts.apis.io/sense-talent-labs/openapi/sense-talent-labs-joborder-api-openapi.yml
 - filename: sense-talent-labs-lead-api-openapi.yml
   format: yaml
   label: Sense Talent Labs Lead API
   slug: sense-talent-labs-lead-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/openapi/sense-talent-labs-lead-api-openapi.yml
+  url: https://artifacts.apis.io/sense-talent-labs/openapi/sense-talent-labs-lead-api-openapi.yml
 - filename: sense-talent-labs-placement-api-openapi.yml
   format: yaml
   label: Sense Talent Labs Placement API
   slug: sense-talent-labs-placement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/openapi/sense-talent-labs-placement-api-openapi.yml
+  url: https://artifacts.apis.io/sense-talent-labs/openapi/sense-talent-labs-placement-api-openapi.yml
 - filename: sense-talent-labs-submission-api-openapi.yml
   format: yaml
   label: Sense Talent Labs Submission API
   slug: sense-talent-labs-submission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/openapi/sense-talent-labs-submission-api-openapi.yml
+  url: https://artifacts.apis.io/sense-talent-labs/openapi/sense-talent-labs-submission-api-openapi.yml
 - filename: sense-talent-labs-client-contact-api-openapi.yml
   format: yaml
   label: Sense Talent Labs Client Contact API
   slug: sense-talent-labs-client-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/openapi/sense-talent-labs-client-contact-api-openapi.yml
+  url: https://artifacts.apis.io/sense-talent-labs/openapi/sense-talent-labs-client-contact-api-openapi.yml
 certification_count: 0
 certifications: []
 description: ''
@@ -83,7 +83,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: searched\nsource: https://www.sensehq.com/security\ntrust_center:\n  url: https://trust.warden-ai.com/sense/candidate-matching\n  operator: Warden AI Ltd.\n  kind: third-party AI assurance dashboard\n  linked_from: https://www.sensehq.com/security\n  note: Sense does not operate a first-party trust center at trust.sensehq.com (probed 2026-08-26,\n    HTTP 404). The published trust surface is a third-party AI assurance dashboard operated by\n    Warden AI covering the Sense Candidate Matching system, linked from Sense's own security page\n    and from the site footer badge \"Warden Assured\".\ncertifications: []\ncertifications_note: 'IMPORTANT ATTRIBUTION CORRECTION. The Sense security page names PCI DSS,\n  SOC 1/2/3, ITAR, EU-US and NIST, but the sentence attributes them to its HOSTING PROVIDER, not\n  to Sense: \"Our services are hosted on Amazon Web Services (AWS) cloud, compliant with PCI DSS,\n  SOC 1/2/3, ITAR, EU-US, and NIST.\" Those\
   \ are AWS certifications. Sense publishes NO\n  certification of its own — no Sense SOC 2 report, ISO 27001 certificate, or equivalent is named\n  anywhere on the public site. An AICPA SOC badge appears in the site footer imagery but no Sense\n  report, audit period, or auditor is named alongside it. Recording these as Sense certifications\n  would misattribute its vendor''s compliance posture to Sense.'\nregulatory_assurance:\n- regime: NYC Local Law 144 (automated employment decision tools bias audit)\n  scope: Sense Candidate Matching\n  source: https://trust.warden-ai.com/sense/candidate-matching\n- regime: EU AI Act (Regulation 2024/1689)\n  scope: Sense Candidate Matching\n  source: https://trust.warden-ai.com/sense/candidate-matching\n- regime: Colorado SB 205\n  scope: Sense Candidate Matching\n  source: https://trust.warden-ai.com/sense/candidate-matching\n- regime: California FEHA (Fair Employment and Housing Act)\n  scope: Sense Candidate Matching\n  source: https://trust.warden-ai.com/sense/candidate-matching\n\
   bias_audit:\n  auditor: Warden AI Ltd.\n  system: Candidate Matching\n  cadence: monthly\n  latest_review: '2026-05-18'\n  categories_assessed: 15\n  result: all 15 bias categories reported \"Clear\"\n  profiles_covered: 111408\n  source: https://trust.warden-ai.com/sense/candidate-matching\nsecurity_practices:\n- practice: encryption in transit\n  detail: TLS for application data over the internet via the dashboard or APIs\n  source: https://www.sensehq.com/security\n- practice: encryption at rest\n  detail: AES-256\n  source: https://www.sensehq.com/security\n- practice: penetration testing\n  detail: annual vulnerability and penetration assessments\n  source: https://www.sensehq.com/security\n- practice: multi-factor authentication\n  detail: MFA / 2FA configurable through the in-product admin panel\n  source: https://www.sensehq.com/security\n- practice: subprocessor disclosure\n  detail: published subprocessor list\n  source: https://www.sensehq.com/legal/subprocessors\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/security/sense-talent-labs-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/sense-talent-labs/security/sense-talent-labs-trust-center.yml
 summary_line: trust center published
 tags:
 - Human Resources

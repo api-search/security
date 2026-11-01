@@ -31,7 +31,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://docs.infakt.pl/ + live probe of https://api.infakt.pl/api/v3/\ndocs: https://docs.infakt.pl/\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  oauth2_flows: []\nschemes:\n- name: inFaktApiKey\n  type: apiKey\n  in: header\n  parameter_name: X-inFakt-ApiKey\n  description: >-\n    Per-account API key generated in the inFakt web app. Sent on every request\n    in the X-inFakt-ApiKey header. A missing key returns HTTP 401 with body\n    {\"error\":\"Musisz podac klucz API.\"}; an invalid key returns HTTP 401 with\n    {\"error\":\"Klucz API ktory podales jest nieprawidlowy.\"}. inFakt provides a\n    separate Sandbox environment with its own test API key (see sandbox/).\n  evidence:\n  - 'GET https://api.infakt.pl/api/v3/clients.json without header -> 401 \"Musisz podac klucz API.\"'\n  - 'GET .../clients.json with junk X-inFakt-ApiKey -> 401 \"Klucz API ktory podales jest nieprawidlowy.\"'\nnotes: >-\n  Key-auth\
   \ only. inFakt does not expose OAuth2 or OpenID Connect\n  (/.well-known/openid-configuration and /oauth-authorization-server both 404),\n  so there is no OAuth scope surface for this provider.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infakt/refs/heads/main/authentication/infakt-authentication.yml
+source_yaml_url: https://artifacts.apis.io/infakt/authentication/infakt-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

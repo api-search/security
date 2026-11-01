@@ -24,7 +24,7 @@ source_filename: nvr-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nvr.com\n  https: false\ndomains:\n- domain: nvr.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nvr/refs/heads/main/security/nvr-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nvr/security/nvr-domain-security.yml
 summary_line: DMARC
 tags:
 - Fortune 500

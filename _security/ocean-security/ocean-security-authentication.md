@@ -8,25 +8,25 @@ api_specs:
   label: Ocean Security Metrics API
   slug: ocean-security-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/openapi/ocean-security-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-security/openapi/ocean-security-metrics-api-openapi.yml
 - filename: ocean-security-settings-api-openapi.yml
   format: yaml
   label: Ocean Security Settings API
   slug: ocean-security-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/openapi/ocean-security-settings-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-security/openapi/ocean-security-settings-api-openapi.yml
 - filename: ocean-security-sonar-api-openapi.yml
   format: yaml
   label: Ocean Security Sonar API
   slug: ocean-security-sonar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/openapi/ocean-security-sonar-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-security/openapi/ocean-security-sonar-api-openapi.yml
 - filename: ocean-security-threats-api-openapi.yml
   format: yaml
   label: Ocean Security Threats API
   slug: ocean-security-threats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/openapi/ocean-security-threats-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-security/openapi/ocean-security-threats-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: ocean-security-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/ocean-security-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-Api-Key\n  description: API key for authentication\n  sources:\n  - openapi/ocean-security-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/authentication/ocean-security-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ocean-security/authentication/ocean-security-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

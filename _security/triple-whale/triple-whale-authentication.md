@@ -8,31 +8,31 @@ api_specs:
   label: Triple Whale API Keys API
   slug: triple-whale-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/openapi/triple-whale-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/triple-whale/openapi/triple-whale-api-keys-api-openapi.yml
 - filename: triple-whale-compliance-api-openapi.yml
   format: yaml
   label: Triple Whale Compliance API
   slug: triple-whale-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/openapi/triple-whale-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/triple-whale/openapi/triple-whale-compliance-api-openapi.yml
 - filename: triple-whale-data-in-api-openapi.yml
   format: yaml
   label: Triple Whale Data In API
   slug: triple-whale-data-in-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/openapi/triple-whale-data-in-api-openapi.yml
+  url: https://artifacts.apis.io/triple-whale/openapi/triple-whale-data-in-api-openapi.yml
 - filename: triple-whale-data-out-api-openapi.yml
   format: yaml
   label: Triple Whale Data Out API
   slug: triple-whale-data-out-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/openapi/triple-whale-data-out-api-openapi.yml
+  url: https://artifacts.apis.io/triple-whale/openapi/triple-whale-data-out-api-openapi.yml
 - filename: triple-whale-bi-api-openapi.yml
   format: yaml
   label: Triple Whale Bi API
   slug: triple-whale-bi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/openapi/triple-whale-bi-api-openapi.yml
+  url: https://artifacts.apis.io/triple-whale/openapi/triple-whale-bi-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -122,7 +122,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource:\n- https://trip
   \  in: header\n  parameter: x-api-key\n  surface: rest\n  sources:\n  - openapi/triple-whale-api-keys-api-openapi.yml\n  - openapi/triple-whale-compliance-api-openapi.yml\n  - openapi/triple-whale-data-in-api-openapi.yml\n  - openapi/triple-whale-data-out-api-openapi.yml\n  issuance:\n    console: https://app.triplewhale.com/api-keys\n    path: Data > APIs > Generate\n    shown_once: true\n    revocable: true\n    revocation_irreversible: true\n  scoped: true\n  scopes: scopes/triple-whale-scopes.yml\n  verification:\n    operation: validate-your-triple-whale-api-key\n    request: GET https://api.triplewhale.com/api/v2/users/api-keys/me\n    note: Returns the scopes attached to the presented key.\n  constraints:\n  - Shopify session JWTs and other token types are explicitly not accepted.\n  - >-\n    Keys are bound to the user who created them; if that user loses workspace\n    access, the key stops working.\n  - Separate keys are recommended per environment (production, testing, development).\n\
   \  failure_mode:\n    status: 401\n    causes: [missing header, revoked or expired key, missing scope, wrong token type]\n\n- name: mcpOAuth\n  type: oauth2\n  surface: mcp\n  resource: https://mcp.triplewhale.com/sse\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://mcp.triplewhale.com/authorize\n    tokenUrl: https://mcp.triplewhale.com/token\n    registrationUrl: https://mcp.triplewhale.com/register\n    code_challenge_methods: [S256]\n    grant_types: [authorization_code, refresh_token]\n    scopes: [moby:read, offline, offline_access]\n  token_endpoint_auth_methods: [none]\n  bearer_methods: [header]\n  discovery:\n  - https://mcp.triplewhale.com/.well-known/oauth-authorization-server\n  - https://mcp.triplewhale.com/.well-known/oauth-protected-resource\n  files:\n  - well-known/triple-whale-oauth-authorization-server.json\n  - well-known/triple-whale-oauth-protected-resource.json\n  method: probed\n  probed: '2026-08-13'\n  note: >-\n    Public client with dynamic\
   \ client registration and PKCE; no client secret\n    (token_endpoint_auth_methods is [\"none\"]). An \"MCP: Read\" API key is the\n    alternative, non-OAuth path documented for the same server.\n\nanonymous_surfaces:\n- endpoint: GET https://api.triplewhale.com/api/v2/bi/avg\n  auth: none\n  spec: openapi/triple-whale-bi-benchmarks-openapi.json\n  evidence: >-\n    https://api.triplewhale.com/.well-known/ai-plugin.json declares auth type\n    \"none\" for this API.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/authentication/triple-whale-authentication.yml
+source_yaml_url: https://artifacts.apis.io/triple-whale/authentication/triple-whale-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - E-Commerce

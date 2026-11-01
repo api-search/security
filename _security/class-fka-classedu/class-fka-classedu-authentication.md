@@ -8,43 +8,43 @@ api_specs:
   label: Class (fka ClassEDU) Classes API
   slug: class-fka-classedu-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/openapi/class-fka-classedu-classes-api-openapi.yml
+  url: https://artifacts.apis.io/class-fka-classedu/openapi/class-fka-classedu-classes-api-openapi.yml
 - filename: class-fka-classedu-enrollments-api-openapi.yml
   format: yaml
   label: Class (fka ClassEDU) Enrollments API
   slug: class-fka-classedu-enrollments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/openapi/class-fka-classedu-enrollments-api-openapi.yml
+  url: https://artifacts.apis.io/class-fka-classedu/openapi/class-fka-classedu-enrollments-api-openapi.yml
 - filename: class-fka-classedu-launch-api-openapi.yml
   format: yaml
   label: Class (fka ClassEDU) Launch API
   slug: class-fka-classedu-launch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/openapi/class-fka-classedu-launch-api-openapi.yml
+  url: https://artifacts.apis.io/class-fka-classedu/openapi/class-fka-classedu-launch-api-openapi.yml
 - filename: class-fka-classedu-reporting-api-openapi.yml
   format: yaml
   label: Class (fka ClassEDU) Reporting API
   slug: class-fka-classedu-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/openapi/class-fka-classedu-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/class-fka-classedu/openapi/class-fka-classedu-reporting-api-openapi.yml
 - filename: class-fka-classedu-schedules-api-openapi.yml
   format: yaml
   label: Class (fka ClassEDU) Schedules API
   slug: class-fka-classedu-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/openapi/class-fka-classedu-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/class-fka-classedu/openapi/class-fka-classedu-schedules-api-openapi.yml
 - filename: class-fka-classedu-templates-api-openapi.yml
   format: yaml
   label: Class (fka ClassEDU) Templates API
   slug: class-fka-classedu-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/openapi/class-fka-classedu-templates-api-openapi.yml
+  url: https://artifacts.apis.io/class-fka-classedu/openapi/class-fka-classedu-templates-api-openapi.yml
 - filename: class-fka-classedu-users-api-openapi.yml
   format: yaml
   label: Class (fka ClassEDU) Users API
   slug: class-fka-classedu-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/openapi/class-fka-classedu-users-api-openapi.yml
+  url: https://artifacts.apis.io/class-fka-classedu/openapi/class-fka-classedu-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -75,7 +75,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/class-fka-classedu-openapi.yml\ndocs: https://developer.class.com/\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  model: api-key-bearer-with-scopes\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  in: header\n  header: Authorization\n  format: 'Authorization: Bearer <api_key_secret>'\n  description: >-\n    Per-organization API key presented as a Bearer token in the Authorization\n    header. The key secret is displayed only once, at key creation, in the Class\n    Admin UI API Keys page (which is also where the organization's unique base\n    URL is shown). Each key is granted a set of permission scopes; selecting a\n    write scope automatically grants the matching read scope.\n  sources:\n  - openapi/class-fka-classedu-openapi.yml\nscopes:\n- scope: class:read\n  description: Read class information.\n- scope: class:write\n  description: Create, update and remove classes (implies class:read).\n\
   - scope: enrollment:read\n  description: Read enrollment information and launch links.\n- scope: enrollment:write\n  description: Create, update and remove enrollments (implies enrollment:read).\n- scope: attendance:read\n  description: Read attendance reporting.\n- scope: metrics:read\n  description: Read engagement metrics reporting.\n- scope: schedule:read\n  description: Read class dates / schedules.\n- scope: schedule:write\n  description: Add and remove class dates (implies schedule:read).\n- scope: template:read\n  description: Read class templates.\n- scope: template:write\n  description: Create, update and remove class templates (implies template:read).\n- scope: user:read\n  description: Read non-learner users.\n- scope: user:write\n  description: Create, update and remove non-learner users (implies user:read).\nnotes:\n- >-\n  Scopes are attached to the API key rather than issued via an OAuth flow; this\n  is API-key authorization with a scope model, not OAuth 2.0.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/authentication/class-fka-classedu-authentication.yml
+source_yaml_url: https://artifacts.apis.io/class-fka-classedu/authentication/class-fka-classedu-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

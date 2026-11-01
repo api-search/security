@@ -5,67 +5,67 @@ api_specs:
   label: Trimble BCF Topics API
   slug: trimble-bcf-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-bcf-topics-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-bcf-topics-api-openapi.yml
 - filename: trimble-files-api-openapi.yml
   format: yaml
   label: Trimble Files API
   slug: trimble-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-files-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-files-api-openapi.yml
 - filename: trimble-geocoding-api-openapi.yml
   format: yaml
   label: Trimble Geocoding API
   slug: trimble-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-geocoding-api-openapi.yml
 - filename: trimble-projects-api-openapi.yml
   format: yaml
   label: Trimble Projects API
   slug: trimble-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-projects-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-projects-api-openapi.yml
 - filename: trimble-routing-api-openapi.yml
   format: yaml
   label: Trimble Routing API
   slug: trimble-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-routing-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-routing-api-openapi.yml
 - filename: trimble-users-api-openapi.yml
   format: yaml
   label: Trimble Users API
   slug: trimble-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-users-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-users-api-openapi.yml
 - filename: trimble-catalyst-api-openapi.yml
   format: yaml
   label: Trimble Catalyst API
   slug: trimble-catalyst-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-catalyst-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-catalyst-api-openapi.yml
 - filename: trimble-corrections-api-openapi.yml
   format: yaml
   label: Trimble Corrections API
   slug: trimble-corrections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-corrections-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-corrections-api-openapi.yml
 - filename: trimble-positioning-api-openapi.yml
   format: yaml
   label: Trimble Positioning API
   slug: trimble-positioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-positioning-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-positioning-api-openapi.yml
 - filename: trimble-receiver-api-openapi.yml
   format: yaml
   label: Trimble Receiver API
   slug: trimble-receiver-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-receiver-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-receiver-api-openapi.yml
 - filename: trimble-system-api-openapi.yml
   format: yaml
   label: Trimble System API
   slug: trimble-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-system-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-system-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -83,7 +83,7 @@ source_filename: trimble-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.trimble.com/\nurl: https://trust.trimble.com/\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://trust.trimble.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/security/trimble-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/trimble/security/trimble-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Construction

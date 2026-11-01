@@ -5,25 +5,25 @@ api_specs:
   label: Biodock Analysis Jobs API
   slug: biodock-analysis-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/biodock/refs/heads/main/openapi/biodock-analysis-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/biodock/openapi/biodock-analysis-jobs-api-openapi.yml
 - filename: biodock-auth-api-openapi.yml
   format: yaml
   label: Biodock Auth API
   slug: biodock-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/biodock/refs/heads/main/openapi/biodock-auth-api-openapi.yml
+  url: https://artifacts.apis.io/biodock/openapi/biodock-auth-api-openapi.yml
 - filename: biodock-files-api-openapi.yml
   format: yaml
   label: Biodock Files API
   slug: biodock-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/biodock/refs/heads/main/openapi/biodock-files-api-openapi.yml
+  url: https://artifacts.apis.io/biodock/openapi/biodock-files-api-openapi.yml
 - filename: biodock-pipelines-api-openapi.yml
   format: yaml
   label: Biodock Pipelines API
   slug: biodock-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/biodock/refs/heads/main/openapi/biodock-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/biodock/openapi/biodock-pipelines-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: biodock-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.biodock.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 13:19:41 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.biodock.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 05:46:19 2026 GMT\n  hsts: false\ndomains:\n- domain: biodock.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/biodock/refs/heads/main/security/biodock-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/biodock/security/biodock-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

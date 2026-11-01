@@ -28,7 +28,7 @@ source_filename: reynolds-reynolds-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.reyrey.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 30 22:04:04 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: reyrey.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reynolds-reynolds/refs/heads/main/security/reynolds-reynolds-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/reynolds-reynolds/security/reynolds-reynolds-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Automotive

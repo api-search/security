@@ -5,43 +5,43 @@ api_specs:
   label: Hyperline Billable Events API
   slug: hyperline-billable-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-billable-events-api-openapi.yml
+  url: https://artifacts.apis.io/hyperline/openapi/hyperline-billable-events-api-openapi.yml
 - filename: hyperline-customers-api-openapi.yml
   format: yaml
   label: Hyperline Customers API
   slug: hyperline-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-customers-api-openapi.yml
+  url: https://artifacts.apis.io/hyperline/openapi/hyperline-customers-api-openapi.yml
 - filename: hyperline-invoices-api-openapi.yml
   format: yaml
   label: Hyperline Invoices API
   slug: hyperline-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/hyperline/openapi/hyperline-invoices-api-openapi.yml
 - filename: hyperline-payments-api-openapi.yml
   format: yaml
   label: Hyperline Payments API
   slug: hyperline-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-payments-api-openapi.yml
+  url: https://artifacts.apis.io/hyperline/openapi/hyperline-payments-api-openapi.yml
 - filename: hyperline-products-api-openapi.yml
   format: yaml
   label: Hyperline Products API
   slug: hyperline-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-products-api-openapi.yml
+  url: https://artifacts.apis.io/hyperline/openapi/hyperline-products-api-openapi.yml
 - filename: hyperline-subscriptions-api-openapi.yml
   format: yaml
   label: Hyperline Subscriptions API
   slug: hyperline-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/hyperline/openapi/hyperline-subscriptions-api-openapi.yml
 - filename: hyperline-webhooks-api-openapi.yml
   format: yaml
   label: Hyperline Webhooks API
   slug: hyperline-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/hyperline/openapi/hyperline-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: hyperline-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hyperline.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 10:25:58 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.hyperline.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 16:05:18 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.hyperline.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 09:48:28 2026 GMT\n  hsts: null\ndomains:\n- domain: hyperline.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/security/hyperline-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hyperline/security/hyperline-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Billing

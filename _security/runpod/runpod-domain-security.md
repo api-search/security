@@ -5,49 +5,49 @@ api_specs:
   label: RunPod Billing API
   slug: runpod-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/openapi/runpod-billing-api-openapi.yml
+  url: https://artifacts.apis.io/runpod/openapi/runpod-billing-api-openapi.yml
 - filename: runpod-containerregistryauth-api-openapi.yml
   format: yaml
   label: RunPod Containerregistryauth API
   slug: runpod-containerregistryauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/openapi/runpod-containerregistryauth-api-openapi.yml
+  url: https://artifacts.apis.io/runpod/openapi/runpod-containerregistryauth-api-openapi.yml
 - filename: runpod-docs-api-openapi.yml
   format: yaml
   label: RunPod Docs API
   slug: runpod-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/openapi/runpod-docs-api-openapi.yml
+  url: https://artifacts.apis.io/runpod/openapi/runpod-docs-api-openapi.yml
 - filename: runpod-endpoints-api-openapi.yml
   format: yaml
   label: RunPod Endpoints API
   slug: runpod-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/openapi/runpod-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/runpod/openapi/runpod-endpoints-api-openapi.yml
 - filename: runpod-openapi-json-api-openapi.yml
   format: yaml
   label: RunPod Openapi.json API
   slug: runpod-openapi-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/openapi/runpod-openapi-json-api-openapi.yml
+  url: https://artifacts.apis.io/runpod/openapi/runpod-openapi-json-api-openapi.yml
 - filename: runpod-pods-api-openapi.yml
   format: yaml
   label: RunPod Pods API
   slug: runpod-pods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/openapi/runpod-pods-api-openapi.yml
+  url: https://artifacts.apis.io/runpod/openapi/runpod-pods-api-openapi.yml
 - filename: runpod-templates-api-openapi.yml
   format: yaml
   label: RunPod Templates API
   slug: runpod-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/openapi/runpod-templates-api-openapi.yml
+  url: https://artifacts.apis.io/runpod/openapi/runpod-templates-api-openapi.yml
 - filename: runpod-network-volumes-api-openapi.yml
   format: yaml
   label: RunPod Network Volumes API
   slug: runpod-network-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/openapi/runpod-network-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/runpod/openapi/runpod-network-volumes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ source_filename: runpod-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: runpod.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 13:26:23 2026 GMT\n  hsts: false\n- host: console.runpod.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 20:20:23 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.runpod.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 15:19:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: runpod.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/security/runpod-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/runpod/security/runpod-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

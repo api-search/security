@@ -54,7 +54,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.rabobank.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 20 23:59:59 2027 GMT\n  hsts: null\n- host: docs.developer.rabobank.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 17 23:59:59 2026 GMT\n  hsts: null\n- host: api.rabobank.nl\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  6 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: rabobank.com\n  dnssec: true\n  caa:\n  - 0 iodef \"mailto:Certificate.Operations@rabobank.com\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"quovadisglobal.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: rabobank.nl\n  dnssec: true\n  caa:\n  - 0 iodef \"mailto:Certificate.Operations@rabobank.com\"\n  - 0 issue \"visa.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"quovadisglobal.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue\
   \ \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rabobank/refs/heads/main/security/rabobank-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rabobank/security/rabobank-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Finance

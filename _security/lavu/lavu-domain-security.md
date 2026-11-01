@@ -5,13 +5,13 @@ api_specs:
   label: Lavu Menu API
   slug: lavu-menu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lavu/refs/heads/main/openapi/lavu-menu-api-openapi.yml
+  url: https://artifacts.apis.io/lavu/openapi/lavu-menu-api-openapi.yml
 - filename: lavu-orders-api-openapi.yml
   format: yaml
   label: Lavu Orders API
   slug: lavu-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lavu/refs/heads/main/openapi/lavu-orders-api-openapi.yml
+  url: https://artifacts.apis.io/lavu/openapi/lavu-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,7 +50,7 @@ source_filename: lavu-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: lavu.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 11 23:59:40 2026 GMT\n  hsts: false\n- host: admin.poslavu.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: lavu.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: poslavu.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lavu/refs/heads/main/security/lavu-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lavu/security/lavu-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Restaurant

@@ -15,7 +15,7 @@ source_filename: buildingconnected-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nprobe: true\nsource: https://construction.autodesk.com/products/buildingconnected/\nurl: https://construction.autodesk.com/products/buildingconnected/\ncertifications:\n- GDPR\nevidence:\n- source: https://construction.autodesk.com/products/buildingconnected/\n  keywords:\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buildingconnected/refs/heads/main/security/buildingconnected-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/buildingconnected/security/buildingconnected-trust-center.yml
 summary_line: GDPR
 tags:
 - Company

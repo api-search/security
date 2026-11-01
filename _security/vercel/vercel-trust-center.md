@@ -11,25 +11,25 @@ api_specs:
   label: Vercel Chats API
   slug: vercel-chats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/openapi/vercel-chats-api-openapi.yml
+  url: https://artifacts.apis.io/vercel/openapi/vercel-chats-api-openapi.yml
 - filename: vercel-embeddings-api-openapi.yml
   format: yaml
   label: Vercel Embeddings API
   slug: vercel-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/openapi/vercel-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/vercel/openapi/vercel-embeddings-api-openapi.yml
 - filename: vercel-models-api-openapi.yml
   format: yaml
   label: Vercel Models API
   slug: vercel-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/openapi/vercel-models-api-openapi.yml
+  url: https://artifacts.apis.io/vercel/openapi/vercel-models-api-openapi.yml
 - filename: vercel-chat-completions-api-openapi.yml
   format: yaml
   label: Vercel Chat Completions API
   slug: vercel-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/openapi/vercel-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/vercel/openapi/vercel-chat-completions-api-openapi.yml
 certification_count: 5
 certifications:
 - SOC 2
@@ -50,7 +50,7 @@ source_filename: vercel-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://security.vercel.com/\nurl: https://security.vercel.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- PCI DSS\n- HIPAA\n- GDPR\nevidence:\n- source: https://security.vercel.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - pci dss\n  - hipaa\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/security/vercel-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/vercel/security/vercel-trust-center.yml
 summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
 tags:
 - AI Gateway

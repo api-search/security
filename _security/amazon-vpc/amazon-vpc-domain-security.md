@@ -5,37 +5,37 @@ api_specs:
   label: Amazon VPC Internet Gateways API
   slug: amazon-vpc-internet-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/openapi/amazon-vpc-internet-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-vpc/openapi/amazon-vpc-internet-gateways-api-openapi.yml
 - filename: amazon-vpc-nat-gateways-api-openapi.yml
   format: yaml
   label: Amazon VPC NAT Gateways API
   slug: amazon-vpc-nat-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/openapi/amazon-vpc-nat-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-vpc/openapi/amazon-vpc-nat-gateways-api-openapi.yml
 - filename: amazon-vpc-network-acls-api-openapi.yml
   format: yaml
   label: Amazon VPC Network ACLs API
   slug: amazon-vpc-network-acls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/openapi/amazon-vpc-network-acls-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-vpc/openapi/amazon-vpc-network-acls-api-openapi.yml
 - filename: amazon-vpc-route-tables-api-openapi.yml
   format: yaml
   label: Amazon VPC Route Tables API
   slug: amazon-vpc-route-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/openapi/amazon-vpc-route-tables-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-vpc/openapi/amazon-vpc-route-tables-api-openapi.yml
 - filename: amazon-vpc-subnets-api-openapi.yml
   format: yaml
   label: Amazon VPC Subnets API
   slug: amazon-vpc-subnets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/openapi/amazon-vpc-subnets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-vpc/openapi/amazon-vpc-subnets-api-openapi.yml
 - filename: amazon-vpc-vpcs-api-openapi.yml
   format: yaml
   label: Amazon VPC VP Cs API
   slug: amazon-vpc-vpcs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/openapi/amazon-vpc-vpcs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-vpc/openapi/amazon-vpc-vpcs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: amazon-vpc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: ec2.amazonaws.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/security/amazon-vpc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amazon-vpc/security/amazon-vpc-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Networking

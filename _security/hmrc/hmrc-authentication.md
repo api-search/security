@@ -7,25 +7,25 @@ api_specs:
   label: HMRC UK Tax Authority Liabilities API
   slug: hmrc-liabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hmrc/refs/heads/main/openapi/hmrc-liabilities-api-openapi.yml
+  url: https://artifacts.apis.io/hmrc/openapi/hmrc-liabilities-api-openapi.yml
 - filename: hmrc-obligations-api-openapi.yml
   format: yaml
   label: HMRC UK Tax Authority Obligations API
   slug: hmrc-obligations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hmrc/refs/heads/main/openapi/hmrc-obligations-api-openapi.yml
+  url: https://artifacts.apis.io/hmrc/openapi/hmrc-obligations-api-openapi.yml
 - filename: hmrc-payments-api-openapi.yml
   format: yaml
   label: HMRC UK Tax Authority Payments API
   slug: hmrc-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hmrc/refs/heads/main/openapi/hmrc-payments-api-openapi.yml
+  url: https://artifacts.apis.io/hmrc/openapi/hmrc-payments-api-openapi.yml
 - filename: hmrc-returns-api-openapi.yml
   format: yaml
   label: HMRC UK Tax Authority Returns API
   slug: hmrc-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hmrc/refs/heads/main/openapi/hmrc-returns-api-openapi.yml
+  url: https://artifacts.apis.io/hmrc/openapi/hmrc-returns-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -57,7 +57,7 @@ source_filename: hmrc-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/hmrc-vat-mtd-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: OAuth2UserRestricted\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.service.hmrc.gov.uk/oauth/authorize\n    tokenUrl: https://api.service.hmrc.gov.uk/oauth/token\n    scopes: 2\n  description: HMRC OAuth 2.0 Authorization Code grant (user-restricted)\n  sources:\n  - openapi/hmrc-vat-mtd-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hmrc/refs/heads/main/authentication/hmrc-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hmrc/authentication/hmrc-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Government

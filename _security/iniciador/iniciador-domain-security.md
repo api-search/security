@@ -46,7 +46,7 @@ source_filename: iniciador-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: iniciador.com.br\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 23:12:42 2026 GMT\n  hsts: true\n  hsts_max_age: 0\n- host: docs.iniciador.com.br\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 20:43:57 2026 GMT\n  hsts: true\n  hsts_max_age: 0\n- host: api.iniciador.com.br\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 00:04:35 2026 GMT\n  hsts: true\n  hsts_max_age: 0\ndomains:\n- domain: iniciador.com.br\n  dnssec: true\n  caa:\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 iodef \"mailto:security@iniciador.com.br\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iniciador/refs/heads/main/security/iniciador-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/iniciador/security/iniciador-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

@@ -7,31 +7,31 @@ api_specs:
   label: Ninox Fields API
   slug: ninox-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninox/refs/heads/main/openapi/ninox-fields-api-openapi.yml
+  url: https://artifacts.apis.io/ninox/openapi/ninox-fields-api-openapi.yml
 - filename: ninox-modules-api-openapi.yml
   format: yaml
   label: Ninox Modules API
   slug: ninox-modules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninox/refs/heads/main/openapi/ninox-modules-api-openapi.yml
+  url: https://artifacts.apis.io/ninox/openapi/ninox-modules-api-openapi.yml
 - filename: ninox-records-api-openapi.yml
   format: yaml
   label: Ninox Records API
   slug: ninox-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninox/refs/heads/main/openapi/ninox-records-api-openapi.yml
+  url: https://artifacts.apis.io/ninox/openapi/ninox-records-api-openapi.yml
 - filename: ninox-tables-api-openapi.yml
   format: yaml
   label: Ninox Tables API
   slug: ninox-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninox/refs/heads/main/openapi/ninox-tables-api-openapi.yml
+  url: https://artifacts.apis.io/ninox/openapi/ninox-tables-api-openapi.yml
 - filename: ninox-workspace-api-openapi.yml
   format: yaml
   label: Ninox Workspace API
   slug: ninox-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninox/refs/heads/main/openapi/ninox-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/ninox/openapi/ninox-workspace-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -59,7 +59,7 @@ source_filename: ninox-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/ninox-public-openapi-original.json\nsummary:\n  types:\n  - http\nschemes:\n- name: bearer\n  type: http\n  scheme: bearer\n  bearerFormat: API Key\n  description: \"Enter your Workspace API key. \\n\\n API keys can be generated and managed within\\\n    \\ the **Workspace Integration** settings in the Ninox app.\"\n  sources:\n  - openapi/ninox-public-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ninox/refs/heads/main/authentication/ninox-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ninox/authentication/ninox-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

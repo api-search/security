@@ -5,31 +5,31 @@ api_specs:
   label: Holded Accounting API
   slug: holded-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holded/refs/heads/main/openapi/holded-accounting-api-openapi.yml
+  url: https://artifacts.apis.io/holded/openapi/holded-accounting-api-openapi.yml
 - filename: holded-crm-api-openapi.yml
   format: yaml
   label: Holded Crm API
   slug: holded-crm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holded/refs/heads/main/openapi/holded-crm-api-openapi.yml
+  url: https://artifacts.apis.io/holded/openapi/holded-crm-api-openapi.yml
 - filename: holded-invoicing-api-openapi.yml
   format: yaml
   label: Holded Invoicing API
   slug: holded-invoicing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holded/refs/heads/main/openapi/holded-invoicing-api-openapi.yml
+  url: https://artifacts.apis.io/holded/openapi/holded-invoicing-api-openapi.yml
 - filename: holded-projects-api-openapi.yml
   format: yaml
   label: Holded Projects API
   slug: holded-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holded/refs/heads/main/openapi/holded-projects-api-openapi.yml
+  url: https://artifacts.apis.io/holded/openapi/holded-projects-api-openapi.yml
 - filename: holded-team-api-openapi.yml
   format: yaml
   label: Holded Team API
   slug: holded-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holded/refs/heads/main/openapi/holded-team-api-openapi.yml
+  url: https://artifacts.apis.io/holded/openapi/holded-team-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +71,7 @@ source_filename: holded-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.holded.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 20 15:58:37 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developers.holded.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  1 19:14:03 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.holded.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 29 17:30:14 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: holded.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/holded/refs/heads/main/security/holded-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/holded/security/holded-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - ERP

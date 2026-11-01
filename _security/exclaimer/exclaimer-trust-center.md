@@ -5,55 +5,55 @@ api_specs:
   label: Exclaimer End Users API
   slug: exclaimer-end-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/openapi/exclaimer-end-users-api-openapi.yml
+  url: https://artifacts.apis.io/exclaimer/openapi/exclaimer-end-users-api-openapi.yml
 - filename: exclaimer-mailboxes-api-openapi.yml
   format: yaml
   label: Exclaimer Mailboxes API
   slug: exclaimer-mailboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/openapi/exclaimer-mailboxes-api-openapi.yml
+  url: https://artifacts.apis.io/exclaimer/openapi/exclaimer-mailboxes-api-openapi.yml
 - filename: exclaimer-miscellaneous-api-openapi.yml
   format: yaml
   label: Exclaimer Miscellaneous API
   slug: exclaimer-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/openapi/exclaimer-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/exclaimer/openapi/exclaimer-miscellaneous-api-openapi.yml
 - filename: exclaimer-msp-api-openapi.yml
   format: yaml
   label: Exclaimer MSP API
   slug: exclaimer-msp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/openapi/exclaimer-msp-api-openapi.yml
+  url: https://artifacts.apis.io/exclaimer/openapi/exclaimer-msp-api-openapi.yml
 - filename: exclaimer-reference-resources-api-openapi.yml
   format: yaml
   label: Exclaimer Reference Resources API
   slug: exclaimer-reference-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/openapi/exclaimer-reference-resources-api-openapi.yml
+  url: https://artifacts.apis.io/exclaimer/openapi/exclaimer-reference-resources-api-openapi.yml
 - filename: exclaimer-resellers-api-openapi.yml
   format: yaml
   label: Exclaimer Resellers API
   slug: exclaimer-resellers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/openapi/exclaimer-resellers-api-openapi.yml
+  url: https://artifacts.apis.io/exclaimer/openapi/exclaimer-resellers-api-openapi.yml
 - filename: exclaimer-subscription-transfers-api-openapi.yml
   format: yaml
   label: Exclaimer Subscription Transfers API
   slug: exclaimer-subscription-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/openapi/exclaimer-subscription-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/exclaimer/openapi/exclaimer-subscription-transfers-api-openapi.yml
 - filename: exclaimer-subscription-users-api-openapi.yml
   format: yaml
   label: Exclaimer Subscription Users API
   slug: exclaimer-subscription-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/openapi/exclaimer-subscription-users-api-openapi.yml
+  url: https://artifacts.apis.io/exclaimer/openapi/exclaimer-subscription-users-api-openapi.yml
 - filename: exclaimer-subscriptions-api-openapi.yml
   format: yaml
   label: Exclaimer Subscriptions API
   slug: exclaimer-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/openapi/exclaimer-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/exclaimer/openapi/exclaimer-subscriptions-api-openapi.yml
 certification_count: 9
 certifications:
 - SOC 2 Type II
@@ -80,7 +80,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: https://exclaimer.com/product/security/\nurl: https://trust.exclaimer.com/\ncompliance_page: https://exclaimer.com/product/security/\ntrust_center_platform: Conveyor\ntrust_center_note: >-\n  trust.exclaimer.com returns HTTP 200 but is a client-side rendered Conveyor\n  trust-portal shell; no certification text is present in the served HTML. The\n  certification list below is therefore taken from Exclaimer's own security page\n  at https://exclaimer.com/product/security/, which states each claim in prose.\ncertifications:\n- name: SOC 2 Type II\n  claim: certified\n  detail: SOC 2 Type II certified by the AICPA for security, availability, and confidentiality.\n- name: ISO/IEC 27001\n  claim: certified\n  detail: Certified ISMS covering management of sensitive data.\n- name: ISO/IEC 27018\n  claim: certified\n  detail: Certified for protection of personally identifiable information (PII) in the cloud.\n- name: PCI\
   \ DSS\n  claim: self-certified\n  detail: >-\n    Self-certified against PCI DSS via an annually reviewed self-assessment\n    questionnaire; card payments are handled by a PCI DSS-certified third-party\n    provider so cardholder data is not processed by Exclaimer directly.\n- name: CSA (Cloud Security Alliance)\n  claim: certified\n  detail: Certified by the Cloud Security Alliance following an independent assessment of cloud service security controls.\n- name: Cyber Essentials\n  claim: certified\n  detail: Certified under the UK government-backed Cyber Essentials scheme managed by the NCSC.\n- name: HIPAA\n  claim: compliant\n  detail: States HIPAA compliance for handling protected health information (PHI).\n- name: GDPR\n  claim: compliant\n  detail: States full compliance with the EU General Data Protection Regulation.\n- name: CCPA\n  claim: compliant\n  detail: States adherence to the California Consumer Privacy Act of 2018 and other U.S. privacy laws.\nnot_claimed:\n- name: FedRAMP\n\
   \  note: >-\n    An automated keyword probe of trust.exclaimer.com matched \"FedRAMP\" inside the\n    Conveyor platform's own boilerplate/JS payload, not in any Exclaimer claim.\n    Exclaimer's security page does not mention FedRAMP. Recorded here so a later\n    re-run does not re-introduce it as a certification.\nevidence:\n- source: https://exclaimer.com/product/security/\n  http_status: 200\n  kind: provider security/compliance page (server-rendered prose)\n  keywords:\n  - soc 2 type ii\n  - iso/iec 27001 & 27018\n  - pci dss\n  - csa\n  - cyber essentials\n  - hipaa\n  - gdpr\n  - ccpa\n- source: https://trust.exclaimer.com/\n  http_status: 200\n  kind: trust center portal (Conveyor; JS-rendered, no certification text in HTML)\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/security/exclaimer-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/exclaimer/security/exclaimer-trust-center.yml
 summary_line: SOC 2 Type II, ISO/IEC 27001, ISO/IEC 27018, PCI DSS, CSA (Cloud Security Alliance), Cyber Essentials, HIPAA, GDPR, CCPA
 tags:
 - Company

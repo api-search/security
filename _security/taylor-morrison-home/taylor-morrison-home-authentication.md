@@ -8,37 +8,37 @@ api_specs:
   label: taylor-morrison-home Communities API
   slug: taylor-morrison-home-communities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/openapi/taylor-morrison-home-communities-api-openapi.yml
+  url: https://artifacts.apis.io/taylor-morrison-home/openapi/taylor-morrison-home-communities-api-openapi.yml
 - filename: taylor-morrison-home-design-api-openapi.yml
   format: yaml
   label: taylor-morrison-home Design API
   slug: taylor-morrison-home-design-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/openapi/taylor-morrison-home-design-api-openapi.yml
+  url: https://artifacts.apis.io/taylor-morrison-home/openapi/taylor-morrison-home-design-api-openapi.yml
 - filename: taylor-morrison-home-floor-plans-api-openapi.yml
   format: yaml
   label: taylor-morrison-home Floor Plans API
   slug: taylor-morrison-home-floor-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/openapi/taylor-morrison-home-floor-plans-api-openapi.yml
+  url: https://artifacts.apis.io/taylor-morrison-home/openapi/taylor-morrison-home-floor-plans-api-openapi.yml
 - filename: taylor-morrison-home-homes-api-openapi.yml
   format: yaml
   label: taylor-morrison-home Homes API
   slug: taylor-morrison-home-homes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/openapi/taylor-morrison-home-homes-api-openapi.yml
+  url: https://artifacts.apis.io/taylor-morrison-home/openapi/taylor-morrison-home-homes-api-openapi.yml
 - filename: taylor-morrison-home-lots-api-openapi.yml
   format: yaml
   label: taylor-morrison-home Lots API
   slug: taylor-morrison-home-lots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/openapi/taylor-morrison-home-lots-api-openapi.yml
+  url: https://artifacts.apis.io/taylor-morrison-home/openapi/taylor-morrison-home-lots-api-openapi.yml
 - filename: taylor-morrison-home-reservations-api-openapi.yml
   format: yaml
   label: taylor-morrison-home Reservations API
   slug: taylor-morrison-home-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/openapi/taylor-morrison-home-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/taylor-morrison-home/openapi/taylor-morrison-home-reservations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -65,7 +65,7 @@ source_filename: taylor-morrison-home-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/taylor-morrison-home-search-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  sources:\n  - openapi/taylor-morrison-home-search-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/authentication/taylor-morrison-home-authentication.yml
+source_yaml_url: https://artifacts.apis.io/taylor-morrison-home/authentication/taylor-morrison-home-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Homebuilding

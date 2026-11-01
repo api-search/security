@@ -7,67 +7,67 @@ api_specs:
   label: PaulieB14 Agent API
   slug: graphadvocate-com-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-agent-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-agent-api-openapi.yml
 - filename: graphadvocate-com-ask-api-openapi.yml
   format: yaml
   label: PaulieB14 Ask API
   slug: graphadvocate-com-ask-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-ask-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-ask-api-openapi.yml
 - filename: graphadvocate-com-hyperliquid-api-openapi.yml
   format: yaml
   label: PaulieB14 Hyperliquid API
   slug: graphadvocate-com-hyperliquid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-hyperliquid-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-hyperliquid-api-openapi.yml
 - filename: graphadvocate-com-kalshi-api-openapi.yml
   format: yaml
   label: PaulieB14 Kalshi API
   slug: graphadvocate-com-kalshi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-kalshi-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-kalshi-api-openapi.yml
 - filename: graphadvocate-com-kalshi-polymarket-api-openapi.yml
   format: yaml
   label: PaulieB14 Kalshi Polymarket API
   slug: graphadvocate-com-kalshi-polymarket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-kalshi-polymarket-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-kalshi-polymarket-api-openapi.yml
 - filename: graphadvocate-com-narrative-api-openapi.yml
   format: yaml
   label: PaulieB14 Narrative API
   slug: graphadvocate-com-narrative-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-narrative-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-narrative-api-openapi.yml
 - filename: graphadvocate-com-onchain-x402-api-openapi.yml
   format: yaml
   label: PaulieB14 Onchain X402 API
   slug: graphadvocate-com-onchain-x402-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-onchain-x402-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-onchain-x402-api-openapi.yml
 - filename: graphadvocate-com-polymarket-api-openapi.yml
   format: yaml
   label: PaulieB14 Polymarket API
   slug: graphadvocate-com-polymarket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-polymarket-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-polymarket-api-openapi.yml
 - filename: graphadvocate-com-predmarket-api-openapi.yml
   format: yaml
   label: PaulieB14 Predmarket API
   slug: graphadvocate-com-predmarket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-predmarket-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-predmarket-api-openapi.yml
 - filename: graphadvocate-com-route-api-openapi.yml
   format: yaml
   label: PaulieB14 Route API
   slug: graphadvocate-com-route-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-route-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-route-api-openapi.yml
 - filename: graphadvocate-com-uniswap-api-openapi.yml
   format: yaml
   label: PaulieB14 Uniswap API
   slug: graphadvocate-com-uniswap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-uniswap-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-uniswap-api-openapi.yml
 auth_types:
 - none
 - x402-payment
@@ -133,7 +133,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: >-\n  https://d
   \ card, no API key — ever.\" The billing relationship is the calling agent's wallet.\nschemes:\n- name: none\n  type: none\n  applies_to: POST / (A2A), POST /chat, GET /copytrade/*, GET /mcp + POST /mcp (MCP), all discovery documents\n  description: >-\n    Anonymous. POST /chat is free and returns the query to run (never the data). POST / over A2A is free for 3\n    routed queries/day when the sender is identified (below); anonymous A2A calls are charged from call 1.\n  sources: [quickstart, llms.txt, capabilities.json]\n- name: x402\n  type: payment\n  header: X-PAYMENT\n  challenge: HTTP 402 with `payment-required` header (base64 x402 v2 PaymentRequired) and JSON body accepts[]\n  network: 'eip155:8453 (Base)'\n  asset: USDC 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913\n  facilitator: https://api.cdp.coinbase.com/platform/v2/x402 (CDP)\n  applies_to: POST /route, /tip, /ask, /agent/score, /onchain-x402/address, /hyperliquid/*, /polymarket/*, /kalshi/*, /kalshi-polymarket/spread, /predmarket/spread,\
   \ /narrative/divergence, /uniswap/*\n  description: >-\n    The client signs an EIP-3009 transferWithAuthorization for the quoted amount and retries with X-PAYMENT; the\n    facilitator verifies and settles, then the handler runs. Over A2A the same payment can be carried by prefixing\n    the message text with `x402:<signed-payment>` (card extension description).\n  observed: {url: https://graphadvocate.com/route, http_status: 402, fetched: '2026-09-19'}\n  sources: [agent card capabilities.extensions, docs x402 page, live 402]\n- name: identified-sender\n  type: self-asserted-identity\n  location: A2A request `params.metadata.sender` (or `address`) — a 42-char 0x EVM address\n  description: >-\n    Not a credential. Presence of a wallet address in message metadata claims the 3/day free routing allowance;\n    the provider notes a bare `name` no longer qualifies because rotating names minted unlimited free buckets.\n    Nothing is verified about the address at request time; abuse is bounded\
   \ by the quota.\n  sources: [capabilities.json pricing.free_tier_how, llms.txt, quickstart]\n- name: admin-bearer\n  type: http\n  scheme: bearer\n  applies_to: GET /quality, GET /export/stats, POST /admin/outreach-pay\n  description: Operator-only endpoints require Authorization Bearer <ADMIN_TOKEN>. Not available to the public and not in the OpenAPI; recorded so no one mistakes it for a customer auth path.\n  sources: [llms.txt, docs x402 page]\ndownstream_keys_the_router_hands_you:\n  note: >-\n    Responses often include a curl for The Graph gateway; running THAT needs the caller's own free Graph API key\n    (thegraph.com/studio, 100K queries/month) or Token API JWT (thegraph.market). Those are third-party\n    credentials for The Graph, not Graph Advocate credentials.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/authentication/graphadvocate-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/graphadvocate-com/authentication/graphadvocate-com-authentication.yml
 summary_line: none/x402-payment · 4 schemes
 tags:
 - Blockchain

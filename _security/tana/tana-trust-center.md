@@ -5,7 +5,7 @@ api_specs:
   label: Tana AddToNodeV2 API
   slug: tana-addtonodev2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tana/refs/heads/main/openapi/tana-addtonodev2-api-openapi.yml
+  url: https://artifacts.apis.io/tana/openapi/tana-addtonodev2-api-openapi.yml
 certification_count: 0
 certifications: []
 description: ''
@@ -21,7 +21,7 @@ source_filename: tana-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nsource: https://trust.tana.inc/\nurl: https://trust.tana.inc/\nevidence:\n- source: https://trust.tana.inc/\n  keywords:\n  - trust center\n  - compliance certification\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tana/refs/heads/main/security/tana-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/tana/security/tana-trust-center.yml
 summary_line: trust center published
 tags:
 - Company

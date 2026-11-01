@@ -8,31 +8,31 @@ api_specs:
   label: Tether API Keys API
   slug: tether-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tether/refs/heads/main/openapi/tether-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/tether/openapi/tether-api-keys-api-openapi.yml
 - filename: tether-chains-api-openapi.yml
   format: yaml
   label: Tether Chains API
   slug: tether-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tether/refs/heads/main/openapi/tether-chains-api-openapi.yml
+  url: https://artifacts.apis.io/tether/openapi/tether-chains-api-openapi.yml
 - filename: tether-health-api-openapi.yml
   format: yaml
   label: Tether Health API
   slug: tether-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tether/refs/heads/main/openapi/tether-health-api-openapi.yml
+  url: https://artifacts.apis.io/tether/openapi/tether-health-api-openapi.yml
 - filename: tether-token-balances-api-openapi.yml
   format: yaml
   label: Tether Token Balances API
   slug: tether-token-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tether/refs/heads/main/openapi/tether-token-balances-api-openapi.yml
+  url: https://artifacts.apis.io/tether/openapi/tether-token-balances-api-openapi.yml
 - filename: tether-token-transfers-api-openapi.yml
   format: yaml
   label: Tether Token Transfers API
   slug: tether-token-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tether/refs/heads/main/openapi/tether-token-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/tether/openapi/tether-token-transfers-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-08-05'\nmethod: searched\nsource: openapi/tether-
   \    note: Returns the plaintext key ONCE, plus its hashedKey, owner, ttl, label,\n      createdAt and lastActive.\n  - operationId: listApiKeys\n    method: GET\n    path: /api/v1/keys\n    note: >-\n      Also returns the key's own rate-limit budget as `max` and `timeWindow` — the\n      only runtime path to that figure, since no RateLimit-* headers are sent.\n  - operationId: deleteApiKey\n    method: DELETE\n    path: /api/v1/keys/{hashedKey}\n    note: Keys are revoked by HASH, so a revocation script never handles plaintext.\n  expiry:\n    field: ttl\n    unit: milliseconds\n    no_expiry_value: 0\nunauthenticated_operations:\n- operationId: getHealth\n  path: GET /api/v1/health\n- operationId: listChains\n  path: GET /api/v1/chains\nfailure_semantics:\n  '401': Unauthorized — API key EXPIRED.\n  '403': Forbidden — API key MISSING or INVALID.\n  x-note: >-\n    Inverted relative to the common convention, where a missing credential is 401.\n    Rotation logic must trigger on 401,\
   \ not 403.\nsdk_and_agent_auth:\n  x-note: >-\n    The WDK SDK, CLI and MCP Toolkit do not authenticate to Tether at all — they are\n    self-custodial and authenticate to CHAINS with a locally held BIP-39 seed. The\n    only Tether credential in that stack is the optional Indexer API key passed to\n    `useIndexer({ apiKey })`, plus an optional MoonPay key for the fiat modules.\n  secret_handling_published:\n  - Seed phrases stay local; `close()` wipes keys from memory.\n  - Read and write tool sets are separable so an operator can grant read-only access.\n  - Docs mandate a dedicated development wallet with limited funds.\n  - '@tetherto/wdk-secret-manager generates, encrypts and manages seeds.'\n  - '@tetherto/wdk-react-native-secure-storage backs mobile secret storage.'\n  security_model_doc: https://docs.wdk.tether.io/cli/reference/security-model\nx-evidence:\n  fetched: '2026-08-05'\n  urls:\n  - url: https://wdk-api.tether.io/docs/json\n    http_status: 200\n  - url: https://docs.wdk.tether.io/tools/indexer-api/api-reference\n\
   \    http_status: 200\n  - url: https://docs.wdk.tether.io/tools/indexer-api/get-started\n    http_status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tether/refs/heads/main/authentication/tether-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tether/authentication/tether-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

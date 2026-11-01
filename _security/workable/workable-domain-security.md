@@ -5,97 +5,97 @@ api_specs:
   label: Workable Accounts API
   slug: workable-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/workable/openapi/workable-accounts-api-openapi.yml
 - filename: workable-candidates-api-openapi.yml
   format: yaml
   label: Workable Candidates API
   slug: workable-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-candidates-api-openapi.yml
+  url: https://artifacts.apis.io/workable/openapi/workable-candidates-api-openapi.yml
 - filename: workable-departments-api-openapi.yml
   format: yaml
   label: Workable Departments API
   slug: workable-departments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-departments-api-openapi.yml
+  url: https://artifacts.apis.io/workable/openapi/workable-departments-api-openapi.yml
 - filename: workable-employees-api-openapi.yml
   format: yaml
   label: Workable Employees API
   slug: workable-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-employees-api-openapi.yml
+  url: https://artifacts.apis.io/workable/openapi/workable-employees-api-openapi.yml
 - filename: workable-events-api-openapi.yml
   format: yaml
   label: Workable Events API
   slug: workable-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-events-api-openapi.yml
+  url: https://artifacts.apis.io/workable/openapi/workable-events-api-openapi.yml
 - filename: workable-jobs-api-openapi.yml
   format: yaml
   label: Workable Jobs API
   slug: workable-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/workable/openapi/workable-jobs-api-openapi.yml
 - filename: workable-members-api-openapi.yml
   format: yaml
   label: Workable Members API
   slug: workable-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-members-api-openapi.yml
+  url: https://artifacts.apis.io/workable/openapi/workable-members-api-openapi.yml
 - filename: workable-offers-api-openapi.yml
   format: yaml
   label: Workable Offers API
   slug: workable-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-offers-api-openapi.yml
+  url: https://artifacts.apis.io/workable/openapi/workable-offers-api-openapi.yml
 - filename: workable-recruiters-api-openapi.yml
   format: yaml
   label: Workable Recruiters API
   slug: workable-recruiters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-recruiters-api-openapi.yml
+  url: https://artifacts.apis.io/workable/openapi/workable-recruiters-api-openapi.yml
 - filename: workable-requisitions-api-openapi.yml
   format: yaml
   label: Workable Requisitions API
   slug: workable-requisitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-requisitions-api-openapi.yml
+  url: https://artifacts.apis.io/workable/openapi/workable-requisitions-api-openapi.yml
 - filename: workable-stages-api-openapi.yml
   format: yaml
   label: Workable Stages API
   slug: workable-stages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-stages-api-openapi.yml
+  url: https://artifacts.apis.io/workable/openapi/workable-stages-api-openapi.yml
 - filename: workable-subscriptions-api-openapi.yml
   format: yaml
   label: Workable Subscriptions API
   slug: workable-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/workable/openapi/workable-subscriptions-api-openapi.yml
 - filename: workable-custom-attributes-api-openapi.yml
   format: yaml
   label: Workable Custom Attributes API
   slug: workable-custom-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-custom-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/workable/openapi/workable-custom-attributes-api-openapi.yml
 - filename: workable-review-cycles-api-openapi.yml
   format: yaml
   label: Workable Review Cycles API
   slug: workable-review-cycles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-review-cycles-api-openapi.yml
+  url: https://artifacts.apis.io/workable/openapi/workable-review-cycles-api-openapi.yml
 - filename: workable-time-off-api-openapi.yml
   format: yaml
   label: Workable Time Off API
   slug: workable-time-off-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-time-off-api-openapi.yml
+  url: https://artifacts.apis.io/workable/openapi/workable-time-off-api-openapi.yml
 - filename: workable-time-tracking-api-openapi.yml
   format: yaml
   label: Workable Time Tracking API
   slug: workable-time-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-time-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/workable/openapi/workable-time-tracking-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -131,7 +131,7 @@ source_filename: workable-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.workable.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 15:26:25 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: workable.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 iodef \"mailto:security-transparency-logs@workable.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/security/workable-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/workable/security/workable-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Human Resources

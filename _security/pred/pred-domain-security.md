@@ -5,43 +5,43 @@ api_specs:
   label: Pred Authentication API
   slug: pred-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/openapi/pred-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/pred/openapi/pred-authentication-api-openapi.yml
 - filename: pred-market-discovery-api-openapi.yml
   format: yaml
   label: Pred Market Discovery API
   slug: pred-market-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/openapi/pred-market-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/pred/openapi/pred-market-discovery-api-openapi.yml
 - filename: pred-orders-api-openapi.yml
   format: yaml
   label: Pred Orders API
   slug: pred-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/openapi/pred-orders-api-openapi.yml
+  url: https://artifacts.apis.io/pred/openapi/pred-orders-api-openapi.yml
 - filename: pred-overview-api-openapi.yml
   format: yaml
   label: Pred Overview API
   slug: pred-overview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/openapi/pred-overview-api-openapi.yml
+  url: https://artifacts.apis.io/pred/openapi/pred-overview-api-openapi.yml
 - filename: pred-portfolio-api-openapi.yml
   format: yaml
   label: Pred Portfolio API
   slug: pred-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/openapi/pred-portfolio-api-openapi.yml
+  url: https://artifacts.apis.io/pred/openapi/pred-portfolio-api-openapi.yml
 - filename: pred-user-api-openapi.yml
   format: yaml
   label: Pred User API
   slug: pred-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/openapi/pred-user-api-openapi.yml
+  url: https://artifacts.apis.io/pred/openapi/pred-user-api-openapi.yml
 - filename: pred-websocket-api-openapi.yml
   format: yaml
   label: Pred WebSocket API
   slug: pred-websocket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/openapi/pred-websocket-api-openapi.yml
+  url: https://artifacts.apis.io/pred/openapi/pred-websocket-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -87,7 +87,7 @@ source_filename: pred-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.pred.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 18 23:59:59 2027 GMT\n  hsts: null\n- host: pred-1.gitbook.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 19:03:12 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: testnet.pred.app\n  https: false\ndomains:\n- domain: pred.app\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \";\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: gitbook.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/security/pred-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pred/security/pred-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

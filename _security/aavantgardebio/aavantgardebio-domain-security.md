@@ -38,7 +38,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: >-\n  Live DNS/TLS/HTTP probes of the hosts this record knows on 2026-09-05. AAVantgarde\n  publishes no API, so the only hosts in scope are the corporate site and its\n  registrable domain; api./developer./docs./status./trust. subdomains all NXDOMAIN.\nnote: >-\n  The origin sits behind Cloudflare and answered our probe IP with HTTP 403 \"Sorry, you\n  have been blocked\" on most HTML paths, so header values below were read from the\n  response headers Cloudflare still returned (HSTS is set on the 403 as well as on the\n  200 homepage). /.well-known/* paths were served normally.\nhosts:\n- host: www.aavantgarde.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 22:33:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  hsts_preload: true\n  x_content_type_options: nosniff\n  x_frame_options: SAMEORIGIN\n  referrer_policy: same-origin\n  content_security_policy: true\n  csp_note:\
   \ >-\n    CSP is present but permissive — default-src *, script-src 'self' 'unsafe-inline'\n    'unsafe-eval' *.\n  edge: cloudflare\ndomains:\n- domain: aavantgarde.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n  dmarc_note: >-\n    DMARC record published but policy is p=none — monitoring only, no enforcement\n    against spoofed mail.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aavantgardebio/refs/heads/main/security/aavantgardebio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aavantgardebio/security/aavantgardebio-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

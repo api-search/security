@@ -5,37 +5,37 @@ api_specs:
   label: DMarket Account API
   slug: dmarket-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dmarket/refs/heads/main/openapi/dmarket-account-api-openapi.yml
+  url: https://artifacts.apis.io/dmarket/openapi/dmarket-account-api-openapi.yml
 - filename: dmarket-aggregator-api-openapi.yml
   format: yaml
   label: DMarket Aggregator API
   slug: dmarket-aggregator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dmarket/refs/heads/main/openapi/dmarket-aggregator-api-openapi.yml
+  url: https://artifacts.apis.io/dmarket/openapi/dmarket-aggregator-api-openapi.yml
 - filename: dmarket-buy-items-api-openapi.yml
   format: yaml
   label: DMarket Buy items API
   slug: dmarket-buy-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dmarket/refs/heads/main/openapi/dmarket-buy-items-api-openapi.yml
+  url: https://artifacts.apis.io/dmarket/openapi/dmarket-buy-items-api-openapi.yml
 - filename: dmarket-inventory-items-api-openapi.yml
   format: yaml
   label: DMarket Inventory/items API
   slug: dmarket-inventory-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dmarket/refs/heads/main/openapi/dmarket-inventory-items-api-openapi.yml
+  url: https://artifacts.apis.io/dmarket/openapi/dmarket-inventory-items-api-openapi.yml
 - filename: dmarket-sell-items-api-openapi.yml
   format: yaml
   label: DMarket Sell Items API
   slug: dmarket-sell-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dmarket/refs/heads/main/openapi/dmarket-sell-items-api-openapi.yml
+  url: https://artifacts.apis.io/dmarket/openapi/dmarket-sell-items-api-openapi.yml
 - filename: dmarket-sold-user-items-api-openapi.yml
   format: yaml
   label: DMarket Sold user items API
   slug: dmarket-sold-user-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dmarket/refs/heads/main/openapi/dmarket-sold-user-items-api-openapi.yml
+  url: https://artifacts.apis.io/dmarket/openapi/dmarket-sold-user-items-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: dmarket-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dmarket.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 11:38:36 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.dmarket.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 16:18:33 2026 GMT\n  hsts: null\ndomains:\n- domain: dmarket.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dmarket/refs/heads/main/security/dmarket-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dmarket/security/dmarket-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

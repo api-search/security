@@ -8,7 +8,7 @@ api_specs:
   label: Messaging API Messages API
   slug: messaging-api-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messaging-api/refs/heads/main/openapi/messaging-api-messages-api-openapi.yml
+  url: https://artifacts.apis.io/messaging-api/openapi/messaging-api-messages-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -35,7 +35,7 @@ source_filename: messaging-api-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/messaging-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeys\n  type: apiKey\n  in: header\n  parameter: api-key\n  sources:\n  - openapi/messaging-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/messaging-api/refs/heads/main/authentication/messaging-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/messaging-api/authentication/messaging-api-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - API Pattern

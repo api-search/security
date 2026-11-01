@@ -8,19 +8,19 @@ api_specs:
   label: Reflect Execution API
   slug: reflect-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reflect/refs/heads/main/openapi/reflect-execution-api-openapi.yml
+  url: https://artifacts.apis.io/reflect/openapi/reflect-execution-api-openapi.yml
 - filename: reflect-executions-api-openapi.yml
   format: yaml
   label: Reflect Executions API
   slug: reflect-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reflect/refs/heads/main/openapi/reflect-executions-api-openapi.yml
+  url: https://artifacts.apis.io/reflect/openapi/reflect-executions-api-openapi.yml
 - filename: reflect-tests-api-openapi.yml
   format: yaml
   label: Reflect Tests API
   slug: reflect-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reflect/refs/heads/main/openapi/reflect-tests-api-openapi.yml
+  url: https://artifacts.apis.io/reflect/openapi/reflect-tests-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -47,7 +47,7 @@ source_filename: reflect-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/reflect-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-KEY\n  sources:\n  - openapi/reflect-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reflect/refs/heads/main/authentication/reflect-authentication.yml
+source_yaml_url: https://artifacts.apis.io/reflect/authentication/reflect-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - AI Testing

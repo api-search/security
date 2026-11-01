@@ -5,31 +5,49 @@ api_specs:
   label: Amazon Textract Async Operations API
   slug: amazon-textract-async-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-textract/refs/heads/main/openapi/amazon-textract-async-operations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-textract/openapi/amazon-textract-async-operations-api-openapi.yml
 - filename: amazon-textract-document-analysis-api-openapi.yml
   format: yaml
   label: Amazon Textract Document Analysis API
   slug: amazon-textract-document-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-textract/refs/heads/main/openapi/amazon-textract-document-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-textract/openapi/amazon-textract-document-analysis-api-openapi.yml
 - filename: amazon-textract-expense-analysis-api-openapi.yml
   format: yaml
   label: Amazon Textract Expense Analysis API
   slug: amazon-textract-expense-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-textract/refs/heads/main/openapi/amazon-textract-expense-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-textract/openapi/amazon-textract-expense-analysis-api-openapi.yml
 - filename: amazon-textract-id-analysis-api-openapi.yml
   format: yaml
   label: Amazon Textract ID Analysis API
   slug: amazon-textract-id-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-textract/refs/heads/main/openapi/amazon-textract-id-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-textract/openapi/amazon-textract-id-analysis-api-openapi.yml
 - filename: amazon-textract-text-detection-api-openapi.yml
   format: yaml
   label: Amazon Textract Text Detection API
   slug: amazon-textract-text-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-textract/refs/heads/main/openapi/amazon-textract-text-detection-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-textract/openapi/amazon-textract-text-detection-api-openapi.yml
+- filename: amazon-textract-adapter-api-openapi.yml
+  format: yaml
+  label: Amazon Textract Textract Adapter API
+  slug: amazon-textract-adapter-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-textract/openapi/amazon-textract-adapter-api-openapi.yml
+- filename: amazon-textract-adapter-version-api-openapi.yml
+  format: yaml
+  label: Amazon Textract Textract Adapter Version API
+  slug: amazon-textract-adapter-version-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-textract/openapi/amazon-textract-adapter-version-api-openapi.yml
+- filename: amazon-textract-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Textract Textract Operations API
+  slug: amazon-textract-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-textract/openapi/amazon-textract-operations-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -50,7 +68,7 @@ source_filename: amazon-textract-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://aws.amazon.com/compliance/\nurl: https://aws.amazon.com/compliance/\ncertifications:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://aws.amazon.com/compliance/\n  keywords:\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-textract/refs/heads/main/security/amazon-textract-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/amazon-textract/security/amazon-textract-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Document Processing

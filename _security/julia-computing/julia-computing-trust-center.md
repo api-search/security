@@ -19,7 +19,7 @@ source_filename: julia-computing-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nprobe: true\nurl: https://trust.juliahub.com/\ncertifications: [SOC 2, SOC 3, PCI DSS, GDPR, CCPA]\ndocuments:\n  - name: \"JuliaHub, Inc. SOC 3 Type 2 Report 2025\"\n    type: pdf\nevidence:\n  - source: https://trust.juliahub.com/\n    keywords: [soc 2, soc 3 type 2, pci dss, gdpr, ccpa, trust center]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/julia-computing/refs/heads/main/security/julia-computing-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/julia-computing/security/julia-computing-trust-center.yml
 summary_line: SOC 2, SOC 3, PCI DSS, GDPR, CCPA
 tags:
 - Company

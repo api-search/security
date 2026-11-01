@@ -8,31 +8,31 @@ api_specs:
   label: Dentsply Sirona Devices API
   slug: dentsply-sirona-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/openapi/dentsply-sirona-devices-api-openapi.yml
+  url: https://artifacts.apis.io/dentsply-sirona/openapi/dentsply-sirona-devices-api-openapi.yml
 - filename: dentsply-sirona-exposures-api-openapi.yml
   format: yaml
   label: Dentsply Sirona Exposures API
   slug: dentsply-sirona-exposures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/openapi/dentsply-sirona-exposures-api-openapi.yml
+  url: https://artifacts.apis.io/dentsply-sirona/openapi/dentsply-sirona-exposures-api-openapi.yml
 - filename: dentsply-sirona-filters-api-openapi.yml
   format: yaml
   label: Dentsply Sirona Filters API
   slug: dentsply-sirona-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/openapi/dentsply-sirona-filters-api-openapi.yml
+  url: https://artifacts.apis.io/dentsply-sirona/openapi/dentsply-sirona-filters-api-openapi.yml
 - filename: dentsply-sirona-generators-api-openapi.yml
   format: yaml
   label: Dentsply Sirona Generators API
   slug: dentsply-sirona-generators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/openapi/dentsply-sirona-generators-api-openapi.yml
+  url: https://artifacts.apis.io/dentsply-sirona/openapi/dentsply-sirona-generators-api-openapi.yml
 - filename: dentsply-sirona-images-api-openapi.yml
   format: yaml
   label: Dentsply Sirona Images API
   slug: dentsply-sirona-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/openapi/dentsply-sirona-images-api-openapi.yml
+  url: https://artifacts.apis.io/dentsply-sirona/openapi/dentsply-sirona-images-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -71,7 +71,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: searched\nsource: openapi/dentsply-sirona-intraoral-exposure-openapi.yml, openapi/dentsply-sirona-intraoral-modality-openapi.yml\ndocs: https://github.com/dsimaging/dsio-modality-api/wiki/Authentication\nnotes: >-\n  Derived from the three first-party OpenAPI documents Dentsply Sirona Imaging publishes on\n  GitHub, then upgraded from the Modality API wiki authentication page. The DS Core cloud API\n  (api.dscore.com) publishes no public authentication documentation — open.dscore.com requires a\n  partner account before any reference is reachable — so no DS Core scheme is recorded here.\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\n  oauth2_flows: []\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/dentsply-sirona-intraoral-modality-openapi.yml\n  docs: https://github.com/dsimaging/dsio-modality-api/wiki/Authentication\n  description: >-\n    HTTP Basic. The provider's wiki states:\
   \ \"Authenticated requests for the Dentsply Sirona\n    Intraoral Modality API follow the Basic authentication method\" and \"Use of the Dentsply Sirona\n    Intraoral Modality API requires an API key. The API key serves as the password and, with the\n    user name, provides the necessary credentials.\"\n  credential_issuance: >-\n    \"Application developers who have been approved for use with this API will obtain their API key\n    directly from Dentsply Sirona.\" There is no self-service key issuance.\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  sources:\n  - openapi/dentsply-sirona-intraoral-exposure-openapi.yml\n  description: >-\n    Applied globally by the Intraoral Exposure API spec (top-level `security: [ApiKeyAuth]`).\n    That document is a protocol specification for X-ray generator vendors to implement, so the key\n    is issued by whoever operates the generator service, not by Dentsply Sirona.\nunauthenticated_surfaces:\n- openapi/dentsply-sirona-intraoral-filters-openapi.yml\
   \ declares no securitySchemes; the Filters\n  API is a loopback service on the same workstation as the Modality service.\ngaps:\n- DS Core API (https://api.dscore.com) authentication is not publicly documented; the reference is\n  behind the open.dscore.com partner login.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/authentication/dentsply-sirona-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dentsply-sirona/authentication/dentsply-sirona-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - CAD/CAM

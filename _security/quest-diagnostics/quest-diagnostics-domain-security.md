@@ -34,7 +34,7 @@ source_filename: quest-diagnostics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.questdiagnostics.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar 27 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: questdiagnostics.com\n  dnssec: false\n  caa:\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"digicert.com; account=97d8cb21ded856f534dc92b1c92f5916fa401221a6e28bf2d05e743d2fdb2455\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quest-diagnostics/refs/heads/main/security/quest-diagnostics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/quest-diagnostics/security/quest-diagnostics-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Diagnostics

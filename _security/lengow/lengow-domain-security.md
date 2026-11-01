@@ -5,25 +5,25 @@ api_specs:
   label: Lengow Authentication API
   slug: lengow-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/openapi/lengow-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/lengow/openapi/lengow-authentication-api-openapi.yml
 - filename: lengow-catalogues-api-openapi.yml
   format: yaml
   label: Lengow Catalogues API
   slug: lengow-catalogues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/openapi/lengow-catalogues-api-openapi.yml
+  url: https://artifacts.apis.io/lengow/openapi/lengow-catalogues-api-openapi.yml
 - filename: lengow-marketplaces-api-openapi.yml
   format: yaml
   label: Lengow Marketplaces API
   slug: lengow-marketplaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/openapi/lengow-marketplaces-api-openapi.yml
+  url: https://artifacts.apis.io/lengow/openapi/lengow-marketplaces-api-openapi.yml
 - filename: lengow-rate-limits-api-openapi.yml
   format: yaml
   label: Lengow Rate limits API
   slug: lengow-rate-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/openapi/lengow-rate-limits-api-openapi.yml
+  url: https://artifacts.apis.io/lengow/openapi/lengow-rate-limits-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -74,7 +74,7 @@ source_filename: lengow-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.lengow.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 02:27:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.lengow.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:18:25 2026 GMT\n  hsts: null\ndomains:\n- domain: lengow.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issue \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: lengow.io\n  dnssec: false\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issuewild \"pki.goog\"\n  - 0 issue \"amazonaws.com\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/security/lengow-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lengow/security/lengow-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

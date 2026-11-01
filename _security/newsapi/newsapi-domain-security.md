@@ -5,19 +5,19 @@ api_specs:
   label: NewsAPI Everything API
   slug: newsapi-everything-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newsapi/refs/heads/main/openapi/newsapi-everything-api-openapi.yml
+  url: https://artifacts.apis.io/newsapi/openapi/newsapi-everything-api-openapi.yml
 - filename: newsapi-sources-api-openapi.yml
   format: yaml
   label: NewsAPI Sources API
   slug: newsapi-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newsapi/refs/heads/main/openapi/newsapi-sources-api-openapi.yml
+  url: https://artifacts.apis.io/newsapi/openapi/newsapi-sources-api-openapi.yml
 - filename: newsapi-top-headlines-api-openapi.yml
   format: yaml
   label: NewsAPI Top Headlines API
   slug: newsapi-top-headlines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newsapi/refs/heads/main/openapi/newsapi-top-headlines-api-openapi.yml
+  url: https://artifacts.apis.io/newsapi/openapi/newsapi-top-headlines-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -51,7 +51,7 @@ source_filename: newsapi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: newsapi.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: newsapi.org\n  dnssec: false\n  caa:\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/newsapi/refs/heads/main/security/newsapi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/newsapi/security/newsapi-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - News

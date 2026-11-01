@@ -5,25 +5,25 @@ api_specs:
   label: Geidea Checkout API
   slug: geidea-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geidea/refs/heads/main/openapi/geidea-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/geidea/openapi/geidea-checkout-api-openapi.yml
 - filename: geidea-direct-api-api-openapi.yml
   format: yaml
   label: Geidea Direct API
   slug: geidea-direct-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geidea/refs/heads/main/openapi/geidea-direct-api-api-openapi.yml
+  url: https://artifacts.apis.io/geidea/openapi/geidea-direct-api-api-openapi.yml
 - filename: geidea-tokenization-api-openapi.yml
   format: yaml
   label: Geidea Tokenization API
   slug: geidea-tokenization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geidea/refs/heads/main/openapi/geidea-tokenization-api-openapi.yml
+  url: https://artifacts.apis.io/geidea/openapi/geidea-tokenization-api-openapi.yml
 - filename: geidea-transaction-management-api-openapi.yml
   format: yaml
   label: Geidea Transaction Management API
   slug: geidea-transaction-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geidea/refs/heads/main/openapi/geidea-transaction-management-api-openapi.yml
+  url: https://artifacts.apis.io/geidea/openapi/geidea-transaction-management-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -100,7 +100,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: geidea.net\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: DigiCert Global G2 TLS RSA SHA256 2020 CA1\n  cert_subject_o: GEIDEA TECHNOLOGY COMPANY\n  cert_expires: Oct 28 23:59:59 2026 GMT\n  http_status: 302\n  hsts: false\n- host: docs.geidea.net\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: Google Trust Services WE1\n  cert_expires: Oct  3 05:29:39 2026 GMT\n  http_status: 302\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.ksamerchant.geidea.net\n  https: true\n  tls_version: TLSv1.2\n  cert_issuer: DigiCert Global G2 TLS RSA SHA256 2020 CA1\n  cert_subject_o: GEIDEA TECHNOLOGY COMPANY\n  cert_expires: Mar 10 23:59:59 2027 GMT\n  http_status: 401\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n- host: api.merchant.geidea.net\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: DigiCert Global G2 TLS RSA SHA256\
   \ 2020 CA1\n  cert_subject_o: GEIDEA TECHNOLOGY COMPANY\n  cert_expires: Oct 28 23:59:59 2026 GMT\n  http_status: 401\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n- host: api.geidea.ae\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: DigiCert Global G2 TLS RSA SHA256 2020 CA1\n  cert_subject_o: GEIDEA TECHNOLOGY COMPANY\n  cert_expires: Jan 18 23:59:59 2027 GMT\n  http_status: 204\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  hsts_preload: true\ndomains:\n- domain: geidea.net\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: v=spf1 ip4:193.122.85.214 ip4:178.20.148.109 ip4:176.241.190.146 -all\n  dmarc: true\n  dmarc_policy: reject\n- domain: geidea.ae\n  dmarc: true\n  dmarc_policy: reject\nnotes: >-\n  All API hosts serve HTTPS with valid DigiCert certificates and enforce HSTS with\n  includeSubDomains; api.geidea.ae additionally sets preload. The unauthenticated\n  API hosts correctly return 401 (KSA, Egypt) or 204\
   \ (UAE ping) without credentials.\n  geidea.net root did not present an HSTS header on its redirect at probe time and\n  no CAA records were observed for geidea.net. api.ksamerchant.geidea.net negotiated\n  TLS 1.2 while the other hosts negotiated TLS 1.3.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/geidea/refs/heads/main/security/geidea-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/geidea/security/geidea-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments

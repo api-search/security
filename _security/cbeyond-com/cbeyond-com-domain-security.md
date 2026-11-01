@@ -23,7 +23,7 @@ source_filename: cbeyond-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cbeyond.com\n  https: false\ndomains:\n- domain: cbeyond.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cbeyond-com/refs/heads/main/security/cbeyond-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cbeyond-com/security/cbeyond-com-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

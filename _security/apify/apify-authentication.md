@@ -7,37 +7,37 @@ api_specs:
   label: Apify Actor Runs API
   slug: apify-actor-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apify/refs/heads/main/openapi/apify-actor-runs-api-openapi.yml
+  url: https://artifacts.apis.io/apify/openapi/apify-actor-runs-api-openapi.yml
 - filename: apify-actors-api-openapi.yml
   format: yaml
   label: Apify Actors API
   slug: apify-actors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apify/refs/heads/main/openapi/apify-actors-api-openapi.yml
+  url: https://artifacts.apis.io/apify/openapi/apify-actors-api-openapi.yml
 - filename: apify-datasets-api-openapi.yml
   format: yaml
   label: Apify Datasets API
   slug: apify-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apify/refs/heads/main/openapi/apify-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/apify/openapi/apify-datasets-api-openapi.yml
 - filename: apify-key-value-stores-api-openapi.yml
   format: yaml
   label: Apify Key-Value Stores API
   slug: apify-key-value-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apify/refs/heads/main/openapi/apify-key-value-stores-api-openapi.yml
+  url: https://artifacts.apis.io/apify/openapi/apify-key-value-stores-api-openapi.yml
 - filename: apify-request-queues-api-openapi.yml
   format: yaml
   label: Apify Request Queues API
   slug: apify-request-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apify/refs/heads/main/openapi/apify-request-queues-api-openapi.yml
+  url: https://artifacts.apis.io/apify/openapi/apify-request-queues-api-openapi.yml
 - filename: apify-users-api-openapi.yml
   format: yaml
   label: Apify Users API
   slug: apify-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apify/refs/heads/main/openapi/apify-users-api-openapi.yml
+  url: https://artifacts.apis.io/apify/openapi/apify-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +64,7 @@ source_filename: apify-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/apify-api.yaml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token from Apify console Settings > Integrations.\n  sources:\n  - openapi/apify-api.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apify/refs/heads/main/authentication/apify-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apify/authentication/apify-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Actors
@@ -72,6 +72,5 @@ tags:
 - Crawling
 - Data Aggregation
 - Data Extraction
-- Web Automation
 - Web Scraping
 ---

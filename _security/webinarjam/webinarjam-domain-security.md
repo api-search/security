@@ -38,7 +38,7 @@ source_filename: webinarjam-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.webinarjam.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 13:19:20 2026 GMT\n  hsts: false\n- host: documentation.webinarjam.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 17:58:33 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.webinarjam.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 18:06:57 2026 GMT\n  hsts: null\ndomains:\n- domain: webinarjam.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/webinarjam/refs/heads/main/security/webinarjam-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/webinarjam/security/webinarjam-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Webinars

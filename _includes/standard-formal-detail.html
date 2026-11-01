@@ -48,10 +48,23 @@
     {% if s.year_created %}<div class="fs-fact"><b>{{ s.year_created }}</b><span>First published</span></div>{% endif %}
     {% if s.current_version %}<div class="fs-fact"><b>{{ s.current_version | truncate: 40 }}</b><span>Current version</span></div>{% endif %}
     {% if s.machine_readable_schema %}<div class="fs-fact"><b>{{ s.machine_readable_schema | truncate: 40 }}</b><span>Machine-readable schema{% if s.schema_access %} &middot; {{ s.schema_access }}{% endif %}</span></div>{% endif %}
-    <div class="fs-fact"><b>{{ s.provider_count }}</b><span>providers in the catalog</span></div>
+    {% assign ev = site.data.standard_evidence[s.slug] %}
+    {% if ev %}<div class="fs-fact"><b>{{ ev.count }}</b><span>measured implementing it</span></div>{% endif %}
+    <div class="fs-fact"><b>{{ s.provider_count }}</b><span>tagged with it</span></div>
   </div>
   {% if s.alternative_names.size > 0 %}<p class="fs-desc" style="font-size:0.85rem;color:#64748b;">Also known as {{ s.alternative_names | join: ', ' }}.</p>{% endif %}
 </div>
+
+{% if ev %}
+<div class="fs-section" id="measured">
+  <h2>Measured implementing {{ s.name }} <span style="font-weight:400;color:#64748b;">{{ ev.count }}</span></h2>
+  <p style="font-size:0.9rem;color:#4a5568;">These providers were <strong>observed</strong>, not self-declared: they {{ ev.sentence }}. {% if ev.source == 'probe' %}Probed {{ ev.measured_at }} across {{ ev.denominator }} reachable provider websites; a hit is a document of the right shape, not just a 200. <a href="/standards/measurements/">Method and open data</a>.{% elsif ev.source == 'contract' %}Read from the API contracts each provider publishes in the catalog, as of {{ ev.measured_at }}.{% elsif ev.dimension_url %}Read from each provider's <a href="https://apis.io{{ ev.dimension_url }}">Kin Score agent-readiness grade</a>.{% endif %}{% if ev.count > ev.providers.size %} The top {{ ev.providers.size }} of {{ ev.count }} are shown{% if ev.more %}; <a href="https://apis.io{{ ev.more }}">the full section</a> lists them all{% endif %}.{% endif %}</p>
+  <p class="fs-chips">{% for g in ev.grades %}<span class="fs-band" style="margin-right:0.75rem;">{{ g.grade }} · {{ g.count }}</span>{% endfor %}</p>
+  <div class="fs-prov">
+    {% for p in ev.providers %}<a href="https://apis.io/providers/{{ p.slug }}/"{% if p.note %} title="{{ p.note }}"{% endif %}><span>{{ p.name }}</span><span class="fs-band">{{ p.grade }}</span></a>{% endfor %}
+  </div>
+</div>
+{% endif %}
 
 <div class="fs-section" id="providers">
   <h2>Providers that carry {{ s.name }} <span style="font-weight:400;color:#64748b;">{{ s.provider_count }}</span></h2>

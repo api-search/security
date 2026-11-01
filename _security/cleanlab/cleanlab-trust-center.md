@@ -5,19 +5,19 @@ api_specs:
   label: Cleanlab Codex API
   slug: cleanlab-codex-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cleanlab/refs/heads/main/openapi/cleanlab-codex-api-openapi.yml
+  url: https://artifacts.apis.io/cleanlab/openapi/cleanlab-codex-api-openapi.yml
 - filename: cleanlab-studio-api-openapi.yml
   format: yaml
   label: Cleanlab Studio API
   slug: cleanlab-studio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cleanlab/refs/heads/main/openapi/cleanlab-studio-api-openapi.yml
+  url: https://artifacts.apis.io/cleanlab/openapi/cleanlab-studio-api-openapi.yml
 - filename: cleanlab-tlm-api-openapi.yml
   format: yaml
   label: Cleanlab TLM API
   slug: cleanlab-tlm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cleanlab/refs/heads/main/openapi/cleanlab-tlm-api-openapi.yml
+  url: https://artifacts.apis.io/cleanlab/openapi/cleanlab-tlm-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2
@@ -34,7 +34,7 @@ source_filename: cleanlab-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://cleanlab.ai/trust/\nurl: https://cleanlab.ai/trust/\ncertifications:\n- SOC 2\nevidence:\n- source: https://cleanlab.ai/trust/\n  keywords:\n  - soc 2\n  - compliance certification\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cleanlab/refs/heads/main/security/cleanlab-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/cleanlab/security/cleanlab-trust-center.yml
 summary_line: SOC 2
 tags:
 - Artificial Intelligence

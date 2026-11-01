@@ -26,7 +26,7 @@ source_filename: zhaohu365-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: zhaohu365.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 16 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: zhaohu365.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zhaohu365/refs/heads/main/security/zhaohu365-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zhaohu365/security/zhaohu365-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

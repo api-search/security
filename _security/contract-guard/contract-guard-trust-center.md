@@ -17,7 +17,7 @@ source_filename: contract-guard-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-02'\nmethod: searched\nprobe: true\nsource: https://trust.railway.com/\nurl: https://trust.railway.com/\ncertifications:\n- SOC 2\n- HIPAA\n- GDPR\nevidence:\n- source: https://trust.railway.com/\n  keywords:\n  - soc 2\n  - hipaa\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contract-guard/refs/heads/main/security/contract-guard-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/contract-guard/security/contract-guard-trust-center.yml
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - JSON Validation

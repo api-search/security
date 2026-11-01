@@ -8,19 +8,19 @@ api_specs:
   label: Rakuten Ichibagt API
   slug: rakuten-ichibagt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/openapi/rakuten-ichibagt-api-openapi.yml
+  url: https://artifacts.apis.io/rakuten/openapi/rakuten-ichibagt-api-openapi.yml
 - filename: rakuten-ichibams-api-openapi.yml
   format: yaml
   label: Rakuten Ichibams API
   slug: rakuten-ichibams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/openapi/rakuten-ichibams-api-openapi.yml
+  url: https://artifacts.apis.io/rakuten/openapi/rakuten-ichibams-api-openapi.yml
 - filename: rakuten-ichibaranking-api-openapi.yml
   format: yaml
   label: Rakuten Ichibaranking API
   slug: rakuten-ichibaranking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/openapi/rakuten-ichibaranking-api-openapi.yml
+  url: https://artifacts.apis.io/rakuten/openapi/rakuten-ichibaranking-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -55,7 +55,7 @@ source_filename: rakuten-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/rakuten-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: applicationId\n  type: apiKey\n  in: query\n  parameter: applicationId\n  description: Rakuten application ID (issued from the RWS developer console).\n  sources:\n  - openapi/rakuten-openapi.yml\n- name: accessKey\n  type: apiKey\n  in: query\n  parameter: accessKey\n  description: Rakuten RWS access key. May also be supplied as an HTTP header.\n  sources:\n  - openapi/rakuten-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/authentication/rakuten-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rakuten/authentication/rakuten-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - E-Commerce

@@ -7,31 +7,31 @@ api_specs:
   label: CivicPlus Request API
   slug: civicplus-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civicplus/refs/heads/main/openapi/civicplus-request-api-openapi.yml
+  url: https://artifacts.apis.io/civicplus/openapi/civicplus-request-api-openapi.yml
 - filename: civicplus-requests-response-format-api-openapi.yml
   format: yaml
   label: CivicPlus Requests.{response Format} API
   slug: civicplus-requests-response-format-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civicplus/refs/heads/main/openapi/civicplus-requests-response-format-api-openapi.yml
+  url: https://artifacts.apis.io/civicplus/openapi/civicplus-requests-response-format-api-openapi.yml
 - filename: civicplus-services-api-openapi.yml
   format: yaml
   label: CivicPlus Services API
   slug: civicplus-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civicplus/refs/heads/main/openapi/civicplus-services-api-openapi.yml
+  url: https://artifacts.apis.io/civicplus/openapi/civicplus-services-api-openapi.yml
 - filename: civicplus-services-response-format-api-openapi.yml
   format: yaml
   label: CivicPlus Services.{response Format} API
   slug: civicplus-services-response-format-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civicplus/refs/heads/main/openapi/civicplus-services-response-format-api-openapi.yml
+  url: https://artifacts.apis.io/civicplus/openapi/civicplus-services-response-format-api-openapi.yml
 - filename: civicplus-tokens-api-openapi.yml
   format: yaml
   label: CivicPlus Tokens API
   slug: civicplus-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civicplus/refs/heads/main/openapi/civicplus-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/civicplus/openapi/civicplus-tokens-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -77,7 +77,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://dev.seeclickfix.com/v2/overview/authentication/\ndocs: https://dev.seeclickfix.com/v2/overview/authentication/\nsummary:\n  types: [http, oauth2]\n  http_schemes: [bearer]\n  oauth2_flows: [authorizationCode]\nschemes:\n- name: PersonalAccessToken\n  type: http\n  scheme: bearer\n  description: >-\n    Token authentication for API access. A Personal Access Token (a Bearer\n    token) is created under Password & Security > Personal Access Token and\n    sent on every request as an Authorization header. Format:\n    \"Authorization: Bearer [token]\".\n  header: 'Authorization: Bearer [token]'\n  sources: [https://dev.seeclickfix.com/v2/overview/authentication/]\n- name: OAuth2\n  type: oauth2\n  description: >-\n    OAuth2 authorization code flow (RFC 6749, implemented with Doorkeeper) for\n    client applications used by multiple users where end-user credentials must\n    not be shared with the client. Applications must\
   \ be registered with\n    SeeClickFix (email request) to receive an application id and callback URI\n    before use.\n  flows:\n  - flow: authorizationCode\n    registration: manual (email SeeClickFix developer support to register an app)\n  sources: [https://dev.seeclickfix.com/v2/overview/authentication/]\n- name: api_key\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: >-\n    Query-parameter API key declared by the Open311 GeoReport v2 spec published\n    in the SeeClickFix GitHub org; applies to the Open311-compatible endpoint at\n    seeclickfix.com/open311.\n  sources: [openapi/civicplus-seeclickfix-open311-openapi-original.yml]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/civicplus/refs/heads/main/authentication/civicplus-authentication.yml
+source_yaml_url: https://artifacts.apis.io/civicplus/authentication/civicplus-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Company

@@ -5,31 +5,31 @@ api_specs:
   label: Vehicle Databases Maintenance API
   slug: vehicle-databases-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicle-databases/refs/heads/main/openapi/vehicle-databases-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/vehicle-databases/openapi/vehicle-databases-maintenance-api-openapi.yml
 - filename: vehicle-databases-recalls-api-openapi.yml
   format: yaml
   label: Vehicle Databases Recalls API
   slug: vehicle-databases-recalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicle-databases/refs/heads/main/openapi/vehicle-databases-recalls-api-openapi.yml
+  url: https://artifacts.apis.io/vehicle-databases/openapi/vehicle-databases-recalls-api-openapi.yml
 - filename: vehicle-databases-services-api-openapi.yml
   format: yaml
   label: Vehicle Databases Services API
   slug: vehicle-databases-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicle-databases/refs/heads/main/openapi/vehicle-databases-services-api-openapi.yml
+  url: https://artifacts.apis.io/vehicle-databases/openapi/vehicle-databases-services-api-openapi.yml
 - filename: vehicle-databases-tsbs-api-openapi.yml
   format: yaml
   label: Vehicle Databases TSBs API
   slug: vehicle-databases-tsbs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicle-databases/refs/heads/main/openapi/vehicle-databases-tsbs-api-openapi.yml
+  url: https://artifacts.apis.io/vehicle-databases/openapi/vehicle-databases-tsbs-api-openapi.yml
 - filename: vehicle-databases-vehicles-api-openapi.yml
   format: yaml
   label: Vehicle Databases Vehicles API
   slug: vehicle-databases-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicle-databases/refs/heads/main/openapi/vehicle-databases-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/vehicle-databases/openapi/vehicle-databases-vehicles-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: vehicle-databases-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: vehicledatabases.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 11:35:42 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.vehicledatabases.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 07:24:49 2026 GMT\n  hsts: null\ndomains:\n- domain: vehicledatabases.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vehicle-databases/refs/heads/main/security/vehicle-databases-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vehicle-databases/security/vehicle-databases-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Automotive

@@ -7,31 +7,31 @@ api_specs:
   label: Peking University Collections API
   slug: peking-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peking/refs/heads/main/openapi/peking-collections-api-openapi.yml
+  url: https://artifacts.apis.io/peking/openapi/peking-collections-api-openapi.yml
 - filename: peking-communities-api-openapi.yml
   format: yaml
   label: Peking University Communities API
   slug: peking-communities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peking/refs/heads/main/openapi/peking-communities-api-openapi.yml
+  url: https://artifacts.apis.io/peking/openapi/peking-communities-api-openapi.yml
 - filename: peking-harvesting-api-openapi.yml
   format: yaml
   label: Peking University Harvesting API
   slug: peking-harvesting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peking/refs/heads/main/openapi/peking-harvesting-api-openapi.yml
+  url: https://artifacts.apis.io/peking/openapi/peking-harvesting-api-openapi.yml
 - filename: peking-items-api-openapi.yml
   format: yaml
   label: Peking University Items API
   slug: peking-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peking/refs/heads/main/openapi/peking-items-api-openapi.yml
+  url: https://artifacts.apis.io/peking/openapi/peking-items-api-openapi.yml
 - filename: peking-status-api-openapi.yml
   format: yaml
   label: Peking University Status API
   slug: peking-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peking/refs/heads/main/openapi/peking-status-api-openapi.yml
+  url: https://artifacts.apis.io/peking/openapi/peking-status-api-openapi.yml
 auth_types:
 - saml2
 - shibboleth
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-08-19'\nmethod: probed\nsource: https://idp.pku.e
   \ []\n  oauth2_flows: [authorizationCode]\nschemes:\n  - name: PKU Shibboleth Identity Provider\n    type: saml2\n    entity_id: https://idp.pku.edu.cn/idp/shibboleth\n    metadata_url: https://idp.pku.edu.cn/idp/shibboleth\n    scope: pku.edu.cn\n    description: >-\n      SAML 2.0 identity provider for Peking University, published as live Shibboleth\n      metadata (14KB of XML, HTTP 200 on 2026-08-19). Declares SAML 2.0 POST, POST-SimpleSign\n      and Redirect SSO/SLO profiles, the legacy Shibboleth SSO profile, and SOAP\n      ArtifactResolution / AttributeQuery / SLO endpoints on port 8443. Registered in\n      eduGAIN with registration authority https://www.carsi.edu.cn and in production\n      since 2019-06-18.\n    endpoints:\n      - https://idp.pku.edu.cn/idp/profile/SAML2/POST/SSO\n      - https://idp.pku.edu.cn/idp/profile/SAML2/Redirect/SSO\n      - https://idp.pku.edu.cn/idp/profile/SAML2/POST-SimpleSign/SSO\n      - https://idp.pku.edu.cn/idp/profile/Shibboleth/SSO\n  \
   \    - https://idp.pku.edu.cn:8443/idp/profile/SAML2/SOAP/AttributeQuery\n      - https://idp.pku.edu.cn:8443/idp/profile/SAML2/SOAP/ArtifactResolution\n    sources:\n      - https://idp.pku.edu.cn/idp/shibboleth\n      - https://technical.edugain.org/api.php?action=list_entities\n  - name: CARSI federation\n    type: saml2-federation\n    description: >-\n      Peking University Computer Center operates CARSI, the CERNET Authentication and\n      Resource Sharing Infrastructure — the national identity federation for Chinese\n      higher education. eduGAIN's federation registry lists CARSI with the contact\n      address carsi@pku.edu.cn, registration authority https://www.carsi.edu.cn,\n      eduGAIN membership from 2019-05-24 and production from 2019-06-18. 1,042 SAML\n      entities in eduGAIN carry CARSI as their registration authority, including PKU's\n      own IdP and SP. The carsi.edu.cn site footer reads 版权所有©北京大学计算中心\n      (Copyright, Peking University Computer Center).\n \
   \   sources:\n      - https://www.carsi.edu.cn/\n      - https://technical.edugain.org/api.php?action=list_feds\n  - name: PKU IAAA unified authentication\n    type: cas\n    description: >-\n      IAAA is the campus-wide unified authentication service (CAS/SSO) at\n      iaaa.pku.edu.cn. It fronts staff and student services and exposes an OAuth\n      authorization entry point at /iaaa/oauth.jsp (HTTP 200 on 2026-08-19), but client\n      registration, scope documentation and token endpoints are behind an institutional\n      approval process. It is not a public developer API.\n    sources:\n      - https://iaaa.pku.edu.cn/\n      - https://iaaa.pku.edu.cn/iaaa/oauth.jsp\n  - name: Anonymous read\n    type: none\n    description: >-\n      The Institutional Repository REST and OAI-PMH surfaces are open. No API key,\n      token or registration was required for any read path probed on 2026-08-19.\n    sources:\n      - https://ir.pku.edu.cn/rest/status\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peking/refs/heads/main/authentication/peking-authentication.yml
+source_yaml_url: https://artifacts.apis.io/peking/authentication/peking-authentication.yml
 summary_line: saml2/shibboleth/cas/oauth2/none · 4 schemes
 tags:
 - University

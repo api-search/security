@@ -5,61 +5,61 @@ api_specs:
   label: UCLouvain Instances API
   slug: uclouvain-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uclouvain/refs/heads/main/openapi/uclouvain-instances-api-openapi.yml
+  url: https://artifacts.apis.io/uclouvain/openapi/uclouvain-instances-api-openapi.yml
 - filename: uclouvain-jobs-api-openapi.yml
   format: yaml
   label: UCLouvain Jobs API
   slug: uclouvain-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uclouvain/refs/heads/main/openapi/uclouvain-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/uclouvain/openapi/uclouvain-jobs-api-openapi.yml
 - filename: uclouvain-logs-api-openapi.yml
   format: yaml
   label: UCLouvain Logs API
   slug: uclouvain-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uclouvain/refs/heads/main/openapi/uclouvain-logs-api-openapi.yml
+  url: https://artifacts.apis.io/uclouvain/openapi/uclouvain-logs-api-openapi.yml
 - filename: uclouvain-networking-api-openapi.yml
   format: yaml
   label: UCLouvain Networking API
   slug: uclouvain-networking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uclouvain/refs/heads/main/openapi/uclouvain-networking-api-openapi.yml
+  url: https://artifacts.apis.io/uclouvain/openapi/uclouvain-networking-api-openapi.yml
 - filename: uclouvain-other-api-openapi.yml
   format: yaml
   label: UCLouvain Other API
   slug: uclouvain-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uclouvain/refs/heads/main/openapi/uclouvain-other-api-openapi.yml
+  url: https://artifacts.apis.io/uclouvain/openapi/uclouvain-other-api-openapi.yml
 - filename: uclouvain-patients-api-openapi.yml
   format: yaml
   label: UCLouvain Patients API
   slug: uclouvain-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uclouvain/refs/heads/main/openapi/uclouvain-patients-api-openapi.yml
+  url: https://artifacts.apis.io/uclouvain/openapi/uclouvain-patients-api-openapi.yml
 - filename: uclouvain-series-api-openapi.yml
   format: yaml
   label: UCLouvain Series API
   slug: uclouvain-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uclouvain/refs/heads/main/openapi/uclouvain-series-api-openapi.yml
+  url: https://artifacts.apis.io/uclouvain/openapi/uclouvain-series-api-openapi.yml
 - filename: uclouvain-studies-api-openapi.yml
   format: yaml
   label: UCLouvain Studies API
   slug: uclouvain-studies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uclouvain/refs/heads/main/openapi/uclouvain-studies-api-openapi.yml
+  url: https://artifacts.apis.io/uclouvain/openapi/uclouvain-studies-api-openapi.yml
 - filename: uclouvain-system-api-openapi.yml
   format: yaml
   label: UCLouvain System API
   slug: uclouvain-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uclouvain/refs/heads/main/openapi/uclouvain-system-api-openapi.yml
+  url: https://artifacts.apis.io/uclouvain/openapi/uclouvain-system-api-openapi.yml
 - filename: uclouvain-tracking-changes-api-openapi.yml
   format: yaml
   label: UCLouvain Tracking changes API
   slug: uclouvain-tracking-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uclouvain/refs/heads/main/openapi/uclouvain-tracking-changes-api-openapi.yml
+  url: https://artifacts.apis.io/uclouvain/openapi/uclouvain-tracking-changes-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -99,7 +99,7 @@ source_filename: uclouvain-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: uclouvain.be\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 22 09:56:53 2027 GMT\n  hsts: null\n- host: dataverse.uclouvain.be\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 25 15:36:25 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: dial.uclouvain.be\n  https: false\ndomains:\n- domain: uclouvain.be\n  dnssec: true\n  caa:\n  - 0 iodef \"mailto:abuse@uclouvain.be\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"harica.gr\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uclouvain/refs/heads/main/security/uclouvain-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/uclouvain/security/uclouvain-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - University

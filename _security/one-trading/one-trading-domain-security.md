@@ -5,31 +5,31 @@ api_specs:
   label: One Trading WebSocket Streams API
   slug: one-trading-websocket-streams-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/asyncapi/one-trading-streams-asyncapi.yml
+  url: https://artifacts.apis.io/one-trading/asyncapi/one-trading-streams-asyncapi.yml
 - filename: one-trading-funding-api-openapi.yml
   format: yaml
   label: One Trading Funding API
   slug: one-trading-funding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/openapi/one-trading-funding-api-openapi.yml
+  url: https://artifacts.apis.io/one-trading/openapi/one-trading-funding-api-openapi.yml
 - filename: one-trading-futures-api-openapi.yml
   format: yaml
   label: One Trading Futures API
   slug: one-trading-futures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/openapi/one-trading-futures-api-openapi.yml
+  url: https://artifacts.apis.io/one-trading/openapi/one-trading-futures-api-openapi.yml
 - filename: one-trading-public-api-openapi.yml
   format: yaml
   label: One Trading Public API
   slug: one-trading-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/openapi/one-trading-public-api-openapi.yml
+  url: https://artifacts.apis.io/one-trading/openapi/one-trading-public-api-openapi.yml
 - filename: one-trading-trading-api-openapi.yml
   format: yaml
   label: One Trading API
   slug: one-trading-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/openapi/one-trading-trading-api-openapi.yml
+  url: https://artifacts.apis.io/one-trading/openapi/one-trading-trading-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: one-trading-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: onetrading.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 17:01:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.onetrading.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep  3 00:01:42 2026 GMT\n  hsts: false\n- host: api.onetrading.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 14:31:58 2026 GMT\n  hsts: null\ndomains:\n- domain: onetrading.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/security/one-trading-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/one-trading/security/one-trading-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

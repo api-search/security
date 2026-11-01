@@ -5,19 +5,19 @@ api_specs:
   label: Archer Daniels Midland Commodities API
   slug: archer-daniels-midland-commodities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/openapi/archer-daniels-midland-commodities-api-openapi.yml
+  url: https://artifacts.apis.io/archer-daniels-midland/openapi/archer-daniels-midland-commodities-api-openapi.yml
 - filename: archer-daniels-midland-locations-api-openapi.yml
   format: yaml
   label: Archer Daniels Midland Locations API
   slug: archer-daniels-midland-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/openapi/archer-daniels-midland-locations-api-openapi.yml
+  url: https://artifacts.apis.io/archer-daniels-midland/openapi/archer-daniels-midland-locations-api-openapi.yml
 - filename: archer-daniels-midland-products-api-openapi.yml
   format: yaml
   label: Archer Daniels Midland Products API
   slug: archer-daniels-midland-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/openapi/archer-daniels-midland-products-api-openapi.yml
+  url: https://artifacts.apis.io/archer-daniels-midland/openapi/archer-daniels-midland-products-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -49,7 +49,7 @@ source_filename: archer-daniels-midland-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.adm.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  5 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 5184000\n- host: api.adm.com\n  https: false\ndomains:\n- domain: adm.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/security/archer-daniels-midland-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/archer-daniels-midland/security/archer-daniels-midland-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Agriculture

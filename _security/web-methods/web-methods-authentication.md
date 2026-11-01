@@ -40,7 +40,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://docs.webmethods.io/\ndocs: https://docs.webmethods.io/api/10.11.0/webmethods_developer_portal/chapter10dpo/\nsummary:\n  types:\n  - http\n  - oauth2\n  - openIdConnect\n  notes: >-\n    webMethods exposes several REST surfaces with different auth models. The\n    Developer Portal REST APIs use HTTP Basic authentication. The webMethods /\n    IBM webMethods API Gateway and API Management support OAuth2 (client\n    credentials, authorization code) and OpenID Connect for securing managed\n    APIs, alongside API-key and mutual-TLS policies configurable per API.\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  applies_to: Developer Portal REST APIs\n  source: https://docs.webmethods.io/api/10.11.0/webmethods_developer_portal/chapter10dpo/\n- name: oauth2\n  type: oauth2\n  applies_to: API Gateway / API Management managed APIs\n  flows:\n  - authorizationCode\n  - clientCredentials\n  source: https://www.linkedin.com/pulse/oauth2-webmethods-api-gateway-fabio-romana-pisciotta\n\
   - name: openIdConnect\n  type: openIdConnect\n  applies_to: API Gateway / API Management managed APIs\n  source: https://docs.webmethods.io/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/web-methods/refs/heads/main/authentication/web-methods-authentication.yml
+source_yaml_url: https://artifacts.apis.io/web-methods/authentication/web-methods-authentication.yml
 summary_line: http/oauth2/openIdConnect · 3 schemes
 tags:
 - Company

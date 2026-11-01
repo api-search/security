@@ -7,43 +7,43 @@ api_specs:
   label: Teachers Mutual Bank Banking Account Balances API
   slug: teachers-mutual-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/openapi/teachers-mutual-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/teachers-mutual-bank/openapi/teachers-mutual-bank-banking-account-balances-api-openapi.yml
 - filename: teachers-mutual-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Teachers Mutual Bank Banking Account Direct Debits API
   slug: teachers-mutual-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/openapi/teachers-mutual-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/teachers-mutual-bank/openapi/teachers-mutual-bank-banking-account-direct-debits-api-openapi.yml
 - filename: teachers-mutual-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Teachers Mutual Bank Banking Account Scheduled Payments API
   slug: teachers-mutual-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/openapi/teachers-mutual-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/teachers-mutual-bank/openapi/teachers-mutual-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: teachers-mutual-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Teachers Mutual Bank Banking Account Transactions API
   slug: teachers-mutual-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/openapi/teachers-mutual-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/teachers-mutual-bank/openapi/teachers-mutual-bank-banking-account-transactions-api-openapi.yml
 - filename: teachers-mutual-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Teachers Mutual Bank Banking Accounts API
   slug: teachers-mutual-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/openapi/teachers-mutual-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/teachers-mutual-bank/openapi/teachers-mutual-bank-banking-accounts-api-openapi.yml
 - filename: teachers-mutual-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Teachers Mutual Bank Banking Payees API
   slug: teachers-mutual-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/openapi/teachers-mutual-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/teachers-mutual-bank/openapi/teachers-mutual-bank-banking-payees-api-openapi.yml
 - filename: teachers-mutual-bank-banking-products-api-openapi.yml
   format: yaml
   label: Teachers Mutual Bank Banking Products API
   slug: teachers-mutual-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/openapi/teachers-mutual-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/teachers-mutual-bank/openapi/teachers-mutual-bank-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -80,7 +80,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://www.tmbank.com.au/open-banking + review.yml + Consumer Data Standards CDR security profile\nsummary:\n  types: [none, oauth2, openIdConnect]\n  api_key_in: []\n  oauth2_flows: [authorizationCode]\n  note: >-\n    Two distinct channels. The public Product Reference Data (PRD) surface requires NO\n    authentication. The consumer data-sharing channel (accounts, balances, transactions,\n    direct debits, payees) is available only to CDR-accredited data recipients and uses\n    the OAuth2 / OpenID Connect FAPI 1.0 security profile mediated by the CDR Register.\nschemes:\n- name: public-prd\n  type: none\n  applies_to:\n  - openapi/teachers-mutual-bank-cds-banking-products-openapi.yml#listBankingProducts\n  - openapi/teachers-mutual-bank-cds-banking-products-openapi.yml#getBankingProductDetail\n  note: No authentication, no accreditation, no API key. Confirmed live HTTP 200.\n- name: cdr-consumer-channel\n  type: oauth2\n\
   \  scheme: FAPI 1.0\n  flow: authorizationCode\n  identity: openIdConnect\n  note: >-\n    Accredited Data Recipient (ADR) access only. Client registration and trust are\n    established via the CDR Register; tokens carry CDR banking scopes\n    (openid, bank:accounts.basic:read, bank:transactions:read, etc.). Not self-serve;\n    no public credentials or sandbox are offered by the bank.\ndocs: https://www.tmbank.com.au/open-banking\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/authentication/teachers-mutual-bank-authentication.yml
+source_yaml_url: https://artifacts.apis.io/teachers-mutual-bank/authentication/teachers-mutual-bank-authentication.yml
 summary_line: none/oauth2/openIdConnect · 2 schemes
 tags:
 - Finance

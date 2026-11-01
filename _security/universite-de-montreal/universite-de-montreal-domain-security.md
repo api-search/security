@@ -5,25 +5,25 @@ api_specs:
   label: Université de Montréal Identifiants API
   slug: universite-de-montreal-identifiants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/universite-de-montreal/refs/heads/main/openapi/universite-de-montreal-identifiants-api-openapi.yml
+  url: https://artifacts.apis.io/universite-de-montreal/openapi/universite-de-montreal-identifiants-api-openapi.yml
 - filename: universite-de-montreal-informations-api-openapi.yml
   format: yaml
   label: Université de Montréal Informations API
   slug: universite-de-montreal-informations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/universite-de-montreal/refs/heads/main/openapi/universite-de-montreal-informations-api-openapi.yml
+  url: https://artifacts.apis.io/universite-de-montreal/openapi/universite-de-montreal-informations-api-openapi.yml
 - filename: universite-de-montreal-recherche-api-openapi.yml
   format: yaml
   label: Université de Montréal Recherche API
   slug: universite-de-montreal-recherche-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/universite-de-montreal/refs/heads/main/openapi/universite-de-montreal-recherche-api-openapi.yml
+  url: https://artifacts.apis.io/universite-de-montreal/openapi/universite-de-montreal-recherche-api-openapi.yml
 - filename: universite-de-montreal-ressources-api-openapi.yml
   format: yaml
   label: Université de Montréal Ressources API
   slug: universite-de-montreal-ressources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/universite-de-montreal/refs/heads/main/openapi/universite-de-montreal-ressources-api-openapi.yml
+  url: https://artifacts.apis.io/universite-de-montreal/openapi/universite-de-montreal-ressources-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: universite-de-montreal-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.umontreal.ca\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec  9 23:59:59 2026 GMT\n  hsts: false\n- host: wiki.umontreal.ca\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  9 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: papyrus.bib.umontreal.ca\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 11 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: umontreal.ca\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/universite-de-montreal/refs/heads/main/security/universite-de-montreal-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/universite-de-montreal/security/universite-de-montreal-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - University

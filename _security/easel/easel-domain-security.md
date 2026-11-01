@@ -30,7 +30,7 @@ source_filename: easel-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: easelapps.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  7 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 10886400\ndomains:\n- domain: easelapps.ai\n  dnssec: true\n  caa: []\n  caa_note: >-\n    No CAA record is published. The probe script initially recorded four values\n    here, but `dig CAA easelapps.ai` follows the apex CNAME to Azure Static Web\n    Apps and returns that CNAME chain (icy-sand-0a3bac010.1.azurestaticapps.net\n    -> azurestaticapps1.trafficmanager.net ->\n    msha-slice-1-eus2-0.msha-slice-1-eus2-0-ase.p.azurewebsites.net ->\n    waws-prod-bn1-d5bb8b62.sip.p.azurewebsites.windows.net), not CAA data.\n    Corrected by hand on 2026-07-20.\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n  hosting: Azure Static Web Apps (apex CNAME)\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/easel/refs/heads/main/security/easel-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/easel/security/easel-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

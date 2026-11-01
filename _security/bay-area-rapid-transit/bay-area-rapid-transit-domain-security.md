@@ -28,7 +28,7 @@ source_filename: bay-area-rapid-transit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.bart.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 20:14:43 2026 GMT\n  hsts: false\ndomains:\n- domain: bart.gov\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:AAbdulj@bart.gov\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bay-area-rapid-transit/refs/heads/main/security/bay-area-rapid-transit-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bay-area-rapid-transit/security/bay-area-rapid-transit-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Transportation

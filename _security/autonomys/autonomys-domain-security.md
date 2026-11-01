@@ -5,13 +5,13 @@ api_specs:
   label: Autonomys Auto Drive API
   slug: autonomys-auto-drive-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/openapi/autonomys-auto-drive-api-api-openapi.yml
+  url: https://artifacts.apis.io/autonomys/openapi/autonomys-auto-drive-api-api-openapi.yml
 - filename: autonomys-auto-drive-download-gateway-api-openapi.yml
   format: yaml
   label: Autonomys Auto Drive Download Gateway API
   slug: autonomys-auto-drive-download-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/openapi/autonomys-auto-drive-download-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/autonomys/openapi/autonomys-auto-drive-download-gateway-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,7 +41,7 @@ source_filename: autonomys-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.autonomys.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 23:43:07 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: autonomys.xyz\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/security/autonomys-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/autonomys/security/autonomys-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

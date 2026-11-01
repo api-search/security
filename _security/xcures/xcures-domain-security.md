@@ -5,67 +5,67 @@ api_specs:
   label: xCures Application API
   slug: xcures-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-application-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-application-api-openapi.yml
 - filename: xcures-checklist-api-openapi.yml
   format: yaml
   label: xCures Checklist API
   slug: xcures-checklist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-checklist-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-checklist-api-openapi.yml
 - filename: xcures-clinical-concepts-api-openapi.yml
   format: yaml
   label: xCures Clinical Concepts API
   slug: xcures-clinical-concepts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-clinical-concepts-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-clinical-concepts-api-openapi.yml
 - filename: xcures-document-api-openapi.yml
   format: yaml
   label: xCures Document API
   slug: xcures-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-document-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-document-api-openapi.yml
 - filename: xcures-fhir-api-openapi.yml
   format: yaml
   label: xCures FHIR API
   slug: xcures-fhir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-fhir-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-fhir-api-openapi.yml
 - filename: xcures-project-api-openapi.yml
   format: yaml
   label: xCures Project API
   slug: xcures-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-project-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-project-api-openapi.yml
 - filename: xcures-query-api-openapi.yml
   format: yaml
   label: xCures Query API
   slug: xcures-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-query-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-query-api-openapi.yml
 - filename: xcures-reciprocity-template-api-openapi.yml
   format: yaml
   label: xCures Reciprocity Template API
   slug: xcures-reciprocity-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-reciprocity-template-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-reciprocity-template-api-openapi.yml
 - filename: xcures-subject-api-openapi.yml
   format: yaml
   label: xCures Subject API
   slug: xcures-subject-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-subject-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-subject-api-openapi.yml
 - filename: xcures-summary-api-openapi.yml
   format: yaml
   label: xCures Summary API
   slug: xcures-summary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-summary-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-summary-api-openapi.yml
 - filename: xcures-oauth-api-openapi.yml
   format: yaml
   label: xCures O Auth API
   slug: xcures-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -106,7 +106,7 @@ source_filename: xcures-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: xcures.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 10:07:15 2026 GMT\n  hsts: false\n- host: docs.xcures.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 10:39:45 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: partner.xcures.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  3 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: xcures.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/security/xcures-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/xcures/security/xcures-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Health

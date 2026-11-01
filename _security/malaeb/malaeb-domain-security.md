@@ -26,7 +26,7 @@ source_filename: malaeb-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: malaebapp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  4 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: malaebapp.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/malaeb/refs/heads/main/security/malaeb-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/malaeb/security/malaeb-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

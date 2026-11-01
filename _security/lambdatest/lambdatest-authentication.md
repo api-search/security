@@ -7,109 +7,109 @@ api_specs:
   label: LambdaTest Autoheal Command Logs API
   slug: lambdatest-autoheal-command-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/openapi/lambdatest-autoheal-command-logs-api-openapi.yml
+  url: https://artifacts.apis.io/lambdatest/openapi/lambdatest-autoheal-command-logs-api-openapi.yml
 - filename: lambdatest-build-api-openapi.yml
   format: yaml
   label: LambdaTest Build API
   slug: lambdatest-build-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/openapi/lambdatest-build-api-openapi.yml
+  url: https://artifacts.apis.io/lambdatest/openapi/lambdatest-build-api-openapi.yml
 - filename: lambdatest-extensions-api-openapi.yml
   format: yaml
   label: LambdaTest Extensions API
   slug: lambdatest-extensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/openapi/lambdatest-extensions-api-openapi.yml
+  url: https://artifacts.apis.io/lambdatest/openapi/lambdatest-extensions-api-openapi.yml
 - filename: lambdatest-fetch-build-screenshots-api-openapi.yml
   format: yaml
   label: LambdaTest Fetch Build Screenshots API
   slug: lambdatest-fetch-build-screenshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/openapi/lambdatest-fetch-build-screenshots-api-openapi.yml
+  url: https://artifacts.apis.io/lambdatest/openapi/lambdatest-fetch-build-screenshots-api-openapi.yml
 - filename: lambdatest-geolocation-api-openapi.yml
   format: yaml
   label: LambdaTest Geolocation API
   slug: lambdatest-geolocation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/openapi/lambdatest-geolocation-api-openapi.yml
+  url: https://artifacts.apis.io/lambdatest/openapi/lambdatest-geolocation-api-openapi.yml
 - filename: lambdatest-get-build-status-api-openapi.yml
   format: yaml
   label: LambdaTest Get Build Status API
   slug: lambdatest-get-build-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/openapi/lambdatest-get-build-status-api-openapi.yml
+  url: https://artifacts.apis.io/lambdatest/openapi/lambdatest-get-build-status-api-openapi.yml
 - filename: lambdatest-get-screenshot-status-api-openapi.yml
   format: yaml
   label: LambdaTest Get Screenshot Status API
   slug: lambdatest-get-screenshot-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/openapi/lambdatest-get-screenshot-status-api-openapi.yml
+  url: https://artifacts.apis.io/lambdatest/openapi/lambdatest-get-screenshot-status-api-openapi.yml
 - filename: lambdatest-lighthouse-api-openapi.yml
   format: yaml
   label: LambdaTest Lighthouse API
   slug: lambdatest-lighthouse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/openapi/lambdatest-lighthouse-api-openapi.yml
+  url: https://artifacts.apis.io/lambdatest/openapi/lambdatest-lighthouse-api-openapi.yml
 - filename: lambdatest-organisation-api-openapi.yml
   format: yaml
   label: LambdaTest Organisation API
   slug: lambdatest-organisation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/openapi/lambdatest-organisation-api-openapi.yml
+  url: https://artifacts.apis.io/lambdatest/openapi/lambdatest-organisation-api-openapi.yml
 - filename: lambdatest-platforms-api-openapi.yml
   format: yaml
   label: LambdaTest Platforms API
   slug: lambdatest-platforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/openapi/lambdatest-platforms-api-openapi.yml
+  url: https://artifacts.apis.io/lambdatest/openapi/lambdatest-platforms-api-openapi.yml
 - filename: lambdatest-prerun-api-openapi.yml
   format: yaml
   label: LambdaTest Prerun API
   slug: lambdatest-prerun-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/openapi/lambdatest-prerun-api-openapi.yml
+  url: https://artifacts.apis.io/lambdatest/openapi/lambdatest-prerun-api-openapi.yml
 - filename: lambdatest-resolution-api-openapi.yml
   format: yaml
   label: LambdaTest Resolution API
   slug: lambdatest-resolution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/openapi/lambdatest-resolution-api-openapi.yml
+  url: https://artifacts.apis.io/lambdatest/openapi/lambdatest-resolution-api-openapi.yml
 - filename: lambdatest-session-api-openapi.yml
   format: yaml
   label: LambdaTest Session API
   slug: lambdatest-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/openapi/lambdatest-session-api-openapi.yml
+  url: https://artifacts.apis.io/lambdatest/openapi/lambdatest-session-api-openapi.yml
 - filename: lambdatest-session-logs-v2-api-openapi.yml
   format: yaml
   label: LambdaTest Session Logs (V2) API
   slug: lambdatest-session-logs-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/openapi/lambdatest-session-logs-v2-api-openapi.yml
+  url: https://artifacts.apis.io/lambdatest/openapi/lambdatest-session-logs-v2-api-openapi.yml
 - filename: lambdatest-test-api-openapi.yml
   format: yaml
   label: LambdaTest Test API
   slug: lambdatest-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/openapi/lambdatest-test-api-openapi.yml
+  url: https://artifacts.apis.io/lambdatest/openapi/lambdatest-test-api-openapi.yml
 - filename: lambdatest-tunnel-api-openapi.yml
   format: yaml
   label: LambdaTest Tunnel API
   slug: lambdatest-tunnel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/openapi/lambdatest-tunnel-api-openapi.yml
+  url: https://artifacts.apis.io/lambdatest/openapi/lambdatest-tunnel-api-openapi.yml
 - filename: lambdatest-upload-screenshots-api-openapi.yml
   format: yaml
   label: LambdaTest Upload Screenshots API
   slug: lambdatest-upload-screenshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/openapi/lambdatest-upload-screenshots-api-openapi.yml
+  url: https://artifacts.apis.io/lambdatest/openapi/lambdatest-upload-screenshots-api-openapi.yml
 - filename: lambdatest-user-files-api-openapi.yml
   format: yaml
   label: LambdaTest User Files API
   slug: lambdatest-user-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/openapi/lambdatest-user-files-api-openapi.yml
+  url: https://artifacts.apis.io/lambdatest/openapi/lambdatest-user-files-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -120,8 +120,8 @@ method: derived
 name: Lambdatest Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: LambdaTest secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: LambdaTest
+overview: TestMu AI secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: TestMu AI
 provider_slug: lambdatest
 scheme_count: 1
 schemes:
@@ -136,7 +136,7 @@ source_filename: lambdatest-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/lambdatest-smartui-api-openapi.yml, openapi/lambdatest-web-automation-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/lambdatest-smartui-api-openapi.yml\n  - openapi/lambdatest-web-automation-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/authentication/lambdatest-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lambdatest/authentication/lambdatest-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Testing

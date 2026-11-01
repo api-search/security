@@ -7,127 +7,127 @@ api_specs:
   label: viagogo Addresses API
   slug: viagogo-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/openapi/viagogo-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/viagogo/openapi/viagogo-addresses-api-openapi.yml
 - filename: viagogo-categories-api-openapi.yml
   format: yaml
   label: viagogo Categories API
   slug: viagogo-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/openapi/viagogo-categories-api-openapi.yml
+  url: https://artifacts.apis.io/viagogo/openapi/viagogo-categories-api-openapi.yml
 - filename: viagogo-e-tickets-api-openapi.yml
   format: yaml
   label: viagogo E Tickets API
   slug: viagogo-e-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/openapi/viagogo-e-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/viagogo/openapi/viagogo-e-tickets-api-openapi.yml
 - filename: viagogo-events-api-openapi.yml
   format: yaml
   label: viagogo Events API
   slug: viagogo-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/openapi/viagogo-events-api-openapi.yml
+  url: https://artifacts.apis.io/viagogo/openapi/viagogo-events-api-openapi.yml
 - filename: viagogo-listing-offers-api-openapi.yml
   format: yaml
   label: viagogo Listing Offers API
   slug: viagogo-listing-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/openapi/viagogo-listing-offers-api-openapi.yml
+  url: https://artifacts.apis.io/viagogo/openapi/viagogo-listing-offers-api-openapi.yml
 - filename: viagogo-listingconstraints-api-openapi.yml
   format: yaml
   label: viagogo Listing Constraints API
   slug: viagogo-listingconstraints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/openapi/viagogo-listingconstraints-api-openapi.yml
+  url: https://artifacts.apis.io/viagogo/openapi/viagogo-listingconstraints-api-openapi.yml
 - filename: viagogo-payments-api-openapi.yml
   format: yaml
   label: viagogo Payments API
   slug: viagogo-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/openapi/viagogo-payments-api-openapi.yml
+  url: https://artifacts.apis.io/viagogo/openapi/viagogo-payments-api-openapi.yml
 - filename: viagogo-sales-api-openapi.yml
   format: yaml
   label: viagogo Sales API
   slug: viagogo-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/openapi/viagogo-sales-api-openapi.yml
+  url: https://artifacts.apis.io/viagogo/openapi/viagogo-sales-api-openapi.yml
 - filename: viagogo-sellerevents-api-openapi.yml
   format: yaml
   label: viagogo Seller Events API
   slug: viagogo-sellerevents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/openapi/viagogo-sellerevents-api-openapi.yml
+  url: https://artifacts.apis.io/viagogo/openapi/viagogo-sellerevents-api-openapi.yml
 - filename: viagogo-sellerlistings-api-openapi.yml
   format: yaml
   label: viagogo Seller Listings API
   slug: viagogo-sellerlistings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/openapi/viagogo-sellerlistings-api-openapi.yml
+  url: https://artifacts.apis.io/viagogo/openapi/viagogo-sellerlistings-api-openapi.yml
 - filename: viagogo-sellerlistings-external-id-api-openapi.yml
   format: yaml
   label: viagogo SellerListings (External Id) API
   slug: viagogo-sellerlistings-external-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/openapi/viagogo-sellerlistings-external-id-api-openapi.yml
+  url: https://artifacts.apis.io/viagogo/openapi/viagogo-sellerlistings-external-id-api-openapi.yml
 - filename: viagogo-sellerlistings-preview-api-openapi.yml
   format: yaml
   label: viagogo SellerListings (Preview) API
   slug: viagogo-sellerlistings-preview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/openapi/viagogo-sellerlistings-preview-api-openapi.yml
+  url: https://artifacts.apis.io/viagogo/openapi/viagogo-sellerlistings-preview-api-openapi.yml
 - filename: viagogo-shipments-api-openapi.yml
   format: yaml
   label: viagogo Shipments API
   slug: viagogo-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/openapi/viagogo-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/viagogo/openapi/viagogo-shipments-api-openapi.yml
 - filename: viagogo-ticketholders-api-openapi.yml
   format: yaml
   label: viagogo Ticket Holders API
   slug: viagogo-ticketholders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/openapi/viagogo-ticketholders-api-openapi.yml
+  url: https://artifacts.apis.io/viagogo/openapi/viagogo-ticketholders-api-openapi.yml
 - filename: viagogo-transferstatusproof-api-openapi.yml
   format: yaml
   label: viagogo Transfer Status Proof API
   slug: viagogo-transferstatusproof-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/openapi/viagogo-transferstatusproof-api-openapi.yml
+  url: https://artifacts.apis.io/viagogo/openapi/viagogo-transferstatusproof-api-openapi.yml
 - filename: viagogo-user-api-openapi.yml
   format: yaml
   label: viagogo User API
   slug: viagogo-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/openapi/viagogo-user-api-openapi.yml
+  url: https://artifacts.apis.io/viagogo/openapi/viagogo-user-api-openapi.yml
 - filename: viagogo-venue-configurations-api-openapi.yml
   format: yaml
   label: viagogo Venue Configurations API
   slug: viagogo-venue-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/openapi/viagogo-venue-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/viagogo/openapi/viagogo-venue-configurations-api-openapi.yml
 - filename: viagogo-venues-api-openapi.yml
   format: yaml
   label: viagogo Venues API
   slug: viagogo-venues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/openapi/viagogo-venues-api-openapi.yml
+  url: https://artifacts.apis.io/viagogo/openapi/viagogo-venues-api-openapi.yml
 - filename: viagogo-webhooks-api-openapi.yml
   format: yaml
   label: viagogo Webhooks API
   slug: viagogo-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/openapi/viagogo-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/viagogo/openapi/viagogo-webhooks-api-openapi.yml
 - filename: viagogo-topics-api-openapi.yml
   format: yaml
   label: viagogo Topics API
   slug: viagogo-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/openapi/viagogo-topics-api-openapi.yml
+  url: https://artifacts.apis.io/viagogo/openapi/viagogo-topics-api-openapi.yml
 - filename: viagogo-payment-methods-api-openapi.yml
   format: yaml
   label: viagogo Payment Methods API
   slug: viagogo-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/openapi/viagogo-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/viagogo/openapi/viagogo-payment-methods-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -183,7 +183,7 @@ source_yaml: "generated: '2026-08-05'\nmethod: searched\nsource: https://develop
   \ new access tokens.\n- name: User-Login Authentication Flow\n  grant_type: authorization_code\n  docs: https://developer.viagogo.net/docs/authentication/user-login-authentication-flow\n  use_case: Manage user-specific data such as payment methods, listings, purchases\n    and sales.\n  issues_refresh_token: true\n- name: Token Refresh\n  grant_type: refresh_token\n  docs: https://developer.viagogo.net/docs/authentication/token-expiration\n  note: Refresh tokens are single-use and long-lived; access tokens are short-lived.\n    Token responses carry `expires_in` (seconds) and the granted `scope`.\nauthorization_server:\n  issuer: https://account.viagogo.com/\n  discovery: https://account.viagogo.com/.well-known/openid-configuration\n  authorization_endpoint: https://account.viagogo.com/authorize\n  token_endpoint: https://account.viagogo.com/oauth2/token\n  jwks_uri: https://account.viagogo.com/.well-known/jwks\n  grant_types_supported:\n  - client_credentials\n  - tools\n  - impersonation\n\
   \  - refresh_token\n  - authorization_code\n  - implicit\n  - password\n  token_endpoint_auth_methods_supported:\n  - client_secret_post\n  - private_key_jwt\n  - client_secret_basic\n  code_challenge_methods_supported:\n  - plain\n  - S256\n  id_token_signing_alg_values_supported:\n  - RS256\n  sandbox_issuer: https://sandbox.account.viagogo.com/\n  sandbox_discovery: https://sandbox.account.viagogo.com/.well-known/openid-configuration\ncredential_acquisition:\n  self_serve: false\n  method: Client ID and Client Secret are issued by viagogo per application; the docs\n    direct developers to developer.viagogo.net to obtain OAuth2 credentials. There\n    is no public self-service key issuance page.\n  note: viagogo states that Client ID, Client Secret and all access tokens \"should\n    be considered as sensitive as passwords and should not be shared.\"\nerror_signals:\n- status: 401\n  code: null\n  meaning: Authentication credentials were missing or incorrect.\n- status: 403\n  code:\
   \ insufficient_scope\n  meaning: The access token used in the request does not have the scope required to\n    access this resource.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/authentication/viagogo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/viagogo/authentication/viagogo-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

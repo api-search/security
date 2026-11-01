@@ -8,37 +8,37 @@ api_specs:
   label: Ambee Air Quality API
   slug: ambee-air-quality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambee/refs/heads/main/openapi/ambee-air-quality-api-openapi.yml
+  url: https://artifacts.apis.io/ambee/openapi/ambee-air-quality-api-openapi.yml
 - filename: ambee-fire-api-openapi.yml
   format: yaml
   label: Ambee Fire API
   slug: ambee-fire-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambee/refs/heads/main/openapi/ambee-fire-api-openapi.yml
+  url: https://artifacts.apis.io/ambee/openapi/ambee-fire-api-openapi.yml
 - filename: ambee-ndvi-api-openapi.yml
   format: yaml
   label: Ambee NDVI API
   slug: ambee-ndvi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambee/refs/heads/main/openapi/ambee-ndvi-api-openapi.yml
+  url: https://artifacts.apis.io/ambee/openapi/ambee-ndvi-api-openapi.yml
 - filename: ambee-pollen-api-openapi.yml
   format: yaml
   label: Ambee Pollen API
   slug: ambee-pollen-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambee/refs/heads/main/openapi/ambee-pollen-api-openapi.yml
+  url: https://artifacts.apis.io/ambee/openapi/ambee-pollen-api-openapi.yml
 - filename: ambee-soil-api-openapi.yml
   format: yaml
   label: Ambee Soil API
   slug: ambee-soil-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambee/refs/heads/main/openapi/ambee-soil-api-openapi.yml
+  url: https://artifacts.apis.io/ambee/openapi/ambee-soil-api-openapi.yml
 - filename: ambee-weather-api-openapi.yml
   format: yaml
   label: Ambee Weather API
   slug: ambee-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambee/refs/heads/main/openapi/ambee-weather-api-openapi.yml
+  url: https://artifacts.apis.io/ambee/openapi/ambee-weather-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -65,7 +65,7 @@ source_filename: ambee-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ambee-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/ambee-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ambee/refs/heads/main/authentication/ambee-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ambee/authentication/ambee-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Environmental Intelligence

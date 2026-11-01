@@ -5,25 +5,25 @@ api_specs:
   label: Jito Streaming Surfaces
   slug: jito-streaming
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/asyncapi/jito-streaming-asyncapi.yml
+  url: https://artifacts.apis.io/jito/asyncapi/jito-streaming-asyncapi.yml
 - filename: jito-bundles-api-openapi.yml
   format: yaml
   label: Jito Labs Bundles API
   slug: jito-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/openapi/jito-bundles-api-openapi.yml
+  url: https://artifacts.apis.io/jito/openapi/jito-bundles-api-openapi.yml
 - filename: jito-tips-api-openapi.yml
   format: yaml
   label: Jito Labs Tips API
   slug: jito-tips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/openapi/jito-tips-api-openapi.yml
+  url: https://artifacts.apis.io/jito/openapi/jito-tips-api-openapi.yml
 - filename: jito-transactions-api-openapi.yml
   format: yaml
   label: Jito Labs Transactions API
   slug: jito-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/openapi/jito-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/jito/openapi/jito-transactions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -75,7 +75,7 @@ source_filename: jito-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.jito.network\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 23:49:31 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.jito.wtf\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 07:10:13 2026 GMT\n  hsts: false\n- host: mainnet.block-engine.jito.wtf\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 14:30:17 2026 GMT\n  hsts: null\ndomains:\n- domain: jito.network\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: jito.wtf\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/security/jito-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/jito/security/jito-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Solana

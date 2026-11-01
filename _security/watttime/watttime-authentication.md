@@ -7,31 +7,31 @@ api_specs:
   label: WattTime Account API
   slug: watttime-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/openapi/watttime-account-api-openapi.yml
+  url: https://artifacts.apis.io/watttime/openapi/watttime-account-api-openapi.yml
 - filename: watttime-authentication-api-openapi.yml
   format: yaml
   label: WattTime Authentication API
   slug: watttime-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/openapi/watttime-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/watttime/openapi/watttime-authentication-api-openapi.yml
 - filename: watttime-emissions-data-api-openapi.yml
   format: yaml
   label: WattTime Emissions Data API
   slug: watttime-emissions-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/openapi/watttime-emissions-data-api-openapi.yml
+  url: https://artifacts.apis.io/watttime/openapi/watttime-emissions-data-api-openapi.yml
 - filename: watttime-forecasts-api-openapi.yml
   format: yaml
   label: WattTime Forecasts API
   slug: watttime-forecasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/openapi/watttime-forecasts-api-openapi.yml
+  url: https://artifacts.apis.io/watttime/openapi/watttime-forecasts-api-openapi.yml
 - filename: watttime-grid-regions-api-openapi.yml
   format: yaml
   label: WattTime Grid Regions API
   slug: watttime-grid-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/openapi/watttime-grid-regions-api-openapi.yml
+  url: https://artifacts.apis.io/watttime/openapi/watttime-grid-regions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -65,14 +65,14 @@ source_filename: watttime-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/watttime-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic Authentication used only for the /login endpoint. Provide username\n    and password to obtain a bearer token.\n  sources:\n  - openapi/watttime-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: 'JWT bearer token obtained from the /login endpoint. Token expires after 30 minutes.\n    Include as Authorization: Bearer {token} header.'\n  sources:\n  - openapi/watttime-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/authentication/watttime-authentication.yml
+source_yaml_url: https://artifacts.apis.io/watttime/authentication/watttime-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Emissions
 - Climate
 - Carbon
 - Energy
-- Electricity Grid
+- Electric Grid
 - Sustainability
 - Clean Energy
 ---

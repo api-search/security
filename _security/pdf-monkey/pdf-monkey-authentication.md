@@ -7,19 +7,19 @@ api_specs:
   label: PDF Monkey Authentication API
   slug: pdf-monkey-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-monkey/refs/heads/main/openapi/pdf-monkey-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-monkey/openapi/pdf-monkey-authentication-api-openapi.yml
 - filename: pdf-monkey-documents-api-openapi.yml
   format: yaml
   label: PDF Monkey Documents API
   slug: pdf-monkey-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-monkey/refs/heads/main/openapi/pdf-monkey-documents-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-monkey/openapi/pdf-monkey-documents-api-openapi.yml
 - filename: pdf-monkey-templates-api-openapi.yml
   format: yaml
   label: PDF Monkey Templates API
   slug: pdf-monkey-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-monkey/refs/heads/main/openapi/pdf-monkey-templates-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-monkey/openapi/pdf-monkey-templates-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: pdf-monkey-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Authenticate using your PDF Monkey API secret key as a Bearer token in the Authorization\n    header.\n  sources:\n  - openapi/openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pdf-monkey/refs/heads/main/authentication/pdf-monkey-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pdf-monkey/authentication/pdf-monkey-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - PDF

@@ -5,7 +5,7 @@ api_specs:
   label: Evari Quotes API
   slug: evari-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/openapi/evari-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/evari/openapi/evari-quotes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -34,7 +34,7 @@ source_filename: evari-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: evari.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 02:22:48 2026 GMT\n  hsts: null\ndomains:\n- domain: evari.tech\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/security/evari-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/evari/security/evari-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Insurance

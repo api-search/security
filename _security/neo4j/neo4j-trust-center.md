@@ -5,43 +5,43 @@ api_specs:
   label: Neo4j Query API
   slug: query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-query-api-openapi.yml
+  url: https://artifacts.apis.io/neo4j/openapi/neo4j-query-api-openapi.yml
 - filename: neo4j-authentication-api-openapi.yml
   format: yaml
   label: Neo4j Authentication API
   slug: neo4j-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/neo4j/openapi/neo4j-authentication-api-openapi.yml
 - filename: neo4j-discovery-api-openapi.yml
   format: yaml
   label: Neo4j Discovery API
   slug: neo4j-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/neo4j/openapi/neo4j-discovery-api-openapi.yml
 - filename: neo4j-instances-api-openapi.yml
   format: yaml
   label: Neo4j Instances API
   slug: neo4j-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-instances-api-openapi.yml
+  url: https://artifacts.apis.io/neo4j/openapi/neo4j-instances-api-openapi.yml
 - filename: neo4j-snapshots-api-openapi.yml
   format: yaml
   label: Neo4j Snapshots API
   slug: neo4j-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/neo4j/openapi/neo4j-snapshots-api-openapi.yml
 - filename: neo4j-tenants-api-openapi.yml
   format: yaml
   label: Neo4j Tenants API
   slug: neo4j-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/neo4j/openapi/neo4j-tenants-api-openapi.yml
 - filename: neo4j-transactions-api-openapi.yml
   format: yaml
   label: Neo4j Transactions API
   slug: neo4j-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/neo4j/openapi/neo4j-transactions-api-openapi.yml
 certification_count: 7
 certifications:
 - SOC 2
@@ -64,7 +64,7 @@ source_filename: neo4j-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-04'\nmethod: searched\nprobe: true\nsource: https://trust.neo4j.com/\nurl: https://trust.neo4j.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- HIPAA\n- GDPR\n- CSA STAR\nevidence:\n- source: https://trust.neo4j.com/\n  keywords:\n  - soc 2\n  - soc2\n  - iso/iec 27001\n  - hipaa\n  - trust center\n  - gdpr\n  - csa star\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/security/neo4j-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/neo4j/security/neo4j-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, GDPR, CSA STAR
 tags:
 - Neo4j

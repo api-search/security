@@ -7,103 +7,103 @@ api_specs:
   label: Origin Protocol Account API
   slug: origin-protocol-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-account-api-openapi.yml
+  url: https://artifacts.apis.io/origin-protocol/openapi/origin-protocol-account-api-openapi.yml
 - filename: origin-protocol-arm-api-openapi.yml
   format: yaml
   label: Origin Protocol Arm API
   slug: origin-protocol-arm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-arm-api-openapi.yml
+  url: https://artifacts.apis.io/origin-protocol/openapi/origin-protocol-arm-api-openapi.yml
 - filename: origin-protocol-beacon-chain-api-openapi.yml
   format: yaml
   label: Origin Protocol Beacon Chain API
   slug: origin-protocol-beacon-chain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-beacon-chain-api-openapi.yml
+  url: https://artifacts.apis.io/origin-protocol/openapi/origin-protocol-beacon-chain-api-openapi.yml
 - filename: origin-protocol-cache-api-openapi.yml
   format: yaml
   label: Origin Protocol Cache API
   slug: origin-protocol-cache-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-cache-api-openapi.yml
+  url: https://artifacts.apis.io/origin-protocol/openapi/origin-protocol-cache-api-openapi.yml
 - filename: origin-protocol-defillama-api-openapi.yml
   format: yaml
   label: Origin Protocol Defillama API
   slug: origin-protocol-defillama-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-defillama-api-openapi.yml
+  url: https://artifacts.apis.io/origin-protocol/openapi/origin-protocol-defillama-api-openapi.yml
 - filename: origin-protocol-dune-api-openapi.yml
   format: yaml
   label: Origin Protocol Dune API
   slug: origin-protocol-dune-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-dune-api-openapi.yml
+  url: https://artifacts.apis.io/origin-protocol/openapi/origin-protocol-dune-api-openapi.yml
 - filename: origin-protocol-hyperliquid-api-openapi.yml
   format: yaml
   label: Origin Protocol Hyperliquid API
   slug: origin-protocol-hyperliquid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-hyperliquid-api-openapi.yml
+  url: https://artifacts.apis.io/origin-protocol/openapi/origin-protocol-hyperliquid-api-openapi.yml
 - filename: origin-protocol-merkl-api-openapi.yml
   format: yaml
   label: Origin Protocol Merkl API
   slug: origin-protocol-merkl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-merkl-api-openapi.yml
+  url: https://artifacts.apis.io/origin-protocol/openapi/origin-protocol-merkl-api-openapi.yml
 - filename: origin-protocol-oeth-api-openapi.yml
   format: yaml
   label: Origin Protocol Oeth API
   slug: origin-protocol-oeth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-oeth-api-openapi.yml
+  url: https://artifacts.apis.io/origin-protocol/openapi/origin-protocol-oeth-api-openapi.yml
 - filename: origin-protocol-ofac-api-openapi.yml
   format: yaml
   label: Origin Protocol Ofac API
   slug: origin-protocol-ofac-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-ofac-api-openapi.yml
+  url: https://artifacts.apis.io/origin-protocol/openapi/origin-protocol-ofac-api-openapi.yml
 - filename: origin-protocol-ogn-api-openapi.yml
   format: yaml
   label: Origin Protocol Ogn API
   slug: origin-protocol-ogn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-ogn-api-openapi.yml
+  url: https://artifacts.apis.io/origin-protocol/openapi/origin-protocol-ogn-api-openapi.yml
 - filename: origin-protocol-protocol-api-openapi.yml
   format: yaml
   label: Origin Protocol API
   slug: origin-protocol-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/origin-protocol/openapi/origin-protocol-protocol-api-openapi.yml
 - filename: origin-protocol-reports-api-openapi.yml
   format: yaml
   label: Origin Protocol Reports API
   slug: origin-protocol-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-reports-api-openapi.yml
+  url: https://artifacts.apis.io/origin-protocol/openapi/origin-protocol-reports-api-openapi.yml
 - filename: origin-protocol-strapi-api-openapi.yml
   format: yaml
   label: Origin Protocol Strapi API
   slug: origin-protocol-strapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-strapi-api-openapi.yml
+  url: https://artifacts.apis.io/origin-protocol/openapi/origin-protocol-strapi-api-openapi.yml
 - filename: origin-protocol-supply-api-openapi.yml
   format: yaml
   label: Origin Protocol Supply API
   slug: origin-protocol-supply-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-supply-api-openapi.yml
+  url: https://artifacts.apis.io/origin-protocol/openapi/origin-protocol-supply-api-openapi.yml
 - filename: origin-protocol-token-api-openapi.yml
   format: yaml
   label: Origin Protocol Token API
   slug: origin-protocol-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-token-api-openapi.yml
+  url: https://artifacts.apis.io/origin-protocol/openapi/origin-protocol-token-api-openapi.yml
 - filename: origin-protocol-coin-gecko-api-openapi.yml
   format: yaml
   label: Origin Protocol coin gecko API
   slug: origin-protocol-coin-gecko-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-coin-gecko-api-openapi.yml
+  url: https://artifacts.apis.io/origin-protocol/openapi/origin-protocol-coin-gecko-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -123,7 +123,7 @@ source_filename: origin-protocol-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/origin-protocol-openapi.json\napi: Origin DeFi Analytics API\nschemes: []\nsummary: No authentication. The Origin DeFi Analytics REST API is public and read-only;\n  the OpenAPI declares no securitySchemes and the docs describe an open REST wrapper\n  over the (non-public) origin-squid GraphQL indexer.\ndocs: https://docs.originprotocol.com/registry/api.md\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/authentication/origin-protocol-authentication.yml
+source_yaml_url: https://artifacts.apis.io/origin-protocol/authentication/origin-protocol-authentication.yml
 summary_line: 0 schemes
 tags:
 - Company

@@ -5,31 +5,31 @@ api_specs:
   label: Upbound Control Planes API
   slug: upbound-control-planes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/openapi/upbound-control-planes-api-openapi.yml
+  url: https://artifacts.apis.io/upbound/openapi/upbound-control-planes-api-openapi.yml
 - filename: upbound-organizations-api-openapi.yml
   format: yaml
   label: Upbound Organizations API
   slug: upbound-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/openapi/upbound-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/upbound/openapi/upbound-organizations-api-openapi.yml
 - filename: upbound-repositories-api-openapi.yml
   format: yaml
   label: Upbound Repositories API
   slug: upbound-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/openapi/upbound-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/upbound/openapi/upbound-repositories-api-openapi.yml
 - filename: upbound-robots-api-openapi.yml
   format: yaml
   label: Upbound Robots API
   slug: upbound-robots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/openapi/upbound-robots-api-openapi.yml
+  url: https://artifacts.apis.io/upbound/openapi/upbound-robots-api-openapi.yml
 - filename: upbound-teams-api-openapi.yml
   format: yaml
   label: Upbound Teams API
   slug: upbound-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/openapi/upbound-teams-api-openapi.yml
+  url: https://artifacts.apis.io/upbound/openapi/upbound-teams-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -65,7 +65,7 @@ source_filename: upbound-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.upbound.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 15:02:16 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.upbound.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 15:08:58 2026 GMT\n  hsts: null\ndomains:\n- domain: upbound.io\n  dnssec: true\n  caa:\n  - ;; connection timed out; no servers could be reached\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/security/upbound-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/upbound/security/upbound-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Cloud Infrastructure

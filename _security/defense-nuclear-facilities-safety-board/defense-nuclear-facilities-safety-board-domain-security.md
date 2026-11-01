@@ -27,7 +27,7 @@ source_filename: defense-nuclear-facilities-safety-board-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dnfsb.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 15:41:51 2026 GMT\n  hsts: null\ndomains:\n- domain: dnfsb.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/defense-nuclear-facilities-safety-board/refs/heads/main/security/defense-nuclear-facilities-safety-board-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/defense-nuclear-facilities-safety-board/security/defense-nuclear-facilities-safety-board-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Defense

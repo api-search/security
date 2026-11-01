@@ -7,7 +7,7 @@ api_specs:
   label: Taylor's Library Koha REST API
   slug: library-rest
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taylors/refs/heads/main/openapi/taylors-patrons-api-openapi.yml
+  url: https://artifacts.apis.io/taylors/openapi/taylors-patrons-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -43,7 +43,7 @@ source_filename: taylors-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/taylors-library-rest.yaml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/taylors-library-rest.yaml\n- name: oauth2ClientCredentials\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://librarycatalogue.taylors.edu.my/api/v1/oauth/token\n    scopes: 0\n  sources:\n  - openapi/taylors-library-rest.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taylors/refs/heads/main/authentication/taylors-authentication.yml
+source_yaml_url: https://artifacts.apis.io/taylors/authentication/taylors-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Education

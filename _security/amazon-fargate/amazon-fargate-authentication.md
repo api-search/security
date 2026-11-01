@@ -8,37 +8,37 @@ api_specs:
   label: Amazon Fargate Account Settings API
   slug: amazon-fargate-account-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/openapi/amazon-fargate-account-settings-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fargate/openapi/amazon-fargate-account-settings-api-openapi.yml
 - filename: amazon-fargate-clusters-api-openapi.yml
   format: yaml
   label: Amazon Fargate Clusters API
   slug: amazon-fargate-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/openapi/amazon-fargate-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fargate/openapi/amazon-fargate-clusters-api-openapi.yml
 - filename: amazon-fargate-services-api-openapi.yml
   format: yaml
   label: Amazon Fargate Services API
   slug: amazon-fargate-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/openapi/amazon-fargate-services-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fargate/openapi/amazon-fargate-services-api-openapi.yml
 - filename: amazon-fargate-tagging-api-openapi.yml
   format: yaml
   label: Amazon Fargate Tagging API
   slug: amazon-fargate-tagging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/openapi/amazon-fargate-tagging-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fargate/openapi/amazon-fargate-tagging-api-openapi.yml
 - filename: amazon-fargate-task-definitions-api-openapi.yml
   format: yaml
   label: Amazon Fargate Task Definitions API
   slug: amazon-fargate-task-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/openapi/amazon-fargate-task-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fargate/openapi/amazon-fargate-task-definitions-api-openapi.yml
 - filename: amazon-fargate-tasks-api-openapi.yml
   format: yaml
   label: Amazon Fargate Tasks API
   slug: amazon-fargate-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/openapi/amazon-fargate-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fargate/openapi/amazon-fargate-tasks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: amazon-fargate-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-fargate-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: aws_signature_v4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4 authentication. Include the Authorization header with\n    the AWS4-HMAC-SHA256 signing algorithm.\n  sources:\n  - openapi/amazon-fargate-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/authentication/amazon-fargate-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-fargate/authentication/amazon-fargate-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Compute

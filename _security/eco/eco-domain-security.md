@@ -5,19 +5,19 @@ api_specs:
   label: Eco Quotes V1 API
   slug: eco-quotes-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/openapi/eco-quotes-v1-api-openapi.yml
+  url: https://artifacts.apis.io/eco/openapi/eco-quotes-v1-api-openapi.yml
 - filename: eco-quotes-v2-api-openapi.yml
   format: yaml
   label: Eco Quotes V2 API
   slug: eco-quotes-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/openapi/eco-quotes-v2-api-openapi.yml
+  url: https://artifacts.apis.io/eco/openapi/eco-quotes-v2-api-openapi.yml
 - filename: eco-quotes-v3-api-openapi.yml
   format: yaml
   label: Eco Quotes V3 API
   slug: eco-quotes-v3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/openapi/eco-quotes-v3-api-openapi.yml
+  url: https://artifacts.apis.io/eco/openapi/eco-quotes-v3-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -64,7 +64,7 @@ source_filename: eco-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.eco.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 10 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.eco.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 16:44:05 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: quotes.eco.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 21 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: eco.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/security/eco-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/eco/security/eco-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

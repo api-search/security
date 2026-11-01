@@ -5,61 +5,61 @@ api_specs:
   label: Metabase Cards API
   slug: metabase-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabase/refs/heads/main/openapi/metabase-cards-api-openapi.yml
+  url: https://artifacts.apis.io/metabase/openapi/metabase-cards-api-openapi.yml
 - filename: metabase-collections-api-openapi.yml
   format: yaml
   label: Metabase Collections API
   slug: metabase-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabase/refs/heads/main/openapi/metabase-collections-api-openapi.yml
+  url: https://artifacts.apis.io/metabase/openapi/metabase-collections-api-openapi.yml
 - filename: metabase-dashboards-api-openapi.yml
   format: yaml
   label: Metabase Dashboards API
   slug: metabase-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabase/refs/heads/main/openapi/metabase-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/metabase/openapi/metabase-dashboards-api-openapi.yml
 - filename: metabase-databases-api-openapi.yml
   format: yaml
   label: Metabase Databases API
   slug: metabase-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabase/refs/heads/main/openapi/metabase-databases-api-openapi.yml
+  url: https://artifacts.apis.io/metabase/openapi/metabase-databases-api-openapi.yml
 - filename: metabase-datasets-api-openapi.yml
   format: yaml
   label: Metabase Datasets API
   slug: metabase-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabase/refs/heads/main/openapi/metabase-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/metabase/openapi/metabase-datasets-api-openapi.yml
 - filename: metabase-permissions-api-openapi.yml
   format: yaml
   label: Metabase Permissions API
   slug: metabase-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabase/refs/heads/main/openapi/metabase-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/metabase/openapi/metabase-permissions-api-openapi.yml
 - filename: metabase-search-api-openapi.yml
   format: yaml
   label: Metabase Search API
   slug: metabase-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabase/refs/heads/main/openapi/metabase-search-api-openapi.yml
+  url: https://artifacts.apis.io/metabase/openapi/metabase-search-api-openapi.yml
 - filename: metabase-sessions-api-openapi.yml
   format: yaml
   label: Metabase Sessions API
   slug: metabase-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabase/refs/heads/main/openapi/metabase-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/metabase/openapi/metabase-sessions-api-openapi.yml
 - filename: metabase-settings-api-openapi.yml
   format: yaml
   label: Metabase Settings API
   slug: metabase-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabase/refs/heads/main/openapi/metabase-settings-api-openapi.yml
+  url: https://artifacts.apis.io/metabase/openapi/metabase-settings-api-openapi.yml
 - filename: metabase-users-api-openapi.yml
   format: yaml
   label: Metabase Users API
   slug: metabase-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabase/refs/heads/main/openapi/metabase-users-api-openapi.yml
+  url: https://artifacts.apis.io/metabase/openapi/metabase-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -96,7 +96,7 @@ source_filename: metabase-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.metabase.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 24 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: your-metabase-instance.com\n  https: false\ndomains:\n- domain: metabase.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: your-metabase-instance.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metabase/refs/heads/main/security/metabase-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/metabase/security/metabase-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Metabase

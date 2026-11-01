@@ -36,12 +36,12 @@ source_filename: nickelytics-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: derived\nsource: openapi/nickelytics-rads-auth-openapi.json\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - cookie\nschemes:\n- name: apiKeyCookie\n  type: apiKey\n  in: cookie\n  parameter: apiKeyCookie\n  description: API Key authentication via cookie\n  sources:\n  - openapi/nickelytics-rads-auth-openapi.json\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token authentication\n  sources:\n  - openapi/nickelytics-rads-auth-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nickelytics/refs/heads/main/authentication/nickelytics-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nickelytics/authentication/nickelytics-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
 - Advertising
-- OOH
+- Out-of-Home
 - Digital Out Of Home
 - Programmatic Advertising
 - Mobility

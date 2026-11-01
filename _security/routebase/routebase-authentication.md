@@ -8,31 +8,31 @@ api_specs:
   label: Routebase API Specs API
   slug: routebase-api-specs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/openapi/routebase-api-specs-api-openapi.yml
+  url: https://artifacts.apis.io/routebase/openapi/routebase-api-specs-api-openapi.yml
 - filename: routebase-ci-test-runs-api-openapi.yml
   format: yaml
   label: Routebase CI & Test Runs API
   slug: routebase-ci-test-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/openapi/routebase-ci-test-runs-api-openapi.yml
+  url: https://artifacts.apis.io/routebase/openapi/routebase-ci-test-runs-api-openapi.yml
 - filename: routebase-docs-as-code-api-openapi.yml
   format: yaml
   label: Routebase Docs as Code API
   slug: routebase-docs-as-code-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/openapi/routebase-docs-as-code-api-openapi.yml
+  url: https://artifacts.apis.io/routebase/openapi/routebase-docs-as-code-api-openapi.yml
 - filename: routebase-scim-api-openapi.yml
   format: yaml
   label: Routebase SCIM API
   slug: routebase-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/openapi/routebase-scim-api-openapi.yml
+  url: https://artifacts.apis.io/routebase/openapi/routebase-scim-api-openapi.yml
 - filename: routebase-security-api-openapi.yml
   format: yaml
   label: Routebase Security API
   slug: routebase-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/openapi/routebase-security-api-openapi.yml
+  url: https://artifacts.apis.io/routebase/openapi/routebase-security-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -73,7 +73,7 @@ source_filename: routebase-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-11'\nmethod: derived\nsource: openapi/routebase-public-api-openapi.json\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: |-\n    An organization API key, created under Settings then API Keys. Keys start with\n    `rb_live_` and carry their own permission scopes, so a key only reaches what it\n    was granted.\n  sources:\n  - openapi/routebase-public-api-openapi.json\n- name: ScimBearerAuth\n  type: http\n  scheme: bearer\n  description: |-\n    The SCIM token of the organization, issued when SCIM provisioning is enabled.\n    It is separate from an API key and only unlocks the SCIM endpoints.\n  sources:\n  - openapi/routebase-public-api-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/authentication/routebase-authentication.yml
+source_yaml_url: https://artifacts.apis.io/routebase/authentication/routebase-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - API lifecycle management

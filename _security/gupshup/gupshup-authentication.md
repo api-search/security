@@ -7,19 +7,19 @@ api_specs:
   label: Gupshup Messaging API
   slug: gupshup-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gupshup/refs/heads/main/openapi/gupshup-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/gupshup/openapi/gupshup-messaging-api-openapi.yml
 - filename: gupshup-opt-in-api-openapi.yml
   format: yaml
   label: Gupshup Opt-In API
   slug: gupshup-opt-in-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gupshup/refs/heads/main/openapi/gupshup-opt-in-api-openapi.yml
+  url: https://artifacts.apis.io/gupshup/openapi/gupshup-opt-in-api-openapi.yml
 - filename: gupshup-templates-api-openapi.yml
   format: yaml
   label: Gupshup Templates API
   slug: gupshup-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gupshup/refs/heads/main/openapi/gupshup-templates-api-openapi.yml
+  url: https://artifacts.apis.io/gupshup/openapi/gupshup-templates-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: gupshup-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: derived\nsource: openapi/gupshup-openapi.yml\nsummary:\n  types:\n  - apiKey\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  keyName: apikey\n  description: >-\n    Account API key sent in the `apikey` HTTP request header on every call to\n    api.gupshup.io. Obtained from the Gupshup dashboard. The key scopes requests\n    to your account; individual operations additionally reference a registered app\n    by name (`src.name` field or the appName path segment). Self-serve - no OAuth\n    flow. The Partner API (partner.gupshup.io) uses a different model: a partner\n    token / app access token passed in the Authorization header rather than the\n    per-app apikey.\n  sources:\n  - openapi/gupshup-openapi.yml\n  - https://docs.gupshup.io/reference/msg\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gupshup/refs/heads/main/authentication/gupshup-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gupshup/authentication/gupshup-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Messaging

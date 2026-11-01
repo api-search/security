@@ -5,13 +5,13 @@ api_specs:
   label: National Institutes of Health Projects API
   slug: national-institutes-of-health-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-institutes-of-health/refs/heads/main/openapi/national-institutes-of-health-projects-api-openapi.yml
+  url: https://artifacts.apis.io/national-institutes-of-health/openapi/national-institutes-of-health-projects-api-openapi.yml
 - filename: national-institutes-of-health-publications-api-openapi.yml
   format: yaml
   label: National Institutes of Health Publications API
   slug: national-institutes-of-health-publications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-institutes-of-health/refs/heads/main/openapi/national-institutes-of-health-publications-api-openapi.yml
+  url: https://artifacts.apis.io/national-institutes-of-health/openapi/national-institutes-of-health-publications-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -53,7 +53,7 @@ source_filename: national-institutes-of-health-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nih.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 12:45:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.reporter.nih.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 19:39:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: nih.gov\n  dnssec: true\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"entrust.net\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-institutes-of-health/refs/heads/main/security/national-institutes-of-health-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/national-institutes-of-health/security/national-institutes-of-health-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Federal Government

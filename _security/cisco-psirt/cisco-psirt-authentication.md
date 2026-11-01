@@ -7,19 +7,19 @@ api_specs:
   label: Cisco PSIRT openVuln API Current Endpoints API
   slug: cisco-psirt-current-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-psirt/refs/heads/main/openapi/cisco-psirt-current-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-psirt/openapi/cisco-psirt-current-endpoints-api-openapi.yml
 - filename: cisco-psirt-obsolete-endpoints-api-openapi.yml
   format: yaml
   label: Cisco PSIRT openVuln API Obsolete Endpoints API
   slug: cisco-psirt-obsolete-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-psirt/refs/heads/main/openapi/cisco-psirt-obsolete-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-psirt/openapi/cisco-psirt-obsolete-endpoints-api-openapi.yml
 - filename: cisco-psirt-sunset-endpoints-api-openapi.yml
   format: yaml
   label: Cisco PSIRT openVuln API Sunset Endpoints API
   slug: cisco-psirt-sunset-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-psirt/refs/heads/main/openapi/cisco-psirt-sunset-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-psirt/openapi/cisco-psirt-sunset-endpoints-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-08-19'\nmethod: searched\nsource: https://develop
   \        The only scope observed in Cisco's own published token response. Cisco does\n        not document a scope reference or per-endpoint scopes for this API.\n    source: https://developer.cisco.com/docs/psirt/authentication/\n    note: >-\n      Not in the OpenAPI. Captured from the docs, which publish the exact\n      client-credentials exchange. SEARCHED, not derived.\nregistration:\n  console: https://apiconsole.cisco.com/\n  keys_page: https://apiconsole.cisco.com/apps/mykeys\n  identity: A Cisco.com ID is required; register one from the console if you have none.\n  steps:\n    - Log in to the Cisco API Console with a Cisco.com ID.\n    - Open \"My Apps & Keys\" and choose \"Register a New App\".\n    - Set Application Type to \"Service\".\n    - Set Grant Type to \"Client Credentials\".\n    - Select the \"Cisco PSIRT openVuln API\".\n    - Agree to the terms of service and register.\n    - Collect the resulting \"Key\" (client_id) and \"Client Secret\".\n  eligibility: >-\n\
   \    \"The openVuln API is open to registered Cisco customers and partners.\"\n    (https://github.com/CiscoPSIRT/openVulnAPI/blob/master/README.md)\n  migration_notice: >-\n    \"IMPORTANT: Current registered applications will be deprecated in coming\n    months. Please migrate your applications to continue using API's.\"\ntoken_exchange:\n  method: POST\n  url: https://id.cisco.com/oauth2/default/v1/token\n  content_type: application/x-www-form-urlencoded\n  parameters: [client_id, client_secret, grant_type=client_credentials]\n  client_authentication: >-\n    Credentials in the form body, or as an HTTP Basic header (Cisco's Postman\n    walkthrough sets \"Client Authentication: Send as Basic Auth Header\").\n  response_fields: [token_type, expires_in, access_token, scope]\n  lifetime_seconds: 3600\n  refresh: >-\n    No refresh token is issued. Client-credentials tokens are re-minted on expiry;\n    Cisco's own openVulnQuery client regenerates the token on every call.\nrequest_usage:\n\
   \  header: 'Authorization: Bearer <access_token>'\n  accept: 'application/json (or application/xml — the API serves .json and .xml)'\n  example_base: https://apix.cisco.com/security/advisories/v2\ngateway:\n  vendor: Mashery\n  evidence: >-\n    api.cisco.com and apix.cisco.com both return \"Server: Mashery Proxy\". An\n    unauthenticated GET on a real path\n    (https://apix.cisco.com/security/advisories/v2/all) returns 403; unrouted paths\n    return 504. HEAD is not supported (596).\nunauthenticated_access: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-psirt/refs/heads/main/authentication/cisco-psirt-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cisco-psirt/authentication/cisco-psirt-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Security

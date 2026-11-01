@@ -5,25 +5,25 @@ api_specs:
   label: Cloudinary Notifications and Webhooks
   slug: notifications
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudinary/refs/heads/main/asyncapi/cloudinary-notifications-asyncapi.yml
+  url: https://artifacts.apis.io/cloudinary/asyncapi/cloudinary-notifications-asyncapi.yml
 - filename: cloudinary-backup-api-openapi.yml
   format: yaml
   label: Cloudinary Backup API
   slug: cloudinary-backup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudinary/refs/heads/main/openapi/cloudinary-backup-api-openapi.yml
+  url: https://artifacts.apis.io/cloudinary/openapi/cloudinary-backup-api-openapi.yml
 - filename: cloudinary-transformation-api-openapi.yml
   format: yaml
   label: Cloudinary Transformation API
   slug: cloudinary-transformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudinary/refs/heads/main/openapi/cloudinary-transformation-api-openapi.yml
+  url: https://artifacts.apis.io/cloudinary/openapi/cloudinary-transformation-api-openapi.yml
 - filename: cloudinary-upload-api-openapi.yml
   format: yaml
   label: Cloudinary Upload API
   slug: cloudinary-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudinary/refs/heads/main/openapi/cloudinary-upload-api-openapi.yml
+  url: https://artifacts.apis.io/cloudinary/openapi/cloudinary-upload-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,7 +62,7 @@ source_filename: cloudinary-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cloudinary.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 19:39:12 2026 GMT\n  hsts: false\n- host: console.cloudinary.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 25 16:30:26 2026 GMT\n  hsts: false\n- host: api.cloudinary.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  9 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: cloudinary.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudinary/refs/heads/main/security/cloudinary-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cloudinary/security/cloudinary-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Asset Management

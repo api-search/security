@@ -26,7 +26,7 @@ source_filename: cerberus-tech-inc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: c7-security.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  2 22:01:33 2026 GMT\n  hsts: false\ndomains:\n- domain: c7-security.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cerberus-tech-inc/refs/heads/main/security/cerberus-tech-inc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cerberus-tech-inc/security/cerberus-tech-inc-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Company

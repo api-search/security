@@ -23,7 +23,7 @@ source_filename: rodin-therapeutics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: rodintherapeutics.com\n  https: false\ndomains:\n- domain: rodintherapeutics.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rodin-therapeutics/refs/heads/main/security/rodin-therapeutics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rodin-therapeutics/security/rodin-therapeutics-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

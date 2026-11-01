@@ -5,43 +5,43 @@ api_specs:
   label: Pie Insurance Appetite API
   slug: pie-insurance-appetite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/openapi/pie-insurance-appetite-api-openapi.yml
+  url: https://artifacts.apis.io/pie-insurance/openapi/pie-insurance-appetite-api-openapi.yml
 - filename: pie-insurance-classcodesearch-api-openapi.yml
   format: yaml
   label: Pie Insurance ClassCodeSearch API
   slug: pie-insurance-classcodesearch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/openapi/pie-insurance-classcodesearch-api-openapi.yml
+  url: https://artifacts.apis.io/pie-insurance/openapi/pie-insurance-classcodesearch-api-openapi.yml
 - filename: pie-insurance-eligibility-api-openapi.yml
   format: yaml
   label: Pie Insurance Eligibility API
   slug: pie-insurance-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/openapi/pie-insurance-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/pie-insurance/openapi/pie-insurance-eligibility-api-openapi.yml
 - filename: pie-insurance-priceindication-api-openapi.yml
   format: yaml
   label: Pie Insurance PriceIndication API
   slug: pie-insurance-priceindication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/openapi/pie-insurance-priceindication-api-openapi.yml
+  url: https://artifacts.apis.io/pie-insurance/openapi/pie-insurance-priceindication-api-openapi.yml
 - filename: pie-insurance-quotedocument-api-openapi.yml
   format: yaml
   label: Pie Insurance QuoteDocument API
   slug: pie-insurance-quotedocument-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/openapi/pie-insurance-quotedocument-api-openapi.yml
+  url: https://artifacts.apis.io/pie-insurance/openapi/pie-insurance-quotedocument-api-openapi.yml
 - filename: pie-insurance-quotepdf-api-openapi.yml
   format: yaml
   label: Pie Insurance QuotePdf API
   slug: pie-insurance-quotepdf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/openapi/pie-insurance-quotepdf-api-openapi.yml
+  url: https://artifacts.apis.io/pie-insurance/openapi/pie-insurance-quotepdf-api-openapi.yml
 - filename: pie-insurance-quotes-api-openapi.yml
   format: yaml
   label: Pie Insurance Quotes API
   slug: pie-insurance-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/openapi/pie-insurance-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/pie-insurance/openapi/pie-insurance-quotes-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -82,7 +82,7 @@ source_filename: pie-insurance-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.pieinsurance.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 14:42:33 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.post-prod.pieinsurance.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: pieinsurance.com\n  dnssec: false\n  caa:\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issuewild \"amazontrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/security/pie-insurance-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pie-insurance/security/pie-insurance-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance

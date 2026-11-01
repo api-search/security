@@ -5,73 +5,73 @@ api_specs:
   label: Apache Tika Apache Tika Server REST API
   slug: apache-tika-apache-tika-server-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-tika/refs/heads/main/openapi/apache-tika-apache-tika-server-rest-api-api-openapi.yml
+  url: https://artifacts.apis.io/apache-tika/openapi/apache-tika-apache-tika-server-rest-api-api-openapi.yml
 - filename: apache-tika-detect-api-openapi.yml
   format: yaml
   label: Apache Tika Detect API
   slug: apache-tika-detect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-tika/refs/heads/main/openapi/apache-tika-detect-api-openapi.yml
+  url: https://artifacts.apis.io/apache-tika/openapi/apache-tika-detect-api-openapi.yml
 - filename: apache-tika-detectors-api-openapi.yml
   format: yaml
   label: Apache Tika Detectors API
   slug: apache-tika-detectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-tika/refs/heads/main/openapi/apache-tika-detectors-api-openapi.yml
+  url: https://artifacts.apis.io/apache-tika/openapi/apache-tika-detectors-api-openapi.yml
 - filename: apache-tika-language-api-openapi.yml
   format: yaml
   label: Apache Tika Language API
   slug: apache-tika-language-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-tika/refs/heads/main/openapi/apache-tika-language-api-openapi.yml
+  url: https://artifacts.apis.io/apache-tika/openapi/apache-tika-language-api-openapi.yml
 - filename: apache-tika-meta-api-openapi.yml
   format: yaml
   label: Apache Tika Meta API
   slug: apache-tika-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-tika/refs/heads/main/openapi/apache-tika-meta-api-openapi.yml
+  url: https://artifacts.apis.io/apache-tika/openapi/apache-tika-meta-api-openapi.yml
 - filename: apache-tika-mime-types-api-openapi.yml
   format: yaml
   label: Apache Tika Mime Types API
   slug: apache-tika-mime-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-tika/refs/heads/main/openapi/apache-tika-mime-types-api-openapi.yml
+  url: https://artifacts.apis.io/apache-tika/openapi/apache-tika-mime-types-api-openapi.yml
 - filename: apache-tika-parsers-api-openapi.yml
   format: yaml
   label: Apache Tika Parsers API
   slug: apache-tika-parsers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-tika/refs/heads/main/openapi/apache-tika-parsers-api-openapi.yml
+  url: https://artifacts.apis.io/apache-tika/openapi/apache-tika-parsers-api-openapi.yml
 - filename: apache-tika-rmeta-api-openapi.yml
   format: yaml
   label: Apache Tika Rmeta API
   slug: apache-tika-rmeta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-tika/refs/heads/main/openapi/apache-tika-rmeta-api-openapi.yml
+  url: https://artifacts.apis.io/apache-tika/openapi/apache-tika-rmeta-api-openapi.yml
 - filename: apache-tika-status-api-openapi.yml
   format: yaml
   label: Apache Tika Status API
   slug: apache-tika-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-tika/refs/heads/main/openapi/apache-tika-status-api-openapi.yml
+  url: https://artifacts.apis.io/apache-tika/openapi/apache-tika-status-api-openapi.yml
 - filename: apache-tika-tika-api-openapi.yml
   format: yaml
   label: Apache Tika API
   slug: apache-tika-tika-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-tika/refs/heads/main/openapi/apache-tika-tika-api-openapi.yml
+  url: https://artifacts.apis.io/apache-tika/openapi/apache-tika-tika-api-openapi.yml
 - filename: apache-tika-translate-api-openapi.yml
   format: yaml
   label: Apache Tika Translate API
   slug: apache-tika-translate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-tika/refs/heads/main/openapi/apache-tika-translate-api-openapi.yml
+  url: https://artifacts.apis.io/apache-tika/openapi/apache-tika-translate-api-openapi.yml
 - filename: apache-tika-unpack-api-openapi.yml
   format: yaml
   label: Apache Tika Unpack API
   slug: apache-tika-unpack-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-tika/refs/heads/main/openapi/apache-tika-unpack-api-openapi.yml
+  url: https://artifacts.apis.io/apache-tika/openapi/apache-tika-unpack-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -111,7 +111,7 @@ source_filename: apache-tika-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tika.apache.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 23:33:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: cwiki.apache.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 04:10:25 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: apache.org\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:root@apache.org\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-tika/refs/heads/main/security/apache-tika-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apache-tika/security/apache-tika-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Content Extraction

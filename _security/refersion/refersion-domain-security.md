@@ -5,25 +5,25 @@ api_specs:
   label: Refersion Affiliates API
   slug: refersion-affiliates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/openapi/refersion-affiliates-api-openapi.yml
+  url: https://artifacts.apis.io/refersion/openapi/refersion-affiliates-api-openapi.yml
 - filename: refersion-conversions-api-openapi.yml
   format: yaml
   label: Refersion Conversions API
   slug: refersion-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/openapi/refersion-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/refersion/openapi/refersion-conversions-api-openapi.yml
 - filename: refersion-offers-api-openapi.yml
   format: yaml
   label: Refersion Offers API
   slug: refersion-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/openapi/refersion-offers-api-openapi.yml
+  url: https://artifacts.apis.io/refersion/openapi/refersion-offers-api-openapi.yml
 - filename: refersion-reporting-api-openapi.yml
   format: yaml
   label: Refersion Reporting API
   slug: refersion-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/openapi/refersion-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/refersion/openapi/refersion-reporting-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: refersion-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.refersion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 12:40:40 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: www.refersion.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 21:45:01 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.refersion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 09:36:26 2026 GMT\n  hsts: null\ndomains:\n- domain: refersion.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: refersion.dev\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/security/refersion-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/refersion/security/refersion-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Affiliate Marketing

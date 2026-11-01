@@ -14,7 +14,7 @@ api_specs:
   label: Statuspage Pages API
   slug: statuspage-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statuspage/refs/heads/main/openapi/statuspage-pages-api-openapi.yml
+  url: https://artifacts.apis.io/statuspage/openapi/statuspage-pages-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -44,7 +44,7 @@ source_filename: statuspage-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/statuspage-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: |-\n    Pass `Authorization: OAuth <api_key>`. The API key may alternatively\n    be provided via the `api_key` query parameter.\n  sources:\n  - openapi/statuspage-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/statuspage/refs/heads/main/authentication/statuspage-authentication.yml
+source_yaml_url: https://artifacts.apis.io/statuspage/authentication/statuspage-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Status Pages

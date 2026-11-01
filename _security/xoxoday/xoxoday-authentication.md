@@ -7,19 +7,19 @@ api_specs:
   label: Xoxoday Authentication API
   slug: xoxoday-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xoxoday/refs/heads/main/openapi/xoxoday-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/xoxoday/openapi/xoxoday-authentication-api-openapi.yml
 - filename: xoxoday-gift-cards-api-openapi.yml
   format: yaml
   label: Xoxoday Gift Cards API
   slug: xoxoday-gift-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xoxoday/refs/heads/main/openapi/xoxoday-gift-cards-api-openapi.yml
+  url: https://artifacts.apis.io/xoxoday/openapi/xoxoday-gift-cards-api-openapi.yml
 - filename: xoxoday-reward-links-api-openapi.yml
   format: yaml
   label: Xoxoday Reward Links API
   slug: xoxoday-reward-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xoxoday/refs/heads/main/openapi/xoxoday-reward-links-api-openapi.yml
+  url: https://artifacts.apis.io/xoxoday/openapi/xoxoday-reward-links-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -55,7 +55,7 @@ source_filename: xoxoday-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2ClientCredentials\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://accounts.xoxoday.com/chef/v1/oauth/token\n    scopes: 0\n  sources:\n  - openapi/openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xoxoday/refs/heads/main/authentication/xoxoday-authentication.yml
+source_yaml_url: https://artifacts.apis.io/xoxoday/authentication/xoxoday-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Rewards

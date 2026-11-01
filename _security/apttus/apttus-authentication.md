@@ -28,7 +28,7 @@ source_heading: Authentication Profile
 source_url: https://developer.conga.com/platform/reference/authentication.md
 source_yaml: "generated: '2026-09-25'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://developer.conga.com/platform/reference/authentication.md\nsources:\n- https://developer.conga.com/platform/reference/authentication.md\n- https://developer.conga.com/platform/reference/post_api-external-endpoint-config-v1-credentials-1.md\n- https://developer.conga.com/platform/reference/put_api-external-endpoint-config-v1-credentials-1.md\n- https://developer.conga.com/platform/reference/get_api-external-endpoint-config-v1-credentials-name-1.md\ndescription: Conga’s REST API authentication requires a bearer token.\nschemes:\n- type: http-bearer\n  name: Authorization\n  evidence: Conga’s REST API authentication requires a bearer token.\n  location: header\n  header: Authorization\n  token_url: https://login-rls.congacloud.com/api/v1/auth/connect/token\n  how_to_obtain: Generate an authentication token via the Auth Access Token API call using client_id and client_secret\
   \ with grant_type 'client_credentials'.\ndocs: https://developer.conga.com/platform/reference/authentication.md\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apttus/refs/heads/main/authentication/apttus-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apttus/authentication/apttus-authentication.yml
 summary_line: 1 scheme
 tags:
 - Software-as-a-Service

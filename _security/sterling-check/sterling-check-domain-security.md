@@ -5,43 +5,43 @@ api_specs:
   label: Sterling Authentication API
   slug: sterling-check-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sterling-check/openapi/sterling-check-authentication-api-openapi.yml
 - filename: sterling-check-candidates-api-openapi.yml
   format: yaml
   label: Sterling Candidates API
   slug: sterling-check-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-candidates-api-openapi.yml
+  url: https://artifacts.apis.io/sterling-check/openapi/sterling-check-candidates-api-openapi.yml
 - filename: sterling-check-invites-api-openapi.yml
   format: yaml
   label: Sterling Invites API
   slug: sterling-check-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-invites-api-openapi.yml
+  url: https://artifacts.apis.io/sterling-check/openapi/sterling-check-invites-api-openapi.yml
 - filename: sterling-check-packages-api-openapi.yml
   format: yaml
   label: Sterling Packages API
   slug: sterling-check-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-packages-api-openapi.yml
+  url: https://artifacts.apis.io/sterling-check/openapi/sterling-check-packages-api-openapi.yml
 - filename: sterling-check-reports-api-openapi.yml
   format: yaml
   label: Sterling Reports API
   slug: sterling-check-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-reports-api-openapi.yml
+  url: https://artifacts.apis.io/sterling-check/openapi/sterling-check-reports-api-openapi.yml
 - filename: sterling-check-screenings-api-openapi.yml
   format: yaml
   label: Sterling Screenings API
   slug: sterling-check-screenings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-screenings-api-openapi.yml
+  url: https://artifacts.apis.io/sterling-check/openapi/sterling-check-screenings-api-openapi.yml
 - filename: sterling-check-webhooks-api-openapi.yml
   format: yaml
   label: Sterling Webhooks API
   slug: sterling-check-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/sterling-check/openapi/sterling-check-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -85,7 +85,7 @@ source_filename: sterling-check-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sterlingcheck.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 11:19:50 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: apidocs.sterlingcheck.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 17:53:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.sterlingcheck.app\n  https: false\ndomains:\n- domain: sterlingcheck.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: sterlingcheck.app\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/security/sterling-check-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sterling-check/security/sterling-check-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Background Screening

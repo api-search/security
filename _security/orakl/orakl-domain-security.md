@@ -5,55 +5,55 @@ api_specs:
   label: Orakl CommonContent API
   slug: orakl-commoncontent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/openapi/orakl-commoncontent-api-openapi.yml
+  url: https://artifacts.apis.io/orakl/openapi/orakl-commoncontent-api-openapi.yml
 - filename: orakl-customform-api-openapi.yml
   format: yaml
   label: Orakl CustomForm API
   slug: orakl-customform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/openapi/orakl-customform-api-openapi.yml
+  url: https://artifacts.apis.io/orakl/openapi/orakl-customform-api-openapi.yml
 - filename: orakl-folder-api-openapi.yml
   format: yaml
   label: Orakl Folder API
   slug: orakl-folder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/openapi/orakl-folder-api-openapi.yml
+  url: https://artifacts.apis.io/orakl/openapi/orakl-folder-api-openapi.yml
 - filename: orakl-login-check-api-openapi.yml
   format: yaml
   label: Orakl Login Check API
   slug: orakl-login-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/openapi/orakl-login-check-api-openapi.yml
+  url: https://artifacts.apis.io/orakl/openapi/orakl-login-check-api-openapi.yml
 - filename: orakl-nodessources-api-openapi.yml
   format: yaml
   label: Orakl NodesSources API
   slug: orakl-nodessources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/openapi/orakl-nodessources-api-openapi.yml
+  url: https://artifacts.apis.io/orakl/openapi/orakl-nodessources-api-openapi.yml
 - filename: orakl-page-api-openapi.yml
   format: yaml
   label: Orakl Page API
   slug: orakl-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/openapi/orakl-page-api-openapi.yml
+  url: https://artifacts.apis.io/orakl/openapi/orakl-page-api-openapi.yml
 - filename: orakl-tag-api-openapi.yml
   format: yaml
   label: Orakl Tag API
   slug: orakl-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/openapi/orakl-tag-api-openapi.yml
+  url: https://artifacts.apis.io/orakl/openapi/orakl-tag-api-openapi.yml
 - filename: orakl-translation-api-openapi.yml
   format: yaml
   label: Orakl Translation API
   slug: orakl-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/openapi/orakl-translation-api-openapi.yml
+  url: https://artifacts.apis.io/orakl/openapi/orakl-translation-api-openapi.yml
 - filename: orakl-webresponse-api-openapi.yml
   format: yaml
   label: Orakl WebResponse API
   slug: orakl-webresponse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/openapi/orakl-webresponse-api-openapi.yml
+  url: https://artifacts.apis.io/orakl/openapi/orakl-webresponse-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: orakl-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.orakl-oncology.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 19:02:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: orakl-oncology.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/security/orakl-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/orakl/security/orakl-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

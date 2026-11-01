@@ -5,43 +5,43 @@ api_specs:
   label: University of Minnesota Catchment API
   slug: university-of-minnesota-catchment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-catchment-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-minnesota/openapi/university-of-minnesota-catchment-api-openapi.yml
 - filename: university-of-minnesota-dataset-api-openapi.yml
   format: yaml
   label: University of Minnesota Dataset API
   slug: university-of-minnesota-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-minnesota/openapi/university-of-minnesota-dataset-api-openapi.yml
 - filename: university-of-minnesota-item-api-openapi.yml
   format: yaml
   label: University of Minnesota Item API
   slug: university-of-minnesota-item-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-item-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-minnesota/openapi/university-of-minnesota-item-api-openapi.yml
 - filename: university-of-minnesota-lake-api-openapi.yml
   format: yaml
   label: University of Minnesota Lake API
   slug: university-of-minnesota-lake-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-lake-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-minnesota/openapi/university-of-minnesota-lake-api-openapi.yml
 - filename: university-of-minnesota-pedtools-api-openapi.yml
   format: yaml
   label: University of Minnesota Pedtools API
   slug: university-of-minnesota-pedtools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-pedtools-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-minnesota/openapi/university-of-minnesota-pedtools-api-openapi.yml
 - filename: university-of-minnesota-search-json-api-openapi.yml
   format: yaml
   label: University of Minnesota Search.json API
   slug: university-of-minnesota-search-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-search-json-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-minnesota/openapi/university-of-minnesota-search-json-api-openapi.yml
 - filename: university-of-minnesota-co-p-api-openapi.yml
   format: yaml
   label: University of Minnesota Co P API
   slug: university-of-minnesota-co-p-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-co-p-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-minnesota/openapi/university-of-minnesota-co-p-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -86,7 +86,7 @@ source_filename: university-of-minnesota-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: twin-cities.umn.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 05:47:55 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: sites.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: integration-boomi.umn.edu\n  https: false\ndomains:\n- domain: umn.edu\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/security/university-of-minnesota-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/university-of-minnesota/security/university-of-minnesota-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - University

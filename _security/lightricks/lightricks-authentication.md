@@ -7,19 +7,19 @@ api_specs:
   label: Lightricks Async Video Generation API
   slug: lightricks-asyncvideogeneration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightricks/refs/heads/main/openapi/lightricks-asyncvideogeneration-api-openapi.yml
+  url: https://artifacts.apis.io/lightricks/openapi/lightricks-asyncvideogeneration-api-openapi.yml
 - filename: lightricks-upload-api-openapi.yml
   format: yaml
   label: Lightricks Upload API
   slug: lightricks-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightricks/refs/heads/main/openapi/lightricks-upload-api-openapi.yml
+  url: https://artifacts.apis.io/lightricks/openapi/lightricks-upload-api-openapi.yml
 - filename: lightricks-video-generation-api-openapi.yml
   format: yaml
   label: Lightricks Video Generation API
   slug: lightricks-video-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightricks/refs/heads/main/openapi/lightricks-video-generation-api-openapi.yml
+  url: https://artifacts.apis.io/lightricks/openapi/lightricks-video-generation-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -47,7 +47,7 @@ source_filename: lightricks-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/lightricks-ltx-openapi-original.json, openapi/lightricks-ltx-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: API key authentication\n  sources:\n  - openapi/lightricks-ltx-openapi-original.json\n  - openapi/lightricks-ltx-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightricks/refs/heads/main/authentication/lightricks-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lightricks/authentication/lightricks-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

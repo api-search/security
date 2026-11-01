@@ -7,19 +7,19 @@ api_specs:
   label: Microsoft OneDrive Drives API
   slug: microsoft-onedrive-drives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-onedrive/refs/heads/main/openapi/microsoft-onedrive-drives-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-onedrive/openapi/microsoft-onedrive-drives-api-openapi.yml
 - filename: microsoft-onedrive-sharing-api-openapi.yml
   format: yaml
   label: Microsoft OneDrive Sharing API
   slug: microsoft-onedrive-sharing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-onedrive/refs/heads/main/openapi/microsoft-onedrive-sharing-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-onedrive/openapi/microsoft-onedrive-sharing-api-openapi.yml
 - filename: microsoft-onedrive-drive-items-api-openapi.yml
   format: yaml
   label: Microsoft OneDrive Drive Items API
   slug: microsoft-onedrive-drive-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-onedrive/refs/heads/main/openapi/microsoft-onedrive-drive-items-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-onedrive/openapi/microsoft-onedrive-drive-items-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: microsoft-onedrive-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-onedrive-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/microsoft-onedrive-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-onedrive/refs/heads/main/authentication/microsoft-onedrive-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-onedrive/authentication/microsoft-onedrive-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Cloud Storage

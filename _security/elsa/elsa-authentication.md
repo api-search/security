@@ -8,13 +8,13 @@ api_specs:
   label: ELSA Scripted API
   slug: elsa-scripted-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsa/refs/heads/main/openapi/elsa-scripted-api-openapi.yml
+  url: https://artifacts.apis.io/elsa/openapi/elsa-scripted-api-openapi.yml
 - filename: elsa-unscripted-api-openapi.yml
   format: yaml
   label: ELSA Unscripted API
   slug: elsa-unscripted-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsa/refs/heads/main/openapi/elsa-unscripted-api-openapi.yml
+  url: https://artifacts.apis.io/elsa/openapi/elsa-unscripted-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: elsa-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/elsa-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ElsaAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'API token passed in the Authorization header using the ELSA scheme, e.g. \"Authorization:\n    ELSA <API_token>\". Tokens are issued to partners; an optional master key can generate tokens\n    programmatically. Request access via the ELSA website.'\n  sources:\n  - openapi/elsa-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elsa/refs/heads/main/authentication/elsa-authentication.yml
+source_yaml_url: https://artifacts.apis.io/elsa/authentication/elsa-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Speech Assessment

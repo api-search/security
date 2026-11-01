@@ -5,25 +5,25 @@ api_specs:
   label: BankruptcyWatch Cases API
   slug: bankruptcywatch-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankruptcywatch/refs/heads/main/openapi/bankruptcywatch-cases-api-openapi.yml
+  url: https://artifacts.apis.io/bankruptcywatch/openapi/bankruptcywatch-cases-api-openapi.yml
 - filename: bankruptcywatch-claims-api-openapi.yml
   format: yaml
   label: BankruptcyWatch Claims API
   slug: bankruptcywatch-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankruptcywatch/refs/heads/main/openapi/bankruptcywatch-claims-api-openapi.yml
+  url: https://artifacts.apis.io/bankruptcywatch/openapi/bankruptcywatch-claims-api-openapi.yml
 - filename: bankruptcywatch-docket-api-openapi.yml
   format: yaml
   label: BankruptcyWatch Docket API
   slug: bankruptcywatch-docket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankruptcywatch/refs/heads/main/openapi/bankruptcywatch-docket-api-openapi.yml
+  url: https://artifacts.apis.io/bankruptcywatch/openapi/bankruptcywatch-docket-api-openapi.yml
 - filename: bankruptcywatch-monitoring-api-openapi.yml
   format: yaml
   label: BankruptcyWatch Monitoring API
   slug: bankruptcywatch-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankruptcywatch/refs/heads/main/openapi/bankruptcywatch-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/bankruptcywatch/openapi/bankruptcywatch-monitoring-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -55,7 +55,7 @@ source_filename: bankruptcywatch-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bankruptcywatch.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 08:14:02 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.bankruptcywatch.com\n  https: false\ndomains:\n- domain: bankruptcywatch.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bankruptcywatch/refs/heads/main/security/bankruptcywatch-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bankruptcywatch/security/bankruptcywatch-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Bankruptcy

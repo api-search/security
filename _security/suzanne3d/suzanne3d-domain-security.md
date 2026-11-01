@@ -5,25 +5,25 @@ api_specs:
   label: Suzanne Generations API
   slug: suzanne3d-generations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suzanne3d/refs/heads/main/openapi/suzanne3d-generations-api-openapi.yml
+  url: https://artifacts.apis.io/suzanne3d/openapi/suzanne3d-generations-api-openapi.yml
 - filename: suzanne3d-jobs-api-openapi.yml
   format: yaml
   label: Suzanne Jobs API
   slug: suzanne3d-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suzanne3d/refs/heads/main/openapi/suzanne3d-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/suzanne3d/openapi/suzanne3d-jobs-api-openapi.yml
 - filename: suzanne3d-models-api-openapi.yml
   format: yaml
   label: Suzanne Models API
   slug: suzanne3d-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suzanne3d/refs/heads/main/openapi/suzanne3d-models-api-openapi.yml
+  url: https://artifacts.apis.io/suzanne3d/openapi/suzanne3d-models-api-openapi.yml
 - filename: suzanne3d-uploads-api-openapi.yml
   format: yaml
   label: Suzanne Uploads API
   slug: suzanne3d-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suzanne3d/refs/heads/main/openapi/suzanne3d-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/suzanne3d/openapi/suzanne3d-uploads-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: suzanne3d-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: suzanne3d.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 18:27:27 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: suzanne3d.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/suzanne3d/refs/heads/main/security/suzanne3d-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/suzanne3d/security/suzanne3d-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

@@ -8,61 +8,61 @@ api_specs:
   label: Heidi Health Ask Heidi API
   slug: heidi-health-ask-heidi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-ask-heidi-api-openapi.yml
+  url: https://artifacts.apis.io/heidi-health/openapi/heidi-health-ask-heidi-api-openapi.yml
 - filename: heidi-health-authentication-api-openapi.yml
   format: yaml
   label: Heidi Health Authentication API
   slug: heidi-health-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/heidi-health/openapi/heidi-health-authentication-api-openapi.yml
 - filename: heidi-health-clinical-coding-api-openapi.yml
   format: yaml
   label: Heidi Health Clinical Coding API
   slug: heidi-health-clinical-coding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-clinical-coding-api-openapi.yml
+  url: https://artifacts.apis.io/heidi-health/openapi/heidi-health-clinical-coding-api-openapi.yml
 - filename: heidi-health-consult-notes-api-openapi.yml
   format: yaml
   label: Heidi Health Consult Notes API
   slug: heidi-health-consult-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-consult-notes-api-openapi.yml
+  url: https://artifacts.apis.io/heidi-health/openapi/heidi-health-consult-notes-api-openapi.yml
 - filename: heidi-health-documents-api-openapi.yml
   format: yaml
   label: Heidi Health Documents API
   slug: heidi-health-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-documents-api-openapi.yml
+  url: https://artifacts.apis.io/heidi-health/openapi/heidi-health-documents-api-openapi.yml
 - filename: heidi-health-patient-profiles-api-openapi.yml
   format: yaml
   label: Heidi Health Patient Profiles API
   slug: heidi-health-patient-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-patient-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/heidi-health/openapi/heidi-health-patient-profiles-api-openapi.yml
 - filename: heidi-health-session-context-api-openapi.yml
   format: yaml
   label: Heidi Health Session Context API
   slug: heidi-health-session-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-session-context-api-openapi.yml
+  url: https://artifacts.apis.io/heidi-health/openapi/heidi-health-session-context-api-openapi.yml
 - filename: heidi-health-sessions-api-openapi.yml
   format: yaml
   label: Heidi Health Sessions API
   slug: heidi-health-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/heidi-health/openapi/heidi-health-sessions-api-openapi.yml
 - filename: heidi-health-templates-api-openapi.yml
   format: yaml
   label: Heidi Health Templates API
   slug: heidi-health-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-templates-api-openapi.yml
+  url: https://artifacts.apis.io/heidi-health/openapi/heidi-health-templates-api-openapi.yml
 - filename: heidi-health-transcription-api-openapi.yml
   format: yaml
   label: Heidi Health Transcription API
   slug: heidi-health-transcription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-transcription-api-openapi.yml
+  url: https://artifacts.apis.io/heidi-health/openapi/heidi-health-transcription-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -96,7 +96,7 @@ source_filename: heidi-health-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/heidi-health-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: heidiApiKey\n  type: apiKey\n  in: header\n  parameter: Heidi-Api-Key\n  sources:\n  - openapi/heidi-health-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/heidi-health-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/authentication/heidi-health-authentication.yml
+source_yaml_url: https://artifacts.apis.io/heidi-health/authentication/heidi-health-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Healthcare

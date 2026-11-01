@@ -28,7 +28,7 @@ source_filename: inflammatix-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-01'\nmethod: derived\nsource: openapi/inflammatix-content-openapi.yml, openapi/inflammatix-support-content-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: applicationPassword\n  type: http\n  scheme: basic\n  description: WordPress Application Passwords, advertised by the site's own REST index (authentication.application-passwords.endpoints.authorization\n    = https://inflammatix.com/wp-admin/authorize-application.php). Required only for write operations\n    and non-public collections; the operations modelled here are anonymously readable.\n  sources:\n  - openapi/inflammatix-content-openapi.yml\n  - openapi/inflammatix-support-content-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/authentication/inflammatix-authentication.yml
+source_yaml_url: https://artifacts.apis.io/inflammatix/authentication/inflammatix-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

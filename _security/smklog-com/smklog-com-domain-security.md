@@ -5,19 +5,19 @@ api_specs:
   label: SMKlog Checkout API
   slug: smklog-com-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smklog-com/refs/heads/main/openapi/smklog-com-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/smklog-com/openapi/smklog-com-checkout-api-openapi.yml
 - filename: smklog-com-operations-api-openapi.yml
   format: yaml
   label: SMKlog Operations API
   slug: smklog-com-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smklog-com/refs/heads/main/openapi/smklog-com-operations-api-openapi.yml
+  url: https://artifacts.apis.io/smklog-com/openapi/smklog-com-operations-api-openapi.yml
 - filename: smklog-com-quotes-api-openapi.yml
   format: yaml
   label: SMKlog Quotes API
   slug: smklog-com-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smklog-com/refs/heads/main/openapi/smklog-com-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/smklog-com/openapi/smklog-com-quotes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: smklog-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: smklog.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 20 02:45:24 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: quote-api.smklog.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 21:27:59 2026 GMT\n  hsts: false\ndomains:\n- domain: smklog.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smklog-com/refs/heads/main/security/smklog-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/smklog-com/security/smklog-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

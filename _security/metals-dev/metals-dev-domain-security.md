@@ -5,31 +5,31 @@ api_specs:
   label: Metals.Dev Account API
   slug: metals-dev-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metals-dev/refs/heads/main/openapi/metals-dev-account-api-openapi.yml
+  url: https://artifacts.apis.io/metals-dev/openapi/metals-dev-account-api-openapi.yml
 - filename: metals-dev-authority-api-openapi.yml
   format: yaml
   label: Metals.Dev Authority API
   slug: metals-dev-authority-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metals-dev/refs/heads/main/openapi/metals-dev-authority-api-openapi.yml
+  url: https://artifacts.apis.io/metals-dev/openapi/metals-dev-authority-api-openapi.yml
 - filename: metals-dev-currency-api-openapi.yml
   format: yaml
   label: Metals.Dev Currency API
   slug: metals-dev-currency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metals-dev/refs/heads/main/openapi/metals-dev-currency-api-openapi.yml
+  url: https://artifacts.apis.io/metals-dev/openapi/metals-dev-currency-api-openapi.yml
 - filename: metals-dev-rates-api-openapi.yml
   format: yaml
   label: Metals.Dev Rates API
   slug: metals-dev-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metals-dev/refs/heads/main/openapi/metals-dev-rates-api-openapi.yml
+  url: https://artifacts.apis.io/metals-dev/openapi/metals-dev-rates-api-openapi.yml
 - filename: metals-dev-spot-prices-api-openapi.yml
   format: yaml
   label: Metals.Dev Spot Prices API
   slug: metals-dev-spot-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metals-dev/refs/heads/main/openapi/metals-dev-spot-prices-api-openapi.yml
+  url: https://artifacts.apis.io/metals-dev/openapi/metals-dev-spot-prices-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: metals-dev-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: metals.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 03:17:14 2026 GMT\n  hsts: false\n- host: api.metals.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 23:59:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\ndomains:\n- domain: metals.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metals-dev/refs/heads/main/security/metals-dev-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/metals-dev/security/metals-dev-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Financial Data

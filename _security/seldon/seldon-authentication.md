@@ -13,151 +13,151 @@ api_specs:
   label: Seldon AlertingService API
   slug: seldon-alertingservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-alertingservice-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-alertingservice-api-openapi.yml
 - filename: seldon-driftdetector-api-openapi.yml
   format: yaml
   label: Seldon DriftDetector API
   slug: seldon-driftdetector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-driftdetector-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-driftdetector-api-openapi.yml
 - filename: seldon-environment-api-openapi.yml
   format: yaml
   label: Seldon Environment API
   slug: seldon-environment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-environment-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-environment-api-openapi.yml
 - filename: seldon-experiments-api-openapi.yml
   format: yaml
   label: Seldon Experiments API
   slug: seldon-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-experiments-api-openapi.yml
 - filename: seldon-explain-api-openapi.yml
   format: yaml
   label: Seldon Explain API
   slug: seldon-explain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-explain-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-explain-api-openapi.yml
 - filename: seldon-health-api-openapi.yml
   format: yaml
   label: Seldon Health API
   slug: seldon-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-health-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-health-api-openapi.yml
 - filename: seldon-inferencelogsservice-api-openapi.yml
   format: yaml
   label: Seldon InferenceLogsService API
   slug: seldon-inferencelogsservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-inferencelogsservice-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-inferencelogsservice-api-openapi.yml
 - filename: seldon-internal-api-openapi.yml
   format: yaml
   label: Seldon Internal API
   slug: seldon-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-internal-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-internal-api-openapi.yml
 - filename: seldon-kubernetesresources-api-openapi.yml
   format: yaml
   label: Seldon KubernetesResources API
   slug: seldon-kubernetesresources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-kubernetesresources-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-kubernetesresources-api-openapi.yml
 - filename: seldon-loadtestjobs-api-openapi.yml
   format: yaml
   label: Seldon LoadtestJobs API
   slug: seldon-loadtestjobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-loadtestjobs-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-loadtestjobs-api-openapi.yml
 - filename: seldon-metadata-api-openapi.yml
   format: yaml
   label: Seldon Metadata API
   slug: seldon-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-metadata-api-openapi.yml
 - filename: seldon-metricsserver-api-openapi.yml
   format: yaml
   label: Seldon MetricsServer API
   slug: seldon-metricsserver-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-metricsserver-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-metricsserver-api-openapi.yml
 - filename: seldon-modelmetadataservice-api-openapi.yml
   format: yaml
   label: Seldon ModelMetadataService API
   slug: seldon-modelmetadataservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-modelmetadataservice-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-modelmetadataservice-api-openapi.yml
 - filename: seldon-models-api-openapi.yml
   format: yaml
   label: Seldon Models API
   slug: seldon-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-models-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-models-api-openapi.yml
 - filename: seldon-monitor-api-openapi.yml
   format: yaml
   label: Seldon Monitor API
   slug: seldon-monitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-monitor-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-monitor-api-openapi.yml
 - filename: seldon-outlierdetector-api-openapi.yml
   format: yaml
   label: Seldon OutlierDetector API
   slug: seldon-outlierdetector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-outlierdetector-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-outlierdetector-api-openapi.yml
 - filename: seldon-permissionmanagementservice-api-openapi.yml
   format: yaml
   label: Seldon PermissionManagementService API
   slug: seldon-permissionmanagementservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-permissionmanagementservice-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-permissionmanagementservice-api-openapi.yml
 - filename: seldon-pipelines-api-openapi.yml
   format: yaml
   label: Seldon Pipelines API
   slug: seldon-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-pipelines-api-openapi.yml
 - filename: seldon-predict-api-openapi.yml
   format: yaml
   label: Seldon Predict API
   slug: seldon-predict-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-predict-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-predict-api-openapi.yml
 - filename: seldon-secretsservice-api-openapi.yml
   format: yaml
   label: Seldon SecretsService API
   slug: seldon-secretsservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-secretsservice-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-secretsservice-api-openapi.yml
 - filename: seldon-seldondeployments-api-openapi.yml
   format: yaml
   label: Seldon SeldonDeployments API
   slug: seldon-seldondeployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-seldondeployments-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-seldondeployments-api-openapi.yml
 - filename: seldon-application-logs-api-openapi.yml
   format: yaml
   label: Seldon Application Logs API
   slug: seldon-application-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-application-logs-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-application-logs-api-openapi.yml
 - filename: seldon-batch-jobs-api-openapi.yml
   format: yaml
   label: Seldon Batch Jobs API
   slug: seldon-batch-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-batch-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-batch-jobs-api-openapi.yml
 - filename: seldon-git-ops-api-openapi.yml
   format: yaml
   label: Seldon Git Ops API
   slug: seldon-git-ops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-git-ops-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-git-ops-api-openapi.yml
 - filename: seldon-health-check-service-api-openapi.yml
   format: yaml
   label: Seldon Health Check Service API
   slug: seldon-health-check-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-health-check-service-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-health-check-service-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -193,7 +193,7 @@ source_filename: seldon-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/seldon-enterprise-platform-api-openapi.yml, openapi/seldon-inference-api-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - password\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: password\n    tokenUrl: https://Y.Y.Y.Y\n    scopes: 4\n  sources:\n  - openapi/seldon-enterprise-platform-api-openapi.yml\n- name: HTTPBearer\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/seldon-inference-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/authentication/seldon-authentication.yml
+source_yaml_url: https://artifacts.apis.io/seldon/authentication/seldon-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - MLOps

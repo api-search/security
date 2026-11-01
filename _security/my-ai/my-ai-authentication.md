@@ -38,7 +38,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://github.com/Me-Protocol/me-agent-sdk (SDK config) + https://me-api-docs.pages.dev/\ndocs: https://me-api-docs.pages.dev/\nsummary:\n  types:\n  - apiKey\n  - wallet\n  api_key_in:\n  - query\n  - body\nnote: No public OpenAPI is published; this profile is derived from the first-party\n  SDK source and hosted PaaS API behavior rather than a machine-readable securityScheme.\nschemes:\n- name: PaaS API Key\n  type: apiKey\n  in: query\n  parameter: apiKey\n  description: Brand/merchant API key issued by Me Protocol, passed by the PaaS SDKs\n    (payWithMePaas, MeAgent) to authenticate reward and payment calls against the\n    hosted PaaS API (paas.memarketplace.io/v1/api). Each environment (dev/staging/prod)\n    carries its own key.\n  sources:\n  - packages/my-ai-packages.yml\n- name: Magic Link Wallet Auth\n  type: wallet\n  scheme: magic-link\n  description: End-user authentication via Magic (magic.link) publishable\
   \ key for\n    email-based wallet creation, used to authorize on-chain reward redemption and\n    cross-brand token swaps. Networks — Sepolia, Hedera, Base, Polygon.\n  sources:\n  - packages/my-ai-packages.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/my-ai/refs/heads/main/authentication/my-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/my-ai/authentication/my-ai-authentication.yml
 summary_line: apiKey/wallet · 2 schemes
 tags:
 - Company

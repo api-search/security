@@ -5,25 +5,25 @@ api_specs:
   label: Turso Auth API
   slug: turso-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turso/refs/heads/main/openapi/turso-auth-api-openapi.yml
+  url: https://artifacts.apis.io/turso/openapi/turso-auth-api-openapi.yml
 - filename: turso-locations-api-openapi.yml
   format: yaml
   label: Turso Locations API
   slug: turso-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turso/refs/heads/main/openapi/turso-locations-api-openapi.yml
+  url: https://artifacts.apis.io/turso/openapi/turso-locations-api-openapi.yml
 - filename: turso-organizations-api-openapi.yml
   format: yaml
   label: Turso Organizations API
   slug: turso-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turso/refs/heads/main/openapi/turso-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/turso/openapi/turso-organizations-api-openapi.yml
 - filename: turso-user-api-openapi.yml
   format: yaml
   label: Turso User API
   slug: turso-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turso/refs/heads/main/openapi/turso-user-api-openapi.yml
+  url: https://artifacts.apis.io/turso/openapi/turso-user-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: turso-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: turso.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 15:15:38 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.turso.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 03:25:30 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.turso.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: turso.tech\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/turso/refs/heads/main/security/turso-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/turso/security/turso-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Database

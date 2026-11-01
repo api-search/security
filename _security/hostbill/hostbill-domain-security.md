@@ -5,49 +5,49 @@ api_specs:
   label: HostBill Accounts API
   slug: hostbill-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostbill/refs/heads/main/openapi/hostbill-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/hostbill/openapi/hostbill-accounts-api-openapi.yml
 - filename: hostbill-admin-api-openapi.yml
   format: yaml
   label: HostBill Admin API
   slug: hostbill-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostbill/refs/heads/main/openapi/hostbill-admin-api-openapi.yml
+  url: https://artifacts.apis.io/hostbill/openapi/hostbill-admin-api-openapi.yml
 - filename: hostbill-clients-api-openapi.yml
   format: yaml
   label: HostBill Clients API
   slug: hostbill-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostbill/refs/heads/main/openapi/hostbill-clients-api-openapi.yml
+  url: https://artifacts.apis.io/hostbill/openapi/hostbill-clients-api-openapi.yml
 - filename: hostbill-domains-api-openapi.yml
   format: yaml
   label: HostBill Domains API
   slug: hostbill-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostbill/refs/heads/main/openapi/hostbill-domains-api-openapi.yml
+  url: https://artifacts.apis.io/hostbill/openapi/hostbill-domains-api-openapi.yml
 - filename: hostbill-invoices-api-openapi.yml
   format: yaml
   label: HostBill Invoices API
   slug: hostbill-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostbill/refs/heads/main/openapi/hostbill-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/hostbill/openapi/hostbill-invoices-api-openapi.yml
 - filename: hostbill-orders-api-openapi.yml
   format: yaml
   label: HostBill Orders API
   slug: hostbill-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostbill/refs/heads/main/openapi/hostbill-orders-api-openapi.yml
+  url: https://artifacts.apis.io/hostbill/openapi/hostbill-orders-api-openapi.yml
 - filename: hostbill-tickets-api-openapi.yml
   format: yaml
   label: HostBill Tickets API
   slug: hostbill-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostbill/refs/heads/main/openapi/hostbill-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/hostbill/openapi/hostbill-tickets-api-openapi.yml
 - filename: hostbill-transactions-api-openapi.yml
   format: yaml
   label: HostBill Transactions API
   slug: hostbill-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostbill/refs/heads/main/openapi/hostbill-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/hostbill/openapi/hostbill-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -84,7 +84,7 @@ source_filename: hostbill-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: hostbillapp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 16:46:21 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api2.hostbillapp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 16:46:21 2026 GMT\n  hsts: false\n- host: yourinstance.hostbillapp.com\n  https: false\ndomains:\n- domain: hostbillapp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hostbill/refs/heads/main/security/hostbill-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hostbill/security/hostbill-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Automation

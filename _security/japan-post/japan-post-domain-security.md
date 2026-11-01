@@ -27,12 +27,12 @@ source_filename: japan-post-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.post.japanpost.jp\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  8 04:49:49 2027 GMT\n  hsts: false\ndomains:\n- domain: japanpost.jp\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/japan-post/refs/heads/main/security/japan-post-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/japan-post/security/japan-post-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Postal
 - Logistics
 - Finance
-- E‑services
+- e-Services
 ---

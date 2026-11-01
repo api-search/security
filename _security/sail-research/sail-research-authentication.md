@@ -8,31 +8,31 @@ api_specs:
   label: Sail Research Batches API
   slug: sail-research-batches-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/openapi/sail-research-batches-api-api-openapi.yml
+  url: https://artifacts.apis.io/sail-research/openapi/sail-research-batches-api-api-openapi.yml
 - filename: sail-research-chat-completions-api-api-openapi.yml
   format: yaml
   label: Sail Research Chat Completions API
   slug: sail-research-chat-completions-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/openapi/sail-research-chat-completions-api-api-openapi.yml
+  url: https://artifacts.apis.io/sail-research/openapi/sail-research-chat-completions-api-api-openapi.yml
 - filename: sail-research-messages-api-api-openapi.yml
   format: yaml
   label: Sail Research Messages API
   slug: sail-research-messages-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/openapi/sail-research-messages-api-api-openapi.yml
+  url: https://artifacts.apis.io/sail-research/openapi/sail-research-messages-api-api-openapi.yml
 - filename: sail-research-models-api-api-openapi.yml
   format: yaml
   label: Sail Research Models API
   slug: sail-research-models-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/openapi/sail-research-models-api-api-openapi.yml
+  url: https://artifacts.apis.io/sail-research/openapi/sail-research-models-api-api-openapi.yml
 - filename: sail-research-responses-api-api-openapi.yml
   format: yaml
   label: Sail Research Responses API
   slug: sail-research-responses-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/openapi/sail-research-responses-api-api-openapi.yml
+  url: https://artifacts.apis.io/sail-research/openapi/sail-research-responses-api-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -59,7 +59,7 @@ source_filename: sail-research-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/sail-research-openapi-original.json\ndocs: https://docs.sailresearch.com/quickstart\nsummary:\n  types:\n  - http\n  api_key_in:\n  - header\nnotes: >-\n  Auth is a bearer API key. Send 'Authorization: Bearer $SAIL_API_KEY'. Keys are\n  created/managed at app.sailresearch.com. Sail is OpenAI- and Anthropic-SDK compatible,\n  so the same key drops into those clients by changing the base URL to\n  https://api.sailresearch.com/v1. No OAuth2 / scopes surface.\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: API Key\n  sources:\n  - openapi/sail-research-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/authentication/sail-research-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sail-research/authentication/sail-research-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

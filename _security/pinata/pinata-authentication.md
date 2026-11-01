@@ -7,13 +7,13 @@ api_specs:
   label: Pinata Auth API
   slug: pinata-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinata/refs/heads/main/openapi/pinata-auth-api-openapi.yml
+  url: https://artifacts.apis.io/pinata/openapi/pinata-auth-api-openapi.yml
 - filename: pinata-files-api-openapi.yml
   format: yaml
   label: Pinata Files API
   slug: pinata-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinata/refs/heads/main/openapi/pinata-files-api-openapi.yml
+  url: https://artifacts.apis.io/pinata/openapi/pinata-files-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -41,7 +41,7 @@ source_filename: pinata-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pinata-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Pinata JWT issued from the Pinata dashboard.\n  sources:\n  - openapi/pinata-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pinata/refs/heads/main/authentication/pinata-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pinata/authentication/pinata-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Web3

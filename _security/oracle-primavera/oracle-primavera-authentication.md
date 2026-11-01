@@ -7,37 +7,37 @@ api_specs:
   label: Oracle Primavera Activities API
   slug: oracle-primavera-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-primavera/refs/heads/main/openapi/oracle-primavera-activities-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-primavera/openapi/oracle-primavera-activities-api-openapi.yml
 - filename: oracle-primavera-baselines-api-openapi.yml
   format: yaml
   label: Oracle Primavera Baselines API
   slug: oracle-primavera-baselines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-primavera/refs/heads/main/openapi/oracle-primavera-baselines-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-primavera/openapi/oracle-primavera-baselines-api-openapi.yml
 - filename: oracle-primavera-projects-api-openapi.yml
   format: yaml
   label: Oracle Primavera Projects API
   slug: oracle-primavera-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-primavera/refs/heads/main/openapi/oracle-primavera-projects-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-primavera/openapi/oracle-primavera-projects-api-openapi.yml
 - filename: oracle-primavera-resources-api-openapi.yml
   format: yaml
   label: Oracle Primavera Resources API
   slug: oracle-primavera-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-primavera/refs/heads/main/openapi/oracle-primavera-resources-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-primavera/openapi/oracle-primavera-resources-api-openapi.yml
 - filename: oracle-primavera-wbs-api-openapi.yml
   format: yaml
   label: Oracle Primavera WBS API
   slug: oracle-primavera-wbs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-primavera/refs/heads/main/openapi/oracle-primavera-wbs-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-primavera/openapi/oracle-primavera-wbs-api-openapi.yml
 - filename: oracle-primavera-resource-assignments-api-openapi.yml
   format: yaml
   label: Oracle Primavera Resource Assignments API
   slug: oracle-primavera-resource-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-primavera/refs/heads/main/openapi/oracle-primavera-resource-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-primavera/openapi/oracle-primavera-resource-assignments-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -76,7 +76,7 @@ source_filename: oracle-primavera-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/oracle-primavera-p6-eppm-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic Authentication with P6 username and password\n  sources:\n  - openapi/oracle-primavera-p6-eppm-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://identity.oraclecloud.com/oauth2/v1/authorize\n    tokenUrl: https://identity.oraclecloud.com/oauth2/v1/token\n    scopes: 2\n  description: Oracle Identity Cloud Service OAuth2\n  sources:\n  - openapi/oracle-primavera-p6-eppm-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oracle-primavera/refs/heads/main/authentication/oracle-primavera-authentication.yml
+source_yaml_url: https://artifacts.apis.io/oracle-primavera/authentication/oracle-primavera-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Construction

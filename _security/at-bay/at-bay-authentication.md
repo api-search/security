@@ -7,31 +7,31 @@ api_specs:
   label: At-Bay Documents API
   slug: at-bay-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/at-bay/refs/heads/main/openapi/at-bay-documents-api-openapi.yml
+  url: https://artifacts.apis.io/at-bay/openapi/at-bay-documents-api-openapi.yml
 - filename: at-bay-health-api-openapi.yml
   format: yaml
   label: At-Bay Health API
   slug: at-bay-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/at-bay/refs/heads/main/openapi/at-bay-health-api-openapi.yml
+  url: https://artifacts.apis.io/at-bay/openapi/at-bay-health-api-openapi.yml
 - filename: at-bay-policies-api-openapi.yml
   format: yaml
   label: At-Bay Policies API
   slug: at-bay-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/at-bay/refs/heads/main/openapi/at-bay-policies-api-openapi.yml
+  url: https://artifacts.apis.io/at-bay/openapi/at-bay-policies-api-openapi.yml
 - filename: at-bay-quotes-api-openapi.yml
   format: yaml
   label: At-Bay Quotes API
   slug: at-bay-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/at-bay/refs/heads/main/openapi/at-bay-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/at-bay/openapi/at-bay-quotes-api-openapi.yml
 - filename: at-bay-webhooks-api-openapi.yml
   format: yaml
   label: At-Bay Webhooks API
   slug: at-bay-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/at-bay/refs/heads/main/openapi/at-bay-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/at-bay/openapi/at-bay-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: at-bay-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/at-bay-partner-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/at-bay-partner-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/at-bay/refs/heads/main/authentication/at-bay-authentication.yml
+source_yaml_url: https://artifacts.apis.io/at-bay/authentication/at-bay-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Insurance

@@ -7,55 +7,55 @@ api_specs:
   label: Lexile API
   slug: lexile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/renaissance/refs/heads/main/openapi/renaissance-lexile-api-openapi.yml
+  url: https://artifacts.apis.io/renaissance/openapi/renaissance-lexile-api-openapi.yml
 - filename: renaissance-classes-api-openapi.yml
   format: yaml
   label: Renaissance Classes API
   slug: renaissance-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/renaissance/refs/heads/main/openapi/renaissance-classes-api-openapi.yml
+  url: https://artifacts.apis.io/renaissance/openapi/renaissance-classes-api-openapi.yml
 - filename: renaissance-events-api-openapi.yml
   format: yaml
   label: Renaissance Events API
   slug: renaissance-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/renaissance/refs/heads/main/openapi/renaissance-events-api-openapi.yml
+  url: https://artifacts.apis.io/renaissance/openapi/renaissance-events-api-openapi.yml
 - filename: renaissance-health-api-openapi.yml
   format: yaml
   label: Renaissance Health API
   slug: renaissance-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/renaissance/refs/heads/main/openapi/renaissance-health-api-openapi.yml
+  url: https://artifacts.apis.io/renaissance/openapi/renaissance-health-api-openapi.yml
 - filename: renaissance-pathway-api-openapi.yml
   format: yaml
   label: Renaissance Pathway API
   slug: renaissance-pathway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/renaissance/refs/heads/main/openapi/renaissance-pathway-api-openapi.yml
+  url: https://artifacts.apis.io/renaissance/openapi/renaissance-pathway-api-openapi.yml
 - filename: renaissance-predictions-api-openapi.yml
   format: yaml
   label: Renaissance Predictions API
   slug: renaissance-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/renaissance/refs/heads/main/openapi/renaissance-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/renaissance/openapi/renaissance-predictions-api-openapi.yml
 - filename: renaissance-reading-level-api-openapi.yml
   format: yaml
   label: Renaissance Reading Level API
   slug: renaissance-reading-level-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/renaissance/refs/heads/main/openapi/renaissance-reading-level-api-openapi.yml
+  url: https://artifacts.apis.io/renaissance/openapi/renaissance-reading-level-api-openapi.yml
 - filename: renaissance-skills-api-openapi.yml
   format: yaml
   label: Renaissance Skills API
   slug: renaissance-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/renaissance/refs/heads/main/openapi/renaissance-skills-api-openapi.yml
+  url: https://artifacts.apis.io/renaissance/openapi/renaissance-skills-api-openapi.yml
 - filename: renaissance-utility-api-openapi.yml
   format: yaml
   label: Renaissance Utility API
   slug: renaissance-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/renaissance/refs/heads/main/openapi/renaissance-utility-api-openapi.yml
+  url: https://artifacts.apis.io/renaissance/openapi/renaissance-utility-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-09-13'\nmethod: probed\nsource: https://auth.rena
   \    - openid\n    - offline\n    - offline_access\n  non_prod_token_endpoint: https://auth.stage.renaissance.com/oauth2/token\nschemes:\n  - name: Bearer\n    type: http\n    scheme: bearer\n    bearerFormat: JWT\n    description: >-\n      JWT from Renaissance auth (client credentials). Token URL\n      https://auth.stage.renaissance.com/oauth2/token (non-prod) or\n      https://auth.renaissance.com/oauth2/token (prod). Request scope ren.lexile.read; the audience\n      must match the API URL. Quoted verbatim from the Lexile API securityScheme description.\n    scope_required: ren.lexile.read\n    enforced_by: API Gateway\n    sources:\n      - openapi/renaissance-lexile-api-openapi.yml\n  - name: HTTPBearer\n    type: http\n    scheme: bearer\n    description: >-\n      HTTP bearer scheme applied to every scored operation of the Student Proficiency Service and the\n      Student Pathway Event Proxy. The specs declare no bearerFormat and no flows; the issuer is\n      established by\
   \ the authorization server above, not by the spec.\n    sources:\n      - openapi/renaissance-student-proficiency-service-openapi.yml\n      - openapi/renaissance-student-pathway-event-proxy-openapi.yml\nunauthenticated_operations:\n  - operationId: health_check_health_get\n    path: /health\n    api: Student Proficiency Service\n  - operationId: launch_launch_post\n    path: /launch\n    api: Student Proficiency Service\n  - operationId: health_health_get\n    path: /health\n    api: Student Pathway Event Proxy\nother_identity_surfaces:\n  - name: Renaissance Support community (Salesforce Experience Cloud)\n    issuer: https://support.renaissance.com\n    discovery: https://support.renaissance.com/.well-known/openid-configuration\n    http_status: 200\n    note: >-\n      Salesforce-provided OIDC surface running under a Renaissance-controlled host. It authenticates\n      the support community, not the product APIs, and its scopes_supported list is Salesforce's\n      stock platform set.\n\
   \  - name: Single sign-on for districts\n    note: >-\n      Renaissance product sign-in supports Google, Microsoft and Clever SSO plus SAML; recorded from\n      the provider's support material, not probed.\nprobe_evidence:\n  - url: https://auth.renaissance.com/.well-known/openid-configuration\n    status: 200\n  - url: https://auth.renaissance.com/.well-known/jwks.json\n    status: 200\n  - url: https://api.proxile.renaissance.com/api/lexile/9780439064873\n    status: 401\n    note: anonymous call to a real operation returns 401, confirming the gate is live\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/renaissance/refs/heads/main/authentication/renaissance-authentication.yml
+source_yaml_url: https://artifacts.apis.io/renaissance/authentication/renaissance-authentication.yml
 summary_line: http/oauth2/openIdConnect · 2 schemes
 tags:
 - Education

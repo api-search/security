@@ -7,25 +7,25 @@ api_specs:
   label: Google Cloud Compute Engine Disks API
   slug: google-cloud-compute-engine-disks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-compute-engine/refs/heads/main/openapi/google-cloud-compute-engine-disks-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-compute-engine/openapi/google-cloud-compute-engine-disks-api-openapi.yml
 - filename: google-cloud-compute-engine-firewalls-api-openapi.yml
   format: yaml
   label: Google Cloud Compute Engine Firewalls API
   slug: google-cloud-compute-engine-firewalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-compute-engine/refs/heads/main/openapi/google-cloud-compute-engine-firewalls-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-compute-engine/openapi/google-cloud-compute-engine-firewalls-api-openapi.yml
 - filename: google-cloud-compute-engine-instances-api-openapi.yml
   format: yaml
   label: Google Cloud Compute Engine Instances API
   slug: google-cloud-compute-engine-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-compute-engine/refs/heads/main/openapi/google-cloud-compute-engine-instances-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-compute-engine/openapi/google-cloud-compute-engine-instances-api-openapi.yml
 - filename: google-cloud-compute-engine-networks-api-openapi.yml
   format: yaml
   label: Google Cloud Compute Engine Networks API
   slug: google-cloud-compute-engine-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-compute-engine/refs/heads/main/openapi/google-cloud-compute-engine-networks-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-compute-engine/openapi/google-cloud-compute-engine-networks-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -56,7 +56,7 @@ source_filename: google-cloud-compute-engine-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/compute-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 2\n  sources:\n  - openapi/compute-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-compute-engine/refs/heads/main/authentication/google-cloud-compute-engine-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-compute-engine/authentication/google-cloud-compute-engine-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Compute

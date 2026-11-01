@@ -7,31 +7,31 @@ api_specs:
   label: Azure SQL Database Databases API
   slug: microsoft-azure-sql-database-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/openapi/microsoft-azure-sql-database-databases-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-sql-database/openapi/microsoft-azure-sql-database-databases-api-openapi.yml
 - filename: microsoft-azure-sql-database-elasticpools-api-openapi.yml
   format: yaml
   label: Azure SQL Database ElasticPools API
   slug: microsoft-azure-sql-database-elasticpools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/openapi/microsoft-azure-sql-database-elasticpools-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-sql-database/openapi/microsoft-azure-sql-database-elasticpools-api-openapi.yml
 - filename: microsoft-azure-sql-database-failovergroups-api-openapi.yml
   format: yaml
   label: Azure SQL Database FailoverGroups API
   slug: microsoft-azure-sql-database-failovergroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/openapi/microsoft-azure-sql-database-failovergroups-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-sql-database/openapi/microsoft-azure-sql-database-failovergroups-api-openapi.yml
 - filename: microsoft-azure-sql-database-servers-api-openapi.yml
   format: yaml
   label: Azure SQL Database Servers API
   slug: microsoft-azure-sql-database-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/openapi/microsoft-azure-sql-database-servers-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-sql-database/openapi/microsoft-azure-sql-database-servers-api-openapi.yml
 - filename: microsoft-azure-sql-database-firewall-rules-api-openapi.yml
   format: yaml
   label: Azure SQL Database Firewall Rules API
   slug: microsoft-azure-sql-database-firewall-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/openapi/microsoft-azure-sql-database-firewall-rules-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-sql-database/openapi/microsoft-azure-sql-database-firewall-rules-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: microsoft-azure-sql-database-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-azure-sql-database-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/microsoft-azure-sql-database-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/authentication/microsoft-azure-sql-database-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-sql-database/authentication/microsoft-azure-sql-database-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Database

@@ -8,37 +8,37 @@ api_specs:
   label: Quartzy Inventory Items API
   slug: quartzy-inventory-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-inventory-items-api-openapi.yml
+  url: https://artifacts.apis.io/quartzy/openapi/quartzy-inventory-items-api-openapi.yml
 - filename: quartzy-labs-api-openapi.yml
   format: yaml
   label: Quartzy Labs API
   slug: quartzy-labs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-labs-api-openapi.yml
+  url: https://artifacts.apis.io/quartzy/openapi/quartzy-labs-api-openapi.yml
 - filename: quartzy-order-requests-api-openapi.yml
   format: yaml
   label: Quartzy Order Requests API
   slug: quartzy-order-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-order-requests-api-openapi.yml
+  url: https://artifacts.apis.io/quartzy/openapi/quartzy-order-requests-api-openapi.yml
 - filename: quartzy-types-api-openapi.yml
   format: yaml
   label: Quartzy Types API
   slug: quartzy-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-types-api-openapi.yml
+  url: https://artifacts.apis.io/quartzy/openapi/quartzy-types-api-openapi.yml
 - filename: quartzy-user-api-openapi.yml
   format: yaml
   label: Quartzy User API
   slug: quartzy-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-user-api-openapi.yml
+  url: https://artifacts.apis.io/quartzy/openapi/quartzy-user-api-openapi.yml
 - filename: quartzy-webhooks-api-openapi.yml
   format: yaml
   label: Quartzy Webhooks API
   slug: quartzy-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/quartzy/openapi/quartzy-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -78,7 +78,7 @@ source_filename: quartzy-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/quartzy-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: accessToken\n  type: apiKey\n  in: header\n  parameter: Access-Token\n  description: Per-user AccessToken generated in Quartzy under Profile > Access Tokens and sent\n    in the Access-Token header.\n  sources:\n  - openapi/quartzy-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.quartzy.com/oauth/authorize\n    tokenUrl: https://api.quartzy.com/oauth/token\n    scopes: 0\n  description: OAuth2 authorization for Quartzy API access.\n  sources:\n  - openapi/quartzy-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/authentication/quartzy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/quartzy/authentication/quartzy-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Lab Management

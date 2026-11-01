@@ -7,55 +7,55 @@ api_specs:
   label: Kombo AI Apply API
   slug: kombo-ai-apply-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-ai-apply-api-openapi.yml
+  url: https://artifacts.apis.io/kombo/openapi/kombo-ai-apply-api-openapi.yml
 - filename: kombo-custom-endpoints-api-openapi.yml
   format: yaml
   label: Kombo Custom Endpoints API
   slug: kombo-custom-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-custom-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/kombo/openapi/kombo-custom-endpoints-api-openapi.yml
 - filename: kombo-general-api-openapi.yml
   format: yaml
   label: Kombo General API
   slug: kombo-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-general-api-openapi.yml
+  url: https://artifacts.apis.io/kombo/openapi/kombo-general-api-openapi.yml
 - filename: kombo-kombo-connect-api-openapi.yml
   format: yaml
   label: Kombo Connect API
   slug: kombo-kombo-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-kombo-connect-api-openapi.yml
+  url: https://artifacts.apis.io/kombo/openapi/kombo-kombo-connect-api-openapi.yml
 - filename: kombo-unified-ats-api-api-openapi.yml
   format: yaml
   label: Kombo Unified ATS API
   slug: kombo-unified-ats-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-unified-ats-api-api-openapi.yml
+  url: https://artifacts.apis.io/kombo/openapi/kombo-unified-ats-api-api-openapi.yml
 - filename: kombo-unified-ats-assessment-background-check-api-api-openapi.yml
   format: yaml
   label: Kombo Unified ATS (Assessment & Background Check) API
   slug: kombo-unified-ats-assessment-background-check-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-unified-ats-assessment-background-check-api-api-openapi.yml
+  url: https://artifacts.apis.io/kombo/openapi/kombo-unified-ats-assessment-background-check-api-api-openapi.yml
 - filename: kombo-unified-hris-api-api-openapi.yml
   format: yaml
   label: Kombo Unified HRIS API
   slug: kombo-unified-hris-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-unified-hris-api-api-openapi.yml
+  url: https://artifacts.apis.io/kombo/openapi/kombo-unified-hris-api-api-openapi.yml
 - filename: kombo-unified-lms-api-api-openapi.yml
   format: yaml
   label: Kombo Unified LMS API
   slug: kombo-unified-lms-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-unified-lms-api-api-openapi.yml
+  url: https://artifacts.apis.io/kombo/openapi/kombo-unified-lms-api-api-openapi.yml
 - filename: kombo-kombo-api-api-openapi.yml
   format: yaml
   label: Kombo API
   slug: kombo-kombo-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-kombo-api-api-openapi.yml
+  url: https://artifacts.apis.io/kombo/openapi/kombo-kombo-api-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -82,7 +82,7 @@ source_filename: kombo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/kombo-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: ApiKey\n  type: http\n  scheme: bearer\n  description: Create an API key on the [Secrets](https://app.kombo.dev/secrets) page in the\n    Kombo dashboard.\n  sources:\n  - openapi/kombo-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/authentication/kombo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kombo/authentication/kombo-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Applicant Tracking

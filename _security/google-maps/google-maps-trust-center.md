@@ -5,43 +5,43 @@ api_specs:
   label: Google Maps Platform Autocomplete API
   slug: google-maps-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-autocomplete-api-openapi.yml
 - filename: google-maps-directions-api-openapi.yml
   format: yaml
   label: Google Maps Platform Directions API
   slug: google-maps-directions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-directions-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-directions-api-openapi.yml
 - filename: google-maps-geocoding-api-openapi.yml
   format: yaml
   label: Google Maps Platform Geocoding API
   slug: google-maps-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-geocoding-api-openapi.yml
 - filename: google-maps-nearby-search-api-openapi.yml
   format: yaml
   label: Google Maps Platform Nearby Search API
   slug: google-maps-nearby-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-nearby-search-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-nearby-search-api-openapi.yml
 - filename: google-maps-photos-api-openapi.yml
   format: yaml
   label: Google Maps Platform Photos API
   slug: google-maps-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-photos-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-photos-api-openapi.yml
 - filename: google-maps-place-details-api-openapi.yml
   format: yaml
   label: Google Maps Platform Place Details API
   slug: google-maps-place-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-place-details-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-place-details-api-openapi.yml
 - filename: google-maps-text-search-api-openapi.yml
   format: yaml
   label: Google Maps Platform Text Search API
   slug: google-maps-text-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-text-search-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-text-search-api-openapi.yml
 certification_count: 17
 certifications:
 - SOC 2
@@ -75,7 +75,7 @@ source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-06-20'\nmethod: searched\nprobe: true\nurl: https://mapsplatform.google.com/resources/trust-center/\nnote: >-\n  Google Maps Platform operates a dedicated Trust Center listing security, privacy,\n  and compliance attestations. ISO 27001 + SOC certifications cover 25 Google Maps\n  Platform products. Compliance reports are available to customers via the Google\n  Cloud Compliance Reports Manager.\ncompliance_docs: https://developers.google.com/maps/security/compliance/security-compliance\ncertifications:\n- SOC 2\n- SOC 3\n- ISO/IEC 27001:2022\n- ISO/IEC 27017:2015\n- ISO 22301:2019\n- ISO 9001:2015\n- ISO 50001:2018\n- NIST 800-53\n- FIPS 140-2\n- Cloud Security Alliance (CSA)\n- TISAX\n- GDPR\n- EU Standard Contractual Clauses\n- LGPD\n- Swiss FDPA\n- U.S. State Data Protection Laws\n- SIG Questionnaire\nevidence:\n- source: https://mapsplatform.google.com/resources/trust-center/\n  keywords: [soc 2, soc 3, iso/iec 27001, gdpr, trust center]\n- source: https://mapsplatform.google.com/resources/blog/new-iso-27001-and-soc-security-certifications-google-maps-platform/\n\
   \  keywords: [iso 27001, soc, certification]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/security/google-maps-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/google-maps/security/google-maps-trust-center.yml
 summary_line: SOC 2, SOC 3, ISO/IEC 27001:2022, ISO/IEC 27017:2015, ISO 22301:2019, ISO 9001:2015, ISO 50001:2018, NIST 800-53, FIPS 140-2, Cloud Security Alliance (CSA), TISAX, GDPR, EU Standard Contractual Clauses, LGPD, Swiss FDPA, U.S. State Data Protection Laws, SIG Questionnaire
 tags:
 - Environment

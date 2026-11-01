@@ -5,43 +5,43 @@ api_specs:
   label: Sound Transit Agencies API
   slug: sound-transit-agencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/openapi/sound-transit-agencies-api-openapi.yml
+  url: https://artifacts.apis.io/sound-transit/openapi/sound-transit-agencies-api-openapi.yml
 - filename: sound-transit-arrivals-and-departures-api-openapi.yml
   format: yaml
   label: Sound Transit Arrivals And Departures API
   slug: sound-transit-arrivals-and-departures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/openapi/sound-transit-arrivals-and-departures-api-openapi.yml
+  url: https://artifacts.apis.io/sound-transit/openapi/sound-transit-arrivals-and-departures-api-openapi.yml
 - filename: sound-transit-routes-api-openapi.yml
   format: yaml
   label: Sound Transit Routes API
   slug: sound-transit-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/openapi/sound-transit-routes-api-openapi.yml
+  url: https://artifacts.apis.io/sound-transit/openapi/sound-transit-routes-api-openapi.yml
 - filename: sound-transit-stops-api-openapi.yml
   format: yaml
   label: Sound Transit Stops API
   slug: sound-transit-stops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/openapi/sound-transit-stops-api-openapi.yml
+  url: https://artifacts.apis.io/sound-transit/openapi/sound-transit-stops-api-openapi.yml
 - filename: sound-transit-system-api-openapi.yml
   format: yaml
   label: Sound Transit System API
   slug: sound-transit-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/openapi/sound-transit-system-api-openapi.yml
+  url: https://artifacts.apis.io/sound-transit/openapi/sound-transit-system-api-openapi.yml
 - filename: sound-transit-trips-api-openapi.yml
   format: yaml
   label: Sound Transit Trips API
   slug: sound-transit-trips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/openapi/sound-transit-trips-api-openapi.yml
+  url: https://artifacts.apis.io/sound-transit/openapi/sound-transit-trips-api-openapi.yml
 - filename: sound-transit-vehicles-api-openapi.yml
   format: yaml
   label: Sound Transit Vehicles API
   slug: sound-transit-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/openapi/sound-transit-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/sound-transit/openapi/sound-transit-vehicles-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: sound-transit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.soundtransit.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 11:28:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: api.pugetsound.onebusaway.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 15 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: soundtransit.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: onebusaway.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/security/sound-transit-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sound-transit/security/sound-transit-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Transit

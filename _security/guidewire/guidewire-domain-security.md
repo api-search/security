@@ -5,49 +5,49 @@ api_specs:
   label: Guidewire Integration Gateway API
   slug: guidewire-integration-gateway-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/asyncapi/guidewire-integration-gateway-asyncapi.yml
+  url: https://artifacts.apis.io/guidewire/asyncapi/guidewire-integration-gateway-asyncapi.yml
 - filename: guidewire-accounts-api-openapi.yml
   format: yaml
   label: Guidewire Accounts API
   slug: guidewire-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/guidewire/openapi/guidewire-accounts-api-openapi.yml
 - filename: guidewire-claims-api-openapi.yml
   format: yaml
   label: Guidewire Claims API
   slug: guidewire-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-claims-api-openapi.yml
+  url: https://artifacts.apis.io/guidewire/openapi/guidewire-claims-api-openapi.yml
 - filename: guidewire-exposures-api-openapi.yml
   format: yaml
   label: Guidewire Exposures API
   slug: guidewire-exposures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-exposures-api-openapi.yml
+  url: https://artifacts.apis.io/guidewire/openapi/guidewire-exposures-api-openapi.yml
 - filename: guidewire-fnol-api-openapi.yml
   format: yaml
   label: Guidewire FNOL API
   slug: guidewire-fnol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-fnol-api-openapi.yml
+  url: https://artifacts.apis.io/guidewire/openapi/guidewire-fnol-api-openapi.yml
 - filename: guidewire-payments-api-openapi.yml
   format: yaml
   label: Guidewire Payments API
   slug: guidewire-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-payments-api-openapi.yml
+  url: https://artifacts.apis.io/guidewire/openapi/guidewire-payments-api-openapi.yml
 - filename: guidewire-policies-api-openapi.yml
   format: yaml
   label: Guidewire Policies API
   slug: guidewire-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-policies-api-openapi.yml
+  url: https://artifacts.apis.io/guidewire/openapi/guidewire-policies-api-openapi.yml
 - filename: guidewire-quotes-api-openapi.yml
   format: yaml
   label: Guidewire Quotes API
   slug: guidewire-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/guidewire/openapi/guidewire-quotes-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -82,7 +82,7 @@ source_filename: guidewire-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.guidewire.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 06:26:05 2026 GMT\n  hsts: false\n- host: api.guidewire.com\n  https: false\ndomains:\n- domain: guidewire.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"starfieldtech.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"globalsign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/security/guidewire-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/guidewire/security/guidewire-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Insurance

@@ -5,37 +5,37 @@ api_specs:
   label: DataHub Actions Framework
   slug: datahub-actions-framework
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/asyncapi/datahub-actions-asyncapi.yml
+  url: https://artifacts.apis.io/datahub/asyncapi/datahub-actions-asyncapi.yml
 - filename: datahub-batch-api-openapi.yml
   format: yaml
   label: DataHub Batch API
   slug: datahub-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/openapi/datahub-batch-api-openapi.yml
+  url: https://artifacts.apis.io/datahub/openapi/datahub-batch-api-openapi.yml
 - filename: datahub-entities-api-openapi.yml
   format: yaml
   label: DataHub Entities API
   slug: datahub-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/openapi/datahub-entities-api-openapi.yml
+  url: https://artifacts.apis.io/datahub/openapi/datahub-entities-api-openapi.yml
 - filename: datahub-platform-api-openapi.yml
   format: yaml
   label: DataHub Platform API
   slug: datahub-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/openapi/datahub-platform-api-openapi.yml
+  url: https://artifacts.apis.io/datahub/openapi/datahub-platform-api-openapi.yml
 - filename: datahub-relationships-api-openapi.yml
   format: yaml
   label: DataHub Relationships API
   slug: datahub-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/openapi/datahub-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/datahub/openapi/datahub-relationships-api-openapi.yml
 - filename: datahub-timeline-api-openapi.yml
   format: yaml
   label: DataHub Timeline API
   slug: datahub-timeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/openapi/datahub-timeline-api-openapi.yml
+  url: https://artifacts.apis.io/datahub/openapi/datahub-timeline-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -86,7 +86,7 @@ source_filename: datahub-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: datahub.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 18:54:21 2026 GMT\n  hsts: false\n- host: docs.datahub.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 21:27:55 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: pypi.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 29 04:33:07 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: datahub.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: pypi.org\n  dnssec: true\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 iodef \"mailto:infrastructure-staff@python.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/security/datahub-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/datahub/security/datahub-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Data Catalog

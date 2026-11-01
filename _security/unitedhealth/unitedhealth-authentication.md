@@ -7,25 +7,25 @@ api_specs:
   label: UnitedHealth Group Clinical Data API
   slug: unitedhealth-clinical-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitedhealth/refs/heads/main/openapi/unitedhealth-clinical-data-api-openapi.yml
+  url: https://artifacts.apis.io/unitedhealth/openapi/unitedhealth-clinical-data-api-openapi.yml
 - filename: unitedhealth-drug-formulary-api-openapi.yml
   format: yaml
   label: UnitedHealth Group Drug Formulary API
   slug: unitedhealth-drug-formulary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitedhealth/refs/heads/main/openapi/unitedhealth-drug-formulary-api-openapi.yml
+  url: https://artifacts.apis.io/unitedhealth/openapi/unitedhealth-drug-formulary-api-openapi.yml
 - filename: unitedhealth-patient-access-api-openapi.yml
   format: yaml
   label: UnitedHealth Group Patient Access API
   slug: unitedhealth-patient-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitedhealth/refs/heads/main/openapi/unitedhealth-patient-access-api-openapi.yml
+  url: https://artifacts.apis.io/unitedhealth/openapi/unitedhealth-patient-access-api-openapi.yml
 - filename: unitedhealth-provider-directory-api-openapi.yml
   format: yaml
   label: UnitedHealth Group Provider Directory API
   slug: unitedhealth-provider-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitedhealth/refs/heads/main/openapi/unitedhealth-provider-directory-api-openapi.yml
+  url: https://artifacts.apis.io/unitedhealth/openapi/unitedhealth-provider-directory-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: unitedhealth-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/unitedhealth-optum-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth 2.0 Bearer token obtained via authorization code flow\n  sources:\n  - openapi/unitedhealth-optum-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unitedhealth/refs/heads/main/authentication/unitedhealth-authentication.yml
+source_yaml_url: https://artifacts.apis.io/unitedhealth/authentication/unitedhealth-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Healthcare

@@ -5,61 +5,61 @@ api_specs:
   label: PDF.co Barcodes API
   slug: pdf-co-barcodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-barcodes-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-co/openapi/pdf-co-barcodes-api-openapi.yml
 - filename: pdf-co-document-file-system-api-openapi.yml
   format: yaml
   label: PDF.co Document, File & System API
   slug: pdf-co-document-file-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-document-file-system-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-co/openapi/pdf-co-document-file-system-api-openapi.yml
 - filename: pdf-co-editing-api-openapi.yml
   format: yaml
   label: PDF.co Editing API
   slug: pdf-co-editing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-editing-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-co/openapi/pdf-co-editing-api-openapi.yml
 - filename: pdf-co-excel-conversion-api-openapi.yml
   format: yaml
   label: PDF.co Excel Conversion API
   slug: pdf-co-excel-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-excel-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-co/openapi/pdf-co-excel-conversion-api-openapi.yml
 - filename: pdf-co-extraction-api-openapi.yml
   format: yaml
   label: PDF.co Extraction API
   slug: pdf-co-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-co/openapi/pdf-co-extraction-api-openapi.yml
 - filename: pdf-co-find-search-api-openapi.yml
   format: yaml
   label: PDF.co Find & Search API
   slug: pdf-co-find-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-find-search-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-co/openapi/pdf-co-find-search-api-openapi.yml
 - filename: pdf-co-forms-api-openapi.yml
   format: yaml
   label: PDF.co Forms API
   slug: pdf-co-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-forms-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-co/openapi/pdf-co-forms-api-openapi.yml
 - filename: pdf-co-pages-api-openapi.yml
   format: yaml
   label: PDF.co Pages API
   slug: pdf-co-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-pages-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-co/openapi/pdf-co-pages-api-openapi.yml
 - filename: pdf-co-pdf-conversion-api-openapi.yml
   format: yaml
   label: PDF.co PDF Conversion API
   slug: pdf-co-pdf-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-pdf-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-co/openapi/pdf-co-pdf-conversion-api-openapi.yml
 - filename: pdf-co-pdf-merging-splitting-api-openapi.yml
   format: yaml
   label: PDF.co PDF Merging & Splitting API
   slug: pdf-co-pdf-merging-splitting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-pdf-merging-splitting-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-co/openapi/pdf-co-pdf-merging-splitting-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -100,7 +100,7 @@ source_filename: pdf-co-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pdf.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 16:09:01 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.pdf.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 18 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.pdf.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 17 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: pdf.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/security/pdf-co-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pdf-co/security/pdf-co-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - PDF

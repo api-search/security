@@ -27,7 +27,7 @@ source_filename: byd-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: byd.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  6 01:56:06 2027 GMT\n  hsts: false\ndomains:\n- domain: byd.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/byd/refs/heads/main/security/byd-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/byd/security/byd-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -5,19 +5,19 @@ api_specs:
   label: Gupshup Messaging API
   slug: gupshup-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gupshup/refs/heads/main/openapi/gupshup-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/gupshup/openapi/gupshup-messaging-api-openapi.yml
 - filename: gupshup-opt-in-api-openapi.yml
   format: yaml
   label: Gupshup Opt-In API
   slug: gupshup-opt-in-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gupshup/refs/heads/main/openapi/gupshup-opt-in-api-openapi.yml
+  url: https://artifacts.apis.io/gupshup/openapi/gupshup-opt-in-api-openapi.yml
 - filename: gupshup-templates-api-openapi.yml
   format: yaml
   label: Gupshup Templates API
   slug: gupshup-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gupshup/refs/heads/main/openapi/gupshup-templates-api-openapi.yml
+  url: https://artifacts.apis.io/gupshup/openapi/gupshup-templates-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -74,7 +74,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.gupshup.io\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: Amazon RSA 2048 M01\n  cert_expires: Feb 11 23:59:59 2027 GMT\n  hsts: false\n  server: GupShup-Webserver\n  notes: WhatsApp / messaging API host. Fronted by an AWS ALB in ap-south-1 (India). Root path returns 404; API paths are under /wa and /sm.\n- host: partner.gupshup.io\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: Amazon RSA 2048 M04\n  cert_expires: Mar 11 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  server: AmazonS3\n- host: docs.gupshup.io\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: Let's Encrypt\n  cert_expires: Sep  8 23:56:53 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  server: cloudflare\n- host: gupshup.io\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: Thawte TLS RSA CA G1 (DigiCert)\n  cert_expires: Oct 19 23:59:59 2026 GMT\n\
   \  hsts: false\n  server: awselb/2.0\ndomains:\n- domain: gupshup.io\n  dnssec: false\n  caa: []\n  spf: true\n  spf_policy: ~all\n  dmarc: true\n  dmarc_policy: reject\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gupshup/refs/heads/main/security/gupshup-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gupshup/security/gupshup-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Messaging

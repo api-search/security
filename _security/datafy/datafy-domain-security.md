@@ -37,7 +37,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.datafy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 10:18:29 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.datafy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 10:18:29 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n  hsts_include_subdomains: true\n  note: >-\n    Corrected by hand on 2026-08-12 from a direct probe. The automated pass\n    recorded hsts: null because every request to this host returns HTTP 500\n    (UnauthorizedError) and the header was not read off a non-2xx response;\n    `curl -I https://api.datafy.com/` does return\n    `strict-transport-security: max-age=15552000; includeSubDomains`. The host\n    also returns a full Helmet-style header set (CSP, X-Content-Type-Options,\n    X-Frame-Options, Referrer-Policy, COOP/CORP) behind Cloudflare, with\n    Access-Control-Allow-Origin:\
   \ *.\ndomains:\n- domain: datafy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datafy/refs/heads/main/security/datafy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/datafy/security/datafy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -5,37 +5,37 @@ api_specs:
   label: Adobe Workfront Fields API
   slug: workfront-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-fields-api-openapi.yml
+  url: https://artifacts.apis.io/workfront/openapi/workfront-fields-api-openapi.yml
 - filename: workfront-permissions-api-openapi.yml
   format: yaml
   label: Adobe Workfront Permissions API
   slug: workfront-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/workfront/openapi/workfront-permissions-api-openapi.yml
 - filename: workfront-record-types-api-openapi.yml
   format: yaml
   label: Adobe Workfront Record Types API
   slug: workfront-record-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-record-types-api-openapi.yml
+  url: https://artifacts.apis.io/workfront/openapi/workfront-record-types-api-openapi.yml
 - filename: workfront-records-api-openapi.yml
   format: yaml
   label: Adobe Workfront Records API
   slug: workfront-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-records-api-openapi.yml
+  url: https://artifacts.apis.io/workfront/openapi/workfront-records-api-openapi.yml
 - filename: workfront-views-api-openapi.yml
   format: yaml
   label: Adobe Workfront Views API
   slug: workfront-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-views-api-openapi.yml
+  url: https://artifacts.apis.io/workfront/openapi/workfront-views-api-openapi.yml
 - filename: workfront-workspaces-api-openapi.yml
   format: yaml
   label: Adobe Workfront Workspaces API
   slug: workfront-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/workfront/openapi/workfront-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -107,7 +107,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nnote: The three hosts below the divider were added by hand because the apis.yml baseURLs for the core\n  and Planning APIs are per-customer templated hosts, so the mechanical probe could not reach them. The\n  reference/API-Explorer instance (api-cl01.my.workfront.com), the MCP host and the developer-support\n  host are the real, reachable equivalents.\nhosts:\n- host: business.adobe.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  4 23:59:59 2027 GMT\n  hsts: null\n  note: unreachable over HTTP/2 from the probing network (curl 92 INTERNAL_ERROR); TLS handshake and\n    certificate validated\n- host: experienceleague.adobe.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 86400\n- host: developer.adobe.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec  7 23:59:59 2026 GMT\n  hsts:\
   \ true\n  hsts_max_age: 31557600\n- host: mcp.workfront.adobe.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 26 23:59:59 2027 GMT\n  hsts: false\n  note: MCP server host; root path returns 404, the MCP endpoint is /mcp/v1/workfront\n- host: api-cl01.my.workfront.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 25 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  note: public reference instance backing the API Explorer; serves the anonymous object-metadata contract\n- host: developersupport.workfront.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 23:59:59 2026 GMT\n  hsts: false\n  note: hosts the Workfront API Explorer application\ndomains:\n- domain: adobe.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: workfront.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n  dmarc_subdomain_policy: reject\n  note: legacy\
   \ Workfront domain; www.workfront.com no longer resolves (NXDOMAIN) since the move to\n    business.adobe.com, but the apex retains SPF and a DMARC reject policy\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/security/workfront-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/workfront/security/workfront-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -27,7 +27,7 @@ source_filename: california-forever-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: californiaforever.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 12:02:23 2026 GMT\n  hsts: false\ndomains:\n- domain: californiaforever.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/california-forever/refs/heads/main/security/california-forever-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/california-forever/security/california-forever-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

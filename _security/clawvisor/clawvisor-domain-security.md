@@ -5,31 +5,31 @@ api_specs:
   label: Clawvisor Auth API
   slug: clawvisor-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/openapi/clawvisor-auth-api-openapi.yml
+  url: https://artifacts.apis.io/clawvisor/openapi/clawvisor-auth-api-openapi.yml
 - filename: clawvisor-catalog-api-openapi.yml
   format: yaml
   label: Clawvisor Catalog API
   slug: clawvisor-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/openapi/clawvisor-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/clawvisor/openapi/clawvisor-catalog-api-openapi.yml
 - filename: clawvisor-gateway-api-openapi.yml
   format: yaml
   label: Clawvisor Gateway API
   slug: clawvisor-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/openapi/clawvisor-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/clawvisor/openapi/clawvisor-gateway-api-openapi.yml
 - filename: clawvisor-tasks-api-openapi.yml
   format: yaml
   label: Clawvisor Tasks API
   slug: clawvisor-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/openapi/clawvisor-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/clawvisor/openapi/clawvisor-tasks-api-openapi.yml
 - filename: clawvisor-tokens-api-openapi.yml
   format: yaml
   label: Clawvisor Tokens API
   slug: clawvisor-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/openapi/clawvisor-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/clawvisor/openapi/clawvisor-tokens-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: clawvisor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: app.clawvisor.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 06:36:50 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: clawvisor.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/security/clawvisor-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/clawvisor/security/clawvisor-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI Agents

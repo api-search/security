@@ -5,19 +5,19 @@ api_specs:
   label: Université libre de Bruxelles Group API
   slug: ulb-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ulb/refs/heads/main/openapi/ulb-group-api-openapi.yml
+  url: https://artifacts.apis.io/ulb/openapi/ulb-group-api-openapi.yml
 - filename: ulb-oai-pmh-api-openapi.yml
   format: yaml
   label: Université libre de Bruxelles OAI PMH API
   slug: ulb-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ulb/refs/heads/main/openapi/ulb-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/ulb/openapi/ulb-oai-pmh-api-openapi.yml
 - filename: ulb-scholar-api-openapi.yml
   format: yaml
   label: Université libre de Bruxelles Scholar API
   slug: ulb-scholar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ulb/refs/heads/main/openapi/ulb-scholar-api-openapi.yml
+  url: https://artifacts.apis.io/ulb/openapi/ulb-scholar-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: ulb-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ulb.be\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 10:06:41 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: bib.ulb.be\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 10:06:41 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: difusion-svc.ulb.ac.be\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 10:22:36 2026 GMT\n  hsts: null\ndomains:\n- domain: ulb.be\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: ulb.ac.be\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ulb/refs/heads/main/security/ulb-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ulb/security/ulb-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - University

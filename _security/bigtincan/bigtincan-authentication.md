@@ -7,109 +7,109 @@ api_specs:
   label: Bigtincan Admin API
   slug: bigtincan-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-admin-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-admin-api-openapi.yml
 - filename: bigtincan-bookmark-api-openapi.yml
   format: yaml
   label: Bigtincan Bookmark API
   slug: bigtincan-bookmark-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-bookmark-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-bookmark-api-openapi.yml
 - filename: bigtincan-channel-api-openapi.yml
   format: yaml
   label: Bigtincan Channel API
   slug: bigtincan-channel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-channel-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-channel-api-openapi.yml
 - filename: bigtincan-crm-api-openapi.yml
   format: yaml
   label: Bigtincan CRM API
   slug: bigtincan-crm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-crm-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-crm-api-openapi.yml
 - filename: bigtincan-event-api-openapi.yml
   format: yaml
   label: Bigtincan Event API
   slug: bigtincan-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-event-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-event-api-openapi.yml
 - filename: bigtincan-file-api-openapi.yml
   format: yaml
   label: Bigtincan File API
   slug: bigtincan-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-file-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-file-api-openapi.yml
 - filename: bigtincan-form-api-openapi.yml
   format: yaml
   label: Bigtincan Form API
   slug: bigtincan-form-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-form-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-form-api-openapi.yml
 - filename: bigtincan-group-api-openapi.yml
   format: yaml
   label: Bigtincan Group API
   slug: bigtincan-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-group-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-group-api-openapi.yml
 - filename: bigtincan-history-api-openapi.yml
   format: yaml
   label: Bigtincan History API
   slug: bigtincan-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-history-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-history-api-openapi.yml
 - filename: bigtincan-links-api-openapi.yml
   format: yaml
   label: Bigtincan Links API
   slug: bigtincan-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-links-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-links-api-openapi.yml
 - filename: bigtincan-public-file-share-api-openapi.yml
   format: yaml
   label: Bigtincan Public File Share API
   slug: bigtincan-public-file-share-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-public-file-share-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-public-file-share-api-openapi.yml
 - filename: bigtincan-search-api-openapi.yml
   format: yaml
   label: Bigtincan Search API
   slug: bigtincan-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-search-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-search-api-openapi.yml
 - filename: bigtincan-settings-api-openapi.yml
   format: yaml
   label: Bigtincan Settings API
   slug: bigtincan-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-settings-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-settings-api-openapi.yml
 - filename: bigtincan-story-api-openapi.yml
   format: yaml
   label: Bigtincan Story API
   slug: bigtincan-story-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-story-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-story-api-openapi.yml
 - filename: bigtincan-tab-api-openapi.yml
   format: yaml
   label: Bigtincan Tab API
   slug: bigtincan-tab-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-tab-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-tab-api-openapi.yml
 - filename: bigtincan-tag-api-openapi.yml
   format: yaml
   label: Bigtincan Tag API
   slug: bigtincan-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-tag-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-tag-api-openapi.yml
 - filename: bigtincan-user-api-openapi.yml
   format: yaml
   label: Bigtincan User API
   slug: bigtincan-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-user-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-user-api-openapi.yml
 - filename: bigtincan-user-metadata-api-openapi.yml
   format: yaml
   label: Bigtincan User Metadata API
   slug: bigtincan-user-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-user-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-user-metadata-api-openapi.yml
 auth_types:
 - oauth2
 description: The Bigtincan Hub Public API is OAuth 2.0 only. The published Swagger 2.0 document at https://pubapi.bigtincan.com/api/sandbox/swagger/public-api declares NO securityDefinitions at all; the authentication model below was read from the provider's own interactive console at https://pubapi.bigtincan.com/doc/interactive/ (the token/authorize/revoke endpoints and grant types are defined inline in that page's JavaScript) and confirmed against live unauthenticated probes of the API host.
@@ -159,7 +159,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: https://pubapi.
   \    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n    scopes: []\n    credentials:\n      - Client ID\n      - Client Secret\n    description: >-\n      \"User Authentication\" in Bigtincan's own wording — an interactive login\n      with a Bigtincan Hub account. The As-User header is explicitly disabled for\n      this flow by the console.\n    source: https://pubapi.bigtincan.com/doc/interactive/\ndelegation:\n  header: As-User\n  value: USER_ID\n  description: >-\n    \"The As-User field allows applications to perform actions on behalf of users\n    within their tenant. Admin APIs do not support the As-User header. To perform\n    an action on behalf of a user you will need to pass this as a header:\n    As-User: USER_ID\" — quoted verbatim from\n    https://pubapi.bigtincan.com/doc/interactive/\n  constraints:\n    - Available only with the password (API Key) flow, not the authorization code flow.\n    - Admin-tagged operations do not honour As-User.\n  in_spec: >-\n\
   \    The Swagger document models As-User as an optional header parameter\n    ($ref #/definitions/As-User) on nearly every operation.\n  cors_allowed: true\nscopes:\n  published: false\n  note: >-\n    Bigtincan publishes no OAuth scope vocabulary. Neither the Swagger document\n    nor the interactive console names a single scope, and the console sets\n    scopeSeparator \",\" with an empty additionalQueryStringParams. Authorization\n    is therefore governed entirely by the Hub role/permission of the\n    authenticating user (or of the As-User target), not by token scope.\nfailure_mode:\n  status: 401\n  body: '{\"error\":{\"scope\":\"api\",\"code\":\"INVALID_TOKEN\",\"message\":\"Access token is invalid\"},\"trace_id\":\"\"}'\n  probed: 'GET https://pubapi.bigtincan.com/v1/user/me -> 401 (2026-08-14)'\ngaps:\n  - >-\n    The published Swagger 2.0 document declares no securityDefinitions and no\n    security requirement, so a generated client will emit unauthenticated calls\n    that\
   \ all fail with 401 INVALID_TOKEN. The schemes above are captured in\n    overlays/bigtincan-hub-api-overlay.yaml so the enhancement is recorded\n    separately from the provider's contract.\n  - >-\n    There is no /.well-known/oauth-authorization-server document (RFC 8414) on\n    any Bigtincan host — the OAuth endpoints are not machine-discoverable.\n  - >-\n    No scope vocabulary is published, so an agent cannot request least-privilege\n    access or reason about what a token is allowed to do.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/authentication/bigtincan-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bigtincan/authentication/bigtincan-authentication.yml
 summary_line: oauth2 · 2 schemes
 tags:
 - Sales Enablement

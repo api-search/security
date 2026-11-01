@@ -7,79 +7,79 @@ api_specs:
   label: Starlink Telemetry Stream API
   slug: starlink-telemetry-stream-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/asyncapi/starlink-telemetry-asyncapi.yml
+  url: https://artifacts.apis.io/starlink/asyncapi/starlink-telemetry-asyncapi.yml
 - filename: starlink-account-api-openapi.yml
   format: yaml
   label: Starlink Account API
   slug: starlink-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/openapi/starlink-account-api-openapi.yml
+  url: https://artifacts.apis.io/starlink/openapi/starlink-account-api-openapi.yml
 - filename: starlink-addresses-api-openapi.yml
   format: yaml
   label: Starlink Addresses API
   slug: starlink-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/openapi/starlink-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/starlink/openapi/starlink-addresses-api-openapi.yml
 - filename: starlink-billing-api-openapi.yml
   format: yaml
   label: Starlink Billing API
   slug: starlink-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/openapi/starlink-billing-api-openapi.yml
+  url: https://artifacts.apis.io/starlink/openapi/starlink-billing-api-openapi.yml
 - filename: starlink-contacts-api-openapi.yml
   format: yaml
   label: Starlink Contacts API
   slug: starlink-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/openapi/starlink-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/starlink/openapi/starlink-contacts-api-openapi.yml
 - filename: starlink-data-pools-api-openapi.yml
   format: yaml
   label: Starlink Data Pools API
   slug: starlink-data-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/openapi/starlink-data-pools-api-openapi.yml
+  url: https://artifacts.apis.io/starlink/openapi/starlink-data-pools-api-openapi.yml
 - filename: starlink-flights-api-openapi.yml
   format: yaml
   label: Starlink Flights API
   slug: starlink-flights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/openapi/starlink-flights-api-openapi.yml
+  url: https://artifacts.apis.io/starlink/openapi/starlink-flights-api-openapi.yml
 - filename: starlink-managed-accounts-api-openapi.yml
   format: yaml
   label: Starlink Managed Accounts API
   slug: starlink-managed-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/openapi/starlink-managed-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/starlink/openapi/starlink-managed-accounts-api-openapi.yml
 - filename: starlink-managed-api-openapi.yml
   format: yaml
   label: Starlink Managed API
   slug: starlink-managed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/openapi/starlink-managed-api-openapi.yml
+  url: https://artifacts.apis.io/starlink/openapi/starlink-managed-api-openapi.yml
 - filename: starlink-mobile-api-openapi.yml
   format: yaml
   label: Starlink Mobile API
   slug: starlink-mobile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/openapi/starlink-mobile-api-openapi.yml
+  url: https://artifacts.apis.io/starlink/openapi/starlink-mobile-api-openapi.yml
 - filename: starlink-routers-api-openapi.yml
   format: yaml
   label: Starlink Routers API
   slug: starlink-routers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/openapi/starlink-routers-api-openapi.yml
+  url: https://artifacts.apis.io/starlink/openapi/starlink-routers-api-openapi.yml
 - filename: starlink-service-lines-api-openapi.yml
   format: yaml
   label: Starlink Service Lines API
   slug: starlink-service-lines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/openapi/starlink-service-lines-api-openapi.yml
+  url: https://artifacts.apis.io/starlink/openapi/starlink-service-lines-api-openapi.yml
 - filename: starlink-user-terminals-api-openapi.yml
   format: yaml
   label: Starlink User Terminals API
   slug: starlink-user-terminals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/openapi/starlink-user-terminals-api-openapi.yml
+  url: https://artifacts.apis.io/starlink/openapi/starlink-user-terminals-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -144,7 +144,7 @@ source_yaml: "generated: '2026-07-25'\nmethod: searched\nsource: https://starlin
   \ TLS client certificate (curl --key client.key --cert client.crt)\n  onboarding: email space-safety-onboarding@spacex.com; access limited to satellite operators\n  environments:\n  - https://staging.space-safety.starlink.com\n  - https://space-safety.starlink.com\n- name: LocalDeviceNone\n  type: none\n  applies_to: Starlink Local Device gRPC API (192.168.1.1:9000 router, 192.168.100.1:9200 user terminal)\n  docs: https://starlink.readme.io/docs/device-api\n  rationale: no authentication because the gRPC server is only reachable on the local network\n- name: RouterLocalHttpsTls\n  type: mutualTLS\n  applies_to: Starlink Router Local HTTPS API (/starlinkrouter/)\n  docs: https://starlink.readme.io/docs/router-api\n  credential: enterprise-supplied TLS certificate + key configured on the router config, plus a CORS allowed-origins list\n  note: the enterprise owns the certificate; the router serves the API on an operator-chosen domain\nservice_account_model:\n  docs: https://starlink.readme.io/docs/api-v2-service-accounts\n\
   \  scope: a V2 service account is bound to a Starlink ACCOUNT, not a user, and survives the creating user leaving\n  who_can_create: users holding the Admin or Service Account Management role\n  ceiling: a user cannot grant a service account a permission they do not themselves hold\n  limits:\n    service_accounts_per_account: 20\n    secrets_per_service_account: 20\n  rotation: secrets support an optional expiry; create new secrets then delete old ones to rotate\n  revocation: service accounts can be disabled but never deleted, to preserve traceability\n  mfa: service accounts are exempt from multi-factor authentication challenges\nauthorization:\n  model: role-based access control, declared per operation in the OpenAPI description\n  source: openapi/starlink-public-api-v2-openapi.json\n  permissions:\n  - Account information, View\n  - Account information, Edit\n  - Admin Only - API User Management, Edit\n  - Aviation flight status management, Edit\n  - Device command and configuration,\
   \ View\n  - Device command and configuration, Edit\n  - Device configuration assignment, Edit\n  - Device management, View\n  - Device management, Edit\n  - Device telemetry, View\n  - Financial, View\n  - Gated Feature - Starlink Mobile Data, View\n  - Managed Account Information, View\n  - Service plan, View\n  - Service plan, Edit\n  - User management, Edit\n  visibility_roles:\n  - Admin\n  - Technical\n  - Technical Read Only\n  - Technical Configuration\n  - Service Account Management\nfailure_modes:\n- status: 401\n  meaning: token expired or invalid; clear the cached token and mint a new one\n- status: 403\n  meaning: the service account lacks the required permission for this endpoint or resource (user_lacks_required_permission)\nrate_limits:\n  token_endpoint: 1000 authentication requests per 15 minutes per client IP\n  source: https://starlink.readme.io/docs/rate-limits-1\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/authentication/starlink-authentication.yml
+source_yaml_url: https://artifacts.apis.io/starlink/authentication/starlink-authentication.yml
 summary_line: oauth2/http/mutualTLS · 4 schemes
 tags:
 - Non-Terrestrial Network

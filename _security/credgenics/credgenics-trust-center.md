@@ -5,19 +5,19 @@ api_specs:
   label: Credgenics Authentication API
   slug: credgenics-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credgenics/refs/heads/main/openapi/credgenics-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/credgenics/openapi/credgenics-authentication-api-openapi.yml
 - filename: credgenics-credit-line-api-openapi.yml
   format: yaml
   label: Credgenics Credit Line API
   slug: credgenics-credit-line-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credgenics/refs/heads/main/openapi/credgenics-credit-line-api-openapi.yml
+  url: https://artifacts.apis.io/credgenics/openapi/credgenics-credit-line-api-openapi.yml
 - filename: credgenics-lending-api-openapi.yml
   format: yaml
   label: Credgenics Lending API
   slug: credgenics-lending-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credgenics/refs/heads/main/openapi/credgenics-lending-api-openapi.yml
+  url: https://artifacts.apis.io/credgenics/openapi/credgenics-lending-api-openapi.yml
 certification_count: 2
 certifications:
 - PCI DSS
@@ -35,7 +35,7 @@ source_filename: credgenics-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://www.credgenics.com/security\nurl: https://www.credgenics.com/security\ncertifications:\n- PCI DSS\n- ISO (certificate displayed; specific ISO standard not named on the page)\nsecurity_posture:\n- Data encryption and tokenization\n- Multi-user access controls\n- Cloud-based data backup and recovery\n- Server hardening (strong protocol, key exchange and cipher)\nnotes: >-\n  Credgenics publishes a security page displaying a PCI-compliant badge and an\n  ISO certificate logo (specific ISO standard not named). No standalone trust\n  portal, no named SOC 2 / FedRAMP / HIPAA claims, and no bug-bounty or\n  responsible-disclosure program were found. Further compliance detail is\n  directed to the privacy policy and contact form.\nevidence:\n- source: https://www.credgenics.com/security\n  keywords: [pci compliant, iso certificate, encryption, tokenization]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/credgenics/refs/heads/main/security/credgenics-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/credgenics/security/credgenics-trust-center.yml
 summary_line: PCI DSS, ISO (certificate displayed; specific ISO standard not named on the page)
 tags:
 - Company

@@ -5,109 +5,109 @@ api_specs:
   label: Commune Articles API
   slug: usecommune-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-articles-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-articles-api-openapi.yml
 - filename: usecommune-engagement-api-openapi.yml
   format: yaml
   label: Commune Engagement API
   slug: usecommune-engagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-engagement-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-engagement-api-openapi.yml
 - filename: usecommune-event-delivery-api-openapi.yml
   format: yaml
   label: Commune Event delivery API
   slug: usecommune-event-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-event-delivery-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-event-delivery-api-openapi.yml
 - filename: usecommune-highlights-api-openapi.yml
   format: yaml
   label: Commune Highlights API
   slug: usecommune-highlights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-highlights-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-highlights-api-openapi.yml
 - filename: usecommune-messages-api-openapi.yml
   format: yaml
   label: Commune Messages API
   slug: usecommune-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-messages-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-messages-api-openapi.yml
 - filename: usecommune-metrics-api-openapi.yml
   format: yaml
   label: Commune Metrics API
   slug: usecommune-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-metrics-api-openapi.yml
 - filename: usecommune-newsletters-api-openapi.yml
   format: yaml
   label: Commune Newsletters API
   slug: usecommune-newsletters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-newsletters-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-newsletters-api-openapi.yml
 - filename: usecommune-platform-api-openapi.yml
   format: yaml
   label: Commune Platform API
   slug: usecommune-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-platform-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-platform-api-openapi.yml
 - filename: usecommune-search-api-openapi.yml
   format: yaml
   label: Commune Search API
   slug: usecommune-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-search-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-search-api-openapi.yml
 - filename: usecommune-senders-api-openapi.yml
   format: yaml
   label: Commune Senders API
   slug: usecommune-senders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-senders-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-senders-api-openapi.yml
 - filename: usecommune-sends-api-openapi.yml
   format: yaml
   label: Commune Sends API
   slug: usecommune-sends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-sends-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-sends-api-openapi.yml
 - filename: usecommune-subscriber-tags-api-openapi.yml
   format: yaml
   label: Commune Subscriber tags API
   slug: usecommune-subscriber-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-subscriber-tags-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-subscriber-tags-api-openapi.yml
 - filename: usecommune-subscribers-api-openapi.yml
   format: yaml
   label: Commune Subscribers API
   slug: usecommune-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-subscribers-api-openapi.yml
 - filename: usecommune-team-api-openapi.yml
   format: yaml
   label: Commune Team API
   slug: usecommune-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-team-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-team-api-openapi.yml
 - filename: usecommune-threads-api-openapi.yml
   format: yaml
   label: Commune Threads API
   slug: usecommune-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-threads-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-threads-api-openapi.yml
 - filename: usecommune-users-api-openapi.yml
   format: yaml
   label: Commune Users API
   slug: usecommune-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-users-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-users-api-openapi.yml
 - filename: usecommune-webhooks-api-openapi.yml
   format: yaml
   label: Commune Webhooks API
   slug: usecommune-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-webhooks-api-openapi.yml
 - filename: usecommune-website-domains-api-openapi.yml
   format: yaml
   label: Commune Website domains API
   slug: usecommune-website-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-website-domains-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-website-domains-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -136,7 +136,7 @@ source_filename: usecommune-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: usecommune.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  1 02:55:00 2026 GMT\n  hsts: false\ndomains:\n- domain: usecommune.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/security/usecommune-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/usecommune/security/usecommune-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Newsletters

@@ -5,157 +5,157 @@ api_specs:
   label: Sendcloud Address API
   slug: sendcloud-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-address-api-openapi.yml
+  url: https://artifacts.apis.io/sendcloud/openapi/sendcloud-address-api-openapi.yml
 - filename: sendcloud-analytics-api-openapi.yml
   format: yaml
   label: Sendcloud Analytics API
   slug: sendcloud-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/sendcloud/openapi/sendcloud-analytics-api-openapi.yml
 - filename: sendcloud-broadcast-api-openapi.yml
   format: yaml
   label: Sendcloud Broadcast API
   slug: sendcloud-broadcast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-broadcast-api-openapi.yml
+  url: https://artifacts.apis.io/sendcloud/openapi/sendcloud-broadcast-api-openapi.yml
 - filename: sendcloud-connections-api-openapi.yml
   format: yaml
   label: Sendcloud Connections API
   slug: sendcloud-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-connections-api-openapi.yml
+  url: https://artifacts.apis.io/sendcloud/openapi/sendcloud-connections-api-openapi.yml
 - filename: sendcloud-customs-documents-download-api-openapi.yml
   format: yaml
   label: Sendcloud Customs Documents Download API
   slug: sendcloud-customs-documents-download-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-customs-documents-download-api-openapi.yml
+  url: https://artifacts.apis.io/sendcloud/openapi/sendcloud-customs-documents-download-api-openapi.yml
 - filename: sendcloud-exception-logs-api-openapi.yml
   format: yaml
   label: Sendcloud Exception logs API
   slug: sendcloud-exception-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-exception-logs-api-openapi.yml
+  url: https://artifacts.apis.io/sendcloud/openapi/sendcloud-exception-logs-api-openapi.yml
 - filename: sendcloud-integrations-api-openapi.yml
   format: yaml
   label: Sendcloud Integrations API
   slug: sendcloud-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/sendcloud/openapi/sendcloud-integrations-api-openapi.yml
 - filename: sendcloud-label-download-api-openapi.yml
   format: yaml
   label: Sendcloud Label Download API
   slug: sendcloud-label-download-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-label-download-api-openapi.yml
+  url: https://artifacts.apis.io/sendcloud/openapi/sendcloud-label-download-api-openapi.yml
 - filename: sendcloud-labels-api-openapi.yml
   format: yaml
   label: Sendcloud Labels API
   slug: sendcloud-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-labels-api-openapi.yml
+  url: https://artifacts.apis.io/sendcloud/openapi/sendcloud-labels-api-openapi.yml
 - filename: sendcloud-orders-api-openapi.yml
   format: yaml
   label: Sendcloud Orders API
   slug: sendcloud-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-orders-api-openapi.yml
+  url: https://artifacts.apis.io/sendcloud/openapi/sendcloud-orders-api-openapi.yml
 - filename: sendcloud-parcel-documents-api-openapi.yml
   format: yaml
   label: Sendcloud Parcel Documents API
   slug: sendcloud-parcel-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-parcel-documents-api-openapi.yml
+  url: https://artifacts.apis.io/sendcloud/openapi/sendcloud-parcel-documents-api-openapi.yml
 - filename: sendcloud-parcel-tracking-api-openapi.yml
   format: yaml
   label: Sendcloud Parcel Tracking API
   slug: sendcloud-parcel-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-parcel-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/sendcloud/openapi/sendcloud-parcel-tracking-api-openapi.yml
 - filename: sendcloud-parcels-api-openapi.yml
   format: yaml
   label: Sendcloud Parcels API
   slug: sendcloud-parcels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-parcels-api-openapi.yml
+  url: https://artifacts.apis.io/sendcloud/openapi/sendcloud-parcels-api-openapi.yml
 - filename: sendcloud-products-api-openapi.yml
   format: yaml
   label: Sendcloud Products API
   slug: sendcloud-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-products-api-openapi.yml
+  url: https://artifacts.apis.io/sendcloud/openapi/sendcloud-products-api-openapi.yml
 - filename: sendcloud-reporting-api-openapi.yml
   format: yaml
   label: Sendcloud Reporting API
   slug: sendcloud-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/sendcloud/openapi/sendcloud-reporting-api-openapi.yml
 - filename: sendcloud-returns-api-openapi.yml
   format: yaml
   label: Sendcloud Returns API
   slug: sendcloud-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-returns-api-openapi.yml
+  url: https://artifacts.apis.io/sendcloud/openapi/sendcloud-returns-api-openapi.yml
 - filename: sendcloud-service-points-api-openapi.yml
   format: yaml
   label: Sendcloud Service Points API
   slug: sendcloud-service-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-service-points-api-openapi.yml
+  url: https://artifacts.apis.io/sendcloud/openapi/sendcloud-service-points-api-openapi.yml
 - filename: sendcloud-ship-an-order-api-openapi.yml
   format: yaml
   label: Sendcloud Ship an Order API
   slug: sendcloud-ship-an-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-ship-an-order-api-openapi.yml
+  url: https://artifacts.apis.io/sendcloud/openapi/sendcloud-ship-an-order-api-openapi.yml
 - filename: sendcloud-shipments-api-openapi.yml
   format: yaml
   label: Sendcloud Shipments API
   slug: sendcloud-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/sendcloud/openapi/sendcloud-shipments-api-openapi.yml
 - filename: sendcloud-subscriptions-api-openapi.yml
   format: yaml
   label: Sendcloud Subscriptions API
   slug: sendcloud-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/sendcloud/openapi/sendcloud-subscriptions-api-openapi.yml
 - filename: sendcloud-tracking-api-openapi.yml
   format: yaml
   label: Sendcloud Tracking API
   slug: sendcloud-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/sendcloud/openapi/sendcloud-tracking-api-openapi.yml
 - filename: sendcloud-transit-times-api-openapi.yml
   format: yaml
   label: Sendcloud Transit times API
   slug: sendcloud-transit-times-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-transit-times-api-openapi.yml
+  url: https://artifacts.apis.io/sendcloud/openapi/sendcloud-transit-times-api-openapi.yml
 - filename: sendcloud-user-carriers-and-shipping-methods-api-openapi.yml
   format: yaml
   label: Sendcloud User Carriers and Shipping Methods API
   slug: sendcloud-user-carriers-and-shipping-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-user-carriers-and-shipping-methods-api-openapi.yml
+  url: https://artifacts.apis.io/sendcloud/openapi/sendcloud-user-carriers-and-shipping-methods-api-openapi.yml
 - filename: sendcloud-events-api-openapi.yml
   format: yaml
   label: Sendcloud Events API
   slug: sendcloud-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-events-api-openapi.yml
+  url: https://artifacts.apis.io/sendcloud/openapi/sendcloud-events-api-openapi.yml
 - filename: sendcloud-webhooks-api-openapi.yml
   format: yaml
   label: Sendcloud Webhooks API
   slug: sendcloud-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/sendcloud/openapi/sendcloud-webhooks-api-openapi.yml
 - filename: sendcloud-oauth2-api-openapi.yml
   format: yaml
   label: Sendcloud O Auth2 API
   slug: sendcloud-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/sendcloud/openapi/sendcloud-oauth2-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -202,7 +202,7 @@ source_filename: sendcloud-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sendcloud.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: sendcloud.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 06:28:31 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: panel.sendcloud.sc\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: sendcloud.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: sendcloud.dev\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/security/sendcloud-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sendcloud/security/sendcloud-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Shipping

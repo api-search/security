@@ -5,31 +5,31 @@ api_specs:
   label: Cambio Healthcare Systems Booked Appointments API
   slug: cambio-healthcare-systems-booked-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-booked-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/cambio-healthcare-systems/openapi/cambio-healthcare-systems-booked-appointments-api-openapi.yml
 - filename: cambio-healthcare-systems-default-api-openapi.yml
   format: yaml
   label: Cambio Healthcare Systems * API
   slug: cambio-healthcare-systems-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-default-api-openapi.yml
+  url: https://artifacts.apis.io/cambio-healthcare-systems/openapi/cambio-healthcare-systems-default-api-openapi.yml
 - filename: cambio-healthcare-systems-payment-notice-api-openapi.yml
   format: yaml
   label: Cambio Healthcare Systems Payment Notice API
   slug: cambio-healthcare-systems-payment-notice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-payment-notice-api-openapi.yml
+  url: https://artifacts.apis.io/cambio-healthcare-systems/openapi/cambio-healthcare-systems-payment-notice-api-openapi.yml
 - filename: cambio-healthcare-systems-protocol-api-openapi.yml
   format: yaml
   label: Cambio Healthcare Systems Protocol API
   slug: cambio-healthcare-systems-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/cambio-healthcare-systems/openapi/cambio-healthcare-systems-protocol-api-openapi.yml
 - filename: cambio-healthcare-systems-well-known-api-openapi.yml
   format: yaml
   label: Cambio Healthcare Systems .well Known API
   slug: cambio-healthcare-systems-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/cambio-healthcare-systems/openapi/cambio-healthcare-systems-well-known-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: cambio-healthcare-systems-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cambiogroup.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 19 01:42:04 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.openservices.cambio.se\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.openservices.cambio.se\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: cambiogroup.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: cambio.se\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/security/cambio-healthcare-systems-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cambio-healthcare-systems/security/cambio-healthcare-systems-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Healthcare

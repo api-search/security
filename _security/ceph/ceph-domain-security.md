@@ -5,37 +5,37 @@ api_specs:
   label: Ceph Auth API
   slug: ceph-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceph/refs/heads/main/openapi/ceph-auth-api-openapi.yml
+  url: https://artifacts.apis.io/ceph/openapi/ceph-auth-api-openapi.yml
 - filename: ceph-cluster-api-openapi.yml
   format: yaml
   label: Ceph Cluster API
   slug: ceph-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceph/refs/heads/main/openapi/ceph-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/ceph/openapi/ceph-cluster-api-openapi.yml
 - filename: ceph-configuration-api-openapi.yml
   format: yaml
   label: Ceph Configuration API
   slug: ceph-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceph/refs/heads/main/openapi/ceph-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/ceph/openapi/ceph-configuration-api-openapi.yml
 - filename: ceph-crush-api-openapi.yml
   format: yaml
   label: Ceph CRUSH API
   slug: ceph-crush-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceph/refs/heads/main/openapi/ceph-crush-api-openapi.yml
+  url: https://artifacts.apis.io/ceph/openapi/ceph-crush-api-openapi.yml
 - filename: ceph-daemon-api-openapi.yml
   format: yaml
   label: Ceph Daemon API
   slug: ceph-daemon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceph/refs/heads/main/openapi/ceph-daemon-api-openapi.yml
+  url: https://artifacts.apis.io/ceph/openapi/ceph-daemon-api-openapi.yml
 - filename: ceph-user-api-openapi.yml
   format: yaml
   label: Ceph User API
   slug: ceph-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceph/refs/heads/main/openapi/ceph-user-api-openapi.yml
+  url: https://artifacts.apis.io/ceph/openapi/ceph-user-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -77,7 +77,7 @@ source_filename: ceph-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ceph.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  1 14:48:35 2026 GMT\n  hsts: null\n- host: docs.ceph.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 03:52:16 2026 GMT\n  hsts: false\ndomains:\n- domain: ceph.io\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 iodef \"mailto:ceph-infra-admins@redhat.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: ceph.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ceph/refs/heads/main/security/ceph-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ceph/security/ceph-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Storage

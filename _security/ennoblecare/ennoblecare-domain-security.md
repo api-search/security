@@ -27,13 +27,13 @@ source_filename: ennoblecare-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ennoblecare.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 15:02:17 2026 GMT\n  hsts: false\ndomains:\n- domain: ennoblecare.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ennoblecare/refs/heads/main/security/ennoblecare-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ennoblecare/security/ennoblecare-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Healthcare
 - Senior Care
-- Home Health
+- Home Care
 - Primary Care
 - Palliative Care
 - Hospice

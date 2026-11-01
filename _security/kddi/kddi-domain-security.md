@@ -27,7 +27,7 @@ source_filename: kddi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.kddi.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov  4 06:11:01 2026 GMT\n  hsts: false\ndomains:\n- domain: kddi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kddi/refs/heads/main/security/kddi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kddi/security/kddi-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Telecommunications

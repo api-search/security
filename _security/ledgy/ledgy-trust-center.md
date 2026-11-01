@@ -5,7 +5,7 @@ api_specs:
   label: Ledgy Graph QL API
   slug: ledgy-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledgy/refs/heads/main/openapi/ledgy-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/ledgy/openapi/ledgy-graph-ql-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -23,7 +23,7 @@ source_filename: ledgy-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.ledgy.com/\nurl: https://trust.ledgy.com/\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://trust.ledgy.com/\n  keywords:\n  - soc 2\n  - iso 27001\n  - trust centre\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ledgy/refs/heads/main/security/ledgy-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/ledgy/security/ledgy-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Equity Management

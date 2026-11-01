@@ -8,55 +8,55 @@ api_specs:
   label: Phraseanet Account API
   slug: phraseanet-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-account-api-openapi.yml
+  url: https://artifacts.apis.io/phraseanet/openapi/phraseanet-account-api-openapi.yml
 - filename: phraseanet-baskets-api-openapi.yml
   format: yaml
   label: Phraseanet Baskets API
   slug: phraseanet-baskets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-baskets-api-openapi.yml
+  url: https://artifacts.apis.io/phraseanet/openapi/phraseanet-baskets-api-openapi.yml
 - filename: phraseanet-databoxes-api-openapi.yml
   format: yaml
   label: Phraseanet Databoxes API
   slug: phraseanet-databoxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-databoxes-api-openapi.yml
+  url: https://artifacts.apis.io/phraseanet/openapi/phraseanet-databoxes-api-openapi.yml
 - filename: phraseanet-feeds-api-openapi.yml
   format: yaml
   label: Phraseanet Feeds API
   slug: phraseanet-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/phraseanet/openapi/phraseanet-feeds-api-openapi.yml
 - filename: phraseanet-metadata-api-openapi.yml
   format: yaml
   label: Phraseanet Metadata API
   slug: phraseanet-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/phraseanet/openapi/phraseanet-metadata-api-openapi.yml
 - filename: phraseanet-quarantine-api-openapi.yml
   format: yaml
   label: Phraseanet Quarantine API
   slug: phraseanet-quarantine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-quarantine-api-openapi.yml
+  url: https://artifacts.apis.io/phraseanet/openapi/phraseanet-quarantine-api-openapi.yml
 - filename: phraseanet-records-api-openapi.yml
   format: yaml
   label: Phraseanet Records API
   slug: phraseanet-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-records-api-openapi.yml
+  url: https://artifacts.apis.io/phraseanet/openapi/phraseanet-records-api-openapi.yml
 - filename: phraseanet-search-api-openapi.yml
   format: yaml
   label: Phraseanet Search API
   slug: phraseanet-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-search-api-openapi.yml
+  url: https://artifacts.apis.io/phraseanet/openapi/phraseanet-search-api-openapi.yml
 - filename: phraseanet-stories-api-openapi.yml
   format: yaml
   label: Phraseanet Stories API
   slug: phraseanet-stories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-stories-api-openapi.yml
+  url: https://artifacts.apis.io/phraseanet/openapi/phraseanet-stories-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -96,7 +96,7 @@ source_filename: phraseanet-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/phraseanet-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - query\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://your-phraseanet-instance/api/oauthv2/authorize\n    tokenUrl: https://your-phraseanet-instance/api/oauthv2/token\n    scopes: 0\n  description: OAuth2. Register an application in Phraseanet to obtain a client id and secret.\n  sources:\n  - openapi/phraseanet-openapi.yml\n- name: oauthTokenParam\n  type: apiKey\n  in: query\n  parameter: oauth_token\n  description: OAuth2 access token passed as the oauth_token query parameter.\n  sources:\n  - openapi/phraseanet-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/authentication/phraseanet-authentication.yml
+source_yaml_url: https://artifacts.apis.io/phraseanet/authentication/phraseanet-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Digital Asset Management

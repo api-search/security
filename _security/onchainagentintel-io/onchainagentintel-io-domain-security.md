@@ -5,13 +5,13 @@ api_specs:
   label: Agent Zero Paid X402 API
   slug: onchainagentintel-io-paid-x402-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onchainagentintel-io/refs/heads/main/openapi/onchainagentintel-io-paid-x402-api-openapi.yml
+  url: https://artifacts.apis.io/onchainagentintel-io/openapi/onchainagentintel-io-paid-x402-api-openapi.yml
 - filename: onchainagentintel-io-public-api-openapi.yml
   format: yaml
   label: Agent Zero Public API
   slug: onchainagentintel-io-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onchainagentintel-io/refs/heads/main/openapi/onchainagentintel-io-public-api-openapi.yml
+  url: https://artifacts.apis.io/onchainagentintel-io/openapi/onchainagentintel-io-public-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -44,7 +44,7 @@ source_filename: onchainagentintel-io-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: onchainagentintel.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  6 23:31:15 2026 GMT\n  hsts: false\n- host: api.onchainagentintel.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 04:15:41 2026 GMT\n  hsts: null\ndomains:\n- domain: onchainagentintel.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onchainagentintel-io/refs/heads/main/security/onchainagentintel-io-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/onchainagentintel-io/security/onchainagentintel-io-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Agents

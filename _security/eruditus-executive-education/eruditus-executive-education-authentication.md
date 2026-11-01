@@ -8,13 +8,13 @@ api_specs:
   label: Eruditus Leads API
   slug: eruditus-executive-education-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/openapi/eruditus-executive-education-leads-api-openapi.yml
+  url: https://artifacts.apis.io/eruditus-executive-education/openapi/eruditus-executive-education-leads-api-openapi.yml
 - filename: eruditus-executive-education-programs-api-openapi.yml
   format: yaml
   label: Eruditus Programs API
   slug: eruditus-executive-education-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/openapi/eruditus-executive-education-programs-api-openapi.yml
+  url: https://artifacts.apis.io/eruditus-executive-education/openapi/eruditus-executive-education-programs-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -51,7 +51,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: searched\ndocs: https://emeritus-tech.github.io/emeritus-api-docs/index.html\nsource: openapi/eruditus-executive-education-leads-openapi.yml, openapi/eruditus-executive-education-programs-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: LeadWebhookKey\n  type: apiKey\n  in: header\n  parameter: LEAD_WEBHOOK_KEY\n  description: 'Partner token issued by Emeritus. Per the published reference: \"We will provide\n    your own token to use in the requests. Please contact us if you need one.\"'\n  sources:\n  - openapi/eruditus-executive-education-leads-openapi.yml\n- name: ResourcesApiKey\n  type: apiKey\n  in: header\n  parameter: HTTP-EE-RESOURCES-API-KEY\n  description: 'Partner token issued by Emeritus. Per the published reference: \"We will provide\n    your own token to use in the requests. Please contact us if you need one.\"'\n  sources:\n  - openapi/eruditus-executive-education-programs-openapi.yml\n\
   model: static-per-api-token\nissuance:\n  self_service: false\n  process: 'Manual. Published verbatim in the reference: \"We will provide your own token to use\n    in the requests. Please contact us if you need one.\"'\n  contact: https://emeritus.org/connect-with-us/\nnotes:\n- Each API has its own authorization header name — there is no single shared scheme across the\n  Emeritus estate. The reference states this explicitly under \"Authentication\".\n- Tokens are static bearer-equivalents carried in a custom header, not in `Authorization`.\n- No OAuth 2.0, no OpenID Connect, no mTLS, no HTTP basic/bearer. /.well-known/openid-configuration\n  and /.well-known/oauth-authorization-server return 404 on every Emeritus host (probed 2026-08-04).\n- No scope, permission or key-rotation surface is published; scopes/ is therefore not emitted.\n- The same token model applies to both the staging and production environments; no test-vs-live\n  key prefix scheme is published.\nverified:\n  fetched:\
   \ '2026-08-04'\n  evidence:\n  - url: https://admissions.emeritus.org/api/v1/programs_api/programs\n    http_status: 401\n    body: '{\"error\":\"This is not an authorized request\"}'\n  - url: https://admissions.emeritus.org/api/v1/generic_lead\n    method: POST\n    http_status: 401\n    body: '{\"error\":\"This is not an authorized request\"}'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/authentication/eruditus-executive-education-authentication.yml
+source_yaml_url: https://artifacts.apis.io/eruditus-executive-education/authentication/eruditus-executive-education-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company

@@ -7,7 +7,7 @@ api_specs:
   label: LLMrouter.eu API
   slug: llmrouter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmrouter/refs/heads/main/openapi/_ae-authored/llmrouter-openapi-generated.yml
+  url: https://artifacts.apis.io/llmrouter/openapi/_ae-authored/llmrouter-openapi-generated.yml
 auth_types: []
 description: Authentication methods as described on the page.
 kind: authentication
@@ -31,12 +31,12 @@ source_filename: llmrouter-authentication.yml
 source_heading: Authentication Profile
 source_url: https://docs.llmrouter.eu/features/api-key-management
 source_yaml: "generated: '2026-10-18'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://docs.llmrouter.eu/features/api-key-management\nsources:\n- https://docs.llmrouter.eu/features/api-key-management\ndescription: Authentication methods as described on the page.\nschemes:\n- type: apiKey\n  name: API Key\n  evidence: API keys are used to authenticate and authorize access to LLMrouter APIs.\n  how_to_obtain: Create via the API Key Assignment section in the LLMrouter dashboard.\ndocs: https://docs.llmrouter.eu/features/api-key-management\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/llmrouter/refs/heads/main/authentication/llmrouter-authentication.yml
+source_yaml_url: https://artifacts.apis.io/llmrouter/authentication/llmrouter-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 - Security
 - EU
 ---

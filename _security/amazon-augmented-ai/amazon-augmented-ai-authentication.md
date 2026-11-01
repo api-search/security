@@ -8,7 +8,7 @@ api_specs:
   label: Amazon Augmented AI Human Loops API
   slug: amazon-augmented-ai-human-loops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-augmented-ai/refs/heads/main/openapi/amazon-augmented-ai-human-loops-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-augmented-ai/openapi/amazon-augmented-ai-human-loops-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: amazon-augmented-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-augmented-ai-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: sigv4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4\n  sources:\n  - openapi/amazon-augmented-ai-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-augmented-ai/refs/heads/main/authentication/amazon-augmented-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-augmented-ai/authentication/amazon-augmented-ai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Amazon Augmented AI

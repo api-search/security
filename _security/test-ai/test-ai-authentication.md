@@ -7,31 +7,31 @@ api_specs:
   label: test.ai Data API
   slug: test-ai-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/test-ai/refs/heads/main/openapi/test-ai-data-api-openapi.yml
+  url: https://artifacts.apis.io/test-ai/openapi/test-ai-data-api-openapi.yml
 - filename: test-ai-ping-api-openapi.yml
   format: yaml
   label: test.ai Ping API
   slug: test-ai-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/test-ai/refs/heads/main/openapi/test-ai-ping-api-openapi.yml
+  url: https://artifacts.apis.io/test-ai/openapi/test-ai-ping-api-openapi.yml
 - filename: test-ai-search-api-openapi.yml
   format: yaml
   label: test.ai Search API
   slug: test-ai-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/test-ai/refs/heads/main/openapi/test-ai-search-api-openapi.yml
+  url: https://artifacts.apis.io/test-ai/openapi/test-ai-search-api-openapi.yml
 - filename: test-ai-tests-api-openapi.yml
   format: yaml
   label: test.ai Tests API
   slug: test-ai-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/test-ai/refs/heads/main/openapi/test-ai-tests-api-openapi.yml
+  url: https://artifacts.apis.io/test-ai/openapi/test-ai-tests-api-openapi.yml
 - filename: test-ai-users-api-openapi.yml
   format: yaml
   label: test.ai Users API
   slug: test-ai-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/test-ai/refs/heads/main/openapi/test-ai-users-api-openapi.yml
+  url: https://artifacts.apis.io/test-ai/openapi/test-ai-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: test-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-30'\nmethod: derived\nsource: openapi/test-ai-opentestdata-openapi.yaml\nsummary:\n  types:\n  - http\nschemes:\n- name: jwt\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/test-ai-opentestdata-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/test-ai/refs/heads/main/authentication/test-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/test-ai/authentication/test-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

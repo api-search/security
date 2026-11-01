@@ -26,7 +26,7 @@ source_filename: syntis-bio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: syntis.bio\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 17:03:05 2026 GMT\n  hsts: false\ndomains:\n- domain: syntis.bio\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/syntis-bio/refs/heads/main/security/syntis-bio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/syntis-bio/security/syntis-bio-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

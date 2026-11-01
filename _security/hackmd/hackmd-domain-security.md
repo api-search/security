@@ -5,49 +5,73 @@ api_specs:
   label: HackMD History API
   slug: hackmd-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/openapi/hackmd-history-api-openapi.yml
+  url: https://artifacts.apis.io/hackmd/openapi/hackmd-history-api-openapi.yml
 - filename: hackmd-profile-api-openapi.yml
   format: yaml
   label: HackMD Profile API
   slug: hackmd-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/openapi/hackmd-profile-api-openapi.yml
+  url: https://artifacts.apis.io/hackmd/openapi/hackmd-profile-api-openapi.yml
 - filename: hackmd-team-folders-api-openapi.yml
   format: yaml
   label: HackMD Team Folders API
   slug: hackmd-team-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/openapi/hackmd-team-folders-api-openapi.yml
+  url: https://artifacts.apis.io/hackmd/openapi/hackmd-team-folders-api-openapi.yml
 - filename: hackmd-team-notes-api-openapi.yml
   format: yaml
   label: HackMD Team Notes API
   slug: hackmd-team-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/openapi/hackmd-team-notes-api-openapi.yml
+  url: https://artifacts.apis.io/hackmd/openapi/hackmd-team-notes-api-openapi.yml
 - filename: hackmd-teams-api-openapi.yml
   format: yaml
   label: HackMD Teams API
   slug: hackmd-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/openapi/hackmd-teams-api-openapi.yml
+  url: https://artifacts.apis.io/hackmd/openapi/hackmd-teams-api-openapi.yml
 - filename: hackmd-trash-api-openapi.yml
   format: yaml
   label: HackMD Trash API
   slug: hackmd-trash-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/openapi/hackmd-trash-api-openapi.yml
+  url: https://artifacts.apis.io/hackmd/openapi/hackmd-trash-api-openapi.yml
 - filename: hackmd-user-folders-api-openapi.yml
   format: yaml
   label: HackMD User Folders API
   slug: hackmd-user-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/openapi/hackmd-user-folders-api-openapi.yml
+  url: https://artifacts.apis.io/hackmd/openapi/hackmd-user-folders-api-openapi.yml
 - filename: hackmd-user-notes-api-openapi.yml
   format: yaml
   label: HackMD User Notes API
   slug: hackmd-user-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/openapi/hackmd-user-notes-api-openapi.yml
+  url: https://artifacts.apis.io/hackmd/openapi/hackmd-user-notes-api-openapi.yml
+- filename: hackmd-comments-api-openapi.yml
+  format: yaml
+  label: HackMD Comments API
+  slug: hackmd-comments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hackmd/openapi/hackmd-comments-api-openapi.yml
+- filename: hackmd-team-webhooks-api-openapi.yml
+  format: yaml
+  label: HackMD Team Webhooks API
+  slug: hackmd-team-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hackmd/openapi/hackmd-team-webhooks-api-openapi.yml
+- filename: hackmd-versions-api-openapi.yml
+  format: yaml
+  label: HackMD Versions API
+  slug: hackmd-versions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hackmd/openapi/hackmd-versions-api-openapi.yml
+- filename: hackmd-webhooks-api-openapi.yml
+  format: yaml
+  label: HackMD Webhooks API
+  slug: hackmd-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hackmd/openapi/hackmd-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -83,7 +107,7 @@ source_filename: hackmd-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: hackmd.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  2 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: hackmd.io\n  dnssec: true\n  caa:\n  - 0 issuewild \"amazontrust.com\"\n  - 0 issuewild \"awstrust.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 iodef \"mailto:support@hackmd.io\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/security/hackmd-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hackmd/security/hackmd-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Company

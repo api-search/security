@@ -27,7 +27,7 @@ source_filename: postmon-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: postmon.com.br\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 16:31:21 2026 GMT\n  hsts: false\ndomains:\n- domain: postmon.com.br\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/postmon/refs/heads/main/security/postmon-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/postmon/security/postmon-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Tracking

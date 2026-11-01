@@ -7,31 +7,31 @@ api_specs:
   label: K6 Load tests API
   slug: k6-load-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/k6/refs/heads/main/openapi/k6-load-tests-api-openapi.yml
+  url: https://artifacts.apis.io/k6/openapi/k6-load-tests-api-openapi.yml
 - filename: k6-load-zones-api-openapi.yml
   format: yaml
   label: K6 Load zones API
   slug: k6-load-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/k6/refs/heads/main/openapi/k6-load-zones-api-openapi.yml
+  url: https://artifacts.apis.io/k6/openapi/k6-load-zones-api-openapi.yml
 - filename: k6-projects-api-openapi.yml
   format: yaml
   label: K6 Projects API
   slug: k6-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/k6/refs/heads/main/openapi/k6-projects-api-openapi.yml
+  url: https://artifacts.apis.io/k6/openapi/k6-projects-api-openapi.yml
 - filename: k6-schedules-api-openapi.yml
   format: yaml
   label: K6 Schedules API
   slug: k6-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/k6/refs/heads/main/openapi/k6-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/k6/openapi/k6-schedules-api-openapi.yml
 - filename: k6-test-runs-api-openapi.yml
   format: yaml
   label: K6 Test runs API
   slug: k6-test-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/k6/refs/heads/main/openapi/k6-test-runs-api-openapi.yml
+  url: https://artifacts.apis.io/k6/openapi/k6-test-runs-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: k6-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/k6-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Grafana Cloud k6 API token (Personal or Grafana Stack token) supplied as a Bearer\n    token in the Authorization header.\n  sources:\n  - openapi/k6-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/k6/refs/heads/main/authentication/k6-authentication.yml
+source_yaml_url: https://artifacts.apis.io/k6/authentication/k6-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Load Testing

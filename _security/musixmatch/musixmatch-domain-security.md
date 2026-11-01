@@ -5,37 +5,37 @@ api_specs:
   label: Musixmatch Album API
   slug: musixmatch-album-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/musixmatch/refs/heads/main/openapi/musixmatch-album-api-openapi.yml
+  url: https://artifacts.apis.io/musixmatch/openapi/musixmatch-album-api-openapi.yml
 - filename: musixmatch-artist-api-openapi.yml
   format: yaml
   label: Musixmatch Artist API
   slug: musixmatch-artist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/musixmatch/refs/heads/main/openapi/musixmatch-artist-api-openapi.yml
+  url: https://artifacts.apis.io/musixmatch/openapi/musixmatch-artist-api-openapi.yml
 - filename: musixmatch-lyrics-api-openapi.yml
   format: yaml
   label: Musixmatch Lyrics API
   slug: musixmatch-lyrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/musixmatch/refs/heads/main/openapi/musixmatch-lyrics-api-openapi.yml
+  url: https://artifacts.apis.io/musixmatch/openapi/musixmatch-lyrics-api-openapi.yml
 - filename: musixmatch-snippets-api-openapi.yml
   format: yaml
   label: Musixmatch Snippets API
   slug: musixmatch-snippets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/musixmatch/refs/heads/main/openapi/musixmatch-snippets-api-openapi.yml
+  url: https://artifacts.apis.io/musixmatch/openapi/musixmatch-snippets-api-openapi.yml
 - filename: musixmatch-subtitle-api-openapi.yml
   format: yaml
   label: Musixmatch Subtitle API
   slug: musixmatch-subtitle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/musixmatch/refs/heads/main/openapi/musixmatch-subtitle-api-openapi.yml
+  url: https://artifacts.apis.io/musixmatch/openapi/musixmatch-subtitle-api-openapi.yml
 - filename: musixmatch-track-api-openapi.yml
   format: yaml
   label: Musixmatch Track API
   slug: musixmatch-track-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/musixmatch/refs/heads/main/openapi/musixmatch-track-api-openapi.yml
+  url: https://artifacts.apis.io/musixmatch/openapi/musixmatch-track-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -76,7 +76,7 @@ source_filename: musixmatch-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.musixmatch.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 11 08:02:53 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.musixmatch.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 26 16:00:13 2026 GMT\n  hsts: null\ndomains:\n- domain: musixmatch.com\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"globalsign.com\"\n  - 0 issuewild \"godaddy.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"globalsign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/musixmatch/refs/heads/main/security/musixmatch-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/musixmatch/security/musixmatch-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Lyrics

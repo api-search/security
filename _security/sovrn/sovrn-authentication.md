@@ -8,55 +8,55 @@ api_specs:
   label: Sovrn Account API
   slug: sovrn-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/openapi/sovrn-account-api-openapi.yml
+  url: https://artifacts.apis.io/sovrn/openapi/sovrn-account-api-openapi.yml
 - filename: sovrn-ai-orchestration-api-openapi.yml
   format: yaml
   label: Sovrn Ai Orchestration API
   slug: sovrn-ai-orchestration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/openapi/sovrn-ai-orchestration-api-openapi.yml
+  url: https://artifacts.apis.io/sovrn/openapi/sovrn-ai-orchestration-api-openapi.yml
 - filename: sovrn-bid-api-openapi.yml
   format: yaml
   label: Sovrn Bid API
   slug: sovrn-bid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/openapi/sovrn-bid-api-openapi.yml
+  url: https://artifacts.apis.io/sovrn/openapi/sovrn-bid-api-openapi.yml
 - filename: sovrn-link-api-openapi.yml
   format: yaml
   label: Sovrn Link API
   slug: sovrn-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/openapi/sovrn-link-api-openapi.yml
+  url: https://artifacts.apis.io/sovrn/openapi/sovrn-link-api-openapi.yml
 - filename: sovrn-merchant-group-summaries-api-openapi.yml
   format: yaml
   label: Sovrn Merchant Group Summaries API
   slug: sovrn-merchant-group-summaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/openapi/sovrn-merchant-group-summaries-api-openapi.yml
+  url: https://artifacts.apis.io/sovrn/openapi/sovrn-merchant-group-summaries-api-openapi.yml
 - filename: sovrn-product-coupons-api-openapi.yml
   format: yaml
   label: Sovrn Product Coupons API
   slug: sovrn-product-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/openapi/sovrn-product-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/sovrn/openapi/sovrn-product-coupons-api-openapi.yml
 - filename: sovrn-reporting-api-openapi.yml
   format: yaml
   label: Sovrn Reporting API
   slug: sovrn-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/openapi/sovrn-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/sovrn/openapi/sovrn-reporting-api-openapi.yml
 - filename: sovrn-reports-api-openapi.yml
   format: yaml
   label: Sovrn Reports API
   slug: sovrn-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/openapi/sovrn-reports-api-openapi.yml
+  url: https://artifacts.apis.io/sovrn/openapi/sovrn-reports-api-openapi.yml
 - filename: sovrn-sites-api-openapi.yml
   format: yaml
   label: Sovrn Sites API
   slug: sovrn-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/openapi/sovrn-sites-api-openapi.yml
+  url: https://artifacts.apis.io/sovrn/openapi/sovrn-sites-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: https://develop
   \  products: [Commerce link building]\n  scheme: apiKey\n  in: query\n  parameter: key\n  note: >-\n    Affiliate link construction (sovrn.co?key=…&u=…) and the Link Check API take the\n    campaign's public API key as a URL parameter rather than a header. This is a link-signing\n    key, not the Secret Key, and is exposed in the rendered page by design.\n  applies_to:\n  - openapi/sovrn-commerce-link-check-openapi.yml\n  - openapi/sovrn-commerce-bid-check-openapi.yml\nschemes:\n- name: apiAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/sovrn-advertising-reporting-openapi.yml\n- name: sec0\n  type: apiKey\n  in: header\n  parameter: authorization\n  x-default: 'secret <secret key>'\n  sources:\n  - openapi/sovrn-commerce-campaigns-openapi.yml\n- name: bearerAuth\n  type: apiKey\n  in: header\n  parameter: authorization\n  note: >-\n    Named bearerAuth in the spec but declared as apiKey; the value is the Commerce Secret Key\n    with the \"secret \"\
   \ prefix, not an RFC 6750 bearer token.\n  sources:\n  - openapi/sovrn-commerce-reports-openapi.yml\n- name: SecretKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Authorization header using the Secret Key scheme. Format: \"secret {secret key}\"'\n  sources:\n  - openapi/sovrn-merchant-summaries-openapi.yml\n  - openapi/sovrn-product-coupons-openapi.yml\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: authorization\n  sources:\n  - openapi/sovrn-price-comparisons-openapi.yml\ngaps:\n- >-\n  openapi/sovrn-commerce-link-check-openapi.yml and\n  openapi/sovrn-commerce-bid-check-openapi.yml declare no securitySchemes at all, even though\n  both require a campaign key as a query parameter.\n- >-\n  openapi/sovrn-product-recommendations-openapi.yml declares no securitySchemes, though the\n  docs describe an API-key rate-limit tier for it.\n- >-\n  Five different scheme names (sec0, bearerAuth, SecretKey, ApiKeyAuth, apiAuth) describe\n  what are really\
   \ only two credentials. The naming is inconsistent across Sovrn's specs.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/authentication/sovrn-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sovrn/authentication/sovrn-authentication.yml
 summary_line: apiKey · 5 schemes
 tags:
 - Company

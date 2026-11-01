@@ -5,7 +5,61 @@ api_specs:
   label: Amazon FSx Filesystems API
   slug: amazon-fsx-filesystems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fsx/refs/heads/main/openapi/amazon-fsx-filesystems-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fsx/openapi/amazon-fsx-filesystems-api-openapi.yml
+- filename: amazon-fsx-backup-api-openapi.yml
+  format: yaml
+  label: Amazon FSx Fsx Backup API
+  slug: amazon-fsx-backup-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-fsx/openapi/amazon-fsx-backup-api-openapi.yml
+- filename: amazon-fsx-data-repository-association-api-openapi.yml
+  format: yaml
+  label: Amazon FSx Fsx Data Repository Association API
+  slug: amazon-fsx-data-repository-association-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-fsx/openapi/amazon-fsx-data-repository-association-api-openapi.yml
+- filename: amazon-fsx-data-repository-task-api-openapi.yml
+  format: yaml
+  label: Amazon FSx Fsx Data Repository Task API
+  slug: amazon-fsx-data-repository-task-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-fsx/openapi/amazon-fsx-data-repository-task-api-openapi.yml
+- filename: amazon-fsx-file-cache-api-openapi.yml
+  format: yaml
+  label: Amazon FSx Fsx File Cache API
+  slug: amazon-fsx-file-cache-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-fsx/openapi/amazon-fsx-file-cache-api-openapi.yml
+- filename: amazon-fsx-file-system-aliase-api-openapi.yml
+  format: yaml
+  label: Amazon FSx Fsx File System Aliase API
+  slug: amazon-fsx-file-system-aliase-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-fsx/openapi/amazon-fsx-file-system-aliase-api-openapi.yml
+- filename: amazon-fsx-operations-api-openapi.yml
+  format: yaml
+  label: Amazon FSx Fsx Operations API
+  slug: amazon-fsx-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-fsx/openapi/amazon-fsx-operations-api-openapi.yml
+- filename: amazon-fsx-snapshot-api-openapi.yml
+  format: yaml
+  label: Amazon FSx Fsx Snapshot API
+  slug: amazon-fsx-snapshot-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-fsx/openapi/amazon-fsx-snapshot-api-openapi.yml
+- filename: amazon-fsx-storage-virtual-machine-api-openapi.yml
+  format: yaml
+  label: Amazon FSx Fsx Storage Virtual Machine API
+  slug: amazon-fsx-storage-virtual-machine-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-fsx/openapi/amazon-fsx-storage-virtual-machine-api-openapi.yml
+- filename: amazon-fsx-volume-api-openapi.yml
+  format: yaml
+  label: Amazon FSx Fsx Volume API
+  slug: amazon-fsx-volume-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-fsx/openapi/amazon-fsx-volume-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -43,7 +97,7 @@ source_filename: amazon-fsx-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: fsx.amazonaws.com\n  https: false\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-fsx/refs/heads/main/security/amazon-fsx-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amazon-fsx/security/amazon-fsx-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Filesystem

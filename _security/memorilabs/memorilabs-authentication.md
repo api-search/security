@@ -24,12 +24,12 @@ source_filename: memorilabs-authentication.yml
 source_heading: Authentication Profile
 source_url: https://memorilabs.ai/docs/memori-cloud/dashboard/api-keys
 source_yaml: "generated: '2026-10-18'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://memorilabs.ai/docs/memori-cloud/dashboard/api-keys\nsources:\n- https://memorilabs.ai/docs/memori-cloud/dashboard/api-keys\n- https://memorilabs.ai/docs/memori-byodb/dashboard/api-keys\n- https://memorilabs.ai/docs/memori-cloud/getting-started/python-quickstart\n- https://memorilabs.ai/docs/memori-cloud/getting-started/typescript-quickstart\ndescription: Authentication schemes as documented\nschemes:\n- type: apiKey\n  name: MEMORI_API_KEY\n  evidence: Memori reads your MEMORI_API_KEY from the environment automatically\n  how_to_obtain: Create API keys in the Memori dashboard at app.memorilabs.ai\ndocs: https://memorilabs.ai/docs/memori-cloud/dashboard/api-keys\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/memorilabs/refs/heads/main/authentication/memorilabs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/memorilabs/authentication/memorilabs-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Memory
-- Agent
+- Agents
 - Infrastructure
 ---

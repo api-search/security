@@ -8,13 +8,13 @@ api_specs:
   label: Tank Utility Authentication API
   slug: tank-utility-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/openapi/tank-utility-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/tank-utility/openapi/tank-utility-authentication-api-openapi.yml
 - filename: tank-utility-devices-api-openapi.yml
   format: yaml
   label: Tank Utility Devices API
   slug: tank-utility-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/openapi/tank-utility-devices-api-openapi.yml
+  url: https://artifacts.apis.io/tank-utility/openapi/tank-utility-devices-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -49,7 +49,7 @@ source_filename: tank-utility-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/tank-utility-devices-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - query\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication using the Tank Utility account email (username) and\n    password. Used only by getToken.\n  sources:\n  - openapi/tank-utility-devices-openapi.yml\n- name: tokenAuth\n  type: apiKey\n  in: query\n  parameter: token\n  description: Short-lived API token obtained from getToken, passed as the `token` query parameter.\n    Expires after ~24 hours.\n  sources:\n  - openapi/tank-utility-devices-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/authentication/tank-utility-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tank-utility/authentication/tank-utility-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Propane

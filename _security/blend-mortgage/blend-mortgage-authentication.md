@@ -7,61 +7,61 @@ api_specs:
   label: Blend Borrowers & Parties API
   slug: blend-mortgage-borrowers-parties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blend-mortgage/refs/heads/main/openapi/blend-mortgage-borrowers-parties-api-openapi.yml
+  url: https://artifacts.apis.io/blend-mortgage/openapi/blend-mortgage-borrowers-parties-api-openapi.yml
 - filename: blend-mortgage-closings-esignature-api-openapi.yml
   format: yaml
   label: Blend Closings & eSignature API
   slug: blend-mortgage-closings-esignature-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blend-mortgage/refs/heads/main/openapi/blend-mortgage-closings-esignature-api-openapi.yml
+  url: https://artifacts.apis.io/blend-mortgage/openapi/blend-mortgage-closings-esignature-api-openapi.yml
 - filename: blend-mortgage-consumer-lending-deposit-api-openapi.yml
   format: yaml
   label: Blend Consumer Lending & Deposit API
   slug: blend-mortgage-consumer-lending-deposit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blend-mortgage/refs/heads/main/openapi/blend-mortgage-consumer-lending-deposit-api-openapi.yml
+  url: https://artifacts.apis.io/blend-mortgage/openapi/blend-mortgage-consumer-lending-deposit-api-openapi.yml
 - filename: blend-mortgage-documents-disclosures-api-openapi.yml
   format: yaml
   label: Blend Documents & Disclosures API
   slug: blend-mortgage-documents-disclosures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blend-mortgage/refs/heads/main/openapi/blend-mortgage-documents-disclosures-api-openapi.yml
+  url: https://artifacts.apis.io/blend-mortgage/openapi/blend-mortgage-documents-disclosures-api-openapi.yml
 - filename: blend-mortgage-events-webhooks-api-openapi.yml
   format: yaml
   label: Blend Events & Webhooks API
   slug: blend-mortgage-events-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blend-mortgage/refs/heads/main/openapi/blend-mortgage-events-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/blend-mortgage/openapi/blend-mortgage-events-webhooks-api-openapi.yml
 - filename: blend-mortgage-follow-ups-api-openapi.yml
   format: yaml
   label: Blend Follow-ups API
   slug: blend-mortgage-follow-ups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blend-mortgage/refs/heads/main/openapi/blend-mortgage-follow-ups-api-openapi.yml
+  url: https://artifacts.apis.io/blend-mortgage/openapi/blend-mortgage-follow-ups-api-openapi.yml
 - filename: blend-mortgage-home-lending-applications-api-openapi.yml
   format: yaml
   label: Blend Home Lending Applications API
   slug: blend-mortgage-home-lending-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blend-mortgage/refs/heads/main/openapi/blend-mortgage-home-lending-applications-api-openapi.yml
+  url: https://artifacts.apis.io/blend-mortgage/openapi/blend-mortgage-home-lending-applications-api-openapi.yml
 - filename: blend-mortgage-lenders-assignments-api-openapi.yml
   format: yaml
   label: Blend Lenders & Assignments API
   slug: blend-mortgage-lenders-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blend-mortgage/refs/heads/main/openapi/blend-mortgage-lenders-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/blend-mortgage/openapi/blend-mortgage-lenders-assignments-api-openapi.yml
 - filename: blend-mortgage-products-pricing-api-openapi.yml
   format: yaml
   label: Blend Products & Pricing API
   slug: blend-mortgage-products-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blend-mortgage/refs/heads/main/openapi/blend-mortgage-products-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/blend-mortgage/openapi/blend-mortgage-products-pricing-api-openapi.yml
 - filename: blend-mortgage-reporting-api-openapi.yml
   format: yaml
   label: Blend Reporting API
   slug: blend-mortgage-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blend-mortgage/refs/heads/main/openapi/blend-mortgage-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/blend-mortgage/openapi/blend-mortgage-reporting-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -89,7 +89,7 @@ source_filename: blend-mortgage-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/blend-mortgage-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Blend authenticates requests with an authorization Bearer token. Each call must\n    also send blend-api-version (to pin the API version) and blend-target-instance (tenant~instance)\n    headers. API Secret Keys are exchanged for short-lived, request-scoped JWTs at Blend's API\n    Gateway. Credentials are issued to Blend customers and certified partners - contact your\n    Blend account team or partnerships to obtai\n  sources:\n  - openapi/blend-mortgage-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blend-mortgage/refs/heads/main/authentication/blend-mortgage-authentication.yml
+source_yaml_url: https://artifacts.apis.io/blend-mortgage/authentication/blend-mortgage-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Digital Lending

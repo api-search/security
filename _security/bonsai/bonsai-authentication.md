@@ -33,7 +33,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://docs.hellobonsai.com/\ndocs: https://docs.hellobonsai.com/\ndescription: >-\n  Bonsai's programmatic surface (its hosted MCP server) authenticates with\n  OAuth 2.1 authorization-code flow using PKCE, driven by the AI client. There\n  are no API keys to create or paste; on first call the user is directed to Bonsai\n  to log in, approves in the browser, and the client receives a short-lived token\n  (~15 minutes, auto-refreshed) that is passed through to Bonsai without being\n  stored by the MCP server. Access is scoped to the user's existing Bonsai role.\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2-pkce\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    pkce: true\n    token_ttl_seconds: 900\n    description: >-\n      OAuth 2.1 authorization-code flow with PKCE, brokered by the AI client\n      against Bonsai; MCP server passes the bearer token through without\
   \ storage.\n  sources:\n  - https://docs.hellobonsai.com/\n  - mcp/bonsai-mcp.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bonsai/refs/heads/main/authentication/bonsai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bonsai/authentication/bonsai-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

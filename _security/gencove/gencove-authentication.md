@@ -8,121 +8,121 @@ api_specs:
   label: Gencove Array API
   slug: gencove-array-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-array-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-array-api-openapi.yml
 - filename: gencove-basespace-api-openapi.yml
   format: yaml
   label: Gencove Basespace API
   slug: gencove-basespace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-basespace-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-basespace-api-openapi.yml
 - filename: gencove-batch-api-openapi.yml
   format: yaml
   label: Gencove Batch API
   slug: gencove-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-batch-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-batch-api-openapi.yml
 - filename: gencove-billing-api-openapi.yml
   format: yaml
   label: Gencove Billing API
   slug: gencove-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-billing-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-billing-api-openapi.yml
 - filename: gencove-explorer-api-openapi.yml
   format: yaml
   label: Gencove Explorer API
   slug: gencove-explorer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-explorer-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-explorer-api-openapi.yml
 - filename: gencove-file-api-openapi.yml
   format: yaml
   label: Gencove File API
   slug: gencove-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-file-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-file-api-openapi.yml
 - filename: gencove-firstmile-api-openapi.yml
   format: yaml
   label: Gencove Firstmile API
   slug: gencove-firstmile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-firstmile-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-firstmile-api-openapi.yml
 - filename: gencove-invitation-api-openapi.yml
   format: yaml
   label: Gencove Invitation API
   slug: gencove-invitation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-invitation-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-invitation-api-openapi.yml
 - filename: gencove-jwt-api-openapi.yml
   format: yaml
   label: Gencove JWT API
   slug: gencove-jwt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-jwt-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-jwt-api-openapi.yml
 - filename: gencove-mfa-api-openapi.yml
   format: yaml
   label: Gencove Mfa API
   slug: gencove-mfa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-mfa-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-mfa-api-openapi.yml
 - filename: gencove-notification-api-openapi.yml
   format: yaml
   label: Gencove Notification API
   slug: gencove-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-notification-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-notification-api-openapi.yml
 - filename: gencove-organization-api-openapi.yml
   format: yaml
   label: Gencove Organization API
   slug: gencove-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-organization-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-organization-api-openapi.yml
 - filename: gencove-pipeline-api-openapi.yml
   format: yaml
   label: Gencove Pipeline API
   slug: gencove-pipeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-pipeline-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-pipeline-api-openapi.yml
 - filename: gencove-project-api-openapi.yml
   format: yaml
   label: Gencove Project API
   slug: gencove-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-project-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-project-api-openapi.yml
 - filename: gencove-role-api-openapi.yml
   format: yaml
   label: Gencove Role API
   slug: gencove-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-role-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-role-api-openapi.yml
 - filename: gencove-s3-api-openapi.yml
   format: yaml
   label: Gencove S3 API
   slug: gencove-s3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-s3-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-s3-api-openapi.yml
 - filename: gencove-sample-api-openapi.yml
   format: yaml
   label: Gencove Sample API
   slug: gencove-sample-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-sample-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-sample-api-openapi.yml
 - filename: gencove-social-api-openapi.yml
   format: yaml
   label: Gencove Social API
   slug: gencove-social-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-social-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-social-api-openapi.yml
 - filename: gencove-upload-api-openapi.yml
   format: yaml
   label: Gencove Upload API
   slug: gencove-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-upload-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-upload-api-openapi.yml
 - filename: gencove-user-api-openapi.yml
   format: yaml
   label: Gencove User API
   slug: gencove-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-user-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-user-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -169,7 +169,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/gencove-openapi-original.json\ndocs: https://docs.gencove.com/base/getting-started/\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  notes: >-\n    Gencove uses a static API key by default (Authorization: Api-Key <key>),\n    issued from the dashboard under Account Settings -> API Keys. A short-lived\n    JWT bearer token flow is also available via the jwt-create endpoint\n    (Authorization: Bearer <jwt>). Email/password env vars ($GENCOVE_EMAIL /\n    $GENCOVE_PASSWORD) can be used by the CLI to obtain a token but cannot be\n    combined with $GENCOVE_API_KEY.\nschemes:\n- name: API key\n  type: apiKey\n  in: header\n  parameter: Authorization\n  scheme_hint: 'Api-Key <API-key>'\n  description: |-\n    Authorization header content formatted as: `Api-Key <API-key>`\n    Obtain an API key through Gencove's web UI (Account Settings -> API Keys)\n    or the user-api-key endpoint.\n  docs: https://docs.gencove.com/base/getting-started/\n\
   \  sources:\n  - openapi/gencove-openapi-original.json\n- name: JWT\n  type: apiKey\n  in: header\n  parameter: Authorization\n  scheme_hint: 'Bearer <json-web-token>'\n  description: |-\n    Authorization header content formatted as: `Bearer <json-web-token>`\n    Obtain an access token using the jwt-create endpoint; refresh via\n    jwt-refresh and verify via jwt-verify.\n  sources:\n  - openapi/gencove-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/authentication/gencove-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gencove/authentication/gencove-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company

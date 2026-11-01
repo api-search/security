@@ -5,79 +5,79 @@ api_specs:
   label: Dapr Actors API
   slug: dapr-actors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-actors-api-openapi.yml
+  url: https://artifacts.apis.io/dapr/openapi/dapr-actors-api-openapi.yml
 - filename: dapr-bindings-api-openapi.yml
   format: yaml
   label: Dapr Bindings API
   slug: dapr-bindings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-bindings-api-openapi.yml
+  url: https://artifacts.apis.io/dapr/openapi/dapr-bindings-api-openapi.yml
 - filename: dapr-configuration-api-openapi.yml
   format: yaml
   label: Dapr Configuration API
   slug: dapr-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/dapr/openapi/dapr-configuration-api-openapi.yml
 - filename: dapr-cryptography-api-openapi.yml
   format: yaml
   label: Dapr Cryptography API
   slug: dapr-cryptography-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-cryptography-api-openapi.yml
+  url: https://artifacts.apis.io/dapr/openapi/dapr-cryptography-api-openapi.yml
 - filename: dapr-distributedlock-api-openapi.yml
   format: yaml
   label: Dapr DistributedLock API
   slug: dapr-distributedlock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-distributedlock-api-openapi.yml
+  url: https://artifacts.apis.io/dapr/openapi/dapr-distributedlock-api-openapi.yml
 - filename: dapr-health-api-openapi.yml
   format: yaml
   label: Dapr Health API
   slug: dapr-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-health-api-openapi.yml
+  url: https://artifacts.apis.io/dapr/openapi/dapr-health-api-openapi.yml
 - filename: dapr-jobs-api-openapi.yml
   format: yaml
   label: Dapr Jobs API
   slug: dapr-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/dapr/openapi/dapr-jobs-api-openapi.yml
 - filename: dapr-metadata-api-openapi.yml
   format: yaml
   label: Dapr Metadata API
   slug: dapr-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/dapr/openapi/dapr-metadata-api-openapi.yml
 - filename: dapr-pubsub-api-openapi.yml
   format: yaml
   label: Dapr PubSub API
   slug: dapr-pubsub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-pubsub-api-openapi.yml
+  url: https://artifacts.apis.io/dapr/openapi/dapr-pubsub-api-openapi.yml
 - filename: dapr-secrets-api-openapi.yml
   format: yaml
   label: Dapr Secrets API
   slug: dapr-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/dapr/openapi/dapr-secrets-api-openapi.yml
 - filename: dapr-state-api-openapi.yml
   format: yaml
   label: Dapr State API
   slug: dapr-state-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-state-api-openapi.yml
+  url: https://artifacts.apis.io/dapr/openapi/dapr-state-api-openapi.yml
 - filename: dapr-workflow-api-openapi.yml
   format: yaml
   label: Dapr Workflow API
   slug: dapr-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/dapr/openapi/dapr-workflow-api-openapi.yml
 - filename: dapr-service-invocation-api-openapi.yml
   format: yaml
   label: Dapr Service Invocation API
   slug: dapr-service-invocation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-service-invocation-api-openapi.yml
+  url: https://artifacts.apis.io/dapr/openapi/dapr-service-invocation-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -112,7 +112,7 @@ source_filename: dapr-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dapr.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 06:23:54 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.dapr.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  1 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 10886400\ndomains:\n- domain: dapr.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/security/dapr-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dapr/security/dapr-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Dapr

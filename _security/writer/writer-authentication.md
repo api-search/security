@@ -7,43 +7,43 @@ api_specs:
   label: Writer File API
   slug: writer-file-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-file-api-api-openapi.yml
+  url: https://artifacts.apis.io/writer/openapi/writer-file-api-api-openapi.yml
 - filename: writer-generation-api-api-openapi.yml
   format: yaml
   label: Writer Generation API
   slug: writer-generation-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-generation-api-api-openapi.yml
+  url: https://artifacts.apis.io/writer/openapi/writer-generation-api-api-openapi.yml
 - filename: writer-kg-api-api-openapi.yml
   format: yaml
   label: Writer KG API
   slug: writer-kg-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-kg-api-api-openapi.yml
+  url: https://artifacts.apis.io/writer/openapi/writer-kg-api-api-openapi.yml
 - filename: writer-template-api-openapi.yml
   format: yaml
   label: Writer Template API
   slug: writer-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-template-api-openapi.yml
+  url: https://artifacts.apis.io/writer/openapi/writer-template-api-openapi.yml
 - filename: writer-tools-api-api-openapi.yml
   format: yaml
   label: Writer Tools API
   slug: writer-tools-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-tools-api-api-openapi.yml
+  url: https://artifacts.apis.io/writer/openapi/writer-tools-api-api-openapi.yml
 - filename: writer-translation-api-openapi.yml
   format: yaml
   label: Writer Translation API
   slug: writer-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-translation-api-openapi.yml
+  url: https://artifacts.apis.io/writer/openapi/writer-translation-api-openapi.yml
 - filename: writer-vision-api-openapi.yml
   format: yaml
   label: Writer Vision API
   slug: writer-vision-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-vision-api-openapi.yml
+  url: https://artifacts.apis.io/writer/openapi/writer-vision-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -71,7 +71,7 @@ source_filename: writer-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/writer-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Bearer authentication header of the form `Bearer <token>`, where `<token>` is\n    your [Writer API key](https://dev.writer.com/api-reference/api-keys).\n  sources:\n  - openapi/writer-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/authentication/writer-authentication.yml
+source_yaml_url: https://artifacts.apis.io/writer/authentication/writer-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

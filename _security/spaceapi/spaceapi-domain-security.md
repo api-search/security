@@ -5,7 +5,7 @@ api_specs:
   label: SpaceAPI Directory API
   slug: spaceapi-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaceapi/refs/heads/main/openapi/spaceapi-directory-api-openapi.yml
+  url: https://artifacts.apis.io/spaceapi/openapi/spaceapi-directory-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -36,7 +36,7 @@ source_filename: spaceapi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: spaceapi.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 12 10:54:23 2026 GMT\n  hsts: true\n  hsts_max_age: 315360000\n- host: collector.spaceapi.io\n  https: false\ndomains:\n- domain: spaceapi.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spaceapi/refs/heads/main/security/spaceapi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/spaceapi/security/spaceapi-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Co-Working

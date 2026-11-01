@@ -8,55 +8,55 @@ api_specs:
   label: RAWG Creator Roles API
   slug: rawg-creator-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/openapi/rawg-creator-roles-api-openapi.yml
+  url: https://artifacts.apis.io/rawg/openapi/rawg-creator-roles-api-openapi.yml
 - filename: rawg-creators-api-openapi.yml
   format: yaml
   label: RAWG Creators API
   slug: rawg-creators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/openapi/rawg-creators-api-openapi.yml
+  url: https://artifacts.apis.io/rawg/openapi/rawg-creators-api-openapi.yml
 - filename: rawg-developers-api-openapi.yml
   format: yaml
   label: RAWG Developers API
   slug: rawg-developers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/openapi/rawg-developers-api-openapi.yml
+  url: https://artifacts.apis.io/rawg/openapi/rawg-developers-api-openapi.yml
 - filename: rawg-games-api-openapi.yml
   format: yaml
   label: RAWG Games API
   slug: rawg-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/openapi/rawg-games-api-openapi.yml
+  url: https://artifacts.apis.io/rawg/openapi/rawg-games-api-openapi.yml
 - filename: rawg-genres-api-openapi.yml
   format: yaml
   label: RAWG Genres API
   slug: rawg-genres-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/openapi/rawg-genres-api-openapi.yml
+  url: https://artifacts.apis.io/rawg/openapi/rawg-genres-api-openapi.yml
 - filename: rawg-platforms-api-openapi.yml
   format: yaml
   label: RAWG Platforms API
   slug: rawg-platforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/openapi/rawg-platforms-api-openapi.yml
+  url: https://artifacts.apis.io/rawg/openapi/rawg-platforms-api-openapi.yml
 - filename: rawg-publishers-api-openapi.yml
   format: yaml
   label: RAWG Publishers API
   slug: rawg-publishers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/openapi/rawg-publishers-api-openapi.yml
+  url: https://artifacts.apis.io/rawg/openapi/rawg-publishers-api-openapi.yml
 - filename: rawg-stores-api-openapi.yml
   format: yaml
   label: RAWG Stores API
   slug: rawg-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/openapi/rawg-stores-api-openapi.yml
+  url: https://artifacts.apis.io/rawg/openapi/rawg-stores-api-openapi.yml
 - filename: rawg-tags-api-openapi.yml
   format: yaml
   label: RAWG Tags API
   slug: rawg-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/openapi/rawg-tags-api-openapi.yml
+  url: https://artifacts.apis.io/rawg/openapi/rawg-tags-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -83,7 +83,7 @@ source_filename: rawg-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/rawg-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: query\n  parameter: key\n  sources:\n  - openapi/rawg-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/authentication/rawg-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rawg/authentication/rawg-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Database

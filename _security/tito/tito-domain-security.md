@@ -5,67 +5,67 @@ api_specs:
   label: Tito Account API
   slug: tito-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-account-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-account-api-openapi.yml
 - filename: tito-activities-api-openapi.yml
   format: yaml
   label: Tito Activities API
   slug: tito-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-activities-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-activities-api-openapi.yml
 - filename: tito-check-in-lists-api-openapi.yml
   format: yaml
   label: Tito Check-in Lists API
   slug: tito-check-in-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-check-in-lists-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-check-in-lists-api-openapi.yml
 - filename: tito-discount-codes-api-openapi.yml
   format: yaml
   label: Tito Discount Codes API
   slug: tito-discount-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-discount-codes-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-discount-codes-api-openapi.yml
 - filename: tito-events-api-openapi.yml
   format: yaml
   label: Tito Events API
   slug: tito-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-events-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-events-api-openapi.yml
 - filename: tito-refunds-api-openapi.yml
   format: yaml
   label: Tito Refunds API
   slug: tito-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-refunds-api-openapi.yml
 - filename: tito-registrations-api-openapi.yml
   format: yaml
   label: Tito Registrations API
   slug: tito-registrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-registrations-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-registrations-api-openapi.yml
 - filename: tito-releases-api-openapi.yml
   format: yaml
   label: Tito Releases API
   slug: tito-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-releases-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-releases-api-openapi.yml
 - filename: tito-tickets-api-openapi.yml
   format: yaml
   label: Tito Tickets API
   slug: tito-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-tickets-api-openapi.yml
 - filename: tito-webhook-endpoints-api-openapi.yml
   format: yaml
   label: Tito Webhook Endpoints API
   slug: tito-webhook-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-webhook-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-webhook-endpoints-api-openapi.yml
 - filename: tito-tito-admin-api-api-openapi.yml
   format: yaml
   label: Tito Admin API
   slug: tito-tito-admin-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-tito-admin-api-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-tito-admin-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -111,7 +111,7 @@ source_filename: tito-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tito.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 10:53:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n- host: ti.to\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 10:53:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n- host: api.tito.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 07:41:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\ndomains:\n- domain: tito.io\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: v=spf1 a include:_spf.google.com include:spf.mail.intercom.io include:helpscoutemail.com include:amazonses.com ~all\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/security/tito-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tito/security/tito-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Event Ticketing

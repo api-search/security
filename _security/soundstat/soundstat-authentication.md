@@ -8,31 +8,31 @@ api_specs:
   label: SoundStat Genres API
   slug: soundstat-genres-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstat/refs/heads/main/openapi/soundstat-genres-api-openapi.yml
+  url: https://artifacts.apis.io/soundstat/openapi/soundstat-genres-api-openapi.yml
 - filename: soundstat-recommendations-api-openapi.yml
   format: yaml
   label: SoundStat Recommendations API
   slug: soundstat-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstat/refs/heads/main/openapi/soundstat-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/soundstat/openapi/soundstat-recommendations-api-openapi.yml
 - filename: soundstat-stats-api-openapi.yml
   format: yaml
   label: SoundStat Stats API
   slug: soundstat-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstat/refs/heads/main/openapi/soundstat-stats-api-openapi.yml
+  url: https://artifacts.apis.io/soundstat/openapi/soundstat-stats-api-openapi.yml
 - filename: soundstat-track-api-openapi.yml
   format: yaml
   label: SoundStat Track API
   slug: soundstat-track-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstat/refs/heads/main/openapi/soundstat-track-api-openapi.yml
+  url: https://artifacts.apis.io/soundstat/openapi/soundstat-track-api-openapi.yml
 - filename: soundstat-tracks-api-openapi.yml
   format: yaml
   label: SoundStat Tracks API
   slug: soundstat-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstat/refs/heads/main/openapi/soundstat-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/soundstat/openapi/soundstat-tracks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: soundstat-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/soundstat-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: API key issued after registration at https://soundstat.info/auth.html. Passed\n    in the x-api-key request header.\n  sources:\n  - openapi/soundstat-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/soundstat/refs/heads/main/authentication/soundstat-authentication.yml
+source_yaml_url: https://artifacts.apis.io/soundstat/authentication/soundstat-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Music

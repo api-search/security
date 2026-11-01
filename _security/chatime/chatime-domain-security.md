@@ -26,12 +26,12 @@ source_filename: chatime-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.chatime.com.tw\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 13:01:50 2026 GMT\n  hsts: false\ndomains:\n- domain: chatime.com.tw\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chatime/refs/heads/main/security/chatime-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/chatime/security/chatime-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company
-- BubbleTea
+- Bubble Tea
 - Franchise
-- Food&Beverage
+- Food and Beverage
 - Global
 ---

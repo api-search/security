@@ -5,19 +5,19 @@ api_specs:
   label: Factorial Core::Employees::V2 API
   slug: factorial-hr-core-employees-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/openapi/factorial-hr-core-employees-v2-api-openapi.yml
+  url: https://artifacts.apis.io/factorial-hr/openapi/factorial-hr-core-employees-v2-api-openapi.yml
 - filename: factorial-hr-core-me-api-openapi.yml
   format: yaml
   label: Factorial Core::Me API
   slug: factorial-hr-core-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/openapi/factorial-hr-core-me-api-openapi.yml
+  url: https://artifacts.apis.io/factorial-hr/openapi/factorial-hr-core-me-api-openapi.yml
 - filename: factorial-hr-resources-api-openapi.yml
   format: yaml
   label: Factorial Resources API
   slug: factorial-hr-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/openapi/factorial-hr-resources-api-openapi.yml
+  url: https://artifacts.apis.io/factorial-hr/openapi/factorial-hr-resources-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -35,7 +35,7 @@ source_filename: factorial-hr-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.factorial.co/\nurl: https://trust.factorial.co/\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://trust.factorial.co/\n  keywords:\n  - soc 2\n  - soc2\n  - iso/iec 27001\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/security/factorial-hr-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/factorial-hr/security/factorial-hr-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Human Resources

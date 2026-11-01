@@ -5,19 +5,19 @@ api_specs:
   label: aiXplain Agents API
   slug: aixplain-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aixplain/refs/heads/main/openapi/aixplain-agents-api-openapi.yml
+  url: https://artifacts.apis.io/aixplain/openapi/aixplain-agents-api-openapi.yml
 - filename: aixplain-sessions-api-openapi.yml
   format: yaml
   label: aiXplain Sessions API
   slug: aixplain-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aixplain/refs/heads/main/openapi/aixplain-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/aixplain/openapi/aixplain-sessions-api-openapi.yml
 - filename: aixplain-triggers-api-openapi.yml
   format: yaml
   label: aiXplain Triggers API
   slug: aixplain-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aixplain/refs/heads/main/openapi/aixplain-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/aixplain/openapi/aixplain-triggers-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -35,7 +35,7 @@ source_filename: aixplain-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-09-22'\nmethod: searched\nprobe: true\nsource: https://www.aixplain.com/security\nurl: https://www.aixplain.com/security\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://www.aixplain.com/security\n  keywords:\n  - soc 2\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aixplain/refs/heads/main/security/aixplain-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/aixplain/security/aixplain-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - Company

@@ -7,67 +7,67 @@ api_specs:
   label: Ollama System One Decision API
   slug: ollama-systemone-decision-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ollama/refs/heads/main/openapi/_ae-authored/ollama-systemone-decision-api-openapi.yml
+  url: https://artifacts.apis.io/ollama/openapi/_ae-authored/ollama-systemone-decision-api-openapi.yml
 - filename: ollama-blobs-api-openapi.yml
   format: yaml
   label: Ollama Blobs API
   slug: ollama-blobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ollama/refs/heads/main/openapi/ollama-blobs-api-openapi.yml
+  url: https://artifacts.apis.io/ollama/openapi/ollama-blobs-api-openapi.yml
 - filename: ollama-chat-completions-api-openapi.yml
   format: yaml
   label: Ollama Chat Completions API
   slug: ollama-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ollama/refs/heads/main/openapi/ollama-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/ollama/openapi/ollama-chat-completions-api-openapi.yml
 - filename: ollama-completions-api-openapi.yml
   format: yaml
   label: Ollama Completions API
   slug: ollama-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ollama/refs/heads/main/openapi/ollama-completions-api-openapi.yml
+  url: https://artifacts.apis.io/ollama/openapi/ollama-completions-api-openapi.yml
 - filename: ollama-embeddings-api-openapi.yml
   format: yaml
   label: Ollama Embeddings API
   slug: ollama-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ollama/refs/heads/main/openapi/ollama-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/ollama/openapi/ollama-embeddings-api-openapi.yml
 - filename: ollama-generate-api-openapi.yml
   format: yaml
   label: Ollama Generate API
   slug: ollama-generate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ollama/refs/heads/main/openapi/ollama-generate-api-openapi.yml
+  url: https://artifacts.apis.io/ollama/openapi/ollama-generate-api-openapi.yml
 - filename: ollama-images-api-openapi.yml
   format: yaml
   label: Ollama Images API
   slug: ollama-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ollama/refs/heads/main/openapi/ollama-images-api-openapi.yml
+  url: https://artifacts.apis.io/ollama/openapi/ollama-images-api-openapi.yml
 - filename: ollama-models-api-openapi.yml
   format: yaml
   label: Ollama Models API
   slug: ollama-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ollama/refs/heads/main/openapi/ollama-models-api-openapi.yml
+  url: https://artifacts.apis.io/ollama/openapi/ollama-models-api-openapi.yml
 - filename: ollama-responses-api-openapi.yml
   format: yaml
   label: Ollama Responses API
   slug: ollama-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ollama/refs/heads/main/openapi/ollama-responses-api-openapi.yml
+  url: https://artifacts.apis.io/ollama/openapi/ollama-responses-api-openapi.yml
 - filename: ollama-running-models-api-openapi.yml
   format: yaml
   label: Ollama Running Models API
   slug: ollama-running-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ollama/refs/heads/main/openapi/ollama-running-models-api-openapi.yml
+  url: https://artifacts.apis.io/ollama/openapi/ollama-running-models-api-openapi.yml
 - filename: ollama-version-api-openapi.yml
   format: yaml
   label: Ollama Version API
   slug: ollama-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ollama/refs/heads/main/openapi/ollama-version-api-openapi.yml
+  url: https://artifacts.apis.io/ollama/openapi/ollama-version-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -94,7 +94,7 @@ source_filename: ollama-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ollama-openai-compatibility-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: API key authentication. The key is accepted but not validated by Ollama. Use\n    any value such as ollama.\n  sources:\n  - openapi/ollama-openai-compatibility-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ollama/refs/heads/main/authentication/ollama-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ollama/authentication/ollama-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - LLM

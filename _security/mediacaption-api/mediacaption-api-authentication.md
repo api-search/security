@@ -8,43 +8,43 @@ api_specs:
   label: MediaCaption API Balance API
   slug: mediacaption-api-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/openapi/mediacaption-api-balance-api-openapi.yml
+  url: https://artifacts.apis.io/mediacaption-api/openapi/mediacaption-api-balance-api-openapi.yml
 - filename: mediacaption-api-jobs-api-openapi.yml
   format: yaml
   label: MediaCaption API Jobs API
   slug: mediacaption-api-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/openapi/mediacaption-api-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/mediacaption-api/openapi/mediacaption-api-jobs-api-openapi.yml
 - filename: mediacaption-api-transcriptions-api-openapi.yml
   format: yaml
   label: MediaCaption API Transcriptions API
   slug: mediacaption-api-transcriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/openapi/mediacaption-api-transcriptions-api-openapi.yml
+  url: https://artifacts.apis.io/mediacaption-api/openapi/mediacaption-api-transcriptions-api-openapi.yml
 - filename: mediacaption-api-transcripts-api-openapi.yml
   format: yaml
   label: MediaCaption API Transcripts API
   slug: mediacaption-api-transcripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/openapi/mediacaption-api-transcripts-api-openapi.yml
+  url: https://artifacts.apis.io/mediacaption-api/openapi/mediacaption-api-transcripts-api-openapi.yml
 - filename: mediacaption-api-uploads-api-openapi.yml
   format: yaml
   label: MediaCaption API Uploads API
   slug: mediacaption-api-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/openapi/mediacaption-api-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/mediacaption-api/openapi/mediacaption-api-uploads-api-openapi.yml
 - filename: mediacaption-api-user-api-openapi.yml
   format: yaml
   label: MediaCaption API User API
   slug: mediacaption-api-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/openapi/mediacaption-api-user-api-openapi.yml
+  url: https://artifacts.apis.io/mediacaption-api/openapi/mediacaption-api-user-api-openapi.yml
 - filename: mediacaption-api-webhooks-api-openapi.yml
   format: yaml
   label: MediaCaption API Webhooks API
   slug: mediacaption-api-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/openapi/mediacaption-api-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/mediacaption-api/openapi/mediacaption-api-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -83,7 +83,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-03'\nmethod: searched\nsource: openapi/mediacaption-api-openapi.yaml + https://www.mediacaption.io/docs/authentication\ndocs: https://www.mediacaption.io/docs/authentication\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nkey_format: mc_live_ prefix; live keys only — no test-mode key prefix is published\nkey_management: Keys are created in the platform dashboard and shown once at creation.\nprecedence: When both headers are present, bearer authentication takes precedence.\nfailure_modes:\n  - code: missing_api_key\n    status: 401\n    when: no key is sent\n  - code: invalid_api_key\n    status: 401\n    when: malformed, unknown, or revoked keys\nschemes:\n- name: bearerApiKey\n  type: http\n  scheme: bearer\n  bearerFormat: Media Caption API key\n  description: 'Use `Authorization: Bearer mc_live_xxx`.'\n  sources:\n  - openapi/mediacaption-api-openapi.yaml\n  - https://www.mediacaption.io/docs/authentication\n- name: headerApiKey\n\
   \  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: Alternative API key header.\n  sources:\n  - openapi/mediacaption-api-openapi.yaml\n  - https://www.mediacaption.io/docs/authentication\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/authentication/mediacaption-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mediacaption-api/authentication/mediacaption-api-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - YouTube

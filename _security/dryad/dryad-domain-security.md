@@ -5,43 +5,43 @@ api_specs:
   label: Dryad Datasets API
   slug: dryad-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dryad/refs/heads/main/openapi/dryad-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/dryad/openapi/dryad-datasets-api-openapi.yml
 - filename: dryad-files-api-openapi.yml
   format: yaml
   label: Dryad Files API
   slug: dryad-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dryad/refs/heads/main/openapi/dryad-files-api-openapi.yml
+  url: https://artifacts.apis.io/dryad/openapi/dryad-files-api-openapi.yml
 - filename: dryad-internal-api-openapi.yml
   format: yaml
   label: Dryad Internal API
   slug: dryad-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dryad/refs/heads/main/openapi/dryad-internal-api-openapi.yml
+  url: https://artifacts.apis.io/dryad/openapi/dryad-internal-api-openapi.yml
 - filename: dryad-reports-api-openapi.yml
   format: yaml
   label: Dryad Reports API
   slug: dryad-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dryad/refs/heads/main/openapi/dryad-reports-api-openapi.yml
+  url: https://artifacts.apis.io/dryad/openapi/dryad-reports-api-openapi.yml
 - filename: dryad-root-api-openapi.yml
   format: yaml
   label: Dryad Root API
   slug: dryad-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dryad/refs/heads/main/openapi/dryad-root-api-openapi.yml
+  url: https://artifacts.apis.io/dryad/openapi/dryad-root-api-openapi.yml
 - filename: dryad-search-api-openapi.yml
   format: yaml
   label: Dryad Search API
   slug: dryad-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dryad/refs/heads/main/openapi/dryad-search-api-openapi.yml
+  url: https://artifacts.apis.io/dryad/openapi/dryad-search-api-openapi.yml
 - filename: dryad-versions-api-openapi.yml
   format: yaml
   label: Dryad Versions API
   slug: dryad-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dryad/refs/heads/main/openapi/dryad-versions-api-openapi.yml
+  url: https://artifacts.apis.io/dryad/openapi/dryad-versions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -77,7 +77,7 @@ source_filename: dryad-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: datadryad.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 30 23:59:59 2027 GMT\n  hsts: false\n- host: sandbox.datadryad.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 12 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: datadryad.org\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dryad/refs/heads/main/security/dryad-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dryad/security/dryad-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Research Data

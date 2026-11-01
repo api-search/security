@@ -1,35 +1,41 @@
 ---
 api_specs:
+- filename: 0codekit-openapi-generated.yml
+  format: yaml
+  label: 0CodeKit API
+  slug: 0codekit-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/0codekit/openapi/_ae-authored/0codekit-openapi-generated.yml
 - filename: 0codekit-ai-api-openapi.yml
   format: yaml
   label: relyon AI API
   slug: 0codekit-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/0codekit/refs/heads/main/openapi/0codekit-ai-api-openapi.yml
+  url: https://artifacts.apis.io/0codekit/openapi/0codekit-ai-api-openapi.yml
 - filename: 0codekit-docs-api-openapi.yml
   format: yaml
   label: relyon Docs API
   slug: 0codekit-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/0codekit/refs/heads/main/openapi/0codekit-docs-api-openapi.yml
+  url: https://artifacts.apis.io/0codekit/openapi/0codekit-docs-api-openapi.yml
 - filename: 0codekit-image-api-openapi.yml
   format: yaml
   label: relyon Image API
   slug: 0codekit-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/0codekit/refs/heads/main/openapi/0codekit-image-api-openapi.yml
+  url: https://artifacts.apis.io/0codekit/openapi/0codekit-image-api-openapi.yml
 - filename: 0codekit-mcp-api-openapi.yml
   format: yaml
   label: relyon MCP API
   slug: 0codekit-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/0codekit/refs/heads/main/openapi/0codekit-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/0codekit/openapi/0codekit-mcp-api-openapi.yml
 - filename: 0codekit-pdf-api-openapi.yml
   format: yaml
   label: relyon PDF API
   slug: 0codekit-pdf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/0codekit/refs/heads/main/openapi/0codekit-pdf-api-openapi.yml
+  url: https://artifacts.apis.io/0codekit/openapi/0codekit-pdf-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -62,7 +68,7 @@ source_filename: 0codekit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: 0codekit.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 08:12:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: 0codekit.com\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"letsencrypt.org;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/3800395326;validationmethods=dns-01\"\n  - 0 issue \"pki.goog\"\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/0codekit/refs/heads/main/security/0codekit-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/0codekit/security/0codekit-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

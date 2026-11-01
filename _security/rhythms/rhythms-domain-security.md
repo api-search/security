@@ -5,79 +5,79 @@ api_specs:
   label: Rhythms Access Requests API
   slug: rhythms-access-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-access-requests-api-openapi.yml
+  url: https://artifacts.apis.io/rhythms/openapi/rhythms-access-requests-api-openapi.yml
 - filename: rhythms-chat-refresh-threads-api-openapi.yml
   format: yaml
   label: Rhythms Chat Refresh Threads API
   slug: rhythms-chat-refresh-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-chat-refresh-threads-api-openapi.yml
+  url: https://artifacts.apis.io/rhythms/openapi/rhythms-chat-refresh-threads-api-openapi.yml
 - filename: rhythms-connector-requests-api-openapi.yml
   format: yaml
   label: Rhythms Connector Requests API
   slug: rhythms-connector-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-connector-requests-api-openapi.yml
+  url: https://artifacts.apis.io/rhythms/openapi/rhythms-connector-requests-api-openapi.yml
 - filename: rhythms-data-sources-api-openapi.yml
   format: yaml
   label: Rhythms Data Sources API
   slug: rhythms-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/rhythms/openapi/rhythms-data-sources-api-openapi.yml
 - filename: rhythms-documents-api-openapi.yml
   format: yaml
   label: Rhythms Documents API
   slug: rhythms-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-documents-api-openapi.yml
+  url: https://artifacts.apis.io/rhythms/openapi/rhythms-documents-api-openapi.yml
 - filename: rhythms-explorer-views-api-openapi.yml
   format: yaml
   label: Rhythms Explorer Views API
   slug: rhythms-explorer-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-explorer-views-api-openapi.yml
+  url: https://artifacts.apis.io/rhythms/openapi/rhythms-explorer-views-api-openapi.yml
 - filename: rhythms-labels-api-openapi.yml
   format: yaml
   label: Rhythms Labels API
   slug: rhythms-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-labels-api-openapi.yml
+  url: https://artifacts.apis.io/rhythms/openapi/rhythms-labels-api-openapi.yml
 - filename: rhythms-mention-access-checks-api-openapi.yml
   format: yaml
   label: Rhythms Mention Access Checks API
   slug: rhythms-mention-access-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-mention-access-checks-api-openapi.yml
+  url: https://artifacts.apis.io/rhythms/openapi/rhythms-mention-access-checks-api-openapi.yml
 - filename: rhythms-notifications-api-openapi.yml
   format: yaml
   label: Rhythms Notifications API
   slug: rhythms-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/rhythms/openapi/rhythms-notifications-api-openapi.yml
 - filename: rhythms-objectives-api-openapi.yml
   format: yaml
   label: Rhythms Objectives API
   slug: rhythms-objectives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-objectives-api-openapi.yml
+  url: https://artifacts.apis.io/rhythms/openapi/rhythms-objectives-api-openapi.yml
 - filename: rhythms-teams-api-openapi.yml
   format: yaml
   label: Rhythms Teams API
   slug: rhythms-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-teams-api-openapi.yml
+  url: https://artifacts.apis.io/rhythms/openapi/rhythms-teams-api-openapi.yml
 - filename: rhythms-time-periods-api-openapi.yml
   format: yaml
   label: Rhythms Time Periods API
   slug: rhythms-time-periods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-time-periods-api-openapi.yml
+  url: https://artifacts.apis.io/rhythms/openapi/rhythms-time-periods-api-openapi.yml
 - filename: rhythms-users-api-openapi.yml
   format: yaml
   label: Rhythms Users API
   slug: rhythms-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-users-api-openapi.yml
+  url: https://artifacts.apis.io/rhythms/openapi/rhythms-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -112,7 +112,7 @@ source_filename: rhythms-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.rhythms.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 05:16:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.rhythms.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: rhythms.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/security/rhythms-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rhythms/security/rhythms-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

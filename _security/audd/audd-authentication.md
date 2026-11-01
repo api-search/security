@@ -8,19 +8,25 @@ api_specs:
   label: AudD Recognition API
   slug: audd-recognition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audd/refs/heads/main/openapi/audd-recognition-api-openapi.yml
+  url: https://artifacts.apis.io/audd/openapi/audd-recognition-api-openapi.yml
 - filename: audd-custom-catalog-api-openapi.yml
   format: yaml
   label: AudD Custom Catalog API
   slug: audd-custom-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audd/refs/heads/main/openapi/audd-custom-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/audd/openapi/audd-custom-catalog-api-openapi.yml
 - filename: audd-streams-api-openapi.yml
   format: yaml
   label: AudD Streams API
   slug: audd-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audd/refs/heads/main/openapi/audd-streams-api-openapi.yml
+  url: https://artifacts.apis.io/audd/openapi/audd-streams-api-openapi.yml
+- filename: audd-agent-payments-api-openapi.yml
+  format: yaml
+  label: AudD Agent payments API
+  slug: audd-agent-payments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/audd/openapi/audd-agent-payments-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +54,7 @@ source_filename: audd-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/audd-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: api_token\n  type: apiKey\n  in: query\n  parameter: api_token\n  description: API token obtained from the AudD dashboard. May also be supplied as a form field\n    in the request body.\n  sources:\n  - openapi/audd-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/audd/refs/heads/main/authentication/audd-authentication.yml
+source_yaml_url: https://artifacts.apis.io/audd/authentication/audd-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Music

@@ -8,31 +8,31 @@ api_specs:
   label: XRHealth Auth API
   slug: xrhealth-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xrhealth/refs/heads/main/openapi/xrhealth-auth-api-openapi.yml
+  url: https://artifacts.apis.io/xrhealth/openapi/xrhealth-auth-api-openapi.yml
 - filename: xrhealth-me-api-openapi.yml
   format: yaml
   label: XRHealth Me API
   slug: xrhealth-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xrhealth/refs/heads/main/openapi/xrhealth-me-api-openapi.yml
+  url: https://artifacts.apis.io/xrhealth/openapi/xrhealth-me-api-openapi.yml
 - filename: xrhealth-openapi-json-api-openapi.yml
   format: yaml
   label: XRHealth Openapi.json API
   slug: xrhealth-openapi-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xrhealth/refs/heads/main/openapi/xrhealth-openapi-json-api-openapi.yml
+  url: https://artifacts.apis.io/xrhealth/openapi/xrhealth-openapi-json-api-openapi.yml
 - filename: xrhealth-well-known-api-openapi.yml
   format: yaml
   label: XRHealth .well Known API
   slug: xrhealth-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xrhealth/refs/heads/main/openapi/xrhealth-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/xrhealth/openapi/xrhealth-well-known-api-openapi.yml
 - filename: xrhealth-xrhealth-platform-api-api-openapi.yml
   format: yaml
   label: XRHealth XRHealth Platform API
   slug: xrhealth-xrhealth-platform-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xrhealth/refs/heads/main/openapi/xrhealth-xrhealth-platform-api-api-openapi.yml
+  url: https://artifacts.apis.io/xrhealth/openapi/xrhealth-xrhealth-platform-api-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -66,7 +66,7 @@ source_filename: xrhealth-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: derived\nsource: openapi/xrhealth-platform-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: applicationToken\n  type: apiKey\n  in: header\n  parameter: X-XRHealth-Application-Token\n  sources:\n  - openapi/xrhealth-platform-openapi.yml\n- name: patientBearer\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/xrhealth-platform-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xrhealth/refs/heads/main/authentication/xrhealth-authentication.yml
+source_yaml_url: https://artifacts.apis.io/xrhealth/authentication/xrhealth-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Health

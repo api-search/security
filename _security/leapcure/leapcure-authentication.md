@@ -27,7 +27,7 @@ source_filename: leapcure-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/leapcure-blog-content-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: applicationPassword\n  type: http\n  scheme: basic\n  description: WordPress application passwords. Authorize at https://blog.leapcure.com/wp-admin/authorize-application.php\n    (advertised in the /wp-json/ discovery document).\n  sources:\n  - openapi/leapcure-blog-content-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leapcure/refs/heads/main/authentication/leapcure-authentication.yml
+source_yaml_url: https://artifacts.apis.io/leapcure/authentication/leapcure-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

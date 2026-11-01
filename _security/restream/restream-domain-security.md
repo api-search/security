@@ -5,31 +5,31 @@ api_specs:
   label: Restream Channels API
   slug: restream-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restream/refs/heads/main/openapi/restream-channels-api-openapi.yml
+  url: https://artifacts.apis.io/restream/openapi/restream-channels-api-openapi.yml
 - filename: restream-events-api-openapi.yml
   format: yaml
   label: Restream Events API
   slug: restream-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restream/refs/heads/main/openapi/restream-events-api-openapi.yml
+  url: https://artifacts.apis.io/restream/openapi/restream-events-api-openapi.yml
 - filename: restream-platforms-api-openapi.yml
   format: yaml
   label: Restream Platforms API
   slug: restream-platforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restream/refs/heads/main/openapi/restream-platforms-api-openapi.yml
+  url: https://artifacts.apis.io/restream/openapi/restream-platforms-api-openapi.yml
 - filename: restream-stream-keys-api-openapi.yml
   format: yaml
   label: Restream Stream Keys API
   slug: restream-stream-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restream/refs/heads/main/openapi/restream-stream-keys-api-openapi.yml
+  url: https://artifacts.apis.io/restream/openapi/restream-stream-keys-api-openapi.yml
 - filename: restream-user-api-openapi.yml
   format: yaml
   label: Restream User API
   slug: restream-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restream/refs/heads/main/openapi/restream-user-api-openapi.yml
+  url: https://artifacts.apis.io/restream/openapi/restream-user-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -77,7 +77,7 @@ source_filename: restream-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: restream.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 16 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.restream.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 16 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.restream.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 12:45:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: restream.io\n  dnssec: true\n  caa:\n  - 0 issuewild \"amazontrust.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issue \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/restream/refs/heads/main/security/restream-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/restream/security/restream-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Broadcast

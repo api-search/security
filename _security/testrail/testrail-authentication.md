@@ -7,67 +7,67 @@ api_specs:
   label: TestRail Cases API
   slug: testrail-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-cases-api-openapi.yml
+  url: https://artifacts.apis.io/testrail/openapi/testrail-cases-api-openapi.yml
 - filename: testrail-configurations-api-openapi.yml
   format: yaml
   label: TestRail Configurations API
   slug: testrail-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/testrail/openapi/testrail-configurations-api-openapi.yml
 - filename: testrail-milestones-api-openapi.yml
   format: yaml
   label: TestRail Milestones API
   slug: testrail-milestones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-milestones-api-openapi.yml
+  url: https://artifacts.apis.io/testrail/openapi/testrail-milestones-api-openapi.yml
 - filename: testrail-plans-api-openapi.yml
   format: yaml
   label: TestRail Plans API
   slug: testrail-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-plans-api-openapi.yml
+  url: https://artifacts.apis.io/testrail/openapi/testrail-plans-api-openapi.yml
 - filename: testrail-projects-api-openapi.yml
   format: yaml
   label: TestRail Projects API
   slug: testrail-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-projects-api-openapi.yml
+  url: https://artifacts.apis.io/testrail/openapi/testrail-projects-api-openapi.yml
 - filename: testrail-results-api-openapi.yml
   format: yaml
   label: TestRail Results API
   slug: testrail-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-results-api-openapi.yml
+  url: https://artifacts.apis.io/testrail/openapi/testrail-results-api-openapi.yml
 - filename: testrail-runs-api-openapi.yml
   format: yaml
   label: TestRail Runs API
   slug: testrail-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-runs-api-openapi.yml
+  url: https://artifacts.apis.io/testrail/openapi/testrail-runs-api-openapi.yml
 - filename: testrail-sections-api-openapi.yml
   format: yaml
   label: TestRail Sections API
   slug: testrail-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-sections-api-openapi.yml
+  url: https://artifacts.apis.io/testrail/openapi/testrail-sections-api-openapi.yml
 - filename: testrail-suites-api-openapi.yml
   format: yaml
   label: TestRail Suites API
   slug: testrail-suites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-suites-api-openapi.yml
+  url: https://artifacts.apis.io/testrail/openapi/testrail-suites-api-openapi.yml
 - filename: testrail-tests-api-openapi.yml
   format: yaml
   label: TestRail Tests API
   slug: testrail-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-tests-api-openapi.yml
+  url: https://artifacts.apis.io/testrail/openapi/testrail-tests-api-openapi.yml
 - filename: testrail-users-api-openapi.yml
   format: yaml
   label: TestRail Users API
   slug: testrail-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-users-api-openapi.yml
+  url: https://artifacts.apis.io/testrail/openapi/testrail-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -95,7 +95,7 @@ source_filename: testrail-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/testrail-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: >-\n    HTTP Basic authentication. The username is your TestRail email address; the\n    password is either your account password or an API key generated under My\n    Settings. Sent as `Authorization: Basic base64(email:api_key)`, for example\n    `curl -u \"user@example.com:APIkey\"`. All requests and responses are JSON\n    (`Content-Type: application/json`). The API must be enabled by an\n    administrator under Administration > Site Settings > API (\"Enable API\").\n    API keys can be revoked at any time under My Settings.\n  sources:\n  - openapi/testrail-openapi.yml\n  - https://support.testrail.com/hc/en-us/articles/7077039051284-Accessing-the-TestRail-API\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/authentication/testrail-authentication.yml
+source_yaml_url: https://artifacts.apis.io/testrail/authentication/testrail-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Test Runs

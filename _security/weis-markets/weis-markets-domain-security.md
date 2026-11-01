@@ -38,7 +38,7 @@ source_filename: weis-markets-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.weismarkets.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 20:31:53 2026 GMT\n  hsts: null\n- host: weismarkets.streamcollab.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 01:17:57 2026 GMT\n  hsts: null\ndomains:\n- domain: weismarkets.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: streamcollab.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weis-markets/refs/heads/main/security/weis-markets-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/weis-markets/security/weis-markets-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Fortune 1000

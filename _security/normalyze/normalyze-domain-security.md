@@ -30,7 +30,7 @@ source_filename: normalyze-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: dig + openssl TLS/HTTP probe of normalyze.ai (2026-07-20)\nnote: >-\n  normalyze.ai (www) now issues a 301 redirect to\n  https://www.proofpoint.com/us/normalyze-is-now-proofpoint — Normalyze was\n  acquired by Proofpoint and its standalone site is a redirect/marketing\n  property. DNS-level records below are genuine for the normalyze.ai domain;\n  host-level HTTP/TLS reflects the redirect endpoint.\nhosts:\n  - host: www.normalyze.ai\n    https: true\n    tls_version: TLSv1.3\n    cert_issuer: Sectigo Public Server Authentication CA OV R36\n    cert_not_after: '2026-12-24'\n    hsts: false\n    redirects_to: https://www.proofpoint.com/us/normalyze-is-now-proofpoint\ndomains:\n  - domain: normalyze.ai\n    dnssec: false\n    caa: []\n    spf: true\n    spf_record: \"v=spf1 include:dc-aa8e722993._spfm.normalyze.ai include:mktomail.com include:_spf.salesforce.com ~all\"\n    dmarc: true\n    dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/normalyze/refs/heads/main/security/normalyze-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/normalyze/security/normalyze-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

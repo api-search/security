@@ -7,31 +7,31 @@ api_specs:
   label: CMS Open Payments Datastore Query API
   slug: open-payments-datastore-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-payments/refs/heads/main/openapi/open-payments-datastore-query-api-openapi.yml
+  url: https://artifacts.apis.io/open-payments/openapi/open-payments-datastore-query-api-openapi.yml
 - filename: open-payments-datastore-sql-api-openapi.yml
   format: yaml
   label: CMS Open Payments Datastore SQL API
   slug: open-payments-datastore-sql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-payments/refs/heads/main/openapi/open-payments-datastore-sql-api-openapi.yml
+  url: https://artifacts.apis.io/open-payments/openapi/open-payments-datastore-sql-api-openapi.yml
 - filename: open-payments-download-api-openapi.yml
   format: yaml
   label: CMS Open Payments Download API
   slug: open-payments-download-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-payments/refs/heads/main/openapi/open-payments-download-api-openapi.yml
+  url: https://artifacts.apis.io/open-payments/openapi/open-payments-download-api-openapi.yml
 - filename: open-payments-metastore-api-openapi.yml
   format: yaml
   label: CMS Open Payments Metastore API
   slug: open-payments-metastore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-payments/refs/heads/main/openapi/open-payments-metastore-api-openapi.yml
+  url: https://artifacts.apis.io/open-payments/openapi/open-payments-metastore-api-openapi.yml
 - filename: open-payments-search-api-openapi.yml
   format: yaml
   label: CMS Open Payments Search API
   slug: open-payments-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-payments/refs/heads/main/openapi/open-payments-search-api-openapi.yml
+  url: https://artifacts.apis.io/open-payments/openapi/open-payments-search-api-openapi.yml
 auth_types:
 - none
 description: ''
@@ -57,7 +57,7 @@ source_filename: open-payments-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: manual\nsource: https://openpaymentsdata.cms.gov/about/api\nsummary:\n  types:\n  - none\nschemes:\n- name: none\n  type: none\n  description: >-\n    All public read access to the CMS Open Payments data API is open and requires\n    no authentication - no API key, no token, no account. The metastore catalog,\n    search, datastore query, SQL, and download endpoints are all reachable\n    anonymously over HTTPS. This was confirmed live against the API on the review\n    date.\n  sources:\n  - https://openpaymentsdata.cms.gov/about/api\nnotes: >-\n  The underlying DKAN platform exposes write and content-moderation endpoints that\n  require HTTP Basic Authentication, but those are reserved for CMS data\n  publishers and are not part of the public consumer surface documented here.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-payments/refs/heads/main/authentication/open-payments-authentication.yml
+source_yaml_url: https://artifacts.apis.io/open-payments/authentication/open-payments-authentication.yml
 summary_line: none · 1 scheme
 tags:
 - Government Data

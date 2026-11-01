@@ -30,7 +30,7 @@ source_filename: optic-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.useoptic.com\n  https: false\ndomains:\n- domain: useoptic.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/optic/refs/heads/main/security/optic-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/optic/security/optic-domain-security.yml
 summary_line: DMARC
 tags:
 - API Governance

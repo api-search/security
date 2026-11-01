@@ -5,43 +5,43 @@ api_specs:
   label: AUX by PrdictionEdge Certification Attempts API
   slug: prdictionedge-ai-certification-attempts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prdictionedge-ai/refs/heads/main/openapi/prdictionedge-ai-certification-attempts-api-openapi.yml
+  url: https://artifacts.apis.io/prdictionedge-ai/openapi/prdictionedge-ai-certification-attempts-api-openapi.yml
 - filename: prdictionedge-ai-certification-handoffs-api-openapi.yml
   format: yaml
   label: AUX by PrdictionEdge Certification Handoffs API
   slug: prdictionedge-ai-certification-handoffs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prdictionedge-ai/refs/heads/main/openapi/prdictionedge-ai-certification-handoffs-api-openapi.yml
+  url: https://artifacts.apis.io/prdictionedge-ai/openapi/prdictionedge-ai-certification-handoffs-api-openapi.yml
 - filename: prdictionedge-ai-certification-profiles-api-openapi.yml
   format: yaml
   label: AUX by PrdictionEdge Certification Profiles API
   slug: prdictionedge-ai-certification-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prdictionedge-ai/refs/heads/main/openapi/prdictionedge-ai-certification-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/prdictionedge-ai/openapi/prdictionedge-ai-certification-profiles-api-openapi.yml
 - filename: prdictionedge-ai-certification-requirements-api-openapi.yml
   format: yaml
   label: AUX by PrdictionEdge Certification Requirements API
   slug: prdictionedge-ai-certification-requirements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prdictionedge-ai/refs/heads/main/openapi/prdictionedge-ai-certification-requirements-api-openapi.yml
+  url: https://artifacts.apis.io/prdictionedge-ai/openapi/prdictionedge-ai-certification-requirements-api-openapi.yml
 - filename: prdictionedge-ai-certifications-api-openapi.yml
   format: yaml
   label: AUX by PrdictionEdge Certifications API
   slug: prdictionedge-ai-certifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prdictionedge-ai/refs/heads/main/openapi/prdictionedge-ai-certifications-api-openapi.yml
+  url: https://artifacts.apis.io/prdictionedge-ai/openapi/prdictionedge-ai-certifications-api-openapi.yml
 - filename: prdictionedge-ai-evidence-api-openapi.yml
   format: yaml
   label: AUX by PrdictionEdge Evidence API
   slug: prdictionedge-ai-evidence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prdictionedge-ai/refs/heads/main/openapi/prdictionedge-ai-evidence-api-openapi.yml
+  url: https://artifacts.apis.io/prdictionedge-ai/openapi/prdictionedge-ai-evidence-api-openapi.yml
 - filename: prdictionedge-ai-well-known-api-openapi.yml
   format: yaml
   label: AUX by PrdictionEdge .well Known API
   slug: prdictionedge-ai-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prdictionedge-ai/refs/heads/main/openapi/prdictionedge-ai-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/prdictionedge-ai/openapi/prdictionedge-ai-well-known-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,7 +81,7 @@ source_filename: prdictionedge-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: prdictionedge.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 24 02:19:01 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: aux.prdictionedge.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 14:30:23 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.aux.prdictionedge.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 07:56:03 2026 GMT\n  hsts: null\ndomains:\n- domain: prdictionedge.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prdictionedge-ai/refs/heads/main/security/prdictionedge-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/prdictionedge-ai/security/prdictionedge-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

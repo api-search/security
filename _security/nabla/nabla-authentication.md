@@ -7,13 +7,13 @@ api_specs:
   label: Nabla Authentication API
   slug: nabla-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nabla/refs/heads/main/openapi/nabla-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/nabla/openapi/nabla-authentication-api-openapi.yml
 - filename: nabla-transcription-api-openapi.yml
   format: yaml
   label: Nabla Transcription API
   slug: nabla-transcription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nabla/refs/heads/main/openapi/nabla-transcription-api-openapi.yml
+  url: https://artifacts.apis.io/nabla/openapi/nabla-transcription-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -41,7 +41,7 @@ source_filename: nabla-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/nabla-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: OAuth 2.0 access token (Server API) or JWT access token (User API).\n  sources:\n  - openapi/nabla-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nabla/refs/heads/main/authentication/nabla-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nabla/authentication/nabla-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Healthcare

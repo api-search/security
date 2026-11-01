@@ -32,7 +32,7 @@ source_filename: approvecom-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://help.tipalti.com/hc/en-us/articles/30718248220823-Procurement-REST-API-documentation\ndocs: https://help.tipalti.com/hc/en-us/articles/30718248220823-Procurement-REST-API-documentation\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter_name: x-api-key\n  description: >-\n    Every Approve.com / Tipalti Procurement REST API request must include the API token in\n    the x-api-key header. Tokens are issued per environment (sandbox and production) and are\n    obtained from your Tipalti Implementation Manager rather than a self-serve dashboard.\n  environments:\n  - name: production\n    base_url: https://triggers.approve.com\n  - name: sandbox\n    base_url: https://triggers.sandbox.approve.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/approvecom/refs/heads/main/authentication/approvecom-authentication.yml
+source_yaml_url: https://artifacts.apis.io/approvecom/authentication/approvecom-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

@@ -27,7 +27,7 @@ source_filename: equiptal-holding-ltd-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: equiptal.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 07:09:07 2026 GMT\n  hsts: false\ndomains:\n- domain: equiptal.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/equiptal-holding-ltd/refs/heads/main/security/equiptal-holding-ltd-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/equiptal-holding-ltd/security/equiptal-holding-ltd-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

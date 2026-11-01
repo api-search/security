@@ -5,67 +5,67 @@ api_specs:
   label: Justworks Members API
   slug: justworks-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-members-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-members-api-openapi.yml
 - filename: justworks-company-api-openapi.yml
   format: yaml
   label: Justworks Company API
   slug: justworks-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-company-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-company-api-openapi.yml
 - filename: justworks-deductions-api-openapi.yml
   format: yaml
   label: Justworks Deductions API
   slug: justworks-deductions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-deductions-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-deductions-api-openapi.yml
 - filename: justworks-webhooks-api-openapi.yml
   format: yaml
   label: Justworks Webhooks API
   slug: justworks-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-webhooks-api-openapi.yml
 - filename: justworks-deduction-types-api-openapi.yml
   format: yaml
   label: Justworks Deduction Types API
   slug: justworks-deduction-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-deduction-types-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-deduction-types-api-openapi.yml
 - filename: justworks-payrolls-api-openapi.yml
   format: yaml
   label: Justworks Payrolls API
   slug: justworks-payrolls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-payrolls-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-payrolls-api-openapi.yml
 - filename: justworks-paystubs-api-openapi.yml
   format: yaml
   label: Justworks Paystubs API
   slug: justworks-paystubs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-paystubs-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-paystubs-api-openapi.yml
 - filename: justworks-time-off-balances-api-openapi.yml
   format: yaml
   label: Justworks Time Off Balances API
   slug: justworks-time-off-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-time-off-balances-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-time-off-balances-api-openapi.yml
 - filename: justworks-time-off-policies-api-openapi.yml
   format: yaml
   label: Justworks Time Off Policies API
   slug: justworks-time-off-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-time-off-policies-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-time-off-policies-api-openapi.yml
 - filename: justworks-time-off-requests-api-openapi.yml
   format: yaml
   label: Justworks Time Off Requests API
   slug: justworks-time-off-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-time-off-requests-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-time-off-requests-api-openapi.yml
 - filename: justworks-oauth-api-openapi.yml
   format: yaml
   label: Justworks O Auth API
   slug: justworks-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-oauth-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -105,7 +105,7 @@ source_filename: justworks-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.justworks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 12:01:04 2026 GMT\n  hsts: false\n- host: public-api.justworks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 14:41:50 2026 GMT\n  hsts: null\ndomains:\n- domain: justworks.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/security/justworks-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/justworks/security/justworks-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - PEO

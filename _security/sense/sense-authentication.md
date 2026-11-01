@@ -7,31 +7,31 @@ api_specs:
   label: Sense Authentication API
   slug: sense-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sense/refs/heads/main/openapi/sense-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sense/openapi/sense-authentication-api-openapi.yml
 - filename: sense-devices-api-openapi.yml
   format: yaml
   label: Sense Devices API
   slug: sense-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sense/refs/heads/main/openapi/sense-devices-api-openapi.yml
+  url: https://artifacts.apis.io/sense/openapi/sense-devices-api-openapi.yml
 - filename: sense-history-api-openapi.yml
   format: yaml
   label: Sense History API
   slug: sense-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sense/refs/heads/main/openapi/sense-history-api-openapi.yml
+  url: https://artifacts.apis.io/sense/openapi/sense-history-api-openapi.yml
 - filename: sense-monitors-api-openapi.yml
   format: yaml
   label: Sense Monitors API
   slug: sense-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sense/refs/heads/main/openapi/sense-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/sense/openapi/sense-monitors-api-openapi.yml
 - filename: sense-users-api-openapi.yml
   format: yaml
   label: Sense Users API
   slug: sense-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sense/refs/heads/main/openapi/sense-users-api-openapi.yml
+  url: https://artifacts.apis.io/sense/openapi/sense-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: sense-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sense-sense-client-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: 'Bearer token obtained from the /authenticate or /renew endpoints. Include as\n    \"Authorization: bearer <access_token>\" header.'\n  sources:\n  - openapi/sense-sense-client-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sense/refs/heads/main/authentication/sense-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sense/authentication/sense-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Energy

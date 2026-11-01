@@ -26,7 +26,7 @@ source_filename: agrist-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: agrist.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 00:00:01 2026 GMT\n  hsts: false\ndomains:\n- domain: agrist.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agrist/refs/heads/main/security/agrist-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/agrist/security/agrist-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company
@@ -35,7 +35,7 @@ tags:
 - Robotics
 - Artificial Intelligence
 - Computer Vision
-- Smart Farming
+- Smart Agriculture
 - Greenhouse
 - Automation
 - Food Tech

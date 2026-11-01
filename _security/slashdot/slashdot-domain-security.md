@@ -5,7 +5,7 @@ api_specs:
   label: Slashdot Feeds API
   slug: slashdot-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slashdot/refs/heads/main/openapi/slashdot-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/slashdot/openapi/slashdot-feeds-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -47,7 +47,7 @@ source_filename: slashdot-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: slashdot.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 23:54:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: rss.slashdot.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 23:54:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: slashdot.org\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:siteops@slashdotmedia.com\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"cloudflare.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/slashdot/refs/heads/main/security/slashdot-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/slashdot/security/slashdot-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Media

@@ -7,13 +7,13 @@ api_specs:
   label: Brainbase ApiContract API
   slug: brainbase-apicontract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brainbase/refs/heads/main/openapi/brainbase-apicontract-api-openapi.yml
+  url: https://artifacts.apis.io/brainbase/openapi/brainbase-apicontract-api-openapi.yml
 - filename: brainbase-general-api-openapi.yml
   format: yaml
   label: Brainbase General API
   slug: brainbase-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brainbase/refs/heads/main/openapi/brainbase-general-api-openapi.yml
+  url: https://artifacts.apis.io/brainbase/openapi/brainbase-general-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -41,7 +41,7 @@ source_filename: brainbase-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/brainbase-openapi-original.json\nsummary:\n  types:\n  - http\nschemes:\n- name: bearer\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: A short description for security scheme\n  sources:\n  - openapi/brainbase-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brainbase/refs/heads/main/authentication/brainbase-authentication.yml
+source_yaml_url: https://artifacts.apis.io/brainbase/authentication/brainbase-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

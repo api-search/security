@@ -5,19 +5,19 @@ api_specs:
   label: National Institute of Standards and Technology (NIST) Cves API
   slug: nist-cves-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nist/refs/heads/main/openapi/nist-cves-api-openapi.yml
+  url: https://artifacts.apis.io/nist/openapi/nist-cves-api-openapi.yml
 - filename: nist-cpe-api-openapi.yml
   format: yaml
   label: National Institute of Standards and Technology (NIST) CPE API
   slug: nist-cpe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nist/refs/heads/main/openapi/nist-cpe-api-openapi.yml
+  url: https://artifacts.apis.io/nist/openapi/nist-cpe-api-openapi.yml
 - filename: nist-cve-history-api-openapi.yml
   format: yaml
   label: National Institute of Standards and Technology (NIST) CVE History API
   slug: nist-cve-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nist/refs/heads/main/openapi/nist-cve-history-api-openapi.yml
+  url: https://artifacts.apis.io/nist/openapi/nist-cve-history-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: nist-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: nvd.nist.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 12:26:14 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: services.nvd.nist.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 14:16:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: webbook.nist.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 12:36:06 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: nist.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nist/refs/heads/main/security/nist-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nist/security/nist-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Cybersecurity

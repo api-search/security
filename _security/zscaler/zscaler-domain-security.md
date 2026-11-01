@@ -5,19 +5,19 @@ api_specs:
   label: Zscaler App Views API
   slug: zscaler-app-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zscaler/refs/heads/main/openapi/zscaler-app-views-api-openapi.yml
+  url: https://artifacts.apis.io/zscaler/openapi/zscaler-app-views-api-openapi.yml
 - filename: zscaler-apps-api-openapi.yml
   format: yaml
   label: Zscaler Apps API
   slug: zscaler-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zscaler/refs/heads/main/openapi/zscaler-apps-api-openapi.yml
+  url: https://artifacts.apis.io/zscaler/openapi/zscaler-apps-api-openapi.yml
 - filename: zscaler-posture-api-openapi.yml
   format: yaml
   label: Zscaler Posture API
   slug: zscaler-posture-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zscaler/refs/heads/main/openapi/zscaler-posture-api-openapi.yml
+  url: https://artifacts.apis.io/zscaler/openapi/zscaler-posture-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -66,7 +66,7 @@ source_filename: zscaler-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.zscaler.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 24 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: help.zscaler.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 10 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: zsapi.zscaler.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: zscaler.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: zscaler.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zscaler/refs/heads/main/security/zscaler-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zscaler/security/zscaler-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud Security

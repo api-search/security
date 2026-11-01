@@ -5,25 +5,25 @@ api_specs:
   label: CKAN Action API
   slug: ckan-action-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ckan/refs/heads/main/openapi/ckan-action-api-openapi.yml
+  url: https://artifacts.apis.io/ckan/openapi/ckan-action-api-openapi.yml
 - filename: ckan-ckan-api-api-openapi.yml
   format: yaml
   label: CKAN CKAN API
   slug: ckan-ckan-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ckan/refs/heads/main/openapi/ckan-ckan-api-api-openapi.yml
+  url: https://artifacts.apis.io/ckan/openapi/ckan-ckan-api-api-openapi.yml
 - filename: ckan-search-api-openapi.yml
   format: yaml
   label: CKAN Search API
   slug: ckan-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ckan/refs/heads/main/openapi/ckan-search-api-openapi.yml
+  url: https://artifacts.apis.io/ckan/openapi/ckan-search-api-openapi.yml
 - filename: ckan-solr-api-openapi.yml
   format: yaml
   label: CKAN Solr API
   slug: ckan-solr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ckan/refs/heads/main/openapi/ckan-solr-api-openapi.yml
+  url: https://artifacts.apis.io/ckan/openapi/ckan-solr-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,11 +52,11 @@ source_filename: ckan-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ckan.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 24 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: ckan.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ckan/refs/heads/main/security/ckan-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ckan/security/ckan-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Open Source
-- Data-Management
+- Data Management
 - Government
 - Community
 ---

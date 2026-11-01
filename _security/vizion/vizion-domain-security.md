@@ -5,13 +5,13 @@ api_specs:
   label: Vizion References API
   slug: vizion-references-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vizion/refs/heads/main/openapi/vizion-references-api-openapi.yml
+  url: https://artifacts.apis.io/vizion/openapi/vizion-references-api-openapi.yml
 - filename: vizion-updates-api-openapi.yml
   format: yaml
   label: Vizion Updates API
   slug: vizion-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vizion/refs/heads/main/openapi/vizion-updates-api-openapi.yml
+  url: https://artifacts.apis.io/vizion/openapi/vizion-updates-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: vizion-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.vizionapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 10:47:43 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.vizionapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 14:43:51 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: prod.vizionapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 13 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: vizionapi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vizion/refs/heads/main/security/vizion-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vizion/security/vizion-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Container Tracking

@@ -8,37 +8,37 @@ api_specs:
   label: Xerox EULA API
   slug: xerox-eula-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/openapi/xerox-eula-api-openapi.yml
+  url: https://artifacts.apis.io/xerox/openapi/xerox-eula-api-openapi.yml
 - filename: xerox-jobs-api-openapi.yml
   format: yaml
   label: Xerox Jobs API
   slug: xerox-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/openapi/xerox-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/xerox/openapi/xerox-jobs-api-openapi.yml
 - filename: xerox-provider-types-api-openapi.yml
   format: yaml
   label: Xerox Provider Types API
   slug: xerox-provider-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/openapi/xerox-provider-types-api-openapi.yml
+  url: https://artifacts.apis.io/xerox/openapi/xerox-provider-types-api-openapi.yml
 - filename: xerox-providers-api-openapi.yml
   format: yaml
   label: Xerox Providers API
   slug: xerox-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/openapi/xerox-providers-api-openapi.yml
+  url: https://artifacts.apis.io/xerox/openapi/xerox-providers-api-openapi.yml
 - filename: xerox-sites-api-openapi.yml
   format: yaml
   label: Xerox Sites API
   slug: xerox-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/openapi/xerox-sites-api-openapi.yml
+  url: https://artifacts.apis.io/xerox/openapi/xerox-sites-api-openapi.yml
 - filename: xerox-status-api-openapi.yml
   format: yaml
   label: Xerox Status API
   slug: xerox-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/openapi/xerox-status-api-openapi.yml
+  url: https://artifacts.apis.io/xerox/openapi/xerox-status-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -80,7 +80,7 @@ source_filename: xerox-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/xerox-public-print-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: xrxauth\n  type: apiKey\n  in: header\n  parameter: xrxauth\n  description: Xerox authentication credentials\n  sources:\n  - openapi/xerox-public-print-openapi.yml\n- name: userEmail\n  type: apiKey\n  in: header\n  parameter: user-email\n  description: User email address for user-context requests\n  sources:\n  - openapi/xerox-public-print-openapi.yml\n- name: appId\n  type: apiKey\n  in: header\n  parameter: appid\n  description: Application identifier\n  sources:\n  - openapi/xerox-public-print-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/authentication/xerox-authentication.yml
+source_yaml_url: https://artifacts.apis.io/xerox/authentication/xerox-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - Document Management

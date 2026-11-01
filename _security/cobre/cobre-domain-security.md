@@ -5,7 +5,7 @@ api_specs:
   label: Cobre Platform API
   slug: cobre-platform-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/asyncapi/cobre-events-asyncapi.yml
+  url: https://artifacts.apis.io/cobre/asyncapi/cobre-events-asyncapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: cobre-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cobre.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 21:03:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.cobre.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 29 00:03:50 2026 GMT\n  hsts: false\n- host: api.cobre.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 18:50:19 2026 GMT\n  hsts: null\ndomains:\n- domain: cobre.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: cobre.co\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/security/cobre-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cobre/security/cobre-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

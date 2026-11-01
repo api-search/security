@@ -5,55 +5,55 @@ api_specs:
   label: Price Lab Authentication API
   slug: price-lab-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/openapi/price-lab-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/price-lab/openapi/price-lab-authentication-api-openapi.yml
 - filename: price-lab-categories-api-openapi.yml
   format: yaml
   label: Price Lab Categories API
   slug: price-lab-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/openapi/price-lab-categories-api-openapi.yml
+  url: https://artifacts.apis.io/price-lab/openapi/price-lab-categories-api-openapi.yml
 - filename: price-lab-competitor-pricing-api-openapi.yml
   format: yaml
   label: Price Lab Competitor Pricing API
   slug: price-lab-competitor-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/openapi/price-lab-competitor-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/price-lab/openapi/price-lab-competitor-pricing-api-openapi.yml
 - filename: price-lab-data-import-api-openapi.yml
   format: yaml
   label: Price Lab Data Import API
   slug: price-lab-data-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/openapi/price-lab-data-import-api-openapi.yml
+  url: https://artifacts.apis.io/price-lab/openapi/price-lab-data-import-api-openapi.yml
 - filename: price-lab-electronic-price-tags-api-openapi.yml
   format: yaml
   label: Price Lab Electronic Price Tags API
   slug: price-lab-electronic-price-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/openapi/price-lab-electronic-price-tags-api-openapi.yml
+  url: https://artifacts.apis.io/price-lab/openapi/price-lab-electronic-price-tags-api-openapi.yml
 - filename: price-lab-price-management-api-openapi.yml
   format: yaml
   label: Price Lab Price Management API
   slug: price-lab-price-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/openapi/price-lab-price-management-api-openapi.yml
+  url: https://artifacts.apis.io/price-lab/openapi/price-lab-price-management-api-openapi.yml
 - filename: price-lab-products-api-openapi.yml
   format: yaml
   label: Price Lab Products API
   slug: price-lab-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/openapi/price-lab-products-api-openapi.yml
+  url: https://artifacts.apis.io/price-lab/openapi/price-lab-products-api-openapi.yml
 - filename: price-lab-recommendations-api-openapi.yml
   format: yaml
   label: Price Lab Recommendations API
   slug: price-lab-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/openapi/price-lab-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/price-lab/openapi/price-lab-recommendations-api-openapi.yml
 - filename: price-lab-users-api-openapi.yml
   format: yaml
   label: Price Lab Users API
   slug: price-lab-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/openapi/price-lab-users-api-openapi.yml
+  url: https://artifacts.apis.io/price-lab/openapi/price-lab-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -99,7 +99,7 @@ source_filename: price-lab-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pricelabsolutions.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 12:18:30 2026 GMT\n  hsts: false\n- host: price-lab.readme.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 13:12:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: backend.pricelab.com.pe\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 12:54:17 2026 GMT\n  hsts: null\ndomains:\n- domain: pricelabsolutions.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: readme.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/security/price-lab-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/price-lab/security/price-lab-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

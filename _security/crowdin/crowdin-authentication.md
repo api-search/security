@@ -7,43 +7,43 @@ api_specs:
   label: Crowdin Files API
   slug: crowdin-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowdin/refs/heads/main/openapi/crowdin-files-api-openapi.yml
+  url: https://artifacts.apis.io/crowdin/openapi/crowdin-files-api-openapi.yml
 - filename: crowdin-glossaries-api-openapi.yml
   format: yaml
   label: Crowdin Glossaries API
   slug: crowdin-glossaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowdin/refs/heads/main/openapi/crowdin-glossaries-api-openapi.yml
+  url: https://artifacts.apis.io/crowdin/openapi/crowdin-glossaries-api-openapi.yml
 - filename: crowdin-projects-api-openapi.yml
   format: yaml
   label: Crowdin Projects API
   slug: crowdin-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowdin/refs/heads/main/openapi/crowdin-projects-api-openapi.yml
+  url: https://artifacts.apis.io/crowdin/openapi/crowdin-projects-api-openapi.yml
 - filename: crowdin-screenshots-api-openapi.yml
   format: yaml
   label: Crowdin Screenshots API
   slug: crowdin-screenshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowdin/refs/heads/main/openapi/crowdin-screenshots-api-openapi.yml
+  url: https://artifacts.apis.io/crowdin/openapi/crowdin-screenshots-api-openapi.yml
 - filename: crowdin-sourcestrings-api-openapi.yml
   format: yaml
   label: Crowdin SourceStrings API
   slug: crowdin-sourcestrings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowdin/refs/heads/main/openapi/crowdin-sourcestrings-api-openapi.yml
+  url: https://artifacts.apis.io/crowdin/openapi/crowdin-sourcestrings-api-openapi.yml
 - filename: crowdin-stringtranslations-api-openapi.yml
   format: yaml
   label: Crowdin StringTranslations API
   slug: crowdin-stringtranslations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowdin/refs/heads/main/openapi/crowdin-stringtranslations-api-openapi.yml
+  url: https://artifacts.apis.io/crowdin/openapi/crowdin-stringtranslations-api-openapi.yml
 - filename: crowdin-webhooks-api-openapi.yml
   format: yaml
   label: Crowdin Webhooks API
   slug: crowdin-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowdin/refs/heads/main/openapi/crowdin-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/crowdin/openapi/crowdin-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -71,7 +71,7 @@ source_filename: crowdin-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/crowdin-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: PAT\n  description: Personal Access Token or OAuth 2 bearer token\n  sources:\n  - openapi/crowdin-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crowdin/refs/heads/main/authentication/crowdin-authentication.yml
+source_yaml_url: https://artifacts.apis.io/crowdin/authentication/crowdin-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Localization

@@ -9,25 +9,25 @@ api_specs:
   label: FastForex Admin API
   slug: fastforex-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastforex/refs/heads/main/openapi/fastforex-admin-api-openapi.yml
+  url: https://artifacts.apis.io/fastforex/openapi/fastforex-admin-api-openapi.yml
 - filename: fastforex-crypto-api-openapi.yml
   format: yaml
   label: FastForex Crypto API
   slug: fastforex-crypto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastforex/refs/heads/main/openapi/fastforex-crypto-api-openapi.yml
+  url: https://artifacts.apis.io/fastforex/openapi/fastforex-crypto-api-openapi.yml
 - filename: fastforex-currency-api-openapi.yml
   format: yaml
   label: FastForex Currency API
   slug: fastforex-currency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastforex/refs/heads/main/openapi/fastforex-currency-api-openapi.yml
+  url: https://artifacts.apis.io/fastforex/openapi/fastforex-currency-api-openapi.yml
 - filename: fastforex-fx-api-openapi.yml
   format: yaml
   label: FastForex Fx API
   slug: fastforex-fx-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastforex/refs/heads/main/openapi/fastforex-fx-api-openapi.yml
+  url: https://artifacts.apis.io/fastforex/openapi/fastforex-fx-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -72,7 +72,7 @@ source_filename: fastforex-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yaml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: api_key\n  type: apiKey\n  in: query\n  parameter: api_key\n  sources:\n  - openapi/openapi.yaml\n- name: apiKeyHeader\n  type: apiKey\n  in: header\n  parameter: X-API-KEY\n  sources:\n  - openapi/openapi.yaml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: api_key\n  sources:\n  - openapi/openapi.yaml\n- name: basicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fastforex/refs/heads/main/authentication/fastforex-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fastforex/authentication/fastforex-authentication.yml
 summary_line: apiKey/http · 4 schemes
 tags:
 - Foreign Exchange

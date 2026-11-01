@@ -5,13 +5,13 @@ api_specs:
   label: Sunrise Atelier Ip API
   slug: sunrise-atelier-ip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sunrise-atelier/refs/heads/main/openapi/sunrise-atelier-ip-api-openapi.yml
+  url: https://artifacts.apis.io/sunrise-atelier/openapi/sunrise-atelier-ip-api-openapi.yml
 - filename: sunrise-atelier-timezone-api-openapi.yml
   format: yaml
   label: Sunrise Atelier Timezone API
   slug: sunrise-atelier-timezone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sunrise-atelier/refs/heads/main/openapi/sunrise-atelier-timezone-api-openapi.yml
+  url: https://artifacts.apis.io/sunrise-atelier/openapi/sunrise-atelier-timezone-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -49,7 +49,7 @@ source_filename: sunrise-atelier-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sunrise.am\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 12:05:32 2026 GMT\n  hsts: false\n- host: time.now\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 12:02:51 2026 GMT\n  hsts: false\ndomains:\n- domain: sunrise.am\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: time.now\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sunrise-atelier/refs/heads/main/security/sunrise-atelier-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sunrise-atelier/security/sunrise-atelier-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

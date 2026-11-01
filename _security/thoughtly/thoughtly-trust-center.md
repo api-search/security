@@ -5,25 +5,25 @@ api_specs:
   label: Thoughtly Agent API
   slug: thoughtly-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/openapi/thoughtly-agent-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtly/openapi/thoughtly-agent-api-openapi.yml
 - filename: thoughtly-contact-api-openapi.yml
   format: yaml
   label: Thoughtly Contact API
   slug: thoughtly-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/openapi/thoughtly-contact-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtly/openapi/thoughtly-contact-api-openapi.yml
 - filename: thoughtly-user-api-openapi.yml
   format: yaml
   label: Thoughtly User API
   slug: thoughtly-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/openapi/thoughtly-user-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtly/openapi/thoughtly-user-api-openapi.yml
 - filename: thoughtly-webhooks-api-openapi.yml
   format: yaml
   label: Thoughtly Webhooks API
   slug: thoughtly-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/openapi/thoughtly-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtly/openapi/thoughtly-webhooks-api-openapi.yml
 certification_count: 0
 certifications: []
 description: ''
@@ -39,7 +39,7 @@ source_filename: thoughtly-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.thoughtly.com/\nurl: https://trust.thoughtly.com/\nevidence:\n- source: https://trust.thoughtly.com/\n  keywords:\n  - trust center\n  - compliance certification\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/security/thoughtly-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/thoughtly/security/thoughtly-trust-center.yml
 summary_line: trust center published
 tags:
 - Voice AI

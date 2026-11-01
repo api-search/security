@@ -9,43 +9,43 @@ api_specs:
   label: Brandwatch Client API
   slug: brandwatch-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/openapi/brandwatch-client-api-openapi.yml
+  url: https://artifacts.apis.io/brandwatch/openapi/brandwatch-client-api-openapi.yml
 - filename: brandwatch-data-api-openapi.yml
   format: yaml
   label: Brandwatch Data API
   slug: brandwatch-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/openapi/brandwatch-data-api-openapi.yml
+  url: https://artifacts.apis.io/brandwatch/openapi/brandwatch-data-api-openapi.yml
 - filename: brandwatch-me-api-openapi.yml
   format: yaml
   label: Brandwatch Me API
   slug: brandwatch-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/openapi/brandwatch-me-api-openapi.yml
+  url: https://artifacts.apis.io/brandwatch/openapi/brandwatch-me-api-openapi.yml
 - filename: brandwatch-project-api-openapi.yml
   format: yaml
   label: Brandwatch Project API
   slug: brandwatch-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/openapi/brandwatch-project-api-openapi.yml
+  url: https://artifacts.apis.io/brandwatch/openapi/brandwatch-project-api-openapi.yml
 - filename: brandwatch-projects-api-openapi.yml
   format: yaml
   label: Brandwatch Projects API
   slug: brandwatch-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/openapi/brandwatch-projects-api-openapi.yml
+  url: https://artifacts.apis.io/brandwatch/openapi/brandwatch-projects-api-openapi.yml
 - filename: brandwatch-user-api-openapi.yml
   format: yaml
   label: Brandwatch User API
   slug: brandwatch-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/openapi/brandwatch-user-api-openapi.yml
+  url: https://artifacts.apis.io/brandwatch/openapi/brandwatch-user-api-openapi.yml
 - filename: brandwatch-oauth-api-openapi.yml
   format: yaml
   label: Brandwatch OAUTH API
   slug: brandwatch-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/openapi/brandwatch-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/brandwatch/openapi/brandwatch-oauth-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/brandwa
   \ request.\nschemes:\n  - name: bearer-token\n    type: http\n    scheme: bearer\n    parameter: Authorization\n    format: 'Authorization: bearer <ACCESS_TOKEN>'\n    sources:\n      - https://developers.brandwatch.com/docs/authenticate\n      - openapi/brandwatch-consumer-research-authentication-openapi.yml\n    note: >-\n      The spec models this as `type: apiKey, in: header, name: Authorization`\n      with `x-bearer-format: bearer`; the docs describe the same thing as a\n      bearer token.\n  - name: access-token-query-parameter\n    type: apiKey\n    in: query\n    parameter: access_token\n    sources:\n      - https://developers.brandwatch.com/docs/authenticate\n    note: >-\n      The docs explicitly permit passing the token in the URL as\n      `&access_token=[ACCESS TOKEN]`. This is a real published alternative and\n      it is a weakness worth flagging: tokens in query strings leak into proxy\n      logs, browser history and Referer headers, and these tokens are valid for\n\
   \      a year by default.\n  - name: oauth2-token-endpoint\n    type: oauth2\n    flows:\n      - flow: password\n        tokenUrl: https://api.brandwatch.com/oauth/token\n        grant_type: api-password\n        client_id: brandwatch-api-client\n        scopes_returned:\n          - read\n          - trust\n          - write\n    sources:\n      - https://developers.brandwatch.com/docs/authenticate\n      - openapi/brandwatch-consumer-research-openapi.yml\n    note: >-\n      The published spec declares `clientCredentials` with\n      `tokenUrl: https://example.com/oauth2/token` — a ReadMe scaffold default\n      that was never filled in. The real endpoint and grant, per the provider's\n      own authentication page, are recorded above. The spec value is left\n      untouched in openapi/; the correction lives here and in\n      overlays/brandwatch-consumer-research-overlay.yaml.\nmulti_tenancy:\n  parameter: platform_client_id\n  applies_to: token request\n  docs: https://developers.brandwatch.com/docs/authenticate\n\
   \  note: >-\n    Accounts using Consumer Research organization switching must pass an\n    additional `platform_client_id` on the token request to bind the token to\n    the right Consumer Research client. The list of valid platform client IDs is\n    not self-service — the docs say to ask Brandwatch support for it.\naccess_prerequisites:\n  - Only \"Regular\" or \"Admin\" Consumer Research users can call the API at all.\n  - The Data Upload API must be enabled per-account by a Customer Success Manager.\n  - The Analysis API is not in standard contracts; it is sold on a cost-per-query basis.\ngaps:\n  - No self-service credential issuance — every path to a token runs through an existing paid seat.\n  - No documented token refresh or revocation endpoint.\n  - No scope selection at token-request time; the token comes back with whatever the user already has.\n  - No mTLS, no OIDC discovery document, no JWKS endpoint published.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/authentication/brandwatch-authentication.yml
+source_yaml_url: https://artifacts.apis.io/brandwatch/authentication/brandwatch-authentication.yml
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - Analytics

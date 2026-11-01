@@ -8,49 +8,49 @@ api_specs:
   label: Scrive Access Control API
   slug: scrive-access-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/openapi/scrive-access-control-api-openapi.yml
+  url: https://artifacts.apis.io/scrive/openapi/scrive-access-control-api-openapi.yml
 - filename: scrive-attachments-api-openapi.yml
   format: yaml
   label: Scrive Attachments API
   slug: scrive-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/openapi/scrive-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/scrive/openapi/scrive-attachments-api-openapi.yml
 - filename: scrive-callbacks-api-openapi.yml
   format: yaml
   label: Scrive Callbacks API
   slug: scrive-callbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/openapi/scrive-callbacks-api-openapi.yml
+  url: https://artifacts.apis.io/scrive/openapi/scrive-callbacks-api-openapi.yml
 - filename: scrive-documents-api-openapi.yml
   format: yaml
   label: Scrive Documents API
   slug: scrive-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/openapi/scrive-documents-api-openapi.yml
+  url: https://artifacts.apis.io/scrive/openapi/scrive-documents-api-openapi.yml
 - filename: scrive-e-id-authentication-api-openapi.yml
   format: yaml
   label: Scrive e-ID Authentication API
   slug: scrive-e-id-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/openapi/scrive-e-id-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/scrive/openapi/scrive-e-id-authentication-api-openapi.yml
 - filename: scrive-monitor-api-openapi.yml
   format: yaml
   label: Scrive Monitor API
   slug: scrive-monitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/openapi/scrive-monitor-api-openapi.yml
+  url: https://artifacts.apis.io/scrive/openapi/scrive-monitor-api-openapi.yml
 - filename: scrive-signing-api-openapi.yml
   format: yaml
   label: Scrive Signing API
   slug: scrive-signing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/openapi/scrive-signing-api-openapi.yml
+  url: https://artifacts.apis.io/scrive/openapi/scrive-signing-api-openapi.yml
 - filename: scrive-templates-api-openapi.yml
   format: yaml
   label: Scrive Templates API
   slug: scrive-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/openapi/scrive-templates-api-openapi.yml
+  url: https://artifacts.apis.io/scrive/openapi/scrive-templates-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -89,7 +89,7 @@ source_filename: scrive-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/scrive-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth2.scrive.com/oauth2/authorization\n    tokenUrl: https://oauth2.scrive.com/oauth2/token\n    scopes: 6\n  sources:\n  - openapi/scrive-openapi.yml\n- name: oauth1\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: OAuth 1.0 or personal access credentials passed in the Authorization header using\n    PLAINTEXT signatures (oauth_consumer_key, oauth_token, oauth_signature).\n  sources:\n  - openapi/scrive-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/authentication/scrive-authentication.yml
+source_yaml_url: https://artifacts.apis.io/scrive/authentication/scrive-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - E-Signature

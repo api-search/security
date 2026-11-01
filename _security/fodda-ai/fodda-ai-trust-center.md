@@ -5,109 +5,109 @@ api_specs:
   label: Fodda (PSFK) Accounts API
   slug: fodda-ai-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-accounts-api-openapi.yml
 - filename: fodda-ai-admin-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Admin API
   slug: fodda-ai-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-admin-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-admin-api-openapi.yml
 - filename: fodda-ai-analysts-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Analysts API
   slug: fodda-ai-analysts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-analysts-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-analysts-api-openapi.yml
 - filename: fodda-ai-brand-intelligence-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Brand Intelligence API
   slug: fodda-ai-brand-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-brand-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-brand-intelligence-api-openapi.yml
 - filename: fodda-ai-context-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Context API
   slug: fodda-ai-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-context-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-context-api-openapi.yml
 - filename: fodda-ai-copilot-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Copilot API
   slug: fodda-ai-copilot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-copilot-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-copilot-api-openapi.yml
 - filename: fodda-ai-graph-slice-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Graph Slice API
   slug: fodda-ai-graph-slice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-graph-slice-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-graph-slice-api-openapi.yml
 - filename: fodda-ai-graphs-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Graphs API
   slug: fodda-ai-graphs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-graphs-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-graphs-api-openapi.yml
 - filename: fodda-ai-health-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Health API
   slug: fodda-ai-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-health-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-health-api-openapi.yml
 - filename: fodda-ai-log-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Log API
   slug: fodda-ai-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-log-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-log-api-openapi.yml
 - filename: fodda-ai-offerings-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Offerings API
   slug: fodda-ai-offerings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-offerings-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-offerings-api-openapi.yml
 - filename: fodda-ai-psfk-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Psfk API
   slug: fodda-ai-psfk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-psfk-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-psfk-api-openapi.yml
 - filename: fodda-ai-research-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Research API
   slug: fodda-ai-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-research-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-research-api-openapi.yml
 - filename: fodda-ai-search-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Search API
   slug: fodda-ai-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-search-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-search-api-openapi.yml
 - filename: fodda-ai-sources-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Sources API
   slug: fodda-ai-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-sources-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-sources-api-openapi.yml
 - filename: fodda-ai-spt-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Spt API
   slug: fodda-ai-spt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-spt-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-spt-api-openapi.yml
 - filename: fodda-ai-supplemental-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Supplemental API
   slug: fodda-ai-supplemental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-supplemental-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-supplemental-api-openapi.yml
 - filename: fodda-ai-user-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) User API
   slug: fodda-ai-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-user-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-user-api-openapi.yml
 certification_count: 0
 certifications: []
 description: ''
@@ -127,7 +127,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://www.fod
   \    (graceful model degradation error bounds).'\n- framework: NIST AI RMF\n  status: alignment\n  url: https://www.fodda.ai/compliance-dossier\n- framework: NIST CSF 2.0\n  status: program aligned\n  url: https://www.fodda.ai/blog/security-refresh-2026\n  date: '2026-02-12'\n- framework: SOC 2 Type II\n  status: readiness roadmap — target Q4 2026\n  url: https://www.fodda.ai/blog/security-refresh-2026\ndelegated_assurance:\n- vendor: Clerk\n  role: identity / authorization server (clerk.fodda.ai)\n  claim: no password custody, SOC 2 Type 2 held since May 2022\n  source: https://www.fodda.ai/compliance-dossier\n- vendor: Google Cloud Platform\n  role: 'hosting (Cloud Run / App Engine — server: Google Frontend)'\n  source: https://www.fodda.ai/blog/security-refresh-2026\n- vendor: Stripe\n  role: payments and Shared Payment Tokens\n  source: https://www.fodda.ai/llms.txt\ndata_handling:\n  retention: Query text retained in an internal usage ledger for 12 months for billing and telemetry,\
   \ then purged;\n    result text is not retained.\n  training: Zero model training on client data.\n  options: Zero-retention query logging (in-memory execution), pseudonymous identifiers, and 30-day termination\n    purge available as standard/negotiated contract options.\n  isolation: Per-graph and per-tenant isolation enforced at the API layer (SECURITY_SUMMARY.md); tenant isolation\n    architecture (blog).\n  encryption: TLS 1.2+ in transit (SECURITY_SUMMARY.md); TLS 1.3 observed (security/fodda-ai-domain-security.yml).\n  deployment_options: 'Model B: MCP proxy hosted in the customer''s own Google Cloud project; /enterprises advertises\n    air-gapped on-premise deployments.'\ncontacts:\n  security: security@fodda.ai\n  compliance: compliance@fodda.ai\n  privacy: privacy@fodda.ai\n  legal: legal@fodda.ai\nrelated_documents:\n- name: Security & Procurement Summary\n  url: https://github.com/piers-fawkes/fodda-mcp/blob/main/SECURITY_SUMMARY.md\n- name: Security Pack\n  url: https://github.com/piers-fawkes/fodda-mcp/blob/main/SECURITY_PACK.md\n\
   - name: Enterprise MCP Setup\n  url: https://github.com/piers-fawkes/fodda-mcp/blob/main/Enterprise_MCP_Setup.md\npointer_basis: 'TrustCenter: the dossier is a real procurement-facing governance page. Compliance: a published,\n  framework-mapped compliance program (ISO 42001 Annex A, NIST) — NOT a certification; readers should not infer\n  SOC 2 / ISO certification from the pointer.'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/security/fodda-ai-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/fodda-ai/security/fodda-ai-trust-center.yml
 summary_line: trust center published
 tags:
 - Market Intelligence

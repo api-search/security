@@ -5,31 +5,31 @@ api_specs:
   label: University of Maryland College Park Art API
   slug: university-of-maryland-college-park-art-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-art-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-maryland-college-park/openapi/university-of-maryland-college-park-art-api-openapi.yml
 - filename: university-of-maryland-college-park-makerspace-api-openapi.yml
   format: yaml
   label: University of Maryland College Park Makerspace API
   slug: university-of-maryland-college-park-makerspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-makerspace-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-maryland-college-park/openapi/university-of-maryland-college-park-makerspace-api-openapi.yml
 - filename: university-of-maryland-college-park-mckeldin-api-openapi.yml
   format: yaml
   label: University of Maryland College Park Mckeldin API
   slug: university-of-maryland-college-park-mckeldin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-mckeldin-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-maryland-college-park/openapi/university-of-maryland-college-park-mckeldin-api-openapi.yml
 - filename: university-of-maryland-college-park-mspal-api-openapi.yml
   format: yaml
   label: University of Maryland College Park Mspal API
   slug: university-of-maryland-college-park-mspal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-mspal-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-maryland-college-park/openapi/university-of-maryland-college-park-mspal-api-openapi.yml
 - filename: university-of-maryland-college-park-stem-api-openapi.yml
   format: yaml
   label: University of Maryland College Park Stem API
   slug: university-of-maryland-college-park-stem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-stem-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-maryland-college-park/openapi/university-of-maryland-college-park-stem-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -74,7 +74,7 @@ source_filename: university-of-maryland-college-park-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.umd.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 09:15:13 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: beta.umd.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 06:00:19 2026 GMT\n  hsts: false\n- host: api.umd.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 22 02:55:14 2026 GMT\n  hsts: false\ndomains:\n- domain: umd.edu\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: umd.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/security/university-of-maryland-college-park-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/university-of-maryland-college-park/security/university-of-maryland-college-park-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - University

@@ -7,43 +7,43 @@ api_specs:
   label: Summerland Bank Banking Account Balances API
   slug: summerland-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/openapi/summerland-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/summerland-bank/openapi/summerland-bank-banking-account-balances-api-openapi.yml
 - filename: summerland-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Summerland Bank Banking Account Direct Debits API
   slug: summerland-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/openapi/summerland-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/summerland-bank/openapi/summerland-bank-banking-account-direct-debits-api-openapi.yml
 - filename: summerland-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Summerland Bank Banking Account Scheduled Payments API
   slug: summerland-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/openapi/summerland-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/summerland-bank/openapi/summerland-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: summerland-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Summerland Bank Banking Account Transactions API
   slug: summerland-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/openapi/summerland-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/summerland-bank/openapi/summerland-bank-banking-account-transactions-api-openapi.yml
 - filename: summerland-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Summerland Bank Banking Accounts API
   slug: summerland-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/openapi/summerland-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/summerland-bank/openapi/summerland-bank-banking-accounts-api-openapi.yml
 - filename: summerland-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Summerland Bank Banking Payees API
   slug: summerland-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/openapi/summerland-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/summerland-bank/openapi/summerland-bank-banking-payees-api-openapi.yml
 - filename: summerland-bank-banking-products-api-openapi.yml
   format: yaml
   label: Summerland Bank Banking Products API
   slug: summerland-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/openapi/summerland-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/summerland-bank/openapi/summerland-bank-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -70,7 +70,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://www.summerland.com.au/services/digital-and-payments/open-banking/\nnotes: >-\n  The harvested OpenAPI is the shared DSB Consumer Data Standards Banking API\n  contract, which declares no securitySchemes of its own; authentication for the\n  Consumer Data Right is defined by the separate CDR information security (InfoSec)\n  profile, not the resource-endpoint spec. Summerland Bank operates two distinct\n  auth postures, captured below.\nsummary:\n  types: [none, oauth2, openIdConnect, mutualTLS]\n  api_key_in: []\n  oauth2_flows: [authorizationCode]\nsurfaces:\n  - name: Public Product Reference Data (PRD)\n    base_url: https://public.cdr-api.summerland.com.au/cds-au/v1\n    auth: none\n    description: >-\n      GET /banking/products and GET /banking/products/{productId} are public and\n      unauthenticated per the CDR PRD requirement. No API key, token, or client\n      registration is required; only the mandatory\
   \ CDS `x-v` version header must\n      be supplied. Confirmed live 2026-07-20 (HTTP 200, x-v 5, 25 products).\n    operations: [listBankingProducts, getBankingProductDetail]\n  - name: Consumer data sharing (accredited data recipients)\n    base_url: https://mtls.dh.example.com/cds-au/v1\n    auth: oauth2 + openIdConnect + mutualTLS\n    profile: CDR InfoSec profile (FAPI 1.0 Advanced, OIDC Hybrid/PKCE, MTLS-bound tokens, JARM/PAR)\n    description: >-\n      Account, balance, transaction, direct-debit, scheduled-payment and payee\n      endpoints require an OAuth2 / OpenID Connect access token obtained by an\n      ACCC-accredited data recipient (ADR) under CDR consent, bound to the client\n      via mutual TLS. Not exposed as an open developer API; accessed by eligible\n      customers through the Summerland Bank app / internet banking. Governed by\n      the ACCC/OAIC and the DSB Consumer Data Standards security profile.\n    docs: https://consumerdatastandardsaustralia.github.io/standards/#security-profile\n\
   schemes: []\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/authentication/summerland-bank-authentication.yml
+source_yaml_url: https://artifacts.apis.io/summerland-bank/authentication/summerland-bank-authentication.yml
 summary_line: none/oauth2/openIdConnect/mutualTLS · 0 schemes
 tags:
 - Finance

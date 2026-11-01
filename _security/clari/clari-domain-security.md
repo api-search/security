@@ -5,91 +5,91 @@ api_specs:
   label: Clari Activity API
   slug: clari-activity-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-activity-api-api-openapi.yml
+  url: https://artifacts.apis.io/clari/openapi/clari-activity-api-api-openapi.yml
 - filename: clari-administrative-api-api-openapi.yml
   format: yaml
   label: Clari Administrative API
   slug: clari-administrative-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-administrative-api-api-openapi.yml
+  url: https://artifacts.apis.io/clari/openapi/clari-administrative-api-api-openapi.yml
 - filename: clari-audit-api-api-openapi.yml
   format: yaml
   label: Clari Audit API
   slug: clari-audit-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-audit-api-api-openapi.yml
+  url: https://artifacts.apis.io/clari/openapi/clari-audit-api-api-openapi.yml
 - filename: clari-bulk-export-framework-api-openapi.yml
   format: yaml
   label: Clari Bulk Export Framework API
   slug: clari-bulk-export-framework-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-bulk-export-framework-api-openapi.yml
+  url: https://artifacts.apis.io/clari/openapi/clari-bulk-export-framework-api-openapi.yml
 - filename: clari-bulk-ingest-job-status-api-api-openapi.yml
   format: yaml
   label: Clari Bulk Ingest Job Status API
   slug: clari-bulk-ingest-job-status-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-bulk-ingest-job-status-api-api-openapi.yml
+  url: https://artifacts.apis.io/clari/openapi/clari-bulk-ingest-job-status-api-api-openapi.yml
 - filename: clari-forecast-api-api-openapi.yml
   format: yaml
   label: Clari Forecast API
   slug: clari-forecast-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-forecast-api-api-openapi.yml
+  url: https://artifacts.apis.io/clari/openapi/clari-forecast-api-api-openapi.yml
 - filename: clari-ingestion-api-api-openapi.yml
   format: yaml
   label: Clari Ingestion API
   slug: clari-ingestion-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-ingestion-api-api-openapi.yml
+  url: https://artifacts.apis.io/clari/openapi/clari-ingestion-api-api-openapi.yml
 - filename: clari-opportunity-api-api-openapi.yml
   format: yaml
   label: Clari Opportunity API
   slug: clari-opportunity-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-opportunity-api-api-openapi.yml
+  url: https://artifacts.apis.io/clari/openapi/clari-opportunity-api-api-openapi.yml
 - filename: clari-account-api-openapi.yml
   format: yaml
   label: Clari Account API
   slug: clari-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-account-api-openapi.yml
+  url: https://artifacts.apis.io/clari/openapi/clari-account-api-openapi.yml
 - filename: clari-call-api-openapi.yml
   format: yaml
   label: Clari Call API
   slug: clari-call-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-call-api-openapi.yml
+  url: https://artifacts.apis.io/clari/openapi/clari-call-api-openapi.yml
 - filename: clari-contact-api-openapi.yml
   format: yaml
   label: Clari Contact API
   slug: clari-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-contact-api-openapi.yml
+  url: https://artifacts.apis.io/clari/openapi/clari-contact-api-openapi.yml
 - filename: clari-deal-api-openapi.yml
   format: yaml
   label: Clari Deal API
   slug: clari-deal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-deal-api-openapi.yml
+  url: https://artifacts.apis.io/clari/openapi/clari-deal-api-openapi.yml
 - filename: clari-scorecard-api-openapi.yml
   format: yaml
   label: Clari Scorecard API
   slug: clari-scorecard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-scorecard-api-openapi.yml
+  url: https://artifacts.apis.io/clari/openapi/clari-scorecard-api-openapi.yml
 - filename: clari-topics-api-openapi.yml
   format: yaml
   label: Clari Topics API
   slug: clari-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-topics-api-openapi.yml
+  url: https://artifacts.apis.io/clari/openapi/clari-topics-api-openapi.yml
 - filename: clari-user-api-openapi.yml
   format: yaml
   label: Clari User API
   slug: clari-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-user-api-openapi.yml
+  url: https://artifacts.apis.io/clari/openapi/clari-user-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -128,7 +128,7 @@ source_filename: clari-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.clari.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 16:41:18 2026 GMT\n  hsts: false\n- host: api-doc.copilot.clari.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 23:59:59 2026 GMT\n  hsts: false\n- host: rest-api.copilot.clari.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: clari.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/security/clari-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/clari/security/clari-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Revenue Operations

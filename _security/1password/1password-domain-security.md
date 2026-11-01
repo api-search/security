@@ -5,67 +5,121 @@ api_specs:
   label: 1Password Accounts API
   slug: 1password-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/openapi/1password-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/1password/openapi/1password-accounts-api-openapi.yml
 - filename: 1password-activity-api-openapi.yml
   format: yaml
   label: 1Password Activity API
   slug: 1password-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/openapi/1password-activity-api-openapi.yml
+  url: https://artifacts.apis.io/1password/openapi/1password-activity-api-openapi.yml
 - filename: 1password-audit-events-api-openapi.yml
   format: yaml
   label: 1Password Audit Events API
   slug: 1password-audit-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/openapi/1password-audit-events-api-openapi.yml
+  url: https://artifacts.apis.io/1password/openapi/1password-audit-events-api-openapi.yml
 - filename: 1password-files-api-openapi.yml
   format: yaml
   label: 1Password Files API
   slug: 1password-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/openapi/1password-files-api-openapi.yml
+  url: https://artifacts.apis.io/1password/openapi/1password-files-api-openapi.yml
 - filename: 1password-health-api-openapi.yml
   format: yaml
   label: 1Password Health API
   slug: 1password-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/openapi/1password-health-api-openapi.yml
+  url: https://artifacts.apis.io/1password/openapi/1password-health-api-openapi.yml
 - filename: 1password-introspection-api-openapi.yml
   format: yaml
   label: 1Password Introspection API
   slug: 1password-introspection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/openapi/1password-introspection-api-openapi.yml
+  url: https://artifacts.apis.io/1password/openapi/1password-introspection-api-openapi.yml
 - filename: 1password-item-usages-api-openapi.yml
   format: yaml
   label: 1Password Item Usages API
   slug: 1password-item-usages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/openapi/1password-item-usages-api-openapi.yml
+  url: https://artifacts.apis.io/1password/openapi/1password-item-usages-api-openapi.yml
 - filename: 1password-items-api-openapi.yml
   format: yaml
   label: 1Password Items API
   slug: 1password-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/openapi/1password-items-api-openapi.yml
+  url: https://artifacts.apis.io/1password/openapi/1password-items-api-openapi.yml
 - filename: 1password-metrics-api-openapi.yml
   format: yaml
   label: 1Password Metrics API
   slug: 1password-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/openapi/1password-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/1password/openapi/1password-metrics-api-openapi.yml
 - filename: 1password-sign-in-attempts-api-openapi.yml
   format: yaml
   label: 1Password Sign-In Attempts API
   slug: 1password-sign-in-attempts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/openapi/1password-sign-in-attempts-api-openapi.yml
+  url: https://artifacts.apis.io/1password/openapi/1password-sign-in-attempts-api-openapi.yml
 - filename: 1password-vaults-api-openapi.yml
   format: yaml
   label: 1Password Vaults API
   slug: 1password-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/openapi/1password-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/1password/openapi/1password-vaults-api-openapi.yml
+- filename: 1password-applications-api-openapi.yml
+  format: yaml
+  label: 1Password Applications API
+  slug: 1password-applications-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/1password/openapi/1password-applications-api-openapi.yml
+- filename: 1password-audit-log-api-openapi.yml
+  format: yaml
+  label: 1Password Audit log API
+  slug: 1password-audit-log-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/1password/openapi/1password-audit-log-api-openapi.yml
+- filename: 1password-authentication-api-openapi.yml
+  format: yaml
+  label: 1Password Authentication API
+  slug: 1password-authentication-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/1password/openapi/1password-authentication-api-openapi.yml
+- filename: 1password-contracts-api-openapi.yml
+  format: yaml
+  label: 1Password Contracts API
+  slug: 1password-contracts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/1password/openapi/1password-contracts-api-openapi.yml
+- filename: 1password-devices-api-openapi.yml
+  format: yaml
+  label: 1Password Devices API
+  slug: 1password-devices-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/1password/openapi/1password-devices-api-openapi.yml
+- filename: 1password-people-api-openapi.yml
+  format: yaml
+  label: 1Password People API
+  slug: 1password-people-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/1password/openapi/1password-people-api-openapi.yml
+- filename: 1password-scim-api-openapi.yml
+  format: yaml
+  label: 1Password SCIM API
+  slug: 1password-scim-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/1password/openapi/1password-scim-api-openapi.yml
+- filename: 1password-teams-api-openapi.yml
+  format: yaml
+  label: 1Password Teams API
+  slug: 1password-teams-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/1password/openapi/1password-teams-api-openapi.yml
+- filename: 1password-workflows-api-openapi.yml
+  format: yaml
+  label: 1Password Workflows API
+  slug: 1password-workflows-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/1password/openapi/1password-workflows-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -112,7 +166,7 @@ source_filename: 1password-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: 1password.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 13:45:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.1password.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: events.1password.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 20 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: 1password.com\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:alerts+caa@agilebits.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/security/1password-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/1password/security/1password-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Password Manager

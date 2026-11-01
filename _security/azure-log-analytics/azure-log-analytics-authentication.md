@@ -8,31 +8,31 @@ api_specs:
   label: Azure Log Analytics Ingestion API
   slug: azure-log-analytics-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/openapi/azure-log-analytics-ingestion-api-openapi.yml
+  url: https://artifacts.apis.io/azure-log-analytics/openapi/azure-log-analytics-ingestion-api-openapi.yml
 - filename: azure-log-analytics-query-api-openapi.yml
   format: yaml
   label: Azure Log Analytics Query API
   slug: azure-log-analytics-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/openapi/azure-log-analytics-query-api-openapi.yml
+  url: https://artifacts.apis.io/azure-log-analytics/openapi/azure-log-analytics-query-api-openapi.yml
 - filename: azure-log-analytics-saved-searches-api-openapi.yml
   format: yaml
   label: Azure Log Analytics Saved Searches API
   slug: azure-log-analytics-saved-searches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/openapi/azure-log-analytics-saved-searches-api-openapi.yml
+  url: https://artifacts.apis.io/azure-log-analytics/openapi/azure-log-analytics-saved-searches-api-openapi.yml
 - filename: azure-log-analytics-tables-api-openapi.yml
   format: yaml
   label: Azure Log Analytics Tables API
   slug: azure-log-analytics-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/openapi/azure-log-analytics-tables-api-openapi.yml
+  url: https://artifacts.apis.io/azure-log-analytics/openapi/azure-log-analytics-tables-api-openapi.yml
 - filename: azure-log-analytics-workspaces-api-openapi.yml
   format: yaml
   label: Azure Log Analytics Workspaces API
   slug: azure-log-analytics-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/openapi/azure-log-analytics-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/azure-log-analytics/openapi/azure-log-analytics-workspaces-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -81,7 +81,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-log-analytics-ingestion-api.yaml, openapi/azure-log-analytics-management-api.yaml,\n  openapi/azure-log-analytics-query-api.yaml\nsummary:\n  types:\n  - apiKey\n  - http\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - implicit\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Microsoft Entra ID OAuth2 Bearer token obtained via client credentials flow.\n    Use scope https://monitor.azure.com/.default for Azure public cloud.\n  sources:\n  - openapi/azure-log-analytics-ingestion-api.yaml\n  - openapi/azure-log-analytics-query-api.yaml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  description: Azure Active Directory OAuth2 implicit flow.\n  sources:\n  - openapi/azure-log-analytics-management-api.yaml\n- name: apiKeyAuth\n  type: apiKey\n\
   \  in: header\n  parameter: X-Api-Key\n  description: API key authentication for the demo workspace only. Use DEMO_KEY with workspace\n    ID DEMO_WORKSPACE for sample data exploration.\n  sources:\n  - openapi/azure-log-analytics-query-api.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/authentication/azure-log-analytics-authentication.yml
+source_yaml_url: https://artifacts.apis.io/azure-log-analytics/authentication/azure-log-analytics-authentication.yml
 summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Analytics

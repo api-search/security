@@ -27,7 +27,7 @@ source_filename: vaunte-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.vaunte.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 14:14:40 2026 GMT\n  hsts: false\ndomains:\n- domain: vaunte.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vaunte/refs/heads/main/security/vaunte-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vaunte/security/vaunte-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

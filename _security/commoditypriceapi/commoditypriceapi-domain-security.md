@@ -5,13 +5,13 @@ api_specs:
   label: CommodityPriceAPI CommodityPriceAPI API
   slug: commoditypriceapi-commoditypriceapi-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commoditypriceapi/refs/heads/main/openapi/commoditypriceapi-commoditypriceapi-api-api-openapi.yml
+  url: https://artifacts.apis.io/commoditypriceapi/openapi/commoditypriceapi-commoditypriceapi-api-api-openapi.yml
 - filename: commoditypriceapi-rates-api-openapi.yml
   format: yaml
   label: CommodityPriceAPI Rates API
   slug: commoditypriceapi-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commoditypriceapi/refs/heads/main/openapi/commoditypriceapi-rates-api-openapi.yml
+  url: https://artifacts.apis.io/commoditypriceapi/openapi/commoditypriceapi-rates-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +40,7 @@ source_filename: commoditypriceapi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-16'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: commoditypriceapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 23:06:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: commoditypriceapi.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/commoditypriceapi/refs/heads/main/security/commoditypriceapi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/commoditypriceapi/security/commoditypriceapi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company

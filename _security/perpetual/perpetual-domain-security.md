@@ -28,7 +28,7 @@ source_filename: perpetual-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: perpetual.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 19:10:41 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: perpetual.com.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/perpetual/refs/heads/main/security/perpetual-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/perpetual/security/perpetual-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

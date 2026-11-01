@@ -5,49 +5,49 @@ api_specs:
   label: Blnk Finance Accounts API
   slug: blnkfinance-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/openapi/blnkfinance-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/blnkfinance/openapi/blnkfinance-accounts-api-openapi.yml
 - filename: blnkfinance-backup-api-openapi.yml
   format: yaml
   label: Blnk Finance Backup API
   slug: blnkfinance-backup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/openapi/blnkfinance-backup-api-openapi.yml
+  url: https://artifacts.apis.io/blnkfinance/openapi/blnkfinance-backup-api-openapi.yml
 - filename: blnkfinance-balance-monitors-api-openapi.yml
   format: yaml
   label: Blnk Finance Balance Monitors API
   slug: blnkfinance-balance-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/openapi/blnkfinance-balance-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/blnkfinance/openapi/blnkfinance-balance-monitors-api-openapi.yml
 - filename: blnkfinance-balances-api-openapi.yml
   format: yaml
   label: Blnk Finance Balances API
   slug: blnkfinance-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/openapi/blnkfinance-balances-api-openapi.yml
+  url: https://artifacts.apis.io/blnkfinance/openapi/blnkfinance-balances-api-openapi.yml
 - filename: blnkfinance-identities-api-openapi.yml
   format: yaml
   label: Blnk Finance Identities API
   slug: blnkfinance-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/openapi/blnkfinance-identities-api-openapi.yml
+  url: https://artifacts.apis.io/blnkfinance/openapi/blnkfinance-identities-api-openapi.yml
 - filename: blnkfinance-ledgers-api-openapi.yml
   format: yaml
   label: Blnk Finance Ledgers API
   slug: blnkfinance-ledgers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/openapi/blnkfinance-ledgers-api-openapi.yml
+  url: https://artifacts.apis.io/blnkfinance/openapi/blnkfinance-ledgers-api-openapi.yml
 - filename: blnkfinance-refund-transaction-api-openapi.yml
   format: yaml
   label: Blnk Finance Refund Transaction API
   slug: blnkfinance-refund-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/openapi/blnkfinance-refund-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/blnkfinance/openapi/blnkfinance-refund-transaction-api-openapi.yml
 - filename: blnkfinance-transactions-api-openapi.yml
   format: yaml
   label: Blnk Finance Transactions API
   slug: blnkfinance-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/openapi/blnkfinance-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/blnkfinance/openapi/blnkfinance-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,13 +82,13 @@ source_filename: blnkfinance-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.blnkfinance.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 19 22:38:01 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.cloud.blnkfinance.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 22:32:59 2026 GMT\n  hsts: null\ndomains:\n- domain: blnkfinance.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/security/blnkfinance-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/blnkfinance/security/blnkfinance-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fintech
 - Financial Services
 - Ledger
-- double-entry-accounting
+- Double-Entry
 - Payments
 - Wallets
 - Lending

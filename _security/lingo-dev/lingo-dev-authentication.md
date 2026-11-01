@@ -8,19 +8,19 @@ api_specs:
   label: Lingo.dev Account API
   slug: lingo-dev-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lingo-dev/refs/heads/main/openapi/lingo-dev-account-api-openapi.yml
+  url: https://artifacts.apis.io/lingo-dev/openapi/lingo-dev-account-api-openapi.yml
 - filename: lingo-dev-asynchronous-api-openapi.yml
   format: yaml
   label: Lingo.dev Asynchronous API
   slug: lingo-dev-asynchronous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lingo-dev/refs/heads/main/openapi/lingo-dev-asynchronous-api-openapi.yml
+  url: https://artifacts.apis.io/lingo-dev/openapi/lingo-dev-asynchronous-api-openapi.yml
 - filename: lingo-dev-synchronous-api-openapi.yml
   format: yaml
   label: Lingo.dev Synchronous API
   slug: lingo-dev-synchronous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lingo-dev/refs/heads/main/openapi/lingo-dev-synchronous-api-openapi.yml
+  url: https://artifacts.apis.io/lingo-dev/openapi/lingo-dev-synchronous-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -47,7 +47,7 @@ source_filename: lingo-dev-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/lingo-dev-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  sources:\n  - openapi/lingo-dev-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lingo-dev/refs/heads/main/authentication/lingo-dev-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lingo-dev/authentication/lingo-dev-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence

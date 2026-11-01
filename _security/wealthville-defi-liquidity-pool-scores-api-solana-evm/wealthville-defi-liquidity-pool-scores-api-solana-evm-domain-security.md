@@ -5,19 +5,19 @@ api_specs:
   label: WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM) Scores API
   slug: wealthville-defi-liquidity-pool-scores-api-solana-evm-scores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthville-defi-liquidity-pool-scores-api-solana-evm/refs/heads/main/openapi/wealthville-defi-liquidity-pool-scores-api-solana-evm-scores-api-openapi.yml
+  url: https://artifacts.apis.io/wealthville-defi-liquidity-pool-scores-api-solana-evm/openapi/wealthville-defi-liquidity-pool-scores-api-solana-evm-scores-api-openapi.yml
 - filename: wealthville-defi-liquidity-pool-scores-api-solana-evm-signals-api-openapi.yml
   format: yaml
   label: WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM) Signals API
   slug: wealthville-defi-liquidity-pool-scores-api-solana-evm-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthville-defi-liquidity-pool-scores-api-solana-evm/refs/heads/main/openapi/wealthville-defi-liquidity-pool-scores-api-solana-evm-signals-api-openapi.yml
+  url: https://artifacts.apis.io/wealthville-defi-liquidity-pool-scores-api-solana-evm/openapi/wealthville-defi-liquidity-pool-scores-api-solana-evm-signals-api-openapi.yml
 - filename: wealthville-defi-liquidity-pool-scores-api-solana-evm-track-record-api-openapi.yml
   format: yaml
   label: WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM) Track Record API
   slug: wealthville-defi-liquidity-pool-scores-api-solana-evm-track-record-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthville-defi-liquidity-pool-scores-api-solana-evm/refs/heads/main/openapi/wealthville-defi-liquidity-pool-scores-api-solana-evm-track-record-api-openapi.yml
+  url: https://artifacts.apis.io/wealthville-defi-liquidity-pool-scores-api-solana-evm/openapi/wealthville-defi-liquidity-pool-scores-api-solana-evm-track-record-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: wealthville-defi-liquidity-pool-scores-api-solana-evm-domain-se
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: wealthville.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 15:22:03 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: wealthville.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wealthville-defi-liquidity-pool-scores-api-solana-evm/refs/heads/main/security/wealthville-defi-liquidity-pool-scores-api-solana-evm-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wealthville-defi-liquidity-pool-scores-api-solana-evm/security/wealthville-defi-liquidity-pool-scores-api-solana-evm-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - DeFi

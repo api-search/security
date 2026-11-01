@@ -39,7 +39,7 @@ source_filename: eindhoven-university-of-technology-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tue.nl\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: research.tue.nl\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 13:03:20 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: pure.tue.nl\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 05:37:14 2026 GMT\n  hsts: null\ndomains:\n- domain: tue.nl\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eindhoven-university-of-technology/refs/heads/main/security/eindhoven-university-of-technology-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/eindhoven-university-of-technology/security/eindhoven-university-of-technology-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - University

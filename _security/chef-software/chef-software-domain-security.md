@@ -5,181 +5,181 @@ api_specs:
   label: Chef Software ApplicationsService API
   slug: chef-software-applicationsservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-applicationsservice-api-openapi.yml
+  url: https://artifacts.apis.io/chef-software/openapi/chef-software-applicationsservice-api-openapi.yml
 - filename: chef-software-authorization-api-openapi.yml
   format: yaml
   label: Chef Software Authorization API
   slug: chef-software-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/chef-software/openapi/chef-software-authorization-api-openapi.yml
 - filename: chef-software-cds-api-openapi.yml
   format: yaml
   label: Chef Software Cds API
   slug: chef-software-cds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-cds-api-openapi.yml
+  url: https://artifacts.apis.io/chef-software/openapi/chef-software-cds-api-openapi.yml
 - filename: chef-software-chefingester-api-openapi.yml
   format: yaml
   label: Chef Software ChefIngester API
   slug: chef-software-chefingester-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-chefingester-api-openapi.yml
+  url: https://artifacts.apis.io/chef-software/openapi/chef-software-chefingester-api-openapi.yml
 - filename: chef-software-comp-assets-api-openapi.yml
   format: yaml
   label: Chef Software Comp_Assets API
   slug: chef-software-comp-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-comp-assets-api-openapi.yml
+  url: https://artifacts.apis.io/chef-software/openapi/chef-software-comp-assets-api-openapi.yml
 - filename: chef-software-configmgmt-api-openapi.yml
   format: yaml
   label: Chef Software ConfigMgmt API
   slug: chef-software-configmgmt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-configmgmt-api-openapi.yml
+  url: https://artifacts.apis.io/chef-software/openapi/chef-software-configmgmt-api-openapi.yml
 - filename: chef-software-datafeedservice-api-openapi.yml
   format: yaml
   label: Chef Software DatafeedService API
   slug: chef-software-datafeedservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-datafeedservice-api-openapi.yml
+  url: https://artifacts.apis.io/chef-software/openapi/chef-software-datafeedservice-api-openapi.yml
 - filename: chef-software-datalifecycle-api-openapi.yml
   format: yaml
   label: Chef Software DataLifecycle API
   slug: chef-software-datalifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-datalifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/chef-software/openapi/chef-software-datalifecycle-api-openapi.yml
 - filename: chef-software-eventfeedservice-api-openapi.yml
   format: yaml
   label: Chef Software EventFeedService API
   slug: chef-software-eventfeedservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-eventfeedservice-api-openapi.yml
+  url: https://artifacts.apis.io/chef-software/openapi/chef-software-eventfeedservice-api-openapi.yml
 - filename: chef-software-hidden-api-openapi.yml
   format: yaml
   label: Chef Software Hidden API
   slug: chef-software-hidden-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-hidden-api-openapi.yml
+  url: https://artifacts.apis.io/chef-software/openapi/chef-software-hidden-api-openapi.yml
 - filename: chef-software-infraproxy-api-openapi.yml
   format: yaml
   label: Chef Software InfraProxy API
   slug: chef-software-infraproxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-infraproxy-api-openapi.yml
+  url: https://artifacts.apis.io/chef-software/openapi/chef-software-infraproxy-api-openapi.yml
 - filename: chef-software-jobsservice-api-openapi.yml
   format: yaml
   label: Chef Software JobsService API
   slug: chef-software-jobsservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-jobsservice-api-openapi.yml
+  url: https://artifacts.apis.io/chef-software/openapi/chef-software-jobsservice-api-openapi.yml
 - filename: chef-software-nodemanagerservice-api-openapi.yml
   format: yaml
   label: Chef Software NodeManagerService API
   slug: chef-software-nodemanagerservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-nodemanagerservice-api-openapi.yml
+  url: https://artifacts.apis.io/chef-software/openapi/chef-software-nodemanagerservice-api-openapi.yml
 - filename: chef-software-nodesservice-api-openapi.yml
   format: yaml
   label: Chef Software NodesService API
   slug: chef-software-nodesservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-nodesservice-api-openapi.yml
+  url: https://artifacts.apis.io/chef-software/openapi/chef-software-nodesservice-api-openapi.yml
 - filename: chef-software-policies-api-openapi.yml
   format: yaml
   label: Chef Software Policies API
   slug: chef-software-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-policies-api-openapi.yml
+  url: https://artifacts.apis.io/chef-software/openapi/chef-software-policies-api-openapi.yml
 - filename: chef-software-profilesservice-api-openapi.yml
   format: yaml
   label: Chef Software ProfilesService API
   slug: chef-software-profilesservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-profilesservice-api-openapi.yml
+  url: https://artifacts.apis.io/chef-software/openapi/chef-software-profilesservice-api-openapi.yml
 - filename: chef-software-projects-api-openapi.yml
   format: yaml
   label: Chef Software Projects API
   slug: chef-software-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-projects-api-openapi.yml
+  url: https://artifacts.apis.io/chef-software/openapi/chef-software-projects-api-openapi.yml
 - filename: chef-software-reportingservice-api-openapi.yml
   format: yaml
   label: Chef Software ReportingService API
   slug: chef-software-reportingservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-reportingservice-api-openapi.yml
+  url: https://artifacts.apis.io/chef-software/openapi/chef-software-reportingservice-api-openapi.yml
 - filename: chef-software-reportmanagerservice-api-openapi.yml
   format: yaml
   label: Chef Software ReportManagerService API
   slug: chef-software-reportmanagerservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-reportmanagerservice-api-openapi.yml
+  url: https://artifacts.apis.io/chef-software/openapi/chef-software-reportmanagerservice-api-openapi.yml
 - filename: chef-software-retention-api-openapi.yml
   format: yaml
   label: Chef Software Retention API
   slug: chef-software-retention-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-retention-api-openapi.yml
+  url: https://artifacts.apis.io/chef-software/openapi/chef-software-retention-api-openapi.yml
 - filename: chef-software-roles-api-openapi.yml
   format: yaml
   label: Chef Software Roles API
   slug: chef-software-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-roles-api-openapi.yml
+  url: https://artifacts.apis.io/chef-software/openapi/chef-software-roles-api-openapi.yml
 - filename: chef-software-rules-api-openapi.yml
   format: yaml
   label: Chef Software Rules API
   slug: chef-software-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-rules-api-openapi.yml
+  url: https://artifacts.apis.io/chef-software/openapi/chef-software-rules-api-openapi.yml
 - filename: chef-software-secretsservice-api-openapi.yml
   format: yaml
   label: Chef Software SecretsService API
   slug: chef-software-secretsservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-secretsservice-api-openapi.yml
+  url: https://artifacts.apis.io/chef-software/openapi/chef-software-secretsservice-api-openapi.yml
 - filename: chef-software-service-groups-api-openapi.yml
   format: yaml
   label: Chef Software Service Groups API
   slug: chef-software-service-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-service-groups-api-openapi.yml
+  url: https://artifacts.apis.io/chef-software/openapi/chef-software-service-groups-api-openapi.yml
 - filename: chef-software-statsservice-api-openapi.yml
   format: yaml
   label: Chef Software StatsService API
   slug: chef-software-statsservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-statsservice-api-openapi.yml
+  url: https://artifacts.apis.io/chef-software/openapi/chef-software-statsservice-api-openapi.yml
 - filename: chef-software-teams-api-openapi.yml
   format: yaml
   label: Chef Software Teams API
   slug: chef-software-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-teams-api-openapi.yml
+  url: https://artifacts.apis.io/chef-software/openapi/chef-software-teams-api-openapi.yml
 - filename: chef-software-tokens-api-openapi.yml
   format: yaml
   label: Chef Software Tokens API
   slug: chef-software-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/chef-software/openapi/chef-software-tokens-api-openapi.yml
 - filename: chef-software-users-api-openapi.yml
   format: yaml
   label: Chef Software Users API
   slug: chef-software-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-users-api-openapi.yml
+  url: https://artifacts.apis.io/chef-software/openapi/chef-software-users-api-openapi.yml
 - filename: chef-software-usersettingsservice-api-openapi.yml
   format: yaml
   label: Chef Software UserSettingsService API
   slug: chef-software-usersettingsservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-usersettingsservice-api-openapi.yml
+  url: https://artifacts.apis.io/chef-software/openapi/chef-software-usersettingsservice-api-openapi.yml
 - filename: chef-software-job-scheduler-api-openapi.yml
   format: yaml
   label: Chef Software Job Scheduler API
   slug: chef-software-job-scheduler-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-job-scheduler-api-openapi.yml
+  url: https://artifacts.apis.io/chef-software/openapi/chef-software-job-scheduler-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -215,7 +215,7 @@ source_filename: chef-software-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.chef.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 22:43:43 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: automate.chef.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 28 19:40:25 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: chef.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/security/chef-software-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/chef-software/security/chef-software-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

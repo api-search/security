@@ -8,49 +8,49 @@ api_specs:
   label: Lighthouse Demand API
   slug: lighthouse-travel-demand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/openapi/lighthouse-travel-demand-api-openapi.yml
+  url: https://artifacts.apis.io/lighthouse-travel/openapi/lighthouse-travel-demand-api-openapi.yml
 - filename: lighthouse-travel-hotels-api-openapi.yml
   format: yaml
   label: Lighthouse Hotels API
   slug: lighthouse-travel-hotels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/openapi/lighthouse-travel-hotels-api-openapi.yml
+  url: https://artifacts.apis.io/lighthouse-travel/openapi/lighthouse-travel-hotels-api-openapi.yml
 - filename: lighthouse-travel-market-insight-api-openapi.yml
   format: yaml
   label: Lighthouse Market Insight API
   slug: lighthouse-travel-market-insight-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/openapi/lighthouse-travel-market-insight-api-openapi.yml
+  url: https://artifacts.apis.io/lighthouse-travel/openapi/lighthouse-travel-market-insight-api-openapi.yml
 - filename: lighthouse-travel-markets-api-openapi.yml
   format: yaml
   label: Lighthouse Markets API
   slug: lighthouse-travel-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/openapi/lighthouse-travel-markets-api-openapi.yml
+  url: https://artifacts.apis.io/lighthouse-travel/openapi/lighthouse-travel-markets-api-openapi.yml
 - filename: lighthouse-travel-parity-api-openapi.yml
   format: yaml
   label: Lighthouse Parity API
   slug: lighthouse-travel-parity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/openapi/lighthouse-travel-parity-api-openapi.yml
+  url: https://artifacts.apis.io/lighthouse-travel/openapi/lighthouse-travel-parity-api-openapi.yml
 - filename: lighthouse-travel-ranking-api-openapi.yml
   format: yaml
   label: Lighthouse Ranking API
   slug: lighthouse-travel-ranking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/openapi/lighthouse-travel-ranking-api-openapi.yml
+  url: https://artifacts.apis.io/lighthouse-travel/openapi/lighthouse-travel-ranking-api-openapi.yml
 - filename: lighthouse-travel-rates-api-openapi.yml
   format: yaml
   label: Lighthouse Rates API
   slug: lighthouse-travel-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/openapi/lighthouse-travel-rates-api-openapi.yml
+  url: https://artifacts.apis.io/lighthouse-travel/openapi/lighthouse-travel-rates-api-openapi.yml
 - filename: lighthouse-travel-reviews-api-openapi.yml
   format: yaml
   label: Lighthouse Reviews API
   slug: lighthouse-travel-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/openapi/lighthouse-travel-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/lighthouse-travel/openapi/lighthouse-travel-reviews-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -78,7 +78,7 @@ source_filename: lighthouse-travel-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/lighthouse-travel-integration-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: LighthouseApiToken\n  type: apiKey\n  in: header\n  parameter: X-Oi-Authorization\n  description: Account-bound API token passed as the X-Oi-Authorization header. Tokens provide\n    access to all subscriptions within the account.\n  sources:\n  - openapi/lighthouse-travel-integration-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/authentication/lighthouse-travel-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lighthouse-travel/authentication/lighthouse-travel-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Hospitality

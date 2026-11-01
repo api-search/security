@@ -5,25 +5,25 @@ api_specs:
   label: Trioptima Cycles API
   slug: trioptima-cycles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trioptima/refs/heads/main/openapi/trioptima-cycles-api-openapi.yml
+  url: https://artifacts.apis.io/trioptima/openapi/trioptima-cycles-api-openapi.yml
 - filename: trioptima-results-api-openapi.yml
   format: yaml
   label: Trioptima Results API
   slug: trioptima-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trioptima/refs/heads/main/openapi/trioptima-results-api-openapi.yml
+  url: https://artifacts.apis.io/trioptima/openapi/trioptima-results-api-openapi.yml
 - filename: trioptima-risk-api-openapi.yml
   format: yaml
   label: Trioptima Risk API
   slug: trioptima-risk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trioptima/refs/heads/main/openapi/trioptima-risk-api-openapi.yml
+  url: https://artifacts.apis.io/trioptima/openapi/trioptima-risk-api-openapi.yml
 - filename: trioptima-trades-api-openapi.yml
   format: yaml
   label: Trioptima Trades API
   slug: trioptima-trades-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trioptima/refs/heads/main/openapi/trioptima-trades-api-openapi.yml
+  url: https://artifacts.apis.io/trioptima/openapi/trioptima-trades-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: trioptima-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: osttra.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 11 22:32:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: rates.trireduce.com\n  https: false\n- host: triresolve.com\n  https: false\ndomains:\n- domain: osttra.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: trireduce.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 iodef \"mailto:admin@trioptima.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trioptima/refs/heads/main/security/trioptima-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trioptima/security/trioptima-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - CME Group

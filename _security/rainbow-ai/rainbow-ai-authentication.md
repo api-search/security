@@ -9,25 +9,25 @@ api_specs:
   label: Rainbow.AI Nowcast API
   slug: rainbow-ai-nowcast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/openapi/rainbow-ai-nowcast-api-openapi.yml
+  url: https://artifacts.apis.io/rainbow-ai/openapi/rainbow-ai-nowcast-api-openapi.yml
 - filename: rainbow-ai-radar-api-openapi.yml
   format: yaml
   label: Rainbow.AI Radar API
   slug: rainbow-ai-radar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/openapi/rainbow-ai-radar-api-openapi.yml
+  url: https://artifacts.apis.io/rainbow-ai/openapi/rainbow-ai-radar-api-openapi.yml
 - filename: rainbow-ai-snapshots-api-openapi.yml
   format: yaml
   label: Rainbow.AI Snapshots API
   slug: rainbow-ai-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/openapi/rainbow-ai-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/rainbow-ai/openapi/rainbow-ai-snapshots-api-openapi.yml
 - filename: rainbow-ai-tiles-api-openapi.yml
   format: yaml
   label: Rainbow.AI Tiles API
   slug: rainbow-ai-tiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/openapi/rainbow-ai-tiles-api-openapi.yml
+  url: https://artifacts.apis.io/rainbow-ai/openapi/rainbow-ai-tiles-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -64,7 +64,7 @@ source_filename: rainbow-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/rainbow-ai-nowcast-openapi.yml, openapi/rainbow-ai-tiles-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: ApiKeyHeader\n  type: apiKey\n  in: header\n  parameter: Ocp-Apim-Subscription-Key\n  description: API key passed in the Ocp-Apim-Subscription-Key header\n  sources:\n  - openapi/rainbow-ai-nowcast-openapi.yml\n  - openapi/rainbow-ai-tiles-openapi.yml\n- name: ApiKeyQuery\n  type: apiKey\n  in: query\n  parameter: token\n  description: API key passed as a token query parameter\n  sources:\n  - openapi/rainbow-ai-nowcast-openapi.yml\n  - openapi/rainbow-ai-tiles-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/authentication/rainbow-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rainbow-ai/authentication/rainbow-ai-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Weather

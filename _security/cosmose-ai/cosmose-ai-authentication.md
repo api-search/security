@@ -7,79 +7,79 @@ api_specs:
   label: Cosmose AI Contact Form Controller API
   slug: cosmose-ai-contact-form-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/openapi/cosmose-ai-contact-form-controller-api-openapi.yml
+  url: https://artifacts.apis.io/cosmose-ai/openapi/cosmose-ai-contact-form-controller-api-openapi.yml
 - filename: cosmose-ai-crucible-token-controller-api-openapi.yml
   format: yaml
   label: Cosmose AI Crucible Token Controller API
   slug: cosmose-ai-crucible-token-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/openapi/cosmose-ai-crucible-token-controller-api-openapi.yml
+  url: https://artifacts.apis.io/cosmose-ai/openapi/cosmose-ai-crucible-token-controller-api-openapi.yml
 - filename: cosmose-ai-forget-me-controller-api-openapi.yml
   format: yaml
   label: Cosmose AI Forget Me Controller API
   slug: cosmose-ai-forget-me-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/openapi/cosmose-ai-forget-me-controller-api-openapi.yml
+  url: https://artifacts.apis.io/cosmose-ai/openapi/cosmose-ai-forget-me-controller-api-openapi.yml
 - filename: cosmose-ai-invitation-controller-api-openapi.yml
   format: yaml
   label: Cosmose AI Invitation Controller API
   slug: cosmose-ai-invitation-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/openapi/cosmose-ai-invitation-controller-api-openapi.yml
+  url: https://artifacts.apis.io/cosmose-ai/openapi/cosmose-ai-invitation-controller-api-openapi.yml
 - filename: cosmose-ai-kkn-onboarding-controller-api-openapi.yml
   format: yaml
   label: Cosmose AI Kkn Onboarding Controller API
   slug: cosmose-ai-kkn-onboarding-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/openapi/cosmose-ai-kkn-onboarding-controller-api-openapi.yml
+  url: https://artifacts.apis.io/cosmose-ai/openapi/cosmose-ai-kkn-onboarding-controller-api-openapi.yml
 - filename: cosmose-ai-learn-to-code-controller-api-openapi.yml
   format: yaml
   label: Cosmose AI Learn To Code Controller API
   slug: cosmose-ai-learn-to-code-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/openapi/cosmose-ai-learn-to-code-controller-api-openapi.yml
+  url: https://artifacts.apis.io/cosmose-ai/openapi/cosmose-ai-learn-to-code-controller-api-openapi.yml
 - filename: cosmose-ai-merchant-controller-api-openapi.yml
   format: yaml
   label: Cosmose AI Merchant Controller API
   slug: cosmose-ai-merchant-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/openapi/cosmose-ai-merchant-controller-api-openapi.yml
+  url: https://artifacts.apis.io/cosmose-ai/openapi/cosmose-ai-merchant-controller-api-openapi.yml
 - filename: cosmose-ai-newsletter-controller-api-openapi.yml
   format: yaml
   label: Cosmose AI Newsletter Controller API
   slug: cosmose-ai-newsletter-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/openapi/cosmose-ai-newsletter-controller-api-openapi.yml
+  url: https://artifacts.apis.io/cosmose-ai/openapi/cosmose-ai-newsletter-controller-api-openapi.yml
 - filename: cosmose-ai-onboarding-controller-api-openapi.yml
   format: yaml
   label: Cosmose AI Onboarding Controller API
   slug: cosmose-ai-onboarding-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/openapi/cosmose-ai-onboarding-controller-api-openapi.yml
+  url: https://artifacts.apis.io/cosmose-ai/openapi/cosmose-ai-onboarding-controller-api-openapi.yml
 - filename: cosmose-ai-registration-admin-controller-api-openapi.yml
   format: yaml
   label: Cosmose AI Registration Admin Controller API
   slug: cosmose-ai-registration-admin-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/openapi/cosmose-ai-registration-admin-controller-api-openapi.yml
+  url: https://artifacts.apis.io/cosmose-ai/openapi/cosmose-ai-registration-admin-controller-api-openapi.yml
 - filename: cosmose-ai-registration-controller-api-openapi.yml
   format: yaml
   label: Cosmose AI Registration Controller API
   slug: cosmose-ai-registration-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/openapi/cosmose-ai-registration-controller-api-openapi.yml
+  url: https://artifacts.apis.io/cosmose-ai/openapi/cosmose-ai-registration-controller-api-openapi.yml
 - filename: cosmose-ai-school-controller-api-openapi.yml
   format: yaml
   label: Cosmose AI School Controller API
   slug: cosmose-ai-school-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/openapi/cosmose-ai-school-controller-api-openapi.yml
+  url: https://artifacts.apis.io/cosmose-ai/openapi/cosmose-ai-school-controller-api-openapi.yml
 - filename: cosmose-ai-token-controller-api-openapi.yml
   format: yaml
   label: Cosmose AI Token Controller API
   slug: cosmose-ai-token-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/openapi/cosmose-ai-token-controller-api-openapi.yml
+  url: https://artifacts.apis.io/cosmose-ai/openapi/cosmose-ai-token-controller-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-08-11'\nmethod: derived\nsource: openapi/cosmose-
   \ used to bind tokens to an app installation.\n- operationId: generateTokens_1\n  method: POST\n  path: /v2/crucible-token\n  description: >-\n    Second token issuer under an internal product codename (\"crucible\"), same TokenInfo response shape. Undocumented\n    publicly; its relationship to /v2/token is not described in the contract.\noauth2:\n  declared: false\n  discovery:\n    openid_configuration: false\n    oauth_authorization_server: false\n  note: >-\n    Probed /.well-known/openid-configuration and /.well-known/oauth-authorization-server on cosmose.ai, cosmose.co,\n    kaikai.ai, api.cosmose.co, api.sg.cosmose.co and repo.cosmose.co on 2026-08-11. The web hosts answer HTTP 200\n    with the Angular single-page-app shell for every path (byte-identical to the homepage — a soft 200, not a\n    document); the API gateways answer 401; repo.cosmose.co answers 404. No discovery document exists.\ngateway_behaviour:\n  probed: '2026-08-11'\n  observations:\n  - host: api.cosmose.co\n\
   \    path: /\n    status: 401\n    body: '{\"error\":\"unauthorized\",\"error_description\":\"Full authentication is required to access this resource\"}'\n  - host: api.sg.cosmose.co\n    path: /\n    status: 401\n    body: '{\"error\":\"unauthorized\",\"error_description\":\"Full authentication is required to access this resource\"}'\n  - host: api.sg.cosmose.co\n    path: /deal-hunter-registration-api/v3/api-docs\n    status: 200\n    body: OpenAPI 3.0.1 document, served anonymously\n  note: >-\n    The gateway's own 401 envelope (`error` / `error_description`) is a different error shape from the ErrorDto\n    (`errorCode` / `message`) the service returns, and neither 401 nor the gateway envelope appears anywhere in the\n    published contract. See errors/cosmose-ai-problem-types.yml.\nkey_issuance:\n  self_serve: false\n  documented: false\n  detail: >-\n    No signup, no console, no key request form was found on any Cosmose AI or KaiKai property. Access appears to be\n    partner-provisioned;\
   \ the iOS SDK distribution repository (repo.cosmose.co) also requires credentials — a\n    directory listing of /repository/ios-sdk-releases/ returned 401 on 2026-08-11.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/authentication/cosmose-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cosmose-ai/authentication/cosmose-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Retail Intelligence

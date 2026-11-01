@@ -5,19 +5,19 @@ api_specs:
   label: Smallest AI Streaming API
   slug: smallest-ai-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smallest-ai/refs/heads/main/openapi/smallest-ai-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/smallest-ai/openapi/smallest-ai-streaming-api-openapi.yml
 - filename: smallest-ai-text-to-speech-api-openapi.yml
   format: yaml
   label: Smallest AI Text to Speech API
   slug: smallest-ai-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smallest-ai/refs/heads/main/openapi/smallest-ai-text-to-speech-api-openapi.yml
+  url: https://artifacts.apis.io/smallest-ai/openapi/smallest-ai-text-to-speech-api-openapi.yml
 - filename: smallest-ai-voices-api-openapi.yml
   format: yaml
   label: Smallest AI Voices API
   slug: smallest-ai-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smallest-ai/refs/heads/main/openapi/smallest-ai-voices-api-openapi.yml
+  url: https://artifacts.apis.io/smallest-ai/openapi/smallest-ai-voices-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -37,7 +37,7 @@ source_filename: smallest-ai-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://security.smallest.ai/\nurl: https://security.smallest.ai/\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\n- GDPR\nevidence:\n- source: https://security.smallest.ai/\n  keywords:\n  - soc2\n  - iso 27001\n  - hipaa\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smallest-ai/refs/heads/main/security/smallest-ai-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/smallest-ai/security/smallest-ai-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Artificial Intelligence

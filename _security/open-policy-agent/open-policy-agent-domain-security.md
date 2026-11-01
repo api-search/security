@@ -5,49 +5,49 @@ api_specs:
   label: Open Policy Agent Compile API
   slug: open-policy-agent-compile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-policy-agent/refs/heads/main/openapi/open-policy-agent-compile-api-openapi.yml
+  url: https://artifacts.apis.io/open-policy-agent/openapi/open-policy-agent-compile-api-openapi.yml
 - filename: open-policy-agent-config-api-openapi.yml
   format: yaml
   label: Open Policy Agent Config API
   slug: open-policy-agent-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-policy-agent/refs/heads/main/openapi/open-policy-agent-config-api-openapi.yml
+  url: https://artifacts.apis.io/open-policy-agent/openapi/open-policy-agent-config-api-openapi.yml
 - filename: open-policy-agent-data-api-openapi.yml
   format: yaml
   label: Open Policy Agent Data API
   slug: open-policy-agent-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-policy-agent/refs/heads/main/openapi/open-policy-agent-data-api-openapi.yml
+  url: https://artifacts.apis.io/open-policy-agent/openapi/open-policy-agent-data-api-openapi.yml
 - filename: open-policy-agent-health-api-openapi.yml
   format: yaml
   label: Open Policy Agent Health API
   slug: open-policy-agent-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-policy-agent/refs/heads/main/openapi/open-policy-agent-health-api-openapi.yml
+  url: https://artifacts.apis.io/open-policy-agent/openapi/open-policy-agent-health-api-openapi.yml
 - filename: open-policy-agent-policies-api-openapi.yml
   format: yaml
   label: Open Policy Agent Policies API
   slug: open-policy-agent-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-policy-agent/refs/heads/main/openapi/open-policy-agent-policies-api-openapi.yml
+  url: https://artifacts.apis.io/open-policy-agent/openapi/open-policy-agent-policies-api-openapi.yml
 - filename: open-policy-agent-query-api-api-openapi.yml
   format: yaml
   label: Open Policy Agent Query API
   slug: open-policy-agent-query-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-policy-agent/refs/heads/main/openapi/open-policy-agent-query-api-api-openapi.yml
+  url: https://artifacts.apis.io/open-policy-agent/openapi/open-policy-agent-query-api-api-openapi.yml
 - filename: open-policy-agent-query-api-openapi.yml
   format: yaml
   label: Open Policy Agent Query API
   slug: open-policy-agent-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-policy-agent/refs/heads/main/openapi/open-policy-agent-query-api-openapi.yml
+  url: https://artifacts.apis.io/open-policy-agent/openapi/open-policy-agent-query-api-openapi.yml
 - filename: open-policy-agent-status-api-openapi.yml
   format: yaml
   label: Open Policy Agent Status API
   slug: open-policy-agent-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-policy-agent/refs/heads/main/openapi/open-policy-agent-status-api-openapi.yml
+  url: https://artifacts.apis.io/open-policy-agent/openapi/open-policy-agent-status-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: open-policy-agent-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.openpolicyagent.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 19:18:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: openpolicyagent.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-policy-agent/refs/heads/main/security/open-policy-agent-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/open-policy-agent/security/open-policy-agent-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Policies

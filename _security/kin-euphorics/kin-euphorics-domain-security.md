@@ -40,7 +40,7 @@ source_filename: kin-euphorics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.kineuphorics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 11:56:01 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\n- host: kin-cocktails.myshopify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 15:01:35 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\ndomains:\n- domain: kineuphorics.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: myshopify.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kin-euphorics/refs/heads/main/security/kin-euphorics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kin-euphorics/security/kin-euphorics-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -42,7 +42,7 @@ source_filename: 5ire-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: 5ire.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 06:47:56 2026 GMT\n  hsts: null\n- host: docs.5ire.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 06:47:56 2026 GMT\n  hsts: null\n- host: rpc.5ire.network\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 09:26:47 2026 GMT\n  hsts: null\ndomains:\n- domain: 5ire.org\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: 5ire.network\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/5ire/refs/heads/main/security/5ire-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/5ire/security/5ire-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Blockchain

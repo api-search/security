@@ -27,7 +27,7 @@ source_filename: watson-natural-language-understanding-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cloud.ibm.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 27 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: ibm.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/watson-natural-language-understanding/refs/heads/main/security/watson-natural-language-understanding-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/watson-natural-language-understanding/security/watson-natural-language-understanding-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Text Analysis

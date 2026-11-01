@@ -26,7 +26,7 @@ source_filename: stipple-bio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: stipple.bio\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 14:13:49 2026 GMT\n  hsts: false\ndomains:\n- domain: stipple.bio\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stipple-bio/refs/heads/main/security/stipple-bio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/stipple-bio/security/stipple-bio-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

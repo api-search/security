@@ -26,7 +26,7 @@ source_filename: baconhollow-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: baconhollow.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 18 01:41:07 2026 GMT\n  hsts: null\ndomains:\n- domain: baconhollow.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/baconhollow-com/refs/heads/main/security/baconhollow-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/baconhollow-com/security/baconhollow-com-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - AI Agents

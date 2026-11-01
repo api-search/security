@@ -8,49 +8,49 @@ api_specs:
   label: Decart Client API
   slug: decart-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/openapi/decart-client-api-openapi.yml
+  url: https://artifacts.apis.io/decart/openapi/decart-client-api-openapi.yml
 - filename: decart-files-api-openapi.yml
   format: yaml
   label: Decart Files API
   slug: decart-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/openapi/decart-files-api-openapi.yml
+  url: https://artifacts.apis.io/decart/openapi/decart-files-api-openapi.yml
 - filename: decart-generate-api-openapi.yml
   format: yaml
   label: Decart Generate API
   slug: decart-generate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/openapi/decart-generate-api-openapi.yml
+  url: https://artifacts.apis.io/decart/openapi/decart-generate-api-openapi.yml
 - filename: decart-jobs-api-openapi.yml
   format: yaml
   label: Decart Jobs API
   slug: decart-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/openapi/decart-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/decart/openapi/decart-jobs-api-openapi.yml
 - filename: decart-models-api-openapi.yml
   format: yaml
   label: Decart Models API
   slug: decart-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/openapi/decart-models-api-openapi.yml
+  url: https://artifacts.apis.io/decart/openapi/decart-models-api-openapi.yml
 - filename: decart-realtime-api-openapi.yml
   format: yaml
   label: Decart Realtime API
   slug: decart-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/openapi/decart-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/decart/openapi/decart-realtime-api-openapi.yml
 - filename: decart-verify-api-openapi.yml
   format: yaml
   label: Decart Verify API
   slug: decart-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/openapi/decart-verify-api-openapi.yml
+  url: https://artifacts.apis.io/decart/openapi/decart-verify-api-openapi.yml
 - filename: decart-watch-stream-api-openapi.yml
   format: yaml
   label: Decart Watch Stream API
   slug: decart-watch-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/openapi/decart-watch-stream-api-openapi.yml
+  url: https://artifacts.apis.io/decart/openapi/decart-watch-stream-api-openapi.yml
 auth_types:
 - apiKey
 description: 'Decart uses a two-tier API-key model. Server-side callers present a permanent account key (dct_ prefix) in an x-api-key request header. Browser and mobile clients never see that key: a backend mints a short-lived ephemeral client token (ek_ prefix) through POST /v1/client/tokens, optionally scoped to a model allow-list, an origin allow-list, and a maximum realtime session duration. There is no OAuth 2.0, OIDC, or mTLS surface. The gRPC Oasis service carries the same account key in its InitializeRequest message rather than an HTTP header.'
@@ -107,7 +107,7 @@ source_yaml: "generated: '2026-08-01'\nmethod: searched\nsource: https://docs.pl
   - name: x-api-key\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  token_prefix: dct_\n  description: Permanent account API key created in the Decart platform console. Required\n    on every REST call. Declared as a required header parameter on each operation\n    rather than as an OpenAPI securityScheme.\n  scope: full account access\n  sources:\n  - openapi/decart-api-openapi-original.json\n  - https://docs.platform.decart.ai/getting-started/authentication\n- name: client-token\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  token_prefix: ek_\n  description: Ephemeral client token minted server-side for browser and mobile realtime\n    sessions. Default TTL 60 seconds. Cannot be used to mint another client token\n    (HTTP 403).\n  minted_by: POST /v1/client/tokens (create_client_token_v1_client_tokens_post)\n  constraints:\n    expiresIn: Seconds until the token expires (default 60)\n    allowedModels: Restrict which models this token can access (max 20)\n    allowedOrigins:\
   \ Restrict which web origins this token can be used from (max 20)\n    constraints.realtime.maxSessionDuration: Ceiling on a single realtime session,\n      in seconds\n  sources:\n  - openapi/decart-api-openapi-original.json\n  - https://docs.platform.decart.ai/getting-started/client-tokens\n- name: grpc-api-key\n  type: apiKey\n  in: message-field\n  parameter: InitializeRequest.api_key\n  description: The Oasis 3 Preview action-to-video gRPC service authenticates on the\n    Initialize call by carrying the account API key in the request message. An invalid\n    or missing key returns ERROR_CODE_INVALID_API_KEY.\n  sources:\n  - grpc/decart-a2v.proto\n  - https://docs.platform.decart.ai/models/realtime/oasis-3\nkey_management:\n  console: https://platform.decart.ai/api-keys\n  environment_variable: DECART_API_KEY\n  rotation: Documented as a best practice; no published automated rotation endpoint.\n  separation: Docs advise separate keys for development and production.\nerrors:\n- status:\
   \ 401\n  meaning: No or invalid API key provided\n  operation: create_client_token_v1_client_tokens_post\n- status: 403\n  meaning: Cannot create client token from a client token\n  operation: create_client_token_v1_client_tokens_post\nnotes:\n- Neither published OpenAPI document declares components.securitySchemes. Authentication\n  is expressed as a required `x-api-key` header parameter on each operation, so the\n  mechanical securityScheme derivation returns nothing; this profile is taken from\n  the documented auth pages and the operation parameters instead.\n- No OAuth 2.0 or OpenID Connect surface exists, so scopes/ is intentionally absent\n  rather than empty. Authorization granularity is expressed through client-token constraints\n  (allowedModels / allowedOrigins / maxSessionDuration), not through scopes.\n- Enterprise SSO for organizations is offered for platform console sign-in (May 2026\n  changelog); it governs dashboard access, not API request authentication.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/authentication/decart-authentication.yml
+source_yaml_url: https://artifacts.apis.io/decart/authentication/decart-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - Artificial Intelligence

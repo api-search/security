@@ -7,13 +7,13 @@ api_specs:
   label: LocalStack Aws API
   slug: localstack-aws-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/openapi/localstack-aws-api-openapi.yml
+  url: https://artifacts.apis.io/localstack/openapi/localstack-aws-api-openapi.yml
 - filename: localstack-localstack-api-openapi.yml
   format: yaml
   label: LocalStack API
   slug: localstack-localstack-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/openapi/localstack-localstack-api-openapi.yml
+  url: https://artifacts.apis.io/localstack/openapi/localstack-localstack-api-openapi.yml
 auth_types:
 - none
 - auth-token
@@ -48,7 +48,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: >-\n  openapi/localstack-openapi-original.yml, https://docs.localstack.cloud/,\n  https://docs.localstack.cloud/.well-known/mcp/server-card.json\nsummary:\n  types: [none, auth-token]\n  notes: >-\n    Two distinct surfaces. (1) The LocalStack REST API for Community (the local emulator control\n    plane at localhost.localstack.cloud:4566) declares NO securitySchemes and requires no\n    authentication — it is bound to the developer's own machine. (2) The LocalStack platform and\n    licensed (Pro/Ultimate/Enterprise) features are activated with a LocalStack Auth Token.\nschemes:\n  - name: none\n    type: none\n    scope: local REST API (openapi/localstack-openapi-original.yml)\n    detail: Unauthenticated; no securitySchemes defined in the OpenAPI document.\n  - name: auth-token\n    type: apiKey\n    in: environment\n    parameter: LOCALSTACK_AUTH_TOKEN\n    scope: platform activation + MCP server + licensed features\n \
   \   secret: true\n    docs: https://docs.localstack.cloud/aws/getting-started/auth-token/\n    detail: >-\n      The Auth Token is supplied via the LOCALSTACK_AUTH_TOKEN environment variable to the\n      container and to the MCP server (marked isRequired + isSecret in the MCP Server Card).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/authentication/localstack-authentication.yml
+source_yaml_url: https://artifacts.apis.io/localstack/authentication/localstack-authentication.yml
 summary_line: none/auth-token · 2 schemes
 tags:
 - Company

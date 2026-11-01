@@ -5,61 +5,61 @@ api_specs:
   label: Affinity Auth API
   slug: affinity-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/openapi/affinity-auth-api-openapi.yml
+  url: https://artifacts.apis.io/affinity/openapi/affinity-auth-api-openapi.yml
 - filename: affinity-companies-api-openapi.yml
   format: yaml
   label: Affinity Companies API
   slug: affinity-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/openapi/affinity-companies-api-openapi.yml
+  url: https://artifacts.apis.io/affinity/openapi/affinity-companies-api-openapi.yml
 - filename: affinity-companymerges-api-openapi.yml
   format: yaml
   label: Affinity Company Merges API
   slug: affinity-companymerges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/openapi/affinity-companymerges-api-openapi.yml
+  url: https://artifacts.apis.io/affinity/openapi/affinity-companymerges-api-openapi.yml
 - filename: affinity-emails-api-openapi.yml
   format: yaml
   label: Affinity Emails API
   slug: affinity-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/openapi/affinity-emails-api-openapi.yml
+  url: https://artifacts.apis.io/affinity/openapi/affinity-emails-api-openapi.yml
 - filename: affinity-lists-api-openapi.yml
   format: yaml
   label: Affinity Lists API
   slug: affinity-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/openapi/affinity-lists-api-openapi.yml
+  url: https://artifacts.apis.io/affinity/openapi/affinity-lists-api-openapi.yml
 - filename: affinity-meetings-api-openapi.yml
   format: yaml
   label: Affinity Meetings API
   slug: affinity-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/openapi/affinity-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/affinity/openapi/affinity-meetings-api-openapi.yml
 - filename: affinity-notes-api-openapi.yml
   format: yaml
   label: Affinity Notes API
   slug: affinity-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/openapi/affinity-notes-api-openapi.yml
+  url: https://artifacts.apis.io/affinity/openapi/affinity-notes-api-openapi.yml
 - filename: affinity-opportunities-api-openapi.yml
   format: yaml
   label: Affinity Opportunities API
   slug: affinity-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/openapi/affinity-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/affinity/openapi/affinity-opportunities-api-openapi.yml
 - filename: affinity-personmerges-api-openapi.yml
   format: yaml
   label: Affinity Person Merges API
   slug: affinity-personmerges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/openapi/affinity-personmerges-api-openapi.yml
+  url: https://artifacts.apis.io/affinity/openapi/affinity-personmerges-api-openapi.yml
 - filename: affinity-persons-api-openapi.yml
   format: yaml
   label: Affinity Persons API
   slug: affinity-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/openapi/affinity-persons-api-openapi.yml
+  url: https://artifacts.apis.io/affinity/openapi/affinity-persons-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -105,7 +105,7 @@ source_filename: affinity-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.affinity.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 21:23:34 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api-docs.affinity.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 10:43:19 2026 GMT\n  hsts: false\n- host: api.affinity.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  3 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: affinity.co\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issuewild \"amazontrust.com\"\n  - 0 issuewild \"awstrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/security/affinity-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/affinity/security/affinity-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - CRM

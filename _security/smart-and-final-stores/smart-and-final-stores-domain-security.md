@@ -27,7 +27,7 @@ source_filename: smart-and-final-stores-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.smartandfinal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 05:37:29 2026 GMT\n  hsts: false\ndomains:\n- domain: smartandfinal.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smart-and-final-stores/refs/heads/main/security/smart-and-final-stores-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/smart-and-final-stores/security/smart-and-final-stores-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Grocery

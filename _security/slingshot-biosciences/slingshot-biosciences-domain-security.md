@@ -46,7 +46,7 @@ source_filename: slingshot-biosciences-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.slingshotbio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 05:28:28 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: slingshot-bio.myshopify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 15:01:35 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\n- host: 9l0m1rv5.api.sanity.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: slingshotbio.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: myshopify.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/slingshot-biosciences/refs/heads/main/security/slingshot-biosciences-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/slingshot-biosciences/security/slingshot-biosciences-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

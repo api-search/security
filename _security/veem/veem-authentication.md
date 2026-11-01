@@ -7,85 +7,85 @@ api_specs:
   label: Veem Attachment Controller API
   slug: veem-attachment-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-attachment-controller-api-openapi.yml
+  url: https://artifacts.apis.io/veem/openapi/veem-attachment-controller-api-openapi.yml
 - filename: veem-bank-account-controller-api-openapi.yml
   format: yaml
   label: Veem Bank Account Controller API
   slug: veem-bank-account-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-bank-account-controller-api-openapi.yml
+  url: https://artifacts.apis.io/veem/openapi/veem-bank-account-controller-api-openapi.yml
 - filename: veem-beneficial-owner-information-controller-api-openapi.yml
   format: yaml
   label: Veem Beneficial Owner Information Controller API
   slug: veem-beneficial-owner-information-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-beneficial-owner-information-controller-api-openapi.yml
+  url: https://artifacts.apis.io/veem/openapi/veem-beneficial-owner-information-controller-api-openapi.yml
 - filename: veem-claimless-payment-controller-api-openapi.yml
   format: yaml
   label: Veem Claimless Payment Controller API
   slug: veem-claimless-payment-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-claimless-payment-controller-api-openapi.yml
+  url: https://artifacts.apis.io/veem/openapi/veem-claimless-payment-controller-api-openapi.yml
 - filename: veem-contact-controller-api-openapi.yml
   format: yaml
   label: Veem Contact Controller API
   slug: veem-contact-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-contact-controller-api-openapi.yml
+  url: https://artifacts.apis.io/veem/openapi/veem-contact-controller-api-openapi.yml
 - filename: veem-crypto-wallet-controller-api-openapi.yml
   format: yaml
   label: Veem Crypto Wallet Controller API
   slug: veem-crypto-wallet-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-crypto-wallet-controller-api-openapi.yml
+  url: https://artifacts.apis.io/veem/openapi/veem-crypto-wallet-controller-api-openapi.yml
 - filename: veem-customer-controller-api-openapi.yml
   format: yaml
   label: Veem Customer Controller API
   slug: veem-customer-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-customer-controller-api-openapi.yml
+  url: https://artifacts.apis.io/veem/openapi/veem-customer-controller-api-openapi.yml
 - filename: veem-exchange-rate-controller-api-openapi.yml
   format: yaml
   label: Veem Exchange Rate Controller API
   slug: veem-exchange-rate-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-exchange-rate-controller-api-openapi.yml
+  url: https://artifacts.apis.io/veem/openapi/veem-exchange-rate-controller-api-openapi.yml
 - filename: veem-invoice-controller-api-openapi.yml
   format: yaml
   label: Veem Invoice Controller API
   slug: veem-invoice-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-invoice-controller-api-openapi.yml
+  url: https://artifacts.apis.io/veem/openapi/veem-invoice-controller-api-openapi.yml
 - filename: veem-meta-controller-api-openapi.yml
   format: yaml
   label: Veem Meta Controller API
   slug: veem-meta-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-meta-controller-api-openapi.yml
+  url: https://artifacts.apis.io/veem/openapi/veem-meta-controller-api-openapi.yml
 - filename: veem-open-account-controller-api-openapi.yml
   format: yaml
   label: Veem Open Account Controller API
   slug: veem-open-account-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-open-account-controller-api-openapi.yml
+  url: https://artifacts.apis.io/veem/openapi/veem-open-account-controller-api-openapi.yml
 - filename: veem-payment-controller-api-openapi.yml
   format: yaml
   label: Veem Payment Controller API
   slug: veem-payment-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-payment-controller-api-openapi.yml
+  url: https://artifacts.apis.io/veem/openapi/veem-payment-controller-api-openapi.yml
 - filename: veem-wallet-controller-api-openapi.yml
   format: yaml
   label: Veem Wallet Controller API
   slug: veem-wallet-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-wallet-controller-api-openapi.yml
+  url: https://artifacts.apis.io/veem/openapi/veem-wallet-controller-api-openapi.yml
 - filename: veem-webhook-controller-api-openapi.yml
   format: yaml
   label: Veem Webhook Controller API
   slug: veem-webhook-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-webhook-controller-api-openapi.yml
+  url: https://artifacts.apis.io/veem/openapi/veem-webhook-controller-api-openapi.yml
 auth_types:
 - oauth2
 description: Veem Public API authentication profile, captured from the developer-portal OAuth guide (the published OpenAPI operation slices declare no securitySchemes, so this profile is documentation-sourced). Veem uses OAuth 2.0 in two-legged (client_credentials, server-to-server on your own behalf) and three-legged (authorization_code, on behalf of another Veem user) forms, plus refresh_token. Client credentials are sent as an HTTP Basic header (base64 of client_id:client_secret) on the token call; API calls carry the access token as a Bearer Authorization header. Client ID/Secret are generated in the dashboard under Settings > Integrations > Connect Veem API (production credentials are visible only to the primary account owner).
@@ -131,7 +131,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://developer.veem.com/docs/oauth\ndocs: https://developer.veem.com/docs/oauth\ndescription: >-\n  Veem Public API authentication profile, captured from the developer-portal\n  OAuth guide (the published OpenAPI operation slices declare no\n  securitySchemes, so this profile is documentation-sourced). Veem uses OAuth\n  2.0 in two-legged (client_credentials, server-to-server on your own behalf)\n  and three-legged (authorization_code, on behalf of another Veem user) forms,\n  plus refresh_token. Client credentials are sent as an HTTP Basic header\n  (base64 of client_id:client_secret) on the token call; API calls carry the\n  access token as a Bearer Authorization header. Client ID/Secret are generated\n  in the dashboard under Settings > Integrations > Connect Veem API (production\n  credentials are visible only to the primary account owner).\nsummary:\n  types: [oauth2]\n  oauth2_flows: [clientCredentials, authorizationCode,\
   \ refreshToken]\n  token_style: bearer\nschemes:\n  - name: OAuth2\n    type: oauth2\n    flows:\n      - flow: clientCredentials\n        tokenUrl: https://api.veem.com/oauth/token\n        sandboxTokenUrl: https://sandbox-api.veem.com/oauth/token\n        scopes: [all]\n        notes: 'Body x-www-form-urlencoded: grant_type=client_credentials, scope=all; Authorization: Basic <base64 client_id:client_secret>. Token response includes access_token, refresh_token, expires_in (~31535999s), account_id, user_id.'\n      - flow: authorizationCode\n        authorizationUrl: https://api.veem.com/oauth/authorize\n        tokenUrl: https://api.veem.com/oauth/token\n        sandboxAuthorizationUrl: https://sandbox-api.veem.com/oauth/authorize\n        sandboxTokenUrl: https://sandbox-api.veem.com/oauth/token\n        scopes: [all]\n        notes: '\"Connect with Veem\" flow; redirect_uri must match one registered with your development keys; response_type=code, then exchange the code at the token\
   \ endpoint.'\n      - flow: refreshToken\n        tokenUrl: https://api.veem.com/oauth/token\n        notes: grant_type=refresh_token with the refresh token; expired tokens return 401 Unauthorized.\nusage:\n  header: 'Authorization: Bearer <access_token>'\n  additional_required_headers:\n    - name: X-Request-Id\n      description: Unique UUID per request; reusing a value returns 409 Conflict (duplicate-request protection). See conventions/veem-conventions.yml.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/authentication/veem-authentication.yml
+source_yaml_url: https://artifacts.apis.io/veem/authentication/veem-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Payments

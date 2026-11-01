@@ -38,7 +38,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://docs.imply.io/polaris/auth-overview/\ndocs: https://docs.imply.io/polaris/auth-overview/\nsummary:\n  types: [apiKey, oauth2]\n  api_key_in: [header]\n  api_key_scheme: http-basic (API key passed as the Basic-auth username, no password)\n  oauth2_flows: [clientCredentials]\nschemes:\n  - name: ApiKeyBasicAuth\n    type: http\n    scheme: basic\n    description: >\n      Primary and recommended method. The Polaris API key is passed as the\n      username value in the HTTP Basic Authorization header; no password is\n      provided. API keys never expire, which is why Imply recommends them over\n      OAuth access tokens for programmatic access.\n    docs: https://docs.imply.io/polaris/api-keys\n  - name: OAuth2Bearer\n    type: oauth2\n    description: >\n      Alternative method. An OAuth access token is passed in the Authorization\n      header. Access tokens are short-lived; Imply discourages them for\n      long-lived\
   \ integrations in favor of API keys.\n    docs: https://docs.imply.io/polaris/oauth\nnotes: >\n  Derived-from-docs, not from a captured OpenAPI (the Polaris OpenAPI is rendered\n  client-side via Redoc at docs.imply.io/api/polaris/api-reference and was not\n  retrievable as a static file this pass). API keys are managed via the API Keys\n  v1 resource group and carry role-based permissions.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imply/refs/heads/main/authentication/imply-authentication.yml
+source_yaml_url: https://artifacts.apis.io/imply/authentication/imply-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company

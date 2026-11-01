@@ -27,13 +27,13 @@ source_filename: forum-mobility-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: forummobility.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 14:04:24 2026 GMT\n  hsts: false\ndomains:\n- domain: forummobility.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forum-mobility/refs/heads/main/security/forum-mobility-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/forum-mobility/security/forum-mobility-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Electric Vehicles
 - Trucking
-- Fleet
+- Fleet Management
 - Charging Infrastructure
 - Zero Emission
 - Clean Energy

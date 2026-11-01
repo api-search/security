@@ -5,25 +5,25 @@ api_specs:
   label: Surfe Account API
   slug: surfe-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/openapi/surfe-account-api-openapi.yml
+  url: https://artifacts.apis.io/surfe/openapi/surfe-account-api-openapi.yml
 - filename: surfe-companies-api-openapi.yml
   format: yaml
   label: Surfe Companies API
   slug: surfe-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/openapi/surfe-companies-api-openapi.yml
+  url: https://artifacts.apis.io/surfe/openapi/surfe-companies-api-openapi.yml
 - filename: surfe-people-api-openapi.yml
   format: yaml
   label: Surfe People API
   slug: surfe-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/openapi/surfe-people-api-openapi.yml
+  url: https://artifacts.apis.io/surfe/openapi/surfe-people-api-openapi.yml
 - filename: surfe-recommendations-api-openapi.yml
   format: yaml
   label: Surfe Recommendations API
   slug: surfe-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/openapi/surfe-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/surfe/openapi/surfe-recommendations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: surfe-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.surfe.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 04:14:09 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.surfe.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 18:57:27 2026 GMT\n  hsts: null\ndomains:\n- domain: surfe.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/security/surfe-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/surfe/security/surfe-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - B2B Data

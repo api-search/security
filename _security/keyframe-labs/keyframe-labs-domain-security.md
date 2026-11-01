@@ -5,25 +5,37 @@ api_specs:
   label: Keyframe Labs LLM models API
   slug: keyframe-labs-llm-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/openapi/keyframe-labs-llm-models-api-openapi.yml
+  url: https://artifacts.apis.io/keyframe-labs/openapi/keyframe-labs-llm-models-api-openapi.yml
 - filename: keyframe-labs-meet-bots-api-openapi.yml
   format: yaml
   label: Keyframe Labs Meet bots API
   slug: keyframe-labs-meet-bots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/openapi/keyframe-labs-meet-bots-api-openapi.yml
+  url: https://artifacts.apis.io/keyframe-labs/openapi/keyframe-labs-meet-bots-api-openapi.yml
 - filename: keyframe-labs-sessions-api-openapi.yml
   format: yaml
   label: Keyframe Labs Sessions API
   slug: keyframe-labs-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/openapi/keyframe-labs-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/keyframe-labs/openapi/keyframe-labs-sessions-api-openapi.yml
 - filename: keyframe-labs-voices-api-openapi.yml
   format: yaml
   label: Keyframe Labs Voices API
   slug: keyframe-labs-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/openapi/keyframe-labs-voices-api-openapi.yml
+  url: https://artifacts.apis.io/keyframe-labs/openapi/keyframe-labs-voices-api-openapi.yml
+- filename: keyframe-labs-avatars-api-openapi.yml
+  format: yaml
+  label: Keyframe Labs Avatars API
+  slug: keyframe-labs-avatars-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/keyframe-labs/openapi/keyframe-labs-avatars-api-openapi.yml
+- filename: keyframe-labs-generations-api-openapi.yml
+  format: yaml
+  label: Keyframe Labs Generations API
+  slug: keyframe-labs-generations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/keyframe-labs/openapi/keyframe-labs-generations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +75,7 @@ source_filename: keyframe-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.keyframelabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 04:28:24 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.keyframelabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 05:23:01 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.keyframelabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 05:23:01 2026 GMT\n  hsts: null\ndomains:\n- domain: keyframelabs.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/security/keyframe-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/keyframe-labs/security/keyframe-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

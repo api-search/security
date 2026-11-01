@@ -26,7 +26,7 @@ source_filename: peel-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.peel.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  6 20:06:44 2026 GMT\n  hsts: null\ndomains:\n- domain: peel.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peel/refs/heads/main/security/peel-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/peel/security/peel-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

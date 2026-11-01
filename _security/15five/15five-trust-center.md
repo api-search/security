@@ -16,7 +16,7 @@ source_filename: 15five-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.15five.com/\nurl: https://trust.15five.com/\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://trust.15five.com/\n  keywords:\n  - soc 2\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/15five/refs/heads/main/security/15five-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/15five/security/15five-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - Performance Management

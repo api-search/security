@@ -5,49 +5,49 @@ api_specs:
   label: Pigment BlocksApi API
   slug: pigment-blocksapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/openapi/pigment-blocksapi-api-openapi.yml
+  url: https://artifacts.apis.io/pigment/openapi/pigment-blocksapi-api-openapi.yml
 - filename: pigment-export-api-openapi.yml
   format: yaml
   label: Pigment Export API
   slug: pigment-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/openapi/pigment-export-api-openapi.yml
+  url: https://artifacts.apis.io/pigment/openapi/pigment-export-api-openapi.yml
 - filename: pigment-exportv1-api-openapi.yml
   format: yaml
   label: Pigment ExportV1 API
   slug: pigment-exportv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/openapi/pigment-exportv1-api-openapi.yml
+  url: https://artifacts.apis.io/pigment/openapi/pigment-exportv1-api-openapi.yml
 - filename: pigment-importconfigurationapi-api-openapi.yml
   format: yaml
   label: Pigment ImportConfigurationApi API
   slug: pigment-importconfigurationapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/openapi/pigment-importconfigurationapi-api-openapi.yml
+  url: https://artifacts.apis.io/pigment/openapi/pigment-importconfigurationapi-api-openapi.yml
 - filename: pigment-importv1-api-openapi.yml
   format: yaml
   label: Pigment ImportV1 API
   slug: pigment-importv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/openapi/pigment-importv1-api-openapi.yml
+  url: https://artifacts.apis.io/pigment/openapi/pigment-importv1-api-openapi.yml
 - filename: pigment-viewapi-api-openapi.yml
   format: yaml
   label: Pigment ViewApi API
   slug: pigment-viewapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/openapi/pigment-viewapi-api-openapi.yml
+  url: https://artifacts.apis.io/pigment/openapi/pigment-viewapi-api-openapi.yml
 - filename: pigment-application-api-api-openapi.yml
   format: yaml
   label: Pigment Application API
   slug: pigment-application-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/openapi/pigment-application-api-api-openapi.yml
+  url: https://artifacts.apis.io/pigment/openapi/pigment-application-api-api-openapi.yml
 - filename: pigment-import-api-api-openapi.yml
   format: yaml
   label: Pigment Import API
   slug: pigment-import-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/openapi/pigment-import-api-api-openapi.yml
+  url: https://artifacts.apis.io/pigment/openapi/pigment-import-api-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -65,7 +65,7 @@ source_filename: pigment-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nprobe: true\nsource: https://www.pigment.com/security\nurl: https://www.pigment.com/security\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://www.pigment.com/security\n  keywords:\n  - soc2\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/security/pigment-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/pigment/security/pigment-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - Company

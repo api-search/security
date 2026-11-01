@@ -38,7 +38,7 @@ source_filename: api-football-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.api-football.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 19:25:09 2026 GMT\n  hsts: null\n- host: v3.football.api-sports.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 06:49:24 2026 GMT\n  hsts: null\ndomains:\n- domain: api-football.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: api-sports.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-football/refs/heads/main/security/api-football-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/api-football/security/api-football-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Sports

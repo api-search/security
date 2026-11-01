@@ -5,49 +5,49 @@ api_specs:
   label: ScyllaDB Account API
   slug: scylladb-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/openapi/scylladb-account-api-openapi.yml
+  url: https://artifacts.apis.io/scylladb/openapi/scylladb-account-api-openapi.yml
 - filename: scylladb-account-cluster-network-api-openapi.yml
   format: yaml
   label: ScyllaDB Account Cluster Network API
   slug: scylladb-account-cluster-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/openapi/scylladb-account-cluster-network-api-openapi.yml
+  url: https://artifacts.apis.io/scylladb/openapi/scylladb-account-cluster-network-api-openapi.yml
 - filename: scylladb-account-network-cluster-connection-api-openapi.yml
   format: yaml
   label: ScyllaDB Account network cluster connection API
   slug: scylladb-account-network-cluster-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/openapi/scylladb-account-network-cluster-connection-api-openapi.yml
+  url: https://artifacts.apis.io/scylladb/openapi/scylladb-account-network-cluster-connection-api-openapi.yml
 - filename: scylladb-cluster-api-openapi.yml
   format: yaml
   label: ScyllaDB Cluster API
   slug: scylladb-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/openapi/scylladb-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/scylladb/openapi/scylladb-cluster-api-openapi.yml
 - filename: scylladb-cluster-request-api-openapi.yml
   format: yaml
   label: ScyllaDB Cluster Request API
   slug: scylladb-cluster-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/openapi/scylladb-cluster-request-api-openapi.yml
+  url: https://artifacts.apis.io/scylladb/openapi/scylladb-cluster-request-api-openapi.yml
 - filename: scylladb-deployment-api-openapi.yml
   format: yaml
   label: ScyllaDB Deployment API
   slug: scylladb-deployment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/openapi/scylladb-deployment-api-openapi.yml
+  url: https://artifacts.apis.io/scylladb/openapi/scylladb-deployment-api-openapi.yml
 - filename: scylladb-pricing-api-openapi.yml
   format: yaml
   label: ScyllaDB Pricing API
   slug: scylladb-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/openapi/scylladb-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/scylladb/openapi/scylladb-pricing-api-openapi.yml
 - filename: scylladb-vector-search-api-openapi.yml
   format: yaml
   label: ScyllaDB Vector Search API
   slug: scylladb-vector-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/openapi/scylladb-vector-search-api-openapi.yml
+  url: https://artifacts.apis.io/scylladb/openapi/scylladb-vector-search-api-openapi.yml
 certification_count: 5
 certifications:
 - SOC 2
@@ -68,7 +68,7 @@ source_filename: scylladb-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.scylladb.com/trust-center/\nurl: https://www.scylladb.com/trust-center/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- PCI DSS\nevidence:\n- source: https://www.scylladb.com/trust-center/\n  keywords:\n  - soc 2\n  - iso 27001\n  - pci dss\n  - pci-dss\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/security/scylladb-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/scylladb/security/scylladb-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS
 tags:
 - Database

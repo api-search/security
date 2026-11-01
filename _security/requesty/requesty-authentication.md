@@ -7,31 +7,31 @@ api_specs:
   label: Requesty API Keys API
   slug: requesty-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/openapi/requesty-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/requesty/openapi/requesty-api-keys-api-openapi.yml
 - filename: requesty-embeddings-api-openapi.yml
   format: yaml
   label: Requesty Embeddings API
   slug: requesty-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/openapi/requesty-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/requesty/openapi/requesty-embeddings-api-openapi.yml
 - filename: requesty-models-api-openapi.yml
   format: yaml
   label: Requesty Models API
   slug: requesty-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/openapi/requesty-models-api-openapi.yml
+  url: https://artifacts.apis.io/requesty/openapi/requesty-models-api-openapi.yml
 - filename: requesty-usage-api-openapi.yml
   format: yaml
   label: Requesty Usage API
   slug: requesty-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/openapi/requesty-usage-api-openapi.yml
+  url: https://artifacts.apis.io/requesty/openapi/requesty-usage-api-openapi.yml
 - filename: requesty-chat-completions-api-openapi.yml
   format: yaml
   label: Requesty Chat Completions API
   slug: requesty-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/openapi/requesty-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/requesty/openapi/requesty-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: requesty-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/requesty-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Requesty API key passed as a Bearer token in the Authorization header.\n  sources:\n  - openapi/requesty-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/authentication/requesty-authentication.yml
+source_yaml_url: https://artifacts.apis.io/requesty/authentication/requesty-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

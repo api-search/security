@@ -5,37 +5,37 @@ api_specs:
   label: HL7 FHIR Bundle API
   slug: hl7-fhir-bundle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hl7-fhir/refs/heads/main/openapi/hl7-fhir-bundle-api-openapi.yml
+  url: https://artifacts.apis.io/hl7-fhir/openapi/hl7-fhir-bundle-api-openapi.yml
 - filename: hl7-fhir-condition-api-openapi.yml
   format: yaml
   label: HL7 FHIR Condition API
   slug: hl7-fhir-condition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hl7-fhir/refs/heads/main/openapi/hl7-fhir-condition-api-openapi.yml
+  url: https://artifacts.apis.io/hl7-fhir/openapi/hl7-fhir-condition-api-openapi.yml
 - filename: hl7-fhir-encounter-api-openapi.yml
   format: yaml
   label: HL7 FHIR Encounter API
   slug: hl7-fhir-encounter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hl7-fhir/refs/heads/main/openapi/hl7-fhir-encounter-api-openapi.yml
+  url: https://artifacts.apis.io/hl7-fhir/openapi/hl7-fhir-encounter-api-openapi.yml
 - filename: hl7-fhir-observation-api-openapi.yml
   format: yaml
   label: HL7 FHIR Observation API
   slug: hl7-fhir-observation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hl7-fhir/refs/heads/main/openapi/hl7-fhir-observation-api-openapi.yml
+  url: https://artifacts.apis.io/hl7-fhir/openapi/hl7-fhir-observation-api-openapi.yml
 - filename: hl7-fhir-patient-api-openapi.yml
   format: yaml
   label: HL7 FHIR Patient API
   slug: hl7-fhir-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hl7-fhir/refs/heads/main/openapi/hl7-fhir-patient-api-openapi.yml
+  url: https://artifacts.apis.io/hl7-fhir/openapi/hl7-fhir-patient-api-openapi.yml
 - filename: hl7-fhir-medication-request-api-openapi.yml
   format: yaml
   label: HL7 FHIR Medication Request API
   slug: hl7-fhir-medication-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hl7-fhir/refs/heads/main/openapi/hl7-fhir-medication-request-api-openapi.yml
+  url: https://artifacts.apis.io/hl7-fhir/openapi/hl7-fhir-medication-request-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -73,7 +73,7 @@ source_filename: hl7-fhir-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hl7.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 23:59:59 2026 GMT\n  hsts: false\n- host: hl7.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: hl7.org\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"symantec.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hl7-fhir/refs/heads/main/security/hl7-fhir-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hl7-fhir/security/hl7-fhir-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Clinical

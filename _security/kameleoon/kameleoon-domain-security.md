@@ -5,19 +5,19 @@ api_specs:
   label: Kameleoon Experiments API
   slug: kameleoon-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kameleoon/refs/heads/main/openapi/kameleoon-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/kameleoon/openapi/kameleoon-experiments-api-openapi.yml
 - filename: kameleoon-personalizations-api-openapi.yml
   format: yaml
   label: Kameleoon Personalizations API
   slug: kameleoon-personalizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kameleoon/refs/heads/main/openapi/kameleoon-personalizations-api-openapi.yml
+  url: https://artifacts.apis.io/kameleoon/openapi/kameleoon-personalizations-api-openapi.yml
 - filename: kameleoon-oauth-api-openapi.yml
   format: yaml
   label: Kameleoon O Auth API
   slug: kameleoon-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kameleoon/refs/heads/main/openapi/kameleoon-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/kameleoon/openapi/kameleoon-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: kameleoon-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.kameleoon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 11:53:12 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.kameleoon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 13:16:41 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.kameleoon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 08:05:21 2026 GMT\n  hsts: null\ndomains:\n- domain: kameleoon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kameleoon/refs/heads/main/security/kameleoon-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kameleoon/security/kameleoon-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Experimentation

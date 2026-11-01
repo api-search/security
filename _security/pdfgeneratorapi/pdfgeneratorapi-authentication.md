@@ -7,19 +7,19 @@ api_specs:
   label: PDF Generator API Documents API
   slug: pdfgeneratorapi-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfgeneratorapi/refs/heads/main/openapi/pdfgeneratorapi-documents-api-openapi.yml
+  url: https://artifacts.apis.io/pdfgeneratorapi/openapi/pdfgeneratorapi-documents-api-openapi.yml
 - filename: pdfgeneratorapi-templates-api-openapi.yml
   format: yaml
   label: PDF Generator API Templates API
   slug: pdfgeneratorapi-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfgeneratorapi/refs/heads/main/openapi/pdfgeneratorapi-templates-api-openapi.yml
+  url: https://artifacts.apis.io/pdfgeneratorapi/openapi/pdfgeneratorapi-templates-api-openapi.yml
 - filename: pdfgeneratorapi-workspaces-api-openapi.yml
   format: yaml
   label: PDF Generator API Workspaces API
   slug: pdfgeneratorapi-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfgeneratorapi/refs/heads/main/openapi/pdfgeneratorapi-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/pdfgeneratorapi/openapi/pdfgeneratorapi-workspaces-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -47,7 +47,7 @@ source_filename: pdfgeneratorapi-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pdfgeneratorapi-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: JWT\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: 'Short-lived JSON Web Token signed with HS256 using your API secret. Claims:\n    iss (API key), sub (workspace identifier), exp (expiration).'\n  sources:\n  - openapi/pdfgeneratorapi-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pdfgeneratorapi/refs/heads/main/authentication/pdfgeneratorapi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pdfgeneratorapi/authentication/pdfgeneratorapi-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - PDF

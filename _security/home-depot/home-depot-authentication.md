@@ -7,7 +7,7 @@ api_specs:
   label: home-depot Retail API
   slug: home-depot-retail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/home-depot/refs/heads/main/openapi/home-depot-retail-api-openapi.yml
+  url: https://artifacts.apis.io/home-depot/openapi/home-depot-retail-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -33,7 +33,7 @@ source_filename: home-depot-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/home-depot-home-depot-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/home-depot-home-depot-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/home-depot/refs/heads/main/authentication/home-depot-authentication.yml
+source_yaml_url: https://artifacts.apis.io/home-depot/authentication/home-depot-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Fortune 100

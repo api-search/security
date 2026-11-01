@@ -8,13 +8,13 @@ api_specs:
   label: Tatum Data API
   slug: tatum-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tatum/refs/heads/main/openapi/tatum-data-api-openapi.yml
+  url: https://artifacts.apis.io/tatum/openapi/tatum-data-api-openapi.yml
 - filename: tatum-rates-api-openapi.yml
   format: yaml
   label: Tatum Rates API
   slug: tatum-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tatum/refs/heads/main/openapi/tatum-rates-api-openapi.yml
+  url: https://artifacts.apis.io/tatum/openapi/tatum-rates-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -41,7 +41,7 @@ source_filename: tatum-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tatum-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/tatum-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tatum/refs/heads/main/authentication/tatum-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tatum/authentication/tatum-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Web3

@@ -8,55 +8,55 @@ api_specs:
   label: Forum Account API
   slug: forum-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/openapi/forum-account-api-openapi.yml
+  url: https://artifacts.apis.io/forum/openapi/forum-account-api-openapi.yml
 - filename: forum-exchange-api-openapi.yml
   format: yaml
   label: Forum Exchange API
   slug: forum-exchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/openapi/forum-exchange-api-openapi.yml
+  url: https://artifacts.apis.io/forum/openapi/forum-exchange-api-openapi.yml
 - filename: forum-fills-api-openapi.yml
   format: yaml
   label: Forum Fills API
   slug: forum-fills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/openapi/forum-fills-api-openapi.yml
+  url: https://artifacts.apis.io/forum/openapi/forum-fills-api-openapi.yml
 - filename: forum-funding-api-openapi.yml
   format: yaml
   label: Forum Funding API
   slug: forum-funding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/openapi/forum-funding-api-openapi.yml
+  url: https://artifacts.apis.io/forum/openapi/forum-funding-api-openapi.yml
 - filename: forum-indices-api-openapi.yml
   format: yaml
   label: Forum Indices API
   slug: forum-indices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/openapi/forum-indices-api-openapi.yml
+  url: https://artifacts.apis.io/forum/openapi/forum-indices-api-openapi.yml
 - filename: forum-market-data-api-openapi.yml
   format: yaml
   label: Forum Market Data API
   slug: forum-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/openapi/forum-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/forum/openapi/forum-market-data-api-openapi.yml
 - filename: forum-markets-api-openapi.yml
   format: yaml
   label: Forum Markets API
   slug: forum-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/openapi/forum-markets-api-openapi.yml
+  url: https://artifacts.apis.io/forum/openapi/forum-markets-api-openapi.yml
 - filename: forum-orders-api-openapi.yml
   format: yaml
   label: Forum Orders API
   slug: forum-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/openapi/forum-orders-api-openapi.yml
+  url: https://artifacts.apis.io/forum/openapi/forum-orders-api-openapi.yml
 - filename: forum-positions-api-openapi.yml
   format: yaml
   label: Forum Positions API
   slug: forum-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/openapi/forum-positions-api-openapi.yml
+  url: https://artifacts.apis.io/forum/openapi/forum-positions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -110,7 +110,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/forum-openapi-original.yml\ndocs: https://docs.forum.market/api-reference/authentication\nmodel: hmac-signature\nmodel_notes: >-\n  Three apiKey headers combine into an HMAC-SHA256 request signature. FORUM-ACCESS-SIGN =\n  Base64(HMAC-SHA256(secret, timestamp + method + requestPath + body)). Timestamp\n  (FORUM-ACCESS-TIMESTAMP) must be within a 30-second window (else 401 TIMESTAMP_EXPIRED).\n  Keys are minted in app.forum.market with `read` or `trade` permission (key id `fk_...`,\n  secret `sk_...`, secret shown once). Public market-data endpoints need no auth.\npermissions:\n- read\n- trade\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ForumAccessKey\n  type: apiKey\n  in: header\n  parameter: FORUM-ACCESS-KEY\n  description: Your API key ID (e.g. `fk_a1b2c3d4e5f6...`)\n  sources:\n  - openapi/forum-openapi-original.yml\n- name: ForumAccessTimestamp\n  type: apiKey\n  in: header\n \
   \ parameter: FORUM-ACCESS-TIMESTAMP\n  description: Unix epoch in seconds (UTC), as a string\n  sources:\n  - openapi/forum-openapi-original.yml\n- name: ForumAccessSign\n  type: apiKey\n  in: header\n  parameter: FORUM-ACCESS-SIGN\n  description: |-\n    Base64-encoded HMAC-SHA256 signature.\n\n    **Signature generation:**\n    ```\n    prehash = timestamp + method + requestPath + body\n    signature = Base64(HMAC-SHA256(secret, prehash))\n    ```\n  sources:\n  - openapi/forum-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/authentication/forum-authentication.yml
+source_yaml_url: https://artifacts.apis.io/forum/authentication/forum-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - Company

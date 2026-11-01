@@ -8,31 +8,31 @@ api_specs:
   label: Nuclia Ask API
   slug: nuclia-ask-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclia/refs/heads/main/openapi/nuclia-ask-api-openapi.yml
+  url: https://artifacts.apis.io/nuclia/openapi/nuclia-ask-api-openapi.yml
 - filename: nuclia-knowledge-boxes-api-openapi.yml
   format: yaml
   label: Nuclia Knowledge Boxes API
   slug: nuclia-knowledge-boxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclia/refs/heads/main/openapi/nuclia-knowledge-boxes-api-openapi.yml
+  url: https://artifacts.apis.io/nuclia/openapi/nuclia-knowledge-boxes-api-openapi.yml
 - filename: nuclia-predict-api-openapi.yml
   format: yaml
   label: Nuclia Predict API
   slug: nuclia-predict-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclia/refs/heads/main/openapi/nuclia-predict-api-openapi.yml
+  url: https://artifacts.apis.io/nuclia/openapi/nuclia-predict-api-openapi.yml
 - filename: nuclia-resources-api-openapi.yml
   format: yaml
   label: Nuclia Resources API
   slug: nuclia-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclia/refs/heads/main/openapi/nuclia-resources-api-openapi.yml
+  url: https://artifacts.apis.io/nuclia/openapi/nuclia-resources-api-openapi.yml
 - filename: nuclia-search-api-openapi.yml
   format: yaml
   label: Nuclia Search API
   slug: nuclia-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclia/refs/heads/main/openapi/nuclia-search-api-openapi.yml
+  url: https://artifacts.apis.io/nuclia/openapi/nuclia-search-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -76,7 +76,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/nuclia-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-NUCLIA-SERVICEACCOUNT\n  description: 'Knowledge Box service account API key. Pass as `X-NUCLIA-SERVICEACCOUNT: Bearer\n    <token>`. Reader keys allow search/find/ask, Writer keys allow ingestion and resource modification,\n    Manager keys allow administration. Public search endpoints may be called without a key when\n    the Knowledge Box is public.'\n  sources:\n  - openapi/nuclia-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: OAuth2 / account bearer token obtained from the Nuclia authentication service,\n    used by the dashboard and management endpoints.\n  sources:\n  - openapi/nuclia-openapi.yml\n- name: nuaKey\n  type: apiKey\n  in: header\n  parameter: X-NUCLIA-NUAKEY\n  description: 'Nuclia Understanding\
   \ API (NUA) key. Pass as `X-NUCLIA-NUAKEY: Bearer <token>`\n    to call the /v1/predict endpoints.'\n  sources:\n  - openapi/nuclia-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nuclia/refs/heads/main/authentication/nuclia-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nuclia/authentication/nuclia-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Artificial Intelligence

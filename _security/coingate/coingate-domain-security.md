@@ -5,31 +5,31 @@ api_specs:
   label: CoinGate Conversions API
   slug: coingate-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coingate/refs/heads/main/openapi/coingate-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/coingate/openapi/coingate-conversions-api-openapi.yml
 - filename: coingate-currencies-api-openapi.yml
   format: yaml
   label: CoinGate Currencies API
   slug: coingate-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coingate/refs/heads/main/openapi/coingate-currencies-api-openapi.yml
+  url: https://artifacts.apis.io/coingate/openapi/coingate-currencies-api-openapi.yml
 - filename: coingate-orders-api-openapi.yml
   format: yaml
   label: CoinGate Orders API
   slug: coingate-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coingate/refs/heads/main/openapi/coingate-orders-api-openapi.yml
+  url: https://artifacts.apis.io/coingate/openapi/coingate-orders-api-openapi.yml
 - filename: coingate-refunds-api-openapi.yml
   format: yaml
   label: CoinGate Refunds API
   slug: coingate-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coingate/refs/heads/main/openapi/coingate-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/coingate/openapi/coingate-refunds-api-openapi.yml
 - filename: coingate-send-requests-api-openapi.yml
   format: yaml
   label: CoinGate Send Requests API
   slug: coingate-send-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coingate/refs/heads/main/openapi/coingate-send-requests-api-openapi.yml
+  url: https://artifacts.apis.io/coingate/openapi/coingate-send-requests-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +71,7 @@ source_filename: coingate-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: coingate.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 12:28:34 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.coingate.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 17:02:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.coingate.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 12:28:34 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: coingate.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coingate/refs/heads/main/security/coingate-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/coingate/security/coingate-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cryptocurrency

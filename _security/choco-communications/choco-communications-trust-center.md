@@ -15,7 +15,7 @@ source_filename: choco-communications-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: searched\nprobe: true\nsource: https://choco.com/us/security\nurl: https://choco.com/us/security\ncertifications:\n- SOC 2\nevidence:\n- source: https://choco.com/us/security\n  keywords:\n  - soc 2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/choco-communications/refs/heads/main/security/choco-communications-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/choco-communications/security/choco-communications-trust-center.yml
 summary_line: SOC 2
 tags:
 - Food Distribution

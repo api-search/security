@@ -5,31 +5,31 @@ api_specs:
   label: Badger Maps Accounts API
   slug: badger-maps-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/openapi/badger-maps-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/badger-maps/openapi/badger-maps-accounts-api-openapi.yml
 - filename: badger-maps-check-ins-api-openapi.yml
   format: yaml
   label: Badger Maps Check-Ins API
   slug: badger-maps-check-ins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/openapi/badger-maps-check-ins-api-openapi.yml
+  url: https://artifacts.apis.io/badger-maps/openapi/badger-maps-check-ins-api-openapi.yml
 - filename: badger-maps-locations-api-openapi.yml
   format: yaml
   label: Badger Maps Locations API
   slug: badger-maps-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/openapi/badger-maps-locations-api-openapi.yml
+  url: https://artifacts.apis.io/badger-maps/openapi/badger-maps-locations-api-openapi.yml
 - filename: badger-maps-routes-api-openapi.yml
   format: yaml
   label: Badger Maps Routes API
   slug: badger-maps-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/openapi/badger-maps-routes-api-openapi.yml
+  url: https://artifacts.apis.io/badger-maps/openapi/badger-maps-routes-api-openapi.yml
 - filename: badger-maps-users-api-openapi.yml
   format: yaml
   label: Badger Maps Users API
   slug: badger-maps-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/openapi/badger-maps-users-api-openapi.yml
+  url: https://artifacts.apis.io/badger-maps/openapi/badger-maps-users-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -79,7 +79,7 @@ source_filename: badger-maps-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.badgermapping.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar 26 14:25:12 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: badgerupdatedapi.docs.apiary.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 23:59:59 2026 GMT\n  hsts: null\n- host: badgerapis.badgermapping.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 02:48:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: badgermapping.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: apiary.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/security/badger-maps-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/badger-maps/security/badger-maps-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Field Sales

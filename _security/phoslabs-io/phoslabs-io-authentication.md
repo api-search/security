@@ -8,43 +8,43 @@ api_specs:
   label: Phos Labs Audit API
   slug: phoslabs-io-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-audit-api-openapi.yml
+  url: https://artifacts.apis.io/phoslabs-io/openapi/phoslabs-io-audit-api-openapi.yml
 - filename: phoslabs-io-copy-api-openapi.yml
   format: yaml
   label: Phos Labs Copy API
   slug: phoslabs-io-copy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-copy-api-openapi.yml
+  url: https://artifacts.apis.io/phoslabs-io/openapi/phoslabs-io-copy-api-openapi.yml
 - filename: phoslabs-io-detect-biases-api-openapi.yml
   format: yaml
   label: Phos Labs Detect Biases API
   slug: phoslabs-io-detect-biases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-detect-biases-api-openapi.yml
+  url: https://artifacts.apis.io/phoslabs-io/openapi/phoslabs-io-detect-biases-api-openapi.yml
 - filename: phoslabs-io-diagnose-api-openapi.yml
   format: yaml
   label: Phos Labs Diagnose API
   slug: phoslabs-io-diagnose-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-diagnose-api-openapi.yml
+  url: https://artifacts.apis.io/phoslabs-io/openapi/phoslabs-io-diagnose-api-openapi.yml
 - filename: phoslabs-io-fix-checkout-api-openapi.yml
   format: yaml
   label: Phos Labs Fix Checkout API
   slug: phoslabs-io-fix-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-fix-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/phoslabs-io/openapi/phoslabs-io-fix-checkout-api-openapi.yml
 - filename: phoslabs-io-pricing-api-openapi.yml
   format: yaml
   label: Phos Labs Pricing API
   slug: phoslabs-io-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/phoslabs-io/openapi/phoslabs-io-pricing-api-openapi.yml
 - filename: phoslabs-io-tools-api-openapi.yml
   format: yaml
   label: Phos Labs Tools API
   slug: phoslabs-io-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-tools-api-openapi.yml
+  url: https://artifacts.apis.io/phoslabs-io/openapi/phoslabs-io-tools-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -109,7 +109,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/phoslabs-io-openapi.yml\ndocs:\n- https://github.com/phoslabs/behavioral-science-api#access-methods\n- https://phoslabs.io/api/v1/tools\n- https://mcp.phoslabs.io/.well-known/oauth-authorization-server\n- https://mcp.phoslabs.io/.well-known/oauth-protected-resource/mcp\nsummary:\n  types: [http, oauth2, apiKey]\n  api_key_in: [header]\n  oauth2_flows: [authorizationCode]\n  surfaces:\n  - {surface: 'REST https://phoslabs.io/api/v1/*', auth: 'Bearer API key (http bearer)', anonymous_operations: [listTools]}\n  - {surface: 'MCP https://mcp.phoslabs.io/mcp (Streamable HTTP)', auth: 'OAuth 2.1 authorization code + PKCE, dynamic client registration'}\n  - {surface: 'MCP https://mcp.phoslabs.io/sse and /messages (legacy SSE)', auth: 'API key as Bearer token'}\n  - {surface: 'x402 https://phoslabs.io/x402/* (stated)', auth: 'USDC on Base L2 per call — every path returned 403 on 2026-09-19; unverified'}\nkey_issuance:\n  self_serve:\
   \ true\n  method: 'POST https://phoslabs.io/api/trial with {\"email\": \"...\", \"name\": \"...\"} (per GET /api/v1/tools get_key); GET on the path is 405'\n  free_credits: '100 for new accounts (README) / 20 on MCP connect (credits page)'\n  purchase: https://phoslabs.io/credits\n  note: Not exercised; no key was provisioned by this probe.\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: API key from /api/trial or purchased at /credits\n  header: 'Authorization: Bearer <api_key>'\n  sources: [openapi/phoslabs-io-openapi.yml]\n  observed:\n  - 'POST /api/v1/diagnose without the header -> 401 {\"error\": \"Missing Authorization header. Use: Authorization: Bearer <api_key>\"}'\n  - 'POST /api/v1/diagnose with an invalid key -> 401 {\"error\": \"Invalid or inactive API key\"}; no WWW-Authenticate header'\n- name: mcp-oauth\n  type: oauth2\n  flows:\n    authorizationCode:\n      authorizationUrl: https://mcp.phoslabs.io/authorize\n      tokenUrl: https://mcp.phoslabs.io/token\n\
   \      refreshUrl: https://mcp.phoslabs.io/token\n      scopes: {claudeai: null}\n  pkce: S256\n  dynamic_client_registration: https://mcp.phoslabs.io/register\n  revocation: https://mcp.phoslabs.io/revoke\n  protected_resource: https://mcp.phoslabs.io/mcp\n  sources: [well-known/phoslabs-io-oauth-authorization-server.json, well-known/phoslabs-io-oauth-protected-resource-mcp.json]\n  observed:\n  - 'POST /mcp (initialize) -> 401 WWW-Authenticate: Bearer error=\"invalid_token\", error_description=\"Authentication required\", resource_metadata=\"https://mcp.phoslabs.io/.well-known/oauth-protected-resource/mcp\"'\n- name: mcp-sse-api-key\n  type: apiKey\n  in: header\n  header: 'Authorization: Bearer <key>'\n  applies_to: ['https://mcp.phoslabs.io/sse', 'https://mcp.phoslabs.io/messages']\n  sources: [live probe 2026-09-19]\n  observed:\n  - 'GET /sse -> 401 {\"error\":\"unauthorized\",\"message\":\"API key required. Pass Authorization: Bearer <key> header.\"}'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/authentication/phoslabs-io-authentication.yml
+source_yaml_url: https://artifacts.apis.io/phoslabs-io/authentication/phoslabs-io-authentication.yml
 summary_line: http/oauth2/apiKey · 3 schemes
 tags:
 - Company

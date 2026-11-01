@@ -7,25 +7,25 @@ api_specs:
   label: Penn Medicine Bulk Data API
   slug: penn-medicine-bulk-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/penn-medicine/refs/heads/main/openapi/penn-medicine-bulk-data-api-openapi.yml
+  url: https://artifacts.apis.io/penn-medicine/openapi/penn-medicine-bulk-data-api-openapi.yml
 - filename: penn-medicine-patient-access-api-openapi.yml
   format: yaml
   label: Penn Medicine Patient Access API
   slug: penn-medicine-patient-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/penn-medicine/refs/heads/main/openapi/penn-medicine-patient-access-api-openapi.yml
+  url: https://artifacts.apis.io/penn-medicine/openapi/penn-medicine-patient-access-api-openapi.yml
 - filename: penn-medicine-provider-directory-api-openapi.yml
   format: yaml
   label: Penn Medicine Provider Directory API
   slug: penn-medicine-provider-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/penn-medicine/refs/heads/main/openapi/penn-medicine-provider-directory-api-openapi.yml
+  url: https://artifacts.apis.io/penn-medicine/openapi/penn-medicine-provider-directory-api-openapi.yml
 - filename: penn-medicine-smart-api-openapi.yml
   format: yaml
   label: Penn Medicine SMART API
   slug: penn-medicine-smart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/penn-medicine/refs/heads/main/openapi/penn-medicine-smart-api-openapi.yml
+  url: https://artifacts.apis.io/penn-medicine/openapi/penn-medicine-smart-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -60,7 +60,7 @@ source_filename: penn-medicine-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/penn-medicine-fhir-r4-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: smartOnFhir\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://ssproxy.pennhealth.com/PRD-FHIR/oauth2/authorize\n    tokenUrl: https://ssproxy.pennhealth.com/PRD-FHIR/oauth2/token\n    scopes: 5\n  - flow: clientCredentials\n    tokenUrl: https://ssproxy.pennhealth.com/PRD-FHIR/oauth2/token\n    scopes: 1\n  sources:\n  - openapi/penn-medicine-fhir-r4-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/penn-medicine/refs/heads/main/authentication/penn-medicine-authentication.yml
+source_yaml_url: https://artifacts.apis.io/penn-medicine/authentication/penn-medicine-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Healthcare

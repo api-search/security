@@ -7,25 +7,25 @@ api_specs:
   label: Oso Cloud Centralized Authorization Data API
   slug: oso-centralized-authorization-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/openapi/oso-centralized-authorization-data-api-openapi.yml
+  url: https://artifacts.apis.io/oso/openapi/oso-centralized-authorization-data-api-openapi.yml
 - filename: oso-check-api-api-openapi.yml
   format: yaml
   label: Oso Cloud Check API
   slug: oso-check-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/openapi/oso-check-api-api-openapi.yml
+  url: https://artifacts.apis.io/oso/openapi/oso-check-api-api-openapi.yml
 - filename: oso-local-check-api-api-openapi.yml
   format: yaml
   label: Oso Cloud Local Check API
   slug: oso-local-check-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/openapi/oso-local-check-api-api-openapi.yml
+  url: https://artifacts.apis.io/oso/openapi/oso-local-check-api-api-openapi.yml
 - filename: oso-policy-api-openapi.yml
   format: yaml
   label: Oso Cloud Policy API
   slug: oso-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/openapi/oso-policy-api-openapi.yml
+  url: https://artifacts.apis.io/oso/openapi/oso-policy-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -53,7 +53,7 @@ source_filename: oso-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/oso-authorization-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: ApiKey\n  type: http\n  scheme: bearer\n  bearerFormat: Bearer [example key]\n  description: Requires an API key to access.\n  sources:\n  - openapi/oso-authorization-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/authentication/oso-authentication.yml
+source_yaml_url: https://artifacts.apis.io/oso/authentication/oso-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Authorization

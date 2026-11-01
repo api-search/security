@@ -5,19 +5,19 @@ api_specs:
   label: CalorieNinjas Imagetextnutrition API
   slug: calorie-ninjas-imagetextnutrition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calorie-ninjas/refs/heads/main/openapi/calorie-ninjas-imagetextnutrition-api-openapi.yml
+  url: https://artifacts.apis.io/calorie-ninjas/openapi/calorie-ninjas-imagetextnutrition-api-openapi.yml
 - filename: calorie-ninjas-nutrition-api-openapi.yml
   format: yaml
   label: CalorieNinjas Nutrition API
   slug: calorie-ninjas-nutrition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calorie-ninjas/refs/heads/main/openapi/calorie-ninjas-nutrition-api-openapi.yml
+  url: https://artifacts.apis.io/calorie-ninjas/openapi/calorie-ninjas-nutrition-api-openapi.yml
 - filename: calorie-ninjas-recipe-api-openapi.yml
   format: yaml
   label: CalorieNinjas Recipe API
   slug: calorie-ninjas-recipe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calorie-ninjas/refs/heads/main/openapi/calorie-ninjas-recipe-api-openapi.yml
+  url: https://artifacts.apis.io/calorie-ninjas/openapi/calorie-ninjas-recipe-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,7 +50,7 @@ source_filename: calorie-ninjas-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: calorieninjas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 23:59:59 2026 GMT\n  hsts: false\n- host: api.calorieninjas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: calorieninjas.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/calorie-ninjas/refs/heads/main/security/calorie-ninjas-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/calorie-ninjas/security/calorie-ninjas-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Beverages

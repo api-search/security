@@ -32,7 +32,7 @@ source_filename: scribd-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.scribd.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 17:48:10 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: scribd.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scribd/refs/heads/main/security/scribd-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/scribd/security/scribd-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

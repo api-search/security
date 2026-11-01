@@ -27,7 +27,7 @@ source_filename: turbine-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: turbine.ai\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 28 18:11:52 2026 GMT\n  hsts: false\ndomains:\n- domain: turbine.ai\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/turbine/refs/heads/main/security/turbine-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/turbine/security/turbine-domain-security.yml
 summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
 - Company

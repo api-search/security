@@ -9,7 +9,7 @@ api_specs:
   label: Securden Get Password API
   slug: securden-get-password-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/securden/refs/heads/main/openapi/securden-get-password-api-openapi.yml
+  url: https://artifacts.apis.io/securden/openapi/securden-get-password-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -39,7 +39,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://www.securden.com/privileged-access-management/help/api-access/how-to-eliminate-hardcoded-credentials-using-apis-in-pam.html\ndocs: https://www.securden.com/privileged-access-management/help/api-access/how-to-eliminate-hardcoded-credentials-using-apis-in-pam.html\nsummary:\n  types: [apiKey]\n  api_key_in: [query, header]\n  oauth2_flows: []\n  notes: >-\n    Securden Unified PAM / Password Vault exposes a token-based REST API. Access is\n    regulated by an API Authentication Token created per API user/role. Both the official\n    Java client (ApiKeyAuth) and the securden-cli tool authenticate with an \"authtoken\".\nschemes:\n  - name: authtoken\n    type: apiKey\n    in: query\n    parameter: authtoken\n    description: >-\n      Securden API Authentication Token. Static tokens are generated in the admin\n      console (Admin >> API Access >> Authentication Token for APIs) and can be\n      permanent or valid until\
   \ a set date. Dynamic (short-lived) tokens are obtained\n      programmatically. The CLI passes it as --authtoken alongside --server-url.\n    sources: [docs, packages/securden-packages.yml]\ntoken_acquisition:\n  dynamic_token_endpoint: GET /api/get_auth_token\n  parameters: [login_name, password, domain_name]\n  example: 'curl -k -X GET \"https://{your_api_url}/api/get_auth_token?login_name=admin&password=admin&domain_name=xyz\"'\n  static_token: Admin >> API Access >> Authentication Token for APIs\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/securden/refs/heads/main/authentication/securden-authentication.yml
+source_yaml_url: https://artifacts.apis.io/securden/authentication/securden-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

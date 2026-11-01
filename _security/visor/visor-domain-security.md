@@ -24,7 +24,7 @@ source_filename: visor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: visor.io\n  https: false\ndomains:\n- domain: visor.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/visor/refs/heads/main/security/visor-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/visor/security/visor-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

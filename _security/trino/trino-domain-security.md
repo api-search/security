@@ -5,13 +5,13 @@ api_specs:
   label: Trino Cluster API
   slug: trino-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trino/refs/heads/main/openapi/trino-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/trino/openapi/trino-cluster-api-openapi.yml
 - filename: trino-queries-api-openapi.yml
   format: yaml
   label: Trino Queries API
   slug: trino-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trino/refs/heads/main/openapi/trino-queries-api-openapi.yml
+  url: https://artifacts.apis.io/trino/openapi/trino-queries-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,7 +39,7 @@ source_filename: trino-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: trino.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 05:44:43 2026 GMT\n  hsts: false\ndomains:\n- domain: trino.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trino/refs/heads/main/security/trino-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trino/security/trino-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Analytics

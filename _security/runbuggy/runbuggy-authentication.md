@@ -8,31 +8,31 @@ api_specs:
   label: RunBuggy Companies API
   slug: runbuggy-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runbuggy/refs/heads/main/openapi/runbuggy-companies-api-openapi.yml
+  url: https://artifacts.apis.io/runbuggy/openapi/runbuggy-companies-api-openapi.yml
 - filename: runbuggy-orders-api-openapi.yml
   format: yaml
   label: RunBuggy Orders API
   slug: runbuggy-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runbuggy/refs/heads/main/openapi/runbuggy-orders-api-openapi.yml
+  url: https://artifacts.apis.io/runbuggy/openapi/runbuggy-orders-api-openapi.yml
 - filename: runbuggy-token-api-openapi.yml
   format: yaml
   label: RunBuggy Token API
   slug: runbuggy-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runbuggy/refs/heads/main/openapi/runbuggy-token-api-openapi.yml
+  url: https://artifacts.apis.io/runbuggy/openapi/runbuggy-token-api-openapi.yml
 - filename: runbuggy-vehicle-transfer-orders-api-openapi.yml
   format: yaml
   label: RunBuggy Vehicle Transfer Orders API
   slug: runbuggy-vehicle-transfer-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runbuggy/refs/heads/main/openapi/runbuggy-vehicle-transfer-orders-api-openapi.yml
+  url: https://artifacts.apis.io/runbuggy/openapi/runbuggy-vehicle-transfer-orders-api-openapi.yml
 - filename: runbuggy-webhooks-api-openapi.yml
   format: yaml
   label: RunBuggy Webhooks API
   slug: runbuggy-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runbuggy/refs/heads/main/openapi/runbuggy-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/runbuggy/openapi/runbuggy-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-08-05'\nmethod: searched\nsource: https://docs.ru
   \  documented_expiry_seconds: 60\n  passed_in: URL query parameter `token` on the iframe src\n  source: https://docs.runbuggy.com/docs/shipping/d483faef38c3b-embedding-i-frame-order-status\n  note: Not present in any published specification — the endpoint is documented only in\n    prose. The documented pattern moves a bearer credential through a URL query string.\n- name: mcp-oauth\n  surface: RunBuggy Data Science MCP server\n  type: oauth2\n  spec: OAuth 2.1 authorization code with PKCE (S256) and RFC 7591 dynamic client\n    registration\n  issuer: https://apps.runbuggy.com/runbuggy/mcp-datascience\n  authorization_endpoint: https://apps.runbuggy.com/runbuggy/mcp-datascience/authorize\n  token_endpoint: https://apps.runbuggy.com/runbuggy/mcp-datascience/token\n  registration_endpoint: https://apps.runbuggy.com/runbuggy/mcp-datascience/register\n  revocation_endpoint: https://apps.runbuggy.com/runbuggy/mcp-datascience/revoke\n  grant_types_supported: [authorization_code, refresh_token]\n\
   \  token_endpoint_auth_methods_supported: [client_secret_post, client_secret_basic]\n  scopes_supported: null\n  metadata_file: well-known/runbuggy-oauth-authorization-server.json\n  note: The most modern auth in the estate, and the one RunBuggy documents least — it\n    appears nowhere on runbuggy.com or docs.runbuggy.com.\nmfa:\n  end_user: RunBuggy's security page describes replacing passwords with immutable\n    credentials backed by device-TPM private keys (a phishing-resistant model) for\n    platform users. This applies to the application, not to API tokens.\n  source: https://runbuggy.com/security/\ngaps:\n- No self-service credential issuance for the REST API — every integration begins with a\n  human at RunBuggy.\n- No documented token lifetime, rotation or revocation for the REST bearer token.\n- No scopes on the REST API; a token is all-or-nothing across order creation,\n  cancellation and webhook management.\n- The iframe token exchange endpoint is undocumented in any specification.\n\
   - The MCP OAuth server publishes no scopes_supported and its protected-resource metadata\n  is unreachable.\nx-evidence:\n  fetched: '2026-08-05'\n  probes:\n  - url: https://docs.runbuggy.com/docs/shipping/b6b6c2d4906e9-authentication\n    http_status: 200\n  - url: https://apps.runbuggy.com/.well-known/oauth-authorization-server\n    http_status: 200\n  - url: https://apps.runbuggy.com/runbuggy/mcp-datascience/mcp\n    http_status: 401\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/runbuggy/refs/heads/main/authentication/runbuggy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/runbuggy/authentication/runbuggy-authentication.yml
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - Company
@@ -114,7 +114,7 @@ tags:
 - Vehicle Shipping
 - Marketplace
 - Supply Chain
-- Fleet
+- Fleet Management
 - TMS
 - Freight
 ---

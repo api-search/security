@@ -26,7 +26,7 @@ source_filename: mogassam-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mogassam.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 14 13:29:09 2026 GMT\n  hsts: false\ndomains:\n- domain: mogassam.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mogassam/refs/heads/main/security/mogassam-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mogassam/security/mogassam-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Company

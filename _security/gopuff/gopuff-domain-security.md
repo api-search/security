@@ -5,31 +5,31 @@ api_specs:
   label: Gopuff Availability API
   slug: gopuff-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gopuff/refs/heads/main/openapi/gopuff-availability-api-openapi.yml
+  url: https://artifacts.apis.io/gopuff/openapi/gopuff-availability-api-openapi.yml
 - filename: gopuff-orders-api-openapi.yml
   format: yaml
   label: Gopuff Orders API
   slug: gopuff-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gopuff/refs/heads/main/openapi/gopuff-orders-api-openapi.yml
+  url: https://artifacts.apis.io/gopuff/openapi/gopuff-orders-api-openapi.yml
 - filename: gopuff-rates-api-openapi.yml
   format: yaml
   label: Gopuff Rates API
   slug: gopuff-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gopuff/refs/heads/main/openapi/gopuff-rates-api-openapi.yml
+  url: https://artifacts.apis.io/gopuff/openapi/gopuff-rates-api-openapi.yml
 - filename: gopuff-shops-api-openapi.yml
   format: yaml
   label: Gopuff Shops API
   slug: gopuff-shops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gopuff/refs/heads/main/openapi/gopuff-shops-api-openapi.yml
+  url: https://artifacts.apis.io/gopuff/openapi/gopuff-shops-api-openapi.yml
 - filename: gopuff-zones-api-openapi.yml
   format: yaml
   label: Gopuff Zones API
   slug: gopuff-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gopuff/refs/heads/main/openapi/gopuff-zones-api-openapi.yml
+  url: https://artifacts.apis.io/gopuff/openapi/gopuff-zones-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -81,7 +81,7 @@ source_filename: gopuff-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.gopuff.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 12:20:09 2026 GMT\n  hsts: null\n- host: docs.poweredbygopuff.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 18:32:11 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: fulfillment-api-eus.partners.gopuff.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 01:32:15 2026 GMT\n  hsts: false\ndomains:\n- domain: gopuff.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issuewild \"pki.goog\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"godaddy.com\"\n  - 0 issuewild \"amazontrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: poweredbygopuff.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gopuff/refs/heads/main/security/gopuff-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gopuff/security/gopuff-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Quick Commerce

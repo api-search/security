@@ -5,55 +5,55 @@ api_specs:
   label: TaxJar Categories API
   slug: taxjar-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-categories-api-openapi.yml
+  url: https://artifacts.apis.io/taxjar/openapi/taxjar-categories-api-openapi.yml
 - filename: taxjar-customers-api-openapi.yml
   format: yaml
   label: TaxJar Customers API
   slug: taxjar-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-customers-api-openapi.yml
+  url: https://artifacts.apis.io/taxjar/openapi/taxjar-customers-api-openapi.yml
 - filename: taxjar-nexus-api-openapi.yml
   format: yaml
   label: TaxJar Nexus API
   slug: taxjar-nexus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-nexus-api-openapi.yml
+  url: https://artifacts.apis.io/taxjar/openapi/taxjar-nexus-api-openapi.yml
 - filename: taxjar-rates-api-openapi.yml
   format: yaml
   label: TaxJar Rates API
   slug: taxjar-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-rates-api-openapi.yml
+  url: https://artifacts.apis.io/taxjar/openapi/taxjar-rates-api-openapi.yml
 - filename: taxjar-summary-rates-api-openapi.yml
   format: yaml
   label: TaxJar Summary Rates API
   slug: taxjar-summary-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-summary-rates-api-openapi.yml
+  url: https://artifacts.apis.io/taxjar/openapi/taxjar-summary-rates-api-openapi.yml
 - filename: taxjar-taxes-api-openapi.yml
   format: yaml
   label: TaxJar Taxes API
   slug: taxjar-taxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-taxes-api-openapi.yml
+  url: https://artifacts.apis.io/taxjar/openapi/taxjar-taxes-api-openapi.yml
 - filename: taxjar-transactions-orders-api-openapi.yml
   format: yaml
   label: TaxJar Transactions - Orders API
   slug: taxjar-transactions-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-transactions-orders-api-openapi.yml
+  url: https://artifacts.apis.io/taxjar/openapi/taxjar-transactions-orders-api-openapi.yml
 - filename: taxjar-transactions-refunds-api-openapi.yml
   format: yaml
   label: TaxJar Transactions - Refunds API
   slug: taxjar-transactions-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-transactions-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/taxjar/openapi/taxjar-transactions-refunds-api-openapi.yml
 - filename: taxjar-validations-api-openapi.yml
   format: yaml
   label: TaxJar Validations API
   slug: taxjar-validations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-validations-api-openapi.yml
+  url: https://artifacts.apis.io/taxjar/openapi/taxjar-validations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -91,7 +91,7 @@ source_filename: taxjar-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.taxjar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 23:15:29 2026 GMT\n  hsts: true\n- host: developers.taxjar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 23:15:29 2026 GMT\n  hsts: false\n- host: api.taxjar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  2 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: taxjar.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/security/taxjar-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/taxjar/security/taxjar-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Sales Tax

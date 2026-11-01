@@ -27,7 +27,7 @@ source_filename: fyllo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-16'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.semasio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 01:14:26 2026 GMT\n  hsts: false\ndomains:\n- domain: semasio.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fyllo/refs/heads/main/security/fyllo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fyllo/security/fyllo-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -1,23 +1,17 @@
 ---
 api_specs:
-- filename: freecurrencyapi-currencies-api-openapi.yml
+- filename: freecurrencyapi-metadata-api-openapi.yml
   format: yaml
-  label: Free Currency API Currencies API
-  slug: freecurrencyapi-currencies-api
+  label: Free Currency API Metadata API
+  slug: freecurrencyapi-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freecurrencyapi/refs/heads/main/openapi/freecurrencyapi-currencies-api-openapi.yml
-- filename: freecurrencyapi-exchange-rates-api-openapi.yml
+  url: https://artifacts.apis.io/freecurrencyapi/openapi/freecurrencyapi-metadata-api-openapi.yml
+- filename: freecurrencyapi-rates-api-openapi.yml
   format: yaml
-  label: Free Currency API Exchange Rates API
-  slug: freecurrencyapi-exchange-rates-api
+  label: Free Currency API Rates API
+  slug: freecurrencyapi-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freecurrencyapi/refs/heads/main/openapi/freecurrencyapi-exchange-rates-api-openapi.yml
-- filename: freecurrencyapi-status-api-openapi.yml
-  format: yaml
-  label: Free Currency API Status API
-  slug: freecurrencyapi-status-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freecurrencyapi/refs/heads/main/openapi/freecurrencyapi-status-api-openapi.yml
+  url: https://artifacts.apis.io/freecurrencyapi/openapi/freecurrencyapi-rates-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +45,7 @@ source_filename: freecurrencyapi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: freecurrencyapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 04:18:49 2026 GMT\n  hsts: false\n- host: api.freecurrencyapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 04:18:49 2026 GMT\n  hsts: null\ndomains:\n- domain: freecurrencyapi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freecurrencyapi/refs/heads/main/security/freecurrencyapi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/freecurrencyapi/security/freecurrencyapi-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Currency

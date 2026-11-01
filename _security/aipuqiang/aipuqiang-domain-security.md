@@ -39,7 +39,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aptr.com.cn\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 27 01:11:38 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  hsts_include_subdomains: true\n  hsts_preload: true\n  hsts_note: >-\n    The automated probe recorded hsts: null because aptr.com.cn intermittently drops TLS\n    connections behind its Yundun WAF. A manual HEAD on https://aptr.com.cn/ (HTTP/2 200)\n    returned `strict-transport-security: max-age=63072000; includeSubdomains; preload`,\n    so the header is corrected here from that observation.\n  security_headers:\n    x_frame_options: SAMEORIGIN\n    content_security_policy: frame-ancestors 'self'\n    x_content_type_options: nosniff\n    referrer_policy: strict-origin-when-cross-origin\n    permissions_policy: camera=(), microphone=()\n  cert_expiry_note: >-\n    TLS certificate expires 2026-09-27, thirteen days after this\
   \ probe (2026-09-14).\ndomains:\n- domain: aptr.com.cn\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n  dmarc_note: No _dmarc TXT record published for aptr.com.cn at probe time.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aipuqiang/refs/heads/main/security/aipuqiang-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aipuqiang/security/aipuqiang-domain-security.yml
 summary_line: TLSv1.2 · HSTS
 tags:
 - Company

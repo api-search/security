@@ -36,7 +36,7 @@ source_filename: revlon-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.revlon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 07:05:33 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\n- host: corporate.revlon.com\n  https: false\ndomains:\n- domain: revlon.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"geotrust.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/revlon/refs/heads/main/security/revlon-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/revlon/security/revlon-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Antiperspirant

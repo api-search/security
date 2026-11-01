@@ -7,37 +7,37 @@ api_specs:
   label: Button Accounts API
   slug: usebutton-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/openapi/usebutton-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/usebutton/openapi/usebutton-accounts-api-openapi.yml
 - filename: usebutton-brands-api-api-openapi.yml
   format: yaml
   label: Button Brands Api
   slug: usebutton-brands-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/openapi/usebutton-brands-api-api-openapi.yml
+  url: https://artifacts.apis.io/usebutton/openapi/usebutton-brands-api-api-openapi.yml
 - filename: usebutton-create-api-openapi.yml
   format: yaml
   label: Button Create API
   slug: usebutton-create-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/openapi/usebutton-create-api-openapi.yml
+  url: https://artifacts.apis.io/usebutton/openapi/usebutton-create-api-openapi.yml
 - filename: usebutton-links-api-api-openapi.yml
   format: yaml
   label: Button Links Api
   slug: usebutton-links-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/openapi/usebutton-links-api-api-openapi.yml
+  url: https://artifacts.apis.io/usebutton/openapi/usebutton-links-api-api-openapi.yml
 - filename: usebutton-offers-api-openapi.yml
   format: yaml
   label: Button Offers API
   slug: usebutton-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/openapi/usebutton-offers-api-openapi.yml
+  url: https://artifacts.apis.io/usebutton/openapi/usebutton-offers-api-openapi.yml
 - filename: usebutton-transactions-api-openapi.yml
   format: yaml
   label: Button Transactions API
   slug: usebutton-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/openapi/usebutton-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/usebutton/openapi/usebutton-transactions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -69,7 +69,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: OpenAPI definitions embedded in https://developer.usebutton.com/reference/* pages + curl code samples\ndocs: https://developer.usebutton.com/reference/getting-started\nsummary:\n  types:\n    - http\n  http_schemes:\n    - basic\n  oauth2_flows: []\n  api_key_in: []\n  notes: >-\n    Every Button server-to-server API (Brands, Billing/Affiliation, Links, Shortlink, Offers,\n    Order) authenticates with HTTP Basic auth using the organization's API key as the username\n    and a blank password (curl -u YOUR_API_KEY:). API keys are issued per organization in the\n    Button Dashboard (https://app.usebutton.com). Webhook callbacks are authenticated in the\n    other direction with an HMAC-SHA256 signature over the raw body in the X-Button-Signature\n    header (see asyncapi/usebutton-webhooks.yml).\nschemes:\n  - name: sec0\n    type: http\n    scheme: basic\n    usage: API key as Basic auth username with empty password\n    sources:\n\
   \      - openapi/usebutton-brands-openapi.yml\n      - openapi/usebutton-billing-openapi.yml\n      - openapi/usebutton-links-openapi.yml\n      - openapi/usebutton-shortlink-openapi.yml\n      - openapi/usebutton-offers-openapi.yml\nrelated:\n  webhooks_signature: asyncapi/usebutton-webhooks.yml\n  conventions: conventions/usebutton-conventions.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/authentication/usebutton-authentication.yml
+source_yaml_url: https://artifacts.apis.io/usebutton/authentication/usebutton-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Commerce

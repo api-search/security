@@ -7,19 +7,19 @@ api_specs:
   label: OpenSky Network Flights API
   slug: opensky-flights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensky/refs/heads/main/openapi/opensky-flights-api-openapi.yml
+  url: https://artifacts.apis.io/opensky/openapi/opensky-flights-api-openapi.yml
 - filename: opensky-state-vectors-api-openapi.yml
   format: yaml
   label: OpenSky Network State Vectors API
   slug: opensky-state-vectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensky/refs/heads/main/openapi/opensky-state-vectors-api-openapi.yml
+  url: https://artifacts.apis.io/opensky/openapi/opensky-state-vectors-api-openapi.yml
 - filename: opensky-tracks-api-openapi.yml
   format: yaml
   label: OpenSky Network Tracks API
   slug: opensky-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensky/refs/heads/main/openapi/opensky-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/opensky/openapi/opensky-tracks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -47,7 +47,7 @@ source_filename: opensky-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/opensky-rest-api.json\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: OAuth2 client credentials Bearer token obtained from https://auth.opensky-network.org/auth/realms/opensky-network/protocol/openid-connect/token.\n    Tokens expire after 30 minutes.\n  sources:\n  - openapi/opensky-rest-api.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opensky/refs/heads/main/authentication/opensky-authentication.yml
+source_yaml_url: https://artifacts.apis.io/opensky/authentication/opensky-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Aviation

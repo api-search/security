@@ -5,37 +5,61 @@ api_specs:
   label: Augment API Key API
   slug: augment-api-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/openapi/augment-api-key-api-openapi.yml
+  url: https://artifacts.apis.io/augment/openapi/augment-api-key-api-openapi.yml
 - filename: augment-carrier-management-api-openapi.yml
   format: yaml
   label: Augment Carrier Management API
   slug: augment-carrier-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/openapi/augment-carrier-management-api-openapi.yml
+  url: https://artifacts.apis.io/augment/openapi/augment-carrier-management-api-openapi.yml
 - filename: augment-carrier-support-api-openapi.yml
   format: yaml
   label: Augment Carrier Support API
   slug: augment-carrier-support-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/openapi/augment-carrier-support-api-openapi.yml
+  url: https://artifacts.apis.io/augment/openapi/augment-carrier-support-api-openapi.yml
 - filename: augment-load-management-api-openapi.yml
   format: yaml
   label: Augment Load Management API
   slug: augment-load-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/openapi/augment-load-management-api-openapi.yml
+  url: https://artifacts.apis.io/augment/openapi/augment-load-management-api-openapi.yml
 - filename: augment-webhook-endpoints-api-openapi.yml
   format: yaml
   label: Augment Webhook Endpoints API
   slug: augment-webhook-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/openapi/augment-webhook-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/augment/openapi/augment-webhook-endpoints-api-openapi.yml
 - filename: augment-webhook-event-subscriptions-api-openapi.yml
   format: yaml
   label: Augment Webhook Event Subscriptions API
   slug: augment-webhook-event-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/openapi/augment-webhook-event-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/augment/openapi/augment-webhook-event-subscriptions-api-openapi.yml
+- filename: augment-csv-imports-api-openapi.yml
+  format: yaml
+  label: Augment CSV Imports API
+  slug: augment-csv-imports-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/augment/openapi/augment-csv-imports-api-openapi.yml
+- filename: augment-facility-management-api-openapi.yml
+  format: yaml
+  label: Augment Facility Management API
+  slug: augment-facility-management-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/augment/openapi/augment-facility-management-api-openapi.yml
+- filename: augment-purchase-order-management-api-openapi.yml
+  format: yaml
+  label: Augment Purchase Order Management API
+  slug: augment-purchase-order-management-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/augment/openapi/augment-purchase-order-management-api-openapi.yml
+- filename: augment-quote-management-api-openapi.yml
+  format: yaml
+  label: Augment Quote Management API
+  slug: augment-quote-management-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/augment/openapi/augment-quote-management-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -53,7 +77,7 @@ source_filename: augment-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nprobe: true\nsource: https://trust.goaugment.com/\nurl: https://trust.goaugment.com/\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://trust.goaugment.com/\n  keywords:\n  - soc 2\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/security/augment-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/augment/security/augment-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - Company

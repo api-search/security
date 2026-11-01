@@ -7,31 +7,31 @@ api_specs:
   label: Creatio OData API
   slug: creatio-odata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/openapi/creatio-odata-api-openapi.yml
+  url: https://artifacts.apis.io/creatio/openapi/creatio-odata-api-openapi.yml
 - filename: creatio-clear-bundles-api-openapi.yml
   format: yaml
   label: Creatio Clear Bundles API
   slug: creatio-clear-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/openapi/creatio-clear-bundles-api-openapi.yml
+  url: https://artifacts.apis.io/creatio/openapi/creatio-clear-bundles-api-openapi.yml
 - filename: creatio-minify-content-api-openapi.yml
   format: yaml
   label: Creatio Minify Content API
   slug: creatio-minify-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/openapi/creatio-minify-content-api-openapi.yml
+  url: https://artifacts.apis.io/creatio/openapi/creatio-minify-content-api-openapi.yml
 - filename: creatio-odata-api-openapi.yml
   format: yaml
   label: Creatio Odata API
   slug: creatio-odata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/openapi/creatio-odata-api-openapi.yml
+  url: https://artifacts.apis.io/creatio/openapi/creatio-odata-api-openapi.yml
 - filename: creatio-process-content-api-openapi.yml
   format: yaml
   label: Creatio Process Content API
   slug: creatio-process-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/openapi/creatio-process-content-api-openapi.yml
+  url: https://artifacts.apis.io/creatio/openapi/creatio-process-content-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -89,7 +89,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://academy.creatio.com/docs/developer/integrations_and_api/authentication/authentication_basics/overview\ndocs: https://academy.creatio.com/docs/developer/integrations_and_api/authentication/authentication_basics/overview\nsummary:\n  types: [http, oauth2, cookie]\n  api_key_in: []\n  oauth2_flows: [clientCredentials]\n  recommended: forms-cookie\n  notes: >-\n    Creatio is a multi-tenant platform; the API host is per instance\n    (https://<instance>.creatio.com). All external requests to OData and\n    DataService require authentication. Forms (cookie) authentication is the\n    recommended method for service-to-service integration; OAuth 2.0 is the\n    recommended method for integrated applications.\nschemes:\n  - name: forms-cookie\n    type: cookie\n    scheme: forms-authentication\n    description: >-\n      Cookie-based forms authentication via the AuthService.svc web service.\n      POST credentials to /ServiceModel/AuthService.svc/Login,\
   \ then send the\n      returned cookies (.ASPXAUTH, BPMLOADER, BPMCSRF, UserName) on subsequent\n      requests. The BPMCSRF cookie value must also be echoed in the BPMCSRF\n      request header, and requests set the ForceUseSession: true header.\n    endpoints:\n      login: /ServiceModel/AuthService.svc/Login\n    headers: [BPMCSRF, ForceUseSession]\n    cookies: ['.ASPXAUTH', BPMLOADER, BPMCSRF, UserName]\n    recommended: true\n    source: https://academy.creatio.com/docs/developer/integrations_and_api/authentication/authentication_basics/overview\n  - name: oauth2\n    type: oauth2\n    scheme: clientCredentials\n    description: >-\n      OAuth 2.0 authorization for integrated applications. An OAuth client\n      (client id + client secret) is registered in Creatio's Identity Service,\n      which issues bearer access tokens presented on API requests. Grant type\n      is client credentials (server-to-server). The token endpoint lives on the\n      Identity Service configured for\
   \ the instance.\n    docs: https://academy.creatio.com/documents?id=2396\n    source: https://academy.creatio.com/docs/developer/integrations_and_api/authentication/authentication_basics/overview\n  - name: basic\n    type: http\n    scheme: basic\n    description: HTTP Basic authentication is supported as an available authentication type.\n    source: https://academy.creatio.com/docs/developer/integrations_and_api/authentication/authentication_basics/overview\n  - name: anonymous\n    type: none\n    scheme: anonymous\n    description: Anonymous access is supported for web services explicitly configured to allow it.\n    source: https://academy.creatio.com/docs/developer/integrations_and_api/authentication/authentication_basics/overview\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/authentication/creatio-authentication.yml
+source_yaml_url: https://artifacts.apis.io/creatio/authentication/creatio-authentication.yml
 summary_line: http/oauth2/cookie · 4 schemes
 tags:
 - Company

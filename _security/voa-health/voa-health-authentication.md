@@ -7,13 +7,13 @@ api_specs:
   label: VOA Health Authentication API
   slug: voa-health-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/openapi/voa-health-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/voa-health/openapi/voa-health-authentication-api-openapi.yml
 - filename: voa-health-rnds-api-openapi.yml
   format: yaml
   label: VOA Health RNDS API
   slug: voa-health-rnds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/openapi/voa-health-rnds-api-openapi.yml
+  url: https://artifacts.apis.io/voa-health/openapi/voa-health-rnds-api-openapi.yml
 auth_types: []
 description: Voa uses a two-token model. A long-lived Auth Token identifies the integrating partner (dev convenience, sent as the x-voa-token header). For production, that Auth Token is exchanged per-consultation for a short-lived Bearer JWT (POST /integration/identify/) which authorizes iFrame/plugin embedding and all Voa integration API calls, including RNDS. Voa's own server-to-RNDS leg additionally uses ICP-Brasil A1 mutual-TLS (not exposed to API clients).
 kind: authentication
@@ -52,7 +52,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: >-\n  https://docs.voa.health/integracao/iframe/autenticacao.md and\n  https://docs.voa.health/integracao/rnds/como-funciona.md — Voa's documented\n  authentication model for the integration/iFrame/plugin and RNDS APIs.\ndescription: >-\n  Voa uses a two-token model. A long-lived Auth Token identifies the\n  integrating partner (dev convenience, sent as the x-voa-token header). For\n  production, that Auth Token is exchanged per-consultation for a short-lived\n  Bearer JWT (POST /integration/identify/) which authorizes iFrame/plugin\n  embedding and all Voa integration API calls, including RNDS. Voa's own\n  server-to-RNDS leg additionally uses ICP-Brasil A1 mutual-TLS (not exposed to\n  API clients).\ndocs: https://docs.voa.health/integracao/iframe/autenticacao\nschemes:\n  - id: auth-token\n    type: apiKey\n    in: header\n    name: x-voa-token\n    environment: development\n    description: >-\n      Long-lived Auth Token\
   \ identifying the integrating partner. Used directly\n      in requests during development without per-consultation renewal.\n  - id: bearer-jwt\n    type: http\n    scheme: bearer\n    bearer_format: JWT\n    environment: production\n    description: >-\n      Short-lived per-consultation JWT obtained by exchanging the Auth Token via\n      POST https://api.voa.health/integration/identify/. Expiration configurable\n      via the `expiration` field (seconds, e.g. 43200). Sent as\n      Authorization: Bearer <token> on every Voa integration and RNDS request.\n  - id: rnds-icp-brasil-mtls\n    type: mutualTLS\n    environment: production\n    client_facing: false\n    description: >-\n      Voa authenticates to the RNDS national bus using the establishment's\n      ICP-Brasil A1 digital certificate (e-CPF or e-CNPJ, .pfx/.p12) over mTLS,\n      obtaining a 30-minute RNDS JWT. Managed by Voa; not exposed to API\n      consumers. A3 (hardware token) certificates are not supported.\noauth2:\
   \ false\nnotes:\n  - Rate limits apply per token (1000 req/hour, 10 req/second).\n  - RNDS submission adds 2-5s latency due to the national-bus round trip; async calls recommended.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/authentication/voa-health-authentication.yml
+source_yaml_url: https://artifacts.apis.io/voa-health/authentication/voa-health-authentication.yml
 summary_line: 3 schemes
 tags:
 - Company

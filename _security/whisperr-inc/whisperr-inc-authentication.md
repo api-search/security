@@ -8,43 +8,43 @@ api_specs:
   label: Whisperr, Inc. Dashboard API
   slug: whisperr-inc-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/openapi/whisperr-inc-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/whisperr-inc/openapi/whisperr-inc-dashboard-api-openapi.yml
 - filename: whisperr-inc-decisioning-api-openapi.yml
   format: yaml
   label: Whisperr, Inc. Decisioning API
   slug: whisperr-inc-decisioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/openapi/whisperr-inc-decisioning-api-openapi.yml
+  url: https://artifacts.apis.io/whisperr-inc/openapi/whisperr-inc-decisioning-api-openapi.yml
 - filename: whisperr-inc-delivery-api-openapi.yml
   format: yaml
   label: Whisperr, Inc. Delivery API
   slug: whisperr-inc-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/openapi/whisperr-inc-delivery-api-openapi.yml
+  url: https://artifacts.apis.io/whisperr-inc/openapi/whisperr-inc-delivery-api-openapi.yml
 - filename: whisperr-inc-ingestion-api-openapi.yml
   format: yaml
   label: Whisperr, Inc. Ingestion API
   slug: whisperr-inc-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/openapi/whisperr-inc-ingestion-api-openapi.yml
+  url: https://artifacts.apis.io/whisperr-inc/openapi/whisperr-inc-ingestion-api-openapi.yml
 - filename: whisperr-inc-internal-api-openapi.yml
   format: yaml
   label: Whisperr, Inc. Internal API
   slug: whisperr-inc-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/openapi/whisperr-inc-internal-api-openapi.yml
+  url: https://artifacts.apis.io/whisperr-inc/openapi/whisperr-inc-internal-api-openapi.yml
 - filename: whisperr-inc-system-api-openapi.yml
   format: yaml
   label: Whisperr, Inc. System API
   slug: whisperr-inc-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/openapi/whisperr-inc-system-api-openapi.yml
+  url: https://artifacts.apis.io/whisperr-inc/openapi/whisperr-inc-system-api-openapi.yml
 - filename: whisperr-inc-users-api-openapi.yml
   format: yaml
   label: Whisperr, Inc. Users API
   slug: whisperr-inc-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/openapi/whisperr-inc-users-api-openapi.yml
+  url: https://artifacts.apis.io/whisperr-inc/openapi/whisperr-inc-users-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://d
   \  - identifyUser\n  - getUser\n  - getUserState\n  - previewDecision\n  sources:\n  - https://docs.whisperr.net/api/overview/\n  - openapi/whisperr-inc-runtime-openapi.json\n- name: DashboardBearer\n  type: http\n  scheme: bearer\n  bearerFormat: Supabase JWT\n  description: 'Use `Authorization: Bearer <supabase_access_token>` from Supabase Auth.'\n  identity_provider: Supabase Auth\n  note: >-\n    Guards all 44 dashboard operations. This is a human console session token,\n    not a machine credential — there is no documented service-account or\n    client-credentials flow to obtain one, so the dashboard surface is not\n    programmatically accessible by design.\n  sources:\n  - openapi/whisperr-inc-runtime-openapi.json\n- name: OnboardingImportSecret\n  type: apiKey\n  in: header\n  parameter: X-Whisp-Onboarding-Import-Secret\n  description: Shared secret guarding the internal onboarding import.\n  note: >-\n    Internal service-to-service only (importOnboardingSession) — whisp-onboarding-panel\n\
   \    handing a completed session to the whisp-go runtime. Not available to\n    customers.\n  sources:\n  - openapi/whisperr-inc-runtime-openapi.json\nunauthenticated:\n- path: /health\n  operationId: getHealth\n  verified: probed 2026-08-13, HTTP 200\n- path: /metrics\n  operationId: getMetrics\n  verified: probed 2026-08-13, HTTP 200\n- path: /openapi.json\n  verified: probed 2026-08-13, HTTP 200\n- path: /delivery/webhooks/postmark/{token}\n  operationId: receivePostmarkDeliveryWebhook\n  note: Authenticated by the unguessable token in the path; inbound from Postmark.\nobserved_failure:\n  method: probed\n  request: GET https://api.whisperr.net/v1/users/test (no credentials)\n  status: 401\n  body: '{\"error\":{\"code\":\"missing_api_key\",\"message\":\"api key is required\",\"request_id\":\"<uuid>\"}}'\n  note: Confirms the key is genuinely enforced on the public surface.\ngaps:\n- No OAuth 2.0, OpenID Connect, or mTLS anywhere in the API.\n- No scopes or permissions model — the ingestion\
   \ key is all-or-nothing for its app.\n- No documented key rotation or expiry policy.\n- >-\n  No /.well-known/oauth-authorization-server or /.well-known/openid-configuration\n  on any host (probed 2026-08-13: 404 on api.whisperr.net).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/authentication/whisperr-inc-authentication.yml
+source_yaml_url: https://artifacts.apis.io/whisperr-inc/authentication/whisperr-inc-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Company

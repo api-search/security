@@ -5,25 +5,25 @@ api_specs:
   label: Fake Store API Auth API
   slug: fake-store-api-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fake-store-api/refs/heads/main/openapi/fake-store-api-auth-api-openapi.yml
+  url: https://artifacts.apis.io/fake-store-api/openapi/fake-store-api-auth-api-openapi.yml
 - filename: fake-store-api-carts-api-openapi.yml
   format: yaml
   label: Fake Store API Carts API
   slug: fake-store-api-carts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fake-store-api/refs/heads/main/openapi/fake-store-api-carts-api-openapi.yml
+  url: https://artifacts.apis.io/fake-store-api/openapi/fake-store-api-carts-api-openapi.yml
 - filename: fake-store-api-products-api-openapi.yml
   format: yaml
   label: Fake Store API Products API
   slug: fake-store-api-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fake-store-api/refs/heads/main/openapi/fake-store-api-products-api-openapi.yml
+  url: https://artifacts.apis.io/fake-store-api/openapi/fake-store-api-products-api-openapi.yml
 - filename: fake-store-api-users-api-openapi.yml
   format: yaml
   label: Fake Store API Users API
   slug: fake-store-api-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fake-store-api/refs/heads/main/openapi/fake-store-api-users-api-openapi.yml
+  url: https://artifacts.apis.io/fake-store-api/openapi/fake-store-api-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: fake-store-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: fakestoreapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 07:59:55 2026 GMT\n  hsts: null\ndomains:\n- domain: fakestoreapi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fake-store-api/refs/heads/main/security/fake-store-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fake-store-api/security/fake-store-api-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Customers

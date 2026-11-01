@@ -5,31 +5,31 @@ api_specs:
   label: Hazelcast Cluster API
   slug: hazelcast-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hazelcast/refs/heads/main/openapi/hazelcast-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/hazelcast/openapi/hazelcast-cluster-api-openapi.yml
 - filename: hazelcast-configuration-api-openapi.yml
   format: yaml
   label: Hazelcast Configuration API
   slug: hazelcast-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hazelcast/refs/heads/main/openapi/hazelcast-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/hazelcast/openapi/hazelcast-configuration-api-openapi.yml
 - filename: hazelcast-health-api-openapi.yml
   format: yaml
   label: Hazelcast Health API
   slug: hazelcast-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hazelcast/refs/heads/main/openapi/hazelcast-health-api-openapi.yml
+  url: https://artifacts.apis.io/hazelcast/openapi/hazelcast-health-api-openapi.yml
 - filename: hazelcast-maps-api-openapi.yml
   format: yaml
   label: Hazelcast Maps API
   slug: hazelcast-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hazelcast/refs/heads/main/openapi/hazelcast-maps-api-openapi.yml
+  url: https://artifacts.apis.io/hazelcast/openapi/hazelcast-maps-api-openapi.yml
 - filename: hazelcast-queues-api-openapi.yml
   format: yaml
   label: Hazelcast Queues API
   slug: hazelcast-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hazelcast/refs/heads/main/openapi/hazelcast-queues-api-openapi.yml
+  url: https://artifacts.apis.io/hazelcast/openapi/hazelcast-queues-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -71,7 +71,7 @@ source_filename: hazelcast-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: hazelcast.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 23:16:17 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.hazelcast.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 13:59:10 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: hazelcast.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hazelcast/refs/heads/main/security/hazelcast-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hazelcast/security/hazelcast-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data Caching

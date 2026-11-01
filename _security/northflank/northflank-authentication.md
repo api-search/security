@@ -7,25 +7,25 @@ api_specs:
   label: Northflank Jobs API
   slug: northflank-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northflank/refs/heads/main/openapi/northflank-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/northflank/openapi/northflank-jobs-api-openapi.yml
 - filename: northflank-projects-api-openapi.yml
   format: yaml
   label: Northflank Projects API
   slug: northflank-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northflank/refs/heads/main/openapi/northflank-projects-api-openapi.yml
+  url: https://artifacts.apis.io/northflank/openapi/northflank-projects-api-openapi.yml
 - filename: northflank-services-api-openapi.yml
   format: yaml
   label: Northflank Services API
   slug: northflank-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northflank/refs/heads/main/openapi/northflank-services-api-openapi.yml
+  url: https://artifacts.apis.io/northflank/openapi/northflank-services-api-openapi.yml
 - filename: northflank-add-ons-api-openapi.yml
   format: yaml
   label: Northflank Add Ons API
   slug: northflank-add-ons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northflank/refs/heads/main/openapi/northflank-add-ons-api-openapi.yml
+  url: https://artifacts.apis.io/northflank/openapi/northflank-add-ons-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -51,7 +51,7 @@ source_filename: northflank-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/northflank-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/northflank-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/northflank/refs/heads/main/authentication/northflank-authentication.yml
+source_yaml_url: https://artifacts.apis.io/northflank/authentication/northflank-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Cloud Deployment

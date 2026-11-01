@@ -5,19 +5,19 @@ api_specs:
   label: Memories Serve API
   slug: memories-serve-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/openapi/memories-serve-api-openapi.yml
+  url: https://artifacts.apis.io/memories/openapi/memories-serve-api-openapi.yml
 - filename: memories-stream-understanding-api-openapi.yml
   format: yaml
   label: Memories Stream Understanding API
   slug: memories-stream-understanding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/openapi/memories-stream-understanding-api-openapi.yml
+  url: https://artifacts.apis.io/memories/openapi/memories-stream-understanding-api-openapi.yml
 - filename: memories-understand-api-openapi.yml
   format: yaml
   label: Memories Understand API
   slug: memories-understand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/openapi/memories-understand-api-openapi.yml
+  url: https://artifacts.apis.io/memories/openapi/memories-understand-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -36,7 +36,7 @@ source_filename: memories-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nprobe: true\nsource: https://memories.ai/security\nurl: https://memories.ai/security\ncertifications:\n- SOC 2\n- HIPAA\n- GDPR\nevidence:\n- source: https://memories.ai/security\n  keywords:\n  - soc 2\n  - hipaa\n  - trust center\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/security/memories-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/memories/security/memories-trust-center.yml
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Company

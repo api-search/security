@@ -7,25 +7,25 @@ api_specs:
   label: acuity-brands Catalog API
   slug: acuity-brands-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuity-brands/refs/heads/main/openapi/acuity-brands-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/acuity-brands/openapi/acuity-brands-catalog-api-openapi.yml
 - filename: acuity-brands-inventory-api-openapi.yml
   format: yaml
   label: acuity-brands Inventory API
   slug: acuity-brands-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuity-brands/refs/heads/main/openapi/acuity-brands-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/acuity-brands/openapi/acuity-brands-inventory-api-openapi.yml
 - filename: acuity-brands-orders-api-openapi.yml
   format: yaml
   label: acuity-brands Orders API
   slug: acuity-brands-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuity-brands/refs/heads/main/openapi/acuity-brands-orders-api-openapi.yml
+  url: https://artifacts.apis.io/acuity-brands/openapi/acuity-brands-orders-api-openapi.yml
 - filename: acuity-brands-web-pages-api-openapi.yml
   format: yaml
   label: Acuity Brands Web Pages API
   slug: acuity-brands-web-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuity-brands/refs/heads/main/openapi/acuity-brands-web-pages-api-openapi.yml
+  url: https://artifacts.apis.io/acuity-brands/openapi/acuity-brands-web-pages-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: acuity-brands-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/acuity-brands.json\nsummary:\n  types:\n  - http\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic Auth using numeric User ID as username and API Key as password\n  sources:\n  - openapi/acuity-brands.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acuity-brands/refs/heads/main/authentication/acuity-brands-authentication.yml
+source_yaml_url: https://artifacts.apis.io/acuity-brands/authentication/acuity-brands-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Fortune 1000

@@ -39,7 +39,7 @@ source_filename: kount-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: kount.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 11:51:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.kount.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 23:45:53 2026 GMT\n  hsts: true\n  hsts_max_age: 259200\n- host: api.kount.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  5 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: kount.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kount/refs/heads/main/security/kount-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kount/security/kount-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fraud Prevention

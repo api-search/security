@@ -5,19 +5,19 @@ api_specs:
   label: CI HUB Assets API
   slug: ci-hub-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ci-hub/refs/heads/main/openapi/ci-hub-assets-api-openapi.yml
+  url: https://artifacts.apis.io/ci-hub/openapi/ci-hub-assets-api-openapi.yml
 - filename: ci-hub-auth-api-openapi.yml
   format: yaml
   label: CI HUB Auth API
   slug: ci-hub-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ci-hub/refs/heads/main/openapi/ci-hub-auth-api-openapi.yml
+  url: https://artifacts.apis.io/ci-hub/openapi/ci-hub-auth-api-openapi.yml
 - filename: ci-hub-system-api-openapi.yml
   format: yaml
   label: CI HUB System API
   slug: ci-hub-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ci-hub/refs/heads/main/openapi/ci-hub-system-api-openapi.yml
+  url: https://artifacts.apis.io/ci-hub/openapi/ci-hub-system-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: ci-hub-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: live.ci-hub.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  9 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: stage.ci-hub.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 10 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: ci-hub.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ci-hub/refs/heads/main/security/ci-hub-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ci-hub/security/ci-hub-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

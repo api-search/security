@@ -7,73 +7,73 @@ api_specs:
   label: Extend Claims Management API
   slug: extend-claims-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-claims-management-api-openapi.yml
+  url: https://artifacts.apis.io/extend/openapi/extend-claims-management-api-openapi.yml
 - filename: extend-contracts-api-openapi.yml
   format: yaml
   label: Extend Contracts API
   slug: extend-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/extend/openapi/extend-contracts-api-openapi.yml
 - filename: extend-leads-api-openapi.yml
   format: yaml
   label: Extend Leads API
   slug: extend-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-leads-api-openapi.yml
+  url: https://artifacts.apis.io/extend/openapi/extend-leads-api-openapi.yml
 - filename: extend-offers-api-openapi.yml
   format: yaml
   label: Extend Offers API
   slug: extend-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-offers-api-openapi.yml
+  url: https://artifacts.apis.io/extend/openapi/extend-offers-api-openapi.yml
 - filename: extend-orders-api-openapi.yml
   format: yaml
   label: Extend Orders API
   slug: extend-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-orders-api-openapi.yml
+  url: https://artifacts.apis.io/extend/openapi/extend-orders-api-openapi.yml
 - filename: extend-products-api-openapi.yml
   format: yaml
   label: Extend Products API
   slug: extend-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-products-api-openapi.yml
+  url: https://artifacts.apis.io/extend/openapi/extend-products-api-openapi.yml
 - filename: extend-refunds-api-openapi.yml
   format: yaml
   label: Extend Refunds API
   slug: extend-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/extend/openapi/extend-refunds-api-openapi.yml
 - filename: extend-service-orders-api-openapi.yml
   format: yaml
   label: Extend Service Orders API
   slug: extend-service-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-service-orders-api-openapi.yml
+  url: https://artifacts.apis.io/extend/openapi/extend-service-orders-api-openapi.yml
 - filename: extend-dynamic-return-policy-api-openapi.yml
   format: yaml
   label: Extend Dynamic Return Policy API
   slug: extend-dynamic-return-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-dynamic-return-policy-api-openapi.yml
+  url: https://artifacts.apis.io/extend/openapi/extend-dynamic-return-policy-api-openapi.yml
 - filename: extend-line-items-api-openapi.yml
   format: yaml
   label: Extend Line Items API
   slug: extend-line-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-line-items-api-openapi.yml
+  url: https://artifacts.apis.io/extend/openapi/extend-line-items-api-openapi.yml
 - filename: extend-shippingoffers-api-openapi.yml
   format: yaml
   label: Extend Shipping Offers API
   slug: extend-shippingoffers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-shippingoffers-api-openapi.yml
+  url: https://artifacts.apis.io/extend/openapi/extend-shippingoffers-api-openapi.yml
 - filename: extend-webhooks-api-openapi.yml
   format: yaml
   label: Extend Webhooks API
   slug: extend-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/extend/openapi/extend-webhooks-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -114,7 +114,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://docs.extend.com/reference/authentication\ndocs: https://docs.extend.com/reference/authentication\ndiscovery: https://api.helloextend.com/.well-known/openid-configuration\nsummary:\n  types: [oauth2]\n  oauth2_flows: [clientCredentials]\n  access_token_header: X-Extend-Access-Token\nschemes:\n- name: OAuth2ClientCredentials\n  type: oauth2\n  flow: clientCredentials\n  description: >-\n    An Admin or API Manager creates an API Integration in the Extend Merchant Portal, which\n    issues an OAuth Client ID and Client Secret. These are exchanged for a short-lived access\n    token via the token endpoint using grant_type=client_credentials.\n  token_url: https://api.helloextend.com/auth/oauth/token\n  authorization_url: https://api.helloextend.com/auth/oauth/authorize\n  introspection_url: https://api.helloextend.com/auth/oauth/introspect\n  jwks_uri: https://api.helloextend.com/auth/oauth/keys\n  id_token_signing_alg:\
   \ [ES256, RS256]\n  grant_types: [client_credentials, iam_client_credentials]\n- name: AccessTokenHeader\n  type: apiKey\n  in: header\n  name: X-Extend-Access-Token\n  description: >-\n    The access token obtained from the client-credentials exchange is passed on most requests in\n    the X-Extend-Access-Token request header (not a standard Authorization: Bearer header).\nenvironments:\n- name: production\n  base_url: https://api.helloextend.com\n- name: demo\n  base_url: https://api-demo.helloextend.com\n  note: Separate credentials must be created in the demo Merchant Portal (merchants.demo.extend.com).\nnotes: >-\n  Extend uses OAuth2 client-credentials to mint short-lived access tokens, then passes the token\n  in the custom X-Extend-Access-Token header rather than Authorization. No user-facing OAuth\n  scopes are documented (machine-to-machine client credentials), so no scopes/ artifact is\n  emitted.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/authentication/extend-authentication.yml
+source_yaml_url: https://artifacts.apis.io/extend/authentication/extend-authentication.yml
 summary_line: oauth2 · 2 schemes
 tags:
 - Company

@@ -5,25 +5,25 @@ api_specs:
   label: Orange Health Orders API
   slug: orange-health-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orange-health/refs/heads/main/openapi/orange-health-orders-api-openapi.yml
+  url: https://artifacts.apis.io/orange-health/openapi/orange-health-orders-api-openapi.yml
 - filename: orange-health-results-api-openapi.yml
   format: yaml
   label: Orange Health Results API
   slug: orange-health-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orange-health/refs/heads/main/openapi/orange-health-results-api-openapi.yml
+  url: https://artifacts.apis.io/orange-health/openapi/orange-health-results-api-openapi.yml
 - filename: orange-health-serviceability-api-openapi.yml
   format: yaml
   label: Orange Health Serviceability API
   slug: orange-health-serviceability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orange-health/refs/heads/main/openapi/orange-health-serviceability-api-openapi.yml
+  url: https://artifacts.apis.io/orange-health/openapi/orange-health-serviceability-api-openapi.yml
 - filename: orange-health-orange-health-partner-api-api-openapi.yml
   format: yaml
   label: Orange Health Orange Health Partner API
   slug: orange-health-orange-health-partner-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orange-health/refs/heads/main/openapi/orange-health-orange-health-partner-api-api-openapi.yml
+  url: https://artifacts.apis.io/orange-health/openapi/orange-health-orange-health-partner-api-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -74,7 +74,7 @@ source_filename: orange-health-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.orangehealth.in\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: partner-api.orangehealth.in\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 27 23:59:59 2026 GMT\n  hsts: null\n- host: sandbox-partner-api.orangehealth.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: orangehealth.in\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazon.com\"\n  - 0 iodef \"mailto:secure@orangehealth.in\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: orangehealth.dev\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazon.com\"\n  - 0 iodef \"mailto:secure@orangehealth.in\"\n  - 0 issue \"amazon.com\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orange-health/refs/heads/main/security/orange-health-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/orange-health/security/orange-health-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

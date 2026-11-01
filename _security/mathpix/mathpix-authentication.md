@@ -8,43 +8,43 @@ api_specs:
   label: Mathpix Strokes API
   slug: mathpix-strokes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-strokes-api-openapi.yml
+  url: https://artifacts.apis.io/mathpix/openapi/mathpix-strokes-api-openapi.yml
 - filename: mathpix-app-tokens-api-openapi.yml
   format: yaml
   label: Mathpix App Tokens API
   slug: mathpix-app-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-app-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/mathpix/openapi/mathpix-app-tokens-api-openapi.yml
 - filename: mathpix-batches-api-openapi.yml
   format: yaml
   label: Mathpix Batches API
   slug: mathpix-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-batches-api-openapi.yml
+  url: https://artifacts.apis.io/mathpix/openapi/mathpix-batches-api-openapi.yml
 - filename: mathpix-conversions-api-openapi.yml
   format: yaml
   label: Mathpix Conversions API
   slug: mathpix-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/mathpix/openapi/mathpix-conversions-api-openapi.yml
 - filename: mathpix-images-api-openapi.yml
   format: yaml
   label: Mathpix Images API
   slug: mathpix-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-images-api-openapi.yml
+  url: https://artifacts.apis.io/mathpix/openapi/mathpix-images-api-openapi.yml
 - filename: mathpix-usage-api-openapi.yml
   format: yaml
   label: Mathpix Usage API
   slug: mathpix-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-usage-api-openapi.yml
+  url: https://artifacts.apis.io/mathpix/openapi/mathpix-usage-api-openapi.yml
 - filename: mathpix-documents-api-openapi.yml
   format: yaml
   label: Mathpix Documents API
   slug: mathpix-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-documents-api-openapi.yml
+  url: https://artifacts.apis.io/mathpix/openapi/mathpix-documents-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -87,7 +87,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/mathpix-app-tokens-api-openapi.yml, openapi/mathpix-batch-api-openapi.yml, openapi/mathpix-convert-api-openapi.yml,\n  openapi/mathpix-image-ocr-api-openapi.yml, openapi/mathpix-ocr-usage-api-openapi.yml, openapi/mathpix-strokes-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: AppKeyAuth\n  type: apiKey\n  in: header\n  parameter: app_key\n  sources:\n  - openapi/mathpix-app-tokens-api-openapi.yml\n  - openapi/mathpix-batch-api-openapi.yml\n  - openapi/mathpix-convert-api-openapi.yml\n  - openapi/mathpix-image-ocr-api-openapi.yml\n  - openapi/mathpix-ocr-usage-api-openapi.yml\n  - openapi/mathpix-strokes-api-openapi.yml\n- name: AppIdAuth\n  type: apiKey\n  in: header\n  parameter: app_id\n  sources:\n  - openapi/mathpix-batch-api-openapi.yml\n  - openapi/mathpix-convert-api-openapi.yml\n  - openapi/mathpix-image-ocr-api-openapi.yml\n  - openapi/mathpix-ocr-usage-api-openapi.yml\n\
   \  - openapi/mathpix-strokes-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/authentication/mathpix-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mathpix/authentication/mathpix-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - OCR

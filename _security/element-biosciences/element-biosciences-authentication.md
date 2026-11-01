@@ -8,31 +8,31 @@ api_specs:
   label: Element Biosciences Execution Service API
   slug: element-biosciences-executionservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/openapi/element-biosciences-executionservice-api-openapi.yml
+  url: https://artifacts.apis.io/element-biosciences/openapi/element-biosciences-executionservice-api-openapi.yml
 - filename: element-biosciences-instrumentservice-api-openapi.yml
   format: yaml
   label: Element Biosciences Instrument Service API
   slug: element-biosciences-instrumentservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/openapi/element-biosciences-instrumentservice-api-openapi.yml
+  url: https://artifacts.apis.io/element-biosciences/openapi/element-biosciences-instrumentservice-api-openapi.yml
 - filename: element-biosciences-runservice-api-openapi.yml
   format: yaml
   label: Element Biosciences Run Service API
   slug: element-biosciences-runservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/openapi/element-biosciences-runservice-api-openapi.yml
+  url: https://artifacts.apis.io/element-biosciences/openapi/element-biosciences-runservice-api-openapi.yml
 - filename: element-biosciences-storageconnectionservice-api-openapi.yml
   format: yaml
   label: Element Biosciences Storage Connection Service API
   slug: element-biosciences-storageconnectionservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/openapi/element-biosciences-storageconnectionservice-api-openapi.yml
+  url: https://artifacts.apis.io/element-biosciences/openapi/element-biosciences-storageconnectionservice-api-openapi.yml
 - filename: element-biosciences-auth-service-api-openapi.yml
   format: yaml
   label: Element Biosciences Auth Service API
   slug: element-biosciences-auth-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/openapi/element-biosciences-auth-service-api-openapi.yml
+  url: https://artifacts.apis.io/element-biosciences/openapi/element-biosciences-auth-service-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: element-biosciences-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: derived\nsource: openapi/element-biosciences-cloud-api-openapi-original.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: API key obtained from the Element Biosciences Cloud console\n  sources:\n  - openapi/element-biosciences-cloud-api-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/authentication/element-biosciences-authentication.yml
+source_yaml_url: https://artifacts.apis.io/element-biosciences/authentication/element-biosciences-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

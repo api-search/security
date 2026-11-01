@@ -5,13 +5,13 @@ api_specs:
   label: Assertible API
   slug: assertible-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assertible/refs/heads/main/openapi/assertible-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/assertible/openapi/assertible-triggers-api-openapi.yml
 - filename: assertible-deployments-api-openapi.yml
   format: yaml
   label: Assertible Deployments API
   slug: assertible-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assertible/refs/heads/main/openapi/assertible-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/assertible/openapi/assertible-deployments-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -42,7 +42,7 @@ source_filename: assertible-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: assertible.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 17 23:59:59 2027 GMT\n  hsts: false\n- host: api.assertible.com\n  https: false\ndomains:\n- domain: assertible.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/assertible/refs/heads/main/security/assertible-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/assertible/security/assertible-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - API Testing

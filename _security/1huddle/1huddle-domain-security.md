@@ -28,7 +28,7 @@ source_filename: 1huddle-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: 1huddle.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 23:01:32 2026 GMT\n  hsts: true\n  hsts_max_age: 10886400\ndomains:\n- domain: 1huddle.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1huddle/refs/heads/main/security/1huddle-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/1huddle/security/1huddle-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

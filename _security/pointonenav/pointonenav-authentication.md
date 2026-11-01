@@ -31,7 +31,7 @@ source_filename: pointonenav-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: docs.pointonenav.com GraphQL API quickstart + github.com/PointOneNav/polaris\ndocs: https://docs.pointonenav.com/docs/graphql-api/quickstart\nsummary: >-\n  Point One services authenticate with an API key issued from the developer\n  portal at app.pointonenav.com. The same key model applies to the GraphQL API\n  and to the Polaris RTK Network Service.\nschemes:\n- api: Point One GraphQL API\n  type: apiKey\n  in: header\n  key_source: https://app.pointonenav.com\n  docs: https://docs.pointonenav.com/docs/graphql-api/quickstart\n  description: API-key authenticated GraphQL endpoint for workflow and data\n    management.\n- api: Polaris RTK Network Service\n  type: apiKey\n  key_source: https://app.pointonenav.com\n  docs: https://github.com/PointOneNav/polaris\n  description: A valid Polaris API key is required to establish a connection to the\n    RTK corrections stream (polaris.pointonenav.com).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pointonenav/refs/heads/main/authentication/pointonenav-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pointonenav/authentication/pointonenav-authentication.yml
 summary_line: 2 schemes
 tags:
 - Company

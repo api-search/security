@@ -7,31 +7,31 @@ api_specs:
   label: Nine Fives Attenuator API
   slug: nine-fives-attenuator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/openapi/nine-fives-attenuator-api-openapi.yml
+  url: https://artifacts.apis.io/nine-fives/openapi/nine-fives-attenuator-api-openapi.yml
 - filename: nine-fives-firmware-api-openapi.yml
   format: yaml
   label: Nine Fives Firmware API
   slug: nine-fives-firmware-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/openapi/nine-fives-firmware-api-openapi.yml
+  url: https://artifacts.apis.io/nine-fives/openapi/nine-fives-firmware-api-openapi.yml
 - filename: nine-fives-network-api-openapi.yml
   format: yaml
   label: Nine Fives Network API
   slug: nine-fives-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/openapi/nine-fives-network-api-openapi.yml
+  url: https://artifacts.apis.io/nine-fives/openapi/nine-fives-network-api-openapi.yml
 - filename: nine-fives-switch-api-openapi.yml
   format: yaml
   label: Nine Fives Switch API
   slug: nine-fives-switch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/openapi/nine-fives-switch-api-openapi.yml
+  url: https://artifacts.apis.io/nine-fives/openapi/nine-fives-switch-api-openapi.yml
 - filename: nine-fives-system-api-openapi.yml
   format: yaml
   label: Nine Fives System API
   slug: nine-fives-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/openapi/nine-fives-system-api-openapi.yml
+  url: https://artifacts.apis.io/nine-fives/openapi/nine-fives-system-api-openapi.yml
 auth_types:
 - none
 description: ''
@@ -53,7 +53,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://docs.ninefives.com/attenuator/rest-api/overview/\nsummary:\n  types: [none]\n  note: >-\n    The Nine Fives device REST API (attenuator and SPDT switch) is served directly\n    by the instrument on the local network (Ethernet / USB-C) on port 80 and\n    documents NO authentication — access control is the local network boundary,\n    consistent with lab-bench RF test instruments. SCPI over TCP (5025) and HiSLIP\n    (4880) are likewise unauthenticated. Deployments should isolate devices on a\n    trusted test LAN.\nschemes: []\nstorefront_auth:\n  note: >-\n    Separately, the ninefives.com Shopify storefront exposes customer-account\n    OpenID Connect (issuer https://shopify.com/authentication/77424886003) for\n    shopper login — this governs the store, not the device API.\n  type: openIdConnect\n  issuer: https://shopify.com/authentication/77424886003\n  scopes_supported: [openid, email, customer-account-api:full,\
   \ customer-account-mcp-api:full]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/authentication/nine-fives-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nine-fives/authentication/nine-fives-authentication.yml
 summary_line: none · 0 schemes
 tags:
 - Company

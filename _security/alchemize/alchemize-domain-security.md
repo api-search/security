@@ -32,7 +32,7 @@ source_filename: alchemize-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tryalchemize.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 05:57:10 2026 GMT\n  hsts: false\n- host: api.tryalchemize.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 03:05:06 2026 GMT\n  hsts: null\ndomains:\n- domain: tryalchemize.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alchemize/refs/heads/main/security/alchemize-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/alchemize/security/alchemize-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

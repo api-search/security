@@ -8,7 +8,7 @@ api_specs:
   label: Literal AI Graph QL API
   slug: literalai-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/literalai/refs/heads/main/openapi/literalai-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/literalai/openapi/literalai-graph-ql-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: literalai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/literalai-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: Project API key from the Literal AI dashboard, supplied via the LITERAL_API_KEY\n    environment variable in the SDKs.\n  sources:\n  - openapi/literalai-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/literalai/refs/heads/main/authentication/literalai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/literalai/authentication/literalai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence

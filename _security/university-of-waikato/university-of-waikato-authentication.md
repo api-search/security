@@ -7,19 +7,19 @@ api_specs:
   label: University of Waikato Authentication API
   slug: university-of-waikato-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-waikato/refs/heads/main/openapi/university-of-waikato-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-waikato/openapi/university-of-waikato-authentication-api-openapi.yml
 - filename: university-of-waikato-discovery-api-openapi.yml
   format: yaml
   label: University of Waikato Discovery API
   slug: university-of-waikato-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-waikato/refs/heads/main/openapi/university-of-waikato-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-waikato/openapi/university-of-waikato-discovery-api-openapi.yml
 - filename: university-of-waikato-session-api-openapi.yml
   format: yaml
   label: University of Waikato Session API
   slug: university-of-waikato-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-waikato/refs/heads/main/openapi/university-of-waikato-session-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-waikato/openapi/university-of-waikato-session-api-openapi.yml
 auth_types:
 - openIdConnect
 - http
@@ -163,7 +163,7 @@ source_yaml: "generated: '2026-09-01'\nmethod: probed\nsource: >-\n  https://api
   \ 220f5dc3-9452-48e5-9b4f-888df42f7a2d\n  issuer: https://login.microsoftonline.com/220f5dc3-9452-48e5-9b4f-888df42f7a2d/v2.0\n  metadata: https://login.microsoftonline.com/220f5dc3-9452-48e5-9b4f-888df42f7a2d/federationmetadata/2007-06/federationmetadata.xml\n  notes: >-\n    The university's Microsoft Entra ID tenant is the live SAML issuer for elearn.waikato.ac.nz and\n    the identity source behind uowidp. Tenant region OC (Oceania), cloud microsoftonline.com.\n  verified:\n  - url: https://login.microsoftonline.com/220f5dc3-9452-48e5-9b4f-888df42f7a2d/v2.0/.well-known/openid-configuration\n    status: 200\n- name: ots-basic\n  type: http\n  scheme: basic\n  operator: institution\n  description: >-\n    The One-Time Secret service at otis.its.waikato.ac.nz authenticates every API request with HTTP\n    Basic — username is the caller's Stella account login, password is an API token shown on the\n    caller's account page. Credentials are institutional; there is no public sign-up.\n\
   \  docs: https://otis.its.waikato.ac.nz/docs/api\n  verified:\n  - url: https://otis.its.waikato.ac.nz/docs/api\n    status: 200\n- name: lti-1p3-client-credentials\n  type: oauth2\n  grant_types: [client_credentials]\n  operator: institution\n  token_endpoint: https://elearn.waikato.ac.nz/mod/lti/token.php\n  jwks_uri: https://elearn.waikato.ac.nz/mod/lti/certs.php\n  description: >-\n    LTI 1.3 tool launches against the eLearn Moodle platform use signed JWT client credentials\n    against the platform token endpoint, with the platform's public keys served from certs.php.\n    Tool registration is by arrangement with the institution.\n  verified:\n  - url: https://elearn.waikato.ac.nz/mod/lti/certs.php\n    status: 200\n- name: dspace-anonymous\n  type: none\n  operator: institution\n  description: >-\n    Research Commons serves its DSpace 7.6.5 REST API and OAI-PMH interface anonymously for read\n    access; /server/api/authn is advertised for authenticated operations, which require\
   \ a\n    repository account.\n  verified:\n  - url: https://researchcommons.waikato.ac.nz/server/api\n    status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-waikato/refs/heads/main/authentication/university-of-waikato-authentication.yml
+source_yaml_url: https://artifacts.apis.io/university-of-waikato/authentication/university-of-waikato-authentication.yml
 summary_line: openIdConnect/http/saml2 · 6 schemes
 tags:
 - Education

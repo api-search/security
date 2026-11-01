@@ -5,49 +5,49 @@ api_specs:
   label: WisdomTree Accruals API
   slug: wisdomtree-accruals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-accruals-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-accruals-api-openapi.yml
 - filename: wisdomtree-dividend-payment-preferences-api-openapi.yml
   format: yaml
   label: WisdomTree Dividend Payment Preferences API
   slug: wisdomtree-dividend-payment-preferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-dividend-payment-preferences-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-dividend-payment-preferences-api-openapi.yml
 - filename: wisdomtree-fund-data-api-openapi.yml
   format: yaml
   label: WisdomTree Fund Data API
   slug: wisdomtree-fund-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-fund-data-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-fund-data-api-openapi.yml
 - filename: wisdomtree-orders-api-openapi.yml
   format: yaml
   label: WisdomTree Orders API
   slug: wisdomtree-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-orders-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-orders-api-openapi.yml
 - filename: wisdomtree-organizations-api-openapi.yml
   format: yaml
   label: WisdomTree Organizations API
   slug: wisdomtree-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-organizations-api-openapi.yml
 - filename: wisdomtree-statements-api-openapi.yml
   format: yaml
   label: WisdomTree Statements API
   slug: wisdomtree-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-statements-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-statements-api-openapi.yml
 - filename: wisdomtree-users-api-openapi.yml
   format: yaml
   label: WisdomTree Users API
   slug: wisdomtree-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-users-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-users-api-openapi.yml
 - filename: wisdomtree-wallets-api-openapi.yml
   format: yaml
   label: WisdomTree Wallets API
   slug: wisdomtree-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-wallets-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: wisdomtree-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.wisdomtree.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 23:35:45 2026 GMT\n  hsts: null\ndomains:\n- domain: wisdomtree.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/security/wisdomtree-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wisdomtree/security/wisdomtree-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

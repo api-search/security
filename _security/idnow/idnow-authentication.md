@@ -8,25 +8,25 @@ api_specs:
   label: IDnow Authentication API
   slug: idnow-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idnow/refs/heads/main/openapi/idnow-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/idnow/openapi/idnow-authentication-api-openapi.yml
 - filename: idnow-identifications-api-openapi.yml
   format: yaml
   label: IDnow Identifications API
   slug: idnow-identifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idnow/refs/heads/main/openapi/idnow-identifications-api-openapi.yml
+  url: https://artifacts.apis.io/idnow/openapi/idnow-identifications-api-openapi.yml
 - filename: idnow-results-api-openapi.yml
   format: yaml
   label: IDnow Results API
   slug: idnow-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idnow/refs/heads/main/openapi/idnow-results-api-openapi.yml
+  url: https://artifacts.apis.io/idnow/openapi/idnow-results-api-openapi.yml
 - filename: idnow-videoident-api-openapi.yml
   format: yaml
   label: IDnow VideoIdent API
   slug: idnow-videoident-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idnow/refs/heads/main/openapi/idnow-videoident-api-openapi.yml
+  url: https://artifacts.apis.io/idnow/openapi/idnow-videoident-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: idnow-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/idnow-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: LoginToken\n  type: apiKey\n  in: header\n  parameter: X-API-LOGIN-TOKEN\n  description: JWT returned by the login endpoint, sent on every authenticated request.\n  sources:\n  - openapi/idnow-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/idnow/refs/heads/main/authentication/idnow-authentication.yml
+source_yaml_url: https://artifacts.apis.io/idnow/authentication/idnow-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Identity Verification

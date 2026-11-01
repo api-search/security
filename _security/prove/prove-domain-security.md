@@ -5,43 +5,43 @@ api_specs:
   label: Prove Auth API
   slug: prove-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-auth-api-openapi.yml
+  url: https://artifacts.apis.io/prove/openapi/prove-auth-api-openapi.yml
 - filename: prove-authentication-api-openapi.yml
   format: yaml
   label: Prove Authentication API
   slug: prove-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/prove/openapi/prove-authentication-api-openapi.yml
 - filename: prove-domain-api-openapi.yml
   format: yaml
   label: Prove Domain API
   slug: prove-domain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-domain-api-openapi.yml
+  url: https://artifacts.apis.io/prove/openapi/prove-domain-api-openapi.yml
 - filename: prove-identity-api-openapi.yml
   format: yaml
   label: Prove Identity API
   slug: prove-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-identity-api-openapi.yml
+  url: https://artifacts.apis.io/prove/openapi/prove-identity-api-openapi.yml
 - filename: prove-identity-verification-api-openapi.yml
   format: yaml
   label: Prove Identity Verification API
   slug: prove-identity-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-identity-verification-api-openapi.yml
+  url: https://artifacts.apis.io/prove/openapi/prove-identity-verification-api-openapi.yml
 - filename: prove-pre-fill-api-openapi.yml
   format: yaml
   label: Prove Pre-Fill API
   slug: prove-pre-fill-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-pre-fill-api-openapi.yml
+  url: https://artifacts.apis.io/prove/openapi/prove-pre-fill-api-openapi.yml
 - filename: prove-trust-score-api-openapi.yml
   format: yaml
   label: Prove Trust Score API
   slug: prove-trust-score-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-trust-score-api-openapi.yml
+  url: https://artifacts.apis.io/prove/openapi/prove-trust-score-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -82,7 +82,7 @@ source_filename: prove-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.prove.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 27 06:28:26 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.prove.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 09:06:42 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.prove.com\n  https: false\ndomains:\n- domain: prove.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/security/prove-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/prove/security/prove-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Identity Verification

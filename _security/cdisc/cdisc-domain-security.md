@@ -5,61 +5,61 @@ api_specs:
   label: cdisc ADaM API
   slug: cdisc-adam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-adam-api-openapi.yml
+  url: https://artifacts.apis.io/cdisc/openapi/cdisc-adam-api-openapi.yml
 - filename: cdisc-biomedical-concepts-api-openapi.yml
   format: yaml
   label: cdisc Biomedical Concepts API
   slug: cdisc-biomedical-concepts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-biomedical-concepts-api-openapi.yml
+  url: https://artifacts.apis.io/cdisc/openapi/cdisc-biomedical-concepts-api-openapi.yml
 - filename: cdisc-cdash-api-openapi.yml
   format: yaml
   label: cdisc CDASH API
   slug: cdisc-cdash-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-cdash-api-openapi.yml
+  url: https://artifacts.apis.io/cdisc/openapi/cdisc-cdash-api-openapi.yml
 - filename: cdisc-products-api-openapi.yml
   format: yaml
   label: cdisc Products API
   slug: cdisc-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-products-api-openapi.yml
+  url: https://artifacts.apis.io/cdisc/openapi/cdisc-products-api-openapi.yml
 - filename: cdisc-sdtm-api-openapi.yml
   format: yaml
   label: cdisc SDTM API
   slug: cdisc-sdtm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-sdtm-api-openapi.yml
+  url: https://artifacts.apis.io/cdisc/openapi/cdisc-sdtm-api-openapi.yml
 - filename: cdisc-terminology-api-openapi.yml
   format: yaml
   label: cdisc Terminology API
   slug: cdisc-terminology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-terminology-api-openapi.yml
+  url: https://artifacts.apis.io/cdisc/openapi/cdisc-terminology-api-openapi.yml
 - filename: cdisc-about-api-openapi.yml
   format: yaml
   label: Cdisc About API
   slug: cdisc-about-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-about-api-openapi.yml
+  url: https://artifacts.apis.io/cdisc/openapi/cdisc-about-api-openapi.yml
 - filename: cdisc-analysis-results-standards-ars-api-openapi.yml
   format: yaml
   label: Cdisc Analysis Results Standards (ARS) API
   slug: cdisc-analysis-results-standards-ars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-analysis-results-standards-ars-api-openapi.yml
+  url: https://artifacts.apis.io/cdisc/openapi/cdisc-analysis-results-standards-ars-api-openapi.yml
 - filename: cdisc-production-api-openapi.yml
   format: yaml
   label: Cdisc Production API
   slug: cdisc-production-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-production-api-openapi.yml
+  url: https://artifacts.apis.io/cdisc/openapi/cdisc-production-api-openapi.yml
 - filename: cdisc-studies-api-openapi.yml
   format: yaml
   label: Cdisc Studies API
   slug: cdisc-studies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-studies-api-openapi.yml
+  url: https://artifacts.apis.io/cdisc/openapi/cdisc-studies-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -95,7 +95,7 @@ source_filename: cdisc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cdisc.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  1 22:09:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31622400\n- host: library.cdisc.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  5 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31622400\ndomains:\n- domain: cdisc.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/security/cdisc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cdisc/security/cdisc-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Clinical Trials

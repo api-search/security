@@ -2,102 +2,60 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: jefferson-health-allergy-intolerance-api-openapi.yml
-  format: yaml
-  label: Jefferson Health Allergy Intolerance API
-  slug: jefferson-health-allergy-intolerance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-allergy-intolerance-api-openapi.yml
-- filename: jefferson-health-bulk-data-api-openapi.yml
-  format: yaml
-  label: Jefferson Health Bulk Data API
-  slug: jefferson-health-bulk-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-bulk-data-api-openapi.yml
-- filename: jefferson-health-condition-api-openapi.yml
-  format: yaml
-  label: Jefferson Health Condition API
-  slug: jefferson-health-condition-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-condition-api-openapi.yml
-- filename: jefferson-health-document-reference-api-openapi.yml
-  format: yaml
-  label: Jefferson Health Document Reference API
-  slug: jefferson-health-document-reference-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-document-reference-api-openapi.yml
-- filename: jefferson-health-encounter-api-openapi.yml
-  format: yaml
-  label: Jefferson Health Encounter API
-  slug: jefferson-health-encounter-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-encounter-api-openapi.yml
 - filename: jefferson-health-endpoint-api-openapi.yml
   format: yaml
   label: Jefferson Health Endpoint API
   slug: jefferson-health-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-endpoint-api-openapi.yml
-- filename: jefferson-health-healthcare-service-api-openapi.yml
-  format: yaml
-  label: Jefferson Health Healthcare Service API
-  slug: jefferson-health-healthcare-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-healthcare-service-api-openapi.yml
-- filename: jefferson-health-insurance-plan-api-openapi.yml
-  format: yaml
-  label: Jefferson Health Insurance Plan API
-  slug: jefferson-health-insurance-plan-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-insurance-plan-api-openapi.yml
+  url: https://artifacts.apis.io/jefferson-health/openapi/jefferson-health-endpoint-api-openapi.yml
 - filename: jefferson-health-location-api-openapi.yml
   format: yaml
   label: Jefferson Health Location API
   slug: jefferson-health-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-location-api-openapi.yml
-- filename: jefferson-health-medication-request-api-openapi.yml
-  format: yaml
-  label: Jefferson Health Medication Request API
-  slug: jefferson-health-medication-request-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-medication-request-api-openapi.yml
-- filename: jefferson-health-metadata-api-openapi.yml
-  format: yaml
-  label: Jefferson Health Metadata API
-  slug: jefferson-health-metadata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-metadata-api-openapi.yml
-- filename: jefferson-health-observation-api-openapi.yml
-  format: yaml
-  label: Jefferson Health Observation API
-  slug: jefferson-health-observation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-observation-api-openapi.yml
+  url: https://artifacts.apis.io/jefferson-health/openapi/jefferson-health-location-api-openapi.yml
 - filename: jefferson-health-organization-api-openapi.yml
   format: yaml
   label: Jefferson Health Organization API
   slug: jefferson-health-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-organization-api-openapi.yml
-- filename: jefferson-health-patient-api-openapi.yml
-  format: yaml
-  label: Jefferson Health Patient API
-  slug: jefferson-health-patient-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-patient-api-openapi.yml
+  url: https://artifacts.apis.io/jefferson-health/openapi/jefferson-health-organization-api-openapi.yml
 - filename: jefferson-health-practitioner-api-openapi.yml
   format: yaml
   label: Jefferson Health Practitioner API
   slug: jefferson-health-practitioner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-practitioner-api-openapi.yml
+  url: https://artifacts.apis.io/jefferson-health/openapi/jefferson-health-practitioner-api-openapi.yml
+- filename: jefferson-health-organizationaffiliation-api-openapi.yml
+  format: yaml
+  label: Jefferson Health Organization Affiliation API
+  slug: jefferson-health-organizationaffiliation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/jefferson-health/openapi/jefferson-health-organizationaffiliation-api-openapi.yml
+- filename: jefferson-health-system-level-operations-api-openapi.yml
+  format: yaml
+  label: Jefferson Health System Level Operations API
+  slug: jefferson-health-system-level-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/jefferson-health/openapi/jefferson-health-system-level-operations-api-openapi.yml
+- filename: jefferson-health-healthcare-service-api-openapi.yml
+  format: yaml
+  label: Jefferson Health Healthcare Service API
+  slug: jefferson-health-healthcare-service-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/jefferson-health/openapi/jefferson-health-healthcare-service-api-openapi.yml
+- filename: jefferson-health-insurance-plan-api-openapi.yml
+  format: yaml
+  label: Jefferson Health Insurance Plan API
+  slug: jefferson-health-insurance-plan-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/jefferson-health/openapi/jefferson-health-insurance-plan-api-openapi.yml
 - filename: jefferson-health-practitioner-role-api-openapi.yml
   format: yaml
   label: Jefferson Health Practitioner Role API
   slug: jefferson-health-practitioner-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-practitioner-role-api-openapi.yml
+  url: https://artifacts.apis.io/jefferson-health/openapi/jefferson-health-practitioner-role-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -233,7 +191,7 @@ source_yaml: "generated: '2026-08-15'\nmethod: probed\nsource: Live discovery do
   \  session_management_endpoint: https://appgallery.healthpartnersplans.com/smartauth-fhir/session/management\n  jwks_uri: https://appgallery.healthpartnersplans.com/smartauth-fhir/jwk\n  id_token_signing_alg_values_supported:\n  - RS256\n  subject_types_supported:\n  - public\n  registration: https://appgallery.healthpartnersplans.com/app-gallery/portal/\n  sources:\n  - well-known/jefferson-health-jhp-openid-configuration.json\n  - conformance/jefferson-health-jhp-provider-directory-capabilitystatement.json\n- name: anonymous\n  type: none\n  server: jhp-provider-directory\n  applies_to: https://providerfhirapi.healthpartnersplans.com\n  required: false\n  description: 'The Da Vinci Plan-Net provider directory requires no credentials. Verified live: GET /InsurancePlan?_count=1\n    and GET /Practitioner?_count=2 both returned HTTP 200 searchset Bundles with no Authorization header.'\n  note: The CapabilityStatement still advertises SMART oauth-uris pointing at the appgallery authorization\
   \ server, which is\n    a decoy for this host — do not build an auth flow for the directory.\nobserved_behaviour:\n- server: tjuh-fhir-r4\n  request: GET /Patient?family=Smith with no Authorization header\n  http_status: 401\n  content_type: application/json\n  body: (empty)\n  note: No OperationOutcome and no challenge body. An agent must branch on the status code alone.\n- server: jhp-provider-directory\n  request: GET /Practitioner?_count=2 with no Authorization header\n  http_status: 200\n  note: Anonymous read confirmed.\ngaps:\n- No published token lifetime, refresh-token lifetime, or client-credential rotation policy on either authorization server.\n- 'The Jefferson Health Plans Patient Access SMART configuration is not served: https://smilercdr.healthpartnersplans.com/smartauth/well-known/openid-configuration\n  returns the portal HTML shell (soft 200), and https://appgallery.healthpartnersplans.com/smartauth-fhir/.well-known/smart-configuration\n  likewise. Only the OIDC discovery\
   \ document is machine-readable.'\ndocs_additional:\n- https://fhir.epic.com/Documentation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/authentication/jefferson-health-authentication.yml
+source_yaml_url: https://artifacts.apis.io/jefferson-health/authentication/jefferson-health-authentication.yml
 summary_line: oauth2/openIdConnect/none · 3 schemes
 tags:
 - Academic Medical Center

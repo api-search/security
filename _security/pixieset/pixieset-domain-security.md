@@ -5,31 +5,31 @@ api_specs:
   label: Pixieset Clients API
   slug: pixieset-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/openapi/pixieset-clients-api-openapi.yml
+  url: https://artifacts.apis.io/pixieset/openapi/pixieset-clients-api-openapi.yml
 - filename: pixieset-collections-api-openapi.yml
   format: yaml
   label: Pixieset Collections API
   slug: pixieset-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/openapi/pixieset-collections-api-openapi.yml
+  url: https://artifacts.apis.io/pixieset/openapi/pixieset-collections-api-openapi.yml
 - filename: pixieset-contracts-api-openapi.yml
   format: yaml
   label: Pixieset Contracts API
   slug: pixieset-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/openapi/pixieset-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/pixieset/openapi/pixieset-contracts-api-openapi.yml
 - filename: pixieset-invoices-api-openapi.yml
   format: yaml
   label: Pixieset Invoices API
   slug: pixieset-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/openapi/pixieset-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/pixieset/openapi/pixieset-invoices-api-openapi.yml
 - filename: pixieset-sessions-api-openapi.yml
   format: yaml
   label: Pixieset Sessions API
   slug: pixieset-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/openapi/pixieset-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/pixieset/openapi/pixieset-sessions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -74,7 +74,7 @@ source_filename: pixieset-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pixieset.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 19:49:07 2026 GMT\n  hsts: false\n- host: studio.pixieset.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 19:49:07 2026 GMT\n  hsts: false\n- host: galleries.pixieset.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 19:49:07 2026 GMT\n  hsts: false\ndomains:\n- domain: pixieset.com\n  dnssec: true\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/security/pixieset-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pixieset/security/pixieset-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Photography

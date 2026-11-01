@@ -7,55 +7,55 @@ api_specs:
   label: Genius Account API
   slug: genius-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/openapi/genius-account-api-openapi.yml
+  url: https://artifacts.apis.io/genius/openapi/genius-account-api-openapi.yml
 - filename: genius-albums-api-openapi.yml
   format: yaml
   label: Genius Albums API
   slug: genius-albums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/openapi/genius-albums-api-openapi.yml
+  url: https://artifacts.apis.io/genius/openapi/genius-albums-api-openapi.yml
 - filename: genius-annotations-api-openapi.yml
   format: yaml
   label: Genius Annotations API
   slug: genius-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/openapi/genius-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/genius/openapi/genius-annotations-api-openapi.yml
 - filename: genius-artists-api-openapi.yml
   format: yaml
   label: Genius Artists API
   slug: genius-artists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/openapi/genius-artists-api-openapi.yml
+  url: https://artifacts.apis.io/genius/openapi/genius-artists-api-openapi.yml
 - filename: genius-referents-api-openapi.yml
   format: yaml
   label: Genius Referents API
   slug: genius-referents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/openapi/genius-referents-api-openapi.yml
+  url: https://artifacts.apis.io/genius/openapi/genius-referents-api-openapi.yml
 - filename: genius-search-api-openapi.yml
   format: yaml
   label: Genius Search API
   slug: genius-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/openapi/genius-search-api-openapi.yml
+  url: https://artifacts.apis.io/genius/openapi/genius-search-api-openapi.yml
 - filename: genius-songs-api-openapi.yml
   format: yaml
   label: Genius Songs API
   slug: genius-songs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/openapi/genius-songs-api-openapi.yml
+  url: https://artifacts.apis.io/genius/openapi/genius-songs-api-openapi.yml
 - filename: genius-users-api-openapi.yml
   format: yaml
   label: Genius Users API
   slug: genius-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/openapi/genius-users-api-openapi.yml
+  url: https://artifacts.apis.io/genius/openapi/genius-users-api-openapi.yml
 - filename: genius-web-pages-api-openapi.yml
   format: yaml
   label: Genius Web Pages API
   slug: genius-web-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/openapi/genius-web-pages-api-openapi.yml
+  url: https://artifacts.apis.io/genius/openapi/genius-web-pages-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -101,7 +101,7 @@ source_filename: genius-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/genius-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: GeniusOAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.genius.com/oauth/authorize\n    tokenUrl: https://api.genius.com/oauth/token\n    scopes: 4\n  description: |-\n    Genius uses OAuth 2.0 with the authorization-code flow. Apps are\n    registered at https://genius.com/api-clients.\n  sources:\n  - openapi/genius-openapi.yml\n- name: ClientAccessToken\n  type: http\n  scheme: bearer\n  bearerFormat: client_access_token\n  description: |-\n    Client-only access token issued at app registration. Sufficient for\n    read-only endpoints (search, songs, artists, albums, annotations,\n    referents, web_pages/lookup).\n  sources:\n  - openapi/genius-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/authentication/genius-authentication.yml
+source_yaml_url: https://artifacts.apis.io/genius/authentication/genius-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Music

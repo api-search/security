@@ -40,7 +40,7 @@ source_filename: countable-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.myactionable.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 25 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: www.countable.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 12 23:59:59 2027 GMT\n  hsts: false\n  note: legacy Countable host; HTTP 302 to https://www.myactionable.com/\ndomains:\n- domain: myactionable.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: countable.com\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: v=spf1 include:_spf.google.com include:sendgrid.net include:servers.mcsv.net\n    include:7152315.spf08.hubspotemail.net ~all\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/countable/refs/heads/main/security/countable-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/countable/security/countable-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

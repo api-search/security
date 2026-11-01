@@ -5,25 +5,25 @@ api_specs:
   label: Eder Labs Ingestion API
   slug: eder-labs-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eder-labs/refs/heads/main/openapi/eder-labs-ingestion-api-openapi.yml
+  url: https://artifacts.apis.io/eder-labs/openapi/eder-labs-ingestion-api-openapi.yml
 - filename: eder-labs-meta-api-openapi.yml
   format: yaml
   label: Eder Labs Meta API
   slug: eder-labs-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eder-labs/refs/heads/main/openapi/eder-labs-meta-api-openapi.yml
+  url: https://artifacts.apis.io/eder-labs/openapi/eder-labs-meta-api-openapi.yml
 - filename: eder-labs-query-api-openapi.yml
   format: yaml
   label: Eder Labs Query API
   slug: eder-labs-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eder-labs/refs/heads/main/openapi/eder-labs-query-api-openapi.yml
+  url: https://artifacts.apis.io/eder-labs/openapi/eder-labs-query-api-openapi.yml
 - filename: eder-labs-users-api-openapi.yml
   format: yaml
   label: Eder Labs Users API
   slug: eder-labs-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eder-labs/refs/heads/main/openapi/eder-labs-users-api-openapi.yml
+  url: https://artifacts.apis.io/eder-labs/openapi/eder-labs-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: eder-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.eder.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 01:00:14 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.buildpersona.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 12:46:16 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: eder.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: buildpersona.ai\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eder-labs/refs/heads/main/security/eder-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/eder-labs/security/eder-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

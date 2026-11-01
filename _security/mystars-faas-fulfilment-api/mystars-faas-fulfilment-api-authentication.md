@@ -8,25 +8,25 @@ api_specs:
   label: MyStars FaaS — Fulfilment API MyStars FaaS — Fulfilment API
   slug: mystars-faas-fulfilment-api-mystars-faas-fulfilment-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mystars-faas-fulfilment-api/refs/heads/main/openapi/mystars-faas-fulfilment-api-mystars-faas-fulfilment-api-api-openapi.yml
+  url: https://artifacts.apis.io/mystars-faas-fulfilment-api/openapi/mystars-faas-fulfilment-api-mystars-faas-fulfilment-api-api-openapi.yml
 - filename: mystars-faas-fulfilment-api-orders-api-openapi.yml
   format: yaml
   label: MyStars FaaS — Fulfilment API Orders API
   slug: mystars-faas-fulfilment-api-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mystars-faas-fulfilment-api/refs/heads/main/openapi/mystars-faas-fulfilment-api-orders-api-openapi.yml
+  url: https://artifacts.apis.io/mystars-faas-fulfilment-api/openapi/mystars-faas-fulfilment-api-orders-api-openapi.yml
 - filename: mystars-faas-fulfilment-api-pricing-api-openapi.yml
   format: yaml
   label: MyStars FaaS — Fulfilment API Pricing API
   slug: mystars-faas-fulfilment-api-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mystars-faas-fulfilment-api/refs/heads/main/openapi/mystars-faas-fulfilment-api-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/mystars-faas-fulfilment-api/openapi/mystars-faas-fulfilment-api-pricing-api-openapi.yml
 - filename: mystars-faas-fulfilment-api-recipients-api-openapi.yml
   format: yaml
   label: MyStars FaaS — Fulfilment API Recipients API
   slug: mystars-faas-fulfilment-api-recipients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mystars-faas-fulfilment-api/refs/heads/main/openapi/mystars-faas-fulfilment-api-recipients-api-openapi.yml
+  url: https://artifacts.apis.io/mystars-faas-fulfilment-api/openapi/mystars-faas-fulfilment-api-recipients-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: mystars-faas-fulfilment-api-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-03'\nmethod: derived\nsource: openapi/mystars-faas-fulfilment-api-openapi-original.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-Api-Key\n  description: 'Your secret API key. Get one from [@my_stars_tg_bot](https://t.me/my_stars_tg_bot)\n    → **API access**, then send it in the `X-Api-Key` header on every request. Treat it like\n    a password — anyone with the key can create orders on your tenant, read your order history,\n    and cancel unpaid orders. Each order is settled by its own on-chain payment, so the key\n    by itself cannot move funds. Rotate it any time '\n  sources:\n  - openapi/mystars-faas-fulfilment-api-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mystars-faas-fulfilment-api/refs/heads/main/authentication/mystars-faas-fulfilment-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mystars-faas-fulfilment-api/authentication/mystars-faas-fulfilment-api-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Telegram

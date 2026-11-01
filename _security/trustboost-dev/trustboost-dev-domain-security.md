@@ -5,43 +5,43 @@ api_specs:
   label: TrustBoost PII Sanitizer Budget API
   slug: trustboost-dev-budget-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustboost-dev/refs/heads/main/openapi/trustboost-dev-budget-api-openapi.yml
+  url: https://artifacts.apis.io/trustboost-dev/openapi/trustboost-dev-budget-api-openapi.yml
 - filename: trustboost-dev-health-api-openapi.yml
   format: yaml
   label: TrustBoost PII Sanitizer Health API
   slug: trustboost-dev-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustboost-dev/refs/heads/main/openapi/trustboost-dev-health-api-openapi.yml
+  url: https://artifacts.apis.io/trustboost-dev/openapi/trustboost-dev-health-api-openapi.yml
 - filename: trustboost-dev-mcp-api-openapi.yml
   format: yaml
   label: TrustBoost PII Sanitizer MCP API
   slug: trustboost-dev-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustboost-dev/refs/heads/main/openapi/trustboost-dev-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/trustboost-dev/openapi/trustboost-dev-mcp-api-openapi.yml
 - filename: trustboost-dev-message-api-openapi.yml
   format: yaml
   label: TrustBoost PII Sanitizer Message API
   slug: trustboost-dev-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustboost-dev/refs/heads/main/openapi/trustboost-dev-message-api-openapi.yml
+  url: https://artifacts.apis.io/trustboost-dev/openapi/trustboost-dev-message-api-openapi.yml
 - filename: trustboost-dev-sanitize-api-openapi.yml
   format: yaml
   label: TrustBoost PII Sanitizer Sanitize API
   slug: trustboost-dev-sanitize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustboost-dev/refs/heads/main/openapi/trustboost-dev-sanitize-api-openapi.yml
+  url: https://artifacts.apis.io/trustboost-dev/openapi/trustboost-dev-sanitize-api-openapi.yml
 - filename: trustboost-dev-score-api-openapi.yml
   format: yaml
   label: TrustBoost PII Sanitizer Score API
   slug: trustboost-dev-score-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustboost-dev/refs/heads/main/openapi/trustboost-dev-score-api-openapi.yml
+  url: https://artifacts.apis.io/trustboost-dev/openapi/trustboost-dev-score-api-openapi.yml
 - filename: trustboost-dev-verify-api-openapi.yml
   format: yaml
   label: TrustBoost PII Sanitizer Verify API
   slug: trustboost-dev-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustboost-dev/refs/heads/main/openapi/trustboost-dev-verify-api-openapi.yml
+  url: https://artifacts.apis.io/trustboost-dev/openapi/trustboost-dev-verify-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: trustboost-dev-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.trustboost.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 22 07:52:49 2026 GMT\n  hsts: null\ndomains:\n- domain: trustboost.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trustboost-dev/refs/heads/main/security/trustboost-dev-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trustboost-dev/security/trustboost-dev-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Privacy

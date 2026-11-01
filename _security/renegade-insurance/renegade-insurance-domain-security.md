@@ -33,7 +33,7 @@ source_filename: renegade-insurance-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: renegadeinsurance.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 19:39:05 2026 GMT\n  hsts: false\n- host: api.renegadeinsurance.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 23:59:59 2026 GMT\n  hsts: false\n  note: live AWS ALB; answers 404 \"Invalid Endpoint\" on every probed path (no public\n    contract, docs, or discovery document)\ndomains:\n- domain: renegadeinsurance.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/renegade-insurance/refs/heads/main/security/renegade-insurance-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/renegade-insurance/security/renegade-insurance-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -27,7 +27,7 @@ source_filename: forged-sports-inc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: forgedsports.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 18:30:07 2026 GMT\n  hsts: false\ndomains:\n- domain: forgedsports.co\n  dnssec: true\n  caa:\n  - 7ksjalbg.up.railway.app.\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forged-sports-inc/refs/heads/main/security/forged-sports-inc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/forged-sports-inc/security/forged-sports-inc-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company

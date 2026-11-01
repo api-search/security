@@ -7,109 +7,103 @@ api_specs:
   label: anchor-x402 Anchor API
   slug: anchor-x402-anchor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-anchor-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-anchor-api-openapi.yml
 - filename: anchor-x402-attest-api-openapi.yml
   format: yaml
   label: anchor-x402 Attest API
   slug: anchor-x402-attest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-attest-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-attest-api-openapi.yml
 - filename: anchor-x402-aura-api-openapi.yml
   format: yaml
   label: anchor-x402 Aura API
   slug: anchor-x402-aura-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-aura-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-aura-api-openapi.yml
 - filename: anchor-x402-decode-api-openapi.yml
   format: yaml
   label: anchor-x402 Decode API
   slug: anchor-x402-decode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-decode-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-decode-api-openapi.yml
 - filename: anchor-x402-grade-api-openapi.yml
   format: yaml
   label: anchor-x402 Grade API
   slug: anchor-x402-grade-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-grade-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-grade-api-openapi.yml
 - filename: anchor-x402-health-api-openapi.yml
   format: yaml
   label: anchor-x402 Health API
   slug: anchor-x402-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-health-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-health-api-openapi.yml
 - filename: anchor-x402-intel-api-openapi.yml
   format: yaml
   label: anchor-x402 Intel API
   slug: anchor-x402-intel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-intel-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-intel-api-openapi.yml
 - filename: anchor-x402-investigate-api-openapi.yml
   format: yaml
   label: anchor-x402 Investigate API
   slug: anchor-x402-investigate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-investigate-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-investigate-api-openapi.yml
 - filename: anchor-x402-ledger-api-openapi.yml
   format: yaml
   label: anchor-x402 Ledger API
   slug: anchor-x402-ledger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-ledger-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-ledger-api-openapi.yml
 - filename: anchor-x402-oracle-api-openapi.yml
   format: yaml
   label: anchor-x402 Oracle API
   slug: anchor-x402-oracle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-oracle-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-oracle-api-openapi.yml
 - filename: anchor-x402-parse-api-openapi.yml
   format: yaml
   label: anchor-x402 Parse API
   slug: anchor-x402-parse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-parse-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-parse-api-openapi.yml
 - filename: anchor-x402-price-api-openapi.yml
   format: yaml
   label: anchor-x402 Price API
   slug: anchor-x402-price-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-price-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-price-api-openapi.yml
 - filename: anchor-x402-resolve-api-openapi.yml
   format: yaml
   label: anchor-x402 Resolve API
   slug: anchor-x402-resolve-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-resolve-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-resolve-api-openapi.yml
 - filename: anchor-x402-roast-api-openapi.yml
   format: yaml
   label: anchor-x402 Roast API
   slug: anchor-x402-roast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-roast-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-roast-api-openapi.yml
 - filename: anchor-x402-roll-api-openapi.yml
   format: yaml
   label: anchor-x402 Roll API
   slug: anchor-x402-roll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-roll-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-roll-api-openapi.yml
 - filename: anchor-x402-screen-api-openapi.yml
   format: yaml
   label: anchor-x402 Screen API
   slug: anchor-x402-screen-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-screen-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-screen-api-openapi.yml
 - filename: anchor-x402-tldr-api-openapi.yml
   format: yaml
   label: anchor-x402 Tldr API
   slug: anchor-x402-tldr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-tldr-api-openapi.yml
-- filename: anchor-x402-feedback-api-openapi.yml
-  format: yaml
-  label: anchor-x402 Feedback API
-  slug: anchor-x402-feedback-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-tldr-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -166,7 +160,7 @@ source_yaml: "generated: '2026-09-11'\nmethod: searched\nsource: >-\n  https://a
   \ 300\n  key_discovery: >-\n    Peer identity bootstraps from DNS + TLS. A calling agent publishes an Ed25519 public key as a base64\n    DER SubjectPublicKeyInfo in its own /.well-known/agent-card.json under any extensions.<namespace> block,\n    either as a flat {key_id, public_key_der_base64} pair or a keys[] array for gapless rotation.\n    anchor-x402 fetches that card and verifies against it. No human step and no registration.\n  revocation: >-\n    Delete the block or mark that key with a \"status\" of \"retired\"; either takes effect within 1h.\n  server_keys:\n    location: extensions[\"anchor-x402:a2a\"].keys in the agent card\n    custody: AWS KMS\n    note: >-\n      Two distinct key sets serve two jobs - signatures[] proves the card itself is authentic, while\n      extensions[\"anchor-x402:a2a\"].keys is what peers use to sign requests. The A2A spec has no field for\n      the latter, which is why it lives in an extension.\n  spec_methods_unsigned: >-\n    The A2A spec methods\
   \ themselves (message/send, tasks/get, tasks/cancel) are accepted unsigned, because a\n    conformant A2A client will not produce this envelope; authorization there is the x402 payment.\nsettlement_rails:\n- network: eip155:8453\n  name: Base mainnet\n  asset: USDC\n  asset_contract: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913'\n  pay_to: '0x127462e296fAc1A7F5cF33bA57bB2f0FFf5cD0B6'\n  facilitator: https://api.cdp.coinbase.com/platform/v2/x402\n  max_timeout_seconds: 300\n- network: 'solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp'\n  name: Solana mainnet\n  asset: USDC\n  asset_contract: EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v\n  pay_to: 6apuZvJQ51Led9iEjnHw6f5jfnXL4qjt8S1h58PeXzuR\n  fee_payer: CjNFTjvBhbJJd2B5ePPMHRLx1ELZpa8dwQgGL727eKww\n  facilitator: https://api.cdp.coinbase.com/platform/v2/x402\n  max_timeout_seconds: 300\n- network: 'eip155:137'\n  name: Polygon mainnet\n  asset: JPYC\n  asset_contract: '0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB'\n  asset_decimals: 18\n  pay_to:\
   \ '0x127462e296fAc1A7F5cF33bA57bB2f0FFf5cD0B6'\n  facilitator: in-process\n  max_timeout_seconds: 300\n  caveat: >-\n    The yen amounts are fixed tiers, not a live FX conversion - pegged at an assumed ~JPY200/USD with no\n    oracle, so the USD-equivalent of a JPYC payment floats against the USD price in both directions. The\n    provider states this plainly in llms.txt rather than burying it.\nfree_and_anonymous:\n- GET /health\n- GET /openapi.json\n- GET /docs\n- GET /redoc\n- POST /v1/attest/verify\n- MCP server/discover, initialize and tools/list\n- POST /v1/a2a spec methods and capabilities/list\nspec_gap: >-\n  openapi.json declares no components.securitySchemes and carries no security requirement on any operation,\n  so the published OpenAPI reads as an entirely open API. Everything in this file was reconstructed from the\n  agent card, the MCP server card, llms.txt and a live 402 response. A securitySchemes block naming the\n  PAYMENT-SIGNATURE header would make the contract self-describing.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/authentication/anchor-x402-authentication.yml
+source_yaml_url: https://artifacts.apis.io/anchor-x402/authentication/anchor-x402-authentication.yml
 summary_line: 2 schemes
 tags:
 - Company

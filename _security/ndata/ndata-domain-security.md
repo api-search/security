@@ -26,7 +26,7 @@ source_filename: ndata-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ndata.cz\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 12 15:01:22 2026 GMT\n  hsts: false\ndomains:\n- domain: ndata.cz\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ndata/refs/heads/main/security/ndata-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ndata/security/ndata-domain-security.yml
 summary_line: TLSv1.2 · DNSSEC
 tags:
 - Company

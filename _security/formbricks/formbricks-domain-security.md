@@ -5,43 +5,43 @@ api_specs:
   label: Formbricks Action Classes API
   slug: formbricks-action-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/openapi/formbricks-action-classes-api-openapi.yml
+  url: https://artifacts.apis.io/formbricks/openapi/formbricks-action-classes-api-openapi.yml
 - filename: formbricks-client-api-openapi.yml
   format: yaml
   label: Formbricks Client API
   slug: formbricks-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/openapi/formbricks-client-api-openapi.yml
+  url: https://artifacts.apis.io/formbricks/openapi/formbricks-client-api-openapi.yml
 - filename: formbricks-contacts-api-openapi.yml
   format: yaml
   label: Formbricks Contacts API
   slug: formbricks-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/openapi/formbricks-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/formbricks/openapi/formbricks-contacts-api-openapi.yml
 - filename: formbricks-me-api-openapi.yml
   format: yaml
   label: Formbricks Me API
   slug: formbricks-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/openapi/formbricks-me-api-openapi.yml
+  url: https://artifacts.apis.io/formbricks/openapi/formbricks-me-api-openapi.yml
 - filename: formbricks-responses-api-openapi.yml
   format: yaml
   label: Formbricks Responses API
   slug: formbricks-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/openapi/formbricks-responses-api-openapi.yml
+  url: https://artifacts.apis.io/formbricks/openapi/formbricks-responses-api-openapi.yml
 - filename: formbricks-surveys-api-openapi.yml
   format: yaml
   label: Formbricks Surveys API
   slug: formbricks-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/openapi/formbricks-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/formbricks/openapi/formbricks-surveys-api-openapi.yml
 - filename: formbricks-webhooks-api-openapi.yml
   format: yaml
   label: Formbricks Webhooks API
   slug: formbricks-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/openapi/formbricks-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/formbricks/openapi/formbricks-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -87,7 +87,7 @@ source_filename: formbricks-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.formbricks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 14:53:06 2026 GMT\n  hsts: null\n- host: formbricks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 14:53:06 2026 GMT\n  hsts: false\n- host: app.formbricks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 14:53:06 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: formbricks.com\n  dnssec: true\n  caa:\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/security/formbricks-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/formbricks/security/formbricks-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Surveys

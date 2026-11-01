@@ -5,13 +5,13 @@ api_specs:
   label: Matternet Cloud Software Platform
   slug: matternet-cloud-platform
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matternet/refs/heads/main/openapi/_original/matternet-openapi.yml
+  url: https://artifacts.apis.io/matternet/openapi/_original/matternet-openapi.yml
 - filename: matternet-openapi.yml
   format: yaml
   label: Matternet Logistics Integration
   slug: matternet-logistics-integration
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matternet/refs/heads/main/openapi/_original/matternet-openapi.yml
+  url: https://artifacts.apis.io/matternet/openapi/_original/matternet-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,7 +41,7 @@ source_filename: matternet-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.matternet.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 14:22:23 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: matternet.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/matternet/refs/heads/main/security/matternet-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/matternet/security/matternet-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Drone Delivery

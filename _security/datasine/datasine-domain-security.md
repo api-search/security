@@ -24,7 +24,7 @@ source_filename: datasine-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: datasine.com\n  https: false\ndomains:\n- domain: datasine.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datasine/refs/heads/main/security/datasine-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/datasine/security/datasine-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

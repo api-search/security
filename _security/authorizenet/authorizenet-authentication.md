@@ -8,7 +8,7 @@ api_specs:
   label: Authorize.net Transactions API
   slug: authorizenet-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authorizenet/refs/heads/main/openapi/authorizenet-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/authorizenet/openapi/authorizenet-transactions-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -49,7 +49,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://developer.authorize.net/api/reference/index.html and https://github.com/AuthorizeNet/oauth-sample-app\nsummary:\n  types: [apiKey, oauth2]\n  api_key_in: [body]\n  oauth2_flows: [authorizationCode]\nschemes:\n- name: merchantAuthentication\n  type: apiKey\n  in: body\n  description: >-\n    Primary authentication for the transaction gateway. Every request carries a\n    merchantAuthentication element with the merchant API Login ID (name) and Transaction\n    Key. Sandbox and production use distinct credentials.\n  fields:\n    - name          # API Login ID\n    - transactionKey  # Transaction Key\n  docs: https://developer.authorize.net/api/reference/index.html#authentication\n- name: signatureKey\n  type: apiKey\n  in: body-hash\n  description: >-\n    A Signature Key (HMAC-SHA512) is used to verify transaction hashes and to sign/verify\n    webhook payloads (X-ANET-Signature header). Configured in the Merchant Interface.\n\
   - name: oauth2\n  type: oauth2\n  flow: authorizationCode\n  description: >-\n    OAuth 2.0 is available for partner and Accept integrations, allowing a merchant to\n    grant a partner application access without sharing raw API credentials. Demonstrated\n    in the official oauth-sample-app.\n  sample: https://github.com/AuthorizeNet/oauth-sample-app\nnotes: >-\n  The gateway is credential-based (API Login ID + Transaction Key) rather than OAuth-scope\n  based for most integrations; there is no public OAuth scopes reference, so no scopes/\n  artifact is emitted. OAuth 2.0 covers partner delegation.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/authorizenet/refs/heads/main/authentication/authorizenet-authentication.yml
+source_yaml_url: https://artifacts.apis.io/authorizenet/authentication/authorizenet-authentication.yml
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - Company

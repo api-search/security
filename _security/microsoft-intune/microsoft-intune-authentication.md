@@ -7,25 +7,25 @@ api_specs:
   label: Microsoft Intune Device Compliance Policies API
   slug: microsoft-intune-device-compliance-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-intune/refs/heads/main/openapi/microsoft-intune-device-compliance-policies-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-intune/openapi/microsoft-intune-device-compliance-policies-api-openapi.yml
 - filename: microsoft-intune-device-configurations-api-openapi.yml
   format: yaml
   label: Microsoft Intune Device Configurations API
   slug: microsoft-intune-device-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-intune/refs/heads/main/openapi/microsoft-intune-device-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-intune/openapi/microsoft-intune-device-configurations-api-openapi.yml
 - filename: microsoft-intune-managed-devices-api-openapi.yml
   format: yaml
   label: Microsoft Intune Managed Devices API
   slug: microsoft-intune-managed-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-intune/refs/heads/main/openapi/microsoft-intune-managed-devices-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-intune/openapi/microsoft-intune-managed-devices-api-openapi.yml
 - filename: microsoft-intune-remote-actions-api-openapi.yml
   format: yaml
   label: Microsoft Intune Remote Actions API
   slug: microsoft-intune-remote-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-intune/refs/heads/main/openapi/microsoft-intune-remote-actions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-intune/openapi/microsoft-intune-remote-actions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -57,7 +57,7 @@ source_filename: microsoft-intune-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-intune-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n    scopes: 4\n  description: OAuth 2.0 authorization using Azure Active Directory. Requires an active Intune\n    license for the tenant.\n  sources:\n  - openapi/microsoft-intune-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-intune/refs/heads/main/authentication/microsoft-intune-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-intune/authentication/microsoft-intune-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - App Protection

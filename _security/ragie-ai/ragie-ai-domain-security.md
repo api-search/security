@@ -5,31 +5,31 @@ api_specs:
   label: Ragie Connections API
   slug: ragie-ai-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/openapi/ragie-ai-connections-api-openapi.yml
+  url: https://artifacts.apis.io/ragie-ai/openapi/ragie-ai-connections-api-openapi.yml
 - filename: ragie-ai-documents-api-openapi.yml
   format: yaml
   label: Ragie Documents API
   slug: ragie-ai-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/openapi/ragie-ai-documents-api-openapi.yml
+  url: https://artifacts.apis.io/ragie-ai/openapi/ragie-ai-documents-api-openapi.yml
 - filename: ragie-ai-entities-api-openapi.yml
   format: yaml
   label: Ragie Entities API
   slug: ragie-ai-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/openapi/ragie-ai-entities-api-openapi.yml
+  url: https://artifacts.apis.io/ragie-ai/openapi/ragie-ai-entities-api-openapi.yml
 - filename: ragie-ai-partitions-api-openapi.yml
   format: yaml
   label: Ragie Partitions API
   slug: ragie-ai-partitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/openapi/ragie-ai-partitions-api-openapi.yml
+  url: https://artifacts.apis.io/ragie-ai/openapi/ragie-ai-partitions-api-openapi.yml
 - filename: ragie-ai-retrievals-api-openapi.yml
   format: yaml
   label: Ragie Retrievals API
   slug: ragie-ai-retrievals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/openapi/ragie-ai-retrievals-api-openapi.yml
+  url: https://artifacts.apis.io/ragie-ai/openapi/ragie-ai-retrievals-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: ragie-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ragie.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 03:30:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.ragie.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 22:04:32 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.ragie.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 03:24:40 2026 GMT\n  hsts: null\ndomains:\n- domain: ragie.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/security/ragie-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ragie-ai/security/ragie-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

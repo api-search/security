@@ -7,7 +7,7 @@ api_specs:
   label: Liferay Roles API
   slug: liferay-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liferay/refs/heads/main/openapi/liferay-roles-api-openapi.yml
+  url: https://artifacts.apis.io/liferay/openapi/liferay-roles-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -33,7 +33,7 @@ source_filename: liferay-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/liferay-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/liferay-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liferay/refs/heads/main/authentication/liferay-authentication.yml
+source_yaml_url: https://artifacts.apis.io/liferay/authentication/liferay-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Open Source

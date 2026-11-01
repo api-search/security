@@ -8,43 +8,43 @@ api_specs:
   label: Mirage Audio API
   slug: mirage-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/openapi/mirage-audio-api-openapi.yml
+  url: https://artifacts.apis.io/mirage/openapi/mirage-audio-api-openapi.yml
 - filename: mirage-health-api-openapi.yml
   format: yaml
   label: Mirage Health API
   slug: mirage-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/openapi/mirage-health-api-openapi.yml
+  url: https://artifacts.apis.io/mirage/openapi/mirage-health-api-openapi.yml
 - filename: mirage-internal-api-openapi.yml
   format: yaml
   label: Mirage Internal API
   slug: mirage-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/openapi/mirage-internal-api-openapi.yml
+  url: https://artifacts.apis.io/mirage/openapi/mirage-internal-api-openapi.yml
 - filename: mirage-meta-text-overlays-api-openapi.yml
   format: yaml
   label: Mirage Meta Text Overlays API
   slug: mirage-meta-text-overlays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/openapi/mirage-meta-text-overlays-api-openapi.yml
+  url: https://artifacts.apis.io/mirage/openapi/mirage-meta-text-overlays-api-openapi.yml
 - filename: mirage-root-api-openapi.yml
   format: yaml
   label: Mirage Root API
   slug: mirage-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/openapi/mirage-root-api-openapi.yml
+  url: https://artifacts.apis.io/mirage/openapi/mirage-root-api-openapi.yml
 - filename: mirage-video-captions-api-openapi.yml
   format: yaml
   label: Mirage Video Captions API
   slug: mirage-video-captions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/openapi/mirage-video-captions-api-openapi.yml
+  url: https://artifacts.apis.io/mirage/openapi/mirage-video-captions-api-openapi.yml
 - filename: mirage-videos-api-openapi.yml
   format: yaml
   label: Mirage Videos API
   slug: mirage-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/openapi/mirage-videos-api-openapi.yml
+  url: https://artifacts.apis.io/mirage/openapi/mirage-videos-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -72,7 +72,7 @@ source_filename: mirage-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/mirage-openapi-original.json\ndocs: https://captions.ai/help/docs/api/overview\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  oauth2_flows: []\n  note: >-\n    The published OpenAPI (Mirage Video API 0.0.1) declares no securitySchemes\n    object; authentication is documented in the API reference. Every request to\n    the production API must include an API key in the x-api-key header. API keys\n    are issued from the Captions/Mirage dashboard.\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter_name: x-api-key\n  description: >-\n    API key issued from the dashboard, sent on every request as the x-api-key\n    header.\n  sources:\n  - https://captions.ai/help/docs/api/overview\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/authentication/mirage-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mirage/authentication/mirage-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

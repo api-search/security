@@ -27,7 +27,7 @@ source_filename: zaver-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: zaver.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 00:49:25 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: zaver.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zaver/refs/heads/main/security/zaver-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zaver/security/zaver-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Payments

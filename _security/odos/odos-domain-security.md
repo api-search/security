@@ -5,19 +5,19 @@ api_specs:
   label: Odos Information API
   slug: odos-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/odos/refs/heads/main/openapi/odos-information-api-openapi.yml
+  url: https://artifacts.apis.io/odos/openapi/odos-information-api-openapi.yml
 - filename: odos-pricing-api-openapi.yml
   format: yaml
   label: Odos Pricing API
   slug: odos-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/odos/refs/heads/main/openapi/odos-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/odos/openapi/odos-pricing-api-openapi.yml
 - filename: odos-smart-order-routing-api-openapi.yml
   format: yaml
   label: Odos Smart Order Routing API
   slug: odos-smart-order-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/odos/refs/heads/main/openapi/odos-smart-order-routing-api-openapi.yml
+  url: https://artifacts.apis.io/odos/openapi/odos-smart-order-routing-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -56,7 +56,7 @@ source_filename: odos-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: enterprise.odos.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 14:49:39 2026 GMT\n  hsts: false\n- host: docs.odos.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 14:49:39 2026 GMT\n  hsts: false\n- host: api.odos.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 14:49:39 2026 GMT\n  hsts: null\ndomains:\n- domain: odos.xyz\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/odos/refs/heads/main/security/odos-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/odos/security/odos-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Decentralized Exchange

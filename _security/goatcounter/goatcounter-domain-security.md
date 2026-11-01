@@ -5,55 +5,55 @@ api_specs:
   label: GoatCounter Exports API
   slug: goatcounter-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-exports-api-openapi.yml
+  url: https://artifacts.apis.io/goatcounter/openapi/goatcounter-exports-api-openapi.yml
 - filename: goatcounter-pageviews-api-openapi.yml
   format: yaml
   label: GoatCounter Pageviews API
   slug: goatcounter-pageviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-pageviews-api-openapi.yml
+  url: https://artifacts.apis.io/goatcounter/openapi/goatcounter-pageviews-api-openapi.yml
 - filename: goatcounter-paths-api-openapi.yml
   format: yaml
   label: GoatCounter Paths API
   slug: goatcounter-paths-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-paths-api-openapi.yml
+  url: https://artifacts.apis.io/goatcounter/openapi/goatcounter-paths-api-openapi.yml
 - filename: goatcounter-sites-api-openapi.yml
   format: yaml
   label: GoatCounter Sites API
   slug: goatcounter-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-sites-api-openapi.yml
+  url: https://artifacts.apis.io/goatcounter/openapi/goatcounter-sites-api-openapi.yml
 - filename: goatcounter-statistics-api-openapi.yml
   format: yaml
   label: GoatCounter Statistics API
   slug: goatcounter-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/goatcounter/openapi/goatcounter-statistics-api-openapi.yml
 - filename: goatcounter-users-api-openapi.yml
   format: yaml
   label: GoatCounter Users API
   slug: goatcounter-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-users-api-openapi.yml
+  url: https://artifacts.apis.io/goatcounter/openapi/goatcounter-users-api-openapi.yml
 - filename: goatcounter-count-api-openapi.yml
   format: yaml
   label: GoatCounter Count API
   slug: goatcounter-count-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-count-api-openapi.yml
+  url: https://artifacts.apis.io/goatcounter/openapi/goatcounter-count-api-openapi.yml
 - filename: goatcounter-export-api-openapi.yml
   format: yaml
   label: GoatCounter Export API
   slug: goatcounter-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-export-api-openapi.yml
+  url: https://artifacts.apis.io/goatcounter/openapi/goatcounter-export-api-openapi.yml
 - filename: goatcounter-stats-api-openapi.yml
   format: yaml
   label: GoatCounter Stats API
   slug: goatcounter-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-stats-api-openapi.yml
+  url: https://artifacts.apis.io/goatcounter/openapi/goatcounter-stats-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -92,7 +92,7 @@ source_filename: goatcounter-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.goatcounter.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 14:20:14 2026 GMT\n  hsts: null\n- host: goatcounter.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 14:20:45 2026 GMT\n  hsts: null\ndomains:\n- domain: goatcounter.com\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/security/goatcounter-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/goatcounter/security/goatcounter-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Analytics

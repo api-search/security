@@ -16,7 +16,7 @@ source_filename: power-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nprobe: true\nsource: https://www.withpower.com/security\nurl: https://www.withpower.com/security\ncertifications:\n- SOC 2\n- HIPAA\nevidence:\n- source: https://www.withpower.com/security\n  keywords:\n  - soc 2\n  - hipaa\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/power/refs/heads/main/security/power-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/power/security/power-trust-center.yml
 summary_line: SOC 2, HIPAA
 tags:
 - Company

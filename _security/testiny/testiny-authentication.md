@@ -7,31 +7,31 @@ api_specs:
   label: Testiny Automation API
   slug: testiny-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testiny/refs/heads/main/openapi/testiny-automation-api-openapi.yml
+  url: https://artifacts.apis.io/testiny/openapi/testiny-automation-api-openapi.yml
 - filename: testiny-projects-api-openapi.yml
   format: yaml
   label: Testiny Projects API
   slug: testiny-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testiny/refs/heads/main/openapi/testiny-projects-api-openapi.yml
+  url: https://artifacts.apis.io/testiny/openapi/testiny-projects-api-openapi.yml
 - filename: testiny-test-cases-api-openapi.yml
   format: yaml
   label: Testiny Test Cases API
   slug: testiny-test-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testiny/refs/heads/main/openapi/testiny-test-cases-api-openapi.yml
+  url: https://artifacts.apis.io/testiny/openapi/testiny-test-cases-api-openapi.yml
 - filename: testiny-test-plans-api-openapi.yml
   format: yaml
   label: Testiny Test Plans API
   slug: testiny-test-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testiny/refs/heads/main/openapi/testiny-test-plans-api-openapi.yml
+  url: https://artifacts.apis.io/testiny/openapi/testiny-test-plans-api-openapi.yml
 - filename: testiny-test-runs-api-openapi.yml
   format: yaml
   label: Testiny Test Runs API
   slug: testiny-test-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testiny/refs/heads/main/openapi/testiny-test-runs-api-openapi.yml
+  url: https://artifacts.apis.io/testiny/openapi/testiny-test-runs-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -61,7 +61,7 @@ source_filename: testiny-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/testiny-openapi.yml\nsummary:\n  types:\n  - apiKey\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameterName: X-Api-Key\n  description: 'API key created in Testiny with fine-grained permissions scoped to your\n    organization. Passed as the `X-Api-Key` request header. The MCP server additionally\n    supports an `Authorization: Bearer <key>` header or browser-based OAuth. Treat the\n    API key like a password.'\n  sources:\n  - openapi/testiny-openapi.yml\n  - https://www.testiny.io/docs/api-quickstart/\n  - https://www.testiny.io/docs/mcp-server/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/testiny/refs/heads/main/authentication/testiny-authentication.yml
+source_yaml_url: https://artifacts.apis.io/testiny/authentication/testiny-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Test Runs

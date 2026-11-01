@@ -5,19 +5,19 @@ api_specs:
   label: Evidence Framework (SQL + Markdown)
   slug: evidence-framework
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evidence-dev/refs/heads/main/openapi/_original/evidence-dev-openapi.yml
+  url: https://artifacts.apis.io/evidence-dev/openapi/_original/evidence-dev-openapi.yml
 - filename: evidence-dev-openapi.yml
   format: yaml
   label: Evidence USQL / Query Layer
   slug: usql-query-layer
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evidence-dev/refs/heads/main/openapi/_original/evidence-dev-openapi.yml
+  url: https://artifacts.apis.io/evidence-dev/openapi/_original/evidence-dev-openapi.yml
 - filename: evidence-dev-openapi.yml
   format: yaml
   label: Evidence Cloud
   slug: evidence-cloud
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evidence-dev/refs/heads/main/openapi/_original/evidence-dev-openapi.yml
+  url: https://artifacts.apis.io/evidence-dev/openapi/_original/evidence-dev-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: evidence-dev-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: evidence.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 10:59:47 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.evidence.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 08:28:20 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: evidence.dev\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evidence-dev/refs/heads/main/security/evidence-dev-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/evidence-dev/security/evidence-dev-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Business Intelligence

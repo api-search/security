@@ -5,55 +5,55 @@ api_specs:
   label: bexio Accounting API
   slug: bexio-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-accounting-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-accounting-api-openapi.yml
 - filename: bexio-banking-api-openapi.yml
   format: yaml
   label: bexio Banking API
   slug: bexio-banking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-banking-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-banking-api-openapi.yml
 - filename: bexio-contacts-api-openapi.yml
   format: yaml
   label: bexio Contacts API
   slug: bexio-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-contacts-api-openapi.yml
 - filename: bexio-files-api-openapi.yml
   format: yaml
   label: bexio Files API
   slug: bexio-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-files-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-files-api-openapi.yml
 - filename: bexio-items-api-openapi.yml
   format: yaml
   label: bexio Items API
   slug: bexio-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-items-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-items-api-openapi.yml
 - filename: bexio-payroll-api-openapi.yml
   format: yaml
   label: bexio Payroll API
   slug: bexio-payroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-payroll-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-payroll-api-openapi.yml
 - filename: bexio-projects-api-openapi.yml
   format: yaml
   label: bexio Projects API
   slug: bexio-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-projects-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-projects-api-openapi.yml
 - filename: bexio-purchase-api-openapi.yml
   format: yaml
   label: bexio Purchase API
   slug: bexio-purchase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-purchase-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-purchase-api-openapi.yml
 - filename: bexio-sales-orders-api-openapi.yml
   format: yaml
   label: bexio Sales Orders API
   slug: bexio-sales-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-sales-orders-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-sales-orders-api-openapi.yml
 description: ''
 domains:
 - domain: bexio.com
@@ -86,7 +86,7 @@ source_filename: bexio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + API/auth hosts\nhosts:\n- host: www.bexio.com\n  https: true\n- host: api.bexio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 04:42:36 2026 GMT\n  note: Probed 2026-07-17 -> HTTP 401 (Bearer auth required), confirming a live authenticated REST host.\n- host: auth.bexio.com\n  https: true\n  note: Keycloak OpenID Connect realm (realms/bexio); openid-configuration served over HTTPS.\n- host: docs.bexio.com\n  https: true\ndomains:\n- domain: bexio.com\n  security_txt: true\n  security_txt_url: https://www.bexio.com/.well-known/security.txt\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/security/bexio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bexio/security/bexio-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Accounting

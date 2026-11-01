@@ -5,31 +5,31 @@ api_specs:
   label: Truora Account API
   slug: truora-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/openapi/truora-account-api-openapi.yml
+  url: https://artifacts.apis.io/truora/openapi/truora-account-api-openapi.yml
 - filename: truora-checks-api-openapi.yml
   format: yaml
   label: Truora Checks API
   slug: truora-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/openapi/truora-checks-api-openapi.yml
+  url: https://artifacts.apis.io/truora/openapi/truora-checks-api-openapi.yml
 - filename: truora-continuous-monitoring-api-openapi.yml
   format: yaml
   label: Truora Continuous Monitoring API
   slug: truora-continuous-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/openapi/truora-continuous-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/truora/openapi/truora-continuous-monitoring-api-openapi.yml
 - filename: truora-digital-identity-api-openapi.yml
   format: yaml
   label: Truora Digital Identity API
   slug: truora-digital-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/openapi/truora-digital-identity-api-openapi.yml
+  url: https://artifacts.apis.io/truora/openapi/truora-digital-identity-api-openapi.yml
 - filename: truora-validators-api-openapi.yml
   format: yaml
   label: Truora Validators API
   slug: truora-validators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/openapi/truora-validators-api-openapi.yml
+  url: https://artifacts.apis.io/truora/openapi/truora-validators-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -76,7 +76,7 @@ source_filename: truora-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.truora.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 16:01:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: dev.truora.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 27 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.checks.truora.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 12 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: truora.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/security/truora-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/truora/security/truora-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Identity Verification

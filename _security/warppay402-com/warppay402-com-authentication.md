@@ -7,19 +7,19 @@ api_specs:
   label: WarpPay402 Studio Feeds API
   slug: warppay402-com-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warppay402-com/refs/heads/main/openapi/warppay402-com-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/warppay402-com/openapi/warppay402-com-feeds-api-openapi.yml
 - filename: warppay402-com-public-data-feed-api-openapi.yml
   format: yaml
   label: WarpPay402 Studio Public Data Feed API
   slug: warppay402-com-public-data-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warppay402-com/refs/heads/main/openapi/warppay402-com-public-data-feed-api-openapi.yml
+  url: https://artifacts.apis.io/warppay402-com/openapi/warppay402-com-public-data-feed-api-openapi.yml
 - filename: warppay402-com-tools-api-openapi.yml
   format: yaml
   label: WarpPay402 Studio Tools API
   slug: warppay402-com-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warppay402-com/refs/heads/main/openapi/warppay402-com-tools-api-openapi.yml
+  url: https://artifacts.apis.io/warppay402-com/openapi/warppay402-com-tools-api-openapi.yml
 auth_types: []
 description: 'WarpPay402 replaces credentials with payment. There is no signup, no API key and no OAuth: an unpaid request to any operation receives HTTP 402 with an x402 v2 challenge, the client signs a USDC transfer for the quoted amount on one of four networks and retries with the signature in a PAYMENT-SIGNATURE header, and the gateway verifies settlement (splitting a platform fee) before proxying the request. The MCP server''s discovery methods (initialize, tools/list, resources/list, prompts/list) are fully anonymous; tool calls are settled the same way through the stdio bridge. A flat-rate monthly access token is offered by email but is undocumented, so it is recorded as a claim, not a scheme.'
 kind: authentication
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: >-\n  https://w
   \ \"never ask[s] for or\n    store[s] private keys or seed phrases\".\n  replay_protection: server-side nonce store rejects a reused signature (MemoryNonceStore / RedisNonceStore in @warppay402/server)\n  evidence:\n  - {url: 'https://api.warppay402.com/api/v1/tools/web-scraper', method: POST, status: 402, headers: ['payment-required', 'x-payment-required', 'access-control-expose-headers: PAYMENT-REQUIRED, PAYMENT-RESPONSE', 'x-guard-inspected: true']}\n  - {url: 'https://api.warppay402.com/api/v1/feeds/base-yields', method: GET, status: 402}\n  - {url: 'https://api.warppay402.com/public_data_feed/index.json', method: GET, status: 402}\n- name: flatRateAccessToken\n  type: apiKey\n  kind: claimed-undocumented\n  in: unknown\n  status: offered by email only\n  note: >-\n    Homepage: \"Access to our endpoints can also be gained through traditional API access tokens. Reach out to us at\n    [obfuscated email] if interested in a flat rate per month.\" Header name, format and issuance are\
   \ not published and\n    the OpenAPI declares no scheme, so no agent can use this without a human negotiation.\nanonymous_surfaces:\n- {url: 'https://api.warppay402.com/mcp', methods: [initialize, tools/list, resources/list, prompts/list], status: 200}\n- {url: 'https://api.warppay402.com/openapi.json', status: 200}\n- {url: 'https://api.warppay402.com/.well-known/agent.json', status: 200}\n- {url: 'https://api.warppay402.com/.well-known/mcp.json', status: 200}\n- {url: 'https://api.warppay402.com/.well-known/x402-manifest.json', status: 200}\n- {url: 'https://api.warppay402.com/agent-offers.json', status: 200}\n- {url: 'https://api.warppay402.com/llms.txt', status: 200}\n- {url: 'https://api.warppay402.com/health', status: 200}\noauth2: false\noidc: false\ndelegated_identity: false\ndynamic_client_registration: false\nprotected_resource_metadata: false\nmcp_auth:\n  discovery: none (anonymous)\n  invocation: x402 payment signed by the @warppay402/mcp-client bridge from CUSTOMER_PRIVATE_KEY;\
   \ an unauthenticated tools/call from this crawler returned a JSON-RPC 200 with an empty result object\n  local_bridge: npx -y @warppay402/mcp-client\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/warppay402-com/refs/heads/main/authentication/warppay402-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/warppay402-com/authentication/warppay402-com-authentication.yml
 summary_line: 2 schemes
 tags:
 - x402

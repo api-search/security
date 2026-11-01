@@ -17,7 +17,7 @@ source_filename: alaffia-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://alaffiahealth.com/security\nurl: https://alaffiahealth.com/security\ncertifications:\n- HIPAA\n- SOC 2 Type II\n- HITRUST\nevidence:\n- source: https://alaffiahealth.com/security\n  keywords:\n  - hipaa\n  - soc 2 type ii\n  - hitrust\nnotes: >-\n  Alaffia publishes its security and compliance posture on a dedicated /security page rather than a\n  branded trust portal or subdomain. No security.txt, responsible-disclosure, or bug-bounty program\n  was found (/.well-known/security.txt returns 404).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alaffia/refs/heads/main/security/alaffia-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/alaffia/security/alaffia-trust-center.yml
 summary_line: HIPAA, SOC 2 Type II, HITRUST
 tags:
 - Company

@@ -7,7 +7,7 @@ api_specs:
   label: Hyperbeat Hyperliquid API
   slug: hyperbeat-hyperliquid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbeat/refs/heads/main/openapi/hyperbeat-hyperliquid-api-openapi.yml
+  url: https://artifacts.apis.io/hyperbeat/openapi/hyperbeat-hyperliquid-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -34,7 +34,7 @@ source_filename: hyperbeat-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/hyperbeat-staking-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearer\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/hyperbeat-staking-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hyperbeat/refs/heads/main/authentication/hyperbeat-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hyperbeat/authentication/hyperbeat-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

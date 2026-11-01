@@ -7,43 +7,43 @@ api_specs:
   label: Predibase Adapters API
   slug: predibase-adapters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-adapters-api-openapi.yml
+  url: https://artifacts.apis.io/predibase/openapi/predibase-adapters-api-openapi.yml
 - filename: predibase-batch-inference-api-openapi.yml
   format: yaml
   label: Predibase Batch Inference API
   slug: predibase-batch-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-batch-inference-api-openapi.yml
+  url: https://artifacts.apis.io/predibase/openapi/predibase-batch-inference-api-openapi.yml
 - filename: predibase-datasets-api-openapi.yml
   format: yaml
   label: Predibase Datasets API
   slug: predibase-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/predibase/openapi/predibase-datasets-api-openapi.yml
 - filename: predibase-deployments-api-openapi.yml
   format: yaml
   label: Predibase Deployments API
   slug: predibase-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/predibase/openapi/predibase-deployments-api-openapi.yml
 - filename: predibase-fine-tuning-api-openapi.yml
   format: yaml
   label: Predibase Fine-Tuning API
   slug: predibase-fine-tuning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-fine-tuning-api-openapi.yml
+  url: https://artifacts.apis.io/predibase/openapi/predibase-fine-tuning-api-openapi.yml
 - filename: predibase-inference-api-openapi.yml
   format: yaml
   label: Predibase Inference API
   slug: predibase-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-inference-api-openapi.yml
+  url: https://artifacts.apis.io/predibase/openapi/predibase-inference-api-openapi.yml
 - filename: predibase-models-api-openapi.yml
   format: yaml
   label: Predibase Models API
   slug: predibase-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-models-api-openapi.yml
+  url: https://artifacts.apis.io/predibase/openapi/predibase-models-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -71,7 +71,7 @@ source_filename: predibase-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/predibase-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: Predibase API token\n  description: 'Predibase API token sent as Authorization: Bearer <PREDIBASE_API_TOKEN>. Generate\n    a token from Settings in the Predibase console.'\n  sources:\n  - openapi/predibase-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/authentication/predibase-authentication.yml
+source_yaml_url: https://artifacts.apis.io/predibase/authentication/predibase-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

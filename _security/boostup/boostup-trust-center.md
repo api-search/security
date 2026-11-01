@@ -5,7 +5,7 @@ api_specs:
   label: Boostup Export API
   slug: boostup-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/openapi/boostup-export-api-openapi.yml
+  url: https://artifacts.apis.io/boostup/openapi/boostup-export-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -24,7 +24,7 @@ source_filename: boostup-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nprobe: true\nsource: https://www.terret.ai/security\nurl: https://www.terret.ai/security\ncertifications:\n- SOC 2\n- CSA STAR\n- FIPS 140\nevidence:\n- source: https://www.terret.ai/security\n  keywords:\n  - soc 2\n  - csa star\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/security/boostup-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/boostup/security/boostup-trust-center.yml
 summary_line: SOC 2, CSA STAR, FIPS 140
 tags:
 - Company

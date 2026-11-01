@@ -7,37 +7,37 @@ api_specs:
   label: Ecwid by Lightspeed Categories API
   slug: ecwid-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecwid/refs/heads/main/openapi/ecwid-categories-api-openapi.yml
+  url: https://artifacts.apis.io/ecwid/openapi/ecwid-categories-api-openapi.yml
 - filename: ecwid-customers-api-openapi.yml
   format: yaml
   label: Ecwid by Lightspeed Customers API
   slug: ecwid-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecwid/refs/heads/main/openapi/ecwid-customers-api-openapi.yml
+  url: https://artifacts.apis.io/ecwid/openapi/ecwid-customers-api-openapi.yml
 - filename: ecwid-discount-coupons-api-openapi.yml
   format: yaml
   label: Ecwid by Lightspeed Discount Coupons API
   slug: ecwid-discount-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecwid/refs/heads/main/openapi/ecwid-discount-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/ecwid/openapi/ecwid-discount-coupons-api-openapi.yml
 - filename: ecwid-orders-api-openapi.yml
   format: yaml
   label: Ecwid by Lightspeed Orders API
   slug: ecwid-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecwid/refs/heads/main/openapi/ecwid-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ecwid/openapi/ecwid-orders-api-openapi.yml
 - filename: ecwid-products-api-openapi.yml
   format: yaml
   label: Ecwid by Lightspeed Products API
   slug: ecwid-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecwid/refs/heads/main/openapi/ecwid-products-api-openapi.yml
+  url: https://artifacts.apis.io/ecwid/openapi/ecwid-products-api-openapi.yml
 - filename: ecwid-profile-api-openapi.yml
   format: yaml
   label: Ecwid by Lightspeed Profile API
   slug: ecwid-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecwid/refs/heads/main/openapi/ecwid-profile-api-openapi.yml
+  url: https://artifacts.apis.io/ecwid/openapi/ecwid-profile-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +64,7 @@ source_filename: ecwid-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ecwid-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth 2.0 access token (private or public) used as a Bearer token.\n  sources:\n  - openapi/ecwid-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ecwid/refs/heads/main/authentication/ecwid-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ecwid/authentication/ecwid-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - E-Commerce

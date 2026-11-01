@@ -26,7 +26,7 @@ source_filename: hackpad-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: hackpad.com\n  https: false\ndomains:\n- domain: hackpad.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/2079416047\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hackpad/refs/heads/main/security/hackpad-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hackpad/security/hackpad-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

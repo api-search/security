@@ -7,7 +7,7 @@ api_specs:
   label: Abstract API Phone Validation Phone Validation API
   slug: abstractapi-phone-phone-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abstractapi-phone/refs/heads/main/openapi/abstractapi-phone-phone-validation-api-openapi.yml
+  url: https://artifacts.apis.io/abstractapi-phone/openapi/abstractapi-phone-phone-validation-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: abstractapi-phone-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: derived\nsource: openapi/abstractapi-phone-openapi.yml\nsummary:\n  types:\n  - apiKey\nschemes:\n- name: apiKeyQuery\n  type: apiKey\n  in: query\n  keyName: api_key\n  description: >-\n    Abstract API authenticates by an API key passed as the `api_key` query\n    parameter on the request, e.g.\n    https://phonevalidation.abstractapi.com/v1/?api_key=YOUR_API_KEY&phone=+14152007986.\n    Each Abstract API product (phone validation, email validation, IP\n    geolocation, etc.) issues its own distinct key. Live-confirmed 2026-07-12: a\n    missing or invalid key returns HTTP 401 with an \"Invalid API key provided\"\n    error.\n  sources:\n  - openapi/abstractapi-phone-openapi.yml\n  - https://www.abstractapi.com/api/phone-validation-api\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abstractapi-phone/refs/heads/main/authentication/abstractapi-phone-authentication.yml
+source_yaml_url: https://artifacts.apis.io/abstractapi-phone/authentication/abstractapi-phone-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Number Verification

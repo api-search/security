@@ -8,37 +8,37 @@ api_specs:
   label: Transpose Block API
   slug: transpose-block-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transpose/refs/heads/main/openapi/transpose-block-api-api-openapi.yml
+  url: https://artifacts.apis.io/transpose/openapi/transpose-block-api-api-openapi.yml
 - filename: transpose-ens-api-api-openapi.yml
   format: yaml
   label: Transpose ENS API
   slug: transpose-ens-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transpose/refs/heads/main/openapi/transpose-ens-api-api-openapi.yml
+  url: https://artifacts.apis.io/transpose/openapi/transpose-ens-api-api-openapi.yml
 - filename: transpose-nft-api-api-openapi.yml
   format: yaml
   label: Transpose NFT API
   slug: transpose-nft-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transpose/refs/heads/main/openapi/transpose-nft-api-api-openapi.yml
+  url: https://artifacts.apis.io/transpose/openapi/transpose-nft-api-api-openapi.yml
 - filename: transpose-sql-analytics-api-api-openapi.yml
   format: yaml
   label: Transpose SQL Analytics API
   slug: transpose-sql-analytics-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transpose/refs/heads/main/openapi/transpose-sql-analytics-api-api-openapi.yml
+  url: https://artifacts.apis.io/transpose/openapi/transpose-sql-analytics-api-api-openapi.yml
 - filename: transpose-token-api-api-openapi.yml
   format: yaml
   label: Transpose Token API
   slug: transpose-token-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transpose/refs/heads/main/openapi/transpose-token-api-api-openapi.yml
+  url: https://artifacts.apis.io/transpose/openapi/transpose-token-api-api-openapi.yml
 - filename: transpose-token-prices-api-api-openapi.yml
   format: yaml
   label: Transpose Token Prices API
   slug: transpose-token-prices-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transpose/refs/heads/main/openapi/transpose-token-prices-api-api-openapi.yml
+  url: https://artifacts.apis.io/transpose/openapi/transpose-token-prices-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: transpose-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-KEY\n  description: API key obtained from your Transpose team dashboard.\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transpose/refs/heads/main/authentication/transpose-authentication.yml
+source_yaml_url: https://artifacts.apis.io/transpose/authentication/transpose-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Blockchain

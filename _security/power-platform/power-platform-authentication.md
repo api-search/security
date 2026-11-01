@@ -7,67 +7,67 @@ api_specs:
   label: Microsoft Power Platform APIs Applications API
   slug: power-platform-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-applications-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-applications-api-openapi.yml
 - filename: power-platform-environments-api-openapi.yml
   format: yaml
   label: Microsoft Power Platform APIs Environments API
   slug: power-platform-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-environments-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-environments-api-openapi.yml
 - filename: power-platform-flow-runs-api-openapi.yml
   format: yaml
   label: Microsoft Power Platform APIs Flow Runs API
   slug: power-platform-flow-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-flow-runs-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-flow-runs-api-openapi.yml
 - filename: power-platform-licensing-api-openapi.yml
   format: yaml
   label: Microsoft Power Platform APIs Licensing API
   slug: power-platform-licensing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-licensing-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-licensing-api-openapi.yml
 - filename: power-platform-metadata-api-openapi.yml
   format: yaml
   label: Microsoft Power Platform Metadata API
   slug: microsoft-power-platform-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-metadata-api-openapi.yml
 - filename: power-platform-records-api-openapi.yml
   format: yaml
   label: Microsoft Power Platform Records API
   slug: microsoft-power-platform-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-records-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-records-api-openapi.yml
 - filename: power-platform-accounts-api-openapi.yml
   format: yaml
   label: Microsoft Power Platform APIs Accounts API
   slug: power-platform-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-accounts-api-openapi.yml
 - filename: power-platform-enterprisepolicies-api-openapi.yml
   format: yaml
   label: Microsoft Power Platform APIs Enterprise Policies API
   slug: power-platform-enterprisepolicies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-enterprisepolicies-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-enterprisepolicies-api-openapi.yml
 - filename: power-platform-operations-api-openapi.yml
   format: yaml
   label: Microsoft Power Platform APIs Operations API
   slug: power-platform-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-operations-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-operations-api-openapi.yml
 - filename: power-platform-privatelinkresources-api-openapi.yml
   format: yaml
   label: Microsoft Power Platform APIs Private Link Resources API
   slug: power-platform-privatelinkresources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-privatelinkresources-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-privatelinkresources-api-openapi.yml
 - filename: power-platform-private-endpoint-connections-api-openapi.yml
   format: yaml
   label: Microsoft Power Platform APIs Private Endpoint Connections API
   slug: power-platform-private-endpoint-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-private-endpoint-connections-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-private-endpoint-connections-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -111,7 +111,7 @@ source_filename: power-platform-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/power-platform-api-openapi.json\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n    scopes: 1\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n    scopes: 1\n  description: Microsoft Entra ID OAuth 2.0 authentication. Register your application and obtain\n    tokens via the Microsoft identity platform.\n  sources:\n  - openapi/power-platform-api-openapi.json\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Bearer token obtained from Microsoft Entra ID OAuth 2.0 flow.\n  sources:\n  - openapi/power-platform-api-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/authentication/power-platform-authentication.yml
+source_yaml_url: https://artifacts.apis.io/power-platform/authentication/power-platform-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Business Applications

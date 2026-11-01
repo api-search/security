@@ -5,43 +5,43 @@ api_specs:
   label: SmartHR Business Establishments API
   slug: smarthr-business-establishments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/smarthr-business-establishments-api-openapi.yml
+  url: https://artifacts.apis.io/smarthr/openapi/smarthr-business-establishments-api-openapi.yml
 - filename: smarthr-crews-api-openapi.yml
   format: yaml
   label: SmartHR Crews API
   slug: smarthr-crews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/smarthr-crews-api-openapi.yml
+  url: https://artifacts.apis.io/smarthr/openapi/smarthr-crews-api-openapi.yml
 - filename: smarthr-custom-field-templates-api-openapi.yml
   format: yaml
   label: SmartHR Custom Field Templates API
   slug: smarthr-custom-field-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/smarthr-custom-field-templates-api-openapi.yml
+  url: https://artifacts.apis.io/smarthr/openapi/smarthr-custom-field-templates-api-openapi.yml
 - filename: smarthr-departments-api-openapi.yml
   format: yaml
   label: SmartHR Departments API
   slug: smarthr-departments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/smarthr-departments-api-openapi.yml
+  url: https://artifacts.apis.io/smarthr/openapi/smarthr-departments-api-openapi.yml
 - filename: smarthr-employment-types-api-openapi.yml
   format: yaml
   label: SmartHR Employment Types API
   slug: smarthr-employment-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/smarthr-employment-types-api-openapi.yml
+  url: https://artifacts.apis.io/smarthr/openapi/smarthr-employment-types-api-openapi.yml
 - filename: smarthr-webhooks-api-openapi.yml
   format: yaml
   label: SmartHR Webhooks API
   slug: smarthr-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/smarthr-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/smarthr/openapi/smarthr-webhooks-api-openapi.yml
 - filename: smarthr-default-api-openapi.yml
   format: yaml
   label: SmartHR カスタム家族項目テンプレート API
   slug: smarthr-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/smarthr-default-api-openapi.yml
+  url: https://artifacts.apis.io/smarthr/openapi/smarthr-default-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -87,7 +87,7 @@ source_filename: smarthr-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + documentation hosts\nhosts:\n- host: smarthr.jp\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 08:23:24 2026 GMT\n  hsts: true\n  hsts_max_age: 0\n  hsts_note: HSTS header present but max-age=0 (effectively not enforcing).\n- host: developer.smarthr.jp\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 20:21:34 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: smarthr.jp\n  dnssec: false\n  caa: []\n  spf: true\n  spf_policy: '-all'\n  dmarc: true\n  dmarc_policy: reject\n- domain: developer.smarthr.jp\n  dnssec: false\n  caa:\n  - '0 issue \"globalsign.com\"'\n  - '0 issue \"letsencrypt.org\"'\n  spf: false\n  dmarc: false\n  note: developer.smarthr.jp is served via Vercel (CNAME cname.vercel-dns.com).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/security/smarthr-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/smarthr/security/smarthr-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Human Resources

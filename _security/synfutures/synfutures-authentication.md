@@ -8,37 +8,37 @@ api_specs:
   label: SynFutures Cash API
   slug: synfutures-cash-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/openapi/synfutures-cash-api-openapi.yml
+  url: https://artifacts.apis.io/synfutures/openapi/synfutures-cash-api-openapi.yml
 - filename: synfutures-market-data-api-openapi.yml
   format: yaml
   label: SynFutures Market Data API
   slug: synfutures-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/openapi/synfutures-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/synfutures/openapi/synfutures-market-data-api-openapi.yml
 - filename: synfutures-one-click-api-openapi.yml
   format: yaml
   label: SynFutures One Click API
   slug: synfutures-one-click-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/openapi/synfutures-one-click-api-openapi.yml
+  url: https://artifacts.apis.io/synfutures/openapi/synfutures-one-click-api-openapi.yml
 - filename: synfutures-orders-api-openapi.yml
   format: yaml
   label: SynFutures Orders API
   slug: synfutures-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/openapi/synfutures-orders-api-openapi.yml
+  url: https://artifacts.apis.io/synfutures/openapi/synfutures-orders-api-openapi.yml
 - filename: synfutures-portfolio-api-openapi.yml
   format: yaml
   label: SynFutures Portfolio API
   slug: synfutures-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/openapi/synfutures-portfolio-api-openapi.yml
+  url: https://artifacts.apis.io/synfutures/openapi/synfutures-portfolio-api-openapi.yml
 - filename: synfutures-stock-api-openapi.yml
   format: yaml
   label: SynFutures Stock API
   slug: synfutures-stock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/openapi/synfutures-stock-api-openapi.yml
+  url: https://artifacts.apis.io/synfutures/openapi/synfutures-stock-api-openapi.yml
 auth_types:
 - apiKey
 - hmac
@@ -96,7 +96,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://docs.synfutures.com/rwa-trading-apis/authentication/headers-and-permissions.md\ndocs: https://docs.synfutures.com/rwa-trading-apis/authentication/signature\nsummary:\n  types: [apiKey, hmac]\n  api_key_in: [header]\n  signed_requests: true\n  scheme: HMAC-SHA256\nschemes:\n  - name: ApiKeyAuth\n    type: apiKey\n    in: header\n    parameter: x-api-key\n    description: Partner API key. Must be active, not expired, and have an IP whitelist configured; a key with an empty/unset whitelist rejects ALL requests with 401.\n    sources: [openapi/synfutures-rwa-trading-openapi.yml]\n  - name: ApiSignature\n    type: hmac\n    in: header\n    parameter: x-api-sign\n    algorithm: HMAC-SHA256\n    encoding: hex (case-insensitive)\n    description: HMAC-SHA256 signature over the canonical request.\n  - name: ApiTimestamp\n    type: apiKey\n    in: header\n    parameter: x-api-ts\n    description: Unix millisecond timestamp; must\
   \ be within 45s drift tolerance.\n  - name: ApiNonce\n    type: apiKey\n    in: header\n    parameter: x-api-nonce\n    description: Unique nonce per key within the 45s window (UUID recommended); replay prevention.\n  - name: ApiChainId\n    type: apiKey\n    in: header\n    parameter: x-api-chain-id\n    description: Chain identifier for the request.\n  - name: ApiProduct\n    type: apiKey\n    in: header\n    parameter: x-api-p\n    description: Product type; use \"Synfutures\".\npermissions:\n  model: key-level access level (not OAuth scopes)\n  levels:\n    - name: READ_ONLY\n      allows: [GET]\n    - name: WRITABLE\n      allows: [GET, POST, DELETE]\nchains:\n  - {name: Base Mainnet, chain_id: 8453}\n  - {name: Ethereum Mainnet, chain_id: 1}\n  - {name: Monad Mainnet, chain_id: 143}\n  - {name: Ethereum Sepolia, chain_id: 11155111}\n  - {name: Monad Testnet, chain_id: 10143}\n  - {name: Base Sepolia, chain_id: 84532}\nnotes:\n  - API keys are issued by the SynFutures team (contact\
   \ via Discord or X); the API is in beta.\n  - One Click Trading (1CT) uses EIP-712 delegated signatures for on-chain actions without per-tx wallet prompts.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/authentication/synfutures-authentication.yml
+source_yaml_url: https://artifacts.apis.io/synfutures/authentication/synfutures-authentication.yml
 summary_line: apiKey/hmac · 6 schemes
 tags:
 - Company

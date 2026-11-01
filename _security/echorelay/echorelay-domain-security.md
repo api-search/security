@@ -1,17 +1,23 @@
 ---
 api_specs:
+- filename: echorelay-openapi-generated.yml
+  format: yaml
+  label: EchoRelay API
+  slug: echorelay-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/echorelay/openapi/_ae-authored/echorelay-openapi-generated.yml
 - filename: echorelay-keys-api-openapi.yml
   format: yaml
   label: EchoRelay Keys API
   slug: echorelay-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echorelay/refs/heads/main/openapi/echorelay-keys-api-openapi.yml
+  url: https://artifacts.apis.io/echorelay/openapi/echorelay-keys-api-openapi.yml
 - filename: echorelay-projects-api-openapi.yml
   format: yaml
   label: EchoRelay Projects API
   slug: echorelay-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echorelay/refs/heads/main/openapi/echorelay-projects-api-openapi.yml
+  url: https://artifacts.apis.io/echorelay/openapi/echorelay-projects-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,7 +47,7 @@ source_filename: echorelay-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-16'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: echorelay.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 09:46:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: echorelay.dev\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/echorelay/refs/heads/main/security/echorelay-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/echorelay/security/echorelay-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Integration

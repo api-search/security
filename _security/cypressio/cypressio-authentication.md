@@ -40,7 +40,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://docs.cypress.io/cloud/integrations/data-extract-api\ndocs: https://docs.cypress.io/cloud/integrations/data-extract-api\nsummary:\n  types: [apiKey]\n  api_key_in: [query]\n  oauth2_flows: []\nschemes:\n- name: OrganizationApiKey\n  type: apiKey\n  in: query\n  parameter: token\n  applies_to: Cypress Cloud Data Extract API (enterprise reporting)\n  provisioning: >-\n    An organization API key is generated under Integrations -> Enterprise API in\n    Cypress Cloud and passed on every request as the `token` query parameter.\n  scope: Enterprise plan subscription required.\n  sources: [https://docs.cypress.io/cloud/integrations/data-extract-api]\n- name: RecordKey\n  type: apiKey\n  in: other\n  parameter: record key\n  applies_to: Recording test runs to Cypress Cloud (cypress run --record --key)\n  provisioning: >-\n    A per-project record key issued in Cypress Cloud, supplied to the runner via\n    --key or the CYPRESS_RECORD_KEY\
   \ environment variable. Not part of the REST\n    reporting API; documented here for completeness.\n  sources: [https://docs.cypress.io/app/references/command-line]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cypressio/refs/heads/main/authentication/cypressio-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cypressio/authentication/cypressio-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company

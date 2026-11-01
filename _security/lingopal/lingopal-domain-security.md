@@ -5,25 +5,43 @@ api_specs:
   label: Lingopal Jobs API
   slug: lingopal-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/openapi/lingopal-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/lingopal/openapi/lingopal-jobs-api-openapi.yml
 - filename: lingopal-languages-api-openapi.yml
   format: yaml
   label: Lingopal Languages API
   slug: lingopal-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/openapi/lingopal-languages-api-openapi.yml
-- filename: lingopal-translate-api-openapi.yml
+  url: https://artifacts.apis.io/lingopal/openapi/lingopal-languages-api-openapi.yml
+- filename: lingopal-job-outputs-api-openapi.yml
   format: yaml
-  label: Lingopal Translate API
-  slug: lingopal-translate-api
+  label: Lingopal Job Outputs API
+  slug: lingopal-job-outputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/openapi/lingopal-translate-api-openapi.yml
-- filename: lingopal-upload-api-openapi.yml
+  url: https://artifacts.apis.io/lingopal/openapi/lingopal-job-outputs-api-openapi.yml
+- filename: lingopal-job-registration-api-openapi.yml
   format: yaml
-  label: Lingopal Upload API
-  slug: lingopal-upload-api
+  label: Lingopal Job Registration API
+  slug: lingopal-job-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/openapi/lingopal-upload-api-openapi.yml
+  url: https://artifacts.apis.io/lingopal/openapi/lingopal-job-registration-api-openapi.yml
+- filename: lingopal-job-workflows-api-openapi.yml
+  format: yaml
+  label: Lingopal Job Workflows API
+  slug: lingopal-job-workflows-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lingopal/openapi/lingopal-job-workflows-api-openapi.yml
+- filename: lingopal-storage-api-openapi.yml
+  format: yaml
+  label: Lingopal Storage API
+  slug: lingopal-storage-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lingopal/openapi/lingopal-storage-api-openapi.yml
+- filename: lingopal-text-translation-api-openapi.yml
+  format: yaml
+  label: Lingopal Text Translation API
+  slug: lingopal-text-translation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lingopal/openapi/lingopal-text-translation-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,7 +80,7 @@ source_filename: lingopal-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: lingopal.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 18 23:59:59 2026 GMT\n  hsts: false\n- host: vod-api.lingopal-dev.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 14 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: lingopal.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: lingopal-dev.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/security/lingopal-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lingopal/security/lingopal-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

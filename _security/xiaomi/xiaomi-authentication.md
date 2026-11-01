@@ -8,49 +8,49 @@ api_specs:
   label: Xiaomi Access Control API
   slug: xiaomi-access-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-access-control-api-openapi.yml
+  url: https://artifacts.apis.io/xiaomi/openapi/xiaomi-access-control-api-openapi.yml
 - filename: xiaomi-authentication-api-openapi.yml
   format: yaml
   label: Xiaomi Authentication API
   slug: xiaomi-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/xiaomi/openapi/xiaomi-authentication-api-openapi.yml
 - filename: xiaomi-cdn-api-openapi.yml
   format: yaml
   label: Xiaomi CDN API
   slug: xiaomi-cdn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-cdn-api-openapi.yml
+  url: https://artifacts.apis.io/xiaomi/openapi/xiaomi-cdn-api-openapi.yml
 - filename: xiaomi-models-api-openapi.yml
   format: yaml
   label: Xiaomi Models API
   slug: xiaomi-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-models-api-openapi.yml
+  url: https://artifacts.apis.io/xiaomi/openapi/xiaomi-models-api-openapi.yml
 - filename: xiaomi-multipart-upload-api-openapi.yml
   format: yaml
   label: Xiaomi Multipart Upload API
   slug: xiaomi-multipart-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-multipart-upload-api-openapi.yml
+  url: https://artifacts.apis.io/xiaomi/openapi/xiaomi-multipart-upload-api-openapi.yml
 - filename: xiaomi-objects-api-openapi.yml
   format: yaml
   label: Xiaomi Objects API
   slug: xiaomi-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-objects-api-openapi.yml
+  url: https://artifacts.apis.io/xiaomi/openapi/xiaomi-objects-api-openapi.yml
 - filename: xiaomi-user-api-openapi.yml
   format: yaml
   label: Xiaomi User API
   slug: xiaomi-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-user-api-openapi.yml
+  url: https://artifacts.apis.io/xiaomi/openapi/xiaomi-user-api-openapi.yml
 - filename: xiaomi-chat-completions-api-openapi.yml
   format: yaml
   label: Xiaomi Chat Completions API
   slug: xiaomi-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/xiaomi/openapi/xiaomi-chat-completions-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -96,7 +96,7 @@ source_filename: xiaomi-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/xiaomi-galaxy-fds-openapi.yml, openapi/xiaomi-mimo-api-openapi.yml, openapi/xiaomi-open-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: hmacAuth\n  type: http\n  scheme: custom\n  description: HMAC-based signature authentication. Requests must include a Date header and\n    Authorization header with HMAC-SHA1 signature.\n  sources:\n  - openapi/xiaomi-galaxy-fds-openapi.yml\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: api-key\n  description: API key obtained from the Xiaomi MiMo console.\n  sources:\n  - openapi/xiaomi-mimo-api-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://account.xiaomi.com/oauth2/authorize\n    tokenUrl: https://account.xiaomi.com/oauth2/token\n    scopes: 5\n  sources:\n  - openapi/xiaomi-open-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/authentication/xiaomi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/xiaomi/authentication/xiaomi-authentication.yml
 summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Consumer Electronics

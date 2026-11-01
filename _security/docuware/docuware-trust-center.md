@@ -16,7 +16,7 @@ source_filename: docuware-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: searched\nprobe: true\nsource: https://start.docuware.com/security\nurl: https://start.docuware.com/security\ncertifications:\n- HIPAA\n- GDPR\nevidence:\n- source: https://start.docuware.com/security\n  keywords:\n  - hipaa\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docuware/refs/heads/main/security/docuware-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/docuware/security/docuware-trust-center.yml
 summary_line: HIPAA, GDPR
 tags:
 - Document Management

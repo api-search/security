@@ -27,7 +27,7 @@ source_filename: coinmine-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: coinmine.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 20:18:05 2026 GMT\n  hsts: null\ndomains:\n- domain: coinmine.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coinmine/refs/heads/main/security/coinmine-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/coinmine/security/coinmine-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

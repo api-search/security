@@ -8,13 +8,13 @@ api_specs:
   label: Onsi Members API
   slug: onsi-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/openapi/onsi-members-api-openapi.yml
+  url: https://artifacts.apis.io/onsi/openapi/onsi-members-api-openapi.yml
 - filename: onsi-pay-api-openapi.yml
   format: yaml
   label: Onsi Pay API
   slug: onsi-pay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/openapi/onsi-pay-api-openapi.yml
+  url: https://artifacts.apis.io/onsi/openapi/onsi-pay-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: onsi-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/onsi-openapi-original.json\ndocs: https://docs.onsi.com/api-reference/introduction\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  key_provisioning: Request an API key from the Onsi team; a distinct key is issued per environment (production vs sandbox api.onsi.dev).\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  docs: https://docs.onsi.com/api-reference/introduction\n  sources:\n  - openapi/onsi-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/authentication/onsi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/onsi/authentication/onsi-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

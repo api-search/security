@@ -9,91 +9,91 @@ api_specs:
   label: Cape Partners Activity API
   slug: capepartners-fr-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/openapi/capepartners-fr-activity-api-openapi.yml
+  url: https://artifacts.apis.io/capepartners-fr/openapi/capepartners-fr-activity-api-openapi.yml
 - filename: capepartners-fr-confidentiality-api-openapi.yml
   format: yaml
   label: Cape Partners Confidentiality API
   slug: capepartners-fr-confidentiality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/openapi/capepartners-fr-confidentiality-api-openapi.yml
+  url: https://artifacts.apis.io/capepartners-fr/openapi/capepartners-fr-confidentiality-api-openapi.yml
 - filename: capepartners-fr-dataquality-api-openapi.yml
   format: yaml
   label: Cape Partners Data Quality API
   slug: capepartners-fr-dataquality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/openapi/capepartners-fr-dataquality-api-openapi.yml
+  url: https://artifacts.apis.io/capepartners-fr/openapi/capepartners-fr-dataquality-api-openapi.yml
 - filename: capepartners-fr-dealflow-api-openapi.yml
   format: yaml
   label: Cape Partners Deal Flow API
   slug: capepartners-fr-dealflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/openapi/capepartners-fr-dealflow-api-openapi.yml
+  url: https://artifacts.apis.io/capepartners-fr/openapi/capepartners-fr-dealflow-api-openapi.yml
 - filename: capepartners-fr-discovery-api-openapi.yml
   format: yaml
   label: Cape Partners Discovery API
   slug: capepartners-fr-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/openapi/capepartners-fr-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/capepartners-fr/openapi/capepartners-fr-discovery-api-openapi.yml
 - filename: capepartners-fr-exchange-api-openapi.yml
   format: yaml
   label: Cape Partners Exchange API
   slug: capepartners-fr-exchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/openapi/capepartners-fr-exchange-api-openapi.yml
+  url: https://artifacts.apis.io/capepartners-fr/openapi/capepartners-fr-exchange-api-openapi.yml
 - filename: capepartners-fr-identity-api-openapi.yml
   format: yaml
   label: Cape Partners Identity API
   slug: capepartners-fr-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/openapi/capepartners-fr-identity-api-openapi.yml
+  url: https://artifacts.apis.io/capepartners-fr/openapi/capepartners-fr-identity-api-openapi.yml
 - filename: capepartners-fr-infomemos-api-openapi.yml
   format: yaml
   label: Cape Partners Info Memos API
   slug: capepartners-fr-infomemos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/openapi/capepartners-fr-infomemos-api-openapi.yml
+  url: https://artifacts.apis.io/capepartners-fr/openapi/capepartners-fr-infomemos-api-openapi.yml
 - filename: capepartners-fr-interest-api-openapi.yml
   format: yaml
   label: Cape Partners Interest API
   slug: capepartners-fr-interest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/openapi/capepartners-fr-interest-api-openapi.yml
+  url: https://artifacts.apis.io/capepartners-fr/openapi/capepartners-fr-interest-api-openapi.yml
 - filename: capepartners-fr-mandate-api-openapi.yml
   format: yaml
   label: Cape Partners Mandate API
   slug: capepartners-fr-mandate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/openapi/capepartners-fr-mandate-api-openapi.yml
+  url: https://artifacts.apis.io/capepartners-fr/openapi/capepartners-fr-mandate-api-openapi.yml
 - filename: capepartners-fr-matching-api-openapi.yml
   format: yaml
   label: Cape Partners Matching API
   slug: capepartners-fr-matching-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/openapi/capepartners-fr-matching-api-openapi.yml
+  url: https://artifacts.apis.io/capepartners-fr/openapi/capepartners-fr-matching-api-openapi.yml
 - filename: capepartners-fr-pairings-api-openapi.yml
   format: yaml
   label: Cape Partners Pairings API
   slug: capepartners-fr-pairings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/openapi/capepartners-fr-pairings-api-openapi.yml
+  url: https://artifacts.apis.io/capepartners-fr/openapi/capepartners-fr-pairings-api-openapi.yml
 - filename: capepartners-fr-registration-api-openapi.yml
   format: yaml
   label: Cape Partners Registration API
   slug: capepartners-fr-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/openapi/capepartners-fr-registration-api-openapi.yml
+  url: https://artifacts.apis.io/capepartners-fr/openapi/capepartners-fr-registration-api-openapi.yml
 - filename: capepartners-fr-search-api-openapi.yml
   format: yaml
   label: Cape Partners Search API
   slug: capepartners-fr-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/openapi/capepartners-fr-search-api-openapi.yml
+  url: https://artifacts.apis.io/capepartners-fr/openapi/capepartners-fr-search-api-openapi.yml
 - filename: capepartners-fr-valuation-api-openapi.yml
   format: yaml
   label: Cape Partners Valuation API
   slug: capepartners-fr-valuation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/openapi/capepartners-fr-valuation-api-openapi.yml
+  url: https://artifacts.apis.io/capepartners-fr/openapi/capepartners-fr-valuation-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -181,7 +181,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/capepar
   \ when present (403 on failure). An agent POSTing directly sends none and is classified as an agent; POST /api/submit then requires a declared human supervisor in the body ({\"supervisor\":{\"name\",\"email\",\"company\"}}) or answers 403 \"Human verification failed\". Consumer webmail addresses (gmail/outlook/hotmail/yahoo) are rejected on join — a verified business email is required.\n  sources:\n  - https://www.capepartners.fr/api\n  - https://www.capepartners.fr/llms.txt\nguards:\n  uuid: 400 — Invalid session identifier (UUID-v4 required), checked before anything else is touched\n  cross_origin: 403 — a present Origin/Referer must be a Cape Partners first-party host; absent is allowed\n  rate_limit: 429 — rolling per-IP 60 requests / 60 s per endpoint family on confidential reads, retry_after (seconds) in the JSON body\n  nda: 403 — nda_required:true until a human-approved signature is recorded; then the registered email must be a validated mailbox\n  turnstile: 403 — Human verification\
   \ failed on POST /api/submit and POST /api/workspace/join unless a human supervisor is declared\ncredentials:\n  - id: workspace-session-uuid\n    where: URL path segment {session_id} (and body session_id on some writes)\n    prefix: null\n    format: UUID v4\n    use: Every workspace operation (session, matches, valuation, pairings, deal flow, interest signals, activity, info memos, mandate)\n    issued_by: POST /api/workspace/join\n    note: 'The provider''s homepage tells agents to \"treat it like a password\" — anyone holding the UUID can read name, email, company and financials. Do not log it or put it in a Referer (the server sets Referrer-Policy strict-origin-when-cross-origin for this reason).'\n  - id: exchange-key\n    where: X-A2A-Key header, Authorization Bearer, or body.key on POST /api/exchange/reply\n    prefix: null\n    format: msgid from the submission receipt, or answer_key from the first read\n    use: Reading and answering the agent's own exchange thread / A2A tasks;\
   \ presented as exchange_key on POST /api/workspace/join to upgrade to a workspace\n    issued_by: The first SendMessage / POST /api/exchange/manifest (no credential needed to obtain it)\n  - id: engage-token\n    where: URL path segment {token}\n    prefix: null\n    format: opaque\n    use: Read-only broker gateway for assistants that cannot POST\n    issued_by: Operator, out of band (POST /engage/issue is admin-gated)\noauth: null\nscopes: null\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/authentication/capepartners-fr-authentication.yml
+source_yaml_url: https://artifacts.apis.io/capepartners-fr/authentication/capepartners-fr-authentication.yml
 summary_line: apiKey · 6 schemes
 tags:
 - Mergers and Acquisitions

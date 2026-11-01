@@ -5,43 +5,43 @@ api_specs:
   label: Padlet AI Recipe Boards API
   slug: padlet-ai-recipe-boards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/padlet/refs/heads/main/openapi/padlet-ai-recipe-boards-api-openapi.yml
+  url: https://artifacts.apis.io/padlet/openapi/padlet-ai-recipe-boards-api-openapi.yml
 - filename: padlet-boards-api-openapi.yml
   format: yaml
   label: Padlet Boards API
   slug: padlet-boards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/padlet/refs/heads/main/openapi/padlet-boards-api-openapi.yml
+  url: https://artifacts.apis.io/padlet/openapi/padlet-boards-api-openapi.yml
 - filename: padlet-comments-api-openapi.yml
   format: yaml
   label: Padlet Comments API
   slug: padlet-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/padlet/refs/heads/main/openapi/padlet-comments-api-openapi.yml
+  url: https://artifacts.apis.io/padlet/openapi/padlet-comments-api-openapi.yml
 - filename: padlet-organizations-api-openapi.yml
   format: yaml
   label: Padlet Organizations API
   slug: padlet-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/padlet/refs/heads/main/openapi/padlet-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/padlet/openapi/padlet-organizations-api-openapi.yml
 - filename: padlet-posts-api-openapi.yml
   format: yaml
   label: Padlet Posts API
   slug: padlet-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/padlet/refs/heads/main/openapi/padlet-posts-api-openapi.yml
+  url: https://artifacts.apis.io/padlet/openapi/padlet-posts-api-openapi.yml
 - filename: padlet-reactions-api-openapi.yml
   format: yaml
   label: Padlet Reactions API
   slug: padlet-reactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/padlet/refs/heads/main/openapi/padlet-reactions-api-openapi.yml
+  url: https://artifacts.apis.io/padlet/openapi/padlet-reactions-api-openapi.yml
 - filename: padlet-users-api-openapi.yml
   format: yaml
   label: Padlet Users API
   slug: padlet-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/padlet/refs/heads/main/openapi/padlet-users-api-openapi.yml
+  url: https://artifacts.apis.io/padlet/openapi/padlet-users-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -88,7 +88,7 @@ source_filename: padlet-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: padlet.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 08:29:50 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.padlet.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 09:02:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: padlet.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: padlet.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/padlet/refs/heads/main/security/padlet-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/padlet/security/padlet-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Collaboration

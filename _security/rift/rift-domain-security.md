@@ -5,19 +5,19 @@ api_specs:
   label: Rift Orders API
   slug: rift-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rift/refs/heads/main/openapi/rift-orders-api-openapi.yml
+  url: https://artifacts.apis.io/rift/openapi/rift-orders-api-openapi.yml
 - filename: rift-quotes-api-openapi.yml
   format: yaml
   label: Rift Quotes API
   slug: rift-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rift/refs/heads/main/openapi/rift-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/rift/openapi/rift-quotes-api-openapi.yml
 - filename: rift-status-api-openapi.yml
   format: yaml
   label: Rift Status API
   slug: rift-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rift/refs/heads/main/openapi/rift-status-api-openapi.yml
+  url: https://artifacts.apis.io/rift/openapi/rift-status-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: rift-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: rift.trade\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 20:59:13 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: rift.trade\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rift/refs/heads/main/security/rift-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rift/security/rift-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

@@ -5,7 +5,7 @@ api_specs:
   label: Helmerich & Payne Survey Validation Controller API
   slug: helmerich-and-payne-survey-validation-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helmerich-and-payne/refs/heads/main/openapi/helmerich-and-payne-survey-validation-controller-api-openapi.yml
+  url: https://artifacts.apis.io/helmerich-and-payne/openapi/helmerich-and-payne-survey-validation-controller-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: helmerich-and-payne-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hpinc.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  3 16:17:10 2026 GMT\n  hsts: false\n- host: fac-api.magvar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 19 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31622400\ndomains:\n- domain: hpinc.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: magvar.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/helmerich-and-payne/refs/heads/main/security/helmerich-and-payne-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/helmerich-and-payne/security/helmerich-and-payne-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Oil and Gas

@@ -27,7 +27,7 @@ source_filename: carnow-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.carnow.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 03:49:43 2026 GMT\n  hsts: false\ndomains:\n- domain: carnow.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carnow/refs/heads/main/security/carnow-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/carnow/security/carnow-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

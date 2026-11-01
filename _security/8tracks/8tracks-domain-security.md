@@ -27,7 +27,7 @@ source_filename: 8tracks-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: 8tracks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 21:55:20 2026 GMT\n  hsts: null\ndomains:\n- domain: 8tracks.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/8tracks/refs/heads/main/security/8tracks-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/8tracks/security/8tracks-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

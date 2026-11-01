@@ -7,61 +7,61 @@ api_specs:
   label: Docker Hub Access Tokens API
   slug: docker-hub-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/openapi/docker-hub-access-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-access-tokens-api-openapi.yml
 - filename: docker-hub-audit-logs-api-openapi.yml
   format: yaml
   label: Docker Hub Audit Logs API
   slug: docker-hub-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/openapi/docker-hub-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-audit-logs-api-openapi.yml
 - filename: docker-hub-authentication-api-api-openapi.yml
   format: yaml
   label: Docker Hub Authentication API
   slug: docker-hub-authentication-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/openapi/docker-hub-authentication-api-api-openapi.yml
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-authentication-api-api-openapi.yml
 - filename: docker-hub-groups-api-openapi.yml
   format: yaml
   label: Docker Hub Groups API
   slug: docker-hub-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/openapi/docker-hub-groups-api-openapi.yml
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-groups-api-openapi.yml
 - filename: docker-hub-invites-api-openapi.yml
   format: yaml
   label: Docker Hub Invites API
   slug: docker-hub-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/openapi/docker-hub-invites-api-openapi.yml
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-invites-api-openapi.yml
 - filename: docker-hub-org-access-tokens-api-openapi.yml
   format: yaml
   label: Docker Hub Org Access Tokens API
   slug: docker-hub-org-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/openapi/docker-hub-org-access-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-org-access-tokens-api-openapi.yml
 - filename: docker-hub-org-settings-api-openapi.yml
   format: yaml
   label: Docker Hub Org Settings API
   slug: docker-hub-org-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/openapi/docker-hub-org-settings-api-openapi.yml
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-org-settings-api-openapi.yml
 - filename: docker-hub-orgs-api-openapi.yml
   format: yaml
   label: Docker Hub Orgs API
   slug: docker-hub-orgs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/openapi/docker-hub-orgs-api-openapi.yml
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-orgs-api-openapi.yml
 - filename: docker-hub-repositories-api-openapi.yml
   format: yaml
   label: Docker Hub Repositories API
   slug: docker-hub-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/openapi/docker-hub-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-repositories-api-openapi.yml
 - filename: docker-hub-scim-api-openapi.yml
   format: yaml
   label: Docker Hub SCIM API
   slug: docker-hub-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/openapi/docker-hub-scim-api-openapi.yml
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-scim-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -88,7 +88,7 @@ source_filename: docker-hub-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/docker-hub-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/docker-hub-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/authentication/docker-hub-authentication.yml
+source_yaml_url: https://artifacts.apis.io/docker-hub/authentication/docker-hub-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Containers

@@ -44,7 +44,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://cratedb.com/docs/cloud/en/latest/reference/api.html + https://cratedb.com/docs\nsummary:\n  types: [http-basic, http-basic-apikey, jwt]\n  api_key_in: [header]\n  oauth2_flows: []\nschemes:\n- name: cloud-api-key\n  type: http\n  scheme: basic\n  applies_to: CrateDB Cloud API (https://console.cratedb.cloud/api/v2)\n  description: >-\n    HTTP Basic authentication using a CrateDB Cloud API key id (username) and\n    secret (password). Keys are generated from the account settings page and\n    inherit the permissions of the user who created them.\n  docs: https://cratedb.com/docs/cloud/en/latest/reference/api.html\n- name: db-user-password\n  type: http\n  scheme: basic\n  applies_to: CrateDB HTTP SQL endpoint / PostgreSQL wire protocol\n  description: >-\n    CrateDB database users authenticate with username/password (HTTP Basic on\n    the /_sql endpoint, or standard PostgreSQL auth on the wire protocol),\n    governed\
   \ by host-based access control (HBA) rules.\n  docs: https://cratedb.com/docs/crate/reference/en/latest/admin/auth/index.html\n- name: db-jwt\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  applies_to: CrateDB HTTP SQL endpoint\n  description: >-\n    CrateDB supports JWT-based authentication for database users, configurable\n    through HBA rules (jwt auth method).\n  docs: https://cratedb.com/docs/crate/reference/en/latest/admin/auth/methods.html\ntransport_security:\n  tls: required-in-cloud\n  note: CrateDB Cloud endpoints are TLS-only; self-managed clusters can enable SSL.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crate-io/refs/heads/main/authentication/crate-io-authentication.yml
+source_yaml_url: https://artifacts.apis.io/crate-io/authentication/crate-io-authentication.yml
 summary_line: http-basic/http-basic-apikey/jwt · 3 schemes
 tags:
 - Company
@@ -53,7 +53,7 @@ tags:
 - Distributed Database
 - Analytics
 - Time Series
-- Vector Database
+- Vector Search
 - IoT
 - Cloud
 - Developer Tools

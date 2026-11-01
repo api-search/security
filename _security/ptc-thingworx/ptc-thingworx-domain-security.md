@@ -5,43 +5,43 @@ api_specs:
   label: PTC ThingWorx WebSocket/AlwaysOn API
   slug: thingworx-websocket-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/asyncapi/ptc-thingworx-websocket-asyncapi.yml
+  url: https://artifacts.apis.io/ptc-thingworx/asyncapi/ptc-thingworx-websocket-asyncapi.yml
 - filename: ptc-thingworx-datashapes-api-openapi.yml
   format: yaml
   label: ptc-thingworx DataShapes API
   slug: ptc-thingworx-datashapes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/openapi/ptc-thingworx-datashapes-api-openapi.yml
+  url: https://artifacts.apis.io/ptc-thingworx/openapi/ptc-thingworx-datashapes-api-openapi.yml
 - filename: ptc-thingworx-events-api-openapi.yml
   format: yaml
   label: ptc-thingworx Events API
   slug: ptc-thingworx-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/openapi/ptc-thingworx-events-api-openapi.yml
+  url: https://artifacts.apis.io/ptc-thingworx/openapi/ptc-thingworx-events-api-openapi.yml
 - filename: ptc-thingworx-properties-api-openapi.yml
   format: yaml
   label: ptc-thingworx Properties API
   slug: ptc-thingworx-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/openapi/ptc-thingworx-properties-api-openapi.yml
+  url: https://artifacts.apis.io/ptc-thingworx/openapi/ptc-thingworx-properties-api-openapi.yml
 - filename: ptc-thingworx-things-api-openapi.yml
   format: yaml
   label: ptc-thingworx Things API
   slug: ptc-thingworx-things-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/openapi/ptc-thingworx-things-api-openapi.yml
+  url: https://artifacts.apis.io/ptc-thingworx/openapi/ptc-thingworx-things-api-openapi.yml
 - filename: ptc-thingworx-thingtemplates-api-openapi.yml
   format: yaml
   label: ptc-thingworx ThingTemplates API
   slug: ptc-thingworx-thingtemplates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/openapi/ptc-thingworx-thingtemplates-api-openapi.yml
+  url: https://artifacts.apis.io/ptc-thingworx/openapi/ptc-thingworx-thingtemplates-api-openapi.yml
 - filename: ptc-thingworx-valuestreams-api-openapi.yml
   format: yaml
   label: ptc-thingworx ValueStreams API
   slug: ptc-thingworx-valuestreams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/openapi/ptc-thingworx-valuestreams-api-openapi.yml
+  url: https://artifacts.apis.io/ptc-thingworx/openapi/ptc-thingworx-valuestreams-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -78,7 +78,7 @@ source_filename: ptc-thingworx-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.ptc.com\n  https: false\n- host: www.ptc.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: ptc.com\n  dnssec: false\n  caa:\n  - 128 issue \"quovadisglobal.com\"\n  - 128 issuewild \"digicert.com\"\n  - 128 issuewild \"pki.goog\"\n  - 128 issuewild \"quovadisglobal.com\"\n  - 128 issuewild \"amazon.com\"\n  - 128 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/security/ptc-thingworx-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ptc-thingworx/security/ptc-thingworx-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Manufacturing

@@ -7,31 +7,31 @@ api_specs:
   label: Smartcar Charging API
   slug: smartcar-charging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/openapi/smartcar-charging-api-openapi.yml
+  url: https://artifacts.apis.io/smartcar/openapi/smartcar-charging-api-openapi.yml
 - filename: smartcar-connections-api-openapi.yml
   format: yaml
   label: Smartcar Connections API
   slug: smartcar-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/openapi/smartcar-connections-api-openapi.yml
+  url: https://artifacts.apis.io/smartcar/openapi/smartcar-connections-api-openapi.yml
 - filename: smartcar-navigation-api-openapi.yml
   format: yaml
   label: Smartcar Navigation API
   slug: smartcar-navigation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/openapi/smartcar-navigation-api-openapi.yml
+  url: https://artifacts.apis.io/smartcar/openapi/smartcar-navigation-api-openapi.yml
 - filename: smartcar-security-api-openapi.yml
   format: yaml
   label: Smartcar Security API
   slug: smartcar-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/openapi/smartcar-security-api-openapi.yml
+  url: https://artifacts.apis.io/smartcar/openapi/smartcar-security-api-openapi.yml
 - filename: smartcar-vehicle-data-api-openapi.yml
   format: yaml
   label: Smartcar Vehicle Data API
   slug: smartcar-vehicle-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/openapi/smartcar-vehicle-data-api-openapi.yml
+  url: https://artifacts.apis.io/smartcar/openapi/smartcar-vehicle-data-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: smartcar-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/smartcar-vehicles-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth 2.0 access token obtained via Authorization Code or Client Credentials\n    flow\n  sources:\n  - openapi/smartcar-vehicles-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/authentication/smartcar-authentication.yml
+source_yaml_url: https://artifacts.apis.io/smartcar/authentication/smartcar-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Automotive

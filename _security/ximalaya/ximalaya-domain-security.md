@@ -37,7 +37,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ximalaya.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 20 09:56:09 2027 GMT\n  hsts: false\n- host: open.ximalaya.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 20 09:56:09 2027 GMT\n  hsts: false\n- host: api.ximalaya.com\n  https: true\n  hsts: false\n  note: >-\n    The automated probe first recorded https:false, which was a false negative — an\n    openssl s_client handshake to this host hangs rather than completing. Corrected\n    2026-09-04 after a direct HTTPS request succeeded: GET\n    https://api.ximalaya.com/oauth2/v2/access_token returned HTTP 400 with a valid\n    certificate (curl ssl_verify_result=0) and the documented JSON error envelope.\n    TLS protocol version could not be negotiated by the probe and is therefore not\n    recorded rather than guessed.\ndomains:\n- domain: ximalaya.com\n  dnssec: true\n\
   \  caa:\n  - waf.c.ximalaya.com.\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ximalaya/refs/heads/main/security/ximalaya-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ximalaya/security/ximalaya-domain-security.yml
 summary_line: TLSv1.2 · DNSSEC
 tags:
 - Company

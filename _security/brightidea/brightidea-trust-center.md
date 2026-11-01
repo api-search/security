@@ -17,7 +17,7 @@ source_filename: brightidea-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-06'\nmethod: searched\nprobe: true\nsource: https://www.brightidea.com/security/\nurl: https://www.brightidea.com/security/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\nevidence:\n- source: https://www.brightidea.com/security/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brightidea/refs/heads/main/security/brightidea-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/brightidea/security/brightidea-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017
 tags:
 - Company

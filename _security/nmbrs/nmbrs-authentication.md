@@ -7,43 +7,43 @@ api_specs:
   label: Nmbrs Absences API
   slug: nmbrs-absences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-absences-api-openapi.yml
+  url: https://artifacts.apis.io/nmbrs/openapi/nmbrs-absences-api-openapi.yml
 - filename: nmbrs-companies-api-openapi.yml
   format: yaml
   label: Nmbrs Companies API
   slug: nmbrs-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-companies-api-openapi.yml
+  url: https://artifacts.apis.io/nmbrs/openapi/nmbrs-companies-api-openapi.yml
 - filename: nmbrs-employees-api-openapi.yml
   format: yaml
   label: Nmbrs Employees API
   slug: nmbrs-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-employees-api-openapi.yml
+  url: https://artifacts.apis.io/nmbrs/openapi/nmbrs-employees-api-openapi.yml
 - filename: nmbrs-employments-api-openapi.yml
   format: yaml
   label: Nmbrs Employments API
   slug: nmbrs-employments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-employments-api-openapi.yml
+  url: https://artifacts.apis.io/nmbrs/openapi/nmbrs-employments-api-openapi.yml
 - filename: nmbrs-salaries-api-openapi.yml
   format: yaml
   label: Nmbrs Salaries API
   slug: nmbrs-salaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-salaries-api-openapi.yml
+  url: https://artifacts.apis.io/nmbrs/openapi/nmbrs-salaries-api-openapi.yml
 - filename: nmbrs-wage-components-api-openapi.yml
   format: yaml
   label: Nmbrs Wage Components API
   slug: nmbrs-wage-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-wage-components-api-openapi.yml
+  url: https://artifacts.apis.io/nmbrs/openapi/nmbrs-wage-components-api-openapi.yml
 - filename: nmbrs-pay-runs-api-openapi.yml
   format: yaml
   label: Nmbrs Pay Runs API
   slug: nmbrs-pay-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-pay-runs-api-openapi.yml
+  url: https://artifacts.apis.io/nmbrs/openapi/nmbrs-pay-runs-api-openapi.yml
 auth_types:
 - oauth2
 - apiKey
@@ -96,7 +96,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: documented\nsource: https://developer.nmbrs.com/docs\nsummary:\n  types:\n  - oauth2\n  - apiKey\n  - soap-token\nschemes:\n- name: oauth2\n  type: oauth2\n  flow: authorizationCode\n  authorizationUrl: https://identityservice.nmbrs.com/connect/authorize\n  tokenUrl: https://identityservice.nmbrs.com/connect/token\n  description: >-\n    The current Nmbrs REST API uses the OAuth 2.0 Authorization Code flow.\n    Authorization happens at the company/debtor level (not accountant login).\n    Access is scoped with granular OAuth scopes.\n  scopes:\n  - employee.info\n  - employee.info.read\n  - employee.employment\n  - employee.employment.read\n  - employee.payment\n  sources:\n  - https://developer.nmbrs.com/docs\n  - https://nmbrs.stoplight.io/docs/nmbrs-restapi/ZG9jOjY4OTAxNTQ-authentication\n- name: subscriptionKey\n  type: apiKey\n  in: header\n  description: >-\n    In addition to the OAuth bearer token, every REST request must carry a\n\
   \    per-product subscription key generated when you subscribe to a product in\n    the Nmbrs developer portal. Modeled here on an X-Subscription-Key header;\n    confirm the exact header name in the Stoplight reference.\n  sources:\n  - https://developer.nmbrs.com/docs\n  - https://nmbrs.stoplight.io/docs/nmbrs-restapi/ZG9jOjE5Nzc1OTky-getting-started\n- name: soapToken\n  type: apiKey\n  scheme: soap-header\n  description: >-\n    The legacy SOAP v3 API authenticates with a username plus an API token\n    passed in the SOAP AuthHeader. Deprecated; the SOAP API is scheduled to be\n    retired on 1 March 2027.\n  sources:\n  - https://support.nmbrs.nl/hc/nl/articles/205903718-Nmbrs-API-for-developers\n  - https://api.nmbrs.nl/soap/v3/EmployeeService.asmx\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/authentication/nmbrs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nmbrs/authentication/nmbrs-authentication.yml
 summary_line: oauth2/apiKey/soap-token · 3 schemes
 tags:
 - Human Resources

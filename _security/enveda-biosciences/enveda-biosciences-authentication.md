@@ -27,7 +27,7 @@ source_filename: enveda-biosciences-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: derived\nsource: openapi/enveda-biosciences-content-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: applicationPassword\n  type: http\n  scheme: basic\n  description: WordPress Application Passwords, advertised by the site at https://enveda.com/wp-json/\n    under authentication.application-passwords; authorization endpoint https://enveda.com/wp-admin/authorize-application.php.\n    Read operations on wp/v2 are anonymous.\n  sources:\n  - openapi/enveda-biosciences-content-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/enveda-biosciences/refs/heads/main/authentication/enveda-biosciences-authentication.yml
+source_yaml_url: https://artifacts.apis.io/enveda-biosciences/authentication/enveda-biosciences-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

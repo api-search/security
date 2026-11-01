@@ -5,43 +5,43 @@ api_specs:
   label: Login.gov Authentication API
   slug: login-gov-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/login-gov/refs/heads/main/openapi/login-gov-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/login-gov/openapi/login-gov-authentication-api-openapi.yml
 - filename: login-gov-authorization-api-openapi.yml
   format: yaml
   label: Login.gov Authorization API
   slug: login-gov-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/login-gov/refs/heads/main/openapi/login-gov-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/login-gov/openapi/login-gov-authorization-api-openapi.yml
 - filename: login-gov-discovery-api-openapi.yml
   format: yaml
   label: Login.gov Discovery API
   slug: login-gov-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/login-gov/refs/heads/main/openapi/login-gov-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/login-gov/openapi/login-gov-discovery-api-openapi.yml
 - filename: login-gov-logout-api-openapi.yml
   format: yaml
   label: Login.gov Logout API
   slug: login-gov-logout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/login-gov/refs/heads/main/openapi/login-gov-logout-api-openapi.yml
+  url: https://artifacts.apis.io/login-gov/openapi/login-gov-logout-api-openapi.yml
 - filename: login-gov-metadata-api-openapi.yml
   format: yaml
   label: Login.gov Metadata API
   slug: login-gov-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/login-gov/refs/heads/main/openapi/login-gov-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/login-gov/openapi/login-gov-metadata-api-openapi.yml
 - filename: login-gov-token-api-openapi.yml
   format: yaml
   label: Login.gov Token API
   slug: login-gov-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/login-gov/refs/heads/main/openapi/login-gov-token-api-openapi.yml
+  url: https://artifacts.apis.io/login-gov/openapi/login-gov-token-api-openapi.yml
 - filename: login-gov-user-info-api-openapi.yml
   format: yaml
   label: Login.gov User Info API
   slug: login-gov-user-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/login-gov/refs/heads/main/openapi/login-gov-user-info-api-openapi.yml
+  url: https://artifacts.apis.io/login-gov/openapi/login-gov-user-info-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -86,7 +86,7 @@ source_filename: login-gov-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.login.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 10:20:38 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.login.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 13:21:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: secure.login.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\ndomains:\n- domain: login.gov\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 iodef \"mailto:security@login.gov\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/login-gov/refs/heads/main/security/login-gov-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/login-gov/security/login-gov-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Government

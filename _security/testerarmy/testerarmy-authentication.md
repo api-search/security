@@ -8,31 +8,31 @@ api_specs:
   label: Testerarmy Groups API
   slug: testerarmy-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/openapi/testerarmy-groups-api-openapi.yml
+  url: https://artifacts.apis.io/testerarmy/openapi/testerarmy-groups-api-openapi.yml
 - filename: testerarmy-projects-api-openapi.yml
   format: yaml
   label: Testerarmy Projects API
   slug: testerarmy-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/openapi/testerarmy-projects-api-openapi.yml
+  url: https://artifacts.apis.io/testerarmy/openapi/testerarmy-projects-api-openapi.yml
 - filename: testerarmy-test-runs-api-openapi.yml
   format: yaml
   label: Testerarmy Test Runs API
   slug: testerarmy-test-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/openapi/testerarmy-test-runs-api-openapi.yml
+  url: https://artifacts.apis.io/testerarmy/openapi/testerarmy-test-runs-api-openapi.yml
 - filename: testerarmy-tests-api-openapi.yml
   format: yaml
   label: Testerarmy Tests API
   slug: testerarmy-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/openapi/testerarmy-tests-api-openapi.yml
+  url: https://artifacts.apis.io/testerarmy/openapi/testerarmy-tests-api-openapi.yml
 - filename: testerarmy-webhooks-api-openapi.yml
   format: yaml
   label: Testerarmy Webhooks API
   slug: testerarmy-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/openapi/testerarmy-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/testerarmy/openapi/testerarmy-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -61,7 +61,7 @@ source_filename: testerarmy-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://tester.army/api/v1/openapi.json\ndocs: https://docs.tester.army/api-reference\nsummary:\n  types: [http]\n  http_schemes: [bearer]\n  api_key_in: [header]\n  oauth2_flows: []\n  notes: >-\n    TesterArmy uses API-key authentication passed as an HTTP Bearer token\n    (Authorization: Bearer <API_KEY>). API keys are created in the dashboard.\n    No OAuth2/OIDC surface is exposed by the public API.\nschemes:\n  - name: bearerAuth\n    type: http\n    scheme: bearer\n    bearerFormat: API Key\n    description: API key authentication using Bearer token format\n    location: header (Authorization)\n    sources: [openapi/testerarmy-openapi-original.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/authentication/testerarmy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/testerarmy/authentication/testerarmy-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

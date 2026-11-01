@@ -39,7 +39,7 @@ source_filename: evolved-by-nature-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: biotech.evolvedbynature.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 14:17:40 2026 GMT\n  hsts: false\n- host: skincare.evolvedbynature.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 10:35:02 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\n- host: bioactives.evolvedbynature.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 23:50:01 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\ndomains:\n- domain: evolvedbynature.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evolved-by-nature/refs/heads/main/security/evolved-by-nature-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/evolved-by-nature/security/evolved-by-nature-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

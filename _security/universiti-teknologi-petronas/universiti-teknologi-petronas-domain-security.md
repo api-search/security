@@ -5,25 +5,25 @@ api_specs:
   label: Universiti Teknologi PETRONAS Discovery API
   slug: universiti-teknologi-petronas-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/universiti-teknologi-petronas/refs/heads/main/openapi/universiti-teknologi-petronas-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/universiti-teknologi-petronas/openapi/universiti-teknologi-petronas-discovery-api-openapi.yml
 - filename: universiti-teknologi-petronas-eprints-rest-api-openapi.yml
   format: yaml
   label: Universiti Teknologi PETRONAS EPrints REST API
   slug: universiti-teknologi-petronas-eprints-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/universiti-teknologi-petronas/refs/heads/main/openapi/universiti-teknologi-petronas-eprints-rest-api-openapi.yml
+  url: https://artifacts.apis.io/universiti-teknologi-petronas/openapi/universiti-teknologi-petronas-eprints-rest-api-openapi.yml
 - filename: universiti-teknologi-petronas-export-api-openapi.yml
   format: yaml
   label: Universiti Teknologi PETRONAS Export API
   slug: universiti-teknologi-petronas-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/universiti-teknologi-petronas/refs/heads/main/openapi/universiti-teknologi-petronas-export-api-openapi.yml
+  url: https://artifacts.apis.io/universiti-teknologi-petronas/openapi/universiti-teknologi-petronas-export-api-openapi.yml
 - filename: universiti-teknologi-petronas-oai-pmh-api-openapi.yml
   format: yaml
   label: Universiti Teknologi PETRONAS OAI PMH API
   slug: universiti-teknologi-petronas-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/universiti-teknologi-petronas/refs/heads/main/openapi/universiti-teknologi-petronas-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/universiti-teknologi-petronas/openapi/universiti-teknologi-petronas-oai-pmh-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: universiti-teknologi-petronas-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.utp.edu.my\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 19 09:48:37 2027 GMT\n  hsts: false\n- host: utpedia.utp.edu.my\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 19 09:48:37 2027 GMT\n  hsts: false\ndomains:\n- domain: utp.edu.my\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/universiti-teknologi-petronas/refs/heads/main/security/universiti-teknologi-petronas-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/universiti-teknologi-petronas/security/universiti-teknologi-petronas-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - University

@@ -7,25 +7,25 @@ api_specs:
   label: Block Lottos Advertising API
   slug: blocklottos-com-advertising-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blocklottos-com/refs/heads/main/openapi/blocklottos-com-advertising-api-openapi.yml
+  url: https://artifacts.apis.io/blocklottos-com/openapi/blocklottos-com-advertising-api-openapi.yml
 - filename: blocklottos-com-affiliate-api-openapi.yml
   format: yaml
   label: Block Lottos Affiliate API
   slug: blocklottos-com-affiliate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blocklottos-com/refs/heads/main/openapi/blocklottos-com-affiliate-api-openapi.yml
+  url: https://artifacts.apis.io/blocklottos-com/openapi/blocklottos-com-affiliate-api-openapi.yml
 - filename: blocklottos-com-agents-api-openapi.yml
   format: yaml
   label: Block Lottos Agents API
   slug: blocklottos-com-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blocklottos-com/refs/heads/main/openapi/blocklottos-com-agents-api-openapi.yml
+  url: https://artifacts.apis.io/blocklottos-com/openapi/blocklottos-com-agents-api-openapi.yml
 - filename: blocklottos-com-lottery-api-openapi.yml
   format: yaml
   label: Block Lottos Lottery API
   slug: blocklottos-com-lottery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blocklottos-com/refs/heads/main/openapi/blocklottos-com-lottery-api-openapi.yml
+  url: https://artifacts.apis.io/blocklottos-com/openapi/blocklottos-com-lottery-api-openapi.yml
 auth_types:
 - none
 - http-bearer
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: 'openapi/blockl
   \ buildLotteryTicketTx, submitAd/activate quote and pay steps, getBaseAgentCapabilities,\n    prepareBaseAgentPurchase, confirmBaseTicketPurchase\n  rate_limited: per IP (see rate-limits/)\n  sources:\n  - openapi/blocklottos-com-openapi.yml\n  - https://blocklottos.com/api-docs\n- name: managementToken\n  type: http\n  scheme: bearer\n  bearerFormat: blm_ + 64 hex chars\n  in: header\n  parameter: Authorization\n  applies_to: getOrCreateUnifiedAffiliateProfile only - payout-wallet changes and private balance/payout-history\n    reads\n  issuance: Returned ONCE when a new affiliate profile is created (or rotated) after a successful ownership proof;\n    \"Store the one-time management_token securely\".\n  declared_as: an optional header PARAMETER on the operation, not a securityScheme - the contract therefore reports\n    no security at all to tooling\n  sources:\n  - openapi/blocklottos-com-openapi.yml\n  - https://blocklottos.com/api-docs#agent-referral\n  - https://blocklottos.com/llms.txt\n\
   - name: walletOwnershipChallenge\n  type: wallet-signature\n  flow:\n  - POST /api/lottery/agent-referral {\"action\":\"challenge\",\"primary_chain\":\"evm\",\"connected_wallet\":\"0x...\"}\n  - sign the exact returned message with the EVM identity wallet (EIP-191 personal_sign, 65-byte hex); the spec\n    also accepts a Solana Ed25519 64-byte hex signature\n  - resubmit with challenge_id (48 hex) + signature\n  applies_to: affiliate enrollment and management-token recovery\n  cost: 0 USDC, no on-chain transaction\n  sources:\n  - openapi/blocklottos-com-openapi.yml\n  - https://blocklottos.com/agents.txt\n- name: onChainSignature\n  type: wallet-signature\n  note: 'Not API authentication, but the actual authorization for money: the API returns unsigned transactions and\n    the wallet owner signs/broadcasts with eth_sendTransaction; \"The Block Lottos server never receives private\n    keys or seed phrases, never signs wallet transactions, and never broadcasts them.\" (llms.txt)'\nidentification_headers:\n\
   - name: X-BlockLottos-Agent\n  required: false\n  purpose: optional agent identifier used in the docs curl examples; also carried as agent_id in bodies\n- name: X-BlockLottos-Intent\n  required: false\n  purpose: listed in Access-Control-Allow-Headers on the agent endpoints; undocumented\n- name: Idempotency-Key\n  required: false\n  purpose: listed in Access-Control-Allow-Headers on agent-purchase and agent-referral; the documented mechanism\n    is the idempotency_key body field (see conventions/)\ngaps:\n- No securitySchemes block, so the Bearer requirement is invisible to generated clients.\n- No scopes, no OAuth, no API-key issuance - nothing to record in scopes/.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blocklottos-com/refs/heads/main/authentication/blocklottos-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/blocklottos-com/authentication/blocklottos-com-authentication.yml
 summary_line: none/http-bearer/wallet-signature · 4 schemes
 tags:
 - Company

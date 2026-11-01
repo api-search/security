@@ -8,127 +8,127 @@ api_specs:
   label: Emboss Admin API
   slug: getemboss-ai-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getemboss-ai/refs/heads/main/openapi/getemboss-ai-admin-api-openapi.yml
+  url: https://artifacts.apis.io/getemboss-ai/openapi/getemboss-ai-admin-api-openapi.yml
 - filename: getemboss-ai-app-api-openapi.yml
   format: yaml
   label: Emboss App API
   slug: getemboss-ai-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getemboss-ai/refs/heads/main/openapi/getemboss-ai-app-api-openapi.yml
+  url: https://artifacts.apis.io/getemboss-ai/openapi/getemboss-ai-app-api-openapi.yml
 - filename: getemboss-ai-artifacts-api-openapi.yml
   format: yaml
   label: Emboss Artifacts API
   slug: getemboss-ai-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getemboss-ai/refs/heads/main/openapi/getemboss-ai-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/getemboss-ai/openapi/getemboss-ai-artifacts-api-openapi.yml
 - filename: getemboss-ai-d-api-openapi.yml
   format: yaml
   label: Emboss D API
   slug: getemboss-ai-d-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getemboss-ai/refs/heads/main/openapi/getemboss-ai-d-api-openapi.yml
+  url: https://artifacts.apis.io/getemboss-ai/openapi/getemboss-ai-d-api-openapi.yml
 - filename: getemboss-ai-fax-api-openapi.yml
   format: yaml
   label: Emboss Fax API
   slug: getemboss-ai-fax-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getemboss-ai/refs/heads/main/openapi/getemboss-ai-fax-api-openapi.yml
+  url: https://artifacts.apis.io/getemboss-ai/openapi/getemboss-ai-fax-api-openapi.yml
 - filename: getemboss-ai-forms-api-openapi.yml
   format: yaml
   label: Emboss Forms API
   slug: getemboss-ai-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getemboss-ai/refs/heads/main/openapi/getemboss-ai-forms-api-openapi.yml
+  url: https://artifacts.apis.io/getemboss-ai/openapi/getemboss-ai-forms-api-openapi.yml
 - filename: getemboss-ai-health-api-openapi.yml
   format: yaml
   label: Emboss Health API
   slug: getemboss-ai-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getemboss-ai/refs/heads/main/openapi/getemboss-ai-health-api-openapi.yml
+  url: https://artifacts.apis.io/getemboss-ai/openapi/getemboss-ai-health-api-openapi.yml
 - filename: getemboss-ai-keys-api-openapi.yml
   format: yaml
   label: Emboss Keys API
   slug: getemboss-ai-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getemboss-ai/refs/heads/main/openapi/getemboss-ai-keys-api-openapi.yml
+  url: https://artifacts.apis.io/getemboss-ai/openapi/getemboss-ai-keys-api-openapi.yml
 - filename: getemboss-ai-library-api-openapi.yml
   format: yaml
   label: Emboss Library API
   slug: getemboss-ai-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getemboss-ai/refs/heads/main/openapi/getemboss-ai-library-api-openapi.yml
+  url: https://artifacts.apis.io/getemboss-ai/openapi/getemboss-ai-library-api-openapi.yml
 - filename: getemboss-ai-oauth-api-openapi.yml
   format: yaml
   label: Emboss OAuth API
   slug: getemboss-ai-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getemboss-ai/refs/heads/main/openapi/getemboss-ai-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/getemboss-ai/openapi/getemboss-ai-oauth-api-openapi.yml
 - filename: getemboss-ai-openapi-json-api-openapi.yml
   format: yaml
   label: Emboss Openapi.json API
   slug: getemboss-ai-openapi-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getemboss-ai/refs/heads/main/openapi/getemboss-ai-openapi-json-api-openapi.yml
+  url: https://artifacts.apis.io/getemboss-ai/openapi/getemboss-ai-openapi-json-api-openapi.yml
 - filename: getemboss-ai-pay-api-openapi.yml
   format: yaml
   label: Emboss Pay API
   slug: getemboss-ai-pay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getemboss-ai/refs/heads/main/openapi/getemboss-ai-pay-api-openapi.yml
+  url: https://artifacts.apis.io/getemboss-ai/openapi/getemboss-ai-pay-api-openapi.yml
 - filename: getemboss-ai-pricing-api-openapi.yml
   format: yaml
   label: Emboss Pricing API
   slug: getemboss-ai-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getemboss-ai/refs/heads/main/openapi/getemboss-ai-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/getemboss-ai/openapi/getemboss-ai-pricing-api-openapi.yml
 - filename: getemboss-ai-proposals-api-openapi.yml
   format: yaml
   label: Emboss Proposals API
   slug: getemboss-ai-proposals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getemboss-ai/refs/heads/main/openapi/getemboss-ai-proposals-api-openapi.yml
+  url: https://artifacts.apis.io/getemboss-ai/openapi/getemboss-ai-proposals-api-openapi.yml
 - filename: getemboss-ai-sessions-api-openapi.yml
   format: yaml
   label: Emboss Sessions API
   slug: getemboss-ai-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getemboss-ai/refs/heads/main/openapi/getemboss-ai-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/getemboss-ai/openapi/getemboss-ai-sessions-api-openapi.yml
 - filename: getemboss-ai-stripe-api-openapi.yml
   format: yaml
   label: Emboss Stripe API
   slug: getemboss-ai-stripe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getemboss-ai/refs/heads/main/openapi/getemboss-ai-stripe-api-openapi.yml
+  url: https://artifacts.apis.io/getemboss-ai/openapi/getemboss-ai-stripe-api-openapi.yml
 - filename: getemboss-ai-usage-api-openapi.yml
   format: yaml
   label: Emboss Usage API
   slug: getemboss-ai-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getemboss-ai/refs/heads/main/openapi/getemboss-ai-usage-api-openapi.yml
+  url: https://artifacts.apis.io/getemboss-ai/openapi/getemboss-ai-usage-api-openapi.yml
 - filename: getemboss-ai-users-api-openapi.yml
   format: yaml
   label: Emboss Users API
   slug: getemboss-ai-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getemboss-ai/refs/heads/main/openapi/getemboss-ai-users-api-openapi.yml
+  url: https://artifacts.apis.io/getemboss-ai/openapi/getemboss-ai-users-api-openapi.yml
 - filename: getemboss-ai-utilities-api-openapi.yml
   format: yaml
   label: Emboss Utilities API
   slug: getemboss-ai-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getemboss-ai/refs/heads/main/openapi/getemboss-ai-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/getemboss-ai/openapi/getemboss-ai-utilities-api-openapi.yml
 - filename: getemboss-ai-webhooks-api-openapi.yml
   format: yaml
   label: Emboss Webhooks API
   slug: getemboss-ai-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getemboss-ai/refs/heads/main/openapi/getemboss-ai-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/getemboss-ai/openapi/getemboss-ai-webhooks-api-openapi.yml
 - filename: getemboss-ai-well-known-api-openapi.yml
   format: yaml
   label: Emboss .well Known API
   slug: getemboss-ai-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getemboss-ai/refs/heads/main/openapi/getemboss-ai-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/getemboss-ai/openapi/getemboss-ai-well-known-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -246,7 +246,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/getembo
   \ payment-mpp\n  type: payment\n  scheme: 'Authorization: Payment <credential>'\n  challenge: '402 with WWW-Authenticate: Payment (one challenge per method: tempo USDC.e at the exact price; stripe card via Shared Payment Tokens with a 0.50 USD minimum)'\n  receipt: Payment-Receipt response header on the 202\n  applies_to: https://api.getemboss.ai/pay/* (openapi/getemboss-ai-pay-per-call-openapi.yml, x-payment-info.protocols[].mpp)\n  docs: https://getemboss.ai/docs/pay-per-call/mpp\n  note: An Authorization header that does not use the Payment scheme is answered with a fresh 402 rather than a 400.\n- name: payment-x402\n  type: payment\n  scheme: x402 payment header carrying a signed EIP-3009 TransferWithAuthorization\n  challenge: 'the same 402 carries a PAYMENT-REQUIRED header; accepts USDC on Base (eip155:8453) first, then one gasless GatewayWalletBatched entry per chain Circle Gateway supports'\n  applies_to: [https://api.getemboss.ai/pay/*, A2A tasks via the a2a-x402 extension (TASK_STATE_INPUT_REQUIRED\
   \ with x402.payment.required)]\n  docs: https://getemboss.ai/docs/pay-per-call/x402\n  note: Quotes expire after 24 hours; on A2A a failed attempt consumes the quote nonce, on the pay door a fresh 402 is issued.\n- name: artifact_token\n  type: capability-token\n  location: request body, next to artifact_id (per source entry in sources[])\n  description: Issued to anonymous pay-door callers with each result; proves ownership of an artifact so it can be reused in a later paid operation or a free utility without an account.\n  docs: https://getemboss.ai/docs/artifacts\n  sources: [openapi/getemboss-ai-pay-per-call-openapi.yml (202 response artifact_token)]\n- name: status_url_token\n  type: capability-token\n  location: query parameter token on GET /pay/jobs/{job_id}\n  description: HMAC(job_id, server secret) minted in the 202; lets an anonymous payer poll a job with no account.\n  sources: [openapi/getemboss-ai-account-openapi.yml pay_job_status_pay_jobs__job_id__get description]\npublic_endpoints:\n\
   - GET /health\n- GET /library\n- GET /pricing\n- POST /pay/quote\n- GET /.well-known/* discovery documents\nspec_gap: >-\n  The account spec declares bearer + oauth2 globally but the Idempotency-Key header, the payment schemes and the\n  artifact_token are documented only in prose; the pay spec declares security [] on each operation and expresses\n  payment through x-payment-info rather than a securityScheme.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/getemboss-ai/refs/heads/main/authentication/getemboss-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/getemboss-ai/authentication/getemboss-ai-authentication.yml
 summary_line: http/oauth2/payment · 6 schemes
 tags:
 - PDF

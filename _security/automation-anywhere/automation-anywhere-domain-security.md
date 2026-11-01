@@ -5,127 +5,127 @@ api_specs:
   label: automation-anywhere AccessDetails API
   slug: automation-anywhere-accessdetails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-accessdetails-api-openapi.yml
+  url: https://artifacts.apis.io/automation-anywhere/openapi/automation-anywhere-accessdetails-api-openapi.yml
 - filename: automation-anywhere-allocations-api-openapi.yml
   format: yaml
   label: automation-anywhere Allocations API
   slug: automation-anywhere-allocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-allocations-api-openapi.yml
+  url: https://artifacts.apis.io/automation-anywhere/openapi/automation-anywhere-allocations-api-openapi.yml
 - filename: automation-anywhere-auditdata-api-openapi.yml
   format: yaml
   label: automation-anywhere AuditData API
   slug: automation-anywhere-auditdata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-auditdata-api-openapi.yml
+  url: https://artifacts.apis.io/automation-anywhere/openapi/automation-anywhere-auditdata-api-openapi.yml
 - filename: automation-anywhere-authentication-api-openapi.yml
   format: yaml
   label: automation-anywhere Authentication API
   slug: automation-anywhere-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/automation-anywhere/openapi/automation-anywhere-authentication-api-openapi.yml
 - filename: automation-anywhere-botrundata-api-openapi.yml
   format: yaml
   label: automation-anywhere BotRunData API
   slug: automation-anywhere-botrundata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-botrundata-api-openapi.yml
+  url: https://artifacts.apis.io/automation-anywhere/openapi/automation-anywhere-botrundata-api-openapi.yml
 - filename: automation-anywhere-credentials-api-openapi.yml
   format: yaml
   label: automation-anywhere Credentials API
   slug: automation-anywhere-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/automation-anywhere/openapi/automation-anywhere-credentials-api-openapi.yml
 - filename: automation-anywhere-deployments-api-openapi.yml
   format: yaml
   label: automation-anywhere Deployments API
   slug: automation-anywhere-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/automation-anywhere/openapi/automation-anywhere-deployments-api-openapi.yml
 - filename: automation-anywhere-files-api-openapi.yml
   format: yaml
   label: automation-anywhere Files API
   slug: automation-anywhere-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-files-api-openapi.yml
+  url: https://artifacts.apis.io/automation-anywhere/openapi/automation-anywhere-files-api-openapi.yml
 - filename: automation-anywhere-folders-api-openapi.yml
   format: yaml
   label: automation-anywhere Folders API
   slug: automation-anywhere-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-folders-api-openapi.yml
+  url: https://artifacts.apis.io/automation-anywhere/openapi/automation-anywhere-folders-api-openapi.yml
 - filename: automation-anywhere-lockerconsumers-api-openapi.yml
   format: yaml
   label: automation-anywhere LockerConsumers API
   slug: automation-anywhere-lockerconsumers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-lockerconsumers-api-openapi.yml
+  url: https://artifacts.apis.io/automation-anywhere/openapi/automation-anywhere-lockerconsumers-api-openapi.yml
 - filename: automation-anywhere-lockermembers-api-openapi.yml
   format: yaml
   label: automation-anywhere LockerMembers API
   slug: automation-anywhere-lockermembers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-lockermembers-api-openapi.yml
+  url: https://artifacts.apis.io/automation-anywhere/openapi/automation-anywhere-lockermembers-api-openapi.yml
 - filename: automation-anywhere-lockers-api-openapi.yml
   format: yaml
   label: automation-anywhere Lockers API
   slug: automation-anywhere-lockers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-lockers-api-openapi.yml
+  url: https://artifacts.apis.io/automation-anywhere/openapi/automation-anywhere-lockers-api-openapi.yml
 - filename: automation-anywhere-permissions-api-openapi.yml
   format: yaml
   label: automation-anywhere Permissions API
   slug: automation-anywhere-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/automation-anywhere/openapi/automation-anywhere-permissions-api-openapi.yml
 - filename: automation-anywhere-queues-api-openapi.yml
   format: yaml
   label: automation-anywhere Queues API
   slug: automation-anywhere-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-queues-api-openapi.yml
+  url: https://artifacts.apis.io/automation-anywhere/openapi/automation-anywhere-queues-api-openapi.yml
 - filename: automation-anywhere-roles-api-openapi.yml
   format: yaml
   label: automation-anywhere Roles API
   slug: automation-anywhere-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-roles-api-openapi.yml
+  url: https://artifacts.apis.io/automation-anywhere/openapi/automation-anywhere-roles-api-openapi.yml
 - filename: automation-anywhere-users-api-openapi.yml
   format: yaml
   label: automation-anywhere Users API
   slug: automation-anywhere-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-users-api-openapi.yml
+  url: https://artifacts.apis.io/automation-anywhere/openapi/automation-anywhere-users-api-openapi.yml
 - filename: automation-anywhere-workitemmodels-api-openapi.yml
   format: yaml
   label: automation-anywhere WorkItemModels API
   slug: automation-anywhere-workitemmodels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-workitemmodels-api-openapi.yml
+  url: https://artifacts.apis.io/automation-anywhere/openapi/automation-anywhere-workitemmodels-api-openapi.yml
 - filename: automation-anywhere-workspaces-api-openapi.yml
   format: yaml
   label: automation-anywhere Workspaces API
   slug: automation-anywhere-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/automation-anywhere/openapi/automation-anywhere-workspaces-api-openapi.yml
 - filename: automation-anywhere-attribute-values-api-openapi.yml
   format: yaml
   label: Automation Anywhere Attribute Values API
   slug: automation-anywhere-attribute-values-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-attribute-values-api-openapi.yml
+  url: https://artifacts.apis.io/automation-anywhere/openapi/automation-anywhere-attribute-values-api-openapi.yml
 - filename: automation-anywhere-task-data-api-openapi.yml
   format: yaml
   label: Automation Anywhere Task Data API
   slug: automation-anywhere-task-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-task-data-api-openapi.yml
+  url: https://artifacts.apis.io/automation-anywhere/openapi/automation-anywhere-task-data-api-openapi.yml
 - filename: automation-anywhere-work-items-api-openapi.yml
   format: yaml
   label: Automation Anywhere Work Items API
   slug: automation-anywhere-work-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-work-items-api-openapi.yml
+  url: https://artifacts.apis.io/automation-anywhere/openapi/automation-anywhere-work-items-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -166,7 +166,7 @@ source_filename: automation-anywhere-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.automationanywhere.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 10 01:35:48 2027 GMT\n  hsts: false\n- host: www.automationanywhere.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 15:02:38 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.automationanywhere.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  1 00:01:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: automationanywhere.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/security/automation-anywhere-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/automation-anywhere/security/automation-anywhere-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - RPA

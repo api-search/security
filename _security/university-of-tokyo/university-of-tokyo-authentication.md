@@ -7,31 +7,31 @@ api_specs:
   label: University of Tokyo Iiif API
   slug: university-of-tokyo-iiif-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/openapi/university-of-tokyo-iiif-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-tokyo/openapi/university-of-tokyo-iiif-api-openapi.yml
 - filename: university-of-tokyo-items-api-openapi.yml
   format: yaml
   label: University of Tokyo Items API
   slug: university-of-tokyo-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/openapi/university-of-tokyo-items-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-tokyo/openapi/university-of-tokyo-items-api-openapi.yml
 - filename: university-of-tokyo-oai-pmh-api-openapi.yml
   format: yaml
   label: University of Tokyo Oai Pmh API
   slug: university-of-tokyo-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/openapi/university-of-tokyo-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-tokyo/openapi/university-of-tokyo-oai-pmh-api-openapi.yml
 - filename: university-of-tokyo-records-api-openapi.yml
   format: yaml
   label: University of Tokyo Records API
   slug: university-of-tokyo-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/openapi/university-of-tokyo-records-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-tokyo/openapi/university-of-tokyo-records-api-openapi.yml
 - filename: university-of-tokyo-search-api-openapi.yml
   format: yaml
   label: University of Tokyo Search API
   slug: university-of-tokyo-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/openapi/university-of-tokyo-search-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-tokyo/openapi/university-of-tokyo-search-api-openapi.yml
 auth_types:
 - none
 - saml2
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-08-19'\nmethod: probed\nsource:\n  - https://repo
   \          - https://shibbi.pki.itc.u-tokyo.ac.jp/idp/profile/Shibboleth/SSO\n        contact: kagra-idp-contact@icrr.u-tokyo.ac.jp\n        note: >-\n          Serves KAGRA, the gravitational-wave observatory operated by the Institute for Cosmic\n          Ray Research. Institution-operated, research-collaboration scoped.\n      - entity_id: https://step10.adm.s.u-tokyo.ac.jp/shibboleth-sp\n        role: ServiceProvider\n        display_name_en: STEP10 course registration system\n        display_name_ja: STEP10聴講申請システム\n        contact: joho.s@gs.mail.u-tokyo.ac.jp\n        note: >-\n          A course-registration service consuming federated identity — the closest thing to a\n          registrar surface the university exposes in a machine-readable form, and it is exposed\n          as an SP entity, not as an API.\n    metadata_source: https://metadata.gakunin.nii.ac.jp/gakunin-metadata.xml\n    local_copy: examples/university-of-tokyo-gakunin-saml-metadata.xml\n    evidence: >-\n   \
   \   650 EntityDescriptors in the GakuNin aggregate; exactly 3 carry an entityID under\n      u-tokyo.ac.jp. All three declare mdrpi:registrationAuthority https://www.gakunin.jp and\n      Organization Name \"The University of Tokyo\" / 東京大学.\ngated_surfaces:\n  - name: UTOL — University of Tokyo Learning Management System\n    url: https://utol.ecc.u-tokyo.ac.jp/\n    status: 200 (redirects to /login)\n    operator: institution\n    note: >-\n      The university's own LMS, self-hosted on u-tokyo.ac.jp (the former ITC-LMS hostname\n      itc-lms.ecc.u-tokyo.ac.jp resolves to the same login). Institutional credentials only. No\n      public LTI configuration, no public API, no developer documentation.\n  - name: HPC Portal (Wisteria / Miyabi / Information Technology Center)\n    url: https://wisteria-www.cc.u-tokyo.ac.jp/cgi-bin/hpcportal.en/index.cgi\n    status: 200\n    operator: institution\n    note: >-\n      Allocation and job portal for the Information Technology Center's supercomputers.\
   \ Reachable\n      and English-language, but every function behind an account. No service-catalog API is\n      published.\nno_vendor_tenancy_found: true\ntenancy_evidence: >-\n  Probed for the vendor tenancies that dominate this cohort. u-tokyo.figshare.com and\n  utokyo.figshare.com return HTTP 202 with a zero-byte body (Figshare's unknown-tenant\n  response). utokyo.pure.elsevier.com 301s to utokyo.elsevierpure.com, which does not resolve.\n  utokyo.instructure.com returns HTTP 404. utokyo.dataverse.harvard.edu and dataverse.u-tokyo.ac.jp\n  do not resolve. No Figshare, Pure, Symplectic, Dataverse or Canvas tenancy could be\n  substantiated for this institution.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/authentication/university-of-tokyo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/university-of-tokyo/authentication/university-of-tokyo-authentication.yml
 summary_line: none/saml2 · 2 schemes
 tags:
 - University

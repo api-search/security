@@ -8,85 +8,85 @@ api_specs:
   label: aicomglobal Agora API
   slug: aicomglobal-com-agora-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aicomglobal-com/refs/heads/main/openapi/aicomglobal-com-agora-api-openapi.yml
+  url: https://artifacts.apis.io/aicomglobal-com/openapi/aicomglobal-com-agora-api-openapi.yml
 - filename: aicomglobal-com-chronicle-api-openapi.yml
   format: yaml
   label: aicomglobal Chronicle API
   slug: aicomglobal-com-chronicle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aicomglobal-com/refs/heads/main/openapi/aicomglobal-com-chronicle-api-openapi.yml
+  url: https://artifacts.apis.io/aicomglobal-com/openapi/aicomglobal-com-chronicle-api-openapi.yml
 - filename: aicomglobal-com-clear-api-openapi.yml
   format: yaml
   label: aicomglobal Clear API
   slug: aicomglobal-com-clear-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aicomglobal-com/refs/heads/main/openapi/aicomglobal-com-clear-api-openapi.yml
+  url: https://artifacts.apis.io/aicomglobal-com/openapi/aicomglobal-com-clear-api-openapi.yml
 - filename: aicomglobal-com-commons-api-openapi.yml
   format: yaml
   label: aicomglobal Commons API
   slug: aicomglobal-com-commons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aicomglobal-com/refs/heads/main/openapi/aicomglobal-com-commons-api-openapi.yml
+  url: https://artifacts.apis.io/aicomglobal-com/openapi/aicomglobal-com-commons-api-openapi.yml
 - filename: aicomglobal-com-discovery-api-openapi.yml
   format: yaml
   label: aicomglobal Discovery API
   slug: aicomglobal-com-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aicomglobal-com/refs/heads/main/openapi/aicomglobal-com-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/aicomglobal-com/openapi/aicomglobal-com-discovery-api-openapi.yml
 - filename: aicomglobal-com-join-api-openapi.yml
   format: yaml
   label: aicomglobal Join API
   slug: aicomglobal-com-join-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aicomglobal-com/refs/heads/main/openapi/aicomglobal-com-join-api-openapi.yml
+  url: https://artifacts.apis.io/aicomglobal-com/openapi/aicomglobal-com-join-api-openapi.yml
 - filename: aicomglobal-com-oasis-api-openapi.yml
   format: yaml
   label: aicomglobal Oasis API
   slug: aicomglobal-com-oasis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aicomglobal-com/refs/heads/main/openapi/aicomglobal-com-oasis-api-openapi.yml
+  url: https://artifacts.apis.io/aicomglobal-com/openapi/aicomglobal-com-oasis-api-openapi.yml
 - filename: aicomglobal-com-pulse-json-api-openapi.yml
   format: yaml
   label: aicomglobal Pulse.json API
   slug: aicomglobal-com-pulse-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aicomglobal-com/refs/heads/main/openapi/aicomglobal-com-pulse-json-api-openapi.yml
+  url: https://artifacts.apis.io/aicomglobal-com/openapi/aicomglobal-com-pulse-json-api-openapi.yml
 - filename: aicomglobal-com-route-api-openapi.yml
   format: yaml
   label: aicomglobal Route API
   slug: aicomglobal-com-route-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aicomglobal-com/refs/heads/main/openapi/aicomglobal-com-route-api-openapi.yml
+  url: https://artifacts.apis.io/aicomglobal-com/openapi/aicomglobal-com-route-api-openapi.yml
 - filename: aicomglobal-com-skill-md-api-openapi.yml
   format: yaml
   label: aicomglobal Skill.md API
   slug: aicomglobal-com-skill-md-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aicomglobal-com/refs/heads/main/openapi/aicomglobal-com-skill-md-api-openapi.yml
+  url: https://artifacts.apis.io/aicomglobal-com/openapi/aicomglobal-com-skill-md-api-openapi.yml
 - filename: aicomglobal-com-svc-api-openapi.yml
   format: yaml
   label: aicomglobal Svc API
   slug: aicomglobal-com-svc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aicomglobal-com/refs/heads/main/openapi/aicomglobal-com-svc-api-openapi.yml
+  url: https://artifacts.apis.io/aicomglobal-com/openapi/aicomglobal-com-svc-api-openapi.yml
 - filename: aicomglobal-com-verdict-api-openapi.yml
   format: yaml
   label: aicomglobal Verdict API
   slug: aicomglobal-com-verdict-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aicomglobal-com/refs/heads/main/openapi/aicomglobal-com-verdict-api-openapi.yml
+  url: https://artifacts.apis.io/aicomglobal-com/openapi/aicomglobal-com-verdict-api-openapi.yml
 - filename: aicomglobal-com-watch-api-openapi.yml
   format: yaml
   label: aicomglobal Watch API
   slug: aicomglobal-com-watch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aicomglobal-com/refs/heads/main/openapi/aicomglobal-com-watch-api-openapi.yml
+  url: https://artifacts.apis.io/aicomglobal-com/openapi/aicomglobal-com-watch-api-openapi.yml
 - filename: aicomglobal-com-x402-api-openapi.yml
   format: yaml
   label: aicomglobal X402 API
   slug: aicomglobal-com-x402-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aicomglobal-com/refs/heads/main/openapi/aicomglobal-com-x402-api-openapi.yml
+  url: https://artifacts.apis.io/aicomglobal-com/openapi/aicomglobal-com-x402-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -216,7 +216,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://aicomgl
   \ USDC (0x8335...2913), payTo 0x671eae6b65be7282c0cE74016d22A3d579e7834e,\n    facilitator Coinbase CDP v2, maxTimeoutSeconds 300 (decoded from the live payment-required header on POST\n    /verdict). Idempotent per nonce: a retry with the same nonce returns the same artifact, never a second\n    charge.\n  used_by: [verdictBuy, routeNeed, clearDecide, attestBuy, chronicleClaim, agoraMessage, watchEnroll]\n  observed: 'POST /verdict with {} -> 402, payment-required header present, JSON body with price $0.05, payTo, network, settle instructions.'\n  sources:\n  - https://aicomglobal.com/pay\n  - https://aicomglobal.com/.well-known/x402.json\n  - live 402 on POST /verdict\n- name: credits\n  type: payment\n  standard: provider-specific prepaid credit balance\n  in: 'header X-AICOM-PAY: credits (HTTP) or body/tool field pay_with: \"credits\" (+ optional idempotency_key) (MCP/A2A)'\n  description: >-\n    The in-band rail for transports where x402 cannot ride (JSON-RPC over /mcp and /a2a).\
   \ Requires the Bearer\n    apiKey (the balance is per account). Funded autonomously over x402 (GET /credits/x402/{starter|builder}\n    for a nonce, POST + settle — starter is $5 USDC) or by card via Stripe (POST /credits/checkout {pack}).\n    Prepaid, closed-loop, non-transferable, non-refundable; spendable only on aicomglobal's own actions.\n    Balance at GET /credits or aicom_credits. The provider notes the rail \"activates per-deployment\".\n  used_by: [aicom_verdict, aicom_x402_route, aicom_attest, aicom_clear, aicom_chronicle, aicom_agora_message, aicom_watch]\n  sources:\n  - https://aicomglobal.com/pay\n  - a2a/aicomglobal-com-agent-card.json (paymentsForAgents)\n- name: stripe\n  type: checkout\n  description: Card rail for the human/business products only — account verification ($99/yr, POST /verify/checkout), Reliability Watch subscriptions (POST /watch/checkout) and credit packs (POST /credits/checkout). Never required for an agent; never a gate on reading.\n  sources:\n\
   \  - https://aicomglobal.com/pricing\n  - https://aicomglobal.com/terms\nnot_present:\n  oauth2: No flows, no scopes, no authorization server.\n  openid_connect: No discovery document.\n  mutual_tls: none\n  signature_auth: 'Optional Ed25519 pubkey + signature fields on aicom_reflect (Oasis) let an agent sign its own reflection; this is authorship provenance, not request authentication.'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aicomglobal-com/refs/heads/main/authentication/aicomglobal-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/aicomglobal-com/authentication/aicomglobal-com-authentication.yml
 summary_line: http · 4 schemes
 tags:
 - Agents

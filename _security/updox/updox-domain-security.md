@@ -5,25 +5,25 @@ api_specs:
   label: Updox Address Book API
   slug: updox-address-book-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/updox/refs/heads/main/openapi/updox-address-book-api-openapi.yml
+  url: https://artifacts.apis.io/updox/openapi/updox-address-book-api-openapi.yml
 - filename: updox-faxing-api-openapi.yml
   format: yaml
   label: Updox Faxing API
   slug: updox-faxing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/updox/refs/heads/main/openapi/updox-faxing-api-openapi.yml
+  url: https://artifacts.apis.io/updox/openapi/updox-faxing-api-openapi.yml
 - filename: updox-ping-api-openapi.yml
   format: yaml
   label: Updox Ping API
   slug: updox-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/updox/refs/heads/main/openapi/updox-ping-api-openapi.yml
+  url: https://artifacts.apis.io/updox/openapi/updox-ping-api-openapi.yml
 - filename: updox-video-chat-api-openapi.yml
   format: yaml
   label: Updox Video Chat API
   slug: updox-video-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/updox/refs/heads/main/openapi/updox-video-chat-api-openapi.yml
+  url: https://artifacts.apis.io/updox/openapi/updox-video-chat-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -68,7 +68,7 @@ source_filename: updox-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.updox.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 05:15:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: help.updox.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 15:40:46 2026 GMT\n  hsts: false\n- host: updoxqa.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 19 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: updox.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: updoxqa.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/updox/refs/heads/main/security/updox-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/updox/security/updox-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Healthcare

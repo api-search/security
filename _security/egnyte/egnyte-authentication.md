@@ -7,31 +7,31 @@ api_specs:
   label: Egnyte Groups API
   slug: egnyte-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/openapi/egnyte-groups-api-openapi.yml
+  url: https://artifacts.apis.io/egnyte/openapi/egnyte-groups-api-openapi.yml
 - filename: egnyte-links-api-openapi.yml
   format: yaml
   label: Egnyte Links API
   slug: egnyte-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/openapi/egnyte-links-api-openapi.yml
+  url: https://artifacts.apis.io/egnyte/openapi/egnyte-links-api-openapi.yml
 - filename: egnyte-permissions-api-openapi.yml
   format: yaml
   label: Egnyte Permissions API
   slug: egnyte-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/openapi/egnyte-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/egnyte/openapi/egnyte-permissions-api-openapi.yml
 - filename: egnyte-users-api-openapi.yml
   format: yaml
   label: Egnyte Users API
   slug: egnyte-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/openapi/egnyte-users-api-openapi.yml
+  url: https://artifacts.apis.io/egnyte/openapi/egnyte-users-api-openapi.yml
 - filename: egnyte-filesystem-api-openapi.yml
   format: yaml
   label: Egnyte Filesystem API
   slug: egnyte-filesystem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/openapi/egnyte-filesystem-api-openapi.yml
+  url: https://artifacts.apis.io/egnyte/openapi/egnyte-filesystem-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -62,7 +62,7 @@ source_filename: egnyte-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/egnyte-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{domain}.egnyte.com/puboauth/token\n    tokenUrl: https://{domain}.egnyte.com/puboauth/token\n    scopes: 6\n  sources:\n  - openapi/egnyte-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/authentication/egnyte-authentication.yml
+source_yaml_url: https://artifacts.apis.io/egnyte/authentication/egnyte-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - File Sharing

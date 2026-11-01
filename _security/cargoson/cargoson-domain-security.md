@@ -5,25 +5,25 @@ api_specs:
   label: Cargoson Carriers API
   slug: cargoson-carriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargoson/refs/heads/main/openapi/cargoson-carriers-api-openapi.yml
+  url: https://artifacts.apis.io/cargoson/openapi/cargoson-carriers-api-openapi.yml
 - filename: cargoson-price-requests-api-openapi.yml
   format: yaml
   label: Cargoson Price Requests API
   slug: cargoson-price-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargoson/refs/heads/main/openapi/cargoson-price-requests-api-openapi.yml
+  url: https://artifacts.apis.io/cargoson/openapi/cargoson-price-requests-api-openapi.yml
 - filename: cargoson-shipments-api-openapi.yml
   format: yaml
   label: Cargoson Shipments API
   slug: cargoson-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargoson/refs/heads/main/openapi/cargoson-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/cargoson/openapi/cargoson-shipments-api-openapi.yml
 - filename: cargoson-transports-tracking-api-openapi.yml
   format: yaml
   label: Cargoson Transports & Tracking API
   slug: cargoson-transports-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargoson/refs/heads/main/openapi/cargoson-transports-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/cargoson/openapi/cargoson-transports-tracking-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: cargoson-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cargoson.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 13:42:34 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: cargoson.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cargoson/refs/heads/main/security/cargoson-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cargoson/security/cargoson-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Transport Management

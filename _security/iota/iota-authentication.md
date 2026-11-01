@@ -8,97 +8,97 @@ api_specs:
   label: IOTA Auth API
   slug: iota-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-auth-api-openapi.yml
+  url: https://artifacts.apis.io/iota/openapi/iota-auth-api-openapi.yml
 - filename: iota-chains-api-openapi.yml
   format: yaml
   label: IOTA Chains API
   slug: iota-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-chains-api-openapi.yml
+  url: https://artifacts.apis.io/iota/openapi/iota-chains-api-openapi.yml
 - filename: iota-coin-query-api-openapi.yml
   format: yaml
   label: IOTA Coin Query API
   slug: iota-coin-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-coin-query-api-openapi.yml
+  url: https://artifacts.apis.io/iota/openapi/iota-coin-query-api-openapi.yml
 - filename: iota-corecontracts-api-openapi.yml
   format: yaml
   label: IOTA Corecontracts API
   slug: iota-corecontracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-corecontracts-api-openapi.yml
+  url: https://artifacts.apis.io/iota/openapi/iota-corecontracts-api-openapi.yml
 - filename: iota-extended-api-openapi.yml
   format: yaml
   label: IOTA Extended API
   slug: iota-extended-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-extended-api-openapi.yml
+  url: https://artifacts.apis.io/iota/openapi/iota-extended-api-openapi.yml
 - filename: iota-governance-api-openapi.yml
   format: yaml
   label: IOTA Governance API
   slug: iota-governance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-governance-api-openapi.yml
+  url: https://artifacts.apis.io/iota/openapi/iota-governance-api-openapi.yml
 - filename: iota-health-api-openapi.yml
   format: yaml
   label: IOTA Health API
   slug: iota-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-health-api-openapi.yml
+  url: https://artifacts.apis.io/iota/openapi/iota-health-api-openapi.yml
 - filename: iota-metrics-api-openapi.yml
   format: yaml
   label: IOTA Metrics API
   slug: iota-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/iota/openapi/iota-metrics-api-openapi.yml
 - filename: iota-move-utils-api-openapi.yml
   format: yaml
   label: IOTA Move Utils API
   slug: iota-move-utils-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-move-utils-api-openapi.yml
+  url: https://artifacts.apis.io/iota/openapi/iota-move-utils-api-openapi.yml
 - filename: iota-node-api-openapi.yml
   format: yaml
   label: IOTA Node API
   slug: iota-node-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-node-api-openapi.yml
+  url: https://artifacts.apis.io/iota/openapi/iota-node-api-openapi.yml
 - filename: iota-read-api-openapi.yml
   format: yaml
   label: IOTA Read API
   slug: iota-read-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-read-api-openapi.yml
+  url: https://artifacts.apis.io/iota/openapi/iota-read-api-openapi.yml
 - filename: iota-requests-api-openapi.yml
   format: yaml
   label: IOTA Requests API
   slug: iota-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-requests-api-openapi.yml
+  url: https://artifacts.apis.io/iota/openapi/iota-requests-api-openapi.yml
 - filename: iota-transaction-builder-api-openapi.yml
   format: yaml
   label: IOTA Transaction Builder API
   slug: iota-transaction-builder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-transaction-builder-api-openapi.yml
+  url: https://artifacts.apis.io/iota/openapi/iota-transaction-builder-api-openapi.yml
 - filename: iota-users-api-openapi.yml
   format: yaml
   label: IOTA Users API
   slug: iota-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-users-api-openapi.yml
+  url: https://artifacts.apis.io/iota/openapi/iota-users-api-openapi.yml
 - filename: iota-write-api-openapi.yml
   format: yaml
   label: IOTA Write API
   slug: iota-write-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-write-api-openapi.yml
+  url: https://artifacts.apis.io/iota/openapi/iota-write-api-openapi.yml
 - filename: iota-ws-api-openapi.yml
   format: yaml
   label: IOTA Ws API
   slug: iota-ws-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-ws-api-openapi.yml
+  url: https://artifacts.apis.io/iota/openapi/iota-ws-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -126,7 +126,7 @@ source_filename: iota-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/iota-evm-wasp-openapi.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: Authorization\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: JWT Token\n  sources:\n  - openapi/iota-evm-wasp-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/authentication/iota-authentication.yml
+source_yaml_url: https://artifacts.apis.io/iota/authentication/iota-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Blockchain

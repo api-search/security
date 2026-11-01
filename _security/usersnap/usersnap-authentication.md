@@ -7,25 +7,25 @@ api_specs:
   label: Usersnap Feedback API
   slug: usersnap-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/openapi/usersnap-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/usersnap/openapi/usersnap-feedback-api-openapi.yml
 - filename: usersnap-pre-submit-api-openapi.yml
   format: yaml
   label: Usersnap Pre Submit API
   slug: usersnap-pre-submit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/openapi/usersnap-pre-submit-api-openapi.yml
+  url: https://artifacts.apis.io/usersnap/openapi/usersnap-pre-submit-api-openapi.yml
 - filename: usersnap-project-api-openapi.yml
   format: yaml
   label: Usersnap Project API
   slug: usersnap-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/openapi/usersnap-project-api-openapi.yml
+  url: https://artifacts.apis.io/usersnap/openapi/usersnap-project-api-openapi.yml
 - filename: usersnap-submit-api-openapi.yml
   format: yaml
   label: Usersnap Submit API
   slug: usersnap-submit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/openapi/usersnap-submit-api-openapi.yml
+  url: https://artifacts.apis.io/usersnap/openapi/usersnap-submit-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -54,7 +54,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/usersnap-api-openapi-original.json\ndocs: https://help.usersnap.com/reference/rest-api\nnotes: >-\n  The Usersnap REST API is a gated feature (available on specific plans; enable\n  under Settings > Rest API in app.usersnap.com). Usersnap generates a shared JWT\n  secret plus a JWT ID; the customer self-signs HS256 JWTs (header must include\n  \"kid\": \"<JWT ID>\"; HS512 is explicitly not supported) and sends them as a\n  Bearer token in the Authorization header. The submit and pre-submit endpoints\n  (project api_key in path) also accept unauthenticated calls per the OpenAPI\n  security declaration ({} alternative).\nsummary:\n  types: [http]\n  http_schemes: [bearer]\n  bearer_format: JWT\n  jwt:\n    algorithm: HS256\n    header_kid: JWT ID generated in the Usersnap dashboard\n    secret: shared secret generated at https://app.usersnap.com/#/settings/rest-api\n  gated_feature: true\nschemes:\n  - name: bearerAuth\n\
   \    type: http\n    scheme: bearer\n    bearerFormat: JWT\n    description: >-\n      The bearer token is a JWT created by you and signed with the JWT secret\n      provided in https://app.usersnap.com/#/settings/rest-api. Start with a\n      default HS256 JWT and add \"kid\": \"<JWT ID>\" to the headers, then sign it\n      with the JWT secret and send it as Authorization: Bearer <jwt>.\n    sources: [openapi/usersnap-api-openapi-original.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/authentication/usersnap-authentication.yml
+source_yaml_url: https://artifacts.apis.io/usersnap/authentication/usersnap-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

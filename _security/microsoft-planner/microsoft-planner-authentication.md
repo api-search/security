@@ -7,31 +7,31 @@ api_specs:
   label: Microsoft Planner Buckets API
   slug: microsoft-planner-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/openapi/microsoft-planner-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-planner/openapi/microsoft-planner-buckets-api-openapi.yml
 - filename: microsoft-planner-plan-details-api-openapi.yml
   format: yaml
   label: Microsoft Planner Plan Details API
   slug: microsoft-planner-plan-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/openapi/microsoft-planner-plan-details-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-planner/openapi/microsoft-planner-plan-details-api-openapi.yml
 - filename: microsoft-planner-plans-api-openapi.yml
   format: yaml
   label: Microsoft Planner Plans API
   slug: microsoft-planner-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/openapi/microsoft-planner-plans-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-planner/openapi/microsoft-planner-plans-api-openapi.yml
 - filename: microsoft-planner-task-details-api-openapi.yml
   format: yaml
   label: Microsoft Planner Task Details API
   slug: microsoft-planner-task-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/openapi/microsoft-planner-task-details-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-planner/openapi/microsoft-planner-task-details-api-openapi.yml
 - filename: microsoft-planner-tasks-api-openapi.yml
   format: yaml
   label: Microsoft Planner Tasks API
   slug: microsoft-planner-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/openapi/microsoft-planner-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-planner/openapi/microsoft-planner-tasks-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -63,7 +63,7 @@ source_filename: microsoft-planner-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-planner-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n    scopes: 6\n  description: OAuth 2.0 authorization with Microsoft identity platform\n  sources:\n  - openapi/microsoft-planner-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/authentication/microsoft-planner-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-planner/authentication/microsoft-planner-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Collaboration

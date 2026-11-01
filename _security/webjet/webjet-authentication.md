@@ -14,109 +14,109 @@ api_specs:
   label: Webjet Book API
   slug: webjet-book-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-book-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-book-api-openapi.yml
 - filename: webjet-booking-api-openapi.yml
   format: yaml
   label: Webjet Booking API
   slug: webjet-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-booking-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-booking-api-openapi.yml
 - filename: webjet-cancel-api-openapi.yml
   format: yaml
   label: Webjet Cancel API
   slug: webjet-cancel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-cancel-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-cancel-api-openapi.yml
 - filename: webjet-details-api-openapi.yml
   format: yaml
   label: Webjet Details API
   slug: webjet-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-details-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-details-api-openapi.yml
 - filename: webjet-generate-solutions-api-openapi.yml
   format: yaml
   label: Webjet Generate Solutions API
   slug: webjet-generate-solutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-generate-solutions-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-generate-solutions-api-openapi.yml
 - filename: webjet-get-searches-api-openapi.yml
   format: yaml
   label: Webjet Get Searches API
   slug: webjet-get-searches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-get-searches-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-get-searches-api-openapi.yml
 - filename: webjet-msdp-api-openapi.yml
   format: yaml
   label: Webjet Msdp API
   slug: webjet-msdp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-msdp-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-msdp-api-openapi.yml
 - filename: webjet-pre-booking-api-openapi.yml
   format: yaml
   label: Webjet Pre Booking API
   slug: webjet-pre-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-pre-booking-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-pre-booking-api-openapi.yml
 - filename: webjet-price-api-openapi.yml
   format: yaml
   label: Webjet Price API
   slug: webjet-price-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-price-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-price-api-openapi.yml
 - filename: webjet-queue-api-openapi.yml
   format: yaml
   label: Webjet Queue API
   slug: webjet-queue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-queue-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-queue-api-openapi.yml
 - filename: webjet-report-api-openapi.yml
   format: yaml
   label: Webjet Report API
   slug: webjet-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-report-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-report-api-openapi.yml
 - filename: webjet-results-api-openapi.yml
   format: yaml
   label: Webjet Results API
   slug: webjet-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-results-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-results-api-openapi.yml
 - filename: webjet-rules-api-openapi.yml
   format: yaml
   label: Webjet Rules API
   slug: webjet-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-rules-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-rules-api-openapi.yml
 - filename: webjet-search-api-openapi.yml
   format: yaml
   label: Webjet Search API
   slug: webjet-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-search-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-search-api-openapi.yml
 - filename: webjet-super-trip-api-openapi.yml
   format: yaml
   label: Webjet Super Trip API
   slug: webjet-super-trip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-super-trip-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-super-trip-api-openapi.yml
 - filename: webjet-ticket-api-openapi.yml
   format: yaml
   label: Webjet Ticket API
   slug: webjet-ticket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-ticket-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-ticket-api-openapi.yml
 - filename: webjet-ticketing-api-openapi.yml
   format: yaml
   label: Webjet Ticketing API
   slug: webjet-ticketing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-ticketing-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-ticketing-api-openapi.yml
 - filename: webjet-admin-panel-api-openapi.yml
   format: yaml
   label: Webjet Admin panel API
   slug: webjet-admin-panel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-admin-panel-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-admin-panel-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -210,7 +210,7 @@ source_yaml: "generated: '2026-07-28'\nmethod: searched\nsource: >-\n  https://d
   \    is_datastream_token: false = SmartFlights credentials (true = DataStream)\n  docs: https://devhub.tripninja.io/smartflights/authentication/\n  sources: [https://devhub.tripninja.io/smartflights/authentication/, openapi/webjet-tripninja-adminpanel-refresh-token-openapi.yml]\n- name: BasicAuthentication\n  type: http\n  scheme: basic\n  in: header\n  header: Authorization\n  format: 'Authorization: Basic base64(USERNAME:PASSWORD)'\n  example: 'auth = base64.b64encode(\"USERNAME:PASSWORD\"); headers = {\"authorization\": \"Basic \"+ auth}'\n  applies_to: [SmartFlights, FareStructure, Virtual Interlining]\n  note: >-\n    Verbatim from the docs — \"SmartFlights API uses both Basic Authentication and Token Authentication\n    standards. Depending on how you signed up for your account, you will need to use one or the other.\n    If you signed up through our admin panel please follow the Token Authentication steps. Otherwise,\n    please follow the Basic Authentication steps.\" Not offered\
   \ for DataStream.\n  sources: [https://devhub.tripninja.io/smartflights/authentication/]\n- name: SDKClientCredentials\n  type: apiKey\n  in: header\n  header_names: [X-Client-ID, X-Client-Secret]\n  token_endpoint: POST /sdk/auth/\n  base_urls:\n    production: https://api.tripninja.io\n    sandbox: https://sandbox.tripninja.io\n  returns: >-\n    A credentials document keyed by token type — sandbox_token, prod_token, data_stream_token — which\n    the SDK then presents as \"Authorization: Token <token>\" on every subsequent call. On a 401 the SDK\n    re-fetches credentials and retries once.\n  env_vars: [TN_SDK_CLIENT_ID, TN_SDK_CLIENT_SECRET]\n  credential_cache: credentials.json on local disk (atomic write)\n  status: >-\n    Undocumented on the developer hub — discovered in the first-party SDK source. /sdk/auth/ appears in\n    no published OpenAPI document.\n  sources:\n  - https://github.com/trip-ninja-inc/tn-sdk-python/blob/master/src/tn_sdk/utils/constants.py\n  - https://github.com/trip-ninja-inc/tn-sdk-python/blob/master/src/tn_sdk/core/tn_api.py\n\
   network_gate:\n  ip_allowlisting: true\n  quote: >-\n    \"For security, Trip Ninja's servers are only accessible from whitelisted IPs. Please contact your\n    account manager to whitelist the IPs you will be using.\"\n  effect: >-\n    A valid token is not sufficient. Every API host (sandbox.tripninja.io, preprodapi.tripninja.io,\n    api.tripninja.io) returns 403 to any source IP that has not been allow-listed by Trip Ninja.\nconsumer_brands:\n  webjet_ota: No public API and no published authentication surface.\n  gosee_airport_rentals: No public API.\n  gosee_motorhome_republic: No public API.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/authentication/webjet-authentication.yml
+source_yaml_url: https://artifacts.apis.io/webjet/authentication/webjet-authentication.yml
 summary_line: http/apiKey · 3 schemes
 tags:
 - Travel

@@ -5,49 +5,49 @@ api_specs:
   label: Salsa Companies API
   slug: salsa-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsa/refs/heads/main/openapi/salsa-companies-api-openapi.yml
+  url: https://artifacts.apis.io/salsa/openapi/salsa-companies-api-openapi.yml
 - filename: salsa-onboarding-sessions-api-openapi.yml
   format: yaml
   label: Salsa Onboarding & Sessions API
   slug: salsa-onboarding-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsa/refs/heads/main/openapi/salsa-onboarding-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/salsa/openapi/salsa-onboarding-sessions-api-openapi.yml
 - filename: salsa-pay-schedules-api-openapi.yml
   format: yaml
   label: Salsa Pay Schedules API
   slug: salsa-pay-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsa/refs/heads/main/openapi/salsa-pay-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/salsa/openapi/salsa-pay-schedules-api-openapi.yml
 - filename: salsa-payments-api-openapi.yml
   format: yaml
   label: Salsa Payments API
   slug: salsa-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsa/refs/heads/main/openapi/salsa-payments-api-openapi.yml
+  url: https://artifacts.apis.io/salsa/openapi/salsa-payments-api-openapi.yml
 - filename: salsa-payrolls-api-openapi.yml
   format: yaml
   label: Salsa Payrolls API
   slug: salsa-payrolls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsa/refs/heads/main/openapi/salsa-payrolls-api-openapi.yml
+  url: https://artifacts.apis.io/salsa/openapi/salsa-payrolls-api-openapi.yml
 - filename: salsa-tax-api-openapi.yml
   format: yaml
   label: Salsa Tax API
   slug: salsa-tax-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsa/refs/heads/main/openapi/salsa-tax-api-openapi.yml
+  url: https://artifacts.apis.io/salsa/openapi/salsa-tax-api-openapi.yml
 - filename: salsa-webhooks-api-openapi.yml
   format: yaml
   label: Salsa Webhooks API
   slug: salsa-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsa/refs/heads/main/openapi/salsa-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/salsa/openapi/salsa-webhooks-api-openapi.yml
 - filename: salsa-workers-api-openapi.yml
   format: yaml
   label: Salsa Workers API
   slug: salsa-workers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsa/refs/heads/main/openapi/salsa-workers-api-openapi.yml
+  url: https://artifacts.apis.io/salsa/openapi/salsa-workers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ source_filename: salsa-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.salsa.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 16:44:21 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.salsa.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 07:12:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.salsa.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  3 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: salsa.dev\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salsa/refs/heads/main/security/salsa-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/salsa/security/salsa-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Payroll

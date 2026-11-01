@@ -7,7 +7,7 @@ api_specs:
   label: TU Wien Public API
   slug: tu-wien-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tu-wien/refs/heads/main/openapi/tu-wien-public-api-openapi.yml
+  url: https://artifacts.apis.io/tu-wien/openapi/tu-wien-public-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -89,7 +89,7 @@ source_yaml: "---\ngenerated: '2026-08-30'\nmethod: derived\nprobe: true\nprobe_
   \ 416\n      - url: https://repositum.tuwien.at/server/api\n        status: 503\n  - surface: tu-wien:tiss-api\n    x-operator: institution\n    scheme: TU Wien single sign-on\n    detail: >-\n      https://tiss.tuwien.ac.at/api/dokumentation redirects to a TU Wien Login page. The API edge is\n      reachable anonymously and returns a structured XML error document under the namespace\n      https://tiss.tuwien.ac.at/api/schema/error/v10, but resource paths are not publicly enumerable\n      and the documentation that would name them is behind the institutional IdP.\n    evidence:\n      - url: https://tiss.tuwien.ac.at/api/dokumentation\n        status: 200\n        detail: 'page title \"TU Wien Login\" (unauthenticated); \"Cookie fehlt\" without a session cookie'\n      - url: https://tiss.tuwien.ac.at/api/course/v22/all\n        status: 404\n        detail: RESTEasy XML error document — proves a live REST backend behind /api/course/\n  - surface: tu-wien:fundify-funding\n    x-operator:\
   \ institution\n    scheme: OAuth 2.0 / OpenID Connect bearer token (Keycloak)\n    detail: >-\n      Anonymous calls to the funding routes return 401 with an empty body. The source repository\n      configures a Keycloak client against https://id.arisnet.ac.at/realms/fundify; the RIS Synergy\n      network broker realm that TU Wien itself operates publishes a public discovery document.\n    evidence:\n      - url: https://fundify.arisnet.ac.at/api/ris-synergy/funding/v1/fundings\n        status: 401\n      - url: https://ris-synergy.csd.tuwien.ac.at/auth/realms/ris-synergy/.well-known/openid-configuration\n        status: 200\n  - surface: tu-wien:saml-idp\n    x-operator: institution\n    scheme: SAML 2.0 Web Browser SSO\n    detail: >-\n      entityID https://idp.zid.tuwien.ac.at/saml2, SimpleSAMLphp, registered in the ACOnet /\n      eduID.at federation and interfederated into eduGAIN. This is the credential behind almost\n      every gated TU Wien surface above.\n    evidence:\n  \
   \    - url: https://eduid.at/md/aconet-registered.xml\n        status: 200\nnot_found:\n  - api key issuance page\n  - developer portal registration\n  - OAuth client self-registration on any TU Wien host\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tu-wien/refs/heads/main/authentication/tu-wien-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tu-wien/authentication/tu-wien-authentication.yml
 summary_line: 7 schemes
 tags:
 - University

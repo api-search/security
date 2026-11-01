@@ -5,19 +5,19 @@ api_specs:
   label: Carbone Render API
   slug: carbone-render-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbone/refs/heads/main/openapi/carbone-render-api-openapi.yml
+  url: https://artifacts.apis.io/carbone/openapi/carbone-render-api-openapi.yml
 - filename: carbone-status-api-openapi.yml
   format: yaml
   label: Carbone Status API
   slug: carbone-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbone/refs/heads/main/openapi/carbone-status-api-openapi.yml
+  url: https://artifacts.apis.io/carbone/openapi/carbone-status-api-openapi.yml
 - filename: carbone-template-api-openapi.yml
   format: yaml
   label: Carbone Template API
   slug: carbone-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbone/refs/heads/main/openapi/carbone-template-api-openapi.yml
+  url: https://artifacts.apis.io/carbone/openapi/carbone-template-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: carbone-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: carbone.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 10:02:39 2026 GMT\n  hsts: false\n- host: api.carbone.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  2 20:18:36 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: carbone.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carbone/refs/heads/main/security/carbone-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/carbone/security/carbone-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Document Generation

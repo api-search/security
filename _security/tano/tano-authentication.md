@@ -7,31 +7,31 @@ api_specs:
   label: Tano Brand Signups API
   slug: tano-brand-signups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tano/refs/heads/main/openapi/tano-brand-signups-api-openapi.yml
+  url: https://artifacts.apis.io/tano/openapi/tano-brand-signups-api-openapi.yml
 - filename: tano-contact-api-openapi.yml
   format: yaml
   label: Tano Contact API
   slug: tano-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tano/refs/heads/main/openapi/tano-contact-api-openapi.yml
+  url: https://artifacts.apis.io/tano/openapi/tano-contact-api-openapi.yml
 - filename: tano-creator-signups-api-openapi.yml
   format: yaml
   label: Tano Creator Signups API
   slug: tano-creator-signups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tano/refs/heads/main/openapi/tano-creator-signups-api-openapi.yml
+  url: https://artifacts.apis.io/tano/openapi/tano-creator-signups-api-openapi.yml
 - filename: tano-discovery-api-openapi.yml
   format: yaml
   label: Tano Discovery API
   slug: tano-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tano/refs/heads/main/openapi/tano-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/tano/openapi/tano-discovery-api-openapi.yml
 - filename: tano-events-api-openapi.yml
   format: yaml
   label: Tano Events API
   slug: tano-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tano/refs/heads/main/openapi/tano-events-api-openapi.yml
+  url: https://artifacts.apis.io/tano/openapi/tano-events-api-openapi.yml
 auth_types:
 - none
 description: ''
@@ -52,7 +52,7 @@ source_filename: tano-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://tano.ai/agents.md\ndocs: https://tano.ai/agents.md\nsummary:\n  types: [none]\n  model: public-unauthenticated\n  note: >-\n    Tano's public HTTP API (contact, signups, webinar registration) requires no API key\n    and no OAuth flow - all documented endpoints are open, CORS-enabled JSON endpoints.\n    The OpenAPI declares no securitySchemes. Programmatic management of live creator\n    campaigns is not exposed as a public API; it is delivered as a managed service via a\n    dedicated account manager. Scoped keys for managed-service integrations are issued\n    out of band on request (team@tano.ai).\nschemes: []\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tano/refs/heads/main/authentication/tano-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tano/authentication/tano-authentication.yml
 summary_line: none · 0 schemes
 tags:
 - Company

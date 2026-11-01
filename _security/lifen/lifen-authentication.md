@@ -8,43 +8,43 @@ api_specs:
   label: Lifen CommunicationRequest API
   slug: lifen-communicationrequest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/openapi/lifen-communicationrequest-api-openapi.yml
+  url: https://artifacts.apis.io/lifen/openapi/lifen-communicationrequest-api-openapi.yml
 - filename: lifen-coverage-api-openapi.yml
   format: yaml
   label: Lifen Coverage API
   slug: lifen-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/openapi/lifen-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/lifen/openapi/lifen-coverage-api-openapi.yml
 - filename: lifen-encounter-api-openapi.yml
   format: yaml
   label: Lifen Encounter API
   slug: lifen-encounter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/openapi/lifen-encounter-api-openapi.yml
+  url: https://artifacts.apis.io/lifen/openapi/lifen-encounter-api-openapi.yml
 - filename: lifen-organization-api-openapi.yml
   format: yaml
   label: Lifen Organization API
   slug: lifen-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/openapi/lifen-organization-api-openapi.yml
+  url: https://artifacts.apis.io/lifen/openapi/lifen-organization-api-openapi.yml
 - filename: lifen-patient-api-openapi.yml
   format: yaml
   label: Lifen Patient API
   slug: lifen-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/openapi/lifen-patient-api-openapi.yml
+  url: https://artifacts.apis.io/lifen/openapi/lifen-patient-api-openapi.yml
 - filename: lifen-practitioner-api-openapi.yml
   format: yaml
   label: Lifen Practitioner API
   slug: lifen-practitioner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/openapi/lifen-practitioner-api-openapi.yml
+  url: https://artifacts.apis.io/lifen/openapi/lifen-practitioner-api-openapi.yml
 - filename: lifen-token-api-openapi.yml
   format: yaml
   label: Lifen Token API
   slug: lifen-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/openapi/lifen-token-api-openapi.yml
+  url: https://artifacts.apis.io/lifen/openapi/lifen-token-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -113,7 +113,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://developer.lifen.fr/docs/machine-to-machine-communications\ndocs: https://developer.lifen.fr/docs/machine-to-machine-communications\nsummary:\n  types:\n  - oauth2\n  - openIdConnect\n  - apiKey\n  api_key_in:\n  - header\n  oauth2_flows:\n  - clientCredentials\n  - authorizationCode\nschemes:\n- name: client_credentials\n  type: oauth2\n  flow: clientCredentials\n  token_endpoint: https://authentication.lifen.fr/v1/token\n  token_endpoint_test: https://authentication.post-prod.lifen.fr/v1/token\n  request_parameters:\n  - client_id\n  - client_secret\n  - audience\n  - database_reference\n  - grant_type\n  token_type: Bearer\n  token_lifetime_seconds: 172800\n  applied_as: Authorization header, \"Bearer {access_token}\"\n  notes: >-\n    Machine-to-machine access to the FHIR API. `audience` selects the environment\n    (https://production.platform-apis/ or https://post-prod.platform-apis/) and `database_reference`\n\
   \    binds the token to one healthcare organisation. Credentials are issued by a Lifen account\n    manager, not self-service.\n  sources:\n  - openapi/lifen-authentication-api-openapi.json\n  - https://developer.lifen.fr/docs/machine-to-machine-communications\n- name: sso_oidc\n  type: openIdConnect\n  flow: authorizationCode\n  issuer: https://login.lifen.fr/\n  authorization_endpoint: https://authentication.lifen.fr/authorize\n  token_endpoint: https://authentication.lifen.fr/v1/authorization_code/token\n  jwks_uri: https://authentication.lifen.fr/.well-known/jwks.json\n  pkce: true\n  code_challenge_methods:\n  - S256\n  token_endpoint_auth_methods:\n  - none\n  logout_endpoint: https://api.lifen.fr/sso/v1/session/logout\n  notes: >-\n    User-facing SSO for embedding Lifen in a partner application; PKCE-only public client.\n  sources:\n  - well-known/lifen-oauth-authorization-server.json\n  - https://developer.lifen.fr/docs/sso-api\n- name: sec0\n  type: apiKey\n  in: header\n  parameter:\
   \ Authorization\n  notes: >-\n    How the published OpenAPI models the bearer token (x-bearer-format bearer). Functionally this is\n    the OAuth 2.0 access token from the client_credentials scheme above, not a static API key.\n  sources:\n  - openapi/lifen-fhir-api-openapi.json\nwebhook_authentication:\n  mechanism: HMAC-SHA256 signature\n  header: x-lifen-platform-signature\n  secret: generated per application in the developer portal\n  ip_allowlist:\n    test:\n    - 15.236.169.32\n    production:\n    - 15.236.169.164\n    - 35.180.249.12\n  docs: https://developer.lifen.fr/docs/secure-your-webhooks\nscopes: scopes/lifen-scopes.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/authentication/lifen-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lifen/authentication/lifen-authentication.yml
 summary_line: oauth2/openIdConnect/apiKey · 3 schemes
 tags:
 - Company

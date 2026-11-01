@@ -7,25 +7,25 @@ api_specs:
   label: Enable Banking Accounts data API
   slug: enable-banking-accounts-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/openapi/enable-banking-accounts-data-api-openapi.yml
+  url: https://artifacts.apis.io/enable-banking/openapi/enable-banking-accounts-data-api-openapi.yml
 - filename: enable-banking-misc-api-openapi.yml
   format: yaml
   label: Enable Banking Misc API
   slug: enable-banking-misc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/openapi/enable-banking-misc-api-openapi.yml
+  url: https://artifacts.apis.io/enable-banking/openapi/enable-banking-misc-api-openapi.yml
 - filename: enable-banking-payments-api-openapi.yml
   format: yaml
   label: Enable Banking Payments API
   slug: enable-banking-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/openapi/enable-banking-payments-api-openapi.yml
+  url: https://artifacts.apis.io/enable-banking/openapi/enable-banking-payments-api-openapi.yml
 - filename: enable-banking-user-sessions-api-openapi.yml
   format: yaml
   label: Enable Banking User sessions API
   slug: enable-banking-user-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/openapi/enable-banking-user-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/enable-banking/openapi/enable-banking-user-sessions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -73,7 +73,7 @@ source_filename: enable-banking-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/enable-banking-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: \"In order to get access to this API you need to:\\n\\n- Generate a private RSA\\\n    \\ key and a self-signed certificate;\\n- Upload the certificate to enablebanking.com and\\\n    \\ get application ID;\\n- Construct JWT with the data described below and signed with your\\\n    \\ private key;\\n- Send the JWT in the Authorization header.\\n\\n## Private key and certificate\\\n    \\ generation\\n\\n> Generating private RSA key\\n\\n```bash\\nopenssl genrsa \"\n  sources:\n  - openapi/enable-banking-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/authentication/enable-banking-authentication.yml
+source_yaml_url: https://artifacts.apis.io/enable-banking/authentication/enable-banking-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Open Banking

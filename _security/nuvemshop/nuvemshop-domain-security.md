@@ -5,61 +5,61 @@ api_specs:
   label: Nuvemshop / Tiendanube Categories API
   slug: nuvemshop-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-categories-api-openapi.yml
+  url: https://artifacts.apis.io/nuvemshop/openapi/nuvemshop-categories-api-openapi.yml
 - filename: nuvemshop-coupons-api-openapi.yml
   format: yaml
   label: Nuvemshop / Tiendanube Coupons API
   slug: nuvemshop-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/nuvemshop/openapi/nuvemshop-coupons-api-openapi.yml
 - filename: nuvemshop-customers-api-openapi.yml
   format: yaml
   label: Nuvemshop / Tiendanube Customers API
   slug: nuvemshop-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-customers-api-openapi.yml
+  url: https://artifacts.apis.io/nuvemshop/openapi/nuvemshop-customers-api-openapi.yml
 - filename: nuvemshop-orders-api-openapi.yml
   format: yaml
   label: Nuvemshop / Tiendanube Orders API
   slug: nuvemshop-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-orders-api-openapi.yml
+  url: https://artifacts.apis.io/nuvemshop/openapi/nuvemshop-orders-api-openapi.yml
 - filename: nuvemshop-product-images-api-openapi.yml
   format: yaml
   label: Nuvemshop / Tiendanube Product Images API
   slug: nuvemshop-product-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-product-images-api-openapi.yml
+  url: https://artifacts.apis.io/nuvemshop/openapi/nuvemshop-product-images-api-openapi.yml
 - filename: nuvemshop-product-variants-api-openapi.yml
   format: yaml
   label: Nuvemshop / Tiendanube Product Variants API
   slug: nuvemshop-product-variants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-product-variants-api-openapi.yml
+  url: https://artifacts.apis.io/nuvemshop/openapi/nuvemshop-product-variants-api-openapi.yml
 - filename: nuvemshop-products-api-openapi.yml
   format: yaml
   label: Nuvemshop / Tiendanube Products API
   slug: nuvemshop-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-products-api-openapi.yml
+  url: https://artifacts.apis.io/nuvemshop/openapi/nuvemshop-products-api-openapi.yml
 - filename: nuvemshop-scripts-api-openapi.yml
   format: yaml
   label: Nuvemshop / Tiendanube Scripts API
   slug: nuvemshop-scripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-scripts-api-openapi.yml
+  url: https://artifacts.apis.io/nuvemshop/openapi/nuvemshop-scripts-api-openapi.yml
 - filename: nuvemshop-store-api-openapi.yml
   format: yaml
   label: Nuvemshop / Tiendanube Store API
   slug: nuvemshop-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-store-api-openapi.yml
+  url: https://artifacts.apis.io/nuvemshop/openapi/nuvemshop-store-api-openapi.yml
 - filename: nuvemshop-webhooks-api-openapi.yml
   format: yaml
   label: Nuvemshop / Tiendanube Webhooks API
   slug: nuvemshop-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/nuvemshop/openapi/nuvemshop-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -116,7 +116,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.tiendanube.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 08:15:08 2026 GMT\n  hsts: false\n  hsts_max_age: null\n- host: tiendanube.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 07:31:38 2026 GMT\n  hsts: false\n  hsts_max_age: null\n- host: www.tiendanube.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 06:31:23 2026 GMT\n  hsts: false\n  hsts_max_age: null\n- host: nuvemshop.com.br\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 17:55:29 2026 GMT\n  hsts: false\n  hsts_max_age: null\ndomains:\n- domain: tiendanube.com\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: 'v=spf1 include:_spf.tiendanube_com._d.easydmarc.pro ~all'\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: nuvemshop.com.br\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: 'v=spf1 include:_spf.nuvemshop_com_br._d.easydmarc.pro\
   \ include:registrarmail.net ~all'\n  dmarc: true\n  dmarc_policy: quarantine\nnotes: >-\n  All probed hosts serve HTTPS over TLS 1.3. No HTTP Strict-Transport-Security\n  (HSTS) response header was observed on the apex, www, or API hosts at probe\n  time. Neither apex domain publishes CAA records or has DNSSEC (DS) enabled.\n  Both domains publish SPF (soft-fail ~all) and DMARC at policy=quarantine\n  (pct=100), managed via EasyDMARC.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/security/nuvemshop-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nuvemshop/security/nuvemshop-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - E-Commerce

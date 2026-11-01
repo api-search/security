@@ -7,7 +7,7 @@ api_specs:
   label: Spacelift Graph QL API
   slug: spacelift-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacelift/refs/heads/main/openapi/spacelift-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/spacelift/openapi/spacelift-graph-ql-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -37,7 +37,7 @@ source_filename: spacelift-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/spacelift-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: |-\n    JWT bearer token obtained from the `apiKeyUser` or `oauthUser`\n    mutation, or via `spacectl profile export-token`.\n  sources:\n  - openapi/spacelift-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spacelift/refs/heads/main/authentication/spacelift-authentication.yml
+source_yaml_url: https://artifacts.apis.io/spacelift/authentication/spacelift-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Infrastructure as Code

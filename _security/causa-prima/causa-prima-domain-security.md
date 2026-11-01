@@ -5,19 +5,19 @@ api_specs:
   label: Causa Prima Invoices API
   slug: causa-prima-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/openapi/causa-prima-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/causa-prima/openapi/causa-prima-invoices-api-openapi.yml
 - filename: causa-prima-jurisdictions-api-openapi.yml
   format: yaml
   label: Causa Prima Jurisdictions API
   slug: causa-prima-jurisdictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/openapi/causa-prima-jurisdictions-api-openapi.yml
+  url: https://artifacts.apis.io/causa-prima/openapi/causa-prima-jurisdictions-api-openapi.yml
 - filename: causa-prima-scribo-api-openapi.yml
   format: yaml
   label: Causa Prima Scribo API
   slug: causa-prima-scribo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/openapi/causa-prima-scribo-api-openapi.yml
+  url: https://artifacts.apis.io/causa-prima/openapi/causa-prima-scribo-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: causa-prima-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: causaprima.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 09:54:09 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: scribo.causaprima.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 18:57:48 2026 GMT\n  hsts: false\ndomains:\n- domain: causaprima.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/security/causa-prima-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/causa-prima/security/causa-prima-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

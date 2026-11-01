@@ -7,67 +7,67 @@ api_specs:
   label: Bold Penguin Application Forms API
   slug: bold-penguin-application-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bold-penguin/refs/heads/main/openapi/bold-penguin-application-forms-api-openapi.yml
+  url: https://artifacts.apis.io/bold-penguin/openapi/bold-penguin-application-forms-api-openapi.yml
 - filename: bold-penguin-attachments-api-openapi.yml
   format: yaml
   label: Bold Penguin Attachments API
   slug: bold-penguin-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bold-penguin/refs/heads/main/openapi/bold-penguin-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/bold-penguin/openapi/bold-penguin-attachments-api-openapi.yml
 - filename: bold-penguin-auth-api-openapi.yml
   format: yaml
   label: Bold Penguin Auth API
   slug: bold-penguin-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bold-penguin/refs/heads/main/openapi/bold-penguin-auth-api-openapi.yml
+  url: https://artifacts.apis.io/bold-penguin/openapi/bold-penguin-auth-api-openapi.yml
 - filename: bold-penguin-exchange-application-forms-api-openapi.yml
   format: yaml
   label: Bold Penguin Exchange Application Forms API
   slug: bold-penguin-exchange-application-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bold-penguin/refs/heads/main/openapi/bold-penguin-exchange-application-forms-api-openapi.yml
+  url: https://artifacts.apis.io/bold-penguin/openapi/bold-penguin-exchange-application-forms-api-openapi.yml
 - filename: bold-penguin-invocations-api-openapi.yml
   format: yaml
   label: Bold Penguin Invocations API
   slug: bold-penguin-invocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bold-penguin/refs/heads/main/openapi/bold-penguin-invocations-api-openapi.yml
+  url: https://artifacts.apis.io/bold-penguin/openapi/bold-penguin-invocations-api-openapi.yml
 - filename: bold-penguin-leads-api-openapi.yml
   format: yaml
   label: Bold Penguin Leads API
   slug: bold-penguin-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bold-penguin/refs/heads/main/openapi/bold-penguin-leads-api-openapi.yml
+  url: https://artifacts.apis.io/bold-penguin/openapi/bold-penguin-leads-api-openapi.yml
 - filename: bold-penguin-market-recommendation-api-openapi.yml
   format: yaml
   label: Bold Penguin Market Recommendation API
   slug: bold-penguin-market-recommendation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bold-penguin/refs/heads/main/openapi/bold-penguin-market-recommendation-api-openapi.yml
+  url: https://artifacts.apis.io/bold-penguin/openapi/bold-penguin-market-recommendation-api-openapi.yml
 - filename: bold-penguin-prospects-api-openapi.yml
   format: yaml
   label: Bold Penguin Prospects API
   slug: bold-penguin-prospects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bold-penguin/refs/heads/main/openapi/bold-penguin-prospects-api-openapi.yml
+  url: https://artifacts.apis.io/bold-penguin/openapi/bold-penguin-prospects-api-openapi.yml
 - filename: bold-penguin-quote-requests-api-openapi.yml
   format: yaml
   label: Bold Penguin Quote Requests API
   slug: bold-penguin-quote-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bold-penguin/refs/heads/main/openapi/bold-penguin-quote-requests-api-openapi.yml
+  url: https://artifacts.apis.io/bold-penguin/openapi/bold-penguin-quote-requests-api-openapi.yml
 - filename: bold-penguin-tenants-api-openapi.yml
   format: yaml
   label: Bold Penguin Tenants API
   slug: bold-penguin-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bold-penguin/refs/heads/main/openapi/bold-penguin-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/bold-penguin/openapi/bold-penguin-tenants-api-openapi.yml
 - filename: bold-penguin-token-api-openapi.yml
   format: yaml
   label: Bold Penguin Token API
   slug: bold-penguin-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bold-penguin/refs/heads/main/openapi/bold-penguin-token-api-openapi.yml
+  url: https://artifacts.apis.io/bold-penguin/openapi/bold-penguin-token-api-openapi.yml
 auth_types: []
 description: Authentication methods for Bold Penguin APIs as documented.
 kind: authentication
@@ -100,7 +100,7 @@ source_heading: Authentication Profile
 source_url: https://developers.boldpenguin.com/docs/terminal/quote_start/authentication
 source_yaml: "generated: '2026-10-02'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://developers.boldpenguin.com/docs/terminal/quote_start/authentication\nsources:\n- https://developers.boldpenguin.com/docs/terminal/quote_start/authentication\n- https://developers.boldpenguin.com/docs/exchange/send_side/ss_authentication\n- https://developers.boldpenguin.com/docs/exchange/receive_side/rs_authentication\n- https://developers.boldpenguin.com/docs/sdk/custom_storefront_tutorials/sdk_guest_auth\ndescription: Authentication methods for Bold Penguin APIs as documented.\nschemes:\n- type: http-basic\n  name: Basic Authentication\n  evidence: 'We can inject credentials into that request either via basic authentication or a static header ( X-API-KEY , Authorization: Bearer\n    , etc.)'\n  location: header\n  header: 'Authorization: Basic <base64_credentials>'\n  how_to_obtain: Your Account Manager will provide you with a username and password for basic authentication.\n\
   - type: apiKey\n  name: Static Header\n  evidence: 'We can inject credentials into that request either via basic authentication or a static header ( X-API-KEY , Authorization: Bearer\n    , etc.)'\n  location: header\n  header: 'X-API-KEY: <api_key>'\n  how_to_obtain: Your Account Manager will provide you with a unique bearer token (or API key) for each environment.\ndocs: https://developers.boldpenguin.com/docs/terminal/quote_start/authentication\nnote: 1 extracted row(s) were dropped because their quote was not on the page.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bold-penguin/refs/heads/main/authentication/bold-penguin-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bold-penguin/authentication/bold-penguin-authentication.yml
 summary_line: 2 schemes
 tags:
 - Company

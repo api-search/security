@@ -7,19 +7,19 @@ api_specs:
   label: Google Cloud Contact Center AI Analyses API
   slug: google-cloud-contact-center-ai-analyses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-contact-center-ai/refs/heads/main/openapi/google-cloud-contact-center-ai-analyses-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-contact-center-ai/openapi/google-cloud-contact-center-ai-analyses-api-openapi.yml
 - filename: google-cloud-contact-center-ai-conversations-api-openapi.yml
   format: yaml
   label: Google Cloud Contact Center AI Conversations API
   slug: google-cloud-contact-center-ai-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-contact-center-ai/refs/heads/main/openapi/google-cloud-contact-center-ai-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-contact-center-ai/openapi/google-cloud-contact-center-ai-conversations-api-openapi.yml
 - filename: google-cloud-contact-center-ai-insights-api-openapi.yml
   format: yaml
   label: Google Cloud Contact Center AI Insights API
   slug: google-cloud-contact-center-ai-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-contact-center-ai/refs/heads/main/openapi/google-cloud-contact-center-ai-insights-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-contact-center-ai/openapi/google-cloud-contact-center-ai-insights-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -50,7 +50,7 @@ source_filename: google-cloud-contact-center-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 1\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-contact-center-ai/refs/heads/main/authentication/google-cloud-contact-center-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-contact-center-ai/authentication/google-cloud-contact-center-ai-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Artificial Intelligence

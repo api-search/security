@@ -23,7 +23,7 @@ source_filename: arcion-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.arcion.io\n  https: false\ndomains:\n- domain: arcion.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arcion-labs/refs/heads/main/security/arcion-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/arcion-labs/security/arcion-labs-domain-security.yml
 summary_line: DNSSEC
 tags:
 - Company

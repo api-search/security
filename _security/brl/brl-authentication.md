@@ -8,67 +8,67 @@ api_specs:
   label: BRL Accounts API
   slug: brl-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-accounts-api-openapi.yml
 - filename: brl-assets-api-openapi.yml
   format: yaml
   label: BRL Assets API
   slug: brl-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-assets-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-assets-api-openapi.yml
 - filename: brl-claims-api-openapi.yml
   format: yaml
   label: BRL Claims API
   slug: brl-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-claims-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-claims-api-openapi.yml
 - filename: brl-nft-transfers-api-openapi.yml
   format: yaml
   label: BRL Nft Transfers API
   slug: brl-nft-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-nft-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-nft-transfers-api-openapi.yml
 - filename: brl-orders-api-openapi.yml
   format: yaml
   label: BRL Orders API
   slug: brl-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-orders-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-orders-api-openapi.yml
 - filename: brl-quotes-api-openapi.yml
   format: yaml
   label: BRL Quotes API
   slug: brl-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-quotes-api-openapi.yml
 - filename: brl-tax-exemption-api-openapi.yml
   format: yaml
   label: BRL Tax Exemption API
   slug: brl-tax-exemption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-tax-exemption-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-tax-exemption-api-openapi.yml
 - filename: brl-transfers-api-openapi.yml
   format: yaml
   label: BRL Transfers API
   slug: brl-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-transfers-api-openapi.yml
 - filename: brl-wallets-api-openapi.yml
   format: yaml
   label: BRL Wallets API
   slug: brl-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-wallets-api-openapi.yml
 - filename: brl-withdrawals-api-openapi.yml
   format: yaml
   label: BRL Withdrawals API
   slug: brl-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-withdrawals-api-openapi.yml
 - filename: brl-crown-api-webhooks-api-openapi.yml
   format: yaml
   label: BRL Crown API & Webhooks API
   slug: brl-crown-api-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-crown-api-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-crown-api-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -126,7 +126,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/brl-openapi-original.json\ndocs: https://docs.crown-brlv.com/guides/authentication\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\n  model: >-\n    Every authenticated request carries BOTH an X-API-Key header (the API key\n    identifier) AND a short-lived, self-signed RS256 JWT in the Authorization:\n    Bearer header. Crown does NOT issue tokens from a token endpoint — the\n    partner mints and signs the JWT locally with its private key. Webhook\n    deliveries are authenticated separately with an X-Crown-Signature HMAC.\nschemes:\n- name: JwtAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: >-\n    Self-signed, per-request JWT. Signed with the partner's private key using\n    RS256 and sent as `Authorization: Bearer <jwt>`. Expiry must be within 50\n    seconds of issuance (exp - iat <= 50s). Required claims bind the token to a\n    single request.\n  jwt_claims:\n \
   \   uri: The endpoint path being accessed\n    nonce: Unique per-request identifier (replay protection)\n    iat: Unix timestamp of token creation\n    exp: Unix timestamp of expiry (<= iat + 50s)\n    sub: The API key identifier\n    bodyHash: SHA-256 hash of the request body\n  algorithm: RS256\n  max_lifetime_seconds: 50\n  sources:\n  - openapi/brl-openapi-original.json\n  - https://docs.crown-brlv.com/guides/authentication\n- name: ApiKey\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: The account API key identifier, created via the API Keys Setup guide. Sent alongside the JWT on every request.\n  docs: https://docs.crown-brlv.com/guides/api-keys-setup\n  sources:\n  - openapi/brl-openapi-original.json\n  - https://docs.crown-brlv.com/guides/authentication\n- name: signature\n  type: apiKey\n  in: header\n  parameter: X-Crown-Signature\n  description: >-\n    Webhook authentication only. HMAC-SHA256 signature of the request body\n    computed with the account's\
   \ webhook secret; verify it to confirm a webhook\n    was sent by Crown.\n  scope: webhooks\n  sources:\n  - openapi/brl-openapi-original.json\ncapabilities_note: >-\n  Authorization within an account is capability-scoped rather than OAuth-scoped:\n  operations require account capabilities such as `manage-holders` (sub-account\n  management) and `auto-claim-rewards` (recurring reward claims). These are\n  account grants, not OAuth2 scopes, so no scopes/ artifact is emitted.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/authentication/brl-authentication.yml
+source_yaml_url: https://artifacts.apis.io/brl/authentication/brl-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Company

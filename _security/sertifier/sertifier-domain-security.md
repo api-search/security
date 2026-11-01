@@ -5,55 +5,55 @@ api_specs:
   label: Sertifier Attributes API
   slug: sertifier-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sertifier/refs/heads/main/openapi/sertifier-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/sertifier/openapi/sertifier-attributes-api-openapi.yml
 - filename: sertifier-authentication-api-openapi.yml
   format: yaml
   label: Sertifier Authentication API
   slug: sertifier-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sertifier/refs/heads/main/openapi/sertifier-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sertifier/openapi/sertifier-authentication-api-openapi.yml
 - filename: sertifier-campaigns-api-openapi.yml
   format: yaml
   label: Sertifier Campaigns API
   slug: sertifier-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sertifier/refs/heads/main/openapi/sertifier-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/sertifier/openapi/sertifier-campaigns-api-openapi.yml
 - filename: sertifier-credentials-api-openapi.yml
   format: yaml
   label: Sertifier Credentials API
   slug: sertifier-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sertifier/refs/heads/main/openapi/sertifier-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/sertifier/openapi/sertifier-credentials-api-openapi.yml
 - filename: sertifier-designs-api-openapi.yml
   format: yaml
   label: Sertifier Designs API
   slug: sertifier-designs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sertifier/refs/heads/main/openapi/sertifier-designs-api-openapi.yml
+  url: https://artifacts.apis.io/sertifier/openapi/sertifier-designs-api-openapi.yml
 - filename: sertifier-details-api-openapi.yml
   format: yaml
   label: Sertifier Details API
   slug: sertifier-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sertifier/refs/heads/main/openapi/sertifier-details-api-openapi.yml
+  url: https://artifacts.apis.io/sertifier/openapi/sertifier-details-api-openapi.yml
 - filename: sertifier-email-templates-api-openapi.yml
   format: yaml
   label: Sertifier Email Templates API
   slug: sertifier-email-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sertifier/refs/heads/main/openapi/sertifier-email-templates-api-openapi.yml
+  url: https://artifacts.apis.io/sertifier/openapi/sertifier-email-templates-api-openapi.yml
 - filename: sertifier-recipients-api-openapi.yml
   format: yaml
   label: Sertifier Recipients API
   slug: sertifier-recipients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sertifier/refs/heads/main/openapi/sertifier-recipients-api-openapi.yml
+  url: https://artifacts.apis.io/sertifier/openapi/sertifier-recipients-api-openapi.yml
 - filename: sertifier-webhooks-api-openapi.yml
   format: yaml
   label: Sertifier Webhooks API
   slug: sertifier-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sertifier/refs/heads/main/openapi/sertifier-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/sertifier/openapi/sertifier-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -98,7 +98,7 @@ source_filename: sertifier-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sertifier.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 13:06:51 2026 GMT\n  hsts: false\n- host: sertifier.docs.apiary.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 23:59:59 2026 GMT\n  hsts: false\n- host: b2b.sertifier.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 13:06:51 2026 GMT\n  hsts: false\ndomains:\n- domain: sertifier.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: apiary.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sertifier/refs/heads/main/security/sertifier-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sertifier/security/sertifier-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Digital Credentials

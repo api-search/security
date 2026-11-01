@@ -5,7 +5,7 @@ api_specs:
   label: Orderly Health Look Up Practitioners API
   slug: orderly-health-look-up-practitioners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderly-health/refs/heads/main/openapi/orderly-health-look-up-practitioners-api-openapi.yml
+  url: https://artifacts.apis.io/orderly-health/openapi/orderly-health-look-up-practitioners-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,7 +39,7 @@ source_filename: orderly-health-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: orderlyhealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 10:29:08 2026 GMT\n  hsts: false\n- host: api.orderlyhealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 02:50:24 2026 GMT\n  hsts: null\ndomains:\n- domain: orderlyhealth.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orderly-health/refs/heads/main/security/orderly-health-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/orderly-health/security/orderly-health-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

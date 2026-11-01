@@ -37,7 +37,7 @@ source_filename: apple-safari-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.apple.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 16 18:31:25 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.apple.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 19:03:17 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: apple.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"pki.apple.com\"\n  - 0 iodef \"mailto:contact_pki@apple.com\"\n  - 0 issue \"pki.apple.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apple-safari/refs/heads/main/security/apple-safari-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apple-safari/security/apple-safari-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Apple

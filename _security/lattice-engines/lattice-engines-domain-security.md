@@ -26,7 +26,7 @@ source_filename: lattice-engines-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.lattice-engines.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 13:43:22 2026 GMT\n  hsts: null\ndomains:\n- domain: lattice-engines.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lattice-engines/refs/heads/main/security/lattice-engines-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lattice-engines/security/lattice-engines-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company

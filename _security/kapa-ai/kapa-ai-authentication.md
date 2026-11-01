@@ -8,37 +8,37 @@ api_specs:
   label: kapa.ai Analytics API
   slug: kapa-ai-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kapa-ai/refs/heads/main/openapi/kapa-ai-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/kapa-ai/openapi/kapa-ai-analytics-api-openapi.yml
 - filename: kapa-ai-chat-api-openapi.yml
   format: yaml
   label: kapa.ai Chat API
   slug: kapa-ai-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kapa-ai/refs/heads/main/openapi/kapa-ai-chat-api-openapi.yml
+  url: https://artifacts.apis.io/kapa-ai/openapi/kapa-ai-chat-api-openapi.yml
 - filename: kapa-ai-feedback-api-openapi.yml
   format: yaml
   label: kapa.ai Feedback API
   slug: kapa-ai-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kapa-ai/refs/heads/main/openapi/kapa-ai-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/kapa-ai/openapi/kapa-ai-feedback-api-openapi.yml
 - filename: kapa-ai-projects-api-openapi.yml
   format: yaml
   label: kapa.ai Projects API
   slug: kapa-ai-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kapa-ai/refs/heads/main/openapi/kapa-ai-projects-api-openapi.yml
+  url: https://artifacts.apis.io/kapa-ai/openapi/kapa-ai-projects-api-openapi.yml
 - filename: kapa-ai-retrieval-api-openapi.yml
   format: yaml
   label: kapa.ai Retrieval API
   slug: kapa-ai-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kapa-ai/refs/heads/main/openapi/kapa-ai-retrieval-api-openapi.yml
+  url: https://artifacts.apis.io/kapa-ai/openapi/kapa-ai-retrieval-api-openapi.yml
 - filename: kapa-ai-threads-api-openapi.yml
   format: yaml
   label: kapa.ai Threads API
   slug: kapa-ai-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kapa-ai/refs/heads/main/openapi/kapa-ai-threads-api-openapi.yml
+  url: https://artifacts.apis.io/kapa-ai/openapi/kapa-ai-threads-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: kapa-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/kapa-ai-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-KEY\n  description: kapa.ai project API key, created in the API Keys tab of the platform.\n  sources:\n  - openapi/kapa-ai-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kapa-ai/refs/heads/main/authentication/kapa-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kapa-ai/authentication/kapa-ai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence

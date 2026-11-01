@@ -27,7 +27,7 @@ source_filename: tops-holding-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.topsmarkets.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  3 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: topsmarkets.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tops-holding/refs/heads/main/security/tops-holding-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tops-holding/security/tops-holding-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Grocery

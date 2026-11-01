@@ -16,7 +16,7 @@ source_filename: cloudwick-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-09'\nmethod: searched\nprobe: true\nsource: https://trust.cloudwick.com/\nurl: https://trust.cloudwick.com/\ncertifications:\n- SOC 2\n- HIPAA\nevidence:\n- source: https://trust.cloudwick.com/\n  keywords:\n  - soc 2\n  - soc2\n  - hipaa\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudwick/refs/heads/main/security/cloudwick-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/cloudwick/security/cloudwick-trust-center.yml
 summary_line: SOC 2, HIPAA
 tags:
 - Company

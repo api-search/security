@@ -8,25 +8,25 @@ api_specs:
   label: Metals-API Analytics API
   slug: metals-api-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metals-api/refs/heads/main/openapi/metals-api-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/metals-api/openapi/metals-api-analytics-api-openapi.yml
 - filename: metals-api-conversion-api-openapi.yml
   format: yaml
   label: Metals-API Conversion API
   slug: metals-api-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metals-api/refs/heads/main/openapi/metals-api-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/metals-api/openapi/metals-api-conversion-api-openapi.yml
 - filename: metals-api-rates-api-openapi.yml
   format: yaml
   label: Metals-API Rates API
   slug: metals-api-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metals-api/refs/heads/main/openapi/metals-api-rates-api-openapi.yml
+  url: https://artifacts.apis.io/metals-api/openapi/metals-api-rates-api-openapi.yml
 - filename: metals-api-reference-api-openapi.yml
   format: yaml
   label: Metals-API Reference API
   slug: metals-api-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metals-api/refs/heads/main/openapi/metals-api-reference-api-openapi.yml
+  url: https://artifacts.apis.io/metals-api/openapi/metals-api-reference-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -53,7 +53,7 @@ source_filename: metals-api-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/metals-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: accessKey\n  type: apiKey\n  in: query\n  parameter: access_key\n  sources:\n  - openapi/metals-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metals-api/refs/heads/main/authentication/metals-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/metals-api/authentication/metals-api-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Currency

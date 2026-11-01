@@ -7,7 +7,7 @@ api_specs:
   label: Capchase Pay API
   slug: capchase-pay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capchase/refs/heads/main/openapi/capchase-pay-api-openapi.yml
+  url: https://artifacts.apis.io/capchase/openapi/capchase-pay-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -34,7 +34,7 @@ source_filename: capchase-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/capchase-pay-openapi.yml\ndocs: https://capchase.readme.io/reference/authentication\ncredential_request: pay@capchase.com\nnotes: >-\n  Capchase Pay uses HTTP Basic authentication. The username is the clientId and the\n  password is the clientSecret, sent as `Authorization: Basic base64(clientId:clientSecret)`.\n  Credentials are issued on request (pay@capchase.com) and the Playground environment\n  uses a separate set of keys. Unauthorized requests return 401. There is no OAuth,\n  API-key header, or scope surface.\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: 'Basic auth: username=clientId, password=clientSecret. Request credentials at\n    pay@capchase.com.'\n  sources:\n  - openapi/capchase-pay-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/capchase/refs/heads/main/authentication/capchase-authentication.yml
+source_yaml_url: https://artifacts.apis.io/capchase/authentication/capchase-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

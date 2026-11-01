@@ -36,7 +36,7 @@ source_filename: prestige-consumer-healthcare-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.prestigeconsumerhealthcare.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 06:37:58 2026 GMT\n  hsts: null\n- host: developer.prestigeconsumerhealthcare.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 07:01:14 2026 GMT\n  hsts: null\n- host: api.prestigeconsumerhealthcare.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 07:01:14 2026 GMT\n  hsts: null\ndomains:\n- domain: prestigeconsumerhealthcare.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prestige-consumer-healthcare/refs/heads/main/security/prestige-consumer-healthcare-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/prestige-consumer-healthcare/security/prestige-consumer-healthcare-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Consumer Healthcare

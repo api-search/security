@@ -8,43 +8,43 @@ api_specs:
   label: Velt Auth API
   slug: velt-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/velt/refs/heads/main/openapi/velt-auth-api-openapi.yml
+  url: https://artifacts.apis.io/velt/openapi/velt-auth-api-openapi.yml
 - filename: velt-comments-api-openapi.yml
   format: yaml
   label: Velt Comments API
   slug: velt-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/velt/refs/heads/main/openapi/velt-comments-api-openapi.yml
+  url: https://artifacts.apis.io/velt/openapi/velt-comments-api-openapi.yml
 - filename: velt-documents-api-openapi.yml
   format: yaml
   label: Velt Documents API
   slug: velt-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/velt/refs/heads/main/openapi/velt-documents-api-openapi.yml
+  url: https://artifacts.apis.io/velt/openapi/velt-documents-api-openapi.yml
 - filename: velt-notifications-api-openapi.yml
   format: yaml
   label: Velt Notifications API
   slug: velt-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/velt/refs/heads/main/openapi/velt-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/velt/openapi/velt-notifications-api-openapi.yml
 - filename: velt-organizations-api-openapi.yml
   format: yaml
   label: Velt Organizations API
   slug: velt-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/velt/refs/heads/main/openapi/velt-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/velt/openapi/velt-organizations-api-openapi.yml
 - filename: velt-users-api-openapi.yml
   format: yaml
   label: Velt Users API
   slug: velt-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/velt/refs/heads/main/openapi/velt-users-api-openapi.yml
+  url: https://artifacts.apis.io/velt/openapi/velt-users-api-openapi.yml
 - filename: velt-webhooks-api-openapi.yml
   format: yaml
   label: Velt Webhooks API
   slug: velt-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/velt/refs/heads/main/openapi/velt-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/velt/openapi/velt-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -79,7 +79,7 @@ source_filename: velt-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/velt-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-velt-api-key\n  description: Your Velt API key.\n  sources:\n  - openapi/velt-openapi.yml\n- name: authToken\n  type: apiKey\n  in: header\n  parameter: x-velt-auth-token\n  description: Your Velt auth token that authorizes the API key.\n  sources:\n  - openapi/velt-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/velt/refs/heads/main/authentication/velt-authentication.yml
+source_yaml_url: https://artifacts.apis.io/velt/authentication/velt-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Real-Time Collaboration

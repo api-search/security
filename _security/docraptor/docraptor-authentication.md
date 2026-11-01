@@ -7,13 +7,13 @@ api_specs:
   label: DocRaptor Async Documents API
   slug: docraptor-async-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docraptor/refs/heads/main/openapi/docraptor-async-documents-api-openapi.yml
+  url: https://artifacts.apis.io/docraptor/openapi/docraptor-async-documents-api-openapi.yml
 - filename: docraptor-documents-api-openapi.yml
   format: yaml
   label: DocRaptor Documents API
   slug: docraptor-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docraptor/refs/heads/main/openapi/docraptor-documents-api-openapi.yml
+  url: https://artifacts.apis.io/docraptor/openapi/docraptor-documents-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: docraptor-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/docraptor-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: API key as username, no password\n  sources:\n  - openapi/docraptor-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docraptor/refs/heads/main/authentication/docraptor-authentication.yml
+source_yaml_url: https://artifacts.apis.io/docraptor/authentication/docraptor-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Document Generation

@@ -5,19 +5,19 @@ api_specs:
   label: Acast Ad Markers API
   slug: acast-ad-markers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acast/refs/heads/main/openapi/acast-ad-markers-api-openapi.yml
+  url: https://artifacts.apis.io/acast/openapi/acast-ad-markers-api-openapi.yml
 - filename: acast-episodes-api-openapi.yml
   format: yaml
   label: Acast Episodes API
   slug: acast-episodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acast/refs/heads/main/openapi/acast-episodes-api-openapi.yml
+  url: https://artifacts.apis.io/acast/openapi/acast-episodes-api-openapi.yml
 - filename: acast-shows-api-openapi.yml
   format: yaml
   label: Acast Shows API
   slug: acast-shows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acast/refs/heads/main/openapi/acast-shows-api-openapi.yml
+  url: https://artifacts.apis.io/acast/openapi/acast-shows-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -61,7 +61,7 @@ source_filename: acast-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.acast.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 18:02:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.acast.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 16:04:21 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.acast.com\n  https: false\ndomains:\n- domain: acast.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"microsoft.com\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 iodef \"mailto:domains@acast.com\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acast/refs/heads/main/security/acast-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/acast/security/acast-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Podcasts

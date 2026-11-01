@@ -8,37 +8,37 @@ api_specs:
   label: US Space Command Authentication API
   slug: us-space-comman-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-space-comman/refs/heads/main/openapi/us-space-comman-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/us-space-comman/openapi/us-space-comman-authentication-api-openapi.yml
 - filename: us-space-comman-conjunction-data-api-openapi.yml
   format: yaml
   label: US Space Command Conjunction Data API
   slug: us-space-comman-conjunction-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-space-comman/refs/heads/main/openapi/us-space-comman-conjunction-data-api-openapi.yml
+  url: https://artifacts.apis.io/us-space-comman/openapi/us-space-comman-conjunction-data-api-openapi.yml
 - filename: us-space-comman-decay-and-reentry-api-openapi.yml
   format: yaml
   label: US Space Command Decay and Reentry API
   slug: us-space-comman-decay-and-reentry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-space-comman/refs/heads/main/openapi/us-space-comman-decay-and-reentry-api-openapi.yml
+  url: https://artifacts.apis.io/us-space-comman/openapi/us-space-comman-decay-and-reentry-api-openapi.yml
 - filename: us-space-comman-general-perturbations-api-openapi.yml
   format: yaml
   label: US Space Command General Perturbations API
   slug: us-space-comman-general-perturbations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-space-comman/refs/heads/main/openapi/us-space-comman-general-perturbations-api-openapi.yml
+  url: https://artifacts.apis.io/us-space-comman/openapi/us-space-comman-general-perturbations-api-openapi.yml
 - filename: us-space-comman-satellite-catalog-api-openapi.yml
   format: yaml
   label: US Space Command Satellite Catalog API
   slug: us-space-comman-satellite-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-space-comman/refs/heads/main/openapi/us-space-comman-satellite-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/us-space-comman/openapi/us-space-comman-satellite-catalog-api-openapi.yml
 - filename: us-space-comman-space-object-history-api-openapi.yml
   format: yaml
   label: US Space Command Space Object History API
   slug: us-space-comman-space-object-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-space-comman/refs/heads/main/openapi/us-space-comman-space-object-history-api-openapi.yml
+  url: https://artifacts.apis.io/us-space-comman/openapi/us-space-comman-space-object-history-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: us-space-comman-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/us-space-command-space-track-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - cookie\nschemes:\n- name: sessionCookie\n  type: apiKey\n  in: cookie\n  parameter: chocolatechip\n  description: Session cookie obtained after successful login via POST /ajaxauth/login\n  sources:\n  - openapi/us-space-command-space-track-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-space-comman/refs/heads/main/authentication/us-space-comman-authentication.yml
+source_yaml_url: https://artifacts.apis.io/us-space-comman/authentication/us-space-comman-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Federal Government

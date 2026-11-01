@@ -7,13 +7,13 @@ api_specs:
   label: DoControl Authentication API
   slug: docontrol-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docontrol/refs/heads/main/openapi/docontrol-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/docontrol/openapi/docontrol-authentication-api-openapi.yml
 - filename: docontrol-graph-ql-api-openapi.yml
   format: yaml
   label: DoControl Graph QL API
   slug: docontrol-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docontrol/refs/heads/main/openapi/docontrol-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/docontrol/openapi/docontrol-graph-ql-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: searched\nsource: >-\n  https://d
   \ Settings > Admin > API keys\n  yields: refresh token (shown once, unrecoverable afterwards)\n  requires: admin or super-admin console permission\n- step: 2\n  action: Exchange the refresh token for an access token\n  request: 'POST https://auth.prod.docontrol.io/refresh  {\"refreshToken\": \"<api key>\"}'\n  yields: '{\"token\": \"<access token>\", \"expiresIn\": 300, \"refreshToken\": \"<refresh token>\"}'\n  note: >-\n    The response field carrying the short-lived credential is `token`, not `accessToken`. The\n    harvested OpenAPI models it as `accessToken`; DoControl's own MCP server README documents\n    `token` and warns explicitly not to confuse it with `refreshToken`. Corrected in\n    overlays/docontrol-authentication-api-overlay.yaml.\n  source: https://github.com/docontrol-io/dc-mcp-server\n- step: 3\n  action: Call the GraphQL gateway\n  request: 'POST https://apollo-gateway-v4-api.prod.docontrol.io/graphql  Authorization: Bearer <token>'\n  requires: at least admin permission\
   \ on the key\nprivilege_levels:\n- name: super-admin\n  description: Can change any functionality including system configuration and Team settings.\n- name: admin\n  description: Can change any functionality including system configuration, but not Team settings.\n- name: viewer\n  description: Read-only; cannot read anything under Settings, and cannot access the API keys tab.\n- note: >-\n    An admin can mint admin and viewer keys but not super-admin keys; only a super-admin can mint a\n    super-admin key. These are console privilege levels attached to a key, not OAuth scopes — a\n    caller cannot request a narrower grant at exchange time, and there is no scope parameter or\n    downscoping mechanism.\ncredential_hygiene:\n  max_keys_per_tenant: 10\n  key_name_charset: '[a-zA-Z0-9_]'\n  key_names_unique: true\n  refresh_token_ttl: 10 years\n  access_token_ttl_seconds: 300\n  rotation_policy_published: false\n  revocation: Delete the key in Settings > Admin > API keys.\n  risk_note:\
   \ >-\n    A 10-year bearer-equivalent credential with no published rotation guidance and no per-key\n    scoping beyond three coarse levels is the weakest part of this auth model. The minimum useful\n    key for API access is `admin`, which is also a key that can change system configuration —\n    least privilege is not reachable for a read-only integration that needs anything under\n    Settings.\nobserved:\n- url: https://apollo-gateway-v4-api.prod.docontrol.io/graphql\n  request: POST with no Authorization header\n  status: 401\n  body: MISSING ACCESS_TOKEN\n  observed: '2026-09-06'\n- url: https://auth.prod.docontrol.io/refresh\n  request: 'POST {\"refreshToken\":\"invalid\"}'\n  status: 400\n  body: (empty)\n  observed: '2026-09-06'\ndiscovery_documents:\n  oauth_authorization_server: 404 on every host\n  openid_configuration: 404 on every host\n  oauth_protected_resource: 404 on every host\n  cross_link: well-known/docontrol-well-known.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docontrol/refs/heads/main/authentication/docontrol-authentication.yml
+source_yaml_url: https://artifacts.apis.io/docontrol/authentication/docontrol-authentication.yml
 summary_line: http/apiKey · 2 schemes
 tags:
 - Data Security

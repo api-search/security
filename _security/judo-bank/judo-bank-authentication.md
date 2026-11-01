@@ -7,43 +7,43 @@ api_specs:
   label: Judo Bank Banking Account Balances API
   slug: judo-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/judo-bank/refs/heads/main/openapi/judo-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/judo-bank/openapi/judo-bank-banking-account-balances-api-openapi.yml
 - filename: judo-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Judo Bank Banking Account Direct Debits API
   slug: judo-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/judo-bank/refs/heads/main/openapi/judo-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/judo-bank/openapi/judo-bank-banking-account-direct-debits-api-openapi.yml
 - filename: judo-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Judo Bank Banking Account Scheduled Payments API
   slug: judo-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/judo-bank/refs/heads/main/openapi/judo-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/judo-bank/openapi/judo-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: judo-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Judo Bank Banking Account Transactions API
   slug: judo-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/judo-bank/refs/heads/main/openapi/judo-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/judo-bank/openapi/judo-bank-banking-account-transactions-api-openapi.yml
 - filename: judo-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Judo Bank Banking Accounts API
   slug: judo-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/judo-bank/refs/heads/main/openapi/judo-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/judo-bank/openapi/judo-bank-banking-accounts-api-openapi.yml
 - filename: judo-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Judo Bank Banking Payees API
   slug: judo-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/judo-bank/refs/heads/main/openapi/judo-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/judo-bank/openapi/judo-bank-banking-payees-api-openapi.yml
 - filename: judo-bank-banking-products-api-openapi.yml
   format: yaml
   label: Judo Bank Banking Products API
   slug: judo-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/judo-bank/refs/heads/main/openapi/judo-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/judo-bank/openapi/judo-bank-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: >-\n  Derived fr
   \  is consumer-authorized and only reachable through the CDR\n  accredited-data-recipient (ADR) OAuth 2.0 / OpenID Connect + FAPI flow brokered\n  by the CDR Register - there is no open self-serve developer key.\nsummary:\n  types: [none, oauth2, openIdConnect, mutualTLS]\n  public_prd_auth: none\n  authenticated_surface_auth: oauth2 (authorization_code + PKCE) over OIDC, FAPI-secured, mTLS-bound\n  api_key_in: []\n  oauth2_flows: [authorizationCode]\nschemes:\n  - name: PublicProductReferenceData\n    type: none\n    applies_to:\n      - GET /banking/products\n      - GET /banking/products/{productId}\n    note: >-\n      Unauthenticated public product catalogue confirmed live (HTTP 200, x-v 3)\n      at https://public.open.judo.bank/cds-au/v1. No credential required.\n  - name: CDR-ADR-OAuth2\n    type: oauth2\n    scheme: authorizationCode\n    pkce: true\n    applies_to:\n      - GET /banking/accounts and account detail/balances\n      - GET /banking/accounts/{accountId}/transactions\n\
   \      - GET /banking/accounts/{accountId}/direct-debits and scheduled payments\n      - GET /banking/payees\n    flow: >-\n      Consumer authorizes an accredited data recipient; the data holder\n      (Judo Bank) authorisation server, discovered via the CDR Register, issues\n      an authorization_code + PKCE grant. Access tokens are consumer-scoped and\n      short-lived per the CDS security profile.\n    fapi: true\n    mtls: true\n    docs: https://consumerdatastandardsaustralia.github.io/standards/#security-profile\n  - name: CDR-OIDC\n    type: openIdConnect\n    note: >-\n      The CDS security profile is built on OpenID Connect; identity is asserted\n      via OIDC id_tokens in the CDR authorisation flow. OIDC discovery is not\n      exposed on the public PRD host - authorisation-server metadata is brokered\n      through the CDR Register, not a self-serve /.well-known/openid-configuration.\n    docs: https://consumerdatastandardsaustralia.github.io/standards/#security-profile\n\
   \  - name: CDR-mTLS\n    type: mutualTLS\n    note: >-\n      Holder-of-key / sender-constrained access tokens over mutual TLS between\n      the accredited data recipient and the data holder, per the FAPI 1.0\n      Advanced profile the CDS mandates. The OpenAPI server block itself is\n      labelled \"MTLS\" (https://mtls.dh.example.com/cds-au/v1).\ndocs: https://www.judo.bank/open-banking/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/judo-bank/refs/heads/main/authentication/judo-bank-authentication.yml
+source_yaml_url: https://artifacts.apis.io/judo-bank/authentication/judo-bank-authentication.yml
 summary_line: none/oauth2/openIdConnect/mutualTLS · 4 schemes
 tags:
 - Finance

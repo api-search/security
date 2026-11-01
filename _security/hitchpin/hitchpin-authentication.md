@@ -9,19 +9,19 @@ api_specs:
   label: HitchPin Instant Invoice Share API
   slug: hitchpin-instant-invoice-share-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hitchpin/refs/heads/main/openapi/hitchpin-instant-invoice-share-api-openapi.yml
+  url: https://artifacts.apis.io/hitchpin/openapi/hitchpin-instant-invoice-share-api-openapi.yml
 - filename: hitchpin-instant-invoices-api-openapi.yml
   format: yaml
   label: HitchPin Instant Invoices API
   slug: hitchpin-instant-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hitchpin/refs/heads/main/openapi/hitchpin-instant-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/hitchpin/openapi/hitchpin-instant-invoices-api-openapi.yml
 - filename: hitchpin-rendering-api-openapi.yml
   format: yaml
   label: HitchPin Rendering API
   slug: hitchpin-rendering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hitchpin/refs/heads/main/openapi/hitchpin-rendering-api-openapi.yml
+  url: https://artifacts.apis.io/hitchpin/openapi/hitchpin-rendering-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -55,7 +55,7 @@ source_filename: hitchpin-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/hitchpin-django-api-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - cookie\n  - header\nschemes:\n- name: cookieAuth\n  type: apiKey\n  in: cookie\n  parameter: sessionid\n  sources:\n  - openapi/hitchpin-django-api-openapi.json\n- name: tokenAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Token-based authentication with required prefix \"Token\"\n  sources:\n  - openapi/hitchpin-django-api-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hitchpin/refs/heads/main/authentication/hitchpin-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hitchpin/authentication/hitchpin-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company

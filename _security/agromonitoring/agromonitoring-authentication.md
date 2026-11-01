@@ -8,37 +8,37 @@ api_specs:
   label: Agromonitoring NDVI History API
   slug: agromonitoring-ndvi-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/openapi/agromonitoring-ndvi-history-api-openapi.yml
+  url: https://artifacts.apis.io/agromonitoring/openapi/agromonitoring-ndvi-history-api-openapi.yml
 - filename: agromonitoring-polygons-api-openapi.yml
   format: yaml
   label: Agromonitoring Polygons API
   slug: agromonitoring-polygons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/openapi/agromonitoring-polygons-api-openapi.yml
+  url: https://artifacts.apis.io/agromonitoring/openapi/agromonitoring-polygons-api-openapi.yml
 - filename: agromonitoring-satellite-imagery-api-openapi.yml
   format: yaml
   label: Agromonitoring Satellite Imagery API
   slug: agromonitoring-satellite-imagery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/openapi/agromonitoring-satellite-imagery-api-openapi.yml
+  url: https://artifacts.apis.io/agromonitoring/openapi/agromonitoring-satellite-imagery-api-openapi.yml
 - filename: agromonitoring-soil-api-openapi.yml
   format: yaml
   label: Agromonitoring Soil API
   slug: agromonitoring-soil-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/openapi/agromonitoring-soil-api-openapi.yml
+  url: https://artifacts.apis.io/agromonitoring/openapi/agromonitoring-soil-api-openapi.yml
 - filename: agromonitoring-uv-index-api-openapi.yml
   format: yaml
   label: Agromonitoring UV Index API
   slug: agromonitoring-uv-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/openapi/agromonitoring-uv-index-api-openapi.yml
+  url: https://artifacts.apis.io/agromonitoring/openapi/agromonitoring-uv-index-api-openapi.yml
 - filename: agromonitoring-weather-api-openapi.yml
   format: yaml
   label: Agromonitoring Weather API
   slug: agromonitoring-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/openapi/agromonitoring-weather-api-openapi.yml
+  url: https://artifacts.apis.io/agromonitoring/openapi/agromonitoring-weather-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: agromonitoring-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/agromonitoring-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyQuery\n  type: apiKey\n  in: query\n  parameter: appid\n  description: API key obtained by registering at agromonitoring.com. Append appid=YOUR_API_KEY\n    to all API requests.\n  sources:\n  - openapi/agromonitoring-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/authentication/agromonitoring-authentication.yml
+source_yaml_url: https://artifacts.apis.io/agromonitoring/authentication/agromonitoring-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Agriculture

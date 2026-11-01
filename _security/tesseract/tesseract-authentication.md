@@ -7,31 +7,31 @@ api_specs:
   label: Tesseract Clients API
   slug: tesseract-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesseract/refs/heads/main/openapi/tesseract-clients-api-openapi.yml
+  url: https://artifacts.apis.io/tesseract/openapi/tesseract-clients-api-openapi.yml
 - filename: tesseract-health-api-openapi.yml
   format: yaml
   label: Tesseract Health API
   slug: tesseract-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesseract/refs/heads/main/openapi/tesseract-health-api-openapi.yml
+  url: https://artifacts.apis.io/tesseract/openapi/tesseract-health-api-openapi.yml
 - filename: tesseract-insights-api-openapi.yml
   format: yaml
   label: Tesseract Insights API
   slug: tesseract-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesseract/refs/heads/main/openapi/tesseract-insights-api-openapi.yml
+  url: https://artifacts.apis.io/tesseract/openapi/tesseract-insights-api-openapi.yml
 - filename: tesseract-strategies-api-openapi.yml
   format: yaml
   label: Tesseract Strategies API
   slug: tesseract-strategies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesseract/refs/heads/main/openapi/tesseract-strategies-api-openapi.yml
+  url: https://artifacts.apis.io/tesseract/openapi/tesseract-strategies-api-openapi.yml
 - filename: tesseract-vaults-api-openapi.yml
   format: yaml
   label: Tesseract Vaults API
   slug: tesseract-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesseract/refs/heads/main/openapi/tesseract-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/tesseract/openapi/tesseract-vaults-api-openapi.yml
 auth_types:
 - none
 - signature
@@ -85,7 +85,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://docs.tesseract.fi/earn-direct-and-earn-api/earn-api/overview.md\ndocs: https://docs.tesseract.fi/dedicated-client-vaults/reference/public-api.md\nsummary:\n  types: [none, signature, oauth2]\n  api_key_in: []\n  oauth2_flows: [clientCredentials]\n  notes: >-\n    Tesseract exposes two distinct API surfaces with different auth models. The\n    public vault reporting API (api.vault.tesseract.fi) requires no credentials\n    for read endpoints — the vault contract address itself acts as the key —\n    while the single write endpoint (strategy assignment) is authorized by an\n    EIP-712 signature validated against the vault owner. The partner-facing Earn\n    API uses OAuth2 client-credentials (machine-to-machine).\nschemes:\n  - name: PublicRead\n    type: none\n    scope: read\n    description: >-\n      Read endpoints on the Tesseract Public API require no authentication. The\n      vault contract address (and client\
   \ wallet address) function as the access\n      key; there is no bearer token or API key for GET operations.\n    applies_to:\n      - openapi/tesseract-public-api-openapi.json\n    sources: [https://docs.tesseract.fi/dedicated-client-vaults/reference/public-api.md]\n  - name: EIP712Signature\n    type: signature\n    scheme: eip-712\n    description: >-\n      The PUT /vaults/{vault}/strategy operation is authorized off-chain by an\n      EIP-712 typed-data signature (SetStrategy: vaultAddress, strategyId,\n      timestamp) signed by the vault owner. No on-chain transaction or gas is\n      required; signatures expire after a short window (send within minutes of\n      signing).\n    domain:\n      name: Tesseract Public API\n      version: '1'\n      chainId: 1\n    applies_to:\n      - openapi/tesseract-public-api-openapi.json#VaultsController_setStrategy\n    sources: [https://docs.tesseract.fi/dedicated-client-vaults/reference/public-api.md]\n  - name: EarnApiOAuth2\n    type: oauth2\n\
   \    flow: clientCredentials\n    description: >-\n      Partner integrations to the Earn API authenticate with OAuth2\n      client-credentials (M2M). Partners are issued a Client ID and Client Secret\n      which are exchanged for bearer tokens. Credentials are delivered per\n      environment (Development / Test / Production) via Bitwarden Send.\n    applies_to: [earn-api]\n    sources: [https://docs.tesseract.fi/earn-direct-and-earn-api/earn-api/overview.md]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tesseract/refs/heads/main/authentication/tesseract-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tesseract/authentication/tesseract-authentication.yml
 summary_line: none/signature/oauth2 · 3 schemes
 tags:
 - Company

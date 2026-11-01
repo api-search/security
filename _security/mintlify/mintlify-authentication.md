@@ -7,25 +7,25 @@ api_specs:
   label: Mintlify Agent API
   slug: mintlify-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/openapi/mintlify-agent-api-openapi.yml
+  url: https://artifacts.apis.io/mintlify/openapi/mintlify-agent-api-openapi.yml
 - filename: mintlify-analytics-api-openapi.yml
   format: yaml
   label: Mintlify Analytics API
   slug: mintlify-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/openapi/mintlify-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/mintlify/openapi/mintlify-analytics-api-openapi.yml
 - filename: mintlify-assistant-api-openapi.yml
   format: yaml
   label: Mintlify Assistant API
   slug: mintlify-assistant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/openapi/mintlify-assistant-api-openapi.yml
+  url: https://artifacts.apis.io/mintlify/openapi/mintlify-assistant-api-openapi.yml
 - filename: mintlify-update-api-openapi.yml
   format: yaml
   label: Mintlify Update API
   slug: mintlify-update-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/openapi/mintlify-update-api-openapi.yml
+  url: https://artifacts.apis.io/mintlify/openapi/mintlify-update-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -53,7 +53,7 @@ source_filename: mintlify-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/mintlify-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: adminKey\n  type: http\n  scheme: bearer\n  bearerFormat: mint_*\n  description: Admin API key prefixed with mint_.\n  sources:\n  - openapi/mintlify-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/authentication/mintlify-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mintlify/authentication/mintlify-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Documentation

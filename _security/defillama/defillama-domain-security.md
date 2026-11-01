@@ -5,37 +5,37 @@ api_specs:
   label: DefiLlama Coins API
   slug: defillama-coins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/openapi/defillama-coins-api-openapi.yml
+  url: https://artifacts.apis.io/defillama/openapi/defillama-coins-api-openapi.yml
 - filename: defillama-fees-api-openapi.yml
   format: yaml
   label: DefiLlama Fees API
   slug: defillama-fees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/openapi/defillama-fees-api-openapi.yml
+  url: https://artifacts.apis.io/defillama/openapi/defillama-fees-api-openapi.yml
 - filename: defillama-stablecoins-api-openapi.yml
   format: yaml
   label: DefiLlama Stablecoins API
   slug: defillama-stablecoins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/openapi/defillama-stablecoins-api-openapi.yml
+  url: https://artifacts.apis.io/defillama/openapi/defillama-stablecoins-api-openapi.yml
 - filename: defillama-tvl-api-openapi.yml
   format: yaml
   label: DefiLlama TVL API
   slug: defillama-tvl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/openapi/defillama-tvl-api-openapi.yml
+  url: https://artifacts.apis.io/defillama/openapi/defillama-tvl-api-openapi.yml
 - filename: defillama-volumes-api-openapi.yml
   format: yaml
   label: DefiLlama Volumes API
   slug: defillama-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/openapi/defillama-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/defillama/openapi/defillama-volumes-api-openapi.yml
 - filename: defillama-yields-api-openapi.yml
   format: yaml
   label: DefiLlama Yields API
   slug: defillama-yields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/openapi/defillama-yields-api-openapi.yml
+  url: https://artifacts.apis.io/defillama/openapi/defillama-yields-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -79,7 +79,7 @@ source_filename: defillama-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.defillama.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 16 15:52:33 2026 GMT\n  hsts: false\n- host: defillama.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 16 15:52:33 2026 GMT\n  hsts: false\n- host: api.llama.fi\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 19 21:18:27 2026 GMT\n  hsts: null\ndomains:\n- domain: defillama.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: llama.fi\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/security/defillama-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/defillama/security/defillama-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Web3

@@ -5,73 +5,85 @@ api_specs:
   label: Amazon MemoryDB Clusters API
   slug: amazon-memorydb-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-memorydb/openapi/amazon-memorydb-clusters-api-openapi.yml
 - filename: amazon-memorydb-events-api-openapi.yml
   format: yaml
   label: Amazon MemoryDB Events API
   slug: amazon-memorydb-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-events-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-memorydb/openapi/amazon-memorydb-events-api-openapi.yml
 - filename: amazon-memorydb-nodetypes-api-openapi.yml
   format: yaml
   label: Amazon MemoryDB NodeTypes API
   slug: amazon-memorydb-nodetypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-nodetypes-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-memorydb/openapi/amazon-memorydb-nodetypes-api-openapi.yml
 - filename: amazon-memorydb-reservednodes-api-openapi.yml
   format: yaml
   label: Amazon MemoryDB ReservedNodes API
   slug: amazon-memorydb-reservednodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-reservednodes-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-memorydb/openapi/amazon-memorydb-reservednodes-api-openapi.yml
 - filename: amazon-memorydb-shards-api-openapi.yml
   format: yaml
   label: Amazon MemoryDB Shards API
   slug: amazon-memorydb-shards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-shards-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-memorydb/openapi/amazon-memorydb-shards-api-openapi.yml
 - filename: amazon-memorydb-snapshots-api-openapi.yml
   format: yaml
   label: Amazon MemoryDB Snapshots API
   slug: amazon-memorydb-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-memorydb/openapi/amazon-memorydb-snapshots-api-openapi.yml
 - filename: amazon-memorydb-tags-api-openapi.yml
   format: yaml
   label: Amazon MemoryDB Tags API
   slug: amazon-memorydb-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-memorydb/openapi/amazon-memorydb-tags-api-openapi.yml
 - filename: amazon-memorydb-users-api-openapi.yml
   format: yaml
   label: Amazon MemoryDB Users API
   slug: amazon-memorydb-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-users-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-memorydb/openapi/amazon-memorydb-users-api-openapi.yml
 - filename: amazon-memorydb-acls-api-openapi.yml
   format: yaml
   label: Amazon MemoryDB AC Ls API
   slug: amazon-memorydb-acls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-acls-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-memorydb/openapi/amazon-memorydb-acls-api-openapi.yml
 - filename: amazon-memorydb-engine-versions-api-openapi.yml
   format: yaml
   label: Amazon MemoryDB Engine Versions API
   slug: amazon-memorydb-engine-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-engine-versions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-memorydb/openapi/amazon-memorydb-engine-versions-api-openapi.yml
 - filename: amazon-memorydb-parameter-groups-api-openapi.yml
   format: yaml
   label: Amazon MemoryDB Parameter Groups API
   slug: amazon-memorydb-parameter-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-parameter-groups-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-memorydb/openapi/amazon-memorydb-parameter-groups-api-openapi.yml
 - filename: amazon-memorydb-subnet-groups-api-openapi.yml
   format: yaml
   label: Amazon MemoryDB Subnet Groups API
   slug: amazon-memorydb-subnet-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-subnet-groups-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-memorydb/openapi/amazon-memorydb-subnet-groups-api-openapi.yml
+- filename: amazon-memorydb-multi-region-cluster-api-openapi.yml
+  format: yaml
+  label: Amazon MemoryDB Memorydb Multi Region Cluster API
+  slug: amazon-memorydb-multi-region-cluster-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-memorydb/openapi/amazon-memorydb-multi-region-cluster-api-openapi.yml
+- filename: amazon-memorydb-operations-api-openapi.yml
+  format: yaml
+  label: Amazon MemoryDB Memorydb Operations API
+  slug: amazon-memorydb-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-memorydb/openapi/amazon-memorydb-operations-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -92,7 +104,7 @@ source_filename: amazon-memorydb-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://aws.amazon.com/compliance/\nurl: https://aws.amazon.com/compliance/\ncertifications:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://aws.amazon.com/compliance/\n  keywords:\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/security/amazon-memorydb-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/amazon-memorydb/security/amazon-memorydb-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Database

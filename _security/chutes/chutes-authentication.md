@@ -7,25 +7,25 @@ api_specs:
   label: Chutes API
   slug: chutes-chutes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chutes/refs/heads/main/openapi/chutes-chutes-api-openapi.yml
+  url: https://artifacts.apis.io/chutes/openapi/chutes-chutes-api-openapi.yml
 - filename: chutes-images-api-openapi.yml
   format: yaml
   label: Chutes Images API
   slug: chutes-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chutes/refs/heads/main/openapi/chutes-images-api-openapi.yml
+  url: https://artifacts.apis.io/chutes/openapi/chutes-images-api-openapi.yml
 - filename: chutes-models-api-openapi.yml
   format: yaml
   label: Chutes Models API
   slug: chutes-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chutes/refs/heads/main/openapi/chutes-models-api-openapi.yml
+  url: https://artifacts.apis.io/chutes/openapi/chutes-models-api-openapi.yml
 - filename: chutes-chat-completions-api-openapi.yml
   format: yaml
   label: Chutes Chat Completions API
   slug: chutes-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chutes/refs/heads/main/openapi/chutes-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/chutes/openapi/chutes-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: chutes-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/chutes-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Chutes API key passed as `Authorization: Bearer [example key]`. Management endpoints\n    alternatively accept a Bittensor hotkey signature (X-Chutes-Hotkey, X-Chutes-Signature,\n    X-Chutes-Nonce).'\n  sources:\n  - openapi/chutes-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chutes/refs/heads/main/authentication/chutes-authentication.yml
+source_yaml_url: https://artifacts.apis.io/chutes/authentication/chutes-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

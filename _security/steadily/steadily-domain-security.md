@@ -5,49 +5,49 @@ api_specs:
   label: Steadily Account API
   slug: steadily-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/openapi/steadily-account-api-openapi.yml
+  url: https://artifacts.apis.io/steadily/openapi/steadily-account-api-openapi.yml
 - filename: steadily-draft-quote-api-openapi.yml
   format: yaml
   label: Steadily Draft Quote API
   slug: steadily-draft-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/openapi/steadily-draft-quote-api-openapi.yml
+  url: https://artifacts.apis.io/steadily/openapi/steadily-draft-quote-api-openapi.yml
 - filename: steadily-lead-referrals-api-openapi.yml
   format: yaml
   label: Steadily Lead Referrals API
   slug: steadily-lead-referrals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/openapi/steadily-lead-referrals-api-openapi.yml
+  url: https://artifacts.apis.io/steadily/openapi/steadily-lead-referrals-api-openapi.yml
 - filename: steadily-lender-api-openapi.yml
   format: yaml
   label: Steadily Lender API
   slug: steadily-lender-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/openapi/steadily-lender-api-openapi.yml
+  url: https://artifacts.apis.io/steadily/openapi/steadily-lender-api-openapi.yml
 - filename: steadily-policy-api-openapi.yml
   format: yaml
   label: Steadily Policy API
   slug: steadily-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/openapi/steadily-policy-api-openapi.yml
+  url: https://artifacts.apis.io/steadily/openapi/steadily-policy-api-openapi.yml
 - filename: steadily-quote-estimates-api-openapi.yml
   format: yaml
   label: Steadily Quote Estimates API
   slug: steadily-quote-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/openapi/steadily-quote-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/steadily/openapi/steadily-quote-estimates-api-openapi.yml
 - filename: steadily-quote-offer-api-openapi.yml
   format: yaml
   label: Steadily Quote Offer API
   slug: steadily-quote-offer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/openapi/steadily-quote-offer-api-openapi.yml
+  url: https://artifacts.apis.io/steadily/openapi/steadily-quote-offer-api-openapi.yml
 - filename: steadily-reporting-api-openapi.yml
   format: yaml
   label: Steadily Reporting API
   slug: steadily-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/openapi/steadily-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/steadily/openapi/steadily-reporting-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: steadily-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: steadily.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 06:27:41 2026 GMT\n  hsts: false\ndomains:\n- domain: steadily.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/security/steadily-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/steadily/security/steadily-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

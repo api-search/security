@@ -5,13 +5,13 @@ api_specs:
   label: National Science Foundation Awards API
   slug: national-science-foundation-awards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-science-foundation/refs/heads/main/openapi/national-science-foundation-awards-api-openapi.yml
+  url: https://artifacts.apis.io/national-science-foundation/openapi/national-science-foundation-awards-api-openapi.yml
 - filename: national-science-foundation-awards-format-api-openapi.yml
   format: yaml
   label: National Science Foundation Awards.{format} API
   slug: national-science-foundation-awards-format-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-science-foundation/refs/heads/main/openapi/national-science-foundation-awards-format-api-openapi.yml
+  url: https://artifacts.apis.io/national-science-foundation/openapi/national-science-foundation-awards-format-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: national-science-foundation-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nsf.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 12 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.nsf.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  2 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: nsf.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-science-foundation/refs/heads/main/security/national-science-foundation-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/national-science-foundation/security/national-science-foundation-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Federal Government

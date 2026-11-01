@@ -5,31 +5,31 @@ api_specs:
   label: Smartcar Charging API
   slug: smartcar-charging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/openapi/smartcar-charging-api-openapi.yml
+  url: https://artifacts.apis.io/smartcar/openapi/smartcar-charging-api-openapi.yml
 - filename: smartcar-connections-api-openapi.yml
   format: yaml
   label: Smartcar Connections API
   slug: smartcar-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/openapi/smartcar-connections-api-openapi.yml
+  url: https://artifacts.apis.io/smartcar/openapi/smartcar-connections-api-openapi.yml
 - filename: smartcar-navigation-api-openapi.yml
   format: yaml
   label: Smartcar Navigation API
   slug: smartcar-navigation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/openapi/smartcar-navigation-api-openapi.yml
+  url: https://artifacts.apis.io/smartcar/openapi/smartcar-navigation-api-openapi.yml
 - filename: smartcar-security-api-openapi.yml
   format: yaml
   label: Smartcar Security API
   slug: smartcar-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/openapi/smartcar-security-api-openapi.yml
+  url: https://artifacts.apis.io/smartcar/openapi/smartcar-security-api-openapi.yml
 - filename: smartcar-vehicle-data-api-openapi.yml
   format: yaml
   label: Smartcar Vehicle Data API
   slug: smartcar-vehicle-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/openapi/smartcar-vehicle-data-api-openapi.yml
+  url: https://artifacts.apis.io/smartcar/openapi/smartcar-vehicle-data-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -48,7 +48,7 @@ source_filename: smartcar-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.smartcar.com/\nurl: https://trust.smartcar.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://trust.smartcar.com/\n  keywords:\n  - soc 2\n  - iso 27001\n  - iso/iec 27001\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/security/smartcar-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/smartcar/security/smartcar-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Automotive

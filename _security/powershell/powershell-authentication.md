@@ -8,25 +8,25 @@ api_specs:
   label: PowerShell Metadata API
   slug: powershell-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershell/refs/heads/main/openapi/powershell-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/powershell/openapi/powershell-metadata-api-openapi.yml
 - filename: powershell-packages-api-openapi.yml
   format: yaml
   label: PowerShell Packages API
   slug: powershell-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershell/refs/heads/main/openapi/powershell-packages-api-openapi.yml
+  url: https://artifacts.apis.io/powershell/openapi/powershell-packages-api-openapi.yml
 - filename: powershell-search-api-openapi.yml
   format: yaml
   label: PowerShell Search API
   slug: powershell-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershell/refs/heads/main/openapi/powershell-search-api-openapi.yml
+  url: https://artifacts.apis.io/powershell/openapi/powershell-search-api-openapi.yml
 - filename: powershell-updates-api-openapi.yml
   format: yaml
   label: PowerShell Updates API
   slug: powershell-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershell/refs/heads/main/openapi/powershell-updates-api-openapi.yml
+  url: https://artifacts.apis.io/powershell/openapi/powershell-updates-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -56,7 +56,7 @@ source_filename: powershell-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/powershell-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: galleryApiKey\n  type: apiKey\n  in: header\n  parameter: X-NuGet-ApiKey\n  description: |-\n    PowerShell Gallery publishing API key, issued from a signed-in PowerShell\n    Gallery user account. Required for package push and unlist operations.\n  sources:\n  - openapi/powershell-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/powershell/refs/heads/main/authentication/powershell-authentication.yml
+source_yaml_url: https://artifacts.apis.io/powershell/authentication/powershell-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Automation

@@ -5,37 +5,37 @@ api_specs:
   label: Narrative Sports Health API
   slug: usenarrative-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/openapi/usenarrative-health-api-openapi.yml
+  url: https://artifacts.apis.io/usenarrative/openapi/usenarrative-health-api-openapi.yml
 - filename: usenarrative-highlight-packages-api-openapi.yml
   format: yaml
   label: Narrative Sports Highlight Packages API
   slug: usenarrative-highlight-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/openapi/usenarrative-highlight-packages-api-openapi.yml
+  url: https://artifacts.apis.io/usenarrative/openapi/usenarrative-highlight-packages-api-openapi.yml
 - filename: usenarrative-highlights-api-openapi.yml
   format: yaml
   label: Narrative Sports Highlights API
   slug: usenarrative-highlights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/openapi/usenarrative-highlights-api-openapi.yml
+  url: https://artifacts.apis.io/usenarrative/openapi/usenarrative-highlights-api-openapi.yml
 - filename: usenarrative-projects-api-openapi.yml
   format: yaml
   label: Narrative Sports Projects API
   slug: usenarrative-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/openapi/usenarrative-projects-api-openapi.yml
+  url: https://artifacts.apis.io/usenarrative/openapi/usenarrative-projects-api-openapi.yml
 - filename: usenarrative-recaps-api-openapi.yml
   format: yaml
   label: Narrative Sports Recaps API
   slug: usenarrative-recaps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/openapi/usenarrative-recaps-api-openapi.yml
+  url: https://artifacts.apis.io/usenarrative/openapi/usenarrative-recaps-api-openapi.yml
 - filename: usenarrative-tasks-api-openapi.yml
   format: yaml
   label: Narrative Sports Tasks API
   slug: usenarrative-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/openapi/usenarrative-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/usenarrative/openapi/usenarrative-tasks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -76,7 +76,7 @@ source_filename: usenarrative-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.narrative-sports.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 00:57:03 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.narrative-sports.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 00:57:03 2026 GMT\n  hsts: null\ndomains:\n- domain: narrative-sports.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/security/usenarrative-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/usenarrative/security/usenarrative-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Sports

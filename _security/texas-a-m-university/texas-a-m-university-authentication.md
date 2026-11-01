@@ -7,25 +7,25 @@ api_specs:
   label: Texas A&M University Dining API
   slug: texas-a-m-university-dining-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/texas-a-m-university/refs/heads/main/openapi/texas-a-m-university-dining-api-openapi.yml
+  url: https://artifacts.apis.io/texas-a-m-university/openapi/texas-a-m-university-dining-api-openapi.yml
 - filename: texas-a-m-university-federation-api-openapi.yml
   format: yaml
   label: Texas A&M University Federation API
   slug: texas-a-m-university-federation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/texas-a-m-university/refs/heads/main/openapi/texas-a-m-university-federation-api-openapi.yml
+  url: https://artifacts.apis.io/texas-a-m-university/openapi/texas-a-m-university-federation-api-openapi.yml
 - filename: texas-a-m-university-geocoding-api-openapi.yml
   format: yaml
   label: Texas A&M University Geocoding API
   slug: texas-a-m-university-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/texas-a-m-university/refs/heads/main/openapi/texas-a-m-university-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/texas-a-m-university/openapi/texas-a-m-university-geocoding-api-openapi.yml
 - filename: texas-a-m-university-micromobility-api-openapi.yml
   format: yaml
   label: Texas A&M University Micromobility API
   slug: texas-a-m-university-micromobility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/texas-a-m-university/refs/heads/main/openapi/texas-a-m-university-micromobility-api-openapi.yml
+  url: https://artifacts.apis.io/texas-a-m-university/openapi/texas-a-m-university-micromobility-api-openapi.yml
 auth_types: []
 description: 'How authentication works across the Texas A&M University surfaces this repository records. The estate splits three ways: a small set of open, unauthenticated campus and geospatial feeds; one key-gated but freely self-serve research API; and an enterprise tier at the Texas A&M University System that cannot be reached at all without a sponsored account.'
 kind: authentication
@@ -51,7 +51,7 @@ source_yaml: "# x-method: derived\n# Authored by API Evangelist from live probes
   \    status: 403\n    location: Cloudflare interstitial on the legacy DSpace 6 path\n  note: >-\n    The DSpace 7 path answers anonymously. The rest of the host — including the DSpace REST API at\n    /server/api and the Scholars@TAMU application — sits behind a Cloudflare bot challenge that\n    returns 403 to a browser User-Agent. That is a fact about our access, not about Texas A&M's\n    policy.\n- surface: Texas A&M University Identity Federation (Shibboleth IdP metadata)\n  base_url: https://idp.tamu.edu/idp/shibboleth\n  x-operator: institution\n  scheme: none\n  public: true\n  evidence:\n  - url: https://idp.tamu.edu/idp/shibboleth\n    status: 200\n    location: EntityDescriptor entityID urn:mace:tamu.edu:shibboleth:idp:tamu:administrative:cscn:idp.tamu.edu\n  - url: https://mdq.incommon.org/entities/urn%3Amace%3Aincommon%3Atamu.edu\n    status: 200\n    location: 'mdui:DisplayName \"Texas A&M University\"; SSO at idp.tamu.edu'\n  note: >-\n    Metadata is public by design; the\
   \ SSO endpoints it advertises are the authenticating surface for\n    everything else on campus.\n- surface: UIN Services API (Texas A&M University System)\n  base_url: not published\n  x-operator: institution\n  scheme: api_key\n  mechanism: x-api-key header\n  public: false\n  self_service: false\n  evidence:\n  - url: https://it.tamus.edu/uinmanager/api/\n    status: 200\n    location: >-\n      Access requires registering an application, subscribing to UIN Proxy Services v3 in the API\n      Catalog, and approval by the System Enterprise Applications (SEA) DevOps group\n  - url: https://api-doc.sea.system.tamus.edu/\n    status: 200\n    location: Axway-style GWT API Developer Portal shell; the catalog itself renders only after login\n  - url: https://api-doc.sea.system.tamus.edu/api/portal/v1.3/discovery/apis\n    status: 404\n    location: no unauthenticated discovery route responds on the portal\n  note: >-\n    The enterprise tier exists and is real, but no base URL, no specification\
   \ and no API inventory is\n    reachable without a sponsored System account. It is inventoried from Texas A&M's own\n    documentation and is never described here as callable.\n- surface: Canvas LMS\n  base_url: https://canvas.tamu.edu\n  x-operator: tenant\n  scheme: oauth2\n  public: false\n  evidence:\n    url: dns:canvas.tamu.edu\n    status: 200\n    location: CNAME to texasam-vanity.instructure.com\n  note: >-\n    Texas A&M's Canvas tenancy is real, but the REST API, its OAuth flows and its LTI conformance are\n    Instructure's contract, not Texas A&M's. Recorded as a relationship only.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/texas-a-m-university/refs/heads/main/authentication/texas-a-m-university-authentication.yml
+source_yaml_url: https://artifacts.apis.io/texas-a-m-university/authentication/texas-a-m-university-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

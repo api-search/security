@@ -7,55 +7,55 @@ api_specs:
   label: Conta Azul Categorias API
   slug: conta-azul-categorias-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/openapi/conta-azul-categorias-api-openapi.yml
+  url: https://artifacts.apis.io/conta-azul/openapi/conta-azul-categorias-api-openapi.yml
 - filename: conta-azul-centro-de-custo-api-openapi.yml
   format: yaml
   label: Conta Azul Centro De Custo API
   slug: conta-azul-centro-de-custo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/openapi/conta-azul-centro-de-custo-api-openapi.yml
+  url: https://artifacts.apis.io/conta-azul/openapi/conta-azul-centro-de-custo-api-openapi.yml
 - filename: conta-azul-conta-financeira-api-openapi.yml
   format: yaml
   label: Conta Azul Conta Financeira API
   slug: conta-azul-conta-financeira-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/openapi/conta-azul-conta-financeira-api-openapi.yml
+  url: https://artifacts.apis.io/conta-azul/openapi/conta-azul-conta-financeira-api-openapi.yml
 - filename: conta-azul-contratos-api-openapi.yml
   format: yaml
   label: Conta Azul Contratos API
   slug: conta-azul-contratos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/openapi/conta-azul-contratos-api-openapi.yml
+  url: https://artifacts.apis.io/conta-azul/openapi/conta-azul-contratos-api-openapi.yml
 - filename: conta-azul-financeiro-api-openapi.yml
   format: yaml
   label: Conta Azul Financeiro API
   slug: conta-azul-financeiro-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/openapi/conta-azul-financeiro-api-openapi.yml
+  url: https://artifacts.apis.io/conta-azul/openapi/conta-azul-financeiro-api-openapi.yml
 - filename: conta-azul-orcamentos-api-openapi.yml
   format: yaml
   label: Conta Azul Orcamentos API
   slug: conta-azul-orcamentos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/openapi/conta-azul-orcamentos-api-openapi.yml
+  url: https://artifacts.apis.io/conta-azul/openapi/conta-azul-orcamentos-api-openapi.yml
 - filename: conta-azul-produto-api-openapi.yml
   format: yaml
   label: Conta Azul Produto API
   slug: conta-azul-produto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/openapi/conta-azul-produto-api-openapi.yml
+  url: https://artifacts.apis.io/conta-azul/openapi/conta-azul-produto-api-openapi.yml
 - filename: conta-azul-protocolo-api-openapi.yml
   format: yaml
   label: Conta Azul Protocolo API
   slug: conta-azul-protocolo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/openapi/conta-azul-protocolo-api-openapi.yml
+  url: https://artifacts.apis.io/conta-azul/openapi/conta-azul-protocolo-api-openapi.yml
 - filename: conta-azul-venda-api-openapi.yml
   format: yaml
   label: Conta Azul Venda API
   slug: conta-azul-venda-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/openapi/conta-azul-venda-api-openapi.yml
+  url: https://artifacts.apis.io/conta-azul/openapi/conta-azul-venda-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -98,7 +98,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://developers.contaazul.com/auth\ndocs: https://developers.contaazul.com/auth\nsummary:\n  types: [oauth2]\n  oauth2_flows: [authorizationCode]\n  client_authentication: basic\n  bearer_format: JWT\nnotes: >-\n  Conta Azul API authenticates with OAuth 2.0 Authorization Code flow backed by\n  AWS Cognito. The client exchanges the authorization code for tokens at the\n  token endpoint using HTTP Basic auth (Base64 of client_id:client_secret).\n  API calls carry the access_token as a Bearer JWT in the Authorization header.\n  access_token TTL is 3600s (1h); refresh_token is valid up to 5 years or until\n  the next renewal (a new refresh_token is returned on every renewal).\nschemes:\n  - name: OAuth2\n    type: oauth2\n    flow: authorizationCode\n    authorizationUrl: https://auth.contaazul.com/login\n    tokenUrl: https://auth.contaazul.com/oauth2/token\n    client_authentication: basic\n    scopes:\n      - openid\n  \
   \    - profile\n      - aws.cognito.signin.user.admin\n    sources: [https://developers.contaazul.com/auth]\n  - name: BearerAuth\n    type: http\n    scheme: bearer\n    bearerFormat: JWT\n    description: Bearer JWT access_token sent on every API request\n    sources: [https://developers.contaazul.com/makingcalls, https://developers.contaazul.com/docs/financial-apis-openapi]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/authentication/dvpj-authentication.yml
+source_yaml_url: https://artifacts.apis.io/conta-azul/authentication/dvpj-authentication.yml
 summary_line: oauth2 · 2 schemes
 tags:
 - Company

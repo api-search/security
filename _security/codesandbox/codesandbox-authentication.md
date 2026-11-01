@@ -7,49 +7,49 @@ api_specs:
   label: CodeSandbox Meta API
   slug: codesandbox-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-meta-api-openapi.yml
+  url: https://artifacts.apis.io/codesandbox/openapi/codesandbox-meta-api-openapi.yml
 - filename: codesandbox-preview-host-api-openapi.yml
   format: yaml
   label: CodeSandbox Preview Host API
   slug: codesandbox-preview-host-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-preview-host-api-openapi.yml
+  url: https://artifacts.apis.io/codesandbox/openapi/codesandbox-preview-host-api-openapi.yml
 - filename: codesandbox-preview-token-api-openapi.yml
   format: yaml
   label: CodeSandbox Preview Token API
   slug: codesandbox-preview-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-preview-token-api-openapi.yml
+  url: https://artifacts.apis.io/codesandbox/openapi/codesandbox-preview-token-api-openapi.yml
 - filename: codesandbox-sandbox-api-openapi.yml
   format: yaml
   label: CodeSandbox Sandbox API
   slug: codesandbox-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/codesandbox/openapi/codesandbox-sandbox-api-openapi.yml
 - filename: codesandbox-templates-api-openapi.yml
   format: yaml
   label: CodeSandbox Templates API
   slug: codesandbox-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-templates-api-openapi.yml
+  url: https://artifacts.apis.io/codesandbox/openapi/codesandbox-templates-api-openapi.yml
 - filename: codesandbox-token-api-openapi.yml
   format: yaml
   label: CodeSandbox Token API
   slug: codesandbox-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-token-api-openapi.yml
+  url: https://artifacts.apis.io/codesandbox/openapi/codesandbox-token-api-openapi.yml
 - filename: codesandbox-vm-api-openapi.yml
   format: yaml
   label: CodeSandbox Vm API
   slug: codesandbox-vm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-vm-api-openapi.yml
+  url: https://artifacts.apis.io/codesandbox/openapi/codesandbox-vm-api-openapi.yml
 - filename: codesandbox-workspace-api-openapi.yml
   format: yaml
   label: CodeSandbox Workspace API
   slug: codesandbox-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/codesandbox/openapi/codesandbox-workspace-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -75,7 +75,7 @@ source_filename: codesandbox-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/codesandbox-sdk-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: authorization\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/codesandbox-sdk-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/authentication/codesandbox-authentication.yml
+source_yaml_url: https://artifacts.apis.io/codesandbox/authentication/codesandbox-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Developer Tools

@@ -8,7 +8,7 @@ api_specs:
   label: Highnote Graph QL API
   slug: highnote-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/openapi/highnote-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/highnote/openapi/highnote-graph-ql-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: highnote-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: openapi/highnote-graphql-api-openapi.yml\ndocs: https://docs.highnote.com/docs/developers/api/using-the-api\nsummary:\n  types:\n  - http\n  api_key_in: [header]\n  oauth2_flows: []\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: >-\n    HTTP Basic auth. Generate an API key in the Highnote Dashboard, base64-encode the ASCII key,\n    and send it as the HTTP Basic username with an empty password — equivalent to\n    `Authorization: Basic <base64(apiKey)>`. Keys are environment-scoped (Test vs Live) and\n    rotatable in the Dashboard. There is no OAuth/OIDC flow.\n  key_management:\n    rotation_docs: https://docs.highnote.com/docs/developers/api/rotating-keys\n    environments: [test, live]\n  sources:\n  - openapi/highnote-graphql-api-openapi.yml\nclient_side_auth:\n  detail: Browser/embedded SDK components authenticate with short-lived client tokens minted server-side.\n  docs: https://docs.highnote.com/docs/developers/sdks/client-tokens\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/authentication/highnote-authentication.yml
+source_yaml_url: https://artifacts.apis.io/highnote/authentication/highnote-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Card Issuing

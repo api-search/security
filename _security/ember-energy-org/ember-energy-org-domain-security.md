@@ -26,7 +26,7 @@ source_filename: ember-energy-org-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ember-energy.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 20 04:41:19 2026 GMT\n  hsts: false\ndomains:\n- domain: ember-energy.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ember-energy-org/refs/heads/main/security/ember-energy-org-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ember-energy-org/security/ember-energy-org-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Energy Think Tank

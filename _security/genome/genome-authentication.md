@@ -7,13 +7,13 @@ api_specs:
   label: Genome Host-to-Host API
   slug: genome-host-to-host-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/openapi/genome-host-to-host-api-openapi.yml
+  url: https://artifacts.apis.io/genome/openapi/genome-host-to-host-api-openapi.yml
 - filename: genome-payouts-api-openapi.yml
   format: yaml
   label: Genome Payouts API
   slug: genome-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/openapi/genome-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/genome/openapi/genome-payouts-api-openapi.yml
 auth_types: []
 description: Genome does not run one authentication model — it runs four, one per product surface, and none of them is declared in a machine-readable contract. The harvested OpenAPI carries no components.securitySchemes at all, so every scheme below was read out of the documentation prose and, where noted, confirmed against a live unauthenticated request.
 kind: authentication
@@ -166,7 +166,7 @@ source_yaml: "generated: '2026-09-12'\nmethod: searched\nsource: https://develop
   \ per-call identifier set by the initiating party.\n  - name: PSU-IP-Address\n    description: PSU's IP address, required when the request is actively initiated by the PSU.\n  - name: Consent-ID\n    description: The AIS consent the call is made under (account and transaction reads).\n  onboarding: Registered AISP/PISP only; request access at psd2@genome.eu\n  docs: https://developers.genome.eu/psd2-api/\n- id: hpp-jwt\n  type: http\n  scheme: bearer\n  format: JWT (JWS, HS256)\n  applies_to:\n  - Hosted Payment Page session initiation (https://pay.genome.eu)\n  - Financial Pixel Web SDK (iframe and popup)\n  signing_key_derivation: >-\n    HMAC key = raw SHA-256 digest of the Payment Page API secret. The raw secret is NOT the signing\n    key — tokens signed with it are always rejected. Genome hashes first to guarantee a 32-byte key\n    regardless of secret length.\n  claims:\n    required:\n    - iss (your API key)\n    - sub (order or user id)\n    - iat\n    - exp\n    - jti (fresh\
   \ unique id per token)\n    - VALUE_AMOUNT_ISO\n    - VALUE_AMOUNT_RAW\n    recommended:\n    - VALUE_ORDER_ID\n    - VALUE_USER_ID\n    - VALUE_SUCCESS_URL\n    - VALUE_FAILURE_URL\n  legacy: >-\n    A pre-JWT signature calculation is still documented under the heading \"Deprecated - Legacy\n    signature calculation\".\n  docs: https://developers.genome.eu/merchants/hosted-payment-page/\n- id: callback-hmac\n  type: signature\n  direction: inbound-to-merchant\n  applies_to:\n  - Incoming payment notification webhooks\n  header: X-Signature\n  algorithm: HmacSHA256\n  algorithm_header: X-Signature-Algorithm\n  version_header: X-Version\n  signed_content: the full callback HTTP request body\n  key: per-customer shared secret configured by Genome\n  docs: https://developers.genome.eu/webhooks/\n- id: callback-checksum\n  type: signature\n  direction: inbound-to-merchant\n  applies_to:\n  - Host-to-Host transaction callbacks\n  - SEPA Payout callbacks\n  field: checkSum\n  algorithm: SHA-256\
   \ over pipe-joined, key-sorted callback fields with the merchant private signature appended\n  key: private signature issued by the Genome integration team\n  docs: https://developers.genome.eu/sepa-payout-api/\n- id: hpp-api-key-header\n  type: apiKey\n  in: header\n  name: X-API-Key\n  applies_to:\n  - Hosted Payment Page callbacks (Genome -> merchant)\n  docs: https://developers.genome.eu/merchants/hosted-payment-page/\nsummary:\n  scheme_count: 7\n  declared_in_openapi: 0\n  oauth2_surfaces: 1\n  mutual_tls_or_qwac: 1\n  transport: TLS 1.2 on api.genome.eu, TLS 1.3 on genome.eu (see security/genome-domain-security.yml)\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/authentication/genome-authentication.yml
+source_yaml_url: https://artifacts.apis.io/genome/authentication/genome-authentication.yml
 summary_line: 7 schemes
 tags:
 - Finance

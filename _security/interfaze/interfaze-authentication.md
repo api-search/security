@@ -7,7 +7,7 @@ api_specs:
   label: Interfaze Chat Completions API
   slug: interfaze-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interfaze/refs/heads/main/openapi/interfaze-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/interfaze/openapi/interfaze-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -34,7 +34,7 @@ source_filename: interfaze-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/interfaze-openapi-original.json\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: API key obtained from the [dashboard](https://interfaze.ai/dashboard).\n  sources:\n  - openapi/interfaze-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/interfaze/refs/heads/main/authentication/interfaze-authentication.yml
+source_yaml_url: https://artifacts.apis.io/interfaze/authentication/interfaze-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

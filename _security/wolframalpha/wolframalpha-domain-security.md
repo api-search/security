@@ -5,13 +5,13 @@ api_specs:
   label: Wolfram|Alpha Classification API
   slug: wolframalpha-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wolframalpha/refs/heads/main/openapi/wolframalpha-classification-api-openapi.yml
+  url: https://artifacts.apis.io/wolframalpha/openapi/wolframalpha-classification-api-openapi.yml
 - filename: wolframalpha-queries-api-openapi.yml
   format: yaml
   label: Wolfram|Alpha Queries API
   slug: wolframalpha-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wolframalpha/refs/heads/main/openapi/wolframalpha-queries-api-openapi.yml
+  url: https://artifacts.apis.io/wolframalpha/openapi/wolframalpha-queries-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,7 +50,7 @@ source_filename: wolframalpha-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.wolframalpha.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  3 16:16:35 2026 GMT\n  hsts: null\n- host: products.wolframalpha.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  3 16:16:35 2026 GMT\n  hsts: null\n- host: api.wolframalpha.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  3 16:16:35 2026 GMT\n  hsts: null\ndomains:\n- domain: wolframalpha.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wolframalpha/refs/heads/main/security/wolframalpha-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wolframalpha/security/wolframalpha-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Artificial Intelligence

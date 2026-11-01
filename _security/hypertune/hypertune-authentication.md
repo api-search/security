@@ -8,7 +8,7 @@ api_specs:
   label: Hypertune Graph QL API
   slug: hypertune-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypertune/refs/heads/main/openapi/hypertune-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/hypertune/openapi/hypertune-graph-ql-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: hypertune-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/hypertune-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: projectToken\n  type: apiKey\n  in: query\n  parameter: token\n  description: URL-encoded Hypertune project token passed as a query parameter.\n  sources:\n  - openapi/hypertune-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hypertune/refs/heads/main/authentication/hypertune-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hypertune/authentication/hypertune-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Feature Flags

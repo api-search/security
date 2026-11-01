@@ -8,37 +8,37 @@ api_specs:
   label: Gengo Account API
   slug: gengo-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/openapi/gengo-account-api-openapi.yml
+  url: https://artifacts.apis.io/gengo/openapi/gengo-account-api-openapi.yml
 - filename: gengo-glossary-api-openapi.yml
   format: yaml
   label: Gengo Glossary API
   slug: gengo-glossary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/openapi/gengo-glossary-api-openapi.yml
+  url: https://artifacts.apis.io/gengo/openapi/gengo-glossary-api-openapi.yml
 - filename: gengo-job-api-openapi.yml
   format: yaml
   label: Gengo Job API
   slug: gengo-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/openapi/gengo-job-api-openapi.yml
+  url: https://artifacts.apis.io/gengo/openapi/gengo-job-api-openapi.yml
 - filename: gengo-jobs-api-openapi.yml
   format: yaml
   label: Gengo Jobs API
   slug: gengo-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/openapi/gengo-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/gengo/openapi/gengo-jobs-api-openapi.yml
 - filename: gengo-order-api-openapi.yml
   format: yaml
   label: Gengo Order API
   slug: gengo-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/openapi/gengo-order-api-openapi.yml
+  url: https://artifacts.apis.io/gengo/openapi/gengo-order-api-openapi.yml
 - filename: gengo-service-api-openapi.yml
   format: yaml
   label: Gengo Service API
   slug: gengo-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/openapi/gengo-service-api-openapi.yml
+  url: https://artifacts.apis.io/gengo/openapi/gengo-service-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -67,7 +67,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/gengo-openapi.yml\ndocs: https://developers.gengo.com/v2/authentication/\nmodel: >-\n  Custom API-key signature. Every restricted call is signed: take the current Unix\n  epoch as `ts`, compute the HMAC-SHA1 of `ts` keyed by the account private_key, and\n  send that as `api_sig` alongside the public `api_key`. The public/private key pair\n  functions as username/password and is generated on the account API settings page.\n  A few Service endpoints (language_pairs, languages, unit_count) require only api_key.\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\n  signature: hmac-sha1\n  signed_params: [api_key, api_sig, ts]\nschemes:\n- name: ApiKey\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: Public API key identifying the account. Every authenticated call must also include\n    `ts` (Unix epoch) and `api_sig` (HMAC-SHA1 of `ts` keyed by the account private key). Keys\n    are created on\
   \ the account API settings page.\n  sources:\n  - openapi/gengo-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/authentication/gengo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gengo/authentication/gengo-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

@@ -7,13 +7,13 @@ api_specs:
   label: Google Indexing URL Notifications API
   slug: google-indexing-urlnotifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-indexing/refs/heads/main/openapi/google-indexing-urlnotifications-api-openapi.yml
+  url: https://artifacts.apis.io/google-indexing/openapi/google-indexing-urlnotifications-api-openapi.yml
 - filename: google-indexing-urlnotifications-publish-api-openapi.yml
   format: yaml
   label: Google Indexing urlNotifications:publish API
   slug: google-indexing-urlnotifications-publish-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-indexing/refs/heads/main/openapi/google-indexing-urlnotifications-publish-api-openapi.yml
+  url: https://artifacts.apis.io/google-indexing/openapi/google-indexing-urlnotifications-publish-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://develop
   \        note: >-\n          Present in the spec and usable (the OAuth 2.0 Playground exercises it), but Google's docs\n          describe the service-account path.\n    transport:\n      header: Authorization\n      scheme: Bearer\n      value: Bearer <access_token>\n    challenge:\n      probed: '2026-08-13'\n      url: https://indexing.googleapis.com/v3/urlNotifications/metadata?url=https%3A%2F%2Fexample.com\n      http_status: 401\n      www_authenticate: Bearer realm=\"https://accounts.google.com/\"\n      body_status: UNAUTHENTICATED\n      body_reason: CREDENTIALS_MISSING\n    sources:\n      - openapi/google-indexing-urlnotifications-api-openapi.yml\n      - openapi/google-indexing-urlnotifications-publish-api-openapi.yml\n      - openapi/_original/google-indexing-discovery-v3.json\n      - https://developers.google.com/search/apis/indexing-api/v3/prereqs\nauthorization_server:\n  issuer: https://accounts.google.com\n  metadata:\n    oauth_authorization_server:\n      url: https://accounts.google.com/.well-known/oauth-authorization-server\n\
   \      status: 200\n      file: well-known/google-indexing-oauth-authorization-server.json\n    openid_configuration:\n      url: https://accounts.google.com/.well-known/openid-configuration\n      status: 200\n      file: well-known/google-indexing-openid-configuration.json\n  token_endpoint: https://oauth2.googleapis.com/token\n  revocation_endpoint: https://oauth2.googleapis.com/revoke\n  device_authorization_endpoint: https://oauth2.googleapis.com/device/code\n  jwks_uri: https://www.googleapis.com/oauth2/v3/certs\n  pkce: true\n  note: >-\n    Served by accounts.google.com. The API host indexing.googleapis.com 404s on both well-known paths.\nsecond_gate:\n  name: Search Console delegated site ownership\n  type: out-of-band authorization\n  required: true\n  enforced_at: request time, per URL\n  failure:\n    http_status: 403\n    message: Permission denied. Failed to verify the URL ownership.\n  steps:\n    - Verify the site in Google Search Console (domain or URL-prefix property).\n\
   \    - Add the service account email as a delegated owner on that property.\n  source: https://developers.google.com/search/apis/indexing-api/v3/prereqs\n  note: >-\n    A valid token with the correct scope is NOT sufficient. Authorization on this API is per-URL and is\n    resolved against Search Console property ownership, which is invisible to the OAuth layer.\nmtls:\n  endpoint: https://indexing.mtls.googleapis.com/\n  source: openapi/_original/google-indexing-discovery-v3.json\ncross_links:\n  scopes: scopes/google-indexing-scopes.yml\n  conventions: conventions/google-indexing-conventions.yml\n  errors: errors/google-indexing-error-codes.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-indexing/refs/heads/main/authentication/google-indexing-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-indexing/authentication/google-indexing-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Crawling

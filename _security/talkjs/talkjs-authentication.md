@@ -7,31 +7,31 @@ api_specs:
   label: TalkJS Conversations API
   slug: talkjs-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/openapi/talkjs-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/talkjs/openapi/talkjs-conversations-api-openapi.yml
 - filename: talkjs-import-api-openapi.yml
   format: yaml
   label: TalkJS Import API
   slug: talkjs-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/openapi/talkjs-import-api-openapi.yml
+  url: https://artifacts.apis.io/talkjs/openapi/talkjs-import-api-openapi.yml
 - filename: talkjs-messages-api-openapi.yml
   format: yaml
   label: TalkJS Messages API
   slug: talkjs-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/openapi/talkjs-messages-api-openapi.yml
+  url: https://artifacts.apis.io/talkjs/openapi/talkjs-messages-api-openapi.yml
 - filename: talkjs-participants-api-openapi.yml
   format: yaml
   label: TalkJS Participants API
   slug: talkjs-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/openapi/talkjs-participants-api-openapi.yml
+  url: https://artifacts.apis.io/talkjs/openapi/talkjs-participants-api-openapi.yml
 - filename: talkjs-users-api-openapi.yml
   format: yaml
   label: TalkJS Users API
   slug: talkjs-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/openapi/talkjs-users-api-openapi.yml
+  url: https://artifacts.apis.io/talkjs/openapi/talkjs-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: talkjs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/talkjs-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'A TalkJS secret key or a short-lived JWT with admin claims, sent as \"Authorization:\n    Bearer <token>\".'\n  sources:\n  - openapi/talkjs-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/authentication/talkjs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/talkjs/authentication/talkjs-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Chat

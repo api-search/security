@@ -27,7 +27,7 @@ source_filename: aztherapies-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: forgeglobal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 16:17:45 2026 GMT\n  hsts: null\ndomains:\n- domain: forgeglobal.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aztherapies/refs/heads/main/security/aztherapies-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aztherapies/security/aztherapies-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

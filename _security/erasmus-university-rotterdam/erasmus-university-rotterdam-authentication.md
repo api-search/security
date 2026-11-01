@@ -7,7 +7,7 @@ api_specs:
   label: Erasmus University Rotterdam Oai Pmh API
   slug: erasmus-university-rotterdam-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/erasmus-university-rotterdam/refs/heads/main/openapi/erasmus-university-rotterdam-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/erasmus-university-rotterdam/openapi/erasmus-university-rotterdam-oai-pmh-api-openapi.yml
 auth_types:
 - none
 - http_basic
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-08-30'\nmethod: probed\nsource:\n- https://repub.
   \ contract are exposed to an unauthenticated caller; the realm name is the only public\n    signal of what it is.\n- name: Elsevier Pure Web Service API key\n  type: apiKey\n  applies_to:\n  - https://pure.eur.nl/ws/api/\n  x-operator: tenant\n  evidence: >-\n    https://pure.eur.nl/ws/api redirects to /ws/api/documentation/index.html (canonical\n    https://api.elsevierpure.com/ws/api/documentation/index.html);\n    https://pure.eur.nl/ws/api/524/openapi.json returns 401 application/json. Pure Web Service\n    keys are issued per-integration by the institution's Pure administrators; there is no\n    self-serve signup.\n- name: Canvas OAuth 2.0 / LTI 1.3 OIDC\n  type: oauth2\n  applies_to:\n  - https://canvas.eur.nl/api/v1/\n  - https://canvas.eur.nl/login/oauth2/\n  x-operator: tenant\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://canvas.eur.nl/login/oauth2/auth\n    tokenUrl: https://canvas.eur.nl/login/oauth2/token\n    jwksUri: https://canvas.eur.nl/login/oauth2/jwks\n\
   \    scopes_supported:\n    - openid\n  evidence: >-\n    https://canvas.eur.nl/.well-known/openid-configuration returns 200 declaring issuer\n    https://canvas.eur.nl, the three endpoints above, RS256 id_token signing,\n    response_types_supported [code], grant_types_supported [authorization_code] and\n    token_endpoint_auth_methods_supported [client_secret_basic, client_secret_post].\n    https://canvas.eur.nl/api/v1/courses returns 401 {\"status\":\"unauthenticated\",...}.\n- name: SURFconext SAML 2.0 federated sign-in\n  type: saml2\n  applies_to:\n  - https://engine.surfconext.nl/authentication/idp/single-sign-on/\n  x-operator: tenant\n  evidence: >-\n    EUR's identity provider is registered in the SURFconext federation as entityID\n    https://sts.windows.net/715902d6-f63e-4b8d-929b-4bb170bad492/ (Microsoft Entra ID), with\n    persistent and transient NameIDFormat support and shibmd:Scope covering eur.nl,\n    student.eur.nl and eight faculty domains. This is how a human reaches\
   \ every gated EUR\n    surface; it is not a machine credential and grants no programmatic access.\nabsent:\n- what: Public API key issuance or self-serve developer signup\n  evidence: >-\n    No developer portal exists. developer.eur.nl and developers.eur.nl have no DNS record.\n    www.eur.nl/.well-known/api-catalog, /llms.txt and /openapi.json all return the site's\n    soft 404 (\"Pagina niet gevonden\", 146,268 bytes of HTML under an HTTP 404).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/erasmus-university-rotterdam/refs/heads/main/authentication/erasmus-university-rotterdam-authentication.yml
+source_yaml_url: https://artifacts.apis.io/erasmus-university-rotterdam/authentication/erasmus-university-rotterdam-authentication.yml
 summary_line: none/http_basic/oauth2/saml2 · 5 schemes
 tags:
 - University

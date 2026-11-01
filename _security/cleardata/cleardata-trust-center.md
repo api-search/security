@@ -22,7 +22,7 @@ source_filename: cleardata-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nprobe: true\nsource: https://www.cleardata.com/security/\nurl: https://www.cleardata.com/security/\ncertifications:\n- HIPAA\n- HITRUST\n- SOC 2\n- GDPR\n- NIST\n- ISO\n- PCI\n- ITIL\nevidence:\n- source: https://www.cleardata.com/security/\n  keywords:\n  - hipaa\n  - hitrust\n  - aicpa soc\n  - gdpr\n  - nist\n  - iso\n  - pci\n  - itil\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cleardata/refs/heads/main/security/cleardata-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/cleardata/security/cleardata-trust-center.yml
 summary_line: HIPAA, HITRUST, SOC 2, GDPR, NIST, ISO, PCI, ITIL
 tags:
 - Company

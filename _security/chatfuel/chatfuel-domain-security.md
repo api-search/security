@@ -40,7 +40,7 @@ source_filename: chatfuel-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: chatfuel.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 18:04:11 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: help.chatfuel.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 06:25:53 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: panel.chatfuel.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 23:20:06 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: chatfuel.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chatfuel/refs/heads/main/security/chatfuel-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/chatfuel/security/chatfuel-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

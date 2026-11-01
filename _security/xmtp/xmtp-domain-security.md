@@ -44,7 +44,7 @@ source_filename: xmtp-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.xmtp.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 01:30:43 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: grpc.xmtp.network\n  https: false\n- host: xmtp.network\n  https: false\ndomains:\n- domain: xmtp.org\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n- domain: xmtp.network\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xmtp/refs/heads/main/security/xmtp-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/xmtp/security/xmtp-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Web3

@@ -8,97 +8,97 @@ api_specs:
   label: Deliverart Addresses API
   slug: deliverart-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-addresses-api-openapi.yml
 - filename: deliverart-companies-api-openapi.yml
   format: yaml
   label: Deliverart Companies API
   slug: deliverart-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-companies-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-companies-api-openapi.yml
 - filename: deliverart-customer-addresses-api-openapi.yml
   format: yaml
   label: Deliverart Customer addresses API
   slug: deliverart-customer-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-customer-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-customer-addresses-api-openapi.yml
 - filename: deliverart-customer-business-profiles-api-openapi.yml
   format: yaml
   label: Deliverart Customer business profiles API
   slug: deliverart-customer-business-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-customer-business-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-customer-business-profiles-api-openapi.yml
 - filename: deliverart-customers-api-openapi.yml
   format: yaml
   label: Deliverart Customers API
   slug: deliverart-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-customers-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-customers-api-openapi.yml
 - filename: deliverart-deliveries-api-openapi.yml
   format: yaml
   label: Deliverart Deliveries API
   slug: deliverart-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-deliveries-api-openapi.yml
 - filename: deliverart-delivery-fee-api-openapi.yml
   format: yaml
   label: Deliverart Delivery fee API
   slug: deliverart-delivery-fee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-delivery-fee-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-delivery-fee-api-openapi.yml
 - filename: deliverart-me-api-openapi.yml
   format: yaml
   label: Deliverart Me API
   slug: deliverart-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-me-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-me-api-openapi.yml
 - filename: deliverart-menu-api-openapi.yml
   format: yaml
   label: Deliverart Menu API
   slug: deliverart-menu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-menu-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-menu-api-openapi.yml
 - filename: deliverart-orders-api-openapi.yml
   format: yaml
   label: Deliverart Orders API
   slug: deliverart-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-orders-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-orders-api-openapi.yml
 - filename: deliverart-password-reset-api-openapi.yml
   format: yaml
   label: Deliverart Password reset API
   slug: deliverart-password-reset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-password-reset-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-password-reset-api-openapi.yml
 - filename: deliverart-points-of-sale-api-openapi.yml
   format: yaml
   label: Deliverart Points of sale API
   slug: deliverart-points-of-sale-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-points-of-sale-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-points-of-sale-api-openapi.yml
 - filename: deliverart-registration-api-openapi.yml
   format: yaml
   label: Deliverart Registration API
   slug: deliverart-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-registration-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-registration-api-openapi.yml
 - filename: deliverart-reservation-api-openapi.yml
   format: yaml
   label: Deliverart Reservation API
   slug: deliverart-reservation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-reservation-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-reservation-api-openapi.yml
 - filename: deliverart-take-away-api-openapi.yml
   format: yaml
   label: Deliverart Take away API
   slug: deliverart-take-away-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-take-away-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-take-away-api-openapi.yml
 - filename: deliverart-work-shifts-api-openapi.yml
   format: yaml
   label: Deliverart Work Shifts API
   slug: deliverart-work-shifts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-work-shifts-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-work-shifts-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -137,7 +137,7 @@ source_filename: deliverart-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/deliverart-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - password\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-Deliverart-ApiKey\n  description: API key issued by the Deliverart team, sent in the X-Deliverart-ApiKey header.\n  sources:\n  - openapi/deliverart-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: password\n    tokenUrl: https://auth.deliverart.it/oauth\n    scopes: 44\n  description: OAuth2 password grant. Token endpoint is on the auth host.\n  sources:\n  - openapi/deliverart-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/authentication/deliverart-authentication.yml
+source_yaml_url: https://artifacts.apis.io/deliverart/authentication/deliverart-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company

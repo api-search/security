@@ -5,19 +5,19 @@ api_specs:
   label: Fraud.net Banking / Fintech API
   slug: fraud-net-banking-fintech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/openapi/fraud-net-banking-fintech-api-openapi.yml
+  url: https://artifacts.apis.io/fraud-net/openapi/fraud-net-banking-fintech-api-openapi.yml
 - filename: fraud-net-commerce-api-openapi.yml
   format: yaml
   label: Fraud.net Commerce API
   slug: fraud-net-commerce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/openapi/fraud-net-commerce-api-openapi.yml
+  url: https://artifacts.apis.io/fraud-net/openapi/fraud-net-commerce-api-openapi.yml
 - filename: fraud-net-identity-api-openapi.yml
   format: yaml
   label: Fraud.net Identity API
   slug: fraud-net-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/openapi/fraud-net-identity-api-openapi.yml
+  url: https://artifacts.apis.io/fraud-net/openapi/fraud-net-identity-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-10'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fraud.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 17 10:47:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api-docs.fraud.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 14:36:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api-sandbox.c008-m008-us.fraud.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: fraud.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\nx-correction:\n  field: domains[0].spf\n  corrected_to: true\n  reason: >-\n    The mechanical probe recorded spf:false because the local resolver returned an empty\n    TXT set (repeatable timeout). Verified over DNS-over-HTTPS on 2026-09-10: fraud.net\n    publishes \"v=spf1 include:_spf.google.com include:_spf.atlassian.net\n\
   \    include:infusionmail.com include:hubspotemail.net\n    include:2113031.spf02.hubspotemail.net ~all\".\n  checked: '2026-09-10'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/security/fraud-net-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fraud-net/security/fraud-net-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fraud Prevention

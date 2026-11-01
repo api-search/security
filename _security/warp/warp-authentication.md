@@ -7,19 +7,19 @@ api_specs:
   label: Warp Agent API
   slug: warp-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warp/refs/heads/main/openapi/warp-agent-api-openapi.yml
+  url: https://artifacts.apis.io/warp/openapi/warp-agent-api-openapi.yml
 - filename: warp-harness-support-api-openapi.yml
   format: yaml
   label: Warp Harness Support API
   slug: warp-harness-support-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warp/refs/heads/main/openapi/warp-harness-support-api-openapi.yml
+  url: https://artifacts.apis.io/warp/openapi/warp-harness-support-api-openapi.yml
 - filename: warp-schedules-api-openapi.yml
   format: yaml
   label: Warp Schedules API
   slug: warp-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warp/refs/heads/main/openapi/warp-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/warp/openapi/warp-schedules-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: warp-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/warp-oz-agent-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Authentication via a Warp API key.\n  sources:\n  - openapi/warp-oz-agent-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/warp/refs/heads/main/authentication/warp-authentication.yml
+source_yaml_url: https://artifacts.apis.io/warp/authentication/warp-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Developer Tools

@@ -5,49 +5,49 @@ api_specs:
   label: University of Ottawa Authn API
   slug: university-of-ottawa-authn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/university-of-ottawa-authn-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-ottawa/openapi/university-of-ottawa-authn-api-openapi.yml
 - filename: university-of-ottawa-core-api-openapi.yml
   format: yaml
   label: University of Ottawa Core API
   slug: university-of-ottawa-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/university-of-ottawa-core-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-ottawa/openapi/university-of-ottawa-core-api-openapi.yml
 - filename: university-of-ottawa-discover-api-openapi.yml
   format: yaml
   label: University of Ottawa Discover API
   slug: university-of-ottawa-discover-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/university-of-ottawa-discover-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-ottawa/openapi/university-of-ottawa-discover-api-openapi.yml
 - filename: university-of-ottawa-node-api-openapi.yml
   format: yaml
   label: University of Ottawa Node API
   slug: university-of-ottawa-node-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/university-of-ottawa-node-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-ottawa/openapi/university-of-ottawa-node-api-openapi.yml
 - filename: university-of-ottawa-request-api-openapi.yml
   format: yaml
   label: University of Ottawa Request API
   slug: university-of-ottawa-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/university-of-ottawa-request-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-ottawa/openapi/university-of-ottawa-request-api-openapi.yml
 - filename: university-of-ottawa-taxonomy-term-api-openapi.yml
   format: yaml
   label: University of Ottawa Taxonomy Term API
   slug: university-of-ottawa-taxonomy-term-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/university-of-ottawa-taxonomy-term-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-ottawa/openapi/university-of-ottawa-taxonomy-term-api-openapi.yml
 - filename: university-of-ottawa-uo-research-recherche-uo-research-dspace-rest-api-api-openapi.yml
   format: yaml
   label: University of Ottawa UO Research (Recherche UO Research) DSpace REST API
   slug: university-of-ottawa-uo-research-recherche-uo-research-dspace-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/university-of-ottawa-uo-research-recherche-uo-research-dspace-rest-api-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-ottawa/openapi/university-of-ottawa-uo-research-recherche-uo-research-dspace-rest-api-api-openapi.yml
 - filename: university-of-ottawa-uottawa-ca-content-json-api-api-openapi.yml
   format: yaml
   label: University of Ottawa Uottawa.ca Content JSON:API API
   slug: university-of-ottawa-uottawa-ca-content-json-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/university-of-ottawa-uottawa-ca-content-json-api-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-ottawa/openapi/university-of-ottawa-uottawa-ca-content-json-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -83,7 +83,7 @@ source_filename: university-of-ottawa-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.uottawa.ca\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 11 17:30:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: ruor.uottawa.ca\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  7 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: uottawa.ca\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/security/university-of-ottawa-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/university-of-ottawa/security/university-of-ottawa-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - University

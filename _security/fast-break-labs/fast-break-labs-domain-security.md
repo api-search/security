@@ -23,7 +23,7 @@ source_filename: fast-break-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fastbreaklabs.com\n  https: false\ndomains:\n- domain: fastbreaklabs.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fast-break-labs/refs/heads/main/security/fast-break-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fast-break-labs/security/fast-break-labs-domain-security.yml
 summary_line: DNSSEC
 tags:
 - Company

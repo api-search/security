@@ -7,13 +7,13 @@ api_specs:
   label: Indian Institute of Technology Kharagpur Continuing Education API
   slug: indian-institute-of-technology-kharagpur-continuing-education-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indian-institute-of-technology-kharagpur/refs/heads/main/openapi/indian-institute-of-technology-kharagpur-continuing-education-api-openapi.yml
+  url: https://artifacts.apis.io/indian-institute-of-technology-kharagpur/openapi/indian-institute-of-technology-kharagpur-continuing-education-api-openapi.yml
 - filename: indian-institute-of-technology-kharagpur-open-search-api-openapi.yml
   format: yaml
   label: Indian Institute of Technology Kharagpur Open Search API
   slug: indian-institute-of-technology-kharagpur-open-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indian-institute-of-technology-kharagpur/refs/heads/main/openapi/indian-institute-of-technology-kharagpur-open-search-api-openapi.yml
+  url: https://artifacts.apis.io/indian-institute-of-technology-kharagpur/openapi/indian-institute-of-technology-kharagpur-open-search-api-openapi.yml
 auth_types:
 - none
 - session
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-09-01'\nmethod: probed\nsource: >-\n  Live probes
   \    type: none\n    x-operator: institution\n    surface: IIT Kharagpur ERP Continuing Education Programme brochure endpoint\n    baseURL: https://erp.iitkgp.ac.in/InfoCellDetails/resources/external/cepdata\n    description: >-\n      No authentication. The ERP sets a JSESSIONID cookie on the response but does not require\n      one on the request; a first-contact GET with no cookie returns the PDF. This is the intent\n      of the `external` path segment — the namespace exists so that the public institute website\n      can link course brochures out of a system that is otherwise gated.\n  - name: erp-sso-session\n    type: session\n    x-operator: institution\n    surface: IIT Kharagpur ERP (everything outside /resources/external)\n    loginURL: https://erp.iitkgp.ac.in/SSOAdministration/login.htm\n    description: >-\n      Institute-built form/session SSO in front of the whole ERP. Requesting\n      /InfoCellDetails/resources/application.wadl 302s to\n      /SSOAdministration/login.htm?sessionToken=...&requestedUrl=...,\
   \ i.e. the JAX-RS application\n      does publish a WADL but it is only reachable to an authenticated session, so no machine\n      contract can be read from outside. /SSOAdministration/auth.htm returns 405 to a GET\n      (it expects POST). There is no OIDC discovery document, no token endpoint and no\n      client-registration path: this is a private session cookie system, not an authorization\n      server, and nothing on it is available to a third-party developer.\n  - name: hpc-app-session\n    type: session\n    x-operator: institution\n    surface: HPC ERP System (PARAM Shakti allocation and job accounting)\n    loginURL: https://hpc.iitkgp.ac.in/app\n    description: >-\n      Separate session login guarding the HPC facility's allocation/accounting application.\n      /robots.txt on the same host explicitly disallows /app/, /service/, /data/ and\n      /HPC-Admin-User-Manual. No API, no token endpoint and no documentation are exposed.\nnotes:\n  - >-\n    No Shibboleth or SAML\
   \ identity provider for iitkgp.ac.in exists in the eduGAIN metadata\n    database. India's national federation INFED (registration authority http://inflibnet.ac.in,\n    an eduGAIN member since 2017) publishes 379 entities and none of them carries an iitkgp.ac.in\n    entityID or a Kharagpur display name — checked against the full 10,616-entity eduGAIN export\n    on 2026-09-01. Peer IITs are present (e.g. https://identity.iith.ac.in/idp/shibboleth for\n    IIT Hyderabad), so the absence is a real gap rather than a national one.\n  - >-\n    No .well-known directory of any kind was found. https://www.iitkgp.ac.in/.well-known/security.txt\n    returns HTTP 200 but serves the site's Angular shell (47,510 bytes, byte-identical to the\n    homepage response) — a soft 404, not a security.txt. It is recorded as absent.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/indian-institute-of-technology-kharagpur/refs/heads/main/authentication/indian-institute-of-technology-kharagpur-authentication.yml
+source_yaml_url: https://artifacts.apis.io/indian-institute-of-technology-kharagpur/authentication/indian-institute-of-technology-kharagpur-authentication.yml
 summary_line: none/session · 4 schemes
 tags:
 - Education

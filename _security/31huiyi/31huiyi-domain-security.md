@@ -5,7 +5,7 @@ api_specs:
   label: 31 OpenAPI
   slug: 31huiyi-openapi
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/31huiyi/refs/heads/main/postman/31huiyi-openapi.postman_collection.json
+  url: https://artifacts.apis.io/31huiyi/postman/31huiyi-openapi.postman_collection.json
 description: ''
 domains:
 - caa: []
@@ -43,7 +43,7 @@ source_filename: 31huiyi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.31huiyi.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  3 01:53:21 2027 GMT\n  hsts: false\n- host: api-help.31huiyi.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  3 01:53:21 2027 GMT\n  hsts: false\n- host: 31api.31huiyi.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  3 01:53:21 2027 GMT\n  hsts: null\ndomains:\n- domain: 31huiyi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/31huiyi/refs/heads/main/security/31huiyi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/31huiyi/security/31huiyi-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Company

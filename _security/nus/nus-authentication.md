@@ -7,19 +7,19 @@ api_specs:
   label: National University of Singapore Authorization API
   slug: nus-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/openapi/nus-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/nus/openapi/nus-authorization-api-openapi.yml
 - filename: nus-discovery-api-openapi.yml
   format: yaml
   label: National University of Singapore Discovery API
   slug: nus-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/openapi/nus-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/nus/openapi/nus-discovery-api-openapi.yml
 - filename: nus-session-api-openapi.yml
   format: yaml
   label: National University of Singapore Session API
   slug: nus-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/openapi/nus-session-api-openapi.yml
+  url: https://artifacts.apis.io/nus/openapi/nus-session-api-openapi.yml
 auth_types: []
 description: Authentication posture across every National University of Singapore surface that could be reached from the open internet. NUS runs one institution-operated authorization server and fronts essentially everything gated with it; the small number of publicly readable surfaces are open metadata endpoints on rented platforms.
 kind: authentication
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-08-19'\nmethod: probed\nsource: >-\n  https://vaf
   \  onboarding: >-\n    Relying parties are registered by NUS Information Technology. There is no public dynamic\n    client registration endpoint and no self-service developer signup; a client_id exists only\n    once NUS IT creates one, which in practice requires institutional affiliation.\n- name: NUS federated identity (SAML 2.0 / WS-Federation / WS-Trust)\n  type: saml2\n  x-operator: institution\n  entityID: https://vafs.nus.edu.sg/adfs/services/trust\n  metadata: https://vafs.nus.edu.sg/FederationMetadata/2007-06/FederationMetadata.xml\n  sso_endpoint: https://vafs.nus.edu.sg/adfs/ls/\n  federation: Singapore Access Federation (SGAF), interfederating with eduGAIN\n  detail: See identity-federation/nus-identity-federation.yml\n- name: HTTP Basic authentication\n  type: http\n  scheme: basic\n  x-operator: institution\n  applies_to: https://nnextbus.nus.edu.sg/\n  evidence: 'HTTP/1.1 401 UNAUTHORIZED, WWW-Authenticate: Basic realm=\"Authentication Required\"'\n  detail: >-\n    The\
   \ NUS internal shuttle bus (NextBus) API is live and institution-operated but sits behind\n    HTTP Basic credentials that NUS does not issue publicly. Credentials are not obtainable\n    without affiliation; no probe here attempted to guess or defeat them.\n- name: Anonymous read\n  type: none\n  x-operator: tenant\n  applies_to:\n  - https://scholarbank.nus.edu.sg/server/api\n  - https://scholarbank.nus.edu.sg/oai/request\n  - https://blog.nus.edu.sg/wp-json/\n  detail: >-\n    Open scholarly and publishing metadata is readable without credentials. All three run on\n    rented platforms (Atmire Open Repository for ScholarBank, CampusPress for Blog.nus), so the\n    absence of authentication is the platform's design decision, not NUS's engineering.\n\nobservations:\n- >-\n  NUS advertises the `password` and `implicit` grant types, both of which OAuth 2.1 and the\n  IETF security BCP deprecate. This is an ADFS default rather than a deliberate NUS choice, but\n  it is what the institution's\
   \ live discovery document currently tells clients is available.\n- >-\n  PKCE is not advertised in the discovery document. ADFS supports it; the metadata does not\n  declare `code_challenge_methods_supported`, so a conformant client cannot discover it.\n- >-\n  Subject identifiers are pairwise, which means `sub` is per-relying-party. Any agent or\n  integrator expecting a stable cross-application NUS campus identifier will not get one from\n  this provider.\n- >-\n  There is no public developer registration path anywhere in the NUS estate. Every gated NUS\n  API — including the shuttle bus API — is reachable only through an internal request to NUS IT.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/authentication/nus-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nus/authentication/nus-authentication.yml
 summary_line: 4 schemes
 tags:
 - University

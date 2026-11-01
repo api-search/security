@@ -24,7 +24,7 @@ source_filename: big-heart-pet-brands-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bigheartpet.com\n  https: false\ndomains:\n- domain: bigheartpet.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/big-heart-pet-brands/refs/heads/main/security/big-heart-pet-brands-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/big-heart-pet-brands/security/big-heart-pet-brands-domain-security.yml
 summary_line: DMARC
 tags:
 - Pet Food

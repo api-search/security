@@ -24,7 +24,7 @@ source_filename: less-annoying-crm-authentication.yml
 source_heading: Authentication Profile
 source_url: https://updates.lessannoyingcrm.com/api-updates-now-support-webhooks-oauth-and-2-new-functions-287496
 source_yaml: "generated: '2026-09-22'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://updates.lessannoyingcrm.com/api-updates-now-support-webhooks-oauth-and-2-new-functions-287496\nsources:\n- https://updates.lessannoyingcrm.com/api-updates-now-support-webhooks-oauth-and-2-new-functions-287496\ndescription: OAuth support is mentioned but no technical details are provided.\nschemes:\n- type: oauth2\n  name: OAuth\n  evidence: We also now support OAuth for our integration partners* for a more secure login workflow.\n  how_to_obtain: If you're looking to build an integration with LACRM and would like to use OAuth, please reach out to us and we can set up credentials\n    for your software.\ndocs: https://updates.lessannoyingcrm.com/api-updates-now-support-webhooks-oauth-and-2-new-functions-287496\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/less-annoying-crm/refs/heads/main/authentication/less-annoying-crm-authentication.yml
+source_yaml_url: https://artifacts.apis.io/less-annoying-crm/authentication/less-annoying-crm-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company

@@ -8,49 +8,49 @@ api_specs:
   label: Interhyp Commands API
   slug: interhyp-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/openapi/interhyp-commands-api-openapi.yml
+  url: https://artifacts.apis.io/interhyp/openapi/interhyp-commands-api-openapi.yml
 - filename: interhyp-documents-api-openapi.yml
   format: yaml
   label: Interhyp Documents API
   slug: interhyp-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/openapi/interhyp-documents-api-openapi.yml
+  url: https://artifacts.apis.io/interhyp/openapi/interhyp-documents-api-openapi.yml
 - filename: interhyp-financing-application-api-openapi.yml
   format: yaml
   label: Interhyp Financing Application API
   slug: interhyp-financing-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/openapi/interhyp-financing-application-api-openapi.yml
+  url: https://artifacts.apis.io/interhyp/openapi/interhyp-financing-application-api-openapi.yml
 - filename: interhyp-info-api-openapi.yml
   format: yaml
   label: Interhyp Info API
   slug: interhyp-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/openapi/interhyp-info-api-openapi.yml
+  url: https://artifacts.apis.io/interhyp/openapi/interhyp-info-api-openapi.yml
 - filename: interhyp-logbook-api-openapi.yml
   format: yaml
   label: Interhyp Logbook API
   slug: interhyp-logbook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/openapi/interhyp-logbook-api-openapi.yml
+  url: https://artifacts.apis.io/interhyp/openapi/interhyp-logbook-api-openapi.yml
 - filename: interhyp-pre-submission-checks-api-openapi.yml
   format: yaml
   label: Interhyp Pre Submission Checks API
   slug: interhyp-pre-submission-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/openapi/interhyp-pre-submission-checks-api-openapi.yml
+  url: https://artifacts.apis.io/interhyp/openapi/interhyp-pre-submission-checks-api-openapi.yml
 - filename: interhyp-protocol-api-openapi.yml
   format: yaml
   label: Interhyp Protocol API
   slug: interhyp-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/openapi/interhyp-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/interhyp/openapi/interhyp-protocol-api-openapi.yml
 - filename: interhyp-submissions-api-openapi.yml
   format: yaml
   label: Interhyp Submissions API
   slug: interhyp-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/openapi/interhyp-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/interhyp/openapi/interhyp-submissions-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -88,7 +88,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/interhyp-submission-openapi.yml, openapi/interhyp-submission-documents-openapi.yml\ndocs: https://developer.ehyphome.de/first-steps\nsummary:\n  types:\n  - http\n  - apiKey\n  api_key_in:\n  - header\n  model: >-\n    Every request carries two credentials: an Api-Key header identifying the\n    partner application, and an OAuth 2.0 JWT bearer access token in the\n    Authorization header. Both the API key and the OAuth client credentials are\n    generated in the Interhyp Developer Studio. An active partnership agreement\n    with Prohyp is required to obtain credentials.\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: >-\n    OAuth 2.0 access token in JSON Web Token format. Retrieved from the\n    Authorization API using client credentials, then sent in the Authorization\n    header on each request until it expires or is revoked.\n  sources:\n  - openapi/interhyp-submission-openapi.yml\n\
   \  - openapi/interhyp-submission-documents-openapi.yml\n- name: StandardApiKey\n  type: apiKey\n  in: header\n  parameter: Api-Key\n  description: >-\n    Partner API key issued by Interhyp, passed in the Api-Key header on every\n    request to identify and authorize the client application.\n  sources:\n  - openapi/interhyp-submission-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/authentication/interhyp-authentication.yml
+source_yaml_url: https://artifacts.apis.io/interhyp/authentication/interhyp-authentication.yml
 summary_line: http/apiKey · 2 schemes
 tags:
 - Company

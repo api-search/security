@@ -7,25 +7,25 @@ api_specs:
   label: Edelweiss Hotel Polyana API AI & LLM Manifests API
   slug: edelweiss-hotel-polyana-api-ai-llm-manifests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edelweiss-hotel-polyana-api/refs/heads/main/openapi/edelweiss-hotel-polyana-api-ai-llm-manifests-api-openapi.yml
+  url: https://artifacts.apis.io/edelweiss-hotel-polyana-api/openapi/edelweiss-hotel-polyana-api-ai-llm-manifests-api-openapi.yml
 - filename: edelweiss-hotel-polyana-api-availability-pricing-api-openapi.yml
   format: yaml
   label: Edelweiss Hotel Polyana API Availability & Pricing API
   slug: edelweiss-hotel-polyana-api-availability-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edelweiss-hotel-polyana-api/refs/heads/main/openapi/edelweiss-hotel-polyana-api-availability-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/edelweiss-hotel-polyana-api/openapi/edelweiss-hotel-polyana-api-availability-pricing-api-openapi.yml
 - filename: edelweiss-hotel-polyana-api-hotel-information-api-openapi.yml
   format: yaml
   label: Edelweiss Hotel Polyana API Hotel Information API
   slug: edelweiss-hotel-polyana-api-hotel-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edelweiss-hotel-polyana-api/refs/heads/main/openapi/edelweiss-hotel-polyana-api-hotel-information-api-openapi.yml
+  url: https://artifacts.apis.io/edelweiss-hotel-polyana-api/openapi/edelweiss-hotel-polyana-api-hotel-information-api-openapi.yml
 - filename: edelweiss-hotel-polyana-api-search-api-openapi.yml
   format: yaml
   label: Edelweiss Hotel Polyana API Search API
   slug: edelweiss-hotel-polyana-api-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edelweiss-hotel-polyana-api/refs/heads/main/openapi/edelweiss-hotel-polyana-api-search-api-openapi.yml
+  url: https://artifacts.apis.io/edelweiss-hotel-polyana-api/openapi/edelweiss-hotel-polyana-api-search-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -49,7 +49,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-18'\nmethod: searched\nsource: >-\n  https://edelweiss-hotel.com.ua/openapi.json (no securitySchemes declared) and\n  https://edelweiss-hotel.com.ua/.well-known/ai-plugin.json (auth.type: none)\nsummary: >-\n  The Edelweiss Hotel Polyana API is fully open. The OpenAPI 3.1.0 contract\n  declares no securitySchemes and no security requirements on any operation, and\n  the legacy ai-plugin manifest advertises auth.type \"none\". Every endpoint is an\n  anonymous read-only GET; no API key, token, or OAuth flow is required or\n  supported.\noverall: none\nschemes:\n- type: none\n  name: anonymous\n  description: No credential of any kind. The OpenAPI 3.1.0 contract declares no securitySchemes and no security\n    requirements, and /.well-known/ai-plugin.json advertises auth.type \"none\".\nnotes: >-\n  Open public data API (license CC BY-ND 4.0). All five operations are\n  unauthenticated GETs returning JSON or XML. CORS is wide open\n  (Access-Control-Allow-Origin:\
   \ *), confirmed on /api/ai-info/.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edelweiss-hotel-polyana-api/refs/heads/main/authentication/edelweiss-hotel-polyana-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/edelweiss-hotel-polyana-api/authentication/edelweiss-hotel-polyana-api-authentication.yml
 summary_line: 1 scheme
 tags:
 - Hotels

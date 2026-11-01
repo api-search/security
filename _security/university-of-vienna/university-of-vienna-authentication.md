@@ -8,85 +8,85 @@ api_specs:
   label: PHAIDRA directory API (University of Vienna)
   slug: university-of-vienna-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/openapi/university-of-vienna-directory-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-vienna/openapi/university-of-vienna-directory-api-openapi.yml
 - filename: university-of-vienna-imageserver-api-openapi.yml
   format: yaml
   label: PHAIDRA imageserver API (University of Vienna)
   slug: university-of-vienna-imageserver-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/openapi/university-of-vienna-imageserver-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-vienna/openapi/university-of-vienna-imageserver-api-openapi.yml
 - filename: university-of-vienna-lists-api-openapi.yml
   format: yaml
   label: PHAIDRA lists API (University of Vienna)
   slug: university-of-vienna-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/openapi/university-of-vienna-lists-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-vienna/openapi/university-of-vienna-lists-api-openapi.yml
 - filename: university-of-vienna-misc-api-openapi.yml
   format: yaml
   label: PHAIDRA misc API (University of Vienna)
   slug: university-of-vienna-misc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/openapi/university-of-vienna-misc-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-vienna/openapi/university-of-vienna-misc-api-openapi.yml
 - filename: university-of-vienna-oai-pmh-api-openapi.yml
   format: yaml
   label: PHAIDRA oai-pmh API (University of Vienna)
   slug: university-of-vienna-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/openapi/university-of-vienna-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-vienna/openapi/university-of-vienna-oai-pmh-api-openapi.yml
 - filename: university-of-vienna-object-advanced-api-openapi.yml
   format: yaml
   label: PHAIDRA object-advanced API (University of Vienna)
   slug: university-of-vienna-object-advanced-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/openapi/university-of-vienna-object-advanced-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-vienna/openapi/university-of-vienna-object-advanced-api-openapi.yml
 - filename: university-of-vienna-object-basics-api-openapi.yml
   format: yaml
   label: PHAIDRA object-basics API (University of Vienna)
   slug: university-of-vienna-object-basics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/openapi/university-of-vienna-object-basics-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-vienna/openapi/university-of-vienna-object-basics-api-openapi.yml
 - filename: university-of-vienna-relationships-api-openapi.yml
   format: yaml
   label: PHAIDRA relationships API (University of Vienna)
   slug: university-of-vienna-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/openapi/university-of-vienna-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-vienna/openapi/university-of-vienna-relationships-api-openapi.yml
 - filename: university-of-vienna-search-api-openapi.yml
   format: yaml
   label: PHAIDRA search API (University of Vienna)
   slug: university-of-vienna-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/openapi/university-of-vienna-search-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-vienna/openapi/university-of-vienna-search-api-openapi.yml
 - filename: university-of-vienna-session-api-openapi.yml
   format: yaml
   label: PHAIDRA session API (University of Vienna)
   slug: university-of-vienna-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/openapi/university-of-vienna-session-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-vienna/openapi/university-of-vienna-session-api-openapi.yml
 - filename: university-of-vienna-stats-api-openapi.yml
   format: yaml
   label: PHAIDRA stats API (University of Vienna)
   slug: university-of-vienna-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/openapi/university-of-vienna-stats-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-vienna/openapi/university-of-vienna-stats-api-openapi.yml
 - filename: university-of-vienna-templates-api-openapi.yml
   format: yaml
   label: PHAIDRA templates API (University of Vienna)
   slug: university-of-vienna-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/openapi/university-of-vienna-templates-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-vienna/openapi/university-of-vienna-templates-api-openapi.yml
 - filename: university-of-vienna-vocabularies-api-openapi.yml
   format: yaml
   label: PHAIDRA vocabularies API (University of Vienna)
   slug: university-of-vienna-vocabularies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/openapi/university-of-vienna-vocabularies-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-vienna/openapi/university-of-vienna-vocabularies-api-openapi.yml
 - filename: university-of-vienna-data-stream-api-openapi.yml
   format: yaml
   label: University of Vienna Data Stream API
   slug: university-of-vienna-data-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/openapi/university-of-vienna-data-stream-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-vienna/openapi/university-of-vienna-data-stream-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -119,7 +119,7 @@ source_filename: university-of-vienna-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/university-of-vienna-phaidra-api.yaml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: tokenAuth\n  type: apiKey\n  in: header\n  parameter: X-XSRF-TOKEN\n  sources:\n  - openapi/university-of-vienna-phaidra-api.yaml\n- name: basicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/university-of-vienna-phaidra-api.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/authentication/university-of-vienna-authentication.yml
+source_yaml_url: https://artifacts.apis.io/university-of-vienna/authentication/university-of-vienna-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Education

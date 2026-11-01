@@ -26,7 +26,7 @@ source_filename: brandct-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: brandct.cn\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 26 15:03:36 2026 GMT\n  hsts: false\ndomains:\n- domain: brandct.cn\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brandct/refs/heads/main/security/brandct-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/brandct/security/brandct-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Company

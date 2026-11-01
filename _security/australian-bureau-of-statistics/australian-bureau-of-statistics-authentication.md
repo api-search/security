@@ -8,13 +8,13 @@ api_specs:
   label: Australian Bureau of Statistics Get Data API
   slug: australian-bureau-of-statistics-get-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-bureau-of-statistics/refs/heads/main/openapi/australian-bureau-of-statistics-get-data-api-openapi.yml
+  url: https://artifacts.apis.io/australian-bureau-of-statistics/openapi/australian-bureau-of-statistics-get-data-api-openapi.yml
 - filename: australian-bureau-of-statistics-get-metadata-api-openapi.yml
   format: yaml
   label: Australian Bureau of Statistics Get Metadata API
   slug: australian-bureau-of-statistics-get-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-bureau-of-statistics/refs/heads/main/openapi/australian-bureau-of-statistics-get-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/australian-bureau-of-statistics/openapi/australian-bureau-of-statistics-get-metadata-api-openapi.yml
 auth_types:
 - apiKey
 - none
@@ -54,7 +54,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-22'\nmethod: searched\nsource: https://www.abs.gov.au/statistics/application-programming-interfaces-apis/indicator-api\ndocs: https://www.abs.gov.au/statistics/application-programming-interfaces-apis/indicator-api\nsummary:\n  types:\n  - apiKey\n  - none\n  api_key_in:\n  - header\nschemes:\n- name: x-api-key\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  applies_to: ABS Indicator API (indicator.api.abs.gov.au)\n  sources:\n  - openapi/australian-bureau-of-statistics-indicator-api-openapi.yml\n  - https://www.abs.gov.au/statistics/application-programming-interfaces-apis/indicator-api\n  docs_quote: 'Once you have been issued an API Key, you must add it as a header in your API requests:  \"x-api-key: xxxxxxxxxxxxxxx\"'\n  issuance: 'Manual. Read the Indicator API Terms of Use, then download and complete the ''ABS Indicator API Key Request Form''; \"The ABS will deliver the API Key to You via your nominated email address as soon as practicably possible\
   \ following receipt your Request.\"'\n  key_request_form: https://www.abs.gov.au/system/files/documents/e229d9b19dd0be5a892fc9802c24fd74/ABS%20Indicator%20API%20Key%20Request%20Form.docx\n  terms: https://www.abs.gov.au/about/data-services/application-programming-interfaces-apis/indicator-api/terms-use\n- name: none\n  type: none\n  applies_to: ABS Data API (Beta) (data.api.abs.gov.au)\n  docs: https://www.abs.gov.au/statistics/application-programming-interfaces-apis/data-api-user-guide\n  docs_quote: The Data API is freely accessible without the need for an API key.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/australian-bureau-of-statistics/refs/heads/main/authentication/australian-bureau-of-statistics-authentication.yml
+source_yaml_url: https://artifacts.apis.io/australian-bureau-of-statistics/authentication/australian-bureau-of-statistics-authentication.yml
 summary_line: apiKey/none · 2 schemes
 tags:
 - Company

@@ -5,19 +5,31 @@ api_specs:
   label: Amazon Managed Grafana Tags API
   slug: amazon-managed-grafana-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/openapi/amazon-managed-grafana-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-managed-grafana/openapi/amazon-managed-grafana-tags-api-openapi.yml
 - filename: amazon-managed-grafana-versions-api-openapi.yml
   format: yaml
   label: Amazon Managed Grafana Versions API
   slug: amazon-managed-grafana-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/openapi/amazon-managed-grafana-versions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-managed-grafana/openapi/amazon-managed-grafana-versions-api-openapi.yml
 - filename: amazon-managed-grafana-workspaces-api-openapi.yml
   format: yaml
   label: Amazon Managed Grafana Workspaces API
   slug: amazon-managed-grafana-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/openapi/amazon-managed-grafana-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-managed-grafana/openapi/amazon-managed-grafana-workspaces-api-openapi.yml
+- filename: amazon-managed-grafana-serviceaccounts-api-openapi.yml
+  format: yaml
+  label: Amazon Managed Grafana Managed Grafana Serviceaccounts API
+  slug: amazon-managed-grafana-serviceaccounts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-managed-grafana/openapi/amazon-managed-grafana-serviceaccounts-api-openapi.yml
+- filename: amazon-managed-grafana-tokens-api-openapi.yml
+  format: yaml
+  label: Amazon Managed Grafana Managed Grafana Tokens API
+  slug: amazon-managed-grafana-tokens-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-managed-grafana/openapi/amazon-managed-grafana-tokens-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -55,7 +67,7 @@ source_filename: amazon-managed-grafana-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: grafana.amazonaws.com\n  https: false\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/security/amazon-managed-grafana-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amazon-managed-grafana/security/amazon-managed-grafana-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Dashboards

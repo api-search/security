@@ -8,31 +8,31 @@ api_specs:
   label: Clawvisor Auth API
   slug: clawvisor-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/openapi/clawvisor-auth-api-openapi.yml
+  url: https://artifacts.apis.io/clawvisor/openapi/clawvisor-auth-api-openapi.yml
 - filename: clawvisor-catalog-api-openapi.yml
   format: yaml
   label: Clawvisor Catalog API
   slug: clawvisor-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/openapi/clawvisor-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/clawvisor/openapi/clawvisor-catalog-api-openapi.yml
 - filename: clawvisor-gateway-api-openapi.yml
   format: yaml
   label: Clawvisor Gateway API
   slug: clawvisor-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/openapi/clawvisor-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/clawvisor/openapi/clawvisor-gateway-api-openapi.yml
 - filename: clawvisor-tasks-api-openapi.yml
   format: yaml
   label: Clawvisor Tasks API
   slug: clawvisor-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/openapi/clawvisor-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/clawvisor/openapi/clawvisor-tasks-api-openapi.yml
 - filename: clawvisor-tokens-api-openapi.yml
   format: yaml
   label: Clawvisor Tokens API
   slug: clawvisor-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/openapi/clawvisor-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/clawvisor/openapi/clawvisor-tokens-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -67,7 +67,7 @@ source_filename: clawvisor-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/clawvisor-gateway-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: agentToken\n  type: http\n  scheme: bearer\n  description: Agent token (or dashboard JWT for admin-gated endpoints), sent as Authorization\n    Bearer header.\n  sources:\n  - openapi/clawvisor-gateway-openapi.yml\n- name: agentTokenHeader\n  type: apiKey\n  in: header\n  parameter: X-Clawvisor-Agent-Token\n  description: Agent token for the skill catalog endpoint.\n  sources:\n  - openapi/clawvisor-gateway-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/authentication/clawvisor-authentication.yml
+source_yaml_url: https://artifacts.apis.io/clawvisor/authentication/clawvisor-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - AI Agents

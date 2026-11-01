@@ -5,13 +5,13 @@ api_specs:
   label: ParseHub Projects API
   slug: parsehub-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsehub/refs/heads/main/openapi/parsehub-projects-api-openapi.yml
+  url: https://artifacts.apis.io/parsehub/openapi/parsehub-projects-api-openapi.yml
 - filename: parsehub-runs-api-openapi.yml
   format: yaml
   label: ParseHub Runs API
   slug: parsehub-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsehub/refs/heads/main/openapi/parsehub-runs-api-openapi.yml
+  url: https://artifacts.apis.io/parsehub/openapi/parsehub-runs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +40,7 @@ source_filename: parsehub-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.parsehub.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15768000\ndomains:\n- domain: parsehub.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parsehub/refs/heads/main/security/parsehub-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/parsehub/security/parsehub-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Data Extraction

@@ -7,49 +7,49 @@ api_specs:
   label: Dokki Account API
   slug: dokki-one-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dokki-one/refs/heads/main/openapi/dokki-one-account-api-openapi.yml
+  url: https://artifacts.apis.io/dokki-one/openapi/dokki-one-account-api-openapi.yml
 - filename: dokki-one-agents-api-openapi.yml
   format: yaml
   label: Dokki Agents API
   slug: dokki-one-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dokki-one/refs/heads/main/openapi/dokki-one-agents-api-openapi.yml
+  url: https://artifacts.apis.io/dokki-one/openapi/dokki-one-agents-api-openapi.yml
 - filename: dokki-one-collaboration-api-openapi.yml
   format: yaml
   label: Dokki Collaboration API
   slug: dokki-one-collaboration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dokki-one/refs/heads/main/openapi/dokki-one-collaboration-api-openapi.yml
+  url: https://artifacts.apis.io/dokki-one/openapi/dokki-one-collaboration-api-openapi.yml
 - filename: dokki-one-core-api-openapi.yml
   format: yaml
   label: Dokki Core API
   slug: dokki-one-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dokki-one/refs/heads/main/openapi/dokki-one-core-api-openapi.yml
+  url: https://artifacts.apis.io/dokki-one/openapi/dokki-one-core-api-openapi.yml
 - filename: dokki-one-organizations-api-openapi.yml
   format: yaml
   label: Dokki Organizations API
   slug: dokki-one-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dokki-one/refs/heads/main/openapi/dokki-one-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/dokki-one/openapi/dokki-one-organizations-api-openapi.yml
 - filename: dokki-one-publishing-api-openapi.yml
   format: yaml
   label: Dokki Publishing API
   slug: dokki-one-publishing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dokki-one/refs/heads/main/openapi/dokki-one-publishing-api-openapi.yml
+  url: https://artifacts.apis.io/dokki-one/openapi/dokki-one-publishing-api-openapi.yml
 - filename: dokki-one-resources-api-openapi.yml
   format: yaml
   label: Dokki Resources API
   slug: dokki-one-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dokki-one/refs/heads/main/openapi/dokki-one-resources-api-openapi.yml
+  url: https://artifacts.apis.io/dokki-one/openapi/dokki-one-resources-api-openapi.yml
 - filename: dokki-one-search-api-openapi.yml
   format: yaml
   label: Dokki Search API
   slug: dokki-one-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dokki-one/refs/heads/main/openapi/dokki-one-search-api-openapi.yml
+  url: https://artifacts.apis.io/dokki-one/openapi/dokki-one-search-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -122,7 +122,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://dokki.o
   \ [https://dokki.one/.well-known/openid-configuration]\ncredentials:\n- id: api-key\n  header: 'Authorization: Bearer dk_...'\n  prefix: dk_\n  use: Server-to-server integrations and trusted non-interactive MCP clients\n  issued_by: Dokki account API key manager or POST /api/v1/api-keys (scope api_key:write)\n  tenant: Personal, or exactly one Org (an Org key cannot access a different Org; a Personal key cannot access Org workspaces)\n  scopes: Per-key scope list; new public keys default to read scopes (see scopes/dokki-one-scopes.yml)\n  shown_once: true\n  rotation: Create a replacement key, deploy it, verify GET /api/v1/me, then revoke the old key; record the key id, not the secret.\n- id: supabase-bearer-token\n  header: 'Authorization: Bearer <supabase_access_token>'\n  prefix: null\n  use: First-party clients acting as a signed-in user\n  issued_by: Supabase Auth (Dokki's identity provider)\n- id: browser-session\n  header: cookie session\n  use: The Dokki web app\n- id: oauth-access-token\n\
   \  header: 'Authorization: Bearer <access_token>'\n  use: Interactive MCP clients (Claude, Claude Desktop, Claude Code, Codex, Cursor, ChatGPT) after OAuth discovery + consent\n  issued_by: Dokki token endpoint https://dokki.one/api/oauth/token\n- id: workspace-connector-token\n  header: query parameters in the generated connector URL (workspace id, connector id, one-time token)\n  use: CI jobs, shared automations, dedicated agents locked to ONE workspace (Documents, Publish or Memory flavor)\n  issued_by: Workspace admins under Workspace -> Extensions -> Connectors; raw token shown once, Dokki keeps a hash and visible prefix\n  note: The client must preserve the exact connector URL and query parameters; a different workspace id or connector id is rejected.\nverify_principal:\n  endpoint: GET /api/v1/me\n  returns: [type (authentication mode), user_id, org_id (null for Personal), key_id (API keys), scopes (effective)]\nfailures:\n  '401 unauthorized': missing, invalid, expired or revoked\
   \ credentials\n  '403 insufficient_scope': credential valid but lacks the endpoint scope\n  '403 forbidden': scope valid but tenant or object permission denies access\n  '404': may be returned instead of 403 where revealing existence would leak information\nmcp_challenge:\n  http_status: 401\n  www_authenticate: Bearer resource_metadata=\"https://dokki.one/.well-known/oauth-protected-resource?resource=https%3A%2F%2Fdokki.one%2Fapi%2Fmcp\"\n  body: '{\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32001,\"message\":\"Unauthorized\"},\"id\":null}'\nagent_guidance: '\"Do not ask users to paste secrets into a chat. Ask them to create or authorize a key in Dokki, then store it in the host application''s secret manager.\"'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dokki-one/refs/heads/main/authentication/dokki-one-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dokki-one/authentication/dokki-one-authentication.yml
 summary_line: http/oauth2/openIdConnect · 3 schemes
 tags:
 - Collaboration

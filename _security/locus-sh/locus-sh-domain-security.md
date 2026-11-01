@@ -5,97 +5,97 @@ api_specs:
   label: Locus HomebaseMaster API
   slug: locus-sh-homebasemaster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-homebasemaster-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-homebasemaster-api-openapi.yml
 - filename: locus-sh-order-api-openapi.yml
   format: yaml
   label: Locus Order API
   slug: locus-sh-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-order-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-order-api-openapi.yml
 - filename: locus-sh-orderserviceability-api-openapi.yml
   format: yaml
   label: Locus OrderServiceability API
   slug: locus-sh-orderserviceability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-orderserviceability-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-orderserviceability-api-openapi.yml
 - filename: locus-sh-personnelmaster-api-openapi.yml
   format: yaml
   label: Locus PersonnelMaster API
   slug: locus-sh-personnelmaster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-personnelmaster-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-personnelmaster-api-openapi.yml
 - filename: locus-sh-rider-api-openapi.yml
   format: yaml
   label: Locus Rider API
   slug: locus-sh-rider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-rider-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-rider-api-openapi.yml
 - filename: locus-sh-riderpersona-api-openapi.yml
   format: yaml
   label: Locus RiderPersona API
   slug: locus-sh-riderpersona-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-riderpersona-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-riderpersona-api-openapi.yml
 - filename: locus-sh-roster-api-openapi.yml
   format: yaml
   label: Locus Roster API
   slug: locus-sh-roster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-roster-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-roster-api-openapi.yml
 - filename: locus-sh-servicetype-api-openapi.yml
   format: yaml
   label: Locus ServiceType API
   slug: locus-sh-servicetype-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-servicetype-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-servicetype-api-openapi.yml
 - filename: locus-sh-servicetypeconfiguration-api-openapi.yml
   format: yaml
   label: Locus ServiceTypeConfiguration API
   slug: locus-sh-servicetypeconfiguration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-servicetypeconfiguration-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-servicetypeconfiguration-api-openapi.yml
 - filename: locus-sh-shifttag-api-openapi.yml
   format: yaml
   label: Locus ShiftTag API
   slug: locus-sh-shifttag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-shifttag-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-shifttag-api-openapi.yml
 - filename: locus-sh-teammaster-api-openapi.yml
   format: yaml
   label: Locus TeamMaster API
   slug: locus-sh-teammaster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-teammaster-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-teammaster-api-openapi.yml
 - filename: locus-sh-transporter-api-openapi.yml
   format: yaml
   label: Locus Transporter API
   slug: locus-sh-transporter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-transporter-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-transporter-api-openapi.yml
 - filename: locus-sh-vehicle-api-openapi.yml
   format: yaml
   label: Locus Vehicle API
   slug: locus-sh-vehicle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-vehicle-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-vehicle-api-openapi.yml
 - filename: locus-sh-vehiclemodel-api-openapi.yml
   format: yaml
   label: Locus VehicleModel API
   slug: locus-sh-vehiclemodel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-vehiclemodel-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-vehiclemodel-api-openapi.yml
 - filename: locus-sh-location-master-api-openapi.yml
   format: yaml
   label: Locus Location Master API
   slug: locus-sh-location-master-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-location-master-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-location-master-api-openapi.yml
 - filename: locus-sh-sku-master-api-openapi.yml
   format: yaml
   label: Locus SKU Master API
   slug: locus-sh-sku-master-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-sku-master-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-sku-master-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -140,7 +140,7 @@ source_filename: locus-sh-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: locus.sh\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 11 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: docs.locus.sh\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 23:59:59 2026 GMT\n  hsts: false\n- host: oms.locus-api.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 28 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: locus.sh\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: locus-api.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/security/locus-sh-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/locus-sh/security/locus-sh-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Logistics

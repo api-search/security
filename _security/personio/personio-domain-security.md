@@ -5,31 +5,31 @@ api_specs:
   label: Personio Absence Periods API
   slug: personio-absence-periods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/personio/refs/heads/main/openapi/personio-absence-periods-api-openapi.yml
+  url: https://artifacts.apis.io/personio/openapi/personio-absence-periods-api-openapi.yml
 - filename: personio-auth-api-openapi.yml
   format: yaml
   label: Personio Auth API
   slug: personio-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/personio/refs/heads/main/openapi/personio-auth-api-openapi.yml
+  url: https://artifacts.apis.io/personio/openapi/personio-auth-api-openapi.yml
 - filename: personio-persons-api-openapi.yml
   format: yaml
   label: Personio Persons API
   slug: personio-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/personio/refs/heads/main/openapi/personio-persons-api-openapi.yml
+  url: https://artifacts.apis.io/personio/openapi/personio-persons-api-openapi.yml
 - filename: personio-projects-api-openapi.yml
   format: yaml
   label: Personio Projects API
   slug: personio-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/personio/refs/heads/main/openapi/personio-projects-api-openapi.yml
+  url: https://artifacts.apis.io/personio/openapi/personio-projects-api-openapi.yml
 - filename: personio-webhooks-api-openapi.yml
   format: yaml
   label: Personio Webhooks API
   slug: personio-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/personio/refs/heads/main/openapi/personio-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/personio/openapi/personio-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: personio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.personio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 19:45:15 2026 GMT\n  hsts: null\n- host: developer.personio.de\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 18 22:54:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.personio.de\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  7 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31540000\ndomains:\n- domain: personio.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: personio.de\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/personio/refs/heads/main/security/personio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/personio/security/personio-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Human Resources

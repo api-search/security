@@ -27,7 +27,7 @@ source_filename: vaynermedia-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: derived\nsource: openapi/vaynermedia-wordpress-content-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: applicationPassword\n  type: http\n  scheme: basic\n  description: WordPress Application Passwords. Advertised by the site's own route index (authentication.application-passwords.endpoints.authorization\n    = https://vaynermedia.com/wp-admin/authorize-application.php). Required only for write operations\n    and privileged reads; every operation in this document is callable anonymously.\n  sources:\n  - openapi/vaynermedia-wordpress-content-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vaynermedia/refs/heads/main/authentication/vaynermedia-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vaynermedia/authentication/vaynermedia-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Advertising

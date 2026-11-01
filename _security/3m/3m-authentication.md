@@ -7,25 +7,25 @@ api_specs:
   label: 3M Deliveries API
   slug: 3m-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3m/refs/heads/main/openapi/3m-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/3m/openapi/3m-deliveries-api-openapi.yml
 - filename: 3m-invoices-api-openapi.yml
   format: yaml
   label: 3M Invoices API
   slug: 3m-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3m/refs/heads/main/openapi/3m-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/3m/openapi/3m-invoices-api-openapi.yml
 - filename: 3m-orders-api-openapi.yml
   format: yaml
   label: 3M Orders API
   slug: 3m-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3m/refs/heads/main/openapi/3m-orders-api-openapi.yml
+  url: https://artifacts.apis.io/3m/openapi/3m-orders-api-openapi.yml
 - filename: 3m-products-api-openapi.yml
   format: yaml
   label: 3M Products API
   slug: 3m-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3m/refs/heads/main/openapi/3m-products-api-openapi.yml
+  url: https://artifacts.apis.io/3m/openapi/3m-products-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -53,7 +53,7 @@ source_filename: 3m-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/3m-partner-supplier-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: OAuth 2.0 bearer token obtained through client credentials flow. Provided during\n    onboarding.\n  sources:\n  - openapi/3m-partner-supplier-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/3m/refs/heads/main/authentication/3m-authentication.yml
+source_yaml_url: https://artifacts.apis.io/3m/authentication/3m-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Industrial

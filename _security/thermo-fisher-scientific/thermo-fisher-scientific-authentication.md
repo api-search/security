@@ -7,55 +7,55 @@ api_specs:
   label: Thermo Fisher Scientific Authentication API
   slug: thermo-fisher-scientific-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/openapi/thermo-fisher-scientific-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/thermo-fisher-scientific/openapi/thermo-fisher-scientific-authentication-api-openapi.yml
 - filename: thermo-fisher-scientific-entities-api-openapi.yml
   format: yaml
   label: Thermo Fisher Scientific Entities API
   slug: thermo-fisher-scientific-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/openapi/thermo-fisher-scientific-entities-api-openapi.yml
+  url: https://artifacts.apis.io/thermo-fisher-scientific/openapi/thermo-fisher-scientific-entities-api-openapi.yml
 - filename: thermo-fisher-scientific-export-api-openapi.yml
   format: yaml
   label: Thermo Fisher Scientific Export API
   slug: thermo-fisher-scientific-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/openapi/thermo-fisher-scientific-export-api-openapi.yml
+  url: https://artifacts.apis.io/thermo-fisher-scientific/openapi/thermo-fisher-scientific-export-api-openapi.yml
 - filename: thermo-fisher-scientific-instrument-api-openapi.yml
   format: yaml
   label: Thermo Fisher Scientific Instrument API
   slug: thermo-fisher-scientific-instrument-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/openapi/thermo-fisher-scientific-instrument-api-openapi.yml
+  url: https://artifacts.apis.io/thermo-fisher-scientific/openapi/thermo-fisher-scientific-instrument-api-openapi.yml
 - filename: thermo-fisher-scientific-measurements-api-openapi.yml
   format: yaml
   label: Thermo Fisher Scientific Measurements API
   slug: thermo-fisher-scientific-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/openapi/thermo-fisher-scientific-measurements-api-openapi.yml
+  url: https://artifacts.apis.io/thermo-fisher-scientific/openapi/thermo-fisher-scientific-measurements-api-openapi.yml
 - filename: thermo-fisher-scientific-methods-api-openapi.yml
   format: yaml
   label: Thermo Fisher Scientific Methods API
   slug: thermo-fisher-scientific-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/openapi/thermo-fisher-scientific-methods-api-openapi.yml
+  url: https://artifacts.apis.io/thermo-fisher-scientific/openapi/thermo-fisher-scientific-methods-api-openapi.yml
 - filename: thermo-fisher-scientific-results-api-openapi.yml
   format: yaml
   label: Thermo Fisher Scientific Results API
   slug: thermo-fisher-scientific-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/openapi/thermo-fisher-scientific-results-api-openapi.yml
+  url: https://artifacts.apis.io/thermo-fisher-scientific/openapi/thermo-fisher-scientific-results-api-openapi.yml
 - filename: thermo-fisher-scientific-samples-api-openapi.yml
   format: yaml
   label: Thermo Fisher Scientific Samples API
   slug: thermo-fisher-scientific-samples-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/openapi/thermo-fisher-scientific-samples-api-openapi.yml
+  url: https://artifacts.apis.io/thermo-fisher-scientific/openapi/thermo-fisher-scientific-samples-api-openapi.yml
 - filename: thermo-fisher-scientific-workflows-api-openapi.yml
   format: yaml
   label: Thermo Fisher Scientific Workflows API
   slug: thermo-fisher-scientific-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/openapi/thermo-fisher-scientific-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/thermo-fisher-scientific/openapi/thermo-fisher-scientific-workflows-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -82,7 +82,7 @@ source_filename: thermo-fisher-scientific-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/thermo-fisher-samplemanager-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Session token obtained from the /mobile/login endpoint. Pass as \"Bearer {token}\"\n    in the Authorization header.\n  sources:\n  - openapi/thermo-fisher-samplemanager-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/authentication/thermo-fisher-scientific-authentication.yml
+source_yaml_url: https://artifacts.apis.io/thermo-fisher-scientific/authentication/thermo-fisher-scientific-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Life Sciences

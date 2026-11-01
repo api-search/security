@@ -5,31 +5,31 @@ api_specs:
   label: LinearB Deployments API
   slug: linearb-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/linearb/openapi/linearb-deployments-api-openapi.yml
 - filename: linearb-incidents-api-openapi.yml
   format: yaml
   label: LinearB Incidents API
   slug: linearb-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/linearb/openapi/linearb-incidents-api-openapi.yml
 - filename: linearb-measurements-api-openapi.yml
   format: yaml
   label: LinearB Measurements API
   slug: linearb-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-measurements-api-openapi.yml
+  url: https://artifacts.apis.io/linearb/openapi/linearb-measurements-api-openapi.yml
 - filename: linearb-services-api-openapi.yml
   format: yaml
   label: LinearB Services API
   slug: linearb-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-services-api-openapi.yml
+  url: https://artifacts.apis.io/linearb/openapi/linearb-services-api-openapi.yml
 - filename: linearb-teams-api-openapi.yml
   format: yaml
   label: LinearB Teams API
   slug: linearb-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-teams-api-openapi.yml
+  url: https://artifacts.apis.io/linearb/openapi/linearb-teams-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: linearb-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: linearb.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 09:31:34 2026 GMT\n  hsts: null\n- host: docs.linearb.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 20:03:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n- host: public-api.linearb.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: linearb.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/security/linearb-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/linearb/security/linearb-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Engineering Analytics

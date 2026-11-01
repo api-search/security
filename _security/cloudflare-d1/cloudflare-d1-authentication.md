@@ -8,7 +8,7 @@ api_specs:
   label: Cloudflare D1 D1 API
   slug: cloudflare-d1-d1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-d1/refs/heads/main/openapi/cloudflare-d1-d1-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-d1/openapi/cloudflare-d1-d1-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -53,7 +53,7 @@ source_filename: cloudflare-d1-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cloudflare-d1-cloudflare-d1-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: api_email\n  type: apiKey\n  in: header\n  parameter: X-Auth-Email\n  sources:\n  - openapi/cloudflare-d1-cloudflare-d1-api-openapi.yml\n- name: api_key\n  type: apiKey\n  in: header\n  parameter: X-Auth-Key\n  sources:\n  - openapi/cloudflare-d1-cloudflare-d1-api-openapi.yml\n- name: api_token\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/cloudflare-d1-cloudflare-d1-api-openapi.yml\n- name: user_service_key\n  type: apiKey\n  in: header\n  parameter: X-Auth-User-Service-Key\n  sources:\n  - openapi/cloudflare-d1-cloudflare-d1-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudflare-d1/refs/heads/main/authentication/cloudflare-d1-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cloudflare-d1/authentication/cloudflare-d1-authentication.yml
 summary_line: apiKey/http · 4 schemes
 tags:
 - Database

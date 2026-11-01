@@ -5,55 +5,55 @@ api_specs:
   label: Spinnaker Applications API
   slug: spinnaker-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/openapi/spinnaker-applications-api-openapi.yml
+  url: https://artifacts.apis.io/spinnaker/openapi/spinnaker-applications-api-openapi.yml
 - filename: spinnaker-build-services-api-openapi.yml
   format: yaml
   label: Spinnaker Build Services API
   slug: spinnaker-build-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/openapi/spinnaker-build-services-api-openapi.yml
+  url: https://artifacts.apis.io/spinnaker/openapi/spinnaker-build-services-api-openapi.yml
 - filename: spinnaker-clusters-api-openapi.yml
   format: yaml
   label: Spinnaker Clusters API
   slug: spinnaker-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/openapi/spinnaker-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/spinnaker/openapi/spinnaker-clusters-api-openapi.yml
 - filename: spinnaker-images-api-openapi.yml
   format: yaml
   label: Spinnaker Images API
   slug: spinnaker-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/openapi/spinnaker-images-api-openapi.yml
+  url: https://artifacts.apis.io/spinnaker/openapi/spinnaker-images-api-openapi.yml
 - filename: spinnaker-load-balancers-api-openapi.yml
   format: yaml
   label: Spinnaker Load Balancers API
   slug: spinnaker-load-balancers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/openapi/spinnaker-load-balancers-api-openapi.yml
+  url: https://artifacts.apis.io/spinnaker/openapi/spinnaker-load-balancers-api-openapi.yml
 - filename: spinnaker-pipelines-api-openapi.yml
   format: yaml
   label: Spinnaker Pipelines API
   slug: spinnaker-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/openapi/spinnaker-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/spinnaker/openapi/spinnaker-pipelines-api-openapi.yml
 - filename: spinnaker-projects-api-openapi.yml
   format: yaml
   label: Spinnaker Projects API
   slug: spinnaker-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/openapi/spinnaker-projects-api-openapi.yml
+  url: https://artifacts.apis.io/spinnaker/openapi/spinnaker-projects-api-openapi.yml
 - filename: spinnaker-search-api-openapi.yml
   format: yaml
   label: Spinnaker Search API
   slug: spinnaker-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/openapi/spinnaker-search-api-openapi.yml
+  url: https://artifacts.apis.io/spinnaker/openapi/spinnaker-search-api-openapi.yml
 - filename: spinnaker-tasks-api-openapi.yml
   format: yaml
   label: Spinnaker Tasks API
   slug: spinnaker-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/openapi/spinnaker-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/spinnaker/openapi/spinnaker-tasks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: spinnaker-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: spinnaker.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 03:13:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: spinnaker.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/security/spinnaker-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/spinnaker/security/spinnaker-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Continuous Delivery

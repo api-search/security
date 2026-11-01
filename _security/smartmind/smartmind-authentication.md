@@ -8,49 +8,49 @@ api_specs:
   label: SmartMind File API
   slug: smartmind-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-file-api-openapi.yml
+  url: https://artifacts.apis.io/smartmind/openapi/smartmind-file-api-openapi.yml
 - filename: smartmind-health-api-openapi.yml
   format: yaml
   label: SmartMind Health API
   slug: smartmind-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-health-api-openapi.yml
+  url: https://artifacts.apis.io/smartmind/openapi/smartmind-health-api-openapi.yml
 - filename: smartmind-metric-api-openapi.yml
   format: yaml
   label: SmartMind Metric API
   slug: smartmind-metric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-metric-api-openapi.yml
+  url: https://artifacts.apis.io/smartmind/openapi/smartmind-metric-api-openapi.yml
 - filename: smartmind-query-api-openapi.yml
   format: yaml
   label: SmartMind Query API
   slug: smartmind-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-query-api-openapi.yml
+  url: https://artifacts.apis.io/smartmind/openapi/smartmind-query-api-openapi.yml
 - filename: smartmind-schema-api-openapi.yml
   format: yaml
   label: SmartMind Schema API
   slug: smartmind-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-schema-api-openapi.yml
+  url: https://artifacts.apis.io/smartmind/openapi/smartmind-schema-api-openapi.yml
 - filename: smartmind-table-api-openapi.yml
   format: yaml
   label: SmartMind Table API
   slug: smartmind-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-table-api-openapi.yml
+  url: https://artifacts.apis.io/smartmind/openapi/smartmind-table-api-openapi.yml
 - filename: smartmind-table-template-api-openapi.yml
   format: yaml
   label: SmartMind Table Template API
   slug: smartmind-table-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-table-template-api-openapi.yml
+  url: https://artifacts.apis.io/smartmind/openapi/smartmind-table-template-api-openapi.yml
 - filename: smartmind-view-api-openapi.yml
   format: yaml
   label: SmartMind View API
   slug: smartmind-view-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-view-api-openapi.yml
+  url: https://artifacts.apis.io/smartmind/openapi/smartmind-view-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -78,7 +78,7 @@ source_filename: smartmind-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/smartmind-thanosql-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: Bearer Auth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Enter: **''Bearer &lt;JWT&gt;''**, where JWT is the access token. Example: Bearer\n    access_token_comes_here'\n  sources:\n  - openapi/smartmind-thanosql-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/authentication/smartmind-authentication.yml
+source_yaml_url: https://artifacts.apis.io/smartmind/authentication/smartmind-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

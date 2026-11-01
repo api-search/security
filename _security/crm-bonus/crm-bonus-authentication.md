@@ -7,79 +7,79 @@ api_specs:
   label: CRM Bonus Auth API
   slug: crm-bonus-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/openapi/crm-bonus-auth-api-openapi.yml
+  url: https://artifacts.apis.io/crm-bonus/openapi/crm-bonus-auth-api-openapi.yml
 - filename: crm-bonus-blocked-api-openapi.yml
   format: yaml
   label: CRM Bonus Blocked API
   slug: crm-bonus-blocked-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/openapi/crm-bonus-blocked-api-openapi.yml
+  url: https://artifacts.apis.io/crm-bonus/openapi/crm-bonus-blocked-api-openapi.yml
 - filename: crm-bonus-cashback-api-openapi.yml
   format: yaml
   label: CRM Bonus Cashback API
   slug: crm-bonus-cashback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/openapi/crm-bonus-cashback-api-openapi.yml
+  url: https://artifacts.apis.io/crm-bonus/openapi/crm-bonus-cashback-api-openapi.yml
 - filename: crm-bonus-customers-api-openapi.yml
   format: yaml
   label: CRM Bonus Customers API
   slug: crm-bonus-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/openapi/crm-bonus-customers-api-openapi.yml
+  url: https://artifacts.apis.io/crm-bonus/openapi/crm-bonus-customers-api-openapi.yml
 - filename: crm-bonus-nps-api-openapi.yml
   format: yaml
   label: CRM Bonus Nps API
   slug: crm-bonus-nps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/openapi/crm-bonus-nps-api-openapi.yml
+  url: https://artifacts.apis.io/crm-bonus/openapi/crm-bonus-nps-api-openapi.yml
 - filename: crm-bonus-order-items-api-openapi.yml
   format: yaml
   label: CRM Bonus Order Items API
   slug: crm-bonus-order-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/openapi/crm-bonus-order-items-api-openapi.yml
+  url: https://artifacts.apis.io/crm-bonus/openapi/crm-bonus-order-items-api-openapi.yml
 - filename: crm-bonus-orders-api-openapi.yml
   format: yaml
   label: CRM Bonus Orders API
   slug: crm-bonus-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/openapi/crm-bonus-orders-api-openapi.yml
+  url: https://artifacts.apis.io/crm-bonus/openapi/crm-bonus-orders-api-openapi.yml
 - filename: crm-bonus-products-api-openapi.yml
   format: yaml
   label: CRM Bonus Products API
   slug: crm-bonus-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/openapi/crm-bonus-products-api-openapi.yml
+  url: https://artifacts.apis.io/crm-bonus/openapi/crm-bonus-products-api-openapi.yml
 - filename: crm-bonus-sellers-api-openapi.yml
   format: yaml
   label: CRM Bonus Sellers API
   slug: crm-bonus-sellers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/openapi/crm-bonus-sellers-api-openapi.yml
+  url: https://artifacts.apis.io/crm-bonus/openapi/crm-bonus-sellers-api-openapi.yml
 - filename: crm-bonus-stores-api-openapi.yml
   format: yaml
   label: CRM Bonus Stores API
   slug: crm-bonus-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/openapi/crm-bonus-stores-api-openapi.yml
+  url: https://artifacts.apis.io/crm-bonus/openapi/crm-bonus-stores-api-openapi.yml
 - filename: crm-bonus-tag-hits-api-openapi.yml
   format: yaml
   label: CRM Bonus Tag Hits API
   slug: crm-bonus-tag-hits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/openapi/crm-bonus-tag-hits-api-openapi.yml
+  url: https://artifacts.apis.io/crm-bonus/openapi/crm-bonus-tag-hits-api-openapi.yml
 - filename: crm-bonus-tag-ids-api-openapi.yml
   format: yaml
   label: CRM Bonus Tag Ids API
   slug: crm-bonus-tag-ids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/openapi/crm-bonus-tag-ids-api-openapi.yml
+  url: https://artifacts.apis.io/crm-bonus/openapi/crm-bonus-tag-ids-api-openapi.yml
 - filename: crm-bonus-tag-interactions-api-openapi.yml
   format: yaml
   label: CRM Bonus Tag Interactions API
   slug: crm-bonus-tag-interactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/openapi/crm-bonus-tag-interactions-api-openapi.yml
+  url: https://artifacts.apis.io/crm-bonus/openapi/crm-bonus-tag-interactions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: openapi/crm-bon
   \ operation.\n  sources:\n  - openapi/crm-bonus-oto-data-api-openapi.yml\ntoken_issuance:\n  self_service: false\n  process: >-\n    \"Solicite ao time de suporte o token de acesso para utilização da API\n    pública\" — the access token is requested from Oto/CRMBonus support. There is\n    no developer portal, no key-management console and no self-serve sign-up.\n  per_environment: true\n  per_environment_note: >-\n    Production and homologação require separate credentials\n    (\"Ambos os ambientes requerem credenciais específicas\").\n  login_endpoint:\n    operation_id: login_auth_login_post\n    path: POST /auth/login\n    request: 'LoginRequest {username, password}'\n    response: 'TokenResponse {access_token, expires_in}'\n    token_type: JWT\n    expires_in: 3600\n    claims_note: >-\n      The operation description states the JWT carries user information and\n      permissions, and that credentials are validated against a `users`\n      collection. Those permissions are not exposed\
   \ as OAuth scopes and are not\n      documented anywhere public.\n    failure_modes:\n    - status: 401\n      meaning: Credenciais inválidas\n    - status: 403\n      meaning: Conta de usuário inativa\n    - status: 500\n      meaning: Erro interno por exceção não esperada\nruntime_behaviour:\n  missing_credential:\n    status: 403\n    body: '{\"detail\": \"Not authenticated\"}'\n    observed: '2026-08-12'\n    note: >-\n      403 rather than 401, and no WWW-Authenticate challenge header is returned.\n      A client that branches on 401 for \"needs auth\" will mis-handle this API.\n  transport:\n    https_only: true\n    hsts: 'max-age=31536000; includeSubDomains'\nother_surfaces:\n- name: CRMBonus Giftback / Vale Bonus API\n  host: api.crmbonus.com\n  documented: false\n  auth: >-\n    Partner-issued token. Third-party integration docs state the brand must ask\n    the CRM&Bônus team to create a token, scoped to stores and with CPF\n    collection enabled. No public reference, no published\
   \ header name, no spec.\n  note: >-\n    Recorded for completeness; not part of the derived scheme set because no\n    machine-readable contract exists for it.\ngaps:\n- No OAuth 2.0 or OIDC — no /.well-known/openid-configuration on any host (404).\n- No documented token rotation, revocation or expiry policy for support-issued tokens.\n- No WWW-Authenticate header on an unauthenticated request.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/authentication/crm-bonus-authentication.yml
+source_yaml_url: https://artifacts.apis.io/crm-bonus/authentication/crm-bonus-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

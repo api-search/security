@@ -5,13 +5,13 @@ api_specs:
   label: Dataedo Public API
   slug: dataedo-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataedo/refs/heads/main/openapi/dataedo-public-api-openapi.yml
+  url: https://artifacts.apis.io/dataedo/openapi/dataedo-public-api-openapi.yml
 - filename: dataedo-public-api-openapi.yml
   format: yaml
   label: Dataedo Public API
   slug: dataedo-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataedo/refs/heads/main/openapi/dataedo-public-api-openapi.yml
+  url: https://artifacts.apis.io/dataedo/openapi/dataedo-public-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,7 +41,7 @@ source_filename: dataedo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dataedo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 27 12:02:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: dataedo.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dataedo/refs/heads/main/security/dataedo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dataedo/security/dataedo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data Governance

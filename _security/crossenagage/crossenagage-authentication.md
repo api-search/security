@@ -8,79 +8,79 @@ api_specs:
   label: CrossEngage Event management API
   slug: crossenagage-event-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/openapi/crossenagage-event-management-api-openapi.yml
+  url: https://artifacts.apis.io/crossenagage/openapi/crossenagage-event-management-api-openapi.yml
 - filename: crossenagage-lead-management-api-openapi.yml
   format: yaml
   label: CrossEngage Lead management API
   slug: crossenagage-lead-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/openapi/crossenagage-lead-management-api-openapi.yml
+  url: https://artifacts.apis.io/crossenagage/openapi/crossenagage-lead-management-api-openapi.yml
 - filename: crossenagage-opt-out-management-api-openapi.yml
   format: yaml
   label: CrossEngage Opt-out management API
   slug: crossenagage-opt-out-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/openapi/crossenagage-opt-out-management-api-openapi.yml
+  url: https://artifacts.apis.io/crossenagage/openapi/crossenagage-opt-out-management-api-openapi.yml
 - filename: crossenagage-product-feed-api-openapi.yml
   format: yaml
   label: CrossEngage Product Feed API
   slug: crossenagage-product-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/openapi/crossenagage-product-feed-api-openapi.yml
+  url: https://artifacts.apis.io/crossenagage/openapi/crossenagage-product-feed-api-openapi.yml
 - filename: crossenagage-user-attribute-management-api-openapi.yml
   format: yaml
   label: CrossEngage User Attribute Management API
   slug: crossenagage-user-attribute-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/openapi/crossenagage-user-attribute-management-api-openapi.yml
+  url: https://artifacts.apis.io/crossenagage/openapi/crossenagage-user-attribute-management-api-openapi.yml
 - filename: crossenagage-user-profile-management-api-openapi.yml
   format: yaml
   label: CrossEngage User profile management API
   slug: crossenagage-user-profile-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/openapi/crossenagage-user-profile-management-api-openapi.yml
+  url: https://artifacts.apis.io/crossenagage/openapi/crossenagage-user-profile-management-api-openapi.yml
 - filename: crossenagage-destination-api-openapi.yml
   format: yaml
   label: CrossEngage Destination API
   slug: crossenagage-destination-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/openapi/crossenagage-destination-api-openapi.yml
+  url: https://artifacts.apis.io/crossenagage/openapi/crossenagage-destination-api-openapi.yml
 - filename: crossenagage-detailed-api-openapi.yml
   format: yaml
   label: CrossEngage Detailed API
   slug: crossenagage-detailed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/openapi/crossenagage-detailed-api-openapi.yml
+  url: https://artifacts.apis.io/crossenagage/openapi/crossenagage-detailed-api-openapi.yml
 - filename: crossenagage-event-class-api-openapi.yml
   format: yaml
   label: CrossEngage Event Class API
   slug: crossenagage-event-class-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/openapi/crossenagage-event-class-api-openapi.yml
+  url: https://artifacts.apis.io/crossenagage/openapi/crossenagage-event-class-api-openapi.yml
 - filename: crossenagage-export-api-openapi.yml
   format: yaml
   label: CrossEngage Export API
   slug: crossenagage-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/openapi/crossenagage-export-api-openapi.yml
+  url: https://artifacts.apis.io/crossenagage/openapi/crossenagage-export-api-openapi.yml
 - filename: crossenagage-files-api-openapi.yml
   format: yaml
   label: CrossEngage Files API
   slug: crossenagage-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/openapi/crossenagage-files-api-openapi.yml
+  url: https://artifacts.apis.io/crossenagage/openapi/crossenagage-files-api-openapi.yml
 - filename: crossenagage-kpi-api-openapi.yml
   format: yaml
   label: CrossEngage Kpi API
   slug: crossenagage-kpi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/openapi/crossenagage-kpi-api-openapi.yml
+  url: https://artifacts.apis.io/crossenagage/openapi/crossenagage-kpi-api-openapi.yml
 - filename: crossenagage-overall-api-openapi.yml
   format: yaml
   label: CrossEngage Overall API
   slug: crossenagage-overall-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/openapi/crossenagage-overall-api-openapi.yml
+  url: https://artifacts.apis.io/crossenagage/openapi/crossenagage-overall-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -114,7 +114,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: the \"Authentication\" and \"Headers\" sections of the six CrossEngage API contracts on Apiary, cross-checked\n  against openapi/ (6 specs)\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: XngAuthToken\n  type: apiKey\n  in: header\n  parameter: X-XNG-AuthToken\n  description: CrossEngage header authentication. The API key is issued in the CrossEngage app under Settings\n    -> System setup -> API keys (Master API key or Public API key depending on the API).\n  sources:\n  - openapi/crossenagage-file-attachments-v1-openapi.yml\n  - openapi/crossenagage-raw-export-v1-openapi.yml\n  - openapi/crossenagage-statistics-v1-openapi.yml\n  - openapi/crossenagage-user-management-v1-openapi.yml\n  - openapi/crossenagage-user-management-v2-openapi.yml\ndocs: https://usermanagementv2.docs.apiary.io/\nnote: 'CrossEngage uses static header authentication only — no OAuth, no OIDC, no mTLS. Two key TIERS\n  exist\
   \ and they are not interchangeable: the MASTER API key authorises User Management (v1 and v2), Product\n  Feed and Raw Export; the PUBLIC API key authorises Statistics and File Attachments. Both are issued\n  inside the authenticated app under Settings -> System setup -> API keys; there is no self-serve signup,\n  key rotation endpoint or programmatic key issuance. A second header, X-XNG-ApiVersion, is required on\n  every call and is a version selector rather than a credential — it is modelled as a parameter, not a\n  securityScheme.'\nkey_tiers:\n- tier: Master API key\n  header: X-XNG-AuthToken\n  apis:\n  - User Management v1\n  - User Management v2\n  - Product Feed v1\n  - Raw Export v1\n  source: https://usermanagementv2.docs.apiary.io/, https://productfeedapiv1.docs.apiary.io/, https://userseventsexportapiv1.docs.apiary.io/\n- tier: Public API key\n  header: X-XNG-AuthToken\n  apis:\n  - Statistics v1\n  - File Attachments v1\n  source: https://statisticsapi1.docs.apiary.io/, https://fileattachmentsv1.docs.apiary.io/\n\
   required_headers:\n- header: X-XNG-AuthToken\n  role: credential\n  required: true\n- header: X-XNG-ApiVersion\n  role: version selector\n  required: true\n  values:\n    User Management: 1 or 2\n    Product Feed: '1'\n    Raw Export: '2'\n    Statistics: '2'\n    File Attachments: '2'\ngaps:\n- no OAuth 2.0 or OIDC surface\n- no scopes or granular permissions on the API key\n- no programmatic key rotation or issuance\n- no /.well-known/oauth-authorization-server (404 on all four hosts)\n- no mTLS\n- no signed-request option\nobtaining_credentials:\n  self_serve: false\n  requires_account: true\n  path: CrossEngage app (https://app.crossengage.io) -> Settings -> System setup -> API keys\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/authentication/crossenagage-authentication.yml
+source_yaml_url: https://artifacts.apis.io/crossenagage/authentication/crossenagage-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

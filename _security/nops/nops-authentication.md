@@ -8,13 +8,13 @@ api_specs:
   label: nOps Essentials Scheduler API
   slug: nops-essentials-scheduler-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nops/refs/heads/main/openapi/nops-essentials-scheduler-api-openapi.yml
+  url: https://artifacts.apis.io/nops/openapi/nops-essentials-scheduler-api-openapi.yml
 - filename: nops-map-migration-api-openapi.yml
   format: yaml
   label: nOps MAP Migration API
   slug: nops-map-migration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nops/refs/heads/main/openapi/nops-map-migration-api-openapi.yml
+  url: https://artifacts.apis.io/nops/openapi/nops-map-migration-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -49,7 +49,7 @@ source_filename: nops-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/nops-nops-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-Nops-Api-Key\n  description: API key generated from the nOps console under Organization Settings. Include\n    this key in the X-Nops-Api-Key header for all requests.\n  sources:\n  - openapi/nops-nops-openapi.yml\n- name: SignatureAuth\n  type: apiKey\n  in: header\n  parameter: x-nops-signature\n  description: Encoded signature for enhanced security. Created using a public/private key pair\n    configured in the nOps console.\n  sources:\n  - openapi/nops-nops-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nops/refs/heads/main/authentication/nops-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nops/authentication/nops-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Costs

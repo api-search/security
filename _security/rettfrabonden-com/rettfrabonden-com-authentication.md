@@ -8,31 +8,31 @@ api_specs:
   label: Rett fra Bonden A2a API
   slug: rettfrabonden-com-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rettfrabonden-com/refs/heads/main/openapi/rettfrabonden-com-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/rettfrabonden-com/openapi/rettfrabonden-com-a2a-api-openapi.yml
 - filename: rettfrabonden-com-marketplace-api-openapi.yml
   format: yaml
   label: Rett fra Bonden Marketplace API
   slug: rettfrabonden-com-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rettfrabonden-com/refs/heads/main/openapi/rettfrabonden-com-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/rettfrabonden-com/openapi/rettfrabonden-com-marketplace-api-openapi.yml
 - filename: rettfrabonden-com-mcp-api-openapi.yml
   format: yaml
   label: Rett fra Bonden MCP API
   slug: rettfrabonden-com-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rettfrabonden-com/refs/heads/main/openapi/rettfrabonden-com-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/rettfrabonden-com/openapi/rettfrabonden-com-mcp-api-openapi.yml
 - filename: rettfrabonden-com-stats-api-openapi.yml
   format: yaml
   label: Rett fra Bonden Stats API
   slug: rettfrabonden-com-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rettfrabonden-com/refs/heads/main/openapi/rettfrabonden-com-stats-api-openapi.yml
+  url: https://artifacts.apis.io/rettfrabonden-com/openapi/rettfrabonden-com-stats-api-openapi.yml
 - filename: rettfrabonden-com-well-known-api-openapi.yml
   format: yaml
   label: Rett fra Bonden .well Known API
   slug: rettfrabonden-com-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rettfrabonden-com/refs/heads/main/openapi/rettfrabonden-com-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/rettfrabonden-com/openapi/rettfrabonden-com-well-known-api-openapi.yml
 auth_types:
 - apiKey
 - none
@@ -121,7 +121,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/rettfra
   \ JSON body {label, contact_email}; the key is returned once and cannot be retrieved again\n  revoke: POST https://rettfrabonden.com/api/keys/revoke (stops the key, keeps history) or POST https://rettfrabonden.com/api/keys/erase (GDPR erasure of label/e-mail); both take {key} in the body or the key as X-API-Key\n  effect: about 3x higher rate-limit ceiling on the general REST and /a2a surface (300 -> 900 and 200 -> 600 per 15 minutes) and a per-key usage ledger (endpoint/tool name and date only); does NOT raise the static 150-per-15-minute quota on /api/marketplace/search and /discover\n  scopes: [read]\n  sources: [a2a/rettfrabonden-com-agent-card.json, llms/rettfrabonden-com-llms.txt]\n  description: Free, voluntary key — same header name as the producer key, different purpose; nothing requires it.\n- name: adminKey\n  type: apiKey\n  in: header\n  parameter: X-Admin-Key\n  role: operator/admin key\n  required_for: [admin routes — not part of the public surface]\n  scopes: []\n  sources:\
   \ [openapi/rettfrabonden-com-agent-surface-openapi.json]\n  description: >-\n    The only securityScheme declared in /openapi.json, and the scheme that spec attaches to registerProducer.\n    Every other provider document (agent card, protected-resource metadata, server card, /api index,\n    agents.txt) says registration is gated by X-API-Key, not X-Admin-Key. Recorded as spec drift; the\n    privacy page describes admin access as \"protected with API keys in environment variables\", i.e. an\n    operator credential.\n- name: none\n  type: none\n  applies_to: [searchFood, searchProducers, discoverProducers, listProducers, getProducerInfo, getProducer, geocodePlace, getAcpProductFeed, getPlatformStats, getAgentCard, every MCP tool, A2A message/send, tasks/get, tasks/list]\n  sources: [openapi/rettfrabonden-com-openapi.yml, mcp/rettfrabonden-com-mcp-tools.json]\n  description: Anonymous access; rate-limited per IP (see rate-limits/).\nobservations:\n- POST /api/marketplace/register with\
   \ an empty JSON body and no key returned HTTP 400 with a zod validation error list, not 401 — input validation runs before (or instead of) the key check on an empty body, so which header actually gates a valid registration could not be observed without submitting a real registration, which this pass did not do.\n- The card carries authentication {schemes:[apiKey]} (pre-0.3 shape) and security [] (no requirement) alongside its securitySchemes map.\n- The site has no OpenID/OAuth discovery documents (/.well-known/openid-configuration and /oauth-authorization-server both 404) — scopes_supported [read, write] in the protected-resource document are API-key scopes, not OAuth scopes, so no scopes/ artifact is emitted.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rettfrabonden-com/refs/heads/main/authentication/rettfrabonden-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rettfrabonden-com/authentication/rettfrabonden-com-authentication.yml
 summary_line: apiKey/none · 4 schemes
 tags:
 - Local Food

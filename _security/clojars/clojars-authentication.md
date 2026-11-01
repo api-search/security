@@ -7,31 +7,31 @@ api_specs:
   label: Clojars Artifacts API
   slug: clojars-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clojars/refs/heads/main/openapi/clojars-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/clojars/openapi/clojars-artifacts-api-openapi.yml
 - filename: clojars-feeds-api-openapi.yml
   format: yaml
   label: Clojars Feeds API
   slug: clojars-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clojars/refs/heads/main/openapi/clojars-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/clojars/openapi/clojars-feeds-api-openapi.yml
 - filename: clojars-groups-api-openapi.yml
   format: yaml
   label: Clojars Groups API
   slug: clojars-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clojars/refs/heads/main/openapi/clojars-groups-api-openapi.yml
+  url: https://artifacts.apis.io/clojars/openapi/clojars-groups-api-openapi.yml
 - filename: clojars-search-api-openapi.yml
   format: yaml
   label: Clojars Search API
   slug: clojars-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clojars/refs/heads/main/openapi/clojars-search-api-openapi.yml
+  url: https://artifacts.apis.io/clojars/openapi/clojars-search-api-openapi.yml
 - filename: clojars-users-api-openapi.yml
   format: yaml
   label: Clojars Users API
   slug: clojars-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clojars/refs/heads/main/openapi/clojars-users-api-openapi.yml
+  url: https://artifacts.apis.io/clojars/openapi/clojars-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: clojars-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication using your Clojars username and a deploy token (not\n    your password). Deploy tokens can be created at https://clojars.org/tokens. Required only\n    for write/deploy operations.\n  sources:\n  - openapi/openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clojars/refs/heads/main/authentication/clojars-authentication.yml
+source_yaml_url: https://artifacts.apis.io/clojars/authentication/clojars-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Clojure

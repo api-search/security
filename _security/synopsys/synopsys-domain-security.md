@@ -11,37 +11,37 @@ api_specs:
   label: Synopsys Entitlements API
   slug: synopsys-entitlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/openapi/synopsys-entitlements-api-openapi.yml
+  url: https://artifacts.apis.io/synopsys/openapi/synopsys-entitlements-api-openapi.yml
 - filename: synopsys-issues-api-openapi.yml
   format: yaml
   label: Synopsys Issues API
   slug: synopsys-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/openapi/synopsys-issues-api-openapi.yml
+  url: https://artifacts.apis.io/synopsys/openapi/synopsys-issues-api-openapi.yml
 - filename: synopsys-licenses-api-openapi.yml
   format: yaml
   label: Synopsys Licenses API
   slug: synopsys-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/openapi/synopsys-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/synopsys/openapi/synopsys-licenses-api-openapi.yml
 - filename: synopsys-projects-api-openapi.yml
   format: yaml
   label: Synopsys Projects API
   slug: synopsys-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/openapi/synopsys-projects-api-openapi.yml
+  url: https://artifacts.apis.io/synopsys/openapi/synopsys-projects-api-openapi.yml
 - filename: synopsys-reports-api-openapi.yml
   format: yaml
   label: Synopsys Reports API
   slug: synopsys-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/openapi/synopsys-reports-api-openapi.yml
+  url: https://artifacts.apis.io/synopsys/openapi/synopsys-reports-api-openapi.yml
 - filename: synopsys-scans-api-openapi.yml
   format: yaml
   label: Synopsys Scans API
   slug: synopsys-scans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/openapi/synopsys-scans-api-openapi.yml
+  url: https://artifacts.apis.io/synopsys/openapi/synopsys-scans-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: synopsys-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.synopsys.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 21:31:06 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: polaris.synopsys.com\n  https: false\n- host: community.synopsys.com\n  https: false\ndomains:\n- domain: synopsys.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/security/synopsys-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/synopsys/security/synopsys-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Software Security

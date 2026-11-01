@@ -5,19 +5,19 @@ api_specs:
   label: MonsiTools Api Tools.json API
   slug: monsitools-api-tools-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monsitools/refs/heads/main/openapi/monsitools-api-tools-json-api-openapi.yml
+  url: https://artifacts.apis.io/monsitools/openapi/monsitools-api-tools-json-api-openapi.yml
 - filename: monsitools-calculate-api-openapi.yml
   format: yaml
   label: MonsiTools Calculate API
   slug: monsitools-calculate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monsitools/refs/heads/main/openapi/monsitools-calculate-api-openapi.yml
+  url: https://artifacts.apis.io/monsitools/openapi/monsitools-calculate-api-openapi.yml
 - filename: monsitools-keys-api-openapi.yml
   format: yaml
   label: MonsiTools Keys API
   slug: monsitools-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monsitools/refs/heads/main/openapi/monsitools-keys-api-openapi.yml
+  url: https://artifacts.apis.io/monsitools/openapi/monsitools-keys-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: monsitools-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: monsitools.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 11:28:02 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: monsitools.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/monsitools/refs/heads/main/security/monsitools-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/monsitools/security/monsitools-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

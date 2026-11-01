@@ -5,55 +5,55 @@ api_specs:
   label: OptionsAhoy Concentration API
   slug: optionsahoy-com-concentration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-concentration-api-openapi.yml
+  url: https://artifacts.apis.io/optionsahoy-com/openapi/optionsahoy-com-concentration-api-openapi.yml
 - filename: optionsahoy-com-discovery-api-openapi.yml
   format: yaml
   label: OptionsAhoy Discovery API
   slug: optionsahoy-com-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/optionsahoy-com/openapi/optionsahoy-com-discovery-api-openapi.yml
 - filename: optionsahoy-com-equityfunding-api-openapi.yml
   format: yaml
   label: OptionsAhoy Equity Funding API
   slug: optionsahoy-com-equityfunding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-equityfunding-api-openapi.yml
+  url: https://artifacts.apis.io/optionsahoy-com/openapi/optionsahoy-com-equityfunding-api-openapi.yml
 - filename: optionsahoy-com-hedging-api-openapi.yml
   format: yaml
   label: OptionsAhoy Hedging API
   slug: optionsahoy-com-hedging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-hedging-api-openapi.yml
+  url: https://artifacts.apis.io/optionsahoy-com/openapi/optionsahoy-com-hedging-api-openapi.yml
 - filename: optionsahoy-com-iso-api-openapi.yml
   format: yaml
   label: OptionsAhoy ISO API
   slug: optionsahoy-com-iso-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-iso-api-openapi.yml
+  url: https://artifacts.apis.io/optionsahoy-com/openapi/optionsahoy-com-iso-api-openapi.yml
 - filename: optionsahoy-com-nso-api-openapi.yml
   format: yaml
   label: OptionsAhoy NSO API
   slug: optionsahoy-com-nso-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-nso-api-openapi.yml
+  url: https://artifacts.apis.io/optionsahoy-com/openapi/optionsahoy-com-nso-api-openapi.yml
 - filename: optionsahoy-com-qsbs-api-openapi.yml
   format: yaml
   label: OptionsAhoy QSBS API
   slug: optionsahoy-com-qsbs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-qsbs-api-openapi.yml
+  url: https://artifacts.apis.io/optionsahoy-com/openapi/optionsahoy-com-qsbs-api-openapi.yml
 - filename: optionsahoy-com-rsu-api-openapi.yml
   format: yaml
   label: OptionsAhoy RSU API
   slug: optionsahoy-com-rsu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-rsu-api-openapi.yml
+  url: https://artifacts.apis.io/optionsahoy-com/openapi/optionsahoy-com-rsu-api-openapi.yml
 - filename: optionsahoy-com-rsulotoptimize-api-openapi.yml
   format: yaml
   label: OptionsAhoy Rsu Lot Optimize API
   slug: optionsahoy-com-rsulotoptimize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-rsulotoptimize-api-openapi.yml
+  url: https://artifacts.apis.io/optionsahoy-com/openapi/optionsahoy-com-rsulotoptimize-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -89,7 +89,7 @@ source_filename: optionsahoy-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: optionsahoy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 19 10:25:18 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: optionsahoy.com\n  dnssec: true\n  caa:\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/security/optionsahoy-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/optionsahoy-com/security/optionsahoy-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Equity Compensation

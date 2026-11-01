@@ -5,7 +5,7 @@ api_specs:
   label: flatin.pt Public API
   slug: flatin-pt-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatin-pt/refs/heads/main/openapi/flatin-pt-public-api-openapi.yml
+  url: https://artifacts.apis.io/flatin-pt/openapi/flatin-pt-public-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -34,7 +34,7 @@ source_filename: flatin-pt-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-16'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: flatin.pt\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  6 22:56:22 2026 GMT\n  hsts: false\ndomains:\n- domain: flatin.pt\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flatin-pt/refs/heads/main/security/flatin-pt-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/flatin-pt/security/flatin-pt-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Real Estate

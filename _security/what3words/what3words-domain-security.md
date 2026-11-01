@@ -5,31 +5,31 @@ api_specs:
   label: what3words Autosuggest API
   slug: what3words-autosuggest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/what3words/refs/heads/main/openapi/what3words-autosuggest-api-openapi.yml
+  url: https://artifacts.apis.io/what3words/openapi/what3words-autosuggest-api-openapi.yml
 - filename: what3words-available-languages-api-openapi.yml
   format: yaml
   label: what3words Available Languages API
   slug: what3words-available-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/what3words/refs/heads/main/openapi/what3words-available-languages-api-openapi.yml
+  url: https://artifacts.apis.io/what3words/openapi/what3words-available-languages-api-openapi.yml
 - filename: what3words-convert-to-3wa-api-openapi.yml
   format: yaml
   label: what3words Convert To 3wa API
   slug: what3words-convert-to-3wa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/what3words/refs/heads/main/openapi/what3words-convert-to-3wa-api-openapi.yml
+  url: https://artifacts.apis.io/what3words/openapi/what3words-convert-to-3wa-api-openapi.yml
 - filename: what3words-convert-to-coordinates-api-openapi.yml
   format: yaml
   label: what3words Convert To Coordinates API
   slug: what3words-convert-to-coordinates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/what3words/refs/heads/main/openapi/what3words-convert-to-coordinates-api-openapi.yml
+  url: https://artifacts.apis.io/what3words/openapi/what3words-convert-to-coordinates-api-openapi.yml
 - filename: what3words-grid-section-api-openapi.yml
   format: yaml
   label: what3words Grid Section API
   slug: what3words-grid-section-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/what3words/refs/heads/main/openapi/what3words-grid-section-api-openapi.yml
+  url: https://artifacts.apis.io/what3words/openapi/what3words-grid-section-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -68,7 +68,7 @@ source_filename: what3words-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: what3words.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 23:59:59 2026 GMT\n  hsts: null\n- host: developer.what3words.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 21 23:59:59 2026 GMT\n  hsts: false\n- host: api.what3words.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: what3words.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/what3words/refs/heads/main/security/what3words-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/what3words/security/what3words-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Geocoding

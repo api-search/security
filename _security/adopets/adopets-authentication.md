@@ -8,19 +8,19 @@ api_specs:
   label: Adopets Payment Request API
   slug: adopets-payment-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/openapi/adopets-payment-request-api-openapi.yml
+  url: https://artifacts.apis.io/adopets/openapi/adopets-payment-request-api-openapi.yml
 - filename: adopets-payment-transaction-api-openapi.yml
   format: yaml
   label: Adopets Payment Transaction API
   slug: adopets-payment-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/openapi/adopets-payment-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/adopets/openapi/adopets-payment-transaction-api-openapi.yml
 - filename: adopets-system-auth-api-openapi.yml
   format: yaml
   label: Adopets System Auth API
   slug: adopets-system-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/openapi/adopets-system-auth-api-openapi.yml
+  url: https://artifacts.apis.io/adopets/openapi/adopets-system-auth-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -56,7 +56,7 @@ source_filename: adopets-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: derived\nsource: openapi/adopets-external-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: Organization API key issued by Adopets, sent on every request.\n  sources:\n  - openapi/adopets-external-openapi.yml\n- name: sessionBearer\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Per-session token (data.authorization) returned by system-auth/connect.\n  sources:\n  - openapi/adopets-external-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/authentication/adopets-authentication.yml
+source_yaml_url: https://artifacts.apis.io/adopets/authentication/adopets-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Pet Adoption

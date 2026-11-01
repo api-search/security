@@ -7,67 +7,91 @@ api_specs:
   label: Boom Ai CDP Custom Objects API
   slug: boom-ai-cdp-custom-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-cdp-custom-objects-api-openapi.yml
+  url: https://artifacts.apis.io/boom-ai/openapi/boom-ai-cdp-custom-objects-api-openapi.yml
 - filename: boom-ai-cdp-events-api-openapi.yml
   format: yaml
   label: Boom Ai CDP Events API
   slug: boom-ai-cdp-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-cdp-events-api-openapi.yml
+  url: https://artifacts.apis.io/boom-ai/openapi/boom-ai-cdp-events-api-openapi.yml
 - filename: boom-ai-cdp-people-api-openapi.yml
   format: yaml
   label: Boom Ai CDP People API
   slug: boom-ai-cdp-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-cdp-people-api-openapi.yml
+  url: https://artifacts.apis.io/boom-ai/openapi/boom-ai-cdp-people-api-openapi.yml
 - filename: boom-ai-cdp-relationships-api-openapi.yml
   format: yaml
   label: Boom Ai CDP Relationships API
   slug: boom-ai-cdp-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-cdp-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/boom-ai/openapi/boom-ai-cdp-relationships-api-openapi.yml
 - filename: boom-ai-cdp-sources-api-openapi.yml
   format: yaml
   label: Boom Ai CDP Sources API
   slug: boom-ai-cdp-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-cdp-sources-api-openapi.yml
+  url: https://artifacts.apis.io/boom-ai/openapi/boom-ai-cdp-sources-api-openapi.yml
 - filename: boom-ai-http-credentials-api-openapi.yml
   format: yaml
   label: Boom Ai HTTP credentials API
   slug: boom-ai-http-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-http-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/boom-ai/openapi/boom-ai-http-credentials-api-openapi.yml
 - filename: boom-ai-initiatives-api-openapi.yml
   format: yaml
   label: Boom Ai Initiatives API
   slug: boom-ai-initiatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-initiatives-api-openapi.yml
+  url: https://artifacts.apis.io/boom-ai/openapi/boom-ai-initiatives-api-openapi.yml
 - filename: boom-ai-journeys-api-openapi.yml
   format: yaml
   label: Boom Ai Journeys API
   slug: boom-ai-journeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-journeys-api-openapi.yml
+  url: https://artifacts.apis.io/boom-ai/openapi/boom-ai-journeys-api-openapi.yml
 - filename: boom-ai-segments-api-openapi.yml
   format: yaml
   label: Boom Ai Segments API
   slug: boom-ai-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-segments-api-openapi.yml
+  url: https://artifacts.apis.io/boom-ai/openapi/boom-ai-segments-api-openapi.yml
 - filename: boom-ai-whatsapp-templates-api-openapi.yml
   format: yaml
   label: Boom Ai WhatsApp templates API
   slug: boom-ai-whatsapp-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-whatsapp-templates-api-openapi.yml
+  url: https://artifacts.apis.io/boom-ai/openapi/boom-ai-whatsapp-templates-api-openapi.yml
 - filename: boom-ai-environments-api-openapi.yml
   format: yaml
   label: Boom Ai Environments API
   slug: boom-ai-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-environments-api-openapi.yml
+  url: https://artifacts.apis.io/boom-ai/openapi/boom-ai-environments-api-openapi.yml
+- filename: boom-ai-cdp-sensitive-fields-api-openapi.yml
+  format: yaml
+  label: Boom Ai CDP Sensitive fields API
+  slug: boom-ai-cdp-sensitive-fields-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/boom-ai/openapi/boom-ai-cdp-sensitive-fields-api-openapi.yml
+- filename: boom-ai-email-templates-api-openapi.yml
+  format: yaml
+  label: Boom Ai Email templates API
+  slug: boom-ai-email-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/boom-ai/openapi/boom-ai-email-templates-api-openapi.yml
+- filename: boom-ai-lead-capture-api-openapi.yml
+  format: yaml
+  label: Boom Ai Lead Capture API
+  slug: boom-ai-lead-capture-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/boom-ai/openapi/boom-ai-lead-capture-api-openapi.yml
+- filename: boom-ai-message-logs-api-openapi.yml
+  format: yaml
+  label: Boom Ai Message logs API
+  slug: boom-ai-message-logs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/boom-ai/openapi/boom-ai-message-logs-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -96,7 +120,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/boom-ai-openapi-original.json\ndocs: https://docs.useboom.ai/quickstart\nnotes: >-\n  Single scheme: a per-organization Bearer API key with the prefix `boom_org_...`,\n  sent as `Authorization: Bearer <key>`. Applied globally to every operation. Use a\n  development-organization key against the https://dev.useboom.ai sandbox host. The\n  hosted MCP server authenticates instead via interactive Boom dashboard login (OAuth),\n  not the API key. No OAuth2 scopes surface — access is scoped to the organization and\n  destructive actions require an org admin.\nmcp_authentication:\n  type: oauth2\n  authorization_server: https://clerk.useboom.ai\n  protected_resource_metadata: https://www.useboom.ai/.well-known/oauth-protected-resource/mcp\n  flow: authorizationCode (+ refresh_token), dynamic client registration\n  scopes: [profile, email, 'user:org:read']\n  see: scopes/boom-ai-scopes.yml\n  note: >-\n    Two different auth\
   \ models for two surfaces. REST = static organization Bearer key.\n    MCP = interactive OAuth sign-in with no key at all. An agent reaching Boom over MCP\n    never handles a credential; one reaching it over REST holds a long-lived org-wide key\n    with no scope narrowing available.\nsummary:\n  types:\n  - http\n  - oauth2   # MCP surface only\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Organization API key, sent as `Authorization: Bearer [example key]`.'\n  sources:\n  - openapi/boom-ai-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/authentication/boom-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/boom-ai/authentication/boom-ai-authentication.yml
 summary_line: http/oauth2 · 1 scheme
 tags:
 - Company

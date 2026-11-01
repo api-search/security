@@ -7,25 +7,25 @@ api_specs:
   label: Nokia NetAct Configuration Management API
   slug: nokia-netact-configuration-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nokia-netact/refs/heads/main/openapi/nokia-netact-configuration-management-api-openapi.yml
+  url: https://artifacts.apis.io/nokia-netact/openapi/nokia-netact-configuration-management-api-openapi.yml
 - filename: nokia-netact-fault-management-api-openapi.yml
   format: yaml
   label: Nokia NetAct Fault Management API
   slug: nokia-netact-fault-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nokia-netact/refs/heads/main/openapi/nokia-netact-fault-management-api-openapi.yml
+  url: https://artifacts.apis.io/nokia-netact/openapi/nokia-netact-fault-management-api-openapi.yml
 - filename: nokia-netact-performance-management-api-openapi.yml
   format: yaml
   label: Nokia NetAct Performance Management API
   slug: nokia-netact-performance-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nokia-netact/refs/heads/main/openapi/nokia-netact-performance-management-api-openapi.yml
+  url: https://artifacts.apis.io/nokia-netact/openapi/nokia-netact-performance-management-api-openapi.yml
 - filename: nokia-netact-topology-api-openapi.yml
   format: yaml
   label: Nokia NetAct Topology API
   slug: nokia-netact-topology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nokia-netact/refs/heads/main/openapi/nokia-netact-topology-api-openapi.yml
+  url: https://artifacts.apis.io/nokia-netact/openapi/nokia-netact-topology-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -56,7 +56,7 @@ source_filename: nokia-netact-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/nokia-netact-nbi-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/nokia-netact-nbi-openapi.yml\n- name: BasicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/nokia-netact-nbi-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nokia-netact/refs/heads/main/authentication/nokia-netact-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nokia-netact/authentication/nokia-netact-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Network Management

@@ -5,67 +5,67 @@ api_specs:
   label: Cognition Labs Attachments API
   slug: cognition-labs-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/cognition-labs/openapi/cognition-labs-attachments-api-openapi.yml
 - filename: cognition-labs-consumption-api-openapi.yml
   format: yaml
   label: Cognition Labs Consumption API
   slug: cognition-labs-consumption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-consumption-api-openapi.yml
+  url: https://artifacts.apis.io/cognition-labs/openapi/cognition-labs-consumption-api-openapi.yml
 - filename: cognition-labs-enterprise-v3-api-openapi.yml
   format: yaml
   label: Cognition Labs Enterprise (v3) API
   slug: cognition-labs-enterprise-v3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-enterprise-v3-api-openapi.yml
+  url: https://artifacts.apis.io/cognition-labs/openapi/cognition-labs-enterprise-v3-api-openapi.yml
 - filename: cognition-labs-knowledge-api-openapi.yml
   format: yaml
   label: Cognition Labs Knowledge API
   slug: cognition-labs-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/cognition-labs/openapi/cognition-labs-knowledge-api-openapi.yml
 - filename: cognition-labs-messages-api-openapi.yml
   format: yaml
   label: Cognition Labs Messages API
   slug: cognition-labs-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-messages-api-openapi.yml
+  url: https://artifacts.apis.io/cognition-labs/openapi/cognition-labs-messages-api-openapi.yml
 - filename: cognition-labs-organizations-v3-api-openapi.yml
   format: yaml
   label: Cognition Labs Organizations (v3) API
   slug: cognition-labs-organizations-v3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-organizations-v3-api-openapi.yml
+  url: https://artifacts.apis.io/cognition-labs/openapi/cognition-labs-organizations-v3-api-openapi.yml
 - filename: cognition-labs-playbooks-api-openapi.yml
   format: yaml
   label: Cognition Labs Playbooks API
   slug: cognition-labs-playbooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-playbooks-api-openapi.yml
+  url: https://artifacts.apis.io/cognition-labs/openapi/cognition-labs-playbooks-api-openapi.yml
 - filename: cognition-labs-secrets-api-openapi.yml
   format: yaml
   label: Cognition Labs Secrets API
   slug: cognition-labs-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/cognition-labs/openapi/cognition-labs-secrets-api-openapi.yml
 - filename: cognition-labs-sessions-api-openapi.yml
   format: yaml
   label: Cognition Labs Sessions API
   slug: cognition-labs-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/cognition-labs/openapi/cognition-labs-sessions-api-openapi.yml
 - filename: cognition-labs-enterprise-api-openapi.yml
   format: yaml
   label: Cognition Labs Enterprise API
   slug: cognition-labs-enterprise-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-enterprise-api-openapi.yml
+  url: https://artifacts.apis.io/cognition-labs/openapi/cognition-labs-enterprise-api-openapi.yml
 - filename: cognition-labs-audit-logs-api-openapi.yml
   format: yaml
   label: Cognition Labs Audit Logs API
   slug: cognition-labs-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/cognition-labs/openapi/cognition-labs-audit-logs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -112,7 +112,7 @@ source_filename: cognition-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cognition.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 16 14:01:47 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.devin.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 22 04:25:31 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.devin.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 13 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: cognition.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: devin.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/security/cognition-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cognition-labs/security/cognition-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

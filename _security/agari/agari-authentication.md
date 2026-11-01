@@ -32,7 +32,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://developers.agari.com/agari-platform/docs/oauth-20\ndocs: https://developers.agari.com/agari-platform/docs/access-and-authentication\nsummary:\n  types: [oauth2]\n  oauth2_flows: [clientCredentials]\n  token_lifetime: 4 hours\n  notes: >-\n    The Agari Platform APIs use OAuth 2.0 with the Client Credentials grant.\n    A client_id and client_secret are generated manually in the product portal,\n    then exchanged at the token endpoint for a temporary bearer access_token\n    valid for four hours. The access_token is presented on subsequent API\n    requests. There is no documented per-scope authorization surface.\nschemes:\n  - name: OAuth2ClientCredentials\n    type: oauth2\n    flow: clientCredentials\n    token_url: https://api.agari.com/v1/ep/token\n    token_lifetime_seconds: 14400\n    credential_provisioning: manual (generated in the Agari product portal)\n    token_presentation: bearer access_token on API requests\n\
   \    sources: [https://developers.agari.com/agari-platform/docs/oauth-20]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agari/refs/heads/main/authentication/agari-authentication.yml
+source_yaml_url: https://artifacts.apis.io/agari/authentication/agari-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

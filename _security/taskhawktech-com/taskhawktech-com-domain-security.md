@@ -5,31 +5,31 @@ api_specs:
   label: TaskHawk Systems Billing API
   slug: taskhawktech-com-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskhawktech-com/refs/heads/main/openapi/taskhawktech-com-billing-api-openapi.yml
+  url: https://artifacts.apis.io/taskhawktech-com/openapi/taskhawktech-com-billing-api-openapi.yml
 - filename: taskhawktech-com-governance-api-openapi.yml
   format: yaml
   label: TaskHawk Systems Governance API
   slug: taskhawktech-com-governance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskhawktech-com/refs/heads/main/openapi/taskhawktech-com-governance-api-openapi.yml
+  url: https://artifacts.apis.io/taskhawktech-com/openapi/taskhawktech-com-governance-api-openapi.yml
 - filename: taskhawktech-com-media-api-openapi.yml
   format: yaml
   label: TaskHawk Systems Media API
   slug: taskhawktech-com-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskhawktech-com/refs/heads/main/openapi/taskhawktech-com-media-api-openapi.yml
+  url: https://artifacts.apis.io/taskhawktech-com/openapi/taskhawktech-com-media-api-openapi.yml
 - filename: taskhawktech-com-shield-api-openapi.yml
   format: yaml
   label: TaskHawk Systems Shield API
   slug: taskhawktech-com-shield-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskhawktech-com/refs/heads/main/openapi/taskhawktech-com-shield-api-openapi.yml
+  url: https://artifacts.apis.io/taskhawktech-com/openapi/taskhawktech-com-shield-api-openapi.yml
 - filename: taskhawktech-com-signup-api-openapi.yml
   format: yaml
   label: TaskHawk Systems Signup API
   slug: taskhawktech-com-signup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskhawktech-com/refs/heads/main/openapi/taskhawktech-com-signup-api-openapi.yml
+  url: https://artifacts.apis.io/taskhawktech-com/openapi/taskhawktech-com-signup-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: taskhawktech-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: taskhawktech.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  9 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: governance.taskhawktech.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  9 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: taskhawktech.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taskhawktech-com/refs/heads/main/security/taskhawktech-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/taskhawktech-com/security/taskhawktech-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI Governance

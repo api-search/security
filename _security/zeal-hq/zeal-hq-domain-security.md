@@ -5,61 +5,61 @@ api_specs:
   label: Zeal Companies API
   slug: zeal-hq-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-companies-api-openapi.yml
+  url: https://artifacts.apis.io/zeal-hq/openapi/zeal-hq-companies-api-openapi.yml
 - filename: zeal-hq-contractor-payments-api-openapi.yml
   format: yaml
   label: Zeal Contractor Payments API
   slug: zeal-hq-contractor-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-contractor-payments-api-openapi.yml
+  url: https://artifacts.apis.io/zeal-hq/openapi/zeal-hq-contractor-payments-api-openapi.yml
 - filename: zeal-hq-contractors-api-openapi.yml
   format: yaml
   label: Zeal Contractors API
   slug: zeal-hq-contractors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-contractors-api-openapi.yml
+  url: https://artifacts.apis.io/zeal-hq/openapi/zeal-hq-contractors-api-openapi.yml
 - filename: zeal-hq-employee-check-api-openapi.yml
   format: yaml
   label: Zeal Employee Check API
   slug: zeal-hq-employee-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-employee-check-api-openapi.yml
+  url: https://artifacts.apis.io/zeal-hq/openapi/zeal-hq-employee-check-api-openapi.yml
 - filename: zeal-hq-employees-api-openapi.yml
   format: yaml
   label: Zeal Employees API
   slug: zeal-hq-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-employees-api-openapi.yml
+  url: https://artifacts.apis.io/zeal-hq/openapi/zeal-hq-employees-api-openapi.yml
 - filename: zeal-hq-funding-api-openapi.yml
   format: yaml
   label: Zeal Funding API
   slug: zeal-hq-funding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-funding-api-openapi.yml
+  url: https://artifacts.apis.io/zeal-hq/openapi/zeal-hq-funding-api-openapi.yml
 - filename: zeal-hq-onboarding-api-openapi.yml
   format: yaml
   label: Zeal Onboarding API
   slug: zeal-hq-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/zeal-hq/openapi/zeal-hq-onboarding-api-openapi.yml
 - filename: zeal-hq-pay-schedules-api-openapi.yml
   format: yaml
   label: Zeal Pay Schedules API
   slug: zeal-hq-pay-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-pay-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/zeal-hq/openapi/zeal-hq-pay-schedules-api-openapi.yml
 - filename: zeal-hq-reports-api-openapi.yml
   format: yaml
   label: Zeal Reports API
   slug: zeal-hq-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-reports-api-openapi.yml
+  url: https://artifacts.apis.io/zeal-hq/openapi/zeal-hq-reports-api-openapi.yml
 - filename: zeal-hq-tax-api-openapi.yml
   format: yaml
   label: Zeal Tax API
   slug: zeal-hq-tax-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-tax-api-openapi.yml
+  url: https://artifacts.apis.io/zeal-hq/openapi/zeal-hq-tax-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -99,7 +99,7 @@ source_filename: zeal-hq-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.zeal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 18:29:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.zeal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 19:22:43 2026 GMT\n  hsts: null\n- host: api.zeal.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 18 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: zeal.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/security/zeal-hq-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zeal-hq/security/zeal-hq-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payroll

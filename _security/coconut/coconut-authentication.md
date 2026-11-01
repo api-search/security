@@ -7,13 +7,13 @@ api_specs:
   label: Coconut Jobs API
   slug: coconut-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coconut/refs/heads/main/openapi/coconut-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/coconut/openapi/coconut-jobs-api-openapi.yml
 - filename: coconut-metadata-api-openapi.yml
   format: yaml
   label: Coconut Metadata API
   slug: coconut-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coconut/refs/heads/main/openapi/coconut-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/coconut/openapi/coconut-metadata-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: coconut-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/coconut-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication. Use the API key as the username and leave the password\n    blank.\n  sources:\n  - openapi/coconut-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coconut/refs/heads/main/authentication/coconut-authentication.yml
+source_yaml_url: https://artifacts.apis.io/coconut/authentication/coconut-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Video

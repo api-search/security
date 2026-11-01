@@ -5,49 +5,49 @@ api_specs:
   label: Bluecore Authn API
   slug: bluecore-authn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-authn-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-authn-api-openapi.yml
 - filename: bluecore-campaignsapipublic-api-openapi.yml
   format: yaml
   label: Bluecore CampaignsAPIPublic API
   slug: bluecore-campaignsapipublic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-campaignsapipublic-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-campaignsapipublic-api-openapi.yml
 - filename: bluecore-direct-send-api-openapi.yml
   format: yaml
   label: Bluecore Direct send API
   slug: bluecore-direct-send-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-direct-send-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-direct-send-api-openapi.yml
 - filename: bluecore-eligibility-api-openapi.yml
   format: yaml
   label: Bluecore Eligibility API
   slug: bluecore-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-eligibility-api-openapi.yml
 - filename: bluecore-profile-api-openapi.yml
   format: yaml
   label: Bluecore Profile API
   slug: bluecore-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-profile-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-profile-api-openapi.yml
 - filename: bluecore-transactional-api-openapi.yml
   format: yaml
   label: Bluecore Transactional API
   slug: bluecore-transactional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-transactional-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-transactional-api-openapi.yml
 - filename: bluecore-get-status-api-openapi.yml
   format: yaml
   label: Bluecore GET STATUS API
   slug: bluecore-get-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-get-status-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-get-status-api-openapi.yml
 - filename: bluecore-send-email-api-openapi.yml
   format: yaml
   label: Bluecore SEND EMAIL API
   slug: bluecore-send-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-send-email-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-send-email-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -65,7 +65,7 @@ source_filename: bluecore-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: searched\nprobe: true\nsource: https://trust.bluecore.com/\nurl: https://trust.bluecore.com/\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://trust.bluecore.com/\n  keywords:\n  - soc 2\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/security/bluecore-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/bluecore/security/bluecore-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - Company

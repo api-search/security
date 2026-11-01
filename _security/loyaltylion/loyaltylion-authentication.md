@@ -7,37 +7,37 @@ api_specs:
   label: LoyaltyLion Activities API
   slug: loyaltylion-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/openapi/loyaltylion-activities-api-openapi.yml
+  url: https://artifacts.apis.io/loyaltylion/openapi/loyaltylion-activities-api-openapi.yml
 - filename: loyaltylion-customers-api-openapi.yml
   format: yaml
   label: LoyaltyLion Customers API
   slug: loyaltylion-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/openapi/loyaltylion-customers-api-openapi.yml
+  url: https://artifacts.apis.io/loyaltylion/openapi/loyaltylion-customers-api-openapi.yml
 - filename: loyaltylion-points-api-openapi.yml
   format: yaml
   label: LoyaltyLion Points API
   slug: loyaltylion-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/openapi/loyaltylion-points-api-openapi.yml
+  url: https://artifacts.apis.io/loyaltylion/openapi/loyaltylion-points-api-openapi.yml
 - filename: loyaltylion-redemptions-api-openapi.yml
   format: yaml
   label: LoyaltyLion Redemptions API
   slug: loyaltylion-redemptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/openapi/loyaltylion-redemptions-api-openapi.yml
+  url: https://artifacts.apis.io/loyaltylion/openapi/loyaltylion-redemptions-api-openapi.yml
 - filename: loyaltylion-rewards-api-openapi.yml
   format: yaml
   label: LoyaltyLion Rewards API
   slug: loyaltylion-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/openapi/loyaltylion-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/loyaltylion/openapi/loyaltylion-rewards-api-openapi.yml
 - filename: loyaltylion-utility-api-openapi.yml
   format: yaml
   label: LoyaltyLion Utility API
   slug: loyaltylion-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/openapi/loyaltylion-utility-api-openapi.yml
+  url: https://artifacts.apis.io/loyaltylion/openapi/loyaltylion-utility-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -70,7 +70,7 @@ source_filename: loyaltylion-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/loyaltylion-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Program API key passed as a Bearer token in the Authorization header.\n  sources:\n  - openapi/loyaltylion-openapi.yml\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: Deprecated token (username) and secret (password) over HTTP Basic auth, supported\n    until 2027-01-10.\n  sources:\n  - openapi/loyaltylion-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/authentication/loyaltylion-authentication.yml
+source_yaml_url: https://artifacts.apis.io/loyaltylion/authentication/loyaltylion-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Loyalty

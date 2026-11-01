@@ -7,31 +7,31 @@ api_specs:
   label: CoinGate Conversions API
   slug: coingate-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coingate/refs/heads/main/openapi/coingate-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/coingate/openapi/coingate-conversions-api-openapi.yml
 - filename: coingate-currencies-api-openapi.yml
   format: yaml
   label: CoinGate Currencies API
   slug: coingate-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coingate/refs/heads/main/openapi/coingate-currencies-api-openapi.yml
+  url: https://artifacts.apis.io/coingate/openapi/coingate-currencies-api-openapi.yml
 - filename: coingate-orders-api-openapi.yml
   format: yaml
   label: CoinGate Orders API
   slug: coingate-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coingate/refs/heads/main/openapi/coingate-orders-api-openapi.yml
+  url: https://artifacts.apis.io/coingate/openapi/coingate-orders-api-openapi.yml
 - filename: coingate-refunds-api-openapi.yml
   format: yaml
   label: CoinGate Refunds API
   slug: coingate-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coingate/refs/heads/main/openapi/coingate-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/coingate/openapi/coingate-refunds-api-openapi.yml
 - filename: coingate-send-requests-api-openapi.yml
   format: yaml
   label: CoinGate Send Requests API
   slug: coingate-send-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coingate/refs/heads/main/openapi/coingate-send-requests-api-openapi.yml
+  url: https://artifacts.apis.io/coingate/openapi/coingate-send-requests-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: coingate-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: API Token authentication. Obtain your API token from the CoinGate merchant dashboard.\n  sources:\n  - openapi/openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coingate/refs/heads/main/authentication/coingate-authentication.yml
+source_yaml_url: https://artifacts.apis.io/coingate/authentication/coingate-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Cryptocurrency

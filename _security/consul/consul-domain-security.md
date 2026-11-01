@@ -5,85 +5,85 @@ api_specs:
   label: HashiCorp Consul ACL API
   slug: consul-acl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/openapi/consul-acl-api-openapi.yml
+  url: https://artifacts.apis.io/consul/openapi/consul-acl-api-openapi.yml
 - filename: consul-agent-api-openapi.yml
   format: yaml
   label: HashiCorp Consul Agent API
   slug: consul-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/openapi/consul-agent-api-openapi.yml
+  url: https://artifacts.apis.io/consul/openapi/consul-agent-api-openapi.yml
 - filename: consul-catalog-api-openapi.yml
   format: yaml
   label: HashiCorp Consul Catalog API
   slug: consul-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/openapi/consul-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/consul/openapi/consul-catalog-api-openapi.yml
 - filename: consul-config-entries-api-openapi.yml
   format: yaml
   label: HashiCorp Consul Config Entries API
   slug: consul-config-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/openapi/consul-config-entries-api-openapi.yml
+  url: https://artifacts.apis.io/consul/openapi/consul-config-entries-api-openapi.yml
 - filename: consul-connect-api-openapi.yml
   format: yaml
   label: HashiCorp Consul Connect API
   slug: consul-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/openapi/consul-connect-api-openapi.yml
+  url: https://artifacts.apis.io/consul/openapi/consul-connect-api-openapi.yml
 - filename: consul-coordinates-api-openapi.yml
   format: yaml
   label: HashiCorp Consul Coordinates API
   slug: consul-coordinates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/openapi/consul-coordinates-api-openapi.yml
+  url: https://artifacts.apis.io/consul/openapi/consul-coordinates-api-openapi.yml
 - filename: consul-events-api-openapi.yml
   format: yaml
   label: HashiCorp Consul Events API
   slug: consul-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/openapi/consul-events-api-openapi.yml
+  url: https://artifacts.apis.io/consul/openapi/consul-events-api-openapi.yml
 - filename: consul-health-api-openapi.yml
   format: yaml
   label: HashiCorp Consul Health API
   slug: consul-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/openapi/consul-health-api-openapi.yml
+  url: https://artifacts.apis.io/consul/openapi/consul-health-api-openapi.yml
 - filename: consul-kv-store-api-openapi.yml
   format: yaml
   label: HashiCorp Consul KV Store API
   slug: consul-kv-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/openapi/consul-kv-store-api-openapi.yml
+  url: https://artifacts.apis.io/consul/openapi/consul-kv-store-api-openapi.yml
 - filename: consul-operator-api-openapi.yml
   format: yaml
   label: HashiCorp Consul Operator API
   slug: consul-operator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/openapi/consul-operator-api-openapi.yml
+  url: https://artifacts.apis.io/consul/openapi/consul-operator-api-openapi.yml
 - filename: consul-sessions-api-openapi.yml
   format: yaml
   label: HashiCorp Consul Sessions API
   slug: consul-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/openapi/consul-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/consul/openapi/consul-sessions-api-openapi.yml
 - filename: consul-snapshot-api-openapi.yml
   format: yaml
   label: HashiCorp Consul Snapshot API
   slug: consul-snapshot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/openapi/consul-snapshot-api-openapi.yml
+  url: https://artifacts.apis.io/consul/openapi/consul-snapshot-api-openapi.yml
 - filename: consul-status-api-openapi.yml
   format: yaml
   label: HashiCorp Consul Status API
   slug: consul-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/openapi/consul-status-api-openapi.yml
+  url: https://artifacts.apis.io/consul/openapi/consul-status-api-openapi.yml
 - filename: consul-transaction-api-openapi.yml
   format: yaml
   label: HashiCorp Consul Transaction API
   slug: consul-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/openapi/consul-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/consul/openapi/consul-transaction-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -125,12 +125,12 @@ source_filename: consul-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.consul.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 22:56:23 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.hashicorp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 05:45:45 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: consul.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: hashicorp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/security/consul-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/consul/security/consul-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - ACL
 - Configuration
-- Health Checking
+- Health Checks
 - Key-Value Store
 - Multi-Datacenter
 - Open Source

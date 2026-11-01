@@ -40,12 +40,12 @@ source_heading: Authentication Profile
 source_url: https://klamp.ai/blog/saml-authentication
 source_yaml: "generated: '2026-10-18'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://klamp.ai/blog/saml-authentication\nsources:\n- https://klamp.ai/blog/saml-authentication\n- https://klamp.ai/blog/anthropic-api-key\n- https://klamp.ai/blog/saas-authentication-methods-security-in-the-cloud\n- https://klamp.ai/blog/klamp-and-api-authentication-integration\ndescription: Authentication methods described across Klamp.ai documentation pages.\nschemes:\n- type: apiKey\n  name: API key\n  evidence: To authenticate your requests, include your Anthropic API key in the request headers.\n- type: http-basic\n  name: Basic Authentication\n  evidence: Basic Authentication involves sending a username and password with each API request.\n  location: header\n  header: Authorization\n- type: jwt\n  name: JWT\n  evidence: JWT is a compact, URL-safe token format that is commonly used for stateless authentication.\n  location: header\n  header: Authorization\n- type: oauth2\n\
   \  name: OAuth 2.0\n  evidence: OAuth 2.0 is a widely used authentication framework that allows users to grant third‑party applications access to their resources\n    without sharing their credentials.\n- type: other\n  name: SAML\n  evidence: SAML authentication is the behind‑the‑scenes hero that fixes this mess.\ndocs: https://klamp.ai/blog/saml-authentication\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/klamp/refs/heads/main/authentication/klamp-authentication.yml
+source_yaml_url: https://artifacts.apis.io/klamp/authentication/klamp-authentication.yml
 summary_line: 5 schemes
 tags:
 - Integration
 - iPaaS
 - Data Migration
-- SaaS
+- Software-as-a-Service
 - Embedded Solutions
 ---

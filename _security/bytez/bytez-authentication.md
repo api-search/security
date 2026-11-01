@@ -8,7 +8,7 @@ api_specs:
   label: Bytez Models API
   slug: bytez-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/openapi/bytez-models-api-openapi.yml
+  url: https://artifacts.apis.io/bytez/openapi/bytez-models-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: bytez-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/bytez-openapi.yaml\ndocs: https://docs.bytez.com/model-api/docs/get-started\nnotes: >-\n  Single API key model. Send the Bytez key in the `Authorization` header (value\n  is the raw key, e.g. `Authorization: BYTEZ_KEY`). To call closed-source\n  providers (OpenAI, Anthropic, Cohere, Google, Mistral) add a second\n  `provider-key` header carrying your provider account key; Bytez pass-through\n  routes it and never stores it. Keys are issued from the API dashboard at\n  https://bytez.com/api. No OAuth / scopes surface.\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: \"Set `Authorization` header to `BYTEZ_KEY` \\n``` 'Authorization: YOUR_KEY_HERE'\\\n    \\ ```\"\n  sources:\n  - openapi/bytez-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/authentication/bytez-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bytez/authentication/bytez-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

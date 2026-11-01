@@ -27,7 +27,7 @@ source_filename: finres-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.finres.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 06:28:19 2026 GMT\n  hsts: false\ndomains:\n- domain: finres.org\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/finres/refs/heads/main/security/finres-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/finres/security/finres-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

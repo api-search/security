@@ -8,19 +8,19 @@ api_specs:
   label: LicensePlateData Images API
   slug: licenseplatedata-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/licenseplatedata/refs/heads/main/openapi/licenseplatedata-images-api-openapi.yml
+  url: https://artifacts.apis.io/licenseplatedata/openapi/licenseplatedata-images-api-openapi.yml
 - filename: licenseplatedata-plate-api-openapi.yml
   format: yaml
   label: LicensePlateData Plate API
   slug: licenseplatedata-plate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/licenseplatedata/refs/heads/main/openapi/licenseplatedata-plate-api-openapi.yml
+  url: https://artifacts.apis.io/licenseplatedata/openapi/licenseplatedata-plate-api-openapi.yml
 - filename: licenseplatedata-vin-api-openapi.yml
   format: yaml
   label: LicensePlateData VIN API
   slug: licenseplatedata-vin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/licenseplatedata/refs/heads/main/openapi/licenseplatedata-vin-api-openapi.yml
+  url: https://artifacts.apis.io/licenseplatedata/openapi/licenseplatedata-vin-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -47,7 +47,7 @@ source_filename: licenseplatedata-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/licenseplatedata-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  sources:\n  - openapi/licenseplatedata-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/licenseplatedata/refs/heads/main/authentication/licenseplatedata-authentication.yml
+source_yaml_url: https://artifacts.apis.io/licenseplatedata/authentication/licenseplatedata-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Vehicles

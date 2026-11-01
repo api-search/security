@@ -7,43 +7,43 @@ api_specs:
   label: Crossplane CompositeResourceDefinitions API
   slug: crossplane-compositeresourcedefinitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/openapi/crossplane-compositeresourcedefinitions-api-openapi.yml
+  url: https://artifacts.apis.io/crossplane/openapi/crossplane-compositeresourcedefinitions-api-openapi.yml
 - filename: crossplane-compositions-api-openapi.yml
   format: yaml
   label: Crossplane Compositions API
   slug: crossplane-compositions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/openapi/crossplane-compositions-api-openapi.yml
+  url: https://artifacts.apis.io/crossplane/openapi/crossplane-compositions-api-openapi.yml
 - filename: crossplane-configurations-api-openapi.yml
   format: yaml
   label: Crossplane Configurations API
   slug: crossplane-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/openapi/crossplane-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/crossplane/openapi/crossplane-configurations-api-openapi.yml
 - filename: crossplane-deploymentruntimeconfigs-api-openapi.yml
   format: yaml
   label: Crossplane DeploymentRuntimeConfigs API
   slug: crossplane-deploymentruntimeconfigs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/openapi/crossplane-deploymentruntimeconfigs-api-openapi.yml
+  url: https://artifacts.apis.io/crossplane/openapi/crossplane-deploymentruntimeconfigs-api-openapi.yml
 - filename: crossplane-environmentconfigs-api-openapi.yml
   format: yaml
   label: Crossplane EnvironmentConfigs API
   slug: crossplane-environmentconfigs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/openapi/crossplane-environmentconfigs-api-openapi.yml
+  url: https://artifacts.apis.io/crossplane/openapi/crossplane-environmentconfigs-api-openapi.yml
 - filename: crossplane-functions-api-openapi.yml
   format: yaml
   label: Crossplane Functions API
   slug: crossplane-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/openapi/crossplane-functions-api-openapi.yml
+  url: https://artifacts.apis.io/crossplane/openapi/crossplane-functions-api-openapi.yml
 - filename: crossplane-providers-api-openapi.yml
   format: yaml
   label: Crossplane Providers API
   slug: crossplane-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/openapi/crossplane-providers-api-openapi.yml
+  url: https://artifacts.apis.io/crossplane/openapi/crossplane-providers-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -71,7 +71,7 @@ source_filename: crossplane-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/crossplane-kubernetes-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Kubernetes service account token or user bearer token for authenticating with\n    the Kubernetes API server. RBAC policies control which Crossplane resources each identity\n    can access.\n  sources:\n  - openapi/crossplane-kubernetes-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/authentication/crossplane-authentication.yml
+source_yaml_url: https://artifacts.apis.io/crossplane/authentication/crossplane-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Apache 2.0

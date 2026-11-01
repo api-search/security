@@ -5,25 +5,25 @@ api_specs:
   label: Eventuate Entities API
   slug: eventuate-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventuate/refs/heads/main/openapi/eventuate-entities-api-openapi.yml
+  url: https://artifacts.apis.io/eventuate/openapi/eventuate-entities-api-openapi.yml
 - filename: eventuate-events-api-openapi.yml
   format: yaml
   label: Eventuate Events API
   slug: eventuate-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventuate/refs/heads/main/openapi/eventuate-events-api-openapi.yml
+  url: https://artifacts.apis.io/eventuate/openapi/eventuate-events-api-openapi.yml
 - filename: eventuate-subscriptions-api-openapi.yml
   format: yaml
   label: Eventuate Subscriptions API
   slug: eventuate-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventuate/refs/heads/main/openapi/eventuate-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/eventuate/openapi/eventuate-subscriptions-api-openapi.yml
 - filename: eventuate-system-api-openapi.yml
   format: yaml
   label: Eventuate System API
   slug: eventuate-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventuate/refs/heads/main/openapi/eventuate-system-api-openapi.yml
+  url: https://artifacts.apis.io/eventuate/openapi/eventuate-system-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: eventuate-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: eventuate.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 17:26:52 2026 GMT\n  hsts: false\ndomains:\n- domain: eventuate.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eventuate/refs/heads/main/security/eventuate-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/eventuate/security/eventuate-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - CQRS

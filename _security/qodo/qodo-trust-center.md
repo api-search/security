@@ -5,13 +5,13 @@ api_specs:
   label: Qodo Merge (PR-Agent)
   slug: qodo-merge-pr-agent
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qodo/refs/heads/main/openapi/_original/qodo-openapi.yml
+  url: https://artifacts.apis.io/qodo/openapi/_original/qodo-openapi.yml
 - filename: qodo-openapi.yml
   format: yaml
   label: Qodo Hosted API
   slug: qodo-hosted-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qodo/refs/heads/main/openapi/_original/qodo-openapi.yml
+  url: https://artifacts.apis.io/qodo/openapi/_original/qodo-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2
@@ -28,7 +28,7 @@ source_filename: qodo-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.qodo.ai/\nurl: https://trust.qodo.ai/\ncertifications:\n- SOC 2\nevidence:\n- source: https://trust.qodo.ai/\n  keywords:\n  - soc 2\n  - soc2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qodo/refs/heads/main/security/qodo-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/qodo/security/qodo-trust-center.yml
 summary_line: SOC 2
 tags:
 - Artificial Intelligence

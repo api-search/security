@@ -5,19 +5,19 @@ api_specs:
   label: Penn Courses API (Penn Course Alert / Plan / Review / Degree Plan)
   slug: penn-courses
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/openapi/university-of-pennsylvania-accounts-user-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-pennsylvania/openapi/university-of-pennsylvania-accounts-user-api-openapi.yml
 - filename: university-of-pennsylvania-catalog-api-openapi.yml
   format: yaml
   label: University of Pennsylvania Catalog API
   slug: university-of-pennsylvania-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/openapi/university-of-pennsylvania-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-pennsylvania/openapi/university-of-pennsylvania-catalog-api-openapi.yml
 - filename: university-of-pennsylvania-request-api-openapi.yml
   format: yaml
   label: University of Pennsylvania Request API
   slug: university-of-pennsylvania-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/openapi/university-of-pennsylvania-request-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-pennsylvania/openapi/university-of-pennsylvania-request-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: university-of-pennsylvania-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.upenn.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 19:15:27 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: pennlabs.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 15:57:44 2026 GMT\n  hsts: false\n- host: penn-sdk.readthedocs.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 13:13:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: upenn.edu\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: pennlabs.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/security/university-of-pennsylvania-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/university-of-pennsylvania/security/university-of-pennsylvania-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Education

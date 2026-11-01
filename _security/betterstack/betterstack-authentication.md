@@ -7,25 +7,25 @@ api_specs:
   label: Better Stack Heartbeats API
   slug: betterstack-heartbeats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/openapi/betterstack-heartbeats-api-openapi.yml
+  url: https://artifacts.apis.io/betterstack/openapi/betterstack-heartbeats-api-openapi.yml
 - filename: betterstack-incidents-api-openapi.yml
   format: yaml
   label: Better Stack Incidents API
   slug: betterstack-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/openapi/betterstack-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/betterstack/openapi/betterstack-incidents-api-openapi.yml
 - filename: betterstack-monitors-api-openapi.yml
   format: yaml
   label: Better Stack Monitors API
   slug: betterstack-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/openapi/betterstack-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/betterstack/openapi/betterstack-monitors-api-openapi.yml
 - filename: betterstack-status-pages-api-openapi.yml
   format: yaml
   label: Better Stack Status Pages API
   slug: betterstack-status-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/openapi/betterstack-status-pages-api-openapi.yml
+  url: https://artifacts.apis.io/betterstack/openapi/betterstack-status-pages-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-09-04'\nmethod: searched\nsource: >-\n  https://b
   \  type: http\n  scheme: bearer\n  surface: OTLP ingestion\n  description: >-\n    A per-source ingestion token sent as `Authorization: Bearer $SOURCE_TOKEN` when posting\n    OTLP/HTTP to $INGESTING_HOST/v1/logs, /v1/traces and /v1/metrics. Distinct from the\n    management API tokens above — it writes telemetry in, it does not read or manage anything.\n  sources:\n  - https://betterstack.com/docs/logs/open-telemetry/\n- name: oauth2\n  type: oauth2\n  surface: MCP server (https://mcp.betterstack.com)\n  description: >-\n    OAuth 2.1 authorization-code flow with PKCE and dynamic client registration, used by the\n    Better Stack MCP server. Not available on the REST APIs.\n  flows:\n    authorizationCode:\n      authorizationUrl: https://betterstack.com/oauth/authorize\n      tokenUrl: https://betterstack.com/oauth/token\n      registrationUrl: https://betterstack.com/oauth/register\n      refreshUrl: https://betterstack.com/oauth/token\n      scopes:\n        read: Read access to Better\
   \ Stack resources.\n        write: Write access to Better Stack resources.\n  pkce: S256\n  dynamic_client_registration: true\n  token_endpoint_auth_methods_supported: [none]\n  discovery:\n  - https://betterstack.com/.well-known/oauth-authorization-server\n  - https://mcp.betterstack.com/.well-known/oauth-protected-resource\n  sources:\n  - well-known/betterstack-oauth-authorization-server.json\n  - well-known/betterstack-mcp-oauth-protected-resource.json\n  - https://betterstack.com/docs/getting-started/integrations/mcp/\n  note: >-\n    The MCP server also accepts a static Better Stack API token as a bearer credential for\n    clients that cannot do OAuth.\nsso:\n  consumed: true\n  providers: [Okta, Azure AD]\n  note: >-\n    SSO is a paid Enterprise add-on for signing INTO Better Stack ($5 per user/month per the\n    pricing page). Better Stack is an SSO relying party, not an identity provider —\n    /.well-known/openid-configuration 404s on every host.\ngaps:\n- No mTLS, request\
   \ signing or HMAC option on any surface.\n- No documented token rotation policy, expiry, or revocation endpoint for the static REST\n  tokens.\n- The REST tokens carry no scopes, so least-privilege is limited to team boundaries.\n- 401 responses are identical for a missing credential and an invalid one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/authentication/betterstack-authentication.yml
+source_yaml_url: https://artifacts.apis.io/betterstack/authentication/betterstack-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Observability

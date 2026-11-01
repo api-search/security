@@ -7,31 +7,43 @@ api_specs:
   label: Adaptive Security Audit Logs API
   slug: adaptive-security-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/openapi/adaptive-security-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-security/openapi/adaptive-security-audit-logs-api-openapi.yml
 - filename: adaptive-security-groups-api-openapi.yml
   format: yaml
   label: Adaptive Security Groups API
   slug: adaptive-security-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/openapi/adaptive-security-groups-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-security/openapi/adaptive-security-groups-api-openapi.yml
 - filename: adaptive-security-phishing-api-openapi.yml
   format: yaml
   label: Adaptive Security Phishing API
   slug: adaptive-security-phishing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/openapi/adaptive-security-phishing-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-security/openapi/adaptive-security-phishing-api-openapi.yml
 - filename: adaptive-security-training-api-openapi.yml
   format: yaml
   label: Adaptive Security Training API
   slug: adaptive-security-training-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/openapi/adaptive-security-training-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-security/openapi/adaptive-security-training-api-openapi.yml
 - filename: adaptive-security-users-api-openapi.yml
   format: yaml
   label: Adaptive Security Users API
   slug: adaptive-security-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/openapi/adaptive-security-users-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-security/openapi/adaptive-security-users-api-openapi.yml
+- filename: adaptive-security-email-security-api-openapi.yml
+  format: yaml
+  label: Adaptive Security Email Security API
+  slug: adaptive-security-email-security-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adaptive-security/openapi/adaptive-security-email-security-api-openapi.yml
+- filename: adaptive-security-webhooks-api-openapi.yml
+  format: yaml
+  label: Adaptive Security Webhooks API
+  slug: adaptive-security-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adaptive-security/openapi/adaptive-security-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +70,7 @@ source_filename: adaptive-security-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: derived\nsource: openapi/adaptive-security-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: bearer-token\n  type: http\n  scheme: bearer\n  description: 'API authentication token obtained from the Adaptive Admin portal (Settings →\n    API Tokens). Include the token in the Authorization header as: Bearer [example key]'\n  sources:\n  - openapi/adaptive-security-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/authentication/adaptive-security-authentication.yml
+source_yaml_url: https://artifacts.apis.io/adaptive-security/authentication/adaptive-security-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

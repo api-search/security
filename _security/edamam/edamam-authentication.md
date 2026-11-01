@@ -26,7 +26,13 @@ api_specs:
   label: Edamam Food Database API
   slug: edamam-food-database-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edamam/refs/heads/main/openapi/edamam-food-database-api-openapi.yml
+  url: https://artifacts.apis.io/edamam/openapi/edamam-food-database-api-openapi.yml
+- filename: edamam-shopping-list-api-openapi.yml
+  format: yaml
+  label: Edamam Shopping List API
+  slug: edamam-shopping-list-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/edamam/openapi/edamam-shopping-list-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -63,7 +69,7 @@ source_filename: edamam-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/edamam-food-and-grocery-database-api-openapi.yml, openapi/edamam-meal-planner-api-openapi.yml,\n  openapi/edamam-nutrition-analysis-api-openapi.yml, openapi/edamam-recipe-search-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - query\nschemes:\n- name: AppCreds\n  type: apiKey\n  in: query\n  parameter: app_key\n  description: App key issued by Edamam. Must be sent with the matching `app_id` query parameter.\n  sources:\n  - openapi/edamam-food-and-grocery-database-api-openapi.yml\n  - openapi/edamam-nutrition-analysis-api-openapi.yml\n  - openapi/edamam-recipe-search-api-openapi.yml\n- name: BasicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication using your Edamam app_id as username and app_key as\n    password.\n  sources:\n  - openapi/edamam-meal-planner-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edamam/refs/heads/main/authentication/edamam-authentication.yml
+source_yaml_url: https://artifacts.apis.io/edamam/authentication/edamam-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Restaurant

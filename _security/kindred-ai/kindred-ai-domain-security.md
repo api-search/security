@@ -30,7 +30,7 @@ source_filename: kindred-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: dig (kindred.ai) — brand domain; no live developer/web host at time of probe\nnotes: >-\n  kindred.ai resolves to CSC-managed corporate DNS (brand-protection registrar).\n  https://kindred.ai timed out and https://www.kindred.ai returned HTTP 404 at\n  probe time, so there is no live HTTPS web host to record TLS/HSTS for. The\n  registrable domain still carries active Google Workspace mail plus SPF/DMARC,\n  captured below. Absence of a CAA or DNSSEC record is valid recorded data.\nhosts: []\ndomains:\n  - domain: kindred.ai\n    dnssec: false\n    caa: []\n    spf: true\n    spf_record: \"v=spf1 include:_spf.google.com include:servers.mcsv.net ?all\"\n    dmarc: true\n    dmarc_policy: none\n    dmarc_record: \"v=DMARC1; p=none; rua=mailto:interlaced@kindred.ai\"\n    mx:\n      - aspmx.l.google.com\n      - alt1.aspmx.l.google.com\n      - alt2.aspmx.l.google.com\n      - alt3.aspmx.l.google.com\n      - alt4.aspmx.l.google.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kindred-ai/refs/heads/main/security/kindred-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kindred-ai/security/kindred-ai-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

@@ -5,19 +5,19 @@ api_specs:
   label: Kimetsu A2A API
   slug: kimetsu-dev-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kimetsu-dev/refs/heads/main/openapi/kimetsu-dev-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/kimetsu-dev/openapi/kimetsu-dev-a2a-api-openapi.yml
 - filename: kimetsu-dev-discovery-api-openapi.yml
   format: yaml
   label: Kimetsu Discovery API
   slug: kimetsu-dev-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kimetsu-dev/refs/heads/main/openapi/kimetsu-dev-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/kimetsu-dev/openapi/kimetsu-dev-discovery-api-openapi.yml
 - filename: kimetsu-dev-sidequest-api-openapi.yml
   format: yaml
   label: Kimetsu Sidequest API
   slug: kimetsu-dev-sidequest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kimetsu-dev/refs/heads/main/openapi/kimetsu-dev-sidequest-api-openapi.yml
+  url: https://artifacts.apis.io/kimetsu-dev/openapi/kimetsu-dev-sidequest-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,7 +50,7 @@ source_filename: kimetsu-dev-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: kimetsu.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 04:05:39 2026 GMT\n  hsts: false\n- host: agents.kimetsu.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 03:19:14 2026 GMT\n  hsts: false\ndomains:\n- domain: kimetsu.dev\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kimetsu-dev/refs/heads/main/security/kimetsu-dev-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kimetsu-dev/security/kimetsu-dev-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company

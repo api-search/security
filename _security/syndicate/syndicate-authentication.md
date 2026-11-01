@@ -7,25 +7,25 @@ api_specs:
   label: Syndicate api-key-manager > admin API
   slug: syndicate-api-key-manager-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/syndicate/refs/heads/main/openapi/syndicate-api-key-manager-admin-api-openapi.yml
+  url: https://artifacts.apis.io/syndicate/openapi/syndicate-api-key-manager-admin-api-openapi.yml
 - filename: syndicate-call-api-openapi.yml
   format: yaml
   label: Syndicate Call API
   slug: syndicate-call-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/syndicate/refs/heads/main/openapi/syndicate-call-api-openapi.yml
+  url: https://artifacts.apis.io/syndicate/openapi/syndicate-call-api-openapi.yml
 - filename: syndicate-transact-api-openapi.yml
   format: yaml
   label: Syndicate Transact API
   slug: syndicate-transact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/syndicate/refs/heads/main/openapi/syndicate-transact-api-openapi.yml
+  url: https://artifacts.apis.io/syndicate/openapi/syndicate-transact-api-openapi.yml
 - filename: syndicate-wallet-api-openapi.yml
   format: yaml
   label: Syndicate Wallet API
   slug: syndicate-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/syndicate/refs/heads/main/openapi/syndicate-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/syndicate/openapi/syndicate-wallet-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -51,7 +51,7 @@ source_filename: syndicate-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/syndicate-transaction-cloud-openapi-original.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: default\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/syndicate-transaction-cloud-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/syndicate/refs/heads/main/authentication/syndicate-authentication.yml
+source_yaml_url: https://artifacts.apis.io/syndicate/authentication/syndicate-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Blockchain

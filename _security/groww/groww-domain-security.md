@@ -5,37 +5,37 @@ api_specs:
   label: Groww Authentication API
   slug: groww-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/openapi/groww-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/groww/openapi/groww-authentication-api-openapi.yml
 - filename: groww-historical-data-api-openapi.yml
   format: yaml
   label: Groww Historical Data API
   slug: groww-historical-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/openapi/groww-historical-data-api-openapi.yml
+  url: https://artifacts.apis.io/groww/openapi/groww-historical-data-api-openapi.yml
 - filename: groww-live-data-api-openapi.yml
   format: yaml
   label: Groww Live Data API
   slug: groww-live-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/openapi/groww-live-data-api-openapi.yml
+  url: https://artifacts.apis.io/groww/openapi/groww-live-data-api-openapi.yml
 - filename: groww-margin-api-openapi.yml
   format: yaml
   label: Groww Margin API
   slug: groww-margin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/openapi/groww-margin-api-openapi.yml
+  url: https://artifacts.apis.io/groww/openapi/groww-margin-api-openapi.yml
 - filename: groww-orders-api-openapi.yml
   format: yaml
   label: Groww Orders API
   slug: groww-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/openapi/groww-orders-api-openapi.yml
+  url: https://artifacts.apis.io/groww/openapi/groww-orders-api-openapi.yml
 - filename: groww-portfolio-api-openapi.yml
   format: yaml
   label: Groww Portfolio API
   slug: groww-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/openapi/groww-portfolio-api-openapi.yml
+  url: https://artifacts.apis.io/groww/openapi/groww-portfolio-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: groww-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: groww.in\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 10:48:30 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.groww.in\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 10:48:30 2026 GMT\n  hsts: null\ndomains:\n- domain: groww.in\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/security/groww-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/groww/security/groww-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

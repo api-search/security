@@ -8,19 +8,19 @@ api_specs:
   label: DocuSeal Submissions API
   slug: docuseal-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/openapi/docuseal-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/docuseal/openapi/docuseal-submissions-api-openapi.yml
 - filename: docuseal-submitters-api-openapi.yml
   format: yaml
   label: DocuSeal Submitters API
   slug: docuseal-submitters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/openapi/docuseal-submitters-api-openapi.yml
+  url: https://artifacts.apis.io/docuseal/openapi/docuseal-submitters-api-openapi.yml
 - filename: docuseal-templates-api-openapi.yml
   format: yaml
   label: DocuSeal Templates API
   slug: docuseal-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/openapi/docuseal-templates-api-openapi.yml
+  url: https://artifacts.apis.io/docuseal/openapi/docuseal-templates-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -47,7 +47,7 @@ source_filename: docuseal-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/docuseal-docuseal-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: AuthToken\n  type: apiKey\n  in: header\n  parameter: X-Auth-Token\n  sources:\n  - openapi/docuseal-docuseal-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/authentication/docuseal-authentication.yml
+source_yaml_url: https://artifacts.apis.io/docuseal/authentication/docuseal-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - E-Signature

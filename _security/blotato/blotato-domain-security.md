@@ -5,25 +5,25 @@ api_specs:
   label: Blotato Accounts API
   slug: blotato-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blotato/refs/heads/main/openapi/blotato-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/blotato/openapi/blotato-accounts-api-openapi.yml
 - filename: blotato-media-api-openapi.yml
   format: yaml
   label: Blotato Media API
   slug: blotato-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blotato/refs/heads/main/openapi/blotato-media-api-openapi.yml
+  url: https://artifacts.apis.io/blotato/openapi/blotato-media-api-openapi.yml
 - filename: blotato-posts-api-openapi.yml
   format: yaml
   label: Blotato Posts API
   slug: blotato-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blotato/refs/heads/main/openapi/blotato-posts-api-openapi.yml
+  url: https://artifacts.apis.io/blotato/openapi/blotato-posts-api-openapi.yml
 - filename: blotato-visuals-api-openapi.yml
   format: yaml
   label: Blotato Visuals API
   slug: blotato-visuals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blotato/refs/heads/main/openapi/blotato-visuals-api-openapi.yml
+  url: https://artifacts.apis.io/blotato/openapi/blotato-visuals-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: blotato-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.blotato.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 20:37:25 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: help.blotato.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 03:03:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: backend.blotato.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 23:21:30 2026 GMT\n  hsts: null\ndomains:\n- domain: blotato.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blotato/refs/heads/main/security/blotato-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/blotato/security/blotato-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Social Media

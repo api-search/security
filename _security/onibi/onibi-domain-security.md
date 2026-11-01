@@ -39,7 +39,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.onibi.gg\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 20:15:46 2026 GMT\n  hsts: false\n- host: www.tomoendlessblue.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 18:54:14 2026 GMT\n  hsts: false\ndomains:\n- domain: onibi.gg\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: tomoendlessblue.com\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n  dmarc_policy: null\nx-note: >-\n  www.tomoendlessblue.com (the product site for Tomo: Endless Blue) was probed by hand with the same\n  DNS/TLS/HTTP checks and appended, because probe-domain-security.py only reads Website/Portal/\n  humanURL/baseURL hosts from apis.yml and the Tomo site is carried as a Product pointer. Neither\n  host sends HSTS; neither domain publishes a CAA record; tomoendlessblue.com publishes no SPF or\n \
   \ DMARC record (onibi.gg publishes both, DMARC p=reject). Absence of a record is observed data.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onibi/refs/heads/main/security/onibi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/onibi/security/onibi-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

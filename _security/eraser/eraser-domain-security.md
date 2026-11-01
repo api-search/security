@@ -5,43 +5,43 @@ api_specs:
   label: Eraser AI Requests API
   slug: eraser-ai-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/openapi/eraser-ai-requests-api-openapi.yml
+  url: https://artifacts.apis.io/eraser/openapi/eraser-ai-requests-api-openapi.yml
 - filename: eraser-audit-logs-api-openapi.yml
   format: yaml
   label: Eraser Audit Logs API
   slug: eraser-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/openapi/eraser-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/eraser/openapi/eraser-audit-logs-api-openapi.yml
 - filename: eraser-diagram-elements-api-openapi.yml
   format: yaml
   label: Eraser Diagram Elements API
   slug: eraser-diagram-elements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/openapi/eraser-diagram-elements-api-openapi.yml
+  url: https://artifacts.apis.io/eraser/openapi/eraser-diagram-elements-api-openapi.yml
 - filename: eraser-diagrams-ai-api-openapi.yml
   format: yaml
   label: Eraser Diagrams (AI) API
   slug: eraser-diagrams-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/openapi/eraser-diagrams-ai-api-openapi.yml
+  url: https://artifacts.apis.io/eraser/openapi/eraser-diagrams-ai-api-openapi.yml
 - filename: eraser-files-api-openapi.yml
   format: yaml
   label: Eraser Files API
   slug: eraser-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/openapi/eraser-files-api-openapi.yml
+  url: https://artifacts.apis.io/eraser/openapi/eraser-files-api-openapi.yml
 - filename: eraser-folders-api-openapi.yml
   format: yaml
   label: Eraser Folders API
   slug: eraser-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/openapi/eraser-folders-api-openapi.yml
+  url: https://artifacts.apis.io/eraser/openapi/eraser-folders-api-openapi.yml
 - filename: eraser-usage-metrics-api-openapi.yml
   format: yaml
   label: Eraser Usage Metrics API
   slug: eraser-usage-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/openapi/eraser-usage-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/eraser/openapi/eraser-usage-metrics-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -88,7 +88,7 @@ source_filename: eraser-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.eraser.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 13 17:00:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.eraser.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 13:44:58 2026 GMT\n  hsts: null\n- host: app.eraser.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 00:58:26 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: eraser.io\n  dnssec: false\n  caa:\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/security/eraser-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/eraser/security/eraser-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Diagramming

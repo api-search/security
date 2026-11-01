@@ -8,19 +8,19 @@ api_specs:
   label: Superlinked Data Loader API
   slug: superlinked-data-loader-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superlinked/refs/heads/main/openapi/superlinked-data-loader-api-openapi.yml
+  url: https://artifacts.apis.io/superlinked/openapi/superlinked-data-loader-api-openapi.yml
 - filename: superlinked-ingestion-api-openapi.yml
   format: yaml
   label: Superlinked Ingestion API
   slug: superlinked-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superlinked/refs/heads/main/openapi/superlinked-ingestion-api-openapi.yml
+  url: https://artifacts.apis.io/superlinked/openapi/superlinked-ingestion-api-openapi.yml
 - filename: superlinked-query-api-openapi.yml
   format: yaml
   label: Superlinked Query API
   slug: superlinked-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superlinked/refs/heads/main/openapi/superlinked-query-api-openapi.yml
+  url: https://artifacts.apis.io/superlinked/openapi/superlinked-query-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -55,7 +55,7 @@ source_filename: superlinked-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/superlinked-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: Optional API key header. The open-source Superlinked Server ships without built-in\n    auth; deployments commonly place an API key or bearer token check in front of it (gateway\n    or custom middleware). Configure to match your deployment.\n  sources:\n  - openapi/superlinked-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Optional bearer token, when the deployment fronts the server with token auth.\n  sources:\n  - openapi/superlinked-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superlinked/refs/heads/main/authentication/superlinked-authentication.yml
+source_yaml_url: https://artifacts.apis.io/superlinked/authentication/superlinked-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Vectors

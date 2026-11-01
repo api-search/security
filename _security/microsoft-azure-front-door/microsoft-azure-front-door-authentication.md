@@ -7,13 +7,13 @@ api_specs:
   label: Azure Front Door Operations API
   slug: microsoft-azure-front-door-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-front-door/refs/heads/main/openapi/microsoft-azure-front-door-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-front-door/openapi/microsoft-azure-front-door-operations-api-openapi.yml
 - filename: microsoft-azure-front-door-profiles-api-openapi.yml
   format: yaml
   label: Azure Front Door Profiles API
   slug: microsoft-azure-front-door-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-front-door/refs/heads/main/openapi/microsoft-azure-front-door-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-front-door/openapi/microsoft-azure-front-door-profiles-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -44,7 +44,7 @@ source_filename: microsoft-azure-front-door-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-azure-front-door-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - implicit\nschemes:\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  description: Azure Active Directory OAuth2 Flow.\n  sources:\n  - openapi/microsoft-azure-front-door-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-front-door/refs/heads/main/authentication/microsoft-azure-front-door-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-front-door/authentication/microsoft-azure-front-door-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - CDN

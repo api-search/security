@@ -26,7 +26,7 @@ source_filename: emailio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.emailio.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar  5 11:00:34 2027 GMT\n  hsts: false\ndomains:\n- domain: emailio.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emailio/refs/heads/main/security/emailio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/emailio/security/emailio-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Company

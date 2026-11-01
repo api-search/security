@@ -7,13 +7,13 @@ api_specs:
   label: Commure Auth API
   slug: commure-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/openapi/commure-auth-api-openapi.yml
+  url: https://artifacts.apis.io/commure/openapi/commure-auth-api-openapi.yml
 - filename: commure-fhir-api-openapi.yml
   format: yaml
   label: Commure FHIR API
   slug: commure-fhir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/openapi/commure-fhir-api-openapi.yml
+  url: https://artifacts.apis.io/commure/openapi/commure-fhir-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-08-15'\nmethod: searched\nsource: openapi/commure
   \ custom authorization server - the one carrying Commure-configured scopes.\n    metadata:\n    - path: /oauth2/default/.well-known/openid-configuration\n      status: 200\n      file: well-known/commure-accounts-default-openid-configuration.json\n      spec: OpenID Connect Discovery 1.0\n    endpoints:\n      authorization: https://accounts.commure.com/oauth2/default/v1/authorize\n      token: https://accounts.commure.com/oauth2/default/v1/token\n      userinfo: https://accounts.commure.com/oauth2/default/v1/userinfo\n      jwks: https://accounts.commure.com/oauth2/default/v1/keys\n      introspection: https://accounts.commure.com/oauth2/default/v1/introspect\n      revocation: https://accounts.commure.com/oauth2/default/v1/revoke\n      end_session: https://accounts.commure.com/oauth2/default/v1/logout\n  grants:\n  - authorization_code\n  - implicit\n  - refresh_token\n  - password\n  - client_credentials\n  - 'urn:ietf:params:oauth:grant-type:device_code'\n  grants_note: >-\n    client_credentials\
   \ is advertised only by the org authorization server\n    (/.well-known/oauth-authorization-server); the custom `default` server does not list it. The\n    urn:okta:* and auth0.com MFA grant types in the raw documents are Okta platform grants and are\n    not restated here.\n  response_types: [code, token, id_token, code id_token, code token, id_token token, code id_token token]\n  pkce: true\n  code_challenge_methods: [S256]\n  token_endpoint_auth_methods: [client_secret_basic, client_secret_post, client_secret_jwt, private_key_jwt, none]\n  private_key_jwt: true\n  dpop: true\n  dpop_algorithms: [RS256, RS384, RS512, ES256, ES384, ES512]\n  dynamic_client_registration: true\n  dynamic_client_registration_note: >-\n    A registration_endpoint is advertised (/oauth2/v1/clients). This is standard Okta org behaviour\n    and is almost certainly access-token protected; it was not exercised.\n  caveat: >-\n    This is a delegated identity provider. It authenticates humans into Commure's product\
   \ estate;\n    it is NOT an authorization server for a public Commure API, and no Commure API resource server\n    advertises it (/.well-known/oauth-protected-resource returns 405 here). Do not read it as a\n    developer-facing API auth surface.\nx-searched:\n  fetched: '2026-08-15'\n  previous: '2026-07-31'\n  sources:\n  - https://www.postman.com/commure/commure/documentation/vp76tv7/commure-fhir-api\n  - postman/commure-fhir-api-collection.json\n  findings:\n  - Commure publishes no standalone authentication documentation page; the auth contract above\n    is taken from the request descriptions in its public Postman collection.\n  - Access is gated by the Commure Developer User Agreement - credentials are issued under a\n    partner/approval relationship, not self-serve.\n  - Neither discovery document (/auth/.well-known/openid-configuration,\n    /api/v1/r4/.well-known/smart-configuration) is currently served by any reachable host; see\n    well-known/commure-well-known.yml.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/authentication/commure-authentication.yml
+source_yaml_url: https://artifacts.apis.io/commure/authentication/commure-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Healthcare

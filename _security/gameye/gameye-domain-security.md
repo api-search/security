@@ -5,31 +5,49 @@ api_specs:
   label: Gameye Artifacts API
   slug: gameye-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/openapi/gameye-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/gameye/openapi/gameye-artifacts-api-openapi.yml
 - filename: gameye-available-location-api-openapi.yml
   format: yaml
   label: Gameye Available Location API
   slug: gameye-available-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/openapi/gameye-available-location-api-openapi.yml
+  url: https://artifacts.apis.io/gameye/openapi/gameye-available-location-api-openapi.yml
 - filename: gameye-logs-api-openapi.yml
   format: yaml
   label: Gameye Logs API
   slug: gameye-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/openapi/gameye-logs-api-openapi.yml
+  url: https://artifacts.apis.io/gameye/openapi/gameye-logs-api-openapi.yml
 - filename: gameye-session-api-openapi.yml
   format: yaml
   label: Gameye Session API
   slug: gameye-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/openapi/gameye-session-api-openapi.yml
+  url: https://artifacts.apis.io/gameye/openapi/gameye-session-api-openapi.yml
 - filename: gameye-tag-api-openapi.yml
   format: yaml
   label: Gameye Tag API
   slug: gameye-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/openapi/gameye-tag-api-openapi.yml
+  url: https://artifacts.apis.io/gameye/openapi/gameye-tag-api-openapi.yml
+- filename: gameye-application-api-openapi.yml
+  format: yaml
+  label: Gameye Application API
+  slug: gameye-application-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gameye/openapi/gameye-application-api-openapi.yml
+- filename: gameye-region-api-openapi.yml
+  format: yaml
+  label: Gameye Region API
+  slug: gameye-region-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gameye/openapi/gameye-region-api-openapi.yml
+- filename: gameye-token-api-openapi.yml
+  format: yaml
+  label: Gameye Token API
+  slug: gameye-token-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gameye/openapi/gameye-token-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -73,7 +91,7 @@ source_filename: gameye-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gameye.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 17:16:20 2026 GMT\n  hsts: false\n- host: api.sandbox-gameye.gameye.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 13:37:04 2026 GMT\n  hsts: null\n- host: api.production-gameye.gameye.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 11:50:18 2026 GMT\n  hsts: null\ndomains:\n- domain: gameye.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: gameye.net\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/security/gameye-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gameye/security/gameye-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

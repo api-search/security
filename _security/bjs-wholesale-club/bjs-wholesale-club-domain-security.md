@@ -5,31 +5,31 @@ api_specs:
   label: BJ's Wholesale Club Clubs API
   slug: bjs-wholesale-club-clubs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/openapi/bjs-wholesale-club-clubs-api-openapi.yml
+  url: https://artifacts.apis.io/bjs-wholesale-club/openapi/bjs-wholesale-club-clubs-api-openapi.yml
 - filename: bjs-wholesale-club-inventory-api-openapi.yml
   format: yaml
   label: BJ's Wholesale Club Inventory API
   slug: bjs-wholesale-club-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/openapi/bjs-wholesale-club-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/bjs-wholesale-club/openapi/bjs-wholesale-club-inventory-api-openapi.yml
 - filename: bjs-wholesale-club-membership-api-openapi.yml
   format: yaml
   label: BJ's Wholesale Club Membership API
   slug: bjs-wholesale-club-membership-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/openapi/bjs-wholesale-club-membership-api-openapi.yml
+  url: https://artifacts.apis.io/bjs-wholesale-club/openapi/bjs-wholesale-club-membership-api-openapi.yml
 - filename: bjs-wholesale-club-orders-api-openapi.yml
   format: yaml
   label: BJ's Wholesale Club Orders API
   slug: bjs-wholesale-club-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/openapi/bjs-wholesale-club-orders-api-openapi.yml
+  url: https://artifacts.apis.io/bjs-wholesale-club/openapi/bjs-wholesale-club-orders-api-openapi.yml
 - filename: bjs-wholesale-club-products-api-openapi.yml
   format: yaml
   label: BJ's Wholesale Club Products API
   slug: bjs-wholesale-club-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/openapi/bjs-wholesale-club-products-api-openapi.yml
+  url: https://artifacts.apis.io/bjs-wholesale-club/openapi/bjs-wholesale-club-products-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: bjs-wholesale-club-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bjs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 30 23:59:59 2026 GMT\n  hsts: null\n- host: api.bjs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 30 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: bjs.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/security/bjs-wholesale-club-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bjs-wholesale-club/security/bjs-wholesale-club-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - E-Commerce

@@ -5,31 +5,31 @@ api_specs:
   label: Bithumb Account API
   slug: bithumb-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/openapi/bithumb-account-api-openapi.yml
+  url: https://artifacts.apis.io/bithumb/openapi/bithumb-account-api-openapi.yml
 - filename: bithumb-general-api-openapi.yml
   format: yaml
   label: Bithumb General API
   slug: bithumb-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/openapi/bithumb-general-api-openapi.yml
+  url: https://artifacts.apis.io/bithumb/openapi/bithumb-general-api-openapi.yml
 - filename: bithumb-market-data-api-openapi.yml
   format: yaml
   label: Bithumb Market Data API
   slug: bithumb-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/openapi/bithumb-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/bithumb/openapi/bithumb-market-data-api-openapi.yml
 - filename: bithumb-spot-trading-api-openapi.yml
   format: yaml
   label: Bithumb Spot Trading API
   slug: bithumb-spot-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/openapi/bithumb-spot-trading-api-openapi.yml
+  url: https://artifacts.apis.io/bithumb/openapi/bithumb-spot-trading-api-openapi.yml
 - filename: bithumb-wallet-api-openapi.yml
   format: yaml
   label: Bithumb Wallet API
   slug: bithumb-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/openapi/bithumb-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/bithumb/openapi/bithumb-wallet-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: bithumb-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bithumb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 23:59:59 2026 GMT\n  hsts: false\n- host: apidocs.bithumb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 08:40:17 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.bithumb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: bithumb.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/security/bithumb-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bithumb/security/bithumb-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cryptocurrency

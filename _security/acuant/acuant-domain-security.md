@@ -5,49 +5,61 @@ api_specs:
   label: Acuant Authentication API
   slug: acuant-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/acuant/openapi/acuant-authentication-api-openapi.yml
 - filename: acuant-chip-data-api-openapi.yml
   format: yaml
   label: Acuant Chip Data API
   slug: acuant-chip-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-chip-data-api-openapi.yml
+  url: https://artifacts.apis.io/acuant/openapi/acuant-chip-data-api-openapi.yml
 - filename: acuant-document-data-api-openapi.yml
   format: yaml
   label: Acuant Document Data API
   slug: acuant-document-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-document-data-api-openapi.yml
+  url: https://artifacts.apis.io/acuant/openapi/acuant-document-data-api-openapi.yml
 - filename: acuant-document-instances-api-openapi.yml
   format: yaml
   label: Acuant Document Instances API
   slug: acuant-document-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-document-instances-api-openapi.yml
-- filename: acuant-face-match-api-openapi.yml
-  format: yaml
-  label: Acuant Face Match API
-  slug: acuant-face-match-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-face-match-api-openapi.yml
+  url: https://artifacts.apis.io/acuant/openapi/acuant-document-instances-api-openapi.yml
 - filename: acuant-images-api-openapi.yml
   format: yaml
   label: Acuant Images API
   slug: acuant-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-images-api-openapi.yml
+  url: https://artifacts.apis.io/acuant/openapi/acuant-images-api-openapi.yml
 - filename: acuant-liveness-api-openapi.yml
   format: yaml
   label: Acuant Liveness API
   slug: acuant-liveness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-liveness-api-openapi.yml
+  url: https://artifacts.apis.io/acuant/openapi/acuant-liveness-api-openapi.yml
 - filename: acuant-metadata-api-openapi.yml
   format: yaml
   label: Acuant Metadata API
   slug: acuant-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/acuant/openapi/acuant-metadata-api-openapi.yml
+- filename: acuant-operations-for-checking-the-status-of-the-service-api-openapi.yml
+  format: yaml
+  label: Acuant Operations for Checking the Status of the Service API
+  slug: acuant-operations-for-checking-the-status-of-the-service-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/acuant/openapi/acuant-operations-for-checking-the-status-of-the-service-api-openapi.yml
+- filename: acuant-operations-for-facial-matching-api-openapi.yml
+  format: yaml
+  label: Acuant Operations for Facial Matching API
+  slug: acuant-operations-for-facial-matching-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/acuant/openapi/acuant-operations-for-facial-matching-api-openapi.yml
+- filename: acuant-health-check-api-openapi.yml
+  format: yaml
+  label: Acuant Health Check API
+  slug: acuant-health-check-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/acuant/openapi/acuant-health-check-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -94,7 +106,7 @@ source_filename: acuant-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.acuant.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: services.assureid.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: frm.acuant.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: acuant.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: assureid.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/security/acuant-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/acuant/security/acuant-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Identity Verification

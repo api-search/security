@@ -5,31 +5,31 @@ api_specs:
   label: Rett fra Bonden A2a API
   slug: rettfrabonden-com-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rettfrabonden-com/refs/heads/main/openapi/rettfrabonden-com-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/rettfrabonden-com/openapi/rettfrabonden-com-a2a-api-openapi.yml
 - filename: rettfrabonden-com-marketplace-api-openapi.yml
   format: yaml
   label: Rett fra Bonden Marketplace API
   slug: rettfrabonden-com-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rettfrabonden-com/refs/heads/main/openapi/rettfrabonden-com-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/rettfrabonden-com/openapi/rettfrabonden-com-marketplace-api-openapi.yml
 - filename: rettfrabonden-com-mcp-api-openapi.yml
   format: yaml
   label: Rett fra Bonden MCP API
   slug: rettfrabonden-com-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rettfrabonden-com/refs/heads/main/openapi/rettfrabonden-com-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/rettfrabonden-com/openapi/rettfrabonden-com-mcp-api-openapi.yml
 - filename: rettfrabonden-com-stats-api-openapi.yml
   format: yaml
   label: Rett fra Bonden Stats API
   slug: rettfrabonden-com-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rettfrabonden-com/refs/heads/main/openapi/rettfrabonden-com-stats-api-openapi.yml
+  url: https://artifacts.apis.io/rettfrabonden-com/openapi/rettfrabonden-com-stats-api-openapi.yml
 - filename: rettfrabonden-com-well-known-api-openapi.yml
   format: yaml
   label: Rett fra Bonden .well Known API
   slug: rettfrabonden-com-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rettfrabonden-com/refs/heads/main/openapi/rettfrabonden-com-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/rettfrabonden-com/openapi/rettfrabonden-com-well-known-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: rettfrabonden-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: rettfrabonden.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 23:55:15 2026 GMT\n  hsts: null\ndomains:\n- domain: rettfrabonden.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rettfrabonden-com/refs/heads/main/security/rettfrabonden-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rettfrabonden-com/security/rettfrabonden-com-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Local Food

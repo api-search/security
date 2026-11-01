@@ -31,7 +31,7 @@ source_filename: sunlight-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sunlight.is\n  https: false\n- host: docs.sunlight.is\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 05:56:19 2026 GMT\n  hsts: false\n- host: app.sunlight.is\n  https: false\ndomains:\n- domain: sunlight.is\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sunlight/refs/heads/main/security/sunlight-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sunlight/security/sunlight-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

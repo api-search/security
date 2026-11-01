@@ -7,25 +7,25 @@ api_specs:
   label: Google Cloud DNS Changes API
   slug: google-cloud-dns-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dns/refs/heads/main/openapi/google-cloud-dns-changes-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dns/openapi/google-cloud-dns-changes-api-openapi.yml
 - filename: google-cloud-dns-managedzones-api-openapi.yml
   format: yaml
   label: Google Cloud DNS ManagedZones API
   slug: google-cloud-dns-managedzones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dns/refs/heads/main/openapi/google-cloud-dns-managedzones-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dns/openapi/google-cloud-dns-managedzones-api-openapi.yml
 - filename: google-cloud-dns-policies-api-openapi.yml
   format: yaml
   label: Google Cloud DNS Policies API
   slug: google-cloud-dns-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dns/refs/heads/main/openapi/google-cloud-dns-policies-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dns/openapi/google-cloud-dns-policies-api-openapi.yml
 - filename: google-cloud-dns-resource-record-sets-api-openapi.yml
   format: yaml
   label: Google Cloud DNS Resource Record Sets API
   slug: google-cloud-dns-resource-record-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dns/refs/heads/main/openapi/google-cloud-dns-resource-record-sets-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dns/openapi/google-cloud-dns-resource-record-sets-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -56,7 +56,7 @@ source_filename: google-cloud-dns-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/dns-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 2\n  sources:\n  - openapi/dns-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dns/refs/heads/main/authentication/google-cloud-dns-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-dns/authentication/google-cloud-dns-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - DNS

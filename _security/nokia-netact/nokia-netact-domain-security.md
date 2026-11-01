@@ -5,25 +5,25 @@ api_specs:
   label: Nokia NetAct Configuration Management API
   slug: nokia-netact-configuration-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nokia-netact/refs/heads/main/openapi/nokia-netact-configuration-management-api-openapi.yml
+  url: https://artifacts.apis.io/nokia-netact/openapi/nokia-netact-configuration-management-api-openapi.yml
 - filename: nokia-netact-fault-management-api-openapi.yml
   format: yaml
   label: Nokia NetAct Fault Management API
   slug: nokia-netact-fault-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nokia-netact/refs/heads/main/openapi/nokia-netact-fault-management-api-openapi.yml
+  url: https://artifacts.apis.io/nokia-netact/openapi/nokia-netact-fault-management-api-openapi.yml
 - filename: nokia-netact-performance-management-api-openapi.yml
   format: yaml
   label: Nokia NetAct Performance Management API
   slug: nokia-netact-performance-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nokia-netact/refs/heads/main/openapi/nokia-netact-performance-management-api-openapi.yml
+  url: https://artifacts.apis.io/nokia-netact/openapi/nokia-netact-performance-management-api-openapi.yml
 - filename: nokia-netact-topology-api-openapi.yml
   format: yaml
   label: Nokia NetAct Topology API
   slug: nokia-netact-topology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nokia-netact/refs/heads/main/openapi/nokia-netact-topology-api-openapi.yml
+  url: https://artifacts.apis.io/nokia-netact/openapi/nokia-netact-topology-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: nokia-netact-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nokia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: nokia.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nokia-netact/refs/heads/main/security/nokia-netact-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nokia-netact/security/nokia-netact-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Network Management

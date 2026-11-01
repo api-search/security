@@ -8,31 +8,31 @@ api_specs:
   label: Uptrace Alerts API
   slug: uptrace-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/openapi/uptrace-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/uptrace/openapi/uptrace-alerts-api-openapi.yml
 - filename: uptrace-annotations-api-openapi.yml
   format: yaml
   label: Uptrace Annotations API
   slug: uptrace-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/openapi/uptrace-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/uptrace/openapi/uptrace-annotations-api-openapi.yml
 - filename: uptrace-dashboards-api-openapi.yml
   format: yaml
   label: Uptrace Dashboards API
   slug: uptrace-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/openapi/uptrace-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/uptrace/openapi/uptrace-dashboards-api-openapi.yml
 - filename: uptrace-metrics-api-openapi.yml
   format: yaml
   label: Uptrace Metrics API
   slug: uptrace-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/openapi/uptrace-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/uptrace/openapi/uptrace-metrics-api-openapi.yml
 - filename: uptrace-projects-api-openapi.yml
   format: yaml
   label: Uptrace Projects API
   slug: uptrace-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/openapi/uptrace-projects-api-openapi.yml
+  url: https://artifacts.apis.io/uptrace/openapi/uptrace-projects-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -67,7 +67,7 @@ source_filename: uptrace-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/uptrace-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: DSNAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'DSN-based token: ''Bearer <project_secret_token>'''\n  sources:\n  - openapi/uptrace-openapi.yml\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Uptrace API token\n  sources:\n  - openapi/uptrace-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/authentication/uptrace-authentication.yml
+source_yaml_url: https://artifacts.apis.io/uptrace/authentication/uptrace-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - APM

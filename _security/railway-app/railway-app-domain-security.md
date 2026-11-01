@@ -5,7 +5,7 @@ api_specs:
   label: Railway Logs API
   slug: railway-app-logs-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/railway-app/refs/heads/main/asyncapi/railway-app-asyncapi.yml
+  url: https://artifacts.apis.io/railway-app/asyncapi/railway-app-asyncapi.yml
 description: ''
 domains:
 - caa: []
@@ -44,7 +44,7 @@ source_filename: railway-app-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: railway.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 09:27:50 2026 GMT\n  hsts: false\n- host: docs.railway.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 17:08:08 2026 GMT\n  hsts: false\n- host: backboard.railway.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 23:19:47 2026 GMT\n  hsts: false\ndomains:\n- domain: railway.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/railway-app/refs/heads/main/security/railway-app-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/railway-app/security/railway-app-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Deployment

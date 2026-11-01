@@ -11,79 +11,79 @@ api_specs:
   label: Gorgias Account API
   slug: gorgias-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/openapi/gorgias-account-api-openapi.yml
+  url: https://artifacts.apis.io/gorgias/openapi/gorgias-account-api-openapi.yml
 - filename: gorgias-customers-api-openapi.yml
   format: yaml
   label: Gorgias Customers API
   slug: gorgias-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/openapi/gorgias-customers-api-openapi.yml
+  url: https://artifacts.apis.io/gorgias/openapi/gorgias-customers-api-openapi.yml
 - filename: gorgias-integrations-api-openapi.yml
   format: yaml
   label: Gorgias Integrations API
   slug: gorgias-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/openapi/gorgias-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/gorgias/openapi/gorgias-integrations-api-openapi.yml
 - filename: gorgias-macros-api-openapi.yml
   format: yaml
   label: Gorgias Macros API
   slug: gorgias-macros-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/openapi/gorgias-macros-api-openapi.yml
+  url: https://artifacts.apis.io/gorgias/openapi/gorgias-macros-api-openapi.yml
 - filename: gorgias-messages-api-openapi.yml
   format: yaml
   label: Gorgias Messages API
   slug: gorgias-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/openapi/gorgias-messages-api-openapi.yml
+  url: https://artifacts.apis.io/gorgias/openapi/gorgias-messages-api-openapi.yml
 - filename: gorgias-rules-api-openapi.yml
   format: yaml
   label: Gorgias Rules API
   slug: gorgias-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/openapi/gorgias-rules-api-openapi.yml
+  url: https://artifacts.apis.io/gorgias/openapi/gorgias-rules-api-openapi.yml
 - filename: gorgias-surveys-api-openapi.yml
   format: yaml
   label: Gorgias Surveys API
   slug: gorgias-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/openapi/gorgias-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/gorgias/openapi/gorgias-surveys-api-openapi.yml
 - filename: gorgias-tags-api-openapi.yml
   format: yaml
   label: Gorgias Tags API
   slug: gorgias-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/openapi/gorgias-tags-api-openapi.yml
+  url: https://artifacts.apis.io/gorgias/openapi/gorgias-tags-api-openapi.yml
 - filename: gorgias-teams-api-openapi.yml
   format: yaml
   label: Gorgias Teams API
   slug: gorgias-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/openapi/gorgias-teams-api-openapi.yml
+  url: https://artifacts.apis.io/gorgias/openapi/gorgias-teams-api-openapi.yml
 - filename: gorgias-tickets-api-openapi.yml
   format: yaml
   label: Gorgias Tickets API
   slug: gorgias-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/openapi/gorgias-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/gorgias/openapi/gorgias-tickets-api-openapi.yml
 - filename: gorgias-users-api-openapi.yml
   format: yaml
   label: Gorgias Users API
   slug: gorgias-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/openapi/gorgias-users-api-openapi.yml
+  url: https://artifacts.apis.io/gorgias/openapi/gorgias-users-api-openapi.yml
 - filename: gorgias-views-api-openapi.yml
   format: yaml
   label: Gorgias Views API
   slug: gorgias-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/openapi/gorgias-views-api-openapi.yml
+  url: https://artifacts.apis.io/gorgias/openapi/gorgias-views-api-openapi.yml
 - filename: gorgias-widgets-api-openapi.yml
   format: yaml
   label: Gorgias Widgets API
   slug: gorgias-widgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/openapi/gorgias-widgets-api-openapi.yml
+  url: https://artifacts.apis.io/gorgias/openapi/gorgias-widgets-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -124,7 +124,7 @@ source_filename: gorgias-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.gorgias.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 16:43:39 2026 GMT\n  hsts: false\n- host: developers.gorgias.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 19:15:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: gorgias.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/security/gorgias-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gorgias/security/gorgias-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Customer Service

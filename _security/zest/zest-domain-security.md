@@ -5,49 +5,49 @@ api_specs:
   label: Zest Authentication API
   slug: zest-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/openapi/zest-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/zest/openapi/zest-authentication-api-openapi.yml
 - filename: zest-contracts-api-openapi.yml
   format: yaml
   label: Zest Contracts API
   slug: zest-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/openapi/zest-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/zest/openapi/zest-contracts-api-openapi.yml
 - filename: zest-investors-api-openapi.yml
   format: yaml
   label: Zest Investors API
   slug: zest-investors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/openapi/zest-investors-api-openapi.yml
+  url: https://artifacts.apis.io/zest/openapi/zest-investors-api-openapi.yml
 - filename: zest-spv-requests-api-openapi.yml
   format: yaml
   label: Zest SPV Requests API
   slug: zest-spv-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/openapi/zest-spv-requests-api-openapi.yml
+  url: https://artifacts.apis.io/zest/openapi/zest-spv-requests-api-openapi.yml
 - filename: zest-subscription-forms-api-openapi.yml
   format: yaml
   label: Zest Subscription Forms API
   slug: zest-subscription-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/openapi/zest-subscription-forms-api-openapi.yml
+  url: https://artifacts.apis.io/zest/openapi/zest-subscription-forms-api-openapi.yml
 - filename: zest-subscription-fundings-api-openapi.yml
   format: yaml
   label: Zest Subscription Fundings API
   slug: zest-subscription-fundings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/openapi/zest-subscription-fundings-api-openapi.yml
+  url: https://artifacts.apis.io/zest/openapi/zest-subscription-fundings-api-openapi.yml
 - filename: zest-subscriptions-api-openapi.yml
   format: yaml
   label: Zest Subscriptions API
   slug: zest-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/openapi/zest-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/zest/openapi/zest-subscriptions-api-openapi.yml
 - filename: zest-system-api-openapi.yml
   format: yaml
   label: Zest System API
   slug: zest-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/openapi/zest-system-api-openapi.yml
+  url: https://artifacts.apis.io/zest/openapi/zest-system-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: zest-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: zestequity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 11:02:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: zestequity.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/security/zest-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zest/security/zest-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

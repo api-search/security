@@ -5,13 +5,13 @@ api_specs:
   label: AniList O Auth2 API
   slug: anilist-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anilist/refs/heads/main/openapi/anilist-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/anilist/openapi/anilist-oauth2-api-openapi.yml
 - filename: anilist-graph-ql-api-openapi.yml
   format: yaml
   label: AniList Graph QL API
   slug: anilist-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anilist/refs/heads/main/openapi/anilist-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/anilist/openapi/anilist-graph-ql-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,7 +50,7 @@ source_filename: anilist-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: anilist.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 17:08:32 2026 GMT\n  hsts: false\n- host: docs.anilist.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 05:02:38 2026 GMT\n  hsts: false\n- host: graphql.anilist.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 17:08:32 2026 GMT\n  hsts: null\ndomains:\n- domain: anilist.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anilist/refs/heads/main/security/anilist-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/anilist/security/anilist-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Anime

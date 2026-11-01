@@ -39,7 +39,7 @@ source_filename: angularjs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: angularjs.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 23:44:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\n- host: docs.angularjs.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 11:43:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\n- host: code.angularjs.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 23:12:25 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\ndomains:\n- domain: angularjs.org\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/angularjs/refs/heads/main/security/angularjs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/angularjs/security/angularjs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - End of Life

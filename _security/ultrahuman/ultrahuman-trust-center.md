@@ -5,19 +5,19 @@ api_specs:
   label: Ultrahuman Metrics API
   slug: ultrahuman-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/openapi/ultrahuman-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/ultrahuman/openapi/ultrahuman-metrics-api-openapi.yml
 - filename: ultrahuman-user-api-openapi.yml
   format: yaml
   label: Ultrahuman User API
   slug: ultrahuman-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/openapi/ultrahuman-user-api-openapi.yml
+  url: https://artifacts.apis.io/ultrahuman/openapi/ultrahuman-user-api-openapi.yml
 - filename: ultrahuman-oauth-api-openapi.yml
   format: yaml
   label: Ultrahuman O Auth API
   slug: ultrahuman-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/openapi/ultrahuman-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/ultrahuman/openapi/ultrahuman-oauth-api-openapi.yml
 certification_count: 3
 certifications:
 - ISO 27001
@@ -36,7 +36,7 @@ source_filename: ultrahuman-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.ultrahuman.com/security/\nurl: https://www.ultrahuman.com/security/\ncertifications:\n- ISO 27001\n- HIPAA\n- GDPR\nevidence:\n- source: https://www.ultrahuman.com/security/\n  keywords:\n  - hipaa\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/security/ultrahuman-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/ultrahuman/security/ultrahuman-trust-center.yml
 summary_line: ISO 27001, HIPAA, GDPR
 tags:
 - Wearables

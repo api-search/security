@@ -5,85 +5,85 @@ api_specs:
   label: Mixedbread Admin API
   slug: mixedbread-ai-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-admin-api-openapi.yml
+  url: https://artifacts.apis.io/mixedbread-ai/openapi/mixedbread-ai-admin-api-openapi.yml
 - filename: mixedbread-ai-api-keys-api-openapi.yml
   format: yaml
   label: Mixedbread API Keys API
   slug: mixedbread-ai-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/mixedbread-ai/openapi/mixedbread-ai-api-keys-api-openapi.yml
 - filename: mixedbread-ai-billing-api-openapi.yml
   format: yaml
   label: Mixedbread Billing API
   slug: mixedbread-ai-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-billing-api-openapi.yml
+  url: https://artifacts.apis.io/mixedbread-ai/openapi/mixedbread-ai-billing-api-openapi.yml
 - filename: mixedbread-ai-completions-api-openapi.yml
   format: yaml
   label: Mixedbread Completions API
   slug: mixedbread-ai-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-completions-api-openapi.yml
+  url: https://artifacts.apis.io/mixedbread-ai/openapi/mixedbread-ai-completions-api-openapi.yml
 - filename: mixedbread-ai-data-sources-api-openapi.yml
   format: yaml
   label: Mixedbread Data Sources API
   slug: mixedbread-ai-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/mixedbread-ai/openapi/mixedbread-ai-data-sources-api-openapi.yml
 - filename: mixedbread-ai-deprecated-vector-stores-api-openapi.yml
   format: yaml
   label: Mixedbread Deprecated Vector Stores API
   slug: mixedbread-ai-deprecated-vector-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-deprecated-vector-stores-api-openapi.yml
+  url: https://artifacts.apis.io/mixedbread-ai/openapi/mixedbread-ai-deprecated-vector-stores-api-openapi.yml
 - filename: mixedbread-ai-embeddings-api-openapi.yml
   format: yaml
   label: Mixedbread Embeddings API
   slug: mixedbread-ai-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/mixedbread-ai/openapi/mixedbread-ai-embeddings-api-openapi.yml
 - filename: mixedbread-ai-extractions-api-openapi.yml
   format: yaml
   label: Mixedbread Extractions API
   slug: mixedbread-ai-extractions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-extractions-api-openapi.yml
+  url: https://artifacts.apis.io/mixedbread-ai/openapi/mixedbread-ai-extractions-api-openapi.yml
 - filename: mixedbread-ai-files-api-openapi.yml
   format: yaml
   label: Mixedbread Files API
   slug: mixedbread-ai-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-files-api-openapi.yml
+  url: https://artifacts.apis.io/mixedbread-ai/openapi/mixedbread-ai-files-api-openapi.yml
 - filename: mixedbread-ai-mixedbread-embeddings-api-api-openapi.yml
   format: yaml
   label: Mixedbread Embeddings API
   slug: mixedbread-ai-mixedbread-embeddings-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-mixedbread-embeddings-api-api-openapi.yml
+  url: https://artifacts.apis.io/mixedbread-ai/openapi/mixedbread-ai-mixedbread-embeddings-api-api-openapi.yml
 - filename: mixedbread-ai-parsing-api-openapi.yml
   format: yaml
   label: Mixedbread Parsing API
   slug: mixedbread-ai-parsing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-parsing-api-openapi.yml
+  url: https://artifacts.apis.io/mixedbread-ai/openapi/mixedbread-ai-parsing-api-openapi.yml
 - filename: mixedbread-ai-reranking-api-openapi.yml
   format: yaml
   label: Mixedbread Reranking API
   slug: mixedbread-ai-reranking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-reranking-api-openapi.yml
+  url: https://artifacts.apis.io/mixedbread-ai/openapi/mixedbread-ai-reranking-api-openapi.yml
 - filename: mixedbread-ai-schemas-api-openapi.yml
   format: yaml
   label: Mixedbread Schemas API
   slug: mixedbread-ai-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/mixedbread-ai/openapi/mixedbread-ai-schemas-api-openapi.yml
 - filename: mixedbread-ai-stores-api-openapi.yml
   format: yaml
   label: Mixedbread Stores API
   slug: mixedbread-ai-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-stores-api-openapi.yml
+  url: https://artifacts.apis.io/mixedbread-ai/openapi/mixedbread-ai-stores-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -120,7 +120,7 @@ source_filename: mixedbread-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mixedbread.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 17:04:03 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.mixedbread.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 26 23:59:59 2026 GMT\n  hsts: null\n- host: api.dev.mixedbread.com\n  https: false\ndomains:\n- domain: mixedbread.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/security/mixedbread-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mixedbread-ai/security/mixedbread-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
@@ -129,7 +129,7 @@ tags:
 - Search
 - Retrieval
 - RAG
-- Vector Database
+- Vector Search
 - Multi-Modal
 - Parsing
 - Open Weights

@@ -38,7 +38,7 @@ source_filename: knewton-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.knewton.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 19 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: dev.knewton.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 22:57:19 2026 GMT\n  hsts: false\n- host: api.knewton.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 19 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: knewton.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/knewton/refs/heads/main/security/knewton-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/knewton/security/knewton-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

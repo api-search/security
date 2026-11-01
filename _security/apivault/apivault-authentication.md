@@ -7,73 +7,73 @@ api_specs:
   label: Apivault All API
   slug: apivault-all-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-all-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-all-api-openapi.yml
 - filename: apivault-auth-api-openapi.yml
   format: yaml
   label: Apivault Auth API
   slug: apivault-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-auth-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-auth-api-openapi.yml
 - filename: apivault-categories-api-openapi.yml
   format: yaml
   label: Apivault Categories API
   slug: apivault-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-categories-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-categories-api-openapi.yml
 - filename: apivault-category-api-openapi.yml
   format: yaml
   label: Apivault Category API
   slug: apivault-category-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-category-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-category-api-openapi.yml
 - filename: apivault-count-api-openapi.yml
   format: yaml
   label: Apivault Count API
   slug: apivault-count-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-count-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-count-api-openapi.yml
 - filename: apivault-create-api-openapi.yml
   format: yaml
   label: Apivault Create API
   slug: apivault-create-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-create-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-create-api-openapi.yml
 - filename: apivault-detail-api-openapi.yml
   format: yaml
   label: Apivault Detail API
   slug: apivault-detail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-detail-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-detail-api-openapi.yml
 - filename: apivault-interaction-api-openapi.yml
   format: yaml
   label: Apivault Interaction API
   slug: apivault-interaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-interaction-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-interaction-api-openapi.yml
 - filename: apivault-my-api-api-openapi.yml
   format: yaml
   label: Apivault My API
   slug: apivault-my-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-my-api-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-my-api-api-openapi.yml
 - filename: apivault-pending-api-openapi.yml
   format: yaml
   label: Apivault Pending API
   slug: apivault-pending-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-pending-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-pending-api-openapi.yml
 - filename: apivault-random-api-openapi.yml
   format: yaml
   label: Apivault Random API
   slug: apivault-random-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-random-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-random-api-openapi.yml
 - filename: apivault-search-api-openapi.yml
   format: yaml
   label: Apivault Search API
   slug: apivault-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-search-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-search-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-09-04'\nmethod: searched\nsource: >-\n  openapi/_
   \ grant and no self-service\n    developer key. The only way to obtain a token is to sign in to\n    apivault.dev with a Google account in a browser and exchange the resulting\n    Google token: POST /api/auth/google/ (operationId auth_google_create) with\n    an `auth_token` body field returns the SimpleJWT access/refresh pair.\n    This is the single largest agent-readiness constraint on this API — an\n    unattended agent cannot mint credentials.\n  operations:\n    - {operationId: auth_google_create, path: /api/auth/google/, method: POST}\n    - {operationId: auth_token_refresh_create, path: /api/auth/token/refresh/, method: POST}\n    - {operationId: auth_token_verify_create, path: /api/auth/token/verify/, method: POST}\n    - {operationId: auth_user_retrieve, path: /api/auth/user/, method: GET}\nanonymous_surface:\n  note: >-\n    Nine of the eighteen operations declare `security: [{jwtAuth: []}, {}]`,\n    the OpenAPI form for \"token optional\". All nine were confirmed to answer\n\
   \    200 with no credentials on 2026-09-04.\n  verified_anonymous:\n    - {operationId: all_list, path: /api/all, status: 200}\n    - {operationId: categories_list, path: /api/categories, status: 200}\n    - {operationId: categories_trending_list, path: /api/categories/trending, status: 200}\n    - {operationId: count_retrieve, path: /api/count, status: 200}\n    - {operationId: random_list, path: /api/random, status: 200}\n    - {operationId: search_list, path: /api/search, status: 200}\nauthenticated_only:\n  - {operationId: auth_user_retrieve, observed_status_without_token: 401}\n  - {operationId: my_api_retrieve, observed_status_without_token: 401}\n  - {operationId: pending_my_api_retrieve, observed_status_without_token: 401}\n  - {operationId: create_create, observed_status_without_token: 401}\n  - {operationId: interaction_like_create, observed_status_without_token: 401}\n  - {operationId: interaction_like_destroy, observed_status_without_token: 401}\n  - {operationId: interaction_feedback_create,\
   \ observed_status_without_token: 401}\nchallenge:\n  status: 401\n  body: '{\"detail\": \"Authentication credentials were not provided.\"}'\n  www_authenticate: not sent\n  note: >-\n    The 401 carries no WWW-Authenticate header, so a client cannot discover the\n    scheme from the challenge — it has to read the spec.\nscopes: none\ngaps:\n  - No WWW-Authenticate challenge header on 401.\n  - No token lifetime, rotation or revocation policy is published.\n  - No machine-to-machine credential of any kind; Google sign-in is mandatory.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/authentication/apivault-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apivault/authentication/apivault-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - API Catalog

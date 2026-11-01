@@ -5,91 +5,91 @@ api_specs:
   label: Soda Attributes API
   slug: soda-data-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/soda-data/openapi/soda-data-attributes-api-openapi.yml
 - filename: soda-data-checks-api-openapi.yml
   format: yaml
   label: Soda Checks API
   slug: soda-data-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-checks-api-openapi.yml
+  url: https://artifacts.apis.io/soda-data/openapi/soda-data-checks-api-openapi.yml
 - filename: soda-data-contracts-api-openapi.yml
   format: yaml
   label: Soda Contracts API
   slug: soda-data-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/soda-data/openapi/soda-data-contracts-api-openapi.yml
 - filename: soda-data-data-standards-api-openapi.yml
   format: yaml
   label: Soda Data Standards API
   slug: soda-data-data-standards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-data-standards-api-openapi.yml
+  url: https://artifacts.apis.io/soda-data/openapi/soda-data-data-standards-api-openapi.yml
 - filename: soda-data-datasets-api-openapi.yml
   format: yaml
   label: Soda Datasets API
   slug: soda-data-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/soda-data/openapi/soda-data-datasets-api-openapi.yml
 - filename: soda-data-discovered-datasets-api-openapi.yml
   format: yaml
   label: Soda Discovered Datasets API
   slug: soda-data-discovered-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-discovered-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/soda-data/openapi/soda-data-discovered-datasets-api-openapi.yml
 - filename: soda-data-incidents-api-openapi.yml
   format: yaml
   label: Soda Incidents API
   slug: soda-data-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/soda-data/openapi/soda-data-incidents-api-openapi.yml
 - filename: soda-data-licensing-api-openapi.yml
   format: yaml
   label: Soda Licensing API
   slug: soda-data-licensing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-licensing-api-openapi.yml
+  url: https://artifacts.apis.io/soda-data/openapi/soda-data-licensing-api-openapi.yml
 - filename: soda-data-notification-rules-api-openapi.yml
   format: yaml
   label: Soda Notification Rules API
   slug: soda-data-notification-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-notification-rules-api-openapi.yml
+  url: https://artifacts.apis.io/soda-data/openapi/soda-data-notification-rules-api-openapi.yml
 - filename: soda-data-runners-api-openapi.yml
   format: yaml
   label: Soda Runners API
   slug: soda-data-runners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-runners-api-openapi.yml
+  url: https://artifacts.apis.io/soda-data/openapi/soda-data-runners-api-openapi.yml
 - filename: soda-data-scans-api-openapi.yml
   format: yaml
   label: Soda Scans API
   slug: soda-data-scans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-scans-api-openapi.yml
+  url: https://artifacts.apis.io/soda-data/openapi/soda-data-scans-api-openapi.yml
 - filename: soda-data-secrets-api-openapi.yml
   format: yaml
   label: Soda Secrets API
   slug: soda-data-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/soda-data/openapi/soda-data-secrets-api-openapi.yml
 - filename: soda-data-users-api-openapi.yml
   format: yaml
   label: Soda Users API
   slug: soda-data-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-users-api-openapi.yml
+  url: https://artifacts.apis.io/soda-data/openapi/soda-data-users-api-openapi.yml
 - filename: soda-data-utility-api-openapi.yml
   format: yaml
   label: Soda Utility API
   slug: soda-data-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-utility-api-openapi.yml
+  url: https://artifacts.apis.io/soda-data/openapi/soda-data-utility-api-openapi.yml
 - filename: soda-data-data-sources-api-openapi.yml
   format: yaml
   label: Soda Data Sources API
   slug: soda-data-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/soda-data/openapi/soda-data-data-sources-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -129,7 +129,7 @@ source_filename: soda-data-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.soda.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 15:10:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: cloud.soda.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 26 23:59:59 2027 GMT\n  hsts: null\n- host: cloud.us.soda.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 28 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: soda.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/security/soda-data-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/soda-data/security/soda-data-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AIOps

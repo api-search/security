@@ -27,7 +27,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://docs.1010data.com/DynamicAPI/DynamicAPI-Intro.html\ndocs: https://docs.1010data.com/DynamicAPI/DynamicAPI-Intro.html\nnote: >-\n  Derived from the 1010data Dynamic API and XML API documentation; no OpenAPI\n  securityScheme definition is published by the provider, so this profile is\n  captured from the auth documentation rather than mechanically from a spec.\nsummary:\n  types: [session]\n  api_key_in: []\n  oauth2_flows: []\nschemes:\n- name: SessionLogin\n  type: session\n  description: >-\n    Authentication to the Dynamic API is session-based. A client logs in with\n    its usual Insights Platform credentials at the /api/!login endpoint (which\n    can also be driven via the GUI), establishing a session. Subsequent calls\n    operate against stateful QuickApp \"environments\" identified by a numeric tag\n    returned from the /api/new endpoint. The XML API uses the same\n    credential-based session model over\
   \ HTTP.\n  sources:\n  - https://docs.1010data.com/DynamicAPI/DynamicAPI-Intro.html\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1010data/refs/heads/main/authentication/1010data-authentication.yml
+source_yaml_url: https://artifacts.apis.io/1010data/authentication/1010data-authentication.yml
 summary_line: session · 1 scheme
 tags:
 - Company

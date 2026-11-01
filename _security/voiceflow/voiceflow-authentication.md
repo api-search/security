@@ -8,25 +8,25 @@ api_specs:
   label: Voiceflow Interact API
   slug: voiceflow-interact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voiceflow/refs/heads/main/openapi/voiceflow-interact-api-openapi.yml
+  url: https://artifacts.apis.io/voiceflow/openapi/voiceflow-interact-api-openapi.yml
 - filename: voiceflow-session-api-openapi.yml
   format: yaml
   label: Voiceflow Session API
   slug: voiceflow-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voiceflow/refs/heads/main/openapi/voiceflow-session-api-openapi.yml
+  url: https://artifacts.apis.io/voiceflow/openapi/voiceflow-session-api-openapi.yml
 - filename: voiceflow-state-api-openapi.yml
   format: yaml
   label: Voiceflow State API
   slug: voiceflow-state-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voiceflow/refs/heads/main/openapi/voiceflow-state-api-openapi.yml
+  url: https://artifacts.apis.io/voiceflow/openapi/voiceflow-state-api-openapi.yml
 - filename: voiceflow-variables-api-openapi.yml
   format: yaml
   label: Voiceflow Variables API
   slug: voiceflow-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voiceflow/refs/heads/main/openapi/voiceflow-variables-api-openapi.yml
+  url: https://artifacts.apis.io/voiceflow/openapi/voiceflow-variables-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -56,7 +56,7 @@ source_filename: voiceflow-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/voiceflow-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: |-\n    Voiceflow Dialog Manager API key (format `VF.DM.*`) sent in the\n    `Authorization` header.\n  sources:\n  - openapi/voiceflow-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voiceflow/refs/heads/main/authentication/voiceflow-authentication.yml
+source_yaml_url: https://artifacts.apis.io/voiceflow/authentication/voiceflow-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence

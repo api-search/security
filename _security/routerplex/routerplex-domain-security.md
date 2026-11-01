@@ -5,31 +5,31 @@ api_specs:
   label: RouterPlex Images API
   slug: routerplex-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routerplex/refs/heads/main/openapi/routerplex-images-api-openapi.yml
+  url: https://artifacts.apis.io/routerplex/openapi/routerplex-images-api-openapi.yml
 - filename: routerplex-messages-api-openapi.yml
   format: yaml
   label: RouterPlex Messages API
   slug: routerplex-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routerplex/refs/heads/main/openapi/routerplex-messages-api-openapi.yml
+  url: https://artifacts.apis.io/routerplex/openapi/routerplex-messages-api-openapi.yml
 - filename: routerplex-models-api-openapi.yml
   format: yaml
   label: RouterPlex Models API
   slug: routerplex-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routerplex/refs/heads/main/openapi/routerplex-models-api-openapi.yml
+  url: https://artifacts.apis.io/routerplex/openapi/routerplex-models-api-openapi.yml
 - filename: routerplex-responses-api-openapi.yml
   format: yaml
   label: RouterPlex Responses API
   slug: routerplex-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routerplex/refs/heads/main/openapi/routerplex-responses-api-openapi.yml
+  url: https://artifacts.apis.io/routerplex/openapi/routerplex-responses-api-openapi.yml
 - filename: routerplex-chat-completions-api-openapi.yml
   format: yaml
   label: RouterPlex Chat Completions API
   slug: routerplex-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routerplex/refs/heads/main/openapi/routerplex-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/routerplex/openapi/routerplex-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: routerplex-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.routerplex.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 23:32:58 2026 GMT\n  hsts: false\n- host: api.routerplex.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 23:32:58 2026 GMT\n  hsts: null\ndomains:\n- domain: routerplex.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/routerplex/refs/heads/main/security/routerplex-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/routerplex/security/routerplex-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - LLM

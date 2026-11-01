@@ -9,67 +9,67 @@ api_specs:
   label: Canada Health Infoway Code System API
   slug: canada-health-infoway-codesystem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-codesystem-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-codesystem-api-openapi.yml
 - filename: canada-health-infoway-conceptmap-api-openapi.yml
   format: yaml
   label: Canada Health Infoway Concept Map API
   slug: canada-health-infoway-conceptmap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-conceptmap-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-conceptmap-api-openapi.yml
 - filename: canada-health-infoway-maps-api-openapi.yml
   format: yaml
   label: Canada Health Infoway Maps API
   slug: canada-health-infoway-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-maps-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-maps-api-openapi.yml
 - filename: canada-health-infoway-notification-api-openapi.yml
   format: yaml
   label: Canada Health Infoway Notification API
   slug: canada-health-infoway-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-notification-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-notification-api-openapi.yml
 - filename: canada-health-infoway-packages-api-openapi.yml
   format: yaml
   label: Canada Health Infoway Packages API
   slug: canada-health-infoway-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-packages-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-packages-api-openapi.yml
 - filename: canada-health-infoway-session-api-openapi.yml
   format: yaml
   label: Canada Health Infoway Session API
   slug: canada-health-infoway-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-session-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-session-api-openapi.yml
 - filename: canada-health-infoway-subsets-api-openapi.yml
   format: yaml
   label: Canada Health Infoway Subsets API
   slug: canada-health-infoway-subsets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-subsets-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-subsets-api-openapi.yml
 - filename: canada-health-infoway-valueset-api-openapi.yml
   format: yaml
   label: Canada Health Infoway Value Set API
   slug: canada-health-infoway-valueset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-valueset-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-valueset-api-openapi.yml
 - filename: canada-health-infoway-capability-statement-api-openapi.yml
   format: yaml
   label: Canada Health Infoway Capability Statement API
   slug: canada-health-infoway-capability-statement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-capability-statement-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-capability-statement-api-openapi.yml
 - filename: canada-health-infoway-code-systems-api-openapi.yml
   format: yaml
   label: Canada Health Infoway code systems API
   slug: canada-health-infoway-code-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-code-systems-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-code-systems-api-openapi.yml
 - filename: canada-health-infoway-resource-locations-api-openapi.yml
   format: yaml
   label: Canada Health Infoway Resource Locations API
   slug: canada-health-infoway-resource-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-resource-locations-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-resource-locations-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -123,7 +123,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-24'\nmethod: searched\nsource: openapi/*-openapi.json parameter descriptions + Accelero developer docs\ndocs: https://accelero.infoway-inforoute.ca/en/tools/developer-tools/terminology-service-api\nsummary:\n  types: [apiKey, http, session]\n  api_key_in: [query, header]\n  oauth2_flows: []\n  note: >-\n    Canada Health Infoway's Terminology Gateway does not declare OpenAPI securitySchemes\n    (both Swagger 2.0 specs omit securityDefinitions). Authentication is documented inline\n    on nearly every operation and via the RESTful session endpoint. Terminology CONTENT\n    reads are gated behind free account registration + an authenticated session; the FHIR\n    CapabilityStatement (/fhir/v1/metadata) is served anonymously. No OAuth2 / SMART-on-FHIR\n    scopes are used (no /.well-known/smart-configuration is served).\nschemes:\n- name: basic-auth-credentials\n  type: http\n  scheme: basic\n  in: [query, header]\n  credential: username:password Base64-encoded\n\
   \  passed_as:\n  - \"query parameter: auth (Base64 username:password)\"\n  - \"HTTP header: Authorization: Basic <base64>\"\n  sources: [openapi/infoway-fhir-terminology-service-api-openapi.json, openapi/infoway-terminology-service-api-openapi.json]\n- name: btoken-jwt\n  type: apiKey\n  in: query\n  parameter: btoken\n  scheme: bearer\n  format: JWT\n  description: >-\n    JSON Web Token issued by the session login. Returned as 'btoken' from POST /rest/v1/session\n    and accepted as a bearer/query token on subsequent reads.\n  sources: [openapi/infoway-terminology-service-api-openapi.json]\n- name: ssotoken\n  type: apiKey\n  in: query\n  parameter: ssotoken\n  description: >-\n    Single sign-on token (returned as 'authToken' from session login) for the Infoway SSO\n    at auth-users.infoway-inforoute.ca.\n  sources: [openapi/infoway-terminology-service-api-openapi.json]\nsession:\n  login: POST /rest/v1/session\n  logout: DELETE /rest/v1/session\n  accepts: [auth, btoken, ssotoken]\n\
   \  returns: [authToken (SSO token), btoken (JWT), profile attributes]\n  operationId: login\nregistration:\n  url: https://accelero.infoway-inforoute.ca/en/register\n  login_ui: https://auth-users.infoway-inforoute.ca/auth/UI/Login\n  cost: free\nanonymous_surface:\n- /fhir/v1/metadata (FHIR CapabilityStatement)\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/authentication/canada-health-infoway-authentication.yml
+source_yaml_url: https://artifacts.apis.io/canada-health-infoway/authentication/canada-health-infoway-authentication.yml
 summary_line: apiKey/http/session · 3 schemes
 tags:
 - Healthcare

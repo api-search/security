@@ -5,13 +5,13 @@ api_specs:
   label: OneBusAway Default API
   slug: onebusaway-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onebusaway/refs/heads/main/openapi/onebusaway-default-api-openapi.yml
+  url: https://artifacts.apis.io/onebusaway/openapi/onebusaway-default-api-openapi.yml
 - filename: onebusaway-where-api-openapi.yml
   format: yaml
   label: OneBusAway Where API
   slug: onebusaway-where-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onebusaway/refs/heads/main/openapi/onebusaway-where-api-openapi.yml
+  url: https://artifacts.apis.io/onebusaway/openapi/onebusaway-where-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -56,7 +56,7 @@ source_filename: onebusaway-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: opentransitsoftwarefoundation.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 04:45:00 2026 GMT\n  hsts: false\n- host: developer.onebusaway.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 12 18:00:26 2026 GMT\n  hsts: false\n- host: api.pugetsound.onebusaway.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 15 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: opentransitsoftwarefoundation.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: onebusaway.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onebusaway/refs/heads/main/security/onebusaway-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/onebusaway/security/onebusaway-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Transit

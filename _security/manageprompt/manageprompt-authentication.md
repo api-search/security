@@ -7,13 +7,13 @@ api_specs:
   label: ManagePrompt Actions API
   slug: manageprompt-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manageprompt/refs/heads/main/openapi/manageprompt-actions-api-openapi.yml
+  url: https://artifacts.apis.io/manageprompt/openapi/manageprompt-actions-api-openapi.yml
 - filename: manageprompt-sessions-api-openapi.yml
   format: yaml
   label: ManagePrompt Sessions API
   slug: manageprompt-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manageprompt/refs/heads/main/openapi/manageprompt-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/manageprompt/openapi/manageprompt-sessions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,12 +40,12 @@ source_filename: manageprompt-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-18'\nmethod: derived\nsource: openapi/manageprompt-sessions.yaml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: base64(userId:secret)\n  sources:\n  - openapi/manageprompt-sessions.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/manageprompt/refs/heads/main/authentication/manageprompt-authentication.yml
+source_yaml_url: https://artifacts.apis.io/manageprompt/authentication/manageprompt-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company
 - LLM
 - Debugging
-- OpenSource
-- DeveloperTools
+- Open Source
+- Developer Tools
 ---

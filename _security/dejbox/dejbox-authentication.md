@@ -54,7 +54,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://customers.refectory.fr/.well-known/openid-configuration\ndocs: https://customers.refectory.fr/.well-known/openid-configuration\nsummary:\n  types:\n  - oauth2\n  - openIdConnect\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\n  - implicit\n  pkce: true\n  pkce_methods:\n  - S256\n  - plain\nschemes:\n- name: OpenIDConnect\n  type: openIdConnect\n  openIdConnectUrl: https://customers.refectory.fr/.well-known/openid-configuration\n  issuer: https://customers.refectory.fr\n  sources:\n  - well-known/dejbox-openid-configuration.json\n- name: OAuth2\n  type: oauth2\n  authorizationUrl: https://customers.refectory.fr/oauth2/auth\n  tokenUrl: https://customers.refectory.fr/oauth2/token\n  userinfoUrl: https://customers.refectory.fr/userinfo\n  revocationUrl: https://customers.refectory.fr/oauth2/revoke\n  endSessionUrl: https://customers.refectory.fr/oauth2/sessions/logout\n  jwksUri: https://customers.refectory.fr/.well-known/jwks.json\n\
   \  grant_types:\n  - authorization_code\n  - implicit\n  - client_credentials\n  - refresh_token\n  token_endpoint_auth_methods:\n  - client_secret_post\n  - client_secret_basic\n  - private_key_jwt\n  - none\n  id_token_signing_alg:\n  - RS256\n  sources:\n  - well-known/dejbox-openid-configuration.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dejbox/refs/heads/main/authentication/dejbox-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dejbox/authentication/dejbox-authentication.yml
 summary_line: oauth2/openIdConnect · 2 schemes
 tags:
 - Company

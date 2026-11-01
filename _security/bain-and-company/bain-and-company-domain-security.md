@@ -27,7 +27,7 @@ source_filename: bain-and-company-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bain.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 23 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: bain.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bain-and-company/refs/heads/main/security/bain-and-company-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bain-and-company/security/bain-and-company-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Consulting

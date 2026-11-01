@@ -5,85 +5,85 @@ api_specs:
   label: lexoffice Contacts API
   slug: lexoffice-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/openapi/lexoffice-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/lexoffice/openapi/lexoffice-contacts-api-openapi.yml
 - filename: lexoffice-credit-notes-api-openapi.yml
   format: yaml
   label: lexoffice Credit Notes API
   slug: lexoffice-credit-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/openapi/lexoffice-credit-notes-api-openapi.yml
+  url: https://artifacts.apis.io/lexoffice/openapi/lexoffice-credit-notes-api-openapi.yml
 - filename: lexoffice-delivery-notes-api-openapi.yml
   format: yaml
   label: lexoffice Delivery Notes API
   slug: lexoffice-delivery-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/openapi/lexoffice-delivery-notes-api-openapi.yml
+  url: https://artifacts.apis.io/lexoffice/openapi/lexoffice-delivery-notes-api-openapi.yml
 - filename: lexoffice-down-payment-invoices-api-openapi.yml
   format: yaml
   label: lexoffice Down Payment Invoices API
   slug: lexoffice-down-payment-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/openapi/lexoffice-down-payment-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/lexoffice/openapi/lexoffice-down-payment-invoices-api-openapi.yml
 - filename: lexoffice-dunnings-api-openapi.yml
   format: yaml
   label: lexoffice Dunnings API
   slug: lexoffice-dunnings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/openapi/lexoffice-dunnings-api-openapi.yml
+  url: https://artifacts.apis.io/lexoffice/openapi/lexoffice-dunnings-api-openapi.yml
 - filename: lexoffice-event-subscriptions-api-openapi.yml
   format: yaml
   label: lexoffice Event Subscriptions API
   slug: lexoffice-event-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/openapi/lexoffice-event-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/lexoffice/openapi/lexoffice-event-subscriptions-api-openapi.yml
 - filename: lexoffice-files-api-openapi.yml
   format: yaml
   label: lexoffice Files API
   slug: lexoffice-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/openapi/lexoffice-files-api-openapi.yml
+  url: https://artifacts.apis.io/lexoffice/openapi/lexoffice-files-api-openapi.yml
 - filename: lexoffice-invoices-api-openapi.yml
   format: yaml
   label: lexoffice Invoices API
   slug: lexoffice-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/openapi/lexoffice-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/lexoffice/openapi/lexoffice-invoices-api-openapi.yml
 - filename: lexoffice-order-confirmations-api-openapi.yml
   format: yaml
   label: lexoffice Order Confirmations API
   slug: lexoffice-order-confirmations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/openapi/lexoffice-order-confirmations-api-openapi.yml
+  url: https://artifacts.apis.io/lexoffice/openapi/lexoffice-order-confirmations-api-openapi.yml
 - filename: lexoffice-payments-api-openapi.yml
   format: yaml
   label: lexoffice Payments API
   slug: lexoffice-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/openapi/lexoffice-payments-api-openapi.yml
+  url: https://artifacts.apis.io/lexoffice/openapi/lexoffice-payments-api-openapi.yml
 - filename: lexoffice-profile-api-openapi.yml
   format: yaml
   label: lexoffice Profile API
   slug: lexoffice-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/openapi/lexoffice-profile-api-openapi.yml
+  url: https://artifacts.apis.io/lexoffice/openapi/lexoffice-profile-api-openapi.yml
 - filename: lexoffice-quotations-api-openapi.yml
   format: yaml
   label: lexoffice Quotations API
   slug: lexoffice-quotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/openapi/lexoffice-quotations-api-openapi.yml
+  url: https://artifacts.apis.io/lexoffice/openapi/lexoffice-quotations-api-openapi.yml
 - filename: lexoffice-recurring-templates-api-openapi.yml
   format: yaml
   label: lexoffice Recurring Templates API
   slug: lexoffice-recurring-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/openapi/lexoffice-recurring-templates-api-openapi.yml
+  url: https://artifacts.apis.io/lexoffice/openapi/lexoffice-recurring-templates-api-openapi.yml
 - filename: lexoffice-vouchers-api-openapi.yml
   format: yaml
   label: lexoffice Vouchers API
   slug: lexoffice-vouchers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/openapi/lexoffice-vouchers-api-openapi.yml
+  url: https://artifacts.apis.io/lexoffice/openapi/lexoffice-vouchers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -138,7 +138,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.lexware.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 23:59:59 2026 GMT\n  hsts: false\n  http_status: 200\n- host: developers.lexware.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 23:59:59 2026 GMT\n  hsts: false\n  http_status: 200\n- host: www.lexware.de\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 12 23:59:59 2026 GMT\n  hsts: false\n  http_status: 200\n- host: app.lexware.de\n  https: true\n  cert_expires: Nov  2 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  http_status: 301\ndomains:\n- domain: lexware.de\n  dnssec: true\n  caa: []\n  spf: true\n  spf_policy: '-all'\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: lexware.io\n  dnssec: false\n  caa: []\n  dmarc: true\n  dmarc_policy: reject\nnotes: >-\n  The current API gateway (api.lexware.io) and developer portal\n  (developers.lexware.io)\
   \ serve valid TLSv1.3 certificates but did not return an\n  HSTS header on the probed root responses; the customer web app (app.lexware.de)\n  does send HSTS (max-age 63072000, includeSubDomains). The primary corporate\n  domain lexware.de is DNSSEC-signed with an SPF hard-fail (-all) and a DMARC\n  quarantine policy; the lexware.io API domain publishes a strict DMARC reject\n  policy. No CAA records were observed on either apex domain at probe time. The\n  legacy lexoffice.io API host was retired at the end of 2025 and was not probed.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/security/lexoffice-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lexoffice/security/lexoffice-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Accounting

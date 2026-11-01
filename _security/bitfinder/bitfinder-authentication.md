@@ -7,19 +7,19 @@ api_specs:
   label: Bitfinder Air Data API
   slug: bitfinder-air-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitfinder/refs/heads/main/openapi/bitfinder-air-data-api-openapi.yml
+  url: https://artifacts.apis.io/bitfinder/openapi/bitfinder-air-data-api-openapi.yml
 - filename: bitfinder-devices-api-openapi.yml
   format: yaml
   label: Bitfinder Devices API
   slug: bitfinder-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitfinder/refs/heads/main/openapi/bitfinder-devices-api-openapi.yml
+  url: https://artifacts.apis.io/bitfinder/openapi/bitfinder-devices-api-openapi.yml
 - filename: bitfinder-user-api-openapi.yml
   format: yaml
   label: Bitfinder User API
   slug: bitfinder-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitfinder/refs/heads/main/openapi/bitfinder-user-api-openapi.yml
+  url: https://artifacts.apis.io/bitfinder/openapi/bitfinder-user-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -59,7 +59,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/bitfinder-awair-openapi.yml\ndocs: https://docs.developer.getawair.com/\nnotes: >-\n  Requests authenticate with an HTTP Bearer token in the Authorization header.\n  The token is either a Developer Console access token (obtained from the Awair\n  Developer Console, https://developer.getawair.com/) or an OAuth 2.0 access\n  token issued via the authorization-code flow for third-party apps acting on\n  behalf of Awair users. OAuth token exchange endpoint is\n  https://oauth2.awair.is/v2/token; refresh tokens are long-lived and access\n  tokens are short-lived.\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Awair Developer Console access token or OAuth 2.0 access token.\n  sources:\n  - openapi/bitfinder-awair-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl:\
   \ https://oauth2.awair.is/v2/authorize\n    tokenUrl: https://oauth2.awair.is/v2/token\n    scopes: 0\n  description: OAuth 2.0 authorization-code flow for third-party access to Awair user data.\n  sources:\n  - openapi/bitfinder-awair-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitfinder/refs/heads/main/authentication/bitfinder-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bitfinder/authentication/bitfinder-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

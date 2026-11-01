@@ -24,7 +24,7 @@ source_filename: aricen-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.aricen.cn\n  https: false\ndomains:\n- domain: aricen.cn\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aricen/refs/heads/main/security/aricen-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aricen/security/aricen-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

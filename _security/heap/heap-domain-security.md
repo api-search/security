@@ -5,31 +5,31 @@ api_specs:
   label: Heap Add Account Properties API
   slug: heap-add-account-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heap/refs/heads/main/openapi/heap-add-account-properties-api-openapi.yml
+  url: https://artifacts.apis.io/heap/openapi/heap-add-account-properties-api-openapi.yml
 - filename: heap-add-user-properties-api-openapi.yml
   format: yaml
   label: Heap Add User Properties API
   slug: heap-add-user-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heap/refs/heads/main/openapi/heap-add-user-properties-api-openapi.yml
+  url: https://artifacts.apis.io/heap/openapi/heap-add-user-properties-api-openapi.yml
 - filename: heap-identify-api-openapi.yml
   format: yaml
   label: Heap Identify API
   slug: heap-identify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heap/refs/heads/main/openapi/heap-identify-api-openapi.yml
+  url: https://artifacts.apis.io/heap/openapi/heap-identify-api-openapi.yml
 - filename: heap-track-api-openapi.yml
   format: yaml
   label: Heap Track API
   slug: heap-track-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heap/refs/heads/main/openapi/heap-track-api-openapi.yml
+  url: https://artifacts.apis.io/heap/openapi/heap-track-api-openapi.yml
 - filename: heap-webhooks-api-openapi.yml
   format: yaml
   label: Heap Webhooks API
   slug: heap-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heap/refs/heads/main/openapi/heap-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/heap/openapi/heap-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: heap-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.heap.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 15:44:11 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.heap.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 03:17:25 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: heapanalytics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 16 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: heap.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: heapanalytics.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/heap/refs/heads/main/security/heap-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/heap/security/heap-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics

@@ -8,25 +8,25 @@ api_specs:
   label: Govee Device Control API
   slug: govee-device-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govee/refs/heads/main/openapi/govee-device-control-api-openapi.yml
+  url: https://artifacts.apis.io/govee/openapi/govee-device-control-api-openapi.yml
 - filename: govee-device-state-api-openapi.yml
   format: yaml
   label: Govee Device State API
   slug: govee-device-state-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govee/refs/heads/main/openapi/govee-device-state-api-openapi.yml
+  url: https://artifacts.apis.io/govee/openapi/govee-device-state-api-openapi.yml
 - filename: govee-devices-api-openapi.yml
   format: yaml
   label: Govee Devices API
   slug: govee-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govee/refs/heads/main/openapi/govee-devices-api-openapi.yml
+  url: https://artifacts.apis.io/govee/openapi/govee-devices-api-openapi.yml
 - filename: govee-scenes-api-openapi.yml
   format: yaml
   label: Govee Scenes API
   slug: govee-scenes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govee/refs/heads/main/openapi/govee-scenes-api-openapi.yml
+  url: https://artifacts.apis.io/govee/openapi/govee-scenes-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: govee-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/govee-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: GoveeApiKey\n  type: apiKey\n  in: header\n  parameter: Govee-API-Key\n  description: API key issued in the Govee Home App (Profile > About Us > Apply for API Key).\n  sources:\n  - openapi/govee-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/govee/refs/heads/main/authentication/govee-authentication.yml
+source_yaml_url: https://artifacts.apis.io/govee/authentication/govee-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Smart Home

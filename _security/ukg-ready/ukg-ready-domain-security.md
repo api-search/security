@@ -5,19 +5,19 @@ api_specs:
   label: UKG Ready Authentication API
   slug: ukg-ready-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ukg-ready/refs/heads/main/openapi/ukg-ready-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/ukg-ready/openapi/ukg-ready-authentication-api-openapi.yml
 - filename: ukg-ready-content-api-openapi.yml
   format: yaml
   label: UKG Ready Content API
   slug: ukg-ready-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ukg-ready/refs/heads/main/openapi/ukg-ready-content-api-openapi.yml
+  url: https://artifacts.apis.io/ukg-ready/openapi/ukg-ready-content-api-openapi.yml
 - filename: ukg-ready-groups-api-openapi.yml
   format: yaml
   label: UKG Ready Groups API
   slug: ukg-ready-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ukg-ready/refs/heads/main/openapi/ukg-ready-groups-api-openapi.yml
+  url: https://artifacts.apis.io/ukg-ready/openapi/ukg-ready-groups-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: ukg-ready-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ukg.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 16:56:11 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.ukg.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 07:39:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: ukg.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ukg-ready/refs/heads/main/security/ukg-ready-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ukg-ready/security/ukg-ready-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - HCM

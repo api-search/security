@@ -5,31 +5,31 @@ api_specs:
   label: Checkout.com Customers API
   slug: checkout-com-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkout-com/refs/heads/main/openapi/checkout-com-customers-api-openapi.yml
+  url: https://artifacts.apis.io/checkout-com/openapi/checkout-com-customers-api-openapi.yml
 - filename: checkout-com-instruments-api-openapi.yml
   format: yaml
   label: Checkout.com Instruments API
   slug: checkout-com-instruments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkout-com/refs/heads/main/openapi/checkout-com-instruments-api-openapi.yml
+  url: https://artifacts.apis.io/checkout-com/openapi/checkout-com-instruments-api-openapi.yml
 - filename: checkout-com-payments-api-openapi.yml
   format: yaml
   label: Checkout.com Payments API
   slug: checkout-com-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkout-com/refs/heads/main/openapi/checkout-com-payments-api-openapi.yml
+  url: https://artifacts.apis.io/checkout-com/openapi/checkout-com-payments-api-openapi.yml
 - filename: checkout-com-tokens-api-openapi.yml
   format: yaml
   label: Checkout.com Tokens API
   slug: checkout-com-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkout-com/refs/heads/main/openapi/checkout-com-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/checkout-com/openapi/checkout-com-tokens-api-openapi.yml
 - filename: checkout-com-workflows-api-openapi.yml
   format: yaml
   label: Checkout.com Workflows API
   slug: checkout-com-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkout-com/refs/heads/main/openapi/checkout-com-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/checkout-com/openapi/checkout-com-workflows-api-openapi.yml
 certification_count: 4
 certifications:
 - PCI DSS
@@ -51,7 +51,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-14'\nmethod: searched\nprobe: false\nsource: https://www.checkout.com/docs/payments/ensure-regulatory-compliance/pci-compliance\nurl: https://www.checkout.com/docs/payments/ensure-regulatory-compliance/pci-compliance\ndescription: >-\n  Checkout.com's security & compliance posture, captured from its PCI compliance\n  documentation. Checkout Technology Ltd (a company within the Checkout.com\n  group) is certified as a PCI DSS Level 1 Service Provider — the highest\n  standard set by the payment card industry. Integrating via Flow, Hosted\n  Payments Page, Payment Links, or the Mobile SDKs lets merchants accept payments\n  without ever handling card data, simplifying their own PCI scope (typically\n  SAQ A). This is the human-verified searched fill; the automated trust-center\n  probe did not record it because Checkout.com surfaces compliance through its\n  docs rather than a trust.<domain> subdomain meeting the probe's keyword\n  threshold.\ncertifications:\n\
   \  - {name: PCI DSS, level: Service Provider Level 1, entity: Checkout Technology Ltd, note: Highest standard set by the payment card industry.}\n  - {name: SOC 2, note: Reported by third-party security profiles; details provided to customers on request.}\n  - {name: ISO 27001, note: Information security management certification reported for the Checkout.com group.}\n  - {name: GDPR, scope: EU/UK data protection compliance.}\nmerchant_scope_reduction:\n  note: >-\n    Merchants simplify their own PCI compliance by integrating with Flow, Hosted\n    Payments Page, Payment Links, or Mobile SDKs (no card data handled), serving\n    all payment pages over TLS/HTTPS, and validating annually (most via SAQ A).\ndocs:\n  - https://www.checkout.com/docs/payments/ensure-regulatory-compliance/pci-compliance\n  - https://www.checkout.com/docs/payments/ensure-regulatory-compliance/sca-compliance\nevidence:\n  - {source: https://www.checkout.com/docs/payments/ensure-regulatory-compliance/pci-compliance,\
   \ keywords: [pci dss level 1, service provider, self-assessment questionnaire, tls]}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/checkout-com/refs/heads/main/security/checkout-com-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/checkout-com/security/checkout-com-trust-center.yml
 summary_line: PCI DSS, SOC 2, ISO 27001, GDPR
 tags:
 - Fintech

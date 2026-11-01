@@ -27,7 +27,7 @@ source_filename: securew2-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.securew2.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 23:33:35 2026 GMT\n  hsts: null\ndomains:\n- domain: securew2.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/securew2/refs/heads/main/security/securew2-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/securew2/security/securew2-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

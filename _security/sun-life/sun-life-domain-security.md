@@ -5,97 +5,97 @@ api_specs:
   label: Sun Life Authorize API
   slug: sun-life-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-authorize-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-authorize-api-openapi.yml
 - filename: sun-life-callback-api-openapi.yml
   format: yaml
   label: Sun Life Callback API
   slug: sun-life-callback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-callback-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-callback-api-openapi.yml
 - filename: sun-life-coverage-api-openapi.yml
   format: yaml
   label: Sun Life Coverage API
   slug: sun-life-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-coverage-api-openapi.yml
 - filename: sun-life-endpoint-api-openapi.yml
   format: yaml
   label: Sun Life Endpoint API
   slug: sun-life-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-endpoint-api-openapi.yml
 - filename: sun-life-location-api-openapi.yml
   format: yaml
   label: Sun Life Location API
   slug: sun-life-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-location-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-location-api-openapi.yml
 - filename: sun-life-metadata-api-openapi.yml
   format: yaml
   label: Sun Life Metadata API
   slug: sun-life-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-metadata-api-openapi.yml
 - filename: sun-life-organization-api-openapi.yml
   format: yaml
   label: Sun Life Organization API
   slug: sun-life-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-organization-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-organization-api-openapi.yml
 - filename: sun-life-patient-api-openapi.yml
   format: yaml
   label: Sun Life Patient API
   slug: sun-life-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-patient-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-patient-api-openapi.yml
 - filename: sun-life-practitioner-api-openapi.yml
   format: yaml
   label: Sun Life Practitioner API
   slug: sun-life-practitioner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-practitioner-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-practitioner-api-openapi.yml
 - filename: sun-life-relatedperson-api-openapi.yml
   format: yaml
   label: Sun Life Related Person API
   slug: sun-life-relatedperson-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-relatedperson-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-relatedperson-api-openapi.yml
 - filename: sun-life-token-api-openapi.yml
   format: yaml
   label: Sun Life Token API
   slug: sun-life-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-token-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-token-api-openapi.yml
 - filename: sun-life-tokenhook-api-openapi.yml
   format: yaml
   label: Sun Life Tokenhook API
   slug: sun-life-tokenhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-tokenhook-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-tokenhook-api-openapi.yml
 - filename: sun-life-well-known-api-openapi.yml
   format: yaml
   label: Sun Life .well Known API
   slug: sun-life-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-well-known-api-openapi.yml
 - filename: sun-life-healthcare-service-api-openapi.yml
   format: yaml
   label: Sun Life Healthcare Service API
   slug: sun-life-healthcare-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-healthcare-service-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-healthcare-service-api-openapi.yml
 - filename: sun-life-insurance-plan-api-openapi.yml
   format: yaml
   label: Sun Life Insurance Plan API
   slug: sun-life-insurance-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-insurance-plan-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-insurance-plan-api-openapi.yml
 - filename: sun-life-practitioner-role-api-openapi.yml
   format: yaml
   label: Sun Life Practitioner Role API
   slug: sun-life-practitioner-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-practitioner-role-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-practitioner-role-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -141,7 +141,7 @@ source_filename: sun-life-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sunlife.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.dentaquest.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 21 23:59:59 2026 GMT\n  hsts: null\n- host: api.deltadentalma.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: sunlife.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: dentaquest.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/security/sun-life-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sun-life/security/sun-life-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance

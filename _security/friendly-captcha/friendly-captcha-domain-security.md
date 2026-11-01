@@ -5,7 +5,7 @@ api_specs:
   label: Friendly Captcha Siteverify API
   slug: friendly-captcha-siteverify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/friendly-captcha/refs/heads/main/openapi/friendly-captcha-siteverify-api-openapi.yml
+  url: https://artifacts.apis.io/friendly-captcha/openapi/friendly-captcha-siteverify-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: friendly-captcha-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: friendlycaptcha.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 06:39:13 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.friendlycaptcha.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 04:47:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: global.frcapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: friendlycaptcha.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: frcapi.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/friendly-captcha/refs/heads/main/security/friendly-captcha-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/friendly-captcha/security/friendly-captcha-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - CAPTCHA

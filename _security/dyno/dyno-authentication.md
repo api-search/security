@@ -8,103 +8,103 @@ api_specs:
   label: Dyno Admin API
   slug: dyno-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-admin-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-admin-api-openapi.yml
 - filename: dyno-agents-api-openapi.yml
   format: yaml
   label: Dyno Agents API
   slug: dyno-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-agents-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-agents-api-openapi.yml
 - filename: dyno-artifacts-api-openapi.yml
   format: yaml
   label: Dyno Artifacts API
   slug: dyno-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-artifacts-api-openapi.yml
 - filename: dyno-assets-api-openapi.yml
   format: yaml
   label: Dyno Assets API
   slug: dyno-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-assets-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-assets-api-openapi.yml
 - filename: dyno-auth-api-openapi.yml
   format: yaml
   label: Dyno Auth API
   slug: dyno-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-auth-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-auth-api-openapi.yml
 - filename: dyno-datasets-api-openapi.yml
   format: yaml
   label: Dyno Datasets API
   slug: dyno-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-datasets-api-openapi.yml
 - filename: dyno-files-api-openapi.yml
   format: yaml
   label: Dyno Files API
   slug: dyno-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-files-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-files-api-openapi.yml
 - filename: dyno-health-api-openapi.yml
   format: yaml
   label: Dyno Health API
   slug: dyno-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-health-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-health-api-openapi.yml
 - filename: dyno-ingest-api-openapi.yml
   format: yaml
   label: Dyno Ingest API
   slug: dyno-ingest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-ingest-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-ingest-api-openapi.yml
 - filename: dyno-jobs-api-openapi.yml
   format: yaml
   label: Dyno Jobs API
   slug: dyno-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-jobs-api-openapi.yml
 - filename: dyno-phi-api-openapi.yml
   format: yaml
   label: Dyno Phi API
   slug: dyno-phi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-phi-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-phi-api-openapi.yml
 - filename: dyno-protocols-api-openapi.yml
   format: yaml
   label: Dyno Protocols API
   slug: dyno-protocols-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-protocols-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-protocols-api-openapi.yml
 - filename: dyno-research-notes-api-openapi.yml
   format: yaml
   label: Dyno Research Notes API
   slug: dyno-research-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-research-notes-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-research-notes-api-openapi.yml
 - filename: dyno-runs-api-openapi.yml
   format: yaml
   label: Dyno Runs API
   slug: dyno-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-runs-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-runs-api-openapi.yml
 - filename: dyno-tools-api-openapi.yml
   format: yaml
   label: Dyno Tools API
   slug: dyno-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-tools-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-tools-api-openapi.yml
 - filename: dyno-tutorial-api-openapi.yml
   format: yaml
   label: Dyno Tutorial API
   slug: dyno-tutorial-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-tutorial-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-tutorial-api-openapi.yml
 - filename: dyno-workflows-api-openapi.yml
   format: yaml
   label: Dyno Workflows API
   slug: dyno-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/dyno/openapi/dyno-workflows-api-openapi.yml
 auth_types:
 - apiKey
 - http-bearer
@@ -153,7 +153,7 @@ source_yaml: "generated: '2026-08-10'\nmethod: searched\nsource: https://api.dyn
   \  evidence: >-\n    The open-source notice lists Clerk (commercial licence) in the platform\n    stack; the OpenAPI description states organisation ID is derived\n    automatically from Clerk tokens. Used by the design.dynotx.com dashboard.\n  discovery: none\n  note: >-\n    No /.well-known/openid-configuration is served on any Dyno host, so the\n    issuer is not machine-discoverable. See well-known/dyno-well-known.yml.\ntenancy_headers:\n- name: X-Organization-ID\n  required_when: static API key callers\n  source: openapi info.description\n  note: \"\\\"Organisation ID is derived automatically from Clerk tokens; static-key callers must include X-Organization-ID.\\\"\"\n- name: X-User-ID\n  required: false\n  source: openapi parameters + phi-cli (DYNO_USER_ID env var)\nkey_management:\n  issue_url: https://design.dynotx.com/dashboard/settings\n  path: Settings -> API keys\n  env_var: DYNO_API_KEY\n  base_url_env_var: DYNO_API_BASE_URL\n  local_cache: .phi/state.json (written by the\
   \ CLI on first use)\n  rotation_policy: not published\n  expiry_policy: not published\n  scoping: not published (no scopes/permissions surface)\ngaps_to_report_upstream:\n- >-\n  No components.securitySchemes in the OpenAPI — every generated client and\n  every agent reading the spec will treat auth as optional. Adding an apiKey\n  scheme named x-api-key plus a top-level security requirement is a one-line fix.\n- >-\n  The spec description documents an `Authorization: Bearer` scheme but the\n  server answers with an x-api-key challenge; the two disagree.\n- No 401 or 403 response is declared on any of the 80 operations.\nx-evidence:\n  fetched: '2026-08-10'\n  urls:\n  - {url: 'https://api.dyno-agents.app/v1/phi/openapi.json', http_status: 200}\n  - {url: 'https://api.dyno-agents.app/v1/phi/jobs/', http_status: 401}\n  - {url: 'https://api.dyno-agents.app/v1/phi/auth/me', http_status: 401}\n  - {url: 'https://raw.githubusercontent.com/dynotx/phi-cli/main/src/phi/config.py', http_status:\
   \ 200}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/authentication/dyno-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dyno/authentication/dyno-authentication.yml
 summary_line: apiKey/http-bearer/oidc-session · 3 schemes
 tags:
 - Company

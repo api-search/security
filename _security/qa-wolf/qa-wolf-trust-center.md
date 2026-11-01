@@ -5,13 +5,13 @@ api_specs:
   label: QA Wolf CI API
   slug: qa-wolf-ci-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/openapi/qa-wolf-ci-api-openapi.yml
+  url: https://artifacts.apis.io/qa-wolf/openapi/qa-wolf-ci-api-openapi.yml
 - filename: qa-wolf-webhooks-api-openapi.yml
   format: yaml
   label: QA Wolf Webhooks API
   slug: qa-wolf-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/openapi/qa-wolf-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/qa-wolf/openapi/qa-wolf-webhooks-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -29,16 +29,15 @@ source_filename: qa-wolf-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nprobe: true\nsource: https://trust.qawolf.com/\nurl: https://trust.qawolf.com/\ncertifications:\n- SOC 2\n- HIPAA\nevidence:\n- source: https://trust.qawolf.com/\n  keywords:\n  - soc 2\n  - hipaa\n  - trust center\n  - compliance certification\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/security/qa-wolf-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/qa-wolf/security/qa-wolf-trust-center.yml
 summary_line: SOC 2, HIPAA
 tags:
 - Company
-- DevTools
+- Developer Tools
 - Testing
 - Test Automation
 - QA
 - CI/CD
 - Playwright
-- Developer Tools
 trust_url: https://trust.qawolf.com/
 ---

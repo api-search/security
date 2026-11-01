@@ -5,31 +5,31 @@ api_specs:
   label: Monta Authentication API
   slug: monta-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/openapi/monta-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/monta/openapi/monta-authentication-api-openapi.yml
 - filename: monta-charge-points-api-openapi.yml
   format: yaml
   label: Monta Charge Points API
   slug: monta-charge-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/openapi/monta-charge-points-api-openapi.yml
+  url: https://artifacts.apis.io/monta/openapi/monta-charge-points-api-openapi.yml
 - filename: monta-charges-api-openapi.yml
   format: yaml
   label: Monta Charges API
   slug: monta-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/openapi/monta-charges-api-openapi.yml
+  url: https://artifacts.apis.io/monta/openapi/monta-charges-api-openapi.yml
 - filename: monta-utilities-api-openapi.yml
   format: yaml
   label: Monta Utilities API
   slug: monta-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/openapi/monta-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/monta/openapi/monta-utilities-api-openapi.yml
 - filename: monta-wallet-transactions-api-openapi.yml
   format: yaml
   label: Monta Wallet Transactions API
   slug: monta-wallet-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/openapi/monta-wallet-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/monta/openapi/monta-wallet-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,12 +70,11 @@ source_filename: monta-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.monta.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 13 15:20:40 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.public-api.monta.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 18:58:58 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: public-api.monta.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 14:25:43 2026 GMT\n  hsts: null\ndomains:\n- domain: monta.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/security/monta-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/monta/security/monta-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - EV Charging
 - Electric Vehicles
-- Charge Points
 - Energy
 - Mobility
 ---

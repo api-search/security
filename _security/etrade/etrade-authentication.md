@@ -7,19 +7,19 @@ api_specs:
   label: Etrade Accounts API
   slug: etrade-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etrade/refs/heads/main/openapi/etrade-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/etrade/openapi/etrade-accounts-api-openapi.yml
 - filename: etrade-market-api-openapi.yml
   format: yaml
   label: Etrade Market API
   slug: etrade-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etrade/refs/heads/main/openapi/etrade-market-api-openapi.yml
+  url: https://artifacts.apis.io/etrade/openapi/etrade-market-api-openapi.yml
 - filename: etrade-order-api-openapi.yml
   format: yaml
   label: Etrade Order API
   slug: etrade-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etrade/refs/heads/main/openapi/etrade-order-api-openapi.yml
+  url: https://artifacts.apis.io/etrade/openapi/etrade-order-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: etrade-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/etrade-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: oauth1\n  type: http\n  scheme: OAuth\n  description: E*TRADE uses OAuth 1.0a. Obtain a request token, redirect the customer for authorization,\n    exchange for an access token, then sign each request with HMAC-SHA1.\n  sources:\n  - openapi/etrade-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/etrade/refs/heads/main/authentication/etrade-authentication.yml
+source_yaml_url: https://artifacts.apis.io/etrade/authentication/etrade-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Bonds

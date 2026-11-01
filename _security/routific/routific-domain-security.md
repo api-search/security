@@ -5,25 +5,25 @@ api_specs:
   label: Routific Fix API
   slug: routific-fix-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routific/refs/heads/main/openapi/routific-fix-api-openapi.yml
+  url: https://artifacts.apis.io/routific/openapi/routific-fix-api-openapi.yml
 - filename: routific-jobs-api-openapi.yml
   format: yaml
   label: Routific Jobs API
   slug: routific-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routific/refs/heads/main/openapi/routific-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/routific/openapi/routific-jobs-api-openapi.yml
 - filename: routific-pdp-api-openapi.yml
   format: yaml
   label: Routific PDP API
   slug: routific-pdp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routific/refs/heads/main/openapi/routific-pdp-api-openapi.yml
+  url: https://artifacts.apis.io/routific/openapi/routific-pdp-api-openapi.yml
 - filename: routific-vrp-api-openapi.yml
   format: yaml
   label: Routific VRP API
   slug: routific-vrp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routific/refs/heads/main/openapi/routific-vrp-api-openapi.yml
+  url: https://artifacts.apis.io/routific/openapi/routific-vrp-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -70,7 +70,7 @@ source_filename: routific-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: routific.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 22:02:04 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.routific.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 06:54:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.routific.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 10 23:10:31 2026 GMT\n  hsts: null\ndomains:\n- domain: routific.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"ssl.com\"\n  - 0 iodef \"mailto:devs@routific.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/routific/refs/heads/main/security/routific-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/routific/security/routific-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Route Optimization

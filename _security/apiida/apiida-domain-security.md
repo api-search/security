@@ -5,37 +5,37 @@ api_specs:
   label: APIIDA Alarms API
   slug: apiida-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/apiida/openapi/apiida-alarms-api-openapi.yml
 - filename: apiida-deployments-api-openapi.yml
   format: yaml
   label: APIIDA Deployments API
   slug: apiida-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/apiida/openapi/apiida-deployments-api-openapi.yml
 - filename: apiida-gateways-api-openapi.yml
   format: yaml
   label: APIIDA Gateways API
   slug: apiida-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/apiida/openapi/apiida-gateways-api-openapi.yml
 - filename: apiida-monitoring-api-openapi.yml
   format: yaml
   label: APIIDA Monitoring API
   slug: apiida-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/apiida/openapi/apiida-monitoring-api-openapi.yml
 - filename: apiida-versions-api-openapi.yml
   format: yaml
   label: APIIDA Versions API
   slug: apiida-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-versions-api-openapi.yml
+  url: https://artifacts.apis.io/apiida/openapi/apiida-versions-api-openapi.yml
 - filename: apiida-apis-api-openapi.yml
   format: yaml
   label: APIIDA APIS API
   slug: apiida-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apiida/openapi/apiida-apis-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +71,7 @@ source_filename: apiida-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: apiida.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.apiida.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: apiida.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/security/apiida-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apiida/security/apiida-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - API Gateway

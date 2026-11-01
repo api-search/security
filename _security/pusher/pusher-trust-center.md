@@ -5,25 +5,25 @@ api_specs:
   label: Pusher Channels API
   slug: channels-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pusher/refs/heads/main/asyncapi/pusher-asyncapi.yml
+  url: https://artifacts.apis.io/pusher/asyncapi/pusher-asyncapi.yml
 - filename: pusher-channels-api-openapi.yml
   format: yaml
   label: Pusher Channels API
   slug: pusher-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pusher/refs/heads/main/openapi/pusher-channels-api-openapi.yml
+  url: https://artifacts.apis.io/pusher/openapi/pusher-channels-api-openapi.yml
 - filename: pusher-events-api-openapi.yml
   format: yaml
   label: Pusher Events API
   slug: pusher-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pusher/refs/heads/main/openapi/pusher-events-api-openapi.yml
+  url: https://artifacts.apis.io/pusher/openapi/pusher-events-api-openapi.yml
 - filename: pusher-users-api-openapi.yml
   format: yaml
   label: Pusher Users API
   slug: pusher-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pusher/refs/heads/main/openapi/pusher-users-api-openapi.yml
+  url: https://artifacts.apis.io/pusher/openapi/pusher-users-api-openapi.yml
 certification_count: 3
 certifications:
 - ISO 27001
@@ -42,7 +42,7 @@ source_filename: pusher-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://pusher.com/security/\nurl: https://pusher.com/security/\ncertifications:\n- ISO 27001\n- HIPAA\n- GDPR\nevidence:\n- source: https://pusher.com/security/\n  keywords:\n  - iso/iec 27001\n  - hipaa\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pusher/refs/heads/main/security/pusher-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/pusher/security/pusher-trust-center.yml
 summary_line: ISO 27001, HIPAA, GDPR
 tags:
 - Real-Time

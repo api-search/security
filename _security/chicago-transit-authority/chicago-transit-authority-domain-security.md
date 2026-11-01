@@ -5,55 +5,55 @@ api_specs:
   label: Chicago Transit Authority Arrivals API
   slug: chicago-transit-authority-arrivals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chicago-transit-authority/refs/heads/main/openapi/chicago-transit-authority-arrivals-api-openapi.yml
+  url: https://artifacts.apis.io/chicago-transit-authority/openapi/chicago-transit-authority-arrivals-api-openapi.yml
 - filename: chicago-transit-authority-bulletins-api-openapi.yml
   format: yaml
   label: Chicago Transit Authority Bulletins API
   slug: chicago-transit-authority-bulletins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chicago-transit-authority/refs/heads/main/openapi/chicago-transit-authority-bulletins-api-openapi.yml
+  url: https://artifacts.apis.io/chicago-transit-authority/openapi/chicago-transit-authority-bulletins-api-openapi.yml
 - filename: chicago-transit-authority-follow-api-openapi.yml
   format: yaml
   label: Chicago Transit Authority Follow API
   slug: chicago-transit-authority-follow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chicago-transit-authority/refs/heads/main/openapi/chicago-transit-authority-follow-api-openapi.yml
+  url: https://artifacts.apis.io/chicago-transit-authority/openapi/chicago-transit-authority-follow-api-openapi.yml
 - filename: chicago-transit-authority-locations-api-openapi.yml
   format: yaml
   label: Chicago Transit Authority Locations API
   slug: chicago-transit-authority-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chicago-transit-authority/refs/heads/main/openapi/chicago-transit-authority-locations-api-openapi.yml
+  url: https://artifacts.apis.io/chicago-transit-authority/openapi/chicago-transit-authority-locations-api-openapi.yml
 - filename: chicago-transit-authority-predictions-api-openapi.yml
   format: yaml
   label: Chicago Transit Authority Predictions API
   slug: chicago-transit-authority-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chicago-transit-authority/refs/heads/main/openapi/chicago-transit-authority-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/chicago-transit-authority/openapi/chicago-transit-authority-predictions-api-openapi.yml
 - filename: chicago-transit-authority-routes-api-openapi.yml
   format: yaml
   label: Chicago Transit Authority Routes API
   slug: chicago-transit-authority-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chicago-transit-authority/refs/heads/main/openapi/chicago-transit-authority-routes-api-openapi.yml
+  url: https://artifacts.apis.io/chicago-transit-authority/openapi/chicago-transit-authority-routes-api-openapi.yml
 - filename: chicago-transit-authority-stops-api-openapi.yml
   format: yaml
   label: Chicago Transit Authority Stops API
   slug: chicago-transit-authority-stops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chicago-transit-authority/refs/heads/main/openapi/chicago-transit-authority-stops-api-openapi.yml
+  url: https://artifacts.apis.io/chicago-transit-authority/openapi/chicago-transit-authority-stops-api-openapi.yml
 - filename: chicago-transit-authority-system-api-openapi.yml
   format: yaml
   label: Chicago Transit Authority System API
   slug: chicago-transit-authority-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chicago-transit-authority/refs/heads/main/openapi/chicago-transit-authority-system-api-openapi.yml
+  url: https://artifacts.apis.io/chicago-transit-authority/openapi/chicago-transit-authority-system-api-openapi.yml
 - filename: chicago-transit-authority-vehicles-api-openapi.yml
   format: yaml
   label: Chicago Transit Authority Vehicles API
   slug: chicago-transit-authority-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chicago-transit-authority/refs/heads/main/openapi/chicago-transit-authority-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/chicago-transit-authority/openapi/chicago-transit-authority-vehicles-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -97,7 +97,7 @@ source_filename: chicago-transit-authority-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.transitchicago.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 17:15:30 2026 GMT\n  hsts: null\n- host: lapi.transitchicago.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 01:02:11 2026 GMT\n  hsts: null\n- host: www.ctabustracker.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 0\ndomains:\n- domain: transitchicago.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: ctabustracker.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chicago-transit-authority/refs/heads/main/security/chicago-transit-authority-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/chicago-transit-authority/security/chicago-transit-authority-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Bus

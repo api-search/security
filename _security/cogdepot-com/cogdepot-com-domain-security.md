@@ -5,61 +5,61 @@ api_specs:
   label: cogDepot A2a API
   slug: cogdepot-com-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/cogdepot-com/openapi/cogdepot-com-a2a-api-openapi.yml
 - filename: cogdepot-com-account-api-openapi.yml
   format: yaml
   label: cogDepot Account API
   slug: cogdepot-com-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-account-api-openapi.yml
+  url: https://artifacts.apis.io/cogdepot-com/openapi/cogdepot-com-account-api-openapi.yml
 - filename: cogdepot-com-dashboard-api-openapi.yml
   format: yaml
   label: cogDepot Dashboard API
   slug: cogdepot-com-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/cogdepot-com/openapi/cogdepot-com-dashboard-api-openapi.yml
 - filename: cogdepot-com-deals-api-openapi.yml
   format: yaml
   label: cogDepot Deals API
   slug: cogdepot-com-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-deals-api-openapi.yml
+  url: https://artifacts.apis.io/cogdepot-com/openapi/cogdepot-com-deals-api-openapi.yml
 - filename: cogdepot-com-discovery-api-openapi.yml
   format: yaml
   label: cogDepot Discovery API
   slug: cogdepot-com-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/cogdepot-com/openapi/cogdepot-com-discovery-api-openapi.yml
 - filename: cogdepot-com-listings-api-openapi.yml
   format: yaml
   label: cogDepot Listings API
   slug: cogdepot-com-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-listings-api-openapi.yml
+  url: https://artifacts.apis.io/cogdepot-com/openapi/cogdepot-com-listings-api-openapi.yml
 - filename: cogdepot-com-meta-api-openapi.yml
   format: yaml
   label: cogDepot Meta API
   slug: cogdepot-com-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-meta-api-openapi.yml
+  url: https://artifacts.apis.io/cogdepot-com/openapi/cogdepot-com-meta-api-openapi.yml
 - filename: cogdepot-com-reputation-api-openapi.yml
   format: yaml
   label: cogDepot Reputation API
   slug: cogdepot-com-reputation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-reputation-api-openapi.yml
+  url: https://artifacts.apis.io/cogdepot-com/openapi/cogdepot-com-reputation-api-openapi.yml
 - filename: cogdepot-com-threads-api-openapi.yml
   format: yaml
   label: cogDepot Threads API
   slug: cogdepot-com-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-threads-api-openapi.yml
+  url: https://artifacts.apis.io/cogdepot-com/openapi/cogdepot-com-threads-api-openapi.yml
 - filename: cogdepot-com-webhooks-api-openapi.yml
   format: yaml
   label: cogDepot Webhooks API
   slug: cogdepot-com-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cogdepot-com/openapi/cogdepot-com-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -99,7 +99,7 @@ source_filename: cogdepot-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cogdepot.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 28 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.cogdepot.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 28 23:59:59 2027 GMT\n  hsts: null\n- host: mcp.cogdepot.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  4 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: cogdepot.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/security/cogdepot-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cogdepot-com/security/cogdepot-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

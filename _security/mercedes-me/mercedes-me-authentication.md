@@ -7,67 +7,67 @@ api_specs:
   label: Mercedes-Benz Mercedes me Components API
   slug: mercedes-me-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-components-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-components-api-openapi.yml
 - filename: mercedes-me-configurations-api-openapi.yml
   format: yaml
   label: Mercedes-Benz Mercedes me Configurations API
   slug: mercedes-me-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-configurations-api-openapi.yml
 - filename: mercedes-me-dealer-search-api-openapi.yml
   format: yaml
   label: Mercedes-Benz Mercedes me Dealer search API
   slug: mercedes-me-dealer-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-dealer-search-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-dealer-search-api-openapi.yml
 - filename: mercedes-me-diagnostic-trouble-code-dtc-snapshots-api-openapi.yml
   format: yaml
   label: Mercedes-Benz Mercedes me Diagnostic Trouble Code (DTC) Snapshots API
   slug: mercedes-me-diagnostic-trouble-code-dtc-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-diagnostic-trouble-code-dtc-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-diagnostic-trouble-code-dtc-snapshots-api-openapi.yml
 - filename: mercedes-me-diagnostic-trouble-codes-dtc-s-api-openapi.yml
   format: yaml
   label: Mercedes-Benz Mercedes me Diagnostic Trouble Codes (DTC's) API
   slug: mercedes-me-diagnostic-trouble-codes-dtc-s-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-diagnostic-trouble-codes-dtc-s-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-diagnostic-trouble-codes-dtc-s-api-openapi.yml
 - filename: mercedes-me-electronical-control-units-ecu-s-api-openapi.yml
   format: yaml
   label: Mercedes-Benz Mercedes me Electronical Control Units (ECU's) API
   slug: mercedes-me-electronical-control-units-ecu-s-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-electronical-control-units-ecu-s-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-electronical-control-units-ecu-s-api-openapi.yml
 - filename: mercedes-me-images-api-openapi.yml
   format: yaml
   label: Mercedes-Benz Mercedes me Images API
   slug: mercedes-me-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-images-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-images-api-openapi.yml
 - filename: mercedes-me-perspectives-api-openapi.yml
   format: yaml
   label: Mercedes-Benz Mercedes me Perspectives API
   slug: mercedes-me-perspectives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-perspectives-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-perspectives-api-openapi.yml
 - filename: mercedes-me-references-api-openapi.yml
   format: yaml
   label: Mercedes-Benz Mercedes me References API
   slug: mercedes-me-references-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-references-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-references-api-openapi.yml
 - filename: mercedes-me-resources-api-openapi.yml
   format: yaml
   label: Mercedes-Benz Mercedes me Resources API
   slug: mercedes-me-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-resources-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-resources-api-openapi.yml
 - filename: mercedes-me-saved-configurations-api-openapi.yml
   format: yaml
   label: Mercedes-Benz Mercedes me Saved configurations API
   slug: mercedes-me-saved-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-saved-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-saved-configurations-api-openapi.yml
 auth_types: []
 description: Mercedes-Benz runs two distinct authentication models across one API gateway, and which one applies depends on whether the API touches a customer's vehicle.
 kind: authentication
@@ -164,7 +164,7 @@ source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: >-\n  https://id.
   \        tokenUrl: https://id.mercedes-benz.com/as/token.oauth2\n        refreshUrl: https://id.mercedes-benz.com/as/token.oauth2\n        pkce: S256\n      clientCredentials:\n        tokenUrl: https://id.mercedes-benz.com/as/token.oauth2\n      deviceCode:\n        deviceAuthorizationUrl: present in discovery document\n    applies_to:\n      - Vehicle Status API\n      - Vehicle Lock Status API\n      - Fuel Status API\n      - Electric Vehicle Status API\n      - Pay As You Drive 2.0 API\n      - Mercedes-Benz Fleet API (Kafka Push consumers authenticate with OAuth 2.0)\n    consent_model: >-\n      Authorization-code flow in which the VEHICLE OWNER — not the developer — grants per-resource\n      consent. Scope selection is the consent surface: an application requesting\n      mb:vehicle:mbdata:fuelstatus receives tank level and nothing else. See\n      scopes/mercedes-me-scopes.yml for all 38 published product scopes.\n    scopes_reference: scopes/mercedes-me-scopes.yml\n  - id: mercedes-benz-openid-connect\n\
   \    type: openIdConnect\n    openIdConnectUrl: https://id.mercedes-benz.com/.well-known/openid-configuration\n    issuer: https://id.mercedes-benz.com\n    userinfo_endpoint: https://id.mercedes-benz.com/idp/userinfo.openid\n    jwks_uri: https://id.mercedes-benz.com/pf/JWKS\n    claims_supported:\n      - acr\n      - ciam-uid\n      - company-id\n      - country\n      - email\n      - email_verified\n      - family_name\n      - given_name\n      - identityProviders\n      - known_user\n      - locale\n      - name\n      - phone_number\n      - phone_number_verified\n      - reg-track-id\n      - sub\n      - third-party-ids\n    subject_types_supported: [public, pairwise]\n    id_token_signing_alg_values_supported: [RS256, RS384, RS512, ES256, ES384, ES512, PS256, PS384, PS512, HS256, HS384, HS512, none]\ntoken_endpoint_auth_methods:\n  - client_secret_basic\n  - client_secret_post\n  - client_secret_jwt\n  - private_key_jwt\n  - tls_client_auth\n  - none\nobservations:\n  - >-\n\
   \    STRONG: the authorization server advertises PKCE S256, pushed authorization requests, private_key_jwt\n    and mutual-TLS client authentication, and dynamic client registration — a modern, FAPI-adjacent\n    posture for an OEM identity provider.\n  - >-\n    WEAK: implicit, password and the \"none\" token-endpoint auth method are still advertised as supported.\n    A public OAuth discovery document that still lists the resource-owner password grant is a legacy\n    surface an integrator should be told not to use; Mercedes-Benz publishes no statement deprecating it\n    that we could read.\n  - >-\n    WEAK: no securityDefinitions in ANY published OpenAPI. The four Swagger 2.0 documents describe\n    authentication only in a 401 response description string. That is not machine-readable auth: an\n    agent cannot construct a request from the contract alone.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/authentication/mercedes-me-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mercedes-me/authentication/mercedes-me-authentication.yml
 summary_line: 3 schemes
 tags:
 - Automotive

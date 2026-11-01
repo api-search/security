@@ -8,25 +8,25 @@ api_specs:
   label: Bitpanda Assets API
   slug: bitpanda-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/openapi/bitpanda-assets-api-openapi.yml
+  url: https://artifacts.apis.io/bitpanda/openapi/bitpanda-assets-api-openapi.yml
 - filename: bitpanda-market-data-api-openapi.yml
   format: yaml
   label: Bitpanda Market Data API
   slug: bitpanda-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/openapi/bitpanda-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/bitpanda/openapi/bitpanda-market-data-api-openapi.yml
 - filename: bitpanda-transactions-api-openapi.yml
   format: yaml
   label: Bitpanda Transactions API
   slug: bitpanda-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/openapi/bitpanda-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bitpanda/openapi/bitpanda-transactions-api-openapi.yml
 - filename: bitpanda-wallets-api-openapi.yml
   format: yaml
   label: Bitpanda Wallets API
   slug: bitpanda-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/openapi/bitpanda-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/bitpanda/openapi/bitpanda-wallets-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: bitpanda-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/bitpanda-platform-openapi.yml\ndocs: https://developers.bitpanda.com/platform/\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-Api-Key\n  description: Bitpanda API key. Generate one at https://web.bitpanda.com/my-account/apikey\n  sources:\n  - openapi/bitpanda-platform-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/authentication/bitpanda-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bitpanda/authentication/bitpanda-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

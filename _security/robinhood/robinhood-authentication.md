@@ -8,31 +8,31 @@ api_specs:
   label: Robinhood Account API
   slug: robinhood-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/openapi/robinhood-account-api-openapi.yml
+  url: https://artifacts.apis.io/robinhood/openapi/robinhood-account-api-openapi.yml
 - filename: robinhood-holdings-api-openapi.yml
   format: yaml
   label: Robinhood Holdings API
   slug: robinhood-holdings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/openapi/robinhood-holdings-api-openapi.yml
+  url: https://artifacts.apis.io/robinhood/openapi/robinhood-holdings-api-openapi.yml
 - filename: robinhood-market-data-api-openapi.yml
   format: yaml
   label: Robinhood Market Data API
   slug: robinhood-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/openapi/robinhood-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/robinhood/openapi/robinhood-market-data-api-openapi.yml
 - filename: robinhood-orders-api-openapi.yml
   format: yaml
   label: Robinhood Orders API
   slug: robinhood-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/openapi/robinhood-orders-api-openapi.yml
+  url: https://artifacts.apis.io/robinhood/openapi/robinhood-orders-api-openapi.yml
 - filename: robinhood-trading-pairs-api-openapi.yml
   format: yaml
   label: Robinhood Trading Pairs API
   slug: robinhood-trading-pairs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/openapi/robinhood-trading-pairs-api-openapi.yml
+  url: https://artifacts.apis.io/robinhood/openapi/robinhood-trading-pairs-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -74,7 +74,7 @@ source_filename: robinhood-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/robinhood-crypto-trading-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: The API key issued in the Robinhood API Credentials Portal.\n  sources:\n  - openapi/robinhood-crypto-trading-openapi.yml\n- name: ApiTimestamp\n  type: apiKey\n  in: header\n  parameter: x-timestamp\n  description: Current UNIX timestamp (seconds) included in the signed message.\n  sources:\n  - openapi/robinhood-crypto-trading-openapi.yml\n- name: ApiSignature\n  type: apiKey\n  in: header\n  parameter: x-signature\n  description: Base64 Ed25519 signature over api_key + timestamp + path + method + body.\n  sources:\n  - openapi/robinhood-crypto-trading-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/authentication/robinhood-authentication.yml
+source_yaml_url: https://artifacts.apis.io/robinhood/authentication/robinhood-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - Company

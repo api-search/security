@@ -7,31 +7,31 @@ api_specs:
   label: VivaLNK Devices API
   slug: vivalink-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivalink/refs/heads/main/openapi/vivalink-devices-api-openapi.yml
+  url: https://artifacts.apis.io/vivalink/openapi/vivalink-devices-api-openapi.yml
 - filename: vivalink-fhir-api-openapi.yml
   format: yaml
   label: VivaLNK FHIR API
   slug: vivalink-fhir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivalink/refs/heads/main/openapi/vivalink-fhir-api-openapi.yml
+  url: https://artifacts.apis.io/vivalink/openapi/vivalink-fhir-api-openapi.yml
 - filename: vivalink-subjects-api-openapi.yml
   format: yaml
   label: VivaLNK Subjects API
   slug: vivalink-subjects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivalink/refs/heads/main/openapi/vivalink-subjects-api-openapi.yml
+  url: https://artifacts.apis.io/vivalink/openapi/vivalink-subjects-api-openapi.yml
 - filename: vivalink-vital-signs-api-openapi.yml
   format: yaml
   label: VivaLNK Vital Signs API
   slug: vivalink-vital-signs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivalink/refs/heads/main/openapi/vivalink-vital-signs-api-openapi.yml
+  url: https://artifacts.apis.io/vivalink/openapi/vivalink-vital-signs-api-openapi.yml
 - filename: vivalink-webhooks-api-openapi.yml
   format: yaml
   label: VivaLNK Webhooks API
   slug: vivalink-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivalink/refs/heads/main/openapi/vivalink-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/vivalink/openapi/vivalink-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: vivalink-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/vivalink-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Modeled as an OAuth2/bearer access token issued to Developer Program partners\n    for machine-to-machine access. Confirm the exact scheme (API key vs. OAuth2 client credentials)\n    against VivaLNK's licensed docs.\n  sources:\n  - openapi/vivalink-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vivalink/refs/heads/main/authentication/vivalink-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vivalink/authentication/vivalink-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Connected Health

@@ -30,7 +30,7 @@ source_filename: commerzbank-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.commerzbank.de\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 26 10:16:29 2027 GMT\n  hsts: null\ndomains:\n- domain: commerzbank.de\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:caa-alerts@commerzbank.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/commerzbank/refs/heads/main/security/commerzbank-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/commerzbank/security/commerzbank-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

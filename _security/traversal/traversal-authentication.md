@@ -7,7 +7,7 @@ api_specs:
   label: Traversal Sessions API
   slug: traversal-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traversal/refs/heads/main/openapi/traversal-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/traversal/openapi/traversal-sessions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -38,7 +38,7 @@ source_filename: traversal-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/traversal-sessions-openapi.yaml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: |-\n    Bearer token in the `Authorization` header — for example,\n    `Authorization: Bearer trv_ak_your_api_key_here`. Each key is bound to a\n    specific user and organization.\n  sources:\n  - openapi/traversal-sessions-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/traversal/refs/heads/main/authentication/traversal-authentication.yml
+source_yaml_url: https://artifacts.apis.io/traversal/authentication/traversal-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

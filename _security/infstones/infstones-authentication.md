@@ -8,7 +8,7 @@ api_specs:
   label: InfStones Bnb Chain API
   slug: infstones-bnb-chain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infstones/refs/heads/main/openapi/infstones-bnb-chain-api-openapi.yml
+  url: https://artifacts.apis.io/infstones/openapi/infstones-bnb-chain-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -37,7 +37,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://docs.infstones.com/reference\ndocs: https://docs.infstones.com/reference/getting-started\nsummary:\n  types: [apiKey]\n  api_key_in: [path]\n  note: >-\n    InfStones RPC access is authenticated by a per-project API key (project_id)\n    carried in the request path segment of the endpoint URL, e.g.\n    https://api.infstones.com/bsc/mainnet/{project_id}. The key is issued from the\n    InfStones developer console (https://app.infstones.com/api). The provider's\n    ReadMe-generated OpenAPI declares an empty security requirement, but the\n    project_id path parameter is the effective credential. No OAuth2 or OIDC flow\n    is exposed for RPC access.\nschemes:\n- name: projectIdPathKey\n  type: apiKey\n  in: path\n  parameter: project_id\n  description: >-\n    Per-project API key issued from the InfStones console, placed in the endpoint\n    path (/{project_id}). Scopes RPC requests to the owning project/plan.\n  sources:\n\
   \  - openapi/infstones-bnb-chain-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infstones/refs/heads/main/authentication/infstones-authentication.yml
+source_yaml_url: https://artifacts.apis.io/infstones/authentication/infstones-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

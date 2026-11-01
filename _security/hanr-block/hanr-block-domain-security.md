@@ -31,7 +31,7 @@ source_filename: hanr-block-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hrblock.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 19 23:59:59 2026 GMT\n  hsts: null\n- host: developer.hrblock.com\n  https: false\n- host: api.hrblock.com\n  https: false\ndomains:\n- domain: hrblock.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hanr-block/refs/heads/main/security/hanr-block-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hanr-block/security/hanr-block-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Tax Preparation

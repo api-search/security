@@ -34,7 +34,7 @@ source_filename: maquoketa-research-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live TLS/HTTP HEAD + dig on maquoketa.net hosts\nhosts:\n  - host: www.maquoketa.net\n    https: true\n    tls_version: TLSv1.3\n    cert_expires: '2026-10-07'\n    hsts: false\n    hsts_max_age: null\n    server: cloudflare\n  - host: maquoketa.net\n    https: true\n    tls_version: TLSv1.3\n    hsts: false\ndomains:\n  - domain: maquoketa.net\n    dnssec: false\n    caa: []\n    spf: true\n    spf_record: v=spf1 include:spf.protection.outlook.com -all\n    dmarc: false\n    dmarc_policy: null\nnotes: >-\n  No DNSSEC (no DS record), no CAA policy, and no DMARC record published as of\n  the probe date. SPF is published for Microsoft 365 / Outlook mail. Site is\n  served behind Cloudflare.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maquoketa-research/refs/heads/main/security/maquoketa-research-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/maquoketa-research/security/maquoketa-research-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

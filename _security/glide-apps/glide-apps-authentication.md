@@ -2,30 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: glide-apps-queries-api-openapi.yml
-  format: yaml
-  label: Glide Queries API
-  slug: glide-apps-queries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glide-apps/refs/heads/main/openapi/glide-apps-queries-api-openapi.yml
-- filename: glide-apps-rows-api-openapi.yml
-  format: yaml
-  label: Glide Rows API
-  slug: glide-apps-rows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glide-apps/refs/heads/main/openapi/glide-apps-rows-api-openapi.yml
 - filename: glide-apps-stashes-api-openapi.yml
   format: yaml
   label: Glide Stashes API
   slug: glide-apps-stashes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glide-apps/refs/heads/main/openapi/glide-apps-stashes-api-openapi.yml
+  url: https://artifacts.apis.io/glide-apps/openapi/glide-apps-stashes-api-openapi.yml
 - filename: glide-apps-tables-api-openapi.yml
   format: yaml
   label: Glide Tables API
   slug: glide-apps-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glide-apps/refs/heads/main/openapi/glide-apps-tables-api-openapi.yml
+  url: https://artifacts.apis.io/glide-apps/openapi/glide-apps-tables-api-openapi.yml
+- filename: glide-apps-apps-api-openapi.yml
+  format: yaml
+  label: Glide Apps API
+  slug: glide-apps-apps-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/glide-apps/openapi/glide-apps-apps-api-openapi.yml
+- filename: glide-apps-jobs-api-openapi.yml
+  format: yaml
+  label: Glide Jobs API
+  slug: glide-apps-jobs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/glide-apps/openapi/glide-apps-jobs-api-openapi.yml
+- filename: glide-apps-me-api-openapi.yml
+  format: yaml
+  label: Glide Me API
+  slug: glide-apps-me-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/glide-apps/openapi/glide-apps-me-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +58,7 @@ source_filename: glide-apps-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/glide-apps-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Glide team API token passed as `Authorization: Bearer <token>`. Tokens are created\n    in the Glide team settings.'\n  sources:\n  - openapi/glide-apps-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/glide-apps/refs/heads/main/authentication/glide-apps-authentication.yml
+source_yaml_url: https://artifacts.apis.io/glide-apps/authentication/glide-apps-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - No-Code

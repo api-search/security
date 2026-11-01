@@ -8,19 +8,19 @@ api_specs:
   label: Splunk Data Inputs API
   slug: splunk-data-inputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/openapi/splunk-data-inputs-api-openapi.yml
+  url: https://artifacts.apis.io/splunk/openapi/splunk-data-inputs-api-openapi.yml
 - filename: splunk-index-api-openapi.yml
   format: yaml
   label: Splunk Index API
   slug: splunk-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/openapi/splunk-index-api-openapi.yml
+  url: https://artifacts.apis.io/splunk/openapi/splunk-index-api-openapi.yml
 - filename: splunk-search-api-openapi.yml
   format: yaml
   label: Splunk Search API
   slug: splunk-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/openapi/splunk-search-api-openapi.yml
+  url: https://artifacts.apis.io/splunk/openapi/splunk-search-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -62,7 +62,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/splunk-enterprise-rest-api.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Splunk authentication token. Obtain a session key by authenticating to /services/auth/login\n    or use a pre-configured bearer token from Settings > Tokens in Splunk Web.\n  sources:\n  - openapi/splunk-enterprise-rest-api.yml\n- name: BasicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication with a valid Splunk username and password. The credentials\n    are sent as a Base64-encoded string in the Authorization header.\n  sources:\n  - openapi/splunk-enterprise-rest-api.yml\n- name: HecToken\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: HTTP Event Collector token. Send as \"Splunk <token>\" in the Authorization header.\n    Tokens are configured in Splunk Web under Settings > Data Inputs >\
   \ HTTP Event Collector.\n  sources:\n  - openapi/splunk-enterprise-rest-api.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/authentication/splunk-authentication.yml
+source_yaml_url: https://artifacts.apis.io/splunk/authentication/splunk-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Analytics

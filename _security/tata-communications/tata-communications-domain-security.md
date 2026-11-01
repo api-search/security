@@ -5,37 +5,37 @@ api_specs:
   label: Tata Communications CDR by Customer Message Id API
   slug: tata-communications-cdr-by-customer-message-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/openapi/tata-communications-cdr-by-customer-message-id-api-openapi.yml
+  url: https://artifacts.apis.io/tata-communications/openapi/tata-communications-cdr-by-customer-message-id-api-openapi.yml
 - filename: tata-communications-destination-api-openapi.yml
   format: yaml
   label: Tata Communications Destination API
   slug: tata-communications-destination-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/openapi/tata-communications-destination-api-openapi.yml
+  url: https://artifacts.apis.io/tata-communications/openapi/tata-communications-destination-api-openapi.yml
 - filename: tata-communications-number-intelligence-api-openapi.yml
   format: yaml
   label: Tata Communications Number Intelligence API
   slug: tata-communications-number-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/openapi/tata-communications-number-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/tata-communications/openapi/tata-communications-number-intelligence-api-openapi.yml
 - filename: tata-communications-report-api-openapi.yml
   format: yaml
   label: Tata Communications Report API
   slug: tata-communications-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/openapi/tata-communications-report-api-openapi.yml
+  url: https://artifacts.apis.io/tata-communications/openapi/tata-communications-report-api-openapi.yml
 - filename: tata-communications-top-25-cdr-by-account-id-time-frame-api-openapi.yml
   format: yaml
   label: Tata Communications TOP 25 CDR by account Id & Time Frame API
   slug: tata-communications-top-25-cdr-by-account-id-time-frame-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/openapi/tata-communications-top-25-cdr-by-account-id-time-frame-api-openapi.yml
+  url: https://artifacts.apis.io/tata-communications/openapi/tata-communications-top-25-cdr-by-account-id-time-frame-api-openapi.yml
 - filename: tata-communications-sender-id-api-openapi.yml
   format: yaml
   label: Tata Communications Sender ID API
   slug: tata-communications-sender-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/openapi/tata-communications-sender-id-api-openapi.yml
+  url: https://artifacts.apis.io/tata-communications/openapi/tata-communications-sender-id-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -83,7 +83,7 @@ source_filename: tata-communications-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tatacommunications.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 05:42:31 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.developer.move.tatacommunications.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: move-external-apim-prod.developer.azure-api.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 24 15:32:09 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: tatacommunications.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: azure-api.net\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/security/tata-communications-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tata-communications/security/tata-communications-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Telecommunications

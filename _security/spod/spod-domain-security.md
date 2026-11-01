@@ -5,43 +5,43 @@ api_specs:
   label: SPOD Articles API
   slug: spod-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spod/refs/heads/main/openapi/spod-articles-api-openapi.yml
+  url: https://artifacts.apis.io/spod/openapi/spod-articles-api-openapi.yml
 - filename: spod-common-api-openapi.yml
   format: yaml
   label: SPOD Common API
   slug: spod-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spod/refs/heads/main/openapi/spod-common-api-openapi.yml
+  url: https://artifacts.apis.io/spod/openapi/spod-common-api-openapi.yml
 - filename: spod-orders-api-openapi.yml
   format: yaml
   label: SPOD Orders API
   slug: spod-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spod/refs/heads/main/openapi/spod-orders-api-openapi.yml
+  url: https://artifacts.apis.io/spod/openapi/spod-orders-api-openapi.yml
 - filename: spod-product-types-api-openapi.yml
   format: yaml
   label: SPOD Product Types API
   slug: spod-product-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spod/refs/heads/main/openapi/spod-product-types-api-openapi.yml
+  url: https://artifacts.apis.io/spod/openapi/spod-product-types-api-openapi.yml
 - filename: spod-shipping-api-openapi.yml
   format: yaml
   label: SPOD Shipping API
   slug: spod-shipping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spod/refs/heads/main/openapi/spod-shipping-api-openapi.yml
+  url: https://artifacts.apis.io/spod/openapi/spod-shipping-api-openapi.yml
 - filename: spod-stock-api-openapi.yml
   format: yaml
   label: SPOD Stock API
   slug: spod-stock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spod/refs/heads/main/openapi/spod-stock-api-openapi.yml
+  url: https://artifacts.apis.io/spod/openapi/spod-stock-api-openapi.yml
 - filename: spod-subscriptions-api-openapi.yml
   format: yaml
   label: SPOD Subscriptions API
   slug: spod-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spod/refs/heads/main/openapi/spod-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/spod/openapi/spod-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -89,11 +89,10 @@ source_filename: spod-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.spod.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 15:38:30 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: rest.spod.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 15:38:30 2026 GMT\n  hsts: true\n  hsts_max_age: 15768000\n- host: rest.spreadconnect-staging.app\n  https: false\ndomains:\n- domain: spod.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: spreadconnect-staging.app\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"letsencrypt.org\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spod/refs/heads/main/security/spod-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/spod/security/spod-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Print on Demand
-- POD
 - Dropshipping
 - Fulfillment
 - E-Commerce

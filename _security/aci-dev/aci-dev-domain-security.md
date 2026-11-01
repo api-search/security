@@ -5,25 +5,25 @@ api_specs:
   label: ACI.dev App Configurations API
   slug: aci-dev-app-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aci-dev/refs/heads/main/openapi/aci-dev-app-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/aci-dev/openapi/aci-dev-app-configurations-api-openapi.yml
 - filename: aci-dev-apps-api-openapi.yml
   format: yaml
   label: ACI.dev Apps API
   slug: aci-dev-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aci-dev/refs/heads/main/openapi/aci-dev-apps-api-openapi.yml
+  url: https://artifacts.apis.io/aci-dev/openapi/aci-dev-apps-api-openapi.yml
 - filename: aci-dev-functions-api-openapi.yml
   format: yaml
   label: ACI.dev Functions API
   slug: aci-dev-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aci-dev/refs/heads/main/openapi/aci-dev-functions-api-openapi.yml
+  url: https://artifacts.apis.io/aci-dev/openapi/aci-dev-functions-api-openapi.yml
 - filename: aci-dev-linked-accounts-api-openapi.yml
   format: yaml
   label: ACI.dev Linked Accounts API
   slug: aci-dev-linked-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aci-dev/refs/heads/main/openapi/aci-dev-linked-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/aci-dev/openapi/aci-dev-linked-accounts-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -55,7 +55,7 @@ source_filename: aci-dev-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aci.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 19:31:43 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.aci.dev\n  https: false\ndomains:\n- domain: aci.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aci-dev/refs/heads/main/security/aci-dev-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aci-dev/security/aci-dev-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Agent Infrastructure

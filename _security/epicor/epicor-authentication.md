@@ -22,7 +22,7 @@ source_filename: epicor-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "name: Epicor authentication\ngenerated: '2026-10-20'\nmethod: searched\nsource: https://www.epicor.com/en/products/enterprise-resource-planning-erp/epicor-kinetic/tools-and-technology/open-rest-api/\ndocs: https://www.epicor.com/en/products/enterprise-resource-planning-erp/epicor-kinetic/tools-and-technology/open-rest-api/\nschemes:\n  - type: apiKey\n    description: \"API keys, access scopes, and standard authentication methods control which services and methods are available to each integration. Security aligns with existing ERP user and data permissions.\"\nnote: Header names and key formats are documented only in the per-tenant Kinetic REST help, which is customer-only.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/epicor/refs/heads/main/authentication/epicor-authentication.yml
+source_yaml_url: https://artifacts.apis.io/epicor/authentication/epicor-authentication.yml
 summary_line: 1 scheme
 tags:
 - ERP

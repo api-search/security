@@ -5,55 +5,55 @@ api_specs:
   label: Microsoft SharePoint Files API
   slug: sharepoint-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-files-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-files-api-openapi.yml
 - filename: sharepoint-items-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint Items API
   slug: sharepoint-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-items-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-items-api-openapi.yml
 - filename: sharepoint-lists-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint Lists API
   slug: sharepoint-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-lists-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-lists-api-openapi.yml
 - filename: sharepoint-search-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint Search API
   slug: sharepoint-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-search-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-search-api-openapi.yml
 - filename: sharepoint-sites-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint Sites API
   slug: sharepoint-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-sites-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-sites-api-openapi.yml
 - filename: sharepoint-user-profiles-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint User Profiles API
   slug: sharepoint-user-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-user-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-user-profiles-api-openapi.yml
 - filename: sharepoint-batch-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint $batch API
   slug: microsoft-sharepoint-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-batch-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-batch-api-openapi.yml
 - filename: sharepoint-listitems-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint ListItems API
   slug: microsoft-sharepoint-listitems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-listitems-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-listitems-api-openapi.yml
 - filename: sharepoint-site-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint Site API
   slug: microsoft-sharepoint-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-site-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-site-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -96,7 +96,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-06-20'\nmethod: probed\nnotes: >-\n  SharePoint REST baseURLs are tenant-templated (https://{site_url}/_api) with no fixed host,\n  so the automated probe reported no-hosts. The hosts below were probed directly: the identity\n  host (login.microsoftonline.com), the Microsoft Graph host (graph.microsoft.com), and the\n  corporate web host (www.microsoft.com). Domain-level DNS records are for microsoft.com.\nhosts:\n  - {host: graph.microsoft.com, https: true, tls_version: TLSv1.3, hsts: true, hsts_max_age: 31536000, hsts_include_subdomains: false}\n  - {host: login.microsoftonline.com, https: true, tls_version: TLSv1.3, hsts: true, hsts_max_age: 31536000, hsts_include_subdomains: true}\n  - {host: www.microsoft.com, https: true, tls_version: TLSv1.3, hsts: false}\ndomains:\n  - domain: microsoft.com\n    dnssec: false\n    caa: ['0 contactemail \"caarecordaware@microsoft.com\"']\n    spf: true\n    spf_record: \"v=spf1 include:_spf-a.microsoft.com include:_spf-b.microsoft.com\
   \ include:_spf-c.microsoft.com include:_spf-ssg-a.msft.net include:_spf1-meo.microsoft.com -all\"\n    dmarc: true\n    dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/security/sharepoint-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sharepoint/security/sharepoint-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Collaboration

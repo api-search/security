@@ -29,7 +29,7 @@ source_filename: savage-x-fenty-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.savagex.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 04:59:48 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n  note: >-\n    HSTS observed directly on the response headers of https://www.savagex.com/ (a Cloudflare\n    bot-challenge 403, cf-mitigated: challenge). Edge is Cloudflare; origin is TechStyle.\ndomains:\n- domain: savagex.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/savage-x-fenty/refs/heads/main/security/savage-x-fenty-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/savage-x-fenty/security/savage-x-fenty-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -5,91 +5,91 @@ api_specs:
   label: Athenian Align API
   slug: athenian-align-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-align-api-openapi.yml
+  url: https://artifacts.apis.io/athenian/openapi/athenian-align-api-openapi.yml
 - filename: athenian-events-api-openapi.yml
   format: yaml
   label: Athenian Events API
   slug: athenian-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-events-api-openapi.yml
+  url: https://artifacts.apis.io/athenian/openapi/athenian-events-api-openapi.yml
 - filename: athenian-filter-api-openapi.yml
   format: yaml
   label: Athenian Filter API
   slug: athenian-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-filter-api-openapi.yml
+  url: https://artifacts.apis.io/athenian/openapi/athenian-filter-api-openapi.yml
 - filename: athenian-get-api-openapi.yml
   format: yaml
   label: Athenian Get API
   slug: athenian-get-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-get-api-openapi.yml
+  url: https://artifacts.apis.io/athenian/openapi/athenian-get-api-openapi.yml
 - filename: athenian-histograms-api-openapi.yml
   format: yaml
   label: Athenian Histograms API
   slug: athenian-histograms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-histograms-api-openapi.yml
+  url: https://artifacts.apis.io/athenian/openapi/athenian-histograms-api-openapi.yml
 - filename: athenian-integrations-api-openapi.yml
   format: yaml
   label: Athenian Integrations API
   slug: athenian-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/athenian/openapi/athenian-integrations-api-openapi.yml
 - filename: athenian-metrics-api-openapi.yml
   format: yaml
   label: Athenian Metrics API
   slug: athenian-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/athenian/openapi/athenian-metrics-api-openapi.yml
 - filename: athenian-pagination-api-openapi.yml
   format: yaml
   label: Athenian Pagination API
   slug: athenian-pagination-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-pagination-api-openapi.yml
+  url: https://artifacts.apis.io/athenian/openapi/athenian-pagination-api-openapi.yml
 - filename: athenian-registration-api-openapi.yml
   format: yaml
   label: Athenian Registration API
   slug: athenian-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-registration-api-openapi.yml
+  url: https://artifacts.apis.io/athenian/openapi/athenian-registration-api-openapi.yml
 - filename: athenian-reposet-api-openapi.yml
   format: yaml
   label: Athenian Reposet API
   slug: athenian-reposet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-reposet-api-openapi.yml
+  url: https://artifacts.apis.io/athenian/openapi/athenian-reposet-api-openapi.yml
 - filename: athenian-security-api-openapi.yml
   format: yaml
   label: Athenian Security API
   slug: athenian-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-security-api-openapi.yml
+  url: https://artifacts.apis.io/athenian/openapi/athenian-security-api-openapi.yml
 - filename: athenian-settings-api-openapi.yml
   format: yaml
   label: Athenian Settings API
   slug: athenian-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-settings-api-openapi.yml
+  url: https://artifacts.apis.io/athenian/openapi/athenian-settings-api-openapi.yml
 - filename: athenian-team-api-openapi.yml
   format: yaml
   label: Athenian Team API
   slug: athenian-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-team-api-openapi.yml
+  url: https://artifacts.apis.io/athenian/openapi/athenian-team-api-openapi.yml
 - filename: athenian-user-api-openapi.yml
   format: yaml
   label: Athenian User API
   slug: athenian-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-user-api-openapi.yml
+  url: https://artifacts.apis.io/athenian/openapi/athenian-user-api-openapi.yml
 - filename: athenian-version-api-openapi.yml
   format: yaml
   label: Athenian Version API
   slug: athenian-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-version-api-openapi.yml
+  url: https://artifacts.apis.io/athenian/openapi/athenian-version-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -119,7 +119,7 @@ source_filename: athenian-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: athenian.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 10:43:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: athenian.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/security/athenian-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/athenian/security/athenian-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
@@ -128,7 +128,7 @@ tags:
 - Developer Productivity
 - DevOps
 - Metrics
-- Git
+- Version Control
 - Jira
 - CI/CD
 - Analytics

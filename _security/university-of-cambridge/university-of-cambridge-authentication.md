@@ -7,25 +7,25 @@ api_specs:
   label: University of Cambridge Group API
   slug: university-of-cambridge-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-cambridge/refs/heads/main/openapi/university-of-cambridge-group-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-cambridge/openapi/university-of-cambridge-group-api-openapi.yml
 - filename: university-of-cambridge-ibis-api-openapi.yml
   format: yaml
   label: University of Cambridge Ibis API
   slug: university-of-cambridge-ibis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-cambridge/refs/heads/main/openapi/university-of-cambridge-ibis-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-cambridge/openapi/university-of-cambridge-ibis-api-openapi.yml
 - filename: university-of-cambridge-institution-api-openapi.yml
   format: yaml
   label: University of Cambridge Institution API
   slug: university-of-cambridge-institution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-cambridge/refs/heads/main/openapi/university-of-cambridge-institution-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-cambridge/openapi/university-of-cambridge-institution-api-openapi.yml
 - filename: university-of-cambridge-person-api-openapi.yml
   format: yaml
   label: University of Cambridge Person API
   slug: university-of-cambridge-person-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-cambridge/refs/heads/main/openapi/university-of-cambridge-person-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-cambridge/openapi/university-of-cambridge-person-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-08-19'\nmethod: probed\nx-operator: institution\n
   \ SSO. Only the first\n  is described in a machine-readable API contract.\nsummary:\n  types:\n  - http\n  - oauth2\n  - openIdConnect\n  - saml\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  method: derived\n  surface: university-of-cambridge:university-of-cambridge-person-api\n  sources:\n  - openapi/_original/university-of-cambridge-lookup.yaml\n  - https://www.lookup.cam.ac.uk/openapi-3.0.yaml\n  verified:\n    url: https://www.lookup.cam.ac.uk/api/v1/\n    status: 401\n    note: Anonymous request rejected — the declared scheme is actually enforced.\n- name: cambridgeApiGatewayOidc\n  type: openIdConnect\n  method: probed\n  surface: university-of-cambridge:gateway\n  openIdConnectUrl: https://api.apps.cam.ac.uk/oauth2/v1/.well-known/openid-configuration\n  issuer: https://api.apps.cam.ac.uk/oauth2/v1/\n  endpoints:\n    authorization: https://api.apps.cam.ac.uk/oauth2/v1/auth\n    token: https://api.apps.cam.ac.uk/oauth2/v1/token\n    userinfo: https://api.apps.cam.ac.uk/oauth2/v1/userinfo\n\
   \    jwks: https://api.apps.cam.ac.uk/oauth2/v1/.well-known/jwks.json\n  grant_types:\n  - client_credentials\n  - authorization_code\n  response_types:\n  - code\n  response_modes:\n  - query\n  - fragment\n  id_token_signing_alg_values:\n  - RS256\n  token_endpoint_auth_methods:\n  - client_secret_post\n  - client_secret_basic\n  code_challenge_methods:\n  - S256\n  scopes_advertised: none\n  note: >-\n    The discovery document declares no scopes_supported, so no scopes/ artifact is emitted — a\n    scope list would have to be invented and this pipeline does not invent. PKCE (S256) is\n    advertised, which is the strongest single ergonomics signal on the estate.\n  documentation: https://docs.raven.cam.ac.uk/en/latest/creating-oauth2-client-credentials/\n- name: ravenShibbolethSaml\n  type: saml\n  method: probed\n  surface: university-of-cambridge:shibboleth-idp\n  entityID: https://shib.raven.cam.ac.uk/shibboleth\n  metadata: https://shib.raven.cam.ac.uk/shibboleth\n  protocols:\n\
   \  - urn:oasis:names:tc:SAML:2.0:protocol\n  - urn:oasis:names:tc:SAML:1.1:protocol\n  - urn:mace:shibboleth:1.0\n  scopes_authoritative:\n  - cam.ac.uk\n  - eresources.lib.cam.ac.uk\n  federation: UK Access Management Federation (republished via eduGAIN)\n  note: >-\n    Web SSO for people, not an API credential. Recorded because SAML/Shibboleth is a named standard\n    in the Kin Score education regime and because federation metadata is the one machine-readable\n    artifact an institution cannot outsource.\nnot_found:\n- name: api_keys\n  note: >-\n    The developer portal documents \"Using API Keys\" as a consumption pattern, but no key-issuance\n    endpoint or key description is reachable anonymously; registration is behind portal login.\n- name: mtls\n  note: No mutual-TLS requirement documented on any institution-operated host.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-cambridge/refs/heads/main/authentication/university-of-cambridge-authentication.yml
+source_yaml_url: https://artifacts.apis.io/university-of-cambridge/authentication/university-of-cambridge-authentication.yml
 summary_line: http/oauth2/openIdConnect/saml · 3 schemes
 tags:
 - Education

@@ -5,31 +5,31 @@ api_specs:
   label: Dentsply Sirona Devices API
   slug: dentsply-sirona-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/openapi/dentsply-sirona-devices-api-openapi.yml
+  url: https://artifacts.apis.io/dentsply-sirona/openapi/dentsply-sirona-devices-api-openapi.yml
 - filename: dentsply-sirona-exposures-api-openapi.yml
   format: yaml
   label: Dentsply Sirona Exposures API
   slug: dentsply-sirona-exposures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/openapi/dentsply-sirona-exposures-api-openapi.yml
+  url: https://artifacts.apis.io/dentsply-sirona/openapi/dentsply-sirona-exposures-api-openapi.yml
 - filename: dentsply-sirona-filters-api-openapi.yml
   format: yaml
   label: Dentsply Sirona Filters API
   slug: dentsply-sirona-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/openapi/dentsply-sirona-filters-api-openapi.yml
+  url: https://artifacts.apis.io/dentsply-sirona/openapi/dentsply-sirona-filters-api-openapi.yml
 - filename: dentsply-sirona-generators-api-openapi.yml
   format: yaml
   label: Dentsply Sirona Generators API
   slug: dentsply-sirona-generators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/openapi/dentsply-sirona-generators-api-openapi.yml
+  url: https://artifacts.apis.io/dentsply-sirona/openapi/dentsply-sirona-generators-api-openapi.yml
 - filename: dentsply-sirona-images-api-openapi.yml
   format: yaml
   label: Dentsply Sirona Images API
   slug: dentsply-sirona-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/openapi/dentsply-sirona-images-api-openapi.yml
+  url: https://artifacts.apis.io/dentsply-sirona/openapi/dentsply-sirona-images-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -72,7 +72,7 @@ source_filename: dentsply-sirona-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dentsply-sirona.com\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate\n    (_ssl.c:1082)'\n  hsts: null\n- host: open.dscore.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 13:49:50 2026 GMT\n  hsts: false\n- host: api.dscore.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 08:27:40 2026 GMT\n  hsts: null\ndomains:\n- domain: dentsply-sirona.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: dscore.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/security/dentsply-sirona-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dentsply-sirona/security/dentsply-sirona-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - CAD/CAM

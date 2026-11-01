@@ -8,61 +8,61 @@ api_specs:
   label: BitPowr Technologies, Inc. Account API
   slug: bitpowr-technologies-inc-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/openapi/bitpowr-technologies-inc-account-api-openapi.yml
+  url: https://artifacts.apis.io/bitpowr-technologies-inc/openapi/bitpowr-technologies-inc-account-api-openapi.yml
 - filename: bitpowr-technologies-inc-address-api-openapi.yml
   format: yaml
   label: BitPowr Technologies, Inc. Address API
   slug: bitpowr-technologies-inc-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/openapi/bitpowr-technologies-inc-address-api-openapi.yml
+  url: https://artifacts.apis.io/bitpowr-technologies-inc/openapi/bitpowr-technologies-inc-address-api-openapi.yml
 - filename: bitpowr-technologies-inc-assets-api-openapi.yml
   format: yaml
   label: BitPowr Technologies, Inc. Assets API
   slug: bitpowr-technologies-inc-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/openapi/bitpowr-technologies-inc-assets-api-openapi.yml
+  url: https://artifacts.apis.io/bitpowr-technologies-inc/openapi/bitpowr-technologies-inc-assets-api-openapi.yml
 - filename: bitpowr-technologies-inc-customer-api-openapi.yml
   format: yaml
   label: BitPowr Technologies, Inc. Customer API
   slug: bitpowr-technologies-inc-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/openapi/bitpowr-technologies-inc-customer-api-openapi.yml
+  url: https://artifacts.apis.io/bitpowr-technologies-inc/openapi/bitpowr-technologies-inc-customer-api-openapi.yml
 - filename: bitpowr-technologies-inc-market-api-openapi.yml
   format: yaml
   label: BitPowr Technologies, Inc. Market API
   slug: bitpowr-technologies-inc-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/openapi/bitpowr-technologies-inc-market-api-openapi.yml
+  url: https://artifacts.apis.io/bitpowr-technologies-inc/openapi/bitpowr-technologies-inc-market-api-openapi.yml
 - filename: bitpowr-technologies-inc-others-api-openapi.yml
   format: yaml
   label: BitPowr Technologies, Inc. Others API
   slug: bitpowr-technologies-inc-others-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/openapi/bitpowr-technologies-inc-others-api-openapi.yml
+  url: https://artifacts.apis.io/bitpowr-technologies-inc/openapi/bitpowr-technologies-inc-others-api-openapi.yml
 - filename: bitpowr-technologies-inc-staking-api-openapi.yml
   format: yaml
   label: BitPowr Technologies, Inc. Staking API
   slug: bitpowr-technologies-inc-staking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/openapi/bitpowr-technologies-inc-staking-api-openapi.yml
+  url: https://artifacts.apis.io/bitpowr-technologies-inc/openapi/bitpowr-technologies-inc-staking-api-openapi.yml
 - filename: bitpowr-technologies-inc-swap-api-openapi.yml
   format: yaml
   label: BitPowr Technologies, Inc. Swap API
   slug: bitpowr-technologies-inc-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/openapi/bitpowr-technologies-inc-swap-api-openapi.yml
+  url: https://artifacts.apis.io/bitpowr-technologies-inc/openapi/bitpowr-technologies-inc-swap-api-openapi.yml
 - filename: bitpowr-technologies-inc-transaction-api-openapi.yml
   format: yaml
   label: BitPowr Technologies, Inc. Transaction API
   slug: bitpowr-technologies-inc-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/openapi/bitpowr-technologies-inc-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/bitpowr-technologies-inc/openapi/bitpowr-technologies-inc-transaction-api-openapi.yml
 - filename: bitpowr-technologies-inc-utils-api-openapi.yml
   format: yaml
   label: BitPowr Technologies, Inc. Utils API
   slug: bitpowr-technologies-inc-utils-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/openapi/bitpowr-technologies-inc-utils-api-openapi.yml
+  url: https://artifacts.apis.io/bitpowr-technologies-inc/openapi/bitpowr-technologies-inc-utils-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -99,7 +99,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/bitpowr-technologies-inc-openapi.yml\ndocs: https://docs.bitpowr.com/docs/authentication\nsummary:\n  types:\n  - http\n  - apiKey\n  api_key_in:\n  - header\n  oauth2_flows: []\n  notes: >-\n    Every request requires an Authorization header over HTTPS; unauthenticated\n    requests are rejected. Bitpowr documents two credential styles. Keys are\n    environment-scoped: test keys carry a `test_` prefix.\nschemes:\n- name: bearer\n  type: http\n  scheme: bearer\n  description: >-\n    Bearer token formed by base64-encoding the concatenation\n    `{public_key}:{secret_key}` and sending it as `Authorization: Bearer <token>`.\n    This grants admin access to all accounts. (The older raw encoded-token form is\n    documented as deprecated.)\n  sources:\n  - openapi/bitpowr-technologies-inc-openapi.yml\n  docs: https://docs.bitpowr.com/docs/authentication\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter_name: Authorization\n\
   \  scheme: Basic\n  description: >-\n    Dashboard-created API key with configurable restrictions, sent as\n    `Authorization: Basic <API_KEY>`. Preferred over full public/secret access for\n    scoped/least-privilege usage.\n  docs: https://docs.bitpowr.com/docs/get-your-api-key\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/authentication/bitpowr-technologies-inc-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bitpowr-technologies-inc/authentication/bitpowr-technologies-inc-authentication.yml
 summary_line: http/apiKey · 2 schemes
 tags:
 - Company

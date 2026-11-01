@@ -5,19 +5,19 @@ api_specs:
   label: Humanitec Agents API
   slug: humanitec-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humanitec/refs/heads/main/openapi/humanitec-agents-api-openapi.yml
+  url: https://artifacts.apis.io/humanitec/openapi/humanitec-agents-api-openapi.yml
 - filename: humanitec-public-api-openapi.yml
   format: yaml
   label: Humanitec Public API
   slug: humanitec-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humanitec/refs/heads/main/openapi/humanitec-public-api-openapi.yml
+  url: https://artifacts.apis.io/humanitec/openapi/humanitec-public-api-openapi.yml
 - filename: humanitec-user-role-api-openapi.yml
   format: yaml
   label: Humanitec User Role API
   slug: humanitec-user-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humanitec/refs/heads/main/openapi/humanitec-user-role-api-openapi.yml
+  url: https://artifacts.apis.io/humanitec/openapi/humanitec-user-role-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: humanitec-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.humanitec.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 10:17:24 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: humanitec.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 13:31:06 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.humanitec.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 07:25:55 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: humanitec.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: humanitec.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/humanitec/refs/heads/main/security/humanitec-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/humanitec/security/humanitec-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Deployment

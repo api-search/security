@@ -8,61 +8,61 @@ api_specs:
   label: Energy Information Administration CO2 Emissions API
   slug: energy-information-administration-co2-emissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/openapi/energy-information-administration-co2-emissions-api-openapi.yml
+  url: https://artifacts.apis.io/energy-information-administration/openapi/energy-information-administration-co2-emissions-api-openapi.yml
 - filename: energy-information-administration-coal-api-openapi.yml
   format: yaml
   label: Energy Information Administration Coal API
   slug: energy-information-administration-coal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/openapi/energy-information-administration-coal-api-openapi.yml
+  url: https://artifacts.apis.io/energy-information-administration/openapi/energy-information-administration-coal-api-openapi.yml
 - filename: energy-information-administration-discovery-api-openapi.yml
   format: yaml
   label: Energy Information Administration Discovery API
   slug: energy-information-administration-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/openapi/energy-information-administration-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/energy-information-administration/openapi/energy-information-administration-discovery-api-openapi.yml
 - filename: energy-information-administration-electricity-api-openapi.yml
   format: yaml
   label: Energy Information Administration Electricity API
   slug: energy-information-administration-electricity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/openapi/energy-information-administration-electricity-api-openapi.yml
+  url: https://artifacts.apis.io/energy-information-administration/openapi/energy-information-administration-electricity-api-openapi.yml
 - filename: energy-information-administration-international-api-openapi.yml
   format: yaml
   label: Energy Information Administration International API
   slug: energy-information-administration-international-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/openapi/energy-information-administration-international-api-openapi.yml
+  url: https://artifacts.apis.io/energy-information-administration/openapi/energy-information-administration-international-api-openapi.yml
 - filename: energy-information-administration-natural-gas-api-openapi.yml
   format: yaml
   label: Energy Information Administration Natural Gas API
   slug: energy-information-administration-natural-gas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/openapi/energy-information-administration-natural-gas-api-openapi.yml
+  url: https://artifacts.apis.io/energy-information-administration/openapi/energy-information-administration-natural-gas-api-openapi.yml
 - filename: energy-information-administration-nuclear-api-openapi.yml
   format: yaml
   label: Energy Information Administration Nuclear API
   slug: energy-information-administration-nuclear-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/openapi/energy-information-administration-nuclear-api-openapi.yml
+  url: https://artifacts.apis.io/energy-information-administration/openapi/energy-information-administration-nuclear-api-openapi.yml
 - filename: energy-information-administration-petroleum-api-openapi.yml
   format: yaml
   label: Energy Information Administration Petroleum API
   slug: energy-information-administration-petroleum-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/openapi/energy-information-administration-petroleum-api-openapi.yml
+  url: https://artifacts.apis.io/energy-information-administration/openapi/energy-information-administration-petroleum-api-openapi.yml
 - filename: energy-information-administration-seds-api-openapi.yml
   format: yaml
   label: Energy Information Administration SEDS API
   slug: energy-information-administration-seds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/openapi/energy-information-administration-seds-api-openapi.yml
+  url: https://artifacts.apis.io/energy-information-administration/openapi/energy-information-administration-seds-api-openapi.yml
 - filename: energy-information-administration-total-energy-api-openapi.yml
   format: yaml
   label: Energy Information Administration Total Energy API
   slug: energy-information-administration-total-energy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/openapi/energy-information-administration-total-energy-api-openapi.yml
+  url: https://artifacts.apis.io/energy-information-administration/openapi/energy-information-administration-total-energy-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -90,7 +90,7 @@ source_filename: energy-information-administration-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/energy-information-administration-open-data-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiKeyQuery\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: Free API key obtained at https://www.eia.gov/opendata/register.php. Must be supplied\n    on every request as the api_key URL parameter.\n  sources:\n  - openapi/energy-information-administration-open-data-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/authentication/energy-information-administration-authentication.yml
+source_yaml_url: https://artifacts.apis.io/energy-information-administration/authentication/energy-information-administration-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Energy

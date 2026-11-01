@@ -5,7 +5,7 @@ api_specs:
   label: Cleanup.pictures Cleanup API
   slug: cleanup-pictures-cleanup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cleanup-pictures/refs/heads/main/openapi/cleanup-pictures-cleanup-api-openapi.yml
+  url: https://artifacts.apis.io/cleanup-pictures/openapi/cleanup-pictures-cleanup-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: cleanup-pictures-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cleanup.pictures\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 11:45:06 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\n- host: clipdrop.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 11 03:12:15 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: clipdrop-api.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 07:21:56 2026 GMT\n  hsts: null\ndomains:\n- domain: cleanup.pictures\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n- domain: clipdrop.co\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cleanup-pictures/refs/heads/main/security/cleanup-pictures-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cleanup-pictures/security/cleanup-pictures-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Artificial Intelligence

@@ -5,55 +5,55 @@ api_specs:
   label: Perigon AI & Advanced Search API
   slug: perigon-ai-advanced-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/openapi/perigon-ai-advanced-search-api-openapi.yml
+  url: https://artifacts.apis.io/perigon/openapi/perigon-ai-advanced-search-api-openapi.yml
 - filename: perigon-contact-points-api-openapi.yml
   format: yaml
   label: Perigon Contact Points API
   slug: perigon-contact-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/openapi/perigon-contact-points-api-openapi.yml
+  url: https://artifacts.apis.io/perigon/openapi/perigon-contact-points-api-openapi.yml
 - filename: perigon-monitors-api-openapi.yml
   format: yaml
   label: Perigon Monitors API
   slug: perigon-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/openapi/perigon-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/perigon/openapi/perigon-monitors-api-openapi.yml
 - filename: perigon-news-stories-api-openapi.yml
   format: yaml
   label: Perigon News & Stories API
   slug: perigon-news-stories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/openapi/perigon-news-stories-api-openapi.yml
+  url: https://artifacts.apis.io/perigon/openapi/perigon-news-stories-api-openapi.yml
 - filename: perigon-source-groups-api-openapi.yml
   format: yaml
   label: Perigon Source Groups API
   slug: perigon-source-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/openapi/perigon-source-groups-api-openapi.yml
+  url: https://artifacts.apis.io/perigon/openapi/perigon-source-groups-api-openapi.yml
 - filename: perigon-supplemental-endpoints-api-openapi.yml
   format: yaml
   label: Perigon Supplemental Endpoints API
   slug: perigon-supplemental-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/openapi/perigon-supplemental-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/perigon/openapi/perigon-supplemental-endpoints-api-openapi.yml
 - filename: perigon-utilities-api-openapi.yml
   format: yaml
   label: Perigon Utilities API
   slug: perigon-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/openapi/perigon-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/perigon/openapi/perigon-utilities-api-openapi.yml
 - filename: perigon-watchlists-api-openapi.yml
   format: yaml
   label: Perigon Watchlists API
   slug: perigon-watchlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/openapi/perigon-watchlists-api-openapi.yml
+  url: https://artifacts.apis.io/perigon/openapi/perigon-watchlists-api-openapi.yml
 - filename: perigon-wikipedia-api-openapi.yml
   format: yaml
   label: Perigon Wikipedia API
   slug: perigon-wikipedia-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/openapi/perigon-wikipedia-api-openapi.yml
+  url: https://artifacts.apis.io/perigon/openapi/perigon-wikipedia-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -89,7 +89,7 @@ source_filename: perigon-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: perigon.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 22 11:16:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: perigon.io\n  dnssec: true\n  caa:\n  - 0 issue \"0 issue \\\"amazon.com\\\"\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/security/perigon-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/perigon/security/perigon-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

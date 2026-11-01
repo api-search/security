@@ -7,61 +7,61 @@ api_specs:
   label: Bitly BSDs API
   slug: bitly-bsds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-bsds-api-openapi.yml
+  url: https://artifacts.apis.io/bitly/openapi/bitly-bsds-api-openapi.yml
 - filename: bitly-bitlinks-api-openapi.yml
   format: yaml
   label: Bitly Bitlinks API
   slug: bitly-bitlinks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-bitlinks-api-openapi.yml
+  url: https://artifacts.apis.io/bitly/openapi/bitly-bitlinks-api-openapi.yml
 - filename: bitly-campaigns-api-openapi.yml
   format: yaml
   label: Bitly Campaigns API
   slug: bitly-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/bitly/openapi/bitly-campaigns-api-openapi.yml
 - filename: bitly-custom-bitlinks-api-openapi.yml
   format: yaml
   label: Bitly Custom Bitlinks API
   slug: bitly-custom-bitlinks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-custom-bitlinks-api-openapi.yml
+  url: https://artifacts.apis.io/bitly/openapi/bitly-custom-bitlinks-api-openapi.yml
 - filename: bitly-groups-api-openapi.yml
   format: yaml
   label: Bitly Groups API
   slug: bitly-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-groups-api-openapi.yml
+  url: https://artifacts.apis.io/bitly/openapi/bitly-groups-api-openapi.yml
 - filename: bitly-organizations-api-openapi.yml
   format: yaml
   label: Bitly Organizations API
   slug: bitly-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/bitly/openapi/bitly-organizations-api-openapi.yml
 - filename: bitly-qr-codes-api-openapi.yml
   format: yaml
   label: Bitly QR Codes API
   slug: bitly-qr-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-qr-codes-api-openapi.yml
+  url: https://artifacts.apis.io/bitly/openapi/bitly-qr-codes-api-openapi.yml
 - filename: bitly-user-api-openapi.yml
   format: yaml
   label: Bitly User API
   slug: bitly-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-user-api-openapi.yml
+  url: https://artifacts.apis.io/bitly/openapi/bitly-user-api-openapi.yml
 - filename: bitly-webhooks-api-openapi.yml
   format: yaml
   label: Bitly Webhooks API
   slug: bitly-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/bitly/openapi/bitly-webhooks-api-openapi.yml
 - filename: bitly-apps-api-openapi.yml
   format: yaml
   label: Bitly Apps API
   slug: bitly-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-apps-api-openapi.yml
+  url: https://artifacts.apis.io/bitly/openapi/bitly-apps-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://d
   \  type: http\n  scheme: bearer\n  in: header\n  header: Authorization\n  format: 'Authorization: Bearer {token}'\n  description: >-\n    A generic access token generated from Bitly account Developer settings. This is the path\n    Bitly's docs recommend for point-to-point integrations and is what the MCP quickstart uses.\n  token_source: https://bitly.com/settings/api\n  sources: [openapi/_original/bitly-v4-openapi.json]\n- name: oauth2\n  type: oauth2\n  description: >-\n    Used to act on behalf of an end user so that shortened links land in that user's own Bitly\n    history. Not declared in Bitly's OpenAPI; documented in the auth guide and advertised in\n    RFC 8414 metadata on the API host.\n  issuer: https://bitly.com\n  flows:\n    authorizationCode:\n      authorizationUrl: https://bitly.com/oauth/authorize\n      tokenUrl: https://api-ssl.bitly.com/oauth/access_token\n      scopes: {}\n  registration_endpoint: https://api-ssl.bitly.com/oauth/register\n  jwks_uri: https://api-ssl.bitly.com/.well-known/jwks.json\n\
   \  grant_types_supported: [authorization_code]\n  response_types_supported: [code]\n  code_challenge_methods_supported: [S256]\n  token_endpoint_auth_methods_supported: [client_secret_post, client_secret_basic, none]\n  id_token_signing_alg_values_supported: [RS256]\n  dynamic_client_registration: true\n  app_registration: >-\n    Log in to Bitly, open Developer settings and click \"Register new app\"; a client_id and\n    client_secret are issued after email confirmation.\n  sources:\n  - https://dev.bitly.com/docs/getting-started/authentication\n  - well-known/bitly-oauth-authorization-server.json\nlegacy_flows:\n- name: Resource Owner Credentials Grant\n  status: documented\n  note: >-\n    POST username+password to /oauth/access_token with HTTP Basic credentials. Bitly still\n    documents it; it is a deprecated pattern in OAuth 2.1 and should not be used for new work.\n- name: HTTP Basic Authentication\n  status: documented\n  note: >-\n    Single-call token retrieval intended for\
   \ command-line scripts. Accounts with two-factor\n    authentication cannot use it — Bitly returns `2FA_CODE_REQUESTED` and requires a second\n    request carrying an SMS code.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/authentication/bitly-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bitly/authentication/bitly-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Links

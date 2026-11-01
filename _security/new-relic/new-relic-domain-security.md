@@ -5,43 +5,43 @@ api_specs:
   label: New Relic Alerts API
   slug: new-relic-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/new-relic/openapi/new-relic-alerts-api-openapi.yml
 - filename: new-relic-applications-api-openapi.yml
   format: yaml
   label: New Relic Applications API
   slug: new-relic-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-applications-api-openapi.yml
+  url: https://artifacts.apis.io/new-relic/openapi/new-relic-applications-api-openapi.yml
 - filename: new-relic-events-api-openapi.yml
   format: yaml
   label: New Relic Events API
   slug: new-relic-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-events-api-openapi.yml
+  url: https://artifacts.apis.io/new-relic/openapi/new-relic-events-api-openapi.yml
 - filename: new-relic-get-api-openapi.yml
   format: yaml
   label: New Relic Get API
   slug: new-relic-get-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-get-api-openapi.yml
+  url: https://artifacts.apis.io/new-relic/openapi/new-relic-get-api-openapi.yml
 - filename: new-relic-logs-api-openapi.yml
   format: yaml
   label: New Relic Logs API
   slug: new-relic-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-logs-api-openapi.yml
+  url: https://artifacts.apis.io/new-relic/openapi/new-relic-logs-api-openapi.yml
 - filename: new-relic-metrics-api-openapi.yml
   format: yaml
   label: New Relic Metrics API
   slug: new-relic-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/new-relic/openapi/new-relic-metrics-api-openapi.yml
 - filename: new-relic-traces-api-openapi.yml
   format: yaml
   label: New Relic Traces API
   slug: new-relic-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-traces-api-openapi.yml
+  url: https://artifacts.apis.io/new-relic/openapi/new-relic-traces-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -83,7 +83,7 @@ source_filename: new-relic-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.newrelic.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  8 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: newrelic.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  8 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.newrelic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 04:33:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: newrelic.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/security/new-relic-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/new-relic/security/new-relic-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Analysis

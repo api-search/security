@@ -7,13 +7,13 @@ api_specs:
   label: Google Colab Files API
   slug: google-colab-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-colab/refs/heads/main/openapi/google-colab-files-api-openapi.yml
+  url: https://artifacts.apis.io/google-colab/openapi/google-colab-files-api-openapi.yml
 - filename: google-colab-permissions-api-openapi.yml
   format: yaml
   label: Google Colab Permissions API
   slug: google-colab-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-colab/refs/heads/main/openapi/google-colab-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/google-colab/openapi/google-colab-permissions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -44,7 +44,7 @@ source_filename: google-colab-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/colab-drive-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 2\n  sources:\n  - openapi/colab-drive-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-colab/refs/heads/main/authentication/google-colab-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-colab/authentication/google-colab-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Collaboration

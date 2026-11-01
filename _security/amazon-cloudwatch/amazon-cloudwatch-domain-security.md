@@ -5,25 +5,61 @@ api_specs:
   label: Amazon CloudWatch Alarms API
   slug: amazon-cloudwatch-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/openapi/amazon-cloudwatch-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-cloudwatch/openapi/amazon-cloudwatch-alarms-api-openapi.yml
 - filename: amazon-cloudwatch-dashboards-api-openapi.yml
   format: yaml
   label: Amazon CloudWatch Dashboards API
   slug: amazon-cloudwatch-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/openapi/amazon-cloudwatch-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-cloudwatch/openapi/amazon-cloudwatch-dashboards-api-openapi.yml
 - filename: amazon-cloudwatch-metrics-api-openapi.yml
   format: yaml
   label: Amazon CloudWatch Metrics API
   slug: amazon-cloudwatch-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/openapi/amazon-cloudwatch-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-cloudwatch/openapi/amazon-cloudwatch-metrics-api-openapi.yml
 - filename: amazon-cloudwatch-amazon-cloudwatch-api-api-openapi.yml
   format: yaml
   label: Amazon CloudWatch Amazon CloudWatch API
   slug: amazon-cloudwatch-amazon-cloudwatch-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/openapi/amazon-cloudwatch-amazon-cloudwatch-api-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-cloudwatch/openapi/amazon-cloudwatch-amazon-cloudwatch-api-api-openapi.yml
+- filename: amazon-cloudwatch-alarm-mute-rule-api-openapi.yml
+  format: yaml
+  label: Amazon CloudWatch Cloudwatch Alarm Mute Rule API
+  slug: amazon-cloudwatch-alarm-mute-rule-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudwatch/openapi/amazon-cloudwatch-alarm-mute-rule-api-openapi.yml
+- filename: amazon-cloudwatch-anomaly-detector-api-openapi.yml
+  format: yaml
+  label: Amazon CloudWatch Cloudwatch Anomaly Detector API
+  slug: amazon-cloudwatch-anomaly-detector-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudwatch/openapi/amazon-cloudwatch-anomaly-detector-api-openapi.yml
+- filename: amazon-cloudwatch-insight-rule-api-openapi.yml
+  format: yaml
+  label: Amazon CloudWatch Cloudwatch Insight Rule API
+  slug: amazon-cloudwatch-insight-rule-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudwatch/openapi/amazon-cloudwatch-insight-rule-api-openapi.yml
+- filename: amazon-cloudwatch-metric-stream-api-openapi.yml
+  format: yaml
+  label: Amazon CloudWatch Cloudwatch Metric Stream API
+  slug: amazon-cloudwatch-metric-stream-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudwatch/openapi/amazon-cloudwatch-metric-stream-api-openapi.yml
+- filename: amazon-cloudwatch-o-tel-enrichment-api-openapi.yml
+  format: yaml
+  label: Amazon CloudWatch Cloudwatch O Tel Enrichment API
+  slug: amazon-cloudwatch-o-tel-enrichment-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudwatch/openapi/amazon-cloudwatch-o-tel-enrichment-api-openapi.yml
+- filename: amazon-cloudwatch-resource-metrics-configuration-api-openapi.yml
+  format: yaml
+  label: Amazon CloudWatch Cloudwatch Resource Metrics Configuration API
+  slug: amazon-cloudwatch-resource-metrics-configuration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudwatch/openapi/amazon-cloudwatch-resource-metrics-configuration-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +100,7 @@ source_filename: amazon-cloudwatch-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: monitoring.us-east-1.amazonaws.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/security/amazon-cloudwatch-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amazon-cloudwatch/security/amazon-cloudwatch-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - CloudWatch

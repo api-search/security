@@ -16,7 +16,7 @@ source_filename: deep-origin-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: searched\nprobe: true\nsource: https://www.deeporigin.com/security/\nurl: https://www.deeporigin.com/security/\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://www.deeporigin.com/security/\n  keywords:\n  - soc 2\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deep-origin/refs/heads/main/security/deep-origin-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/deep-origin/security/deep-origin-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - Company

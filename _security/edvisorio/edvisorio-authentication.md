@@ -33,7 +33,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://docs.edvisor.io/\ndocs: https://docs.edvisor.io/\nsummary:\n  types: [http]\n  http_scheme: bearer\n  token_type: api-key\n  oauth2_flows: []\n  api_key_in: [header]\nschemes:\n  - name: bearerApiKey\n    type: http\n    scheme: bearer\n    in: header\n    header: Authorization\n    format: \"Authorization: Bearer <your_edvisor_api_key>\"\n    description: >-\n      Edvisor.io uses long-lived API keys presented as an HTTP Bearer token in the\n      Authorization header on every request to the GraphQL API\n      (https://api-v2.edvisor.io/graphql).\n    provisioning: >-\n      API keys are issued on request by Edvisor support (contact support@edvisor.io);\n      there is no self-service key management surface documented.\n    server_side_only: true\n    notes: >-\n      Edvisor requires all requests be made from a server, never a customer-facing\n      front end, to avoid exposing the key. School Company API keys can\
   \ be retrieved\n      via the getSchoolCompanyApiKey GraphQL query.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edvisorio/refs/heads/main/authentication/edvisorio-authentication.yml
+source_yaml_url: https://artifacts.apis.io/edvisorio/authentication/edvisorio-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

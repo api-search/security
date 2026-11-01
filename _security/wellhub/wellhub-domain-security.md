@@ -5,25 +5,25 @@ api_specs:
   label: Wellhub Companies API
   slug: wellhub-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/openapi/wellhub-companies-api-openapi.yml
+  url: https://artifacts.apis.io/wellhub/openapi/wellhub-companies-api-openapi.yml
 - filename: wellhub-employees-api-openapi.yml
   format: yaml
   label: Wellhub Employees API
   slug: wellhub-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/openapi/wellhub-employees-api-openapi.yml
+  url: https://artifacts.apis.io/wellhub/openapi/wellhub-employees-api-openapi.yml
 - filename: wellhub-jobs-api-openapi.yml
   format: yaml
   label: Wellhub Jobs API
   slug: wellhub-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/openapi/wellhub-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/wellhub/openapi/wellhub-jobs-api-openapi.yml
 - filename: wellhub-oauth-api-openapi.yml
   format: yaml
   label: Wellhub O Auth API
   slug: wellhub-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/openapi/wellhub-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/wellhub/openapi/wellhub-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: wellhub-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: wellhub.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 23 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.clients.wellhub.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  3 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: wellhub.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/security/wellhub-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wellhub/security/wellhub-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -5,31 +5,31 @@ api_specs:
   label: Mashvisor Investment Analysis API
   slug: mashvisor-investment-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/openapi/mashvisor-investment-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/mashvisor/openapi/mashvisor-investment-analysis-api-openapi.yml
 - filename: mashvisor-property-info-api-openapi.yml
   format: yaml
   label: Mashvisor Property Info API
   slug: mashvisor-property-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/openapi/mashvisor-property-info-api-openapi.yml
+  url: https://artifacts.apis.io/mashvisor/openapi/mashvisor-property-info-api-openapi.yml
 - filename: mashvisor-rental-rates-api-openapi.yml
   format: yaml
   label: Mashvisor Rental Rates API
   slug: mashvisor-rental-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/openapi/mashvisor-rental-rates-api-openapi.yml
+  url: https://artifacts.apis.io/mashvisor/openapi/mashvisor-rental-rates-api-openapi.yml
 - filename: mashvisor-search-api-openapi.yml
   format: yaml
   label: Mashvisor Search API
   slug: mashvisor-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/openapi/mashvisor-search-api-openapi.yml
+  url: https://artifacts.apis.io/mashvisor/openapi/mashvisor-search-api-openapi.yml
 - filename: mashvisor-trends-api-openapi.yml
   format: yaml
   label: Mashvisor Trends API
   slug: mashvisor-trends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/openapi/mashvisor-trends-api-openapi.yml
+  url: https://artifacts.apis.io/mashvisor/openapi/mashvisor-trends-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -65,7 +65,7 @@ source_filename: mashvisor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mashvisor.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 16:03:05 2026 GMT\n  hsts: true\n  hsts_max_age: 0\ndomains:\n- domain: mashvisor.com\n  dnssec: false\n  caa:\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/security/mashvisor-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mashvisor/security/mashvisor-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -7,121 +7,121 @@ api_specs:
   label: Lily AI Auth API
   slug: lily-ai-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-auth-api-openapi.yml
+  url: https://artifacts.apis.io/lily-ai/openapi/lily-ai-auth-api-openapi.yml
 - filename: lily-ai-batch-api-openapi.yml
   format: yaml
   label: Lily AI Batch API
   slug: lily-ai-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-batch-api-openapi.yml
+  url: https://artifacts.apis.io/lily-ai/openapi/lily-ai-batch-api-openapi.yml
 - filename: lily-ai-config-api-openapi.yml
   format: yaml
   label: Lily AI Config API
   slug: lily-ai-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-config-api-openapi.yml
+  url: https://artifacts.apis.io/lily-ai/openapi/lily-ai-config-api-openapi.yml
 - filename: lily-ai-enrichment-platform-proxy-api-openapi.yml
   format: yaml
   label: Lily AI Enrichment Platform Proxy API
   slug: lily-ai-enrichment-platform-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-enrichment-platform-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/lily-ai/openapi/lily-ai-enrichment-platform-proxy-api-openapi.yml
 - filename: lily-ai-health-api-openapi.yml
   format: yaml
   label: Lily AI Health API
   slug: lily-ai-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-health-api-openapi.yml
+  url: https://artifacts.apis.io/lily-ai/openapi/lily-ai-health-api-openapi.yml
 - filename: lily-ai-integration-api-openapi.yml
   format: yaml
   label: Lily AI Integration API
   slug: lily-ai-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-integration-api-openapi.yml
+  url: https://artifacts.apis.io/lily-ai/openapi/lily-ai-integration-api-openapi.yml
 - filename: lily-ai-lilyapp-api-nest-based-application-api-openapi.yml
   format: yaml
   label: Lily AI LilyApp API Nest Based Application API
   slug: lily-ai-lilyapp-api-nest-based-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-lilyapp-api-nest-based-application-api-openapi.yml
+  url: https://artifacts.apis.io/lily-ai/openapi/lily-ai-lilyapp-api-nest-based-application-api-openapi.yml
 - filename: lily-ai-metrics-api-openapi.yml
   format: yaml
   label: Lily AI Metrics API
   slug: lily-ai-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/lily-ai/openapi/lily-ai-metrics-api-openapi.yml
 - filename: lily-ai-mock-data-api-openapi.yml
   format: yaml
   label: Lily AI Mock Data API
   slug: lily-ai-mock-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-mock-data-api-openapi.yml
+  url: https://artifacts.apis.io/lily-ai/openapi/lily-ai-mock-data-api-openapi.yml
 - filename: lily-ai-pi-api-proxy-api-openapi.yml
   format: yaml
   label: Lily AI Pi Api Proxy API
   slug: lily-ai-pi-api-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-pi-api-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/lily-ai/openapi/lily-ai-pi-api-proxy-api-openapi.yml
 - filename: lily-ai-pi-config-proxy-api-openapi.yml
   format: yaml
   label: Lily AI Pi Config Proxy API
   slug: lily-ai-pi-config-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-pi-config-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/lily-ai/openapi/lily-ai-pi-config-proxy-api-openapi.yml
 - filename: lily-ai-pi-connector-proxy-api-openapi.yml
   format: yaml
   label: Lily AI Pi Connector Proxy API
   slug: lily-ai-pi-connector-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-pi-connector-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/lily-ai/openapi/lily-ai-pi-connector-proxy-api-openapi.yml
 - filename: lily-ai-productcopy-api-openapi.yml
   format: yaml
   label: Lily AI Productcopy API
   slug: lily-ai-productcopy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-productcopy-api-openapi.yml
+  url: https://artifacts.apis.io/lily-ai/openapi/lily-ai-productcopy-api-openapi.yml
 - filename: lily-ai-productcopyv2-api-openapi.yml
   format: yaml
   label: Lily AI Productcopy V2 API
   slug: lily-ai-productcopyv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-productcopyv2-api-openapi.yml
+  url: https://artifacts.apis.io/lily-ai/openapi/lily-ai-productcopyv2-api-openapi.yml
 - filename: lily-ai-products-api-openapi.yml
   format: yaml
   label: Lily AI Products API
   slug: lily-ai-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-products-api-openapi.yml
+  url: https://artifacts.apis.io/lily-ai/openapi/lily-ai-products-api-openapi.yml
 - filename: lily-ai-search-api-openapi.yml
   format: yaml
   label: Lily AI Search API
   slug: lily-ai-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-search-api-openapi.yml
+  url: https://artifacts.apis.io/lily-ai/openapi/lily-ai-search-api-openapi.yml
 - filename: lily-ai-subsidiary-api-openapi.yml
   format: yaml
   label: Lily AI Subsidiary API
   slug: lily-ai-subsidiary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-subsidiary-api-openapi.yml
+  url: https://artifacts.apis.io/lily-ai/openapi/lily-ai-subsidiary-api-openapi.yml
 - filename: lily-ai-superset-api-openapi.yml
   format: yaml
   label: Lily AI Superset API
   slug: lily-ai-superset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-superset-api-openapi.yml
+  url: https://artifacts.apis.io/lily-ai/openapi/lily-ai-superset-api-openapi.yml
 - filename: lily-ai-tce-api-proxy-api-openapi.yml
   format: yaml
   label: Lily AI Tce Api Proxy API
   slug: lily-ai-tce-api-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-tce-api-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/lily-ai/openapi/lily-ai-tce-api-proxy-api-openapi.yml
 - filename: lily-ai-faqs-api-openapi.yml
   format: yaml
   label: Lily AI Faqs API
   slug: lily-ai-faqs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-faqs-api-openapi.yml
+  url: https://artifacts.apis.io/lily-ai/openapi/lily-ai-faqs-api-openapi.yml
 auth_types:
 - http
 - openIdConnect
@@ -190,7 +190,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: >-\n  openapi/lil
   \  token_endpoint: https://lilyexternalaad.b2clogin.com/lilyexternalaad.onmicrosoft.com/b2c_1a_signin_emailmfa/oauth2/v2.0/token\n  jwks_uri: https://lilyexternalaad.b2clogin.com/lilyexternalaad.onmicrosoft.com/b2c_1a_signin_emailmfa/discovery/v2.0/keys\n  end_session_endpoint: https://lilyexternalaad.b2clogin.com/lilyexternalaad.onmicrosoft.com/b2c_1a_signin_emailmfa/oauth2/v2.0/logout\n  user_flows:\n  - B2C_1A_SIGNIN_EMAILMFA\n  - B2C_1A_PASSWORDRESETEMAIL\n  scopes_supported:\n  - openid\n  api_scope_uri: https://lilyexternalaad.onmicrosoft.com/authprod\n  response_types_supported: [code, code id_token, code token, code id_token token, id_token, id_token token, token, token id_token]\n  response_modes_supported: [query, fragment, form_post]\n  id_token_signing_alg_values_supported: [RS256]\n  subject_types_supported: [pairwise]\n  mfa: >-\n    Enforced — the only sign-in user flow the application uses is\n    B2C_1A_SIGNIN_EMAILMFA (email + multi-factor).\nlogin_operations:\n- operationId:\
   \ AuthV2Controller_loginUserExt\n  path: /v2/auth/b2c/login\n  method: GET\n  note: Current-generation Azure AD B2C login for external (customer) users.\n- operationId: AuthV2Controller_loginUser\n  path: /v2/auth/microsoft/login\n  method: GET\n  note: Microsoft (internal Entra) login.\n- operationId: AuthV2Controller_loginQaSupport\n  path: /v2/auth/qa-automated/login\n  method: POST\n  note: >-\n    QA automation login (QaSupportLoginDto). This is the only operation in the whole\n    contract that declares 401 and 403 responses.\n- operationId: AuthController_loginUserExt\n  path: /auth/b2c/login\n  method: GET\n  note: Superseded v1 equivalent, still live and undeprecated.\n- operationId: AuthController_loginUser\n  path: /auth/microsoft/login\n  method: GET\n  note: Superseded v1 equivalent, still live and undeprecated.\nauthorization:\n  model: subsidiary (retailer tenant) scoping, carried on the request\n  note: >-\n    There is no OAuth scope surface for the API itself — the B2C\
   \ tenant advertises\n    only `openid`, and the API declares no oauth2 flows and no scopes. Entitlement\n    is expressed by the subsidiary identifier a caller passes, in four different\n    spellings (subsidiaryCode, subsidiaryID, subsidiary-id header, x-subsidiary-id\n    header). No scopes/ artifact is emitted, per the pipeline's OAuth-only rule.\ncredential_acquisition:\n  self_service: false\n  sign_up: null\n  note: >-\n    No developer sign-up, no key-issuance page, no documented onboarding. Lily AI\n    provisions application access through sales-led enterprise onboarding\n    (https://www.lily.ai/free-trial requests a pilot; it is not a credential path).\nx-evidence:\n- url: https://lilyapp-api-prd.pub.lilyai.net/config/brands\n  status: 401\n  fetched: '2026-08-12'\n- url: https://lilyexternalaad.b2clogin.com/lilyexternalaad.onmicrosoft.com/B2C_1A_SIGNIN_EMAILMFA/v2.0/.well-known/openid-configuration\n  status: 200\n  fetched: '2026-08-12'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/authentication/lily-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lily-ai/authentication/lily-ai-authentication.yml
 summary_line: http/openIdConnect · 2 schemes
 tags:
 - Company

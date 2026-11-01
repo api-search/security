@@ -7,49 +7,49 @@ api_specs:
   label: Galileo Financial Technologies Config API
   slug: galileo-fs-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/openapi/galileo-fs-config-api-openapi.yml
+  url: https://artifacts.apis.io/galileo-fs/openapi/galileo-fs-config-api-openapi.yml
 - filename: galileo-fs-dispute-api-openapi.yml
   format: yaml
   label: Galileo Financial Technologies Dispute API
   slug: galileo-fs-dispute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/openapi/galileo-fs-dispute-api-openapi.yml
+  url: https://artifacts.apis.io/galileo-fs/openapi/galileo-fs-dispute-api-openapi.yml
 - filename: galileo-fs-events-api-openapi.yml
   format: yaml
   label: Galileo Financial Technologies Events API
   slug: galileo-fs-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/openapi/galileo-fs-events-api-openapi.yml
+  url: https://artifacts.apis.io/galileo-fs/openapi/galileo-fs-events-api-openapi.yml
 - filename: galileo-fs-externaltransactions-api-openapi.yml
   format: yaml
   label: Galileo Financial Technologies ExternalTransactions API
   slug: galileo-fs-externaltransactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/openapi/galileo-fs-externaltransactions-api-openapi.yml
+  url: https://artifacts.apis.io/galileo-fs/openapi/galileo-fs-externaltransactions-api-openapi.yml
 - filename: galileo-fs-loan-api-openapi.yml
   format: yaml
   label: Galileo Financial Technologies Loan API
   slug: galileo-fs-loan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/openapi/galileo-fs-loan-api-openapi.yml
+  url: https://artifacts.apis.io/galileo-fs/openapi/galileo-fs-loan-api-openapi.yml
 - filename: galileo-fs-paymenthub-api-openapi.yml
   format: yaml
   label: Galileo Financial Technologies PaymentHub API
   slug: galileo-fs-paymenthub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/openapi/galileo-fs-paymenthub-api-openapi.yml
+  url: https://artifacts.apis.io/galileo-fs/openapi/galileo-fs-paymenthub-api-openapi.yml
 - filename: galileo-fs-program-api-openapi.yml
   format: yaml
   label: Galileo Financial Technologies Program API
   slug: galileo-fs-program-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/openapi/galileo-fs-program-api-openapi.yml
+  url: https://artifacts.apis.io/galileo-fs/openapi/galileo-fs-program-api-openapi.yml
 - filename: galileo-fs-risk-api-openapi.yml
   format: yaml
   label: Galileo Financial Technologies Risk API
   slug: galileo-fs-risk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/openapi/galileo-fs-risk-api-openapi.yml
+  url: https://artifacts.apis.io/galileo-fs/openapi/galileo-fs-risk-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -78,7 +78,7 @@ source_filename: galileo-fs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/galileo-fs-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: |-\n    HTTPS request authenticated with provider ID, username, password, and\n    product ID as documented in the Galileo Pro tenant onboarding guide.\n  sources:\n  - openapi/galileo-fs-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/authentication/galileo-fs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/galileo-fs/authentication/galileo-fs-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Fintech

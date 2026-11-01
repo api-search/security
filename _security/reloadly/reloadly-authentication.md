@@ -7,49 +7,49 @@ api_specs:
   label: Reloadly Authentication API
   slug: reloadly-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/reloadly/openapi/reloadly-authentication-api-openapi.yml
 - filename: reloadly-balance-api-openapi.yml
   format: yaml
   label: Reloadly Balance API
   slug: reloadly-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-balance-api-openapi.yml
+  url: https://artifacts.apis.io/reloadly/openapi/reloadly-balance-api-openapi.yml
 - filename: reloadly-discounts-api-openapi.yml
   format: yaml
   label: Reloadly Discounts API
   slug: reloadly-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-discounts-api-openapi.yml
+  url: https://artifacts.apis.io/reloadly/openapi/reloadly-discounts-api-openapi.yml
 - filename: reloadly-operators-api-openapi.yml
   format: yaml
   label: Reloadly Operators API
   slug: reloadly-operators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-operators-api-openapi.yml
+  url: https://artifacts.apis.io/reloadly/openapi/reloadly-operators-api-openapi.yml
 - filename: reloadly-orders-api-openapi.yml
   format: yaml
   label: Reloadly Orders API
   slug: reloadly-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-orders-api-openapi.yml
+  url: https://artifacts.apis.io/reloadly/openapi/reloadly-orders-api-openapi.yml
 - filename: reloadly-products-api-openapi.yml
   format: yaml
   label: Reloadly Products API
   slug: reloadly-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-products-api-openapi.yml
+  url: https://artifacts.apis.io/reloadly/openapi/reloadly-products-api-openapi.yml
 - filename: reloadly-top-ups-api-openapi.yml
   format: yaml
   label: Reloadly Top-Ups API
   slug: reloadly-top-ups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-top-ups-api-openapi.yml
+  url: https://artifacts.apis.io/reloadly/openapi/reloadly-top-ups-api-openapi.yml
 - filename: reloadly-transactions-api-openapi.yml
   format: yaml
   label: Reloadly Transactions API
   slug: reloadly-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/reloadly/openapi/reloadly-transactions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -78,7 +78,7 @@ source_filename: reloadly-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/reloadly-airtime-openapi.yml, openapi/reloadly-gift-cards-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: OAuth 2.0 bearer token obtained via the /oauth/token endpoint using client credentials\n    grant.\n  sources:\n  - openapi/reloadly-airtime-openapi.yml\n  - openapi/reloadly-gift-cards-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/authentication/reloadly-authentication.yml
+source_yaml_url: https://artifacts.apis.io/reloadly/authentication/reloadly-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Gift Cards

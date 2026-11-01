@@ -8,13 +8,13 @@ api_specs:
   label: D3 Events Poll API
   slug: d3-events-poll-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d3/refs/heads/main/openapi/d3-events-poll-api-api-openapi.yml
+  url: https://artifacts.apis.io/d3/openapi/d3-events-poll-api-api-openapi.yml
 - filename: d3-order-book-api-api-openapi.yml
   format: yaml
   label: D3 Order book API
   slug: d3-order-book-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d3/refs/heads/main/openapi/d3-order-book-api-api-openapi.yml
+  url: https://artifacts.apis.io/d3/openapi/d3-order-book-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -41,7 +41,7 @@ source_filename: d3-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/d3-doma-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: Api-Key\n  type: apiKey\n  in: header\n  parameter: Api-Key\n  sources:\n  - openapi/d3-doma-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/d3/refs/heads/main/authentication/d3-authentication.yml
+source_yaml_url: https://artifacts.apis.io/d3/authentication/d3-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

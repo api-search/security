@@ -5,67 +5,67 @@ api_specs:
   label: FastDOL Auth API
   slug: fastdol-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-auth-api-openapi.yml
+  url: https://artifacts.apis.io/fastdol/openapi/fastdol-auth-api-openapi.yml
 - filename: fastdol-dashboard-api-openapi.yml
   format: yaml
   label: FastDOL Dashboard API
   slug: fastdol-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/fastdol/openapi/fastdol-dashboard-api-openapi.yml
 - filename: fastdol-employers-api-openapi.yml
   format: yaml
   label: FastDOL Employers API
   slug: fastdol-employers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-employers-api-openapi.yml
+  url: https://artifacts.apis.io/fastdol/openapi/fastdol-employers-api-openapi.yml
 - filename: fastdol-export-api-openapi.yml
   format: yaml
   label: FastDOL Export API
   slug: fastdol-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-export-api-openapi.yml
+  url: https://artifacts.apis.io/fastdol/openapi/fastdol-export-api-openapi.yml
 - filename: fastdol-health-api-openapi.yml
   format: yaml
   label: FastDOL Health API
   slug: fastdol-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-health-api-openapi.yml
+  url: https://artifacts.apis.io/fastdol/openapi/fastdol-health-api-openapi.yml
 - filename: fastdol-industries-api-openapi.yml
   format: yaml
   label: FastDOL Industries API
   slug: fastdol-industries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-industries-api-openapi.yml
+  url: https://artifacts.apis.io/fastdol/openapi/fastdol-industries-api-openapi.yml
 - filename: fastdol-inspections-api-openapi.yml
   format: yaml
   label: FastDOL Inspections API
   slug: fastdol-inspections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-inspections-api-openapi.yml
+  url: https://artifacts.apis.io/fastdol/openapi/fastdol-inspections-api-openapi.yml
 - filename: fastdol-sitemap-api-openapi.yml
   format: yaml
   label: FastDOL Sitemap API
   slug: fastdol-sitemap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-sitemap-api-openapi.yml
+  url: https://artifacts.apis.io/fastdol/openapi/fastdol-sitemap-api-openapi.yml
 - filename: fastdol-stats-api-openapi.yml
   format: yaml
   label: FastDOL Stats API
   slug: fastdol-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-stats-api-openapi.yml
+  url: https://artifacts.apis.io/fastdol/openapi/fastdol-stats-api-openapi.yml
 - filename: fastdol-usage-api-openapi.yml
   format: yaml
   label: FastDOL Usage API
   slug: fastdol-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-usage-api-openapi.yml
+  url: https://artifacts.apis.io/fastdol/openapi/fastdol-usage-api-openapi.yml
 - filename: fastdol-webhooks-api-openapi.yml
   format: yaml
   label: FastDOL Webhooks API
   slug: fastdol-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/fastdol/openapi/fastdol-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -101,7 +101,7 @@ source_filename: fastdol-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: fastdol.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 10:45:37 2026 GMT\n  hsts: null\n- host: api.fastdol.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 11:54:49 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: fastdol.com\n  dnssec: false\n  caa:\n  - ;; connection timed out; no servers could be reached\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/security/fastdol-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fastdol/security/fastdol-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - OSHA

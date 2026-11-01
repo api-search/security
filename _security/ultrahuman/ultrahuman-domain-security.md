@@ -5,19 +5,19 @@ api_specs:
   label: Ultrahuman Metrics API
   slug: ultrahuman-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/openapi/ultrahuman-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/ultrahuman/openapi/ultrahuman-metrics-api-openapi.yml
 - filename: ultrahuman-user-api-openapi.yml
   format: yaml
   label: Ultrahuman User API
   slug: ultrahuman-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/openapi/ultrahuman-user-api-openapi.yml
+  url: https://artifacts.apis.io/ultrahuman/openapi/ultrahuman-user-api-openapi.yml
 - filename: ultrahuman-oauth-api-openapi.yml
   format: yaml
   label: Ultrahuman O Auth API
   slug: ultrahuman-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/openapi/ultrahuman-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/ultrahuman/openapi/ultrahuman-oauth-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -64,7 +64,7 @@ source_filename: ultrahuman-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ultrahuman.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 05:14:46 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: vision.ultrahuman.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 15 23:59:59 2026 GMT\n  hsts: false\n- host: partner.ultrahuman.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 07:14:12 2026 GMT\n  hsts: true\n  hsts_max_age: 300\ndomains:\n- domain: ultrahuman.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"certainly.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/security/ultrahuman-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ultrahuman/security/ultrahuman-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Wearables

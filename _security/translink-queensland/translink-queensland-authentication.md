@@ -34,7 +34,7 @@ source_yaml: 'generated: ''2026-10-22''
   note: ''The open data page states verbatim: "Authentication is not required to use the feed." A GET of the documented feed https://gtfsrt.api.translink.com.au/api/realtime/SEQ/alerts with no credentials returned HTTP 200 application/x-protobuf on 2026-10-22. No API key, OAuth or other scheme is documented; the GTFS schedule datasets are public downloads on data.qld.gov.au.''
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/translink-queensland/refs/heads/main/authentication/translink-queensland-authentication.yml
+source_yaml_url: https://artifacts.apis.io/translink-queensland/authentication/translink-queensland-authentication.yml
 summary_line: 0 schemes
 tags:
 - Company

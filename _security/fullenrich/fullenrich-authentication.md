@@ -8,25 +8,25 @@ api_specs:
   label: FullEnrich Account API
   slug: fullenrich-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/openapi/fullenrich-account-api-openapi.yml
+  url: https://artifacts.apis.io/fullenrich/openapi/fullenrich-account-api-openapi.yml
 - filename: fullenrich-company-api-openapi.yml
   format: yaml
   label: FullEnrich Company API
   slug: fullenrich-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/openapi/fullenrich-company-api-openapi.yml
+  url: https://artifacts.apis.io/fullenrich/openapi/fullenrich-company-api-openapi.yml
 - filename: fullenrich-contact-api-openapi.yml
   format: yaml
   label: FullEnrich Contact API
   slug: fullenrich-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/openapi/fullenrich-contact-api-openapi.yml
+  url: https://artifacts.apis.io/fullenrich/openapi/fullenrich-contact-api-openapi.yml
 - filename: fullenrich-people-api-openapi.yml
   format: yaml
   label: FullEnrich People API
   slug: fullenrich-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/openapi/fullenrich-people-api-openapi.yml
+  url: https://artifacts.apis.io/fullenrich/openapi/fullenrich-people-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -125,7 +125,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: openapi/_origin
   \    issuer: fullenrich\n    discovery:\n      - well-known/fullenrich-app-openid-configuration.json\n      - well-known/fullenrich-app-oauth-authorization-server.json\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://app.fullenrich.com/oauth2/authorize\n        tokenUrl: https://app.fullenrich.com/oauth2/token\n        pkce: [S256]\n      - flow: clientCredentials\n        tokenUrl: https://app.fullenrich.com/oauth2/token\n      - flow: refreshToken\n        tokenUrl: https://app.fullenrich.com/oauth2/token\n    endpoints:\n      jwks_uri: https://app.fullenrich.com/oauth2/jwks\n      introspection: https://app.fullenrich.com/oauth2/introspect\n      revocation: https://app.fullenrich.com/oauth2/revoke\n    token_endpoint_auth_methods: [none, client_secret_basic, client_secret_post]\n    id_token_signing_alg: [HS256]\n    scope_count: 13\n    detail: scopes/fullenrich-scopes.yml\n    sources:\n      - https://app.fullenrich.com/.well-known/openid-configuration\n\
   \n  - name: FullEnrichMCPOAuth\n    type: oauth2\n    description: >-\n      Separate authorization server protecting the remote MCP server. Uses dynamic\n      client registration and browser-based user consent — there is no static\n      client secret for an end user to copy into an MCP client.\n    issuer: https://mcp.fullenrich.com\n    discovery:\n      - well-known/fullenrich-mcp-oauth-authorization-server.json\n      - well-known/fullenrich-mcp-oauth-protected-resource.json\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://mcp.fullenrich.com/authorize\n        tokenUrl: https://mcp.fullenrich.com/token\n        pkce: [S256]\n      - flow: refreshToken\n        tokenUrl: https://mcp.fullenrich.com/token\n    endpoints:\n      registration: https://mcp.fullenrich.com/register\n      revocation: https://mcp.fullenrich.com/revoke\n    dynamic_client_registration: true\n    protected_resource: https://mcp.fullenrich.com/mcp\n    scopes: [api:mcp]\n    bearer_methods_supported:\
   \ [header]\n    sources:\n      - https://mcp.fullenrich.com/.well-known/oauth-authorization-server\n      - https://mcp.fullenrich.com/.well-known/oauth-protected-resource\n\nenterprise:\n  sso: Custom SSO / custom IdP available as an Enterprise add-on.\n  byok: Bring Your Own API Key (BYOK) offered on Enterprise plans.\n  google_sso: Available on every plan including the free trial.\n  source: https://fullenrich.com/pricing.md\n\nfailure_modes:\n  - status: 401\n    meaning: Missing Authorization header, or an invalid/revoked API key.\n    body: '{ \"code\": \"...\", \"message\": \"...\" }'\n\nx-evidence:\n  - url: https://docs.fullenrich.com/api/v2/general/authentication.md\n    http_status: 200\n  - url: https://app.fullenrich.com/.well-known/openid-configuration\n    http_status: 200\n  - url: https://mcp.fullenrich.com/.well-known/oauth-authorization-server\n    http_status: 200\n  - url: https://mcp.fullenrich.com/mcp\n    http_status: 401\n    detail: WWW-Authenticate Bearer resource_metadata\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/authentication/fullenrich-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fullenrich/authentication/fullenrich-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
 - B2B Data

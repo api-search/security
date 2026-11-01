@@ -5,19 +5,19 @@ api_specs:
   label: JAXA CSW API
   slug: jaxa-csw-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jaxa/refs/heads/main/openapi/jaxa-csw-api-openapi.yml
+  url: https://artifacts.apis.io/jaxa/openapi/jaxa-csw-api-openapi.yml
 - filename: jaxa-wcs-api-openapi.yml
   format: yaml
   label: JAXA WCS API
   slug: jaxa-wcs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jaxa/refs/heads/main/openapi/jaxa-wcs-api-openapi.yml
+  url: https://artifacts.apis.io/jaxa/openapi/jaxa-wcs-api-openapi.yml
 - filename: jaxa-wms-api-openapi.yml
   format: yaml
   label: JAXA WMS API
   slug: jaxa-wms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jaxa/refs/heads/main/openapi/jaxa-wms-api-openapi.yml
+  url: https://artifacts.apis.io/jaxa/openapi/jaxa-wms-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -56,7 +56,7 @@ source_filename: jaxa-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: earth.jaxa.jp\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 05:04:18 2026 GMT\n  hsts: false\n- host: data.earth.jaxa.jp\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 11 01:58:30 2026 GMT\n  hsts: false\n- host: gportal.jaxa.jp\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 05:04:18 2026 GMT\n  hsts: false\ndomains:\n- domain: jaxa.jp\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jaxa/refs/heads/main/security/jaxa-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/jaxa/security/jaxa-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Space

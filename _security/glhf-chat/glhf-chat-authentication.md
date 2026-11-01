@@ -7,13 +7,13 @@ api_specs:
   label: glhf Models API
   slug: glhf-chat-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glhf-chat/refs/heads/main/openapi/glhf-chat-models-api-openapi.yml
+  url: https://artifacts.apis.io/glhf-chat/openapi/glhf-chat-models-api-openapi.yml
 - filename: glhf-chat-chat-completions-api-openapi.yml
   format: yaml
   label: glhf Chat Completions API
   slug: glhf-chat-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glhf-chat/refs/heads/main/openapi/glhf-chat-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/glhf-chat/openapi/glhf-chat-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: glhf-chat-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/glhf-chat-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: glhf API key passed as a Bearer token in the Authorization header. Keys are created\n    at https://glhf.chat/users/settings/api.\n  sources:\n  - openapi/glhf-chat-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/glhf-chat/refs/heads/main/authentication/glhf-chat-authentication.yml
+source_yaml_url: https://artifacts.apis.io/glhf-chat/authentication/glhf-chat-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

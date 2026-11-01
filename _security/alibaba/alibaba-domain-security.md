@@ -47,7 +47,7 @@ source_filename: alibaba-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.alibaba.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 29 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.alibabacloud.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 26 15:46:35 2027 GMT\n  hsts: null\n- host: api.alibabacloud.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 26 15:46:35 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: alibaba.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: alibabacloud.com\n  dnssec: false\n  caa:\n  - 0 issue \"globalsign.com\"\n  - 0 iodef \"mailto:certificate-transparency@list.alibaba-inc.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alibaba/refs/heads/main/security/alibaba-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/alibaba/security/alibaba-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud

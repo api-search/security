@@ -7,25 +7,25 @@ api_specs:
   label: Boost Insurance Authentication API
   slug: boost-insurance-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/openapi/boost-insurance-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/boost-insurance/openapi/boost-insurance-authentication-api-openapi.yml
 - filename: boost-insurance-claims-api-openapi.yml
   format: yaml
   label: Boost Insurance Claims API
   slug: boost-insurance-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/openapi/boost-insurance-claims-api-openapi.yml
+  url: https://artifacts.apis.io/boost-insurance/openapi/boost-insurance-claims-api-openapi.yml
 - filename: boost-insurance-policies-api-openapi.yml
   format: yaml
   label: Boost Insurance Policies API
   slug: boost-insurance-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/openapi/boost-insurance-policies-api-openapi.yml
+  url: https://artifacts.apis.io/boost-insurance/openapi/boost-insurance-policies-api-openapi.yml
 - filename: boost-insurance-quotes-api-openapi.yml
   format: yaml
   label: Boost Insurance Quotes API
   slug: boost-insurance-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/openapi/boost-insurance-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/boost-insurance/openapi/boost-insurance-quotes-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -56,7 +56,7 @@ source_filename: boost-insurance-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/boost-insurance-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: boostOAuth\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.insurtech.dev/auth/oauth2/token\n    scopes: 0\n  description: OAuth 2.0 Client Credentials grant. Tokens are obtained from the Boost authentication\n    endpoint and presented as a Bearer token.\n  sources:\n  - openapi/boost-insurance-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/authentication/boost-insurance-authentication.yml
+source_yaml_url: https://artifacts.apis.io/boost-insurance/authentication/boost-insurance-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Insurance

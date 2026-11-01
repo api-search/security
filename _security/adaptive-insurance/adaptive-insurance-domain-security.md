@@ -49,7 +49,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-07'\nmethod: probed\nsource: >-\n  live DNS/TLS/HTTP probes of apis.yml hosts (probe-domain-security.py), extended by hand\n  with the identity, portal and application-backend hosts found during contract discovery\nhosts:\n- host: www.adaptiveinsurance.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 23:21:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: auth.adaptiveinsurance.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 25 00:28:41 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  note: Auth0 custom-domain identity tenant; serves the OIDC and RFC 8414 discovery documents\n- host: api.adaptiveinsurance.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar  6 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  note: >-\n    Application backend. Sends helmet-style hardening headers (CSP default-src 'self',\n    COOP/CORP same-origin, X-Content-Type-Options nosniff, X-Frame-Options SAMEORIGIN).\n\
   \    Negotiated TLS 1.2 only on probe.\n- host: app.adaptiveinsurance.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar  6 23:59:59 2027 GMT\n  hsts: false\n  note: Agent and broker portal single-page app; no Strict-Transport-Security header observed\ndomains:\n- domain: adaptiveinsurance.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adaptive-insurance/refs/heads/main/security/adaptive-insurance-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/adaptive-insurance/security/adaptive-insurance-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance

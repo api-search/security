@@ -5,7 +5,7 @@ api_specs:
   label: Scroll JSON-RPC API
   slug: scroll-zkevm-json-rpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scroll-zkevm/refs/heads/main/openapi/scroll-zkevm-json-rpc-api-openapi.yml
+  url: https://artifacts.apis.io/scroll-zkevm/openapi/scroll-zkevm-json-rpc-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: scroll-zkevm-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: scroll.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 04:32:01 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.scroll.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 10:39:56 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: rpc.scroll.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 05:53:50 2026 GMT\n  hsts: null\ndomains:\n- domain: scroll.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scroll-zkevm/refs/heads/main/security/scroll-zkevm-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/scroll-zkevm/security/scroll-zkevm-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - zkEVM

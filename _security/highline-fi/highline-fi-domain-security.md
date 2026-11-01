@@ -5,55 +5,55 @@ api_specs:
   label: Highline Auth API
   slug: highline-fi-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/openapi/highline-fi-auth-api-openapi.yml
+  url: https://artifacts.apis.io/highline-fi/openapi/highline-fi-auth-api-openapi.yml
 - filename: highline-fi-companies-api-openapi.yml
   format: yaml
   label: Highline Companies API
   slug: highline-fi-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/openapi/highline-fi-companies-api-openapi.yml
+  url: https://artifacts.apis.io/highline-fi/openapi/highline-fi-companies-api-openapi.yml
 - filename: highline-fi-connections-api-openapi.yml
   format: yaml
   label: Highline Connections API
   slug: highline-fi-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/openapi/highline-fi-connections-api-openapi.yml
+  url: https://artifacts.apis.io/highline-fi/openapi/highline-fi-connections-api-openapi.yml
 - filename: highline-fi-employments-api-openapi.yml
   format: yaml
   label: Highline Employments API
   slug: highline-fi-employments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/openapi/highline-fi-employments-api-openapi.yml
+  url: https://artifacts.apis.io/highline-fi/openapi/highline-fi-employments-api-openapi.yml
 - filename: highline-fi-payment-requests-api-openapi.yml
   format: yaml
   label: Highline Payment Requests API
   slug: highline-fi-payment-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/openapi/highline-fi-payment-requests-api-openapi.yml
+  url: https://artifacts.apis.io/highline-fi/openapi/highline-fi-payment-requests-api-openapi.yml
 - filename: highline-fi-payments-api-openapi.yml
   format: yaml
   label: Highline Payments API
   slug: highline-fi-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/openapi/highline-fi-payments-api-openapi.yml
+  url: https://artifacts.apis.io/highline-fi/openapi/highline-fi-payments-api-openapi.yml
 - filename: highline-fi-products-api-openapi.yml
   format: yaml
   label: Highline Products API
   slug: highline-fi-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/openapi/highline-fi-products-api-openapi.yml
+  url: https://artifacts.apis.io/highline-fi/openapi/highline-fi-products-api-openapi.yml
 - filename: highline-fi-settlements-api-openapi.yml
   format: yaml
   label: Highline Settlements API
   slug: highline-fi-settlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/openapi/highline-fi-settlements-api-openapi.yml
+  url: https://artifacts.apis.io/highline-fi/openapi/highline-fi-settlements-api-openapi.yml
 - filename: highline-fi-users-api-openapi.yml
   format: yaml
   label: Highline Users API
   slug: highline-fi-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/openapi/highline-fi-users-api-openapi.yml
+  url: https://artifacts.apis.io/highline-fi/openapi/highline-fi-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -94,7 +94,7 @@ source_filename: highline-fi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: highline.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 09:54:55 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.highline.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 07:32:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.highline.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 09:54:55 2026 GMT\n  hsts: null\ndomains:\n- domain: highline.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/security/highline-fi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/highline-fi/security/highline-fi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Embedded Finance

@@ -7,37 +7,37 @@ api_specs:
   label: Quietforge Document Conversion API
   slug: document-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quietforge/refs/heads/main/openapi/quietforge-convert-api-openapi.yml
+  url: https://artifacts.apis.io/quietforge/openapi/quietforge-convert-api-openapi.yml
 - filename: quietforge-x402-index-api-openapi.yml
   format: yaml
   label: Quietforge x402 Service Index API
   slug: x402-service-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quietforge/refs/heads/main/openapi/quietforge-x402-index-api-openapi.yml
+  url: https://artifacts.apis.io/quietforge/openapi/quietforge-x402-index-api-openapi.yml
 - filename: quietforge-sudoku-api-openapi.yml
   format: yaml
   label: Quietforge Puzzle Generation API
   slug: puzzle-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quietforge/refs/heads/main/openapi/quietforge-sudoku-api-openapi.yml
+  url: https://artifacts.apis.io/quietforge/openapi/quietforge-sudoku-api-openapi.yml
 - filename: quietforge-typeset-api-openapi.yml
   format: yaml
   label: Quietforge Book Typesetting API
   slug: book-typesetting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quietforge/refs/heads/main/openapi/quietforge-typeset-api-openapi.yml
+  url: https://artifacts.apis.io/quietforge/openapi/quietforge-typeset-api-openapi.yml
 - filename: quietforge-familytree-api-openapi.yml
   format: yaml
   label: Quietforge Family Tree Chart API
   slug: family-chart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quietforge/refs/heads/main/openapi/quietforge-familytree-api-openapi.yml
+  url: https://artifacts.apis.io/quietforge/openapi/quietforge-familytree-api-openapi.yml
 - filename: quietforge-dataset-audit-api-openapi.yml
   format: yaml
   label: Quietforge Dataset Audit API
   slug: dataset-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quietforge/refs/heads/main/openapi/quietforge-dataset-audit-api-openapi.yml
+  url: https://artifacts.apis.io/quietforge/openapi/quietforge-dataset-audit-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -70,7 +70,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource:\n- https://qf-api.quietforge-studio.workers.dev/.well-known/x402\n- https://qf-api.quietforge-studio.workers.dev/openapi.json\nsummary: No API key, account, OAuth or bearer token. Paid routes answer an unpaid request with HTTP 402 and a PAYMENT-REQUIRED\n  header (x402 v2); the caller pays per request in USDC on Base (eip155:8453) and retries. Free routes (GET /health, GET /.well-known/x402,\n  POST /v1/dataset-audit/preview, GET /v1/samples) and the MCP server need nothing.\nrequires_auth: true\npublic: true\nschemes:\n- name: x402\n  type: payment\n  applies_to:\n  - https://qf-api.quietforge-studio.workers.dev/v1/*\n  evidence: 'Live 2026-10-03: GET /v1/x402/services and POST /v1/sudoku without payment returned 402 with a payment-required\n    header (x402Version 2); a nonsense path returned 404. The OpenAPI declares no securitySchemes; prices are in each operation\n    x-payment-info.'\n- name: anonymous\n  type: none\n \
   \ applies_to:\n  - https://qf-api.quietforge-studio.workers.dev/mcp\n  - https://qf-api.quietforge-studio.workers.dev/v1/samples\n  - https://qf-api.quietforge-studio.workers.dev/v1/dataset-audit/preview\n  evidence: MCP initialize + tools/list succeeded with no credentials on 2026-10-03.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quietforge/refs/heads/main/authentication/quietforge-authentication.yml
+source_yaml_url: https://artifacts.apis.io/quietforge/authentication/quietforge-authentication.yml
 summary_line: 2 schemes
 tags:
 - Artificial Intelligence

@@ -16,7 +16,7 @@ source_filename: billiontoone-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nprobe: true\nsource: https://trust.billiontoone.com/\nurl: https://trust.billiontoone.com/\ncertifications:\n- SOC 2\n- HIPAA\nevidence:\n- source: https://trust.billiontoone.com/\n  keywords:\n  - soc 2\n  - hipaa\n  - trust center\n  - compliance certification\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/billiontoone/refs/heads/main/security/billiontoone-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/billiontoone/security/billiontoone-trust-center.yml
 summary_line: SOC 2, HIPAA
 tags:
 - Company

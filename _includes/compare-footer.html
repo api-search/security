@@ -1,0 +1,44 @@
+{%- comment -%}
+  compare-footer.html — the close of every /compare/ page: run-it-yourself (the Understanding
+  upsell), share links, the other comparisons, then the shared API / MCP / onboarding toolbar.
+  Params: tool, args_json (the MCP arguments), curl (the REST path, no host).
+{%- endcomment -%}
+{%- assign SC = site.data.compare_showcase -%}
+{%- assign share_url = page.url | prepend: site.url -%}
+{%- assign share_text = page.headline | default: page.title -%}
+
+{%- if include.tool -%}
+<div class="cmp-call" id="run-it">
+  <h2>Run this comparison yourself</h2>
+  <p>Everything above came from one call to <code>{{ include.tool }}</code>. Swap in any two {% if include.tool == 'compare_cohorts' %}tags, industries, regions, areas or VC portfolios{% else %}of the catalog's providers (three or more works too){% endif %} and you get the same answer for your own shortlist. It is an <strong>Understanding</strong> tool, included in the Understanding and Influence plans, or pay per call.</p>
+  <span class="cmp-sub">From any MCP client connected to <code>https://apis.io/mcp</code>:</span>
+  <pre><code>{"name": "{{ include.tool }}", "arguments": {{ include.args_json }}}</code></pre>
+  <span class="cmp-sub">Over the REST API:</span>
+  <pre><code>curl "https://apis.io/api/v1{{ include.curl }}" \
+  -H "X-API-Key: $APIS_IO_KEY"</code></pre>
+  <a class="cmp-cta" href="/developer/plans/">See the Understanding plan</a>
+  <a href="/developer/mcp-server/">Connect the MCP server &rarr;</a>
+</div>
+{%- endif -%}
+
+<div class="cmp-share" aria-label="Share this comparison">
+  <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ share_url | url_encode }}" target="_blank" rel="noopener">Share on LinkedIn</a>
+  <a href="https://bsky.app/intent/compose?text={{ share_text | append: ' ' | append: share_url | url_encode }}" target="_blank" rel="noopener">Share on Bluesky</a>
+  <a href="https://twitter.com/intent/tweet?text={{ share_text | url_encode }}&amp;url={{ share_url | url_encode }}" target="_blank" rel="noopener">Share on X</a>
+  <button type="button" onclick="navigator.clipboard&&navigator.clipboard.writeText('{{ share_url }}').then(()=>{this.textContent='Link copied'})">Copy link</button>
+</div>
+
+{%- if include.tool %}
+<h2 class="section-anchor" id="more"><a href="#more">More comparisons</a></h2>
+<div class="cmp-grid">
+  {%- for c in SC.providers -%}{%- unless c.id == page.compare_id -%}{%- if forloop.index0 < 7 -%}
+  {%- assign pa = c.result.providers[0] -%}{%- assign pb = c.result.providers[1] -%}
+  <a class="cmp-card" href="/compare/providers/{{ c.id }}/"><h3>{{ pa.name }} vs {{ pb.name }}</h3><p>{{ pa.composite }} vs {{ pb.composite }} &middot; compare_providers</p></a>
+  {%- endif -%}{%- endunless -%}{%- endfor -%}
+  {%- for c in SC.cohorts -%}{%- unless c.id == page.compare_id -%}{%- if forloop.index0 < 7 -%}
+  <a class="cmp-card" href="/compare/cohorts/{{ c.id }}/"><h3>{{ c.result.a.name }} vs {{ c.result.b.name }}</h3><p>{{ c.suns.a.score }} vs {{ c.suns.b.score }} average &middot; compare_cohorts</p></a>
+  {%- endif -%}{%- endunless -%}{%- endfor -%}
+</div>
+{%- endif %}
+
+{% include api-mcp.html %}

@@ -5,31 +5,31 @@ api_specs:
   label: WellSaid Labs Clips API
   slug: wellsaid-clips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/openapi/wellsaid-clips-api-openapi.yml
+  url: https://artifacts.apis.io/wellsaid/openapi/wellsaid-clips-api-openapi.yml
 - filename: wellsaid-pronunciation-api-openapi.yml
   format: yaml
   label: WellSaid Labs Pronunciation API
   slug: wellsaid-pronunciation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/openapi/wellsaid-pronunciation-api-openapi.yml
+  url: https://artifacts.apis.io/wellsaid/openapi/wellsaid-pronunciation-api-openapi.yml
 - filename: wellsaid-text-to-speech-api-openapi.yml
   format: yaml
   label: WellSaid Labs Text-to-Speech API
   slug: wellsaid-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/openapi/wellsaid-text-to-speech-api-openapi.yml
+  url: https://artifacts.apis.io/wellsaid/openapi/wellsaid-text-to-speech-api-openapi.yml
 - filename: wellsaid-voices-api-openapi.yml
   format: yaml
   label: WellSaid Labs Voices API
   slug: wellsaid-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/openapi/wellsaid-voices-api-openapi.yml
+  url: https://artifacts.apis.io/wellsaid/openapi/wellsaid-voices-api-openapi.yml
 - filename: wellsaid-voice-avatars-api-openapi.yml
   format: yaml
   label: WellSaid Labs Voice Avatars API
   slug: wellsaid-voice-avatars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/openapi/wellsaid-voice-avatars-api-openapi.yml
+  url: https://artifacts.apis.io/wellsaid/openapi/wellsaid-voice-avatars-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,12 +70,11 @@ source_filename: wellsaid-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: wellsaidlabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 04:26:58 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.wellsaidlabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 09:40:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.wellsaidlabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 14:22:14 2026 GMT\n  hsts: null\ndomains:\n- domain: wellsaidlabs.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/security/wellsaid-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wellsaid/security/wellsaid-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
 - Text-to-Speech
 - Voice
 - Audio
-- TTS
 ---

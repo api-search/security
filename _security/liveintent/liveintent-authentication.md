@@ -8,43 +8,43 @@ api_specs:
   label: LiveIntent API references API
   slug: liveintent-api-references-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/openapi/liveintent-api-references-api-openapi.yml
+  url: https://artifacts.apis.io/liveintent/openapi/liveintent-api-references-api-openapi.yml
 - filename: liveintent-audiences-api-openapi.yml
   format: yaml
   label: LiveIntent Audiences API
   slug: liveintent-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/openapi/liveintent-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/liveintent/openapi/liveintent-audiences-api-openapi.yml
 - filename: liveintent-eventtrackers-api-openapi.yml
   format: yaml
   label: LiveIntent Eventtrackers API
   slug: liveintent-eventtrackers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/openapi/liveintent-eventtrackers-api-openapi.yml
+  url: https://artifacts.apis.io/liveintent/openapi/liveintent-eventtrackers-api-openapi.yml
 - filename: liveintent-legacy-api-openapi.yml
   format: yaml
   label: LiveIntent Legacy API
   slug: liveintent-legacy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/openapi/liveintent-legacy-api-openapi.yml
+  url: https://artifacts.apis.io/liveintent/openapi/liveintent-legacy-api-openapi.yml
 - filename: liveintent-search-api-openapi.yml
   format: yaml
   label: LiveIntent Search API
   slug: liveintent-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/openapi/liveintent-search-api-openapi.yml
+  url: https://artifacts.apis.io/liveintent/openapi/liveintent-search-api-openapi.yml
 - filename: liveintent-trackers-api-openapi.yml
   format: yaml
   label: LiveIntent Trackers API
   slug: liveintent-trackers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/openapi/liveintent-trackers-api-openapi.yml
+  url: https://artifacts.apis.io/liveintent/openapi/liveintent-trackers-api-openapi.yml
 - filename: liveintent-urltrackers-api-openapi.yml
   format: yaml
   label: LiveIntent Urltrackers API
   slug: liveintent-urltrackers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/openapi/liveintent-urltrackers-api-openapi.yml
+  url: https://artifacts.apis.io/liveintent/openapi/liveintent-urltrackers-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: >-\n  openapi/l
   \ Bearer {token}'\n  token_issuance: >-\n    \"To get an access token, contact your account team at LiveIntent. Then use\n    the provided access token as a bearer token in the Authorization header\"\n    (privacy.liadm.com/api-guide, Authentication section). Tokens are issued by\n    a human, not by a token endpoint.\n  spec: openapi/liveintent-privacy-openapi.yml\n  authorization_model: >-\n    Account-category scoped rather than scope-scoped. A caller acts as a Media\n    Group (blanket over all child Publishers and Advertisers), a Publisher\n    (its publisherId plus related advertiserIds), an Advertiser (its\n    advertiserId only), or Global (authorized third-party agents submitting\n    industry-wide requests). The token carries the category; there is no\n    scope string.\n- api: Reporting API\n  scheme: http-bearer\n  location: header\n  header: 'Authorization: Bearer {token}'\n  token_endpoint: https://connect.liveintent.com/auth/login/\n  token_request: >-\n    POST /auth/login/\
   \ with application/json body {\"username\": \"...\",\n    \"password\": \"...\"} — a LiveIntent platform username and password pair.\n  token_response_fields: [token, username, userID, refreshToken]\n  token_lifetime: 12 hours\n  refresh: >-\n    A refreshToken is returned alongside the access token; the docs describe the\n    access token as revoked after 12 hours.\n  docs: https://support.liveintent.com/connecting-to-liveintents-reporting-api/\n  note: >-\n    LiveIntent's knowledge base calls this \"OAuth2\", but the documented flow is a\n    username/password login endpoint returning a bearer token — it is a\n    resource-owner-password-style login, not an RFC 6749 authorization server.\n    No authorize endpoint, no client_id, no scopes, and no discovery document\n    are published. Recorded here as observed rather than as the docs label it.\n  observed:\n    url: https://connect.liveintent.com/reporting/api/executeQuery\n    http_status: 401\n    body: Unauthorized\n    fetched:\
   \ '2026-08-12'\n- api: Programmatic Bidding API\n  scheme: none\n  note: >-\n    Server-to-server OpenRTB 2.5. LiveIntent is the exchange and sends bid\n    requests to a DSP-supplied bidding URL; the DSP does not authenticate to a\n    LiveIntent endpoint, so there is no client credential on this surface.\n  docs: https://support.liveintent.com/programmatic-bidding-api/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/authentication/liveintent-authentication.yml
+source_yaml_url: https://artifacts.apis.io/liveintent/authentication/liveintent-authentication.yml
 summary_line: apiKey/http · 1 scheme
 tags:
 - Company

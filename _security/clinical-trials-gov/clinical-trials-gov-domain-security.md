@@ -5,19 +5,19 @@ api_specs:
   label: ClinicalTrials.gov Stats API
   slug: clinical-trials-gov-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clinical-trials-gov/refs/heads/main/openapi/clinical-trials-gov-stats-api-openapi.yml
+  url: https://artifacts.apis.io/clinical-trials-gov/openapi/clinical-trials-gov-stats-api-openapi.yml
 - filename: clinical-trials-gov-studies-api-openapi.yml
   format: yaml
   label: ClinicalTrials.gov Studies API
   slug: clinical-trials-gov-studies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clinical-trials-gov/refs/heads/main/openapi/clinical-trials-gov-studies-api-openapi.yml
+  url: https://artifacts.apis.io/clinical-trials-gov/openapi/clinical-trials-gov-studies-api-openapi.yml
 - filename: clinical-trials-gov-version-api-openapi.yml
   format: yaml
   label: ClinicalTrials.gov Version API
   slug: clinical-trials-gov-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clinical-trials-gov/refs/heads/main/openapi/clinical-trials-gov-version-api-openapi.yml
+  url: https://artifacts.apis.io/clinical-trials-gov/openapi/clinical-trials-gov-version-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -61,7 +61,7 @@ source_filename: clinical-trials-gov-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: clinicaltrials.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 14:32:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: aact.ctti-clinicaltrials.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 19 08:13:55 2026 GMT\n  hsts: false\ndomains:\n- domain: clinicaltrials.gov\n  dnssec: true\n  caa:\n  - 0 issuewild \"godaddy.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"godaddy.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: ctti-clinicaltrials.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clinical-trials-gov/refs/heads/main/security/clinical-trials-gov-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/clinical-trials-gov/security/clinical-trials-gov-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Clinical Trials

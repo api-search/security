@@ -8,7 +8,7 @@ api_specs:
   label: PolygonScan PolygonScan API
   slug: polygonscan-polygonscan-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygonscan/refs/heads/main/openapi/polygonscan-polygonscan-api-api-openapi.yml
+  url: https://artifacts.apis.io/polygonscan/openapi/polygonscan-polygonscan-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: polygonscan-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: query\n  parameter: apikey\n  description: API key obtained from https://polygonscan.com/myapikey\n  sources:\n  - openapi/openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/polygonscan/refs/heads/main/authentication/polygonscan-authentication.yml
+source_yaml_url: https://artifacts.apis.io/polygonscan/authentication/polygonscan-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Blockchain

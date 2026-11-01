@@ -5,37 +5,49 @@ api_specs:
   label: Anrok Customer certificates API
   slug: anrok-customer-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/openapi/anrok-customer-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/anrok/openapi/anrok-customer-certificates-api-openapi.yml
 - filename: anrok-filings-api-openapi.yml
   format: yaml
   label: Anrok Filings API
   slug: anrok-filings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/openapi/anrok-filings-api-openapi.yml
+  url: https://artifacts.apis.io/anrok/openapi/anrok-filings-api-openapi.yml
 - filename: anrok-product-mappings-api-openapi.yml
   format: yaml
   label: Anrok Product mappings API
   slug: anrok-product-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/openapi/anrok-product-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/anrok/openapi/anrok-product-mappings-api-openapi.yml
 - filename: anrok-products-api-openapi.yml
   format: yaml
   label: Anrok Products API
   slug: anrok-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/openapi/anrok-products-api-openapi.yml
+  url: https://artifacts.apis.io/anrok/openapi/anrok-products-api-openapi.yml
 - filename: anrok-tax-id-validation-api-openapi.yml
   format: yaml
   label: Anrok Tax ID validation API
   slug: anrok-tax-id-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/openapi/anrok-tax-id-validation-api-openapi.yml
+  url: https://artifacts.apis.io/anrok/openapi/anrok-tax-id-validation-api-openapi.yml
 - filename: anrok-transactions-api-openapi.yml
   format: yaml
   label: Anrok Transactions API
   slug: anrok-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/openapi/anrok-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/anrok/openapi/anrok-transactions-api-openapi.yml
+- filename: anrok-address-resolution-api-openapi.yml
+  format: yaml
+  label: Anrok Address resolution API
+  slug: anrok-address-resolution-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anrok/openapi/anrok-address-resolution-api-openapi.yml
+- filename: anrok-customers-api-openapi.yml
+  format: yaml
+  label: Anrok Customers API
+  slug: anrok-customers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anrok/openapi/anrok-customers-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -54,7 +66,7 @@ source_filename: anrok-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.anrok.com/security\nurl: https://www.anrok.com/security\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://www.anrok.com/security\n  keywords:\n  - soc 2\n  - iso 27001\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/security/anrok-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/anrok/security/anrok-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Sales Tax

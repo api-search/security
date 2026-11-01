@@ -21,79 +21,79 @@ api_specs:
   label: Encharge Account API
   slug: encharge-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/openapi/encharge-account-api-openapi.yml
+  url: https://artifacts.apis.io/encharge/openapi/encharge-account-api-openapi.yml
 - filename: encharge-broadcasts-api-openapi.yml
   format: yaml
   label: Encharge Broadcasts API
   slug: encharge-broadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/openapi/encharge-broadcasts-api-openapi.yml
+  url: https://artifacts.apis.io/encharge/openapi/encharge-broadcasts-api-openapi.yml
 - filename: encharge-customobjectsschema-api-openapi.yml
   format: yaml
   label: Encharge Custom Objects Schema API
   slug: encharge-customobjectsschema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/openapi/encharge-customobjectsschema-api-openapi.yml
+  url: https://artifacts.apis.io/encharge/openapi/encharge-customobjectsschema-api-openapi.yml
 - filename: encharge-folders-api-openapi.yml
   format: yaml
   label: Encharge Folders API
   slug: encharge-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/openapi/encharge-folders-api-openapi.yml
+  url: https://artifacts.apis.io/encharge/openapi/encharge-folders-api-openapi.yml
 - filename: encharge-people-api-openapi.yml
   format: yaml
   label: Encharge People API
   slug: encharge-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/openapi/encharge-people-api-openapi.yml
+  url: https://artifacts.apis.io/encharge/openapi/encharge-people-api-openapi.yml
 - filename: encharge-personfields-api-openapi.yml
   format: yaml
   label: Encharge Person Fields API
   slug: encharge-personfields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/openapi/encharge-personfields-api-openapi.yml
+  url: https://artifacts.apis.io/encharge/openapi/encharge-personfields-api-openapi.yml
 - filename: encharge-segments-api-openapi.yml
   format: yaml
   label: Encharge Segments API
   slug: encharge-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/openapi/encharge-segments-api-openapi.yml
+  url: https://artifacts.apis.io/encharge/openapi/encharge-segments-api-openapi.yml
 - filename: encharge-settings-api-openapi.yml
   format: yaml
   label: Encharge Email Domain Settings API
   slug: encharge-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/openapi/encharge-settings-api-openapi.yml
+  url: https://artifacts.apis.io/encharge/openapi/encharge-settings-api-openapi.yml
 - filename: encharge-tags-api-openapi.yml
   format: yaml
   label: Encharge Tags API
   slug: encharge-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/openapi/encharge-tags-api-openapi.yml
+  url: https://artifacts.apis.io/encharge/openapi/encharge-tags-api-openapi.yml
 - filename: encharge-tags-management-api-openapi.yml
   format: yaml
   label: Encharge Tags Management API
   slug: encharge-tags-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/openapi/encharge-tags-management-api-openapi.yml
+  url: https://artifacts.apis.io/encharge/openapi/encharge-tags-management-api-openapi.yml
 - filename: encharge-webhooks-api-openapi.yml
   format: yaml
   label: Encharge Webhooks API
   slug: encharge-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/openapi/encharge-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/encharge/openapi/encharge-webhooks-api-openapi.yml
 - filename: encharge-custom-objects-api-openapi.yml
   format: yaml
   label: Encharge Custom Objects API
   slug: encharge-custom-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/openapi/encharge-custom-objects-api-openapi.yml
+  url: https://artifacts.apis.io/encharge/openapi/encharge-custom-objects-api-openapi.yml
 - filename: encharge-email-templates-api-openapi.yml
   format: yaml
   label: Encharge Email Templates API
   slug: encharge-email-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/openapi/encharge-email-templates-api-openapi.yml
+  url: https://artifacts.apis.io/encharge/openapi/encharge-email-templates-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -181,7 +181,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\ndocs:\n  - https://docs
   \  - openapi/encharge-personfields-api-openapi.yml\n  - openapi/encharge-segments-api-openapi.yml\n  - openapi/encharge-settings-api-openapi.yml\n  - openapi/encharge-tags-api-openapi.yml\n  - openapi/encharge-tags-management-api-openapi.yml\n  - openapi/encharge-webhooks-api-openapi.yml\n- name: apiKeyQuery\n  type: apiKey\n  in: query\n  parameter: token\n  description: \"You can use API key authentication if you are using the API for your Encharge\\\n    \\ account. \\n\\nIf you are building an app for others to use, please use the OAuth2 authentication\\\n    \\ below. Find your API key from https://app.encharge.io/account/info \\n\\n While all operations\\\n    \\ in the API specify oauth2 security, instead you can use an API key in the header or query\\\n    \\ string.\"\n  sources:\n  - openapi/encharge-account-api-openapi.yml\n  - openapi/encharge-broadcasts-api-openapi.yml\n  - openapi/encharge-customobjects-api-openapi.yml\n  - openapi/encharge-customobjectsschema-api-openapi.yml\n\
   \  - openapi/encharge-emailtemplates-api-openapi.yml\n  - openapi/encharge-folders-api-openapi.yml\n  - openapi/encharge-people-api-openapi.yml\n  - openapi/encharge-personfields-api-openapi.yml\n  - openapi/encharge-segments-api-openapi.yml\n  - openapi/encharge-settings-api-openapi.yml\n  - openapi/encharge-tags-api-openapi.yml\n  - openapi/encharge-tags-management-api-openapi.yml\n  - openapi/encharge-webhooks-api-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.encharge.io/v1/oauth/authorize\n    tokenUrl: https://api.encharge.io/v1/oauth/token\n    scopes: 0\n  description: \"The Encharge API uses OAuth 2 with the authorization code flow. \\n\\nGet for\\\n    \\ your OAuth credentials (Client ID and Client Secret) by filling out [this form](https://research.typeform.com/to/I680YtLA).\"\n  sources:\n  - openapi/encharge-account-api-openapi.yml\n  - openapi/encharge-broadcasts-api-openapi.yml\n  - openapi/encharge-customobjects-api-openapi.yml\n\
   \  - openapi/encharge-customobjectsschema-api-openapi.yml\n  - openapi/encharge-emailtemplates-api-openapi.yml\n  - openapi/encharge-folders-api-openapi.yml\n  - openapi/encharge-people-api-openapi.yml\n  - openapi/encharge-personfields-api-openapi.yml\n  - openapi/encharge-segments-api-openapi.yml\n  - openapi/encharge-settings-api-openapi.yml\n  - openapi/encharge-tags-api-openapi.yml\n  - openapi/encharge-tags-management-api-openapi.yml\n  - openapi/encharge-webhooks-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/authentication/encharge-authentication.yml
+source_yaml_url: https://artifacts.apis.io/encharge/authentication/encharge-authentication.yml
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - Email Marketing

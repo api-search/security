@@ -2,36 +2,84 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: algbra-account-access-api-openapi.yml
-  format: yaml
-  label: Algbra Account Access API
-  slug: algbra-account-access-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-account-access-api-openapi.yml
 - filename: algbra-accounts-api-openapi.yml
   format: yaml
   label: Algbra Accounts API
   slug: algbra-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-accounts-api-openapi.yml
-- filename: algbra-balances-api-openapi.yml
-  format: yaml
-  label: Algbra Balances API
-  slug: algbra-balances-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-balances-api-openapi.yml
-- filename: algbra-beneficiaries-api-openapi.yml
-  format: yaml
-  label: Algbra Beneficiaries API
-  slug: algbra-beneficiaries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/algbra/openapi/algbra-accounts-api-openapi.yml
 - filename: algbra-transactions-api-openapi.yml
   format: yaml
   label: Algbra Transactions API
   slug: algbra-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/algbra/openapi/algbra-transactions-api-openapi.yml
+- filename: algbra-automated-payments-api-openapi.yml
+  format: yaml
+  label: Algbra Automated Payments API
+  slug: algbra-automated-payments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/algbra/openapi/algbra-automated-payments-api-openapi.yml
+- filename: algbra-cards-api-openapi.yml
+  format: yaml
+  label: Algbra Cards API
+  slug: algbra-cards-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/algbra/openapi/algbra-cards-api-openapi.yml
+- filename: algbra-compliance-api-openapi.yml
+  format: yaml
+  label: Algbra Compliance API
+  slug: algbra-compliance-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/algbra/openapi/algbra-compliance-api-openapi.yml
+- filename: algbra-customers-api-openapi.yml
+  format: yaml
+  label: Algbra Customers API
+  slug: algbra-customers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/algbra/openapi/algbra-customers-api-openapi.yml
+- filename: algbra-investments-api-openapi.yml
+  format: yaml
+  label: Algbra Investments API
+  slug: algbra-investments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/algbra/openapi/algbra-investments-api-openapi.yml
+- filename: algbra-onboarding-prospects-business-api-openapi.yml
+  format: yaml
+  label: Algbra Onboarding Prospects - Business API
+  slug: algbra-onboarding-prospects-business-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/algbra/openapi/algbra-onboarding-prospects-business-api-openapi.yml
+- filename: algbra-onboarding-prospects-personal-api-openapi.yml
+  format: yaml
+  label: Algbra Onboarding Prospects - Personal API
+  slug: algbra-onboarding-prospects-personal-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/algbra/openapi/algbra-onboarding-prospects-personal-api-openapi.yml
+- filename: algbra-partner-api-openapi.yml
+  format: yaml
+  label: Algbra Partner API
+  slug: algbra-partner-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/algbra/openapi/algbra-partner-api-openapi.yml
+- filename: algbra-partners-api-openapi.yml
+  format: yaml
+  label: Algbra Partners API
+  slug: algbra-partners-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/algbra/openapi/algbra-partners-api-openapi.yml
+- filename: algbra-payment-simulations-api-openapi.yml
+  format: yaml
+  label: Algbra Payment Simulations API
+  slug: algbra-payment-simulations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/algbra/openapi/algbra-payment-simulations-api-openapi.yml
+- filename: algbra-payments-api-openapi.yml
+  format: yaml
+  label: Algbra Payments API
+  slug: algbra-payments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/algbra/openapi/algbra-payments-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -73,7 +121,7 @@ source_filename: algbra-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-23'\nmethod: derived\nsource: openapi/algbra-account-transaction-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: PSUOAuth2Security\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://secure.tell.systems/algbra/auth/oidc/authorize\n    tokenUrl: https://secure.tell.systems/algbra/auth/oidc/token\n    scopes: 1\n  description: OAuth flow, it is required when the PSU needs to perform SCA with the ASPSP when\n    a TPP wants to access an ASPSP resource owned by the PSU\n  sources:\n  - openapi/algbra-account-transaction-api-openapi.yml\n- name: TPPOAuth2Security\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://secure.tell.systems/algbra/auth/oidc/token\n    scopes: 1\n  description: TPP client credential authorisation flow with the ASPSP\n  sources:\n  - openapi/algbra-account-transaction-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/authentication/algbra-authentication.yml
+source_yaml_url: https://artifacts.apis.io/algbra/authentication/algbra-authentication.yml
 summary_line: oauth2 · 2 schemes
 tags:
 - Financial Services

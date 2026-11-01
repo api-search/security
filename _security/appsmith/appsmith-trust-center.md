@@ -5,19 +5,19 @@ api_specs:
   label: Appsmith Applications API
   slug: appsmith-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsmith/refs/heads/main/openapi/appsmith-applications-api-openapi.yml
+  url: https://artifacts.apis.io/appsmith/openapi/appsmith-applications-api-openapi.yml
 - filename: appsmith-workspaces-api-openapi.yml
   format: yaml
   label: Appsmith Workspaces API
   slug: appsmith-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsmith/refs/heads/main/openapi/appsmith-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/appsmith/openapi/appsmith-workspaces-api-openapi.yml
 - filename: appsmith-data-sources-api-openapi.yml
   format: yaml
   label: Appsmith Data Sources API
   slug: appsmith-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsmith/refs/heads/main/openapi/appsmith-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/appsmith/openapi/appsmith-data-sources-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2
@@ -34,7 +34,7 @@ source_filename: appsmith-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: searched\nprobe: true\nsource: https://security.appsmith.com/\nurl: https://security.appsmith.com/\ncertifications:\n- SOC 2\nevidence:\n- source: https://security.appsmith.com/\n  keywords:\n  - soc 2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appsmith/refs/heads/main/security/appsmith-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/appsmith/security/appsmith-trust-center.yml
 summary_line: SOC 2
 tags:
 - Low-Code

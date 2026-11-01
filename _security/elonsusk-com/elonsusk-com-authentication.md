@@ -7,73 +7,73 @@ api_specs:
   label: Artem / A2A Sandbox A2a API
   slug: elonsusk-com-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elonsusk-com/refs/heads/main/openapi/elonsusk-com-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/elonsusk-com/openapi/elonsusk-com-a2a-api-openapi.yml
 - filename: elonsusk-com-a2a-autonomous-trader-agent-api-openapi.yml
   format: yaml
   label: Artem / A2A Sandbox A2A Autonomous Trader Agent API
   slug: elonsusk-com-a2a-autonomous-trader-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elonsusk-com/refs/heads/main/openapi/elonsusk-com-a2a-autonomous-trader-agent-api-openapi.yml
+  url: https://artifacts.apis.io/elonsusk-com/openapi/elonsusk-com-a2a-autonomous-trader-agent-api-openapi.yml
 - filename: elonsusk-com-health-api-openapi.yml
   format: yaml
   label: Artem / A2A Sandbox Health API
   slug: elonsusk-com-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elonsusk-com/refs/heads/main/openapi/elonsusk-com-health-api-openapi.yml
+  url: https://artifacts.apis.io/elonsusk-com/openapi/elonsusk-com-health-api-openapi.yml
 - filename: elonsusk-com-healthz-api-openapi.yml
   format: yaml
   label: Artem / A2A Sandbox Healthz API
   slug: elonsusk-com-healthz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elonsusk-com/refs/heads/main/openapi/elonsusk-com-healthz-api-openapi.yml
+  url: https://artifacts.apis.io/elonsusk-com/openapi/elonsusk-com-healthz-api-openapi.yml
 - filename: elonsusk-com-healthz-earn-superteam-api-openapi.yml
   format: yaml
   label: Artem / A2A Sandbox Healthz.earn.superteam API
   slug: elonsusk-com-healthz-earn-superteam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elonsusk-com/refs/heads/main/openapi/elonsusk-com-healthz-earn-superteam-api-openapi.yml
+  url: https://artifacts.apis.io/elonsusk-com/openapi/elonsusk-com-healthz-earn-superteam-api-openapi.yml
 - filename: elonsusk-com-leads-api-openapi.yml
   format: yaml
   label: Artem / A2A Sandbox Leads API
   slug: elonsusk-com-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elonsusk-com/refs/heads/main/openapi/elonsusk-com-leads-api-openapi.yml
+  url: https://artifacts.apis.io/elonsusk-com/openapi/elonsusk-com-leads-api-openapi.yml
 - filename: elonsusk-com-metrics-api-openapi.yml
   format: yaml
   label: Artem / A2A Sandbox Metrics API
   slug: elonsusk-com-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elonsusk-com/refs/heads/main/openapi/elonsusk-com-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/elonsusk-com/openapi/elonsusk-com-metrics-api-openapi.yml
 - filename: elonsusk-com-payments-api-openapi.yml
   format: yaml
   label: Artem / A2A Sandbox Payments API
   slug: elonsusk-com-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elonsusk-com/refs/heads/main/openapi/elonsusk-com-payments-api-openapi.yml
+  url: https://artifacts.apis.io/elonsusk-com/openapi/elonsusk-com-payments-api-openapi.yml
 - filename: elonsusk-com-showcase-api-openapi.yml
   format: yaml
   label: Artem / A2A Sandbox Showcase API
   slug: elonsusk-com-showcase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elonsusk-com/refs/heads/main/openapi/elonsusk-com-showcase-api-openapi.yml
+  url: https://artifacts.apis.io/elonsusk-com/openapi/elonsusk-com-showcase-api-openapi.yml
 - filename: elonsusk-com-tasks-api-openapi.yml
   format: yaml
   label: Artem / A2A Sandbox Tasks API
   slug: elonsusk-com-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elonsusk-com/refs/heads/main/openapi/elonsusk-com-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/elonsusk-com/openapi/elonsusk-com-tasks-api-openapi.yml
 - filename: elonsusk-com-well-known-api-openapi.yml
   format: yaml
   label: Artem / A2A Sandbox .well Known API
   slug: elonsusk-com-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elonsusk-com/refs/heads/main/openapi/elonsusk-com-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/elonsusk-com/openapi/elonsusk-com-well-known-api-openapi.yml
 - filename: elonsusk-com-x402-api-openapi.yml
   format: yaml
   label: Artem / A2A Sandbox X402 API
   slug: elonsusk-com-x402-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elonsusk-com/refs/heads/main/openapi/elonsusk-com-x402-api-openapi.yml
+  url: https://artifacts.apis.io/elonsusk-com/openapi/elonsusk-com-x402-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://a2a.elo
   \ (USDC on Solana)', verification: solana_rpc}\n    facilitator: https://facilitator.payai.network\n    alternative: >-\n      accepts[].extra.note — \"Send USDC on Base to payTo, then retry with payload.tx_ref = the transaction\n      hash. Verified on-chain (receipt success, USDC contract, correct payee, amount >= price) and usable for\n      exactly one call.\" (invoiceBridge true, settlesRealFunds true)\n    observed: '2026-09-19 — POST https://a2a.elonsusk.com/x402/util.json.format returned 402 with the header and body above; amount \"2000\" for a $0.002 skill.'\n  - name: Quote-first crypto invoice\n    surface: POST /v1/tasks (create_task_v1_tasks_post) or A2A tasks/send on POST /a2a\n    flow: create task -> response carries quote {quote_usd, tokens_estimate, pricing} and invoice {amount_usd, asset, address, memo, expires_at, provider, status} -> pay any enabled method with memo = task id -> state moves payment_required -> paid -> working\n    methods: [SOL, USDC on Solana, ETH,\
   \ USDC on Ethereum, BTC]\n    confirmation: operator payment watcher (solana_rpc per /healthz) or checkout-provider webhook (NOWPayments, CoinGate via POST /v1/payments/webhook/{provider}); a manual fallback is declared in payment_notes.mode\n    source: agent card payment_methods, payment_notes, how_to_order\n  - name: Human lead intake\n    surface: POST /v1/leads (create_public_lead_v1_leads_post)\n    credential: none — contact string 3-240 chars, brief 12-8000 chars, optional budget_usd\n    note: The only channel that carries a human identity, and it is free text.\nopen_operations_of_note:\n- operation: list_tasks_v1_tasks_get\n  note: Returns every task in the queue with inputs, quotes, invoice addresses and memos, payment notes and results, to anyone. Not a documented feature; an observation.\n- operation: mark_paid_v1_tasks__task_id__mark_paid_post\n  note: Published in the public contract with no securityScheme. Whether the server verifies tx_ref before honouring it is not stated;\
   \ treat as operator-side.\n- operation: payment_webhook_v1_payments_webhook__provider__post\n  note: Inbound provider webhook with no declared signature verification scheme in the contract.\ntransport_security:\n  https: true\n  tls_version: TLSv1.2 (Cloudflare edge)\n  hsts: false\n  http_redirect: 301 to https on a2a.elonsusk.com\n  detail: security/elonsusk-com-domain-security.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elonsusk-com/refs/heads/main/authentication/elonsusk-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/elonsusk-com/authentication/elonsusk-com-authentication.yml
 summary_line: 0 schemes
 tags:
 - Agents

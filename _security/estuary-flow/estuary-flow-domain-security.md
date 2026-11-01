@@ -49,7 +49,7 @@ source_filename: estuary-flow-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: estuary.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 23:09:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.estuary.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 02:44:19 2026 GMT\n  hsts: false\n- host: agent-api-1084703453822.us-central1.run.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:04 2026 GMT\n  hsts: null\ndomains:\n- domain: estuary.dev\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: run.app\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/estuary-flow/refs/heads/main/security/estuary-flow-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/estuary-flow/security/estuary-flow-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data

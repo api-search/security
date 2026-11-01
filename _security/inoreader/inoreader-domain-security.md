@@ -5,19 +5,19 @@ api_specs:
   label: Inoreader Accounts API
   slug: inoreader-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inoreader/refs/heads/main/openapi/inoreader-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/inoreader/openapi/inoreader-accounts-api-openapi.yml
 - filename: inoreader-oauth2-api-openapi.yml
   format: yaml
   label: Inoreader Oauth2 API
   slug: inoreader-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inoreader/refs/heads/main/openapi/inoreader-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/inoreader/openapi/inoreader-oauth2-api-openapi.yml
 - filename: inoreader-reader-api-openapi.yml
   format: yaml
   label: Inoreader Reader API
   slug: inoreader-reader-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inoreader/refs/heads/main/openapi/inoreader-reader-api-openapi.yml
+  url: https://artifacts.apis.io/inoreader/openapi/inoreader-reader-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: inoreader-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: inoreader.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  5 09:08:50 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: www.inoreader.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  5 09:08:50 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: inoreader.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inoreader/refs/heads/main/security/inoreader-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/inoreader/security/inoreader-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

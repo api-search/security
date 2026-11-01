@@ -29,7 +29,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://doc.aurora.dev/\nsummary:\n  types: [none]\n  api_key_in: []\n  oauth2_flows: []\ndescription: >-\n  Aurora's public JSON-RPC endpoints (mainnet.aurora.dev and testnet.aurora.dev) are open and\n  require no API key or bearer token; access control is performed at the protocol layer by\n  cryptographic signing of transactions with an Ethereum-compatible private key (secp256k1),\n  exactly as on Ethereum. Read (eth_call, eth_getBalance, etc.) calls are unauthenticated; state\n  changes (eth_sendRawTransaction) require a client-signed transaction, not an HTTP credential.\n  Dedicated per-project RPC endpoints provisioned through Aurora Cloud may carry their own API key.\nschemes:\n- name: none-public-rpc\n  type: none\n  in: transaction-signature\n  description: >-\n    No HTTP authentication on shared public endpoints. Write operations are authorized by an\n    secp256k1-signed transaction submitted via eth_sendRawTransaction.\n\
   \  sources:\n  - https://mainnet.aurora.dev\n  - https://testnet.aurora.dev\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aurora/refs/heads/main/authentication/aurora-authentication.yml
+source_yaml_url: https://artifacts.apis.io/aurora/authentication/aurora-authentication.yml
 summary_line: none · 1 scheme
 tags:
 - Company

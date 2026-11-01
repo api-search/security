@@ -7,31 +7,31 @@ api_specs:
   label: Symantec Administrators API
   slug: symantec-administrators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symantec/refs/heads/main/openapi/symantec-administrators-api-openapi.yml
+  url: https://artifacts.apis.io/symantec/openapi/symantec-administrators-api-openapi.yml
 - filename: symantec-api-version-api-openapi.yml
   format: yaml
   label: Symantec API Version API
   slug: symantec-api-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symantec/refs/heads/main/openapi/symantec-api-version-api-openapi.yml
+  url: https://artifacts.apis.io/symantec/openapi/symantec-api-version-api-openapi.yml
 - filename: symantec-authentication-api-openapi.yml
   format: yaml
   label: Symantec Authentication API
   slug: symantec-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symantec/refs/heads/main/openapi/symantec-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/symantec/openapi/symantec-authentication-api-openapi.yml
 - filename: symantec-computers-api-openapi.yml
   format: yaml
   label: Symantec Computers API
   slug: symantec-computers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symantec/refs/heads/main/openapi/symantec-computers-api-openapi.yml
+  url: https://artifacts.apis.io/symantec/openapi/symantec-computers-api-openapi.yml
 - filename: symantec-groups-api-openapi.yml
   format: yaml
   label: Symantec Groups API
   slug: symantec-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symantec/refs/heads/main/openapi/symantec-groups-api-openapi.yml
+  url: https://artifacts.apis.io/symantec/openapi/symantec-groups-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: symantec-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/symantec-sepm-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token obtained from the /identity/authenticate endpoint\n  sources:\n  - openapi/symantec-sepm-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/symantec/refs/heads/main/authentication/symantec-authentication.yml
+source_yaml_url: https://artifacts.apis.io/symantec/authentication/symantec-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Broadcom

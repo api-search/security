@@ -5,31 +5,31 @@ api_specs:
   label: Aruba Access Points API
   slug: aruba-access-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aruba/refs/heads/main/openapi/aruba-access-points-api-openapi.yml
+  url: https://artifacts.apis.io/aruba/openapi/aruba-access-points-api-openapi.yml
 - filename: aruba-devices-api-openapi.yml
   format: yaml
   label: Aruba Devices API
   slug: aruba-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aruba/refs/heads/main/openapi/aruba-devices-api-openapi.yml
+  url: https://artifacts.apis.io/aruba/openapi/aruba-devices-api-openapi.yml
 - filename: aruba-groups-api-openapi.yml
   format: yaml
   label: Aruba Groups API
   slug: aruba-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aruba/refs/heads/main/openapi/aruba-groups-api-openapi.yml
+  url: https://artifacts.apis.io/aruba/openapi/aruba-groups-api-openapi.yml
 - filename: aruba-monitoring-api-openapi.yml
   format: yaml
   label: Aruba Monitoring API
   slug: aruba-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aruba/refs/heads/main/openapi/aruba-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/aruba/openapi/aruba-monitoring-api-openapi.yml
 - filename: aruba-sites-api-openapi.yml
   format: yaml
   label: Aruba Sites API
   slug: aruba-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aruba/refs/heads/main/openapi/aruba-sites-api-openapi.yml
+  url: https://artifacts.apis.io/aruba/openapi/aruba-sites-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -74,7 +74,7 @@ source_filename: aruba-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.arubanetworks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 04:50:11 2026 GMT\n  hsts: false\n- host: apigw-prod2.central.arubanetworks.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 13 23:59:59 2026 GMT\n  hsts: null\n- host: www.arubanetworks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: arubanetworks.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aruba/refs/heads/main/security/aruba-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aruba/security/aruba-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Cloud

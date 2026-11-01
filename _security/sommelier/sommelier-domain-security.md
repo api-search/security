@@ -5,19 +5,19 @@ api_specs:
   label: Sommelier Integrations API
   slug: sommelier-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sommelier/refs/heads/main/openapi/sommelier-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/sommelier/openapi/sommelier-integrations-api-openapi.yml
 - filename: sommelier-protocol-api-openapi.yml
   format: yaml
   label: Sommelier Protocol API
   slug: sommelier-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sommelier/refs/heads/main/openapi/sommelier-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/sommelier/openapi/sommelier-protocol-api-openapi.yml
 - filename: sommelier-vault-data-api-openapi.yml
   format: yaml
   label: Sommelier Vault Data API
   slug: sommelier-vault-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sommelier/refs/heads/main/openapi/sommelier-vault-data-api-openapi.yml
+  url: https://artifacts.apis.io/sommelier/openapi/sommelier-vault-data-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: sommelier-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sommelier.finance\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 17:59:30 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.sommelier.finance\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 18:11:39 2026 GMT\n  hsts: false\ndomains:\n- domain: sommelier.finance\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sommelier/refs/heads/main/security/sommelier-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sommelier/security/sommelier-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company

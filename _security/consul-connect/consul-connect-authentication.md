@@ -8,13 +8,13 @@ api_specs:
   label: Consul Connect CA API
   slug: consul-connect-ca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul-connect/refs/heads/main/openapi/consul-connect-ca-api-openapi.yml
+  url: https://artifacts.apis.io/consul-connect/openapi/consul-connect-ca-api-openapi.yml
 - filename: consul-connect-intentions-api-openapi.yml
   format: yaml
   label: Consul Connect Intentions API
   slug: consul-connect-intentions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul-connect/refs/heads/main/openapi/consul-connect-intentions-api-openapi.yml
+  url: https://artifacts.apis.io/consul-connect/openapi/consul-connect-intentions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -41,7 +41,7 @@ source_filename: consul-connect-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/consul-connect-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ConsulToken\n  type: apiKey\n  in: header\n  parameter: X-Consul-Token\n  sources:\n  - openapi/consul-connect-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/consul-connect/refs/heads/main/authentication/consul-connect-authentication.yml
+source_yaml_url: https://artifacts.apis.io/consul-connect/authentication/consul-connect-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Consul

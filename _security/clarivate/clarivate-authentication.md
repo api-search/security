@@ -8,367 +8,367 @@ api_specs:
   label: Clarivate Administration - User data API
   slug: clarivate-administration-user-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-administration-user-data-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-administration-user-data-api-openapi.yml
 - filename: clarivate-administration-user-delegations-api-openapi.yml
   format: yaml
   label: Clarivate Administration - User Delegations API
   slug: clarivate-administration-user-delegations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-administration-user-delegations-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-administration-user-delegations-api-openapi.yml
 - filename: clarivate-audit-info-api-openapi.yml
   format: yaml
   label: Clarivate Audit Info API
   slug: clarivate-audit-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-audit-info-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-audit-info-api-openapi.yml
 - filename: clarivate-cache-management-api-openapi.yml
   format: yaml
   label: Clarivate Cache Management API
   slug: clarivate-cache-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-cache-management-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-cache-management-api-openapi.yml
 - filename: clarivate-categories-api-openapi.yml
   format: yaml
   label: Clarivate Categories API
   slug: clarivate-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-categories-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-categories-api-openapi.yml
 - filename: clarivate-configuration-api-openapi.yml
   format: yaml
   label: Clarivate Configuration API
   slug: clarivate-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-configuration-api-openapi.yml
 - filename: clarivate-configuration-entity-definitions-api-openapi.yml
   format: yaml
   label: Clarivate Configuration - Entity definitions API
   slug: clarivate-configuration-entity-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-configuration-entity-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-configuration-entity-definitions-api-openapi.yml
 - filename: clarivate-configuration-link-entity-definitions-api-openapi.yml
   format: yaml
   label: Clarivate Configuration - Link entity definitions API
   slug: clarivate-configuration-link-entity-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-configuration-link-entity-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-configuration-link-entity-definitions-api-openapi.yml
 - filename: clarivate-data-entities-api-openapi.yml
   format: yaml
   label: Clarivate Data Entities API
   slug: clarivate-data-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-data-entities-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-data-entities-api-openapi.yml
 - filename: clarivate-data-entity-api-openapi.yml
   format: yaml
   label: Clarivate Data - Entity API
   slug: clarivate-data-entity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-data-entity-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-data-entity-api-openapi.yml
 - filename: clarivate-data-file-api-openapi.yml
   format: yaml
   label: Clarivate Data - File API
   slug: clarivate-data-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-data-file-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-data-file-api-openapi.yml
 - filename: clarivate-data-integration-api-openapi.yml
   format: yaml
   label: Clarivate Data Integration API
   slug: clarivate-data-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-data-integration-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-data-integration-api-openapi.yml
 - filename: clarivate-data-link-entity-api-openapi.yml
   format: yaml
   label: Clarivate Data - Link entity API
   slug: clarivate-data-link-entity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-data-link-entity-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-data-link-entity-api-openapi.yml
 - filename: clarivate-data-tree-api-openapi.yml
   format: yaml
   label: Clarivate Data - Tree API
   slug: clarivate-data-tree-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-data-tree-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-data-tree-api-openapi.yml
 - filename: clarivate-derwent-api-api-openapi.yml
   format: yaml
   label: Clarivate Derwent API
   slug: clarivate-derwent-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-derwent-api-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-derwent-api-api-openapi.yml
 - filename: clarivate-documents-api-openapi.yml
   format: yaml
   label: Clarivate Documents API
   slug: clarivate-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-documents-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-documents-api-openapi.yml
 - filename: clarivate-download-api-openapi.yml
   format: yaml
   label: Clarivate Download API
   slug: clarivate-download-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-download-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-download-api-openapi.yml
 - filename: clarivate-endnote-rest-api-api-openapi.yml
   format: yaml
   label: Clarivate EndNote REST API
   slug: clarivate-endnote-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-endnote-rest-api-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-endnote-rest-api-api-openapi.yml
 - filename: clarivate-feed-api-openapi.yml
   format: yaml
   label: Clarivate Feed API
   slug: clarivate-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-feed-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-feed-api-openapi.yml
 - filename: clarivate-history-api-openapi.yml
   format: yaml
   label: Clarivate History API
   slug: clarivate-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-history-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-history-api-openapi.yml
 - filename: clarivate-integration-api-api-openapi.yml
   format: yaml
   label: Clarivate Integration API
   slug: clarivate-integration-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-integration-api-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-integration-api-api-openapi.yml
 - filename: clarivate-integration-api-openapi.yml
   format: yaml
   label: Clarivate Integration API
   slug: clarivate-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-integration-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-integration-api-openapi.yml
 - filename: clarivate-ip-cases-api-openapi.yml
   format: yaml
   label: Clarivate IP Cases API
   slug: clarivate-ip-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-ip-cases-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-ip-cases-api-openapi.yml
 - filename: clarivate-journals-api-openapi.yml
   format: yaml
   label: Clarivate Journals API
   slug: clarivate-journals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-journals-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-journals-api-openapi.yml
 - filename: clarivate-json-api-openapi.yml
   format: yaml
   label: Clarivate JSON API
   slug: clarivate-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-json-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-json-api-openapi.yml
 - filename: clarivate-last-updated-api-openapi.yml
   format: yaml
   label: Clarivate Last Updated API
   slug: clarivate-last-updated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-last-updated-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-last-updated-api-openapi.yml
 - filename: clarivate-legacy-api-find-by-pattern-api-openapi.yml
   format: yaml
   label: 'Clarivate Legacy API: find By Pattern API'
   slug: clarivate-legacy-api-find-by-pattern-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-legacy-api-find-by-pattern-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-legacy-api-find-by-pattern-api-openapi.yml
 - filename: clarivate-legacy-api-get-info-object-api-openapi.yml
   format: yaml
   label: 'Clarivate Legacy API: get Info Object API'
   slug: clarivate-legacy-api-get-info-object-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-legacy-api-get-info-object-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-legacy-api-get-info-object-api-openapi.yml
 - filename: clarivate-legacy-api-get-legacy-api-version-api-openapi.yml
   format: yaml
   label: 'Clarivate Legacy API: get legacy api version API'
   slug: clarivate-legacy-api-get-legacy-api-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-legacy-api-get-legacy-api-version-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-legacy-api-get-legacy-api-version-api-openapi.yml
 - filename: clarivate-legacy-api-get-related-info-objects-api-openapi.yml
   format: yaml
   label: 'Clarivate Legacy API: get related info objects API'
   slug: clarivate-legacy-api-get-related-info-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-legacy-api-get-related-info-objects-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-legacy-api-get-related-info-objects-api-openapi.yml
 - filename: clarivate-legacy-api-get-using-pentaho-resource-api-openapi.yml
   format: yaml
   label: 'Clarivate Legacy API: get using pentaho resource API'
   slug: clarivate-legacy-api-get-using-pentaho-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-legacy-api-get-using-pentaho-resource-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-legacy-api-get-using-pentaho-resource-api-openapi.yml
 - filename: clarivate-link-entities-api-openapi.yml
   format: yaml
   label: Clarivate Link Entities API
   slug: clarivate-link-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-link-entities-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-link-entities-api-openapi.yml
 - filename: clarivate-lsh-ai-agent-api-openapi.yml
   format: yaml
   label: Clarivate LSH AI Agent API
   slug: clarivate-lsh-ai-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-lsh-ai-agent-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-lsh-ai-agent-api-openapi.yml
 - filename: clarivate-members-api-openapi.yml
   format: yaml
   label: Clarivate Members API
   slug: clarivate-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-members-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-members-api-openapi.yml
 - filename: clarivate-newapi-api-openapi.yml
   format: yaml
   label: Clarivate Newapi API
   slug: clarivate-newapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-newapi-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-newapi-api-openapi.yml
 - filename: clarivate-ontology-api-openapi.yml
   format: yaml
   label: Clarivate Ontology API
   slug: clarivate-ontology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-ontology-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-ontology-api-openapi.yml
 - filename: clarivate-patents-api-openapi.yml
   format: yaml
   label: Clarivate Patents API
   slug: clarivate-patents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-patents-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-patents-api-openapi.yml
 - filename: clarivate-prediction-api-openapi.yml
   format: yaml
   label: Clarivate Prediction API
   slug: clarivate-prediction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-prediction-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-prediction-api-openapi.yml
 - filename: clarivate-projects-api-openapi.yml
   format: yaml
   label: Clarivate Projects API
   slug: clarivate-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-projects-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-projects-api-openapi.yml
 - filename: clarivate-publications-sequences-api-openapi.yml
   format: yaml
   label: Clarivate Publications & Sequences API
   slug: clarivate-publications-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-publications-sequences-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-publications-sequences-api-openapi.yml
 - filename: clarivate-reference-api-openapi.yml
   format: yaml
   label: Clarivate Reference API
   slug: clarivate-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-reference-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-reference-api-openapi.yml
 - filename: clarivate-references-api-openapi.yml
   format: yaml
   label: Clarivate References API
   slug: clarivate-references-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-references-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-references-api-openapi.yml
 - filename: clarivate-reports-api-openapi.yml
   format: yaml
   label: Clarivate Reports API
   slug: clarivate-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-reports-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-reports-api-openapi.yml
 - filename: clarivate-researchers-api-openapi.yml
   format: yaml
   label: Clarivate Researchers API
   slug: clarivate-researchers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-researchers-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-researchers-api-openapi.yml
 - filename: clarivate-search-api-openapi.yml
   format: yaml
   label: Clarivate Search API
   slug: clarivate-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-search-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-search-api-openapi.yml
 - filename: clarivate-search-results-api-openapi.yml
   format: yaml
   label: Clarivate Search Results API
   slug: clarivate-search-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-search-results-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-search-results-api-openapi.yml
 - filename: clarivate-searches-antibody-api-openapi.yml
   format: yaml
   label: Clarivate Searches (Antibody) API
   slug: clarivate-searches-antibody-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-searches-antibody-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-searches-antibody-api-openapi.yml
 - filename: clarivate-searches-api-openapi.yml
   format: yaml
   label: Clarivate Searches API
   slug: clarivate-searches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-searches-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-searches-api-openapi.yml
 - filename: clarivate-searches-bestseq-api-openapi.yml
   format: yaml
   label: Clarivate Searches (BestSeq) API
   slug: clarivate-searches-bestseq-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-searches-bestseq-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-searches-bestseq-api-openapi.yml
 - filename: clarivate-searches-blast-sw-api-openapi.yml
   format: yaml
   label: Clarivate Searches (BLAST / SW) API
   slug: clarivate-searches-blast-sw-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-searches-blast-sw-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-searches-blast-sw-api-openapi.yml
 - filename: clarivate-searches-keyword-api-openapi.yml
   format: yaml
   label: Clarivate Searches (Keyword) API
   slug: clarivate-searches-keyword-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-searches-keyword-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-searches-keyword-api-openapi.yml
 - filename: clarivate-searches-modification-api-openapi.yml
   format: yaml
   label: Clarivate Searches (Modification) API
   slug: clarivate-searches-modification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-searches-modification-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-searches-modification-api-openapi.yml
 - filename: clarivate-searches-motif-api-openapi.yml
   format: yaml
   label: Clarivate Searches (Motif) API
   slug: clarivate-searches-motif-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-searches-motif-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-searches-motif-api-openapi.yml
 - filename: clarivate-session-info-api-openapi.yml
   format: yaml
   label: Clarivate Session Info API
   slug: clarivate-session-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-session-info-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-session-info-api-openapi.yml
 - filename: clarivate-status-api-openapi.yml
   format: yaml
   label: Clarivate Status API
   slug: clarivate-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-status-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-status-api-openapi.yml
 - filename: clarivate-trademarks-api-openapi.yml
   format: yaml
   label: Clarivate Trademarks API
   slug: clarivate-trademarks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-trademarks-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-trademarks-api-openapi.yml
 - filename: clarivate-user-space-api-openapi.yml
   format: yaml
   label: Clarivate User Space API
   slug: clarivate-user-space-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-user-space-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-user-space-api-openapi.yml
 - filename: clarivate-version-api-openapi.yml
   format: yaml
   label: Clarivate Version API
   slug: clarivate-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-version-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-version-api-openapi.yml
 - filename: clarivate-web-of-science-reviewer-locator-api-api-openapi.yml
   format: yaml
   label: Clarivate Web of Science Reviewer Locator API
   slug: clarivate-web-of-science-reviewer-locator-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-web-of-science-reviewer-locator-api-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-web-of-science-reviewer-locator-api-api-openapi.yml
 - filename: clarivate-xml-api-openapi.yml
   format: yaml
   label: Clarivate XML API
   slug: clarivate-xml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-xml-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-xml-api-openapi.yml
 - filename: clarivate-graph-ql-api-openapi.yml
   format: yaml
   label: Clarivate Graph QL API
   slug: clarivate-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/clarivate/openapi/clarivate-graph-ql-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -436,7 +436,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: https://develop
   \ token endpoint is provided by the API gateway, not by the backend API,\n      so the authorization call is identical regardless of which API is being called.\n      The help page also references OAuth2 Resource Owner Password Grant as a supported\n      gateway flow. NO OAuth SCOPES are published for any Clarivate API — see scopes/clarivate-scopes.yml.\nonboarding:\n  steps:\n  - Register on the Clarivate Developer Portal (https://developer.clarivate.com/).\n  - Register an application (https://developer.clarivate.com/help/application).\n  - Subscribe the application to a specific API and plan; most plans require approval.\n  - Receive the API key (or client id/secret) bound to that application.\n  approval_required: true\n  note: Only the Web of Science Starter API Free Trial Plan is obtainable without\n    a product subscription. Every other plan is entitled from the institution's contract\n    and approved by Clarivate.\nsummary:\n  types:\n  - apiKey\n  - http\n  - oauth2\n  api_key_in:\n\
   \  - header\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: key\n  type: apiKey\n  in: header\n  parameter: X-ApiKey\n  sources:\n  - openapi/clarivate-cddi-counter-five-openapi.json\n  - openapi/clarivate-cortellis-api-collection-openapi.json\n  - openapi/clarivate-dss-search-api-openapi.json\n  - openapi/clarivate-incites-openapi.json\n  - openapi/clarivate-ipdata-api-openapi.json\n  - openapi/clarivate-lsh-download-ext-client-openapi.json\n  - openapi/clarivate-patentmonitor-innography-openapi.json\n  - openapi/clarivate-reviewer-connect-openapi.json\n  - openapi/clarivate-ric-agent-hub-api-openapi.json\n  - openapi/clarivate-ric-ai-api-openapi.json\n  - openapi/clarivate-ric-download-api-openapi.json\n  - openapi/clarivate-ric-searchretrieve-api-openapi.json\n  - openapi/clarivate-sushi-api-openapi.json\n  - openapi/clarivate-twa-riskmark-integration-openapi.json\n  - openapi/clarivate-wos-journal-openapi.json\n  - openapi/clarivate-wos-openapi.json\n  - openapi/clarivate-wos-researcher-openapi.json\n\
   \  - openapi/clarivate-wos-starter-openapi.json\n  - openapi/clarivate-woslite-openapi.json\n  - openapi/clarivate-wosrl-api-openapi.json\n- name: BasicAuth\n  type: http\n  scheme: basic\n  description: The authentication information has to be provided by the client application\n    as Basic authentication header. This can be configured by an admin in Converis\n    under Configuration -> API Authentication Info.\n  sources:\n  - openapi/clarivate-converisreadapi-openapi.json\n- name: Log In, accessCode\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.clarivate.com/auth/steam/api/endnote/authorize\n    tokenUrl: https://api.clarivate.com/auth/steam/api/endnote/token\n    scopes: 0\n  sources:\n  - openapi/clarivate-endnote-openapi.json\ndocs_pages:\n  api_access: https://developer.clarivate.com/help/api-access\n  api_key_section: https://developer.clarivate.com/help/api-access#key_access\n  register_application: https://developer.clarivate.com/help/application\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/authentication/clarivate-authentication.yml
+source_yaml_url: https://artifacts.apis.io/clarivate/authentication/clarivate-authentication.yml
 summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Analytics

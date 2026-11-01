@@ -7,25 +7,25 @@ api_specs:
   label: Zoho Mail Accounts API
   slug: zoho-mail-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-mail/refs/heads/main/openapi/zoho-mail-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-mail/openapi/zoho-mail-accounts-api-openapi.yml
 - filename: zoho-mail-folders-api-openapi.yml
   format: yaml
   label: Zoho Mail Folders API
   slug: zoho-mail-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-mail/refs/heads/main/openapi/zoho-mail-folders-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-mail/openapi/zoho-mail-folders-api-openapi.yml
 - filename: zoho-mail-messages-api-openapi.yml
   format: yaml
   label: Zoho Mail Messages API
   slug: zoho-mail-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-mail/refs/heads/main/openapi/zoho-mail-messages-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-mail/openapi/zoho-mail-messages-api-openapi.yml
 - filename: zoho-mail-organization-api-openapi.yml
   format: yaml
   label: Zoho Mail Organization API
   slug: zoho-mail-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-mail/refs/heads/main/openapi/zoho-mail-organization-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-mail/openapi/zoho-mail-organization-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -56,7 +56,7 @@ source_filename: zoho-mail-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.json\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.zoho.com/oauth/v2/auth\n    tokenUrl: https://accounts.zoho.com/oauth/v2/token\n    scopes: 11\n  sources:\n  - openapi/openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-mail/refs/heads/main/authentication/zoho-mail-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zoho-mail/authentication/zoho-mail-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Email

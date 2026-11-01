@@ -27,7 +27,7 @@ source_filename: sight-diagnostics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sightdx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 01:52:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\ndomains:\n- domain: sightdx.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sight-diagnostics/refs/heads/main/security/sight-diagnostics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sight-diagnostics/security/sight-diagnostics-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

@@ -5,37 +5,37 @@ api_specs:
   label: Hebrew University of Jerusalem Courses API
   slug: hebrew-university-of-jerusalem-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/openapi/hebrew-university-of-jerusalem-courses-api-openapi.yml
+  url: https://artifacts.apis.io/hebrew-university-of-jerusalem/openapi/hebrew-university-of-jerusalem-courses-api-openapi.yml
 - filename: hebrew-university-of-jerusalem-organization-api-openapi.yml
   format: yaml
   label: Hebrew University of Jerusalem Organization API
   slug: hebrew-university-of-jerusalem-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/openapi/hebrew-university-of-jerusalem-organization-api-openapi.yml
+  url: https://artifacts.apis.io/hebrew-university-of-jerusalem/openapi/hebrew-university-of-jerusalem-organization-api-openapi.yml
 - filename: hebrew-university-of-jerusalem-reference-data-api-openapi.yml
   format: yaml
   label: Hebrew University of Jerusalem Reference Data API
   slug: hebrew-university-of-jerusalem-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/openapi/hebrew-university-of-jerusalem-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/hebrew-university-of-jerusalem/openapi/hebrew-university-of-jerusalem-reference-data-api-openapi.yml
 - filename: hebrew-university-of-jerusalem-service-api-openapi.yml
   format: yaml
   label: Hebrew University of Jerusalem Service API
   slug: hebrew-university-of-jerusalem-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/openapi/hebrew-university-of-jerusalem-service-api-openapi.yml
+  url: https://artifacts.apis.io/hebrew-university-of-jerusalem/openapi/hebrew-university-of-jerusalem-service-api-openapi.yml
 - filename: hebrew-university-of-jerusalem-specializations-api-openapi.yml
   format: yaml
   label: Hebrew University of Jerusalem Specializations API
   slug: hebrew-university-of-jerusalem-specializations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/openapi/hebrew-university-of-jerusalem-specializations-api-openapi.yml
+  url: https://artifacts.apis.io/hebrew-university-of-jerusalem/openapi/hebrew-university-of-jerusalem-specializations-api-openapi.yml
 - filename: hebrew-university-of-jerusalem-syllabus-api-openapi.yml
   format: yaml
   label: Hebrew University of Jerusalem Syllabus API
   slug: hebrew-university-of-jerusalem-syllabus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/openapi/hebrew-university-of-jerusalem-syllabus-api-openapi.yml
+  url: https://artifacts.apis.io/hebrew-university-of-jerusalem/openapi/hebrew-university-of-jerusalem-syllabus-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -76,7 +76,7 @@ source_filename: hebrew-university-of-jerusalem-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: en.huji.ac.il\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  9 14:47:50 2026 GMT\n  hsts: false\n- host: en.libraries.huji.ac.il\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  9 12:59:18 2026 GMT\n  hsts: false\n- host: scholars.huji.ac.il\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  9 14:47:50 2026 GMT\n  hsts: false\ndomains:\n- domain: huji.ac.il\n  dnssec: false\n  caa:\n  - 0 issuewild \"harica.gr\"\n  - 0 issue \"harica.gr\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/security/hebrew-university-of-jerusalem-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hebrew-university-of-jerusalem/security/hebrew-university-of-jerusalem-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - University

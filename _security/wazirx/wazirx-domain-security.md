@@ -5,49 +5,49 @@ api_specs:
   label: WazirX WebSocket API
   slug: wazirx-websocket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/openapi/wazirx-websocket-api-openapi.yml
+  url: https://artifacts.apis.io/wazirx/openapi/wazirx-websocket-api-openapi.yml
 - filename: wazirx-account-api-openapi.yml
   format: yaml
   label: WazirX Account API
   slug: wazirx-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/openapi/wazirx-account-api-openapi.yml
+  url: https://artifacts.apis.io/wazirx/openapi/wazirx-account-api-openapi.yml
 - filename: wazirx-general-api-openapi.yml
   format: yaml
   label: WazirX General API
   slug: wazirx-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/openapi/wazirx-general-api-openapi.yml
+  url: https://artifacts.apis.io/wazirx/openapi/wazirx-general-api-openapi.yml
 - filename: wazirx-market-data-api-openapi.yml
   format: yaml
   label: WazirX Market Data API
   slug: wazirx-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/openapi/wazirx-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/wazirx/openapi/wazirx-market-data-api-openapi.yml
 - filename: wazirx-sub-account-api-openapi.yml
   format: yaml
   label: WazirX Sub-Account API
   slug: wazirx-sub-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/openapi/wazirx-sub-account-api-openapi.yml
+  url: https://artifacts.apis.io/wazirx/openapi/wazirx-sub-account-api-openapi.yml
 - filename: wazirx-trading-api-openapi.yml
   format: yaml
   label: WazirX Trading API
   slug: wazirx-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/openapi/wazirx-trading-api-openapi.yml
+  url: https://artifacts.apis.io/wazirx/openapi/wazirx-trading-api-openapi.yml
 - filename: wazirx-wallet-api-openapi.yml
   format: yaml
   label: WazirX Wallet API
   slug: wazirx-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/openapi/wazirx-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/wazirx/openapi/wazirx-wallet-api-openapi.yml
 - filename: wazirx-websocket-api-openapi.yml
   format: yaml
   label: WazirX WebSocket API
   slug: wazirx-websocket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/openapi/wazirx-websocket-api-openapi.yml
+  url: https://artifacts.apis.io/wazirx/openapi/wazirx-websocket-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -87,7 +87,7 @@ source_filename: wazirx-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: wazirx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 21:59:26 2026 GMT\n  hsts: false\n- host: docs.wazirx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 21:51:37 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.wazirx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: wazirx.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/security/wazirx-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wazirx/security/wazirx-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cryptocurrency

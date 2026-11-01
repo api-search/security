@@ -5,19 +5,37 @@ api_specs:
   label: AlphaAI Calendar API
   slug: alphaai-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/openapi/alphaai-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/alphaai/openapi/alphaai-calendar-api-openapi.yml
 - filename: alphaai-news-api-openapi.yml
   format: yaml
   label: AlphaAI News API
   slug: alphaai-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/openapi/alphaai-news-api-openapi.yml
+  url: https://artifacts.apis.io/alphaai/openapi/alphaai-news-api-openapi.yml
 - filename: alphaai-symbols-api-openapi.yml
   format: yaml
   label: AlphaAI Symbols API
   slug: alphaai-symbols-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/openapi/alphaai-symbols-api-openapi.yml
+  url: https://artifacts.apis.io/alphaai/openapi/alphaai-symbols-api-openapi.yml
+- filename: alphaai-coverage-api-openapi.yml
+  format: yaml
+  label: AlphaAI Coverage API
+  slug: alphaai-coverage-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/alphaai/openapi/alphaai-coverage-api-openapi.yml
+- filename: alphaai-radar-api-openapi.yml
+  format: yaml
+  label: AlphaAI Radar API
+  slug: alphaai-radar-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/alphaai/openapi/alphaai-radar-api-openapi.yml
+- filename: alphaai-stories-api-openapi.yml
+  format: yaml
+  label: AlphaAI Stories API
+  slug: alphaai-stories-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/alphaai/openapi/alphaai-stories-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +88,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-11'\nmethod: probed\nsource: >-\n  probe-domain-security.py (DNS/TLS/HTTP HEAD against the apis.yml and OpenAPI\n  servers[] hosts), corrected by direct observation of live API responses on\n  2026-08-11 where the automated HEAD could not read a header.\nhosts:\n  - host: alphai.io\n    https: true\n    tls_version: TLSv1.3\n    cert_expires: Oct 19 23:59:59 2026 GMT\n    hsts: false\n    note: >-\n      Next.js behind CloudFront. Serves CSP frame-ancestors 'none' and\n      X-Frame-Options DENY, but no Strict-Transport-Security on the marketing\n      host — the one host most likely to be typed into a browser bar.\n  - host: api.alphai.io\n    https: true\n    tls_version: TLSv1.3\n    cert_expires: Feb 10 23:59:59 2027 GMT\n    hsts: true\n    hsts_max_age: 31536000\n    hsts_include_subdomains: true\n    hsts_preload: true\n    observed_on: 'GET /api/news/ (401 response), 2026-08-11'\n    note: >-\n      The automated HEAD probe returned null because\
   \ the API host root 404s\n      without emitting the header; a real API response does carry\n      \"strict-transport-security: max-age=31536000; includeSubDomains; preload\".\n      Corrected here from direct observation. The same responses carry\n      X-Content-Type-Options nosniff, X-Frame-Options DENY, Referrer-Policy\n      same-origin and Cross-Origin-Opener-Policy same-origin.\n  - host: mcp.alphai.io\n    https: true\n    tls_version: TLSv1.3\n    cert_expires: Feb 10 23:59:59 2027 GMT\n    hsts: null\n    note: Header not observed on the 401 challenge; not asserted either way.\n  - host: status.alphai.io\n    https: true\n    http_status: 200\n    note: Status page host, verified reachable 2026-08-11.\n\ndomains:\n  - domain: alphai.io\n    dnssec: false\n    caa: []\n    spf: true\n    spf_record: 'v=spf1 include:zohomail.com ~all'\n    dmarc: false\n    dmarc_policy: null\n\nfindings:\n  - >-\n    No DMARC record. With SPF set to a soft-fail (~all) and no DMARC policy, the\n\
   \    domain has no enforced anti-spoofing posture — and this provider sends\n    transactional email (alert digests, per-article alerts, webhook auto-disable\n    notices) from it. This is the most actionable item on the list.\n  - No CAA record, so any public CA may issue for the domain.\n  - DNSSEC is not enabled.\n  - >-\n    HSTS is present on the API host with a preload-eligible policy but absent on\n    the website host — the inverse of the usual pattern, and worth flagging\n    because the website is where the account dashboard and API-key issuance live.\n\nother_observations:\n  domain_verifications:\n    - postman-domain-verification (TXT) — corroborates the public Postman workspace\n    - smithery-verification (TXT) — a Smithery MCP registry claim; no live Smithery listing was found for this server on 2026-08-11\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/security/alphaai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/alphaai/security/alphaai-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Financial News

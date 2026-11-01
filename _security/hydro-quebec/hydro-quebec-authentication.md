@@ -9,13 +9,13 @@ api_specs:
   label: Hydro-Québec Catalog API
   slug: hydro-quebec-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/openapi/hydro-quebec-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/hydro-quebec/openapi/hydro-quebec-catalog-api-openapi.yml
 - filename: hydro-quebec-dataset-api-openapi.yml
   format: yaml
   label: Hydro-Québec Dataset API
   slug: hydro-quebec-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/openapi/hydro-quebec-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/hydro-quebec/openapi/hydro-quebec-dataset-api-openapi.yml
 auth_types:
 - none
 - apiKey
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: >-\n  openapi/h
   \  description: >-\n    The same API key supplied in the Authorization header. Documented by the platform as good\n    practice and the recommended form.\n  declared: false\n  preferred: true\n  sources: [https://help.opendatasoft.com/apis/ods-explore-v2/explore_v2.1.html]\n- name: oauth2\n  type: oauth2\n  description: >-\n    Platform OAuth2 authorization code flow for third-party applications acting on behalf of a\n    user, compliant with RFC 6749 and using Bearer tokens per RFC 6750.\n  declared: false\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://donnees.hydroquebec.com/oauth2/authorize/\n    tokenUrl: https://donnees.hydroquebec.com/oauth2/token/\n    scopes: [all]\n    scope_count: 1\n    verified: '2026-07-27'\n  sources: [https://help.opendatasoft.com/apis/ods-explore-v2/explore_v2.1.html]\n  detail: scopes/hydro-quebec-scopes.yml\nkey_management:\n  self_service: true\n  console: https://donnees.hydroquebec.com/account/\n  create_revoke: true\n  identity_model:\
   \ >-\n    A key authenticates as the user who created it and carries that user's rights, so keys are\n    personal and must not be shared. Finer-grained key permissions require the platform's API key\n    Automation API.\nunauthenticated_behaviour:\n  status_on_private_catalog: 401\n  status_on_hydro_quebec: 200\n  note: >-\n    The 401 Unauthorized declared on all 16 operations applies to private Opendatasoft portals.\n    The Hydro-Québec portal is public, so anonymous requests succeed and 401 is not reachable in\n    normal use.\ndiscovery:\n  openid_configuration: 404\n  oauth_authorization_server: 404\n  note: >-\n    Neither RFC 8414 nor OIDC discovery metadata is published, so the OAuth2 endpoints above must\n    be configured from documentation rather than discovered.\nconsumer_data:\n  customer_api: false\n  note: >-\n    There is no authentication path to an individual customer's own electricity consumption. No\n    customer-facing API, no Green Button Download My Data or Connect\
   \ My Data, and no third-party\n    consent flow exist. A customer's usage is reachable only by logging into the Espace client web\n    portal as themselves.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/authentication/hydro-quebec-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hydro-quebec/authentication/hydro-quebec-authentication.yml
 summary_line: none/apiKey/oauth2 · 3 schemes
 tags:
 - Energy

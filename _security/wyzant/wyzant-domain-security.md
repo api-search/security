@@ -5,13 +5,13 @@ api_specs:
   label: Wyzant Data Feed API
   slug: wyzant-data-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wyzant/refs/heads/main/openapi/wyzant-data-feed-api-openapi.yml
+  url: https://artifacts.apis.io/wyzant/openapi/wyzant-data-feed-api-openapi.yml
 - filename: wyzant-search-api-openapi.yml
   format: yaml
   label: Wyzant Search API
   slug: wyzant-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wyzant/refs/heads/main/openapi/wyzant-search-api-openapi.yml
+  url: https://artifacts.apis.io/wyzant/openapi/wyzant-search-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -56,7 +56,7 @@ source_filename: wyzant-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.wyzant.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 15:49:11 2026 GMT\n  hsts: false\n- host: support.wyzant.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 15:49:11 2026 GMT\n  hsts: false\n- host: data.wyzant.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 15:49:11 2026 GMT\n  hsts: false\ndomains:\n- domain: wyzant.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wyzant/refs/heads/main/security/wyzant-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wyzant/security/wyzant-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Tutoring

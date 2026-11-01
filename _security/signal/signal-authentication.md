@@ -7,55 +7,55 @@ api_specs:
   label: Signal Accounts API
   slug: signal-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/signal/openapi/signal-accounts-api-openapi.yml
 - filename: signal-attachments-api-openapi.yml
   format: yaml
   label: Signal Attachments API
   slug: signal-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/signal/openapi/signal-attachments-api-openapi.yml
 - filename: signal-certificates-api-openapi.yml
   format: yaml
   label: Signal Certificates API
   slug: signal-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/signal/openapi/signal-certificates-api-openapi.yml
 - filename: signal-devices-api-openapi.yml
   format: yaml
   label: Signal Devices API
   slug: signal-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-devices-api-openapi.yml
+  url: https://artifacts.apis.io/signal/openapi/signal-devices-api-openapi.yml
 - filename: signal-keys-api-openapi.yml
   format: yaml
   label: Signal Keys API
   slug: signal-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-keys-api-openapi.yml
+  url: https://artifacts.apis.io/signal/openapi/signal-keys-api-openapi.yml
 - filename: signal-messages-api-openapi.yml
   format: yaml
   label: Signal Messages API
   slug: signal-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-messages-api-openapi.yml
+  url: https://artifacts.apis.io/signal/openapi/signal-messages-api-openapi.yml
 - filename: signal-profiles-api-openapi.yml
   format: yaml
   label: Signal Profiles API
   slug: signal-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/signal/openapi/signal-profiles-api-openapi.yml
 - filename: signal-registration-api-openapi.yml
   format: yaml
   label: Signal Registration API
   slug: signal-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-registration-api-openapi.yml
+  url: https://artifacts.apis.io/signal/openapi/signal-registration-api-openapi.yml
 - filename: signal-stickers-api-openapi.yml
   format: yaml
   label: Signal Stickers API
   slug: signal-stickers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-stickers-api-openapi.yml
+  url: https://artifacts.apis.io/signal/openapi/signal-stickers-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -88,7 +88,7 @@ source_filename: signal-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/signal-server-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication using the account UUID (or phone number) and password.\n    The password is established during account registration.\n  sources:\n  - openapi/signal-server-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token authentication used for certain provisioning and registration flows.\n  sources:\n  - openapi/signal-server-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/authentication/signal-authentication.yml
+source_yaml_url: https://artifacts.apis.io/signal/authentication/signal-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Encryption

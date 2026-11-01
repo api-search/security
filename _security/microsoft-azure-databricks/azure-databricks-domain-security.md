@@ -5,19 +5,19 @@ api_specs:
   label: Azure Databricks Clusters API
   slug: microsoft-azure-databricks-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/openapi/microsoft-azure-databricks-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-databricks/openapi/microsoft-azure-databricks-clusters-api-openapi.yml
 - filename: microsoft-azure-databricks-jobs-api-openapi.yml
   format: yaml
   label: Azure Databricks Jobs API
   slug: microsoft-azure-databricks-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/openapi/microsoft-azure-databricks-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-databricks/openapi/microsoft-azure-databricks-jobs-api-openapi.yml
 - filename: microsoft-azure-databricks-workspace-api-openapi.yml
   format: yaml
   label: Azure Databricks Workspace API
   slug: microsoft-azure-databricks-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/openapi/microsoft-azure-databricks-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-databricks/openapi/microsoft-azure-databricks-workspace-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -58,7 +58,7 @@ source_filename: azure-databricks-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: learn.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 02:26:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: <databricks-instance>.azuredatabricks.net\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''<databricks'\n  hsts: null\ndomains:\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: azuredatabricks.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/security/azure-databricks-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-databricks/security/azure-databricks-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics

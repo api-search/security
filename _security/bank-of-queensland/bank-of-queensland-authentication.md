@@ -7,43 +7,43 @@ api_specs:
   label: Bank of Queensland Banking Account Balances API
   slug: bank-of-queensland-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/openapi/bank-of-queensland-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-queensland/openapi/bank-of-queensland-banking-account-balances-api-openapi.yml
 - filename: bank-of-queensland-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Bank of Queensland Banking Account Direct Debits API
   slug: bank-of-queensland-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/openapi/bank-of-queensland-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-queensland/openapi/bank-of-queensland-banking-account-direct-debits-api-openapi.yml
 - filename: bank-of-queensland-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Bank of Queensland Banking Account Scheduled Payments API
   slug: bank-of-queensland-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/openapi/bank-of-queensland-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-queensland/openapi/bank-of-queensland-banking-account-scheduled-payments-api-openapi.yml
 - filename: bank-of-queensland-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Bank of Queensland Banking Account Transactions API
   slug: bank-of-queensland-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/openapi/bank-of-queensland-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-queensland/openapi/bank-of-queensland-banking-account-transactions-api-openapi.yml
 - filename: bank-of-queensland-banking-accounts-api-openapi.yml
   format: yaml
   label: Bank of Queensland Banking Accounts API
   slug: bank-of-queensland-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/openapi/bank-of-queensland-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-queensland/openapi/bank-of-queensland-banking-accounts-api-openapi.yml
 - filename: bank-of-queensland-banking-payees-api-openapi.yml
   format: yaml
   label: Bank of Queensland Banking Payees API
   slug: bank-of-queensland-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/openapi/bank-of-queensland-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-queensland/openapi/bank-of-queensland-banking-payees-api-openapi.yml
 - filename: bank-of-queensland-banking-products-api-openapi.yml
   format: yaml
   label: Bank of Queensland Banking Products API
   slug: bank-of-queensland-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/openapi/bank-of-queensland-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-queensland/openapi/bank-of-queensland-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -90,7 +90,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: >-\n  https://www.boq.com.au/personal/help-and-support/forms-and-important-information/open-banking\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#security-profile\n# The harvested DSB CDS contract declares no securitySchemes (derive-authentication.py\n# returned an empty profile), so this profile is hand-authored from BOQ's public\n# CDR posture. It captures the two-tier CDR authorization model.\nsummary:\n  types: [none, oauth2, openIdConnect, mutualTLS]\n  public_prd_auth: none\n  consumer_data_auth: oauth2-oidc-fapi\nschemes:\n  - name: PublicProductReferenceData\n    type: none\n    applies_to: [listBankingProducts, getBankingProductDetail]\n    description: >-\n      The Product Reference Data (PRD) endpoints are unauthenticated by CDR\n      mandate - no API key, token, or client registration is required. Only the\n      mandatory x-v version header must be supplied. Confirmed live at\n      https://secure.api.boq.com.au/cds-au/v1/banking/products\
   \ (HTTP 200).\n  - name: CDRAccreditedDataRecipient\n    type: oauth2\n    scheme: authorizationCode\n    fapi_profile: FAPI 1.0 Advanced (Australia CDR security profile)\n    token_binding: mutualTLS (MTLS-bound access tokens)\n    consumer_authentication: OTP-based consumer authorization (CDR authentication flows)\n    applies_to:\n      - listBankingAccounts\n      - getBankingAccountDetail\n      - getBankingBalance\n      - listBankingTransactions\n      - getBankingTransactionDetail\n      - listBankingPayees\n      - listScheduledPayments\n      - listDirectDebits\n    description: >-\n      All consumer data sharing (accounts, balances, transactions, payees,\n      scheduled payments, direct debits) is gated behind the regulated CDR\n      Accredited Data Recipient model: OAuth2 authorization-code with OpenID\n      Connect, FAPI-grade security and MTLS-bound tokens. Access is restricted\n      to ACCC-accredited data recipients - not open to arbitrary developers.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/authentication/bank-of-queensland-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bank-of-queensland/authentication/bank-of-queensland-authentication.yml
 summary_line: none/oauth2/openIdConnect/mutualTLS · 2 schemes
 tags:
 - Finance

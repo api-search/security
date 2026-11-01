@@ -28,7 +28,7 @@ source_filename: lootex-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: lootex.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 11:15:34 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: lootex.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lootex/refs/heads/main/security/lootex-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lootex/security/lootex-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

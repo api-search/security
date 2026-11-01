@@ -8,37 +8,37 @@ api_specs:
   label: Southwest Power Pool Forecasting API
   slug: spp-forecasting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spp/refs/heads/main/openapi/spp-forecasting-api-openapi.yml
+  url: https://artifacts.apis.io/spp/openapi/spp-forecasting-api-openapi.yml
 - filename: spp-monitoring-sets-api-openapi.yml
   format: yaml
   label: Southwest Power Pool Monitoring Sets API
   slug: spp-monitoring-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spp/refs/heads/main/openapi/spp-monitoring-sets-api-openapi.yml
+  url: https://artifacts.apis.io/spp/openapi/spp-monitoring-sets-api-openapi.yml
 - filename: spp-seasonal-api-openapi.yml
   format: yaml
   label: Southwest Power Pool Seasonal API
   slug: spp-seasonal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spp/refs/heads/main/openapi/spp-seasonal-api-openapi.yml
+  url: https://artifacts.apis.io/spp/openapi/spp-seasonal-api-openapi.yml
 - filename: spp-seasonal-overrides-api-openapi.yml
   format: yaml
   label: Southwest Power Pool Seasonal Overrides API
   slug: spp-seasonal-overrides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spp/refs/heads/main/openapi/spp-seasonal-overrides-api-openapi.yml
+  url: https://artifacts.apis.io/spp/openapi/spp-seasonal-overrides-api-openapi.yml
 - filename: spp-temporary-aar-exceptions-api-openapi.yml
   format: yaml
   label: Southwest Power Pool Temporary AAR Exceptions API
   slug: spp-temporary-aar-exceptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spp/refs/heads/main/openapi/spp-temporary-aar-exceptions-api-openapi.yml
+  url: https://artifacts.apis.io/spp/openapi/spp-temporary-aar-exceptions-api-openapi.yml
 - filename: spp-realtime-api-openapi.yml
   format: yaml
   label: Southwest Power Pool Realtime API
   slug: spp-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spp/refs/heads/main/openapi/spp-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/spp/openapi/spp-realtime-api-openapi.yml
 auth_types:
 - none
 - apiKey
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: openapi/trolie-
   \ applications. SPP's System Interfaces Stakeholder\n    Reference Guide (v1.0, 2025-01-29) states most programmatic services require\n    two-factor authentication. The SPP LEP/TROLIE API Data Exchange Guide (v1.0,\n    2024-11-08) describes UAA authenticating the certificate and then looking up\n    the user's roles and scope per connection. Access is provisioned by a Local\n    Security Administrator and requested through an RMS ticket.\n  applies_to:\n  - spp:spp-lep-trolie-api\n  - spp:spp-integrated-marketplace-web-services\n  sources:\n  - https://www.spp.org/documents/18307/digital%20certificates%20and%20the%20integrated%20marketplace%20doc_final.pdf\n  - https://www.spp.org/documents/73131/spp%20system%20interfaces%20stakeholder%20reference%20guide%2020250129.pdf\n  - https://www.spp.org/documents/72496/spp%20lep%20api%20data%20exchange%20guide.pdf\n- name: oauth2-primary-flow\n  type: oauth2\n  standard_scheme: true\n  description: >-\n    Declared by the LF Energy TROLIE community\
   \ specification (the contract SPP's\n    LEP guide directs implementers to), not by an SPP-hosted authorization\n    server. clientCredentials flow with 15 read:/write: scopes and RFC 8725 JWT\n    token guidance. The spec's tokenUrl is relative to its placeholder server\n    host, so no real SPP token endpoint can be derived from it.\n  flows:\n  - flow: clientCredentials\n    tokenUrl: relative /oauth2 against the spec placeholder server (no SPP host published)\n    scopes: 15\n  applies_to: [spp:spp-lep-trolie-api]\n  sources: [openapi/trolie-standard-openapi.yml]\n  scopes_artifact: scopes/spp-scopes.yml\n- name: rms-openid-connect\n  type: openIdConnect\n  openIdConnectUrl: https://rms.spp.org/.well-known/openid-configuration\n  description: >-\n    OIDC discovery document served anonymously by SPP's Request Management\n    System (Salesforce Experience Cloud). issuer https://rms.spp.org, authorize\n    /services/oauth2/authorize, token /services/oauth2/token, jwks /id/keys,\n   \
   \ RS256, PKCE S256, dynamic client registration advertised. Governs access to\n    the ticketing system a stakeholder uses to request API access — it is not\n    the authorization server for any SPP data or market API.\n  evidence: well-known/spp-rms-openid-configuration.json\n  sources: [probe]\nnot_found:\n- API key issuance or developer key management of any kind\n- OAuth authorization server or OIDC discovery for any SPP data or market API\n- self-serve developer registration\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spp/refs/heads/main/authentication/spp-authentication.yml
+source_yaml_url: https://artifacts.apis.io/spp/authentication/spp-authentication.yml
 summary_line: none/apiKey/mutualTLS/oauth2/openIdConnect · 5 schemes
 tags:
 - Energy

@@ -9,13 +9,13 @@ api_specs:
   label: aPriori Agent API
   slug: apriori-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apriori/refs/heads/main/openapi/apriori-agent-api-openapi.yml
+  url: https://artifacts.apis.io/apriori/openapi/apriori-agent-api-openapi.yml
 - filename: apriori-workflow-api-openapi.yml
   format: yaml
   label: aPriori Workflow API
   slug: apriori-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apriori/refs/heads/main/openapi/apriori-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/apriori/openapi/apriori-workflow-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-08-06'\nmethod: searched\nsource: openapi/apriori
   \    Agent installation. The certificate must be obtained from aPriori Support before install.\n    install_modes:\n      supported: [Setup Wizard, console (-c)]\n      unsupported: [unattended (-q)]\n    replaces: IP allowlisting of the Agent host\n    rationale_published: >-\n      \"This is increasingly important for organizations who may be unable to guarantee static IP addresses.\"\n    source: https://docs.apriori.com/en/Connect/apc/rn/release-notes/\n  certificates:\n    jdk_import_required: true\n    note: >-\n      aPriori documents importing Java Developer Kit certificates and obtaining a signed certificate as part\n      of Agent installation.\n    source: https://docs.apriori.com/en/Connect/apc/ig/Importing-Java-Developer-Kit-Certificates/\napplication_sso:\n  scope: aPriori Cloud application sign-in — NOT the API\n  provider: Auth0\n  detail: >-\n    aPriori's security page states that single sign-on runs through a dedicated Auth0 production tenant with\n    SAML integration\
   \ to customer identity providers. This governs human login to aPriori Cloud\n    (https://cloud.apriori.net/), not machine access to the Agent API.\n  source: https://www.apriori.com/security/\n  instructions: https://www.apriori.com/sso-instructions-page/\nnot_published:\n- No OAuth 2.0 flow, authorization server, token endpoint or scope model for the API.\n- No /.well-known/openid-configuration or /.well-known/oauth-authorization-server on any host (probed; see well-known/apriori-well-known.yml).\n- No key rotation, expiry or revocation policy for the JWT or the shared secret.\n- No self-serve credential issuance. Access to the API follows a paid deployment; aPriori recommends an aPriori System Services engagement for leveraging it on a file-system deployment.\nx-evidence:\n  fetched: '2026-08-06'\n  sources:\n  - url: https://docs.apriori.com/en/Connect/apc/rarg/Security/\n    http_status: 200\n  - url: https://docs.apriori.com/en/Connect/apc/sag/REST-API-Management-Responsibilities/\n\
   \    http_status: 200\n  - url: https://docs.apriori.com/en/Connect/apc/rn/release-notes/\n    http_status: 200\n  - url: https://www.apriori.com/security/\n    http_status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apriori/refs/heads/main/authentication/apriori-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apriori/authentication/apriori-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company

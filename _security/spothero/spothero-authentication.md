@@ -8,31 +8,31 @@ api_specs:
   label: SpotHero Availability API
   slug: spothero-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spothero/refs/heads/main/openapi/spothero-availability-api-openapi.yml
+  url: https://artifacts.apis.io/spothero/openapi/spothero-availability-api-openapi.yml
 - filename: spothero-facilities-api-openapi.yml
   format: yaml
   label: SpotHero Facilities API
   slug: spothero-facilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spothero/refs/heads/main/openapi/spothero-facilities-api-openapi.yml
+  url: https://artifacts.apis.io/spothero/openapi/spothero-facilities-api-openapi.yml
 - filename: spothero-rates-api-openapi.yml
   format: yaml
   label: SpotHero Rates API
   slug: spothero-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spothero/refs/heads/main/openapi/spothero-rates-api-openapi.yml
+  url: https://artifacts.apis.io/spothero/openapi/spothero-rates-api-openapi.yml
 - filename: spothero-reservations-api-openapi.yml
   format: yaml
   label: SpotHero Reservations API
   slug: spothero-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spothero/refs/heads/main/openapi/spothero-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/spothero/openapi/spothero-reservations-api-openapi.yml
 - filename: spothero-search-api-openapi.yml
   format: yaml
   label: SpotHero Search API
   slug: spothero-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spothero/refs/heads/main/openapi/spothero-search-api-openapi.yml
+  url: https://artifacts.apis.io/spothero/openapi/spothero-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: spothero-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/spothero-parking-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: Partner API key issued by SpotHero\n  sources:\n  - openapi/spothero-parking-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spothero/refs/heads/main/authentication/spothero-authentication.yml
+source_yaml_url: https://artifacts.apis.io/spothero/authentication/spothero-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Parking

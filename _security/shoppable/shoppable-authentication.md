@@ -8,37 +8,37 @@ api_specs:
   label: Shoppable Catalog API
   slug: shoppable-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/openapi/shoppable-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/shoppable/openapi/shoppable-catalog-api-openapi.yml
 - filename: shoppable-checkout-api-openapi.yml
   format: yaml
   label: Shoppable Checkout API
   slug: shoppable-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/openapi/shoppable-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/shoppable/openapi/shoppable-checkout-api-openapi.yml
 - filename: shoppable-merchants-api-openapi.yml
   format: yaml
   label: Shoppable Merchants API
   slug: shoppable-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/openapi/shoppable-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/shoppable/openapi/shoppable-merchants-api-openapi.yml
 - filename: shoppable-orderdata-api-openapi.yml
   format: yaml
   label: Shoppable OrderData API
   slug: shoppable-orderdata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/openapi/shoppable-orderdata-api-openapi.yml
+  url: https://artifacts.apis.io/shoppable/openapi/shoppable-orderdata-api-openapi.yml
 - filename: shoppable-orders-api-openapi.yml
   format: yaml
   label: Shoppable Orders API
   slug: shoppable-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/openapi/shoppable-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shoppable/openapi/shoppable-orders-api-openapi.yml
 - filename: shoppable-products-api-openapi.yml
   format: yaml
   label: Shoppable Products API
   slug: shoppable-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/openapi/shoppable-products-api-openapi.yml
+  url: https://artifacts.apis.io/shoppable/openapi/shoppable-products-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -108,7 +108,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/shoppable-cloud-openapi-original.yml\ndocs: https://about.shoppable.com/help/setup-developer-documentation\nmodel: >-\n  Dual-header auth. Every request must send both Authorization: Bearer <token>\n  and x-shoppable-secret: <secret>. Both credentials are issued by your\n  Shoppable Customer Success Manager. No OAuth / OpenID Connect.\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: Bearer\n  type: http\n  scheme: bearer\n  description: |-\n    Token provided by your Customer Success Manager\n\n    **For Internal Endpoints (/internal/*):**\n    ```\n    Kolu72V3T3eFplHNe66e8aef90aba018\n    ```\n\n    **For Regular API Endpoints (default test customer):**\n    ```\n    U2FsdGVkX192JseAYpgNqMvh5tRQJwAfc4xoA5PKFiXbgWqH2FGD4obxczwL4EEgrj4jVCDxrAblAy3b2W/SK1R3jCWtwQ1fyqQvhfdZGUoXktXwz0tpYfi0I7bVsvQil4D1TeqirpzX66lZ467EFDogCwlWBkoEuhFZNHNnYoQW2LT3Mr5GMIdfBgIcvx6QrtE24Q5pnIBzBDY4\n \
   \ sources:\n  - openapi/shoppable-cloud-openapi-original.yml\n- name: Secret\n  type: apiKey\n  in: header\n  parameter: x-shoppable-secret\n  description: |-\n    Authorization header provided by your Customer Success Manager\n\n    **For Internal Endpoints (/internal/*):**\n    ```\n    40ba20012ddf314e43234ee53b4b20f2\n    ```\n\n    **For Regular API Endpoints:**\n    ```\n    test_secret_12345678901234567890\n    ```\n  sources:\n  - openapi/shoppable-cloud-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/authentication/shoppable-authentication.yml
+source_yaml_url: https://artifacts.apis.io/shoppable/authentication/shoppable-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

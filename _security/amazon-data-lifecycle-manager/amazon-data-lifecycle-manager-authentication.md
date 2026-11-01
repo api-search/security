@@ -8,13 +8,13 @@ api_specs:
   label: Amazon Data Lifecycle Manager Lifecycle Policies API
   slug: amazon-data-lifecycle-manager-lifecycle-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-lifecycle-manager/refs/heads/main/openapi/amazon-data-lifecycle-manager-lifecycle-policies-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-data-lifecycle-manager/openapi/amazon-data-lifecycle-manager-lifecycle-policies-api-openapi.yml
 - filename: amazon-data-lifecycle-manager-tags-api-openapi.yml
   format: yaml
   label: Amazon Data Lifecycle Manager Tags API
   slug: amazon-data-lifecycle-manager-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-lifecycle-manager/refs/heads/main/openapi/amazon-data-lifecycle-manager-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-data-lifecycle-manager/openapi/amazon-data-lifecycle-manager-tags-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: amazon-data-lifecycle-manager-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-data-lifecycle-manager-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: awsSignatureV4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4 authentication\n  sources:\n  - openapi/amazon-data-lifecycle-manager-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-data-lifecycle-manager/refs/heads/main/authentication/amazon-data-lifecycle-manager-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-data-lifecycle-manager/authentication/amazon-data-lifecycle-manager-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Backup

@@ -7,181 +7,181 @@ api_specs:
   label: Northmill Accounting Settings API
   slug: northmill-accountingsettings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-accountingsettings-api-openapi.yml
+  url: https://artifacts.apis.io/northmill/openapi/northmill-accountingsettings-api-openapi.yml
 - filename: northmill-articles-api-openapi.yml
   format: yaml
   label: Northmill Articles API
   slug: northmill-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-articles-api-openapi.yml
+  url: https://artifacts.apis.io/northmill/openapi/northmill-articles-api-openapi.yml
 - filename: northmill-articlesavailability-api-openapi.yml
   format: yaml
   label: Northmill Articles Availability API
   slug: northmill-articlesavailability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-articlesavailability-api-openapi.yml
+  url: https://artifacts.apis.io/northmill/openapi/northmill-articlesavailability-api-openapi.yml
 - filename: northmill-articlesets-api-openapi.yml
   format: yaml
   label: Northmill Article Sets API
   slug: northmill-articlesets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-articlesets-api-openapi.yml
+  url: https://artifacts.apis.io/northmill/openapi/northmill-articlesets-api-openapi.yml
 - filename: northmill-bookableresourceeventinstances-api-openapi.yml
   format: yaml
   label: Northmill Bookable Resource Event Instances API
   slug: northmill-bookableresourceeventinstances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-bookableresourceeventinstances-api-openapi.yml
+  url: https://artifacts.apis.io/northmill/openapi/northmill-bookableresourceeventinstances-api-openapi.yml
 - filename: northmill-bookableresources-api-openapi.yml
   format: yaml
   label: Northmill Bookable Resources API
   slug: northmill-bookableresources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-bookableresources-api-openapi.yml
+  url: https://artifacts.apis.io/northmill/openapi/northmill-bookableresources-api-openapi.yml
 - filename: northmill-bookingorders-api-openapi.yml
   format: yaml
   label: Northmill Booking Orders API
   slug: northmill-bookingorders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-bookingorders-api-openapi.yml
+  url: https://artifacts.apis.io/northmill/openapi/northmill-bookingorders-api-openapi.yml
 - filename: northmill-brands-api-openapi.yml
   format: yaml
   label: Northmill Brands API
   slug: northmill-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-brands-api-openapi.yml
+  url: https://artifacts.apis.io/northmill/openapi/northmill-brands-api-openapi.yml
 - filename: northmill-campaigns-api-openapi.yml
   format: yaml
   label: Northmill Campaigns API
   slug: northmill-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/northmill/openapi/northmill-campaigns-api-openapi.yml
 - filename: northmill-cashcards-api-openapi.yml
   format: yaml
   label: Northmill Cash Cards API
   slug: northmill-cashcards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-cashcards-api-openapi.yml
+  url: https://artifacts.apis.io/northmill/openapi/northmill-cashcards-api-openapi.yml
 - filename: northmill-cashierusers-api-openapi.yml
   format: yaml
   label: Northmill Cashier Users API
   slug: northmill-cashierusers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-cashierusers-api-openapi.yml
+  url: https://artifacts.apis.io/northmill/openapi/northmill-cashierusers-api-openapi.yml
 - filename: northmill-customers-api-openapi.yml
   format: yaml
   label: Northmill Customers API
   slug: northmill-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-customers-api-openapi.yml
+  url: https://artifacts.apis.io/northmill/openapi/northmill-customers-api-openapi.yml
 - filename: northmill-groups-api-openapi.yml
   format: yaml
   label: Northmill Groups API
   slug: northmill-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-groups-api-openapi.yml
+  url: https://artifacts.apis.io/northmill/openapi/northmill-groups-api-openapi.yml
 - filename: northmill-health-api-openapi.yml
   format: yaml
   label: Northmill Health API
   slug: northmill-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-health-api-openapi.yml
+  url: https://artifacts.apis.io/northmill/openapi/northmill-health-api-openapi.yml
 - filename: northmill-locations-api-openapi.yml
   format: yaml
   label: Northmill Locations API
   slug: northmill-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-locations-api-openapi.yml
+  url: https://artifacts.apis.io/northmill/openapi/northmill-locations-api-openapi.yml
 - filename: northmill-onlinesolutions-api-openapi.yml
   format: yaml
   label: Northmill Online Solutions API
   slug: northmill-onlinesolutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-onlinesolutions-api-openapi.yml
+  url: https://artifacts.apis.io/northmill/openapi/northmill-onlinesolutions-api-openapi.yml
 - filename: northmill-orders-api-openapi.yml
   format: yaml
   label: Northmill Orders API
   slug: northmill-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-orders-api-openapi.yml
+  url: https://artifacts.apis.io/northmill/openapi/northmill-orders-api-openapi.yml
 - filename: northmill-ordersv3-api-openapi.yml
   format: yaml
   label: Northmill Orders V3 API
   slug: northmill-ordersv3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-ordersv3-api-openapi.yml
+  url: https://artifacts.apis.io/northmill/openapi/northmill-ordersv3-api-openapi.yml
 - filename: northmill-receipts-api-openapi.yml
   format: yaml
   label: Northmill Receipts API
   slug: northmill-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/northmill/openapi/northmill-receipts-api-openapi.yml
 - filename: northmill-sales-api-openapi.yml
   format: yaml
   label: Northmill Sales API
   slug: northmill-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-sales-api-openapi.yml
+  url: https://artifacts.apis.io/northmill/openapi/northmill-sales-api-openapi.yml
 - filename: northmill-settings-api-openapi.yml
   format: yaml
   label: Northmill Settings API
   slug: northmill-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-settings-api-openapi.yml
+  url: https://artifacts.apis.io/northmill/openapi/northmill-settings-api-openapi.yml
 - filename: northmill-sms-api-openapi.yml
   format: yaml
   label: Northmill Sms API
   slug: northmill-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-sms-api-openapi.yml
+  url: https://artifacts.apis.io/northmill/openapi/northmill-sms-api-openapi.yml
 - filename: northmill-stores-api-openapi.yml
   format: yaml
   label: Northmill Stores API
   slug: northmill-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-stores-api-openapi.yml
+  url: https://artifacts.apis.io/northmill/openapi/northmill-stores-api-openapi.yml
 - filename: northmill-suppliers-api-openapi.yml
   format: yaml
   label: Northmill Suppliers API
   slug: northmill-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/northmill/openapi/northmill-suppliers-api-openapi.yml
 - filename: northmill-ticketorders-api-openapi.yml
   format: yaml
   label: Northmill Ticket Orders API
   slug: northmill-ticketorders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-ticketorders-api-openapi.yml
+  url: https://artifacts.apis.io/northmill/openapi/northmill-ticketorders-api-openapi.yml
 - filename: northmill-vouchers-api-openapi.yml
   format: yaml
   label: Northmill Vouchers API
   slug: northmill-vouchers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-vouchers-api-openapi.yml
+  url: https://artifacts.apis.io/northmill/openapi/northmill-vouchers-api-openapi.yml
 - filename: northmill-webhookcategories-api-openapi.yml
   format: yaml
   label: Northmill Web Hook Categories API
   slug: northmill-webhookcategories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-webhookcategories-api-openapi.yml
+  url: https://artifacts.apis.io/northmill/openapi/northmill-webhookcategories-api-openapi.yml
 - filename: northmill-webhooks-api-openapi.yml
   format: yaml
   label: Northmill Web Hooks API
   slug: northmill-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/northmill/openapi/northmill-webhooks-api-openapi.yml
 - filename: northmill-account-codes-api-openapi.yml
   format: yaml
   label: Northmill Account Codes API
   slug: northmill-account-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-account-codes-api-openapi.yml
+  url: https://artifacts.apis.io/northmill/openapi/northmill-account-codes-api-openapi.yml
 - filename: northmill-service-orders-api-openapi.yml
   format: yaml
   label: Northmill Service Orders API
   slug: northmill-service-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-service-orders-api-openapi.yml
+  url: https://artifacts.apis.io/northmill/openapi/northmill-service-orders-api-openapi.yml
 auth_types:
 - http
 description: Two surfaces, two authentication models. The Flo commerce API is HTTP Basic and nothing else. The PSD2 TPP interface is request-signing with an asymmetric key pair the TPP registers in the Northmill Bank Dashboard, carried on an Authorization header in either a Token (Basic) or JWT (Bearer) scheme.
@@ -243,7 +243,7 @@ source_yaml: "generated: '2026-08-26'\nmethod: searched\nsource: >-\n  openapi/n
   \ API for TPPs\n    type: http\n    schemes_accepted: [Basic (Token authentication), Bearer (JWT authentication)]\n    header: Authorization\n    key_algorithms: [ES256, RS256]\n    key_registration: >-\n      The TPP generates a key pair (the docs give the exact openssl commands for\n      secp521r1/ES256 and RSA-2048/RS256), base64url-encodes the public key and uploads\n      it to the Northmill Bank Dashboard. Requests are then signed with the private key.\n    identity:\n      member_id: unique value generated by the Dashboard at signup\n      alias: unique email or domain generated at signup (types DOMAIN, EMAIL, other)\n      note: The docs recommend sending both to avoid a typo-induced mismatch.\n    certificate: >-\n      \"TPPs must send a set of HTTP headers that allow the bank to check the request's\n      validity. This includes signing the request with a qualified certificate.\"\n      (eIDAS-style qualified certificate, per PSD2 RTS.)\n    additional_headers:\n      customer-initiated:\
   \ >-\n        boolean - declares the call was explicitly initiated by the PSU, which exempts\n        it from the RTS four-per-24-hours TPP-initiated access cap.\n      token-customer-ip-address: >-\n        the PSU's IP; supplying it implies PSU presence.\n      token-customer-last-logged-time: when the PSU last logged in with the TPP\n      token-customer-device-id: PSU device identifier\n      token-customer-user-agent: PSU user agent\n      request-timeout: integer seconds before the call aborts with DEADLINE_EXCEEDED\n      token-json-error: boolean - render errors as JSON\ngaps:\n  - No OAuth 2.0 or OpenID Connect anywhere; /.well-known/openid-configuration and /.well-known/oauth-authorization-server both 404.\n  - No scope or permission model on the Flo API - a Basic credential is all-or-nothing across all 199 operations.\n  - No documented key rotation, expiry or revocation procedure for Flo credentials.\n  - Basic auth transmits a reusable secret on every request; there is no\
   \ signed-request option on the commerce API.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/authentication/northmill-authentication.yml
+source_yaml_url: https://artifacts.apis.io/northmill/authentication/northmill-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Banking

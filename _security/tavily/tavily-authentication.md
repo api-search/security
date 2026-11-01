@@ -7,31 +7,31 @@ api_specs:
   label: Tavily Crawl API
   slug: tavily-crawl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tavily/refs/heads/main/openapi/tavily-crawl-api-openapi.yml
+  url: https://artifacts.apis.io/tavily/openapi/tavily-crawl-api-openapi.yml
 - filename: tavily-extract-api-openapi.yml
   format: yaml
   label: Tavily Extract API
   slug: tavily-extract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tavily/refs/heads/main/openapi/tavily-extract-api-openapi.yml
+  url: https://artifacts.apis.io/tavily/openapi/tavily-extract-api-openapi.yml
 - filename: tavily-map-api-openapi.yml
   format: yaml
   label: Tavily Map API
   slug: tavily-map-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tavily/refs/heads/main/openapi/tavily-map-api-openapi.yml
+  url: https://artifacts.apis.io/tavily/openapi/tavily-map-api-openapi.yml
 - filename: tavily-research-api-openapi.yml
   format: yaml
   label: Tavily Research API
   slug: tavily-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tavily/refs/heads/main/openapi/tavily-research-api-openapi.yml
+  url: https://artifacts.apis.io/tavily/openapi/tavily-research-api-openapi.yml
 - filename: tavily-search-api-openapi.yml
   format: yaml
   label: Tavily Search API
   slug: tavily-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tavily/refs/heads/main/openapi/tavily-search-api-openapi.yml
+  url: https://artifacts.apis.io/tavily/openapi/tavily-search-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: tavily-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tavily-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: API Key\n  sources:\n  - openapi/tavily-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tavily/refs/heads/main/authentication/tavily-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tavily/authentication/tavily-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Search

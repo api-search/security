@@ -8,13 +8,13 @@ api_specs:
   label: Maison Safqa Holdings Limited Inventory API
   slug: maison-safqa-holdings-limited-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/openapi/maison-safqa-holdings-limited-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/maison-safqa-holdings-limited/openapi/maison-safqa-holdings-limited-inventory-api-openapi.yml
 - filename: maison-safqa-holdings-limited-products-api-openapi.yml
   format: yaml
   label: Maison Safqa Holdings Limited Products API
   slug: maison-safqa-holdings-limited-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/openapi/maison-safqa-holdings-limited-products-api-openapi.yml
+  url: https://artifacts.apis.io/maison-safqa-holdings-limited/openapi/maison-safqa-holdings-limited-products-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: maison-safqa-holdings-limited-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/maison-safqa-holdings-limited-openapi-original.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-MaisonSafqa-Api-Key\n  description: API key for authentication. Use 'ms_test_...' keys for development/testing and\n    'ms_live_...' keys for production. Keys are environment-specific and will only work in their\n    respective environments.\n  sources:\n  - openapi/maison-safqa-holdings-limited-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/authentication/maison-safqa-holdings-limited-authentication.yml
+source_yaml_url: https://artifacts.apis.io/maison-safqa-holdings-limited/authentication/maison-safqa-holdings-limited-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

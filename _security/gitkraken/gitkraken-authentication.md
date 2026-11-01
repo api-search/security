@@ -7,13 +7,13 @@ api_specs:
   label: GitKraken Docker API
   slug: gitkraken-docker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitkraken/refs/heads/main/openapi/gitkraken-docker-api-openapi.yml
+  url: https://artifacts.apis.io/gitkraken/openapi/gitkraken-docker-api-openapi.yml
 - filename: gitkraken-linux-api-openapi.yml
   format: yaml
   label: GitKraken Linux API
   slug: gitkraken-linux-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitkraken/refs/heads/main/openapi/gitkraken-linux-api-openapi.yml
+  url: https://artifacts.apis.io/gitkraken/openapi/gitkraken-linux-api-openapi.yml
 auth_types: []
 description: Authentication methods for GitKraken Desktop when accessing Git hosts without a dedicated integration page.
 kind: authentication
@@ -45,11 +45,11 @@ source_heading: Authentication Profile
 source_url: https://help.gitkraken.com/gitkraken-desktop/authentication/
 source_yaml: "generated: '2026-09-22'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://help.gitkraken.com/gitkraken-desktop/authentication/\nsources:\n- https://help.gitkraken.com/gitkraken-desktop/authentication/\n- https://help.gitkraken.com/gitkraken-desktop/commit-signing-with-gpg/\n- https://help.gitkraken.com/gitkraken-desktop/how-to-install/\n- https://help.gitkraken.com/gitkraken-desktop/serverless/\ndescription: Authentication methods for GitKraken Desktop when accessing Git hosts without a dedicated integration page.\nschemes:\n- type: http-basic\n  name: HTTPS Basic Authentication\n  evidence: How HTTPS authentication works – This is the default and most common method for interacting with remotes. It requires your Git username\n    and password.\n  location: header\n  header: Authorization\n  how_to_obtain: Enter your Git host username and password (or personal access token) when prompted during clone or push.\n- type: other\n  name: SSH Key Authentication\n\
   \  evidence: How SSH authentication works – Before cloning via SSH, you must first set up your SSH keys in GitKraken Desktop.\n  location: ssh\n  how_to_obtain: Generate a new SSH key pair or browse to an existing one in Preferences > SSH, then add the public key to the hosting service.\ndocs: https://help.gitkraken.com/gitkraken-desktop/authentication/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gitkraken/refs/heads/main/authentication/gitkraken-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gitkraken/authentication/gitkraken-authentication.yml
 summary_line: 2 schemes
 tags:
 - Developer Tools
-- Git
+- Version Control
 - Artificial Intelligence
 - Collaboration
 - Platform

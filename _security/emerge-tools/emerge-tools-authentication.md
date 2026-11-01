@@ -8,61 +8,61 @@ api_specs:
   label: Emerge Tools Analysis API
   slug: emerge-tools-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/emerge-tools/openapi/emerge-tools-analysis-api-openapi.yml
 - filename: emerge-tools-apphistory-api-openapi.yml
   format: yaml
   label: Emerge Tools AppHistory API
   slug: emerge-tools-apphistory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-apphistory-api-openapi.yml
+  url: https://artifacts.apis.io/emerge-tools/openapi/emerge-tools-apphistory-api-openapi.yml
 - filename: emerge-tools-builddetails-api-openapi.yml
   format: yaml
   label: Emerge Tools BuildDetails API
   slug: emerge-tools-builddetails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-builddetails-api-openapi.yml
+  url: https://artifacts.apis.io/emerge-tools/openapi/emerge-tools-builddetails-api-openapi.yml
 - filename: emerge-tools-comment-api-openapi.yml
   format: yaml
   label: Emerge Tools Comment API
   slug: emerge-tools-comment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-comment-api-openapi.yml
+  url: https://artifacts.apis.io/emerge-tools/openapi/emerge-tools-comment-api-openapi.yml
 - filename: emerge-tools-deadcode-api-openapi.yml
   format: yaml
   label: Emerge Tools DeadCode API
   slug: emerge-tools-deadcode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-deadcode-api-openapi.yml
+  url: https://artifacts.apis.io/emerge-tools/openapi/emerge-tools-deadcode-api-openapi.yml
 - filename: emerge-tools-getperftest-api-openapi.yml
   format: yaml
   label: Emerge Tools GetPerfTest API
   slug: emerge-tools-getperftest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-getperftest-api-openapi.yml
+  url: https://artifacts.apis.io/emerge-tools/openapi/emerge-tools-getperftest-api-openapi.yml
 - filename: emerge-tools-snapshots-api-openapi.yml
   format: yaml
   label: Emerge Tools Snapshots API
   slug: emerge-tools-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/emerge-tools/openapi/emerge-tools-snapshots-api-openapi.yml
 - filename: emerge-tools-trace-api-openapi.yml
   format: yaml
   label: Emerge Tools Trace API
   slug: emerge-tools-trace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-trace-api-openapi.yml
+  url: https://artifacts.apis.io/emerge-tools/openapi/emerge-tools-trace-api-openapi.yml
 - filename: emerge-tools-upload-api-openapi.yml
   format: yaml
   label: Emerge Tools Upload API
   slug: emerge-tools-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-upload-api-openapi.yml
+  url: https://artifacts.apis.io/emerge-tools/openapi/emerge-tools-upload-api-openapi.yml
 - filename: emerge-tools-uploadfromlink-api-openapi.yml
   format: yaml
   label: Emerge Tools UploadFromLink API
   slug: emerge-tools-uploadfromlink-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-uploadfromlink-api-openapi.yml
+  url: https://artifacts.apis.io/emerge-tools/openapi/emerge-tools-uploadfromlink-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -89,7 +89,7 @@ source_filename: emerge-tools-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/emerge-tools-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Token\n  sources:\n  - openapi/emerge-tools-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/authentication/emerge-tools-authentication.yml
+source_yaml_url: https://artifacts.apis.io/emerge-tools/authentication/emerge-tools-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

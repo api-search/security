@@ -8,19 +8,19 @@ api_specs:
   label: Archer Daniels Midland Commodities API
   slug: archer-daniels-midland-commodities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/openapi/archer-daniels-midland-commodities-api-openapi.yml
+  url: https://artifacts.apis.io/archer-daniels-midland/openapi/archer-daniels-midland-commodities-api-openapi.yml
 - filename: archer-daniels-midland-locations-api-openapi.yml
   format: yaml
   label: Archer Daniels Midland Locations API
   slug: archer-daniels-midland-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/openapi/archer-daniels-midland-locations-api-openapi.yml
+  url: https://artifacts.apis.io/archer-daniels-midland/openapi/archer-daniels-midland-locations-api-openapi.yml
 - filename: archer-daniels-midland-products-api-openapi.yml
   format: yaml
   label: Archer Daniels Midland Products API
   slug: archer-daniels-midland-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/openapi/archer-daniels-midland-products-api-openapi.yml
+  url: https://artifacts.apis.io/archer-daniels-midland/openapi/archer-daniels-midland-products-api-openapi.yml
 auth_types:
 - openIdConnect
 - apiKey
@@ -65,7 +65,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: >-\n  https://www.adm.com/.well-known/openid-configuration (probed 2026-09-04) for the OIDC scheme;\n  openapi/archer-daniels-midland-commodities-api-openapi.yml,\n  openapi/archer-daniels-midland-locations-api-openapi.yml and\n  openapi/archer-daniels-midland-products-api-openapi.yml for the apiKey scheme\nnote: >-\n  ADM publishes no API authentication documentation — there is no developer portal, no API\n  reference, and the company's own llms.txt names no API. Read the two schemes below very\n  differently: the openIdConnect scheme was fetched from a live document ADM serves on its own\n  host; the apiKey scheme was DERIVED from OpenAPI documents that API Evangelist authored\n  (x-generated-from: documentation) against api.adm.com, a host that does not resolve. The header\n  name X-ADM-API-Key has never been observed on a live ADM response and should not be treated as a\n  provider-published fact.\nsummary:\n  types:\n  -\
   \ openIdConnect\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: openIdConnect\n  type: openIdConnect\n  openIdConnectUrl: https://www.adm.com/.well-known/openid-configuration\n  description: >-\n    OpenID Connect / OAuth 2.0 authorization server published by ADM on www.adm.com. Issuer\n    https://www.adm.com/; endpoints under /api/episerver/connect/. Grants: authorization_code,\n    refresh_token, client_credentials. PKCE S256 supported. Client authentication:\n    client_secret_basic or client_secret_post. This is the Optimizely (Episerver) CMS authorization\n    server that fronts the adm.com website — it is genuinely first-party and machine-readable, but\n    it is not a customer-facing API product.\n  method: probed\n  observed_status: 200\n  sources:\n  - https://www.adm.com/.well-known/openid-configuration\n  - https://www.adm.com/.well-known/oauth-authorization-server\n  - well-known/archer-daniels-midland-openid-configuration.json\n- name: apiKey\n  type: apiKey\n \
   \ in: header\n  parameter: X-ADM-API-Key\n  description: >-\n    API key header declared by the API-Evangelist-authored OpenAPI documents in this repo. NOT\n    verified against ADM: the host these documents name (api.adm.com) has no DNS record.\n  method: derived\n  verified: false\n  sources:\n  - openapi/archer-daniels-midland-commodities-api-openapi.yml\n  - openapi/archer-daniels-midland-locations-api-openapi.yml\n  - openapi/archer-daniels-midland-products-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/authentication/archer-daniels-midland-authentication.yml
+source_yaml_url: https://artifacts.apis.io/archer-daniels-midland/authentication/archer-daniels-midland-authentication.yml
 summary_line: openIdConnect/apiKey · 2 schemes
 tags:
 - Agriculture

@@ -5,55 +5,55 @@ api_specs:
   label: Altruistiq Export API
   slug: altruistiq-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-export-api-openapi.yml
+  url: https://artifacts.apis.io/altruistiq/openapi/altruistiq-export-api-openapi.yml
 - filename: altruistiq-facility-api-openapi.yml
   format: yaml
   label: Altruistiq Facility API
   slug: altruistiq-facility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-facility-api-openapi.yml
+  url: https://artifacts.apis.io/altruistiq/openapi/altruistiq-facility-api-openapi.yml
 - filename: altruistiq-location-api-openapi.yml
   format: yaml
   label: Altruistiq Location API
   slug: altruistiq-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-location-api-openapi.yml
+  url: https://artifacts.apis.io/altruistiq/openapi/altruistiq-location-api-openapi.yml
 - filename: altruistiq-organization-api-openapi.yml
   format: yaml
   label: Altruistiq Organization API
   slug: altruistiq-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-organization-api-openapi.yml
+  url: https://artifacts.apis.io/altruistiq/openapi/altruistiq-organization-api-openapi.yml
 - filename: altruistiq-product-api-openapi.yml
   format: yaml
   label: Altruistiq Product API
   slug: altruistiq-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-product-api-openapi.yml
+  url: https://artifacts.apis.io/altruistiq/openapi/altruistiq-product-api-openapi.yml
 - filename: altruistiq-product-structure-api-openapi.yml
   format: yaml
   label: Altruistiq Product structure API
   slug: altruistiq-product-structure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-product-structure-api-openapi.yml
+  url: https://artifacts.apis.io/altruistiq/openapi/altruistiq-product-structure-api-openapi.yml
 - filename: altruistiq-product-structure-inputs-api-openapi.yml
   format: yaml
   label: Altruistiq Product structure inputs API
   slug: altruistiq-product-structure-inputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-product-structure-inputs-api-openapi.yml
+  url: https://artifacts.apis.io/altruistiq/openapi/altruistiq-product-structure-inputs-api-openapi.yml
 - filename: altruistiq-security-api-openapi.yml
   format: yaml
   label: Altruistiq Security API
   slug: altruistiq-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-security-api-openapi.yml
+  url: https://artifacts.apis.io/altruistiq/openapi/altruistiq-security-api-openapi.yml
 - filename: altruistiq-data-source-api-openapi.yml
   format: yaml
   label: Altruistiq Data Source API
   slug: altruistiq-data-source-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-data-source-api-openapi.yml
+  url: https://artifacts.apis.io/altruistiq/openapi/altruistiq-data-source-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -94,7 +94,7 @@ source_filename: altruistiq-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.altruistiq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 03:57:05 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.altruistiq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 20:04:53 2026 GMT\n  hsts: false\n- host: app.altruistiq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 20:04:53 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: altruistiq.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/security/altruistiq-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/altruistiq/security/altruistiq-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Sustainability

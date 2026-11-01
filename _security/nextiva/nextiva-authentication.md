@@ -7,61 +7,61 @@ api_specs:
   label: Nextiva Authentication API
   slug: nextiva-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/nextiva/openapi/nextiva-authentication-api-openapi.yml
 - filename: nextiva-call-management-api-openapi.yml
   format: yaml
   label: Nextiva Call Management API
   slug: nextiva-call-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-call-management-api-openapi.yml
+  url: https://artifacts.apis.io/nextiva/openapi/nextiva-call-management-api-openapi.yml
 - filename: nextiva-campaigns-api-openapi.yml
   format: yaml
   label: Nextiva Campaigns API
   slug: nextiva-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/nextiva/openapi/nextiva-campaigns-api-openapi.yml
 - filename: nextiva-conversations-api-openapi.yml
   format: yaml
   label: Nextiva Conversations API
   slug: nextiva-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/nextiva/openapi/nextiva-conversations-api-openapi.yml
 - filename: nextiva-dtmf-api-openapi.yml
   format: yaml
   label: Nextiva DTMF API
   slug: nextiva-dtmf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-dtmf-api-openapi.yml
+  url: https://artifacts.apis.io/nextiva/openapi/nextiva-dtmf-api-openapi.yml
 - filename: nextiva-email-api-openapi.yml
   format: yaml
   label: Nextiva Email API
   slug: nextiva-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-email-api-openapi.yml
+  url: https://artifacts.apis.io/nextiva/openapi/nextiva-email-api-openapi.yml
 - filename: nextiva-sms-messaging-api-openapi.yml
   format: yaml
   label: Nextiva SMS Messaging API
   slug: nextiva-sms-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-sms-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/nextiva/openapi/nextiva-sms-messaging-api-openapi.yml
 - filename: nextiva-tickets-api-openapi.yml
   format: yaml
   label: Nextiva Tickets API
   slug: nextiva-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/nextiva/openapi/nextiva-tickets-api-openapi.yml
 - filename: nextiva-transfers-api-openapi.yml
   format: yaml
   label: Nextiva Transfers API
   slug: nextiva-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/nextiva/openapi/nextiva-transfers-api-openapi.yml
 - filename: nextiva-work-items-api-openapi.yml
   format: yaml
   label: Nextiva Work Items API
   slug: nextiva-work-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-work-items-api-openapi.yml
+  url: https://artifacts.apis.io/nextiva/openapi/nextiva-work-items-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -107,7 +107,7 @@ source_yaml: "generated: '2026-07-31'\nmethod: derived\nsource: openapi/nextiva-
   \ on\n  every other operation and refreshed before expiry. There is no OAuth 2.0, no\n  OpenID Connect, no API-key scheme and no mTLS anywhere in the published\n  contracts, so there is also no scope surface (scopes/ is intentionally absent).\nflow:\n- step: 1\n  operation: generateTokenWithAuthorities\n  path: GET https://api.nextiva.com/provider/token-with-authorities\n  auth: basicAuth\n  returns: TokenResponse (JWT + user authorities)\n- step: 2\n  operation: '*'\n  header: 'Authorization: Bearer <jwt>'\n  auth: bearerAuth\n- step: 3\n  operation: refreshToken\n  path: GET https://api.nextiva.com/provider/api/token-refresh\n  auth: bearerAuth\n  returns: RefreshTokenResponse\n  note: A 401 here means the token is already expired — restart at step 1.\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: Basic authentication using username and password.\n  sources:\n  - openapi/nextiva-authentication-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n\
   \  bearerFormat: JWT\n  description: Bearer token authentication (JWT).\n  sources:\n  - openapi/nextiva-authentication-openapi.yml\n  - openapi/nextiva-sms-messaging-openapi.yml\n  - openapi/nextiva-workitem-service-openapi.yml\n- name: springAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: >-\n    Spring Security authentication using JWT tokens. All endpoints require an\n    authenticated user context.\n  sources:\n  - openapi/nextiva-provider-authentication-openapi.yml\nauthorization:\n  model: authorities\n  detail: >-\n    The token embeds the user's \"authorities\" — the Provider Token Service\n    documents generating JWTs with various permission levels, plus time-limited\n    portal access tokens and multi-tenant location-based tokens. A 403 \"Access\n    denied\" is returned when the authenticated user lacks the authority for the\n    requested token scope. No authority/permission catalog is published.\nsdk_handling: >-\n  Per the SDK architecture guide,\
   \ the SDKs post credentials to the Provider\n  Service, receive the token plus a payload describing where to route future\n  requests, and attach the token to the HTTP header automatically on every\n  subsequent call.\ngaps:\n- developer portal authentication page is an empty ReadMe placeholder\n- no published authority/permission reference\n- no token lifetime documented\n- no OAuth 2.0 or OpenID Connect\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/authentication/nextiva-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nextiva/authentication/nextiva-authentication.yml
 summary_line: http · 3 schemes
 tags:
 - Company

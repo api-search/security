@@ -7,37 +7,37 @@ api_specs:
   label: Narrative Sports Health API
   slug: usenarrative-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/openapi/usenarrative-health-api-openapi.yml
+  url: https://artifacts.apis.io/usenarrative/openapi/usenarrative-health-api-openapi.yml
 - filename: usenarrative-highlight-packages-api-openapi.yml
   format: yaml
   label: Narrative Sports Highlight Packages API
   slug: usenarrative-highlight-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/openapi/usenarrative-highlight-packages-api-openapi.yml
+  url: https://artifacts.apis.io/usenarrative/openapi/usenarrative-highlight-packages-api-openapi.yml
 - filename: usenarrative-highlights-api-openapi.yml
   format: yaml
   label: Narrative Sports Highlights API
   slug: usenarrative-highlights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/openapi/usenarrative-highlights-api-openapi.yml
+  url: https://artifacts.apis.io/usenarrative/openapi/usenarrative-highlights-api-openapi.yml
 - filename: usenarrative-projects-api-openapi.yml
   format: yaml
   label: Narrative Sports Projects API
   slug: usenarrative-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/openapi/usenarrative-projects-api-openapi.yml
+  url: https://artifacts.apis.io/usenarrative/openapi/usenarrative-projects-api-openapi.yml
 - filename: usenarrative-recaps-api-openapi.yml
   format: yaml
   label: Narrative Sports Recaps API
   slug: usenarrative-recaps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/openapi/usenarrative-recaps-api-openapi.yml
+  url: https://artifacts.apis.io/usenarrative/openapi/usenarrative-recaps-api-openapi.yml
 - filename: usenarrative-tasks-api-openapi.yml
   format: yaml
   label: Narrative Sports Tasks API
   slug: usenarrative-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/openapi/usenarrative-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/usenarrative/openapi/usenarrative-tasks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -74,7 +74,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/usenarrative-sports-openapi-original.json\ndocs: https://docs.narrative-sports.com/authentication\nsummary:\n  types:\n  - http\n  scheme: bearer\n  credential: static API key sent as a Bearer token\nschemes:\n- name: HTTPBearer\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/usenarrative-sports-openapi-original.json\n  details:\n    header: 'Authorization: Bearer <API_KEY>'\n    key_format: sk-nr-<32 hex characters>\n    key_management: https://app.narrative-sports.com/api-dashboard\n    display: keys shown truncated in the dashboard (e.g. sk-nr-a1b2****)\n    unauthenticated_endpoints:\n    - GET /v1/health\n    failure_modes:\n      '401': 'missing or invalid API key (detail envelope)'\n      '403': 'account not enabled for task creation (no concurrent task limit configured)'\nnotes: No OAuth2/OIDC surface — a single static API-key-as-bearer scheme covers\n  the whole API. Keys are created and rotated in\
   \ the app dashboard.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/authentication/usenarrative-authentication.yml
+source_yaml_url: https://artifacts.apis.io/usenarrative/authentication/usenarrative-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Sports

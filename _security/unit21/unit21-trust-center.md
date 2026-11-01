@@ -16,7 +16,7 @@ source_filename: unit21-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-27'\nmethod: searched\nprobe: true\nsource: https://www.unit21.ai/security\nurl: https://www.unit21.ai/security\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://www.unit21.ai/security\n  keywords:\n  - soc 2\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unit21/refs/heads/main/security/unit21-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/unit21/security/unit21-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - Fraud Prevention

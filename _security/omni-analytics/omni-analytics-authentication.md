@@ -34,7 +34,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://docs.omni.co/docs/API\ndocs: https://docs.omni.co/docs/API\nsummary:\n  types:\n  - http\n  - oauth2\n  http_scheme: bearer\n  oauth2_flows:\n  - authorizationCode\n  notes: >-\n    The Omni REST API accepts HTTPS only. Requests authenticate with an API key\n    presented as a bearer token in the Authorization header. OAuth 2.1 is also\n    supported (recommended for the MCP server and CLI): a browser flow under\n    which Omni creates API keys automatically; requires Personal Access Tokens\n    to be enabled. API keys are managed under the account's API tokens settings.\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  location: header\n  description: Omni API key sent as a bearer token in the Authorization header.\n- name: oauth2\n  type: oauth2\n  flow: authorizationCode\n  version: '2.1'\n  description: OAuth 2.1 browser flow (Personal Access Tokens); Omni provisions API keys on your behalf.\nidentity_providers:\n\
   \  note: >-\n    For instance sign-in Omni supports SAML/OIDC IdPs (Microsoft Entra, Okta,\n    Google Workspace) and SCIM auto-provisioning; these govern user login, not\n    the REST API bearer/OAuth described above.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/omni-analytics/refs/heads/main/authentication/omni-analytics-authentication.yml
+source_yaml_url: https://artifacts.apis.io/omni-analytics/authentication/omni-analytics-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

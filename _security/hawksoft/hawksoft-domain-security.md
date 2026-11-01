@@ -5,31 +5,31 @@ api_specs:
   label: HawkSoft Agencies API
   slug: hawksoft-agencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/openapi/hawksoft-agencies-api-openapi.yml
+  url: https://artifacts.apis.io/hawksoft/openapi/hawksoft-agencies-api-openapi.yml
 - filename: hawksoft-attachments-api-openapi.yml
   format: yaml
   label: HawkSoft Attachments API
   slug: hawksoft-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/openapi/hawksoft-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/hawksoft/openapi/hawksoft-attachments-api-openapi.yml
 - filename: hawksoft-clients-api-openapi.yml
   format: yaml
   label: HawkSoft Clients API
   slug: hawksoft-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/openapi/hawksoft-clients-api-openapi.yml
+  url: https://artifacts.apis.io/hawksoft/openapi/hawksoft-clients-api-openapi.yml
 - filename: hawksoft-log-entries-api-openapi.yml
   format: yaml
   label: HawkSoft Log Entries API
   slug: hawksoft-log-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/openapi/hawksoft-log-entries-api-openapi.yml
+  url: https://artifacts.apis.io/hawksoft/openapi/hawksoft-log-entries-api-openapi.yml
 - filename: hawksoft-receipts-api-openapi.yml
   format: yaml
   label: HawkSoft Receipts API
   slug: hawksoft-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/openapi/hawksoft-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/hawksoft/openapi/hawksoft-receipts-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -73,7 +73,7 @@ source_filename: hawksoft-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hawksoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 23:59:59 2026 GMT\n  hsts: false\n- host: partner.hawksoft.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 23:59:59 2026 GMT\n  hsts: false\n- host: integration.hawksoft.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: hawksoft.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: hawksoft.app\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/security/hawksoft-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hawksoft/security/hawksoft-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Insurance

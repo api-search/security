@@ -7,25 +7,25 @@ api_specs:
   label: Autoderm – AI Dermatology API Device API
   slug: autoderm-ai-dermatology-api-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/openapi/autoderm-ai-dermatology-api-device-api-openapi.yml
+  url: https://artifacts.apis.io/autoderm-ai-dermatology-api/openapi/autoderm-ai-dermatology-api-device-api-openapi.yml
 - filename: autoderm-ai-dermatology-api-inference-api-openapi.yml
   format: yaml
   label: Autoderm – AI Dermatology API Inference API
   slug: autoderm-ai-dermatology-api-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/openapi/autoderm-ai-dermatology-api-inference-api-openapi.yml
+  url: https://artifacts.apis.io/autoderm-ai-dermatology-api/openapi/autoderm-ai-dermatology-api-inference-api-openapi.yml
 - filename: autoderm-ai-dermatology-api-system-api-openapi.yml
   format: yaml
   label: Autoderm – AI Dermatology API System API
   slug: autoderm-ai-dermatology-api-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/openapi/autoderm-ai-dermatology-api-system-api-openapi.yml
+  url: https://artifacts.apis.io/autoderm-ai-dermatology-api/openapi/autoderm-ai-dermatology-api-system-api-openapi.yml
 - filename: autoderm-ai-dermatology-api-utils-api-openapi.yml
   format: yaml
   label: Autoderm – AI Dermatology API Utils API
   slug: autoderm-ai-dermatology-api-utils-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/openapi/autoderm-ai-dermatology-api-utils-api-openapi.yml
+  url: https://artifacts.apis.io/autoderm-ai-dermatology-api/openapi/autoderm-ai-dermatology-api-utils-api-openapi.yml
 auth_types:
 - http
 description: 'Autoderm uses a single authentication mechanism: an HTTP Bearer token in the Authorization header, issued per organization from the Autoderm web application. There is no OAuth 2.0 authorization server, no OpenID Connect discovery document, and therefore no scope surface — see the no_oauth_surface block below. The legacy platform used a different scheme (an Api-Key header against autoderm.ai/v1) which the current platform does not accept.'
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: openapi/autoder
   \ security requirement in the published OpenAPI while\n        every sibling inference operation requires HTTPBearer. Recorded as an\n        observed spec inconsistency, not as a claim that the endpoint is open —\n        it was not called, because calling an inference endpoint anonymously\n        would be probing for an auth bypass.\ncredential_issuance:\n  console: https://app.autoderm.ai\n  sign_up: https://app.autoderm.ai/en/auth/sign-up\n  login: https://app.autoderm.ai/en/auth/login\n  key_management: >-\n    API key management from the Autoderm dashboard; the Basic plan advertises\n    \"unlimited API keys with role-based access\".\n  rotation: >-\n    Docs place responsibility for rotation on the client: \"The API client is\n    responsible for preventing unauthorized access and for rotating keys if\n    compromise is suspected.\"\nhandling_rules:\n  quoted_from_docs:\n    - API access tokens are confidential credentials and must be kept secret at all times.\n    - Be stored\
   \ securely\n    - Never be embedded in client-side code\n    - Never be exposed in public repositories, logs, or user interfaces\n  server_to_server_only: >-\n    \"API keys are intended for server-to-server communication only.\"\nno_oauth_surface:\n  oauth2: false\n  openid_connect: false\n  scopes: false\n  evidence:\n    - https://api.autoderm.ai/.well-known/openid-configuration returned 404\n    - https://api.autoderm.ai/.well-known/oauth-authorization-server returned 404\n    - OpenAPI components.securitySchemes declares only HTTPBearer (type http)\n  note: >-\n    scopes/ is deliberately NOT emitted for this provider — a bearer-token API\n    with no authorization server has no scope surface to capture.\nfailure_behavior:\n  status: 401\n  content_type: application/json\n  body: '{\"detail\":\"Missing Authorization header\"}'\n  observed: '2026-08-09 — GET https://api.autoderm.ai/v1/infer-diseases/v1/diseases with no Authorization header'\n  note: >-\n    The 401 is NOT documented\
   \ in the OpenAPI; the spec declares only 200 and\n    422 on secured operations. See errors/ for the full catalog.\nlegacy:\n  platform: https://legacy.autoderm.ai\n  base_url: https://autoderm.ai/v1\n  scheme: Api-Key header\n  status: >-\n    Not supported on the new platform. Docs: \"Legacy authentication mechanisms\n    are not supported on the new platform.\"\n  docs: https://docs.autoderm.ai/en/disease-detection-api/migrating-from-legacy-api\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/authentication/autoderm-ai-dermatology-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/autoderm-ai-dermatology-api/authentication/autoderm-ai-dermatology-api-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - dermatology-api

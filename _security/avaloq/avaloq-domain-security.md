@@ -5,31 +5,31 @@ api_specs:
   label: Avaloq Accounts API
   slug: avaloq-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/openapi/avaloq-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/avaloq/openapi/avaloq-accounts-api-openapi.yml
 - filename: avaloq-customers-api-openapi.yml
   format: yaml
   label: Avaloq Customers API
   slug: avaloq-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/openapi/avaloq-customers-api-openapi.yml
+  url: https://artifacts.apis.io/avaloq/openapi/avaloq-customers-api-openapi.yml
 - filename: avaloq-payment-status-api-openapi.yml
   format: yaml
   label: Avaloq Payment Status API
   slug: avaloq-payment-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/openapi/avaloq-payment-status-api-openapi.yml
+  url: https://artifacts.apis.io/avaloq/openapi/avaloq-payment-status-api-openapi.yml
 - filename: avaloq-payments-api-openapi.yml
   format: yaml
   label: Avaloq Payments API
   slug: avaloq-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/openapi/avaloq-payments-api-openapi.yml
+  url: https://artifacts.apis.io/avaloq/openapi/avaloq-payments-api-openapi.yml
 - filename: avaloq-transactions-api-openapi.yml
   format: yaml
   label: Avaloq Transactions API
   slug: avaloq-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/openapi/avaloq-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/avaloq/openapi/avaloq-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: avaloq-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.avaloq.com\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''developer.a'\n  hsts: null\n- host: www.avaloq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 11 07:56:14 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.avaloq.com\n  https: false\ndomains:\n- domain: avaloq.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/security/avaloq-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/avaloq/security/avaloq-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Banking

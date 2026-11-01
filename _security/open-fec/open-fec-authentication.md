@@ -8,49 +8,49 @@ api_specs:
   label: OpenFEC Candidate API
   slug: open-fec-candidate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-fec/refs/heads/main/openapi/open-fec-candidate-api-openapi.yml
+  url: https://artifacts.apis.io/open-fec/openapi/open-fec-candidate-api-openapi.yml
 - filename: open-fec-candidates-api-openapi.yml
   format: yaml
   label: OpenFEC Candidates API
   slug: open-fec-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-fec/refs/heads/main/openapi/open-fec-candidates-api-openapi.yml
+  url: https://artifacts.apis.io/open-fec/openapi/open-fec-candidates-api-openapi.yml
 - filename: open-fec-committee-api-openapi.yml
   format: yaml
   label: OpenFEC Committee API
   slug: open-fec-committee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-fec/refs/heads/main/openapi/open-fec-committee-api-openapi.yml
+  url: https://artifacts.apis.io/open-fec/openapi/open-fec-committee-api-openapi.yml
 - filename: open-fec-committees-api-openapi.yml
   format: yaml
   label: OpenFEC Committees API
   slug: open-fec-committees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-fec/refs/heads/main/openapi/open-fec-committees-api-openapi.yml
+  url: https://artifacts.apis.io/open-fec/openapi/open-fec-committees-api-openapi.yml
 - filename: open-fec-elections-api-openapi.yml
   format: yaml
   label: OpenFEC Elections API
   slug: open-fec-elections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-fec/refs/heads/main/openapi/open-fec-elections-api-openapi.yml
+  url: https://artifacts.apis.io/open-fec/openapi/open-fec-elections-api-openapi.yml
 - filename: open-fec-filings-api-openapi.yml
   format: yaml
   label: OpenFEC Filings API
   slug: open-fec-filings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-fec/refs/heads/main/openapi/open-fec-filings-api-openapi.yml
+  url: https://artifacts.apis.io/open-fec/openapi/open-fec-filings-api-openapi.yml
 - filename: open-fec-names-api-openapi.yml
   format: yaml
   label: OpenFEC Names API
   slug: open-fec-names-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-fec/refs/heads/main/openapi/open-fec-names-api-openapi.yml
+  url: https://artifacts.apis.io/open-fec/openapi/open-fec-names-api-openapi.yml
 - filename: open-fec-schedules-api-openapi.yml
   format: yaml
   label: OpenFEC Schedules API
   slug: open-fec-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-fec/refs/heads/main/openapi/open-fec-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/open-fec/openapi/open-fec-schedules-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -78,7 +78,7 @@ source_filename: open-fec-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/open-fec-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: api.data.gov API key. Use DEMO_KEY for limited testing.\n  sources:\n  - openapi/open-fec-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-fec/refs/heads/main/authentication/open-fec-authentication.yml
+source_yaml_url: https://artifacts.apis.io/open-fec/authentication/open-fec-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Campaign Finance

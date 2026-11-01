@@ -5,85 +5,85 @@ api_specs:
   label: Quaderno Authentication API
   slug: quaderno-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/quaderno/openapi/quaderno-authentication-api-openapi.yml
 - filename: quaderno-checkout-api-openapi.yml
   format: yaml
   label: Quaderno Checkout API
   slug: quaderno-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/quaderno/openapi/quaderno-checkout-api-openapi.yml
 - filename: quaderno-contacts-api-openapi.yml
   format: yaml
   label: Quaderno Contacts API
   slug: quaderno-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/quaderno/openapi/quaderno-contacts-api-openapi.yml
 - filename: quaderno-credits-api-openapi.yml
   format: yaml
   label: Quaderno Credits API
   slug: quaderno-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-credits-api-openapi.yml
+  url: https://artifacts.apis.io/quaderno/openapi/quaderno-credits-api-openapi.yml
 - filename: quaderno-estimates-api-openapi.yml
   format: yaml
   label: Quaderno Estimates API
   slug: quaderno-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/quaderno/openapi/quaderno-estimates-api-openapi.yml
 - filename: quaderno-evidences-api-openapi.yml
   format: yaml
   label: Quaderno Evidences API
   slug: quaderno-evidences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-evidences-api-openapi.yml
+  url: https://artifacts.apis.io/quaderno/openapi/quaderno-evidences-api-openapi.yml
 - filename: quaderno-expenses-api-openapi.yml
   format: yaml
   label: Quaderno Expenses API
   slug: quaderno-expenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-expenses-api-openapi.yml
+  url: https://artifacts.apis.io/quaderno/openapi/quaderno-expenses-api-openapi.yml
 - filename: quaderno-invoices-api-openapi.yml
   format: yaml
   label: Quaderno Invoices API
   slug: quaderno-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/quaderno/openapi/quaderno-invoices-api-openapi.yml
 - filename: quaderno-items-api-openapi.yml
   format: yaml
   label: Quaderno Items API
   slug: quaderno-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-items-api-openapi.yml
+  url: https://artifacts.apis.io/quaderno/openapi/quaderno-items-api-openapi.yml
 - filename: quaderno-payments-api-openapi.yml
   format: yaml
   label: Quaderno Payments API
   slug: quaderno-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-payments-api-openapi.yml
+  url: https://artifacts.apis.io/quaderno/openapi/quaderno-payments-api-openapi.yml
 - filename: quaderno-recurring-api-openapi.yml
   format: yaml
   label: Quaderno Recurring API
   slug: quaderno-recurring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-recurring-api-openapi.yml
+  url: https://artifacts.apis.io/quaderno/openapi/quaderno-recurring-api-openapi.yml
 - filename: quaderno-taxes-api-openapi.yml
   format: yaml
   label: Quaderno Taxes API
   slug: quaderno-taxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-taxes-api-openapi.yml
+  url: https://artifacts.apis.io/quaderno/openapi/quaderno-taxes-api-openapi.yml
 - filename: quaderno-transactions-api-openapi.yml
   format: yaml
   label: Quaderno Transactions API
   slug: quaderno-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/quaderno/openapi/quaderno-transactions-api-openapi.yml
 - filename: quaderno-webhooks-api-openapi.yml
   format: yaml
   label: Quaderno Webhooks API
   slug: quaderno-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/quaderno/openapi/quaderno-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -139,7 +139,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: quaderno.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 05:59:45 2026 GMT\n  hsts: false\n- host: developers.quaderno.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 07:10:03 2026 GMT\n  hsts: false\n- host: account_name.quadernoapp.com\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''account_nam'\n  hsts: null\ndomains:\n- domain: quaderno.io\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: quadernoapp.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"\
   amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"comodoca.com\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/security/quaderno-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/quaderno/security/quaderno-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Tax Compliance

@@ -8,25 +8,25 @@ api_specs:
   label: Hergert Synthora Discovery API
   slug: hergertsynthora-com-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hergertsynthora-com/refs/heads/main/openapi/hergertsynthora-com-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/hergertsynthora-com/openapi/hergertsynthora-com-discovery-api-openapi.yml
 - filename: hergertsynthora-com-polymarket-api-openapi.yml
   format: yaml
   label: Hergert Synthora Polymarket API
   slug: hergertsynthora-com-polymarket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hergertsynthora-com/refs/heads/main/openapi/hergertsynthora-com-polymarket-api-openapi.yml
+  url: https://artifacts.apis.io/hergertsynthora-com/openapi/hergertsynthora-com-polymarket-api-openapi.yml
 - filename: hergertsynthora-com-safety-api-openapi.yml
   format: yaml
   label: Hergert Synthora Safety API
   slug: hergertsynthora-com-safety-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hergertsynthora-com/refs/heads/main/openapi/hergertsynthora-com-safety-api-openapi.yml
+  url: https://artifacts.apis.io/hergertsynthora-com/openapi/hergertsynthora-com-safety-api-openapi.yml
 - filename: hergertsynthora-com-wallet-enrichment-api-openapi.yml
   format: yaml
   label: Hergert Synthora Wallet Enrichment API
   slug: hergertsynthora-com-wallet-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hergertsynthora-com/refs/heads/main/openapi/hergertsynthora-com-wallet-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/hergertsynthora-com/openapi/hergertsynthora-com-wallet-enrichment-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: >-\n  Derived b
   \ the agent cards declare the same requirement: \"Pago por llamada x402: USDC en Base (eip155:8453). La\n    primera llamada devuelve HTTP 402 con los terminos de pago; el pago se verifica on-chain y la respuesta\n    incluye recibo firmado.\" Not an IANA-registered HTTP auth scheme; recorded because the live gateway does\n    emit a WWW-Authenticate challenge with that token.\n  sources:\n  - a2a/hergertsynthora-com-agent-card.json (securitySchemes.x402)\n  - a2a/hergertsynthora-com-notary-agent-card.json (securitySchemes.x402)\n- name: wallet\n  type: apiKey\n  in: header\n  parameter: X-WALLET\n  description: >-\n    The caller's Base address (0x...). Two uses the provider documents: (1) free trial - send it instead of a\n    payment and the product answers up to x-free-tier calls (1 or 3, per product) without charge; (2) the\n    \"nucleo\" state and meshgraph endpoints treat it as an API key and answer 403 without it (docs section 02;\n    the docs elide the host for those endpoints).\n\
   \  sources:\n  - a2a/hergertsynthora-com-agent-card.json (securitySchemes.wallet)\n  - https://hergertsynthora.com/api/\n  - https://api.hergertsynthora.com/llms.txt\n  - 402 body freeTier {callsPerWallet, header X-WALLET}; response header x-free-tier\ncredentials:\n  sign_up: none - no accounts; the wallet is the identity\n  key_prefixes: none\n  rotation: n/a\n  sandbox_keys: none (see sandbox/hergertsynthora-com-sandbox.yml)\ntransport:\n  https_only: true\n  tls: TLSv1.3 on apex, api and notary hosts (security/hergertsynthora-com-domain-security.yml)\n  mcp: https://mcp.hergertsynthora.com/mcp - initialize and tools/list are anonymous; tools/call is x402-paid; no OAuth metadata served\n  a2a: https://api.hergertsynthora.com/a2a - JSON-RPC, same x402 / X-WALLET model per the card's security[]\ngaps:\n- The per-service and notary OpenAPIs declare no securitySchemes, so a generic OpenAPI client sees them as unauthenticated.\n- The X-WALLET \"nucleo\" endpoints are documented without a\
   \ host.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hergertsynthora-com/refs/heads/main/authentication/hergertsynthora-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hergertsynthora-com/authentication/hergertsynthora-com-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Company

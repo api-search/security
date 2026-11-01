@@ -5,31 +5,31 @@ api_specs:
   label: GorillaDesk Company API
   slug: gorilladesk-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorilladesk/refs/heads/main/openapi/gorilladesk-company-api-openapi.yml
+  url: https://artifacts.apis.io/gorilladesk/openapi/gorilladesk-company-api-openapi.yml
 - filename: gorilladesk-customer-api-openapi.yml
   format: yaml
   label: GorillaDesk Customer API
   slug: gorilladesk-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorilladesk/refs/heads/main/openapi/gorilladesk-customer-api-openapi.yml
+  url: https://artifacts.apis.io/gorilladesk/openapi/gorilladesk-customer-api-openapi.yml
 - filename: gorilladesk-note-api-openapi.yml
   format: yaml
   label: GorillaDesk Note API
   slug: gorilladesk-note-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorilladesk/refs/heads/main/openapi/gorilladesk-note-api-openapi.yml
+  url: https://artifacts.apis.io/gorilladesk/openapi/gorilladesk-note-api-openapi.yml
 - filename: gorilladesk-phone-type-api-openapi.yml
   format: yaml
   label: GorillaDesk Phone Type API
   slug: gorilladesk-phone-type-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorilladesk/refs/heads/main/openapi/gorilladesk-phone-type-api-openapi.yml
+  url: https://artifacts.apis.io/gorilladesk/openapi/gorilladesk-phone-type-api-openapi.yml
 - filename: gorilladesk-user-api-openapi.yml
   format: yaml
   label: GorillaDesk User API
   slug: gorilladesk-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorilladesk/refs/heads/main/openapi/gorilladesk-user-api-openapi.yml
+  url: https://artifacts.apis.io/gorilladesk/openapi/gorilladesk-user-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,10 +63,10 @@ source_filename: gorilladesk-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gorilladesk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 23:46:40 2026 GMT\n  hsts: false\n- host: api.gorilladesk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 23:46:40 2026 GMT\n  hsts: null\ndomains:\n- domain: gorilladesk.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gorilladesk/refs/heads/main/security/gorilladesk-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gorilladesk/security/gorilladesk-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Field Service
+- Field Service Management
 - Pest Control
 - Lawn Care
 - Scheduling

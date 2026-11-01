@@ -5,37 +5,37 @@ api_specs:
   label: Keycloak Clients API
   slug: keycloak-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/openapi/keycloak-clients-api-openapi.yml
+  url: https://artifacts.apis.io/keycloak/openapi/keycloak-clients-api-openapi.yml
 - filename: keycloak-groups-api-openapi.yml
   format: yaml
   label: Keycloak Groups API
   slug: keycloak-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/openapi/keycloak-groups-api-openapi.yml
+  url: https://artifacts.apis.io/keycloak/openapi/keycloak-groups-api-openapi.yml
 - filename: keycloak-identity-providers-api-openapi.yml
   format: yaml
   label: Keycloak Identity Providers API
   slug: keycloak-identity-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/openapi/keycloak-identity-providers-api-openapi.yml
+  url: https://artifacts.apis.io/keycloak/openapi/keycloak-identity-providers-api-openapi.yml
 - filename: keycloak-realms-api-openapi.yml
   format: yaml
   label: Keycloak Realms API
   slug: keycloak-realms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/openapi/keycloak-realms-api-openapi.yml
+  url: https://artifacts.apis.io/keycloak/openapi/keycloak-realms-api-openapi.yml
 - filename: keycloak-roles-api-openapi.yml
   format: yaml
   label: Keycloak Roles API
   slug: keycloak-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/openapi/keycloak-roles-api-openapi.yml
+  url: https://artifacts.apis.io/keycloak/openapi/keycloak-roles-api-openapi.yml
 - filename: keycloak-users-api-openapi.yml
   format: yaml
   label: Keycloak Users API
   slug: keycloak-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/openapi/keycloak-users-api-openapi.yml
+  url: https://artifacts.apis.io/keycloak/openapi/keycloak-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: keycloak-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.keycloak.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 02:17:21 2026 GMT\n  hsts: false\ndomains:\n- domain: keycloak.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/security/keycloak-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/keycloak/security/keycloak-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Authentication

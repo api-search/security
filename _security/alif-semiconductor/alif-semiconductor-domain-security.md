@@ -27,7 +27,7 @@ source_filename: alif-semiconductor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: alifsemi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 05:14:43 2026 GMT\n  hsts: false\ndomains:\n- domain: alifsemi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alif-semiconductor/refs/heads/main/security/alif-semiconductor-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/alif-semiconductor/security/alif-semiconductor-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

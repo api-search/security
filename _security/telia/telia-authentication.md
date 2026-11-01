@@ -7,13 +7,13 @@ api_specs:
   label: Telia Company List Geographic Site API
   slug: telia-listgeographicsite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/openapi/telia-listgeographicsite-api-openapi.yml
+  url: https://artifacts.apis.io/telia/openapi/telia-listgeographicsite-api-openapi.yml
 - filename: telia-retrievegeographicsite-api-openapi.yml
   format: yaml
   label: Telia Company Retrieve Geographic Site API
   slug: telia-retrievegeographicsite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/openapi/telia-retrievegeographicsite-api-openapi.yml
+  url: https://artifacts.apis.io/telia/openapi/telia-retrievegeographicsite-api-openapi.yml
 auth_types:
 - oauth2
 - http-basic
@@ -155,7 +155,7 @@ source_yaml: "generated: '2026-07-25'\nmethod: searched\nsource: openapi/telia-l
   \ static source IP addresses must be whitelisted in Telia's ACL\n    by the Bulk Messaging Support team\n  sources:\n  - https://cdn.messaging.teliacompany.com/documents/developer/index.html\n- name: aceAudioStreamMtls\n  type: mutualTLS\n  surface: Telia ACE Audio Stream Forwarding (gRPC)\n  description: Telia connects outbound to a customer-implemented receiver and\n    authenticates with client certificates\n  sources:\n  - https://github.com/telia-oss/ace-audio-stream-forwarding-api\n- name: tunnistusOidc\n  type: openIdConnect\n  surface: Telia Tunnistus identification broker (Telia Finland)\n  issuer: https://tunnistus.telia.fi/uas\n  openIdConnectUrl: https://tunnistus.telia.fi/.well-known/openid-configuration\n  discovery_document: well-known/telia-openid-configuration.json\n  endpoints:\n    authorization: https://tunnistus.telia.fi/uas/oauth2/authorization\n    token: https://tunnistus.telia.fi/uas/oauth2/token\n    userinfo: https://tunnistus.telia.fi/uas/oauth2/userinfo\n \
   \   jwks: https://tunnistus.telia.fi/uas/oauth2/metadata.jwks\n    introspection: https://tunnistus.telia.fi/uas/oauth2/introspection\n    revocation: https://tunnistus.telia.fi/uas/oauth2/revocation\n  grant_types:\n  - authorization_code\n  - password\n  - client_credentials\n  - refresh_token\n  - urn:ietf:params:oauth:grant-type:saml2-bearer\n  - http://globalsign.com/iam/sso/oauth2/grant-type/sms-mt-otp\n  - http://globalsign.com/iam/sso/oauth2/grant-type/smtp-otp\n  scopes:\n  - openid\n  - userinfo\n  token_endpoint_auth_methods:\n  - client_secret_post\n  - client_secret_basic\n  - client_secret_jwt\n  - private_key_jwt\n  - none\n  id_token_signing_alg:\n  - RS256\n  - HS256\n  ciba: false\n  ciba_note: no backchannel_authentication_endpoint is advertised; CIBA is the\n    grant CAMARA specifies for network-based authorization, so no CIBA-capable\n    authorization server is publicly discoverable on Telia's estate\n  sources:\n  - https://tunnistus.telia.fi/.well-known/openid-configuration\n\
   - name: aceKnowledgeWebhookSignature\n  type: request-signing\n  surface: ACE Knowledge contact-method webhook (outbound to the customer)\n  header: X-ACE-Signature\n  algorithm: HMAC SHA256 (JWT)\n  claims:\n  - iss\n  - aud\n  - exp\n  - iat\n  - content_hash\n  - method\n  - path\n  optional: true\n  note: enabled per contact method by the editor, with a shared secret; Telia\n    recommends a secret of at least 32 characters\n  sources:\n  - https://github.com/telia-oss/ace-knowledge-docs/blob/master/REST/webhook.md\nonboarding:\n  self_serve: false\n  requirements:\n  - an existing Telia commercial agreement\n  - a whitelisted corporate email domain\n  - manual support approval of the developer account\n  - a second approval of the registered application\n  - a separate fee agreement per API (Telia Developer's Toolbox terms of use)\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/authentication/telia-authentication.yml
+source_yaml_url: https://artifacts.apis.io/telia/authentication/telia-authentication.yml
 summary_line: oauth2/http-basic/mutualTLS/openIdConnect/ip-allowlist/smpp-bind · 8 schemes
 tags:
 - Telecommunications

@@ -7,19 +7,19 @@ api_specs:
   label: Eco Quotes V1 API
   slug: eco-quotes-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/openapi/eco-quotes-v1-api-openapi.yml
+  url: https://artifacts.apis.io/eco/openapi/eco-quotes-v1-api-openapi.yml
 - filename: eco-quotes-v2-api-openapi.yml
   format: yaml
   label: Eco Quotes V2 API
   slug: eco-quotes-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/openapi/eco-quotes-v2-api-openapi.yml
+  url: https://artifacts.apis.io/eco/openapi/eco-quotes-v2-api-openapi.yml
 - filename: eco-quotes-v3-api-openapi.yml
   format: yaml
   label: Eco Quotes V3 API
   slug: eco-quotes-v3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/openapi/eco-quotes-v3-api-openapi.yml
+  url: https://artifacts.apis.io/eco/openapi/eco-quotes-v3-api-openapi.yml
 auth_types:
 - none
 description: 'The Eco Routes REST API (quote and intent endpoints) requires NO authentication. There are no securitySchemes declared in the OpenAPI and no API keys, tokens, or OAuth flows. Callers pass a dAppID identifier in the request body purely for attribution. Authorization instead lives at the onchain layer: solver registration/update uses signed requests, and all value movement is executed via EVM/SVM wallet signatures against non-custodial per-intent CREATE2 vault contracts. There is no account or credential provisioning surface.'
@@ -41,7 +41,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://docs.eco.com/api-reference/introduction\ndocs: https://docs.eco.com/api-reference/introduction\nsummary:\n  types: [none]\n  api_key_in: []\n  oauth2_flows: []\n  model: no-auth-with-attribution\ndescription: >-\n  The Eco Routes REST API (quote and intent endpoints) requires NO authentication.\n  There are no securitySchemes declared in the OpenAPI and no API keys, tokens, or\n  OAuth flows. Callers pass a dAppID identifier in the request body purely for\n  attribution. Authorization instead lives at the onchain layer: solver\n  registration/update uses signed requests, and all value movement is executed via\n  EVM/SVM wallet signatures against non-custodial per-intent CREATE2 vault\n  contracts. There is no account or credential provisioning surface.\nschemes: []\nonchain_authorization:\n  - mechanism: dAppID\n    location: request body\n    purpose: attribution only (not access control)\n  - mechanism: signed solver\
   \ requests\n    purpose: solver registration and quote submission\n  - mechanism: wallet signatures (EVM / SVM)\n    purpose: authorizing intent funding and settlement against vault contracts\n  - mechanism: Permit3 / Permit2\n    purpose: bounded token approvals and gasless intent authorization\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/authentication/eco-authentication.yml
+source_yaml_url: https://artifacts.apis.io/eco/authentication/eco-authentication.yml
 summary_line: none · 0 schemes
 tags:
 - Company

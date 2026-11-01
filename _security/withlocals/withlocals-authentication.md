@@ -7,31 +7,31 @@ api_specs:
   label: Withlocals Availability API
   slug: withlocals-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withlocals/refs/heads/main/openapi/withlocals-availability-api-openapi.yml
+  url: https://artifacts.apis.io/withlocals/openapi/withlocals-availability-api-openapi.yml
 - filename: withlocals-bookings-api-openapi.yml
   format: yaml
   label: Withlocals Bookings API
   slug: withlocals-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withlocals/refs/heads/main/openapi/withlocals-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/withlocals/openapi/withlocals-bookings-api-openapi.yml
 - filename: withlocals-products-api-openapi.yml
   format: yaml
   label: Withlocals Products API
   slug: withlocals-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withlocals/refs/heads/main/openapi/withlocals-products-api-openapi.yml
+  url: https://artifacts.apis.io/withlocals/openapi/withlocals-products-api-openapi.yml
 - filename: withlocals-supplier-api-openapi.yml
   format: yaml
   label: Withlocals Supplier API
   slug: withlocals-supplier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withlocals/refs/heads/main/openapi/withlocals-supplier-api-openapi.yml
+  url: https://artifacts.apis.io/withlocals/openapi/withlocals-supplier-api-openapi.yml
 - filename: withlocals-webhooks-api-openapi.yml
   format: yaml
   label: Withlocals Webhooks API
   slug: withlocals-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withlocals/refs/heads/main/openapi/withlocals-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/withlocals/openapi/withlocals-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -59,7 +59,7 @@ source_filename: withlocals-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-09'\nmethod: derived\nsource: openapi/withlocals-partner-api-openapi.yml\ndocs: https://developers.withlocals.com/api-reference/\nprobed: \"GET https://test-api.withlocals.com/v1/partner/products without a token returned HTTP 401 (2026-10-09)\"\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: opaque\n  description: |-\n    Per-partner opaque API token issued by Withlocals. Send on every\n    request as:\n\n        Authorization: Bearer <token>\n  sources:\n  - openapi/withlocals-partner-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/withlocals/refs/heads/main/authentication/withlocals-authentication.yml
+source_yaml_url: https://artifacts.apis.io/withlocals/authentication/withlocals-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

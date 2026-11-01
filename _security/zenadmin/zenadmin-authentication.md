@@ -8,37 +8,37 @@ api_specs:
   label: ZenAdmin Catalog API
   slug: zenadmin-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenadmin/refs/heads/main/openapi/zenadmin-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/zenadmin/openapi/zenadmin-catalog-api-openapi.yml
 - filename: zenadmin-context-api-openapi.yml
   format: yaml
   label: ZenAdmin Context API
   slug: zenadmin-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenadmin/refs/heads/main/openapi/zenadmin-context-api-openapi.yml
+  url: https://artifacts.apis.io/zenadmin/openapi/zenadmin-context-api-openapi.yml
 - filename: zenadmin-devices-api-openapi.yml
   format: yaml
   label: ZenAdmin Devices API
   slug: zenadmin-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenadmin/refs/heads/main/openapi/zenadmin-devices-api-openapi.yml
+  url: https://artifacts.apis.io/zenadmin/openapi/zenadmin-devices-api-openapi.yml
 - filename: zenadmin-employees-api-openapi.yml
   format: yaml
   label: ZenAdmin Employees API
   slug: zenadmin-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenadmin/refs/heads/main/openapi/zenadmin-employees-api-openapi.yml
+  url: https://artifacts.apis.io/zenadmin/openapi/zenadmin-employees-api-openapi.yml
 - filename: zenadmin-orders-api-openapi.yml
   format: yaml
   label: ZenAdmin Orders API
   slug: zenadmin-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenadmin/refs/heads/main/openapi/zenadmin-orders-api-openapi.yml
+  url: https://artifacts.apis.io/zenadmin/openapi/zenadmin-orders-api-openapi.yml
 - filename: zenadmin-webhooks-api-openapi.yml
   format: yaml
   label: ZenAdmin Webhooks API
   slug: zenadmin-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenadmin/refs/heads/main/openapi/zenadmin-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/zenadmin/openapi/zenadmin-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -73,7 +73,7 @@ source_filename: zenadmin-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://docs.zenadmin.ai\ndocs: https://docs.zenadmin.ai\nnotes: >-\n  API-key authentication only; no OAuth2/OIDC. The key is created in the ZenAdmin\n  console and shown once. Send it as the x-api-key header (recommended) or as an\n  Authorization Bearer token. Per-key rate limit 60 req/min (burst 120).\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyHeader\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: Per-key API key. Shown once at creation. Rate limit 60 req/min (burst 120).\n  sources:\n  - openapi/zenadmin-external-api.yml\n- name: ApiKeyBearer\n  type: http\n  scheme: bearer\n  description: 'The API key may alternatively be sent as: Authorization Bearer <api-key>.'\n  sources:\n  - openapi/zenadmin-external-api.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zenadmin/refs/heads/main/authentication/zenadmin-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zenadmin/authentication/zenadmin-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

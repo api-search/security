@@ -7,25 +7,25 @@ api_specs:
   label: ForceDream Account API
   slug: forcedream-ai-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forcedream-ai/refs/heads/main/openapi/forcedream-ai-account-api-openapi.yml
+  url: https://artifacts.apis.io/forcedream-ai/openapi/forcedream-ai-account-api-openapi.yml
 - filename: forcedream-ai-agents-api-openapi.yml
   format: yaml
   label: ForceDream Agents API
   slug: forcedream-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forcedream-ai/refs/heads/main/openapi/forcedream-ai-agents-api-openapi.yml
+  url: https://artifacts.apis.io/forcedream-ai/openapi/forcedream-ai-agents-api-openapi.yml
 - filename: forcedream-ai-signup-api-openapi.yml
   format: yaml
   label: ForceDream Signup API
   slug: forcedream-ai-signup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forcedream-ai/refs/heads/main/openapi/forcedream-ai-signup-api-openapi.yml
+  url: https://artifacts.apis.io/forcedream-ai/openapi/forcedream-ai-signup-api-openapi.yml
 - filename: forcedream-ai-workforce-api-openapi.yml
   format: yaml
   label: ForceDream Workforce API
   slug: forcedream-ai-workforce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forcedream-ai/refs/heads/main/openapi/forcedream-ai-workforce-api-openapi.yml
+  url: https://artifacts.apis.io/forcedream-ai/openapi/forcedream-ai-workforce-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -107,7 +107,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://www.for
   \  flows:\n    authorizationCode:\n      authorizationUrl: https://api.forcedream.ai/v1/oauth/authorize\n      tokenUrl: https://api.forcedream.ai/v1/oauth/token\n      refreshUrl: https://api.forcedream.ai/v1/oauth/token\n      scopes:\n        'mcp:invoke': Invoke tools that spend balance (AS metadata scopes_supported)\n        'mcp:tools': Access the tool surface (AS metadata scopes_supported)\n        'agent.execute': Discover, price and execute ForceDream agents, and retrieve the signed record of what ran (A2A card)\n  issuer: https://api.forcedream.ai\n  metadata: well-known/forcedream-ai-oauth-authorization-server.json\n  protected_resource_metadata: well-known/forcedream-ai-oauth-protected-resource.json\n  registration_endpoint: https://api.forcedream.ai/v1/oauth/register\n  dynamic_client_registration: RFC 7591 — \"Registration requires no pre-shared credential and no human step. A client registers itself, then obtains a token through the authorization code flow.\"\n  pkce: S256\n\
   \  grant_types: [authorization_code, refresh_token]\n  token_endpoint_auth_methods: [none, client_secret_post]\n  detail: scopes/forcedream-ai-scopes.yml\n  sources:\n  - well-known/forcedream-ai-oauth-authorization-server.json\n  - a2a/forcedream-ai-agent-card.json\n  - https://github.com/forcedreamai/forcedream-mcp/blob/main/README.md\n- name: anonymous\n  type: none\n  description: No credential required.\n  applies_to:\n    - GET /v1/agents/list, GET /v1/agents/reliability, POST /v1/procure, GET /v1/workforce/proof/{task_id}/public, GET /v1/workforce/proof/public-key, GET /v1/health, GET /v1/status, GET /v1/capabilities, GET /v1/factory/dashboard\n    - MCP tools forcedream_search_agents, forcedream_search_costs, forcedream_search_reliability, forcedream_search_providers, forcedream_plan_work, forcedream_verify_proof, forcedream_get_execution; MCP initialize / tools/list / prompts/list / resources/list\n    - A2A card and per-agent cards; an anonymous message/send returns an agent\
   \ greeting\nconsole_login:\n  methods: [GitHub OAuth, Google OAuth, email]\n  note: '\"OAuth: GitHub and Google. No password storage.\" (trust/controls)'\nmachine_credential_errors:\n  rest: '401 {\"error\":\"auth_required\"} / {\"error\":\"Invalid API key\"}'\n  mcp: 'JSON-RPC -32001 authentication_required with data.acquisition (signup endpoint, credential field, credit grant) — see errors/forcedream-ai-problem-types.yml'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forcedream-ai/refs/heads/main/authentication/forcedream-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/forcedream-ai/authentication/forcedream-ai-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
 - AI Agents

@@ -8,13 +8,13 @@ api_specs:
   label: b.well Users API
   slug: b-well-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/openapi/b-well-users-api-openapi.yml
+  url: https://artifacts.apis.io/b-well/openapi/b-well-users-api-openapi.yml
 - filename: b-well-webhook-api-openapi.yml
   format: yaml
   label: b.well Webhook API
   slug: b-well-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/openapi/b-well-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/b-well/openapi/b-well-webhook-api-openapi.yml
 auth_types:
 - oauth2
 - apiKey
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-08-06'\nmethod: searched\nsource: openapi/b-well-
   \    jwks_uri: https://cognito-idp.us-east-1.amazonaws.com/us-east-1_Y8fODO5Z7/.well-known/jwks.json\n    token_endpoint_auth_methods_supported: [client_secret_basic, client_secret_post]\n    id_token_signing_alg_values_supported: [RS256]\n    response_types_supported: [code, token]\n  sandbox:\n    file: well-known/b-well-smart-configuration-sandbox.json\n    source: https://fhir.client-sandbox.icanbwell.com/.well-known/smart-configuration\n    issuer: https://cognito-idp.us-east-1.amazonaws.com/us-east-1_yiNhNGXZ7\nschemes:\n- name: HMACAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: HMAC-SHA512 signature over the canonical signed-header set; the signature\n    is carried in the Authorization header.\n  sources:\n  - openapi/b-well-user-data-operations-openapi.json\n- name: HMACContentSHA512\n  type: apiKey\n  in: header\n  parameter: x-bwell-content-sha512\n  description: The Base64 encoded SHA512 hash of request content.\n  sources:\n  - openapi/b-well-user-data-operations-openapi.json\n\
   - name: HMACHost\n  type: apiKey\n  in: header\n  parameter: Host\n  description: The DNS Host associated with the request.\n  sources:\n  - openapi/b-well-user-data-operations-openapi.json\n- name: HMACDate\n  type: apiKey\n  in: header\n  parameter: x-bwell-date\n  description: UTC Timestamp in RFC1123 format.\n  sources:\n  - openapi/b-well-user-data-operations-openapi.json\n- name: HMACClientUserToken\n  type: apiKey\n  in: header\n  parameter: x-bwell-client-user-token\n  description: Client specific user authentication token.\n  sources:\n  - openapi/b-well-user-data-operations-openapi.json\n- name: HMACClientKey\n  type: apiKey\n  in: header\n  parameter: x-bwell-client-key\n  description: Client key. Provided to the client by b.well.\n  sources:\n  - openapi/b-well-user-data-operations-openapi.json\n- name: BearerToken\n  type: http\n  scheme: bearer\n  description: b.well access token used on the Application APIs, the FHIR Server and\n    the MCP server.\n  sources:\n  - https://developer.bwell.com/docs/system-auth\n\
   \  - https://developer.bwell.com/docs/mcp-anthropic\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/authentication/b-well-authentication.yml
+source_yaml_url: https://artifacts.apis.io/b-well/authentication/b-well-authentication.yml
 summary_line: oauth2/apiKey · 7 schemes
 tags:
 - Company

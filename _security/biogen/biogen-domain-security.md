@@ -5,19 +5,19 @@ api_specs:
   label: Biogen Keys API
   slug: biogen-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/openapi/biogen-keys-api-openapi.yml
+  url: https://artifacts.apis.io/biogen/openapi/biogen-keys-api-openapi.yml
 - filename: biogen-services-api-openapi.yml
   format: yaml
   label: Biogen Services API
   slug: biogen-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/openapi/biogen-services-api-openapi.yml
+  url: https://artifacts.apis.io/biogen/openapi/biogen-services-api-openapi.yml
 - filename: biogen-export-api-openapi.yml
   format: yaml
   label: Biogen Export API
   slug: biogen-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/openapi/biogen-export-api-openapi.yml
+  url: https://artifacts.apis.io/biogen/openapi/biogen-export-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: biogen-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.biogen.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 23:59:59 2026 GMT\n  hsts: null\n- host: www.biogen.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 19 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: biogen.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/security/biogen-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/biogen/security/biogen-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Biotechnology

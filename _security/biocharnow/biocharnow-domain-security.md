@@ -26,7 +26,7 @@ source_filename: biocharnow-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: biocharnow.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 12:09:47 2026 GMT\n  hsts: false\ndomains:\n- domain: biocharnow.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/biocharnow/refs/heads/main/security/biocharnow-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/biocharnow/security/biocharnow-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

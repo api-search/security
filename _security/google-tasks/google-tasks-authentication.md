@@ -7,13 +7,13 @@ api_specs:
   label: Google Tasks Lists API
   slug: google-tasks-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tasks/refs/heads/main/openapi/google-tasks-lists-api-openapi.yml
+  url: https://artifacts.apis.io/google-tasks/openapi/google-tasks-lists-api-openapi.yml
 - filename: google-tasks-users-api-openapi.yml
   format: yaml
   label: Google Tasks Users API
   slug: google-tasks-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tasks/refs/heads/main/openapi/google-tasks-users-api-openapi.yml
+  url: https://artifacts.apis.io/google-tasks/openapi/google-tasks-users-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -44,7 +44,7 @@ source_filename: google-tasks-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tasks.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 2\n  sources:\n  - openapi/tasks.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-tasks/refs/heads/main/authentication/google-tasks-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-tasks/authentication/google-tasks-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Google

@@ -36,7 +36,7 @@ source_filename: menusifu-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts; api.menusifu.com probed directly 2026-08-25\nhosts:\n- host: www.menusifu.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  3 11:29:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.menusifu.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 18 23:59:59 2027 GMT\n  cert_issuer: Amazon RSA 2048 M04\n  hsts: false\n  hsts_max_age: null\n  note: 'Production API host, added by hand — it is not named in apis.yml apis[] because MenuSifu publishes\n    no API entry. Probed 2026-08-25: HTTP/2, no Strict-Transport-Security header, x-content-type-options\n    nosniff and x-frame-options DENY present; highest TLS version negotiated by openssl s_client was TLSv1.2.'\ndomains:\n- domain: menusifu.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/menusifu/refs/heads/main/security/menusifu-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/menusifu/security/menusifu-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

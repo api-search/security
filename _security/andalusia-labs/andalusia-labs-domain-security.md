@@ -38,7 +38,7 @@ source_filename: andalusia-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: andalusia-labs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 20:13:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: opengdp.network\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 19:23:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: andalusia-labs.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: opengdp.network\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/andalusia-labs/refs/heads/main/security/andalusia-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/andalusia-labs/security/andalusia-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

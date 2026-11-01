@@ -5,25 +5,25 @@ api_specs:
   label: Soda Health Docs API
   slug: soda-health-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/openapi/soda-health-docs-api-openapi.yml
+  url: https://artifacts.apis.io/soda-health/openapi/soda-health-docs-api-openapi.yml
 - filename: soda-health-docs-auth-api-openapi.yml
   format: yaml
   label: Soda Health Docs Auth API
   slug: soda-health-docs-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/openapi/soda-health-docs-auth-api-openapi.yml
+  url: https://artifacts.apis.io/soda-health/openapi/soda-health-docs-auth-api-openapi.yml
 - filename: soda-health-evermore-docs-portal-api-openapi.yml
   format: yaml
   label: Soda Health Evermore Docs Portal API
   slug: soda-health-evermore-docs-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/openapi/soda-health-evermore-docs-portal-api-openapi.yml
+  url: https://artifacts.apis.io/soda-health/openapi/soda-health-evermore-docs-portal-api-openapi.yml
 - filename: soda-health-health-api-openapi.yml
   format: yaml
   label: Soda Health API
   slug: soda-health-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/openapi/soda-health-health-api-openapi.yml
+  url: https://artifacts.apis.io/soda-health/openapi/soda-health-health-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: soda-health-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.evermoreoutcomes.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 20:38:36 2026 GMT\n  hsts: null\ndomains:\n- domain: evermoreoutcomes.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/security/soda-health-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/soda-health/security/soda-health-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

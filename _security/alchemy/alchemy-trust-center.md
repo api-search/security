@@ -5,37 +5,37 @@ api_specs:
   label: Alchemy Node API (JSON-RPC)
   slug: node-rpc
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/asyncapi/alchemy-asyncapi.yml
+  url: https://artifacts.apis.io/alchemy/asyncapi/alchemy-asyncapi.yml
 - filename: alchemy-transfers-api-openapi.yml
   format: yaml
   label: Alchemy Transfers API
   slug: transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/openapi/alchemy-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/alchemy/openapi/alchemy-transfers-api-openapi.yml
 - filename: alchemy-paymaster-api-openapi.yml
   format: yaml
   label: Alchemy Paymaster API
   slug: alchemy-paymaster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/openapi/alchemy-paymaster-api-openapi.yml
+  url: https://artifacts.apis.io/alchemy/openapi/alchemy-paymaster-api-openapi.yml
 - filename: alchemy-policies-api-openapi.yml
   format: yaml
   label: Alchemy Policies API
   slug: alchemy-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/openapi/alchemy-policies-api-openapi.yml
+  url: https://artifacts.apis.io/alchemy/openapi/alchemy-policies-api-openapi.yml
 - filename: alchemy-token-balances-api-openapi.yml
   format: yaml
   label: Alchemy Token Balances API
   slug: alchemy-token-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/openapi/alchemy-token-balances-api-openapi.yml
+  url: https://artifacts.apis.io/alchemy/openapi/alchemy-token-balances-api-openapi.yml
 - filename: alchemy-token-metadata-api-openapi.yml
   format: yaml
   label: Alchemy Token Metadata API
   slug: alchemy-token-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/openapi/alchemy-token-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/alchemy/openapi/alchemy-token-metadata-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2
@@ -52,7 +52,7 @@ source_filename: alchemy-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.alchemy.com/security\nurl: https://www.alchemy.com/security\ncertifications:\n- SOC 2\nevidence:\n- source: https://www.alchemy.com/security\n  keywords:\n  - soc 2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/security/alchemy-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/alchemy/security/alchemy-trust-center.yml
 summary_line: SOC 2
 tags:
 - Web3

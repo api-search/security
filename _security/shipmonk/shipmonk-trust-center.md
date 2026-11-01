@@ -5,43 +5,43 @@ api_specs:
   label: ShipMonk Webhooks
   slug: shipmonk-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/asyncapi/shipmonk-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/shipmonk/asyncapi/shipmonk-webhooks-asyncapi.yml
 - filename: shipmonk-orders-api-openapi.yml
   format: yaml
   label: ShipMonk Orders API
   slug: shipmonk-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/openapi/shipmonk-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shipmonk/openapi/shipmonk-orders-api-openapi.yml
 - filename: shipmonk-products-api-openapi.yml
   format: yaml
   label: ShipMonk Products API
   slug: shipmonk-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/openapi/shipmonk-products-api-openapi.yml
+  url: https://artifacts.apis.io/shipmonk/openapi/shipmonk-products-api-openapi.yml
 - filename: shipmonk-receivings-api-openapi.yml
   format: yaml
   label: ShipMonk Receivings API
   slug: shipmonk-receivings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/openapi/shipmonk-receivings-api-openapi.yml
+  url: https://artifacts.apis.io/shipmonk/openapi/shipmonk-receivings-api-openapi.yml
 - filename: shipmonk-returns-api-openapi.yml
   format: yaml
   label: ShipMonk Returns API
   slug: shipmonk-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/openapi/shipmonk-returns-api-openapi.yml
+  url: https://artifacts.apis.io/shipmonk/openapi/shipmonk-returns-api-openapi.yml
 - filename: shipmonk-warehouses-api-openapi.yml
   format: yaml
   label: ShipMonk Warehouses API
   slug: shipmonk-warehouses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/openapi/shipmonk-warehouses-api-openapi.yml
+  url: https://artifacts.apis.io/shipmonk/openapi/shipmonk-warehouses-api-openapi.yml
 - filename: shipmonk-webhooks-api-openapi.yml
   format: yaml
   label: ShipMonk Webhooks API
   slug: shipmonk-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/openapi/shipmonk-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/shipmonk/openapi/shipmonk-webhooks-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2 Type II
@@ -59,7 +59,7 @@ source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: searched\nprobe: true\nsource: https://www.shipmonk.com/resources/content-hub/soc-2-type-ii-compliance\ndescription: >-\n  ShipMonk has no dedicated trust center (trust.shipmonk.com does not resolve and\n  /security returns no policy content), but it does publish its compliance posture:\n  a completed SOC 2 Type II audit announced 2026-02-12.\nurl: null\ncertifications:\n- name: SOC 2 Type II\n  status: attained\n  announced: '2026-02-12'\n  framework_owner: AICPA\n  source: https://www.shipmonk.com/resources/content-hub/soc-2-type-ii-compliance\n  note: >-\n    Type II attestation — controls assessed as both well designed and operating\n    effectively over a period. The report itself is not published publicly.\ncertifications_not_found: [ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, CSA STAR, FIPS 140]\nhosts_checked:\n- {url: 'https://trust.shipmonk.com', status: unresolved}\n- {url: 'https://www.shipmonk.com/security', status:\
   \ 'no disclosure/compliance content'}\nevidence:\n- source: https://www.shipmonk.com/resources/content-hub/soc-2-type-ii-compliance\n  keywords: [soc 2 type ii, aicpa, internal security controls]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/security/shipmonk-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/shipmonk/security/shipmonk-trust-center.yml
 summary_line: SOC 2 Type II
 tags:
 - Logistics

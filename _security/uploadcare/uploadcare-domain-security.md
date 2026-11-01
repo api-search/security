@@ -5,55 +5,55 @@ api_specs:
   label: Uploadcare Add-Ons API
   slug: uploadcare-add-ons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-add-ons-api-openapi.yml
+  url: https://artifacts.apis.io/uploadcare/openapi/uploadcare-add-ons-api-openapi.yml
 - filename: uploadcare-conversion-api-openapi.yml
   format: yaml
   label: Uploadcare Conversion API
   slug: uploadcare-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/uploadcare/openapi/uploadcare-conversion-api-openapi.yml
 - filename: uploadcare-file-api-openapi.yml
   format: yaml
   label: Uploadcare File API
   slug: uploadcare-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-file-api-openapi.yml
+  url: https://artifacts.apis.io/uploadcare/openapi/uploadcare-file-api-openapi.yml
 - filename: uploadcare-file-information-api-openapi.yml
   format: yaml
   label: Uploadcare File information API
   slug: uploadcare-file-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-file-information-api-openapi.yml
+  url: https://artifacts.apis.io/uploadcare/openapi/uploadcare-file-information-api-openapi.yml
 - filename: uploadcare-file-metadata-api-openapi.yml
   format: yaml
   label: Uploadcare File metadata API
   slug: uploadcare-file-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-file-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/uploadcare/openapi/uploadcare-file-metadata-api-openapi.yml
 - filename: uploadcare-file-names-api-openapi.yml
   format: yaml
   label: Uploadcare File names API
   slug: uploadcare-file-names-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-file-names-api-openapi.yml
+  url: https://artifacts.apis.io/uploadcare/openapi/uploadcare-file-names-api-openapi.yml
 - filename: uploadcare-group-api-openapi.yml
   format: yaml
   label: Uploadcare Group API
   slug: uploadcare-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-group-api-openapi.yml
+  url: https://artifacts.apis.io/uploadcare/openapi/uploadcare-group-api-openapi.yml
 - filename: uploadcare-project-api-openapi.yml
   format: yaml
   label: Uploadcare Project API
   slug: uploadcare-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-project-api-openapi.yml
+  url: https://artifacts.apis.io/uploadcare/openapi/uploadcare-project-api-openapi.yml
 - filename: uploadcare-webhook-api-openapi.yml
   format: yaml
   label: Uploadcare Webhook API
   slug: uploadcare-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/uploadcare/openapi/uploadcare-webhook-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -97,7 +97,7 @@ source_filename: uploadcare-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: uploadcare.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 11 23:59:59 2027 GMT\n  hsts: false\n- host: api.uploadcare.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 27 23:59:59 2026 GMT\n  hsts: null\n- host: upload.uploadcare.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 11 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: uploadcare.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazon.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/security/uploadcare-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/uploadcare/security/uploadcare-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - File Upload

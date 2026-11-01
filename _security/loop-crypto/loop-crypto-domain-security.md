@@ -43,7 +43,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: dig against public resolvers (1.1.1.1, 8.8.8.8) and the registrar authoritative nameservers\nnote: >-\n  Loop Crypto is winding down (folding into Lead, service sunset 2026-02-13). As of this\n  probe the apex and subdomain A records no longer resolve on public resolvers, so the live\n  TLS/HSTS posture of the hosts could not be measured. The DNS zone (TXT/SPF/DMARC/DNSSEC)\n  is still published. Absence of A records is recorded as observed, not inferred.\nhosts:\n  - {host: www.loopcrypto.xyz, https: null, tls_version: null, hsts: null, note: no A record resolvable}\n  - {host: api.loopcrypto.xyz, https: null, tls_version: null, hsts: null, note: no A record resolvable}\n  - {host: docs.loopcrypto.xyz, https: null, tls_version: null, hsts: null, note: no A record resolvable}\ndomains:\n  - domain: loopcrypto.xyz\n    dnssec: true\n    dnssec_ds: 36245 13 1 737EF604740A71957D585EE77AE131395D48BDEB\n    caa: []\n    spf: true\n\
   \    spf_record: \"v=spf1 include:_spf.google.com include:22357071.spf04.hubspotemail.net mx ~all\"\n    dmarc: true\n    dmarc_policy: reject\n    dmarc_subdomain_policy: reject\n    dmarc_pct: 100\n    dmarc_record: \"v=DMARC1; p=reject; sp=reject; rua=mailto:dmarc_reports@loopcrypto.xyz,mailto:mike@loopcrypto.xyz; ruf=mailto:dmarc_reports@loopcrypto.xyz,mailto:mike@loopcrypto.xyz; rf=afrf; pct=100; ri=86400\"\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loop-crypto/refs/heads/main/security/loop-crypto-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/loop-crypto/security/loop-crypto-domain-security.yml
 summary_line: DNSSEC · DMARC
 tags:
 - Company

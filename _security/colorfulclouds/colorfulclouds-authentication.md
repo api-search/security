@@ -8,37 +8,37 @@ api_specs:
   label: ColorfulClouds Air Quality API
   slug: colorfulclouds-air-quality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colorfulclouds/refs/heads/main/openapi/colorfulclouds-air-quality-api-openapi.yml
+  url: https://artifacts.apis.io/colorfulclouds/openapi/colorfulclouds-air-quality-api-openapi.yml
 - filename: colorfulclouds-alerts-api-openapi.yml
   format: yaml
   label: ColorfulClouds Alerts API
   slug: colorfulclouds-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colorfulclouds/refs/heads/main/openapi/colorfulclouds-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/colorfulclouds/openapi/colorfulclouds-alerts-api-openapi.yml
 - filename: colorfulclouds-forecast-api-openapi.yml
   format: yaml
   label: ColorfulClouds Forecast API
   slug: colorfulclouds-forecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colorfulclouds/refs/heads/main/openapi/colorfulclouds-forecast-api-openapi.yml
+  url: https://artifacts.apis.io/colorfulclouds/openapi/colorfulclouds-forecast-api-openapi.yml
 - filename: colorfulclouds-precipitation-map-api-openapi.yml
   format: yaml
   label: ColorfulClouds Precipitation Map API
   slug: colorfulclouds-precipitation-map-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colorfulclouds/refs/heads/main/openapi/colorfulclouds-precipitation-map-api-openapi.yml
+  url: https://artifacts.apis.io/colorfulclouds/openapi/colorfulclouds-precipitation-map-api-openapi.yml
 - filename: colorfulclouds-realtime-api-openapi.yml
   format: yaml
   label: ColorfulClouds Realtime API
   slug: colorfulclouds-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colorfulclouds/refs/heads/main/openapi/colorfulclouds-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/colorfulclouds/openapi/colorfulclouds-realtime-api-openapi.yml
 - filename: colorfulclouds-weather-api-openapi.yml
   format: yaml
   label: ColorfulClouds Weather API
   slug: colorfulclouds-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colorfulclouds/refs/heads/main/openapi/colorfulclouds-weather-api-openapi.yml
+  url: https://artifacts.apis.io/colorfulclouds/openapi/colorfulclouds-weather-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: colorfulclouds-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/colorfulclouds-caiyun-weather-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: pathToken\n  type: apiKey\n  in: query\n  parameter: token\n  description: Caiyun Weather API token. Note that the token is conventionally embedded in the\n    path between the API version and the lng,lat segment rather than sent as a header or query\n    parameter. This security scheme is recorded for tooling completeness; clients should construct\n    the URL with the token in the path as documented.\n  sources:\n  - openapi/colorfulclouds-caiyun-weather-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/colorfulclouds/refs/heads/main/authentication/colorfulclouds-authentication.yml
+source_yaml_url: https://artifacts.apis.io/colorfulclouds/authentication/colorfulclouds-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Weather

@@ -5,13 +5,13 @@ api_specs:
   label: Reachware Inc. Cards API
   slug: reachware-inc-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reachware-inc/refs/heads/main/openapi/reachware-inc-cards-api-openapi.yml
+  url: https://artifacts.apis.io/reachware-inc/openapi/reachware-inc-cards-api-openapi.yml
 - filename: reachware-inc-payments-api-openapi.yml
   format: yaml
   label: Reachware Inc. Payments API
   slug: reachware-inc-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reachware-inc/refs/heads/main/openapi/reachware-inc-payments-api-openapi.yml
+  url: https://artifacts.apis.io/reachware-inc/openapi/reachware-inc-payments-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: reachware-inc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: reachware.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 23:44:51 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.reachware.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 23:44:51 2026 GMT\n  hsts: null\ndomains:\n- domain: reachware.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reachware-inc/refs/heads/main/security/reachware-inc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/reachware-inc/security/reachware-inc-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

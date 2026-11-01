@@ -5,7 +5,7 @@ api_specs:
   label: Tekton Task CRD
   slug: tekton-task-crd
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekton/refs/heads/main/openapi/_original/tekton-pipeline-openapi.json
+  url: https://artifacts.apis.io/tekton/openapi/_original/tekton-pipeline-openapi.json
 description: ''
 domains:
 - caa: []
@@ -34,7 +34,7 @@ source_filename: tekton-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tekton.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 20:39:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: tekton.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tekton/refs/heads/main/security/tekton-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tekton/security/tekton-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - DevOps

@@ -5,31 +5,31 @@ api_specs:
   label: Arccos Golf Clubs API
   slug: arccos-golf-clubs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arccos-golf/refs/heads/main/openapi/arccos-golf-clubs-api-openapi.yml
+  url: https://artifacts.apis.io/arccos-golf/openapi/arccos-golf-clubs-api-openapi.yml
 - filename: arccos-golf-courses-api-openapi.yml
   format: yaml
   label: Arccos Golf Courses API
   slug: arccos-golf-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arccos-golf/refs/heads/main/openapi/arccos-golf-courses-api-openapi.yml
+  url: https://artifacts.apis.io/arccos-golf/openapi/arccos-golf-courses-api-openapi.yml
 - filename: arccos-golf-rounds-api-openapi.yml
   format: yaml
   label: Arccos Golf Rounds API
   slug: arccos-golf-rounds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arccos-golf/refs/heads/main/openapi/arccos-golf-rounds-api-openapi.yml
+  url: https://artifacts.apis.io/arccos-golf/openapi/arccos-golf-rounds-api-openapi.yml
 - filename: arccos-golf-users-api-openapi.yml
   format: yaml
   label: Arccos Golf Users API
   slug: arccos-golf-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arccos-golf/refs/heads/main/openapi/arccos-golf-users-api-openapi.yml
+  url: https://artifacts.apis.io/arccos-golf/openapi/arccos-golf-users-api-openapi.yml
 - filename: arccos-golf-webhooks-api-openapi.yml
   format: yaml
   label: Arccos Golf Webhooks API
   slug: arccos-golf-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arccos-golf/refs/heads/main/openapi/arccos-golf-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/arccos-golf/openapi/arccos-golf-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: arccos-golf-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.arccosgolf.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 12:05:32 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\n- host: api.arccosgolf.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 27 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: arccosgolf.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arccos-golf/refs/heads/main/security/arccos-golf-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/arccos-golf/security/arccos-golf-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

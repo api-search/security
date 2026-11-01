@@ -5,13 +5,13 @@ api_specs:
   label: ClearVIN Authentication API
   slug: clearvin-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearvin/refs/heads/main/openapi/clearvin-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/clearvin/openapi/clearvin-authentication-api-openapi.yml
 - filename: clearvin-report-api-openapi.yml
   format: yaml
   label: ClearVIN Report API
   slug: clearvin-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearvin/refs/heads/main/openapi/clearvin-report-api-openapi.yml
+  url: https://artifacts.apis.io/clearvin/openapi/clearvin-report-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,7 +41,7 @@ source_filename: clearvin-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.clearvin.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 15:02:05 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: clearvin.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clearvin/refs/heads/main/security/clearvin-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/clearvin/security/clearvin-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - VIN

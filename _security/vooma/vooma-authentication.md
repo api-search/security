@@ -7,61 +7,61 @@ api_specs:
   label: Vooma Carriers API
   slug: vooma-carriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-carriers-api-openapi.yml
+  url: https://artifacts.apis.io/vooma/openapi/vooma-carriers-api-openapi.yml
 - filename: vooma-contacts-api-openapi.yml
   format: yaml
   label: Vooma Contacts API
   slug: vooma-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/vooma/openapi/vooma-contacts-api-openapi.yml
 - filename: vooma-customers-api-openapi.yml
   format: yaml
   label: Vooma Customers API
   slug: vooma-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-customers-api-openapi.yml
+  url: https://artifacts.apis.io/vooma/openapi/vooma-customers-api-openapi.yml
 - filename: vooma-locations-api-openapi.yml
   format: yaml
   label: Vooma Locations API
   slug: vooma-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-locations-api-openapi.yml
+  url: https://artifacts.apis.io/vooma/openapi/vooma-locations-api-openapi.yml
 - filename: vooma-movements-api-openapi.yml
   format: yaml
   label: Vooma Movements API
   slug: vooma-movements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-movements-api-openapi.yml
+  url: https://artifacts.apis.io/vooma/openapi/vooma-movements-api-openapi.yml
 - filename: vooma-quotes-api-openapi.yml
   format: yaml
   label: Vooma Quotes API
   slug: vooma-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/vooma/openapi/vooma-quotes-api-openapi.yml
 - filename: vooma-shipments-api-openapi.yml
   format: yaml
   label: Vooma Shipments API
   slug: vooma-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/vooma/openapi/vooma-shipments-api-openapi.yml
 - filename: vooma-tracking-status-api-openapi.yml
   format: yaml
   label: Vooma Tracking Status API
   slug: vooma-tracking-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-tracking-status-api-openapi.yml
+  url: https://artifacts.apis.io/vooma/openapi/vooma-tracking-status-api-openapi.yml
 - filename: vooma-webhooks-api-openapi.yml
   format: yaml
   label: Vooma Webhooks API
   slug: vooma-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/vooma/openapi/vooma-webhooks-api-openapi.yml
 - filename: vooma-api-api-openapi.yml
   format: yaml
   label: Vooma API
   slug: vooma-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-api-api-openapi.yml
+  url: https://artifacts.apis.io/vooma/openapi/vooma-api-api-openapi.yml
 auth_types:
 - http
 description: Auth profile for the Vooma Public API. All 25 REST operations require the "bearer" scheme — an organization API key sent as a bearer token (bearerFormat "API Key"). API keys are created by an organization admin in the Vooma app and require an enterprise license. The spec also defines a basic scheme and an "auth0" bearer JWT scheme (Auth0-issued user tokens for the app), but no public operation references them. Webhook callbacks Vooma sends to your server declare no security scheme in the spec.
@@ -102,7 +102,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/vooma-openapi-original.json\ndocs: https://docs.vooma.ai/api-reference/introduction\ndescription: >-\n  Auth profile for the Vooma Public API. All 25 REST operations require the\n  \"bearer\" scheme — an organization API key sent as a bearer token\n  (bearerFormat \"API Key\"). API keys are created by an organization admin in\n  the Vooma app and require an enterprise license. The spec also defines a\n  basic scheme and an \"auth0\" bearer JWT scheme (Auth0-issued user tokens for\n  the app), but no public operation references them. Webhook callbacks Vooma\n  sends to your server declare no security scheme in the spec.\nsummary:\n  types:\n  - http\n  http_schemes:\n  - basic\n  - bearer\n  api_key_style: bearer token (bearerFormat \"API Key\")\nschemes:\n- name: basic\n  type: http\n  scheme: basic\n  sources:\n  - openapi/vooma-openapi-original.json\n- name: bearer\n  type: http\n  scheme: bearer\n  bearerFormat:\
   \ API Key\n  description: Organization API key sent as a bearer token; used by all 25 public operations.\n  sources:\n  - openapi/vooma-openapi-original.json\n- name: auth0\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Auth0-issued JWT; defined in components.securitySchemes but not referenced by any public operation.\n  sources:\n  - openapi/vooma-openapi-original.json\nnotes:\n- You must be an organization admin to create an API key.\n- An enterprise license is required to develop against the Vooma Public API.\n- 'Support contact for auth failures: support@vooma.ai'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/authentication/vooma-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vooma/authentication/vooma-authentication.yml
 summary_line: http · 3 schemes
 tags:
 - Company

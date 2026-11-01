@@ -5,31 +5,31 @@ api_specs:
   label: Rugspull Read API Indexer API
   slug: rugspull-read-api-indexer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rugspull-read-api/refs/heads/main/openapi/rugspull-read-api-indexer-api-openapi.yml
+  url: https://artifacts.apis.io/rugspull-read-api/openapi/rugspull-read-api-indexer-api-openapi.yml
 - filename: rugspull-read-api-market-api-openapi.yml
   format: yaml
   label: Rugspull Read API Market API
   slug: rugspull-read-api-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rugspull-read-api/refs/heads/main/openapi/rugspull-read-api-market-api-openapi.yml
+  url: https://artifacts.apis.io/rugspull-read-api/openapi/rugspull-read-api-market-api-openapi.yml
 - filename: rugspull-read-api-objects-api-openapi.yml
   format: yaml
   label: Rugspull Read API Objects API
   slug: rugspull-read-api-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rugspull-read-api/refs/heads/main/openapi/rugspull-read-api-objects-api-openapi.yml
+  url: https://artifacts.apis.io/rugspull-read-api/openapi/rugspull-read-api-objects-api-openapi.yml
 - filename: rugspull-read-api-rugs-api-openapi.yml
   format: yaml
   label: Rugspull Read API Rugs API
   slug: rugspull-read-api-rugs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rugspull-read-api/refs/heads/main/openapi/rugspull-read-api-rugs-api-openapi.yml
+  url: https://artifacts.apis.io/rugspull-read-api/openapi/rugspull-read-api-rugs-api-openapi.yml
 - filename: rugspull-read-api-service-api-openapi.yml
   format: yaml
   label: Rugspull Read API Service API
   slug: rugspull-read-api-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rugspull-read-api/refs/heads/main/openapi/rugspull-read-api-service-api-openapi.yml
+  url: https://artifacts.apis.io/rugspull-read-api/openapi/rugspull-read-api-service-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: rugspull-read-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: rugspull.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 19:05:27 2026 GMT\n  hsts: false\ndomains:\n- domain: rugspull.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rugspull-read-api/refs/heads/main/security/rugspull-read-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rugspull-read-api/security/rugspull-read-api-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - BNB Smart Chain

@@ -5,61 +5,61 @@ api_specs:
   label: OpenCart Affiliates API
   slug: opencart-affiliates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opencart/refs/heads/main/openapi/opencart-affiliates-api-openapi.yml
+  url: https://artifacts.apis.io/opencart/openapi/opencart-affiliates-api-openapi.yml
 - filename: opencart-authentication-api-openapi.yml
   format: yaml
   label: OpenCart Authentication API
   slug: opencart-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opencart/refs/heads/main/openapi/opencart-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/opencart/openapi/opencart-authentication-api-openapi.yml
 - filename: opencart-cart-api-openapi.yml
   format: yaml
   label: OpenCart Cart API
   slug: opencart-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opencart/refs/heads/main/openapi/opencart-cart-api-openapi.yml
+  url: https://artifacts.apis.io/opencart/openapi/opencart-cart-api-openapi.yml
 - filename: opencart-customer-api-openapi.yml
   format: yaml
   label: OpenCart Customer API
   slug: opencart-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opencart/refs/heads/main/openapi/opencart-customer-api-openapi.yml
+  url: https://artifacts.apis.io/opencart/openapi/opencart-customer-api-openapi.yml
 - filename: opencart-orders-api-openapi.yml
   format: yaml
   label: OpenCart Orders API
   slug: opencart-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opencart/refs/heads/main/openapi/opencart-orders-api-openapi.yml
+  url: https://artifacts.apis.io/opencart/openapi/opencart-orders-api-openapi.yml
 - filename: opencart-payment-address-api-openapi.yml
   format: yaml
   label: OpenCart Payment Address API
   slug: opencart-payment-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opencart/refs/heads/main/openapi/opencart-payment-address-api-openapi.yml
+  url: https://artifacts.apis.io/opencart/openapi/opencart-payment-address-api-openapi.yml
 - filename: opencart-payment-methods-api-openapi.yml
   format: yaml
   label: OpenCart Payment Methods API
   slug: opencart-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opencart/refs/heads/main/openapi/opencart-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/opencart/openapi/opencart-payment-methods-api-openapi.yml
 - filename: opencart-shipping-address-api-openapi.yml
   format: yaml
   label: OpenCart Shipping Address API
   slug: opencart-shipping-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opencart/refs/heads/main/openapi/opencart-shipping-address-api-openapi.yml
+  url: https://artifacts.apis.io/opencart/openapi/opencart-shipping-address-api-openapi.yml
 - filename: opencart-shipping-methods-api-openapi.yml
   format: yaml
   label: OpenCart Shipping Methods API
   slug: opencart-shipping-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opencart/refs/heads/main/openapi/opencart-shipping-methods-api-openapi.yml
+  url: https://artifacts.apis.io/opencart/openapi/opencart-shipping-methods-api-openapi.yml
 - filename: opencart-subscriptions-api-openapi.yml
   format: yaml
   label: OpenCart Subscriptions API
   slug: opencart-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opencart/refs/heads/main/openapi/opencart-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/opencart/openapi/opencart-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -106,7 +106,7 @@ source_filename: opencart-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.opencart.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 23:59:59 2026 GMT\n  hsts: null\n- host: docs.opencart.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 21:32:18 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: yourstore.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 18 14:52:39 2027 GMT\n  hsts: null\ndomains:\n- domain: opencart.com\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: yourstore.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opencart/refs/heads/main/security/opencart-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/opencart/security/opencart-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - E-Commerce

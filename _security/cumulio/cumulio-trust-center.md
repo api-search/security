@@ -5,25 +5,25 @@ api_specs:
   label: Cumulio Authorize API
   slug: cumulio-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cumulio/refs/heads/main/openapi/cumulio-authorize-api-openapi.yml
+  url: https://artifacts.apis.io/cumulio/openapi/cumulio-authorize-api-openapi.yml
 - filename: cumulio-datasets-api-openapi.yml
   format: yaml
   label: Cumulio Datasets API
   slug: cumulio-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cumulio/refs/heads/main/openapi/cumulio-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/cumulio/openapi/cumulio-datasets-api-openapi.yml
 - filename: cumulio-exchange-api-openapi.yml
   format: yaml
   label: Cumulio Exchange API
   slug: cumulio-exchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cumulio/refs/heads/main/openapi/cumulio-exchange-api-openapi.yml
+  url: https://artifacts.apis.io/cumulio/openapi/cumulio-exchange-api-openapi.yml
 - filename: cumulio-query-api-openapi.yml
   format: yaml
   label: Cumulio Query API
   slug: cumulio-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cumulio/refs/heads/main/openapi/cumulio-query-api-openapi.yml
+  url: https://artifacts.apis.io/cumulio/openapi/cumulio-query-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -42,7 +42,7 @@ source_filename: cumulio-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: searched\nprobe: true\nsource: https://trust.luzmo.com/\nurl: https://trust.luzmo.com/\ncertifications:\n- SOC 2\n- HIPAA\n- GDPR\nevidence:\n- source: https://trust.luzmo.com/\n  keywords:\n  - soc 2\n  - soc2\n  - hipaa\n  - trust center\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cumulio/refs/heads/main/security/cumulio-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/cumulio/security/cumulio-trust-center.yml
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Company

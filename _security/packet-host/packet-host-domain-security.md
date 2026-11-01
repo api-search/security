@@ -5,241 +5,241 @@ api_specs:
   label: Packet Host Authentication API
   slug: packet-host-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-authentication-api-openapi.yml
 - filename: packet-host-batches-api-openapi.yml
   format: yaml
   label: Packet Host Batches API
   slug: packet-host-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-batches-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-batches-api-openapi.yml
 - filename: packet-host-bgp-api-openapi.yml
   format: yaml
   label: Packet Host BGP API
   slug: packet-host-bgp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-bgp-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-bgp-api-openapi.yml
 - filename: packet-host-capacity-api-openapi.yml
   format: yaml
   label: Packet Host Capacity API
   slug: packet-host-capacity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-capacity-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-capacity-api-openapi.yml
 - filename: packet-host-console-log-details-api-openapi.yml
   format: yaml
   label: Packet Host Console Log Details API
   slug: packet-host-console-log-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-console-log-details-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-console-log-details-api-openapi.yml
 - filename: packet-host-devices-api-openapi.yml
   format: yaml
   label: Packet Host Devices API
   slug: packet-host-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-devices-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-devices-api-openapi.yml
 - filename: packet-host-emails-api-openapi.yml
   format: yaml
   label: Packet Host Emails API
   slug: packet-host-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-emails-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-emails-api-openapi.yml
 - filename: packet-host-events-api-openapi.yml
   format: yaml
   label: Packet Host Events API
   slug: packet-host-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-events-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-events-api-openapi.yml
 - filename: packet-host-facilities-api-openapi.yml
   format: yaml
   label: Packet Host Facilities API
   slug: packet-host-facilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-facilities-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-facilities-api-openapi.yml
 - filename: packet-host-firmware-sets-api-openapi.yml
   format: yaml
   label: Packet Host Firmware Sets API
   slug: packet-host-firmware-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-firmware-sets-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-firmware-sets-api-openapi.yml
 - filename: packet-host-hardwarereservations-api-openapi.yml
   format: yaml
   label: Packet Host HardwareReservations API
   slug: packet-host-hardwarereservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-hardwarereservations-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-hardwarereservations-api-openapi.yml
 - filename: packet-host-incidents-api-openapi.yml
   format: yaml
   label: Packet Host Incidents API
   slug: packet-host-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-incidents-api-openapi.yml
 - filename: packet-host-interconnections-api-openapi.yml
   format: yaml
   label: Packet Host Interconnections API
   slug: packet-host-interconnections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-interconnections-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-interconnections-api-openapi.yml
 - filename: packet-host-invitations-api-openapi.yml
   format: yaml
   label: Packet Host Invitations API
   slug: packet-host-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-invitations-api-openapi.yml
 - filename: packet-host-invoices-api-openapi.yml
   format: yaml
   label: Packet Host Invoices API
   slug: packet-host-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-invoices-api-openapi.yml
 - filename: packet-host-licenses-api-openapi.yml
   format: yaml
   label: Packet Host Licenses API
   slug: packet-host-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-licenses-api-openapi.yml
 - filename: packet-host-memberships-api-openapi.yml
   format: yaml
   label: Packet Host Memberships API
   slug: packet-host-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-memberships-api-openapi.yml
 - filename: packet-host-metalgateways-api-openapi.yml
   format: yaml
   label: Packet Host MetalGateways API
   slug: packet-host-metalgateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-metalgateways-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-metalgateways-api-openapi.yml
 - filename: packet-host-metros-api-openapi.yml
   format: yaml
   label: Packet Host Metros API
   slug: packet-host-metros-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-metros-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-metros-api-openapi.yml
 - filename: packet-host-operatingsystems-api-openapi.yml
   format: yaml
   label: Packet Host OperatingSystems API
   slug: packet-host-operatingsystems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-operatingsystems-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-operatingsystems-api-openapi.yml
 - filename: packet-host-organizations-api-openapi.yml
   format: yaml
   label: Packet Host Organizations API
   slug: packet-host-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-organizations-api-openapi.yml
 - filename: packet-host-passwordresettokens-api-openapi.yml
   format: yaml
   label: Packet Host PasswordResetTokens API
   slug: packet-host-passwordresettokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-passwordresettokens-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-passwordresettokens-api-openapi.yml
 - filename: packet-host-plans-api-openapi.yml
   format: yaml
   label: Packet Host Plans API
   slug: packet-host-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-plans-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-plans-api-openapi.yml
 - filename: packet-host-ports-api-openapi.yml
   format: yaml
   label: Packet Host Ports API
   slug: packet-host-ports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-ports-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-ports-api-openapi.yml
 - filename: packet-host-projects-api-openapi.yml
   format: yaml
   label: Packet Host Projects API
   slug: packet-host-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-projects-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-projects-api-openapi.yml
 - filename: packet-host-selfservicereservations-api-openapi.yml
   format: yaml
   label: Packet Host SelfServiceReservations API
   slug: packet-host-selfservicereservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-selfservicereservations-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-selfservicereservations-api-openapi.yml
 - filename: packet-host-spotmarket-api-openapi.yml
   format: yaml
   label: Packet Host SpotMarket API
   slug: packet-host-spotmarket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-spotmarket-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-spotmarket-api-openapi.yml
 - filename: packet-host-supportrequest-api-openapi.yml
   format: yaml
   label: Packet Host SupportRequest API
   slug: packet-host-supportrequest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-supportrequest-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-supportrequest-api-openapi.yml
 - filename: packet-host-transferrequests-api-openapi.yml
   format: yaml
   label: Packet Host TransferRequests API
   slug: packet-host-transferrequests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-transferrequests-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-transferrequests-api-openapi.yml
 - filename: packet-host-usages-api-openapi.yml
   format: yaml
   label: Packet Host Usages API
   slug: packet-host-usages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-usages-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-usages-api-openapi.yml
 - filename: packet-host-users-api-openapi.yml
   format: yaml
   label: Packet Host Users API
   slug: packet-host-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-users-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-users-api-openapi.yml
 - filename: packet-host-userverificationtokens-api-openapi.yml
   format: yaml
   label: Packet Host UserVerificationTokens API
   slug: packet-host-userverificationtokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-userverificationtokens-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-userverificationtokens-api-openapi.yml
 - filename: packet-host-vlans-api-openapi.yml
   format: yaml
   label: Packet Host VLANs API
   slug: packet-host-vlans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-vlans-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-vlans-api-openapi.yml
 - filename: packet-host-vrfs-api-openapi.yml
   format: yaml
   label: Packet Host VRFs API
   slug: packet-host-vrfs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-vrfs-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-vrfs-api-openapi.yml
 - filename: packet-host-otps-api-openapi.yml
   format: yaml
   label: Packet Host OT Ps API
   slug: packet-host-otps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-otps-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-otps-api-openapi.yml
 - filename: packet-host-ip-addresses-api-openapi.yml
   format: yaml
   label: Packet Host IP Addresses API
   slug: packet-host-ip-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-ip-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-ip-addresses-api-openapi.yml
 - filename: packet-host-payment-methods-api-openapi.yml
   format: yaml
   label: Packet Host Payment Methods API
   slug: packet-host-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-payment-methods-api-openapi.yml
 - filename: packet-host-ssh-keys-api-openapi.yml
   format: yaml
   label: Packet Host SSH Keys API
   slug: packet-host-ssh-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-ssh-keys-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-ssh-keys-api-openapi.yml
 - filename: packet-host-two-factor-auth-api-openapi.yml
   format: yaml
   label: Packet Host Two Factor Auth API
   slug: packet-host-two-factor-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-two-factor-auth-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-two-factor-auth-api-openapi.yml
 - filename: packet-host-user-data-api-openapi.yml
   format: yaml
   label: Packet Host User Data API
   slug: packet-host-user-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-user-data-api-openapi.yml
+  url: https://artifacts.apis.io/packet-host/openapi/packet-host-user-data-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -268,7 +268,7 @@ source_filename: packet-host-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.equinix.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  5 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: equinix.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/security/packet-host-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/packet-host/security/packet-host-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

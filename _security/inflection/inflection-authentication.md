@@ -7,31 +7,31 @@ api_specs:
   label: Inflection AI Chat API
   slug: inflection-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-chat-api-openapi.yml
+  url: https://artifacts.apis.io/inflection/openapi/inflection-chat-api-openapi.yml
 - filename: inflection-discovery-api-openapi.yml
   format: yaml
   label: Inflection AI Discovery API
   slug: inflection-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/inflection/openapi/inflection-discovery-api-openapi.yml
 - filename: inflection-embeddings-api-openapi.yml
   format: yaml
   label: Inflection AI Embeddings API
   slug: inflection-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/inflection/openapi/inflection-embeddings-api-openapi.yml
 - filename: inflection-external-api-openapi.yml
   format: yaml
   label: Inflection AI External API
   slug: inflection-external-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-external-api-openapi.yml
+  url: https://artifacts.apis.io/inflection/openapi/inflection-external-api-openapi.yml
 - filename: inflection-status-api-openapi.yml
   format: yaml
   label: Inflection AI Status API
   slug: inflection-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-status-api-openapi.yml
+  url: https://artifacts.apis.io/inflection/openapi/inflection-status-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -61,7 +61,7 @@ source_filename: inflection-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/inflection-openapi.json\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - password\nschemes:\n- name: OAuth2PasswordBearer\n  type: oauth2\n  flows:\n  - flow: password\n    tokenUrl: token\n    scopes: 0\n  sources:\n  - openapi/inflection-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/authentication/inflection-authentication.yml
+source_yaml_url: https://artifacts.apis.io/inflection/authentication/inflection-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Artificial Intelligence

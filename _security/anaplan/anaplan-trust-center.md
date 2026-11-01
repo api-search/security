@@ -3,15 +3,9 @@ api_specs:
 - filename: anaplaninc
   format: yaml
   label: Anaplan Integration API v2.0
-  slug: anaplan-integration-api-v2-0
+  slug: anaplan-integration-api-v20
   spec_type: Postman
   url: https://www.postman.com/anaplaninc
-- filename: anaplan-openapi-generated.yml
-  format: yaml
-  label: Anaplan API
-  slug: anaplan-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaplan/refs/heads/main/openapi/_ae-authored/anaplan-openapi-generated.yml
 certification_count: 5
 certifications:
 - SOC 2
@@ -31,8 +25,8 @@ slug: anaplan-trust-center
 source_filename: anaplan-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-10-20'\nmethod: searched\nprobe: true\nsource: https://trust.anaplan.com/\nurl: https://trust.anaplan.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- CSA STAR\nevidence:\n- source: https://trust.anaplan.com/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - trust center\n  - csa star\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anaplan/refs/heads/main/security/anaplan-trust-center.yml
+source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.anaplan.com/\nurl: https://trust.anaplan.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- CSA STAR\nevidence:\n- source: https://trust.anaplan.com/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - trust center\n  - csa star\n"
+source_yaml_url: https://artifacts.apis.io/anaplan/security/anaplan-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, CSA STAR
 tags:
 - Connected Planning

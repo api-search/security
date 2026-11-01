@@ -7,7 +7,7 @@ api_specs:
   label: Automat Extract API
   slug: automat-extract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automat/refs/heads/main/openapi/automat-extract-api-openapi.yml
+  url: https://artifacts.apis.io/automat/openapi/automat-extract-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -33,7 +33,7 @@ source_filename: automat-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/automat-extract-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuthScheme\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/automat-extract-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/automat/refs/heads/main/authentication/automat-authentication.yml
+source_yaml_url: https://artifacts.apis.io/automat/authentication/automat-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

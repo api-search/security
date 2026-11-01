@@ -5,25 +5,25 @@ api_specs:
   label: ReadMe Metrics Api Registry API
   slug: readme-metrics-api-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/readme-metrics/refs/heads/main/openapi/readme-metrics-api-registry-api-openapi.yml
+  url: https://artifacts.apis.io/readme-metrics/openapi/readme-metrics-api-registry-api-openapi.yml
 - filename: readme-metrics-api-specification-api-openapi.yml
   format: yaml
   label: ReadMe Metrics Api Specification API
   slug: readme-metrics-api-specification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/readme-metrics/refs/heads/main/openapi/readme-metrics-api-specification-api-openapi.yml
+  url: https://artifacts.apis.io/readme-metrics/openapi/readme-metrics-api-specification-api-openapi.yml
 - filename: readme-metrics-changelogs-api-openapi.yml
   format: yaml
   label: ReadMe Metrics Changelogs API
   slug: readme-metrics-changelogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/readme-metrics/refs/heads/main/openapi/readme-metrics-changelogs-api-openapi.yml
+  url: https://artifacts.apis.io/readme-metrics/openapi/readme-metrics-changelogs-api-openapi.yml
 - filename: readme-metrics-docs-api-openapi.yml
   format: yaml
   label: ReadMe Metrics Docs API
   slug: readme-metrics-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/readme-metrics/refs/heads/main/openapi/readme-metrics-docs-api-openapi.yml
+  url: https://artifacts.apis.io/readme-metrics/openapi/readme-metrics-docs-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -65,7 +65,7 @@ source_filename: readme-metrics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: readme.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 16:29:30 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.readme.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 07:54:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: dash.readme.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 14:04:20 2026 GMT\n  hsts: null\ndomains:\n- domain: readme.com\n  dnssec: false\n  caa:\n  - ;; connection timed out; no servers could be reached\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/readme-metrics/refs/heads/main/security/readme-metrics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/readme-metrics/security/readme-metrics-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - API Analytics

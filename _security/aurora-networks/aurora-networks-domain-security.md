@@ -39,7 +39,7 @@ source_filename: aurora-networks-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.vistancenetworks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 08:27:56 2026 GMT\n  hsts: false\n- host: auroranetworks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 13 23:59:59 2027 GMT\n  hsts: false\n  note: brand domain; redirects to https://www.vistancenetworks.com/\ndomains:\n- domain: auroranetworks.com\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: v=spf1 include:spf.protection.outlook.com -all\n  dmarc: false\n- domain: vistancenetworks.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aurora-networks/refs/heads/main/security/aurora-networks-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aurora-networks/security/aurora-networks-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

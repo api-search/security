@@ -36,7 +36,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://docs.yield.xyz/docs/creating-an-api-key\ndocs: https://docs.yield.xyz/docs/creating-an-api-key\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter_name: X-API-KEY\n  description: |\n    API keys are created within a Project on the Yield.xyz Dashboard. The key value\n    is passed as the X-API-KEY header on every request (and used when integrating the\n    Widget). A 401 is returned on unauthenticated requests.\n  sources: [https://docs.yield.xyz/docs/creating-an-api-key]\ndashboard_access:\n  rbac: https://docs.yield.xyz/docs/rbac\n  sso: https://docs.yield.xyz/docs/yieldxyz-sso-setup-guide\n  roles: [Owner, Admin, Operator, Member]\n  sso_protocols: [SAML, OIDC]\nprogrammatic_access:\n  docs: https://docs.yield.xyz/docs/programmatic-access\n  description: |\n    A Programmatic API automates project provisioning, API key creation, yield\n    enablement,\
   \ fees, and reporting.\nnotes: |\n  Key auth only — no OAuth2 scope surface is documented, so scopes/ is intentionally\n  omitted. Dashboard access (distinct from API auth) supports RBAC roles and SAML/OIDC SSO.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yieldxyz/refs/heads/main/authentication/yieldxyz-authentication.yml
+source_yaml_url: https://artifacts.apis.io/yieldxyz/authentication/yieldxyz-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

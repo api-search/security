@@ -9,49 +9,49 @@ api_specs:
   label: ezoic Access API
   slug: ezoic-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-access-api-openapi.yml
+  url: https://artifacts.apis.io/ezoic/openapi/ezoic-access-api-openapi.yml
 - filename: ezoic-products-api-openapi.yml
   format: yaml
   label: ezoic Products API
   slug: ezoic-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-products-api-openapi.yml
+  url: https://artifacts.apis.io/ezoic/openapi/ezoic-products-api-openapi.yml
 - filename: ezoic-purchases-api-openapi.yml
   format: yaml
   label: ezoic Purchases API
   slug: ezoic-purchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-purchases-api-openapi.yml
+  url: https://artifacts.apis.io/ezoic/openapi/ezoic-purchases-api-openapi.yml
 - filename: ezoic-cdn-api-openapi.yml
   format: yaml
   label: ezoic CDN API
   slug: ezoic-cdn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-cdn-api-openapi.yml
+  url: https://artifacts.apis.io/ezoic/openapi/ezoic-cdn-api-openapi.yml
 - filename: ezoic-data-api-openapi.yml
   format: yaml
   label: ezoic Data API
   slug: ezoic-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-data-api-openapi.yml
+  url: https://artifacts.apis.io/ezoic/openapi/ezoic-data-api-openapi.yml
 - filename: ezoic-filters-api-openapi.yml
   format: yaml
   label: ezoic Filters API
   slug: ezoic-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-filters-api-openapi.yml
+  url: https://artifacts.apis.io/ezoic/openapi/ezoic-filters-api-openapi.yml
 - filename: ezoic-reports-api-openapi.yml
   format: yaml
   label: ezoic Reports API
   slug: ezoic-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-reports-api-openapi.yml
+  url: https://artifacts.apis.io/ezoic/openapi/ezoic-reports-api-openapi.yml
 - filename: ezoic-segments-api-openapi.yml
   format: yaml
   label: ezoic Segments API
   slug: ezoic-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-segments-api-openapi.yml
+  url: https://artifacts.apis.io/ezoic/openapi/ezoic-segments-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -158,7 +158,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://d
   \ — the reader's email address. The common case, including sites that\n    bring their own login. Supply exactly one reader identity header; neither or both is\n    rejected.\n  sources: [https://docs.ezoic.com/docs/subscriptions/rest-api/]\n- name: X-Ezoic-Reader-Token\n  type: apiKey\n  in: header\n  parameter: X-Ezoic-Reader-Token\n  regime: API gateway (REST)\n  applies_to: [Subscriptions]\n  description: >-\n    Reader identity — the reader's Ezoic Subscriptions session JWT, for Ezoic\n    visitor-account sites where the server never sees the reader's email. Read it in the\n    browser with getSessionToken() and relay it. Short-lived and scoped to the current\n    domain; the API validates it against the requested domain, so a token from one site\n    cannot be replayed against another. Read per request rather than storing it —\n    getSessionToken() returns null for a signed-out visitor.\n  sources: [https://docs.ezoic.com/docs/subscriptions/rest-api/]\n- name: Ezoic OAuth 2.0\n\
   \  type: oauth2\n  regime: Agent surface (OAuth)\n  applies_to: [Analytics MCP]\n  issuer: https://token.ezoic.com\n  metadata: https://token.ezoic.com/.well-known/oauth-authorization-server\n  flows:\n    authorization_code:\n      authorization_url: https://token.ezoic.com/authorize\n      token_url: https://token.ezoic.com/token\n      pkce: required (S256 only)\n      scopes: {}\n    client_credentials:\n      token_url: https://token.ezoic.com/token\n    device_code:\n      device_authorization_url: https://token.ezoic.com/device_authorization\n      token_url: https://token.ezoic.com/token\n  bearer_methods_supported: [header]\n  dpop: supported (ES256)\n  dynamic_client_registration: https://token.ezoic.com/register\n  revocation: https://token.ezoic.com/token/revoke\n  jwks_uri: https://token.ezoic.com/.well-known/jwks.json\n  token_endpoint_auth_methods: [none, private_key_jwt]\n  description: >-\n    The assistant redirects the user to Ezoic login, the user authorizes, and the\
   \ assistant\n    receives a scoped access token. Read-only — no MCP tool can modify, create or delete\n    anything on the account.\n  sources:\n  - https://docs.ezoic.com/docs/analytics-mcp/\n  - https://token.ezoic.com/.well-known/oauth-authorization-server\n- name: anonymous\n  type: none\n  regime: Agent surface\n  applies_to: [Setup Assistant MCP]\n  endpoint: https://setup-agent.ezoic.com/mcp\n  description: >-\n    No account and no key. Verified by a successful unauthenticated initialize +\n    tools/list on 2026-08-13.\n  sources: [https://github.com/ezoic/ezoic-setup-mcp]\nmfa_or_signing:\n  request_signing: false\n  mutual_tls: false\n  note: No request signing or mTLS is published for the REST gateway.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/authentication/ezoic-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ezoic/authentication/ezoic-authentication.yml
 summary_line: apiKey/oauth2 · 6 schemes
 tags:
 - Company

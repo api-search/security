@@ -8,43 +8,43 @@ api_specs:
   label: Monetate Data API
   slug: monetate-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetate/refs/heads/main/openapi/monetate-data-api-openapi.yml
+  url: https://artifacts.apis.io/monetate/openapi/monetate-data-api-openapi.yml
 - filename: monetate-metadata-api-openapi.yml
   format: yaml
   label: Monetate Metadata API
   slug: monetate-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetate/refs/heads/main/openapi/monetate-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/monetate/openapi/monetate-metadata-api-openapi.yml
 - filename: monetate-decision-api-openapi.yml
   format: yaml
   label: Monetate Decision API
   slug: monetate-decision-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetate/refs/heads/main/openapi/monetate-decision-api-openapi.yml
+  url: https://artifacts.apis.io/monetate/openapi/monetate-decision-api-openapi.yml
 - filename: monetate-product-catalog-api-openapi.yml
   format: yaml
   label: Monetate Product Catalog API
   slug: monetate-product-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetate/refs/heads/main/openapi/monetate-product-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/monetate/openapi/monetate-product-catalog-api-openapi.yml
 - filename: monetate-schema-api-openapi.yml
   format: yaml
   label: Monetate Schema API
   slug: monetate-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetate/refs/heads/main/openapi/monetate-schema-api-openapi.yml
+  url: https://artifacts.apis.io/monetate/openapi/monetate-schema-api-openapi.yml
 - filename: monetate-token-api-openapi.yml
   format: yaml
   label: Monetate Token API
   slug: monetate-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetate/refs/heads/main/openapi/monetate-token-api-openapi.yml
+  url: https://artifacts.apis.io/monetate/openapi/monetate-token-api-openapi.yml
 - filename: monetate-upload-api-openapi.yml
   format: yaml
   label: Monetate Upload API
   slug: monetate-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetate/refs/heads/main/openapi/monetate-upload-api-openapi.yml
+  url: https://artifacts.apis.io/monetate/openapi/monetate-upload-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: https://develop
   \    account; there is no public signup.\n  revocation: Deactivate the public key in the UI; every token issued against it stops working (403).\n  source: openapi/monetate-auth-api-openapi.yml\n- name: TokenAuthentication\n  api: Monetate Metadata API\n  type: apiKey\n  in: header\n  parameter: Authorization\n  value_format: Token <token_string>\n  description: >-\n    Opaque bearer token obtained from GET /api/auth/v0/refresh/. Sent on every Metadata API request.\n  source: openapi/monetate-metadata-api-openapi.yml\n- name: Token Authentication\n  api: Monetate Data API\n  type: apiKey\n  in: header\n  parameter: Authorization\n  value_format: Token <token_string>\n  description: >-\n    Same opaque bearer token as the Metadata API. Note the securityScheme key in the Data API spec\n    contains a space (\"Token Authentication\") while the Metadata API spec uses \"TokenAuthentication\" —\n    the same mechanism named two ways across two published specs.\n  source: openapi/monetate-data-api-openapi.yml\n\
   token_flow:\n  step_1:\n    request: GET https://api.monetate.net/api/auth/v0/refresh/?ttl=3600\n    headers:\n      Authorization: JWT <signed_jwt>\n    query:\n      ttl:\n        description: Requested token lifetime in seconds.\n        default: 3600\n        minimum: 600\n        maximum: 43200\n  step_2:\n    response_body_path: data.token\n    also_returns:\n    - data.expires_in\n    - data.expires_at\n    note: >-\n      `expires_in` always equals the requested `ttl`; `expires_at` is seconds since epoch, so a client can\n      pre-emptively refresh rather than waiting for a 401.\n  step_3:\n    request: Any Data API or Metadata API call\n    headers:\n      Authorization: Token <token_string>\nunauthenticated_surfaces:\n- api: Monetate Engine API\n  endpoint: POST https://engine.monetate.net/api/engine/v1/decide/{retailerShortname}\n  note: >-\n    The published Swagger 2.0 document declares no securityDefinitions and no security requirement. The\n    caller is identified by the\
   \ retailer shortname path parameter and the channel/instance/domain values\n    in the request body. This is deliberate — the endpoint is designed to be called from a browser or a\n    mobile app where no secret can be held — but it means the Engine API's access model is not described\n    in machine-readable form anywhere.\ngaps:\n- >-\n  The Auth API spec declares JWTAuthentication as `type: apiKey` rather than `type: http, scheme: bearer,\n  bearerFormat: JWT`, so tooling cannot tell it is a JWT from the spec alone.\n- No `security` block is applied per-operation in the Engine API spec.\n- No OAuth 2.0, no OpenID Connect, no scopes anywhere in the product APIs. (The only OAuth surface Monetate\n  publishes is on the WordPress marketing site's MCP server — see mcp/monetate-mcp.yml.)\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/monetate/refs/heads/main/authentication/monetate-authentication.yml
+source_yaml_url: https://artifacts.apis.io/monetate/authentication/monetate-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - Company

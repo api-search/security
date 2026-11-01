@@ -8,13 +8,13 @@ api_specs:
   label: Atrato Ecommerce API
   slug: atrato-ecommerce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/openapi/atrato-ecommerce-api-openapi.yml
+  url: https://artifacts.apis.io/atrato/openapi/atrato-ecommerce-api-openapi.yml
 - filename: atrato-integration-api-openapi.yml
   format: yaml
   label: Atrato Integration API
   slug: atrato-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/openapi/atrato-integration-api-openapi.yml
+  url: https://artifacts.apis.io/atrato/openapi/atrato-integration-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -41,7 +41,7 @@ source_filename: atrato-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/atrato-partners-openapi.yml\ndocs: https://docs.atratopago.com/reference/autenticación\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: sec0\n  type: apiKey\n  in: header\n  parameter: x-auth-token\n  sources:\n  - openapi/atrato-partners-openapi.yml\nflow:\n  token_endpoints:\n  - POST /api/v4/integration/login\n  - POST /api/v4/ecommerce/integration/{partner-key}/login\n  credentials: partner-dashboard username + password\n  token_ttl: 5 minutes\n  extra: Ecommerce endpoints additionally require a partner-key path segment obtained from the partner dashboard (Development > API).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/authentication/atrato-authentication.yml
+source_yaml_url: https://artifacts.apis.io/atrato/authentication/atrato-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

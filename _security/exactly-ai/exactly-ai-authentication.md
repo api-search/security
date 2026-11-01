@@ -7,13 +7,13 @@ api_specs:
   label: Exactly Ai Images v1 API
   slug: exactly-ai-images-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/openapi/exactly-ai-images-v1-api-openapi.yml
+  url: https://artifacts.apis.io/exactly-ai/openapi/exactly-ai-images-v1-api-openapi.yml
 - filename: exactly-ai-models-v1-api-openapi.yml
   format: yaml
   label: Exactly Ai Models v1 API
   slug: exactly-ai-models-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/openapi/exactly-ai-models-v1-api-openapi.yml
+  url: https://artifacts.apis.io/exactly-ai/openapi/exactly-ai-models-v1-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -39,7 +39,7 @@ source_filename: exactly-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/exactly-ai-public-openapi-original.json\nsummary:\n  types:\n  - http\nschemes:\n- name: APITokenAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/exactly-ai-public-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/authentication/exactly-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/exactly-ai/authentication/exactly-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

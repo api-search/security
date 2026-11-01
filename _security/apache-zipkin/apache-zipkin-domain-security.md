@@ -5,25 +5,25 @@ api_specs:
   label: Apache Zipkin Autocomplete API
   slug: apache-zipkin-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-zipkin/refs/heads/main/openapi/apache-zipkin-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/apache-zipkin/openapi/apache-zipkin-autocomplete-api-openapi.yml
 - filename: apache-zipkin-services-api-openapi.yml
   format: yaml
   label: Apache Zipkin Services API
   slug: apache-zipkin-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-zipkin/refs/heads/main/openapi/apache-zipkin-services-api-openapi.yml
+  url: https://artifacts.apis.io/apache-zipkin/openapi/apache-zipkin-services-api-openapi.yml
 - filename: apache-zipkin-spans-api-openapi.yml
   format: yaml
   label: Apache Zipkin Spans API
   slug: apache-zipkin-spans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-zipkin/refs/heads/main/openapi/apache-zipkin-spans-api-openapi.yml
+  url: https://artifacts.apis.io/apache-zipkin/openapi/apache-zipkin-spans-api-openapi.yml
 - filename: apache-zipkin-traces-api-openapi.yml
   format: yaml
   label: Apache Zipkin Traces API
   slug: apache-zipkin-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-zipkin/refs/heads/main/openapi/apache-zipkin-traces-api-openapi.yml
+  url: https://artifacts.apis.io/apache-zipkin/openapi/apache-zipkin-traces-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: apache-zipkin-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: zipkin.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 08:16:22 2026 GMT\n  hsts: false\ndomains:\n- domain: zipkin.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-zipkin/refs/heads/main/security/apache-zipkin-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apache-zipkin/security/apache-zipkin-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Distributed Tracing

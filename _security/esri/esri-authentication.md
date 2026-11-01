@@ -8,31 +8,31 @@ api_specs:
   label: Esri Auth API
   slug: esri-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/openapi/esri-auth-api-openapi.yml
+  url: https://artifacts.apis.io/esri/openapi/esri-auth-api-openapi.yml
 - filename: esri-geocoding-api-openapi.yml
   format: yaml
   label: Esri Geocoding API
   slug: esri-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/openapi/esri-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/esri/openapi/esri-geocoding-api-openapi.yml
 - filename: esri-routing-api-openapi.yml
   format: yaml
   label: Esri Routing API
   slug: esri-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/openapi/esri-routing-api-openapi.yml
+  url: https://artifacts.apis.io/esri/openapi/esri-routing-api-openapi.yml
 - filename: esri-places-api-openapi.yml
   format: yaml
   label: Esri Places API
   slug: esri-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/openapi/esri-places-api-openapi.yml
+  url: https://artifacts.apis.io/esri/openapi/esri-places-api-openapi.yml
 - filename: esri-portal-api-openapi.yml
   format: yaml
   label: Esri Portal API
   slug: esri-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/openapi/esri-portal-api-openapi.yml
+  url: https://artifacts.apis.io/esri/openapi/esri-portal-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -80,7 +80,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-07'\nmethod: derived\nsource: openapi/esri-auth-api-openapi.yml, openapi/esri-geocoding-api-openapi.yml, openapi/esri-routing-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - query\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: query\n  parameter: token\n  description: 'ArcGIS Platform API key or access token passed as the `token` query parameter\n    (or `Authorization: Bearer <token>` header on REST services).'\n  sources:\n  - openapi/esri-auth-api-openapi.yml\n  - openapi/esri-geocoding-api-openapi.yml\n  - openapi/esri-routing-api-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\n    scopes: 0\n  - flow: authorizationCode\n    authorizationUrl: https://www.arcgis.com/sharing/rest/oauth2/authorize\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\n\
   \    scopes: 0\n  sources:\n  - openapi/esri-auth-api-openapi.yml\n  - openapi/esri-geocoding-api-openapi.yml\n  - openapi/esri-routing-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/authentication/esri-authentication.yml
+source_yaml_url: https://artifacts.apis.io/esri/authentication/esri-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Geographic

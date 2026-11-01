@@ -9,13 +9,13 @@ api_specs:
   label: Endeavour Energy Catalog API
   slug: endeavour-energy-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/openapi/endeavour-energy-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/endeavour-energy/openapi/endeavour-energy-catalog-api-openapi.yml
 - filename: endeavour-energy-dataset-api-openapi.yml
   format: yaml
   label: Endeavour Energy Dataset API
   slug: endeavour-energy-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/openapi/endeavour-energy-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/endeavour-energy/openapi/endeavour-energy-dataset-api-openapi.yml
 auth_types:
 - none
 - apiKey
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: >-\n  openapi/e
   \      authorizationUrl: https://data.endeavourenergy.com.au/oauth2/authorize/\n        tokenUrl: https://data.endeavourenergy.com.au/oauth2/token/\n        scopes: 1\n        scope_names: [all]\n    token_type: Bearer\n    client_types: [confidential, public]\n    detail: >-\n      The Opendatasoft platform implements a full OAuth2 authorization-code\n      flow so a third party can query data on a user's behalf without handling\n      their password. Applications are registered per domain from the account\n      page and can only access data on that domain.\n    verified_live:\n      - {url: 'https://data.endeavourenergy.com.au/oauth2/authorize/', status: 302, note: 'endpoint exists; redirects to login'}\n      - {url: 'https://data.endeavourenergy.com.au/oauth2/token/', status: 405, note: 'endpoint exists; POST-only'}\n    detail_file: scopes/endeavour-energy-scopes.yml\n\nkey_provisioning:\n  url: https://data.endeavourenergy.com.au/account/\n  path: '\"My API keys\" tab on the account\
   \ page'\n  self_serve: false\n  note: >-\n    https://data.endeavourenergy.com.au/signup/ 302-redirects to the portal\n    home — open self-serve registration is not enabled on this domain, and\n    /account/api-keys/ redirects to /login/. Since every dataset is public and\n    anonymous, this limits quota, not access.\n  key_scope_warning: >-\n    Published caveat: \"By default, every API key authenticates requests as\n    coming from your user, which means they grant the same rights (yours) to\n    any person using them.\" Keys are user-scoped, not application-scoped,\n    unless narrowed through the Automation API.\n\nnot_present:\n  openid_connect: 'GET /.well-known/openid-configuration -> 404 on both hosts'\n  oauth_metadata: 'GET /.well-known/oauth-authorization-server -> 404 on both hosts (the OAuth2 surface exists but is not advertised via RFC 8414 discovery)'\n  mutual_tls: false\n  http_basic: 'Only at the OAuth2 token endpoint, to pass client_id/client_secret.'\n\nout_of_band:\n\
   \  csip_aus_utility_server: >-\n    Endeavour Energy operates a CSIP-AUS (IEEE 2030.5 / SEP2 derivative)\n    utility server for NSW flexible exports and the emergency backstop\n    mechanism. CSIP-AUS conventionally uses mutual TLS with device\n    certificates, but Endeavour Energy publishes no endpoint, no security\n    scheme and no onboarding path for it, so no auth model is asserted here.\n    Onboarding runs through CEC-approved inverter equipment and a connectivity\n    capability test in the NSW CER Installer Portal at installation time.\n\nrelated:\n  - scopes/endeavour-energy-scopes.yml\n  - conventions/endeavour-energy-conventions.yml\n  - well-known/endeavour-energy-well-known.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/authentication/endeavour-energy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/endeavour-energy/authentication/endeavour-energy-authentication.yml
 summary_line: none/apiKey/oauth2 · 5 schemes
 tags:
 - Energy

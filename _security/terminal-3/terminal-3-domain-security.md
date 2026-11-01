@@ -5,43 +5,43 @@ api_specs:
   label: Terminal 3 DID V1 API
   slug: terminal-3-did-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-3/refs/heads/main/openapi/terminal-3-did-v1-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-3/openapi/terminal-3-did-v1-api-openapi.yml
 - filename: terminal-3-openid-connect-v1-api-openapi.yml
   format: yaml
   label: Terminal 3 OpenID Connect V1 API
   slug: terminal-3-openid-connect-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-3/refs/heads/main/openapi/terminal-3-openid-connect-v1-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-3/openapi/terminal-3-openid-connect-v1-api-openapi.yml
 - filename: terminal-3-openid-connect-v2-api-openapi.yml
   format: yaml
   label: Terminal 3 OpenID Connect V2 API
   slug: terminal-3-openid-connect-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-3/refs/heads/main/openapi/terminal-3-openid-connect-v2-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-3/openapi/terminal-3-openid-connect-v2-api-openapi.yml
 - filename: terminal-3-sub-client-v1-api-openapi.yml
   format: yaml
   label: Terminal 3 Sub Client V1 API
   slug: terminal-3-sub-client-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-3/refs/heads/main/openapi/terminal-3-sub-client-v1-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-3/openapi/terminal-3-sub-client-v1-api-openapi.yml
 - filename: terminal-3-transactional-email-template-v1-api-openapi.yml
   format: yaml
   label: Terminal 3 Transactional Email Template V1 API
   slug: terminal-3-transactional-email-template-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-3/refs/heads/main/openapi/terminal-3-transactional-email-template-v1-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-3/openapi/terminal-3-transactional-email-template-v1-api-openapi.yml
 - filename: terminal-3-user-v1-api-openapi.yml
   format: yaml
   label: Terminal 3 User V1 API
   slug: terminal-3-user-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-3/refs/heads/main/openapi/terminal-3-user-v1-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-3/openapi/terminal-3-user-v1-api-openapi.yml
 - filename: terminal-3-vc-v1-api-openapi.yml
   format: yaml
   label: Terminal 3 VC V1 API
   slug: terminal-3-vc-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-3/refs/heads/main/openapi/terminal-3-vc-v1-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-3/openapi/terminal-3-vc-v1-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -79,7 +79,7 @@ source_filename: terminal-3-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: terminal3.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 06:36:07 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: staging.terminal3.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 05:38:06 2026 GMT\n  hsts: false\ndomains:\n- domain: terminal3.io\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/terminal-3/refs/heads/main/security/terminal-3-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/terminal-3/security/terminal-3-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

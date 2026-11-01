@@ -1,0 +1,34 @@
+---
+description: ''
+domains:
+- caa: []
+  dmarc: true
+  dmarc_policy: quarantine
+  dnssec: false
+  domain: bnetd.ci
+  spf: true
+hosts:
+- host: bnetd.ci
+  https: false
+hosts_probed: 1
+kind: domain-security
+layout: security
+method: probed
+name: Bureau National D Etudes Techniques Et De Developpement Bnetd Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for Bureau National d''Etudes Techniques et de Developpement (BNETD), probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Bureau National d'Etudes Techniques et de Developpement (BNETD)
+provider_slug: bureau-national-d-etudes-techniques-et-de-developpement-bnetd
+slug: bureau-national-d-etudes-techniques-et-de-developpement-bnetd-domain-security
+source_filename: bureau-national-d-etudes-techniques-et-de-developpement-bnetd-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-10-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bnetd.ci\n  https: false\ndomains:\n- domain: bnetd.ci\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml_url: https://artifacts.apis.io/bureau-national-d-etudes-techniques-et-de-developpement-bnetd/security/bureau-national-d-etudes-techniques-et-de-developpement-bnetd-domain-security.yml
+summary_line: DMARC
+tags:
+- Company
+- Research
+- Engineering
+- Technology
+---

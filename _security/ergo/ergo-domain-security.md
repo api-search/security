@@ -24,7 +24,7 @@ source_filename: ergo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ergooffers.com\n  https: false\ndomains:\n- domain: ergooffers.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ergo/refs/heads/main/security/ergo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ergo/security/ergo-domain-security.yml
 summary_line: DNSSEC · DMARC
 tags:
 - Company

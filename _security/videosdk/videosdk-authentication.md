@@ -8,43 +8,43 @@ api_specs:
   label: VideoSDK HLS Streaming API
   slug: videosdk-hls-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videosdk/refs/heads/main/openapi/videosdk-hls-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/videosdk/openapi/videosdk-hls-streaming-api-openapi.yml
 - filename: videosdk-participant-recordings-api-openapi.yml
   format: yaml
   label: VideoSDK Participant Recordings API
   slug: videosdk-participant-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videosdk/refs/heads/main/openapi/videosdk-participant-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/videosdk/openapi/videosdk-participant-recordings-api-openapi.yml
 - filename: videosdk-recordings-api-openapi.yml
   format: yaml
   label: VideoSDK Recordings API
   slug: videosdk-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videosdk/refs/heads/main/openapi/videosdk-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/videosdk/openapi/videosdk-recordings-api-openapi.yml
 - filename: videosdk-rooms-api-openapi.yml
   format: yaml
   label: VideoSDK Rooms API
   slug: videosdk-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videosdk/refs/heads/main/openapi/videosdk-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/videosdk/openapi/videosdk-rooms-api-openapi.yml
 - filename: videosdk-rtmp-streaming-api-openapi.yml
   format: yaml
   label: VideoSDK RTMP Streaming API
   slug: videosdk-rtmp-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videosdk/refs/heads/main/openapi/videosdk-rtmp-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/videosdk/openapi/videosdk-rtmp-streaming-api-openapi.yml
 - filename: videosdk-sessions-api-openapi.yml
   format: yaml
   label: VideoSDK Sessions API
   slug: videosdk-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videosdk/refs/heads/main/openapi/videosdk-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/videosdk/openapi/videosdk-sessions-api-openapi.yml
 - filename: videosdk-track-recordings-api-openapi.yml
   format: yaml
   label: VideoSDK Track Recordings API
   slug: videosdk-track-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videosdk/refs/heads/main/openapi/videosdk-track-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/videosdk/openapi/videosdk-track-recordings-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -72,7 +72,7 @@ source_filename: videosdk-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/videosdk-realtime-communication-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: JWTAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: JWT token generated using your VideoSDK API key and secret (HS256). Pass the\n    token directly without a \"Bearer\" prefix.\n  sources:\n  - openapi/videosdk-realtime-communication-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/videosdk/refs/heads/main/authentication/videosdk-authentication.yml
+source_yaml_url: https://artifacts.apis.io/videosdk/authentication/videosdk-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Video

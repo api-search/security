@@ -31,7 +31,7 @@ source_filename: songsterr-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.songsterr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 13 07:11:10 2026 GMT\n  hsts: null\ndomains:\n- domain: songsterr.com\n  dnssec: true\n  caa:\n  - 0 iodef \"mailto:dev@songsterr.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"buypass.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/songsterr/refs/heads/main/security/songsterr-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/songsterr/security/songsterr-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Music

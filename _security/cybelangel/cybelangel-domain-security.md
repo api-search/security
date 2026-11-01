@@ -5,79 +5,79 @@ api_specs:
   label: CybelAngel ADM Inventory API
   slug: cybelangel-adm-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/openapi/cybelangel-adm-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/cybelangel/openapi/cybelangel-adm-inventory-api-openapi.yml
 - filename: cybelangel-alerts-api-openapi.yml
   format: yaml
   label: CybelAngel Alerts API
   slug: cybelangel-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/openapi/cybelangel-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/cybelangel/openapi/cybelangel-alerts-api-openapi.yml
 - filename: cybelangel-asset-api-openapi.yml
   format: yaml
   label: CybelAngel Asset API
   slug: cybelangel-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/openapi/cybelangel-asset-api-openapi.yml
+  url: https://artifacts.apis.io/cybelangel/openapi/cybelangel-asset-api-openapi.yml
 - filename: cybelangel-audit-logs-api-openapi.yml
   format: yaml
   label: CybelAngel audit logs API
   slug: cybelangel-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/openapi/cybelangel-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/cybelangel/openapi/cybelangel-audit-logs-api-openapi.yml
 - filename: cybelangel-credential-watchlist-api-openapi.yml
   format: yaml
   label: CybelAngel Credential watchlist API
   slug: cybelangel-credential-watchlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/openapi/cybelangel-credential-watchlist-api-openapi.yml
+  url: https://artifacts.apis.io/cybelangel/openapi/cybelangel-credential-watchlist-api-openapi.yml
 - filename: cybelangel-domain-watchlist-api-openapi.yml
   format: yaml
   label: CybelAngel Domain watchlist API
   slug: cybelangel-domain-watchlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/openapi/cybelangel-domain-watchlist-api-openapi.yml
+  url: https://artifacts.apis.io/cybelangel/openapi/cybelangel-domain-watchlist-api-openapi.yml
 - filename: cybelangel-incident-reports-api-openapi.yml
   format: yaml
   label: CybelAngel Incident reports API
   slug: cybelangel-incident-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/openapi/cybelangel-incident-reports-api-openapi.yml
+  url: https://artifacts.apis.io/cybelangel/openapi/cybelangel-incident-reports-api-openapi.yml
 - filename: cybelangel-keywords-api-openapi.yml
   format: yaml
   label: CybelAngel Keywords API
   slug: cybelangel-keywords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/openapi/cybelangel-keywords-api-openapi.yml
+  url: https://artifacts.apis.io/cybelangel/openapi/cybelangel-keywords-api-openapi.yml
 - filename: cybelangel-reports-api-openapi.yml
   format: yaml
   label: CybelAngel Reports API
   slug: cybelangel-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/openapi/cybelangel-reports-api-openapi.yml
+  url: https://artifacts.apis.io/cybelangel/openapi/cybelangel-reports-api-openapi.yml
 - filename: cybelangel-stats-api-openapi.yml
   format: yaml
   label: CybelAngel Stats API
   slug: cybelangel-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/openapi/cybelangel-stats-api-openapi.yml
+  url: https://artifacts.apis.io/cybelangel/openapi/cybelangel-stats-api-openapi.yml
 - filename: cybelangel-stix-api-openapi.yml
   format: yaml
   label: CybelAngel Stix API
   slug: cybelangel-stix-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/openapi/cybelangel-stix-api-openapi.yml
+  url: https://artifacts.apis.io/cybelangel/openapi/cybelangel-stix-api-openapi.yml
 - filename: cybelangel-threat-intelligence-api-openapi.yml
   format: yaml
   label: CybelAngel Threat Intelligence API
   slug: cybelangel-threat-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/openapi/cybelangel-threat-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/cybelangel/openapi/cybelangel-threat-intelligence-api-openapi.yml
 - filename: cybelangel-workspaces-api-openapi.yml
   format: yaml
   label: CybelAngel Workspaces API
   slug: cybelangel-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/openapi/cybelangel-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/cybelangel/openapi/cybelangel-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -135,7 +135,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cybelangel.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 12:28:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.cybelangel.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 13:15:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: platform.cybelangel.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 16:29:26 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.cybelangel.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 16:29:26 2026 GMT\n  hsts: false\n  hsts_max_age: null\n  note: >-\n    The API host for six of the seven published APIs. Added by hand — the probe script\n    caps itself at three hosts. Root returns HTTP/2 404 text/plain \"404 page not found\"\n    with x-content-type-options nosniff and NO Strict-Transport-Security header,\
   \ so this\n    host is the one gap in an otherwise HSTS-everywhere estate.\n- host: auth.cybelangel.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 16:56:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  note: >-\n    Auth0 tenant that mints every bearer token; serves OIDC discovery and JWKS.\n    Added by hand for the same reason as api.cybelangel.com.\ndomains:\n- domain: cybelangel.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/security/cybelangel-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cybelangel/security/cybelangel-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

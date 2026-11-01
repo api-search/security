@@ -40,7 +40,7 @@ source_filename: linsy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.linsyhome.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 04:13:06 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\n- host: linsy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 16:01:02 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\ndomains:\n- domain: linsyhome.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: linsy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linsy/refs/heads/main/security/linsy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/linsy/security/linsy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -5,13 +5,13 @@ api_specs:
   label: OECD Data API
   slug: oecd-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oecd/refs/heads/main/openapi/oecd-data-api-openapi.yml
+  url: https://artifacts.apis.io/oecd/openapi/oecd-data-api-openapi.yml
 - filename: oecd-structure-api-openapi.yml
   format: yaml
   label: OECD Structure API
   slug: oecd-structure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oecd/refs/heads/main/openapi/oecd-structure-api-openapi.yml
+  url: https://artifacts.apis.io/oecd/openapi/oecd-structure-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: oecd-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.oecd.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 05:15:09 2026 GMT\n  hsts: null\n- host: sdmx.oecd.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 05:15:09 2026 GMT\n  hsts: null\ndomains:\n- domain: oecd.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oecd/refs/heads/main/security/oecd-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/oecd/security/oecd-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Data

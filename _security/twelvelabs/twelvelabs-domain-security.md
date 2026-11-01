@@ -5,37 +5,37 @@ api_specs:
   label: TwelveLabs Analyze API
   slug: twelvelabs-analyze-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/openapi/twelvelabs-analyze-api-openapi.yml
+  url: https://artifacts.apis.io/twelvelabs/openapi/twelvelabs-analyze-api-openapi.yml
 - filename: twelvelabs-embed-api-openapi.yml
   format: yaml
   label: TwelveLabs Embed API
   slug: twelvelabs-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/openapi/twelvelabs-embed-api-openapi.yml
+  url: https://artifacts.apis.io/twelvelabs/openapi/twelvelabs-embed-api-openapi.yml
 - filename: twelvelabs-indexes-api-openapi.yml
   format: yaml
   label: TwelveLabs Indexes API
   slug: twelvelabs-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/openapi/twelvelabs-indexes-api-openapi.yml
+  url: https://artifacts.apis.io/twelvelabs/openapi/twelvelabs-indexes-api-openapi.yml
 - filename: twelvelabs-search-api-openapi.yml
   format: yaml
   label: TwelveLabs Search API
   slug: twelvelabs-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/openapi/twelvelabs-search-api-openapi.yml
+  url: https://artifacts.apis.io/twelvelabs/openapi/twelvelabs-search-api-openapi.yml
 - filename: twelvelabs-tasks-api-openapi.yml
   format: yaml
   label: TwelveLabs Tasks API
   slug: twelvelabs-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/openapi/twelvelabs-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/twelvelabs/openapi/twelvelabs-tasks-api-openapi.yml
 - filename: twelvelabs-videos-api-openapi.yml
   format: yaml
   label: TwelveLabs Videos API
   slug: twelvelabs-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/openapi/twelvelabs-videos-api-openapi.yml
+  url: https://artifacts.apis.io/twelvelabs/openapi/twelvelabs-videos-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: twelvelabs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.twelvelabs.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 10:27:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.twelvelabs.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 11 18:53:04 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.twelvelabs.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 13 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: twelvelabs.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/security/twelvelabs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/twelvelabs/security/twelvelabs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

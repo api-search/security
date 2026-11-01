@@ -28,7 +28,7 @@ source_filename: eagle-eye-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: eagleeye.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 17:18:06 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: eagleeye.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eagle-eye/refs/heads/main/security/eagle-eye-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/eagle-eye/security/eagle-eye-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Loyalty

@@ -27,14 +27,14 @@ source_filename: medix-infusion-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: medixinfusion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 20:49:13 2026 GMT\n  hsts: false\ndomains:\n- domain: medixinfusion.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/medix-infusion/refs/heads/main/security/medix-infusion-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/medix-infusion/security/medix-infusion-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Healthcare
 - Infusion Therapy
 - Specialty Pharmacy
-- Home Health
+- Home Care
 - Ambulatory Care
 - Patient Care
 - Texas

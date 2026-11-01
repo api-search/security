@@ -25,7 +25,7 @@ source_filename: totspot-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: totspot.me\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get\n    local issuer certificate (_ssl.c:1082)'\n  hsts: null\ndomains:\n- domain: totspot.me\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/totspot/refs/heads/main/security/totspot-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/totspot/security/totspot-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

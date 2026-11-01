@@ -7,7 +7,7 @@ api_specs:
   label: Maastricht University Harvesting API
   slug: maastricht-harvesting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maastricht/refs/heads/main/openapi/maastricht-harvesting-api-openapi.yml
+  url: https://artifacts.apis.io/maastricht/openapi/maastricht-harvesting-api-openapi.yml
 auth_types: []
 description: Authentication surfaces Maastricht University itself operates. The institution runs its own identity provider (Microsoft ADFS) on its own registrable domain and publishes BOTH an OIDC discovery document and signed SAML 2.0 federation metadata without authentication — a genuinely machine-readable, institution-operated surface, and the one class of university API that is almost never catalogued.
 kind: authentication
@@ -31,7 +31,7 @@ source_yaml: "provider: Maastricht University\nproviderId: maastricht\ngenerated
   \ dynamic-registration endpoint;\n    relying-party trusts are provisioned by UM ICT Services for institutionally affiliated\n    applications.\n- id: adfs-saml\n  name: Maastricht University ADFS — SAML 2.0 identity provider\n  operator: institution\n  protocol: SAML 2.0 Web Browser SSO\n  entity_id: http://login.maastrichtuniversity.nl/adfs/services/trust\n  metadata: https://login.maastrichtuniversity.nl/FederationMetadata/2007-06/FederationMetadata.xml\n  status: 200\n  content_type: application/samlmetadata+xml\n  public: true\n  name_id_formats:\n  - urn:oasis:names:tc:SAML:2.0:nameid-format:persistent\n  - urn:oasis:names:tc:SAML:2.0:nameid-format:transient\n- id: surfconext-federation\n  name: SURFconext / eduGAIN federation entry\n  operator: tenant\n  detail: >-\n    Maastricht's IdP entity is published in the Dutch national research-and-education federation\n    operated by SURF, which is connected to eduGAIN. SURF operates the federation and the proxy\n    (engine.surfconext.nl);\
   \ Maastricht operates the entity inside it.\n  metadata: https://metadata.surfconext.nl/idps-metadata.xml\n  status: 200\n  scopes:\n  - maastrichtuniversity.nl\n  - unimaas.nl\n  display_name: Maastricht University\n  sso_location: https://engine.surfconext.nl/authentication/idp/single-sign-on/key:20230503/cce637f0ae222246ad62a8590d25fa9d\n- id: oai-anonymous\n  name: OAI-PMH harvesting — no authentication\n  operator: institution\n  protocol: none\n  detail: >-\n    https://cris.maastrichtuniversity.nl/ws/oai is keyless and requires no registration. All six\n    verbs returned 200 anonymously on 2026-08-30.\n- id: pure-ws-api\n  name: Pure REST API — key-gated\n  operator: tenant\n  protocol: api-key\n  detail: >-\n    https://cris.maastrichtuniversity.nl/ws/api returns Elsevier's Pure API documentation\n    (canonical https://api.elsevierpure.com/ws/api/documentation/index.html) and\n    /ws/api/524/openapi.yaml returns 401. The contract is Elsevier's; keys are issued by UM to\n   \
   \ affiliated consumers. Not credited as an institution-authored API.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maastricht/refs/heads/main/authentication/maastricht-authentication.yml
+source_yaml_url: https://artifacts.apis.io/maastricht/authentication/maastricht-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

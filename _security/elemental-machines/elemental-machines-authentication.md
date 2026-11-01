@@ -8,73 +8,73 @@ api_specs:
   label: Elemental Machines Alert Logs API
   slug: elemental-machines-alert-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-alert-logs-api-openapi.yml
+  url: https://artifacts.apis.io/elemental-machines/openapi/elemental-machines-alert-logs-api-openapi.yml
 - filename: elemental-machines-alert-rules-api-openapi.yml
   format: yaml
   label: Elemental Machines Alert Rules API
   slug: elemental-machines-alert-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-alert-rules-api-openapi.yml
+  url: https://artifacts.apis.io/elemental-machines/openapi/elemental-machines-alert-rules-api-openapi.yml
 - filename: elemental-machines-authentication-api-openapi.yml
   format: yaml
   label: Elemental Machines Authentication API
   slug: elemental-machines-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/elemental-machines/openapi/elemental-machines-authentication-api-openapi.yml
 - filename: elemental-machines-groups-api-openapi.yml
   format: yaml
   label: Elemental Machines Groups API
   slug: elemental-machines-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-groups-api-openapi.yml
+  url: https://artifacts.apis.io/elemental-machines/openapi/elemental-machines-groups-api-openapi.yml
 - filename: elemental-machines-machines-api-openapi.yml
   format: yaml
   label: Elemental Machines API
   slug: elemental-machines-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-machines-api-openapi.yml
+  url: https://artifacts.apis.io/elemental-machines/openapi/elemental-machines-machines-api-openapi.yml
 - filename: elemental-machines-machines-sample-stats-api-openapi.yml
   format: yaml
   label: Elemental Machines Sample Stats API
   slug: elemental-machines-machines-sample-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-machines-sample-stats-api-openapi.yml
+  url: https://artifacts.apis.io/elemental-machines/openapi/elemental-machines-machines-sample-stats-api-openapi.yml
 - filename: elemental-machines-machines-samples-api-openapi.yml
   format: yaml
   label: Elemental Machines Samples API
   slug: elemental-machines-machines-samples-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-machines-samples-api-openapi.yml
+  url: https://artifacts.apis.io/elemental-machines/openapi/elemental-machines-machines-samples-api-openapi.yml
 - filename: elemental-machines-machines-usage-api-openapi.yml
   format: yaml
   label: Elemental Machines Usage API
   slug: elemental-machines-machines-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-machines-usage-api-openapi.yml
+  url: https://artifacts.apis.io/elemental-machines/openapi/elemental-machines-machines-usage-api-openapi.yml
 - filename: elemental-machines-release-notes-api-openapi.yml
   format: yaml
   label: Elemental Machines Release Notes API
   slug: elemental-machines-release-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-release-notes-api-openapi.yml
+  url: https://artifacts.apis.io/elemental-machines/openapi/elemental-machines-release-notes-api-openapi.yml
 - filename: elemental-machines-status-api-openapi.yml
   format: yaml
   label: Elemental Machines Status API
   slug: elemental-machines-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-status-api-openapi.yml
+  url: https://artifacts.apis.io/elemental-machines/openapi/elemental-machines-status-api-openapi.yml
 - filename: elemental-machines-user-activities-api-openapi.yml
   format: yaml
   label: Elemental Machines User Activities API
   slug: elemental-machines-user-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-user-activities-api-openapi.yml
+  url: https://artifacts.apis.io/elemental-machines/openapi/elemental-machines-user-activities-api-openapi.yml
 - filename: elemental-machines-users-api-openapi.yml
   format: yaml
   label: Elemental Machines Users API
   slug: elemental-machines-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-users-api-openapi.yml
+  url: https://artifacts.apis.io/elemental-machines/openapi/elemental-machines-users-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -113,7 +113,7 @@ source_filename: elemental-machines-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: derived\nsource: openapi/elemental-machines-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - query\n  oauth2_flows:\n  - password\nschemes:\n- name: access_token\n  type: apiKey\n  in: query\n  parameter: access_token\n  description: OAuth 2.0 access token passed as the access_token query parameter. Obtain one\n    from POST /oauth/token (Resource Owner Password Credentials grant).\n  sources:\n  - openapi/elemental-machines-api-openapi.yml\n- name: oauth2_password\n  type: oauth2\n  flows:\n  - flow: password\n    tokenUrl: https://api.elementalmachines.io/oauth/token\n    scopes: 0\n  description: Resource Owner Password Credentials grant. Documented in the provider's Swagger\n    1.2 declaration at /docs/api/oauth.json.\n  sources:\n  - openapi/elemental-machines-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/authentication/elemental-machines-authentication.yml
+source_yaml_url: https://artifacts.apis.io/elemental-machines/authentication/elemental-machines-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - lab-operations

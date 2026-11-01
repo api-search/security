@@ -5,103 +5,103 @@ api_specs:
   label: Upward Financial Accounts API
   slug: upward-financial-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upward-financial/refs/heads/main/openapi/upward-financial-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/upward-financial/openapi/upward-financial-accounts-api-openapi.yml
 - filename: upward-financial-auth-api-openapi.yml
   format: yaml
   label: Upward Financial Auth API
   slug: upward-financial-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upward-financial/refs/heads/main/openapi/upward-financial-auth-api-openapi.yml
+  url: https://artifacts.apis.io/upward-financial/openapi/upward-financial-auth-api-openapi.yml
 - filename: upward-financial-billreporting-api-openapi.yml
   format: yaml
   label: Upward Financial Bill Reporting API
   slug: upward-financial-billreporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upward-financial/refs/heads/main/openapi/upward-financial-billreporting-api-openapi.yml
+  url: https://artifacts.apis.io/upward-financial/openapi/upward-financial-billreporting-api-openapi.yml
 - filename: upward-financial-billswitch-api-openapi.yml
   format: yaml
   label: Upward Financial Bill Switch API
   slug: upward-financial-billswitch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upward-financial/refs/heads/main/openapi/upward-financial-billswitch-api-openapi.yml
+  url: https://artifacts.apis.io/upward-financial/openapi/upward-financial-billswitch-api-openapi.yml
 - filename: upward-financial-cbaas-api-openapi.yml
   format: yaml
   label: Upward Financial Cbaas API
   slug: upward-financial-cbaas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upward-financial/refs/heads/main/openapi/upward-financial-cbaas-api-openapi.yml
+  url: https://artifacts.apis.io/upward-financial/openapi/upward-financial-cbaas-api-openapi.yml
 - filename: upward-financial-consumers-api-openapi.yml
   format: yaml
   label: Upward Financial Consumers API
   slug: upward-financial-consumers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upward-financial/refs/heads/main/openapi/upward-financial-consumers-api-openapi.yml
+  url: https://artifacts.apis.io/upward-financial/openapi/upward-financial-consumers-api-openapi.yml
 - filename: upward-financial-creditinsights-api-openapi.yml
   format: yaml
   label: Upward Financial Credit Insights API
   slug: upward-financial-creditinsights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upward-financial/refs/heads/main/openapi/upward-financial-creditinsights-api-openapi.yml
+  url: https://artifacts.apis.io/upward-financial/openapi/upward-financial-creditinsights-api-openapi.yml
 - filename: upward-financial-onboarding-api-openapi.yml
   format: yaml
   label: Upward Financial Onboarding API
   slug: upward-financial-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upward-financial/refs/heads/main/openapi/upward-financial-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/upward-financial/openapi/upward-financial-onboarding-api-openapi.yml
 - filename: upward-financial-partners-api-openapi.yml
   format: yaml
   label: Upward Financial Partners API
   slug: upward-financial-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upward-financial/refs/heads/main/openapi/upward-financial-partners-api-openapi.yml
+  url: https://artifacts.apis.io/upward-financial/openapi/upward-financial-partners-api-openapi.yml
 - filename: upward-financial-payments-api-openapi.yml
   format: yaml
   label: Upward Financial Payments API
   slug: upward-financial-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upward-financial/refs/heads/main/openapi/upward-financial-payments-api-openapi.yml
+  url: https://artifacts.apis.io/upward-financial/openapi/upward-financial-payments-api-openapi.yml
 - filename: upward-financial-plaid-api-openapi.yml
   format: yaml
   label: Upward Financial Plaid API
   slug: upward-financial-plaid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upward-financial/refs/heads/main/openapi/upward-financial-plaid-api-openapi.yml
+  url: https://artifacts.apis.io/upward-financial/openapi/upward-financial-plaid-api-openapi.yml
 - filename: upward-financial-rewards-api-openapi.yml
   format: yaml
   label: Upward Financial Rewards API
   slug: upward-financial-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upward-financial/refs/heads/main/openapi/upward-financial-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/upward-financial/openapi/upward-financial-rewards-api-openapi.yml
 - filename: upward-financial-simulations-api-openapi.yml
   format: yaml
   label: Upward Financial Simulations API
   slug: upward-financial-simulations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upward-financial/refs/heads/main/openapi/upward-financial-simulations-api-openapi.yml
+  url: https://artifacts.apis.io/upward-financial/openapi/upward-financial-simulations-api-openapi.yml
 - filename: upward-financial-statements-api-openapi.yml
   format: yaml
   label: Upward Financial Statements API
   slug: upward-financial-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upward-financial/refs/heads/main/openapi/upward-financial-statements-api-openapi.yml
+  url: https://artifacts.apis.io/upward-financial/openapi/upward-financial-statements-api-openapi.yml
 - filename: upward-financial-webhooks-api-openapi.yml
   format: yaml
   label: Upward Financial Webhooks API
   slug: upward-financial-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upward-financial/refs/heads/main/openapi/upward-financial-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/upward-financial/openapi/upward-financial-webhooks-api-openapi.yml
 - filename: upward-financial-bill-payments-api-openapi.yml
   format: yaml
   label: Upward Financial Bill Payments API
   slug: upward-financial-bill-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upward-financial/refs/heads/main/openapi/upward-financial-bill-payments-api-openapi.yml
+  url: https://artifacts.apis.io/upward-financial/openapi/upward-financial-bill-payments-api-openapi.yml
 - filename: upward-financial-payment-cards-api-openapi.yml
   format: yaml
   label: Upward Financial Payment Cards API
   slug: upward-financial-payment-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upward-financial/refs/heads/main/openapi/upward-financial-payment-cards-api-openapi.yml
+  url: https://artifacts.apis.io/upward-financial/openapi/upward-financial-payment-cards-api-openapi.yml
 description: Domain and transport security posture probed 2026-07-21. The production API and authorization hosts (api.upwardli.com, auth.upwardli.com) do not answer unauthenticated public HTTPS probes (connection timeouts), so no TLS data is recorded for them. The OpenAPI's servers[] entry is a placeholder (https://host.com) and is excluded; real hosts come from the documented environments page.
 domains:
 - caa: []
@@ -158,7 +158,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of the Upwardli web, developer, status, API, and auth hosts\ndescription: >-\n  Domain and transport security posture probed 2026-07-21. The production API\n  and authorization hosts (api.upwardli.com, auth.upwardli.com) do not answer\n  unauthenticated public HTTPS probes (connection timeouts), so no TLS data is\n  recorded for them. The OpenAPI's servers[] entry is a placeholder\n  (https://host.com) and is excluded; real hosts come from the documented\n  environments page.\nhosts:\n- host: upwardli.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 26 03:11:50 2026 GMT\n  hsts: false\n- host: www.upwardli.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 22:16:46 2026 GMT\n  hsts: false\n- host: developers.upwardli.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 5 01:13:51 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  hsts_include_subdomains: true\n\
   \  hsts_preload: true\n- host: status.upwardli.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 00:50:13 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_preload: true\n- host: api.upwardli.com\n  https: null\n  note: connection timeout - not publicly reachable\n- host: auth.upwardli.com\n  https: null\n  note: connection timeout - not publicly reachable\ndomains:\n- domain: upwardli.com\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: \"v=spf1 include:_spf.google.com include:spf.mandrillapp.com include:amazonses.com ~all\"\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upward-financial/refs/heads/main/security/upward-financial-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/upward-financial/security/upward-financial-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company

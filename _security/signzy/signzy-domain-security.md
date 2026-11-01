@@ -5,25 +5,25 @@ api_specs:
   label: Signzy Authentication API
   slug: signzy-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/openapi/signzy-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/signzy/openapi/signzy-authentication-api-openapi.yml
 - filename: signzy-banking-api-openapi.yml
   format: yaml
   label: Signzy Banking API
   slug: signzy-banking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/openapi/signzy-banking-api-openapi.yml
+  url: https://artifacts.apis.io/signzy/openapi/signzy-banking-api-openapi.yml
 - filename: signzy-identity-india-api-openapi.yml
   format: yaml
   label: Signzy Identity (India) API
   slug: signzy-identity-india-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/openapi/signzy-identity-india-api-openapi.yml
+  url: https://artifacts.apis.io/signzy/openapi/signzy-identity-india-api-openapi.yml
 - filename: signzy-identity-us-api-openapi.yml
   format: yaml
   label: Signzy Identity (US) API
   slug: signzy-identity-us-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/openapi/signzy-identity-us-api-openapi.yml
+  url: https://artifacts.apis.io/signzy/openapi/signzy-identity-us-api-openapi.yml
 description: ''
 domains:
 - data_localization: true
@@ -67,7 +67,7 @@ source_filename: signzy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.signzy.com\n  https: true\n  http_status: 200\n  cert_expires: Aug 29 01:06:54 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.signzy.com\n  https: true\n  http_status: 200\n  hsts: null\n  note: Documentation portal fronted by Cloudflare.\n- host: api.signzy.app\n  https: true\n  http_status: 401\n  cert_expires: Nov 23 23:59:59 2026 GMT\n  hsts: null\n  note: Production API host; 401 at root confirms authenticated REST surface.\n- host: api-preproduction.signzy.app\n  https: true\n  http_status: 404\n  hsts: null\n  note: Preproduction / sandbox API host; 404 at root (no index route).\ndomains:\n- domain: signzy.com\n  encryption: 256-bit SSL/TLS\n  data_localization: true\n  notes: >-\n    Signzy advertises 256-bit SSL encryption, data localization / residency,\n    FATF compliance, and 24x7 security incident & event monitoring.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/security/signzy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/signzy/security/signzy-domain-security.yml
 summary_line: HSTS
 tags:
 - Identity Verification

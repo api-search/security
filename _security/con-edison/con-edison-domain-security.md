@@ -5,85 +5,85 @@ api_specs:
   label: Con Edison Application Information API
   slug: con-edison-applicationinformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-applicationinformation-api-openapi.yml
+  url: https://artifacts.apis.io/con-edison/openapi/con-edison-applicationinformation-api-openapi.yml
 - filename: con-edison-authorization-api-openapi.yml
   format: yaml
   label: Con Edison Authorization API
   slug: con-edison-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/con-edison/openapi/con-edison-authorization-api-openapi.yml
 - filename: con-edison-batch-api-openapi.yml
   format: yaml
   label: Con Edison Batch API
   slug: con-edison-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-batch-api-openapi.yml
+  url: https://artifacts.apis.io/con-edison/openapi/con-edison-batch-api-openapi.yml
 - filename: con-edison-electricpowerusagesummary-api-openapi.yml
   format: yaml
   label: Con Edison Electric Power Usage Summary API
   slug: con-edison-electricpowerusagesummary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-electricpowerusagesummary-api-openapi.yml
+  url: https://artifacts.apis.io/con-edison/openapi/con-edison-electricpowerusagesummary-api-openapi.yml
 - filename: con-edison-intervalblock-api-openapi.yml
   format: yaml
   label: Con Edison Interval Block API
   slug: con-edison-intervalblock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-intervalblock-api-openapi.yml
+  url: https://artifacts.apis.io/con-edison/openapi/con-edison-intervalblock-api-openapi.yml
 - filename: con-edison-localtimeparameters-api-openapi.yml
   format: yaml
   label: Con Edison Local Time Parameters API
   slug: con-edison-localtimeparameters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-localtimeparameters-api-openapi.yml
+  url: https://artifacts.apis.io/con-edison/openapi/con-edison-localtimeparameters-api-openapi.yml
 - filename: con-edison-meterreading-api-openapi.yml
   format: yaml
   label: Con Edison Meter Reading API
   slug: con-edison-meterreading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-meterreading-api-openapi.yml
+  url: https://artifacts.apis.io/con-edison/openapi/con-edison-meterreading-api-openapi.yml
 - filename: con-edison-readingtype-api-openapi.yml
   format: yaml
   label: Con Edison Reading Type API
   slug: con-edison-readingtype-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-readingtype-api-openapi.yml
+  url: https://artifacts.apis.io/con-edison/openapi/con-edison-readingtype-api-openapi.yml
 - filename: con-edison-realtimebatch-api-openapi.yml
   format: yaml
   label: Con Edison Real Time Batch API
   slug: con-edison-realtimebatch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-realtimebatch-api-openapi.yml
+  url: https://artifacts.apis.io/con-edison/openapi/con-edison-realtimebatch-api-openapi.yml
 - filename: con-edison-realtimeintervalblock-api-openapi.yml
   format: yaml
   label: Con Edison Real Time Interval Block API
   slug: con-edison-realtimeintervalblock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-realtimeintervalblock-api-openapi.yml
+  url: https://artifacts.apis.io/con-edison/openapi/con-edison-realtimeintervalblock-api-openapi.yml
 - filename: con-edison-realtimereadingtype-api-openapi.yml
   format: yaml
   label: Con Edison Real Time Reading Type API
   slug: con-edison-realtimereadingtype-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-realtimereadingtype-api-openapi.yml
+  url: https://artifacts.apis.io/con-edison/openapi/con-edison-realtimereadingtype-api-openapi.yml
 - filename: con-edison-retailcustomer-api-openapi.yml
   format: yaml
   label: Con Edison Retail Customer API
   slug: con-edison-retailcustomer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-retailcustomer-api-openapi.yml
+  url: https://artifacts.apis.io/con-edison/openapi/con-edison-retailcustomer-api-openapi.yml
 - filename: con-edison-usagepoint-api-openapi.yml
   format: yaml
   label: Con Edison Usage Point API
   slug: con-edison-usagepoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-usagepoint-api-openapi.yml
+  url: https://artifacts.apis.io/con-edison/openapi/con-edison-usagepoint-api-openapi.yml
 - filename: con-edison-service-status-api-openapi.yml
   format: yaml
   label: Con Edison Service Status API
   slug: con-edison-service-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-service-status-api-openapi.yml
+  url: https://artifacts.apis.io/con-edison/openapi/con-edison-service-status-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -136,7 +136,7 @@ source_filename: con-edison-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.coned.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  4 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.coned.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 17 23:59:59 2026 GMT\n  hsts: null\n- host: services.arcgis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: coned.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: arcgis.com\n  dnssec: true\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issuewild \"amazontrust.com\"\n  - 0 issuewild \"awstrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/security/con-edison-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/con-edison/security/con-edison-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Energy

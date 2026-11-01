@@ -9,19 +9,19 @@ api_specs:
   label: Counter Account API
   slug: counter-dev-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/counter-dev/refs/heads/main/openapi/counter-dev-account-api-openapi.yml
+  url: https://artifacts.apis.io/counter-dev/openapi/counter-dev-account-api-openapi.yml
 - filename: counter-dev-stats-api-openapi.yml
   format: yaml
   label: Counter Stats API
   slug: counter-dev-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/counter-dev/refs/heads/main/openapi/counter-dev-stats-api-openapi.yml
+  url: https://artifacts.apis.io/counter-dev/openapi/counter-dev-stats-api-openapi.yml
 - filename: counter-dev-tracking-api-openapi.yml
   format: yaml
   label: Counter Tracking API
   slug: counter-dev-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/counter-dev/refs/heads/main/openapi/counter-dev-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/counter-dev/openapi/counter-dev-tracking-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: counter-dev-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/counter-dev-account-api-openapi.yml, openapi/counter-dev-stats-api-openapi.yml,\n  openapi/counter-dev-tracking-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - cookie\n  - query\nschemes:\n- name: sessionCookie\n  type: apiKey\n  in: cookie\n  parameter: session\n  description: Session cookie set on login/register, used by the dashboard UI.\n  sources:\n  - openapi/counter-dev-account-api-openapi.yml\n  - openapi/counter-dev-stats-api-openapi.yml\n  - openapi/counter-dev-tracking-api-openapi.yml\n- name: apiToken\n  type: apiKey\n  in: query\n  parameter: token\n  description: Read-only account token, paired with the user query parameter, for sessionless\n    access to /query and /dump.\n  sources:\n  - openapi/counter-dev-account-api-openapi.yml\n  - openapi/counter-dev-stats-api-openapi.yml\n  - openapi/counter-dev-tracking-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/counter-dev/refs/heads/main/authentication/counter-dev-authentication.yml
+source_yaml_url: https://artifacts.apis.io/counter-dev/authentication/counter-dev-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Web Analytics

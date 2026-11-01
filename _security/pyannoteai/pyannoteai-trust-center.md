@@ -5,31 +5,31 @@ api_specs:
   label: PyannoteAI Media API
   slug: pyannoteai-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pyannoteai/refs/heads/main/openapi/pyannoteai-media-api-openapi.yml
+  url: https://artifacts.apis.io/pyannoteai/openapi/pyannoteai-media-api-openapi.yml
 - filename: pyannoteai-streaming-api-openapi.yml
   format: yaml
   label: PyannoteAI Streaming API
   slug: pyannoteai-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pyannoteai/refs/heads/main/openapi/pyannoteai-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/pyannoteai/openapi/pyannoteai-streaming-api-openapi.yml
 - filename: pyannoteai-jobs-api-openapi.yml
   format: yaml
   label: PyannoteAI Jobs API
   slug: pyannoteai-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pyannoteai/refs/heads/main/openapi/pyannoteai-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/pyannoteai/openapi/pyannoteai-jobs-api-openapi.yml
 - filename: pyannoteai-operations-api-openapi.yml
   format: yaml
   label: PyannoteAI Operations API
   slug: pyannoteai-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pyannoteai/refs/heads/main/openapi/pyannoteai-operations-api-openapi.yml
+  url: https://artifacts.apis.io/pyannoteai/openapi/pyannoteai-operations-api-openapi.yml
 - filename: pyannoteai-test-api-openapi.yml
   format: yaml
   label: PyannoteAI Test API
   slug: pyannoteai-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pyannoteai/refs/heads/main/openapi/pyannoteai-test-api-openapi.yml
+  url: https://artifacts.apis.io/pyannoteai/openapi/pyannoteai-test-api-openapi.yml
 certification_count: 2
 certifications:
 - HIPAA
@@ -47,7 +47,7 @@ source_filename: pyannoteai-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-17'\nmethod: searched\nprobe: true\nsource: https://trust.pyannote.ai/\nurl: https://trust.pyannote.ai/\ncertifications:\n- HIPAA\n- GDPR\nevidence:\n- source: https://trust.pyannote.ai/\n  keywords:\n  - hipaa\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pyannoteai/refs/heads/main/security/pyannoteai-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/pyannoteai/security/pyannoteai-trust-center.yml
 summary_line: HIPAA, GDPR
 tags:
 - Company

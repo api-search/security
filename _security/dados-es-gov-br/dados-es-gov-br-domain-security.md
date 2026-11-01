@@ -27,7 +27,7 @@ source_filename: dados-es-gov-br-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dados.es.gov.br\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 15 15:57:30 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: es.gov.br\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dados-es-gov-br/refs/heads/main/security/dados-es-gov-br-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dados-es-gov-br/security/dados-es-gov-br-domain-security.yml
 summary_line: TLSv1.2 · HSTS
 tags:
 - Open Data

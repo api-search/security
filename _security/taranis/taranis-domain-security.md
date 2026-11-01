@@ -5,25 +5,25 @@ api_specs:
   label: Taranis Crop Intelligence
   slug: taranis-crop-intelligence
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taranis/refs/heads/main/openapi/_original/taranis-openapi.yml
+  url: https://artifacts.apis.io/taranis/openapi/_original/taranis-openapi.yml
 - filename: taranis-openapi.yml
   format: yaml
   label: Taranis Imagery and Insights
   slug: taranis-imagery-insights
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taranis/refs/heads/main/openapi/_original/taranis-openapi.yml
+  url: https://artifacts.apis.io/taranis/openapi/_original/taranis-openapi.yml
 - filename: taranis-openapi.yml
   format: yaml
   label: Taranis Ag Assistant
   slug: taranis-ag-assistant
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taranis/refs/heads/main/openapi/_original/taranis-openapi.yml
+  url: https://artifacts.apis.io/taranis/openapi/_original/taranis-openapi.yml
 - filename: taranis-openapi.yml
   format: yaml
   label: Taranis Platform Integrations
   slug: taranis-platform-integrations
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taranis/refs/heads/main/openapi/_original/taranis-openapi.yml
+  url: https://artifacts.apis.io/taranis/openapi/_original/taranis-openapi.yml
 description: ''
 domains:
 - caa:
@@ -58,7 +58,7 @@ source_filename: taranis-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.taranis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 14 20:42:19 2027 GMT\n  hsts: false\n- host: go.taranis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 12:55:43 2026 GMT\n  hsts: false\ndomains:\n- domain: taranis.com\n  dnssec: true\n  caa:\n  - ;; connection timed out; no servers could be reached\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taranis/refs/heads/main/security/taranis-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/taranis/security/taranis-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Agriculture

@@ -27,7 +27,7 @@ source_filename: damae-medical-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: damae-medical.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 13:11:28 2026 GMT\n  hsts: false\ndomains:\n- domain: damae-medical.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/damae-medical/refs/heads/main/security/damae-medical-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/damae-medical/security/damae-medical-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

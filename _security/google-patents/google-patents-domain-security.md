@@ -1,17 +1,23 @@
 ---
 api_specs:
+- filename: google-patents-openapi-generated.yml
+  format: yaml
+  label: Google Patents API
+  slug: google-patents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-patents/openapi/_ae-authored/google-patents-openapi-generated.yml
 - filename: google-patents-repos-api-openapi.yml
   format: yaml
   label: Google Patents Repos API
   slug: google-patents-repos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-patents/refs/heads/main/openapi/google-patents-repos-api-openapi.yml
+  url: https://artifacts.apis.io/google-patents/openapi/google-patents-repos-api-openapi.yml
 - filename: google-patents-v1beta-api-openapi.yml
   format: yaml
   label: Google Patents V1Beta API
   slug: google-patents-v1beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-patents/refs/heads/main/openapi/google-patents-v1beta-api-openapi.yml
+  url: https://artifacts.apis.io/google-patents/openapi/google-patents-v1beta-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -41,12 +47,12 @@ source_filename: google-patents-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: patents.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 20:00:10 2026 GMT\n  hsts: false\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-patents/refs/heads/main/security/google-patents-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/google-patents/security/google-patents-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Patents
 - Search
-- Intellectual-Property
+- Intellectual Property
 - Google
 ---

@@ -35,7 +35,7 @@ source_filename: trisotech-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.trisotech.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 19:48:30 2026 GMT\n  hsts: false\n- host: cloud.trisotech.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 19:49:53 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: trisotech.com\n  dnssec: true\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/security/trisotech-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trisotech/security/trisotech-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Business Process Management

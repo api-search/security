@@ -5,49 +5,49 @@ api_specs:
   label: Landmark Information Group Activities API
   slug: landmark-information-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-activities-api-openapi.yml
+  url: https://artifacts.apis.io/landmark-information/openapi/landmark-information-activities-api-openapi.yml
 - filename: landmark-information-cases-api-openapi.yml
   format: yaml
   label: Landmark Information Group Cases API
   slug: landmark-information-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-cases-api-openapi.yml
+  url: https://artifacts.apis.io/landmark-information/openapi/landmark-information-cases-api-openapi.yml
 - filename: landmark-information-document-vaults-api-openapi.yml
   format: yaml
   label: Landmark Information Group Document Vaults API
   slug: landmark-information-document-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-document-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/landmark-information/openapi/landmark-information-document-vaults-api-openapi.yml
 - filename: landmark-information-documents-api-openapi.yml
   format: yaml
   label: Landmark Information Group Documents API
   slug: landmark-information-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-documents-api-openapi.yml
+  url: https://artifacts.apis.io/landmark-information/openapi/landmark-information-documents-api-openapi.yml
 - filename: landmark-information-milestones-api-openapi.yml
   format: yaml
   label: Landmark Information Group Milestones API
   slug: landmark-information-milestones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-milestones-api-openapi.yml
+  url: https://artifacts.apis.io/landmark-information/openapi/landmark-information-milestones-api-openapi.yml
 - filename: landmark-information-order-experience-api-api-openapi.yml
   format: yaml
   label: Landmark Information Group Order Experience API
   slug: landmark-information-order-experience-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-order-experience-api-api-openapi.yml
+  url: https://artifacts.apis.io/landmark-information/openapi/landmark-information-order-experience-api-api-openapi.yml
 - filename: landmark-information-quotes-api-openapi.yml
   format: yaml
   label: Landmark Information Group Quotes API
   slug: landmark-information-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/landmark-information/openapi/landmark-information-quotes-api-openapi.yml
 - filename: landmark-information-transaction-requests-api-openapi.yml
   format: yaml
   label: Landmark Information Group Transaction Requests API
   slug: landmark-information-transaction-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-transaction-requests-api-openapi.yml
+  url: https://artifacts.apis.io/landmark-information/openapi/landmark-information-transaction-requests-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -93,7 +93,7 @@ source_filename: landmark-information-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.landmark.co.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 06:16:41 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: www.landmarkcloudservices.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 10 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 10886400\n- host: api.landmarkcloudservices.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 27 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: landmark.co.uk\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: landmarkcloudservices.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/security/landmark-information-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/landmark-information/security/landmark-information-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Real Estate

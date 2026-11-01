@@ -8,19 +8,19 @@ api_specs:
   label: Rotessa Customers API
   slug: rotessa-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/openapi/rotessa-customers-api-openapi.yml
+  url: https://artifacts.apis.io/rotessa/openapi/rotessa-customers-api-openapi.yml
 - filename: rotessa-transaction-report-api-openapi.yml
   format: yaml
   label: Rotessa Transaction Report API
   slug: rotessa-transaction-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/openapi/rotessa-transaction-report-api-openapi.yml
+  url: https://artifacts.apis.io/rotessa/openapi/rotessa-transaction-report-api-openapi.yml
 - filename: rotessa-transaction-schedules-api-openapi.yml
   format: yaml
   label: Rotessa Transaction Schedules API
   slug: rotessa-transaction-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/openapi/rotessa-transaction-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/rotessa/openapi/rotessa-transaction-schedules-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: rotessa-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-24'\nmethod: derived\nsource: openapi/rotessa-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'API key placed in the Authorization header in the form `Authorization: Token\n    token=\"<your_api_key>\"`. Keys are created and revoked in the Rotessa admin portal.'\n  sources:\n  - openapi/rotessa-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/authentication/rotessa-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rotessa/authentication/rotessa-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Payments

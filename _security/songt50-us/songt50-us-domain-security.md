@@ -26,7 +26,7 @@ source_filename: songt50-us-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: songt50.us\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 21:44:38 2026 GMT\n  hsts: null\ndomains:\n- domain: songt50.us\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/songt50-us/refs/heads/main/security/songt50-us-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/songt50-us/security/songt50-us-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Agents

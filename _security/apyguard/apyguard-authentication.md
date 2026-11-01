@@ -30,7 +30,7 @@ source_heading: Authentication Profile
 source_url: https://docs.apyguard.com/authentication/overview.md
 source_yaml: "generated: '2026-10-16'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://docs.apyguard.com/authentication/overview.md\nsources:\n- https://docs.apyguard.com/authentication/overview.md\n- https://docs.apyguard.com/authentication/predefined-token.md\n- https://docs.apyguard.com/authentication/login-url.md\n- https://docs.apyguard.com/authentication/oidc.md\ndescription: Authentication methods supported by ApyGuard as described in the documentation.\nschemes:\n- type: apiKey\n  name: Predefined Token\n  evidence: Use an existing API key, bearer token, or similar credential in ApyGuard for protected endpoint testing.\n- type: other\n  name: Login URL\n  evidence: Login URL authentication allows ApyGuard to log in using a real API endpoint, retrieve a token from the response, and then use that\n    token for protected endpoint testing.\n- type: oauth2\n  name: OIDC\n  evidence: Use OIDC when your identity provider exposes OpenID Connect discovery\
   \ metadata and your API relies on that provider for authentication.\ndocs: https://docs.apyguard.com/authentication/overview.md\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apyguard/refs/heads/main/authentication/apyguard-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apyguard/authentication/apyguard-authentication.yml
 summary_line: 3 schemes
 tags:
 - Company

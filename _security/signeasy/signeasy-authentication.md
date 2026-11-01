@@ -7,31 +7,31 @@ api_specs:
   label: Signeasy Embedded API
   slug: signeasy-embedded-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-embedded-api-openapi.yml
+  url: https://artifacts.apis.io/signeasy/openapi/signeasy-embedded-api-openapi.yml
 - filename: signeasy-envelopes-api-openapi.yml
   format: yaml
   label: Signeasy Envelopes API
   slug: signeasy-envelopes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-envelopes-api-openapi.yml
+  url: https://artifacts.apis.io/signeasy/openapi/signeasy-envelopes-api-openapi.yml
 - filename: signeasy-originals-api-openapi.yml
   format: yaml
   label: Signeasy Originals API
   slug: signeasy-originals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-originals-api-openapi.yml
+  url: https://artifacts.apis.io/signeasy/openapi/signeasy-originals-api-openapi.yml
 - filename: signeasy-templates-api-openapi.yml
   format: yaml
   label: Signeasy Templates API
   slug: signeasy-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-templates-api-openapi.yml
+  url: https://artifacts.apis.io/signeasy/openapi/signeasy-templates-api-openapi.yml
 - filename: signeasy-users-api-openapi.yml
   format: yaml
   label: Signeasy Users API
   slug: signeasy-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-users-api-openapi.yml
+  url: https://artifacts.apis.io/signeasy/openapi/signeasy-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: signeasy-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/signeasy-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth 2.0 access token (sandbox or live) passed as a Bearer token in the Authorization\n    header.\n  sources:\n  - openapi/signeasy-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/authentication/signeasy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/signeasy/authentication/signeasy-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - E-Signature

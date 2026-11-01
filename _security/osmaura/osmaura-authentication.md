@@ -7,25 +7,25 @@ api_specs:
   label: Osmaura Prospect Editions API
   slug: osmaura-prospect-editions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/openapi/osmaura-prospect-editions-api-openapi.yml
+  url: https://artifacts.apis.io/osmaura/openapi/osmaura-prospect-editions-api-openapi.yml
 - filename: osmaura-prospects-api-openapi.yml
   format: yaml
   label: Osmaura Prospects API
   slug: osmaura-prospects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/openapi/osmaura-prospects-api-openapi.yml
+  url: https://artifacts.apis.io/osmaura/openapi/osmaura-prospects-api-openapi.yml
 - filename: osmaura-signal-editions-api-openapi.yml
   format: yaml
   label: Osmaura Signal Editions API
   slug: osmaura-signal-editions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/openapi/osmaura-signal-editions-api-openapi.yml
+  url: https://artifacts.apis.io/osmaura/openapi/osmaura-signal-editions-api-openapi.yml
 - filename: osmaura-signals-api-openapi.yml
   format: yaml
   label: Osmaura Signals API
   slug: osmaura-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/openapi/osmaura-signals-api-openapi.yml
+  url: https://artifacts.apis.io/osmaura/openapi/osmaura-signals-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -53,7 +53,7 @@ source_filename: osmaura-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: derived\nsource: openapi/osmaura-prospect-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: API key\n  description: Tenant-scoped production read key.\n  sources:\n  - openapi/osmaura-prospect-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/authentication/osmaura-authentication.yml
+source_yaml_url: https://artifacts.apis.io/osmaura/authentication/osmaura-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

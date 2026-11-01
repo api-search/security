@@ -5,43 +5,43 @@ api_specs:
   label: Phos Labs Audit API
   slug: phoslabs-io-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-audit-api-openapi.yml
+  url: https://artifacts.apis.io/phoslabs-io/openapi/phoslabs-io-audit-api-openapi.yml
 - filename: phoslabs-io-copy-api-openapi.yml
   format: yaml
   label: Phos Labs Copy API
   slug: phoslabs-io-copy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-copy-api-openapi.yml
+  url: https://artifacts.apis.io/phoslabs-io/openapi/phoslabs-io-copy-api-openapi.yml
 - filename: phoslabs-io-detect-biases-api-openapi.yml
   format: yaml
   label: Phos Labs Detect Biases API
   slug: phoslabs-io-detect-biases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-detect-biases-api-openapi.yml
+  url: https://artifacts.apis.io/phoslabs-io/openapi/phoslabs-io-detect-biases-api-openapi.yml
 - filename: phoslabs-io-diagnose-api-openapi.yml
   format: yaml
   label: Phos Labs Diagnose API
   slug: phoslabs-io-diagnose-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-diagnose-api-openapi.yml
+  url: https://artifacts.apis.io/phoslabs-io/openapi/phoslabs-io-diagnose-api-openapi.yml
 - filename: phoslabs-io-fix-checkout-api-openapi.yml
   format: yaml
   label: Phos Labs Fix Checkout API
   slug: phoslabs-io-fix-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-fix-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/phoslabs-io/openapi/phoslabs-io-fix-checkout-api-openapi.yml
 - filename: phoslabs-io-pricing-api-openapi.yml
   format: yaml
   label: Phos Labs Pricing API
   slug: phoslabs-io-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/phoslabs-io/openapi/phoslabs-io-pricing-api-openapi.yml
 - filename: phoslabs-io-tools-api-openapi.yml
   format: yaml
   label: Phos Labs Tools API
   slug: phoslabs-io-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-tools-api-openapi.yml
+  url: https://artifacts.apis.io/phoslabs-io/openapi/phoslabs-io-tools-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -76,7 +76,7 @@ source_filename: phoslabs-io-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: phoslabs.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 16:15:12 2026 GMT\n  hsts: false\ndomains:\n- domain: phoslabs.io\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/security/phoslabs-io-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/phoslabs-io/security/phoslabs-io-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

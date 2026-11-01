@@ -5,85 +5,85 @@ api_specs:
   label: Election Assistance Commission Block API
   slug: election-assistance-commission-block-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/openapi/election-assistance-commission-block-api-openapi.yml
+  url: https://artifacts.apis.io/election-assistance-commission/openapi/election-assistance-commission-block-api-openapi.yml
 - filename: election-assistance-commission-block-content-api-openapi.yml
   format: yaml
   label: Election Assistance Commission Block Content API
   slug: election-assistance-commission-block-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/openapi/election-assistance-commission-block-content-api-openapi.yml
+  url: https://artifacts.apis.io/election-assistance-commission/openapi/election-assistance-commission-block-content-api-openapi.yml
 - filename: election-assistance-commission-contact-form-api-openapi.yml
   format: yaml
   label: Election Assistance Commission Contact Form API
   slug: election-assistance-commission-contact-form-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/openapi/election-assistance-commission-contact-form-api-openapi.yml
+  url: https://artifacts.apis.io/election-assistance-commission/openapi/election-assistance-commission-contact-form-api-openapi.yml
 - filename: election-assistance-commission-date-format-api-openapi.yml
   format: yaml
   label: Election Assistance Commission Date Format API
   slug: election-assistance-commission-date-format-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/openapi/election-assistance-commission-date-format-api-openapi.yml
+  url: https://artifacts.apis.io/election-assistance-commission/openapi/election-assistance-commission-date-format-api-openapi.yml
 - filename: election-assistance-commission-file-api-openapi.yml
   format: yaml
   label: Election Assistance Commission File API
   slug: election-assistance-commission-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/openapi/election-assistance-commission-file-api-openapi.yml
+  url: https://artifacts.apis.io/election-assistance-commission/openapi/election-assistance-commission-file-api-openapi.yml
 - filename: election-assistance-commission-media-api-openapi.yml
   format: yaml
   label: Election Assistance Commission Media API
   slug: election-assistance-commission-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/openapi/election-assistance-commission-media-api-openapi.yml
+  url: https://artifacts.apis.io/election-assistance-commission/openapi/election-assistance-commission-media-api-openapi.yml
 - filename: election-assistance-commission-media-type-api-openapi.yml
   format: yaml
   label: Election Assistance Commission Media Type API
   slug: election-assistance-commission-media-type-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/openapi/election-assistance-commission-media-type-api-openapi.yml
+  url: https://artifacts.apis.io/election-assistance-commission/openapi/election-assistance-commission-media-type-api-openapi.yml
 - filename: election-assistance-commission-menu-api-openapi.yml
   format: yaml
   label: Election Assistance Commission Menu API
   slug: election-assistance-commission-menu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/openapi/election-assistance-commission-menu-api-openapi.yml
+  url: https://artifacts.apis.io/election-assistance-commission/openapi/election-assistance-commission-menu-api-openapi.yml
 - filename: election-assistance-commission-node-api-openapi.yml
   format: yaml
   label: Election Assistance Commission Node API
   slug: election-assistance-commission-node-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/openapi/election-assistance-commission-node-api-openapi.yml
+  url: https://artifacts.apis.io/election-assistance-commission/openapi/election-assistance-commission-node-api-openapi.yml
 - filename: election-assistance-commission-node-type-api-openapi.yml
   format: yaml
   label: Election Assistance Commission Node Type API
   slug: election-assistance-commission-node-type-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/openapi/election-assistance-commission-node-type-api-openapi.yml
+  url: https://artifacts.apis.io/election-assistance-commission/openapi/election-assistance-commission-node-type-api-openapi.yml
 - filename: election-assistance-commission-paragraph-api-openapi.yml
   format: yaml
   label: Election Assistance Commission Paragraph API
   slug: election-assistance-commission-paragraph-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/openapi/election-assistance-commission-paragraph-api-openapi.yml
+  url: https://artifacts.apis.io/election-assistance-commission/openapi/election-assistance-commission-paragraph-api-openapi.yml
 - filename: election-assistance-commission-paragraphs-type-api-openapi.yml
   format: yaml
   label: Election Assistance Commission Paragraphs Type API
   slug: election-assistance-commission-paragraphs-type-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/openapi/election-assistance-commission-paragraphs-type-api-openapi.yml
+  url: https://artifacts.apis.io/election-assistance-commission/openapi/election-assistance-commission-paragraphs-type-api-openapi.yml
 - filename: election-assistance-commission-search-page-api-openapi.yml
   format: yaml
   label: Election Assistance Commission Search Page API
   slug: election-assistance-commission-search-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/openapi/election-assistance-commission-search-page-api-openapi.yml
+  url: https://artifacts.apis.io/election-assistance-commission/openapi/election-assistance-commission-search-page-api-openapi.yml
 - filename: election-assistance-commission-taxonomy-term-api-openapi.yml
   format: yaml
   label: Election Assistance Commission Taxonomy Term API
   slug: election-assistance-commission-taxonomy-term-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/openapi/election-assistance-commission-taxonomy-term-api-openapi.yml
+  url: https://artifacts.apis.io/election-assistance-commission/openapi/election-assistance-commission-taxonomy-term-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -118,7 +118,7 @@ source_filename: election-assistance-commission-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.eac.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 21:17:45 2026 GMT\n  hsts: false\ndomains:\n- domain: eac.gov\n  dnssec: true\n  caa:\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/security/election-assistance-commission-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/election-assistance-commission/security/election-assistance-commission-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Federal Government

@@ -5,43 +5,43 @@ api_specs:
   label: ZeroEntropy Admin API
   slug: zeroentropy-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/openapi/zeroentropy-admin-api-openapi.yml
+  url: https://artifacts.apis.io/zeroentropy/openapi/zeroentropy-admin-api-openapi.yml
 - filename: zeroentropy-collections-api-openapi.yml
   format: yaml
   label: ZeroEntropy Collections API
   slug: zeroentropy-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/openapi/zeroentropy-collections-api-openapi.yml
+  url: https://artifacts.apis.io/zeroentropy/openapi/zeroentropy-collections-api-openapi.yml
 - filename: zeroentropy-documents-api-openapi.yml
   format: yaml
   label: ZeroEntropy Documents API
   slug: zeroentropy-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/openapi/zeroentropy-documents-api-openapi.yml
+  url: https://artifacts.apis.io/zeroentropy/openapi/zeroentropy-documents-api-openapi.yml
 - filename: zeroentropy-models-api-openapi.yml
   format: yaml
   label: ZeroEntropy Models API
   slug: zeroentropy-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/openapi/zeroentropy-models-api-openapi.yml
+  url: https://artifacts.apis.io/zeroentropy/openapi/zeroentropy-models-api-openapi.yml
 - filename: zeroentropy-queries-api-openapi.yml
   format: yaml
   label: ZeroEntropy Queries API
   slug: zeroentropy-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/openapi/zeroentropy-queries-api-openapi.yml
+  url: https://artifacts.apis.io/zeroentropy/openapi/zeroentropy-queries-api-openapi.yml
 - filename: zeroentropy-status-api-openapi.yml
   format: yaml
   label: ZeroEntropy Status API
   slug: zeroentropy-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/openapi/zeroentropy-status-api-openapi.yml
+  url: https://artifacts.apis.io/zeroentropy/openapi/zeroentropy-status-api-openapi.yml
 - filename: zeroentropy-usage-api-openapi.yml
   format: yaml
   label: ZeroEntropy Usage API
   slug: zeroentropy-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/openapi/zeroentropy-usage-api-openapi.yml
+  url: https://artifacts.apis.io/zeroentropy/openapi/zeroentropy-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -80,7 +80,7 @@ source_filename: zeroentropy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.zeroentropy.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 07:36:05 2026 GMT\n  hsts: null\n- host: api.zeroentropy.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 19:07:18 2026 GMT\n  hsts: false\n- host: eu-api.zeroentropy.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 13:55:20 2026 GMT\n  hsts: false\ndomains:\n- domain: zeroentropy.dev\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/security/zeroentropy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zeroentropy/security/zeroentropy-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

@@ -26,12 +26,11 @@ source_filename: l1m-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: l1m.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  9 02:43:22 2027 GMT\n  hsts: false\ndomains:\n- domain: l1m.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/l1m/refs/heads/main/security/l1m-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/l1m/security/l1m-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company
 - Data Extraction
 - LLM
-- API
 - Open Source
 ---

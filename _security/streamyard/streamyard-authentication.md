@@ -7,19 +7,19 @@ api_specs:
   label: StreamYard Broadcasts API
   slug: streamyard-broadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamyard/refs/heads/main/openapi/streamyard-broadcasts-api-openapi.yml
+  url: https://artifacts.apis.io/streamyard/openapi/streamyard-broadcasts-api-openapi.yml
 - filename: streamyard-destinations-api-openapi.yml
   format: yaml
   label: StreamYard Destinations API
   slug: streamyard-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamyard/refs/heads/main/openapi/streamyard-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/streamyard/openapi/streamyard-destinations-api-openapi.yml
 - filename: streamyard-recordings-api-openapi.yml
   format: yaml
   label: StreamYard Recordings API
   slug: streamyard-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamyard/refs/heads/main/openapi/streamyard-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/streamyard/openapi/streamyard-recordings-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -51,7 +51,7 @@ source_filename: streamyard-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/streamyard-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: streamyardBearerAuth\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://streamyard.com/oauth/authorize\n    tokenUrl: https://streamyard.com/oauth/token\n    scopes: 3\n  description: OAuth 2.0 Bearer token. Authenticate via StreamYard's OAuth flow at https://streamyard.com/oauth/authorize.\n  sources:\n  - openapi/streamyard-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/streamyard/refs/heads/main/authentication/streamyard-authentication.yml
+source_yaml_url: https://artifacts.apis.io/streamyard/authentication/streamyard-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Broadcasting

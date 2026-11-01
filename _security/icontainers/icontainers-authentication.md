@@ -7,31 +7,31 @@ api_specs:
   label: iContainers Bookings API
   slug: icontainers-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/icontainers/refs/heads/main/openapi/icontainers-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/icontainers/openapi/icontainers-bookings-api-openapi.yml
 - filename: icontainers-documents-api-openapi.yml
   format: yaml
   label: iContainers Documents API
   slug: icontainers-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/icontainers/refs/heads/main/openapi/icontainers-documents-api-openapi.yml
+  url: https://artifacts.apis.io/icontainers/openapi/icontainers-documents-api-openapi.yml
 - filename: icontainers-places-api-openapi.yml
   format: yaml
   label: iContainers Places API
   slug: icontainers-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/icontainers/refs/heads/main/openapi/icontainers-places-api-openapi.yml
+  url: https://artifacts.apis.io/icontainers/openapi/icontainers-places-api-openapi.yml
 - filename: icontainers-quotes-api-openapi.yml
   format: yaml
   label: iContainers Quotes API
   slug: icontainers-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/icontainers/refs/heads/main/openapi/icontainers-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/icontainers/openapi/icontainers-quotes-api-openapi.yml
 - filename: icontainers-rates-api-openapi.yml
   format: yaml
   label: iContainers Rates API
   slug: icontainers-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/icontainers/refs/heads/main/openapi/icontainers-rates-api-openapi.yml
+  url: https://artifacts.apis.io/icontainers/openapi/icontainers-rates-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: icontainers-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-17'\nmethod: derived\nsource: openapi/icontainers-brutus-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/icontainers-brutus-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/icontainers/refs/heads/main/authentication/icontainers-authentication.yml
+source_yaml_url: https://artifacts.apis.io/icontainers/authentication/icontainers-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

@@ -7,43 +7,43 @@ api_specs:
   label: Sesame HR Absences and Leave API
   slug: sesame-hr-absences-and-leave-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/openapi/sesame-hr-absences-and-leave-api-openapi.yml
+  url: https://artifacts.apis.io/sesame-hr/openapi/sesame-hr-absences-and-leave-api-openapi.yml
 - filename: sesame-hr-departments-and-org-api-openapi.yml
   format: yaml
   label: Sesame HR Departments and Org API
   slug: sesame-hr-departments-and-org-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/openapi/sesame-hr-departments-and-org-api-openapi.yml
+  url: https://artifacts.apis.io/sesame-hr/openapi/sesame-hr-departments-and-org-api-openapi.yml
 - filename: sesame-hr-employees-api-openapi.yml
   format: yaml
   label: Sesame HR Employees API
   slug: sesame-hr-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/openapi/sesame-hr-employees-api-openapi.yml
+  url: https://artifacts.apis.io/sesame-hr/openapi/sesame-hr-employees-api-openapi.yml
 - filename: sesame-hr-meta-api-openapi.yml
   format: yaml
   label: Sesame HR Meta API
   slug: sesame-hr-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/openapi/sesame-hr-meta-api-openapi.yml
+  url: https://artifacts.apis.io/sesame-hr/openapi/sesame-hr-meta-api-openapi.yml
 - filename: sesame-hr-scheduling-api-openapi.yml
   format: yaml
   label: Sesame HR Scheduling API
   slug: sesame-hr-scheduling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/openapi/sesame-hr-scheduling-api-openapi.yml
+  url: https://artifacts.apis.io/sesame-hr/openapi/sesame-hr-scheduling-api-openapi.yml
 - filename: sesame-hr-time-tracking-api-openapi.yml
   format: yaml
   label: Sesame HR Time Tracking API
   slug: sesame-hr-time-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/openapi/sesame-hr-time-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/sesame-hr/openapi/sesame-hr-time-tracking-api-openapi.yml
 - filename: sesame-hr-webhooks-api-openapi.yml
   format: yaml
   label: Sesame HR Webhooks API
   slug: sesame-hr-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/openapi/sesame-hr-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/sesame-hr/openapi/sesame-hr-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -71,7 +71,7 @@ source_filename: sesame-hr-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: https://apidocs.sesametime.com/authentication\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    Bearer API token. Generated self-serve in the Sesame admin panel by logging\n    in to app.sesametime.com and going to Settings > Integrations > API, then\n    \"Create New Token\". Passed as `Authorization: Bearer [example key]`.\n    Tokens grant access scoped to the account holder's permissions, can be\n    revoked from the dashboard (revoked tokens return 401), and are recommended\n    to be rotated every ~90 days. Token validity can be checked with\n    GET /core/v3/info.\n  sources:\n  - https://apidocs.sesametime.com/authentication\n  - https://apidocs.sesametime.com/introduction\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/authentication/sesame-hr-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sesame-hr/authentication/sesame-hr-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Human Resources

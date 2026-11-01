@@ -7,13 +7,13 @@ api_specs:
   label: ShellRecharge Locations API
   slug: shellrecharge-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shellrecharge/refs/heads/main/openapi/shellrecharge-locations-api-openapi.yml
+  url: https://artifacts.apis.io/shellrecharge/openapi/shellrecharge-locations-api-openapi.yml
 - filename: shellrecharge-sessions-api-openapi.yml
   format: yaml
   label: ShellRecharge Sessions API
   slug: shellrecharge-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shellrecharge/refs/heads/main/openapi/shellrecharge-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/shellrecharge/openapi/shellrecharge-sessions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -44,13 +44,12 @@ source_filename: shellrecharge-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/shellrecharge-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: OAuth2ClientCredentials\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.shell.com/v1/oauth/token\n    scopes: 0\n  description: OAuth 2.0 client credentials grant. A bearer access token is obtained from the\n    Shell SSO token endpoint and sent in the Authorization header; a separate API client id/secret\n    pair is also required on functional requests.\n  sources:\n  - openapi/shellrecharge-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shellrecharge/refs/heads/main/authentication/shellrecharge-authentication.yml
+source_yaml_url: https://artifacts.apis.io/shellrecharge/authentication/shellrecharge-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - EV Charging
 - Electric Vehicles
 - Mobility
-- Charge Points
 - OCPI
 - Energy
 ---

@@ -7,79 +7,79 @@ api_specs:
   label: Lunar Energy Devices API
   slug: lunar-energy-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/openapi/lunar-energy-devices-api-openapi.yml
+  url: https://artifacts.apis.io/lunar-energy/openapi/lunar-energy-devices-api-openapi.yml
 - filename: lunar-energy-diff-requests-api-openapi.yml
   format: yaml
   label: Lunar Energy Diff Requests API
   slug: lunar-energy-diff-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/openapi/lunar-energy-diff-requests-api-openapi.yml
+  url: https://artifacts.apis.io/lunar-energy/openapi/lunar-energy-diff-requests-api-openapi.yml
 - filename: lunar-energy-dynamic-tariffs-api-openapi.yml
   format: yaml
   label: Lunar Energy Dynamic Tariffs API
   slug: lunar-energy-dynamic-tariffs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/openapi/lunar-energy-dynamic-tariffs-api-openapi.yml
+  url: https://artifacts.apis.io/lunar-energy/openapi/lunar-energy-dynamic-tariffs-api-openapi.yml
 - filename: lunar-energy-flex-dispatches-api-openapi.yml
   format: yaml
   label: Lunar Energy Flex Dispatches API
   slug: lunar-energy-flex-dispatches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/openapi/lunar-energy-flex-dispatches-api-openapi.yml
+  url: https://artifacts.apis.io/lunar-energy/openapi/lunar-energy-flex-dispatches-api-openapi.yml
 - filename: lunar-energy-flex-events-api-openapi.yml
   format: yaml
   label: Lunar Energy Flex Events API
   slug: lunar-energy-flex-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/openapi/lunar-energy-flex-events-api-openapi.yml
+  url: https://artifacts.apis.io/lunar-energy/openapi/lunar-energy-flex-events-api-openapi.yml
 - filename: lunar-energy-flex-groups-api-openapi.yml
   format: yaml
   label: Lunar Energy Flex Groups API
   slug: lunar-energy-flex-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/openapi/lunar-energy-flex-groups-api-openapi.yml
+  url: https://artifacts.apis.io/lunar-energy/openapi/lunar-energy-flex-groups-api-openapi.yml
 - filename: lunar-energy-operation-mode-api-openapi.yml
   format: yaml
   label: Lunar Energy Operation Mode API
   slug: lunar-energy-operation-mode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/openapi/lunar-energy-operation-mode-api-openapi.yml
+  url: https://artifacts.apis.io/lunar-energy/openapi/lunar-energy-operation-mode-api-openapi.yml
 - filename: lunar-energy-periodical-tariffs-api-openapi.yml
   format: yaml
   label: Lunar Energy Periodical Tariffs API
   slug: lunar-energy-periodical-tariffs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/openapi/lunar-energy-periodical-tariffs-api-openapi.yml
+  url: https://artifacts.apis.io/lunar-energy/openapi/lunar-energy-periodical-tariffs-api-openapi.yml
 - filename: lunar-energy-plans-api-openapi.yml
   format: yaml
   label: Lunar Energy Plans API
   slug: lunar-energy-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/openapi/lunar-energy-plans-api-openapi.yml
+  url: https://artifacts.apis.io/lunar-energy/openapi/lunar-energy-plans-api-openapi.yml
 - filename: lunar-energy-prognoses-api-openapi.yml
   format: yaml
   label: Lunar Energy Prognoses API
   slug: lunar-energy-prognoses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/openapi/lunar-energy-prognoses-api-openapi.yml
+  url: https://artifacts.apis.io/lunar-energy/openapi/lunar-energy-prognoses-api-openapi.yml
 - filename: lunar-energy-sites-api-openapi.yml
   format: yaml
   label: Lunar Energy Sites API
   slug: lunar-energy-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/openapi/lunar-energy-sites-api-openapi.yml
+  url: https://artifacts.apis.io/lunar-energy/openapi/lunar-energy-sites-api-openapi.yml
 - filename: lunar-energy-telemetry-api-openapi.yml
   format: yaml
   label: Lunar Energy Telemetry API
   slug: lunar-energy-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/openapi/lunar-energy-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/lunar-energy/openapi/lunar-energy-telemetry-api-openapi.yml
 - filename: lunar-energy-visits-api-openapi.yml
   format: yaml
   label: Lunar Energy Visits API
   slug: lunar-energy-visits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/openapi/lunar-energy-visits-api-openapi.yml
+  url: https://artifacts.apis.io/lunar-energy/openapi/lunar-energy-visits-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -123,7 +123,7 @@ source_filename: lunar-energy-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/gridshare-customer-api-openapi.yml, openapi/gridshare-partner-api-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: bearerAuth\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://lunar-customer-prod-us-west-1.auth.us-west-1.amazoncognito.com/oauth2/authorize\n    tokenUrl: https://lunar-customer-prod-us-west-1.auth.us-west-1.amazoncognito.com/oauth2/token\n    scopes: 4\n  description: |-\n    OAuth 2.0 Authorization Code flow against the lunar-customer\n    Amazon Cognito user pool.\n  sources:\n  - openapi/gridshare-customer-api-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: |-\n    OAuth 2.0 client-credentials access token obtained from the\n    Gridshare partner Cognito authentication endpoint.\n  sources:\n  - openapi/gridshare-partner-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/authentication/lunar-energy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lunar-energy/authentication/lunar-energy-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Energy

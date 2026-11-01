@@ -7,31 +7,31 @@ api_specs:
   label: ParseForMe Webhooks API
   slug: parseforme-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseforme/refs/heads/main/openapi/parseforme-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/parseforme/openapi/parseforme-webhooks-api-openapi.yml
 - filename: parseforme-document-types-api-openapi.yml
   format: yaml
   label: ParseForMe Document Types API
   slug: parseforme-document-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseforme/refs/heads/main/openapi/parseforme-document-types-api-openapi.yml
+  url: https://artifacts.apis.io/parseforme/openapi/parseforme-document-types-api-openapi.yml
 - filename: parseforme-documents-api-openapi.yml
   format: yaml
   label: ParseForMe Documents API
   slug: parseforme-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseforme/refs/heads/main/openapi/parseforme-documents-api-openapi.yml
+  url: https://artifacts.apis.io/parseforme/openapi/parseforme-documents-api-openapi.yml
 - filename: parseforme-me-api-openapi.yml
   format: yaml
   label: ParseForMe Me API
   slug: parseforme-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseforme/refs/heads/main/openapi/parseforme-me-api-openapi.yml
+  url: https://artifacts.apis.io/parseforme/openapi/parseforme-me-api-openapi.yml
 - filename: parseforme-meta-api-openapi.yml
   format: yaml
   label: ParseForMe Meta API
   slug: parseforme-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseforme/refs/heads/main/openapi/parseforme-meta-api-openapi.yml
+  url: https://artifacts.apis.io/parseforme/openapi/parseforme-meta-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -60,7 +60,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-03'\nmethod: searched\nsource: openapi/parseforme-openapi-original.json\ndocs: https://parseforme.com/developers\nsummary:\n  types:\n  - http\nschemes:\n- name: bearer\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: A `pfm_live_…` workspace key\n  sources:\n  - openapi/parseforme-openapi-original.json\ndetails:\n  credential: \"workspace API key sent as Authorization: Bearer pfm_live_...\"\n  key_format: 'pfm_live_ + 43 base64url characters - 52 chars carrying 256 bits of entropy'\n  scanning_regex: '\\bpfm_live_[A-Za-z0-9_-]{43}\\b'\n  scanning_note: The shape is fixed and published so consumers can add it to their own secret scanning.\n  issuance: Created in the dashboard under Settings -> API keys by an owner or admin, shown once.\n  revocation: Revocable at any time; takes effect immediately.\n  limits: Up to 10 active keys per workspace.\n  scope: >-\n    A key acts as a member of one workspace - it can create, read and export\
   \ documents and manage webhook\n    endpoints; it can never manage members, billing or other keys. Keys work only on /v1/*.\n  failure_mode: >-\n    Every authentication failure returns the same opaque 401 whatever was wrong with the key - a response\n    distinguishing \"unknown\" from \"revoked\" would be a probing oracle.\n  note: >-\n    The OpenAPI's bearerFormat says JWT but the credential is an opaque pfm_live_ workspace key, not a\n    JWT - the docs are authoritative here.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parseforme/refs/heads/main/authentication/parseforme-authentication.yml
+source_yaml_url: https://artifacts.apis.io/parseforme/authentication/parseforme-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Document Parsing

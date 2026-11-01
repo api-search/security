@@ -5,31 +5,31 @@ api_specs:
   label: OpenMenu Analytics API
   slug: openmenu-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/openapi/openmenu-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/openmenu/openapi/openmenu-analytics-api-openapi.yml
 - filename: openmenu-deals-api-openapi.yml
   format: yaml
   label: OpenMenu Deals API
   slug: openmenu-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/openapi/openmenu-deals-api-openapi.yml
+  url: https://artifacts.apis.io/openmenu/openapi/openmenu-deals-api-openapi.yml
 - filename: openmenu-ingredients-api-openapi.yml
   format: yaml
   label: OpenMenu Ingredients API
   slug: openmenu-ingredients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/openapi/openmenu-ingredients-api-openapi.yml
+  url: https://artifacts.apis.io/openmenu/openapi/openmenu-ingredients-api-openapi.yml
 - filename: openmenu-restaurants-api-openapi.yml
   format: yaml
   label: OpenMenu Restaurants API
   slug: openmenu-restaurants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/openapi/openmenu-restaurants-api-openapi.yml
+  url: https://artifacts.apis.io/openmenu/openapi/openmenu-restaurants-api-openapi.yml
 - filename: openmenu-search-api-openapi.yml
   format: yaml
   label: OpenMenu Search API
   slug: openmenu-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/openapi/openmenu-search-api-openapi.yml
+  url: https://artifacts.apis.io/openmenu/openapi/openmenu-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: openmenu-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: openmenu.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 23:03:34 2026 GMT\n  hsts: null\n- host: www.openmenu.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 23:03:34 2026 GMT\n  hsts: null\ndomains:\n- domain: openmenu.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/security/openmenu-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/openmenu/security/openmenu-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Restaurant

@@ -5,19 +5,19 @@ api_specs:
   label: Depot BuildKitService API
   slug: depot-dev-buildkitservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depot-dev/refs/heads/main/openapi/depot-dev-buildkitservice-api-openapi.yml
+  url: https://artifacts.apis.io/depot-dev/openapi/depot-dev-buildkitservice-api-openapi.yml
 - filename: depot-dev-buildservice-api-openapi.yml
   format: yaml
   label: Depot BuildService API
   slug: depot-dev-buildservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depot-dev/refs/heads/main/openapi/depot-dev-buildservice-api-openapi.yml
+  url: https://artifacts.apis.io/depot-dev/openapi/depot-dev-buildservice-api-openapi.yml
 - filename: depot-dev-projectservice-api-openapi.yml
   format: yaml
   label: Depot ProjectService API
   slug: depot-dev-projectservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depot-dev/refs/heads/main/openapi/depot-dev-projectservice-api-openapi.yml
+  url: https://artifacts.apis.io/depot-dev/openapi/depot-dev-projectservice-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: depot-dev-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: depot.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 27 23:59:59 2027 GMT\n  hsts: false\n- host: api.depot.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 27 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: depot.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/depot-dev/refs/heads/main/security/depot-dev-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/depot-dev/security/depot-dev-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Container Builds

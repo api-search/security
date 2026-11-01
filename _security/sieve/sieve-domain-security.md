@@ -5,13 +5,13 @@ api_specs:
   label: Sieve Functions API
   slug: sieve-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sieve/refs/heads/main/openapi/sieve-functions-api-openapi.yml
+  url: https://artifacts.apis.io/sieve/openapi/sieve-functions-api-openapi.yml
 - filename: sieve-jobs-api-openapi.yml
   format: yaml
   label: Sieve Jobs API
   slug: sieve-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sieve/refs/heads/main/openapi/sieve-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/sieve/openapi/sieve-jobs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: sieve-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sievedata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 20:41:26 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.sievedata.com\n  https: false\n- host: mango.sievedata.com\n  https: false\ndomains:\n- domain: sievedata.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sieve/refs/heads/main/security/sieve-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sieve/security/sieve-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

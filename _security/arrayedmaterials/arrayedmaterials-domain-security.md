@@ -23,7 +23,7 @@ source_filename: arrayedmaterials-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.arrayedmaterials.com\n  https: false\ndomains:\n- domain: arrayedmaterials.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arrayedmaterials/refs/heads/main/security/arrayedmaterials-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/arrayedmaterials/security/arrayedmaterials-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

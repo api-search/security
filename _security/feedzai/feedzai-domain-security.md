@@ -34,7 +34,7 @@ source_filename: feedzai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.feedzai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  3 15:50:20 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: feedzai.com\n  dnssec: true\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/feedzai/refs/heads/main/security/feedzai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/feedzai/security/feedzai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

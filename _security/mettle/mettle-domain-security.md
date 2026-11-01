@@ -5,37 +5,37 @@ api_specs:
   label: Mettle ATM API
   slug: mettle-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/openapi/mettle-atm-api-openapi.yml
+  url: https://artifacts.apis.io/mettle/openapi/mettle-atm-api-openapi.yml
 - filename: mettle-bca-api-openapi.yml
   format: yaml
   label: Mettle BCA API
   slug: mettle-bca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/openapi/mettle-bca-api-openapi.yml
+  url: https://artifacts.apis.io/mettle/openapi/mettle-bca-api-openapi.yml
 - filename: mettle-branch-api-openapi.yml
   format: yaml
   label: Mettle Branch API
   slug: mettle-branch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/openapi/mettle-branch-api-openapi.yml
+  url: https://artifacts.apis.io/mettle/openapi/mettle-branch-api-openapi.yml
 - filename: mettle-ccc-api-openapi.yml
   format: yaml
   label: Mettle CCC API
   slug: mettle-ccc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/openapi/mettle-ccc-api-openapi.yml
+  url: https://artifacts.apis.io/mettle/openapi/mettle-ccc-api-openapi.yml
 - filename: mettle-pca-api-openapi.yml
   format: yaml
   label: Mettle PCA API
   slug: mettle-pca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/openapi/mettle-pca-api-openapi.yml
+  url: https://artifacts.apis.io/mettle/openapi/mettle-pca-api-openapi.yml
 - filename: mettle-sme-api-openapi.yml
   format: yaml
   label: Mettle SME API
   slug: mettle-sme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/openapi/mettle-sme-api-openapi.yml
+  url: https://artifacts.apis.io/mettle/openapi/mettle-sme-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -91,7 +91,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-23'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mettle.co.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.bankofapis.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov  7 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.openbanking.prd-mettle.co.uk\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get\n    local issuer certificate (_ssl.c:1082)'\n  hsts: null\ndomains:\n- domain: mettle.co.uk\n  dnssec: false\n  caa:\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: bankofapis.com\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:RBS.Group.PKI.Certificates@rbs.co.uk\"\
   \n  - 0 issue \"digicert.com\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/security/mettle-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mettle/security/mettle-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Financial Services

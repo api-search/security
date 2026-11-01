@@ -40,7 +40,7 @@ source_filename: likeplum-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml hosts (likeplum.com + successor studypool.com)\nnotes: >-\n  likeplum.com still resolves and serves TLS, but 301-redirects all traffic to\n  www.studypool.com, the surviving property of the former Createpool network.\n  Both hosts are probed here.\nhosts:\n- host: likeplum.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 20 14:22:03 2027 GMT\n  hsts: false\n  redirects_to: https://www.studypool.com/\n- host: studypool.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 23:40:36 2026 GMT\n  hsts: false\ndomains:\n- domain: likeplum.com\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: v=spf1 include:spf.protection.outlook.com -all\n  dmarc: false\n  dmarc_policy: null\n- domain: studypool.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/likeplum/refs/heads/main/security/likeplum-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/likeplum/security/likeplum-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

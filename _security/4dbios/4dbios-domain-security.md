@@ -48,7 +48,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of the 4d-bios.com registrable domain and its console hosts\nnote: >-\n  The origin (Aliyun, Hangzhou) is intermittently unreachable from a US probe point — roughly one\n  request in three times out at the TCP layer. Every value below was re-probed until a real response\n  came back; an initial automated pass recorded https:false for www.4d-bios.com purely from those\n  timeouts and has been corrected here.\nhosts:\n- host: www.4d-bios.com\n  https: true\n  http_status: 200\n  server: nginx\n  hsts: true\n  hsts_header: max-age=31536000\n  hsts_max_age: 31536000\n  hsts_include_subdomains: false\n  hsts_preload: false\n- host: 4d-bios.com\n  https: true\n  http_status: 200\n  server: nginx\n- host: openapi.4d-bios.com\n  https: true\n  http_status: 200\n  note: 4D Open Platform / 4D CUBE MS console (Ant Design Vue single-page app, login-gated)\n- host: iot.4d-bios.com\n  https: true\n  http_status: 200\n\
   \  note: IoT console (single-page app, login-gated)\n- host: api.4d-bios.com\n  https: false\n  http_status: null\n  note: >-\n    DNS A record exists (120.55.48.120) but TCP connections to 80 and 443 time out from the probe\n    point; no HTTP response was ever observed.\ndomains:\n- domain: 4d-bios.com\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: v=spf1 include:spf.163.com -all\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/4dbios/refs/heads/main/security/4dbios-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/4dbios/security/4dbios-domain-security.yml
 summary_line: HSTS
 tags:
 - Company

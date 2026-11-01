@@ -5,37 +5,37 @@ api_specs:
   label: Trove Contributor API
   slug: trove-contributor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trove/refs/heads/main/openapi/trove-contributor-api-openapi.yml
+  url: https://artifacts.apis.io/trove/openapi/trove-contributor-api-openapi.yml
 - filename: trove-list-api-openapi.yml
   format: yaml
   label: Trove List API
   slug: trove-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trove/refs/heads/main/openapi/trove-list-api-openapi.yml
+  url: https://artifacts.apis.io/trove/openapi/trove-list-api-openapi.yml
 - filename: trove-newspaper-api-openapi.yml
   format: yaml
   label: Trove Newspaper API
   slug: trove-newspaper-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trove/refs/heads/main/openapi/trove-newspaper-api-openapi.yml
+  url: https://artifacts.apis.io/trove/openapi/trove-newspaper-api-openapi.yml
 - filename: trove-people-api-openapi.yml
   format: yaml
   label: Trove People API
   slug: trove-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trove/refs/heads/main/openapi/trove-people-api-openapi.yml
+  url: https://artifacts.apis.io/trove/openapi/trove-people-api-openapi.yml
 - filename: trove-search-api-openapi.yml
   format: yaml
   label: Trove Search API
   slug: trove-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trove/refs/heads/main/openapi/trove-search-api-openapi.yml
+  url: https://artifacts.apis.io/trove/openapi/trove-search-api-openapi.yml
 - filename: trove-work-api-openapi.yml
   format: yaml
   label: Trove Work API
   slug: trove-work-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trove/refs/heads/main/openapi/trove-work-api-openapi.yml
+  url: https://artifacts.apis.io/trove/openapi/trove-work-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,12 +65,12 @@ source_filename: trove-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: trove.nla.gov.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 18 03:49:38 2027 GMT\n  hsts: true\n  hsts_max_age: 15811200\ndomains:\n- domain: nla.gov.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trove/refs/heads/main/security/trove-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trove/security/trove-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - News
 - Public APIs
-- Libraries
+- Library
 - Cultural Heritage
 - Digitised Newspapers
 - Archives

@@ -5,19 +5,19 @@ api_specs:
   label: Microsoft Defender Alerts API
   slug: microsoft-defender-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/openapi/microsoft-defender-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-defender/openapi/microsoft-defender-alerts-api-openapi.yml
 - filename: microsoft-defender-machines-api-openapi.yml
   format: yaml
   label: Microsoft Defender Machines API
   slug: microsoft-defender-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/openapi/microsoft-defender-machines-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-defender/openapi/microsoft-defender-machines-api-openapi.yml
 - filename: microsoft-defender-vulnerabilities-api-openapi.yml
   format: yaml
   label: Microsoft Defender Vulnerabilities API
   slug: microsoft-defender-vulnerabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/openapi/microsoft-defender-vulnerabilities-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-defender/openapi/microsoft-defender-vulnerabilities-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -58,7 +58,7 @@ source_filename: microsoft-defender-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: security.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 23:03:08 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.security.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 30 11:56:27 2026 GMT\n  hsts: null\n- host: us.api.security.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 09:09:00 2026 GMT\n  hsts: null\ndomains:\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/security/microsoft-defender-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-defender/security/microsoft-defender-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud Security

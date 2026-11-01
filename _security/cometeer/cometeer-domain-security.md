@@ -5,19 +5,19 @@ api_specs:
   label: Cometeer Collections API
   slug: cometeer-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cometeer/refs/heads/main/openapi/cometeer-collections-api-openapi.yml
+  url: https://artifacts.apis.io/cometeer/openapi/cometeer-collections-api-openapi.yml
 - filename: cometeer-products-api-openapi.yml
   format: yaml
   label: Cometeer Products API
   slug: cometeer-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cometeer/refs/heads/main/openapi/cometeer-products-api-openapi.yml
+  url: https://artifacts.apis.io/cometeer/openapi/cometeer-products-api-openapi.yml
 - filename: cometeer-search-api-openapi.yml
   format: yaml
   label: Cometeer Search API
   slug: cometeer-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cometeer/refs/heads/main/openapi/cometeer-search-api-openapi.yml
+  url: https://artifacts.apis.io/cometeer/openapi/cometeer-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: cometeer-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-01'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cometeer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 22:40:33 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\ndomains:\n- domain: cometeer.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cometeer/refs/heads/main/security/cometeer-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cometeer/security/cometeer-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

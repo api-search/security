@@ -23,7 +23,7 @@ source_filename: 1200pharma-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: 1200pharma.com\n  https: false\ndomains:\n- domain: 1200pharma.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1200pharma/refs/heads/main/security/1200pharma-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/1200pharma/security/1200pharma-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

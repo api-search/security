@@ -5,7 +5,7 @@ api_specs:
   label: iGrant.io Config API
   slug: igrant-io-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/igrant-io/refs/heads/main/openapi/igrant-io-config-api-openapi.yml
+  url: https://artifacts.apis.io/igrant-io/openapi/igrant-io-config-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -40,7 +40,7 @@ source_filename: igrant-io-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: igrant.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 31 16:08:09 2026 GMT\n  hsts: false\ndomains:\n- domain: igrant.io\n  dnssec: false\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/igrant-io/refs/heads/main/security/igrant-io-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/igrant-io/security/igrant-io-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

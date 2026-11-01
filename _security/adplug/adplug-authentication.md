@@ -7,37 +7,37 @@ api_specs:
   label: AdPlug Health API
   slug: adplug-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/openapi/adplug-health-api-openapi.yml
+  url: https://artifacts.apis.io/adplug/openapi/adplug-health-api-openapi.yml
 - filename: adplug-mcp-api-openapi.yml
   format: yaml
   label: AdPlug MCP API
   slug: adplug-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/openapi/adplug-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/adplug/openapi/adplug-mcp-api-openapi.yml
 - filename: adplug-oauth-api-openapi.yml
   format: yaml
   label: AdPlug OAuth API
   slug: adplug-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/openapi/adplug-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/adplug/openapi/adplug-oauth-api-openapi.yml
 - filename: adplug-oauth-legacy-compat-api-openapi.yml
   format: yaml
   label: AdPlug OAUTH Legacy Compat API
   slug: adplug-oauth-legacy-compat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/openapi/adplug-oauth-legacy-compat-api-openapi.yml
+  url: https://artifacts.apis.io/adplug/openapi/adplug-oauth-legacy-compat-api-openapi.yml
 - filename: adplug-users-api-openapi.yml
   format: yaml
   label: AdPlug Users API
   slug: adplug-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/openapi/adplug-users-api-openapi.yml
+  url: https://artifacts.apis.io/adplug/openapi/adplug-users-api-openapi.yml
 - filename: adplug-webhooks-api-openapi.yml
   format: yaml
   label: AdPlug Webhooks API
   slug: adplug-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/openapi/adplug-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/adplug/openapi/adplug-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -63,7 +63,7 @@ source_filename: adplug-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-15'\nmethod: derived\nsource: openapi/adplug.json\nsummary:\n  types:\n  - http\nschemes:\n- name: HTTPBearer\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/adplug.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/authentication/adplug-authentication.yml
+source_yaml_url: https://artifacts.apis.io/adplug/authentication/adplug-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - PPC

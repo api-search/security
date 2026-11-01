@@ -5,25 +5,25 @@ api_specs:
   label: Email on Acid Authentication API
   slug: email-on-acid-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/email-on-acid/refs/heads/main/openapi/email-on-acid-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/email-on-acid/openapi/email-on-acid-authentication-api-openapi.yml
 - filename: email-on-acid-email-clients-api-openapi.yml
   format: yaml
   label: Email on Acid Email Clients API
   slug: email-on-acid-email-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/email-on-acid/refs/heads/main/openapi/email-on-acid-email-clients-api-openapi.yml
+  url: https://artifacts.apis.io/email-on-acid/openapi/email-on-acid-email-clients-api-openapi.yml
 - filename: email-on-acid-email-testing-api-openapi.yml
   format: yaml
   label: Email on Acid Email Testing API
   slug: email-on-acid-email-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/email-on-acid/refs/heads/main/openapi/email-on-acid-email-testing-api-openapi.yml
+  url: https://artifacts.apis.io/email-on-acid/openapi/email-on-acid-email-testing-api-openapi.yml
 - filename: email-on-acid-spam-testing-api-openapi.yml
   format: yaml
   label: Email on Acid Spam Testing API
   slug: email-on-acid-spam-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/email-on-acid/refs/heads/main/openapi/email-on-acid-spam-testing-api-openapi.yml
+  url: https://artifacts.apis.io/email-on-acid/openapi/email-on-acid-spam-testing-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: email-on-acid-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.emailonacid.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 22:47:01 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.emailonacid.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 16 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: emailonacid.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/email-on-acid/refs/heads/main/security/email-on-acid-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/email-on-acid/security/email-on-acid-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Email Testing

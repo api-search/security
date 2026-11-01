@@ -5,13 +5,13 @@ api_specs:
   label: DXC Technology Integration API
   slug: dxc-technology-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dxc-technology/refs/heads/main/openapi/dxc-technology-integration-api-openapi.yml
+  url: https://artifacts.apis.io/dxc-technology/openapi/dxc-technology-integration-api-openapi.yml
 - filename: dxc-technology-platform-api-openapi.yml
   format: yaml
   label: DXC Technology Platform API
   slug: dxc-technology-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dxc-technology/refs/heads/main/openapi/dxc-technology-platform-api-openapi.yml
+  url: https://artifacts.apis.io/dxc-technology/openapi/dxc-technology-platform-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -43,7 +43,7 @@ source_filename: dxc-technology-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dxc.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: developer.dxc.com\n  https: false\ndomains:\n- domain: dxc.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dxc-technology/refs/heads/main/security/dxc-technology-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dxc-technology/security/dxc-technology-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - IT Services

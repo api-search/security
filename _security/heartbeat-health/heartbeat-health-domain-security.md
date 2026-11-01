@@ -27,7 +27,7 @@ source_filename: heartbeat-health-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: heartbeathealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 22:44:34 2026 GMT\n  hsts: false\ndomains:\n- domain: heartbeathealth.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/heartbeat-health/refs/heads/main/security/heartbeat-health-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/heartbeat-health/security/heartbeat-health-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

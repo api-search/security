@@ -5,91 +5,91 @@ api_specs:
   label: Alphaus Admin API
   slug: alphaus-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-admin-api-openapi.yml
+  url: https://artifacts.apis.io/alphaus/openapi/alphaus-admin-api-openapi.yml
 - filename: alphaus-billing-api-openapi.yml
   format: yaml
   label: Alphaus Billing API
   slug: alphaus-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-billing-api-openapi.yml
+  url: https://artifacts.apis.io/alphaus/openapi/alphaus-billing-api-openapi.yml
 - filename: alphaus-cost-api-openapi.yml
   format: yaml
   label: Alphaus Cost API
   slug: alphaus-cost-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-cost-api-openapi.yml
+  url: https://artifacts.apis.io/alphaus/openapi/alphaus-cost-api-openapi.yml
 - filename: alphaus-cover-api-openapi.yml
   format: yaml
   label: Alphaus Cover API
   slug: alphaus-cover-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-cover-api-openapi.yml
+  url: https://artifacts.apis.io/alphaus/openapi/alphaus-cover-api-openapi.yml
 - filename: alphaus-flags-api-openapi.yml
   format: yaml
   label: Alphaus Flags API
   slug: alphaus-flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-flags-api-openapi.yml
+  url: https://artifacts.apis.io/alphaus/openapi/alphaus-flags-api-openapi.yml
 - filename: alphaus-flow-api-openapi.yml
   format: yaml
   label: Alphaus Flow API
   slug: alphaus-flow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-flow-api-openapi.yml
+  url: https://artifacts.apis.io/alphaus/openapi/alphaus-flow-api-openapi.yml
 - filename: alphaus-guaranteedcommitments-api-openapi.yml
   format: yaml
   label: Alphaus GuaranteedCommitments API
   slug: alphaus-guaranteedcommitments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-guaranteedcommitments-api-openapi.yml
+  url: https://artifacts.apis.io/alphaus/openapi/alphaus-guaranteedcommitments-api-openapi.yml
 - filename: alphaus-iam-api-openapi.yml
   format: yaml
   label: Alphaus Iam API
   slug: alphaus-iam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-iam-api-openapi.yml
+  url: https://artifacts.apis.io/alphaus/openapi/alphaus-iam-api-openapi.yml
 - filename: alphaus-luster-api-openapi.yml
   format: yaml
   label: Alphaus Luster API
   slug: alphaus-luster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-luster-api-openapi.yml
+  url: https://artifacts.apis.io/alphaus/openapi/alphaus-luster-api-openapi.yml
 - filename: alphaus-operations-api-openapi.yml
   format: yaml
   label: Alphaus Operations API
   slug: alphaus-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-operations-api-openapi.yml
+  url: https://artifacts.apis.io/alphaus/openapi/alphaus-operations-api-openapi.yml
 - filename: alphaus-organization-api-openapi.yml
   format: yaml
   label: Alphaus Organization API
   slug: alphaus-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-organization-api-openapi.yml
+  url: https://artifacts.apis.io/alphaus/openapi/alphaus-organization-api-openapi.yml
 - filename: alphaus-preferences-api-openapi.yml
   format: yaml
   label: Alphaus Preferences API
   slug: alphaus-preferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-preferences-api-openapi.yml
+  url: https://artifacts.apis.io/alphaus/openapi/alphaus-preferences-api-openapi.yml
 - filename: alphaus-pricing-api-openapi.yml
   format: yaml
   label: Alphaus Pricing API
   slug: alphaus-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/alphaus/openapi/alphaus-pricing-api-openapi.yml
 - filename: alphaus-prism-api-openapi.yml
   format: yaml
   label: Alphaus Prism API
   slug: alphaus-prism-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-prism-api-openapi.yml
+  url: https://artifacts.apis.io/alphaus/openapi/alphaus-prism-api-openapi.yml
 - filename: alphaus-vortex-api-openapi.yml
   format: yaml
   label: Alphaus Vortex API
   slug: alphaus-vortex-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-vortex-api-openapi.yml
+  url: https://artifacts.apis.io/alphaus/openapi/alphaus-vortex-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -130,7 +130,7 @@ source_filename: alphaus-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: alphaus.cloud\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 04:46:34 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: labs.alphaus.cloud\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 18:12:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n- host: api.alphaus.cloud\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: alphaus.cloud\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/security/alphaus-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/alphaus/security/alphaus-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -5,55 +5,55 @@ api_specs:
   label: Trigger.dev Batches API
   slug: trigger-dev-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trigger-dev/refs/heads/main/openapi/trigger-dev-batches-api-openapi.yml
+  url: https://artifacts.apis.io/trigger-dev/openapi/trigger-dev-batches-api-openapi.yml
 - filename: trigger-dev-deployments-api-openapi.yml
   format: yaml
   label: Trigger.dev Deployments API
   slug: trigger-dev-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trigger-dev/refs/heads/main/openapi/trigger-dev-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/trigger-dev/openapi/trigger-dev-deployments-api-openapi.yml
 - filename: trigger-dev-environment-variables-api-openapi.yml
   format: yaml
   label: Trigger.dev Environment Variables API
   slug: trigger-dev-environment-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trigger-dev/refs/heads/main/openapi/trigger-dev-environment-variables-api-openapi.yml
+  url: https://artifacts.apis.io/trigger-dev/openapi/trigger-dev-environment-variables-api-openapi.yml
 - filename: trigger-dev-query-api-openapi.yml
   format: yaml
   label: Trigger.dev Query API
   slug: trigger-dev-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trigger-dev/refs/heads/main/openapi/trigger-dev-query-api-openapi.yml
+  url: https://artifacts.apis.io/trigger-dev/openapi/trigger-dev-query-api-openapi.yml
 - filename: trigger-dev-queues-api-openapi.yml
   format: yaml
   label: Trigger.dev Queues API
   slug: trigger-dev-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trigger-dev/refs/heads/main/openapi/trigger-dev-queues-api-openapi.yml
+  url: https://artifacts.apis.io/trigger-dev/openapi/trigger-dev-queues-api-openapi.yml
 - filename: trigger-dev-runs-api-openapi.yml
   format: yaml
   label: Trigger.dev Runs API
   slug: trigger-dev-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trigger-dev/refs/heads/main/openapi/trigger-dev-runs-api-openapi.yml
+  url: https://artifacts.apis.io/trigger-dev/openapi/trigger-dev-runs-api-openapi.yml
 - filename: trigger-dev-schedules-api-openapi.yml
   format: yaml
   label: Trigger.dev Schedules API
   slug: trigger-dev-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trigger-dev/refs/heads/main/openapi/trigger-dev-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/trigger-dev/openapi/trigger-dev-schedules-api-openapi.yml
 - filename: trigger-dev-tasks-api-openapi.yml
   format: yaml
   label: Trigger.dev Tasks API
   slug: trigger-dev-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trigger-dev/refs/heads/main/openapi/trigger-dev-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/trigger-dev/openapi/trigger-dev-tasks-api-openapi.yml
 - filename: trigger-dev-waitpoints-api-openapi.yml
   format: yaml
   label: Trigger.dev Waitpoints API
   slug: trigger-dev-waitpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trigger-dev/refs/heads/main/openapi/trigger-dev-waitpoints-api-openapi.yml
+  url: https://artifacts.apis.io/trigger-dev/openapi/trigger-dev-waitpoints-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -96,7 +96,7 @@ source_filename: trigger-dev-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: trigger.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 03:06:55 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.trigger.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 3153600000\n- host: your-self-hosted-instance.com\n  https: false\ndomains:\n- domain: trigger.dev\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: your-self-hosted-instance.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trigger-dev/refs/heads/main/security/trigger-dev-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trigger-dev/security/trigger-dev-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Developer-First

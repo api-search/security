@@ -15,7 +15,7 @@ source_filename: loom-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.atlassian.com/legal/security-measures\nurl: https://www.atlassian.com/legal/security-measures\ncertifications:\n- FedRAMP\nevidence:\n- source: https://www.atlassian.com/legal/security-measures\n  keywords:\n  - fedramp\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loom/refs/heads/main/security/loom-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/loom/security/loom-trust-center.yml
 summary_line: FedRAMP
 tags:
 - Productivity

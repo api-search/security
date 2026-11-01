@@ -7,19 +7,19 @@ api_specs:
   label: Geotab Authentication API
   slug: geotab-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geotab/refs/heads/main/openapi/geotab-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/geotab/openapi/geotab-authentication-api-openapi.yml
 - filename: geotab-invalid-records-api-openapi.yml
   format: yaml
   label: Geotab Invalid Records API
   slug: geotab-invalid-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geotab/refs/heads/main/openapi/geotab-invalid-records-api-openapi.yml
+  url: https://artifacts.apis.io/geotab/openapi/geotab-invalid-records-api-openapi.yml
 - filename: geotab-records-api-openapi.yml
   format: yaml
   label: Geotab Records API
   slug: geotab-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geotab/refs/heads/main/openapi/geotab-records-api-openapi.yml
+  url: https://artifacts.apis.io/geotab/openapi/geotab-records-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: geotab-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/geotab-data-intake-gateway-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/geotab-data-intake-gateway-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/geotab/refs/heads/main/authentication/geotab-authentication.yml
+source_yaml_url: https://artifacts.apis.io/geotab/authentication/geotab-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Fleet Management
@@ -58,5 +58,4 @@ tags:
 - Route Optimization
 - GPS Tracking
 - IoT
-- Fleet
 ---

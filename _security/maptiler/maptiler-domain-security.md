@@ -5,109 +5,109 @@ api_specs:
   label: MapTiler Maps API
   slug: maptiler-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/openapi/maptiler-maps-api-openapi.yml
+  url: https://artifacts.apis.io/maptiler/openapi/maptiler-maps-api-openapi.yml
 - filename: maptiler-tiles-api-openapi.yml
   format: yaml
   label: MapTiler Tiles API
   slug: maptiler-tiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/openapi/maptiler-tiles-api-openapi.yml
+  url: https://artifacts.apis.io/maptiler/openapi/maptiler-tiles-api-openapi.yml
 - filename: maptiler-geocoding-api-openapi.yml
   format: yaml
   label: MapTiler Geocoding API
   slug: maptiler-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/openapi/maptiler-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/maptiler/openapi/maptiler-geocoding-api-openapi.yml
 - filename: maptiler-static-maps-api-openapi.yml
   format: yaml
   label: MapTiler Static Maps API
   slug: maptiler-static-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/openapi/maptiler-static-maps-api-openapi.yml
+  url: https://artifacts.apis.io/maptiler/openapi/maptiler-static-maps-api-openapi.yml
 - filename: maptiler-elevation-api-openapi.yml
   format: yaml
   label: MapTiler Elevation API
   slug: maptiler-elevation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/openapi/maptiler-elevation-api-openapi.yml
+  url: https://artifacts.apis.io/maptiler/openapi/maptiler-elevation-api-openapi.yml
 - filename: maptiler-geolocation-api-openapi.yml
   format: yaml
   label: MapTiler Geolocation API
   slug: maptiler-geolocation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/openapi/maptiler-geolocation-api-openapi.yml
+  url: https://artifacts.apis.io/maptiler/openapi/maptiler-geolocation-api-openapi.yml
 - filename: maptiler-coordinates-api-openapi.yml
   format: yaml
   label: MapTiler Coordinates API
   slug: maptiler-coordinates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/openapi/maptiler-coordinates-api-openapi.yml
+  url: https://artifacts.apis.io/maptiler/openapi/maptiler-coordinates-api-openapi.yml
 - filename: maptiler-coordinates-api-openapi.yml
   format: yaml
   label: MapTiler Coordinates API
   slug: maptiler-coordinates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/openapi/maptiler-coordinates-api-openapi.yml
+  url: https://artifacts.apis.io/maptiler/openapi/maptiler-coordinates-api-openapi.yml
 - filename: maptiler-data-api-openapi.yml
   format: yaml
   label: MapTiler Data API
   slug: maptiler-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/openapi/maptiler-data-api-openapi.yml
+  url: https://artifacts.apis.io/maptiler/openapi/maptiler-data-api-openapi.yml
 - filename: maptiler-elevation-api-openapi.yml
   format: yaml
   label: MapTiler Elevation API
   slug: maptiler-elevation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/openapi/maptiler-elevation-api-openapi.yml
+  url: https://artifacts.apis.io/maptiler/openapi/maptiler-elevation-api-openapi.yml
 - filename: maptiler-geocoding-api-openapi.yml
   format: yaml
   label: MapTiler Geocoding API
   slug: maptiler-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/openapi/maptiler-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/maptiler/openapi/maptiler-geocoding-api-openapi.yml
 - filename: maptiler-geolocation-api-openapi.yml
   format: yaml
   label: MapTiler Geolocation API
   slug: maptiler-geolocation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/openapi/maptiler-geolocation-api-openapi.yml
+  url: https://artifacts.apis.io/maptiler/openapi/maptiler-geolocation-api-openapi.yml
 - filename: maptiler-images-api-openapi.yml
   format: yaml
   label: MapTiler Images API
   slug: maptiler-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/openapi/maptiler-images-api-openapi.yml
+  url: https://artifacts.apis.io/maptiler/openapi/maptiler-images-api-openapi.yml
 - filename: maptiler-maps-api-openapi.yml
   format: yaml
   label: MapTiler Maps API
   slug: maptiler-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/openapi/maptiler-maps-api-openapi.yml
+  url: https://artifacts.apis.io/maptiler/openapi/maptiler-maps-api-openapi.yml
 - filename: maptiler-other-api-openapi.yml
   format: yaml
   label: MapTiler Other API
   slug: maptiler-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/openapi/maptiler-other-api-openapi.yml
+  url: https://artifacts.apis.io/maptiler/openapi/maptiler-other-api-openapi.yml
 - filename: maptiler-static-maps-api-openapi.yml
   format: yaml
   label: MapTiler Static maps API
   slug: maptiler-static-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/openapi/maptiler-static-maps-api-openapi.yml
+  url: https://artifacts.apis.io/maptiler/openapi/maptiler-static-maps-api-openapi.yml
 - filename: maptiler-tiles-api-openapi.yml
   format: yaml
   label: MapTiler Tiles API
   slug: maptiler-tiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/openapi/maptiler-tiles-api-openapi.yml
+  url: https://artifacts.apis.io/maptiler/openapi/maptiler-tiles-api-openapi.yml
 - filename: maptiler-weather-api-openapi.yml
   format: yaml
   label: MapTiler Weather API
   slug: maptiler-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/openapi/maptiler-weather-api-openapi.yml
+  url: https://artifacts.apis.io/maptiler/openapi/maptiler-weather-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -149,7 +149,7 @@ source_filename: maptiler-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.maptiler.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 16:05:45 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: api.maptiler.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 16:05:45 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\ndomains:\n- domain: maptiler.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/security/maptiler-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/maptiler/security/maptiler-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Maps

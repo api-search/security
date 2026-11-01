@@ -45,7 +45,7 @@ source_filename: black-crow-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.blackcrow.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 19:25:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: blackcrow.zendesk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 08:24:32 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.blackcrow.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 24 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: blackcrow.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: zendesk.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/black-crow-ai/refs/heads/main/security/black-crow-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/black-crow-ai/security/black-crow-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

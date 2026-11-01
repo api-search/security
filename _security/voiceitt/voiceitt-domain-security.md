@@ -5,19 +5,19 @@ api_specs:
   label: Voiceitt WebSockets API
   slug: voiceitt-websockets-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voiceitt/refs/heads/main/asyncapi/voiceitt-websockets-asyncapi.yml
+  url: https://artifacts.apis.io/voiceitt/asyncapi/voiceitt-websockets-asyncapi.yml
 - filename: voiceitt-auth-api-openapi.yml
   format: yaml
   label: Voiceitt Auth API
   slug: voiceitt-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voiceitt/refs/heads/main/openapi/voiceitt-auth-api-openapi.yml
+  url: https://artifacts.apis.io/voiceitt/openapi/voiceitt-auth-api-openapi.yml
 - filename: voiceitt-rec-api-openapi.yml
   format: yaml
   label: Voiceitt Rec API
   slug: voiceitt-rec-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voiceitt/refs/heads/main/openapi/voiceitt-rec-api-openapi.yml
+  url: https://artifacts.apis.io/voiceitt/openapi/voiceitt-rec-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: voiceitt-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: voiceitt.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 04:43:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: voiceitt-si-api.readme.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 13:12:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api2.voiceitt.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 22 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: voiceitt.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: readme.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voiceitt/refs/heads/main/security/voiceitt-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/voiceitt/security/voiceitt-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Speech Recognition

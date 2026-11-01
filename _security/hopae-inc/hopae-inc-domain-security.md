@@ -5,55 +5,55 @@ api_specs:
   label: Hopae, Inc. Console - API Keys API
   slug: hopae-inc-console-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-console-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-console-api-keys-api-openapi.yml
 - filename: hopae-inc-providers-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Providers API
   slug: hopae-inc-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-providers-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-providers-api-openapi.yml
 - filename: hopae-inc-token-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Token API
   slug: hopae-inc-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-token-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-token-api-openapi.yml
 - filename: hopae-inc-verifications-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Verifications API
   slug: hopae-inc-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-verifications-api-openapi.yml
 - filename: hopae-inc-workspace-api-activation-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Workspace API - Activation API
   slug: hopae-inc-workspace-api-activation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-workspace-api-activation-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-workspace-api-activation-api-openapi.yml
 - filename: hopae-inc-workspace-api-apps-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Workspace API - Apps API
   slug: hopae-inc-workspace-api-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-workspace-api-apps-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-workspace-api-apps-api-openapi.yml
 - filename: hopae-inc-workspace-api-production-tests-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Workspace API - Production Tests API
   slug: hopae-inc-workspace-api-production-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-workspace-api-production-tests-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-workspace-api-production-tests-api-openapi.yml
 - filename: hopae-inc-workspace-api-workflows-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Workspace API - Workflows API
   slug: hopae-inc-workspace-api-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-workspace-api-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-workspace-api-workflows-api-openapi.yml
 - filename: hopae-inc-workspace-api-workspace-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Workspace API - Workspace API
   slug: hopae-inc-workspace-api-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-workspace-api-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-workspace-api-workspace-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ source_filename: hopae-inc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: hopae.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 06:37:05 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: sandbox.api.hopae.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: hopae.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/security/hopae-inc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hopae-inc/security/hopae-inc-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

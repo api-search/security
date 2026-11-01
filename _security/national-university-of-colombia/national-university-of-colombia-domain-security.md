@@ -5,19 +5,19 @@ api_specs:
   label: National University of Colombia OAI-PMH API
   slug: national-university-of-colombia-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-university-of-colombia/refs/heads/main/openapi/national-university-of-colombia-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/national-university-of-colombia/openapi/national-university-of-colombia-oai-pmh-api-openapi.yml
 - filename: national-university-of-colombia-rest-core-api-openapi.yml
   format: yaml
   label: National University of Colombia REST - Core API
   slug: national-university-of-colombia-rest-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-university-of-colombia/refs/heads/main/openapi/national-university-of-colombia-rest-core-api-openapi.yml
+  url: https://artifacts.apis.io/national-university-of-colombia/openapi/national-university-of-colombia-rest-core-api-openapi.yml
 - filename: national-university-of-colombia-rest-discover-api-openapi.yml
   format: yaml
   label: National University of Colombia REST - Discover API
   slug: national-university-of-colombia-rest-discover-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-university-of-colombia/refs/heads/main/openapi/national-university-of-colombia-rest-discover-api-openapi.yml
+  url: https://artifacts.apis.io/national-university-of-colombia/openapi/national-university-of-colombia-rest-discover-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -56,7 +56,7 @@ source_filename: national-university-of-colombia-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: unal.edu.co\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 10 23:59:59 2026 GMT\n  hsts: null\n- host: repositorio.unal.edu.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 19 23:59:59 2027 GMT\n  hsts: false\n- host: bffrepositorio.unal.edu.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 19 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: unal.edu.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-university-of-colombia/refs/heads/main/security/national-university-of-colombia-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/national-university-of-colombia/security/national-university-of-colombia-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Education

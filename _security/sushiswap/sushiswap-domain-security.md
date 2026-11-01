@@ -5,43 +5,43 @@ api_specs:
   label: SushiSwap Deposit API
   slug: sushiswap-deposit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/openapi/sushiswap-deposit-api-openapi.yml
+  url: https://artifacts.apis.io/sushiswap/openapi/sushiswap-deposit-api-openapi.yml
 - filename: sushiswap-liquidity-providers-api-openapi.yml
   format: yaml
   label: SushiSwap Liquidity Providers API
   slug: sushiswap-liquidity-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/openapi/sushiswap-liquidity-providers-api-openapi.yml
+  url: https://artifacts.apis.io/sushiswap/openapi/sushiswap-liquidity-providers-api-openapi.yml
 - filename: sushiswap-pool-api-openapi.yml
   format: yaml
   label: SushiSwap Pool API
   slug: sushiswap-pool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/openapi/sushiswap-pool-api-openapi.yml
+  url: https://artifacts.apis.io/sushiswap/openapi/sushiswap-pool-api-openapi.yml
 - filename: sushiswap-price-api-openapi.yml
   format: yaml
   label: SushiSwap Price API
   slug: sushiswap-price-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/openapi/sushiswap-price-api-openapi.yml
+  url: https://artifacts.apis.io/sushiswap/openapi/sushiswap-price-api-openapi.yml
 - filename: sushiswap-quote-api-openapi.yml
   format: yaml
   label: SushiSwap Quote API
   slug: sushiswap-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/openapi/sushiswap-quote-api-openapi.yml
+  url: https://artifacts.apis.io/sushiswap/openapi/sushiswap-quote-api-openapi.yml
 - filename: sushiswap-swap-api-openapi.yml
   format: yaml
   label: SushiSwap Swap API
   slug: sushiswap-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/openapi/sushiswap-swap-api-openapi.yml
+  url: https://artifacts.apis.io/sushiswap/openapi/sushiswap-swap-api-openapi.yml
 - filename: sushiswap-token-api-openapi.yml
   format: yaml
   label: SushiSwap Token API
   slug: sushiswap-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/openapi/sushiswap-token-api-openapi.yml
+  url: https://artifacts.apis.io/sushiswap/openapi/sushiswap-token-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -88,7 +88,7 @@ source_filename: sushiswap-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sushi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 16:21:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.sushi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 20:54:28 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.sushi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 14:48:24 2026 GMT\n  hsts: null\ndomains:\n- domain: sushi.com\n  dnssec: false\n  caa:\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/security/sushiswap-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sushiswap/security/sushiswap-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - DeFi

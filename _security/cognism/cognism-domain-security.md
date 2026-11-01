@@ -5,37 +5,37 @@ api_specs:
   label: Cognism Compliance API
   slug: cognism-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/cognism/openapi/cognism-compliance-api-openapi.yml
 - filename: cognism-enrich-api-openapi.yml
   format: yaml
   label: Cognism Enrich API
   slug: cognism-enrich-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-enrich-api-openapi.yml
+  url: https://artifacts.apis.io/cognism/openapi/cognism-enrich-api-openapi.yml
 - filename: cognism-entitlement-api-openapi.yml
   format: yaml
   label: Cognism Entitlement API
   slug: cognism-entitlement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-entitlement-api-openapi.yml
+  url: https://artifacts.apis.io/cognism/openapi/cognism-entitlement-api-openapi.yml
 - filename: cognism-filter-api-openapi.yml
   format: yaml
   label: Cognism Filter API
   slug: cognism-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-filter-api-openapi.yml
+  url: https://artifacts.apis.io/cognism/openapi/cognism-filter-api-openapi.yml
 - filename: cognism-redeem-api-openapi.yml
   format: yaml
   label: Cognism Redeem API
   slug: cognism-redeem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-redeem-api-openapi.yml
+  url: https://artifacts.apis.io/cognism/openapi/cognism-redeem-api-openapi.yml
 - filename: cognism-search-api-openapi.yml
   format: yaml
   label: Cognism Search API
   slug: cognism-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-search-api-openapi.yml
+  url: https://artifacts.apis.io/cognism/openapi/cognism-search-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -82,7 +82,7 @@ source_filename: cognism-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cognism.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 15:51:54 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.cognism.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 21 16:16:13 2026 GMT\n  hsts: null\n- host: app.cognism.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  5 14:23:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: cognism.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issuewild \"ssl.com\"\n  - 0 iodef \"mailto:security@cognism.com\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/security/cognism-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cognism/security/cognism-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Sales Intelligence

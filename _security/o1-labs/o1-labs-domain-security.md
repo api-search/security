@@ -28,7 +28,7 @@ source_filename: o1-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: o1labs.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 18:53:17 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: o1labs.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/o1-labs/refs/heads/main/security/o1-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/o1-labs/security/o1-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

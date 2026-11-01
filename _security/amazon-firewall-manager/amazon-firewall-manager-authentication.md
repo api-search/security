@@ -8,31 +8,55 @@ api_specs:
   label: Amazon Firewall Manager Admin Accounts API
   slug: amazon-firewall-manager-admin-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/openapi/amazon-firewall-manager-admin-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-firewall-manager/openapi/amazon-firewall-manager-admin-accounts-api-openapi.yml
 - filename: amazon-firewall-manager-compliance-api-openapi.yml
   format: yaml
   label: Amazon Firewall Manager Compliance API
   slug: amazon-firewall-manager-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/openapi/amazon-firewall-manager-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-firewall-manager/openapi/amazon-firewall-manager-compliance-api-openapi.yml
 - filename: amazon-firewall-manager-member-accounts-api-openapi.yml
   format: yaml
   label: Amazon Firewall Manager Member Accounts API
   slug: amazon-firewall-manager-member-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/openapi/amazon-firewall-manager-member-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-firewall-manager/openapi/amazon-firewall-manager-member-accounts-api-openapi.yml
 - filename: amazon-firewall-manager-policies-api-openapi.yml
   format: yaml
   label: Amazon Firewall Manager Policies API
   slug: amazon-firewall-manager-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/openapi/amazon-firewall-manager-policies-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-firewall-manager/openapi/amazon-firewall-manager-policies-api-openapi.yml
 - filename: amazon-firewall-manager-resources-api-openapi.yml
   format: yaml
   label: Amazon Firewall Manager Resources API
   slug: amazon-firewall-manager-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/openapi/amazon-firewall-manager-resources-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-firewall-manager/openapi/amazon-firewall-manager-resources-api-openapi.yml
+- filename: amazon-firewall-manager-apps-list-api-openapi.yml
+  format: yaml
+  label: Amazon Firewall Manager Firewall Manager Apps List API
+  slug: amazon-firewall-manager-apps-list-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-firewall-manager/openapi/amazon-firewall-manager-apps-list-api-openapi.yml
+- filename: amazon-firewall-manager-notification-channel-api-openapi.yml
+  format: yaml
+  label: Amazon Firewall Manager Firewall Manager Notification Channel API
+  slug: amazon-firewall-manager-notification-channel-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-firewall-manager/openapi/amazon-firewall-manager-notification-channel-api-openapi.yml
+- filename: amazon-firewall-manager-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Firewall Manager Firewall Manager Operations API
+  slug: amazon-firewall-manager-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-firewall-manager/openapi/amazon-firewall-manager-operations-api-openapi.yml
+- filename: amazon-firewall-manager-protocols-list-api-openapi.yml
+  format: yaml
+  label: Amazon Firewall Manager Firewall Manager Protocols List API
+  slug: amazon-firewall-manager-protocols-list-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-firewall-manager/openapi/amazon-firewall-manager-protocols-list-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +84,7 @@ source_filename: amazon-firewall-manager-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-firewall-manager-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: awsSigV4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4 authentication\n  sources:\n  - openapi/amazon-firewall-manager-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/authentication/amazon-firewall-manager-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-firewall-manager/authentication/amazon-firewall-manager-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Compliance

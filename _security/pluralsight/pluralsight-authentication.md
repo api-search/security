@@ -7,79 +7,79 @@ api_specs:
   label: Pluralsight Catalog API
   slug: pluralsight-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/pluralsight/openapi/pluralsight-catalog-api-openapi.yml
 - filename: pluralsight-coding-metrics-api-openapi.yml
   format: yaml
   label: Pluralsight Coding Metrics API
   slug: pluralsight-coding-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-coding-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/pluralsight/openapi/pluralsight-coding-metrics-api-openapi.yml
 - filename: pluralsight-collaboration-metrics-api-openapi.yml
   format: yaml
   label: Pluralsight Collaboration Metrics API
   slug: pluralsight-collaboration-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-collaboration-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/pluralsight/openapi/pluralsight-collaboration-metrics-api-openapi.yml
 - filename: pluralsight-commits-api-openapi.yml
   format: yaml
   label: Pluralsight Commits API
   slug: pluralsight-commits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-commits-api-openapi.yml
+  url: https://artifacts.apis.io/pluralsight/openapi/pluralsight-commits-api-openapi.yml
 - filename: pluralsight-dora-metrics-api-openapi.yml
   format: yaml
   label: Pluralsight DORA Metrics API
   slug: pluralsight-dora-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-dora-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/pluralsight/openapi/pluralsight-dora-metrics-api-openapi.yml
 - filename: pluralsight-integrations-api-openapi.yml
   format: yaml
   label: Pluralsight Integrations API
   slug: pluralsight-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/pluralsight/openapi/pluralsight-integrations-api-openapi.yml
 - filename: pluralsight-licensing-api-openapi.yml
   format: yaml
   label: Pluralsight Licensing API
   slug: pluralsight-licensing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-licensing-api-openapi.yml
+  url: https://artifacts.apis.io/pluralsight/openapi/pluralsight-licensing-api-openapi.yml
 - filename: pluralsight-pull-requests-api-openapi.yml
   format: yaml
   label: Pluralsight Pull Requests API
   slug: pluralsight-pull-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-pull-requests-api-openapi.yml
+  url: https://artifacts.apis.io/pluralsight/openapi/pluralsight-pull-requests-api-openapi.yml
 - filename: pluralsight-reports-api-openapi.yml
   format: yaml
   label: Pluralsight Reports API
   slug: pluralsight-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-reports-api-openapi.yml
+  url: https://artifacts.apis.io/pluralsight/openapi/pluralsight-reports-api-openapi.yml
 - filename: pluralsight-repos-api-openapi.yml
   format: yaml
   label: Pluralsight Repos API
   slug: pluralsight-repos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-repos-api-openapi.yml
+  url: https://artifacts.apis.io/pluralsight/openapi/pluralsight-repos-api-openapi.yml
 - filename: pluralsight-tickets-api-openapi.yml
   format: yaml
   label: Pluralsight Tickets API
   slug: pluralsight-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/pluralsight/openapi/pluralsight-tickets-api-openapi.yml
 - filename: pluralsight-users-api-openapi.yml
   format: yaml
   label: Pluralsight Users API
   slug: pluralsight-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-users-api-openapi.yml
+  url: https://artifacts.apis.io/pluralsight/openapi/pluralsight-users-api-openapi.yml
 - filename: pluralsight-graph-ql-api-openapi.yml
   format: yaml
   label: Pluralsight Graph QL API
   slug: pluralsight-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/pluralsight/openapi/pluralsight-graph-ql-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -122,7 +122,7 @@ source_yaml: "generated: '2026-08-29'\nmethod: searched\nsource: openapi/plurals
   \ the HTTP Authorization header\n  issuance: >-\n    A Pluralsight PLAN ADMIN mints the key on https://developer.pluralsight.com/manage-keys. A\n    non-admin cannot request one directly - they must ask a plan admin. Multiple keys per plan are\n    supported.\n  entitlement:\n  - >-\n      Plan level - whether the plan carries the API entitlement at all, visible on\n      https://developer.pluralsight.com/plan-permissions.\n  - >-\n      Key level - the release stage attached to the individual key (General Release / Beta / Alpha).\n      Beta is a self-serve toggle on the key; Alpha is by invitation from support@pluralsight.com.\n  scopes: []\n  scopes_note: >-\n    There are no scopes. A key carries whatever its plan carries; an agent cannot request a narrower\n    grant.\n  key_metadata:\n  - >-\n      Each key should carry an email address - that address is how Pluralsight sends deprecation\n      notices for operations the key is observed using.\n  unauthenticated_response: '401 {\"\
   error\":\"AuthenticationError: Invalid API Key\"}'\n  observed: '2026-08-29'\n- surface: MCP Gateway\n  endpoint: https://mcp.pluralsight.com/mcp\n  type: oauth2\n  flow: authorization_code\n  pkce: S256\n  dynamic_client_registration: https://mcp.pluralsight.com/register\n  authorization_endpoint: https://mcp.pluralsight.com/authorize\n  token_endpoint: https://mcp.pluralsight.com/token\n  jwks_uri: https://mcp.pluralsight.com/.well-known/jwks.json\n  token_endpoint_auth_methods_supported:\n  - none\n  scopes:\n  - invoke:gateway\n  - author:gateway\n  - employee:gateway\n  - admin:gateway\n  challenge: >-\n    401 with WWW-Authenticate: Bearer error=\"invalid_token\",\n    resource_metadata=\"https://mcp.pluralsight.com/.well-known/oauth-protected-resource\"\n  observed: '2026-08-29'\n  see_also: ../scopes/pluralsight-scopes.yml\nnote: >-\n  The bearerAuth/JWT scheme recorded in schemes[] above is what the OpenAPIs in this repo declare.\n  In practice the Skills API credential is a plan-admin\
   \ API key presented as a bearer token, not a\n  JWT issued by an authorization server; the only true OAuth surface Pluralsight operates is the MCP\n  gateway.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/authentication/pluralsight-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pluralsight/authentication/pluralsight-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Courses

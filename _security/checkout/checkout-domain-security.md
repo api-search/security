@@ -1,23 +1,29 @@
 ---
 api_specs:
+- filename: checkout-openapi-generated.yml
+  format: yaml
+  label: Checkout API
+  slug: checkout-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/checkout/openapi/_ae-authored/checkout-openapi-generated.yml
 - filename: checkout-checkout-api-api-openapi.yml
   format: yaml
   label: Checkout Checkout API
   slug: checkout-checkout-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkout/refs/heads/main/openapi/checkout-checkout-api-api-openapi.yml
+  url: https://artifacts.apis.io/checkout/openapi/checkout-checkout-api-api-openapi.yml
 - filename: checkout-connect-api-openapi.yml
   format: yaml
   label: Checkout Connect API
   slug: checkout-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkout/refs/heads/main/openapi/checkout-connect-api-openapi.yml
+  url: https://artifacts.apis.io/checkout/openapi/checkout-connect-api-openapi.yml
 - filename: checkout-payments-api-openapi.yml
   format: yaml
   label: Checkout Payments API
   slug: checkout-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkout/refs/heads/main/openapi/checkout-payments-api-openapi.yml
+  url: https://artifacts.apis.io/checkout/openapi/checkout-payments-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -52,7 +58,7 @@ source_filename: checkout-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.checkout.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 11:50:10 2026 GMT\n  hsts: false\ndomains:\n- domain: checkout.com\n  dnssec: false\n  caa:\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"certainly.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"godaddy.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/checkout/refs/heads/main/security/checkout-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/checkout/security/checkout-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Payments

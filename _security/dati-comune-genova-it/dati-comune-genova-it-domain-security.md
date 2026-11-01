@@ -26,7 +26,7 @@ source_filename: dati-comune-genova-it-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dati.comune.genova.it\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 18 11:58:43 2027 GMT\n  hsts: false\ndomains:\n- domain: genova.it\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dati-comune-genova-it/refs/heads/main/security/dati-comune-genova-it-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dati-comune-genova-it/security/dati-comune-genova-it-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Open Data

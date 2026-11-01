@@ -5,31 +5,31 @@ api_specs:
   label: Hydrosat Catalog API
   slug: hydrosat-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydrosat/refs/heads/main/openapi/hydrosat-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/hydrosat/openapi/hydrosat-catalog-api-openapi.yml
 - filename: hydrosat-collections-api-openapi.yml
   format: yaml
   label: Hydrosat Collections API
   slug: hydrosat-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydrosat/refs/heads/main/openapi/hydrosat-collections-api-openapi.yml
+  url: https://artifacts.apis.io/hydrosat/openapi/hydrosat-collections-api-openapi.yml
 - filename: hydrosat-items-api-openapi.yml
   format: yaml
   label: Hydrosat Items API
   slug: hydrosat-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydrosat/refs/heads/main/openapi/hydrosat-items-api-openapi.yml
+  url: https://artifacts.apis.io/hydrosat/openapi/hydrosat-items-api-openapi.yml
 - filename: hydrosat-queryables-api-openapi.yml
   format: yaml
   label: Hydrosat Queryables API
   slug: hydrosat-queryables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydrosat/refs/heads/main/openapi/hydrosat-queryables-api-openapi.yml
+  url: https://artifacts.apis.io/hydrosat/openapi/hydrosat-queryables-api-openapi.yml
 - filename: hydrosat-search-api-openapi.yml
   format: yaml
   label: Hydrosat Search API
   slug: hydrosat-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydrosat/refs/heads/main/openapi/hydrosat-search-api-openapi.yml
+  url: https://artifacts.apis.io/hydrosat/openapi/hydrosat-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: hydrosat-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: hydrosat.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 26 09:25:33 2026 GMT\n  hsts: false\ndomains:\n- domain: hydrosat.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hydrosat/refs/heads/main/security/hydrosat-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hydrosat/security/hydrosat-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

@@ -7,19 +7,19 @@ api_specs:
   label: Zally Api Violations API
   slug: zally-api-violations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zally/refs/heads/main/openapi/zally-api-violations-api-openapi.yml
+  url: https://artifacts.apis.io/zally/openapi/zally-api-violations-api-openapi.yml
 - filename: zally-review-statistics-api-openapi.yml
   format: yaml
   label: Zally Review Statistics API
   slug: zally-review-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zally/refs/heads/main/openapi/zally-review-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/zally/openapi/zally-review-statistics-api-openapi.yml
 - filename: zally-supported-rules-api-openapi.yml
   format: yaml
   label: Zally Supported Rules API
   slug: zally-supported-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zally/refs/heads/main/openapi/zally-supported-rules-api-openapi.yml
+  url: https://artifacts.apis.io/zally/openapi/zally-supported-rules-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: zally-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/zally-api.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/zally-api.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zally/refs/heads/main/authentication/zally-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zally/authentication/zally-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - API Design

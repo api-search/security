@@ -5,31 +5,31 @@ api_specs:
   label: Capitalist Payments API (v1, deprecated)
   slug: capitalist-capitalist-payments-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/openapi/capitalist-capitalist-payments-api-api-openapi.yml
+  url: https://artifacts.apis.io/capitalist/openapi/capitalist-capitalist-payments-api-api-openapi.yml
 - filename: capitalist-account-api-openapi.yml
   format: yaml
   label: Capitalist Account API
   slug: capitalist-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/openapi/capitalist-account-api-openapi.yml
+  url: https://artifacts.apis.io/capitalist/openapi/capitalist-account-api-openapi.yml
 - filename: capitalist-exchange-api-openapi.yml
   format: yaml
   label: Capitalist Exchange API
   slug: capitalist-exchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/openapi/capitalist-exchange-api-openapi.yml
+  url: https://artifacts.apis.io/capitalist/openapi/capitalist-exchange-api-openapi.yml
 - filename: capitalist-payment-api-openapi.yml
   format: yaml
   label: Capitalist Payment API
   slug: capitalist-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/openapi/capitalist-payment-api-openapi.yml
+  url: https://artifacts.apis.io/capitalist/openapi/capitalist-payment-api-openapi.yml
 - filename: capitalist-rate-api-openapi.yml
   format: yaml
   label: Capitalist Rate API
   slug: capitalist-rate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/openapi/capitalist-rate-api-openapi.yml
+  url: https://artifacts.apis.io/capitalist/openapi/capitalist-rate-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: capitalist-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: capitalist.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  3 11:08:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.capitalist.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  3 11:08:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api2.capitalist.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  3 11:08:49 2026 GMT\n  hsts: null\ndomains:\n- domain: capitalist.net\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/security/capitalist-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/capitalist/security/capitalist-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Bulk Payouts

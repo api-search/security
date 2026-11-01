@@ -8,13 +8,31 @@ api_specs:
   label: Casap Auth API
   slug: casap-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/openapi/casap-auth-api-openapi.yml
+  url: https://artifacts.apis.io/casap/openapi/casap-auth-api-openapi.yml
 - filename: casap-disputes-api-openapi.yml
   format: yaml
   label: Casap Disputes API
   slug: casap-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/openapi/casap-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/casap/openapi/casap-disputes-api-openapi.yml
+- filename: casap-accounts-api-openapi.yml
+  format: yaml
+  label: Casap Accounts API
+  slug: casap-accounts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/casap/openapi/casap-accounts-api-openapi.yml
+- filename: casap-intakes-api-openapi.yml
+  format: yaml
+  label: Casap Intakes API
+  slug: casap-intakes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/casap/openapi/casap-intakes-api-openapi.yml
+- filename: casap-organizations-api-openapi.yml
+  format: yaml
+  label: Casap Organizations API
+  slug: casap-organizations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/casap/openapi/casap-organizations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -47,7 +65,7 @@ source_filename: casap-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/casap-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: api_key\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/casap-openapi.json\n- name: user_uuid\n  type: apiKey\n  in: header\n  parameter: x-user-uuid\n  sources:\n  - openapi/casap-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/authentication/casap-authentication.yml
+source_yaml_url: https://artifacts.apis.io/casap/authentication/casap-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company

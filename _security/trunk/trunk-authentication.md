@@ -8,13 +8,13 @@ api_specs:
   label: Trunk Flaky Tests API
   slug: trunk-flaky-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/openapi/trunk-flaky-tests-api-openapi.yml
+  url: https://artifacts.apis.io/trunk/openapi/trunk-flaky-tests-api-openapi.yml
 - filename: trunk-merge-queue-api-openapi.yml
   format: yaml
   label: Trunk Merge Queue API
   slug: trunk-merge-queue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/openapi/trunk-merge-queue-api-openapi.yml
+  url: https://artifacts.apis.io/trunk/openapi/trunk-merge-queue-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: trunk-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/trunk-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-token\n  description: Organization API token from Settings > Organization > General > API.\n  sources:\n  - openapi/trunk-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/authentication/trunk-authentication.yml
+source_yaml_url: https://artifacts.apis.io/trunk/authentication/trunk-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Developer Tools

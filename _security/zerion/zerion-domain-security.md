@@ -5,55 +5,55 @@ api_specs:
   label: Zerion Chains API
   slug: zerion-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-chains-api-openapi.yml
+  url: https://artifacts.apis.io/zerion/openapi/zerion-chains-api-openapi.yml
 - filename: zerion-dapps-api-openapi.yml
   format: yaml
   label: Zerion Dapps API
   slug: zerion-dapps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-dapps-api-openapi.yml
+  url: https://artifacts.apis.io/zerion/openapi/zerion-dapps-api-openapi.yml
 - filename: zerion-fungibles-api-openapi.yml
   format: yaml
   label: Zerion Fungibles API
   slug: zerion-fungibles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-fungibles-api-openapi.yml
+  url: https://artifacts.apis.io/zerion/openapi/zerion-fungibles-api-openapi.yml
 - filename: zerion-gas-api-openapi.yml
   format: yaml
   label: Zerion Gas API
   slug: zerion-gas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-gas-api-openapi.yml
+  url: https://artifacts.apis.io/zerion/openapi/zerion-gas-api-openapi.yml
 - filename: zerion-subscriptions-to-transactions-api-openapi.yml
   format: yaml
   label: Zerion subscriptions to transactions API
   slug: zerion-subscriptions-to-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-subscriptions-to-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/zerion/openapi/zerion-subscriptions-to-transactions-api-openapi.yml
 - filename: zerion-swap-api-openapi.yml
   format: yaml
   label: Zerion Swap API
   slug: zerion-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-swap-api-openapi.yml
+  url: https://artifacts.apis.io/zerion/openapi/zerion-swap-api-openapi.yml
 - filename: zerion-wallet-sets-api-openapi.yml
   format: yaml
   label: Zerion wallet sets API
   slug: zerion-wallet-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-wallet-sets-api-openapi.yml
+  url: https://artifacts.apis.io/zerion/openapi/zerion-wallet-sets-api-openapi.yml
 - filename: zerion-wallets-api-openapi.yml
   format: yaml
   label: Zerion Wallets API
   slug: zerion-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/zerion/openapi/zerion-wallets-api-openapi.yml
 - filename: zerion-nfts-api-openapi.yml
   format: yaml
   label: Zerion Nfts API
   slug: zerion-nfts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-nfts-api-openapi.yml
+  url: https://artifacts.apis.io/zerion/openapi/zerion-nfts-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ source_filename: zerion-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.zerion.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 14:49:57 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.zerion.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 01:57:44 2026 GMT\n  hsts: null\ndomains:\n- domain: zerion.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/security/zerion-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zerion/security/zerion-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

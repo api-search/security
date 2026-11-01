@@ -7,25 +7,25 @@ api_specs:
   label: Fish Audio Asr API
   slug: fish-audio-asr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fish-audio/refs/heads/main/openapi/fish-audio-asr-api-openapi.yml
+  url: https://artifacts.apis.io/fish-audio/openapi/fish-audio-asr-api-openapi.yml
 - filename: fish-audio-model-api-openapi.yml
   format: yaml
   label: Fish Audio Model API
   slug: fish-audio-model-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fish-audio/refs/heads/main/openapi/fish-audio-model-api-openapi.yml
+  url: https://artifacts.apis.io/fish-audio/openapi/fish-audio-model-api-openapi.yml
 - filename: fish-audio-tts-api-openapi.yml
   format: yaml
   label: Fish Audio Tts API
   slug: fish-audio-tts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fish-audio/refs/heads/main/openapi/fish-audio-tts-api-openapi.yml
+  url: https://artifacts.apis.io/fish-audio/openapi/fish-audio-tts-api-openapi.yml
 - filename: fish-audio-wallet-api-openapi.yml
   format: yaml
   label: Fish Audio Wallet API
   slug: fish-audio-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fish-audio/refs/heads/main/openapi/fish-audio-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/fish-audio/openapi/fish-audio-wallet-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -51,7 +51,7 @@ source_filename: fish-audio-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fish-audio-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/fish-audio-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fish-audio/refs/heads/main/authentication/fish-audio-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fish-audio/authentication/fish-audio-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Voice

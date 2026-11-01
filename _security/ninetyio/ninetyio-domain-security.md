@@ -5,43 +5,43 @@ api_specs:
   label: Ninety.io Issues API
   slug: ninetyio-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/openapi/ninetyio-issues-api-openapi.yml
+  url: https://artifacts.apis.io/ninetyio/openapi/ninetyio-issues-api-openapi.yml
 - filename: ninetyio-milestones-api-openapi.yml
   format: yaml
   label: Ninety.io Milestones API
   slug: ninetyio-milestones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/openapi/ninetyio-milestones-api-openapi.yml
+  url: https://artifacts.apis.io/ninetyio/openapi/ninetyio-milestones-api-openapi.yml
 - filename: ninetyio-rocks-api-openapi.yml
   format: yaml
   label: Ninety.io Rocks API
   slug: ninetyio-rocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/openapi/ninetyio-rocks-api-openapi.yml
+  url: https://artifacts.apis.io/ninetyio/openapi/ninetyio-rocks-api-openapi.yml
 - filename: ninetyio-scorecard-api-openapi.yml
   format: yaml
   label: Ninety.io Scorecard API
   slug: ninetyio-scorecard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/openapi/ninetyio-scorecard-api-openapi.yml
+  url: https://artifacts.apis.io/ninetyio/openapi/ninetyio-scorecard-api-openapi.yml
 - filename: ninetyio-teams-api-openapi.yml
   format: yaml
   label: Ninety.io Teams API
   slug: ninetyio-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/openapi/ninetyio-teams-api-openapi.yml
+  url: https://artifacts.apis.io/ninetyio/openapi/ninetyio-teams-api-openapi.yml
 - filename: ninetyio-to-dos-api-openapi.yml
   format: yaml
   label: Ninety.io To-Dos API
   slug: ninetyio-to-dos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/openapi/ninetyio-to-dos-api-openapi.yml
+  url: https://artifacts.apis.io/ninetyio/openapi/ninetyio-to-dos-api-openapi.yml
 - filename: ninetyio-users-api-openapi.yml
   format: yaml
   label: Ninety.io Users API
   slug: ninetyio-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/openapi/ninetyio-users-api-openapi.yml
+  url: https://artifacts.apis.io/ninetyio/openapi/ninetyio-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +71,7 @@ source_filename: ninetyio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ninety.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 07:32:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: ninety.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/security/ninetyio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ninetyio/security/ninetyio-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

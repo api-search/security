@@ -7,49 +7,49 @@ api_specs:
   label: UP42 Catalog API
   slug: up42-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/up42/openapi/up42-catalog-api-openapi.yml
 - filename: up42-orders-api-openapi.yml
   format: yaml
   label: UP42 Orders API
   slug: up42-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-orders-api-openapi.yml
+  url: https://artifacts.apis.io/up42/openapi/up42-orders-api-openapi.yml
 - filename: up42-processing-api-openapi.yml
   format: yaml
   label: UP42 Processing API
   slug: up42-processing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-processing-api-openapi.yml
+  url: https://artifacts.apis.io/up42/openapi/up42-processing-api-openapi.yml
 - filename: up42-stac-data-management-api-openapi.yml
   format: yaml
   label: UP42 STAC Data Management API
   slug: up42-stac-data-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-stac-data-management-api-openapi.yml
+  url: https://artifacts.apis.io/up42/openapi/up42-stac-data-management-api-openapi.yml
 - filename: up42-storage-assets-api-openapi.yml
   format: yaml
   label: UP42 Storage Assets API
   slug: up42-storage-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-storage-assets-api-openapi.yml
+  url: https://artifacts.apis.io/up42/openapi/up42-storage-assets-api-openapi.yml
 - filename: up42-tasking-api-openapi.yml
   format: yaml
   label: UP42 Tasking API
   slug: up42-tasking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-tasking-api-openapi.yml
+  url: https://artifacts.apis.io/up42/openapi/up42-tasking-api-openapi.yml
 - filename: up42-webhooks-api-openapi.yml
   format: yaml
   label: UP42 Webhooks API
   slug: up42-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/up42/openapi/up42-webhooks-api-openapi.yml
 - filename: up42-workspaces-account-api-openapi.yml
   format: yaml
   label: UP42 Workspaces & Account API
   slug: up42-workspaces-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-workspaces-account-api-openapi.yml
+  url: https://artifacts.apis.io/up42/openapi/up42-workspaces-account-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -77,7 +77,7 @@ source_filename: up42-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/up42-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: 'OAuth2 Bearer access token. Obtain a token from a UP42 API key or account credentials\n    via https://auth.up42.com/realms/public/protocol/openid-connect/token (client_id up42-api).\n    Access tokens are short-lived (about 5 minutes); refresh as needed. Pass as `Authorization:\n    Bearer [example key]`.'\n  sources:\n  - openapi/up42-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/authentication/up42-authentication.yml
+source_yaml_url: https://artifacts.apis.io/up42/authentication/up42-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Geospatial

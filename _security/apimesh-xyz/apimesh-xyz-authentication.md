@@ -8,19 +8,19 @@ api_specs:
   label: APIMesh API Mesh API
   slug: apimesh-xyz-apimesh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apimesh-xyz/refs/heads/main/openapi/apimesh-xyz-apimesh-api-openapi.yml
+  url: https://artifacts.apis.io/apimesh-xyz/openapi/apimesh-xyz-apimesh-api-openapi.yml
 - filename: apimesh-xyz-health-api-openapi.yml
   format: yaml
   label: APIMesh Health API
   slug: apimesh-xyz-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apimesh-xyz/refs/heads/main/openapi/apimesh-xyz-health-api-openapi.yml
+  url: https://artifacts.apis.io/apimesh-xyz/openapi/apimesh-xyz-health-api-openapi.yml
 - filename: apimesh-xyz-preview-api-openapi.yml
   format: yaml
   label: APIMesh Preview API
   slug: apimesh-xyz-preview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apimesh-xyz/refs/heads/main/openapi/apimesh-xyz-preview-api-openapi.yml
+  url: https://artifacts.apis.io/apimesh-xyz/openapi/apimesh-xyz-preview-api-openapi.yml
 auth_types:
 - apiKey
 - x402
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://apimesh
   \ no credential at all — confirmed\n  2026-09-19 with anonymous 200/400 responses. The one authenticated write observed, PUT\n  /wallet/{address}/cap, returned 401 anonymously and its credential type is undocumented.\nsummary:\n  types: [apiKey, x402, mpp, none]\n  api_key_in: [header]\n  oauth2_flows: []\n  live_surface_auth: none\nschemes:\n- name: apiKey\n  type: http\n  scheme: bearer\n  header: Authorization\n  key_prefix: sk_live_\n  description: 'Prepaid-credit API key bought at https://apimesh.xyz/signup (Stripe Checkout); sent as Authorization: Bearer <key>. Each paid call deducts credits atomically before execution (RETIRED.md); credits never expire and are non-refundable (Terms §4).'\n  purchase_url: https://apimesh.xyz/signup\n  sources: [agent card securitySchemes.apiKey, https://apimesh.xyz/llms-full.txt]\n  status: 'purchasable at /signup (200) but no priced endpoint answers since 2026-05-11'\n- name: x402\n  type: payment\n  protocol: x402\n  version: '1'\n  network: base-mainnet\
   \ (eip155:8453)\n  asset: USDC\n  facilitator: Coinbase CDP\n  challenge: 'HTTP 402 with WWW-Authenticate: Payment carrying price, wallet and network; client signs a USDC transfer and retries with the X-PAYMENT header'\n  discovery: [https://apimesh.xyz/.well-known/x402.json, https://apimesh.xyz/.well-known/x402]\n  sources: [agent card securitySchemes.x402, https://github.com/mbeato/APIMesh#1-x402----crypto-micropayments-default]\n- name: mpp\n  type: payment\n  protocol: mpp\n  version: draft-ryan-httpauth-payment\n  challenge: 'same HTTP 402 / WWW-Authenticate: Payment flow; cards and stablecoins via Stripe Machine Payments Protocol; discovery via OpenAPI x-mpp annotations (none present in the served specs) and per-API /.well-known/mpp'\n  discovery: [https://apimesh.xyz/.well-known/mpp, https://agentsmd.apimesh.xyz/.well-known/mpp, https://stripesig.apimesh.xyz/.well-known/mpp]\n  sources: [agent card securitySchemes.mpp, MPP manifest payment_methods]\n- name: none\n  type: none\n\
   \  applies_to: ['POST https://agentsmd.apimesh.xyz/normalize', 'POST https://stripesig.apimesh.xyz/check', 'GET https://apimesh.xyz/wallet/{address}', 'GET https://apimesh.xyz/wallet/{address}/history', 'GET /health on every host']\n  description: Anonymous; per-IP rate limits are the only gate.\n  sources: [live probes 2026-09-19, https://github.com/mbeato/APIMesh#wallet--spend-tracking-free-no-auth]\nmcp:\n  handshake_auth: none\n  environment: 'WALLET_PRIVATE_KEY (optional, secret) — funds x402 payments made by the tools; free /preview tools ran without it'\n  source: mcp/apimesh-xyz-mcp.yml\noauth: false\nopenid_connect: false\ndiscovery_probes:\n- {url: https://apimesh.xyz/.well-known/oauth-authorization-server, status: 404}\n- {url: https://apimesh.xyz/.well-known/oauth-protected-resource, status: 404}\n- {url: https://apimesh.xyz/.well-known/openid-configuration, status: 404}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apimesh-xyz/refs/heads/main/authentication/apimesh-xyz-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apimesh-xyz/authentication/apimesh-xyz-authentication.yml
 summary_line: apiKey/x402/mpp/none · 4 schemes
 tags:
 - Web Analysis

@@ -5,19 +5,19 @@ api_specs:
   label: RTX Analytics API
   slug: rtx-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rtx/refs/heads/main/openapi/rtx-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/rtx/openapi/rtx-analytics-api-openapi.yml
 - filename: rtx-data-sources-api-openapi.yml
   format: yaml
   label: RTX Data Sources API
   slug: rtx-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rtx/refs/heads/main/openapi/rtx-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/rtx/openapi/rtx-data-sources-api-openapi.yml
 - filename: rtx-reports-api-openapi.yml
   format: yaml
   label: RTX Reports API
   slug: rtx-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rtx/refs/heads/main/openapi/rtx-reports-api-openapi.yml
+  url: https://artifacts.apis.io/rtx/openapi/rtx-reports-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -55,7 +55,7 @@ source_filename: rtx-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.rtx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 10:20:19 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.rtx.com\n  https: false\ndomains:\n- domain: rtx.com\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"ssl.com\"\n  - 0 issuemail \"sectigo.com\"\n  - 0 issuewild \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rtx/refs/heads/main/security/rtx-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rtx/security/rtx-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Defense

@@ -5,79 +5,79 @@ api_specs:
   label: People Data Labs Autocomplete API
   slug: peopledatalabs-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/peopledatalabs/openapi/peopledatalabs-autocomplete-api-openapi.yml
 - filename: peopledatalabs-cleaner-endpoints-api-openapi.yml
   format: yaml
   label: People Data Labs Cleaner Endpoints API
   slug: peopledatalabs-cleaner-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-cleaner-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/peopledatalabs/openapi/peopledatalabs-cleaner-endpoints-api-openapi.yml
 - filename: peopledatalabs-company-endpoints-api-openapi.yml
   format: yaml
   label: People Data Labs Company Endpoints API
   slug: peopledatalabs-company-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-company-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/peopledatalabs/openapi/peopledatalabs-company-endpoints-api-openapi.yml
 - filename: peopledatalabs-ip-enrichment-api-openapi.yml
   format: yaml
   label: People Data Labs IP Enrichment API
   slug: peopledatalabs-ip-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-ip-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/peopledatalabs/openapi/peopledatalabs-ip-enrichment-api-openapi.yml
 - filename: peopledatalabs-job-title-enrichment-api-openapi.yml
   format: yaml
   label: People Data Labs Job Title Enrichment API
   slug: peopledatalabs-job-title-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-job-title-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/peopledatalabs/openapi/peopledatalabs-job-title-enrichment-api-openapi.yml
 - filename: peopledatalabs-person-endpoints-api-openapi.yml
   format: yaml
   label: People Data Labs Person Endpoints API
   slug: peopledatalabs-person-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-person-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/peopledatalabs/openapi/peopledatalabs-person-endpoints-api-openapi.yml
 - filename: peopledatalabs-skill-enrichment-api-openapi.yml
   format: yaml
   label: People Data Labs Skill Enrichment API
   slug: peopledatalabs-skill-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-skill-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/peopledatalabs/openapi/peopledatalabs-skill-enrichment-api-openapi.yml
 - filename: peopledatalabs-subscription-api-openapi.yml
   format: yaml
   label: People Data Labs Subscription API
   slug: peopledatalabs-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/peopledatalabs/openapi/peopledatalabs-subscription-api-openapi.yml
 - filename: peopledatalabs-company-api-openapi.yml
   format: yaml
   label: People Data Labs Company API
   slug: peopledatalabs-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-company-api-openapi.yml
+  url: https://artifacts.apis.io/peopledatalabs/openapi/peopledatalabs-company-api-openapi.yml
 - filename: peopledatalabs-ip-api-openapi.yml
   format: yaml
   label: People Data Labs IP API
   slug: peopledatalabs-ip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-ip-api-openapi.yml
+  url: https://artifacts.apis.io/peopledatalabs/openapi/peopledatalabs-ip-api-openapi.yml
 - filename: peopledatalabs-jobs-api-openapi.yml
   format: yaml
   label: People Data Labs Jobs API
   slug: peopledatalabs-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/peopledatalabs/openapi/peopledatalabs-jobs-api-openapi.yml
 - filename: peopledatalabs-person-api-openapi.yml
   format: yaml
   label: People Data Labs Person API
   slug: peopledatalabs-person-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-person-api-openapi.yml
+  url: https://artifacts.apis.io/peopledatalabs/openapi/peopledatalabs-person-api-openapi.yml
 - filename: peopledatalabs-job-title-api-openapi.yml
   format: yaml
   label: People Data Labs Job Title API
   slug: peopledatalabs-job-title-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-job-title-api-openapi.yml
+  url: https://artifacts.apis.io/peopledatalabs/openapi/peopledatalabs-job-title-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -121,7 +121,7 @@ source_filename: peopledatalabs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.peopledatalabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 07:31:55 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.peopledatalabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 13:49:17 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.peopledatalabs.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 28 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: peopledatalabs.com\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/security/peopledatalabs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/peopledatalabs/security/peopledatalabs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Data Enrichment

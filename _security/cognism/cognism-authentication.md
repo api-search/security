@@ -8,37 +8,37 @@ api_specs:
   label: Cognism Compliance API
   slug: cognism-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/cognism/openapi/cognism-compliance-api-openapi.yml
 - filename: cognism-enrich-api-openapi.yml
   format: yaml
   label: Cognism Enrich API
   slug: cognism-enrich-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-enrich-api-openapi.yml
+  url: https://artifacts.apis.io/cognism/openapi/cognism-enrich-api-openapi.yml
 - filename: cognism-entitlement-api-openapi.yml
   format: yaml
   label: Cognism Entitlement API
   slug: cognism-entitlement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-entitlement-api-openapi.yml
+  url: https://artifacts.apis.io/cognism/openapi/cognism-entitlement-api-openapi.yml
 - filename: cognism-filter-api-openapi.yml
   format: yaml
   label: Cognism Filter API
   slug: cognism-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-filter-api-openapi.yml
+  url: https://artifacts.apis.io/cognism/openapi/cognism-filter-api-openapi.yml
 - filename: cognism-redeem-api-openapi.yml
   format: yaml
   label: Cognism Redeem API
   slug: cognism-redeem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-redeem-api-openapi.yml
+  url: https://artifacts.apis.io/cognism/openapi/cognism-redeem-api-openapi.yml
 - filename: cognism-search-api-openapi.yml
   format: yaml
   label: Cognism Search API
   slug: cognism-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-search-api-openapi.yml
+  url: https://artifacts.apis.io/cognism/openapi/cognism-search-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -73,7 +73,7 @@ source_filename: cognism-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/cognism-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - query\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'API token issued in the Cognism app under Settings > Tokens and API. Sent as\n    `Authorization: Bearer <token>`. Tokens have a time-to-live of 6 months.'\n  sources:\n  - openapi/cognism-api-openapi.yml\n- name: apiKeyQuery\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: Alternative to the Authorization header. Cognism documents it but recommends\n    the header instead, as the query string is less secure.\n  sources:\n  - openapi/cognism-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/authentication/cognism-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cognism/authentication/cognism-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Sales Intelligence

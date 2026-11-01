@@ -8,49 +8,49 @@ api_specs:
   label: Flatcar Container Linux Activity API
   slug: flatcar-container-linux-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/openapi/flatcar-container-linux-activity-api-openapi.yml
+  url: https://artifacts.apis.io/flatcar-container-linux/openapi/flatcar-container-linux-activity-api-openapi.yml
 - filename: flatcar-container-linux-apps-api-openapi.yml
   format: yaml
   label: Flatcar Container Linux Apps API
   slug: flatcar-container-linux-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/openapi/flatcar-container-linux-apps-api-openapi.yml
+  url: https://artifacts.apis.io/flatcar-container-linux/openapi/flatcar-container-linux-apps-api-openapi.yml
 - filename: flatcar-container-linux-channels-api-openapi.yml
   format: yaml
   label: Flatcar Container Linux Channels API
   slug: flatcar-container-linux-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/openapi/flatcar-container-linux-channels-api-openapi.yml
+  url: https://artifacts.apis.io/flatcar-container-linux/openapi/flatcar-container-linux-channels-api-openapi.yml
 - filename: flatcar-container-linux-config-api-openapi.yml
   format: yaml
   label: Flatcar Container Linux Config API
   slug: flatcar-container-linux-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/openapi/flatcar-container-linux-config-api-openapi.yml
+  url: https://artifacts.apis.io/flatcar-container-linux/openapi/flatcar-container-linux-config-api-openapi.yml
 - filename: flatcar-container-linux-health-api-openapi.yml
   format: yaml
   label: Flatcar Container Linux Health API
   slug: flatcar-container-linux-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/openapi/flatcar-container-linux-health-api-openapi.yml
+  url: https://artifacts.apis.io/flatcar-container-linux/openapi/flatcar-container-linux-health-api-openapi.yml
 - filename: flatcar-container-linux-instances-api-openapi.yml
   format: yaml
   label: Flatcar Container Linux Instances API
   slug: flatcar-container-linux-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/openapi/flatcar-container-linux-instances-api-openapi.yml
+  url: https://artifacts.apis.io/flatcar-container-linux/openapi/flatcar-container-linux-instances-api-openapi.yml
 - filename: flatcar-container-linux-login-api-openapi.yml
   format: yaml
   label: Flatcar Container Linux Login API
   slug: flatcar-container-linux-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/openapi/flatcar-container-linux-login-api-openapi.yml
+  url: https://artifacts.apis.io/flatcar-container-linux/openapi/flatcar-container-linux-login-api-openapi.yml
 - filename: flatcar-container-linux-update-api-openapi.yml
   format: yaml
   label: Flatcar Container Linux Update API
   slug: flatcar-container-linux-update-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/openapi/flatcar-container-linux-update-api-openapi.yml
+  url: https://artifacts.apis.io/flatcar-container-linux/openapi/flatcar-container-linux-update-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -90,7 +90,7 @@ source_filename: flatcar-container-linux-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/nebraska-update-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - cookie\nschemes:\n- name: oidcBearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/nebraska-update-api-openapi.yml\n- name: oidcCookieAuth\n  type: apiKey\n  in: cookie\n  parameter: oidc\n  sources:\n  - openapi/nebraska-update-api-openapi.yml\n- name: githubCookieAuth\n  type: apiKey\n  in: cookie\n  parameter: github\n  sources:\n  - openapi/nebraska-update-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/authentication/flatcar-container-linux-authentication.yml
+source_yaml_url: https://artifacts.apis.io/flatcar-container-linux/authentication/flatcar-container-linux-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Cloud-Native

@@ -7,25 +7,25 @@ api_specs:
   label: Alectra Utilities Application Information API
   slug: alectra-utilities-applicationinformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alectra-utilities/refs/heads/main/openapi/alectra-utilities-applicationinformation-api-openapi.yml
+  url: https://artifacts.apis.io/alectra-utilities/openapi/alectra-utilities-applicationinformation-api-openapi.yml
 - filename: alectra-utilities-authorization-api-openapi.yml
   format: yaml
   label: Alectra Utilities Authorization API
   slug: alectra-utilities-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alectra-utilities/refs/heads/main/openapi/alectra-utilities-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/alectra-utilities/openapi/alectra-utilities-authorization-api-openapi.yml
 - filename: alectra-utilities-batch-api-openapi.yml
   format: yaml
   label: Alectra Utilities Batch API
   slug: alectra-utilities-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alectra-utilities/refs/heads/main/openapi/alectra-utilities-batch-api-openapi.yml
+  url: https://artifacts.apis.io/alectra-utilities/openapi/alectra-utilities-batch-api-openapi.yml
 - filename: alectra-utilities-usagepoint-api-openapi.yml
   format: yaml
   label: Alectra Utilities Usage Point API
   slug: alectra-utilities-usagepoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alectra-utilities/refs/heads/main/openapi/alectra-utilities-usagepoint-api-openapi.yml
+  url: https://artifacts.apis.io/alectra-utilities/openapi/alectra-utilities-usagepoint-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: derived\nsource: openapi/alectra-
   \ oauth2_flows:\n  - authorizationCode\n  - clientCredentials\n  applied_globally: true\n  scopes_declared: 0\nschemes:\n- name: oauth2\n  type: oauth2\n  sources:\n  - openapi/alectra-utilities-green-button-espi-openapi.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/authorize\n    tokenUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/token\n    scope_count: 0\n    note: >-\n      The Green Button Connect My Data consent flow — a retail customer authorises a\n      registered, approved third party to receive their ESPI resources. The scopes\n      map is empty in the source spec; ESPI's scope grammar is not enumerated there\n      and Alectra publishes none, so none are recorded.\n  - flow: clientCredentials\n    tokenUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/token\n    scope_count: 0\n    note: >-\n      Used by a registered third party for its own ApplicationInformation and bulk\n      registration-level\
   \ calls rather than for customer data.\n  applied_to_operations: all\ntoken:\n  type: Bearer\n  carrier: Authorization header\n  evidence: >-\n    components.schemas.Authorization declares token_type (Bearer), expires_at,\n    grant_type, scope, resourceURI and authorizationURI — the ESPI authorization\n    record a data custodian returns to an approved third party.\nonboarding:\n  self_serve: false\n  gate: application-approval\n  registration_url: https://alectrautilitiesonboarding.savagedata.com/\n  terms_url: https://alectrautilities.com/green-button-connect-my-data-terms-and-conditions-access-and-use\n  steps:\n  - Register as a third party at the Alectra onboarding site (hosted by Savage Data Systems).\n  - Accept the Green Button Connect My Data Terms and Conditions of Access and Use.\n  - Be approved by Alectra as an authorised third-party provider.\n  - A customer then authorises the connection in the Green Button portal, selecting data and period.\n  accreditation_body: none\n\
   \  note: >-\n    Ontario has no accredited data recipient regime (unlike the Australian CDR), so\n    approval is Alectra's own commercial and compliance decision.\ncustomer_facing_auth:\n  green_button_portal: Account name from the bill plus phone-number validation.\n  commercial_industrial_dataview: Email and password registration with account linking.\nverified_on_alectra: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alectra-utilities/refs/heads/main/authentication/alectra-utilities-authentication.yml
+source_yaml_url: https://artifacts.apis.io/alectra-utilities/authentication/alectra-utilities-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Energy

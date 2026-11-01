@@ -8,55 +8,55 @@ api_specs:
   label: Archera Commitment Plans API
   slug: archera-commitment-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-commitment-plans-api-openapi.yml
+  url: https://artifacts.apis.io/archera/openapi/archera-commitment-plans-api-openapi.yml
 - filename: archera-commitments-api-openapi.yml
   format: yaml
   label: Archera Commitments API
   slug: archera-commitments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-commitments-api-openapi.yml
+  url: https://artifacts.apis.io/archera/openapi/archera-commitments-api-openapi.yml
 - filename: archera-exchanges-api-openapi.yml
   format: yaml
   label: Archera Exchanges API
   slug: archera-exchanges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-exchanges-api-openapi.yml
+  url: https://artifacts.apis.io/archera/openapi/archera-exchanges-api-openapi.yml
 - filename: archera-metrics-api-openapi.yml
   format: yaml
   label: Archera Metrics API
   slug: archera-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/archera/openapi/archera-metrics-api-openapi.yml
 - filename: archera-orgs-api-openapi.yml
   format: yaml
   label: Archera Orgs API
   slug: archera-orgs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-orgs-api-openapi.yml
+  url: https://artifacts.apis.io/archera/openapi/archera-orgs-api-openapi.yml
 - filename: archera-resources-api-openapi.yml
   format: yaml
   label: Archera Resources API
   slug: archera-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-resources-api-openapi.yml
+  url: https://artifacts.apis.io/archera/openapi/archera-resources-api-openapi.yml
 - filename: archera-uploads-api-openapi.yml
   format: yaml
   label: Archera Uploads API
   slug: archera-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/archera/openapi/archera-uploads-api-openapi.yml
 - filename: archera-well-known-api-openapi.yml
   format: yaml
   label: Archera Well-Known API
   slug: archera-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/archera/openapi/archera-well-known-api-openapi.yml
 - filename: archera-oauth-api-openapi.yml
   format: yaml
   label: Archera O Auth API
   slug: archera-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/archera/openapi/archera-oauth-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -108,7 +108,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: >-\n  https://docs.archera.ai/api-reference/public-api/api-key-access and\n  https://api.archera.ai/.well-known/oauth-authorization-server — the Archera\n  OpenAPI does not declare securitySchemes, so this profile is captured from the\n  published auth docs and live OAuth authorization-server metadata.\ndocs: https://docs.archera.ai/api-reference/public-api/api-key-access\ndescription: >-\n  The Archera Public API supports two authentication mechanisms: a static API\n  key sent in the x-api-key header, and OAuth 2.0 Authorization Code with PKCE\n  (also used by the hosted MCP server, with Dynamic Client Registration).\nsummary:\n  types: [apiKey, oauth2]\n  api_key_in: [header]\n  oauth2_flows: [authorizationCode]\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter_name: x-api-key\n  description: >-\n    Create an API key in the Archera web app under User Settings > API Access.\n    Send it as the x-api-key\
   \ request header. Requests are also scoped by an\n    org_id path/query value obtained from User Settings > Organization.\n  example: \"curl -H 'x-api-key: YOUR_API_KEY' https://api.archera.ai/v1/org/{org_id}/metrics?provider=aws\"\n  docs: https://docs.archera.ai/api-reference/public-api/api-key-access\n- name: oauth2\n  type: oauth2\n  description: >-\n    OAuth 2.0 Authorization Code flow with PKCE (S256). Supports Dynamic Client\n    Registration; token_endpoint_auth_methods_supported = none (public clients).\n    This is the flow the hosted MCP server at https://mcp.archera.ai/mcp uses.\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.archera.ai/oauth/authorize\n    tokenUrl: https://api.archera.ai/oauth/token\n    revocationUrl: https://api.archera.ai/oauth/revoke\n    registrationUrl: https://api.archera.ai/oauth/register\n    refreshSupported: true\n    pkce: [S256]\n    scopes:\n    - archera:read\n    - archera:write\n    - archera:admin\n    - archera:analytics\n\
   \  metadata: well-known/archera-oauth-authorization-server.json\n  jwks: well-known/archera-jwks.json\n  docs: https://docs.archera.ai/api-reference/public-api/oauth\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/authentication/archera-authentication.yml
+source_yaml_url: https://artifacts.apis.io/archera/authentication/archera-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company

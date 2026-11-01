@@ -5,43 +5,43 @@ api_specs:
   label: Ticketmaster Availability API
   slug: ticketmaster-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/openapi/ticketmaster-availability-api-openapi.yml
+  url: https://artifacts.apis.io/ticketmaster/openapi/ticketmaster-availability-api-openapi.yml
 - filename: ticketmaster-offerings-api-openapi.yml
   format: yaml
   label: Ticketmaster Offerings API
   slug: ticketmaster-offerings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/openapi/ticketmaster-offerings-api-openapi.yml
+  url: https://artifacts.apis.io/ticketmaster/openapi/ticketmaster-offerings-api-openapi.yml
 - filename: ticketmaster-attractions-api-openapi.yml
   format: yaml
   label: Ticketmaster Attractions API
   slug: ticketmaster-attractions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/openapi/ticketmaster-attractions-api-openapi.yml
+  url: https://artifacts.apis.io/ticketmaster/openapi/ticketmaster-attractions-api-openapi.yml
 - filename: ticketmaster-classifications-api-openapi.yml
   format: yaml
   label: Ticketmaster Classifications API
   slug: ticketmaster-classifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/openapi/ticketmaster-classifications-api-openapi.yml
+  url: https://artifacts.apis.io/ticketmaster/openapi/ticketmaster-classifications-api-openapi.yml
 - filename: ticketmaster-events-api-openapi.yml
   format: yaml
   label: Ticketmaster Events API
   slug: ticketmaster-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/openapi/ticketmaster-events-api-openapi.yml
+  url: https://artifacts.apis.io/ticketmaster/openapi/ticketmaster-events-api-openapi.yml
 - filename: ticketmaster-suggestions-api-openapi.yml
   format: yaml
   label: Ticketmaster Suggestions API
   slug: ticketmaster-suggestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/openapi/ticketmaster-suggestions-api-openapi.yml
+  url: https://artifacts.apis.io/ticketmaster/openapi/ticketmaster-suggestions-api-openapi.yml
 - filename: ticketmaster-venues-api-openapi.yml
   format: yaml
   label: Ticketmaster Venues API
   slug: ticketmaster-venues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/openapi/ticketmaster-venues-api-openapi.yml
+  url: https://artifacts.apis.io/ticketmaster/openapi/ticketmaster-venues-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,7 +81,7 @@ source_filename: ticketmaster-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.ticketmaster.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  3 23:59:59 2026 GMT\n  hsts: false\n- host: www.ticketmaster.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 23:25:22 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: app.ticketmaster.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 19:22:12 2026 GMT\n  hsts: null\ndomains:\n- domain: ticketmaster.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/security/ticketmaster-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ticketmaster/security/ticketmaster-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Commerce

@@ -5,67 +5,67 @@ api_specs:
   label: Leap create meters API
   slug: leap-create-meters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leap-create-meters-api-openapi.yml
+  url: https://artifacts.apis.io/leap/openapi/leap-create-meters-api-openapi.yml
 - filename: leap-group-dispatches-api-openapi.yml
   format: yaml
   label: Leap Group Dispatches API
   slug: leap-group-dispatches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leap-group-dispatches-api-openapi.yml
+  url: https://artifacts.apis.io/leap/openapi/leap-group-dispatches-api-openapi.yml
 - filename: leap-meter-details-api-openapi.yml
   format: yaml
   label: Leap Meter Details API
   slug: leap-meter-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leap-meter-details-api-openapi.yml
+  url: https://artifacts.apis.io/leap/openapi/leap-meter-details-api-openapi.yml
 - filename: leap-meter-dispatches-api-openapi.yml
   format: yaml
   label: Leap Meter Dispatches API
   slug: leap-meter-dispatches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leap-meter-dispatches-api-openapi.yml
+  url: https://artifacts.apis.io/leap/openapi/leap-meter-dispatches-api-openapi.yml
 - filename: leap-meter-enrollment-api-openapi.yml
   format: yaml
   label: Leap meter enrollment API
   slug: leap-meter-enrollment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leap-meter-enrollment-api-openapi.yml
+  url: https://artifacts.apis.io/leap/openapi/leap-meter-enrollment-api-openapi.yml
 - filename: leap-nominations-api-openapi.yml
   format: yaml
   label: Leap Nominations API
   slug: leap-nominations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leap-nominations-api-openapi.yml
+  url: https://artifacts.apis.io/leap/openapi/leap-nominations-api-openapi.yml
 - filename: leap-performance-api-openapi.yml
   format: yaml
   label: Leap Performance API
   slug: leap-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leap-performance-api-openapi.yml
+  url: https://artifacts.apis.io/leap/openapi/leap-performance-api-openapi.yml
 - filename: leap-provisional-assets-api-openapi.yml
   format: yaml
   label: Leap provisional assets API
   slug: leap-provisional-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leap-provisional-assets-api-openapi.yml
+  url: https://artifacts.apis.io/leap/openapi/leap-provisional-assets-api-openapi.yml
 - filename: leap-revenue-api-openapi.yml
   format: yaml
   label: Leap Revenue API
   slug: leap-revenue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leap-revenue-api-openapi.yml
+  url: https://artifacts.apis.io/leap/openapi/leap-revenue-api-openapi.yml
 - filename: leap-webhooks-api-openapi.yml
   format: yaml
   label: Leap Webhooks API
   slug: leap-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leap-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/leap/openapi/leap-webhooks-api-openapi.yml
 - filename: leap-interval-data-upload-api-openapi.yml
   format: yaml
   label: Leap Interval Data Upload API
   slug: leap-interval-data-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leap-interval-data-upload-api-openapi.yml
+  url: https://artifacts.apis.io/leap/openapi/leap-interval-data-upload-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -107,7 +107,7 @@ source_filename: leap-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.leap.energy\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 08:51:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.leap.energy\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 16:10:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.leap.energy\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov  7 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: leap.energy\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/security/leap-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/leap/security/leap-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

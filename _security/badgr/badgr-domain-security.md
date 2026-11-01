@@ -5,43 +5,43 @@ api_specs:
   label: Badgr Assertions API
   slug: badgr-assertions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/badgr/refs/heads/main/openapi/badgr-assertions-api-openapi.yml
+  url: https://artifacts.apis.io/badgr/openapi/badgr-assertions-api-openapi.yml
 - filename: badgr-authentication-api-openapi.yml
   format: yaml
   label: Badgr Authentication API
   slug: badgr-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/badgr/refs/heads/main/openapi/badgr-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/badgr/openapi/badgr-authentication-api-openapi.yml
 - filename: badgr-backpack-api-openapi.yml
   format: yaml
   label: Badgr Backpack API
   slug: badgr-backpack-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/badgr/refs/heads/main/openapi/badgr-backpack-api-openapi.yml
+  url: https://artifacts.apis.io/badgr/openapi/badgr-backpack-api-openapi.yml
 - filename: badgr-badgeclasses-api-openapi.yml
   format: yaml
   label: Badgr BadgeClasses API
   slug: badgr-badgeclasses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/badgr/refs/heads/main/openapi/badgr-badgeclasses-api-openapi.yml
+  url: https://artifacts.apis.io/badgr/openapi/badgr-badgeclasses-api-openapi.yml
 - filename: badgr-collections-api-openapi.yml
   format: yaml
   label: Badgr Collections API
   slug: badgr-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/badgr/refs/heads/main/openapi/badgr-collections-api-openapi.yml
+  url: https://artifacts.apis.io/badgr/openapi/badgr-collections-api-openapi.yml
 - filename: badgr-issuers-api-openapi.yml
   format: yaml
   label: Badgr Issuers API
   slug: badgr-issuers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/badgr/refs/heads/main/openapi/badgr-issuers-api-openapi.yml
+  url: https://artifacts.apis.io/badgr/openapi/badgr-issuers-api-openapi.yml
 - filename: badgr-users-api-openapi.yml
   format: yaml
   label: Badgr Users API
   slug: badgr-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/badgr/refs/heads/main/openapi/badgr-users-api-openapi.yml
+  url: https://artifacts.apis.io/badgr/openapi/badgr-users-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -100,7 +100,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: badgr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 21 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.badgr.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 18 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.eu.badgr.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 18 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: badgr.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: badgr.io\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"\
   amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/badgr/refs/heads/main/security/badgr-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/badgr/security/badgr-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Digital Badges

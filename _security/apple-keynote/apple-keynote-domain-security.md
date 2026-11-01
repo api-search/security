@@ -5,25 +5,25 @@ api_specs:
   label: Apple Keynote Export API
   slug: apple-keynote-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple-keynote/refs/heads/main/openapi/apple-keynote-export-api-openapi.yml
+  url: https://artifacts.apis.io/apple-keynote/openapi/apple-keynote-export-api-openapi.yml
 - filename: apple-keynote-presentations-api-openapi.yml
   format: yaml
   label: Apple Keynote Presentations API
   slug: apple-keynote-presentations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple-keynote/refs/heads/main/openapi/apple-keynote-presentations-api-openapi.yml
+  url: https://artifacts.apis.io/apple-keynote/openapi/apple-keynote-presentations-api-openapi.yml
 - filename: apple-keynote-slides-api-openapi.yml
   format: yaml
   label: Apple Keynote Slides API
   slug: apple-keynote-slides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple-keynote/refs/heads/main/openapi/apple-keynote-slides-api-openapi.yml
+  url: https://artifacts.apis.io/apple-keynote/openapi/apple-keynote-slides-api-openapi.yml
 - filename: apple-keynote-themes-api-openapi.yml
   format: yaml
   label: Apple Keynote Themes API
   slug: apple-keynote-themes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple-keynote/refs/heads/main/openapi/apple-keynote-themes-api-openapi.yml
+  url: https://artifacts.apis.io/apple-keynote/openapi/apple-keynote-themes-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -73,7 +73,7 @@ source_filename: apple-keynote-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.apple.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 17:10:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.icloud.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  7 18:07:22 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: p00-keynote.icloud.com\n  https: false\ndomains:\n- domain: apple.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"pki.apple.com\"\n  - 0 iodef \"mailto:contact_pki@apple.com\"\n  - 0 issue \"pki.apple.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: icloud.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.apple.com\"\n  - 0 issuewild \"pki.apple.com\"\n  - 0 iodef \"mailto:contact_pki@apple.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apple-keynote/refs/heads/main/security/apple-keynote-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apple-keynote/security/apple-keynote-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Apple

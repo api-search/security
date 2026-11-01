@@ -8,13 +8,13 @@ api_specs:
   label: Marginalia Search Filters API
   slug: marginalia-search-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marginalia-search/refs/heads/main/openapi/marginalia-search-filters-api-openapi.yml
+  url: https://artifacts.apis.io/marginalia-search/openapi/marginalia-search-filters-api-openapi.yml
 - filename: marginalia-search-search-api-openapi.yml
   format: yaml
   label: Marginalia Search API
   slug: marginalia-search-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marginalia-search/refs/heads/main/openapi/marginalia-search-search-api-openapi.yml
+  url: https://artifacts.apis.io/marginalia-search/openapi/marginalia-search-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: marginalia-search-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/marginalia-search-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: APIKey\n  type: apiKey\n  in: header\n  parameter: API-Key\n  description: API key supplied via the API-Key header. A public testing key is documented;\n    commercial and non-commercial keys are issued by contact@marginalia-search.com or via Polar.\n  sources:\n  - openapi/marginalia-search-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/marginalia-search/refs/heads/main/authentication/marginalia-search-authentication.yml
+source_yaml_url: https://artifacts.apis.io/marginalia-search/authentication/marginalia-search-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Open Source

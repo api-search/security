@@ -7,61 +7,61 @@ api_specs:
   label: Firecrawl Account API
   slug: firecrawl-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/openapi/firecrawl-account-api-openapi.yml
+  url: https://artifacts.apis.io/firecrawl/openapi/firecrawl-account-api-openapi.yml
 - filename: firecrawl-agent-api-openapi.yml
   format: yaml
   label: Firecrawl Agent API
   slug: firecrawl-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/openapi/firecrawl-agent-api-openapi.yml
+  url: https://artifacts.apis.io/firecrawl/openapi/firecrawl-agent-api-openapi.yml
 - filename: firecrawl-billing-api-openapi.yml
   format: yaml
   label: Firecrawl Billing API
   slug: firecrawl-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/openapi/firecrawl-billing-api-openapi.yml
+  url: https://artifacts.apis.io/firecrawl/openapi/firecrawl-billing-api-openapi.yml
 - filename: firecrawl-browser-api-openapi.yml
   format: yaml
   label: Firecrawl Browser API
   slug: firecrawl-browser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/openapi/firecrawl-browser-api-openapi.yml
+  url: https://artifacts.apis.io/firecrawl/openapi/firecrawl-browser-api-openapi.yml
 - filename: firecrawl-crawling-api-openapi.yml
   format: yaml
   label: Firecrawl Crawling API
   slug: firecrawl-crawling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/openapi/firecrawl-crawling-api-openapi.yml
+  url: https://artifacts.apis.io/firecrawl/openapi/firecrawl-crawling-api-openapi.yml
 - filename: firecrawl-extraction-api-openapi.yml
   format: yaml
   label: Firecrawl Extraction API
   slug: firecrawl-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/openapi/firecrawl-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/firecrawl/openapi/firecrawl-extraction-api-openapi.yml
 - filename: firecrawl-mapping-api-openapi.yml
   format: yaml
   label: Firecrawl Mapping API
   slug: firecrawl-mapping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/openapi/firecrawl-mapping-api-openapi.yml
+  url: https://artifacts.apis.io/firecrawl/openapi/firecrawl-mapping-api-openapi.yml
 - filename: firecrawl-miscellaneous-api-openapi.yml
   format: yaml
   label: Firecrawl Miscellaneous API
   slug: firecrawl-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/openapi/firecrawl-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/firecrawl/openapi/firecrawl-miscellaneous-api-openapi.yml
 - filename: firecrawl-scraping-api-openapi.yml
   format: yaml
   label: Firecrawl Scraping API
   slug: firecrawl-scraping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/openapi/firecrawl-scraping-api-openapi.yml
+  url: https://artifacts.apis.io/firecrawl/openapi/firecrawl-scraping-api-openapi.yml
 - filename: firecrawl-search-api-openapi.yml
   format: yaml
   label: Firecrawl Search API
   slug: firecrawl-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/openapi/firecrawl-search-api-openapi.yml
+  url: https://artifacts.apis.io/firecrawl/openapi/firecrawl-search-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -87,7 +87,7 @@ source_filename: firecrawl-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/firecrawl-openapi-original.json\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/firecrawl-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/authentication/firecrawl-authentication.yml
+source_yaml_url: https://artifacts.apis.io/firecrawl/authentication/firecrawl-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Crawling

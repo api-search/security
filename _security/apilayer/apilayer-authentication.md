@@ -7,7 +7,7 @@ api_specs:
   label: APILayer Endpoints API
   slug: apilayer-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apilayer/refs/heads/main/openapi/apilayer-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/apilayer/openapi/apilayer-endpoints-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-09-12'\nmethod: searched\nsource: https://docs.ap
   \ a securityScheme at all. The three specs\n    captured in this repo declare `access_key` as a required query parameter on every operation but carry\n    no components.securitySchemes block and no top-level security requirement.\n- id: apikey-header\n  type: apiKey\n  in: header\n  name: apikey\n  required: true\n  applies_to: https://api.apilayer.com - the marketplace gateway behind marketplace.apilayer.com\n  description: Marketplace API key, sent as an `apikey` request header.\n  evidence: 'https://marketplace.apilayer.com/bank_data-api publishes the call verbatim: curl --request\n    GET ''https://api.apilayer.com/bank_data/iban_validate?iban_number=...'' --header ''apikey: YOUR API\n    KEY'''\n  caveats:\n  - 'This gateway DOES honour HTTP status: an invalid key returned a real 401 with {\"message\":\"Invalid\n    authentication credentials\"} when probed 2026-09-12, unlike the product hosts, which answer 200 on\n    an auth failure. The two halves of APILayer behave differently\
   \ on the same failure and an agent must\n    know which host it is talking to.'\n  - The header form is the more defensible design of the two - the credential stays out of the URL - but\n    it is used only on the legacy marketplace, not on the flagship products.\n- id: apilayer-oauth\n  type: oauth2\n  applies_to: https://mcp.apilayer.com/mcp\n  issuer: https://auth.apilayer.com\n  authorization_endpoint: https://auth.apilayer.com/oauth2/auth\n  token_endpoint: https://auth.apilayer.com/oauth2/token\n  device_authorization_endpoint: https://auth.apilayer.com/oauth2/device/auth\n  registration_endpoint: https://auth.apilayer.com/oauth2/register\n  userinfo_endpoint: https://auth.apilayer.com/userinfo\n  jwks_uri: https://auth.apilayer.com/.well-known/jwks.json\n  grant_types:\n  - authorization_code\n  - implicit\n  - client_credentials\n  - refresh_token\n  - urn:ietf:params:oauth:grant-type:device_code\n  pkce: true\n  dynamic_client_registration: true\n  bearer_methods:\n  - header\n\
   \  evidence: well-known/apilayer-openid-configuration.json, well-known/apilayer-oauth-protected-resource.json\ntransport:\n  https_required: true\n  note: HTTPS on the REST products is a PAID feature. The published error catalog carries code 105 https_access_restricted\n    - \"Access Restricted - Your current Subscription Plan does not support HTTPS Encryption\" - so free-tier\n    keys are expected to be sent over plaintext HTTP.\nmfa_or_mtls: none published\nkey_rotation: not documented\nchecked: '2026-09-12'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apilayer/refs/heads/main/authentication/apilayer-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apilayer/authentication/apilayer-authentication.yml
 summary_line: 3 schemes
 tags:
 - API Marketplace

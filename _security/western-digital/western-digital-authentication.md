@@ -7,43 +7,43 @@ api_specs:
   label: western-digital Authentication API
   slug: western-digital-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/openapi/western-digital-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/western-digital/openapi/western-digital-authentication-api-openapi.yml
 - filename: western-digital-configuration-api-openapi.yml
   format: yaml
   label: western-digital Configuration API
   slug: western-digital-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/openapi/western-digital-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/western-digital/openapi/western-digital-configuration-api-openapi.yml
 - filename: western-digital-device-api-openapi.yml
   format: yaml
   label: western-digital Device API
   slug: western-digital-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/openapi/western-digital-device-api-openapi.yml
+  url: https://artifacts.apis.io/western-digital/openapi/western-digital-device-api-openapi.yml
 - filename: western-digital-files-api-openapi.yml
   format: yaml
   label: western-digital Files API
   slug: western-digital-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/openapi/western-digital-files-api-openapi.yml
+  url: https://artifacts.apis.io/western-digital/openapi/western-digital-files-api-openapi.yml
 - filename: western-digital-search-api-openapi.yml
   format: yaml
   label: western-digital Search API
   slug: western-digital-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/openapi/western-digital-search-api-openapi.yml
+  url: https://artifacts.apis.io/western-digital/openapi/western-digital-search-api-openapi.yml
 - filename: western-digital-sharing-api-openapi.yml
   format: yaml
   label: western-digital Sharing API
   slug: western-digital-sharing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/openapi/western-digital-sharing-api-openapi.yml
+  url: https://artifacts.apis.io/western-digital/openapi/western-digital-sharing-api-openapi.yml
 - filename: western-digital-user-api-openapi.yml
   format: yaml
   label: western-digital User API
   slug: western-digital-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/openapi/western-digital-user-api-openapi.yml
+  url: https://artifacts.apis.io/western-digital/openapi/western-digital-user-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -71,7 +71,7 @@ source_filename: western-digital-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/western-digital-my-cloud-home-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: OAuth 2.0 Bearer token obtained via the /oauth/token endpoint. Include in Authorization\n    header as \"Bearer {token}\".\n  sources:\n  - openapi/western-digital-my-cloud-home-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/authentication/western-digital-authentication.yml
+source_yaml_url: https://artifacts.apis.io/western-digital/authentication/western-digital-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Fortune 500

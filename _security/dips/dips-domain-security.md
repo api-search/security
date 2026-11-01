@@ -5,55 +5,55 @@ api_specs:
   label: DIPS Account API
   slug: dips-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/openapi/dips-account-api-openapi.yml
+  url: https://artifacts.apis.io/dips/openapi/dips-account-api-openapi.yml
 - filename: dips-connect-api-openapi.yml
   format: yaml
   label: DIPS Connect API
   slug: dips-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/openapi/dips-connect-api-openapi.yml
+  url: https://artifacts.apis.io/dips/openapi/dips-connect-api-openapi.yml
 - filename: dips-consent-api-openapi.yml
   format: yaml
   label: DIPS Consent API
   slug: dips-consent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/openapi/dips-consent-api-openapi.yml
+  url: https://artifacts.apis.io/dips/openapi/dips-consent-api-openapi.yml
 - filename: dips-default-api-openapi.yml
   format: yaml
   label: DIPS * API
   slug: dips-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/openapi/dips-default-api-openapi.yml
+  url: https://artifacts.apis.io/dips/openapi/dips-default-api-openapi.yml
 - filename: dips-home-api-openapi.yml
   format: yaml
   label: DIPS Home API
   slug: dips-home-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/openapi/dips-home-api-openapi.yml
+  url: https://artifacts.apis.io/dips/openapi/dips-home-api-openapi.yml
 - filename: dips-login-api-openapi.yml
   format: yaml
   label: DIPS Login API
   slug: dips-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/openapi/dips-login-api-openapi.yml
+  url: https://artifacts.apis.io/dips/openapi/dips-login-api-openapi.yml
 - filename: dips-status-api-openapi.yml
   format: yaml
   label: DIPS Status API
   slug: dips-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/openapi/dips-status-api-openapi.yml
+  url: https://artifacts.apis.io/dips/openapi/dips-status-api-openapi.yml
 - filename: dips-well-known-api-openapi.yml
   format: yaml
   label: DIPS .well Known API
   slug: dips-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/openapi/dips-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/dips/openapi/dips-well-known-api-openapi.yml
 - filename: dips-user-role-api-openapi.yml
   format: yaml
   label: DIPS User Role API
   slug: dips-user-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/openapi/dips-user-role-api-openapi.yml
+  url: https://artifacts.apis.io/dips/openapi/dips-user-role-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -105,7 +105,7 @@ source_filename: dips-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dips.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 19:07:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: dips.developer.azure-api.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 24 23:18:42 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.dips.no\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: dips.com\n  dnssec: true\n  caa:\n  - 0 issue \"symantec.com\"\n  - 0 issue \"buypass.no\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"certainly.com\"\n  - 0 iodef \"mailto:it@dips.no\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: azure-api.net\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/security/dips-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dips/security/dips-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

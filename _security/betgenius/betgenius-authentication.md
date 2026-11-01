@@ -8,25 +8,25 @@ api_specs:
   label: BetGenius Booking V1 API
   slug: betgenius-bookingv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/openapi/betgenius-bookingv1-api-openapi.yml
+  url: https://artifacts.apis.io/betgenius/openapi/betgenius-bookingv1-api-openapi.yml
 - filename: betgenius-bookingv2-api-openapi.yml
   format: yaml
   label: BetGenius Booking V2 API
   slug: betgenius-bookingv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/openapi/betgenius-bookingv2-api-openapi.yml
+  url: https://artifacts.apis.io/betgenius/openapi/betgenius-bookingv2-api-openapi.yml
 - filename: betgenius-fixtures-api-openapi.yml
   format: yaml
   label: BetGenius Fixtures API
   slug: betgenius-fixtures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/openapi/betgenius-fixtures-api-openapi.yml
+  url: https://artifacts.apis.io/betgenius/openapi/betgenius-fixtures-api-openapi.yml
 - filename: betgenius-regions-api-openapi.yml
   format: yaml
   label: BetGenius Regions API
   slug: betgenius-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/openapi/betgenius-regions-api-openapi.yml
+  url: https://artifacts.apis.io/betgenius/openapi/betgenius-regions-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/betgeni
   \ x-api-key\n    description: >-\n      Issued API key. Per the platform auth docs, \"An issued API Key controls the available quotas,\n      rate limits, and throttling.\" Required alongside the bearer token on every request.\n    applies_to: Video Streaming API v3, Match State Platform APIs, Statistics API\n    sources: [openapi/betgenius-video-v3-openapi.yml]\n  - name: OAuth2\n    type: oauth2\n    flow: clientCredentials\n    token_urls:\n      production: https://auth.api.geniussports.com/oauth2/token\n      uat: https://uat.auth.api.geniussports.com/oauth2/token\n    token_lifetime_seconds: 3600\n    token_type: Bearer\n    description: >-\n      OAuth2 client_credentials against an Amazon Cognito issuer\n      (cognito-idp.eu-west-1.amazonaws.com). The access token is passed in an AUTHORIZATION header\n      and must be paired with the x-api-key header. This scheme is documented in the BetGenius\n      Integration Documents and governs the Match State Platform, Access Control,\
   \ Schedule and\n      Statistics APIs used by the sportsbook live-data integration; it is not declared in the three\n      OpenAPI files harvested into openapi/, which cover Booking and Video only.\n    docs: https://geniussports.atlassian.net/wiki/spaces/BID/pages/3925901961/Match+State+Platform+APIs+Authentication\n    method: searched\n  - name: HMAC digest (Genius Live Player)\n    type: signature\n    algorithm: HMAC-SHA256\n    description: >-\n      The embeddable Genius Live Player / BetVision widget is authorised per end user, not per\n      integrator: the `digest` query parameter is \"an HMAC-SHA256 hash of the end user's device ID\n      (MAID) and a shared secret\", with the shared secret issued by the Genius onboarding team.\n      Region/DMA entitlement is enforced at the edge — an out-of-market viewer never receives the\n      player_ready event.\n    applies_to: Genius Live Player widgetLoader, BetVision\n    docs: https://dap-docs.betstream.betgenius.com/video-player/web-browser-integration\n\
   \    method: searched\nportal_authentication:\n  surface: Data Services web portal (InPlay Manager, PreMatch Manager, Event Viewer)\n  model: password + emailed magic link (two-step verification)\n  note: >-\n    Explicitly NOT an authenticator app, SMS code, or hardware key — \"Today the second step is\n    email only.\" Rolled out incrementally per customer organisation.\n  docs: https://geniussports.atlassian.net/wiki/spaces/BID/pages/6779994181/Secure+sign-in+for+Data+Services+two-step+verification\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/authentication/betgenius-authentication.yml
+source_yaml_url: https://artifacts.apis.io/betgenius/authentication/betgenius-authentication.yml
 summary_line: http/apiKey/oauth2 · 5 schemes
 tags:
 - Sportsbook

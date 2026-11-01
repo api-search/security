@@ -24,7 +24,7 @@ source_filename: humedica-unitedhealth-group-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.humedica.com\n  https: false\ndomains:\n- domain: humedica.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/humedica-unitedhealth-group/refs/heads/main/security/humedica-unitedhealth-group-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/humedica-unitedhealth-group/security/humedica-unitedhealth-group-domain-security.yml
 summary_line: DNSSEC · DMARC
 tags:
 - Company

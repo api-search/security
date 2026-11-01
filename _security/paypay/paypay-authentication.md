@@ -7,13 +7,13 @@ api_specs:
   label: PayPay Payment API
   slug: paypay-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypay/refs/heads/main/openapi/paypay-payment-api-openapi.yml
+  url: https://artifacts.apis.io/paypay/openapi/paypay-payment-api-openapi.yml
 - filename: paypay-payments-api-openapi.yml
   format: yaml
   label: PayPay Payments API
   slug: paypay-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypay/refs/heads/main/openapi/paypay-payments-api-openapi.yml
+  url: https://artifacts.apis.io/paypay/openapi/paypay-payments-api-openapi.yml
 auth_types:
 - http
 - hmac
@@ -55,7 +55,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/paypay-opa-openapi-original.json\ndocs: https://www.paypay.ne.jp/opa/doc/v1.0/api_authorization.html\nsummary:\n  types:\n  - http\n  - hmac\n  note: >-\n    The OpenAPI declares a simplified BasicAuth (http Basic) security scheme, but\n    the PayPay Open Payment API (OPA) is actually secured with a custom HMAC-SHA256\n    request signature. Merchants obtain an API key + API secret from the PayPay\n    Developer / Merchant Panel (separate keys per environment).\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: Basic\n  sources:\n  - openapi/paypay-opa-openapi-original.json\n- name: HmacOPA\n  type: http\n  scheme: hmac\n  documented: true\n  header: Authorization\n  format: 'hmac OPA:{ApiKey}:{macData}:{nonce}:{epoch}:{hash}'\n  algorithm: HMAC-SHA256\n  parameters:\n    api_key: API key generated in the Developer/Merchant Panel\n    api_secret: API key secret generated in the Developer/Merchant Panel\n    nonce:\
   \ random string (recommended length 8)\n    epoch: epoch seconds, validated server-side to be within 2 minutes\n    hash: base64 HMAC over method + URI + content-type + epoch + nonce + body hash\n  source: https://www.paypay.ne.jp/opa/doc/v1.0/api_authorization.html\nmerchant_scoping:\n  note: >-\n    Every request must also carry the merchant identifier, via the\n    X-ASSUME-MERCHANT HTTP header or the ?assumeMerchant={MerchantId} query\n    parameter (query takes precedence when both are supplied).\n  header: X-ASSUME-MERCHANT\n  query: assumeMerchant\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paypay/refs/heads/main/authentication/paypay-authentication.yml
+source_yaml_url: https://artifacts.apis.io/paypay/authentication/paypay-authentication.yml
 summary_line: http/hmac · 2 schemes
 tags:
 - Company

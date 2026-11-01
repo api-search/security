@@ -5,31 +5,31 @@ api_specs:
   label: konfetti Account API
   slug: konfetti-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/openapi/konfetti-account-api-openapi.yml
+  url: https://artifacts.apis.io/konfetti/openapi/konfetti-account-api-openapi.yml
 - filename: konfetti-auth-api-openapi.yml
   format: yaml
   label: konfetti Auth API
   slug: konfetti-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/openapi/konfetti-auth-api-openapi.yml
+  url: https://artifacts.apis.io/konfetti/openapi/konfetti-auth-api-openapi.yml
 - filename: konfetti-catalog-api-openapi.yml
   format: yaml
   label: konfetti Catalog API
   slug: konfetti-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/openapi/konfetti-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/konfetti/openapi/konfetti-catalog-api-openapi.yml
 - filename: konfetti-checkout-api-openapi.yml
   format: yaml
   label: konfetti Checkout API
   slug: konfetti-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/openapi/konfetti-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/konfetti/openapi/konfetti-checkout-api-openapi.yml
 - filename: konfetti-requests-api-openapi.yml
   format: yaml
   label: konfetti Requests API
   slug: konfetti-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/openapi/konfetti-requests-api-openapi.yml
+  url: https://artifacts.apis.io/konfetti/openapi/konfetti-requests-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -68,7 +68,7 @@ source_filename: konfetti-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gokonfetti.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  6 23:59:59 2027 GMT\n  hsts: false\n- host: backoffice.gokonfetti.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  6 23:59:59 2027 GMT\n  hsts: false\n- host: api.gokonfetti.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  4 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: gokonfetti.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/security/konfetti-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/konfetti/security/konfetti-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

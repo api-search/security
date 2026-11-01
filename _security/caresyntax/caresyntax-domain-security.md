@@ -33,7 +33,7 @@ source_filename: caresyntax-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-01'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.caresyntax.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 00:02:30 2026 GMT\n  hsts: null\n- host: api.caresyntax.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 28 23:59:59 2027 GMT\n  hsts: null\n  note: 'Kong 3.4.2 API gateway (CNAME api.new.caresyntax.com); every probed path\n    returns HTTP 404 {\"message\":\"no Route matched with those values\"} — no public\n    route, no spec, no /.well-known/ documents.'\ndomains:\n- domain: caresyntax.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/caresyntax/refs/heads/main/security/caresyntax-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/caresyntax/security/caresyntax-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

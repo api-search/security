@@ -5,37 +5,37 @@ api_specs:
   label: Betfair Exchange Stream API
   slug: betfair-exchange-stream-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/asyncapi/betfair-asyncapi.yml
+  url: https://artifacts.apis.io/betfair/asyncapi/betfair-asyncapi.yml
 - filename: betfair-accounts-api-openapi.yml
   format: yaml
   label: Betfair Accounts API
   slug: betfair-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/openapi/betfair-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/betfair/openapi/betfair-accounts-api-openapi.yml
 - filename: betfair-betting-api-openapi.yml
   format: yaml
   label: Betfair Betting API
   slug: betfair-betting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/openapi/betfair-betting-api-openapi.yml
+  url: https://artifacts.apis.io/betfair/openapi/betfair-betting-api-openapi.yml
 - filename: betfair-heartbeat-api-openapi.yml
   format: yaml
   label: Betfair Heartbeat API
   slug: betfair-heartbeat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/openapi/betfair-heartbeat-api-openapi.yml
+  url: https://artifacts.apis.io/betfair/openapi/betfair-heartbeat-api-openapi.yml
 - filename: betfair-historic-data-api-openapi.yml
   format: yaml
   label: Betfair Historic Data API
   slug: betfair-historic-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/openapi/betfair-historic-data-api-openapi.yml
+  url: https://artifacts.apis.io/betfair/openapi/betfair-historic-data-api-openapi.yml
 - filename: betfair-identity-api-openapi.yml
   format: yaml
   label: Betfair Identity API
   slug: betfair-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/openapi/betfair-identity-api-openapi.yml
+  url: https://artifacts.apis.io/betfair/openapi/betfair-identity-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -74,7 +74,7 @@ source_filename: betfair-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.betfair.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 16:17:03 2026 GMT\n  hsts: null\n- host: developer.betfair.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 13:27:23 2026 GMT\n  hsts: null\n- host: api.betfair.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 09:28:59 2026 GMT\n  hsts: null\ndomains:\n- domain: betfair.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/security/betfair-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/betfair/security/betfair-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Betting Exchange

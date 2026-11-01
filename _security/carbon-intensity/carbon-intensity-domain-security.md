@@ -5,31 +5,31 @@ api_specs:
   label: Carbon Intensity API Factors API
   slug: carbon-intensity-factors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbon-intensity/refs/heads/main/openapi/carbon-intensity-factors-api-openapi.yml
+  url: https://artifacts.apis.io/carbon-intensity/openapi/carbon-intensity-factors-api-openapi.yml
 - filename: carbon-intensity-generation-mix-api-openapi.yml
   format: yaml
   label: Carbon Intensity API Generation Mix API
   slug: carbon-intensity-generation-mix-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbon-intensity/refs/heads/main/openapi/carbon-intensity-generation-mix-api-openapi.yml
+  url: https://artifacts.apis.io/carbon-intensity/openapi/carbon-intensity-generation-mix-api-openapi.yml
 - filename: carbon-intensity-national-intensity-api-openapi.yml
   format: yaml
   label: Carbon Intensity API National Intensity API
   slug: carbon-intensity-national-intensity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbon-intensity/refs/heads/main/openapi/carbon-intensity-national-intensity-api-openapi.yml
+  url: https://artifacts.apis.io/carbon-intensity/openapi/carbon-intensity-national-intensity-api-openapi.yml
 - filename: carbon-intensity-regional-api-openapi.yml
   format: yaml
   label: Carbon Intensity API Regional API
   slug: carbon-intensity-regional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbon-intensity/refs/heads/main/openapi/carbon-intensity-regional-api-openapi.yml
+  url: https://artifacts.apis.io/carbon-intensity/openapi/carbon-intensity-regional-api-openapi.yml
 - filename: carbon-intensity-statistics-api-openapi.yml
   format: yaml
   label: Carbon Intensity API Statistics API
   slug: carbon-intensity-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbon-intensity/refs/heads/main/openapi/carbon-intensity-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/carbon-intensity/openapi/carbon-intensity-statistics-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,7 +62,7 @@ source_filename: carbon-intensity-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: carbonintensity.org.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  3 23:59:59 2026 GMT\n  hsts: false\n- host: api.carbonintensity.org.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: carbonintensity.org.uk\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carbon-intensity/refs/heads/main/security/carbon-intensity-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/carbon-intensity/security/carbon-intensity-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Carbon Intensity

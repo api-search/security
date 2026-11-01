@@ -7,19 +7,19 @@ api_specs:
   label: CipherOwl Onchain Service API
   slug: cipherowl-onchain-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/openapi/cipherowl-onchain-service-api-openapi.yml
+  url: https://artifacts.apis.io/cipherowl/openapi/cipherowl-onchain-service-api-openapi.yml
 - filename: cipherowl-private-data-api-api-openapi.yml
   format: yaml
   label: CipherOwl Private Data API
   slug: cipherowl-private-data-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/openapi/cipherowl-private-data-api-api-openapi.yml
+  url: https://artifacts.apis.io/cipherowl/openapi/cipherowl-private-data-api-api-openapi.yml
 - filename: cipherowl-srr-api-api-openapi.yml
   format: yaml
   label: CipherOwl SRR API
   slug: cipherowl-srr-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/openapi/cipherowl-srr-api-api-openapi.yml
+  url: https://artifacts.apis.io/cipherowl/openapi/cipherowl-srr-api-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -47,7 +47,7 @@ source_filename: cipherowl-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/cipherowl-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: OAuth 2.0 access token obtained from /oauth/token using client credentials.\n  sources:\n  - openapi/cipherowl-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/authentication/cipherowl-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cipherowl/authentication/cipherowl-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Blockchain

@@ -5,25 +5,25 @@ api_specs:
   label: Azure Container Instances Operations API
   slug: azure-container-instances-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/openapi/azure-container-instances-operations-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-instances/openapi/azure-container-instances-operations-api-openapi.yml
 - filename: azure-container-instances-subscriptions-api-openapi.yml
   format: yaml
   label: Azure Container Instances Subscriptions API
   slug: azure-container-instances-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/openapi/azure-container-instances-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-instances/openapi/azure-container-instances-subscriptions-api-openapi.yml
 - filename: azure-container-instances-container-groups-api-openapi.yml
   format: yaml
   label: Azure Container Instances Container Groups API
   slug: microsoft-azure-container-instances-container-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/openapi/azure-container-instances-container-groups-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-instances/openapi/azure-container-instances-container-groups-api-openapi.yml
 - filename: azure-container-instances-operations-api-openapi.yml
   format: yaml
   label: Azure Container Instances Operations API
   slug: microsoft-azure-container-instances-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/openapi/azure-container-instances-operations-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-instances/openapi/azure-container-instances-operations-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -65,7 +65,7 @@ source_filename: azure-container-instances-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: azure.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 22:04:48 2026 GMT\n  hsts: null\n- host: management.azure.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 23:36:21 2026 GMT\n  hsts: null\ndomains:\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: azure.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/security/azure-container-instances-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/azure-container-instances/security/azure-container-instances-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Microsoft Azure

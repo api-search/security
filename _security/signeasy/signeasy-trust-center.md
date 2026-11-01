@@ -5,31 +5,31 @@ api_specs:
   label: Signeasy Embedded API
   slug: signeasy-embedded-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-embedded-api-openapi.yml
+  url: https://artifacts.apis.io/signeasy/openapi/signeasy-embedded-api-openapi.yml
 - filename: signeasy-envelopes-api-openapi.yml
   format: yaml
   label: Signeasy Envelopes API
   slug: signeasy-envelopes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-envelopes-api-openapi.yml
+  url: https://artifacts.apis.io/signeasy/openapi/signeasy-envelopes-api-openapi.yml
 - filename: signeasy-originals-api-openapi.yml
   format: yaml
   label: Signeasy Originals API
   slug: signeasy-originals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-originals-api-openapi.yml
+  url: https://artifacts.apis.io/signeasy/openapi/signeasy-originals-api-openapi.yml
 - filename: signeasy-templates-api-openapi.yml
   format: yaml
   label: Signeasy Templates API
   slug: signeasy-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-templates-api-openapi.yml
+  url: https://artifacts.apis.io/signeasy/openapi/signeasy-templates-api-openapi.yml
 - filename: signeasy-users-api-openapi.yml
   format: yaml
   label: Signeasy Users API
   slug: signeasy-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-users-api-openapi.yml
+  url: https://artifacts.apis.io/signeasy/openapi/signeasy-users-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -48,7 +48,7 @@ source_filename: signeasy-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://signeasy.com/security\nurl: https://signeasy.com/security\ncertifications:\n- SOC 2\n- HIPAA\n- GDPR\nevidence:\n- source: https://signeasy.com/security\n  keywords:\n  - soc 2\n  - soc2\n  - hipaa\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/security/signeasy-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/signeasy/security/signeasy-trust-center.yml
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - E-Signature

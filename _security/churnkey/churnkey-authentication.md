@@ -8,31 +8,31 @@ api_specs:
   label: Churnkey Billing Contacts API
   slug: churnkey-billing-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/churnkey/refs/heads/main/openapi/churnkey-billing-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/churnkey/openapi/churnkey-billing-contacts-api-openapi.yml
 - filename: churnkey-customers-api-openapi.yml
   format: yaml
   label: Churnkey Customers API
   slug: churnkey-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/churnkey/refs/heads/main/openapi/churnkey-customers-api-openapi.yml
+  url: https://artifacts.apis.io/churnkey/openapi/churnkey-customers-api-openapi.yml
 - filename: churnkey-data-subject-requests-api-openapi.yml
   format: yaml
   label: Churnkey Data Subject Requests API
   slug: churnkey-data-subject-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/churnkey/refs/heads/main/openapi/churnkey-data-subject-requests-api-openapi.yml
+  url: https://artifacts.apis.io/churnkey/openapi/churnkey-data-subject-requests-api-openapi.yml
 - filename: churnkey-events-api-openapi.yml
   format: yaml
   label: Churnkey Events API
   slug: churnkey-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/churnkey/refs/heads/main/openapi/churnkey-events-api-openapi.yml
+  url: https://artifacts.apis.io/churnkey/openapi/churnkey-events-api-openapi.yml
 - filename: churnkey-sessions-api-openapi.yml
   format: yaml
   label: Churnkey Sessions API
   slug: churnkey-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/churnkey/refs/heads/main/openapi/churnkey-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/churnkey/openapi/churnkey-sessions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -67,7 +67,7 @@ source_filename: churnkey-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/churnkey-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-ck-api-key\n  description: Churnkey API key. The Data API (/v1/data) uses the Data API key from Settings\n    > Account; the event and billing-contact endpoints (/v1/api) use a Churnkey API key.\n  sources:\n  - openapi/churnkey-openapi.yml\n- name: appIdAuth\n  type: apiKey\n  in: header\n  parameter: x-ck-app\n  description: Churnkey Application ID (App ID) from Settings.\n  sources:\n  - openapi/churnkey-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/churnkey/refs/heads/main/authentication/churnkey-authentication.yml
+source_yaml_url: https://artifacts.apis.io/churnkey/authentication/churnkey-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Churn Prevention

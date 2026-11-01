@@ -5,31 +5,31 @@ api_specs:
   label: Apollo Config Apps API
   slug: apollo-config-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-config/refs/heads/main/openapi/apollo-config-apps-api-openapi.yml
+  url: https://artifacts.apis.io/apollo-config/openapi/apollo-config-apps-api-openapi.yml
 - filename: apollo-config-clusters-api-openapi.yml
   format: yaml
   label: Apollo Config Clusters API
   slug: apollo-config-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-config/refs/heads/main/openapi/apollo-config-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/apollo-config/openapi/apollo-config-clusters-api-openapi.yml
 - filename: apollo-config-items-api-openapi.yml
   format: yaml
   label: Apollo Config Items API
   slug: apollo-config-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-config/refs/heads/main/openapi/apollo-config-items-api-openapi.yml
+  url: https://artifacts.apis.io/apollo-config/openapi/apollo-config-items-api-openapi.yml
 - filename: apollo-config-namespaces-api-openapi.yml
   format: yaml
   label: Apollo Config Namespaces API
   slug: apollo-config-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-config/refs/heads/main/openapi/apollo-config-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/apollo-config/openapi/apollo-config-namespaces-api-openapi.yml
 - filename: apollo-config-releases-api-openapi.yml
   format: yaml
   label: Apollo Config Releases API
   slug: apollo-config-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-config/refs/heads/main/openapi/apollo-config-releases-api-openapi.yml
+  url: https://artifacts.apis.io/apollo-config/openapi/apollo-config-releases-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -63,7 +63,7 @@ source_filename: apollo-config-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.apolloconfig.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 16:36:56 2026 GMT\n  hsts: false\ndomains:\n- domain: apolloconfig.com\n  dnssec: true\n  caa:\n  - apolloconfig.github.io.\n  - 0 issuewild \"sectigo.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"digicert.com\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apollo-config/refs/heads/main/security/apollo-config-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apollo-config/security/apollo-config-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Apache 2.0

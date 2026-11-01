@@ -7,55 +7,55 @@ api_specs:
   label: CHAOSS Complexity API
   slug: chaoss-complexity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaoss/refs/heads/main/openapi/chaoss-complexity-api-openapi.yml
+  url: https://artifacts.apis.io/chaoss/openapi/chaoss-complexity-api-openapi.yml
 - filename: chaoss-dei-badging-api-openapi.yml
   format: yaml
   label: CHAOSS DEI Badging API
   slug: chaoss-dei-badging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaoss/refs/heads/main/openapi/chaoss-dei-badging-api-openapi.yml
+  url: https://artifacts.apis.io/chaoss/openapi/chaoss-dei-badging-api-openapi.yml
 - filename: chaoss-evolution-api-openapi.yml
   format: yaml
   label: CHAOSS Evolution API
   slug: chaoss-evolution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaoss/refs/heads/main/openapi/chaoss-evolution-api-openapi.yml
+  url: https://artifacts.apis.io/chaoss/openapi/chaoss-evolution-api-openapi.yml
 - filename: chaoss-experimental-api-openapi.yml
   format: yaml
   label: CHAOSS Experimental API
   slug: chaoss-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaoss/refs/heads/main/openapi/chaoss-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/chaoss/openapi/chaoss-experimental-api-openapi.yml
 - filename: chaoss-login-api-openapi.yml
   format: yaml
   label: CHAOSS Login API
   slug: chaoss-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaoss/refs/heads/main/openapi/chaoss-login-api-openapi.yml
+  url: https://artifacts.apis.io/chaoss/openapi/chaoss-login-api-openapi.yml
 - filename: chaoss-risk-api-openapi.yml
   format: yaml
   label: CHAOSS Risk API
   slug: chaoss-risk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaoss/refs/heads/main/openapi/chaoss-risk-api-openapi.yml
+  url: https://artifacts.apis.io/chaoss/openapi/chaoss-risk-api-openapi.yml
 - filename: chaoss-utility-api-openapi.yml
   format: yaml
   label: CHAOSS Utility API
   slug: chaoss-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaoss/refs/heads/main/openapi/chaoss-utility-api-openapi.yml
+  url: https://artifacts.apis.io/chaoss/openapi/chaoss-utility-api-openapi.yml
 - filename: chaoss-value-api-openapi.yml
   format: yaml
   label: CHAOSS Value API
   slug: chaoss-value-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaoss/refs/heads/main/openapi/chaoss-value-api-openapi.yml
+  url: https://artifacts.apis.io/chaoss/openapi/chaoss-value-api-openapi.yml
 - filename: chaoss-visualizations-api-openapi.yml
   format: yaml
   label: CHAOSS Visualizations API
   slug: chaoss-visualizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaoss/refs/heads/main/openapi/chaoss-visualizations-api-openapi.yml
+  url: https://artifacts.apis.io/chaoss/openapi/chaoss-visualizations-api-openapi.yml
 auth_types: []
 description: 'CollectOSS implements OAuth 2.0 authorization code grant, and each CollectOSS deployment acts as its own authorization server. There is no CHAOSS-operated identity provider: credentials are issued by whichever instance you are calling. Authenticated requests carry BOTH the client secret and the user bearer token in a single Authorization header, which is a non-standard composition and is the single most important thing an integrator or agent has to get right.'
 kind: authentication
@@ -149,7 +149,7 @@ source_yaml: "specification: API Commons Authentication\nspecificationVersion: '
   \ authorization page is documented as telling the user \"what\n      information will be shared\", but neither the docs nor the contract enumerate a scope\n      vocabulary, so authorization is all-or-nothing per application.\n  - id: client_credential_header\n    type: apiKey\n    in: header\n    header: Authorization\n    format: 'Client [client secret]'\n    description: >-\n      The client secret alone authenticates the two DEI Badging write operations\n      (POST /dei/repo/add, POST /dei/report) and the two token endpoints. Each declares the\n      Authorization header as required with description \"Client [API_Key]\".\n    applies_to_operations:\n      - DEI Badging Tracking\n      - DEI Badging Report\n      - Generate User Session Token\n      - Refresh User Session Token\nauthenticated_request_format:\n  header: Authorization\n  value: 'Client [Client Secret], Bearer [User Session Token]'\n  note: >-\n    Both credentials must be present in the SAME Authorization header, comma-separated.\
   \ This is not\n    RFC 7235 credential syntax and will break naive clients and most generated SDKs, which assume a\n    single scheme token per header.\nregistration:\n  self_service: true\n  steps:\n    - Register a user account on the target CollectOSS instance via Login -> Register.\n    - Open your username -> Profile -> Applications.\n    - Create an application with a name and a redirect URL reachable by the user's browser.\n    - Record the Application ID and Client Secret shown after creation.\n  local_testing_note: >-\n    The docs explicitly allow http://127.0.0.1/ or http://localho.st as a redirect host for local\n    testing, and warn that the authorization server does not verify the redirect URL is reachable.\ndeployment_prerequisite: >-\n  Instances behind Nginx or Apache must set `proxy_set_header X-Forwarded-Proto $scheme;` (or the\n  Apache equivalent) or the OAuth flow will not work.\nunauthenticated_surface: >-\n  The 133 GET metric operations declare no Authorization\
   \ header in the contract. Whether they are\n  in fact anonymous is an instance deployment decision and is not stated in the documentation;\n  this artifact does not assert that they are.\nmaintainers:\n  - FN: Kin Lane\n    email: info@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chaoss/refs/heads/main/authentication/chaoss-authentication.yml
+source_yaml_url: https://artifacts.apis.io/chaoss/authentication/chaoss-authentication.yml
 summary_line: 2 schemes
 tags:
 - Analytics

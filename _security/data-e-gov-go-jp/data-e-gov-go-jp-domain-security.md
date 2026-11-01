@@ -27,7 +27,7 @@ source_filename: data-e-gov-go-jp-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: data.e-gov.go.jp\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  5 09:22:36 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: go.jp\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/data-e-gov-go-jp/refs/heads/main/security/data-e-gov-go-jp-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/data-e-gov-go-jp/security/data-e-gov-go-jp-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Open Data

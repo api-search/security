@@ -8,133 +8,133 @@ api_specs:
   label: Amazon Lightsail Account API
   slug: amazon-lightsail-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/openapi/amazon-lightsail-account-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lightsail/openapi/amazon-lightsail-account-api-openapi.yml
 - filename: amazon-lightsail-alarms-api-openapi.yml
   format: yaml
   label: Amazon Lightsail Alarms API
   slug: amazon-lightsail-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/openapi/amazon-lightsail-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lightsail/openapi/amazon-lightsail-alarms-api-openapi.yml
 - filename: amazon-lightsail-blueprints-api-openapi.yml
   format: yaml
   label: Amazon Lightsail Blueprints API
   slug: amazon-lightsail-blueprints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/openapi/amazon-lightsail-blueprints-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lightsail/openapi/amazon-lightsail-blueprints-api-openapi.yml
 - filename: amazon-lightsail-buckets-api-openapi.yml
   format: yaml
   label: Amazon Lightsail Buckets API
   slug: amazon-lightsail-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/openapi/amazon-lightsail-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lightsail/openapi/amazon-lightsail-buckets-api-openapi.yml
 - filename: amazon-lightsail-bundles-api-openapi.yml
   format: yaml
   label: Amazon Lightsail Bundles API
   slug: amazon-lightsail-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/openapi/amazon-lightsail-bundles-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lightsail/openapi/amazon-lightsail-bundles-api-openapi.yml
 - filename: amazon-lightsail-certificates-api-openapi.yml
   format: yaml
   label: Amazon Lightsail Certificates API
   slug: amazon-lightsail-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/openapi/amazon-lightsail-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lightsail/openapi/amazon-lightsail-certificates-api-openapi.yml
 - filename: amazon-lightsail-contact-methods-api-openapi.yml
   format: yaml
   label: Amazon Lightsail Contact Methods API
   slug: amazon-lightsail-contact-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/openapi/amazon-lightsail-contact-methods-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lightsail/openapi/amazon-lightsail-contact-methods-api-openapi.yml
 - filename: amazon-lightsail-container-services-api-openapi.yml
   format: yaml
   label: Amazon Lightsail Container Services API
   slug: amazon-lightsail-container-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/openapi/amazon-lightsail-container-services-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lightsail/openapi/amazon-lightsail-container-services-api-openapi.yml
 - filename: amazon-lightsail-cost-estimate-api-openapi.yml
   format: yaml
   label: Amazon Lightsail Cost Estimate API
   slug: amazon-lightsail-cost-estimate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/openapi/amazon-lightsail-cost-estimate-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lightsail/openapi/amazon-lightsail-cost-estimate-api-openapi.yml
 - filename: amazon-lightsail-distributions-api-openapi.yml
   format: yaml
   label: Amazon Lightsail Distributions API
   slug: amazon-lightsail-distributions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/openapi/amazon-lightsail-distributions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lightsail/openapi/amazon-lightsail-distributions-api-openapi.yml
 - filename: amazon-lightsail-domains-api-openapi.yml
   format: yaml
   label: Amazon Lightsail Domains API
   slug: amazon-lightsail-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/openapi/amazon-lightsail-domains-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lightsail/openapi/amazon-lightsail-domains-api-openapi.yml
 - filename: amazon-lightsail-instances-api-openapi.yml
   format: yaml
   label: Amazon Lightsail Instances API
   slug: amazon-lightsail-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/openapi/amazon-lightsail-instances-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lightsail/openapi/amazon-lightsail-instances-api-openapi.yml
 - filename: amazon-lightsail-load-balancers-api-openapi.yml
   format: yaml
   label: Amazon Lightsail Load Balancers API
   slug: amazon-lightsail-load-balancers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/openapi/amazon-lightsail-load-balancers-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lightsail/openapi/amazon-lightsail-load-balancers-api-openapi.yml
 - filename: amazon-lightsail-operations-api-openapi.yml
   format: yaml
   label: Amazon Lightsail Operations API
   slug: amazon-lightsail-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/openapi/amazon-lightsail-operations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lightsail/openapi/amazon-lightsail-operations-api-openapi.yml
 - filename: amazon-lightsail-regions-api-openapi.yml
   format: yaml
   label: Amazon Lightsail Regions API
   slug: amazon-lightsail-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/openapi/amazon-lightsail-regions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lightsail/openapi/amazon-lightsail-regions-api-openapi.yml
 - filename: amazon-lightsail-relational-databases-api-openapi.yml
   format: yaml
   label: Amazon Lightsail Relational Databases API
   slug: amazon-lightsail-relational-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/openapi/amazon-lightsail-relational-databases-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lightsail/openapi/amazon-lightsail-relational-databases-api-openapi.yml
 - filename: amazon-lightsail-setup-api-openapi.yml
   format: yaml
   label: Amazon Lightsail Setup API
   slug: amazon-lightsail-setup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/openapi/amazon-lightsail-setup-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lightsail/openapi/amazon-lightsail-setup-api-openapi.yml
 - filename: amazon-lightsail-snapshots-api-openapi.yml
   format: yaml
   label: Amazon Lightsail Snapshots API
   slug: amazon-lightsail-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/openapi/amazon-lightsail-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lightsail/openapi/amazon-lightsail-snapshots-api-openapi.yml
 - filename: amazon-lightsail-static-ips-api-openapi.yml
   format: yaml
   label: Amazon Lightsail Static IPs API
   slug: amazon-lightsail-static-ips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/openapi/amazon-lightsail-static-ips-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lightsail/openapi/amazon-lightsail-static-ips-api-openapi.yml
 - filename: amazon-lightsail-tags-api-openapi.yml
   format: yaml
   label: Amazon Lightsail Tags API
   slug: amazon-lightsail-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/openapi/amazon-lightsail-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lightsail/openapi/amazon-lightsail-tags-api-openapi.yml
 - filename: amazon-lightsail-blockstorage-api-openapi.yml
   format: yaml
   label: Amazon Lightsail Blockstorage API
   slug: amazon-lightsail-blockstorage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/openapi/amazon-lightsail-blockstorage-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lightsail/openapi/amazon-lightsail-blockstorage-api-openapi.yml
 - filename: amazon-lightsail-keypairs-api-openapi.yml
   format: yaml
   label: Amazon Lightsail Keypairs API
   slug: amazon-lightsail-keypairs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/openapi/amazon-lightsail-keypairs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lightsail/openapi/amazon-lightsail-keypairs-api-openapi.yml
 auth_types:
 - sigv4
 description: ''
@@ -173,7 +173,7 @@ source_yaml: "generated: '2026-09-17'\nmethod: searched\nsource: >-\n  https://d
   \  rather than empty. The practical consequence for an agent is that credentials cannot be delegated\n  per-call: whatever IAM principal signs the request carries its full policy, so least privilege has to\n  be arranged in advance by issuing a narrowly-scoped role, not negotiated at call time. Every call is\n  recorded in CloudTrail under the event source lightsail.amazonaws.com.\nschemes:\n- name: sigv4\n  type: sigv4\n  in: header\n  parameter: Authorization\n  algorithm: AWS4-HMAC-SHA256\n  service_name: lightsail\n  description: >-\n    Sign each request with AWS Signature Version 4. The Authorization header carries the credential\n    scope (access key / date / region / service / aws4_request), the signed header list and the\n    signature. Requests may alternatively carry the signature in query-string form using X-Amz-Algorithm,\n    X-Amz-Credential, X-Amz-Date, X-Amz-SignedHeaders and X-Amz-Signature.\n  temporary_credentials:\n    supported: true\n    header: X-Amz-Security-Token\n\
   \    note: Required when signing with temporary credentials from AWS STS (assumed roles, SSO, instance profiles).\n  sources:\n  - smithy/amazon-lightsail-2016-11-28.json\n  - openapi/amazon-lightsail-openapi.yml\n  - https://docs.aws.amazon.com/lightsail/2016-11-28/api-reference/CommonParameters.html\nauthorization:\n  model: AWS IAM policy\n  actions_prefix: 'lightsail:'\n  scopes_published: false\n  note: >-\n    Permissions are IAM actions (lightsail:GetInstances, lightsail:CreateInstances, ...), one per API\n    operation, attachable to users and roles and constrainable by resource ARN and condition keys.\n    There is no OAuth scope document to enumerate.\n  audit: CloudTrail, event source lightsail.amazonaws.com\nfailure_modes:\n- exception: UnauthenticatedException\n  status: 401\n  cause: Request was not signed, or the signature could not be validated.\n- exception: AccessDeniedException\n  status: 403\n  cause: Signed correctly but the IAM principal's policy does not allow the\
   \ action.\n- exception: ExpiredTokenException\n  status: 403\n  cause: Temporary STS credentials expired. Re-assume the role.\n- exception: IncompleteSignature\n  status: 403\n  cause: Malformed SigV4 signature — usually a clock skew or a canonical-request mistake.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/authentication/amazon-lightsail-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-lightsail/authentication/amazon-lightsail-authentication.yml
 summary_line: sigv4 · 1 scheme
 tags:
 - Cloud

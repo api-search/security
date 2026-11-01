@@ -7,37 +7,37 @@ api_specs:
   label: EmailOctopus Automation API
   slug: emailoctopus-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/openapi/emailoctopus-automation-api-openapi.yml
+  url: https://artifacts.apis.io/emailoctopus/openapi/emailoctopus-automation-api-openapi.yml
 - filename: emailoctopus-campaign-api-openapi.yml
   format: yaml
   label: EmailOctopus Campaign API
   slug: emailoctopus-campaign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/openapi/emailoctopus-campaign-api-openapi.yml
+  url: https://artifacts.apis.io/emailoctopus/openapi/emailoctopus-campaign-api-openapi.yml
 - filename: emailoctopus-contact-api-openapi.yml
   format: yaml
   label: EmailOctopus Contact API
   slug: emailoctopus-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/openapi/emailoctopus-contact-api-openapi.yml
+  url: https://artifacts.apis.io/emailoctopus/openapi/emailoctopus-contact-api-openapi.yml
 - filename: emailoctopus-field-api-openapi.yml
   format: yaml
   label: EmailOctopus Field API
   slug: emailoctopus-field-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/openapi/emailoctopus-field-api-openapi.yml
+  url: https://artifacts.apis.io/emailoctopus/openapi/emailoctopus-field-api-openapi.yml
 - filename: emailoctopus-list-api-openapi.yml
   format: yaml
   label: EmailOctopus List API
   slug: emailoctopus-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/openapi/emailoctopus-list-api-openapi.yml
+  url: https://artifacts.apis.io/emailoctopus/openapi/emailoctopus-list-api-openapi.yml
 - filename: emailoctopus-tag-api-openapi.yml
   format: yaml
   label: EmailOctopus Tag API
   slug: emailoctopus-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/openapi/emailoctopus-tag-api-openapi.yml
+  url: https://artifacts.apis.io/emailoctopus/openapi/emailoctopus-tag-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/_origin
   \  key_creation_url: https://api.emailoctopus.com/developer/api-keys/create\n  key_management_docs: https://help.emailoctopus.com/article/94-api-documentation\n  sources:\n  - openapi/_original/emailoctopus-v2-openapi.json\n  - openapi/emailoctopus-list-api-openapi.yml\n  - openapi/emailoctopus-contact-api-openapi.yml\n  - openapi/emailoctopus-campaign-api-openapi.yml\n  - openapi/emailoctopus-tag-api-openapi.yml\n  - openapi/emailoctopus-field-api-openapi.yml\n  - openapi/emailoctopus-automation-api-openapi.yml\nkey_versioning:\n  legacy_cutover: '2024-10-07'\n  note: >-\n    API keys minted before the v2 launch on 2024-10-07 are labelled \"legacy\" in the\n    dashboard and DO NOT authenticate against v2 — the API answers `401` with\n    `\"Invalid key.\"` and type `#unauthorized`. Keys created after that date are described\n    by EmailOctopus as \"compatible with all versions of the API\". This makes the API key\n    the de facto version selector, since the URL carries no version segment.\n\
   scopes:\n  supported: false\n  note: >-\n    No scope or permission model exists, so scopes/ is intentionally absent from this repo\n    rather than written as an empty artifact.\nfailure_modes:\n  - status: 401\n    type: https://emailoctopus.com/api-documentation/v2#unauthorized\n    meaning: Key missing, malformed, or legacy (pre-2024-10-07).\n    probed: true\n  - status: 403\n    type: https://emailoctopus.com/api-documentation/v2#access-denied\n    meaning: >-\n      Valid key, wrong account. EmailOctopus's documented check is to compare the last four\n      characters of the key against the keys listed on the target account.\nwebhook_authentication:\n  direction: inbound\n  mechanism: HMAC-SHA256 over the raw request body, hex, prefixed \"sha256=\"\n  header: EmailOctopus-Signature\n  note: Separate from API-key auth; see asyncapi/emailoctopus-webhooks.yml.\nx-evidence:\n  - url: https://emailoctopus.com/api-documentation/v2\n    http_status: 200\n    kind: openapi-and-reference\n\
   \  - url: https://api.emailoctopus.com/lists\n    http_status: 401\n    kind: live-probe-no-credential\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/authentication/emailoctopus-authentication.yml
+source_yaml_url: https://artifacts.apis.io/emailoctopus/authentication/emailoctopus-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Email

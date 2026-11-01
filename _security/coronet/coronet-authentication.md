@@ -7,7 +7,7 @@ api_specs:
   label: Coro Public API
   slug: coro-public-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coronet/refs/heads/main/asyncapi/coronet-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/coronet/asyncapi/coronet-webhooks-asyncapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -44,7 +44,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://docs.coro.net/developer-portal/authentication\ndocs: https://docs.coro.net/developer-portal/authentication\nsummary:\n  types: [oauth2]\n  oauth2_flows: [clientCredentials]\n  token_type: bearer\n  token_lifetime: 24h\n  request_headers: [Authentication, Workspace]\nschemes:\n- name: OAuth2ClientCredentials\n  type: oauth2\n  description: >-\n    To use the Coro API you must first authenticate and obtain a session\n    (bearer) token. Generate a Client ID and Secret credential pair in the Coro\n    console under Control Panel > Connectors > API Credentials (these are not\n    the same as console username/password). POST the credentials to the client\n    authentication endpoint (/oath/token) to receive a bearer token valid for\n    24 hours.\n  flow: clientCredentials\n  token_endpoint: /oath/token\n  token_lifetime: 24h\n  credential_source: Coro console > Control Panel > Connectors > API Credentials\n  usage:\n  \
   \  authorization_header: Authentication\n    additional_headers:\n    - name: Workspace\n      description: The Workspace ID against which the request is executed.\n  sources: [docs.coro.net/developer-portal/authentication]\nnotes:\n- Every request sets an Authentication header carrying the bearer token and a\n  Workspace header carrying the target Workspace ID.\n- Token is valid for 24 hours; re-request from /oath/token to refresh.\n- No OpenAPI securityScheme document was retrievable (api.secure.coro.net\n  requires auth); this profile is captured from the published auth docs.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coronet/refs/heads/main/authentication/coronet-authentication.yml
+source_yaml_url: https://artifacts.apis.io/coronet/authentication/coronet-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

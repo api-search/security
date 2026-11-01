@@ -8,73 +8,73 @@ api_specs:
   label: Xata API Keys API
   slug: xata-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-api-keys-api-openapi.yml
 - filename: xata-billing-api-openapi.yml
   format: yaml
   label: Xata Billing API
   slug: xata-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-billing-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-billing-api-openapi.yml
 - filename: xata-branches-api-openapi.yml
   format: yaml
   label: Xata Branches API
   slug: xata-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-branches-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-branches-api-openapi.yml
 - filename: xata-gateway-api-openapi.yml
   format: yaml
   label: Xata Gateway API
   slug: xata-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-gateway-api-openapi.yml
 - filename: xata-github-app-api-openapi.yml
   format: yaml
   label: Xata GitHub App API
   slug: xata-github-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-github-app-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-github-app-api-openapi.yml
 - filename: xata-logs-api-openapi.yml
   format: yaml
   label: Xata Logs API
   slug: xata-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-logs-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-logs-api-openapi.yml
 - filename: xata-marketplace-api-openapi.yml
   format: yaml
   label: Xata Marketplace API
   slug: xata-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-marketplace-api-openapi.yml
 - filename: xata-metrics-api-openapi.yml
   format: yaml
   label: Xata Metrics API
   slug: xata-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-metrics-api-openapi.yml
 - filename: xata-organizations-api-openapi.yml
   format: yaml
   label: Xata Organizations API
   slug: xata-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-organizations-api-openapi.yml
 - filename: xata-projects-api-openapi.yml
   format: yaml
   label: Xata Projects API
   slug: xata-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-projects-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-projects-api-openapi.yml
 - filename: xata-projects-webhooks-api-openapi.yml
   format: yaml
   label: Xata Projects Webhooks API
   slug: xata-projects-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-projects-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-projects-webhooks-api-openapi.yml
 - filename: xata-webhooks-api-openapi.yml
   format: yaml
   label: Xata Webhooks API
   slug: xata-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -126,7 +126,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/xata-management-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  - openIdConnect\n  api_key_in:\n  - header\n  oauth2_flows:\n  - implicit\nschemes:\n- name: oidc\n  type: openIdConnect\n  openIdConnectUrl: https://auth.xata.io/realms/xata/.well-known/openid-configuration\n  sources:\n  - openapi/xata-management-api-openapi.yml\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'API key authentication using Bearer token format: Bearer <api_key>'\n  sources:\n  - openapi/xata-management-api-openapi.yml\n- name: xata\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://auth.xata.io/realms/xata/protocol/openid-connect/auth\n    scopes: 13\n  sources:\n  - openapi/xata-management-api-openapi.yml\n- name: branchConnectionString\n  type: apiKey\n  in: header\n  parameter: Connection-String\n  description: Branch PostgreSQL connection string (`postgres://user:pass@{branch}.{region}.xata.tech/db`),\n\
   \    including the embedded password. The hostname selects the target branch, region, and endpoint\n    type (the `-rw`/`-ro` suffix, see `EndpointType`), and must match the request host. Obtain\n    it from the Xata dashboard or the control-plane API. This is the only credential the gateway\n    accepts; the control-plane AP\n  sources:\n  - openapi/xata-management-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/authentication/xata-authentication.yml
+source_yaml_url: https://artifacts.apis.io/xata/authentication/xata-authentication.yml
 summary_line: apiKey/oauth2/openIdConnect · 4 schemes
 tags:
 - Database

@@ -5,19 +5,19 @@ api_specs:
   label: Quote Garden Authors API
   slug: quote-garden-authors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quote-garden/refs/heads/main/openapi/quote-garden-authors-api-openapi.yml
+  url: https://artifacts.apis.io/quote-garden/openapi/quote-garden-authors-api-openapi.yml
 - filename: quote-garden-genres-api-openapi.yml
   format: yaml
   label: Quote Garden Genres API
   slug: quote-garden-genres-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quote-garden/refs/heads/main/openapi/quote-garden-genres-api-openapi.yml
+  url: https://artifacts.apis.io/quote-garden/openapi/quote-garden-genres-api-openapi.yml
 - filename: quote-garden-quotes-api-openapi.yml
   format: yaml
   label: Quote Garden Quotes API
   slug: quote-garden-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quote-garden/refs/heads/main/openapi/quote-garden-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/quote-garden/openapi/quote-garden-quotes-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -62,7 +62,7 @@ source_filename: quote-garden-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: quote-garden.onrender.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 22:01:50 2026 GMT\n  hsts: null\n- host: quote-garden.herokuapp.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 29 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: onrender.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n- domain: herokuapp.com\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quote-garden/refs/heads/main/security/quote-garden-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/quote-garden/security/quote-garden-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Quotes

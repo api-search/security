@@ -7,31 +7,31 @@ api_specs:
   label: TrueLayer Mandates API
   slug: truelayer-mandates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/openapi/truelayer-mandates-api-openapi.yml
+  url: https://artifacts.apis.io/truelayer/openapi/truelayer-mandates-api-openapi.yml
 - filename: truelayer-merchant-accounts-api-openapi.yml
   format: yaml
   label: TrueLayer Merchant Accounts API
   slug: truelayer-merchant-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/openapi/truelayer-merchant-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/truelayer/openapi/truelayer-merchant-accounts-api-openapi.yml
 - filename: truelayer-payments-api-openapi.yml
   format: yaml
   label: TrueLayer Payments API
   slug: truelayer-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/openapi/truelayer-payments-api-openapi.yml
+  url: https://artifacts.apis.io/truelayer/openapi/truelayer-payments-api-openapi.yml
 - filename: truelayer-payouts-api-openapi.yml
   format: yaml
   label: TrueLayer Payouts API
   slug: truelayer-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/openapi/truelayer-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/truelayer/openapi/truelayer-payouts-api-openapi.yml
 - filename: truelayer-refunds-api-openapi.yml
   format: yaml
   label: TrueLayer Refunds API
   slug: truelayer-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/openapi/truelayer-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/truelayer/openapi/truelayer-refunds-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: truelayer-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/truelayer-payments-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth2 access token with payments scope\n  sources:\n  - openapi/truelayer-payments-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/authentication/truelayer-authentication.yml
+source_yaml_url: https://artifacts.apis.io/truelayer/authentication/truelayer-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Data API

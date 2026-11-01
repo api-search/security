@@ -5,19 +5,19 @@ api_specs:
   label: Entry Point AI Collaborators API
   slug: entrypointai-collaborators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/entrypointai/refs/heads/main/openapi/entrypointai-collaborators-api-openapi.yml
+  url: https://artifacts.apis.io/entrypointai/openapi/entrypointai-collaborators-api-openapi.yml
 - filename: entrypointai-entry-point-ai-api-api-openapi.yml
   format: yaml
   label: Entry Point AI Entry Point AI API
   slug: entrypointai-entry-point-ai-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/entrypointai/refs/heads/main/openapi/entrypointai-entry-point-ai-api-api-openapi.yml
+  url: https://artifacts.apis.io/entrypointai/openapi/entrypointai-entry-point-ai-api-api-openapi.yml
 - filename: entrypointai-websites-api-openapi.yml
   format: yaml
   label: Entry Point AI Websites API
   slug: entrypointai-websites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/entrypointai/refs/heads/main/openapi/entrypointai-websites-api-openapi.yml
+  url: https://artifacts.apis.io/entrypointai/openapi/entrypointai-websites-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: entrypointai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-16'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.entrypointai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 29 13:13:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: entrypointai.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/entrypointai/refs/heads/main/security/entrypointai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/entrypointai/security/entrypointai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

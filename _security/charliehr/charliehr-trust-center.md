@@ -5,25 +5,25 @@ api_specs:
   label: CharlieHR Company API
   slug: charliehr-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/openapi/charliehr-company-api-openapi.yml
+  url: https://artifacts.apis.io/charliehr/openapi/charliehr-company-api-openapi.yml
 - filename: charliehr-leave-absences-api-openapi.yml
   format: yaml
   label: CharlieHR Leave / Absences API
   slug: charliehr-leave-absences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/openapi/charliehr-leave-absences-api-openapi.yml
+  url: https://artifacts.apis.io/charliehr/openapi/charliehr-leave-absences-api-openapi.yml
 - filename: charliehr-leave-allowances-api-openapi.yml
   format: yaml
   label: CharlieHR Leave Allowances API
   slug: charliehr-leave-allowances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/openapi/charliehr-leave-allowances-api-openapi.yml
+  url: https://artifacts.apis.io/charliehr/openapi/charliehr-leave-allowances-api-openapi.yml
 - filename: charliehr-team-members-api-openapi.yml
   format: yaml
   label: CharlieHR Team Members API
   slug: charliehr-team-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/openapi/charliehr-team-members-api-openapi.yml
+  url: https://artifacts.apis.io/charliehr/openapi/charliehr-team-members-api-openapi.yml
 certification_count: 2
 certifications:
 - ISO 27001
@@ -41,7 +41,7 @@ source_filename: charliehr-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.charliehr.com/\nurl: https://www.charliehr.com/\ncertifications:\n- ISO 27001\n- GDPR\nevidence:\n- source: https://www.charliehr.com/\n  keywords:\n  - iso 27001\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/security/charliehr-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/charliehr/security/charliehr-trust-center.yml
 summary_line: ISO 27001, GDPR
 tags:
 - Human Resources

@@ -31,7 +31,7 @@ source_filename: omniscient-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: omniscient.so\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 10886400\ndomains:\n- domain: omniscient.so\n  dnssec: true\n  caa:\n  - ambitious-pond-05ed89703.4.azurestaticapps.net.\n  - azurestaticappstm4.trafficmanager.net.\n  - msha-slice-4-eus2-0.msha-slice-4-eus2-0-ase.p.azurewebsites.net.\n  - waws-prod-bn1-1603b4fd.sip.p.azurewebsites.windows.net.\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/omniscient/refs/heads/main/security/omniscient-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/omniscient/security/omniscient-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company

@@ -30,7 +30,7 @@ source_filename: sapio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sapiosciences.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 10:04:50 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: your-instance.sapiosciences.com\n  https: false\ndomains:\n- domain: sapiosciences.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sapio/refs/heads/main/security/sapio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sapio/security/sapio-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - LIMS

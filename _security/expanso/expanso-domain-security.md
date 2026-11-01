@@ -5,13 +5,13 @@ api_specs:
   label: Expanso Ops API
   slug: expanso-ops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/expanso/refs/heads/main/openapi/expanso-ops-api-openapi.yml
+  url: https://artifacts.apis.io/expanso/openapi/expanso-ops-api-openapi.yml
 - filename: expanso-orchestrator-api-openapi.yml
   format: yaml
   label: Expanso Orchestrator API
   slug: expanso-orchestrator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/expanso/refs/heads/main/openapi/expanso-orchestrator-api-openapi.yml
+  url: https://artifacts.apis.io/expanso/openapi/expanso-orchestrator-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: expanso-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bacalhau.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 20:07:53 2026 GMT\n  hsts: false\n- host: cloud.expanso.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: bacalhau.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: expanso.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/expanso/refs/heads/main/security/expanso-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/expanso/security/expanso-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

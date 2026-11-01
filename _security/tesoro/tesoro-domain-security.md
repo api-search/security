@@ -39,7 +39,7 @@ source_filename: tesoro-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tesoro.com\n  https: false\n- host: web.archive.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  9 22:02:42 2027 GMT\n  hsts: false\n- host: www.marathonpetroleum.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 10:40:00 2026 GMT\n  hsts: null\ndomains:\n- domain: tesoro.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: archive.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tesoro/refs/heads/main/security/tesoro-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tesoro/security/tesoro-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Petroleum

@@ -7,7 +7,7 @@ api_specs:
   label: Theta Lake API
   slug: theta-lake-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theta-lake/refs/heads/main/openapi/_original/theta-lake-openapi-original.yml
+  url: https://artifacts.apis.io/theta-lake/openapi/_original/theta-lake-openapi-original.yml
 auth_types:
 - http
 - oauth2
@@ -49,7 +49,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/theta-lake-openapi-original.yml\ndocs: https://developer.thetalake.ai/\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\n  model: >-\n    Create an API key (client_id + client_secret) in the Theta Lake developer portal, exchange it\n    at POST /token via the OAuth2 client-credentials grant (RFC 6749) for a short-lived JWT bearer\n    access token (expires_in 3600s), then send it as `Authorization: Bearer <jwt>` on every call.\n    Tokens are scoped to a workspace and a data center and carry a permissions[] set enforced\n    per-operation (see scopes/theta-lake-scopes.yml). GET /token/context returns a token's\n    workspace, data_center, type (jwt|oauth|third_party), and granted permissions.\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: JWT bearer API token obtained from the /token endpoint\n  sources:\n  - openapi/theta-lake-openapi-original.yml\n\
   - name: ClientCredentials\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://developer.thetalake.ai/api/v1/token\n    token_delivery: request-body (x-www-form-urlencoded; x-receive-token-in request-body)\n    grant_type: client_credentials\n    scopes: 70\n  description: OAuth2.0 client-credentials flow (client_id + client_secret -> JWT)\n  sources:\n  - openapi/theta-lake-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/theta-lake/refs/heads/main/authentication/theta-lake-authentication.yml
+source_yaml_url: https://artifacts.apis.io/theta-lake/authentication/theta-lake-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Communications Governance

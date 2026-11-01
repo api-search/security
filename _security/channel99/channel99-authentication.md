@@ -8,103 +8,103 @@ api_specs:
   label: Channel99 Ad Accounts API
   slug: channel99-ad-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-ad-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/channel99/openapi/channel99-ad-accounts-api-openapi.yml
 - filename: channel99-ad-campaign-groups-api-openapi.yml
   format: yaml
   label: Channel99 Ad Campaign Groups API
   slug: channel99-ad-campaign-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-ad-campaign-groups-api-openapi.yml
+  url: https://artifacts.apis.io/channel99/openapi/channel99-ad-campaign-groups-api-openapi.yml
 - filename: channel99-ad-campaigns-api-openapi.yml
   format: yaml
   label: Channel99 Ad Campaigns API
   slug: channel99-ad-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-ad-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/channel99/openapi/channel99-ad-campaigns-api-openapi.yml
 - filename: channel99-ad-groups-api-openapi.yml
   format: yaml
   label: Channel99 Ad Groups API
   slug: channel99-ad-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-ad-groups-api-openapi.yml
+  url: https://artifacts.apis.io/channel99/openapi/channel99-ad-groups-api-openapi.yml
 - filename: channel99-ad-units-api-openapi.yml
   format: yaml
   label: Channel99 Ad Units API
   slug: channel99-ad-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-ad-units-api-openapi.yml
+  url: https://artifacts.apis.io/channel99/openapi/channel99-ad-units-api-openapi.yml
 - filename: channel99-ads-api-openapi.yml
   format: yaml
   label: Channel99 Ads API
   slug: channel99-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-ads-api-openapi.yml
+  url: https://artifacts.apis.io/channel99/openapi/channel99-ads-api-openapi.yml
 - filename: channel99-audiences-api-openapi.yml
   format: yaml
   label: Channel99 Audiences API
   slug: channel99-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/channel99/openapi/channel99-audiences-api-openapi.yml
 - filename: channel99-auth-api-openapi.yml
   format: yaml
   label: Channel99 Auth API
   slug: channel99-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-auth-api-openapi.yml
+  url: https://artifacts.apis.io/channel99/openapi/channel99-auth-api-openapi.yml
 - filename: channel99-channels-api-openapi.yml
   format: yaml
   label: Channel99 Channels API
   slug: channel99-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-channels-api-openapi.yml
+  url: https://artifacts.apis.io/channel99/openapi/channel99-channels-api-openapi.yml
 - filename: channel99-companies-api-openapi.yml
   format: yaml
   label: Channel99 Companies API
   slug: channel99-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-companies-api-openapi.yml
+  url: https://artifacts.apis.io/channel99/openapi/channel99-companies-api-openapi.yml
 - filename: channel99-health-api-openapi.yml
   format: yaml
   label: Channel99 Health API
   slug: channel99-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-health-api-openapi.yml
+  url: https://artifacts.apis.io/channel99/openapi/channel99-health-api-openapi.yml
 - filename: channel99-impressions-api-openapi.yml
   format: yaml
   label: Channel99 Impressions API
   slug: channel99-impressions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-impressions-api-openapi.yml
+  url: https://artifacts.apis.io/channel99/openapi/channel99-impressions-api-openapi.yml
 - filename: channel99-intents-api-openapi.yml
   format: yaml
   label: Channel99 Intents API
   slug: channel99-intents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-intents-api-openapi.yml
+  url: https://artifacts.apis.io/channel99/openapi/channel99-intents-api-openapi.yml
 - filename: channel99-ip-lookup-api-openapi.yml
   format: yaml
   label: Channel99 IP Lookup API
   slug: channel99-ip-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-ip-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/channel99/openapi/channel99-ip-lookup-api-openapi.yml
 - filename: channel99-pageviews-api-openapi.yml
   format: yaml
   label: Channel99 Pageviews API
   slug: channel99-pageviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-pageviews-api-openapi.yml
+  url: https://artifacts.apis.io/channel99/openapi/channel99-pageviews-api-openapi.yml
 - filename: channel99-vendors-api-openapi.yml
   format: yaml
   label: Channel99 Vendors API
   slug: channel99-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/channel99/openapi/channel99-vendors-api-openapi.yml
 - filename: channel99-visits-api-openapi.yml
   format: yaml
   label: Channel99 Visits API
   slug: channel99-visits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-visits-api-openapi.yml
+  url: https://artifacts.apis.io/channel99/openapi/channel99-visits-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -219,7 +219,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: https://support
   \ mcpOAuth\n  type: oauth2\n  api: Channel99 MCP Server\n  standard: OAuth 2.1\n  flows:\n    authorizationCode:\n      authorizationUrl: https://app.channel99.com/oauth/authorize\n      tokenUrl: https://api.stytch.app.channel99.com/v1/oauth2/token\n      scopes:\n        openid: Authenticate the user and issue an ID token\n        email: Read the authenticated user's email address\n        profile: Read the authenticated user's basic profile\n  pkce_required: true\n  code_challenge_methods:\n  - S256\n  grant_types:\n  - authorization_code\n  - refresh_token\n  token_endpoint_auth_methods:\n  - none\n  dynamic_client_registration: false\n  client_id_metadata_document_supported: true\n  protected_resource: https://mcp.channel99.com\n  sources:\n  - well-known/channel99-mcp-oauth-authorization-server.json\n  - well-known/channel99-mcp-oauth-protected-resource.json\n  - https://support.channel99.com/hc/en-us/articles/47105598392475-MCP-Server-General-FAQ\n\n- name: stytchOIDC\n  type: openIdConnect\n\
   \  api: Channel99 web application\n  openIdConnectUrl: https://api.stytch.app.channel99.com/.well-known/openid-configuration\n  issuer: https://api.stytch.app.channel99.com\n  jwks_uri: https://api.stytch.app.channel99.com/.well-known/jwks.json\n  userinfo_endpoint: https://api.stytch.app.channel99.com/v1/oauth2/userinfo\n  id_token_signing_alg_values_supported:\n  - RS256\n  scopes_supported:\n  - openid\n  - profile\n  - email\n  - phone\n  - offline_access\n  - full_access\n  subject_types_supported:\n  - public\n  sso: >-\n    The app publishes /sign-in/sso and per-organization sign-in routes\n    (/sign-in/inst/:orgSlug), so enterprise SSO is supported through Stytch B2B organizations.\n  sources:\n  - well-known/channel99-stytch-openid-configuration.json\n\nsecrets_handling:\n  guidance_published: true\n  guidance: >-\n    \"Store the client secret securely. Do not include client secrets or access tokens in emails,\n    support tickets, browser screenshots, logs, source control,\
   \ or client-side code.\" Support\n    tickets must exclude tokens and secrets.\n  source: https://support.channel99.com/hc/en-us/articles/49766041989787-Channel99-Reporting-API-Developer-Guide\n\nseparately_permissioned:\n- surface: Channel99 IP API (GET /ip/{ipAddress})\n  note: >-\n    \"Access to separately permissioned services, including the Channel99 IP API, is not enabled\n    unless explicitly granted.\" A valid token for the Reporting API does not imply access.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/authentication/channel99-authentication.yml
+source_yaml_url: https://artifacts.apis.io/channel99/authentication/channel99-authentication.yml
 summary_line: apiKey/http/oauth2/openIdConnect · 4 schemes
 tags:
 - Company

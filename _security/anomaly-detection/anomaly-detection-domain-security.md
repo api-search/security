@@ -5,19 +5,19 @@ api_specs:
   label: Anomaly Detection ChangePoint API
   slug: anomaly-detection-changepoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anomaly-detection/refs/heads/main/openapi/anomaly-detection-changepoint-api-openapi.yml
+  url: https://artifacts.apis.io/anomaly-detection/openapi/anomaly-detection-changepoint-api-openapi.yml
 - filename: anomaly-detection-multivariate-api-openapi.yml
   format: yaml
   label: Anomaly Detection Multivariate API
   slug: anomaly-detection-multivariate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anomaly-detection/refs/heads/main/openapi/anomaly-detection-multivariate-api-openapi.yml
+  url: https://artifacts.apis.io/anomaly-detection/openapi/anomaly-detection-multivariate-api-openapi.yml
 - filename: anomaly-detection-univariate-api-openapi.yml
   format: yaml
   label: Anomaly Detection Univariate API
   slug: anomaly-detection-univariate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anomaly-detection/refs/heads/main/openapi/anomaly-detection-univariate-api-openapi.yml
+  url: https://artifacts.apis.io/anomaly-detection/openapi/anomaly-detection-univariate-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -64,7 +64,7 @@ source_filename: anomaly-detection-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: learn.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 02:26:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.cognitive.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 23:59:59 2026 GMT\n  hsts: false\n- host: www.elastic.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 12 21:06:03 2026 GMT\n  hsts: false\ndomains:\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: elastic.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anomaly-detection/refs/heads/main/security/anomaly-detection-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/anomaly-detection/security/anomaly-detection-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Anomaly Detection

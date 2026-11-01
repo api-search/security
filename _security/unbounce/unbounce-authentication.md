@@ -7,43 +7,43 @@ api_specs:
   label: Unbounce Accounts API
   slug: unbounce-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/openapi/unbounce-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/unbounce/openapi/unbounce-accounts-api-openapi.yml
 - filename: unbounce-domains-api-openapi.yml
   format: yaml
   label: Unbounce Domains API
   slug: unbounce-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/openapi/unbounce-domains-api-openapi.yml
+  url: https://artifacts.apis.io/unbounce/openapi/unbounce-domains-api-openapi.yml
 - filename: unbounce-leads-api-openapi.yml
   format: yaml
   label: Unbounce Leads API
   slug: unbounce-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/openapi/unbounce-leads-api-openapi.yml
+  url: https://artifacts.apis.io/unbounce/openapi/unbounce-leads-api-openapi.yml
 - filename: unbounce-meta-api-openapi.yml
   format: yaml
   label: Unbounce Meta API
   slug: unbounce-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/openapi/unbounce-meta-api-openapi.yml
+  url: https://artifacts.apis.io/unbounce/openapi/unbounce-meta-api-openapi.yml
 - filename: unbounce-pagegroups-api-openapi.yml
   format: yaml
   label: Unbounce PageGroups API
   slug: unbounce-pagegroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/openapi/unbounce-pagegroups-api-openapi.yml
+  url: https://artifacts.apis.io/unbounce/openapi/unbounce-pagegroups-api-openapi.yml
 - filename: unbounce-pages-api-openapi.yml
   format: yaml
   label: Unbounce Pages API
   slug: unbounce-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/openapi/unbounce-pages-api-openapi.yml
+  url: https://artifacts.apis.io/unbounce/openapi/unbounce-pages-api-openapi.yml
 - filename: unbounce-users-api-openapi.yml
   format: yaml
   label: Unbounce Users API
   slug: unbounce-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/openapi/unbounce-users-api-openapi.yml
+  url: https://artifacts.apis.io/unbounce/openapi/unbounce-users-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -144,7 +144,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://develop
   \ expires_in: 600\n  refresh: 'grant_type=refresh_token; a new refresh token is issued on each exchange'\n  location: 'Authorization: Bearer <token>'\n  provisioning: >-\n    Not self-serve. \"We''re still working on providing self-service for OAuth\n    applications\" — client credentials are granted case-by-case via a registration form.\n  permissions: OAuth tokens grant exactly the permissions the authenticating user already has.\n  errors:\n  - {status: 401, meaning: access token missing}\n  - {status: 403, meaning: bad or expired access token}\n  sources: [raml/unbounce-api-v0.4.raml, https://developer.unbounce.com/getting_started/#Authorization]\n  note: >-\n    The RAML securityScheme settings name developer.unbounce.com for both OAuth URIs,\n    while the prose docs and every worked example name api.unbounce.com. api.unbounce.com\n    is the one to use; the RAML's baseUri is likewise developer.unbounce.com where the\n    live API is api.unbounce.com — a known inconsistency in Unbounce's\
   \ published spec.\n- name: mcp-oauth2\n  surface: MCP server (https://mcp.unbounce.com/mcp)\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://mcp.unbounce.com/authorize\n    tokenUrl: https://mcp.unbounce.com/token\n    pkce: S256\n    scopes: 1\n    scope_names: [unbounce]\n  issuer: https://mcp.unbounce.com\n  registration_endpoint: https://mcp.unbounce.com/register\n  dynamic_client_registration: true\n  token_endpoint_auth_methods_supported: [none]\n  client_id_metadata_document_supported: true\n  discovery:\n  - {path: /.well-known/oauth-authorization-server, spec: RFC 8414, status: 200}\n  - {path: /.well-known/oauth-protected-resource, spec: RFC 9728, status: 200}\n  challenge: 'WWW-Authenticate: Bearer resource_metadata=\"https://mcp.unbounce.com/.well-known/oauth-protected-resource\", scope=\"unbounce\"'\n  provisioning: >-\n    Fully self-serve and machine-negotiable — the opposite of the REST surface. A client\n    registers dynamically and\
   \ the user consents on Unbounce's own sign-in screen; the\n    assistant never sees the password.\n  sources: [https://mcp.unbounce.com/.well-known/oauth-authorization-server]\nobservation: >-\n  Unbounce's two authentication surfaces are a generation apart. The REST API requires a\n  human support ticket for a key and a case-by-case grant for an OAuth client, with one\n  unscoped all-or-nothing permission level. The MCP server implements the modern\n  authorization stack — RFC 8414 metadata, RFC 9728 protected-resource metadata, PKCE and\n  RFC 7591 dynamic registration — and can be authorized by an agent with no human in the\n  loop beyond consent.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/authentication/unbounce-authentication.yml
+source_yaml_url: https://artifacts.apis.io/unbounce/authentication/unbounce-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Landing Pages

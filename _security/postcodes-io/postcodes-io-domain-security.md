@@ -26,7 +26,7 @@ source_filename: postcodes-io-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: postcodes.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 12:43:43 2026 GMT\n  hsts: false\ndomains:\n- domain: postcodes.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/postcodes-io/refs/heads/main/security/postcodes-io-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/postcodes-io/security/postcodes-io-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Geocoding

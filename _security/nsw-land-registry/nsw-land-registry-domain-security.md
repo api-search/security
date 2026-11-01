@@ -43,7 +43,7 @@ source_filename: nsw-land-registry-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: nswlrs.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  2 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: connect.nswlrs.com.au\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 12 23:59:59 2026 GMT\n  hsts: null\n- host: online.nswlrs.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: nswlrs.com.au\n  dnssec: true\n  caa:\n  - 0 issue \"www.digicert.com\"\n  - 0 issuewild \";\"\n  - 0 iodef \"mailto:CAA.Record.Status@nswlrs.com.au\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nsw-land-registry/refs/heads/main/security/nsw-land-registry-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nsw-land-registry/security/nsw-land-registry-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Real Estate

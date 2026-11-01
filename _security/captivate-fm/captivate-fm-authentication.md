@@ -7,37 +7,37 @@ api_specs:
   label: Captivate Analytics API
   slug: captivate-fm-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivate-fm/refs/heads/main/openapi/captivate-fm-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/captivate-fm/openapi/captivate-fm-analytics-api-openapi.yml
 - filename: captivate-fm-authentication-api-openapi.yml
   format: yaml
   label: Captivate Authentication API
   slug: captivate-fm-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivate-fm/refs/heads/main/openapi/captivate-fm-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/captivate-fm/openapi/captivate-fm-authentication-api-openapi.yml
 - filename: captivate-fm-episodes-api-openapi.yml
   format: yaml
   label: Captivate Episodes API
   slug: captivate-fm-episodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivate-fm/refs/heads/main/openapi/captivate-fm-episodes-api-openapi.yml
+  url: https://artifacts.apis.io/captivate-fm/openapi/captivate-fm-episodes-api-openapi.yml
 - filename: captivate-fm-media-api-openapi.yml
   format: yaml
   label: Captivate Media API
   slug: captivate-fm-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivate-fm/refs/heads/main/openapi/captivate-fm-media-api-openapi.yml
+  url: https://artifacts.apis.io/captivate-fm/openapi/captivate-fm-media-api-openapi.yml
 - filename: captivate-fm-shows-api-openapi.yml
   format: yaml
   label: Captivate Shows API
   slug: captivate-fm-shows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivate-fm/refs/heads/main/openapi/captivate-fm-shows-api-openapi.yml
+  url: https://artifacts.apis.io/captivate-fm/openapi/captivate-fm-shows-api-openapi.yml
 - filename: captivate-fm-users-api-openapi.yml
   format: yaml
   label: Captivate Users API
   slug: captivate-fm-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivate-fm/refs/heads/main/openapi/captivate-fm-users-api-openapi.yml
+  url: https://artifacts.apis.io/captivate-fm/openapi/captivate-fm-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +64,7 @@ source_filename: captivate-fm-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/captivate-fm-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Bearer token obtained from POST /authenticate/token. Sent as Authorization:\n    Bearer {token}.'\n  sources:\n  - openapi/captivate-fm-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/captivate-fm/refs/heads/main/authentication/captivate-fm-authentication.yml
+source_yaml_url: https://artifacts.apis.io/captivate-fm/authentication/captivate-fm-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Podcasts

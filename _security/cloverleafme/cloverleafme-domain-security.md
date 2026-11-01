@@ -28,7 +28,7 @@ source_filename: cloverleafme-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cloverleaf.me\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 27 18:38:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: cloverleaf.me\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloverleafme/refs/heads/main/security/cloverleafme-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cloverleafme/security/cloverleafme-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Team Performance

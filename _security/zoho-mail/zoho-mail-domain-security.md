@@ -5,25 +5,25 @@ api_specs:
   label: Zoho Mail Accounts API
   slug: zoho-mail-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-mail/refs/heads/main/openapi/zoho-mail-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-mail/openapi/zoho-mail-accounts-api-openapi.yml
 - filename: zoho-mail-folders-api-openapi.yml
   format: yaml
   label: Zoho Mail Folders API
   slug: zoho-mail-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-mail/refs/heads/main/openapi/zoho-mail-folders-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-mail/openapi/zoho-mail-folders-api-openapi.yml
 - filename: zoho-mail-messages-api-openapi.yml
   format: yaml
   label: Zoho Mail Messages API
   slug: zoho-mail-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-mail/refs/heads/main/openapi/zoho-mail-messages-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-mail/openapi/zoho-mail-messages-api-openapi.yml
 - filename: zoho-mail-organization-api-openapi.yml
   format: yaml
   label: Zoho Mail Organization API
   slug: zoho-mail-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-mail/refs/heads/main/openapi/zoho-mail-organization-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-mail/openapi/zoho-mail-organization-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -72,7 +72,7 @@ source_filename: zoho-mail-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.zoho.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 64072000\n- host: mail.zoho.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 23:59:59 2026 GMT\n  hsts: null\n- host: mail.zoho.eu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: zoho.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: zoho.eu\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-mail/refs/heads/main/security/zoho-mail-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zoho-mail/security/zoho-mail-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Email

@@ -5,31 +5,31 @@ api_specs:
   label: ParseForMe Webhooks API
   slug: parseforme-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseforme/refs/heads/main/openapi/parseforme-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/parseforme/openapi/parseforme-webhooks-api-openapi.yml
 - filename: parseforme-document-types-api-openapi.yml
   format: yaml
   label: ParseForMe Document Types API
   slug: parseforme-document-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseforme/refs/heads/main/openapi/parseforme-document-types-api-openapi.yml
+  url: https://artifacts.apis.io/parseforme/openapi/parseforme-document-types-api-openapi.yml
 - filename: parseforme-documents-api-openapi.yml
   format: yaml
   label: ParseForMe Documents API
   slug: parseforme-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseforme/refs/heads/main/openapi/parseforme-documents-api-openapi.yml
+  url: https://artifacts.apis.io/parseforme/openapi/parseforme-documents-api-openapi.yml
 - filename: parseforme-me-api-openapi.yml
   format: yaml
   label: ParseForMe Me API
   slug: parseforme-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseforme/refs/heads/main/openapi/parseforme-me-api-openapi.yml
+  url: https://artifacts.apis.io/parseforme/openapi/parseforme-me-api-openapi.yml
 - filename: parseforme-meta-api-openapi.yml
   format: yaml
   label: ParseForMe Meta API
   slug: parseforme-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseforme/refs/heads/main/openapi/parseforme-meta-api-openapi.yml
+  url: https://artifacts.apis.io/parseforme/openapi/parseforme-meta-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: parseforme-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: parseforme.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 09:29:29 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.parseforme.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 09:29:29 2026 GMT\n  hsts: null\ndomains:\n- domain: parseforme.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parseforme/refs/heads/main/security/parseforme-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/parseforme/security/parseforme-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Document Parsing

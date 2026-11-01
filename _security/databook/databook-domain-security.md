@@ -5,25 +5,31 @@ api_specs:
   label: Databook batch - create API
   slug: databook-batch-create-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/databook/refs/heads/main/openapi/databook-batch-create-api-openapi.yml
+  url: https://artifacts.apis.io/databook/openapi/databook-batch-create-api-openapi.yml
 - filename: databook-batch-query-api-openapi.yml
   format: yaml
   label: Databook batch - query API
   slug: databook-batch-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/databook/refs/heads/main/openapi/databook-batch-query-api-openapi.yml
+  url: https://artifacts.apis.io/databook/openapi/databook-batch-query-api-openapi.yml
 - filename: databook-chat-api-openapi.yml
   format: yaml
   label: Databook Chat API
   slug: databook-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/databook/refs/heads/main/openapi/databook-chat-api-openapi.yml
+  url: https://artifacts.apis.io/databook/openapi/databook-chat-api-openapi.yml
 - filename: databook-reasoning-api-openapi.yml
   format: yaml
   label: Databook Reasoning API
   slug: databook-reasoning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/databook/refs/heads/main/openapi/databook-reasoning-api-openapi.yml
+  url: https://artifacts.apis.io/databook/openapi/databook-reasoning-api-openapi.yml
+- filename: databook-asset-studio-api-openapi.yml
+  format: yaml
+  label: Databook Asset Studio API
+  slug: databook-asset-studio-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/databook/openapi/databook-asset-studio-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +64,7 @@ source_filename: databook-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: databook.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 21:39:46 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.databook.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 27 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: databook.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/databook/refs/heads/main/security/databook-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/databook/security/databook-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

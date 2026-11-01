@@ -16,7 +16,7 @@ source_filename: almanac-labs-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nprobe: true\nsource: https://get.almanac.io/\nurl: https://get.almanac.io/\ncertifications:\n- SOC 2\n- HIPAA\nevidence:\n- source: https://get.almanac.io/\n  keywords:\n  - soc2\n  - hipaa\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/almanac-labs/refs/heads/main/security/almanac-labs-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/almanac-labs/security/almanac-labs-trust-center.yml
 summary_line: SOC 2, HIPAA
 tags:
 - Company

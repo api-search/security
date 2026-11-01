@@ -5,19 +5,19 @@ api_specs:
   label: Zeroheight Pages API
   slug: zeroheight-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeroheight/refs/heads/main/openapi/zeroheight-pages-api-openapi.yml
+  url: https://artifacts.apis.io/zeroheight/openapi/zeroheight-pages-api-openapi.yml
 - filename: zeroheight-styleguides-api-openapi.yml
   format: yaml
   label: Zeroheight Styleguides API
   slug: zeroheight-styleguides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeroheight/refs/heads/main/openapi/zeroheight-styleguides-api-openapi.yml
+  url: https://artifacts.apis.io/zeroheight/openapi/zeroheight-styleguides-api-openapi.yml
 - filename: zeroheight-tokens-api-openapi.yml
   format: yaml
   label: Zeroheight Tokens API
   slug: zeroheight-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeroheight/refs/heads/main/openapi/zeroheight-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/zeroheight/openapi/zeroheight-tokens-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -35,7 +35,7 @@ source_filename: zeroheight-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-28'\nmethod: searched\nprobe: true\nsource: https://trust.zeroheight.com/\nurl: https://trust.zeroheight.com/\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://trust.zeroheight.com/\n  keywords:\n  - soc 2\n  - iso 27001\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zeroheight/refs/heads/main/security/zeroheight-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/zeroheight/security/zeroheight-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Design Systems

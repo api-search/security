@@ -5,37 +5,37 @@ api_specs:
   label: Unbabel Account API
   slug: unbabel-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbabel/refs/heads/main/openapi/unbabel-account-api-openapi.yml
+  url: https://artifacts.apis.io/unbabel/openapi/unbabel-account-api-openapi.yml
 - filename: unbabel-language-pairs-api-openapi.yml
   format: yaml
   label: Unbabel Language Pairs API
   slug: unbabel-language-pairs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbabel/refs/heads/main/openapi/unbabel-language-pairs-api-openapi.yml
+  url: https://artifacts.apis.io/unbabel/openapi/unbabel-language-pairs-api-openapi.yml
 - filename: unbabel-machine-translation-api-openapi.yml
   format: yaml
   label: Unbabel Machine Translation API
   slug: unbabel-machine-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbabel/refs/heads/main/openapi/unbabel-machine-translation-api-openapi.yml
+  url: https://artifacts.apis.io/unbabel/openapi/unbabel-machine-translation-api-openapi.yml
 - filename: unbabel-tone-and-topic-api-openapi.yml
   format: yaml
   label: Unbabel Tone and Topic API
   slug: unbabel-tone-and-topic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbabel/refs/heads/main/openapi/unbabel-tone-and-topic-api-openapi.yml
+  url: https://artifacts.apis.io/unbabel/openapi/unbabel-tone-and-topic-api-openapi.yml
 - filename: unbabel-translation-api-openapi.yml
   format: yaml
   label: Unbabel Translation API
   slug: unbabel-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbabel/refs/heads/main/openapi/unbabel-translation-api-openapi.yml
+  url: https://artifacts.apis.io/unbabel/openapi/unbabel-translation-api-openapi.yml
 - filename: unbabel-word-count-api-openapi.yml
   format: yaml
   label: Unbabel Word Count API
   slug: unbabel-word-count-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbabel/refs/heads/main/openapi/unbabel-word-count-api-openapi.yml
+  url: https://artifacts.apis.io/unbabel/openapi/unbabel-word-count-api-openapi.yml
 certification_count: 2
 certifications:
 - ISO 27001
@@ -53,7 +53,7 @@ source_filename: unbabel-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://unbabeltmp.tpweb-stage.com/security/\nurl: https://unbabeltmp.tpweb-stage.com/security/\ncertifications:\n- ISO 27001\n- GDPR\nevidence:\n- source: https://unbabeltmp.tpweb-stage.com/security/\n  keywords:\n  - iso 27001\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unbabel/refs/heads/main/security/unbabel-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/unbabel/security/unbabel-trust-center.yml
 summary_line: ISO 27001, GDPR
 tags:
 - Translation

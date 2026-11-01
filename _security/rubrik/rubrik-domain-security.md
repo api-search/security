@@ -5,25 +5,25 @@ api_specs:
   label: Rubrik Client Token API
   slug: rubrik-client-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubrik/refs/heads/main/openapi/rubrik-client-token-api-openapi.yml
+  url: https://artifacts.apis.io/rubrik/openapi/rubrik-client-token-api-openapi.yml
 - filename: rubrik-session-api-openapi.yml
   format: yaml
   label: Rubrik Session API
   slug: rubrik-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubrik/refs/heads/main/openapi/rubrik-session-api-openapi.yml
+  url: https://artifacts.apis.io/rubrik/openapi/rubrik-session-api-openapi.yml
 - filename: rubrik-oauth-api-openapi.yml
   format: yaml
   label: Rubrik OAUTH API
   slug: rubrik-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubrik/refs/heads/main/openapi/rubrik-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/rubrik/openapi/rubrik-oauth-api-openapi.yml
 - filename: rubrik-graph-ql-api-openapi.yml
   format: yaml
   label: Rubrik Graph QL API
   slug: rubrik-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubrik/refs/heads/main/openapi/rubrik-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/rubrik/openapi/rubrik-graph-ql-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: rubrik-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.rubrik.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 23:59:59 2027 GMT\n  hsts: null\n- host: developer.rubrik.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 08:13:48 2026 GMT\n  hsts: false\n- host: registry.terraform.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 19 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: rubrik.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: terraform.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rubrik/refs/heads/main/security/rubrik-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rubrik/security/rubrik-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Backup

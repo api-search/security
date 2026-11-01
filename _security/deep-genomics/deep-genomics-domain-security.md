@@ -27,7 +27,7 @@ source_filename: deep-genomics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.deepgenomics.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 15 10:07:00 2026 GMT\n  hsts: false\ndomains:\n- domain: deepgenomics.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deep-genomics/refs/heads/main/security/deep-genomics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/deep-genomics/security/deep-genomics-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

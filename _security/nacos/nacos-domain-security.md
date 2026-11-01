@@ -5,37 +5,37 @@ api_specs:
   label: Nacos Auth API
   slug: nacos-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacos/refs/heads/main/openapi/nacos-auth-api-openapi.yml
+  url: https://artifacts.apis.io/nacos/openapi/nacos-auth-api-openapi.yml
 - filename: nacos-configuration-api-openapi.yml
   format: yaml
   label: Nacos Configuration API
   slug: nacos-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacos/refs/heads/main/openapi/nacos-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/nacos/openapi/nacos-configuration-api-openapi.yml
 - filename: nacos-namespace-api-openapi.yml
   format: yaml
   label: Nacos Namespace API
   slug: nacos-namespace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacos/refs/heads/main/openapi/nacos-namespace-api-openapi.yml
+  url: https://artifacts.apis.io/nacos/openapi/nacos-namespace-api-openapi.yml
 - filename: nacos-operator-api-openapi.yml
   format: yaml
   label: Nacos Operator API
   slug: nacos-operator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacos/refs/heads/main/openapi/nacos-operator-api-openapi.yml
+  url: https://artifacts.apis.io/nacos/openapi/nacos-operator-api-openapi.yml
 - filename: nacos-service-discovery-api-openapi.yml
   format: yaml
   label: Nacos Service Discovery API
   slug: nacos-service-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacos/refs/heads/main/openapi/nacos-service-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/nacos/openapi/nacos-service-discovery-api-openapi.yml
 - filename: nacos-service-management-api-openapi.yml
   format: yaml
   label: Nacos Service Management API
   slug: nacos-service-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacos/refs/heads/main/openapi/nacos-service-management-api-openapi.yml
+  url: https://artifacts.apis.io/nacos/openapi/nacos-service-management-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: nacos-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: nacos.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 17 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: nacos.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nacos/refs/heads/main/security/nacos-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nacos/security/nacos-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Alibaba

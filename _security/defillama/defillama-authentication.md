@@ -8,37 +8,37 @@ api_specs:
   label: DefiLlama Coins API
   slug: defillama-coins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/openapi/defillama-coins-api-openapi.yml
+  url: https://artifacts.apis.io/defillama/openapi/defillama-coins-api-openapi.yml
 - filename: defillama-fees-api-openapi.yml
   format: yaml
   label: DefiLlama Fees API
   slug: defillama-fees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/openapi/defillama-fees-api-openapi.yml
+  url: https://artifacts.apis.io/defillama/openapi/defillama-fees-api-openapi.yml
 - filename: defillama-stablecoins-api-openapi.yml
   format: yaml
   label: DefiLlama Stablecoins API
   slug: defillama-stablecoins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/openapi/defillama-stablecoins-api-openapi.yml
+  url: https://artifacts.apis.io/defillama/openapi/defillama-stablecoins-api-openapi.yml
 - filename: defillama-tvl-api-openapi.yml
   format: yaml
   label: DefiLlama TVL API
   slug: defillama-tvl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/openapi/defillama-tvl-api-openapi.yml
+  url: https://artifacts.apis.io/defillama/openapi/defillama-tvl-api-openapi.yml
 - filename: defillama-volumes-api-openapi.yml
   format: yaml
   label: DefiLlama Volumes API
   slug: defillama-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/openapi/defillama-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/defillama/openapi/defillama-volumes-api-openapi.yml
 - filename: defillama-yields-api-openapi.yml
   format: yaml
   label: DefiLlama Yields API
   slug: defillama-yields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/openapi/defillama-yields-api-openapi.yml
+  url: https://artifacts.apis.io/defillama/openapi/defillama-yields-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: defillama-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/defillama-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiKeyPath\n  type: apiKey\n  in: query\n  parameter: apiKey\n  description: Pro API key is supplied as a path segment in the base URL (pro-api.llama.fi/{apiKey});\n    this scheme is a placeholder.\n  sources:\n  - openapi/defillama-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/authentication/defillama-authentication.yml
+source_yaml_url: https://artifacts.apis.io/defillama/authentication/defillama-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Web3

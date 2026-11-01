@@ -5,37 +5,37 @@ api_specs:
   label: Shazam Albums API
   slug: shazam-albums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shazam/refs/heads/main/openapi/shazam-albums-api-openapi.yml
+  url: https://artifacts.apis.io/shazam/openapi/shazam-albums-api-openapi.yml
 - filename: shazam-artists-api-openapi.yml
   format: yaml
   label: Shazam Artists API
   slug: shazam-artists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shazam/refs/heads/main/openapi/shazam-artists-api-openapi.yml
+  url: https://artifacts.apis.io/shazam/openapi/shazam-artists-api-openapi.yml
 - filename: shazam-charts-api-openapi.yml
   format: yaml
   label: Shazam Charts API
   slug: shazam-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shazam/refs/heads/main/openapi/shazam-charts-api-openapi.yml
+  url: https://artifacts.apis.io/shazam/openapi/shazam-charts-api-openapi.yml
 - filename: shazam-recognition-api-openapi.yml
   format: yaml
   label: Shazam Recognition API
   slug: shazam-recognition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shazam/refs/heads/main/openapi/shazam-recognition-api-openapi.yml
+  url: https://artifacts.apis.io/shazam/openapi/shazam-recognition-api-openapi.yml
 - filename: shazam-search-api-openapi.yml
   format: yaml
   label: Shazam Search API
   slug: shazam-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shazam/refs/heads/main/openapi/shazam-search-api-openapi.yml
+  url: https://artifacts.apis.io/shazam/openapi/shazam-search-api-openapi.yml
 - filename: shazam-tracks-api-openapi.yml
   format: yaml
   label: Shazam Tracks API
   slug: shazam-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shazam/refs/heads/main/openapi/shazam-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/shazam/openapi/shazam-tracks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -89,7 +89,7 @@ source_filename: shazam-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.shazam.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 00:00:00 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: developer.apple.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 17:10:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: rapidapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 08:42:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: shazam.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"pki.apple.com\"\n  - 0 iodef \"mailto:contact_pki@apple.com\"\n  - 0 issue \"pki.apple.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: apple.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"pki.apple.com\"\n  - 0 iodef \"mailto:contact_pki@apple.com\"\n  - 0 issue \"pki.apple.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shazam/refs/heads/main/security/shazam-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/shazam/security/shazam-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Music

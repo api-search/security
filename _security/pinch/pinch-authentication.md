@@ -2,96 +2,102 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
+- filename: pinch-openapi-generated.yml
+  format: yaml
+  label: Pinch API
+  slug: pinch-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/pinch/openapi/_ae-authored/pinch-openapi-generated.yml
 - filename: pinch-calculate-fees-api-openapi.yml
   format: yaml
   label: Pinch Calculate Fees API
   slug: pinch-calculate-fees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/openapi/pinch-calculate-fees-api-openapi.yml
+  url: https://artifacts.apis.io/pinch/openapi/pinch-calculate-fees-api-openapi.yml
 - filename: pinch-connect-api-openapi.yml
   format: yaml
   label: Pinch Connect API
   slug: pinch-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/openapi/pinch-connect-api-openapi.yml
+  url: https://artifacts.apis.io/pinch/openapi/pinch-connect-api-openapi.yml
 - filename: pinch-fees-api-openapi.yml
   format: yaml
   label: Pinch Fees API
   slug: pinch-fees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/openapi/pinch-fees-api-openapi.yml
+  url: https://artifacts.apis.io/pinch/openapi/pinch-fees-api-openapi.yml
 - filename: pinch-merchants-api-openapi.yml
   format: yaml
   label: Pinch Merchants API
   slug: pinch-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/openapi/pinch-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/pinch/openapi/pinch-merchants-api-openapi.yml
 - filename: pinch-payers-api-openapi.yml
   format: yaml
   label: Pinch Payers API
   slug: pinch-payers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/openapi/pinch-payers-api-openapi.yml
+  url: https://artifacts.apis.io/pinch/openapi/pinch-payers-api-openapi.yml
 - filename: pinch-payment-links-api-openapi.yml
   format: yaml
   label: Pinch Payment Links API
   slug: pinch-payment-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/openapi/pinch-payment-links-api-openapi.yml
+  url: https://artifacts.apis.io/pinch/openapi/pinch-payment-links-api-openapi.yml
 - filename: pinch-payments-api-openapi.yml
   format: yaml
   label: Pinch Payments API
   slug: pinch-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/openapi/pinch-payments-api-openapi.yml
+  url: https://artifacts.apis.io/pinch/openapi/pinch-payments-api-openapi.yml
 - filename: pinch-plans-api-openapi.yml
   format: yaml
   label: Pinch Plans API
   slug: pinch-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/openapi/pinch-plans-api-openapi.yml
+  url: https://artifacts.apis.io/pinch/openapi/pinch-plans-api-openapi.yml
 - filename: pinch-refund-api-openapi.yml
   format: yaml
   label: Pinch Refund API
   slug: pinch-refund-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/openapi/pinch-refund-api-openapi.yml
+  url: https://artifacts.apis.io/pinch/openapi/pinch-refund-api-openapi.yml
 - filename: pinch-refunds-api-openapi.yml
   format: yaml
   label: Pinch Refunds API
   slug: pinch-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/openapi/pinch-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/pinch/openapi/pinch-refunds-api-openapi.yml
 - filename: pinch-sources-api-openapi.yml
   format: yaml
   label: Pinch Sources API
   slug: pinch-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/openapi/pinch-sources-api-openapi.yml
+  url: https://artifacts.apis.io/pinch/openapi/pinch-sources-api-openapi.yml
 - filename: pinch-subscriptions-api-openapi.yml
   format: yaml
   label: Pinch Subscriptions API
   slug: pinch-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/openapi/pinch-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/pinch/openapi/pinch-subscriptions-api-openapi.yml
 - filename: pinch-test-api-openapi.yml
   format: yaml
   label: Pinch Test API
   slug: pinch-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/openapi/pinch-test-api-openapi.yml
+  url: https://artifacts.apis.io/pinch/openapi/pinch-test-api-openapi.yml
 - filename: pinch-transfers-api-openapi.yml
   format: yaml
   label: Pinch Transfers API
   slug: pinch-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/openapi/pinch-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/pinch/openapi/pinch-transfers-api-openapi.yml
 - filename: pinch-webhooks-api-openapi.yml
   format: yaml
   label: Pinch Webhooks API
   slug: pinch-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/openapi/pinch-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/pinch/openapi/pinch-webhooks-api-openapi.yml
 auth_types: []
 description: Pinch API authentication
 kind: authentication
@@ -127,11 +133,11 @@ source_heading: Authentication Profile
 source_url: https://docs.getpinch.com.au/docs/application-authentication.md
 source_yaml: "generated: '2026-10-12'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://docs.getpinch.com.au/docs/application-authentication.md\nsources:\n- https://docs.getpinch.com.au/docs/application-authentication.md\n- https://docs.getpinch.com.au/reference/tokens.md\n- https://docs.getpinch.com.au/reference/tokens\n- https://docs.getpinch.com.au/docs/application-authentication\ndescription: Pinch API authentication\nschemes:\n- type: oauth2\n  name: OAuth 2.0 client credentials\n  evidence: The Pinch API uses **OAuth 2.0 client credentials** for authentication. Every API request requires a Bearer token, which you obtain\n    by exchanging your **Application ID** and **Secret Key**.\n  flows:\n  - client_credentials\n  token_url: https://auth.getpinch.com.au/connect/token\n  scopes:\n  - api1\n  how_to_obtain: Make a POST request to the token endpoint with your Application ID and Secret Key using HTTP Basic Auth or by including `client_id`\n    and `client_secret`\
   \ in the form‑encoded body.\n- type: http-bearer\n  name: Bearer token\n  evidence: 'Include the token in the `Authorization` header of every API request:'\n  location: header\n  header: Authorization\n  how_to_obtain: Obtain the token via the OAuth 2.0 client credentials flow described above.\ndocs: https://docs.getpinch.com.au/docs/application-authentication.md\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/authentication/pinch-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pinch/authentication/pinch-authentication.yml
 summary_line: 2 schemes
 tags:
 - Company
 - Payments
-- MedicalSpa
+- Medical Spa
 - Health Tech
 ---

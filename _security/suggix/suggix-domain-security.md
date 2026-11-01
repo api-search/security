@@ -5,37 +5,37 @@ api_specs:
   label: Suggix Indicators API
   slug: suggix-indicators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suggix/refs/heads/main/openapi/suggix-indicators-api-openapi.yml
+  url: https://artifacts.apis.io/suggix/openapi/suggix-indicators-api-openapi.yml
 - filename: suggix-industries-api-openapi.yml
   format: yaml
   label: Suggix Industries API
   slug: suggix-industries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suggix/refs/heads/main/openapi/suggix-industries-api-openapi.yml
+  url: https://artifacts.apis.io/suggix/openapi/suggix-industries-api-openapi.yml
 - filename: suggix-regions-api-openapi.yml
   format: yaml
   label: Suggix Regions API
   slug: suggix-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suggix/refs/heads/main/openapi/suggix-regions-api-openapi.yml
+  url: https://artifacts.apis.io/suggix/openapi/suggix-regions-api-openapi.yml
 - filename: suggix-search-api-openapi.yml
   format: yaml
   label: Suggix Search API
   slug: suggix-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suggix/refs/heads/main/openapi/suggix-search-api-openapi.yml
+  url: https://artifacts.apis.io/suggix/openapi/suggix-search-api-openapi.yml
 - filename: suggix-sources-api-openapi.yml
   format: yaml
   label: Suggix Sources API
   slug: suggix-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suggix/refs/heads/main/openapi/suggix-sources-api-openapi.yml
+  url: https://artifacts.apis.io/suggix/openapi/suggix-sources-api-openapi.yml
 - filename: suggix-statistics-api-openapi.yml
   format: yaml
   label: Suggix Statistics API
   slug: suggix-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suggix/refs/heads/main/openapi/suggix-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/suggix/openapi/suggix-statistics-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: suggix-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.suggix.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 28 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: suggix.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/suggix/refs/heads/main/security/suggix-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/suggix/security/suggix-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Software-as-a-Service

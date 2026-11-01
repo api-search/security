@@ -8,67 +8,67 @@ api_specs:
   label: CloudChipr Accounts API
   slug: cloudchipr-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/cloudchipr/openapi/cloudchipr-accounts-api-openapi.yml
 - filename: cloudchipr-budgets-api-openapi.yml
   format: yaml
   label: CloudChipr Budgets API
   slug: cloudchipr-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-budgets-api-openapi.yml
+  url: https://artifacts.apis.io/cloudchipr/openapi/cloudchipr-budgets-api-openapi.yml
 - filename: cloudchipr-categories-api-openapi.yml
   format: yaml
   label: CloudChipr Categories API
   slug: cloudchipr-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-categories-api-openapi.yml
+  url: https://artifacts.apis.io/cloudchipr/openapi/cloudchipr-categories-api-openapi.yml
 - filename: cloudchipr-custom-data-api-openapi.yml
   format: yaml
   label: CloudChipr Custom Data API
   slug: cloudchipr-custom-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-custom-data-api-openapi.yml
+  url: https://artifacts.apis.io/cloudchipr/openapi/cloudchipr-custom-data-api-openapi.yml
 - filename: cloudchipr-dashboards-api-openapi.yml
   format: yaml
   label: CloudChipr Dashboards API
   slug: cloudchipr-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/cloudchipr/openapi/cloudchipr-dashboards-api-openapi.yml
 - filename: cloudchipr-filters-api-openapi.yml
   format: yaml
   label: CloudChipr Filters API
   slug: cloudchipr-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-filters-api-openapi.yml
+  url: https://artifacts.apis.io/cloudchipr/openapi/cloudchipr-filters-api-openapi.yml
 - filename: cloudchipr-regions-api-openapi.yml
   format: yaml
   label: CloudChipr Regions API
   slug: cloudchipr-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-regions-api-openapi.yml
+  url: https://artifacts.apis.io/cloudchipr/openapi/cloudchipr-regions-api-openapi.yml
 - filename: cloudchipr-resource-explorer-api-openapi.yml
   format: yaml
   label: CloudChipr Resource Explorer API
   slug: cloudchipr-resource-explorer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-resource-explorer-api-openapi.yml
+  url: https://artifacts.apis.io/cloudchipr/openapi/cloudchipr-resource-explorer-api-openapi.yml
 - filename: cloudchipr-resources-api-openapi.yml
   format: yaml
   label: CloudChipr Resources API
   slug: cloudchipr-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-resources-api-openapi.yml
+  url: https://artifacts.apis.io/cloudchipr/openapi/cloudchipr-resources-api-openapi.yml
 - filename: cloudchipr-savings-opportunities-api-openapi.yml
   format: yaml
   label: CloudChipr Savings Opportunities API
   slug: cloudchipr-savings-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-savings-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/cloudchipr/openapi/cloudchipr-savings-opportunities-api-openapi.yml
 - filename: cloudchipr-widgets-api-openapi.yml
   format: yaml
   label: CloudChipr Widgets API
   slug: cloudchipr-widgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-widgets-api-openapi.yml
+  url: https://artifacts.apis.io/cloudchipr/openapi/cloudchipr-widgets-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -140,7 +140,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: >-\n  openapi/c
   \    - provider: Azure AD / Entra ID\n      docs: https://docs.cloudchipr.com/docs/single-sign-on-sso-using-azure\n  entitlement: 'Organization SSO is a Pro-tier-and-above entitlement (https://cloudchipr.com/pricing).'\n\ncloud_account_authentication:\n  model: RBAC / role assumption\n  source: https://docs.cloudchipr.com/docs/security-compliance\n  statement: >-\n    \"Cloudchipr does not use Access Key or Secret Key authentication. Connections with customer\n    accounts are mainly done through Role Based Access Control (RBAC).\"\n  provisioning: >-\n    The first-party Terraform module cloudchipr/connect-c8r/cloudchipr (v1.1.9) provisions the\n    read-only role CloudChipr assumes in a customer account. See packages/cloudchipr-packages.yml.\n  docs:\n    - https://docs.cloudchipr.com/docs/read-only-access-requirements\n    - https://docs.cloudchipr.com/docs/create-custom-roles-and-permissions\n    - https://docs.cloudchipr.com/docs/create-custom-roles-and-permissions-in-sub-accounts\n\
   \nobserved:\n  - url: https://api.cloudchipr.com/\n    status: 401\n    body: empty\n    www_authenticate: none\n    checked: '2026-09-05'\n    note: >-\n      The REST host returns a bare 401 with no body and NO WWW-Authenticate header, so an\n      unauthenticated client gets no machine-readable hint about which scheme to use.\n  - url: https://mcp.cloudchipr.com/mcp\n    status: 401\n    body: '{\"error\":\"unauthorized\",\"message\":\"Bearer token required\"}'\n    www_authenticate: 'Bearer realm=\"cloudchipr\", error=\"invalid_token\", error_description=\"No bearer token provided\"'\n    checked: '2026-09-05'\n    note: >-\n      The MCP host does it properly - a WWW-Authenticate Bearer challenge, which combined with the\n      RFC 9728 protected-resource document is enough for an MCP client to discover the\n      authorization server and self-register without human help.\n\nsee_also:\n  scopes: scopes/cloudchipr-scopes.yml\n  conventions: conventions/cloudchipr-conventions.yml\n\
   \  well_known: well-known/cloudchipr-well-known.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/authentication/cloudchipr-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cloudchipr/authentication/cloudchipr-authentication.yml
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - Microsoft Azure

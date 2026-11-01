@@ -7,37 +7,37 @@ api_specs:
   label: RelativityOne Communications API
   slug: relativityone-communications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/openapi/relativityone-communications-api-openapi.yml
+  url: https://artifacts.apis.io/relativityone/openapi/relativityone-communications-api-openapi.yml
 - filename: relativityone-custodians-api-openapi.yml
   format: yaml
   label: RelativityOne Custodians API
   slug: relativityone-custodians-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/openapi/relativityone-custodians-api-openapi.yml
+  url: https://artifacts.apis.io/relativityone/openapi/relativityone-custodians-api-openapi.yml
 - filename: relativityone-entities-api-openapi.yml
   format: yaml
   label: RelativityOne Entities API
   slug: relativityone-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/openapi/relativityone-entities-api-openapi.yml
+  url: https://artifacts.apis.io/relativityone/openapi/relativityone-entities-api-openapi.yml
 - filename: relativityone-legal-hold-projects-api-openapi.yml
   format: yaml
   label: RelativityOne Legal Hold Projects API
   slug: relativityone-legal-hold-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/openapi/relativityone-legal-hold-projects-api-openapi.yml
+  url: https://artifacts.apis.io/relativityone/openapi/relativityone-legal-hold-projects-api-openapi.yml
 - filename: relativityone-preservation-api-openapi.yml
   format: yaml
   label: RelativityOne Preservation API
   slug: relativityone-preservation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/openapi/relativityone-preservation-api-openapi.yml
+  url: https://artifacts.apis.io/relativityone/openapi/relativityone-preservation-api-openapi.yml
 - filename: relativityone-tasks-api-openapi.yml
   format: yaml
   label: RelativityOne Tasks API
   slug: relativityone-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/openapi/relativityone-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/relativityone/openapi/relativityone-tasks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -65,7 +65,7 @@ source_filename: relativityone-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/relativityone-legal-hold-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Bearer token obtained via Microsoft Graph API OAuth flow.\n  sources:\n  - openapi/relativityone-legal-hold-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/authentication/relativityone-authentication.yml
+source_yaml_url: https://artifacts.apis.io/relativityone/authentication/relativityone-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - eDiscovery

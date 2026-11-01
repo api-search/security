@@ -5,31 +5,31 @@ api_specs:
   label: CloudHealth AWS Accounts API
   slug: cloudhealth-aws-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/openapi/cloudhealth-aws-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/cloudhealth/openapi/cloudhealth-aws-accounts-api-openapi.yml
 - filename: cloudhealth-perspectives-api-openapi.yml
   format: yaml
   label: CloudHealth Perspectives API
   slug: cloudhealth-perspectives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/openapi/cloudhealth-perspectives-api-openapi.yml
+  url: https://artifacts.apis.io/cloudhealth/openapi/cloudhealth-perspectives-api-openapi.yml
 - filename: cloudhealth-reports-api-openapi.yml
   format: yaml
   label: CloudHealth Reports API
   slug: cloudhealth-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/openapi/cloudhealth-reports-api-openapi.yml
+  url: https://artifacts.apis.io/cloudhealth/openapi/cloudhealth-reports-api-openapi.yml
 - filename: cloudhealth-search-api-openapi.yml
   format: yaml
   label: CloudHealth Search API
   slug: cloudhealth-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/openapi/cloudhealth-search-api-openapi.yml
+  url: https://artifacts.apis.io/cloudhealth/openapi/cloudhealth-search-api-openapi.yml
 - filename: cloudhealth-sso-api-openapi.yml
   format: yaml
   label: CloudHealth SSO API
   slug: cloudhealth-sso-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/openapi/cloudhealth-sso-api-openapi.yml
+  url: https://artifacts.apis.io/cloudhealth/openapi/cloudhealth-sso-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -82,7 +82,7 @@ source_filename: cloudhealth-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-16'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.vmware.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  5 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apidocs.cloudhealthtech.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 23:59:59 2026 GMT\n  hsts: false\n- host: chapi.cloudhealthtech.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 18 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: vmware.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"entrust.net\"\n  - 0 issuewild \"globalsign.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: cloudhealthtech.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/security/cloudhealth-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cloudhealth/security/cloudhealth-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud Cost

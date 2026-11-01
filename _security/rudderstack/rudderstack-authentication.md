@@ -7,19 +7,19 @@ api_specs:
   label: RudderStack Webhook Source API
   slug: rudderstack-webhook-source-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rudderstack/refs/heads/main/asyncapi/rudderstack-event-streaming-asyncapi.yml
+  url: https://artifacts.apis.io/rudderstack/asyncapi/rudderstack-event-streaming-asyncapi.yml
 - filename: rudderstack-http-api-api-openapi.yml
   format: yaml
   label: RudderStack HTTP API
   slug: rudderstack-http-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rudderstack/refs/heads/main/openapi/rudderstack-http-api-api-openapi.yml
+  url: https://artifacts.apis.io/rudderstack/openapi/rudderstack-http-api-api-openapi.yml
 - filename: rudderstack-internal-api-api-openapi.yml
   format: yaml
   label: RudderStack Internal API
   slug: rudderstack-internal-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rudderstack/refs/heads/main/openapi/rudderstack-internal-api-api-openapi.yml
+  url: https://artifacts.apis.io/rudderstack/openapi/rudderstack-internal-api-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -117,7 +117,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://w
   \  - name: personalAccessToken\n    plane: control\n    type: http\n    scheme: bearer\n    base: https://api.rudderstack.com\n    header: 'Authorization: Bearer <token>'\n    description: >-\n      Personal Access Token, tied to an individual user and their role. Documented\n      as the token type for Free and self-hosted plans, and accepted by rudder-cli.\n      Breaks when the user is removed or their permissions change — which is the\n      stated reason SATs exist.\n    docs: https://www.rudderstack.com/docs/access-management/personal-access-tokens/\n  - name: testApiBasic\n    plane: control\n    type: http\n    scheme: basic\n    base: https://api.rudderstack.com\n    header: 'Authorization: Basic {Base64Encoded(:<SERVICE_ACCESS_TOKEN>)}'\n    description: >-\n      OUTLIER. The Test API (/v0/testDestination/{destinationId},\n      /v0/testSource/{sourceId}) authenticates with HTTP Basic using an EMPTY\n      username and the workspace Service Access Token as the PASSWORD — not\
   \ the\n      Bearer scheme every other control-plane API uses. A workspace SAT carries\n      Read permissions by default and needs no additional resource permissions;\n      on the legacy RBAC system the token needs at least Viewer.\n    docs: https://www.rudderstack.com/docs/api/test-api/\n    used_by:\n      - Test API\n  - name: mcpOAuth\n    plane: agent\n    type: oauth2\n    base: https://mcp.rudderstack.com\n    description: >-\n      OAuth 2.0 authorization_code + refresh_token with PKCE (S256) protecting the\n      hosted MCP server. Dynamic Client Registration (RFC 7591) is advertised at\n      /register, so an MCP client can self-register; the user then signs in with\n      their existing RudderStack credentials and approves the integration.\n      Discovery follows RFC 8414 and RFC 9728.\n    flows:\n      authorization_code:\n        authorization_url: https://mcp.rudderstack.com/authorize\n        token_url: https://mcp.rudderstack.com/token\n        registration_url: https://mcp.rudderstack.com/register\n\
   \        scopes: {}\n        note: >-\n          The authorization server metadata document declares no `scopes_supported`\n          — see scopes/rudderstack-scopes.yml.\n    token_endpoint_auth_methods: [client_secret_basic, client_secret_post, none]\n    docs: https://mcp.rudderstack.com/docs\n    artifacts:\n      - well-known/rudderstack-mcp-oauth-authorization-server.json\n      - well-known/rudderstack-mcp-oauth-protected-resource.json\nenterprise:\n  sso:\n    supported: true\n    plans: [Enterprise]\n    providers_named: [Okta, OneLogin]\n    docs: https://www.rudderstack.com/security/\n  mfa:\n    supported: true\n    methods: [TOTP authenticator app, SMS, single-use backup codes]\n    since: '2026-08-05'\n    docs: https://www.rudderstack.com/docs/dashboard-guides/security/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rudderstack/refs/heads/main/authentication/rudderstack-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rudderstack/authentication/rudderstack-authentication.yml
 summary_line: http/oauth2 · 5 schemes
 tags:
 - Customer Data Platform

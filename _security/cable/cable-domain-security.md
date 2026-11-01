@@ -5,121 +5,121 @@ api_specs:
   label: Cable Alerts API
   slug: cable-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-alerts-api-openapi.yml
 - filename: cable-authentication-api-openapi.yml
   format: yaml
   label: Cable Authentication API
   slug: cable-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-authentication-api-openapi.yml
 - filename: cable-business-api-openapi.yml
   format: yaml
   label: Cable Business API
   slug: cable-business-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-business-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-business-api-openapi.yml
 - filename: cable-checks-api-openapi.yml
   format: yaml
   label: Cable Checks API
   slug: cable-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-checks-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-checks-api-openapi.yml
 - filename: cable-company-api-openapi.yml
   format: yaml
   label: Cable Company API
   slug: cable-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-company-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-company-api-openapi.yml
 - filename: cable-customersar-api-openapi.yml
   format: yaml
   label: Cable Customer Sar API
   slug: cable-customersar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-customersar-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-customersar-api-openapi.yml
 - filename: cable-helper-api-openapi.yml
   format: yaml
   label: Cable Helper API
   slug: cable-helper-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-helper-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-helper-api-openapi.yml
 - filename: cable-onboardingflow-api-openapi.yml
   format: yaml
   label: Cable Onboarding Flow API
   slug: cable-onboardingflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-onboardingflow-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-onboardingflow-api-openapi.yml
 - filename: cable-person-api-openapi.yml
   format: yaml
   label: Cable Person API
   slug: cable-person-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-person-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-person-api-openapi.yml
 - filename: cable-retail-api-openapi.yml
   format: yaml
   label: Cable Retail API
   slug: cable-retail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-retail-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-retail-api-openapi.yml
 - filename: cable-screening-api-openapi.yml
   format: yaml
   label: Cable Screening API
   slug: cable-screening-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-screening-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-screening-api-openapi.yml
 - filename: cable-suspiciousactivities-api-openapi.yml
   format: yaml
   label: Cable Suspicious Activities API
   slug: cable-suspiciousactivities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-suspiciousactivities-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-suspiciousactivities-api-openapi.yml
 - filename: cable-transactionalerts-api-openapi.yml
   format: yaml
   label: Cable Transaction Alerts API
   slug: cable-transactionalerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-transactionalerts-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-transactionalerts-api-openapi.yml
 - filename: cable-transactionchecks-api-openapi.yml
   format: yaml
   label: Cable Transaction Checks API
   slug: cable-transactionchecks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-transactionchecks-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-transactionchecks-api-openapi.yml
 - filename: cable-transactions-api-openapi.yml
   format: yaml
   label: Cable Transactions API
   slug: cable-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-transactions-api-openapi.yml
 - filename: cable-transactionsuspiciousactivities-api-openapi.yml
   format: yaml
   label: Cable Transaction Suspicious Activities API
   slug: cable-transactionsuspiciousactivities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-transactionsuspiciousactivities-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-transactionsuspiciousactivities-api-openapi.yml
 - filename: cable-upload-api-openapi.yml
   format: yaml
   label: Cable Upload API
   slug: cable-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-upload-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-upload-api-openapi.yml
 - filename: cable-utilities-api-openapi.yml
   format: yaml
   label: Cable Utilities API
   slug: cable-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-utilities-api-openapi.yml
 - filename: cable-identity-verification-api-openapi.yml
   format: yaml
   label: Cable Identity Verification API
   slug: cable-identity-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-identity-verification-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-identity-verification-api-openapi.yml
 - filename: cable-risk-assessment-api-openapi.yml
   format: yaml
   label: Cable Risk Assessment API
   slug: cable-risk-assessment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-risk-assessment-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-risk-assessment-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -160,7 +160,7 @@ source_filename: cable-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cable.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 05:29:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.cable.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 06:56:42 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.cable.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 19:29:37 2026 GMT\n  hsts: null\ndomains:\n- domain: cable.tech\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/security/cable-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cable/security/cable-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

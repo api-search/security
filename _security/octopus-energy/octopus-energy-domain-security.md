@@ -5,43 +5,43 @@ api_specs:
   label: Octopus Energy Consumption API
   slug: octopus-energy-consumption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/openapi/octopus-energy-consumption-api-openapi.yml
+  url: https://artifacts.apis.io/octopus-energy/openapi/octopus-energy-consumption-api-openapi.yml
 - filename: octopus-energy-electricitymeterpoints-api-openapi.yml
   format: yaml
   label: Octopus Energy ElectricityMeterPoints API
   slug: octopus-energy-electricitymeterpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/openapi/octopus-energy-electricitymeterpoints-api-openapi.yml
+  url: https://artifacts.apis.io/octopus-energy/openapi/octopus-energy-electricitymeterpoints-api-openapi.yml
 - filename: octopus-energy-electricitytariffs-api-openapi.yml
   format: yaml
   label: Octopus Energy ElectricityTariffs API
   slug: octopus-energy-electricitytariffs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/openapi/octopus-energy-electricitytariffs-api-openapi.yml
+  url: https://artifacts.apis.io/octopus-energy/openapi/octopus-energy-electricitytariffs-api-openapi.yml
 - filename: octopus-energy-gasmeterpoints-api-openapi.yml
   format: yaml
   label: Octopus Energy GasMeterPoints API
   slug: octopus-energy-gasmeterpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/openapi/octopus-energy-gasmeterpoints-api-openapi.yml
+  url: https://artifacts.apis.io/octopus-energy/openapi/octopus-energy-gasmeterpoints-api-openapi.yml
 - filename: octopus-energy-gastariffs-api-openapi.yml
   format: yaml
   label: Octopus Energy GasTariffs API
   slug: octopus-energy-gastariffs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/openapi/octopus-energy-gastariffs-api-openapi.yml
+  url: https://artifacts.apis.io/octopus-energy/openapi/octopus-energy-gastariffs-api-openapi.yml
 - filename: octopus-energy-industry-api-openapi.yml
   format: yaml
   label: Octopus Energy Industry API
   slug: octopus-energy-industry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/openapi/octopus-energy-industry-api-openapi.yml
+  url: https://artifacts.apis.io/octopus-energy/openapi/octopus-energy-industry-api-openapi.yml
 - filename: octopus-energy-products-api-openapi.yml
   format: yaml
   label: Octopus Energy Products API
   slug: octopus-energy-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/openapi/octopus-energy-products-api-openapi.yml
+  url: https://artifacts.apis.io/octopus-energy/openapi/octopus-energy-products-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ source_filename: octopus-energy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: octopus.energy\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 20:52:54 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.octopus.energy\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 23:59:59 2026 GMT\n  hsts: false\n- host: kraken.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 00:40:57 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: octopus.energy\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n- domain: kraken.tech\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/security/octopus-energy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/octopus-energy/security/octopus-energy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Energy

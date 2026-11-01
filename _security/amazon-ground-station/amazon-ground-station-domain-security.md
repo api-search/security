@@ -5,73 +5,85 @@ api_specs:
   label: Amazon Ground Station Agent API
   slug: amazon-ground-station-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/openapi/amazon-ground-station-agent-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-agent-api-openapi.yml
 - filename: amazon-ground-station-config-api-openapi.yml
   format: yaml
   label: Amazon Ground Station Config API
   slug: amazon-ground-station-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/openapi/amazon-ground-station-config-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-config-api-openapi.yml
 - filename: amazon-ground-station-contact-api-openapi.yml
   format: yaml
   label: Amazon Ground Station Contact API
   slug: amazon-ground-station-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/openapi/amazon-ground-station-contact-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-contact-api-openapi.yml
 - filename: amazon-ground-station-contacts-api-openapi.yml
   format: yaml
   label: Amazon Ground Station Contacts API
   slug: amazon-ground-station-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/openapi/amazon-ground-station-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-contacts-api-openapi.yml
 - filename: amazon-ground-station-ephemerides-api-openapi.yml
   format: yaml
   label: Amazon Ground Station Ephemerides API
   slug: amazon-ground-station-ephemerides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/openapi/amazon-ground-station-ephemerides-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-ephemerides-api-openapi.yml
 - filename: amazon-ground-station-ephemeris-api-openapi.yml
   format: yaml
   label: Amazon Ground Station Ephemeris API
   slug: amazon-ground-station-ephemeris-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/openapi/amazon-ground-station-ephemeris-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-ephemeris-api-openapi.yml
 - filename: amazon-ground-station-groundstation-api-openapi.yml
   format: yaml
   label: Amazon Ground Station Groundstation API
   slug: amazon-ground-station-groundstation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/openapi/amazon-ground-station-groundstation-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-groundstation-api-openapi.yml
 - filename: amazon-ground-station-minute-usage-api-openapi.yml
   format: yaml
   label: Amazon Ground Station Minute Usage API
   slug: amazon-ground-station-minute-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/openapi/amazon-ground-station-minute-usage-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-minute-usage-api-openapi.yml
 - filename: amazon-ground-station-missionprofile-api-openapi.yml
   format: yaml
   label: Amazon Ground Station Missionprofile API
   slug: amazon-ground-station-missionprofile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/openapi/amazon-ground-station-missionprofile-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-missionprofile-api-openapi.yml
 - filename: amazon-ground-station-satellite-api-openapi.yml
   format: yaml
   label: Amazon Ground Station Satellite API
   slug: amazon-ground-station-satellite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/openapi/amazon-ground-station-satellite-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-satellite-api-openapi.yml
 - filename: amazon-ground-station-tags-api-openapi.yml
   format: yaml
   label: Amazon Ground Station Tags API
   slug: amazon-ground-station-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/openapi/amazon-ground-station-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-tags-api-openapi.yml
 - filename: amazon-ground-station-dataflow-endpoint-group-api-openapi.yml
   format: yaml
   label: Amazon Ground Station Dataflow Endpoint Group API
   slug: amazon-ground-station-dataflow-endpoint-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/openapi/amazon-ground-station-dataflow-endpoint-group-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-dataflow-endpoint-group-api-openapi.yml
+- filename: amazon-ground-station-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Ground Station Ground Station Operations API
+  slug: amazon-ground-station-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-operations-api-openapi.yml
+- filename: amazon-ground-station-versions-api-openapi.yml
+  format: yaml
+  label: Amazon Ground Station Ground Station Versions API
+  slug: amazon-ground-station-versions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-versions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -109,7 +121,7 @@ source_filename: amazon-ground-station-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: groundstation.amazonaws.com\n  https: false\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/security/amazon-ground-station-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amazon-ground-station/security/amazon-ground-station-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data Processing

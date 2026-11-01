@@ -7,25 +7,25 @@ api_specs:
   label: June Companies API
   slug: june-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/june/refs/heads/main/openapi/june-companies-api-openapi.yml
+  url: https://artifacts.apis.io/june/openapi/june-companies-api-openapi.yml
 - filename: june-events-api-openapi.yml
   format: yaml
   label: June Events API
   slug: june-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/june/refs/heads/main/openapi/june-events-api-openapi.yml
+  url: https://artifacts.apis.io/june/openapi/june-events-api-openapi.yml
 - filename: june-users-api-openapi.yml
   format: yaml
   label: June Users API
   slug: june-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/june/refs/heads/main/openapi/june-users-api-openapi.yml
+  url: https://artifacts.apis.io/june/openapi/june-users-api-openapi.yml
 - filename: june-pageviews-api-openapi.yml
   format: yaml
   label: June Pageviews API
   slug: june-pageviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/june/refs/heads/main/openapi/june-pageviews-api-openapi.yml
+  url: https://artifacts.apis.io/june/openapi/june-pageviews-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: june-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/june-tracking-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: Provide your workspace write key as the username via HTTP Basic Auth. Obtain\n    the write key from your June workspace settings.\n  sources:\n  - openapi/june-tracking-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/june/refs/heads/main/authentication/june-authentication.yml
+source_yaml_url: https://artifacts.apis.io/june/authentication/june-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Analytics

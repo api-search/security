@@ -5,55 +5,55 @@ api_specs:
   label: Moody's Corporation Authentication API
   slug: moodys-corporation-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/openapi/moodys-corporation-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-corporation/openapi/moodys-corporation-authentication-api-openapi.yml
 - filename: moodys-corporation-baskets-api-openapi.yml
   format: yaml
   label: Moody's Corporation Baskets API
   slug: moodys-corporation-baskets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/openapi/moodys-corporation-baskets-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-corporation/openapi/moodys-corporation-baskets-api-openapi.yml
 - filename: moodys-corporation-catalog-api-openapi.yml
   format: yaml
   label: Moody's Corporation Catalog API
   slug: moodys-corporation-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/openapi/moodys-corporation-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-corporation/openapi/moodys-corporation-catalog-api-openapi.yml
 - filename: moodys-corporation-health-api-openapi.yml
   format: yaml
   label: Moody's Corporation Health API
   slug: moodys-corporation-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/openapi/moodys-corporation-health-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-corporation/openapi/moodys-corporation-health-api-openapi.yml
 - filename: moodys-corporation-jobs-api-openapi.yml
   format: yaml
   label: Moody's Corporation Jobs API
   slug: moodys-corporation-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/openapi/moodys-corporation-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-corporation/openapi/moodys-corporation-jobs-api-openapi.yml
 - filename: moodys-corporation-orders-api-openapi.yml
   format: yaml
   label: Moody's Corporation Orders API
   slug: moodys-corporation-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/openapi/moodys-corporation-orders-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-corporation/openapi/moodys-corporation-orders-api-openapi.yml
 - filename: moodys-corporation-reference-api-openapi.yml
   format: yaml
   label: Moody's Corporation Reference API
   slug: moodys-corporation-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/openapi/moodys-corporation-reference-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-corporation/openapi/moodys-corporation-reference-api-openapi.yml
 - filename: moodys-corporation-search-api-openapi.yml
   format: yaml
   label: Moody's Corporation Search API
   slug: moodys-corporation-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/openapi/moodys-corporation-search-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-corporation/openapi/moodys-corporation-search-api-openapi.yml
 - filename: moodys-corporation-series-api-openapi.yml
   format: yaml
   label: Moody's Corporation Series API
   slug: moodys-corporation-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/openapi/moodys-corporation-series-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-corporation/openapi/moodys-corporation-series-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -91,7 +91,7 @@ source_filename: moodys-corporation-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.moodys.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: ratings.moodys.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.moodys.com\n  https: false\ndomains:\n- domain: moodys.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/security/moodys-corporation-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/moodys-corporation/security/moodys-corporation-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Analytics

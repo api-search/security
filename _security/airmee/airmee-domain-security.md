@@ -5,25 +5,25 @@ api_specs:
   label: Airmee Collection Point Deliveries API
   slug: airmee-collection-point-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airmee/refs/heads/main/openapi/airmee-collection-point-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/airmee/openapi/airmee-collection-point-deliveries-api-openapi.yml
 - filename: airmee-home-deliveries-api-openapi.yml
   format: yaml
   label: Airmee Home Deliveries API
   slug: airmee-home-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airmee/refs/heads/main/openapi/airmee-home-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/airmee/openapi/airmee-home-deliveries-api-openapi.yml
 - filename: airmee-parcel-locker-deliveries-api-openapi.yml
   format: yaml
   label: Airmee Parcel Locker Deliveries API
   slug: airmee-parcel-locker-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airmee/refs/heads/main/openapi/airmee-parcel-locker-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/airmee/openapi/airmee-parcel-locker-deliveries-api-openapi.yml
 - filename: airmee-returns-api-openapi.yml
   format: yaml
   label: Airmee Returns API
   slug: airmee-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airmee/refs/heads/main/openapi/airmee-returns-api-openapi.yml
+  url: https://artifacts.apis.io/airmee/openapi/airmee-returns-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -68,7 +68,7 @@ source_filename: airmee-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: airmee.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  3 23:59:59 2027 GMT\n  hsts: false\n- host: integration.docs.airmee.com.s3-website-eu-west-1.amazonaws.com\n  https: false\n- host: api.airmee.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  3 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: airmee.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"certainly.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airmee/refs/heads/main/security/airmee-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/airmee/security/airmee-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Logistics

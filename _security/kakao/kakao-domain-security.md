@@ -5,25 +5,25 @@ api_specs:
   label: Kakao OIDC API
   slug: kakao-oidc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/openapi/kakao-oidc-api-openapi.yml
+  url: https://artifacts.apis.io/kakao/openapi/kakao-oidc-api-openapi.yml
 - filename: kakao-service-terms-api-openapi.yml
   format: yaml
   label: Kakao Service Terms API
   slug: kakao-service-terms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/openapi/kakao-service-terms-api-openapi.yml
+  url: https://artifacts.apis.io/kakao/openapi/kakao-service-terms-api-openapi.yml
 - filename: kakao-user-api-openapi.yml
   format: yaml
   label: Kakao User API
   slug: kakao-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/openapi/kakao-user-api-openapi.yml
+  url: https://artifacts.apis.io/kakao/openapi/kakao-user-api-openapi.yml
 - filename: kakao-oauth-api-openapi.yml
   format: yaml
   label: Kakao O Auth API
   slug: kakao-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/openapi/kakao-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/kakao/openapi/kakao-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: kakao-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.kakaocorp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.kakao.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: kapi.kakao.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: kakaocorp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: kakao.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/security/kakao-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kakao/security/kakao-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Messaging

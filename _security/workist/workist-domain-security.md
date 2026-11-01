@@ -5,49 +5,49 @@ api_specs:
   label: Workist Delivery Notes API
   slug: workist-delivery-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/openapi/workist-delivery-notes-api-openapi.yml
+  url: https://artifacts.apis.io/workist/openapi/workist-delivery-notes-api-openapi.yml
 - filename: workist-invoices-api-openapi.yml
   format: yaml
   label: Workist Invoices API
   slug: workist-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/openapi/workist-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/workist/openapi/workist-invoices-api-openapi.yml
 - filename: workist-list-of-services-api-openapi.yml
   format: yaml
   label: Workist List Of Services API
   slug: workist-list-of-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/openapi/workist-list-of-services-api-openapi.yml
+  url: https://artifacts.apis.io/workist/openapi/workist-list-of-services-api-openapi.yml
 - filename: workist-master-data-api-openapi.yml
   format: yaml
   label: Workist Master Data API
   slug: workist-master-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/openapi/workist-master-data-api-openapi.yml
+  url: https://artifacts.apis.io/workist/openapi/workist-master-data-api-openapi.yml
 - filename: workist-order-confirmations-api-openapi.yml
   format: yaml
   label: Workist Order Confirmations API
   slug: workist-order-confirmations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/openapi/workist-order-confirmations-api-openapi.yml
+  url: https://artifacts.apis.io/workist/openapi/workist-order-confirmations-api-openapi.yml
 - filename: workist-orders-api-openapi.yml
   format: yaml
   label: Workist Orders API
   slug: workist-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/openapi/workist-orders-api-openapi.yml
+  url: https://artifacts.apis.io/workist/openapi/workist-orders-api-openapi.yml
 - filename: workist-property-bills-api-openapi.yml
   format: yaml
   label: Workist Property Bills API
   slug: workist-property-bills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/openapi/workist-property-bills-api-openapi.yml
+  url: https://artifacts.apis.io/workist/openapi/workist-property-bills-api-openapi.yml
 - filename: workist-rfq-api-openapi.yml
   format: yaml
   label: Workist Rfq API
   slug: workist-rfq-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/openapi/workist-rfq-api-openapi.yml
+  url: https://artifacts.apis.io/workist/openapi/workist-rfq-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -87,7 +87,7 @@ source_filename: workist-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.workist.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 20:02:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.workist.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 10:52:41 2026 GMT\n  hsts: false\n- host: api.workist.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 09:39:47 2026 GMT\n  hsts: false\ndomains:\n- domain: workist.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/security/workist-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/workist/security/workist-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Documents

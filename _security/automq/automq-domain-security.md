@@ -5,31 +5,31 @@ api_specs:
   label: AutoMQ Ai Info API
   slug: automq-ai-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automq/refs/heads/main/openapi/automq-ai-info-api-openapi.yml
+  url: https://artifacts.apis.io/automq/openapi/automq-ai-info-api-openapi.yml
 - filename: automq-llms-full-txt-api-openapi.yml
   format: yaml
   label: AutoMQ Llms Full.txt API
   slug: automq-llms-full-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automq/refs/heads/main/openapi/automq-llms-full-txt-api-openapi.yml
+  url: https://artifacts.apis.io/automq/openapi/automq-llms-full-txt-api-openapi.yml
 - filename: automq-llms-txt-api-openapi.yml
   format: yaml
   label: AutoMQ Llms.txt API
   slug: automq-llms-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automq/refs/heads/main/openapi/automq-llms-txt-api-openapi.yml
+  url: https://artifacts.apis.io/automq/openapi/automq-llms-txt-api-openapi.yml
 - filename: automq-robots-txt-api-openapi.yml
   format: yaml
   label: AutoMQ Robots.txt API
   slug: automq-robots-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automq/refs/heads/main/openapi/automq-robots-txt-api-openapi.yml
+  url: https://artifacts.apis.io/automq/openapi/automq-robots-txt-api-openapi.yml
 - filename: automq-well-known-api-openapi.yml
   format: yaml
   label: AutoMQ .well Known API
   slug: automq-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automq/refs/heads/main/openapi/automq-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/automq/openapi/automq-well-known-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: automq-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.automq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 27 18:05:37 2026 GMT\n  hsts: false\ndomains:\n- domain: automq.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/automq/refs/heads/main/security/automq-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/automq/security/automq-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

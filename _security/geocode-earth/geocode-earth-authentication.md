@@ -8,19 +8,19 @@ api_specs:
   label: Geocode Earth Forward API
   slug: geocode-earth-forward-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocode-earth/refs/heads/main/openapi/geocode-earth-forward-api-openapi.yml
+  url: https://artifacts.apis.io/geocode-earth/openapi/geocode-earth-forward-api-openapi.yml
 - filename: geocode-earth-place-api-openapi.yml
   format: yaml
   label: Geocode Earth Place API
   slug: geocode-earth-place-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocode-earth/refs/heads/main/openapi/geocode-earth-place-api-openapi.yml
+  url: https://artifacts.apis.io/geocode-earth/openapi/geocode-earth-place-api-openapi.yml
 - filename: geocode-earth-reverse-api-openapi.yml
   format: yaml
   label: Geocode Earth Reverse API
   slug: geocode-earth-reverse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocode-earth/refs/heads/main/openapi/geocode-earth-reverse-api-openapi.yml
+  url: https://artifacts.apis.io/geocode-earth/openapi/geocode-earth-reverse-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: geocode-earth-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/geocode-earth-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: Geocode Earth API key passed as the api_key query string parameter.\n  sources:\n  - openapi/geocode-earth-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/geocode-earth/refs/heads/main/authentication/geocode-earth-authentication.yml
+source_yaml_url: https://artifacts.apis.io/geocode-earth/authentication/geocode-earth-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Geocoding

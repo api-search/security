@@ -5,31 +5,31 @@ api_specs:
   label: ShopGo Authentication API
   slug: shopgo-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopgo/refs/heads/main/openapi/shopgo-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/shopgo/openapi/shopgo-authentication-api-openapi.yml
 - filename: shopgo-orders-api-openapi.yml
   format: yaml
   label: ShopGo Orders API
   slug: shopgo-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopgo/refs/heads/main/openapi/shopgo-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shopgo/openapi/shopgo-orders-api-openapi.yml
 - filename: shopgo-store-api-openapi.yml
   format: yaml
   label: ShopGo Store API
   slug: shopgo-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopgo/refs/heads/main/openapi/shopgo-store-api-openapi.yml
+  url: https://artifacts.apis.io/shopgo/openapi/shopgo-store-api-openapi.yml
 - filename: shopgo-tenants-api-openapi.yml
   format: yaml
   label: ShopGo Tenants API
   slug: shopgo-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopgo/refs/heads/main/openapi/shopgo-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/shopgo/openapi/shopgo-tenants-api-openapi.yml
 - filename: shopgo-users-api-openapi.yml
   format: yaml
   label: ShopGo Users API
   slug: shopgo-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopgo/refs/heads/main/openapi/shopgo-users-api-openapi.yml
+  url: https://artifacts.apis.io/shopgo/openapi/shopgo-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: shopgo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: shopgo.me\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 22:57:13 2026 GMT\n  hsts: null\ndomains:\n- domain: shopgo.me\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shopgo/refs/heads/main/security/shopgo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/shopgo/security/shopgo-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

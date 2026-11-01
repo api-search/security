@@ -5,19 +5,19 @@ api_specs:
   label: Paychex Companies API
   slug: paychex-developer-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paychex-developer/refs/heads/main/openapi/paychex-developer-companies-api-openapi.yml
+  url: https://artifacts.apis.io/paychex-developer/openapi/paychex-developer-companies-api-openapi.yml
 - filename: paychex-developer-time-entries-api-openapi.yml
   format: yaml
   label: Paychex Time Entries API
   slug: paychex-developer-time-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paychex-developer/refs/heads/main/openapi/paychex-developer-time-entries-api-openapi.yml
+  url: https://artifacts.apis.io/paychex-developer/openapi/paychex-developer-time-entries-api-openapi.yml
 - filename: paychex-developer-workers-api-openapi.yml
   format: yaml
   label: Paychex Workers API
   slug: paychex-developer-workers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paychex-developer/refs/heads/main/openapi/paychex-developer-workers-api-openapi.yml
+  url: https://artifacts.apis.io/paychex-developer/openapi/paychex-developer-workers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: paychex-developer-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.paychex.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 06:33:57 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: api.paychex.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  3 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: paychex.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paychex-developer/refs/heads/main/security/paychex-developer-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/paychex-developer/security/paychex-developer-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Benefits

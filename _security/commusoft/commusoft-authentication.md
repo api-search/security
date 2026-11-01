@@ -9,49 +9,49 @@ api_specs:
   label: Commusoft Authentication API
   slug: commusoft-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/commusoft/openapi/commusoft-authentication-api-openapi.yml
 - filename: commusoft-contacts-api-openapi.yml
   format: yaml
   label: Commusoft Contacts API
   slug: commusoft-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/commusoft/openapi/commusoft-contacts-api-openapi.yml
 - filename: commusoft-customers-api-openapi.yml
   format: yaml
   label: Commusoft Customers API
   slug: commusoft-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-customers-api-openapi.yml
+  url: https://artifacts.apis.io/commusoft/openapi/commusoft-customers-api-openapi.yml
 - filename: commusoft-diary-events-api-openapi.yml
   format: yaml
   label: Commusoft Diary Events API
   slug: commusoft-diary-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-diary-events-api-openapi.yml
+  url: https://artifacts.apis.io/commusoft/openapi/commusoft-diary-events-api-openapi.yml
 - filename: commusoft-locations-api-openapi.yml
   format: yaml
   label: Commusoft Locations API
   slug: commusoft-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-locations-api-openapi.yml
+  url: https://artifacts.apis.io/commusoft/openapi/commusoft-locations-api-openapi.yml
 - filename: commusoft-suppliers-api-openapi.yml
   format: yaml
   label: Commusoft Suppliers API
   slug: commusoft-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/commusoft/openapi/commusoft-suppliers-api-openapi.yml
 - filename: commusoft-titles-api-openapi.yml
   format: yaml
   label: Commusoft Titles API
   slug: commusoft-titles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-titles-api-openapi.yml
+  url: https://artifacts.apis.io/commusoft/openapi/commusoft-titles-api-openapi.yml
 - filename: commusoft-users-api-openapi.yml
   format: yaml
   label: Commusoft Users API
   slug: commusoft-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-users-api-openapi.yml
+  url: https://artifacts.apis.io/commusoft/openapi/commusoft-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -86,10 +86,10 @@ source_filename: commusoft-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/commusoft-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: ApiTokenHeader\n  type: apiKey\n  in: header\n  parameter: X-Auth-Token\n  description: API token obtained from the /getToken endpoint\n  sources:\n  - openapi/commusoft-api-openapi.yml\n- name: ApiTokenQuery\n  type: apiKey\n  in: query\n  parameter: token\n  description: API token passed as a query parameter\n  sources:\n  - openapi/commusoft-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/authentication/commusoft-authentication.yml
+source_yaml_url: https://artifacts.apis.io/commusoft/authentication/commusoft-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- Field Service
+- Field Service Management
 - Job Management
 - HVAC
 - Plumbing

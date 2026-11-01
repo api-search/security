@@ -4,24 +4,18 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: freecurrencyapi-currencies-api-openapi.yml
+- filename: freecurrencyapi-metadata-api-openapi.yml
   format: yaml
-  label: Free Currency API Currencies API
-  slug: freecurrencyapi-currencies-api
+  label: Free Currency API Metadata API
+  slug: freecurrencyapi-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freecurrencyapi/refs/heads/main/openapi/freecurrencyapi-currencies-api-openapi.yml
-- filename: freecurrencyapi-exchange-rates-api-openapi.yml
+  url: https://artifacts.apis.io/freecurrencyapi/openapi/freecurrencyapi-metadata-api-openapi.yml
+- filename: freecurrencyapi-rates-api-openapi.yml
   format: yaml
-  label: Free Currency API Exchange Rates API
-  slug: freecurrencyapi-exchange-rates-api
+  label: Free Currency API Rates API
+  slug: freecurrencyapi-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freecurrencyapi/refs/heads/main/openapi/freecurrencyapi-exchange-rates-api-openapi.yml
-- filename: freecurrencyapi-status-api-openapi.yml
-  format: yaml
-  label: Free Currency API Status API
-  slug: freecurrencyapi-status-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freecurrencyapi/refs/heads/main/openapi/freecurrencyapi-status-api-openapi.yml
+  url: https://artifacts.apis.io/freecurrencyapi/openapi/freecurrencyapi-rates-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -56,7 +50,7 @@ source_filename: freecurrencyapi-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: ApiKeyQuery\n  type: apiKey\n  in: query\n  parameter: apikey\n  description: 'API key passed as a query parameter. Note: this may expose your API key in access\n    logs. Using the header method is recommended.'\n  sources:\n  - openapi/openapi.yml\n- name: ApiKeyHeader\n  type: apiKey\n  in: header\n  parameter: apikey\n  description: API key passed as an HTTP header (recommended method).\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freecurrencyapi/refs/heads/main/authentication/freecurrencyapi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/freecurrencyapi/authentication/freecurrencyapi-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Currency

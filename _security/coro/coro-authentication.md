@@ -43,7 +43,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://docs.coro.net/developer-portal/authentication.md\ndocs: https://docs.coro.net/developer-portal/authentication/\nsummary:\n  types: [oauth2]\n  oauth2_flows: [clientCredentials]\n  additional_required_headers: [Workspace]\nschemes:\n- name: OAuth2ClientCredentials\n  type: oauth2\n  flow: clientCredentials\n  token_endpoint: https://api.secure.coro.net/oauth/token\n  token_endpoints_by_region:\n    us: https://api.secure.coro.net/oauth/token\n    ca: https://api.secure-ca.coro.net/oauth/token\n    eu: https://api.secure-eu.coro.net/oauth/token\n  audience: https://secure.coro.net/api\n  grant_type: client_credentials\n  token_type: Bearer\n  token_ttl_seconds: 86400\n  credentials_source: >-\n    Control Panel > Connectors > API Credentials in the Coro console (Client ID +\n    Secret pair, distinct from console login). Up to 10 active credential sets;\n    named, rotatable, and optionally given an expiration date.\n\
   \  request_headers:\n  - name: Authorization\n    value: Bearer <access_token>\n  - name: Workspace\n    value: <WORKSPACE_ID>\n  scopes: []\n  scopes_note: >-\n    No granular OAuth scopes are documented; a credential pair grants access scoped\n    to its workspace and the admin role attached to it.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coro/refs/heads/main/authentication/coro-authentication.yml
+source_yaml_url: https://artifacts.apis.io/coro/authentication/coro-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

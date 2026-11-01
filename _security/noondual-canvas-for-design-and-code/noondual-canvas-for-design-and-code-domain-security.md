@@ -32,7 +32,7 @@ source_filename: noondual-canvas-for-design-and-code-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: noon.design\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 12:48:29 2026 GMT\n  hsts: null\ndomains:\n- domain: noon.design\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issuewild \"pki.goog\"\n  - 0 iodef \"mailto:dmarc-reports@noon.design\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/noondual-canvas-for-design-and-code/refs/heads/main/security/noondual-canvas-for-design-and-code-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/noondual-canvas-for-design-and-code/security/noondual-canvas-for-design-and-code-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

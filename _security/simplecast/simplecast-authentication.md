@@ -7,31 +7,31 @@ api_specs:
   label: Simplecast Analytics API
   slug: simplecast-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplecast/refs/heads/main/openapi/simplecast-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/simplecast/openapi/simplecast-analytics-api-openapi.yml
 - filename: simplecast-distribution-api-openapi.yml
   format: yaml
   label: Simplecast Distribution API
   slug: simplecast-distribution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplecast/refs/heads/main/openapi/simplecast-distribution-api-openapi.yml
+  url: https://artifacts.apis.io/simplecast/openapi/simplecast-distribution-api-openapi.yml
 - filename: simplecast-episodes-api-openapi.yml
   format: yaml
   label: Simplecast Episodes API
   slug: simplecast-episodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplecast/refs/heads/main/openapi/simplecast-episodes-api-openapi.yml
+  url: https://artifacts.apis.io/simplecast/openapi/simplecast-episodes-api-openapi.yml
 - filename: simplecast-metadata-api-openapi.yml
   format: yaml
   label: Simplecast Metadata API
   slug: simplecast-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplecast/refs/heads/main/openapi/simplecast-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/simplecast/openapi/simplecast-metadata-api-openapi.yml
 - filename: simplecast-podcasts-api-openapi.yml
   format: yaml
   label: Simplecast Podcasts API
   slug: simplecast-podcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplecast/refs/heads/main/openapi/simplecast-podcasts-api-openapi.yml
+  url: https://artifacts.apis.io/simplecast/openapi/simplecast-podcasts-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: simplecast-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/simplecast-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Bearer token generated from the Private Apps page in the Simplecast dashboard.\n    Sent as \"authorization: Bearer {token}\".'\n  sources:\n  - openapi/simplecast-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simplecast/refs/heads/main/authentication/simplecast-authentication.yml
+source_yaml_url: https://artifacts.apis.io/simplecast/authentication/simplecast-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Podcasts

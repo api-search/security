@@ -27,7 +27,7 @@ source_filename: goatchat-ai-adaptive-plus-inc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: goat.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 03:25:48 2026 GMT\n  hsts: false\ndomains:\n- domain: goat.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goatchat-ai-adaptive-plus-inc/refs/heads/main/security/goatchat-ai-adaptive-plus-inc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/goatchat-ai-adaptive-plus-inc/security/goatchat-ai-adaptive-plus-inc-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

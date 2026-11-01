@@ -7,73 +7,91 @@ api_specs:
   label: useapi.net Account API
   slug: useapi-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-account-api-openapi.yml
+  url: https://artifacts.apis.io/useapi/openapi/useapi-account-api-openapi.yml
 - filename: useapi-dreamina-api-openapi.yml
   format: yaml
   label: useapi.net Dreamina API
   slug: useapi-dreamina-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-dreamina-api-openapi.yml
+  url: https://artifacts.apis.io/useapi/openapi/useapi-dreamina-api-openapi.yml
 - filename: useapi-flowmusic-api-openapi.yml
   format: yaml
   label: useapi.net Flowmusic API
   slug: useapi-flowmusic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-flowmusic-api-openapi.yml
+  url: https://artifacts.apis.io/useapi/openapi/useapi-flowmusic-api-openapi.yml
 - filename: useapi-google-flow-api-openapi.yml
   format: yaml
   label: useapi.net Google Flow API
   slug: useapi-google-flow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-google-flow-api-openapi.yml
+  url: https://artifacts.apis.io/useapi/openapi/useapi-google-flow-api-openapi.yml
 - filename: useapi-jobs-api-openapi.yml
   format: yaml
   label: useapi.net Jobs API
   slug: useapi-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/useapi/openapi/useapi-jobs-api-openapi.yml
 - filename: useapi-kling-api-openapi.yml
   format: yaml
   label: useapi.net Kling API
   slug: useapi-kling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-kling-api-openapi.yml
+  url: https://artifacts.apis.io/useapi/openapi/useapi-kling-api-openapi.yml
 - filename: useapi-mureka-api-openapi.yml
   format: yaml
   label: useapi.net Mureka API
   slug: useapi-mureka-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-mureka-api-openapi.yml
+  url: https://artifacts.apis.io/useapi/openapi/useapi-mureka-api-openapi.yml
 - filename: useapi-pixverse-api-openapi.yml
   format: yaml
   label: useapi.net Pixverse API
   slug: useapi-pixverse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-pixverse-api-openapi.yml
+  url: https://artifacts.apis.io/useapi/openapi/useapi-pixverse-api-openapi.yml
 - filename: useapi-runwayml-api-openapi.yml
   format: yaml
   label: useapi.net Runwayml API
   slug: useapi-runwayml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-runwayml-api-openapi.yml
+  url: https://artifacts.apis.io/useapi/openapi/useapi-runwayml-api-openapi.yml
 - filename: useapi-tempolor-api-openapi.yml
   format: yaml
   label: useapi.net Tempolor API
   slug: useapi-tempolor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-tempolor-api-openapi.yml
+  url: https://artifacts.apis.io/useapi/openapi/useapi-tempolor-api-openapi.yml
 - filename: useapi-face-swap-api-openapi.yml
   format: yaml
   label: useapi.net Face Swap API
   slug: useapi-face-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-face-swap-api-openapi.yml
+  url: https://artifacts.apis.io/useapi/openapi/useapi-face-swap-api-openapi.yml
 - filename: useapi-mini-max-api-openapi.yml
   format: yaml
   label: useapi.net Mini Max API
   slug: useapi-mini-max-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-mini-max-api-openapi.yml
+  url: https://artifacts.apis.io/useapi/openapi/useapi-mini-max-api-openapi.yml
+- filename: useapi-google-vids-v1.json
+  format: json
+  label: useapi.net Google Vids API v1
+  slug: google-vids-v1
+  spec_type: Postman
+  url: https://artifacts.apis.io/useapi/postman/useapi-google-vids-v1.json
+- filename: useapi-gemini-notebook-v1.json
+  format: json
+  label: useapi.net NotebookLM (Gemini Notebook) API v1
+  slug: gemini-notebook-v1
+  spec_type: Postman
+  url: https://artifacts.apis.io/useapi/postman/useapi-gemini-notebook-v1.json
+- filename: useapi-muse-v1.json
+  format: json
+  label: useapi.net Meta Muse API v1
+  slug: muse-v1
+  spec_type: Postman
+  url: https://artifacts.apis.io/useapi/postman/useapi-muse-v1.json
 auth_types:
 - http
 description: ''
@@ -123,7 +141,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource:\n- https://usea
   \ is only half the story. Because useapi.net is a bring-your-own-account\n    fronting layer, calling a generation endpoint also requires credentials for the caller's own\n    account on the wrapped AI service, registered ahead of time through that service's\n    POST /accounts endpoint. These are session-grade secrets, not API keys.\n  credential_types:\n  - service: google-flow\n    credential: cookies copied from accounts.google.com\n    registered_via: POST /v1/google-flow/accounts\n    selector: email\n  - service: flowmusic\n    credential: Google sign-in session / refresh token\n    registered_via: POST /v1/flowmusic/accounts\n    selector: email\n  - service: dreamina, kling, minimax, mureka, pixverse, runwayml, tempolor\n    credential: site session cookies or account credentials\n    registered_via: POST /v1/<service>/accounts\n    selector: account (email on runwayml and flowmusic)\n  - service: faceswap\n    credential: Discord token + server id + channel id\n    registered_via:\
   \ POST /v1/faceswap/account/{channel_id}\n    selector: channel_id\n  security_implication: >-\n    Handing full browser session cookies for a third-party consumer account to an intermediary is a\n    material trust decision, and the vendor's own Q&A acknowledges that automating these accounts\n    runs against the wrapped services' terms of use. Assess this before adoption; it is the defining\n    risk of the platform, not an incidental detail.\n\nfailure_modes:\n- status: 401\n  meaning: Missing, malformed or invalid useapi.net token.\n  body: '{\"error\": \"Unauthorized\"}'\n- status: 402\n  meaning: Token is valid but the useapi.net subscription is expired.\n  body: '{\"error\": \"Account has no subscription or subscription expired\"}'\n- status: 403\n  meaning: Token is valid but the referenced resource belongs to a different useapi.net user.\n  body: '{\"error\": \"Unauthorized access to user:12345 detected in character reference\"}'\n- status: 596\n  meaning: >-\n    Non-standard\
   \ status. The useapi.net token is fine but the linked upstream account's session or\n    refresh token was rejected. Delete and re-register that account.\n  body: '{\"error\": \"Account user@email.com in error state: refresh token rejected\", \"code\": 596}'\n\nrelated:\n  scopes: none — no OAuth scope surface exists, so no scopes/ artifact is emitted\n  conventions: conventions/useapi-conventions.yml\n  errors: errors/useapi-problem-types.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/authentication/useapi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/useapi/authentication/useapi-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

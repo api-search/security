@@ -5,43 +5,43 @@ api_specs:
   label: Olo Webhooks
   slug: olo-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/asyncapi/olo-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/olo/asyncapi/olo-webhooks-asyncapi.yml
 - filename: olo-accounts-api-openapi.yml
   format: yaml
   label: Olo Accounts API
   slug: olo-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/openapi/olo-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/olo/openapi/olo-accounts-api-openapi.yml
 - filename: olo-accruals-api-openapi.yml
   format: yaml
   label: Olo Accruals API
   slug: olo-accruals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/openapi/olo-accruals-api-openapi.yml
+  url: https://artifacts.apis.io/olo/openapi/olo-accruals-api-openapi.yml
 - filename: olo-brand-api-openapi.yml
   format: yaml
   label: Olo Brand API
   slug: olo-brand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/openapi/olo-brand-api-openapi.yml
+  url: https://artifacts.apis.io/olo/openapi/olo-brand-api-openapi.yml
 - filename: olo-promotions-api-openapi.yml
   format: yaml
   label: Olo Promotions API
   slug: olo-promotions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/openapi/olo-promotions-api-openapi.yml
+  url: https://artifacts.apis.io/olo/openapi/olo-promotions-api-openapi.yml
 - filename: olo-rails-api-openapi.yml
   format: yaml
   label: Olo Rails API
   slug: olo-rails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/openapi/olo-rails-api-openapi.yml
+  url: https://artifacts.apis.io/olo/openapi/olo-rails-api-openapi.yml
 - filename: olo-users-api-openapi.yml
   format: yaml
   label: Olo Users API
   slug: olo-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/openapi/olo-users-api-openapi.yml
+  url: https://artifacts.apis.io/olo/openapi/olo-users-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -95,7 +95,7 @@ source_filename: olo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.olo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 05:08:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.olo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 19:59:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: olosupport.zendesk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 08:06:26 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: olo.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: zendesk.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/security/olo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/olo/security/olo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Food Service

@@ -7,7 +7,7 @@ api_specs:
   label: CLEAR Verification Sessions API
   slug: clear-verification-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/openapi/clear-verification-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/clear/openapi/clear-verification-sessions-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -51,7 +51,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/clear-verification-openapi.json\ndocs: https://docs.clearme.com/reference/api-keys\nsummary:\n  types:\n  - http\n  - oauth2\n  - openIdConnect\n  http_schemes:\n  - bearer\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: Authorization_Bearer\n  type: http\n  scheme: bearer\n  description: 'API key passed as a Bearer token: Authorization: Bearer <API_KEY>. Separate sandbox and production keys. HTTPS required.'\n  sources:\n  - openapi/clear-verification-openapi.json\n- name: OAuth2_OIDC\n  type: oauth2\n  scheme: authorizationCode\n  description: OAuth 2.0 / OpenID Connect for end-user identity tokens, with PKCE (S256). Issuer https://verified.clearme.com/integrations.\n  authorizationUrl: https://verified.clearme.com/integrations/oauth2/auth\n  tokenUrl: https://verified.clearme.com/integrations/oauth2/token\n  scopes:\n  - openid\n  - offline\n  - offline_access\n  sources:\n  - https://docs.clearme.com/docs/oidc-identity-token\n\
   \  - well-known/clear-openid-configuration.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/authentication/clear-authentication.yml
+source_yaml_url: https://artifacts.apis.io/clear/authentication/clear-authentication.yml
 summary_line: http/oauth2/openIdConnect · 2 schemes
 tags:
 - Company

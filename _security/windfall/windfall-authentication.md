@@ -8,7 +8,7 @@ api_specs:
   label: Windfall API
   slug: windfall-windfall-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windfall/refs/heads/main/openapi/windfall-windfall-api-api-openapi.yml
+  url: https://artifacts.apis.io/windfall/openapi/windfall-windfall-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -37,7 +37,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/windfall-openapi-original.json\ndocs: https://api-docs.windfall.com/authentication/\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiToken\n  type: apiKey\n  in: header\n  parameter: X-WF-Auth-Token\n  description: >-\n    Your API token, provided by Windfall and tied to your organization's account.\n    All requests must include this header and must be made over HTTPS. Tokens are\n    issued by Windfall (not self-service); each token carries a set number of usage\n    tokens corresponding to queryable records, with allocation and refresh frequency\n    determined by your purchase order. Sandbox tokens are prefixed with `sandbox_`\n    and are separate from production tokens — a production token on the sandbox\n    endpoint (or vice versa) returns 403.\n  sources:\n  - openapi/windfall-openapi-original.json\nnotes:\n  self_service: false\n  token_issuance: Issued by Windfall, tied to\
   \ the organization account.\n  sandbox_prefix: sandbox_\n  https_required: true\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/windfall/refs/heads/main/authentication/windfall-authentication.yml
+source_yaml_url: https://artifacts.apis.io/windfall/authentication/windfall-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

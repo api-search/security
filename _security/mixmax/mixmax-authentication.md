@@ -9,37 +9,37 @@ api_specs:
   label: Mixmax Contact Groups API
   slug: mixmax-contact-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/openapi/mixmax-contact-groups-api-openapi.yml
+  url: https://artifacts.apis.io/mixmax/openapi/mixmax-contact-groups-api-openapi.yml
 - filename: mixmax-contacts-api-openapi.yml
   format: yaml
   label: Mixmax Contacts API
   slug: mixmax-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/openapi/mixmax-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/mixmax/openapi/mixmax-contacts-api-openapi.yml
 - filename: mixmax-file-requests-api-openapi.yml
   format: yaml
   label: Mixmax File Requests API
   slug: mixmax-file-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/openapi/mixmax-file-requests-api-openapi.yml
+  url: https://artifacts.apis.io/mixmax/openapi/mixmax-file-requests-api-openapi.yml
 - filename: mixmax-meetings-api-openapi.yml
   format: yaml
   label: Mixmax Meetings API
   slug: mixmax-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/openapi/mixmax-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/mixmax/openapi/mixmax-meetings-api-openapi.yml
 - filename: mixmax-sequences-api-openapi.yml
   format: yaml
   label: Mixmax Sequences API
   slug: mixmax-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/openapi/mixmax-sequences-api-openapi.yml
+  url: https://artifacts.apis.io/mixmax/openapi/mixmax-sequences-api-openapi.yml
 - filename: mixmax-snippet-tags-api-openapi.yml
   format: yaml
   label: Mixmax Snippet Tags API
   slug: mixmax-snippet-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/openapi/mixmax-snippet-tags-api-openapi.yml
+  url: https://artifacts.apis.io/mixmax/openapi/mixmax-snippet-tags-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://develop
   \ token. Create the token\n      under Settings > Integrations (app.mixmax.com/dashboard/settings/personal/integrations);\n      it is displayed only once. Send it as the X-API-Token request header, or as\n      the apiToken query-string parameter.\n    sources: [openapi/mixmax-openapi.yml, https://developer.mixmax.com/reference/getting-started-with-the-api]\n  - name: mixmaxOAuth\n    surface: MCP server (https://mcp.mixmax.com/mcp)\n    type: oauth2\n    flow: authorization_code\n    pkce: S256\n    dynamic_client_registration: true\n    device_code_supported: true\n    token_endpoint_auth_methods: [none]\n    bearer_methods_supported: [header]\n    authorization_url: https://app.mixmax.com/oidc/auth\n    token_url: https://app.mixmax.com/oidc/token\n    revocation_url: https://app.mixmax.com/oidc/token/revocation\n    registration_url: https://app.mixmax.com/oidc/reg\n    scopes: [openid, offline_access, 'meetings:read']\n    ref: scopes/mixmax-scopes.yml\n    description: >-\n    \
   \  The MCP resource server answers an unauthenticated call with 401 and an RFC 9728\n      challenge — WWW-Authenticate: Bearer resource_metadata=\"https://mcp.mixmax.com/.well-known/oauth-protected-resource\".\n      Clients discover the authorization server from that document, register dynamically,\n      and complete an authorization-code + PKCE flow. Access is read-only.\n    sources:\n      - https://mcp.mixmax.com/.well-known/oauth-protected-resource\n      - https://mcp.mixmax.com/.well-known/oauth-authorization-server\n      - https://success.mixmax.com/en/articles/14298142-mixmax-mcp-server\n  - name: mixmaxOIDC\n    surface: Mixmax identity provider\n    type: openIdConnect\n    openIdConnectUrl: https://app.mixmax.com/oidc/.well-known/openid-configuration\n    issuer: https://app.mixmax.com/oidc\n    id_token_signing_alg_values_supported: [RS256]\n    subject_types_supported: [public]\n    description: >-\n      Mixmax operates its own OpenID Connect provider at https://app.mixmax.com/oidc,\
   \ with\n      full discovery, JWKS, userinfo, session end and dynamic client registration. It is the\n      authorization server behind the MCP surface.\n    sources: [https://app.mixmax.com/oidc/.well-known/openid-configuration]\nnotes:\n  - Some REST endpoints (meeting summaries/transcripts) additionally require the workspace-level\n    mixmaxApi feature to be enabled by an admin.\n  - The REST API token is long-lived, unscoped and grants the caller everything the user can do.\n    The MCP surface is the opposite — scoped, revocable, read-only. An integrator choosing\n    between them should know they are not equivalent trust levels.\n  - Message-integration surfaces (Enhancements, Slash Commands, Link Resolvers) are developer-hosted\n    and use their own SDK context rather than either scheme above.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/authentication/mixmax-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mixmax/authentication/mixmax-authentication.yml
 summary_line: apiKey/oauth2/openIdConnect · 3 schemes
 tags:
 - Company

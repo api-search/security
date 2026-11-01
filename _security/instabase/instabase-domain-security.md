@@ -5,37 +5,37 @@ api_specs:
   label: Instabase Audit API
   slug: instabase-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/openapi/instabase-audit-api-openapi.yml
+  url: https://artifacts.apis.io/instabase/openapi/instabase-audit-api-openapi.yml
 - filename: instabase-batches-api-openapi.yml
   format: yaml
   label: Instabase Batches API
   slug: instabase-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/openapi/instabase-batches-api-openapi.yml
+  url: https://artifacts.apis.io/instabase/openapi/instabase-batches-api-openapi.yml
 - filename: instabase-files-api-openapi.yml
   format: yaml
   label: Instabase Files API
   slug: instabase-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/openapi/instabase-files-api-openapi.yml
+  url: https://artifacts.apis.io/instabase/openapi/instabase-files-api-openapi.yml
 - filename: instabase-jobs-api-openapi.yml
   format: yaml
   label: Instabase Jobs API
   slug: instabase-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/openapi/instabase-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/instabase/openapi/instabase-jobs-api-openapi.yml
 - filename: instabase-runs-api-openapi.yml
   format: yaml
   label: Instabase Runs API
   slug: instabase-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/openapi/instabase-runs-api-openapi.yml
+  url: https://artifacts.apis.io/instabase/openapi/instabase-runs-api-openapi.yml
 - filename: instabase-secrets-api-openapi.yml
   format: yaml
   label: Instabase Secrets API
   slug: instabase-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/openapi/instabase-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/instabase/openapi/instabase-secrets-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: instabase-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.instabase.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 02:38:59 2026 GMT\n  hsts: false\n- host: aihub.instabase.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 18 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: instabase.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/security/instabase-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/instabase/security/instabase-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

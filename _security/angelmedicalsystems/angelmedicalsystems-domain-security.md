@@ -26,7 +26,7 @@ source_filename: angelmedicalsystems-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-24'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: angelmedicalsystems.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  3 08:16:44 2026 GMT\n  hsts: false\ndomains:\n- domain: angelmedicalsystems.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/angelmedicalsystems/refs/heads/main/security/angelmedicalsystems-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/angelmedicalsystems/security/angelmedicalsystems-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Medical

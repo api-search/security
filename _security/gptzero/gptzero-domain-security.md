@@ -5,19 +5,19 @@ api_specs:
   label: GPTZero Batch API
   slug: gptzero-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gptzero/refs/heads/main/openapi/gptzero-batch-api-openapi.yml
+  url: https://artifacts.apis.io/gptzero/openapi/gptzero-batch-api-openapi.yml
 - filename: gptzero-detection-api-openapi.yml
   format: yaml
   label: GPTZero Detection API
   slug: gptzero-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gptzero/refs/heads/main/openapi/gptzero-detection-api-openapi.yml
+  url: https://artifacts.apis.io/gptzero/openapi/gptzero-detection-api-openapi.yml
 - filename: gptzero-documents-api-openapi.yml
   format: yaml
   label: GPTZero Documents API
   slug: gptzero-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gptzero/refs/heads/main/openapi/gptzero-documents-api-openapi.yml
+  url: https://artifacts.apis.io/gptzero/openapi/gptzero-documents-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: gptzero-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gptzero.me\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 13:30:14 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.gptzero.me\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 13:30:14 2026 GMT\n  hsts: null\ndomains:\n- domain: gptzero.me\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gptzero/refs/heads/main/security/gptzero-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gptzero/security/gptzero-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

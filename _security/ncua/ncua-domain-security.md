@@ -5,13 +5,13 @@ api_specs:
   label: National Credit Union Administration (NCUA) FindCUByRadius.aspx API
   slug: ncua-findcubyradius-aspx-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncua/refs/heads/main/openapi/ncua-findcubyradius-aspx-api-openapi.yml
+  url: https://artifacts.apis.io/ncua/openapi/ncua-findcubyradius-aspx-api-openapi.yml
 - filename: ncua-singleresult-aspx-api-openapi.yml
   format: yaml
   label: National Credit Union Administration (NCUA) SingleResult.aspx API
   slug: ncua-singleresult-aspx-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncua/refs/heads/main/openapi/ncua-singleresult-aspx-api-openapi.yml
+  url: https://artifacts.apis.io/ncua/openapi/ncua-singleresult-aspx-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: ncua-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ncua.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 14 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: mapping.ncua.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.ncua.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 14 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: ncua.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ncua/refs/heads/main/security/ncua-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ncua/security/ncua-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Federal Government

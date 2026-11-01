@@ -5,73 +5,73 @@ api_specs:
   label: Deepgram Voice Agent API
   slug: voice-agent-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/asyncapi/deepgram-voice-agent-asyncapi.yml
+  url: https://artifacts.apis.io/deepgram/asyncapi/deepgram-voice-agent-asyncapi.yml
 - filename: deepgram-balances-api-openapi.yml
   format: yaml
   label: Deepgram Balances API
   slug: deepgram-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/openapi/deepgram-balances-api-openapi.yml
+  url: https://artifacts.apis.io/deepgram/openapi/deepgram-balances-api-openapi.yml
 - filename: deepgram-invitations-api-openapi.yml
   format: yaml
   label: Deepgram Invitations API
   slug: deepgram-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/openapi/deepgram-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/deepgram/openapi/deepgram-invitations-api-openapi.yml
 - filename: deepgram-keys-api-openapi.yml
   format: yaml
   label: Deepgram Keys API
   slug: deepgram-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/openapi/deepgram-keys-api-openapi.yml
+  url: https://artifacts.apis.io/deepgram/openapi/deepgram-keys-api-openapi.yml
 - filename: deepgram-members-api-openapi.yml
   format: yaml
   label: Deepgram Members API
   slug: deepgram-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/openapi/deepgram-members-api-openapi.yml
+  url: https://artifacts.apis.io/deepgram/openapi/deepgram-members-api-openapi.yml
 - filename: deepgram-models-api-openapi.yml
   format: yaml
   label: Deepgram Models API
   slug: deepgram-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/openapi/deepgram-models-api-openapi.yml
+  url: https://artifacts.apis.io/deepgram/openapi/deepgram-models-api-openapi.yml
 - filename: deepgram-pre-recorded-api-openapi.yml
   format: yaml
   label: Deepgram Pre-Recorded API
   slug: deepgram-pre-recorded-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/openapi/deepgram-pre-recorded-api-openapi.yml
+  url: https://artifacts.apis.io/deepgram/openapi/deepgram-pre-recorded-api-openapi.yml
 - filename: deepgram-projects-api-openapi.yml
   format: yaml
   label: Deepgram Projects API
   slug: deepgram-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/openapi/deepgram-projects-api-openapi.yml
+  url: https://artifacts.apis.io/deepgram/openapi/deepgram-projects-api-openapi.yml
 - filename: deepgram-scopes-api-openapi.yml
   format: yaml
   label: Deepgram Scopes API
   slug: deepgram-scopes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/openapi/deepgram-scopes-api-openapi.yml
+  url: https://artifacts.apis.io/deepgram/openapi/deepgram-scopes-api-openapi.yml
 - filename: deepgram-text-intelligence-api-openapi.yml
   format: yaml
   label: Deepgram Text Intelligence API
   slug: deepgram-text-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/openapi/deepgram-text-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/deepgram/openapi/deepgram-text-intelligence-api-openapi.yml
 - filename: deepgram-text-to-speech-api-openapi.yml
   format: yaml
   label: Deepgram Text-To-Speech API
   slug: deepgram-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/openapi/deepgram-text-to-speech-api-openapi.yml
+  url: https://artifacts.apis.io/deepgram/openapi/deepgram-text-to-speech-api-openapi.yml
 - filename: deepgram-usage-api-openapi.yml
   format: yaml
   label: Deepgram Usage API
   slug: deepgram-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/openapi/deepgram-usage-api-openapi.yml
+  url: https://artifacts.apis.io/deepgram/openapi/deepgram-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -112,7 +112,7 @@ source_filename: deepgram-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: deepgram.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 06:43:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.deepgram.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 20:02:28 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.deepgram.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 00:52:49 2026 GMT\n  hsts: null\ndomains:\n- domain: deepgram.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/security/deepgram-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/deepgram/security/deepgram-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

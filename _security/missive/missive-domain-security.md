@@ -5,43 +5,43 @@ api_specs:
   label: Missive Analytics API
   slug: missive-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/missive/refs/heads/main/openapi/missive-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/missive/openapi/missive-analytics-api-openapi.yml
 - filename: missive-contact-books-api-openapi.yml
   format: yaml
   label: Missive Contact Books API
   slug: missive-contact-books-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/missive/refs/heads/main/openapi/missive-contact-books-api-openapi.yml
+  url: https://artifacts.apis.io/missive/openapi/missive-contact-books-api-openapi.yml
 - filename: missive-contact-groups-api-openapi.yml
   format: yaml
   label: Missive Contact Groups API
   slug: missive-contact-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/missive/refs/heads/main/openapi/missive-contact-groups-api-openapi.yml
+  url: https://artifacts.apis.io/missive/openapi/missive-contact-groups-api-openapi.yml
 - filename: missive-contacts-api-openapi.yml
   format: yaml
   label: Missive Contacts API
   slug: missive-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/missive/refs/heads/main/openapi/missive-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/missive/openapi/missive-contacts-api-openapi.yml
 - filename: missive-conversations-api-openapi.yml
   format: yaml
   label: Missive Conversations API
   slug: missive-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/missive/refs/heads/main/openapi/missive-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/missive/openapi/missive-conversations-api-openapi.yml
 - filename: missive-drafts-api-openapi.yml
   format: yaml
   label: Missive Drafts API
   slug: missive-drafts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/missive/refs/heads/main/openapi/missive-drafts-api-openapi.yml
+  url: https://artifacts.apis.io/missive/openapi/missive-drafts-api-openapi.yml
 - filename: missive-messages-api-openapi.yml
   format: yaml
   label: Missive Messages API
   slug: missive-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/missive/refs/heads/main/openapi/missive-messages-api-openapi.yml
+  url: https://artifacts.apis.io/missive/openapi/missive-messages-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -82,7 +82,7 @@ source_filename: missive-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: missiveapp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  4 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: public.missiveapp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  5 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: missiveapp.com\n  dnssec: false\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/missive/refs/heads/main/security/missive-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/missive/security/missive-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Team Inbox

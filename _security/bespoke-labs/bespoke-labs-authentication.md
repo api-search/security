@@ -3,12 +3,18 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: bespoke-labs-minicheck-api-openapi.yml
+- filename: bespoke-labs-nimble-api-openapi.yml
   format: yaml
-  label: Bespoke Labs Minicheck API
-  slug: bespoke-labs-minicheck-api
+  label: Bespoke Labs Nimble API
+  slug: bespoke-labs-nimble-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bespoke-labs/refs/heads/main/openapi/bespoke-labs-minicheck-api-openapi.yml
+  url: https://artifacts.apis.io/bespoke-labs/openapi/bespoke-labs-nimble-api-openapi.yml
+- filename: bespoke-labs-viewer-api-openapi.yml
+  format: yaml
+  label: Bespoke Labs Viewer API
+  slug: bespoke-labs-viewer-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bespoke-labs/openapi/bespoke-labs-viewer-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -35,7 +41,7 @@ source_filename: bespoke-labs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/bespoke-labs-minicheck-openapi-original.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: APIKeyHeader\n  type: apiKey\n  in: header\n  parameter: api_key\n  sources:\n  - openapi/bespoke-labs-minicheck-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bespoke-labs/refs/heads/main/authentication/bespoke-labs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bespoke-labs/authentication/bespoke-labs-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

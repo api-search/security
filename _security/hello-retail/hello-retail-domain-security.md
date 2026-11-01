@@ -5,25 +5,25 @@ api_specs:
   label: Hello Retail Customer Bias API
   slug: hello-retail-customer-bias-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hello-retail/refs/heads/main/openapi/hello-retail-customer-bias-api-openapi.yml
+  url: https://artifacts.apis.io/hello-retail/openapi/hello-retail-customer-bias-api-openapi.yml
 - filename: hello-retail-pages-api-openapi.yml
   format: yaml
   label: Hello Retail Pages API
   slug: hello-retail-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hello-retail/refs/heads/main/openapi/hello-retail-pages-api-openapi.yml
+  url: https://artifacts.apis.io/hello-retail/openapi/hello-retail-pages-api-openapi.yml
 - filename: hello-retail-recommendations-api-openapi.yml
   format: yaml
   label: Hello Retail Recommendations API
   slug: hello-retail-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hello-retail/refs/heads/main/openapi/hello-retail-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/hello-retail/openapi/hello-retail-recommendations-api-openapi.yml
 - filename: hello-retail-search-api-openapi.yml
   format: yaml
   label: Hello Retail Search API
   slug: hello-retail-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hello-retail/refs/heads/main/openapi/hello-retail-search-api-openapi.yml
+  url: https://artifacts.apis.io/hello-retail/openapi/hello-retail-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: hello-retail-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.helloretail.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 02:59:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n- host: www.helloretail.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 06:03:45 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: core.helloretail.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 11 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: helloretail.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hello-retail/refs/heads/main/security/hello-retail-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hello-retail/security/hello-retail-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - E-Commerce

@@ -48,7 +48,7 @@ source_filename: magellan-financial-group-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: magellanfinancialgroup.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  9 13:35:36 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: magellaninvestmentpartners.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  9 13:35:36 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: magellanfinancialgroup.com\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:postmaster@magellangroup.com.au\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \";\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: magellaninvestmentpartners.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \";\"\n  - 0 iodef \"mailto:postmaster@magellangroup.com.au\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/magellan-financial-group/refs/heads/main/security/magellan-financial-group-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/magellan-financial-group/security/magellan-financial-group-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

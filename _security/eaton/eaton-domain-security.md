@@ -5,49 +5,49 @@ api_specs:
   label: Eaton Authorization API
   slug: eaton-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/openapi/eaton-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/eaton/openapi/eaton-authorization-api-openapi.yml
 - filename: eaton-device-commands-api-openapi.yml
   format: yaml
   label: Eaton Device Commands API
   slug: eaton-device-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/openapi/eaton-device-commands-api-openapi.yml
+  url: https://artifacts.apis.io/eaton/openapi/eaton-device-commands-api-openapi.yml
 - filename: eaton-devices-api-openapi.yml
   format: yaml
   label: Eaton Devices API
   slug: eaton-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/openapi/eaton-devices-api-openapi.yml
+  url: https://artifacts.apis.io/eaton/openapi/eaton-devices-api-openapi.yml
 - filename: eaton-energy-data-api-openapi.yml
   format: yaml
   label: Eaton Energy Data API
   slug: eaton-energy-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/openapi/eaton-energy-data-api-openapi.yml
+  url: https://artifacts.apis.io/eaton/openapi/eaton-energy-data-api-openapi.yml
 - filename: eaton-ev-only-api-openapi.yml
   format: yaml
   label: Eaton EV Only API
   slug: eaton-ev-only-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/openapi/eaton-ev-only-api-openapi.yml
+  url: https://artifacts.apis.io/eaton/openapi/eaton-ev-only-api-openapi.yml
 - filename: eaton-events-api-openapi.yml
   format: yaml
   label: Eaton Events API
   slug: eaton-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/openapi/eaton-events-api-openapi.yml
+  url: https://artifacts.apis.io/eaton/openapi/eaton-events-api-openapi.yml
 - filename: eaton-locations-api-openapi.yml
   format: yaml
   label: Eaton Locations API
   slug: eaton-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/openapi/eaton-locations-api-openapi.yml
+  url: https://artifacts.apis.io/eaton/openapi/eaton-locations-api-openapi.yml
 - filename: eaton-organizations-api-openapi.yml
   format: yaml
   label: Eaton Organizations API
   slug: eaton-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/openapi/eaton-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/eaton/openapi/eaton-organizations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -84,7 +84,7 @@ source_filename: eaton-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.eaton.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 27 23:59:59 2027 GMT\n  hsts: null\n- host: api.em.eaton.com\n  https: false\n- host: knowledgehub.eaton.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 27 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: eaton.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/security/eaton-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/eaton/security/eaton-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Power Management

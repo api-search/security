@@ -5,13 +5,13 @@ api_specs:
   label: SaaS Alerts Events API
   slug: saas-alerts-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saas-alerts/refs/heads/main/openapi/saas-alerts-events-api-openapi.yml
+  url: https://artifacts.apis.io/saas-alerts/openapi/saas-alerts-events-api-openapi.yml
 - filename: saas-alerts-reports-api-openapi.yml
   format: yaml
   label: SaaS Alerts Reports API
   slug: saas-alerts-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saas-alerts/refs/heads/main/openapi/saas-alerts-reports-api-openapi.yml
+  url: https://artifacts.apis.io/saas-alerts/openapi/saas-alerts-reports-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: saas-alerts-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.saasalerts.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 17:01:28 2026 GMT\n  hsts: null\n- host: help.saasalerts.kaseya.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  7 23:59:59 2026 GMT\n  hsts: false\n- host: api.saasalerts.com\n  https: false\ndomains:\n- domain: saasalerts.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: kaseya.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/saas-alerts/refs/heads/main/security/saas-alerts-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/saas-alerts/security/saas-alerts-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - MSP

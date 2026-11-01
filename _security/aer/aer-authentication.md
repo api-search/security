@@ -7,55 +7,55 @@ api_specs:
   label: Australian Energy Regulator Data Holder Customers API
   slug: aer-data-holder-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/openapi/aer-data-holder-customers-api-openapi.yml
+  url: https://artifacts.apis.io/aer/openapi/aer-data-holder-customers-api-openapi.yml
 - filename: aer-data-holder-operations-api-openapi.yml
   format: yaml
   label: Australian Energy Regulator Data Holder Operations API
   slug: aer-data-holder-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/openapi/aer-data-holder-operations-api-openapi.yml
+  url: https://artifacts.apis.io/aer/openapi/aer-data-holder-operations-api-openapi.yml
 - filename: aer-distributed-energy-resources-api-openapi.yml
   format: yaml
   label: Australian Energy Regulator Distributed Energy Resources API
   slug: aer-distributed-energy-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/openapi/aer-distributed-energy-resources-api-openapi.yml
+  url: https://artifacts.apis.io/aer/openapi/aer-distributed-energy-resources-api-openapi.yml
 - filename: aer-electricity-service-points-api-openapi.yml
   format: yaml
   label: Australian Energy Regulator Electricity Service Points API
   slug: aer-electricity-service-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/openapi/aer-electricity-service-points-api-openapi.yml
+  url: https://artifacts.apis.io/aer/openapi/aer-electricity-service-points-api-openapi.yml
 - filename: aer-electricity-usage-api-openapi.yml
   format: yaml
   label: Australian Energy Regulator Electricity Usage API
   slug: aer-electricity-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/openapi/aer-electricity-usage-api-openapi.yml
+  url: https://artifacts.apis.io/aer/openapi/aer-electricity-usage-api-openapi.yml
 - filename: aer-energy-account-balances-api-openapi.yml
   format: yaml
   label: Australian Energy Regulator Energy Account Balances API
   slug: aer-energy-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/openapi/aer-energy-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/aer/openapi/aer-energy-account-balances-api-openapi.yml
 - filename: aer-energy-account-billing-api-openapi.yml
   format: yaml
   label: Australian Energy Regulator Energy Account Billing API
   slug: aer-energy-account-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/openapi/aer-energy-account-billing-api-openapi.yml
+  url: https://artifacts.apis.io/aer/openapi/aer-energy-account-billing-api-openapi.yml
 - filename: aer-energy-accounts-api-openapi.yml
   format: yaml
   label: Australian Energy Regulator Energy Accounts API
   slug: aer-energy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/openapi/aer-energy-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/aer/openapi/aer-energy-accounts-api-openapi.yml
 - filename: aer-energy-plans-api-openapi.yml
   format: yaml
   label: Australian Energy Regulator Energy Plans API
   slug: aer-energy-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/openapi/aer-energy-plans-api-openapi.yml
+  url: https://artifacts.apis.io/aer/openapi/aer-energy-plans-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: openapi/cdr-ene
   \  in: header\n  required: true\n  description: >-\n    Mandatory version header. Omitting it returns HTTP 400 with\n    urn:au-cds:error:cds-all:Header/Missing (\"Header x-v must be provided\").\n  verified: '2026-07-27'\n- name: x-min-v\n  in: header\n  required: false\n  description: >-\n    Optional minimum acceptable version. Version-range negotiation works on this host:\n    GET /energy/plans/{planId} with x-v 5 and x-min-v 1 returned HTTP 200 with response\n    header x-v 3 (the highest version the AER supports for that operation) rather than\n    406.\n  verified: '2026-07-27'\nresponse_headers:\n- name: x-v\n  description: Echoes the version actually served.\n- name: x-fapi-interaction-id\n  description: >-\n    FAPI correlation identifier returned on every response; a server-generated UUID\n    when the caller does not supply one. This is the request-tracing handle to quote\n    in a support email.\n- name: access-control-allow-origin\n  description: \"* — CORS is fully open,\
   \ so browser-side calls work without a proxy.\"\n- name: access-control-expose-headers\n  description: \"x-v, Retry-After, x-fapi-interaction-id\"\ngated_surface:\n  note: >-\n    The authenticated half of the CDR energy regime is NOT the AER's. Consumer usage,\n    billing, account and service-point endpoints exist in the same specification but\n    return 404 on the AER host — retailers are the primary data holders and AEMO is\n    the secondary data holder gateway. Reaching those endpoints requires ACCC\n    accreditation as a data recipient, consumer consent, and the CDS information\n    security profile (OAuth 2.0 / OpenID Connect with mTLS-bound client\n    authentication, FAPI 1.0 Advanced). No OpenID configuration is served on any AER\n    host — /.well-known/openid-configuration returns 404 on\n    cdr.energymadeeasy.gov.au, www.energymadeeasy.gov.au and www.aer.gov.au.\n  accreditation: https://www.cdr.gov.au/for-providers/become-accredited-data-recipient\n  infosec_profile:\
   \ https://consumerdatastandardsaustralia.github.io/standards/#security-profile\nsupport_contact: cdr-support@aer.gov.au\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/authentication/aer-authentication.yml
+source_yaml_url: https://artifacts.apis.io/aer/authentication/aer-authentication.yml
 summary_line: 0 schemes
 tags:
 - Energy

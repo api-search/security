@@ -8,19 +8,19 @@ api_specs:
   label: Yandex Translate API Language Detection API
   slug: yandex-translate-language-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yandex-translate/refs/heads/main/openapi/yandex-translate-language-detection-api-openapi.yml
+  url: https://artifacts.apis.io/yandex-translate/openapi/yandex-translate-language-detection-api-openapi.yml
 - filename: yandex-translate-languages-api-openapi.yml
   format: yaml
   label: Yandex Translate API Languages API
   slug: yandex-translate-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yandex-translate/refs/heads/main/openapi/yandex-translate-languages-api-openapi.yml
+  url: https://artifacts.apis.io/yandex-translate/openapi/yandex-translate-languages-api-openapi.yml
 - filename: yandex-translate-translation-api-openapi.yml
   format: yaml
   label: Yandex Translate API Translation API
   slug: yandex-translate-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yandex-translate/refs/heads/main/openapi/yandex-translate-translation-api-openapi.yml
+  url: https://artifacts.apis.io/yandex-translate/openapi/yandex-translate-translation-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -55,7 +55,7 @@ source_filename: yandex-translate-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: 'IAM token obtained from Yandex Identity and Access Management (IAM). Pass as\n    ''Authorization: Bearer <IAM_TOKEN>''.'\n  sources:\n  - openapi/openapi.yml\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'API key for service accounts. Pass as ''Authorization: Api-Key <API_KEY>''.'\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yandex-translate/refs/heads/main/authentication/yandex-translate-authentication.yml
+source_yaml_url: https://artifacts.apis.io/yandex-translate/authentication/yandex-translate-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Machine Translation

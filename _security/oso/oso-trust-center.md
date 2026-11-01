@@ -5,25 +5,25 @@ api_specs:
   label: Oso Cloud Centralized Authorization Data API
   slug: oso-centralized-authorization-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/openapi/oso-centralized-authorization-data-api-openapi.yml
+  url: https://artifacts.apis.io/oso/openapi/oso-centralized-authorization-data-api-openapi.yml
 - filename: oso-check-api-api-openapi.yml
   format: yaml
   label: Oso Cloud Check API
   slug: oso-check-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/openapi/oso-check-api-api-openapi.yml
+  url: https://artifacts.apis.io/oso/openapi/oso-check-api-api-openapi.yml
 - filename: oso-local-check-api-api-openapi.yml
   format: yaml
   label: Oso Cloud Local Check API
   slug: oso-local-check-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/openapi/oso-local-check-api-api-openapi.yml
+  url: https://artifacts.apis.io/oso/openapi/oso-local-check-api-api-openapi.yml
 - filename: oso-policy-api-openapi.yml
   format: yaml
   label: Oso Cloud Policy API
   slug: oso-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/openapi/oso-policy-api-openapi.yml
+  url: https://artifacts.apis.io/oso/openapi/oso-policy-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2
@@ -40,7 +40,7 @@ source_filename: oso-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.osohq.com/company/security\nurl: https://www.osohq.com/company/security\ncertifications:\n- SOC 2\nevidence:\n- source: https://www.osohq.com/company/security\n  keywords:\n  - soc 2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/security/oso-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/oso/security/oso-trust-center.yml
 summary_line: SOC 2
 tags:
 - Authorization

@@ -5,55 +5,55 @@ api_specs:
   label: LVT Cameras API
   slug: lvt-cameras-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-cameras-api-openapi.yml
+  url: https://artifacts.apis.io/lvt/openapi/lvt-cameras-api-openapi.yml
 - filename: lvt-events-api-openapi.yml
   format: yaml
   label: LVT Events API
   slug: lvt-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-events-api-openapi.yml
+  url: https://artifacts.apis.io/lvt/openapi/lvt-events-api-openapi.yml
 - filename: lvt-liveunits-api-openapi.yml
   format: yaml
   label: LVT Live Units API
   slug: lvt-liveunits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-liveunits-api-openapi.yml
+  url: https://artifacts.apis.io/lvt/openapi/lvt-liveunits-api-openapi.yml
 - filename: lvt-locations-api-openapi.yml
   format: yaml
   label: LVT Locations API
   slug: lvt-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-locations-api-openapi.yml
+  url: https://artifacts.apis.io/lvt/openapi/lvt-locations-api-openapi.yml
 - filename: lvt-media-api-openapi.yml
   format: yaml
   label: LVT Media API
   slug: lvt-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-media-api-openapi.yml
+  url: https://artifacts.apis.io/lvt/openapi/lvt-media-api-openapi.yml
 - filename: lvt-streams-api-openapi.yml
   format: yaml
   label: LVT Streams API
   slug: lvt-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-streams-api-openapi.yml
+  url: https://artifacts.apis.io/lvt/openapi/lvt-streams-api-openapi.yml
 - filename: lvt-talkdown-api-openapi.yml
   format: yaml
   label: LVT Talkdown API
   slug: lvt-talkdown-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-talkdown-api-openapi.yml
+  url: https://artifacts.apis.io/lvt/openapi/lvt-talkdown-api-openapi.yml
 - filename: lvt-webhooks-api-openapi.yml
   format: yaml
   label: LVT Webhooks API
   slug: lvt-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/lvt/openapi/lvt-webhooks-api-openapi.yml
 - filename: lvt-public-keys-api-openapi.yml
   format: yaml
   label: LVT Public Keys API
   slug: lvt-public-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-public-keys-api-openapi.yml
+  url: https://artifacts.apis.io/lvt/openapi/lvt-public-keys-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -93,7 +93,7 @@ source_filename: lvt-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.lvt.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 04:16:20 2026 GMT\n  hsts: false\n- host: docs.lvt.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  5 16:02:24 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.lvt.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 29 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: lvt.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/security/lvt-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lvt/security/lvt-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

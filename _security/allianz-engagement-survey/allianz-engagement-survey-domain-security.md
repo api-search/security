@@ -5,31 +5,31 @@ api_specs:
   label: Allianz Engagement Survey Action Plans API
   slug: allianz-engagement-survey-action-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-engagement-survey/refs/heads/main/openapi/allianz-engagement-survey-action-plans-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-engagement-survey/openapi/allianz-engagement-survey-action-plans-api-openapi.yml
 - filename: allianz-engagement-survey-analytics-api-openapi.yml
   format: yaml
   label: Allianz Engagement Survey Analytics API
   slug: allianz-engagement-survey-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-engagement-survey/refs/heads/main/openapi/allianz-engagement-survey-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-engagement-survey/openapi/allianz-engagement-survey-analytics-api-openapi.yml
 - filename: allianz-engagement-survey-participants-api-openapi.yml
   format: yaml
   label: Allianz Engagement Survey Participants API
   slug: allianz-engagement-survey-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-engagement-survey/refs/heads/main/openapi/allianz-engagement-survey-participants-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-engagement-survey/openapi/allianz-engagement-survey-participants-api-openapi.yml
 - filename: allianz-engagement-survey-responses-api-openapi.yml
   format: yaml
   label: Allianz Engagement Survey Responses API
   slug: allianz-engagement-survey-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-engagement-survey/refs/heads/main/openapi/allianz-engagement-survey-responses-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-engagement-survey/openapi/allianz-engagement-survey-responses-api-openapi.yml
 - filename: allianz-engagement-survey-surveys-api-openapi.yml
   format: yaml
   label: Allianz Engagement Survey Surveys API
   slug: allianz-engagement-survey-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-engagement-survey/refs/heads/main/openapi/allianz-engagement-survey-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-engagement-survey/openapi/allianz-engagement-survey-surveys-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: allianz-engagement-survey-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.allianz.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 12 16:58:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.allianz.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  8 15:00:23 2026 GMT\n  hsts: null\ndomains:\n- domain: allianz.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allianz-engagement-survey/refs/heads/main/security/allianz-engagement-survey-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/allianz-engagement-survey/security/allianz-engagement-survey-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics

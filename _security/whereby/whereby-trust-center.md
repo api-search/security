@@ -5,37 +5,37 @@ api_specs:
   label: Whereby Insights API
   slug: whereby-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/openapi/whereby-insights-api-openapi.yml
+  url: https://artifacts.apis.io/whereby/openapi/whereby-insights-api-openapi.yml
 - filename: whereby-meetings-api-openapi.yml
   format: yaml
   label: Whereby Meetings API
   slug: whereby-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/openapi/whereby-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/whereby/openapi/whereby-meetings-api-openapi.yml
 - filename: whereby-recordings-api-openapi.yml
   format: yaml
   label: Whereby Recordings API
   slug: whereby-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/openapi/whereby-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/whereby/openapi/whereby-recordings-api-openapi.yml
 - filename: whereby-rooms-api-openapi.yml
   format: yaml
   label: Whereby Rooms API
   slug: whereby-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/openapi/whereby-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/whereby/openapi/whereby-rooms-api-openapi.yml
 - filename: whereby-summaries-api-openapi.yml
   format: yaml
   label: Whereby Summaries API
   slug: whereby-summaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/openapi/whereby-summaries-api-openapi.yml
+  url: https://artifacts.apis.io/whereby/openapi/whereby-summaries-api-openapi.yml
 - filename: whereby-transcriptions-api-openapi.yml
   format: yaml
   label: Whereby Transcriptions API
   slug: whereby-transcriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/openapi/whereby-transcriptions-api-openapi.yml
+  url: https://artifacts.apis.io/whereby/openapi/whereby-transcriptions-api-openapi.yml
 certification_count: 3
 certifications:
 - ISO 27001
@@ -54,7 +54,7 @@ source_filename: whereby-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.whereby.com/\nurl: https://trust.whereby.com/\ncertifications:\n- ISO 27001\n- HIPAA\n- GDPR\nevidence:\n- source: https://trust.whereby.com/\n  keywords:\n  - iso/iec 27001\n  - hipaa\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/security/whereby-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/whereby/security/whereby-trust-center.yml
 summary_line: ISO 27001, HIPAA, GDPR
 tags:
 - Video

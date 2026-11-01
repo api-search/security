@@ -7,43 +7,43 @@ api_specs:
   label: BitOasis Account API
   slug: bitoasis-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/heads/main/openapi/bitoasis-account-api-openapi.yml
+  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-account-api-openapi.yml
 - filename: bitoasis-coin-deposits-api-openapi.yml
   format: yaml
   label: BitOasis Coin Deposits API
   slug: bitoasis-coin-deposits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/heads/main/openapi/bitoasis-coin-deposits-api-openapi.yml
+  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-coin-deposits-api-openapi.yml
 - filename: bitoasis-coin-withdrawals-api-openapi.yml
   format: yaml
   label: BitOasis Coin Withdrawals API
   slug: bitoasis-coin-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/heads/main/openapi/bitoasis-coin-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-coin-withdrawals-api-openapi.yml
 - filename: bitoasis-fiat-deposits-api-openapi.yml
   format: yaml
   label: BitOasis Fiat Deposits API
   slug: bitoasis-fiat-deposits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/heads/main/openapi/bitoasis-fiat-deposits-api-openapi.yml
+  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-fiat-deposits-api-openapi.yml
 - filename: bitoasis-fiat-withdrawals-api-openapi.yml
   format: yaml
   label: BitOasis Fiat Withdrawals API
   slug: bitoasis-fiat-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/heads/main/openapi/bitoasis-fiat-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-fiat-withdrawals-api-openapi.yml
 - filename: bitoasis-market-data-api-openapi.yml
   format: yaml
   label: BitOasis Market Data API
   slug: bitoasis-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/heads/main/openapi/bitoasis-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-market-data-api-openapi.yml
 - filename: bitoasis-orders-api-openapi.yml
   format: yaml
   label: BitOasis Orders API
   slug: bitoasis-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/heads/main/openapi/bitoasis-orders-api-openapi.yml
+  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-orders-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -75,7 +75,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: >-\n  https://api.bitoasis.net/doc/ ; https://raw.githubusercontent.com/bit-oasis/bitoasis-mcp/main/src/bitoasis_mcp/client.py ;\n  https://instructions.tryargus.com/bitoasis.html\ndocs: https://support.bitoasis.net/en/support/solutions/articles/29000035643-api-documentation\nsummary:\n  types: [http]\n  http_scheme: bearer\n  token_style: api-token\n  token_location: header\n  header: Authorization\n  oauth2_flows: []\nschemes:\n  - name: bearerAuth\n    type: http\n    scheme: bearer\n    in: header\n    header: Authorization\n    format: 'Bearer <api-token>'\n    sources: [openapi/bitoasis-exchange-openapi.yml]\n    description: >-\n      A BitOasis API token (Key + Secret pair) generated from the account UI at\n      Settings > Security > Token Management\n      (https://bitoasis.net/en/settings/security/tokens). Sent as an\n      Authorization: Bearer header. Public market-data endpoints require no token.\ntoken_management:\n\
   \  create_at: https://bitoasis.net/en/settings/security/tokens\n  ip_whitelisting: optional\n  permissions:\n    - id: account_balance\n      label: Account Balance\n      access: read\n    - id: coin_deposit_read\n      label: Digital Assets Deposit Read Access\n      access: read\n    - id: coin_withdrawal_read\n      label: Digital Asset Withdrawal Read Access\n      access: read\n    - id: fiat_deposit_read\n      label: Fiat Deposit Read Access\n      access: read\n    - id: fiat_withdrawal_read\n      label: Fiat Withdrawal Read Access\n      access: read\n    - id: pro_order_read\n      label: Pro Order Read Access\n      access: read\n  note: >-\n    Token permissions are granular read/write capability toggles, not OAuth\n    scopes (there is no OAuth authorization/token endpoint). The read\n    permissions above are documented; write-capable permissions exist to enable\n    place-order and withdrawal operations. Read-only tokens are recommended\n    unless trading/withdrawal automation\
   \ is required.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/heads/main/authentication/bitoasis-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bitoasis/authentication/bitoasis-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

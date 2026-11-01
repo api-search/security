@@ -5,7 +5,7 @@ api_specs:
   label: 1WorldSync FetchProduct API
   slug: 1worldsync-fetchproduct-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/openapi/1worldsync-fetchproduct-api-openapi.yml
+  url: https://artifacts.apis.io/1worldsync/openapi/1worldsync-fetchproduct-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: 1worldsync-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: 1worldsync.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 06:09:50 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.1worldsync.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 22:15:25 2026 GMT\n  hsts: false\n- host: content1-api.1worldsync.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 14:11:33 2026 GMT\n  hsts: false\ndomains:\n- domain: 1worldsync.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/security/1worldsync-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/1worldsync/security/1worldsync-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

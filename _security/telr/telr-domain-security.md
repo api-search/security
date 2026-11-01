@@ -5,25 +5,25 @@ api_specs:
   label: Telr Agreements API
   slug: telr-agreements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telr/refs/heads/main/openapi/telr-agreements-api-openapi.yml
+  url: https://artifacts.apis.io/telr/openapi/telr-agreements-api-openapi.yml
 - filename: telr-hosted-payment-page-api-openapi.yml
   format: yaml
   label: Telr Hosted Payment Page API
   slug: telr-hosted-payment-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telr/refs/heads/main/openapi/telr-hosted-payment-page-api-openapi.yml
+  url: https://artifacts.apis.io/telr/openapi/telr-hosted-payment-page-api-openapi.yml
 - filename: telr-payments-api-api-openapi.yml
   format: yaml
   label: Telr Payments API
   slug: telr-payments-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telr/refs/heads/main/openapi/telr-payments-api-api-openapi.yml
+  url: https://artifacts.apis.io/telr/openapi/telr-payments-api-api-openapi.yml
 - filename: telr-remote-api-openapi.yml
   format: yaml
   label: Telr Remote API
   slug: telr-remote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telr/refs/heads/main/openapi/telr-remote-api-openapi.yml
+  url: https://artifacts.apis.io/telr/openapi/telr-remote-api-openapi.yml
 description: ''
 domains:
 - domain: telr.com
@@ -65,7 +65,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + docs hosts (2026-07-17)\nhosts:\n- host: telr.com\n  https: true\n  tls_issuer: Google Trust Services (WE1)\n  cert_not_before: Jun  6 06:01:18 2026 GMT\n  cert_expires: Sep  4 07:01:06 2026 GMT\n  http_status: 200\n- host: secure.telr.com\n  https: true\n  tls_issuer: Google Trust Services (WE1)\n  cert_not_before: Jun 24 03:27:34 2026 GMT\n  cert_expires: Sep 22 04:27:27 2026 GMT\n  http_status: 405\n  note: Payment gateway host; 405 on GET / (POST-only JSON endpoints under /gateway and /api/v1). GET /gateway/order.json returned 200.\n- host: docs.telr.com\n  https: true\n  tls_issuer: Let's Encrypt (YE2)\n  cert_not_before: Jul 16 20:41:15 2026 GMT\n  cert_expires: Oct 14 20:41:14 2026 GMT\n  http_status: 302\ndomains:\n- domain: telr.com\n  security_txt: false\n  security_txt_status: 404\n  note: No /.well-known/security.txt published at telr.com as of the probe date.\ncompliance:\n\
   - PCI DSS v4.0 Level 1\n- NESA certified (first PCI-DSS Level 1 & NESA-certified company in MENA)\n- Central Bank of the UAE Retail Payment Services (RPS) license\n- 3-D Secure (payer authentication) supported on hosted and remote flows\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/telr/refs/heads/main/security/telr-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/telr/security/telr-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Payments

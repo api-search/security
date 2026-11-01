@@ -7,7 +7,7 @@ api_specs:
   label: TruckSmarter Loads API
   slug: trucksmarter-loads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trucksmarter/refs/heads/main/openapi/trucksmarter-loads-api-openapi.yml
+  url: https://artifacts.apis.io/trucksmarter/openapi/trucksmarter-loads-api-openapi.yml
 auth_types:
 - http
 description: Authentication profile for the TruckSmarter Load Posting API (partner API). The published documentation states that all endpoints require an API key passed via the Authorization header as a Bearer token. API keys are issued to partners; no self-serve key provisioning, OAuth, or OpenID Connect surface is published.
@@ -34,7 +34,7 @@ source_filename: trucksmarter-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://trucksmarter.notion.site/TruckSmarter-API-Load-Posting-Documentation-2014aa4e9bc580fe80cfe87e18516dea\ndocs: https://trucksmarter.notion.site/TruckSmarter-API-Load-Posting-Documentation-2014aa4e9bc580fe80cfe87e18516dea\ndescription: >-\n  Authentication profile for the TruckSmarter Load Posting API (partner API).\n  The published documentation states that all endpoints require an API key\n  passed via the Authorization header as a Bearer token. API keys are issued\n  to partners; no self-serve key provisioning, OAuth, or OpenID Connect\n  surface is published.\nsummary:\n  types:\n    - http\n  http_schemes:\n    - bearer\n  api_key_in: []\n  oauth2_flows: []\nschemes:\n  - name: bearerAuth\n    type: http\n    scheme: bearer\n    description: 'All endpoints require an API key passed via the Authorization header: Authorization: Bearer YOUR_API_KEY'\n    sources:\n      - openapi/trucksmarter-load-posting-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trucksmarter/refs/heads/main/authentication/trucksmarter-authentication.yml
+source_yaml_url: https://artifacts.apis.io/trucksmarter/authentication/trucksmarter-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Trucking

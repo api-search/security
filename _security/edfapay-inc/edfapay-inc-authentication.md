@@ -8,43 +8,43 @@ api_specs:
   label: EdfaPay, Inc. Branch Management API
   slug: edfapay-inc-branch-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/openapi/edfapay-inc-branch-management-api-openapi.yml
+  url: https://artifacts.apis.io/edfapay-inc/openapi/edfapay-inc-branch-management-api-openapi.yml
 - filename: edfapay-inc-merchant-management-api-openapi.yml
   format: yaml
   label: EdfaPay, Inc. Merchant Management API
   slug: edfapay-inc-merchant-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/openapi/edfapay-inc-merchant-management-api-openapi.yml
+  url: https://artifacts.apis.io/edfapay-inc/openapi/edfapay-inc-merchant-management-api-openapi.yml
 - filename: edfapay-inc-partner-management-api-openapi.yml
   format: yaml
   label: EdfaPay, Inc. Partner Management API
   slug: edfapay-inc-partner-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/openapi/edfapay-inc-partner-management-api-openapi.yml
+  url: https://artifacts.apis.io/edfapay-inc/openapi/edfapay-inc-partner-management-api-openapi.yml
 - filename: edfapay-inc-payment-api-openapi.yml
   format: yaml
   label: EdfaPay, Inc. Payment API
   slug: edfapay-inc-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/openapi/edfapay-inc-payment-api-openapi.yml
+  url: https://artifacts.apis.io/edfapay-inc/openapi/edfapay-inc-payment-api-openapi.yml
 - filename: edfapay-inc-role-management-api-openapi.yml
   format: yaml
   label: EdfaPay, Inc. Role Management API
   slug: edfapay-inc-role-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/openapi/edfapay-inc-role-management-api-openapi.yml
+  url: https://artifacts.apis.io/edfapay-inc/openapi/edfapay-inc-role-management-api-openapi.yml
 - filename: edfapay-inc-transaction-management-api-openapi.yml
   format: yaml
   label: EdfaPay, Inc. Transaction Management API
   slug: edfapay-inc-transaction-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/openapi/edfapay-inc-transaction-management-api-openapi.yml
+  url: https://artifacts.apis.io/edfapay-inc/openapi/edfapay-inc-transaction-management-api-openapi.yml
 - filename: edfapay-inc-user-management-api-openapi.yml
   format: yaml
   label: EdfaPay, Inc. User Management API
   slug: edfapay-inc-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/openapi/edfapay-inc-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/edfapay-inc/openapi/edfapay-inc-user-management-api-openapi.yml
 auth_types:
 - apiKey
 - signature
@@ -85,7 +85,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/edfapay-inc-revamp.json + https://docs.edfapay.com/docs/sandbox-environment\ndocs: https://docs.edfapay.com/docs/sandbox-environment\nsummary:\n  types:\n  - apiKey\n  - signature\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-API-KEY\n  description: >-\n    API Key passed in the X-API-KEY request header for the management/dashboard\n    API (revamp-api). Keys are scoped to a caller type (ADMIN, PARTNER, MERCHANT,\n    USER).\n  sources:\n  - openapi/edfapay-inc-revamp.json\n- name: signature-hash\n  type: signature\n  in: body\n  parameter: hash\n  description: >-\n    The payment-gateway (Checkout / Server-to-Server) API authenticates each\n    request with a per-request MD5 hash signature computed from the merchant\n    credentials. Merchants receive a client_key and password on onboarding; the\n    hash is MD5( reverse(payer_email) + password + reverse(first6+last4\
   \ of card\n    number) ), uppercased. Webhook payloads carry the same hash for\n    verification.\n  credentials:\n  - client_key\n  - password\n  sources:\n  - https://docs.edfapay.com/docs/sandbox-environment\n  - https://docs.edfapay.com/docs/production-environment-1\nnotes: >-\n  Two distinct surfaces. (1) The management API (revamp-api.edfapay.com) uses an\n  X-API-KEY header. (2) The payment gateway (api.edfapay.com) uses signed\n  requests with a client_key/password-derived MD5 hash; there is no OAuth 2.0\n  flow published.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/authentication/edfapay-inc-authentication.yml
+source_yaml_url: https://artifacts.apis.io/edfapay-inc/authentication/edfapay-inc-authentication.yml
 summary_line: apiKey/signature · 2 schemes
 tags:
 - Company

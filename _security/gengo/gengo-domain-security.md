@@ -5,37 +5,37 @@ api_specs:
   label: Gengo Account API
   slug: gengo-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/openapi/gengo-account-api-openapi.yml
+  url: https://artifacts.apis.io/gengo/openapi/gengo-account-api-openapi.yml
 - filename: gengo-glossary-api-openapi.yml
   format: yaml
   label: Gengo Glossary API
   slug: gengo-glossary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/openapi/gengo-glossary-api-openapi.yml
+  url: https://artifacts.apis.io/gengo/openapi/gengo-glossary-api-openapi.yml
 - filename: gengo-job-api-openapi.yml
   format: yaml
   label: Gengo Job API
   slug: gengo-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/openapi/gengo-job-api-openapi.yml
+  url: https://artifacts.apis.io/gengo/openapi/gengo-job-api-openapi.yml
 - filename: gengo-jobs-api-openapi.yml
   format: yaml
   label: Gengo Jobs API
   slug: gengo-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/openapi/gengo-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/gengo/openapi/gengo-jobs-api-openapi.yml
 - filename: gengo-order-api-openapi.yml
   format: yaml
   label: Gengo Order API
   slug: gengo-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/openapi/gengo-order-api-openapi.yml
+  url: https://artifacts.apis.io/gengo/openapi/gengo-order-api-openapi.yml
 - filename: gengo-service-api-openapi.yml
   format: yaml
   label: Gengo Service API
   slug: gengo-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/openapi/gengo-service-api-openapi.yml
+  url: https://artifacts.apis.io/gengo/openapi/gengo-service-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -74,7 +74,7 @@ source_filename: gengo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gengo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 16 23:59:59 2026 GMT\n  hsts: false\n- host: api.gengo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 16 23:59:59 2026 GMT\n  hsts: false\n- host: api.sandbox.gengo.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  3 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: gengo.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/security/gengo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gengo/security/gengo-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

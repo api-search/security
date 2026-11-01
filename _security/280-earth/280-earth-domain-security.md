@@ -27,7 +27,7 @@ source_filename: 280-earth-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: 280.earth\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 09:32:58 2026 GMT\n  hsts: false\ndomains:\n- domain: 280.earth\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/280-earth/refs/heads/main/security/280-earth-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/280-earth/security/280-earth-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

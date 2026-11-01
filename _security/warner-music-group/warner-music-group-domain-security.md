@@ -5,25 +5,25 @@ api_specs:
   label: Warner Music Group Artists API
   slug: warner-music-group-artists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/openapi/warner-music-group-artists-api-openapi.yml
+  url: https://artifacts.apis.io/warner-music-group/openapi/warner-music-group-artists-api-openapi.yml
 - filename: warner-music-group-catalog-api-openapi.yml
   format: yaml
   label: Warner Music Group Catalog API
   slug: warner-music-group-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/openapi/warner-music-group-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/warner-music-group/openapi/warner-music-group-catalog-api-openapi.yml
 - filename: warner-music-group-licenses-api-openapi.yml
   format: yaml
   label: Warner Music Group Licenses API
   slug: warner-music-group-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/openapi/warner-music-group-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/warner-music-group/openapi/warner-music-group-licenses-api-openapi.yml
 - filename: warner-music-group-tracks-api-openapi.yml
   format: yaml
   label: Warner Music Group Tracks API
   slug: warner-music-group-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/openapi/warner-music-group-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/warner-music-group/openapi/warner-music-group-tracks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -68,7 +68,7 @@ source_filename: warner-music-group-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.wmg.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 03:18:46 2026 GMT\n  hsts: false\n- host: www.wmgmusiclicensing.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 15 23:59:59 2027 GMT\n  hsts: false\n- host: warnerchappell.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 09:55:47 2026 GMT\n  hsts: false\ndomains:\n- domain: wmg.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: wmgmusiclicensing.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/security/warner-music-group-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/warner-music-group/security/warner-music-group-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Music

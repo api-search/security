@@ -8,19 +8,19 @@ api_specs:
   label: AMETEK Alarms API
   slug: ametek-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ametek/refs/heads/main/openapi/ametek-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/ametek/openapi/ametek-alarms-api-openapi.yml
 - filename: ametek-device-identity-api-openapi.yml
   format: yaml
   label: AMETEK Device Identity API
   slug: ametek-device-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ametek/refs/heads/main/openapi/ametek-device-identity-api-openapi.yml
+  url: https://artifacts.apis.io/ametek/openapi/ametek-device-identity-api-openapi.yml
 - filename: ametek-ups-monitoring-api-openapi.yml
   format: yaml
   label: AMETEK UPS Monitoring API
   slug: ametek-ups-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ametek/refs/heads/main/openapi/ametek-ups-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/ametek/openapi/ametek-ups-monitoring-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -56,7 +56,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-02'\nmethod: searched\nsource: https://www.powervar.com/-/media/ametekpowervar/pdf/products/connectivity-solutions/isite-pro/user-manuals/a55-00202-rev-b-isite-pro-rest-api-definition.pdf\ndocs: https://www.powervar.com/-/media/ametekpowervar/pdf/products/connectivity-solutions/isite-pro/user-manuals/a55-00202-rev-b-isite-pro-rest-api-definition.pdf\nnote: >-\n  Read from AMETEK Powervar's own published REST API definition (A55-00202 REV B), which states\n  verbatim: \"Basic Authentication supported\", \"Web session tokens supported using x-auth-token\n  header\", and \"Authentication is required for access to all API features\". The OpenAPI in\n  openapi/ was transcribed from that same document, so the spec and the docs are one source.\n  No OAuth2, OIDC or mTLS is published for this surface. Credentials are the adapter's own local\n  administrative credentials, issued by the device, not by an AMETEK-operated identity service.\nsummary:\n  types:\n  - apiKey\n\
   \  - http\n  api_key_in:\n  - header\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic Authentication, as published. Authentication is required for access\n    to all API features. Credentials are the adapter's own local administrative credentials.\n  sources:\n  - openapi/ametek-powervar-isite-pro-openapi.yml\n- name: sessionToken\n  type: apiKey\n  in: header\n  parameter: x-auth-token\n  description: Web session token issued by the adapter's own web interface and presented in\n    the `x-auth-token` header, as published.\n  sources:\n  - openapi/ametek-powervar-isite-pro-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ametek/refs/heads/main/authentication/ametek-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ametek/authentication/ametek-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Electronic Instruments

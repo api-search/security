@@ -5,13 +5,13 @@ api_specs:
   label: Rippling Webhooks API
   slug: rippling-webhooks-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rippling/refs/heads/main/asyncapi/rippling-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/rippling/asyncapi/rippling-webhooks-asyncapi.yml
 - filename: rippling-platform-api-openapi.yml
   format: yaml
   label: Rippling Platform API
   slug: rippling-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rippling/refs/heads/main/openapi/rippling-platform-api-openapi.yml
+  url: https://artifacts.apis.io/rippling/openapi/rippling-platform-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: rippling-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.rippling.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 19:59:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.rippling.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 19:59:56 2026 GMT\n  hsts: null\ndomains:\n- domain: rippling.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rippling/refs/heads/main/security/rippling-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rippling/security/rippling-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Human Resources

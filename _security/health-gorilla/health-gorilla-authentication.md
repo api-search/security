@@ -7,61 +7,61 @@ api_specs:
   label: Health Gorilla Binary API
   slug: health-gorilla-binary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-binary-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-binary-api-openapi.yml
 - filename: health-gorilla-coverage-api-openapi.yml
   format: yaml
   label: Health Gorilla Coverage API
   slug: health-gorilla-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-coverage-api-openapi.yml
 - filename: health-gorilla-diagnosticreport-api-openapi.yml
   format: yaml
   label: Health Gorilla DiagnosticReport API
   slug: health-gorilla-diagnosticreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-diagnosticreport-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-diagnosticreport-api-openapi.yml
 - filename: health-gorilla-observation-api-openapi.yml
   format: yaml
   label: Health Gorilla Observation API
   slug: health-gorilla-observation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-observation-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-observation-api-openapi.yml
 - filename: health-gorilla-patient-api-openapi.yml
   format: yaml
   label: Health Gorilla Patient API
   slug: health-gorilla-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-patient-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-patient-api-openapi.yml
 - filename: health-gorilla-practitioner-api-openapi.yml
   format: yaml
   label: Health Gorilla Practitioner API
   slug: health-gorilla-practitioner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-practitioner-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-practitioner-api-openapi.yml
 - filename: health-gorilla-requestgroup-api-openapi.yml
   format: yaml
   label: Health Gorilla RequestGroup API
   slug: health-gorilla-requestgroup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-requestgroup-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-requestgroup-api-openapi.yml
 - filename: health-gorilla-servicerequest-api-openapi.yml
   format: yaml
   label: Health Gorilla ServiceRequest API
   slug: health-gorilla-servicerequest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-servicerequest-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-servicerequest-api-openapi.yml
 - filename: health-gorilla-capability-statement-api-openapi.yml
   format: yaml
   label: Health Gorilla Capability Statement API
   slug: health-gorilla-capability-statement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-capability-statement-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-capability-statement-api-openapi.yml
 - filename: health-gorilla-document-reference-api-openapi.yml
   format: yaml
   label: Health Gorilla Document Reference API
   slug: health-gorilla-document-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-document-reference-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-document-reference-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -167,7 +167,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: openapi/health-
   \  - https://developer.healthgorilla.com/reference/oauth-20-authentication\n- name: OpenIDConnect\n  type: openIdConnect\n  openIdConnectUrl: https://api.healthgorilla.com/.well-known/openid-configuration\n  claims_supported: [sub, aud, iss, fhirUser, name, given_name, family_name, birthdate, gender]\n  scopes_supported: [openid, profile, fhirUser]\n  sources: [well-known/health-gorilla-openid-configuration.json]\ntoken:\n  type: Bearer\n  lifetime_field: expires_in\n  example_lifetime_seconds: 3600\n  refresh: >-\n    Refresh tokens are issued for selected grants (authorization code). A\n    refreshed token is bound to the originally granted scope; scope cannot be\n    expanded on refresh.\n  validation: GET /oauth/info?access_token=<token> returns client_name, client_id, expires_in, scope\n  revocation: GET /oauth/cancel?token=<token> returns 200 OK and also invalidates the paired refresh token\n  version_pinning:\n    parameter: hg_rest_api_version\n    response_field: hg_rest_api_version\n\
   \    error: unsupported_api_version (400)\n    note: A specific REST API version may be bound to the token at issuance.\nfailure_modes:\n- {condition: expired token, status: 401, error: expired_token}\n- {condition: invalid token, status: 401, error: invalid_token}\n- {condition: missing required scope, status: 403, error: insufficient_scope}\n- {condition: client authentication failed / unknown client_id, status: 400, error: invalid_client}\n- {condition: bad or expired code, refresh token or assertion, status: 400, error: invalid_grant}\n- {condition: unsupported grant, status: 400, error: unsupported_grant_type}\nrelated:\n- scopes/health-gorilla-scopes.yml\n- well-known/health-gorilla-well-known.yml\n- fhir/health-gorilla-fhir.yml\n- conventions/health-gorilla-conventions.yml\nx-evidence:\n- {url: 'https://api.healthgorilla.com/.well-known/smart-configuration', http_status: 200, fetched: '2026-08-14'}\n- {url: 'https://api.healthgorilla.com/.well-known/openid-configuration', http_status:\
   \ 200, fetched: '2026-08-14'}\n- {url: 'https://www.healthgorilla.com/.well-known/jwks.json', http_status: 200, fetched: '2026-08-14'}\n- {url: 'https://developer.healthgorilla.com/reference/oauth-20-authentication.md', http_status: 200, fetched: '2026-08-14'}\n- {url: 'https://developer.healthgorilla.com/docs/token-lifecycle.md', http_status: 200, fetched: '2026-08-14'}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/authentication/health-gorilla-authentication.yml
+source_yaml_url: https://artifacts.apis.io/health-gorilla/authentication/health-gorilla-authentication.yml
 summary_line: oauth2/openIdConnect/http · 3 schemes
 tags:
 - Health

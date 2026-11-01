@@ -8,25 +8,25 @@ api_specs:
   label: Moises Application API
   slug: moises-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/openapi/moises-application-api-openapi.yml
+  url: https://artifacts.apis.io/moises/openapi/moises-application-api-openapi.yml
 - filename: moises-jobs-api-openapi.yml
   format: yaml
   label: Moises Jobs API
   slug: moises-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/openapi/moises-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/moises/openapi/moises-jobs-api-openapi.yml
 - filename: moises-upload-api-openapi.yml
   format: yaml
   label: Moises Upload API
   slug: moises-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/openapi/moises-upload-api-openapi.yml
+  url: https://artifacts.apis.io/moises/openapi/moises-upload-api-openapi.yml
 - filename: moises-workflows-api-openapi.yml
   format: yaml
   label: Moises Workflows API
   slug: moises-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/openapi/moises-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/moises/openapi/moises-workflows-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -56,7 +56,7 @@ source_filename: moises-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://music.ai/docs/api/authentication/ , openapi/moises-music-ai-openapi.yml\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  oauth2_flows: []\nschemes:\n  - name: ApiKeyAuth\n    type: apiKey\n    in: header\n    parameter: Authorization\n    format: raw key (no Bearer prefix)\n    key_management: Generate and rotate keys in the dashboard at https://music.ai/dash\n    sources: [openapi/moises-music-ai-openapi.yml]\n    docs: https://music.ai/docs/api/authentication/\nnotes: >-\n  Every request to the Music AI API must include the API key verbatim in the\n  Authorization header. There is no OAuth or OpenID Connect surface. The CLI\n  reads the key from the MUSIC_AI_API_KEY environment variable.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/authentication/moises-authentication.yml
+source_yaml_url: https://artifacts.apis.io/moises/authentication/moises-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

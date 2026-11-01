@@ -29,7 +29,7 @@ source_filename: ashr-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://ashr.io/docs/python-sdk/overview/\ndocs: https://ashr.io/docs/python-sdk/overview/\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - client-constructor\n  oauth2_flows: []\nschemes:\n- name: apiKey\n  type: apiKey\n  description: >-\n    Ashr Labs authenticates with a secret API key issued in the Ashr Labs\n    console (lab.ashr.io). Keys carry a \"tp_\" prefix and are passed to the SDK\n    client constructor, e.g. AshrLabsClient(api_key=\"tp_...\") in the Python SDK\n    and the equivalent in the TypeScript SDK. The SDK setup validates the key\n    before scaffolding and running evals.\n  key_prefix: tp_\n  in: client-constructor\n  sources:\n  - https://ashr.io/docs/python-sdk/overview/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ashr/refs/heads/main/authentication/ashr-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ashr/authentication/ashr-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

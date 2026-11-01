@@ -5,31 +5,31 @@ api_specs:
   label: GOV.UK Pay Agreements API
   slug: gov-uk-pay-agreements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/openapi/gov-uk-pay-agreements-api-openapi.yml
+  url: https://artifacts.apis.io/gov-uk-pay/openapi/gov-uk-pay-agreements-api-openapi.yml
 - filename: gov-uk-pay-authorise-card-payments-api-openapi.yml
   format: yaml
   label: GOV.UK Pay Authorise card payments API
   slug: gov-uk-pay-authorise-card-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/openapi/gov-uk-pay-authorise-card-payments-api-openapi.yml
+  url: https://artifacts.apis.io/gov-uk-pay/openapi/gov-uk-pay-authorise-card-payments-api-openapi.yml
 - filename: gov-uk-pay-card-payments-api-openapi.yml
   format: yaml
   label: GOV.UK Pay Card payments API
   slug: gov-uk-pay-card-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/openapi/gov-uk-pay-card-payments-api-openapi.yml
+  url: https://artifacts.apis.io/gov-uk-pay/openapi/gov-uk-pay-card-payments-api-openapi.yml
 - filename: gov-uk-pay-disputes-api-openapi.yml
   format: yaml
   label: GOV.UK Pay Disputes API
   slug: gov-uk-pay-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/openapi/gov-uk-pay-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/gov-uk-pay/openapi/gov-uk-pay-disputes-api-openapi.yml
 - filename: gov-uk-pay-refunding-card-payments-api-openapi.yml
   format: yaml
   label: GOV.UK Pay Refunding card payments API
   slug: gov-uk-pay-refunding-card-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/openapi/gov-uk-pay-refunding-card-payments-api-openapi.yml
+  url: https://artifacts.apis.io/gov-uk-pay/openapi/gov-uk-pay-refunding-card-payments-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: gov-uk-pay-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.payments.service.gov.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 21:28:19 2026 GMT\n  hsts: false\n- host: publicapi.payments.service.gov.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 21 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: service.gov.uk\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/security/gov-uk-pay-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gov-uk-pay/security/gov-uk-pay-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Payments

@@ -26,7 +26,7 @@ source_filename: biothea-pharmaceuticals-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.biotheapharma.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar 31 22:06:39 2027 GMT\n  hsts: false\ndomains:\n- domain: biotheapharma.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/biothea-pharmaceuticals/refs/heads/main/security/biothea-pharmaceuticals-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/biothea-pharmaceuticals/security/biothea-pharmaceuticals-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Biotechnology

@@ -5,7 +5,7 @@ api_specs:
   label: EPUB Translator APIs API
   slug: epubtranslator-app-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epubtranslator-app/refs/heads/main/openapi/epubtranslator-app-apis-api-openapi.yml
+  url: https://artifacts.apis.io/epubtranslator-app/openapi/epubtranslator-app-apis-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -35,7 +35,7 @@ source_filename: epubtranslator-app-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: epubtranslator.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 09:04:09 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: epubtranslator.app\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/epubtranslator-app/refs/heads/main/security/epubtranslator-app-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/epubtranslator-app/security/epubtranslator-app-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

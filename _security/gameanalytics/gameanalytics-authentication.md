@@ -8,19 +8,19 @@ api_specs:
   label: GameAnalytics Collection API
   slug: gameanalytics-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gameanalytics/refs/heads/main/openapi/gameanalytics-collection-api-openapi.yml
+  url: https://artifacts.apis.io/gameanalytics/openapi/gameanalytics-collection-api-openapi.yml
 - filename: gameanalytics-metrics-api-openapi.yml
   format: yaml
   label: GameAnalytics Metrics API
   slug: gameanalytics-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gameanalytics/refs/heads/main/openapi/gameanalytics-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/gameanalytics/openapi/gameanalytics-metrics-api-openapi.yml
 - filename: gameanalytics-organization-api-openapi.yml
   format: yaml
   label: GameAnalytics Organization API
   slug: gameanalytics-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gameanalytics/refs/heads/main/openapi/gameanalytics-organization-api-openapi.yml
+  url: https://artifacts.apis.io/gameanalytics/openapi/gameanalytics-organization-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -55,7 +55,7 @@ source_filename: gameanalytics-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/gameanalytics-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmacAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Base64-encoded HMAC-SHA256 digest of the raw (optionally gzipped) request body,\n    keyed with the game's secret key. Used by the Collection API.\n  sources:\n  - openapi/gameanalytics-openapi.yml\n- name: apiKeyHeader\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: API key generated in the GameAnalytics dashboard. The Metrics API uses the `X-API-Key`\n    header; the Organization API uses an equivalent API-key header.\n  sources:\n  - openapi/gameanalytics-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gameanalytics/refs/heads/main/authentication/gameanalytics-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gameanalytics/authentication/gameanalytics-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Analytics

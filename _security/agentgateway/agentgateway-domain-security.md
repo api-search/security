@@ -5,37 +5,37 @@ api_specs:
   label: AgentGateway Config API
   slug: agentgateway-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/openapi/agentgateway-config-api-openapi.yml
+  url: https://artifacts.apis.io/agentgateway/openapi/agentgateway-config-api-openapi.yml
 - filename: agentgateway-debug-api-openapi.yml
   format: yaml
   label: AgentGateway Debug API
   slug: agentgateway-debug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/openapi/agentgateway-debug-api-openapi.yml
+  url: https://artifacts.apis.io/agentgateway/openapi/agentgateway-debug-api-openapi.yml
 - filename: agentgateway-lifecycle-api-openapi.yml
   format: yaml
   label: AgentGateway Lifecycle API
   slug: agentgateway-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/openapi/agentgateway-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/agentgateway/openapi/agentgateway-lifecycle-api-openapi.yml
 - filename: agentgateway-logging-api-openapi.yml
   format: yaml
   label: AgentGateway Logging API
   slug: agentgateway-logging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/openapi/agentgateway-logging-api-openapi.yml
+  url: https://artifacts.apis.io/agentgateway/openapi/agentgateway-logging-api-openapi.yml
 - filename: agentgateway-memory-api-openapi.yml
   format: yaml
   label: AgentGateway Memory API
   slug: agentgateway-memory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/openapi/agentgateway-memory-api-openapi.yml
+  url: https://artifacts.apis.io/agentgateway/openapi/agentgateway-memory-api-openapi.yml
 - filename: agentgateway-profiling-api-openapi.yml
   format: yaml
   label: AgentGateway Profiling API
   slug: agentgateway-profiling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/openapi/agentgateway-profiling-api-openapi.yml
+  url: https://artifacts.apis.io/agentgateway/openapi/agentgateway-profiling-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: agentgateway-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-30'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: agentgateway.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  7 23:01:00 2026 GMT\n  hsts: false\n- host: 127.0.0.1\n  https: false\ndomains:\n- domain: agentgateway.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/security/agentgateway-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/agentgateway/security/agentgateway-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - AI Gateway

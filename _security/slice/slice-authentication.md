@@ -8,13 +8,13 @@ api_specs:
   label: Slice Orders API
   slug: slice-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slice/refs/heads/main/openapi/slice-orders-api-openapi.yml
+  url: https://artifacts.apis.io/slice/openapi/slice-orders-api-openapi.yml
 - filename: slice-shops-api-openapi.yml
   format: yaml
   label: Slice Shops API
   slug: slice-shops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slice/refs/heads/main/openapi/slice-shops-api-openapi.yml
+  url: https://artifacts.apis.io/slice/openapi/slice-shops-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -47,7 +47,7 @@ source_filename: slice-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/slice-public-api-v1-openapi.yml, openapi/slice-public-api-v2-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: |-\n    API key issued by Slice to approved technology partners. Request credentials\n    from api-support@slicelife.com. The exact header name is assigned with the\n    credentials; `Authorization` is used here as the documented placeholder.\n  sources:\n  - openapi/slice-public-api-v1-openapi.yml\n  - openapi/slice-public-api-v2-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/slice/refs/heads/main/authentication/slice-authentication.yml
+source_yaml_url: https://artifacts.apis.io/slice/authentication/slice-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Restaurant

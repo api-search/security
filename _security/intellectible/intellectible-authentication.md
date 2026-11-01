@@ -31,7 +31,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://docs.intellectible.com/docs/api-reference/intro\ndocs: https://docs.intellectible.com/docs/api-reference/intro\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  oauth2_flows: []\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter_name: Authorization\n  scheme_note: >-\n    The API key value is sent directly in the Authorization request header\n    (e.g. \"Authorization: API_KEY\") - it is not prefixed with \"Bearer\". API keys\n    are created in the app under the Accounts section and are scoped to project\n    data, so they must be kept secret.\n  key_management: https://app.intellectible.com\n  sources:\n  - https://docs.intellectible.com/docs/api-reference/intro\nnotes: >-\n  No OpenAPI/Swagger specification is published for the Intellectible Public API,\n  so this profile was captured from the provider's API reference documentation\n  rather than derived from a spec. Only a single\
   \ API-key scheme is documented;\n  no OAuth2, OpenID Connect, or scope surface is present, so scopes/ is not\n  applicable.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intellectible/refs/heads/main/authentication/intellectible-authentication.yml
+source_yaml_url: https://artifacts.apis.io/intellectible/authentication/intellectible-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

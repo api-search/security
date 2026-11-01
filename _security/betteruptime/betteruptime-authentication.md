@@ -7,25 +7,25 @@ api_specs:
   label: Better Uptime Heartbeats API
   slug: betteruptime-heartbeats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betteruptime/refs/heads/main/openapi/betteruptime-heartbeats-api-openapi.yml
+  url: https://artifacts.apis.io/betteruptime/openapi/betteruptime-heartbeats-api-openapi.yml
 - filename: betteruptime-incidents-api-openapi.yml
   format: yaml
   label: Better Uptime Incidents API
   slug: betteruptime-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betteruptime/refs/heads/main/openapi/betteruptime-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/betteruptime/openapi/betteruptime-incidents-api-openapi.yml
 - filename: betteruptime-monitors-api-openapi.yml
   format: yaml
   label: Better Uptime Monitors API
   slug: betteruptime-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betteruptime/refs/heads/main/openapi/betteruptime-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/betteruptime/openapi/betteruptime-monitors-api-openapi.yml
 - filename: betteruptime-status-pages-api-openapi.yml
   format: yaml
   label: Better Uptime Status Pages API
   slug: betteruptime-status-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betteruptime/refs/heads/main/openapi/betteruptime-status-pages-api-openapi.yml
+  url: https://artifacts.apis.io/betteruptime/openapi/betteruptime-status-pages-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: betteruptime-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/betteruptime-uptime-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token obtained from Better Stack account settings\n  sources:\n  - openapi/betteruptime-uptime-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/betteruptime/refs/heads/main/authentication/betteruptime-authentication.yml
+source_yaml_url: https://artifacts.apis.io/betteruptime/authentication/betteruptime-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Uptime Monitoring

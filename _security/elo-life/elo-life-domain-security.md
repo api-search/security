@@ -27,7 +27,7 @@ source_filename: elo-life-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: elolife.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 18:03:35 2026 GMT\n  hsts: false\ndomains:\n- domain: elolife.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elo-life/refs/heads/main/security/elo-life-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/elo-life/security/elo-life-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -5,13 +5,13 @@ api_specs:
   label: University of Science and Technology of China Health API
   slug: ustc-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ustc/refs/heads/main/openapi/ustc-health-api-openapi.yml
+  url: https://artifacts.apis.io/ustc/openapi/ustc-health-api-openapi.yml
 - filename: ustc-status-api-openapi.yml
   format: yaml
   label: University of Science and Technology of China Status API
   slug: ustc-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ustc/refs/heads/main/openapi/ustc-status-api-openapi.yml
+  url: https://artifacts.apis.io/ustc/openapi/ustc-status-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,7 +50,7 @@ source_filename: ustc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: en.ustc.edu.cn\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 23:59:59 2026 GMT\n  hsts: false\n- host: mirrors.ustc.edu.cn\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 08:05:39 2026 GMT\n  hsts: false\n- host: passport.ustc.edu.cn\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 14:43:29 2026 GMT\n  hsts: null\ndomains:\n- domain: ustc.edu.cn\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ustc/refs/heads/main/security/ustc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ustc/security/ustc-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - University

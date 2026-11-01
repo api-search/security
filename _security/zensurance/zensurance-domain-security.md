@@ -54,7 +54,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.zensurance.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 05:47:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.zensurance.com\n  https: true\n  tls_version: TLSv1.2\n  tls13_supported: false\n  cert_expires: Oct 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n  hsts_include_subdomains: true\n  headers:\n    x_content_type_options: nosniff\n    x_frame_options: SAMEORIGIN\n  note: Undocumented first-party backend. Probed manually because it is not carried\n    in apis.yml apis[] (it is not a published product API). Negotiates TLS 1.2 only —\n    an explicit TLS 1.3 handshake is refused.\n- host: app.zensurance.com\n  https: true\n  tls_version: TLSv1.2\n  tls13_supported: false\n  cert_expires: Oct 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  hsts_preload:\
   \ true\n  server: AmazonS3\n  headers:\n    x_content_type_options: nosniff\n  note: Customer application (S3-fronted SPA). TLS 1.2 only.\ndomains:\n- domain: zensurance.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zensurance/refs/heads/main/security/zensurance-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zensurance/security/zensurance-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance

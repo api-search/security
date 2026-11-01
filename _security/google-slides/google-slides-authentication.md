@@ -7,13 +7,13 @@ api_specs:
   label: Google Slides Pages API
   slug: google-slides-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-slides/refs/heads/main/openapi/google-slides-pages-api-openapi.yml
+  url: https://artifacts.apis.io/google-slides/openapi/google-slides-pages-api-openapi.yml
 - filename: google-slides-presentations-api-openapi.yml
   format: yaml
   label: Google Slides Presentations API
   slug: google-slides-presentations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-slides/refs/heads/main/openapi/google-slides-presentations-api-openapi.yml
+  url: https://artifacts.apis.io/google-slides/openapi/google-slides-presentations-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -45,7 +45,7 @@ source_filename: google-slides-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/google-slides-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 7\n  description: Google OAuth 2.0 authentication. Requires one of the following scopes depending\n    on the operation.\n  sources:\n  - openapi/google-slides-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-slides/refs/heads/main/authentication/google-slides-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-slides/authentication/google-slides-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Collaboration

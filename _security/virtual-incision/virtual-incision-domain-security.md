@@ -27,7 +27,7 @@ source_filename: virtual-incision-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: virtualincision.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 18:13:27 2026 GMT\n  hsts: false\ndomains:\n- domain: virtualincision.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/virtual-incision/refs/heads/main/security/virtual-incision-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/virtual-incision/security/virtual-incision-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

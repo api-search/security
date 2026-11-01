@@ -8,13 +8,13 @@ api_specs:
   label: Ressl Providers API
   slug: ressl-ai-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ressl-ai/refs/heads/main/openapi/ressl-ai-providers-api-openapi.yml
+  url: https://artifacts.apis.io/ressl-ai/openapi/ressl-ai-providers-api-openapi.yml
 - filename: ressl-ai-snapshots-api-openapi.yml
   format: yaml
   label: Ressl Snapshots API
   slug: ressl-ai-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ressl-ai/refs/heads/main/openapi/ressl-ai-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/ressl-ai/openapi/ressl-ai-snapshots-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -50,7 +50,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/ressl-ai-platform-openapi.yml\ndocs: https://docs.ressl.ai/api-reference/authentication\nnotes: >-\n  Control-plane requests use an organization API key (prefix rsk_) created in\n  the simulation.ressl.ai console (Settings, API keys), sent either as\n  Authorization: Bearer rsk_... or X-API-Key: rsk_.... Keys are org-scoped and\n  shown once at creation. Missing, malformed, or revoked keys return 401\n  { \"error\": \"Unauthorized\" }. The human console itself authenticates via\n  WorkOS AuthKit; the rsk_ key is the programmatic credential.\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Organization API key (prefix rsk_) sent as a bearer token.\n  sources:\n  - openapi/ressl-ai-platform-openapi.yml\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: Organization API key (prefix rsk_)\
   \ sent in the X-API-Key header.\n  sources:\n  - openapi/ressl-ai-platform-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ressl-ai/refs/heads/main/authentication/ressl-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ressl-ai/authentication/ressl-ai-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Mock APIs

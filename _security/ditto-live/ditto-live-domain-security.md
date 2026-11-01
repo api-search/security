@@ -5,37 +5,37 @@ api_specs:
   label: Ditto API Keys API
   slug: ditto-live-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ditto-live/refs/heads/main/openapi/ditto-live-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/ditto-live/openapi/ditto-live-api-keys-api-openapi.yml
 - filename: ditto-live-apps-api-openapi.yml
   format: yaml
   label: Ditto Apps API
   slug: ditto-live-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ditto-live/refs/heads/main/openapi/ditto-live-apps-api-openapi.yml
+  url: https://artifacts.apis.io/ditto-live/openapi/ditto-live-apps-api-openapi.yml
 - filename: ditto-live-bigpeerreplication-api-openapi.yml
   format: yaml
   label: Ditto BigPeerReplication API
   slug: ditto-live-bigpeerreplication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ditto-live/refs/heads/main/openapi/ditto-live-bigpeerreplication-api-openapi.yml
+  url: https://artifacts.apis.io/ditto-live/openapi/ditto-live-bigpeerreplication-api-openapi.yml
 - filename: ditto-live-data-bridge-api-openapi.yml
   format: yaml
   label: Ditto Data Bridge API
   slug: ditto-live-data-bridge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ditto-live/refs/heads/main/openapi/ditto-live-data-bridge-api-openapi.yml
+  url: https://artifacts.apis.io/ditto-live/openapi/ditto-live-data-bridge-api-openapi.yml
 - filename: ditto-live-store-api-openapi.yml
   format: yaml
   label: Ditto Store API
   slug: ditto-live-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ditto-live/refs/heads/main/openapi/ditto-live-store-api-openapi.yml
+  url: https://artifacts.apis.io/ditto-live/openapi/ditto-live-store-api-openapi.yml
 - filename: ditto-live-sync-api-openapi.yml
   format: yaml
   label: Ditto Sync API
   slug: ditto-live-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ditto-live/refs/heads/main/openapi/ditto-live-sync-api-openapi.yml
+  url: https://artifacts.apis.io/ditto-live/openapi/ditto-live-sync-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: ditto-live-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ditto.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 18:31:05 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: portal.ditto.live\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 13 23:59:59 2026 GMT\n  hsts: false\n- host: docs.ditto.live\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 17:13:53 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: ditto.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: ditto.live\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ditto-live/refs/heads/main/security/ditto-live-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ditto-live/security/ditto-live-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Developer Tools

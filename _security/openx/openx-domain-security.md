@@ -43,7 +43,7 @@ source_filename: openx-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.openx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 02:20:31 2026 GMT\n  hsts: false\n- host: docs.openx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 08:18:10 2026 GMT\n  hsts: false\n- host: api.openx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 22:40:17 2026 GMT\n  hsts: null\ndomains:\n- domain: openx.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openx/refs/heads/main/security/openx-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/openx/security/openx-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Advertising

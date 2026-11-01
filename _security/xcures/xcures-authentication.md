@@ -7,67 +7,67 @@ api_specs:
   label: xCures Application API
   slug: xcures-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-application-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-application-api-openapi.yml
 - filename: xcures-checklist-api-openapi.yml
   format: yaml
   label: xCures Checklist API
   slug: xcures-checklist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-checklist-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-checklist-api-openapi.yml
 - filename: xcures-clinical-concepts-api-openapi.yml
   format: yaml
   label: xCures Clinical Concepts API
   slug: xcures-clinical-concepts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-clinical-concepts-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-clinical-concepts-api-openapi.yml
 - filename: xcures-document-api-openapi.yml
   format: yaml
   label: xCures Document API
   slug: xcures-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-document-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-document-api-openapi.yml
 - filename: xcures-fhir-api-openapi.yml
   format: yaml
   label: xCures FHIR API
   slug: xcures-fhir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-fhir-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-fhir-api-openapi.yml
 - filename: xcures-project-api-openapi.yml
   format: yaml
   label: xCures Project API
   slug: xcures-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-project-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-project-api-openapi.yml
 - filename: xcures-query-api-openapi.yml
   format: yaml
   label: xCures Query API
   slug: xcures-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-query-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-query-api-openapi.yml
 - filename: xcures-reciprocity-template-api-openapi.yml
   format: yaml
   label: xCures Reciprocity Template API
   slug: xcures-reciprocity-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-reciprocity-template-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-reciprocity-template-api-openapi.yml
 - filename: xcures-subject-api-openapi.yml
   format: yaml
   label: xCures Subject API
   slug: xcures-subject-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-subject-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-subject-api-openapi.yml
 - filename: xcures-summary-api-openapi.yml
   format: yaml
   label: xCures Summary API
   slug: xcures-summary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-summary-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-summary-api-openapi.yml
 - filename: xcures-oauth-api-openapi.yml
   format: yaml
   label: xCures O Auth API
   slug: xcures-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-oauth-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-09-04'\nmethod: searched\nsource: >-\n  https://d
   \      - openapi/xcures-patient-registry-api-openapi.yml (info.description)\nproject_context:\n  header: ProjectId\n  required: true\n  required_on: 67 of 69 operations\n  exempt:\n    - PublicOAuthController_token\n    - PublicProjectController_getAll\n  value: UUID of a project the credential has permission to access\n  discovery: GET /api/v1/patient-registry/project\n  failure_mode: >-\n    A missing or unauthorized ProjectId returns 401 (\"Invalid API key or ProjectId\"), not 400 or 403. This\n    is the most common integration mistake and the docs call it out first in the error table.\ncredential_lifecycle:\n  issuance: >-\n    Initial portal credentials come from a Customer Success Manager. API keys are then self-managed:\n    Administration > API Keys > + Add, naming the key, selecting the Projects it can reach and the\n    permissions it carries. The client_id and client_secret are shown once.\n  self_service: true\n  since: '2025-12-04'\n  deactivation: toggle the ACTIVE switch\
   \ on the credential (confirmation modal)\n  rotation: >-\n    Supported and documented as expected practice — open the credential and use Rotate at the bottom of\n    the page; new credentials are displayed on completion. xCures publishes a short rationale for\n    rotation in the docs.\n  legacy_cutover:\n    announced: '2025-12-04'\n    effective: '2026-01-31'\n    detail: >-\n      All credentials created before December 2025 were deactivated after 2026-01-31 and had to be\n      recreated with the self-service tool; they only ever worked against the previous (now undocumented)\n      OAuth endpoint.\n  handling_guidance_published: >-\n    \"Your client_id and client_secret are privileged. Do not share publicly, expose in your code\n    repository, or include in client-side code. This is extremely sensitive, given it may give access to\n    your organization's PHI.\"\ntoken:\n  format: JWT\n  lifetime_published: false\n  refresh: >-\n    None. The client-credentials grant returns no\
   \ refresh_token; re-run the exchange. The docs call the\n    result a \"temporary access token\" but publish no TTL.\n  revocation_endpoint: none published\n  introspection_endpoint: none published\ndiscovery_documents:\n  openid_configuration: none (404 on every host)\n  oauth_authorization_server: >-\n    Not served for the Public API. The document at\n    https://docs.xcures.com/.well-known/oauth-authorization-server belongs to the DOCS PORTAL / MCP login\n    (issuer https://auth.cloud.redocly.com) — see well-known/xcures-well-known.yml. Do not mistake it for\n    the API's OAuth server.\ngaps:\n  - No published token lifetime, so a client cannot pre-emptively refresh.\n  - No scopes and no scope reference, so least-privilege is expressed only in the portal UI.\n  - No mTLS, no signed requests, no IP allowlisting documented for a PHI-bearing API.\n  - No discovery document for the Public API's own authorization server.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/authentication/xcures-authentication.yml
+source_yaml_url: https://artifacts.apis.io/xcures/authentication/xcures-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Health

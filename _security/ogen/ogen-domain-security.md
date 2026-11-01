@@ -26,7 +26,7 @@ source_filename: ogen-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ogen.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 13:00:50 2026 GMT\n  hsts: false\ndomains:\n- domain: ogen.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/security/ogen-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ogen/security/ogen-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Code Generation
@@ -36,7 +36,7 @@ tags:
 - Developer Tools
 - Open Source
 - JSON Schema
-- Client Libraries
+- Client Library
 - API Design
 - OpenTelemetry
 - SDK Generation

@@ -7,19 +7,19 @@ api_specs:
   label: Apache Knox Descriptors API
   slug: apache-knox-descriptors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-knox/refs/heads/main/openapi/apache-knox-descriptors-api-openapi.yml
+  url: https://artifacts.apis.io/apache-knox/openapi/apache-knox-descriptors-api-openapi.yml
 - filename: apache-knox-providers-api-openapi.yml
   format: yaml
   label: Apache Knox Providers API
   slug: apache-knox-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-knox/refs/heads/main/openapi/apache-knox-providers-api-openapi.yml
+  url: https://artifacts.apis.io/apache-knox/openapi/apache-knox-providers-api-openapi.yml
 - filename: apache-knox-topologies-api-openapi.yml
   format: yaml
   label: Apache Knox Topologies API
   slug: apache-knox-topologies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-knox/refs/heads/main/openapi/apache-knox-topologies-api-openapi.yml
+  url: https://artifacts.apis.io/apache-knox/openapi/apache-knox-topologies-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -45,7 +45,7 @@ source_filename: apache-knox-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/apache-knox-admin-api.yaml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/apache-knox-admin-api.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-knox/refs/heads/main/authentication/apache-knox-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apache-knox/authentication/apache-knox-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - API Gateway

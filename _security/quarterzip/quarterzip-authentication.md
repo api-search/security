@@ -35,7 +35,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://docs.quarterzip.ai/sdk-api\ndocs: https://docs.quarterzip.ai/sdk-api\nnote: >-\n  Quarterzip exposes a client-side JavaScript SDK and signed webhooks rather than a\n  traditional REST API. Authentication is derived from the published SDK and webhook\n  docs, not an OpenAPI securityScheme.\nsummary:\n  types:\n  - workspace-token\n  - hmac-signature\n  api_key_in:\n  - client-config\nschemes:\n- name: workspaceToken\n  type: apiKey\n  in: sdk-config\n  description: >-\n    Workspace token issued by Quarterzip (app Settings), passed to Quarterzip.open()\n    together with an agentId (from the agent URL /w/{WORKSPACE_ID}/a/{AGENT_ID}).\n  source: https://docs.quarterzip.ai/sdk-api\n- name: webhookSignature\n  type: hmac\n  scheme: standard-webhooks\n  secret_format: whsec_\n  description: >-\n    Inbound webhook deliveries are signed with an HMAC (Standard Webhooks) using the\n    workspace signing secret; consumers verify\
   \ the webhook-signature header.\n  source: https://docs.quarterzip.ai/webhooks\ncontrols:\n- domain-restriction: >-\n    Origin-header validation (\"domain restriction\") can be enabled in the Quarterzip\n    app so SDK requests are only accepted from allowlisted origins.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quarterzip/refs/heads/main/authentication/quarterzip-authentication.yml
+source_yaml_url: https://artifacts.apis.io/quarterzip/authentication/quarterzip-authentication.yml
 summary_line: workspace-token/hmac-signature · 2 schemes
 tags:
 - Company

@@ -7,25 +7,25 @@ api_specs:
   label: Orama Answer API
   slug: orama-answer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orama/refs/heads/main/openapi/orama-answer-api-openapi.yml
+  url: https://artifacts.apis.io/orama/openapi/orama-answer-api-openapi.yml
 - filename: orama-documents-api-openapi.yml
   format: yaml
   label: Orama Documents API
   slug: orama-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orama/refs/heads/main/openapi/orama-documents-api-openapi.yml
+  url: https://artifacts.apis.io/orama/openapi/orama-documents-api-openapi.yml
 - filename: orama-indexes-api-openapi.yml
   format: yaml
   label: Orama Indexes API
   slug: orama-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orama/refs/heads/main/openapi/orama-indexes-api-openapi.yml
+  url: https://artifacts.apis.io/orama/openapi/orama-indexes-api-openapi.yml
 - filename: orama-search-api-openapi.yml
   format: yaml
   label: Orama Search API
   slug: orama-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orama/refs/heads/main/openapi/orama-search-api-openapi.yml
+  url: https://artifacts.apis.io/orama/openapi/orama-search-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: orama-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/orama-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Private (write) API key sent as `Authorization: Bearer {key}` for management\n    and ingestion endpoints on api.askorama.ai. Search and answer endpoints instead use a public\n    (read) API key supplied via the `api-key` query parameter.'\n  sources:\n  - openapi/orama-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orama/refs/heads/main/authentication/orama-authentication.yml
+source_yaml_url: https://artifacts.apis.io/orama/authentication/orama-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Search

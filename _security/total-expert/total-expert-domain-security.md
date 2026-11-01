@@ -5,103 +5,103 @@ api_specs:
   label: Total Expert Account Endpoints API
   slug: total-expert-account-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-account-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-account-endpoints-api-openapi.yml
 - filename: total-expert-activity-endpoints-api-openapi.yml
   format: yaml
   label: Total Expert Activity Endpoints API
   slug: total-expert-activity-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-activity-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-activity-endpoints-api-openapi.yml
 - filename: total-expert-alm-leads-formerly-lead-opportunities-api-openapi.yml
   format: yaml
   label: Total Expert ALM Leads (formerly Lead Opportunities) API
   slug: total-expert-alm-leads-formerly-lead-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-alm-leads-formerly-lead-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-alm-leads-formerly-lead-opportunities-api-openapi.yml
 - filename: total-expert-authentication-api-openapi.yml
   format: yaml
   label: Total Expert Authentication API
   slug: total-expert-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-authentication-api-openapi.yml
 - filename: total-expert-contact-endpoints-api-openapi.yml
   format: yaml
   label: Total Expert Contact Endpoints API
   slug: total-expert-contact-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-contact-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-contact-endpoints-api-openapi.yml
 - filename: total-expert-email-apis-api-openapi.yml
   format: yaml
   label: Total Expert Email APIs API
   slug: total-expert-email-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-email-apis-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-email-apis-api-openapi.yml
 - filename: total-expert-email-unsubscribes-api-openapi.yml
   format: yaml
   label: Total Expert Email Unsubscribes API
   slug: total-expert-email-unsubscribes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-email-unsubscribes-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-email-unsubscribes-api-openapi.yml
 - filename: total-expert-entities-api-openapi.yml
   format: yaml
   label: Total Expert Entities API
   slug: total-expert-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-entities-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-entities-api-openapi.yml
 - filename: total-expert-heartbeat-api-openapi.yml
   format: yaml
   label: Total Expert Heartbeat API
   slug: total-expert-heartbeat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-heartbeat-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-heartbeat-api-openapi.yml
 - filename: total-expert-insight-endpoints-api-openapi.yml
   format: yaml
   label: Total Expert Insight Endpoints API
   slug: total-expert-insight-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-insight-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-insight-endpoints-api-openapi.yml
 - filename: total-expert-lead-opportunities-new-api-openapi.yml
   format: yaml
   label: Total Expert Lead Opportunities (New) API
   slug: total-expert-lead-opportunities-new-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-lead-opportunities-new-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-lead-opportunities-new-api-openapi.yml
 - filename: total-expert-loan-endpoints-api-openapi.yml
   format: yaml
   label: Total Expert Loan Endpoints API
   slug: total-expert-loan-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-loan-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-loan-endpoints-api-openapi.yml
 - filename: total-expert-scenarios-api-openapi.yml
   format: yaml
   label: Total Expert Scenarios API
   slug: total-expert-scenarios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-scenarios-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-scenarios-api-openapi.yml
 - filename: total-expert-schema-endpoints-api-openapi.yml
   format: yaml
   label: Total Expert Schema Endpoints API
   slug: total-expert-schema-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-schema-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-schema-endpoints-api-openapi.yml
 - filename: total-expert-sms-opting-api-openapi.yml
   format: yaml
   label: Total Expert SMS Opting API
   slug: total-expert-sms-opting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-sms-opting-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-sms-opting-api-openapi.yml
 - filename: total-expert-user-endpoints-api-openapi.yml
   format: yaml
   label: Total Expert User Endpoints API
   slug: total-expert-user-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-user-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-user-endpoints-api-openapi.yml
 - filename: total-expert-webhooks-api-openapi.yml
   format: yaml
   label: Total Expert Webhooks API
   slug: total-expert-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -156,7 +156,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.totalexpert.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 28 20:47:18 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.totalexpert.net\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 31 23:59:59 2026 GMT\n  hsts: false\n- host: public.totalexpert.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 24 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: totalexpert.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: totalexpert.net\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n\
   \  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/security/total-expert-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/total-expert/security/total-expert-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

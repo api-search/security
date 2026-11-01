@@ -5,19 +5,19 @@ api_specs:
   label: Apple Apps API
   slug: apple-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple/refs/heads/main/openapi/apple-apps-api-openapi.yml
+  url: https://artifacts.apis.io/apple/openapi/apple-apps-api-openapi.yml
 - filename: apple-beta-testers-api-openapi.yml
   format: yaml
   label: Apple Beta Testers API
   slug: apple-beta-testers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple/refs/heads/main/openapi/apple-beta-testers-api-openapi.yml
+  url: https://artifacts.apis.io/apple/openapi/apple-beta-testers-api-openapi.yml
 - filename: apple-builds-api-openapi.yml
   format: yaml
   label: Apple Builds API
   slug: apple-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple/refs/heads/main/openapi/apple-builds-api-openapi.yml
+  url: https://artifacts.apis.io/apple/openapi/apple-builds-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -61,7 +61,7 @@ source_filename: apple-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.apple.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 17:10:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.music.apple.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  7 19:46:05 2027 GMT\n  hsts: null\n- host: weatherkit.apple.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 23 20:57:12 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: apple.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.apple.com\"\n  - 0 issuewild \"pki.apple.com\"\n  - 0 iodef \"mailto:contact_pki@apple.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apple/refs/heads/main/security/apple-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apple/security/apple-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Apple

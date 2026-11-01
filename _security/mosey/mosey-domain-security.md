@@ -5,73 +5,73 @@ api_specs:
   label: Mosey Accounts API
   slug: mosey-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/openapi/mosey-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/mosey/openapi/mosey-accounts-api-openapi.yml
 - filename: mosey-agency-accounts-api-openapi.yml
   format: yaml
   label: Mosey Agency Accounts API
   slug: mosey-agency-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/openapi/mosey-agency-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/mosey/openapi/mosey-agency-accounts-api-openapi.yml
 - filename: mosey-auth-api-openapi.yml
   format: yaml
   label: Mosey Auth API
   slug: mosey-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/openapi/mosey-auth-api-openapi.yml
+  url: https://artifacts.apis.io/mosey/openapi/mosey-auth-api-openapi.yml
 - filename: mosey-documents-api-openapi.yml
   format: yaml
   label: Mosey Documents API
   slug: mosey-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/openapi/mosey-documents-api-openapi.yml
+  url: https://artifacts.apis.io/mosey/openapi/mosey-documents-api-openapi.yml
 - filename: mosey-handbook-api-openapi.yml
   format: yaml
   label: Mosey Handbook API
   slug: mosey-handbook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/openapi/mosey-handbook-api-openapi.yml
+  url: https://artifacts.apis.io/mosey/openapi/mosey-handbook-api-openapi.yml
 - filename: mosey-legal-entity-api-openapi.yml
   format: yaml
   label: Mosey Legal Entity API
   slug: mosey-legal-entity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/openapi/mosey-legal-entity-api-openapi.yml
+  url: https://artifacts.apis.io/mosey/openapi/mosey-legal-entity-api-openapi.yml
 - filename: mosey-locations-api-openapi.yml
   format: yaml
   label: Mosey Locations API
   slug: mosey-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/openapi/mosey-locations-api-openapi.yml
+  url: https://artifacts.apis.io/mosey/openapi/mosey-locations-api-openapi.yml
 - filename: mosey-logins-api-openapi.yml
   format: yaml
   label: Mosey Logins API
   slug: mosey-logins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/openapi/mosey-logins-api-openapi.yml
+  url: https://artifacts.apis.io/mosey/openapi/mosey-logins-api-openapi.yml
 - filename: mosey-mail-api-openapi.yml
   format: yaml
   label: Mosey Mail API
   slug: mosey-mail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/openapi/mosey-mail-api-openapi.yml
+  url: https://artifacts.apis.io/mosey/openapi/mosey-mail-api-openapi.yml
 - filename: mosey-regions-api-openapi.yml
   format: yaml
   label: Mosey Regions API
   slug: mosey-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/openapi/mosey-regions-api-openapi.yml
+  url: https://artifacts.apis.io/mosey/openapi/mosey-regions-api-openapi.yml
 - filename: mosey-signup-api-openapi.yml
   format: yaml
   label: Mosey Signup API
   slug: mosey-signup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/openapi/mosey-signup-api-openapi.yml
+  url: https://artifacts.apis.io/mosey/openapi/mosey-signup-api-openapi.yml
 - filename: mosey-tasks-api-openapi.yml
   format: yaml
   label: Mosey Tasks API
   slug: mosey-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/openapi/mosey-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/mosey/openapi/mosey-tasks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -106,7 +106,7 @@ source_filename: mosey-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.mosey.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 20:47:44 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.mosey.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 19 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: mosey.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/security/mosey-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mosey/security/mosey-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

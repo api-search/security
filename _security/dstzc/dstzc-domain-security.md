@@ -26,7 +26,7 @@ source_filename: dstzc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dstcar.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar  3 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: dstcar.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dstzc/refs/heads/main/security/dstzc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dstzc/security/dstzc-domain-security.yml
 summary_line: TLSv1.2 · DNSSEC
 tags:
 - Company

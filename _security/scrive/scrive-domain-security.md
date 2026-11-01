@@ -5,49 +5,49 @@ api_specs:
   label: Scrive Access Control API
   slug: scrive-access-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/openapi/scrive-access-control-api-openapi.yml
+  url: https://artifacts.apis.io/scrive/openapi/scrive-access-control-api-openapi.yml
 - filename: scrive-attachments-api-openapi.yml
   format: yaml
   label: Scrive Attachments API
   slug: scrive-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/openapi/scrive-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/scrive/openapi/scrive-attachments-api-openapi.yml
 - filename: scrive-callbacks-api-openapi.yml
   format: yaml
   label: Scrive Callbacks API
   slug: scrive-callbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/openapi/scrive-callbacks-api-openapi.yml
+  url: https://artifacts.apis.io/scrive/openapi/scrive-callbacks-api-openapi.yml
 - filename: scrive-documents-api-openapi.yml
   format: yaml
   label: Scrive Documents API
   slug: scrive-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/openapi/scrive-documents-api-openapi.yml
+  url: https://artifacts.apis.io/scrive/openapi/scrive-documents-api-openapi.yml
 - filename: scrive-e-id-authentication-api-openapi.yml
   format: yaml
   label: Scrive e-ID Authentication API
   slug: scrive-e-id-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/openapi/scrive-e-id-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/scrive/openapi/scrive-e-id-authentication-api-openapi.yml
 - filename: scrive-monitor-api-openapi.yml
   format: yaml
   label: Scrive Monitor API
   slug: scrive-monitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/openapi/scrive-monitor-api-openapi.yml
+  url: https://artifacts.apis.io/scrive/openapi/scrive-monitor-api-openapi.yml
 - filename: scrive-signing-api-openapi.yml
   format: yaml
   label: Scrive Signing API
   slug: scrive-signing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/openapi/scrive-signing-api-openapi.yml
+  url: https://artifacts.apis.io/scrive/openapi/scrive-signing-api-openapi.yml
 - filename: scrive-templates-api-openapi.yml
   format: yaml
   label: Scrive Templates API
   slug: scrive-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/openapi/scrive-templates-api-openapi.yml
+  url: https://artifacts.apis.io/scrive/openapi/scrive-templates-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -94,7 +94,7 @@ source_filename: scrive-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.scrive.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 02:02:16 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: apidocs.scrive.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 12:09:49 2026 GMT\n  hsts: false\n- host: scrive.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  4 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: scrive.com\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:oi@scrive.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"certainly.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/security/scrive-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/scrive/security/scrive-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - E-Signature

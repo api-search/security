@@ -5,31 +5,31 @@ api_specs:
   label: API Blueprint Composer API
   slug: api-blueprint-composer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-blueprint/refs/heads/main/openapi/api-blueprint-composer-api-openapi.yml
+  url: https://artifacts.apis.io/api-blueprint/openapi/api-blueprint-composer-api-openapi.yml
 - filename: api-blueprint-parser-api-openapi.yml
   format: yaml
   label: API Blueprint Parser API
   slug: api-blueprint-parser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-blueprint/refs/heads/main/openapi/api-blueprint-parser-api-openapi.yml
+  url: https://artifacts.apis.io/api-blueprint/openapi/api-blueprint-parser-api-openapi.yml
 - filename: api-blueprint-service-root-api-openapi.yml
   format: yaml
   label: API Blueprint Service Root API
   slug: api-blueprint-service-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-blueprint/refs/heads/main/openapi/api-blueprint-service-root-api-openapi.yml
+  url: https://artifacts.apis.io/api-blueprint/openapi/api-blueprint-service-root-api-openapi.yml
 - filename: api-blueprint-transform-api-openapi.yml
   format: yaml
   label: API Blueprint Transform API
   slug: api-blueprint-transform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-blueprint/refs/heads/main/openapi/api-blueprint-transform-api-openapi.yml
+  url: https://artifacts.apis.io/api-blueprint/openapi/api-blueprint-transform-api-openapi.yml
 - filename: api-blueprint-validate-api-openapi.yml
   format: yaml
   label: API Blueprint Validate API
   slug: api-blueprint-validate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-blueprint/refs/heads/main/openapi/api-blueprint-validate-api-openapi.yml
+  url: https://artifacts.apis.io/api-blueprint/openapi/api-blueprint-validate-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -74,7 +74,7 @@ source_filename: api-blueprint-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: apiblueprint.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 25 15:56:18 2026 GMT\n  hsts: false\n- host: apiblueprintapi.docs.apiary.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  6 23:59:59 2027 GMT\n  hsts: false\n- host: api.apiblueprint.org\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 15 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: apiblueprint.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n- domain: apiary.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-blueprint/refs/heads/main/security/api-blueprint-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/api-blueprint/security/api-blueprint-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - API Design

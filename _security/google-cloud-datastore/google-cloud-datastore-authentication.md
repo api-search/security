@@ -7,7 +7,7 @@ api_specs:
   label: Google Cloud Datastore Projects API
   slug: google-cloud-datastore-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-datastore/refs/heads/main/openapi/google-cloud-datastore-projects-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-datastore/openapi/google-cloud-datastore-projects-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -38,7 +38,7 @@ source_filename: google-cloud-datastore-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/google-cloud-datastore-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 2\n  sources:\n  - openapi/google-cloud-datastore-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-datastore/refs/heads/main/authentication/google-cloud-datastore-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-datastore/authentication/google-cloud-datastore-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - NoSQL

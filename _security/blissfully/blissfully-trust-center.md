@@ -5,25 +5,25 @@ api_specs:
   label: Blissfully Pricing API
   slug: blissfully-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blissfully/refs/heads/main/openapi/blissfully-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/blissfully/openapi/blissfully-pricing-api-openapi.yml
 - filename: blissfully-products-api-openapi.yml
   format: yaml
   label: Blissfully Products API
   slug: blissfully-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blissfully/refs/heads/main/openapi/blissfully-products-api-openapi.yml
+  url: https://artifacts.apis.io/blissfully/openapi/blissfully-products-api-openapi.yml
 - filename: blissfully-vendors-api-openapi.yml
   format: yaml
   label: Blissfully Vendors API
   slug: blissfully-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blissfully/refs/heads/main/openapi/blissfully-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/blissfully/openapi/blissfully-vendors-api-openapi.yml
 - filename: blissfully-webhooks-api-openapi.yml
   format: yaml
   label: Blissfully Webhooks API
   slug: blissfully-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blissfully/refs/heads/main/openapi/blissfully-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/blissfully/openapi/blissfully-webhooks-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -41,7 +41,7 @@ source_filename: blissfully-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.vendr.com/\nurl: https://www.vendr.com/\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://www.vendr.com/\n  keywords:\n  - soc 2\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blissfully/refs/heads/main/security/blissfully-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/blissfully/security/blissfully-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - Procurement

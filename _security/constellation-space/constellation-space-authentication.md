@@ -7,19 +7,19 @@ api_specs:
   label: Constellation Space Predictions API
   slug: constellation-space-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constellation-space/refs/heads/main/openapi/constellation-space-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/constellation-space/openapi/constellation-space-predictions-api-openapi.yml
 - filename: constellation-space-telemetry-api-openapi.yml
   format: yaml
   label: Constellation Space Telemetry API
   slug: constellation-space-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constellation-space/refs/heads/main/openapi/constellation-space-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/constellation-space/openapi/constellation-space-telemetry-api-openapi.yml
 - filename: constellation-space-topology-api-openapi.yml
   format: yaml
   label: Constellation Space Topology API
   slug: constellation-space-topology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constellation-space/refs/heads/main/openapi/constellation-space-topology-api-openapi.yml
+  url: https://artifacts.apis.io/constellation-space/openapi/constellation-space-topology-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -61,7 +61,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://docs.constellation.space/connect/api-tokens\ndocs: https://docs.constellation.space/connect/api-tokens\nsummary:\n  types:\n  - http\n  http_schemes:\n  - bearer\n  api_key_in: []\n  oauth2_flows: []\n  notes: >-\n    Static, scoped API tokens presented as HTTP bearer credentials. Not an\n    OAuth2 authorization-code flow — tokens are minted in the console, not\n    granted via an authorization server. Scopes are attached to the token at\n    creation time.\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  header: Authorization\n  format: 'Authorization: Bearer <token>'\n  token_prefixes:\n    production: cos_live_\n    non_production: cos_dev_\n  env_var: CONSTELLATION_API_TOKEN\n  lifecycle:\n    created_in: Settings -> API (console)\n    shown_once: true\n    revocable: instant (Settings -> API); in-flight requests fail immediately after revocation propagates\n    validated: on every API request\n\
   \  scopes:\n  - topology:read\n  - telemetry:write\n  - predictions:run\n  sources:\n  - openapi/constellation-space-openapi.yml\nexample: |\n  export CONSTELLATION_API_TOKEN=cos_live_your_token_here\n  curl -sS -H \"Authorization: Bearer $CONSTELLATION_API_TOKEN\" \\\n    \"https://api.constellation.space/api/v1/topology/\"\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/constellation-space/refs/heads/main/authentication/constellation-space-authentication.yml
+source_yaml_url: https://artifacts.apis.io/constellation-space/authentication/constellation-space-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

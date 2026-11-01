@@ -5,67 +5,67 @@ api_specs:
   label: Nitric API Resource
   slug: nitric-api-resource
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/_original/nitric-openapi.yml
+  url: https://artifacts.apis.io/nitric/openapi/_original/nitric-openapi.yml
 - filename: nitric-openapi.yml
   format: yaml
   label: Nitric Schedule Resource
   slug: nitric-schedule-resource
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/_original/nitric-openapi.yml
+  url: https://artifacts.apis.io/nitric/openapi/_original/nitric-openapi.yml
 - filename: nitric-openapi.yml
   format: yaml
   label: Nitric Queue Resource
   slug: nitric-queue-resource
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/_original/nitric-openapi.yml
+  url: https://artifacts.apis.io/nitric/openapi/_original/nitric-openapi.yml
 - filename: nitric-openapi.yml
   format: yaml
   label: Nitric Topic Resource
   slug: nitric-topic-resource
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/_original/nitric-openapi.yml
+  url: https://artifacts.apis.io/nitric/openapi/_original/nitric-openapi.yml
 - filename: nitric-openapi.yml
   format: yaml
   label: Nitric Bucket Resource
   slug: nitric-bucket-resource
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/_original/nitric-openapi.yml
+  url: https://artifacts.apis.io/nitric/openapi/_original/nitric-openapi.yml
 - filename: nitric-openapi.yml
   format: yaml
   label: Nitric Key-Value Resource
   slug: nitric-keyvalue-resource
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/_original/nitric-openapi.yml
+  url: https://artifacts.apis.io/nitric/openapi/_original/nitric-openapi.yml
 - filename: nitric-openapi.yml
   format: yaml
   label: Nitric Secret Resource
   slug: nitric-secret-resource
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/_original/nitric-openapi.yml
+  url: https://artifacts.apis.io/nitric/openapi/_original/nitric-openapi.yml
 - filename: nitric-openapi.yml
   format: yaml
   label: Nitric Websocket Resource
   slug: nitric-websocket-resource
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/_original/nitric-openapi.yml
+  url: https://artifacts.apis.io/nitric/openapi/_original/nitric-openapi.yml
 - filename: nitric-openapi.yml
   format: yaml
   label: Nitric SQL Database Resource
   slug: nitric-sql-resource
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/_original/nitric-openapi.yml
+  url: https://artifacts.apis.io/nitric/openapi/_original/nitric-openapi.yml
 - filename: nitric-openapi.yml
   format: yaml
   label: Nitric CLI
   slug: nitric-cli
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/_original/nitric-openapi.yml
+  url: https://artifacts.apis.io/nitric/openapi/_original/nitric-openapi.yml
 - filename: nitric-openapi.yml
   format: yaml
   label: Nitric Provider Plugins
   slug: nitric-provider-plugins
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/_original/nitric-openapi.yml
+  url: https://artifacts.apis.io/nitric/openapi/_original/nitric-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -95,7 +95,7 @@ source_filename: nitric-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: nitric.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 02:13:32 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: nitric.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/security/nitric-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nitric/security/nitric-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Infrastructure from Code

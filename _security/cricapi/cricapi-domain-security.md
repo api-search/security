@@ -5,37 +5,37 @@ api_specs:
   label: CricAPI Fantasy API
   slug: cricapi-fantasy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/openapi/cricapi-fantasy-api-openapi.yml
+  url: https://artifacts.apis.io/cricapi/openapi/cricapi-fantasy-api-openapi.yml
 - filename: cricapi-generic-api-openapi.yml
   format: yaml
   label: CricAPI Generic API
   slug: cricapi-generic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/openapi/cricapi-generic-api-openapi.yml
+  url: https://artifacts.apis.io/cricapi/openapi/cricapi-generic-api-openapi.yml
 - filename: cricapi-info-api-openapi.yml
   format: yaml
   label: CricAPI Info API
   slug: cricapi-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/openapi/cricapi-info-api-openapi.yml
+  url: https://artifacts.apis.io/cricapi/openapi/cricapi-info-api-openapi.yml
 - filename: cricapi-matches-api-openapi.yml
   format: yaml
   label: CricAPI Matches API
   slug: cricapi-matches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/openapi/cricapi-matches-api-openapi.yml
+  url: https://artifacts.apis.io/cricapi/openapi/cricapi-matches-api-openapi.yml
 - filename: cricapi-players-api-openapi.yml
   format: yaml
   label: CricAPI Players API
   slug: cricapi-players-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/openapi/cricapi-players-api-openapi.yml
+  url: https://artifacts.apis.io/cricapi/openapi/cricapi-players-api-openapi.yml
 - filename: cricapi-series-api-openapi.yml
   format: yaml
   label: CricAPI Series API
   slug: cricapi-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/openapi/cricapi-series-api-openapi.yml
+  url: https://artifacts.apis.io/cricapi/openapi/cricapi-series-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,7 +81,7 @@ source_filename: cricapi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cricapi.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  3 06:16:06 2026 GMT\n  hsts: false\n- host: cricketdata.org\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 26 10:45:39 2026 GMT\n  hsts: true\n  hsts_max_age: 15768000\n- host: api.cricapi.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  2 14:45:47 2026 GMT\n  hsts: true\n  hsts_max_age: 15768000\ndomains:\n- domain: cricapi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: cricketdata.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/security/cricapi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cricapi/security/cricapi-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Cricket

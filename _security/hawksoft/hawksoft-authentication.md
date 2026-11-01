@@ -7,31 +7,31 @@ api_specs:
   label: HawkSoft Agencies API
   slug: hawksoft-agencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/openapi/hawksoft-agencies-api-openapi.yml
+  url: https://artifacts.apis.io/hawksoft/openapi/hawksoft-agencies-api-openapi.yml
 - filename: hawksoft-attachments-api-openapi.yml
   format: yaml
   label: HawkSoft Attachments API
   slug: hawksoft-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/openapi/hawksoft-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/hawksoft/openapi/hawksoft-attachments-api-openapi.yml
 - filename: hawksoft-clients-api-openapi.yml
   format: yaml
   label: HawkSoft Clients API
   slug: hawksoft-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/openapi/hawksoft-clients-api-openapi.yml
+  url: https://artifacts.apis.io/hawksoft/openapi/hawksoft-clients-api-openapi.yml
 - filename: hawksoft-log-entries-api-openapi.yml
   format: yaml
   label: HawkSoft Log Entries API
   slug: hawksoft-log-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/openapi/hawksoft-log-entries-api-openapi.yml
+  url: https://artifacts.apis.io/hawksoft/openapi/hawksoft-log-entries-api-openapi.yml
 - filename: hawksoft-receipts-api-openapi.yml
   format: yaml
   label: HawkSoft Receipts API
   slug: hawksoft-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/openapi/hawksoft-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/hawksoft/openapi/hawksoft-receipts-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: hawksoft-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/hawksoft-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication with partner-issued credentials.\n  sources:\n  - openapi/hawksoft-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/authentication/hawksoft-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hawksoft/authentication/hawksoft-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Insurance

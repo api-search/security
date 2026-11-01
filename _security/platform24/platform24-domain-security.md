@@ -5,25 +5,25 @@ api_specs:
   label: Platform24 Activities API
   slug: platform24-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/platform24/refs/heads/main/openapi/platform24-activities-api-openapi.yml
+  url: https://artifacts.apis.io/platform24/openapi/platform24-activities-api-openapi.yml
 - filename: platform24-data-collect-api-openapi.yml
   format: yaml
   label: Platform24 Data Collect API
   slug: platform24-data-collect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/platform24/refs/heads/main/openapi/platform24-data-collect-api-openapi.yml
+  url: https://artifacts.apis.io/platform24/openapi/platform24-data-collect-api-openapi.yml
 - filename: platform24-front-door-connect-api-openapi.yml
   format: yaml
   label: Platform24 Front Door Connect API
   slug: platform24-front-door-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/platform24/refs/heads/main/openapi/platform24-front-door-connect-api-openapi.yml
+  url: https://artifacts.apis.io/platform24/openapi/platform24-front-door-connect-api-openapi.yml
 - filename: platform24-sso-url-api-openapi.yml
   format: yaml
   label: Platform24 Sso Url API
   slug: platform24-sso-url-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/platform24/refs/heads/main/openapi/platform24-sso-url-api-openapi.yml
+  url: https://artifacts.apis.io/platform24/openapi/platform24-sso-url-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: platform24-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: platform24.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  3 11:02:22 2027 GMT\n  hsts: false\ndomains:\n- domain: platform24.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/platform24/refs/heads/main/security/platform24-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/platform24/security/platform24-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Healthcare

@@ -7,37 +7,37 @@ api_specs:
   label: UrbanFox Cases API
   slug: urbanfox-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-cases-api-openapi.yml
+  url: https://artifacts.apis.io/urbanfox/openapi/urbanfox-cases-api-openapi.yml
 - filename: urbanfox-end-user-accounts-api-openapi.yml
   format: yaml
   label: UrbanFox End User Accounts API
   slug: urbanfox-end-user-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-end-user-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/urbanfox/openapi/urbanfox-end-user-accounts-api-openapi.yml
 - filename: urbanfox-metrics-api-openapi.yml
   format: yaml
   label: UrbanFox Metrics API
   slug: urbanfox-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/urbanfox/openapi/urbanfox-metrics-api-openapi.yml
 - filename: urbanfox-snippet-api-openapi.yml
   format: yaml
   label: UrbanFox Snippet API
   slug: urbanfox-snippet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-snippet-api-openapi.yml
+  url: https://artifacts.apis.io/urbanfox/openapi/urbanfox-snippet-api-openapi.yml
 - filename: urbanfox-tenants-api-openapi.yml
   format: yaml
   label: UrbanFox Tenants API
   slug: urbanfox-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/urbanfox/openapi/urbanfox-tenants-api-openapi.yml
 - filename: urbanfox-oauth-api-openapi.yml
   format: yaml
   label: UrbanFox O Auth API
   slug: urbanfox-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/urbanfox/openapi/urbanfox-oauth-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -69,7 +69,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/urbanfox-customer-api-openapi.yml\ndocs: https://docs.urbanfox.io/how-to/authenticate\nnotes: 'Machine-to-machine only: no static API keys. POST /v2/oauth/token follows\n  RFC 6749 client-credentials with an application/x-www-form-urlencoded body\n  (grant_type, client_id, client_secret); the response returns a Bearer JWT with\n  expires_in 86400 (24h). Credentials are per-tenant, and the tenant slug appears\n  in both the API host (api.{tenant_slug}.urbanfox.io) and the request path.\n  Credential rotation is supported without downtime via\n  POST /v2/{tenant_slug}/tenants/rotate-auth-secret\n  (docs: https://docs.urbanfox.io/how-to/rotate-auth-secret). 401 means expired/invalid\n  token (re-authenticate); 403 means missing scope or tenant mismatch.'\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl:\
   \ https://api.demo-retail.urbanfox.io/v2/oauth/token\n    scopes: 13\n  description: 'OAuth 2.0 client-credentials flow. Request a token from `POST /v2/oauth/token`\n    and send it as `Authorization: Bearer <access_token>`.'\n  sources:\n  - openapi/urbanfox-customer-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/authentication/urbanfox-authentication.yml
+source_yaml_url: https://artifacts.apis.io/urbanfox/authentication/urbanfox-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Fraud Prevention

@@ -23,7 +23,7 @@ source_filename: chatail-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: chatail.com\n  https: false\ndomains:\n- domain: chatail.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chatail/refs/heads/main/security/chatail-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/chatail/security/chatail-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

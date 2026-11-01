@@ -5,25 +5,25 @@ api_specs:
   label: Biodock Analysis Jobs API
   slug: biodock-analysis-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/biodock/refs/heads/main/openapi/biodock-analysis-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/biodock/openapi/biodock-analysis-jobs-api-openapi.yml
 - filename: biodock-auth-api-openapi.yml
   format: yaml
   label: Biodock Auth API
   slug: biodock-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/biodock/refs/heads/main/openapi/biodock-auth-api-openapi.yml
+  url: https://artifacts.apis.io/biodock/openapi/biodock-auth-api-openapi.yml
 - filename: biodock-files-api-openapi.yml
   format: yaml
   label: Biodock Files API
   slug: biodock-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/biodock/refs/heads/main/openapi/biodock-files-api-openapi.yml
+  url: https://artifacts.apis.io/biodock/openapi/biodock-files-api-openapi.yml
 - filename: biodock-pipelines-api-openapi.yml
   format: yaml
   label: Biodock Pipelines API
   slug: biodock-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/biodock/refs/heads/main/openapi/biodock-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/biodock/openapi/biodock-pipelines-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2 Type II
@@ -94,7 +94,7 @@ source_yaml: 'generated: ''2026-07-18''
   - {source: https://docs.biodock.ai/company/security-and-ip, keywords: [encryption, access controls, business continuity]}
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/biodock/refs/heads/main/security/biodock-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/biodock/security/biodock-trust-center.yml
 summary_line: SOC 2 Type II, SOC 3, ISO 27001
 tags:
 - Company

@@ -5,19 +5,19 @@ api_specs:
   label: Modo Energy ERCOT API
   slug: modo-energy-ercot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modo-energy/refs/heads/main/openapi/modo-energy-ercot-api-openapi.yml
+  url: https://artifacts.apis.io/modo-energy/openapi/modo-energy-ercot-api-openapi.yml
 - filename: modo-energy-gb-api-openapi.yml
   format: yaml
   label: Modo Energy GB API
   slug: modo-energy-gb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modo-energy/refs/heads/main/openapi/modo-energy-gb-api-openapi.yml
+  url: https://artifacts.apis.io/modo-energy/openapi/modo-energy-gb-api-openapi.yml
 - filename: modo-energy-nem-api-openapi.yml
   format: yaml
   label: Modo Energy NEM API
   slug: modo-energy-nem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modo-energy/refs/heads/main/openapi/modo-energy-nem-api-openapi.yml
+  url: https://artifacts.apis.io/modo-energy/openapi/modo-energy-nem-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: modo-energy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.modoenergy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 13:53:32 2026 GMT\n  hsts: null\n- host: api.modoenergy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 16 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: modoenergy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/modo-energy/refs/heads/main/security/modo-energy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/modo-energy/security/modo-energy-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Energy

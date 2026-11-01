@@ -7,25 +7,25 @@ api_specs:
   label: Massey University Core API
   slug: massey-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/massey/refs/heads/main/openapi/massey-core-api-openapi.yml
+  url: https://artifacts.apis.io/massey/openapi/massey-core-api-openapi.yml
 - filename: massey-discovery-api-openapi.yml
   format: yaml
   label: Massey University Discovery API
   slug: massey-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/massey/refs/heads/main/openapi/massey-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/massey/openapi/massey-discovery-api-openapi.yml
 - filename: massey-news-api-openapi.yml
   format: yaml
   label: Massey University News API
   slug: massey-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/massey/refs/heads/main/openapi/massey-news-api-openapi.yml
+  url: https://artifacts.apis.io/massey/openapi/massey-news-api-openapi.yml
 - filename: massey-root-api-openapi.yml
   format: yaml
   label: Massey University Root API
   slug: massey-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/massey/refs/heads/main/openapi/massey-root-api-openapi.yml
+  url: https://artifacts.apis.io/massey/openapi/massey-root-api-openapi.yml
 auth_types: []
 description: How each Massey University surface authenticates. Every entry carries the operator of the thing being authenticated against, because for a university most identity surfaces are either the institution's own federation endpoints or a vendor's login.
 kind: authentication
@@ -49,7 +49,7 @@ source_yaml: "specification: API Commons Authentication\nspecificationVersion: '
   \ no public account registration surface was found.\n    evidence:\n      - url: https://mro.massey.ac.nz/server/api/core/communities\n        status: 200\n      - url: https://mro.massey.ac.nz/server/api/core/items\n        status: 401\n      - url: https://mro.massey.ac.nz/server/api/core/bitstreams\n        status: 401\n  - id: massey:mro-oai-pmh\n    name: Massey Research Online OAI-PMH\n    operator: institution\n    scheme: none\n    self_service: true\n    notes: Fully anonymous. No key, no registration, no quota published.\n    evidence:\n      - url: https://mro.massey.ac.nz/server/oai/request?verb=Identify\n        status: 200\n  - id: massey:idp-shibboleth\n    name: Massey University Shibboleth Identity Provider\n    operator: federation\n    scheme: saml2\n    entity_id: https://idp.massey.ac.nz/idp/shibboleth\n    scope: massey.ac.nz\n    federations: [Tuakiri Federation, eduGAIN]\n    self_service: false\n    notes: >-\n      The institution's own SAML 2.0 / Shibboleth IdP.\
   \ Service providers federate with it\n      through Tuakiri (the New Zealand Access Federation) and, internationally, eduGAIN. The\n      metadata document itself is public and machine-readable; the authentication it fronts\n      is for Massey affiliates only.\n    endpoints:\n      metadata: https://idp.massey.ac.nz/idp/shibboleth\n      sso_redirect: https://idp.massey.ac.nz/idp/profile/SAML2/Redirect/SSO\n      sso_post: https://idp.massey.ac.nz/idp/profile/SAML2/POST/SSO\n      slo_redirect: https://idp.massey.ac.nz/idp/profile/SAML2/Redirect/SLO\n    evidence:\n      - url: https://idp.massey.ac.nz/idp/shibboleth\n        status: 200\n  - id: massey:entra-id\n    name: Massey University Microsoft Entra ID tenant\n    operator: federation\n    scheme: oidc\n    tenant_id: 388728e1-bbd0-4378-98dc-f8682e644300\n    self_service: false\n    notes: >-\n      Massey operates a Microsoft Entra ID tenant discoverable by domain. The OpenID Connect\n      discovery document is public and machine-readable\
   \ and is the institution's own\n      identity surface; the accounts behind it are staff and student accounts. Region scope\n      \"OC\" (Oceania).\n    endpoints:\n      discovery: https://login.microsoftonline.com/massey.ac.nz/v2.0/.well-known/openid-configuration\n      issuer: https://login.microsoftonline.com/388728e1-bbd0-4378-98dc-f8682e644300/v2.0\n      authorization: https://login.microsoftonline.com/388728e1-bbd0-4378-98dc-f8682e644300/oauth2/v2.0/authorize\n      token: https://login.microsoftonline.com/388728e1-bbd0-4378-98dc-f8682e644300/oauth2/v2.0/token\n      jwks: https://login.microsoftonline.com/388728e1-bbd0-4378-98dc-f8682e644300/discovery/v2.0/keys\n    evidence:\n      - url: https://login.microsoftonline.com/massey.ac.nz/v2.0/.well-known/openid-configuration\n        status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/massey/refs/heads/main/authentication/massey-authentication.yml
+source_yaml_url: https://artifacts.apis.io/massey/authentication/massey-authentication.yml
 summary_line: 0 schemes
 tags:
 - Education

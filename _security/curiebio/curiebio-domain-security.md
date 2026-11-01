@@ -27,7 +27,7 @@ source_filename: curiebio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: curie.bio\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 19:25:42 2026 GMT\n  hsts: false\ndomains:\n- domain: curie.bio\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/curiebio/refs/heads/main/security/curiebio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/curiebio/security/curiebio-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

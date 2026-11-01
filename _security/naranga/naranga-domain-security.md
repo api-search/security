@@ -24,11 +24,10 @@ source_filename: naranga-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: naranga.com\n  https: false\ndomains:\n- domain: naranga.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/naranga/refs/heads/main/security/naranga-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/naranga/security/naranga-domain-security.yml
 summary_line: DMARC
 tags:
 - Franchise Management
-- Franchise Operations
 - Lead Management
 - CRM
 - Training

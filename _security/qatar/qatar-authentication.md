@@ -7,31 +7,31 @@ api_specs:
   label: Qatar University Client Registration API
   slug: qatar-client-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qatar/refs/heads/main/openapi/qatar-client-registration-api-openapi.yml
+  url: https://artifacts.apis.io/qatar/openapi/qatar-client-registration-api-openapi.yml
 - filename: qatar-discovery-api-openapi.yml
   format: yaml
   label: Qatar University Discovery API
   slug: qatar-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qatar/refs/heads/main/openapi/qatar-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/qatar/openapi/qatar-discovery-api-openapi.yml
 - filename: qatar-oai-pmh-api-openapi.yml
   format: yaml
   label: Qatar University OAI PMH API
   slug: qatar-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qatar/refs/heads/main/openapi/qatar-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/qatar/openapi/qatar-oai-pmh-api-openapi.yml
 - filename: qatar-openid-connect-api-openapi.yml
   format: yaml
   label: Qatar University OpenID Connect API
   slug: qatar-openid-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qatar/refs/heads/main/openapi/qatar-openid-connect-api-openapi.yml
+  url: https://artifacts.apis.io/qatar/openapi/qatar-openid-connect-api-openapi.yml
 - filename: qatar-oauth-api-openapi.yml
   format: yaml
   label: Qatar University O Auth API
   slug: qatar-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qatar/refs/heads/main/openapi/qatar-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/qatar/openapi/qatar-oauth-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -126,7 +126,7 @@ source_yaml: "specification: API Evangelist Authentication\nspecificationVersion
   \ is nested under /oauth2/token/,\n        and the issuer itself (https://sso.qu.edu.qa:9443/oauth2endpoints/token) points at the\n        WSO2 management port. A conformant client discovering by the book will not find it.\n      - >-\n        The host serves an incomplete TLS chain, so a default OpenSSL-based client cannot read\n        the discovery document at all. See identity-federation/qatar-identity-federation.yml.\n      - >-\n        /oauth2/userinfo answers 400 with {\"error\":\"invalid_request\",\"error_description\":\"Bearer\n        token missing\"} rather than the RFC 6750 401 with a WWW-Authenticate header.\n  - name: QuSsoSaml2\n    type: saml\n    operator: institution\n    applies_to: https://sso.qu.edu.qa/samlsso\n    description: >-\n      The same provider publishes a SAML 2.0 IDPSSODescriptor at /identity/metadata/saml2\n      with HTTP-POST and HTTP-Redirect SSO bindings and separate signing and encryption keys.\n      Relying-party registration is institutional.\
   \ The metadata declares no NameIDFormat and\n      no Organization or ContactPerson element.\n    evidence:\n      url: https://sso.qu.edu.qa/identity/metadata/saml2\n      status: 200\n  - name: BlackboardLearnRest\n    type: oauth2\n    operator: tenant\n    applies_to: https://elearning.qu.edu.qa/learn/api/public/v1\n    description: >-\n      Qatar University's Blackboard Learn tenant exposes the Anthology Blackboard Learn REST\n      API. /system/version is anonymous and answers 200 with the running build; every\n      content route requires an OAuth 2.0 bearer token issued to a developer-registered\n      application, and /courses answers 401 without one. The authentication model, the token\n      endpoint and the contract are Anthology's, not Qatar University's — recorded here for\n      completeness and scored against Blackboard.\n    evidence:\n      - url: https://elearning.qu.edu.qa/learn/api/public/v1/system/version\n        status: 200\n      - url: https://elearning.qu.edu.qa/learn/api/public/v1/courses\n\
   \        status: 401\nnotes:\n  - >-\n    No Qatar University surface offers a public API key, developer account or self-service\n    credential. Where a credential is needed, the path is institutional affiliation.\n  - >-\n    An institutional API gateway exists but publishes nothing: api.qu.edu.qa resolves to\n    34.18.7.7 and answers 404 with a zero-length body and an F5 BIG-IP `BIGipServerPROD-API-POOL`\n    cookie. A production API pool is running behind it; no route, no documentation and no\n    authentication model for it is public.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qatar/refs/heads/main/authentication/qatar-authentication.yml
+source_yaml_url: https://artifacts.apis.io/qatar/authentication/qatar-authentication.yml
 summary_line: none/oauth2/openIdConnect/saml · 7 schemes
 tags:
 - Education

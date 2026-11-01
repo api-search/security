@@ -17,7 +17,7 @@ source_filename: talk-a-bot-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nsource: https://talkabot.net/trust\nurl: https://talkabot.net/trust\ncertifications:\n- PCI DSS\n- HIPAA\n- GDPR\nevidence:\n- source: https://talkabot.net/trust\n  keywords:\n  - pci dss\n  - hipaa\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/talk-a-bot/refs/heads/main/security/talk-a-bot-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/talk-a-bot/security/talk-a-bot-trust-center.yml
 summary_line: PCI DSS, HIPAA, GDPR
 tags:
 - Company

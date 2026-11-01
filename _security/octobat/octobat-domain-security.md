@@ -5,55 +5,55 @@ api_specs:
   label: Octobat Coupons API
   slug: octobat-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/octobat/openapi/octobat-coupons-api-openapi.yml
 - filename: octobat-credit-notes-api-openapi.yml
   format: yaml
   label: Octobat Credit Notes API
   slug: octobat-credit-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-credit-notes-api-openapi.yml
+  url: https://artifacts.apis.io/octobat/openapi/octobat-credit-notes-api-openapi.yml
 - filename: octobat-customers-api-openapi.yml
   format: yaml
   label: Octobat Customers API
   slug: octobat-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-customers-api-openapi.yml
+  url: https://artifacts.apis.io/octobat/openapi/octobat-customers-api-openapi.yml
 - filename: octobat-invoices-api-openapi.yml
   format: yaml
   label: Octobat Invoices API
   slug: octobat-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/octobat/openapi/octobat-invoices-api-openapi.yml
 - filename: octobat-payouts-api-openapi.yml
   format: yaml
   label: Octobat Payouts API
   slug: octobat-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/octobat/openapi/octobat-payouts-api-openapi.yml
 - filename: octobat-products-api-openapi.yml
   format: yaml
   label: Octobat Products API
   slug: octobat-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-products-api-openapi.yml
+  url: https://artifacts.apis.io/octobat/openapi/octobat-products-api-openapi.yml
 - filename: octobat-subscriptions-api-openapi.yml
   format: yaml
   label: Octobat Subscriptions API
   slug: octobat-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/octobat/openapi/octobat-subscriptions-api-openapi.yml
 - filename: octobat-tax-evidence-api-openapi.yml
   format: yaml
   label: Octobat Tax Evidence API
   slug: octobat-tax-evidence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-tax-evidence-api-openapi.yml
+  url: https://artifacts.apis.io/octobat/openapi/octobat-tax-evidence-api-openapi.yml
 - filename: octobat-transactions-api-openapi.yml
   format: yaml
   label: Octobat Transactions API
   slug: octobat-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/octobat/openapi/octobat-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -94,7 +94,7 @@ source_filename: octobat-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.octobat.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  9 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.octobat.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 06:50:12 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apiv2.octobat.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  9 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: octobat.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/security/octobat-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/octobat/security/octobat-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Billing

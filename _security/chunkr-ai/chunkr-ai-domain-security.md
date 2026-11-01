@@ -5,19 +5,37 @@ api_specs:
   label: Chunkr Files API
   slug: chunkr-ai-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chunkr-ai/refs/heads/main/openapi/chunkr-ai-files-api-openapi.yml
+  url: https://artifacts.apis.io/chunkr-ai/openapi/chunkr-ai-files-api-openapi.yml
 - filename: chunkr-ai-health-api-openapi.yml
   format: yaml
   label: Chunkr Health API
   slug: chunkr-ai-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chunkr-ai/refs/heads/main/openapi/chunkr-ai-health-api-openapi.yml
+  url: https://artifacts.apis.io/chunkr-ai/openapi/chunkr-ai-health-api-openapi.yml
 - filename: chunkr-ai-tasks-api-openapi.yml
   format: yaml
   label: Chunkr Tasks API
   slug: chunkr-ai-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chunkr-ai/refs/heads/main/openapi/chunkr-ai-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/chunkr-ai/openapi/chunkr-ai-tasks-api-openapi.yml
+- filename: chunkr-ai-chunkr-api-api-openapi.yml
+  format: yaml
+  label: Chunkr Chunkr API
+  slug: chunkr-ai-chunkr-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chunkr-ai/openapi/chunkr-ai-chunkr-api-api-openapi.yml
+- filename: chunkr-ai-extras-api-openapi.yml
+  format: yaml
+  label: Chunkr Extras API
+  slug: chunkr-ai-extras-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chunkr-ai/openapi/chunkr-ai-extras-api-openapi.yml
+- filename: chunkr-ai-webhook-api-openapi.yml
+  format: yaml
+  label: Chunkr Webhook API
+  slug: chunkr-ai-webhook-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chunkr-ai/openapi/chunkr-ai-webhook-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +75,7 @@ source_filename: chunkr-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: chunkr.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 11:08:57 2026 GMT\n  hsts: false\n- host: docs.chunkr.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 11:08:57 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.chunkr.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 11:08:57 2026 GMT\n  hsts: null\ndomains:\n- domain: chunkr.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chunkr-ai/refs/heads/main/security/chunkr-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/chunkr-ai/security/chunkr-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Document Parsing

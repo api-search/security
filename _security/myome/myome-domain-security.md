@@ -5,19 +5,19 @@ api_specs:
   label: MyOme Institutional Interface API
   slug: myome-institutional-interface-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myome/refs/heads/main/openapi/myome-institutional-interface-api-openapi.yml
+  url: https://artifacts.apis.io/myome/openapi/myome-institutional-interface-api-openapi.yml
 - filename: myome-requisitions-and-orders-api-openapi.yml
   format: yaml
   label: MyOme Requisitions and Orders API
   slug: myome-requisitions-and-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myome/refs/heads/main/openapi/myome-requisitions-and-orders-api-openapi.yml
+  url: https://artifacts.apis.io/myome/openapi/myome-requisitions-and-orders-api-openapi.yml
 - filename: myome-resources-api-openapi.yml
   format: yaml
   label: MyOme Resources API
   slug: myome-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myome/refs/heads/main/openapi/myome-resources-api-openapi.yml
+  url: https://artifacts.apis.io/myome/openapi/myome-resources-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: myome-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: myome.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 02:32:40 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.myome.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 24 21:08:51 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.sbx.myome.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 21 13:21:58 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: myome.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/myome/refs/heads/main/security/myome-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/myome/security/myome-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -8,43 +8,43 @@ api_specs:
   label: NewsBlur Authentication API
   slug: newsblur-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/openapi/newsblur-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/newsblur/openapi/newsblur-authentication-api-openapi.yml
 - filename: newsblur-classifiers-api-openapi.yml
   format: yaml
   label: NewsBlur Classifiers API
   slug: newsblur-classifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/openapi/newsblur-classifiers-api-openapi.yml
+  url: https://artifacts.apis.io/newsblur/openapi/newsblur-classifiers-api-openapi.yml
 - filename: newsblur-feed-management-api-openapi.yml
   format: yaml
   label: NewsBlur Feed Management API
   slug: newsblur-feed-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/openapi/newsblur-feed-management-api-openapi.yml
+  url: https://artifacts.apis.io/newsblur/openapi/newsblur-feed-management-api-openapi.yml
 - filename: newsblur-feeds-api-openapi.yml
   format: yaml
   label: NewsBlur Feeds API
   slug: newsblur-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/openapi/newsblur-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/newsblur/openapi/newsblur-feeds-api-openapi.yml
 - filename: newsblur-import-export-api-openapi.yml
   format: yaml
   label: NewsBlur Import Export API
   slug: newsblur-import-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/openapi/newsblur-import-export-api-openapi.yml
+  url: https://artifacts.apis.io/newsblur/openapi/newsblur-import-export-api-openapi.yml
 - filename: newsblur-social-api-openapi.yml
   format: yaml
   label: NewsBlur Social API
   slug: newsblur-social-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/openapi/newsblur-social-api-openapi.yml
+  url: https://artifacts.apis.io/newsblur/openapi/newsblur-social-api-openapi.yml
 - filename: newsblur-stories-api-openapi.yml
   format: yaml
   label: NewsBlur Stories API
   slug: newsblur-stories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/openapi/newsblur-stories-api-openapi.yml
+  url: https://artifacts.apis.io/newsblur/openapi/newsblur-stories-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -80,7 +80,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/newsblur-openapi.yml\ndocs: https://www.newsblur.com/api\ndocs_notes: >-\n  The NewsBlur API reference documents two authentication paths: (1) a session cookie\n  (`newsblur_sessionid`) obtained via POST /api/login, and (2) OAuth 2.0 with a bearer\n  token in the Authorization header. OAuth client credentials are issued by NewsBlur\n  (contact samuel@newsblur.com). The same OAuth flow authorizes the hosted MCP server\n  at https://newsblur.com/mcp/ via a browser login-and-authorize step.\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - cookie\nschemes:\n- name: cookieAuth\n  type: apiKey\n  in: cookie\n  parameter: newsblur_sessionid\n  description: Session cookie set by POST /api/login.\n  sources:\n  - openapi/newsblur-openapi.yml\n- name: oauth2Bearer\n  type: http\n  scheme: bearer\n  description: OAuth 2.0 access token passed as a Bearer token in the Authorization header.\n    Client credentials are\
   \ issued by NewsBlur (contact samuel@newsblur.com).\n  sources:\n  - openapi/newsblur-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/authentication/newsblur-authentication.yml
+source_yaml_url: https://artifacts.apis.io/newsblur/authentication/newsblur-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

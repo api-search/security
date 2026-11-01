@@ -7,19 +7,19 @@ api_specs:
   label: Apache Iceberg Catalog API
   slug: apache-iceberg-catalog-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-iceberg/refs/heads/main/openapi/apache-iceberg-catalog-api-api-openapi.yml
+  url: https://artifacts.apis.io/apache-iceberg/openapi/apache-iceberg-catalog-api-api-openapi.yml
 - filename: apache-iceberg-configuration-api-api-openapi.yml
   format: yaml
   label: Apache Iceberg Configuration API
   slug: apache-iceberg-configuration-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-iceberg/refs/heads/main/openapi/apache-iceberg-configuration-api-api-openapi.yml
+  url: https://artifacts.apis.io/apache-iceberg/openapi/apache-iceberg-configuration-api-api-openapi.yml
 - filename: apache-iceberg-oauth2-api-api-openapi.yml
   format: yaml
   label: Apache Iceberg OAuth2 API
   slug: apache-iceberg-oauth2-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-iceberg/refs/heads/main/openapi/apache-iceberg-oauth2-api-api-openapi.yml
+  url: https://artifacts.apis.io/apache-iceberg/openapi/apache-iceberg-oauth2-api-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -61,7 +61,7 @@ source_filename: apache-iceberg-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/apache-iceberg-rest-catalog-open-api.yaml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /v1/oauth/tokens\n    scopes: 1\n  description: |-\n    This scheme is used for OAuth2 authorization.\n\n    For unauthorized requests, services should return an appropriate 401 or 403 response. Implementations must not return altered success (200) responses when a request is unauthenticated or unauthorized.\n    If a separate authorization server is used, substitute the tokenUrl with the full token path of the external authorization server, and use the resulting\n  sources:\n  - openapi/apache-iceberg-rest-catalog-open-api.yaml\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/apache-iceberg-rest-catalog-open-api.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-iceberg/refs/heads/main/authentication/apache-iceberg-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apache-iceberg/authentication/apache-iceberg-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - ACID

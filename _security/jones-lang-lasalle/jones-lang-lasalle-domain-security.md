@@ -5,25 +5,25 @@ api_specs:
   label: Jones Lang LaSalle Assets API
   slug: jones-lang-lasalle-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jones-lang-lasalle/refs/heads/main/openapi/jones-lang-lasalle-assets-api-openapi.yml
+  url: https://artifacts.apis.io/jones-lang-lasalle/openapi/jones-lang-lasalle-assets-api-openapi.yml
 - filename: jones-lang-lasalle-contacts-api-openapi.yml
   format: yaml
   label: Jones Lang LaSalle Contacts API
   slug: jones-lang-lasalle-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jones-lang-lasalle/refs/heads/main/openapi/jones-lang-lasalle-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/jones-lang-lasalle/openapi/jones-lang-lasalle-contacts-api-openapi.yml
 - filename: jones-lang-lasalle-locations-api-openapi.yml
   format: yaml
   label: Jones Lang LaSalle Locations API
   slug: jones-lang-lasalle-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jones-lang-lasalle/refs/heads/main/openapi/jones-lang-lasalle-locations-api-openapi.yml
+  url: https://artifacts.apis.io/jones-lang-lasalle/openapi/jones-lang-lasalle-locations-api-openapi.yml
 - filename: jones-lang-lasalle-work-orders-api-openapi.yml
   format: yaml
   label: Jones Lang LaSalle Work Orders API
   slug: jones-lang-lasalle-work-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jones-lang-lasalle/refs/heads/main/openapi/jones-lang-lasalle-work-orders-api-openapi.yml
+  url: https://artifacts.apis.io/jones-lang-lasalle/openapi/jones-lang-lasalle-work-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: jones-lang-lasalle-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.jll.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 17 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: developer.corrigo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 16:39:08 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: am-ce98c.corrigo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  8 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: jll.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: corrigo.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jones-lang-lasalle/refs/heads/main/security/jones-lang-lasalle-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/jones-lang-lasalle/security/jones-lang-lasalle-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Commercial Real Estate

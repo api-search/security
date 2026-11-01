@@ -5,55 +5,55 @@ api_specs:
   label: Qdrant Aliases API
   slug: qdrant-aliases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/openapi/qdrant-aliases-api-openapi.yml
+  url: https://artifacts.apis.io/qdrant/openapi/qdrant-aliases-api-openapi.yml
 - filename: qdrant-beta-api-openapi.yml
   format: yaml
   label: Qdrant Beta API
   slug: qdrant-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/openapi/qdrant-beta-api-openapi.yml
+  url: https://artifacts.apis.io/qdrant/openapi/qdrant-beta-api-openapi.yml
 - filename: qdrant-collections-api-openapi.yml
   format: yaml
   label: Qdrant Collections API
   slug: qdrant-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/openapi/qdrant-collections-api-openapi.yml
+  url: https://artifacts.apis.io/qdrant/openapi/qdrant-collections-api-openapi.yml
 - filename: qdrant-distributed-api-openapi.yml
   format: yaml
   label: Qdrant Distributed API
   slug: qdrant-distributed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/openapi/qdrant-distributed-api-openapi.yml
+  url: https://artifacts.apis.io/qdrant/openapi/qdrant-distributed-api-openapi.yml
 - filename: qdrant-indexes-api-openapi.yml
   format: yaml
   label: Qdrant Indexes API
   slug: qdrant-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/openapi/qdrant-indexes-api-openapi.yml
+  url: https://artifacts.apis.io/qdrant/openapi/qdrant-indexes-api-openapi.yml
 - filename: qdrant-points-api-openapi.yml
   format: yaml
   label: Qdrant Points API
   slug: qdrant-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/openapi/qdrant-points-api-openapi.yml
+  url: https://artifacts.apis.io/qdrant/openapi/qdrant-points-api-openapi.yml
 - filename: qdrant-search-api-openapi.yml
   format: yaml
   label: Qdrant Search API
   slug: qdrant-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/openapi/qdrant-search-api-openapi.yml
+  url: https://artifacts.apis.io/qdrant/openapi/qdrant-search-api-openapi.yml
 - filename: qdrant-service-api-openapi.yml
   format: yaml
   label: Qdrant Service API
   slug: qdrant-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/openapi/qdrant-service-api-openapi.yml
+  url: https://artifacts.apis.io/qdrant/openapi/qdrant-service-api-openapi.yml
 - filename: qdrant-snapshots-api-openapi.yml
   format: yaml
   label: Qdrant Snapshots API
   slug: qdrant-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/openapi/qdrant-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/qdrant/openapi/qdrant-snapshots-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -83,11 +83,10 @@ source_filename: qdrant-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: qdrant.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 21:53:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: qdrant.tech\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/security/qdrant-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/qdrant/security/qdrant-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
-- Vector Database
-- Database
 - Vector Search
+- Database
 ---

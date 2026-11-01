@@ -3,36 +3,12 @@ anonymous_access: false
 api_key_in:
 - query
 api_specs:
-- filename: import-io-crawlrun-api-openapi.yml
+- filename: import-io-schedule-import-io-api-openapi.yml
   format: yaml
-  label: Import.io Crawlrun API
-  slug: import-io-crawlrun-api
+  label: Import.io Schedule.import.io API
+  slug: import-io-schedule-import-io-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/import-io/refs/heads/main/openapi/import-io-crawlrun-api-openapi.yml
-- filename: import-io-extractor-api-openapi.yml
-  format: yaml
-  label: Import.io Extractor API
-  slug: import-io-extractor-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/import-io/refs/heads/main/openapi/import-io-extractor-api-openapi.yml
-- filename: import-io-report-api-openapi.yml
-  format: yaml
-  label: Import.io Report API
-  slug: import-io-report-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/import-io/refs/heads/main/openapi/import-io-report-api-openapi.yml
-- filename: import-io-reportrun-api-openapi.yml
-  format: yaml
-  label: Import.io ReportRun API
-  slug: import-io-reportrun-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/import-io/refs/heads/main/openapi/import-io-reportrun-api-openapi.yml
-- filename: import-io-user-api-openapi.yml
-  format: yaml
-  label: Import.io User API
-  slug: import-io-user-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/import-io/refs/heads/main/openapi/import-io-user-api-openapi.yml
+  url: https://artifacts.apis.io/import-io/openapi/import-io-schedule-import-io-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +36,7 @@ source_filename: import-io-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/import-io-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: query\n  parameter: _apikey\n  description: API key obtained from the Import.io dashboard User Settings.\n  sources:\n  - openapi/import-io-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/import-io/refs/heads/main/authentication/import-io-authentication.yml
+source_yaml_url: https://artifacts.apis.io/import-io/authentication/import-io-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Data Aggregation

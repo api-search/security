@@ -8,127 +8,127 @@ api_specs:
   label: MonetizeNow Account API
   slug: monetizenow-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/openapi/monetizenow-account-api-openapi.yml
+  url: https://artifacts.apis.io/monetizenow/openapi/monetizenow-account-api-openapi.yml
 - filename: monetizenow-account-overview-api-openapi.yml
   format: yaml
   label: MonetizeNow Account Overview API
   slug: monetizenow-account-overview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/openapi/monetizenow-account-overview-api-openapi.yml
+  url: https://artifacts.apis.io/monetizenow/openapi/monetizenow-account-overview-api-openapi.yml
 - filename: monetizenow-accountdocument-api-openapi.yml
   format: yaml
   label: MonetizeNow Account Document API
   slug: monetizenow-accountdocument-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/openapi/monetizenow-accountdocument-api-openapi.yml
+  url: https://artifacts.apis.io/monetizenow/openapi/monetizenow-accountdocument-api-openapi.yml
 - filename: monetizenow-billgroup-api-openapi.yml
   format: yaml
   label: MonetizeNow Bill Group API
   slug: monetizenow-billgroup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/openapi/monetizenow-billgroup-api-openapi.yml
+  url: https://artifacts.apis.io/monetizenow/openapi/monetizenow-billgroup-api-openapi.yml
 - filename: monetizenow-contact-api-openapi.yml
   format: yaml
   label: MonetizeNow Contact API
   slug: monetizenow-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/openapi/monetizenow-contact-api-openapi.yml
+  url: https://artifacts.apis.io/monetizenow/openapi/monetizenow-contact-api-openapi.yml
 - filename: monetizenow-contract-api-openapi.yml
   format: yaml
   label: MonetizeNow Contract API
   slug: monetizenow-contract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/openapi/monetizenow-contract-api-openapi.yml
+  url: https://artifacts.apis.io/monetizenow/openapi/monetizenow-contract-api-openapi.yml
 - filename: monetizenow-credit-api-openapi.yml
   format: yaml
   label: MonetizeNow Credit API
   slug: monetizenow-credit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/openapi/monetizenow-credit-api-openapi.yml
+  url: https://artifacts.apis.io/monetizenow/openapi/monetizenow-credit-api-openapi.yml
 - filename: monetizenow-invoice-api-openapi.yml
   format: yaml
   label: MonetizeNow Invoice API
   slug: monetizenow-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/openapi/monetizenow-invoice-api-openapi.yml
+  url: https://artifacts.apis.io/monetizenow/openapi/monetizenow-invoice-api-openapi.yml
 - filename: monetizenow-offering-api-openapi.yml
   format: yaml
   label: MonetizeNow Offering API
   slug: monetizenow-offering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/openapi/monetizenow-offering-api-openapi.yml
+  url: https://artifacts.apis.io/monetizenow/openapi/monetizenow-offering-api-openapi.yml
 - filename: monetizenow-opportunity-api-openapi.yml
   format: yaml
   label: MonetizeNow Opportunity API
   slug: monetizenow-opportunity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/openapi/monetizenow-opportunity-api-openapi.yml
+  url: https://artifacts.apis.io/monetizenow/openapi/monetizenow-opportunity-api-openapi.yml
 - filename: monetizenow-payment-api-openapi.yml
   format: yaml
   label: MonetizeNow Payment API
   slug: monetizenow-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/openapi/monetizenow-payment-api-openapi.yml
+  url: https://artifacts.apis.io/monetizenow/openapi/monetizenow-payment-api-openapi.yml
 - filename: monetizenow-payment-gateway-api-openapi.yml
   format: yaml
   label: MonetizeNow Payment Gateway API
   slug: monetizenow-payment-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/openapi/monetizenow-payment-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/monetizenow/openapi/monetizenow-payment-gateway-api-openapi.yml
 - filename: monetizenow-price-uplift-configuration-api-openapi.yml
   format: yaml
   label: MonetizeNow Price Uplift Configuration API
   slug: monetizenow-price-uplift-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/openapi/monetizenow-price-uplift-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/monetizenow/openapi/monetizenow-price-uplift-configuration-api-openapi.yml
 - filename: monetizenow-products-api-openapi.yml
   format: yaml
   label: MonetizeNow Products API
   slug: monetizenow-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/openapi/monetizenow-products-api-openapi.yml
+  url: https://artifacts.apis.io/monetizenow/openapi/monetizenow-products-api-openapi.yml
 - filename: monetizenow-quote-api-openapi.yml
   format: yaml
   label: MonetizeNow Quote API
   slug: monetizenow-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/openapi/monetizenow-quote-api-openapi.yml
+  url: https://artifacts.apis.io/monetizenow/openapi/monetizenow-quote-api-openapi.yml
 - filename: monetizenow-rate-api-openapi.yml
   format: yaml
   label: MonetizeNow Rate API
   slug: monetizenow-rate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/openapi/monetizenow-rate-api-openapi.yml
+  url: https://artifacts.apis.io/monetizenow/openapi/monetizenow-rate-api-openapi.yml
 - filename: monetizenow-subscription-api-openapi.yml
   format: yaml
   label: MonetizeNow Subscription API
   slug: monetizenow-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/openapi/monetizenow-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/monetizenow/openapi/monetizenow-subscription-api-openapi.yml
 - filename: monetizenow-trial-api-openapi.yml
   format: yaml
   label: MonetizeNow Trial API
   slug: monetizenow-trial-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/openapi/monetizenow-trial-api-openapi.yml
+  url: https://artifacts.apis.io/monetizenow/openapi/monetizenow-trial-api-openapi.yml
 - filename: monetizenow-usage-api-openapi.yml
   format: yaml
   label: MonetizeNow Usage API
   slug: monetizenow-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/openapi/monetizenow-usage-api-openapi.yml
+  url: https://artifacts.apis.io/monetizenow/openapi/monetizenow-usage-api-openapi.yml
 - filename: monetizenow-credit-note-api-openapi.yml
   format: yaml
   label: MonetizeNow Credit Note API
   slug: monetizenow-credit-note-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/openapi/monetizenow-credit-note-api-openapi.yml
+  url: https://artifacts.apis.io/monetizenow/openapi/monetizenow-credit-note-api-openapi.yml
 - filename: monetizenow-payment-method-api-openapi.yml
   format: yaml
   label: MonetizeNow Payment Method API
   slug: monetizenow-payment-method-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/openapi/monetizenow-payment-method-api-openapi.yml
+  url: https://artifacts.apis.io/monetizenow/openapi/monetizenow-payment-method-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -188,7 +188,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://docs.mo
   \    API key sent in the x-api-key request header. Keys are created in the\n    MonetizeNow tenant under Settings -> API Keys (\"New Api Key\"), named, and\n    displayed only once at creation. A single key authenticates against all\n    MonetizeNow REST APIs.\n  provisioning: MonetizeNow tenant UI (Settings -> API Keys)\n  scoped: false\n  key_prefix: not published\n  rotation_policy: not published\n  sources:\n  - https://docs.monetizenow.io/reference/getting-started-with-your-api\n  - https://docs.monetizenow.io/docs/api-keys\n- name: mcpOAuth\n  type: oauth2\n  applies_to: https://mcp.monetizeplatform.com/mcp\n  description: >-\n    OAuth 2.x bearer, discovered live. Unauthenticated requests return HTTP 401\n    with WWW-Authenticate: Bearer realm=\"mcp\". Dynamic client registration is\n    open at /oauth/register; PKCE S256 required; token endpoint auth method\n    \"none\" (public clients).\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://mcp.monetizeplatform.com/oauth/authorize\n\
   \    tokenUrl: https://mcp.monetizeplatform.com/oauth/token\n    refreshSupported: true\n    scopes: {}\n  discovery:\n  - {spec: 'RFC 8414', url: 'https://mcp.monetizeplatform.com/.well-known/oauth-authorization-server', status: 200}\n  - {spec: 'RFC 9728', url: 'https://mcp.monetizeplatform.com/.well-known/oauth-protected-resource', status: 200}\n  scoped: false\n  detail: scopes/monetizenow-scopes.yml\n  sources:\n  - https://mcp.monetizeplatform.com/.well-known/oauth-authorization-server\nnotes:\n- >-\n  The REST key is tenant-wide and unscoped: one key grants access to every\n  MonetizeNow REST API in the tenant. No read-only key type, no per-resource\n  permission, and no key prefix convention are published.\n- >-\n  No test-vs-live key separation is documented; see sandbox/monetizenow-sandbox.yml.\n- >-\n  The application console (app.monetizeplatform.com) uses a separate interactive\n  login and, per the Information Security Policy, SSO/SAML with MFA for workforce\n  access. That\
   \ is human sign-in, not API authentication.\n- >-\n  The OAuth authorization server publishes no scope vocabulary\n  (scopes_supported: []), so an MCP client cannot request narrowed access.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/authentication/monetizenow-authentication.yml
+source_yaml_url: https://artifacts.apis.io/monetizenow/authentication/monetizenow-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company

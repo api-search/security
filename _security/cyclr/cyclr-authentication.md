@@ -2,60 +2,60 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: cyclr-accounts-api-openapi.yml
+- filename: cyclr-cyclr-asyncapi.yml
   format: yaml
   label: Cyclr Accounts API
   slug: cyclr-accounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/openapi/cyclr-accounts-api-openapi.yml
-- filename: cyclr-authentication-api-openapi.yml
+  spec_type: AsyncAPI
+  url: https://artifacts.apis.io/cyclr/asyncapi/cyclr-cyclr-asyncapi.yml
+- filename: cyclr-cyclr-asyncapi.yml
   format: yaml
   label: Cyclr Authentication API
   slug: cyclr-authentication-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/openapi/cyclr-authentication-api-openapi.yml
-- filename: cyclr-connectors-api-openapi.yml
+  spec_type: AsyncAPI
+  url: https://artifacts.apis.io/cyclr/asyncapi/cyclr-cyclr-asyncapi.yml
+- filename: cyclr-cyclr-asyncapi.yml
   format: yaml
   label: Cyclr Connectors API
   slug: cyclr-connectors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/openapi/cyclr-connectors-api-openapi.yml
-- filename: cyclr-cycles-api-openapi.yml
+  spec_type: AsyncAPI
+  url: https://artifacts.apis.io/cyclr/asyncapi/cyclr-cyclr-asyncapi.yml
+- filename: cyclr-cyclr-asyncapi.yml
   format: yaml
   label: Cyclr Cycles API
   slug: cyclr-cycles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/openapi/cyclr-cycles-api-openapi.yml
-- filename: cyclr-data-on-demand-api-openapi.yml
+  spec_type: AsyncAPI
+  url: https://artifacts.apis.io/cyclr/asyncapi/cyclr-cyclr-asyncapi.yml
+- filename: cyclr-cyclr-asyncapi.yml
   format: yaml
   label: Cyclr Data on Demand API
   slug: cyclr-data-on-demand-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/openapi/cyclr-data-on-demand-api-openapi.yml
-- filename: cyclr-launch-api-openapi.yml
+  spec_type: AsyncAPI
+  url: https://artifacts.apis.io/cyclr/asyncapi/cyclr-cyclr-asyncapi.yml
+- filename: cyclr-cyclr-asyncapi.yml
   format: yaml
   label: Cyclr LAUNCH API
   slug: cyclr-launch-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/openapi/cyclr-launch-api-openapi.yml
-- filename: cyclr-marketplace-api-openapi.yml
+  spec_type: AsyncAPI
+  url: https://artifacts.apis.io/cyclr/asyncapi/cyclr-cyclr-asyncapi.yml
+- filename: cyclr-cyclr-asyncapi.yml
   format: yaml
   label: Cyclr Marketplace API
   slug: cyclr-marketplace-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/openapi/cyclr-marketplace-api-openapi.yml
-- filename: cyclr-steps-api-openapi.yml
+  spec_type: AsyncAPI
+  url: https://artifacts.apis.io/cyclr/asyncapi/cyclr-cyclr-asyncapi.yml
+- filename: cyclr-cyclr-asyncapi.yml
   format: yaml
   label: Cyclr Steps API
   slug: cyclr-steps-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/openapi/cyclr-steps-api-openapi.yml
-- filename: cyclr-templates-api-openapi.yml
+  spec_type: AsyncAPI
+  url: https://artifacts.apis.io/cyclr/asyncapi/cyclr-cyclr-asyncapi.yml
+- filename: cyclr-cyclr-asyncapi.yml
   format: yaml
   label: Cyclr Templates API
   slug: cyclr-templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/openapi/cyclr-templates-api-openapi.yml
+  spec_type: AsyncAPI
+  url: https://artifacts.apis.io/cyclr/asyncapi/cyclr-cyclr-asyncapi.yml
 auth_types:
 - http
 description: ''
@@ -82,7 +82,7 @@ source_filename: cyclr-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cyclr-cyclr-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth 2.0 Bearer token obtained from the /oauth/token endpoint using Client Credentials\n    flow with your Cyclr Console Client ID and Client Secret.\n  sources:\n  - openapi/cyclr-cyclr-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/authentication/cyclr-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cyclr/authentication/cyclr-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Connectors

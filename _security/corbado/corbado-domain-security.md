@@ -5,43 +5,43 @@ api_specs:
   label: Corbado Exports API
   slug: corbado-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-exports-api-openapi.yml
+  url: https://artifacts.apis.io/corbado/openapi/corbado-exports-api-openapi.yml
 - filename: corbado-identifiers-api-openapi.yml
   format: yaml
   label: Corbado Identifiers API
   slug: corbado-identifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-identifiers-api-openapi.yml
+  url: https://artifacts.apis.io/corbado/openapi/corbado-identifiers-api-openapi.yml
 - filename: corbado-passkeyevents-api-openapi.yml
   format: yaml
   label: Corbado PasskeyEvents API
   slug: corbado-passkeyevents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-passkeyevents-api-openapi.yml
+  url: https://artifacts.apis.io/corbado/openapi/corbado-passkeyevents-api-openapi.yml
 - filename: corbado-passkeys-api-openapi.yml
   format: yaml
   label: Corbado Passkeys API
   slug: corbado-passkeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-passkeys-api-openapi.yml
+  url: https://artifacts.apis.io/corbado/openapi/corbado-passkeys-api-openapi.yml
 - filename: corbado-sessions-api-openapi.yml
   format: yaml
   label: Corbado Sessions API
   slug: corbado-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/corbado/openapi/corbado-sessions-api-openapi.yml
 - filename: corbado-users-api-openapi.yml
   format: yaml
   label: Corbado Users API
   slug: corbado-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-users-api-openapi.yml
+  url: https://artifacts.apis.io/corbado/openapi/corbado-users-api-openapi.yml
 - filename: corbado-connect-tokens-api-openapi.yml
   format: yaml
   label: Corbado Connect Tokens API
   slug: corbado-connect-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-connect-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/corbado/openapi/corbado-connect-tokens-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -93,7 +93,7 @@ source_filename: corbado-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.corbado.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 10:01:14 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.corbado.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 06:32:20 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: backendapi.corbado.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: corbado.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: corbado.io\n  dnssec: false\n  caa:\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/security/corbado-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/corbado/security/corbado-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Authentication

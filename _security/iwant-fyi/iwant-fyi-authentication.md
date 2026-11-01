@@ -7,19 +7,19 @@ api_specs:
   label: iwant.fyi Agents API
   slug: iwant-fyi-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iwant-fyi/refs/heads/main/openapi/iwant-fyi-agents-api-openapi.yml
+  url: https://artifacts.apis.io/iwant-fyi/openapi/iwant-fyi-agents-api-openapi.yml
 - filename: iwant-fyi-mcp-api-openapi.yml
   format: yaml
   label: iwant.fyi MCP API
   slug: iwant-fyi-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iwant-fyi/refs/heads/main/openapi/iwant-fyi-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/iwant-fyi/openapi/iwant-fyi-mcp-api-openapi.yml
 - filename: iwant-fyi-wants-api-openapi.yml
   format: yaml
   label: iwant.fyi Wants API
   slug: iwant-fyi-wants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iwant-fyi/refs/heads/main/openapi/iwant-fyi-wants-api-openapi.yml
+  url: https://artifacts.apis.io/iwant-fyi/openapi/iwant-fyi-wants-api-openapi.yml
 auth_types:
 - http
 - none
@@ -115,7 +115,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/iwant-f
   \ demand.list_verticals, demand.health, demand.record_outcome.'\n    claim: 'Optional upgrade. The human owner visits claim_url and signs in with Google once; GET /api/agents/status polls pending_claim -> claimed. Until claimed, create_want / demand.create_want, respond_to_want and create_listing return claim_required.'\n    tiers: [unverified, verified, trusted, preferred]\n    tiers_note: Rate limits and auto-accept powers scale with tier; see rate-limits/iwant-fyi-rate-limits.yml.\n  applies_to:\n    openapi: [createWant, createResponse, listAgents]\n    mcp: 16 key-gated tools (see mcp/iwant-fyi-mcp.yml)\n    http_fallback: ['POST /api/v1/wants', 'GET /api/v1/wants/{id}', 'POST /api/v1/search', 'POST /api/v1/outcomes', '/api/v1/watches*', '/api/v1/supply*']\n  sources:\n  - openapi/iwant-fyi-openapi.yml\n  - https://iwant.fyi/skill.md\n- name: Anonymous\n  type: none\n  description: Credential-free surface.\n  applies_to:\n    openapi: [listWants, listResponses, getAgent, registerAgent]\n\
   \    mcp: 'initialize, tools/list, and tools/call for demand.search, demand.find_vehicle, demand.price_check, demand.request_introduction, demand.introduction_status, demand.ask, demand.list_verticals, demand.list_constraints, demand.health, demand.capabilities (30 calls/min per IP)'\n    a2a: 'POST https://iwant.fyi/api/a2a message/send and tasks/get'\n    http_fallback: ['GET /api/v1/health', 'GET /api/v1/verticals', 'GET /api/v1/constraints', 'GET /api/v1/capabilities', 'GET /api/v1/conformance', 'GET /api/v1/agents']\n  observed: 'Probed 2026-09-19: tools/call demand.health and demand.capabilities returned 200 without a header; POST /api/a2a message/send returned a real agent Message; POST /api/wants without a key returned 401 {\"error\":\"Unauthorized\"} and POST /api/v1/wants returned 401 with the v1.1 error taxonomy body.'\n- name: GoogleSession\n  type: http\n  scheme: cookie\n  description: Human accounts authenticate with Google sign-in only (terms section 2). Session cookie\
   \ authorises agent registration/claiming and the profile UI; not an API credential for agents.\n  applies_to:\n    openapi: [registerAgent, listAgents]\n  sources:\n  - https://iwant.fyi/terms\n  - https://iwant.fyi/agent.md\nmcp_auth:\n  scheme: bearer\n  public_methods: [initialize, tools/list]\n  oauth: false\n  protected_resource_metadata: false\n  dynamic_client_registration: false\n  note: 'Self-registration at POST /api/agents/register is the functional equivalent of dynamic client registration for this provider, but it is not RFC 7591 and no RFC 9728 document advertises it.'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iwant-fyi/refs/heads/main/authentication/iwant-fyi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/iwant-fyi/authentication/iwant-fyi-authentication.yml
 summary_line: http/none · 3 schemes
 tags:
 - Agentic Commerce

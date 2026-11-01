@@ -41,7 +41,7 @@ source_filename: central-coast-agriculture-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ccagriculture.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 21:48:17 2026 GMT\n  hsts: false\n- host: rawgarden.farm\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  1 16:00:59 2026 GMT\n  hsts: false\n  note: >-\n    Consumer brand host (Raw Garden). Origin is fronted by Cloudflare and answered\n    HTTP 403 (bot challenge) to the probe, so response headers could not be observed\n    beyond the TLS handshake.\ndomains:\n- domain: ccagriculture.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: rawgarden.farm\n  dnssec: true\n  caa: []\n  spf: true\n  spf_record: v=spf1 a mx include:_spf.google.com include:_spf.zendesk.com include:_spf.mlsend.com ~all\n  dmarc: true\n  dmarc_policy: none\n  dmarc_rua: mailto:s-user@ccagriculture.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/central-coast-agriculture/refs/heads/main/security/central-coast-agriculture-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/central-coast-agriculture/security/central-coast-agriculture-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

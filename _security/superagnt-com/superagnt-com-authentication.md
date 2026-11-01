@@ -1,0 +1,388 @@
+---
+anonymous_access: false
+api_key_in: []
+api_specs:
+- filename: superagnt-com-facebook-facebook-download-media-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com Facebook: Facebook Download Media API'
+  slug: superagnt-com-facebook-facebook-download-media-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-facebook-facebook-download-media-api-openapi.yml
+- filename: superagnt-com-facebook-facebook-groups-details-posts-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com Facebook: Facebook Groups Details/Posts API'
+  slug: superagnt-com-facebook-facebook-groups-details-posts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-facebook-facebook-groups-details-posts-api-openapi.yml
+- filename: superagnt-com-facebook-facebook-marketplace-listings-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com Facebook: Facebook Marketplace Listings API'
+  slug: superagnt-com-facebook-facebook-marketplace-listings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-facebook-facebook-marketplace-listings-api-openapi.yml
+- filename: superagnt-com-facebook-facebook-pages-details-posts-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com Facebook: Facebook Pages Details/Posts API'
+  slug: superagnt-com-facebook-facebook-pages-details-posts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-facebook-facebook-pages-details-posts-api-openapi.yml
+- filename: superagnt-com-facebook-facebook-posts-details-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com Facebook: Facebook Posts Details API'
+  slug: superagnt-com-facebook-facebook-posts-details-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-facebook-facebook-posts-details-api-openapi.yml
+- filename: superagnt-com-facebook-facebook-search-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com Facebook: Facebook Search API'
+  slug: superagnt-com-facebook-facebook-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-facebook-facebook-search-api-openapi.yml
+- filename: superagnt-com-facebook-meta-ads-library-search-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com Facebook: Meta Ads Library Search API'
+  slug: superagnt-com-facebook-meta-ads-library-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-facebook-meta-ads-library-search-api-openapi.yml
+- filename: superagnt-com-instagram-explore-feed-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com Instagram: 🔍 Explore Feed API'
+  slug: superagnt-com-instagram-explore-feed-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-instagram-explore-feed-api-openapi.yml
+- filename: superagnt-com-instagram-hashtag-lookup-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com Instagram: 🔖 Hashtag Lookup API'
+  slug: superagnt-com-instagram-hashtag-lookup-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-instagram-hashtag-lookup-api-openapi.yml
+- filename: superagnt-com-instagram-identity-utilities-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com Instagram: 🧩 Identity Utilities API'
+  slug: superagnt-com-instagram-identity-utilities-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-instagram-identity-utilities-api-openapi.yml
+- filename: superagnt-com-instagram-location-data-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com Instagram: 🗺️ Location Data API'
+  slug: superagnt-com-instagram-location-data-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-instagram-location-data-api-openapi.yml
+- filename: superagnt-com-instagram-media-details-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com Instagram: 📸 Media Details API'
+  slug: superagnt-com-instagram-media-details-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-instagram-media-details-api-openapi.yml
+- filename: superagnt-com-instagram-user-insights-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com Instagram: 👤 User Insights API'
+  slug: superagnt-com-instagram-user-insights-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-instagram-user-insights-api-openapi.yml
+- filename: superagnt-com-linkedin-article-api-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com LinkedIn: Article API'
+  slug: superagnt-com-linkedin-article-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-linkedin-article-api-api-openapi.yml
+- filename: superagnt-com-linkedin-company-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com LinkedIn: Company API'
+  slug: superagnt-com-linkedin-company-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-linkedin-company-api-openapi.yml
+- filename: superagnt-com-linkedin-job-apis-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com LinkedIn: Job APIs API'
+  slug: superagnt-com-linkedin-job-apis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-linkedin-job-apis-api-openapi.yml
+- filename: superagnt-com-linkedin-location-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com LinkedIn: Location API'
+  slug: superagnt-com-linkedin-location-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-linkedin-location-api-openapi.yml
+- filename: superagnt-com-linkedin-post-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com LinkedIn: Post API'
+  slug: superagnt-com-linkedin-post-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-linkedin-post-api-openapi.yml
+- filename: superagnt-com-linkedin-profile-apis-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com LinkedIn: Profile APIs API'
+  slug: superagnt-com-linkedin-profile-apis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-linkedin-profile-apis-api-openapi.yml
+- filename: superagnt-com-linkedin-system-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com LinkedIn: System API'
+  slug: superagnt-com-linkedin-system-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-linkedin-system-api-openapi.yml
+- filename: superagnt-com-reddit-default-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com Reddit: Default API'
+  slug: superagnt-com-reddit-default-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-reddit-default-api-openapi.yml
+- filename: superagnt-com-seo-ai-visibility-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com SEO: AI visibility API'
+  slug: superagnt-com-seo-ai-visibility-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-seo-ai-visibility-api-openapi.yml
+- filename: superagnt-com-seo-backlinks-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com SEO: Backlinks API'
+  slug: superagnt-com-seo-backlinks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-seo-backlinks-api-openapi.yml
+- filename: superagnt-com-seo-competitors-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com SEO: Competitors API'
+  slug: superagnt-com-seo-competitors-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-seo-competitors-api-openapi.yml
+- filename: superagnt-com-seo-keywords-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com SEO: Keywords API'
+  slug: superagnt-com-seo-keywords-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-seo-keywords-api-openapi.yml
+- filename: superagnt-com-seo-search-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com SEO: Search API'
+  slug: superagnt-com-seo-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-seo-search-api-openapi.yml
+- filename: superagnt-com-seo-site-audit-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com SEO: Site audit API'
+  slug: superagnt-com-seo-site-audit-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-seo-site-audit-api-openapi.yml
+- filename: superagnt-com-seo-technology-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com SEO: Technology API'
+  slug: superagnt-com-seo-technology-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-seo-technology-api-openapi.yml
+- filename: superagnt-com-superagnt-lead-apis-companies-discover-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com superagnt Lead APIs: Companies — Discover API'
+  slug: superagnt-com-superagnt-lead-apis-companies-discover-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-superagnt-lead-apis-companies-discover-api-openapi.yml
+- filename: superagnt-com-superagnt-lead-apis-companies-email-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com superagnt Lead APIs: Companies — Email API'
+  slug: superagnt-com-superagnt-lead-apis-companies-email-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-superagnt-lead-apis-companies-email-api-openapi.yml
+- filename: superagnt-com-superagnt-lead-apis-companies-enrich-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com superagnt Lead APIs: Companies — Enrich API'
+  slug: superagnt-com-superagnt-lead-apis-companies-enrich-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-superagnt-lead-apis-companies-enrich-api-openapi.yml
+- filename: superagnt-com-superagnt-lead-apis-companies-intelligence-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com superagnt Lead APIs: Companies — Intelligence API'
+  slug: superagnt-com-superagnt-lead-apis-companies-intelligence-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-superagnt-lead-apis-companies-intelligence-api-openapi.yml
+- filename: superagnt-com-superagnt-lead-apis-companies-search-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com superagnt Lead APIs: Companies — Search API'
+  slug: superagnt-com-superagnt-lead-apis-companies-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-superagnt-lead-apis-companies-search-api-openapi.yml
+- filename: superagnt-com-superagnt-lead-apis-people-email-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com superagnt Lead APIs: People — Email API'
+  slug: superagnt-com-superagnt-lead-apis-people-email-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-superagnt-lead-apis-people-email-api-openapi.yml
+- filename: superagnt-com-superagnt-lead-apis-people-enrich-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com superagnt Lead APIs: People — Enrich API'
+  slug: superagnt-com-superagnt-lead-apis-people-enrich-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-superagnt-lead-apis-people-enrich-api-openapi.yml
+- filename: superagnt-com-superagnt-lead-apis-people-mobile-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com superagnt Lead APIs: People — Mobile API'
+  slug: superagnt-com-superagnt-lead-apis-people-mobile-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-superagnt-lead-apis-people-mobile-api-openapi.yml
+- filename: superagnt-com-superagnt-lead-apis-people-search-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com superagnt Lead APIs: People — Search API'
+  slug: superagnt-com-superagnt-lead-apis-people-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-superagnt-lead-apis-people-search-api-openapi.yml
+- filename: superagnt-com-tiktok-collections-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com TikTok: Collections API'
+  slug: superagnt-com-tiktok-collections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-tiktok-collections-api-openapi.yml
+- filename: superagnt-com-tiktok-search-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com TikTok: Search API'
+  slug: superagnt-com-tiktok-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-tiktok-search-api-openapi.yml
+- filename: superagnt-com-tiktok-user-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com TikTok: User API'
+  slug: superagnt-com-tiktok-user-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-tiktok-user-api-openapi.yml
+- filename: superagnt-com-tiktok-video-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com TikTok: Video API'
+  slug: superagnt-com-tiktok-video-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-tiktok-video-api-openapi.yml
+- filename: superagnt-com-web-map-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com Web: Map API'
+  slug: superagnt-com-web-map-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-web-map-api-openapi.yml
+- filename: superagnt-com-web-scrape-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com Web: Scrape API'
+  slug: superagnt-com-web-scrape-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-web-scrape-api-openapi.yml
+- filename: superagnt-com-web-search-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com Web: Search API'
+  slug: superagnt-com-web-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-web-search-api-openapi.yml
+- filename: superagnt-com-x-twitter-ai-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com X (Twitter): AI API'
+  slug: superagnt-com-x-twitter-ai-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-x-twitter-ai-api-openapi.yml
+- filename: superagnt-com-x-twitter-hashtag-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com X (Twitter): Hashtag API'
+  slug: superagnt-com-x-twitter-hashtag-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-x-twitter-hashtag-api-openapi.yml
+- filename: superagnt-com-x-twitter-lists-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com X (Twitter): Lists API'
+  slug: superagnt-com-x-twitter-lists-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-x-twitter-lists-api-openapi.yml
+- filename: superagnt-com-x-twitter-search-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com X (Twitter): Search API'
+  slug: superagnt-com-x-twitter-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-x-twitter-search-api-openapi.yml
+- filename: superagnt-com-x-twitter-translation-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com X (Twitter): Translation API'
+  slug: superagnt-com-x-twitter-translation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-x-twitter-translation-api-openapi.yml
+- filename: superagnt-com-x-twitter-trends-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com X (Twitter): Trends API'
+  slug: superagnt-com-x-twitter-trends-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-x-twitter-trends-api-openapi.yml
+- filename: superagnt-com-x-twitter-tweet-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com X (Twitter): Tweet API'
+  slug: superagnt-com-x-twitter-tweet-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-x-twitter-tweet-api-openapi.yml
+- filename: superagnt-com-x-twitter-user-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com X (Twitter): User API'
+  slug: superagnt-com-x-twitter-user-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-x-twitter-user-api-openapi.yml
+- filename: superagnt-com-youtube-audio-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com YouTube: Audio API'
+  slug: superagnt-com-youtube-audio-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-youtube-audio-api-openapi.yml
+- filename: superagnt-com-youtube-channel-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com YouTube: Channel API'
+  slug: superagnt-com-youtube-channel-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-youtube-channel-api-openapi.yml
+- filename: superagnt-com-youtube-screenshot-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com YouTube: Screenshot API'
+  slug: superagnt-com-youtube-screenshot-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-youtube-screenshot-api-openapi.yml
+- filename: superagnt-com-youtube-search-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com YouTube: Search API'
+  slug: superagnt-com-youtube-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-youtube-search-api-openapi.yml
+- filename: superagnt-com-youtube-trending-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com YouTube: Trending API'
+  slug: superagnt-com-youtube-trending-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-youtube-trending-api-openapi.yml
+- filename: superagnt-com-youtube-video-api-openapi.yml
+  format: yaml
+  label: 'superagnt-com YouTube: Video API'
+  slug: superagnt-com-youtube-video-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/superagnt-com/openapi/superagnt-com-youtube-video-api-openapi.yml
+auth_types: []
+description: ''
+kind: authentication
+layout: security
+mechanism_count: 2
+method: searched
+name: Superagnt Com Authentication
+name_suffix: Authentication
+oauth_flows: []
+overview: superagnt-com declares 2 security scheme(s) across its OpenAPI definitions.
+provider_name: superagnt-com
+provider_slug: superagnt-com
+scheme_count: 2
+schemes:
+- authorizationUrl: https://mcp.superagnt.com/oauth/authorize
+  description: MCP OAuth 2.1 access token flow
+  scopes: {}
+  tokenUrl: https://mcp.superagnt.com/oauth/token
+  type: oauth2
+- description: 'Workspace API key sent as Authorization: Bearer <key>'
+  scheme: bearer
+  type: http
+slug: superagnt-com-authentication
+source_filename: superagnt-com-authentication.yml
+source_heading: Authentication Profile
+source_url: ''
+source_yaml: "generated: '2026-10-29'\nmethod: searched\nsource: https://www.superagnt.com/docs/authentication\nschemes:\n  - type: oauth2\n    description: \"MCP OAuth 2.1 access token flow\"\n    authorizationUrl: https://mcp.superagnt.com/oauth/authorize\n    tokenUrl: https://mcp.superagnt.com/oauth/token\n    scopes: {}\n  - type: http\n    scheme: bearer\n    description: \"Workspace API key sent as Authorization: Bearer <key>\"\n"
+source_yaml_url: https://artifacts.apis.io/superagnt-com/authentication/superagnt-com-authentication.yml
+summary_line: 2 schemes
+tags:
+- MCP
+- Data Enrichment
+- Agent Toolkit
+- API Platform
+- Social Data
+---

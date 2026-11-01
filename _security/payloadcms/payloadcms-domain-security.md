@@ -5,25 +5,25 @@ api_specs:
   label: Payload CMS Authentication API
   slug: payloadcms-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payloadcms/refs/heads/main/openapi/payloadcms-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/payloadcms/openapi/payloadcms-authentication-api-openapi.yml
 - filename: payloadcms-collections-api-openapi.yml
   format: yaml
   label: Payload CMS Collections API
   slug: payloadcms-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payloadcms/refs/heads/main/openapi/payloadcms-collections-api-openapi.yml
+  url: https://artifacts.apis.io/payloadcms/openapi/payloadcms-collections-api-openapi.yml
 - filename: payloadcms-globals-api-openapi.yml
   format: yaml
   label: Payload CMS Globals API
   slug: payloadcms-globals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payloadcms/refs/heads/main/openapi/payloadcms-globals-api-openapi.yml
+  url: https://artifacts.apis.io/payloadcms/openapi/payloadcms-globals-api-openapi.yml
 - filename: payloadcms-preferences-api-openapi.yml
   format: yaml
   label: Payload CMS Preferences API
   slug: payloadcms-preferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payloadcms/refs/heads/main/openapi/payloadcms-preferences-api-openapi.yml
+  url: https://artifacts.apis.io/payloadcms/openapi/payloadcms-preferences-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: payloadcms-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: payloadcms.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 16:54:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: payloadcms.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payloadcms/refs/heads/main/security/payloadcms-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/payloadcms/security/payloadcms-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Headless CMS

@@ -7,19 +7,19 @@ api_specs:
   label: Semrush Hermes Partner API
   slug: semrush-hermes-partner-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semrush/refs/heads/main/openapi/semrush-hermes-partner-api-api-openapi.yml
+  url: https://artifacts.apis.io/semrush/openapi/semrush-hermes-partner-api-api-openapi.yml
 - filename: semrush-jwt-issuer-api-openapi.yml
   format: yaml
   label: Semrush JWT Issuer API
   slug: semrush-jwt-issuer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semrush/refs/heads/main/openapi/semrush-jwt-issuer-api-openapi.yml
+  url: https://artifacts.apis.io/semrush/openapi/semrush-jwt-issuer-api-openapi.yml
 - filename: semrush-partner-service-api-openapi.yml
   format: yaml
   label: Semrush Partner Service API
   slug: semrush-partner-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semrush/refs/heads/main/openapi/semrush-partner-service-api-openapi.yml
+  url: https://artifacts.apis.io/semrush/openapi/semrush-partner-service-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -114,7 +114,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://develop
   \ rfc: RFC 7636\n    applies_to: [Semrush MCP]\n    description: >-\n      Advertised in the RFC 8414 metadata at mcp.semrush.com — authorization_code and\n      refresh_token grants, S256 and plain challenge methods, dynamic client registration,\n      token_endpoint_auth_methods \"none\" (public clients).\n  source: https://developer.semrush.com/api/v4/get-started/authorization/\n\n- name: jwtIssuerToken\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  applies_to:\n  - App Center Partner Service API\n  - Hermes Partner API\n  description: >-\n    App Center server-to-server surface. A partner exchanges its credentials at\n    POST /app-center-api/v2/jwt-token/ for a JWT, then presents it as a bearer token.\n  sources:\n  - openapi/_original/semrush-openapi.yml\n  - https://www.semrush.com/apps/docs/server-to-server-api/bearer-token\n\nkey_management:\n  version_scoped: true\n  since: '2026-07-15'\n  v3:\n    count_per_account: 1\n    auto_generated: true\n    revocable: false\n\
   \    deletable: false\n    ttl: none\n    note: >-\n      A permanent, non-revocable credential. If a v3 key leaks there is no documented way to\n      rotate it — the account's only remedy is to contact Semrush.\n  v4:\n    max_per_account: 100\n    auto_generated_default: 1\n    revocable: true\n    deletable: true\n    renamable: true\n    ttl_configurable: true\n    permissions:\n    - Read-only (GET)\n    - Read and write (GET, POST, PUT, PATCH, DELETE)\n  visibility: >-\n    The full key value is displayed only once, at creation. Keys are managed in the API Keys\n    section of the Semrush user profile.\n\nwell_known:\n  oauth_authorization_server: https://mcp.semrush.com/.well-known/oauth-authorization-server\n  oauth_protected_resource: https://mcp.semrush.com/.well-known/oauth-protected-resource\n  openid_configuration: null\n  openid_connect: false\n\ngaps:\n- No mutual TLS, no signed requests, and no IP allow-listing documented.\n- No OpenID Connect — Semrush is not an identity\
   \ provider for third-party apps.\n- >-\n  The v3 credential cannot be rotated by the customer, while carrying direct spend authority\n  over the account's API unit balance.\n\ncross_links:\n  scopes: scopes/semrush-scopes.yml\n  conventions: conventions/semrush-conventions.yml\nchecked: '2026-08-13'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/semrush/refs/heads/main/authentication/semrush-authentication.yml
+source_yaml_url: https://artifacts.apis.io/semrush/authentication/semrush-authentication.yml
 summary_line: apiKey/http/oauth2 · 4 schemes
 tags:
 - Data

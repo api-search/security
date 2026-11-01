@@ -8,37 +8,37 @@ api_specs:
   label: Dassault Systèmes Accreditations API
   slug: dassault-accreditations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-accreditations-api-openapi.yml
+  url: https://artifacts.apis.io/dassault/openapi/dassault-accreditations-api-openapi.yml
 - filename: dassault-leads-opportunities-api-openapi.yml
   format: yaml
   label: Dassault Systèmes Leads Opportunities API
   slug: dassault-leads-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-leads-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/dassault/openapi/dassault-leads-opportunities-api-openapi.yml
 - filename: dassault-orders-api-openapi.yml
   format: yaml
   label: Dassault Systèmes Orders API
   slug: dassault-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-orders-api-openapi.yml
+  url: https://artifacts.apis.io/dassault/openapi/dassault-orders-api-openapi.yml
 - filename: dassault-portfolio-items-api-openapi.yml
   format: yaml
   label: Dassault Systèmes Portfolio Items API
   slug: dassault-portfolio-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-portfolio-items-api-openapi.yml
+  url: https://artifacts.apis.io/dassault/openapi/dassault-portfolio-items-api-openapi.yml
 - filename: dassault-price-lists-api-openapi.yml
   format: yaml
   label: Dassault Systèmes Price Lists API
   slug: dassault-price-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-price-lists-api-openapi.yml
+  url: https://artifacts.apis.io/dassault/openapi/dassault-price-lists-api-openapi.yml
 - filename: dassault-api-keys-api-openapi.yml
   format: yaml
   label: Dassault Systèmes API Keys API
   slug: dassault-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/dassault/openapi/dassault-api-keys-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -65,7 +65,7 @@ source_filename: dassault-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/dassault-api4partners-openapi.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  sources:\n  - openapi/dassault-api4partners-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/authentication/dassault-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dassault/authentication/dassault-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - 3DEXPERIENCE

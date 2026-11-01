@@ -27,7 +27,7 @@ source_filename: eli-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: nlp.insightera.co.th\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 23:22:37 2026 GMT\n  hsts: null\ndomains:\n- domain: insightera.co.th\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eli/refs/heads/main/security/eli-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/eli/security/eli-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Text Analysis

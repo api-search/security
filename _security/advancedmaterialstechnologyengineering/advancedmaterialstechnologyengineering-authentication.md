@@ -7,7 +7,7 @@ api_specs:
   label: Advanced Materials Technology & Engineering Object API
   slug: advancedmaterialstechnologyengineering-object-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmaterialstechnologyengineering/refs/heads/main/openapi/advancedmaterialstechnologyengineering-object-api-openapi.yml
+  url: https://artifacts.apis.io/advancedmaterialstechnologyengineering/openapi/advancedmaterialstechnologyengineering-object-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -35,7 +35,7 @@ source_filename: advancedmaterialstechnologyengineering-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-07'\nmethod: derived\nsource: openapi/advancedmaterialstechnologyengineering-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: Bearer\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: JWT Authorization header using the Bearer scheme.\n  sources:\n  - openapi/advancedmaterialstechnologyengineering-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/advancedmaterialstechnologyengineering/refs/heads/main/authentication/advancedmaterialstechnologyengineering-authentication.yml
+source_yaml_url: https://artifacts.apis.io/advancedmaterialstechnologyengineering/authentication/advancedmaterialstechnologyengineering-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

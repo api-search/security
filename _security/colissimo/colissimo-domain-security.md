@@ -5,25 +5,25 @@ api_specs:
   label: Colissimo Description et exemples des méthodes du WS SLS API
   slug: colissimo-description-et-exemples-des-m-thodes-du-ws-sls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colissimo/refs/heads/main/openapi/colissimo-description-et-exemples-des-m-thodes-du-ws-sls-api-openapi.yml
+  url: https://artifacts.apis.io/colissimo/openapi/colissimo-description-et-exemples-des-m-thodes-du-ws-sls-api-openapi.yml
 - filename: colissimo-g-n-ration-de-bordereau-de-d-pot-api-openapi.yml
   format: yaml
   label: Colissimo Génération de bordereau de dépot API
   slug: colissimo-g-n-ration-de-bordereau-de-d-pot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colissimo/refs/heads/main/openapi/colissimo-g-n-ration-de-bordereau-de-d-pot-api-openapi.yml
+  url: https://artifacts.apis.io/colissimo/openapi/colissimo-g-n-ration-de-bordereau-de-d-pot-api-openapi.yml
 - filename: colissimo-slsinternalservice-services-destin-s-aux-applications-internes-api-openapi.yml
   format: yaml
   label: 'Colissimo SlsInternalService : Services destinés aux applications internes API'
   slug: colissimo-slsinternalservice-services-destin-s-aux-applications-internes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colissimo/refs/heads/main/openapi/colissimo-slsinternalservice-services-destin-s-aux-applications-internes-api-openapi.yml
+  url: https://artifacts.apis.io/colissimo/openapi/colissimo-slsinternalservice-services-destin-s-aux-applications-internes-api-openapi.yml
 - filename: colissimo-slsservicews-documentation-api-openapi.yml
   format: yaml
   label: 'Colissimo SlsServiceWS : documentation API'
   slug: colissimo-slsservicews-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colissimo/refs/heads/main/openapi/colissimo-slsservicews-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/colissimo/openapi/colissimo-slsservicews-documentation-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: colissimo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.colissimo.fr\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  2 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: colissimo.fr\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/colissimo/refs/heads/main/security/colissimo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/colissimo/security/colissimo-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

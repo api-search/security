@@ -5,55 +5,55 @@ api_specs:
   label: Flexport Bookings API
   slug: flexport-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/flexport/openapi/flexport-bookings-api-openapi.yml
 - filename: flexport-customs-api-openapi.yml
   format: yaml
   label: Flexport Customs API
   slug: flexport-customs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-customs-api-openapi.yml
+  url: https://artifacts.apis.io/flexport/openapi/flexport-customs-api-openapi.yml
 - filename: flexport-documents-api-openapi.yml
   format: yaml
   label: Flexport Documents API
   slug: flexport-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-documents-api-openapi.yml
+  url: https://artifacts.apis.io/flexport/openapi/flexport-documents-api-openapi.yml
 - filename: flexport-invoices-api-openapi.yml
   format: yaml
   label: Flexport Invoices API
   slug: flexport-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/flexport/openapi/flexport-invoices-api-openapi.yml
 - filename: flexport-network-api-openapi.yml
   format: yaml
   label: Flexport Network API
   slug: flexport-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-network-api-openapi.yml
+  url: https://artifacts.apis.io/flexport/openapi/flexport-network-api-openapi.yml
 - filename: flexport-products-api-openapi.yml
   format: yaml
   label: Flexport Products API
   slug: flexport-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-products-api-openapi.yml
+  url: https://artifacts.apis.io/flexport/openapi/flexport-products-api-openapi.yml
 - filename: flexport-shipments-api-openapi.yml
   format: yaml
   label: Flexport Shipments API
   slug: flexport-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/flexport/openapi/flexport-shipments-api-openapi.yml
 - filename: flexport-webhooks-api-openapi.yml
   format: yaml
   label: Flexport Webhooks API
   slug: flexport-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/flexport/openapi/flexport-webhooks-api-openapi.yml
 - filename: flexport-purchase-orders-api-openapi.yml
   format: yaml
   label: Flexport Purchase Orders API
   slug: flexport-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/flexport/openapi/flexport-purchase-orders-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -100,7 +100,7 @@ source_filename: flexport-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.flexport.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apidocs.flexport.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 04:05:31 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.flexport.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 24 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: flexport.com\n  dnssec: false\n  caa:\n  - 0 issue \"Digicert.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/security/flexport-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/flexport/security/flexport-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Logistics

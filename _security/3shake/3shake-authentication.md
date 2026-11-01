@@ -7,31 +7,31 @@ api_specs:
   label: 3-shake Accounts API
   slug: 3shake-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3shake/refs/heads/main/openapi/3shake-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/3shake/openapi/3shake-accounts-api-openapi.yml
 - filename: 3shake-auth-api-openapi.yml
   format: yaml
   label: 3-shake Auth API
   slug: 3shake-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3shake/refs/heads/main/openapi/3shake-auth-api-openapi.yml
+  url: https://artifacts.apis.io/3shake/openapi/3shake-auth-api-openapi.yml
 - filename: 3shake-integrations-api-openapi.yml
   format: yaml
   label: 3-shake Integrations API
   slug: 3shake-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3shake/refs/heads/main/openapi/3shake-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/3shake/openapi/3shake-integrations-api-openapi.yml
 - filename: 3shake-projects-api-openapi.yml
   format: yaml
   label: 3-shake Projects API
   slug: 3shake-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3shake/refs/heads/main/openapi/3shake-projects-api-openapi.yml
+  url: https://artifacts.apis.io/3shake/openapi/3shake-projects-api-openapi.yml
 - filename: 3shake-workflows-api-openapi.yml
   format: yaml
   label: 3-shake Workflows API
   slug: 3shake-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3shake/refs/heads/main/openapi/3shake-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/3shake/openapi/3shake-workflows-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: openapi/3shake-
   \  type: http\n  scheme: bearer\n  bearerFormat: Refresh token\n  description: リフレッシュトークン（prt_ プレフィックス） — refresh token, prt_ prefix\n  applies_to: operation-level override on POST /auth/token/refresh (authTokenRefresh) only\n  sources: [openapi/3shake-reckoner-external-api-openapi.yml]\ntoken_lifecycle:\n  refresh_operation: authTokenRefresh\n  refresh_path: POST /auth/token/refresh\n  refresh_transport: refresh token presented in the Authorization header\n  response_fields: [access_token, expires_at]\n  expires_at_format: RFC 3339 date-time\n  revocation_signals:\n    observed_in_contract: [TOKEN_INVALID, TOKEN_EXPIRED, TOKEN_REVOKED]\n    http_status: 401\nother_apis:\n- api: Securify Scan Public API\n  scheme: public API token created in the Securify console and sent on the request\n  docs: https://help-scan.securify.jp/hc/ja/articles/25133482168345\n  method: searched\n  evidence:\n  - url: https://www.securify.jp/news/securify-update-api/\n    status: 200\n    note: >-\n      The\
   \ provider's own release note describes creating and deleting API tokens in the console and calling the API to\n      start a diagnosis, returning a diagnosis ID. The step-by-step reference is a Zendesk help centre behind a\n      Cloudflare bot challenge (HTTP 403 to this crawler), so the exact header name could not be read first-hand and is\n      deliberately NOT recorded here rather than guessed.\n  - url: https://scan.securify.jp/api/v1\n    status: 401\n    note: 'unauthenticated GET returns {\"title\":\"Unauthenticated\",\"status\":401,\"detail\":\"無効なリクエストです。\"}'\nlegacy:\n- api: Reckoner CDP (legacy streaming/query surface)\n  scheme: custom HMAC-SHA256 request signing\n  header: 'Authorization: RECKONER-CDP <AccessKeyID>:<base64(HMAC-SHA256(SecretAccessKey, METHOD\\nContent-MD5\\nContent-Type\\nDate))>'\n  credentials: Access Key ID + Secret Access Key, issued from the Management page of the Reckoner web UI\n  source: https://raw.githubusercontent.com/3-shake/reckoner-cdp-go/master/client.go\n\
   \  method: searched\n  note: Read from the provider's own published client library. Superseded by the pat_/prt_ bearer model above.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/3shake/refs/heads/main/authentication/3shake-authentication.yml
+source_yaml_url: https://artifacts.apis.io/3shake/authentication/3shake-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Company

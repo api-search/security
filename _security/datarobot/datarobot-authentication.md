@@ -7,67 +7,67 @@ api_specs:
   label: DataRobot DataRobot API
   slug: datarobot-datarobot-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarobot/refs/heads/main/openapi/datarobot-datarobot-api-api-openapi.yml
+  url: https://artifacts.apis.io/datarobot/openapi/datarobot-datarobot-api-api-openapi.yml
 - filename: datarobot-datarobot-oss-api-openapi.yml
   format: yaml
   label: DataRobot Datarobot Oss API
   slug: datarobot-datarobot-oss-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarobot/refs/heads/main/openapi/datarobot-datarobot-oss-api-openapi.yml
+  url: https://artifacts.apis.io/datarobot/openapi/datarobot-datarobot-oss-api-openapi.yml
 - filename: datarobot-homebrew-api-openapi.yml
   format: yaml
   label: DataRobot Homebrew API
   slug: datarobot-homebrew-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarobot/refs/heads/main/openapi/datarobot-homebrew-api-openapi.yml
+  url: https://artifacts.apis.io/datarobot/openapi/datarobot-homebrew-api-openapi.yml
 - filename: datarobot-info-api-openapi.yml
   format: yaml
   label: DataRobot Info API
   slug: datarobot-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarobot/refs/heads/main/openapi/datarobot-info-api-openapi.yml
+  url: https://artifacts.apis.io/datarobot/openapi/datarobot-info-api-openapi.yml
 - filename: datarobot-install-api-openapi.yml
   format: yaml
   label: DataRobot Install API
   slug: datarobot-install-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarobot/refs/heads/main/openapi/datarobot-install-api-openapi.yml
+  url: https://artifacts.apis.io/datarobot/openapi/datarobot-install-api-openapi.yml
 - filename: datarobot-mcp-api-openapi.yml
   format: yaml
   label: DataRobot MCP API
   slug: datarobot-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarobot/refs/heads/main/openapi/datarobot-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/datarobot/openapi/datarobot-mcp-api-openapi.yml
 - filename: datarobot-memory-api-openapi.yml
   format: yaml
   label: DataRobot Memory API
   slug: datarobot-memory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarobot/refs/heads/main/openapi/datarobot-memory-api-openapi.yml
+  url: https://artifacts.apis.io/datarobot/openapi/datarobot-memory-api-openapi.yml
 - filename: datarobot-oauth2-api-openapi.yml
   format: yaml
   label: DataRobot Oauth2 API
   slug: datarobot-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarobot/refs/heads/main/openapi/datarobot-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/datarobot/openapi/datarobot-oauth2-api-openapi.yml
 - filename: datarobot-projects-api-openapi.yml
   format: yaml
   label: DataRobot Projects API
   slug: datarobot-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarobot/refs/heads/main/openapi/datarobot-projects-api-openapi.yml
+  url: https://artifacts.apis.io/datarobot/openapi/datarobot-projects-api-openapi.yml
 - filename: datarobot-registereddeployments-api-openapi.yml
   format: yaml
   label: DataRobot Registereddeployments API
   slug: datarobot-registereddeployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarobot/refs/heads/main/openapi/datarobot-registereddeployments-api-openapi.yml
+  url: https://artifacts.apis.io/datarobot/openapi/datarobot-registereddeployments-api-openapi.yml
 - filename: datarobot-uv-api-openapi.yml
   format: yaml
   label: DataRobot Uv API
   slug: datarobot-uv-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarobot/refs/heads/main/openapi/datarobot-uv-api-openapi.yml
+  url: https://artifacts.apis.io/datarobot/openapi/datarobot-uv-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -131,7 +131,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://docs.datarobot.com/en/docs/api/dev-learning/api-quickstart.html ; https://app.datarobot.com/.well-known/openid-configuration\ndocs: https://docs.datarobot.com/en/docs/api/dev-learning/api-quickstart.html\nsummary:\n  types: [http, oauth2, openIdConnect]\n  http_scheme: bearer\n  primary: personal-api-key\n  oauth2_flows: [authorizationCode, clientCredentials, deviceCode, implicit, refreshToken]\nschemes:\n  - name: personalApiKey\n    type: http\n    scheme: bearer\n    description: >-\n      Personal API keys serve as bearer tokens. Send them as\n      `Authorization: Bearer <YOUR_API_TOKEN>` against the REST API base URL for\n      your region (US https://app.datarobot.com/api/v2, EU https://app.eu.datarobot.com/api/v2,\n      JP https://app.jp.datarobot.com/api/v2).\n    source: docs\n  - name: oauth2\n    type: oauth2\n    description: OAuth 2.0 / OIDC via app.datarobot.com authorization server (agent and integration\
   \ auth).\n    issuer: https://app.datarobot.com\n    authorization_endpoint: https://app.datarobot.com/oauth2/auth\n    token_endpoint: https://app.datarobot.com/oauth2/token\n    device_authorization_endpoint: https://app.datarobot.com/oauth2/device/auth\n    revocation_endpoint: https://app.datarobot.com/oauth2/revoke\n    grant_types: [authorization_code, implicit, client_credentials, refresh_token, \"urn:ietf:params:oauth:grant-type:device_code\"]\n    token_endpoint_auth_methods: [client_secret_post, client_secret_basic, private_key_jwt, none]\n    pkce: [plain, S256]\n    source: https://app.datarobot.com/.well-known/openid-configuration\n  - name: openIdConnect\n    type: openIdConnect\n    openIdConnectUrl: https://app.datarobot.com/.well-known/openid-configuration\n    userinfo_endpoint: https://app.datarobot.com/userinfo\n    id_token_signing_alg: [RS256]\n    source: https://app.datarobot.com/.well-known/openid-configuration\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datarobot/refs/heads/main/authentication/datarobot-authentication.yml
+source_yaml_url: https://artifacts.apis.io/datarobot/authentication/datarobot-authentication.yml
 summary_line: http/oauth2/openIdConnect · 3 schemes
 tags:
 - Company

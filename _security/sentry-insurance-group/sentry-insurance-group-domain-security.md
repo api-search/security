@@ -31,7 +31,7 @@ source_filename: sentry-insurance-group-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sentry.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 14:24:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: sentry.com\n  dnssec: false\n  caa:\n  - 128 issue \"letsencrypt.org\"\n  - 128 issue \"awstrust.com\"\n  - 128 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sentry-insurance-group/refs/heads/main/security/sentry-insurance-group-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sentry-insurance-group/security/sentry-insurance-group-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fortune 1000

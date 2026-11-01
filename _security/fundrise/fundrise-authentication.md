@@ -7,55 +7,55 @@ api_specs:
   label: Fundrise Acknowledgments API
   slug: fundrise-acknowledgments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-acknowledgments-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-acknowledgments-api-openapi.yml
 - filename: fundrise-authentication-api-openapi.yml
   format: yaml
   label: Fundrise Authentication API
   slug: fundrise-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-authentication-api-openapi.yml
 - filename: fundrise-clients-api-openapi.yml
   format: yaml
   label: Fundrise Clients API
   slug: fundrise-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-clients-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-clients-api-openapi.yml
 - filename: fundrise-holdings-api-openapi.yml
   format: yaml
   label: Fundrise Holdings API
   slug: fundrise-holdings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-holdings-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-holdings-api-openapi.yml
 - filename: fundrise-investments-api-openapi.yml
   format: yaml
   label: Fundrise Investments API
   slug: fundrise-investments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-investments-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-investments-api-openapi.yml
 - filename: fundrise-liquidations-api-openapi.yml
   format: yaml
   label: Fundrise Liquidations API
   slug: fundrise-liquidations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-liquidations-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-liquidations-api-openapi.yml
 - filename: fundrise-offerings-api-openapi.yml
   format: yaml
   label: Fundrise Offerings API
   slug: fundrise-offerings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-offerings-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-offerings-api-openapi.yml
 - filename: fundrise-tax-forms-api-openapi.yml
   format: yaml
   label: Fundrise Tax Forms API
   slug: fundrise-tax-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-tax-forms-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-tax-forms-api-openapi.yml
 - filename: fundrise-transactions-api-openapi.yml
   format: yaml
   label: Fundrise Transactions API
   slug: fundrise-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-transactions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -121,7 +121,7 @@ source_yaml: "generated: '2026-08-04'\nmethod: searched\nsource: openapi/fundris
   \ token_endpoint: https://api.fundrise.com/oauth/token\n  scopes_supported:\n  - openid\n  - offline_access\n  response_types_supported:\n  - code\n  token_endpoint_auth_methods:\n  - client_secret_basic\n  note: >-\n    This is Fundrise's consumer-facing OAuth/OIDC authorization server, discovered\n    anonymously and distinct from the Connect partner API's own token operation. It is\n    recorded here and in scopes/fundrise-scopes.yml because it is the only place Fundrise\n    publishes named scopes. The discovery document omits issuer, jwks_uri,\n    subject_types_supported and id_token_signing_alg_values_supported, so it is a partial\n    rather than conformant OIDC discovery document.\n\nauthorization:\n  model: scheme-per-operation plus per-partner allowlist\n  scopes: see scopes/fundrise-scopes.yml\n  documented_statement: >-\n    \"To ensure a safe, secure platform, Fundrise imposes strict access controls to all\n    APIs. As such, there may be services or capabilities documented\
   \ that are inaccessible\n    with current permissions. Contact the support team via connect@fundrise.com to gain\n    permissions for additional endpoints.\"\n  note: >-\n    Endpoint-level authorization is expressed by which of the two schemes an operation\n    requires, plus an out-of-band per-partner permission grant. A 403 on a documented\n    operation is expected behaviour under this model, not a defect.\n\ncredential_handling_requirements:\n- Partner password encrypted at rest.\n- Client refresh tokens encrypted at rest.\n- Access to both restricted to the services making API requests.\n- Neither ever exposed to a Client or a Client device.\n- Compromise reported to Fundrise support.\n\ngaps:\n- The OAuth exchange is not declared as an oauth2 securityScheme, so flows and scopes are invisible to tooling.\n- No bearerFormat is declared, so token structure (JWT or opaque) is undocumented.\n- Refresh tokens never expire and no rotation or revocation mechanism is published.\n- No mutual\
   \ TLS, no request signing, and no key rotation policy documented for Partner Basic credentials.\n- The OIDC discovery document is incomplete against OpenID Connect Discovery 1.0.\n\nx-evidence:\n- fetched: '2026-08-04'\n  url: https://connect.fundrise.com/\n  http_status: 200\n  note: OpenAPI 3.1.0 and the Authentication tag narrative.\n- fetched: '2026-08-04'\n  url: https://fundrise.com/.well-known/openid-configuration\n  http_status: 200\n  content_type: application/json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/authentication/fundrise-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fundrise/authentication/fundrise-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Company

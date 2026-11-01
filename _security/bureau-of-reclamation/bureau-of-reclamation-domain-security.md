@@ -5,37 +5,37 @@ api_specs:
   label: Bureau of Reclamation Catalog API
   slug: bureau-of-reclamation-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-reclamation/refs/heads/main/openapi/bureau-of-reclamation-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-reclamation/openapi/bureau-of-reclamation-catalog-api-openapi.yml
 - filename: bureau-of-reclamation-locations-api-openapi.yml
   format: yaml
   label: Bureau of Reclamation Locations API
   slug: bureau-of-reclamation-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-reclamation/refs/heads/main/openapi/bureau-of-reclamation-locations-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-reclamation/openapi/bureau-of-reclamation-locations-api-openapi.yml
 - filename: bureau-of-reclamation-model-runs-api-openapi.yml
   format: yaml
   label: Bureau of Reclamation Model Runs API
   slug: bureau-of-reclamation-model-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-reclamation/refs/heads/main/openapi/bureau-of-reclamation-model-runs-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-reclamation/openapi/bureau-of-reclamation-model-runs-api-openapi.yml
 - filename: bureau-of-reclamation-parameters-api-openapi.yml
   format: yaml
   label: Bureau of Reclamation Parameters API
   slug: bureau-of-reclamation-parameters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-reclamation/refs/heads/main/openapi/bureau-of-reclamation-parameters-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-reclamation/openapi/bureau-of-reclamation-parameters-api-openapi.yml
 - filename: bureau-of-reclamation-reference-data-api-openapi.yml
   format: yaml
   label: Bureau of Reclamation Reference Data API
   slug: bureau-of-reclamation-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-reclamation/refs/heads/main/openapi/bureau-of-reclamation-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-reclamation/openapi/bureau-of-reclamation-reference-data-api-openapi.yml
 - filename: bureau-of-reclamation-results-api-openapi.yml
   format: yaml
   label: Bureau of Reclamation Results API
   slug: bureau-of-reclamation-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-reclamation/refs/heads/main/openapi/bureau-of-reclamation-results-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-reclamation/openapi/bureau-of-reclamation-results-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: bureau-of-reclamation-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.usbr.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 26 23:59:59 2027 GMT\n  hsts: null\n- host: data.usbr.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 26 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: usbr.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-reclamation/refs/heads/main/security/bureau-of-reclamation-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bureau-of-reclamation/security/bureau-of-reclamation-domain-security.yml
 summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
 - Energy

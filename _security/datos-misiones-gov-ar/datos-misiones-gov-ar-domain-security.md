@@ -26,7 +26,7 @@ source_filename: datos-misiones-gov-ar-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.datos.misiones.gov.ar\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''www.datos.m'\n  hsts: null\ndomains:\n- domain: misiones.gov.ar\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datos-misiones-gov-ar/refs/heads/main/security/datos-misiones-gov-ar-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/datos-misiones-gov-ar/security/datos-misiones-gov-ar-domain-security.yml
 summary_line: DMARC
 tags:
 - Open Data

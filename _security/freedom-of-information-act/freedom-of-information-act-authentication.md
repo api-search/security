@@ -8,19 +8,19 @@ api_specs:
   label: Freedom of Information Act Agency Components API
   slug: freedom-of-information-act-agency-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freedom-of-information-act/refs/heads/main/openapi/freedom-of-information-act-agency-components-api-openapi.yml
+  url: https://artifacts.apis.io/freedom-of-information-act/openapi/freedom-of-information-act-agency-components-api-openapi.yml
 - filename: freedom-of-information-act-agency-submission-api-openapi.yml
   format: yaml
   label: Freedom of Information Act Agency Submission API
   slug: freedom-of-information-act-agency-submission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freedom-of-information-act/refs/heads/main/openapi/freedom-of-information-act-agency-submission-api-openapi.yml
+  url: https://artifacts.apis.io/freedom-of-information-act/openapi/freedom-of-information-act-agency-submission-api-openapi.yml
 - filename: freedom-of-information-act-annual-reports-api-openapi.yml
   format: yaml
   label: Freedom of Information Act Annual Reports API
   slug: freedom-of-information-act-annual-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freedom-of-information-act/refs/heads/main/openapi/freedom-of-information-act-annual-reports-api-openapi.yml
+  url: https://artifacts.apis.io/freedom-of-information-act/openapi/freedom-of-information-act-annual-reports-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -55,7 +55,7 @@ source_filename: freedom-of-information-act-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/freedom-of-information-act-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKey\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: API key for FOIA.gov public APIs.\n  sources:\n  - openapi/freedom-of-information-act-openapi.yml\n- name: SharedSecret\n  type: apiKey\n  in: header\n  parameter: FOIA-API-SECRET\n  description: Shared secret token between Portal and agency.\n  sources:\n  - openapi/freedom-of-information-act-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freedom-of-information-act/refs/heads/main/authentication/freedom-of-information-act-authentication.yml
+source_yaml_url: https://artifacts.apis.io/freedom-of-information-act/authentication/freedom-of-information-act-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Federal Government

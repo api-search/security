@@ -45,7 +45,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://ikas.dev/docs/api/getting-started/authentication\ndocs: https://ikas.dev/docs/api/getting-started/authentication\nsummary:\n  types: [oauth2]\n  oauth2_flows: [clientCredentials, authorizationCode]\n  token_style: bearer\n  token_ttl_seconds: 14400\nschemes:\n- name: OAuth2\n  type: oauth2\n  description: >-\n    ikas apps authenticate with OAuth 2.0. Private (store-specific) apps use the\n    client_credentials flow; public admin apps use the authorization_code flow.\n    Access tokens are sent as an HTTP Bearer token on GraphQL requests and\n    expire after 14400 seconds (4 hours).\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{store_name}.myikas.com/api/admin/oauth/token\n    used_by: private apps\n    request:\n      content_type: application/x-www-form-urlencoded\n      params: [grant_type=client_credentials, client_id, client_secret]\n    response_fields: [access_token, token_type, expires_in]\n\
   \  - flow: authorizationCode\n    used_by: public admin apps\n    docs: https://builders.ikas.com/docs/app-development\n  scopes_ref: scopes/ikas-ikas-teknoloji-as-scopes.yml\napi_request:\n  endpoint: https://api.myikas.com/api/v1/admin/graphql\n  header: 'Authorization: Bearer <access_token>'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ikas-ikas-teknoloji-as/refs/heads/main/authentication/ikas-ikas-teknoloji-as-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ikas-ikas-teknoloji-as/authentication/ikas-ikas-teknoloji-as-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

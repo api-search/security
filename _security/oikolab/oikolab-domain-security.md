@@ -27,7 +27,7 @@ source_filename: oikolab-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.oikolab.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 22:58:53 2026 GMT\n  hsts: false\ndomains:\n- domain: oikolab.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oikolab/refs/heads/main/security/oikolab-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/oikolab/security/oikolab-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Weather

@@ -5,55 +5,55 @@ api_specs:
   label: 99 Minutos Coverage API
   slug: 99-minutos-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/openapi/99-minutos-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/99-minutos/openapi/99-minutos-coverage-api-openapi.yml
 - filename: 99-minutos-documents-api-openapi.yml
   format: yaml
   label: 99 Minutos Documents API
   slug: 99-minutos-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/openapi/99-minutos-documents-api-openapi.yml
+  url: https://artifacts.apis.io/99-minutos/openapi/99-minutos-documents-api-openapi.yml
 - filename: 99-minutos-locations-api-openapi.yml
   format: yaml
   label: 99 Minutos Locations API
   slug: 99-minutos-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/openapi/99-minutos-locations-api-openapi.yml
+  url: https://artifacts.apis.io/99-minutos/openapi/99-minutos-locations-api-openapi.yml
 - filename: 99-minutos-orders-api-openapi.yml
   format: yaml
   label: 99 Minutos Orders API
   slug: 99-minutos-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/openapi/99-minutos-orders-api-openapi.yml
+  url: https://artifacts.apis.io/99-minutos/openapi/99-minutos-orders-api-openapi.yml
 - filename: 99-minutos-shipments-api-openapi.yml
   format: yaml
   label: 99 Minutos Shipments API
   slug: 99-minutos-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/openapi/99-minutos-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/99-minutos/openapi/99-minutos-shipments-api-openapi.yml
 - filename: 99-minutos-shipping-rates-api-openapi.yml
   format: yaml
   label: 99 Minutos Shipping Rates API
   slug: 99-minutos-shipping-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/openapi/99-minutos-shipping-rates-api-openapi.yml
+  url: https://artifacts.apis.io/99-minutos/openapi/99-minutos-shipping-rates-api-openapi.yml
 - filename: 99-minutos-super-geocoding-api-openapi.yml
   format: yaml
   label: 99 Minutos Super Geocoding API
   slug: 99-minutos-super-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/openapi/99-minutos-super-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/99-minutos/openapi/99-minutos-super-geocoding-api-openapi.yml
 - filename: 99-minutos-webhooks-api-openapi.yml
   format: yaml
   label: 99 Minutos Webhooks API
   slug: 99-minutos-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/openapi/99-minutos-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/99-minutos/openapi/99-minutos-webhooks-api-openapi.yml
 - filename: 99-minutos-oauth-api-openapi.yml
   format: yaml
   label: 99 Minutos OAUTH API
   slug: 99-minutos-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/openapi/99-minutos-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/99-minutos/openapi/99-minutos-oauth-api-openapi.yml
 certification_count: 1
 certifications:
 - ISO 27001
@@ -70,7 +70,7 @@ source_filename: 99-minutos-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nprobe: true\nsource: https://security.99minutos.com/\nurl: https://security.99minutos.com/\ncertifications:\n- ISO 27001\nevidence:\n- source: https://security.99minutos.com/\n  keywords:\n  - iso/iec 27001\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/security/99-minutos-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/99-minutos/security/99-minutos-trust-center.yml
 summary_line: ISO 27001
 tags:
 - Company

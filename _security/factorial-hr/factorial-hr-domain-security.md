@@ -5,19 +5,19 @@ api_specs:
   label: Factorial Core::Employees::V2 API
   slug: factorial-hr-core-employees-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/openapi/factorial-hr-core-employees-v2-api-openapi.yml
+  url: https://artifacts.apis.io/factorial-hr/openapi/factorial-hr-core-employees-v2-api-openapi.yml
 - filename: factorial-hr-core-me-api-openapi.yml
   format: yaml
   label: Factorial Core::Me API
   slug: factorial-hr-core-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/openapi/factorial-hr-core-me-api-openapi.yml
+  url: https://artifacts.apis.io/factorial-hr/openapi/factorial-hr-core-me-api-openapi.yml
 - filename: factorial-hr-resources-api-openapi.yml
   format: yaml
   label: Factorial Resources API
   slug: factorial-hr-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/openapi/factorial-hr-resources-api-openapi.yml
+  url: https://artifacts.apis.io/factorial-hr/openapi/factorial-hr-resources-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: factorial-hr-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: factorialhr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 20:46:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apidoc.factorialhr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 22:03:15 2026 GMT\n  hsts: null\n- host: api.factorialhr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 15:01:18 2026 GMT\n  hsts: null\ndomains:\n- domain: factorialhr.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/security/factorial-hr-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/factorial-hr/security/factorial-hr-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Human Resources

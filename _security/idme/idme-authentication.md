@@ -7,25 +7,25 @@ api_specs:
   label: ID.me applications API
   slug: applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/openapi/_ae-authored/idme-applications-openapi-generated.yml
+  url: https://artifacts.apis.io/idme/openapi/_ae-authored/idme-applications-openapi-generated.yml
 - filename: idme-core-openapi-generated.yml
   format: yaml
   label: ID.me core API
   slug: core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/openapi/_ae-authored/idme-core-openapi-generated.yml
+  url: https://artifacts.apis.io/idme/openapi/_ae-authored/idme-core-openapi-generated.yml
 - filename: idme-document-passback-openapi-generated.yml
   format: yaml
   label: ID.me document passback API
   slug: document-passback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/openapi/_ae-authored/idme-document-passback-openapi-generated.yml
+  url: https://artifacts.apis.io/idme/openapi/_ae-authored/idme-document-passback-openapi-generated.yml
 - filename: idme-services-openapi-generated.yml
   format: yaml
   label: ID.me services API
   slug: services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/openapi/_ae-authored/idme-services-openapi-generated.yml
+  url: https://artifacts.apis.io/idme/openapi/_ae-authored/idme-services-openapi-generated.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -74,7 +74,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://docs.id.me/guides/oidc/overview\ndocs: https://docs.id.me/guides/open-id-connect/configuration\noidc_issuer: https://api.id.me/oidc\ndiscovery: https://api.id.me/oidc/.well-known/openid-configuration\nsummary:\n  types: [oauth2, openIdConnect]\n  oauth2_flows: [authorizationCode]\n  pkce: true\n  token_endpoint_auth_methods: [client_secret_post, client_secret_basic]\nschemes:\n- name: OpenIDConnect\n  type: openIdConnect\n  openIdConnectUrl: https://api.id.me/oidc/.well-known/openid-configuration\n  issuer: https://api.id.me/oidc\n  sources: [well-known/idme-openid-configuration.json]\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.id.me/oauth/authorize\n    tokenUrl: https://api.id.me/oauth/token\n    userinfoUrl: https://api.id.me/api/public/v3/userinfo\n    jwksUrl: https://api.id.me/oidc/.well-known/jwks\n    pkce: true\n    refresh_token: true\n  sources:\
   \ [well-known/idme-openid-configuration.json]\n- name: ServicesApiBearer\n  type: http\n  scheme: bearer\n  description: >-\n    ID.me Services API uses a Base64-encoded account secret sent as\n    \"Authorization: Bearer ID.me {token}\".\n  applies_to: https://services.idmelabs.com\n  sources: [https://docs.id.me/services-api-overview]\ntoken_details:\n  id_token_signing_alg: [RS256, ES256]\n  id_token_encryption_alg: [RSA-OAEP]\n  id_token_encryption_enc: [A256CBC-HS512]\n  userinfo_signing_alg: [RS256, ES256]\nnotes: >-\n  Also supports SAML 2.0 federation for IAM platforms (Okta, Keycloak, Microsoft\n  Entra External ID, PingOne, AWS Cognito). See docs.id.me/guides/saml/overview.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/authentication/idme-authentication.yml
+source_yaml_url: https://artifacts.apis.io/idme/authentication/idme-authentication.yml
 summary_line: oauth2/openIdConnect · 3 schemes
 tags:
 - Company

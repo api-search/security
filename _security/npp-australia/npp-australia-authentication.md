@@ -7,7 +7,7 @@ api_specs:
   label: NPP Australia (AP+) API
   slug: npp-australia-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/npp-australia/refs/heads/main/openapi/_ae-authored/npp-australia-openapi-generated.yml
+  url: https://artifacts.apis.io/npp-australia/openapi/_ae-authored/npp-australia-openapi-generated.yml
 auth_types:
 - openIdConnect
 - oauth2
@@ -58,7 +58,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-24'\nmethod: searched\nsource: https://auth.developers.auspayplus.com.au/.well-known/openid-configuration\ndocs: https://www.developers.auspayplus.com.au/api/auth/login/\nnotes: >-\n  NPP Australia (AP+) publishes no downloadable OpenAPI, so no securitySchemes\n  could be derived. The auth model captured here is the AP+ developer-portal\n  identity layer, an Auth0 OIDC tenant on the custom domain\n  auth.developers.auspayplus.com.au. This governs registration and login to the\n  gated developer portal (NPP + BPAY + eftpos); the consumable payment APIs\n  themselves are exposed by NPP Participants under participant-specific auth and\n  their OAS3 specs sit behind portal registration.\nsummary:\n  types: [openIdConnect, oauth2]\n  oauth2_flows: [authorizationCode, clientCredentials, implicit, deviceCode, refreshToken]\n  api_key_in: []\nschemes:\n- name: OpenIDConnect\n  type: openIdConnect\n  openIdConnectUrl: https://auth.developers.auspayplus.com.au/.well-known/openid-configuration\n\
   \  issuer: https://auth.developers.auspayplus.com.au/\n  authorizationUrl: https://auth.developers.auspayplus.com.au/authorize\n  tokenUrl: https://auth.developers.auspayplus.com.au/oauth/token\n  jwksUri: https://auth.developers.auspayplus.com.au/.well-known/jwks.json\n  scopes_supported: [openid, profile, offline_access, email, phone, address]\n  grant_types_supported: [authorization_code, client_credentials, refresh_token, implicit, urn:ietf:params:oauth:grant-type:device_code, urn:ietf:params:oauth:grant-type:token-exchange]\n  provider: Auth0\n  scope: developer-portal login/registration (not payment-API scopes)\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/npp-australia/refs/heads/main/authentication/npp-australia-authentication.yml
+source_yaml_url: https://artifacts.apis.io/npp-australia/authentication/npp-australia-authentication.yml
 summary_line: openIdConnect/oauth2 · 1 scheme
 tags:
 - Payments

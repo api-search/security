@@ -27,7 +27,7 @@ source_filename: aquis-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.aquis.eu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 23 12:28:36 2026 GMT\n  hsts: null\ndomains:\n- domain: aquis.eu\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aquis/refs/heads/main/security/aquis-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aquis/security/aquis-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

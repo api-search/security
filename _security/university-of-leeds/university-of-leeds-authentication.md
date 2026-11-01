@@ -7,31 +7,31 @@ api_specs:
   label: University of Leeds Facets API
   slug: university-of-leeds-facets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-leeds/refs/heads/main/openapi/university-of-leeds-facets-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-leeds/openapi/university-of-leeds-facets-api-openapi.yml
 - filename: university-of-leeds-iiif-image-api-openapi.yml
   format: yaml
   label: University of Leeds IIIF Image API
   slug: university-of-leeds-iiif-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-leeds/refs/heads/main/openapi/university-of-leeds-iiif-image-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-leeds/openapi/university-of-leeds-iiif-image-api-openapi.yml
 - filename: university-of-leeds-oai-pmh-api-openapi.yml
   format: yaml
   label: University of Leeds OAI PMH API
   slug: university-of-leeds-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-leeds/refs/heads/main/openapi/university-of-leeds-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-leeds/openapi/university-of-leeds-oai-pmh-api-openapi.yml
 - filename: university-of-leeds-spaces-api-openapi.yml
   format: yaml
   label: University of Leeds Spaces API
   slug: university-of-leeds-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-leeds/refs/heads/main/openapi/university-of-leeds-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-leeds/openapi/university-of-leeds-spaces-api-openapi.yml
 - filename: university-of-leeds-open-search-api-openapi.yml
   format: yaml
   label: University of Leeds Open Search API
   slug: university-of-leeds-open-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-leeds/refs/heads/main/openapi/university-of-leeds-open-search-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-leeds/openapi/university-of-leeds-open-search-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -53,7 +53,7 @@ source_url: ''
 source_yaml: "authentication: '0.1'\nprovider: university-of-leeds\ngenerated: '2026-08-30'\nmethod: derived\nevidence_method: probed\nprobed: '2026-08-30'\nsource: >-\n  Established by issuing unauthenticated requests to each institution-operated surface on 2026-08-30\n  and observing that all returned complete payloads at HTTP 200 with no credential of any kind.\nx-operator: institution\nsummary: >-\n  Every institution-operated surface the University of Leeds exposes is fully anonymous. There is no\n  registration, no key issuance, no OAuth flow, no rate-limit header and no developer account. This\n  is a genuine open-access posture, not an undocumented one — but it also means there is no\n  onboarding path, no way to identify a caller, and no contact route for a consumer with a problem.\nsurfaces:\n  - surface: Spacefinder space data\n    baseURL: https://spacefinder.leeds.ac.uk/spaces.json\n    scheme: none\n    verified: '2026-08-30'\n    evidence: 'GET with no headers returned HTTP\
   \ 200 and 137,649 bytes of JSON.'\n  - surface: Research Data Leeds Repository OAI-PMH\n    baseURL: https://archive.researchdata.leeds.ac.uk/cgi/oai2\n    scheme: none\n    verified: '2026-08-30'\n    evidence: 'verb=Identify and verb=ListIdentifiers both returned HTTP 200 unauthenticated.'\n  - surface: Leeds Digital Library OAI-PMH / OpenSearch\n    baseURL: https://digital.library.leeds.ac.uk/cgi/oai2\n    scheme: none\n    verified: '2026-08-30'\n    evidence: 'verb=Identify returned HTTP 200 unauthenticated.'\n  - surface: Library floor plans IIIF Image API\n    baseURL: https://floorplans.library.leeds.ac.uk/assets/iiif\n    scheme: none\n    verified: '2026-08-30'\n    evidence: 'info.json and a derivative tile both returned HTTP 200 unauthenticated.'\nnot_applicable:\n  - surface: Library Search (Ex Libris Alma / Primo)\n    x-operator: tenant\n    detail: >-\n      Programmatic access runs through Ex Libris' Alma and Primo REST APIs and requires an\n      institution-issued key\
   \ obtained from Ex Libris, not from Leeds. The authentication model is\n      the vendor's, and it is documented on the vendor's developer network — not here.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-leeds/refs/heads/main/authentication/university-of-leeds-authentication.yml
+source_yaml_url: https://artifacts.apis.io/university-of-leeds/authentication/university-of-leeds-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

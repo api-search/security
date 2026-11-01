@@ -7,19 +7,19 @@ api_specs:
   label: Johnson & Johnson Devices API
   slug: johnson-and-johnson-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/openapi/johnson-and-johnson-devices-api-openapi.yml
+  url: https://artifacts.apis.io/johnson-and-johnson/openapi/johnson-and-johnson-devices-api-openapi.yml
 - filename: johnson-and-johnson-glucose-readings-api-openapi.yml
   format: yaml
   label: Johnson & Johnson Glucose Readings API
   slug: johnson-and-johnson-glucose-readings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/openapi/johnson-and-johnson-glucose-readings-api-openapi.yml
+  url: https://artifacts.apis.io/johnson-and-johnson/openapi/johnson-and-johnson-glucose-readings-api-openapi.yml
 - filename: johnson-and-johnson-patients-api-openapi.yml
   format: yaml
   label: Johnson & Johnson Patients API
   slug: johnson-and-johnson-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/openapi/johnson-and-johnson-patients-api-openapi.yml
+  url: https://artifacts.apis.io/johnson-and-johnson/openapi/johnson-and-johnson-patients-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -45,7 +45,7 @@ source_filename: johnson-and-johnson-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/johnson-and-johnson-lifescan-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/johnson-and-johnson-lifescan-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/authentication/johnson-and-johnson-authentication.yml
+source_yaml_url: https://artifacts.apis.io/johnson-and-johnson/authentication/johnson-and-johnson-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Healthcare

@@ -29,7 +29,7 @@ source_filename: yandex-weather-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: yandex.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 29 20:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: yandex.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"globalsign.com\"\n  - 0 issue \"globalsign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yandex-weather/refs/heads/main/security/yandex-weather-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/yandex-weather/security/yandex-weather-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Weather

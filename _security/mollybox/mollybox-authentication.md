@@ -7,25 +7,25 @@ api_specs:
   label: MollyBox Admin API
   slug: mollybox-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mollybox/refs/heads/main/openapi/mollybox-admin-api-openapi.yml
+  url: https://artifacts.apis.io/mollybox/openapi/mollybox-admin-api-openapi.yml
 - filename: mollybox-health-api-openapi.yml
   format: yaml
   label: MollyBox Health API
   slug: mollybox-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mollybox/refs/heads/main/openapi/mollybox-health-api-openapi.yml
+  url: https://artifacts.apis.io/mollybox/openapi/mollybox-health-api-openapi.yml
 - filename: mollybox-me-api-openapi.yml
   format: yaml
   label: MollyBox Me API
   slug: mollybox-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mollybox/refs/heads/main/openapi/mollybox-me-api-openapi.yml
+  url: https://artifacts.apis.io/mollybox/openapi/mollybox-me-api-openapi.yml
 - filename: mollybox-resources-api-openapi.yml
   format: yaml
   label: MollyBox Resources API
   slug: mollybox-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mollybox/refs/heads/main/openapi/mollybox-resources-api-openapi.yml
+  url: https://artifacts.apis.io/mollybox/openapi/mollybox-resources-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -60,7 +60,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/mollybox-arcflow-openapi.json\nsummary:\n  types: [http]\n  http_schemes: [bearer]\n  api_key_in: []\n  oauth2_flows: []\n  notes: >-\n    All operations except GET /api/health require an HTTP Bearer token.\n    The server self-describes as a single-user, self-hosted deployment\n    (HealthResponse.mode and ServerIdentity.mode default to \"single-user\"),\n    so the bearer token is a server-level access token rather than a\n    per-user OAuth credential.\nschemes:\n  - name: HTTPBearer\n    type: http\n    scheme: bearer\n    applied_to:\n      - get_identity_api_me_get\n      - capture_resource_api_resources_post\n      - list_resources_api_resources_get\n      - import_resources_api_admin_import_resources_post\n      - get_resource_api_resources__resource_id__get\n      - update_resource_status_api_resources__resource_id__status_patch\n      - open_resource_api_resources__resource_id__open_post\n    sources: [openapi/mollybox-arcflow-openapi.json]\n\
   unauthenticated_operations:\n  - health_api_health_get\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mollybox/refs/heads/main/authentication/mollybox-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mollybox/authentication/mollybox-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

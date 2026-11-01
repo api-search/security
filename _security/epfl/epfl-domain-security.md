@@ -5,19 +5,19 @@ api_specs:
   label: EPFL Actu News API
   slug: actu-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/openapi/_original/epfl-actu.yaml
+  url: https://artifacts.apis.io/epfl/openapi/_original/epfl-actu.yaml
 - filename: epfl-memento.yaml
   format: yaml
   label: EPFL Memento Events API
   slug: memento-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/openapi/_original/epfl-memento.yaml
+  url: https://artifacts.apis.io/epfl/openapi/_original/epfl-memento.yaml
 - filename: epfl-primers-api-openapi.yml
   format: yaml
   label: EPFL Primers API
   slug: epfl-primers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/openapi/epfl-primers-api-openapi.yml
+  url: https://artifacts.apis.io/epfl/openapi/epfl-primers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: epfl-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.epfl.ch\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 12:58:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: actu.epfl.ch\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 23:32:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: memento.epfl.ch\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 17:41:00 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: epfl.ch\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/security/epfl-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/epfl/security/epfl-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - University

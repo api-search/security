@@ -5,91 +5,91 @@ api_specs:
   label: Tray.ai Authentication API
   slug: tray-ai-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-authentication-api-openapi.yml
 - filename: tray-ai-authentications-api-openapi.yml
   format: yaml
   label: Tray.ai Authentications API
   slug: tray-ai-authentications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-authentications-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-authentications-api-openapi.yml
 - filename: tray-ai-call-connector-api-openapi.yml
   format: yaml
   label: Tray.ai Call Connector API
   slug: tray-ai-call-connector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-call-connector-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-call-connector-api-openapi.yml
 - filename: tray-ai-connectors-api-openapi.yml
   format: yaml
   label: Tray.ai Connectors API
   slug: tray-ai-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-connectors-api-openapi.yml
 - filename: tray-ai-deployments-api-openapi.yml
   format: yaml
   label: Tray.ai Deployments API
   slug: tray-ai-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-deployments-api-openapi.yml
 - filename: tray-ai-projects-api-openapi.yml
   format: yaml
   label: Tray.ai Projects API
   slug: tray-ai-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-projects-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-projects-api-openapi.yml
 - filename: tray-ai-solution-instances-api-openapi.yml
   format: yaml
   label: Tray.ai Solution Instances API
   slug: tray-ai-solution-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-solution-instances-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-solution-instances-api-openapi.yml
 - filename: tray-ai-solutions-api-openapi.yml
   format: yaml
   label: Tray.ai Solutions API
   slug: tray-ai-solutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-solutions-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-solutions-api-openapi.yml
 - filename: tray-ai-triggers-api-openapi.yml
   format: yaml
   label: Tray.ai Triggers API
   slug: tray-ai-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-triggers-api-openapi.yml
 - filename: tray-ai-users-api-openapi.yml
   format: yaml
   label: Tray.ai Users API
   slug: tray-ai-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-users-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-users-api-openapi.yml
 - filename: tray-ai-workflows-api-openapi.yml
   format: yaml
   label: Tray.ai Workflows API
   slug: tray-ai-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-workflows-api-openapi.yml
 - filename: tray-ai-workspaces-api-openapi.yml
   format: yaml
   label: Tray.ai Workspaces API
   slug: tray-ai-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-workspaces-api-openapi.yml
 - filename: tray-ai-agent-groups-api-openapi.yml
   format: yaml
   label: Tray.ai Agent Groups API
   slug: tray-ai-agent-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-agent-groups-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-agent-groups-api-openapi.yml
 - filename: tray-ai-agent-instances-api-openapi.yml
   format: yaml
   label: Tray.ai Agent Instances API
   slug: tray-ai-agent-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-agent-instances-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-agent-instances-api-openapi.yml
 - filename: tray-ai-permissions-api-openapi.yml
   format: yaml
   label: Tray.ai Permissions API
   slug: tray-ai-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-permissions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -137,7 +137,7 @@ source_filename: tray-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tray.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 10 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: tray.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  2 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.tray.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 29 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: tray.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: tray.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/security/tray-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tray-ai/security/tray-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Automation

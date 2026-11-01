@@ -7,13 +7,13 @@ api_specs:
   label: University of Reading OAI PMH API
   slug: university-of-reading-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-reading/refs/heads/main/openapi/university-of-reading-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-reading/openapi/university-of-reading-oai-pmh-api-openapi.yml
 - filename: university-of-reading-repository-api-openapi.yml
   format: yaml
   label: University of Reading Repository API
   slug: university-of-reading-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-reading/refs/heads/main/openapi/university-of-reading-repository-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-reading/openapi/university-of-reading-repository-api-openapi.yml
 auth_types:
 - none
 - saml2
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-09-01'\nmethod: derived\nsource: >-\n  Live unaut
   \ service; the SSO endpoints resolve to OpenAthens\n    (https://login.openathens.net/saml/2/sso/reading.ac.uk/c/ukfed), which is the implementation the\n    university has chosen. Both SAML 2.0 and the Shibboleth 1.0 AuthnRequest profile are advertised.\n  issuance: Institutional accounts only; a federation entity is not a developer credential.\n  sources:\n  - http://mdq.ukfederation.org.uk/entities/%7Bsha1%7D57cf958ecb2c90e4fb339c8cf8a95dcee2d68101\n- name: entra-id-oidc\n  type: oidc\n  purpose: Sign-in to the university's own web applications — timetabling, identity self-service, staff and student portals.\n  applies_to:\n  - https://timetable.reading.ac.uk/\n  - https://myid.reading.ac.uk/\n  - https://risis.reading.ac.uk/\n  description: >-\n    Microsoft Entra ID tenant 4ffa3bc4-ecfc-48c0-9080-f5e43ff90e5f. The discovery document at\n    https://login.microsoftonline.com/reading.ac.uk/v2.0/.well-known/openid-configuration is public\n    and complete (authorization_code and implicit\
   \ response types, scopes openid profile email\n    offline_access, JWKS published). Probing timetable.reading.ac.uk and myid.reading.ac.uk each\n    redirected into this tenant, confirming which applications sit behind it. The tenant is\n    Managed — getuserrealm returns NameSpaceType Managed, FederationBrandName \"University of\n    Reading\" — so there is no on-premises federation server behind it.\n  issuance: >-\n    Application registrations in this tenant are administered by the university. There is no\n    self-service developer onboarding: an external party cannot obtain a client_id here.\n  sources:\n  - https://login.microsoftonline.com/reading.ac.uk/v2.0/.well-known/openid-configuration\nobservations:\n- >-\n  A bot challenge, not an auth wall, guards part of the repository. /cgi/search and /cgi/export on\n  centaur.reading.ac.uk return HTTP 200 carrying an Anubis interstitial (\"Making sure you're not a\n  bot!\") instead of the requested document. It is not authentication\
   \ and it does not affect\n  /cgi/oai2 or /rest/, but a naive harvester reading status codes alone would record those paths as\n  successful.\n- >-\n  An Azure API Management gateway runs on the institution's own domain — esb-prod-api.reading.ac.uk\n  resolves to uks-common-p-001-apim.azure-api.net, with a UAT sibling at esb-uat-api.reading.ac.uk.\n  Both answer with APIM's JSON 404 envelope on every path probed. The university therefore operates\n  an API gateway; it publishes no route through it, and no subscription-key issuance process is\n  public.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-reading/refs/heads/main/authentication/university-of-reading-authentication.yml
+source_yaml_url: https://artifacts.apis.io/university-of-reading/authentication/university-of-reading-authentication.yml
 summary_line: none/saml2/oidc · 4 schemes
 tags:
 - University

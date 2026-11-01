@@ -5,61 +5,61 @@ api_specs:
   label: Emerge Tools Analysis API
   slug: emerge-tools-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/emerge-tools/openapi/emerge-tools-analysis-api-openapi.yml
 - filename: emerge-tools-apphistory-api-openapi.yml
   format: yaml
   label: Emerge Tools AppHistory API
   slug: emerge-tools-apphistory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-apphistory-api-openapi.yml
+  url: https://artifacts.apis.io/emerge-tools/openapi/emerge-tools-apphistory-api-openapi.yml
 - filename: emerge-tools-builddetails-api-openapi.yml
   format: yaml
   label: Emerge Tools BuildDetails API
   slug: emerge-tools-builddetails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-builddetails-api-openapi.yml
+  url: https://artifacts.apis.io/emerge-tools/openapi/emerge-tools-builddetails-api-openapi.yml
 - filename: emerge-tools-comment-api-openapi.yml
   format: yaml
   label: Emerge Tools Comment API
   slug: emerge-tools-comment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-comment-api-openapi.yml
+  url: https://artifacts.apis.io/emerge-tools/openapi/emerge-tools-comment-api-openapi.yml
 - filename: emerge-tools-deadcode-api-openapi.yml
   format: yaml
   label: Emerge Tools DeadCode API
   slug: emerge-tools-deadcode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-deadcode-api-openapi.yml
+  url: https://artifacts.apis.io/emerge-tools/openapi/emerge-tools-deadcode-api-openapi.yml
 - filename: emerge-tools-getperftest-api-openapi.yml
   format: yaml
   label: Emerge Tools GetPerfTest API
   slug: emerge-tools-getperftest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-getperftest-api-openapi.yml
+  url: https://artifacts.apis.io/emerge-tools/openapi/emerge-tools-getperftest-api-openapi.yml
 - filename: emerge-tools-snapshots-api-openapi.yml
   format: yaml
   label: Emerge Tools Snapshots API
   slug: emerge-tools-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/emerge-tools/openapi/emerge-tools-snapshots-api-openapi.yml
 - filename: emerge-tools-trace-api-openapi.yml
   format: yaml
   label: Emerge Tools Trace API
   slug: emerge-tools-trace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-trace-api-openapi.yml
+  url: https://artifacts.apis.io/emerge-tools/openapi/emerge-tools-trace-api-openapi.yml
 - filename: emerge-tools-upload-api-openapi.yml
   format: yaml
   label: Emerge Tools Upload API
   slug: emerge-tools-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-upload-api-openapi.yml
+  url: https://artifacts.apis.io/emerge-tools/openapi/emerge-tools-upload-api-openapi.yml
 - filename: emerge-tools-uploadfromlink-api-openapi.yml
   format: yaml
   label: Emerge Tools UploadFromLink API
   slug: emerge-tools-uploadfromlink-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-uploadfromlink-api-openapi.yml
+  url: https://artifacts.apis.io/emerge-tools/openapi/emerge-tools-uploadfromlink-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -94,7 +94,7 @@ source_filename: emerge-tools-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: emergetools.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 14:01:27 2026 GMT\n  hsts: true\n  hsts_max_age: 0\n- host: api.emergetools.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 14:01:27 2026 GMT\n  hsts: null\ndomains:\n- domain: emergetools.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/security/emerge-tools-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/emerge-tools/security/emerge-tools-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

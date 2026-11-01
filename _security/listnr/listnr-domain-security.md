@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: listnr-jobs-api-openapi.yml
+- filename: listnr-agent-api-openapi.yml
   format: yaml
-  label: Listnr Jobs API
-  slug: listnr-jobs-api
+  label: Listnr Agent API
+  slug: listnr-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listnr/refs/heads/main/openapi/listnr-jobs-api-openapi.yml
-- filename: listnr-text-to-speech-api-openapi.yml
+  url: https://artifacts.apis.io/listnr/openapi/listnr-agent-api-openapi.yml
+- filename: listnr-billing-api-openapi.yml
   format: yaml
-  label: Listnr Text-to-Speech API
-  slug: listnr-text-to-speech-api
+  label: Listnr Billing API
+  slug: listnr-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listnr/refs/heads/main/openapi/listnr-text-to-speech-api-openapi.yml
-- filename: listnr-voices-api-openapi.yml
+  url: https://artifacts.apis.io/listnr/openapi/listnr-billing-api-openapi.yml
+- filename: listnr-catalog-api-openapi.yml
   format: yaml
-  label: Listnr Voices API
-  slug: listnr-voices-api
+  label: Listnr Catalog API
+  slug: listnr-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listnr/refs/heads/main/openapi/listnr-voices-api-openapi.yml
+  url: https://artifacts.apis.io/listnr/openapi/listnr-catalog-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -64,12 +64,11 @@ source_filename: listnr-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: listnr.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 05:15:24 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: bff.listnr.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 17:28:36 2026 GMT\n  hsts: false\ndomains:\n- domain: listnr.ai\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: listnr.tech\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/listnr/refs/heads/main/security/listnr-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/listnr/security/listnr-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
 - Text-to-Speech
-- TTS
 - Voice
 - Speech Synthesis
 - Audio

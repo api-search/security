@@ -27,7 +27,7 @@ source_filename: connecthomes-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-10'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.connecthomes.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  7 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: connecthomes.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/connecthomes/refs/heads/main/security/connecthomes-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/connecthomes/security/connecthomes-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Real Estate

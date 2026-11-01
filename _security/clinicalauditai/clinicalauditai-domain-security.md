@@ -5,19 +5,19 @@ api_specs:
   label: ClinicalAuditAI Audits API
   slug: clinicalauditai-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clinicalauditai/refs/heads/main/openapi/clinicalauditai-audits-api-openapi.yml
+  url: https://artifacts.apis.io/clinicalauditai/openapi/clinicalauditai-audits-api-openapi.yml
 - filename: clinicalauditai-client-settings-api-openapi.yml
   format: yaml
   label: ClinicalAuditAI Client Settings API
   slug: clinicalauditai-client-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clinicalauditai/refs/heads/main/openapi/clinicalauditai-client-settings-api-openapi.yml
+  url: https://artifacts.apis.io/clinicalauditai/openapi/clinicalauditai-client-settings-api-openapi.yml
 - filename: clinicalauditai-health-api-openapi.yml
   format: yaml
   label: ClinicalAuditAI Health API
   slug: clinicalauditai-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clinicalauditai/refs/heads/main/openapi/clinicalauditai-health-api-openapi.yml
+  url: https://artifacts.apis.io/clinicalauditai/openapi/clinicalauditai-health-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -50,7 +50,7 @@ source_filename: clinicalauditai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.clinicalauditai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 18 22:48:40 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: clinicalauditai.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clinicalauditai/refs/heads/main/security/clinicalauditai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/clinicalauditai/security/clinicalauditai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -15,7 +15,7 @@ source_filename: ambience-healthcare-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-31'\nmethod: searched\nprobe: true\nsource: https://trust.ambiencehealthcare.com/\nurl: https://trust.ambiencehealthcare.com/\ncertifications:\n- HIPAA\nevidence:\n- source: https://trust.ambiencehealthcare.com/\n  keywords:\n  - hipaa\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ambience-healthcare/refs/heads/main/security/ambience-healthcare-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/ambience-healthcare/security/ambience-healthcare-trust-center.yml
 summary_line: HIPAA
 tags:
 - Company

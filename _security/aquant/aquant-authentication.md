@@ -8,67 +8,67 @@ api_specs:
   label: Aquant Agent Data API
   slug: aquant-agent-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-agent-data-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-agent-data-api-openapi.yml
 - filename: aquant-asset-location-api-openapi.yml
   format: yaml
   label: Aquant Asset Location API
   slug: aquant-asset-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-asset-location-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-asset-location-api-openapi.yml
 - filename: aquant-health-api-openapi.yml
   format: yaml
   label: Aquant Health API
   slug: aquant-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-health-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-health-api-openapi.yml
 - filename: aquant-next-symptom-api-openapi.yml
   format: yaml
   label: Aquant Next Symptom API
   slug: aquant-next-symptom-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-next-symptom-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-next-symptom-api-openapi.yml
 - filename: aquant-observation-existence-api-openapi.yml
   format: yaml
   label: Aquant Observation Existence API
   slug: aquant-observation-existence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-observation-existence-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-observation-existence-api-openapi.yml
 - filename: aquant-part-catalog-lookup-api-openapi.yml
   format: yaml
   label: Aquant Part Catalog Lookup API
   slug: aquant-part-catalog-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-part-catalog-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-part-catalog-lookup-api-openapi.yml
 - filename: aquant-part-info-api-openapi.yml
   format: yaml
   label: Aquant Part Info API
   slug: aquant-part-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-part-info-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-part-info-api-openapi.yml
 - filename: aquant-part-sources-api-openapi.yml
   format: yaml
   label: Aquant Part Sources API
   slug: aquant-part-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-part-sources-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-part-sources-api-openapi.yml
 - filename: aquant-preventive-maintenance-check-list-api-openapi.yml
   format: yaml
   label: Aquant Preventive Maintenance Check List API
   slug: aquant-preventive-maintenance-check-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-preventive-maintenance-check-list-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-preventive-maintenance-check-list-api-openapi.yml
 - filename: aquant-summary-report-api-openapi.yml
   format: yaml
   label: Aquant Summary Report API
   slug: aquant-summary-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-summary-report-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-summary-report-api-openapi.yml
 - filename: aquant-technician-proximity-api-openapi.yml
   format: yaml
   label: Aquant Technician Proximity API
   slug: aquant-technician-proximity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-technician-proximity-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-technician-proximity-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -194,13 +194,13 @@ source_yaml: "generated: '2026-07-31'\nmethod: searched\nsource: >-\n  https://w
   \ code: AGENT_NOT_FOUND\n    http: 404\n    meaning: No agent found for the given agentId\n  - code: AGENT_NOT_ACTIVE\n    http: 400\n    meaning: Agent exists but is not active\n- name: acp-bearer\n  api: aquant:acp-voiceai\n  type: http\n  scheme: bearer\n  bearerFormat: opaque access token\n  obtained_from: POST /acp/token\n  applies_to: [POST /vss/web-chat, WebRTC voice device registration]\n- name: mcp-tenant-scope\n  api: aquant:mcp-server\n  type: apiKey\n  in: body\n  parameter: tenant_id\n  required_by: [part_catalog_lookup, part_info, part_sources]\n  note: >-\n    The MCP server identifies as \"Aquant MCP Server (Authenticated)\" and every parts tool\n    requires a tenant_id argument (documented in-spec as \"[TEMPORARY] The tenant ID. This\n    should be removed in the future.\"). No bearer/OAuth challenge is issued on tools/list —\n    the tool MANIFEST is anonymous; tool INVOCATION is tenant-scoped.\n  evidence:\n    url: https://mcp.aquant.ai/mcp\n    probed: '2026-07-31'\n\
   \    tools_list_http_status: 200\n    oauth_protected_resource: 404\n    oauth_authorization_server: 404\n- name: aquant-okta-oidc\n  api: platform (human sign-in, not the public APIs)\n  type: openIdConnect\n  openIdConnectUrl: https://login.aquant.ai/.well-known/openid-configuration\n  issuer: https://login.aquant.ai\n  provider: Okta\n  authorizationUrl: https://login.aquant.ai/oauth2/v1/authorize\n  tokenUrl: https://login.aquant.ai/oauth2/v1/token\n  userinfoUrl: https://login.aquant.ai/oauth2/v1/userinfo\n  jwksUrl: https://login.aquant.ai/oauth2/v1/keys\n  introspectionUrl: https://login.aquant.ai/oauth2/v1/introspect\n  revocationUrl: https://login.aquant.ai/oauth2/v1/revoke\n  endSessionUrl: https://login.aquant.ai/oauth2/v1/logout\n  deviceAuthorizationUrl: https://login.aquant.ai/oauth2/v1/device/authorize\n  dynamic_client_registration: https://login.aquant.ai/oauth2/v1/clients\n  grant_types: [authorization_code, implicit, refresh_token, password, 'urn:ietf:params:oauth:grant-type:device_code']\n\
   \  token_endpoint_auth_methods: [client_secret_basic, client_secret_post, client_secret_jwt, private_key_jwt, none]\n  pkce: [S256]\n  id_token_signing_algs: [RS256]\n  scopes: [openid, email, profile, address, phone, offline_access, groups]\n  file: well-known/aquant-openid-configuration.json\ngaps:\n- >-\n  Neither OpenAPI declares components.securitySchemes, so no security requirement is machine-\n  readable on any of the 13 published operations. Both specs would score zero on\n  securitySchemes-defined and securitySchemes-applied contract-quality checks.\n- >-\n  The MCP server publishes no /.well-known/oauth-protected-resource (RFC 9728), so an MCP\n  client cannot discover how to authenticate tool invocation.\n- >-\n  No public API-key issuance or self-service developer signup — credentials come through the\n  commercial relationship.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/authentication/aquant-authentication.yml
+source_yaml_url: https://artifacts.apis.io/aquant/authentication/aquant-authentication.yml
 summary_line: apiKey/http/openIdConnect · 4 schemes
 tags:
 - Company
 - Artificial Intelligence
 - Agents
-- Field Service
+- Field Service Management
 - Service Management
 - Manufacturing
 - Medical Devices

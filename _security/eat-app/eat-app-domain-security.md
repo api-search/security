@@ -5,43 +5,43 @@ api_specs:
   label: Eat App Concierge - Availability API
   slug: eat-app-concierge-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eat-app/refs/heads/main/openapi/eat-app-concierge-availability-api-openapi.yml
+  url: https://artifacts.apis.io/eat-app/openapi/eat-app-concierge-availability-api-openapi.yml
 - filename: eat-app-concierge-guests-api-openapi.yml
   format: yaml
   label: Eat App Concierge - Guests API
   slug: eat-app-concierge-guests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eat-app/refs/heads/main/openapi/eat-app-concierge-guests-api-openapi.yml
+  url: https://artifacts.apis.io/eat-app/openapi/eat-app-concierge-guests-api-openapi.yml
 - filename: eat-app-concierge-reference-api-openapi.yml
   format: yaml
   label: Eat App Concierge - Reference API
   slug: eat-app-concierge-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eat-app/refs/heads/main/openapi/eat-app-concierge-reference-api-openapi.yml
+  url: https://artifacts.apis.io/eat-app/openapi/eat-app-concierge-reference-api-openapi.yml
 - filename: eat-app-concierge-reservations-api-openapi.yml
   format: yaml
   label: Eat App Concierge - Reservations API
   slug: eat-app-concierge-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eat-app/refs/heads/main/openapi/eat-app-concierge-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/eat-app/openapi/eat-app-concierge-reservations-api-openapi.yml
 - filename: eat-app-partner-availability-api-openapi.yml
   format: yaml
   label: Eat App Partner - Availability API
   slug: eat-app-partner-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eat-app/refs/heads/main/openapi/eat-app-partner-availability-api-openapi.yml
+  url: https://artifacts.apis.io/eat-app/openapi/eat-app-partner-availability-api-openapi.yml
 - filename: eat-app-partner-reservations-api-openapi.yml
   format: yaml
   label: Eat App Partner - Reservations API
   slug: eat-app-partner-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eat-app/refs/heads/main/openapi/eat-app-partner-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/eat-app/openapi/eat-app-partner-reservations-api-openapi.yml
 - filename: eat-app-tables-and-floor-plans-modeled-api-openapi.yml
   format: yaml
   label: Eat App Tables and Floor Plans (Modeled) API
   slug: eat-app-tables-and-floor-plans-modeled-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eat-app/refs/heads/main/openapi/eat-app-tables-and-floor-plans-modeled-api-openapi.yml
+  url: https://artifacts.apis.io/eat-app/openapi/eat-app-tables-and-floor-plans-modeled-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -88,7 +88,7 @@ source_filename: eat-app-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: eatapp.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 13:54:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: restaurant.eatapp.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 20:25:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.eatapp.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 13:54:56 2026 GMT\n  hsts: null\ndomains:\n- domain: eatapp.co\n  dnssec: true\n  caa:\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eat-app/refs/heads/main/security/eat-app-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/eat-app/security/eat-app-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Restaurant

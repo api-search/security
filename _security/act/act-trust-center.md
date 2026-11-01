@@ -11,61 +11,61 @@ api_specs:
   label: Act! CRM Activity Series API
   slug: act-activityseries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-activityseries-api-openapi.yml
+  url: https://artifacts.apis.io/act/openapi/act-activityseries-api-openapi.yml
 - filename: act-historytypes-api-openapi.yml
   format: yaml
   label: Act! CRM History Types API
   slug: act-historytypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-historytypes-api-openapi.yml
+  url: https://artifacts.apis.io/act/openapi/act-historytypes-api-openapi.yml
 - filename: act-marketingautomations-api-openapi.yml
   format: yaml
   label: Act! CRM Marketing Automations API
   slug: act-marketingautomations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-marketingautomations-api-openapi.yml
+  url: https://artifacts.apis.io/act/openapi/act-marketingautomations-api-openapi.yml
 - filename: act-metadatainfo-api-openapi.yml
   format: yaml
   label: Act! CRM Metadata Info API
   slug: act-metadatainfo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-metadatainfo-api-openapi.yml
+  url: https://artifacts.apis.io/act/openapi/act-metadatainfo-api-openapi.yml
 - filename: act-secondarycontacts-api-openapi.yml
   format: yaml
   label: Act! CRM Secondary Contacts API
   slug: act-secondarycontacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-secondarycontacts-api-openapi.yml
+  url: https://artifacts.apis.io/act/openapi/act-secondarycontacts-api-openapi.yml
 - filename: act-supplementalfiles-api-openapi.yml
   format: yaml
   label: Act! CRM Supplemental Files API
   slug: act-supplementalfiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-supplementalfiles-api-openapi.yml
+  url: https://artifacts.apis.io/act/openapi/act-supplementalfiles-api-openapi.yml
 - filename: act-custom-entities-api-openapi.yml
   format: yaml
   label: Act! CRM Custom Entities API
   slug: act-custom-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-custom-entities-api-openapi.yml
+  url: https://artifacts.apis.io/act/openapi/act-custom-entities-api-openapi.yml
 - filename: act-document-types-api-openapi.yml
   format: yaml
   label: Act! CRM Document Types API
   slug: act-document-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-document-types-api-openapi.yml
+  url: https://artifacts.apis.io/act/openapi/act-document-types-api-openapi.yml
 - filename: act-sync-data-api-openapi.yml
   format: yaml
   label: Act! CRM Sync Data API
   slug: act-sync-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-sync-data-api-openapi.yml
+  url: https://artifacts.apis.io/act/openapi/act-sync-data-api-openapi.yml
 - filename: act-task-types-api-openapi.yml
   format: yaml
   label: Act! CRM Task Types API
   slug: act-task-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-task-types-api-openapi.yml
+  url: https://artifacts.apis.io/act/openapi/act-task-types-api-openapi.yml
 certification_count: 6
 certifications:
 - SOC 2
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://w
   \ process\"; SOC 2-compliant\n      Emergency Response and Business Continuity processes.\n    report_access: NDA required\n    auditor: not named\n    period: not stated\n  - name: SOC 3\n    status: claimed\n    scope: Act! Premium Cloud\n    evidence: '\"the SOC 3 Audit Report (available on request)\"'\n    report_access: available on request\n    note: >-\n      A SOC 3 report is designed for public distribution. Act! gates it behind a\n      request anyway, which is the opposite of how the report type is meant to\n      work and is the single easiest credibility upgrade available here.\n  - name: ISO 27001\n    status: not claimed\n  - name: PCI DSS\n    status: not claimed\n    note: >-\n      Act! Payments accepts card payments, but no PCI attestation is published\n      in the whitepaper or on the payments product page.\n  - name: HIPAA\n    status: not claimed\n  - name: FedRAMP\n    status: not claimed\nsecurity_posture_published:\n  hosting: Amazon Web Services; end-user data-center\
   \ region defaults from billing postal code. Act! stores no customer databases at its office locations.\n  tenancy: Each customer database is stored and backed up as an independent database.\n  encryption_in_transit: TLS 1.2 (whitepaper states \"currently (July 2023), we support TLS 1.2\")\n  encryption_at_rest: SHA 256 (as worded in the whitepaper)\n  backups: Daily, encrypted, stored off the database server.\n  mfa: Available on Act! Premium Cloud; enforced on the AWS Management Console.\n  endpoint_protection: Anti-virus/endpoint protection on every server, updated daily.\n  monitoring: 24/7 threat monitoring in partnership with Rapid7; engineer on duty outside business hours.\n  privileged_access: AWS console access limited to teams of four or fewer screened employees, restricted to the internal network or VPN, reviewed daily by a Director-level role.\n  support_access: Act! employees do not access a customer database without documented customer consent.\nfindings:\n  - >-\n    The\
   \ whitepaper's encryption statements are dated July 2023 and stop at TLS\n    1.2. Live probing on 2026-08-13 found www.act.com and developer.act.com\n    negotiating TLS 1.3, but the API host apimta.act.com negotiating TLS 1.2 —\n    so the API is the laggard, and the published document has not been revised\n    in three years. See security/act-domain-security.yml.\n  - >-\n    \"encrypted at rest, SHA 256\" describes a hash, not a cipher. The intended\n    claim is presumably AES-256; as written the statement does not say what it\n    means.\n  - No ISO 27001 and no PCI DSS attestation published despite shipping a payments product.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/security/act-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/act/security/act-trust-center.yml
 summary_line: SOC 2, SOC 3, ISO 27001, PCI DSS, HIPAA, FedRAMP
 tags:
 - CRM

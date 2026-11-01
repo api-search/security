@@ -8,25 +8,25 @@ api_specs:
   label: Steel Files API
   slug: steel-dev-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steel-dev/refs/heads/main/openapi/steel-dev-files-api-openapi.yml
+  url: https://artifacts.apis.io/steel-dev/openapi/steel-dev-files-api-openapi.yml
 - filename: steel-dev-quick-actions-api-openapi.yml
   format: yaml
   label: Steel Quick Actions API
   slug: steel-dev-quick-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steel-dev/refs/heads/main/openapi/steel-dev-quick-actions-api-openapi.yml
+  url: https://artifacts.apis.io/steel-dev/openapi/steel-dev-quick-actions-api-openapi.yml
 - filename: steel-dev-session-actions-api-openapi.yml
   format: yaml
   label: Steel Session Actions API
   slug: steel-dev-session-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steel-dev/refs/heads/main/openapi/steel-dev-session-actions-api-openapi.yml
+  url: https://artifacts.apis.io/steel-dev/openapi/steel-dev-session-actions-api-openapi.yml
 - filename: steel-dev-sessions-api-openapi.yml
   format: yaml
   label: Steel Sessions API
   slug: steel-dev-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steel-dev/refs/heads/main/openapi/steel-dev-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/steel-dev/openapi/steel-dev-sessions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,13 +54,12 @@ source_filename: steel-dev-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/steel-dev-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: SteelApiKey\n  type: apiKey\n  in: header\n  parameter: Steel-Api-Key\n  description: API key issued from app.steel.dev. Pass it in the `Steel-Api-Key` request header.\n    Self-hosted instances may run without auth.\n  sources:\n  - openapi/steel-dev-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/steel-dev/refs/heads/main/authentication/steel-dev-authentication.yml
+source_yaml_url: https://artifacts.apis.io/steel-dev/authentication/steel-dev-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Browser
-- Web Automation
+- Browser Automation
 - Web Scraping
 - AI Agents
 - Open Source
-- Browser Automation
 ---

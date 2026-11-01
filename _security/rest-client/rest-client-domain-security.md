@@ -27,7 +27,7 @@ source_filename: rest-client-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: marketplace.visualstudio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 13:38:08 2026 GMT\n  hsts: null\ndomains:\n- domain: visualstudio.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rest-client/refs/heads/main/security/rest-client-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rest-client/security/rest-client-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Clients

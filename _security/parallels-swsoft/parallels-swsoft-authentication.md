@@ -33,7 +33,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://docs.parallels.com/landing/ras-rest-api-guide\ndocs: https://docs.parallels.com/landing/ras-rest-api-guide/examples/basic-sample\nsummary:\n  types: [http]\n  scheme: token\n  note: >-\n    Parallels RAS REST API uses a custom session-token scheme. The client logs\n    on with administrator credentials and receives an authToken, which is then\n    supplied on every subsequent request via the auth_token request header. The\n    API is served by the self-hosted RAS server (default TCP port 20443), so the\n    token is issued and validated by the customer's own RAS deployment, not by a\n    Parallels-hosted identity provider. There is no OAuth2/OIDC on the REST API.\nschemes:\n  - name: session_token\n    type: http\n    scheme: token\n    in: header\n    parameter: auth_token\n    obtained_via:\n      operation: POST api/session/logon\n      request_body: '{ \"username\": \"...\", \"password\": \"...\" }'\n      response_field:\
   \ authToken\n    sources: [docs.parallels.com/landing/ras-rest-api-guide]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parallels-swsoft/refs/heads/main/authentication/parallels-swsoft-authentication.yml
+source_yaml_url: https://artifacts.apis.io/parallels-swsoft/authentication/parallels-swsoft-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

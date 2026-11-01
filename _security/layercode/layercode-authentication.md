@@ -7,31 +7,31 @@ api_specs:
   label: Layercode Realtime Voice API
   slug: layercode-realtime-voice-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/layercode/refs/heads/main/asyncapi/layercode-asyncapi.yml
+  url: https://artifacts.apis.io/layercode/asyncapi/layercode-asyncapi.yml
 - filename: layercode-asyncapi.yml
   format: yaml
   label: Layercode Webhooks API
   slug: layercode-webhooks-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/layercode/refs/heads/main/asyncapi/layercode-asyncapi.yml
+  url: https://artifacts.apis.io/layercode/asyncapi/layercode-asyncapi.yml
 - filename: layercode-agents-api-openapi.yml
   format: yaml
   label: Layercode Agents API
   slug: layercode-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/layercode/refs/heads/main/openapi/layercode-agents-api-openapi.yml
+  url: https://artifacts.apis.io/layercode/openapi/layercode-agents-api-openapi.yml
 - filename: layercode-calls-api-openapi.yml
   format: yaml
   label: Layercode Calls API
   slug: layercode-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/layercode/refs/heads/main/openapi/layercode-calls-api-openapi.yml
+  url: https://artifacts.apis.io/layercode/openapi/layercode-calls-api-openapi.yml
 - filename: layercode-sessions-api-openapi.yml
   format: yaml
   label: Layercode Sessions API
   slug: layercode-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/layercode/refs/heads/main/openapi/layercode-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/layercode/openapi/layercode-sessions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: layercode-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/layercode-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Org-scoped Layercode API key passed as a Bearer token.\n  sources:\n  - openapi/layercode-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/layercode/refs/heads/main/authentication/layercode-authentication.yml
+source_yaml_url: https://artifacts.apis.io/layercode/authentication/layercode-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

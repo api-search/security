@@ -8,37 +8,37 @@ api_specs:
   label: VdoCipher Folders API
   slug: vdocipher-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vdocipher/refs/heads/main/openapi/vdocipher-folders-api-openapi.yml
+  url: https://artifacts.apis.io/vdocipher/openapi/vdocipher-folders-api-openapi.yml
 - filename: vdocipher-meta-api-openapi.yml
   format: yaml
   label: VdoCipher Meta API
   slug: vdocipher-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vdocipher/refs/heads/main/openapi/vdocipher-meta-api-openapi.yml
+  url: https://artifacts.apis.io/vdocipher/openapi/vdocipher-meta-api-openapi.yml
 - filename: vdocipher-playback-api-openapi.yml
   format: yaml
   label: VdoCipher Playback API
   slug: vdocipher-playback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vdocipher/refs/heads/main/openapi/vdocipher-playback-api-openapi.yml
+  url: https://artifacts.apis.io/vdocipher/openapi/vdocipher-playback-api-openapi.yml
 - filename: vdocipher-tags-api-openapi.yml
   format: yaml
   label: VdoCipher Tags API
   slug: vdocipher-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vdocipher/refs/heads/main/openapi/vdocipher-tags-api-openapi.yml
+  url: https://artifacts.apis.io/vdocipher/openapi/vdocipher-tags-api-openapi.yml
 - filename: vdocipher-upload-api-openapi.yml
   format: yaml
   label: VdoCipher Upload API
   slug: vdocipher-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vdocipher/refs/heads/main/openapi/vdocipher-upload-api-openapi.yml
+  url: https://artifacts.apis.io/vdocipher/openapi/vdocipher-upload-api-openapi.yml
 - filename: vdocipher-videos-api-openapi.yml
   format: yaml
   label: VdoCipher Videos API
   slug: vdocipher-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vdocipher/refs/heads/main/openapi/vdocipher-videos-api-openapi.yml
+  url: https://artifacts.apis.io/vdocipher/openapi/vdocipher-videos-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: vdocipher-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/vdocipher-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: Apisecret\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'API secret from the VdoCipher dashboard (Config tab), sent as `Authorization:\n    Apisecret <API_SECRET>`.'\n  sources:\n  - openapi/vdocipher-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vdocipher/refs/heads/main/authentication/vdocipher-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vdocipher/authentication/vdocipher-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Video

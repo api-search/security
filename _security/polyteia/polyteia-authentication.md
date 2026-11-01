@@ -7,7 +7,7 @@ api_specs:
   label: Polyteia Organization API
   slug: polyteia-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polyteia/refs/heads/main/openapi/polyteia-organization-api-openapi.yml
+  url: https://artifacts.apis.io/polyteia/openapi/polyteia-organization-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -35,7 +35,7 @@ source_filename: polyteia-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/polyteia-platform-openapi.yml\ndocs: https://docs.polyteia.com/api-docs/en/authentication.md\nnotes: >\n  Polyteia authenticates API requests with a Personal Access Key (PAK) presented\n  as an HTTP Bearer token (`Authorization: Bearer <PAK>`). A PAK impersonates the\n  issuing account and inherits that account's permissions; there is no separate\n  OAuth scope surface. PAKs are created from Account > Security & Access in the\n  platform UI and are shown only once at creation.\nsummary:\n  types:\n  - http\nschemes:\n- name: PersonalAccessKey\n  type: http\n  scheme: bearer\n  bearerFormat: PAK\n  description: 'Personal Access Key (PAK). A PAK impersonates the issuing account and carries\n    that account''s permissions. Presented as `Authorization: Bearer <PAK>`.'\n  sources:\n  - openapi/polyteia-platform-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/polyteia/refs/heads/main/authentication/polyteia-authentication.yml
+source_yaml_url: https://artifacts.apis.io/polyteia/authentication/polyteia-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

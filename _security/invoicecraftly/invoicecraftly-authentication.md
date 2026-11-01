@@ -7,13 +7,13 @@ api_specs:
   label: InvoiceCraftly Developer Document API Documents API
   slug: invoicecraftly-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoicecraftly/refs/heads/main/openapi/invoicecraftly-documents-api-openapi.yml
+  url: https://artifacts.apis.io/invoicecraftly/openapi/invoicecraftly-documents-api-openapi.yml
 - filename: invoicecraftly-structured-invoicing-api-openapi.yml
   format: yaml
   label: InvoiceCraftly Developer Document API Structured invoicing API
   slug: invoicecraftly-structured-invoicing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoicecraftly/refs/heads/main/openapi/invoicecraftly-structured-invoicing-api-openapi.yml
+  url: https://artifacts.apis.io/invoicecraftly/openapi/invoicecraftly-structured-invoicing-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: invoicecraftly-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-25'\nmethod: derived\nsource: openapi/invoicecraftly-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: dk_live_*\n  sources:\n  - openapi/invoicecraftly-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/invoicecraftly/refs/heads/main/authentication/invoicecraftly-authentication.yml
+source_yaml_url: https://artifacts.apis.io/invoicecraftly/authentication/invoicecraftly-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Invoicing

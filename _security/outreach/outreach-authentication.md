@@ -7,313 +7,313 @@ api_specs:
   label: Outreach Webhooks
   slug: outreach-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/webhooks/outreach-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/outreach/webhooks/outreach-webhooks-asyncapi.yml
 - filename: outreach-account-api-openapi.yml
   format: yaml
   label: Outreach Account API
   slug: outreach-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-account-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-account-api-openapi.yml
 - filename: outreach-account-note-api-openapi.yml
   format: yaml
   label: Outreach Account Note API
   slug: outreach-account-note-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-account-note-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-account-note-api-openapi.yml
 - filename: outreach-audit-log-api-openapi.yml
   format: yaml
   label: Outreach Audit Log API
   slug: outreach-audit-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-audit-log-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-audit-log-api-openapi.yml
 - filename: outreach-batch-api-openapi.yml
   format: yaml
   label: Outreach Batch API
   slug: outreach-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-batch-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-batch-api-openapi.yml
 - filename: outreach-batch-item-api-openapi.yml
   format: yaml
   label: Outreach Batch Item API
   slug: outreach-batch-item-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-batch-item-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-batch-item-api-openapi.yml
 - filename: outreach-call-api-openapi.yml
   format: yaml
   label: Outreach Call API
   slug: outreach-call-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-call-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-call-api-openapi.yml
 - filename: outreach-call-disposition-api-openapi.yml
   format: yaml
   label: Outreach Call Disposition API
   slug: outreach-call-disposition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-call-disposition-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-call-disposition-api-openapi.yml
 - filename: outreach-call-purpose-api-openapi.yml
   format: yaml
   label: Outreach Call Purpose API
   slug: outreach-call-purpose-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-call-purpose-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-call-purpose-api-openapi.yml
 - filename: outreach-compliance-request-api-openapi.yml
   format: yaml
   label: Outreach Compliance Request API
   slug: outreach-compliance-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-compliance-request-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-compliance-request-api-openapi.yml
 - filename: outreach-content-category-api-openapi.yml
   format: yaml
   label: Outreach Content Category API
   slug: outreach-content-category-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-content-category-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-content-category-api-openapi.yml
 - filename: outreach-content-category-membership-api-openapi.yml
   format: yaml
   label: Outreach Content Category Membership API
   slug: outreach-content-category-membership-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-content-category-membership-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-content-category-membership-api-openapi.yml
 - filename: outreach-content-category-ownership-api-openapi.yml
   format: yaml
   label: Outreach Content Category Ownership API
   slug: outreach-content-category-ownership-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-content-category-ownership-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-content-category-ownership-api-openapi.yml
 - filename: outreach-custom-duty-api-openapi.yml
   format: yaml
   label: Outreach Custom Duty API
   slug: outreach-custom-duty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-custom-duty-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-custom-duty-api-openapi.yml
 - filename: outreach-duty-api-openapi.yml
   format: yaml
   label: Outreach Duty API
   slug: outreach-duty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-duty-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-duty-api-openapi.yml
 - filename: outreach-email-address-api-openapi.yml
   format: yaml
   label: Outreach Email Address API
   slug: outreach-email-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-email-address-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-email-address-api-openapi.yml
 - filename: outreach-event-api-openapi.yml
   format: yaml
   label: Outreach Event API
   slug: outreach-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-event-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-event-api-openapi.yml
 - filename: outreach-favorite-api-openapi.yml
   format: yaml
   label: Outreach Favorite API
   slug: outreach-favorite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-favorite-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-favorite-api-openapi.yml
 - filename: outreach-import-api-openapi.yml
   format: yaml
   label: Outreach Import API
   slug: outreach-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-import-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-import-api-openapi.yml
 - filename: outreach-kaia-recording-api-openapi.yml
   format: yaml
   label: Outreach Kaia Recording API
   slug: outreach-kaia-recording-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-kaia-recording-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-kaia-recording-api-openapi.yml
 - filename: outreach-kaia-voice-import-api-openapi.yml
   format: yaml
   label: Outreach Kaia Voice Import API
   slug: outreach-kaia-voice-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-kaia-voice-import-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-kaia-voice-import-api-openapi.yml
 - filename: outreach-mail-alias-api-openapi.yml
   format: yaml
   label: Outreach Mail Alias API
   slug: outreach-mail-alias-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-mail-alias-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-mail-alias-api-openapi.yml
 - filename: outreach-mailbox-api-openapi.yml
   format: yaml
   label: Outreach Mailbox API
   slug: outreach-mailbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-mailbox-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-mailbox-api-openapi.yml
 - filename: outreach-mailing-api-openapi.yml
   format: yaml
   label: Outreach Mailing API
   slug: outreach-mailing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-mailing-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-mailing-api-openapi.yml
 - filename: outreach-opportunity-api-openapi.yml
   format: yaml
   label: Outreach Opportunity API
   slug: outreach-opportunity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-opportunity-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-opportunity-api-openapi.yml
 - filename: outreach-opportunity-prospect-role-api-openapi.yml
   format: yaml
   label: Outreach Opportunity Prospect Role API
   slug: outreach-opportunity-prospect-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-opportunity-prospect-role-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-opportunity-prospect-role-api-openapi.yml
 - filename: outreach-opportunity-stage-api-openapi.yml
   format: yaml
   label: Outreach Opportunity Stage API
   slug: outreach-opportunity-stage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-opportunity-stage-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-opportunity-stage-api-openapi.yml
 - filename: outreach-org-setting-api-openapi.yml
   format: yaml
   label: Outreach Org Setting API
   slug: outreach-org-setting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-org-setting-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-org-setting-api-openapi.yml
 - filename: outreach-persona-api-openapi.yml
   format: yaml
   label: Outreach Persona API
   slug: outreach-persona-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-persona-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-persona-api-openapi.yml
 - filename: outreach-phone-number-api-openapi.yml
   format: yaml
   label: Outreach Phone Number API
   slug: outreach-phone-number-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-phone-number-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-phone-number-api-openapi.yml
 - filename: outreach-product-api-openapi.yml
   format: yaml
   label: Outreach Product API
   slug: outreach-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-product-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-product-api-openapi.yml
 - filename: outreach-profile-api-openapi.yml
   format: yaml
   label: Outreach Profile API
   slug: outreach-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-profile-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-profile-api-openapi.yml
 - filename: outreach-prospect-api-openapi.yml
   format: yaml
   label: Outreach Prospect API
   slug: outreach-prospect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-prospect-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-prospect-api-openapi.yml
 - filename: outreach-prospect-note-api-openapi.yml
   format: yaml
   label: Outreach Prospect Note API
   slug: outreach-prospect-note-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-prospect-note-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-prospect-note-api-openapi.yml
 - filename: outreach-purchase-api-openapi.yml
   format: yaml
   label: Outreach Purchase API
   slug: outreach-purchase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-purchase-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-purchase-api-openapi.yml
 - filename: outreach-recipient-api-openapi.yml
   format: yaml
   label: Outreach Recipient API
   slug: outreach-recipient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-recipient-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-recipient-api-openapi.yml
 - filename: outreach-role-api-openapi.yml
   format: yaml
   label: Outreach Role API
   slug: outreach-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-role-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-role-api-openapi.yml
 - filename: outreach-sequence-api-openapi.yml
   format: yaml
   label: Outreach Sequence API
   slug: outreach-sequence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-sequence-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-sequence-api-openapi.yml
 - filename: outreach-sequence-state-api-openapi.yml
   format: yaml
   label: Outreach Sequence State API
   slug: outreach-sequence-state-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-sequence-state-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-sequence-state-api-openapi.yml
 - filename: outreach-sequence-step-api-openapi.yml
   format: yaml
   label: Outreach Sequence Step API
   slug: outreach-sequence-step-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-sequence-step-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-sequence-step-api-openapi.yml
 - filename: outreach-sequence-template-api-openapi.yml
   format: yaml
   label: Outreach Sequence Template API
   slug: outreach-sequence-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-sequence-template-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-sequence-template-api-openapi.yml
 - filename: outreach-snippet-api-openapi.yml
   format: yaml
   label: Outreach Snippet API
   slug: outreach-snippet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-snippet-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-snippet-api-openapi.yml
 - filename: outreach-stage-api-openapi.yml
   format: yaml
   label: Outreach Stage API
   slug: outreach-stage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-stage-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-stage-api-openapi.yml
 - filename: outreach-task-api-openapi.yml
   format: yaml
   label: Outreach Task API
   slug: outreach-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-task-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-task-api-openapi.yml
 - filename: outreach-task-disposition-api-openapi.yml
   format: yaml
   label: Outreach Task Disposition API
   slug: outreach-task-disposition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-task-disposition-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-task-disposition-api-openapi.yml
 - filename: outreach-task-priority-api-openapi.yml
   format: yaml
   label: Outreach Task Priority API
   slug: outreach-task-priority-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-task-priority-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-task-priority-api-openapi.yml
 - filename: outreach-task-purpose-api-openapi.yml
   format: yaml
   label: Outreach Task Purpose API
   slug: outreach-task-purpose-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-task-purpose-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-task-purpose-api-openapi.yml
 - filename: outreach-team-api-openapi.yml
   format: yaml
   label: Outreach Team API
   slug: outreach-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-team-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-team-api-openapi.yml
 - filename: outreach-template-api-openapi.yml
   format: yaml
   label: Outreach Template API
   slug: outreach-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-template-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-template-api-openapi.yml
 - filename: outreach-user-api-openapi.yml
   format: yaml
   label: Outreach User API
   slug: outreach-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-user-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-user-api-openapi.yml
 - filename: outreach-webhook-api-openapi.yml
   format: yaml
   label: Outreach Webhook API
   slug: outreach-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-webhook-api-openapi.yml
 - filename: outreach-rule-set-api-openapi.yml
   format: yaml
   label: Outreach Rule Set API
   slug: outreach-rule-set-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-rule-set-api-openapi.yml
+  url: https://artifacts.apis.io/outreach/openapi/outreach-rule-set-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -371,7 +371,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://develop
   \ once at generation and cannot be redisplayed; use Regenerate to mint new ones.\n  scopes: scopes/outreach-scopes.yml\nmcp_oauth:\n  authorization_server: https://api.outreach.io\n  metadata: https://api.outreach.io/.well-known/oauth-authorization-server\n  protected_resource_metadata: https://api.outreach.io/.well-known/oauth-protected-resource\n  authorization_endpoint: https://api.outreach.io/mcpOAuth/authorize\n  token_endpoint: https://api.outreach.io/mcpOAuth/token\n  registration_endpoint: https://api.outreach.io/mcpOAuth/register\n  registration_spec: RFC 7591 Dynamic Client Registration\n  code_challenge_methods_supported:\n  - S256\n  token_endpoint_auth_methods_supported:\n  - client_secret_post\n  grant_types_supported:\n  - authorization_code\n  - refresh_token\n  scopes_supported:\n  - prospects.all\n  challenge: 'POST to the MCP endpoint without a token returns 401 with WWW-Authenticate: Bearer resource_metadata=\"https://api.outreach.io/.well-known/oauth-protected-resource\"\
   \ (RFC 9728)'\n  enterprise_control: DCR means any MCP client can self-register; Outreach directs enterprises to restrict which clients may connect using IDP-level group restrictions, device trust or conditional access.\ns2s:\n  purpose: Server-side access without an interactive consent flow\n  identity: application + organization, NOT a user\n  key_registration: customer uploads one or more PEM-encoded RSA public keys in the developer portal\n  key_generation: openssl genrsa -out outreach_private_key.pem 2048\n  scope_subset: true\n  limitations: Read operations work broadly; some writes require additional data (e.g. an authorizer user id) and some writes are unsupported entirely because there is no user actor.\n  docs: https://developers.outreach.io/api/s2s-access\nrequest_headers:\n  authorization: Bearer <access_token>\n  content_type: application/vnd.api+json\nerror_responses:\n- status: 403\n  id: unauthorizedOauthScope\n  meaning: token lacks the required scope\n- status: 403\n\
   \  id: unauthorizedRequest\n  meaning: token has the scope but the user's governance permissions do not allow the action\n- status: 429\n  id: rateLimitExceeded\n  meaning: includes token minting more than once per 60 seconds\nsecurity_posture:\n  short_lived_tokens: Since 2021-01-01 all issued tokens are short-lived; tokens older than 1.5 years were deleted.\n  revocation: Revoking the customer's authorization grant invalidates tokens; for MCP, disabling the user at the IDP immediately revokes access.\n  audit: MCP tool calls are attributed to the authenticated user in Outreach activity history.\n  advisory: https://developers.outreach.io/guides/warning\ndocs_pages:\n- https://developers.outreach.io/api/getting-started\n- https://developers.outreach.io/api/oauth\n- https://developers.outreach.io/api/s2s-access\n- https://developers.outreach.io/mcp-server/authentication\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/authentication/outreach-authentication.yml
+source_yaml_url: https://artifacts.apis.io/outreach/authentication/outreach-authentication.yml
 summary_line: oauth2/http · 3 schemes
 tags:
 - Sales

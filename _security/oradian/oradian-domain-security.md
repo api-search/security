@@ -27,7 +27,7 @@ source_filename: oradian-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: oradian.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 07:26:14 2026 GMT\n  hsts: false\ndomains:\n- domain: oradian.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oradian/refs/heads/main/security/oradian-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/oradian/security/oradian-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

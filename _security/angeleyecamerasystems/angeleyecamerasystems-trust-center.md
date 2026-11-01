@@ -15,7 +15,7 @@ source_filename: angeleyecamerasystems-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-09-24'\nmethod: searched\nprobe: true\nsource: https://trust.angeleyehealth.com/\nurl: https://trust.angeleyehealth.com/\ncertifications:\n- HIPAA\nevidence:\n- source: https://trust.angeleyehealth.com/\n  keywords:\n  - hipaa\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/angeleyecamerasystems/refs/heads/main/security/angeleyecamerasystems-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/angeleyecamerasystems/security/angeleyecamerasystems-trust-center.yml
 summary_line: HIPAA
 tags:
 - NICU

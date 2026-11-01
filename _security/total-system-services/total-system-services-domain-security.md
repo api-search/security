@@ -5,61 +5,61 @@ api_specs:
   label: Total System Services Accounts API
   slug: total-system-services-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/total-system-services-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/total-system-services/openapi/total-system-services-accounts-api-openapi.yml
 - filename: total-system-services-authorization-api-openapi.yml
   format: yaml
   label: Total System Services Authorization API
   slug: total-system-services-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/total-system-services-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/total-system-services/openapi/total-system-services-authorization-api-openapi.yml
 - filename: total-system-services-capture-api-openapi.yml
   format: yaml
   label: Total System Services Capture API
   slug: total-system-services-capture-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/total-system-services-capture-api-openapi.yml
+  url: https://artifacts.apis.io/total-system-services/openapi/total-system-services-capture-api-openapi.yml
 - filename: total-system-services-cards-api-openapi.yml
   format: yaml
   label: Total System Services Cards API
   slug: total-system-services-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/total-system-services-cards-api-openapi.yml
+  url: https://artifacts.apis.io/total-system-services/openapi/total-system-services-cards-api-openapi.yml
 - filename: total-system-services-controls-api-openapi.yml
   format: yaml
   label: Total System Services Controls API
   slug: total-system-services-controls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/total-system-services-controls-api-openapi.yml
+  url: https://artifacts.apis.io/total-system-services/openapi/total-system-services-controls-api-openapi.yml
 - filename: total-system-services-disputes-api-openapi.yml
   format: yaml
   label: Total System Services Disputes API
   slug: total-system-services-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/total-system-services-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/total-system-services/openapi/total-system-services-disputes-api-openapi.yml
 - filename: total-system-services-inquiries-api-openapi.yml
   format: yaml
   label: Total System Services Inquiries API
   slug: total-system-services-inquiries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/total-system-services-inquiries-api-openapi.yml
+  url: https://artifacts.apis.io/total-system-services/openapi/total-system-services-inquiries-api-openapi.yml
 - filename: total-system-services-refunds-api-openapi.yml
   format: yaml
   label: Total System Services Refunds API
   slug: total-system-services-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/total-system-services-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/total-system-services/openapi/total-system-services-refunds-api-openapi.yml
 - filename: total-system-services-transactions-api-openapi.yml
   format: yaml
   label: Total System Services Transactions API
   slug: total-system-services-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/total-system-services-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/total-system-services/openapi/total-system-services-transactions-api-openapi.yml
 - filename: total-system-services-voids-api-openapi.yml
   format: yaml
   label: Total System Services Voids API
   slug: total-system-services-voids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/total-system-services-voids-api-openapi.yml
+  url: https://artifacts.apis.io/total-system-services/openapi/total-system-services-voids-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -101,7 +101,7 @@ source_filename: total-system-services-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tsys.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 13:00:26 2026 GMT\n  hsts: null\n- host: developers.tsys.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.tsysmerchant.com\n  https: false\ndomains:\n- domain: tsys.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: tsysmerchant.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/security/total-system-services-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/total-system-services/security/total-system-services-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments

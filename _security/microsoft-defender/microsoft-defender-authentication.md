@@ -7,19 +7,19 @@ api_specs:
   label: Microsoft Defender Alerts API
   slug: microsoft-defender-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/openapi/microsoft-defender-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-defender/openapi/microsoft-defender-alerts-api-openapi.yml
 - filename: microsoft-defender-machines-api-openapi.yml
   format: yaml
   label: Microsoft Defender Machines API
   slug: microsoft-defender-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/openapi/microsoft-defender-machines-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-defender/openapi/microsoft-defender-machines-api-openapi.yml
 - filename: microsoft-defender-vulnerabilities-api-openapi.yml
   format: yaml
   label: Microsoft Defender Vulnerabilities API
   slug: microsoft-defender-vulnerabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/openapi/microsoft-defender-vulnerabilities-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-defender/openapi/microsoft-defender-vulnerabilities-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -55,7 +55,7 @@ source_filename: microsoft-defender-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-defender-for-endpoint-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n    scopes: 1\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n    scopes: 1\n  description: OAuth 2.0 authentication using Microsoft Entra ID (Azure AD). Supports both application-level\n    and delegated permissions.\n  sources:\n  - openapi/microsoft-defender-for-endpoint-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/authentication/microsoft-defender-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-defender/authentication/microsoft-defender-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Cloud Security

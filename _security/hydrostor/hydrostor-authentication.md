@@ -36,7 +36,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-22'\nmethod: derived\nsource: openapi/hydrostor-discovery-api-openapi.yml, openapi/hydrostor-media-api-openapi.yml,\n  openapi/hydrostor-oembed-api-openapi.yml, openapi/hydrostor-pages-api-openapi.yml, openapi/hydrostor-posts-api-openapi.yml,\n  openapi/hydrostor-projects-api-openapi.yml, openapi/hydrostor-search-api-openapi.yml, openapi/hydrostor-seo-api-openapi.yml,\n  openapi/hydrostor-taxonomy-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: applicationPassword\n  type: http\n  scheme: basic\n  description: WordPress application passwords. Issued from https://hydrostor.ca/wp-admin/authorize-application.php\n    and advertised by the API's own root document under `authentication.application-passwords`.\n    Required only for write and administrative routes; every read operation described in this\n    document answers anonymously.\n  sources:\n  - openapi/hydrostor-discovery-api-openapi.yml\n  - openapi/hydrostor-media-api-openapi.yml\n\
   \  - openapi/hydrostor-oembed-api-openapi.yml\n  - openapi/hydrostor-pages-api-openapi.yml\n  - openapi/hydrostor-posts-api-openapi.yml\n  - openapi/hydrostor-projects-api-openapi.yml\n  - openapi/hydrostor-search-api-openapi.yml\n  - openapi/hydrostor-seo-api-openapi.yml\n  - openapi/hydrostor-taxonomy-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hydrostor/refs/heads/main/authentication/hydrostor-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hydrostor/authentication/hydrostor-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

@@ -5,49 +5,49 @@ api_specs:
   label: Emplifi Ads API
   slug: emplifi-io-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-ads-api-openapi.yml
+  url: https://artifacts.apis.io/emplifi-io/openapi/emplifi-io-ads-api-openapi.yml
 - filename: emplifi-io-assets-api-openapi.yml
   format: yaml
   label: Emplifi Assets API
   slug: emplifi-io-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-assets-api-openapi.yml
+  url: https://artifacts.apis.io/emplifi-io/openapi/emplifi-io-assets-api-openapi.yml
 - filename: emplifi-io-care-api-openapi.yml
   format: yaml
   label: Emplifi Care API
   slug: emplifi-io-care-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-care-api-openapi.yml
+  url: https://artifacts.apis.io/emplifi-io/openapi/emplifi-io-care-api-openapi.yml
 - filename: emplifi-io-community-api-openapi.yml
   format: yaml
   label: Emplifi Community API
   slug: emplifi-io-community-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-community-api-openapi.yml
+  url: https://artifacts.apis.io/emplifi-io/openapi/emplifi-io-community-api-openapi.yml
 - filename: emplifi-io-listening-api-openapi.yml
   format: yaml
   label: Emplifi Listening API
   slug: emplifi-io-listening-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-listening-api-openapi.yml
+  url: https://artifacts.apis.io/emplifi-io/openapi/emplifi-io-listening-api-openapi.yml
 - filename: emplifi-io-posts-api-openapi.yml
   format: yaml
   label: Emplifi Posts API
   slug: emplifi-io-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-posts-api-openapi.yml
+  url: https://artifacts.apis.io/emplifi-io/openapi/emplifi-io-posts-api-openapi.yml
 - filename: emplifi-io-profile-metrics-api-openapi.yml
   format: yaml
   label: Emplifi Profile Metrics API
   slug: emplifi-io-profile-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-profile-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/emplifi-io/openapi/emplifi-io-profile-metrics-api-openapi.yml
 - filename: emplifi-io-reference-api-openapi.yml
   format: yaml
   label: Emplifi Reference API
   slug: emplifi-io-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-reference-api-openapi.yml
+  url: https://artifacts.apis.io/emplifi-io/openapi/emplifi-io-reference-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: socialbakers-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.emplifi.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  5 11:37:58 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: emplifi.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/security/socialbakers-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/emplifi-io/security/socialbakers-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

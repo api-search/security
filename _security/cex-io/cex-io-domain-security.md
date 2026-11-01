@@ -5,55 +5,55 @@ api_specs:
   label: CEX.IO Accounts API
   slug: cex-io-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cex-io/refs/heads/main/openapi/cex-io-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/cex-io/openapi/cex-io-accounts-api-openapi.yml
 - filename: cex-io-fees-api-openapi.yml
   format: yaml
   label: CEX.IO Fees API
   slug: cex-io-fees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cex-io/refs/heads/main/openapi/cex-io-fees-api-openapi.yml
+  url: https://artifacts.apis.io/cex-io/openapi/cex-io-fees-api-openapi.yml
 - filename: cex-io-funding-api-openapi.yml
   format: yaml
   label: CEX.IO Funding API
   slug: cex-io-funding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cex-io/refs/heads/main/openapi/cex-io-funding-api-openapi.yml
+  url: https://artifacts.apis.io/cex-io/openapi/cex-io-funding-api-openapi.yml
 - filename: cex-io-history-api-openapi.yml
   format: yaml
   label: CEX.IO History API
   slug: cex-io-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cex-io/refs/heads/main/openapi/cex-io-history-api-openapi.yml
+  url: https://artifacts.apis.io/cex-io/openapi/cex-io-history-api-openapi.yml
 - filename: cex-io-market-data-api-openapi.yml
   format: yaml
   label: CEX.IO Market Data API
   slug: cex-io-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cex-io/refs/heads/main/openapi/cex-io-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/cex-io/openapi/cex-io-market-data-api-openapi.yml
 - filename: cex-io-orders-api-openapi.yml
   format: yaml
   label: CEX.IO Orders API
   slug: cex-io-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cex-io/refs/heads/main/openapi/cex-io-orders-api-openapi.yml
+  url: https://artifacts.apis.io/cex-io/openapi/cex-io-orders-api-openapi.yml
 - filename: cex-io-private-api-openapi.yml
   format: yaml
   label: CEX.IO Private API
   slug: cex-io-private-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cex-io/refs/heads/main/openapi/cex-io-private-api-openapi.yml
+  url: https://artifacts.apis.io/cex-io/openapi/cex-io-private-api-openapi.yml
 - filename: cex-io-public-api-openapi.yml
   format: yaml
   label: CEX.IO Public API
   slug: cex-io-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cex-io/refs/heads/main/openapi/cex-io-public-api-openapi.yml
+  url: https://artifacts.apis.io/cex-io/openapi/cex-io-public-api-openapi.yml
 - filename: cex-io-public-market-data-api-openapi.yml
   format: yaml
   label: CEX.IO Public Market Data API
   slug: cex-io-public-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cex-io/refs/heads/main/openapi/cex-io-public-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/cex-io/openapi/cex-io-public-market-data-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -83,7 +83,7 @@ source_filename: cex-io-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cex.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 21 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: cex.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cex-io/refs/heads/main/security/cex-io-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cex-io/security/cex-io-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

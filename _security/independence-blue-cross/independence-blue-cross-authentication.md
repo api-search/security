@@ -7,19 +7,19 @@ api_specs:
   label: Independence Blue Cross Formulary API
   slug: independence-blue-cross-formulary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/openapi/independence-blue-cross-formulary-api-openapi.yml
+  url: https://artifacts.apis.io/independence-blue-cross/openapi/independence-blue-cross-formulary-api-openapi.yml
 - filename: independence-blue-cross-patient-access-api-openapi.yml
   format: yaml
   label: Independence Blue Cross Patient Access API
   slug: independence-blue-cross-patient-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/openapi/independence-blue-cross-patient-access-api-openapi.yml
+  url: https://artifacts.apis.io/independence-blue-cross/openapi/independence-blue-cross-patient-access-api-openapi.yml
 - filename: independence-blue-cross-provider-directory-api-openapi.yml
   format: yaml
   label: Independence Blue Cross Provider Directory API
   slug: independence-blue-cross-provider-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/openapi/independence-blue-cross-provider-directory-api-openapi.yml
+  url: https://artifacts.apis.io/independence-blue-cross/openapi/independence-blue-cross-provider-directory-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-08-15'\nmethod: probed\nsource: >-\n  https://eap
   \ single patient context — there is no EHR\n    launch. permission-offline confirms refresh tokens via offline_access. permission-patient confirms\n    patient/*.* scopes. There is no permission-user and no permission-system, so there is no\n    provider-facing or backend-services (SMART Backend Services / client_credentials) surface.\n  absent:\n    - registration_endpoint      # no dynamic client registration\n    - introspection_endpoint\n    - revocation_endpoint\n    - grant_types_supported\n    - scopes_supported\n    - code_challenge_methods_supported\n  absent_note: >-\n    The three documents carry only authorization_endpoint, token_endpoint and capabilities. SMART App\n    Launch treats several of the missing fields as recommended, so this is a thin discovery document\n    even by its own specification.\ntoken_lifetime:\n  published: false\n  note: >-\n    Neither the smart-configuration documents nor any public page states an access-token lifetime.\n    Request offline_access\
   \ and refresh on a 401 rather than on an assumed expiry.\nregistration:\n  url: https://devportal.ibx.com/cmssignin/\n  process: >-\n    Register the company and each member-facing application in the developer portal, then activate the\n    account. Credentials are issued per registered application. Developer Portal Terms section 3: IBC\n    may revoke credentials used with an application or product not registered with IBC.\n  support: mailto:AppOnboardingSupport@ibx.com\n  gated: true\n  gated_note: >-\n    devportal.ibx.com renders entirely in JavaScript and returns no readable content to a non-executing\n    client, so the post-registration auth documentation could not be read by this pass.\noidc_discovery:\n  served: false\n  probed:\n    - url: https://eapics.ibx.com/.well-known/openid-configuration\n      status: 404\n    - url: https://eapics.ibx.com/patient/v1/fhir/.well-known/openid-configuration\n      status: 404\n    - url: https://eapics.ibx.com/.well-known/oauth-authorization-server\n\
   \      status: 404\n    - url: https://eapics.ibx.com/patient/v1/fhir/.well-known/oauth-authorization-server\n      status: 404\n    - url: https://eapics.ibx.com/patient/v1/fhir/.well-known/oauth-protected-resource\n      status: 404\n  note: >-\n    The sso-openid-connect capability is advertised but no OIDC discovery document and no RFC 8414\n    authorization-server metadata is served anywhere. member.ibx.com — which hosts the authorization\n    endpoint — returns 403 to every anonymous request, so its metadata could not be probed either.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/authentication/independence-blue-cross-authentication.yml
+source_yaml_url: https://artifacts.apis.io/independence-blue-cross/authentication/independence-blue-cross-authentication.yml
 summary_line: oauth2 · 2 schemes
 tags:
 - Healthcare

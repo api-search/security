@@ -7,13 +7,13 @@ api_specs:
   label: Uber Eats Customers API
   slug: uber-eats-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber-eats/refs/heads/main/openapi/uber-eats-customers-api-openapi.yml
+  url: https://artifacts.apis.io/uber-eats/openapi/uber-eats-customers-api-openapi.yml
 - filename: uber-eats-eats-api-openapi.yml
   format: yaml
   label: Uber Eats API
   slug: uber-eats-eats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber-eats/refs/heads/main/openapi/uber-eats-eats-api-openapi.yml
+  url: https://artifacts.apis.io/uber-eats/openapi/uber-eats-eats-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -44,7 +44,7 @@ source_filename: uber-eats-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/uber-direct-openapi.yml, openapi/uber-eats-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.uber.com/oauth/v2/token\n    scopes: 1\n  sources:\n  - openapi/uber-direct-openapi.yml\n  - openapi/uber-eats-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uber-eats/refs/heads/main/authentication/uber-eats-authentication.yml
+source_yaml_url: https://artifacts.apis.io/uber-eats/authentication/uber-eats-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Uber Eats

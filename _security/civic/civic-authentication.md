@@ -7,13 +7,13 @@ api_specs:
   label: Civic Pass API
   slug: civic-pass-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civic/refs/heads/main/openapi/civic-pass-api-openapi.yml
+  url: https://artifacts.apis.io/civic/openapi/civic-pass-api-openapi.yml
 - filename: civic-piirequest-api-openapi.yml
   format: yaml
   label: Civic Piirequest API
   slug: civic-piirequest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civic/refs/heads/main/openapi/civic-piirequest-api-openapi.yml
+  url: https://artifacts.apis.io/civic/openapi/civic-piirequest-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -43,7 +43,7 @@ source_filename: civic-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/civic-pass-customer-api.yaml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: pass_auth\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth0.civic.com/oauth/token\n    scopes: 0\n  sources:\n  - openapi/civic-pass-customer-api.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/civic/refs/heads/main/authentication/civic-authentication.yml
+source_yaml_url: https://artifacts.apis.io/civic/authentication/civic-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - AI Agents

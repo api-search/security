@@ -7,31 +7,31 @@ api_specs:
   label: 'Stack Moxie How To: Administer API'
   slug: stack-moxie-how-to-administer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/openapi/stack-moxie-how-to-administer-api-openapi.yml
+  url: https://artifacts.apis.io/stack-moxie/openapi/stack-moxie-how-to-administer-api-openapi.yml
 - filename: stack-moxie-how-to-automate-api-openapi.yml
   format: yaml
   label: 'Stack Moxie How To: Automate API'
   slug: stack-moxie-how-to-automate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/openapi/stack-moxie-how-to-automate-api-openapi.yml
+  url: https://artifacts.apis.io/stack-moxie/openapi/stack-moxie-how-to-automate-api-openapi.yml
 - filename: stack-moxie-how-to-integrate-api-openapi.yml
   format: yaml
   label: 'Stack Moxie How To: Integrate API'
   slug: stack-moxie-how-to-integrate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/openapi/stack-moxie-how-to-integrate-api-openapi.yml
+  url: https://artifacts.apis.io/stack-moxie/openapi/stack-moxie-how-to-integrate-api-openapi.yml
 - filename: stack-moxie-how-to-organize-api-openapi.yml
   format: yaml
   label: 'Stack Moxie How To: Organize API'
   slug: stack-moxie-how-to-organize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/openapi/stack-moxie-how-to-organize-api-openapi.yml
+  url: https://artifacts.apis.io/stack-moxie/openapi/stack-moxie-how-to-organize-api-openapi.yml
 - filename: stack-moxie-how-to-test-api-openapi.yml
   format: yaml
   label: 'Stack Moxie How To: Test API'
   slug: stack-moxie-how-to-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/openapi/stack-moxie-how-to-test-api-openapi.yml
+  url: https://artifacts.apis.io/stack-moxie/openapi/stack-moxie-how-to-test-api-openapi.yml
 auth_types:
 - http
 - grpc-metadata
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: openapi/stack-m
   \ gRPC (proto3), automaton.cog.CogService\n  applies_to: Crank Cogs (open-source, self-run)\n  sources:\n  - grpc/stack-moxie-cog.proto\n  description: >-\n    Each Cog self-declares the credentials it needs by returning a\n    CogManifest.auth_fields list (repeated FieldDefinition) from the GetManifest\n    RPC. Every FieldDefinition carries a key, a type (STRING, BOOLEAN, NUMERIC,\n    DATE, DATETIME, EMAIL, PHONE, URL, MAP, ANYSCALAR, ANYNONSCALAR), an\n    optionality (OPTIONAL | REQUIRED), and help text. The client (crank) collects\n    those values and sets each as gRPC call metadata, keyed by the FieldDefinition\n    key, on every RunStep / RunSteps call.\n  discovery_operation: GetManifest\n  credential_carrier: gRPC call metadata\n  field_key_example: mySystemAuthToken\n  help_url_field: CogManifest.auth_help_url\n  hosted_equivalent: >-\n    In the hosted product the same credentials are stored as a Connection\n    (POST /v1/organizations/{org}/connections) whose write-only `auth`\
   \ object\n    holds the Cog's auth fields and whose `isValid` flag reports whether they\n    still work. The Cog registry those fields belong to is readable at\n    GET /v1/organizations/{org}/registry, which returns RegistryEntry objects\n    carrying authFieldsList and authHelpUrl - the REST projection of CogManifest.\n- name: Hosted app SSO\n  type: saml\n  applies_to: Stack Moxie web application (human login, not API)\n  source: https://www.stackmoxie.com/pricing/\n  plans:\n    Starter: none\n    Individual: none\n    Growth: SSO (SAML)\n    Enterprise: SSO (Federated or SAML)\ngaps:\n- no OAuth 2.0 or OpenID Connect surface; /.well-known/oauth-authorization-server\n  and /.well-known/openid-configuration return 404 on every host\n- no token endpoint, no refresh flow, no introspection or revocation endpoint in\n  the API - token lifecycle is entirely a UI operation\n- no documented token expiry or rotation policy\n- no scopes; authorization is coarse, by organization membership and\
   \ role\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/authentication/stack-moxie-authentication.yml
+source_yaml_url: https://artifacts.apis.io/stack-moxie/authentication/stack-moxie-authentication.yml
 summary_line: http/grpc-metadata/saml · 3 schemes
 tags:
 - Company

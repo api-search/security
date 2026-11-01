@@ -5,91 +5,91 @@ api_specs:
   label: Argilla Authentication API
   slug: argilla-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/argilla/openapi/argilla-authentication-api-openapi.yml
 - filename: argilla-datasets-api-openapi.yml
   format: yaml
   label: Argilla Datasets API
   slug: argilla-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/argilla/openapi/argilla-datasets-api-openapi.yml
 - filename: argilla-fields-api-openapi.yml
   format: yaml
   label: Argilla Fields API
   slug: argilla-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-fields-api-openapi.yml
+  url: https://artifacts.apis.io/argilla/openapi/argilla-fields-api-openapi.yml
 - filename: argilla-info-api-openapi.yml
   format: yaml
   label: Argilla Info API
   slug: argilla-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-info-api-openapi.yml
+  url: https://artifacts.apis.io/argilla/openapi/argilla-info-api-openapi.yml
 - filename: argilla-jobs-api-openapi.yml
   format: yaml
   label: Argilla Jobs API
   slug: argilla-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/argilla/openapi/argilla-jobs-api-openapi.yml
 - filename: argilla-metadata-properties-api-openapi.yml
   format: yaml
   label: Argilla metadata properties API
   slug: argilla-metadata-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-metadata-properties-api-openapi.yml
+  url: https://artifacts.apis.io/argilla/openapi/argilla-metadata-properties-api-openapi.yml
 - filename: argilla-questions-api-openapi.yml
   format: yaml
   label: Argilla Questions API
   slug: argilla-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-questions-api-openapi.yml
+  url: https://artifacts.apis.io/argilla/openapi/argilla-questions-api-openapi.yml
 - filename: argilla-records-api-openapi.yml
   format: yaml
   label: Argilla Records API
   slug: argilla-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-records-api-openapi.yml
+  url: https://artifacts.apis.io/argilla/openapi/argilla-records-api-openapi.yml
 - filename: argilla-responses-api-openapi.yml
   format: yaml
   label: Argilla Responses API
   slug: argilla-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-responses-api-openapi.yml
+  url: https://artifacts.apis.io/argilla/openapi/argilla-responses-api-openapi.yml
 - filename: argilla-settings-api-openapi.yml
   format: yaml
   label: Argilla Settings API
   slug: argilla-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-settings-api-openapi.yml
+  url: https://artifacts.apis.io/argilla/openapi/argilla-settings-api-openapi.yml
 - filename: argilla-suggestions-api-openapi.yml
   format: yaml
   label: Argilla Suggestions API
   slug: argilla-suggestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-suggestions-api-openapi.yml
+  url: https://artifacts.apis.io/argilla/openapi/argilla-suggestions-api-openapi.yml
 - filename: argilla-users-api-openapi.yml
   format: yaml
   label: Argilla Users API
   slug: argilla-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-users-api-openapi.yml
+  url: https://artifacts.apis.io/argilla/openapi/argilla-users-api-openapi.yml
 - filename: argilla-vectors-settings-api-openapi.yml
   format: yaml
   label: Argilla Vectors Settings API
   slug: argilla-vectors-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-vectors-settings-api-openapi.yml
+  url: https://artifacts.apis.io/argilla/openapi/argilla-vectors-settings-api-openapi.yml
 - filename: argilla-webhooks-api-openapi.yml
   format: yaml
   label: Argilla Webhooks API
   slug: argilla-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/argilla/openapi/argilla-webhooks-api-openapi.yml
 - filename: argilla-workspaces-api-openapi.yml
   format: yaml
   label: Argilla Workspaces API
   slug: argilla-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/argilla/openapi/argilla-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -124,7 +124,7 @@ source_filename: argilla-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: argilla.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 17:23:51 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.argilla.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 18:53:48 2026 GMT\n  hsts: false\ndomains:\n- domain: argilla.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/security/argilla-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/argilla/security/argilla-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data Annotation

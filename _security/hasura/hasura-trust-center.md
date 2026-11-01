@@ -11,49 +11,49 @@ api_specs:
   label: Hasura Healthz API
   slug: hasura-healthz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-healthz-api-openapi.yml
+  url: https://artifacts.apis.io/hasura/openapi/hasura-healthz-api-openapi.yml
 - filename: hasura-metadata-api-openapi.yml
   format: yaml
   label: Hasura Metadata API
   slug: hasura-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/hasura/openapi/hasura-metadata-api-openapi.yml
 - filename: hasura-query-api-openapi.yml
   format: yaml
   label: Hasura Query API
   slug: hasura-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-query-api-openapi.yml
+  url: https://artifacts.apis.io/hasura/openapi/hasura-query-api-openapi.yml
 - filename: hasura-source-health-api-openapi.yml
   format: yaml
   label: Hasura Source Health API
   slug: hasura-source-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-source-health-api-openapi.yml
+  url: https://artifacts.apis.io/hasura/openapi/hasura-source-health-api-openapi.yml
 - filename: hasura-v1alpha1-api-openapi.yml
   format: yaml
   label: Hasura V1alpha1 API
   slug: hasura-v1alpha1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-v1alpha1-api-openapi.yml
+  url: https://artifacts.apis.io/hasura/openapi/hasura-v1alpha1-api-openapi.yml
 - filename: hasura-v1beta1-api-openapi.yml
   format: yaml
   label: Hasura V1beta1 API
   slug: hasura-v1beta1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-v1beta1-api-openapi.yml
+  url: https://artifacts.apis.io/hasura/openapi/hasura-v1beta1-api-openapi.yml
 - filename: hasura-version-api-openapi.yml
   format: yaml
   label: Hasura Version API
   slug: hasura-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-version-api-openapi.yml
+  url: https://artifacts.apis.io/hasura/openapi/hasura-version-api-openapi.yml
 - filename: hasura-graph-ql-api-openapi.yml
   format: yaml
   label: Hasura Graph QL API
   slug: hasura-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/hasura/openapi/hasura-graph-ql-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -73,7 +73,7 @@ source_filename: hasura-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://hasura.io/security\nurl: https://hasura.io/security\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\n- GDPR\nevidence:\n- source: https://hasura.io/security\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - hipaa\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/security/hasura-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/hasura/security/hasura-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Data Access

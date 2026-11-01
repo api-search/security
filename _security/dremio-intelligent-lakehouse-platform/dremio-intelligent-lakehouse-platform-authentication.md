@@ -7,49 +7,49 @@ api_specs:
   label: Dremio | Intelligent Lakehouse Platform Authentication API
   slug: dremio-intelligent-lakehouse-platform-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/openapi/dremio-intelligent-lakehouse-platform-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/openapi/dremio-intelligent-lakehouse-platform-authentication-api-openapi.yml
 - filename: dremio-intelligent-lakehouse-platform-catalog-api-openapi.yml
   format: yaml
   label: Dremio | Intelligent Lakehouse Platform Catalog API
   slug: dremio-intelligent-lakehouse-platform-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/openapi/dremio-intelligent-lakehouse-platform-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/openapi/dremio-intelligent-lakehouse-platform-catalog-api-openapi.yml
 - filename: dremio-intelligent-lakehouse-platform-jobs-api-openapi.yml
   format: yaml
   label: Dremio | Intelligent Lakehouse Platform Jobs API
   slug: dremio-intelligent-lakehouse-platform-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/openapi/dremio-intelligent-lakehouse-platform-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/openapi/dremio-intelligent-lakehouse-platform-jobs-api-openapi.yml
 - filename: dremio-intelligent-lakehouse-platform-pat-api-openapi.yml
   format: yaml
   label: Dremio | Intelligent Lakehouse Platform PAT API
   slug: dremio-intelligent-lakehouse-platform-pat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/openapi/dremio-intelligent-lakehouse-platform-pat-api-openapi.yml
+  url: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/openapi/dremio-intelligent-lakehouse-platform-pat-api-openapi.yml
 - filename: dremio-intelligent-lakehouse-platform-reflections-api-openapi.yml
   format: yaml
   label: Dremio | Intelligent Lakehouse Platform Reflections API
   slug: dremio-intelligent-lakehouse-platform-reflections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/openapi/dremio-intelligent-lakehouse-platform-reflections-api-openapi.yml
+  url: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/openapi/dremio-intelligent-lakehouse-platform-reflections-api-openapi.yml
 - filename: dremio-intelligent-lakehouse-platform-roles-api-openapi.yml
   format: yaml
   label: Dremio | Intelligent Lakehouse Platform Roles API
   slug: dremio-intelligent-lakehouse-platform-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/openapi/dremio-intelligent-lakehouse-platform-roles-api-openapi.yml
+  url: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/openapi/dremio-intelligent-lakehouse-platform-roles-api-openapi.yml
 - filename: dremio-intelligent-lakehouse-platform-scripts-api-openapi.yml
   format: yaml
   label: Dremio | Intelligent Lakehouse Platform Scripts API
   slug: dremio-intelligent-lakehouse-platform-scripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/openapi/dremio-intelligent-lakehouse-platform-scripts-api-openapi.yml
+  url: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/openapi/dremio-intelligent-lakehouse-platform-scripts-api-openapi.yml
 - filename: dremio-intelligent-lakehouse-platform-sources-api-openapi.yml
   format: yaml
   label: Dremio | Intelligent Lakehouse Platform Sources API
   slug: dremio-intelligent-lakehouse-platform-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/openapi/dremio-intelligent-lakehouse-platform-sources-api-openapi.yml
+  url: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/openapi/dremio-intelligent-lakehouse-platform-sources-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -134,7 +134,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: searched\nsource: openapi/*.yml +
   \  docs: https://docs.dremio.com/dremio-cloud/api/personal-access-token\n- name: dremioOAuth\n  type: oauth2\n  description: >-\n    Dremio runs its own OAuth authorization server at https://login.dremio.cloud, discoverable\n    per RFC 8414. Supports client credentials for service users, authorization code with PKCE\n    (S256) and dynamic client registration for MCP clients, and RFC 8693 token exchange for an\n    external OIDC JWT or a PAT.\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.dremio.cloud/oauth/token\n    scopes: [dremio.all]\n  - flow: authorizationCode\n    authorizationUrl: https://login.dremio.cloud/oauth/authorize\n    tokenUrl: https://login.dremio.cloud/oauth/token\n    registrationUrl: https://login.dremio.cloud/oauth/register\n    scopes: [dremio.all, offline_access]\n  - flow: tokenExchange\n    tokenUrl: https://login.dremio.cloud/oauth/token\n    scopes: [dremio.all]\n  see: scopes/dremio-intelligent-lakehouse-platform-scopes.yml\n- name:\
   \ usernamePassword\n  type: http\n  scheme: basic-equivalent\n  description: >-\n    POST /apiv2/login with userName + password returns a token. Legacy, self-managed only, and\n    rate limited to 45 requests per second per IP.\n  operation: login\n  status: legacy\n- name: externalTokenProvider\n  type: openIdConnect\n  description: >-\n    An OIDC provider (Microsoft Entra ID, Okta, LDAP) can authenticate users, and the resulting\n    JWT can be exchanged for a Dremio access token.\n  docs: https://docs.dremio.com/dremio-cloud/api/external-token-providers\n- name: scimHeaderAuth\n  type: http\n  scheme: bearer\n  description: >-\n    SCIM 2.0 provisioning endpoints (/scim/v2) authenticate the identity provider with header\n    auth.\n  docs: https://docs.dremio.com/current/security/authentication/identity-providers/scim\nagent_notes: >-\n  Three distinct credentials serve three agent surfaces and they are not interchangeable: the\n  hosted MCP server takes OAuth only, the self-hosted\
   \ MCP server and the CLI take a PAT only, and\n  a service user for machine-to-machine work takes client_id + client_secret. Whatever the\n  credential, authorization is the authenticated principal's RBAC — the OAuth scope is always\n  dremio.all and grants nothing narrower.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/authentication/dremio-intelligent-lakehouse-platform-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/authentication/dremio-intelligent-lakehouse-platform-authentication.yml
 summary_line: http/oauth2 · 6 schemes
 tags:
 - Data

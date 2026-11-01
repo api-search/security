@@ -16,7 +16,7 @@ source_filename: agility-cms-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://agilitycms.com/security\nurl: https://agilitycms.com/security\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://agilitycms.com/security\n  keywords:\n  - soc 2\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agility-cms/refs/heads/main/security/agility-cms-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/agility-cms/security/agility-cms-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - GraphQL

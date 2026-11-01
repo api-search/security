@@ -7,19 +7,19 @@ api_specs:
   label: WATI Contacts API
   slug: wati-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wati/refs/heads/main/openapi/wati-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/wati/openapi/wati-contacts-api-openapi.yml
 - filename: wati-messages-api-openapi.yml
   format: yaml
   label: WATI Messages API
   slug: wati-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wati/refs/heads/main/openapi/wati-messages-api-openapi.yml
+  url: https://artifacts.apis.io/wati/openapi/wati-messages-api-openapi.yml
 - filename: wati-templates-api-openapi.yml
   format: yaml
   label: WATI Templates API
   slug: wati-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wati/refs/heads/main/openapi/wati-templates-api-openapi.yml
+  url: https://artifacts.apis.io/wati/openapi/wati-templates-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -51,7 +51,7 @@ source_filename: wati-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/wati-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: |-\n    WATI uses Bearer token authentication. Tokens are issued from the WATI\n    dashboard under API Docs and must be supplied as\n    `Authorization: Bearer <token>` on every request.\n  sources:\n  - openapi/wati-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wati/refs/heads/main/authentication/wati-authentication.yml
+source_yaml_url: https://artifacts.apis.io/wati/authentication/wati-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - WhatsApp

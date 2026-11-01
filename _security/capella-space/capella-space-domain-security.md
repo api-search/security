@@ -5,37 +5,37 @@ api_specs:
   label: Capella Space Collects API
   slug: capella-space-collects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capella-space/refs/heads/main/openapi/capella-space-collects-api-openapi.yml
+  url: https://artifacts.apis.io/capella-space/openapi/capella-space-collects-api-openapi.yml
 - filename: capella-space-keys-api-openapi.yml
   format: yaml
   label: Capella Space Keys API
   slug: capella-space-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capella-space/refs/heads/main/openapi/capella-space-keys-api-openapi.yml
+  url: https://artifacts.apis.io/capella-space/openapi/capella-space-keys-api-openapi.yml
 - filename: capella-space-orders-api-openapi.yml
   format: yaml
   label: Capella Space Orders API
   slug: capella-space-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capella-space/refs/heads/main/openapi/capella-space-orders-api-openapi.yml
+  url: https://artifacts.apis.io/capella-space/openapi/capella-space-orders-api-openapi.yml
 - filename: capella-space-repeatrequests-api-openapi.yml
   format: yaml
   label: Capella Space RepeatRequests API
   slug: capella-space-repeatrequests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capella-space/refs/heads/main/openapi/capella-space-repeatrequests-api-openapi.yml
+  url: https://artifacts.apis.io/capella-space/openapi/capella-space-repeatrequests-api-openapi.yml
 - filename: capella-space-tasking-api-openapi.yml
   format: yaml
   label: Capella Space Tasking API
   slug: capella-space-tasking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capella-space/refs/heads/main/openapi/capella-space-tasking-api-openapi.yml
+  url: https://artifacts.apis.io/capella-space/openapi/capella-space-tasking-api-openapi.yml
 - filename: capella-space-tiles-api-openapi.yml
   format: yaml
   label: Capella Space Tiles API
   slug: capella-space-tiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capella-space/refs/heads/main/openapi/capella-space-tiles-api-openapi.yml
+  url: https://artifacts.apis.io/capella-space/openapi/capella-space-tiles-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: capella-space-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.capellaspace.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 14:15:24 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.capellaspace.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 13:20:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.capellaspace.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  5 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: capellaspace.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/capella-space/refs/heads/main/security/capella-space-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/capella-space/security/capella-space-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Synthetic Aperture Radar

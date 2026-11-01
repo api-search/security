@@ -5,19 +5,19 @@ api_specs:
   label: Google Cloud Transfer Service TransferJobs API
   slug: google-cloud-transfer-service-transferjobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/openapi/google-cloud-transfer-service-transferjobs-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-transfer-service/openapi/google-cloud-transfer-service-transferjobs-api-openapi.yml
 - filename: google-cloud-transfer-service-transferoperations-api-openapi.yml
   format: yaml
   label: Google Cloud Transfer Service TransferOperations API
   slug: google-cloud-transfer-service-transferoperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/openapi/google-cloud-transfer-service-transferoperations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-transfer-service/openapi/google-cloud-transfer-service-transferoperations-api-openapi.yml
 - filename: google-cloud-transfer-service-agent-pools-api-openapi.yml
   format: yaml
   label: Google Cloud Transfer Service Agent Pools API
   slug: google-cloud-transfer-service-agent-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/openapi/google-cloud-transfer-service-agent-pools-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-transfer-service/openapi/google-cloud-transfer-service-agent-pools-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -60,7 +60,7 @@ source_filename: google-cloud-transfer-service-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cloud.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: storagetransfer.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:17 2026 GMT\n  hsts: null\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/security/google-cloud-transfer-service-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-transfer-service/security/google-cloud-transfer-service-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Microsoft Azure

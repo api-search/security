@@ -5,61 +5,61 @@ api_specs:
   label: ClickSend Account API
   slug: clicksend-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clicksend/refs/heads/main/openapi/clicksend-account-api-openapi.yml
+  url: https://artifacts.apis.io/clicksend/openapi/clicksend-account-api-openapi.yml
 - filename: clicksend-contact-api-openapi.yml
   format: yaml
   label: ClickSend Contact API
   slug: clicksend-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clicksend/refs/heads/main/openapi/clicksend-contact-api-openapi.yml
+  url: https://artifacts.apis.io/clicksend/openapi/clicksend-contact-api-openapi.yml
 - filename: clicksend-email-api-openapi.yml
   format: yaml
   label: ClickSend Email API
   slug: clicksend-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clicksend/refs/heads/main/openapi/clicksend-email-api-openapi.yml
+  url: https://artifacts.apis.io/clicksend/openapi/clicksend-email-api-openapi.yml
 - filename: clicksend-mms-api-openapi.yml
   format: yaml
   label: ClickSend MMS API
   slug: clicksend-mms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clicksend/refs/heads/main/openapi/clicksend-mms-api-openapi.yml
+  url: https://artifacts.apis.io/clicksend/openapi/clicksend-mms-api-openapi.yml
 - filename: clicksend-post-letter-api-openapi.yml
   format: yaml
   label: ClickSend Post Letter API
   slug: clicksend-post-letter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clicksend/refs/heads/main/openapi/clicksend-post-letter-api-openapi.yml
+  url: https://artifacts.apis.io/clicksend/openapi/clicksend-post-letter-api-openapi.yml
 - filename: clicksend-post-postcard-api-openapi.yml
   format: yaml
   label: ClickSend Post Postcard API
   slug: clicksend-post-postcard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clicksend/refs/heads/main/openapi/clicksend-post-postcard-api-openapi.yml
+  url: https://artifacts.apis.io/clicksend/openapi/clicksend-post-postcard-api-openapi.yml
 - filename: clicksend-receipts-api-openapi.yml
   format: yaml
   label: ClickSend Receipts API
   slug: clicksend-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clicksend/refs/heads/main/openapi/clicksend-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/clicksend/openapi/clicksend-receipts-api-openapi.yml
 - filename: clicksend-sms-api-openapi.yml
   format: yaml
   label: ClickSend SMS API
   slug: clicksend-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clicksend/refs/heads/main/openapi/clicksend-sms-api-openapi.yml
+  url: https://artifacts.apis.io/clicksend/openapi/clicksend-sms-api-openapi.yml
 - filename: clicksend-voice-api-openapi.yml
   format: yaml
   label: ClickSend Voice API
   slug: clicksend-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clicksend/refs/heads/main/openapi/clicksend-voice-api-openapi.yml
+  url: https://artifacts.apis.io/clicksend/openapi/clicksend-voice-api-openapi.yml
 - filename: clicksend-contact-list-api-openapi.yml
   format: yaml
   label: ClickSend Contact List API
   slug: clicksend-contact-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clicksend/refs/heads/main/openapi/clicksend-contact-list-api-openapi.yml
+  url: https://artifacts.apis.io/clicksend/openapi/clicksend-contact-list-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -104,7 +104,7 @@ source_filename: clicksend-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.clicksend.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 24 20:43:31 2026 GMT\n  hsts: false\n- host: developers.clicksend.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  5 23:59:59 2026 GMT\n  hsts: false\n- host: rest.clicksend.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 03:28:03 2026 GMT\n  hsts: false\ndomains:\n- domain: clicksend.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clicksend/refs/heads/main/security/clicksend-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/clicksend/security/clicksend-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Communications

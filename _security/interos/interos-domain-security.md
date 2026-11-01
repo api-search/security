@@ -5,31 +5,37 @@ api_specs:
   label: Interos Groups API
   slug: interos-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interos/refs/heads/main/openapi/interos-groups-api-openapi.yml
+  url: https://artifacts.apis.io/interos/openapi/interos-groups-api-openapi.yml
 - filename: interos-health-api-openapi.yml
   format: yaml
   label: Interos Health API
   slug: interos-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interos/refs/heads/main/openapi/interos-health-api-openapi.yml
+  url: https://artifacts.apis.io/interos/openapi/interos-health-api-openapi.yml
 - filename: interos-organizations-api-openapi.yml
   format: yaml
   label: Interos Organizations API
   slug: interos-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interos/refs/heads/main/openapi/interos-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/interos/openapi/interos-organizations-api-openapi.yml
 - filename: interos-relationships-api-openapi.yml
   format: yaml
   label: Interos Relationships API
   slug: interos-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interos/refs/heads/main/openapi/interos-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/interos/openapi/interos-relationships-api-openapi.yml
 - filename: interos-watchtower-api-openapi.yml
   format: yaml
   label: Interos Watchtower API
   slug: interos-watchtower-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interos/refs/heads/main/openapi/interos-watchtower-api-openapi.yml
+  url: https://artifacts.apis.io/interos/openapi/interos-watchtower-api-openapi.yml
+- filename: interos-my-data-api-openapi.yml
+  format: yaml
+  label: Interos My Data API
+  slug: interos-my-data-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/interos/openapi/interos-my-data-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +65,7 @@ source_filename: interos-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.interos.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 16:41:24 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: interos.ai\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/interos/refs/heads/main/security/interos-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/interos/security/interos-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

@@ -8,55 +8,61 @@ api_specs:
   label: AWS X-Ray Encryption API
   slug: aws-x-ray-encryption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-encryption-api-openapi.yml
+  url: https://artifacts.apis.io/aws-x-ray/openapi/aws-x-ray-encryption-api-openapi.yml
 - filename: aws-x-ray-groups-api-openapi.yml
   format: yaml
   label: AWS X-Ray Groups API
   slug: aws-x-ray-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-groups-api-openapi.yml
+  url: https://artifacts.apis.io/aws-x-ray/openapi/aws-x-ray-groups-api-openapi.yml
 - filename: aws-x-ray-insights-api-openapi.yml
   format: yaml
   label: AWS X-Ray Insights API
   slug: aws-x-ray-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-insights-api-openapi.yml
+  url: https://artifacts.apis.io/aws-x-ray/openapi/aws-x-ray-insights-api-openapi.yml
 - filename: aws-x-ray-sampling-api-openapi.yml
   format: yaml
   label: AWS X-Ray Sampling API
   slug: aws-x-ray-sampling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-sampling-api-openapi.yml
+  url: https://artifacts.apis.io/aws-x-ray/openapi/aws-x-ray-sampling-api-openapi.yml
 - filename: aws-x-ray-service-graph-api-openapi.yml
   format: yaml
   label: AWS X-Ray Service Graph API
   slug: aws-x-ray-service-graph-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-service-graph-api-openapi.yml
+  url: https://artifacts.apis.io/aws-x-ray/openapi/aws-x-ray-service-graph-api-openapi.yml
 - filename: aws-x-ray-tags-api-openapi.yml
   format: yaml
   label: AWS X-Ray Tags API
   slug: aws-x-ray-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-tags-api-openapi.yml
+  url: https://artifacts.apis.io/aws-x-ray/openapi/aws-x-ray-tags-api-openapi.yml
 - filename: aws-x-ray-traces-api-openapi.yml
   format: yaml
   label: AWS X-Ray Traces API
   slug: aws-x-ray-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-traces-api-openapi.yml
+  url: https://artifacts.apis.io/aws-x-ray/openapi/aws-x-ray-traces-api-openapi.yml
 - filename: aws-x-ray-tag-resource-api-openapi.yml
   format: yaml
   label: AWS X-Ray Tag Resource API
   slug: aws-x-ray-tag-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-tag-resource-api-openapi.yml
+  url: https://artifacts.apis.io/aws-x-ray/openapi/aws-x-ray-tag-resource-api-openapi.yml
 - filename: aws-x-ray-untag-resource-api-openapi.yml
   format: yaml
   label: AWS X-Ray Untag Resource API
   slug: aws-x-ray-untag-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-untag-resource-api-openapi.yml
+  url: https://artifacts.apis.io/aws-x-ray/openapi/aws-x-ray-untag-resource-api-openapi.yml
+- filename: aws-x-ray-operations-api-openapi.yml
+  format: yaml
+  label: AWS X-Ray X Ray Operations API
+  slug: aws-x-ray-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-x-ray/openapi/aws-x-ray-operations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -84,7 +90,7 @@ source_filename: aws-x-ray-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/aws-x-ray-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: aws_sig_v4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4\n  sources:\n  - openapi/aws-x-ray-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/authentication/aws-x-ray-authentication.yml
+source_yaml_url: https://artifacts.apis.io/aws-x-ray/authentication/aws-x-ray-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Debugging

@@ -7,7 +7,7 @@ api_specs:
   label: Trax API
   slug: trax-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trax/refs/heads/main/openapi/_ae-authored/trax-openapi-generated.yml
+  url: https://artifacts.apis.io/trax/openapi/_ae-authored/trax-openapi-generated.yml
 auth_types:
 - http
 - oauth2
@@ -52,7 +52,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://www.apidoc.traxretail.com/\ndocs: https://www.apidoc.traxretail.com/\nsummary:\n  types:\n  - http\n  - oauth2\n  notes: >-\n    Partner API access authenticates with Trax platform credentials (username and password) or via\n    Single Sign-On over OAuth 2.0. The Scene Mobile SDK additionally requests a per-day license\n    token from the Trax license-management system to authorize SDK use for that calendar day.\nschemes:\n- name: TraxCredentials\n  type: http\n  scheme: basic\n  description: Trax platform username and password used for direct partner API authentication.\n  sources:\n  - docs\n- name: SSO\n  type: oauth2\n  description: >-\n    Single Sign-On using the OAuth 2.0 protocol against a customer-configured authentication server.\n    Documented identity-provider integrations include ADFS, Salesforce (SFDC), Okta, and Ping\n    Federate.\n  identity_providers:\n  - ADFS\n  - Salesforce\n  - Okta\n  - Ping\
   \ Federate\n  sources:\n  - docs\n- name: SceneSDKDailyToken\n  type: http\n  scheme: bearer\n  description: >-\n    Daily token requested from the Trax license-management system by the Scene Mobile SDK to verify\n    eligibility to use the SDK on a given day (Android and iOS).\n  sources:\n  - docs\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trax/refs/heads/main/authentication/trax-authentication.yml
+source_yaml_url: https://artifacts.apis.io/trax/authentication/trax-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Company

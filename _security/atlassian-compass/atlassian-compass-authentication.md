@@ -7,37 +7,37 @@ api_specs:
   label: Atlassian Compass Events API
   slug: atlassian-compass-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/openapi/atlassian-compass-events-api-openapi.yml
+  url: https://artifacts.apis.io/atlassian-compass/openapi/atlassian-compass-events-api-openapi.yml
 - filename: atlassian-compass-metrics-api-openapi.yml
   format: yaml
   label: Atlassian Compass Metrics API
   slug: atlassian-compass-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/openapi/atlassian-compass-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/atlassian-compass/openapi/atlassian-compass-metrics-api-openapi.yml
 - filename: atlassian-compass-attachment-rest-controller-api-openapi.yml
   format: yaml
   label: Atlassian Compass Attachment Rest Controller API
   slug: atlassian-compass-attachment-rest-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/openapi/atlassian-compass-attachment-rest-controller-api-openapi.yml
+  url: https://artifacts.apis.io/atlassian-compass/openapi/atlassian-compass-attachment-rest-controller-api-openapi.yml
 - filename: atlassian-compass-entitlement-rest-controller-api-openapi.yml
   format: yaml
   label: Atlassian Compass Entitlement Rest Controller API
   slug: atlassian-compass-entitlement-rest-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/openapi/atlassian-compass-entitlement-rest-controller-api-openapi.yml
+  url: https://artifacts.apis.io/atlassian-compass/openapi/atlassian-compass-entitlement-rest-controller-api-openapi.yml
 - filename: atlassian-compass-incoming-webhooks-rest-controller-api-openapi.yml
   format: yaml
   label: Atlassian Compass Incoming Webhooks Rest Controller API
   slug: atlassian-compass-incoming-webhooks-rest-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/openapi/atlassian-compass-incoming-webhooks-rest-controller-api-openapi.yml
+  url: https://artifacts.apis.io/atlassian-compass/openapi/atlassian-compass-incoming-webhooks-rest-controller-api-openapi.yml
 - filename: atlassian-compass-package-dependencies-api-openapi.yml
   format: yaml
   label: Atlassian Compass Package Dependencies API
   slug: atlassian-compass-package-dependencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/openapi/atlassian-compass-package-dependencies-api-openapi.yml
+  url: https://artifacts.apis.io/atlassian-compass/openapi/atlassian-compass-package-dependencies-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: searched\nsource: 'openapi/atlass
   \ process.\" There is no service account and no scope\n    negotiation on this path - the token carries the human''s full access.'\n  header: 'Authorization: Basic base64(email:api_token)'\n  rotation: API tokens can be revoked individually from the Atlassian account token manager\n  mfa_note: Atlassian states API tokens allow authentication even when the organization has two-factor\n    authentication or SAML enabled\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.atlassian.com/authorize\n    tokenUrl: https://auth.atlassian.com/oauth/token\n    scopes: 4\n  description: OAuth 2.0 (3LO) for Atlassian Cloud\n  sources:\n  - openapi/atlassian-compass-events-api-openapi.yml\n  - openapi/atlassian-compass-metrics-api-openapi.yml\n  discovery: https://auth.atlassian.com/.well-known/openid-configuration\n  authorization_server_metadata: https://auth.atlassian.com/.well-known/oauth-authorization-server\n  pkce:\n  - S256\n  dynamic_client_registration:\
   \ https://auth.atlassian.com/oidc/register\n  revocation_endpoint: https://auth.atlassian.com/oauth/revoke\n  device_authorization_endpoint: https://auth.atlassian.com/oauth/device/code\n  scopes_detail: scopes/atlassian-compass-scopes.yml\ndocs:\n- https://developer.atlassian.com/cloud/compass/rest/\n- https://developer.atlassian.com/cloud/compass/integrations/get-started-integrating-with-Compass/\nadditional_surfaces:\n- surface: Atlassian Rovo MCP Server\n  endpoint: https://mcp.atlassian.com/v2/mcp\n  method: OAuth 2.1 with dynamic client registration\n  protected_resource_metadata: https://mcp.atlassian.com/.well-known/oauth-protected-resource/v2/mcp\n  registration_endpoint: https://mcp.atlassian.com/v1/register\n  note: Compass access over MCP is OAuth-only; Atlassian states API-token authentication is not supported\n    for the Compass permission groups.\n- surface: Atlassian platform GraphQL API\n  endpoint: https://api.atlassian.com/graphql\n  method: OAuth 2.0 3LO, or HTTP Basic\
   \ with an API token for direct calls\n  note: Atlassian's own Compass event-source walkthrough uses an API token against the GraphQL gateway,\n    so both credential types reach the catalog.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/authentication/atlassian-compass-authentication.yml
+source_yaml_url: https://artifacts.apis.io/atlassian-compass/authentication/atlassian-compass-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Atlassian

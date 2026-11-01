@@ -5,25 +5,25 @@ api_specs:
   label: Localazy Export API
   slug: localazy-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localazy/refs/heads/main/openapi/localazy-export-api-openapi.yml
+  url: https://artifacts.apis.io/localazy/openapi/localazy-export-api-openapi.yml
 - filename: localazy-files-api-openapi.yml
   format: yaml
   label: Localazy Files API
   slug: localazy-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localazy/refs/heads/main/openapi/localazy-files-api-openapi.yml
+  url: https://artifacts.apis.io/localazy/openapi/localazy-files-api-openapi.yml
 - filename: localazy-import-api-openapi.yml
   format: yaml
   label: Localazy Import API
   slug: localazy-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localazy/refs/heads/main/openapi/localazy-import-api-openapi.yml
+  url: https://artifacts.apis.io/localazy/openapi/localazy-import-api-openapi.yml
 - filename: localazy-projects-api-openapi.yml
   format: yaml
   label: Localazy Projects API
   slug: localazy-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localazy/refs/heads/main/openapi/localazy-projects-api-openapi.yml
+  url: https://artifacts.apis.io/localazy/openapi/localazy-projects-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -64,7 +64,7 @@ source_filename: localazy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: localazy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 15:42:28 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: api.localazy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 02:04:51 2026 GMT\n  hsts: null\ndomains:\n- domain: localazy.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/localazy/refs/heads/main/security/localazy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/localazy/security/localazy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Localization

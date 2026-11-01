@@ -5,25 +5,25 @@ api_specs:
   label: Osmaura Prospect Editions API
   slug: osmaura-prospect-editions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/openapi/osmaura-prospect-editions-api-openapi.yml
+  url: https://artifacts.apis.io/osmaura/openapi/osmaura-prospect-editions-api-openapi.yml
 - filename: osmaura-prospects-api-openapi.yml
   format: yaml
   label: Osmaura Prospects API
   slug: osmaura-prospects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/openapi/osmaura-prospects-api-openapi.yml
+  url: https://artifacts.apis.io/osmaura/openapi/osmaura-prospects-api-openapi.yml
 - filename: osmaura-signal-editions-api-openapi.yml
   format: yaml
   label: Osmaura Signal Editions API
   slug: osmaura-signal-editions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/openapi/osmaura-signal-editions-api-openapi.yml
+  url: https://artifacts.apis.io/osmaura/openapi/osmaura-signal-editions-api-openapi.yml
 - filename: osmaura-signals-api-openapi.yml
   format: yaml
   label: Osmaura Signals API
   slug: osmaura-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/openapi/osmaura-signals-api-openapi.yml
+  url: https://artifacts.apis.io/osmaura/openapi/osmaura-signals-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: osmaura-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: osmaura.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 03:35:45 2026 GMT\n  hsts: false\n- host: dashboard.osmaura.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 22:10:04 2026 GMT\n  hsts: false\ndomains:\n- domain: osmaura.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/security/osmaura-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/osmaura/security/osmaura-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

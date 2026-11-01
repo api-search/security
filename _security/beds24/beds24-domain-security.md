@@ -5,49 +5,49 @@ api_specs:
   label: Beds24 Accounts API
   slug: beds24-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/beds24/openapi/beds24-accounts-api-openapi.yml
 - filename: beds24-authentication-api-openapi.yml
   format: yaml
   label: Beds24 Authentication API
   slug: beds24-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/beds24/openapi/beds24-authentication-api-openapi.yml
 - filename: beds24-bookings-api-openapi.yml
   format: yaml
   label: Beds24 Bookings API
   slug: beds24-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/beds24/openapi/beds24-bookings-api-openapi.yml
 - filename: beds24-channels-api-openapi.yml
   format: yaml
   label: Beds24 Channels API
   slug: beds24-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-channels-api-openapi.yml
+  url: https://artifacts.apis.io/beds24/openapi/beds24-channels-api-openapi.yml
 - filename: beds24-inventory-api-openapi.yml
   format: yaml
   label: Beds24 Inventory API
   slug: beds24-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/beds24/openapi/beds24-inventory-api-openapi.yml
 - filename: beds24-invoices-api-openapi.yml
   format: yaml
   label: Beds24 Invoices API
   slug: beds24-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/beds24/openapi/beds24-invoices-api-openapi.yml
 - filename: beds24-messages-api-openapi.yml
   format: yaml
   label: Beds24 Messages API
   slug: beds24-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-messages-api-openapi.yml
+  url: https://artifacts.apis.io/beds24/openapi/beds24-messages-api-openapi.yml
 - filename: beds24-properties-api-openapi.yml
   format: yaml
   label: Beds24 Properties API
   slug: beds24-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-properties-api-openapi.yml
+  url: https://artifacts.apis.io/beds24/openapi/beds24-properties-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -87,7 +87,7 @@ source_filename: beds24-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: beds24.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 11 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31415926\n- host: wiki.beds24.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 22:26:31 2026 GMT\n  hsts: false\n- host: api.beds24.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 11 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: beds24.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/security/beds24-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/beds24/security/beds24-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Vacation Rentals

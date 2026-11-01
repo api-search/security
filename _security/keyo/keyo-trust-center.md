@@ -5,13 +5,13 @@ api_specs:
   label: Keyo Authentication API
   slug: keyo-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keyo/refs/heads/main/openapi/keyo-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/keyo/openapi/keyo-authentication-api-openapi.yml
 - filename: keyo-identities-api-openapi.yml
   format: yaml
   label: Keyo Identities API
   slug: keyo-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keyo/refs/heads/main/openapi/keyo-identities-api-openapi.yml
+  url: https://artifacts.apis.io/keyo/openapi/keyo-identities-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -31,7 +31,7 @@ source_filename: keyo-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nprobe: true\nsource: https://keyo.com/security\nurl: https://keyo.com/security\ncertifications:\n- SOC 2\n- GDPR\n- CCPA\n- BIPA\nnotes: >-\n  Keyo states it uses \"military grade encryption for communication between every\n  component of the Keyo ecosystem, including between Keyo devices, SDK instances\n  and the Keyo Cloud.\" Compliance posture on the security page names SOC 2, GDPR,\n  CCPA, and BIPA (Illinois Biometric Information Privacy Act) - the latter two\n  reflecting Keyo's biometric-data domain.\nevidence:\n- source: https://keyo.com/security\n  keywords:\n  - soc 2\n  - gdpr\n  - ccpa\n  - bipa\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keyo/refs/heads/main/security/keyo-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/keyo/security/keyo-trust-center.yml
 summary_line: SOC 2, GDPR, CCPA, BIPA
 tags:
 - Company

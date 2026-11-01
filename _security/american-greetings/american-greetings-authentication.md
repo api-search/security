@@ -27,7 +27,7 @@ source_filename: american-greetings-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-02'\nmethod: derived\nsource: openapi/american-greetings-corporate-wordpress-rest-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: applicationPassword\n  type: http\n  scheme: basic\n  description: WordPress application passwords. Authorization endpoint advertised by the provider\n    at https://corporate.americangreetings.com/wp-admin/authorize-application.php\n  sources:\n  - openapi/american-greetings-corporate-wordpress-rest-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/american-greetings/refs/heads/main/authentication/american-greetings-authentication.yml
+source_yaml_url: https://artifacts.apis.io/american-greetings/authentication/american-greetings-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Greeting Cards

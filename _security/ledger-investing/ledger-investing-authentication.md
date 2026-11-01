@@ -8,37 +8,37 @@ api_specs:
   label: Ledger Investing Cashflow Models API
   slug: ledger-investing-cashflow-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/openapi/ledger-investing-cashflow-models-api-openapi.yml
+  url: https://artifacts.apis.io/ledger-investing/openapi/ledger-investing-cashflow-models-api-openapi.yml
 - filename: ledger-investing-development-models-api-openapi.yml
   format: yaml
   label: Ledger Investing Development Models API
   slug: ledger-investing-development-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/openapi/ledger-investing-development-models-api-openapi.yml
+  url: https://artifacts.apis.io/ledger-investing/openapi/ledger-investing-development-models-api-openapi.yml
 - filename: ledger-investing-forecast-models-api-openapi.yml
   format: yaml
   label: Ledger Investing Forecast Models API
   slug: ledger-investing-forecast-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/openapi/ledger-investing-forecast-models-api-openapi.yml
+  url: https://artifacts.apis.io/ledger-investing/openapi/ledger-investing-forecast-models-api-openapi.yml
 - filename: ledger-investing-tail-models-api-openapi.yml
   format: yaml
   label: Ledger Investing Tail Models API
   slug: ledger-investing-tail-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/openapi/ledger-investing-tail-models-api-openapi.yml
+  url: https://artifacts.apis.io/ledger-investing/openapi/ledger-investing-tail-models-api-openapi.yml
 - filename: ledger-investing-tasks-api-openapi.yml
   format: yaml
   label: Ledger Investing Tasks API
   slug: ledger-investing-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/openapi/ledger-investing-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/ledger-investing/openapi/ledger-investing-tasks-api-openapi.yml
 - filename: ledger-investing-triangles-api-openapi.yml
   format: yaml
   label: Ledger Investing Triangles API
   slug: ledger-investing-triangles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/openapi/ledger-investing-triangles-api-openapi.yml
+  url: https://artifacts.apis.io/ledger-investing/openapi/ledger-investing-triangles-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -68,7 +68,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/ledger-investing-analytics-openapi.yml\ndocs: https://ledger-investing-ledger-analytics.readthedocs-hosted.com/en/stable/apikeys.html\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  oauth2_flows: []\n  scopes: none\n  mtls: false\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  value_format: 'Api-Key <API_KEY>'\n  description: >-\n    The Ledger Analytics API authenticates with a single opaque API key sent in the\n    Authorization header using the custom `Api-Key` scheme (not Bearer). There is no OAuth,\n    OIDC or mTLS surface. The first-party Python client reads the key from the\n    LEDGER_ANALYTICS_API_KEY environment variable and sets the header for every request.\n  sources: [openapi/ledger-investing-analytics-openapi.yml]\naccess:\n  status: beta\n  request_process: Email analytics@ledgerinvesting.com to sign up for an account and request a key.\n  key_management:\
   \ https://ldgr.app/api-keys\n  environment_variables:\n  - {name: LEDGER_ANALYTICS_API_KEY, environment: production, host: 'https://api.korra.com/analytics/'}\n  - {name: LEDGER_ANALYTICS_DEV_API_KEY, environment: development, note: internal Ledger/Korra development host}\n  - {name: LEDGER_ANALYTICS_LOCAL_API_KEY, environment: local, note: localhost development only}\n  environment_selector: LEDGER_ANALYTICS_ENV (PROD | DEV | LOCAL, default PROD)\nfailure_modes:\n- {status: 403, meaning: The API key does not have permission to perform this action.}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/authentication/ledger-investing-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ledger-investing/authentication/ledger-investing-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

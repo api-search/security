@@ -7,25 +7,25 @@ api_specs:
   label: FuriosaAI Health API
   slug: furiosa-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/furiosa/refs/heads/main/openapi/furiosa-health-api-openapi.yml
+  url: https://artifacts.apis.io/furiosa/openapi/furiosa-health-api-openapi.yml
 - filename: furiosa-models-api-openapi.yml
   format: yaml
   label: FuriosaAI Models API
   slug: furiosa-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/furiosa/refs/heads/main/openapi/furiosa-models-api-openapi.yml
+  url: https://artifacts.apis.io/furiosa/openapi/furiosa-models-api-openapi.yml
 - filename: furiosa-predict-api-api-openapi.yml
   format: yaml
   label: FuriosaAI Predict API
   slug: furiosa-predict-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/furiosa/refs/heads/main/openapi/furiosa-predict-api-api-openapi.yml
+  url: https://artifacts.apis.io/furiosa/openapi/furiosa-predict-api-api-openapi.yml
 - filename: furiosa-repository-api-openapi.yml
   format: yaml
   label: FuriosaAI Repository API
   slug: furiosa-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/furiosa/refs/heads/main/openapi/furiosa-repository-api-openapi.yml
+  url: https://artifacts.apis.io/furiosa/openapi/furiosa-repository-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -48,7 +48,7 @@ source_yaml: "generated: '2026-08-16'\nmethod: searched\nsource: >-\n  https://d
   \        issued_by: the operator of the server, not FuriosaAI\n        evidence: >-\n          The roadmap records \"✅ API Key based authentication support\" delivered in the\n          2025 Q3-Q4 train. Every code example in the serving docs sends\n          `api_key = os.getenv(\"OPENAI_API_KEY\", \"EMPTY\")`, and the raw curl example sends no\n          Authorization header at all - i.e. the server runs unauthenticated by default and the\n          key is opt-in, set by whoever launches `furiosa-llm serve`.\n        note: >-\n          The docs do not publish the server flag that enables it or the failure status code.\n          Establishing those requires reading `furiosa-llm serve --help` on an installed build.\n    model_value_ignored: >-\n      Worth recording as an auth-adjacent quirk: the `model` field is required by OpenAI clients\n      but IGNORED by the server, because one `furiosa-llm serve` process hosts exactly one model.\n      Callers should read the real id from GET\
   \ /v1/models rather than assume routing by name.\n  - api: furiosa-server-predict-v2\n    name: Furiosa Model Server (KServe v2 Predict + Triton Model Repository)\n    schemes: []\n    security_schemes_in_spec: false\n    evidence: >-\n      Neither openapi/furiosa-predict-v2.yaml nor openapi/furiosa-model-repository-v2.yaml\n      declares a `securitySchemes` block or any `security` requirement, and the furiosa-server\n      README lists \"Authentication support\" as an UNCHECKED roadmap item. The server is designed\n      to sit behind the customer's own ingress/mesh.\n    note: >-\n      This is a real finding, not an omission on our side: the model-repository surface exposes\n      unauthenticated load/unload of arbitrary models from the repository root, so it must never\n      be exposed outside a trusted network.\noauth: false\noauth_note: >-\n  No OAuth 2.0 or OpenID Connect anywhere - no authorization server, no scopes, no\n  /.well-known/oauth-authorization-server (probed 404\
   \ on all hosts, see well-known/).\n  scopes/ is therefore intentionally absent rather than empty.\nmtls: false\nscheme_count: 1\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/furiosa/refs/heads/main/authentication/furiosa-authentication.yml
+source_yaml_url: https://artifacts.apis.io/furiosa/authentication/furiosa-authentication.yml
 summary_line: 0 schemes
 tags:
 - Artificial Intelligence

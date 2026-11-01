@@ -7,37 +7,37 @@ api_specs:
   label: Silverpop Authentication API
   slug: silverpop-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/openapi/silverpop-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/silverpop/openapi/silverpop-authentication-api-openapi.yml
 - filename: silverpop-campaigns-api-openapi.yml
   format: yaml
   label: Silverpop Campaigns API
   slug: silverpop-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/openapi/silverpop-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/silverpop/openapi/silverpop-campaigns-api-openapi.yml
 - filename: silverpop-contacts-api-openapi.yml
   format: yaml
   label: Silverpop Contacts API
   slug: silverpop-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/openapi/silverpop-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/silverpop/openapi/silverpop-contacts-api-openapi.yml
 - filename: silverpop-programs-api-openapi.yml
   format: yaml
   label: Silverpop Programs API
   slug: silverpop-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/openapi/silverpop-programs-api-openapi.yml
+  url: https://artifacts.apis.io/silverpop/openapi/silverpop-programs-api-openapi.yml
 - filename: silverpop-reports-api-openapi.yml
   format: yaml
   label: Silverpop Reports API
   slug: silverpop-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/openapi/silverpop-reports-api-openapi.yml
+  url: https://artifacts.apis.io/silverpop/openapi/silverpop-reports-api-openapi.yml
 - filename: silverpop-transactional-api-openapi.yml
   format: yaml
   label: Silverpop Transactional API
   slug: silverpop-transactional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/openapi/silverpop-transactional-api-openapi.yml
+  url: https://artifacts.apis.io/silverpop/openapi/silverpop-transactional-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://develop
   \ is inherited wholesale from the\n    Campaign permission set of the user the refresh token is bound to — \"we connect users\n    to the application so that we can apply our existing built-in security model as is\n    defined for that user.\" The practical consequence for an agent integration is that a\n    token cannot be narrowed: whatever that human can do in the UI, including PurgeData\n    and ScheduleMailing, the token can do over the API. No scopes/ artifact was written\n    because there are no scopes to enumerate.\n  sources:\n  - https://developer.goacoustic.com/acoustic-campaign/reference/getting-started-with-oauth\n- name: JSessionId\n  type: http\n  scheme: session-cookie\n  status: legacy\n  description: >-\n    The original session-based authentication for the XML API. Log in, receive a\n    JSESSIONID, pass it on subsequent calls, and call the Logout API to release the\n    session.\n  constraints:\n  - No more than 20 active login sessions per organization at any time.\n\
   \  - >-\n    Sessions not terminated with the Logout API can remain active for several minutes and\n    block creation of new sessions.\n  deprecation: >-\n    Filed by the provider under \"Legacy authentication method\" with the instruction that\n    \"all users of the Acoustic Campaign XML API are strongly encouraged to use OAuth 2.0\n    authentication.\" No retirement date published. See lifecycle/silverpop-lifecycle.yml.\n  sources:\n  - https://developer.goacoustic.com/acoustic-campaign/reference/legacy-authentication-method-jsessionid-user-sessions\n  - https://developer.goacoustic.com/acoustic-campaign/reference/basics\nguidance:\n- >-\n  Never embed these credentials in an app distributed to end-user devices. The provider\n  states the consequences directly: credentials exposed to attackers, no control over the\n  10-concurrent-request org limit, and loss of API logs for troubleshooting. Put a service\n  you control between the app and this API.\n- >-\n  Because there are no scopes,\
   \ treat the refresh token as a full-privilege credential for\n  the bound user and gate destructive operations in your own layer. The recommended\n  execution contracts are in agentic-access/silverpop-agentic-access.yml.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/authentication/silverpop-authentication.yml
+source_yaml_url: https://artifacts.apis.io/silverpop/authentication/silverpop-authentication.yml
 summary_line: oauth2/http · 2 schemes
 tags:
 - Email Marketing

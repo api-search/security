@@ -7,25 +7,25 @@ api_specs:
   label: Passage by 1Password Devices API
   slug: passage-1password-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passage-1password/refs/heads/main/openapi/passage-1password-devices-api-openapi.yml
+  url: https://artifacts.apis.io/passage-1password/openapi/passage-1password-devices-api-openapi.yml
 - filename: passage-1password-magic-links-api-openapi.yml
   format: yaml
   label: Passage by 1Password Magic Links API
   slug: passage-1password-magic-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passage-1password/refs/heads/main/openapi/passage-1password-magic-links-api-openapi.yml
+  url: https://artifacts.apis.io/passage-1password/openapi/passage-1password-magic-links-api-openapi.yml
 - filename: passage-1password-tokens-api-openapi.yml
   format: yaml
   label: Passage by 1Password Tokens API
   slug: passage-1password-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passage-1password/refs/heads/main/openapi/passage-1password-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/passage-1password/openapi/passage-1password-tokens-api-openapi.yml
 - filename: passage-1password-users-api-openapi.yml
   format: yaml
   label: Passage by 1Password Users API
   slug: passage-1password-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passage-1password/refs/heads/main/openapi/passage-1password-users-api-openapi.yml
+  url: https://artifacts.apis.io/passage-1password/openapi/passage-1password-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: passage-1password-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/passage-1password-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Passage Management API key, sent as: Authorization: Bearer <PASSAGE_API_KEY>'\n  sources:\n  - openapi/passage-1password-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/passage-1password/refs/heads/main/authentication/passage-1password-authentication.yml
+source_yaml_url: https://artifacts.apis.io/passage-1password/authentication/passage-1password-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Authentication

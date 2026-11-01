@@ -8,7 +8,7 @@ api_specs:
   label: Ion Group Entities API
   slug: ion-group-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ion-group/refs/heads/main/openapi/ion-group-entities-api-openapi.yml
+  url: https://artifacts.apis.io/ion-group/openapi/ion-group-entities-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -35,7 +35,7 @@ source_filename: ion-group-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ion-group-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/ion-group-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ion-group/refs/heads/main/authentication/ion-group-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ion-group/authentication/ion-group-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Analytics

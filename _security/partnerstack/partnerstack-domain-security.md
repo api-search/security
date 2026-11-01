@@ -5,31 +5,31 @@ api_specs:
   label: PartnerStack Customers API
   slug: partnerstack-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/partnerstack/refs/heads/main/openapi/partnerstack-customers-api-openapi.yml
+  url: https://artifacts.apis.io/partnerstack/openapi/partnerstack-customers-api-openapi.yml
 - filename: partnerstack-deals-api-openapi.yml
   format: yaml
   label: PartnerStack Deals API
   slug: partnerstack-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/partnerstack/refs/heads/main/openapi/partnerstack-deals-api-openapi.yml
+  url: https://artifacts.apis.io/partnerstack/openapi/partnerstack-deals-api-openapi.yml
 - filename: partnerstack-partnerships-api-openapi.yml
   format: yaml
   label: PartnerStack Partnerships API
   slug: partnerstack-partnerships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/partnerstack/refs/heads/main/openapi/partnerstack-partnerships-api-openapi.yml
+  url: https://artifacts.apis.io/partnerstack/openapi/partnerstack-partnerships-api-openapi.yml
 - filename: partnerstack-rewards-api-openapi.yml
   format: yaml
   label: PartnerStack Rewards API
   slug: partnerstack-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/partnerstack/refs/heads/main/openapi/partnerstack-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/partnerstack/openapi/partnerstack-rewards-api-openapi.yml
 - filename: partnerstack-transactions-api-openapi.yml
   format: yaml
   label: PartnerStack Transactions API
   slug: partnerstack-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/partnerstack/refs/heads/main/openapi/partnerstack-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/partnerstack/openapi/partnerstack-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: partnerstack-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: partnerstack.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 04:48:50 2026 GMT\n  hsts: false\n- host: docs.partnerstack.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 17:00:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.partnerstack.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 03:28:28 2026 GMT\n  hsts: null\ndomains:\n- domain: partnerstack.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/partnerstack/refs/heads/main/security/partnerstack-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/partnerstack/security/partnerstack-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Partnerships

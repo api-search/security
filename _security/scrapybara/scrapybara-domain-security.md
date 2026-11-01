@@ -5,49 +5,49 @@ api_specs:
   label: Scrapybara Auth States API
   slug: scrapybara-auth-states-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-auth-states-api-openapi.yml
+  url: https://artifacts.apis.io/scrapybara/openapi/scrapybara-auth-states-api-openapi.yml
 - filename: scrapybara-browser-api-openapi.yml
   format: yaml
   label: Scrapybara Browser API
   slug: scrapybara-browser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-browser-api-openapi.yml
+  url: https://artifacts.apis.io/scrapybara/openapi/scrapybara-browser-api-openapi.yml
 - filename: scrapybara-code-execution-api-openapi.yml
   format: yaml
   label: Scrapybara Code Execution API
   slug: scrapybara-code-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-code-execution-api-openapi.yml
+  url: https://artifacts.apis.io/scrapybara/openapi/scrapybara-code-execution-api-openapi.yml
 - filename: scrapybara-computer-actions-api-openapi.yml
   format: yaml
   label: Scrapybara Computer Actions API
   slug: scrapybara-computer-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-computer-actions-api-openapi.yml
+  url: https://artifacts.apis.io/scrapybara/openapi/scrapybara-computer-actions-api-openapi.yml
 - filename: scrapybara-environment-api-openapi.yml
   format: yaml
   label: Scrapybara Environment API
   slug: scrapybara-environment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-environment-api-openapi.yml
+  url: https://artifacts.apis.io/scrapybara/openapi/scrapybara-environment-api-openapi.yml
 - filename: scrapybara-filesystem-api-openapi.yml
   format: yaml
   label: Scrapybara Filesystem API
   slug: scrapybara-filesystem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-filesystem-api-openapi.yml
+  url: https://artifacts.apis.io/scrapybara/openapi/scrapybara-filesystem-api-openapi.yml
 - filename: scrapybara-instances-api-openapi.yml
   format: yaml
   label: Scrapybara Instances API
   slug: scrapybara-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-instances-api-openapi.yml
+  url: https://artifacts.apis.io/scrapybara/openapi/scrapybara-instances-api-openapi.yml
 - filename: scrapybara-notebook-api-openapi.yml
   format: yaml
   label: Scrapybara Notebook API
   slug: scrapybara-notebook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-notebook-api-openapi.yml
+  url: https://artifacts.apis.io/scrapybara/openapi/scrapybara-notebook-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -91,7 +91,7 @@ source_filename: scrapybara-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: scrapybara.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 10:42:13 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.scrapybara.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 05:40:43 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.scrapybara.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 18:03:25 2026 GMT\n  hsts: null\ndomains:\n- domain: scrapybara.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/security/scrapybara-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/scrapybara/security/scrapybara-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI Agents

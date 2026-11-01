@@ -5,25 +5,25 @@ api_specs:
   label: TheCocktailDB Filter API
   slug: thecocktaildb-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecocktaildb/refs/heads/main/openapi/thecocktaildb-filter-api-openapi.yml
+  url: https://artifacts.apis.io/thecocktaildb/openapi/thecocktaildb-filter-api-openapi.yml
 - filename: thecocktaildb-list-api-openapi.yml
   format: yaml
   label: TheCocktailDB List API
   slug: thecocktaildb-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecocktaildb/refs/heads/main/openapi/thecocktaildb-list-api-openapi.yml
+  url: https://artifacts.apis.io/thecocktaildb/openapi/thecocktaildb-list-api-openapi.yml
 - filename: thecocktaildb-lookup-api-openapi.yml
   format: yaml
   label: TheCocktailDB Lookup API
   slug: thecocktaildb-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecocktaildb/refs/heads/main/openapi/thecocktaildb-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/thecocktaildb/openapi/thecocktaildb-lookup-api-openapi.yml
 - filename: thecocktaildb-search-api-openapi.yml
   format: yaml
   label: TheCocktailDB Search API
   slug: thecocktaildb-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecocktaildb/refs/heads/main/openapi/thecocktaildb-search-api-openapi.yml
+  url: https://artifacts.apis.io/thecocktaildb/openapi/thecocktaildb-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: thecocktaildb-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.thecocktaildb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 02:18:02 2026 GMT\n  hsts: false\ndomains:\n- domain: thecocktaildb.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thecocktaildb/refs/heads/main/security/thecocktaildb-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/thecocktaildb/security/thecocktaildb-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Cocktails

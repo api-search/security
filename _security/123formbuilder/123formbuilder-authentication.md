@@ -8,31 +8,31 @@ api_specs:
   label: 123FormBuilder Accounts API
   slug: 123formbuilder-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/openapi/123formbuilder-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/123formbuilder/openapi/123formbuilder-accounts-api-openapi.yml
 - filename: 123formbuilder-forms-api-openapi.yml
   format: yaml
   label: 123FormBuilder Forms API
   slug: 123formbuilder-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/openapi/123formbuilder-forms-api-openapi.yml
+  url: https://artifacts.apis.io/123formbuilder/openapi/123formbuilder-forms-api-openapi.yml
 - filename: 123formbuilder-groups-api-openapi.yml
   format: yaml
   label: 123FormBuilder Groups API
   slug: 123formbuilder-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/openapi/123formbuilder-groups-api-openapi.yml
+  url: https://artifacts.apis.io/123formbuilder/openapi/123formbuilder-groups-api-openapi.yml
 - filename: 123formbuilder-login-api-openapi.yml
   format: yaml
   label: 123FormBuilder Login API
   slug: 123formbuilder-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/openapi/123formbuilder-login-api-openapi.yml
+  url: https://artifacts.apis.io/123formbuilder/openapi/123formbuilder-login-api-openapi.yml
 - filename: 123formbuilder-users-api-openapi.yml
   format: yaml
   label: 123FormBuilder Users API
   slug: 123formbuilder-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/openapi/123formbuilder-users-api-openapi.yml
+  url: https://artifacts.apis.io/123formbuilder/openapi/123formbuilder-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: 123formbuilder-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/123formbuilder-rest-api-v2-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: JWTQuery\n  type: apiKey\n  in: query\n  parameter: JWT\n  description: JWT token obtained from POST /token, supplied as the JWT query parameter.\n  sources:\n  - openapi/123formbuilder-rest-api-v2-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/authentication/123formbuilder-authentication.yml
+source_yaml_url: https://artifacts.apis.io/123formbuilder/authentication/123formbuilder-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Online Forms

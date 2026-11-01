@@ -7,19 +7,19 @@ api_specs:
   label: Code Ocean Capsules API
   slug: code-ocean-capsules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/openapi/code-ocean-capsules-api-openapi.yml
+  url: https://artifacts.apis.io/code-ocean/openapi/code-ocean-capsules-api-openapi.yml
 - filename: code-ocean-computations-api-openapi.yml
   format: yaml
   label: Code Ocean Computations API
   slug: code-ocean-computations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/openapi/code-ocean-computations-api-openapi.yml
+  url: https://artifacts.apis.io/code-ocean/openapi/code-ocean-computations-api-openapi.yml
 - filename: code-ocean-data-assets-api-openapi.yml
   format: yaml
   label: Code Ocean Data Assets API
   slug: code-ocean-data-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/openapi/code-ocean-data-assets-api-openapi.yml
+  url: https://artifacts.apis.io/code-ocean/openapi/code-ocean-data-assets-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: code-ocean-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/code-ocean-openapi.yml\ndocs: https://docs.codeocean.com/user-guide/code-ocean-api/authentication\nsummary:\n  types:\n  - http\n  token: scoped personal access token (prefix cop_), presented as HTTP Basic username with empty password\n  scopes_ref: scopes/code-ocean-scopes.yml\nschemes:\n- name: accessToken\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication. Provide your Code Ocean access token (prefix `cop_`)\n    as the basic-auth username with an empty password, e.g. `-u \"cop_xxxxxxxxxx:\"`.\n  sources:\n  - openapi/code-ocean-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/authentication/code-ocean-authentication.yml
+source_yaml_url: https://artifacts.apis.io/code-ocean/authentication/code-ocean-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

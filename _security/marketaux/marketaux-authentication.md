@@ -8,19 +8,19 @@ api_specs:
   label: MarketAux Entities API
   slug: marketaux-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/openapi/marketaux-entities-api-openapi.yml
+  url: https://artifacts.apis.io/marketaux/openapi/marketaux-entities-api-openapi.yml
 - filename: marketaux-news-api-openapi.yml
   format: yaml
   label: MarketAux News API
   slug: marketaux-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/openapi/marketaux-news-api-openapi.yml
+  url: https://artifacts.apis.io/marketaux/openapi/marketaux-news-api-openapi.yml
 - filename: marketaux-sources-api-openapi.yml
   format: yaml
   label: MarketAux Sources API
   slug: marketaux-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/openapi/marketaux-sources-api-openapi.yml
+  url: https://artifacts.apis.io/marketaux/openapi/marketaux-sources-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: marketaux-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-22'\nmethod: searched\nsource: openapi/marketaux-openapi.yml\ndocs: https://www.marketaux.com/documentation#authentication\nnotes: >-\n  The documentation's Authentication section confirms the single auth\n  mechanism: sign up free, find the API token on the account dashboard, and\n  add it to any endpoint as the api_token GET parameter. No OAuth, no header\n  schemes.\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiToken\n  type: apiKey\n  in: query\n  parameter: api_token\n  description: Your API token, found on your account dashboard after signing up at https://www.marketaux.com/register.\n    Passed as a GET parameter on every request.\n  sources:\n  - openapi/marketaux-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/authentication/marketaux-authentication.yml
+source_yaml_url: https://artifacts.apis.io/marketaux/authentication/marketaux-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - News

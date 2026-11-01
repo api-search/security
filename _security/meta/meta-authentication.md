@@ -7,19 +7,19 @@ api_specs:
   label: Meta Custom Audiences API
   slug: meta-custom-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/openapi/meta-custom-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/meta/openapi/meta-custom-audiences-api-openapi.yml
 - filename: meta-pages-api-openapi.yml
   format: yaml
   label: Meta Pages API
   slug: meta-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/openapi/meta-pages-api-openapi.yml
+  url: https://artifacts.apis.io/meta/openapi/meta-pages-api-openapi.yml
 - filename: meta-users-api-openapi.yml
   format: yaml
   label: Meta Users API
   slug: meta-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/openapi/meta-users-api-openapi.yml
+  url: https://artifacts.apis.io/meta/openapi/meta-users-api-openapi.yml
 auth_types:
 - oauth2
 description: Meta authenticates with OAuth 2.0 access tokens (Facebook Login). The scheme in openapi/meta-openapi.yml is oauth2 (implicit flow); the docs describe four token types below. Tokens carry granted permissions (scopes/meta-scopes.yml) and can be inspected with the Access Token Debugger.
@@ -51,7 +51,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/meta-openapi.yml\ndocs:\n  - https://developers.facebook.com/docs/facebook-login\n  - https://developers.facebook.com/docs/facebook-login/guides/access-tokens\ndescription: >-\n  Meta authenticates with OAuth 2.0 access tokens (Facebook Login). The scheme\n  in openapi/meta-openapi.yml is oauth2 (implicit flow); the docs describe four\n  token types below. Tokens carry granted permissions (scopes/meta-scopes.yml)\n  and can be inspected with the Access Token Debugger.\nsummary:\n  types:\n    - oauth2\n  oauth2_flows:\n    - implicit\n    - authorizationCode\ntoken_types:\n  - {name: User access token, use: Act on behalf of a user; short- or long-lived.}\n  - {name: Page access token, use: Act on behalf of a Page the user manages; derived from a User token.}\n  - {name: App access token, use: Server-to-server app-level calls; app_id|app_secret.}\n  - {name: Client access token, use: Limited client-side app identification.}\n\
   schemes:\n  - name: userAccessToken\n    type: oauth2\n    flows:\n      - flow: implicit\n        authorizationUrl: https://www.facebook.com/v25.0/dialog/oauth\n        scopes: 1\n    sources:\n      - openapi/meta-openapi.yml\ntools:\n  - {name: Access Token Debugger, url: https://developers.facebook.com/tools/debug/accesstoken/}\nnotes: >-\n  Passed as the access_token query parameter or an Authorization: Bearer header.\n  Long-lived user tokens (~60 days) are exchanged from short-lived tokens.\n  Server-side calls should include appsecret_proof. See scopes/meta-scopes.yml\n  for permissions.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/authentication/meta-authentication.yml
+source_yaml_url: https://artifacts.apis.io/meta/authentication/meta-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Meta

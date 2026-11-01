@@ -5,49 +5,49 @@ api_specs:
   label: Parade Available Trucks API
   slug: parade-available-trucks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/openapi/parade-available-trucks-api-openapi.yml
+  url: https://artifacts.apis.io/parade/openapi/parade-available-trucks-api-openapi.yml
 - filename: parade-bookings-api-openapi.yml
   format: yaml
   label: Parade Bookings API
   slug: parade-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/openapi/parade-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/parade/openapi/parade-bookings-api-openapi.yml
 - filename: parade-carrier-onboarding-status-api-openapi.yml
   format: yaml
   label: Parade Carrier Onboarding Status API
   slug: parade-carrier-onboarding-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/openapi/parade-carrier-onboarding-status-api-openapi.yml
+  url: https://artifacts.apis.io/parade/openapi/parade-carrier-onboarding-status-api-openapi.yml
 - filename: parade-carrier-synchronization-api-openapi.yml
   format: yaml
   label: Parade Carrier Synchronization API
   slug: parade-carrier-synchronization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/openapi/parade-carrier-synchronization-api-openapi.yml
+  url: https://artifacts.apis.io/parade/openapi/parade-carrier-synchronization-api-openapi.yml
 - filename: parade-digital-conversion-api-openapi.yml
   format: yaml
   label: Parade Digital Conversion API
   slug: parade-digital-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/openapi/parade-digital-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/parade/openapi/parade-digital-conversion-api-openapi.yml
 - filename: parade-load-synchronization-api-openapi.yml
   format: yaml
   label: Parade Load Synchronization API
   slug: parade-load-synchronization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/openapi/parade-load-synchronization-api-openapi.yml
+  url: https://artifacts.apis.io/parade/openapi/parade-load-synchronization-api-openapi.yml
 - filename: parade-quotes-api-openapi.yml
   format: yaml
   label: Parade Quotes API
   slug: parade-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/openapi/parade-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/parade/openapi/parade-quotes-api-openapi.yml
 - filename: parade-search-api-openapi.yml
   format: yaml
   label: Parade Search API
   slug: parade-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/openapi/parade-search-api-openapi.yml
+  url: https://artifacts.apis.io/parade/openapi/parade-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -87,7 +87,7 @@ source_filename: parade-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: parade.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 23:53:34 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.capacity.stage.parade.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 11:21:37 2026 GMT\n  hsts: false\n- host: api.syndication.stage.parade.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 15:09:01 2026 GMT\n  hsts: null\ndomains:\n- domain: parade.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/security/parade-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/parade/security/parade-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

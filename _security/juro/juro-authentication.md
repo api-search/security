@@ -7,31 +7,31 @@ api_specs:
   label: Juro Contracts API
   slug: juro-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/juro/refs/heads/main/openapi/juro-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/juro/openapi/juro-contracts-api-openapi.yml
 - filename: juro-health-api-openapi.yml
   format: yaml
   label: Juro Health API
   slug: juro-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/juro/refs/heads/main/openapi/juro-health-api-openapi.yml
+  url: https://artifacts.apis.io/juro/openapi/juro-health-api-openapi.yml
 - filename: juro-signatures-api-openapi.yml
   format: yaml
   label: Juro Signatures API
   slug: juro-signatures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/juro/refs/heads/main/openapi/juro-signatures-api-openapi.yml
+  url: https://artifacts.apis.io/juro/openapi/juro-signatures-api-openapi.yml
 - filename: juro-templates-api-openapi.yml
   format: yaml
   label: Juro Templates API
   slug: juro-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/juro/refs/heads/main/openapi/juro-templates-api-openapi.yml
+  url: https://artifacts.apis.io/juro/openapi/juro-templates-api-openapi.yml
 - filename: juro-webhooks-api-openapi.yml
   format: yaml
   label: Juro Webhooks API
   slug: juro-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/juro/refs/heads/main/openapi/juro-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/juro/openapi/juro-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -62,12 +62,11 @@ source_filename: juro-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/juro-openapi.yml\nsummary:\n  types:\n  - apiKey\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  keyName: x-api-key\n  scheme: api-key\n  description: 'API key generated in the Juro app under Settings > Integrations > API\n    (also referred to as the Connectors hub). Sent on every request as the `x-api-key`\n    header. API access is plan-gated - it is included with a Juro subscription and\n    enabled through your Customer Success Manager. A sandbox key/environment is\n    available at https://api-sandbox.juro.io/v3.'\n  sources:\n  - openapi/juro-openapi.yml\n  - https://api-docs.juro.com/\n  - https://intercom.help/juro/en/articles/8075637-working-with-juro-s-api\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/juro/refs/heads/main/authentication/juro-authentication.yml
+source_yaml_url: https://artifacts.apis.io/juro/authentication/juro-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Contract Management
 - Contract Lifecycle Management
-- Contract Lifecycle
 - Contract Automation
 - Legal
 - Legal Tech

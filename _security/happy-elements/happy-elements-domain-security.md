@@ -23,7 +23,7 @@ source_filename: happy-elements-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: en.happyelements.com\n  https: false\ndomains:\n- domain: happyelements.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/happy-elements/refs/heads/main/security/happy-elements-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/happy-elements/security/happy-elements-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

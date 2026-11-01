@@ -16,7 +16,7 @@ source_filename: wheel-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://www.wheel.com/security-compliance\nurl: https://www.wheel.com/security-compliance\ncertifications:\n- SOC 2\n- HIPAA\nnotes: >-\n  Wheel publishes a Security & Compliance page stating the platform maintains\n  SOC 2 controls and is HIPAA compliant for handling protected health\n  information (PHI). No standalone trust portal (e.g. trust.wheel.com) is\n  published; the security-compliance marketing page is the public posture.\nevidence:\n- source: https://www.wheel.com/security-compliance\n  keywords:\n  - soc 2\n  - hipaa\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wheel/refs/heads/main/security/wheel-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/wheel/security/wheel-trust-center.yml
 summary_line: SOC 2, HIPAA
 tags:
 - Company

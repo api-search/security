@@ -8,61 +8,61 @@ api_specs:
   label: Teachable Courses API
   slug: teachable-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/openapi/teachable-courses-api-openapi.yml
+  url: https://artifacts.apis.io/teachable/openapi/teachable-courses-api-openapi.yml
 - filename: teachable-enrollments-api-openapi.yml
   format: yaml
   label: Teachable Enrollments API
   slug: teachable-enrollments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/openapi/teachable-enrollments-api-openapi.yml
+  url: https://artifacts.apis.io/teachable/openapi/teachable-enrollments-api-openapi.yml
 - filename: teachable-lectures-api-openapi.yml
   format: yaml
   label: Teachable Lectures API
   slug: teachable-lectures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/openapi/teachable-lectures-api-openapi.yml
+  url: https://artifacts.apis.io/teachable/openapi/teachable-lectures-api-openapi.yml
 - filename: teachable-quizzes-api-openapi.yml
   format: yaml
   label: Teachable Quizzes API
   slug: teachable-quizzes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/openapi/teachable-quizzes-api-openapi.yml
+  url: https://artifacts.apis.io/teachable/openapi/teachable-quizzes-api-openapi.yml
 - filename: teachable-transactions-api-openapi.yml
   format: yaml
   label: Teachable Transactions API
   slug: teachable-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/openapi/teachable-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/teachable/openapi/teachable-transactions-api-openapi.yml
 - filename: teachable-users-api-openapi.yml
   format: yaml
   label: Teachable Users API
   slug: teachable-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/openapi/teachable-users-api-openapi.yml
+  url: https://artifacts.apis.io/teachable/openapi/teachable-users-api-openapi.yml
 - filename: teachable-videos-api-openapi.yml
   format: yaml
   label: Teachable Videos API
   slug: teachable-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/openapi/teachable-videos-api-openapi.yml
+  url: https://artifacts.apis.io/teachable/openapi/teachable-videos-api-openapi.yml
 - filename: teachable-webhooks-api-openapi.yml
   format: yaml
   label: Teachable Webhooks API
   slug: teachable-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/openapi/teachable-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/teachable/openapi/teachable-webhooks-api-openapi.yml
 - filename: teachable-current-user-api-openapi.yml
   format: yaml
   label: Teachable Current User API
   slug: teachable-current-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/openapi/teachable-current-user-api-openapi.yml
+  url: https://artifacts.apis.io/teachable/openapi/teachable-current-user-api-openapi.yml
 - filename: teachable-pricing-plans-api-openapi.yml
   format: yaml
   label: Teachable Pricing Plans API
   slug: teachable-pricing-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/openapi/teachable-pricing-plans-api-openapi.yml
+  url: https://artifacts.apis.io/teachable/openapi/teachable-pricing-plans-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -108,7 +108,7 @@ source_filename: teachable-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/teachable-admin-openapi.yml, openapi/teachable-oauth-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: apiKey\n  description: API key for Admin API authentication. Available on Growth plan and above.\n  sources:\n  - openapi/teachable-admin-openapi.yml\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://developers.teachable.com/oauth/authorize\n    tokenUrl: https://developers.teachable.com/oauth/token\n    scopes: 4\n  sources:\n  - openapi/teachable-oauth-openapi.yml\n- name: AccessToken\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Bearer access token for OAuth authenticated requests.\n  sources:\n  - openapi/teachable-oauth-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/authentication/teachable-authentication.yml
+source_yaml_url: https://artifacts.apis.io/teachable/authentication/teachable-authentication.yml
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - Online Courses

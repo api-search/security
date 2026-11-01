@@ -26,7 +26,7 @@ source_filename: jiademin2688-top-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aicity.jiademin2688.top\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 01:58:05 2026 GMT\n  hsts: false\ndomains:\n- domain: jiademin2688.top\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jiademin2688-top/refs/heads/main/security/jiademin2688-top-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/jiademin2688-top/security/jiademin2688-top-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - AI Agents

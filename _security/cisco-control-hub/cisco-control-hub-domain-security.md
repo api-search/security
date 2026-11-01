@@ -5,43 +5,43 @@ api_specs:
   label: Cisco Control Hub Devices API
   slug: cisco-control-hub-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/openapi/cisco-control-hub-devices-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-control-hub/openapi/cisco-control-hub-devices-api-openapi.yml
 - filename: cisco-control-hub-licenses-api-openapi.yml
   format: yaml
   label: Cisco Control Hub Licenses API
   slug: cisco-control-hub-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/openapi/cisco-control-hub-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-control-hub/openapi/cisco-control-hub-licenses-api-openapi.yml
 - filename: cisco-control-hub-locations-api-openapi.yml
   format: yaml
   label: Cisco Control Hub Locations API
   slug: cisco-control-hub-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/openapi/cisco-control-hub-locations-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-control-hub/openapi/cisco-control-hub-locations-api-openapi.yml
 - filename: cisco-control-hub-organizations-api-openapi.yml
   format: yaml
   label: Cisco Control Hub Organizations API
   slug: cisco-control-hub-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/openapi/cisco-control-hub-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-control-hub/openapi/cisco-control-hub-organizations-api-openapi.yml
 - filename: cisco-control-hub-people-api-openapi.yml
   format: yaml
   label: Cisco Control Hub People API
   slug: cisco-control-hub-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/openapi/cisco-control-hub-people-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-control-hub/openapi/cisco-control-hub-people-api-openapi.yml
 - filename: cisco-control-hub-workspaces-api-openapi.yml
   format: yaml
   label: Cisco Control Hub Workspaces API
   slug: cisco-control-hub-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/openapi/cisco-control-hub-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-control-hub/openapi/cisco-control-hub-workspaces-api-openapi.yml
 - filename: cisco-control-hub-admin-audit-events-api-openapi.yml
   format: yaml
   label: Cisco Control Hub Admin Audit Events API
   slug: cisco-control-hub-admin-audit-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/openapi/cisco-control-hub-admin-audit-events-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-control-hub/openapi/cisco-control-hub-admin-audit-events-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -87,7 +87,7 @@ source_filename: cisco-control-hub-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.webex.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 21 09:08:54 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: webexapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 21 08:51:15 2026 GMT\n  hsts: null\ndomains:\n- domain: webex.com\n  dnssec: false\n  caa:\n  - 128 issuewild \"identrust.com\"\n  - 128 iodef \"mailto:infosec@cisco.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: webexapis.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/security/cisco-control-hub-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cisco-control-hub/security/cisco-control-hub-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Administration

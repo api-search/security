@@ -8,79 +8,79 @@ api_specs:
   label: The Mobile First Company Analytics API
   slug: the-mobile-first-company-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/openapi/the-mobile-first-company-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/the-mobile-first-company/openapi/the-mobile-first-company-analytics-api-openapi.yml
 - filename: the-mobile-first-company-calls-api-openapi.yml
   format: yaml
   label: The Mobile First Company Calls API
   slug: the-mobile-first-company-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/openapi/the-mobile-first-company-calls-api-openapi.yml
+  url: https://artifacts.apis.io/the-mobile-first-company/openapi/the-mobile-first-company-calls-api-openapi.yml
 - filename: the-mobile-first-company-contacts-api-openapi.yml
   format: yaml
   label: The Mobile First Company Contacts API
   slug: the-mobile-first-company-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/openapi/the-mobile-first-company-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/the-mobile-first-company/openapi/the-mobile-first-company-contacts-api-openapi.yml
 - filename: the-mobile-first-company-conversations-api-openapi.yml
   format: yaml
   label: The Mobile First Company Conversations API
   slug: the-mobile-first-company-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/openapi/the-mobile-first-company-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/the-mobile-first-company/openapi/the-mobile-first-company-conversations-api-openapi.yml
 - filename: the-mobile-first-company-crm-api-openapi.yml
   format: yaml
   label: The Mobile First Company CRM API
   slug: the-mobile-first-company-crm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/openapi/the-mobile-first-company-crm-api-openapi.yml
+  url: https://artifacts.apis.io/the-mobile-first-company/openapi/the-mobile-first-company-crm-api-openapi.yml
 - filename: the-mobile-first-company-partner-api-openapi.yml
   format: yaml
   label: The Mobile First Company Partner API
   slug: the-mobile-first-company-partner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/openapi/the-mobile-first-company-partner-api-openapi.yml
+  url: https://artifacts.apis.io/the-mobile-first-company/openapi/the-mobile-first-company-partner-api-openapi.yml
 - filename: the-mobile-first-company-phone-numbers-api-openapi.yml
   format: yaml
   label: The Mobile First Company Phone Numbers API
   slug: the-mobile-first-company-phone-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/openapi/the-mobile-first-company-phone-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/the-mobile-first-company/openapi/the-mobile-first-company-phone-numbers-api-openapi.yml
 - filename: the-mobile-first-company-power-dialer-api-openapi.yml
   format: yaml
   label: The Mobile First Company Power Dialer API
   slug: the-mobile-first-company-power-dialer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/openapi/the-mobile-first-company-power-dialer-api-openapi.yml
+  url: https://artifacts.apis.io/the-mobile-first-company/openapi/the-mobile-first-company-power-dialer-api-openapi.yml
 - filename: the-mobile-first-company-sms-api-openapi.yml
   format: yaml
   label: The Mobile First Company SMS API
   slug: the-mobile-first-company-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/openapi/the-mobile-first-company-sms-api-openapi.yml
+  url: https://artifacts.apis.io/the-mobile-first-company/openapi/the-mobile-first-company-sms-api-openapi.yml
 - filename: the-mobile-first-company-summary-templates-api-openapi.yml
   format: yaml
   label: The Mobile First Company Summary Templates API
   slug: the-mobile-first-company-summary-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/openapi/the-mobile-first-company-summary-templates-api-openapi.yml
+  url: https://artifacts.apis.io/the-mobile-first-company/openapi/the-mobile-first-company-summary-templates-api-openapi.yml
 - filename: the-mobile-first-company-tags-api-openapi.yml
   format: yaml
   label: The Mobile First Company Tags API
   slug: the-mobile-first-company-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/openapi/the-mobile-first-company-tags-api-openapi.yml
+  url: https://artifacts.apis.io/the-mobile-first-company/openapi/the-mobile-first-company-tags-api-openapi.yml
 - filename: the-mobile-first-company-users-api-openapi.yml
   format: yaml
   label: The Mobile First Company Users API
   slug: the-mobile-first-company-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/openapi/the-mobile-first-company-users-api-openapi.yml
+  url: https://artifacts.apis.io/the-mobile-first-company/openapi/the-mobile-first-company-users-api-openapi.yml
 - filename: the-mobile-first-company-webhooks-api-openapi.yml
   format: yaml
   label: The Mobile First Company Webhooks API
   slug: the-mobile-first-company-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/openapi/the-mobile-first-company-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/the-mobile-first-company/openapi/the-mobile-first-company-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -126,7 +126,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\ndocs: https://help.withallo.com/en/v2/api-reference/guides/authentication\nsource: >-\n  openapi/the-mobile-first-company-allo-openapi.json securitySchemes +\n  Allo authentication guide + OAuth authorization-server metadata\napi: Allo API\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\nprimary: api_key\ndescription: >-\n  Every Allo API request requires authentication in the Authorization header.\n  The primary method is a scoped API key (Settings > API) sent as\n  `Authorization: Api-Key ak_live_<key>`. OAuth 2.0 is additionally supported\n  for OAuth clients and the hosted MCP server (authorization server\n  api.withallo.com). API access is not available on trial plans.\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  format: 'Api-Key ak_live_<key>'\n  description: >-\n    Scoped API key. Live keys use the ak_live_ prefix. Keys are scoped to a\n    single team, can\
   \ be revoked at any time, and carry one or more of the scopes\n    in scopes/the-mobile-first-company-scopes.yml. Per-endpoint scope\n    requirements are documented in the authentication guide's scope-to-endpoint\n    mapping.\n  sources:\n  - openapi/the-mobile-first-company-allo-openapi.json\n  - https://help.withallo.com/en/v2/api-reference/guides/authentication\n- name: OAuth2\n  type: oauth2\n  flows:\n  - authorization_code (PKCE S256)\n  - client_credentials\n  - refresh_token\n  authorization_endpoint: https://api.withallo.com/v1/oauth/authorize\n  token_endpoint: https://api.withallo.com/v1/oauth/token\n  revocation_endpoint: https://api.withallo.com/v1/oauth/revoke\n  description: >-\n    OAuth 2.0 (RFC 8414 metadata at\n    well-known/the-mobile-first-company-oauth-authorization-server.json). Used by\n    the Claude Connector and other OAuth clients; the hosted MCP server is an\n    OAuth protected resource against this authorization server.\n  sources:\n  - well-known/the-mobile-first-company-oauth-authorization-server.json\n\
   \  - https://www.withallo.com/mcp\nspec_scheme_aliases:\n  note: >-\n    The spec also exposes scope-specific apiKey scheme aliases, all sent in the\n    Authorization header and differing only by the scope the key must carry.\n  aliases:\n  - name: CallsAuth\n    scope: CONVERSATIONS_READ\n  - name: ContactsAuth\n    scope: CONTACTS_READ\n  - name: ContactsWriteAuth\n    scope: CONTACTS_READ_WRITE\n  - name: SmsAuth\n    scope: SMS_SEND\nerrors:\n  invalid_key:\n    status: 401\n    code: API_KEY_INVALID\n  insufficient_scope:\n    status: 403\n    code: API_KEY_INSUFFICIENT_SCOPE\n  trial_not_allowed:\n    status: 403\n    code: API_KEY_TRIAL_NOT_ALLOWED\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/authentication/the-mobile-first-company-authentication.yml
+source_yaml_url: https://artifacts.apis.io/the-mobile-first-company/authentication/the-mobile-first-company-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company

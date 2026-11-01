@@ -7,37 +7,37 @@ api_specs:
   label: Candis Core Data API
   slug: candis-core-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/candis/refs/heads/main/openapi/candis-core-data-api-openapi.yml
+  url: https://artifacts.apis.io/candis/openapi/candis-core-data-api-openapi.yml
 - filename: candis-exports-api-openapi.yml
   format: yaml
   label: Candis Exports API
   slug: candis-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/candis/refs/heads/main/openapi/candis-exports-api-openapi.yml
+  url: https://artifacts.apis.io/candis/openapi/candis-exports-api-openapi.yml
 - filename: candis-invoices-api-openapi.yml
   format: yaml
   label: Candis Invoices API
   slug: candis-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/candis/refs/heads/main/openapi/candis-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/candis/openapi/candis-invoices-api-openapi.yml
 - filename: candis-organizations-api-openapi.yml
   format: yaml
   label: Candis Organizations API
   slug: candis-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/candis/refs/heads/main/openapi/candis-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/candis/openapi/candis-organizations-api-openapi.yml
 - filename: candis-purchase-requests-api-openapi.yml
   format: yaml
   label: Candis Purchase Requests API
   slug: candis-purchase-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/candis/refs/heads/main/openapi/candis-purchase-requests-api-openapi.yml
+  url: https://artifacts.apis.io/candis/openapi/candis-purchase-requests-api-openapi.yml
 - filename: candis-reimbursements-api-openapi.yml
   format: yaml
   label: Candis Reimbursements API
   slug: candis-reimbursements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/candis/refs/heads/main/openapi/candis-reimbursements-api-openapi.yml
+  url: https://artifacts.apis.io/candis/openapi/candis-reimbursements-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -106,7 +106,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://developer.candis.io/docs/how-to-authenticate\ndocs:\n- https://developer.candis.io/docs/authentication-overview\n- https://developer.candis.io/docs/how-to-authenticate\n- https://developer.candis.io/docs/token-exchange\n- https://developer.candis.io/docs/access-token-scopes\noidc_discovery: https://id.my.candis.io/auth/realms/candis/.well-known/openid-configuration\nsummary:\n  types: [oauth2, openIdConnect]\n  primary: oauth2\n  api_key_in: []\n  oauth2_flows: [authorizationCode, clientCredentials, tokenExchange]\n  token_transport: Authorization Bearer header\n  authorization_server: Keycloak (realm \"candis\")\nschemes:\n- name: oauth2\n  type: oauth2\n  identity_provider: Keycloak\n  issuer: https://id.my.candis.io/auth/realms/candis\n  client_authentication: HTTP Basic (client_id:client_secret, base64-encoded)\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://id.my.candis.io/auth/realms/candis/protocol/openid-connect/auth\n\
   \    tokenUrl: https://id.my.candis.io/auth/realms/candis/protocol/openid-connect/token\n    notes: >-\n      User is redirected to consent and select an organization; authorization code is\n      short-lived (expires in ~30-50 seconds) and exchanged for access + refresh tokens.\n      Redirect URIs must be whitelisted by Candis. Desktop/limited-webserver clients use\n      the out-of-band redirect https://my.candis.io/authentication_code.\n  - flow: clientCredentials\n    tokenUrl: https://id.my.candis.io/auth/realms/candis/protocol/openid-connect/token\n    notes: Supported by the authorization server for service accounts (service_account scope).\n  - flow: tokenExchange\n    grant_type: urn:ietf:params:oauth:grant-type:token-exchange\n    tokenUrl: https://id.my.candis.io/auth/realms/candis/protocol/openid-connect/token\n    docs: https://developer.candis.io/docs/token-exchange\n  token_lifetimes:\n    access_token_seconds_example: 1209600\n    refresh_token_seconds_example: 15551995\n\
   \    offline_access: >-\n      Including the offline_access scope yields long-lived tokens (validity up to ~6-24\n      months) for background/long-running services.\n  grant_types_supported:\n  - authorization_code\n  - client_credentials\n  - implicit\n  - password\n  - refresh_token\n  - urn:ietf:params:oauth:grant-type:device_code\n  - urn:ietf:params:oauth:grant-type:jwt-bearer\n  - urn:ietf:params:oauth:grant-type:token-exchange\n  - urn:ietf:params:oauth:grant-type:uma-ticket\n  - urn:openid:params:grant-type:ciba\n  sources:\n  - https://developer.candis.io/docs/how-to-authenticate\n  - well-known/candis-openid-configuration.json\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  applies_to: https://api.candis.io/v1/organizations/*\n  notes: >-\n    All Candis resource API requests carry the OAuth access token as an\n    \"Authorization: Bearer {access_token}\" header.\n  sources:\n  - openapi/candis-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/candis/refs/heads/main/authentication/candis-authentication.yml
+source_yaml_url: https://artifacts.apis.io/candis/authentication/candis-authentication.yml
 summary_line: oauth2/openIdConnect · 2 schemes
 tags:
 - Company

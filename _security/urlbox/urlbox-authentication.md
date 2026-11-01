@@ -7,25 +7,25 @@ api_specs:
   label: Urlbox Render API
   slug: urlbox-render-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urlbox/refs/heads/main/openapi/urlbox-render-api-openapi.yml
+  url: https://artifacts.apis.io/urlbox/openapi/urlbox-render-api-openapi.yml
 - filename: urlbox-render-links-api-openapi.yml
   format: yaml
   label: Urlbox Render Links API
   slug: urlbox-render-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urlbox/refs/heads/main/openapi/urlbox-render-links-api-openapi.yml
+  url: https://artifacts.apis.io/urlbox/openapi/urlbox-render-links-api-openapi.yml
 - filename: urlbox-status-api-openapi.yml
   format: yaml
   label: Urlbox Status API
   slug: urlbox-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urlbox/refs/heads/main/openapi/urlbox-status-api-openapi.yml
+  url: https://artifacts.apis.io/urlbox/openapi/urlbox-status-api-openapi.yml
 - filename: urlbox-usage-api-openapi.yml
   format: yaml
   label: Urlbox Usage API
   slug: urlbox-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urlbox/refs/heads/main/openapi/urlbox-usage-api-openapi.yml
+  url: https://artifacts.apis.io/urlbox/openapi/urlbox-usage-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: urlbox-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/urlbox-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Project secret key supplied as a Bearer token in the Authorization header.\n  sources:\n  - openapi/urlbox-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/urlbox/refs/heads/main/authentication/urlbox-authentication.yml
+source_yaml_url: https://artifacts.apis.io/urlbox/authentication/urlbox-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Screenshots

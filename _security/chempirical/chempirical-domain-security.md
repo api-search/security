@@ -5,25 +5,25 @@ api_specs:
   label: Chempirical Chempirical (Nitramine) API
   slug: chempirical-chempirical-nitramine-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chempirical/refs/heads/main/openapi/chempirical-chempirical-nitramine-api-api-openapi.yml
+  url: https://artifacts.apis.io/chempirical/openapi/chempirical-chempirical-nitramine-api-api-openapi.yml
 - filename: chempirical-molecule-svg-api-openapi.yml
   format: yaml
   label: Chempirical Molecule Svg API
   slug: chempirical-molecule-svg-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chempirical/refs/heads/main/openapi/chempirical-molecule-svg-api-openapi.yml
+  url: https://artifacts.apis.io/chempirical/openapi/chempirical-molecule-svg-api-openapi.yml
 - filename: chempirical-molecules-api-openapi.yml
   format: yaml
   label: Chempirical Molecules API
   slug: chempirical-molecules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chempirical/refs/heads/main/openapi/chempirical-molecules-api-openapi.yml
+  url: https://artifacts.apis.io/chempirical/openapi/chempirical-molecules-api-openapi.yml
 - filename: chempirical-reactions-api-openapi.yml
   format: yaml
   label: Chempirical Reactions API
   slug: chempirical-reactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chempirical/refs/heads/main/openapi/chempirical-reactions-api-openapi.yml
+  url: https://artifacts.apis.io/chempirical/openapi/chempirical-reactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: chempirical-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: chempirical.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 20 06:33:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: chempirical.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chempirical/refs/heads/main/security/chempirical-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/chempirical/security/chempirical-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

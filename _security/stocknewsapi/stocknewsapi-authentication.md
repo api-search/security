@@ -25,7 +25,7 @@ source_filename: stocknewsapi-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-20'\nmethod: searched\nsource: https://stocknewsapi.com/documentation\nschemes:\n- type: apiKey\n  name: token\n  in: query\n  description: API token required for all requests, passed as a query parameter\n  docs: https://stocknewsapi.com/documentation"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stocknewsapi/refs/heads/main/authentication/stocknewsapi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/stocknewsapi/authentication/stocknewsapi-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company

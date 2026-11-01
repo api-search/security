@@ -7,19 +7,19 @@ api_specs:
   label: Smallest AI Streaming API
   slug: smallest-ai-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smallest-ai/refs/heads/main/openapi/smallest-ai-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/smallest-ai/openapi/smallest-ai-streaming-api-openapi.yml
 - filename: smallest-ai-text-to-speech-api-openapi.yml
   format: yaml
   label: Smallest AI Text to Speech API
   slug: smallest-ai-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smallest-ai/refs/heads/main/openapi/smallest-ai-text-to-speech-api-openapi.yml
+  url: https://artifacts.apis.io/smallest-ai/openapi/smallest-ai-text-to-speech-api-openapi.yml
 - filename: smallest-ai-voices-api-openapi.yml
   format: yaml
   label: Smallest AI Voices API
   slug: smallest-ai-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smallest-ai/refs/heads/main/openapi/smallest-ai-voices-api-openapi.yml
+  url: https://artifacts.apis.io/smallest-ai/openapi/smallest-ai-voices-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: smallest-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/smallest-ai-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Pass your Waves API key as a Bearer token in the Authorization header: `Authorization:\n    Bearer <SMALLEST_API_KEY>`.'\n  sources:\n  - openapi/smallest-ai-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smallest-ai/refs/heads/main/authentication/smallest-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/smallest-ai/authentication/smallest-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

@@ -7,25 +7,25 @@ api_specs:
   label: Soda Health Docs API
   slug: soda-health-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/openapi/soda-health-docs-api-openapi.yml
+  url: https://artifacts.apis.io/soda-health/openapi/soda-health-docs-api-openapi.yml
 - filename: soda-health-docs-auth-api-openapi.yml
   format: yaml
   label: Soda Health Docs Auth API
   slug: soda-health-docs-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/openapi/soda-health-docs-auth-api-openapi.yml
+  url: https://artifacts.apis.io/soda-health/openapi/soda-health-docs-auth-api-openapi.yml
 - filename: soda-health-evermore-docs-portal-api-openapi.yml
   format: yaml
   label: Soda Health Evermore Docs Portal API
   slug: soda-health-evermore-docs-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/openapi/soda-health-evermore-docs-portal-api-openapi.yml
+  url: https://artifacts.apis.io/soda-health/openapi/soda-health-evermore-docs-portal-api-openapi.yml
 - filename: soda-health-health-api-openapi.yml
   format: yaml
   label: Soda Health API
   slug: soda-health-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/openapi/soda-health-health-api-openapi.yml
+  url: https://artifacts.apis.io/soda-health/openapi/soda-health-health-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -51,7 +51,7 @@ source_filename: soda-health-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/soda-health-docs-portal-openapi-original.json\nsummary:\n  types:\n  - http\nschemes:\n- name: HTTPBearer\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/soda-health-docs-portal-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/authentication/soda-health-authentication.yml
+source_yaml_url: https://artifacts.apis.io/soda-health/authentication/soda-health-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

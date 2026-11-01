@@ -5,13 +5,13 @@ api_specs:
   label: The Color API Colors API
   slug: the-color-api-colors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-color-api/refs/heads/main/openapi/the-color-api-colors-api-openapi.yml
+  url: https://artifacts.apis.io/the-color-api/openapi/the-color-api-colors-api-openapi.yml
 - filename: the-color-api-schemes-api-openapi.yml
   format: yaml
   label: The Color API Schemes API
   slug: the-color-api-schemes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-color-api/refs/heads/main/openapi/the-color-api-schemes-api-openapi.yml
+  url: https://artifacts.apis.io/the-color-api/openapi/the-color-api-schemes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,7 +39,7 @@ source_filename: the-color-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.thecolorapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 12 01:38:54 2026 GMT\n  hsts: false\ndomains:\n- domain: thecolorapi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-color-api/refs/heads/main/security/the-color-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/the-color-api/security/the-color-api-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Colors

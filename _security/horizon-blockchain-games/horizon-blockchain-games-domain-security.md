@@ -5,31 +5,31 @@ api_specs:
   label: Horizon Blockchain Games Analytics API
   slug: horizon-blockchain-games-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/openapi/horizon-blockchain-games-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/horizon-blockchain-games/openapi/horizon-blockchain-games-analytics-api-openapi.yml
 - filename: horizon-blockchain-games-marketplace-api-openapi.yml
   format: yaml
   label: Horizon Blockchain Games Marketplace API
   slug: horizon-blockchain-games-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/openapi/horizon-blockchain-games-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/horizon-blockchain-games/openapi/horizon-blockchain-games-marketplace-api-openapi.yml
 - filename: horizon-blockchain-games-public-api-openapi.yml
   format: yaml
   label: Horizon Blockchain Games Public API
   slug: horizon-blockchain-games-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/openapi/horizon-blockchain-games-public-api-openapi.yml
+  url: https://artifacts.apis.io/horizon-blockchain-games/openapi/horizon-blockchain-games-public-api-openapi.yml
 - filename: horizon-blockchain-games-rpc-api-openapi.yml
   format: yaml
   label: Horizon Blockchain Games Rpc API
   slug: horizon-blockchain-games-rpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/openapi/horizon-blockchain-games-rpc-api-openapi.yml
+  url: https://artifacts.apis.io/horizon-blockchain-games/openapi/horizon-blockchain-games-rpc-api-openapi.yml
 - filename: horizon-blockchain-games-secret-api-openapi.yml
   format: yaml
   label: Horizon Blockchain Games Secret API
   slug: horizon-blockchain-games-secret-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/openapi/horizon-blockchain-games-secret-api-openapi.yml
+  url: https://artifacts.apis.io/horizon-blockchain-games/openapi/horizon-blockchain-games-secret-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -74,7 +74,7 @@ source_filename: horizon-blockchain-games-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: horizongames.net\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep  9 08:30:39 2026 GMT\n  hsts: false\n- host: api.sequence.app\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 30 23:17:27 2026 GMT\n  hsts: null\n- host: amoy-indexer.sequence.app\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 30 23:17:27 2026 GMT\n  hsts: null\ndomains:\n- domain: horizongames.net\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: sequence.app\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/security/horizon-blockchain-games-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/horizon-blockchain-games/security/horizon-blockchain-games-domain-security.yml
 summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
 - Company

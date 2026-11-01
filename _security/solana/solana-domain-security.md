@@ -5,37 +5,37 @@ api_specs:
   label: Solana Accounts API
   slug: solana-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/openapi/solana-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/solana/openapi/solana-accounts-api-openapi.yml
 - filename: solana-blocks-api-openapi.yml
   format: yaml
   label: Solana Blocks API
   slug: solana-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/openapi/solana-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/solana/openapi/solana-blocks-api-openapi.yml
 - filename: solana-cluster-api-openapi.yml
   format: yaml
   label: Solana Cluster API
   slug: solana-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/openapi/solana-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/solana/openapi/solana-cluster-api-openapi.yml
 - filename: solana-economics-api-openapi.yml
   format: yaml
   label: Solana Economics API
   slug: solana-economics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/openapi/solana-economics-api-openapi.yml
+  url: https://artifacts.apis.io/solana/openapi/solana-economics-api-openapi.yml
 - filename: solana-tokens-api-openapi.yml
   format: yaml
   label: Solana Tokens API
   slug: solana-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/openapi/solana-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/solana/openapi/solana-tokens-api-openapi.yml
 - filename: solana-transactions-api-openapi.yml
   format: yaml
   label: Solana Transactions API
   slug: solana-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/openapi/solana-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/solana/openapi/solana-transactions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -81,7 +81,7 @@ source_filename: solana-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: solana.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 13:01:46 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.mainnet.solana.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 23:59:59 2026 GMT\n  hsts: false\n- host: api.devnet.solana.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: solana.com\n  dnssec: true\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/security/solana-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/solana/security/solana-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Solana

@@ -26,7 +26,7 @@ source_filename: dados-sc-gov-br-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dados.sc.gov.br\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep  1 02:07:33 2026 GMT\n  hsts: false\ndomains:\n- domain: sc.gov.br\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dados-sc-gov-br/refs/heads/main/security/dados-sc-gov-br-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dados-sc-gov-br/security/dados-sc-gov-br-domain-security.yml
 summary_line: TLSv1.2 · DNSSEC
 tags:
 - Open Data

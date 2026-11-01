@@ -8,109 +8,109 @@ api_specs:
   label: Polycode Admin API
   slug: polycode-co-uk-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-admin-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-admin-api-openapi.yml
 - filename: polycode-co-uk-budget-api-openapi.yml
   format: yaml
   label: Polycode Budget API
   slug: polycode-co-uk-budget-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-budget-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-budget-api-openapi.yml
 - filename: polycode-co-uk-chat-api-openapi.yml
   format: yaml
   label: Polycode Chat API
   slug: polycode-co-uk-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-chat-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-chat-api-openapi.yml
 - filename: polycode-co-uk-diverts-api-openapi.yml
   format: yaml
   label: Polycode Diverts API
   slug: polycode-co-uk-diverts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-diverts-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-diverts-api-openapi.yml
 - filename: polycode-co-uk-flag-api-openapi.yml
   format: yaml
   label: Polycode Flag API
   slug: polycode-co-uk-flag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-flag-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-flag-api-openapi.yml
 - filename: polycode-co-uk-graph-api-openapi.yml
   format: yaml
   label: Polycode Graph API
   slug: polycode-co-uk-graph-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-graph-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-graph-api-openapi.yml
 - filename: polycode-co-uk-graphs-api-openapi.yml
   format: yaml
   label: Polycode Graphs API
   slug: polycode-co-uk-graphs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-graphs-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-graphs-api-openapi.yml
 - filename: polycode-co-uk-hooks-api-openapi.yml
   format: yaml
   label: Polycode Hooks API
   slug: polycode-co-uk-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-hooks-api-openapi.yml
 - filename: polycode-co-uk-keys-api-openapi.yml
   format: yaml
   label: Polycode Keys API
   slug: polycode-co-uk-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-keys-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-keys-api-openapi.yml
 - filename: polycode-co-uk-me-api-openapi.yml
   format: yaml
   label: Polycode Me API
   slug: polycode-co-uk-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-me-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-me-api-openapi.yml
 - filename: polycode-co-uk-openapi-json-api-openapi.yml
   format: yaml
   label: Polycode Openapi.json API
   slug: polycode-co-uk-openapi-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-openapi-json-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-openapi-json-api-openapi.yml
 - filename: polycode-co-uk-project-api-openapi.yml
   format: yaml
   label: Polycode Project API
   slug: polycode-co-uk-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-project-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-project-api-openapi.yml
 - filename: polycode-co-uk-projects-api-openapi.yml
   format: yaml
   label: Polycode Projects API
   slug: polycode-co-uk-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-projects-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-projects-api-openapi.yml
 - filename: polycode-co-uk-sessions-api-openapi.yml
   format: yaml
   label: Polycode Sessions API
   slug: polycode-co-uk-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-sessions-api-openapi.yml
 - filename: polycode-co-uk-status-api-openapi.yml
   format: yaml
   label: Polycode Status API
   slug: polycode-co-uk-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-status-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-status-api-openapi.yml
 - filename: polycode-co-uk-test-api-openapi.yml
   format: yaml
   label: Polycode Test API
   slug: polycode-co-uk-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-test-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-test-api-openapi.yml
 - filename: polycode-co-uk-usage-api-openapi.yml
   format: yaml
   label: Polycode Usage API
   slug: polycode-co-uk-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-usage-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-usage-api-openapi.yml
 - filename: polycode-co-uk-visitor-api-openapi.yml
   format: yaml
   label: Polycode Visitor API
   slug: polycode-co-uk-visitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-visitor-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-visitor-api-openapi.yml
 auth_types:
 - none
 - apiKey
@@ -173,7 +173,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://margina
   \ public.\"; agent card security: []; live GET /api/status, /api/graphs, /api/budget, /api/projects -> 200 anonymously.'\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  key_prefix: mga_\n  applies_to: [whoamiKey, postHooksPush, getRepoSummary, postMechanicalCompletion (graph selection), postChat / A2A (routes to the key's private graph)]\n  evidence: >-\n    Agent card securitySchemes.apiKey (X-API-Key, \"Optional today. Will gate a free monthly token allowance per key,\n    with pay-as-you-go beyond it.\"); live GET /api/keys/whoami -> 401 {\"error\":\"send the key as X-API-Key\"}; account.mjs\n    masks keys as \"mga_…<suffix>\"; README: \"A private graph ... is reached by adding an x-api-key: header\".\n  issuance: Minted on the logged-in Account page (\"generate a key\" creates a private graph + key, shown once) or by the operator CLI (issue-key). Keys are 1:1 with a private graph; getKeys lists hash, issued_at and last-4 suffix, never plaintext.\n- name: cognitoLogin\n\
   \  type: openIdConnect\n  provider: Amazon Cognito (identity_provider=Google)\n  authorization_endpoint: https://eu-west-24yw02qhzm.auth.eu-west-2.amazoncognito.com/oauth2/authorize\n  scopes_requested: [openid, email, profile]\n  entry: https://marginalia.polycode.co.uk/auth/login\n  applies_to: 'Tier-1 operations: getKeys, postKeys, createPrivateGraph, setMyDefaultGraph, clearUserDefault, setUserDefault, deletePrivateGraph, renamePrivateGraph, setRepo, getPromptNote, setPromptNote, postProjectOp (admin/owner), plus web search, projects and the fuller model in the chat UI'\n  evidence: 'GET /auth/login -> 302 to the Cognito authorize URL (response_type=code, redirect_uri /auth/callback); live GET /api/keys -> 401 {\"error\":\"login required\"}; app.mjs: \"Log in with Google for web search, projects, and the fuller model\".'\n  note: A browser session, not an API authorization flow — no bearer tokens are documented for API callers. The Cognito discovery URL was not probed.\n- name: webhookSecrets\n\
   \  type: hmac\n  applies_to: [postGithubHook, postGitlabHook]\n  evidence: 'Spec summaries: X-Hub-Signature-256 \"constant-time-verified against the org webhook secret\"; X-Gitlab-Token \"constant-time-validated against the binding\"; 401 on bad signature or an unbound graph.'\n  note: Inbound connector authentication for bound repositories, issued by the operator CLI (bind-connector); not a caller credential.\ntiers:\n- {tier: 0, name: visitor / anonymous, access: public reads, chat on the shared graph, A2A}\n- {tier: 1, name: logged in (Google via Cognito), access: private graphs, API keys, per-user default graph, web search and the fuller model in chat}\n- {tier: admin, name: operator, access: admin operations (postWorkItem, postAdminTurn, postDelivery, refreshInsights on the shared graph)}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/authentication/polycode-co-uk-authentication.yml
+source_yaml_url: https://artifacts.apis.io/polycode-co-uk/authentication/polycode-co-uk-authentication.yml
 summary_line: none/apiKey/openIdConnect/hmac · 4 schemes
 tags:
 - Chat

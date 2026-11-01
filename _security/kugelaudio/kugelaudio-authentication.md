@@ -4,90 +4,42 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: kugelaudio-11labs-api-openapi.yml
-  format: yaml
-  label: KugelAudio 11labs API
-  slug: kugelaudio-11labs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-11labs-api-openapi.yml
-- filename: kugelaudio-audio-api-openapi.yml
-  format: yaml
-  label: KugelAudio Audio API
-  slug: kugelaudio-audio-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-audio-api-openapi.yml
-- filename: kugelaudio-billing-api-openapi.yml
-  format: yaml
-  label: KugelAudio Billing API
-  slug: kugelaudio-billing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-billing-api-openapi.yml
 - filename: kugelaudio-dictionaries-api-openapi.yml
   format: yaml
   label: KugelAudio Dictionaries API
   slug: kugelaudio-dictionaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-dictionaries-api-openapi.yml
-- filename: kugelaudio-health-api-openapi.yml
-  format: yaml
-  label: KugelAudio Health API
-  slug: kugelaudio-health-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-health-api-openapi.yml
-- filename: kugelaudio-license-api-openapi.yml
-  format: yaml
-  label: KugelAudio License API
-  slug: kugelaudio-license-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-license-api-openapi.yml
+  url: https://artifacts.apis.io/kugelaudio/openapi/kugelaudio-dictionaries-api-openapi.yml
 - filename: kugelaudio-models-api-openapi.yml
   format: yaml
   label: KugelAudio Models API
   slug: kugelaudio-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-models-api-openapi.yml
-- filename: kugelaudio-normalize-api-openapi.yml
-  format: yaml
-  label: KugelAudio Normalize API
-  slug: kugelaudio-normalize-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-normalize-api-openapi.yml
-- filename: kugelaudio-post-overrides-api-openapi.yml
-  format: yaml
-  label: KugelAudio Post Overrides API
-  slug: kugelaudio-post-overrides-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-post-overrides-api-openapi.yml
-- filename: kugelaudio-predict-api-openapi.yml
-  format: yaml
-  label: KugelAudio Predict API
-  slug: kugelaudio-predict-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-predict-api-openapi.yml
-- filename: kugelaudio-ready-api-openapi.yml
-  format: yaml
-  label: KugelAudio Ready API
-  slug: kugelaudio-ready-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-ready-api-openapi.yml
-- filename: kugelaudio-tts-api-openapi.yml
-  format: yaml
-  label: KugelAudio Tts API
-  slug: kugelaudio-tts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-tts-api-openapi.yml
-- filename: kugelaudio-vapi-api-openapi.yml
-  format: yaml
-  label: KugelAudio Vapi API
-  slug: kugelaudio-vapi-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-vapi-api-openapi.yml
+  url: https://artifacts.apis.io/kugelaudio/openapi/kugelaudio-models-api-openapi.yml
 - filename: kugelaudio-voices-api-openapi.yml
   format: yaml
   label: KugelAudio Voices API
   slug: kugelaudio-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-voices-api-openapi.yml
+  url: https://artifacts.apis.io/kugelaudio/openapi/kugelaudio-voices-api-openapi.yml
+- filename: kugelaudio-elevenlabs-compatible-api-openapi.yml
+  format: yaml
+  label: KugelAudio ElevenLabs compatible API
+  slug: kugelaudio-elevenlabs-compatible-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kugelaudio/openapi/kugelaudio-elevenlabs-compatible-api-openapi.yml
+- filename: kugelaudio-projects-api-openapi.yml
+  format: yaml
+  label: KugelAudio Projects API
+  slug: kugelaudio-projects-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kugelaudio/openapi/kugelaudio-projects-api-openapi.yml
+- filename: kugelaudio-text-to-speech-api-openapi.yml
+  format: yaml
+  label: KugelAudio Text to Speech API
+  slug: kugelaudio-text-to-speech-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kugelaudio/openapi/kugelaudio-text-to-speech-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -140,7 +92,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://api.kugelaudio.com/openapi.json\ndocs: https://docs.kugelaudio.com/api-reference/authentication\nnotes: >-\n  Searched from the docs rather than derived: the published OpenAPI 3.1 document\n  at https://api.kugelaudio.com/openapi.json declares NO components.securitySchemes\n  and no root-level security requirement, even though every documented endpoint\n  requires an API key. The auth model below is captured from the authentication\n  and raw-API docs pages. This gap is recorded in review notes as a concrete fix\n  for the provider.\nsummary:\n  types: [apiKey, http]\n  api_key_in: [header, query]\n  oauth2_flows: []\n  oauth2: false\n  scopes_supported: false\nschemes:\n  - name: BearerApiKey\n    type: http\n    scheme: bearer\n    in: header\n    parameter: Authorization\n    format: 'Authorization: Bearer [example key]'\n    transport: [https]\n    docs: https://docs.kugelaudio.com/api-reference/authentication\n\
   \    sources: [https://docs.kugelaudio.com/api-reference/authentication]\n  - name: ApiKeyHeader\n    type: apiKey\n    in: header\n    parameter: x-api-key\n    transport: [https]\n    docs: https://docs.kugelaudio.com/api-reference/raw-api\n    sources: [https://docs.kugelaudio.com/api-reference/raw-api]\n  - name: ApiKeyQuery\n    type: apiKey\n    in: query\n    parameter: api_key\n    transport: [wss]\n    note: >-\n      WebSocket endpoints (/ws/tts, /ws/tts/stream, /ws/tts/multi) accept the key\n      as a query parameter; an Authorization header is also accepted where the\n      client supports it.\n    sources: [https://docs.kugelaudio.com/api-reference/authentication]\nkey_management:\n  issued_at: https://kugelaudio.com/dashboard\n  path: Dashboard -> Settings -> API Keys\n  shown_once: true\n  revocable: true\n  revocation_effect: immediate\n  rotation_guidance: >-\n    Docs recommend periodic rotation and separate keys per environment\n    (development, staging, production).\n\
   \  environment_variable: KUGELAUDIO_API_KEY\n  scoped_permissions: false\n  scoped_permissions_note: >-\n    \"All API keys have full access to your account's resources. We're working on\n    scoped permissions for future releases.\" — docs, 2026-07-19.\n  region_routing: >-\n    Prefixing a key with `eu-` routes to the direct EU endpoint\n    (https://api.eu.kugelaudio.com) instead of the geo-routed canonical host.\nclient_side_guidance: >-\n  Docs explicitly warn against using keys in frontend JavaScript, mobile app\n  source, public repositories, or client-side environment variables.\nauth_errors:\n  - {status: 401, error_code: UNAUTHORIZED, meaning: API key missing, invalid, or revoked}\n  - {status: 403, error_code: UNAUTHORIZED, meaning: Key valid but cannot access the requested resource}\n  - {ws_close_code: 4001, error_code: UNAUTHORIZED, meaning: WebSocket authentication failed}\nrelated:\n  - errors/kugelaudio-error-codes.yml\n  - conventions/kugelaudio-conventions.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/authentication/kugelaudio-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kugelaudio/authentication/kugelaudio-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Voice

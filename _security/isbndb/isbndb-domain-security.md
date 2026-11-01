@@ -5,49 +5,49 @@ api_specs:
   label: ISBNdb Author API
   slug: isbndb-author-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/isbndb/refs/heads/main/openapi/isbndb-author-api-openapi.yml
+  url: https://artifacts.apis.io/isbndb/openapi/isbndb-author-api-openapi.yml
 - filename: isbndb-books-api-openapi.yml
   format: yaml
   label: ISBNdb Books API
   slug: isbndb-books-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/isbndb/refs/heads/main/openapi/isbndb-books-api-openapi.yml
+  url: https://artifacts.apis.io/isbndb/openapi/isbndb-books-api-openapi.yml
 - filename: isbndb-feed-api-openapi.yml
   format: yaml
   label: ISBNdb Feed API
   slug: isbndb-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/isbndb/refs/heads/main/openapi/isbndb-feed-api-openapi.yml
+  url: https://artifacts.apis.io/isbndb/openapi/isbndb-feed-api-openapi.yml
 - filename: isbndb-key-api-openapi.yml
   format: yaml
   label: ISBNdb Key API
   slug: isbndb-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/isbndb/refs/heads/main/openapi/isbndb-key-api-openapi.yml
+  url: https://artifacts.apis.io/isbndb/openapi/isbndb-key-api-openapi.yml
 - filename: isbndb-publisher-api-openapi.yml
   format: yaml
   label: ISBNdb Publisher API
   slug: isbndb-publisher-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/isbndb/refs/heads/main/openapi/isbndb-publisher-api-openapi.yml
+  url: https://artifacts.apis.io/isbndb/openapi/isbndb-publisher-api-openapi.yml
 - filename: isbndb-search-api-openapi.yml
   format: yaml
   label: ISBNdb Search API
   slug: isbndb-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/isbndb/refs/heads/main/openapi/isbndb-search-api-openapi.yml
+  url: https://artifacts.apis.io/isbndb/openapi/isbndb-search-api-openapi.yml
 - filename: isbndb-stats-api-openapi.yml
   format: yaml
   label: ISBNdb Stats API
   slug: isbndb-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/isbndb/refs/heads/main/openapi/isbndb-stats-api-openapi.yml
+  url: https://artifacts.apis.io/isbndb/openapi/isbndb-stats-api-openapi.yml
 - filename: isbndb-subject-api-openapi.yml
   format: yaml
   label: ISBNdb Subject API
   slug: isbndb-subject-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/isbndb/refs/heads/main/openapi/isbndb-subject-api-openapi.yml
+  url: https://artifacts.apis.io/isbndb/openapi/isbndb-subject-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,7 +81,7 @@ source_filename: isbndb-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: isbndb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 11:25:29 2026 GMT\n  hsts: false\n- host: api2.isbndb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 17:13:13 2026 GMT\n  hsts: null\ndomains:\n- domain: isbndb.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/isbndb/refs/heads/main/security/isbndb-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/isbndb/security/isbndb-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Books

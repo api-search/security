@@ -24,7 +24,7 @@ source_filename: kinvey-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: kinvey.com\n  https: false\ndomains:\n- domain: kinvey.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kinvey/refs/heads/main/security/kinvey-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kinvey/security/kinvey-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

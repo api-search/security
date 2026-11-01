@@ -5,31 +5,31 @@ api_specs:
   label: Toys R Us Acknowledgements API
   slug: toys-r-us-acknowledgements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/openapi/toys-r-us-acknowledgements-api-openapi.yml
+  url: https://artifacts.apis.io/toys-r-us/openapi/toys-r-us-acknowledgements-api-openapi.yml
 - filename: toys-r-us-invoices-api-openapi.yml
   format: yaml
   label: Toys R Us Invoices API
   slug: toys-r-us-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/openapi/toys-r-us-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/toys-r-us/openapi/toys-r-us-invoices-api-openapi.yml
 - filename: toys-r-us-orders-api-openapi.yml
   format: yaml
   label: Toys R Us Orders API
   slug: toys-r-us-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/openapi/toys-r-us-orders-api-openapi.yml
+  url: https://artifacts.apis.io/toys-r-us/openapi/toys-r-us-orders-api-openapi.yml
 - filename: toys-r-us-products-api-openapi.yml
   format: yaml
   label: Toys R Us Products API
   slug: toys-r-us-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/openapi/toys-r-us-products-api-openapi.yml
+  url: https://artifacts.apis.io/toys-r-us/openapi/toys-r-us-products-api-openapi.yml
 - filename: toys-r-us-shipments-api-openapi.yml
   format: yaml
   label: Toys R Us Shipments API
   slug: toys-r-us-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/openapi/toys-r-us-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/toys-r-us/openapi/toys-r-us-shipments-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: toys-r-us-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.toysrus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 16:24:33 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\n- host: toysrus.logicbroker.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 05:58:46 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: commerceapi.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jul 30 20:41:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: toysrus.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: logicbroker.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/security/toys-r-us-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/toys-r-us/security/toys-r-us-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Commerce

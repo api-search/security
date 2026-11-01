@@ -24,7 +24,7 @@ source_filename: parallel-finance-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: rpc.parallel.fi\n  https: false\ndomains:\n- domain: parallel.fi\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parallel-finance/refs/heads/main/security/parallel-finance-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/parallel-finance/security/parallel-finance-domain-security.yml
 summary_line: DNSSEC · DMARC
 tags:
 - Company

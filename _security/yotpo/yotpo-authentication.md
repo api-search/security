@@ -9,25 +9,25 @@ api_specs:
   label: Yotpo Authentication API
   slug: yotpo-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yotpo/refs/heads/main/openapi/yotpo-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/yotpo/openapi/yotpo-authentication-api-openapi.yml
 - filename: yotpo-loyalty-api-openapi.yml
   format: yaml
   label: Yotpo Loyalty API
   slug: yotpo-loyalty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yotpo/refs/heads/main/openapi/yotpo-loyalty-api-openapi.yml
+  url: https://artifacts.apis.io/yotpo/openapi/yotpo-loyalty-api-openapi.yml
 - filename: yotpo-reviews-api-openapi.yml
   format: yaml
   label: Yotpo Reviews API
   slug: yotpo-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yotpo/refs/heads/main/openapi/yotpo-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/yotpo/openapi/yotpo-reviews-api-openapi.yml
 - filename: yotpo-subscriptions-api-openapi.yml
   format: yaml
   label: Yotpo Subscriptions API
   slug: yotpo-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yotpo/refs/heads/main/openapi/yotpo-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/yotpo/openapi/yotpo-subscriptions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -69,7 +69,7 @@ source_filename: yotpo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/yotpo-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: UToken\n  type: apiKey\n  in: query\n  parameter: utoken\n  description: OAuth access token obtained from POST /oauth/token.\n  sources:\n  - openapi/yotpo-openapi.yml\n- name: LoyaltyGuid\n  type: apiKey\n  in: header\n  parameter: x-guid\n  description: Loyalty & Referrals account GUID.\n  sources:\n  - openapi/yotpo-openapi.yml\n- name: LoyaltyApiKey\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: Loyalty & Referrals API key.\n  sources:\n  - openapi/yotpo-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yotpo/refs/heads/main/authentication/yotpo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/yotpo/authentication/yotpo-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - E-Commerce

@@ -8,25 +8,25 @@ api_specs:
   label: Codehooks Events (AsyncAPI)
   slug: codehooks-events
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/asyncapi/codehooks-events-asyncapi.yml
+  url: https://artifacts.apis.io/codehooks/asyncapi/codehooks-events-asyncapi.yml
 - filename: codehooks-documents-api-openapi.yml
   format: yaml
   label: Codehooks Documents API
   slug: codehooks-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/openapi/codehooks-documents-api-openapi.yml
+  url: https://artifacts.apis.io/codehooks/openapi/codehooks-documents-api-openapi.yml
 - filename: codehooks-key-value-store-api-openapi.yml
   format: yaml
   label: Codehooks Key-Value Store API
   slug: codehooks-key-value-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/openapi/codehooks-key-value-store-api-openapi.yml
+  url: https://artifacts.apis.io/codehooks/openapi/codehooks-key-value-store-api-openapi.yml
 - filename: codehooks-queue-api-openapi.yml
   format: yaml
   label: Codehooks Queue API
   slug: codehooks-queue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/openapi/codehooks-queue-api-openapi.yml
+  url: https://artifacts.apis.io/codehooks/openapi/codehooks-queue-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -62,7 +62,7 @@ source_filename: codehooks-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/codehooks-database-rest-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: x-apikey\n  description: API key for authentication. Obtain from the Codehooks.io dashboard or CLI.\n  sources:\n  - openapi/codehooks-database-rest-api-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: JWT token for authentication\n  sources:\n  - openapi/codehooks-database-rest-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/authentication/codehooks-authentication.yml
+source_yaml_url: https://artifacts.apis.io/codehooks/authentication/codehooks-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Backend

@@ -7,25 +7,25 @@ api_specs:
   label: Université de Montréal Identifiants API
   slug: universite-de-montreal-identifiants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/universite-de-montreal/refs/heads/main/openapi/universite-de-montreal-identifiants-api-openapi.yml
+  url: https://artifacts.apis.io/universite-de-montreal/openapi/universite-de-montreal-identifiants-api-openapi.yml
 - filename: universite-de-montreal-informations-api-openapi.yml
   format: yaml
   label: Université de Montréal Informations API
   slug: universite-de-montreal-informations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/universite-de-montreal/refs/heads/main/openapi/universite-de-montreal-informations-api-openapi.yml
+  url: https://artifacts.apis.io/universite-de-montreal/openapi/universite-de-montreal-informations-api-openapi.yml
 - filename: universite-de-montreal-recherche-api-openapi.yml
   format: yaml
   label: Université de Montréal Recherche API
   slug: universite-de-montreal-recherche-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/universite-de-montreal/refs/heads/main/openapi/universite-de-montreal-recherche-api-openapi.yml
+  url: https://artifacts.apis.io/universite-de-montreal/openapi/universite-de-montreal-recherche-api-openapi.yml
 - filename: universite-de-montreal-ressources-api-openapi.yml
   format: yaml
   label: Université de Montréal Ressources API
   slug: universite-de-montreal-ressources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/universite-de-montreal/refs/heads/main/openapi/universite-de-montreal-ressources-api-openapi.yml
+  url: https://artifacts.apis.io/universite-de-montreal/openapi/universite-de-montreal-ressources-api-openapi.yml
 auth_types: []
 description: 'Authentication posture across Université de Montréal''s programmable surfaces. The pattern is the one most research universities show: the institution''s own read-only research metadata is wide open with no key at all, while everything that touches a person''s account sits behind campus SSO — and there is no self-service developer credential anywhere, because there is no developer portal to issue one from.'
 kind: authentication
@@ -49,7 +49,7 @@ source_yaml: "---\nspecification: API Commons Authentication\nspecificationVersi
   \  - url: https://umontreal.scholaris.ca/server/oai/openaire4?verb=Identify\n    status: 200\n- surface: PAPYRUS DSpace REST (HAL)\n  x-operator: tenant\n  scheme: none-for-read\n  registration: institutional\n  detail: >-\n    The DSpace 8 HAL root at /server/api answers anonymously and advertises the repository's\n    entry points; writes and any restricted item require a DSpace account issued by the library.\n  evidence:\n  - url: https://umontreal.scholaris.ca/server/api\n    status: 200\n- surface: Borealis Dataverse (UdeM collection)\n  x-operator: tenant\n  scheme: api-token\n  registration: institutional\n  detail: >-\n    Public search and collection reads are anonymous. Deposit requires a Dataverse API token\n    issued by Borealis to an authenticated account, which for UdeM researchers is obtained\n    through campus SSO.\n  evidence:\n  - url: https://borealisdata.ca/api/dataverses/montreal\n    status: 200\n- surface: UdeM Shibboleth Identity Provider\n  x-operator: institution\n\
   \  scheme: saml2\n  registration: federation\n  detail: >-\n    This is not an API to authenticate against — it is the institution's authentication\n    infrastructure. Relying parties join by exchanging SAML metadata through the federation, not\n    by signing up. The metadata document is public and unauthenticated; the SSO endpoints\n    themselves reject direct GETs (500 from the Redirect/SSO profile without a valid AuthnRequest).\n  evidence:\n  - url: https://shibboleth.umontreal.ca/idp/shibboleth\n    status: 200\n  - url: https://shibboleth.umontreal.ca/idp/profile/SAML2/Redirect/SSO\n    status: 500\n- surface: api.umontreal.ca\n  x-operator: institution\n  scheme: unknown\n  registration: not-public\n  detail: >-\n    The host resolves and answers, but returns HTTP 400 with an empty body on every path tried\n    anonymously. No documentation on any umontreal.ca surface names it. Treated as an internal\n    gateway, not a published API.\n  evidence:\n  - url: https://api.umontreal.ca/\n\
   \    status: 400\nsummary:\n  self_service_credential: false\n  developer_portal: false\n  oauth2: false\n  api_keys_issued: false\n  campus_sso: shibboleth\nnotes: >-\n  There is no route by which an outside developer can obtain a credential for any Université de\n  Montréal API. What is open is open to everyone anonymously; what is closed is closed to anyone\n  without a UdeM account. Nothing sits in between.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/universite-de-montreal/refs/heads/main/authentication/universite-de-montreal-authentication.yml
+source_yaml_url: https://artifacts.apis.io/universite-de-montreal/authentication/universite-de-montreal-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

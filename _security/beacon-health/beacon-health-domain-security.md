@@ -45,7 +45,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nnote: >-\n  www.beaconhealth.ai is probed mechanically by 0-working/probe-domain-security.py\n  from apis.yml. The api. and trust. hosts are not named in apis.yml (there is no\n  API entry), so they were probed by hand on the same date with the same method —\n  openssl s_client for TLS/cert, HTTP HEAD for HSTS.\nhosts:\n- host: www.beaconhealth.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 09:56:16 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.beaconhealth.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 14:31:22 2026 GMT\n  hsts: false\n  hsts_max_age: null\n  role: application backend (Convex); serves OIDC discovery + JWKS\n  note: >-\n    No Strict-Transport-Security header on either the 404 root or the 200\n    /.well-known/openid-configuration response. Fronted by Cloudflare.\n- host: trust.beaconhealth.ai\n  https:\
   \ true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 02:54:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  role: trust center (Oneleet)\ndomains:\n- domain: beaconhealth.ai\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beacon-health/refs/heads/main/security/beacon-health-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/beacon-health/security/beacon-health-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

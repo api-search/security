@@ -8,61 +8,61 @@ api_specs:
   label: 401GO Affiliates & Firms API
   slug: 401go-affiliates-firms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-affiliates-firms-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-affiliates-firms-api-openapi.yml
 - filename: 401go-beneficiaries-api-openapi.yml
   format: yaml
   label: 401GO Beneficiaries API
   slug: 401go-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-beneficiaries-api-openapi.yml
 - filename: 401go-companies-plans-api-openapi.yml
   format: yaml
   label: 401GO Companies & Plans API
   slug: 401go-companies-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-companies-plans-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-companies-plans-api-openapi.yml
 - filename: 401go-contributions-payroll-api-openapi.yml
   format: yaml
   label: 401GO Contributions & Payroll API
   slug: 401go-contributions-payroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-contributions-payroll-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-contributions-payroll-api-openapi.yml
 - filename: 401go-documents-api-openapi.yml
   format: yaml
   label: 401GO Documents API
   slug: 401go-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-documents-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-documents-api-openapi.yml
 - filename: 401go-investments-portfolios-api-openapi.yml
   format: yaml
   label: 401GO Investments & Portfolios API
   slug: 401go-investments-portfolios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-investments-portfolios-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-investments-portfolios-api-openapi.yml
 - filename: 401go-money-movement-api-openapi.yml
   format: yaml
   label: 401GO Money Movement API
   slug: 401go-money-movement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-money-movement-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-money-movement-api-openapi.yml
 - filename: 401go-notifications-api-openapi.yml
   format: yaml
   label: 401GO Notifications API
   slug: 401go-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-notifications-api-openapi.yml
 - filename: 401go-participants-api-openapi.yml
   format: yaml
   label: 401GO Participants API
   slug: 401go-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-participants-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-participants-api-openapi.yml
 - filename: 401go-retirement-planning-api-openapi.yml
   format: yaml
   label: 401GO Retirement Planning API
   slug: 401go-retirement-planning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-retirement-planning-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-retirement-planning-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -192,7 +192,7 @@ source_yaml: "generated: '2026-08-02'\nmethod: searched\nsource: openapi/401go-o
   \  token_endpoint_auth_methods: [client_secret_post, client_secret_basic]\n  access_token_lifetime_seconds: 3600\n  refresh_token_lifetime_seconds: 2592000\n  sources: [https://developer.401go.com/docs/authentication, https://app.401go.com/api/o/.well-known/openid-configuration]\n- name: openIdConnect\n  type: openIdConnect\n  openIdConnectUrl: https://app.401go.com/api/o/.well-known/openid-configuration\n  scope: openid\n  id_token_signing_algs: [RS256, HS256]\n  subject_types: [public]\n  claims_supported: [sub]\n  userinfo_claims_observed: [sub, role, name, company_name, dob, email, phone_number]\n  roles: [participant, company_admin]\n  note: >-\n    The openid scope alone grants employee (participant) access. SSO for a company admin\n    requires openid plus company:read. company_name is populated only for company_admin; dob\n    only for participant.\n  docs: https://developer.401go.com/docs/single-sign-on-sso-with-openid-connect-oidc\n  sources: [https://app.401go.com/api/o/.well-known/openid-configuration]\n\
   - name: knoxApiToken\n  type: apiKey\n  in: header\n  parameter: Authorization\n  format: 'Token <token>'\n  description: Token-based authentication with required prefix \"Token\" (Django REST Knox).\n  declared_on_operations: 50\n  documented_in_docs: false\n  note: >-\n    Declared in the OpenAPI on 50 of 72 operations but never mentioned in the developer\n    documentation. It appears to serve 401GO's own first-party clients rather than partners;\n    partner integrations should use OAuth 2.0.\n  sources: [openapi/401go-openapi-original.json]\n\nlayered_authorization:\n  model: endpoint + HTTP-method allow list\n  enforced_in_addition_to: [oauth scopes]\n  behavior: >-\n    Each API client is explicitly granted permission for specific endpoint + HTTP-method\n    combinations. A request to a combination not on the client's allow list returns 403\n    Forbidden even with a valid, correctly scoped token. Permissions are per combination, not\n    per endpoint — GET on a path may be allowed\
   \ while POST on the same path is not.\n  granted_at: partner onboarding\n  expand_via: https://forms.gle/KQm63UQyytqTdVDe8\n  docs: https://developer.401go.com/docs/api-endpoint-and-method-access\n\nscopes:\n  count: 12\n  file: scopes/401go-scopes.yml\n  source: https://app.401go.com/api/o/.well-known/openid-configuration\n\nsecurity_application:\n  global_security_declared: false\n  note: >-\n    The spec declares no root-level security object; security is applied per operation. All 72\n    operations require oauth2; 50 also accept knoxApiToken.\n  operations_requiring_oauth2: 72\n  operations_accepting_knox: 50\n\ngaps:\n- The OpenAPI declares oauth2 as http/bearer, so no flows, endpoints or scopes are machine-readable from the spec.\n- No root-level security object in the spec.\n- Authorization-server metadata is not at the RFC 8414 well-known root path.\n- knoxApiToken is declared in the spec but undocumented.\n- No mTLS, private_key_jwt, or FAPI-grade client authentication.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/authentication/401go-authentication.yml
+source_yaml_url: https://artifacts.apis.io/401go/authentication/401go-authentication.yml
 summary_line: oauth2/openIdConnect/apiKey · 3 schemes
 tags:
 - Company

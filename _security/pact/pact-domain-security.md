@@ -5,31 +5,31 @@ api_specs:
   label: Pact Index API
   slug: pact-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/openapi/pact-index-api-openapi.yml
+  url: https://artifacts.apis.io/pact/openapi/pact-index-api-openapi.yml
 - filename: pact-pacticipants-api-openapi.yml
   format: yaml
   label: Pact Pacticipants API
   slug: pact-pacticipants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/openapi/pact-pacticipants-api-openapi.yml
+  url: https://artifacts.apis.io/pact/openapi/pact-pacticipants-api-openapi.yml
 - filename: pact-pacts-api-openapi.yml
   format: yaml
   label: Pact Pacts API
   slug: pact-pacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/openapi/pact-pacts-api-openapi.yml
+  url: https://artifacts.apis.io/pact/openapi/pact-pacts-api-openapi.yml
 - filename: pact-verifications-api-openapi.yml
   format: yaml
   label: Pact Verifications API
   slug: pact-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/openapi/pact-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/pact/openapi/pact-verifications-api-openapi.yml
 - filename: pact-webhooks-api-openapi.yml
   format: yaml
   label: Pact Webhooks API
   slug: pact-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/openapi/pact-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/pact/openapi/pact-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: pact-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pact.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 02:43:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.pact.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 03:33:41 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: pact.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/security/pact-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pact/security/pact-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Contract Testing

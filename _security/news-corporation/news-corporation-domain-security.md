@@ -24,7 +24,7 @@ source_filename: news-corporation-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.news-corporation.com\n  https: false\ndomains:\n- domain: news-corporation.com\n  dnssec: true\n  caa:\n  - ;; connection timed out; no servers could be reached\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/news-corporation/refs/heads/main/security/news-corporation-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/news-corporation/security/news-corporation-domain-security.yml
 summary_line: DNSSEC
 tags:
 - Fortune 500

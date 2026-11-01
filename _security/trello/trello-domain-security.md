@@ -5,115 +5,115 @@ api_specs:
   label: Trello Webhooks API
   slug: webhooks-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/asyncapi/trello-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/trello/asyncapi/trello-webhooks-asyncapi.yml
 - filename: trello-actions-api-openapi.yml
   format: yaml
   label: trello Actions API
   slug: trello-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-actions-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-actions-api-openapi.yml
 - filename: trello-boards-api-openapi.yml
   format: yaml
   label: trello Boards API
   slug: trello-boards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-boards-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-boards-api-openapi.yml
 - filename: trello-cards-api-openapi.yml
   format: yaml
   label: trello Cards API
   slug: trello-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-cards-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-cards-api-openapi.yml
 - filename: trello-checklists-api-openapi.yml
   format: yaml
   label: trello Checklists API
   slug: trello-checklists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-checklists-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-checklists-api-openapi.yml
 - filename: trello-labels-api-openapi.yml
   format: yaml
   label: trello Labels API
   slug: trello-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-labels-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-labels-api-openapi.yml
 - filename: trello-lists-api-openapi.yml
   format: yaml
   label: trello Lists API
   slug: trello-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-lists-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-lists-api-openapi.yml
 - filename: trello-members-api-openapi.yml
   format: yaml
   label: trello Members API
   slug: trello-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-members-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-members-api-openapi.yml
 - filename: trello-notifications-api-openapi.yml
   format: yaml
   label: trello Notifications API
   slug: trello-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-notifications-api-openapi.yml
 - filename: trello-organizations-api-openapi.yml
   format: yaml
   label: trello Organizations API
   slug: trello-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-organizations-api-openapi.yml
 - filename: trello-plugins-api-openapi.yml
   format: yaml
   label: trello Plugins API
   slug: trello-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-plugins-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-plugins-api-openapi.yml
 - filename: trello-search-api-openapi.yml
   format: yaml
   label: trello Search API
   slug: trello-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-search-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-search-api-openapi.yml
 - filename: trello-tokens-api-openapi.yml
   format: yaml
   label: trello Tokens API
   slug: trello-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-tokens-api-openapi.yml
 - filename: trello-webhooks-api-openapi.yml
   format: yaml
   label: trello Webhooks API
   slug: trello-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-webhooks-api-openapi.yml
 - filename: trello-applications-api-openapi.yml
   format: yaml
   label: Trello Applications API
   slug: trello-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-applications-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-applications-api-openapi.yml
 - filename: trello-batch-api-openapi.yml
   format: yaml
   label: Trello Batch API
   slug: trello-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-batch-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-batch-api-openapi.yml
 - filename: trello-emoji-api-openapi.yml
   format: yaml
   label: Trello Emoji API
   slug: trello-emoji-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-emoji-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-emoji-api-openapi.yml
 - filename: trello-enterprises-api-openapi.yml
   format: yaml
   label: Trello Enterprises API
   slug: trello-enterprises-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-enterprises-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-enterprises-api-openapi.yml
 - filename: trello-custom-fields-api-openapi.yml
   format: yaml
   label: Trello Custom Fields API
   slug: trello-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-custom-fields-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -161,7 +161,7 @@ source_filename: trello-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.atlassian.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  9 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.trello.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  9 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: atlassian.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com; account=c2eb0f50ca113d7543d58a10f523d0469ff922f115e5e4e9056f3d5f87d3356c\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: trello.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/security/trello-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trello/security/trello-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Project Management

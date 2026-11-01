@@ -8,25 +8,25 @@ api_specs:
   label: VWO Campaigns API
   slug: vwo-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vwo/refs/heads/main/openapi/vwo-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/vwo/openapi/vwo-campaigns-api-openapi.yml
 - filename: vwo-feature-flags-api-openapi.yml
   format: yaml
   label: VWO Feature Flags API
   slug: vwo-feature-flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vwo/refs/heads/main/openapi/vwo-feature-flags-api-openapi.yml
+  url: https://artifacts.apis.io/vwo/openapi/vwo-feature-flags-api-openapi.yml
 - filename: vwo-reports-api-openapi.yml
   format: yaml
   label: VWO Reports API
   slug: vwo-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vwo/refs/heads/main/openapi/vwo-reports-api-openapi.yml
+  url: https://artifacts.apis.io/vwo/openapi/vwo-reports-api-openapi.yml
 - filename: vwo-websites-api-openapi.yml
   format: yaml
   label: VWO Websites API
   slug: vwo-websites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vwo/refs/heads/main/openapi/vwo-websites-api-openapi.yml
+  url: https://artifacts.apis.io/vwo/openapi/vwo-websites-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -56,7 +56,7 @@ source_filename: vwo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/vwo-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: tokenAuth\n  type: apiKey\n  in: header\n  parameter: token\n  description: |-\n    VWO API token sent in the `token` request header. Generate from\n    VWO account settings.\n  sources:\n  - openapi/vwo-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vwo/refs/heads/main/authentication/vwo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vwo/authentication/vwo-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Experimentation

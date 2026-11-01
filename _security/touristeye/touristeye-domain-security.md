@@ -43,7 +43,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml hosts (dig, curl, whois; domain does not resolve)\nhosts:\n- host: touristeye.com\n  resolves: false\n  https: false\n  tls_version: null\n  hsts: null\n  note: curl exit 6 (could not resolve host); no A record published\n- host: www.touristeye.com\n  resolves: false\n  https: false\n  tls_version: null\n  hsts: null\ndomains:\n- domain: touristeye.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n  dmarc_policy: null\n  registered: true\n  registrar: GoDaddy Corporate Domains, LLC\n  domain_created: '2009-10-19'\n  domain_expires: '2026-10-19'\n  whois_nameservers:\n  - ns-1353.awsdns-41.org\n  - ns-635.awsdns-15.net\n  - ns-1725.awsdns-23.co.uk\n  note: whois lists AWS Route 53 nameservers and an active registration, but the\n    delegated nameservers return no records for the zone (no A/NS/SOA/MX). The\n    domain is registered but dark — the TouristEye service is defunct (last\n\
   \    archive.org snapshot of the live site is from 2016; by 2017 the site was a\n    301 redirect).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/touristeye/refs/heads/main/security/touristeye-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/touristeye/security/touristeye-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

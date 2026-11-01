@@ -5,13 +5,13 @@ api_specs:
   label: Adaption Datasets API
   slug: adaption-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaption/refs/heads/main/openapi/adaption-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/adaption/openapi/adaption-datasets-api-openapi.yml
 - filename: adaption-upload-api-openapi.yml
   format: yaml
   label: Adaption Upload API
   slug: adaption-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaption/refs/heads/main/openapi/adaption-upload-api-openapi.yml
+  url: https://artifacts.apis.io/adaption/openapi/adaption-upload-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: adaption-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.adaptionlabs.ai\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep  3 16:46:31 2026 GMT\n  hsts: false\n- host: api.prod.adaptionlabs.ai\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec  9 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: adaptionlabs.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adaption/refs/heads/main/security/adaption-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/adaption/security/adaption-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

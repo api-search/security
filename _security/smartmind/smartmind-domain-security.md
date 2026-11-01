@@ -5,49 +5,49 @@ api_specs:
   label: SmartMind File API
   slug: smartmind-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-file-api-openapi.yml
+  url: https://artifacts.apis.io/smartmind/openapi/smartmind-file-api-openapi.yml
 - filename: smartmind-health-api-openapi.yml
   format: yaml
   label: SmartMind Health API
   slug: smartmind-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-health-api-openapi.yml
+  url: https://artifacts.apis.io/smartmind/openapi/smartmind-health-api-openapi.yml
 - filename: smartmind-metric-api-openapi.yml
   format: yaml
   label: SmartMind Metric API
   slug: smartmind-metric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-metric-api-openapi.yml
+  url: https://artifacts.apis.io/smartmind/openapi/smartmind-metric-api-openapi.yml
 - filename: smartmind-query-api-openapi.yml
   format: yaml
   label: SmartMind Query API
   slug: smartmind-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-query-api-openapi.yml
+  url: https://artifacts.apis.io/smartmind/openapi/smartmind-query-api-openapi.yml
 - filename: smartmind-schema-api-openapi.yml
   format: yaml
   label: SmartMind Schema API
   slug: smartmind-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-schema-api-openapi.yml
+  url: https://artifacts.apis.io/smartmind/openapi/smartmind-schema-api-openapi.yml
 - filename: smartmind-table-api-openapi.yml
   format: yaml
   label: SmartMind Table API
   slug: smartmind-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-table-api-openapi.yml
+  url: https://artifacts.apis.io/smartmind/openapi/smartmind-table-api-openapi.yml
 - filename: smartmind-table-template-api-openapi.yml
   format: yaml
   label: SmartMind Table Template API
   slug: smartmind-table-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-table-template-api-openapi.yml
+  url: https://artifacts.apis.io/smartmind/openapi/smartmind-table-template-api-openapi.yml
 - filename: smartmind-view-api-openapi.yml
   format: yaml
   label: SmartMind View API
   slug: smartmind-view-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-view-api-openapi.yml
+  url: https://artifacts.apis.io/smartmind/openapi/smartmind-view-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -94,7 +94,7 @@ source_filename: smartmind-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: smartmind-ai.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 04:53:03 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: thanosql-sdk-python.readthedocs.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 13:13:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: smartmind-ai.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: readthedocs.io\n  dnssec: false\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \" amazontrust.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/security/smartmind-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/smartmind/security/smartmind-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

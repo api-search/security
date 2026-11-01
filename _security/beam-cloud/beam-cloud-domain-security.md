@@ -5,19 +5,19 @@ api_specs:
   label: Beam Task Queues API
   slug: beam-cloud-task-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beam-cloud/refs/heads/main/openapi/beam-cloud-task-queues-api-openapi.yml
+  url: https://artifacts.apis.io/beam-cloud/openapi/beam-cloud-task-queues-api-openapi.yml
 - filename: beam-cloud-tasks-api-openapi.yml
   format: yaml
   label: Beam Tasks API
   slug: beam-cloud-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beam-cloud/refs/heads/main/openapi/beam-cloud-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/beam-cloud/openapi/beam-cloud-tasks-api-openapi.yml
 - filename: beam-cloud-web-endpoints-api-openapi.yml
   format: yaml
   label: Beam Web Endpoints API
   slug: beam-cloud-web-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beam-cloud/refs/heads/main/openapi/beam-cloud-web-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/beam-cloud/openapi/beam-cloud-web-endpoints-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -64,7 +64,7 @@ source_filename: beam-cloud-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.beam.cloud\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 11:09:17 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.beam.cloud\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 07:25:40 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: app.beam.cloud\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 26 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: beam.cloud\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beam-cloud/refs/heads/main/security/beam-cloud-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/beam-cloud/security/beam-cloud-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Serverless

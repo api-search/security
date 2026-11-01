@@ -7,121 +7,121 @@ api_specs:
   label: Payt Administrations API
   slug: payt-administrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-administrations-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-administrations-api-openapi.yml
 - filename: payt-companies-api-openapi.yml
   format: yaml
   label: Payt Companies API
   slug: payt-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-companies-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-companies-api-openapi.yml
 - filename: payt-contacts-api-openapi.yml
   format: yaml
   label: Payt Contacts API
   slug: payt-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-contacts-api-openapi.yml
 - filename: payt-credit-cases-api-openapi.yml
   format: yaml
   label: Payt Credit Cases API
   slug: payt-credit-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-credit-cases-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-credit-cases-api-openapi.yml
 - filename: payt-debtors-api-openapi.yml
   format: yaml
   label: Payt Debtors API
   slug: payt-debtors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-debtors-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-debtors-api-openapi.yml
 - filename: payt-files-api-openapi.yml
   format: yaml
   label: Payt Files API
   slug: payt-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-files-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-files-api-openapi.yml
 - filename: payt-invoices-api-openapi.yml
   format: yaml
   label: Payt Invoices API
   slug: payt-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-invoices-api-openapi.yml
 - filename: payt-messages-api-openapi.yml
   format: yaml
   label: Payt Messages API
   slug: payt-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-messages-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-messages-api-openapi.yml
 - filename: payt-notes-api-openapi.yml
   format: yaml
   label: Payt Notes API
   slug: payt-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-notes-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-notes-api-openapi.yml
 - filename: payt-notifications-api-openapi.yml
   format: yaml
   label: Payt Notifications API
   slug: payt-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-notifications-api-openapi.yml
 - filename: payt-order-lines-api-openapi.yml
   format: yaml
   label: Payt Order Lines API
   slug: payt-order-lines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-order-lines-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-order-lines-api-openapi.yml
 - filename: payt-orders-api-openapi.yml
   format: yaml
   label: Payt Orders API
   slug: payt-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-orders-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-orders-api-openapi.yml
 - filename: payt-payment-conditions-api-openapi.yml
   format: yaml
   label: Payt Payment Conditions API
   slug: payt-payment-conditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-payment-conditions-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-payment-conditions-api-openapi.yml
 - filename: payt-payment-plans-api-openapi.yml
   format: yaml
   label: Payt Payment Plans API
   slug: payt-payment-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-payment-plans-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-payment-plans-api-openapi.yml
 - filename: payt-payments-api-openapi.yml
   format: yaml
   label: Payt Payments API
   slug: payt-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-payments-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-payments-api-openapi.yml
 - filename: payt-psp-mandates-api-openapi.yml
   format: yaml
   label: Payt Psp Mandates API
   slug: payt-psp-mandates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-psp-mandates-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-psp-mandates-api-openapi.yml
 - filename: payt-psp-transactions-api-openapi.yml
   format: yaml
   label: Payt Psp Transactions API
   slug: payt-psp-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-psp-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-psp-transactions-api-openapi.yml
 - filename: payt-tasks-api-openapi.yml
   format: yaml
   label: Payt Tasks API
   slug: payt-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-tasks-api-openapi.yml
 - filename: payt-vat-rates-api-openapi.yml
   format: yaml
   label: Payt Vat Rates API
   slug: payt-vat-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-vat-rates-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-vat-rates-api-openapi.yml
 - filename: payt-signup-api-openapi.yml
   format: yaml
   label: Payt Signup API
   slug: payt-signup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-signup-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-signup-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -174,7 +174,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://docs.paytsoftware.com/authentication/authorization\ndocs: https://docs.paytsoftware.com/authentication/authorization\nsummary:\n  types:\n  - oauth2\n  - http\n  primary: oauth2\n  notes: >-\n    Payt authorizes API requests with an OAuth 2.0 Authorization Code flow (the\n    recommended path) or, as a less-secure fallback, a static API token. In both\n    cases the resulting access token is presented as an HTTP Bearer token. The\n    OpenAPI declares only the bearerAuth HTTP bearer scheme; the OAuth 2.0\n    machinery (authorize + token endpoints, scopes, refresh tokens) is documented\n    in the auth guide rather than the spec.\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    OAuth 2.0 access token or static API token, sent as Authorization: Bearer <token>\n    on almost all endpoints.\n  sources:\n  - openapi/payt-openapi-original.json\n  - https://docs.paytsoftware.com/authentication/tokens\n\
   - name: oauth2_authorization_code\n  type: oauth2\n  flow: authorizationCode\n  authorizationUrl: https://app.paytsoftware.com/oauth/authorize\n  tokenUrl: https://api.paytsoftware.com/oauth/token\n  refresh: true\n  description: >-\n    OAuth 2.0 Authorization Code flow. The user authorizes an application, selecting\n    which administrations to grant and which scopes (permissions) to allow. The\n    authorization code expires after 10 minutes; access tokens live 2 hours and are\n    renewed with a rotating refresh token that lasts 90 days from last use.\n  sources:\n  - https://docs.paytsoftware.com/authentication/authorization\n  - https://docs.paytsoftware.com/authentication/tokens\n- name: basic_client_credentials\n  type: http\n  scheme: basic\n  description: >-\n    HTTP Basic (base64 client_id:client_secret, RFC 4648) is required only on the\n    token endpoints (/oauth/token) and the sign_up endpoint - used to obtain or\n    refresh tokens, not to call resource endpoints.\n  sources:\n\
   \  - https://docs.paytsoftware.com/authentication/basic-authorization\n- name: static_api_token\n  type: http\n  scheme: bearer\n  description: >-\n    Static API token fallback for clients unable to implement OAuth 2.0. Presented\n    as a Bearer token like an OAuth access token. Documented as the less-secure option.\n  sources:\n  - https://docs.paytsoftware.com/authentication/authorization\nmtls:\n  note: >-\n    Payt supports mutual TLS (mTLS) for webhook delivery: consumers may verify Payt's\n    client certificate (payt_mtls_certificate_2026.crt, valid until 2027-01-03),\n    downloadable from backend.paytsoftware.com. This is inbound webhook mTLS, not\n    required on outbound API calls.\n  source: https://docs.paytsoftware.com/webhooks/overview\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/authentication/payt-authentication.yml
+source_yaml_url: https://artifacts.apis.io/payt/authentication/payt-authentication.yml
 summary_line: oauth2/http · 4 schemes
 tags:
 - Company

@@ -8,61 +8,115 @@ api_specs:
   label: Amazon Rekognition Celebrity Recognition API
   slug: amazon-rekognition-celebrity-recognition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/openapi/amazon-rekognition-celebrity-recognition-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-rekognition/openapi/amazon-rekognition-celebrity-recognition-api-openapi.yml
 - filename: amazon-rekognition-content-moderation-api-openapi.yml
   format: yaml
   label: Amazon Rekognition Content Moderation API
   slug: amazon-rekognition-content-moderation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/openapi/amazon-rekognition-content-moderation-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-rekognition/openapi/amazon-rekognition-content-moderation-api-openapi.yml
 - filename: amazon-rekognition-custom-labels-api-openapi.yml
   format: yaml
   label: Amazon Rekognition Custom Labels API
   slug: amazon-rekognition-custom-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/openapi/amazon-rekognition-custom-labels-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-rekognition/openapi/amazon-rekognition-custom-labels-api-openapi.yml
 - filename: amazon-rekognition-face-collections-api-openapi.yml
   format: yaml
   label: Amazon Rekognition Face Collections API
   slug: amazon-rekognition-face-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/openapi/amazon-rekognition-face-collections-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-rekognition/openapi/amazon-rekognition-face-collections-api-openapi.yml
 - filename: amazon-rekognition-face-liveness-api-openapi.yml
   format: yaml
   label: Amazon Rekognition Face Liveness API
   slug: amazon-rekognition-face-liveness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/openapi/amazon-rekognition-face-liveness-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-rekognition/openapi/amazon-rekognition-face-liveness-api-openapi.yml
 - filename: amazon-rekognition-face-search-api-openapi.yml
   format: yaml
   label: Amazon Rekognition Face Search API
   slug: amazon-rekognition-face-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/openapi/amazon-rekognition-face-search-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-rekognition/openapi/amazon-rekognition-face-search-api-openapi.yml
 - filename: amazon-rekognition-facial-analysis-api-openapi.yml
   format: yaml
   label: Amazon Rekognition Facial Analysis API
   slug: amazon-rekognition-facial-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/openapi/amazon-rekognition-facial-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-rekognition/openapi/amazon-rekognition-facial-analysis-api-openapi.yml
 - filename: amazon-rekognition-image-analysis-api-openapi.yml
   format: yaml
   label: Amazon Rekognition Image Analysis API
   slug: amazon-rekognition-image-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/openapi/amazon-rekognition-image-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-rekognition/openapi/amazon-rekognition-image-analysis-api-openapi.yml
 - filename: amazon-rekognition-stored-video-analysis-api-openapi.yml
   format: yaml
   label: Amazon Rekognition Stored Video Analysis API
   slug: amazon-rekognition-stored-video-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/openapi/amazon-rekognition-stored-video-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-rekognition/openapi/amazon-rekognition-stored-video-analysis-api-openapi.yml
 - filename: amazon-rekognition-text-detection-api-openapi.yml
   format: yaml
   label: Amazon Rekognition Text Detection API
   slug: amazon-rekognition-text-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/openapi/amazon-rekognition-text-detection-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-rekognition/openapi/amazon-rekognition-text-detection-api-openapi.yml
+- filename: amazon-rekognition-dataset-api-openapi.yml
+  format: yaml
+  label: Amazon Rekognition Rekognition Dataset API
+  slug: amazon-rekognition-dataset-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-rekognition/openapi/amazon-rekognition-dataset-api-openapi.yml
+- filename: amazon-rekognition-face-api-openapi.yml
+  format: yaml
+  label: Amazon Rekognition Rekognition Face API
+  slug: amazon-rekognition-face-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-rekognition/openapi/amazon-rekognition-face-api-openapi.yml
+- filename: amazon-rekognition-media-analysis-job-api-openapi.yml
+  format: yaml
+  label: Amazon Rekognition Rekognition Media Analysis Job API
+  slug: amazon-rekognition-media-analysis-job-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-rekognition/openapi/amazon-rekognition-media-analysis-job-api-openapi.yml
+- filename: amazon-rekognition-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Rekognition Rekognition Operations API
+  slug: amazon-rekognition-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-rekognition/openapi/amazon-rekognition-operations-api-openapi.yml
+- filename: amazon-rekognition-project-api-openapi.yml
+  format: yaml
+  label: Amazon Rekognition Rekognition Project API
+  slug: amazon-rekognition-project-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-rekognition/openapi/amazon-rekognition-project-api-openapi.yml
+- filename: amazon-rekognition-project-policy-api-openapi.yml
+  format: yaml
+  label: Amazon Rekognition Rekognition Project Policy API
+  slug: amazon-rekognition-project-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-rekognition/openapi/amazon-rekognition-project-policy-api-openapi.yml
+- filename: amazon-rekognition-project-version-api-openapi.yml
+  format: yaml
+  label: Amazon Rekognition Rekognition Project Version API
+  slug: amazon-rekognition-project-version-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-rekognition/openapi/amazon-rekognition-project-version-api-openapi.yml
+- filename: amazon-rekognition-stream-processor-api-openapi.yml
+  format: yaml
+  label: Amazon Rekognition Rekognition Stream Processor API
+  slug: amazon-rekognition-stream-processor-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-rekognition/openapi/amazon-rekognition-stream-processor-api-openapi.yml
+- filename: amazon-rekognition-user-api-openapi.yml
+  format: yaml
+  label: Amazon Rekognition Rekognition User API
+  slug: amazon-rekognition-user-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-rekognition/openapi/amazon-rekognition-user-api-openapi.yml
 auth_types:
 - apiKey
 description: Amazon Rekognition authorizes requests with AWS Identity and Access Management (IAM). Every call must be signed with AWS Signature Version 4 (SigV4) using the caller's access key / temporary credentials; the OpenAPI models this as an apiKey scheme on the Authorization header. Fine-grained authorization is controlled by IAM policies (e.g. AmazonRekognitionFullAccess, AmazonRekognitionReadOnlyAccess) and rekognition:* actions.
@@ -91,7 +145,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/amazon-rekognition-openapi.yml\ndocs: https://docs.aws.amazon.com/rekognition/latest/dg/security_iam_service-with-iam.html\ndescription: >-\n  Amazon Rekognition authorizes requests with AWS Identity and Access Management\n  (IAM). Every call must be signed with AWS Signature Version 4 (SigV4) using the\n  caller's access key / temporary credentials; the OpenAPI models this as an\n  apiKey scheme on the Authorization header. Fine-grained authorization is\n  controlled by IAM policies (e.g. AmazonRekognitionFullAccess,\n  AmazonRekognitionReadOnlyAccess) and rekognition:* actions.\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  authorization: AWS IAM (SigV4)\nschemes:\n- name: aws_signature\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4. Include the Authorization header with AWS4-HMAC-SHA256\n    signature computed from AWS IAM credentials.\n  sources:\n\
   \  - openapi/amazon-rekognition-openapi.yml\niam:\n  managed_policies:\n    - AmazonRekognitionFullAccess\n    - AmazonRekognitionReadOnlyAccess\n    - AmazonRekognitionCustomLabelsFullAccess\n  action_prefix: \"rekognition:\"\n  docs: https://docs.aws.amazon.com/rekognition/latest/dg/security-iam-awsmanpol.html\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/authentication/amazon-rekognition-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-rekognition/authentication/amazon-rekognition-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Celebrity Recognition

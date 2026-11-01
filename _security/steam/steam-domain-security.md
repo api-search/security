@@ -5,25 +5,25 @@ api_specs:
   label: Steam IPlayerService API
   slug: steam-iplayerservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/openapi/steam-iplayerservice-api-openapi.yml
+  url: https://artifacts.apis.io/steam/openapi/steam-iplayerservice-api-openapi.yml
 - filename: steam-isteamnews-api-openapi.yml
   format: yaml
   label: Steam ISteamNews API
   slug: steam-isteamnews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/openapi/steam-isteamnews-api-openapi.yml
+  url: https://artifacts.apis.io/steam/openapi/steam-isteamnews-api-openapi.yml
 - filename: steam-isteamuser-api-openapi.yml
   format: yaml
   label: Steam ISteamUser API
   slug: steam-isteamuser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/openapi/steam-isteamuser-api-openapi.yml
+  url: https://artifacts.apis.io/steam/openapi/steam-isteamuser-api-openapi.yml
 - filename: steam-isteamuserstats-api-openapi.yml
   format: yaml
   label: Steam ISteamUserStats API
   slug: steam-isteamuserstats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/openapi/steam-isteamuserstats-api-openapi.yml
+  url: https://artifacts.apis.io/steam/openapi/steam-isteamuserstats-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -76,7 +76,7 @@ source_filename: steam-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: store.steampowered.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.steampowered.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 23:59:59 2026 GMT\n  hsts: null\n- host: partner.steam-api.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 31 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: steampowered.com\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:ssl-abuse@valvesoftware.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: steam-api.com\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:ssl-abuse@valvesoftware.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/security/steam-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/steam/security/steam-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Gaming

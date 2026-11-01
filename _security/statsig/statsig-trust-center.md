@@ -5,229 +5,229 @@ api_specs:
   label: Statsig Events API
   slug: events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-events-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-events-api-openapi.yml
 - filename: statsig-audit-logs-api-openapi.yml
   format: yaml
   label: statsig Audit Logs API
   slug: statsig-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-audit-logs-api-openapi.yml
 - filename: statsig-autotunes-api-openapi.yml
   format: yaml
   label: statsig Autotunes API
   slug: statsig-autotunes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-autotunes-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-autotunes-api-openapi.yml
 - filename: statsig-configuration-api-openapi.yml
   format: yaml
   label: statsig Configuration API
   slug: statsig-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-configuration-api-openapi.yml
 - filename: statsig-dynamic-configs-api-openapi.yml
   format: yaml
   label: statsig Dynamic Configs API
   slug: statsig-dynamic-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-dynamic-configs-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-dynamic-configs-api-openapi.yml
 - filename: statsig-experiments-api-openapi.yml
   format: yaml
   label: statsig Experiments API
   slug: statsig-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-experiments-api-openapi.yml
 - filename: statsig-feature-gates-api-openapi.yml
   format: yaml
   label: statsig Feature Gates API
   slug: statsig-feature-gates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-feature-gates-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-feature-gates-api-openapi.yml
 - filename: statsig-gates-api-openapi.yml
   format: yaml
   label: statsig Gates API
   slug: statsig-gates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-gates-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-gates-api-openapi.yml
 - filename: statsig-holdouts-api-openapi.yml
   format: yaml
   label: statsig Holdouts API
   slug: statsig-holdouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-holdouts-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-holdouts-api-openapi.yml
 - filename: statsig-initialization-api-openapi.yml
   format: yaml
   label: statsig Initialization API
   slug: statsig-initialization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-initialization-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-initialization-api-openapi.yml
 - filename: statsig-keys-api-openapi.yml
   format: yaml
   label: statsig Keys API
   slug: statsig-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-keys-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-keys-api-openapi.yml
 - filename: statsig-layers-api-openapi.yml
   format: yaml
   label: statsig Layers API
   slug: statsig-layers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-layers-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-layers-api-openapi.yml
 - filename: statsig-metrics-api-openapi.yml
   format: yaml
   label: statsig Metrics API
   slug: statsig-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-metrics-api-openapi.yml
 - filename: statsig-segments-api-openapi.yml
   format: yaml
   label: statsig Segments API
   slug: statsig-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-segments-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-segments-api-openapi.yml
 - filename: statsig-tags-api-openapi.yml
   format: yaml
   label: statsig Tags API
   slug: statsig-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-tags-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-tags-api-openapi.yml
 - filename: statsig-target-apps-api-openapi.yml
   format: yaml
   label: statsig Target Apps API
   slug: statsig-target-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-target-apps-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-target-apps-api-openapi.yml
 - filename: statsig-users-api-openapi.yml
   format: yaml
   label: statsig Users API
   slug: statsig-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-users-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-users-api-openapi.yml
 - filename: statsig-alerts-api-openapi.yml
   format: yaml
   label: Statsig Alerts API
   slug: statsig-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-alerts-api-openapi.yml
 - filename: statsig-change-validation-api-openapi.yml
   format: yaml
   label: Statsig Change Validation API
   slug: statsig-change-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-change-validation-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-change-validation-api-openapi.yml
 - filename: statsig-company-api-openapi.yml
   format: yaml
   label: Statsig Company API
   slug: statsig-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-company-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-company-api-openapi.yml
 - filename: statsig-configs-api-openapi.yml
   format: yaml
   label: Statsig Configs API
   slug: statsig-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-configs-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-configs-api-openapi.yml
 - filename: statsig-dashboards-api-openapi.yml
   format: yaml
   label: Statsig Dashboards API
   slug: statsig-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-dashboards-api-openapi.yml
 - filename: statsig-environments-api-openapi.yml
   format: yaml
   label: Statsig Environments API
   slug: statsig-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-environments-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-environments-api-openapi.yml
 - filename: statsig-experiments-warehouse-native-api-openapi.yml
   format: yaml
   label: Statsig Experiments (Warehouse Native) API
   slug: statsig-experiments-warehouse-native-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-experiments-warehouse-native-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-experiments-warehouse-native-api-openapi.yml
 - filename: statsig-ingestions-api-openapi.yml
   format: yaml
   label: Statsig Ingestions API
   slug: statsig-ingestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-ingestions-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-ingestions-api-openapi.yml
 - filename: statsig-logs-api-openapi.yml
   format: yaml
   label: Statsig Logs API
   slug: statsig-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-logs-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-logs-api-openapi.yml
 - filename: statsig-overrides-api-openapi.yml
   format: yaml
   label: Statsig Overrides API
   slug: statsig-overrides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-overrides-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-overrides-api-openapi.yml
 - filename: statsig-param-store-api-openapi.yml
   format: yaml
   label: Statsig Param Store API
   slug: statsig-param-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-param-store-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-param-store-api-openapi.yml
 - filename: statsig-project-api-openapi.yml
   format: yaml
   label: Statsig Project API
   slug: statsig-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-project-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-project-api-openapi.yml
 - filename: statsig-prompts-api-openapi.yml
   format: yaml
   label: Statsig Prompts API
   slug: statsig-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-prompts-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-prompts-api-openapi.yml
 - filename: statsig-release-pipelines-api-openapi.yml
   format: yaml
   label: Statsig Release Pipelines API
   slug: statsig-release-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-release-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-release-pipelines-api-openapi.yml
 - filename: statsig-reports-api-openapi.yml
   format: yaml
   label: Statsig Reports API
   slug: statsig-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-reports-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-reports-api-openapi.yml
 - filename: statsig-roles-api-openapi.yml
   format: yaml
   label: Statsig Roles API
   slug: statsig-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-roles-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-roles-api-openapi.yml
 - filename: statsig-settings-api-openapi.yml
   format: yaml
   label: Statsig Settings API
   slug: statsig-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-settings-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-settings-api-openapi.yml
 - filename: statsig-target-app-api-openapi.yml
   format: yaml
   label: Statsig Target App API
   slug: statsig-target-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-target-app-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-target-app-api-openapi.yml
 - filename: statsig-unit-id-types-api-openapi.yml
   format: yaml
   label: Statsig Unit ID Types API
   slug: statsig-unit-id-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-unit-id-types-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-unit-id-types-api-openapi.yml
 - filename: statsig-usage-api-openapi.yml
   format: yaml
   label: Statsig Usage API
   slug: statsig-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-usage-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-usage-api-openapi.yml
 - filename: statsig-warehouse-connections-api-openapi.yml
   format: yaml
   label: Statsig Warehouse Connections API
   slug: statsig-warehouse-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-warehouse-connections-api-openapi.yml
+  url: https://artifacts.apis.io/statsig/openapi/statsig-warehouse-connections-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2 Type II
@@ -249,7 +249,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-17'\nmethod: searched\nprobe: true\nsource: https://trust.statsig.com/\nurl: https://trust.statsig.com/\nresolved_url: https://trust.amplitude.com/?product_id=25a85de2-f369-4ee0-bd69-5fb5912f39ae\ndomain_note: >-\n  The trust center is reached at Statsig's own subdomain, trust.statsig.com, which HTTP-redirects\n  to trust.amplitude.com scoped to a Statsig product_id. The cross-domain hop is justified by the\n  provider's own surface in two independent places: Statsig itself points trust.statsig.com there,\n  and the public Statsig Docs MCP server at https://docs.statsig.com/api/mcp exposes a tool named\n  `amplitude_implementation_planner`. Recorded as observed evidence of a shared trust/docs\n  operation, not as a corporate-structure conclusion.\ncertifications:\n  - name: SOC 2 Type II\n    evidence: https://www.statsig.com/legal/security\n    note: \"Security at Statsig states plainly: \\\"SOC2 Type II audited and certified\\\".\"\n  - name: ISO 27001\n\
   \    evidence: https://trust.statsig.com/\n  - name: GDPR\n    evidence: https://trust.statsig.com/\n  - name: HIPAA\n    evidence: https://www.statsig.com/pricing\n    note: >-\n      The pricing page lists \"HIPAA-eligibility (BAA required)\" as an Enterprise-tier entitlement.\n      Eligibility under a BAA, not a certification.\nprograms:\n  - name: Bug Bounty Program\n    evidence: https://www.statsig.com/legal/security\n    status: named-in-prose\n    note: >-\n      Listed among SDLC testing controls. No public program page, no HackerOne or Bugcrowd listing\n      (both probed, 404), and no /.well-known/security.txt on any host — so the program exists but\n      is not reachable by a researcher who has not already been invited.\nevidence:\n  - source: https://trust.statsig.com/\n    http_status: 200\n    keywords: [trust center, soc 2, iso 27001, gdpr, compliance certification]\n  - source: https://www.statsig.com/legal/security\n    http_status: 200\n    keywords: [soc2 type ii,\
   \ bug bounty program, owasp, encryption at rest, disaster recovery]\n  - source: https://statsig.com/legal/dpa\n    http_status: 200\n    keywords: [data processing addendum]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/security/statsig-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/statsig/security/statsig-trust-center.yml
 summary_line: SOC 2 Type II, ISO 27001, GDPR, HIPAA
 tags:
 - Feature Flags

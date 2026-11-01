@@ -8,37 +8,37 @@ api_specs:
   label: Nacos Auth API
   slug: nacos-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacos/refs/heads/main/openapi/nacos-auth-api-openapi.yml
+  url: https://artifacts.apis.io/nacos/openapi/nacos-auth-api-openapi.yml
 - filename: nacos-configuration-api-openapi.yml
   format: yaml
   label: Nacos Configuration API
   slug: nacos-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacos/refs/heads/main/openapi/nacos-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/nacos/openapi/nacos-configuration-api-openapi.yml
 - filename: nacos-namespace-api-openapi.yml
   format: yaml
   label: Nacos Namespace API
   slug: nacos-namespace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacos/refs/heads/main/openapi/nacos-namespace-api-openapi.yml
+  url: https://artifacts.apis.io/nacos/openapi/nacos-namespace-api-openapi.yml
 - filename: nacos-operator-api-openapi.yml
   format: yaml
   label: Nacos Operator API
   slug: nacos-operator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacos/refs/heads/main/openapi/nacos-operator-api-openapi.yml
+  url: https://artifacts.apis.io/nacos/openapi/nacos-operator-api-openapi.yml
 - filename: nacos-service-discovery-api-openapi.yml
   format: yaml
   label: Nacos Service Discovery API
   slug: nacos-service-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacos/refs/heads/main/openapi/nacos-service-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/nacos/openapi/nacos-service-discovery-api-openapi.yml
 - filename: nacos-service-management-api-openapi.yml
   format: yaml
   label: Nacos Service Management API
   slug: nacos-service-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacos/refs/heads/main/openapi/nacos-service-management-api-openapi.yml
+  url: https://artifacts.apis.io/nacos/openapi/nacos-service-management-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: nacos-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/nacos-open-api.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: AccessToken\n  type: apiKey\n  in: query\n  parameter: accessToken\n  description: Access token obtained from login endpoint\n  sources:\n  - openapi/nacos-open-api.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nacos/refs/heads/main/authentication/nacos-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nacos/authentication/nacos-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Alibaba

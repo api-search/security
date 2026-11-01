@@ -5,43 +5,43 @@ api_specs:
   label: Azure Networking Services Subnets API
   slug: azure-networking-services-subnets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/openapi/azure-networking-services-subnets-api-openapi.yml
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-subnets-api-openapi.yml
 - filename: azure-networking-services-subscriptions-api-openapi.yml
   format: yaml
   label: Azure Networking Services Subscriptions API
   slug: azure-networking-services-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/openapi/azure-networking-services-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-subscriptions-api-openapi.yml
 - filename: azure-networking-services-virtualnetworkpeerings-api-openapi.yml
   format: yaml
   label: Azure Networking Services VirtualNetworkPeerings API
   slug: azure-networking-services-virtualnetworkpeerings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/openapi/azure-networking-services-virtualnetworkpeerings-api-openapi.yml
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-virtualnetworkpeerings-api-openapi.yml
 - filename: azure-networking-services-operations-api-openapi.yml
   format: yaml
   label: Azure Networking Operations API
   slug: microsoft-azure-networking-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/openapi/azure-networking-services-operations-api-openapi.yml
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-operations-api-openapi.yml
 - filename: azure-networking-services-subnets-api-openapi.yml
   format: yaml
   label: Azure Networking Subnets API
   slug: microsoft-azure-networking-subnets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/openapi/azure-networking-services-subnets-api-openapi.yml
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-subnets-api-openapi.yml
 - filename: azure-networking-services-virtual-networks-api-openapi.yml
   format: yaml
   label: Azure Networking Virtual Networks API
   slug: microsoft-azure-networking-virtual-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/openapi/azure-networking-services-virtual-networks-api-openapi.yml
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-virtual-networks-api-openapi.yml
 - filename: azure-networking-services-load-balancers-api-openapi.yml
   format: yaml
   label: Azure Networking Services Load Balancers API
   slug: azure-networking-services-load-balancers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/openapi/azure-networking-services-load-balancers-api-openapi.yml
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-load-balancers-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -89,7 +89,7 @@ source_filename: azure-networking-services-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: portal.azure.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 19:53:18 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: azure.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 22:04:48 2026 GMT\n  hsts: null\n- host: management.azure.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 23:36:21 2026 GMT\n  hsts: null\ndomains:\n- domain: azure.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/security/azure-networking-services-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/azure-networking-services/security/azure-networking-services-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Microsoft Azure

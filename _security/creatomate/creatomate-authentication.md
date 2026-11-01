@@ -7,13 +7,13 @@ api_specs:
   label: Creatomate Renders API
   slug: creatomate-renders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatomate/refs/heads/main/openapi/creatomate-renders-api-openapi.yml
+  url: https://artifacts.apis.io/creatomate/openapi/creatomate-renders-api-openapi.yml
 - filename: creatomate-templates-api-openapi.yml
   format: yaml
   label: Creatomate Templates API
   slug: creatomate-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatomate/refs/heads/main/openapi/creatomate-templates-api-openapi.yml
+  url: https://artifacts.apis.io/creatomate/openapi/creatomate-templates-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: creatomate-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/creatomate-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Project API key sent as `Authorization: Bearer <API_KEY>`. The key is found\n    in the project settings of the Creatomate dashboard.'\n  sources:\n  - openapi/creatomate-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/creatomate/refs/heads/main/authentication/creatomate-authentication.yml
+source_yaml_url: https://artifacts.apis.io/creatomate/authentication/creatomate-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Media

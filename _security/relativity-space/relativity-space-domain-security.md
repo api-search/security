@@ -5,19 +5,19 @@ api_specs:
   label: Relativity Space Terran R Launch
   slug: terran-r-launch
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relativity-space/refs/heads/main/openapi/_original/relativity-space-openapi.yml
+  url: https://artifacts.apis.io/relativity-space/openapi/_original/relativity-space-openapi.yml
 - filename: relativity-space-openapi.yml
   format: yaml
   label: Relativity Space Stargate Manufacturing
   slug: stargate-manufacturing
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relativity-space/refs/heads/main/openapi/_original/relativity-space-openapi.yml
+  url: https://artifacts.apis.io/relativity-space/openapi/_original/relativity-space-openapi.yml
 - filename: relativity-space-openapi.yml
   format: yaml
   label: Relativity Space Payload and Rideshare
   slug: payload-rideshare
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relativity-space/refs/heads/main/openapi/_original/relativity-space-openapi.yml
+  url: https://artifacts.apis.io/relativity-space/openapi/_original/relativity-space-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: relativity-space-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.relativityspace.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 05:15:18 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: relativityspace.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/relativity-space/refs/heads/main/security/relativity-space-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/relativity-space/security/relativity-space-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Aerospace

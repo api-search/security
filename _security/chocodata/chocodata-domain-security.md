@@ -5,43 +5,43 @@ api_specs:
   label: Chocodata Amazon API
   slug: chocodata-amazon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/openapi/chocodata-amazon-api-openapi.yml
+  url: https://artifacts.apis.io/chocodata/openapi/chocodata-amazon-api-openapi.yml
 - filename: chocodata-chocodata-api-openapi.yml
   format: yaml
   label: Chocodata Chocodata API
   slug: chocodata-chocodata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/openapi/chocodata-chocodata-api-openapi.yml
+  url: https://artifacts.apis.io/chocodata/openapi/chocodata-chocodata-api-openapi.yml
 - filename: chocodata-reddit-api-openapi.yml
   format: yaml
   label: Chocodata Reddit API
   slug: chocodata-reddit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/openapi/chocodata-reddit-api-openapi.yml
+  url: https://artifacts.apis.io/chocodata/openapi/chocodata-reddit-api-openapi.yml
 - filename: chocodata-universal-api-openapi.yml
   format: yaml
   label: Chocodata Universal API
   slug: chocodata-universal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/openapi/chocodata-universal-api-openapi.yml
+  url: https://artifacts.apis.io/chocodata/openapi/chocodata-universal-api-openapi.yml
 - filename: chocodata-youtube-api-openapi.yml
   format: yaml
   label: Chocodata Youtube API
   slug: chocodata-youtube-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/openapi/chocodata-youtube-api-openapi.yml
+  url: https://artifacts.apis.io/chocodata/openapi/chocodata-youtube-api-openapi.yml
 - filename: chocodata-app-store-api-openapi.yml
   format: yaml
   label: Chocodata App Store API
   slug: chocodata-app-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/openapi/chocodata-app-store-api-openapi.yml
+  url: https://artifacts.apis.io/chocodata/openapi/chocodata-app-store-api-openapi.yml
 - filename: chocodata-google-play-api-openapi.yml
   format: yaml
   label: Chocodata Google Play API
   slug: chocodata-google-play-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/openapi/chocodata-google-play-api-openapi.yml
+  url: https://artifacts.apis.io/chocodata/openapi/chocodata-google-play-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -82,7 +82,7 @@ source_filename: chocodata-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: chocodata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  1 01:47:31 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.chocodata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 03:56:52 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: chocodata.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/security/chocodata-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/chocodata/security/chocodata-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Web Scraping

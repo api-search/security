@@ -7,37 +7,37 @@ api_specs:
   label: Matter Account API
   slug: matter-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/openapi/matter-account-api-openapi.yml
+  url: https://artifacts.apis.io/matter/openapi/matter-account-api-openapi.yml
 - filename: matter-annotations-api-openapi.yml
   format: yaml
   label: Matter Annotations API
   slug: matter-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/openapi/matter-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/matter/openapi/matter-annotations-api-openapi.yml
 - filename: matter-items-api-openapi.yml
   format: yaml
   label: Matter Items API
   slug: matter-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/openapi/matter-items-api-openapi.yml
+  url: https://artifacts.apis.io/matter/openapi/matter-items-api-openapi.yml
 - filename: matter-reading-sessions-api-openapi.yml
   format: yaml
   label: Matter Reading Sessions API
   slug: matter-reading-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/openapi/matter-reading-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/matter/openapi/matter-reading-sessions-api-openapi.yml
 - filename: matter-search-api-openapi.yml
   format: yaml
   label: Matter Search API
   slug: matter-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/openapi/matter-search-api-openapi.yml
+  url: https://artifacts.apis.io/matter/openapi/matter-search-api-openapi.yml
 - filename: matter-tags-api-openapi.yml
   format: yaml
   label: Matter Tags API
   slug: matter-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/openapi/matter-tags-api-openapi.yml
+  url: https://artifacts.apis.io/matter/openapi/matter-tags-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -65,7 +65,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/matter-openapi-original.yml\ndocs: https://docs.getmatter.com/api/authentication\nsummary:\n  types:\n  - http\n  http_schemes:\n  - bearer\nmodel: >-\n  Single personal access token per account, passed as an HTTP Bearer token in\n  the Authorization header on every request. Tokens carry the `mat_` prefix and\n  grant full read/write access to the owner's library. Only one token is active\n  at a time — generating or regenerating immediately revokes the previous token.\n  There are no OAuth flows, refresh tokens, or scopes. Every request also\n  requires an active Matter Pro subscription (403 pro_required otherwise).\ntoken:\n  prefix: mat_\n  generate_at: https://web.getmatter.com/settings\n  one_active_token: true\n  rotation: Generating a new token immediately revokes the previous one.\nrequires_subscription: Matter Pro\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Personal API token\
   \ with `mat_` prefix. Generate one at https://web.getmatter.com/settings.\n  sources:\n  - openapi/matter-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/authentication/matter-authentication.yml
+source_yaml_url: https://artifacts.apis.io/matter/authentication/matter-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

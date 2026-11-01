@@ -5,55 +5,55 @@ api_specs:
   label: Invoiced Credit Notes API
   slug: invoiced-credit-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-credit-notes-api-openapi.yml
+  url: https://artifacts.apis.io/invoiced/openapi/invoiced-credit-notes-api-openapi.yml
 - filename: invoiced-customers-api-openapi.yml
   format: yaml
   label: Invoiced Customers API
   slug: invoiced-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-customers-api-openapi.yml
+  url: https://artifacts.apis.io/invoiced/openapi/invoiced-customers-api-openapi.yml
 - filename: invoiced-estimates-api-openapi.yml
   format: yaml
   label: Invoiced Estimates API
   slug: invoiced-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/invoiced/openapi/invoiced-estimates-api-openapi.yml
 - filename: invoiced-events-api-openapi.yml
   format: yaml
   label: Invoiced Events API
   slug: invoiced-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-events-api-openapi.yml
+  url: https://artifacts.apis.io/invoiced/openapi/invoiced-events-api-openapi.yml
 - filename: invoiced-invoices-api-openapi.yml
   format: yaml
   label: Invoiced Invoices API
   slug: invoiced-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/invoiced/openapi/invoiced-invoices-api-openapi.yml
 - filename: invoiced-items-api-openapi.yml
   format: yaml
   label: Invoiced Items API
   slug: invoiced-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-items-api-openapi.yml
+  url: https://artifacts.apis.io/invoiced/openapi/invoiced-items-api-openapi.yml
 - filename: invoiced-payments-api-openapi.yml
   format: yaml
   label: Invoiced Payments API
   slug: invoiced-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-payments-api-openapi.yml
+  url: https://artifacts.apis.io/invoiced/openapi/invoiced-payments-api-openapi.yml
 - filename: invoiced-plans-api-openapi.yml
   format: yaml
   label: Invoiced Plans API
   slug: invoiced-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-plans-api-openapi.yml
+  url: https://artifacts.apis.io/invoiced/openapi/invoiced-plans-api-openapi.yml
 - filename: invoiced-subscriptions-api-openapi.yml
   format: yaml
   label: Invoiced Subscriptions API
   slug: invoiced-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/invoiced/openapi/invoiced-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -93,7 +93,7 @@ source_filename: invoiced-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.invoiced.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 23:42:53 2026 GMT\n  hsts: false\n- host: developer.invoiced.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 23:45:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.invoiced.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 18 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: invoiced.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/security/invoiced-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/invoiced/security/invoiced-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Accounts Receivable

@@ -38,7 +38,7 @@ source_filename: shopee-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: open.shopee.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 27 10:05:16 2026 GMT\n  hsts: false\n- host: partner.shopeemobile.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 12:08:12 2026 GMT\n  hsts: null\ndomains:\n- domain: shopee.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: shopeemobile.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shopee/refs/heads/main/security/shopee-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/shopee/security/shopee-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - E-Commerce

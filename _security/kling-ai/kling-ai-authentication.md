@@ -7,49 +7,49 @@ api_specs:
   label: Kling AI Account API
   slug: kling-ai-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-account-api-openapi.yml
+  url: https://artifacts.apis.io/kling-ai/openapi/kling-ai-account-api-openapi.yml
 - filename: kling-ai-image-generation-api-openapi.yml
   format: yaml
   label: Kling AI Image Generation API
   slug: kling-ai-image-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-image-generation-api-openapi.yml
+  url: https://artifacts.apis.io/kling-ai/openapi/kling-ai-image-generation-api-openapi.yml
 - filename: kling-ai-image-to-video-api-openapi.yml
   format: yaml
   label: Kling AI Image-to-Video API
   slug: kling-ai-image-to-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-image-to-video-api-openapi.yml
+  url: https://artifacts.apis.io/kling-ai/openapi/kling-ai-image-to-video-api-openapi.yml
 - filename: kling-ai-lip-sync-api-openapi.yml
   format: yaml
   label: Kling AI Lip-Sync API
   slug: kling-ai-lip-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-lip-sync-api-openapi.yml
+  url: https://artifacts.apis.io/kling-ai/openapi/kling-ai-lip-sync-api-openapi.yml
 - filename: kling-ai-text-to-video-api-openapi.yml
   format: yaml
   label: Kling AI Text-to-Video API
   slug: kling-ai-text-to-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-text-to-video-api-openapi.yml
+  url: https://artifacts.apis.io/kling-ai/openapi/kling-ai-text-to-video-api-openapi.yml
 - filename: kling-ai-video-effects-api-openapi.yml
   format: yaml
   label: Kling AI Video Effects API
   slug: kling-ai-video-effects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-video-effects-api-openapi.yml
+  url: https://artifacts.apis.io/kling-ai/openapi/kling-ai-video-effects-api-openapi.yml
 - filename: kling-ai-video-extension-api-openapi.yml
   format: yaml
   label: Kling AI Video Extension API
   slug: kling-ai-video-extension-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-video-extension-api-openapi.yml
+  url: https://artifacts.apis.io/kling-ai/openapi/kling-ai-video-extension-api-openapi.yml
 - filename: kling-ai-virtual-try-on-api-openapi.yml
   format: yaml
   label: Kling AI Virtual Try-On API
   slug: kling-ai-virtual-try-on-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-virtual-try-on-api-openapi.yml
+  url: https://artifacts.apis.io/kling-ai/openapi/kling-ai-virtual-try-on-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -78,7 +78,7 @@ source_filename: kling-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/kling-ai-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: >-\n    Kling AI authenticates each request with a short-lived JSON Web Token\n    signed from an Access Key / Secret Key pair issued in the Kling AI Open\n    Platform console. The JWT is created client-side with the HS256 algorithm:\n    the Access Key becomes the `iss` claim, `exp` is set roughly 30 minutes in\n    the future, and `nbf` is set about 5 seconds in the past. The Secret Key is\n    the signing secret. The resulting token is sent as `Authorization: Bearer\n    <token>` on every call. Because tokens expire in ~30 minutes, clients\n    typically regenerate (and cache) tokens rather than reusing a static key.\n  sources:\n  - openapi/kling-ai-openapi.yml\n  - https://app.klingai.com/global/dev/document-api/apiReference/commonInfo\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/authentication/kling-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kling-ai/authentication/kling-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Video Generation

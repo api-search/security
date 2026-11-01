@@ -5,25 +5,25 @@ api_specs:
   label: University of Freiburg Institutions API
   slug: university-of-freiburg-institutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-freiburg/refs/heads/main/openapi/university-of-freiburg-institutions-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-freiburg/openapi/university-of-freiburg-institutions-api-openapi.yml
 - filename: university-of-freiburg-persons-api-openapi.yml
   format: yaml
   label: University of Freiburg Persons API
   slug: university-of-freiburg-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-freiburg/refs/heads/main/openapi/university-of-freiburg-persons-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-freiburg/openapi/university-of-freiburg-persons-api-openapi.yml
 - filename: university-of-freiburg-projects-api-openapi.yml
   format: yaml
   label: University of Freiburg Projects API
   slug: university-of-freiburg-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-freiburg/refs/heads/main/openapi/university-of-freiburg-projects-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-freiburg/openapi/university-of-freiburg-projects-api-openapi.yml
 - filename: university-of-freiburg-publications-api-openapi.yml
   format: yaml
   label: University of Freiburg Publications API
   slug: university-of-freiburg-publications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-freiburg/refs/heads/main/openapi/university-of-freiburg-publications-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-freiburg/openapi/university-of-freiburg-publications-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: university-of-freiburg-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.uni-freiburg.de\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 07:43:22 2026 GMT\n  hsts: false\n- host: freidok.uni-freiburg.de\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 01:32:34 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: www.ub.uni-freiburg.de\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 08:24:02 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: uni-freiburg.de\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-freiburg/refs/heads/main/security/university-of-freiburg-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/university-of-freiburg/security/university-of-freiburg-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Education

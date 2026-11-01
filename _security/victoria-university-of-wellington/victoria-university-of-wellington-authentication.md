@@ -7,19 +7,19 @@ api_specs:
   label: Victoria University of Wellington Research Repository API
   slug: victoria-university-of-wellington-researchrepository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/victoria-university-of-wellington/refs/heads/main/openapi/victoria-university-of-wellington-researchrepository-api-openapi.yml
+  url: https://artifacts.apis.io/victoria-university-of-wellington/openapi/victoria-university-of-wellington-researchrepository-api-openapi.yml
 - filename: victoria-university-of-wellington-website-api-openapi.yml
   format: yaml
   label: Victoria University of Wellington Website API
   slug: victoria-university-of-wellington-website-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/victoria-university-of-wellington/refs/heads/main/openapi/victoria-university-of-wellington-website-api-openapi.yml
+  url: https://artifacts.apis.io/victoria-university-of-wellington/openapi/victoria-university-of-wellington-website-api-openapi.yml
 - filename: victoria-university-of-wellington-identity-federation-api-openapi.yml
   format: yaml
   label: Victoria University of Wellington Identity Federation API
   slug: victoria-university-of-wellington-identity-federation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/victoria-university-of-wellington/refs/heads/main/openapi/victoria-university-of-wellington-identity-federation-api-openapi.yml
+  url: https://artifacts.apis.io/victoria-university-of-wellington/openapi/victoria-university-of-wellington-identity-federation-api-openapi.yml
 auth_types: []
 description: Authentication posture across Te Herenga Waka—Victoria University of Wellington's programmable surfaces. The institution issues no API keys and operates no developer portal, so there is nothing to register for. Every surface is either fully open or gated behind institutional identity — there is no middle tier.
 kind: authentication
@@ -45,7 +45,7 @@ source_yaml: "specification: API Commons Authentication\nspecificationVersion: '
   \ >-\n    Instructure Canvas REST API. Anonymous call returns HTTP 401\n    {\"status\":\"unauthenticated\",\"errors\":[{\"message\":\"user authorisation required\"}]}. Access\n    requires a Canvas OAuth2 token issued to a VUW account; browser sign-on federates to the\n    university's Microsoft Entra ID tenant.\n- name: Symplectic Elements research information system\n  operator: tenant\n  url: https://elements.wgtn.ac.nz/\n  scheme: institutional\n  detail: >-\n    HTTP 401 to an anonymous request. Host CNAMEs to vuw.elements.symplectic.org. The Elements API\n    is available to the institution under its Symplectic contract but is not public.\n- name: Enterprise single sign-on (WSO2 Identity Server)\n  operator: institution\n  url: https://auth-eis.vuw.ac.nz/\n  scheme: saml\n  detail: >-\n    Self-hosted WSO2 Identity Server, resolving directly to 130.195.13.55 with no CNAME. It is the\n    SAML issuer behind studentrecords.vuw.ac.nz, reached at /samlsso with a signed SAMLRequest and\n\
   \    RelayState /c/auth/SSB. Every discovery endpoint WSO2 normally publishes returns HTTP 403 from a\n    web application firewall that echoes a signature ID and the caller's IP — live and protected,\n    not missing.\n\n- name: Student records (Ellucian Banner Self-Service)\n  operator: tenant\n  url: https://studentrecords.vuw.ac.nz/\n  scheme: saml\n  detail: >-\n    HTTP 200 only after a redirect into the WSO2 SAML flow. No anonymous read, no public API, no\n    documented interface. Self-hosted on institution infrastructure (130.195.15.120, no CNAME); the\n    contract remains Ellucian's.\n\n- name: Microsoft Entra ID tenant\n  operator: tenant\n  url: https://login.microsoftonline.com/cfe63e23-6951-427e-8683-bb84dcf1d20c/v2.0/.well-known/openid-configuration\n  scheme: oidc\n  detail: >-\n    OpenID Connect discovery document for the university's Entra ID tenant returns HTTP 200\n    anonymously, as does the WS-Federation/SAML federationmetadata document. Discovery is open;\n  \
   \  every token endpoint behind it requires a registered client.\nnotes: >-\n  No institution-issued API credential of any kind was found. Nothing here is purchasable, and\n  nothing here is self-service.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/victoria-university-of-wellington/refs/heads/main/authentication/victoria-university-of-wellington-authentication.yml
+source_yaml_url: https://artifacts.apis.io/victoria-university-of-wellington/authentication/victoria-university-of-wellington-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

@@ -5,25 +5,25 @@ api_specs:
   label: Vendr Catalog API
   slug: vendr-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendr/refs/heads/main/openapi/vendr-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/vendr/openapi/vendr-catalog-api-openapi.yml
 - filename: vendr-pricing-api-openapi.yml
   format: yaml
   label: Vendr Pricing API
   slug: vendr-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendr/refs/heads/main/openapi/vendr-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/vendr/openapi/vendr-pricing-api-openapi.yml
 - filename: vendr-scope-api-openapi.yml
   format: yaml
   label: Vendr Scope API
   slug: vendr-scope-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendr/refs/heads/main/openapi/vendr-scope-api-openapi.yml
+  url: https://artifacts.apis.io/vendr/openapi/vendr-scope-api-openapi.yml
 - filename: vendr-webhooks-api-openapi.yml
   format: yaml
   label: Vendr Webhooks API
   slug: vendr-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendr/refs/heads/main/openapi/vendr-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/vendr/openapi/vendr-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: vendr-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.vendr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.vendr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 00:41:10 2026 GMT\n  hsts: false\n- host: api.vendr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 13:47:42 2026 GMT\n  hsts: null\ndomains:\n- domain: vendr.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vendr/refs/heads/main/security/vendr-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vendr/security/vendr-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Pricing

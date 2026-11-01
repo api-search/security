@@ -5,55 +5,55 @@ api_specs:
   label: Mercury Webhooks API
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/asyncapi/mercury-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/mercury/asyncapi/mercury-webhooks-asyncapi.yml
 - filename: mercury-accounts-api-openapi.yml
   format: yaml
   label: Mercury Accounts API
   slug: mercury-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/openapi/mercury-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/mercury/openapi/mercury-accounts-api-openapi.yml
 - filename: mercury-cards-api-openapi.yml
   format: yaml
   label: Mercury Cards API
   slug: mercury-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/openapi/mercury-cards-api-openapi.yml
+  url: https://artifacts.apis.io/mercury/openapi/mercury-cards-api-openapi.yml
 - filename: mercury-payments-api-openapi.yml
   format: yaml
   label: Mercury Payments API
   slug: mercury-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/openapi/mercury-payments-api-openapi.yml
+  url: https://artifacts.apis.io/mercury/openapi/mercury-payments-api-openapi.yml
 - filename: mercury-recipients-api-openapi.yml
   format: yaml
   label: Mercury Recipients API
   slug: mercury-recipients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/openapi/mercury-recipients-api-openapi.yml
+  url: https://artifacts.apis.io/mercury/openapi/mercury-recipients-api-openapi.yml
 - filename: mercury-statements-api-openapi.yml
   format: yaml
   label: Mercury Statements API
   slug: mercury-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/openapi/mercury-statements-api-openapi.yml
+  url: https://artifacts.apis.io/mercury/openapi/mercury-statements-api-openapi.yml
 - filename: mercury-transactions-api-openapi.yml
   format: yaml
   label: Mercury Transactions API
   slug: mercury-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/openapi/mercury-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/mercury/openapi/mercury-transactions-api-openapi.yml
 - filename: mercury-treasury-api-openapi.yml
   format: yaml
   label: Mercury Treasury API
   slug: mercury-treasury-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/openapi/mercury-treasury-api-openapi.yml
+  url: https://artifacts.apis.io/mercury/openapi/mercury-treasury-api-openapi.yml
 - filename: mercury-webhooks-api-openapi.yml
   format: yaml
   label: Mercury Webhooks API
   slug: mercury-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/openapi/mercury-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/mercury/openapi/mercury-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -101,7 +101,7 @@ source_filename: mercury-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mercury.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 01:14:04 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.mercury.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 20:12:08 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.mercury.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 01:14:04 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: mercury.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/security/mercury-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mercury/security/mercury-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Banking

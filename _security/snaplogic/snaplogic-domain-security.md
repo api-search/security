@@ -5,25 +5,25 @@ api_specs:
   label: SnapLogic Asset Management API
   slug: snaplogic-asset-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/openapi/snaplogic-asset-management-api-openapi.yml
+  url: https://artifacts.apis.io/snaplogic/openapi/snaplogic-asset-management-api-openapi.yml
 - filename: snaplogic-runtime-api-openapi.yml
   format: yaml
   label: SnapLogic Runtime API
   slug: snaplogic-runtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/openapi/snaplogic-runtime-api-openapi.yml
+  url: https://artifacts.apis.io/snaplogic/openapi/snaplogic-runtime-api-openapi.yml
 - filename: snaplogic-tasks-api-openapi.yml
   format: yaml
   label: SnapLogic Tasks API
   slug: snaplogic-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/openapi/snaplogic-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/snaplogic/openapi/snaplogic-tasks-api-openapi.yml
 - filename: snaplogic-users-and-groups-api-openapi.yml
   format: yaml
   label: SnapLogic Users and Groups API
   slug: snaplogic-users-and-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/openapi/snaplogic-users-and-groups-api-openapi.yml
+  url: https://artifacts.apis.io/snaplogic/openapi/snaplogic-users-and-groups-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -68,7 +68,7 @@ source_filename: snaplogic-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.snaplogic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 09:27:40 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.snaplogic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 16:47:48 2026 GMT\n  hsts: false\n- host: docs.snaplogic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 01:33:24 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: snaplogic.com\n  dnssec: false\n  caa:\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/security/snaplogic-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/snaplogic/security/snaplogic-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

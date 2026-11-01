@@ -5,37 +5,37 @@ api_specs:
   label: SavvyCal Current User API
   slug: savvycal-current-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/savvycal/refs/heads/main/openapi/savvycal-current-user-api-openapi.yml
+  url: https://artifacts.apis.io/savvycal/openapi/savvycal-current-user-api-openapi.yml
 - filename: savvycal-events-api-openapi.yml
   format: yaml
   label: SavvyCal Events API
   slug: savvycal-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/savvycal/refs/heads/main/openapi/savvycal-events-api-openapi.yml
+  url: https://artifacts.apis.io/savvycal/openapi/savvycal-events-api-openapi.yml
 - filename: savvycal-scheduling-links-api-openapi.yml
   format: yaml
   label: SavvyCal Scheduling Links API
   slug: savvycal-scheduling-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/savvycal/refs/heads/main/openapi/savvycal-scheduling-links-api-openapi.yml
+  url: https://artifacts.apis.io/savvycal/openapi/savvycal-scheduling-links-api-openapi.yml
 - filename: savvycal-webhooks-api-openapi.yml
   format: yaml
   label: SavvyCal Webhooks API
   slug: savvycal-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/savvycal/refs/heads/main/openapi/savvycal-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/savvycal/openapi/savvycal-webhooks-api-openapi.yml
 - filename: savvycal-workflows-api-openapi.yml
   format: yaml
   label: SavvyCal Workflows API
   slug: savvycal-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/savvycal/refs/heads/main/openapi/savvycal-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/savvycal/openapi/savvycal-workflows-api-openapi.yml
 - filename: savvycal-timezones-api-openapi.yml
   format: yaml
   label: SavvyCal Timezones API
   slug: savvycal-timezones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/savvycal/refs/heads/main/openapi/savvycal-timezones-api-openapi.yml
+  url: https://artifacts.apis.io/savvycal/openapi/savvycal-timezones-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: savvycal-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: savvycal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 23:21:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.savvycal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 10:48:18 2026 GMT\n  hsts: false\n- host: api.savvycal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 23:21:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: savvycal.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/savvycal/refs/heads/main/security/savvycal-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/savvycal/security/savvycal-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Scheduling

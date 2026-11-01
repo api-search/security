@@ -8,13 +8,13 @@ api_specs:
   label: Arcjet Decide API
   slug: arcjet-decide-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcjet/refs/heads/main/openapi/arcjet-decide-api-openapi.yml
+  url: https://artifacts.apis.io/arcjet/openapi/arcjet-decide-api-openapi.yml
 - filename: arcjet-report-api-openapi.yml
   format: yaml
   label: Arcjet Report API
   slug: arcjet-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcjet/refs/heads/main/openapi/arcjet-report-api-openapi.yml
+  url: https://artifacts.apis.io/arcjet/openapi/arcjet-report-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: arcjet-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/arcjet-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: arcjetKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Arcjet site key, supplied by the SDK from the ARCJET_KEY environment variable.\n  sources:\n  - openapi/arcjet-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arcjet/refs/heads/main/authentication/arcjet-authentication.yml
+source_yaml_url: https://artifacts.apis.io/arcjet/authentication/arcjet-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Security

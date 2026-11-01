@@ -7,19 +7,19 @@ api_specs:
   label: Cloudflare AI Gateway Gateways API
   slug: cloudflare-ai-gateway-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-ai-gateway/refs/heads/main/openapi/cloudflare-ai-gateway-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-ai-gateway/openapi/cloudflare-ai-gateway-gateways-api-openapi.yml
 - filename: cloudflare-ai-gateway-logs-api-openapi.yml
   format: yaml
   label: Cloudflare AI Gateway Logs API
   slug: cloudflare-ai-gateway-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-ai-gateway/refs/heads/main/openapi/cloudflare-ai-gateway-logs-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-ai-gateway/openapi/cloudflare-ai-gateway-logs-api-openapi.yml
 - filename: cloudflare-ai-gateway-proxy-api-openapi.yml
   format: yaml
   label: Cloudflare AI Gateway Proxy API
   slug: cloudflare-ai-gateway-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-ai-gateway/refs/heads/main/openapi/cloudflare-ai-gateway-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-ai-gateway/openapi/cloudflare-ai-gateway-proxy-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -48,7 +48,7 @@ source_filename: cloudflare-ai-gateway-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cloudflare-ai-gateway-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: |-\n    Cloudflare API token with AI Gateway Read/Edit (and Workers AI Read\n    when applicable) permissions, passed as `Authorization: Bearer <token>`.\n  sources:\n  - openapi/cloudflare-ai-gateway-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudflare-ai-gateway/refs/heads/main/authentication/cloudflare-ai-gateway-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cloudflare-ai-gateway/authentication/cloudflare-ai-gateway-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - AI Gateway

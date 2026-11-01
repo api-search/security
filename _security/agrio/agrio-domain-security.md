@@ -5,19 +5,19 @@ api_specs:
   label: agrio Balance API
   slug: agrio-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrio/refs/heads/main/openapi/agrio-balance-api-openapi.yml
+  url: https://artifacts.apis.io/agrio/openapi/agrio-balance-api-openapi.yml
 - filename: agrio-crops-api-openapi.yml
   format: yaml
   label: agrio Crops API
   slug: agrio-crops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrio/refs/heads/main/openapi/agrio-crops-api-openapi.yml
+  url: https://artifacts.apis.io/agrio/openapi/agrio-crops-api-openapi.yml
 - filename: agrio-diagnose-api-openapi.yml
   format: yaml
   label: agrio Diagnose API
   slug: agrio-diagnose-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrio/refs/heads/main/openapi/agrio-diagnose-api-openapi.yml
+  url: https://artifacts.apis.io/agrio/openapi/agrio-diagnose-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: agrio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: agrio.app\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov  4 13:49:52 2026 GMT\n  hsts: false\n- host: pro.agrio.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 14:14:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\n- host: agrio-api-gateway-6it0wqn1.uc.gateway.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:05 2026 GMT\n  hsts: null\ndomains:\n- domain: agrio.app\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: gateway.dev\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agrio/refs/heads/main/security/agrio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/agrio/security/agrio-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Agriculture

@@ -7,25 +7,25 @@ api_specs:
   label: Google Cloud Migration Center Assets API
   slug: google-cloud-migration-center-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-migration-center/refs/heads/main/openapi/google-cloud-migration-center-assets-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-migration-center/openapi/google-cloud-migration-center-assets-api-openapi.yml
 - filename: google-cloud-migration-center-groups-api-openapi.yml
   format: yaml
   label: Google Cloud Migration Center Groups API
   slug: google-cloud-migration-center-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-migration-center/refs/heads/main/openapi/google-cloud-migration-center-groups-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-migration-center/openapi/google-cloud-migration-center-groups-api-openapi.yml
 - filename: google-cloud-migration-center-preferencesets-api-openapi.yml
   format: yaml
   label: Google Cloud Migration Center PreferenceSets API
   slug: google-cloud-migration-center-preferencesets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-migration-center/refs/heads/main/openapi/google-cloud-migration-center-preferencesets-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-migration-center/openapi/google-cloud-migration-center-preferencesets-api-openapi.yml
 - filename: google-cloud-migration-center-import-jobs-api-openapi.yml
   format: yaml
   label: Google Cloud Migration Center Import Jobs API
   slug: google-cloud-migration-center-import-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-migration-center/refs/heads/main/openapi/google-cloud-migration-center-import-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-migration-center/openapi/google-cloud-migration-center-import-jobs-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -56,7 +56,7 @@ source_filename: google-cloud-migration-center-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/migration-center-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 1\n  sources:\n  - openapi/migration-center-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-migration-center/refs/heads/main/authentication/google-cloud-migration-center-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-migration-center/authentication/google-cloud-migration-center-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Cloud Migration

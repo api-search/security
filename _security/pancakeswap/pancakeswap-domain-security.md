@@ -5,37 +5,37 @@ api_specs:
   label: PancakeSwap Leaderboard API
   slug: pancakeswap-leaderboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pancakeswap/refs/heads/main/openapi/pancakeswap-leaderboard-api-openapi.yml
+  url: https://artifacts.apis.io/pancakeswap/openapi/pancakeswap-leaderboard-api-openapi.yml
 - filename: pancakeswap-miscellaneous-api-openapi.yml
   format: yaml
   label: PancakeSwap Miscellaneous API
   slug: pancakeswap-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pancakeswap/refs/heads/main/openapi/pancakeswap-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/pancakeswap/openapi/pancakeswap-miscellaneous-api-openapi.yml
 - filename: pancakeswap-pairs-api-openapi.yml
   format: yaml
   label: PancakeSwap Pairs API
   slug: pancakeswap-pairs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pancakeswap/refs/heads/main/openapi/pancakeswap-pairs-api-openapi.yml
+  url: https://artifacts.apis.io/pancakeswap/openapi/pancakeswap-pairs-api-openapi.yml
 - filename: pancakeswap-summary-api-openapi.yml
   format: yaml
   label: PancakeSwap Summary API
   slug: pancakeswap-summary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pancakeswap/refs/heads/main/openapi/pancakeswap-summary-api-openapi.yml
+  url: https://artifacts.apis.io/pancakeswap/openapi/pancakeswap-summary-api-openapi.yml
 - filename: pancakeswap-tokens-api-openapi.yml
   format: yaml
   label: PancakeSwap Tokens API
   slug: pancakeswap-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pancakeswap/refs/heads/main/openapi/pancakeswap-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/pancakeswap/openapi/pancakeswap-tokens-api-openapi.yml
 - filename: pancakeswap-users-api-openapi.yml
   format: yaml
   label: PancakeSwap Users API
   slug: pancakeswap-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pancakeswap/refs/heads/main/openapi/pancakeswap-users-api-openapi.yml
+  url: https://artifacts.apis.io/pancakeswap/openapi/pancakeswap-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: pancakeswap-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pancakeswap.finance\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 23:02:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.pancakeswap.info\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 20:59:37 2026 GMT\n  hsts: null\n- host: nodereal.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: pancakeswap.finance\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: pancakeswap.info\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pancakeswap/refs/heads/main/security/pancakeswap-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pancakeswap/security/pancakeswap-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - DeFi

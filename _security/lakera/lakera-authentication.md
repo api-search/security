@@ -2,24 +2,30 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: lakera-guard-api-openapi.yml
-  format: yaml
-  label: Lakera Guard API
-  slug: lakera-guard-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/openapi/lakera-guard-api-openapi.yml
-- filename: lakera-health-api-openapi.yml
-  format: yaml
-  label: Lakera Health API
-  slug: lakera-health-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/openapi/lakera-health-api-openapi.yml
 - filename: lakera-policies-api-openapi.yml
   format: yaml
   label: Lakera Policies API
   slug: lakera-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/openapi/lakera-policies-api-openapi.yml
+  url: https://artifacts.apis.io/lakera/openapi/lakera-policies-api-openapi.yml
+- filename: lakera-analytics-api-openapi.yml
+  format: yaml
+  label: Lakera Analytics API
+  slug: lakera-analytics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lakera/openapi/lakera-analytics-api-openapi.yml
+- filename: lakera-logs-api-openapi.yml
+  format: yaml
+  label: Lakera Logs API
+  slug: lakera-logs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lakera/openapi/lakera-logs-api-openapi.yml
+- filename: lakera-projects-api-openapi.yml
+  format: yaml
+  label: Lakera Projects API
+  slug: lakera-projects-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lakera/openapi/lakera-projects-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +52,7 @@ source_filename: lakera-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/lakera-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Bearer token issued in the Lakera dashboard. Header format: `Authorization:\n    Bearer ${LAKERA_GUARD_API_KEY}`. Self-hosted deployments may run without authentication.'\n  sources:\n  - openapi/lakera-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/authentication/lakera-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lakera/authentication/lakera-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - AI Security

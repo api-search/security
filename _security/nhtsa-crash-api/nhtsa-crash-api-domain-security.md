@@ -5,19 +5,19 @@ api_specs:
   label: NHTSA Crash API Cases API
   slug: nhtsa-crash-api-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhtsa-crash-api/refs/heads/main/openapi/nhtsa-crash-api-cases-api-openapi.yml
+  url: https://artifacts.apis.io/nhtsa-crash-api/openapi/nhtsa-crash-api-cases-api-openapi.yml
 - filename: nhtsa-crash-api-crashes-api-openapi.yml
   format: yaml
   label: NHTSA Crash API Crashes API
   slug: nhtsa-crash-api-crashes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhtsa-crash-api/refs/heads/main/openapi/nhtsa-crash-api-crashes-api-openapi.yml
+  url: https://artifacts.apis.io/nhtsa-crash-api/openapi/nhtsa-crash-api-crashes-api-openapi.yml
 - filename: nhtsa-crash-api-fars-api-openapi.yml
   format: yaml
   label: NHTSA Crash API FARS API
   slug: nhtsa-crash-api-fars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhtsa-crash-api/refs/heads/main/openapi/nhtsa-crash-api-fars-api-openapi.yml
+  url: https://artifacts.apis.io/nhtsa-crash-api/openapi/nhtsa-crash-api-fars-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: nhtsa-crash-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nhtsa.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 23:59:59 2026 GMT\n  hsts: null\n- host: crashviewer.nhtsa.dot.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: nhtsa.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: dot.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nhtsa-crash-api/refs/heads/main/security/nhtsa-crash-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nhtsa-crash-api/security/nhtsa-crash-api-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Crash Data

@@ -8,25 +8,25 @@ api_specs:
   label: Pusher Channels API
   slug: channels-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pusher/refs/heads/main/asyncapi/pusher-asyncapi.yml
+  url: https://artifacts.apis.io/pusher/asyncapi/pusher-asyncapi.yml
 - filename: pusher-channels-api-openapi.yml
   format: yaml
   label: Pusher Channels API
   slug: pusher-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pusher/refs/heads/main/openapi/pusher-channels-api-openapi.yml
+  url: https://artifacts.apis.io/pusher/openapi/pusher-channels-api-openapi.yml
 - filename: pusher-events-api-openapi.yml
   format: yaml
   label: Pusher Events API
   slug: pusher-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pusher/refs/heads/main/openapi/pusher-events-api-openapi.yml
+  url: https://artifacts.apis.io/pusher/openapi/pusher-events-api-openapi.yml
 - filename: pusher-users-api-openapi.yml
   format: yaml
   label: Pusher Users API
   slug: pusher-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pusher/refs/heads/main/openapi/pusher-users-api-openapi.yml
+  url: https://artifacts.apis.io/pusher/openapi/pusher-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: pusher-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pusher-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: hmacAuth\n  type: apiKey\n  in: query\n  parameter: auth_signature\n  description: |-\n    Pusher request signing. Every request must include the query\n    parameters `auth_key`, `auth_timestamp` (Unix seconds),\n    `auth_version=1.0`, `body_md5` (hex MD5 of the request body when\n    present), and `auth_signature`. `auth_signature` is the\n    HMAC-SHA256 (hex) of the canonical string\n    `\"<METHOD>\\n<PATH>\\n<SORTED_QUERY_STRING>\"` using the application\n    secret as the key.\n  sources:\n  - openapi/pusher-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pusher/refs/heads/main/authentication/pusher-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pusher/authentication/pusher-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Real-Time

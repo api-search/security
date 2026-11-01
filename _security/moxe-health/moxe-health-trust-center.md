@@ -5,13 +5,13 @@ api_specs:
   label: Moxe Health Claims API
   slug: moxe-health-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moxe-health/refs/heads/main/openapi/moxe-health-claims-api-openapi.yml
+  url: https://artifacts.apis.io/moxe-health/openapi/moxe-health-claims-api-openapi.yml
 - filename: moxe-health-patient-api-openapi.yml
   format: yaml
   label: Moxe Health Patient API
   slug: moxe-health-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moxe-health/refs/heads/main/openapi/moxe-health-patient-api-openapi.yml
+  url: https://artifacts.apis.io/moxe-health/openapi/moxe-health-patient-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -30,7 +30,7 @@ source_filename: moxe-health-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: searched\nprobe: true\nsource: https://moxehealth.com/security\nurl: https://moxehealth.com/security\ncertifications:\n- SOC 2\n- HIPAA\n- GDPR\nevidence:\n- source: https://moxehealth.com/security\n  keywords:\n  - soc 2\n  - soc2\n  - hipaa\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moxe-health/refs/heads/main/security/moxe-health-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/moxe-health/security/moxe-health-trust-center.yml
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Healthcare

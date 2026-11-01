@@ -5,49 +5,49 @@ api_specs:
   label: Webhook Relay Buckets API
   slug: webhook-relay-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webhook-relay/refs/heads/main/openapi/webhook-relay-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/webhook-relay/openapi/webhook-relay-buckets-api-openapi.yml
 - filename: webhook-relay-domains-api-openapi.yml
   format: yaml
   label: Webhook Relay Domains API
   slug: webhook-relay-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webhook-relay/refs/heads/main/openapi/webhook-relay-domains-api-openapi.yml
+  url: https://artifacts.apis.io/webhook-relay/openapi/webhook-relay-domains-api-openapi.yml
 - filename: webhook-relay-functions-api-openapi.yml
   format: yaml
   label: Webhook Relay Functions API
   slug: webhook-relay-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webhook-relay/refs/heads/main/openapi/webhook-relay-functions-api-openapi.yml
+  url: https://artifacts.apis.io/webhook-relay/openapi/webhook-relay-functions-api-openapi.yml
 - filename: webhook-relay-inputs-api-openapi.yml
   format: yaml
   label: Webhook Relay Inputs API
   slug: webhook-relay-inputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webhook-relay/refs/heads/main/openapi/webhook-relay-inputs-api-openapi.yml
+  url: https://artifacts.apis.io/webhook-relay/openapi/webhook-relay-inputs-api-openapi.yml
 - filename: webhook-relay-logs-api-openapi.yml
   format: yaml
   label: Webhook Relay Logs API
   slug: webhook-relay-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webhook-relay/refs/heads/main/openapi/webhook-relay-logs-api-openapi.yml
+  url: https://artifacts.apis.io/webhook-relay/openapi/webhook-relay-logs-api-openapi.yml
 - filename: webhook-relay-outputs-api-openapi.yml
   format: yaml
   label: Webhook Relay Outputs API
   slug: webhook-relay-outputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webhook-relay/refs/heads/main/openapi/webhook-relay-outputs-api-openapi.yml
+  url: https://artifacts.apis.io/webhook-relay/openapi/webhook-relay-outputs-api-openapi.yml
 - filename: webhook-relay-tokens-api-openapi.yml
   format: yaml
   label: Webhook Relay Tokens API
   slug: webhook-relay-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webhook-relay/refs/heads/main/openapi/webhook-relay-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/webhook-relay/openapi/webhook-relay-tokens-api-openapi.yml
 - filename: webhook-relay-tunnels-api-openapi.yml
   format: yaml
   label: Webhook Relay Tunnels API
   slug: webhook-relay-tunnels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webhook-relay/refs/heads/main/openapi/webhook-relay-tunnels-api-openapi.yml
+  url: https://artifacts.apis.io/webhook-relay/openapi/webhook-relay-tunnels-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: webhook-relay-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: webhookrelay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  7 09:02:55 2026 GMT\n  hsts: false\ndomains:\n- domain: webhookrelay.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/webhook-relay/refs/heads/main/security/webhook-relay-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/webhook-relay/security/webhook-relay-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

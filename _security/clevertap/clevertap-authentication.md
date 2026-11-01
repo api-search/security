@@ -8,25 +8,25 @@ api_specs:
   label: CleverTap Campaigns API
   slug: clevertap-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/openapi/clevertap-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/clevertap/openapi/clevertap-campaigns-api-openapi.yml
 - filename: clevertap-events-api-openapi.yml
   format: yaml
   label: CleverTap Events API
   slug: clevertap-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/openapi/clevertap-events-api-openapi.yml
+  url: https://artifacts.apis.io/clevertap/openapi/clevertap-events-api-openapi.yml
 - filename: clevertap-profiles-api-openapi.yml
   format: yaml
   label: CleverTap Profiles API
   slug: clevertap-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/openapi/clevertap-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/clevertap/openapi/clevertap-profiles-api-openapi.yml
 - filename: clevertap-reports-api-openapi.yml
   format: yaml
   label: CleverTap Reports API
   slug: clevertap-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/openapi/clevertap-reports-api-openapi.yml
+  url: https://artifacts.apis.io/clevertap/openapi/clevertap-reports-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/clevert
   \ Exactly one token exists per account; it is valid for one\n      year, and regenerating it immediately invalidates the previous token. SCIM\n      and IdP tokens are not interchangeable.\n    surface: scim\n    sources:\n      - https://developer.clevertap.com/docs/scim-user-provisioning-using-api\n  - name: MCP OAuth 2.1\n    type: oauth2\n    description: >-\n      The remote MCP server at mcp.clevertap.com is OAuth-protected with dynamic\n      client registration and PKCE. This is the only CleverTap surface using\n      OAuth.\n    surface: mcp\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://mcp.clevertap.com/oauth/authorize\n        tokenUrl: https://mcp.clevertap.com/oauth/token\n        registrationUrl: https://mcp.clevertap.com/oauth/register\n        scopes: 4\n        pkce: S256\n      - flow: refreshToken\n        tokenUrl: https://mcp.clevertap.com/oauth/token\n    sources:\n      - well-known/clevertap-oauth-authorization-server.json\n   \
   \   - well-known/clevertap-oauth-protected-resource.json\n    detail: scopes/clevertap-scopes.yml\nposture:\n  rotation_documented: false\n  expiry:\n    rest: none\n    scim: 1 year\n    mcp: access token + refresh token\n  scoping:\n    rest: none\n    mcp: identity scopes only (openid, profile, email, offline_access)\n  mtls: false\n  ip_allowlisting: true\n  ip_allowlist_note: >-\n    CleverTap publishes its outbound IP ranges for customers allowlisting\n    CleverTap traffic, and offers \"restricted IP access\" as a dashboard security\n    control.\n  ip_ranges_doc: https://developer.clevertap.com/docs/clevertap-ip-ranges\n  payload_encryption:\n    supported: true\n    scheme: HPKE\n    doc: https://developer.clevertap.com/docs/api-encryption\n  regional_binding:\n    note: >-\n      Credentials are bound to the account's data-center region. Presenting valid\n      credentials to the wrong regional host returns HTTP 401 Unauthorized rather\n      than a redirect.\n    doc: https://developer.clevertap.com/docs/common-api-components\n\
   \  gap: >-\n    The REST API — the surface that carries all customer data — uses two static,\n    non-expiring, unscoped header credentials. There is no token exchange, no\n    least-privilege scope, no documented rotation procedure and no expiry. An\n    agent given these headers holds full account authority indefinitely.\nx-evidence:\n  fetched: '2026-08-13'\n  urls:\n    - url: https://developer.clevertap.com/docs/authentication\n      status: 200\n    - url: https://developer.clevertap.com/docs/common-api-components\n      status: 200\n    - url: https://developer.clevertap.com/docs/scim-user-provisioning-using-api\n      status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/authentication/clevertap-authentication.yml
+source_yaml_url: https://artifacts.apis.io/clevertap/authentication/clevertap-authentication.yml
 summary_line: apiKey/http/oauth2 · 4 schemes
 tags:
 - Audiences

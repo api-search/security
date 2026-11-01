@@ -8,13 +8,13 @@ api_specs:
   label: Cofactr Batch API
   slug: cofactr-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/openapi/cofactr-batch-api-openapi.yml
+  url: https://artifacts.apis.io/cofactr/openapi/cofactr-batch-api-openapi.yml
 - filename: cofactr-products-api-openapi.yml
   format: yaml
   label: Cofactr Products API
   slug: cofactr-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/openapi/cofactr-products-api-openapi.yml
+  url: https://artifacts.apis.io/cofactr/openapi/cofactr-products-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -61,7 +61,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/cofactr-knowledge-graph-openapi-original.json\ndocs: https://support.cofactr.com/collections/5590442793-developer_resources\nkeys_url: https://platform.cofactr.com/integrations/api-keys\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  apis:\n    Cofactr Knowledge Graph: X-CLIENT-ID + X-API-KEY headers (one credential set, server-side only)\n    Cofactr Platform API: \"Authorization: Api-Key <key> (case-sensitive)\"\n  sso: SAML SSO available for the platform (support KB \"Configuring SAML SSO\")\nschemes:\n- name: PlatformApiKey\n  api: Cofactr Platform API\n  type: apiKey\n  in: header\n  parameter: Authorization\n  format: \"Api-Key <key>\"\n  case_sensitive: true\n  keys_url: https://platform.cofactr.com/integrations/api-keys\n  description: >-\n    Platform API (flagship-api.cofactr.com) authenticates with a case-sensitive\n    \"Authorization: Api-Key <key>\" header. Keys are generated in the platform.\n\
   \  sources:\n  - https://support.cofactr.com/articles/4081898446-cofactr-platform-api-documentation\n- name: ApiKey\n  type: apiKey\n  in: header\n  parameter: X-API-KEY\n  description: Issued with your client ID as one Cofactr credential set. Never expose your API\n    key in front-end code or public Git repositories. The Cofactr API is for server-side use\n    only. Public disclosure of a key results in immediate revocation without prior warning.\n  sources:\n  - openapi/cofactr-knowledge-graph-openapi-original.json\n- name: ClientId\n  type: apiKey\n  in: header\n  parameter: X-CLIENT-ID\n  description: Issued with your API key as one Cofactr credential set.\n  sources:\n  - openapi/cofactr-knowledge-graph-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/authentication/cofactr-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cofactr/authentication/cofactr-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - Company

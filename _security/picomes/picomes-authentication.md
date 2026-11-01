@@ -2,24 +2,30 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
+- filename: picomes-openapi-generated.yml
+  format: yaml
+  label: Picomes API
+  slug: picomes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/picomes/openapi/_ae-authored/picomes-openapi-generated.yml
 - filename: picomes-graph-api-openapi.yml
   format: yaml
   label: Picomes Graph API
   slug: picomes-graph-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picomes/refs/heads/main/openapi/picomes-graph-api-openapi.yml
+  url: https://artifacts.apis.io/picomes/openapi/picomes-graph-api-openapi.yml
 - filename: picomes-pico-webhooks-api-openapi.yml
   format: yaml
   label: Picomes Pico Webhooks API
   slug: picomes-pico-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picomes/refs/heads/main/openapi/picomes-pico-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/picomes/openapi/picomes-pico-webhooks-api-openapi.yml
 - filename: picomes-uploads-api-openapi.yml
   format: yaml
   label: Picomes Uploads API
   slug: picomes-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picomes/refs/heads/main/openapi/picomes-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/picomes/openapi/picomes-uploads-api-openapi.yml
 auth_types: []
 description: Authentication schemes for Picomes API
 kind: authentication
@@ -45,7 +51,7 @@ source_filename: picomes-authentication.yml
 source_heading: Authentication Profile
 source_url: https://apidocs.picomes.com/guides/authentication/index.html
 source_yaml: "generated: '2026-10-12'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://apidocs.picomes.com/guides/authentication/index.html\nsources:\n- https://apidocs.picomes.com/guides/authentication/index.html\n- https://apidocs.picomes.com/types/inputs/oauth-config-input/index.html\ndescription: Authentication schemes for Picomes API\nschemes:\n- type: apiKey\n  name: x-pico-api-org\n  evidence: 'To authenticate API requests, include your token in the x-pico-api-org header: x-pico-api-org: your-api-token'\n  location: header\n  header: x-pico-api-org\n  how_to_obtain: API tokens are generated on a per-instance basis. To request an authentication token for your Pico instance, please contact support.\ndocs: https://apidocs.picomes.com/guides/authentication/index.html\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/picomes/refs/heads/main/authentication/picomes-authentication.yml
+source_yaml_url: https://artifacts.apis.io/picomes/authentication/picomes-authentication.yml
 summary_line: 1 scheme
 tags:
 - Manufacturing

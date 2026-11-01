@@ -7,25 +7,25 @@ api_specs:
   label: Google Cloud IAM Permissions API
   slug: google-cloud-iam-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/openapi/google-cloud-iam-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-iam/openapi/google-cloud-iam-permissions-api-openapi.yml
 - filename: google-cloud-iam-roles-api-openapi.yml
   format: yaml
   label: Google Cloud IAM Roles API
   slug: google-cloud-iam-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/openapi/google-cloud-iam-roles-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-iam/openapi/google-cloud-iam-roles-api-openapi.yml
 - filename: google-cloud-iam-service-account-keys-api-openapi.yml
   format: yaml
   label: Google Cloud IAM Service Account Keys API
   slug: google-cloud-iam-service-account-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/openapi/google-cloud-iam-service-account-keys-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-iam/openapi/google-cloud-iam-service-account-keys-api-openapi.yml
 - filename: google-cloud-iam-service-accounts-api-openapi.yml
   format: yaml
   label: Google Cloud IAM Service Accounts API
   slug: google-cloud-iam-service-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/openapi/google-cloud-iam-service-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-iam/openapi/google-cloud-iam-service-accounts-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -56,7 +56,7 @@ source_filename: google-cloud-iam-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 2\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/authentication/google-cloud-iam-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-iam/authentication/google-cloud-iam-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Identity and Access Management

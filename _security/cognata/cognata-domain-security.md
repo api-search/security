@@ -27,13 +27,13 @@ source_filename: cognata-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cognata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 27 22:21:15 2026 GMT\n  hsts: false\ndomains:\n- domain: cognata.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cognata/refs/heads/main/security/cognata-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cognata/security/cognata-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Autonomous Vehicles
 - Simulation
 - Defense
-- Off‑Road
+- Off-Road
 - Hardware Retrofit
 - AI Data Augmentation
 - Sensor Fusion

@@ -5,31 +5,31 @@ api_specs:
   label: Veritas NetBackup Clients API
   slug: veritas-netbackup-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/openapi/veritas-netbackup-clients-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-netbackup/openapi/veritas-netbackup-clients-api-openapi.yml
 - filename: veritas-netbackup-images-api-openapi.yml
   format: yaml
   label: Veritas NetBackup Images API
   slug: veritas-netbackup-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/openapi/veritas-netbackup-images-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-netbackup/openapi/veritas-netbackup-images-api-openapi.yml
 - filename: veritas-netbackup-jobs-api-openapi.yml
   format: yaml
   label: Veritas NetBackup Jobs API
   slug: veritas-netbackup-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/openapi/veritas-netbackup-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-netbackup/openapi/veritas-netbackup-jobs-api-openapi.yml
 - filename: veritas-netbackup-login-api-openapi.yml
   format: yaml
   label: Veritas NetBackup Login API
   slug: veritas-netbackup-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/openapi/veritas-netbackup-login-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-netbackup/openapi/veritas-netbackup-login-api-openapi.yml
 - filename: veritas-netbackup-policies-api-openapi.yml
   format: yaml
   label: Veritas NetBackup Policies API
   slug: veritas-netbackup-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/openapi/veritas-netbackup-policies-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-netbackup/openapi/veritas-netbackup-policies-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: veritas-netbackup-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.veritas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 16 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: veritas.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/security/veritas-netbackup-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/veritas-netbackup/security/veritas-netbackup-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Backup

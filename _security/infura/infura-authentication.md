@@ -8,13 +8,13 @@ api_specs:
   label: Infura JSON-RPC API
   slug: json-rpc
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infura/refs/heads/main/asyncapi/infura-asyncapi.yml
+  url: https://artifacts.apis.io/infura/asyncapi/infura-asyncapi.yml
 - filename: infura-infura-metamask-developer-json-rpc-api-api-openapi.yml
   format: yaml
   label: Infura (MetaMask Developer) JSON RPC API
   slug: infura-infura-metamask-developer-json-rpc-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infura/refs/heads/main/openapi/infura-infura-metamask-developer-json-rpc-api-api-openapi.yml
+  url: https://artifacts.apis.io/infura/openapi/infura-infura-metamask-developer-json-rpc-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -46,7 +46,7 @@ source_filename: infura-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/infura-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyInPath\n  type: apiKey\n  in: query\n  parameter: apiKey\n  description: |-\n    Infura API keys are passed as a path segment in the server URL\n    (https://mainnet.infura.io/v3/<YOUR-API-KEY>), not as a query parameter\n    or header. This security scheme is a documentation hint only.\n  sources:\n  - openapi/infura-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infura/refs/heads/main/authentication/infura-authentication.yml
+source_yaml_url: https://artifacts.apis.io/infura/authentication/infura-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Web3

@@ -7,37 +7,37 @@ api_specs:
   label: Whereby Insights API
   slug: whereby-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/openapi/whereby-insights-api-openapi.yml
+  url: https://artifacts.apis.io/whereby/openapi/whereby-insights-api-openapi.yml
 - filename: whereby-meetings-api-openapi.yml
   format: yaml
   label: Whereby Meetings API
   slug: whereby-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/openapi/whereby-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/whereby/openapi/whereby-meetings-api-openapi.yml
 - filename: whereby-recordings-api-openapi.yml
   format: yaml
   label: Whereby Recordings API
   slug: whereby-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/openapi/whereby-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/whereby/openapi/whereby-recordings-api-openapi.yml
 - filename: whereby-rooms-api-openapi.yml
   format: yaml
   label: Whereby Rooms API
   slug: whereby-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/openapi/whereby-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/whereby/openapi/whereby-rooms-api-openapi.yml
 - filename: whereby-summaries-api-openapi.yml
   format: yaml
   label: Whereby Summaries API
   slug: whereby-summaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/openapi/whereby-summaries-api-openapi.yml
+  url: https://artifacts.apis.io/whereby/openapi/whereby-summaries-api-openapi.yml
 - filename: whereby-transcriptions-api-openapi.yml
   format: yaml
   label: Whereby Transcriptions API
   slug: whereby-transcriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/openapi/whereby-transcriptions-api-openapi.yml
+  url: https://artifacts.apis.io/whereby/openapi/whereby-transcriptions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +64,7 @@ source_filename: whereby-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/whereby-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/whereby-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/authentication/whereby-authentication.yml
+source_yaml_url: https://artifacts.apis.io/whereby/authentication/whereby-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Video

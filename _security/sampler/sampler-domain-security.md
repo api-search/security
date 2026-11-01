@@ -24,7 +24,7 @@ source_filename: sampler-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sampler.io\n  https: false\ndomains:\n- domain: sampler.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sampler/refs/heads/main/security/sampler-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sampler/security/sampler-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

@@ -7,31 +7,31 @@ api_specs:
   label: Unitary AI API Authentication API
   slug: unitary-ai-api-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/openapi/unitary-ai-api-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/unitary-ai/openapi/unitary-ai-api-authentication-api-openapi.yml
 - filename: unitary-ai-detoxify-api-openapi.yml
   format: yaml
   label: Unitary AI Detoxify API
   slug: unitary-ai-detoxify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/openapi/unitary-ai-detoxify-api-openapi.yml
+  url: https://artifacts.apis.io/unitary-ai/openapi/unitary-ai-detoxify-api-openapi.yml
 - filename: unitary-ai-items-characteristics-api-openapi.yml
   format: yaml
   label: Unitary AI Items & Characteristics API
   slug: unitary-ai-items-characteristics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/openapi/unitary-ai-items-characteristics-api-openapi.yml
+  url: https://artifacts.apis.io/unitary-ai/openapi/unitary-ai-items-characteristics-api-openapi.yml
 - filename: unitary-ai-moderation-api-openapi.yml
   format: yaml
   label: Unitary AI Moderation API
   slug: unitary-ai-moderation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/openapi/unitary-ai-moderation-api-openapi.yml
+  url: https://artifacts.apis.io/unitary-ai/openapi/unitary-ai-moderation-api-openapi.yml
 - filename: unitary-ai-policy-classification-api-openapi.yml
   format: yaml
   label: Unitary AI Policy Classification API
   slug: unitary-ai-policy-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/openapi/unitary-ai-policy-classification-api-openapi.yml
+  url: https://artifacts.apis.io/unitary-ai/openapi/unitary-ai-policy-classification-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -61,7 +61,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/unitary-ai-content-classification-openapi-original.yaml\ndocs: https://docs.unitary.ai/api-references/authentication\nsummary:\n  types:\n  - http\n  flow: api-key-for-token exchange\n  notes: >-\n    API keys are issued by Unitary (email support@unitary.ai — no self-serve\n    signup). POST https://api.unitary.ai/v1/authenticate with form field\n    key={API_KEY} (application/x-www-form-urlencoded) returns {api_token,\n    expiry}; the api_token is a JWT valid for ~24 hours and is sent as\n    Authorization: Bearer {api_token} on all other endpoints. /authenticate is\n    rate-limited — clients must re-use tokens until expiry. A separate preshared\n    secret (issued with the API key) signs webhook payloads via the\n    X-Hub-Signature-256 header (base64 HMAC-SHA256).\nschemes:\n- name: JWTBearer\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  token_ttl: 24h\n  token_endpoint: https://api.unitary.ai/v1/authenticate\n\
   \  sources:\n  - openapi/unitary-ai-content-classification-openapi-original.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/authentication/unitary-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/unitary-ai/authentication/unitary-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

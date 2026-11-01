@@ -5,7 +5,7 @@ api_specs:
   label: StepFun Realtime API
   slug: realtime-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stepfun/refs/heads/main/asyncapi/stepfun-realtime-asyncapi.yml
+  url: https://artifacts.apis.io/stepfun/asyncapi/stepfun-realtime-asyncapi.yml
 description: ''
 domains:
 - caa:
@@ -44,7 +44,7 @@ source_filename: stepfun-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.stepfun.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 23:59:59 2026 GMT\n  hsts: false\n- host: platform.stepfun.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 23:59:59 2026 GMT\n  hsts: false\n- host: api.stepfun.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: stepfun.com\n  dnssec: true\n  caa:\n  - redirect.stepfun.com.\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stepfun/refs/heads/main/security/stepfun-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/stepfun/security/stepfun-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Artificial Intelligence

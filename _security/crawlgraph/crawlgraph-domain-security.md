@@ -5,31 +5,31 @@ api_specs:
   label: CrawlGraph Backlinks API
   slug: crawlgraph-backlinks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawlgraph/refs/heads/main/openapi/crawlgraph-backlinks-api-openapi.yml
+  url: https://artifacts.apis.io/crawlgraph/openapi/crawlgraph-backlinks-api-openapi.yml
 - filename: crawlgraph-changes-api-openapi.yml
   format: yaml
   label: CrawlGraph Changes API
   slug: crawlgraph-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawlgraph/refs/heads/main/openapi/crawlgraph-changes-api-openapi.yml
+  url: https://artifacts.apis.io/crawlgraph/openapi/crawlgraph-changes-api-openapi.yml
 - filename: crawlgraph-free-key-api-openapi.yml
   format: yaml
   label: CrawlGraph Free Key API
   slug: crawlgraph-free-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawlgraph/refs/heads/main/openapi/crawlgraph-free-key-api-openapi.yml
+  url: https://artifacts.apis.io/crawlgraph/openapi/crawlgraph-free-key-api-openapi.yml
 - filename: crawlgraph-gap-analysis-api-openapi.yml
   format: yaml
   label: CrawlGraph Gap Analysis API
   slug: crawlgraph-gap-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawlgraph/refs/heads/main/openapi/crawlgraph-gap-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/crawlgraph/openapi/crawlgraph-gap-analysis-api-openapi.yml
 - filename: crawlgraph-releases-api-openapi.yml
   format: yaml
   label: CrawlGraph Releases API
   slug: crawlgraph-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawlgraph/refs/heads/main/openapi/crawlgraph-releases-api-openapi.yml
+  url: https://artifacts.apis.io/crawlgraph/openapi/crawlgraph-releases-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: crawlgraph-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: crawlgraph.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 17 20:31:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: crawlgraph.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crawlgraph/refs/heads/main/security/crawlgraph-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/crawlgraph/security/crawlgraph-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - SEO

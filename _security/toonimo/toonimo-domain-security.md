@@ -32,7 +32,7 @@ source_filename: toonimo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live probe of toonimo.com (curl TLS/HTTP HEAD + dig)\nhosts:\n  - host: www.toonimo.com\n    https: true\n    http_version: \"1.1\"\n    tls_verified: true\n    hsts: true\n    hsts_max_age: 31536000\n    hsts_include_subdomains: true\n    hsts_preload: true\ndomains:\n  - domain: toonimo.com\n    dnssec: false\n    caa: []\n    spf: true\n    spf_record: \"v=spf1 include:_spf.google.com include:26161334.spf03.hubspotemail.net -all\"\n    dmarc: true\n    dmarc_policy: none\n    mx: google-workspace\nnotes: >-\n  HSTS is strong (max-age 31536000, includeSubDomains, preload). No DNSSEC and\n  no CAA records published. SPF present; DMARC published but policy is p=none\n  (monitor-only, not enforcing). Email handled by Google Workspace + HubSpot.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toonimo/refs/heads/main/security/toonimo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/toonimo/security/toonimo-domain-security.yml
 summary_line: HSTS · DMARC
 tags:
 - Company

@@ -5,37 +5,37 @@ api_specs:
   label: Gameflip Account API
   slug: gameflip-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/openapi/gameflip-account-api-openapi.yml
+  url: https://artifacts.apis.io/gameflip/openapi/gameflip-account-api-openapi.yml
 - filename: gameflip-exchange-api-openapi.yml
   format: yaml
   label: Gameflip Exchange API
   slug: gameflip-exchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/openapi/gameflip-exchange-api-openapi.yml
+  url: https://artifacts.apis.io/gameflip/openapi/gameflip-exchange-api-openapi.yml
 - filename: gameflip-listing-api-openapi.yml
   format: yaml
   label: Gameflip Listing API
   slug: gameflip-listing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/openapi/gameflip-listing-api-openapi.yml
+  url: https://artifacts.apis.io/gameflip/openapi/gameflip-listing-api-openapi.yml
 - filename: gameflip-profile-api-openapi.yml
   format: yaml
   label: Gameflip Profile API
   slug: gameflip-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/openapi/gameflip-profile-api-openapi.yml
+  url: https://artifacts.apis.io/gameflip/openapi/gameflip-profile-api-openapi.yml
 - filename: gameflip-steam-bulk-api-openapi.yml
   format: yaml
   label: Gameflip Steam Bulk API
   slug: gameflip-steam-bulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/openapi/gameflip-steam-bulk-api-openapi.yml
+  url: https://artifacts.apis.io/gameflip/openapi/gameflip-steam-bulk-api-openapi.yml
 - filename: gameflip-steam-escrow-api-openapi.yml
   format: yaml
   label: Gameflip Steam Escrow API
   slug: gameflip-steam-escrow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/openapi/gameflip-steam-escrow-api-openapi.yml
+  url: https://artifacts.apis.io/gameflip/openapi/gameflip-steam-escrow-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -82,7 +82,7 @@ source_filename: gameflip-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gameflip.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\n- host: production-gameflip.fingershock.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 23:59:59 2026 GMT\n  hsts: null\n- host: test-gameflip.fingershock.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: gameflip.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: fingershock.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazonaws.com\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/security/gameflip-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gameflip/security/gameflip-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

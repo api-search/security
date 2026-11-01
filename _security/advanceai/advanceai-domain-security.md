@@ -5,25 +5,25 @@ api_specs:
   label: ADVANCE.AI Authentication API
   slug: advanceai-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advanceai/refs/heads/main/openapi/advanceai-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/advanceai/openapi/advanceai-authentication-api-openapi.yml
 - filename: advanceai-document-verification-api-openapi.yml
   format: yaml
   label: ADVANCE.AI Document Verification API
   slug: advanceai-document-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advanceai/refs/heads/main/openapi/advanceai-document-verification-api-openapi.yml
+  url: https://artifacts.apis.io/advanceai/openapi/advanceai-document-verification-api-openapi.yml
 - filename: advanceai-face-comparison-api-openapi.yml
   format: yaml
   label: ADVANCE.AI Face Comparison API
   slug: advanceai-face-comparison-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advanceai/refs/heads/main/openapi/advanceai-face-comparison-api-openapi.yml
+  url: https://artifacts.apis.io/advanceai/openapi/advanceai-face-comparison-api-openapi.yml
 - filename: advanceai-liveness-detection-api-openapi.yml
   format: yaml
   label: ADVANCE.AI Liveness Detection API
   slug: advanceai-liveness-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advanceai/refs/heads/main/openapi/advanceai-liveness-detection-api-openapi.yml
+  url: https://artifacts.apis.io/advanceai/openapi/advanceai-liveness-detection-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: advanceai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: advance.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 01:35:17 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: doc.advance.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.advance.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 20 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: advance.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/advanceai/refs/heads/main/security/advanceai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/advanceai/security/advanceai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

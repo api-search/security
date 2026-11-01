@@ -5,25 +5,25 @@ api_specs:
   label: Vayana Network Authorization Suite API
   slug: vayana-network-authorization-suite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vayana-network/refs/heads/main/openapi/vayana-network-authorization-suite-api-openapi.yml
+  url: https://artifacts.apis.io/vayana-network/openapi/vayana-network-authorization-suite-api-openapi.yml
 - filename: vayana-network-compliance-suite-api-openapi.yml
   format: yaml
   label: Vayana Network Compliance Suite API
   slug: vayana-network-compliance-suite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vayana-network/refs/heads/main/openapi/vayana-network-compliance-suite-api-openapi.yml
+  url: https://artifacts.apis.io/vayana-network/openapi/vayana-network-compliance-suite-api-openapi.yml
 - filename: vayana-network-support-suite-api-openapi.yml
   format: yaml
   label: Vayana Network Support Suite API
   slug: vayana-network-support-suite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vayana-network/refs/heads/main/openapi/vayana-network-support-suite-api-openapi.yml
+  url: https://artifacts.apis.io/vayana-network/openapi/vayana-network-support-suite-api-openapi.yml
 - filename: vayana-network-verification-suite-api-openapi.yml
   format: yaml
   label: Vayana Network Verification Suite API
   slug: vayana-network-verification-suite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vayana-network/refs/heads/main/openapi/vayana-network-verification-suite-api-openapi.yml
+  url: https://artifacts.apis.io/vayana-network/openapi/vayana-network-verification-suite-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: vayana-network-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.vayana.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  6 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: atlas.vayana.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: s.api.one.vayana.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 17 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: vayana.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vayana-network/refs/heads/main/security/vayana-network-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vayana-network/security/vayana-network-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

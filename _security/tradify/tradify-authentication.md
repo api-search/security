@@ -7,31 +7,31 @@ api_specs:
   label: Tradify Customers API
   slug: tradify-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradify/refs/heads/main/openapi/tradify-customers-api-openapi.yml
+  url: https://artifacts.apis.io/tradify/openapi/tradify-customers-api-openapi.yml
 - filename: tradify-invoices-api-openapi.yml
   format: yaml
   label: Tradify Invoices API
   slug: tradify-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradify/refs/heads/main/openapi/tradify-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/tradify/openapi/tradify-invoices-api-openapi.yml
 - filename: tradify-jobs-api-openapi.yml
   format: yaml
   label: Tradify Jobs API
   slug: tradify-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradify/refs/heads/main/openapi/tradify-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/tradify/openapi/tradify-jobs-api-openapi.yml
 - filename: tradify-quotes-api-openapi.yml
   format: yaml
   label: Tradify Quotes API
   slug: tradify-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradify/refs/heads/main/openapi/tradify-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/tradify/openapi/tradify-quotes-api-openapi.yml
 - filename: tradify-timesheets-api-openapi.yml
   format: yaml
   label: Tradify Timesheets API
   slug: tradify-timesheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradify/refs/heads/main/openapi/tradify-timesheets-api-openapi.yml
+  url: https://artifacts.apis.io/tradify/openapi/tradify-timesheets-api-openapi.yml
 auth_types:
 - session
 description: ''
@@ -68,12 +68,12 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: modeled\nsource: >-\n  Product/help-centre review plus unofficial third-party proxy descriptions. No\n  official Tradify public API authentication documentation exists.\nsummary:\n  types:\n  - session\n  publicApiKeys: false\n  developerPortal: false\nnotes: >-\n  Tradify does NOT publish a public developer API, so there is no documented,\n  self-serve API authentication (no API keys, no OAuth client registration, no\n  personal access tokens). End users sign in to the Tradify web and mobile apps\n  with a username/password and MFA; the app backend (api.tradifyhq.com) then\n  uses a session token that is not documented for third-party use. Unofficial\n  proxies (e.g. Supergood) obtain access by automating that username/password +\n  MFA sign-in and replaying the resulting session. Supported third-party data\n  exchange is instead handled by Tradify's pre-built accounting/payment\n  integrations, where authentication happens on the partner side\
   \ - for example,\n  the Xero integration is authorized with Xero's own OAuth 2.0 flow, not a\n  Tradify credential.\nschemes:\n- name: sessionAuth\n  type: session\n  in: header\n  scheme: bearer\n  modeled: true\n  description: >-\n    MODELED. Session token issued after username/password + MFA sign-in to the\n    Tradify apps. Undocumented and not offered as a public API credential.\n  sources:\n  - https://supergood.ai/docs/tradify-api\n- name: partnerOAuth\n  type: oauth2\n  modeled: false\n  description: >-\n    Authentication for Tradify's supported integrations happens on the partner\n    platform. For example, connecting Xero uses Xero's OAuth 2.0 authorization,\n    not a Tradify-issued API credential.\n  sources:\n  - https://www.tradifyhq.com/xero-and-tradify-addon\n  - https://help.tradifyhq.com/hc/en-us/articles/360019239014-Understanding-Xero-and-Tradify-s-Integration\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tradify/refs/heads/main/authentication/tradify-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tradify/authentication/tradify-authentication.yml
 summary_line: session · 2 schemes
 tags:
 - Job Management
 - Trade
-- Field Service
+- Field Service Management
 - Scheduling
 - Quoting
 - Invoicing

@@ -8,79 +8,79 @@ api_specs:
   label: Lightfield Accounts API
   slug: lightfield-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-accounts-api-openapi.yml
 - filename: lightfield-auth-api-openapi.yml
   format: yaml
   label: Lightfield Auth API
   slug: lightfield-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-auth-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-auth-api-openapi.yml
 - filename: lightfield-contacts-api-openapi.yml
   format: yaml
   label: Lightfield Contacts API
   slug: lightfield-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-contacts-api-openapi.yml
 - filename: lightfield-emails-api-openapi.yml
   format: yaml
   label: Lightfield Emails API
   slug: lightfield-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-emails-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-emails-api-openapi.yml
 - filename: lightfield-files-api-openapi.yml
   format: yaml
   label: Lightfield Files API
   slug: lightfield-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-files-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-files-api-openapi.yml
 - filename: lightfield-lists-api-openapi.yml
   format: yaml
   label: Lightfield Lists API
   slug: lightfield-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-lists-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-lists-api-openapi.yml
 - filename: lightfield-meetings-api-openapi.yml
   format: yaml
   label: Lightfield Meetings API
   slug: lightfield-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-meetings-api-openapi.yml
 - filename: lightfield-members-api-openapi.yml
   format: yaml
   label: Lightfield Members API
   slug: lightfield-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-members-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-members-api-openapi.yml
 - filename: lightfield-notes-api-openapi.yml
   format: yaml
   label: Lightfield Notes API
   slug: lightfield-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-notes-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-notes-api-openapi.yml
 - filename: lightfield-objects-api-openapi.yml
   format: yaml
   label: Lightfield Objects API
   slug: lightfield-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-objects-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-objects-api-openapi.yml
 - filename: lightfield-opportunities-api-openapi.yml
   format: yaml
   label: Lightfield Opportunities API
   slug: lightfield-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-opportunities-api-openapi.yml
 - filename: lightfield-tasks-api-openapi.yml
   format: yaml
   label: Lightfield Tasks API
   slug: lightfield-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-tasks-api-openapi.yml
 - filename: lightfield-workflow-run-api-openapi.yml
   format: yaml
   label: Lightfield Workflow Run API
   slug: lightfield-workflow-run-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-workflow-run-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-workflow-run-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -164,7 +164,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/lightfield-openapi-original.yml\ndocs: https://docs.lightfield.app/using-the-api/api-keys/\nsummary:\n  types:\n  - http\n  - oauth2\n  http_schemes: [bearer]\n  api_key_in: [header]\n  oauth2_flows: [authorizationCode]\n  note: >-\n    The REST API uses a scoped bearer API key. OAuth 2.1 applies only to the hosted MCP server, not\n    to the REST surface.\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  surface: rest-api\n  header: Authorization\n  format: 'Bearer [example key]'\n  key_prefix: sk_lf_\n  sources:\n  - openapi/lightfield-openapi-original.yml\n  docs: https://docs.lightfield.app/using-the-api/api-keys/\n  scoped: true\n  scopes_artifact: scopes/lightfield-scopes.yml\n  scope_count: 26\n  management:\n    url: https://crm.lightfield.app/crm/settings/api-keys\n    who_can_manage: admin users only\n    display_policy: Keys are shown once at creation and cannot be viewed again.\n    revocation:\
   \ immediate and permanent\n  authorization_model: >-\n    A key's access is the intersection of the scopes selected at creation and the roles of the admin\n    who created it, evaluated at creation time.\n  additional_required_headers:\n  - name: Lightfield-Version\n    value: '2026-03-01'\n    required: true\n    error_code_when_missing: version_header\n  failure_modes:\n  - status: 401\n    type: unauthorized\n    cause: Missing or invalid API key.\n  - status: 403\n    type: forbidden\n    cause: Valid key without the required scope for the operation.\n  cli_support:\n    env_var: LIGHTFIELD_API_KEY\n    flag: --api-key\n  leaked_key_remediation: https://docs.lightfield.app/using-the-api/leaked-api-key-remediation/\n- name: mcpOAuth\n  type: oauth2\n  surface: mcp-server\n  resource: https://mcp.lightfield.app/mcp\n  spec: OAuth 2.1\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://crm.lightfield.app/mcp/authorize\n    tokenUrl: https://api.stytch.lightfield.app/v1/oauth2/token\n\
   \    registrationUrl: https://api.stytch.lightfield.app/v1/oauth2/register\n    refreshSupported: true\n    pkce: [S256]\n    scopes:\n      openid: OpenID Connect authentication\n      offline_access: Refresh-token issuance\n  issuer: https://api.stytch.lightfield.app\n  dynamic_client_registration: true\n  token_endpoint_auth_methods: [none]\n  sources:\n  - well-known/lightfield-oauth-authorization-server.json\n  - well-known/lightfield-oauth-protected-resource.json\n  docs: https://docs.lightfield.app/getting-started/mcp-quickstart/\nsso:\n  supported: true\n  note: >-\n    Single sign-on was announced in the 2026-05-29 changelog entry; it applies to the application,\n    not to API authentication.\nbest_practices:\n- Use the narrowest scope an integration requires.\n- Never expose keys in client-side code, public repositories, or logs; use environment variables or\n  a secrets manager.\n- Use separate keys per integration so access can be revoked independently.\n- Rotate keys periodically.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/authentication/lightfield-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lightfield/authentication/lightfield-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

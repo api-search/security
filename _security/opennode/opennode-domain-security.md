@@ -5,67 +5,67 @@ api_specs:
   label: OpenNode Charges API
   slug: opennode-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/openapi/opennode-charges-api-openapi.yml
+  url: https://artifacts.apis.io/opennode/openapi/opennode-charges-api-openapi.yml
 - filename: opennode-withdrawals-api-openapi.yml
   format: yaml
   label: OpenNode Withdrawals API
   slug: opennode-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/openapi/opennode-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/opennode/openapi/opennode-withdrawals-api-openapi.yml
 - filename: opennode-refunds-api-openapi.yml
   format: yaml
   label: OpenNode Refunds API
   slug: opennode-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/openapi/opennode-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/opennode/openapi/opennode-refunds-api-openapi.yml
 - filename: opennode-account-api-openapi.yml
   format: yaml
   label: OpenNode Account API
   slug: opennode-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/openapi/opennode-account-api-openapi.yml
+  url: https://artifacts.apis.io/opennode/openapi/opennode-account-api-openapi.yml
 - filename: opennode-static-addresses-api-openapi.yml
   format: yaml
   label: OpenNode Static Addresses API
   slug: opennode-static-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/openapi/opennode-static-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/opennode/openapi/opennode-static-addresses-api-openapi.yml
 - filename: opennode-account-api-openapi.yml
   format: yaml
   label: OpenNode Account API
   slug: opennode-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/openapi/opennode-account-api-openapi.yml
+  url: https://artifacts.apis.io/opennode/openapi/opennode-account-api-openapi.yml
 - filename: opennode-charges-api-openapi.yml
   format: yaml
   label: OpenNode Charges API
   slug: opennode-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/openapi/opennode-charges-api-openapi.yml
+  url: https://artifacts.apis.io/opennode/openapi/opennode-charges-api-openapi.yml
 - filename: opennode-rates-api-openapi.yml
   format: yaml
   label: OpenNode Rates API
   slug: opennode-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/openapi/opennode-rates-api-openapi.yml
+  url: https://artifacts.apis.io/opennode/openapi/opennode-rates-api-openapi.yml
 - filename: opennode-refunds-api-openapi.yml
   format: yaml
   label: OpenNode Refunds API
   slug: opennode-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/openapi/opennode-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/opennode/openapi/opennode-refunds-api-openapi.yml
 - filename: opennode-static-addresses-api-openapi.yml
   format: yaml
   label: OpenNode Static Addresses API
   slug: opennode-static-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/openapi/opennode-static-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/opennode/openapi/opennode-static-addresses-api-openapi.yml
 - filename: opennode-withdrawals-api-openapi.yml
   format: yaml
   label: OpenNode Withdrawals API
   slug: opennode-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/openapi/opennode-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/opennode/openapi/opennode-withdrawals-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -106,7 +106,7 @@ source_filename: opennode-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: opennode.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 23:59:59 2026 GMT\n  hsts: false\n- host: developers.opennode.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 10:57:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.opennode.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: opennode.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/security/opennode-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/opennode/security/opennode-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Bitcoin

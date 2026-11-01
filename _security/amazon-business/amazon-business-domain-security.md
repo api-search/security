@@ -1,35 +1,41 @@
 ---
 api_specs:
+- filename: amazon-business-openapi-generated.yml
+  format: yaml
+  label: Amazon Business API
+  slug: amazon-business-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-business/openapi/_ae-authored/amazon-business-openapi-generated.yml
 - filename: amazon-business-ab-invoice-api-openapi.yml
   format: yaml
   label: Amazon Business Ab Invoice API
   slug: amazon-business-ab-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-business/refs/heads/main/openapi/amazon-business-ab-invoice-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-business/openapi/amazon-business-ab-invoice-api-openapi.yml
 - filename: amazon-business-cart-api-openapi.yml
   format: yaml
   label: Amazon Business Cart API
   slug: amazon-business-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-business/refs/heads/main/openapi/amazon-business-cart-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-business/openapi/amazon-business-cart-api-openapi.yml
 - filename: amazon-business-ordering-api-openapi.yml
   format: yaml
   label: Amazon Business Ordering API
   slug: amazon-business-ordering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-business/refs/heads/main/openapi/amazon-business-ordering-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-business/openapi/amazon-business-ordering-api-openapi.yml
 - filename: amazon-business-products-api-openapi.yml
   format: yaml
   label: Amazon Business Products API
   slug: amazon-business-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-business/refs/heads/main/openapi/amazon-business-products-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-business/openapi/amazon-business-products-api-openapi.yml
 - filename: amazon-business-reports-api-openapi.yml
   format: yaml
   label: Amazon Business Reports API
   slug: amazon-business-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-business/refs/heads/main/openapi/amazon-business-reports-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-business/openapi/amazon-business-reports-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +64,7 @@ source_filename: amazon-business-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: business.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  1 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-business/refs/heads/main/security/amazon-business-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amazon-business/security/amazon-business-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

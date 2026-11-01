@@ -5,25 +5,25 @@ api_specs:
   label: Speechmatics API Keys API
   slug: speechmatics-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/openapi/speechmatics-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/speechmatics/openapi/speechmatics-api-keys-api-openapi.yml
 - filename: speechmatics-jobs-api-openapi.yml
   format: yaml
   label: Speechmatics Jobs API
   slug: speechmatics-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/openapi/speechmatics-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/speechmatics/openapi/speechmatics-jobs-api-openapi.yml
 - filename: speechmatics-projects-api-openapi.yml
   format: yaml
   label: Speechmatics Projects API
   slug: speechmatics-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/openapi/speechmatics-projects-api-openapi.yml
+  url: https://artifacts.apis.io/speechmatics/openapi/speechmatics-projects-api-openapi.yml
 - filename: speechmatics-usage-api-openapi.yml
   format: yaml
   label: Speechmatics Usage API
   slug: speechmatics-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/openapi/speechmatics-usage-api-openapi.yml
+  url: https://artifacts.apis.io/speechmatics/openapi/speechmatics-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: speechmatics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.speechmatics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 16:59:13 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: portal.speechmatics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 02:18:41 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.speechmatics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 22:12:07 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: speechmatics.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/security/speechmatics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/speechmatics/security/speechmatics-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Speech Recognition

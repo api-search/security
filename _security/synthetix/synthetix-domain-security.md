@@ -5,79 +5,79 @@ api_specs:
   label: Synthetix Escrowed Balance API
   slug: synthetix-escrowed-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-escrowed-balance-api-openapi.yml
+  url: https://artifacts.apis.io/synthetix/openapi/synthetix-escrowed-balance-api-openapi.yml
 - filename: synthetix-health-check-api-openapi.yml
   format: yaml
   label: Synthetix Health Check API
   slug: synthetix-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/synthetix/openapi/synthetix-health-check-api-openapi.yml
 - filename: synthetix-staking-api-openapi.yml
   format: yaml
   label: Synthetix Staking API
   slug: synthetix-staking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-staking-api-openapi.yml
+  url: https://artifacts.apis.io/synthetix/openapi/synthetix-staking-api-openapi.yml
 - filename: synthetix-stats-api-openapi.yml
   format: yaml
   label: Synthetix Stats API
   slug: synthetix-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-stats-api-openapi.yml
+  url: https://artifacts.apis.io/synthetix/openapi/synthetix-stats-api-openapi.yml
 - filename: synthetix-supply-api-openapi.yml
   format: yaml
   label: Synthetix Supply API
   slug: synthetix-supply-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-supply-api-openapi.yml
+  url: https://artifacts.apis.io/synthetix/openapi/synthetix-supply-api-openapi.yml
 - filename: synthetix-vested-balance-api-openapi.yml
   format: yaml
   label: Synthetix Vested Balance API
   slug: synthetix-vested-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-vested-balance-api-openapi.yml
+  url: https://artifacts.apis.io/synthetix/openapi/synthetix-vested-balance-api-openapi.yml
 - filename: synthetix-arbitrum-api-openapi.yml
   format: yaml
   label: Synthetix Arbitrum API
   slug: synthetix-arbitrum-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-arbitrum-api-openapi.yml
+  url: https://artifacts.apis.io/synthetix/openapi/synthetix-arbitrum-api-openapi.yml
 - filename: synthetix-base-api-openapi.yml
   format: yaml
   label: Synthetix Base API
   slug: synthetix-base-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-base-api-openapi.yml
+  url: https://artifacts.apis.io/synthetix/openapi/synthetix-base-api-openapi.yml
 - filename: synthetix-mainnet-api-openapi.yml
   format: yaml
   label: Synthetix Mainnet API
   slug: synthetix-mainnet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-mainnet-api-openapi.yml
+  url: https://artifacts.apis.io/synthetix/openapi/synthetix-mainnet-api-openapi.yml
 - filename: synthetix-optimism-api-openapi.yml
   format: yaml
   label: Synthetix Optimism API
   slug: synthetix-optimism-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-optimism-api-openapi.yml
+  url: https://artifacts.apis.io/synthetix/openapi/synthetix-optimism-api-openapi.yml
 - filename: synthetix-top-asset-api-openapi.yml
   format: yaml
   label: Synthetix Top Asset API
   slug: synthetix-top-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-top-asset-api-openapi.yml
+  url: https://artifacts.apis.io/synthetix/openapi/synthetix-top-asset-api-openapi.yml
 - filename: synthetix-tvl-api-openapi.yml
   format: yaml
   label: Synthetix Tvl API
   slug: synthetix-tvl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-tvl-api-openapi.yml
+  url: https://artifacts.apis.io/synthetix/openapi/synthetix-tvl-api-openapi.yml
 - filename: synthetix-tvl420-api-openapi.yml
   format: yaml
   label: Synthetix Tvl420 API
   slug: synthetix-tvl420-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-tvl420-api-openapi.yml
+  url: https://artifacts.apis.io/synthetix/openapi/synthetix-tvl420-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -123,7 +123,7 @@ source_filename: synthetix-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.synthetix.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 15:19:58 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: papi.synthetix.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 19 23:59:59 2026 GMT\n  hsts: null\n- host: api.synthetix.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: synthetix.io\n  dnssec: true\n  caa:\n  - 0 iodef \"mailto:services@snxdao.io\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/security/synthetix-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/synthetix/security/synthetix-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - DeFi

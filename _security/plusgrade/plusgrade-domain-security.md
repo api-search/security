@@ -28,12 +28,12 @@ source_filename: plusgrade-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: plusgrade.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 26 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: plusgrade.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plusgrade/refs/heads/main/security/plusgrade-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/plusgrade/security/plusgrade-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Travel
-- AncillaryRevenue
+- Ancillary Revenue
 - Software-as-a-Service
 - B2B
 ---

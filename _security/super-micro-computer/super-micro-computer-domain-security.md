@@ -5,61 +5,61 @@ api_specs:
   label: Super Micro Computer Accounts API
   slug: super-micro-computer-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/openapi/super-micro-computer-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/super-micro-computer/openapi/super-micro-computer-accounts-api-openapi.yml
 - filename: super-micro-computer-chassis-api-openapi.yml
   format: yaml
   label: Super Micro Computer Chassis API
   slug: super-micro-computer-chassis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/openapi/super-micro-computer-chassis-api-openapi.yml
+  url: https://artifacts.apis.io/super-micro-computer/openapi/super-micro-computer-chassis-api-openapi.yml
 - filename: super-micro-computer-event-service-api-openapi.yml
   format: yaml
   label: Super Micro Computer Event Service API
   slug: super-micro-computer-event-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/openapi/super-micro-computer-event-service-api-openapi.yml
+  url: https://artifacts.apis.io/super-micro-computer/openapi/super-micro-computer-event-service-api-openapi.yml
 - filename: super-micro-computer-managers-api-openapi.yml
   format: yaml
   label: Super Micro Computer Managers API
   slug: super-micro-computer-managers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/openapi/super-micro-computer-managers-api-openapi.yml
+  url: https://artifacts.apis.io/super-micro-computer/openapi/super-micro-computer-managers-api-openapi.yml
 - filename: super-micro-computer-network-api-openapi.yml
   format: yaml
   label: Super Micro Computer Network API
   slug: super-micro-computer-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/openapi/super-micro-computer-network-api-openapi.yml
+  url: https://artifacts.apis.io/super-micro-computer/openapi/super-micro-computer-network-api-openapi.yml
 - filename: super-micro-computer-service-root-api-openapi.yml
   format: yaml
   label: Super Micro Computer Service Root API
   slug: super-micro-computer-service-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/openapi/super-micro-computer-service-root-api-openapi.yml
+  url: https://artifacts.apis.io/super-micro-computer/openapi/super-micro-computer-service-root-api-openapi.yml
 - filename: super-micro-computer-sessions-api-openapi.yml
   format: yaml
   label: Super Micro Computer Sessions API
   slug: super-micro-computer-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/openapi/super-micro-computer-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/super-micro-computer/openapi/super-micro-computer-sessions-api-openapi.yml
 - filename: super-micro-computer-storage-api-openapi.yml
   format: yaml
   label: Super Micro Computer Storage API
   slug: super-micro-computer-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/openapi/super-micro-computer-storage-api-openapi.yml
+  url: https://artifacts.apis.io/super-micro-computer/openapi/super-micro-computer-storage-api-openapi.yml
 - filename: super-micro-computer-systems-api-openapi.yml
   format: yaml
   label: Super Micro Computer Systems API
   slug: super-micro-computer-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/openapi/super-micro-computer-systems-api-openapi.yml
+  url: https://artifacts.apis.io/super-micro-computer/openapi/super-micro-computer-systems-api-openapi.yml
 - filename: super-micro-computer-update-service-api-openapi.yml
   format: yaml
   label: Super Micro Computer Update Service API
   slug: super-micro-computer-update-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/openapi/super-micro-computer-update-service-api-openapi.yml
+  url: https://artifacts.apis.io/super-micro-computer/openapi/super-micro-computer-update-service-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ source_filename: super-micro-computer-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.supermicro.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  7 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: supermicro.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/security/super-micro-computer-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/super-micro-computer/security/super-micro-computer-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Servers

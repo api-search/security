@@ -17,7 +17,7 @@ source_filename: range-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nprobe: true\nsource: https://www.range.co/security\nurl: https://www.range.co/security\ncertifications:\n- SOC 2\n- GDPR\n- CCPA\ncompliance_notes: Range is GDPR- and CCPA-compliant. SOC 1/2/3 certifications apply\n  to the underlying AWS hosting infrastructure (per the Range security page), not a\n  Range-issued SOC 2 report. Customer data is encrypted at rest and in transit.\nevidence:\n- source: https://www.range.co/security\n  keywords:\n  - soc 2\n  - gdpr\n  - ccpa\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/range/refs/heads/main/security/range-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/range/security/range-trust-center.yml
 summary_line: SOC 2, GDPR, CCPA
 tags:
 - Company

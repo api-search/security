@@ -7,25 +7,25 @@ api_specs:
   label: High Mobility Authentication API
   slug: high-mobility-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/high-mobility/refs/heads/main/openapi/high-mobility-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/high-mobility/openapi/high-mobility-authentication-api-openapi.yml
 - filename: high-mobility-fleet-clearance-api-openapi.yml
   format: yaml
   label: High Mobility Fleet Clearance API
   slug: high-mobility-fleet-clearance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/high-mobility/refs/heads/main/openapi/high-mobility-fleet-clearance-api-openapi.yml
+  url: https://artifacts.apis.io/high-mobility/openapi/high-mobility-fleet-clearance-api-openapi.yml
 - filename: high-mobility-vehicle-data-api-openapi.yml
   format: yaml
   label: High Mobility Vehicle Data API
   slug: high-mobility-vehicle-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/high-mobility/refs/heads/main/openapi/high-mobility-vehicle-data-api-openapi.yml
+  url: https://artifacts.apis.io/high-mobility/openapi/high-mobility-vehicle-data-api-openapi.yml
 - filename: high-mobility-vehicle-eligibility-api-openapi.yml
   format: yaml
   label: High Mobility Vehicle Eligibility API
   slug: high-mobility-vehicle-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/high-mobility/refs/heads/main/openapi/high-mobility-vehicle-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/high-mobility/openapi/high-mobility-vehicle-eligibility-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -60,7 +60,7 @@ source_filename: high-mobility-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/high-mobility-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.high-mobility.com/v1/access_token\n    scopes: 1\n  - flow: authorizationCode\n    authorizationUrl: https://owner-panel.high-mobility.com/oauth/new\n    tokenUrl: https://api.high-mobility.com/v1/access_token\n    scopes: 1\n  sources:\n  - openapi/high-mobility-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/high-mobility/refs/heads/main/authentication/high-mobility-authentication.yml
+source_yaml_url: https://artifacts.apis.io/high-mobility/authentication/high-mobility-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Automotive

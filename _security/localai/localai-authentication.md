@@ -9,157 +9,157 @@ api_specs:
   label: LocalAI Agent Jobs API
   slug: localai-agent-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-agent-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/localai/openapi/localai-agent-jobs-api-openapi.yml
 - filename: localai-audio-api-openapi.yml
   format: yaml
   label: LocalAI Audio API
   slug: localai-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-audio-api-openapi.yml
+  url: https://artifacts.apis.io/localai/openapi/localai-audio-api-openapi.yml
 - filename: localai-backends-api-openapi.yml
   format: yaml
   label: LocalAI Backends API
   slug: localai-backends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-backends-api-openapi.yml
+  url: https://artifacts.apis.io/localai/openapi/localai-backends-api-openapi.yml
 - filename: localai-branding-api-openapi.yml
   format: yaml
   label: LocalAI Branding API
   slug: localai-branding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-branding-api-openapi.yml
+  url: https://artifacts.apis.io/localai/openapi/localai-branding-api-openapi.yml
 - filename: localai-config-api-openapi.yml
   format: yaml
   label: LocalAI Config API
   slug: localai-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-config-api-openapi.yml
+  url: https://artifacts.apis.io/localai/openapi/localai-config-api-openapi.yml
 - filename: localai-depth-api-openapi.yml
   format: yaml
   label: LocalAI Depth API
   slug: localai-depth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-depth-api-openapi.yml
+  url: https://artifacts.apis.io/localai/openapi/localai-depth-api-openapi.yml
 - filename: localai-detection-api-openapi.yml
   format: yaml
   label: LocalAI Detection API
   slug: localai-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-detection-api-openapi.yml
+  url: https://artifacts.apis.io/localai/openapi/localai-detection-api-openapi.yml
 - filename: localai-embeddings-api-openapi.yml
   format: yaml
   label: LocalAI Embeddings API
   slug: localai-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/localai/openapi/localai-embeddings-api-openapi.yml
 - filename: localai-face-recognition-api-openapi.yml
   format: yaml
   label: LocalAI Face Recognition API
   slug: localai-face-recognition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-face-recognition-api-openapi.yml
+  url: https://artifacts.apis.io/localai/openapi/localai-face-recognition-api-openapi.yml
 - filename: localai-images-api-openapi.yml
   format: yaml
   label: LocalAI Images API
   slug: localai-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-images-api-openapi.yml
+  url: https://artifacts.apis.io/localai/openapi/localai-images-api-openapi.yml
 - filename: localai-inference-api-openapi.yml
   format: yaml
   label: LocalAI Inference API
   slug: localai-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-inference-api-openapi.yml
+  url: https://artifacts.apis.io/localai/openapi/localai-inference-api-openapi.yml
 - filename: localai-instructions-api-openapi.yml
   format: yaml
   label: LocalAI Instructions API
   slug: localai-instructions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-instructions-api-openapi.yml
+  url: https://artifacts.apis.io/localai/openapi/localai-instructions-api-openapi.yml
 - filename: localai-mcp-api-openapi.yml
   format: yaml
   label: LocalAI MCP API
   slug: localai-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/localai/openapi/localai-mcp-api-openapi.yml
 - filename: localai-models-api-openapi.yml
   format: yaml
   label: LocalAI Models API
   slug: localai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-models-api-openapi.yml
+  url: https://artifacts.apis.io/localai/openapi/localai-models-api-openapi.yml
 - filename: localai-moderation-api-openapi.yml
   format: yaml
   label: LocalAI Moderation API
   slug: localai-moderation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-moderation-api-openapi.yml
+  url: https://artifacts.apis.io/localai/openapi/localai-moderation-api-openapi.yml
 - filename: localai-monitoring-api-openapi.yml
   format: yaml
   label: LocalAI Monitoring API
   slug: localai-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/localai/openapi/localai-monitoring-api-openapi.yml
 - filename: localai-nodes-api-openapi.yml
   format: yaml
   label: LocalAI Nodes API
   slug: localai-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/localai/openapi/localai-nodes-api-openapi.yml
 - filename: localai-pii-api-openapi.yml
   format: yaml
   label: LocalAI Pii API
   slug: localai-pii-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-pii-api-openapi.yml
+  url: https://artifacts.apis.io/localai/openapi/localai-pii-api-openapi.yml
 - filename: localai-rerank-api-openapi.yml
   format: yaml
   label: LocalAI Rerank API
   slug: localai-rerank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-rerank-api-openapi.yml
+  url: https://artifacts.apis.io/localai/openapi/localai-rerank-api-openapi.yml
 - filename: localai-router-api-openapi.yml
   format: yaml
   label: LocalAI Router API
   slug: localai-router-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-router-api-openapi.yml
+  url: https://artifacts.apis.io/localai/openapi/localai-router-api-openapi.yml
 - filename: localai-tokenize-api-openapi.yml
   format: yaml
   label: LocalAI Tokenize API
   slug: localai-tokenize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-tokenize-api-openapi.yml
+  url: https://artifacts.apis.io/localai/openapi/localai-tokenize-api-openapi.yml
 - filename: localai-video-api-openapi.yml
   format: yaml
   label: LocalAI Video API
   slug: localai-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-video-api-openapi.yml
+  url: https://artifacts.apis.io/localai/openapi/localai-video-api-openapi.yml
 - filename: localai-voice-profiles-api-openapi.yml
   format: yaml
   label: LocalAI Voice Profiles API
   slug: localai-voice-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-voice-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/localai/openapi/localai-voice-profiles-api-openapi.yml
 - filename: localai-voice-recognition-api-openapi.yml
   format: yaml
   label: LocalAI Voice Recognition API
   slug: localai-voice-recognition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-voice-recognition-api-openapi.yml
+  url: https://artifacts.apis.io/localai/openapi/localai-voice-recognition-api-openapi.yml
 - filename: localai-p2p-api-openapi.yml
   format: yaml
   label: LocalAI P2p API
   slug: localai-p2p-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-p2p-api-openapi.yml
+  url: https://artifacts.apis.io/localai/openapi/localai-p2p-api-openapi.yml
 - filename: localai-3-d-api-openapi.yml
   format: yaml
   label: LocalAI 3 D API
   slug: localai-3-d-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-3-d-api-openapi.yml
+  url: https://artifacts.apis.io/localai/openapi/localai-3-d-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -197,7 +197,7 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: https://localai
   \ LOCALAI_OIDC_ISSUER\n  - env: LOCALAI_OIDC_CLIENT_ID\n  - env: LOCALAI_OIDC_CLIENT_SECRET\n  - env: LOCALAI_BASE_URL\n  documented_providers:\n  - Keycloak\n  - Google\n  - Okta\n  - Authentik\n  - Azure AD\n- id: user-api-keys\n  name: Per-user API keys\n  description: >-\n    Authenticated users create personal keys through POST /api/auth/api-keys. A user API key inherits the\n    creating user's role, so an admin's key grants admin access.\n  management_endpoints:\n  - POST /api/auth/api-keys\n  - GET /api/auth/api-keys\n  - DELETE /api/auth/api-keys/{id}\nanonymous_surface:\n  description: >-\n    When either authentication mode is configured, the HTTP surface is private by default. Only the routes\n    below answer anonymously. If neither mode is configured the middleware does not restrict requests at all.\n  discovery:\n  - GET /.well-known/localai.json\n  - GET /api/instructions\n  - GET /api/instructions/{name}\n  - GET /swagger and GET under /swagger/\n  bootstrap:\n  - GET\
   \ /healthz\n  - GET /readyz\n  - GET /api/auth/status\n  - POST /api/auth/token-login\n  - POST /api/auth/register\n  - POST /api/auth/login\n  - GET /api/auth/github/login\n  - GET /api/auth/github/callback\n  - GET /api/auth/oidc/login\n  - GET /api/auth/oidc/callback\n  - OPTIONS under /api/auth/\n  - GET /api/branding and GET under /branding/asset/\n  overrides:\n    field: ApplicationConfig.PathWithoutAuth\n    default: empty\n    description: >-\n      Embedded deployments may add path prefixes that bypass global authentication for every HTTP method\n      below that prefix. Route-specific authorization still applies.\nauthorization:\n  model: role-based\n  admin_only_examples:\n  - GET /api/traces\n  - GET /api/traces/summary\n  - POST /api/traces/clear\n  - GET /system\n  - GET /backend/monitor\n  - POST /backend/shutdown\n  - POST /backend/load\n  - GET /api/p2p (and all /api/p2p/* routes)\n  - All /api/agent/tasks/* and /api/agent/jobs/* routes\n  - GET /models/available\n  -\
   \ GET /models/galleries\n  - GET /backends and GET /backends/available\n  user_accessible_examples:\n  - POST /v1/chat/completions\n  - POST /v1/embeddings\n  - POST /v1/completions\n  - POST /v1/images/generations\n  - POST /v1/mcp/chat/completions\n  - POST /v1/messages\n  - POST /v1/responses\n  - GET /v1/models\n  - GET /api/auth/usage\n  failure_codes:\n  - code: 401\n    condition: \"Missing or invalid credentials. Response carries the header WWW-Authenticate: Bearer.\"\n  - code: 403\n    condition: Authenticated non-admin calling an admin-only endpoint.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/authentication/localai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/localai/authentication/localai-authentication.yml
 summary_line: apiKey/http/oauth2/openIdConnect · 1 scheme
 tags:
 - Artificial Intelligence

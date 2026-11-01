@@ -7,31 +7,31 @@ api_specs:
   label: HyperVerge Database Verification API
   slug: hyperverge-database-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/openapi/hyperverge-database-verification-api-openapi.yml
+  url: https://artifacts.apis.io/hyperverge/openapi/hyperverge-database-verification-api-openapi.yml
 - filename: hyperverge-face-match-api-openapi.yml
   format: yaml
   label: HyperVerge Face Match API
   slug: hyperverge-face-match-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/openapi/hyperverge-face-match-api-openapi.yml
+  url: https://artifacts.apis.io/hyperverge/openapi/hyperverge-face-match-api-openapi.yml
 - filename: hyperverge-input-validation-api-openapi.yml
   format: yaml
   label: HyperVerge Input Validation API
   slug: hyperverge-input-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/openapi/hyperverge-input-validation-api-openapi.yml
+  url: https://artifacts.apis.io/hyperverge/openapi/hyperverge-input-validation-api-openapi.yml
 - filename: hyperverge-kyc-ocr-api-openapi.yml
   format: yaml
   label: HyperVerge KYC OCR API
   slug: hyperverge-kyc-ocr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/openapi/hyperverge-kyc-ocr-api-openapi.yml
+  url: https://artifacts.apis.io/hyperverge/openapi/hyperverge-kyc-ocr-api-openapi.yml
 - filename: hyperverge-matching-api-openapi.yml
   format: yaml
   label: HyperVerge Matching API
   slug: hyperverge-matching-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/openapi/hyperverge-matching-api-openapi.yml
+  url: https://artifacts.apis.io/hyperverge/openapi/hyperverge-matching-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -74,7 +74,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: derived\nsource: openapi/hyperverge-openapi.yml\nsummary:\n  types:\n  - apiKey\nschemes:\n- name: appIdKey\n  type: apiKey\n  in: header\n  scheme: custom-header-pair\n  description: >-\n    HyperVerge issues an `appId` and `appKey` pair after enterprise onboarding.\n    Both are sent as request headers on every call: `appId` and `appKey` on the\n    KYC OCR (ind-docs.hyperverge.co) and Verification (ind-verify.hyperverge.co)\n    hosts, and lowercase `appid` and `appkey` on the Face Match\n    (ind-faceid.hyperverge.co) host. Credentials are not self-serve - they are\n    provided by the HyperVerge team. Invalid or missing credentials return HTTP\n    401. HyperVerge warns against exposing appId/appKey in browser applications;\n    call the APIs server-side.\n  headers:\n  - appId\n  - appKey\n  - appid\n  - appkey\n  optionalHeaders:\n  - name: referenceId\n    description: Client-supplied identifier echoed back in responses for request grouping.\n\
   \  - name: uuid\n    description: Enables an X-Response-Signature checksum header for response integrity validation.\n  - name: transactionid\n    description: Optional transaction identifier on the Matching API.\n  sources:\n  - openapi/hyperverge-openapi.yml\n  - https://github.com/hyperverge/kyc-india-rest-api\n  - https://github.com/hyperverge/face-match-india-rest-api\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/authentication/hyperverge-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hyperverge/authentication/hyperverge-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Identity Verification

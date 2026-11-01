@@ -5,37 +5,37 @@ api_specs:
   label: Vehicles.dev Control API
   slug: vehicles-dev-api-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/openapi/vehicles-dev-api-control-api-openapi.yml
+  url: https://artifacts.apis.io/vehicles-dev-api/openapi/vehicles-dev-api-control-api-openapi.yml
 - filename: vehicles-dev-api-employment-api-openapi.yml
   format: yaml
   label: Vehicles.dev Employment API
   slug: vehicles-dev-api-employment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/openapi/vehicles-dev-api-employment-api-openapi.yml
+  url: https://artifacts.apis.io/vehicles-dev-api/openapi/vehicles-dev-api-employment-api-openapi.yml
 - filename: vehicles-dev-api-operations-api-openapi.yml
   format: yaml
   label: Vehicles.dev Operations API
   slug: vehicles-dev-api-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/openapi/vehicles-dev-api-operations-api-openapi.yml
+  url: https://artifacts.apis.io/vehicles-dev-api/openapi/vehicles-dev-api-operations-api-openapi.yml
 - filename: vehicles-dev-api-operator-api-openapi.yml
   format: yaml
   label: Vehicles.dev Operator API
   slug: vehicles-dev-api-operator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/openapi/vehicles-dev-api-operator-api-openapi.yml
+  url: https://artifacts.apis.io/vehicles-dev-api/openapi/vehicles-dev-api-operator-api-openapi.yml
 - filename: vehicles-dev-api-vehicles-api-openapi.yml
   format: yaml
   label: Vehicles.dev Vehicles API
   slug: vehicles-dev-api-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/openapi/vehicles-dev-api-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/vehicles-dev-api/openapi/vehicles-dev-api-vehicles-api-openapi.yml
 - filename: vehicles-dev-api-webhooks-api-openapi.yml
   format: yaml
   label: Vehicles.dev Webhooks API
   slug: vehicles-dev-api-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/openapi/vehicles-dev-api-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/vehicles-dev-api/openapi/vehicles-dev-api-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: vehicles-dev-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-16'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.vehicles.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 13:49:57 2026 GMT\n  hsts: null\ndomains:\n- domain: vehicles.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/security/vehicles-dev-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vehicles-dev-api/security/vehicles-dev-api-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Automotive

@@ -7,19 +7,19 @@ api_specs:
   label: ChaosSearch Bulkexport API
   slug: chaossearch-bulkexport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaossearch/refs/heads/main/openapi/chaossearch-bulkexport-api-openapi.yml
+  url: https://artifacts.apis.io/chaossearch/openapi/chaossearch-bulkexport-api-openapi.yml
 - filename: chaossearch-chaossearch-api-api-openapi.yml
   format: yaml
   label: ChaosSearch ChaosSearch API
   slug: chaossearch-chaossearch-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaossearch/refs/heads/main/openapi/chaossearch-chaossearch-api-api-openapi.yml
+  url: https://artifacts.apis.io/chaossearch/openapi/chaossearch-chaossearch-api-api-openapi.yml
 - filename: chaossearch-user-api-openapi.yml
   format: yaml
   label: ChaosSearch User API
   slug: chaossearch-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaossearch/refs/heads/main/openapi/chaossearch-user-api-openapi.yml
+  url: https://artifacts.apis.io/chaossearch/openapi/chaossearch-user-api-openapi.yml
 auth_types: []
 description: Authentication schemes for ChaosSearch APIs
 kind: authentication
@@ -46,7 +46,7 @@ source_heading: Authentication Profile
 source_url: https://docs.chaossearch.io/docs/chaossearch-rbac.md
 source_yaml: "generated: '2026-10-08'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://docs.chaossearch.io/docs/chaossearch-rbac.md\nsources:\n- https://docs.chaossearch.io/docs/chaossearch-rbac.md\n- https://docs.chaossearch.io/docs/authentication.md\n- https://docs.chaossearch.io/reference/post_user-login.md\n- https://docs.chaossearch.io/reference/post_user-credential-apikey-create.md\ndescription: Authentication schemes for ChaosSearch APIs\nschemes:\n- type: jwt\n  name: JWT token\n  evidence: The token can be used as part of a specific `x-amz-security-token` header in REST requests when calling the ChaosSearch APIs.\n  location: header\n  header: x-amz-security-token\n  how_to_obtain: Obtain a JWT by calling the POST /user/login endpoint with Username, Password (and ParentUid for subaccounts) and then use the\n    returned Token value.\nnote: Other authentication methods such as AWS SigV4 signing are described but not represented as a standard scheme\
   \ type in this catalog.\ndocs: https://docs.chaossearch.io/docs/chaossearch-rbac.md\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chaossearch/refs/heads/main/authentication/chaossearch-authentication.yml
+source_yaml_url: https://artifacts.apis.io/chaossearch/authentication/chaossearch-authentication.yml
 summary_line: 1 scheme
 tags:
 - Analytics

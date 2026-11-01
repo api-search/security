@@ -7,31 +7,31 @@ api_specs:
   label: Checkout.com Customers API
   slug: checkout-com-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkout-com/refs/heads/main/openapi/checkout-com-customers-api-openapi.yml
+  url: https://artifacts.apis.io/checkout-com/openapi/checkout-com-customers-api-openapi.yml
 - filename: checkout-com-instruments-api-openapi.yml
   format: yaml
   label: Checkout.com Instruments API
   slug: checkout-com-instruments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkout-com/refs/heads/main/openapi/checkout-com-instruments-api-openapi.yml
+  url: https://artifacts.apis.io/checkout-com/openapi/checkout-com-instruments-api-openapi.yml
 - filename: checkout-com-payments-api-openapi.yml
   format: yaml
   label: Checkout.com Payments API
   slug: checkout-com-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkout-com/refs/heads/main/openapi/checkout-com-payments-api-openapi.yml
+  url: https://artifacts.apis.io/checkout-com/openapi/checkout-com-payments-api-openapi.yml
 - filename: checkout-com-tokens-api-openapi.yml
   format: yaml
   label: Checkout.com Tokens API
   slug: checkout-com-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkout-com/refs/heads/main/openapi/checkout-com-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/checkout-com/openapi/checkout-com-tokens-api-openapi.yml
 - filename: checkout-com-workflows-api-openapi.yml
   format: yaml
   label: Checkout.com Workflows API
   slug: checkout-com-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkout-com/refs/heads/main/openapi/checkout-com-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/checkout-com/openapi/checkout-com-workflows-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -69,7 +69,7 @@ source_filename: checkout-com-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/checkout-com-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Secret API key as Bearer token (format `Bearer [example key]`).\n  sources:\n  - openapi/checkout-com-openapi.yml\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://access.checkout.com/connect/token\n    scopes: 2\n  description: OAuth 2.0 client credentials flow\n  sources:\n  - openapi/checkout-com-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/checkout-com/refs/heads/main/authentication/checkout-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/checkout-com/authentication/checkout-com-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Fintech

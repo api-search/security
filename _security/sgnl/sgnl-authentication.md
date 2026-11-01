@@ -27,7 +27,7 @@ source_filename: sgnl-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://developer.sgnl.ai/\ndocs: https://developer.sgnl.ai/\nsummary:\n  types:\n  - http\n  http_schemes:\n  - bearer\n  api_key_in: []\n  oauth2_flows: []\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    The SGNL Public API v2 (Access Service) authenticates with a Bearer token passed\n    in the Authorization header (\"Authorization: Bearer {access-token}\"). The token\n    is generated during integration/protected-system configuration in the SGNL\n    console. All requests must use HTTPS.\n  sources:\n  - https://developer.sgnl.ai/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sgnl/refs/heads/main/authentication/sgnl-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sgnl/authentication/sgnl-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

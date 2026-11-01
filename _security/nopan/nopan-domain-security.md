@@ -5,31 +5,31 @@ api_specs:
   label: Nopan Authentication APIs API
   slug: nopan-authentication-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/openapi/nopan-authentication-apis-api-openapi.yml
+  url: https://artifacts.apis.io/nopan/openapi/nopan-authentication-apis-api-openapi.yml
 - filename: nopan-payment-processing-apis-api-openapi.yml
   format: yaml
   label: Nopan Payment Processing APIs API
   slug: nopan-payment-processing-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/openapi/nopan-payment-processing-apis-api-openapi.yml
+  url: https://artifacts.apis.io/nopan/openapi/nopan-payment-processing-apis-api-openapi.yml
 - filename: nopan-reporting-apis-api-openapi.yml
   format: yaml
   label: Nopan Reporting APIs API
   slug: nopan-reporting-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/openapi/nopan-reporting-apis-api-openapi.yml
+  url: https://artifacts.apis.io/nopan/openapi/nopan-reporting-apis-api-openapi.yml
 - filename: nopan-testing-apis-api-openapi.yml
   format: yaml
   label: Nopan Testing APIs API
   slug: nopan-testing-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/openapi/nopan-testing-apis-api-openapi.yml
+  url: https://artifacts.apis.io/nopan/openapi/nopan-testing-apis-api-openapi.yml
 - filename: nopan-webhooks-api-openapi.yml
   format: yaml
   label: Nopan Webhooks API
   slug: nopan-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/openapi/nopan-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/nopan/openapi/nopan-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -68,7 +68,7 @@ source_filename: nopan-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: nopan.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 10:06:25 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.nopan.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  6 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: nopan.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n- domain: nopan.io\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/security/nopan-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nopan/security/nopan-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Payments

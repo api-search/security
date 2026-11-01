@@ -5,25 +5,25 @@ api_specs:
   label: tyntec Number Information API
   slug: tyntec-number-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tyntec/refs/heads/main/openapi/tyntec-number-information-api-openapi.yml
+  url: https://artifacts.apis.io/tyntec/openapi/tyntec-number-information-api-openapi.yml
 - filename: tyntec-number-verification-api-openapi.yml
   format: yaml
   label: tyntec Number Verification API
   slug: tyntec-number-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tyntec/refs/heads/main/openapi/tyntec-number-verification-api-openapi.yml
+  url: https://artifacts.apis.io/tyntec/openapi/tyntec-number-verification-api-openapi.yml
 - filename: tyntec-service-api-openapi.yml
   format: yaml
   label: tyntec Service API
   slug: tyntec-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tyntec/refs/heads/main/openapi/tyntec-service-api-openapi.yml
+  url: https://artifacts.apis.io/tyntec/openapi/tyntec-service-api-openapi.yml
 - filename: tyntec-verify-templates-api-openapi.yml
   format: yaml
   label: tyntec Verify Templates API
   slug: tyntec-verify-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tyntec/refs/heads/main/openapi/tyntec-verify-templates-api-openapi.yml
+  url: https://artifacts.apis.io/tyntec/openapi/tyntec-verify-templates-api-openapi.yml
 description: ''
 domains:
 - dmarc: true
@@ -67,7 +67,7 @@ source_filename: tyntec-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tyntec.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 13:32:03 2026 GMT\n  hsts: false\n  http_status: 200\n- host: api.tyntec.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 16 13:16:59 2027 GMT\n  hsts: true\n  hsts_max_age: 15552000\n  hsts_include_subdomains: true\n  http_status: 404\n  note: Root of api host returns 404; documented API paths (e.g. /verify/v1, /messaging/v1) are the live surface.\n- host: tyntec.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 16 13:16:59 2027 GMT\n  http_status: 301\n  note: Redirects to www.tyntec.com.\ndomains:\n- domain: tyntec.com\n  dmarc: true\n  dmarc_policy: reject\n  spf: true\n  spf_record: v=spf1 mx include:aspmx.pardot.com -all\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tyntec/refs/heads/main/security/tyntec-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tyntec/security/tyntec-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Number Verification

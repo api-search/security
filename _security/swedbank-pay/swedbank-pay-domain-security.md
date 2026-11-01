@@ -5,7 +5,7 @@ api_specs:
   label: Swedbank Pay Psp API
   slug: swedbank-pay-psp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swedbank-pay/refs/heads/main/openapi/swedbank-pay-psp-api-openapi.yml
+  url: https://artifacts.apis.io/swedbank-pay/openapi/swedbank-pay-psp-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -34,7 +34,7 @@ source_filename: swedbank-pay-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: swedbankpay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 12:16:02 2026 GMT\n  hsts: false\ndomains:\n- domain: swedbankpay.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swedbank-pay/refs/heads/main/security/swedbank-pay-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/swedbank-pay/security/swedbank-pay-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

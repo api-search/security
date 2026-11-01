@@ -5,31 +5,31 @@ api_specs:
   label: 4K Garden Auth Controller API
   slug: 4k-garden-auth-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4k-garden/refs/heads/main/openapi/4k-garden-auth-controller-api-openapi.yml
+  url: https://artifacts.apis.io/4k-garden/openapi/4k-garden-auth-controller-api-openapi.yml
 - filename: 4k-garden-customer-controller-api-openapi.yml
   format: yaml
   label: 4K Garden Customer Controller API
   slug: 4k-garden-customer-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4k-garden/refs/heads/main/openapi/4k-garden-customer-controller-api-openapi.yml
+  url: https://artifacts.apis.io/4k-garden/openapi/4k-garden-customer-controller-api-openapi.yml
 - filename: 4k-garden-enterprise-controller-api-openapi.yml
   format: yaml
   label: 4K Garden Enterprise Controller API
   slug: 4k-garden-enterprise-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4k-garden/refs/heads/main/openapi/4k-garden-enterprise-controller-api-openapi.yml
+  url: https://artifacts.apis.io/4k-garden/openapi/4k-garden-enterprise-controller-api-openapi.yml
 - filename: 4k-garden-frontend-controller-api-openapi.yml
   format: yaml
   label: 4K Garden Frontend Controller API
   slug: 4k-garden-frontend-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4k-garden/refs/heads/main/openapi/4k-garden-frontend-controller-api-openapi.yml
+  url: https://artifacts.apis.io/4k-garden/openapi/4k-garden-frontend-controller-api-openapi.yml
 - filename: 4k-garden-tvc-controller-api-openapi.yml
   format: yaml
   label: 4K Garden Tvc Controller API
   slug: 4k-garden-tvc-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4k-garden/refs/heads/main/openapi/4k-garden-tvc-controller-api-openapi.yml
+  url: https://artifacts.apis.io/4k-garden/openapi/4k-garden-tvc-controller-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -44,8 +44,11 @@ domains:
   domain: fly4k.com
   spf: true
 hosts:
-- host: www.4kgarden.com
-  https: false
+- cert_expires: Oct 15 23:59:59 2026 GMT
+  host: www.4kgarden.com
+  hsts: false
+  https: true
+  tls_version: TLSv1.2
 - cert_expires: Nov 21 23:59:59 2026 GMT
   host: www.fly4k.com
   hsts: false
@@ -62,15 +65,15 @@ layout: security
 method: probed
 name: 4K Garden Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for 4K Garden, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+overview: 'Domain security posture for 4K Garden, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: 4K Garden
 provider_slug: 4k-garden
 slug: 4k-garden-domain-security
 source_filename: 4k-garden-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.4kgarden.com\n  https: false\n- host: www.fly4k.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 21 23:59:59 2026 GMT\n  hsts: false\n- host: video-cn.fly4k.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: 4kgarden.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: fly4k.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/4k-garden/refs/heads/main/security/4k-garden-domain-security.yml
+source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.4kgarden.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 15 23:59:59 2026 GMT\n  hsts: false\n- host: www.fly4k.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 21 23:59:59 2026 GMT\n  hsts: false\n- host: video-cn.fly4k.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: 4kgarden.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: fly4k.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml_url: https://artifacts.apis.io/4k-garden/security/4k-garden-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

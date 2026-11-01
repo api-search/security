@@ -5,61 +5,61 @@ api_specs:
   label: Hume AI Subpackage Batch API
   slug: hume-ai-subpackage-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-batch-api-openapi.yml
+  url: https://artifacts.apis.io/hume-ai/openapi/hume-ai-subpackage-batch-api-openapi.yml
 - filename: hume-ai-subpackage-chatgroups-api-openapi.yml
   format: yaml
   label: Hume AI Subpackage Chat Groups API
   slug: hume-ai-subpackage-chatgroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-chatgroups-api-openapi.yml
+  url: https://artifacts.apis.io/hume-ai/openapi/hume-ai-subpackage-chatgroups-api-openapi.yml
 - filename: hume-ai-subpackage-chats-api-openapi.yml
   format: yaml
   label: Hume AI Subpackage Chats API
   slug: hume-ai-subpackage-chats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-chats-api-openapi.yml
+  url: https://artifacts.apis.io/hume-ai/openapi/hume-ai-subpackage-chats-api-openapi.yml
 - filename: hume-ai-subpackage-configs-api-openapi.yml
   format: yaml
   label: Hume AI Subpackage Configs API
   slug: hume-ai-subpackage-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-configs-api-openapi.yml
+  url: https://artifacts.apis.io/hume-ai/openapi/hume-ai-subpackage-configs-api-openapi.yml
 - filename: hume-ai-subpackage-controlplane-api-openapi.yml
   format: yaml
   label: Hume AI Subpackage Control Plane API
   slug: hume-ai-subpackage-controlplane-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-controlplane-api-openapi.yml
+  url: https://artifacts.apis.io/hume-ai/openapi/hume-ai-subpackage-controlplane-api-openapi.yml
 - filename: hume-ai-subpackage-prompts-api-openapi.yml
   format: yaml
   label: Hume AI Subpackage Prompts API
   slug: hume-ai-subpackage-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-prompts-api-openapi.yml
+  url: https://artifacts.apis.io/hume-ai/openapi/hume-ai-subpackage-prompts-api-openapi.yml
 - filename: hume-ai-subpackage-tools-api-openapi.yml
   format: yaml
   label: Hume AI Subpackage Tools API
   slug: hume-ai-subpackage-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-tools-api-openapi.yml
+  url: https://artifacts.apis.io/hume-ai/openapi/hume-ai-subpackage-tools-api-openapi.yml
 - filename: hume-ai-subpackage-voices-api-openapi.yml
   format: yaml
   label: Hume AI Subpackage Voices API
   slug: hume-ai-subpackage-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-voices-api-openapi.yml
+  url: https://artifacts.apis.io/hume-ai/openapi/hume-ai-subpackage-voices-api-openapi.yml
 - filename: hume-ai-speech-to-speech-evi-api-openapi.yml
   format: yaml
   label: Hume AI Speech To Speech (EVI) API
   slug: hume-ai-speech-to-speech-evi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-speech-to-speech-evi-api-openapi.yml
+  url: https://artifacts.apis.io/hume-ai/openapi/hume-ai-speech-to-speech-evi-api-openapi.yml
 - filename: hume-ai-tts-api-openapi.yml
   format: yaml
   label: Hume AI Tts API
   slug: hume-ai-tts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-tts-api-openapi.yml
+  url: https://artifacts.apis.io/hume-ai/openapi/hume-ai-tts-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -100,7 +100,7 @@ source_filename: hume-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hume.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  9 15:41:55 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: dev.hume.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 22:36:52 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.hume.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 18:43:43 2026 GMT\n  hsts: null\ndomains:\n- domain: hume.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/security/hume-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hume-ai/security/hume-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

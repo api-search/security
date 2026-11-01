@@ -8,37 +8,37 @@ api_specs:
   label: Aibidia Aibidia TP AI API
   slug: aibidia-aibidia-tp-ai-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aibidia/refs/heads/main/openapi/aibidia-aibidia-tp-ai-api-api-openapi.yml
+  url: https://artifacts.apis.io/aibidia/openapi/aibidia-aibidia-tp-ai-api-api-openapi.yml
 - filename: aibidia-authorize-api-openapi.yml
   format: yaml
   label: Aibidia Authorize API
   slug: aibidia-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aibidia/refs/heads/main/openapi/aibidia-authorize-api-openapi.yml
+  url: https://artifacts.apis.io/aibidia/openapi/aibidia-authorize-api-openapi.yml
 - filename: aibidia-create-session-api-openapi.yml
   format: yaml
   label: Aibidia Create Session API
   slug: aibidia-create-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aibidia/refs/heads/main/openapi/aibidia-create-session-api-openapi.yml
+  url: https://artifacts.apis.io/aibidia/openapi/aibidia-create-session-api-openapi.yml
 - filename: aibidia-datainjections-api-openapi.yml
   format: yaml
   label: Aibidia Data Injections API
   slug: aibidia-datainjections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aibidia/refs/heads/main/openapi/aibidia-datainjections-api-openapi.yml
+  url: https://artifacts.apis.io/aibidia/openapi/aibidia-datainjections-api-openapi.yml
 - filename: aibidia-extracttypes-api-openapi.yml
   format: yaml
   label: Aibidia Extract Types API
   slug: aibidia-extracttypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aibidia/refs/heads/main/openapi/aibidia-extracttypes-api-openapi.yml
+  url: https://artifacts.apis.io/aibidia/openapi/aibidia-extracttypes-api-openapi.yml
 - filename: aibidia-health-api-openapi.yml
   format: yaml
   label: Aibidia Health API
   slug: aibidia-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aibidia/refs/heads/main/openapi/aibidia-health-api-openapi.yml
+  url: https://artifacts.apis.io/aibidia/openapi/aibidia-health-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-09-13'\nmethod: searched\nsource: >-\n  openapi/a
   \ solution module (TPDoc, CbCR, OTPM, STPM, VCA, Data\n    Studio, Horizon, TP AI). Microsoft Entra External ID / Azure AD B2C on Aibidia's own custom domain, driven by\n    MSAL in the browser. The TP Aurora product is a separate B2C tenant (tpauroraprod.b2clogin.com) rather than\n    part of the auth.aibidia.com estate.\n  openid_configuration: >-\n    https://auth.aibidia.com/087223a3-c05b-420d-b854-db9b237f5a71/B2C_1A_SUSI/v2.0/.well-known/openid-configuration\n  issuer: https://auth.aibidia.com/087223a3-c05b-420d-b854-db9b237f5a71/v2.0/\n  authorization_endpoint: https://auth.aibidia.com/087223a3-c05b-420d-b854-db9b237f5a71/b2c_1a_susi/oauth2/v2.0/authorize\n  token_endpoint: https://auth.aibidia.com/087223a3-c05b-420d-b854-db9b237f5a71/b2c_1a_susi/oauth2/v2.0/token\n  jwks_uri: https://auth.aibidia.com/087223a3-c05b-420d-b854-db9b237f5a71/b2c_1a_susi/discovery/v2.0/keys\n  end_session_endpoint: https://auth.aibidia.com/087223a3-c05b-420d-b854-db9b237f5a71/b2c_1a_susi/oauth2/v2.0/logout\n\
   \  policy: B2C_1A_SUSI\n  id_token_signing_alg: RS256\n  subject_types: pairwise\n  resource_scope: https://auth.aibidia.com/AibidiaAPI/user_impersonation\n  scopes_supported_in_discovery:\n  - openid\n  identity_providers:\n    note: >-\n      The platform ships a SHOW_IDENTITY_PROVIDER feature flag set true in production, and the B2C policy\n      advertises \"idp\" and \"authenticationSource\" claims, so federated enterprise identity providers are in\n      play. Which providers are federated is not published anonymously.\n  sources:\n  - https://platform.aibidia.com/env.js\n  - https://platform.aibidia.com/tpai/env.js\n  - well-known/aibidia-openid-configuration.json\ngaps:\n- >-\n  No published authentication reference page. The Public OTP Management API's only documentation is the Swagger\n  UI it serves itself; how an integrator obtains an X-DATAINGESTION-API-KEY is not stated anywhere anonymously\n  reachable.\n- >-\n  The B2C discovery document advertises scopes_supported as [\"\
   openid\"] only, while the platform actually requests\n  https://auth.aibidia.com/AibidiaAPI/user_impersonation. A client reading discovery alone cannot learn the\n  resource scope it needs.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aibidia/refs/heads/main/authentication/aibidia-authentication.yml
+source_yaml_url: https://artifacts.apis.io/aibidia/authentication/aibidia-authentication.yml
 summary_line: apiKey/oauth2/openIdConnect · 2 schemes
 tags:
 - Company

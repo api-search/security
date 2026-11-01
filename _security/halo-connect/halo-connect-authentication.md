@@ -8,31 +8,31 @@ api_specs:
   label: Halo Connect FHIR API
   slug: halo-connect-fhir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/openapi/halo-connect-fhir-api-openapi.yml
+  url: https://artifacts.apis.io/halo-connect/openapi/halo-connect-fhir-api-openapi.yml
 - filename: halo-connect-registered-queries-api-openapi.yml
   format: yaml
   label: Halo Connect Registered Queries API
   slug: halo-connect-registered-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/openapi/halo-connect-registered-queries-api-openapi.yml
+  url: https://artifacts.apis.io/halo-connect/openapi/halo-connect-registered-queries-api-openapi.yml
 - filename: halo-connect-sites-api-openapi.yml
   format: yaml
   label: Halo Connect Sites API
   slug: halo-connect-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/openapi/halo-connect-sites-api-openapi.yml
+  url: https://artifacts.apis.io/halo-connect/openapi/halo-connect-sites-api-openapi.yml
 - filename: halo-connect-sql-passthrough-api-openapi.yml
   format: yaml
   label: Halo Connect SQL Passthrough API
   slug: halo-connect-sql-passthrough-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/openapi/halo-connect-sql-passthrough-api-openapi.yml
+  url: https://artifacts.apis.io/halo-connect/openapi/halo-connect-sql-passthrough-api-openapi.yml
 - filename: halo-connect-tokens-api-openapi.yml
   format: yaml
   label: Halo Connect Tokens API
   slug: halo-connect-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/openapi/halo-connect-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/halo-connect/openapi/halo-connect-tokens-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -77,7 +77,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-24'\nmethod: searched\nsource: openapi/halo-connect-desktop-openapi.json, openapi/halo-connect-integrator-openapi.json\ndocs: https://docs.haloconnect.io/halo-cloud/getting-started/\nnotes: >-\n  Integrator API authenticates with an Azure API Management subscription key\n  (Ocp-Apim-Subscription-Key header). Desktop API additionally requires a bearer\n  JWT (obtained from POST /integrator/token using integrator auth) plus a DeviceId\n  header. There is no OAuth 2.0 / OIDC flow and no self-serve public sign-up; keys\n  are issued per approved integrator and are environment-scoped (stage vs production).\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: SubscriptionKey\n  type: apiKey\n  in: header\n  parameter: Ocp-Apim-Subscription-Key\n  description: The subscription key for the API.\n  sources:\n  - openapi/halo-connect-desktop-openapi.json\n  - openapi/halo-connect-integrator-openapi.json\n- name: AuthorizationHeader\n\
   \  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Bearer token for authentication.\n  sources:\n  - openapi/halo-connect-desktop-openapi.json\n- name: DeviceIdHeader\n  type: apiKey\n  in: header\n  parameter: DeviceId\n  description: Device ID of the device making the request.\n  sources:\n  - openapi/halo-connect-desktop-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/authentication/halo-connect-authentication.yml
+source_yaml_url: https://artifacts.apis.io/halo-connect/authentication/halo-connect-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Healthcare

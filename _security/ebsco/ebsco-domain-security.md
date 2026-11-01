@@ -5,13 +5,13 @@ api_specs:
   label: EBSCO Content API
   slug: ebsco-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ebsco/refs/heads/main/openapi/ebsco-content-api-openapi.yml
+  url: https://artifacts.apis.io/ebsco/openapi/ebsco-content-api-openapi.yml
 - filename: ebsco-publishers-api-openapi.yml
   format: yaml
   label: EBSCO Publishers API
   slug: ebsco-publishers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ebsco/refs/heads/main/openapi/ebsco-publishers-api-openapi.yml
+  url: https://artifacts.apis.io/ebsco/openapi/ebsco-publishers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,7 +41,7 @@ source_filename: ebsco-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ebsco.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  6 19:02:18 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: ebsco.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ebsco/refs/heads/main/security/ebsco-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ebsco/security/ebsco-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

@@ -7,19 +7,19 @@ api_specs:
   label: Maven Deployment API
   slug: maven-deployment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven/refs/heads/main/openapi/maven-deployment-api-openapi.yml
+  url: https://artifacts.apis.io/maven/openapi/maven-deployment-api-openapi.yml
 - filename: maven-download-api-openapi.yml
   format: yaml
   label: Maven Download API
   slug: maven-download-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven/refs/heads/main/openapi/maven-download-api-openapi.yml
+  url: https://artifacts.apis.io/maven/openapi/maven-download-api-openapi.yml
 - filename: maven-search-api-openapi.yml
   format: yaml
   label: Maven Search API
   slug: maven-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven/refs/heads/main/openapi/maven-search-api-openapi.yml
+  url: https://artifacts.apis.io/maven/openapi/maven-search-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: maven-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/maven-portal-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Authorization header `Bearer <base64(username:password)>` using a user token\n    generated from the Central Portal account settings.\n  sources:\n  - openapi/maven-portal-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maven/refs/heads/main/authentication/maven-authentication.yml
+source_yaml_url: https://artifacts.apis.io/maven/authentication/maven-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artifacts

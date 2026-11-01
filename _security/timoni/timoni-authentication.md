@@ -7,13 +7,13 @@ api_specs:
   label: Timoni Artifacts API
   slug: timoni-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timoni/refs/heads/main/openapi/timoni-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/timoni/openapi/timoni-artifacts-api-openapi.yml
 - filename: timoni-modules-api-openapi.yml
   format: yaml
   label: Timoni Modules API
   slug: timoni-modules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timoni/refs/heads/main/openapi/timoni-modules-api-openapi.yml
+  url: https://artifacts.apis.io/timoni/openapi/timoni-modules-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: timoni-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/timoni-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: OCI registry authentication token\n  sources:\n  - openapi/timoni-openapi.yml\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: Username and password authentication for OCI registry\n  sources:\n  - openapi/timoni-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/timoni/refs/heads/main/authentication/timoni-authentication.yml
+source_yaml_url: https://artifacts.apis.io/timoni/authentication/timoni-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Containers

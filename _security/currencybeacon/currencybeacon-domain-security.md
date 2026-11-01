@@ -5,19 +5,19 @@ api_specs:
   label: CurrencyBeacon Conversion API
   slug: currencybeacon-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencybeacon/refs/heads/main/openapi/currencybeacon-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/currencybeacon/openapi/currencybeacon-conversion-api-openapi.yml
 - filename: currencybeacon-currencies-api-openapi.yml
   format: yaml
   label: CurrencyBeacon Currencies API
   slug: currencybeacon-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencybeacon/refs/heads/main/openapi/currencybeacon-currencies-api-openapi.yml
+  url: https://artifacts.apis.io/currencybeacon/openapi/currencybeacon-currencies-api-openapi.yml
 - filename: currencybeacon-rates-api-openapi.yml
   format: yaml
   label: CurrencyBeacon Rates API
   slug: currencybeacon-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencybeacon/refs/heads/main/openapi/currencybeacon-rates-api-openapi.yml
+  url: https://artifacts.apis.io/currencybeacon/openapi/currencybeacon-rates-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,7 +50,7 @@ source_filename: currencybeacon-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: currencybeacon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 00:34:45 2026 GMT\n  hsts: false\n- host: api.currencybeacon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 00:34:45 2026 GMT\n  hsts: false\ndomains:\n- domain: currencybeacon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/currencybeacon/refs/heads/main/security/currencybeacon-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/currencybeacon/security/currencybeacon-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Currency

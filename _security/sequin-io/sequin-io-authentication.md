@@ -7,31 +7,31 @@ api_specs:
   label: Sequin Backfills API
   slug: sequin-io-backfills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequin-io/refs/heads/main/openapi/sequin-io-backfills-api-openapi.yml
+  url: https://artifacts.apis.io/sequin-io/openapi/sequin-io-backfills-api-openapi.yml
 - filename: sequin-io-http-endpoints-api-openapi.yml
   format: yaml
   label: Sequin HTTP Endpoints API
   slug: sequin-io-http-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequin-io/refs/heads/main/openapi/sequin-io-http-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/sequin-io/openapi/sequin-io-http-endpoints-api-openapi.yml
 - filename: sequin-io-postgres-databases-api-openapi.yml
   format: yaml
   label: Sequin Postgres Databases API
   slug: sequin-io-postgres-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequin-io/refs/heads/main/openapi/sequin-io-postgres-databases-api-openapi.yml
+  url: https://artifacts.apis.io/sequin-io/openapi/sequin-io-postgres-databases-api-openapi.yml
 - filename: sequin-io-sink-consumers-api-openapi.yml
   format: yaml
   label: Sequin Sink Consumers API
   slug: sequin-io-sink-consumers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequin-io/refs/heads/main/openapi/sequin-io-sink-consumers-api-openapi.yml
+  url: https://artifacts.apis.io/sequin-io/openapi/sequin-io-sink-consumers-api-openapi.yml
 - filename: sequin-io-stream-pull-api-openapi.yml
   format: yaml
   label: Sequin Stream Pull API
   slug: sequin-io-stream-pull-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequin-io/refs/heads/main/openapi/sequin-io-stream-pull-api-openapi.yml
+  url: https://artifacts.apis.io/sequin-io/openapi/sequin-io-stream-pull-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: sequin-io-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sequin-io-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Bearer token found in the Sequin console under \"Manage account\". Passed as `Authorization:\n    Bearer [example key]`.'\n  sources:\n  - openapi/sequin-io-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sequin-io/refs/heads/main/authentication/sequin-io-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sequin-io/authentication/sequin-io-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Change Data Capture

@@ -5,25 +5,25 @@ api_specs:
   label: Airport Gap Airports API
   slug: airport-gap-airports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airport-gap/refs/heads/main/openapi/airport-gap-airports-api-openapi.yml
+  url: https://artifacts.apis.io/airport-gap/openapi/airport-gap-airports-api-openapi.yml
 - filename: airport-gap-distance-api-openapi.yml
   format: yaml
   label: Airport Gap Distance API
   slug: airport-gap-distance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airport-gap/refs/heads/main/openapi/airport-gap-distance-api-openapi.yml
+  url: https://artifacts.apis.io/airport-gap/openapi/airport-gap-distance-api-openapi.yml
 - filename: airport-gap-favorites-api-openapi.yml
   format: yaml
   label: Airport Gap Favorites API
   slug: airport-gap-favorites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airport-gap/refs/heads/main/openapi/airport-gap-favorites-api-openapi.yml
+  url: https://artifacts.apis.io/airport-gap/openapi/airport-gap-favorites-api-openapi.yml
 - filename: airport-gap-tokens-api-openapi.yml
   format: yaml
   label: Airport Gap Tokens API
   slug: airport-gap-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airport-gap/refs/heads/main/openapi/airport-gap-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/airport-gap/openapi/airport-gap-tokens-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: airport-gap-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: airportgap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 14:04:16 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: airportgap.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airport-gap/refs/heads/main/security/airport-gap-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/airport-gap/security/airport-gap-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Airports

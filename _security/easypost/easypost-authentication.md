@@ -7,43 +7,43 @@ api_specs:
   label: EasyPost Webhooks API
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/asyncapi/easypost-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/easypost/asyncapi/easypost-webhooks-asyncapi.yml
 - filename: easypost-addresses-api-openapi.yml
   format: yaml
   label: EasyPost Addresses API
   slug: easypost-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/openapi/easypost-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/easypost/openapi/easypost-addresses-api-openapi.yml
 - filename: easypost-parcels-api-openapi.yml
   format: yaml
   label: EasyPost Parcels API
   slug: easypost-parcels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/openapi/easypost-parcels-api-openapi.yml
+  url: https://artifacts.apis.io/easypost/openapi/easypost-parcels-api-openapi.yml
 - filename: easypost-refunds-api-openapi.yml
   format: yaml
   label: EasyPost Refunds API
   slug: easypost-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/openapi/easypost-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/easypost/openapi/easypost-refunds-api-openapi.yml
 - filename: easypost-reports-api-openapi.yml
   format: yaml
   label: EasyPost Reports API
   slug: easypost-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/openapi/easypost-reports-api-openapi.yml
+  url: https://artifacts.apis.io/easypost/openapi/easypost-reports-api-openapi.yml
 - filename: easypost-shipments-api-openapi.yml
   format: yaml
   label: EasyPost Shipments API
   slug: easypost-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/openapi/easypost-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/easypost/openapi/easypost-shipments-api-openapi.yml
 - filename: easypost-trackers-api-openapi.yml
   format: yaml
   label: EasyPost Trackers API
   slug: easypost-trackers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/openapi/easypost-trackers-api-openapi.yml
+  url: https://artifacts.apis.io/easypost/openapi/easypost-trackers-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -70,7 +70,7 @@ source_filename: easypost-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/easypost-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: EasyPostBasic\n  type: http\n  scheme: basic\n  description: HTTP Basic where username is your EasyPost API key and password is empty.\n  sources:\n  - openapi/easypost-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/authentication/easypost-authentication.yml
+source_yaml_url: https://artifacts.apis.io/easypost/authentication/easypost-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Shipping

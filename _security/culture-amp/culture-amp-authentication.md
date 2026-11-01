@@ -7,19 +7,19 @@ api_specs:
   label: Culture Amp Employees API
   slug: culture-amp-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culture-amp/refs/heads/main/openapi/culture-amp-employees-api-openapi.yml
+  url: https://artifacts.apis.io/culture-amp/openapi/culture-amp-employees-api-openapi.yml
 - filename: culture-amp-performance-api-openapi.yml
   format: yaml
   label: Culture Amp Performance API
   slug: culture-amp-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culture-amp/refs/heads/main/openapi/culture-amp-performance-api-openapi.yml
+  url: https://artifacts.apis.io/culture-amp/openapi/culture-amp-performance-api-openapi.yml
 - filename: culture-amp-surveys-api-openapi.yml
   format: yaml
   label: Culture Amp Surveys API
   slug: culture-amp-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culture-amp/refs/heads/main/openapi/culture-amp-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/culture-amp/openapi/culture-amp-surveys-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -62,7 +62,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: searched\nsource:\n- https://docs.api.cultureamp.com/docs/customer-guide-authentication\n- https://docs.api.cultureamp.com/docs/customer-guide-getting-credentials\n- https://docs.api.cultureamp.com/docs/partner-guide-authentication\n- https://docs.api.cultureamp.com/docs/resources-security-information\ndocs: https://docs.api.cultureamp.com/docs/customer-guide-authentication\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: Oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.cultureamp.com/v1/oauth2/token\n    scopes: 4\n  client_auth:\n  - client_id/client_secret in form body\n  - HTTP Basic (base64 client id:secret)\n  token_request_content_type: application/x-www-form-urlencoded\n  token:\n    format: JWT\n    usage: 'Authorization: Bearer <access token>'\n    lifetime: Access tokens are valid for 1 hour.\n    expires_in_example: 3599\n  scope_format: target-entity:<entity\
   \ id>:<comma separated list of permissions>\n  sources:\n  - openapi/culture-amp-employees-api-openapi.yml\n  - openapi/culture-amp-performance-api-openapi.yml\n  - openapi/culture-amp-surveys-api-openapi.yml\ncredentials: Created in Admin Settings > API by an Admin user with Account Owner permissions; account-level credentials.\nip_allowlisting: We do not support IP whitelisting.\ntls: Minimum TLS 1.2\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/culture-amp/refs/heads/main/authentication/culture-amp-authentication.yml
+source_yaml_url: https://artifacts.apis.io/culture-amp/authentication/culture-amp-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Human Resources

@@ -7,25 +7,25 @@ api_specs:
   label: Nubela Company API
   slug: nubela-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nubela/refs/heads/main/openapi/nubela-company-api-openapi.yml
+  url: https://artifacts.apis.io/nubela/openapi/nubela-company-api-openapi.yml
 - filename: nubela-competitor-api-openapi.yml
   format: yaml
   label: Nubela Competitor API
   slug: nubela-competitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nubela/refs/heads/main/openapi/nubela-competitor-api-openapi.yml
+  url: https://artifacts.apis.io/nubela/openapi/nubela-competitor-api-openapi.yml
 - filename: nubela-customer-api-openapi.yml
   format: yaml
   label: Nubela Customer API
   slug: nubela-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nubela/refs/heads/main/openapi/nubela-customer-api-openapi.yml
+  url: https://artifacts.apis.io/nubela/openapi/nubela-customer-api-openapi.yml
 - filename: nubela-employee-api-openapi.yml
   format: yaml
   label: Nubela Employee API
   slug: nubela-employee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nubela/refs/heads/main/openapi/nubela-employee-api-openapi.yml
+  url: https://artifacts.apis.io/nubela/openapi/nubela-employee-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -51,7 +51,7 @@ source_filename: nubela-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/nubela-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/nubela-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nubela/refs/heads/main/authentication/nubela-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nubela/authentication/nubela-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Companies

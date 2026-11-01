@@ -17,7 +17,7 @@ source_filename: doceree-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: searched\nprobe: true\nsource: https://doceree.com/trust\nurl: https://doceree.com/trust\ncertifications:\n- SOC 2\n- HIPAA\n- GDPR\nevidence:\n- source: https://doceree.com/trust\n  keywords:\n  - soc 2\n  - hipaa\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doceree/refs/heads/main/security/doceree-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/doceree/security/doceree-trust-center.yml
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Advertising

@@ -7,7 +7,7 @@ api_specs:
   label: Fyrn API
   slug: fyrn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyrn/refs/heads/main/openapi/_ae-authored/fyrn-openapi-generated.yml
+  url: https://artifacts.apis.io/fyrn/openapi/_ae-authored/fyrn-openapi-generated.yml
 auth_types: []
 description: Authentication methods for Fyrn CLI and API
 kind: authentication
@@ -39,11 +39,11 @@ source_filename: fyrn-authentication.yml
 source_heading: Authentication Profile
 source_url: https://docs.fyrn.ai/getting-started/
 source_yaml: "generated: '2026-10-18'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://docs.fyrn.ai/getting-started/\nsources:\n- https://docs.fyrn.ai/getting-started/\n- https://docs.fyrn.ai/getting-started/installation/\n- https://docs.fyrn.ai/getting-started/quickstart/\ndescription: Authentication methods for Fyrn CLI and API\nschemes:\n- type: oauth2\n  name: Auth0 PKCE\n  evidence: This opens your browser for Auth0 PKCE authentication.\n  flows:\n  - authorization_code\n  how_to_obtain: Run `fyrn login` which opens a browser for Auth0 PKCE authentication; on success credentials are stored in ~/.fyrn/credentials.json\n    .\n- type: apiKey\n  name: API key\n  evidence: 'For headless environments, authenticate with an API key instead:'\n  location: header\n  header: Authorization\n  how_to_obtain: Run `fyrn auth api-key --api-key sk-your-key --api-url https://api.fyrn.dev` to store the API key in ~/.fyrn/config.json .\ndocs: https://docs.fyrn.ai/getting-started/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fyrn/refs/heads/main/authentication/fyrn-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fyrn/authentication/fyrn-authentication.yml
 summary_line: 2 schemes
 tags:
 - Integration
-- AI
+- Artificial Intelligence
 - Automation
 - Enterprise
 - Platform

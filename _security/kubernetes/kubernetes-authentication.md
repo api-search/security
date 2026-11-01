@@ -7,43 +7,43 @@ api_specs:
   label: Kubernetes Autoscaling API
   slug: kubernetes-autoscaling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/openapi/kubernetes-autoscaling-api-openapi.yml
+  url: https://artifacts.apis.io/kubernetes/openapi/kubernetes-autoscaling-api-openapi.yml
 - filename: kubernetes-cluster-api-openapi.yml
   format: yaml
   label: Kubernetes Cluster API
   slug: kubernetes-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/openapi/kubernetes-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/kubernetes/openapi/kubernetes-cluster-api-openapi.yml
 - filename: kubernetes-config-api-openapi.yml
   format: yaml
   label: Kubernetes Config API
   slug: kubernetes-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/openapi/kubernetes-config-api-openapi.yml
+  url: https://artifacts.apis.io/kubernetes/openapi/kubernetes-config-api-openapi.yml
 - filename: kubernetes-events-api-openapi.yml
   format: yaml
   label: Kubernetes Events API
   slug: kubernetes-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/openapi/kubernetes-events-api-openapi.yml
+  url: https://artifacts.apis.io/kubernetes/openapi/kubernetes-events-api-openapi.yml
 - filename: kubernetes-namespaces-api-openapi.yml
   format: yaml
   label: Kubernetes Namespaces API
   slug: kubernetes-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/openapi/kubernetes-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/kubernetes/openapi/kubernetes-namespaces-api-openapi.yml
 - filename: kubernetes-rbac-api-openapi.yml
   format: yaml
   label: Kubernetes RBAC API
   slug: kubernetes-rbac-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/openapi/kubernetes-rbac-api-openapi.yml
+  url: https://artifacts.apis.io/kubernetes/openapi/kubernetes-rbac-api-openapi.yml
 - filename: kubernetes-workloads-api-openapi.yml
   format: yaml
   label: Kubernetes Workloads API
   slug: kubernetes-workloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/openapi/kubernetes-workloads-api-openapi.yml
+  url: https://artifacts.apis.io/kubernetes/openapi/kubernetes-workloads-api-openapi.yml
 auth_types:
 - http
 - mutualTLS
@@ -77,7 +77,7 @@ source_filename: kubernetes-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/kubernetes-api-openapi.yml\ndocs: https://kubernetes.io/docs/reference/access-authn-authz/authentication/\nsummary:\n  types:\n  - http\n  - mutualTLS\n  strategies_documented:\n  - client-certificates\n  - bearer-tokens (service-account JWTs, static tokens)\n  - openid-connect (OIDC)\n  - webhook-token-authentication\n  - authenticating-proxy\n  authorization: RBAC (in addition to authentication)\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Kubernetes service account token or user token issued by the cluster's authentication\n    provider. Include in the Authorization header as 'Bearer <token>'.\n  sources:\n  - openapi/kubernetes-api-openapi.yml\n- name: clientCertificate\n  type: mutualTLS\n  description: Client certificate authentication using a TLS certificate issued by the cluster's\n    certificate authority.\n  sources:\n  - openapi/kubernetes-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/authentication/kubernetes-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kubernetes/authentication/kubernetes-authentication.yml
 summary_line: http/mutualTLS · 2 schemes
 tags:
 - Automation

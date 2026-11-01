@@ -23,7 +23,7 @@ source_filename: intap-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: helloenglish.com\n  https: false\ndomains:\n- domain: helloenglish.com\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intap-labs/refs/heads/main/security/intap-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/intap-labs/security/intap-labs-domain-security.yml
 summary_line: DNSSEC
 tags:
 - Company

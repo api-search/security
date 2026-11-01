@@ -8,19 +8,19 @@ api_specs:
   label: WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM) Scores API
   slug: wealthville-defi-liquidity-pool-scores-api-solana-evm-scores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthville-defi-liquidity-pool-scores-api-solana-evm/refs/heads/main/openapi/wealthville-defi-liquidity-pool-scores-api-solana-evm-scores-api-openapi.yml
+  url: https://artifacts.apis.io/wealthville-defi-liquidity-pool-scores-api-solana-evm/openapi/wealthville-defi-liquidity-pool-scores-api-solana-evm-scores-api-openapi.yml
 - filename: wealthville-defi-liquidity-pool-scores-api-solana-evm-signals-api-openapi.yml
   format: yaml
   label: WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM) Signals API
   slug: wealthville-defi-liquidity-pool-scores-api-solana-evm-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthville-defi-liquidity-pool-scores-api-solana-evm/refs/heads/main/openapi/wealthville-defi-liquidity-pool-scores-api-solana-evm-signals-api-openapi.yml
+  url: https://artifacts.apis.io/wealthville-defi-liquidity-pool-scores-api-solana-evm/openapi/wealthville-defi-liquidity-pool-scores-api-solana-evm-signals-api-openapi.yml
 - filename: wealthville-defi-liquidity-pool-scores-api-solana-evm-track-record-api-openapi.yml
   format: yaml
   label: WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM) Track Record API
   slug: wealthville-defi-liquidity-pool-scores-api-solana-evm-track-record-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthville-defi-liquidity-pool-scores-api-solana-evm/refs/heads/main/openapi/wealthville-defi-liquidity-pool-scores-api-solana-evm-track-record-api-openapi.yml
+  url: https://artifacts.apis.io/wealthville-defi-liquidity-pool-scores-api-solana-evm/openapi/wealthville-defi-liquidity-pool-scores-api-solana-evm-track-record-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: wealthville-defi-liquidity-pool-scores-api-solana-evm-authentic
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-09'\nmethod: derived\nsource: openapi/wealthville-defi-liquidity-pool-scores-api-solana-evm-public-data-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: Optional partner key — raises the rate limit and identifies the caller.\n  sources:\n  - openapi/wealthville-defi-liquidity-pool-scores-api-solana-evm-public-data-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wealthville-defi-liquidity-pool-scores-api-solana-evm/refs/heads/main/authentication/wealthville-defi-liquidity-pool-scores-api-solana-evm-authentication.yml
+source_yaml_url: https://artifacts.apis.io/wealthville-defi-liquidity-pool-scores-api-solana-evm/authentication/wealthville-defi-liquidity-pool-scores-api-solana-evm-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - DeFi

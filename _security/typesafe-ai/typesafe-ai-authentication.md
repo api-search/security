@@ -7,13 +7,13 @@ api_specs:
   label: TypeSafe AI Models API
   slug: typesafe-ai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typesafe-ai/refs/heads/main/openapi/typesafe-ai-models-api-openapi.yml
+  url: https://artifacts.apis.io/typesafe-ai/openapi/typesafe-ai-models-api-openapi.yml
 - filename: typesafe-ai-systemone-api-openapi.yml
   format: yaml
   label: TypeSafe AI Systemone API
   slug: typesafe-ai-systemone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typesafe-ai/refs/heads/main/openapi/typesafe-ai-systemone-api-openapi.yml
+  url: https://artifacts.apis.io/typesafe-ai/openapi/typesafe-ai-systemone-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -50,7 +50,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: >-\n  https://d
   \ account exists — https://console.typesafe.ai/keys (the page\n    302s to /login when unauthenticated). Account creation is gated: the marketing site's primary\n    call to action is \"Join Waitlist\" and Jev is described as early access.\n  env_var: TYPESAFE_API_KEY\n  env_var_note: >-\n    Both official SDKs read TYPESAFE_API_KEY from the environment with no argument, and the published\n    Agent Skill instructs agents to use the same variable. That single convention is what makes the\n    key usable by an agent without prompting a human for it.\n  rotation_documented: false\n  expiry_documented: false\n  prefix_documented: false\n  prefix_note: >-\n    No key prefix is published (no \"ts_live_\"-style discriminator documented), so a leaked key\n    cannot be recognised by shape and there is no published test-vs-live key distinction. See\n    sandbox/typesafe-ai-sandbox.yml.\ntransport:\n  https_required: true\n  tls: TLSv1.3 observed on api.typesafe.ai\n  hsts: false\n  hsts_note:\
   \ >-\n    api.typesafe.ai serves no Strict-Transport-Security header (typesafe.ai and docs.typesafe.ai\n    both do). See security/typesafe-ai-domain-security.yml.\nfailure_modes:\n- status: 401\n  meaning: Missing or invalid API key. Check the Authorization header.\n  source: https://docs.typesafe.ai/api\n- status: 422\n  meaning: Request body failed validation; the body details the offending field.\n  source: openapi/typesafe-ai-openapi.yml\nagent_notes: >-\n  A bearer key in a header, one env var, no refresh and no scopes means an agent can authenticate in\n  one line and can NOT be granted least privilege. There is nothing to restrict a key to\n  GET /v1/models, so any agent holding a key can spend tokens on POST /v1/systemone. Cost, not data\n  loss, is the exposure — see plans/typesafe-ai-plans-pricing.yml for the published per-token price.\ncross_links:\n  conventions: conventions/typesafe-ai-conventions.yml\n  errors: errors/typesafe-ai-problem-types.yml\n  overlay: overlays/typesafe-ai-openapi-overlay.yaml\n\
   \  domain_security: security/typesafe-ai-domain-security.yml\n  rate_limits: rate-limits/typesafe-ai-rate-limits.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/typesafe-ai/refs/heads/main/authentication/typesafe-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/typesafe-ai/authentication/typesafe-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

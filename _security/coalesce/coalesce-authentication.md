@@ -7,43 +7,37 @@ api_specs:
   label: Coalesce Environments API
   slug: coalesce-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coalesce/refs/heads/main/openapi/coalesce-environments-api-openapi.yml
+  url: https://artifacts.apis.io/coalesce/openapi/coalesce-environments-api-openapi.yml
 - filename: coalesce-git-accounts-api-openapi.yml
   format: yaml
   label: Coalesce Git Accounts API
   slug: coalesce-git-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coalesce/refs/heads/main/openapi/coalesce-git-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/coalesce/openapi/coalesce-git-accounts-api-openapi.yml
 - filename: coalesce-nodes-api-openapi.yml
   format: yaml
   label: Coalesce Nodes API
   slug: coalesce-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coalesce/refs/heads/main/openapi/coalesce-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/coalesce/openapi/coalesce-nodes-api-openapi.yml
 - filename: coalesce-projects-api-openapi.yml
   format: yaml
   label: Coalesce Projects API
   slug: coalesce-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coalesce/refs/heads/main/openapi/coalesce-projects-api-openapi.yml
+  url: https://artifacts.apis.io/coalesce/openapi/coalesce-projects-api-openapi.yml
 - filename: coalesce-runs-api-openapi.yml
   format: yaml
   label: Coalesce Runs API
   slug: coalesce-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coalesce/refs/heads/main/openapi/coalesce-runs-api-openapi.yml
-- filename: coalesce-scheduler-api-openapi.yml
-  format: yaml
-  label: Coalesce Scheduler API
-  slug: coalesce-scheduler-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coalesce/refs/heads/main/openapi/coalesce-scheduler-api-openapi.yml
+  url: https://artifacts.apis.io/coalesce/openapi/coalesce-runs-api-openapi.yml
 - filename: coalesce-users-api-openapi.yml
   format: yaml
   label: Coalesce Users API
   slug: coalesce-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coalesce/refs/heads/main/openapi/coalesce-users-api-openapi.yml
+  url: https://artifacts.apis.io/coalesce/openapi/coalesce-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -70,7 +64,7 @@ source_filename: coalesce-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token obtained from the Deploy tab in the Coalesce application. Tokens\n    never expire and remain valid across all environments and projects.\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coalesce/refs/heads/main/authentication/coalesce-authentication.yml
+source_yaml_url: https://artifacts.apis.io/coalesce/authentication/coalesce-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Data Transformation

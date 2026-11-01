@@ -5,97 +5,97 @@ api_specs:
   label: Agave Budgets API
   slug: agave-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-budgets-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-budgets-api-openapi.yml
 - filename: agave-contracts-api-openapi.yml
   format: yaml
   label: Agave Contracts API
   slug: agave-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-contracts-api-openapi.yml
 - filename: agave-cost-codes-api-openapi.yml
   format: yaml
   label: Agave Cost Codes API
   slug: agave-cost-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-cost-codes-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-cost-codes-api-openapi.yml
 - filename: agave-employees-api-openapi.yml
   format: yaml
   label: Agave Employees API
   slug: agave-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-employees-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-employees-api-openapi.yml
 - filename: agave-invoices-api-openapi.yml
   format: yaml
   label: Agave Invoices API
   slug: agave-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-invoices-api-openapi.yml
 - filename: agave-link-sessions-api-openapi.yml
   format: yaml
   label: Agave Link Sessions API
   slug: agave-link-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-link-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-link-sessions-api-openapi.yml
 - filename: agave-projects-api-openapi.yml
   format: yaml
   label: Agave Projects API
   slug: agave-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-projects-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-projects-api-openapi.yml
 - filename: agave-timesheets-api-openapi.yml
   format: yaml
   label: Agave Timesheets API
   slug: agave-timesheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-timesheets-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-timesheets-api-openapi.yml
 - filename: agave-vendors-api-openapi.yml
   format: yaml
   label: Agave Vendors API
   slug: agave-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-vendors-api-openapi.yml
 - filename: agave-common-api-openapi.yml
   format: yaml
   label: Agave Common API
   slug: agave-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-common-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-common-api-openapi.yml
 - filename: agave-customer-management-api-openapi.yml
   format: yaml
   label: Agave Customer Management API
   slug: agave-customer-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-customer-management-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-customer-management-api-openapi.yml
 - filename: agave-file-management-api-openapi.yml
   format: yaml
   label: Agave File Management API
   slug: agave-file-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-file-management-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-file-management-api-openapi.yml
 - filename: agave-financials-management-api-openapi.yml
   format: yaml
   label: Agave Financials Management API
   slug: agave-financials-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-financials-management-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-financials-management-api-openapi.yml
 - filename: agave-project-management-api-openapi.yml
   format: yaml
   label: Agave Project Management API
   slug: agave-project-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-project-management-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-project-management-api-openapi.yml
 - filename: agave-service-management-api-openapi.yml
   format: yaml
   label: Agave Service Management API
   slug: agave-service-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-service-management-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-service-management-api-openapi.yml
 - filename: agave-webhooks-api-openapi.yml
   format: yaml
   label: Agave Webhooks API
   slug: agave-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-webhooks-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -113,7 +113,7 @@ source_filename: agave-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-30'\nmethod: searched\nprobe: true\nsource: https://security.agaveapi.com/\nurl: https://security.agaveapi.com/\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://security.agaveapi.com/\n  keywords:\n  - soc 2\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/security/agave-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/agave/security/agave-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - Accounting
@@ -124,7 +124,7 @@ tags:
 - Unified API
 - iPaaS
 - Webhook
-- Field Service
+- Field Service Management
 - Invoicing
 trust_url: https://security.agaveapi.com/
 ---

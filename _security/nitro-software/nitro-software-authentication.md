@@ -7,19 +7,19 @@ api_specs:
   label: Nitro Software Authentication API
   slug: nitro-software-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/openapi/nitro-software-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/nitro-software/openapi/nitro-software-authentication-api-openapi.yml
 - filename: nitro-software-platform-api-openapi.yml
   format: yaml
   label: Nitro Software Platform API
   slug: nitro-software-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/openapi/nitro-software-platform-api-openapi.yml
+  url: https://artifacts.apis.io/nitro-software/openapi/nitro-software-platform-api-openapi.yml
 - filename: nitro-software-sign-api-openapi.yml
   format: yaml
   label: Nitro Software Sign API
   slug: nitro-software-sign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/openapi/nitro-software-sign-api-openapi.yml
+  url: https://artifacts.apis.io/nitro-software/openapi/nitro-software-sign-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -50,7 +50,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/nitro-software-openapi-original.json\ndocs: https://developers.gonitro.com/docs/authentication/credentials\nsummary:\n  types:\n  - http\n  - oauth2\n  model: machine-to-machine OAuth 2.0 client-credentials grant issuing short-lived bearer JWTs\n  api_key_in: []\n  oauth2_flows:\n  - clientCredentials\noauth2:\n  grant_type: client_credentials\n  token_endpoint: https://api.gonitro.dev/oauth/token\n  request_body:\n    clientID: '<nitro_app_id>'\n    clientSecret: '<your_app_secret>'\n  token_response:\n    accessToken: JWT\n    tokenType: Bearer\n    expiresIn: 86400\n  notes: >-\n    Credentials (Client ID + Client Secret + OAuth token endpoint) are issued per application\n    in the Nitro Admin Portal (admin.gonitro.com); up to 25 applications per account. API\n    access requires a Nitro Sign Enterprise plan. Tokens should be cached to their expiresIn\n    and renewed on 401. No OAuth scopes are declared — access\
   \ is application/tenant scoped.\n    Credentials can be rotated immediately from the Admin Portal to revoke a compromised secret.\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  applied_to: all /sign/* and /transformations,/generations,/extractions,/conversions,/jobs operations\n  sources:\n  - openapi/nitro-software-openapi-original.json\nextra_headers:\n- name: nitro-guest-id\n  note: guest-scoped access header (403 when invalid/expired) for guest signer flows\ncredential_rotation:\n  docs: https://developers.gonitro.com/docs/authentication/credential-rotation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/authentication/nitro-software-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nitro-software/authentication/nitro-software-authentication.yml
 summary_line: http/oauth2 · 1 scheme
 tags:
 - Company

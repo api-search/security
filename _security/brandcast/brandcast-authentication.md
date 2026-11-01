@@ -8,25 +8,25 @@ api_specs:
   label: Brandcast Account API
   slug: brandcast-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/openapi/brandcast-account-api-openapi.yml
+  url: https://artifacts.apis.io/brandcast/openapi/brandcast-account-api-openapi.yml
 - filename: brandcast-salesforce-api-openapi.yml
   format: yaml
   label: Brandcast Salesforce API
   slug: brandcast-salesforce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/openapi/brandcast-salesforce-api-openapi.yml
+  url: https://artifacts.apis.io/brandcast/openapi/brandcast-salesforce-api-openapi.yml
 - filename: brandcast-templates-api-openapi.yml
   format: yaml
   label: Brandcast Templates API
   slug: brandcast-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/openapi/brandcast-templates-api-openapi.yml
+  url: https://artifacts.apis.io/brandcast/openapi/brandcast-templates-api-openapi.yml
 - filename: brandcast-websites-api-openapi.yml
   format: yaml
   label: Brandcast Websites API
   slug: brandcast-websites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/openapi/brandcast-websites-api-openapi.yml
+  url: https://artifacts.apis.io/brandcast/openapi/brandcast-websites-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://develop
   \  - openapi/_original/websites.json\n- name: designStudioJWT\n  type: http\n  scheme: bearer\n  bearer_format: JWT\n  in: header\n  parameter_name: Authorization\n  required: false\n  required_on:\n  - createExportJob\n  - getExportJob\n  - getExportList\n  companion_header:\n    name: x-account-id\n    description: >-\n      \"The account context for this action. Required when using Authorization\n      header.\" Supplies which Brandcast account the JWT is acting for.\n  description: >-\n    \"A valid JWT. Only required when called by Design Studio.\" An internal\n    first-party credential accepted on the three website export operations\n    alongside the API key. Brandcast publishes no authorization server, token\n    endpoint, scope set, JWT issuer, audience or key-rotation guidance for it,\n    so it is not usable by third-party developers — recorded because it appears\n    verbatim in the provider's own contract.\n  sources:\n  - openapi/_original/websites.json\nkey_management:\n\
   \  issuance: vendor-issued\n  self_service: false\n  rotation_policy_published: false\n  expiry_published: false\n  key_prefix_published: false\n  note: >-\n    Keys are provisioned by Brandcast and bound to a Brandcast account. No\n    self-service key creation, rotation, scoping or revocation flow is\n    documented, and no key prefix convention is published.\nscopes:\n  supported: false\n  note: >-\n    The API has no scope or permission model — a key is all-or-nothing across\n    all 26 operations, including destructive ones (deleteWebsite,\n    unpublishWebsite). No scopes/ artifact is emitted, per the pipeline's\n    OAuth-only rule for that artifact.\nmfa: null\nnotes: >-\n  Round 2 upgrade. The prior round recorded the x-api-key scheme correctly from\n  the developer portal prose but stated that no specification is published;\n  that is now superseded — Brandcast does publish a machine-readable contract\n  (Swagger 1.2) at s3.amazonaws.com/apidoc.brandcast-prod.io, and the auth\n\
   \  model above is confirmed against it parameter by parameter. The second scheme\n  (Design Studio JWT + x-account-id) was found only in that contract and does\n  not appear in the portal prose at all.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/authentication/brandcast-authentication.yml
+source_yaml_url: https://artifacts.apis.io/brandcast/authentication/brandcast-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

@@ -5,7 +5,7 @@ api_specs:
   label: EDDA Technology Website (WordPress REST)
   slug: eddatech-com-website-wordpress-rest
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edda/refs/heads/main/openapi/edda-wordpress-rest-discovery.json
+  url: https://artifacts.apis.io/edda/openapi/edda-wordpress-rest-discovery.json
 description: ''
 domains:
 - caa: []
@@ -33,7 +33,7 @@ source_filename: edda-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.eddatech.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec  4 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: eddatech.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edda/refs/heads/main/security/edda-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/edda/security/edda-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Company

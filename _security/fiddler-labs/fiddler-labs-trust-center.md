@@ -16,7 +16,7 @@ source_filename: fiddler-labs-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nprobe: true\nsource: https://www.fiddler.ai/security\nurl: https://www.fiddler.ai/security\ncertifications:\n- SOC 2\n- HIPAA\nevidence:\n- source: https://www.fiddler.ai/security\n  keywords:\n  - soc 2\n  - soc2\n  - hipaa\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fiddler-labs/refs/heads/main/security/fiddler-labs-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/fiddler-labs/security/fiddler-labs-trust-center.yml
 summary_line: SOC 2, HIPAA
 tags:
 - Company

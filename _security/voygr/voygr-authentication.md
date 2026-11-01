@@ -7,13 +7,13 @@ api_specs:
   label: Voygr Calls API
   slug: voygr-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voygr/refs/heads/main/openapi/voygr-calls-api-openapi.yml
+  url: https://artifacts.apis.io/voygr/openapi/voygr-calls-api-openapi.yml
 - filename: voygr-core-api-openapi.yml
   format: yaml
   label: VOYGR Core API
   slug: voygr-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voygr/refs/heads/main/openapi/voygr-core-api-openapi.yml
+  url: https://artifacts.apis.io/voygr/openapi/voygr-core-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -46,12 +46,12 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: >-\n  https://a
   \ login pk_live_abc123`).\n      The Calls API documentation never prints a key format because keys are\n      emailed, never displayed.\nspec_gap:\n  securitySchemes_declared: false\n  security_applied: false\n  detail: >-\n    The published OpenAPI 3.1.0 declares NO components.securitySchemes and no\n    top-level or per-operation `security` block. Authentication is expressed\n    only as an optional `X-API-Key` header PARAMETER on each operation\n    (required: false in the schema) plus prose in info.description. A generated\n    client or an agent reading the contract mechanically will not learn that the\n    API is authenticated, and will not mark the header required. This is the\n    single highest-value contract fix available to VOYGR — see\n    overlays/voygr-calls-api-overlay.yaml for the corrective overlay.\nissuance:\n  self_serve: true\n  flow:\n  - step: Request a key\n    how: >-\n      https://api.voygr.tech/checkout (\"Get free API key\", name + email) or\n      POST /signup\
   \ with {\"name\": \"...\", \"email\": \"...\"}\n    auth_required: false\n  - step: Receive the key\n    how: >-\n      Emailed. The key is never shown in the browser and never returned in an\n      API response.\n  - step: Verify\n    how: 'curl -s -H \"X-API-Key: $KEY\" https://api.voygr.tech/users/me'\n  free_tier: 2,500 credits, 25 calls/day cap\nrotation_recovery:\n  endpoint: https://api.voygr.tech/recover\n  cli: voygr recover <email>\n  behavior: >-\n    A recovery link is emailed. Clicking it ROTATES the key — the existing key\n    stops working immediately and a new one is emailed to the same address.\n    Remaining quota and plan tier carry over.\n  enumeration_resistance: >-\n    The response is uniform whether or not the email is registered, and is\n    rate-limited per email and per source IP (dev-tools README).\n  self_service_rotation_from_api: false\nstorage_guidance_published_by_provider:\n- Store the key in the CALLWRIGHT_API_KEY environment variable; never echo or print\
   \ it.\n- 'CLI/library resolution order: --api-key flag, then VOYGR_API_KEY env var, then ~/.config/voygr/config.json.'\n- 'SKILL.md instructs agents: reference the key as $CALLWRIGHT_API_KEY in shell commands, never inline the value.'\n- 'Recommended file mode for the saved env file: 600.'\nfailure_modes:\n- status: 401\n  error_code: AUTHENTICATION_ERROR\n  meaning: Missing or invalid X-API-Key header.\n- status: 403\n  error_code: AUTHENTICATION_ERROR\n  meaning: Invalid, revoked, or unauthorized API key; key not permitted for this request.\nscopes:\n  supported: false\n  note: >-\n    No OAuth and no permission scopes exist. Entitlement is expressed as a key\n    TIER (free / paid / enterprise, surfaced on GET /v1/usage as `tier`) plus a\n    credit balance and a concurrency cap, not as scopes. scopes/ is\n    deliberately not emitted.\ntransport:\n  https_required: true\n  observed_tls: TLSv1.2 on api.voygr.tech (see security/voygr-domain-security.yml)\n  hsts: not sent by api.voygr.tech\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voygr/refs/heads/main/authentication/voygr-authentication.yml
+source_yaml_url: https://artifacts.apis.io/voygr/authentication/voygr-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company
 - Location Intelligence
-- POI Data
+- POI
 - Data Enrichment
 - Data Validation
 - Geospatial

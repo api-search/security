@@ -5,49 +5,49 @@ api_specs:
   label: KOMOJU Barcodes API
   slug: komoju-barcodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/openapi/komoju-barcodes-api-openapi.yml
+  url: https://artifacts.apis.io/komoju/openapi/komoju-barcodes-api-openapi.yml
 - filename: komoju-customers-api-openapi.yml
   format: yaml
   label: KOMOJU Customers API
   slug: komoju-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/openapi/komoju-customers-api-openapi.yml
+  url: https://artifacts.apis.io/komoju/openapi/komoju-customers-api-openapi.yml
 - filename: komoju-events-api-openapi.yml
   format: yaml
   label: KOMOJU Events API
   slug: komoju-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/openapi/komoju-events-api-openapi.yml
+  url: https://artifacts.apis.io/komoju/openapi/komoju-events-api-openapi.yml
 - filename: komoju-payment-methods-api-openapi.yml
   format: yaml
   label: KOMOJU Payment Methods API
   slug: komoju-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/openapi/komoju-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/komoju/openapi/komoju-payment-methods-api-openapi.yml
 - filename: komoju-payments-api-openapi.yml
   format: yaml
   label: KOMOJU Payments API
   slug: komoju-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/openapi/komoju-payments-api-openapi.yml
+  url: https://artifacts.apis.io/komoju/openapi/komoju-payments-api-openapi.yml
 - filename: komoju-sessions-api-openapi.yml
   format: yaml
   label: KOMOJU Sessions API
   slug: komoju-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/openapi/komoju-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/komoju/openapi/komoju-sessions-api-openapi.yml
 - filename: komoju-subscriptions-api-openapi.yml
   format: yaml
   label: KOMOJU Subscriptions API
   slug: komoju-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/openapi/komoju-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/komoju/openapi/komoju-subscriptions-api-openapi.yml
 - filename: komoju-tokens-api-openapi.yml
   format: yaml
   label: KOMOJU Tokens API
   slug: komoju-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/openapi/komoju-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/komoju/openapi/komoju-tokens-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -89,7 +89,7 @@ source_filename: komoju-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + API/doc hosts\nhosts:\n- host: komoju.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 23:59:59 2026 GMT\n  hsts: false\n  note: API base host (https://komoju.com/api/v1). Apex returns an HTTP 308 redirect; no HSTS header observed on the redirect response.\n- host: en.komoju.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 17:59:17 2026 GMT\n  hsts: false\n- host: doc.komoju.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 06:30:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: komoju.com\n  dnssec: false\n  caa: []\n  spf: true\n  spf_policy: '~all'\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/security/komoju-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/komoju/security/komoju-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments

@@ -5,79 +5,79 @@ api_specs:
   label: CrossEngage Event management API
   slug: crossenagage-event-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/openapi/crossenagage-event-management-api-openapi.yml
+  url: https://artifacts.apis.io/crossenagage/openapi/crossenagage-event-management-api-openapi.yml
 - filename: crossenagage-lead-management-api-openapi.yml
   format: yaml
   label: CrossEngage Lead management API
   slug: crossenagage-lead-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/openapi/crossenagage-lead-management-api-openapi.yml
+  url: https://artifacts.apis.io/crossenagage/openapi/crossenagage-lead-management-api-openapi.yml
 - filename: crossenagage-opt-out-management-api-openapi.yml
   format: yaml
   label: CrossEngage Opt-out management API
   slug: crossenagage-opt-out-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/openapi/crossenagage-opt-out-management-api-openapi.yml
+  url: https://artifacts.apis.io/crossenagage/openapi/crossenagage-opt-out-management-api-openapi.yml
 - filename: crossenagage-product-feed-api-openapi.yml
   format: yaml
   label: CrossEngage Product Feed API
   slug: crossenagage-product-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/openapi/crossenagage-product-feed-api-openapi.yml
+  url: https://artifacts.apis.io/crossenagage/openapi/crossenagage-product-feed-api-openapi.yml
 - filename: crossenagage-user-attribute-management-api-openapi.yml
   format: yaml
   label: CrossEngage User Attribute Management API
   slug: crossenagage-user-attribute-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/openapi/crossenagage-user-attribute-management-api-openapi.yml
+  url: https://artifacts.apis.io/crossenagage/openapi/crossenagage-user-attribute-management-api-openapi.yml
 - filename: crossenagage-user-profile-management-api-openapi.yml
   format: yaml
   label: CrossEngage User profile management API
   slug: crossenagage-user-profile-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/openapi/crossenagage-user-profile-management-api-openapi.yml
+  url: https://artifacts.apis.io/crossenagage/openapi/crossenagage-user-profile-management-api-openapi.yml
 - filename: crossenagage-destination-api-openapi.yml
   format: yaml
   label: CrossEngage Destination API
   slug: crossenagage-destination-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/openapi/crossenagage-destination-api-openapi.yml
+  url: https://artifacts.apis.io/crossenagage/openapi/crossenagage-destination-api-openapi.yml
 - filename: crossenagage-detailed-api-openapi.yml
   format: yaml
   label: CrossEngage Detailed API
   slug: crossenagage-detailed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/openapi/crossenagage-detailed-api-openapi.yml
+  url: https://artifacts.apis.io/crossenagage/openapi/crossenagage-detailed-api-openapi.yml
 - filename: crossenagage-event-class-api-openapi.yml
   format: yaml
   label: CrossEngage Event Class API
   slug: crossenagage-event-class-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/openapi/crossenagage-event-class-api-openapi.yml
+  url: https://artifacts.apis.io/crossenagage/openapi/crossenagage-event-class-api-openapi.yml
 - filename: crossenagage-export-api-openapi.yml
   format: yaml
   label: CrossEngage Export API
   slug: crossenagage-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/openapi/crossenagage-export-api-openapi.yml
+  url: https://artifacts.apis.io/crossenagage/openapi/crossenagage-export-api-openapi.yml
 - filename: crossenagage-files-api-openapi.yml
   format: yaml
   label: CrossEngage Files API
   slug: crossenagage-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/openapi/crossenagage-files-api-openapi.yml
+  url: https://artifacts.apis.io/crossenagage/openapi/crossenagage-files-api-openapi.yml
 - filename: crossenagage-kpi-api-openapi.yml
   format: yaml
   label: CrossEngage Kpi API
   slug: crossenagage-kpi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/openapi/crossenagage-kpi-api-openapi.yml
+  url: https://artifacts.apis.io/crossenagage/openapi/crossenagage-kpi-api-openapi.yml
 - filename: crossenagage-overall-api-openapi.yml
   format: yaml
   label: CrossEngage Overall API
   slug: crossenagage-overall-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/openapi/crossenagage-overall-api-openapi.yml
+  url: https://artifacts.apis.io/crossenagage/openapi/crossenagage-overall-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -112,7 +112,7 @@ source_filename: crossenagage-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.documentation.crossengage.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 23 23:59:59 2026 GMT\n  hsts: false\n- host: api.crossengage.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: crossengage.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/security/crossenagage-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/crossenagage/security/crossenagage-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -5,25 +5,25 @@ api_specs:
   label: Balena Applications API
   slug: balena-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/balena/refs/heads/main/openapi/balena-applications-api-openapi.yml
+  url: https://artifacts.apis.io/balena/openapi/balena-applications-api-openapi.yml
 - filename: balena-device-tags-api-openapi.yml
   format: yaml
   label: Balena Device Tags API
   slug: balena-device-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/balena/refs/heads/main/openapi/balena-device-tags-api-openapi.yml
+  url: https://artifacts.apis.io/balena/openapi/balena-device-tags-api-openapi.yml
 - filename: balena-devices-api-openapi.yml
   format: yaml
   label: Balena Devices API
   slug: balena-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/balena/refs/heads/main/openapi/balena-devices-api-openapi.yml
+  url: https://artifacts.apis.io/balena/openapi/balena-devices-api-openapi.yml
 - filename: balena-releases-api-openapi.yml
   format: yaml
   label: Balena Releases API
   slug: balena-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/balena/refs/heads/main/openapi/balena-releases-api-openapi.yml
+  url: https://artifacts.apis.io/balena/openapi/balena-releases-api-openapi.yml
 certification_count: 1
 certifications:
 - ISO 27001
@@ -40,7 +40,7 @@ source_filename: balena-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.balena.io/\nurl: https://trust.balena.io/\ncertifications:\n- ISO 27001\nevidence:\n- source: https://trust.balena.io/\n  keywords:\n  - iso 27001\n  - iso/iec 27001\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/balena/refs/heads/main/security/balena-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/balena/security/balena-trust-center.yml
 summary_line: ISO 27001
 tags:
 - Containers

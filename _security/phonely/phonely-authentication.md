@@ -8,13 +8,13 @@ api_specs:
   label: Phonely Agents API
   slug: phonely-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phonely/refs/heads/main/openapi/phonely-agents-api-openapi.yml
+  url: https://artifacts.apis.io/phonely/openapi/phonely-agents-api-openapi.yml
 - filename: phonely-webhooks-asyncapi.yml
   format: yaml
   label: Phonely Webhooks API
   slug: phonely-webhooks-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phonely/refs/heads/main/asyncapi/phonely-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/phonely/asyncapi/phonely-webhooks-asyncapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: phonely-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/phonely-agents-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-Authorization\n  description: API key issued from the Phonely app. Send the raw key value as the header.\n  sources:\n  - openapi/phonely-agents-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/phonely/refs/heads/main/authentication/phonely-authentication.yml
+source_yaml_url: https://artifacts.apis.io/phonely/authentication/phonely-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence

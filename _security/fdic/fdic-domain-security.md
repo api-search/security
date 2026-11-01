@@ -5,43 +5,43 @@ api_specs:
   label: FDIC Demographics API
   slug: fdic-demographics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdic/refs/heads/main/openapi/fdic-demographics-api-openapi.yml
+  url: https://artifacts.apis.io/fdic/openapi/fdic-demographics-api-openapi.yml
 - filename: fdic-failures-api-openapi.yml
   format: yaml
   label: FDIC Failures API
   slug: fdic-failures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdic/refs/heads/main/openapi/fdic-failures-api-openapi.yml
+  url: https://artifacts.apis.io/fdic/openapi/fdic-failures-api-openapi.yml
 - filename: fdic-financials-api-openapi.yml
   format: yaml
   label: FDIC Financials API
   slug: fdic-financials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdic/refs/heads/main/openapi/fdic-financials-api-openapi.yml
+  url: https://artifacts.apis.io/fdic/openapi/fdic-financials-api-openapi.yml
 - filename: fdic-historical-api-openapi.yml
   format: yaml
   label: FDIC Historical API
   slug: fdic-historical-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdic/refs/heads/main/openapi/fdic-historical-api-openapi.yml
+  url: https://artifacts.apis.io/fdic/openapi/fdic-historical-api-openapi.yml
 - filename: fdic-history-api-openapi.yml
   format: yaml
   label: FDIC History API
   slug: fdic-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdic/refs/heads/main/openapi/fdic-history-api-openapi.yml
+  url: https://artifacts.apis.io/fdic/openapi/fdic-history-api-openapi.yml
 - filename: fdic-structure-api-openapi.yml
   format: yaml
   label: FDIC Structure API
   slug: fdic-structure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdic/refs/heads/main/openapi/fdic-structure-api-openapi.yml
+  url: https://artifacts.apis.io/fdic/openapi/fdic-structure-api-openapi.yml
 - filename: fdic-summary-of-deposits-api-openapi.yml
   format: yaml
   label: FDIC Summary of Deposits API
   slug: fdic-summary-of-deposits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdic/refs/heads/main/openapi/fdic-summary-of-deposits-api-openapi.yml
+  url: https://artifacts.apis.io/fdic/openapi/fdic-summary-of-deposits-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: fdic-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fdic.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 15:32:11 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: banks.data.fdic.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 21:21:32 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.fdic.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 13:21:07 2026 GMT\n  hsts: null\ndomains:\n- domain: fdic.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fdic/refs/heads/main/security/fdic-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fdic/security/fdic-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Banking

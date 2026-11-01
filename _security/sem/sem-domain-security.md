@@ -34,7 +34,7 @@ source_filename: sem-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.xiaoe-tech.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 28 00:59:59 2027 GMT\n  hsts: false\n- host: api-doc.xiaoe-tech.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 28 00:59:59 2027 GMT\n  hsts: false\n- host: api.xiaoe-tech.com\n  https: false\ndomains:\n- domain: xiaoe-tech.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sem/refs/heads/main/security/sem-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sem/security/sem-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

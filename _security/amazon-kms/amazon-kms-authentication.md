@@ -8,13 +8,49 @@ api_specs:
   label: Amazon KMS Cryptographic Operations API
   slug: amazon-kms-cryptographic-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/openapi/amazon-kms-cryptographic-operations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-kms/openapi/amazon-kms-cryptographic-operations-api-openapi.yml
 - filename: amazon-kms-keys-api-openapi.yml
   format: yaml
   label: Amazon KMS Keys API
   slug: amazon-kms-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/openapi/amazon-kms-keys-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-kms/openapi/amazon-kms-keys-api-openapi.yml
+- filename: amazon-kms-alias-api-openapi.yml
+  format: yaml
+  label: Amazon KMS Kms Alias API
+  slug: amazon-kms-alias-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kms/openapi/amazon-kms-alias-api-openapi.yml
+- filename: amazon-kms-custom-key-store-api-openapi.yml
+  format: yaml
+  label: Amazon KMS Kms Custom Key Store API
+  slug: amazon-kms-custom-key-store-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kms/openapi/amazon-kms-custom-key-store-api-openapi.yml
+- filename: amazon-kms-grant-api-openapi.yml
+  format: yaml
+  label: Amazon KMS Kms Grant API
+  slug: amazon-kms-grant-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kms/openapi/amazon-kms-grant-api-openapi.yml
+- filename: amazon-kms-key-policy-api-openapi.yml
+  format: yaml
+  label: Amazon KMS Kms Key Policy API
+  slug: amazon-kms-key-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kms/openapi/amazon-kms-key-policy-api-openapi.yml
+- filename: amazon-kms-key-rotation-api-openapi.yml
+  format: yaml
+  label: Amazon KMS Kms Key Rotation API
+  slug: amazon-kms-key-rotation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kms/openapi/amazon-kms-key-rotation-api-openapi.yml
+- filename: amazon-kms-operations-api-openapi.yml
+  format: yaml
+  label: Amazon KMS Kms Operations API
+  slug: amazon-kms-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kms/openapi/amazon-kms-operations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +78,7 @@ source_filename: amazon-kms-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-kms-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: sigv4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4 authentication\n  sources:\n  - openapi/amazon-kms-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/authentication/amazon-kms-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-kms/authentication/amazon-kms-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Cryptography

@@ -5,37 +5,37 @@ api_specs:
   label: Branch Metrics Analytics API
   slug: branch-metrics-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/branch-metrics/refs/heads/main/openapi/branch-metrics-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/branch-metrics/openapi/branch-metrics-analytics-api-openapi.yml
 - filename: branch-metrics-app-api-openapi.yml
   format: yaml
   label: Branch Metrics App API
   slug: branch-metrics-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/branch-metrics/refs/heads/main/openapi/branch-metrics-app-api-openapi.yml
+  url: https://artifacts.apis.io/branch-metrics/openapi/branch-metrics-app-api-openapi.yml
 - filename: branch-metrics-branch-metrics-api-api-openapi.yml
   format: yaml
   label: Branch Metrics Branch Metrics API
   slug: branch-metrics-branch-metrics-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/branch-metrics/refs/heads/main/openapi/branch-metrics-branch-metrics-api-api-openapi.yml
+  url: https://artifacts.apis.io/branch-metrics/openapi/branch-metrics-branch-metrics-api-api-openapi.yml
 - filename: branch-metrics-event-api-openapi.yml
   format: yaml
   label: Branch Metrics Event API
   slug: branch-metrics-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/branch-metrics/refs/heads/main/openapi/branch-metrics-event-api-openapi.yml
+  url: https://artifacts.apis.io/branch-metrics/openapi/branch-metrics-event-api-openapi.yml
 - filename: branch-metrics-img1-api-openapi.yml
   format: yaml
   label: Branch Metrics Img1 API
   slug: branch-metrics-img1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/branch-metrics/refs/heads/main/openapi/branch-metrics-img1-api-openapi.yml
+  url: https://artifacts.apis.io/branch-metrics/openapi/branch-metrics-img1-api-openapi.yml
 - filename: branch-metrics-query-api-openapi.yml
   format: yaml
   label: Branch Metrics Query API
   slug: branch-metrics-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/branch-metrics/refs/heads/main/openapi/branch-metrics-query-api-openapi.yml
+  url: https://artifacts.apis.io/branch-metrics/openapi/branch-metrics-query-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: branch-metrics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: forgeglobal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 16:17:45 2026 GMT\n  hsts: null\ndomains:\n- domain: forgeglobal.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/branch-metrics/refs/heads/main/security/branch-metrics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/branch-metrics/security/branch-metrics-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Mobile

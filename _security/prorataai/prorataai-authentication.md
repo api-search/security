@@ -8,43 +8,43 @@ api_specs:
   label: ProRata.ai Chat API
   slug: prorataai-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/openapi/prorataai-chat-api-openapi.yml
+  url: https://artifacts.apis.io/prorataai/openapi/prorataai-chat-api-openapi.yml
 - filename: prorataai-health-api-openapi.yml
   format: yaml
   label: ProRata.ai Health API
   slug: prorataai-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/openapi/prorataai-health-api-openapi.yml
+  url: https://artifacts.apis.io/prorataai/openapi/prorataai-health-api-openapi.yml
 - filename: prorataai-publishers-api-openapi.yml
   format: yaml
   label: ProRata.ai Publishers API
   slug: prorataai-publishers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/openapi/prorataai-publishers-api-openapi.yml
+  url: https://artifacts.apis.io/prorataai/openapi/prorataai-publishers-api-openapi.yml
 - filename: prorataai-questions-api-openapi.yml
   format: yaml
   label: ProRata.ai Questions API
   slug: prorataai-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/openapi/prorataai-questions-api-openapi.yml
+  url: https://artifacts.apis.io/prorataai/openapi/prorataai-questions-api-openapi.yml
 - filename: prorataai-root-api-openapi.yml
   format: yaml
   label: ProRata.ai Root API
   slug: prorataai-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/openapi/prorataai-root-api-openapi.yml
+  url: https://artifacts.apis.io/prorataai/openapi/prorataai-root-api-openapi.yml
 - filename: prorataai-summaries-api-openapi.yml
   format: yaml
   label: ProRata.ai Summaries API
   slug: prorataai-summaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/openapi/prorataai-summaries-api-openapi.yml
+  url: https://artifacts.apis.io/prorataai/openapi/prorataai-summaries-api-openapi.yml
 - filename: prorataai-threads-api-openapi.yml
   format: yaml
   label: ProRata.ai Threads API
   slug: prorataai-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/openapi/prorataai-threads-api-openapi.yml
+  url: https://artifacts.apis.io/prorataai/openapi/prorataai-threads-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-08-26'\nmethod: searched\nsource: openapi/prorata
   - name: secret key\nkey_tier_note: >-\n  POST /v1/summaries and GET /v1/summaries/{summaryId} accept \"a valid API key (public or\n  secret)\". No prefix convention, rotation policy or scope difference between the two\n  tiers is documented anywhere in the hub — a real gap, recorded rather than guessed.\nadditional_identity_headers:\n- name: X-User-ID\n  required: true\n  operation_count: 12\n  operations:\n  - POST /v1/chat\n  - POST /v1/chat/completions\n  - GET /v1/chat/response/{threadId}/{turnId}\n  - GET /v1/chat/citations/{threadId}/{turnId}\n  - GET /v1/chat/attributions/{threadId}/{turnId}\n  - GET /v1/threads\n  - GET /v1/threads/{threadId}\n  - DELETE /v1/threads/{threadId}\n  - GET /v1/questions/recommended\n  - POST /v1/questions/related\n  - GET /v1/publishers\n  - GET /v1/publishers/{id}\n  description: >-\n    Unique identifier for the end user making the request. Declared required: true on 12\n    of the 16 published operations — every one except GET /, GET /v1/health\
   \ and the two\n    /v1/summaries operations. It is a second, mandatory identity input alongside the API\n    key, and it is easy to miss: it is a per-operation parameter, not a security scheme,\n    so a client generated from securitySchemes alone will 400.\nauthorization_model:\n  scopes: false\n  scopes_note: >-\n    No OAuth scopes exist, so no scopes/ artifact is emitted. Authorization is by tenancy,\n    not permission — a key sees only its own publisher group, and POST /v1/summaries\n    additionally validates the target URL's domain against that group with an EXACT match\n    (subdomains are not automatically allowed), returning 403 otherwise.\npublic_operations:\n- GET /v1/health\n- GET /\npublic_note: >-\n  Both are marked \"Public Endpoint: This endpoint is publicly accessible and does not\n  require authentication\" in the contract, and GET https://api.gist.ai/v1/health was\n  confirmed answering anonymously during this pass.\nobserved:\n  url: https://api.gist.ai/v1/publishers\n\
   \  http_status: 401\n  body: '{\"error\":\"Unauthorized\",\"message\":\"Missing or invalid Authorization header\",\"statusCode\":401}'\n  fetched: '2026-08-26'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/authentication/prorataai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/prorataai/authentication/prorataai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence

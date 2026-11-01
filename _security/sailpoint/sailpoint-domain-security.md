@@ -5,25 +5,25 @@ api_specs:
   label: SailPoint Access Profiles API
   slug: sailpoint-access-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/openapi/sailpoint-access-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/sailpoint/openapi/sailpoint-access-profiles-api-openapi.yml
 - filename: sailpoint-certifications-api-openapi.yml
   format: yaml
   label: SailPoint Certifications API
   slug: sailpoint-certifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/openapi/sailpoint-certifications-api-openapi.yml
+  url: https://artifacts.apis.io/sailpoint/openapi/sailpoint-certifications-api-openapi.yml
 - filename: sailpoint-identities-api-openapi.yml
   format: yaml
   label: SailPoint Identities API
   slug: sailpoint-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/openapi/sailpoint-identities-api-openapi.yml
+  url: https://artifacts.apis.io/sailpoint/openapi/sailpoint-identities-api-openapi.yml
 - filename: sailpoint-roles-api-openapi.yml
   format: yaml
   label: SailPoint Roles API
   slug: sailpoint-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/openapi/sailpoint-roles-api-openapi.yml
+  url: https://artifacts.apis.io/sailpoint/openapi/sailpoint-roles-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -56,7 +56,7 @@ source_filename: sailpoint-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.sailpoint.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 05:58:36 2026 GMT\n  hsts: false\ndomains:\n- domain: sailpoint.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/security/sailpoint-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sailpoint/security/sailpoint-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Access Governance

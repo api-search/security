@@ -41,7 +41,7 @@ source_filename: allscripts-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.veradigm.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep  3 12:50:11 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: open.platform.veradigm.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 30 16:37:15 2027 GMT\n  hsts: null\n- host: developer.allscripts.com\n  https: false\ndomains:\n- domain: veradigm.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: allscripts.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veradigm/refs/heads/main/security/allscripts-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/veradigm/security/allscripts-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Healthcare IT

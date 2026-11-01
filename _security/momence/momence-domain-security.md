@@ -5,49 +5,49 @@ api_specs:
   label: Momence Auth API
   slug: momence-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-auth-api-openapi.yml
+  url: https://artifacts.apis.io/momence/openapi/momence-auth-api-openapi.yml
 - filename: momence-host-api-openapi.yml
   format: yaml
   label: Momence Host API
   slug: momence-host-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-host-api-openapi.yml
+  url: https://artifacts.apis.io/momence/openapi/momence-host-api-openapi.yml
 - filename: momence-host-checkout-api-openapi.yml
   format: yaml
   label: Momence Host Checkout API
   slug: momence-host-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-host-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/momence/openapi/momence-host-checkout-api-openapi.yml
 - filename: momence-member-addresses-api-openapi.yml
   format: yaml
   label: Momence Member Addresses API
   slug: momence-member-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-member-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/momence/openapi/momence-member-addresses-api-openapi.yml
 - filename: momence-member-api-openapi.yml
   format: yaml
   label: Momence Member API
   slug: momence-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-member-api-openapi.yml
+  url: https://artifacts.apis.io/momence/openapi/momence-member-api-openapi.yml
 - filename: momence-member-checkout-api-openapi.yml
   format: yaml
   label: Momence Member Checkout API
   slug: momence-member-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-member-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/momence/openapi/momence-member-checkout-api-openapi.yml
 - filename: momence-member-host-api-openapi.yml
   format: yaml
   label: Momence Member Host API
   slug: momence-member-host-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-member-host-api-openapi.yml
+  url: https://artifacts.apis.io/momence/openapi/momence-member-host-api-openapi.yml
 - filename: momence-member-sessions-api-openapi.yml
   format: yaml
   label: Momence Member Sessions API
   slug: momence-member-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-member-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/momence/openapi/momence-member-sessions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -86,7 +86,7 @@ source_filename: momence-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: momence.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 21:29:17 2026 GMT\n  hsts: false\n- host: api.docs.momence.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 10:57:03 2026 GMT\n  hsts: null\n- host: api.momence.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 21:29:17 2026 GMT\n  hsts: null\ndomains:\n- domain: momence.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/security/momence-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/momence/security/momence-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Fitness

@@ -30,7 +30,7 @@ source_filename: warrior-met-coal-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.warriormetcoal.com\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''www.warrior'\n  hsts: null\n- host: developer.warriormetcoal.com\n  https: false\n- host: api.warriormetcoal.com\n  https: false\ndomains:\n- domain: warriormetcoal.com\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/warrior-met-coal/refs/heads/main/security/warrior-met-coal-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/warrior-met-coal/security/warrior-met-coal-domain-security.yml
 summary_line: DNSSEC · DMARC
 tags:
 - Coal

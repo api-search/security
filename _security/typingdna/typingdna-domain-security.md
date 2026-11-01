@@ -5,19 +5,19 @@ api_specs:
   label: TypingDNA Advanced API
   slug: typingdna-advanced-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/openapi/typingdna-advanced-api-openapi.yml
+  url: https://artifacts.apis.io/typingdna/openapi/typingdna-advanced-api-openapi.yml
 - filename: typingdna-optional-api-openapi.yml
   format: yaml
   label: TypingDNA Optional API
   slug: typingdna-optional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/openapi/typingdna-optional-api-openapi.yml
+  url: https://artifacts.apis.io/typingdna/openapi/typingdna-optional-api-openapi.yml
 - filename: typingdna-standard-api-openapi.yml
   format: yaml
   label: TypingDNA Standard API
   slug: typingdna-standard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/openapi/typingdna-standard-api-openapi.yml
+  url: https://artifacts.apis.io/typingdna/openapi/typingdna-standard-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: typingdna-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: typingdna.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.typingdna.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 23:59:59 2026 GMT\n  hsts: null\n- host: verify.typingdna.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: typingdna.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/security/typingdna-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/typingdna/security/typingdna-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

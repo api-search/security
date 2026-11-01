@@ -8,7 +8,7 @@ api_specs:
   label: Email Verifier API Verification API
   slug: email-verifier-api-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/email-verifier-api/refs/heads/main/openapi/email-verifier-api-verification-api-openapi.yml
+  url: https://artifacts.apis.io/email-verifier-api/openapi/email-verifier-api-verification-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -40,7 +40,7 @@ source_filename: email-verifier-api-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/email-verifier-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiKeyQuery\n  type: apiKey\n  in: query\n  parameter: apiKey\n  description: |-\n    API key issued at signup. Pass as the `apiKey` query string parameter on every\n    request. Treat the key as a credential and rotate from the customer dashboard\n    if exposed.\n  sources:\n  - openapi/email-verifier-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/email-verifier-api/refs/heads/main/authentication/email-verifier-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/email-verifier-api/authentication/email-verifier-api-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Email Verification

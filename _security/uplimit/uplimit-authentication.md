@@ -7,31 +7,31 @@ api_specs:
   label: Uplimit Course API
   slug: uplimit-course-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/openapi/uplimit-course-api-openapi.yml
+  url: https://artifacts.apis.io/uplimit/openapi/uplimit-course-api-openapi.yml
 - filename: uplimit-export-api-openapi.yml
   format: yaml
   label: Uplimit Export API
   slug: uplimit-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/openapi/uplimit-export-api-openapi.yml
+  url: https://artifacts.apis.io/uplimit/openapi/uplimit-export-api-openapi.yml
 - filename: uplimit-platform-api-openapi.yml
   format: yaml
   label: Uplimit Platform API
   slug: uplimit-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/openapi/uplimit-platform-api-openapi.yml
+  url: https://artifacts.apis.io/uplimit/openapi/uplimit-platform-api-openapi.yml
 - filename: uplimit-session-api-openapi.yml
   format: yaml
   label: Uplimit Session API
   slug: uplimit-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/openapi/uplimit-session-api-openapi.yml
+  url: https://artifacts.apis.io/uplimit/openapi/uplimit-session-api-openapi.yml
 - filename: uplimit-user-api-openapi.yml
   format: yaml
   label: Uplimit User API
   slug: uplimit-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/openapi/uplimit-user-api-openapi.yml
+  url: https://artifacts.apis.io/uplimit/openapi/uplimit-user-api-openapi.yml
 auth_types:
 - http-bearer
 description: ''
@@ -58,7 +58,7 @@ source_filename: uplimit-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/uplimit-organization-openapi-original.yml\ndocs: https://github.com/uplimit/api-clients/blob/main/go-client/README.md\nsummary:\n  types: [http-bearer]\n  notes: Every operation on the Uplimit Organization API requires an\n    organization API token sent as an HTTP Bearer token. The go-client README\n    documents HTTP Bearer token authentication; GET /v1/Healthcheck validates\n    the key and returns the organization id/name (403 on a bad key). Tokens are\n    issued by Uplimit to Enterprise customers (no self-serve key portal was\n    found). Learner-facing SSO (SAML / OAuth2 identity binding) is managed via\n    POST /v1/AddUserAuthenticationMethod and is separate from API auth.\nschemes:\n  - name: bearerAuth\n    type: http\n    scheme: bearer\n    applied: all operations (per-operation security)\n    sources: [openapi/uplimit-organization-openapi-original.yml]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/authentication/uplimit-authentication.yml
+source_yaml_url: https://artifacts.apis.io/uplimit/authentication/uplimit-authentication.yml
 summary_line: http-bearer · 1 scheme
 tags:
 - Company

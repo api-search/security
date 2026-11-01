@@ -8,25 +8,25 @@ api_specs:
   label: UniRate API Commodity API
   slug: unirateapi-commodity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unirateapi/refs/heads/main/openapi/unirateapi-commodity-api-openapi.yml
+  url: https://artifacts.apis.io/unirateapi/openapi/unirateapi-commodity-api-openapi.yml
 - filename: unirateapi-currency-api-openapi.yml
   format: yaml
   label: UniRate API Currency API
   slug: unirateapi-currency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unirateapi/refs/heads/main/openapi/unirateapi-currency-api-openapi.yml
+  url: https://artifacts.apis.io/unirateapi/openapi/unirateapi-currency-api-openapi.yml
 - filename: unirateapi-historical-currency-api-openapi.yml
   format: yaml
   label: UniRate API Historical Currency API
   slug: unirateapi-historical-currency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unirateapi/refs/heads/main/openapi/unirateapi-historical-currency-api-openapi.yml
+  url: https://artifacts.apis.io/unirateapi/openapi/unirateapi-historical-currency-api-openapi.yml
 - filename: unirateapi-vat-rates-api-openapi.yml
   format: yaml
   label: UniRate API VAT Rates API
   slug: unirateapi-vat-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unirateapi/refs/heads/main/openapi/unirateapi-vat-rates-api-openapi.yml
+  url: https://artifacts.apis.io/unirateapi/openapi/unirateapi-vat-rates-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: unirateapi-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-16'\nmethod: derived\nsource: openapi/unirateapi-openapi.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: Your UniRate API key, passed as the `api_key` query parameter.\n  sources:\n  - openapi/unirateapi-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unirateapi/refs/heads/main/authentication/unirateapi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/unirateapi/authentication/unirateapi-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Currency

@@ -10,25 +10,25 @@ api_specs:
   label: 6sense Company API
   slug: 6sense-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/openapi/6sense-company-api-openapi.yml
+  url: https://artifacts.apis.io/6sense/openapi/6sense-company-api-openapi.yml
 - filename: 6sense-enrichment-api-openapi.yml
   format: yaml
   label: 6sense Enrichment API
   slug: 6sense-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/openapi/6sense-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/6sense/openapi/6sense-enrichment-api-openapi.yml
 - filename: 6sense-people-api-openapi.yml
   format: yaml
   label: 6sense People API
   slug: 6sense-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/openapi/6sense-people-api-openapi.yml
+  url: https://artifacts.apis.io/6sense/openapi/6sense-people-api-openapi.yml
 - filename: 6sense-scoring-api-openapi.yml
   format: yaml
   label: 6sense Scoring API
   slug: 6sense-scoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/openapi/6sense-scoring-api-openapi.yml
+  url: https://artifacts.apis.io/6sense/openapi/6sense-scoring-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -139,7 +139,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/6sense-
   \ openapi/6sense-enrichment-api-openapi.yml\n  - openapi/6sense-people-api-openapi.yml\n\n- name: API_KEY\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: >-\n    The securityScheme name used in the provider-published Scribe OpenAPI at\n    https://scribe.6sense.com/openapi.json. Same credential and same header as\n    TokenAuth above; only the scheme name differs between the published spec and\n    the API Portal documentation.\n  sources:\n  - openapi/6sense-scribe-openapi.json\n\n- name: 6sense Agentic OAuth (MCP)\n  type: oauth2\n  description: >-\n    Per-user OAuth for the remote MCP server at https://api.6sense.com/mcp.\n    Discovered anonymously via RFC 9728 protected-resource metadata advertised in\n    the WWW-Authenticate header of an unauthenticated MCP request. Supports\n    dynamic client registration, PKCE (S256) and DPoP.\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.6sense.com/oauth2/v1/apps/agentic/P32lusHUPY06hG8MJtqJnKEmq7hJ/MS3CTIZ4l7VZ4pFeraAIy18Y6wIVN/authorize\n\
   \    tokenUrl: https://auth.6sense.com/oauth2/v1/apps/agentic/P32lusHUPY06hG8MJtqJnKEmq7hJ/MS3CTIZ4l7VZ4pFeraAIy18Y6wIVN/token\n    scopes:\n      mcp:use: Call the 6sense MCP server on behalf of the consenting user.\n  - flow: clientCredentials\n    tokenUrl: https://auth.6sense.com/oauth2/v1/apps/agentic/P32lusHUPY06hG8MJtqJnKEmq7hJ/MS3CTIZ4l7VZ4pFeraAIy18Y6wIVN/token\n  detail: scopes/6sense-scopes.yml\n  sources:\n  - well-known/6sense-oauth-authorization-server.json\n  - well-known/6sense-oauth-protected-resource-mcp.json\n\n- name: Saleswhale token (AI Email)\n  type: apiKey\n  in: query\n  parameter: token\n  alternate_in: body\n  alternate_parameter: token\n  description: >-\n    The AI Email (formerly Conversational Email, formerly Saleswhale) API at\n    https://engage-api.saleswhale.com/api/{version}/ authenticates with a token\n    passed either as a ?token= query parameter or as a top-level \"token\" property\n    in the JSON request body. There is no header-based option documented.\
   \ A query\n    parameter credential is logged by intermediaries and proxies by default, so\n    this is materially weaker than the header token used by the core data APIs.\n  docs: https://docs.saleswhale.com/\n  sources:\n  - https://docs.saleswhale.com/\n\nsecurity_posture:\n  transport: HTTPS only on all hosts probed (TLS 1.3).\n  server_side_only: >-\n    6sense explicitly requires the Enrichment APIs to be server-to-server and\n    warns the token must never be exposed on a public domain. The Company\n    Identification API is the deliberate exception — it is designed for\n    client-side use inside the WebTag, which is why it is the only token group\n    that can be pinned to an allowed-domain list.\n  default_deny_on_settings: >-\n    Score and Segment detail are withheld by default on API token settings and\n    must be explicitly enabled per token.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/authentication/6sense-authentication.yml
+source_yaml_url: https://artifacts.apis.io/6sense/authentication/6sense-authentication.yml
 summary_line: apiKey/oauth2 · 4 schemes
 tags:
 - Account Based Marketing

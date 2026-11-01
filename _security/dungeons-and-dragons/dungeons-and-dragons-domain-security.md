@@ -26,7 +26,7 @@ source_filename: dungeons-and-dragons-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dnd5eapi.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 23:12:55 2026 GMT\n  hsts: false\ndomains:\n- domain: dnd5eapi.co\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dungeons-and-dragons/refs/heads/main/security/dungeons-and-dragons-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dungeons-and-dragons/security/dungeons-and-dragons-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Public APIs

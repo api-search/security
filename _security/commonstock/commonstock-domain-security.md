@@ -26,7 +26,7 @@ source_filename: commonstock-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: share.commonstock.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 12 15:17:14 2026 GMT\n  hsts: null\ndomains:\n- domain: commonstock.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/commonstock/refs/heads/main/security/commonstock-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/commonstock/security/commonstock-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

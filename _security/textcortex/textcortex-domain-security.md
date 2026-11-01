@@ -5,25 +5,25 @@ api_specs:
   label: Textcortex Balance API
   slug: textcortex-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textcortex/refs/heads/main/openapi/textcortex-balance-api-openapi.yml
+  url: https://artifacts.apis.io/textcortex/openapi/textcortex-balance-api-openapi.yml
 - filename: textcortex-chat-completions-api-openapi.yml
   format: yaml
   label: Textcortex Chat Completions API
   slug: textcortex-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textcortex/refs/heads/main/openapi/textcortex-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/textcortex/openapi/textcortex-chat-completions-api-openapi.yml
 - filename: textcortex-models-api-openapi.yml
   format: yaml
   label: Textcortex Models API
   slug: textcortex-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textcortex/refs/heads/main/openapi/textcortex-models-api-openapi.yml
+  url: https://artifacts.apis.io/textcortex/openapi/textcortex-models-api-openapi.yml
 - filename: textcortex-responses-api-openapi.yml
   format: yaml
   label: Textcortex Responses API
   slug: textcortex-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textcortex/refs/heads/main/openapi/textcortex-responses-api-openapi.yml
+  url: https://artifacts.apis.io/textcortex/openapi/textcortex-responses-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: textcortex-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.textcortex.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 23:03:28 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: textcortex.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/textcortex/refs/heads/main/security/textcortex-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/textcortex/security/textcortex-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

@@ -8,13 +8,13 @@ api_specs:
   label: Finlight Articles API
   slug: finlight-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finlight/refs/heads/main/openapi/finlight-articles-api-openapi.yml
+  url: https://artifacts.apis.io/finlight/openapi/finlight-articles-api-openapi.yml
 - filename: finlight-sources-api-openapi.yml
   format: yaml
   label: Finlight Sources API
   slug: finlight-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finlight/refs/heads/main/openapi/finlight-sources-api-openapi.yml
+  url: https://artifacts.apis.io/finlight/openapi/finlight-sources-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: finlight-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-KEY\n  description: API key obtained from https://app.finlight.me\n  sources:\n  - openapi/openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/finlight/refs/heads/main/authentication/finlight-authentication.yml
+source_yaml_url: https://artifacts.apis.io/finlight/authentication/finlight-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Financial News

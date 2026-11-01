@@ -5,13 +5,13 @@ api_specs:
   label: Apptimize Events API
   slug: apptimize-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apptimize/refs/heads/main/openapi/apptimize-events-api-openapi.yml
+  url: https://artifacts.apis.io/apptimize/openapi/apptimize-events-api-openapi.yml
 - filename: apptimize-experiments-api-openapi.yml
   format: yaml
   label: Apptimize Experiments API
   slug: apptimize-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apptimize/refs/heads/main/openapi/apptimize-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/apptimize/openapi/apptimize-experiments-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -62,7 +62,7 @@ source_filename: apptimize-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: apptimize.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 10:57:33 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.apptimize.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 10:57:33 2026 GMT\n  hsts: null\n- host: api.apptimize.eu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 02:09:39 2026 GMT\n  hsts: null\ndomains:\n- domain: apptimize.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: apptimize.eu\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apptimize/refs/heads/main/security/apptimize-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apptimize/security/apptimize-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

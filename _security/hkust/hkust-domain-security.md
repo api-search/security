@@ -5,25 +5,25 @@ api_specs:
   label: Hong Kong University of Science and Technology Buildings API
   slug: hkust-buildings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/openapi/hkust-buildings-api-openapi.yml
+  url: https://artifacts.apis.io/hkust/openapi/hkust-buildings-api-openapi.yml
 - filename: hkust-floors-api-openapi.yml
   format: yaml
   label: Hong Kong University of Science and Technology Floors API
   slug: hkust-floors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/openapi/hkust-floors-api-openapi.yml
+  url: https://artifacts.apis.io/hkust/openapi/hkust-floors-api-openapi.yml
 - filename: hkust-nodes-api-openapi.yml
   format: yaml
   label: Hong Kong University of Science and Technology Nodes API
   slug: hkust-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/openapi/hkust-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/hkust/openapi/hkust-nodes-api-openapi.yml
 - filename: hkust-tags-api-openapi.yml
   format: yaml
   label: Hong Kong University of Science and Technology Tags API
   slug: hkust-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/openapi/hkust-tags-api-openapi.yml
+  url: https://artifacts.apis.io/hkust/openapi/hkust-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: hkust-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-30'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ust.hk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 13 23:59:59 2026 GMT\n  hsts: false\n- host: pathadvisor.ust.hk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 19:05:52 2026 GMT\n  hsts: false\n- host: hkust.developer.azure-api.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 10 14:28:47 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: ust.hk\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: azure-api.net\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/security/hkust-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hkust/security/hkust-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - University

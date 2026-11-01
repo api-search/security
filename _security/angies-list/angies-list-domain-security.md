@@ -27,7 +27,7 @@ source_filename: angies-list-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.angi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 19:46:14 2026 GMT\n  hsts: false\ndomains:\n- domain: angi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/angies-list/refs/heads/main/security/angies-list-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/angies-list/security/angies-list-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

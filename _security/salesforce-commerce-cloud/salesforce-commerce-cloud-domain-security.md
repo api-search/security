@@ -5,7 +5,7 @@ api_specs:
   label: Salesforce Commerce Cloud Shopper API
   slug: salesforce-commerce-cloud-shopper-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-commerce-cloud/refs/heads/main/openapi/salesforce-commerce-cloud-shopper-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-commerce-cloud/openapi/salesforce-commerce-cloud-shopper-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -42,7 +42,7 @@ source_filename: salesforce-commerce-cloud-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.salesforce.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 86400\n- host: developer.salesforce.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 23:59:59 2026 GMT\n  hsts: null\n- host: <short-code>.api.commercecloud.salesforce.com\n  https: false\ndomains:\n- domain: salesforce.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce-commerce-cloud/refs/heads/main/security/salesforce-commerce-cloud-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/salesforce-commerce-cloud/security/salesforce-commerce-cloud-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Commerce

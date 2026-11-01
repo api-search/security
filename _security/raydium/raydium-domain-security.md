@@ -5,25 +5,25 @@ api_specs:
   label: Raydium Farms API
   slug: raydium-farms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/raydium/refs/heads/main/openapi/raydium-farms-api-openapi.yml
+  url: https://artifacts.apis.io/raydium/openapi/raydium-farms-api-openapi.yml
 - filename: raydium-main-api-openapi.yml
   format: yaml
   label: Raydium Main API
   slug: raydium-main-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/raydium/refs/heads/main/openapi/raydium-main-api-openapi.yml
+  url: https://artifacts.apis.io/raydium/openapi/raydium-main-api-openapi.yml
 - filename: raydium-mint-api-openapi.yml
   format: yaml
   label: Raydium Mint API
   slug: raydium-mint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/raydium/refs/heads/main/openapi/raydium-mint-api-openapi.yml
+  url: https://artifacts.apis.io/raydium/openapi/raydium-mint-api-openapi.yml
 - filename: raydium-pools-api-openapi.yml
   format: yaml
   label: Raydium Pools API
   slug: raydium-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/raydium/refs/heads/main/openapi/raydium-pools-api-openapi.yml
+  url: https://artifacts.apis.io/raydium/openapi/raydium-pools-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: raydium-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: raydium.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 14:43:31 2026 GMT\n  hsts: false\n- host: api-v3.raydium.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 10:12:03 2026 GMT\n  hsts: false\n- host: docs.raydium.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 11:49:08 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: raydium.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/raydium/refs/heads/main/security/raydium-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/raydium/security/raydium-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Web3

@@ -56,7 +56,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.enverus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 29 15:31:52 2026 GMT\n  hsts: false\n- host: app.enverus.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar  1 23:59:59 2027 GMT\n  hsts: null\n- host: di-api.drillinginfo.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Apr 30 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: enverus.com\n  dnssec: false\n  caa:\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issuewild \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: drillinginfo.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\
   \n  - 0 issue \"awstrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/enverus/refs/heads/main/security/enverus-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/enverus/security/enverus-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
@@ -69,4 +69,9 @@ tags:
 - Software-as-a-Service
 - Direct Access
 - Trading and Risk
+- Data
+- Geospatial
+- Developer API
+- Production Data
+- Energy Intelligence
 ---

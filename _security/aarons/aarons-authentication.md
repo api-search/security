@@ -7,85 +7,85 @@ api_specs:
   label: Aaron's Authorize Session API
   slug: aarons-authorizesession-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aarons/refs/heads/main/openapi/aarons-authorizesession-api-openapi.yml
+  url: https://artifacts.apis.io/aarons/openapi/aarons-authorizesession-api-openapi.yml
 - filename: aarons-autopaycustomerretry-api-openapi.yml
   format: yaml
   label: Aaron's Auto Pay Customer Retry API
   slug: aarons-autopaycustomerretry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aarons/refs/heads/main/openapi/aarons-autopaycustomerretry-api-openapi.yml
+  url: https://artifacts.apis.io/aarons/openapi/aarons-autopaycustomerretry-api-openapi.yml
 - filename: aarons-createtoken-api-openapi.yml
   format: yaml
   label: Aaron's Create Token API
   slug: aarons-createtoken-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aarons/refs/heads/main/openapi/aarons-createtoken-api-openapi.yml
+  url: https://artifacts.apis.io/aarons/openapi/aarons-createtoken-api-openapi.yml
 - filename: aarons-fiservpostback-api-openapi.yml
   format: yaml
   label: Aaron's Fiserv Postback API
   slug: aarons-fiservpostback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aarons/refs/heads/main/openapi/aarons-fiservpostback-api-openapi.yml
+  url: https://artifacts.apis.io/aarons/openapi/aarons-fiservpostback-api-openapi.yml
 - filename: aarons-memorybearertoken-api-openapi.yml
   format: yaml
   label: Aaron's Memory Bearer Token API
   slug: aarons-memorybearertoken-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aarons/refs/heads/main/openapi/aarons-memorybearertoken-api-openapi.yml
+  url: https://artifacts.apis.io/aarons/openapi/aarons-memorybearertoken-api-openapi.yml
 - filename: aarons-memorytokenguid-api-openapi.yml
   format: yaml
   label: Aaron's Memory Token Guid API
   slug: aarons-memorytokenguid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aarons/refs/heads/main/openapi/aarons-memorytokenguid-api-openapi.yml
+  url: https://artifacts.apis.io/aarons/openapi/aarons-memorytokenguid-api-openapi.yml
 - filename: aarons-ping-api-openapi.yml
   format: yaml
   label: Aaron's Ping API
   slug: aarons-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aarons/refs/heads/main/openapi/aarons-ping-api-openapi.yml
+  url: https://artifacts.apis.io/aarons/openapi/aarons-ping-api-openapi.yml
 - filename: aarons-repayauthpostback-api-openapi.yml
   format: yaml
   label: Aaron's Repay Auth Postback API
   slug: aarons-repayauthpostback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aarons/refs/heads/main/openapi/aarons-repayauthpostback-api-openapi.yml
+  url: https://artifacts.apis.io/aarons/openapi/aarons-repayauthpostback-api-openapi.yml
 - filename: aarons-repaycardvaultpostback-api-openapi.yml
   format: yaml
   label: Aaron's Repay Card Vault Postback API
   slug: aarons-repaycardvaultpostback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aarons/refs/heads/main/openapi/aarons-repaycardvaultpostback-api-openapi.yml
+  url: https://artifacts.apis.io/aarons/openapi/aarons-repaycardvaultpostback-api-openapi.yml
 - filename: aarons-savedeviceintelligence-api-openapi.yml
   format: yaml
   label: Aaron's Save Device Intelligence API
   slug: aarons-savedeviceintelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aarons/refs/heads/main/openapi/aarons-savedeviceintelligence-api-openapi.yml
+  url: https://artifacts.apis.io/aarons/openapi/aarons-savedeviceintelligence-api-openapi.yml
 - filename: aarons-savetoken-api-openapi.yml
   format: yaml
   label: Aaron's Save Token API
   slug: aarons-savetoken-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aarons/refs/heads/main/openapi/aarons-savetoken-api-openapi.yml
+  url: https://artifacts.apis.io/aarons/openapi/aarons-savetoken-api-openapi.yml
 - filename: aarons-updatecustomerretrynotification-api-openapi.yml
   format: yaml
   label: Aaron's Update Customer Retry Notification API
   slug: aarons-updatecustomerretrynotification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aarons/refs/heads/main/openapi/aarons-updatecustomerretrynotification-api-openapi.yml
+  url: https://artifacts.apis.io/aarons/openapi/aarons-updatecustomerretrynotification-api-openapi.yml
 - filename: aarons-create-session-api-openapi.yml
   format: yaml
   label: Aaron's Create Session API
   slug: aarons-create-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aarons/refs/heads/main/openapi/aarons-create-session-api-openapi.yml
+  url: https://artifacts.apis.io/aarons/openapi/aarons-create-session-api-openapi.yml
 - filename: aarons-customer-data-api-openapi.yml
   format: yaml
   label: Aaron's CUSTOMER DATA API
   slug: aarons-customer-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aarons/refs/heads/main/openapi/aarons-customer-data-api-openapi.yml
+  url: https://artifacts.apis.io/aarons/openapi/aarons-customer-data-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -147,7 +147,7 @@ source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: >-\n  openapi/aar
   \    scheme_name: Bearer\n    description: >-\n      Declared in the HPP Swagger 2.0 document as securityDefinitions.Bearer, an apiKey scheme\n      carried in the Authorization header. Applied at operation level on every non-ping operation.\n    applied: per-operation\n    source: openapi/aarons-hpp-openapi.json#/securityDefinitions/Bearer\n    token_issuance: >-\n      Not publicly documented. The contract itself exposes /MemoryBearerToken and /CreateToken\n      operations, implying tokens are minted by Aaron's for its own session flow rather than issued\n      to third-party developers.\n  - id: okta-oidc\n    type: openIdConnect\n    issuer: https://login.aarons.com\n    discovery: well-known/aarons-login-openid-configuration.json\n    description: >-\n      Okta org authorization server on Aaron's custom domain. Anonymous OIDC discovery is served.\n    authorization_endpoint: https://login.aarons.com/oauth2/v1/authorize\n    token_endpoint: https://login.aarons.com/oauth2/v1/token\n\
   \    userinfo_endpoint: https://login.aarons.com/oauth2/v1/userinfo\n    jwks_uri: https://login.aarons.com/oauth2/v1/keys\n    introspection_endpoint: https://login.aarons.com/oauth2/v1/introspect\n    revocation_endpoint: https://login.aarons.com/oauth2/v1/revoke\n    end_session_endpoint: https://login.aarons.com/oauth2/v1/logout\n    registration_endpoint: https://login.aarons.com/oauth2/v1/clients\n    id_token_signing_alg: [RS256]\n    pkce: [S256]\n    token_endpoint_auth_methods:\n      - client_secret_basic\n      - client_secret_post\n      - client_secret_jwt\n      - private_key_jwt\n      - none\n  - id: okta-oidc-default\n    type: openIdConnect\n    issuer: https://login.aarons.com/oauth2/default\n    discovery: well-known/aarons-login-default-openid-configuration.json\n    description: >-\n      The custom authorization server the myaccount.aarons.com application names as its issuer.\n      This is the one that carries Aaron's own application scope (interclient_access)\
   \ alongside the\n      standard OIDC set.\n    source: >-\n      https://myaccount.aarons.com/assets/index-CNr2NkAf.js — Aaron's own published application\n      bundle names https://login.aarons.com/oauth2/default as the issuer.\ngrant_types:\n  - authorization_code\n  - implicit\n  - refresh_token\n  - password\n  - client_credentials      # org authorization server only\n  - urn:ietf:params:oauth:grant-type:device_code\n  - urn:openid:params:grant-type:ciba\nmfa:\n  supported: true\n  evidence: >-\n    Okta MFA grant types are advertised in discovery (urn:okta:params:oauth:grant-type:otp,\n    urn:okta:params:oauth:grant-type:oob, and the auth0 mfa-otp / mfa-oob equivalents).\ngaps:\n  - No published authentication documentation for developers on any Aaron's property.\n  - No API key self-service, no developer portal, no credential request flow.\n  - HPP bearer tokens have no documented lifetime, rotation, or scope model.\ndocs: null\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aarons/refs/heads/main/authentication/aarons-authentication.yml
+source_yaml_url: https://artifacts.apis.io/aarons/authentication/aarons-authentication.yml
 summary_line: 3 schemes
 tags:
 - Lease-to-Own

@@ -5,7 +5,7 @@ api_specs:
   label: Flipside Crypto JSON-RPC API
   slug: flipside-json-rpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipside/refs/heads/main/openapi/flipside-json-rpc-api-openapi.yml
+  url: https://artifacts.apis.io/flipside/openapi/flipside-json-rpc-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -42,7 +42,7 @@ source_filename: flipside-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: flipsidecrypto.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 15:13:43 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: docs.flipsidecrypto.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 15:13:43 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: api-v2.flipsidecrypto.xyz\n  https: false\ndomains:\n- domain: flipsidecrypto.xyz\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flipside/refs/heads/main/security/flipside-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/flipside/security/flipside-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Blockchain

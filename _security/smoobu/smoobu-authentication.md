@@ -8,37 +8,37 @@ api_specs:
   label: Smoobu Apartments API
   slug: smoobu-apartments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/openapi/smoobu-apartments-api-openapi.yml
+  url: https://artifacts.apis.io/smoobu/openapi/smoobu-apartments-api-openapi.yml
 - filename: smoobu-guests-api-openapi.yml
   format: yaml
   label: Smoobu Guests API
   slug: smoobu-guests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/openapi/smoobu-guests-api-openapi.yml
+  url: https://artifacts.apis.io/smoobu/openapi/smoobu-guests-api-openapi.yml
 - filename: smoobu-messaging-api-openapi.yml
   format: yaml
   label: Smoobu Messaging API
   slug: smoobu-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/openapi/smoobu-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/smoobu/openapi/smoobu-messaging-api-openapi.yml
 - filename: smoobu-rates-and-availability-api-openapi.yml
   format: yaml
   label: Smoobu Rates and Availability API
   slug: smoobu-rates-and-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/openapi/smoobu-rates-and-availability-api-openapi.yml
+  url: https://artifacts.apis.io/smoobu/openapi/smoobu-rates-and-availability-api-openapi.yml
 - filename: smoobu-reservations-api-openapi.yml
   format: yaml
   label: Smoobu Reservations API
   slug: smoobu-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/openapi/smoobu-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/smoobu/openapi/smoobu-reservations-api-openapi.yml
 - filename: smoobu-user-api-openapi.yml
   format: yaml
   label: Smoobu User API
   slug: smoobu-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/openapi/smoobu-user-api-openapi.yml
+  url: https://artifacts.apis.io/smoobu/openapi/smoobu-user-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: smoobu-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/smoobu-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: Api-Key\n  description: Smoobu API key sent in the Api-Key header. HMAC-signed requests (X-API-Key /\n    X-Timestamp / X-Nonce / X-Signature) are the recommended method; OAuth 2 is available for\n    partners. The plain Api-Key header is documented as being sunset on 2026-09-25.\n  sources:\n  - openapi/smoobu-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/authentication/smoobu-authentication.yml
+source_yaml_url: https://artifacts.apis.io/smoobu/authentication/smoobu-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Vacation Rentals

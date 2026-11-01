@@ -7,25 +7,25 @@ api_specs:
   label: California Institute of Technology Data Select API
   slug: caltech-dataselect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caltech/refs/heads/main/openapi/caltech-dataselect-api-openapi.yml
+  url: https://artifacts.apis.io/caltech/openapi/caltech-dataselect-api-openapi.yml
 - filename: caltech-event-api-openapi.yml
   format: yaml
   label: California Institute of Technology Event API
   slug: caltech-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caltech/refs/heads/main/openapi/caltech-event-api-openapi.yml
+  url: https://artifacts.apis.io/caltech/openapi/caltech-event-api-openapi.yml
 - filename: caltech-records-api-openapi.yml
   format: yaml
   label: California Institute of Technology Records API
   slug: caltech-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caltech/refs/heads/main/openapi/caltech-records-api-openapi.yml
+  url: https://artifacts.apis.io/caltech/openapi/caltech-records-api-openapi.yml
 - filename: caltech-station-api-openapi.yml
   format: yaml
   label: California Institute of Technology Station API
   slug: caltech-station-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caltech/refs/heads/main/openapi/caltech-station-api-openapi.yml
+  url: https://artifacts.apis.io/caltech/openapi/caltech-station-api-openapi.yml
 auth_types: []
 description: Caltech's public machine-readable surfaces are open research infrastructure and require no credential to read. The institution's authentication engineering is concentrated in its identity federation, which is itself a machine-readable surface but governs access to internal systems rather than to the public APIs.
 kind: authentication
@@ -49,7 +49,7 @@ source_yaml: "---\naid: caltech\nname: California Institute of Technology — Au
   \ successful calls. The surface is LIVE but flapping.\n\n  - surface: SCEDC FDSN Web Services\n    baseURL: https://service.scedc.caltech.edu/fdsnws\n    x-operator: institution\n    public_read: true\n    auth_required_for_read: false\n    verified: '2026-08-19 — real event and station queries returned data unauthenticated'\n    note: >-\n      The FDSN specification defines an optional /queryauth endpoint for restricted data.\n      Not probed; not claimed.\n\n  - surface: IRSA / NED / NASA Exoplanet Archive IVOA services\n    baseURL: https://irsa.ipac.caltech.edu/TAP\n    x-operator: institution\n    public_read: true\n    auth_required_for_read: false\n    verified: '2026-08-19 — TAP sync queries returned real rows unauthenticated'\n    declared_security:\n      standardID: 'ivo://ivoa.net/sso#cookie'\n      source: https://irsa.ipac.caltech.edu/TAP/capabilities\n      note: >-\n        The TAP capabilities document declares an IVOA SSO cookie security method for\n        authenticated\
   \ access to proprietary data. Read as declared in-contract, not probed.\n\n  - surface: Caltech Library Feeds\n    baseURL: https://feeds.library.caltech.edu\n    x-operator: institution\n    public_read: true\n    auth_required_for_read: false\n    verified: '2026-08-19 — JSON datasets returned 200 unauthenticated'\n\nidentity_federation:\n  surface: Caltech Shibboleth Identity Provider\n  entityID: https://idp.caltech.edu/idp/shibboleth\n  x-operator: institution\n  protocols:\n    - urn:mace:shibboleth:1.0\n    - urn:oasis:names:tc:SAML:1.1:protocol\n    - urn:oasis:names:tc:SAML:2.0:protocol\n  scope: caltech.edu\n  federation: InCommon (registrationAuthority https://incommon.org), and therefore eduGAIN\n  sso_bindings:\n    - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST\n    - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect\n    - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign\n  attribute_authority: https://idp.caltech.edu:8443/idp/profile/SAML2/SOAP/AttributeQuery\n\
   \  single_logout: https://idp.caltech.edu/idp/profile/Logout\n  verified: '2026-08-19 — metadata retrieved 200 from both the IdP and the InCommon MDQ service'\n  note: >-\n    This governs access to Caltech systems for Caltech identities and for federated\n    partners. It is not an API gateway for the public data surfaces above, which are open.\n\nabsent:\n  - what: OAuth 2.0 authorization server for public API access\n    status: not_found\n    note: No public OAuth client registration or authorization endpoint found.\n  - what: API key issuance for public read\n    status: not_applicable\n    note: All public surfaces read without credentials.\n  - what: Documented scope vocabulary\n    status: not_found\n    note: >-\n      No published scope list for any Caltech surface. This is why there is no scopes/\n      artifact in this repo — the absence is the finding.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/caltech/refs/heads/main/authentication/caltech-authentication.yml
+source_yaml_url: https://artifacts.apis.io/caltech/authentication/caltech-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

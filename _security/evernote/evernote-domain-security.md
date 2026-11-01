@@ -37,7 +37,7 @@ source_filename: evernote-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: evernote.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 05:41:27 2026 GMT\n  hsts: false\n- host: dev.evernote.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 15:42:02 2026 GMT\n  hsts: false\n- host: www.evernote.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  2 01:27:04 2026 GMT\n  hsts: false\ndomains:\n- domain: evernote.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evernote/refs/heads/main/security/evernote-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/evernote/security/evernote-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

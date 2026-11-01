@@ -1,47 +1,107 @@
 ---
 api_specs:
-- filename: chartmetric-albums-api-openapi.yml
-  format: yaml
-  label: Chartmetric Albums API
-  slug: chartmetric-albums-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chartmetric/refs/heads/main/openapi/chartmetric-albums-api-openapi.yml
-- filename: chartmetric-artists-api-openapi.yml
-  format: yaml
-  label: Chartmetric Artists API
-  slug: chartmetric-artists-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chartmetric/refs/heads/main/openapi/chartmetric-artists-api-openapi.yml
-- filename: chartmetric-authentication-api-openapi.yml
-  format: yaml
-  label: Chartmetric Authentication API
-  slug: chartmetric-authentication-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chartmetric/refs/heads/main/openapi/chartmetric-authentication-api-openapi.yml
 - filename: chartmetric-charts-api-openapi.yml
   format: yaml
   label: Chartmetric Charts API
   slug: chartmetric-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chartmetric/refs/heads/main/openapi/chartmetric-charts-api-openapi.yml
-- filename: chartmetric-playlists-api-openapi.yml
-  format: yaml
-  label: Chartmetric Playlists API
-  slug: chartmetric-playlists-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chartmetric/refs/heads/main/openapi/chartmetric-playlists-api-openapi.yml
+  url: https://artifacts.apis.io/chartmetric/openapi/chartmetric-charts-api-openapi.yml
 - filename: chartmetric-search-api-openapi.yml
   format: yaml
   label: Chartmetric Search API
   slug: chartmetric-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chartmetric/refs/heads/main/openapi/chartmetric-search-api-openapi.yml
-- filename: chartmetric-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/chartmetric/openapi/chartmetric-search-api-openapi.yml
+- filename: chartmetric-album-api-openapi.yml
   format: yaml
-  label: Chartmetric Tracks API
-  slug: chartmetric-tracks-api
+  label: Chartmetric Album API
+  slug: chartmetric-album-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chartmetric/refs/heads/main/openapi/chartmetric-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/chartmetric/openapi/chartmetric-album-api-openapi.yml
+- filename: chartmetric-artist-api-openapi.yml
+  format: yaml
+  label: Chartmetric Artist API
+  slug: chartmetric-artist-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chartmetric/openapi/chartmetric-artist-api-openapi.yml
+- filename: chartmetric-brand-api-openapi.yml
+  format: yaml
+  label: Chartmetric Brand API
+  slug: chartmetric-brand-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chartmetric/openapi/chartmetric-brand-api-openapi.yml
+- filename: chartmetric-city-api-openapi.yml
+  format: yaml
+  label: Chartmetric City API
+  slug: chartmetric-city-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chartmetric/openapi/chartmetric-city-api-openapi.yml
+- filename: chartmetric-country-api-openapi.yml
+  format: yaml
+  label: Chartmetric Country API
+  slug: chartmetric-country-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chartmetric/openapi/chartmetric-country-api-openapi.yml
+- filename: chartmetric-curator-api-openapi.yml
+  format: yaml
+  label: Chartmetric Curator API
+  slug: chartmetric-curator-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chartmetric/openapi/chartmetric-curator-api-openapi.yml
+- filename: chartmetric-event-api-openapi.yml
+  format: yaml
+  label: Chartmetric Event API
+  slug: chartmetric-event-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chartmetric/openapi/chartmetric-event-api-openapi.yml
+- filename: chartmetric-festival-api-openapi.yml
+  format: yaml
+  label: Chartmetric Festival API
+  slug: chartmetric-festival-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chartmetric/openapi/chartmetric-festival-api-openapi.yml
+- filename: chartmetric-genre-api-openapi.yml
+  format: yaml
+  label: Chartmetric Genre API
+  slug: chartmetric-genre-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chartmetric/openapi/chartmetric-genre-api-openapi.yml
+- filename: chartmetric-playlist-api-openapi.yml
+  format: yaml
+  label: Chartmetric Playlist API
+  slug: chartmetric-playlist-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chartmetric/openapi/chartmetric-playlist-api-openapi.yml
+- filename: chartmetric-radio-api-openapi.yml
+  format: yaml
+  label: Chartmetric Radio API
+  slug: chartmetric-radio-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chartmetric/openapi/chartmetric-radio-api-openapi.yml
+- filename: chartmetric-sns-api-openapi.yml
+  format: yaml
+  label: Chartmetric SNS API
+  slug: chartmetric-sns-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chartmetric/openapi/chartmetric-sns-api-openapi.yml
+- filename: chartmetric-token-api-openapi.yml
+  format: yaml
+  label: Chartmetric Token API
+  slug: chartmetric-token-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chartmetric/openapi/chartmetric-token-api-openapi.yml
+- filename: chartmetric-track-api-openapi.yml
+  format: yaml
+  label: Chartmetric Track API
+  slug: chartmetric-track-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chartmetric/openapi/chartmetric-track-api-openapi.yml
+- filename: chartmetric-venue-api-openapi.yml
+  format: yaml
+  label: Chartmetric Venue API
+  slug: chartmetric-venue-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chartmetric/openapi/chartmetric-venue-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,7 +141,7 @@ source_filename: chartmetric-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.chartmetric.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 21:43:16 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: apidocs.chartmetric.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 15:59:42 2026 GMT\n  hsts: false\n- host: api.chartmetric.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: chartmetric.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chartmetric/refs/heads/main/security/chartmetric-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/chartmetric/security/chartmetric-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Music

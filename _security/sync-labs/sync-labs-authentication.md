@@ -8,25 +8,25 @@ api_specs:
   label: Sync Labs Assets API
   slug: sync-labs-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sync-labs/refs/heads/main/openapi/sync-labs-assets-api-openapi.yml
+  url: https://artifacts.apis.io/sync-labs/openapi/sync-labs-assets-api-openapi.yml
 - filename: sync-labs-batch-api-openapi.yml
   format: yaml
   label: Sync Labs Batch API
   slug: sync-labs-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sync-labs/refs/heads/main/openapi/sync-labs-batch-api-openapi.yml
+  url: https://artifacts.apis.io/sync-labs/openapi/sync-labs-batch-api-openapi.yml
 - filename: sync-labs-generate-api-openapi.yml
   format: yaml
   label: Sync Labs Generate API
   slug: sync-labs-generate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sync-labs/refs/heads/main/openapi/sync-labs-generate-api-openapi.yml
+  url: https://artifacts.apis.io/sync-labs/openapi/sync-labs-generate-api-openapi.yml
 - filename: sync-labs-models-api-openapi.yml
   format: yaml
   label: Sync Labs Models API
   slug: sync-labs-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sync-labs/refs/heads/main/openapi/sync-labs-models-api-openapi.yml
+  url: https://artifacts.apis.io/sync-labs/openapi/sync-labs-models-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: sync-labs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sync-labs-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: API key from https://sync.so/settings/api-keys\n  sources:\n  - openapi/sync-labs-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sync-labs/refs/heads/main/authentication/sync-labs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sync-labs/authentication/sync-labs-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence

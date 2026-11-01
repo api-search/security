@@ -33,7 +33,7 @@ source_filename: breathe-battery-technologies-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.breathebatteries.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 14:31:55 2026 GMT\n  hsts: false\n- host: docs.breathebatteries.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 10886400\ndomains:\n- domain: breathebatteries.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/breathe-battery-technologies/refs/heads/main/security/breathe-battery-technologies-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/breathe-battery-technologies/security/breathe-battery-technologies-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

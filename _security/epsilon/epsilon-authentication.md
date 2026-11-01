@@ -8,43 +8,43 @@ api_specs:
   label: Epsilon Ads API
   slug: epsilon-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/openapi/epsilon-ads-api-openapi.yml
+  url: https://artifacts.apis.io/epsilon/openapi/epsilon-ads-api-openapi.yml
 - filename: epsilon-catalog-products-api-openapi.yml
   format: yaml
   label: Epsilon Catalog Products API
   slug: epsilon-catalog-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/openapi/epsilon-catalog-products-api-openapi.yml
+  url: https://artifacts.apis.io/epsilon/openapi/epsilon-catalog-products-api-openapi.yml
 - filename: epsilon-catalogs-api-openapi.yml
   format: yaml
   label: Epsilon Catalogs API
   slug: epsilon-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/openapi/epsilon-catalogs-api-openapi.yml
+  url: https://artifacts.apis.io/epsilon/openapi/epsilon-catalogs-api-openapi.yml
 - filename: epsilon-crosssellcategory-api-openapi.yml
   format: yaml
   label: Epsilon Cross Sell Category API
   slug: epsilon-crosssellcategory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/openapi/epsilon-crosssellcategory-api-openapi.yml
+  url: https://artifacts.apis.io/epsilon/openapi/epsilon-crosssellcategory-api-openapi.yml
 - filename: epsilon-customers-api-openapi.yml
   format: yaml
   label: Epsilon Customers API
   slug: epsilon-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/openapi/epsilon-customers-api-openapi.yml
+  url: https://artifacts.apis.io/epsilon/openapi/epsilon-customers-api-openapi.yml
 - filename: epsilon-filtermapping-api-openapi.yml
   format: yaml
   label: Epsilon Filter Mapping API
   slug: epsilon-filtermapping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/openapi/epsilon-filtermapping-api-openapi.yml
+  url: https://artifacts.apis.io/epsilon/openapi/epsilon-filtermapping-api-openapi.yml
 - filename: epsilon-orders-api-openapi.yml
   format: yaml
   label: Epsilon Orders API
   slug: epsilon-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/openapi/epsilon-orders-api-openapi.yml
+  url: https://artifacts.apis.io/epsilon/openapi/epsilon-orders-api-openapi.yml
 auth_types:
 - apiKey
 - http-basic
@@ -132,7 +132,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: >-\n  https://d
   \ for this provider.\n  applies_to:\n    - Epsilon Retail Media Integration API — /ads endpoints ONLY\n  restriction: >-\n    Documented restriction: \"OAuth 2.0 is only available on the /ads endpoint.\"\n    Order reporting via /orders must use HTTP Basic with the secret API key.\n  errors:\n    - {code: invalid_client, meaning: 'client_id or client_secret is incorrect.'}\n    - {code: invalid_request, meaning: 'Missing/invalid/duplicated parameter, or malformed request.'}\n  docs: https://developers.citrusad.com/integration/reference/oauth-20-authentication\n  sources:\n    - https://developers.citrusad.com/integration/reference/oauth-20-authentication\n\n- name: TokenSecurity\n  type: apiKey\n  in: header\n  parameter: Authorization\n  format: 'Bearer xxx.yyy.zzz (JWT)'\n  description: >-\n    Declared in the published OpenAPI for the Filter Mapping and Cross-Sell\n    Category APIs: \"For accessing the API a valid JWT must be passed in all\n    queries in the 'Authorization' header.\"\
   \n  applies_to:\n    - Epsilon Retail Media Filter Mapping API\n    - Epsilon Retail Media Cross-Sell Category API\n  sources:\n    - openapi/epsilon-retail-media-filter-mapping-openapi.json\n    - openapi/epsilon-retail-media-cross-sell-category-openapi.json\n\n- name: sec0\n  type: apiKey\n  in: header\n  parameter: Authorization\n  x_bearer_format: basic\n  description: >-\n    The security scheme as declared in the published Integration API OpenAPI.\n    It is modelled as apiKey-in-header with x-bearer-format basic, which is the\n    spec-level expression of the HTTP Basic API key above.\n  sources:\n    - openapi/epsilon-retail-media-integration-openapi.json\n\nobserved:\n  - url: https://eu-ads.rmn.dotomi.com/ads/v3/brand-pages\n    method: POST\n    sent: no credentials\n    status: 401\n    content_type: application/problem+json\n    body: '{\"title\":\"Unauthorized.\",\"status\":401,\"detail\":\"Missing or invalid API credentials.\",\"instance\":\"/ads/v3/brand-pages\"}'\n   \
   \ checked: '2026-08-12'\n  - url: https://eu-ads.rmn.dotomi.com/v1/ads/generate\n    method: POST\n    sent: no credentials, empty JSON body\n    status: 400\n    content_type: text/plain\n    body: '\"catalogId must be set\"'\n    note: >-\n      The v1 ad-generation surface validates the body before authentication and\n      answers in text/plain, unlike the v3 brand-pages surface which answers with\n      RFC 9457 problem+json. The two generations of this API do not share an error\n      or auth-failure contract.\n    checked: '2026-08-12'\n\ngaps:\n  - No /.well-known/openid-configuration or /.well-known/oauth-authorization-server is served on any Epsilon host, so the OAuth 2.0 authorization server is not machine-discoverable.\n  - The OAuth 2.0 flow is documented in prose only; it is not declared as an oauth2 securityScheme in any published OpenAPI.\n  - Token endpoint is documented as a template (https://$BASE_URL/v1/oauth2/token); the concrete host is tenant-assigned.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/authentication/epsilon-authentication.yml
+source_yaml_url: https://artifacts.apis.io/epsilon/authentication/epsilon-authentication.yml
 summary_line: apiKey/http-basic/oauth2/jwt-bearer · 4 schemes
 tags:
 - Company

@@ -5,43 +5,43 @@ api_specs:
   label: Beyond Bank Australia Banking Account Balances API
   slug: beyond-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-bank/openapi/beyond-bank-banking-account-balances-api-openapi.yml
 - filename: beyond-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Beyond Bank Australia Banking Account Direct Debits API
   slug: beyond-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-bank/openapi/beyond-bank-banking-account-direct-debits-api-openapi.yml
 - filename: beyond-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Beyond Bank Australia Banking Account Scheduled Payments API
   slug: beyond-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-bank/openapi/beyond-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: beyond-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Beyond Bank Australia Banking Account Transactions API
   slug: beyond-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-bank/openapi/beyond-bank-banking-account-transactions-api-openapi.yml
 - filename: beyond-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Beyond Bank Australia Banking Accounts API
   slug: beyond-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-bank/openapi/beyond-bank-banking-accounts-api-openapi.yml
 - filename: beyond-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Beyond Bank Australia Banking Payees API
   slug: beyond-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-bank/openapi/beyond-bank-banking-payees-api-openapi.yml
 - filename: beyond-bank-banking-products-api-openapi.yml
   format: yaml
   label: Beyond Bank Australia Banking Products API
   slug: beyond-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-bank/openapi/beyond-bank-banking-products-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: beyond-bank-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.beyondbank.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 18:13:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: public.cdr.api.beyondbank.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 01:29:19 2026 GMT\n  hsts: null\ndomains:\n- domain: beyondbank.com.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/security/beyond-bank-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/beyond-bank/security/beyond-bank-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Finance

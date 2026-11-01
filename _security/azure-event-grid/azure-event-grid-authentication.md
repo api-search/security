@@ -8,25 +8,25 @@ api_specs:
   label: Azure Event Grid Namespace Topics API
   slug: azure-event-grid-namespace-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-event-grid/refs/heads/main/openapi/azure-event-grid-namespace-topics-api-openapi.yml
+  url: https://artifacts.apis.io/azure-event-grid/openapi/azure-event-grid-namespace-topics-api-openapi.yml
 - filename: azure-event-grid-publish-api-openapi.yml
   format: yaml
   label: Azure Event Grid Publish API
   slug: azure-event-grid-publish-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-event-grid/refs/heads/main/openapi/azure-event-grid-publish-api-openapi.yml
+  url: https://artifacts.apis.io/azure-event-grid/openapi/azure-event-grid-publish-api-openapi.yml
 - filename: azure-event-grid-operations-api-openapi.yml
   format: yaml
   label: Azure Event Grid Operations API
   slug: microsoft-azure-event-grid-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-event-grid/refs/heads/main/openapi/azure-event-grid-operations-api-openapi.yml
+  url: https://artifacts.apis.io/azure-event-grid/openapi/azure-event-grid-operations-api-openapi.yml
 - filename: azure-event-grid-topics-api-openapi.yml
   format: yaml
   label: Azure Event Grid Topics API
   slug: microsoft-azure-event-grid-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-event-grid/refs/heads/main/openapi/azure-event-grid-topics-api-openapi.yml
+  url: https://artifacts.apis.io/azure-event-grid/openapi/azure-event-grid-topics-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -72,7 +72,7 @@ source_filename: azure-event-grid-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-event-grid-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: sasKey\n  type: apiKey\n  in: header\n  parameter: aeg-sas-key\n  description: Topic shared-access key\n  sources:\n  - openapi/azure-event-grid-openapi.yml\n- name: sasToken\n  type: apiKey\n  in: header\n  parameter: aeg-sas-token\n  description: Topic shared-access signature token\n  sources:\n  - openapi/azure-event-grid-openapi.yml\n- name: entra\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n    scopes: 1\n  description: Microsoft Entra ID OAuth 2.0 bearer token\n  sources:\n  - openapi/azure-event-grid-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-event-grid/refs/heads/main/authentication/azure-event-grid-authentication.yml
+source_yaml_url: https://artifacts.apis.io/azure-event-grid/authentication/azure-event-grid-authentication.yml
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - Eventing

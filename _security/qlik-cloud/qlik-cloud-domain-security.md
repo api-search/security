@@ -5,37 +5,37 @@ api_specs:
   label: Qlik Cloud Api Keys API
   slug: qlik-cloud-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-cloud/refs/heads/main/openapi/qlik-cloud-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-cloud/openapi/qlik-cloud-api-keys-api-openapi.yml
 - filename: qlik-cloud-apps-api-openapi.yml
   format: yaml
   label: Qlik Cloud Apps API
   slug: qlik-cloud-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-cloud/refs/heads/main/openapi/qlik-cloud-apps-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-cloud/openapi/qlik-cloud-apps-api-openapi.yml
 - filename: qlik-cloud-csrf-token-api-openapi.yml
   format: yaml
   label: Qlik Cloud Csrf Token API
   slug: qlik-cloud-csrf-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-cloud/refs/heads/main/openapi/qlik-cloud-csrf-token-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-cloud/openapi/qlik-cloud-csrf-token-api-openapi.yml
 - filename: qlik-cloud-spaces-api-openapi.yml
   format: yaml
   label: Qlik Cloud Spaces API
   slug: qlik-cloud-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-cloud/refs/heads/main/openapi/qlik-cloud-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-cloud/openapi/qlik-cloud-spaces-api-openapi.yml
 - filename: qlik-cloud-users-api-openapi.yml
   format: yaml
   label: Qlik Cloud Users API
   slug: qlik-cloud-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-cloud/refs/heads/main/openapi/qlik-cloud-users-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-cloud/openapi/qlik-cloud-users-api-openapi.yml
 - filename: qlik-cloud-webhooks-api-openapi.yml
   format: yaml
   label: Qlik Cloud Webhooks API
   slug: qlik-cloud-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-cloud/refs/heads/main/openapi/qlik-cloud-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-cloud/openapi/qlik-cloud-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: qlik-cloud-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: qlik.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 25 23:59:59 2026 GMT\n  hsts: false\n- host: www.qlik.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 16:03:53 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: your-tenant.region.qlikcloud.com\n  https: false\ndomains:\n- domain: qlik.dev\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n- domain: qlik.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qlik-cloud/refs/heads/main/security/qlik-cloud-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/qlik-cloud/security/qlik-cloud-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Analytics

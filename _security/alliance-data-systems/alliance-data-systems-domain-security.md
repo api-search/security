@@ -5,31 +5,31 @@ api_specs:
   label: Alliance Data Systems (Bread Financial Holdings) Buyers API
   slug: alliance-data-systems-buyers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/openapi/alliance-data-systems-buyers-api-openapi.yml
+  url: https://artifacts.apis.io/alliance-data-systems/openapi/alliance-data-systems-buyers-api-openapi.yml
 - filename: alliance-data-systems-carts-api-openapi.yml
   format: yaml
   label: Alliance Data Systems (Bread Financial Holdings) Carts API
   slug: alliance-data-systems-carts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/openapi/alliance-data-systems-carts-api-openapi.yml
+  url: https://artifacts.apis.io/alliance-data-systems/openapi/alliance-data-systems-carts-api-openapi.yml
 - filename: alliance-data-systems-payment-options-api-openapi.yml
   format: yaml
   label: Alliance Data Systems (Bread Financial Holdings) Payment Options API
   slug: alliance-data-systems-payment-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/openapi/alliance-data-systems-payment-options-api-openapi.yml
+  url: https://artifacts.apis.io/alliance-data-systems/openapi/alliance-data-systems-payment-options-api-openapi.yml
 - filename: alliance-data-systems-shipping-api-openapi.yml
   format: yaml
   label: Alliance Data Systems (Bread Financial Holdings) Shipping API
   slug: alliance-data-systems-shipping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/openapi/alliance-data-systems-shipping-api-openapi.yml
+  url: https://artifacts.apis.io/alliance-data-systems/openapi/alliance-data-systems-shipping-api-openapi.yml
 - filename: alliance-data-systems-transactions-api-openapi.yml
   format: yaml
   label: Alliance Data Systems (Bread Financial Holdings) Transactions API
   slug: alliance-data-systems-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/openapi/alliance-data-systems-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/alliance-data-systems/openapi/alliance-data-systems-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -80,7 +80,7 @@ source_filename: alliance-data-systems-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.breadfinancial.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 21:51:58 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: platform-docs.breadpayments.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 13:09:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.platform.breadpayments.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 21:51:58 2026 GMT\n  hsts: null\ndomains:\n- domain: breadfinancial.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: breadpayments.com\n  dnssec: false\n  caa:\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"globalsign.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/security/alliance-data-systems-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/alliance-data-systems/security/alliance-data-systems-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Financial Services

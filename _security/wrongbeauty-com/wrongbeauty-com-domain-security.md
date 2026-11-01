@@ -5,49 +5,49 @@ api_specs:
   label: WRONG BEAUTY 000 / THE SWARM Agents API
   slug: wrongbeauty-com-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-agents-api-openapi.yml
+  url: https://artifacts.apis.io/wrongbeauty-com/openapi/wrongbeauty-com-agents-api-openapi.yml
 - filename: wrongbeauty-com-contestation-api-openapi.yml
   format: yaml
   label: WRONG BEAUTY 000 / THE SWARM Contestation API
   slug: wrongbeauty-com-contestation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-contestation-api-openapi.yml
+  url: https://artifacts.apis.io/wrongbeauty-com/openapi/wrongbeauty-com-contestation-api-openapi.yml
 - filename: wrongbeauty-com-entry-api-openapi.yml
   format: yaml
   label: WRONG BEAUTY 000 / THE SWARM Entry API
   slug: wrongbeauty-com-entry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-entry-api-openapi.yml
+  url: https://artifacts.apis.io/wrongbeauty-com/openapi/wrongbeauty-com-entry-api-openapi.yml
 - filename: wrongbeauty-com-ledger-api-openapi.yml
   format: yaml
   label: WRONG BEAUTY 000 / THE SWARM Ledger API
   slug: wrongbeauty-com-ledger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-ledger-api-openapi.yml
+  url: https://artifacts.apis.io/wrongbeauty-com/openapi/wrongbeauty-com-ledger-api-openapi.yml
 - filename: wrongbeauty-com-production-api-openapi.yml
   format: yaml
   label: WRONG BEAUTY 000 / THE SWARM Production API
   slug: wrongbeauty-com-production-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-production-api-openapi.yml
+  url: https://artifacts.apis.io/wrongbeauty-com/openapi/wrongbeauty-com-production-api-openapi.yml
 - filename: wrongbeauty-com-service-api-openapi.yml
   format: yaml
   label: WRONG BEAUTY 000 / THE SWARM Service API
   slug: wrongbeauty-com-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-service-api-openapi.yml
+  url: https://artifacts.apis.io/wrongbeauty-com/openapi/wrongbeauty-com-service-api-openapi.yml
 - filename: wrongbeauty-com-submission-api-openapi.yml
   format: yaml
   label: WRONG BEAUTY 000 / THE SWARM Submission API
   slug: wrongbeauty-com-submission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-submission-api-openapi.yml
+  url: https://artifacts.apis.io/wrongbeauty-com/openapi/wrongbeauty-com-submission-api-openapi.yml
 - filename: wrongbeauty-com-works-api-openapi.yml
   format: yaml
   label: WRONG BEAUTY 000 / THE SWARM Works API
   slug: wrongbeauty-com-works-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-works-api-openapi.yml
+  url: https://artifacts.apis.io/wrongbeauty-com/openapi/wrongbeauty-com-works-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: wrongbeauty-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: wrongbeauty.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 14 19:07:22 2026 GMT\n  hsts: false\n- host: swarm-api.wrongbeauty.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 16 15:09:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: wrongbeauty.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/security/wrongbeauty-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wrongbeauty-com/security/wrongbeauty-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Art

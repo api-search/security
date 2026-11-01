@@ -8,55 +8,55 @@ api_specs:
   label: ibm-quantum Accounts API
   slug: ibm-quantum-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-quantum/openapi/ibm-quantum-accounts-api-openapi.yml
 - filename: ibm-quantum-analytics-api-openapi.yml
   format: yaml
   label: ibm-quantum Analytics API
   slug: ibm-quantum-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-quantum/openapi/ibm-quantum-analytics-api-openapi.yml
 - filename: ibm-quantum-backends-api-openapi.yml
   format: yaml
   label: ibm-quantum Backends API
   slug: ibm-quantum-backends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-backends-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-quantum/openapi/ibm-quantum-backends-api-openapi.yml
 - filename: ibm-quantum-instances-api-openapi.yml
   format: yaml
   label: ibm-quantum Instances API
   slug: ibm-quantum-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-instances-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-quantum/openapi/ibm-quantum-instances-api-openapi.yml
 - filename: ibm-quantum-jobs-api-openapi.yml
   format: yaml
   label: ibm-quantum Jobs API
   slug: ibm-quantum-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-quantum/openapi/ibm-quantum-jobs-api-openapi.yml
 - filename: ibm-quantum-sessions-api-openapi.yml
   format: yaml
   label: ibm-quantum Sessions API
   slug: ibm-quantum-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-quantum/openapi/ibm-quantum-sessions-api-openapi.yml
 - filename: ibm-quantum-tags-api-openapi.yml
   format: yaml
   label: ibm-quantum Tags API
   slug: ibm-quantum-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-tags-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-quantum/openapi/ibm-quantum-tags-api-openapi.yml
 - filename: ibm-quantum-versions-api-openapi.yml
   format: yaml
   label: ibm-quantum Versions API
   slug: ibm-quantum-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-versions-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-quantum/openapi/ibm-quantum-versions-api-openapi.yml
 - filename: ibm-quantum-workloads-api-openapi.yml
   format: yaml
   label: ibm-quantum Workloads API
   slug: ibm-quantum-workloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-workloads-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-quantum/openapi/ibm-quantum-workloads-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -114,7 +114,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ibm-quantum-runtime-analytics-openapi.yml, openapi/ibm-quantum-runtime-backends-openapi.yml,\n  openapi/ibm-quantum-runtime-instances-openapi.yml, openapi/ibm-quantum-runtime-jobs-openapi.yml,\n  openapi/ibm-quantum-runtime-sessions-openapi.yml, openapi/ibm-quantum-runtime-versions-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: IBM Cloud IAM bearer token\n  sources:\n  - openapi/ibm-quantum-runtime-analytics-openapi.yml\n  - openapi/ibm-quantum-runtime-backends-openapi.yml\n  - openapi/ibm-quantum-runtime-instances-openapi.yml\n  - openapi/ibm-quantum-runtime-jobs-openapi.yml\n  - openapi/ibm-quantum-runtime-sessions-openapi.yml\n  - openapi/ibm-quantum-runtime-versions-openapi.yml\n- name: ServiceCRN\n  type: apiKey\n  in: header\n  parameter: Service-CRN\n  description: IBM Cloud Service CRN identifying the\
   \ Qiskit Runtime instance\n  sources:\n  - openapi/ibm-quantum-runtime-analytics-openapi.yml\n  - openapi/ibm-quantum-runtime-backends-openapi.yml\n  - openapi/ibm-quantum-runtime-instances-openapi.yml\n  - openapi/ibm-quantum-runtime-jobs-openapi.yml\n  - openapi/ibm-quantum-runtime-sessions-openapi.yml\n  - openapi/ibm-quantum-runtime-versions-openapi.yml\n- name: ApiVersion\n  type: apiKey\n  in: header\n  parameter: IBM-API-Version\n  description: API version, e.g. 2026-03-15\n  sources:\n  - openapi/ibm-quantum-runtime-analytics-openapi.yml\n  - openapi/ibm-quantum-runtime-backends-openapi.yml\n  - openapi/ibm-quantum-runtime-instances-openapi.yml\n  - openapi/ibm-quantum-runtime-jobs-openapi.yml\n  - openapi/ibm-quantum-runtime-sessions-openapi.yml\n  - openapi/ibm-quantum-runtime-versions-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/authentication/ibm-quantum-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ibm-quantum/authentication/ibm-quantum-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Quantum Computing

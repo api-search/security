@@ -5,43 +5,43 @@ api_specs:
   label: Whisperr, Inc. Dashboard API
   slug: whisperr-inc-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/openapi/whisperr-inc-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/whisperr-inc/openapi/whisperr-inc-dashboard-api-openapi.yml
 - filename: whisperr-inc-decisioning-api-openapi.yml
   format: yaml
   label: Whisperr, Inc. Decisioning API
   slug: whisperr-inc-decisioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/openapi/whisperr-inc-decisioning-api-openapi.yml
+  url: https://artifacts.apis.io/whisperr-inc/openapi/whisperr-inc-decisioning-api-openapi.yml
 - filename: whisperr-inc-delivery-api-openapi.yml
   format: yaml
   label: Whisperr, Inc. Delivery API
   slug: whisperr-inc-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/openapi/whisperr-inc-delivery-api-openapi.yml
+  url: https://artifacts.apis.io/whisperr-inc/openapi/whisperr-inc-delivery-api-openapi.yml
 - filename: whisperr-inc-ingestion-api-openapi.yml
   format: yaml
   label: Whisperr, Inc. Ingestion API
   slug: whisperr-inc-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/openapi/whisperr-inc-ingestion-api-openapi.yml
+  url: https://artifacts.apis.io/whisperr-inc/openapi/whisperr-inc-ingestion-api-openapi.yml
 - filename: whisperr-inc-internal-api-openapi.yml
   format: yaml
   label: Whisperr, Inc. Internal API
   slug: whisperr-inc-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/openapi/whisperr-inc-internal-api-openapi.yml
+  url: https://artifacts.apis.io/whisperr-inc/openapi/whisperr-inc-internal-api-openapi.yml
 - filename: whisperr-inc-system-api-openapi.yml
   format: yaml
   label: Whisperr, Inc. System API
   slug: whisperr-inc-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/openapi/whisperr-inc-system-api-openapi.yml
+  url: https://artifacts.apis.io/whisperr-inc/openapi/whisperr-inc-system-api-openapi.yml
 - filename: whisperr-inc-users-api-openapi.yml
   format: yaml
   label: Whisperr, Inc. Users API
   slug: whisperr-inc-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/openapi/whisperr-inc-users-api-openapi.yml
+  url: https://artifacts.apis.io/whisperr-inc/openapi/whisperr-inc-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -86,7 +86,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: whisperr.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 19:24:56 2026 GMT\n  hsts: false\n- host: docs.whisperr.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 09:06:27 2026 GMT\n  hsts: false\n- host: api.whisperr.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 17:09:55 2026 GMT\n  hsts: null\ndomains:\n- domain: whisperr.net\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n  verification:\n    note: >-\n      The automated probe first returned a resolver timeout string in the caa\n      field; that was a transient DNS failure, not a record. Re-queried directly\n      against 1.1.1.1 on 2026-08-13 and confirmed by hand.\n    caa: No CAA records (three consecutive empty responses from 1.1.1.1).\n    spf: >-\n      No v=spf1 record. The only TXT records on the apex are ownership\n      verifications\
   \ (MS=, google-site-verification=).\n    dmarc: No TXT record at _dmarc.whisperr.net.\n    impact: >-\n      Material for this provider specifically — Whisperr sends retention email on\n      its customers' behalf via a provisioned delivery server, so the absence of\n      SPF and DMARC on its own domain is worth the provider's attention.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/security/whisperr-inc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/whisperr-inc/security/whisperr-inc-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

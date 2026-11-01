@@ -29,7 +29,7 @@ source_filename: plakar-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: plakar.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 13:04:19 2026 GMT\n  hsts: false\ndomains:\n- domain: plakar.io\n  dnssec: false\n  caa:\n  - 128 issue \"letsencrypt.org\"\n  - 128 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plakar/refs/heads/main/security/plakar-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/plakar/security/plakar-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

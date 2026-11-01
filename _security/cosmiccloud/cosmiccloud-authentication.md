@@ -29,7 +29,7 @@ source_heading: Authentication Profile
 source_url: https://docs.cosmocloud.io/advanced-guide/configuring-authentication.md
 source_yaml: "generated: '2026-10-11'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://docs.cosmocloud.io/advanced-guide/configuring-authentication.md\nsources:\n- https://docs.cosmocloud.io/advanced-guide/configuring-authentication.md\n- https://docs.cosmocloud.io/advanced-guide/configuring-authentication/sso-providers.md\n- https://docs.cosmocloud.io/advanced-guide/configuring-authentication/sso-providers/aws-cognito.md\n- https://docs.cosmocloud.io/advanced-guide/configuring-authentication/authentication-concepts.md\ndescription: Cosmiccloud supports authentication via JWTs using a JWKS URI or via Access Key Secrets.\nschemes:\n- type: http-bearer\n  name: JWT\n  evidence: With Cosmocloud, you can integrate with any and every JWT Based Authentication provider by simply adding your JWKS URI\n  how_to_obtain: Generate your JWKS URI on the SSO provider and add it in the auth secret.\n- type: apiKey\n  name: Access Key Secret\n  evidence: Auth Type - Access\
   \ Key Secret\n  how_to_obtain: Generate your access keys on the SSO provider and add them in the auth secret.\ndocs: https://docs.cosmocloud.io/advanced-guide/configuring-authentication.md\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cosmiccloud/refs/heads/main/authentication/cosmiccloud-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cosmiccloud/authentication/cosmiccloud-authentication.yml
 summary_line: 2 schemes
 tags:
 - Cloud

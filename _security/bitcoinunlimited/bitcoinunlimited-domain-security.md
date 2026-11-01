@@ -26,7 +26,7 @@ source_filename: bitcoinunlimited-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bitcoinunlimited.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 03:13:04 2026 GMT\n  hsts: false\ndomains:\n- domain: bitcoinunlimited.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitcoinunlimited/refs/heads/main/security/bitcoinunlimited-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bitcoinunlimited/security/bitcoinunlimited-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

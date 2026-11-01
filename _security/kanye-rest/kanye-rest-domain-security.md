@@ -5,7 +5,7 @@ api_specs:
   label: kanye.rest Quotes API
   slug: kanye-rest-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanye-rest/refs/heads/main/openapi/kanye-rest-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/kanye-rest/openapi/kanye-rest-quotes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,7 +38,7 @@ source_filename: kanye-rest-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: kanye.rest\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 13:53:01 2026 GMT\n  hsts: false\n- host: api.kanye.rest\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 02:39:25 2026 GMT\n  hsts: false\ndomains:\n- domain: kanye.rest\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kanye-rest/refs/heads/main/security/kanye-rest-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kanye-rest/security/kanye-rest-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Personality

@@ -1,35 +1,41 @@
 ---
 api_specs:
+- filename: abacatepay-webhooks-api-openapi.yml
+  format: yaml
+  label: AbacatePay Webhooks
+  slug: abacatepay-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/abacatepay/openapi/abacatepay-webhooks-api-openapi.yml
 - filename: abacatepay-billing-api-openapi.yml
   format: yaml
   label: AbacatePay Billing API
   slug: abacatepay-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abacatepay/refs/heads/main/openapi/abacatepay-billing-api-openapi.yml
+  url: https://artifacts.apis.io/abacatepay/openapi/abacatepay-billing-api-openapi.yml
 - filename: abacatepay-coupon-api-openapi.yml
   format: yaml
   label: AbacatePay Coupon API
   slug: abacatepay-coupon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abacatepay/refs/heads/main/openapi/abacatepay-coupon-api-openapi.yml
+  url: https://artifacts.apis.io/abacatepay/openapi/abacatepay-coupon-api-openapi.yml
 - filename: abacatepay-customer-api-openapi.yml
   format: yaml
   label: AbacatePay Customer API
   slug: abacatepay-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abacatepay/refs/heads/main/openapi/abacatepay-customer-api-openapi.yml
+  url: https://artifacts.apis.io/abacatepay/openapi/abacatepay-customer-api-openapi.yml
 - filename: abacatepay-pix-qr-code-api-openapi.yml
   format: yaml
   label: AbacatePay Pix QR Code API
   slug: abacatepay-pix-qr-code-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abacatepay/refs/heads/main/openapi/abacatepay-pix-qr-code-api-openapi.yml
+  url: https://artifacts.apis.io/abacatepay/openapi/abacatepay-pix-qr-code-api-openapi.yml
 - filename: abacatepay-withdraw-api-openapi.yml
   format: yaml
   label: AbacatePay Withdraw API
   slug: abacatepay-withdraw-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abacatepay/refs/heads/main/openapi/abacatepay-withdraw-api-openapi.yml
+  url: https://artifacts.apis.io/abacatepay/openapi/abacatepay-withdraw-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +76,7 @@ source_filename: abacatepay-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.abacatepay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 15:00:51 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.abacatepay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 17:00:27 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.abacatepay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 12:16:02 2026 GMT\n  hsts: false\ndomains:\n- domain: abacatepay.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abacatepay/refs/heads/main/security/abacatepay-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/abacatepay/security/abacatepay-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments

@@ -40,7 +40,7 @@ source_filename: athletic-greens-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml hosts\nnote: ucp.dev is referenced as the humanURL of the UCP commerce endpoint but is the\n  protocol's own host, not an AG1-controlled domain, so it is excluded here.\nhosts:\n- host: drinkag1.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 22:44:32 2026 GMT\n  hsts: null\n  note: edge answered HTTP 429 to every non-browser request probed on 2026-08-02\n- host: shop.drinkag1.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 06:10:02 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\n- host: account.drinkag1.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 18:04:01 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\ndomains:\n- domain: drinkag1.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/security/athletic-greens-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/athletic-greens/security/athletic-greens-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -15,7 +15,7 @@ source_filename: prodigy-learning-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.prodigygame.com/\nurl: https://trust.prodigygame.com/\ncertifications:\n- CSA STAR\nevidence:\n- source: https://trust.prodigygame.com/\n  keywords:\n  - trust center\n  - csa star\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prodigy-learning/refs/heads/main/security/prodigy-learning-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/prodigy-learning/security/prodigy-learning-trust-center.yml
 summary_line: CSA STAR
 tags:
 - Education

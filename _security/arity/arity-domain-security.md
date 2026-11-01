@@ -5,43 +5,43 @@ api_specs:
   label: Arity Activation API
   slug: arity-activation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arity/refs/heads/main/openapi/arity-activation-api-openapi.yml
+  url: https://artifacts.apis.io/arity/openapi/arity-activation-api-openapi.yml
 - filename: arity-authentication-api-openapi.yml
   format: yaml
   label: Arity Authentication API
   slug: arity-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arity/refs/heads/main/openapi/arity-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/arity/openapi/arity-authentication-api-openapi.yml
 - filename: arity-booking-api-documentation-api-openapi.yml
   format: yaml
   label: Arity Booking API Documentation API
   slug: arity-booking-api-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arity/refs/heads/main/openapi/arity-booking-api-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/arity/openapi/arity-booking-api-documentation-api-openapi.yml
 - filename: arity-prequalcredit-api-openapi.yml
   format: yaml
   label: Arity Pre Qual Credit API
   slug: arity-prequalcredit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arity/refs/heads/main/openapi/arity-prequalcredit-api-openapi.yml
+  url: https://artifacts.apis.io/arity/openapi/arity-prequalcredit-api-openapi.yml
 - filename: arity-registration-api-openapi.yml
   format: yaml
   label: Arity Registration API
   slug: arity-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arity/refs/heads/main/openapi/arity-registration-api-openapi.yml
+  url: https://artifacts.apis.io/arity/openapi/arity-registration-api-openapi.yml
 - filename: arity-scoring-api-openapi.yml
   format: yaml
   label: Arity Scoring API
   slug: arity-scoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arity/refs/heads/main/openapi/arity-scoring-api-openapi.yml
+  url: https://artifacts.apis.io/arity/openapi/arity-scoring-api-openapi.yml
 - filename: arity-trip-intelligence-api-openapi.yml
   format: yaml
   label: Arity Trip Intelligence API
   slug: arity-trip-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arity/refs/heads/main/openapi/arity-trip-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/arity/openapi/arity-trip-intelligence-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +71,7 @@ source_filename: arity-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: arity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 29 14:44:51 2026 GMT\n  hsts: true\n  hsts_max_age: 31622400\ndomains:\n- domain: arity.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arity/refs/heads/main/security/arity-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/arity/security/arity-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -27,7 +27,7 @@ source_filename: bizongo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bizongo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 21:42:40 2026 GMT\n  hsts: false\ndomains:\n- domain: bizongo.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bizongo/refs/heads/main/security/bizongo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bizongo/security/bizongo-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

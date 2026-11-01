@@ -2,48 +2,54 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
+- filename: fused-openapi-generated.yml
+  format: yaml
+  label: Fused API
+  slug: fused-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fused/openapi/_ae-authored/fused-openapi-generated.yml
 - filename: fused-fc-your-canvas-token-api-openapi.yml
   format: yaml
   label: Fused Fc Your Canvas Token API
   slug: fused-fc-your-canvas-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fused/refs/heads/main/openapi/fused-fc-your-canvas-token-api-openapi.yml
+  url: https://artifacts.apis.io/fused/openapi/fused-fc-your-canvas-token-api-openapi.yml
 - filename: fused-files-api-openapi.yml
   format: yaml
   label: Fused Files API
   slug: fused-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fused/refs/heads/main/openapi/fused-files-api-openapi.yml
+  url: https://artifacts.apis.io/fused/openapi/fused-files-api-openapi.yml
 - filename: fused-secrets-api-openapi.yml
   format: yaml
   label: Fused Secrets API
   slug: fused-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fused/refs/heads/main/openapi/fused-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/fused/openapi/fused-secrets-api-openapi.yml
 - filename: fused-server-api-openapi.yml
   format: yaml
   label: Fused Server API
   slug: fused-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fused/refs/heads/main/openapi/fused-server-api-openapi.yml
+  url: https://artifacts.apis.io/fused/openapi/fused-server-api-openapi.yml
 - filename: fused-session-token-api-openapi.yml
   format: yaml
   label: Fused Session Token API
   slug: fused-session-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fused/refs/heads/main/openapi/fused-session-token-api-openapi.yml
+  url: https://artifacts.apis.io/fused/openapi/fused-session-token-api-openapi.yml
 - filename: fused-udf-api-openapi.yml
   format: yaml
   label: Fused Udf API
   slug: fused-udf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fused/refs/heads/main/openapi/fused-udf-api-openapi.yml
+  url: https://artifacts.apis.io/fused/openapi/fused-udf-api-openapi.yml
 - filename: fused-user-api-openapi.yml
   format: yaml
   label: Fused User API
   slug: fused-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fused/refs/heads/main/openapi/fused-user-api-openapi.yml
+  url: https://artifacts.apis.io/fused/openapi/fused-user-api-openapi.yml
 auth_types: []
 description: Authentication methods for Fused UDF API
 kind: authentication
@@ -75,7 +81,7 @@ source_heading: Authentication Profile
 source_url: https://docs.fused.io/guide/data-input-outputs/export-api/securing-shared-tokens/
 source_yaml: "generated: '2026-10-13'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://docs.fused.io/guide/data-input-outputs/export-api/securing-shared-tokens/\nsources:\n- https://docs.fused.io/guide/data-input-outputs/export-api/securing-shared-tokens/\n- https://docs.fused.io/guide/data-input-outputs/export-api/tokens-endpoints/\n- https://docs.fused.io/rest-api/tokens/\n- https://docs.fused.io/guide/advanced-setup/dependencies/\ndescription: Authentication methods for Fused UDF API\nschemes:\n- type: apiKey\n  name: fused_session_token\n  evidence: Add the session token as a fused_session_token query parameter on the UDF HTTPS URL (same host and path as a normal canvas call, for\n    example https://udf.ai/fc_<CANVAS_TOKEN>/<udf_name>.json).\n  location: query\n  how_to_obtain: Mint a session token via the Fused Service Account using the POST /session-token/by-access-token/{canvas_token} endpoint.\n- type: http-bearer\n  name: Authorization\n  evidence:\
   \ 'Calling UDFs with Bearer authentication requires an account''s private token . curl -XGET \"https://udf.ai/fc_YOUR_CANVAS_TOKEN/my_udf.png\"\n    -H \"Authorization: Bearer $ACCESS_TOKEN \"'\n  location: header\n  header: 'Authorization: Bearer <TOKEN>'\n  how_to_obtain: Retrieve your bearer token via the fused._auth library or your account settings.\ndocs: https://docs.fused.io/guide/data-input-outputs/export-api/securing-shared-tokens/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fused/refs/heads/main/authentication/fused-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fused/authentication/fused-authentication.yml
 summary_line: 2 schemes
 tags:
 - Company
@@ -83,5 +89,5 @@ tags:
 - Artificial Intelligence
 - Data Platform
 - Python
-- LowCode
+- Low-Code
 ---

@@ -5,13 +5,13 @@ api_specs:
   label: King Saud University Datasets API
   slug: king-saud-university-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/king-saud-university/refs/heads/main/openapi/king-saud-university-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/king-saud-university/openapi/king-saud-university-datasets-api-openapi.yml
 - filename: king-saud-university-identity-api-openapi.yml
   format: yaml
   label: King Saud University Identity API
   slug: king-saud-university-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/king-saud-university/refs/heads/main/openapi/king-saud-university-identity-api-openapi.yml
+  url: https://artifacts.apis.io/king-saud-university/openapi/king-saud-university-identity-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +40,7 @@ source_filename: king-saud-university-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ksu.edu.sa\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar  5 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: ksu.edu.sa\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/king-saud-university/refs/heads/main/security/king-saud-university-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/king-saud-university/security/king-saud-university-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Education

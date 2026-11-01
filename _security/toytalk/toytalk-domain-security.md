@@ -47,7 +47,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nnotes: >-\n  Both pullstring.com and toytalk.com are parked domains: no A/AAAA or MX\n  records, delegated to Apple nameservers (a.ns.apple.com - d.ns.apple.com)\n  following Apple's 2019 acquisition of PullString (formerly ToyTalk). The\n  only DNS security posture present is a hard-fail SPF record (v=spf1 -all)\n  on each domain, which prevents mail spoofing from the retired domains.\nhosts:\n- host: pullstring.com\n  https: false\n- host: toytalk.com\n  https: false\ndomains:\n- domain: pullstring.com\n  nameservers: [a.ns.apple.com, b.ns.apple.com, c.ns.apple.com, d.ns.apple.com]\n  a_records: false\n  mx: false\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: v=spf1 -all\n  dmarc: false\n- domain: toytalk.com\n  nameservers: [a.ns.apple.com, b.ns.apple.com, c.ns.apple.com, d.ns.apple.com]\n  a_records: false\n  mx: false\n  dnssec: false\n  caa: []\n  spf: true\n\
   \  spf_record: v=spf1 -all\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toytalk/refs/heads/main/security/toytalk-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/toytalk/security/toytalk-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

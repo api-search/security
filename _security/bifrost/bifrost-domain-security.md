@@ -5,13 +5,13 @@ api_specs:
   label: Bifrost Health API
   slug: bifrost-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bifrost/refs/heads/main/openapi/bifrost-health-api-openapi.yml
+  url: https://artifacts.apis.io/bifrost/openapi/bifrost-health-api-openapi.yml
 - filename: bifrost-chat-completions-api-openapi.yml
   format: yaml
   label: Bifrost Chat Completions API
   slug: bifrost-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bifrost/refs/heads/main/openapi/bifrost-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/bifrost/openapi/bifrost-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: bifrost-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.getmaxim.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 12:04:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.getbifrost.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 22:31:10 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: pkg.go.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 14:57:48 2026 GMT\n  hsts: false\ndomains:\n- domain: getmaxim.ai\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: getbifrost.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bifrost/refs/heads/main/security/bifrost-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bifrost/security/bifrost-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - AI Gateway

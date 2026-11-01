@@ -7,25 +7,25 @@ api_specs:
   label: Sabre Air Shopping API
   slug: sabre-air-shopping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sabre/refs/heads/main/openapi/sabre-air-shopping-api-openapi.yml
+  url: https://artifacts.apis.io/sabre/openapi/sabre-air-shopping-api-openapi.yml
 - filename: sabre-authentication-api-openapi.yml
   format: yaml
   label: Sabre Authentication API
   slug: sabre-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sabre/refs/heads/main/openapi/sabre-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sabre/openapi/sabre-authentication-api-openapi.yml
 - filename: sabre-hotel-booking-api-openapi.yml
   format: yaml
   label: Sabre Hotel Booking API
   slug: sabre-hotel-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sabre/refs/heads/main/openapi/sabre-hotel-booking-api-openapi.yml
+  url: https://artifacts.apis.io/sabre/openapi/sabre-hotel-booking-api-openapi.yml
 - filename: sabre-hotel-search-api-openapi.yml
   format: yaml
   label: Sabre Hotel Search API
   slug: sabre-hotel-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sabre/refs/heads/main/openapi/sabre-hotel-search-api-openapi.yml
+  url: https://artifacts.apis.io/sabre/openapi/sabre-hotel-search-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -54,7 +54,7 @@ source_filename: sabre-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sabre-bargain-finder-max-openapi.yml, openapi/sabre-hotels-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Bearer token obtained from /v2/auth/token\n  sources:\n  - openapi/sabre-bargain-finder-max-openapi.yml\n  - openapi/sabre-hotels-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sabre/refs/heads/main/authentication/sabre-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sabre/authentication/sabre-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Travel

@@ -7,19 +7,19 @@ api_specs:
   label: Sommelier Integrations API
   slug: sommelier-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sommelier/refs/heads/main/openapi/sommelier-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/sommelier/openapi/sommelier-integrations-api-openapi.yml
 - filename: sommelier-protocol-api-openapi.yml
   format: yaml
   label: Sommelier Protocol API
   slug: sommelier-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sommelier/refs/heads/main/openapi/sommelier-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/sommelier/openapi/sommelier-protocol-api-openapi.yml
 - filename: sommelier-vault-data-api-openapi.yml
   format: yaml
   label: Sommelier Vault Data API
   slug: sommelier-vault-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sommelier/refs/heads/main/openapi/sommelier-vault-data-api-openapi.yml
+  url: https://artifacts.apis.io/sommelier/openapi/sommelier-vault-data-api-openapi.yml
 auth_types:
 - none
 description: ''
@@ -40,7 +40,7 @@ source_filename: sommelier-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/sommelier-api-openapi.yml + https://api.sommelier.finance/\nsummary:\n  types: [none]\n  api_key_in: []\n  oauth2_flows: []\n  public: true\nnotes: >-\n  The Sommelier Finance API is a public, read-only HTTP API. No securitySchemes\n  are declared in the spec and the official API Information page documents no\n  API keys, tokens, or OAuth. All endpoints are open GET requests with\n  path-based parameters. Consumers should treat this as an unauthenticated,\n  best-effort public data API and apply their own rate-limit / retry handling.\nschemes: []\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sommelier/refs/heads/main/authentication/sommelier-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sommelier/authentication/sommelier-authentication.yml
 summary_line: none · 0 schemes
 tags:
 - Company

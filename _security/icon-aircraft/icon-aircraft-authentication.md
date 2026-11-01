@@ -7,13 +7,13 @@ api_specs:
   label: Shop ICON Storefront API
   slug: icon-aircraft-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/icon-aircraft/refs/heads/main/openapi/icon-aircraft-store-api-openapi.yml
+  url: https://artifacts.apis.io/icon-aircraft/openapi/icon-aircraft-store-api-openapi.yml
 - filename: icon-aircraft-search-api-openapi.yml
   format: yaml
   label: ICON Aircraft Search API
   slug: icon-aircraft-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/icon-aircraft/refs/heads/main/openapi/icon-aircraft-search-api-openapi.yml
+  url: https://artifacts.apis.io/icon-aircraft/openapi/icon-aircraft-search-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-08-22'\nmethod: probed\nsource: >-\n  Live anonym
   \ https://store.iconaircraft.com/products.json?limit=250\n    status: 200\n  note: >-\n    Session state on /cart.js is carried by Shopify session cookies (_shopify_essential, cart\n    token), not by a bearer credential. There is no storefront access token in this surface.\n- surface: Shop ICON UCP/MCP Server\n  base: https://store.iconaircraft.com/api/ucp/mcp\n  anonymous_read: true\n  scheme: none\n  evidence:\n    probe: POST /api/ucp/mcp {\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"tools/list\"}\n    status: 200\n    note: Returned 13 tools with full inputSchemas without any Authorization header.\n  agent_identity:\n    mechanism: >-\n      Every tool requires a `meta.ucp-agent.profile` URI in its arguments. This identifies the\n      calling agent to the merchant but is not authentication — it is not verified against a\n      registered client and grants no privilege.\n  protected_resource_metadata:\n    document: well-known/icon-aircraft-store-oauth-protected-resource.json\n    resource:\
   \ https://store.iconaircraft.com/api/ucp/mcp\n    authorization_servers:\n    - https://shopify.com/authentication/376732\n    bearer_methods_supported:\n    - header\n    rfc: RFC 9728\n    note: >-\n      The MCP endpoint advertises RFC 9728 protected-resource metadata even though tools/list\n      answered anonymously. Buyer-scoped operations (get_order, and payment on complete_checkout)\n      are where that authorization server is expected to be exercised.\n  authorization_server:\n    document: well-known/icon-aircraft-store-oauth-authorization-server.json\n    issuer: https://shopify.com/authentication/376732\n    rfc: RFC 8414\n  openid_connect:\n    document: well-known/icon-aircraft-store-openid-configuration.json\n    issuer: https://shopify.com/authentication/376732\n    note: >-\n      Shopify customer accounts. This authenticates a shopper to their own orders; it is not a\n      developer credential and issues no token for ICON Aircraft's own data.\nfindings:\n- id: no-developer-credential\n\
   \  severity: informational\n  detail: >-\n    There is no path by which a developer can obtain a credential for an ICON Aircraft API. Nothing\n    is gated because nothing is offered; the anonymous surfaces are the whole surface.\n- id: anonymous-author-records\n  severity: low\n  detail: >-\n    GET /wp-json/wp/v2/users returns 8 identifiable author records anonymously — a WordPress core\n    default, not a misconfiguration unique to ICON. It is documented here as an exposure and is\n    deliberately excluded from the derived OpenAPI, the agent skills and the MCP crosswalk. No\n    person's record is reproduced anywhere in this repository. Providers who want it closed can\n    filter the `users` REST endpoint for unauthenticated callers.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/icon-aircraft/refs/heads/main/authentication/icon-aircraft-authentication.yml
+source_yaml_url: https://artifacts.apis.io/icon-aircraft/authentication/icon-aircraft-authentication.yml
 summary_line: 0 schemes
 tags:
 - Company

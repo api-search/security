@@ -8,61 +8,61 @@ api_specs:
   label: TheFork Customers API
   slug: thefork-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/thefork-customers-api-openapi.yml
+  url: https://artifacts.apis.io/thefork/openapi/thefork-customers-api-openapi.yml
 - filename: thefork-orders-api-openapi.yml
   format: yaml
   label: TheFork Orders API
   slug: thefork-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/thefork-orders-api-openapi.yml
+  url: https://artifacts.apis.io/thefork/openapi/thefork-orders-api-openapi.yml
 - filename: thefork-reservations-api-openapi.yml
   format: yaml
   label: TheFork Reservations API
   slug: thefork-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/thefork-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/thefork/openapi/thefork-reservations-api-openapi.yml
 - filename: thefork-reviews-api-openapi.yml
   format: yaml
   label: TheFork Reviews API
   slug: thefork-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/thefork-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/thefork/openapi/thefork-reviews-api-openapi.yml
 - filename: thefork-booking-flow-api-openapi.yml
   format: yaml
   label: TheFork Booking flow API
   slug: thefork-booking-flow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/thefork-booking-flow-api-openapi.yml
+  url: https://artifacts.apis.io/thefork/openapi/thefork-booking-flow-api-openapi.yml
 - filename: thefork-create-api-openapi.yml
   format: yaml
   label: TheFork Create API
   slug: thefork-create-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/thefork-create-api-openapi.yml
+  url: https://artifacts.apis.io/thefork/openapi/thefork-create-api-openapi.yml
 - filename: thefork-data-api-openapi.yml
   format: yaml
   label: TheFork Data API
   slug: thefork-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/thefork-data-api-openapi.yml
+  url: https://artifacts.apis.io/thefork/openapi/thefork-data-api-openapi.yml
 - filename: thefork-logo-api-openapi.yml
   format: yaml
   label: TheFork Logo API
   slug: thefork-logo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/thefork-logo-api-openapi.yml
+  url: https://artifacts.apis.io/thefork/openapi/thefork-logo-api-openapi.yml
 - filename: thefork-phone-api-openapi.yml
   format: yaml
   label: TheFork Phone API
   slug: thefork-phone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/thefork-phone-api-openapi.yml
+  url: https://artifacts.apis.io/thefork/openapi/thefork-phone-api-openapi.yml
 - filename: thefork-review-flow-api-openapi.yml
   format: yaml
   label: TheFork Review flow API
   slug: thefork-review-flow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/thefork-review-flow-api-openapi.yml
+  url: https://artifacts.apis.io/thefork/openapi/thefork-review-flow-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -109,7 +109,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/thefork-b2b-openapi.yml, openapi/thefork-pos-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: OAuth2ClientCredentials\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.thefork.io/oauth/token\n    scopes: 0\n  description: Auth0 OAuth 2.0 client credentials flow. Exchange client_id and client_secret\n    for a bearer token at https://auth.thefork.io/oauth/token with audience https://api.thefork.io.\n    Tokens expire after 8600 seconds.\n  sources:\n  - openapi/thefork-b2b-openapi.yml\n- name: ApiKey\n  type: apiKey\n  in: header\n  parameter: X-Api-Key\n  description: API key issued by TheFork for POS API v1.\n  sources:\n  - openapi/thefork-pos-openapi.yml\n- name: BearerToken\n  type: http\n  scheme: bearer\n  description: Bearer token presented by TheFork on calls to the POS provider.\n\
   \  sources:\n  - openapi/thefork-pos-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/authentication/thefork-authentication.yml
+source_yaml_url: https://artifacts.apis.io/thefork/authentication/thefork-authentication.yml
 summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Restaurant

@@ -31,7 +31,7 @@ source_filename: 6estates-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: 6estates.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  8 09:39:07 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: 6estates.com\n  dnssec: true\n  caa:\n  - 0 iodef \"mailto:core@6estates.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issuewild \"globalsign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/6estates/refs/heads/main/security/6estates-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/6estates/security/6estates-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

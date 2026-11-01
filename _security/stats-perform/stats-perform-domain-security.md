@@ -5,43 +5,43 @@ api_specs:
   label: Stats Perform Editorial API
   slug: stats-perform-editorial-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/openapi/stats-perform-editorial-api-openapi.yml
+  url: https://artifacts.apis.io/stats-perform/openapi/stats-perform-editorial-api-openapi.yml
 - filename: stats-perform-events-api-openapi.yml
   format: yaml
   label: Stats Perform Events API
   slug: stats-perform-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/openapi/stats-perform-events-api-openapi.yml
+  url: https://artifacts.apis.io/stats-perform/openapi/stats-perform-events-api-openapi.yml
 - filename: stats-perform-players-api-openapi.yml
   format: yaml
   label: Stats Perform Players API
   slug: stats-perform-players-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/openapi/stats-perform-players-api-openapi.yml
+  url: https://artifacts.apis.io/stats-perform/openapi/stats-perform-players-api-openapi.yml
 - filename: stats-perform-reference-data-api-openapi.yml
   format: yaml
   label: Stats Perform Reference Data API
   slug: stats-perform-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/openapi/stats-perform-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/stats-perform/openapi/stats-perform-reference-data-api-openapi.yml
 - filename: stats-perform-standings-api-openapi.yml
   format: yaml
   label: Stats Perform Standings API
   slug: stats-perform-standings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/openapi/stats-perform-standings-api-openapi.yml
+  url: https://artifacts.apis.io/stats-perform/openapi/stats-perform-standings-api-openapi.yml
 - filename: stats-perform-statistics-api-openapi.yml
   format: yaml
   label: Stats Perform Statistics API
   slug: stats-perform-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/openapi/stats-perform-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/stats-perform/openapi/stats-perform-statistics-api-openapi.yml
 - filename: stats-perform-teams-api-openapi.yml
   format: yaml
   label: Stats Perform Teams API
   slug: stats-perform-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/openapi/stats-perform-teams-api-openapi.yml
+  url: https://artifacts.apis.io/stats-perform/openapi/stats-perform-teams-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -74,7 +74,7 @@ source_filename: stats-perform-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.stats.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 23:59:59 2026 GMT\n  hsts: false\n- host: api.stats.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 10 20:14:04 2026 GMT\n  hsts: null\ndomains:\n- domain: stats.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/security/stats-perform-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/stats-perform/security/stats-perform-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Sports

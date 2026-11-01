@@ -5,19 +5,19 @@ api_specs:
   label: Millimetric Identity API
   slug: millimetric-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/openapi/millimetric-identity-api-openapi.yml
+  url: https://artifacts.apis.io/millimetric/openapi/millimetric-identity-api-openapi.yml
 - filename: millimetric-ingest-api-openapi.yml
   format: yaml
   label: Millimetric Ingest API
   slug: millimetric-ingest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/openapi/millimetric-ingest-api-openapi.yml
+  url: https://artifacts.apis.io/millimetric/openapi/millimetric-ingest-api-openapi.yml
 - filename: millimetric-read-api-openapi.yml
   format: yaml
   label: Millimetric Read API
   slug: millimetric-read-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/openapi/millimetric-read-api-openapi.yml
+  url: https://artifacts.apis.io/millimetric/openapi/millimetric-read-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -63,7 +63,7 @@ source_filename: millimetric-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: millimetric.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 03:45:17 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.millimetric.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 04:11:30 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.millimetric.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 22:14:38 2026 GMT\n  hsts: null\ndomains:\n- domain: millimetric.ai\n  dnssec: false\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/security/millimetric-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/millimetric/security/millimetric-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

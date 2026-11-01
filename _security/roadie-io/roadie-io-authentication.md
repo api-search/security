@@ -7,31 +7,31 @@ api_specs:
   label: Roadie Catalog API
   slug: roadie-io-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roadie-io/refs/heads/main/openapi/roadie-io-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/roadie-io/openapi/roadie-io-catalog-api-openapi.yml
 - filename: roadie-io-entity-push-api-openapi.yml
   format: yaml
   label: Roadie Entity Push API
   slug: roadie-io-entity-push-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roadie-io/refs/heads/main/openapi/roadie-io-entity-push-api-openapi.yml
+  url: https://artifacts.apis.io/roadie-io/openapi/roadie-io-entity-push-api-openapi.yml
 - filename: roadie-io-scaffolder-api-openapi.yml
   format: yaml
   label: Roadie Scaffolder API
   slug: roadie-io-scaffolder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roadie-io/refs/heads/main/openapi/roadie-io-scaffolder-api-openapi.yml
+  url: https://artifacts.apis.io/roadie-io/openapi/roadie-io-scaffolder-api-openapi.yml
 - filename: roadie-io-tech-insights-api-openapi.yml
   format: yaml
   label: Roadie Tech Insights API
   slug: roadie-io-tech-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roadie-io/refs/heads/main/openapi/roadie-io-tech-insights-api-openapi.yml
+  url: https://artifacts.apis.io/roadie-io/openapi/roadie-io-tech-insights-api-openapi.yml
 - filename: roadie-io-techdocs-api-openapi.yml
   format: yaml
   label: Roadie TechDocs API
   slug: roadie-io-techdocs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roadie-io/refs/heads/main/openapi/roadie-io-techdocs-api-openapi.yml
+  url: https://artifacts.apis.io/roadie-io/openapi/roadie-io-techdocs-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -59,7 +59,7 @@ source_filename: roadie-io-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/roadie-io-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    Roadie API token passed as `Authorization: Bearer [example key]`.\n    Two token types exist - User Tokens (tied to a person, created under\n    Administration then Account then Roadie API Access; requires the \"Roadie\n    API Key Access\" policy) and Service Tokens (unattached, for automation and\n    CI/CD, created under Administration then Service Tokens). Both grant the\n    same API access and are shown only once at creation. The public API is\n    available on Cloud Hosted Roadie.\n  sources:\n  - openapi/roadie-io-openapi.yml\n  - https://roadie.io/docs/api/authorization/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/roadie-io/refs/heads/main/authentication/roadie-io-authentication.yml
+source_yaml_url: https://artifacts.apis.io/roadie-io/authentication/roadie-io-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Software Catalog

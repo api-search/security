@@ -8,25 +8,25 @@ api_specs:
   label: Google Sheets API
   slug: google-sheets-sheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/openapi/google-sheets-sheets-api-openapi.yml
+  url: https://artifacts.apis.io/google-sheets/openapi/google-sheets-sheets-api-openapi.yml
 - filename: google-sheets-spreadsheets-api-openapi.yml
   format: yaml
   label: Google Sheets Spreadsheets API
   slug: google-sheets-spreadsheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/openapi/google-sheets-spreadsheets-api-openapi.yml
+  url: https://artifacts.apis.io/google-sheets/openapi/google-sheets-spreadsheets-api-openapi.yml
 - filename: google-sheets-values-api-openapi.yml
   format: yaml
   label: Google Sheets Values API
   slug: google-sheets-values-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/openapi/google-sheets-values-api-openapi.yml
+  url: https://artifacts.apis.io/google-sheets/openapi/google-sheets-values-api-openapi.yml
 - filename: google-sheets-developer-metadata-api-openapi.yml
   format: yaml
   label: Google Sheets Developer Metadata API
   slug: google-sheets-developer-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/openapi/google-sheets-developer-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/google-sheets/openapi/google-sheets-developer-metadata-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -66,7 +66,7 @@ source_filename: google-sheets-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/google-sheets-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - query\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 5\n  description: OAuth 2.0 authentication for accessing user spreadsheets.\n  sources:\n  - openapi/google-sheets-openapi.yml\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: key\n  description: API key for accessing public spreadsheets without user authentication.\n  sources:\n  - openapi/google-sheets-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/authentication/google-sheets-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-sheets/authentication/google-sheets-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Google Workspace

@@ -5,25 +5,25 @@ api_specs:
   label: Very Good Security Aliases API
   slug: vgs-aliases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/openapi/vgs-aliases-api-openapi.yml
+  url: https://artifacts.apis.io/vgs/openapi/vgs-aliases-api-openapi.yml
 - filename: vgs-organizations-api-openapi.yml
   format: yaml
   label: Very Good Security Organizations API
   slug: vgs-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/openapi/vgs-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/vgs/openapi/vgs-organizations-api-openapi.yml
 - filename: vgs-routes-api-openapi.yml
   format: yaml
   label: Very Good Security Routes API
   slug: vgs-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/openapi/vgs-routes-api-openapi.yml
+  url: https://artifacts.apis.io/vgs/openapi/vgs-routes-api-openapi.yml
 - filename: vgs-vaults-api-openapi.yml
   format: yaml
   label: Very Good Security Vaults API
   slug: vgs-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/openapi/vgs-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/vgs/openapi/vgs-vaults-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -74,7 +74,7 @@ source_filename: vgs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.verygoodsecurity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.sandbox.verygoodvault.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 15 23:59:59 2026 GMT\n  hsts: false\n- host: docs.verygoodsecurity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 02:45:30 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: verygoodsecurity.com\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:admin@verygoodsecurity.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: verygoodvault.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/security/vgs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vgs/security/vgs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Security

@@ -5,31 +5,31 @@ api_specs:
   label: Goodyear Tire & Rubber Catalog API
   slug: goodyear-tire-and-rubber-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodyear-tire-and-rubber/refs/heads/main/openapi/goodyear-tire-and-rubber-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/goodyear-tire-and-rubber/openapi/goodyear-tire-and-rubber-catalog-api-openapi.yml
 - filename: goodyear-tire-and-rubber-friction-api-openapi.yml
   format: yaml
   label: Goodyear Tire & Rubber Friction API
   slug: goodyear-tire-and-rubber-friction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodyear-tire-and-rubber/refs/heads/main/openapi/goodyear-tire-and-rubber-friction-api-openapi.yml
+  url: https://artifacts.apis.io/goodyear-tire-and-rubber/openapi/goodyear-tire-and-rubber-friction-api-openapi.yml
 - filename: goodyear-tire-and-rubber-service-tickets-api-openapi.yml
   format: yaml
   label: Goodyear Tire & Rubber Service Tickets API
   slug: goodyear-tire-and-rubber-service-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodyear-tire-and-rubber/refs/heads/main/openapi/goodyear-tire-and-rubber-service-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/goodyear-tire-and-rubber/openapi/goodyear-tire-and-rubber-service-tickets-api-openapi.yml
 - filename: goodyear-tire-and-rubber-tires-api-openapi.yml
   format: yaml
   label: Goodyear Tire & Rubber Tires API
   slug: goodyear-tire-and-rubber-tires-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodyear-tire-and-rubber/refs/heads/main/openapi/goodyear-tire-and-rubber-tires-api-openapi.yml
+  url: https://artifacts.apis.io/goodyear-tire-and-rubber/openapi/goodyear-tire-and-rubber-tires-api-openapi.yml
 - filename: goodyear-tire-and-rubber-work-orders-api-openapi.yml
   format: yaml
   label: Goodyear Tire & Rubber Work Orders API
   slug: goodyear-tire-and-rubber-work-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodyear-tire-and-rubber/refs/heads/main/openapi/goodyear-tire-and-rubber-work-orders-api-openapi.yml
+  url: https://artifacts.apis.io/goodyear-tire-and-rubber/openapi/goodyear-tire-and-rubber-work-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -73,7 +73,7 @@ source_filename: goodyear-tire-and-rubber-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.goodyear.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 05:08:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.goodyearsightline.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  4 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: gaas-portal.goodyear.com\n  https: false\ndomains:\n- domain: goodyear.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: goodyearsightline.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goodyear-tire-and-rubber/refs/heads/main/security/goodyear-tire-and-rubber-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/goodyear-tire-and-rubber/security/goodyear-tire-and-rubber-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Connected Vehicles

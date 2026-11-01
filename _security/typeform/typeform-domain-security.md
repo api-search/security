@@ -5,25 +5,25 @@ api_specs:
   label: Typeform Webhooks API
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeform/refs/heads/main/asyncapi/typeform-asyncapi.yml
+  url: https://artifacts.apis.io/typeform/asyncapi/typeform-asyncapi.yml
 - filename: typeform-forms-api-openapi.yml
   format: yaml
   label: Typeform Forms API
   slug: typeform-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeform/refs/heads/main/openapi/typeform-forms-api-openapi.yml
+  url: https://artifacts.apis.io/typeform/openapi/typeform-forms-api-openapi.yml
 - filename: typeform-images-api-openapi.yml
   format: yaml
   label: Typeform Images API
   slug: typeform-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeform/refs/heads/main/openapi/typeform-images-api-openapi.yml
+  url: https://artifacts.apis.io/typeform/openapi/typeform-images-api-openapi.yml
 - filename: typeform-themes-api-openapi.yml
   format: yaml
   label: Typeform Themes API
   slug: typeform-themes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeform/refs/heads/main/openapi/typeform-themes-api-openapi.yml
+  url: https://artifacts.apis.io/typeform/openapi/typeform-themes-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -68,7 +68,7 @@ source_filename: typeform-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.typeform.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 12 23:59:59 2026 GMT\n  hsts: false\n- host: api.typeform.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 29 23:59:59 2026 GMT\n  hsts: null\n- host: embed.typeform.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: typeform.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"amazon.com\"\n  - 0 iodef \"mailto:security@typeform.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/typeform/refs/heads/main/security/typeform-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/typeform/security/typeform-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Forms

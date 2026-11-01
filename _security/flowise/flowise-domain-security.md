@@ -5,79 +5,79 @@ api_specs:
   label: Flowise Assistants API
   slug: flowise-assistants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-assistants-api-openapi.yml
+  url: https://artifacts.apis.io/flowise/openapi/flowise-assistants-api-openapi.yml
 - filename: flowise-attachments-api-openapi.yml
   format: yaml
   label: Flowise Attachments API
   slug: flowise-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/flowise/openapi/flowise-attachments-api-openapi.yml
 - filename: flowise-chatflows-api-openapi.yml
   format: yaml
   label: Flowise Chatflows API
   slug: flowise-chatflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-chatflows-api-openapi.yml
+  url: https://artifacts.apis.io/flowise/openapi/flowise-chatflows-api-openapi.yml
 - filename: flowise-chatmessage-api-openapi.yml
   format: yaml
   label: Flowise Chatmessage API
   slug: flowise-chatmessage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-chatmessage-api-openapi.yml
+  url: https://artifacts.apis.io/flowise/openapi/flowise-chatmessage-api-openapi.yml
 - filename: flowise-document-store-api-openapi.yml
   format: yaml
   label: Flowise Document Store API
   slug: flowise-document-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-document-store-api-openapi.yml
+  url: https://artifacts.apis.io/flowise/openapi/flowise-document-store-api-openapi.yml
 - filename: flowise-feedback-api-openapi.yml
   format: yaml
   label: Flowise Feedback API
   slug: flowise-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/flowise/openapi/flowise-feedback-api-openapi.yml
 - filename: flowise-leads-api-openapi.yml
   format: yaml
   label: Flowise Leads API
   slug: flowise-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-leads-api-openapi.yml
+  url: https://artifacts.apis.io/flowise/openapi/flowise-leads-api-openapi.yml
 - filename: flowise-ping-api-openapi.yml
   format: yaml
   label: Flowise Ping API
   slug: flowise-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-ping-api-openapi.yml
+  url: https://artifacts.apis.io/flowise/openapi/flowise-ping-api-openapi.yml
 - filename: flowise-prediction-api-openapi.yml
   format: yaml
   label: Flowise Prediction API
   slug: flowise-prediction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-prediction-api-openapi.yml
+  url: https://artifacts.apis.io/flowise/openapi/flowise-prediction-api-openapi.yml
 - filename: flowise-tools-api-openapi.yml
   format: yaml
   label: Flowise Tools API
   slug: flowise-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-tools-api-openapi.yml
+  url: https://artifacts.apis.io/flowise/openapi/flowise-tools-api-openapi.yml
 - filename: flowise-upsert-history-api-openapi.yml
   format: yaml
   label: Flowise Upsert History API
   slug: flowise-upsert-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-upsert-history-api-openapi.yml
+  url: https://artifacts.apis.io/flowise/openapi/flowise-upsert-history-api-openapi.yml
 - filename: flowise-variables-api-openapi.yml
   format: yaml
   label: Flowise Variables API
   slug: flowise-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-variables-api-openapi.yml
+  url: https://artifacts.apis.io/flowise/openapi/flowise-variables-api-openapi.yml
 - filename: flowise-vector-api-openapi.yml
   format: yaml
   label: Flowise Vector API
   slug: flowise-vector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-vector-api-openapi.yml
+  url: https://artifacts.apis.io/flowise/openapi/flowise-vector-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -113,7 +113,7 @@ source_filename: flowise-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: flowiseai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 09:49:24 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.flowiseai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 03:02:32 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: flowiseai.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/security/flowise-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/flowise/security/flowise-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Agents

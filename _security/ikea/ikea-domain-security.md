@@ -5,31 +5,31 @@ api_specs:
   label: IKEA Availability API
   slug: ikea-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ikea/refs/heads/main/openapi/ikea-availability-api-openapi.yml
+  url: https://artifacts.apis.io/ikea/openapi/ikea-availability-api-openapi.yml
 - filename: ikea-categories-api-openapi.yml
   format: yaml
   label: IKEA Categories API
   slug: ikea-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ikea/refs/heads/main/openapi/ikea-categories-api-openapi.yml
+  url: https://artifacts.apis.io/ikea/openapi/ikea-categories-api-openapi.yml
 - filename: ikea-parts-api-openapi.yml
   format: yaml
   label: IKEA Parts API
   slug: ikea-parts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ikea/refs/heads/main/openapi/ikea-parts-api-openapi.yml
+  url: https://artifacts.apis.io/ikea/openapi/ikea-parts-api-openapi.yml
 - filename: ikea-products-api-openapi.yml
   format: yaml
   label: IKEA Products API
   slug: ikea-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ikea/refs/heads/main/openapi/ikea-products-api-openapi.yml
+  url: https://artifacts.apis.io/ikea/openapi/ikea-products-api-openapi.yml
 - filename: ikea-stores-api-openapi.yml
   format: yaml
   label: IKEA Stores API
   slug: ikea-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ikea/refs/heads/main/openapi/ikea-stores-api-openapi.yml
+  url: https://artifacts.apis.io/ikea/openapi/ikea-stores-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -88,7 +88,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ikea.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 14:53:21 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.salesitem.ingka.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 15:45:21 2026 GMT\n  hsts: null\n- host: api.prod.apo.ingka.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 18:14:19 2026 GMT\n  hsts: null\ndomains:\n- domain: ikea.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"globalsign.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 iodef \"mailto:caa@inter.IKEA.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: ingka.com\n  dnssec: true\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\
   \n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ikea/refs/heads/main/security/ikea-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ikea/security/ikea-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Retail

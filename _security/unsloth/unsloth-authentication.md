@@ -33,7 +33,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\ndocs: https://unsloth.ai/docs/basics/api\nsource: https://unsloth.ai/docs/basics/api\ndescription: >-\n  Authentication profile for the Unsloth local API (2026-07-21). Unsloth has\n  no hosted API; models loaded in Unsloth Studio are exposed on the user's own\n  machine as an authenticated OpenAI/Anthropic-compatible endpoint via\n  llama-server. Keys are created in Studio (Settings -> API) or auto-created\n  by `unsloth run`; Unsloth stores only a hash and shows the key once.\n  Requests with a revoked key fail 401 Unauthorized. No OpenAPI is published,\n  so this profile is captured from the docs rather than derived from a spec.\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  oauth2_flows: []\nschemes:\n  - name: UnslothApiKey\n    type: apiKey\n    in: header\n    header: Authorization (Bearer)\n    key_prefix: sk-unsloth-\n    scope: local instance only (http://localhost:PORT base URL)\n    revocation: Keys revocable in\
   \ Studio Settings -> API; revoked keys return 401 Unauthorized.\n    expiry: Optional expiry settable at key creation.\n    sources: [https://unsloth.ai/docs/basics/api]\nendpoints:\n  - path: /v1/chat/completions\n    dialect: OpenAI-compatible\n  - path: /v1/responses\n    dialect: OpenAI-compatible\n  - path: /v1/messages\n    dialect: Anthropic-compatible\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unsloth/refs/heads/main/authentication/unsloth-authentication.yml
+source_yaml_url: https://artifacts.apis.io/unsloth/authentication/unsloth-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

@@ -16,7 +16,7 @@ source_filename: aledade-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nprobe: true\nsource: https://trust.aledade.com/\nurl: https://trust.aledade.com/\ncertifications:\n- HIPAA\n- NIST\nevidence:\n- source: https://trust.aledade.com/\n  keywords:\n  - hipaa\n  - nist\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aledade/refs/heads/main/security/aledade-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/aledade/security/aledade-trust-center.yml
 summary_line: HIPAA, NIST
 tags:
 - Company

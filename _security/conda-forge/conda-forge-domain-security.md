@@ -47,7 +47,7 @@ source_filename: conda-forge-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: anaconda.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 19:16:28 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.anaconda.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 19:50:00 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: conda.anaconda.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 19:50:00 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: anaconda.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/conda-forge/refs/heads/main/security/conda-forge-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/conda-forge/security/conda-forge-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Conda

@@ -5,91 +5,91 @@ api_specs:
   label: Surf DEX API
   slug: surf-dex-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surf/refs/heads/main/openapi/surf-dex-api-openapi.yml
+  url: https://artifacts.apis.io/surf/openapi/surf-dex-api-openapi.yml
 - filename: surf-exchange-api-openapi.yml
   format: yaml
   label: Surf Exchange API
   slug: surf-exchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surf/refs/heads/main/openapi/surf-exchange-api-openapi.yml
+  url: https://artifacts.apis.io/surf/openapi/surf-exchange-api-openapi.yml
 - filename: surf-fund-api-openapi.yml
   format: yaml
   label: Surf Fund API
   slug: surf-fund-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surf/refs/heads/main/openapi/surf-fund-api-openapi.yml
+  url: https://artifacts.apis.io/surf/openapi/surf-fund-api-openapi.yml
 - filename: surf-hyperliquid-api-openapi.yml
   format: yaml
   label: Surf Hyperliquid API
   slug: surf-hyperliquid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surf/refs/heads/main/openapi/surf-hyperliquid-api-openapi.yml
+  url: https://artifacts.apis.io/surf/openapi/surf-hyperliquid-api-openapi.yml
 - filename: surf-market-api-openapi.yml
   format: yaml
   label: Surf Market API
   slug: surf-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surf/refs/heads/main/openapi/surf-market-api-openapi.yml
+  url: https://artifacts.apis.io/surf/openapi/surf-market-api-openapi.yml
 - filename: surf-news-api-openapi.yml
   format: yaml
   label: Surf News API
   slug: surf-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surf/refs/heads/main/openapi/surf-news-api-openapi.yml
+  url: https://artifacts.apis.io/surf/openapi/surf-news-api-openapi.yml
 - filename: surf-prediction-market-api-openapi.yml
   format: yaml
   label: Surf Prediction Market API
   slug: surf-prediction-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surf/refs/heads/main/openapi/surf-prediction-market-api-openapi.yml
+  url: https://artifacts.apis.io/surf/openapi/surf-prediction-market-api-openapi.yml
 - filename: surf-project-api-openapi.yml
   format: yaml
   label: Surf Project API
   slug: surf-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surf/refs/heads/main/openapi/surf-project-api-openapi.yml
+  url: https://artifacts.apis.io/surf/openapi/surf-project-api-openapi.yml
 - filename: surf-search-api-openapi.yml
   format: yaml
   label: Surf Search API
   slug: surf-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surf/refs/heads/main/openapi/surf-search-api-openapi.yml
+  url: https://artifacts.apis.io/surf/openapi/surf-search-api-openapi.yml
 - filename: surf-signal-api-openapi.yml
   format: yaml
   label: Surf Signal API
   slug: surf-signal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surf/refs/heads/main/openapi/surf-signal-api-openapi.yml
+  url: https://artifacts.apis.io/surf/openapi/surf-signal-api-openapi.yml
 - filename: surf-social-api-openapi.yml
   format: yaml
   label: Surf Social API
   slug: surf-social-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surf/refs/heads/main/openapi/surf-social-api-openapi.yml
+  url: https://artifacts.apis.io/surf/openapi/surf-social-api-openapi.yml
 - filename: surf-token-api-openapi.yml
   format: yaml
   label: Surf Token API
   slug: surf-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surf/refs/heads/main/openapi/surf-token-api-openapi.yml
+  url: https://artifacts.apis.io/surf/openapi/surf-token-api-openapi.yml
 - filename: surf-wallet-api-openapi.yml
   format: yaml
   label: Surf Wallet API
   slug: surf-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surf/refs/heads/main/openapi/surf-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/surf/openapi/surf-wallet-api-openapi.yml
 - filename: surf-web-api-openapi.yml
   format: yaml
   label: Surf Web API
   slug: surf-web-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surf/refs/heads/main/openapi/surf-web-api-openapi.yml
+  url: https://artifacts.apis.io/surf/openapi/surf-web-api-openapi.yml
 - filename: surf-on-chain-api-openapi.yml
   format: yaml
   label: Surf On Chain API
   slug: surf-on-chain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surf/refs/heads/main/openapi/surf-on-chain-api-openapi.yml
+  url: https://artifacts.apis.io/surf/openapi/surf-on-chain-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -130,7 +130,7 @@ source_filename: surf-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: asksurf.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 17:36:51 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: agents.asksurf.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 02:43:39 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.asksurf.ai\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 21 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: asksurf.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/surf/refs/heads/main/security/surf-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/surf/security/surf-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

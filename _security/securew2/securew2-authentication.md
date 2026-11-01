@@ -34,7 +34,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://securew2.com/documentation/rest-api-based-organization-provisioning-for-msps\ndocs: https://securew2.com/documentation/rest-api-based-organization-provisioning-for-msps\nsummary:\n  types:\n  - http\n  http_schemes:\n  - bearer\n  oauth2_flows: []\n  notes: >-\n    The SecureW2 REST API for MSP organization provisioning authenticates with a\n    bearer token. A \"REST API Organization Management Token\" is generated in the\n    JoinNow Management Portal and downloaded as a CSV containing an API Key ID and\n    API Secret. The secret is presented on each request in the Authorization header\n    as \"Bearer <secret>\". Tokens can be scoped Read-Only (GET) or Read-Write\n    (GET/POST/PATCH) and require an APEX, Guardian, or Campus license.\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  location: header\n  header: Authorization\n  format: 'Bearer <API Secret>'\n  token_source: JoinNow Management Portal\
   \ (REST API Organization Management Token)\n  access_levels:\n  - Read-Only\n  - Read-Write\n  sources:\n  - docs:rest-api-based-organization-provisioning-for-msps\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/securew2/refs/heads/main/authentication/securew2-authentication.yml
+source_yaml_url: https://artifacts.apis.io/securew2/authentication/securew2-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

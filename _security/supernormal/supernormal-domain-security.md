@@ -5,31 +5,31 @@ api_specs:
   label: supernormal Agent Sessions API
   slug: supernormal-agent-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supernormal/refs/heads/main/openapi/supernormal-agent-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/supernormal/openapi/supernormal-agent-sessions-api-openapi.yml
 - filename: supernormal-agents-api-openapi.yml
   format: yaml
   label: supernormal Agents API
   slug: supernormal-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supernormal/refs/heads/main/openapi/supernormal-agents-api-openapi.yml
+  url: https://artifacts.apis.io/supernormal/openapi/supernormal-agents-api-openapi.yml
 - filename: supernormal-calendar-events-api-openapi.yml
   format: yaml
   label: supernormal Calendar Events API
   slug: supernormal-calendar-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supernormal/refs/heads/main/openapi/supernormal-calendar-events-api-openapi.yml
+  url: https://artifacts.apis.io/supernormal/openapi/supernormal-calendar-events-api-openapi.yml
 - filename: supernormal-current-user-api-openapi.yml
   format: yaml
   label: supernormal Current User API
   slug: supernormal-current-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supernormal/refs/heads/main/openapi/supernormal-current-user-api-openapi.yml
+  url: https://artifacts.apis.io/supernormal/openapi/supernormal-current-user-api-openapi.yml
 - filename: supernormal-posts-api-openapi.yml
   format: yaml
   label: supernormal Posts API
   slug: supernormal-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supernormal/refs/heads/main/openapi/supernormal-posts-api-openapi.yml
+  url: https://artifacts.apis.io/supernormal/openapi/supernormal-posts-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -77,7 +77,7 @@ source_filename: supernormal-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: supernormal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 10:07:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.supernormal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 06:30:26 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.supernormal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 08:03:32 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: supernormal.com\n  dnssec: true\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/supernormal/refs/heads/main/security/supernormal-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/supernormal/security/supernormal-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

@@ -5,31 +5,31 @@ api_specs:
   label: Apple Music Catalog API
   slug: apple-music-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple-music/refs/heads/main/openapi/apple-music-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/apple-music/openapi/apple-music-catalog-api-openapi.yml
 - filename: apple-music-charts-api-openapi.yml
   format: yaml
   label: Apple Music Charts API
   slug: apple-music-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple-music/refs/heads/main/openapi/apple-music-charts-api-openapi.yml
+  url: https://artifacts.apis.io/apple-music/openapi/apple-music-charts-api-openapi.yml
 - filename: apple-music-library-api-openapi.yml
   format: yaml
   label: Apple Music Library API
   slug: apple-music-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple-music/refs/heads/main/openapi/apple-music-library-api-openapi.yml
+  url: https://artifacts.apis.io/apple-music/openapi/apple-music-library-api-openapi.yml
 - filename: apple-music-search-api-openapi.yml
   format: yaml
   label: Apple Music Search API
   slug: apple-music-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple-music/refs/heads/main/openapi/apple-music-search-api-openapi.yml
+  url: https://artifacts.apis.io/apple-music/openapi/apple-music-search-api-openapi.yml
 - filename: apple-music-storefronts-api-openapi.yml
   format: yaml
   label: Apple Music Storefronts API
   slug: apple-music-storefronts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple-music/refs/heads/main/openapi/apple-music-storefronts-api-openapi.yml
+  url: https://artifacts.apis.io/apple-music/openapi/apple-music-storefronts-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -67,7 +67,7 @@ source_filename: apple-music-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.apple.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 17:10:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.music.apple.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  7 19:46:05 2027 GMT\n  hsts: null\ndomains:\n- domain: apple.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"pki.apple.com\"\n  - 0 iodef \"mailto:contact_pki@apple.com\"\n  - 0 issue \"pki.apple.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apple-music/refs/heads/main/security/apple-music-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apple-music/security/apple-music-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Music

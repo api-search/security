@@ -5,43 +5,43 @@ api_specs:
   label: Workleap Attributes API
   slug: workleap-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workleap/refs/heads/main/openapi/workleap-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/workleap/openapi/workleap-attributes-api-openapi.yml
 - filename: workleap-engagement-api-openapi.yml
   format: yaml
   label: Workleap Engagement API
   slug: workleap-engagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workleap/refs/heads/main/openapi/workleap-engagement-api-openapi.yml
+  url: https://artifacts.apis.io/workleap/openapi/workleap-engagement-api-openapi.yml
 - filename: workleap-feedback-api-openapi.yml
   format: yaml
   label: Workleap Feedback API
   slug: workleap-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workleap/refs/heads/main/openapi/workleap-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/workleap/openapi/workleap-feedback-api-openapi.yml
 - filename: workleap-goodvibes-api-openapi.yml
   format: yaml
   label: Workleap GoodVibes API
   slug: workleap-goodvibes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workleap/refs/heads/main/openapi/workleap-goodvibes-api-openapi.yml
+  url: https://artifacts.apis.io/workleap/openapi/workleap-goodvibes-api-openapi.yml
 - filename: workleap-groups-api-openapi.yml
   format: yaml
   label: Workleap Groups API
   slug: workleap-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workleap/refs/heads/main/openapi/workleap-groups-api-openapi.yml
+  url: https://artifacts.apis.io/workleap/openapi/workleap-groups-api-openapi.yml
 - filename: workleap-provisioning-api-openapi.yml
   format: yaml
   label: Workleap Provisioning API
   slug: workleap-provisioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workleap/refs/heads/main/openapi/workleap-provisioning-api-openapi.yml
+  url: https://artifacts.apis.io/workleap/openapi/workleap-provisioning-api-openapi.yml
 - filename: workleap-users-api-openapi.yml
   format: yaml
   label: Workleap Users API
   slug: workleap-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workleap/refs/heads/main/openapi/workleap-users-api-openapi.yml
+  url: https://artifacts.apis.io/workleap/openapi/workleap-users-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -87,7 +87,7 @@ source_filename: workleap-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: workleap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 14:24:37 2026 GMT\n  hsts: false\n- host: docs.api.workleap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 08:32:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.workleap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 01:02:19 2026 GMT\n  hsts: null\ndomains:\n- domain: workleap.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workleap/refs/heads/main/security/workleap-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/workleap/security/workleap-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Employee Experience

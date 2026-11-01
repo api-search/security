@@ -7,61 +7,61 @@ api_specs:
   label: COSMOPlat IoT Telemetry (MQTT)
   slug: cosmoplat-iot-telemetry-mqtt
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/asyncapi/cosmoplat-iot-telemetry-asyncapi.yml
+  url: https://artifacts.apis.io/cosmoplat/asyncapi/cosmoplat-iot-telemetry-asyncapi.yml
 - filename: cosmoplat-alarm-records-api-openapi.yml
   format: yaml
   label: Cosmoplat Alarm Records API
   slug: cosmoplat-alarm-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/openapi/cosmoplat-alarm-records-api-openapi.yml
+  url: https://artifacts.apis.io/cosmoplat/openapi/cosmoplat-alarm-records-api-openapi.yml
 - filename: cosmoplat-alarm-rules-api-openapi.yml
   format: yaml
   label: Cosmoplat Alarm Rules API
   slug: cosmoplat-alarm-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/openapi/cosmoplat-alarm-rules-api-openapi.yml
+  url: https://artifacts.apis.io/cosmoplat/openapi/cosmoplat-alarm-rules-api-openapi.yml
 - filename: cosmoplat-attribute-data-api-openapi.yml
   format: yaml
   label: Cosmoplat Attribute Data API
   slug: cosmoplat-attribute-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/openapi/cosmoplat-attribute-data-api-openapi.yml
+  url: https://artifacts.apis.io/cosmoplat/openapi/cosmoplat-attribute-data-api-openapi.yml
 - filename: cosmoplat-device-management-api-openapi.yml
   format: yaml
   label: Cosmoplat Device Management API
   slug: cosmoplat-device-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/openapi/cosmoplat-device-management-api-openapi.yml
+  url: https://artifacts.apis.io/cosmoplat/openapi/cosmoplat-device-management-api-openapi.yml
 - filename: cosmoplat-device-rpc-api-openapi.yml
   format: yaml
   label: Cosmoplat Device RPC API
   slug: cosmoplat-device-rpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/openapi/cosmoplat-device-rpc-api-openapi.yml
+  url: https://artifacts.apis.io/cosmoplat/openapi/cosmoplat-device-rpc-api-openapi.yml
 - filename: cosmoplat-product-management-api-openapi.yml
   format: yaml
   label: Cosmoplat Product Management API
   slug: cosmoplat-product-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/openapi/cosmoplat-product-management-api-openapi.yml
+  url: https://artifacts.apis.io/cosmoplat/openapi/cosmoplat-product-management-api-openapi.yml
 - filename: cosmoplat-rule-chains-api-openapi.yml
   format: yaml
   label: Cosmoplat Rule Chains API
   slug: cosmoplat-rule-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/openapi/cosmoplat-rule-chains-api-openapi.yml
+  url: https://artifacts.apis.io/cosmoplat/openapi/cosmoplat-rule-chains-api-openapi.yml
 - filename: cosmoplat-thing-model-telemetry-profile-api-openapi.yml
   format: yaml
   label: Cosmoplat Thing Model (Telemetry Profile) API
   slug: cosmoplat-thing-model-telemetry-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/openapi/cosmoplat-thing-model-telemetry-profile-api-openapi.yml
+  url: https://artifacts.apis.io/cosmoplat/openapi/cosmoplat-thing-model-telemetry-profile-api-openapi.yml
 - filename: cosmoplat-time-series-data-api-openapi.yml
   format: yaml
   label: Cosmoplat Time-series Data API
   slug: cosmoplat-time-series-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/openapi/cosmoplat-time-series-data-api-openapi.yml
+  url: https://artifacts.apis.io/cosmoplat/openapi/cosmoplat-time-series-data-api-openapi.yml
 auth_types:
 - userPassword
 - deviceToken
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-08-11'\nmethod: searched\nsource: https://www.cos
   \ platform\n  prerequisite: The transport component (传输组件) must first be activated by the platform\n    system administrator.\n  source: https://www.cosmoplat.com/help/detail/304/1064\n- name: deviceCredentials\n  type: deviceToken\n  surface: mqtt\n  applies_to: iot.cosmoplat.com:1883 (device telemetry ingest)\n  credential_types: [ACCESS_TOKEN, X509_CERTIFICATE, MQTT_BASIC]\n  credential_field: Device.deviceCredentialsId (访问令牌 — access token), returned on\n    getTenantDevicesnew and getDeviceInfoByDeviceId\n  source: https://www.cosmoplat.com/help/detail/304/1038\n- name: consoleLogin\n  type: interactive\n  surface: web\n  applies_to: https://tianyun.cosmoplat.com/ (天云控制台 — Tianyun console)\n  note: >-\n    The platform documents two tenant onboarding routes — a tenant provisioned by the IoT\n    platform administrator, or a 卡奥斯天云 (CUBA) tenant signing in directly. Both are human\n    console flows; neither is described as issuing an API credential.\n  source: https://www.cosmoplat.com/help/detail/304/1026\n\
   rest_api_gap:\n  documented: false\n  evidence: >-\n    All 26 operations in the published reference were transcribed on 2026-08-11. The\n    Headers tables carry Content-Type and nothing else. No Authorization header, no\n    X-Auth-Token, no apiKey query parameter, no signature scheme and no auth section\n    appears anywhere in the reference.\n  consequence: >-\n    A developer cannot call this API from the documentation alone. The onboarding path is\n    to contact the platform system administrator, which makes the REST surface effectively\n    partner-gated even though its contract is fully public.\nwell_known:\n  openid_configuration: not served (404 on www.cosmoplat.com)\n  oauth_authorization_server: not served (404 on www.cosmoplat.com)\n  see: well-known/cosmoplat-well-known.yml\ngaps:\n- id: no-rest-auth-documented\n  detail: >-\n    Publish the REST credential model — where the token comes from, which header carries\n    it, how long it lives. This is the single change that\
   \ would turn a readable contract\n    into a callable one.\n- id: no-oauth-or-oidc\n  detail: No OAuth 2.0 or OpenID Connect surface is published, and neither discovery\n    document is served.\n- id: plaintext-mqtt-only\n  detail: Credentials are passed as MQTT username/password over the documented plaintext\n    ports 1883 and 11883. No TLS port is documented for either broker.\nx-evidence:\n- url: https://www.cosmoplat.com/help/detail/304/1038\n  http_status: 200\n  fetched: '2026-08-11'\n- url: https://www.cosmoplat.com/help/detail/304/1064\n  http_status: 200\n  fetched: '2026-08-11'\n- url: https://www.cosmoplat.com/.well-known/openid-configuration\n  http_status: 404\n  fetched: '2026-08-11'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/authentication/cosmoplat-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cosmoplat/authentication/cosmoplat-authentication.yml
 summary_line: userPassword/deviceToken · 3 schemes
 tags:
 - Company

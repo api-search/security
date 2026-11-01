@@ -5,55 +5,55 @@ api_specs:
   label: C.H. Robinson Authentication API
   slug: ch-robinson-worldwide-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/openapi/ch-robinson-worldwide-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/ch-robinson-worldwide/openapi/ch-robinson-worldwide-authentication-api-openapi.yml
 - filename: ch-robinson-worldwide-documents-api-openapi.yml
   format: yaml
   label: C.H. Robinson Documents API
   slug: ch-robinson-worldwide-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/openapi/ch-robinson-worldwide-documents-api-openapi.yml
+  url: https://artifacts.apis.io/ch-robinson-worldwide/openapi/ch-robinson-worldwide-documents-api-openapi.yml
 - filename: ch-robinson-worldwide-events-api-openapi.yml
   format: yaml
   label: C.H. Robinson Events API
   slug: ch-robinson-worldwide-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/openapi/ch-robinson-worldwide-events-api-openapi.yml
+  url: https://artifacts.apis.io/ch-robinson-worldwide/openapi/ch-robinson-worldwide-events-api-openapi.yml
 - filename: ch-robinson-worldwide-financials-api-openapi.yml
   format: yaml
   label: C.H. Robinson Financials API
   slug: ch-robinson-worldwide-financials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/openapi/ch-robinson-worldwide-financials-api-openapi.yml
+  url: https://artifacts.apis.io/ch-robinson-worldwide/openapi/ch-robinson-worldwide-financials-api-openapi.yml
 - filename: ch-robinson-worldwide-labels-api-openapi.yml
   format: yaml
   label: C.H. Robinson Labels API
   slug: ch-robinson-worldwide-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/openapi/ch-robinson-worldwide-labels-api-openapi.yml
+  url: https://artifacts.apis.io/ch-robinson-worldwide/openapi/ch-robinson-worldwide-labels-api-openapi.yml
 - filename: ch-robinson-worldwide-orders-and-booking-api-openapi.yml
   format: yaml
   label: C.H. Robinson Orders and Booking API
   slug: ch-robinson-worldwide-orders-and-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/openapi/ch-robinson-worldwide-orders-and-booking-api-openapi.yml
+  url: https://artifacts.apis.io/ch-robinson-worldwide/openapi/ch-robinson-worldwide-orders-and-booking-api-openapi.yml
 - filename: ch-robinson-worldwide-rating-api-openapi.yml
   format: yaml
   label: C.H. Robinson Rating API
   slug: ch-robinson-worldwide-rating-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/openapi/ch-robinson-worldwide-rating-api-openapi.yml
+  url: https://artifacts.apis.io/ch-robinson-worldwide/openapi/ch-robinson-worldwide-rating-api-openapi.yml
 - filename: ch-robinson-worldwide-shipments-api-openapi.yml
   format: yaml
   label: C.H. Robinson Shipments API
   slug: ch-robinson-worldwide-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/openapi/ch-robinson-worldwide-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/ch-robinson-worldwide/openapi/ch-robinson-worldwide-shipments-api-openapi.yml
 - filename: ch-robinson-worldwide-visibility-api-openapi.yml
   format: yaml
   label: C.H. Robinson Visibility API
   slug: ch-robinson-worldwide-visibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/openapi/ch-robinson-worldwide-visibility-api-openapi.yml
+  url: https://artifacts.apis.io/ch-robinson-worldwide/openapi/ch-robinson-worldwide-visibility-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -100,7 +100,7 @@ source_filename: ch-robinson-worldwide-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.chrobinson.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  5 04:38:06 2026 GMT\n  hsts: true\n  hsts_max_age: 16070400\n- host: developer.chrobinson.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  5 04:05:14 2026 GMT\n  hsts: true\n  hsts_max_age: 16070400\n- host: api.navisphere.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 11 06:00:08 2027 GMT\n  hsts: null\ndomains:\n- domain: chrobinson.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: navisphere.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/security/ch-robinson-worldwide-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ch-robinson-worldwide/security/ch-robinson-worldwide-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Freight

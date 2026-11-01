@@ -50,7 +50,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.duetti.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 04:20:37 2026 GMT\n  hsts: null\n  note: marketing site (Webflow); no HSTS header observed\n- host: duo.duetti.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 04:59:07 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  note: DUO artist onboarding application; authenticated, 307 redirects all paths to /login\n- host: statements.duetti.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 08:31:57 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  note: Artist File Vault (royalty statements); authenticated\n- host: sync.duetti.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 21:15:55 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  note: Sync licensing portal; authenticated\ndomains:\n- domain: duetti.co\n  dnssec: false\n  caa: []\n\
   \  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/duetti/refs/heads/main/security/duetti-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/duetti/security/duetti-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

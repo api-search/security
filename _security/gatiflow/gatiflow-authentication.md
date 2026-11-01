@@ -8,25 +8,31 @@ api_specs:
   label: GatiFlow Intelligence API
   slug: gatiflow-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gatiflow/refs/heads/main/openapi/gatiflow-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/gatiflow/openapi/gatiflow-intelligence-api-openapi.yml
 - filename: gatiflow-public-api-openapi.yml
   format: yaml
   label: GatiFlow Public API
   slug: gatiflow-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gatiflow/refs/heads/main/openapi/gatiflow-public-api-openapi.yml
+  url: https://artifacts.apis.io/gatiflow/openapi/gatiflow-public-api-openapi.yml
 - filename: gatiflow-usage-api-openapi.yml
   format: yaml
   label: GatiFlow Usage API
   slug: gatiflow-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gatiflow/refs/heads/main/openapi/gatiflow-usage-api-openapi.yml
+  url: https://artifacts.apis.io/gatiflow/openapi/gatiflow-usage-api-openapi.yml
 - filename: gatiflow-webhooks-api-openapi.yml
   format: yaml
   label: GatiFlow Webhooks API
   slug: gatiflow-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gatiflow/refs/heads/main/openapi/gatiflow-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/gatiflow/openapi/gatiflow-webhooks-api-openapi.yml
+- filename: gatiflow-agent-api-openapi.yml
+  format: yaml
+  label: GatiFlow Agent API
+  slug: gatiflow-agent-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gatiflow/openapi/gatiflow-agent-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -62,7 +68,7 @@ source_filename: gatiflow-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-21'\nmethod: derived\nsource: openapi/gatiflow-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: API key (prefix gf_) created in Dashboard → API Keys.\n  sources:\n  - openapi/gatiflow-openapi.yml\n- name: SessionBearer\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Web session token issued to the browser at sign-in. It is not part of the public\n    API and cannot be created from an API key; an API key sent to an operation that requires\n    it receives 401.\n  sources:\n  - openapi/gatiflow-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gatiflow/refs/heads/main/authentication/gatiflow-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gatiflow/authentication/gatiflow-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Market Intelligence

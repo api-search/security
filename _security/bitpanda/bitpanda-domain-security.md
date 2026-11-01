@@ -5,25 +5,25 @@ api_specs:
   label: Bitpanda Assets API
   slug: bitpanda-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/openapi/bitpanda-assets-api-openapi.yml
+  url: https://artifacts.apis.io/bitpanda/openapi/bitpanda-assets-api-openapi.yml
 - filename: bitpanda-market-data-api-openapi.yml
   format: yaml
   label: Bitpanda Market Data API
   slug: bitpanda-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/openapi/bitpanda-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/bitpanda/openapi/bitpanda-market-data-api-openapi.yml
 - filename: bitpanda-transactions-api-openapi.yml
   format: yaml
   label: Bitpanda Transactions API
   slug: bitpanda-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/openapi/bitpanda-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bitpanda/openapi/bitpanda-transactions-api-openapi.yml
 - filename: bitpanda-wallets-api-openapi.yml
   format: yaml
   label: Bitpanda Wallets API
   slug: bitpanda-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/openapi/bitpanda-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/bitpanda/openapi/bitpanda-wallets-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: bitpanda-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bitpanda.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 16:17:50 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: developers.bitpanda.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 22:29:42 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: developer.bitpanda.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 13:15:05 2026 GMT\n  hsts: null\ndomains:\n- domain: bitpanda.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/security/bitpanda-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bitpanda/security/bitpanda-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

@@ -9,7 +9,7 @@ api_specs:
   label: Emerson Electric Device Summary API
   slug: emerson-electric-device-summary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerson-electric/refs/heads/main/openapi/emerson-electric-device-summary-api-openapi.yml
+  url: https://artifacts.apis.io/emerson-electric/openapi/emerson-electric-device-summary-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: emerson-electric-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: derived\nsource: openapi/emerson-electric-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: apiKeyHeader\n  type: apiKey\n  in: header\n  parameter: Ocp-Apim-Subscription-Key\n  sources:\n  - openapi/emerson-electric-openapi.yml\n- name: apiKeyQuery\n  type: apiKey\n  in: query\n  parameter: subscription-key\n  sources:\n  - openapi/emerson-electric-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emerson-electric/refs/heads/main/authentication/emerson-electric-authentication.yml
+source_yaml_url: https://artifacts.apis.io/emerson-electric/authentication/emerson-electric-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Fortune 500
@@ -51,5 +51,4 @@ tags:
 - Process Control
 - Measurement Instrumentation
 - Devices
-- APIs
 ---

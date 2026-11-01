@@ -5,79 +5,79 @@ api_specs:
   label: Spring Framework Beans API
   slug: spring-beans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-beans-api-openapi.yml
+  url: https://artifacts.apis.io/spring/openapi/spring-beans-api-openapi.yml
 - filename: spring-environment-api-openapi.yml
   format: yaml
   label: Spring Framework Environment API
   slug: spring-environment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-environment-api-openapi.yml
+  url: https://artifacts.apis.io/spring/openapi/spring-environment-api-openapi.yml
 - filename: spring-health-api-openapi.yml
   format: yaml
   label: Spring Framework Health API
   slug: spring-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-health-api-openapi.yml
+  url: https://artifacts.apis.io/spring/openapi/spring-health-api-openapi.yml
 - filename: spring-info-api-openapi.yml
   format: yaml
   label: Spring Framework Info API
   slug: spring-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-info-api-openapi.yml
+  url: https://artifacts.apis.io/spring/openapi/spring-info-api-openapi.yml
 - filename: spring-loggers-api-openapi.yml
   format: yaml
   label: Spring Framework Loggers API
   slug: spring-loggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-loggers-api-openapi.yml
+  url: https://artifacts.apis.io/spring/openapi/spring-loggers-api-openapi.yml
 - filename: spring-mappings-api-openapi.yml
   format: yaml
   label: Spring Framework Mappings API
   slug: spring-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/spring/openapi/spring-mappings-api-openapi.yml
 - filename: spring-metadata-api-openapi.yml
   format: yaml
   label: Spring Framework Metadata API
   slug: spring-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/spring/openapi/spring-metadata-api-openapi.yml
 - filename: spring-metrics-api-openapi.yml
   format: yaml
   label: Spring Framework Metrics API
   slug: spring-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/spring/openapi/spring-metrics-api-openapi.yml
 - filename: spring-project-generation-api-openapi.yml
   format: yaml
   label: Spring Framework Project Generation API
   slug: spring-project-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-project-generation-api-openapi.yml
+  url: https://artifacts.apis.io/spring/openapi/spring-project-generation-api-openapi.yml
 - filename: spring-threads-api-openapi.yml
   format: yaml
   label: Spring Framework Threads API
   slug: spring-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-threads-api-openapi.yml
+  url: https://artifacts.apis.io/spring/openapi/spring-threads-api-openapi.yml
 - filename: spring-filters-api-openapi.yml
   format: yaml
   label: Spring Framework Filters API
   slug: spring-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-filters-api-openapi.yml
+  url: https://artifacts.apis.io/spring/openapi/spring-filters-api-openapi.yml
 - filename: spring-predicates-api-openapi.yml
   format: yaml
   label: Spring Framework Predicates API
   slug: spring-predicates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-predicates-api-openapi.yml
+  url: https://artifacts.apis.io/spring/openapi/spring-predicates-api-openapi.yml
 - filename: spring-routes-api-openapi.yml
   format: yaml
   label: Spring Framework Routes API
   slug: spring-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-routes-api-openapi.yml
+  url: https://artifacts.apis.io/spring/openapi/spring-routes-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -119,7 +119,7 @@ source_filename: spring-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: spring.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 27 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: start.spring.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 27 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: spring.io\n  dnssec: true\n  caa:\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issuewild \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/security/spring-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/spring/security/spring-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Spring Framework

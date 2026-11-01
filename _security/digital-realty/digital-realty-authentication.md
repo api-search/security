@@ -7,19 +7,19 @@ api_specs:
   label: Digital Realty Auth API
   slug: digital-realty-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digital-realty/refs/heads/main/openapi/digital-realty-auth-api-openapi.yml
+  url: https://artifacts.apis.io/digital-realty/openapi/digital-realty-auth-api-openapi.yml
 - filename: digital-realty-facility-access-api-openapi.yml
   format: yaml
   label: Digital Realty Facility Access API
   slug: digital-realty-facility-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digital-realty/refs/heads/main/openapi/digital-realty-facility-access-api-openapi.yml
+  url: https://artifacts.apis.io/digital-realty/openapi/digital-realty-facility-access-api-openapi.yml
 - filename: digital-realty-remotehands-tickets-api-openapi.yml
   format: yaml
   label: Digital Realty Remotehands Tickets API
   slug: digital-realty-remotehands-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digital-realty/refs/heads/main/openapi/digital-realty-remotehands-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/digital-realty/openapi/digital-realty-remotehands-tickets-api-openapi.yml
 auth_types: []
 description: Authentication
 kind: authentication
@@ -48,10 +48,10 @@ source_filename: digital-realty-authentication.yml
 source_heading: Authentication Profile
 source_url: https://developer.digitalrealty.com/docs/getting-started
 source_yaml: "generated: '2026-10-14'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://developer.digitalrealty.com/docs/getting-started\nsources:\n- https://developer.digitalrealty.com/docs/getting-started\ndescription: Authentication\nschemes:\n- type: oauth2\n  name: OAuth2 Client Credentials\n  evidence: First of all, hit the Access Token request to get the bearer token, which can be used to make calls to any API endpoint.\n  flows:\n  - client_credentials\n  token_url: https://playground.digitalrealty.com/v2/auth/token\n  scopes:\n  - playground_api\n  how_to_obtain: Create an App in the Digital Realty portal and use the Client Id and Client Secret from the App as the client_id and client_secret.\ndocs: https://developer.digitalrealty.com/docs/getting-started\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/digital-realty/refs/heads/main/authentication/digital-realty-authentication.yml
+source_yaml_url: https://artifacts.apis.io/digital-realty/authentication/digital-realty-authentication.yml
 summary_line: 1 scheme
 tags:
-- DataCenter
+- Data Center
 - Colocation
 - Cloud
 - Infrastructure

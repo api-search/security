@@ -8,55 +8,55 @@ api_specs:
   label: Sybilion Alerts API
   slug: sybilion-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/sybilion/openapi/sybilion-alerts-api-openapi.yml
 - filename: sybilion-categories-api-openapi.yml
   format: yaml
   label: Sybilion Categories API
   slug: sybilion-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-categories-api-openapi.yml
+  url: https://artifacts.apis.io/sybilion/openapi/sybilion-categories-api-openapi.yml
 - filename: sybilion-drivers-api-openapi.yml
   format: yaml
   label: Sybilion Drivers API
   slug: sybilion-drivers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-drivers-api-openapi.yml
+  url: https://artifacts.apis.io/sybilion/openapi/sybilion-drivers-api-openapi.yml
 - filename: sybilion-forecasts-api-openapi.yml
   format: yaml
   label: Sybilion Forecasts API
   slug: sybilion-forecasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-forecasts-api-openapi.yml
+  url: https://artifacts.apis.io/sybilion/openapi/sybilion-forecasts-api-openapi.yml
 - filename: sybilion-health-api-openapi.yml
   format: yaml
   label: Sybilion Health API
   slug: sybilion-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-health-api-openapi.yml
+  url: https://artifacts.apis.io/sybilion/openapi/sybilion-health-api-openapi.yml
 - filename: sybilion-jobs-api-openapi.yml
   format: yaml
   label: Sybilion Jobs API
   slug: sybilion-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/sybilion/openapi/sybilion-jobs-api-openapi.yml
 - filename: sybilion-me-api-openapi.yml
   format: yaml
   label: Sybilion Me API
   slug: sybilion-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-me-api-openapi.yml
+  url: https://artifacts.apis.io/sybilion/openapi/sybilion-me-api-openapi.yml
 - filename: sybilion-regions-api-openapi.yml
   format: yaml
   label: Sybilion Regions API
   slug: sybilion-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-regions-api-openapi.yml
+  url: https://artifacts.apis.io/sybilion/openapi/sybilion-regions-api-openapi.yml
 - filename: sybilion-usage-api-openapi.yml
   format: yaml
   label: Sybilion Usage API
   slug: sybilion-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-usage-api-openapi.yml
+  url: https://artifacts.apis.io/sybilion/openapi/sybilion-usage-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -147,7 +147,7 @@ source_yaml: "generated: '2026-08-11'\nmethod: searched\nsource: https://sybilio
   \      - https://mcp.sybilion.dev/.well-known/oauth-protected-resource\n      - https://sybilion.dev/docs/integrations\n    discovered_by: probe\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://mcp.sybilion.dev/oauth/authorize\n        tokenUrl: https://mcp.sybilion.dev/oauth/token\n        scopes: [openid, profile, email, offline_access]\n    pkce: [S256, plain]\n    dynamic_client_registration: https://mcp.sybilion.dev/oauth/register\n    revocation: https://mcp.sybilion.dev/oauth/revoke\n    jwks_uri: https://sybilion.eu.auth0.com/.well-known/jwks.json\n    bearer_methods: [header]\n    challenge: 'WWW-Authenticate: Bearer resource_metadata=\"https://mcp.sybilion.dev/.well-known/oauth-protected-resource/mcp\"'\n    note: >-\n      No API key is used here. The docs are explicit that an MCP client runs the browser approval\n      flow and that there is nothing to paste into the connector config. The server implements both\n      RFC 8414 and RFC 9728 discovery\
   \ plus RFC 7591 dynamic client registration, which is a\n      materially better OAuth posture than the REST side's opaque static key.\n  - name: portal-oidc\n    type: openIdConnect\n    surface: portal\n    applies_to: https://sybilion.dev\n    openIdConnectUrl: https://auth0.sybilion.com/.well-known/openid-configuration\n    sources: [well-known/sybilion-openid-configuration.json]\n    discovered_by: probe\n    note: >-\n      Auth0 custom domain backing the Developers Portal login. Not an API credential surface in its\n      own right, but it is the issuer of the session tokens the REST API accepts.\ngaps:\n  - The OpenAPI gives bearerAuth no bearerFormat and no description, so a generated client cannot tell an sk_ops_ key from a JWT.\n  - No scopes, roles or per-key permissions exist on the REST surface; the key is all-or-nothing.\n  - Key rotation, expiry and maximum key count are not documented.\n  - The MCP OAuth surface is absent from the OpenAPI entirely and is only discoverable\
   \ by probing /.well-known/.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/authentication/sybilion-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sybilion/authentication/sybilion-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Industrial market intelligence

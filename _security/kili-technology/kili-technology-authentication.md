@@ -8,7 +8,7 @@ api_specs:
   label: Kili Technology Graph QL API
   slug: kili-technology-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kili-technology/refs/heads/main/openapi/kili-technology-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/kili-technology/openapi/kili-technology-graph-ql-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: kili-technology-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/kili-technology-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Kili API key passed in the Authorization header using Kili''s documented format,\n    where the X-API-Key token is embedded in the value: \"Authorization: X-API-Key: <YOUR_API_KEY>\".'\n  sources:\n  - openapi/kili-technology-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kili-technology/refs/heads/main/authentication/kili-technology-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kili-technology/authentication/kili-technology-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence

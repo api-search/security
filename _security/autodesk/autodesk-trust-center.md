@@ -5,289 +5,289 @@ api_specs:
   label: Autodesk Account Users API
   slug: autodesk-account-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-account-users-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-account-users-api-openapi.yml
 - filename: autodesk-activities-api-openapi.yml
   format: yaml
   label: Autodesk Activities API
   slug: autodesk-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-activities-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-activities-api-openapi.yml
 - filename: autodesk-admin-api-openapi.yml
   format: yaml
   label: Autodesk Admin API
   slug: autodesk-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-admin-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-admin-api-openapi.yml
 - filename: autodesk-authorization-api-openapi.yml
   format: yaml
   label: Autodesk Authorization API
   slug: autodesk-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-authorization-api-openapi.yml
 - filename: autodesk-calculations-api-openapi.yml
   format: yaml
   label: Autodesk Calculations API
   slug: autodesk-calculations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-calculations-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-calculations-api-openapi.yml
 - filename: autodesk-collections-api-openapi.yml
   format: yaml
   label: Autodesk Collections API
   slug: autodesk-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-collections-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-collections-api-openapi.yml
 - filename: autodesk-companies-api-openapi.yml
   format: yaml
   label: Autodesk Companies API
   slug: autodesk-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-companies-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-companies-api-openapi.yml
 - filename: autodesk-datasets-api-openapi.yml
   format: yaml
   label: Autodesk Datasets API
   slug: autodesk-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-datasets-api-openapi.yml
 - filename: autodesk-derivatives-api-openapi.yml
   format: yaml
   label: Autodesk Derivatives API
   slug: autodesk-derivatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-derivatives-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-derivatives-api-openapi.yml
 - filename: autodesk-elements-api-openapi.yml
   format: yaml
   label: Autodesk Elements API
   slug: autodesk-elements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-elements-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-elements-api-openapi.yml
 - filename: autodesk-engines-api-openapi.yml
   format: yaml
   label: Autodesk Engines API
   slug: autodesk-engines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-engines-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-engines-api-openapi.yml
 - filename: autodesk-files-api-openapi.yml
   format: yaml
   label: Autodesk Files API
   slug: autodesk-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-files-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-files-api-openapi.yml
 - filename: autodesk-folders-api-openapi.yml
   format: yaml
   label: Autodesk Folders API
   slug: autodesk-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-folders-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-folders-api-openapi.yml
 - filename: autodesk-forge-apps-api-openapi.yml
   format: yaml
   label: Autodesk Forge Apps API
   slug: autodesk-forge-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-forge-apps-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-forge-apps-api-openapi.yml
 - filename: autodesk-graphs-api-openapi.yml
   format: yaml
   label: Autodesk Graphs API
   slug: autodesk-graphs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-graphs-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-graphs-api-openapi.yml
 - filename: autodesk-groups-api-openapi.yml
   format: yaml
   label: Autodesk Groups API
   slug: autodesk-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-groups-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-groups-api-openapi.yml
 - filename: autodesk-hooks-api-openapi.yml
   format: yaml
   label: Autodesk Hooks API
   slug: autodesk-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-hooks-api-openapi.yml
 - filename: autodesk-hubs-api-openapi.yml
   format: yaml
   label: Autodesk Hubs API
   slug: autodesk-hubs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-hubs-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-hubs-api-openapi.yml
 - filename: autodesk-industry-roles-api-openapi.yml
   format: yaml
   label: Autodesk Industry Roles API
   slug: autodesk-industry-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-industry-roles-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-industry-roles-api-openapi.yml
 - filename: autodesk-informational-api-openapi.yml
   format: yaml
   label: Autodesk Informational API
   slug: autodesk-informational-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-informational-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-informational-api-openapi.yml
 - filename: autodesk-issues-api-openapi.yml
   format: yaml
   label: Autodesk Issues API
   slug: autodesk-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-issues-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-issues-api-openapi.yml
 - filename: autodesk-items-api-openapi.yml
   format: yaml
   label: Autodesk Items API
   slug: autodesk-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-items-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-items-api-openapi.yml
 - filename: autodesk-jobs-api-openapi.yml
   format: yaml
   label: Autodesk Jobs API
   slug: autodesk-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-jobs-api-openapi.yml
 - filename: autodesk-keys-api-openapi.yml
   format: yaml
   label: Autodesk Keys API
   slug: autodesk-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-keys-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-keys-api-openapi.yml
 - filename: autodesk-manifest-api-openapi.yml
   format: yaml
   label: Autodesk Manifest API
   slug: autodesk-manifest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-manifest-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-manifest-api-openapi.yml
 - filename: autodesk-metadata-api-openapi.yml
   format: yaml
   label: Autodesk Metadata API
   slug: autodesk-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-metadata-api-openapi.yml
 - filename: autodesk-models-api-openapi.yml
   format: yaml
   label: Autodesk Models API
   slug: autodesk-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-models-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-models-api-openapi.yml
 - filename: autodesk-object-storage-service-api-openapi.yml
   format: yaml
   label: Autodesk Object Storage Service API
   slug: autodesk-object-storage-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-object-storage-service-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-object-storage-service-api-openapi.yml
 - filename: autodesk-parameters-api-openapi.yml
   format: yaml
   label: Autodesk Parameters API
   slug: autodesk-parameters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-parameters-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-parameters-api-openapi.yml
 - filename: autodesk-photoscenes-api-openapi.yml
   format: yaml
   label: Autodesk Photoscenes API
   slug: autodesk-photoscenes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-photoscenes-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-photoscenes-api-openapi.yml
 - filename: autodesk-processing-api-openapi.yml
   format: yaml
   label: Autodesk Processing API
   slug: autodesk-processing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-processing-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-processing-api-openapi.yml
 - filename: autodesk-project-users-api-openapi.yml
   format: yaml
   label: Autodesk Project Users API
   slug: autodesk-project-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-project-users-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-project-users-api-openapi.yml
 - filename: autodesk-projects-api-openapi.yml
   format: yaml
   label: Autodesk Projects API
   slug: autodesk-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-projects-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-projects-api-openapi.yml
 - filename: autodesk-records-api-openapi.yml
   format: yaml
   label: Autodesk Records API
   slug: autodesk-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-records-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-records-api-openapi.yml
 - filename: autodesk-results-api-openapi.yml
   format: yaml
   label: Autodesk Results API
   slug: autodesk-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-results-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-results-api-openapi.yml
 - filename: autodesk-rfis-api-openapi.yml
   format: yaml
   label: Autodesk RFIs API
   slug: autodesk-rfis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-rfis-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-rfis-api-openapi.yml
 - filename: autodesk-schema-api-openapi.yml
   format: yaml
   label: Autodesk Schema API
   slug: autodesk-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-schema-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-schema-api-openapi.yml
 - filename: autodesk-service-limits-api-openapi.yml
   format: yaml
   label: Autodesk Service Limits API
   slug: autodesk-service-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-service-limits-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-service-limits-api-openapi.yml
 - filename: autodesk-streams-api-openapi.yml
   format: yaml
   label: Autodesk Streams API
   slug: autodesk-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-streams-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-streams-api-openapi.yml
 - filename: autodesk-systems-api-openapi.yml
   format: yaml
   label: Autodesk Systems API
   slug: autodesk-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-systems-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-systems-api-openapi.yml
 - filename: autodesk-thumbnails-api-openapi.yml
   format: yaml
   label: Autodesk Thumbnails API
   slug: autodesk-thumbnails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-thumbnails-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-thumbnails-api-openapi.yml
 - filename: autodesk-token-api-openapi.yml
   format: yaml
   label: Autodesk Token API
   slug: autodesk-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-token-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-token-api-openapi.yml
 - filename: autodesk-tokens-api-openapi.yml
   format: yaml
   label: Autodesk Tokens API
   slug: autodesk-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-tokens-api-openapi.yml
 - filename: autodesk-twins-api-openapi.yml
   format: yaml
   label: Autodesk Twins API
   slug: autodesk-twins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-twins-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-twins-api-openapi.yml
 - filename: autodesk-users-api-openapi.yml
   format: yaml
   label: Autodesk Users API
   slug: autodesk-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-users-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-users-api-openapi.yml
 - filename: autodesk-versions-api-openapi.yml
   format: yaml
   label: Autodesk Versions API
   slug: autodesk-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-versions-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-versions-api-openapi.yml
 - filename: autodesk-app-bundles-api-openapi.yml
   format: yaml
   label: Autodesk App Bundles API
   slug: autodesk-app-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-app-bundles-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-app-bundles-api-openapi.yml
 - filename: autodesk-work-items-api-openapi.yml
   format: yaml
   label: Autodesk Work Items API
   slug: autodesk-work-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-work-items-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk/openapi/autodesk-work-items-api-openapi.yml
 certification_count: 7
 certifications:
 - SOC 2
@@ -310,7 +310,7 @@ source_filename: autodesk-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-06-20'\nmethod: searched\nprobe: true\nurl: https://www.autodesk.com/trust/overview\npages:\n- https://www.autodesk.com/trust/overview\n- https://www.autodesk.com/trust/compliance\n- https://www.autodesk.com/trust/security\ncertifications:\n- SOC 2\n- SOC 3\n- ISO 27001\n- ISO 27701\n- ISO 27017\n- ISO 27018\n- ISO 42001\nnotes: >-\n  Autodesk Trust Center publishes SOC 2 / SOC 3 attestations and ISO 27001 (with 27017/27018 in\n  scope), 27701 privacy, and ISO 42001 AI management certification for selected products. ISO 42001\n  covers Autodesk's central platform for developing customer-facing AI products. Scope varies by\n  product; consult the compliance page for the current product-to-certification matrix.\nevidence:\n- source: https://www.autodesk.com/trust/compliance\n  keywords: [soc 2, soc 3, iso 27001, iso 42001, compliance]\n- source: https://www.autodesk.com/trust/security\n  keywords: [security framework, trust center]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/security/autodesk-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/autodesk/security/autodesk-trust-center.yml
 summary_line: SOC 2, SOC 3, ISO 27001, ISO 27701, ISO 27017, ISO 27018, ISO 42001
 tags:
 - Digital Twin

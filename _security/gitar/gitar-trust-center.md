@@ -5,19 +5,25 @@ api_specs:
   label: Gitar GitLab MR Status API
   slug: gitar-gitlab-mr-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitar/refs/heads/main/openapi/gitar-gitlab-mr-status-api-openapi.yml
+  url: https://artifacts.apis.io/gitar/openapi/gitar-gitlab-mr-status-api-openapi.yml
 - filename: gitar-gitlab-projects-api-openapi.yml
   format: yaml
   label: Gitar GitLab Projects API
   slug: gitar-gitlab-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitar/refs/heads/main/openapi/gitar-gitlab-projects-api-openapi.yml
+  url: https://artifacts.apis.io/gitar/openapi/gitar-gitlab-projects-api-openapi.yml
 - filename: gitar-installation-health-api-openapi.yml
   format: yaml
   label: Gitar Installation Health API
   slug: gitar-installation-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitar/refs/heads/main/openapi/gitar-installation-health-api-openapi.yml
+  url: https://artifacts.apis.io/gitar/openapi/gitar-installation-health-api-openapi.yml
+- filename: gitar-organizations-api-openapi.yml
+  format: yaml
+  label: Gitar Organizations API
+  slug: gitar-organizations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gitar/openapi/gitar-organizations-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -36,7 +42,7 @@ source_filename: gitar-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nprobe: false\nurl: https://trust.gitar.ai/\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://gitar.ai/pricing\n  kind: footer-link\n  detail: '\"Trust Center\" links to https://trust.gitar.ai/'\n- source: https://gitar.ai/\n  kind: compliance-statement\n  detail: Homepage states SOC 2, ISO 27001, and GDPR compliance.\nnotes: >-\n  trust.gitar.ai is a bot-protected trust portal (returns 403 to automated fetches);\n  certifications captured from Gitar's own public homepage and pricing-page footer.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gitar/refs/heads/main/security/gitar-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/gitar/security/gitar-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company

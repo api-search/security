@@ -8,13 +8,13 @@ api_specs:
   label: ScrapingBee Google Search API
   slug: scrapingbee-google-search-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapingbee/refs/heads/main/openapi/scrapingbee-google-search-api-api-openapi.yml
+  url: https://artifacts.apis.io/scrapingbee/openapi/scrapingbee-google-search-api-api-openapi.yml
 - filename: scrapingbee-html-api-api-openapi.yml
   format: yaml
   label: ScrapingBee HTML API
   slug: scrapingbee-html-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapingbee/refs/heads/main/openapi/scrapingbee-html-api-api-openapi.yml
+  url: https://artifacts.apis.io/scrapingbee/openapi/scrapingbee-html-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,14 +42,14 @@ source_filename: scrapingbee-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/scrapingbee-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: ScrapingBee account key, passed as a query parameter.\n  sources:\n  - openapi/scrapingbee-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scrapingbee/refs/heads/main/authentication/scrapingbee-authentication.yml
+source_yaml_url: https://artifacts.apis.io/scrapingbee/authentication/scrapingbee-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - AI Extraction
 - Anti-Bot
 - Data Aggregation
 - Data Extraction
-- Headless Browser
+- Browser Automation
 - JavaScript Rendering
 - Proxy Rotation
 - Screenshots

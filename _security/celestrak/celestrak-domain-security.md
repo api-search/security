@@ -24,7 +24,7 @@ source_filename: celestrak-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: celestrak.org\n  https: false\ndomains:\n- domain: celestrak.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/celestrak/refs/heads/main/security/celestrak-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/celestrak/security/celestrak-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

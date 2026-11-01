@@ -8,55 +8,73 @@ api_specs:
   label: Captions Audio API
   slug: captions-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-audio-api-openapi.yml
+  url: https://artifacts.apis.io/captions/openapi/captions-audio-api-openapi.yml
 - filename: captions-health-api-openapi.yml
   format: yaml
   label: Captions Health API
   slug: captions-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-health-api-openapi.yml
+  url: https://artifacts.apis.io/captions/openapi/captions-health-api-openapi.yml
 - filename: captions-internal-api-openapi.yml
   format: yaml
   label: Captions Internal API
   slug: captions-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-internal-api-openapi.yml
+  url: https://artifacts.apis.io/captions/openapi/captions-internal-api-openapi.yml
 - filename: captions-meta-text-overlays-api-openapi.yml
   format: yaml
   label: Captions Meta Text Overlays API
   slug: captions-meta-text-overlays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-meta-text-overlays-api-openapi.yml
+  url: https://artifacts.apis.io/captions/openapi/captions-meta-text-overlays-api-openapi.yml
 - filename: captions-root-api-openapi.yml
   format: yaml
   label: Captions Root API
   slug: captions-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-root-api-openapi.yml
+  url: https://artifacts.apis.io/captions/openapi/captions-root-api-openapi.yml
 - filename: captions-video-captions-api-openapi.yml
   format: yaml
   label: Captions Video Captions API
   slug: captions-video-captions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-video-captions-api-openapi.yml
+  url: https://artifacts.apis.io/captions/openapi/captions-video-captions-api-openapi.yml
 - filename: captions-videos-api-openapi.yml
   format: yaml
   label: Captions Videos API
   slug: captions-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-videos-api-openapi.yml
+  url: https://artifacts.apis.io/captions/openapi/captions-videos-api-openapi.yml
 - filename: captions-ai-ads-api-openapi.yml
   format: yaml
   label: Captions AI Ads API
   slug: captions-ai-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-ai-ads-api-openapi.yml
+  url: https://artifacts.apis.io/captions/openapi/captions-ai-ads-api-openapi.yml
 - filename: captions-ai-creator-api-openapi.yml
   format: yaml
   label: Captions AI Creator API
   slug: captions-ai-creator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-ai-creator-api-openapi.yml
+  url: https://artifacts.apis.io/captions/openapi/captions-ai-creator-api-openapi.yml
+- filename: captions-catalog-api-openapi.yml
+  format: yaml
+  label: Captions Catalog API
+  slug: captions-catalog-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captions/openapi/captions-catalog-api-openapi.yml
+- filename: captions-internal-fal-api-openapi.yml
+  format: yaml
+  label: Captions Internal Fal API
+  slug: captions-internal-fal-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captions/openapi/captions-internal-fal-api-openapi.yml
+- filename: captions-videos-v2-api-openapi.yml
+  format: yaml
+  label: Captions Videos v2 API
+  slug: captions-videos-v2-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captions/openapi/captions-videos-v2-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -84,7 +102,7 @@ source_filename: captions-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://captions.ai/help/docs/api/overview\ndocs: https://captions.ai/help/docs/api/overview\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  oauth2_flows: []\n  notes: >-\n    Every request to the Mirage Video API must include an `x-api-key` header\n    containing an API key. Keys are minted in the Mirage platform dashboard at\n    https://platform.mirage.app/. The published OpenAPI does not formally\n    declare a securityScheme; the auth model is documented on the API overview\n    page. No OAuth, no scopes.\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter_name: x-api-key\n  description: >-\n    API key issued from the Mirage platform dashboard. Sent on every request as\n    the `x-api-key` request header.\n  sources:\n  - https://captions.ai/help/docs/api/overview\nkey_management:\n  dashboard: https://platform.mirage.app/\n  provisioning: Generate and revoke keys in the Mirage platform dashboard.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/authentication/captions-authentication.yml
+source_yaml_url: https://artifacts.apis.io/captions/authentication/captions-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

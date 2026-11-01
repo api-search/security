@@ -24,7 +24,7 @@ source_filename: protego-trust-bank-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.protegotrust.com\n  https: false\ndomains:\n- domain: protegotrust.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\nnotes: >-\n  Both www.protegotrust.com and protegotrust.com terminate the TLS handshake with a fatal\n  internal_error alert (SSL alert 80) and present no certificate, so https is recorded as\n  false for transport failure rather than for a missing redirect. Plain HTTP 301-redirects\n  to the same unreachable HTTPS origin. Reproduced 2026-08-26 from curl/LibreSSL, OpenSSL\n  s_client, and a headless-Chromium fetch (ERR_SSL_PROTOCOL_ERROR). The hosts are Webflow\n  proxy endpoints (proxy-ssl.webflow.com) whose custom-domain certificate is not\n  provisioned. No CAA record is published; DNSSEC is signed and SPF/DMARC are present, so\n  the zone is actively administered while the web front end is dark.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/protego-trust-bank/refs/heads/main/security/protego-trust-bank-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/protego-trust-bank/security/protego-trust-bank-domain-security.yml
 summary_line: DNSSEC · DMARC
 tags:
 - Company

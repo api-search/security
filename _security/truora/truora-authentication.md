@@ -7,31 +7,31 @@ api_specs:
   label: Truora Account API
   slug: truora-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/openapi/truora-account-api-openapi.yml
+  url: https://artifacts.apis.io/truora/openapi/truora-account-api-openapi.yml
 - filename: truora-checks-api-openapi.yml
   format: yaml
   label: Truora Checks API
   slug: truora-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/openapi/truora-checks-api-openapi.yml
+  url: https://artifacts.apis.io/truora/openapi/truora-checks-api-openapi.yml
 - filename: truora-continuous-monitoring-api-openapi.yml
   format: yaml
   label: Truora Continuous Monitoring API
   slug: truora-continuous-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/openapi/truora-continuous-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/truora/openapi/truora-continuous-monitoring-api-openapi.yml
 - filename: truora-digital-identity-api-openapi.yml
   format: yaml
   label: Truora Digital Identity API
   slug: truora-digital-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/openapi/truora-digital-identity-api-openapi.yml
+  url: https://artifacts.apis.io/truora/openapi/truora-digital-identity-api-openapi.yml
 - filename: truora-validators-api-openapi.yml
   format: yaml
   label: Truora Validators API
   slug: truora-validators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/openapi/truora-validators-api-openapi.yml
+  url: https://artifacts.apis.io/truora/openapi/truora-validators-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -62,7 +62,7 @@ source_filename: truora-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: derived\nsource: openapi/truora-openapi.yml\nsummary:\n  types:\n  - apiKey\nschemes:\n- name: TruoraApiKey\n  type: apiKey\n  in: header\n  headerName: Truora-API-Key\n  format: JWT\n  notes: >-\n    Every request across all four hosts (api.checks, api.validations,\n    api.identity, api.account) authenticates with a Truora-API-Key request\n    header. The value is a JWT issued from the Truora dashboard or the\n    POST /v1/api-keys endpoint. Backend keys (key_type=backend) authenticate\n    server-to-server calls; web keys (key_type=web) are short-lived tokens\n    that launch browser / WhatsApp Digital Identity flows. The JWT is shown\n    only once at creation and must be stored securely.\n  sources:\n  - https://dev.truora.com/validators/authentication/\n  - https://dev.truora.com/guides/web_integration_token/\n  - openapi/truora-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/authentication/truora-authentication.yml
+source_yaml_url: https://artifacts.apis.io/truora/authentication/truora-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Identity Verification

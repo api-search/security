@@ -27,7 +27,7 @@ source_filename: canditech-ltd-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.canditech.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 02:59:38 2026 GMT\n  hsts: false\ndomains:\n- domain: canditech.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canditech-ltd/refs/heads/main/security/canditech-ltd-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/canditech-ltd/security/canditech-ltd-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

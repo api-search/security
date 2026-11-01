@@ -5,37 +5,37 @@ api_specs:
   label: Document360 Articles API
   slug: document360-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/openapi/document360-articles-api-openapi.yml
+  url: https://artifacts.apis.io/document360/openapi/document360-articles-api-openapi.yml
 - filename: document360-categories-api-openapi.yml
   format: yaml
   label: Document360 Categories API
   slug: document360-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/openapi/document360-categories-api-openapi.yml
+  url: https://artifacts.apis.io/document360/openapi/document360-categories-api-openapi.yml
 - filename: document360-drive-api-openapi.yml
   format: yaml
   label: Document360 Drive API
   slug: document360-drive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/openapi/document360-drive-api-openapi.yml
+  url: https://artifacts.apis.io/document360/openapi/document360-drive-api-openapi.yml
 - filename: document360-project-versions-api-openapi.yml
   format: yaml
   label: Document360 Project Versions API
   slug: document360-project-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/openapi/document360-project-versions-api-openapi.yml
+  url: https://artifacts.apis.io/document360/openapi/document360-project-versions-api-openapi.yml
 - filename: document360-teams-api-openapi.yml
   format: yaml
   label: Document360 Teams API
   slug: document360-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/openapi/document360-teams-api-openapi.yml
+  url: https://artifacts.apis.io/document360/openapi/document360-teams-api-openapi.yml
 - filename: document360-users-api-openapi.yml
   format: yaml
   label: Document360 Users API
   slug: document360-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/openapi/document360-users-api-openapi.yml
+  url: https://artifacts.apis.io/document360/openapi/document360-users-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2
@@ -52,12 +52,14 @@ source_filename: document360-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://document360.com/compliance/soc2/\nurl: https://document360.com/compliance/soc2/\ncertifications:\n- SOC 2\nevidence:\n- source: https://document360.com/compliance/soc2/\n  keywords:\n  - soc 2\n  - soc2\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/security/document360-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/document360/security/document360-trust-center.yml
 summary_line: SOC 2
 tags:
 - Documentation
 - Knowledge Base
 - Software-as-a-Service
 - Knowledge Management
+- API Documentation
+- Developer Portal
 trust_url: https://document360.com/compliance/soc2/
 ---

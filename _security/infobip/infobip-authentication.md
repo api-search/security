@@ -8,37 +8,37 @@ api_specs:
   label: Infobip AI Hub API
   slug: infobip-ai-hub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/openapi/infobip-ai-hub-api-openapi.yml
+  url: https://artifacts.apis.io/infobip/openapi/infobip-ai-hub-api-openapi.yml
 - filename: infobip-channels-api-openapi.yml
   format: yaml
   label: Infobip Channels API
   slug: infobip-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/openapi/infobip-channels-api-openapi.yml
+  url: https://artifacts.apis.io/infobip/openapi/infobip-channels-api-openapi.yml
 - filename: infobip-connectivity-api-openapi.yml
   format: yaml
   label: Infobip Connectivity API
   slug: infobip-connectivity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/openapi/infobip-connectivity-api-openapi.yml
+  url: https://artifacts.apis.io/infobip/openapi/infobip-connectivity-api-openapi.yml
 - filename: infobip-customer-engagement-api-openapi.yml
   format: yaml
   label: Infobip Customer Engagement API
   slug: infobip-customer-engagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/openapi/infobip-customer-engagement-api-openapi.yml
+  url: https://artifacts.apis.io/infobip/openapi/infobip-customer-engagement-api-openapi.yml
 - filename: infobip-platform-api-openapi.yml
   format: yaml
   label: Infobip Platform API
   slug: infobip-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/openapi/infobip-platform-api-openapi.yml
+  url: https://artifacts.apis.io/infobip/openapi/infobip-platform-api-openapi.yml
 - filename: infobip-tools-api-openapi.yml
   format: yaml
   label: Infobip Tools API
   slug: infobip-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/openapi/infobip-tools-api-openapi.yml
+  url: https://artifacts.apis.io/infobip/openapi/infobip-tools-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -130,7 +130,7 @@ source_yaml: "generated: '2026-10-08'\nmethod: searched\nsource: https://www.inf
   \  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.infobip.com/auth/1/oauth2/token\n    scopes: 0\n  description: 'Similarly to the IBSSO Token authentication you can use OAuth 2.0 bearer token with Infobip serving both as resource and authorization server. You can obtain\n\n    the access token using the client credentials grant from `auth/1/oauth2/token` endpoint. It will provide you with your access token, and its expiration period.\n\n    You can use the token to authorize your API calls until it expires. You can find o'\n  sources:\n  - openapi/infobip-ai-hub-api-openapi.yml\n  - openapi/infobip-channels-api-openapi.yml\n  - openapi/infobip-connectivity-api-openapi.yml\n  - openapi/infobip-customer-engagement-api-openapi.yml\n  - openapi/infobip-platform-api-openapi.yml\n  - openapi/infobip-tools-api-openapi.yml\n- name: IBSSOTokenHeader\n  type: apiKey\n  in: header\n  header: Authorization\n  format: IBSSO {session-token}\n  description: Session token\
   \ obtained from the Create session operation (POST /auth/1/session); expires after a period of inactivity and can be terminated by the Destroy session operation. Intended for apps that must not store Infobip credentials.\n  docs: https://www.infobip.com/docs/essentials/api-essentials/api-authentication#ibsso-token-header\n  source: openapi securityScheme IBSSOTokenHeader\ndocs: https://www.infobip.com/docs/essentials/api-essentials/api-authentication\nheader_formats:\n  APIKeyHeader: 'Authorization: App {api-key}'\n  Basic: 'Authorization: Basic {base64(username:password)}'\n  IBSSOTokenHeader: 'Authorization: IBSSO {session-token}'\n  OAuth2: 'Authorization: Bearer {access_token}'\noauth2:\n  grant: client_credentials\n  token_endpoint: https://api.infobip.com/auth/1/oauth2/token\n  docs: https://www.infobip.com/docs/essentials/api-essentials/api-authentication#oauth-20\n  note: Infobip is both resource and authorization server; the spec describes the client-credentials grant against\
   \ auth/1/oauth2/token.\nscoping:\n  docs: https://www.infobip.com/docs/essentials/api-essentials/api-authorization\n  note: API keys and Basic credentials can be restricted to API scopes; every operation in the OpenAPI carries x-scopes listing the scopes it accepts (see scopes/infobip-scopes.yml).\nerror_response:\n  status: 401\n  docs: https://www.infobip.com/docs/essentials/api-essentials/api-authentication#errors\n  example:\n    requestError:\n      serviceException:\n        messageId: UNAUTHORIZED\n        text: Invalid login details\n  note: 'Verbatim from the authentication docs: \"Commonly you will get the 401 Unauthorised HTTP status code in response when there is a missing or invalid username or password.\"'\nrecommended: APIKeyHeader (the docs call it the most secure authorization type and the one with the most flexibility)\ndocs_authorization: https://www.infobip.com/docs/essentials/api-essentials/api-authorization\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/authentication/infobip-authentication.yml
+source_yaml_url: https://artifacts.apis.io/infobip/authentication/infobip-authentication.yml
 summary_line: apiKey/http/oauth2 · 4 schemes
 tags:
 - Telecommunications

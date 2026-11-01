@@ -5,73 +5,73 @@ api_specs:
   label: Fluence Billing API
   slug: fluence-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-billing-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-billing-api-openapi.yml
 - filename: fluence-hardware-api-openapi.yml
   format: yaml
   label: Fluence Hardware API
   slug: fluence-hardware-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-hardware-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-hardware-api-openapi.yml
 - filename: fluence-prices-api-openapi.yml
   format: yaml
   label: Fluence Prices API
   slug: fluence-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-prices-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-prices-api-openapi.yml
 - filename: fluence-publicip-api-openapi.yml
   format: yaml
   label: Fluence PublicIP API
   slug: fluence-publicip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-publicip-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-publicip-api-openapi.yml
 - filename: fluence-service-api-openapi.yml
   format: yaml
   label: Fluence Service API
   slug: fluence-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-service-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-service-api-openapi.yml
 - filename: fluence-ssh-keys-api-openapi.yml
   format: yaml
   label: Fluence SSH keys API
   slug: fluence-ssh-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-ssh-keys-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-ssh-keys-api-openapi.yml
 - filename: fluence-storage-api-openapi.yml
   format: yaml
   label: Fluence Storage API
   slug: fluence-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-storage-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-storage-api-openapi.yml
 - filename: fluence-subnets-api-openapi.yml
   format: yaml
   label: Fluence Subnets API
   slug: fluence-subnets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-subnets-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-subnets-api-openapi.yml
 - filename: fluence-users-api-openapi.yml
   format: yaml
   label: Fluence Users API
   slug: fluence-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-users-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-users-api-openapi.yml
 - filename: fluence-vms-api-openapi.yml
   format: yaml
   label: Fluence V Ms API
   slug: fluence-vms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-vms-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-vms-api-openapi.yml
 - filename: fluence-vpcs-api-openapi.yml
   format: yaml
   label: Fluence VP Cs API
   slug: fluence-vpcs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-vpcs-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-vpcs-api-openapi.yml
 - filename: fluence-security-group-api-openapi.yml
   format: yaml
   label: Fluence Security Group API
   slug: fluence-security-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-security-group-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-security-group-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -101,7 +101,7 @@ source_filename: fluence-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: fluence.network\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 09:17:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: fluence.network\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/security/fluence-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fluence/security/fluence-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -34,7 +34,7 @@ source_filename: substack-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: substack.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 10:54:53 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: support.substack.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 23:43:37 2026 GMT\n  hsts: true\n  hsts_max_age: 259200\ndomains:\n- domain: substack.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/security/substack-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/substack/security/substack-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Newsletters

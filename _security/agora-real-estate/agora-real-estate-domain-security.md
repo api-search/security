@@ -38,7 +38,7 @@ source_filename: agora-real-estate-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: agorareal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 22 12:16:07 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: websiteapi.agorareal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 20 01:36:44 2026 GMT\n  hsts: false\n- host: auth.agorareal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  3 17:02:08 2026 GMT\n  hsts: false\ndomains:\n- domain: agorareal.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agora-real-estate/refs/heads/main/security/agora-real-estate-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/agora-real-estate/security/agora-real-estate-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Real Estate

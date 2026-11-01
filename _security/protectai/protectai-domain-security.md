@@ -5,19 +5,19 @@ api_specs:
   label: Protect AI Output API
   slug: protectai-output-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/protectai/refs/heads/main/openapi/protectai-output-api-openapi.yml
+  url: https://artifacts.apis.io/protectai/openapi/protectai-output-api-openapi.yml
 - filename: protectai-prompt-api-openapi.yml
   format: yaml
   label: Protect AI Prompt API
   slug: protectai-prompt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/protectai/refs/heads/main/openapi/protectai-prompt-api-openapi.yml
+  url: https://artifacts.apis.io/protectai/openapi/protectai-prompt-api-openapi.yml
 - filename: protectai-system-api-openapi.yml
   format: yaml
   label: Protect AI System API
   slug: protectai-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/protectai/refs/heads/main/openapi/protectai-system-api-openapi.yml
+  url: https://artifacts.apis.io/protectai/openapi/protectai-system-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -58,7 +58,7 @@ source_filename: protectai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: protectai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: llm-guard.com\n  https: false\ndomains:\n- domain: protectai.com\n  dnssec: true\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: llm-guard.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/protectai/refs/heads/main/security/protectai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/protectai/security/protectai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Artificial Intelligence

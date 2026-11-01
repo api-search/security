@@ -27,7 +27,7 @@ source_filename: ckan-montevideo-gub-uy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ckan.montevideo.gub.uy\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 17:27:40 2026 GMT\n  hsts: true\n  hsts_max_age: 5184000\ndomains:\n- domain: gub.uy\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ckan-montevideo-gub-uy/refs/heads/main/security/ckan-montevideo-gub-uy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ckan-montevideo-gub-uy/security/ckan-montevideo-gub-uy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Open Data

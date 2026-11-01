@@ -7,25 +7,25 @@ api_specs:
   label: Evisort Authentication API
   slug: evisort-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evisort/refs/heads/main/openapi/evisort-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/evisort/openapi/evisort-authentication-api-openapi.yml
 - filename: evisort-documents-api-openapi.yml
   format: yaml
   label: Evisort Documents API
   slug: evisort-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evisort/refs/heads/main/openapi/evisort-documents-api-openapi.yml
+  url: https://artifacts.apis.io/evisort/openapi/evisort-documents-api-openapi.yml
 - filename: evisort-fields-api-openapi.yml
   format: yaml
   label: Evisort Fields API
   slug: evisort-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evisort/refs/heads/main/openapi/evisort-fields-api-openapi.yml
+  url: https://artifacts.apis.io/evisort/openapi/evisort-fields-api-openapi.yml
 - filename: evisort-search-api-openapi.yml
   format: yaml
   label: Evisort Search API
   slug: evisort-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evisort/refs/heads/main/openapi/evisort-search-api-openapi.yml
+  url: https://artifacts.apis.io/evisort/openapi/evisort-search-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -53,7 +53,7 @@ source_filename: evisort-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/evisort-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: JWT bearer token obtained from POST /auth/token by presenting an Evisort API\n    key.\n  sources:\n  - openapi/evisort-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evisort/refs/heads/main/authentication/evisort-authentication.yml
+source_yaml_url: https://artifacts.apis.io/evisort/authentication/evisort-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Contract Lifecycle Management

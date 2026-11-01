@@ -5,43 +5,43 @@ api_specs:
   label: Blockstream Addresses API
   slug: blockstream-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/openapi/blockstream-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/blockstream/openapi/blockstream-addresses-api-openapi.yml
 - filename: blockstream-assets-api-openapi.yml
   format: yaml
   label: Blockstream Assets API
   slug: blockstream-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/openapi/blockstream-assets-api-openapi.yml
+  url: https://artifacts.apis.io/blockstream/openapi/blockstream-assets-api-openapi.yml
 - filename: blockstream-blocks-api-openapi.yml
   format: yaml
   label: Blockstream Blocks API
   slug: blockstream-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/openapi/blockstream-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/blockstream/openapi/blockstream-blocks-api-openapi.yml
 - filename: blockstream-fee-estimates-api-openapi.yml
   format: yaml
   label: Blockstream Fee Estimates API
   slug: blockstream-fee-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/openapi/blockstream-fee-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/blockstream/openapi/blockstream-fee-estimates-api-openapi.yml
 - filename: blockstream-mempool-api-openapi.yml
   format: yaml
   label: Blockstream Mempool API
   slug: blockstream-mempool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/openapi/blockstream-mempool-api-openapi.yml
+  url: https://artifacts.apis.io/blockstream/openapi/blockstream-mempool-api-openapi.yml
 - filename: blockstream-mining-api-openapi.yml
   format: yaml
   label: Blockstream Mining API
   slug: blockstream-mining-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/openapi/blockstream-mining-api-openapi.yml
+  url: https://artifacts.apis.io/blockstream/openapi/blockstream-mining-api-openapi.yml
 - filename: blockstream-transactions-api-openapi.yml
   format: yaml
   label: Blockstream Transactions API
   slug: blockstream-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/openapi/blockstream-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/blockstream/openapi/blockstream-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: blockstream-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: blockstream.info\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 00:48:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: blockstream.info\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/security/blockstream-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/blockstream/security/blockstream-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company

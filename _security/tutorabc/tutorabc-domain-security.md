@@ -29,7 +29,7 @@ source_filename: tutorabc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: dig + TLS/HTTP HEAD probe of tutorabc.com hosts\nhosts:\n  - host: www.tutorabc.com\n    https: true\n    tls_version: TLSv1.3\n    cert_valid: true\n    hsts: true\n    hsts_max_age: 157670188\ndomains:\n  - domain: tutorabc.com\n    dnssec: false\n    caa: []\n    spf: true\n    spf_record: \"v=spf1 mx mx:spam.tutorabc.com ip4:60.251.28.84 ip4:60.251.28.85 ip4:210.242.31.58 ip4:61.219.187.0/24 ip4:211.72.13.0/24 ip4:60.251.53.0/24 ip4:60.251.28.0/24 ip4:152.101.54.122 -all\"\n    dmarc: true\n    dmarc_policy: none\nnotes: >-\n  The apis.yml Website host tutorabc.com.cn does not resolve; the live consumer\n  platform is served from www.tutorabc.com (redirects to /site/zh-tw). Probe run\n  against the resolving production host.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tutorabc/refs/heads/main/security/tutorabc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tutorabc/security/tutorabc-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

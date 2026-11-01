@@ -7,67 +7,67 @@ api_specs:
   label: FLORA Actions API
   slug: flora-fauna-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-actions-api-openapi.yml
+  url: https://artifacts.apis.io/flora-fauna/openapi/flora-fauna-actions-api-openapi.yml
 - filename: flora-fauna-assets-api-openapi.yml
   format: yaml
   label: FLORA Assets API
   slug: flora-fauna-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-assets-api-openapi.yml
+  url: https://artifacts.apis.io/flora-fauna/openapi/flora-fauna-assets-api-openapi.yml
 - filename: flora-fauna-canvas-api-openapi.yml
   format: yaml
   label: FLORA Canvas API
   slug: flora-fauna-canvas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-canvas-api-openapi.yml
+  url: https://artifacts.apis.io/flora-fauna/openapi/flora-fauna-canvas-api-openapi.yml
 - filename: flora-fauna-feedback-api-openapi.yml
   format: yaml
   label: FLORA Feedback API
   slug: flora-fauna-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/flora-fauna/openapi/flora-fauna-feedback-api-openapi.yml
 - filename: flora-fauna-generations-api-openapi.yml
   format: yaml
   label: FLORA Generations API
   slug: flora-fauna-generations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-generations-api-openapi.yml
+  url: https://artifacts.apis.io/flora-fauna/openapi/flora-fauna-generations-api-openapi.yml
 - filename: flora-fauna-models-api-openapi.yml
   format: yaml
   label: FLORA Models API
   slug: flora-fauna-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-models-api-openapi.yml
+  url: https://artifacts.apis.io/flora-fauna/openapi/flora-fauna-models-api-openapi.yml
 - filename: flora-fauna-projects-api-openapi.yml
   format: yaml
   label: FLORA Projects API
   slug: flora-fauna-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-projects-api-openapi.yml
+  url: https://artifacts.apis.io/flora-fauna/openapi/flora-fauna-projects-api-openapi.yml
 - filename: flora-fauna-runs-api-openapi.yml
   format: yaml
   label: FLORA Runs API
   slug: flora-fauna-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-runs-api-openapi.yml
+  url: https://artifacts.apis.io/flora-fauna/openapi/flora-fauna-runs-api-openapi.yml
 - filename: flora-fauna-technique-runs-api-openapi.yml
   format: yaml
   label: FLORA Technique Runs API
   slug: flora-fauna-technique-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-technique-runs-api-openapi.yml
+  url: https://artifacts.apis.io/flora-fauna/openapi/flora-fauna-technique-runs-api-openapi.yml
 - filename: flora-fauna-techniques-api-openapi.yml
   format: yaml
   label: FLORA Techniques API
   slug: flora-fauna-techniques-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-techniques-api-openapi.yml
+  url: https://artifacts.apis.io/flora-fauna/openapi/flora-fauna-techniques-api-openapi.yml
 - filename: flora-fauna-workspaces-api-openapi.yml
   format: yaml
   label: FLORA Workspaces API
   slug: flora-fauna-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/flora-fauna/openapi/flora-fauna-workspaces-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -162,7 +162,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: >-\n  Baseline 
   \    token_endpoint: https://agents.flora.ai/token\n    registration_endpoint: https://agents.flora.ai/register\n    revocation_endpoint: https://agents.flora.ai/token\n    discovery:\n      rfc8414: well-known/flora-fauna-agents-oauth-authorization-server.json\n      rfc9728: well-known/flora-fauna-agents-oauth-protected-resource-mcp.json\n    scopes: null\n    scopes_note: >-\n      scopes_supported is absent from the authorization-server metadata. Access is\n      described in role terms instead: the connection gets exactly what the\n      signed-in FLORA user has in the connected workspace, and never billing or\n      member management.\n    token_storage: in the MCP client; FLORA does not hold client tokens\n    revocation: FLORA app > Settings > Connected apps, per client\n    error_on_expiry: 401 invalid_token\n    sources:\n      - https://developer.flora.ai/mcp/authentication\n      - well-known/flora-fauna-well-known.yml\n  - name: clerk-application-oidc\n    type: openIdConnect\n\
   \    surface: FLORA application sign-in (https://app.florafauna.ai)\n    issuer: https://clerk.flora.ai\n    discovery: well-known/flora-fauna-app-openid-configuration.json\n    scopes: [openid, profile, email, public_metadata, private_metadata, offline_access]\n    id_token_signing_alg: RS256\n    pkce: [S256]\n    note: >-\n      Clerk-hosted end-user identity for the product itself. Recorded because it is\n      genuinely served from a FLORA host and enumerates scopes, but it is NOT the\n      API's authentication and an integrator should not build against it.\n    sources:\n      - well-known/flora-fauna-app-openid-configuration.json\ntransport_security:\n  https_required: true\n  webhook_callback_https_required: true\n  note: >-\n    Webhook callback_url values must be HTTPS and are rejected if they resolve to\n    localhost, *.local/*.internal, cloud-metadata hostnames, or private/loopback/\n    link-local IPs; FLORA does not follow 3xx on delivery.\nsecret_handling_guidance:\n \
   \ server_side_only: true\n  env_var: FLORA_API_KEY\n  webhook_secret_env: FLORA_WEBHOOK_SECRET\n  rotation_cadence_recommended: 90 days\n  published_at: https://developer.flora.ai/platform/authentication\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/authentication/flora-fauna-authentication.yml
+source_yaml_url: https://artifacts.apis.io/flora-fauna/authentication/flora-fauna-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Creative AI

@@ -7,7 +7,7 @@ api_specs:
   label: Atla SDK API
   slug: atla-sdk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atla/refs/heads/main/openapi/atla-sdk-api-openapi.yml
+  url: https://artifacts.apis.io/atla/openapi/atla-sdk-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -34,7 +34,7 @@ source_filename: atla-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/atla-insights-openapi.yaml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: API key authentication using Bearer token\n  sources:\n  - openapi/atla-insights-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atla/refs/heads/main/authentication/atla-authentication.yml
+source_yaml_url: https://artifacts.apis.io/atla/authentication/atla-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

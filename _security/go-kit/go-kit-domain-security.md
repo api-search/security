@@ -26,13 +26,12 @@ source_filename: go-kit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gokit.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 23:43:54 2026 GMT\n  hsts: false\ndomains:\n- domain: gokit.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/go-kit/refs/heads/main/security/go-kit-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/go-kit/security/go-kit-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Distributed Systems
 - Domain-Driven Design
 - Framework
 - Go
-- Golang
 - Microservices
 ---

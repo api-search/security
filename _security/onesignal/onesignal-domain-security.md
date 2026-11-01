@@ -5,31 +5,31 @@ api_specs:
   label: OneSignal Apps API
   slug: onesignal-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/openapi/onesignal-apps-api-openapi.yml
+  url: https://artifacts.apis.io/onesignal/openapi/onesignal-apps-api-openapi.yml
 - filename: onesignal-notifications-api-openapi.yml
   format: yaml
   label: OneSignal Notifications API
   slug: onesignal-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/openapi/onesignal-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/onesignal/openapi/onesignal-notifications-api-openapi.yml
 - filename: onesignal-players-api-openapi.yml
   format: yaml
   label: OneSignal Players API
   slug: onesignal-players-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/openapi/onesignal-players-api-openapi.yml
+  url: https://artifacts.apis.io/onesignal/openapi/onesignal-players-api-openapi.yml
 - filename: onesignal-templates-api-openapi.yml
   format: yaml
   label: OneSignal Templates API
   slug: onesignal-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/openapi/onesignal-templates-api-openapi.yml
+  url: https://artifacts.apis.io/onesignal/openapi/onesignal-templates-api-openapi.yml
 - filename: onesignal-organizations-api-openapi.yml
   format: yaml
   label: OneSignal Organizations API
   slug: onesignal-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/openapi/onesignal-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/onesignal/openapi/onesignal-organizations-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -76,7 +76,7 @@ source_filename: onesignal-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: onesignal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 18:27:25 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: documentation.onesignal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 17:59:01 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.onesignal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 16:18:54 2026 GMT\n  hsts: null\ndomains:\n- domain: onesignal.com\n  dnssec: true\n  caa:\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/security/onesignal-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/onesignal/security/onesignal-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Notification

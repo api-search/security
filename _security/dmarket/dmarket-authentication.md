@@ -8,37 +8,37 @@ api_specs:
   label: DMarket Account API
   slug: dmarket-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dmarket/refs/heads/main/openapi/dmarket-account-api-openapi.yml
+  url: https://artifacts.apis.io/dmarket/openapi/dmarket-account-api-openapi.yml
 - filename: dmarket-aggregator-api-openapi.yml
   format: yaml
   label: DMarket Aggregator API
   slug: dmarket-aggregator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dmarket/refs/heads/main/openapi/dmarket-aggregator-api-openapi.yml
+  url: https://artifacts.apis.io/dmarket/openapi/dmarket-aggregator-api-openapi.yml
 - filename: dmarket-buy-items-api-openapi.yml
   format: yaml
   label: DMarket Buy items API
   slug: dmarket-buy-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dmarket/refs/heads/main/openapi/dmarket-buy-items-api-openapi.yml
+  url: https://artifacts.apis.io/dmarket/openapi/dmarket-buy-items-api-openapi.yml
 - filename: dmarket-inventory-items-api-openapi.yml
   format: yaml
   label: DMarket Inventory/items API
   slug: dmarket-inventory-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dmarket/refs/heads/main/openapi/dmarket-inventory-items-api-openapi.yml
+  url: https://artifacts.apis.io/dmarket/openapi/dmarket-inventory-items-api-openapi.yml
 - filename: dmarket-sell-items-api-openapi.yml
   format: yaml
   label: DMarket Sell Items API
   slug: dmarket-sell-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dmarket/refs/heads/main/openapi/dmarket-sell-items-api-openapi.yml
+  url: https://artifacts.apis.io/dmarket/openapi/dmarket-sell-items-api-openapi.yml
 - filename: dmarket-sold-user-items-api-openapi.yml
   format: yaml
   label: DMarket Sold user items API
   slug: dmarket-sold-user-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dmarket/refs/heads/main/openapi/dmarket-sold-user-items-api-openapi.yml
+  url: https://artifacts.apis.io/dmarket/openapi/dmarket-sold-user-items-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -81,7 +81,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/dmarket-trading-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKey\n  type: apiKey\n  in: header\n  parameter: X-Api-Key\n  description: Public API key (lowercase hex). Generate it in your DMarket account settings.\n    See https://dmarket.com/faq#tradingAPI.\n  sources:\n  - openapi/dmarket-trading-openapi.yml\n- name: SignDate\n  type: apiKey\n  in: header\n  parameter: X-Sign-Date\n  description: Unix timestamp in seconds at signing time (e.g. 1605619994). Must be within 2\n    minutes of server time.\n  sources:\n  - openapi/dmarket-trading-openapi.yml\n- name: RequestSign\n  type: apiKey\n  in: header\n  parameter: X-Request-Sign\n  description: 'Ed25519 request signature prefixed with `dmar ed25519 `. Sign the concatenation\n    of HTTP method + path (including query string) + body + X-Sign-Date with your secret key,\n    then hex-encode the 64-byte Ed25519 signature.\
   \ Reference clients (Go, Python, JS, PHP):\n    https://github.com/dmarket/dm-trading-tools.'\n  sources:\n  - openapi/dmarket-trading-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dmarket/refs/heads/main/authentication/dmarket-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dmarket/authentication/dmarket-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - Company

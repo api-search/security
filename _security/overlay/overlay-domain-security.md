@@ -5,19 +5,19 @@ api_specs:
   label: Overlay Aggregator API
   slug: overlay-aggregator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overlay/refs/heads/main/openapi/overlay-aggregator-api-openapi.yml
+  url: https://artifacts.apis.io/overlay/openapi/overlay-aggregator-api-openapi.yml
 - filename: overlay-charts-api-openapi.yml
   format: yaml
   label: Overlay Charts API
   slug: overlay-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overlay/refs/heads/main/openapi/overlay-charts-api-openapi.yml
+  url: https://artifacts.apis.io/overlay/openapi/overlay-charts-api-openapi.yml
 - filename: overlay-markets-api-openapi.yml
   format: yaml
   label: Overlay Markets API
   slug: overlay-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overlay/refs/heads/main/openapi/overlay-markets-api-openapi.yml
+  url: https://artifacts.apis.io/overlay/openapi/overlay-markets-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: overlay-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: overlay.market\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 21:56:19 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.overlay.market\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 21:56:19 2026 GMT\n  hsts: null\ndomains:\n- domain: overlay.market\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/overlay/refs/heads/main/security/overlay-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/overlay/security/overlay-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

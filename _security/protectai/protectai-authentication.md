@@ -7,19 +7,19 @@ api_specs:
   label: Protect AI Output API
   slug: protectai-output-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/protectai/refs/heads/main/openapi/protectai-output-api-openapi.yml
+  url: https://artifacts.apis.io/protectai/openapi/protectai-output-api-openapi.yml
 - filename: protectai-prompt-api-openapi.yml
   format: yaml
   label: Protect AI Prompt API
   slug: protectai-prompt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/protectai/refs/heads/main/openapi/protectai-prompt-api-openapi.yml
+  url: https://artifacts.apis.io/protectai/openapi/protectai-prompt-api-openapi.yml
 - filename: protectai-system-api-openapi.yml
   format: yaml
   label: Protect AI System API
   slug: protectai-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/protectai/refs/heads/main/openapi/protectai-system-api-openapi.yml
+  url: https://artifacts.apis.io/protectai/openapi/protectai-system-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: protectai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/protectai-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Optional bearer token authentication, enabled per deployment via the llm-guard-api\n    configuration. Deployments may also run without auth.\n  sources:\n  - openapi/protectai-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/protectai/refs/heads/main/authentication/protectai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/protectai/authentication/protectai-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

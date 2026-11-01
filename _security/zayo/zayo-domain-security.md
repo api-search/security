@@ -5,49 +5,49 @@ api_specs:
   label: Zayo Maintenance Cases API
   slug: zayo-maintenance-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/openapi/zayo-maintenance-cases-api-openapi.yml
+  url: https://artifacts.apis.io/zayo/openapi/zayo-maintenance-cases-api-openapi.yml
 - filename: zayo-network-discovery-api-openapi.yml
   format: yaml
   label: Zayo Network Discovery API
   slug: zayo-network-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/openapi/zayo-network-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/zayo/openapi/zayo-network-discovery-api-openapi.yml
 - filename: zayo-order-api-openapi.yml
   format: yaml
   label: Zayo Order API
   slug: zayo-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/openapi/zayo-order-api-openapi.yml
+  url: https://artifacts.apis.io/zayo/openapi/zayo-order-api-openapi.yml
 - filename: zayo-product-catalog-api-openapi.yml
   format: yaml
   label: Zayo Product Catalog API
   slug: zayo-product-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/openapi/zayo-product-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/zayo/openapi/zayo-product-catalog-api-openapi.yml
 - filename: zayo-quote-api-openapi.yml
   format: yaml
   label: Zayo Quote API
   slug: zayo-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/openapi/zayo-quote-api-openapi.yml
+  url: https://artifacts.apis.io/zayo/openapi/zayo-quote-api-openapi.yml
 - filename: zayo-service-inventory-api-openapi.yml
   format: yaml
   label: Zayo Service Inventory API
   slug: zayo-service-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/openapi/zayo-service-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/zayo/openapi/zayo-service-inventory-api-openapi.yml
 - filename: zayo-ticket-catalog-api-openapi.yml
   format: yaml
   label: Zayo Ticket Catalog API
   slug: zayo-ticket-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/openapi/zayo-ticket-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/zayo/openapi/zayo-ticket-catalog-api-openapi.yml
 - filename: zayo-ticketing-api-openapi.yml
   format: yaml
   label: Zayo Ticketing API
   slug: zayo-ticketing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/openapi/zayo-ticketing-api-openapi.yml
+  url: https://artifacts.apis.io/zayo/openapi/zayo-ticketing-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -87,7 +87,7 @@ source_filename: zayo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.zayo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 23:59:59 2026 GMT\n  hsts: false\n- host: api.zayo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  3 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: zayo.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/security/zayo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zayo/security/zayo-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

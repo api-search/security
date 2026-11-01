@@ -8,49 +8,49 @@ api_specs:
   label: Cycloid CloudCost API
   slug: cycloid-cloudcost-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/openapi/cycloid-cloudcost-api-openapi.yml
+  url: https://artifacts.apis.io/cycloid/openapi/cycloid-cloudcost-api-openapi.yml
 - filename: cycloid-configrepositories-api-openapi.yml
   format: yaml
   label: Cycloid ConfigRepositories API
   slug: cycloid-configrepositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/openapi/cycloid-configrepositories-api-openapi.yml
+  url: https://artifacts.apis.io/cycloid/openapi/cycloid-configrepositories-api-openapi.yml
 - filename: cycloid-credentials-api-openapi.yml
   format: yaml
   label: Cycloid Credentials API
   slug: cycloid-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/openapi/cycloid-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/cycloid/openapi/cycloid-credentials-api-openapi.yml
 - filename: cycloid-inventory-api-openapi.yml
   format: yaml
   label: Cycloid Inventory API
   slug: cycloid-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/openapi/cycloid-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/cycloid/openapi/cycloid-inventory-api-openapi.yml
 - filename: cycloid-organizations-api-openapi.yml
   format: yaml
   label: Cycloid Organizations API
   slug: cycloid-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/openapi/cycloid-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/cycloid/openapi/cycloid-organizations-api-openapi.yml
 - filename: cycloid-pipelines-api-openapi.yml
   format: yaml
   label: Cycloid Pipelines API
   slug: cycloid-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/openapi/cycloid-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/cycloid/openapi/cycloid-pipelines-api-openapi.yml
 - filename: cycloid-projects-api-openapi.yml
   format: yaml
   label: Cycloid Projects API
   slug: cycloid-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/openapi/cycloid-projects-api-openapi.yml
+  url: https://artifacts.apis.io/cycloid/openapi/cycloid-projects-api-openapi.yml
 - filename: cycloid-servicecatalogs-api-openapi.yml
   format: yaml
   label: Cycloid ServiceCatalogs API
   slug: cycloid-servicecatalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/openapi/cycloid-servicecatalogs-api-openapi.yml
+  url: https://artifacts.apis.io/cycloid/openapi/cycloid-servicecatalogs-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -88,7 +88,7 @@ source_filename: cycloid-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cycloid-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/cycloid-api-openapi.yml\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://console.cycloid.io/oauth/authorize\n    tokenUrl: https://http-api.cycloid.io/oauth/token\n    scopes: 2\n  sources:\n  - openapi/cycloid-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/authentication/cycloid-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cycloid/authentication/cycloid-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Asset Inventory

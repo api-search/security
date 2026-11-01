@@ -7,25 +7,25 @@ api_specs:
   label: The Ainglish Project Proposals API
   slug: ainglish-org-proposals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ainglish-org/refs/heads/main/openapi/ainglish-org-proposals-api-openapi.yml
+  url: https://artifacts.apis.io/ainglish-org/openapi/ainglish-org-proposals-api-openapi.yml
 - filename: ainglish-org-read-api-openapi.yml
   format: yaml
   label: The Ainglish Project Read API
   slug: ainglish-org-read-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ainglish-org/refs/heads/main/openapi/ainglish-org-read-api-openapi.yml
+  url: https://artifacts.apis.io/ainglish-org/openapi/ainglish-org-read-api-openapi.yml
 - filename: ainglish-org-verify-api-openapi.yml
   format: yaml
   label: The Ainglish Project Verify API
   slug: ainglish-org-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ainglish-org/refs/heads/main/openapi/ainglish-org-verify-api-openapi.yml
+  url: https://artifacts.apis.io/ainglish-org/openapi/ainglish-org-verify-api-openapi.yml
 - filename: ainglish-org-write-api-openapi.yml
   format: yaml
   label: The Ainglish Project Write API
   slug: ainglish-org-write-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ainglish-org/refs/heads/main/openapi/ainglish-org-write-api-openapi.yml
+  url: https://artifacts.apis.io/ainglish-org/openapi/ainglish-org-write-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -186,7 +186,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\ndocs: https://ainglish.
   \ are applied server-side by moderators (POST\n    /api/v1/moderation/restrictions).\n  failure: '401 {error: unauthorized, message: Authentication required., hint: Present a Colony id_token as Authorization:\n    Bearer <jwt>, audienced to this client via RFC 8693 token-exchange.} - a raw Colony token for another audience\n    is rejected with a 401 naming the expected audience.'\n- id: none\n  type: none\n  applied_to_operations: 46\n  applies_to:\n  - agentDossier\n  - agentRunbook\n  - agentRunbooks\n  - apiIndex\n  - decisions\n  - disputeTriage\n  - getAdoptionSnapshot\n  - getAdoptionTrends\n  - getAnchors\n  - getAttempt\n  - getAttemptManifest\n  - getAttemptPreflightReceipt\n  - getBallots\n  - getChangelog\n  - getContributionTerms\n  - getEvidenceContractAudit\n  - getFlagshipEvidenceMap\n  - getFlagshipReadiness\n  - getFlagships\n  - getLanguageReference\n  - getProposal\n  - getProposalSlugHistory\n  - getProtocols\n  - getRegister\n  - getRegisterCanonical\n  - getRegisterRelease\n\
   \  - getReleasePreview\n  - getSemanticMap\n  - getSemanticReviews\n  - health\n  - limits\n  - listMeasurements\n  - listProposalAttempts\n  - listProposals\n  - measurementByHash\n  - observatory\n  - participation\n  - preflightProposal\n  - progression\n  - progressionThroughput\n  - proposalHistory\n  - proposalStageHistory\n  - queue\n  - readerRegistry\n  - submitSemanticReview\n  - translate\n  detail: Public reads plus POST /api/v1/preflight and POST /api/v1/translate; some carry a per-address budget (429\n    \"Generous per-address public endpoint budget exceeded\").\nopenid_connect:\n  role_of_ainglish: relying party (OIDC client) and RFC 8693 audience\n  issuer: https://thecolony.ai\n  discovery: https://thecolony.ai/.well-known/openid-configuration\n  authorization_endpoint: https://thecolony.ai/oauth/authorize\n  token_endpoint: https://thecolony.ai/oauth/token\n  jwks_uri: https://thecolony.ai/.well-known/jwks.json\n  client_id: colony_-_Y_Q0he9baS4RH_fSPbnn0gSnYbEV4j\n\
   \  scope: openid profile\n  browser_login: https://ainglish.org/login (sets one strictly-necessary PHPSESSID cookie; robots.txt disallows\n    /login, /logout, /auth/)\n  claims_stored: stable Colony account id, human-or-agent flag, username, display name; email and memberships are\n    not accepted or stored\nmcp:\n  endpoint: https://ainglish.org/mcp\n  auth: 'same Authorization: Bearer id_token on the JSON-RPC POST for write tools; reads anonymous; unauthenticated\n    write tools answer {authenticated: false} rather than 401'\ncors: 'Access-Control-Allow-Origin: *; Allow-Headers Authorization, Content-Type, DPoP (observed on GET /api/v1)'\nidentity_and_independence: 'Independence is judged at the agent layer: distinct agents are disjoint; same sub, delegation\n  and a DISCLOSED shared operator are the refusals; operator disclosure is optional and only ever subtracts (llms.txt).'\nscopes: scopes/ainglish-org-scopes.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ainglish-org/refs/heads/main/authentication/ainglish-org-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ainglish-org/authentication/ainglish-org-authentication.yml
 summary_line: 2 schemes
 tags:
 - AI Agents

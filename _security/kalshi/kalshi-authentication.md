@@ -20,103 +20,103 @@ api_specs:
   label: Kalshi Account API
   slug: kalshi-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-account-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-account-api-openapi.yml
 - filename: kalshi-api-keys-api-openapi.yml
   format: yaml
   label: Kalshi API Keys API
   slug: kalshi-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-api-keys-api-openapi.yml
 - filename: kalshi-communications-api-openapi.yml
   format: yaml
   label: Kalshi Communications API
   slug: kalshi-communications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-communications-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-communications-api-openapi.yml
 - filename: kalshi-events-api-openapi.yml
   format: yaml
   label: Kalshi Events API
   slug: kalshi-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-events-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-events-api-openapi.yml
 - filename: kalshi-exchange-api-openapi.yml
   format: yaml
   label: Kalshi Exchange API
   slug: kalshi-exchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-exchange-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-exchange-api-openapi.yml
 - filename: kalshi-fcm-api-openapi.yml
   format: yaml
   label: Kalshi Fcm API
   slug: kalshi-fcm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-fcm-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-fcm-api-openapi.yml
 - filename: kalshi-historical-api-openapi.yml
   format: yaml
   label: Kalshi Historical API
   slug: kalshi-historical-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-historical-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-historical-api-openapi.yml
 - filename: kalshi-incentive-programs-api-openapi.yml
   format: yaml
   label: Kalshi Incentive Programs API
   slug: kalshi-incentive-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-incentive-programs-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-incentive-programs-api-openapi.yml
 - filename: kalshi-live-data-api-openapi.yml
   format: yaml
   label: Kalshi Live Data API
   slug: kalshi-live-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-live-data-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-live-data-api-openapi.yml
 - filename: kalshi-market-api-openapi.yml
   format: yaml
   label: Kalshi Market API
   slug: kalshi-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-market-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-market-api-openapi.yml
 - filename: kalshi-milestone-api-openapi.yml
   format: yaml
   label: Kalshi Milestone API
   slug: kalshi-milestone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-milestone-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-milestone-api-openapi.yml
 - filename: kalshi-multivariate-api-openapi.yml
   format: yaml
   label: Kalshi Multivariate API
   slug: kalshi-multivariate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-multivariate-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-multivariate-api-openapi.yml
 - filename: kalshi-order-groups-api-openapi.yml
   format: yaml
   label: Kalshi Order Groups API
   slug: kalshi-order-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-order-groups-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-order-groups-api-openapi.yml
 - filename: kalshi-orders-api-openapi.yml
   format: yaml
   label: Kalshi Orders API
   slug: kalshi-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-orders-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-orders-api-openapi.yml
 - filename: kalshi-portfolio-api-openapi.yml
   format: yaml
   label: Kalshi Portfolio API
   slug: kalshi-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-portfolio-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-portfolio-api-openapi.yml
 - filename: kalshi-search-api-openapi.yml
   format: yaml
   label: Kalshi Search API
   slug: kalshi-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-search-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-search-api-openapi.yml
 - filename: kalshi-structured-targets-api-openapi.yml
   format: yaml
   label: Kalshi Structured Targets API
   slug: kalshi-structured-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-structured-targets-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-structured-targets-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -158,7 +158,7 @@ source_filename: kalshi-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/kalshi-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: kalshiAccessKey\n  type: apiKey\n  in: header\n  parameter: KALSHI-ACCESS-KEY\n  description: Your API key ID\n  sources:\n  - openapi/kalshi-openapi.yml\n- name: kalshiAccessSignature\n  type: apiKey\n  in: header\n  parameter: KALSHI-ACCESS-SIGNATURE\n  description: RSA-PSS signature of the request\n  sources:\n  - openapi/kalshi-openapi.yml\n- name: kalshiAccessTimestamp\n  type: apiKey\n  in: header\n  parameter: KALSHI-ACCESS-TIMESTAMP\n  description: Request timestamp in milliseconds\n  sources:\n  - openapi/kalshi-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/authentication/kalshi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kalshi/authentication/kalshi-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - Prediction Markets

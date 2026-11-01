@@ -33,7 +33,7 @@ source_filename: zeni-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://api.zeni.ai/.well-known/oauth-protected-resource\ndocs: https://www.zeni.ai/product/zeni-mcp\nsummary:\n  types:\n  - oauth2\n  api_key_in: []\n  oauth2_flows:\n  - authorizationCode\n  notes: >-\n    Zeni exposes no public REST OpenAPI. The documented programmatic surface is the\n    hosted Zeni MCP server, which is an OAuth 2.0 protected resource (RFC 9728). The\n    protected-resource metadata advertises the authorization server and bearer-in-header\n    token presentation; access is scoped to the signed-in Zeni company and is read-only.\nschemes:\n- name: MCPBearer\n  type: oauth2\n  resource: https://api.zeni.ai/zeni-mcp-server/mcp\n  authorization_servers:\n  - https://api.zeni.ai/auth\n  bearer_methods_supported:\n  - header\n  access_model: read-only\n  scope: company\n  sources:\n  - https://api.zeni.ai/.well-known/oauth-protected-resource\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zeni/refs/heads/main/authentication/zeni-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zeni/authentication/zeni-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

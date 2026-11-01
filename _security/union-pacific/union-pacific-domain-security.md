@@ -5,49 +5,49 @@ api_specs:
   label: Union Pacific Account API
   slug: union-pacific-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/openapi/union-pacific-account-api-openapi.yml
+  url: https://artifacts.apis.io/union-pacific/openapi/union-pacific-account-api-openapi.yml
 - filename: union-pacific-cases-api-openapi.yml
   format: yaml
   label: Union Pacific Cases API
   slug: union-pacific-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/openapi/union-pacific-cases-api-openapi.yml
+  url: https://artifacts.apis.io/union-pacific/openapi/union-pacific-cases-api-openapi.yml
 - filename: union-pacific-equipment-api-openapi.yml
   format: yaml
   label: Union Pacific Equipment API
   slug: union-pacific-equipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/openapi/union-pacific-equipment-api-openapi.yml
+  url: https://artifacts.apis.io/union-pacific/openapi/union-pacific-equipment-api-openapi.yml
 - filename: union-pacific-intermodal-api-openapi.yml
   format: yaml
   label: Union Pacific Intermodal API
   slug: union-pacific-intermodal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/openapi/union-pacific-intermodal-api-openapi.yml
+  url: https://artifacts.apis.io/union-pacific/openapi/union-pacific-intermodal-api-openapi.yml
 - filename: union-pacific-location-api-openapi.yml
   format: yaml
   label: Union Pacific Location API
   slug: union-pacific-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/openapi/union-pacific-location-api-openapi.yml
+  url: https://artifacts.apis.io/union-pacific/openapi/union-pacific-location-api-openapi.yml
 - filename: union-pacific-shipment-actions-api-openapi.yml
   format: yaml
   label: Union Pacific Shipment Actions API
   slug: union-pacific-shipment-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/openapi/union-pacific-shipment-actions-api-openapi.yml
+  url: https://artifacts.apis.io/union-pacific/openapi/union-pacific-shipment-actions-api-openapi.yml
 - filename: union-pacific-shipment-api-openapi.yml
   format: yaml
   label: Union Pacific Shipment API
   slug: union-pacific-shipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/openapi/union-pacific-shipment-api-openapi.yml
+  url: https://artifacts.apis.io/union-pacific/openapi/union-pacific-shipment-api-openapi.yml
 - filename: union-pacific-waybill-api-openapi.yml
   format: yaml
   label: Union Pacific Waybill API
   slug: union-pacific-waybill-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/openapi/union-pacific-waybill-api-openapi.yml
+  url: https://artifacts.apis.io/union-pacific/openapi/union-pacific-waybill-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -78,7 +78,7 @@ source_filename: union-pacific-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.up.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 14 23:59:59 2027 GMT\n  hsts: false\n- host: api.up.com\n  https: false\ndomains:\n- domain: up.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/security/union-pacific-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/union-pacific/security/union-pacific-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Fortune 500

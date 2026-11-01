@@ -5,61 +5,61 @@ api_specs:
   label: 401GO Affiliates & Firms API
   slug: 401go-affiliates-firms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-affiliates-firms-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-affiliates-firms-api-openapi.yml
 - filename: 401go-beneficiaries-api-openapi.yml
   format: yaml
   label: 401GO Beneficiaries API
   slug: 401go-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-beneficiaries-api-openapi.yml
 - filename: 401go-companies-plans-api-openapi.yml
   format: yaml
   label: 401GO Companies & Plans API
   slug: 401go-companies-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-companies-plans-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-companies-plans-api-openapi.yml
 - filename: 401go-contributions-payroll-api-openapi.yml
   format: yaml
   label: 401GO Contributions & Payroll API
   slug: 401go-contributions-payroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-contributions-payroll-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-contributions-payroll-api-openapi.yml
 - filename: 401go-documents-api-openapi.yml
   format: yaml
   label: 401GO Documents API
   slug: 401go-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-documents-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-documents-api-openapi.yml
 - filename: 401go-investments-portfolios-api-openapi.yml
   format: yaml
   label: 401GO Investments & Portfolios API
   slug: 401go-investments-portfolios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-investments-portfolios-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-investments-portfolios-api-openapi.yml
 - filename: 401go-money-movement-api-openapi.yml
   format: yaml
   label: 401GO Money Movement API
   slug: 401go-money-movement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-money-movement-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-money-movement-api-openapi.yml
 - filename: 401go-notifications-api-openapi.yml
   format: yaml
   label: 401GO Notifications API
   slug: 401go-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-notifications-api-openapi.yml
 - filename: 401go-participants-api-openapi.yml
   format: yaml
   label: 401GO Participants API
   slug: 401go-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-participants-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-participants-api-openapi.yml
 - filename: 401go-retirement-planning-api-openapi.yml
   format: yaml
   label: 401GO Retirement Planning API
   slug: 401go-retirement-planning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-retirement-planning-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-retirement-planning-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -101,7 +101,7 @@ source_filename: 401go-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: 401go.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 06:17:38 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.401go.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 12:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.401go.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 08:00:17 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: 401go.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/security/401go-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/401go/security/401go-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

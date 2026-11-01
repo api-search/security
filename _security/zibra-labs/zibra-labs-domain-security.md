@@ -33,7 +33,7 @@ source_filename: zibra-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of the Zibra Labs corporate host (no API base hosts published yet)\nhosts:\n- host: zibralabs.ai\n  https: true\n  server: GitHub.com\n  cert_issuer: Let's Encrypt\n  cert_subject: zibralabs.ai\n  cert_not_before: Jul  2 18:51:17 2026 GMT\n  cert_expires: Sep 30 18:51:16 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\ndomains:\n- domain: zibralabs.ai\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: v=spf1 include:dc-aa8e722993._spfm.zibralabs.ai ~all\n  dmarc: true\n  dmarc_policy: quarantine\n  mx: google-workspace\nnotes: >-\n  Zibra Labs (YC Spring 2026) currently publishes only a GitHub Pages marketing\n  site at zibralabs.ai; there is no API base host to probe yet. Values above are\n  for the corporate domain. HSTS is present, TLS is a valid Let's Encrypt\n  certificate, SPF and DMARC (p=quarantine) are configured, mail is Google\n  Workspace. No CAA record and no DNSSEC were observed.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zibra-labs/refs/heads/main/security/zibra-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zibra-labs/security/zibra-labs-domain-security.yml
 summary_line: HSTS · DMARC
 tags:
 - Company

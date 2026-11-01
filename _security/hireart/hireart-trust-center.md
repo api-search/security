@@ -16,7 +16,7 @@ source_filename: hireart-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nprobe: true\nsource: https://www.hireart.com/compliance\nurl: https://www.hireart.com/compliance\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://www.hireart.com/compliance\n  keywords:\n  - soc 2\n  - iso 27001\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hireart/refs/heads/main/security/hireart-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/hireart/security/hireart-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Company

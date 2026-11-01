@@ -5,7 +5,97 @@ api_specs:
   label: LSEG Intelligent Tagging (Open PermID) API
   slug: lseg-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lseg/refs/heads/main/openapi/_ae-authored/lseg-openapi-generated.yml
+  url: https://artifacts.apis.io/lseg/openapi/_ae-authored/lseg-openapi-generated.yml
+- filename: london-stock-exchange-group-case-api-openapi.yml
+  format: yaml
+  label: LSEG World-Check One Case API
+  slug: lseg-world-check-one-case-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lseg/openapi/london-stock-exchange-group-case-api-openapi.yml
+- filename: london-stock-exchange-group-media-check-api-openapi.yml
+  format: yaml
+  label: LSEG World-Check One Media-Check API
+  slug: lseg-world-check-one-media-check-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lseg/openapi/london-stock-exchange-group-media-check-api-openapi.yml
+- filename: london-stock-exchange-group-smart-filter-api-openapi.yml
+  format: yaml
+  label: LSEG World-Check One Smart Filter API
+  slug: lseg-world-check-one-smart-filter-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lseg/openapi/london-stock-exchange-group-smart-filter-api-openapi.yml
+- filename: london-stock-exchange-group-audit-api-openapi.yml
+  format: yaml
+  label: LSEG World-Check One Audit API
+  slug: lseg-world-check-one-audit-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lseg/openapi/london-stock-exchange-group-audit-api-openapi.yml
+- filename: london-stock-exchange-group-case-rating-api-openapi.yml
+  format: yaml
+  label: LSEG World-Check One Case Rating API
+  slug: lseg-world-check-one-case-rating-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lseg/openapi/london-stock-exchange-group-case-rating-api-openapi.yml
+- filename: london-stock-exchange-group-linked-cases-api-openapi.yml
+  format: yaml
+  label: LSEG World-Check One Linked Cases API
+  slug: lseg-world-check-one-linked-cases-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lseg/openapi/london-stock-exchange-group-linked-cases-api-openapi.yml
+- filename: london-stock-exchange-group-group-api-openapi.yml
+  format: yaml
+  label: LSEG World-Check One Group API
+  slug: lseg-world-check-one-group-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lseg/openapi/london-stock-exchange-group-group-api-openapi.yml
+- filename: london-stock-exchange-group-user-api-openapi.yml
+  format: yaml
+  label: LSEG World-Check One User API
+  slug: lseg-world-check-one-user-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lseg/openapi/london-stock-exchange-group-user-api-openapi.yml
+- filename: london-stock-exchange-group-reference-api-openapi.yml
+  format: yaml
+  label: LSEG World-Check One Reference API
+  slug: lseg-world-check-one-reference-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lseg/openapi/london-stock-exchange-group-reference-api-openapi.yml
+- filename: london-stock-exchange-group-client-watchlist-api-openapi.yml
+  format: yaml
+  label: LSEG World-Check One Client Watchlist API
+  slug: lseg-world-check-one-client-watchlist-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lseg/openapi/london-stock-exchange-group-client-watchlist-api-openapi.yml
+- filename: london-stock-exchange-group-reporting-api-openapi.yml
+  format: yaml
+  label: LSEG World-Check One Reporting API
+  slug: lseg-world-check-one-reporting-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lseg/openapi/london-stock-exchange-group-reporting-api-openapi.yml
+- filename: london-stock-exchange-group-upcoming-api-openapi.yml
+  format: yaml
+  label: LSEG World-Check One Upcoming API
+  slug: lseg-world-check-one-upcoming-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lseg/openapi/london-stock-exchange-group-upcoming-api-openapi.yml
+- filename: london-stock-exchange-group-passport-check-api-openapi.yml
+  format: yaml
+  label: LSEG World-Check One Passport Check API
+  slug: lseg-world-check-one-passport-check-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lseg/openapi/london-stock-exchange-group-passport-check-api-openapi.yml
+- filename: london-stock-exchange-group-zfs-api-openapi.yml
+  format: yaml
+  label: LSEG World-Check One Zero Footprint Screening API
+  slug: lseg-world-check-one-zfs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lseg/openapi/london-stock-exchange-group-zfs-api-openapi.yml
+- filename: london-stock-exchange-group-api-info-api-openapi.yml
+  format: yaml
+  label: LSEG World-Check One API Info API
+  slug: lseg-world-check-one-api-info-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lseg/openapi/london-stock-exchange-group-api-info-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -35,7 +125,7 @@ source_filename: lseg-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.lseg.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  6 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: lseg.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lseg/refs/heads/main/security/lseg-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lseg/security/lseg-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
@@ -43,4 +133,8 @@ tags:
 - Data
 - Infrastructure
 - Markets
+- Stock Exchange
+- Market Data
+- KYC
+- Compliance
 ---

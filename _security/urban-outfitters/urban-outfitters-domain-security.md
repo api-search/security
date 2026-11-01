@@ -5,43 +5,43 @@ api_specs:
   label: Urban Outfitters Creatives API
   slug: urban-outfitters-creatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urban-outfitters/refs/heads/main/openapi/urban-outfitters-creatives-api-openapi.yml
+  url: https://artifacts.apis.io/urban-outfitters/openapi/urban-outfitters-creatives-api-openapi.yml
 - filename: urban-outfitters-inventory-api-openapi.yml
   format: yaml
   label: Urban Outfitters Inventory API
   slug: urban-outfitters-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urban-outfitters/refs/heads/main/openapi/urban-outfitters-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/urban-outfitters/openapi/urban-outfitters-inventory-api-openapi.yml
 - filename: urban-outfitters-links-api-openapi.yml
   format: yaml
   label: Urban Outfitters Links API
   slug: urban-outfitters-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urban-outfitters/refs/heads/main/openapi/urban-outfitters-links-api-openapi.yml
+  url: https://artifacts.apis.io/urban-outfitters/openapi/urban-outfitters-links-api-openapi.yml
 - filename: urban-outfitters-orders-api-openapi.yml
   format: yaml
   label: Urban Outfitters Orders API
   slug: urban-outfitters-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urban-outfitters/refs/heads/main/openapi/urban-outfitters-orders-api-openapi.yml
+  url: https://artifacts.apis.io/urban-outfitters/openapi/urban-outfitters-orders-api-openapi.yml
 - filename: urban-outfitters-products-api-openapi.yml
   format: yaml
   label: Urban Outfitters Products API
   slug: urban-outfitters-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urban-outfitters/refs/heads/main/openapi/urban-outfitters-products-api-openapi.yml
+  url: https://artifacts.apis.io/urban-outfitters/openapi/urban-outfitters-products-api-openapi.yml
 - filename: urban-outfitters-reports-api-openapi.yml
   format: yaml
   label: Urban Outfitters Reports API
   slug: urban-outfitters-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urban-outfitters/refs/heads/main/openapi/urban-outfitters-reports-api-openapi.yml
+  url: https://artifacts.apis.io/urban-outfitters/openapi/urban-outfitters-reports-api-openapi.yml
 - filename: urban-outfitters-shipments-api-openapi.yml
   format: yaml
   label: Urban Outfitters Shipments API
   slug: urban-outfitters-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urban-outfitters/refs/heads/main/openapi/urban-outfitters-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/urban-outfitters/openapi/urban-outfitters-shipments-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -79,7 +79,7 @@ source_filename: urban-outfitters-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.urban-outfitters.com\n  https: false\n- host: www.urbanoutfitters.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 23:59:59 2026 GMT\n  hsts: null\n- host: api.rakutenadvertising.com\n  https: false\ndomains:\n- domain: urban-outfitters.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: urbanoutfitters.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/urban-outfitters/refs/heads/main/security/urban-outfitters-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/urban-outfitters/security/urban-outfitters-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Retail

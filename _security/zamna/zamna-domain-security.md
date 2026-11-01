@@ -5,25 +5,25 @@ api_specs:
   label: Zamna Session API
   slug: zamna-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zamna/refs/heads/main/openapi/zamna-session-api-openapi.yml
+  url: https://artifacts.apis.io/zamna/openapi/zamna-session-api-openapi.yml
 - filename: zamna-start-api-openapi.yml
   format: yaml
   label: Zamna Start API
   slug: zamna-start-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zamna/refs/heads/main/openapi/zamna-start-api-openapi.yml
+  url: https://artifacts.apis.io/zamna/openapi/zamna-start-api-openapi.yml
 - filename: zamna-start-with-booking-id-and-surname-api-openapi.yml
   format: yaml
   label: Zamna Start With Booking Id And Surname API
   slug: zamna-start-with-booking-id-and-surname-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zamna/refs/heads/main/openapi/zamna-start-with-booking-id-and-surname-api-openapi.yml
+  url: https://artifacts.apis.io/zamna/openapi/zamna-start-with-booking-id-and-surname-api-openapi.yml
 - filename: zamna-start2-api-openapi.yml
   format: yaml
   label: Zamna Start2 API
   slug: zamna-start2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zamna/refs/heads/main/openapi/zamna-start2-api-openapi.yml
+  url: https://artifacts.apis.io/zamna/openapi/zamna-start2-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,7 +62,7 @@ source_filename: zamna-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: zamna.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 17 23:59:59 2026 GMT\n  hsts: false\n- host: dev.zamna.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 20 23:59:59 2026 GMT\n  hsts: false\n- host: paxcheck-app-dev.staging.zamna.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 19 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: zamna.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zamna/refs/heads/main/security/zamna-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zamna/security/zamna-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

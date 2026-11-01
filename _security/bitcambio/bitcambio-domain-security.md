@@ -26,7 +26,7 @@ source_filename: bitcambio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: nova.bitcambio.com.br\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 20:09:32 2026 GMT\n  hsts: null\ndomains:\n- domain: bitcambio.com.br\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitcambio/refs/heads/main/security/bitcambio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bitcambio/security/bitcambio-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Cryptocurrency

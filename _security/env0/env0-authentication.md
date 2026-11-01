@@ -7,67 +7,67 @@ api_specs:
   label: Env0 Agents API
   slug: env0-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/openapi/env0-agents-api-openapi.yml
+  url: https://artifacts.apis.io/env0/openapi/env0-agents-api-openapi.yml
 - filename: env0-configuration-api-openapi.yml
   format: yaml
   label: Env0 Configuration API
   slug: env0-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/openapi/env0-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/env0/openapi/env0-configuration-api-openapi.yml
 - filename: env0-deployments-api-openapi.yml
   format: yaml
   label: Env0 Deployments API
   slug: env0-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/openapi/env0-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/env0/openapi/env0-deployments-api-openapi.yml
 - filename: env0-environments-api-openapi.yml
   format: yaml
   label: Env0 Environments API
   slug: env0-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/openapi/env0-environments-api-openapi.yml
+  url: https://artifacts.apis.io/env0/openapi/env0-environments-api-openapi.yml
 - filename: env0-modules-api-openapi.yml
   format: yaml
   label: Env0 Modules API
   slug: env0-modules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/openapi/env0-modules-api-openapi.yml
+  url: https://artifacts.apis.io/env0/openapi/env0-modules-api-openapi.yml
 - filename: env0-organizations-api-openapi.yml
   format: yaml
   label: Env0 Organizations API
   slug: env0-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/openapi/env0-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/env0/openapi/env0-organizations-api-openapi.yml
 - filename: env0-projects-api-openapi.yml
   format: yaml
   label: Env0 Projects API
   slug: env0-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/openapi/env0-projects-api-openapi.yml
+  url: https://artifacts.apis.io/env0/openapi/env0-projects-api-openapi.yml
 - filename: env0-templates-api-openapi.yml
   format: yaml
   label: Env0 Templates API
   slug: env0-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/openapi/env0-templates-api-openapi.yml
+  url: https://artifacts.apis.io/env0/openapi/env0-templates-api-openapi.yml
 - filename: env0-users-api-openapi.yml
   format: yaml
   label: Env0 Users API
   slug: env0-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/openapi/env0-users-api-openapi.yml
+  url: https://artifacts.apis.io/env0/openapi/env0-users-api-openapi.yml
 - filename: env0-webhooks-api-openapi.yml
   format: yaml
   label: Env0 Webhooks API
   slug: env0-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/openapi/env0-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/env0/openapi/env0-webhooks-api-openapi.yml
 - filename: env0-approval-policies-api-openapi.yml
   format: yaml
   label: Env0 Approval Policies API
   slug: env0-approval-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/openapi/env0-approval-policies-api-openapi.yml
+  url: https://artifacts.apis.io/env0/openapi/env0-approval-policies-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: searched\nsource: https://docs.en
   \ GCP or HashiCorp Vault\n  detail: since July 2026 the token audience can be per-cloud-provider rather than one shared audience\n  docs: https://docs.envzero.com/guides/integrations/oidc-integrations\n- name: SSO (human sign-in)\n  type: saml2 / oidc\n  providers: [SAML 2.0 (Okta, OneLogin, Google Workspace, JumpCloud), Azure AD / Microsoft Entra ID]\n  self_service: true\n  docs: https://docs.envzero.com/guides/sso-integrations/self-service-sso\n- name: VCS OAuth\n  type: oauth2\n  direction: env zero is the CLIENT\n  applies_to: GitHub.com, GitLab.com, Bitbucket.org connections\n  self_hosted_alternative: SSH keys or HTTPS access tokens\n- name: Agent access token\n  applies_to: self-hosted Kubernetes or standalone Docker agent registration\n  docs: https://docs.envzero.com/guides/admin-guide/self-hosted-kubernetes-agent/overview\n- name: Agent secrets\n  applies_to: per-agent secrets, created once and revocable (\"immediate and irreversible\")\nnetwork_controls:\n  ip_allowlisting:\n\
   \    available: true\n    scope: per-organization - UI logins, API keys and the Agent API\n    protocols: [IPv4, IPv6, subnets]\n    default: no allowlist means all IPs allowed\n    enablement: contact the env zero account team or support\n    docs: https://docs.envzero.com/changelogs/2026/05/ip-allowlisting\n  egress_ips_published: true\n  egress_ips_docs: https://docs.envzero.com/guides/admin-guide/custom-flows#faq\ndiscovery:\n  openid_configuration: absent\n  oauth_authorization_server: absent\n  oauth_protected_resource: absent\n  probed: '2026-09-06'\n  probed_hosts: [env0.com, www.env0.com, envzero.com, www.envzero.com, api.env0.com, docs.envzero.com, app.env0.com, status.env0.com]\n  see: well-known/env0-well-known.yml\nunauthenticated_behavior:\n  url: https://api.env0.com/\n  status: 403\n  body: '{\"message\":\"Missing Authentication Token\"}'\n  note: the AWS API Gateway default response, not an env zero error contract. It returns the same\n    body for every path, so a 403\
   \ here does not distinguish a real endpoint from one that does\n    not exist.\n  fetched: '2026-09-06'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/authentication/env0-authentication.yml
+source_yaml_url: https://artifacts.apis.io/env0/authentication/env0-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - FinOps

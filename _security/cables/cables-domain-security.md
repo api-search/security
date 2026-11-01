@@ -5,7 +5,7 @@ api_specs:
   label: Cables Tools API
   slug: cables-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cables/refs/heads/main/openapi/cables-tools-api-openapi.yml
+  url: https://artifacts.apis.io/cables/openapi/cables-tools-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -33,7 +33,7 @@ source_filename: cables-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mcp.cables.live\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  7 06:51:51 2026 GMT\n  hsts: null\ndomains:\n- domain: cables.live\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cables/refs/heads/main/security/cables-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cables/security/cables-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - MCP Server

@@ -5,79 +5,79 @@ api_specs:
   label: Transit Alerts API
   slug: transit-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/transit/openapi/transit-alerts-api-openapi.yml
 - filename: transit-departures-api-openapi.yml
   format: yaml
   label: Transit Departures API
   slug: transit-departures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-departures-api-openapi.yml
+  url: https://artifacts.apis.io/transit/openapi/transit-departures-api-openapi.yml
 - filename: transit-mobility-api-openapi.yml
   format: yaml
   label: Transit Mobility API
   slug: transit-mobility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-mobility-api-openapi.yml
+  url: https://artifacts.apis.io/transit/openapi/transit-mobility-api-openapi.yml
 - filename: transit-networks-api-openapi.yml
   format: yaml
   label: Transit Networks API
   slug: transit-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-networks-api-openapi.yml
+  url: https://artifacts.apis.io/transit/openapi/transit-networks-api-openapi.yml
 - filename: transit-routes-api-openapi.yml
   format: yaml
   label: Transit Routes API
   slug: transit-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-routes-api-openapi.yml
+  url: https://artifacts.apis.io/transit/openapi/transit-routes-api-openapi.yml
 - filename: transit-stops-api-openapi.yml
   format: yaml
   label: Transit Stops API
   slug: transit-stops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-stops-api-openapi.yml
+  url: https://artifacts.apis.io/transit/openapi/transit-stops-api-openapi.yml
 - filename: transit-trips-api-openapi.yml
   format: yaml
   label: Transit Trips API
   slug: transit-trips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-trips-api-openapi.yml
+  url: https://artifacts.apis.io/transit/openapi/transit-trips-api-openapi.yml
 - filename: transit-locations-api-openapi.yml
   format: yaml
   label: Transit Locations API
   slug: transit-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-locations-api-openapi.yml
+  url: https://artifacts.apis.io/transit/openapi/transit-locations-api-openapi.yml
 - filename: transit-nearby-routes-api-openapi.yml
   format: yaml
   label: Transit Nearby Routes API
   slug: transit-nearby-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-nearby-routes-api-openapi.yml
+  url: https://artifacts.apis.io/transit/openapi/transit-nearby-routes-api-openapi.yml
 - filename: transit-nearby-stops-api-openapi.yml
   format: yaml
   label: Transit Nearby Stops API
   slug: transit-nearby-stops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-nearby-stops-api-openapi.yml
+  url: https://artifacts.apis.io/transit/openapi/transit-nearby-stops-api-openapi.yml
 - filename: transit-route-details-api-openapi.yml
   format: yaml
   label: Transit Route Details API
   slug: transit-route-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-route-details-api-openapi.yml
+  url: https://artifacts.apis.io/transit/openapi/transit-route-details-api-openapi.yml
 - filename: transit-service-alerts-api-openapi.yml
   format: yaml
   label: Transit Service Alerts API
   slug: transit-service-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-service-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/transit/openapi/transit-service-alerts-api-openapi.yml
 - filename: transit-trip-planning-api-openapi.yml
   format: yaml
   label: Transit Trip Planning API
   slug: transit-trip-planning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-trip-planning-api-openapi.yml
+  url: https://artifacts.apis.io/transit/openapi/transit-trip-planning-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -112,7 +112,7 @@ source_filename: transit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: transitapp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 01:29:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api-doc.transitapp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 11:34:48 2026 GMT\n  hsts: false\ndomains:\n- domain: transitapp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/security/transit-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/transit/security/transit-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Transit

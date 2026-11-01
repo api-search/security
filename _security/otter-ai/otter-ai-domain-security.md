@@ -32,7 +32,7 @@ source_filename: otter-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: otter.ai\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 30 23:59:59 2026 GMT\n  hsts: false\n- host: api.otter.ai\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 30 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: otter.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/otter-ai/refs/heads/main/security/otter-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/otter-ai/security/otter-ai-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Artificial Intelligence

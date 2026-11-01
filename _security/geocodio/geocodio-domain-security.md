@@ -1,29 +1,41 @@
 ---
 api_specs:
-- filename: geocodio-batch-api-openapi.yml
-  format: yaml
-  label: Geocodio Batch API
-  slug: geocodio-batch-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocodio/refs/heads/main/openapi/geocodio-batch-api-openapi.yml
-- filename: geocodio-forward-geocoding-api-openapi.yml
-  format: yaml
-  label: Geocodio Forward Geocoding API
-  slug: geocodio-forward-geocoding-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocodio/refs/heads/main/openapi/geocodio-forward-geocoding-api-openapi.yml
 - filename: geocodio-lists-api-openapi.yml
   format: yaml
   label: Geocodio Lists API
   slug: geocodio-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocodio/refs/heads/main/openapi/geocodio-lists-api-openapi.yml
-- filename: geocodio-reverse-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/geocodio/openapi/geocodio-lists-api-openapi.yml
+- filename: geocodio-distance-api-openapi.yml
   format: yaml
-  label: Geocodio Reverse Geocoding API
-  slug: geocodio-reverse-geocoding-api
+  label: Geocodio Distance API
+  slug: geocodio-distance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocodio/refs/heads/main/openapi/geocodio-reverse-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/geocodio/openapi/geocodio-distance-api-openapi.yml
+- filename: geocodio-distance-jobs-api-openapi.yml
+  format: yaml
+  label: Geocodio Distance Jobs API
+  slug: geocodio-distance-jobs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/geocodio/openapi/geocodio-distance-jobs-api-openapi.yml
+- filename: geocodio-distance-matrix-api-openapi.yml
+  format: yaml
+  label: Geocodio Distance Matrix API
+  slug: geocodio-distance-matrix-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/geocodio/openapi/geocodio-distance-matrix-api-openapi.yml
+- filename: geocodio-geocode-api-openapi.yml
+  format: yaml
+  label: Geocodio Geocode API
+  slug: geocodio-geocode-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/geocodio/openapi/geocodio-geocode-api-openapi.yml
+- filename: geocodio-reverse-api-openapi.yml
+  format: yaml
+  label: Geocodio Reverse API
+  slug: geocodio-reverse-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/geocodio/openapi/geocodio-reverse-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +70,7 @@ source_filename: geocodio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.geocod.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 13:30:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.geocod.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 13:06:44 2026 GMT\n  hsts: false\ndomains:\n- domain: geocod.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/geocodio/refs/heads/main/security/geocodio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/geocodio/security/geocodio-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Geocoding

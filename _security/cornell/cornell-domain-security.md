@@ -5,25 +5,25 @@ api_specs:
   label: Cornell University Library Catalog Search API
   slug: library-catalog
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-library-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/cornell/openapi/cornell-library-catalog-api-openapi.yml
 - filename: cornell-cugir-api-openapi.yml
   format: yaml
   label: Cornell University Cugir API
   slug: cornell-cugir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-cugir-api-openapi.yml
+  url: https://artifacts.apis.io/cornell/openapi/cornell-cugir-api-openapi.yml
 - filename: cornell-config-api-openapi.yml
   format: yaml
   label: Cornell University Config API
   slug: cornell-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-config-api-openapi.yml
+  url: https://artifacts.apis.io/cornell/openapi/cornell-config-api-openapi.yml
 - filename: cornell-search-api-openapi.yml
   format: yaml
   label: Cornell University Search API
   slug: cornell-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-search-api-openapi.yml
+  url: https://artifacts.apis.io/cornell/openapi/cornell-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: cornell-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cornell.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 16 23:59:59 2026 GMT\n  hsts: false\n- host: classes.cornell.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 23:59:59 2026 GMT\n  hsts: false\n- host: guides.library.cornell.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 12:10:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: cornell.edu\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/security/cornell-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cornell/security/cornell-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - University

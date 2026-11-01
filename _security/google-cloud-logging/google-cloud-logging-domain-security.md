@@ -5,55 +5,55 @@ api_specs:
   label: Google Cloud Logging Bucket API
   slug: google-cloud-logging-bucket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/openapi/google-cloud-logging-bucket-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-bucket-api-openapi.yml
 - filename: google-cloud-logging-buckets-api-openapi.yml
   format: yaml
   label: Google Cloud Logging Buckets API
   slug: google-cloud-logging-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/openapi/google-cloud-logging-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-buckets-api-openapi.yml
 - filename: google-cloud-logging-entries-copy-api-openapi.yml
   format: yaml
   label: Google Cloud Logging Entries:copy API
   slug: google-cloud-logging-entries-copy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/openapi/google-cloud-logging-entries-copy-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-entries-copy-api-openapi.yml
 - filename: google-cloud-logging-entries-list-api-openapi.yml
   format: yaml
   label: Google Cloud Logging Entries:list API
   slug: google-cloud-logging-entries-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/openapi/google-cloud-logging-entries-list-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-entries-list-api-openapi.yml
 - filename: google-cloud-logging-entries-tail-api-openapi.yml
   format: yaml
   label: Google Cloud Logging Entries:tail API
   slug: google-cloud-logging-entries-tail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/openapi/google-cloud-logging-entries-tail-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-entries-tail-api-openapi.yml
 - filename: google-cloud-logging-entries-write-api-openapi.yml
   format: yaml
   label: Google Cloud Logging Entries:write API
   slug: google-cloud-logging-entries-write-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/openapi/google-cloud-logging-entries-write-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-entries-write-api-openapi.yml
 - filename: google-cloud-logging-exclusions-api-openapi.yml
   format: yaml
   label: Google Cloud Logging Exclusions API
   slug: google-cloud-logging-exclusions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/openapi/google-cloud-logging-exclusions-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-exclusions-api-openapi.yml
 - filename: google-cloud-logging-google-cloud-logging-api-api-openapi.yml
   format: yaml
   label: Google Cloud Logging Google Cloud Logging API
   slug: google-cloud-logging-google-cloud-logging-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/openapi/google-cloud-logging-google-cloud-logging-api-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-google-cloud-logging-api-api-openapi.yml
 - filename: google-cloud-logging-sinks-api-openapi.yml
   format: yaml
   label: Google Cloud Logging Sinks API
   slug: google-cloud-logging-sinks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/openapi/google-cloud-logging-sinks-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-sinks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -102,7 +102,7 @@ source_filename: google-cloud-logging-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: console.cloud.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 08:38:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: cloud.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 08:37:34 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: logging.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 08:41:51 2026 GMT\n  hsts: null\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/security/google-cloud-logging-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-logging/security/google-cloud-logging-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud

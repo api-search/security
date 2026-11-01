@@ -5,61 +5,61 @@ api_specs:
   label: Shutterstock Audio API
   slug: shutterstock-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-audio-api-openapi.yml
+  url: https://artifacts.apis.io/shutterstock/openapi/shutterstock-audio-api-openapi.yml
 - filename: shutterstock-computer-vision-api-openapi.yml
   format: yaml
   label: Shutterstock Computer Vision API
   slug: shutterstock-computer-vision-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-computer-vision-api-openapi.yml
+  url: https://artifacts.apis.io/shutterstock/openapi/shutterstock-computer-vision-api-openapi.yml
 - filename: shutterstock-contributors-api-openapi.yml
   format: yaml
   label: Shutterstock Contributors API
   slug: shutterstock-contributors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-contributors-api-openapi.yml
+  url: https://artifacts.apis.io/shutterstock/openapi/shutterstock-contributors-api-openapi.yml
 - filename: shutterstock-editorial-images-api-openapi.yml
   format: yaml
   label: Shutterstock Editorial Images API
   slug: shutterstock-editorial-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-editorial-images-api-openapi.yml
+  url: https://artifacts.apis.io/shutterstock/openapi/shutterstock-editorial-images-api-openapi.yml
 - filename: shutterstock-editorial-video-api-openapi.yml
   format: yaml
   label: Shutterstock Editorial Video API
   slug: shutterstock-editorial-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-editorial-video-api-openapi.yml
+  url: https://artifacts.apis.io/shutterstock/openapi/shutterstock-editorial-video-api-openapi.yml
 - filename: shutterstock-images-api-openapi.yml
   format: yaml
   label: Shutterstock Images API
   slug: shutterstock-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-images-api-openapi.yml
+  url: https://artifacts.apis.io/shutterstock/openapi/shutterstock-images-api-openapi.yml
 - filename: shutterstock-test-api-openapi.yml
   format: yaml
   label: Shutterstock Test API
   slug: shutterstock-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-test-api-openapi.yml
+  url: https://artifacts.apis.io/shutterstock/openapi/shutterstock-test-api-openapi.yml
 - filename: shutterstock-users-api-openapi.yml
   format: yaml
   label: Shutterstock Users API
   slug: shutterstock-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-users-api-openapi.yml
+  url: https://artifacts.apis.io/shutterstock/openapi/shutterstock-users-api-openapi.yml
 - filename: shutterstock-videos-api-openapi.yml
   format: yaml
   label: Shutterstock Videos API
   slug: shutterstock-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-videos-api-openapi.yml
+  url: https://artifacts.apis.io/shutterstock/openapi/shutterstock-videos-api-openapi.yml
 - filename: shutterstock-oauth-api-openapi.yml
   format: yaml
   label: Shutterstock OAUTH API
   slug: shutterstock-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/shutterstock/openapi/shutterstock-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -93,7 +93,7 @@ source_filename: shutterstock-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.shutterstock.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 23:59:59 2026 GMT\n  hsts: null\n- host: api.shutterstock.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 28 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: shutterstock.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/security/shutterstock-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/shutterstock/security/shutterstock-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Image

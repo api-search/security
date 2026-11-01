@@ -5,19 +5,19 @@ api_specs:
   label: Softr Databases API
   slug: softr-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/softr/refs/heads/main/openapi/softr-databases-api-openapi.yml
+  url: https://artifacts.apis.io/softr/openapi/softr-databases-api-openapi.yml
 - filename: softr-records-api-openapi.yml
   format: yaml
   label: Softr Records API
   slug: softr-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/softr/refs/heads/main/openapi/softr-records-api-openapi.yml
+  url: https://artifacts.apis.io/softr/openapi/softr-records-api-openapi.yml
 - filename: softr-users-api-openapi.yml
   format: yaml
   label: Softr Users API
   slug: softr-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/softr/refs/heads/main/openapi/softr-users-api-openapi.yml
+  url: https://artifacts.apis.io/softr/openapi/softr-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: softr-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.softr.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 11 20:40:17 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.softr.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 03:33:15 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: studio-api.softr.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 11 20:40:17 2026 GMT\n  hsts: null\ndomains:\n- domain: softr.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/softr/refs/heads/main/security/softr-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/softr/security/softr-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - No-Code

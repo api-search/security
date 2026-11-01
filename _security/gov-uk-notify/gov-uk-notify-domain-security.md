@@ -5,19 +5,19 @@ api_specs:
   label: GOV.UK Notify Notifications API
   slug: gov-uk-notify-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gov-uk-notify/refs/heads/main/openapi/gov-uk-notify-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/gov-uk-notify/openapi/gov-uk-notify-notifications-api-openapi.yml
 - filename: gov-uk-notify-received-text-messages-api-openapi.yml
   format: yaml
   label: GOV.UK Notify Received Text Messages API
   slug: gov-uk-notify-received-text-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gov-uk-notify/refs/heads/main/openapi/gov-uk-notify-received-text-messages-api-openapi.yml
+  url: https://artifacts.apis.io/gov-uk-notify/openapi/gov-uk-notify-received-text-messages-api-openapi.yml
 - filename: gov-uk-notify-templates-api-openapi.yml
   format: yaml
   label: GOV.UK Notify Templates API
   slug: gov-uk-notify-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gov-uk-notify/refs/heads/main/openapi/gov-uk-notify-templates-api-openapi.yml
+  url: https://artifacts.apis.io/gov-uk-notify/openapi/gov-uk-notify-templates-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: gov-uk-notify-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.notifications.service.gov.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 24 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.notifications.service.gov.uk\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 24 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.notifications.service.gov.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 24 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: service.gov.uk\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gov-uk-notify/refs/heads/main/security/gov-uk-notify-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gov-uk-notify/security/gov-uk-notify-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Notification

@@ -5,25 +5,25 @@ api_specs:
   label: The Predictive Index Behavioral Assessments API
   slug: the-predictive-index-behavioral-assessments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/openapi/the-predictive-index-behavioral-assessments-api-openapi.yml
+  url: https://artifacts.apis.io/the-predictive-index/openapi/the-predictive-index-behavioral-assessments-api-openapi.yml
 - filename: the-predictive-index-candidates-api-openapi.yml
   format: yaml
   label: The Predictive Index Candidates API
   slug: the-predictive-index-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/openapi/the-predictive-index-candidates-api-openapi.yml
+  url: https://artifacts.apis.io/the-predictive-index/openapi/the-predictive-index-candidates-api-openapi.yml
 - filename: the-predictive-index-employees-api-openapi.yml
   format: yaml
   label: The Predictive Index Employees API
   slug: the-predictive-index-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/openapi/the-predictive-index-employees-api-openapi.yml
+  url: https://artifacts.apis.io/the-predictive-index/openapi/the-predictive-index-employees-api-openapi.yml
 - filename: the-predictive-index-jobs-api-openapi.yml
   format: yaml
   label: The Predictive Index Jobs API
   slug: the-predictive-index-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/openapi/the-predictive-index-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/the-predictive-index/openapi/the-predictive-index-jobs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: the-predictive-index-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.predictiveindex.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  1 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: integrations.predictiveindex.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  8 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: predictiveindex.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/security/the-predictive-index-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/the-predictive-index/security/the-predictive-index-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

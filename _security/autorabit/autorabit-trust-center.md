@@ -15,7 +15,7 @@ source_filename: autorabit-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-09-26'\nmethod: searched\nprobe: true\nsource: https://www.autorabit.com/trust-center/\nurl: https://www.autorabit.com/trust-center/\ncertifications:\n- FedRAMP\nevidence:\n- source: https://www.autorabit.com/trust-center/\n  keywords:\n  - fedramp\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autorabit/refs/heads/main/security/autorabit-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/autorabit/security/autorabit-trust-center.yml
 summary_line: FedRAMP
 tags:
 - Salesforce

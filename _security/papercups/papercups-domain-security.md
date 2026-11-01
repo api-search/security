@@ -5,31 +5,31 @@ api_specs:
   label: Papercups Realtime Chat API (WebSocket / Phoenix Channels)
   slug: realtime-chat
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/papercups/refs/heads/main/asyncapi/papercups-asyncapi.yml
+  url: https://artifacts.apis.io/papercups/asyncapi/papercups-asyncapi.yml
 - filename: papercups-conversations-api-openapi.yml
   format: yaml
   label: Papercups Conversations API
   slug: papercups-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/papercups/refs/heads/main/openapi/papercups-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/papercups/openapi/papercups-conversations-api-openapi.yml
 - filename: papercups-customers-api-openapi.yml
   format: yaml
   label: Papercups Customers API
   slug: papercups-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/papercups/refs/heads/main/openapi/papercups-customers-api-openapi.yml
+  url: https://artifacts.apis.io/papercups/openapi/papercups-customers-api-openapi.yml
 - filename: papercups-messages-api-openapi.yml
   format: yaml
   label: Papercups Messages API
   slug: papercups-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/papercups/refs/heads/main/openapi/papercups-messages-api-openapi.yml
+  url: https://artifacts.apis.io/papercups/openapi/papercups-messages-api-openapi.yml
 - filename: papercups-users-api-openapi.yml
   format: yaml
   label: Papercups Users API
   slug: papercups-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/papercups/refs/heads/main/openapi/papercups-users-api-openapi.yml
+  url: https://artifacts.apis.io/papercups/openapi/papercups-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -66,7 +66,7 @@ source_filename: papercups-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: papercups.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 16:07:46 2026 GMT\n  hsts: null\n- host: docs.papercups.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 14:16:32 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: app.papercups.io\n  https: false\ndomains:\n- domain: papercups.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/papercups/refs/heads/main/security/papercups-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/papercups/security/papercups-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Customer Messaging

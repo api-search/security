@@ -5,31 +5,31 @@ api_specs:
   label: Poggio Labs API Tokens API
   slug: poggio-labs-api-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/openapi/poggio-labs-api-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/poggio-labs/openapi/poggio-labs-api-tokens-api-openapi.yml
 - filename: poggio-labs-authentication-api-openapi.yml
   format: yaml
   label: Poggio Labs Authentication API
   slug: poggio-labs-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/openapi/poggio-labs-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/poggio-labs/openapi/poggio-labs-authentication-api-openapi.yml
 - filename: poggio-labs-goals-api-openapi.yml
   format: yaml
   label: Poggio Labs Goals API
   slug: poggio-labs-goals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/openapi/poggio-labs-goals-api-openapi.yml
+  url: https://artifacts.apis.io/poggio-labs/openapi/poggio-labs-goals-api-openapi.yml
 - filename: poggio-labs-organizations-api-openapi.yml
   format: yaml
   label: Poggio Labs Organizations API
   slug: poggio-labs-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/openapi/poggio-labs-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/poggio-labs/openapi/poggio-labs-organizations-api-openapi.yml
 - filename: poggio-labs-system-api-openapi.yml
   format: yaml
   label: Poggio Labs System API
   slug: poggio-labs-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/openapi/poggio-labs-system-api-openapi.yml
+  url: https://artifacts.apis.io/poggio-labs/openapi/poggio-labs-system-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -74,7 +74,7 @@ source_filename: poggio-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: poggio.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 18:17:39 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.poggio.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 02:08:51 2026 GMT\n  hsts: null\n- host: mcp.poggio.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 17:56:34 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: poggio.io\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/security/poggio-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/poggio-labs/security/poggio-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -46,7 +46,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://us.althea.kr/.well-known/openid-configuration\nsummary:\n  types: [openIdConnect, oauth2]\n  oauth2_flows: [authorizationCode]\n  note: >-\n    Customer-facing auth is Shopify Customer Accounts (OpenID Connect). Agent\n    read/transact access to the storefront MCP is unauthenticated for browsing;\n    checkout requires buyer approval via Shop Pay / UCP.\nschemes:\n- name: ShopifyCustomerAccountOIDC\n  type: openIdConnect\n  openIdConnectUrl: https://us.althea.kr/.well-known/openid-configuration\n  issuer: https://shopify.com/authentication/9377939535\n  authorization_endpoint: https://shopify.com/authentication/9377939535/oauth/authorize\n  token_endpoint: https://shopify.com/authentication/9377939535/oauth/token\n  end_session_endpoint: https://shopify.com/authentication/9377939535/logout\n  jwks_uri: https://shopify.com/authentication/9377939535/.well-known/jwks.json\n  response_types: [code]\n  id_token_signing_alg:\
   \ [RS256]\n  token_endpoint_auth_methods: [client_secret_basic]\n  scopes: [openid, email, customer-account-api:full, customer-account-mcp-api:full]\n  sources: [well-known/althea-openid-configuration.json, well-known/althea-oauth-authorization-server.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/althea/refs/heads/main/authentication/althea-authentication.yml
+source_yaml_url: https://artifacts.apis.io/althea/authentication/althea-authentication.yml
 summary_line: openIdConnect/oauth2 · 1 scheme
 tags:
 - Company

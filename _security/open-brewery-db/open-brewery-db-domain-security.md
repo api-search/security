@@ -5,7 +5,7 @@ api_specs:
   label: Open Brewery DB Breweries API
   slug: open-brewery-db-breweries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-brewery-db/refs/heads/main/openapi/open-brewery-db-breweries-api-openapi.yml
+  url: https://artifacts.apis.io/open-brewery-db/openapi/open-brewery-db-breweries-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +40,7 @@ source_filename: open-brewery-db-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.openbrewerydb.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 10:48:48 2026 GMT\n  hsts: false\n- host: api.openbrewerydb.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 21:31:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: openbrewerydb.org\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-brewery-db/refs/heads/main/security/open-brewery-db-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/open-brewery-db/security/open-brewery-db-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Beer

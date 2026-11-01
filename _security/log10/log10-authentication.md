@@ -8,31 +8,31 @@ api_specs:
   label: Log10 Feedback API
   slug: log10-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/openapi/log10-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/log10/openapi/log10-feedback-api-openapi.yml
 - filename: log10-completions-api-openapi.yml
   format: yaml
   label: Log10 Completions API
   slug: log10-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/openapi/log10-completions-api-openapi.yml
+  url: https://artifacts.apis.io/log10/openapi/log10-completions-api-openapi.yml
 - filename: log10-feedback-api-openapi.yml
   format: yaml
   label: Log10 Feedback API
   slug: log10-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/openapi/log10-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/log10/openapi/log10-feedback-api-openapi.yml
 - filename: log10-feedbacktasks-api-openapi.yml
   format: yaml
   label: Log10 FeedbackTasks API
   slug: log10-feedbacktasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/openapi/log10-feedbacktasks-api-openapi.yml
+  url: https://artifacts.apis.io/log10/openapi/log10-feedbacktasks-api-openapi.yml
 - filename: log10-sessions-api-openapi.yml
   format: yaml
   label: Log10 Sessions API
   slug: log10-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/openapi/log10-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/log10/openapi/log10-sessions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -59,7 +59,7 @@ source_filename: log10-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/log10-logging-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: Log10Token\n  type: apiKey\n  in: header\n  parameter: X-Log10-Token\n  sources:\n  - openapi/log10-logging-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/authentication/log10-authentication.yml
+source_yaml_url: https://artifacts.apis.io/log10/authentication/log10-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - LLM

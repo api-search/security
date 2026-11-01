@@ -7,7 +7,7 @@ api_specs:
   label: Oracle CrowdTwist Loyalty and Engagement API
   slug: crowdtwist-loyalty
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/crowdtwist/refs/heads/main/postman/crowdtwist-starter-kit.postman_collection.json
+  url: https://artifacts.apis.io/crowdtwist/postman/crowdtwist-starter-kit.postman_collection.json
 auth_types: []
 description: ''
 kind: authentication
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://docs.or
   \  in: header\n  name: user session token\n  required: false\n  description: >-\n    End-user / mobile authentication. A user is first created via the User Create API, then\n    authenticated against an alternate HMAC-enabled endpoint that returns a user session token\n    and key which must be included in all subsequent calls. Requests to these endpoints must be\n    HMAC signed with the HMAC *user* private key from the client's API configuration.\n  token_lifetime: 6 months\n  evidence: https://docs.oracle.com/en/cloud/saas/marketing/crowdtwist-develop/Developers/MobileAPIAuthentication.html\n- id: api_sig_legacy\n  type: apiKey\n  in: query\n  name: api_sig\n  required: true\n  description: >-\n    Legacy signature parameter on the program-hosted single sign-on endpoints\n    `POST https://<program_url>/http/v2/auth-sign-in` and\n    `GET https://<program_url>/http/v2/auth-sign-out`. These run on the client's own program\n    domain rather than the CrowdTwist API host and are explicitly\
   \ excluded from HMAC support.\n  evidence: https://docs.oracle.com/en/cloud/saas/marketing/crowdtwist-develop/Developers/UserAuthenticationSignIn.html\noauth2: false\nopenid_connect: false\nmtls: false\nscopes_published: false\nscopes_note: >-\n  CrowdTwist has no OAuth surface, so there is no scope model to capture; access is scoped by\n  the client program the API key belongs to. scopes/ is deliberately absent for this provider.\ninbound_vs_outbound:\n  note: >-\n    The Data Push (webhook) direction reverses the relationship — CrowdTwist is the CALLER and\n    authenticates to the client's endpoint with HTTP Basic or a client-supplied `x-api-key`\n    header. See asyncapi/crowdtwist-data-push-webhooks.yml.\nkey_management:\n  issuance: CrowdTwist account team / CrowdTwist Control Center Dashboard\n  self_service: false\n  rotation_documented: false\n  separate_sandbox_keys: true\n  sandbox_note: Sandbox environments are separate hosts (sb-, sb2-) with their own client configuration.\n\
   transport:\n  tls_minimum: TLSv1.2\n  tls_note: >-\n    Oracle publishes the exact supported cipher suite list on the API Best Practices page and\n    warns that clients on runtimes without TLS 1.2 (e.g. Java 6) cannot connect.\n  evidence: https://docs.oracle.com/en/cloud/saas/marketing/crowdtwist-develop/Developers/CrowdTwistAPIBestPractices.html\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crowdtwist/refs/heads/main/authentication/crowdtwist-authentication.yml
+source_yaml_url: https://artifacts.apis.io/crowdtwist/authentication/crowdtwist-authentication.yml
 summary_line: 5 schemes
 tags:
 - Company

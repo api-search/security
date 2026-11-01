@@ -5,25 +5,25 @@ api_specs:
   label: Universiti Putra Malaysia Export API
   slug: upm-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upm/refs/heads/main/openapi/upm-export-api-openapi.yml
+  url: https://artifacts.apis.io/upm/openapi/upm-export-api-openapi.yml
 - filename: upm-oai-pmh-api-openapi.yml
   format: yaml
   label: Universiti Putra Malaysia OAI PMH API
   slug: upm-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upm/refs/heads/main/openapi/upm-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/upm/openapi/upm-oai-pmh-api-openapi.yml
 - filename: upm-rest-api-openapi.yml
   format: yaml
   label: Universiti Putra Malaysia REST API
   slug: upm-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upm/refs/heads/main/openapi/upm-rest-api-openapi.yml
+  url: https://artifacts.apis.io/upm/openapi/upm-rest-api-openapi.yml
 - filename: upm-search-api-openapi.yml
   format: yaml
   label: Universiti Putra Malaysia Search API
   slug: upm-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upm/refs/heads/main/openapi/upm-search-api-openapi.yml
+  url: https://artifacts.apis.io/upm/openapi/upm-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -60,7 +60,7 @@ source_filename: upm-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: upm.edu.my\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 24 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: psasir.upm.edu.my\n  https: false\n- host: idf.upm.edu.my\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 09:37:09 2026 GMT\n  hsts: null\ndomains:\n- domain: upm.edu.my\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upm/refs/heads/main/security/upm-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/upm/security/upm-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - University

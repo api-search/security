@@ -5,7 +5,7 @@ api_specs:
   label: IEEE Xplore Metadata Search API
   slug: ieee-metadata-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ieee/refs/heads/main/openapi/ieee-metadata-search-api-openapi.yml
+  url: https://artifacts.apis.io/ieee/openapi/ieee-metadata-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: ieee-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ieeexplore.ieee.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.ieee.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  8 20:56:04 2027 GMT\n  hsts: false\n- host: ieeexploreapi.ieee.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  8 20:56:04 2027 GMT\n  hsts: null\ndomains:\n- domain: ieee.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ieee/refs/heads/main/security/ieee-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ieee/security/ieee-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Scholarly Publishing

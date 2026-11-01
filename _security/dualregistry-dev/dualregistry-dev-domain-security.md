@@ -5,37 +5,37 @@ api_specs:
   label: Scro Orphan Desk Echo API
   slug: dualregistry-dev-echo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dualregistry-dev/refs/heads/main/openapi/dualregistry-dev-echo-api-openapi.yml
+  url: https://artifacts.apis.io/dualregistry-dev/openapi/dualregistry-dev-echo-api-openapi.yml
 - filename: dualregistry-dev-index-json-api-openapi.yml
   format: yaml
   label: Scro Orphan Desk Index.json API
   slug: dualregistry-dev-index-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dualregistry-dev/refs/heads/main/openapi/dualregistry-dev-index-json-api-openapi.yml
+  url: https://artifacts.apis.io/dualregistry-dev/openapi/dualregistry-dev-index-json-api-openapi.yml
 - filename: dualregistry-dev-orphandust-api-openapi.yml
   format: yaml
   label: Scro Orphan Desk Orphandust API
   slug: dualregistry-dev-orphandust-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dualregistry-dev/refs/heads/main/openapi/dualregistry-dev-orphandust-api-openapi.yml
+  url: https://artifacts.apis.io/dualregistry-dev/openapi/dualregistry-dev-orphandust-api-openapi.yml
 - filename: dualregistry-dev-quote-fee-api-openapi.yml
   format: yaml
   label: Scro Orphan Desk Quote Fee API
   slug: dualregistry-dev-quote-fee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dualregistry-dev/refs/heads/main/openapi/dualregistry-dev-quote-fee-api-openapi.yml
+  url: https://artifacts.apis.io/dualregistry-dev/openapi/dualregistry-dev-quote-fee-api-openapi.yml
 - filename: dualregistry-dev-settle-fee-api-openapi.yml
   format: yaml
   label: Scro Orphan Desk Settle Fee API
   slug: dualregistry-dev-settle-fee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dualregistry-dev/refs/heads/main/openapi/dualregistry-dev-settle-fee-api-openapi.yml
+  url: https://artifacts.apis.io/dualregistry-dev/openapi/dualregistry-dev-settle-fee-api-openapi.yml
 - filename: dualregistry-dev-stats-json-api-openapi.yml
   format: yaml
   label: Scro Orphan Desk Stats.json API
   slug: dualregistry-dev-stats-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dualregistry-dev/refs/heads/main/openapi/dualregistry-dev-stats-json-api-openapi.yml
+  url: https://artifacts.apis.io/dualregistry-dev/openapi/dualregistry-dev-stats-json-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: dualregistry-dev-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dualregistry.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 01:04:57 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: dualregistry.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dualregistry-dev/refs/heads/main/security/dualregistry-dev-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dualregistry-dev/security/dualregistry-dev-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - AI Agents

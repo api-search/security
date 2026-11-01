@@ -5,7 +5,7 @@ api_specs:
   label: Nightfall AI Scan API
   slug: nightfall-ai-scan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nightfall-ai/refs/heads/main/openapi/nightfall-ai-scan-api-openapi.yml
+  url: https://artifacts.apis.io/nightfall-ai/openapi/nightfall-ai-scan-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -23,7 +23,7 @@ source_filename: nightfall-ai-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.nightfall.ai/security\nurl: https://www.nightfall.ai/security\ncertifications:\n- SOC 2\n- HIPAA\nevidence:\n- source: https://www.nightfall.ai/security\n  keywords:\n  - soc 2\n  - hipaa\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nightfall-ai/refs/heads/main/security/nightfall-ai-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/nightfall-ai/security/nightfall-ai-trust-center.yml
 summary_line: SOC 2, HIPAA
 tags:
 - Artificial Intelligence

@@ -8,19 +8,19 @@ api_specs:
   label: Kalpa Labs Meta API
   slug: kalpa-labs-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/openapi/kalpa-labs-meta-api-openapi.yml
+  url: https://artifacts.apis.io/kalpa-labs/openapi/kalpa-labs-meta-api-openapi.yml
 - filename: kalpa-labs-speech-api-openapi.yml
   format: yaml
   label: Kalpa Labs Speech API
   slug: kalpa-labs-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/openapi/kalpa-labs-speech-api-openapi.yml
+  url: https://artifacts.apis.io/kalpa-labs/openapi/kalpa-labs-speech-api-openapi.yml
 - filename: kalpa-labs-usage-api-openapi.yml
   format: yaml
   label: Kalpa Labs Usage API
   slug: kalpa-labs-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/openapi/kalpa-labs-usage-api-openapi.yml
+  url: https://artifacts.apis.io/kalpa-labs/openapi/kalpa-labs-usage-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -52,7 +52,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/kalpa-labs-openapi-original.json\ndocs: https://docs.kalpalabs.ai/authentication\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  provisioning: per-team, early access (request via hello@kalpalabs.ai)\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  scheme: bearer\n  header_primary: Authorization\n  header_primary_format: 'Bearer <key>'\n  header_alternate: X-API-Key\n  description: >-\n    Every /v1/* endpoint authenticates with a per-team API key, sent as a bearer\n    token in the Authorization header (preferred) or in the X-API-Key header.\n    A missing or invalid key returns 401 authentication_error; if key verification\n    is temporarily unavailable the API returns 503 service_unavailable (retry, do\n    not treat as invalid).\n  sources:\n  - openapi/kalpa-labs-openapi-original.json\nnotes:\n  - Keys are secret; call the API server-side, never from browsers or shipped apps.\n  - Keys\
   \ are rotated / limits raised by contacting hello@kalpalabs.ai.\n  - Each key carries its own rate limits and its own usage meter (GET /v1/usage).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/authentication/kalpa-labs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kalpa-labs/authentication/kalpa-labs-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

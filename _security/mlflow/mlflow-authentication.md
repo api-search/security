@@ -7,37 +7,37 @@ api_specs:
   label: MLflow Artifacts API
   slug: mlflow-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/openapi/mlflow-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/mlflow/openapi/mlflow-artifacts-api-openapi.yml
 - filename: mlflow-experiments-api-openapi.yml
   format: yaml
   label: MLflow Experiments API
   slug: mlflow-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/openapi/mlflow-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/mlflow/openapi/mlflow-experiments-api-openapi.yml
 - filename: mlflow-metrics-api-openapi.yml
   format: yaml
   label: MLflow Metrics API
   slug: mlflow-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/openapi/mlflow-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/mlflow/openapi/mlflow-metrics-api-openapi.yml
 - filename: mlflow-model-versions-api-openapi.yml
   format: yaml
   label: MLflow Model Versions API
   slug: mlflow-model-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/openapi/mlflow-model-versions-api-openapi.yml
+  url: https://artifacts.apis.io/mlflow/openapi/mlflow-model-versions-api-openapi.yml
 - filename: mlflow-registered-models-api-openapi.yml
   format: yaml
   label: MLflow Registered Models API
   slug: mlflow-registered-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/openapi/mlflow-registered-models-api-openapi.yml
+  url: https://artifacts.apis.io/mlflow/openapi/mlflow-registered-models-api-openapi.yml
 - filename: mlflow-runs-api-openapi.yml
   format: yaml
   label: MLflow Runs API
   slug: mlflow-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/openapi/mlflow-runs-api-openapi.yml
+  url: https://artifacts.apis.io/mlflow/openapi/mlflow-runs-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -68,7 +68,7 @@ source_filename: mlflow-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/mlflow-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: |-\n    Optional HTTP Basic authentication when the MLflow tracking server is\n    configured with the `mlflow-basic-auth` plugin. Default open-source\n    servers run without authentication.\n  sources:\n  - openapi/mlflow-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/authentication/mlflow-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mlflow/authentication/mlflow-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Machine Learning

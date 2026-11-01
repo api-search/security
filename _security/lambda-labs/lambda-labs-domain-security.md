@@ -5,61 +5,61 @@ api_specs:
   label: Lambda Inference API
   slug: inference-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/asyncapi/lambda-labs-asyncapi.yml
+  url: https://artifacts.apis.io/lambda-labs/asyncapi/lambda-labs-asyncapi.yml
 - filename: lambda-labs-audit-events-api-openapi.yml
   format: yaml
   label: Lambda Audit Events API
   slug: lambda-labs-audit-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/openapi/lambda-labs-audit-events-api-openapi.yml
+  url: https://artifacts.apis.io/lambda-labs/openapi/lambda-labs-audit-events-api-openapi.yml
 - filename: lambda-labs-fabric-api-openapi.yml
   format: yaml
   label: Lambda Fabric API
   slug: lambda-labs-fabric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/openapi/lambda-labs-fabric-api-openapi.yml
+  url: https://artifacts.apis.io/lambda-labs/openapi/lambda-labs-fabric-api-openapi.yml
 - filename: lambda-labs-filesystems-api-openapi.yml
   format: yaml
   label: Lambda Filesystems API
   slug: lambda-labs-filesystems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/openapi/lambda-labs-filesystems-api-openapi.yml
+  url: https://artifacts.apis.io/lambda-labs/openapi/lambda-labs-filesystems-api-openapi.yml
 - filename: lambda-labs-firewalls-api-openapi.yml
   format: yaml
   label: Lambda Firewalls API
   slug: lambda-labs-firewalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/openapi/lambda-labs-firewalls-api-openapi.yml
+  url: https://artifacts.apis.io/lambda-labs/openapi/lambda-labs-firewalls-api-openapi.yml
 - filename: lambda-labs-images-api-openapi.yml
   format: yaml
   label: Lambda Images API
   slug: lambda-labs-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/openapi/lambda-labs-images-api-openapi.yml
+  url: https://artifacts.apis.io/lambda-labs/openapi/lambda-labs-images-api-openapi.yml
 - filename: lambda-labs-instances-api-openapi.yml
   format: yaml
   label: Lambda Instances API
   slug: lambda-labs-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/openapi/lambda-labs-instances-api-openapi.yml
+  url: https://artifacts.apis.io/lambda-labs/openapi/lambda-labs-instances-api-openapi.yml
 - filename: lambda-labs-regions-api-openapi.yml
   format: yaml
   label: Lambda Regions API
   slug: lambda-labs-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/openapi/lambda-labs-regions-api-openapi.yml
+  url: https://artifacts.apis.io/lambda-labs/openapi/lambda-labs-regions-api-openapi.yml
 - filename: lambda-labs-ssh-keys-api-openapi.yml
   format: yaml
   label: Lambda SSH keys API
   slug: lambda-labs-ssh-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/openapi/lambda-labs-ssh-keys-api-openapi.yml
+  url: https://artifacts.apis.io/lambda-labs/openapi/lambda-labs-ssh-keys-api-openapi.yml
 - filename: lambda-labs-support-tickets-api-openapi.yml
   format: yaml
   label: Lambda Support Tickets API
   slug: lambda-labs-support-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/openapi/lambda-labs-support-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/lambda-labs/openapi/lambda-labs-support-tickets-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -99,7 +99,7 @@ source_filename: lambda-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: lambda.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 02:35:14 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: cloud.lambda.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 06:14:15 2026 GMT\n  hsts: null\n- host: docs.lambda.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 06:00:59 2026 GMT\n  hsts: false\ndomains:\n- domain: lambda.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/security/lambda-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lambda-labs/security/lambda-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

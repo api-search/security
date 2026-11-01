@@ -5,19 +5,19 @@ api_specs:
   label: Streamlit Apps API
   slug: streamlit-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamlit/refs/heads/main/openapi/streamlit-apps-api-openapi.yml
+  url: https://artifacts.apis.io/streamlit/openapi/streamlit-apps-api-openapi.yml
 - filename: streamlit-secrets-api-openapi.yml
   format: yaml
   label: Streamlit Secrets API
   slug: streamlit-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamlit/refs/heads/main/openapi/streamlit-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/streamlit/openapi/streamlit-secrets-api-openapi.yml
 - filename: streamlit-workspaces-api-openapi.yml
   format: yaml
   label: Streamlit Workspaces API
   slug: streamlit-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamlit/refs/heads/main/openapi/streamlit-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/streamlit/openapi/streamlit-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -55,7 +55,7 @@ source_filename: streamlit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: streamlit.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 19:13:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.streamlit.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 08:33:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.streamlit.io\n  https: false\ndomains:\n- domain: streamlit.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/streamlit/refs/heads/main/security/streamlit-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/streamlit/security/streamlit-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data Science

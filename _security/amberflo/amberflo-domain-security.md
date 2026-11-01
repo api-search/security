@@ -5,49 +5,49 @@ api_specs:
   label: Amberflo Customers API
   slug: amberflo-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/openapi/amberflo-customers-api-openapi.yml
+  url: https://artifacts.apis.io/amberflo/openapi/amberflo-customers-api-openapi.yml
 - filename: amberflo-event-ingestion-api-openapi.yml
   format: yaml
   label: Amberflo Event Ingestion API
   slug: amberflo-event-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/openapi/amberflo-event-ingestion-api-openapi.yml
+  url: https://artifacts.apis.io/amberflo/openapi/amberflo-event-ingestion-api-openapi.yml
 - filename: amberflo-filtering-rules-api-openapi.yml
   format: yaml
   label: Amberflo Filtering Rules API
   slug: amberflo-filtering-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/openapi/amberflo-filtering-rules-api-openapi.yml
+  url: https://artifacts.apis.io/amberflo/openapi/amberflo-filtering-rules-api-openapi.yml
 - filename: amberflo-invoices-api-openapi.yml
   format: yaml
   label: Amberflo Invoices API
   slug: amberflo-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/openapi/amberflo-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/amberflo/openapi/amberflo-invoices-api-openapi.yml
 - filename: amberflo-meter-definitions-api-openapi.yml
   format: yaml
   label: Amberflo Meter Definitions API
   slug: amberflo-meter-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/openapi/amberflo-meter-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/amberflo/openapi/amberflo-meter-definitions-api-openapi.yml
 - filename: amberflo-prepaid-orders-api-openapi.yml
   format: yaml
   label: Amberflo Prepaid Orders API
   slug: amberflo-prepaid-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/openapi/amberflo-prepaid-orders-api-openapi.yml
+  url: https://artifacts.apis.io/amberflo/openapi/amberflo-prepaid-orders-api-openapi.yml
 - filename: amberflo-pricing-plans-api-openapi.yml
   format: yaml
   label: Amberflo Pricing Plans API
   slug: amberflo-pricing-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/openapi/amberflo-pricing-plans-api-openapi.yml
+  url: https://artifacts.apis.io/amberflo/openapi/amberflo-pricing-plans-api-openapi.yml
 - filename: amberflo-usage-queries-api-openapi.yml
   format: yaml
   label: Amberflo Usage Queries API
   slug: amberflo-usage-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/openapi/amberflo-usage-queries-api-openapi.yml
+  url: https://artifacts.apis.io/amberflo/openapi/amberflo-usage-queries-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ source_filename: amberflo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.amberflo.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 09:55:12 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.amberflo.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 20:57:14 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.amberflo.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 30 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: amberflo.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/security/amberflo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amberflo/security/amberflo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Usage-Based Billing

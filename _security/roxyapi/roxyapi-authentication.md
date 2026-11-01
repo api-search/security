@@ -8,121 +8,121 @@ api_specs:
   label: RoxyAPI Angel Numbers API
   slug: roxyapi-angel-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/openapi/roxyapi-angel-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/roxyapi/openapi/roxyapi-angel-numbers-api-openapi.yml
 - filename: roxyapi-biorhythm-api-openapi.yml
   format: yaml
   label: RoxyAPI Biorhythm API
   slug: roxyapi-biorhythm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/openapi/roxyapi-biorhythm-api-openapi.yml
+  url: https://artifacts.apis.io/roxyapi/openapi/roxyapi-biorhythm-api-openapi.yml
 - filename: roxyapi-chinese-astrology-api-openapi.yml
   format: yaml
   label: RoxyAPI Chinese Astrology API
   slug: roxyapi-chinese-astrology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/openapi/roxyapi-chinese-astrology-api-openapi.yml
+  url: https://artifacts.apis.io/roxyapi/openapi/roxyapi-chinese-astrology-api-openapi.yml
 - filename: roxyapi-crystals-and-healing-stones-api-openapi.yml
   format: yaml
   label: RoxyAPI Crystals and Healing Stones API
   slug: roxyapi-crystals-and-healing-stones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/openapi/roxyapi-crystals-and-healing-stones-api-openapi.yml
+  url: https://artifacts.apis.io/roxyapi/openapi/roxyapi-crystals-and-healing-stones-api-openapi.yml
 - filename: roxyapi-dreams-api-openapi.yml
   format: yaml
   label: RoxyAPI Dreams API
   slug: roxyapi-dreams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/openapi/roxyapi-dreams-api-openapi.yml
+  url: https://artifacts.apis.io/roxyapi/openapi/roxyapi-dreams-api-openapi.yml
 - filename: roxyapi-feng-shui-api-openapi.yml
   format: yaml
   label: RoxyAPI Feng Shui API
   slug: roxyapi-feng-shui-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/openapi/roxyapi-feng-shui-api-openapi.yml
+  url: https://artifacts.apis.io/roxyapi/openapi/roxyapi-feng-shui-api-openapi.yml
 - filename: roxyapi-forecast-api-openapi.yml
   format: yaml
   label: RoxyAPI Forecast API
   slug: roxyapi-forecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/openapi/roxyapi-forecast-api-openapi.yml
+  url: https://artifacts.apis.io/roxyapi/openapi/roxyapi-forecast-api-openapi.yml
 - filename: roxyapi-human-design-api-openapi.yml
   format: yaml
   label: RoxyAPI Human Design API
   slug: roxyapi-human-design-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/openapi/roxyapi-human-design-api-openapi.yml
+  url: https://artifacts.apis.io/roxyapi/openapi/roxyapi-human-design-api-openapi.yml
 - filename: roxyapi-i-ching-api-openapi.yml
   format: yaml
   label: RoxyAPI I Ching API
   slug: roxyapi-i-ching-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/openapi/roxyapi-i-ching-api-openapi.yml
+  url: https://artifacts.apis.io/roxyapi/openapi/roxyapi-i-ching-api-openapi.yml
 - filename: roxyapi-languages-api-openapi.yml
   format: yaml
   label: RoxyAPI Languages API
   slug: roxyapi-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/openapi/roxyapi-languages-api-openapi.yml
+  url: https://artifacts.apis.io/roxyapi/openapi/roxyapi-languages-api-openapi.yml
 - filename: roxyapi-location-and-timezone-api-openapi.yml
   format: yaml
   label: RoxyAPI Location and Timezone API
   slug: roxyapi-location-and-timezone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/openapi/roxyapi-location-and-timezone-api-openapi.yml
+  url: https://artifacts.apis.io/roxyapi/openapi/roxyapi-location-and-timezone-api-openapi.yml
 - filename: roxyapi-numerology-api-openapi.yml
   format: yaml
   label: RoxyAPI Numerology API
   slug: roxyapi-numerology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/openapi/roxyapi-numerology-api-openapi.yml
+  url: https://artifacts.apis.io/roxyapi/openapi/roxyapi-numerology-api-openapi.yml
 - filename: roxyapi-tarot-api-openapi.yml
   format: yaml
   label: RoxyAPI Tarot API
   slug: roxyapi-tarot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/openapi/roxyapi-tarot-api-openapi.yml
+  url: https://artifacts.apis.io/roxyapi/openapi/roxyapi-tarot-api-openapi.yml
 - filename: roxyapi-usage-api-openapi.yml
   format: yaml
   label: RoxyAPI Usage API
   slug: roxyapi-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/openapi/roxyapi-usage-api-openapi.yml
+  url: https://artifacts.apis.io/roxyapi/openapi/roxyapi-usage-api-openapi.yml
 - filename: roxyapi-vedic-astrology-api-openapi.yml
   format: yaml
   label: RoxyAPI Vedic Astrology API
   slug: roxyapi-vedic-astrology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/openapi/roxyapi-vedic-astrology-api-openapi.yml
+  url: https://artifacts.apis.io/roxyapi/openapi/roxyapi-vedic-astrology-api-openapi.yml
 - filename: roxyapi-western-astrology-api-openapi.yml
   format: yaml
   label: RoxyAPI Western Astrology API
   slug: roxyapi-western-astrology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/openapi/roxyapi-western-astrology-api-openapi.yml
+  url: https://artifacts.apis.io/roxyapi/openapi/roxyapi-western-astrology-api-openapi.yml
 - filename: roxyapi-ayurveda-api-openapi.yml
   format: yaml
   label: RoxyAPI Ayurveda API
   slug: roxyapi-ayurveda-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/openapi/roxyapi-ayurveda-api-openapi.yml
+  url: https://artifacts.apis.io/roxyapi/openapi/roxyapi-ayurveda-api-openapi.yml
 - filename: roxyapi-kabbalah-api-openapi.yml
   format: yaml
   label: RoxyAPI Kabbalah API
   slug: roxyapi-kabbalah-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/openapi/roxyapi-kabbalah-api-openapi.yml
+  url: https://artifacts.apis.io/roxyapi/openapi/roxyapi-kabbalah-api-openapi.yml
 - filename: roxyapi-mesoamerican-astrology-api-openapi.yml
   format: yaml
   label: RoxyAPI Mesoamerican Astrology API
   slug: roxyapi-mesoamerican-astrology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/openapi/roxyapi-mesoamerican-astrology-api-openapi.yml
+  url: https://artifacts.apis.io/roxyapi/openapi/roxyapi-mesoamerican-astrology-api-openapi.yml
 - filename: roxyapi-vastu-api-openapi.yml
   format: yaml
   label: RoxyAPI Vastu API
   slug: roxyapi-vastu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/openapi/roxyapi-vastu-api-openapi.yml
+  url: https://artifacts.apis.io/roxyapi/openapi/roxyapi-vastu-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -150,7 +150,7 @@ source_filename: roxyapi-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-03'\nmethod: derived\nsource: openapi/roxyapi-openapi-original.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: Your API key for accessing RoxyAPI. Alternatively, you can pass the API key as\n    a query parameter \"api_key\".\n  sources:\n  - openapi/roxyapi-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/authentication/roxyapi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/roxyapi/authentication/roxyapi-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Astrology

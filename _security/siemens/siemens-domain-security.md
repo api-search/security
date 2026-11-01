@@ -5,31 +5,31 @@ api_specs:
   label: Siemens Alarms API
   slug: siemens-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siemens/refs/heads/main/openapi/siemens-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/siemens/openapi/siemens-alarms-api-openapi.yml
 - filename: siemens-equipment-api-openapi.yml
   format: yaml
   label: Siemens Equipment API
   slug: siemens-equipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siemens/refs/heads/main/openapi/siemens-equipment-api-openapi.yml
+  url: https://artifacts.apis.io/siemens/openapi/siemens-equipment-api-openapi.yml
 - filename: siemens-points-api-openapi.yml
   format: yaml
   label: Siemens Points API
   slug: siemens-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siemens/refs/heads/main/openapi/siemens-points-api-openapi.yml
+  url: https://artifacts.apis.io/siemens/openapi/siemens-points-api-openapi.yml
 - filename: siemens-schedules-api-openapi.yml
   format: yaml
   label: Siemens Schedules API
   slug: siemens-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siemens/refs/heads/main/openapi/siemens-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/siemens/openapi/siemens-schedules-api-openapi.yml
 - filename: siemens-trends-api-openapi.yml
   format: yaml
   label: Siemens Trends API
   slug: siemens-trends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siemens/refs/heads/main/openapi/siemens-trends-api-openapi.yml
+  url: https://artifacts.apis.io/siemens/openapi/siemens-trends-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: siemens-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.siemens.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  6 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.siemens.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 13 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: industrial-assets.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  4 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: siemens.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: industrial-assets.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/siemens/refs/heads/main/security/siemens-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/siemens/security/siemens-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Automation

@@ -8,25 +8,25 @@ api_specs:
   label: Cloudprinter Orders API
   slug: cloudprinter-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudprinter/refs/heads/main/openapi/cloudprinter-orders-api-openapi.yml
+  url: https://artifacts.apis.io/cloudprinter/openapi/cloudprinter-orders-api-openapi.yml
 - filename: cloudprinter-products-api-openapi.yml
   format: yaml
   label: Cloudprinter Products API
   slug: cloudprinter-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudprinter/refs/heads/main/openapi/cloudprinter-products-api-openapi.yml
+  url: https://artifacts.apis.io/cloudprinter/openapi/cloudprinter-products-api-openapi.yml
 - filename: cloudprinter-quotes-api-openapi.yml
   format: yaml
   label: Cloudprinter Quotes API
   slug: cloudprinter-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudprinter/refs/heads/main/openapi/cloudprinter-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/cloudprinter/openapi/cloudprinter-quotes-api-openapi.yml
 - filename: cloudprinter-shipping-api-openapi.yml
   format: yaml
   label: Cloudprinter Shipping API
   slug: cloudprinter-shipping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudprinter/refs/heads/main/openapi/cloudprinter-shipping-api-openapi.yml
+  url: https://artifacts.apis.io/cloudprinter/openapi/cloudprinter-shipping-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: cloudprinter-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cloudprinter-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apikeyBody\n  type: apiKey\n  in: header\n  parameter: apikey\n  description: CloudCore API key from the Cloudprinter.com dashboard. The API key is supplied\n    in the JSON request body as the \"apikey\" field on every call; this scheme is declared as\n    a header for tooling compatibility.\n  sources:\n  - openapi/cloudprinter-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudprinter/refs/heads/main/authentication/cloudprinter-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cloudprinter/authentication/cloudprinter-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Print on Demand

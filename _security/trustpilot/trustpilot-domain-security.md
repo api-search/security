@@ -5,49 +5,49 @@ api_specs:
   label: Trustpilot Business Units API
   slug: trustpilot-business-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/openapi/trustpilot-business-units-api-openapi.yml
+  url: https://artifacts.apis.io/trustpilot/openapi/trustpilot-business-units-api-openapi.yml
 - filename: trustpilot-conversations-api-openapi.yml
   format: yaml
   label: Trustpilot Conversations API
   slug: trustpilot-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/openapi/trustpilot-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/trustpilot/openapi/trustpilot-conversations-api-openapi.yml
 - filename: trustpilot-images-api-openapi.yml
   format: yaml
   label: Trustpilot Images API
   slug: trustpilot-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/openapi/trustpilot-images-api-openapi.yml
+  url: https://artifacts.apis.io/trustpilot/openapi/trustpilot-images-api-openapi.yml
 - filename: trustpilot-invitations-api-openapi.yml
   format: yaml
   label: Trustpilot Invitations API
   slug: trustpilot-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/openapi/trustpilot-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/trustpilot/openapi/trustpilot-invitations-api-openapi.yml
 - filename: trustpilot-product-review-management-api-openapi.yml
   format: yaml
   label: Trustpilot Product Review Management API
   slug: trustpilot-product-review-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/openapi/trustpilot-product-review-management-api-openapi.yml
+  url: https://artifacts.apis.io/trustpilot/openapi/trustpilot-product-review-management-api-openapi.yml
 - filename: trustpilot-product-reviews-api-openapi.yml
   format: yaml
   label: Trustpilot Product Reviews API
   slug: trustpilot-product-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/openapi/trustpilot-product-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/trustpilot/openapi/trustpilot-product-reviews-api-openapi.yml
 - filename: trustpilot-review-management-api-openapi.yml
   format: yaml
   label: Trustpilot Review Management API
   slug: trustpilot-review-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/openapi/trustpilot-review-management-api-openapi.yml
+  url: https://artifacts.apis.io/trustpilot/openapi/trustpilot-review-management-api-openapi.yml
 - filename: trustpilot-reviews-api-openapi.yml
   format: yaml
   label: Trustpilot Reviews API
   slug: trustpilot-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/openapi/trustpilot-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/trustpilot/openapi/trustpilot-reviews-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -86,7 +86,7 @@ source_filename: trustpilot-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.trustpilot.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  1 23:59:59 2026 GMT\n  hsts: null\n- host: developers.trustpilot.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  1 23:59:59 2026 GMT\n  hsts: false\n- host: api.trustpilot.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  1 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: trustpilot.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/security/trustpilot-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trustpilot/security/trustpilot-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Consumer Reviews

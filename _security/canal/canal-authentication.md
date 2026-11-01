@@ -8,103 +8,103 @@ api_specs:
   label: Canal CSV API
   slug: canal-csv-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-csv-api-openapi.yml
+  url: https://artifacts.apis.io/canal/openapi/canal-csv-api-openapi.yml
 - filename: canal-fulfillments-api-openapi.yml
   format: yaml
   label: Canal Fulfillments API
   slug: canal-fulfillments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-fulfillments-api-openapi.yml
+  url: https://artifacts.apis.io/canal/openapi/canal-fulfillments-api-openapi.yml
 - filename: canal-markets-api-openapi.yml
   format: yaml
   label: Canal Markets API
   slug: canal-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-markets-api-openapi.yml
+  url: https://artifacts.apis.io/canal/openapi/canal-markets-api-openapi.yml
 - filename: canal-max-shipping-rates-api-openapi.yml
   format: yaml
   label: Canal Max Shipping Rates API
   slug: canal-max-shipping-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-max-shipping-rates-api-openapi.yml
+  url: https://artifacts.apis.io/canal/openapi/canal-max-shipping-rates-api-openapi.yml
 - filename: canal-orders-api-openapi.yml
   format: yaml
   label: Canal Orders API
   slug: canal-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-orders-api-openapi.yml
+  url: https://artifacts.apis.io/canal/openapi/canal-orders-api-openapi.yml
 - filename: canal-product-sets-api-openapi.yml
   format: yaml
   label: Canal Product Sets API
   slug: canal-product-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-product-sets-api-openapi.yml
+  url: https://artifacts.apis.io/canal/openapi/canal-product-sets-api-openapi.yml
 - filename: canal-products-api-openapi.yml
   format: yaml
   label: Canal Products API
   slug: canal-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-products-api-openapi.yml
+  url: https://artifacts.apis.io/canal/openapi/canal-products-api-openapi.yml
 - filename: canal-refunds-api-openapi.yml
   format: yaml
   label: Canal Refunds API
   slug: canal-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/canal/openapi/canal-refunds-api-openapi.yml
 - filename: canal-returns-api-openapi.yml
   format: yaml
   label: Canal Returns API
   slug: canal-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-returns-api-openapi.yml
+  url: https://artifacts.apis.io/canal/openapi/canal-returns-api-openapi.yml
 - filename: canal-selection-api-openapi.yml
   format: yaml
   label: Canal Selection API
   slug: canal-selection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-selection-api-openapi.yml
+  url: https://artifacts.apis.io/canal/openapi/canal-selection-api-openapi.yml
 - filename: canal-shipping-api-openapi.yml
   format: yaml
   label: Canal Shipping API
   slug: canal-shipping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-shipping-api-openapi.yml
+  url: https://artifacts.apis.io/canal/openapi/canal-shipping-api-openapi.yml
 - filename: canal-shipping-rates-api-openapi.yml
   format: yaml
   label: Canal Shipping Rates API
   slug: canal-shipping-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-shipping-rates-api-openapi.yml
+  url: https://artifacts.apis.io/canal/openapi/canal-shipping-rates-api-openapi.yml
 - filename: canal-shops-api-openapi.yml
   format: yaml
   label: Canal Shops API
   slug: canal-shops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-shops-api-openapi.yml
+  url: https://artifacts.apis.io/canal/openapi/canal-shops-api-openapi.yml
 - filename: canal-tax-and-shipping-api-openapi.yml
   format: yaml
   label: Canal Tax And Shipping API
   slug: canal-tax-and-shipping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-tax-and-shipping-api-openapi.yml
+  url: https://artifacts.apis.io/canal/openapi/canal-tax-and-shipping-api-openapi.yml
 - filename: canal-tax-api-openapi.yml
   format: yaml
   label: Canal Tax API
   slug: canal-tax-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-tax-api-openapi.yml
+  url: https://artifacts.apis.io/canal/openapi/canal-tax-api-openapi.yml
 - filename: canal-variants-api-openapi.yml
   format: yaml
   label: Canal Variants API
   slug: canal-variants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-variants-api-openapi.yml
+  url: https://artifacts.apis.io/canal/openapi/canal-variants-api-openapi.yml
 - filename: canal-webhooks-api-openapi.yml
   format: yaml
   label: Canal Webhooks API
   slug: canal-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/canal/openapi/canal-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -143,7 +143,7 @@ source_filename: canal-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/canal-openapi-original.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/canal-openapi-original.yml\n- name: platformAppId\n  type: apiKey\n  in: header\n  parameter: X-CANAL-APP-ID\n  sources:\n  - openapi/canal-openapi-original.yml\n- name: platformAppToken\n  type: apiKey\n  in: header\n  parameter: X-CANAL-APP-TOKEN\n  sources:\n  - openapi/canal-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/authentication/canal-authentication.yml
+source_yaml_url: https://artifacts.apis.io/canal/authentication/canal-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Company

@@ -27,7 +27,7 @@ source_filename: bmfprecision-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bmftec3d.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 19 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: bmftec3d.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bmfprecision/refs/heads/main/security/bmfprecision-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bmfprecision/security/bmfprecision-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - 3D Printing

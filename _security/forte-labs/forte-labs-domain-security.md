@@ -33,7 +33,7 @@ source_filename: forte-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.forte.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 15:26:39 2026 GMT\n  hsts: false\ndomains:\n- domain: forte.io\n  dnssec: false\n  caa:\n  - 128 issue \"pki.goog\"\n  - 128 iodef \"mailto:security@forte.io\"\n  - 128 issue \"amazon.com\"\n  - 128 issue \"cloudflare.com\"\n  - 128 issue \"godaddy.com\"\n  - 128 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forte-labs/refs/heads/main/security/forte-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/forte-labs/security/forte-labs-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

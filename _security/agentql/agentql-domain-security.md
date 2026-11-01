@@ -5,19 +5,31 @@ api_specs:
   label: AgentQL Query Data API
   slug: agentql-query-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentql/refs/heads/main/openapi/agentql-query-data-api-openapi.yml
+  url: https://artifacts.apis.io/agentql/openapi/agentql-query-data-api-openapi.yml
 - filename: agentql-query-document-api-openapi.yml
   format: yaml
   label: AgentQL Query Document API
   slug: agentql-query-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentql/refs/heads/main/openapi/agentql-query-document-api-openapi.yml
+  url: https://artifacts.apis.io/agentql/openapi/agentql-query-document-api-openapi.yml
 - filename: agentql-remote-browser-api-openapi.yml
   format: yaml
   label: AgentQL Remote Browser API
   slug: agentql-remote-browser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentql/refs/heads/main/openapi/agentql-remote-browser-api-openapi.yml
+  url: https://artifacts.apis.io/agentql/openapi/agentql-remote-browser-api-openapi.yml
+- filename: agentql-agentql-rest-api-api-openapi.yml
+  format: yaml
+  label: AgentQL AgentQL REST API
+  slug: agentql-agentql-rest-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentql/openapi/agentql-agentql-rest-api-api-openapi.yml
+- filename: agentql-agentql-tetra-remote-chrome-browser-api-openapi.yml
+  format: yaml
+  label: AgentQL AgentQL Tetra (Remote Chrome Browser) API
+  slug: agentql-agentql-tetra-remote-chrome-browser-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentql/openapi/agentql-agentql-tetra-remote-chrome-browser-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +70,7 @@ source_filename: agentql-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.agentql.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 17:26:44 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.agentql.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 05:26:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.agentql.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: agentql.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentql/refs/heads/main/security/agentql-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/agentql/security/agentql-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Agents

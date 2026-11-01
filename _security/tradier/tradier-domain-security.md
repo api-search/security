@@ -5,49 +5,49 @@ api_specs:
   label: Tradier Streaming API
   slug: streaming-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/asyncapi/tradier-asyncapi.yml
+  url: https://artifacts.apis.io/tradier/asyncapi/tradier-asyncapi.yml
 - filename: tradier-accounts-api-openapi.yml
   format: yaml
   label: Tradier Accounts API
   slug: tradier-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/openapi/tradier-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/tradier/openapi/tradier-accounts-api-openapi.yml
 - filename: tradier-market-data-api-openapi.yml
   format: yaml
   label: Tradier Market Data API
   slug: tradier-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/openapi/tradier-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/tradier/openapi/tradier-market-data-api-openapi.yml
 - filename: tradier-options-api-openapi.yml
   format: yaml
   label: Tradier Options API
   slug: tradier-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/openapi/tradier-options-api-openapi.yml
+  url: https://artifacts.apis.io/tradier/openapi/tradier-options-api-openapi.yml
 - filename: tradier-streaming-api-openapi.yml
   format: yaml
   label: Tradier Streaming API
   slug: tradier-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/openapi/tradier-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/tradier/openapi/tradier-streaming-api-openapi.yml
 - filename: tradier-trading-api-openapi.yml
   format: yaml
   label: Tradier Trading API
   slug: tradier-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/openapi/tradier-trading-api-openapi.yml
+  url: https://artifacts.apis.io/tradier/openapi/tradier-trading-api-openapi.yml
 - filename: tradier-user-api-openapi.yml
   format: yaml
   label: Tradier User API
   slug: tradier-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/openapi/tradier-user-api-openapi.yml
+  url: https://artifacts.apis.io/tradier/openapi/tradier-user-api-openapi.yml
 - filename: tradier-watchlists-api-openapi.yml
   format: yaml
   label: Tradier Watchlists API
   slug: tradier-watchlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/openapi/tradier-watchlists-api-openapi.yml
+  url: https://artifacts.apis.io/tradier/openapi/tradier-watchlists-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -89,7 +89,7 @@ source_filename: tradier-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tradier.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  6 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.tradier.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 22:58:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.tradier.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar  6 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: tradier.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/security/tradier-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tradier/security/tradier-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fintech

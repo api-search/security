@@ -7,43 +7,43 @@ api_specs:
   label: People First Bank Banking Account Balances API
   slug: people-first-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/openapi/people-first-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/people-first-bank/openapi/people-first-bank-banking-account-balances-api-openapi.yml
 - filename: people-first-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: People First Bank Banking Account Direct Debits API
   slug: people-first-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/openapi/people-first-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/people-first-bank/openapi/people-first-bank-banking-account-direct-debits-api-openapi.yml
 - filename: people-first-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: People First Bank Banking Account Scheduled Payments API
   slug: people-first-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/openapi/people-first-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/people-first-bank/openapi/people-first-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: people-first-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: People First Bank Banking Account Transactions API
   slug: people-first-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/openapi/people-first-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/people-first-bank/openapi/people-first-bank-banking-account-transactions-api-openapi.yml
 - filename: people-first-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: People First Bank Banking Accounts API
   slug: people-first-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/openapi/people-first-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/people-first-bank/openapi/people-first-bank-banking-accounts-api-openapi.yml
 - filename: people-first-bank-banking-payees-api-openapi.yml
   format: yaml
   label: People First Bank Banking Payees API
   slug: people-first-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/openapi/people-first-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/people-first-bank/openapi/people-first-bank-banking-payees-api-openapi.yml
 - filename: people-first-bank-banking-products-api-openapi.yml
   format: yaml
   label: People First Bank Banking Products API
   slug: people-first-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/openapi/people-first-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/people-first-bank/openapi/people-first-bank-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: >-\n  https://w
   \ data sharing (FAPI OAuth2/OIDC via the CDR accredited-data-recipient model)\ntiers:\n  - name: product-reference-data\n    surface: >-\n      /cds-au/v1/banking/products and /banking/products/{productId}\n    style: none\n    evidence: >-\n      Public and unauthenticated. Live GET https://public.openbanking.peoplefirstbank.com.au/cds-au/v1/banking/products\n      returns HTTP 200 (x-v 5) with a data.products array and no credential required.\n  - name: consumer-data-sharing\n    surface: >-\n      accounts, balances, transactions, direct-debits, scheduled-payments, payees\n    style: oauth2-oidc-fapi\n    evidence: >-\n      Unauthenticated GET https://public.openbanking.peoplefirstbank.com.au/cds-au/v1/banking/accounts\n      returns HTTP 403, confirming the surface is gated. Access is granted only to CDR-accredited\n      data recipients (ADRs) holding a consumer authorisation, per the DSB Consumer Data Standards.\n    profile:\n      standard: FAPI 1.0 Advanced (AU CDR InfoSec profile)\n\
   \      register: https://www.cdr.gov.au/  # CDR Register brokers ADR<->data-holder trust\n      client_authentication: private_key_jwt\n      request_object: pushed-authorization-requests (PAR) + JARM\n      token_binding: mutual-TLS sender-constrained access tokens\n      id_token: OpenID Connect (Hybrid / Authorization Code)\nschemes:\n  - name: none\n    type: none\n    applies_to: product-reference-data\n    sources: [documentation]\n  - name: cdr-oauth2-oidc\n    type: oauth2\n    scheme: authorizationCode\n    note: >-\n      FAPI-secured OAuth2/OIDC brokered by the CDR Register; not a self-service developer OAuth\n      server. People First Bank publishes no client_id issuance flow outside CDR accreditation.\n    sources: [documentation, dsb-infosec-profile]\n  - name: cdr-mtls\n    type: mutualTLS\n    note: mTLS sender-constrained tokens and the MTLS data-holder base URL (mtls.dh host).\n    sources: [openapi/people-first-bank-cds-banking-products-openapi.yml, dsb-infosec-profile]\n\
   docs:\n  - https://www.peoplefirstbank.com.au/help-and-support/open-banking/open-banking-for-developers\n  - https://consumerdatastandardsaustralia.github.io/standards/#security-profile\ndeveloper_contact: OpenBankingSupport@peopleschoice.com.au\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/authentication/people-first-bank-authentication.yml
+source_yaml_url: https://artifacts.apis.io/people-first-bank/authentication/people-first-bank-authentication.yml
 summary_line: none/oauth2/openIdConnect/mutualTLS · 3 schemes
 tags:
 - Finance

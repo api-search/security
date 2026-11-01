@@ -8,31 +8,31 @@ api_specs:
   label: VMware Tanzu Authentication API
   slug: vmware-tanzu-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/openapi/vmware-tanzu-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/vmware-tanzu/openapi/vmware-tanzu-authentication-api-openapi.yml
 - filename: vmware-tanzu-clusters-api-openapi.yml
   format: yaml
   label: VMware Tanzu Clusters API
   slug: vmware-tanzu-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/openapi/vmware-tanzu-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/vmware-tanzu/openapi/vmware-tanzu-clusters-api-openapi.yml
 - filename: vmware-tanzu-global-namespaces-api-openapi.yml
   format: yaml
   label: VMware Tanzu Global Namespaces API
   slug: vmware-tanzu-global-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/openapi/vmware-tanzu-global-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/vmware-tanzu/openapi/vmware-tanzu-global-namespaces-api-openapi.yml
 - filename: vmware-tanzu-resource-groups-api-openapi.yml
   format: yaml
   label: VMware Tanzu Resource Groups API
   slug: vmware-tanzu-resource-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/openapi/vmware-tanzu-resource-groups-api-openapi.yml
+  url: https://artifacts.apis.io/vmware-tanzu/openapi/vmware-tanzu-resource-groups-api-openapi.yml
 - filename: vmware-tanzu-tanzu-kubernetes-clusters-api-openapi.yml
   format: yaml
   label: VMware Tanzu Kubernetes Clusters API
   slug: vmware-tanzu-tanzu-kubernetes-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/openapi/vmware-tanzu-tanzu-kubernetes-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/vmware-tanzu/openapi/vmware-tanzu-tanzu-kubernetes-clusters-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: vmware-tanzu-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/vmware-tanzu-service-mesh-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: CspAuthToken\n  type: apiKey\n  in: header\n  parameter: csp-auth-token\n  description: Short-lived Bearer token obtained by exchanging a CSP API token via POST /csp/gateway/am/api/auth/api-tokens/authorize.\n  sources:\n  - openapi/vmware-tanzu-service-mesh-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/authentication/vmware-tanzu-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vmware-tanzu/authentication/vmware-tanzu-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Cloud-Native

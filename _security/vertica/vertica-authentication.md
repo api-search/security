@@ -7,13 +7,13 @@ api_specs:
   label: Vertica Health API
   slug: vertica-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vertica/refs/heads/main/openapi/vertica-health-api-openapi.yml
+  url: https://artifacts.apis.io/vertica/openapi/vertica-health-api-openapi.yml
 - filename: vertica-lifecycle-api-openapi.yml
   format: yaml
   label: Vertica Lifecycle API
   slug: vertica-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vertica/refs/heads/main/openapi/vertica-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/vertica/openapi/vertica-lifecycle-api-openapi.yml
 auth_types:
 - mutualTLS
 description: ''
@@ -39,7 +39,7 @@ source_filename: vertica-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/vertica-openapi.yml\nsummary:\n  types:\n  - mutualTLS\nschemes:\n- name: mtls\n  type: mutualTLS\n  description: Mutual TLS using NMA client/server certificates\n  sources:\n  - openapi/vertica-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vertica/refs/heads/main/authentication/vertica-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vertica/authentication/vertica-authentication.yml
 summary_line: mutualTLS · 1 scheme
 tags:
 - Database

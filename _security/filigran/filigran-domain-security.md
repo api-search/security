@@ -44,7 +44,7 @@ source_filename: filigran-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: filigran.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 18:11:47 2026 GMT\n  hsts: false\n- host: docs.opencti.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 09:30:51 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n- host: demo.opencti.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 02:58:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: filigran.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: opencti.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/filigran/refs/heads/main/security/filigran-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/filigran/security/filigran-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

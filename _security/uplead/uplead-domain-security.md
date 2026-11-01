@@ -5,49 +5,49 @@ api_specs:
   label: UpLead Account API
   slug: uplead-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/openapi/uplead-account-api-openapi.yml
+  url: https://artifacts.apis.io/uplead/openapi/uplead-account-api-openapi.yml
 - filename: uplead-combined-api-openapi.yml
   format: yaml
   label: UpLead Combined API
   slug: uplead-combined-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/openapi/uplead-combined-api-openapi.yml
+  url: https://artifacts.apis.io/uplead/openapi/uplead-combined-api-openapi.yml
 - filename: uplead-company-api-openapi.yml
   format: yaml
   label: UpLead Company API
   slug: uplead-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/openapi/uplead-company-api-openapi.yml
+  url: https://artifacts.apis.io/uplead/openapi/uplead-company-api-openapi.yml
 - filename: uplead-lists-api-openapi.yml
   format: yaml
   label: UpLead Lists API
   slug: uplead-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/openapi/uplead-lists-api-openapi.yml
+  url: https://artifacts.apis.io/uplead/openapi/uplead-lists-api-openapi.yml
 - filename: uplead-person-api-openapi.yml
   format: yaml
   label: UpLead Person API
   slug: uplead-person-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/openapi/uplead-person-api-openapi.yml
+  url: https://artifacts.apis.io/uplead/openapi/uplead-person-api-openapi.yml
 - filename: uplead-prospector-api-openapi.yml
   format: yaml
   label: UpLead Prospector API
   slug: uplead-prospector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/openapi/uplead-prospector-api-openapi.yml
+  url: https://artifacts.apis.io/uplead/openapi/uplead-prospector-api-openapi.yml
 - filename: uplead-reference-api-openapi.yml
   format: yaml
   label: UpLead Reference API
   slug: uplead-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/openapi/uplead-reference-api-openapi.yml
+  url: https://artifacts.apis.io/uplead/openapi/uplead-reference-api-openapi.yml
 - filename: uplead-search-api-openapi.yml
   format: yaml
   label: UpLead Search API
   slug: uplead-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/openapi/uplead-search-api-openapi.yml
+  url: https://artifacts.apis.io/uplead/openapi/uplead-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ source_filename: uplead-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.uplead.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 00:22:03 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.uplead.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 00:22:03 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.uplead.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 00:22:03 2026 GMT\n  hsts: null\ndomains:\n- domain: uplead.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/security/uplead-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/uplead/security/uplead-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - B2B

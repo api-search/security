@@ -8,19 +8,19 @@ api_specs:
   label: Thermal Power Capacity API
   slug: thermal-power-capacity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thermal-power/refs/heads/main/openapi/thermal-power-capacity-api-openapi.yml
+  url: https://artifacts.apis.io/thermal-power/openapi/thermal-power-capacity-api-openapi.yml
 - filename: thermal-power-plant-operations-api-openapi.yml
   format: yaml
   label: Thermal Power Plant Operations API
   slug: thermal-power-plant-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thermal-power/refs/heads/main/openapi/thermal-power-plant-operations-api-openapi.yml
+  url: https://artifacts.apis.io/thermal-power/openapi/thermal-power-plant-operations-api-openapi.yml
 - filename: thermal-power-power-operations-api-openapi.yml
   format: yaml
   label: Thermal Power Operations API
   slug: thermal-power-power-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thermal-power/refs/heads/main/openapi/thermal-power-power-operations-api-openapi.yml
+  url: https://artifacts.apis.io/thermal-power/openapi/thermal-power-power-operations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: thermal-power-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/thermal-power-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: EIA API key. Register for free at https://www.eia.gov/opendata/register.php\n  sources:\n  - openapi/thermal-power-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thermal-power/refs/heads/main/authentication/thermal-power-authentication.yml
+source_yaml_url: https://artifacts.apis.io/thermal-power/authentication/thermal-power-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Energy

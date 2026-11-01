@@ -5,7 +5,7 @@ api_specs:
   label: Ivoyant API
   slug: koodisi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koodisi/refs/heads/main/openapi/_ae-authored/koodisi-openapi-generated.yml
+  url: https://artifacts.apis.io/koodisi/openapi/_ae-authored/koodisi-openapi-generated.yml
 description: ''
 domains:
 - caa: []
@@ -34,7 +34,7 @@ source_filename: koodisi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: koodisi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  3 05:39:22 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: koodisi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/koodisi/refs/heads/main/security/koodisi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/koodisi/security/koodisi-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Integration Platform
@@ -44,5 +44,5 @@ tags:
 - API Management
 - Governance
 - AI Agents
-- Multi‑tenant
+- Multi-Tenant
 ---

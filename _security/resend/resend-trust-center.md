@@ -5,37 +5,37 @@ api_specs:
   label: Resend Audiences API
   slug: resend-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resend/refs/heads/main/openapi/resend-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/resend/openapi/resend-audiences-api-openapi.yml
 - filename: resend-broadcasts-api-openapi.yml
   format: yaml
   label: Resend Broadcasts API
   slug: resend-broadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resend/refs/heads/main/openapi/resend-broadcasts-api-openapi.yml
+  url: https://artifacts.apis.io/resend/openapi/resend-broadcasts-api-openapi.yml
 - filename: resend-domains-api-openapi.yml
   format: yaml
   label: Resend Domains API
   slug: resend-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resend/refs/heads/main/openapi/resend-domains-api-openapi.yml
+  url: https://artifacts.apis.io/resend/openapi/resend-domains-api-openapi.yml
 - filename: resend-emails-api-openapi.yml
   format: yaml
   label: Resend Emails API
   slug: resend-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resend/refs/heads/main/openapi/resend-emails-api-openapi.yml
+  url: https://artifacts.apis.io/resend/openapi/resend-emails-api-openapi.yml
 - filename: resend-send-api-openapi.yml
   format: yaml
   label: Resend Send API
   slug: resend-send-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resend/refs/heads/main/openapi/resend-send-api-openapi.yml
+  url: https://artifacts.apis.io/resend/openapi/resend-send-api-openapi.yml
 - filename: resend-apis-api-openapi.yml
   format: yaml
   label: Resend APIS API
   slug: resend-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resend/refs/heads/main/openapi/resend-apis-api-openapi.yml
+  url: https://artifacts.apis.io/resend/openapi/resend-apis-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -55,7 +55,7 @@ source_filename: resend-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://resend.com/security\nurl: https://resend.com/security\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\n- GDPR\nevidence:\n- source: https://resend.com/security\n  keywords:\n  - soc 2\n  - iso 27001\n  - hipaa\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/resend/refs/heads/main/security/resend-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/resend/security/resend-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Email

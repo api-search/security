@@ -5,31 +5,31 @@ api_specs:
   label: SpruceID Credentials API
   slug: spruceid-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruceid/refs/heads/main/openapi/spruceid-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/spruceid/openapi/spruceid-credentials-api-openapi.yml
 - filename: spruceid-health-api-openapi.yml
   format: yaml
   label: SpruceID Health API
   slug: spruceid-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruceid/refs/heads/main/openapi/spruceid-health-api-openapi.yml
+  url: https://artifacts.apis.io/spruceid/openapi/spruceid-health-api-openapi.yml
 - filename: spruceid-identifiers-api-openapi.yml
   format: yaml
   label: SpruceID Identifiers API
   slug: spruceid-identifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruceid/refs/heads/main/openapi/spruceid-identifiers-api-openapi.yml
+  url: https://artifacts.apis.io/spruceid/openapi/spruceid-identifiers-api-openapi.yml
 - filename: spruceid-presentations-api-openapi.yml
   format: yaml
   label: SpruceID Presentations API
   slug: spruceid-presentations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruceid/refs/heads/main/openapi/spruceid-presentations-api-openapi.yml
+  url: https://artifacts.apis.io/spruceid/openapi/spruceid-presentations-api-openapi.yml
 - filename: spruceid-status-api-openapi.yml
   format: yaml
   label: SpruceID Status API
   slug: spruceid-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruceid/refs/heads/main/openapi/spruceid-status-api-openapi.yml
+  url: https://artifacts.apis.io/spruceid/openapi/spruceid-status-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: spruceid-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: spruceid.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 13 10:18:08 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: spruceid.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 14:33:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: eips.ethereum.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 09:32:19 2026 GMT\n  hsts: false\ndomains:\n- domain: spruceid.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: spruceid.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spruceid/refs/heads/main/security/spruceid-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/spruceid/security/spruceid-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Decentralized Identity

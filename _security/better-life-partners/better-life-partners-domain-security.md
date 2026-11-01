@@ -27,7 +27,7 @@ source_filename: better-life-partners-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: betterlifepartners.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 12:25:14 2026 GMT\n  hsts: false\ndomains:\n- domain: betterlifepartners.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/better-life-partners/refs/heads/main/security/better-life-partners-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/better-life-partners/security/better-life-partners-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -33,7 +33,7 @@ source_filename: teamviewer-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.teamviewer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: webapi.teamviewer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: teamviewer.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teamviewer/refs/heads/main/security/teamviewer-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/teamviewer/security/teamviewer-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Remote Access

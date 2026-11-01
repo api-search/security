@@ -5,49 +5,49 @@ api_specs:
   label: Zest Equity Authentication API
   slug: zest-equity-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/openapi/zest-equity-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/zest-equity/openapi/zest-equity-authentication-api-openapi.yml
 - filename: zest-equity-contracts-api-openapi.yml
   format: yaml
   label: Zest Equity Contracts API
   slug: zest-equity-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/openapi/zest-equity-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/zest-equity/openapi/zest-equity-contracts-api-openapi.yml
 - filename: zest-equity-investors-api-openapi.yml
   format: yaml
   label: Zest Equity Investors API
   slug: zest-equity-investors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/openapi/zest-equity-investors-api-openapi.yml
+  url: https://artifacts.apis.io/zest-equity/openapi/zest-equity-investors-api-openapi.yml
 - filename: zest-equity-spv-requests-api-openapi.yml
   format: yaml
   label: Zest Equity SPV Requests API
   slug: zest-equity-spv-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/openapi/zest-equity-spv-requests-api-openapi.yml
+  url: https://artifacts.apis.io/zest-equity/openapi/zest-equity-spv-requests-api-openapi.yml
 - filename: zest-equity-subscription-forms-api-openapi.yml
   format: yaml
   label: Zest Equity Subscription Forms API
   slug: zest-equity-subscription-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/openapi/zest-equity-subscription-forms-api-openapi.yml
+  url: https://artifacts.apis.io/zest-equity/openapi/zest-equity-subscription-forms-api-openapi.yml
 - filename: zest-equity-subscription-fundings-api-openapi.yml
   format: yaml
   label: Zest Equity Subscription Fundings API
   slug: zest-equity-subscription-fundings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/openapi/zest-equity-subscription-fundings-api-openapi.yml
+  url: https://artifacts.apis.io/zest-equity/openapi/zest-equity-subscription-fundings-api-openapi.yml
 - filename: zest-equity-subscriptions-api-openapi.yml
   format: yaml
   label: Zest Equity Subscriptions API
   slug: zest-equity-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/openapi/zest-equity-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/zest-equity/openapi/zest-equity-subscriptions-api-openapi.yml
 - filename: zest-equity-system-api-openapi.yml
   format: yaml
   label: Zest Equity System API
   slug: zest-equity-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/openapi/zest-equity-system-api-openapi.yml
+  url: https://artifacts.apis.io/zest-equity/openapi/zest-equity-system-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: zest-equity-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: zestequity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 11:02:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: zestequity.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/security/zest-equity-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zest-equity/security/zest-equity-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

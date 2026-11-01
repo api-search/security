@@ -8,109 +8,109 @@ api_specs:
   label: Braiins Accounts API
   slug: braiins-academy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braiins-academy/refs/heads/main/openapi/braiins-academy-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/braiins-academy/openapi/braiins-academy-accounts-api-openapi.yml
 - filename: braiins-academy-actions-api-openapi.yml
   format: yaml
   label: Braiins Actions API
   slug: braiins-academy-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braiins-academy/refs/heads/main/openapi/braiins-academy-actions-api-openapi.yml
+  url: https://artifacts.apis.io/braiins-academy/openapi/braiins-academy-actions-api-openapi.yml
 - filename: braiins-academy-advanced-settings-api-openapi.yml
   format: yaml
   label: Braiins Advanced Settings API
   slug: braiins-academy-advanced-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braiins-academy/refs/heads/main/openapi/braiins-academy-advanced-settings-api-openapi.yml
+  url: https://artifacts.apis.io/braiins-academy/openapi/braiins-academy-advanced-settings-api-openapi.yml
 - filename: braiins-academy-authentication-api-openapi.yml
   format: yaml
   label: Braiins Authentication API
   slug: braiins-academy-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braiins-academy/refs/heads/main/openapi/braiins-academy-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/braiins-academy/openapi/braiins-academy-authentication-api-openapi.yml
 - filename: braiins-academy-bid-orders-api-openapi.yml
   format: yaml
   label: Braiins Bid orders API
   slug: braiins-academy-bid-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braiins-academy/refs/heads/main/openapi/braiins-academy-bid-orders-api-openapi.yml
+  url: https://artifacts.apis.io/braiins-academy/openapi/braiins-academy-bid-orders-api-openapi.yml
 - filename: braiins-academy-configuration-api-openapi.yml
   format: yaml
   label: Braiins Configuration API
   slug: braiins-academy-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braiins-academy/refs/heads/main/openapi/braiins-academy-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/braiins-academy/openapi/braiins-academy-configuration-api-openapi.yml
 - filename: braiins-academy-contracts-api-openapi.yml
   format: yaml
   label: Braiins Contracts API
   slug: braiins-academy-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braiins-academy/refs/heads/main/openapi/braiins-academy-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/braiins-academy/openapi/braiins-academy-contracts-api-openapi.yml
 - filename: braiins-academy-cooling-api-openapi.yml
   format: yaml
   label: Braiins Cooling API
   slug: braiins-academy-cooling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braiins-academy/refs/heads/main/openapi/braiins-academy-cooling-api-openapi.yml
+  url: https://artifacts.apis.io/braiins-academy/openapi/braiins-academy-cooling-api-openapi.yml
 - filename: braiins-academy-documentation-api-openapi.yml
   format: yaml
   label: Braiins Documentation API
   slug: braiins-academy-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braiins-academy/refs/heads/main/openapi/braiins-academy-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/braiins-academy/openapi/braiins-academy-documentation-api-openapi.yml
 - filename: braiins-academy-license-api-openapi.yml
   format: yaml
   label: Braiins License API
   slug: braiins-academy-license-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braiins-academy/refs/heads/main/openapi/braiins-academy-license-api-openapi.yml
+  url: https://artifacts.apis.io/braiins-academy/openapi/braiins-academy-license-api-openapi.yml
 - filename: braiins-academy-market-configuration-api-openapi.yml
   format: yaml
   label: Braiins Market configuration API
   slug: braiins-academy-market-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braiins-academy/refs/heads/main/openapi/braiins-academy-market-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/braiins-academy/openapi/braiins-academy-market-configuration-api-openapi.yml
 - filename: braiins-academy-market-data-api-openapi.yml
   format: yaml
   label: Braiins Market data API
   slug: braiins-academy-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braiins-academy/refs/heads/main/openapi/braiins-academy-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/braiins-academy/openapi/braiins-academy-market-data-api-openapi.yml
 - filename: braiins-academy-miner-api-openapi.yml
   format: yaml
   label: Braiins Miner API
   slug: braiins-academy-miner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braiins-academy/refs/heads/main/openapi/braiins-academy-miner-api-openapi.yml
+  url: https://artifacts.apis.io/braiins-academy/openapi/braiins-academy-miner-api-openapi.yml
 - filename: braiins-academy-network-api-openapi.yml
   format: yaml
   label: Braiins Network API
   slug: braiins-academy-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braiins-academy/refs/heads/main/openapi/braiins-academy-network-api-openapi.yml
+  url: https://artifacts.apis.io/braiins-academy/openapi/braiins-academy-network-api-openapi.yml
 - filename: braiins-academy-performance-api-openapi.yml
   format: yaml
   label: Braiins Performance API
   slug: braiins-academy-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braiins-academy/refs/heads/main/openapi/braiins-academy-performance-api-openapi.yml
+  url: https://artifacts.apis.io/braiins-academy/openapi/braiins-academy-performance-api-openapi.yml
 - filename: braiins-academy-pools-api-openapi.yml
   format: yaml
   label: Braiins Pools API
   slug: braiins-academy-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braiins-academy/refs/heads/main/openapi/braiins-academy-pools-api-openapi.yml
+  url: https://artifacts.apis.io/braiins-academy/openapi/braiins-academy-pools-api-openapi.yml
 - filename: braiins-academy-upgrade-api-openapi.yml
   format: yaml
   label: Braiins Upgrade API
   slug: braiins-academy-upgrade-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braiins-academy/refs/heads/main/openapi/braiins-academy-upgrade-api-openapi.yml
+  url: https://artifacts.apis.io/braiins-academy/openapi/braiins-academy-upgrade-api-openapi.yml
 - filename: braiins-academy-version-api-openapi.yml
   format: yaml
   label: Braiins Version API
   slug: braiins-academy-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braiins-academy/refs/heads/main/openapi/braiins-academy-version-api-openapi.yml
+  url: https://artifacts.apis.io/braiins-academy/openapi/braiins-academy-version-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -183,7 +183,7 @@ source_yaml: "generated: '2026-09-04'\nmethod: searched\nsource: >-\n  https://a
   \    sources:\n      - openapi/braiins-academy-braiins-hashpower-openapi.yml\n  - name: PoolAuthToken\n    api: braiins-academy:braiins-pool-api\n    type: apiKey\n    in: header\n    parameter: Pool-Auth-Token\n    alternate_parameter: X-Pool-Auth-Token\n    description: >-\n      Braiins Pool access-profile token. Each access profile carries its own token; a profile\n      must have \"Allow access to web APIs\" enabled before a token can be generated.\n    issuance: Settings > Access Profiles > Allow access to web APIs > Generate New token\n    revocation: >-\n      Regenerating a profile's token immediately invalidates the previous one. Tokens are\n      scoped to the permissions of their access profile.\n    docs: https://academy.braiins.com/braiins-pool/monitoring.md\n    sources:\n      - https://academy.braiins.com/braiins-pool/monitoring.md\n  - name: BosSessionToken\n    api: braiins-academy:braiins-os-api\n    type: http\n    scheme: bearer\n    in: header\n    parameter: Authorization\n\
   \    description: >-\n      Braiins OS Public API device session token. POST /api/v1/auth/login with the miner's\n      username and password returns a token that must be sent in the Authorization header of\n      subsequent requests. Authentication is against the individual miner, not a Braiins account.\n    login_operation: login\n    password_operation: setPassword\n    grpc_equivalent: >-\n      braiins.bos.v1.AuthenticationService (grpc/braiins-academy-bos-authentication.proto) —\n      the gRPC surface issues the same session token.\n    note: >-\n      The published OpenAPI declares no components.securitySchemes and no top-level security[],\n      so the Authorization requirement is documented in the login operation description and in\n      the BOS gRPC docs rather than expressed in the machine-readable contract. Recorded as a\n      contract gap, not as an absent auth model.\n    docs: https://academy.braiins.com/braiins-os/papi-about.md\n    sources:\n      - openapi/braiins-academy-braiins-os-public-rest-api-openapi.json\n\
   \      - grpc/braiins-academy-bos-authentication.proto\ngaps:\n  - >-\n    Braiins OS Public REST API publishes no securitySchemes in its OpenAPI even though\n    /api/v1/auth/login issues a bearer token — an agent reading only the spec cannot tell\n    which operations require the token.\n  - >-\n    No OAuth 2.0 or OpenID Connect surface exists on any Braiins API; there is no delegated\n    (third-party) authorization path, so scopes/ is not applicable.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/braiins-academy/refs/heads/main/authentication/braiins-academy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/braiins-academy/authentication/braiins-academy-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Bitcoin Mining

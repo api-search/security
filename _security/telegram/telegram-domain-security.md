@@ -5,55 +5,55 @@ api_specs:
   label: Telegram Bot Info API
   slug: telegram-bot-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/openapi/telegram-bot-info-api-openapi.yml
+  url: https://artifacts.apis.io/telegram/openapi/telegram-bot-info-api-openapi.yml
 - filename: telegram-chat-management-api-openapi.yml
   format: yaml
   label: Telegram Chat Management API
   slug: telegram-chat-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/openapi/telegram-chat-management-api-openapi.yml
+  url: https://artifacts.apis.io/telegram/openapi/telegram-chat-management-api-openapi.yml
 - filename: telegram-getting-updates-api-openapi.yml
   format: yaml
   label: Telegram Getting Updates API
   slug: telegram-getting-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/openapi/telegram-getting-updates-api-openapi.yml
+  url: https://artifacts.apis.io/telegram/openapi/telegram-getting-updates-api-openapi.yml
 - filename: telegram-invites-api-openapi.yml
   format: yaml
   label: Telegram Invites API
   slug: telegram-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/openapi/telegram-invites-api-openapi.yml
+  url: https://artifacts.apis.io/telegram/openapi/telegram-invites-api-openapi.yml
 - filename: telegram-member-management-api-openapi.yml
   format: yaml
   label: Telegram Member Management API
   slug: telegram-member-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/openapi/telegram-member-management-api-openapi.yml
+  url: https://artifacts.apis.io/telegram/openapi/telegram-member-management-api-openapi.yml
 - filename: telegram-message-editing-api-openapi.yml
   format: yaml
   label: Telegram Message Editing API
   slug: telegram-message-editing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/openapi/telegram-message-editing-api-openapi.yml
+  url: https://artifacts.apis.io/telegram/openapi/telegram-message-editing-api-openapi.yml
 - filename: telegram-messaging-api-openapi.yml
   format: yaml
   label: Telegram Messaging API
   slug: telegram-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/openapi/telegram-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/telegram/openapi/telegram-messaging-api-openapi.yml
 - filename: telegram-payments-api-openapi.yml
   format: yaml
   label: Telegram Payments API
   slug: telegram-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/openapi/telegram-payments-api-openapi.yml
+  url: https://artifacts.apis.io/telegram/openapi/telegram-payments-api-openapi.yml
 - filename: telegram-stickers-api-openapi.yml
   format: yaml
   label: Telegram Stickers API
   slug: telegram-stickers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/openapi/telegram-stickers-api-openapi.yml
+  url: https://artifacts.apis.io/telegram/openapi/telegram-stickers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -83,7 +83,7 @@ source_filename: telegram-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: core.telegram.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 13:36:48 2026 GMT\n  hsts: true\n  hsts_max_age: 35768000\ndomains:\n- domain: telegram.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/security/telegram-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/telegram/security/telegram-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Bots

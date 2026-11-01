@@ -5,7 +5,7 @@ api_specs:
   label: The Index Indexes API
   slug: the-index-fyi-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-index-fyi/refs/heads/main/openapi/the-index-fyi-indexes-api-openapi.yml
+  url: https://artifacts.apis.io/the-index-fyi/openapi/the-index-fyi-indexes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -33,7 +33,7 @@ source_filename: the-index-fyi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: theindex.fyi\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  7 13:27:01 2026 GMT\n  hsts: false\ndomains:\n- domain: theindex.fyi\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-index-fyi/refs/heads/main/security/the-index-fyi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/the-index-fyi/security/the-index-fyi-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Indie Web

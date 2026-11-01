@@ -5,25 +5,25 @@ api_specs:
   label: Parsio Documents API
   slug: parsio-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsio/refs/heads/main/openapi/parsio-documents-api-openapi.yml
+  url: https://artifacts.apis.io/parsio/openapi/parsio-documents-api-openapi.yml
 - filename: parsio-mailboxes-api-openapi.yml
   format: yaml
   label: Parsio Mailboxes API
   slug: parsio-mailboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsio/refs/heads/main/openapi/parsio-mailboxes-api-openapi.yml
+  url: https://artifacts.apis.io/parsio/openapi/parsio-mailboxes-api-openapi.yml
 - filename: parsio-templates-api-openapi.yml
   format: yaml
   label: Parsio Templates API
   slug: parsio-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsio/refs/heads/main/openapi/parsio-templates-api-openapi.yml
+  url: https://artifacts.apis.io/parsio/openapi/parsio-templates-api-openapi.yml
 - filename: parsio-webhooks-api-openapi.yml
   format: yaml
   label: Parsio Webhooks API
   slug: parsio-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsio/refs/heads/main/openapi/parsio-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/parsio/openapi/parsio-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,7 +62,7 @@ source_filename: parsio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: parsio.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 03:49:53 2026 GMT\n  hsts: false\n- host: help.parsio.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 10 06:57:54 2026 GMT\n  hsts: false\n- host: api.parsio.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 00:14:46 2026 GMT\n  hsts: null\ndomains:\n- domain: parsio.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parsio/refs/heads/main/security/parsio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/parsio/security/parsio-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Artificial Intelligence

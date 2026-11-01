@@ -5,61 +5,61 @@ api_specs:
   label: Method Security Audit API
   slug: method-security-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/openapi/method-security-audit-api-openapi.yml
+  url: https://artifacts.apis.io/method-security/openapi/method-security-audit-api-openapi.yml
 - filename: method-security-auth-api-openapi.yml
   format: yaml
   label: Method Security Auth API
   slug: method-security-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/openapi/method-security-auth-api-openapi.yml
+  url: https://artifacts.apis.io/method-security/openapi/method-security-auth-api-openapi.yml
 - filename: method-security-blueprints-api-openapi.yml
   format: yaml
   label: Method Security Blueprints API
   slug: method-security-blueprints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/openapi/method-security-blueprints-api-openapi.yml
+  url: https://artifacts.apis.io/method-security/openapi/method-security-blueprints-api-openapi.yml
 - filename: method-security-environments-api-openapi.yml
   format: yaml
   label: Method Security Environments API
   slug: method-security-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/openapi/method-security-environments-api-openapi.yml
+  url: https://artifacts.apis.io/method-security/openapi/method-security-environments-api-openapi.yml
 - filename: method-security-issues-api-openapi.yml
   format: yaml
   label: Method Security Issues API
   slug: method-security-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/openapi/method-security-issues-api-openapi.yml
+  url: https://artifacts.apis.io/method-security/openapi/method-security-issues-api-openapi.yml
 - filename: method-security-reports-api-openapi.yml
   format: yaml
   label: Method Security Reports API
   slug: method-security-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/openapi/method-security-reports-api-openapi.yml
+  url: https://artifacts.apis.io/method-security/openapi/method-security-reports-api-openapi.yml
 - filename: method-security-signals-api-openapi.yml
   format: yaml
   label: Method Security Signals API
   slug: method-security-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/openapi/method-security-signals-api-openapi.yml
+  url: https://artifacts.apis.io/method-security/openapi/method-security-signals-api-openapi.yml
 - filename: method-security-skills-api-openapi.yml
   format: yaml
   label: Method Security Skills API
   slug: method-security-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/openapi/method-security-skills-api-openapi.yml
+  url: https://artifacts.apis.io/method-security/openapi/method-security-skills-api-openapi.yml
 - filename: method-security-system-api-openapi.yml
   format: yaml
   label: Method Security System API
   slug: method-security-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/openapi/method-security-system-api-openapi.yml
+  url: https://artifacts.apis.io/method-security/openapi/method-security-system-api-openapi.yml
 - filename: method-security-targets-api-openapi.yml
   format: yaml
   label: Method Security Targets API
   slug: method-security-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/openapi/method-security-targets-api-openapi.yml
+  url: https://artifacts.apis.io/method-security/openapi/method-security-targets-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -102,7 +102,7 @@ source_filename: method-security-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: method.security\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 21:38:53 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.method.security\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 21:26:35 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: your-instance.method.delivery\n  https: false\ndomains:\n- domain: method.security\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: method.delivery\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/security/method-security-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/method-security/security/method-security-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

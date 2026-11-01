@@ -7,7 +7,7 @@ api_specs:
   label: Khalifa University Oai Pmh API
   slug: khalifa-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khalifa/refs/heads/main/openapi/khalifa-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/khalifa/openapi/khalifa-oai-pmh-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-09-01'\nmethod: probed\nsource: >-\n  Live probes
   \ Federation\n    metadata is published and returns HTTP 200.\n  evidence:\n    url: https://login.microsoftonline.com/ku.ac.ae/federationmetadata/2007-06/federationmetadata.xml\n    status: 200\n- name: PureWebServiceApiKey\n  type: apiKey\n  operator: vendor\n  applies_to: https://khazna.ku.ac.ae/ws/api\n  description: >-\n    NOT KHALIFA'S SCHEME — recorded so a later run does not rediscover it and mistake it for the\n    institution's. The Elsevier Pure Web Service on the Khazna host declares\n    `security: [{api-key: []}]` in its own contract (info.title \"Pure API\", version 5.36.2-1,\n    info.contact.email pure-support@elsevier.com, servers \"- url: /ws/api\"). The contract is\n    Elsevier's product spec served under Khalifa's hostname; the versioned and swagger paths\n    (/ws/api/524/openapi.yaml, /ws/api/swagger.json) return HTTP 401. Keys are issued by the\n    institution's Pure administrators, but the auth model is the vendor's.\n  evidence:\n    url: https://khazna.ku.ac.ae/ws/api/openapi.yaml\n\
   \    status: 200\n- name: BlackboardLearnOauth2\n  type: oauth2\n  operator: vendor\n  applies_to: https://khalifauni.blackboard.com/learn/api/public/v1\n  description: >-\n    NOT KHALIFA'S SCHEME. The Blackboard Learn REST API on Khalifa's tenant is protected by\n    Anthology's three-legged OAuth 2.0 with developer keys registered in the Blackboard Developer\n    Portal. Only /learn/api/public/v1/system/version is anonymous, which is what confirmed the\n    tenant is live. Recorded as the vendor's.\n  evidence:\n    url: https://khalifauni.blackboard.com/learn/api/public/v1/system/version\n    status: 200\n- name: SpringshareLibAppsApiKey\n  type: apiKey\n  operator: vendor\n  applies_to: https://lgapi-us.libapps.com\n  description: >-\n    NOT KHALIFA'S SCHEME. LibGuides/LibAnswers/LibCal API access for the kustar Springshare\n    account is issued per site by Springshare and keyed to their platform. Recorded as the\n    vendor's; the tenancy itself is real and is recorded in apis.yml.\n\
   \  evidence:\n    url: https://library.ku.ac.ae/lib\n    status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/khalifa/refs/heads/main/authentication/khalifa-authentication.yml
+source_yaml_url: https://artifacts.apis.io/khalifa/authentication/khalifa-authentication.yml
 summary_line: none/oauth2/saml/apiKey · 7 schemes
 tags:
 - University

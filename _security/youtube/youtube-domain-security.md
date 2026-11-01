@@ -5,133 +5,133 @@ api_specs:
   label: Youtube Analytics Groups API
   slug: youtube-analytics-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-analytics-groups-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-analytics-groups-api-openapi.yml
 - filename: youtube-analytics-reports-api-openapi.yml
   format: yaml
   label: Youtube Analytics Reports API
   slug: youtube-analytics-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-analytics-reports-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-analytics-reports-api-openapi.yml
 - filename: youtube-captions-api-openapi.yml
   format: yaml
   label: Youtube Captions API
   slug: youtube-captions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-captions-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-captions-api-openapi.yml
 - filename: youtube-channels-api-openapi.yml
   format: yaml
   label: Youtube Channels API
   slug: youtube-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-channels-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-channels-api-openapi.yml
 - filename: youtube-comments-api-openapi.yml
   format: yaml
   label: Youtube Comments API
   slug: youtube-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-comments-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-comments-api-openapi.yml
 - filename: youtube-group-items-api-openapi.yml
   format: yaml
   label: Youtube Group Items API
   slug: youtube-group-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-group-items-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-group-items-api-openapi.yml
 - filename: youtube-groups-api-openapi.yml
   format: yaml
   label: Youtube Groups API
   slug: youtube-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-groups-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-groups-api-openapi.yml
 - filename: youtube-i18n-api-openapi.yml
   format: yaml
   label: Youtube I18n API
   slug: youtube-i18n-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-i18n-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-i18n-api-openapi.yml
 - filename: youtube-jobs-api-openapi.yml
   format: yaml
   label: Youtube Jobs API
   slug: youtube-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-jobs-api-openapi.yml
 - filename: youtube-livebroadcasts-api-openapi.yml
   format: yaml
   label: Youtube LiveBroadcasts API
   slug: youtube-livebroadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-livebroadcasts-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-livebroadcasts-api-openapi.yml
 - filename: youtube-livechatmessages-api-openapi.yml
   format: yaml
   label: Youtube LiveChatMessages API
   slug: youtube-livechatmessages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-livechatmessages-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-livechatmessages-api-openapi.yml
 - filename: youtube-livechatmoderators-api-openapi.yml
   format: yaml
   label: Youtube LiveChatModerators API
   slug: youtube-livechatmoderators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-livechatmoderators-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-livechatmoderators-api-openapi.yml
 - filename: youtube-playlist-items-api-openapi.yml
   format: yaml
   label: Youtube Playlist Items API
   slug: youtube-playlist-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-playlist-items-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-playlist-items-api-openapi.yml
 - filename: youtube-playlists-api-openapi.yml
   format: yaml
   label: Youtube Playlists API
   slug: youtube-playlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-playlists-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-playlists-api-openapi.yml
 - filename: youtube-reports-api-openapi.yml
   format: yaml
   label: Youtube Reports API
   slug: youtube-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-reports-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-reports-api-openapi.yml
 - filename: youtube-search-api-openapi.yml
   format: yaml
   label: Youtube Search API
   slug: youtube-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-search-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-search-api-openapi.yml
 - filename: youtube-subscriptions-api-openapi.yml
   format: yaml
   label: Youtube Subscriptions API
   slug: youtube-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-subscriptions-api-openapi.yml
 - filename: youtube-videocategories-api-openapi.yml
   format: yaml
   label: Youtube VideoCategories API
   slug: youtube-videocategories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-videocategories-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-videocategories-api-openapi.yml
 - filename: youtube-videos-api-openapi.yml
   format: yaml
   label: Youtube Videos API
   slug: youtube-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-videos-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-videos-api-openapi.yml
 - filename: youtube-comment-threads-api-openapi.yml
   format: yaml
   label: Youtube Comment Threads API
   slug: youtube-comment-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-comment-threads-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-comment-threads-api-openapi.yml
 - filename: youtube-live-streams-api-openapi.yml
   format: yaml
   label: Youtube Live Streams API
   slug: youtube-live-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-live-streams-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-live-streams-api-openapi.yml
 - filename: youtube-report-types-api-openapi.yml
   format: yaml
   label: Youtube Report Types API
   slug: youtube-report-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-report-types-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-report-types-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -179,7 +179,7 @@ source_filename: youtube-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: www.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:17 2026 GMT\n  hsts: null\n- host: youtubeanalytics.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:17 2026 GMT\n  hsts: null\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/security/youtube-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/youtube/security/youtube-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Video

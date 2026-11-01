@@ -5,61 +5,61 @@ api_specs:
   label: MetaMap Authentication API
   slug: metamap-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/openapi/metamap-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/metamap/openapi/metamap-authentication-api-openapi.yml
 - filename: metamap-background-checks-api-openapi.yml
   format: yaml
   label: MetaMap Background Checks API
   slug: metamap-background-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/openapi/metamap-background-checks-api-openapi.yml
+  url: https://artifacts.apis.io/metamap/openapi/metamap-background-checks-api-openapi.yml
 - filename: metamap-credit-checks-api-openapi.yml
   format: yaml
   label: MetaMap Credit Checks API
   slug: metamap-credit-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/openapi/metamap-credit-checks-api-openapi.yml
+  url: https://artifacts.apis.io/metamap/openapi/metamap-credit-checks-api-openapi.yml
 - filename: metamap-custom-watchlists-api-openapi.yml
   format: yaml
   label: MetaMap Custom Watchlists API
   slug: metamap-custom-watchlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/openapi/metamap-custom-watchlists-api-openapi.yml
+  url: https://artifacts.apis.io/metamap/openapi/metamap-custom-watchlists-api-openapi.yml
 - filename: metamap-email-checks-api-openapi.yml
   format: yaml
   label: MetaMap Email Checks API
   slug: metamap-email-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/openapi/metamap-email-checks-api-openapi.yml
+  url: https://artifacts.apis.io/metamap/openapi/metamap-email-checks-api-openapi.yml
 - filename: metamap-govchecks-api-openapi.yml
   format: yaml
   label: MetaMap GovChecks API
   slug: metamap-govchecks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/openapi/metamap-govchecks-api-openapi.yml
+  url: https://artifacts.apis.io/metamap/openapi/metamap-govchecks-api-openapi.yml
 - filename: metamap-phone-checks-api-openapi.yml
   format: yaml
   label: MetaMap Phone Checks API
   slug: metamap-phone-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/openapi/metamap-phone-checks-api-openapi.yml
+  url: https://artifacts.apis.io/metamap/openapi/metamap-phone-checks-api-openapi.yml
 - filename: metamap-verifications-api-openapi.yml
   format: yaml
   label: MetaMap Verifications API
   slug: metamap-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/openapi/metamap-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/metamap/openapi/metamap-verifications-api-openapi.yml
 - filename: metamap-watchlist-checks-api-openapi.yml
   format: yaml
   label: MetaMap Watchlist Checks API
   slug: metamap-watchlist-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/openapi/metamap-watchlist-checks-api-openapi.yml
+  url: https://artifacts.apis.io/metamap/openapi/metamap-watchlist-checks-api-openapi.yml
 - filename: metamap-webhooks-api-openapi.yml
   format: yaml
   label: MetaMap Webhooks API
   slug: metamap-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/openapi/metamap-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/metamap/openapi/metamap-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -99,7 +99,7 @@ source_filename: metamap-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: metamap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 21:52:13 2026 GMT\n  hsts: false\n- host: docs.metamap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 12 10:44:33 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.prod.metamap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 12 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: metamap.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/security/metamap-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/metamap/security/metamap-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Identity Verification
@@ -108,7 +108,7 @@ tags:
 - Compliance
 - Biometrics
 - Document Verification
-- Face Match
+- Face Matching
 - Liveness
 - GovCheck
 - Watchlist

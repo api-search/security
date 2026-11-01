@@ -33,7 +33,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://api-tournament.numer.ai (live introspection) + https://docs.numer.ai\ndocs: https://docs.numer.ai/numerai-tournament/automation\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  oauth2_flows: []\n  model: >-\n    Numerai issues API token pairs (a public id + a secret key) scoped per token. Tokens are created\n    in Account > Settings and passed to the single GraphQL endpoint as request headers. Interactive\n    web sessions use password/MFA login and Privy/SSO, but programmatic access is exclusively the\n    public-id/secret-key token pair.\nschemes:\n  - name: ApiToken\n    type: apiKey\n    in: header\n    key_headers:\n      - x-public-id\n      - x-secret-key\n    description: Public API id + secret key pair created per model/account with a selectable scope set.\n    scopes_ref: scopes/numerai-scopes.yml\n    sources:\n      - https://api-tournament.numer.ai\nendpoint:\n  graphql: https://api-tournament.numer.ai\n\
   \  method: POST\n  content_type: application/json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/numerai/refs/heads/main/authentication/numerai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/numerai/authentication/numerai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

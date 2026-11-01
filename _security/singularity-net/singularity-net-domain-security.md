@@ -5,25 +5,25 @@ api_specs:
   label: SingularityNET Channels API
   slug: singularity-net-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singularity-net/refs/heads/main/openapi/singularity-net-channels-api-openapi.yml
+  url: https://artifacts.apis.io/singularity-net/openapi/singularity-net-channels-api-openapi.yml
 - filename: singularity-net-organizations-api-openapi.yml
   format: yaml
   label: SingularityNET Organizations API
   slug: singularity-net-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singularity-net/refs/heads/main/openapi/singularity-net-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/singularity-net/openapi/singularity-net-organizations-api-openapi.yml
 - filename: singularity-net-service-groups-api-openapi.yml
   format: yaml
   label: SingularityNET Service Groups API
   slug: singularity-net-service-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singularity-net/refs/heads/main/openapi/singularity-net-service-groups-api-openapi.yml
+  url: https://artifacts.apis.io/singularity-net/openapi/singularity-net-service-groups-api-openapi.yml
 - filename: singularity-net-services-api-openapi.yml
   format: yaml
   label: SingularityNET Services API
   slug: singularity-net-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singularity-net/refs/heads/main/openapi/singularity-net-services-api-openapi.yml
+  url: https://artifacts.apis.io/singularity-net/openapi/singularity-net-services-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -65,7 +65,7 @@ source_filename: singularity-net-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dev.singularitynet.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 22 23:59:59 2027 GMT\n  hsts: false\n- host: services.singularitynet.io\n  https: false\n- host: marketplace.singularitynet.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 22 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: singularitynet.io\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issuewild \"amazontrust.com\"\n  - 0 issuewild \"awstrust.com\"\n  - 0 issuewild \"godaddy.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/singularity-net/refs/heads/main/security/singularity-net-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/singularity-net/security/singularity-net-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Artificial Intelligence

@@ -5,7 +5,7 @@ api_specs:
   label: Slab Graph QL API
   slug: slab-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slab/refs/heads/main/openapi/slab-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/slab/openapi/slab-graph-ql-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: slab-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: slab.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 04:00:33 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: help.slab.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 03:00:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.slab.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 03:00:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: slab.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/slab/refs/heads/main/security/slab-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/slab/security/slab-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Knowledge Base

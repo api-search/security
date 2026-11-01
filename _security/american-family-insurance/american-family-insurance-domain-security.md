@@ -37,7 +37,7 @@ source_filename: american-family-insurance-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.amfam.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 04:56:03 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: b2b.amfam.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 05:07:36 2026 GMT\n  hsts: true\n  hsts_max_age: 4294967294\ndomains:\n- domain: amfam.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/american-family-insurance/refs/heads/main/security/american-family-insurance-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/american-family-insurance/security/american-family-insurance-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance

@@ -7,31 +7,31 @@ api_specs:
   label: Topi Catalog API
   slug: topi-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/openapi/topi-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/topi/openapi/topi-catalog-api-openapi.yml
 - filename: topi-offer-api-openapi.yml
   format: yaml
   label: Topi Offer API
   slug: topi-offer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/openapi/topi-offer-api-openapi.yml
+  url: https://artifacts.apis.io/topi/openapi/topi-offer-api-openapi.yml
 - filename: topi-order-api-openapi.yml
   format: yaml
   label: Topi Order API
   slug: topi-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/openapi/topi-order-api-openapi.yml
+  url: https://artifacts.apis.io/topi/openapi/topi-order-api-openapi.yml
 - filename: topi-shipment-api-openapi.yml
   format: yaml
   label: Topi Shipment API
   slug: topi-shipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/openapi/topi-shipment-api-openapi.yml
+  url: https://artifacts.apis.io/topi/openapi/topi-shipment-api-openapi.yml
 - filename: topi-shipping-method-api-openapi.yml
   format: yaml
   label: Topi Shipping Method API
   slug: topi-shipping-method-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/openapi/topi-shipping-method-api-openapi.yml
+  url: https://artifacts.apis.io/topi/openapi/topi-shipping-method-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -62,7 +62,7 @@ source_filename: topi-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/topi-seller-api-openapi-original.yaml\ndocs: https://developer.topi.eu/docs/get-started/introduction\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: OAuth2Seller_header_Authorization\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://identity.topi.eu/oauth2/token\n    scopes: 13\n  description: Read our [Integration Guide](https://developer.topi.eu/docs/get-started/introduction)\n    for detailed instructions on how to authenticate.\n  sources:\n  - openapi/topi-seller-api-openapi-original.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/authentication/topi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/topi/authentication/topi-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

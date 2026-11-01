@@ -9,19 +9,19 @@ api_specs:
   label: Bargo Congress Trades API Members API
   slug: bargo-congress-trades-api-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/openapi/bargo-congress-trades-api-members-api-openapi.yml
+  url: https://artifacts.apis.io/bargo-congress-trades-api/openapi/bargo-congress-trades-api-members-api-openapi.yml
 - filename: bargo-congress-trades-api-statistics-api-openapi.yml
   format: yaml
   label: Bargo Congress Trades API Statistics API
   slug: bargo-congress-trades-api-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/openapi/bargo-congress-trades-api-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/bargo-congress-trades-api/openapi/bargo-congress-trades-api-statistics-api-openapi.yml
 - filename: bargo-congress-trades-api-trades-api-openapi.yml
   format: yaml
   label: Bargo Congress Trades API Trades API
   slug: bargo-congress-trades-api-trades-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/openapi/bargo-congress-trades-api-trades-api-openapi.yml
+  url: https://artifacts.apis.io/bargo-congress-trades-api/openapi/bargo-congress-trades-api-trades-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: openapi/bargo-c
   \  - id: free-api-key\n    prefix: fak_\n    issued_by: https://www.bargo.ai/free-apis/dash\n    cost: free\n    card_required: false\n    rotatable: true\n    authorizes:\n      - The Congress Trades REST API at https://www.bargo.ai/free-apis/congress/v1\n      - The focused Congress MCP endpoint at https://www.bargo.ai/free-apis/congress/mcp\n    does_not_authorize:\n      - Bargo's full market-intelligence MCP server at https://www.bargo.ai/mcp\n  - id: bargo-mcp-token\n    prefix: swmcp_\n    issued_by: 'https://www.bargo.ai (authorized account, then GET /api/mcp-token)'\n    scope: out-of-scope-for-this-repo\n    authorizes:\n      - Bargo's full MCP server at https://www.bargo.ai/mcp\n    note: >-\n      Recorded only to make the boundary explicit. Bargo states the separation\n      in three places — llms.txt, the MCP server card, and its published agent\n      skill — precisely because the two look interchangeable and are not.\nper_operation:\n  - operation: getCongressApiHealth\n\
   \    security: []\n    note: >-\n      The only operation that declares an EMPTY security array, meaning no\n      credential is accepted or required at all. Every other operation declares\n      401 InvalidKey and honours an optional key.\n  - operations:\n      - listCongressTrades\n      - listCongressTradesByTicker\n      - listCongressMembers\n      - getCongressMember\n      - getCongressTradeStats\n    security: inherited\n    note: >-\n      Inherit the top-level requirement [{}, ApiKeyHeader, BearerAuth,\n      QueryToken] — anonymous OR any one of the three key presentations.\nerror_behaviour:\n  '401': >-\n    Returned only when a key is supplied and is invalid or revoked. An absent key\n    is never a 401 — it is a lower quota.\n  '429': >-\n    The practical consequence of staying anonymous. See\n    rate-limits/bargo-congress-trades-api-rate-limits.yml\nhandling_guidance:\n  source: https://github.com/bargo-ai/bargo-free-api-packages/blob/main/skills/bargo-congress-api/SKILL.md\n\
   \  rules:\n    - Prefer X-Api-Key; Bearer is also supported; use the token query parameter only where headers are impossible.\n    - Never print, commit, log or return an API key.\n    - Never substitute a fak_ key for a swmcp_ credential or imply the free key unlocks Bargo's main MCP service.\n    - Pass keys through the environment or a secret manager, never in source.\ngaps:\n  - No OAuth 2.0 or OpenID Connect; /.well-known/oauth-authorization-server and /.well-known/openid-configuration both returned 404.\n  - No scopes, roles or permission model — a key is all-or-nothing over a read-only surface.\n  - No documented key rotation policy, expiry or revocation notification beyond the self-serve dashboard.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/authentication/bargo-congress-trades-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bargo-congress-trades-api/authentication/bargo-congress-trades-api-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Congress

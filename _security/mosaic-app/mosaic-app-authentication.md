@@ -8,31 +8,31 @@ api_specs:
   label: Mosaic Members API
   slug: mosaic-app-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/openapi/mosaic-app-members-api-openapi.yml
+  url: https://artifacts.apis.io/mosaic-app/openapi/mosaic-app-members-api-openapi.yml
 - filename: mosaic-app-projects-api-openapi.yml
   format: yaml
   label: Mosaic Projects API
   slug: mosaic-app-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/openapi/mosaic-app-projects-api-openapi.yml
+  url: https://artifacts.apis.io/mosaic-app/openapi/mosaic-app-projects-api-openapi.yml
 - filename: mosaic-app-tasks-api-openapi.yml
   format: yaml
   label: Mosaic Tasks API
   slug: mosaic-app-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/openapi/mosaic-app-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/mosaic-app/openapi/mosaic-app-tasks-api-openapi.yml
 - filename: mosaic-app-time-entries-api-openapi.yml
   format: yaml
   label: Mosaic Time Entries API
   slug: mosaic-app-time-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/openapi/mosaic-app-time-entries-api-openapi.yml
+  url: https://artifacts.apis.io/mosaic-app/openapi/mosaic-app-time-entries-api-openapi.yml
 - filename: mosaic-app-work-plans-api-openapi.yml
   format: yaml
   label: Mosaic Work Plans API
   slug: mosaic-app-work-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/openapi/mosaic-app-work-plans-api-openapi.yml
+  url: https://artifacts.apis.io/mosaic-app/openapi/mosaic-app-work-plans-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -62,7 +62,7 @@ source_filename: mosaic-app-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/mosaic-app-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: |-\n    API token issued by your Mosaic Customer Success Manager. Send as the\n    raw `Authorization` header value (no `Bearer` prefix).\n  sources:\n  - openapi/mosaic-app-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/authentication/mosaic-app-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mosaic-app/authentication/mosaic-app-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Resource Management

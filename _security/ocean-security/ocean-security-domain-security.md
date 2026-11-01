@@ -5,25 +5,25 @@ api_specs:
   label: Ocean Security Metrics API
   slug: ocean-security-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/openapi/ocean-security-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-security/openapi/ocean-security-metrics-api-openapi.yml
 - filename: ocean-security-settings-api-openapi.yml
   format: yaml
   label: Ocean Security Settings API
   slug: ocean-security-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/openapi/ocean-security-settings-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-security/openapi/ocean-security-settings-api-openapi.yml
 - filename: ocean-security-sonar-api-openapi.yml
   format: yaml
   label: Ocean Security Sonar API
   slug: ocean-security-sonar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/openapi/ocean-security-sonar-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-security/openapi/ocean-security-sonar-api-openapi.yml
 - filename: ocean-security-threats-api-openapi.yml
   format: yaml
   label: Ocean Security Threats API
   slug: ocean-security-threats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/openapi/ocean-security-threats-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-security/openapi/ocean-security-threats-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -70,7 +70,7 @@ source_filename: ocean-security-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ocean.security\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 20:32:26 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.ocean.security\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 05:11:29 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.ocean.security\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 01:18:32 2026 GMT\n  hsts: null\ndomains:\n- domain: ocean.security\n  dnssec: true\n  caa:\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"starfieldtech.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/security/ocean-security-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ocean-security/security/ocean-security-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

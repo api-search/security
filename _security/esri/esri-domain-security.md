@@ -5,31 +5,31 @@ api_specs:
   label: Esri Auth API
   slug: esri-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/openapi/esri-auth-api-openapi.yml
+  url: https://artifacts.apis.io/esri/openapi/esri-auth-api-openapi.yml
 - filename: esri-geocoding-api-openapi.yml
   format: yaml
   label: Esri Geocoding API
   slug: esri-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/openapi/esri-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/esri/openapi/esri-geocoding-api-openapi.yml
 - filename: esri-routing-api-openapi.yml
   format: yaml
   label: Esri Routing API
   slug: esri-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/openapi/esri-routing-api-openapi.yml
+  url: https://artifacts.apis.io/esri/openapi/esri-routing-api-openapi.yml
 - filename: esri-places-api-openapi.yml
   format: yaml
   label: Esri Places API
   slug: esri-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/openapi/esri-places-api-openapi.yml
+  url: https://artifacts.apis.io/esri/openapi/esri-places-api-openapi.yml
 - filename: esri-portal-api-openapi.yml
   format: yaml
   label: Esri Portal API
   slug: esri-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/openapi/esri-portal-api-openapi.yml
+  url: https://artifacts.apis.io/esri/openapi/esri-portal-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -90,7 +90,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.esri.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15768000\n- host: developers.arcgis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 6307200\n- host: www.arcgis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 18 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: esri.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 iodef \"mailto:vkeymaster@esri.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: arcgis.com\n  dnssec: true\n  caa:\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\
   \n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/security/esri-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/esri/security/esri-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Geographic

@@ -7,13 +7,13 @@ api_specs:
   label: Azure SignalR Service Operations API
   slug: microsoft-azure-signalr-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-signalr/refs/heads/main/openapi/microsoft-azure-signalr-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-signalr/openapi/microsoft-azure-signalr-operations-api-openapi.yml
 - filename: microsoft-azure-signalr-signalr-api-openapi.yml
   format: yaml
   label: Azure SignalR Service SignalR API
   slug: microsoft-azure-signalr-signalr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-signalr/refs/heads/main/openapi/microsoft-azure-signalr-signalr-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-signalr/openapi/microsoft-azure-signalr-signalr-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -44,7 +44,7 @@ source_filename: microsoft-azure-signalr-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-azure-signalr-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - implicit\nschemes:\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  description: Azure Active Directory OAuth2 Flow.\n  sources:\n  - openapi/microsoft-azure-signalr-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-signalr/refs/heads/main/authentication/microsoft-azure-signalr-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-signalr/authentication/microsoft-azure-signalr-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Real-Time

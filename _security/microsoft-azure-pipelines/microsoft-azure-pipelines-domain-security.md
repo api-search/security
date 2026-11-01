@@ -5,49 +5,49 @@ api_specs:
   label: Azure Pipelines Artifacts API
   slug: microsoft-azure-pipelines-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-pipelines/openapi/microsoft-azure-pipelines-artifacts-api-openapi.yml
 - filename: microsoft-azure-pipelines-build-artifacts-api-openapi.yml
   format: yaml
   label: Azure Pipelines Build Artifacts API
   slug: microsoft-azure-pipelines-build-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-build-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-pipelines/openapi/microsoft-azure-pipelines-build-artifacts-api-openapi.yml
 - filename: microsoft-azure-pipelines-build-definitions-api-openapi.yml
   format: yaml
   label: Azure Pipelines Build Definitions API
   slug: microsoft-azure-pipelines-build-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-build-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-pipelines/openapi/microsoft-azure-pipelines-build-definitions-api-openapi.yml
 - filename: microsoft-azure-pipelines-build-tags-api-openapi.yml
   format: yaml
   label: Azure Pipelines Build Tags API
   slug: microsoft-azure-pipelines-build-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-build-tags-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-pipelines/openapi/microsoft-azure-pipelines-build-tags-api-openapi.yml
 - filename: microsoft-azure-pipelines-builds-api-openapi.yml
   format: yaml
   label: Azure Pipelines Builds API
   slug: microsoft-azure-pipelines-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-builds-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-pipelines/openapi/microsoft-azure-pipelines-builds-api-openapi.yml
 - filename: microsoft-azure-pipelines-logs-api-openapi.yml
   format: yaml
   label: Azure Pipelines Logs API
   slug: microsoft-azure-pipelines-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-logs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-pipelines/openapi/microsoft-azure-pipelines-logs-api-openapi.yml
 - filename: microsoft-azure-pipelines-pipelines-api-openapi.yml
   format: yaml
   label: Azure Pipelines API
   slug: microsoft-azure-pipelines-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-pipelines/openapi/microsoft-azure-pipelines-pipelines-api-openapi.yml
 - filename: microsoft-azure-pipelines-runs-api-openapi.yml
   format: yaml
   label: Azure Pipelines Runs API
   slug: microsoft-azure-pipelines-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-runs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-pipelines/openapi/microsoft-azure-pipelines-runs-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -95,7 +95,7 @@ source_filename: microsoft-azure-pipelines-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dev.azure.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 18:15:50 2026 GMT\n  hsts: null\n- host: azure.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 22:04:48 2026 GMT\n  hsts: null\n- host: learn.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 02:26:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: azure.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/security/microsoft-azure-pipelines-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-pipelines/security/microsoft-azure-pipelines-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Automation

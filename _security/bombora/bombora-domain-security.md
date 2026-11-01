@@ -5,97 +5,97 @@ api_specs:
   label: Bombora Intent API
   slug: bombora-intent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-intent-api-openapi.yml
+  url: https://artifacts.apis.io/bombora/openapi/bombora-intent-api-openapi.yml
 - filename: bombora-accounts-api-openapi.yml
   format: yaml
   label: Bombora Accounts API
   slug: bombora-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bombora/openapi/bombora-accounts-api-openapi.yml
 - filename: bombora-activate-api-openapi.yml
   format: yaml
   label: Bombora Activate API
   slug: bombora-activate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-activate-api-openapi.yml
+  url: https://artifacts.apis.io/bombora/openapi/bombora-activate-api-openapi.yml
 - filename: bombora-data-api-openapi.yml
   format: yaml
   label: Bombora Data API
   slug: bombora-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-data-api-openapi.yml
+  url: https://artifacts.apis.io/bombora/openapi/bombora-data-api-openapi.yml
 - filename: bombora-demographic-api-openapi.yml
   format: yaml
   label: Bombora Demographic API
   slug: bombora-demographic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-demographic-api-openapi.yml
+  url: https://artifacts.apis.io/bombora/openapi/bombora-demographic-api-openapi.yml
 - filename: bombora-destinations-api-openapi.yml
   format: yaml
   label: Bombora Destinations API
   slug: bombora-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/bombora/openapi/bombora-destinations-api-openapi.yml
 - filename: bombora-digital-audience-builder-dab-api-api-openapi.yml
   format: yaml
   label: Bombora Digital Audience Builder (DAB) API
   slug: bombora-digital-audience-builder-dab-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-digital-audience-builder-dab-api-api-openapi.yml
+  url: https://artifacts.apis.io/bombora/openapi/bombora-digital-audience-builder-dab-api-api-openapi.yml
 - filename: bombora-estimate-api-openapi.yml
   format: yaml
   label: Bombora Estimate API
   slug: bombora-estimate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-estimate-api-openapi.yml
+  url: https://artifacts.apis.io/bombora/openapi/bombora-estimate-api-openapi.yml
 - filename: bombora-events-api-openapi.yml
   format: yaml
   label: Bombora Events API
   slug: bombora-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-events-api-openapi.yml
+  url: https://artifacts.apis.io/bombora/openapi/bombora-events-api-openapi.yml
 - filename: bombora-firmographic-api-openapi.yml
   format: yaml
   label: Bombora Firmographic API
   slug: bombora-firmographic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-firmographic-api-openapi.yml
+  url: https://artifacts.apis.io/bombora/openapi/bombora-firmographic-api-openapi.yml
 - filename: bombora-geographic-api-openapi.yml
   format: yaml
   label: Bombora Geographic API
   slug: bombora-geographic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-geographic-api-openapi.yml
+  url: https://artifacts.apis.io/bombora/openapi/bombora-geographic-api-openapi.yml
 - filename: bombora-install-data-api-openapi.yml
   format: yaml
   label: Bombora Install Data API
   slug: bombora-install-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-install-data-api-openapi.yml
+  url: https://artifacts.apis.io/bombora/openapi/bombora-install-data-api-openapi.yml
 - filename: bombora-signaldefinition-api-openapi.yml
   format: yaml
   label: Bombora Signal Definition API
   slug: bombora-signaldefinition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-signaldefinition-api-openapi.yml
+  url: https://artifacts.apis.io/bombora/openapi/bombora-signaldefinition-api-openapi.yml
 - filename: bombora-suspend-api-openapi.yml
   format: yaml
   label: Bombora Suspend API
   slug: bombora-suspend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-suspend-api-openapi.yml
+  url: https://artifacts.apis.io/bombora/openapi/bombora-suspend-api-openapi.yml
 - filename: bombora-oauth-api-openapi.yml
   format: yaml
   label: Bombora OAUTH API
   slug: bombora-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/bombora/openapi/bombora-oauth-api-openapi.yml
 - filename: bombora-account-lists-api-openapi.yml
   format: yaml
   label: Bombora account lists API
   slug: bombora-account-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-account-lists-api-openapi.yml
+  url: https://artifacts.apis.io/bombora/openapi/bombora-account-lists-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -146,7 +146,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bombora.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 18:04:07 2026 GMT\n  hsts: false\n- host: developer.bombora.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 08:47:56 2026 GMT\n  hsts: null\n- host: bombora-partners.atlassian.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  6 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: bombora.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: atlassian.net\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com; account=c2eb0f50ca113d7543d58a10f523d0469ff922f115e5e4e9056f3d5f87d3356c\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"digicert.com; account=c2eb0f50ca113d7543d58a10f523d0469ff922f115e5e4e9056f3d5f87d3356c\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy:\
   \ reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/security/bombora-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bombora/security/bombora-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Intent Data

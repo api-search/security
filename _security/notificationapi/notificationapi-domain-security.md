@@ -5,43 +5,43 @@ api_specs:
   label: NotificationAPI In-App Inbox API
   slug: notificationapi-in-app-inbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/openapi/notificationapi-in-app-inbox-api-openapi.yml
+  url: https://artifacts.apis.io/notificationapi/openapi/notificationapi-in-app-inbox-api-openapi.yml
 - filename: notificationapi-logs-api-openapi.yml
   format: yaml
   label: NotificationAPI Logs API
   slug: notificationapi-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/openapi/notificationapi-logs-api-openapi.yml
+  url: https://artifacts.apis.io/notificationapi/openapi/notificationapi-logs-api-openapi.yml
 - filename: notificationapi-notifications-api-openapi.yml
   format: yaml
   label: NotificationAPI Notifications API
   slug: notificationapi-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/openapi/notificationapi-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/notificationapi/openapi/notificationapi-notifications-api-openapi.yml
 - filename: notificationapi-schedule-api-openapi.yml
   format: yaml
   label: NotificationAPI Schedule API
   slug: notificationapi-schedule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/openapi/notificationapi-schedule-api-openapi.yml
+  url: https://artifacts.apis.io/notificationapi/openapi/notificationapi-schedule-api-openapi.yml
 - filename: notificationapi-send-api-openapi.yml
   format: yaml
   label: NotificationAPI Send API
   slug: notificationapi-send-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/openapi/notificationapi-send-api-openapi.yml
+  url: https://artifacts.apis.io/notificationapi/openapi/notificationapi-send-api-openapi.yml
 - filename: notificationapi-user-preferences-api-openapi.yml
   format: yaml
   label: NotificationAPI User Preferences API
   slug: notificationapi-user-preferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/openapi/notificationapi-user-preferences-api-openapi.yml
+  url: https://artifacts.apis.io/notificationapi/openapi/notificationapi-user-preferences-api-openapi.yml
 - filename: notificationapi-users-api-openapi.yml
   format: yaml
   label: NotificationAPI Users API
   slug: notificationapi-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/openapi/notificationapi-users-api-openapi.yml
+  url: https://artifacts.apis.io/notificationapi/openapi/notificationapi-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: notificationapi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.notificationapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.notificationapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: notificationapi.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/security/notificationapi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/notificationapi/security/notificationapi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Notification

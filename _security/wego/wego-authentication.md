@@ -7,43 +7,43 @@ api_specs:
   label: Wego Countries API
   slug: wego-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wego/refs/heads/main/openapi/wego-countries-api-openapi.yml
+  url: https://artifacts.apis.io/wego/openapi/wego-countries-api-openapi.yml
 - filename: wego-feedback-api-openapi.yml
   format: yaml
   label: Wego Feedback API
   slug: wego-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wego/refs/heads/main/openapi/wego-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/wego/openapi/wego-feedback-api-openapi.yml
 - filename: wego-flights-api-openapi.yml
   format: yaml
   label: Wego Flights API
   slug: wego-flights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wego/refs/heads/main/openapi/wego-flights-api-openapi.yml
+  url: https://artifacts.apis.io/wego/openapi/wego-flights-api-openapi.yml
 - filename: wego-health-api-openapi.yml
   format: yaml
   label: Wego Health API
   slug: wego-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wego/refs/heads/main/openapi/wego-health-api-openapi.yml
+  url: https://artifacts.apis.io/wego/openapi/wego-health-api-openapi.yml
 - filename: wego-hotels-api-openapi.yml
   format: yaml
   label: Wego Hotels API
   slug: wego-hotels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wego/refs/heads/main/openapi/wego-hotels-api-openapi.yml
+  url: https://artifacts.apis.io/wego/openapi/wego-hotels-api-openapi.yml
 - filename: wego-places-api-openapi.yml
   format: yaml
   label: Wego Places API
   slug: wego-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wego/refs/heads/main/openapi/wego-places-api-openapi.yml
+  url: https://artifacts.apis.io/wego/openapi/wego-places-api-openapi.yml
 - filename: wego-user-api-openapi.yml
   format: yaml
   label: Wego User API
   slug: wego-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wego/refs/heads/main/openapi/wego-user-api-openapi.yml
+  url: https://artifacts.apis.io/wego/openapi/wego-user-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -83,7 +83,7 @@ source_filename: wego-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: derived\nsource: openapi/wego-api-openapi.json\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: 'Wego auth server access token, sent as `Authorization: Bearer <token>` (RFC\n    6750).'\n  sources:\n  - openapi/wego-api-openapi.json\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.wego.com/user-auth/v2/users/oauth/authorize\n    tokenUrl: https://auth.wego.com/user-auth/v2/users/oauth/token\n    scopes: 3\n  description: OAuth2 authorization-code flow (PKCE supported) against the Wego auth server.\n  sources:\n  - openapi/wego-api-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wego/refs/heads/main/authentication/wego-authentication.yml
+source_yaml_url: https://artifacts.apis.io/wego/authentication/wego-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

@@ -5,49 +5,49 @@ api_specs:
   label: Getir Auth API
   slug: getir-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/openapi/getir-auth-api-openapi.yml
+  url: https://artifacts.apis.io/getir/openapi/getir-auth-api-openapi.yml
 - filename: getir-chain-menus-api-openapi.yml
   format: yaml
   label: Getir Chain Menus API
   slug: getir-chain-menus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/openapi/getir-chain-menus-api-openapi.yml
+  url: https://artifacts.apis.io/getir/openapi/getir-chain-menus-api-openapi.yml
 - filename: getir-changelog-api-openapi.yml
   format: yaml
   label: Getir Changelog API
   slug: getir-changelog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/openapi/getir-changelog-api-openapi.yml
+  url: https://artifacts.apis.io/getir/openapi/getir-changelog-api-openapi.yml
 - filename: getir-food-orders-api-openapi.yml
   format: yaml
   label: Getir Food Orders API
   slug: getir-food-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/openapi/getir-food-orders-api-openapi.yml
+  url: https://artifacts.apis.io/getir/openapi/getir-food-orders-api-openapi.yml
 - filename: getir-health-api-openapi.yml
   format: yaml
   label: Getir Health API
   slug: getir-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/openapi/getir-health-api-openapi.yml
+  url: https://artifacts.apis.io/getir/openapi/getir-health-api-openapi.yml
 - filename: getir-payment-methods-api-openapi.yml
   format: yaml
   label: Getir Payment Methods API
   slug: getir-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/openapi/getir-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/getir/openapi/getir-payment-methods-api-openapi.yml
 - filename: getir-products-api-openapi.yml
   format: yaml
   label: Getir Products API
   slug: getir-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/openapi/getir-products-api-openapi.yml
+  url: https://artifacts.apis.io/getir/openapi/getir-products-api-openapi.yml
 - filename: getir-restaurants-api-openapi.yml
   format: yaml
   label: Getir Restaurants API
   slug: getir-restaurants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/openapi/getir-restaurants-api-openapi.yml
+  url: https://artifacts.apis.io/getir/openapi/getir-restaurants-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -91,7 +91,7 @@ source_filename: getir-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-31'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: getir.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  5 23:59:59 2027 GMT\n  hsts: null\n- host: developers.getir.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  5 23:59:59 2027 GMT\n  hsts: false\n- host: food-external-api-gateway.getirapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 26 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: getir.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: getirapi.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/security/getir-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/getir/security/getir-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

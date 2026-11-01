@@ -7,25 +7,25 @@ api_specs:
   label: Localazy Export API
   slug: localazy-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localazy/refs/heads/main/openapi/localazy-export-api-openapi.yml
+  url: https://artifacts.apis.io/localazy/openapi/localazy-export-api-openapi.yml
 - filename: localazy-files-api-openapi.yml
   format: yaml
   label: Localazy Files API
   slug: localazy-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localazy/refs/heads/main/openapi/localazy-files-api-openapi.yml
+  url: https://artifacts.apis.io/localazy/openapi/localazy-files-api-openapi.yml
 - filename: localazy-import-api-openapi.yml
   format: yaml
   label: Localazy Import API
   slug: localazy-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localazy/refs/heads/main/openapi/localazy-import-api-openapi.yml
+  url: https://artifacts.apis.io/localazy/openapi/localazy-import-api-openapi.yml
 - filename: localazy-projects-api-openapi.yml
   format: yaml
   label: Localazy Projects API
   slug: localazy-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localazy/refs/heads/main/openapi/localazy-projects-api-openapi.yml
+  url: https://artifacts.apis.io/localazy/openapi/localazy-projects-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: localazy-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/localazy-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Authenticate with the header `Authorization: Bearer {token}`. Tokens may be\n    a project token (read/write to one project), a translation token (AI translation only),\n    or an organization token (organization scope, by request).'\n  sources:\n  - openapi/localazy-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/localazy/refs/heads/main/authentication/localazy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/localazy/authentication/localazy-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Localization

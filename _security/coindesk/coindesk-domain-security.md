@@ -24,7 +24,7 @@ source_filename: coindesk-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: old.coindesk.com\n  https: false\ndomains:\n- domain: coindesk.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coindesk/refs/heads/main/security/coindesk-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/coindesk/security/coindesk-domain-security.yml
 summary_line: DMARC
 tags:
 - Cryptocurrency

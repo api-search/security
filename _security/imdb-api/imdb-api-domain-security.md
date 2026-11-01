@@ -5,37 +5,37 @@ api_specs:
   label: IMDb-API External API
   slug: imdb-api-external-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imdb-api/refs/heads/main/openapi/imdb-api-external-api-openapi.yml
+  url: https://artifacts.apis.io/imdb-api/openapi/imdb-api-external-api-openapi.yml
 - filename: imdb-api-lists-api-openapi.yml
   format: yaml
   label: IMDb-API Lists API
   slug: imdb-api-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imdb-api/refs/heads/main/openapi/imdb-api-lists-api-openapi.yml
+  url: https://artifacts.apis.io/imdb-api/openapi/imdb-api-lists-api-openapi.yml
 - filename: imdb-api-name-api-openapi.yml
   format: yaml
   label: IMDb-API Name API
   slug: imdb-api-name-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imdb-api/refs/heads/main/openapi/imdb-api-name-api-openapi.yml
+  url: https://artifacts.apis.io/imdb-api/openapi/imdb-api-name-api-openapi.yml
 - filename: imdb-api-search-api-openapi.yml
   format: yaml
   label: IMDb-API Search API
   slug: imdb-api-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imdb-api/refs/heads/main/openapi/imdb-api-search-api-openapi.yml
+  url: https://artifacts.apis.io/imdb-api/openapi/imdb-api-search-api-openapi.yml
 - filename: imdb-api-title-api-openapi.yml
   format: yaml
   label: IMDb-API Title API
   slug: imdb-api-title-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imdb-api/refs/heads/main/openapi/imdb-api-title-api-openapi.yml
+  url: https://artifacts.apis.io/imdb-api/openapi/imdb-api-title-api-openapi.yml
 - filename: imdb-api-tools-api-openapi.yml
   format: yaml
   label: IMDb-API Tools API
   slug: imdb-api-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imdb-api/refs/heads/main/openapi/imdb-api-tools-api-openapi.yml
+  url: https://artifacts.apis.io/imdb-api/openapi/imdb-api-tools-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -73,7 +73,7 @@ source_filename: imdb-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tv-api.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 09:15:12 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: imdb-api.com\n  https: false\ndomains:\n- domain: tv-api.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: imdb-api.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imdb-api/refs/heads/main/security/imdb-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/imdb-api/security/imdb-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Video

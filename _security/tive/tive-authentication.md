@@ -7,37 +7,37 @@ api_specs:
   label: Tive Alerts API
   slug: tive-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tive/refs/heads/main/openapi/tive-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/tive/openapi/tive-alerts-api-openapi.yml
 - filename: tive-authentication-api-openapi.yml
   format: yaml
   label: Tive Authentication API
   slug: tive-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tive/refs/heads/main/openapi/tive-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/tive/openapi/tive-authentication-api-openapi.yml
 - filename: tive-devices-api-openapi.yml
   format: yaml
   label: Tive Devices API
   slug: tive-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tive/refs/heads/main/openapi/tive-devices-api-openapi.yml
+  url: https://artifacts.apis.io/tive/openapi/tive-devices-api-openapi.yml
 - filename: tive-sensor-data-api-openapi.yml
   format: yaml
   label: Tive Sensor Data API
   slug: tive-sensor-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tive/refs/heads/main/openapi/tive-sensor-data-api-openapi.yml
+  url: https://artifacts.apis.io/tive/openapi/tive-sensor-data-api-openapi.yml
 - filename: tive-shipments-api-openapi.yml
   format: yaml
   label: Tive Shipments API
   slug: tive-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tive/refs/heads/main/openapi/tive-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/tive/openapi/tive-shipments-api-openapi.yml
 - filename: tive-webhooks-api-openapi.yml
   format: yaml
   label: Tive Webhooks API
   slug: tive-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tive/refs/heads/main/openapi/tive-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/tive/openapi/tive-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +64,7 @@ source_filename: tive-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tive-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Bearer token obtained from POST /authenticate. Send it as ''Authorization: Bearer\n    <token>''. Most endpoints additionally require the x-tive-account-id header.'\n  sources:\n  - openapi/tive-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tive/refs/heads/main/authentication/tive-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tive/authentication/tive-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Supply Chain

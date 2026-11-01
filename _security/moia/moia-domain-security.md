@@ -28,7 +28,7 @@ source_filename: moia-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.moia.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 20:20:46 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: moia.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moia/refs/heads/main/security/moia-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/moia/security/moia-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Autonomous Mobility

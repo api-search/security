@@ -5,25 +5,25 @@ api_specs:
   label: PredictHQ Events API
   slug: predicthq-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predicthq/refs/heads/main/openapi/predicthq-events-api-openapi.yml
+  url: https://artifacts.apis.io/predicthq/openapi/predicthq-events-api-openapi.yml
 - filename: predicthq-features-api-openapi.yml
   format: yaml
   label: PredictHQ Features API
   slug: predicthq-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predicthq/refs/heads/main/openapi/predicthq-features-api-openapi.yml
+  url: https://artifacts.apis.io/predicthq/openapi/predicthq-features-api-openapi.yml
 - filename: predicthq-places-api-openapi.yml
   format: yaml
   label: PredictHQ Places API
   slug: predicthq-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predicthq/refs/heads/main/openapi/predicthq-places-api-openapi.yml
+  url: https://artifacts.apis.io/predicthq/openapi/predicthq-places-api-openapi.yml
 - filename: predicthq-suggested-radius-api-openapi.yml
   format: yaml
   label: PredictHQ Suggested Radius API
   slug: predicthq-suggested-radius-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predicthq/refs/heads/main/openapi/predicthq-suggested-radius-api-openapi.yml
+  url: https://artifacts.apis.io/predicthq/openapi/predicthq-suggested-radius-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -60,7 +60,7 @@ source_filename: predicthq-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.predicthq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 27 23:59:59 2026 GMT\n  hsts: null\n- host: api.predicthq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: predicthq.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/predicthq/refs/heads/main/security/predicthq-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/predicthq/security/predicthq-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Demand Intelligence

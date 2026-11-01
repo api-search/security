@@ -26,7 +26,7 @@ source_filename: data-vietnam-opendevelopmentmekong-net-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: data.vietnam.opendevelopmentmekong.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 02:20:09 2026 GMT\n  hsts: false\ndomains:\n- domain: opendevelopmentmekong.net\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/data-vietnam-opendevelopmentmekong-net/refs/heads/main/security/data-vietnam-opendevelopmentmekong-net-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/data-vietnam-opendevelopmentmekong-net/security/data-vietnam-opendevelopmentmekong-net-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Open Data

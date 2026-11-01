@@ -70,14 +70,14 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of every 24X / 24 FIX host reachable from apis.yml\nnote: >-\n  All 24x.co.th hosts sit behind Cloudflare and share one wildcard certificate. The legacy\n  24fix.co brand domain is no longer operated as a site — it resolves to GoDaddy parking\n  (ns07/ns08.domaincontrol.com, /lander redirect stub) and is recorded here only because it\n  is the brand's historic domain and is still linked from 24x.co.th.\nhosts:\n- host: 24x.co.th\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 00:30:12 2026 GMT\n  hsts: false\n- host: www.24x.co.th\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 00:30:12 2026 GMT\n  hsts: false\n- host: fix.24x.co.th\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 00:30:12 2026 GMT\n  hsts: false\n- host: business.24x.co.th\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 00:30:12 2026 GMT\n  hsts: false\n- host: housesolution.24x.co.th\n\
   \  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 00:30:12 2026 GMT\n  hsts: false\n- host: projects.24x.co.th\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 00:30:12 2026 GMT\n  hsts: false\n- host: careers.24x.co.th\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 00:30:12 2026 GMT\n  hsts: false\n- host: 24fix.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 12 11:47:00 2027 GMT\n  hsts: false\n  note: parked domain (GoDaddy), not an operated site\ndomains:\n- domain: 24x.co.th\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: 24fix.co\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n  note: >-\n    DMARC record is GoDaddy parking infrastructure (rua=dmarc_rua@onsecureserver.net), not a\n    policy the company publishes for its operating domain.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/24fix/refs/heads/main/security/24fix-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/24fix/security/24fix-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Home Services
 - Property Maintenance
 - Facility Management
-- Field Service
+- Field Service Management
 - Marketplace
 - Construction
 - Renovation

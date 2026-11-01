@@ -5,13 +5,13 @@ api_specs:
   label: Dark Sky Forecast API
   slug: dark-sky-forecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dark-sky/refs/heads/main/openapi/dark-sky-forecast-api-openapi.yml
+  url: https://artifacts.apis.io/dark-sky/openapi/dark-sky-forecast-api-openapi.yml
 - filename: dark-sky-time-machine-api-openapi.yml
   format: yaml
   label: Dark Sky Time Machine API
   slug: dark-sky-time-machine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dark-sky/refs/heads/main/openapi/dark-sky-time-machine-api-openapi.yml
+  url: https://artifacts.apis.io/dark-sky/openapi/dark-sky-time-machine-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,7 +41,7 @@ source_filename: dark-sky-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: darksky.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 10 06:01:04 2026 GMT\n  hsts: null\n- host: api.darksky.net\n  https: false\ndomains:\n- domain: darksky.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dark-sky/refs/heads/main/security/dark-sky-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dark-sky/security/dark-sky-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Weather

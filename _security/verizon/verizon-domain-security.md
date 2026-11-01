@@ -5,31 +5,31 @@ api_specs:
   label: Verizon Accounts API
   slug: verizon-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/openapi/verizon-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/verizon/openapi/verizon-accounts-api-openapi.yml
 - filename: verizon-callbacks-api-openapi.yml
   format: yaml
   label: Verizon Callbacks API
   slug: verizon-callbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/openapi/verizon-callbacks-api-openapi.yml
+  url: https://artifacts.apis.io/verizon/openapi/verizon-callbacks-api-openapi.yml
 - filename: verizon-devices-api-openapi.yml
   format: yaml
   label: Verizon Devices API
   slug: verizon-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/openapi/verizon-devices-api-openapi.yml
+  url: https://artifacts.apis.io/verizon/openapi/verizon-devices-api-openapi.yml
 - filename: verizon-session-api-openapi.yml
   format: yaml
   label: Verizon Session API
   slug: verizon-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/openapi/verizon-session-api-openapi.yml
+  url: https://artifacts.apis.io/verizon/openapi/verizon-session-api-openapi.yml
 - filename: verizon-sms-api-openapi.yml
   format: yaml
   label: Verizon SMS API
   slug: verizon-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/openapi/verizon-sms-api-openapi.yml
+  url: https://artifacts.apis.io/verizon/openapi/verizon-sms-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -71,7 +71,7 @@ source_filename: verizon-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.verizon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 23:59:59 2026 GMT\n  hsts: null\n- host: developers.verizon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 23:59:59 2026 GMT\n  hsts: null\n- host: thingspace.verizon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: verizon.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/security/verizon-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/verizon/security/verizon-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Wireless

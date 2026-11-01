@@ -5,31 +5,31 @@ api_specs:
   label: Veritus Calls API
   slug: veritus-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritus/refs/heads/main/openapi/veritus-calls-api-openapi.yml
+  url: https://artifacts.apis.io/veritus/openapi/veritus-calls-api-openapi.yml
 - filename: veritus-clients-api-openapi.yml
   format: yaml
   label: Veritus Clients API
   slug: veritus-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritus/refs/heads/main/openapi/veritus-clients-api-openapi.yml
+  url: https://artifacts.apis.io/veritus/openapi/veritus-clients-api-openapi.yml
 - filename: veritus-customers-api-openapi.yml
   format: yaml
   label: Veritus Customers API
   slug: veritus-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritus/refs/heads/main/openapi/veritus-customers-api-openapi.yml
+  url: https://artifacts.apis.io/veritus/openapi/veritus-customers-api-openapi.yml
 - filename: veritus-interactions-api-openapi.yml
   format: yaml
   label: Veritus Interactions API
   slug: veritus-interactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritus/refs/heads/main/openapi/veritus-interactions-api-openapi.yml
+  url: https://artifacts.apis.io/veritus/openapi/veritus-interactions-api-openapi.yml
 - filename: veritus-veritus-api-api-openapi.yml
   format: yaml
   label: Veritus API
   slug: veritus-veritus-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritus/refs/heads/main/openapi/veritus-veritus-api-api-openapi.yml
+  url: https://artifacts.apis.io/veritus/openapi/veritus-veritus-api-api-openapi.yml
 certification_count: 5
 certifications:
 - SOC 2 Type 2
@@ -50,7 +50,7 @@ source_filename: veritus-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nsource: https://trust.veritus.com/\nurl: https://trust.veritus.com/\nplatform: Secureframe\ncertifications:\n- SOC 2 Type 2\n- ISO 27001\n- PCI DSS\n- HIPAA\n- EU AI Act\ncontrol_families:\n- Change Management\n- Availability\n- Organizational Management\n- Confidentiality\n- Vulnerability Management\n- Incident Response\n- Risk Assessment\n- Network Security\n- Access Security\n- Physical Security\n- Communications\nhighlights:\n- Third-Party Penetration Test\n- Encryption-at-Rest and Encryption-in-Transit\n- Incident Response Plan (tested)\n- Confidential Reporting Channel\n- Vendor Risk Management\nevidence:\n- source: https://trust.veritus.com/\n  keywords:\n  - soc 2 type 2\n  - iso 27001\n  - pci dss\n  - hipaa\n  - eu ai act\n  - trust center\n  - secureframe\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veritus/refs/heads/main/security/veritus-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/veritus/security/veritus-trust-center.yml
 summary_line: SOC 2 Type 2, ISO 27001, PCI DSS, HIPAA, EU AI Act
 tags:
 - Company

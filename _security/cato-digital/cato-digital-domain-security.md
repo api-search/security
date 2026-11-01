@@ -32,7 +32,7 @@ source_filename: cato-digital-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cato.digital\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 20 23:59:59 2027 GMT\n  hsts: false\n- host: console.cato.digital\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: cato.digital\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cato-digital/refs/heads/main/security/cato-digital-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cato-digital/security/cato-digital-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

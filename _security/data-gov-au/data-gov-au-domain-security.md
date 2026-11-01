@@ -5,7 +5,7 @@ api_specs:
   label: data.gov.au Federal API
   slug: data-gov-au-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/data-gov-au/refs/heads/main/openapi/_ae-authored/data-gov-au-openapi-generated.yml
+  url: https://artifacts.apis.io/data-gov-au/openapi/_ae-authored/data-gov-au-openapi-generated.yml
 description: ''
 domains:
 - caa: []
@@ -34,7 +34,7 @@ source_filename: data-gov-au-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: data.gov.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 30 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: data.gov.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/data-gov-au/refs/heads/main/security/data-gov-au-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/data-gov-au/security/data-gov-au-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Open Data

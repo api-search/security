@@ -11,31 +11,31 @@ api_specs:
   label: PingOne Applications API
   slug: pingone-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pingone/refs/heads/main/openapi/pingone-applications-api-openapi.yml
+  url: https://artifacts.apis.io/pingone/openapi/pingone-applications-api-openapi.yml
 - filename: pingone-authentication-api-openapi.yml
   format: yaml
   label: PingOne Authentication API
   slug: pingone-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pingone/refs/heads/main/openapi/pingone-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/pingone/openapi/pingone-authentication-api-openapi.yml
 - filename: pingone-environments-api-openapi.yml
   format: yaml
   label: PingOne Environments API
   slug: pingone-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pingone/refs/heads/main/openapi/pingone-environments-api-openapi.yml
+  url: https://artifacts.apis.io/pingone/openapi/pingone-environments-api-openapi.yml
 - filename: pingone-populations-api-openapi.yml
   format: yaml
   label: PingOne Populations API
   slug: pingone-populations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pingone/refs/heads/main/openapi/pingone-populations-api-openapi.yml
+  url: https://artifacts.apis.io/pingone/openapi/pingone-populations-api-openapi.yml
 - filename: pingone-users-api-openapi.yml
   format: yaml
   label: PingOne Users API
   slug: pingone-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pingone/refs/heads/main/openapi/pingone-users-api-openapi.yml
+  url: https://artifacts.apis.io/pingone/openapi/pingone-users-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -53,7 +53,7 @@ source_filename: pingone-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.pingidentity.com/en-us/docs/legal/security-exhibit\nurl: https://www.pingidentity.com/en-us/docs/legal/security-exhibit\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://www.pingidentity.com/en-us/docs/legal/security-exhibit\n  keywords:\n  - soc 2\n  - iso 27001\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pingone/refs/heads/main/security/pingone-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/pingone/security/pingone-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Identity

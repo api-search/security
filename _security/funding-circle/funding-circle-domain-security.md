@@ -5,19 +5,19 @@ api_specs:
   label: Funding Circle Decisions API
   slug: funding-circle-decisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/funding-circle/refs/heads/main/openapi/funding-circle-decisions-api-openapi.yml
+  url: https://artifacts.apis.io/funding-circle/openapi/funding-circle-decisions-api-openapi.yml
 - filename: funding-circle-documents-api-openapi.yml
   format: yaml
   label: Funding Circle Documents API
   slug: funding-circle-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/funding-circle/refs/heads/main/openapi/funding-circle-documents-api-openapi.yml
+  url: https://artifacts.apis.io/funding-circle/openapi/funding-circle-documents-api-openapi.yml
 - filename: funding-circle-loan-applications-api-openapi.yml
   format: yaml
   label: Funding Circle Loan Applications API
   slug: funding-circle-loan-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/funding-circle/refs/heads/main/openapi/funding-circle-loan-applications-api-openapi.yml
+  url: https://artifacts.apis.io/funding-circle/openapi/funding-circle-loan-applications-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: funding-circle-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fundingcircle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  6 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: fundingcircle.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/funding-circle/refs/heads/main/security/funding-circle-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/funding-circle/security/funding-circle-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

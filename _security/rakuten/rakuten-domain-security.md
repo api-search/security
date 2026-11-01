@@ -5,19 +5,19 @@ api_specs:
   label: Rakuten Ichibagt API
   slug: rakuten-ichibagt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/openapi/rakuten-ichibagt-api-openapi.yml
+  url: https://artifacts.apis.io/rakuten/openapi/rakuten-ichibagt-api-openapi.yml
 - filename: rakuten-ichibams-api-openapi.yml
   format: yaml
   label: Rakuten Ichibams API
   slug: rakuten-ichibams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/openapi/rakuten-ichibams-api-openapi.yml
+  url: https://artifacts.apis.io/rakuten/openapi/rakuten-ichibams-api-openapi.yml
 - filename: rakuten-ichibaranking-api-openapi.yml
   format: yaml
   label: Rakuten Ichibaranking API
   slug: rakuten-ichibaranking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/openapi/rakuten-ichibaranking-api-openapi.yml
+  url: https://artifacts.apis.io/rakuten/openapi/rakuten-ichibaranking-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: rakuten-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: global.rakuten.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: webservice.rakuten.co.jp\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.rakuten.co.jp\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 10 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: rakuten.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: rakuten.co.jp\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/security/rakuten-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rakuten/security/rakuten-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - E-Commerce

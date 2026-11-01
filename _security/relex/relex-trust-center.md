@@ -5,43 +5,43 @@ api_specs:
   label: RELEX Solutions Environments API
   slug: relex-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-environments-api-openapi.yml
+  url: https://artifacts.apis.io/relex/openapi/relex-environments-api-openapi.yml
 - filename: relex-events-api-openapi.yml
   format: yaml
   label: RELEX Solutions Events API
   slug: relex-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-events-api-openapi.yml
+  url: https://artifacts.apis.io/relex/openapi/relex-events-api-openapi.yml
 - filename: relex-health-api-openapi.yml
   format: yaml
   label: RELEX Solutions Health API
   slug: relex-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-health-api-openapi.yml
+  url: https://artifacts.apis.io/relex/openapi/relex-health-api-openapi.yml
 - filename: relex-master-data-api-openapi.yml
   format: yaml
   label: RELEX Solutions Master data API
   slug: relex-master-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-master-data-api-openapi.yml
+  url: https://artifacts.apis.io/relex/openapi/relex-master-data-api-openapi.yml
 - filename: relex-metadata-api-openapi.yml
   format: yaml
   label: RELEX Solutions Metadata API
   slug: relex-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/relex/openapi/relex-metadata-api-openapi.yml
 - filename: relex-metrics-api-openapi.yml
   format: yaml
   label: RELEX Solutions Metrics API
   slug: relex-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/relex/openapi/relex-metrics-api-openapi.yml
 - filename: relex-transactions-api-openapi.yml
   format: yaml
   label: RELEX Solutions Transactions API
   slug: relex-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/relex/openapi/relex-transactions-api-openapi.yml
 certification_count: 3
 certifications:
 - ISO/IEC 27001:2013
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-08-26'\nmethod: searched\nprobe: true\nsource: ht
   \ and trust at RELEX\n    url: https://www.relexsolutions.com/policy/ai-governance-trust-at-relex/\n    status: 200\n  - name: Vulnerability disclosure policy\n    url: https://www.relexsolutions.com/policy/vulnerability-disclosure/\n    status: 200\n  - name: Modern slavery statement\n    url: https://www.relexsolutions.com/policy/modern-slavery-statement/\n  - name: Whistleblowing channel\n    url: https://www.relexsolutions.com/policy/whistleblowing-channel/\ncertifications:\n- name: ISO/IEC 27001:2013\n  scope: RELEX Inventory and Supply Chain software\n  evidence: 'Named on the security and compliance page: \"To gain ISO 27001:2013 certification for\n    RELEX''s Inventory and Supply Chain software, we had to demonstrate a systematic and rigorous\n    approach to managing sensitive information.\"'\n  certificate_downloadable: false\n- name: SOC 2 (ISAE 3000)\n  detail: Type I and Type II reports completed\n  evidence: RELEX describes the ISAE 3000 SOC 2 standard as its assurance reporting\
   \ standard and\n    states both Type I and Type II reports are complete.\n  report_downloadable: false\n- name: GDPR\n  detail: EU data protection programme\n  evidence: Named on the security and compliance page; RELEX is Helsinki-headquartered and offers\n    EU-resident environments (uat-eu / eu API hosts, identity.prod-eu identity authority).\n  note: A regulatory obligation rather than a certification, but published as part of the same\n    programme.\nnot_found:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- ISO 27017\n- ISO 27018\n- ISO 27701\n- TISAX\n- CSA STAR\nsubprocessors:\n  published: false\n  note: >-\n    No subprocessor list was found, though at least two subprocessors are inferable from the API\n    documentation itself — Svix (webhook delivery) and Microsoft Azure (Blob Storage for the Batch\n    API; the developer portal runs on Azure Static Web Apps).\ndata_residency:\n  regions:\n  - eu\n  - us\n  evidence: Both APIs publish per-region hosts and per-region RELEX Identity authorities,\
   \ so\n    residency is selectable at the environment level.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/security/relex-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/relex/security/relex-trust-center.yml
 summary_line: ISO/IEC 27001:2013, SOC 2 (ISAE 3000), GDPR
 tags:
 - Supply Chain

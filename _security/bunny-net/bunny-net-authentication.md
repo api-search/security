@@ -8,67 +8,67 @@ api_specs:
   label: Bunny.net Stream Webhooks
   slug: stream-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/asyncapi/bunny-net-stream-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/bunny-net/asyncapi/bunny-net-stream-webhooks-asyncapi.yml
 - filename: bunny-net-billing-api-openapi.yml
   format: yaml
   label: Bunny.net Billing API
   slug: bunny-net-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/openapi/bunny-net-billing-api-openapi.yml
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-billing-api-openapi.yml
 - filename: bunny-net-countries-api-openapi.yml
   format: yaml
   label: Bunny.net Countries API
   slug: bunny-net-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/openapi/bunny-net-countries-api-openapi.yml
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-countries-api-openapi.yml
 - filename: bunny-net-pullzones-api-openapi.yml
   format: yaml
   label: Bunny.net PullZones API
   slug: bunny-net-pullzones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/openapi/bunny-net-pullzones-api-openapi.yml
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-pullzones-api-openapi.yml
 - filename: bunny-net-purge-api-openapi.yml
   format: yaml
   label: Bunny.net Purge API
   slug: bunny-net-purge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/openapi/bunny-net-purge-api-openapi.yml
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-purge-api-openapi.yml
 - filename: bunny-net-regions-api-openapi.yml
   format: yaml
   label: Bunny.net Regions API
   slug: bunny-net-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/openapi/bunny-net-regions-api-openapi.yml
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-regions-api-openapi.yml
 - filename: bunny-net-statistics-api-openapi.yml
   format: yaml
   label: Bunny.net Statistics API
   slug: bunny-net-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/openapi/bunny-net-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-statistics-api-openapi.yml
 - filename: bunny-net-storagezones-api-openapi.yml
   format: yaml
   label: Bunny.net StorageZones API
   slug: bunny-net-storagezones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/openapi/bunny-net-storagezones-api-openapi.yml
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-storagezones-api-openapi.yml
 - filename: bunny-net-stream-api-openapi.yml
   format: yaml
   label: Bunny.net Stream API
   slug: bunny-net-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/openapi/bunny-net-stream-api-openapi.yml
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-stream-api-openapi.yml
 - filename: bunny-net-api-keys-api-openapi.yml
   format: yaml
   label: Bunny.net API Keys API
   slug: bunny-net-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/openapi/bunny-net-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-api-keys-api-openapi.yml
 - filename: bunny-net-dns-zones-api-openapi.yml
   format: yaml
   label: Bunny.net DNS Zones API
   slug: bunny-net-dns-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/openapi/bunny-net-dns-zones-api-openapi.yml
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-dns-zones-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -96,7 +96,7 @@ source_filename: bunny-net-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bunny-net-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: accessKeyAuth\n  type: apiKey\n  in: header\n  parameter: AccessKey\n  description: API key issued from the Bunny.net dashboard.\n  sources:\n  - openapi/bunny-net-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/authentication/bunny-net-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bunny-net/authentication/bunny-net-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - CDN

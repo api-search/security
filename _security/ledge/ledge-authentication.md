@@ -7,13 +7,13 @@ api_specs:
   label: Ledge Sources API
   slug: ledge-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/openapi/ledge-sources-api-openapi.yml
+  url: https://artifacts.apis.io/ledge/openapi/ledge-sources-api-openapi.yml
 - filename: ledge-transactions-api-openapi.yml
   format: yaml
   label: Ledge Transactions API
   slug: ledge-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/openapi/ledge-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/ledge/openapi/ledge-transactions-api-openapi.yml
 auth_types:
 - oauth2
 description: Ledge authenticates API callers with an OAuth 2.0 client_credentials grant issued by its Auth0 tenant, and authorizes them with a role-based fine-grained permissions model rather than with token scopes. Human access to the web application supports enterprise SAML 2.0 SSO with SCIM 2.0 provisioning.
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: >-\n  https://d
   \  custom_roles: >-\n    Custom roles can be used to allow, or deny, access to specific resources.\n  failure_mode: >-\n    A role that denies a resource yields HTTP 403 (\"The request was rejected for\n    security reasons\"), which is not retryable.\n  detail: scopes/ledge-scopes.yml\nenterprise_sso:\n  saml:\n    supported: true\n    version: '2.0'\n    docs: https://docs.ledge.co/authentication/how-to-guide-configure-saml-sso-with-ledge\n    acs_url: https://auth.goledge.io/login/callback?connection={your-ledge-workspace}\n    sp_entity_id: urn:auth0:goledge:{your-ledge-workspace}\n    nameid_format: urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress\n    signature_algorithm: RSA-SHA256\n    required_claims:\n    - http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress\n    - http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname\n    - http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname\n    - http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name\n\
   \    idps_documented: [Okta, JumpCloud, Microsoft Entra ID, Google Workspace, OneLogin]\n    setup: >-\n      IdP metadata is sent to the customer's Ledge Customer Experience Manager to\n      complete configuration — there is no self-serve SSO setup.\n  scim:\n    supported: true\n    version: '2.0'\n    docs: https://docs.ledge.co/authentication/how-to-guide-configure-scim-provisioning-with-ledge\n    auth: Bearer token, per SCIM 2.0\n    base_url: Issued per-account by Ledge (not a published URL)\n    enablement: >-\n      SCIM is enabled per account by the customer's Ledge Customer Experience\n      Manager, who provides the SCIM Bearer Token and SCIM Base URL.\n    schemas: SCIM core and Enterprise schemas\n    limitations:\n    - Group membership is not synced — Ledge does not consume the SCIM /groups endpoint.\n    - Custom schema extensions are not consumed.\nnotes:\n- >-\n  The API host api.goledge.io serves no /.well-known/ discovery document; the\n  OAuth metadata lives on the\
   \ Auth0 tenant.\n- >-\n  Ledge publishes no API-key-only authentication path. The Getting Started page\n  and the 401 message refer to an \"API key\", but the documented mechanism is\n  the OAuth client credential pair.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/authentication/ledge-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ledge/authentication/ledge-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

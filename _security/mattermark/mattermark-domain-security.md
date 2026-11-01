@@ -5,37 +5,37 @@ api_specs:
   label: Mattermark Companies API
   slug: mattermark-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/openapi/mattermark-companies-api-openapi.yml
+  url: https://artifacts.apis.io/mattermark/openapi/mattermark-companies-api-openapi.yml
 - filename: mattermark-complex-queries-api-openapi.yml
   format: yaml
   label: Mattermark Complex Queries API
   slug: mattermark-complex-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/openapi/mattermark-complex-queries-api-openapi.yml
+  url: https://artifacts.apis.io/mattermark/openapi/mattermark-complex-queries-api-openapi.yml
 - filename: mattermark-funding-events-api-openapi.yml
   format: yaml
   label: Mattermark Funding Events API
   slug: mattermark-funding-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/openapi/mattermark-funding-events-api-openapi.yml
+  url: https://artifacts.apis.io/mattermark/openapi/mattermark-funding-events-api-openapi.yml
 - filename: mattermark-investors-api-openapi.yml
   format: yaml
   label: Mattermark Investors API
   slug: mattermark-investors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/openapi/mattermark-investors-api-openapi.yml
+  url: https://artifacts.apis.io/mattermark/openapi/mattermark-investors-api-openapi.yml
 - filename: mattermark-search-api-openapi.yml
   format: yaml
   label: Mattermark Search API
   slug: mattermark-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/openapi/mattermark-search-api-openapi.yml
+  url: https://artifacts.apis.io/mattermark/openapi/mattermark-search-api-openapi.yml
 - filename: mattermark-utilities-api-openapi.yml
   format: yaml
   label: Mattermark Utilities API
   slug: mattermark-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/openapi/mattermark-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/mattermark/openapi/mattermark-utilities-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: mattermark-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mattermark.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 23:18:40 2026 GMT\n  hsts: false\n- host: developer.mattermark.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 15:57:26 2026 GMT\n  hsts: null\n- host: api.mattermark.com\n  https: false\ndomains:\n- domain: mattermark.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/security/mattermark-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mattermark/security/mattermark-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

@@ -5,13 +5,13 @@ api_specs:
   label: VoiceGenie Calls API
   slug: voicegenie-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voicegenie/refs/heads/main/openapi/voicegenie-calls-api-openapi.yml
+  url: https://artifacts.apis.io/voicegenie/openapi/voicegenie-calls-api-openapi.yml
 - filename: voicegenie-campaigns-api-openapi.yml
   format: yaml
   label: VoiceGenie Campaigns API
   slug: voicegenie-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voicegenie/refs/heads/main/openapi/voicegenie-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/voicegenie/openapi/voicegenie-campaigns-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: voicegenie-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: voicegenie.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 23:07:58 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: voicegenie.gitbook.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 19:03:12 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: core-saas.voicegenie.ai\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec  5 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: voicegenie.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: gitbook.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voicegenie/refs/heads/main/security/voicegenie-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/voicegenie/security/voicegenie-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

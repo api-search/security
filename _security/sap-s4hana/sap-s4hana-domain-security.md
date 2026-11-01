@@ -5,37 +5,37 @@ api_specs:
   label: SAP S/4HANA Partners API
   slug: sap-s4hana-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/openapi/sap-s4hana-partners-api-openapi.yml
+  url: https://artifacts.apis.io/sap-s4hana/openapi/sap-s4hana-partners-api-openapi.yml
 - filename: sap-s4hana-pricing-elements-api-openapi.yml
   format: yaml
   label: SAP S/4HANA Pricing Elements API
   slug: sap-s4hana-pricing-elements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/openapi/sap-s4hana-pricing-elements-api-openapi.yml
+  url: https://artifacts.apis.io/sap-s4hana/openapi/sap-s4hana-pricing-elements-api-openapi.yml
 - filename: sap-s4hana-sales-order-items-api-openapi.yml
   format: yaml
   label: SAP S/4HANA Sales Order Items API
   slug: sap-s4hana-sales-order-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/openapi/sap-s4hana-sales-order-items-api-openapi.yml
+  url: https://artifacts.apis.io/sap-s4hana/openapi/sap-s4hana-sales-order-items-api-openapi.yml
 - filename: sap-s4hana-sales-orders-api-openapi.yml
   format: yaml
   label: SAP S/4HANA Sales Orders API
   slug: sap-s4hana-sales-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/openapi/sap-s4hana-sales-orders-api-openapi.yml
+  url: https://artifacts.apis.io/sap-s4hana/openapi/sap-s4hana-sales-orders-api-openapi.yml
 - filename: sap-s4hana-schedule-lines-api-openapi.yml
   format: yaml
   label: SAP S/4HANA Schedule Lines API
   slug: sap-s4hana-schedule-lines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/openapi/sap-s4hana-schedule-lines-api-openapi.yml
+  url: https://artifacts.apis.io/sap-s4hana/openapi/sap-s4hana-schedule-lines-api-openapi.yml
 - filename: sap-s4hana-text-api-openapi.yml
   format: yaml
   label: SAP S/4HANA Text API
   slug: sap-s4hana-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/openapi/sap-s4hana-text-api-openapi.yml
+  url: https://artifacts.apis.io/sap-s4hana/openapi/sap-s4hana-text-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: sap-s4hana-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.sap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 28 23:59:59 2027 GMT\n  hsts: null\n- host: sandbox.api.sap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 12 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: sap.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/security/sap-s4hana-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sap-s4hana/security/sap-s4hana-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Business Applications

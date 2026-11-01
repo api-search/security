@@ -5,67 +5,67 @@ api_specs:
   label: CoinList KYC API
   slug: coinlist-kyc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/openapi/coinlist-kyc-api-openapi.yml
+  url: https://artifacts.apis.io/coinlist/openapi/coinlist-kyc-api-openapi.yml
 - filename: coinlist-offers-api-openapi.yml
   format: yaml
   label: CoinList Offers API
   slug: coinlist-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/openapi/coinlist-offers-api-openapi.yml
+  url: https://artifacts.apis.io/coinlist/openapi/coinlist-offers-api-openapi.yml
 - filename: coinlist-participations-api-openapi.yml
   format: yaml
   label: CoinList Participations API
   slug: coinlist-participations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/openapi/coinlist-participations-api-openapi.yml
+  url: https://artifacts.apis.io/coinlist/openapi/coinlist-participations-api-openapi.yml
 - filename: coinlist-pii-api-openapi.yml
   format: yaml
   label: CoinList Pii API
   slug: coinlist-pii-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/openapi/coinlist-pii-api-openapi.yml
+  url: https://artifacts.apis.io/coinlist/openapi/coinlist-pii-api-openapi.yml
 - filename: coinlist-requirements-api-openapi.yml
   format: yaml
   label: CoinList Requirements API
   slug: coinlist-requirements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/openapi/coinlist-requirements-api-openapi.yml
+  url: https://artifacts.apis.io/coinlist/openapi/coinlist-requirements-api-openapi.yml
 - filename: coinlist-swap-api-openapi.yml
   format: yaml
   label: CoinList Swap API
   slug: coinlist-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/openapi/coinlist-swap-api-openapi.yml
+  url: https://artifacts.apis.io/coinlist/openapi/coinlist-swap-api-openapi.yml
 - filename: coinlist-token-api-openapi.yml
   format: yaml
   label: CoinList Token API
   slug: coinlist-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/openapi/coinlist-token-api-openapi.yml
+  url: https://artifacts.apis.io/coinlist/openapi/coinlist-token-api-openapi.yml
 - filename: coinlist-wallet-api-openapi.yml
   format: yaml
   label: CoinList Wallet API
   slug: coinlist-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/openapi/coinlist-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/coinlist/openapi/coinlist-wallet-api-openapi.yml
 - filename: coinlist-wallet-ownership-api-openapi.yml
   format: yaml
   label: CoinList Wallet Ownership API
   slug: coinlist-wallet-ownership-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/openapi/coinlist-wallet-ownership-api-openapi.yml
+  url: https://artifacts.apis.io/coinlist/openapi/coinlist-wallet-ownership-api-openapi.yml
 - filename: coinlist-oauth-api-openapi.yml
   format: yaml
   label: CoinList O Auth API
   slug: coinlist-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/openapi/coinlist-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/coinlist/openapi/coinlist-oauth-api-openapi.yml
 - filename: coinlist-document-submissions-api-openapi.yml
   format: yaml
   label: CoinList document submissions API
   slug: coinlist-document-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/openapi/coinlist-document-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/coinlist/openapi/coinlist-document-submissions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -99,7 +99,7 @@ source_filename: coinlist-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: coinlist.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 15:16:34 2026 GMT\n  hsts: false\n- host: api.coinlist.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 15:16:34 2026 GMT\n  hsts: null\ndomains:\n- domain: coinlist.co\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/security/coinlist-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/coinlist/security/coinlist-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

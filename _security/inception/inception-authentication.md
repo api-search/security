@@ -7,25 +7,25 @@ api_specs:
   label: Inception Edit API
   slug: inception-edit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inception/refs/heads/main/openapi/inception-edit-api-openapi.yml
+  url: https://artifacts.apis.io/inception/openapi/inception-edit-api-openapi.yml
 - filename: inception-fim-api-openapi.yml
   format: yaml
   label: Inception FIM API
   slug: inception-fim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inception/refs/heads/main/openapi/inception-fim-api-openapi.yml
+  url: https://artifacts.apis.io/inception/openapi/inception-fim-api-openapi.yml
 - filename: inception-models-api-openapi.yml
   format: yaml
   label: Inception Models API
   slug: inception-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inception/refs/heads/main/openapi/inception-models-api-openapi.yml
+  url: https://artifacts.apis.io/inception/openapi/inception-models-api-openapi.yml
 - filename: inception-chat-completions-api-openapi.yml
   format: yaml
   label: Inception Chat Completions API
   slug: inception-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inception/refs/heads/main/openapi/inception-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/inception/openapi/inception-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: inception-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/inception-openapi-original.json\ndocs: https://docs.inceptionlabs.ai/get-started/authentication\nenv_var: INCEPTION_API_KEY\nkey_management: https://platform.inceptionlabs.ai/dashboard/api-keys\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: 'API key provided as a Bearer token: `Authorization: Bearer <api_key>`. Get an\n    API key at https://platform.inceptionlabs.ai.'\n  sources:\n  - openapi/inception-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inception/refs/heads/main/authentication/inception-authentication.yml
+source_yaml_url: https://artifacts.apis.io/inception/authentication/inception-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

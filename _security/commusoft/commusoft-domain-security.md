@@ -5,49 +5,49 @@ api_specs:
   label: Commusoft Authentication API
   slug: commusoft-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/commusoft/openapi/commusoft-authentication-api-openapi.yml
 - filename: commusoft-contacts-api-openapi.yml
   format: yaml
   label: Commusoft Contacts API
   slug: commusoft-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/commusoft/openapi/commusoft-contacts-api-openapi.yml
 - filename: commusoft-customers-api-openapi.yml
   format: yaml
   label: Commusoft Customers API
   slug: commusoft-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-customers-api-openapi.yml
+  url: https://artifacts.apis.io/commusoft/openapi/commusoft-customers-api-openapi.yml
 - filename: commusoft-diary-events-api-openapi.yml
   format: yaml
   label: Commusoft Diary Events API
   slug: commusoft-diary-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-diary-events-api-openapi.yml
+  url: https://artifacts.apis.io/commusoft/openapi/commusoft-diary-events-api-openapi.yml
 - filename: commusoft-locations-api-openapi.yml
   format: yaml
   label: Commusoft Locations API
   slug: commusoft-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-locations-api-openapi.yml
+  url: https://artifacts.apis.io/commusoft/openapi/commusoft-locations-api-openapi.yml
 - filename: commusoft-suppliers-api-openapi.yml
   format: yaml
   label: Commusoft Suppliers API
   slug: commusoft-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/commusoft/openapi/commusoft-suppliers-api-openapi.yml
 - filename: commusoft-titles-api-openapi.yml
   format: yaml
   label: Commusoft Titles API
   slug: commusoft-titles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-titles-api-openapi.yml
+  url: https://artifacts.apis.io/commusoft/openapi/commusoft-titles-api-openapi.yml
 - filename: commusoft-users-api-openapi.yml
   format: yaml
   label: Commusoft Users API
   slug: commusoft-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-users-api-openapi.yml
+  url: https://artifacts.apis.io/commusoft/openapi/commusoft-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -90,10 +90,10 @@ source_filename: commusoft-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.commusoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  7 14:04:37 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: commusoft.docs.apiary.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 23:59:59 2026 GMT\n  hsts: false\n- host: api.commusoft.com\n  https: false\ndomains:\n- domain: commusoft.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: apiary.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/security/commusoft-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/commusoft/security/commusoft-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Field Service
+- Field Service Management
 - Job Management
 - HVAC
 - Plumbing

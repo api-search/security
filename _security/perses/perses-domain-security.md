@@ -5,25 +5,25 @@ api_specs:
   label: Perses Dashboards API
   slug: perses-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perses/refs/heads/main/openapi/perses-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/perses/openapi/perses-dashboards-api-openapi.yml
 - filename: perses-global-datasources-api-openapi.yml
   format: yaml
   label: Perses Global Datasources API
   slug: perses-global-datasources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perses/refs/heads/main/openapi/perses-global-datasources-api-openapi.yml
+  url: https://artifacts.apis.io/perses/openapi/perses-global-datasources-api-openapi.yml
 - filename: perses-projects-api-openapi.yml
   format: yaml
   label: Perses Projects API
   slug: perses-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perses/refs/heads/main/openapi/perses-projects-api-openapi.yml
+  url: https://artifacts.apis.io/perses/openapi/perses-projects-api-openapi.yml
 - filename: perses-data-sources-api-openapi.yml
   format: yaml
   label: Perses Data Sources API
   slug: perses-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perses/refs/heads/main/openapi/perses-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/perses/openapi/perses-data-sources-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: perses-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: perses.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 13:17:08 2026 GMT\n  hsts: false\ndomains:\n- domain: perses.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/perses/refs/heads/main/security/perses-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/perses/security/perses-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - CNCF

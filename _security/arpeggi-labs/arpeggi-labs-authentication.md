@@ -7,31 +7,31 @@ api_specs:
   label: Arpeggi Labs Stem Splitter API
   slug: arpeggi-labs-stem-splitter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/openapi/arpeggi-labs-stem-splitter-api-openapi.yml
+  url: https://artifacts.apis.io/arpeggi-labs/openapi/arpeggi-labs-stem-splitter-api-openapi.yml
 - filename: arpeggi-labs-vocal-separation-api-openapi.yml
   format: yaml
   label: Arpeggi Labs Vocal Separation API
   slug: arpeggi-labs-vocal-separation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/openapi/arpeggi-labs-vocal-separation-api-openapi.yml
+  url: https://artifacts.apis.io/arpeggi-labs/openapi/arpeggi-labs-vocal-separation-api-openapi.yml
 - filename: arpeggi-labs-voice-blender-api-openapi.yml
   format: yaml
   label: Arpeggi Labs Voice Blender API
   slug: arpeggi-labs-voice-blender-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/openapi/arpeggi-labs-voice-blender-api-openapi.yml
+  url: https://artifacts.apis.io/arpeggi-labs/openapi/arpeggi-labs-voice-blender-api-openapi.yml
 - filename: arpeggi-labs-voice-conversion-api-openapi.yml
   format: yaml
   label: Arpeggi Labs Voice Conversion API
   slug: arpeggi-labs-voice-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/openapi/arpeggi-labs-voice-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/arpeggi-labs/openapi/arpeggi-labs-voice-conversion-api-openapi.yml
 - filename: arpeggi-labs-voice-models-api-openapi.yml
   format: yaml
   label: Arpeggi Labs Voice Models API
   slug: arpeggi-labs-voice-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/openapi/arpeggi-labs-voice-models-api-openapi.yml
+  url: https://artifacts.apis.io/arpeggi-labs/openapi/arpeggi-labs-voice-models-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: arpeggi-labs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/arpeggi-labs-kits-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'API key issued from the Kits AI API access page (https://app.kits.ai/api-access),\n    sent as `Authorization: Bearer <api-key>`.'\n  sources:\n  - openapi/arpeggi-labs-kits-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/authentication/arpeggi-labs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/arpeggi-labs/authentication/arpeggi-labs-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

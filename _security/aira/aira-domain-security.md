@@ -23,12 +23,12 @@ source_filename: aira-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aira.com\n  https: false\ndomains:\n- domain: aira.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aira/refs/heads/main/security/aira-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aira/security/aira-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company
 - Accessibility
 - VideoRemoteInterpreting
-- AssistiveTechnology
+- Assistive Technology
 - Software-as-a-Service
 ---

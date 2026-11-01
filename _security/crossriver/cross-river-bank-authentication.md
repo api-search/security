@@ -31,7 +31,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: derived\nsource: docs.crossriver.com + openapi/cross-river-openapi.yml\nsummary:\n  types:\n  - oauth2\nschemes:\n- name: oauth2ClientCredentials\n  type: oauth2\n  flow: clientCredentials\n  tokenUrl: https://idptest.crbcos.com/connect/token\n  description: >-\n    OAuth 2.0 client credentials grant. Partners are provisioned a client_id and\n    client_secret during onboarding, then POST client_id, client_secret, and\n    grant_type=client_credentials (optionally audience and scope) to the COS\n    identity provider token endpoint. The sandbox token endpoint is\n    https://idptest.crbcos.com/connect/token; the lending module uses\n    https://oauthtest.crbnj.net/connect/token. The response is a signed JWT that\n    must be sent as `Authorization: Bearer <token>` on every API request.\n  sources:\n  - https://docs.crossriver.com/get-started/quickstart/get-access-token\n  - https://docs.crossriver.com/get-started/api-basics\n  - openapi/cross-river-openapi.yml\n\
   notes: >-\n  Access is partner/enterprise-gated - there is no open self-service signup.\n  Credentials for sandbox and, later, production are issued by Cross River during\n  onboarding. Production token/host URLs are provisioned at go-live and are not\n  published in the open documentation.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crossriver/refs/heads/main/authentication/cross-river-bank-authentication.yml
+source_yaml_url: https://artifacts.apis.io/crossriver/authentication/cross-river-bank-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Banking

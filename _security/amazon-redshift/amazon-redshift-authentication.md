@@ -8,31 +8,31 @@ api_specs:
   label: Amazon Redshift Metadata API
   slug: amazon-redshift-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-redshift/refs/heads/main/openapi/amazon-redshift-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-redshift/openapi/amazon-redshift-metadata-api-openapi.yml
 - filename: amazon-redshift-result-retrieval-api-openapi.yml
   format: yaml
   label: Amazon Redshift Result Retrieval API
   slug: amazon-redshift-result-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-redshift/refs/heads/main/openapi/amazon-redshift-result-retrieval-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-redshift/openapi/amazon-redshift-result-retrieval-api-openapi.yml
 - filename: amazon-redshift-statement-execution-api-openapi.yml
   format: yaml
   label: Amazon Redshift Statement Execution API
   slug: amazon-redshift-statement-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-redshift/refs/heads/main/openapi/amazon-redshift-statement-execution-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-redshift/openapi/amazon-redshift-statement-execution-api-openapi.yml
 - filename: amazon-redshift-statement-management-api-openapi.yml
   format: yaml
   label: Amazon Redshift Statement Management API
   slug: amazon-redshift-statement-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-redshift/refs/heads/main/openapi/amazon-redshift-statement-management-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-redshift/openapi/amazon-redshift-statement-management-api-openapi.yml
 - filename: amazon-redshift-amazon-redshift-api-openapi.yml
   format: yaml
   label: Amazon Redshift Amazon Redshift API
   slug: amazon-redshift-amazon-redshift-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-redshift/refs/heads/main/openapi/amazon-redshift-amazon-redshift-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-redshift/openapi/amazon-redshift-amazon-redshift-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: amazon-redshift-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-redshift-data-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: sigv4Auth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4 authentication. Requests are signed using IAM credentials.\n    The Data API also supports authentication via AWS Secrets Manager for database credentials\n    or temporary IAM credentials.\n  sources:\n  - openapi/amazon-redshift-data-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-redshift/refs/heads/main/authentication/amazon-redshift-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-redshift/authentication/amazon-redshift-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Analytics

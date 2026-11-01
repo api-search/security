@@ -5,31 +5,31 @@ api_specs:
   label: BodyTrace Alerts API
   slug: bodytrace-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bodytrace/refs/heads/main/openapi/bodytrace-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/bodytrace/openapi/bodytrace-alerts-api-openapi.yml
 - filename: bodytrace-data-messages-api-openapi.yml
   format: yaml
   label: BodyTrace Data Messages API
   slug: bodytrace-data-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bodytrace/refs/heads/main/openapi/bodytrace-data-messages-api-openapi.yml
+  url: https://artifacts.apis.io/bodytrace/openapi/bodytrace-data-messages-api-openapi.yml
 - filename: bodytrace-devices-api-openapi.yml
   format: yaml
   label: BodyTrace Devices API
   slug: bodytrace-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bodytrace/refs/heads/main/openapi/bodytrace-devices-api-openapi.yml
+  url: https://artifacts.apis.io/bodytrace/openapi/bodytrace-devices-api-openapi.yml
 - filename: bodytrace-observations-api-openapi.yml
   format: yaml
   label: BodyTrace Observations API
   slug: bodytrace-observations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bodytrace/refs/heads/main/openapi/bodytrace-observations-api-openapi.yml
+  url: https://artifacts.apis.io/bodytrace/openapi/bodytrace-observations-api-openapi.yml
 - filename: bodytrace-provisioning-api-openapi.yml
   format: yaml
   label: BodyTrace Provisioning API
   slug: bodytrace-provisioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bodytrace/refs/heads/main/openapi/bodytrace-provisioning-api-openapi.yml
+  url: https://artifacts.apis.io/bodytrace/openapi/bodytrace-provisioning-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -70,7 +70,7 @@ source_filename: bodytrace-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bodytrace.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 23:03:43 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: us.data.bodytrace.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 23:59:59 2026 GMT\n  hsts: null\n- host: eu.data.bodytrace.com\n  https: false\ndomains:\n- domain: bodytrace.com\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \";\"\n  - 0 issue \"thawte.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bodytrace/refs/heads/main/security/bodytrace-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bodytrace/security/bodytrace-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Remote Patient Monitoring

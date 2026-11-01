@@ -5,25 +5,25 @@ api_specs:
   label: Cataas Admin API
   slug: cataas-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cataas/refs/heads/main/openapi/cataas-admin-api-openapi.yml
+  url: https://artifacts.apis.io/cataas/openapi/cataas-admin-api-openapi.yml
 - filename: cataas-catalog-api-openapi.yml
   format: yaml
   label: Cataas Catalog API
   slug: cataas-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cataas/refs/heads/main/openapi/cataas-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/cataas/openapi/cataas-catalog-api-openapi.yml
 - filename: cataas-cats-api-openapi.yml
   format: yaml
   label: Cataas Cats API
   slug: cataas-cats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cataas/refs/heads/main/openapi/cataas-cats-api-openapi.yml
+  url: https://artifacts.apis.io/cataas/openapi/cataas-cats-api-openapi.yml
 - filename: cataas-upload-api-openapi.yml
   format: yaml
   label: Cataas Upload API
   slug: cataas-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cataas/refs/heads/main/openapi/cataas-upload-api-openapi.yml
+  url: https://artifacts.apis.io/cataas/openapi/cataas-upload-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: cataas-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cataas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 08:40:52 2026 GMT\n  hsts: null\ndomains:\n- domain: cataas.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cataas/refs/heads/main/security/cataas-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cataas/security/cataas-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Animals

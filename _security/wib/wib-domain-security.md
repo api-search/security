@@ -27,7 +27,7 @@ source_filename: wib-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: wenspiredata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 13:52:16 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: wenspiredata.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wib/refs/heads/main/security/wib-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wib/security/wib-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

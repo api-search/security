@@ -8,55 +8,55 @@ api_specs:
   label: Democracy Works Authorities API
   slug: democracy-works-authorities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/democracy-works/refs/heads/main/openapi/democracy-works-authorities-api-openapi.yml
+  url: https://artifacts.apis.io/democracy-works/openapi/democracy-works-authorities-api-openapi.yml
 - filename: democracy-works-elections-api-openapi.yml
   format: yaml
   label: Democracy Works Elections API
   slug: democracy-works-elections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/democracy-works/refs/heads/main/openapi/democracy-works-elections-api-openapi.yml
+  url: https://artifacts.apis.io/democracy-works/openapi/democracy-works-elections-api-openapi.yml
 - filename: democracy-works-exports-api-openapi.yml
   format: yaml
   label: Democracy Works Exports API
   slug: democracy-works-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/democracy-works/refs/heads/main/openapi/democracy-works-exports-api-openapi.yml
+  url: https://artifacts.apis.io/democracy-works/openapi/democracy-works-exports-api-openapi.yml
 - filename: democracy-works-ballot-measures-api-openapi.yml
   format: yaml
   label: Democracy Works Ballot Measures API
   slug: democracy-works-ballot-measures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/democracy-works/refs/heads/main/openapi/democracy-works-ballot-measures-api-openapi.yml
+  url: https://artifacts.apis.io/democracy-works/openapi/democracy-works-ballot-measures-api-openapi.yml
 - filename: democracy-works-candidates-api-openapi.yml
   format: yaml
   label: Democracy Works Candidates API
   slug: democracy-works-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/democracy-works/refs/heads/main/openapi/democracy-works-candidates-api-openapi.yml
+  url: https://artifacts.apis.io/democracy-works/openapi/democracy-works-candidates-api-openapi.yml
 - filename: democracy-works-contests-api-openapi.yml
   format: yaml
   label: Democracy Works Contests API
   slug: democracy-works-contests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/democracy-works/refs/heads/main/openapi/democracy-works-contests-api-openapi.yml
+  url: https://artifacts.apis.io/democracy-works/openapi/democracy-works-contests-api-openapi.yml
 - filename: democracy-works-endorsements-api-openapi.yml
   format: yaml
   label: Democracy Works Endorsements API
   slug: democracy-works-endorsements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/democracy-works/refs/heads/main/openapi/democracy-works-endorsements-api-openapi.yml
+  url: https://artifacts.apis.io/democracy-works/openapi/democracy-works-endorsements-api-openapi.yml
 - filename: democracy-works-voting-locations-api-openapi.yml
   format: yaml
   label: Democracy Works Voting Locations API
   slug: democracy-works-voting-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/democracy-works/refs/heads/main/openapi/democracy-works-voting-locations-api-openapi.yml
+  url: https://artifacts.apis.io/democracy-works/openapi/democracy-works-voting-locations-api-openapi.yml
 - filename: democracy-works-election-authorities-api-openapi.yml
   format: yaml
   label: Democracy Works Election Authorities API
   slug: democracy-works-election-authorities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/democracy-works/refs/heads/main/openapi/democracy-works-election-authorities-api-openapi.yml
+  url: https://artifacts.apis.io/democracy-works/openapi/democracy-works-election-authorities-api-openapi.yml
 auth_types:
 - apiKey
 description: A single API-key header, no OAuth, no scopes, and no self-service issuance. Note that the two live generations of this API use DIFFERENT auth headers — the v1 surface, still served, uses an Authorization header with an "apikey" prefix.
@@ -107,7 +107,7 @@ source_yaml: "specification: API Commons Authentication\nspecificationVersion: '
   \  parameter: Authorization\n  value_format: 'apikey <YOUR_API_KEY>'\n  applies_to: 'API v1 (https://api.democracy.works, unversioned paths) — legacy, still live'\n  example: 'curl -H \"Accept: application/json\" -H \"Authorization: apikey $YOUR_API_KEY\" \"https://api.democracy.works/elections/upcoming\"'\n  sources:\n  - openapi/democracy-works-elections-v1-api-openapi.yml\n  note: >-\n    Documented at https://developers.democracy.works/api/v1, which is also what the portal\n    root serves. The v1 contract declares no securityScheme object — the header is described\n    only in prose and as a request parameter on the upcoming-elections operation.\nissuance:\n  self_service: false\n  signup_url: null\n  process: >-\n    Keys are issued by Democracy Works after a partnership conversation. The contract points\n    at https://data.democracy.works/api-signup, which now soft-404s to the marketing\n    homepage; the working routes are partnerships@democracy.works and\n    https://www.democracy.works/contact.\n\
   \  test_key: >-\n    A test key is available on the same request path. There is no separate sandbox host and\n    no key prefix distinguishing test from live. See sandbox/democracy-works-sandbox.yml.\nobserved_behavior:\n- url: https://api.democracy.works/v2/elections\n  request: no credential\n  status: 403\n  body: '{\"message\":\"Forbidden\"}'\n  headers_of_note: 'x-amzn-errortype: ForbiddenException'\n  probed: '2026-09-07'\n- url: https://api.democracy.works/v2/elections\n  request: 'X-API-KEY: not-a-real-key'\n  status: 403\n  body: '{\"message\":\"Forbidden\"}'\n  probed: '2026-09-07'\n  note: >-\n    An invalid key and an absent key are indistinguishable — same status, same body. A\n    client cannot tell \"I forgot the header\" from \"my key was revoked\" without out-of-band\n    information.\n- url: https://api.democracy.works/elections/upcoming\n  request: no credential\n  status: 403\n  body: '{:message \"Missing Authorization apikey header\"}'\n  content_type: application/edn\n\
   \  probed: '2026-09-07'\n  note: >-\n    The v1 surface DOES name the missing header, and answers in EDN rather than JSON.\ntransport:\n  https_only: true\n  tls: TLSv1.3\n  hsts: false\n  note: >-\n    api.democracy.works serves TLS 1.3 but sends no Strict-Transport-Security header on the\n    v2 surface; the v1 surface does (max-age=31536000; includeSubdomains). See\n    security/democracy-works-domain-security.yml.\ngaps:\n- No key rotation, expiry or scoping documented.\n- No per-key permission model — one key grants the whole surface.\n- No OAuth or delegated-authorization path, so an agent cannot act on a voter's behalf with\n  a scoped, revocable grant; it holds a full-surface key.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/democracy-works/refs/heads/main/authentication/democracy-works-authentication.yml
+source_yaml_url: https://artifacts.apis.io/democracy-works/authentication/democracy-works-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Civic Tech

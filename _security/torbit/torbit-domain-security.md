@@ -25,7 +25,7 @@ source_filename: torbit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: torbit.com\n  https: false\ndomains:\n- domain: torbit.com\n  dnssec: false\n  caa:\n  - 0 issue \"globalsign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/torbit/refs/heads/main/security/torbit-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/torbit/security/torbit-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

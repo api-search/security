@@ -5,31 +5,31 @@ api_specs:
   label: REKKI Catalog API
   slug: rekki-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/openapi/rekki-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/rekki/openapi/rekki-catalog-api-openapi.yml
 - filename: rekki-connect-customers-api-openapi.yml
   format: yaml
   label: REKKI Connect Customers API
   slug: rekki-connect-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/openapi/rekki-connect-customers-api-openapi.yml
+  url: https://artifacts.apis.io/rekki/openapi/rekki-connect-customers-api-openapi.yml
 - filename: rekki-general-api-openapi.yml
   format: yaml
   label: REKKI General API
   slug: rekki-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/openapi/rekki-general-api-openapi.yml
+  url: https://artifacts.apis.io/rekki/openapi/rekki-general-api-openapi.yml
 - filename: rekki-order-guide-api-openapi.yml
   format: yaml
   label: REKKI Order Guide API
   slug: rekki-order-guide-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/openapi/rekki-order-guide-api-openapi.yml
+  url: https://artifacts.apis.io/rekki/openapi/rekki-order-guide-api-openapi.yml
 - filename: rekki-orders-api-openapi.yml
   format: yaml
   label: REKKI Orders API
   slug: rekki-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/openapi/rekki-orders-api-openapi.yml
+  url: https://artifacts.apis.io/rekki/openapi/rekki-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: rekki-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: rekki.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.rekki.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 26 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: rekki.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/security/rekki-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rekki/security/rekki-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company

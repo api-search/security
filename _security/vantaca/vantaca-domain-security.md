@@ -5,19 +5,19 @@ api_specs:
   label: Vantaca /AP/ API
   slug: vantaca-ap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantaca/refs/heads/main/openapi/vantaca-ap-api-openapi.yml
+  url: https://artifacts.apis.io/vantaca/openapi/vantaca-ap-api-openapi.yml
 - filename: vantaca-read-api-openapi.yml
   format: yaml
   label: Vantaca /read/ API
   slug: vantaca-read-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantaca/refs/heads/main/openapi/vantaca-read-api-openapi.yml
+  url: https://artifacts.apis.io/vantaca/openapi/vantaca-read-api-openapi.yml
 - filename: vantaca-write-api-openapi.yml
   format: yaml
   label: Vantaca /write/ API
   slug: vantaca-write-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantaca/refs/heads/main/openapi/vantaca-write-api-openapi.yml
+  url: https://artifacts.apis.io/vantaca/openapi/vantaca-write-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: vantaca-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.vantaca.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 12:43:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.swaggerhub.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 23:59:59 2026 GMT\n  hsts: null\n- host: api.vantaca.net\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 23 19:01:47 2027 GMT\n  hsts: false\ndomains:\n- domain: vantaca.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: swaggerhub.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vantaca/refs/heads/main/security/vantaca-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vantaca/security/vantaca-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - HOA

@@ -5,37 +5,37 @@ api_specs:
   label: The News API All News API
   slug: the-news-api-all-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-news-api/refs/heads/main/openapi/the-news-api-all-news-api-openapi.yml
+  url: https://artifacts.apis.io/the-news-api/openapi/the-news-api-all-news-api-openapi.yml
 - filename: the-news-api-articles-api-openapi.yml
   format: yaml
   label: The News API Articles API
   slug: the-news-api-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-news-api/refs/heads/main/openapi/the-news-api-articles-api-openapi.yml
+  url: https://artifacts.apis.io/the-news-api/openapi/the-news-api-articles-api-openapi.yml
 - filename: the-news-api-headlines-api-openapi.yml
   format: yaml
   label: The News API Headlines API
   slug: the-news-api-headlines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-news-api/refs/heads/main/openapi/the-news-api-headlines-api-openapi.yml
+  url: https://artifacts.apis.io/the-news-api/openapi/the-news-api-headlines-api-openapi.yml
 - filename: the-news-api-similar-news-api-openapi.yml
   format: yaml
   label: The News API Similar News API
   slug: the-news-api-similar-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-news-api/refs/heads/main/openapi/the-news-api-similar-news-api-openapi.yml
+  url: https://artifacts.apis.io/the-news-api/openapi/the-news-api-similar-news-api-openapi.yml
 - filename: the-news-api-sources-api-openapi.yml
   format: yaml
   label: The News API Sources API
   slug: the-news-api-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-news-api/refs/heads/main/openapi/the-news-api-sources-api-openapi.yml
+  url: https://artifacts.apis.io/the-news-api/openapi/the-news-api-sources-api-openapi.yml
 - filename: the-news-api-top-stories-api-openapi.yml
   format: yaml
   label: The News API Top Stories API
   slug: the-news-api-top-stories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-news-api/refs/heads/main/openapi/the-news-api-top-stories-api-openapi.yml
+  url: https://artifacts.apis.io/the-news-api/openapi/the-news-api-top-stories-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -68,7 +68,7 @@ source_filename: the-news-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.thenewsapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 02:30:46 2026 GMT\n  hsts: false\n- host: api.thenewsapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 02:30:46 2026 GMT\n  hsts: null\ndomains:\n- domain: thenewsapi.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-news-api/refs/heads/main/security/the-news-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/the-news-api/security/the-news-api-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Articles

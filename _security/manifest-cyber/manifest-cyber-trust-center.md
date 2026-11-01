@@ -5,37 +5,37 @@ api_specs:
   label: Manifest Cyber Assets API
   slug: manifest-cyber-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manifest-cyber/refs/heads/main/openapi/manifest-cyber-assets-api-openapi.yml
+  url: https://artifacts.apis.io/manifest-cyber/openapi/manifest-cyber-assets-api-openapi.yml
 - filename: manifest-cyber-organizations-api-openapi.yml
   format: yaml
   label: Manifest Cyber Organizations API
   slug: manifest-cyber-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manifest-cyber/refs/heads/main/openapi/manifest-cyber-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/manifest-cyber/openapi/manifest-cyber-organizations-api-openapi.yml
 - filename: manifest-cyber-products-api-openapi.yml
   format: yaml
   label: Manifest Cyber Products API
   slug: manifest-cyber-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manifest-cyber/refs/heads/main/openapi/manifest-cyber-products-api-openapi.yml
+  url: https://artifacts.apis.io/manifest-cyber/openapi/manifest-cyber-products-api-openapi.yml
 - filename: manifest-cyber-sboms-api-openapi.yml
   format: yaml
   label: Manifest Cyber SBO Ms API
   slug: manifest-cyber-sboms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manifest-cyber/refs/heads/main/openapi/manifest-cyber-sboms-api-openapi.yml
+  url: https://artifacts.apis.io/manifest-cyber/openapi/manifest-cyber-sboms-api-openapi.yml
 - filename: manifest-cyber-users-api-openapi.yml
   format: yaml
   label: Manifest Cyber Users API
   slug: manifest-cyber-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manifest-cyber/refs/heads/main/openapi/manifest-cyber-users-api-openapi.yml
+  url: https://artifacts.apis.io/manifest-cyber/openapi/manifest-cyber-users-api-openapi.yml
 - filename: manifest-cyber-vulnerabilities-api-openapi.yml
   format: yaml
   label: Manifest Cyber Vulnerabilities API
   slug: manifest-cyber-vulnerabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manifest-cyber/refs/heads/main/openapi/manifest-cyber-vulnerabilities-api-openapi.yml
+  url: https://artifacts.apis.io/manifest-cyber/openapi/manifest-cyber-vulnerabilities-api-openapi.yml
 certification_count: 3
 certifications:
 - ISO 27001
@@ -54,7 +54,7 @@ source_filename: manifest-cyber-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.manifestcyber.com/security\nurl: https://www.manifestcyber.com/security\ncertifications:\n- ISO 27001\n- FedRAMP\n- GDPR\nevidence:\n- source: https://www.manifestcyber.com/security\n  keywords:\n  - fedramp\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/manifest-cyber/refs/heads/main/security/manifest-cyber-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/manifest-cyber/security/manifest-cyber-trust-center.yml
 summary_line: ISO 27001, FedRAMP, GDPR
 tags:
 - Cybersecurity

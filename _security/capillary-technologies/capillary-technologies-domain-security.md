@@ -5,25 +5,25 @@ api_specs:
   label: Capillary Technologies Events API
   slug: capillary-technologies-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capillary-technologies/refs/heads/main/openapi/capillary-technologies-events-api-openapi.yml
+  url: https://artifacts.apis.io/capillary-technologies/openapi/capillary-technologies-events-api-openapi.yml
 - filename: capillary-technologies-simulation-api-openapi.yml
   format: yaml
   label: Capillary Technologies Simulation API
   slug: capillary-technologies-simulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capillary-technologies/refs/heads/main/openapi/capillary-technologies-simulation-api-openapi.yml
+  url: https://artifacts.apis.io/capillary-technologies/openapi/capillary-technologies-simulation-api-openapi.yml
 - filename: capillary-technologies-webhooks-api-openapi.yml
   format: yaml
   label: Capillary Technologies Webhooks API
   slug: capillary-technologies-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capillary-technologies/refs/heads/main/openapi/capillary-technologies-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/capillary-technologies/openapi/capillary-technologies-webhooks-api-openapi.yml
 - filename: capillary-technologies-x-api-openapi.yml
   format: yaml
   label: Capillary Technologies X API
   slug: capillary-technologies-x-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capillary-technologies/refs/heads/main/openapi/capillary-technologies-x-api-openapi.yml
+  url: https://artifacts.apis.io/capillary-technologies/openapi/capillary-technologies-x-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,12 +52,12 @@ source_filename: capillary-technologies-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.capillarytech.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 17:57:31 2026 GMT\n  hsts: null\ndomains:\n- domain: capillarytech.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/capillary-technologies/refs/heads/main/security/capillary-technologies-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/capillary-technologies/security/capillary-technologies-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Loyalty
 - Marketing
 - Software-as-a-Service
 - Enterprise
-- Customer-Engagement
+- Customer Engagement
 ---

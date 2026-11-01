@@ -1,0 +1,61 @@
+{%- comment -%}
+  RAISE YOUR SCORE (2026-10-27, Kin: "add raise your score" beside the badge). The owner who
+  came to copy a badge is the one person most likely to act, so the page names what is left.
+
+  Two halves, and it says which is which — the same split as the what_can_i_fix API
+  (apis-io-aws/lambdas/search/remediation.mjs):
+    agent readiness -> CHECK-LEVEL and exact. A dimension recorded as `false` is unmet; its
+                       points and the `signal` that satisfies it come from the rubric. Values
+                       like "derived"/"documented" are partial credit and are NOT listed as
+                       unmet, and absent (null) dimensions are not-applicable, never "fix this".
+    kin score       -> FACET-LEVEL only. The scorer persists facet rollups, not the individual
+                       checks (roadmap#75), so naming failed Kin Score checks would be invented.
+                       Facets are ranked by weight x headroom — the composite points on the
+                       table — never by the lowest score (a low-weight facet is rarely the
+                       best move).
+{%- endcomment -%}
+{%- assign _rub = site.data.scoring -%}
+{%- assign _dims = page.agent_readiness.dimensions -%}
+{%- assign _unmet = "" | split: "" -%}
+{%- if _dims and _rub.agent_readiness.dimensions -%}
+  {%- assign _byPts = _rub.agent_readiness.dimensions | sort: "points" | reverse -%}
+  {%- for d in _byPts -%}
+    {%- if _dims[d.id] == false -%}{%- assign _unmet = _unmet | push: d -%}{%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+
+{%- assign _fac = "" | split: "" -%}
+{%- for f in page.score.facets -%}
+  {%- assign _k = f[0] -%}{%- assign _w = _rub.facets[_k].weight -%}
+  {%- if _w and f[1] -%}
+    {%- assign _gain = 100 | minus: f[1] | times: _w -%}
+    {%- assign _key = _gain | times: 10 | round | plus: 10000 -%}
+    {%- capture _row -%}{{ _key }}|{{ f[0] }}|{{ _gain | round: 1 }}|{{ f[1] }}{%- endcapture -%}
+    {%- assign _fac = _fac | push: _row -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign _fac = _fac | sort | reverse -%}
+
+{%- if _unmet.size > 0 or _fac.size > 0 -%}
+<div class="rd-foot rd-raise" id="raise-your-score" style="border:2px solid #4e9af5;border-radius:8px;padding:.75rem 1rem;background:#f4f9ff;margin-top:.75rem">
+  <strong>Raise your score.</strong>
+  {%- if _unmet.size > 0 %}
+  <div style="margin:.4rem 0 .2rem">Agent readiness — checks not met, largest first (exact, from this profile):</div>
+  <ul style="margin:.2rem 0 .5rem 1.1rem;padding:0">
+    {%- for d in _unmet limit: 6 %}
+    <li><a href="https://apis.io/rating/dimensions/{{ d.id | replace: '_', '-' }}/">{{ d.label }}</a> <span style="color:#555">+{{ d.points }} pts</span> — {{ d.signal }}</li>
+    {%- endfor %}
+  </ul>
+  {%- if _unmet.size > 6 %}<div style="font-size:.85rem;color:#555">{{ _unmet.size | minus: 6 }} more unmet check{% if _unmet.size != 7 %}s{% endif %} in the Agent Readiness table above.</div>{% endif %}
+  {%- endif %}
+  {%- if _fac.size > 0 %}
+  <div style="margin:.4rem 0 .2rem">Kin Score — facets with the most composite points still available (weight &times; headroom):</div>
+  <ul style="margin:.2rem 0 .5rem 1.1rem;padding:0">
+    {%- for row in _fac limit: 3 %}{%- assign p = row | split: "|" -%}{%- assign _k = p[1] -%}
+    <li><a href="https://apis.io/rating/facets/{{ p[1] | replace: '_', '-' }}/">{{ _rub.facets[_k].label | default: _k }}</a> <span style="color:#555">scores {{ p[3] }} — up to +{{ p[2] }} composite points</span></li>
+    {%- endfor %}
+  </ul>
+  {%- endif %}
+  <div style="font-size:.85rem">Each check links to what satisfies it. Publish the artifact, or <a href="https://github.com/api-evangelist/{{ page.slug }}/issues/new">tell us where it already lives</a>, and the score moves on the next scoring run.</div>
+</div>
+{%- endif -%}

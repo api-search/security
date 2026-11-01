@@ -7,103 +7,103 @@ api_specs:
   label: Attio Attributes API
   slug: attio-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-attributes-api-openapi.yml
 - filename: attio-call-recordings-api-openapi.yml
   format: yaml
   label: Attio Call Recordings API
   slug: attio-call-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-call-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-call-recordings-api-openapi.yml
 - filename: attio-comments-api-openapi.yml
   format: yaml
   label: Attio Comments API
   slug: attio-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-comments-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-comments-api-openapi.yml
 - filename: attio-entries-api-openapi.yml
   format: yaml
   label: Attio Entries API
   slug: attio-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-entries-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-entries-api-openapi.yml
 - filename: attio-files-api-openapi.yml
   format: yaml
   label: Attio Files API
   slug: attio-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-files-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-files-api-openapi.yml
 - filename: attio-lists-api-openapi.yml
   format: yaml
   label: Attio Lists API
   slug: attio-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-lists-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-lists-api-openapi.yml
 - filename: attio-meetings-api-openapi.yml
   format: yaml
   label: Attio Meetings API
   slug: attio-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-meetings-api-openapi.yml
 - filename: attio-meta-api-openapi.yml
   format: yaml
   label: Attio Meta API
   slug: attio-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-meta-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-meta-api-openapi.yml
 - filename: attio-notes-api-openapi.yml
   format: yaml
   label: Attio Notes API
   slug: attio-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-notes-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-notes-api-openapi.yml
 - filename: attio-objects-api-openapi.yml
   format: yaml
   label: Attio Objects API
   slug: attio-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-objects-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-objects-api-openapi.yml
 - filename: attio-records-api-openapi.yml
   format: yaml
   label: Attio Records API
   slug: attio-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-records-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-records-api-openapi.yml
 - filename: attio-tasks-api-openapi.yml
   format: yaml
   label: Attio Tasks API
   slug: attio-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-tasks-api-openapi.yml
 - filename: attio-threads-api-openapi.yml
   format: yaml
   label: Attio Threads API
   slug: attio-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-threads-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-threads-api-openapi.yml
 - filename: attio-webhooks-api-openapi.yml
   format: yaml
   label: Attio Webhooks API
   slug: attio-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-webhooks-api-openapi.yml
 - filename: attio-workspace-members-api-openapi.yml
   format: yaml
   label: Attio Workspace Members API
   slug: attio-workspace-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-workspace-members-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-workspace-members-api-openapi.yml
 - filename: attio-list-entries-api-openapi.yml
   format: yaml
   label: Attio List Entries API
   slug: attio-list-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-list-entries-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-list-entries-api-openapi.yml
 - filename: attio-oauth-api-openapi.yml
   format: yaml
   label: Attio O Auth API
   slug: attio-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-oauth-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -141,7 +141,7 @@ source_filename: attio-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/attio-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Attio API key or OAuth bearer token.\n  sources:\n  - openapi/attio-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.attio.com/authorize\n    tokenUrl: https://api.attio.com/oauth/token\n    scopes: 7\n  sources:\n  - openapi/attio-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/authentication/attio-authentication.yml
+source_yaml_url: https://artifacts.apis.io/attio/authentication/attio-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - CRM

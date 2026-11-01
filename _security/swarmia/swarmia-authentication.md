@@ -7,37 +7,37 @@ api_specs:
   label: Swarmia Additional AI integrations API
   slug: swarmia-additional-ai-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swarmia/refs/heads/main/openapi/swarmia-additional-ai-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/swarmia/openapi/swarmia-additional-ai-integrations-api-openapi.yml
 - filename: swarmia-built-in-reports-api-openapi.yml
   format: yaml
   label: Swarmia Built-in reports API
   slug: swarmia-built-in-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swarmia/refs/heads/main/openapi/swarmia-built-in-reports-api-openapi.yml
+  url: https://artifacts.apis.io/swarmia/openapi/swarmia-built-in-reports-api-openapi.yml
 - filename: swarmia-custom-reports-api-openapi.yml
   format: yaml
   label: Swarmia Custom reports API
   slug: swarmia-custom-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swarmia/refs/heads/main/openapi/swarmia-custom-reports-api-openapi.yml
+  url: https://artifacts.apis.io/swarmia/openapi/swarmia-custom-reports-api-openapi.yml
 - filename: swarmia-deployments-api-openapi.yml
   format: yaml
   label: Swarmia Deployments API
   slug: swarmia-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swarmia/refs/heads/main/openapi/swarmia-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/swarmia/openapi/swarmia-deployments-api-openapi.yml
 - filename: swarmia-team-management-api-openapi.yml
   format: yaml
   label: Swarmia Team management API
   slug: swarmia-team-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swarmia/refs/heads/main/openapi/swarmia-team-management-api-openapi.yml
+  url: https://artifacts.apis.io/swarmia/openapi/swarmia-team-management-api-openapi.yml
 - filename: swarmia-time-off-api-openapi.yml
   format: yaml
   label: Swarmia Time off API
   slug: swarmia-time-off-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swarmia/refs/heads/main/openapi/swarmia-time-off-api-openapi.yml
+  url: https://artifacts.apis.io/swarmia/openapi/swarmia-time-off-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +64,7 @@ source_filename: swarmia-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/swarmia-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerToken\n  type: http\n  scheme: bearer\n  description: Bearer API token provisioned at https://app.swarmia.com/settings/api-tokens.\n    Built-in/custom reports require the entityQuery scope; AI usage ingestion requires the aiUsage\n    scope. GET endpoints also accept the token via a ?token= query parameter.\n  sources:\n  - openapi/swarmia-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swarmia/refs/heads/main/authentication/swarmia-authentication.yml
+source_yaml_url: https://artifacts.apis.io/swarmia/authentication/swarmia-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Engineering Effectiveness

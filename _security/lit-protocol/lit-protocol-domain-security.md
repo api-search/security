@@ -5,25 +5,25 @@ api_specs:
   label: Lit Protocol Account Management API
   slug: lit-protocol-account-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lit-protocol/refs/heads/main/openapi/lit-protocol-account-management-api-openapi.yml
+  url: https://artifacts.apis.io/lit-protocol/openapi/lit-protocol-account-management-api-openapi.yml
 - filename: lit-protocol-actions-api-openapi.yml
   format: yaml
   label: Lit Protocol Actions API
   slug: lit-protocol-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lit-protocol/refs/heads/main/openapi/lit-protocol-actions-api-openapi.yml
+  url: https://artifacts.apis.io/lit-protocol/openapi/lit-protocol-actions-api-openapi.yml
 - filename: lit-protocol-billing-api-openapi.yml
   format: yaml
   label: Lit Protocol Billing API
   slug: lit-protocol-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lit-protocol/refs/heads/main/openapi/lit-protocol-billing-api-openapi.yml
+  url: https://artifacts.apis.io/lit-protocol/openapi/lit-protocol-billing-api-openapi.yml
 - filename: lit-protocol-configuration-api-openapi.yml
   format: yaml
   label: Lit Protocol Configuration API
   slug: lit-protocol-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lit-protocol/refs/heads/main/openapi/lit-protocol-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/lit-protocol/openapi/lit-protocol-configuration-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: lit-protocol-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.litprotocol.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 07:57:47 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.litprotocol.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 13:29:56 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.chipotle.litprotocol.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 10 02:20:26 2026 GMT\n  hsts: false\ndomains:\n- domain: litprotocol.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lit-protocol/refs/heads/main/security/lit-protocol-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lit-protocol/security/lit-protocol-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Web3

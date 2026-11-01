@@ -26,7 +26,7 @@ source_filename: urbanhire-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: urbanhire.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 22:53:49 2026 GMT\n  hsts: null\ndomains:\n- domain: urbanhire.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/urbanhire/refs/heads/main/security/urbanhire-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/urbanhire/security/urbanhire-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company

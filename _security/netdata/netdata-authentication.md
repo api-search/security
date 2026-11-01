@@ -8,13 +8,13 @@ api_specs:
   label: Netdata Alerts API
   slug: netdata-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netdata/refs/heads/main/openapi/netdata-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/netdata/openapi/netdata-alerts-api-openapi.yml
 - filename: netdata-charts-api-openapi.yml
   format: yaml
   label: Netdata Charts API
   slug: netdata-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netdata/refs/heads/main/openapi/netdata-charts-api-openapi.yml
+  url: https://artifacts.apis.io/netdata/openapi/netdata-charts-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -74,7 +74,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/netdata-agent-api-openapi.yml, openapi/netdata-cloud-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: |-\n    Bearer token authentication for API access when bearer protection is enabled.\n\n    **How to obtain a token:**\n    1. Token must be obtained via `/api/v3/bearer_get_token` endpoint\n    2. This endpoint is ACLK-only (requires Netdata Cloud access)\n    3. Token includes role-based access control and expiration time\n\n    **How to use:**\n    ```\n    Authorization: Bearer <token>\n    ```\n\n    **When required:**\n    - When bearer protection is\n  sources:\n  - openapi/netdata-agent-api-openapi.yml\n  - openapi/netdata-cloud-api-openapi.yml\n- name: ipAcl\n  type: apiKey\n  in: header\n  parameter: X-Forwarded-For\n  description: |-\n    IP-based Access Control List restrictions (informational\
   \ only).\n\n    **Configuration:**\n    APIs are subject to IP-based ACL restrictions configured in `netdata.conf`:\n\n    ```conf\n    [web]\n        allow dashboard from = *\n        allow badges from = *\n        allow management from = localhost\n    ```\n\n    **ACL Categories:**\n    - `allow dashboard from` - Controls access to metrics, alerts, nodes, functions, config APIs\n    - `allow badge\n  sources:\n  - openapi/netdata-agent-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/netdata/refs/heads/main/authentication/netdata-authentication.yml
+source_yaml_url: https://artifacts.apis.io/netdata/authentication/netdata-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Monitoring

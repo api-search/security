@@ -11,25 +11,25 @@ api_specs:
   label: Mattermost Channels API
   slug: mattermost-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mattermost/refs/heads/main/openapi/mattermost-channels-api-openapi.yml
+  url: https://artifacts.apis.io/mattermost/openapi/mattermost-channels-api-openapi.yml
 - filename: mattermost-posts-api-openapi.yml
   format: yaml
   label: Mattermost Posts API
   slug: mattermost-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mattermost/refs/heads/main/openapi/mattermost-posts-api-openapi.yml
+  url: https://artifacts.apis.io/mattermost/openapi/mattermost-posts-api-openapi.yml
 - filename: mattermost-teams-api-openapi.yml
   format: yaml
   label: Mattermost Teams API
   slug: mattermost-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mattermost/refs/heads/main/openapi/mattermost-teams-api-openapi.yml
+  url: https://artifacts.apis.io/mattermost/openapi/mattermost-teams-api-openapi.yml
 - filename: mattermost-users-api-openapi.yml
   format: yaml
   label: Mattermost Users API
   slug: mattermost-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mattermost/refs/heads/main/openapi/mattermost-users-api-openapi.yml
+  url: https://artifacts.apis.io/mattermost/openapi/mattermost-users-api-openapi.yml
 certification_count: 7
 certifications:
 - SOC 2
@@ -52,7 +52,7 @@ source_filename: mattermost-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.mattermost.com/\nurl: https://trust.mattermost.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- HIPAA\n- FedRAMP\n- GDPR\nevidence:\n- source: https://trust.mattermost.com/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - hipaa\n  - fedramp\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mattermost/refs/heads/main/security/mattermost-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/mattermost/security/mattermost-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, GDPR
 tags:
 - Messaging

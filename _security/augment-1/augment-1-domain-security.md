@@ -5,7 +5,7 @@ api_specs:
   label: Augment Rest API
   slug: augment-1-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augment-1/refs/heads/main/openapi/augment-1-rest-api-openapi.yml
+  url: https://artifacts.apis.io/augment-1/openapi/augment-1-rest-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -34,7 +34,7 @@ source_filename: augment-1-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.augment.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 16 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: augment.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/augment-1/refs/heads/main/security/augment-1-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/augment-1/security/augment-1-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

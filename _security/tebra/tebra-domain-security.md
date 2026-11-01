@@ -5,133 +5,133 @@ api_specs:
   label: Tebra Clinical API
   slug: tebra-clinical-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-clinical-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-clinical-api-openapi.yml
 - filename: tebra-documents-api-openapi.yml
   format: yaml
   label: Tebra Documents API
   slug: tebra-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-documents-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-documents-api-openapi.yml
 - filename: tebra-patient-api-openapi.yml
   format: yaml
   label: Tebra Patient API
   slug: tebra-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-patient-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-patient-api-openapi.yml
 - filename: tebra-careteam-api-openapi.yml
   format: yaml
   label: Tebra Care Team API
   slug: tebra-careteam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-careteam-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-careteam-api-openapi.yml
 - filename: tebra-condition-api-openapi.yml
   format: yaml
   label: Tebra Condition API
   slug: tebra-condition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-condition-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-condition-api-openapi.yml
 - filename: tebra-device-api-openapi.yml
   format: yaml
   label: Tebra Device API
   slug: tebra-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-device-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-device-api-openapi.yml
 - filename: tebra-diagnosticreport-api-openapi.yml
   format: yaml
   label: Tebra Diagnostic Report API
   slug: tebra-diagnosticreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-diagnosticreport-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-diagnosticreport-api-openapi.yml
 - filename: tebra-encounter-api-openapi.yml
   format: yaml
   label: Tebra Encounter API
   slug: tebra-encounter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-encounter-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-encounter-api-openapi.yml
 - filename: tebra-goal-api-openapi.yml
   format: yaml
   label: Tebra Goal API
   slug: tebra-goal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-goal-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-goal-api-openapi.yml
 - filename: tebra-immunization-api-openapi.yml
   format: yaml
   label: Tebra Immunization API
   slug: tebra-immunization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-immunization-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-immunization-api-openapi.yml
 - filename: tebra-location-api-openapi.yml
   format: yaml
   label: Tebra Location API
   slug: tebra-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-location-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-location-api-openapi.yml
 - filename: tebra-medication-api-openapi.yml
   format: yaml
   label: Tebra Medication API
   slug: tebra-medication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-medication-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-medication-api-openapi.yml
 - filename: tebra-observation-api-openapi.yml
   format: yaml
   label: Tebra Observation API
   slug: tebra-observation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-observation-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-observation-api-openapi.yml
 - filename: tebra-organization-api-openapi.yml
   format: yaml
   label: Tebra Organization API
   slug: tebra-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-organization-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-organization-api-openapi.yml
 - filename: tebra-practitioner-api-openapi.yml
   format: yaml
   label: Tebra Practitioner API
   slug: tebra-practitioner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-practitioner-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-practitioner-api-openapi.yml
 - filename: tebra-procedure-api-openapi.yml
   format: yaml
   label: Tebra Procedure API
   slug: tebra-procedure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-procedure-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-procedure-api-openapi.yml
 - filename: tebra-provenance-api-openapi.yml
   format: yaml
   label: Tebra Provenance API
   slug: tebra-provenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-provenance-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-provenance-api-openapi.yml
 - filename: tebra-allergy-intolerance-api-openapi.yml
   format: yaml
   label: Tebra Allergy Intolerance API
   slug: tebra-allergy-intolerance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-allergy-intolerance-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-allergy-intolerance-api-openapi.yml
 - filename: tebra-care-plan-api-openapi.yml
   format: yaml
   label: Tebra Care plan API
   slug: tebra-care-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-care-plan-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-care-plan-api-openapi.yml
 - filename: tebra-document-reference-api-openapi.yml
   format: yaml
   label: Tebra Document Reference API
   slug: tebra-document-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-document-reference-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-document-reference-api-openapi.yml
 - filename: tebra-medication-request-api-openapi.yml
   format: yaml
   label: Tebra Medication Request API
   slug: tebra-medication-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-medication-request-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-medication-request-api-openapi.yml
 - filename: tebra-practitioner-role-api-openapi.yml
   format: yaml
   label: Tebra Practitioner Role API
   slug: tebra-practitioner-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-practitioner-role-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-practitioner-role-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -201,7 +201,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tebra.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 01:46:25 2026 GMT\n  hsts: false\n- host: helpme.tebra.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: webservice.kareo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  9 23:59:59 2027 GMT\n  hsts: null\n- host: fhir.prd.cloud.tebra.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 07:51:50 2026 GMT\n  hsts: true\n  hsts_max_age: 15724800\n  note: >-\n    Manually probed (openssl s_client + curl, 2026-08-14); not covered by the\n    automated 3-host cap. Live SMART on FHIR host (tebra:tebra-fhir-api).\n- host: api.tebra.com\n  https: null\n  dns_status: NXDOMAIN\n  note: >-\n    Host documented as the Clinical Data API base in Tebra's own Oct 2023\n    \"General API\
   \ Documentation\" PDF and in this repo's openapi/ servers[], but\n    fails to resolve on public DNS resolvers (system, 8.8.8.8, 1.1.1.1) as of\n    2026-08-14. See lifecycle/tebra-lifecycle.yml.\ndomains:\n- domain: tebra.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 iodef \"mailto:netops-team@kareo.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: kareo.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 iodef \"mailto:netops-team@kareo.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/security/tebra-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tebra/security/tebra-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Healthcare

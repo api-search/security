@@ -11,13 +11,13 @@ api_specs:
   label: LeadSquared Activities API
   slug: leadsquared-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/openapi/leadsquared-activities-api-openapi.yml
+  url: https://artifacts.apis.io/leadsquared/openapi/leadsquared-activities-api-openapi.yml
 - filename: leadsquared-leads-api-openapi.yml
   format: yaml
   label: LeadSquared Leads API
   slug: leadsquared-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/openapi/leadsquared-leads-api-openapi.yml
+  url: https://artifacts.apis.io/leadsquared/openapi/leadsquared-leads-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -56,7 +56,7 @@ source_filename: leadsquared-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.leadsquared.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 05:50:50 2026 GMT\n  hsts: false\n- host: apidocs.leadsquared.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 13:34:02 2026 GMT\n  hsts: false\n- host: api.leadsquared.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  3 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: leadsquared.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/security/leadsquared-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/leadsquared/security/leadsquared-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Marketing Automation

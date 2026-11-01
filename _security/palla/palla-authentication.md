@@ -7,43 +7,43 @@ api_specs:
   label: Palla Accounts API
   slug: palla-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/openapi/palla-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/palla/openapi/palla-accounts-api-openapi.yml
 - filename: palla-auth-api-openapi.yml
   format: yaml
   label: Palla Auth API
   slug: palla-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/openapi/palla-auth-api-openapi.yml
+  url: https://artifacts.apis.io/palla/openapi/palla-auth-api-openapi.yml
 - filename: palla-health-api-openapi.yml
   format: yaml
   label: Palla Health API
   slug: palla-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/openapi/palla-health-api-openapi.yml
+  url: https://artifacts.apis.io/palla/openapi/palla-health-api-openapi.yml
 - filename: palla-links-api-openapi.yml
   format: yaml
   label: Palla Links API
   slug: palla-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/openapi/palla-links-api-openapi.yml
+  url: https://artifacts.apis.io/palla/openapi/palla-links-api-openapi.yml
 - filename: palla-payment-methods-api-openapi.yml
   format: yaml
   label: Palla Payment Methods API
   slug: palla-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/openapi/palla-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/palla/openapi/palla-payment-methods-api-openapi.yml
 - filename: palla-relationships-api-openapi.yml
   format: yaml
   label: Palla Relationships API
   slug: palla-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/openapi/palla-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/palla/openapi/palla-relationships-api-openapi.yml
 - filename: palla-transfers-api-openapi.yml
   format: yaml
   label: Palla Transfers API
   slug: palla-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/openapi/palla-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/palla/openapi/palla-transfers-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -82,7 +82,7 @@ source_filename: palla-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/palla-platform-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: partnerToken\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Partner Bearer token obtained from POST /v1/auth/token via a client_credentials\n    exchange. Scoped to a single User via user_id.\n  sources:\n  - openapi/palla-platform-openapi.yml\n- name: clientCredentials\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.platform.palla.app/v1/auth/token\n    scopes: 0\n  description: Partner credential exchange (client_credentials grant). Sent as a JSON body to\n    /v1/auth/token with client_id, client_secret, audience, and user_id; returns a Bearer token\n    in data.token.\n  sources:\n  - openapi/palla-platform-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/authentication/palla-authentication.yml
+source_yaml_url: https://artifacts.apis.io/palla/authentication/palla-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

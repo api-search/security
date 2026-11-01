@@ -5,31 +5,31 @@ api_specs:
   label: crob.at Account API
   slug: crob-at-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crob-at/refs/heads/main/openapi/crob-at-account-api-openapi.yml
+  url: https://artifacts.apis.io/crob-at/openapi/crob-at-account-api-openapi.yml
 - filename: crob-at-feedback-api-openapi.yml
   format: yaml
   label: crob.at Feedback API
   slug: crob-at-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crob-at/refs/heads/main/openapi/crob-at-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/crob-at/openapi/crob-at-feedback-api-openapi.yml
 - filename: crob-at-generation-api-openapi.yml
   format: yaml
   label: crob.at Generation API
   slug: crob-at-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crob-at/refs/heads/main/openapi/crob-at-generation-api-openapi.yml
+  url: https://artifacts.apis.io/crob-at/openapi/crob-at-generation-api-openapi.yml
 - filename: crob-at-reference-api-openapi.yml
   format: yaml
   label: crob.at Reference API
   slug: crob-at-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crob-at/refs/heads/main/openapi/crob-at-reference-api-openapi.yml
+  url: https://artifacts.apis.io/crob-at/openapi/crob-at-reference-api-openapi.yml
 - filename: crob-at-teams-api-openapi.yml
   format: yaml
   label: crob.at Teams API
   slug: crob-at-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crob-at/refs/heads/main/openapi/crob-at-teams-api-openapi.yml
+  url: https://artifacts.apis.io/crob-at/openapi/crob-at-teams-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: crob-at-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: crob.at\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 16 15:00:56 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\ndomains:\n- domain: crob.at\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crob-at/refs/heads/main/security/crob-at-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/crob-at/security/crob-at-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Gaming

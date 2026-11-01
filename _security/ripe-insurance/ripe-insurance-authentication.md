@@ -8,13 +8,13 @@ api_specs:
   label: Ripe Insurance Content API
   slug: ripe-insurance-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/openapi/ripe-insurance-content-api-openapi.yml
+  url: https://artifacts.apis.io/ripe-insurance/openapi/ripe-insurance-content-api-openapi.yml
 - filename: ripe-insurance-media-api-openapi.yml
   format: yaml
   label: Ripe Insurance Media API
   slug: ripe-insurance-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/openapi/ripe-insurance-media-api-openapi.yml
+  url: https://artifacts.apis.io/ripe-insurance/openapi/ripe-insurance-media-api-openapi.yml
 auth_types:
 - none
 - apiKey
@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-07-25'\nmethod: searched\nsource: >-\n  https://w
   \ configuration to authorize\n    access to the API\") rather than in components.securitySchemes. It gates\n    configuration-level access to the Delivery API. Ripe publishes no way to obtain\n    one.\n  sources:\n  - openapi/ripe-insurance-umbraco-content-delivery-openapi.json\n  - openapi/ripe-insurance-cycleplan-content-delivery-openapi.json\n- name: umbraco-member-oidc\n  type: openIdConnect\n  openIdConnectUrl: https://www.ripeinsurance.co.uk/.well-known/openid-configuration\n  description: >-\n    The Umbraco/OpenIddict member-authentication server behind the Ripe Insurance\n    customer login (www.ripeinsurance.co.uk/login redirects to\n    account.ripeinsurance.co.uk). It protects member-only website content, including\n    member-protected items served by the Content Delivery API — the reason\n    GetContentItemById2.0 and GetContentItemByPath2.0 declare 401 and 403 responses.\n    It is a consumer login system, not a partner API authorization server.\n  issuer: https://www.ripeinsurance.co.uk/\n\
   \  endpoints:\n    authorization: https://www.ripeinsurance.co.uk/umbraco/delivery/api/v1/security/member/authorize\n    token: https://www.ripeinsurance.co.uk/umbraco/delivery/api/v1/security/member/token\n    userinfo: https://www.ripeinsurance.co.uk/umbraco/delivery/api/v1/security/member/userinfo\n    end_session: https://www.ripeinsurance.co.uk/umbraco/delivery/api/v1/security/member/signout\n    revocation: https://www.ripeinsurance.co.uk/umbraco/delivery/api/v1/security/member/revoke\n    jwks: https://www.ripeinsurance.co.uk/.well-known/jwks\n  grant_types: [authorization_code, refresh_token, client_credentials]\n  response_types: [code]\n  scopes_supported: [openid, offline_access]\n  pkce:\n    supported: true\n    code_challenge_methods: [plain, S256]\n  token_endpoint_auth_methods: [client_secret_post, private_key_jwt, client_secret_basic]\n  id_token_signing_alg_values: [RS256]\n  par_required: false\n  mtls_bound_tokens: false\n  client_registration:\n    dynamic: false\n\
   \    note: No RFC 7591 registration_endpoint is advertised. Clients are configured server-side.\n  sources:\n  - well-known/ripe-insurance-openid-configuration.json\n  peer_issuers:\n  - https://www.cycleplan.co.uk/\n  - https://www.golfcare.co.uk/\n  - https://www.insure4sport.co.uk/\ninsurance_api_auth:\n  present: false\n  note: >-\n    No quote, bind, issue, policy, billing or FNOL API is published, so no\n    authentication model exists for one. Partnering runs through a business-development\n    enquiry form at https://www.ripethinking.co.uk/partner-with-us/.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/authentication/ripe-insurance-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ripe-insurance/authentication/ripe-insurance-authentication.yml
 summary_line: none/apiKey/oauth2/openIdConnect · 3 schemes
 tags:
 - Insurance

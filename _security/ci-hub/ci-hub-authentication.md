@@ -8,19 +8,19 @@ api_specs:
   label: CI HUB Assets API
   slug: ci-hub-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ci-hub/refs/heads/main/openapi/ci-hub-assets-api-openapi.yml
+  url: https://artifacts.apis.io/ci-hub/openapi/ci-hub-assets-api-openapi.yml
 - filename: ci-hub-auth-api-openapi.yml
   format: yaml
   label: CI HUB Auth API
   slug: ci-hub-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ci-hub/refs/heads/main/openapi/ci-hub-auth-api-openapi.yml
+  url: https://artifacts.apis.io/ci-hub/openapi/ci-hub-auth-api-openapi.yml
 - filename: ci-hub-system-api-openapi.yml
   format: yaml
   label: CI HUB System API
   slug: ci-hub-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ci-hub/refs/heads/main/openapi/ci-hub-system-api-openapi.yml
+  url: https://artifacts.apis.io/ci-hub/openapi/ci-hub-system-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: https://develop
   \ OAuth 2.1, RFC 8414, RFC 9728, RFC 7591, RFC 7636\n  resource: https://mcp.ci-hub.com\n  authorization_server: https://mcp-auth.ci-hub.com\n  discovery:\n  - https://mcp.ci-hub.com/.well-known/oauth-protected-resource\n  - https://mcp-auth.ci-hub.com/.well-known/oauth-authorization-server\n  - https://mcp-auth.ci-hub.com/.well-known/openid-configuration\n  challenge: >-\n    WWW-Authenticate: Bearer error=\"unauthorized\", error_description=\"Authorization needed\",\n    resource_metadata=\"https://mcp.ci-hub.com/.well-known/oauth-protected-resource\"\n  grant_types:\n  - authorization_code\n  - refresh_token\n  pkce: S256 only\n  dynamic_client_registration: true\n  token_endpoint_auth_methods:\n  - client_secret_basic\n  - client_secret_post\n  - none\n  scopes:\n  - cihub\n  second_factor: >-\n    The OAuth grant is only half the authorization. Each end user separately authenticates the DAM\n    accounts they want reachable, and CI HUB maps that user's existing DAM permissions onto\
   \ every\n    tool call. Users change what is reachable by disconnecting and reconnecting.\n  see: scopes/ci-hub-scopes.yml\nauthorization_model:\n  cihub_layer: identity only — the CI HUB token says who the user is, not what they may touch\n  dam_layer: >-\n    every permission decision is the DAM's. integration-forbidden (403) forwards a DAM permission\n    denial verbatim, and the docs are explicit that \"permission decisions are governed by the DAM\".\n  consequence: >-\n    There is no CI HUB-side permission surface to inspect, grant or revoke. An auditor asking what\n    a CI HUB token can reach has to ask each connected DAM instead.\nx-evidence:\n  fetched: '2026-08-12'\n  checks:\n  - url: https://developer.ci-hub.com/access/authentication\n    http_status: 200\n  - url: https://live.ci-hub.com/api/v1/system/providerInfo\n    http_status: 401\n    note: 'anonymous call returns errorCode cihub-access-token-missing, confirming the Authorization\n      requirement'\n  - url: https://mcp.ci-hub.com/.well-known/oauth-protected-resource\n\
   \    http_status: 200\n  - url: https://mcp-auth.ci-hub.com/.well-known/oauth-authorization-server\n    http_status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ci-hub/refs/heads/main/authentication/ci-hub-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ci-hub/authentication/ci-hub-authentication.yml
 summary_line: http/apiKey/oauth2 · 0 schemes
 tags:
 - Company

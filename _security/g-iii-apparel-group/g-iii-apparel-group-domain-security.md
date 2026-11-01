@@ -34,7 +34,7 @@ source_filename: g-iii-apparel-group-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.g-iii.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 13:29:31 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: g-iii.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"globalsign.com\"\n  - 0 issuewild \"godaddy.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"godaddy.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/g-iii-apparel-group/refs/heads/main/security/g-iii-apparel-group-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/g-iii-apparel-group/security/g-iii-apparel-group-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Apparel

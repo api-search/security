@@ -8,25 +8,25 @@ api_specs:
   label: Sendspark DVM Bundles API
   slug: sendspark-dvm-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/openapi/sendspark-dvm-bundles-api-openapi.yml
+  url: https://artifacts.apis.io/sendspark/openapi/sendspark-dvm-bundles-api-openapi.yml
 - filename: sendspark-dynamics-campaign-api-openapi.yml
   format: yaml
   label: Sendspark Dynamics Campaign API
   slug: sendspark-dynamics-campaign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/openapi/sendspark-dynamics-campaign-api-openapi.yml
+  url: https://artifacts.apis.io/sendspark/openapi/sendspark-dynamics-campaign-api-openapi.yml
 - filename: sendspark-webhook-api-openapi.yml
   format: yaml
   label: Sendspark Webhook API
   slug: sendspark-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/openapi/sendspark-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/sendspark/openapi/sendspark-webhook-api-openapi.yml
 - filename: sendspark-workspace-api-openapi.yml
   format: yaml
   label: Sendspark Workspace API
   slug: sendspark-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/openapi/sendspark-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/sendspark/openapi/sendspark-workspace-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -76,7 +76,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/sendspark-openapi-original.json\ndocs: https://help.sendspark.com/api-reference\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\n  - refresh_token\n  - device_code\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/sendspark-openapi-original.json\n- name: apiSecret\n  type: apiKey\n  in: header\n  parameter: x-api-secret\n  sources:\n  - openapi/sendspark-openapi-original.json\n- name: mcpOAuth\n  type: oauth2\n  note: >-\n    The hosted MCP server (apiv2.sendspark.com/api/mcp) authenticates over OAuth 2.0\n    via browser sign-in (issuer https://auth.sendspark.com), separate from the REST\n    API's x-api-key/x-api-secret header auth.\n  issuer: https://auth.sendspark.com\n  metadata: https://apiv2.sendspark.com/.well-known/oauth-authorization-server\n  scopes_supported: [openid, profile, email, offline_access]\n\
   \  sources:\n  - well-known/sendspark-oauth-authorization-server.json\nnotes: >-\n  REST API calls require BOTH x-api-key and x-api-secret headers; keys are\n  workspace-scoped. GET /v1/workspaces/identifier resolves the workspace id for a\n  key pair.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/authentication/sendspark-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sendspark/authentication/sendspark-authentication.yml
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - Company

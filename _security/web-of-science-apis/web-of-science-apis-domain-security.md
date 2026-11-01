@@ -5,37 +5,37 @@ api_specs:
   label: Web of Science APIs Citations API
   slug: web-of-science-apis-citations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/openapi/web-of-science-apis-citations-api-openapi.yml
+  url: https://artifacts.apis.io/web-of-science-apis/openapi/web-of-science-apis-citations-api-openapi.yml
 - filename: web-of-science-apis-documents-api-openapi.yml
   format: yaml
   label: Web of Science APIs Documents API
   slug: web-of-science-apis-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/openapi/web-of-science-apis-documents-api-openapi.yml
+  url: https://artifacts.apis.io/web-of-science-apis/openapi/web-of-science-apis-documents-api-openapi.yml
 - filename: web-of-science-apis-journals-api-openapi.yml
   format: yaml
   label: Web of Science APIs Journals API
   slug: web-of-science-apis-journals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/openapi/web-of-science-apis-journals-api-openapi.yml
+  url: https://artifacts.apis.io/web-of-science-apis/openapi/web-of-science-apis-journals-api-openapi.yml
 - filename: web-of-science-apis-records-api-openapi.yml
   format: yaml
   label: Web of Science APIs Records API
   slug: web-of-science-apis-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/openapi/web-of-science-apis-records-api-openapi.yml
+  url: https://artifacts.apis.io/web-of-science-apis/openapi/web-of-science-apis-records-api-openapi.yml
 - filename: web-of-science-apis-reports-api-openapi.yml
   format: yaml
   label: Web of Science APIs Reports API
   slug: web-of-science-apis-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/openapi/web-of-science-apis-reports-api-openapi.yml
+  url: https://artifacts.apis.io/web-of-science-apis/openapi/web-of-science-apis-reports-api-openapi.yml
 - filename: web-of-science-apis-search-api-openapi.yml
   format: yaml
   label: Web of Science APIs Search API
   slug: web-of-science-apis-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/openapi/web-of-science-apis-search-api-openapi.yml
+  url: https://artifacts.apis.io/web-of-science-apis/openapi/web-of-science-apis-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: web-of-science-apis-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: clarivate.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 11:01:13 2026 GMT\n  hsts: true\n  hsts_max_age: 31622400\n- host: developer.clarivate.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar 19 23:59:59 2027 GMT\n  hsts: false\n- host: api.clarivate.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 21:10:49 2026 GMT\n  hsts: false\ndomains:\n- domain: clarivate.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/security/web-of-science-apis-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/web-of-science-apis/security/web-of-science-apis-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Research

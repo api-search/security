@@ -5,91 +5,91 @@ api_specs:
   label: Otreeba Brands API
   slug: otreeba-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/otreeba/refs/heads/main/openapi/otreeba-brands-api-openapi.yml
+  url: https://artifacts.apis.io/otreeba/openapi/otreeba-brands-api-openapi.yml
 - filename: otreeba-condition-api-openapi.yml
   format: yaml
   label: Otreeba Condition API
   slug: otreeba-condition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/otreeba/refs/heads/main/openapi/otreeba-condition-api-openapi.yml
+  url: https://artifacts.apis.io/otreeba/openapi/otreeba-condition-api-openapi.yml
 - filename: otreeba-conditions-api-openapi.yml
   format: yaml
   label: Otreeba Conditions API
   slug: otreeba-conditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/otreeba/refs/heads/main/openapi/otreeba-conditions-api-openapi.yml
+  url: https://artifacts.apis.io/otreeba/openapi/otreeba-conditions-api-openapi.yml
 - filename: otreeba-edibles-api-openapi.yml
   format: yaml
   label: Otreeba Edibles API
   slug: otreeba-edibles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/otreeba/refs/heads/main/openapi/otreeba-edibles-api-openapi.yml
+  url: https://artifacts.apis.io/otreeba/openapi/otreeba-edibles-api-openapi.yml
 - filename: otreeba-extracts-api-openapi.yml
   format: yaml
   label: Otreeba Extracts API
   slug: otreeba-extracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/otreeba/refs/heads/main/openapi/otreeba-extracts-api-openapi.yml
+  url: https://artifacts.apis.io/otreeba/openapi/otreeba-extracts-api-openapi.yml
 - filename: otreeba-flowers-api-openapi.yml
   format: yaml
   label: Otreeba Flowers API
   slug: otreeba-flowers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/otreeba/refs/heads/main/openapi/otreeba-flowers-api-openapi.yml
+  url: https://artifacts.apis.io/otreeba/openapi/otreeba-flowers-api-openapi.yml
 - filename: otreeba-identifiers-api-openapi.yml
   format: yaml
   label: Otreeba Identifiers API
   slug: otreeba-identifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/otreeba/refs/heads/main/openapi/otreeba-identifiers-api-openapi.yml
+  url: https://artifacts.apis.io/otreeba/openapi/otreeba-identifiers-api-openapi.yml
 - filename: otreeba-ocpc-api-openapi.yml
   format: yaml
   label: Otreeba Ocpc API
   slug: otreeba-ocpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/otreeba/refs/heads/main/openapi/otreeba-ocpc-api-openapi.yml
+  url: https://artifacts.apis.io/otreeba/openapi/otreeba-ocpc-api-openapi.yml
 - filename: otreeba-products-api-openapi.yml
   format: yaml
   label: Otreeba Products API
   slug: otreeba-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/otreeba/refs/heads/main/openapi/otreeba-products-api-openapi.yml
+  url: https://artifacts.apis.io/otreeba/openapi/otreeba-products-api-openapi.yml
 - filename: otreeba-seed-api-openapi.yml
   format: yaml
   label: Otreeba Seed API
   slug: otreeba-seed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/otreeba/refs/heads/main/openapi/otreeba-seed-api-openapi.yml
+  url: https://artifacts.apis.io/otreeba/openapi/otreeba-seed-api-openapi.yml
 - filename: otreeba-seed-companies-api-openapi.yml
   format: yaml
   label: Otreeba Seed  Companies API
   slug: otreeba-seed-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/otreeba/refs/heads/main/openapi/otreeba-seed-companies-api-openapi.yml
+  url: https://artifacts.apis.io/otreeba/openapi/otreeba-seed-companies-api-openapi.yml
 - filename: otreeba-slug-api-openapi.yml
   format: yaml
   label: Otreeba Slug API
   slug: otreeba-slug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/otreeba/refs/heads/main/openapi/otreeba-slug-api-openapi.yml
+  url: https://artifacts.apis.io/otreeba/openapi/otreeba-slug-api-openapi.yml
 - filename: otreeba-strains-api-openapi.yml
   format: yaml
   label: Otreeba Strains API
   slug: otreeba-strains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/otreeba/refs/heads/main/openapi/otreeba-strains-api-openapi.yml
+  url: https://artifacts.apis.io/otreeba/openapi/otreeba-strains-api-openapi.yml
 - filename: otreeba-studies-api-openapi.yml
   format: yaml
   label: Otreeba Studies API
   slug: otreeba-studies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/otreeba/refs/heads/main/openapi/otreeba-studies-api-openapi.yml
+  url: https://artifacts.apis.io/otreeba/openapi/otreeba-studies-api-openapi.yml
 - filename: otreeba-type-api-openapi.yml
   format: yaml
   label: Otreeba Type API
   slug: otreeba-type-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/otreeba/refs/heads/main/openapi/otreeba-type-api-openapi.yml
+  url: https://artifacts.apis.io/otreeba/openapi/otreeba-type-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -119,7 +119,7 @@ source_filename: otreeba-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: otreeba.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 23 10:08:44 2026 GMT\n  hsts: false\n- host: api.otreeba.com\n  https: false\ndomains:\n- domain: otreeba.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/otreeba/refs/heads/main/security/otreeba-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/otreeba/security/otreeba-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Cannabis

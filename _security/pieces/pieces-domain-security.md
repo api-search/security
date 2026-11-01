@@ -5,49 +5,49 @@ api_specs:
   label: Pieces Applications API
   slug: pieces-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/openapi/pieces-applications-api-openapi.yml
+  url: https://artifacts.apis.io/pieces/openapi/pieces-applications-api-openapi.yml
 - filename: pieces-assets-api-openapi.yml
   format: yaml
   label: Pieces Assets API
   slug: pieces-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/openapi/pieces-assets-api-openapi.yml
+  url: https://artifacts.apis.io/pieces/openapi/pieces-assets-api-openapi.yml
 - filename: pieces-conversations-api-openapi.yml
   format: yaml
   label: Pieces Conversations API
   slug: pieces-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/openapi/pieces-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/pieces/openapi/pieces-conversations-api-openapi.yml
 - filename: pieces-formats-api-openapi.yml
   format: yaml
   label: Pieces Formats API
   slug: pieces-formats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/openapi/pieces-formats-api-openapi.yml
+  url: https://artifacts.apis.io/pieces/openapi/pieces-formats-api-openapi.yml
 - filename: pieces-models-api-openapi.yml
   format: yaml
   label: Pieces Models API
   slug: pieces-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/openapi/pieces-models-api-openapi.yml
+  url: https://artifacts.apis.io/pieces/openapi/pieces-models-api-openapi.yml
 - filename: pieces-qgpt-api-openapi.yml
   format: yaml
   label: Pieces QGPT API
   slug: pieces-qgpt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/openapi/pieces-qgpt-api-openapi.yml
+  url: https://artifacts.apis.io/pieces/openapi/pieces-qgpt-api-openapi.yml
 - filename: pieces-user-api-openapi.yml
   format: yaml
   label: Pieces User API
   slug: pieces-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/openapi/pieces-user-api-openapi.yml
+  url: https://artifacts.apis.io/pieces/openapi/pieces-user-api-openapi.yml
 - filename: pieces-well-known-api-openapi.yml
   format: yaml
   label: Pieces Well Known API
   slug: pieces-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/openapi/pieces-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/pieces/openapi/pieces-well-known-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -83,7 +83,7 @@ source_filename: pieces-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pieces.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.pieces.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 04:35:55 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: pieces.app\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/security/pieces-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pieces/security/pieces-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Artificial Intelligence

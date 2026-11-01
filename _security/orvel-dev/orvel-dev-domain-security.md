@@ -1,0 +1,52 @@
+---
+api_specs:
+- filename: orvel-dev-e-invoicing-api-openapi.yml
+  format: yaml
+  label: orvel-dev E Invoicing API
+  slug: orvel-dev-e-invoicing-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orvel-dev/openapi/orvel-dev-e-invoicing-api-openapi.yml
+- filename: orvel-dev-verification-api-openapi.yml
+  format: yaml
+  label: orvel-dev Verification API
+  slug: orvel-dev-verification-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orvel-dev/openapi/orvel-dev-verification-api-openapi.yml
+description: ''
+domains:
+- caa: []
+  dmarc: true
+  dmarc_policy: none
+  dnssec: false
+  domain: orvel.dev
+  spf: false
+hosts:
+- cert_expires: Dec  2 19:27:10 2026 GMT
+  host: orvel.dev
+  hsts: true
+  hsts_max_age: 63072000
+  https: true
+  tls_version: TLSv1.3
+hosts_probed: 1
+kind: domain-security
+layout: security
+method: probed
+name: Orvel Dev Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for orvel-dev, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=none).'
+provider_name: orvel-dev
+provider_slug: orvel-dev
+slug: orvel-dev-domain-security
+source_filename: orvel-dev-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-10-30'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: orvel.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 19:27:10 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: orvel.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml_url: https://artifacts.apis.io/orvel-dev/security/orvel-dev-domain-security.yml
+summary_line: TLSv1.3 · HSTS · DMARC
+tags:
+- e-invoicing
+- accessibility
+- API
+- France
+- EU
+---

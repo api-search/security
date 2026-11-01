@@ -5,43 +5,43 @@ api_specs:
   label: Eight Sleep Alarms API
   slug: eight-sleep-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/eight-sleep/openapi/eight-sleep-alarms-api-openapi.yml
 - filename: eight-sleep-authentication-api-openapi.yml
   format: yaml
   label: Eight Sleep Authentication API
   slug: eight-sleep-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/eight-sleep/openapi/eight-sleep-authentication-api-openapi.yml
 - filename: eight-sleep-base-api-openapi.yml
   format: yaml
   label: Eight Sleep Base API
   slug: eight-sleep-base-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-base-api-openapi.yml
+  url: https://artifacts.apis.io/eight-sleep/openapi/eight-sleep-base-api-openapi.yml
 - filename: eight-sleep-device-api-openapi.yml
   format: yaml
   label: Eight Sleep Device API
   slug: eight-sleep-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-device-api-openapi.yml
+  url: https://artifacts.apis.io/eight-sleep/openapi/eight-sleep-device-api-openapi.yml
 - filename: eight-sleep-temperature-api-openapi.yml
   format: yaml
   label: Eight Sleep Temperature API
   slug: eight-sleep-temperature-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-temperature-api-openapi.yml
+  url: https://artifacts.apis.io/eight-sleep/openapi/eight-sleep-temperature-api-openapi.yml
 - filename: eight-sleep-trends-api-openapi.yml
   format: yaml
   label: Eight Sleep Trends API
   slug: eight-sleep-trends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-trends-api-openapi.yml
+  url: https://artifacts.apis.io/eight-sleep/openapi/eight-sleep-trends-api-openapi.yml
 - filename: eight-sleep-user-api-openapi.yml
   format: yaml
   label: Eight Sleep User API
   slug: eight-sleep-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-user-api-openapi.yml
+  url: https://artifacts.apis.io/eight-sleep/openapi/eight-sleep-user-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -87,7 +87,7 @@ source_filename: eight-sleep-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.eightsleep.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 02:45:46 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: auth-api.8slp.net\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 26 23:59:59 2027 GMT\n  hsts: null\n- host: client-api.8slp.net\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 26 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: eightsleep.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: 8slp.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/security/eight-sleep-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/eight-sleep/security/eight-sleep-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Sleep

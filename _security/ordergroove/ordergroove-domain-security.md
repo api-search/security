@@ -5,37 +5,37 @@ api_specs:
   label: Ordergroove Customers API
   slug: ordergroove-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-customers-api-openapi.yml
+  url: https://artifacts.apis.io/ordergroove/openapi/ordergroove-customers-api-openapi.yml
 - filename: ordergroove-items-api-openapi.yml
   format: yaml
   label: Ordergroove Items API
   slug: ordergroove-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-items-api-openapi.yml
+  url: https://artifacts.apis.io/ordergroove/openapi/ordergroove-items-api-openapi.yml
 - filename: ordergroove-offers-api-openapi.yml
   format: yaml
   label: Ordergroove Offers API
   slug: ordergroove-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-offers-api-openapi.yml
+  url: https://artifacts.apis.io/ordergroove/openapi/ordergroove-offers-api-openapi.yml
 - filename: ordergroove-orders-api-openapi.yml
   format: yaml
   label: Ordergroove Orders API
   slug: ordergroove-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ordergroove/openapi/ordergroove-orders-api-openapi.yml
 - filename: ordergroove-products-api-openapi.yml
   format: yaml
   label: Ordergroove Products API
   slug: ordergroove-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-products-api-openapi.yml
+  url: https://artifacts.apis.io/ordergroove/openapi/ordergroove-products-api-openapi.yml
 - filename: ordergroove-subscriptions-api-openapi.yml
   format: yaml
   label: Ordergroove Subscriptions API
   slug: ordergroove-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/ordergroove/openapi/ordergroove-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: ordergroove-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ordergroove.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 13:08:16 2026 GMT\n  hsts: false\n- host: developer.ordergroove.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 19:03:04 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: restapi.ordergroove.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  9 13:22:17 2027 GMT\n  hsts: null\ndomains:\n- domain: ordergroove.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/security/ordergroove-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ordergroove/security/ordergroove-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Subscription

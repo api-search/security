@@ -5,37 +5,37 @@ api_specs:
   label: WeChat Pay APIv3 (Direct-Connect Merchant)
   slug: wechat-pay-apiv3-direct-merchant
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wechat/refs/heads/main/asyncapi/wechat-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/wechat/asyncapi/wechat-webhooks-asyncapi.yml
 - filename: wechat-webhooks-asyncapi.yml
   format: yaml
   label: WeChat Official Accounts API
   slug: wechat-official-accounts-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wechat/refs/heads/main/asyncapi/wechat-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/wechat/asyncapi/wechat-webhooks-asyncapi.yml
 - filename: wechat-webhooks-asyncapi.yml
   format: yaml
   label: WeChat Work (WeCom) API
   slug: wechat-work-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wechat/refs/heads/main/asyncapi/wechat-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/wechat/asyncapi/wechat-webhooks-asyncapi.yml
 - filename: wechat-access-token-api-openapi.yml
   format: yaml
   label: WeChat Access Token API
   slug: wechat-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wechat/refs/heads/main/openapi/wechat-access-token-api-openapi.yml
+  url: https://artifacts.apis.io/wechat/openapi/wechat-access-token-api-openapi.yml
 - filename: wechat-login-api-openapi.yml
   format: yaml
   label: WeChat Login API
   slug: wechat-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wechat/refs/heads/main/openapi/wechat-login-api-openapi.yml
+  url: https://artifacts.apis.io/wechat/openapi/wechat-login-api-openapi.yml
 - filename: wechat-user-information-api-openapi.yml
   format: yaml
   label: WeChat User Information API
   slug: wechat-user-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wechat/refs/heads/main/openapi/wechat-user-information-api-openapi.yml
+  url: https://artifacts.apis.io/wechat/openapi/wechat-user-information-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -80,7 +80,7 @@ source_filename: wechat-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.wechat.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 20 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 15768000\n- host: weixin.qq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 23:59:59 2026 GMT\n  hsts: null\n- host: pay.weixin.qq.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 25 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: wechat.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: qq.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wechat/refs/heads/main/security/wechat-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wechat/security/wechat-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Messaging

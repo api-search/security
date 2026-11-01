@@ -5,43 +5,43 @@ api_specs:
   label: Signaturely Documents API
   slug: signaturely-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/openapi/signaturely-documents-api-openapi.yml
+  url: https://artifacts.apis.io/signaturely/openapi/signaturely-documents-api-openapi.yml
 - filename: signaturely-folders-api-openapi.yml
   format: yaml
   label: Signaturely Folders API
   slug: signaturely-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/openapi/signaturely-folders-api-openapi.yml
+  url: https://artifacts.apis.io/signaturely/openapi/signaturely-folders-api-openapi.yml
 - filename: signaturely-signature-requests-api-openapi.yml
   format: yaml
   label: Signaturely Signature Requests API
   slug: signaturely-signature-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/openapi/signaturely-signature-requests-api-openapi.yml
+  url: https://artifacts.apis.io/signaturely/openapi/signaturely-signature-requests-api-openapi.yml
 - filename: signaturely-team-api-openapi.yml
   format: yaml
   label: Signaturely Team API
   slug: signaturely-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/openapi/signaturely-team-api-openapi.yml
+  url: https://artifacts.apis.io/signaturely/openapi/signaturely-team-api-openapi.yml
 - filename: signaturely-templates-api-openapi.yml
   format: yaml
   label: Signaturely Templates API
   slug: signaturely-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/openapi/signaturely-templates-api-openapi.yml
+  url: https://artifacts.apis.io/signaturely/openapi/signaturely-templates-api-openapi.yml
 - filename: signaturely-user-api-openapi.yml
   format: yaml
   label: Signaturely User API
   slug: signaturely-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/openapi/signaturely-user-api-openapi.yml
+  url: https://artifacts.apis.io/signaturely/openapi/signaturely-user-api-openapi.yml
 - filename: signaturely-webhooks-api-openapi.yml
   format: yaml
   label: Signaturely Webhooks API
   slug: signaturely-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/openapi/signaturely-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/signaturely/openapi/signaturely-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -80,7 +80,7 @@ source_filename: signaturely-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: signaturely.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 15:15:26 2026 GMT\n  hsts: false\n- host: docs.signaturely.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 23:59:59 2026 GMT\n  hsts: false\n- host: api.signaturely.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: signaturely.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/security/signaturely-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/signaturely/security/signaturely-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - E-Signature

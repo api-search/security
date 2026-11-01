@@ -8,25 +8,25 @@ api_specs:
   label: Vendr Catalog API
   slug: vendr-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendr/refs/heads/main/openapi/vendr-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/vendr/openapi/vendr-catalog-api-openapi.yml
 - filename: vendr-pricing-api-openapi.yml
   format: yaml
   label: Vendr Pricing API
   slug: vendr-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendr/refs/heads/main/openapi/vendr-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/vendr/openapi/vendr-pricing-api-openapi.yml
 - filename: vendr-scope-api-openapi.yml
   format: yaml
   label: Vendr Scope API
   slug: vendr-scope-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendr/refs/heads/main/openapi/vendr-scope-api-openapi.yml
+  url: https://artifacts.apis.io/vendr/openapi/vendr-scope-api-openapi.yml
 - filename: vendr-webhooks-api-openapi.yml
   format: yaml
   label: Vendr Webhooks API
   slug: vendr-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendr/refs/heads/main/openapi/vendr-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/vendr/openapi/vendr-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: vendr-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/vendr-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: API key for authenticating requests. Contact developers@vendr.com to obtain a\n    key.\n  sources:\n  - openapi/vendr-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vendr/refs/heads/main/authentication/vendr-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vendr/authentication/vendr-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Pricing

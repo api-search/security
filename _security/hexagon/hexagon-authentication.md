@@ -13,7 +13,7 @@ api_specs:
   label: HxGN EAM REST API
   slug: hxgn-eam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hexagon/refs/heads/main/openapi/hexagon-eam-ion-api-openapi.yml
+  url: https://artifacts.apis.io/hexagon/openapi/hexagon-eam-ion-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -152,7 +152,7 @@ source_yaml: "generated: '2026-09-13'\nmethod: probed\nsource: >-\n  https://hxa
   \ probe: 'POST https://hxdr.app/graphql {\"query\":\"{getUser{id}}\"} with no Authorization header'\n      http_status: 200\n      graphql_error_code: UNAUTHENTICATED\n      message: You can not access the requested resource.\n      note: >-\n        GraphQL-idiomatic - transport stays 200 and the failure is carried in\n        errors[].extensions.code. Schema introspection itself is NOT gated and\n        succeeds anonymously.\n  - id: geocloud-mcp-oauth\n    applies_to: hexagon-ab:geocloud-mcp\n    type: oauth2\n    scheme: bearer\n    in: header\n    header: Authorization\n    prefix: Bearer\n    discovery: https://geocloud.hexagon.com/.well-known/oauth-authorization-server\n    protected_resource_metadata: https://geocloud.hexagon.com/.well-known/oauth-protected-resource\n    issuer: https://geocloud.hexagon.com\n    endpoints:\n      authorization: https://geocloud.hexagon.com/oauth/authorize\n      token: https://geocloud.hexagon.com/oauth/token\n      revocation: https://geocloud.hexagon.com/oauth/revoke\n\
   \    grant_types_supported:\n      - authorization_code\n      - refresh_token\n    response_types_supported:\n      - code\n    code_challenge_methods_supported:\n      - S256\n    token_endpoint_auth_methods_supported:\n      - none\n    scopes_supported:\n      - mcp\n    client_registration: >-\n      No registration_endpoint is advertised. The server sets\n      client_id_metadata_document_supported: true, so a client presents a\n      client-ID metadata document URL instead of pre-registering.\n    unauthenticated_behaviour:\n      probe: 'POST https://geocloud.hexagon.com/wp-json/mcp/mcp-oauth-server {\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"tools/list\"}'\n      http_status: 401\n      message: MCP authentication required.\ngaps:\n  - >-\n    No public developer-facing authentication guide was found for the GeoCloud\n    GraphQL API. Everything recorded here was read from discovery documents and\n    live probes, not from a documentation page.\n  - >-\n    No API-key or personal-access-token\
   \ mechanism exists in either surface; every\n    call requires an OAuth/OIDC bearer token.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hexagon/refs/heads/main/authentication/hexagon-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hexagon/authentication/hexagon-authentication.yml
 summary_line: 2 schemes
 tags:
 - Manufacturing

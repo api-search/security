@@ -7,49 +7,49 @@ api_specs:
   label: Foursquare Ask API
   slug: foursquare-ask-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/foursquare/refs/heads/main/openapi/foursquare-ask-api-openapi.yml
+  url: https://artifacts.apis.io/foursquare/openapi/foursquare-ask-api-openapi.yml
 - filename: foursquare-autocomplete-api-openapi.yml
   format: yaml
   label: Foursquare Autocomplete API
   slug: foursquare-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/foursquare/refs/heads/main/openapi/foursquare-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/foursquare/openapi/foursquare-autocomplete-api-openapi.yml
 - filename: foursquare-details-api-openapi.yml
   format: yaml
   label: Foursquare Details API
   slug: foursquare-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/foursquare/refs/heads/main/openapi/foursquare-details-api-openapi.yml
+  url: https://artifacts.apis.io/foursquare/openapi/foursquare-details-api-openapi.yml
 - filename: foursquare-geotagging-api-openapi.yml
   format: yaml
   label: Foursquare Geotagging API
   slug: foursquare-geotagging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/foursquare/refs/heads/main/openapi/foursquare-geotagging-api-openapi.yml
+  url: https://artifacts.apis.io/foursquare/openapi/foursquare-geotagging-api-openapi.yml
 - filename: foursquare-match-api-openapi.yml
   format: yaml
   label: Foursquare Match API
   slug: foursquare-match-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/foursquare/refs/heads/main/openapi/foursquare-match-api-openapi.yml
+  url: https://artifacts.apis.io/foursquare/openapi/foursquare-match-api-openapi.yml
 - filename: foursquare-photos-api-openapi.yml
   format: yaml
   label: Foursquare Photos API
   slug: foursquare-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/foursquare/refs/heads/main/openapi/foursquare-photos-api-openapi.yml
+  url: https://artifacts.apis.io/foursquare/openapi/foursquare-photos-api-openapi.yml
 - filename: foursquare-search-api-openapi.yml
   format: yaml
   label: Foursquare Search API
   slug: foursquare-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/foursquare/refs/heads/main/openapi/foursquare-search-api-openapi.yml
+  url: https://artifacts.apis.io/foursquare/openapi/foursquare-search-api-openapi.yml
 - filename: foursquare-tips-api-openapi.yml
   format: yaml
   label: Foursquare Tips API
   slug: foursquare-tips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/foursquare/refs/heads/main/openapi/foursquare-tips-api-openapi.yml
+  url: https://artifacts.apis.io/foursquare/openapi/foursquare-tips-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -76,7 +76,7 @@ source_filename: foursquare-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/foursquare-places-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: serviceKey\n  type: http\n  scheme: bearer\n  description: 'Service Key passed as a Bearer token in the Authorization header (\"Authorization:\n    Bearer <service-key>\").'\n  sources:\n  - openapi/foursquare-places-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/foursquare/refs/heads/main/authentication/foursquare-authentication.yml
+source_yaml_url: https://artifacts.apis.io/foursquare/authentication/foursquare-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Restaurant

@@ -5,7 +5,7 @@ api_specs:
   label: Filestack
   slug: filestack
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/filestack/refs/heads/main/asyncapi.yml
+  url: https://artifacts.apis.io/filestack/asyncapi.yml
 description: ''
 domains:
 - caa:
@@ -41,7 +41,7 @@ source_filename: filestack-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.filestack.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 21:33:21 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\ndomains:\n- domain: filestack.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"globalsign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/filestack/refs/heads/main/security/filestack-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/filestack/security/filestack-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Public APIs

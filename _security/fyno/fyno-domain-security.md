@@ -5,37 +5,37 @@ api_specs:
   label: Fyno Fire an Event API
   slug: fyno-fire-an-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyno/refs/heads/main/openapi/fyno-fire-an-event-api-openapi.yml
+  url: https://artifacts.apis.io/fyno/openapi/fyno-fire-an-event-api-openapi.yml
 - filename: fyno-fyno-verify-api-openapi.yml
   format: yaml
   label: Fyno Verify API
   slug: fyno-fyno-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyno/refs/heads/main/openapi/fyno-fyno-verify-api-openapi.yml
+  url: https://artifacts.apis.io/fyno/openapi/fyno-fyno-verify-api-openapi.yml
 - filename: fyno-manage-user-profiles-api-openapi.yml
   format: yaml
   label: Fyno Manage User Profiles API
   slug: fyno-manage-user-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyno/refs/heads/main/openapi/fyno-manage-user-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/fyno/openapi/fyno-manage-user-profiles-api-openapi.yml
 - filename: fyno-manage-user-subscriptions-preferences-api-openapi.yml
   format: yaml
   label: Fyno Manage User Subscriptions & Preferences API
   slug: fyno-manage-user-subscriptions-preferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyno/refs/heads/main/openapi/fyno-manage-user-subscriptions-preferences-api-openapi.yml
+  url: https://artifacts.apis.io/fyno/openapi/fyno-manage-user-subscriptions-preferences-api-openapi.yml
 - filename: fyno-suppression-list-api-openapi.yml
   format: yaml
   label: Fyno Suppression List API
   slug: fyno-suppression-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyno/refs/heads/main/openapi/fyno-suppression-list-api-openapi.yml
+  url: https://artifacts.apis.io/fyno/openapi/fyno-suppression-list-api-openapi.yml
 - filename: fyno-user-properties-api-openapi.yml
   format: yaml
   label: Fyno User Properties API
   slug: fyno-user-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyno/refs/heads/main/openapi/fyno-user-properties-api-openapi.yml
+  url: https://artifacts.apis.io/fyno/openapi/fyno-user-properties-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: fyno-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: fyno.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.fyno.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: fyno.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fyno/refs/heads/main/security/fyno-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fyno/security/fyno-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Notification

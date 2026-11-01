@@ -45,7 +45,7 @@ source_filename: simulmedia-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: simulmedia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  6 20:21:46 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: www.playerwon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  9 22:00:20 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: game.simulmedia-apis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 26 04:52:46 2026 GMT\n  hsts: null\ndomains:\n- domain: simulmedia.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: playerwon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simulmedia/refs/heads/main/security/simulmedia-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/simulmedia/security/simulmedia-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

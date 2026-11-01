@@ -7,97 +7,97 @@ api_specs:
   label: Umami Authentication API
   slug: umami-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-authentication-api-openapi.yml
 - filename: umami-teams-api-openapi.yml
   format: yaml
   label: Umami Teams API
   slug: umami-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-teams-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-teams-api-openapi.yml
 - filename: umami-users-api-openapi.yml
   format: yaml
   label: Umami Users API
   slug: umami-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-users-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-users-api-openapi.yml
 - filename: umami-websites-api-openapi.yml
   format: yaml
   label: Umami Websites API
   slug: umami-websites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-websites-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-websites-api-openapi.yml
 - filename: umami-account-api-openapi.yml
   format: yaml
   label: Umami Account API
   slug: umami-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-account-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-account-api-openapi.yml
 - filename: umami-administration-api-openapi.yml
   format: yaml
   label: Umami Administration API
   slug: umami-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-administration-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-administration-api-openapi.yml
 - filename: umami-boards-api-openapi.yml
   format: yaml
   label: Umami Boards API
   slug: umami-boards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-boards-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-boards-api-openapi.yml
 - filename: umami-collection-api-openapi.yml
   format: yaml
   label: Umami Collection API
   slug: umami-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-collection-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-collection-api-openapi.yml
 - filename: umami-dashboard-api-openapi.yml
   format: yaml
   label: Umami Dashboard API
   slug: umami-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-dashboard-api-openapi.yml
 - filename: umami-links-api-openapi.yml
   format: yaml
   label: Umami Links API
   slug: umami-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-links-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-links-api-openapi.yml
 - filename: umami-pixels-api-openapi.yml
   format: yaml
   label: Umami Pixels API
   slug: umami-pixels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-pixels-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-pixels-api-openapi.yml
 - filename: umami-realtime-api-openapi.yml
   format: yaml
   label: Umami Realtime API
   slug: umami-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-realtime-api-openapi.yml
 - filename: umami-scripts-api-openapi.yml
   format: yaml
   label: Umami Scripts API
   slug: umami-scripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-scripts-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-scripts-api-openapi.yml
 - filename: umami-shares-api-openapi.yml
   format: yaml
   label: Umami Shares API
   slug: umami-shares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-shares-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-shares-api-openapi.yml
 - filename: umami-system-api-openapi.yml
   format: yaml
   label: Umami System API
   slug: umami-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-system-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-system-api-openapi.yml
 - filename: umami-two-factor-authentication-api-openapi.yml
   format: yaml
   label: Umami Two-factor authentication API
   slug: umami-two-factor-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-two-factor-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-two-factor-authentication-api-openapi.yml
 auth_types:
 - http
 description: Umami has two distinct authentication paths that share one wire format. Both send a bearer credential in the Authorization header, but they are obtained differently, live on different hosts, and are not interchangeable.
@@ -157,7 +157,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://docs.um
   \  source: https://docs.umami.is/docs/api/sending-stats\n- path: POST /api/batch\n  reason: Batched collection; same rules as /api/send.\n  source: https://docs.umami.is/docs/api/sending-stats\n- path: GET /api/websites/:websiteId/recorder\n  reason: 'Recorder configuration read by the tracker to initialize session replay and heatmaps. Documented as publicly accessible with no authentication. Returns {\"enabled\": false} when the website does\n    not exist or recording is off.'\n  source: https://docs.umami.is/docs/api/websites\n- path: /share/:shareId\n  reason: Share URLs render a dashboard to anyone holding the link. shareId is set per website and can be revoked by setting it to null.\n  source: https://docs.umami.is/docs/enable-share-url\naccount_security:\n  two_factor:\n    supported: true\n    surface: application login (self-hosted and Cloud)\n    enforcement: Can be enforced globally by an admin and per team; API routes exist at /api/2fa/* and /api/admin/2fa/global.\n    docs:\
   \ https://docs.umami.is/docs/two-factor-authentication\n    note: TOTP protects interactive login. It does not gate API-key use.\n  sso:\n    supported: true\n    protocol: SAML\n    availability: Enterprise plan only\n    source: https://umami.is/pricing\nobserved:\n- probe: GET https://api.umami.is/v1/websites (no credential)\n  status: 400\n  body: '{\"error\":{\"message\":\"No API key specified.\",\"code\":\"bad-request\",\"status\":400}}'\n  date: '2026-08-13'\n- probe: GET https://api.umami.is/v1/websites (Authorization Bearer <invalid>)\n  status: 401\n  body: '{\"error\":{\"message\":\"Invalid API key.\",\"code\":\"unauthorized\",\"status\":401}}'\n  date: '2026-08-13'\n  note: Missing credential is answered 400, not 401 — worth knowing for client error handling, since most APIs return 401 for both.\nprior_state: Superseded the 2026-07-11 derived profile, which recorded a single bearerAuth scheme from the scaffold OpenAPI and conflated the Cloud API key with the self-hosted JWT\
   \ into one description.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\ndocs_pages:\n- https://docs.umami.is/docs/api/authentication\n- https://docs.umami.is/docs/cloud/api-key\n- https://docs.umami.is/docs/two-factor-authentication\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/authentication/umami-authentication.yml
+source_yaml_url: https://artifacts.apis.io/umami/authentication/umami-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Cookieless Tracking

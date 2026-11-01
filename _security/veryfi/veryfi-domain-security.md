@@ -5,43 +5,43 @@ api_specs:
   label: Veryfi Any Documents API
   slug: veryfi-any-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/openapi/veryfi-any-documents-api-openapi.yml
+  url: https://artifacts.apis.io/veryfi/openapi/veryfi-any-documents-api-openapi.yml
 - filename: veryfi-bank-statements-api-openapi.yml
   format: yaml
   label: Veryfi Bank Statements API
   slug: veryfi-bank-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/openapi/veryfi-bank-statements-api-openapi.yml
+  url: https://artifacts.apis.io/veryfi/openapi/veryfi-bank-statements-api-openapi.yml
 - filename: veryfi-checks-api-openapi.yml
   format: yaml
   label: Veryfi Checks API
   slug: veryfi-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/openapi/veryfi-checks-api-openapi.yml
+  url: https://artifacts.apis.io/veryfi/openapi/veryfi-checks-api-openapi.yml
 - filename: veryfi-classification-api-openapi.yml
   format: yaml
   label: Veryfi Classification API
   slug: veryfi-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/openapi/veryfi-classification-api-openapi.yml
+  url: https://artifacts.apis.io/veryfi/openapi/veryfi-classification-api-openapi.yml
 - filename: veryfi-documents-api-openapi.yml
   format: yaml
   label: Veryfi Documents API
   slug: veryfi-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/openapi/veryfi-documents-api-openapi.yml
+  url: https://artifacts.apis.io/veryfi/openapi/veryfi-documents-api-openapi.yml
 - filename: veryfi-w-2-forms-api-openapi.yml
   format: yaml
   label: Veryfi W-2 Forms API
   slug: veryfi-w-2-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/openapi/veryfi-w-2-forms-api-openapi.yml
+  url: https://artifacts.apis.io/veryfi/openapi/veryfi-w-2-forms-api-openapi.yml
 - filename: veryfi-w-9-forms-api-openapi.yml
   format: yaml
   label: Veryfi W-9 Forms API
   slug: veryfi-w-9-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/openapi/veryfi-w-9-forms-api-openapi.yml
+  url: https://artifacts.apis.io/veryfi/openapi/veryfi-w-9-forms-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -87,7 +87,7 @@ source_filename: veryfi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.veryfi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 01:30:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.veryfi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 01:30:10 2026 GMT\n  hsts: false\n- host: api.veryfi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 01:30:10 2026 GMT\n  hsts: null\ndomains:\n- domain: veryfi.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 iodef \"mailto:security@veryfi.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/security/veryfi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/veryfi/security/veryfi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Artificial Intelligence

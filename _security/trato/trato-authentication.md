@@ -7,31 +7,31 @@ api_specs:
   label: Trato Contracts API
   slug: trato-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/openapi/trato-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/trato/openapi/trato-contracts-api-openapi.yml
 - filename: trato-custom-properties-api-openapi.yml
   format: yaml
   label: Trato Custom Properties API
   slug: trato-custom-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/openapi/trato-custom-properties-api-openapi.yml
+  url: https://artifacts.apis.io/trato/openapi/trato-custom-properties-api-openapi.yml
 - filename: trato-participants-api-openapi.yml
   format: yaml
   label: Trato Participants API
   slug: trato-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/openapi/trato-participants-api-openapi.yml
+  url: https://artifacts.apis.io/trato/openapi/trato-participants-api-openapi.yml
 - filename: trato-spectators-api-openapi.yml
   format: yaml
   label: Trato Spectators API
   slug: trato-spectators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/openapi/trato-spectators-api-openapi.yml
+  url: https://artifacts.apis.io/trato/openapi/trato-spectators-api-openapi.yml
 - filename: trato-templates-api-openapi.yml
   format: yaml
   label: Trato Templates API
   slug: trato-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/openapi/trato-templates-api-openapi.yml
+  url: https://artifacts.apis.io/trato/openapi/trato-templates-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -60,7 +60,7 @@ source_filename: trato-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://developer.trato.io/\ndocs: https://developer.trato.io/\nsummary:\n  types: [http]\n  http_schemes: [bearer]\n  api_key_in: []\n  oauth2_flows: []\n  notes: >-\n    TRATO authenticates every API call with a JWT bearer token sent in the\n    Authorization header (`Authorization: Bearer {TOKEN}`). The token is\n    mandatory on every request. Developers obtain the token from their TRATO\n    profile security settings (Profile > Security). No OAuth2 authorization\n    flow or API-key parameter is documented — the JWT is issued from the\n    account profile.\ntoken_source: https://clm-test.trato.io/profile?menu=profile-security\nschemes:\n  - name: bearerAuth\n    type: http\n    scheme: bearer\n    bearerFormat: JWT\n    header: Authorization\n    sources: [openapi/trato-openapi.yml, https://developer.trato.io/]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/authentication/trato-authentication.yml
+source_yaml_url: https://artifacts.apis.io/trato/authentication/trato-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

@@ -5,133 +5,133 @@ api_specs:
   label: Microsoft Azure Functions AppServiceEnvironments API
   slug: microsoft-azure-functions-appserviceenvironments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-appserviceenvironments-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-functions/openapi/microsoft-azure-functions-appserviceenvironments-api-openapi.yml
 - filename: microsoft-azure-functions-appserviceplans-api-openapi.yml
   format: yaml
   label: Microsoft Azure Functions AppServicePlans API
   slug: microsoft-azure-functions-appserviceplans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-appserviceplans-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-functions/openapi/microsoft-azure-functions-appserviceplans-api-openapi.yml
 - filename: microsoft-azure-functions-certificates-api-openapi.yml
   format: yaml
   label: Microsoft Azure Functions Certificates API
   slug: microsoft-azure-functions-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-functions/openapi/microsoft-azure-functions-certificates-api-openapi.yml
 - filename: microsoft-azure-functions-deletedwebapps-api-openapi.yml
   format: yaml
   label: Microsoft Azure Functions DeletedWebApps API
   slug: microsoft-azure-functions-deletedwebapps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-deletedwebapps-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-functions/openapi/microsoft-azure-functions-deletedwebapps-api-openapi.yml
 - filename: microsoft-azure-functions-diagnostics-api-openapi.yml
   format: yaml
   label: Microsoft Azure Functions Diagnostics API
   slug: microsoft-azure-functions-diagnostics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-diagnostics-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-functions/openapi/microsoft-azure-functions-diagnostics-api-openapi.yml
 - filename: microsoft-azure-functions-global-api-openapi.yml
   format: yaml
   label: Microsoft Azure Functions Global API
   slug: microsoft-azure-functions-global-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-global-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-functions/openapi/microsoft-azure-functions-global-api-openapi.yml
 - filename: microsoft-azure-functions-kubeenvironments-api-openapi.yml
   format: yaml
   label: Microsoft Azure Functions KubeEnvironments API
   slug: microsoft-azure-functions-kubeenvironments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-kubeenvironments-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-functions/openapi/microsoft-azure-functions-kubeenvironments-api-openapi.yml
 - filename: microsoft-azure-functions-operations-api-openapi.yml
   format: yaml
   label: Microsoft Azure Functions Operations API
   slug: microsoft-azure-functions-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-functions/openapi/microsoft-azure-functions-operations-api-openapi.yml
 - filename: microsoft-azure-functions-provider-api-openapi.yml
   format: yaml
   label: Microsoft Azure Functions Provider API
   slug: microsoft-azure-functions-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-provider-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-functions/openapi/microsoft-azure-functions-provider-api-openapi.yml
 - filename: microsoft-azure-functions-providers-api-openapi.yml
   format: yaml
   label: Microsoft Azure Functions Providers API
   slug: microsoft-azure-functions-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-providers-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-functions/openapi/microsoft-azure-functions-providers-api-openapi.yml
 - filename: microsoft-azure-functions-recommendations-api-openapi.yml
   format: yaml
   label: Microsoft Azure Functions Recommendations API
   slug: microsoft-azure-functions-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-functions/openapi/microsoft-azure-functions-recommendations-api-openapi.yml
 - filename: microsoft-azure-functions-resourcehealthmetadata-api-openapi.yml
   format: yaml
   label: Microsoft Azure Functions ResourceHealthMetadata API
   slug: microsoft-azure-functions-resourcehealthmetadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-resourcehealthmetadata-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-functions/openapi/microsoft-azure-functions-resourcehealthmetadata-api-openapi.yml
 - filename: microsoft-azure-functions-sitecertificates-api-openapi.yml
   format: yaml
   label: Microsoft Azure Functions SiteCertificates API
   slug: microsoft-azure-functions-sitecertificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-sitecertificates-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-functions/openapi/microsoft-azure-functions-sitecertificates-api-openapi.yml
 - filename: microsoft-azure-functions-subscriptions-api-openapi.yml
   format: yaml
   label: Microsoft Azure Functions Subscriptions API
   slug: microsoft-azure-functions-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-functions/openapi/microsoft-azure-functions-subscriptions-api-openapi.yml
 - filename: microsoft-azure-functions-workflowrunactions-api-openapi.yml
   format: yaml
   label: Microsoft Azure Functions WorkflowRunActions API
   slug: microsoft-azure-functions-workflowrunactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-workflowrunactions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-functions/openapi/microsoft-azure-functions-workflowrunactions-api-openapi.yml
 - filename: microsoft-azure-functions-workflows-api-openapi.yml
   format: yaml
   label: Microsoft Azure Functions Workflows API
   slug: microsoft-azure-functions-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-functions/openapi/microsoft-azure-functions-workflows-api-openapi.yml
 - filename: microsoft-azure-functions-workflowtriggerhistories-api-openapi.yml
   format: yaml
   label: Microsoft Azure Functions WorkflowTriggerHistories API
   slug: microsoft-azure-functions-workflowtriggerhistories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-workflowtriggerhistories-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-functions/openapi/microsoft-azure-functions-workflowtriggerhistories-api-openapi.yml
 - filename: microsoft-azure-functions-static-sites-api-openapi.yml
   format: yaml
   label: Microsoft Azure Functions Static Sites API
   slug: microsoft-azure-functions-static-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-static-sites-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-functions/openapi/microsoft-azure-functions-static-sites-api-openapi.yml
 - filename: microsoft-azure-functions-web-apps-api-openapi.yml
   format: yaml
   label: Microsoft Azure Functions Web Apps API
   slug: microsoft-azure-functions-web-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-web-apps-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-functions/openapi/microsoft-azure-functions-web-apps-api-openapi.yml
 - filename: microsoft-azure-functions-workflow-runs-api-openapi.yml
   format: yaml
   label: Microsoft Azure Functions Workflow Runs API
   slug: microsoft-azure-functions-workflow-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-workflow-runs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-functions/openapi/microsoft-azure-functions-workflow-runs-api-openapi.yml
 - filename: microsoft-azure-functions-workflow-triggers-api-openapi.yml
   format: yaml
   label: Microsoft Azure Functions Workflow Triggers API
   slug: microsoft-azure-functions-workflow-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-workflow-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-functions/openapi/microsoft-azure-functions-workflow-triggers-api-openapi.yml
 - filename: microsoft-azure-functions-workflow-versions-api-openapi.yml
   format: yaml
   label: Microsoft Azure Functions Workflow Versions API
   slug: microsoft-azure-functions-workflow-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-workflow-versions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-functions/openapi/microsoft-azure-functions-workflow-versions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -180,7 +180,7 @@ source_filename: microsoft-azure-functions-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: portal.azure.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 19:53:18 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: learn.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 02:26:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: management.azure.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 23:36:21 2026 GMT\n  hsts: null\ndomains:\n- domain: azure.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/security/microsoft-azure-functions-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-functions/security/microsoft-azure-functions-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Microsoft Azure

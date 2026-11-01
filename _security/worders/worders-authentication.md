@@ -8,43 +8,43 @@ api_specs:
   label: Worders Customers API
   slug: worders-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-customers-api-openapi.yml
+  url: https://artifacts.apis.io/worders/openapi/worders-customers-api-openapi.yml
 - filename: worders-freelancers-api-openapi.yml
   format: yaml
   label: Worders Freelancers API
   slug: worders-freelancers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-freelancers-api-openapi.yml
+  url: https://artifacts.apis.io/worders/openapi/worders-freelancers-api-openapi.yml
 - filename: worders-invoices-api-openapi.yml
   format: yaml
   label: Worders Invoices API
   slug: worders-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/worders/openapi/worders-invoices-api-openapi.yml
 - filename: worders-orders-api-openapi.yml
   format: yaml
   label: Worders Orders API
   slug: worders-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-orders-api-openapi.yml
+  url: https://artifacts.apis.io/worders/openapi/worders-orders-api-openapi.yml
 - filename: worders-quotes-api-openapi.yml
   format: yaml
   label: Worders Quotes API
   slug: worders-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/worders/openapi/worders-quotes-api-openapi.yml
 - filename: worders-templates-api-openapi.yml
   format: yaml
   label: Worders Templates API
   slug: worders-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-templates-api-openapi.yml
+  url: https://artifacts.apis.io/worders/openapi/worders-templates-api-openapi.yml
 - filename: worders-purchase-orders-api-openapi.yml
   format: yaml
   label: Worders Purchase Orders API
   slug: worders-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/worders/openapi/worders-purchase-orders-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -79,7 +79,7 @@ source_filename: worders-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/worders-api-openapi-original.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - cookie\nschemes:\n- name: cookie_session\n  type: apiKey\n  in: cookie\n  parameter: _worders_session\n  description: Authenticated Devise session cookie (api.worders.net).\n  sources:\n  - openapi/worders-api-openapi-original.yml\n- name: bearer_auth\n  type: http\n  scheme: bearer\n  description: 'Service API key issued from the admin UI. Sent as `Authorization: Bearer wrd_live_…`.'\n  sources:\n  - openapi/worders-api-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/authentication/worders-authentication.yml
+source_yaml_url: https://artifacts.apis.io/worders/authentication/worders-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

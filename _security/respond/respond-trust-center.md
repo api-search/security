@@ -5,37 +5,37 @@ api_specs:
   label: Respond.io Comments API
   slug: respond-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/openapi/respond-comments-api-openapi.yml
+  url: https://artifacts.apis.io/respond/openapi/respond-comments-api-openapi.yml
 - filename: respond-contacts-api-openapi.yml
   format: yaml
   label: Respond.io Contacts API
   slug: respond-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/openapi/respond-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/respond/openapi/respond-contacts-api-openapi.yml
 - filename: respond-conversations-api-openapi.yml
   format: yaml
   label: Respond.io Conversations API
   slug: respond-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/openapi/respond-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/respond/openapi/respond-conversations-api-openapi.yml
 - filename: respond-custom-fields-api-openapi.yml
   format: yaml
   label: Respond.io Custom Fields API
   slug: respond-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/openapi/respond-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/respond/openapi/respond-custom-fields-api-openapi.yml
 - filename: respond-messages-api-openapi.yml
   format: yaml
   label: Respond.io Messages API
   slug: respond-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/openapi/respond-messages-api-openapi.yml
+  url: https://artifacts.apis.io/respond/openapi/respond-messages-api-openapi.yml
 - filename: respond-tags-api-openapi.yml
   format: yaml
   label: Respond.io Tags API
   slug: respond-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/openapi/respond-tags-api-openapi.yml
+  url: https://artifacts.apis.io/respond/openapi/respond-tags-api-openapi.yml
 certification_count: 2
 certifications:
 - ISO 27001
@@ -53,7 +53,7 @@ source_filename: respond-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.respond.io/\nurl: https://trust.respond.io/\ncertifications:\n- ISO 27001\n- GDPR\nevidence:\n- source: https://trust.respond.io/\n  keywords:\n  - iso/iec 27001\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/security/respond-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/respond/security/respond-trust-center.yml
 summary_line: ISO 27001, GDPR
 tags:
 - Messaging

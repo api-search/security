@@ -5,79 +5,79 @@ api_specs:
   label: NetBox Authentication Check API
   slug: netbox-authentication-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/openapi/netbox-authentication-check-api-openapi.yml
+  url: https://artifacts.apis.io/netbox/openapi/netbox-authentication-check-api-openapi.yml
 - filename: netbox-circuits-api-openapi.yml
   format: yaml
   label: NetBox Circuits API
   slug: netbox-circuits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/openapi/netbox-circuits-api-openapi.yml
+  url: https://artifacts.apis.io/netbox/openapi/netbox-circuits-api-openapi.yml
 - filename: netbox-core-api-openapi.yml
   format: yaml
   label: NetBox Core API
   slug: netbox-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/openapi/netbox-core-api-openapi.yml
+  url: https://artifacts.apis.io/netbox/openapi/netbox-core-api-openapi.yml
 - filename: netbox-dcim-api-openapi.yml
   format: yaml
   label: NetBox Dcim API
   slug: netbox-dcim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/openapi/netbox-dcim-api-openapi.yml
+  url: https://artifacts.apis.io/netbox/openapi/netbox-dcim-api-openapi.yml
 - filename: netbox-extras-api-openapi.yml
   format: yaml
   label: NetBox Extras API
   slug: netbox-extras-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/openapi/netbox-extras-api-openapi.yml
+  url: https://artifacts.apis.io/netbox/openapi/netbox-extras-api-openapi.yml
 - filename: netbox-ipam-api-openapi.yml
   format: yaml
   label: NetBox Ipam API
   slug: netbox-ipam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/openapi/netbox-ipam-api-openapi.yml
+  url: https://artifacts.apis.io/netbox/openapi/netbox-ipam-api-openapi.yml
 - filename: netbox-schema-api-openapi.yml
   format: yaml
   label: NetBox Schema API
   slug: netbox-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/openapi/netbox-schema-api-openapi.yml
+  url: https://artifacts.apis.io/netbox/openapi/netbox-schema-api-openapi.yml
 - filename: netbox-status-api-openapi.yml
   format: yaml
   label: NetBox Status API
   slug: netbox-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/openapi/netbox-status-api-openapi.yml
+  url: https://artifacts.apis.io/netbox/openapi/netbox-status-api-openapi.yml
 - filename: netbox-tenancy-api-openapi.yml
   format: yaml
   label: NetBox Tenancy API
   slug: netbox-tenancy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/openapi/netbox-tenancy-api-openapi.yml
+  url: https://artifacts.apis.io/netbox/openapi/netbox-tenancy-api-openapi.yml
 - filename: netbox-users-api-openapi.yml
   format: yaml
   label: NetBox Users API
   slug: netbox-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/openapi/netbox-users-api-openapi.yml
+  url: https://artifacts.apis.io/netbox/openapi/netbox-users-api-openapi.yml
 - filename: netbox-virtualization-api-openapi.yml
   format: yaml
   label: NetBox Virtualization API
   slug: netbox-virtualization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/openapi/netbox-virtualization-api-openapi.yml
+  url: https://artifacts.apis.io/netbox/openapi/netbox-virtualization-api-openapi.yml
 - filename: netbox-vpn-api-openapi.yml
   format: yaml
   label: NetBox Vpn API
   slug: netbox-vpn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/openapi/netbox-vpn-api-openapi.yml
+  url: https://artifacts.apis.io/netbox/openapi/netbox-vpn-api-openapi.yml
 - filename: netbox-wireless-api-openapi.yml
   format: yaml
   label: NetBox Wireless API
   slug: netbox-wireless-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/openapi/netbox-wireless-api-openapi.yml
+  url: https://artifacts.apis.io/netbox/openapi/netbox-wireless-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -111,7 +111,7 @@ source_filename: netbox-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.netbox.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 11 14:51:48 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: demo.netbox.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 23:39:56 2026 GMT\n  hsts: false\ndomains:\n- domain: netbox.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/security/netbox-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/netbox/security/netbox-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Data Center

@@ -7,61 +7,61 @@ api_specs:
   label: ShipBob Subpackage Billing API
   slug: shipbob-subpackage-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipbob/refs/heads/main/openapi/shipbob-subpackage-billing-api-openapi.yml
+  url: https://artifacts.apis.io/shipbob/openapi/shipbob-subpackage-billing-api-openapi.yml
 - filename: shipbob-subpackage-channels-api-openapi.yml
   format: yaml
   label: ShipBob Subpackage Channels API
   slug: shipbob-subpackage-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipbob/refs/heads/main/openapi/shipbob-subpackage-channels-api-openapi.yml
+  url: https://artifacts.apis.io/shipbob/openapi/shipbob-subpackage-channels-api-openapi.yml
 - filename: shipbob-subpackage-inventory-api-openapi.yml
   format: yaml
   label: ShipBob Subpackage Inventory API
   slug: shipbob-subpackage-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipbob/refs/heads/main/openapi/shipbob-subpackage-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/shipbob/openapi/shipbob-subpackage-inventory-api-openapi.yml
 - filename: shipbob-subpackage-locations-api-openapi.yml
   format: yaml
   label: ShipBob Subpackage Locations API
   slug: shipbob-subpackage-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipbob/refs/heads/main/openapi/shipbob-subpackage-locations-api-openapi.yml
+  url: https://artifacts.apis.io/shipbob/openapi/shipbob-subpackage-locations-api-openapi.yml
 - filename: shipbob-subpackage-orders-api-openapi.yml
   format: yaml
   label: ShipBob Subpackage Orders API
   slug: shipbob-subpackage-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipbob/refs/heads/main/openapi/shipbob-subpackage-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shipbob/openapi/shipbob-subpackage-orders-api-openapi.yml
 - filename: shipbob-subpackage-products-api-openapi.yml
   format: yaml
   label: ShipBob Subpackage Products API
   slug: shipbob-subpackage-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipbob/refs/heads/main/openapi/shipbob-subpackage-products-api-openapi.yml
+  url: https://artifacts.apis.io/shipbob/openapi/shipbob-subpackage-products-api-openapi.yml
 - filename: shipbob-subpackage-receiving-api-openapi.yml
   format: yaml
   label: ShipBob Subpackage Receiving API
   slug: shipbob-subpackage-receiving-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipbob/refs/heads/main/openapi/shipbob-subpackage-receiving-api-openapi.yml
+  url: https://artifacts.apis.io/shipbob/openapi/shipbob-subpackage-receiving-api-openapi.yml
 - filename: shipbob-subpackage-returns-api-openapi.yml
   format: yaml
   label: ShipBob Subpackage Returns API
   slug: shipbob-subpackage-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipbob/refs/heads/main/openapi/shipbob-subpackage-returns-api-openapi.yml
+  url: https://artifacts.apis.io/shipbob/openapi/shipbob-subpackage-returns-api-openapi.yml
 - filename: shipbob-subpackage-simulations-api-openapi.yml
   format: yaml
   label: ShipBob Subpackage Simulations API
   slug: shipbob-subpackage-simulations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipbob/refs/heads/main/openapi/shipbob-subpackage-simulations-api-openapi.yml
+  url: https://artifacts.apis.io/shipbob/openapi/shipbob-subpackage-simulations-api-openapi.yml
 - filename: shipbob-subpackage-webhooks-api-openapi.yml
   format: yaml
   label: ShipBob Subpackage Webhooks API
   slug: shipbob-subpackage-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipbob/refs/heads/main/openapi/shipbob-subpackage-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/shipbob/openapi/shipbob-subpackage-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -88,7 +88,7 @@ source_filename: shipbob-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/shipbob-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: PAT\n  type: http\n  scheme: bearer\n  description: Authentication using Personal Access Token (PAT) token or OAuth2\n  sources:\n  - openapi/shipbob-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shipbob/refs/heads/main/authentication/shipbob-authentication.yml
+source_yaml_url: https://artifacts.apis.io/shipbob/authentication/shipbob-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Logistics

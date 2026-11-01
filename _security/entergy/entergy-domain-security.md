@@ -27,7 +27,7 @@ source_filename: entergy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.entergy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 16:18:48 2026 GMT\n  hsts: null\ndomains:\n- domain: entergy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/entergy/refs/heads/main/security/entergy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/entergy/security/entergy-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Electricity

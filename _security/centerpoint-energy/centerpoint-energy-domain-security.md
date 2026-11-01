@@ -42,7 +42,7 @@ source_filename: centerpoint-energy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.centerpointenergy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 19 22:49:58 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.smartmetertexas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 03:58:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: services.smartmetertexas.net\n  https: false\ndomains:\n- domain: centerpointenergy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: smartmetertexas.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/centerpoint-energy/refs/heads/main/security/centerpoint-energy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/centerpoint-energy/security/centerpoint-energy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - EDI

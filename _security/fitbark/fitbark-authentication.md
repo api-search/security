@@ -7,31 +7,31 @@ api_specs:
   label: FitBark Activity API
   slug: fitbark-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/openapi/fitbark-activity-api-openapi.yml
+  url: https://artifacts.apis.io/fitbark/openapi/fitbark-activity-api-openapi.yml
 - filename: fitbark-dog-api-openapi.yml
   format: yaml
   label: FitBark Dog API
   slug: fitbark-dog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/openapi/fitbark-dog-api-openapi.yml
+  url: https://artifacts.apis.io/fitbark/openapi/fitbark-dog-api-openapi.yml
 - filename: fitbark-goals-api-openapi.yml
   format: yaml
   label: FitBark Goals API
   slug: fitbark-goals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/openapi/fitbark-goals-api-openapi.yml
+  url: https://artifacts.apis.io/fitbark/openapi/fitbark-goals-api-openapi.yml
 - filename: fitbark-user-api-openapi.yml
   format: yaml
   label: FitBark User API
   slug: fitbark-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/openapi/fitbark-user-api-openapi.yml
+  url: https://artifacts.apis.io/fitbark/openapi/fitbark-user-api-openapi.yml
 - filename: fitbark-oauth-api-openapi.yml
   format: yaml
   label: FitBark O Auth API
   slug: fitbark-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/openapi/fitbark-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/fitbark/openapi/fitbark-oauth-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -74,7 +74,7 @@ source_filename: fitbark-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/fitbark-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth 2.0 user access token (Bearer) obtained from /oauth/token\n  sources:\n  - openapi/fitbark-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.fitbark.com/oauth/authorize\n    tokenUrl: https://app.fitbark.com/oauth/token\n    scopes: 1\n  - flow: clientCredentials\n    tokenUrl: https://app.fitbark.com/oauth/token\n    scopes: 1\n  description: FitBark OAuth 2.0\n  sources:\n  - openapi/fitbark-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/authentication/fitbark-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fitbark/authentication/fitbark-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

@@ -7,67 +7,67 @@ api_specs:
   label: Dispatch Appointments API
   slug: dispatch-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/openapi/dispatch-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/dispatch/openapi/dispatch-appointments-api-openapi.yml
 - filename: dispatch-authentication-api-openapi.yml
   format: yaml
   label: Dispatch Authentication API
   slug: dispatch-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/openapi/dispatch-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/dispatch/openapi/dispatch-authentication-api-openapi.yml
 - filename: dispatch-brands-api-openapi.yml
   format: yaml
   label: Dispatch Brands API
   slug: dispatch-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/openapi/dispatch-brands-api-openapi.yml
+  url: https://artifacts.apis.io/dispatch/openapi/dispatch-brands-api-openapi.yml
 - filename: dispatch-customers-api-openapi.yml
   format: yaml
   label: Dispatch Customers API
   slug: dispatch-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/openapi/dispatch-customers-api-openapi.yml
+  url: https://artifacts.apis.io/dispatch/openapi/dispatch-customers-api-openapi.yml
 - filename: dispatch-files-api-openapi.yml
   format: yaml
   label: Dispatch Files API
   slug: dispatch-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/openapi/dispatch-files-api-openapi.yml
+  url: https://artifacts.apis.io/dispatch/openapi/dispatch-files-api-openapi.yml
 - filename: dispatch-jobs-api-openapi.yml
   format: yaml
   label: Dispatch Jobs API
   slug: dispatch-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/openapi/dispatch-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/dispatch/openapi/dispatch-jobs-api-openapi.yml
 - filename: dispatch-organizations-api-openapi.yml
   format: yaml
   label: Dispatch Organizations API
   slug: dispatch-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/openapi/dispatch-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/dispatch/openapi/dispatch-organizations-api-openapi.yml
 - filename: dispatch-sources-api-openapi.yml
   format: yaml
   label: Dispatch Sources API
   slug: dispatch-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/openapi/dispatch-sources-api-openapi.yml
+  url: https://artifacts.apis.io/dispatch/openapi/dispatch-sources-api-openapi.yml
 - filename: dispatch-survey-responses-api-openapi.yml
   format: yaml
   label: Dispatch Survey Responses API
   slug: dispatch-survey-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/openapi/dispatch-survey-responses-api-openapi.yml
+  url: https://artifacts.apis.io/dispatch/openapi/dispatch-survey-responses-api-openapi.yml
 - filename: dispatch-users-api-openapi.yml
   format: yaml
   label: Dispatch Users API
   slug: dispatch-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/openapi/dispatch-users-api-openapi.yml
+  url: https://artifacts.apis.io/dispatch/openapi/dispatch-users-api-openapi.yml
 - filename: dispatch-work-orders-api-openapi.yml
   format: yaml
   label: Dispatch Work Orders API
   slug: dispatch-work-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/openapi/dispatch-work-orders-api-openapi.yml
+  url: https://artifacts.apis.io/dispatch/openapi/dispatch-work-orders-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -140,10 +140,10 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://github.
   schemes:\n  - name: bearerAuth\n    type: http\n    scheme: bearer\n    description: >-\n      OAuth 2.0 bearer token supplied in the Authorization header. Tokens are temporary;\n      integrations must handle 401 and re-authenticate.\n    sources: [openapi/dispatch-rest-v3-openapi.yml, openapi/dispatch-files-v1-openapi.yml]\n  - name: oauth2\n    type: oauth2\n    token_url: https://api.dispatch.me/v3/oauth/token\n    refresh_url: https://api.dispatch.me/v3/oauth/token\n    sandbox_token_url: https://api-sandbox.dispatch.me/v3/oauth/token\n    scope_count: 0\n    flows:\n      - flow: clientCredentials\n        audience: job sources / networks\n        parameters: [grant_type, client_id, client_secret]\n        description: >-\n          Authenticate as a job source. client_id is the account public key and\n          client_secret the secret key, both issued by Dispatch on signup.\n      - flow: password\n        audience: individual service providers\n        parameters: [grant_type,\
   \ username, password, client_id, client_secret]\n        description: >-\n          Authenticate a single service provider. Dispatch recommends creating a separate\n          user account with the \"dispatcher\" role for the integration so integration\n          actions are distinguishable from real user actions.\n      - flow: refreshToken\n        parameters: [grant_type, refresh_token]\n        description: Exchange the refresh token issued alongside the access token for a new access token.\n    token_response:\n      fields: [access_token, token_type, created_at, expires_in, refresh_token]\n      token_type: bearer\n    sources: [openapi/dispatch-rest-v3-openapi.yml]\naccess_control:\n  model: account-level ACL\n  description: >-\n    A job source has full access to the transactional data it sends to Dispatch (the job\n    and all child objects). Access to organizations, their customers and their dispatchers\n    and technicians depends on the relationship: a first-party network grants\
   \ broader\n    access than a third-party network where the organization already receives work from\n    other sources. A user authenticated as a single service provider has access to all\n    objects within their own organization.\n  roles: [dispatcher, technician]\ncredential_issuance:\n  self_service: false\n  description: Credentials are issued by a Dispatch account manager on signup; there is no self-service key portal.\nrelated:\n  - conventions/dispatch-conventions.yml\n  - errors/dispatch-problem-types.yml\n  - sandbox/dispatch-sandbox.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/authentication/dispatch-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dispatch/authentication/dispatch-authentication.yml
 summary_line: oauth2/http · 2 schemes
 tags:
-- Field Service
+- Field Service Management
 - Service Orchestration
 - Work Orders
 - Scheduling

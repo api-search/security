@@ -7,19 +7,19 @@ api_specs:
   label: Open Liberty Configuration API
   slug: open-liberty-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-liberty/refs/heads/main/openapi/open-liberty-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/open-liberty/openapi/open-liberty-configuration-api-openapi.yml
 - filename: open-liberty-health-api-openapi.yml
   format: yaml
   label: Open Liberty Health API
   slug: open-liberty-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-liberty/refs/heads/main/openapi/open-liberty-health-api-openapi.yml
+  url: https://artifacts.apis.io/open-liberty/openapi/open-liberty-health-api-openapi.yml
 - filename: open-liberty-metrics-api-openapi.yml
   format: yaml
   label: Open Liberty Metrics API
   slug: open-liberty-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-liberty/refs/heads/main/openapi/open-liberty-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/open-liberty/openapi/open-liberty-metrics-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: open-liberty-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/open-liberty-admin.json\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: Admin user credentials configured in server.xml.\n  sources:\n  - openapi/open-liberty-admin.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-liberty/refs/heads/main/authentication/open-liberty-authentication.yml
+source_yaml_url: https://artifacts.apis.io/open-liberty/authentication/open-liberty-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Application Server

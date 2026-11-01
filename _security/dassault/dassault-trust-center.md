@@ -5,37 +5,37 @@ api_specs:
   label: Dassault Systèmes Accreditations API
   slug: dassault-accreditations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-accreditations-api-openapi.yml
+  url: https://artifacts.apis.io/dassault/openapi/dassault-accreditations-api-openapi.yml
 - filename: dassault-leads-opportunities-api-openapi.yml
   format: yaml
   label: Dassault Systèmes Leads Opportunities API
   slug: dassault-leads-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-leads-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/dassault/openapi/dassault-leads-opportunities-api-openapi.yml
 - filename: dassault-orders-api-openapi.yml
   format: yaml
   label: Dassault Systèmes Orders API
   slug: dassault-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-orders-api-openapi.yml
+  url: https://artifacts.apis.io/dassault/openapi/dassault-orders-api-openapi.yml
 - filename: dassault-portfolio-items-api-openapi.yml
   format: yaml
   label: Dassault Systèmes Portfolio Items API
   slug: dassault-portfolio-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-portfolio-items-api-openapi.yml
+  url: https://artifacts.apis.io/dassault/openapi/dassault-portfolio-items-api-openapi.yml
 - filename: dassault-price-lists-api-openapi.yml
   format: yaml
   label: Dassault Systèmes Price Lists API
   slug: dassault-price-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-price-lists-api-openapi.yml
+  url: https://artifacts.apis.io/dassault/openapi/dassault-price-lists-api-openapi.yml
 - filename: dassault-api-keys-api-openapi.yml
   format: yaml
   label: Dassault Systèmes API Keys API
   slug: dassault-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/dassault/openapi/dassault-api-keys-api-openapi.yml
 certification_count: 2
 certifications:
 - ISO 27001
@@ -53,7 +53,7 @@ source_filename: dassault-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.3ds.com/trust-center\nurl: https://www.3ds.com/trust-center\ncertifications:\n- ISO 27001\n- GDPR\nevidence:\n- source: https://www.3ds.com/trust-center\n  keywords:\n  - iso 27001\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/security/dassault-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/dassault/security/dassault-trust-center.yml
 summary_line: ISO 27001, GDPR
 tags:
 - 3DEXPERIENCE

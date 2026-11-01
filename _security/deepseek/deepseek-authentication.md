@@ -7,25 +7,25 @@ api_specs:
   label: DeepSeek Completions API
   slug: deepseek-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepseek/refs/heads/main/openapi/deepseek-completions-api-openapi.yml
+  url: https://artifacts.apis.io/deepseek/openapi/deepseek-completions-api-openapi.yml
 - filename: deepseek-models-api-openapi.yml
   format: yaml
   label: DeepSeek Models API
   slug: deepseek-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepseek/refs/heads/main/openapi/deepseek-models-api-openapi.yml
+  url: https://artifacts.apis.io/deepseek/openapi/deepseek-models-api-openapi.yml
 - filename: deepseek-user-api-openapi.yml
   format: yaml
   label: DeepSeek User API
   slug: deepseek-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepseek/refs/heads/main/openapi/deepseek-user-api-openapi.yml
+  url: https://artifacts.apis.io/deepseek/openapi/deepseek-user-api-openapi.yml
 - filename: deepseek-chat-completions-api-openapi.yml
   format: yaml
   label: DeepSeek Chat Completions API
   slug: deepseek-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepseek/refs/heads/main/openapi/deepseek-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/deepseek/openapi/deepseek-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -53,7 +53,7 @@ source_filename: deepseek-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/deepseek-lists-models-api-openapi.yml, openapi/deepseek-user-balance-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/deepseek-lists-models-api-openapi.yml\n  - openapi/deepseek-user-balance-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deepseek/refs/heads/main/authentication/deepseek-authentication.yml
+source_yaml_url: https://artifacts.apis.io/deepseek/authentication/deepseek-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

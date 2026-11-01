@@ -1,17 +1,23 @@
 ---
 api_specs:
+- filename: helpjuice-openapi-generated.yml
+  format: yaml
+  label: Helpjuice API
+  slug: helpjuice-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/helpjuice/openapi/_ae-authored/helpjuice-openapi-generated.yml
 - filename: helpjuice-categories-api-openapi.yml
   format: yaml
   label: Helpjuice Categories API
   slug: helpjuice-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helpjuice/refs/heads/main/openapi/helpjuice-categories-api-openapi.yml
+  url: https://artifacts.apis.io/helpjuice/openapi/helpjuice-categories-api-openapi.yml
 - filename: helpjuice-questions-api-openapi.yml
   format: yaml
   label: Helpjuice Questions API
   slug: helpjuice-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helpjuice/refs/heads/main/openapi/helpjuice-questions-api-openapi.yml
+  url: https://artifacts.apis.io/helpjuice/openapi/helpjuice-questions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -47,7 +53,7 @@ source_filename: helpjuice-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: helpjuice.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 13 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 2592000\ndomains:\n- domain: helpjuice.com\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/helpjuice/refs/heads/main/security/helpjuice-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/helpjuice/security/helpjuice-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Knowledge Base

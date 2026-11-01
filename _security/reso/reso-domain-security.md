@@ -37,7 +37,7 @@ source_filename: reso-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.reso.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 22:32:13 2026 GMT\n  hsts: false\n- host: tools.reso.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 01:45:49 2026 GMT\n  hsts: false\n- host: services.reso.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  2 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: reso.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reso/refs/heads/main/security/reso-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/reso/security/reso-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Real Estate

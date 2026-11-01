@@ -28,7 +28,7 @@ source_filename: brandywine-realty-trust-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.brandywinerealty.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 01:04:24 2026 GMT\n  hsts: true\n  hsts_max_age: 300\ndomains:\n- domain: brandywinerealty.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brandywine-realty-trust/refs/heads/main/security/brandywine-realty-trust-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/brandywine-realty-trust/security/brandywine-realty-trust-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Commercial Real Estate

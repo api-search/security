@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-08-08'\nmethod: searched\nsource: https://www.bui
   \ 404\n      checked: '2026-08-08'\n  - what: an API key is required on every resource\n    confidence: high\n    basis: >-\n      Unauthenticated GET of the live resource paths returns HTTP 401 with the\n      body {\"success\":false,\"errors\":[{\"code\":\"API_GENERAL\",\"message\":\"Unauthorized:\n      Invalid key\"}]}, while an unknown path on the same host returns a\n      structurally different 404 envelope. The 401 is therefore real\n      authentication, not a catch-all.\n    live_source_status:\n      url: https://developer.builderprime.com/api/employees/v1\n      http_status: 401\n      checked: '2026-08-08'\n\ntenancy:\n  model: subdomain-per-customer\n  description: >-\n    The API host is the customer's own Builder Prime subdomain — the first label\n    of the URL used to sign in to the web app. Builder Prime instructs customers\n    to send that subdomain to the integrating application alongside the secret\n    key, so the tenant is carried by the host rather than by a header\
   \ or a path\n    segment.\n  documented_pattern: https://{subdomain}.builderprime.com\n  example_given_by_provider: https://johnsfloors.builderprime.com\n\npermissions:\n  model: named-permissions-per-key\n  description: >-\n    Keys are scoped by selecting named permissions when the key is generated.\n    Builder Prime does not publish the full permission list on any public page;\n    the values below are the ones named in public material.\n  observed:\n  - name: clients.create\n    description: Create new clients / leads.\n    source: https://www.builderprime.com/blog/open-api-documentation\n    confidence: high\n  - name: employees.read\n    description: Read a single employee and list employees.\n    source: >-\n      Named in the removed knowledge-base article \"Working with Employees\n      through the API\" (live URL now returns 404).\n    confidence: medium\n  complete: false\n  gap: >-\n    Builder Prime publishes no public permissions/scopes reference. The complete\n    list\
   \ of key permissions is visible only inside an authenticated tenant on the\n    Admin > Integrations > Open API screen.\n\noauth2: false\nopenid_connect: false\nmutual_tls: false\nwell_known_discovery: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/builder-prime/refs/heads/main/authentication/builder-prime-authentication.yml
+source_yaml_url: https://artifacts.apis.io/builder-prime/authentication/builder-prime-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company
@@ -68,6 +68,6 @@ tags:
 - Estimating
 - Project Management
 - Lead Management
-- Field Service
+- Field Service Management
 - Software-as-a-Service
 ---

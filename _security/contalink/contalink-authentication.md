@@ -8,49 +8,49 @@ api_specs:
   label: Contalink Balanza de comprobación API
   slug: contalink-balanza-de-comprobaci-n-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-balanza-de-comprobaci-n-api-openapi.yml
+  url: https://artifacts.apis.io/contalink/openapi/contalink-balanza-de-comprobaci-n-api-openapi.yml
 - filename: contalink-cargar-un-documento-fiscal-api-openapi.yml
   format: yaml
   label: Contalink Cargar un documento fiscal API
   slug: contalink-cargar-un-documento-fiscal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-cargar-un-documento-fiscal-api-openapi.yml
+  url: https://artifacts.apis.io/contalink/openapi/contalink-cargar-un-documento-fiscal-api-openapi.yml
 - filename: contalink-conciliaci-n-api-openapi.yml
   format: yaml
   label: Contalink Conciliación API
   slug: contalink-conciliaci-n-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-conciliaci-n-api-openapi.yml
+  url: https://artifacts.apis.io/contalink/openapi/contalink-conciliaci-n-api-openapi.yml
 - filename: contalink-listado-de-documentos-fiscales-api-openapi.yml
   format: yaml
   label: Contalink Listado de documentos fiscales API
   slug: contalink-listado-de-documentos-fiscales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-listado-de-documentos-fiscales-api-openapi.yml
+  url: https://artifacts.apis.io/contalink/openapi/contalink-listado-de-documentos-fiscales-api-openapi.yml
 - filename: contalink-movimientos-bancarios-api-openapi.yml
   format: yaml
   label: Contalink Movimientos bancarios API
   slug: contalink-movimientos-bancarios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-movimientos-bancarios-api-openapi.yml
+  url: https://artifacts.apis.io/contalink/openapi/contalink-movimientos-bancarios-api-openapi.yml
 - filename: contalink-p-lizas-manuales-api-openapi.yml
   format: yaml
   label: Contalink Pólizas manuales API
   slug: contalink-p-lizas-manuales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-p-lizas-manuales-api-openapi.yml
+  url: https://artifacts.apis.io/contalink/openapi/contalink-p-lizas-manuales-api-openapi.yml
 - filename: contalink-saldo-de-una-cuenta-api-openapi.yml
   format: yaml
   label: Contalink Saldo de una cuenta API
   slug: contalink-saldo-de-una-cuenta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-saldo-de-una-cuenta-api-openapi.yml
+  url: https://artifacts.apis.io/contalink/openapi/contalink-saldo-de-una-cuenta-api-openapi.yml
 - filename: contalink-status-de-documentos-fiscales-api-openapi.yml
   format: yaml
   label: Contalink Status de documentos fiscales API
   slug: contalink-status-de-documentos-fiscales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-status-de-documentos-fiscales-api-openapi.yml
+  url: https://artifacts.apis.io/contalink/openapi/contalink-status-de-documentos-fiscales-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -78,7 +78,7 @@ source_filename: contalink-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/contalink-openapi-original.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: APIKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Llave de API relacionada al usuario que hace la petición.\n  sources:\n  - openapi/contalink-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/authentication/contalink-authentication.yml
+source_yaml_url: https://artifacts.apis.io/contalink/authentication/contalink-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

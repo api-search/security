@@ -5,13 +5,13 @@ api_specs:
   label: Cobee by Pluxee Companies API
   slug: cobee-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/openapi/cobee-companies-api-openapi.yml
+  url: https://artifacts.apis.io/cobee/openapi/cobee-companies-api-openapi.yml
 - filename: cobee-oauth-api-openapi.yml
   format: yaml
   label: Cobee by Pluxee OAUTH API
   slug: cobee-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/openapi/cobee-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/cobee/openapi/cobee-oauth-api-openapi.yml
 certification_count: 0
 certifications: []
 description: ''
@@ -27,7 +27,7 @@ source_filename: cobee-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nprobe: true\nurl: https://trust.cobee.io/\nplatform: Vanta\ncertifications: []\nevidence:\n  - source: https://trust.cobee.io/\n    kind: trust-center\n    detail: 'Live \"Cobee by Pluxee Trust Center\" hosted on Vanta (data-environment=prod).'\n  - source: https://cobee.io/en/\n    kind: footer-link\n    detail: 'Homepage footer links \"Security\" to https://trust.cobee.io/.'\nnotes: >-\n  Trust center is a client-rendered Vanta single-page app; the named certification\n  set (e.g. SOC 2 / ISO 27001) was not extractable from the served HTML at capture\n  time and is left empty rather than fabricated. Revisit to enumerate certifications.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/security/cobee-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/cobee/security/cobee-trust-center.yml
 summary_line: trust center published
 tags:
 - Company

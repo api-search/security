@@ -7,19 +7,19 @@ api_specs:
   label: Google BeyondCorp AppConnectors API
   slug: google-beyondcorp-appconnectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-beyondcorp/refs/heads/main/openapi/google-beyondcorp-appconnectors-api-openapi.yml
+  url: https://artifacts.apis.io/google-beyondcorp/openapi/google-beyondcorp-appconnectors-api-openapi.yml
 - filename: google-beyondcorp-securitygateways-api-openapi.yml
   format: yaml
   label: Google BeyondCorp SecurityGateways API
   slug: google-beyondcorp-securitygateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-beyondcorp/refs/heads/main/openapi/google-beyondcorp-securitygateways-api-openapi.yml
+  url: https://artifacts.apis.io/google-beyondcorp/openapi/google-beyondcorp-securitygateways-api-openapi.yml
 - filename: google-beyondcorp-app-connections-api-openapi.yml
   format: yaml
   label: Google BeyondCorp App Connections API
   slug: google-beyondcorp-app-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-beyondcorp/refs/heads/main/openapi/google-beyondcorp-app-connections-api-openapi.yml
+  url: https://artifacts.apis.io/google-beyondcorp/openapi/google-beyondcorp-app-connections-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -50,7 +50,7 @@ source_filename: google-beyondcorp-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/beyondcorp-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 1\n  sources:\n  - openapi/beyondcorp-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-beyondcorp/refs/heads/main/authentication/google-beyondcorp-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-beyondcorp/authentication/google-beyondcorp-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Access Control

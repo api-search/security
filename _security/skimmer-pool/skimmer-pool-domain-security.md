@@ -5,55 +5,55 @@ api_specs:
   label: Skimmer Bodies of Water API
   slug: skimmer-pool-bodies-of-water-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-bodies-of-water-api-openapi.yml
+  url: https://artifacts.apis.io/skimmer-pool/openapi/skimmer-pool-bodies-of-water-api-openapi.yml
 - filename: skimmer-pool-customers-api-openapi.yml
   format: yaml
   label: Skimmer Customers API
   slug: skimmer-pool-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-customers-api-openapi.yml
+  url: https://artifacts.apis.io/skimmer-pool/openapi/skimmer-pool-customers-api-openapi.yml
 - filename: skimmer-pool-invoices-api-openapi.yml
   format: yaml
   label: Skimmer Invoices API
   slug: skimmer-pool-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/skimmer-pool/openapi/skimmer-pool-invoices-api-openapi.yml
 - filename: skimmer-pool-products-api-openapi.yml
   format: yaml
   label: Skimmer Products API
   slug: skimmer-pool-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-products-api-openapi.yml
+  url: https://artifacts.apis.io/skimmer-pool/openapi/skimmer-pool-products-api-openapi.yml
 - filename: skimmer-pool-quotes-api-openapi.yml
   format: yaml
   label: Skimmer Quotes API
   slug: skimmer-pool-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/skimmer-pool/openapi/skimmer-pool-quotes-api-openapi.yml
 - filename: skimmer-pool-routes-api-openapi.yml
   format: yaml
   label: Skimmer Routes API
   slug: skimmer-pool-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-routes-api-openapi.yml
+  url: https://artifacts.apis.io/skimmer-pool/openapi/skimmer-pool-routes-api-openapi.yml
 - filename: skimmer-pool-service-locations-api-openapi.yml
   format: yaml
   label: Skimmer Service Locations API
   slug: skimmer-pool-service-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-service-locations-api-openapi.yml
+  url: https://artifacts.apis.io/skimmer-pool/openapi/skimmer-pool-service-locations-api-openapi.yml
 - filename: skimmer-pool-users-api-openapi.yml
   format: yaml
   label: Skimmer Users API
   slug: skimmer-pool-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-users-api-openapi.yml
+  url: https://artifacts.apis.io/skimmer-pool/openapi/skimmer-pool-users-api-openapi.yml
 - filename: skimmer-pool-work-orders-api-openapi.yml
   format: yaml
   label: Skimmer Work Orders API
   slug: skimmer-pool-work-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-work-orders-api-openapi.yml
+  url: https://artifacts.apis.io/skimmer-pool/openapi/skimmer-pool-work-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -93,11 +93,11 @@ source_filename: skimmer-pool-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.getskimmer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 11:26:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: devportal.getskimmer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 01:47:28 2026 GMT\n  hsts: false\n- host: publicapi.getskimmer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 07:00:48 2026 GMT\n  hsts: null\ndomains:\n- domain: getskimmer.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/security/skimmer-pool-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/skimmer-pool/security/skimmer-pool-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Pool Service
-- Field Service
+- Field Service Management
 - Pool Maintenance
 - Scheduling
 - Routes

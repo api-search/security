@@ -8,37 +8,37 @@ api_specs:
   label: Merit Systems Balances API
   slug: merit-systems-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/merit-systems/refs/heads/main/openapi/merit-systems-balances-api-openapi.yml
+  url: https://artifacts.apis.io/merit-systems/openapi/merit-systems-balances-api-openapi.yml
 - filename: merit-systems-invite-codes-api-openapi.yml
   format: yaml
   label: Merit Systems Invite Codes API
   slug: merit-systems-invite-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/merit-systems/refs/heads/main/openapi/merit-systems-invite-codes-api-openapi.yml
+  url: https://artifacts.apis.io/merit-systems/openapi/merit-systems-invite-codes-api-openapi.yml
 - filename: merit-systems-organizations-api-openapi.yml
   format: yaml
   label: Merit Systems Organizations API
   slug: merit-systems-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/merit-systems/refs/heads/main/openapi/merit-systems-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/merit-systems/openapi/merit-systems-organizations-api-openapi.yml
 - filename: merit-systems-payments-api-openapi.yml
   format: yaml
   label: Merit Systems Payments API
   slug: merit-systems-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/merit-systems/refs/heads/main/openapi/merit-systems-payments-api-openapi.yml
+  url: https://artifacts.apis.io/merit-systems/openapi/merit-systems-payments-api-openapi.yml
 - filename: merit-systems-search-api-openapi.yml
   format: yaml
   label: Merit Systems Search API
   slug: merit-systems-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/merit-systems/refs/heads/main/openapi/merit-systems-search-api-openapi.yml
+  url: https://artifacts.apis.io/merit-systems/openapi/merit-systems-search-api-openapi.yml
 - filename: merit-systems-send-api-openapi.yml
   format: yaml
   label: Merit Systems Send API
   slug: merit-systems-send-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/merit-systems/refs/heads/main/openapi/merit-systems-send-api-openapi.yml
+  url: https://artifacts.apis.io/merit-systems/openapi/merit-systems-send-api-openapi.yml
 auth_types:
 - apiKey
 - x402
@@ -91,7 +91,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource:\n  - https://github.com/merit-systems/sdk/blob/master/api.md\n  - https://agentcash.dev/openapi.json\nsummary:\n  types: [apiKey, x402, mpp, siwx]\n  api_key_in: [header]\n  notes: >-\n    Two distinct auth models across Merit's surfaces. The Merit Systems REST API\n    uses a static API key header. AgentCash uses wallet-based auth: free\n    \"SIWX\" (Sign In With X-chain wallet) endpoints via a signed header, and paid\n    endpoints settled per-call over x402/MPP micropayments (HTTP 402) — no API\n    keys required for paid calls.\nschemes:\n  - name: apiKey\n    api: Merit Systems API\n    type: apiKey\n    in: header\n    parameter: x-api-key\n    source: openapi/merit-systems-merit-api-openapi.yml\n  - name: siwx\n    api: AgentCash\n    type: apiKey\n    in: header\n    parameter: SIGN-IN-WITH-X\n    description: Sign In With X — wallet-based identity header for free AgentCash endpoints (search, invite-codes, organizations).\n\
   \    source: openapi/merit-systems-agentcash-openapi.json\n  - name: x402\n    api: AgentCash\n    type: payment\n    scheme: x402\n    description: >-\n      HTTP-native micropayment protocol. Paid endpoints (e.g. POST /api/send)\n      return 402 Payment Required; the agent's wallet settles the payment in\n      USDC (Base, Solana, or Tempo) inside the same request. No accounts or API\n      keys.\n    networks: [base, solana, tempo]\n    currency: USDC\n  - name: mpp\n    api: AgentCash\n    type: payment\n    scheme: mpp\n    description: Machine Payments Protocol — per-request server payment, alternative rail to x402.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/merit-systems/refs/heads/main/authentication/merit-systems-authentication.yml
+source_yaml_url: https://artifacts.apis.io/merit-systems/authentication/merit-systems-authentication.yml
 summary_line: apiKey/x402/mpp/siwx · 4 schemes
 tags:
 - Company

@@ -29,7 +29,7 @@ source_filename: breederdao-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://docs.sovrun.org/build-with-sovrun/readygamer/readygamer-api\ndocs: https://docs.sovrun.org/build-with-sovrun/readygamer/readygamer-api\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  oauth2_flows: []\n  notes: >-\n    The ReadyGamer API authenticates every request with a custom API key sent in\n    the X-API-Key request header. Keys are issued out-of-band by the ReadyGamer\n    team (access requested via a Google Form); there is no self-serve OAuth or\n    OpenID Connect flow documented. Requests are HTTP POST to\n    https://api.ready-gamer.sovrun.org/api/<game>/<command>/chat.\nschemes:\n- name: ReadyGamerApiKey\n  type: apiKey\n  in: header\n  parameter_name: X-API-Key\n  api: ReadyGamer API\n  sources:\n  - https://docs.sovrun.org/build-with-sovrun/readygamer/readygamer-api\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/breederdao/refs/heads/main/authentication/breederdao-authentication.yml
+source_yaml_url: https://artifacts.apis.io/breederdao/authentication/breederdao-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

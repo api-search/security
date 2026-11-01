@@ -7,13 +7,13 @@ api_specs:
   label: CCH Tagetik Financial Data API
   slug: tagetik-financial-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tagetik/refs/heads/main/openapi/tagetik-financial-data-api-openapi.yml
+  url: https://artifacts.apis.io/tagetik/openapi/tagetik-financial-data-api-openapi.yml
 - filename: tagetik-metadata-api-openapi.yml
   format: yaml
   label: CCH Tagetik Metadata API
   slug: tagetik-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tagetik/refs/heads/main/openapi/tagetik-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/tagetik/openapi/tagetik-metadata-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -50,7 +50,7 @@ source_filename: tagetik-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cch-tagetik-odata-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  description: Basic authentication with CCH Tagetik username and password\n  sources:\n  - openapi/cch-tagetik-odata-openapi.yml\n- name: OAuth2ClientCredentials\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{environment}/oauth2/token\n    scopes: 1\n  sources:\n  - openapi/cch-tagetik-odata-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tagetik/refs/heads/main/authentication/tagetik-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tagetik/authentication/tagetik-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Analytics

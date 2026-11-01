@@ -7,31 +7,31 @@ api_specs:
   label: CMS Blue Button 2.0 Coverage API
   slug: cms-blue-button-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-blue-button/refs/heads/main/openapi/cms-blue-button-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/cms-blue-button/openapi/cms-blue-button-coverage-api-openapi.yml
 - filename: cms-blue-button-explanationofbenefit-api-openapi.yml
   format: yaml
   label: CMS Blue Button 2.0 ExplanationOfBenefit API
   slug: cms-blue-button-explanationofbenefit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-blue-button/refs/heads/main/openapi/cms-blue-button-explanationofbenefit-api-openapi.yml
+  url: https://artifacts.apis.io/cms-blue-button/openapi/cms-blue-button-explanationofbenefit-api-openapi.yml
 - filename: cms-blue-button-metadata-api-openapi.yml
   format: yaml
   label: CMS Blue Button 2.0 Metadata API
   slug: cms-blue-button-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-blue-button/refs/heads/main/openapi/cms-blue-button-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/cms-blue-button/openapi/cms-blue-button-metadata-api-openapi.yml
 - filename: cms-blue-button-patient-api-openapi.yml
   format: yaml
   label: CMS Blue Button 2.0 Patient API
   slug: cms-blue-button-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-blue-button/refs/heads/main/openapi/cms-blue-button-patient-api-openapi.yml
+  url: https://artifacts.apis.io/cms-blue-button/openapi/cms-blue-button-patient-api-openapi.yml
 - filename: cms-blue-button-user-info-api-openapi.yml
   format: yaml
   label: CMS Blue Button 2.0 User Info API
   slug: cms-blue-button-user-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-blue-button/refs/heads/main/openapi/cms-blue-button-user-info-api-openapi.yml
+  url: https://artifacts.apis.io/cms-blue-button/openapi/cms-blue-button-user-info-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -63,7 +63,7 @@ source_filename: cms-blue-button-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cms-blue-button-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.bluebutton.cms.gov/v2/o/authorize/\n    tokenUrl: https://api.bluebutton.cms.gov/v2/o/token/\n    scopes: 6\n  description: OAuth 2.0 authorization-code flow with mandatory PKCE (S256 only). Beneficiaries\n    log in with their Medicare.gov credentials and choose whether to share demographic data.\n    Access tokens expire after 1 hour. One-time-use refresh tokens are issued only to approved\n    13-month and research application types. Sandbox uses https://sandbox.bluebutton.cms.gov/v2/o/authorize/\n    and https://sandbox.bluebutton.cms\n  sources:\n  - openapi/cms-blue-button-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cms-blue-button/refs/heads/main/authentication/cms-blue-button-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cms-blue-button/authentication/cms-blue-button-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Blue Button

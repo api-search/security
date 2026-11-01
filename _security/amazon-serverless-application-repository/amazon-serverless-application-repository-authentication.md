@@ -8,25 +8,31 @@ api_specs:
   label: Amazon Serverless Application Repository Applications API
   slug: amazon-serverless-application-repository-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/openapi/amazon-serverless-application-repository-applications-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-serverless-application-repository/openapi/amazon-serverless-application-repository-applications-api-openapi.yml
 - filename: amazon-serverless-application-repository-changesets-api-openapi.yml
   format: yaml
   label: Amazon Serverless Application Repository Changesets API
   slug: amazon-serverless-application-repository-changesets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/openapi/amazon-serverless-application-repository-changesets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-serverless-application-repository/openapi/amazon-serverless-application-repository-changesets-api-openapi.yml
 - filename: amazon-serverless-application-repository-policies-api-openapi.yml
   format: yaml
   label: Amazon Serverless Application Repository Policies API
   slug: amazon-serverless-application-repository-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/openapi/amazon-serverless-application-repository-policies-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-serverless-application-repository/openapi/amazon-serverless-application-repository-policies-api-openapi.yml
 - filename: amazon-serverless-application-repository-versions-api-openapi.yml
   format: yaml
   label: Amazon Serverless Application Repository Versions API
   slug: amazon-serverless-application-repository-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/openapi/amazon-serverless-application-repository-versions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-serverless-application-repository/openapi/amazon-serverless-application-repository-versions-api-openapi.yml
+- filename: amazon-serverless-application-repository-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Serverless Application Repository Serverless Application Repository Operations API
+  slug: amazon-serverless-application-repository-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-serverless-application-repository/openapi/amazon-serverless-application-repository-operations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +60,7 @@ source_filename: amazon-serverless-application-repository-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-serverless-application-repository-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: AWSSignatureV4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4 authentication\n  sources:\n  - openapi/amazon-serverless-application-repository-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/authentication/amazon-serverless-application-repository-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-serverless-application-repository/authentication/amazon-serverless-application-repository-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Application Repository

@@ -44,7 +44,7 @@ source_filename: intrinsic-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: withintrinsic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 19:24:36 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.intrinsicapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 12:04:46 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.intrinsicapi.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 30 10:35:30 2026 GMT\n  hsts: null\ndomains:\n- domain: withintrinsic.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: intrinsicapi.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intrinsic/refs/heads/main/security/intrinsic-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/intrinsic/security/intrinsic-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

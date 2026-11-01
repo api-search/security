@@ -5,25 +5,25 @@ api_specs:
   label: Halliday Assets API
   slug: halliday-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/openapi/halliday-assets-api-openapi.yml
+  url: https://artifacts.apis.io/halliday/openapi/halliday-assets-api-openapi.yml
 - filename: halliday-chains-api-openapi.yml
   format: yaml
   label: Halliday Chains API
   slug: halliday-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/openapi/halliday-chains-api-openapi.yml
+  url: https://artifacts.apis.io/halliday/openapi/halliday-chains-api-openapi.yml
 - filename: halliday-payments-api-openapi.yml
   format: yaml
   label: Halliday Payments API
   slug: halliday-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/openapi/halliday-payments-api-openapi.yml
+  url: https://artifacts.apis.io/halliday/openapi/halliday-payments-api-openapi.yml
 - filename: halliday-webhooks-api-openapi.yml
   format: yaml
   label: Halliday Webhooks API
   slug: halliday-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/openapi/halliday-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/halliday/openapi/halliday-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: halliday-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: v2.prod.halliday.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 29 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: halliday.xyz\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/security/halliday-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/halliday/security/halliday-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

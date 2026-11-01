@@ -5,19 +5,19 @@ api_specs:
   label: Pixelixe Authentication API
   slug: pixelixe-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixelixe/refs/heads/main/openapi/pixelixe-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/pixelixe/openapi/pixelixe-authentication-api-openapi.yml
 - filename: pixelixe-document-api-openapi.yml
   format: yaml
   label: Pixelixe Document API
   slug: pixelixe-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixelixe/refs/heads/main/openapi/pixelixe-document-api-openapi.yml
+  url: https://artifacts.apis.io/pixelixe/openapi/pixelixe-document-api-openapi.yml
 - filename: pixelixe-graphic-api-openapi.yml
   format: yaml
   label: Pixelixe Graphic API
   slug: pixelixe-graphic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixelixe/refs/heads/main/openapi/pixelixe-graphic-api-openapi.yml
+  url: https://artifacts.apis.io/pixelixe/openapi/pixelixe-graphic-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: pixelixe-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pixelixe.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 04:46:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\n- host: studio.pixelixe.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 23:19:02 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\ndomains:\n- domain: pixelixe.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pixelixe/refs/heads/main/security/pixelixe-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pixelixe/security/pixelixe-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Graphics

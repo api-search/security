@@ -5,19 +5,19 @@ api_specs:
   label: Centauri Systems OAuth API
   slug: centaurisystems-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centaurisystems/refs/heads/main/openapi/centaurisystems-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/centaurisystems/openapi/centaurisystems-oauth-api-openapi.yml
 - filename: centaurisystems-payments-api-openapi.yml
   format: yaml
   label: Centauri Systems Payments API
   slug: centaurisystems-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centaurisystems/refs/heads/main/openapi/centaurisystems-payments-api-openapi.yml
+  url: https://artifacts.apis.io/centaurisystems/openapi/centaurisystems-payments-api-openapi.yml
 - filename: centaurisystems-users-api-openapi.yml
   format: yaml
   label: Centauri Systems Users API
   slug: centaurisystems-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centaurisystems/refs/heads/main/openapi/centaurisystems-users-api-openapi.yml
+  url: https://artifacts.apis.io/centaurisystems/openapi/centaurisystems-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,12 +47,12 @@ source_filename: centaurisystems-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-16'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: centaurisystems.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 18 18:03:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: centaurisystems.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/centaurisystems/refs/heads/main/security/centaurisystems-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/centaurisystems/security/centaurisystems-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Developer-Portal
-- API-Tooling
+- Developer Portal
+- API Tooling
 - Apigee
-- Cloud-Platform
+- Cloud Platform
 ---

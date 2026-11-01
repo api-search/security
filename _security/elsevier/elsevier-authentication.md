@@ -9,181 +9,181 @@ api_specs:
   label: Elsevier Abstract API
   slug: elsevier-abstract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-abstract-api-openapi.yml
+  url: https://artifacts.apis.io/elsevier/openapi/elsevier-abstract-api-openapi.yml
 - filename: elsevier-search-api-openapi.yml
   format: yaml
   label: Elsevier Search API
   slug: elsevier-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-search-api-openapi.yml
+  url: https://artifacts.apis.io/elsevier/openapi/elsevier-search-api-openapi.yml
 - filename: elsevier-abstract-citation-count-api-openapi.yml
   format: yaml
   label: Elsevier Abstract Citation Count API
   slug: elsevier-abstract-citation-count-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-abstract-citation-count-api-openapi.yml
+  url: https://artifacts.apis.io/elsevier/openapi/elsevier-abstract-citation-count-api-openapi.yml
 - filename: elsevier-abstract-retrieval-api-openapi.yml
   format: yaml
   label: Elsevier Abstract Retrieval API
   slug: elsevier-abstract-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-abstract-retrieval-api-openapi.yml
+  url: https://artifacts.apis.io/elsevier/openapi/elsevier-abstract-retrieval-api-openapi.yml
 - filename: elsevier-affiliation-retrieval-api-openapi.yml
   format: yaml
   label: Elsevier Affiliation Retrieval API
   slug: elsevier-affiliation-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-affiliation-retrieval-api-openapi.yml
+  url: https://artifacts.apis.io/elsevier/openapi/elsevier-affiliation-retrieval-api-openapi.yml
 - filename: elsevier-affiliation-search-api-openapi.yml
   format: yaml
   label: Elsevier Affiliation Search API
   slug: elsevier-affiliation-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-affiliation-search-api-openapi.yml
+  url: https://artifacts.apis.io/elsevier/openapi/elsevier-affiliation-search-api-openapi.yml
 - filename: elsevier-article-entitlement-retrieval-api-openapi.yml
   format: yaml
   label: Elsevier Article Entitlement Retrieval API
   slug: elsevier-article-entitlement-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-article-entitlement-retrieval-api-openapi.yml
+  url: https://artifacts.apis.io/elsevier/openapi/elsevier-article-entitlement-retrieval-api-openapi.yml
 - filename: elsevier-article-metadata-api-openapi.yml
   format: yaml
   label: Elsevier Article Metadata API
   slug: elsevier-article-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-article-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/elsevier/openapi/elsevier-article-metadata-api-openapi.yml
 - filename: elsevier-article-retrieval-api-openapi.yml
   format: yaml
   label: Elsevier Article Retrieval API
   slug: elsevier-article-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-article-retrieval-api-openapi.yml
+  url: https://artifacts.apis.io/elsevier/openapi/elsevier-article-retrieval-api-openapi.yml
 - filename: elsevier-author-retrieval-api-openapi.yml
   format: yaml
   label: Elsevier Author Retrieval API
   slug: elsevier-author-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-author-retrieval-api-openapi.yml
+  url: https://artifacts.apis.io/elsevier/openapi/elsevier-author-retrieval-api-openapi.yml
 - filename: elsevier-author-search-api-openapi.yml
   format: yaml
   label: Elsevier Author Search API
   slug: elsevier-author-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-author-search-api-openapi.yml
+  url: https://artifacts.apis.io/elsevier/openapi/elsevier-author-search-api-openapi.yml
 - filename: elsevier-citations-overview-api-openapi.yml
   format: yaml
   label: Elsevier Citations Overview API
   slug: elsevier-citations-overview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-citations-overview-api-openapi.yml
+  url: https://artifacts.apis.io/elsevier/openapi/elsevier-citations-overview-api-openapi.yml
 - filename: elsevier-engineering-village-retrieval-api-openapi.yml
   format: yaml
   label: Elsevier Engineering Village Retrieval API
   slug: elsevier-engineering-village-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-engineering-village-retrieval-api-openapi.yml
+  url: https://artifacts.apis.io/elsevier/openapi/elsevier-engineering-village-retrieval-api-openapi.yml
 - filename: elsevier-engineering-village-search-api-openapi.yml
   format: yaml
   label: Elsevier Engineering Village Search API
   slug: elsevier-engineering-village-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-engineering-village-search-api-openapi.yml
+  url: https://artifacts.apis.io/elsevier/openapi/elsevier-engineering-village-search-api-openapi.yml
 - filename: elsevier-nonserial-title-api-openapi.yml
   format: yaml
   label: Elsevier Nonserial Title API
   slug: elsevier-nonserial-title-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-nonserial-title-api-openapi.yml
+  url: https://artifacts.apis.io/elsevier/openapi/elsevier-nonserial-title-api-openapi.yml
 - filename: elsevier-object-retrieval-api-openapi.yml
   format: yaml
   label: Elsevier Object Retrieval API
   slug: elsevier-object-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-object-retrieval-api-openapi.yml
+  url: https://artifacts.apis.io/elsevier/openapi/elsevier-object-retrieval-api-openapi.yml
 - filename: elsevier-sciencedirect-search-v2-api-openapi.yml
   format: yaml
   label: Elsevier Science Direct Search V2 API
   slug: elsevier-sciencedirect-search-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-sciencedirect-search-v2-api-openapi.yml
+  url: https://artifacts.apis.io/elsevier/openapi/elsevier-sciencedirect-search-v2-api-openapi.yml
 - filename: elsevier-scival-author-lookup-api-api-openapi.yml
   format: yaml
   label: Elsevier SciVal Author Lookup API
   slug: elsevier-scival-author-lookup-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-scival-author-lookup-api-api-openapi.yml
+  url: https://artifacts.apis.io/elsevier/openapi/elsevier-scival-author-lookup-api-api-openapi.yml
 - filename: elsevier-scival-country-group-lookup-api-v1-api-openapi.yml
   format: yaml
   label: Elsevier SciVal Country Group Lookup API V1 API
   slug: elsevier-scival-country-group-lookup-api-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-scival-country-group-lookup-api-v1-api-openapi.yml
+  url: https://artifacts.apis.io/elsevier/openapi/elsevier-scival-country-group-lookup-api-v1-api-openapi.yml
 - filename: elsevier-scival-country-lookup-api-v1-api-openapi.yml
   format: yaml
   label: Elsevier SciVal Country Lookup API V1 API
   slug: elsevier-scival-country-lookup-api-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-scival-country-lookup-api-v1-api-openapi.yml
+  url: https://artifacts.apis.io/elsevier/openapi/elsevier-scival-country-lookup-api-v1-api-openapi.yml
 - filename: elsevier-scival-institution-group-lookup-api-v1-api-openapi.yml
   format: yaml
   label: Elsevier SciVal Institution Group Lookup API V1 API
   slug: elsevier-scival-institution-group-lookup-api-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-scival-institution-group-lookup-api-v1-api-openapi.yml
+  url: https://artifacts.apis.io/elsevier/openapi/elsevier-scival-institution-group-lookup-api-v1-api-openapi.yml
 - filename: elsevier-scival-institution-lookup-api-v1-api-openapi.yml
   format: yaml
   label: Elsevier SciVal Institution Lookup API V1 API
   slug: elsevier-scival-institution-lookup-api-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-scival-institution-lookup-api-v1-api-openapi.yml
+  url: https://artifacts.apis.io/elsevier/openapi/elsevier-scival-institution-lookup-api-v1-api-openapi.yml
 - filename: elsevier-scival-publication-lookup-api-v1-api-openapi.yml
   format: yaml
   label: Elsevier SciVal Publication Lookup API V1 API
   slug: elsevier-scival-publication-lookup-api-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-scival-publication-lookup-api-v1-api-openapi.yml
+  url: https://artifacts.apis.io/elsevier/openapi/elsevier-scival-publication-lookup-api-v1-api-openapi.yml
 - filename: elsevier-scival-scopus-source-lookup-api-api-openapi.yml
   format: yaml
   label: Elsevier SciVal Scopus Source Lookup API
   slug: elsevier-scival-scopus-source-lookup-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-scival-scopus-source-lookup-api-api-openapi.yml
+  url: https://artifacts.apis.io/elsevier/openapi/elsevier-scival-scopus-source-lookup-api-api-openapi.yml
 - filename: elsevier-scival-subject-area-lookup-api-api-openapi.yml
   format: yaml
   label: Elsevier SciVal Subject Area Lookup API
   slug: elsevier-scival-subject-area-lookup-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-scival-subject-area-lookup-api-api-openapi.yml
+  url: https://artifacts.apis.io/elsevier/openapi/elsevier-scival-subject-area-lookup-api-api-openapi.yml
 - filename: elsevier-scival-topic-cluster-lookup-api-api-openapi.yml
   format: yaml
   label: Elsevier SciVal Topic Cluster Lookup API
   slug: elsevier-scival-topic-cluster-lookup-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-scival-topic-cluster-lookup-api-api-openapi.yml
+  url: https://artifacts.apis.io/elsevier/openapi/elsevier-scival-topic-cluster-lookup-api-api-openapi.yml
 - filename: elsevier-scival-topic-lookup-api-api-openapi.yml
   format: yaml
   label: Elsevier SciVal Topic Lookup API
   slug: elsevier-scival-topic-lookup-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-scival-topic-lookup-api-api-openapi.yml
+  url: https://artifacts.apis.io/elsevier/openapi/elsevier-scival-topic-lookup-api-api-openapi.yml
 - filename: elsevier-scival-world-lookup-api-api-openapi.yml
   format: yaml
   label: Elsevier SciVal World Lookup API
   slug: elsevier-scival-world-lookup-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-scival-world-lookup-api-api-openapi.yml
+  url: https://artifacts.apis.io/elsevier/openapi/elsevier-scival-world-lookup-api-api-openapi.yml
 - filename: elsevier-scopus-search-api-openapi.yml
   format: yaml
   label: Elsevier Scopus Search API
   slug: elsevier-scopus-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-scopus-search-api-openapi.yml
+  url: https://artifacts.apis.io/elsevier/openapi/elsevier-scopus-search-api-openapi.yml
 - filename: elsevier-serial-title-api-openapi.yml
   format: yaml
   label: Elsevier Serial Title API
   slug: elsevier-serial-title-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-serial-title-api-openapi.yml
+  url: https://artifacts.apis.io/elsevier/openapi/elsevier-serial-title-api-openapi.yml
 auth_types:
 - apiKey
 - bearer-like-token
@@ -263,7 +263,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: searched\nsource: https://dev.els
   \  how_found: >-\n    https://dev.elsevier.com/apikey/manage returns 302 to\n    https://id.elsevier.com/as/authorization.oauth2 with client_id ELSAPI-PROD and a scope\n    list including urn:idp:policy:product:confirmation:EAPI:emailconfirmation. EAPI is the\n    developer portal. The host was then probed directly.\n  documents:\n  - url: https://id.elsevier.com/.well-known/openid-configuration\n    status: 200\n    file: ../well-known/elsevier-id-openid-configuration.json\n  - url: https://id.elsevier.com/.well-known/oauth-authorization-server\n    status: 200\n    file: ../well-known/elsevier-id-oauth-authorization-server.json\n  - url: https://api.elsevier.com/.well-known/oauth-protected-resource\n    status: 404\n  endpoints:\n    authorization: https://id.elsevier.com/as/authorization.oauth2\n    token: https://id.elsevier.com/as/token.oauth2\n    introspection: https://id.elsevier.com/as/introspect.oauth2\n    revocation: https://id.elsevier.com/as/revoke_token.oauth2\n    userinfo:\
   \ https://id.elsevier.com/idp/userinfo.openid\n    registration: https://id.elsevier.com/as/clients.oauth2\n    device_authorization: https://id.elsevier.com/as/device_authz.oauth2\n    jwks: https://id.elsevier.com/pf/JWKS\n  pkce: [plain, S256]\n  scopes: see scopes/elsevier-scopes.yml\n  scope_count: 35\n  applies_to: >-\n    Elsevier account identity across its web products (ScienceDirect, SciVal, Pure, Mendeley,\n    and the developer portal sign-in). NOT the Research Products APIs on api.elsevier.com,\n    which remain key-plus-entitlement. Do not read this discovery document as an authorization\n    model for the content APIs.\n  weaknesses:\n  - implicit and password grants still advertised\n  - id_token_signing_alg_values_supported includes \"none\"\n  - no oauth-protected-resource document on the API host to link the two\nentitlement:\n  primary: institutional-ip\n  description: >-\n    \"Elsevier Research Products APIs rely primarily on Institutional IP address for\n    authentication.\
   \ API access through proxies is not supported.\" Content returned is scoped\n    to the subscriptions of whichever account the IP resolves to.\n  failure_mode: >-\n    A valid key called from outside the institutional network returns 401/403 with\n    X-ELS-Status AUTHENTICATION_ERROR or an entitlement error — indistinguishable at the status\n    code from a bad key. The X-ELS-Status header is the only thing that separates them.\n  remote_access: Institutional Token (X-ELS-Insttoken), by request only.\nerror_signals:\n  header: X-ELS-Status\n  observed:\n  - value: AUTHENTICATION_ERROR - Invalid API Key\n    status: 401\n    probed: 'https://api.elsevier.com/content/search/scopus?query=heart (no key), 2026-09-06'\n  envelope: '{\"service-error\":{\"status\":{\"statusCode\":\"...\",\"statusText\":\"...\"}}}'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/authentication/elsevier-authentication.yml
+source_yaml_url: https://artifacts.apis.io/elsevier/authentication/elsevier-authentication.yml
 summary_line: apiKey/bearer-like-token/oauth2 · 6 schemes
 tags:
 - Content

@@ -5,25 +5,25 @@ api_specs:
   label: Abortion Policy API Gestational Limits API
   slug: abortion-policy-api-gestational-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abortion-policy-api/refs/heads/main/openapi/abortion-policy-api-gestational-limits-api-openapi.yml
+  url: https://artifacts.apis.io/abortion-policy-api/openapi/abortion-policy-api-gestational-limits-api-openapi.yml
 - filename: abortion-policy-api-insurance-coverage-api-openapi.yml
   format: yaml
   label: Abortion Policy API Insurance Coverage API
   slug: abortion-policy-api-insurance-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abortion-policy-api/refs/heads/main/openapi/abortion-policy-api-insurance-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/abortion-policy-api/openapi/abortion-policy-api-insurance-coverage-api-openapi.yml
 - filename: abortion-policy-api-minors-api-openapi.yml
   format: yaml
   label: Abortion Policy API Minors API
   slug: abortion-policy-api-minors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abortion-policy-api/refs/heads/main/openapi/abortion-policy-api-minors-api-openapi.yml
+  url: https://artifacts.apis.io/abortion-policy-api/openapi/abortion-policy-api-minors-api-openapi.yml
 - filename: abortion-policy-api-waiting-periods-api-openapi.yml
   format: yaml
   label: Abortion Policy API Waiting Periods API
   slug: abortion-policy-api-waiting-periods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abortion-policy-api/refs/heads/main/openapi/abortion-policy-api-waiting-periods-api-openapi.yml
+  url: https://artifacts.apis.io/abortion-policy-api/openapi/abortion-policy-api-waiting-periods-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: abortion-policy-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.abortionpolicyapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 12:15:18 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.abortionpolicyapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 23:10:12 2026 GMT\n  hsts: null\ndomains:\n- domain: abortionpolicyapi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abortion-policy-api/refs/heads/main/security/abortion-policy-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/abortion-policy-api/security/abortion-policy-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Abortion

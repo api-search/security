@@ -7,37 +7,37 @@ api_specs:
   label: Trint Export API
   slug: trint-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trint/refs/heads/main/openapi/trint-export-api-openapi.yml
+  url: https://artifacts.apis.io/trint/openapi/trint-export-api-openapi.yml
 - filename: trint-realtime-api-openapi.yml
   format: yaml
   label: Trint Realtime API
   slug: trint-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trint/refs/heads/main/openapi/trint-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/trint/openapi/trint-realtime-api-openapi.yml
 - filename: trint-transcripts-and-files-api-openapi.yml
   format: yaml
   label: Trint Transcripts and Files API
   slug: trint-transcripts-and-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trint/refs/heads/main/openapi/trint-transcripts-and-files-api-openapi.yml
+  url: https://artifacts.apis.io/trint/openapi/trint-transcripts-and-files-api-openapi.yml
 - filename: trint-translations-api-openapi.yml
   format: yaml
   label: Trint Translations API
   slug: trint-translations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trint/refs/heads/main/openapi/trint-translations-api-openapi.yml
+  url: https://artifacts.apis.io/trint/openapi/trint-translations-api-openapi.yml
 - filename: trint-upload-and-transcribe-api-openapi.yml
   format: yaml
   label: Trint Upload and Transcribe API
   slug: trint-upload-and-transcribe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trint/refs/heads/main/openapi/trint-upload-and-transcribe-api-openapi.yml
+  url: https://artifacts.apis.io/trint/openapi/trint-upload-and-transcribe-api-openapi.yml
 - filename: trint-webhooks-api-openapi.yml
   format: yaml
   label: Trint Webhooks API
   slug: trint-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trint/refs/heads/main/openapi/trint-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/trint/openapi/trint-webhooks-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -72,7 +72,7 @@ source_filename: trint-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/trint-openapi.yml\nsummary:\n  types:\n  - http\n  - apiKey\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/trint-openapi.yml\n  notes: >-\n    Recommended. HTTP Basic using the API Key ID as username and API Key Secret\n    as password, Base64-encoded in the Authorization header.\n- name: legacyApiKey\n  type: apiKey\n  in: header\n  keyName: api-key\n  sources:\n  - openapi/trint-openapi.yml\n  notes: Legacy authentication - the legacy key value is sent in the api-key header.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trint/refs/heads/main/authentication/trint-authentication.yml
+source_yaml_url: https://artifacts.apis.io/trint/authentication/trint-authentication.yml
 summary_line: http/apiKey · 2 schemes
 tags:
 - Audio Transcription

@@ -5,7 +5,7 @@ api_specs:
   label: EigenDA
   slug: eigenda
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eigenlayer/refs/heads/main/asyncapi/eigenlayer-streaming-asyncapi.yml
+  url: https://artifacts.apis.io/eigenlayer/asyncapi/eigenlayer-streaming-asyncapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: eigenlayer-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.eigenlayer.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 08:27:56 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: www.eigencloud.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 19:07:07 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.eigencloud.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 19:07:07 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: eigenlayer.xyz\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: eigencloud.xyz\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eigenlayer/refs/heads/main/security/eigenlayer-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/eigenlayer/security/eigenlayer-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Restaking

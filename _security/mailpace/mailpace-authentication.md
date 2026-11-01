@@ -8,19 +8,19 @@ api_specs:
   label: MailPace API Tokens API
   slug: mailpace-api-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailpace/refs/heads/main/openapi/mailpace-api-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/mailpace/openapi/mailpace-api-tokens-api-openapi.yml
 - filename: mailpace-domains-api-openapi.yml
   format: yaml
   label: MailPace Domains API
   slug: mailpace-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailpace/refs/heads/main/openapi/mailpace-domains-api-openapi.yml
+  url: https://artifacts.apis.io/mailpace/openapi/mailpace-domains-api-openapi.yml
 - filename: mailpace-send-api-openapi.yml
   format: yaml
   label: MailPace Send API
   slug: mailpace-send-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailpace/refs/heads/main/openapi/mailpace-send-api-openapi.yml
+  url: https://artifacts.apis.io/mailpace/openapi/mailpace-send-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -55,7 +55,7 @@ source_filename: mailpace-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/mailpace-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ServerToken\n  type: apiKey\n  in: header\n  parameter: MailPace-Server-Token\n  description: Per-domain server token used to authenticate send requests.\n  sources:\n  - openapi/mailpace-openapi.yml\n- name: OrganizationToken\n  type: apiKey\n  in: header\n  parameter: MailPace-Organization-Token\n  description: Organization token used to authenticate domain and token management.\n  sources:\n  - openapi/mailpace-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mailpace/refs/heads/main/authentication/mailpace-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mailpace/authentication/mailpace-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Email

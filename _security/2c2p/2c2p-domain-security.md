@@ -5,43 +5,43 @@ api_specs:
   label: 2C2P Do Payment API
   slug: 2c2p-do-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-do-payment-api-openapi.yml
+  url: https://artifacts.apis.io/2c2p/openapi/2c2p-do-payment-api-openapi.yml
 - filename: 2c2p-exchange-rate-api-openapi.yml
   format: yaml
   label: 2C2P Exchange Rate API
   slug: 2c2p-exchange-rate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-exchange-rate-api-openapi.yml
+  url: https://artifacts.apis.io/2c2p/openapi/2c2p-exchange-rate-api-openapi.yml
 - filename: 2c2p-inquiry-api-openapi.yml
   format: yaml
   label: 2C2P Inquiry API
   slug: 2c2p-inquiry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-inquiry-api-openapi.yml
+  url: https://artifacts.apis.io/2c2p/openapi/2c2p-inquiry-api-openapi.yml
 - filename: 2c2p-maintenance-api-openapi.yml
   format: yaml
   label: 2C2P Maintenance API
   slug: 2c2p-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/2c2p/openapi/2c2p-maintenance-api-openapi.yml
 - filename: 2c2p-payment-option-api-openapi.yml
   format: yaml
   label: 2C2P Payment Option API
   slug: 2c2p-payment-option-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-payment-option-api-openapi.yml
+  url: https://artifacts.apis.io/2c2p/openapi/2c2p-payment-option-api-openapi.yml
 - filename: 2c2p-payment-token-api-openapi.yml
   format: yaml
   label: 2C2P Payment Token API
   slug: 2c2p-payment-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-payment-token-api-openapi.yml
+  url: https://artifacts.apis.io/2c2p/openapi/2c2p-payment-token-api-openapi.yml
 - filename: 2c2p-tokens-api-openapi.yml
   format: yaml
   label: 2C2P Tokens API
   slug: 2c2p-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/2c2p/openapi/2c2p-tokens-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -128,7 +128,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + PGW API hosts\nhosts:\n- host: 2c2p.com\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: GlobalSign RSA OV SSL CA 2018\n  cert_expires: Oct 18 03:00:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  hsts_preload: true\n  http_status: 200\n- host: www.2c2p.com\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: GlobalSign RSA OV SSL CA 2018\n  cert_expires: Oct 18 03:00:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  hsts_preload: true\n  http_status: 301\n- host: developer.2c2p.com\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: Let's Encrypt (YE2)\n  cert_expires: Sep 23 13:01:55 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: false\n  http_status: 302\n- host: pgw.2c2p.com\n  https: true\n  tls_version: TLSv1.2\n  cert_issuer: GlobalSign RSA OV SSL CA 2018\n  cert_expires:\
   \ Oct 18 03:00:23 2026 GMT\n  hsts: false\n  http_status: 403\n  note: Production PGW API host. Returns 403 to unauthenticated GET; expects signed JWT POST to /payment/4.3/* endpoints.\n- host: sandbox-pgw.2c2p.com\n  https: true\n  tls_version: TLSv1.2\n  cert_issuer: GlobalSign RSA OV SSL CA 2018\n  cert_expires: Oct 18 03:00:23 2026 GMT\n  hsts: false\n  http_status: 403\n  note: Sandbox PGW API host. Returns 403 to unauthenticated GET; expects signed JWT POST.\ndomains:\n- domain: 2c2p.com\n  dnssec: false\n  caa:\n  - '0 issue \"digicert.com\"'\n  - '0 issue \"entrust.net\"'\n  - '0 issue \"geotrust.com\"'\n  - '0 issue \"globalsign.com\"'\n  - '0 issue \"letsencrypt.org\"'\n  - '0 issue \"rapidssl.com\"'\n  - '0 issue \"sectigo.com\"'\n  - '0 issue \"securetrust.com\"'\n  - '0 issue \"symantec.com\"'\n  - '0 issue \"thaidigitalid.com\"'\n  - '0 issue \"thawte.com\"'\n  - '0 issue \"visa.com\"'\n  - '0 issue \"amazon.com\"'\n  - '0 issue \"comodoca.com\"'\n  spf: true\n  spf_record:\
   \ v=spf1 include:_spf.google.com include:mail.zendesk.com include:sendgrid.net include:amazonses.com include:44900109.spf01.hubspotemail.net ~all\n  dmarc: true\n  dmarc_policy: quarantine\n  dmarc_pct: 25\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/security/2c2p-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/2c2p/security/2c2p-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments

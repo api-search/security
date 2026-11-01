@@ -5,7 +5,7 @@ api_specs:
   label: Princess Beef Heavy Industries Product API
   slug: princess-beef-heavy-industries-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/princess-beef-heavy-industries/refs/heads/main/openapi/princess-beef-heavy-industries-product-api-openapi.yml
+  url: https://artifacts.apis.io/princess-beef-heavy-industries/openapi/princess-beef-heavy-industries-product-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,7 +38,7 @@ source_filename: princess-beef-heavy-industries-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pb33f.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 23:59:59 2026 GMT\n  hsts: false\n- host: api.pb33f.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 02:27:43 2026 GMT\n  hsts: null\ndomains:\n- domain: pb33f.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/princess-beef-heavy-industries/refs/heads/main/security/princess-beef-heavy-industries-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/princess-beef-heavy-industries/security/princess-beef-heavy-industries-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Commerce

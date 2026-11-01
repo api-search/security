@@ -5,13 +5,13 @@ api_specs:
   label: Simon Data Contacts API
   slug: simon-data-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/openapi/simon-data-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/simon-data/openapi/simon-data-contacts-api-openapi.yml
 - filename: simon-data-events-api-openapi.yml
   format: yaml
   label: Simon Data Events API
   slug: simon-data-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/openapi/simon-data-events-api-openapi.yml
+  url: https://artifacts.apis.io/simon-data/openapi/simon-data-events-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: simon-data-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.simon.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 20:46:55 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.simondata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 22:57:11 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.simondata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 15 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: simon.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: simondata.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/security/simon-data-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/simon-data/security/simon-data-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Customer Data Platform

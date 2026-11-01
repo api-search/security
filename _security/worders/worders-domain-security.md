@@ -5,43 +5,43 @@ api_specs:
   label: Worders Customers API
   slug: worders-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-customers-api-openapi.yml
+  url: https://artifacts.apis.io/worders/openapi/worders-customers-api-openapi.yml
 - filename: worders-freelancers-api-openapi.yml
   format: yaml
   label: Worders Freelancers API
   slug: worders-freelancers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-freelancers-api-openapi.yml
+  url: https://artifacts.apis.io/worders/openapi/worders-freelancers-api-openapi.yml
 - filename: worders-invoices-api-openapi.yml
   format: yaml
   label: Worders Invoices API
   slug: worders-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/worders/openapi/worders-invoices-api-openapi.yml
 - filename: worders-orders-api-openapi.yml
   format: yaml
   label: Worders Orders API
   slug: worders-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-orders-api-openapi.yml
+  url: https://artifacts.apis.io/worders/openapi/worders-orders-api-openapi.yml
 - filename: worders-quotes-api-openapi.yml
   format: yaml
   label: Worders Quotes API
   slug: worders-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/worders/openapi/worders-quotes-api-openapi.yml
 - filename: worders-templates-api-openapi.yml
   format: yaml
   label: Worders Templates API
   slug: worders-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-templates-api-openapi.yml
+  url: https://artifacts.apis.io/worders/openapi/worders-templates-api-openapi.yml
 - filename: worders-purchase-orders-api-openapi.yml
   format: yaml
   label: Worders Purchase Orders API
   slug: worders-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/worders/openapi/worders-purchase-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: worders-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: worders.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 00:45:05 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.worders.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 05:19:03 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: worders.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/security/worders-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/worders/security/worders-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

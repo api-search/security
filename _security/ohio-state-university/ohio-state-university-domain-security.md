@@ -5,13 +5,13 @@ api_specs:
   label: Ohio State University Classes API
   slug: ohio-state-university-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ohio-state-university/refs/heads/main/openapi/ohio-state-university-classes-api-openapi.yml
+  url: https://artifacts.apis.io/ohio-state-university/openapi/ohio-state-university-classes-api-openapi.yml
 - filename: ohio-state-university-events-api-openapi.yml
   format: yaml
   label: Ohio State University Events API
   slug: ohio-state-university-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ohio-state-university/refs/heads/main/openapi/ohio-state-university-events-api-openapi.yml
+  url: https://artifacts.apis.io/ohio-state-university/openapi/ohio-state-university-events-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: ohio-state-university-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.osu.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15768000\n- host: library.osu.edu\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar 11 23:59:59 2027 GMT\n  hsts: false\n- host: kb.osu.edu\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 14 23:08:08 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: osu.edu\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ohio-state-university/refs/heads/main/security/ohio-state-university-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ohio-state-university/security/ohio-state-university-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - University

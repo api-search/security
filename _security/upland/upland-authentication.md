@@ -7,103 +7,103 @@ api_specs:
   label: Upland Accounts API
   slug: upland-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/upland/openapi/upland-accounts-api-openapi.yml
 - filename: upland-application-usage-api-openapi.yml
   format: yaml
   label: Upland Application Usage API
   slug: upland-application-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-application-usage-api-openapi.yml
+  url: https://artifacts.apis.io/upland/openapi/upland-application-usage-api-openapi.yml
 - filename: upland-authentication-api-openapi.yml
   format: yaml
   label: Upland Authentication API
   slug: upland-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/upland/openapi/upland-authentication-api-openapi.yml
 - filename: upland-chain-api-openapi.yml
   format: yaml
   label: Upland Chain API
   slug: upland-chain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-chain-api-openapi.yml
+  url: https://artifacts.apis.io/upland/openapi/upland-chain-api-openapi.yml
 - filename: upland-dev-shops-api-openapi.yml
   format: yaml
   label: Upland Dev Shops API
   slug: upland-dev-shops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-dev-shops-api-openapi.yml
+  url: https://artifacts.apis.io/upland/openapi/upland-dev-shops-api-openapi.yml
 - filename: upland-escrow-containers-api-openapi.yml
   format: yaml
   label: Upland Escrow Containers API
   slug: upland-escrow-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-escrow-containers-api-openapi.yml
+  url: https://artifacts.apis.io/upland/openapi/upland-escrow-containers-api-openapi.yml
 - filename: upland-generic-api-openapi.yml
   format: yaml
   label: Upland Generic API
   slug: upland-generic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-generic-api-openapi.yml
+  url: https://artifacts.apis.io/upland/openapi/upland-generic-api-openapi.yml
 - filename: upland-history-api-openapi.yml
   format: yaml
   label: Upland History API
   slug: upland-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-history-api-openapi.yml
+  url: https://artifacts.apis.io/upland/openapi/upland-history-api-openapi.yml
 - filename: upland-hyperion-history-api-for-upland-chain-api-openapi.yml
   format: yaml
   label: Upland Hyperion History API For UPLAND Chain API
   slug: upland-hyperion-history-api-for-upland-chain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-hyperion-history-api-for-upland-chain-api-openapi.yml
+  url: https://artifacts.apis.io/upland/openapi/upland-hyperion-history-api-for-upland-chain-api-openapi.yml
 - filename: upland-internal-api-openapi.yml
   format: yaml
   label: Upland Internal API
   slug: upland-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-internal-api-openapi.yml
+  url: https://artifacts.apis.io/upland/openapi/upland-internal-api-openapi.yml
 - filename: upland-node-api-openapi.yml
   format: yaml
   label: Upland Node API
   slug: upland-node-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-node-api-openapi.yml
+  url: https://artifacts.apis.io/upland/openapi/upland-node-api-openapi.yml
 - filename: upland-state-api-openapi.yml
   format: yaml
   label: Upland State API
   slug: upland-state-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-state-api-openapi.yml
+  url: https://artifacts.apis.io/upland/openapi/upland-state-api-openapi.yml
 - filename: upland-stats-api-openapi.yml
   format: yaml
   label: Upland Stats API
   slug: upland-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-stats-api-openapi.yml
+  url: https://artifacts.apis.io/upland/openapi/upland-stats-api-openapi.yml
 - filename: upland-status-api-openapi.yml
   format: yaml
   label: Upland Status API
   slug: upland-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-status-api-openapi.yml
+  url: https://artifacts.apis.io/upland/openapi/upland-status-api-openapi.yml
 - filename: upland-system-api-openapi.yml
   format: yaml
   label: Upland System API
   slug: upland-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-system-api-openapi.yml
+  url: https://artifacts.apis.io/upland/openapi/upland-system-api-openapi.yml
 - filename: upland-tournaments-api-openapi.yml
   format: yaml
   label: Upland Tournaments API
   slug: upland-tournaments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-tournaments-api-openapi.yml
+  url: https://artifacts.apis.io/upland/openapi/upland-tournaments-api-openapi.yml
 - filename: upland-upland-user-api-openapi.yml
   format: yaml
   label: Upland Upland User API
   slug: upland-upland-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-upland-user-api-openapi.yml
+  url: https://artifacts.apis.io/upland/openapi/upland-upland-user-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -151,7 +151,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: searched\nsource: https://docs.de
   application_registration:\n  gate: approval\n  steps:\n  - Register a developer account and connect an Upland account; Upland runs a verification process taking up to 5 business days.\n  - Create an application supplying name, logo, description, container expiration time in hours, webhook URL, webhook access token and scope.\n  - Submit the application for review via the published ClickUp form; approval is required before production use.\n  - Register a Dev Shop (an owned Upland property with a qualifying construction) for production applications.\n  application_scopes:\n    note: >-\n      The application creation form exposes a fixed \"Scope\" field. Upland's documentation states the\n      only options are \"Read\" and \"Assets Transfer\". These are product-level application permissions\n      set in the Developers Portal, NOT OAuth scopes — they are not requested per token, not present\n      in the OpenAPI, and have no scope parameter on any operation.\n    values:\n    - Read\n \
   \   - Assets Transfer\n    source: https://docs.developers.upland.me/upland-developers/application-management/third-party-applications\n  docs: https://docs.developers.upland.me/upland-developers/application-management/submitting-an-application\nwebhook_authentication:\n  direction: Upland -> application\n  mechanism: >-\n    The developer supplies a Webhook URL and a Webhook Access Token when creating the application.\n    Upland presents that token on the notifications it POSTs, so the application can authenticate\n    inbound calls. Upland does not publish a signature scheme (no HMAC header is documented).\n  source: https://docs.developers.upland.me/upland-developers/application-management/third-party-applications\ndelegation:\n  name: Permission Delegation\n  status: alpha, opt-in by request\n  effect: >-\n    When enabled for a developer account, Upland can sign asset transfers on the developer's behalf,\n    removing the per-transaction manual signature. It enables the alternate\
   \ operation\n    POST /containers/{containerId}/join (EscrowController_putAssetsInEscrowContainerWithPermissionDelegation),\n    which takes App ID + Secret Key only and does not require the developer's EOS ID.\n  docs: https://docs.developers.upland.me/upland-developers/application-management/permission-delegation\ngaps:\n- No OAuth 2.0 or OpenID Connect. /.well-known/oauth-authorization-server, /.well-known/oauth-protected-resource and /.well-known/openid-configuration all miss on every Upland host.\n- No published token lifetime, expiry or refresh mechanism for the player Bearer JWT.\n- No documented webhook signature (HMAC/JWS); inbound authenticity rests on a shared bearer token the developer chooses.\n- No mTLS, no API-key header scheme, no key-prefix convention.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/authentication/upland-authentication.yml
+source_yaml_url: https://artifacts.apis.io/upland/authentication/upland-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Metaverse

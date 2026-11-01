@@ -5,7 +5,7 @@ api_specs:
   label: HTX Spot REST API
   slug: htx-spot-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/htx/refs/heads/main/asyncapi/htx-websocket-asyncapi.yml
+  url: https://artifacts.apis.io/htx/asyncapi/htx-websocket-asyncapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,7 +50,7 @@ source_filename: htx-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: htx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 08:41:35 2026 GMT\n  hsts: false\n- host: www.htx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 08:32:28 2026 GMT\n  hsts: false\n- host: api.huobi.pro\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 29 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: htx.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: huobi.pro\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/htx/refs/heads/main/security/htx-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/htx/security/htx-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

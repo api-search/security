@@ -39,7 +39,7 @@ source_filename: corner-therapeutics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nasdaqprivatemarket.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 21 07:53:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: cornertx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 15:16:01 2026 GMT\n  hsts: false\ndomains:\n- domain: nasdaqprivatemarket.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: cornertx.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/corner-therapeutics/refs/heads/main/security/corner-therapeutics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/corner-therapeutics/security/corner-therapeutics-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Biotechnology

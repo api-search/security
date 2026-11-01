@@ -5,19 +5,19 @@ api_specs:
   label: Credgenics Authentication API
   slug: credgenics-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credgenics/refs/heads/main/openapi/credgenics-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/credgenics/openapi/credgenics-authentication-api-openapi.yml
 - filename: credgenics-credit-line-api-openapi.yml
   format: yaml
   label: Credgenics Credit Line API
   slug: credgenics-credit-line-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credgenics/refs/heads/main/openapi/credgenics-credit-line-api-openapi.yml
+  url: https://artifacts.apis.io/credgenics/openapi/credgenics-credit-line-api-openapi.yml
 - filename: credgenics-lending-api-openapi.yml
   format: yaml
   label: Credgenics Lending API
   slug: credgenics-lending-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credgenics/refs/heads/main/openapi/credgenics-lending-api-openapi.yml
+  url: https://artifacts.apis.io/credgenics/openapi/credgenics-lending-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: credgenics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.credgenics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 18:23:38 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: credgenics.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/credgenics/refs/heads/main/security/credgenics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/credgenics/security/credgenics-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

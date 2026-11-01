@@ -8,37 +8,37 @@ api_specs:
   label: Tithe.ly Accounts API
   slug: tithely-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tithely/refs/heads/main/openapi/tithely-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/tithely/openapi/tithely-accounts-api-openapi.yml
 - filename: tithely-mail-api-openapi.yml
   format: yaml
   label: Tithe.ly Mail API
   slug: tithely-mail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tithely/refs/heads/main/openapi/tithely-mail-api-openapi.yml
+  url: https://artifacts.apis.io/tithely/openapi/tithely-mail-api-openapi.yml
 - filename: tithely-organizations-api-openapi.yml
   format: yaml
   label: Tithe.ly Organizations API
   slug: tithely-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tithely/refs/heads/main/openapi/tithely-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/tithely/openapi/tithely-organizations-api-openapi.yml
 - filename: tithely-payment-categories-api-openapi.yml
   format: yaml
   label: Tithe.ly Payment Categories API
   slug: tithely-payment-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tithely/refs/heads/main/openapi/tithely-payment-categories-api-openapi.yml
+  url: https://artifacts.apis.io/tithely/openapi/tithely-payment-categories-api-openapi.yml
 - filename: tithely-payments-api-openapi.yml
   format: yaml
   label: Tithe.ly Payments API
   slug: tithely-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tithely/refs/heads/main/openapi/tithely-payments-api-openapi.yml
+  url: https://artifacts.apis.io/tithely/openapi/tithely-payments-api-openapi.yml
 - filename: tithely-transactions-api-openapi.yml
   format: yaml
   label: Tithe.ly Transactions API
   slug: tithely-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tithely/refs/heads/main/openapi/tithely-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/tithely/openapi/tithely-transactions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: tithely-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tithely-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'V2 requests use the header \"Authorization: {API_ID}:{API_TOKEN}\", where the\n    ID and token come from the public/private API keys issued on access approval (and via the\n    login endpoint). V1 payment calls use the private key issued on approval.'\n  sources:\n  - openapi/tithely-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tithely/refs/heads/main/authentication/tithely-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tithely/authentication/tithely-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Church Giving

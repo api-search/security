@@ -9,361 +9,361 @@ api_specs:
   label: Matomo Reporting API (index.php entrypoint)
   slug: matomo-index-php-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-index-php-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-index-php-api-openapi.yml
 - filename: matomo-matomo-php-api-openapi.yml
   format: yaml
   label: Matomo Tracking API (matomo.php entrypoint)
   slug: matomo-matomo-php-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-matomo-php-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-matomo-php-api-openapi.yml
 - filename: matomo-actions-api-openapi.yml
   format: yaml
   label: Matomo Actions API
   slug: matomo-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-actions-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-actions-api-openapi.yml
 - filename: matomo-advertisingconversionexport-api-openapi.yml
   format: yaml
   label: Matomo Advertising Conversion Export API
   slug: matomo-advertisingconversionexport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-advertisingconversionexport-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-advertisingconversionexport-api-openapi.yml
 - filename: matomo-annotations-api-openapi.yml
   format: yaml
   label: Matomo Annotations API
   slug: matomo-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-annotations-api-openapi.yml
 - filename: matomo-bandwidth-api-openapi.yml
   format: yaml
   label: Matomo Bandwidth API
   slug: matomo-bandwidth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-bandwidth-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-bandwidth-api-openapi.yml
 - filename: matomo-cohorts-api-openapi.yml
   format: yaml
   label: Matomo Cohorts API
   slug: matomo-cohorts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-cohorts-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-cohorts-api-openapi.yml
 - filename: matomo-contents-api-openapi.yml
   format: yaml
   label: Matomo Contents API
   slug: matomo-contents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-contents-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-contents-api-openapi.yml
 - filename: matomo-coreadminhome-api-openapi.yml
   format: yaml
   label: Matomo Core Admin Home API
   slug: matomo-coreadminhome-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-coreadminhome-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-coreadminhome-api-openapi.yml
 - filename: matomo-crashanalytics-api-openapi.yml
   format: yaml
   label: Matomo Crash Analytics API
   slug: matomo-crashanalytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-crashanalytics-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-crashanalytics-api-openapi.yml
 - filename: matomo-customalerts-api-openapi.yml
   format: yaml
   label: Matomo Custom Alerts API
   slug: matomo-customalerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-customalerts-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-customalerts-api-openapi.yml
 - filename: matomo-customdimensions-api-openapi.yml
   format: yaml
   label: Matomo Custom Dimensions API
   slug: matomo-customdimensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-customdimensions-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-customdimensions-api-openapi.yml
 - filename: matomo-customjstracker-api-openapi.yml
   format: yaml
   label: Matomo Custom Js Tracker API
   slug: matomo-customjstracker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-customjstracker-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-customjstracker-api-openapi.yml
 - filename: matomo-dashboard-api-openapi.yml
   format: yaml
   label: Matomo Dashboard API
   slug: matomo-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-dashboard-api-openapi.yml
 - filename: matomo-deviceplugins-api-openapi.yml
   format: yaml
   label: Matomo Device Plugins API
   slug: matomo-deviceplugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-deviceplugins-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-deviceplugins-api-openapi.yml
 - filename: matomo-devicesdetection-api-openapi.yml
   format: yaml
   label: Matomo Devices Detection API
   slug: matomo-devicesdetection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-devicesdetection-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-devicesdetection-api-openapi.yml
 - filename: matomo-events-api-openapi.yml
   format: yaml
   label: Matomo Events API
   slug: matomo-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-events-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-events-api-openapi.yml
 - filename: matomo-feedback-api-openapi.yml
   format: yaml
   label: Matomo Feedback API
   slug: matomo-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-feedback-api-openapi.yml
 - filename: matomo-formanalytics-api-openapi.yml
   format: yaml
   label: Matomo Form Analytics API
   slug: matomo-formanalytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-formanalytics-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-formanalytics-api-openapi.yml
 - filename: matomo-funnels-api-openapi.yml
   format: yaml
   label: Matomo Funnels API
   slug: matomo-funnels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-funnels-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-funnels-api-openapi.yml
 - filename: matomo-goals-api-openapi.yml
   format: yaml
   label: Matomo Goals API
   slug: matomo-goals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-goals-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-goals-api-openapi.yml
 - filename: matomo-heatmapsessionrecording-api-openapi.yml
   format: yaml
   label: Matomo Heatmap Session Recording API
   slug: matomo-heatmapsessionrecording-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-heatmapsessionrecording-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-heatmapsessionrecording-api-openapi.yml
 - filename: matomo-imagegraph-api-openapi.yml
   format: yaml
   label: Matomo Image Graph API
   slug: matomo-imagegraph-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-imagegraph-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-imagegraph-api-openapi.yml
 - filename: matomo-insights-api-openapi.yml
   format: yaml
   label: Matomo Insights API
   slug: matomo-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-insights-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-insights-api-openapi.yml
 - filename: matomo-languagesmanager-api-openapi.yml
   format: yaml
   label: Matomo Languages Manager API
   slug: matomo-languagesmanager-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-languagesmanager-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-languagesmanager-api-openapi.yml
 - filename: matomo-live-api-openapi.yml
   format: yaml
   label: Matomo Live API
   slug: matomo-live-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-live-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-live-api-openapi.yml
 - filename: matomo-login-api-openapi.yml
   format: yaml
   label: Matomo Login API
   slug: matomo-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-login-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-login-api-openapi.yml
 - filename: matomo-marketingcampaignsreporting-api-openapi.yml
   format: yaml
   label: Matomo Marketing Campaigns Reporting API
   slug: matomo-marketingcampaignsreporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-marketingcampaignsreporting-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-marketingcampaignsreporting-api-openapi.yml
 - filename: matomo-marketplace-api-openapi.yml
   format: yaml
   label: Matomo Marketplace API
   slug: matomo-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-marketplace-api-openapi.yml
 - filename: matomo-mediaanalytics-api-openapi.yml
   format: yaml
   label: Matomo Media Analytics API
   slug: matomo-mediaanalytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-mediaanalytics-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-mediaanalytics-api-openapi.yml
 - filename: matomo-mobilemessaging-api-openapi.yml
   format: yaml
   label: Matomo Mobile Messaging API
   slug: matomo-mobilemessaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-mobilemessaging-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-mobilemessaging-api-openapi.yml
 - filename: matomo-multisites-api-openapi.yml
   format: yaml
   label: Matomo Multi Sites API
   slug: matomo-multisites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-multisites-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-multisites-api-openapi.yml
 - filename: matomo-overlay-api-openapi.yml
   format: yaml
   label: Matomo Overlay API
   slug: matomo-overlay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-overlay-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-overlay-api-openapi.yml
 - filename: matomo-pageperformance-api-openapi.yml
   format: yaml
   label: Matomo Page Performance API
   slug: matomo-pageperformance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-pageperformance-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-pageperformance-api-openapi.yml
 - filename: matomo-privacymanager-api-openapi.yml
   format: yaml
   label: Matomo Privacy Manager API
   slug: matomo-privacymanager-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-privacymanager-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-privacymanager-api-openapi.yml
 - filename: matomo-referrers-api-openapi.yml
   format: yaml
   label: Matomo Referrers API
   slug: matomo-referrers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-referrers-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-referrers-api-openapi.yml
 - filename: matomo-resolution-api-openapi.yml
   format: yaml
   label: Matomo Resolution API
   slug: matomo-resolution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-resolution-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-resolution-api-openapi.yml
 - filename: matomo-rollupreporting-api-openapi.yml
   format: yaml
   label: Matomo Roll Up Reporting API
   slug: matomo-rollupreporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-rollupreporting-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-rollupreporting-api-openapi.yml
 - filename: matomo-searchenginekeywordsperformance-api-openapi.yml
   format: yaml
   label: Matomo Search Engine Keywords Performance API
   slug: matomo-searchenginekeywordsperformance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-searchenginekeywordsperformance-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-searchenginekeywordsperformance-api-openapi.yml
 - filename: matomo-segmenteditor-api-openapi.yml
   format: yaml
   label: Matomo Segment Editor API
   slug: matomo-segmenteditor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-segmenteditor-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-segmenteditor-api-openapi.yml
 - filename: matomo-seo-api-openapi.yml
   format: yaml
   label: Matomo SEO API
   slug: matomo-seo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-seo-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-seo-api-openapi.yml
 - filename: matomo-sitesmanager-api-openapi.yml
   format: yaml
   label: Matomo Sites Manager API
   slug: matomo-sitesmanager-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-sitesmanager-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-sitesmanager-api-openapi.yml
 - filename: matomo-tour-api-openapi.yml
   format: yaml
   label: Matomo Tour API
   slug: matomo-tour-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-tour-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-tour-api-openapi.yml
 - filename: matomo-transitions-api-openapi.yml
   format: yaml
   label: Matomo Transitions API
   slug: matomo-transitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-transitions-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-transitions-api-openapi.yml
 - filename: matomo-usercountry-api-openapi.yml
   format: yaml
   label: Matomo User Country API
   slug: matomo-usercountry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-usercountry-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-usercountry-api-openapi.yml
 - filename: matomo-userid-api-openapi.yml
   format: yaml
   label: Matomo User ID API
   slug: matomo-userid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-userid-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-userid-api-openapi.yml
 - filename: matomo-userlanguage-api-openapi.yml
   format: yaml
   label: Matomo User Language API
   slug: matomo-userlanguage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-userlanguage-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-userlanguage-api-openapi.yml
 - filename: matomo-usersmanager-api-openapi.yml
   format: yaml
   label: Matomo Users Manager API
   slug: matomo-usersmanager-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-usersmanager-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-usersmanager-api-openapi.yml
 - filename: matomo-visitfrequency-api-openapi.yml
   format: yaml
   label: Matomo Visit Frequency API
   slug: matomo-visitfrequency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-visitfrequency-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-visitfrequency-api-openapi.yml
 - filename: matomo-visitorinterest-api-openapi.yml
   format: yaml
   label: Matomo Visitor Interest API
   slug: matomo-visitorinterest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-visitorinterest-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-visitorinterest-api-openapi.yml
 - filename: matomo-visitssummary-api-openapi.yml
   format: yaml
   label: Matomo Visits Summary API
   slug: matomo-visitssummary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-visitssummary-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-visitssummary-api-openapi.yml
 - filename: matomo-visittime-api-openapi.yml
   format: yaml
   label: Matomo Visit Time API
   slug: matomo-visittime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-visittime-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-visittime-api-openapi.yml
 - filename: matomo-oauth2-api-openapi.yml
   format: yaml
   label: Matomo O Auth2 API
   slug: matomo-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-oauth2-api-openapi.yml
 - filename: matomo-ab-testing-api-openapi.yml
   format: yaml
   label: Matomo Ab Testing API
   slug: matomo-ab-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-ab-testing-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-ab-testing-api-openapi.yml
 - filename: matomo-activity-log-api-openapi.yml
   format: yaml
   label: Matomo Activity Log API
   slug: matomo-activity-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-activity-log-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-activity-log-api-openapi.yml
 - filename: matomo-api-reference-api-openapi.yml
   format: yaml
   label: Matomo API Reference API
   slug: matomo-api-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-api-reference-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-api-reference-api-openapi.yml
 - filename: matomo-custom-reports-api-openapi.yml
   format: yaml
   label: Matomo Custom Reports API
   slug: matomo-custom-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-custom-reports-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-custom-reports-api-openapi.yml
 - filename: matomo-scheduled-reports-api-openapi.yml
   format: yaml
   label: Matomo Scheduled Reports API
   slug: matomo-scheduled-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-scheduled-reports-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-scheduled-reports-api-openapi.yml
 - filename: matomo-tag-manager-api-openapi.yml
   format: yaml
   label: Matomo Tag Manager API
   slug: matomo-tag-manager-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-tag-manager-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-tag-manager-api-openapi.yml
 - filename: matomo-two-factor-auth-api-openapi.yml
   format: yaml
   label: Matomo Two Factor Auth API
   slug: matomo-two-factor-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-two-factor-auth-api-openapi.yml
+  url: https://artifacts.apis.io/matomo/openapi/matomo-two-factor-auth-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -439,7 +439,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://d
   \      Matomo auth token created in Administration > Personal > Security > Auth tokens.\n      Works as a query parameter but Matomo recommends the POST body instead so the\n      token does not land in URLs and access logs.\n    sources:\n      - openapi/matomo-index-php-api-openapi.yml\n      - openapi/matomo-matomo-php-api-openapi.yml\n  - name: TokenAuthBody\n    type: apiKey\n    in: body\n    parameter: token_auth\n    description: Recommended transport — the token is sent as a POST form field.\n    sources:\n      - https://developer.matomo.org/api-reference/reporting-api\n  - name: MatomoToken\n    type: http\n    scheme: bearer\n    description: >-\n      The Matomo auth token sent as an HTTP Bearer token. This is the scheme declared\n      in every one of the 59 OpenAPI documents Matomo's own ApiReference plugin\n      generates, and the scheme the MCP endpoint requires.\n    sources:\n      - openapi/matomo-api-openapi.json\n      - openapi/matomo-sites-manager-openapi.json\n\
   \      - openapi/matomo-users-manager-openapi.json\n  - name: OAuth2\n    type: oauth2\n    description: >-\n      OAuth 2.0 authorization server, available when the first-party Matomo OAuth2\n      plugin is installed and enabled. Discovered live via RFC 8414 metadata.\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://{matomo_host}/index.php?module=OAuth2&action=authorize\n        tokenUrl: https://{matomo_host}/index.php?module=OAuth2&action=token\n        scopes: [matomo:read, matomo:write, matomo:admin]\n      - flow: clientCredentials\n        tokenUrl: https://{matomo_host}/index.php?module=OAuth2&action=token\n        scopes: [matomo:read, matomo:write, matomo:admin]\n    pkce: [S256, plain]\n    sources:\n      - well-known/matomo-oauth-authorization-server.json\n      - openapi/matomo-oauth2-openapi.json\n    see: scopes/matomo-scopes.yml\nmfa:\n  supported: true\n  note: Matomo ships a first-party TwoFactorAuth plugin for UI login (not for API tokens).\n\
   token_management:\n  create_ui: Administration > Personal > Security > Auth tokens\n  create_api: UsersManager.createAppSpecificTokenAuth\n  scope_note: >-\n    App-specific tokens can be created programmatically, but they still inherit the\n    creating user's full permissions — there is no way to mint a narrower token.\nnotes:\n  - >-\n    Because Matomo is self-hosted or Matomo Cloud, credentials are issued by the\n    customer's own instance. There is no vendor-issued API key and no central developer\n    account.\n  - >-\n    The token grants whatever the user has. Least-privilege is achieved by creating a\n    dedicated low-role Matomo USER and minting the token as that user.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/authentication/matomo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/matomo/authentication/matomo-authentication.yml
 summary_line: apiKey/http/oauth2 · 4 schemes
 tags:
 - Analytics

@@ -5,13 +5,13 @@ api_specs:
   label: Indian Institute of Technology Kharagpur Continuing Education API
   slug: indian-institute-of-technology-kharagpur-continuing-education-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indian-institute-of-technology-kharagpur/refs/heads/main/openapi/indian-institute-of-technology-kharagpur-continuing-education-api-openapi.yml
+  url: https://artifacts.apis.io/indian-institute-of-technology-kharagpur/openapi/indian-institute-of-technology-kharagpur-continuing-education-api-openapi.yml
 - filename: indian-institute-of-technology-kharagpur-open-search-api-openapi.yml
   format: yaml
   label: Indian Institute of Technology Kharagpur Open Search API
   slug: indian-institute-of-technology-kharagpur-open-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indian-institute-of-technology-kharagpur/refs/heads/main/openapi/indian-institute-of-technology-kharagpur-open-search-api-openapi.yml
+  url: https://artifacts.apis.io/indian-institute-of-technology-kharagpur/openapi/indian-institute-of-technology-kharagpur-open-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -55,7 +55,7 @@ source_filename: indian-institute-of-technology-kharagpur-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.iitkgp.ac.in\n  https: false\n- host: www.idr.iitkgp.ac.in\n  https: false\n- host: iitkgp.irins.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 11:22:23 2026 GMT\n  hsts: false\ndomains:\n- domain: iitkgp.ac.in\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n- domain: irins.org\n  dnssec: false\n  caa:\n  - 0 issuewild \"ssl.com\"\n  - 0 issuewild \"starfieldtech.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/indian-institute-of-technology-kharagpur/refs/heads/main/security/indian-institute-of-technology-kharagpur-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/indian-institute-of-technology-kharagpur/security/indian-institute-of-technology-kharagpur-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Education

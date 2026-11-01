@@ -5,25 +5,25 @@ api_specs:
   label: La Ruche qui dit Oui! Assemblies API
   slug: la-ruche-qui-dit-oui-assemblies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/la-ruche-qui-dit-oui/refs/heads/main/openapi/la-ruche-qui-dit-oui-assemblies-api-openapi.yml
+  url: https://artifacts.apis.io/la-ruche-qui-dit-oui/openapi/la-ruche-qui-dit-oui-assemblies-api-openapi.yml
 - filename: la-ruche-qui-dit-oui-authentication-api-openapi.yml
   format: yaml
   label: La Ruche qui dit Oui! Authentication API
   slug: la-ruche-qui-dit-oui-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/la-ruche-qui-dit-oui/refs/heads/main/openapi/la-ruche-qui-dit-oui-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/la-ruche-qui-dit-oui/openapi/la-ruche-qui-dit-oui-authentication-api-openapi.yml
 - filename: la-ruche-qui-dit-oui-orders-api-openapi.yml
   format: yaml
   label: La Ruche qui dit Oui! Orders API
   slug: la-ruche-qui-dit-oui-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/la-ruche-qui-dit-oui/refs/heads/main/openapi/la-ruche-qui-dit-oui-orders-api-openapi.yml
+  url: https://artifacts.apis.io/la-ruche-qui-dit-oui/openapi/la-ruche-qui-dit-oui-orders-api-openapi.yml
 - filename: la-ruche-qui-dit-oui-sale-api-openapi.yml
   format: yaml
   label: La Ruche qui dit Oui! Sale API
   slug: la-ruche-qui-dit-oui-sale-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/la-ruche-qui-dit-oui/refs/heads/main/openapi/la-ruche-qui-dit-oui-sale-api-openapi.yml
+  url: https://artifacts.apis.io/la-ruche-qui-dit-oui/openapi/la-ruche-qui-dit-oui-sale-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: la-ruche-qui-dit-oui-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: laruchequiditoui.fr\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 23:59:59 2026 GMT\n  hsts: null\n- host: api.thefoodassembly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 22 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: laruchequiditoui.fr\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: thefoodassembly.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/la-ruche-qui-dit-oui/refs/heads/main/security/la-ruche-qui-dit-oui-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/la-ruche-qui-dit-oui/security/la-ruche-qui-dit-oui-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

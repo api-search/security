@@ -7,25 +7,25 @@ api_specs:
   label: Sojo Industries Chat API
   slug: sojo-industries-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sojo-industries/refs/heads/main/openapi/sojo-industries-chat-api-openapi.yml
+  url: https://artifacts.apis.io/sojo-industries/openapi/sojo-industries-chat-api-openapi.yml
 - filename: sojo-industries-conversations-api-openapi.yml
   format: yaml
   label: Sojo Industries Conversations API
   slug: sojo-industries-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sojo-industries/refs/heads/main/openapi/sojo-industries-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/sojo-industries/openapi/sojo-industries-conversations-api-openapi.yml
 - filename: sojo-industries-files-api-openapi.yml
   format: yaml
   label: Sojo Industries Files API
   slug: sojo-industries-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sojo-industries/refs/heads/main/openapi/sojo-industries-files-api-openapi.yml
+  url: https://artifacts.apis.io/sojo-industries/openapi/sojo-industries-files-api-openapi.yml
 - filename: sojo-industries-health-api-openapi.yml
   format: yaml
   label: Sojo Industries Health API
   slug: sojo-industries-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sojo-industries/refs/heads/main/openapi/sojo-industries-health-api-openapi.yml
+  url: https://artifacts.apis.io/sojo-industries/openapi/sojo-industries-health-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-08-28'\nmethod: probed\nsource: >-\n  openapi/soj
   \ 'GET /api/chat/conversation/{session_id}'\n    - 'PATCH /api/chat/conversation/{session_id}'\n    - 'DELETE /api/chat/conversation/{session_id}'\n    - 'GET /api/chat/conversation/export/{session_id}'\n  sources:\n  - openapi/sojo-industries-victoria-agent-openapi.json\n\nidentity_provider:\n  name: Stytch\n  evidence: >-\n    The Sojo Shield SPA bundle at https://sojoshield.com/assets/index-C2RJOvGT.js embeds the\n    Stytch browser SDK (stytch.com/docs/sdks, telemetry.stytch.com, powered_by_stytch logo asset).\n    The Victoria OpenAPI info.description names the credential \"Stytch session JWT\".\n  token_resolution: >-\n    The Victoria OpenAPI states the bearer token is resolved to an identity via the Shield\n    internal endpoint /api/internal/v1/auth/resolve and cached in Redis. That endpoint is internal\n    and not part of any public contract.\n\nunauthenticated_surface:\n  note: 'These are the only routes reachable with no credential at all, verified 2026-08-28.'\n  routes:\n\
   \  - {url: 'https://victoria-agent.sojoshield.com/openapi.json', status: 200, note: 'The full public OpenAPI'}\n  - {url: 'https://victoria-agent.sojoshield.com/mcp', status: 200, note: 'MCP initialize + tools/list succeed anonymously'}\n  - {url: 'https://victoria-agent.sojoshield.com/health', status: 200, note: 'Detailed health, including auth_enabled=true and infrastructure internals'}\n  - {url: 'https://victoria-agent.sojoshield.com/ready', status: 200}\n  - {url: 'https://victoria-agent.sojoshield.com/upload-image', status: null, note: 'Declared in the OpenAPI with no security requirement — not exercised by this pass'}\n  - {url: 'https://api.sojoshield.com/docs', status: 200, note: 'Public Swagger UI shell'}\n\nauth_wall:\n  host: api.sojoshield.com\n  status: 401\n  envelope: '{\"data\":{\"message\":\"No bearer token provided.\"},\"error\":{\"code\":\"UNAUTHORIZED\",\"details\":{...}}}'\n  scope: >-\n    Host-wide. Every probed path on api.sojoshield.com returns this 401, including\
   \ /.well-known/*,\n    /graphql, /health and every spec path — the only exceptions are /docs (200, the Swagger UI HTML)\n    and /swagger.json (503, \"Swagger spec not initialised\").\n\ngaps:\n- 'No published authentication documentation page — the auth model is only discoverable from the OpenAPI info.description and the SPA bundle.'\n- 'No OAuth 2.0 authorization-server or protected-resource metadata at either host.'\n- 'No documented scopes or permissions model; the API entry point is tenant-scoped rather than scope-scoped.'\n- 'No self-service sign-up or key issuance — access requires a Sojo Shield customer account.'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sojo-industries/refs/heads/main/authentication/sojo-industries-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sojo-industries/authentication/sojo-industries-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

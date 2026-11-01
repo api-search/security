@@ -8,19 +8,19 @@ api_specs:
   label: Viewpoints AI Studies API
   slug: viewpoints-ai-studies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viewpoints-ai/refs/heads/main/openapi/viewpoints-ai-studies-api-openapi.yml
+  url: https://artifacts.apis.io/viewpoints-ai/openapi/viewpoints-ai-studies-api-openapi.yml
 - filename: viewpoints-ai-study-file-uploads-api-openapi.yml
   format: yaml
   label: Viewpoints AI Study File Uploads API
   slug: viewpoints-ai-study-file-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viewpoints-ai/refs/heads/main/openapi/viewpoints-ai-study-file-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/viewpoints-ai/openapi/viewpoints-ai-study-file-uploads-api-openapi.yml
 - filename: viewpoints-ai-study-schedules-api-openapi.yml
   format: yaml
   label: Viewpoints AI Study Schedules API
   slug: viewpoints-ai-study-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viewpoints-ai/refs/heads/main/openapi/viewpoints-ai-study-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/viewpoints-ai/openapi/viewpoints-ai-study-schedules-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -54,7 +54,7 @@ source_filename: viewpoints-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/viewpoints-ai-study-openapi.json\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  sources:\n  - openapi/viewpoints-ai-study-openapi.json\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/viewpoints-ai-study-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/viewpoints-ai/refs/heads/main/authentication/viewpoints-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/viewpoints-ai/authentication/viewpoints-ai-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

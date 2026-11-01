@@ -5,61 +5,61 @@ api_specs:
   label: Mabl Applications API
   slug: mabl-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mabl/refs/heads/main/openapi/mabl-applications-api-openapi.yml
+  url: https://artifacts.apis.io/mabl/openapi/mabl-applications-api-openapi.yml
 - filename: mabl-credentials-api-openapi.yml
   format: yaml
   label: Mabl Credentials API
   slug: mabl-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mabl/refs/heads/main/openapi/mabl-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/mabl/openapi/mabl-credentials-api-openapi.yml
 - filename: mabl-database-connections-api-openapi.yml
   format: yaml
   label: Mabl Database Connections API
   slug: mabl-database-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mabl/refs/heads/main/openapi/mabl-database-connections-api-openapi.yml
+  url: https://artifacts.apis.io/mabl/openapi/mabl-database-connections-api-openapi.yml
 - filename: mabl-deployment-events-api-openapi.yml
   format: yaml
   label: Mabl Deployment Events API
   slug: mabl-deployment-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mabl/refs/heads/main/openapi/mabl-deployment-events-api-openapi.yml
+  url: https://artifacts.apis.io/mabl/openapi/mabl-deployment-events-api-openapi.yml
 - filename: mabl-environments-api-openapi.yml
   format: yaml
   label: Mabl Environments API
   slug: mabl-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mabl/refs/heads/main/openapi/mabl-environments-api-openapi.yml
+  url: https://artifacts.apis.io/mabl/openapi/mabl-environments-api-openapi.yml
 - filename: mabl-flows-api-openapi.yml
   format: yaml
   label: Mabl Flows API
   slug: mabl-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mabl/refs/heads/main/openapi/mabl-flows-api-openapi.yml
+  url: https://artifacts.apis.io/mabl/openapi/mabl-flows-api-openapi.yml
 - filename: mabl-issues-api-openapi.yml
   format: yaml
   label: Mabl Issues API
   slug: mabl-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mabl/refs/heads/main/openapi/mabl-issues-api-openapi.yml
+  url: https://artifacts.apis.io/mabl/openapi/mabl-issues-api-openapi.yml
 - filename: mabl-test-runs-api-openapi.yml
   format: yaml
   label: Mabl Test Runs API
   slug: mabl-test-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mabl/refs/heads/main/openapi/mabl-test-runs-api-openapi.yml
+  url: https://artifacts.apis.io/mabl/openapi/mabl-test-runs-api-openapi.yml
 - filename: mabl-tests-api-openapi.yml
   format: yaml
   label: Mabl Tests API
   slug: mabl-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mabl/refs/heads/main/openapi/mabl-tests-api-openapi.yml
+  url: https://artifacts.apis.io/mabl/openapi/mabl-tests-api-openapi.yml
 - filename: mabl-users-api-openapi.yml
   format: yaml
   label: Mabl Users API
   slug: mabl-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mabl/refs/heads/main/openapi/mabl-users-api-openapi.yml
+  url: https://artifacts.apis.io/mabl/openapi/mabl-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -101,7 +101,7 @@ source_filename: mabl-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mabl.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 00:17:03 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: mabl.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 05:44:53 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.mabl.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 10:49:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\ndomains:\n- domain: mabl.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mabl/refs/heads/main/security/mabl-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mabl/security/mabl-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Test Automation

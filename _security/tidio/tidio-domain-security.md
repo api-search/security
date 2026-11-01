@@ -5,43 +5,43 @@ api_specs:
   label: Tidio Contacts API
   slug: tidio-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidio/refs/heads/main/openapi/tidio-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/tidio/openapi/tidio-contacts-api-openapi.yml
 - filename: tidio-departments-api-openapi.yml
   format: yaml
   label: Tidio Departments API
   slug: tidio-departments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidio/refs/heads/main/openapi/tidio-departments-api-openapi.yml
+  url: https://artifacts.apis.io/tidio/openapi/tidio-departments-api-openapi.yml
 - filename: tidio-lyro-api-openapi.yml
   format: yaml
   label: Tidio Lyro API
   slug: tidio-lyro-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidio/refs/heads/main/openapi/tidio-lyro-api-openapi.yml
+  url: https://artifacts.apis.io/tidio/openapi/tidio-lyro-api-openapi.yml
 - filename: tidio-operators-api-openapi.yml
   format: yaml
   label: Tidio Operators API
   slug: tidio-operators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidio/refs/heads/main/openapi/tidio-operators-api-openapi.yml
+  url: https://artifacts.apis.io/tidio/openapi/tidio-operators-api-openapi.yml
 - filename: tidio-products-api-openapi.yml
   format: yaml
   label: Tidio Products API
   slug: tidio-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidio/refs/heads/main/openapi/tidio-products-api-openapi.yml
+  url: https://artifacts.apis.io/tidio/openapi/tidio-products-api-openapi.yml
 - filename: tidio-project-api-openapi.yml
   format: yaml
   label: Tidio Project API
   slug: tidio-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidio/refs/heads/main/openapi/tidio-project-api-openapi.yml
+  url: https://artifacts.apis.io/tidio/openapi/tidio-project-api-openapi.yml
 - filename: tidio-tickets-api-openapi.yml
   format: yaml
   label: Tidio Tickets API
   slug: tidio-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidio/refs/heads/main/openapi/tidio-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/tidio/openapi/tidio-tickets-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -86,7 +86,7 @@ source_filename: tidio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tidio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 03:22:56 2026 GMT\n  hsts: false\n- host: developers.tidio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 05:27:00 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.tidio.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 20 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: tidio.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: tidio.co\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tidio/refs/heads/main/security/tidio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tidio/security/tidio-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Live Chat

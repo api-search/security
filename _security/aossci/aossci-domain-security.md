@@ -26,7 +26,7 @@ source_filename: aossci-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.aossci.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 01:45:58 2026 GMT\n  hsts: false\ndomains:\n- domain: aossci.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aossci/refs/heads/main/security/aossci-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aossci/security/aossci-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Drone

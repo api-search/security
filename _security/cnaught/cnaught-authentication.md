@@ -7,19 +7,19 @@ api_specs:
   label: CNaught CNaught API
   slug: cnaught-cnaught-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cnaught/refs/heads/main/openapi/cnaught-cnaught-api-api-openapi.yml
+  url: https://artifacts.apis.io/cnaught/openapi/cnaught-cnaught-api-api-openapi.yml
 - filename: cnaught-orders-api-openapi.yml
   format: yaml
   label: CNaught Orders API
   slug: cnaught-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cnaught/refs/heads/main/openapi/cnaught-orders-api-openapi.yml
+  url: https://artifacts.apis.io/cnaught/openapi/cnaught-orders-api-openapi.yml
 - filename: cnaught-subaccounts-api-openapi.yml
   format: yaml
   label: CNaught Subaccounts API
   slug: cnaught-subaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cnaught/refs/heads/main/openapi/cnaught-subaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/cnaught/openapi/cnaught-subaccounts-api-openapi.yml
 auth_types: []
 description: Authentication uses an API key provided as a Bearer token in the Authorization header.
 kind: authentication
@@ -45,11 +45,11 @@ source_filename: cnaught-authentication.yml
 source_heading: Authentication Profile
 source_url: https://docs.cnaught.com/quickstart.md
 source_yaml: "generated: '2026-10-09'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://docs.cnaught.com/quickstart.md\nsources:\n- https://docs.cnaught.com/quickstart.md\ndescription: Authentication uses an API key provided as a Bearer token in the Authorization header.\nschemes:\n- type: http-bearer\n  name: Bearer\n  evidence: Replace the `<CNAUGHT_API_KEY>` placeholder with the API key obtained in Step 1, and specify the amount of carbon credits (in kg of\n    CO2e) you wish to purchase.\n  location: header\n  header: Authorization\n  how_to_obtain: Generate an API key via the Developers page after logging in to CNaught.\ndocs: https://docs.cnaught.com/quickstart.md\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cnaught/refs/heads/main/authentication/cnaught-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cnaught/authentication/cnaught-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company
 - Climate
-- CarbonCredits
+- Carbon Credits
 - Sustainability
 ---

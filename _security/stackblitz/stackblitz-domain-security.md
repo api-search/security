@@ -44,7 +44,7 @@ source_filename: stackblitz-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: stackblitz.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 23:59:59 2026 GMT\n  hsts: false\n- host: developer.stackblitz.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 05:13:41 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: webcontainers.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 01:13:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: stackblitz.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: webcontainers.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stackblitz/refs/heads/main/security/stackblitz-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/stackblitz/security/stackblitz-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Developer Tools

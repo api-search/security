@@ -5,25 +5,25 @@ api_specs:
   label: Judge.me Products API
   slug: judge-me-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/judge-me/refs/heads/main/openapi/judge-me-products-api-openapi.yml
+  url: https://artifacts.apis.io/judge-me/openapi/judge-me-products-api-openapi.yml
 - filename: judge-me-review-requests-api-openapi.yml
   format: yaml
   label: Judge.me Review Requests API
   slug: judge-me-review-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/judge-me/refs/heads/main/openapi/judge-me-review-requests-api-openapi.yml
+  url: https://artifacts.apis.io/judge-me/openapi/judge-me-review-requests-api-openapi.yml
 - filename: judge-me-reviews-api-openapi.yml
   format: yaml
   label: Judge.me Reviews API
   slug: judge-me-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/judge-me/refs/heads/main/openapi/judge-me-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/judge-me/openapi/judge-me-reviews-api-openapi.yml
 - filename: judge-me-widgets-api-openapi.yml
   format: yaml
   label: Judge.me Widgets API
   slug: judge-me-widgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/judge-me/refs/heads/main/openapi/judge-me-widgets-api-openapi.yml
+  url: https://artifacts.apis.io/judge-me/openapi/judge-me-widgets-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: judge-me-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: judge.me\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 13 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: judge.me\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/judge-me/refs/heads/main/security/judge-me-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/judge-me/security/judge-me-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Reviews

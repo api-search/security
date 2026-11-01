@@ -8,49 +8,49 @@ api_specs:
   label: Landmark Information Group Activities API
   slug: landmark-information-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-activities-api-openapi.yml
+  url: https://artifacts.apis.io/landmark-information/openapi/landmark-information-activities-api-openapi.yml
 - filename: landmark-information-cases-api-openapi.yml
   format: yaml
   label: Landmark Information Group Cases API
   slug: landmark-information-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-cases-api-openapi.yml
+  url: https://artifacts.apis.io/landmark-information/openapi/landmark-information-cases-api-openapi.yml
 - filename: landmark-information-document-vaults-api-openapi.yml
   format: yaml
   label: Landmark Information Group Document Vaults API
   slug: landmark-information-document-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-document-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/landmark-information/openapi/landmark-information-document-vaults-api-openapi.yml
 - filename: landmark-information-documents-api-openapi.yml
   format: yaml
   label: Landmark Information Group Documents API
   slug: landmark-information-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-documents-api-openapi.yml
+  url: https://artifacts.apis.io/landmark-information/openapi/landmark-information-documents-api-openapi.yml
 - filename: landmark-information-milestones-api-openapi.yml
   format: yaml
   label: Landmark Information Group Milestones API
   slug: landmark-information-milestones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-milestones-api-openapi.yml
+  url: https://artifacts.apis.io/landmark-information/openapi/landmark-information-milestones-api-openapi.yml
 - filename: landmark-information-order-experience-api-api-openapi.yml
   format: yaml
   label: Landmark Information Group Order Experience API
   slug: landmark-information-order-experience-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-order-experience-api-api-openapi.yml
+  url: https://artifacts.apis.io/landmark-information/openapi/landmark-information-order-experience-api-api-openapi.yml
 - filename: landmark-information-quotes-api-openapi.yml
   format: yaml
   label: Landmark Information Group Quotes API
   slug: landmark-information-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/landmark-information/openapi/landmark-information-quotes-api-openapi.yml
 - filename: landmark-information-transaction-requests-api-openapi.yml
   format: yaml
   label: Landmark Information Group Transaction Requests API
   slug: landmark-information-transaction-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-transaction-requests-api-openapi.yml
+  url: https://artifacts.apis.io/landmark-information/openapi/landmark-information-transaction-requests-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -107,7 +107,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: openapi/landmar
   \  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://lmkmaster.eu.auth0.com/oauth/token\n    scopes: 0\n    note: the spec declares an empty scopes map; Landmark documents no scope surface\n  description: |-\n    OAuth 2.0 client credentials. Request an access token from the token endpoint for your\n    environment, then send it as a bearer token on every request. See **Authentication** for details.\n  sources:\n  - openapi/landmark-information-conveyancing-experience-api-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  note: >-\n    Declared as plain HTTP bearer in four of the five specs, but the documented way to obtain the\n    token is the same Auth0 client-credentials exchange as BearerAuth above.\n  sources:\n  - openapi/landmark-information-document-vault-api-openapi.yml\n  - openapi/landmark-information-intelliworks-api-openapi.yml\n  - openapi/landmark-information-milestone-notification-service-api-openapi.yml\n \
   \ - openapi/landmark-information-order-experience-api-openapi.yml\n- name: x-api-key\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  note: >-\n    Planning API (powered by Barbour ABI) only. Documented in public HTML, not in an OpenAPI. A\n    Landmark-issued API key is sent alongside a Basic-auth login call (base64 of username and a\n    SHA256-hashed password) that returns a bearer token valid until 30 days of disuse.\n  sources:\n  - https://www.landmark.co.uk/products/planning-api/planning-api-documentation/\nadditional_headers:\n- name: Account-Id\n  required_by:\n  - Document Vault API\n  description: The onboarded account identifier issued with the credentials; sent on every request.\n- name: Authorization\n  required_by:\n  - all Landmark Cloud Services APIs\n  description: Bearer <access_token>\ncallback_authentication:\n  description: >-\n    Landmark calls consumer-hosted callback URLs for milestone notifications, and authenticates\n    outbound to them using one of\
   \ three mechanisms configured at registration time.\n  mechanisms:\n  - Basic\n  - ClientIdSecret\n  - OAuth2 client credentials against a consumer-supplied token_generation_url, with optional\n    audience and scope\n  source: openapi/landmark-information-milestone-notification-service-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/authentication/landmark-information-authentication.yml
+source_yaml_url: https://artifacts.apis.io/landmark-information/authentication/landmark-information-authentication.yml
 summary_line: http/oauth2/apiKey · 3 schemes
 tags:
 - Real Estate

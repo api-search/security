@@ -5,7 +5,7 @@ api_specs:
   label: MintMCP API
   slug: mintmcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mintmcp/refs/heads/main/openapi/_ae-authored/mintmcp-openapi-generated.yml
+  url: https://artifacts.apis.io/mintmcp/openapi/_ae-authored/mintmcp-openapi-generated.yml
 description: ''
 domains:
 - caa: []
@@ -35,10 +35,10 @@ source_filename: mintmcp-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mintmcp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 26 16:40:56 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: mintmcp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mintmcp/refs/heads/main/security/mintmcp-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mintmcp/security/mintmcp-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Platform
 - Enterprise
 - Security

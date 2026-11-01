@@ -5,13 +5,13 @@ api_specs:
   label: Tatum Data API
   slug: tatum-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tatum/refs/heads/main/openapi/tatum-data-api-openapi.yml
+  url: https://artifacts.apis.io/tatum/openapi/tatum-data-api-openapi.yml
 - filename: tatum-rates-api-openapi.yml
   format: yaml
   label: Tatum Rates API
   slug: tatum-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tatum/refs/heads/main/openapi/tatum-rates-api-openapi.yml
+  url: https://artifacts.apis.io/tatum/openapi/tatum-rates-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -30,7 +30,7 @@ source_filename: tatum-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://tatum.io/security\nurl: https://tatum.io/security\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://tatum.io/security\n  keywords:\n  - soc2\n  - iso 27001\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tatum/refs/heads/main/security/tatum-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/tatum/security/tatum-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Web3

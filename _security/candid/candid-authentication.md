@@ -8,13 +8,13 @@ api_specs:
   label: Candid Lookup API
   slug: candid-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/candid/refs/heads/main/openapi/candid-lookup-api-openapi.yml
-- filename: candid-search-api-openapi.yml
+  url: https://artifacts.apis.io/candid/openapi/candid-lookup-api-openapi.yml
+- filename: candid-essentials-api-openapi.yml
   format: yaml
-  label: Candid Search API
-  slug: candid-search-api
+  label: Candid Essentials API
+  slug: candid-essentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/candid/refs/heads/main/openapi/candid-search-api-openapi.yml
+  url: https://artifacts.apis.io/candid/openapi/candid-essentials-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: candid-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/candid-essentials-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Subscription-Key\n  description: Candid subscription key required to call the Essentials API.\n  sources:\n  - openapi/candid-essentials-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/candid/refs/heads/main/authentication/candid-authentication.yml
+source_yaml_url: https://artifacts.apis.io/candid/authentication/candid-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Charities

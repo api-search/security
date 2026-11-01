@@ -8,109 +8,109 @@ api_specs:
   label: ThreatLocker Application API
   slug: threatlocker-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threatlocker/refs/heads/main/openapi/threatlocker-application-api-openapi.yml
+  url: https://artifacts.apis.io/threatlocker/openapi/threatlocker-application-api-openapi.yml
 - filename: threatlocker-computer-api-openapi.yml
   format: yaml
   label: ThreatLocker Computer API
   slug: threatlocker-computer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threatlocker/refs/heads/main/openapi/threatlocker-computer-api-openapi.yml
+  url: https://artifacts.apis.io/threatlocker/openapi/threatlocker-computer-api-openapi.yml
 - filename: threatlocker-computercheckin-api-openapi.yml
   format: yaml
   label: ThreatLocker Computer Checkin API
   slug: threatlocker-computercheckin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threatlocker/refs/heads/main/openapi/threatlocker-computercheckin-api-openapi.yml
+  url: https://artifacts.apis.io/threatlocker/openapi/threatlocker-computercheckin-api-openapi.yml
 - filename: threatlocker-computergroup-api-openapi.yml
   format: yaml
   label: ThreatLocker Computer Group API
   slug: threatlocker-computergroup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threatlocker/refs/heads/main/openapi/threatlocker-computergroup-api-openapi.yml
+  url: https://artifacts.apis.io/threatlocker/openapi/threatlocker-computergroup-api-openapi.yml
 - filename: threatlocker-maintenancemode-api-openapi.yml
   format: yaml
   label: ThreatLocker Maintenance Mode API
   slug: threatlocker-maintenancemode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threatlocker/refs/heads/main/openapi/threatlocker-maintenancemode-api-openapi.yml
+  url: https://artifacts.apis.io/threatlocker/openapi/threatlocker-maintenancemode-api-openapi.yml
 - filename: threatlocker-onlinedevices-api-openapi.yml
   format: yaml
   label: ThreatLocker Online Devices API
   slug: threatlocker-onlinedevices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threatlocker/refs/heads/main/openapi/threatlocker-onlinedevices-api-openapi.yml
+  url: https://artifacts.apis.io/threatlocker/openapi/threatlocker-onlinedevices-api-openapi.yml
 - filename: threatlocker-organization-api-openapi.yml
   format: yaml
   label: ThreatLocker Organization API
   slug: threatlocker-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threatlocker/refs/heads/main/openapi/threatlocker-organization-api-openapi.yml
+  url: https://artifacts.apis.io/threatlocker/openapi/threatlocker-organization-api-openapi.yml
 - filename: threatlocker-policy-api-openapi.yml
   format: yaml
   label: ThreatLocker Policy API
   slug: threatlocker-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threatlocker/refs/heads/main/openapi/threatlocker-policy-api-openapi.yml
+  url: https://artifacts.apis.io/threatlocker/openapi/threatlocker-policy-api-openapi.yml
 - filename: threatlocker-report-api-openapi.yml
   format: yaml
   label: ThreatLocker Report API
   slug: threatlocker-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threatlocker/refs/heads/main/openapi/threatlocker-report-api-openapi.yml
+  url: https://artifacts.apis.io/threatlocker/openapi/threatlocker-report-api-openapi.yml
 - filename: threatlocker-savesearch-api-openapi.yml
   format: yaml
   label: ThreatLocker Save Search API
   slug: threatlocker-savesearch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threatlocker/refs/heads/main/openapi/threatlocker-savesearch-api-openapi.yml
+  url: https://artifacts.apis.io/threatlocker/openapi/threatlocker-savesearch-api-openapi.yml
 - filename: threatlocker-scheduledagentaction-api-openapi.yml
   format: yaml
   label: ThreatLocker Scheduled Agent Action API
   slug: threatlocker-scheduledagentaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threatlocker/refs/heads/main/openapi/threatlocker-scheduledagentaction-api-openapi.yml
+  url: https://artifacts.apis.io/threatlocker/openapi/threatlocker-scheduledagentaction-api-openapi.yml
 - filename: threatlocker-systemaudit-api-openapi.yml
   format: yaml
   label: ThreatLocker System Audit API
   slug: threatlocker-systemaudit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threatlocker/refs/heads/main/openapi/threatlocker-systemaudit-api-openapi.yml
+  url: https://artifacts.apis.io/threatlocker/openapi/threatlocker-systemaudit-api-openapi.yml
 - filename: threatlocker-tag-api-openapi.yml
   format: yaml
   label: ThreatLocker Tag API
   slug: threatlocker-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threatlocker/refs/heads/main/openapi/threatlocker-tag-api-openapi.yml
+  url: https://artifacts.apis.io/threatlocker/openapi/threatlocker-tag-api-openapi.yml
 - filename: threatlocker-threatlockerversion-api-openapi.yml
   format: yaml
   label: ThreatLocker Threat Locker Version API
   slug: threatlocker-threatlockerversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threatlocker/refs/heads/main/openapi/threatlocker-threatlockerversion-api-openapi.yml
+  url: https://artifacts.apis.io/threatlocker/openapi/threatlocker-threatlockerversion-api-openapi.yml
 - filename: threatlocker-uploadrequest-api-openapi.yml
   format: yaml
   label: ThreatLocker Upload Request API
   slug: threatlocker-uploadrequest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threatlocker/refs/heads/main/openapi/threatlocker-uploadrequest-api-openapi.yml
+  url: https://artifacts.apis.io/threatlocker/openapi/threatlocker-uploadrequest-api-openapi.yml
 - filename: threatlocker-vdihyperv-api-openapi.yml
   format: yaml
   label: ThreatLocker VDI Hyper V API
   slug: threatlocker-vdihyperv-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threatlocker/refs/heads/main/openapi/threatlocker-vdihyperv-api-openapi.yml
+  url: https://artifacts.apis.io/threatlocker/openapi/threatlocker-vdihyperv-api-openapi.yml
 - filename: threatlocker-action-log-api-openapi.yml
   format: yaml
   label: ThreatLocker Action Log API
   slug: threatlocker-action-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threatlocker/refs/heads/main/openapi/threatlocker-action-log-api-openapi.yml
+  url: https://artifacts.apis.io/threatlocker/openapi/threatlocker-action-log-api-openapi.yml
 - filename: threatlocker-approval-request-api-openapi.yml
   format: yaml
   label: ThreatLocker Approval Request API
   slug: threatlocker-approval-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threatlocker/refs/heads/main/openapi/threatlocker-approval-request-api-openapi.yml
+  url: https://artifacts.apis.io/threatlocker/openapi/threatlocker-approval-request-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -162,7 +162,7 @@ source_yaml: "generated: '2026-08-02'\nmethod: searched\nsource: openapi/threatl
   \ Users > New API User >\n    Generate API Token. Sent verbatim in the Authorization header with an auth type of \"API Key\" —\n    there is NO Bearer prefix. The token is displayed only once, while the creation sidebar is open.\n  expiry: >-\n    Inactivity-based. The selected expiration window (e.g. 90 days) RESETS on every use, so the token\n    expires only after that period of inactivity.\n  authorization: Roles and the organizations the token is valid for are selected at creation time.\n  sources:\n  - openapi/threatlocker-portal-openapi-original.json\n  - https://threatlocker.kb.help/api-users/\n- name: ManagedOrganizationId\n  type: apiKey\n  in: header\n  parameter: ManagedOrganizationId\n  description: Please insert Managed Organization Id.\n  docs_description: >-\n    Documented in the Getting Started guide as a header named \"managedOrganizationId\" carrying the\n    target organization's GUID, copied from Manage > Organizations > (settings) > Organization ID.\n    Selects\
   \ the tenant a request acts against; required when a parent (MSP) token operates on a\n    managed child organization.\n  sources:\n  - openapi/threatlocker-portal-openapi-original.json\n  - https://threatlocker.kb.help/getting-started-with-threatlocker-portalapis/\n- name: OverrideManagedOrganizationId\n  type: apiKey\n  in: header\n  parameter: OverrideManagedOrganizationId\n  description: Please insert Managed Organization Id.\n  docs_description: Third apiKey scheme declared in the spec for overriding the managed-organization scope of a request.\n  sources:\n  - openapi/threatlocker-portal-openapi-original.json\nglobal_security:\n  note: All three schemes are listed in the document-level `security` requirement of the OpenAPI.\n  requirement: [Authorization, ManagedOrganizationId, OverrideManagedOrganizationId]\nportal_administrator_sign_in:\n  note: Separate from API tokens — governs human sign-in to the ThreatLocker Portal, not PortalAPI calls.\n  saml_sso: true\n  saml_docs: https://threatlocker.kb.help/saml-integration/\n\
   \  saml_detail: Enabled via Administrators > Login Settings > Allow SSO; IdP groups map to ThreatLocker user roles on the Group Mapping tab.\n  scim: true\n  scim_docs: https://threatlocker.kb.help/scim-integration-for-threatlocker-administrator-accounts/\n  scim_detail: SCIM provisioning of administrators available since Portal 3.8; provisioned users get a SAML-enabled account or an email invitation.\n  oidc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/threatlocker/refs/heads/main/authentication/threatlocker-authentication.yml
+source_yaml_url: https://artifacts.apis.io/threatlocker/authentication/threatlocker-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - Cybersecurity

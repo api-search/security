@@ -26,7 +26,7 @@ source_filename: roxmotor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: roxmotor.com\n  https: false\ndomains:\n- domain: roxmotor.com\n  dnssec: true\n  caa:\n  - 6a1c46976feeb78656562f1cf0923fb4.qcloudwzgj.com.\n  - 4bf15620b49cf7f1-cl2.qcloudcjgj.com.\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/roxmotor/refs/heads/main/security/roxmotor-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/roxmotor/security/roxmotor-domain-security.yml
 summary_line: DNSSEC · DMARC
 tags:
 - Company

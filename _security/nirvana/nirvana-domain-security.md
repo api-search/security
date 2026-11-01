@@ -5,25 +5,25 @@ api_specs:
   label: Nirvana Health Cost Estimation API
   slug: nirvana-cost-estimation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nirvana/refs/heads/main/openapi/nirvana-cost-estimation-api-openapi.yml
+  url: https://artifacts.apis.io/nirvana/openapi/nirvana-cost-estimation-api-openapi.yml
 - filename: nirvana-coverage-scan-api-openapi.yml
   format: yaml
   label: Nirvana Health Coverage Scan API
   slug: nirvana-coverage-scan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nirvana/refs/heads/main/openapi/nirvana-coverage-scan-api-openapi.yml
+  url: https://artifacts.apis.io/nirvana/openapi/nirvana-coverage-scan-api-openapi.yml
 - filename: nirvana-eligibility-api-openapi.yml
   format: yaml
   label: Nirvana Health Eligibility API
   slug: nirvana-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nirvana/refs/heads/main/openapi/nirvana-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/nirvana/openapi/nirvana-eligibility-api-openapi.yml
 - filename: nirvana-medicaid-api-openapi.yml
   format: yaml
   label: Nirvana Health Medicaid API
   slug: nirvana-medicaid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nirvana/refs/heads/main/openapi/nirvana-medicaid-api-openapi.yml
+  url: https://artifacts.apis.io/nirvana/openapi/nirvana-medicaid-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: nirvana-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: nirvana-docs.readme.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 13:12:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: coverage-api.meetnirvana.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 29 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: readme.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: meetnirvana.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nirvana/refs/heads/main/security/nirvana-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nirvana/security/nirvana-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Healthcare

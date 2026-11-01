@@ -5,61 +5,61 @@ api_specs:
   label: Paragraph Analytics API
   slug: paragraph-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paragraph/refs/heads/main/openapi/paragraph-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/paragraph/openapi/paragraph-analytics-api-openapi.yml
 - filename: paragraph-auth-api-openapi.yml
   format: yaml
   label: Paragraph Auth API
   slug: paragraph-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paragraph/refs/heads/main/openapi/paragraph-auth-api-openapi.yml
+  url: https://artifacts.apis.io/paragraph/openapi/paragraph-auth-api-openapi.yml
 - filename: paragraph-coins-api-openapi.yml
   format: yaml
   label: Paragraph Coins API
   slug: paragraph-coins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paragraph/refs/heads/main/openapi/paragraph-coins-api-openapi.yml
+  url: https://artifacts.apis.io/paragraph/openapi/paragraph-coins-api-openapi.yml
 - filename: paragraph-discover-api-openapi.yml
   format: yaml
   label: Paragraph Discover API
   slug: paragraph-discover-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paragraph/refs/heads/main/openapi/paragraph-discover-api-openapi.yml
+  url: https://artifacts.apis.io/paragraph/openapi/paragraph-discover-api-openapi.yml
 - filename: paragraph-emails-api-openapi.yml
   format: yaml
   label: Paragraph Emails API
   slug: paragraph-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paragraph/refs/heads/main/openapi/paragraph-emails-api-openapi.yml
+  url: https://artifacts.apis.io/paragraph/openapi/paragraph-emails-api-openapi.yml
 - filename: paragraph-me-api-openapi.yml
   format: yaml
   label: Paragraph Me API
   slug: paragraph-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paragraph/refs/heads/main/openapi/paragraph-me-api-openapi.yml
+  url: https://artifacts.apis.io/paragraph/openapi/paragraph-me-api-openapi.yml
 - filename: paragraph-posts-api-openapi.yml
   format: yaml
   label: Paragraph Posts API
   slug: paragraph-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paragraph/refs/heads/main/openapi/paragraph-posts-api-openapi.yml
+  url: https://artifacts.apis.io/paragraph/openapi/paragraph-posts-api-openapi.yml
 - filename: paragraph-publications-api-openapi.yml
   format: yaml
   label: Paragraph Publications API
   slug: paragraph-publications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paragraph/refs/heads/main/openapi/paragraph-publications-api-openapi.yml
+  url: https://artifacts.apis.io/paragraph/openapi/paragraph-publications-api-openapi.yml
 - filename: paragraph-subscribers-api-openapi.yml
   format: yaml
   label: Paragraph Subscribers API
   slug: paragraph-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paragraph/refs/heads/main/openapi/paragraph-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/paragraph/openapi/paragraph-subscribers-api-openapi.yml
 - filename: paragraph-users-api-openapi.yml
   format: yaml
   label: Paragraph Users API
   slug: paragraph-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paragraph/refs/heads/main/openapi/paragraph-users-api-openapi.yml
+  url: https://artifacts.apis.io/paragraph/openapi/paragraph-users-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -104,7 +104,7 @@ source_filename: paragraph-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: paragraph.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 24 16:57:02 2026 GMT\n  hsts: false\n- host: docs.paragraph.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 01:13:31 2026 GMT\n  hsts: false\n- host: public.api.paragraph.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 04:29:47 2026 GMT\n  hsts: null\ndomains:\n- domain: paragraph.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paragraph/refs/heads/main/security/paragraph-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/paragraph/security/paragraph-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

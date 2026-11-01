@@ -5,31 +5,31 @@ api_specs:
   label: BlaBlaCar Bus API Bookings API
   slug: blablacar-bus-api-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blablacar-bus-api/refs/heads/main/openapi/blablacar-bus-api-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/blablacar-bus-api/openapi/blablacar-bus-api-bookings-api-openapi.yml
 - filename: blablacar-bus-api-routes-api-openapi.yml
   format: yaml
   label: BlaBlaCar Bus API Routes API
   slug: blablacar-bus-api-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blablacar-bus-api/refs/heads/main/openapi/blablacar-bus-api-routes-api-openapi.yml
+  url: https://artifacts.apis.io/blablacar-bus-api/openapi/blablacar-bus-api-routes-api-openapi.yml
 - filename: blablacar-bus-api-stations-api-openapi.yml
   format: yaml
   label: BlaBlaCar Bus API Stations API
   slug: blablacar-bus-api-stations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blablacar-bus-api/refs/heads/main/openapi/blablacar-bus-api-stations-api-openapi.yml
+  url: https://artifacts.apis.io/blablacar-bus-api/openapi/blablacar-bus-api-stations-api-openapi.yml
 - filename: blablacar-bus-api-tickets-api-openapi.yml
   format: yaml
   label: BlaBlaCar Bus API Tickets API
   slug: blablacar-bus-api-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blablacar-bus-api/refs/heads/main/openapi/blablacar-bus-api-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/blablacar-bus-api/openapi/blablacar-bus-api-tickets-api-openapi.yml
 - filename: blablacar-bus-api-trips-api-openapi.yml
   format: yaml
   label: BlaBlaCar Bus API Trips API
   slug: blablacar-bus-api-trips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blablacar-bus-api/refs/heads/main/openapi/blablacar-bus-api-trips-api-openapi.yml
+  url: https://artifacts.apis.io/blablacar-bus-api/openapi/blablacar-bus-api-trips-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -66,7 +66,7 @@ source_filename: blablacar-bus-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.blablacar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  3 14:30:19 2026 GMT\n  hsts: false\n- host: bus-api.blablacar.com\n  https: false\ndomains:\n- domain: blablacar.com\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issue \"sectigo.com\"\n  - 0 iodef \"mailto:dns-ops@comuto.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blablacar-bus-api/refs/heads/main/security/blablacar-bus-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/blablacar-bus-api/security/blablacar-bus-api-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Booking

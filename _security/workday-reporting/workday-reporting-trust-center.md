@@ -5,13 +5,13 @@ api_specs:
   label: Workday Reporting Report Metadata API
   slug: workday-reporting-report-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-reporting/refs/heads/main/openapi/workday-reporting-report-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/workday-reporting/openapi/workday-reporting-report-metadata-api-openapi.yml
 - filename: workday-reporting-reports-api-openapi.yml
   format: yaml
   label: Workday Reporting Reports API
   slug: workday-reporting-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-reporting/refs/heads/main/openapi/workday-reporting-reports-api-openapi.yml
+  url: https://artifacts.apis.io/workday-reporting/openapi/workday-reporting-reports-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -31,7 +31,7 @@ source_filename: workday-reporting-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://security.workday.com/\nurl: https://security.workday.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- FedRAMP\n- GDPR\nevidence:\n- source: https://security.workday.com/\n  keywords:\n  - soc 2\n  - iso 27001\n  - fedramp\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workday-reporting/refs/heads/main/security/workday-reporting-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/workday-reporting/security/workday-reporting-trust-center.yml
 summary_line: SOC 2, ISO 27001, FedRAMP, GDPR
 tags:
 - Analytics

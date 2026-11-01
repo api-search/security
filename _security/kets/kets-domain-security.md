@@ -27,7 +27,7 @@ source_filename: kets-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: kets-quantum.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  8 18:32:08 2026 GMT\n  hsts: null\ndomains:\n- domain: kets-quantum.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kets/refs/heads/main/security/kets-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kets/security/kets-domain-security.yml
 summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
 - Company

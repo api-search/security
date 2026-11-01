@@ -5,13 +5,13 @@ api_specs:
   label: PicPurify Image Analysis API
   slug: picpurify-image-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picpurify/refs/heads/main/openapi/picpurify-image-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/picpurify/openapi/picpurify-image-analysis-api-openapi.yml
 - filename: picpurify-video-analysis-api-openapi.yml
   format: yaml
   label: PicPurify Video Analysis API
   slug: picpurify-video-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picpurify/refs/heads/main/openapi/picpurify-video-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/picpurify/openapi/picpurify-video-analysis-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +40,7 @@ source_filename: picpurify-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.picpurify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 17 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: picpurify.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/picpurify/refs/heads/main/security/picpurify-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/picpurify/security/picpurify-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Image Moderation

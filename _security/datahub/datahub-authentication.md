@@ -7,37 +7,37 @@ api_specs:
   label: DataHub Actions Framework
   slug: datahub-actions-framework
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/asyncapi/datahub-actions-asyncapi.yml
+  url: https://artifacts.apis.io/datahub/asyncapi/datahub-actions-asyncapi.yml
 - filename: datahub-batch-api-openapi.yml
   format: yaml
   label: DataHub Batch API
   slug: datahub-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/openapi/datahub-batch-api-openapi.yml
+  url: https://artifacts.apis.io/datahub/openapi/datahub-batch-api-openapi.yml
 - filename: datahub-entities-api-openapi.yml
   format: yaml
   label: DataHub Entities API
   slug: datahub-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/openapi/datahub-entities-api-openapi.yml
+  url: https://artifacts.apis.io/datahub/openapi/datahub-entities-api-openapi.yml
 - filename: datahub-platform-api-openapi.yml
   format: yaml
   label: DataHub Platform API
   slug: datahub-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/openapi/datahub-platform-api-openapi.yml
+  url: https://artifacts.apis.io/datahub/openapi/datahub-platform-api-openapi.yml
 - filename: datahub-relationships-api-openapi.yml
   format: yaml
   label: DataHub Relationships API
   slug: datahub-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/openapi/datahub-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/datahub/openapi/datahub-relationships-api-openapi.yml
 - filename: datahub-timeline-api-openapi.yml
   format: yaml
   label: DataHub Timeline API
   slug: datahub-timeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/openapi/datahub-timeline-api-openapi.yml
+  url: https://artifacts.apis.io/datahub/openapi/datahub-timeline-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -65,7 +65,7 @@ source_filename: datahub-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/datahub-openapi-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: DataHub personal access token or session token. Generate tokens via the DataHub\n    settings panel or programmatically using the token management API. Pass the token in the\n    Authorization header as Bearer <token>.\n  sources:\n  - openapi/datahub-openapi-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/authentication/datahub-authentication.yml
+source_yaml_url: https://artifacts.apis.io/datahub/authentication/datahub-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Data Catalog

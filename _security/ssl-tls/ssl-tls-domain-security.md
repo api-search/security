@@ -5,31 +5,31 @@ api_specs:
   label: SSL/TLS Certificates API
   slug: ssl-tls-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/openapi/ssl-tls-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/ssl-tls/openapi/ssl-tls-certificates-api-openapi.yml
 - filename: ssl-tls-domains-api-openapi.yml
   format: yaml
   label: SSL/TLS Domains API
   slug: ssl-tls-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/openapi/ssl-tls-domains-api-openapi.yml
+  url: https://artifacts.apis.io/ssl-tls/openapi/ssl-tls-domains-api-openapi.yml
 - filename: ssl-tls-monitoring-api-openapi.yml
   format: yaml
   label: SSL/TLS Monitoring API
   slug: ssl-tls-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/openapi/ssl-tls-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/ssl-tls/openapi/ssl-tls-monitoring-api-openapi.yml
 - filename: ssl-tls-orders-api-openapi.yml
   format: yaml
   label: SSL/TLS Orders API
   slug: ssl-tls-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/openapi/ssl-tls-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ssl-tls/openapi/ssl-tls-orders-api-openapi.yml
 - filename: ssl-tls-revocation-api-openapi.yml
   format: yaml
   label: SSL/TLS Revocation API
   slug: ssl-tls-revocation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/openapi/ssl-tls-revocation-api-openapi.yml
+  url: https://artifacts.apis.io/ssl-tls/openapi/ssl-tls-revocation-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -86,7 +86,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: letsencrypt.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 15:24:33 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: acme-v02.api.letsencrypt.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 22:59:31 2026 GMT\n  hsts: true\n  hsts_max_age: 604800\n- host: www.digicert.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: letsencrypt.org\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issuewild \"www.digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: digicert.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issuewild \"digicert.com\"\n\
   \  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/security/ssl-tls-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ssl-tls/security/ssl-tls-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - SSL/TLS

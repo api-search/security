@@ -30,7 +30,7 @@ source_filename: joggr-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.joggr.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 00:10:06 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: joggr.ai\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/joggr/refs/heads/main/security/joggr-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/joggr/security/joggr-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Developer Tools

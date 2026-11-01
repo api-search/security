@@ -44,7 +44,7 @@ source_filename: betternight-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: betternight.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 04:24:13 2026 GMT\n  hsts: true\n  hsts_max_age: 0\n- host: sleep.betternight.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 13 23:59:59 2026 GMT\n  hsts: false\n- host: admin.betternight.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 13 23:59:59 2026 GMT\n  hsts: false\n- host: www.support.betternight.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 12:22:53 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: betternight.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/betternight/refs/heads/main/security/betternight-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/betternight/security/betternight-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

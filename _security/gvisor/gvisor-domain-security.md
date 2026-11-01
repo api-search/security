@@ -27,7 +27,7 @@ source_filename: gvisor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gvisor.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 05:03:31 2026 GMT\n  hsts: false\ndomains:\n- domain: gvisor.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gvisor/refs/heads/main/security/gvisor-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gvisor/security/gvisor-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Containers

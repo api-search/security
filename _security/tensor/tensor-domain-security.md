@@ -5,55 +5,55 @@ api_specs:
   label: Tensor WebSocket API
   slug: tensor-websocket-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/asyncapi/tensor-websocket-api-asyncapi.yml
+  url: https://artifacts.apis.io/tensor/asyncapi/tensor-websocket-api-asyncapi.yml
 - filename: tensor-bids-api-openapi.yml
   format: yaml
   label: Tensor Bids API
   slug: tensor-bids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/openapi/tensor-bids-api-openapi.yml
+  url: https://artifacts.apis.io/tensor/openapi/tensor-bids-api-openapi.yml
 - filename: tensor-collections-api-openapi.yml
   format: yaml
   label: Tensor Collections API
   slug: tensor-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/openapi/tensor-collections-api-openapi.yml
+  url: https://artifacts.apis.io/tensor/openapi/tensor-collections-api-openapi.yml
 - filename: tensor-escrow-api-openapi.yml
   format: yaml
   label: Tensor Escrow API
   slug: tensor-escrow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/openapi/tensor-escrow-api-openapi.yml
+  url: https://artifacts.apis.io/tensor/openapi/tensor-escrow-api-openapi.yml
 - filename: tensor-listings-api-openapi.yml
   format: yaml
   label: Tensor Listings API
   slug: tensor-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/openapi/tensor-listings-api-openapi.yml
+  url: https://artifacts.apis.io/tensor/openapi/tensor-listings-api-openapi.yml
 - filename: tensor-pools-api-openapi.yml
   format: yaml
   label: Tensor Pools API
   slug: tensor-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/openapi/tensor-pools-api-openapi.yml
+  url: https://artifacts.apis.io/tensor/openapi/tensor-pools-api-openapi.yml
 - filename: tensor-user-api-openapi.yml
   format: yaml
   label: Tensor User API
   slug: tensor-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/openapi/tensor-user-api-openapi.yml
+  url: https://artifacts.apis.io/tensor/openapi/tensor-user-api-openapi.yml
 - filename: tensor-utility-api-openapi.yml
   format: yaml
   label: Tensor Utility API
   slug: tensor-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/openapi/tensor-utility-api-openapi.yml
+  url: https://artifacts.apis.io/tensor/openapi/tensor-utility-api-openapi.yml
 - filename: tensor-nfts-api-openapi.yml
   format: yaml
   label: Tensor NF Ts API
   slug: tensor-nfts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/openapi/tensor-nfts-api-openapi.yml
+  url: https://artifacts.apis.io/tensor/openapi/tensor-nfts-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -101,7 +101,7 @@ source_filename: tensor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tensor.trade\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  9 04:57:13 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: www.tensor.foundation\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 14:11:53 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: dev.tensor.trade\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 14:31:34 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\ndomains:\n- domain: tensor.trade\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: tensor.foundation\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/security/tensor-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tensor/security/tensor-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - NFT

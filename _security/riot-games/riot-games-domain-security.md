@@ -5,49 +5,49 @@ api_specs:
   label: Riot Games Champion API
   slug: riot-games-champion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/openapi/riot-games-champion-api-openapi.yml
+  url: https://artifacts.apis.io/riot-games/openapi/riot-games-champion-api-openapi.yml
 - filename: riot-games-champion-mastery-api-openapi.yml
   format: yaml
   label: Riot Games Champion Mastery API
   slug: riot-games-champion-mastery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/openapi/riot-games-champion-mastery-api-openapi.yml
+  url: https://artifacts.apis.io/riot-games/openapi/riot-games-champion-mastery-api-openapi.yml
 - filename: riot-games-clash-api-openapi.yml
   format: yaml
   label: Riot Games Clash API
   slug: riot-games-clash-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/openapi/riot-games-clash-api-openapi.yml
+  url: https://artifacts.apis.io/riot-games/openapi/riot-games-clash-api-openapi.yml
 - filename: riot-games-league-api-openapi.yml
   format: yaml
   label: Riot Games League API
   slug: riot-games-league-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/openapi/riot-games-league-api-openapi.yml
+  url: https://artifacts.apis.io/riot-games/openapi/riot-games-league-api-openapi.yml
 - filename: riot-games-match-api-openapi.yml
   format: yaml
   label: Riot Games Match API
   slug: riot-games-match-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/openapi/riot-games-match-api-openapi.yml
+  url: https://artifacts.apis.io/riot-games/openapi/riot-games-match-api-openapi.yml
 - filename: riot-games-spectator-api-openapi.yml
   format: yaml
   label: Riot Games Spectator API
   slug: riot-games-spectator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/openapi/riot-games-spectator-api-openapi.yml
+  url: https://artifacts.apis.io/riot-games/openapi/riot-games-spectator-api-openapi.yml
 - filename: riot-games-status-api-openapi.yml
   format: yaml
   label: Riot Games Status API
   slug: riot-games-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/openapi/riot-games-status-api-openapi.yml
+  url: https://artifacts.apis.io/riot-games/openapi/riot-games-status-api-openapi.yml
 - filename: riot-games-summoner-api-openapi.yml
   format: yaml
   label: Riot Games Summoner API
   slug: riot-games-summoner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/openapi/riot-games-summoner-api-openapi.yml
+  url: https://artifacts.apis.io/riot-games/openapi/riot-games-summoner-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -87,7 +87,7 @@ source_filename: riot-games-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.riotgames.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  2 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.riotgames.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 21 05:49:40 2026 GMT\n  hsts: false\n- host: na1.api.riotgames.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 05:54:17 2026 GMT\n  hsts: null\ndomains:\n- domain: riotgames.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/security/riot-games-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/riot-games/security/riot-games-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Esports

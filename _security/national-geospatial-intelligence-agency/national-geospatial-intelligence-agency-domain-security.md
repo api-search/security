@@ -5,25 +5,25 @@ api_specs:
   label: National Geospatial-Intelligence Agency Clock API
   slug: national-geospatial-intelligence-agency-clock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-geospatial-intelligence-agency/refs/heads/main/openapi/national-geospatial-intelligence-agency-clock-api-openapi.yml
+  url: https://artifacts.apis.io/national-geospatial-intelligence-agency/openapi/national-geospatial-intelligence-agency-clock-api-openapi.yml
 - filename: national-geospatial-intelligence-agency-eopp-api-openapi.yml
   format: yaml
   label: National Geospatial-Intelligence Agency EOPP API
   slug: national-geospatial-intelligence-agency-eopp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-geospatial-intelligence-agency/refs/heads/main/openapi/national-geospatial-intelligence-agency-eopp-api-openapi.yml
+  url: https://artifacts.apis.io/national-geospatial-intelligence-agency/openapi/national-geospatial-intelligence-agency-eopp-api-openapi.yml
 - filename: national-geospatial-intelligence-agency-ephemeris-api-openapi.yml
   format: yaml
   label: National Geospatial-Intelligence Agency Ephemeris API
   slug: national-geospatial-intelligence-agency-ephemeris-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-geospatial-intelligence-agency/refs/heads/main/openapi/national-geospatial-intelligence-agency-ephemeris-api-openapi.yml
+  url: https://artifacts.apis.io/national-geospatial-intelligence-agency/openapi/national-geospatial-intelligence-agency-ephemeris-api-openapi.yml
 - filename: national-geospatial-intelligence-agency-orbit-api-openapi.yml
   format: yaml
   label: National Geospatial-Intelligence Agency Orbit API
   slug: national-geospatial-intelligence-agency-orbit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-geospatial-intelligence-agency/refs/heads/main/openapi/national-geospatial-intelligence-agency-orbit-api-openapi.yml
+  url: https://artifacts.apis.io/national-geospatial-intelligence-agency/openapi/national-geospatial-intelligence-agency-orbit-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: national-geospatial-intelligence-agency-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nga.mil\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 19 22:38:24 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: earth-info.nga.mil\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec  2 20:31:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: nga.mil\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-geospatial-intelligence-agency/refs/heads/main/security/national-geospatial-intelligence-agency-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/national-geospatial-intelligence-agency/security/national-geospatial-intelligence-agency-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Federal Government

@@ -8,7 +8,7 @@ api_specs:
   label: Tettra Teams API
   slug: tettra-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tettra/refs/heads/main/openapi/tettra-teams-api-openapi.yml
+  url: https://artifacts.apis.io/tettra/openapi/tettra-teams-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: tettra-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: API key for authentication. Available on Scaling and Enterprise plans. Determines\n    the acting user for operations such as creating questions.\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tettra/refs/heads/main/authentication/tettra-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tettra/authentication/tettra-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Knowledge Management

@@ -45,7 +45,7 @@ source_filename: stifel-financial-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.stifel.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 11:55:22 2026 GMT\n  hsts: true\n  hsts_max_age: 3153600\n- host: fintable.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 11 19:06:50 2026 GMT\n  hsts: false\ndomains:\n- domain: stifel.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: fintable.io\n  dnssec: false\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stifel-financial/refs/heads/main/security/stifel-financial-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/stifel-financial/security/stifel-financial-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Finance

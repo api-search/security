@@ -8,55 +8,55 @@ api_specs:
   label: Brainfish Agents API
   slug: brainfish-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/openapi/brainfish-agents-api-openapi.yml
+  url: https://artifacts.apis.io/brainfish/openapi/brainfish-agents-api-openapi.yml
 - filename: brainfish-analytics-api-openapi.yml
   format: yaml
   label: Brainfish Analytics API
   slug: brainfish-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/openapi/brainfish-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/brainfish/openapi/brainfish-analytics-api-openapi.yml
 - filename: brainfish-authentication-api-openapi.yml
   format: yaml
   label: Brainfish Authentication API
   slug: brainfish-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/openapi/brainfish-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/brainfish/openapi/brainfish-authentication-api-openapi.yml
 - filename: brainfish-catalogs-api-openapi.yml
   format: yaml
   label: Brainfish Catalogs API
   slug: brainfish-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/openapi/brainfish-catalogs-api-openapi.yml
+  url: https://artifacts.apis.io/brainfish/openapi/brainfish-catalogs-api-openapi.yml
 - filename: brainfish-collections-api-openapi.yml
   format: yaml
   label: Brainfish Collections API
   slug: brainfish-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/openapi/brainfish-collections-api-openapi.yml
+  url: https://artifacts.apis.io/brainfish/openapi/brainfish-collections-api-openapi.yml
 - filename: brainfish-conversations-api-openapi.yml
   format: yaml
   label: Brainfish Conversations API
   slug: brainfish-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/openapi/brainfish-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/brainfish/openapi/brainfish-conversations-api-openapi.yml
 - filename: brainfish-documents-api-openapi.yml
   format: yaml
   label: Brainfish Documents API
   slug: brainfish-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/openapi/brainfish-documents-api-openapi.yml
+  url: https://artifacts.apis.io/brainfish/openapi/brainfish-documents-api-openapi.yml
 - filename: brainfish-sessions-api-openapi.yml
   format: yaml
   label: Brainfish Sessions API
   slug: brainfish-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/openapi/brainfish-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/brainfish/openapi/brainfish-sessions-api-openapi.yml
 - filename: brainfish-users-api-openapi.yml
   format: yaml
   label: Brainfish Users API
   slug: brainfish-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/openapi/brainfish-users-api-openapi.yml
+  url: https://artifacts.apis.io/brainfish/openapi/brainfish-users-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -115,7 +115,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/brainfish-public-api-openapi-original.json\ndocs: https://docs.brainfi.sh/api-reference\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: API Token\n  description: |-\n    Bearer token authentication. Include your API token in the Authorization header.\n\n    Example: `Authorization: Bearer [example key]`\n\n    Create tokens in your Brainfish dashboard under Settings → API Tokens.\n  sources:\n  - openapi/brainfish-public-api-openapi-original.json\n- name: AccessToken\n  type: apiKey\n  in: header\n  parameter: access-token\n  description: |-\n    **Deprecated**: Use Bearer authentication instead.\n\n    Legacy access token header for backward compatibility. Must start with `bf_api_`.\n\n    Create tokens in your Brainfish dashboard under Settings → API Tokens.\n  sources:\n  - openapi/brainfish-public-api-openapi-original.json\n\
   - name: AgentKey\n  type: apiKey\n  in: header\n  parameter: agent-key\n  description: |-\n    Agent key identifier that specifies which AI agent/widget to use for the request.\n\n    Find agent keys in your Brainfish dashboard under Agents. Click on any agent key to copy it.\n  sources:\n  - openapi/brainfish-public-api-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/authentication/brainfish-authentication.yml
+source_yaml_url: https://artifacts.apis.io/brainfish/authentication/brainfish-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Company

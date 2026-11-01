@@ -9,55 +9,55 @@ api_specs:
   label: Enso Ccip API
   slug: enso-ccip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enso/refs/heads/main/openapi/enso-ccip-api-openapi.yml
+  url: https://artifacts.apis.io/enso/openapi/enso-ccip-api-openapi.yml
 - filename: enso-cctp-api-openapi.yml
   format: yaml
   label: Enso Cctp API
   slug: enso-cctp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enso/refs/heads/main/openapi/enso-cctp-api-openapi.yml
+  url: https://artifacts.apis.io/enso/openapi/enso-cctp-api-openapi.yml
 - filename: enso-layerzero-api-openapi.yml
   format: yaml
   label: Enso Layerzero API
   slug: enso-layerzero-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enso/refs/heads/main/openapi/enso-layerzero-api-openapi.yml
+  url: https://artifacts.apis.io/enso/openapi/enso-layerzero-api-openapi.yml
 - filename: enso-metadata-api-openapi.yml
   format: yaml
   label: Enso Metadata API
   slug: enso-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enso/refs/heads/main/openapi/enso-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/enso/openapi/enso-metadata-api-openapi.yml
 - filename: enso-projects-api-openapi.yml
   format: yaml
   label: Enso Projects API
   slug: enso-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enso/refs/heads/main/openapi/enso-projects-api-openapi.yml
+  url: https://artifacts.apis.io/enso/openapi/enso-projects-api-openapi.yml
 - filename: enso-relay-api-openapi.yml
   format: yaml
   label: Enso Relay API
   slug: enso-relay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enso/refs/heads/main/openapi/enso-relay-api-openapi.yml
+  url: https://artifacts.apis.io/enso/openapi/enso-relay-api-openapi.yml
 - filename: enso-shortcuts-api-openapi.yml
   format: yaml
   label: Enso Shortcuts API
   slug: enso-shortcuts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enso/refs/heads/main/openapi/enso-shortcuts-api-openapi.yml
+  url: https://artifacts.apis.io/enso/openapi/enso-shortcuts-api-openapi.yml
 - filename: enso-standards-api-openapi.yml
   format: yaml
   label: Enso Standards API
   slug: enso-standards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enso/refs/heads/main/openapi/enso-standards-api-openapi.yml
+  url: https://artifacts.apis.io/enso/openapi/enso-standards-api-openapi.yml
 - filename: enso-wallet-api-openapi.yml
   format: yaml
   label: Enso Wallet API
   slug: enso-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enso/refs/heads/main/openapi/enso-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/enso/openapi/enso-wallet-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -86,7 +86,7 @@ source_filename: enso-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/enso-openapi-original.json\ndocs: https://docs.enso.build/pages/build/get-started/authentication\nsummary:\n  types:\n  - http\n  api_key_in:\n  - header\n  - query\n  scheme: bearer\n  get_key: https://developers.enso.build/\n  rate_limit: 10 rps (600 requests/minute), increasable on request; 429 on exceed\n  demo_key: 1e02632d-6feb-4a75-a157-documentation (1 rps, documentation only)\nschemes:\n- name: bearer\n  type: http\n  scheme: bearer\n  bearerFormat: apiKey\n  location: Authorization header, \"Bearer <API_KEY>\"\n  alt_location: query parameter apikey=<API_KEY>\n  sources:\n  - openapi/enso-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/enso/refs/heads/main/authentication/enso-authentication.yml
+source_yaml_url: https://artifacts.apis.io/enso/authentication/enso-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

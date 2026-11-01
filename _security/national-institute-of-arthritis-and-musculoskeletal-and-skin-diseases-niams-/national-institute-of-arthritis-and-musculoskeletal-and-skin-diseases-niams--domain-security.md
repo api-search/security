@@ -33,7 +33,7 @@ source_filename: national-institute-of-arthritis-and-musculoskeletal-and-skin-di
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.niams.nih.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 15:25:27 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: nih.gov\n  dnssec: true\n  caa:\n  - 0 issuewild \"amazon.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issuewild \"globalsign.com\"\n  - 0 issuewild \"identrust.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"letsencrypt.org\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-institute-of-arthritis-and-musculoskeletal-and-skin-diseases-niams-/refs/heads/main/security/national-institute-of-arthritis-and-musculoskeletal-and-skin-diseases-niams--domain-security.yml
+source_yaml_url: https://artifacts.apis.io/national-institute-of-arthritis-and-musculoskeletal-and-skin-diseases-niams-/security/national-institute-of-arthritis-and-musculoskeletal-and-skin-diseases-niams--domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Federal Government

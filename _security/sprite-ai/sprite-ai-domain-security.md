@@ -1,29 +1,35 @@
 ---
 api_specs:
+- filename: sprite-ai-openapi-generated.yml
+  format: yaml
+  label: Sprite AI API
+  slug: sprite-ai-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sprite-ai/openapi/_ae-authored/sprite-ai-openapi-generated.yml
 - filename: sprite-ai-cancel-api-openapi.yml
   format: yaml
   label: Sprite AI Cancel API
   slug: sprite-ai-cancel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprite-ai/refs/heads/main/openapi/sprite-ai-cancel-api-openapi.yml
+  url: https://artifacts.apis.io/sprite-ai/openapi/sprite-ai-cancel-api-openapi.yml
 - filename: sprite-ai-palettes-api-openapi.yml
   format: yaml
   label: Sprite AI Palettes API
   slug: sprite-ai-palettes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprite-ai/refs/heads/main/openapi/sprite-ai-palettes-api-openapi.yml
+  url: https://artifacts.apis.io/sprite-ai/openapi/sprite-ai-palettes-api-openapi.yml
 - filename: sprite-ai-sprite-ai-api-api-openapi.yml
   format: yaml
   label: Sprite AI Sprite AI API
   slug: sprite-ai-sprite-ai-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprite-ai/refs/heads/main/openapi/sprite-ai-sprite-ai-api-api-openapi.yml
+  url: https://artifacts.apis.io/sprite-ai/openapi/sprite-ai-sprite-ai-api-api-openapi.yml
 - filename: sprite-ai-sprites-api-openapi.yml
   format: yaml
   label: Sprite AI Sprites API
   slug: sprite-ai-sprites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprite-ai/refs/heads/main/openapi/sprite-ai-sprites-api-openapi.yml
+  url: https://artifacts.apis.io/sprite-ai/openapi/sprite-ai-sprites-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +59,7 @@ source_filename: sprite-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sprite-ai.art\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 02:48:28 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: sprite-ai.art\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sprite-ai/refs/heads/main/security/sprite-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sprite-ai/security/sprite-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

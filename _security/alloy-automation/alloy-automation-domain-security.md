@@ -1,65 +1,77 @@
 ---
 api_specs:
-- filename: alloy-automation-connectivity-api-openapi.yml
-  format: yaml
-  label: Alloy Automation Connectivity API
-  slug: alloy-automation-connectivity-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-connectivity-api-openapi.yml
 - filename: alloy-automation-credentials-api-openapi.yml
   format: yaml
   label: Alloy Automation Credentials API
   slug: alloy-automation-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-automation/openapi/alloy-automation-credentials-api-openapi.yml
 - filename: alloy-automation-events-api-openapi.yml
   format: yaml
   label: Alloy Automation Events API
   slug: alloy-automation-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-events-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-automation/openapi/alloy-automation-events-api-openapi.yml
 - filename: alloy-automation-integrations-api-openapi.yml
   format: yaml
   label: Alloy Automation Integrations API
   slug: alloy-automation-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-automation/openapi/alloy-automation-integrations-api-openapi.yml
 - filename: alloy-automation-passthrough-api-openapi.yml
   format: yaml
   label: Alloy Automation Passthrough API
   slug: alloy-automation-passthrough-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-passthrough-api-openapi.yml
-- filename: alloy-automation-unified-accounting-api-openapi.yml
-  format: yaml
-  label: Alloy Automation Unified Accounting API
-  slug: alloy-automation-unified-accounting-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-unified-accounting-api-openapi.yml
-- filename: alloy-automation-unified-commerce-api-openapi.yml
-  format: yaml
-  label: Alloy Automation Unified Commerce API
-  slug: alloy-automation-unified-commerce-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-unified-commerce-api-openapi.yml
-- filename: alloy-automation-unified-crm-api-openapi.yml
-  format: yaml
-  label: Alloy Automation Unified CRM API
-  slug: alloy-automation-unified-crm-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-unified-crm-api-openapi.yml
-- filename: alloy-automation-user-tokens-api-openapi.yml
-  format: yaml
-  label: Alloy Automation User Tokens API
-  slug: alloy-automation-user-tokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-user-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-automation/openapi/alloy-automation-passthrough-api-openapi.yml
 - filename: alloy-automation-users-api-openapi.yml
   format: yaml
   label: Alloy Automation Users API
   slug: alloy-automation-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-users-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-automation/openapi/alloy-automation-users-api-openapi.yml
+- filename: alloy-automation-analytics-api-openapi.yml
+  format: yaml
+  label: Alloy Automation Analytics API
+  slug: alloy-automation-analytics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/alloy-automation/openapi/alloy-automation-analytics-api-openapi.yml
+- filename: alloy-automation-headless-api-openapi.yml
+  format: yaml
+  label: Alloy Automation Headless API
+  slug: alloy-automation-headless-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/alloy-automation/openapi/alloy-automation-headless-api-openapi.yml
+- filename: alloy-automation-installations-api-openapi.yml
+  format: yaml
+  label: Alloy Automation Installations API
+  slug: alloy-automation-installations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/alloy-automation/openapi/alloy-automation-installations-api-openapi.yml
+- filename: alloy-automation-logs-api-openapi.yml
+  format: yaml
+  label: Alloy Automation Logs API
+  slug: alloy-automation-logs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/alloy-automation/openapi/alloy-automation-logs-api-openapi.yml
+- filename: alloy-automation-metadata-api-openapi.yml
+  format: yaml
+  label: Alloy Automation Metadata API
+  slug: alloy-automation-metadata-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/alloy-automation/openapi/alloy-automation-metadata-api-openapi.yml
+- filename: alloy-automation-run-api-openapi.yml
+  format: yaml
+  label: Alloy Automation Run API
+  slug: alloy-automation-run-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/alloy-automation/openapi/alloy-automation-run-api-openapi.yml
+- filename: alloy-automation-workflows-api-openapi.yml
+  format: yaml
+  label: Alloy Automation Workflows API
+  slug: alloy-automation-workflows-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/alloy-automation/openapi/alloy-automation-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -99,7 +111,7 @@ source_filename: alloy-automation-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: runalloy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 21 23:59:59 2026 GMT\n  hsts: false\n- host: docs.runalloy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 19:15:53 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: embedded.runalloy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: runalloy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/security/alloy-automation-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/alloy-automation/security/alloy-automation-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - iPaaS

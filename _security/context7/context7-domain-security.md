@@ -5,31 +5,31 @@ api_specs:
   label: Context7 Add API
   slug: context7-add-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/context7/refs/heads/main/openapi/context7-add-api-openapi.yml
+  url: https://artifacts.apis.io/context7/openapi/context7-add-api-openapi.yml
 - filename: context7-context-api-openapi.yml
   format: yaml
   label: Context7 Context API
   slug: context7-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/context7/refs/heads/main/openapi/context7-context-api-openapi.yml
+  url: https://artifacts.apis.io/context7/openapi/context7-context-api-openapi.yml
 - filename: context7-libs-api-openapi.yml
   format: yaml
   label: Context7 Libs API
   slug: context7-libs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/context7/refs/heads/main/openapi/context7-libs-api-openapi.yml
+  url: https://artifacts.apis.io/context7/openapi/context7-libs-api-openapi.yml
 - filename: context7-policies-api-openapi.yml
   format: yaml
   label: Context7 Policies API
   slug: context7-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/context7/refs/heads/main/openapi/context7-policies-api-openapi.yml
+  url: https://artifacts.apis.io/context7/openapi/context7-policies-api-openapi.yml
 - filename: context7-refresh-api-openapi.yml
   format: yaml
   label: Context7 Refresh API
   slug: context7-refresh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/context7/refs/heads/main/openapi/context7-refresh-api-openapi.yml
+  url: https://artifacts.apis.io/context7/openapi/context7-refresh-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: context7-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: context7.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 06:50:31 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: mcp.context7.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 19 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: context7.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/context7/refs/heads/main/security/context7-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/context7/security/context7-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Artificial Intelligence

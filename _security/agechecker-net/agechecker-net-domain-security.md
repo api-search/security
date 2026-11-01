@@ -5,19 +5,19 @@ api_specs:
   label: AgeChecker.Net Sessions API
   slug: agechecker-net-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agechecker-net/refs/heads/main/openapi/agechecker-net-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/agechecker-net/openapi/agechecker-net-sessions-api-openapi.yml
 - filename: agechecker-net-verification-api-openapi.yml
   format: yaml
   label: AgeChecker.Net Verification API
   slug: agechecker-net-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agechecker-net/refs/heads/main/openapi/agechecker-net-verification-api-openapi.yml
+  url: https://artifacts.apis.io/agechecker-net/openapi/agechecker-net-verification-api-openapi.yml
 - filename: agechecker-net-webhooks-api-openapi.yml
   format: yaml
   label: AgeChecker.Net Webhooks API
   slug: agechecker-net-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agechecker-net/refs/heads/main/openapi/agechecker-net-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/agechecker-net/openapi/agechecker-net-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: agechecker-net-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: agechecker.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.agechecker.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 86400\ndomains:\n- domain: agechecker.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agechecker-net/refs/heads/main/security/agechecker-net-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/agechecker-net/security/agechecker-net-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Age Verification

@@ -16,7 +16,7 @@ source_filename: bayzat-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-09-27'\nmethod: searched\nprobe: true\nsource: https://www.bayzat.com/security\nurl: https://www.bayzat.com/security\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://www.bayzat.com/security\n  keywords:\n  - soc 2\n  - iso 27001\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bayzat/refs/heads/main/security/bayzat-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/bayzat/security/bayzat-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Human Resources

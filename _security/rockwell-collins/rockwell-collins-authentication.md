@@ -8,43 +8,43 @@ api_specs:
   label: Rockwell Collins Airports API
   slug: rockwell-collins-airports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/openapi/rockwell-collins-airports-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-collins/openapi/rockwell-collins-airports-api-openapi.yml
 - filename: rockwell-collins-alerts-api-openapi.yml
   format: yaml
   label: Rockwell Collins Alerts API
   slug: rockwell-collins-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/openapi/rockwell-collins-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-collins/openapi/rockwell-collins-alerts-api-openapi.yml
 - filename: rockwell-collins-flights-api-openapi.yml
   format: yaml
   label: Rockwell Collins Flights API
   slug: rockwell-collins-flights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/openapi/rockwell-collins-flights-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-collins/openapi/rockwell-collins-flights-api-openapi.yml
 - filename: rockwell-collins-foresight-api-openapi.yml
   format: yaml
   label: Rockwell Collins Foresight API
   slug: rockwell-collins-foresight-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/openapi/rockwell-collins-foresight-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-collins/openapi/rockwell-collins-foresight-api-openapi.yml
 - filename: rockwell-collins-history-api-openapi.yml
   format: yaml
   label: Rockwell Collins History API
   slug: rockwell-collins-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/openapi/rockwell-collins-history-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-collins/openapi/rockwell-collins-history-api-openapi.yml
 - filename: rockwell-collins-miscellaneous-api-openapi.yml
   format: yaml
   label: Rockwell Collins Miscellaneous API
   slug: rockwell-collins-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/openapi/rockwell-collins-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-collins/openapi/rockwell-collins-miscellaneous-api-openapi.yml
 - filename: rockwell-collins-operators-api-openapi.yml
   format: yaml
   label: Rockwell Collins Operators API
   slug: rockwell-collins-operators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/openapi/rockwell-collins-operators-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-collins/openapi/rockwell-collins-operators-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -76,7 +76,7 @@ source_filename: rockwell-collins-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/flightaware-aeroapi-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-apikey\n  description: |-\n    Unlike previous versions of AeroAPI, authentication is now controlled by\n    an API key that must be set in the header ```x-apikey```. Your\n    FlightAware username is not used when authenticating to the API.\n  sources:\n  - openapi/flightaware-aeroapi-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/authentication/rockwell-collins-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rockwell-collins/authentication/rockwell-collins-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Avionics

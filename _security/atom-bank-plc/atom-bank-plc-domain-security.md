@@ -28,7 +28,7 @@ source_filename: atom-bank-plc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.atombank.co.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  7 14:00:25 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: atombank.co.uk\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atom-bank-plc/refs/heads/main/security/atom-bank-plc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/atom-bank-plc/security/atom-bank-plc-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

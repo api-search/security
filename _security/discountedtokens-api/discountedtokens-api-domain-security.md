@@ -5,25 +5,25 @@ api_specs:
   label: DiscountedTokens API Messages API
   slug: discountedtokens-api-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discountedtokens-api/refs/heads/main/openapi/discountedtokens-api-messages-api-openapi.yml
+  url: https://artifacts.apis.io/discountedtokens-api/openapi/discountedtokens-api-messages-api-openapi.yml
 - filename: discountedtokens-api-models-api-openapi.yml
   format: yaml
   label: DiscountedTokens API Models API
   slug: discountedtokens-api-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discountedtokens-api/refs/heads/main/openapi/discountedtokens-api-models-api-openapi.yml
+  url: https://artifacts.apis.io/discountedtokens-api/openapi/discountedtokens-api-models-api-openapi.yml
 - filename: discountedtokens-api-responses-api-openapi.yml
   format: yaml
   label: DiscountedTokens API Responses API
   slug: discountedtokens-api-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discountedtokens-api/refs/heads/main/openapi/discountedtokens-api-responses-api-openapi.yml
+  url: https://artifacts.apis.io/discountedtokens-api/openapi/discountedtokens-api-responses-api-openapi.yml
 - filename: discountedtokens-api-chat-completions-api-openapi.yml
   format: yaml
   label: DiscountedTokens API Chat Completions API
   slug: discountedtokens-api-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discountedtokens-api/refs/heads/main/openapi/discountedtokens-api-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/discountedtokens-api/openapi/discountedtokens-api-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: discountedtokens-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: discountedtokens.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 11:13:14 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: discountedtokens.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/discountedtokens-api/refs/heads/main/security/discountedtokens-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/discountedtokens-api/security/discountedtokens-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Artificial Intelligence

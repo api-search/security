@@ -5,61 +5,61 @@ api_specs:
   label: Hedera Accounts API
   slug: hedera-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/openapi/hedera-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/hedera/openapi/hedera-accounts-api-openapi.yml
 - filename: hedera-airdrops-api-openapi.yml
   format: yaml
   label: Hedera Airdrops API
   slug: hedera-airdrops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/openapi/hedera-airdrops-api-openapi.yml
+  url: https://artifacts.apis.io/hedera/openapi/hedera-airdrops-api-openapi.yml
 - filename: hedera-balances-api-openapi.yml
   format: yaml
   label: Hedera Balances API
   slug: hedera-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/openapi/hedera-balances-api-openapi.yml
+  url: https://artifacts.apis.io/hedera/openapi/hedera-balances-api-openapi.yml
 - filename: hedera-blocks-api-openapi.yml
   format: yaml
   label: Hedera Blocks API
   slug: hedera-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/openapi/hedera-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/hedera/openapi/hedera-blocks-api-openapi.yml
 - filename: hedera-contracts-api-openapi.yml
   format: yaml
   label: Hedera Contracts API
   slug: hedera-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/openapi/hedera-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/hedera/openapi/hedera-contracts-api-openapi.yml
 - filename: hedera-network-api-openapi.yml
   format: yaml
   label: Hedera Network API
   slug: hedera-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/openapi/hedera-network-api-openapi.yml
+  url: https://artifacts.apis.io/hedera/openapi/hedera-network-api-openapi.yml
 - filename: hedera-schedules-api-openapi.yml
   format: yaml
   label: Hedera Schedules API
   slug: hedera-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/openapi/hedera-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/hedera/openapi/hedera-schedules-api-openapi.yml
 - filename: hedera-tokens-api-openapi.yml
   format: yaml
   label: Hedera Tokens API
   slug: hedera-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/openapi/hedera-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/hedera/openapi/hedera-tokens-api-openapi.yml
 - filename: hedera-topics-api-openapi.yml
   format: yaml
   label: Hedera Topics API
   slug: hedera-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/openapi/hedera-topics-api-openapi.yml
+  url: https://artifacts.apis.io/hedera/openapi/hedera-topics-api-openapi.yml
 - filename: hedera-transactions-api-openapi.yml
   format: yaml
   label: Hedera Transactions API
   slug: hedera-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/openapi/hedera-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/hedera/openapi/hedera-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -100,7 +100,7 @@ source_filename: hedera-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: portal.hedera.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 15:59:11 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.hedera.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 17:25:19 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: mainnet.mirrornode.hedera.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 03:42:55 2026 GMT\n  hsts: null\ndomains:\n- domain: hedera.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/security/hedera-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hedera/security/hedera-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Hedera

@@ -8,13 +8,13 @@ api_specs:
   label: The Open Movie Database Movies API
   slug: the-open-movie-database-movies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-open-movie-database/refs/heads/main/openapi/the-open-movie-database-movies-api-openapi.yml
+  url: https://artifacts.apis.io/the-open-movie-database/openapi/the-open-movie-database-movies-api-openapi.yml
 - filename: the-open-movie-database-search-api-openapi.yml
   format: yaml
   label: The Open Movie Database Search API
   slug: the-open-movie-database-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-open-movie-database/refs/heads/main/openapi/the-open-movie-database-search-api-openapi.yml
+  url: https://artifacts.apis.io/the-open-movie-database/openapi/the-open-movie-database-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -41,7 +41,7 @@ source_filename: the-open-movie-database-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/the-open-movie-database-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: apikey\n  sources:\n  - openapi/the-open-movie-database-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-open-movie-database/refs/heads/main/authentication/the-open-movie-database-authentication.yml
+source_yaml_url: https://artifacts.apis.io/the-open-movie-database/authentication/the-open-movie-database-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Entertainment

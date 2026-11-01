@@ -5,37 +5,37 @@ api_specs:
   label: CloudZero Allocation Telemetry API
   slug: cloudzero-allocation-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/openapi/cloudzero-allocation-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/cloudzero/openapi/cloudzero-allocation-telemetry-api-openapi.yml
 - filename: cloudzero-anycost-api-openapi.yml
   format: yaml
   label: CloudZero AnyCost API
   slug: cloudzero-anycost-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/openapi/cloudzero-anycost-api-openapi.yml
+  url: https://artifacts.apis.io/cloudzero/openapi/cloudzero-anycost-api-openapi.yml
 - filename: cloudzero-billing-api-openapi.yml
   format: yaml
   label: CloudZero Billing API
   slug: cloudzero-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/openapi/cloudzero-billing-api-openapi.yml
+  url: https://artifacts.apis.io/cloudzero/openapi/cloudzero-billing-api-openapi.yml
 - filename: cloudzero-budgets-api-openapi.yml
   format: yaml
   label: CloudZero Budgets API
   slug: cloudzero-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/openapi/cloudzero-budgets-api-openapi.yml
+  url: https://artifacts.apis.io/cloudzero/openapi/cloudzero-budgets-api-openapi.yml
 - filename: cloudzero-insights-api-openapi.yml
   format: yaml
   label: CloudZero Insights API
   slug: cloudzero-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/openapi/cloudzero-insights-api-openapi.yml
+  url: https://artifacts.apis.io/cloudzero/openapi/cloudzero-insights-api-openapi.yml
 - filename: cloudzero-unit-metric-telemetry-api-openapi.yml
   format: yaml
   label: CloudZero Unit Metric Telemetry API
   slug: cloudzero-unit-metric-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/openapi/cloudzero-unit-metric-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/cloudzero/openapi/cloudzero-unit-metric-telemetry-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: cloudzero-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cloudzero.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 22:20:58 2026 GMT\n  hsts: false\n- host: app.cloudzero.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  9 23:59:59 2026 GMT\n  hsts: false\n- host: docs.cloudzero.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 17:07:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: cloudzero.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/security/cloudzero-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cloudzero/security/cloudzero-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Budgets

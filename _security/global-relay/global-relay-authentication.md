@@ -7,31 +7,31 @@ api_specs:
   label: Global Relay Conversations API
   slug: global-relay-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/openapi/global-relay-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/global-relay/openapi/global-relay-conversations-api-openapi.yml
 - filename: global-relay-email-api-openapi.yml
   format: yaml
   label: Global Relay Email API
   slug: global-relay-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/openapi/global-relay-email-api-openapi.yml
+  url: https://artifacts.apis.io/global-relay/openapi/global-relay-email-api-openapi.yml
 - filename: global-relay-events-api-openapi.yml
   format: yaml
   label: Global Relay Events API
   slug: global-relay-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/openapi/global-relay-events-api-openapi.yml
+  url: https://artifacts.apis.io/global-relay/openapi/global-relay-events-api-openapi.yml
 - filename: global-relay-files-api-openapi.yml
   format: yaml
   label: Global Relay Files API
   slug: global-relay-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/openapi/global-relay-files-api-openapi.yml
+  url: https://artifacts.apis.io/global-relay/openapi/global-relay-files-api-openapi.yml
 - filename: global-relay-voice-api-openapi.yml
   format: yaml
   label: Global Relay Voice API
   slug: global-relay-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/openapi/global-relay-voice-api-openapi.yml
+  url: https://artifacts.apis.io/global-relay/openapi/global-relay-voice-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -62,7 +62,7 @@ source_filename: global-relay-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/global-relay-conversation-archiving-api-openapi.yml, openapi/global-relay-email-archiving-api-openapi.yml,\n  openapi/global-relay-event-archiving-api-openapi.yml, openapi/global-relay-voice-archiving-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: OAuth 2.0 Client Credentials grant. Obtain a token from https://iam-oauth2.globalrelay.com/oauth2/token\n    with grant_type=client_credentials and scope=openid conversation.\n  sources:\n  - openapi/global-relay-conversation-archiving-api-openapi.yml\n  - openapi/global-relay-email-archiving-api-openapi.yml\n  - openapi/global-relay-event-archiving-api-openapi.yml\n  - openapi/global-relay-voice-archiving-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/authentication/global-relay-authentication.yml
+source_yaml_url: https://artifacts.apis.io/global-relay/authentication/global-relay-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Archiving

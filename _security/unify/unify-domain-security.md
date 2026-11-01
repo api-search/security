@@ -5,25 +5,25 @@ api_specs:
   label: Unify Analytics Events API
   slug: unify-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/openapi/unify-events-api-openapi.yml
+  url: https://artifacts.apis.io/unify/openapi/unify-events-api-openapi.yml
 - filename: unify-sequences-api-openapi.yml
   format: yaml
   label: Unify Sequences API
   slug: unify-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/openapi/unify-sequences-api-openapi.yml
+  url: https://artifacts.apis.io/unify/openapi/unify-sequences-api-openapi.yml
 - filename: unify-tasks-api-openapi.yml
   format: yaml
   label: Unify Tasks API
   slug: unify-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/openapi/unify-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/unify/openapi/unify-tasks-api-openapi.yml
 - filename: unify-data-api-openapi.yml
   format: yaml
   label: Unify Data API
   slug: unify-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/openapi/unify-data-api-openapi.yml
+  url: https://artifacts.apis.io/unify/openapi/unify-data-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: unify-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.unifygtm.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 19:07:02 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.unifygtm.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 21 09:11:02 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.unifygtm.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: unifygtm.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/security/unify-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/unify/security/unify-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Sales

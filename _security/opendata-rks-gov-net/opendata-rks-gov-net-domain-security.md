@@ -24,7 +24,7 @@ source_filename: opendata-rks-gov-net-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: opendata.rks-gov.net\n  https: false\ndomains:\n- domain: rks-gov.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opendata-rks-gov-net/refs/heads/main/security/opendata-rks-gov-net-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/opendata-rks-gov-net/security/opendata-rks-gov-net-domain-security.yml
 summary_line: DMARC
 tags:
 - Open Data

@@ -5,25 +5,25 @@ api_specs:
   label: University of Melbourne Core API
   slug: university-of-melbourne-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/openapi/university-of-melbourne-core-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-melbourne/openapi/university-of-melbourne-core-api-openapi.yml
 - filename: university-of-melbourne-datasets-api-openapi.yml
   format: yaml
   label: University of Melbourne Datasets API
   slug: university-of-melbourne-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/openapi/university-of-melbourne-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-melbourne/openapi/university-of-melbourne-datasets-api-openapi.yml
 - filename: university-of-melbourne-discovery-api-openapi.yml
   format: yaml
   label: University of Melbourne Discovery API
   slug: university-of-melbourne-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/openapi/university-of-melbourne-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-melbourne/openapi/university-of-melbourne-discovery-api-openapi.yml
 - filename: university-of-melbourne-oai-pmh-api-openapi.yml
   format: yaml
   label: University of Melbourne OAI PMH API
   slug: university-of-melbourne-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/openapi/university-of-melbourne-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-melbourne/openapi/university-of-melbourne-oai-pmh-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: university-of-melbourne-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.unimelb.edu.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 20:47:56 2026 GMT\n  hsts: null\n- host: minerva-access.unimelb.edu.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 00:18:39 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: spatialdata-uom.opendata.arcgis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: unimelb.edu.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: arcgis.com\n  dnssec: true\n  caa:\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/security/university-of-melbourne-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/university-of-melbourne/security/university-of-melbourne-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - University

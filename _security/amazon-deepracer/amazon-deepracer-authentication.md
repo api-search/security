@@ -8,25 +8,25 @@ api_specs:
   label: Amazon DeepRacer Cars API
   slug: amazon-deepracer-cars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-deepracer/refs/heads/main/openapi/amazon-deepracer-cars-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-deepracer/openapi/amazon-deepracer-cars-api-openapi.yml
 - filename: amazon-deepracer-leaderboards-api-openapi.yml
   format: yaml
   label: Amazon DeepRacer Leaderboards API
   slug: amazon-deepracer-leaderboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-deepracer/refs/heads/main/openapi/amazon-deepracer-leaderboards-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-deepracer/openapi/amazon-deepracer-leaderboards-api-openapi.yml
 - filename: amazon-deepracer-models-api-openapi.yml
   format: yaml
   label: Amazon DeepRacer Models API
   slug: amazon-deepracer-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-deepracer/refs/heads/main/openapi/amazon-deepracer-models-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-deepracer/openapi/amazon-deepracer-models-api-openapi.yml
 - filename: amazon-deepracer-tracks-api-openapi.yml
   format: yaml
   label: Amazon DeepRacer Tracks API
   slug: amazon-deepracer-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-deepracer/refs/heads/main/openapi/amazon-deepracer-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-deepracer/openapi/amazon-deepracer-tracks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: amazon-deepracer-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-deepracer-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: awsSignatureV4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4 authentication. Sign requests using your AWS access key,\n    secret key, and session token.\n  sources:\n  - openapi/amazon-deepracer-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-deepracer/refs/heads/main/authentication/amazon-deepracer-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-deepracer/authentication/amazon-deepracer-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Autonomous Vehicles

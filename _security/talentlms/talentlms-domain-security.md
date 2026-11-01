@@ -11,67 +11,67 @@ api_specs:
   label: TalentLMS Batch Actions API
   slug: talentlms-batch-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/openapi/talentlms-batch-actions-api-openapi.yml
+  url: https://artifacts.apis.io/talentlms/openapi/talentlms-batch-actions-api-openapi.yml
 - filename: talentlms-branch-api-openapi.yml
   format: yaml
   label: TalentLMS Branch API
   slug: talentlms-branch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/openapi/talentlms-branch-api-openapi.yml
+  url: https://artifacts.apis.io/talentlms/openapi/talentlms-branch-api-openapi.yml
 - filename: talentlms-category-api-openapi.yml
   format: yaml
   label: TalentLMS Category API
   slug: talentlms-category-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/openapi/talentlms-category-api-openapi.yml
+  url: https://artifacts.apis.io/talentlms/openapi/talentlms-category-api-openapi.yml
 - filename: talentlms-course-api-openapi.yml
   format: yaml
   label: TalentLMS Course API
   slug: talentlms-course-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/openapi/talentlms-course-api-openapi.yml
+  url: https://artifacts.apis.io/talentlms/openapi/talentlms-course-api-openapi.yml
 - filename: talentlms-group-api-openapi.yml
   format: yaml
   label: TalentLMS Group API
   slug: talentlms-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/openapi/talentlms-group-api-openapi.yml
+  url: https://artifacts.apis.io/talentlms/openapi/talentlms-group-api-openapi.yml
 - filename: talentlms-learning-paths-api-openapi.yml
   format: yaml
   label: TalentLMS Learning Paths API
   slug: talentlms-learning-paths-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/openapi/talentlms-learning-paths-api-openapi.yml
+  url: https://artifacts.apis.io/talentlms/openapi/talentlms-learning-paths-api-openapi.yml
 - filename: talentlms-portal-api-openapi.yml
   format: yaml
   label: TalentLMS Portal API
   slug: talentlms-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/openapi/talentlms-portal-api-openapi.yml
+  url: https://artifacts.apis.io/talentlms/openapi/talentlms-portal-api-openapi.yml
 - filename: talentlms-task-api-openapi.yml
   format: yaml
   label: TalentLMS Task API
   slug: talentlms-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/openapi/talentlms-task-api-openapi.yml
+  url: https://artifacts.apis.io/talentlms/openapi/talentlms-task-api-openapi.yml
 - filename: talentlms-timeline-api-openapi.yml
   format: yaml
   label: TalentLMS Timeline API
   slug: talentlms-timeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/openapi/talentlms-timeline-api-openapi.yml
+  url: https://artifacts.apis.io/talentlms/openapi/talentlms-timeline-api-openapi.yml
 - filename: talentlms-unit-api-openapi.yml
   format: yaml
   label: TalentLMS Unit API
   slug: talentlms-unit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/openapi/talentlms-unit-api-openapi.yml
+  url: https://artifacts.apis.io/talentlms/openapi/talentlms-unit-api-openapi.yml
 - filename: talentlms-user-api-openapi.yml
   format: yaml
   label: TalentLMS User API
   slug: talentlms-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/openapi/talentlms-user-api-openapi.yml
+  url: https://artifacts.apis.io/talentlms/openapi/talentlms-user-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -117,7 +117,7 @@ source_filename: talentlms-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.talentlms.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 10:24:48 2026 GMT\n  hsts: false\n- host: your-domain.talentlms.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: talentlms.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: talentlms.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"comodo.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"entrust.net\"\n  - 0 issuewild \"globalsign.com\"\n  - 0 issuewild \"godaddy.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/security/talentlms-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/talentlms/security/talentlms-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - LMS

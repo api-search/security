@@ -45,7 +45,7 @@ source_filename: liquid-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.liquid.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 15:16:07 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.liquid.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 03:36:46 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.liquid.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 22:01:29 2026 GMT\n  hsts: null\ndomains:\n- domain: liquid.ai\n  dnssec: true\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 iodef \"security@liquid.ai\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liquid-ai/refs/heads/main/security/liquid-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/liquid-ai/security/liquid-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Artificial Intelligence

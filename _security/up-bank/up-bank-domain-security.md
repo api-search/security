@@ -5,85 +5,85 @@ api_specs:
   label: Up Accounts API
   slug: up-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-accounts-api-openapi.yml
 - filename: up-bank-attachments-api-openapi.yml
   format: yaml
   label: Up Attachments API
   slug: up-bank-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-attachments-api-openapi.yml
 - filename: up-bank-banking-account-balances-api-openapi.yml
   format: yaml
   label: Up Banking Account Balances API
   slug: up-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-banking-account-balances-api-openapi.yml
 - filename: up-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Up Banking Account Direct Debits API
   slug: up-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-banking-account-direct-debits-api-openapi.yml
 - filename: up-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Up Banking Account Scheduled Payments API
   slug: up-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: up-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Up Banking Account Transactions API
   slug: up-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-banking-account-transactions-api-openapi.yml
 - filename: up-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Up Banking Accounts API
   slug: up-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-banking-accounts-api-openapi.yml
 - filename: up-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Up Banking Payees API
   slug: up-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-banking-payees-api-openapi.yml
 - filename: up-bank-banking-products-api-openapi.yml
   format: yaml
   label: Up Banking Products API
   slug: up-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-banking-products-api-openapi.yml
 - filename: up-bank-categories-api-openapi.yml
   format: yaml
   label: Up Categories API
   slug: up-bank-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-categories-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-categories-api-openapi.yml
 - filename: up-bank-tags-api-openapi.yml
   format: yaml
   label: Up Tags API
   slug: up-bank-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-tags-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-tags-api-openapi.yml
 - filename: up-bank-transactions-api-openapi.yml
   format: yaml
   label: Up Transactions API
   slug: up-bank-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-transactions-api-openapi.yml
 - filename: up-bank-utility-endpoints-api-openapi.yml
   format: yaml
   label: Up Utility endpoints API
   slug: up-bank-utility-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-utility-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-utility-endpoints-api-openapi.yml
 - filename: up-bank-webhooks-api-openapi.yml
   format: yaml
   label: Up Webhooks API
   slug: up-bank-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -130,7 +130,7 @@ source_filename: up-bank-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.up.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 16 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: up.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 16 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.up.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  2 05:24:04 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: up.com.au\n  dnssec: false\n  caa:\n  - 0 issuewild \"digicert.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/security/up-bank-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/up-bank/security/up-bank-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Finance

@@ -16,7 +16,7 @@ source_filename: top-hat-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nsource: https://tophat.com/company/security/\nurl: https://tophat.com/company/security/\ncertifications:\n- ISO 27001\n- FIPS 140\nevidence:\n- source: https://tophat.com/company/security/\n  keywords:\n  - iso 27001\n  - iso/iec 27001\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/top-hat/refs/heads/main/security/top-hat-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/top-hat/security/top-hat-trust-center.yml
 summary_line: ISO 27001, FIPS 140
 tags:
 - Company

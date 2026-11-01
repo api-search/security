@@ -28,7 +28,7 @@ source_filename: rs-legacy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.radioshack.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 11:07:40 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\ndomains:\n- domain: radioshack.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rs-legacy/refs/heads/main/security/rs-legacy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rs-legacy/security/rs-legacy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Consumer Electronics

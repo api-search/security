@@ -31,7 +31,7 @@ source_filename: glintinc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: glintinc.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 31 11:07:34 2026 GMT\n  hsts: null\ndomains:\n- domain: glintinc.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"microsoft.com\"\n  - 0 iodef \"mailto:caarecordaware@microsoft.com\"\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/glintinc/refs/heads/main/security/glintinc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/glintinc/security/glintinc-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -5,7 +5,7 @@ api_specs:
   label: Patronus Protect Scan API
   slug: patronus-protect-scan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/patronus-protect/refs/heads/main/openapi/patronus-protect-scan-api-openapi.yml
+  url: https://artifacts.apis.io/patronus-protect/openapi/patronus-protect-scan-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -44,7 +44,7 @@ source_filename: patronus-protect-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.patronus.studio\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 14 16:39:32 2026 GMT\n  hsts: false\n- host: docs.patronus.studio\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  5 14:53:21 2026 GMT\n  hsts: false\n- host: control.patronus.studio\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 27 13:09:50 2026 GMT\n  hsts: false\ndomains:\n- domain: patronus.studio\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/patronus-protect/refs/heads/main/security/patronus-protect-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/patronus-protect/security/patronus-protect-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - AI Safety

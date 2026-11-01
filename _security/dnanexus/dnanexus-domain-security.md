@@ -37,7 +37,7 @@ source_filename: dnanexus-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dnanexus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 10:04:06 2026 GMT\n  hsts: null\n- host: documentation.dnanexus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 06:19:01 2026 GMT\n  hsts: null\n- host: api.dnanexus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  7 15:48:59 2026 GMT\n  hsts: null\ndomains:\n- domain: dnanexus.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dnanexus/refs/heads/main/security/dnanexus-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dnanexus/security/dnanexus-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

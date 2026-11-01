@@ -27,7 +27,7 @@ source_filename: nawah-scientific-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: nawah-scientific.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 20:32:10 2026 GMT\n  hsts: false\ndomains:\n- domain: nawah-scientific.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nawah-scientific/refs/heads/main/security/nawah-scientific-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nawah-scientific/security/nawah-scientific-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

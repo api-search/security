@@ -9,85 +9,85 @@ api_specs:
   label: INRIX Accounts API
   slug: inrix-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/inrix/openapi/inrix-accounts-api-openapi.yml
 - filename: inrix-application-api-openapi.yml
   format: yaml
   label: INRIX Application API
   slug: inrix-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-application-api-openapi.yml
+  url: https://artifacts.apis.io/inrix/openapi/inrix-application-api-openapi.yml
 - filename: inrix-auth-api-openapi.yml
   format: yaml
   label: INRIX Auth API
   slug: inrix-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-auth-api-openapi.yml
+  url: https://artifacts.apis.io/inrix/openapi/inrix-auth-api-openapi.yml
 - filename: inrix-developer-api-openapi.yml
   format: yaml
   label: INRIX Developer API
   slug: inrix-developer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-developer-api-openapi.yml
+  url: https://artifacts.apis.io/inrix/openapi/inrix-developer-api-openapi.yml
 - filename: inrix-device-api-openapi.yml
   format: yaml
   label: INRIX Device API
   slug: inrix-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-device-api-openapi.yml
+  url: https://artifacts.apis.io/inrix/openapi/inrix-device-api-openapi.yml
 - filename: inrix-metadata-api-openapi.yml
   format: yaml
   label: INRIX Metadata API
   slug: inrix-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/inrix/openapi/inrix-metadata-api-openapi.yml
 - filename: inrix-metrics-api-openapi.yml
   format: yaml
   label: INRIX Metrics API
   slug: inrix-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/inrix/openapi/inrix-metrics-api-openapi.yml
 - filename: inrix-namespace-management-api-openapi.yml
   format: yaml
   label: INRIX Namespace Management API
   slug: inrix-namespace-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-namespace-management-api-openapi.yml
+  url: https://artifacts.apis.io/inrix/openapi/inrix-namespace-management-api-openapi.yml
 - filename: inrix-user-api-openapi.yml
   format: yaml
   label: INRIX User API
   slug: inrix-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-user-api-openapi.yml
+  url: https://artifacts.apis.io/inrix/openapi/inrix-user-api-openapi.yml
 - filename: inrix-caniparkhere-api-openapi.yml
   format: yaml
   label: INRIX Caniparkhere API
   slug: inrix-caniparkhere-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-caniparkhere-api-openapi.yml
+  url: https://artifacts.apis.io/inrix/openapi/inrix-caniparkhere-api-openapi.yml
 - filename: inrix-openspots-api-openapi.yml
   format: yaml
   label: INRIX Openspots API
   slug: inrix-openspots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-openspots-api-openapi.yml
+  url: https://artifacts.apis.io/inrix/openapi/inrix-openspots-api-openapi.yml
 - filename: inrix-application-management-api-openapi.yml
   format: yaml
   label: INRIX Application Management API
   slug: inrix-application-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-application-management-api-openapi.yml
+  url: https://artifacts.apis.io/inrix/openapi/inrix-application-management-api-openapi.yml
 - filename: inrix-email-template-api-openapi.yml
   format: yaml
   label: INRIX Email Template API
   slug: inrix-email-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-email-template-api-openapi.yml
+  url: https://artifacts.apis.io/inrix/openapi/inrix-email-template-api-openapi.yml
 - filename: inrix-user-group-api-openapi.yml
   format: yaml
   label: INRIX User Group API
   slug: inrix-user-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-user-group-api-openapi.yml
+  url: https://artifacts.apis.io/inrix/openapi/inrix-user-group-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -135,7 +135,7 @@ source_yaml: "generated: '2026-08-01'\nmethod: searched\nsource: https://docs.in
   - name: Token renewal\n  token_endpoint: https://uas-api.inrix.com/v1/renewtoken\n  operation: openapi/inrix-user-accounts-openapi-original.json#Auth_RenewToken\n  parameters:\n  - name: refreshToken\n    in: query\n    required: true\n  - name: oAuthToken\n    in: query\n- name: Token validation\n  token_endpoint: https://uas-api.inrix.com/v1/validatetoken\n  operation: openapi/inrix-user-accounts-openapi-original.json#Auth_CheckToken\n- name: GetSecurityToken (legacy Connected Services)\n  token_endpoint: https://{serverPath}.inrix.com/traffic/Inrix.ashx?Action=GetSecurityToken\n  parameters:\n  - name: vendorId\n    in: query\n  - name: consumerId\n    in: query\n  - name: format\n    in: query\n    description: XML or JSON; XML is the default.\n  response_fields:\n  - token\n  - tokenExpireDtUtc\n  - serverPath\n  presentation:\n  - style: query\n    parameter: token\n  status: legacy\n  note: The legacy gateway returns the regional server path the caller must use for all subsequent\
   \ requests (for\n    example na-api2.inrix.com or eu.api.inrix.com).\nschemes:\n- name: Basic\n  type: http\n  scheme: basic\n  sources:\n  - openapi/inrix-parkme-openapi-original.json\n  note: HTTP Basic is declared on the Parkme/INRIX Parking Services spec for operator-level endpoints (for example\n    reservation creation).\n- name: Bearer Token\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/inrix-signals-analytics-openapi-original.json\n  note: The INRIX Signals Analytics API declares a JWT bearer scheme; the token is the UAS access token.\n- name: accessToken\n  type: apiKey\n  in: query\n  sources:\n  - https://docs.inrix.com/sendingdata/gpsdatastream/\n  - https://docs.inrix.com/traffic/segmentspeed/\n  note: Documented across the Traffic, Parking, Analytics and data-stream APIs as an alternative to the Authorization\n    header.\nno_oauth_scopes: true\nscope_note: INRIX publishes OAuth2-shaped token endpoints but no scope vocabulary or permissions\
   \ reference; entitlement\n  is set per application/account by INRIX, not by requested scope.\ncredential_request: https://inrix.com/contact/\nx-evidence:\n- url: https://docs.inrix.com/authentication/getting_authorized/\n  fetched: '2026-08-01'\n  http_status: 200\n- url: https://uas-api.inrix.com/swagger/docs/v1\n  fetched: '2026-08-01'\n  http_status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/authentication/inrix-authentication.yml
+source_yaml_url: https://artifacts.apis.io/inrix/authentication/inrix-authentication.yml
 summary_line: http/apiKey/oauth2 · 3 schemes
 tags:
 - Transportation
@@ -151,6 +151,6 @@ tags:
 - Connected Vehicles
 - Road Network
 - Data
-- Fleet
+- Fleet Management
 - Intelligent Transportation Systems
 ---

@@ -7,25 +7,25 @@ api_specs:
   label: Battle.net Card Backs API
   slug: battle-net-card-backs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/battle-net/refs/heads/main/openapi/battle-net-card-backs-api-openapi.yml
+  url: https://artifacts.apis.io/battle-net/openapi/battle-net-card-backs-api-openapi.yml
 - filename: battle-net-cards-api-openapi.yml
   format: yaml
   label: Battle.net Cards API
   slug: battle-net-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/battle-net/refs/heads/main/openapi/battle-net-cards-api-openapi.yml
+  url: https://artifacts.apis.io/battle-net/openapi/battle-net-cards-api-openapi.yml
 - filename: battle-net-decks-api-openapi.yml
   format: yaml
   label: Battle.net Decks API
   slug: battle-net-decks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/battle-net/refs/heads/main/openapi/battle-net-decks-api-openapi.yml
+  url: https://artifacts.apis.io/battle-net/openapi/battle-net-decks-api-openapi.yml
 - filename: battle-net-metadata-api-openapi.yml
   format: yaml
   label: Battle.net Metadata API
   slug: battle-net-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/battle-net/refs/heads/main/openapi/battle-net-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/battle-net/openapi/battle-net-metadata-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -56,7 +56,7 @@ source_filename: battle-net-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/battle-net-hearthstone-game-data.yaml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://oauth.battle.net/token\n    scopes: 0\n  description: Battle.net OAuth 2.0 authentication. Use client credentials flow for game data\n    APIs.\n  sources:\n  - openapi/battle-net-hearthstone-game-data.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/battle-net/refs/heads/main/authentication/battle-net-authentication.yml
+source_yaml_url: https://artifacts.apis.io/battle-net/authentication/battle-net-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Games

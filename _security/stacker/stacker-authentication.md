@@ -8,25 +8,25 @@ api_specs:
   label: Stacker Accounts API
   slug: stacker-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacker/refs/heads/main/openapi/stacker-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/stacker/openapi/stacker-accounts-api-openapi.yml
 - filename: stacker-hello-api-openapi.yml
   format: yaml
   label: Stacker Hello API
   slug: stacker-hello-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacker/refs/heads/main/openapi/stacker-hello-api-openapi.yml
+  url: https://artifacts.apis.io/stacker/openapi/stacker-hello-api-openapi.yml
 - filename: stacker-objects-api-openapi.yml
   format: yaml
   label: Stacker Objects API
   slug: stacker-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacker/refs/heads/main/openapi/stacker-objects-api-openapi.yml
+  url: https://artifacts.apis.io/stacker/openapi/stacker-objects-api-openapi.yml
 - filename: stacker-records-api-openapi.yml
   format: yaml
   label: Stacker Records API
   slug: stacker-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacker/refs/heads/main/openapi/stacker-records-api-openapi.yml
+  url: https://artifacts.apis.io/stacker/openapi/stacker-records-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: stacker-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/stacker-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: IntegrationKey\n  type: apiKey\n  in: header\n  parameter: X-Integration-Key\n  description: Personal integration key from Account Settings > Integrations\n  sources:\n  - openapi/stacker-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stacker/refs/heads/main/authentication/stacker-authentication.yml
+source_yaml_url: https://artifacts.apis.io/stacker/authentication/stacker-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Application Development

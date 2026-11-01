@@ -5,19 +5,19 @@ api_specs:
   label: Forethought Conversations API
   slug: forethought-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forethought/refs/heads/main/openapi/forethought-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/forethought/openapi/forethought-conversations-api-openapi.yml
 - filename: forethought-metadata-api-openapi.yml
   format: yaml
   label: Forethought Metadata API
   slug: forethought-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forethought/refs/heads/main/openapi/forethought-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/forethought/openapi/forethought-metadata-api-openapi.yml
 - filename: forethought-predictions-api-openapi.yml
   format: yaml
   label: Forethought Predictions API
   slug: forethought-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forethought/refs/heads/main/openapi/forethought-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/forethought/openapi/forethought-predictions-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -35,7 +35,7 @@ source_filename: forethought-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://forethought.ai/compliance\nurl: https://forethought.ai/compliance\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://forethought.ai/compliance\n  keywords:\n  - soc 2\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forethought/refs/heads/main/security/forethought-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/forethought/security/forethought-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - Artificial Intelligence

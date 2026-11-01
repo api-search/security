@@ -5,79 +5,79 @@ api_specs:
   label: Apache Ignite Cluster Configuration API
   slug: apache-ignite-clusterconfiguration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-clusterconfiguration-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ignite/openapi/apache-ignite-clusterconfiguration-api-openapi.yml
 - filename: apache-ignite-clustermetric-api-openapi.yml
   format: yaml
   label: Apache Ignite Cluster Metric API
   slug: apache-ignite-clustermetric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-clustermetric-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ignite/openapi/apache-ignite-clustermetric-api-openapi.yml
 - filename: apache-ignite-compute-api-openapi.yml
   format: yaml
   label: Apache Ignite Compute API
   slug: apache-ignite-compute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-compute-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ignite/openapi/apache-ignite-compute-api-openapi.yml
 - filename: apache-ignite-deployment-api-openapi.yml
   format: yaml
   label: Apache Ignite Deployment API
   slug: apache-ignite-deployment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-deployment-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ignite/openapi/apache-ignite-deployment-api-openapi.yml
 - filename: apache-ignite-nodemanagement-api-openapi.yml
   format: yaml
   label: Apache Ignite Node Management API
   slug: apache-ignite-nodemanagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-nodemanagement-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ignite/openapi/apache-ignite-nodemanagement-api-openapi.yml
 - filename: apache-ignite-nodemetric-api-openapi.yml
   format: yaml
   label: Apache Ignite Node Metric API
   slug: apache-ignite-nodemetric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-nodemetric-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ignite/openapi/apache-ignite-nodemetric-api-openapi.yml
 - filename: apache-ignite-recovery-api-openapi.yml
   format: yaml
   label: Apache Ignite Recovery API
   slug: apache-ignite-recovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-recovery-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ignite/openapi/apache-ignite-recovery-api-openapi.yml
 - filename: apache-ignite-sql-api-openapi.yml
   format: yaml
   label: Apache Ignite Sql API
   slug: apache-ignite-sql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-sql-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ignite/openapi/apache-ignite-sql-api-openapi.yml
 - filename: apache-ignite-system-api-openapi.yml
   format: yaml
   label: Apache Ignite System API
   slug: apache-ignite-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-system-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ignite/openapi/apache-ignite-system-api-openapi.yml
 - filename: apache-ignite-topology-api-openapi.yml
   format: yaml
   label: Apache Ignite Topology API
   slug: apache-ignite-topology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-topology-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ignite/openapi/apache-ignite-topology-api-openapi.yml
 - filename: apache-ignite-transactions-api-openapi.yml
   format: yaml
   label: Apache Ignite Transactions API
   slug: apache-ignite-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ignite/openapi/apache-ignite-transactions-api-openapi.yml
 - filename: apache-ignite-cluster-management-api-openapi.yml
   format: yaml
   label: Apache Ignite Cluster Management API
   slug: apache-ignite-cluster-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-cluster-management-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ignite/openapi/apache-ignite-cluster-management-api-openapi.yml
 - filename: apache-ignite-node-configuration-api-openapi.yml
   format: yaml
   label: Apache Ignite Node Configuration API
   slug: apache-ignite-node-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-node-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ignite/openapi/apache-ignite-node-configuration-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -111,7 +111,7 @@ source_filename: apache-ignite-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ignite.apache.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 23:33:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: apache.org\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 iodef \"mailto:root@apache.org\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/security/apache-ignite-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apache-ignite/security/apache-ignite-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Caching

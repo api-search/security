@@ -8,25 +8,25 @@ api_specs:
   label: Contrast Security Applications API
   slug: contrast-security-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/openapi/contrast-security-applications-api-openapi.yml
+  url: https://artifacts.apis.io/contrast-security/openapi/contrast-security-applications-api-openapi.yml
 - filename: contrast-security-organizations-api-openapi.yml
   format: yaml
   label: Contrast Security Organizations API
   slug: contrast-security-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/openapi/contrast-security-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/contrast-security/openapi/contrast-security-organizations-api-openapi.yml
 - filename: contrast-security-rules-api-openapi.yml
   format: yaml
   label: Contrast Security Rules API
   slug: contrast-security-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/openapi/contrast-security-rules-api-openapi.yml
+  url: https://artifacts.apis.io/contrast-security/openapi/contrast-security-rules-api-openapi.yml
 - filename: contrast-security-vulnerabilities-api-openapi.yml
   format: yaml
   label: Contrast Security Vulnerabilities API
   slug: contrast-security-vulnerabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/openapi/contrast-security-vulnerabilities-api-openapi.yml
+  url: https://artifacts.apis.io/contrast-security/openapi/contrast-security-vulnerabilities-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -59,7 +59,7 @@ source_filename: contrast-security-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/contrast-security-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: Contrast-API-Key\n  type: apiKey\n  in: header\n  parameter: API-Key\n  sources:\n  - openapi/contrast-security-openapi.yml\n- name: Authorization\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/contrast-security-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/authentication/contrast-security-authentication.yml
+source_yaml_url: https://artifacts.apis.io/contrast-security/authentication/contrast-security-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Application Security

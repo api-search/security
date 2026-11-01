@@ -5,25 +5,25 @@ api_specs:
   label: DHL Find By Address API
   slug: dhl-find-by-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dhl/refs/heads/main/openapi/dhl-find-by-address-api-openapi.yml
+  url: https://artifacts.apis.io/dhl/openapi/dhl-find-by-address-api-openapi.yml
 - filename: dhl-find-by-geo-api-openapi.yml
   format: yaml
   label: DHL Find By Geo API
   slug: dhl-find-by-geo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dhl/refs/heads/main/openapi/dhl-find-by-geo-api-openapi.yml
+  url: https://artifacts.apis.io/dhl/openapi/dhl-find-by-geo-api-openapi.yml
 - filename: dhl-find-by-keyword-id-api-openapi.yml
   format: yaml
   label: DHL Find By Keyword Id API
   slug: dhl-find-by-keyword-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dhl/refs/heads/main/openapi/dhl-find-by-keyword-id-api-openapi.yml
+  url: https://artifacts.apis.io/dhl/openapi/dhl-find-by-keyword-id-api-openapi.yml
 - filename: dhl-find-by-location-id-api-openapi.yml
   format: yaml
   label: DHL Find By Location Id API
   slug: dhl-find-by-location-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dhl/refs/heads/main/openapi/dhl-find-by-location-id-api-openapi.yml
+  url: https://artifacts.apis.io/dhl/openapi/dhl-find-by-location-id-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: dhl-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.dhl.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 04:01:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.dhl.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 20 03:04:41 2027 GMT\n  hsts: null\ndomains:\n- domain: dhl.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dhl/refs/heads/main/security/dhl-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dhl/security/dhl-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Freight

@@ -5,61 +5,61 @@ api_specs:
   label: Nextiva Authentication API
   slug: nextiva-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/nextiva/openapi/nextiva-authentication-api-openapi.yml
 - filename: nextiva-call-management-api-openapi.yml
   format: yaml
   label: Nextiva Call Management API
   slug: nextiva-call-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-call-management-api-openapi.yml
+  url: https://artifacts.apis.io/nextiva/openapi/nextiva-call-management-api-openapi.yml
 - filename: nextiva-campaigns-api-openapi.yml
   format: yaml
   label: Nextiva Campaigns API
   slug: nextiva-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/nextiva/openapi/nextiva-campaigns-api-openapi.yml
 - filename: nextiva-conversations-api-openapi.yml
   format: yaml
   label: Nextiva Conversations API
   slug: nextiva-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/nextiva/openapi/nextiva-conversations-api-openapi.yml
 - filename: nextiva-dtmf-api-openapi.yml
   format: yaml
   label: Nextiva DTMF API
   slug: nextiva-dtmf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-dtmf-api-openapi.yml
+  url: https://artifacts.apis.io/nextiva/openapi/nextiva-dtmf-api-openapi.yml
 - filename: nextiva-email-api-openapi.yml
   format: yaml
   label: Nextiva Email API
   slug: nextiva-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-email-api-openapi.yml
+  url: https://artifacts.apis.io/nextiva/openapi/nextiva-email-api-openapi.yml
 - filename: nextiva-sms-messaging-api-openapi.yml
   format: yaml
   label: Nextiva SMS Messaging API
   slug: nextiva-sms-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-sms-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/nextiva/openapi/nextiva-sms-messaging-api-openapi.yml
 - filename: nextiva-tickets-api-openapi.yml
   format: yaml
   label: Nextiva Tickets API
   slug: nextiva-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/nextiva/openapi/nextiva-tickets-api-openapi.yml
 - filename: nextiva-transfers-api-openapi.yml
   format: yaml
   label: Nextiva Transfers API
   slug: nextiva-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/nextiva/openapi/nextiva-transfers-api-openapi.yml
 - filename: nextiva-work-items-api-openapi.yml
   format: yaml
   label: Nextiva Work Items API
   slug: nextiva-work-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-work-items-api-openapi.yml
+  url: https://artifacts.apis.io/nextiva/openapi/nextiva-work-items-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -100,7 +100,7 @@ source_filename: nextiva-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-31'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nextiva.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 14 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.nextiva.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 01:19:27 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.nextiva.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 14 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: nextiva.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/security/nextiva-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nextiva/security/nextiva-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

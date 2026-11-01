@@ -8,25 +8,25 @@ api_specs:
   label: TransportAPI Bus Information API
   slug: transportapi-bus-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transportapi/refs/heads/main/openapi/transportapi-bus-information-api-openapi.yml
+  url: https://artifacts.apis.io/transportapi/openapi/transportapi-bus-information-api-openapi.yml
 - filename: transportapi-journey-planner-api-openapi.yml
   format: yaml
   label: TransportAPI Journey Planner API
   slug: transportapi-journey-planner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transportapi/refs/heads/main/openapi/transportapi-journey-planner-api-openapi.yml
+  url: https://artifacts.apis.io/transportapi/openapi/transportapi-journey-planner-api-openapi.yml
 - filename: transportapi-places-api-openapi.yml
   format: yaml
   label: TransportAPI Places API
   slug: transportapi-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transportapi/refs/heads/main/openapi/transportapi-places-api-openapi.yml
+  url: https://artifacts.apis.io/transportapi/openapi/transportapi-places-api-openapi.yml
 - filename: transportapi-rail-information-api-openapi.yml
   format: yaml
   label: TransportAPI Rail Information API
   slug: transportapi-rail-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transportapi/refs/heads/main/openapi/transportapi-rail-information-api-openapi.yml
+  url: https://artifacts.apis.io/transportapi/openapi/transportapi-rail-information-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -61,7 +61,7 @@ source_filename: transportapi-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/transportapi-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: AppIdAuth\n  type: apiKey\n  in: header\n  parameter: X-App-Id\n  description: Application ID header\n  sources:\n  - openapi/transportapi-openapi.yml\n- name: AppKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-App-Key\n  description: Application key header\n  sources:\n  - openapi/transportapi-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transportapi/refs/heads/main/authentication/transportapi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/transportapi/authentication/transportapi-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Public Transit

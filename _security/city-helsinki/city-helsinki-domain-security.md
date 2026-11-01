@@ -27,7 +27,7 @@ source_filename: city-helsinki-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: hri.fi\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 19 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: hri.fi\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/city-helsinki/refs/heads/main/security/city-helsinki-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/city-helsinki/security/city-helsinki-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Government

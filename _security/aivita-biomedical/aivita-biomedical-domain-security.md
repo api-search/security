@@ -26,12 +26,12 @@ source_filename: aivita-biomedical-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aivitabiomedical.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 21:49:30 2026 GMT\n  hsts: false\ndomains:\n- domain: aivitabiomedical.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aivita-biomedical/refs/heads/main/security/aivita-biomedical-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aivita-biomedical/security/aivita-biomedical-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Biotechnology
 - Personalized Medicine
 - Cancer
 - Infectious Disease
-- Stem Cell
+- Stem-Cell
 ---

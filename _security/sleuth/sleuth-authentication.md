@@ -8,19 +8,19 @@ api_specs:
   label: Sleuth Deployments API
   slug: sleuth-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleuth/refs/heads/main/openapi/sleuth-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/sleuth/openapi/sleuth-deployments-api-openapi.yml
 - filename: sleuth-impact-api-openapi.yml
   format: yaml
   label: Sleuth Impact API
   slug: sleuth-impact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleuth/refs/heads/main/openapi/sleuth-impact-api-openapi.yml
+  url: https://artifacts.apis.io/sleuth/openapi/sleuth-impact-api-openapi.yml
 - filename: sleuth-manual-changes-api-openapi.yml
   format: yaml
   label: Sleuth Manual Changes API
   slug: sleuth-manual-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleuth/refs/heads/main/openapi/sleuth-manual-changes-api-openapi.yml
+  url: https://artifacts.apis.io/sleuth/openapi/sleuth-manual-changes-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: sleuth-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sleuth-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Sleuth Access Token / organization API key supplied as \"Authorization: apikey\n    <APIKEY>\". A Bearer token form (\"Authorization: Bearer <ACCESS_TOKEN>\") is also accepted\n    for deploy registration. Scoped Access Tokens are managed under Organization Settings >\n    Access Tokens.'\n  sources:\n  - openapi/sleuth-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sleuth/refs/heads/main/authentication/sleuth-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sleuth/authentication/sleuth-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - DORA

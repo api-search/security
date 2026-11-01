@@ -31,7 +31,7 @@ source_filename: james-webb-space-telescope-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: jwstapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 12 04:10:59 2026 GMT\n  hsts: false\n- host: api.jwstapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 12:15:14 2026 GMT\n  hsts: null\ndomains:\n- domain: jwstapi.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/james-webb-space-telescope-api/refs/heads/main/security/james-webb-space-telescope-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/james-webb-space-telescope-api/security/james-webb-space-telescope-api-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Astronomy

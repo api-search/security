@@ -7,97 +7,97 @@ api_specs:
   label: Affinda Documents API
   slug: affinda-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-documents-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-documents-api-openapi.yml
 - filename: affinda-document-types-api-openapi.yml
   format: yaml
   label: Affinda Document Types API
   slug: affinda-document-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-document-types-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-document-types-api-openapi.yml
 - filename: affinda-workspaces-api-openapi.yml
   format: yaml
   label: Affinda Workspaces API
   slug: affinda-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-workspaces-api-openapi.yml
 - filename: affinda-organizations-api-openapi.yml
   format: yaml
   label: Affinda Organizations API
   slug: affinda-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-organizations-api-openapi.yml
 - filename: affinda-data-sources-api-openapi.yml
   format: yaml
   label: Affinda Data Sources API
   slug: affinda-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-data-sources-api-openapi.yml
 - filename: affinda-annotations-api-openapi.yml
   format: yaml
   label: Affinda Annotations API
   slug: affinda-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-annotations-api-openapi.yml
 - filename: affinda-validation-results-api-openapi.yml
   format: yaml
   label: Affinda Validation Results API
   slug: affinda-validation-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-validation-results-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-validation-results-api-openapi.yml
 - filename: affinda-tags-api-openapi.yml
   format: yaml
   label: Affinda Tags API
   slug: affinda-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-tags-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-tags-api-openapi.yml
 - filename: affinda-usage-api-openapi.yml
   format: yaml
   label: Affinda Usage API
   slug: affinda-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-usage-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-usage-api-openapi.yml
 - filename: affinda-webhooks-api-openapi.yml
   format: yaml
   label: Affinda Webhooks API
   slug: affinda-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-webhooks-api-openapi.yml
 - filename: affinda-search-match-api-openapi.yml
   format: yaml
   label: Affinda Search and Match API
   slug: affinda-search-match-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-search-match-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-search-match-api-openapi.yml
 - filename: affinda-add-x-hidden-to-endpoints-api-openapi.yml
   format: yaml
   label: Affinda Add x-hidden to endpoints API
   slug: affinda-add-x-hidden-to-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-add-x-hidden-to-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-add-x-hidden-to-endpoints-api-openapi.yml
 - filename: affinda-deprecated-end-points-api-openapi.yml
   format: yaml
   label: Affinda Deprecated End Points API
   slug: affinda-deprecated-end-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-deprecated-end-points-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-deprecated-end-points-api-openapi.yml
 - filename: affinda-document-api-extractor-api-openapi.yml
   format: yaml
   label: Affinda Document API - Extractor API
   slug: affinda-document-api-extractor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-document-api-extractor-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-document-api-extractor-api-openapi.yml
 - filename: affinda-document-api-splitting-api-openapi.yml
   format: yaml
   label: Affinda Document API - Splitting API
   slug: affinda-document-api-splitting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-document-api-splitting-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-document-api-splitting-api-openapi.yml
 - filename: affinda-organization-api-invitation-api-openapi.yml
   format: yaml
   label: Affinda Organization API - Invitation API
   slug: affinda-organization-api-invitation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-organization-api-invitation-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-organization-api-invitation-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -141,7 +141,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/affinda-annotations-api-openapi.yml, openapi/affinda-data-sources-api-openapi.yml,\n  openapi/affinda-document-splitters-api-openapi.yml, openapi/affinda-document-types-api-openapi.yml,\n  openapi/affinda-documents-api-openapi.yml, openapi/affinda-extractors-api-openapi.yml, openapi/affinda-invitations-api-openapi.yml,\n  openapi/affinda-organizations-api-openapi.yml, openapi/affinda-search-match-api-openapi.yml,\n  openapi/affinda-tags-api-openapi.yml, openapi/affinda-usage-api-openapi.yml, openapi/affinda-v3-openapi.yml\n  ...\nsummary:\n  types:\n  - http\nschemes:\n- name: ApiKeyAuth\n  type: http\n  scheme: bearer\n  description: |-\n    Basic authentication using an API key, e.g. `{Authorization: Bearer [example key]}`.\n    You can find your API key within the Settings page of the [Affinda web app](https://app.affinda.com/). You can obtain an API key by [signing up for a free trial](https://app.affinda.com/auth/register).\n\
   \  sources:\n  - openapi/affinda-annotations-api-openapi.yml\n  - openapi/affinda-data-sources-api-openapi.yml\n  - openapi/affinda-document-splitters-api-openapi.yml\n  - openapi/affinda-document-types-api-openapi.yml\n  - openapi/affinda-documents-api-openapi.yml\n  - openapi/affinda-extractors-api-openapi.yml\n  - openapi/affinda-invitations-api-openapi.yml\n  - openapi/affinda-organizations-api-openapi.yml\n  - openapi/affinda-search-match-api-openapi.yml\n  - openapi/affinda-tags-api-openapi.yml\n  - openapi/affinda-usage-api-openapi.yml\n  - openapi/affinda-v3-openapi.yml\n  - openapi/affinda-validation-results-api-openapi.yml\n  - openapi/affinda-webhooks-api-openapi.yml\n  - openapi/affinda-workspaces-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/authentication/affinda-authentication.yml
+source_yaml_url: https://artifacts.apis.io/affinda/authentication/affinda-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

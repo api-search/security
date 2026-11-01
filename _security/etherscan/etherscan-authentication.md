@@ -8,7 +8,7 @@ api_specs:
   label: Etherscan Accounts API
   slug: etherscan-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etherscan/refs/heads/main/openapi/etherscan-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/etherscan/openapi/etherscan-accounts-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: etherscan-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/etherscan-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: query\n  parameter: apikey\n  description: Etherscan API key, obtained from https://etherscan.io/myapikey\n  sources:\n  - openapi/etherscan-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/etherscan/refs/heads/main/authentication/etherscan-authentication.yml
+source_yaml_url: https://artifacts.apis.io/etherscan/authentication/etherscan-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Blockchain

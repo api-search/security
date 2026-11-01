@@ -7,55 +7,55 @@ api_specs:
   label: Red Energy Data Holder Customers API
   slug: red-energy-data-holder-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-data-holder-customers-api-openapi.yml
+  url: https://artifacts.apis.io/red-energy/openapi/red-energy-data-holder-customers-api-openapi.yml
 - filename: red-energy-data-holder-operations-api-openapi.yml
   format: yaml
   label: Red Energy Data Holder Operations API
   slug: red-energy-data-holder-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-data-holder-operations-api-openapi.yml
+  url: https://artifacts.apis.io/red-energy/openapi/red-energy-data-holder-operations-api-openapi.yml
 - filename: red-energy-distributed-energy-resources-api-openapi.yml
   format: yaml
   label: Red Energy Distributed Energy Resources API
   slug: red-energy-distributed-energy-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-distributed-energy-resources-api-openapi.yml
+  url: https://artifacts.apis.io/red-energy/openapi/red-energy-distributed-energy-resources-api-openapi.yml
 - filename: red-energy-electricity-service-points-api-openapi.yml
   format: yaml
   label: Red Energy Electricity Service Points API
   slug: red-energy-electricity-service-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-electricity-service-points-api-openapi.yml
+  url: https://artifacts.apis.io/red-energy/openapi/red-energy-electricity-service-points-api-openapi.yml
 - filename: red-energy-electricity-usage-api-openapi.yml
   format: yaml
   label: Red Energy Electricity Usage API
   slug: red-energy-electricity-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-electricity-usage-api-openapi.yml
+  url: https://artifacts.apis.io/red-energy/openapi/red-energy-electricity-usage-api-openapi.yml
 - filename: red-energy-energy-account-balances-api-openapi.yml
   format: yaml
   label: Red Energy Account Balances API
   slug: red-energy-energy-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-energy-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/red-energy/openapi/red-energy-energy-account-balances-api-openapi.yml
 - filename: red-energy-energy-account-billing-api-openapi.yml
   format: yaml
   label: Red Energy Account Billing API
   slug: red-energy-energy-account-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-energy-account-billing-api-openapi.yml
+  url: https://artifacts.apis.io/red-energy/openapi/red-energy-energy-account-billing-api-openapi.yml
 - filename: red-energy-energy-accounts-api-openapi.yml
   format: yaml
   label: Red Energy Accounts API
   slug: red-energy-energy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-energy-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/red-energy/openapi/red-energy-energy-accounts-api-openapi.yml
 - filename: red-energy-energy-plans-api-openapi.yml
   format: yaml
   label: Red Energy Plans API
   slug: red-energy-energy-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-energy-plans-api-openapi.yml
+  url: https://artifacts.apis.io/red-energy/openapi/red-energy-energy-plans-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -139,7 +139,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: >-\n  https://c
   \ an accredited data recipient and a data\n      holder uses mTLS. Both client and server transport certificates MUST be\n      issued by the CDR Certificate Authority; certificates from any other\n      authority MUST NOT be trusted.\n    certificate_profile:\n      signature_algorithm: SHA256\n      key_algorithm: RSA\n      key_size: 2048\n      organizational_unit: Consumer Data Right\n      common_name: primary DNS name (server) / software product name (client)\n    ciphers: >-\n      From 17 March 2025 the FAPI 1.0 Advanced TLS considerations apply. Prior to\n      that only TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 and\n      TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 were permitted.\n  - name: CDR OpenID Provider Configuration\n    type: openIdConnect\n    openIdConnectUrl: null\n    description: >-\n      Each data holder publishes /.well-known/openid-configuration on its TLS\n      base URI with acr_values_supported urn:cds.au:cdr:2 and urn:cds.au:cdr:3,\n      require_pushed_authorization_requests\
   \ true, a cdr_arrangement_revocation_endpoint,\n      and token_endpoint_auth_methods_supported private_key_jwt.\n    probe:\n      url: https://public.cdr.redenergy.com.au/.well-known/openid-configuration\n      status: 404\n      date: '2026-07-27'\n\ntokens:\n  access_token: >-\n    Lifetime MUST be deterministic and returned in expires_in on the token\n    response. Sender-constrained to the client's mTLS certificate.\n  refresh_token: >-\n    Issued for ongoing (unattended) sharing; bounded by the consent duration and\n    revocable through the consumer dashboard or the CDR arrangement revocation\n    endpoint.\n\naccreditation:\n  regulator: Australian Competition and Consumer Commission (ACCC)\n  register: https://api.cdr.gov.au/cdr-register/v1/energy/data-holders/brands/summary\n  data_holder_brand_id: 39230258-a56c-ee11-a81c-002248e31327\n  public_base_uri: https://public.cdr.redenergy.com.au\n  pathways:\n    - unrestricted accreditation\n    - sponsored accreditation\n    -\
   \ CDR representative\n    - trusted adviser\n  steps: >-\n    Apply to the ACCC, obtain CDR Register client credentials and transport and\n    signing certificates from the CDR Certificate Authority, pass Conformance\n    Test Suite testing, then initiate a consent flow the individual Red Energy\n    customer approves. There is no self-serve path and no commercial API deal.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/authentication/red-energy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/red-energy/authentication/red-energy-authentication.yml
 summary_line: none/oauth2/openIdConnect/mutualTLS · 4 schemes
 tags:
 - Energy

@@ -26,7 +26,7 @@ source_filename: xgs-energy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.xgsenergy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 21:46:46 2026 GMT\n  hsts: false\ndomains:\n- domain: xgsenergy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xgs-energy/refs/heads/main/security/xgs-energy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/xgs-energy/security/xgs-energy-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

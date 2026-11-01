@@ -5,7 +5,7 @@ api_specs:
   label: University of Michigan-Ann Arbor Repository API
   slug: university-of-michigan-ann-arbor-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-michigan-ann-arbor/refs/heads/main/openapi/university-of-michigan-ann-arbor-repository-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-michigan-ann-arbor/openapi/university-of-michigan-ann-arbor-repository-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: university-of-michigan-ann-arbor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: umich.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 21:56:27 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: www.lib.umich.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 16:34:00 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: its.umich.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 13 21:41:28 2026 GMT\n  hsts: null\ndomains:\n- domain: umich.edu\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-michigan-ann-arbor/refs/heads/main/security/university-of-michigan-ann-arbor-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/university-of-michigan-ann-arbor/security/university-of-michigan-ann-arbor-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - University

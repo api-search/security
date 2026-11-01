@@ -1,83 +1,77 @@
 ---
 api_specs:
-- filename: e2b-dev-access-tokens-api-openapi.yml
-  format: yaml
-  label: E2B Access Tokens API
-  slug: e2b-dev-access-tokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-access-tokens-api-openapi.yml
-- filename: e2b-dev-admin-api-openapi.yml
-  format: yaml
-  label: E2B Admin API
-  slug: e2b-dev-admin-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-admin-api-openapi.yml
-- filename: e2b-dev-api-keys-api-openapi.yml
-  format: yaml
-  label: E2B API Keys API
-  slug: e2b-dev-api-keys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-api-keys-api-openapi.yml
-- filename: e2b-dev-auth-api-openapi.yml
-  format: yaml
-  label: E2B Auth API
-  slug: e2b-dev-auth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-auth-api-openapi.yml
 - filename: e2b-dev-events-api-openapi.yml
   format: yaml
   label: E2B Events API
   slug: e2b-dev-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-events-api-openapi.yml
-- filename: e2b-dev-health-api-openapi.yml
-  format: yaml
-  label: E2B Health API
-  slug: e2b-dev-health-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-health-api-openapi.yml
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-events-api-openapi.yml
 - filename: e2b-dev-sandboxes-api-openapi.yml
   format: yaml
   label: E2B Sandboxes API
   slug: e2b-dev-sandboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-sandboxes-api-openapi.yml
-- filename: e2b-dev-snapshots-api-openapi.yml
-  format: yaml
-  label: E2B Snapshots API
-  slug: e2b-dev-snapshots-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-sandboxes-api-openapi.yml
 - filename: e2b-dev-tags-api-openapi.yml
   format: yaml
   label: E2B Tags API
   slug: e2b-dev-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-tags-api-openapi.yml
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-tags-api-openapi.yml
 - filename: e2b-dev-templates-api-openapi.yml
   format: yaml
   label: E2B Templates API
   slug: e2b-dev-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-templates-api-openapi.yml
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-templates-api-openapi.yml
 - filename: e2b-dev-volumes-api-openapi.yml
   format: yaml
   label: E2B Volumes API
   slug: e2b-dev-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-volumes-api-openapi.yml
 - filename: e2b-dev-webhooks-api-openapi.yml
   format: yaml
   label: E2B Webhooks API
   slug: e2b-dev-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-webhooks-api-openapi.yml
 - filename: e2b-dev-e2b-sandbox-events-and-webhooks-api-api-openapi.yml
   format: yaml
   label: E2B Sandbox Events And Webhooks API
   slug: e2b-dev-e2b-sandbox-events-and-webhooks-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-e2b-sandbox-events-and-webhooks-api-api-openapi.yml
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-e2b-sandbox-events-and-webhooks-api-api-openapi.yml
+- filename: e2b-dev-envd-api-openapi.yml
+  format: yaml
+  label: E2B Envd API
+  slug: e2b-dev-envd-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-envd-api-openapi.yml
+- filename: e2b-dev-filesystem-api-openapi.yml
+  format: yaml
+  label: E2B Filesystem API
+  slug: e2b-dev-filesystem-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-filesystem-api-openapi.yml
+- filename: e2b-dev-process-api-openapi.yml
+  format: yaml
+  label: E2B Process API
+  slug: e2b-dev-process-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-process-api-openapi.yml
+- filename: e2b-dev-secrets-api-openapi.yml
+  format: yaml
+  label: E2B Secrets API
+  slug: e2b-dev-secrets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-secrets-api-openapi.yml
+- filename: e2b-dev-teams-api-openapi.yml
+  format: yaml
+  label: E2B Teams API
+  slug: e2b-dev-teams-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-teams-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -117,7 +111,7 @@ source_filename: e2b-dev-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: e2b.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 05:10:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.e2b.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 14:51:06 2026 GMT\n  hsts: null\ndomains:\n- domain: e2b.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: e2b.app\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/security/e2b-dev-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/e2b-dev/security/e2b-dev-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Artificial Intelligence

@@ -5,43 +5,43 @@ api_specs:
   label: Accelo Activities API
   slug: accelo-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/openapi/accelo-activities-api-openapi.yml
+  url: https://artifacts.apis.io/accelo/openapi/accelo-activities-api-openapi.yml
 - filename: accelo-companies-api-openapi.yml
   format: yaml
   label: Accelo Companies API
   slug: accelo-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/openapi/accelo-companies-api-openapi.yml
+  url: https://artifacts.apis.io/accelo/openapi/accelo-companies-api-openapi.yml
 - filename: accelo-contacts-api-openapi.yml
   format: yaml
   label: Accelo Contacts API
   slug: accelo-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/openapi/accelo-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/accelo/openapi/accelo-contacts-api-openapi.yml
 - filename: accelo-issues-api-openapi.yml
   format: yaml
   label: Accelo Issues API
   slug: accelo-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/openapi/accelo-issues-api-openapi.yml
+  url: https://artifacts.apis.io/accelo/openapi/accelo-issues-api-openapi.yml
 - filename: accelo-jobs-api-openapi.yml
   format: yaml
   label: Accelo Jobs API
   slug: accelo-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/openapi/accelo-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/accelo/openapi/accelo-jobs-api-openapi.yml
 - filename: accelo-tasks-api-openapi.yml
   format: yaml
   label: Accelo Tasks API
   slug: accelo-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/openapi/accelo-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/accelo/openapi/accelo-tasks-api-openapi.yml
 - filename: accelo-oauth-api-openapi.yml
   format: yaml
   label: Accelo O Auth API
   slug: accelo-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/openapi/accelo-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/accelo/openapi/accelo-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: accelo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.accelo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 21:09:13 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.accelo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 17 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: accelo.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/security/accelo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/accelo/security/accelo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Professional Services Automation

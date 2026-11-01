@@ -5,7 +5,7 @@ api_specs:
   label: Anoma Network Vault API
   slug: anoma-network-vault-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anoma-network/refs/heads/main/openapi/anoma-network-vault-api-openapi.yml
+  url: https://artifacts.apis.io/anoma-network/openapi/anoma-network-vault-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -41,7 +41,7 @@ source_filename: anoma-network-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: anoma.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 18:34:05 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: anoma.net\n  dnssec: true\n  caa:\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anoma-network/refs/heads/main/security/anoma-network-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/anoma-network/security/anoma-network-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Blockchain

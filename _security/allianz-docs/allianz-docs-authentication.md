@@ -7,25 +7,25 @@ api_specs:
   label: Allianz Certificates API
   slug: allianz-docs-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/openapi/allianz-docs-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-docs/openapi/allianz-docs-certificates-api-openapi.yml
 - filename: allianz-docs-leads-api-openapi.yml
   format: yaml
   label: Allianz Leads API
   slug: allianz-docs-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/openapi/allianz-docs-leads-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-docs/openapi/allianz-docs-leads-api-openapi.yml
 - filename: allianz-docs-policy-details-api-openapi.yml
   format: yaml
   label: Allianz Policy Details API
   slug: allianz-docs-policy-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/openapi/allianz-docs-policy-details-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-docs/openapi/allianz-docs-policy-details-api-openapi.yml
 - filename: allianz-docs-price-estimates-api-openapi.yml
   format: yaml
   label: Allianz Price Estimates API
   slug: allianz-docs-price-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/openapi/allianz-docs-price-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-docs/openapi/allianz-docs-price-estimates-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -56,7 +56,7 @@ source_filename: allianz-docs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/allianz-api-connect.yaml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.allianz.com.au/oauth2/token\n    scopes: 4\n  description: OAuth2 client credentials flow for partner API access\n  sources:\n  - openapi/allianz-api-connect.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/authentication/allianz-docs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/allianz-docs/authentication/allianz-docs-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Financial Services

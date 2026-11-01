@@ -28,7 +28,7 @@ source_filename: chingona-ventures-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.chingona.ventures\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 13:38:04 2026 GMT\n  hsts: true\n  hsts_max_age: 0\ndomains:\n- domain: chingona.ventures\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chingona-ventures/refs/heads/main/security/chingona-ventures-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/chingona-ventures/security/chingona-ventures-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

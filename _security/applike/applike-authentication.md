@@ -7,43 +7,43 @@ api_specs:
   label: AppLike Group App Partner Connection API
   slug: applike-app-partner-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applike/refs/heads/main/openapi/applike-app-partner-connection-api-openapi.yml
+  url: https://artifacts.apis.io/applike/openapi/applike-app-partner-connection-api-openapi.yml
 - filename: applike-apps-api-openapi.yml
   format: yaml
   label: AppLike Group Apps API
   slug: applike-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applike/refs/heads/main/openapi/applike-apps-api-openapi.yml
+  url: https://artifacts.apis.io/applike/openapi/applike-apps-api-openapi.yml
 - filename: applike-bids-api-openapi.yml
   format: yaml
   label: AppLike Group Bids API
   slug: applike-bids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applike/refs/heads/main/openapi/applike-bids-api-openapi.yml
+  url: https://artifacts.apis.io/applike/openapi/applike-bids-api-openapi.yml
 - filename: applike-campaigns-api-openapi.yml
   format: yaml
   label: AppLike Group Campaigns API
   slug: applike-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applike/refs/heads/main/openapi/applike-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/applike/openapi/applike-campaigns-api-openapi.yml
 - filename: applike-partner-configurations-api-openapi.yml
   format: yaml
   label: AppLike Group Partner Configurations API
   slug: applike-partner-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applike/refs/heads/main/openapi/applike-partner-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/applike/openapi/applike-partner-configurations-api-openapi.yml
 - filename: applike-partners-api-openapi.yml
   format: yaml
   label: AppLike Group Partners API
   slug: applike-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applike/refs/heads/main/openapi/applike-partners-api-openapi.yml
+  url: https://artifacts.apis.io/applike/openapi/applike-partners-api-openapi.yml
 - filename: applike-app-events-api-openapi.yml
   format: yaml
   label: AppLike Group App Events API
   slug: applike-app-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applike/refs/heads/main/openapi/applike-app-events-api-openapi.yml
+  url: https://artifacts.apis.io/applike/openapi/applike-app-events-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -126,7 +126,7 @@ source_yaml: "generated: '2026-08-06'\nmethod: searched\nsource: >-\n  openapi/a
   \  - adjoe server-to-server rewarded payout callback\n  construction: sid = sha1(concatenate(trans_uuid, user_uuid, currency, coin_amount, device_id, sdk_app_id, s2s_token))\n  verification: >-\n    The receiving publisher recomputes the sid with its own s2s_token and compares it with the value adjoe sent.\n    Requests whose sid does not match must be rejected.\n  note: >-\n    SHA-1 concatenation is the weakest primitive on this provider's surface. It is unkeyed HMAC (a plain hash of a\n    concatenated string including a shared secret), which is susceptible to length-extension and offers no algorithm\n    agility. Recorded as observed; this is a finding to raise with adjoe, not a defect in this artifact.\n  evidence: https://docs.adjoe.io/rewarded-solutions/setting-up-rewarding/server-to-server-payouts\n- id: justtrack-sdk-token\n  type: apiKey\n  in: sdk-initializer\n  name: apiToken\n  applies_to:\n  - justtrack mobile SDKs (Android, iOS, Unity, React Native, Godot)\n  note: Client-side\
   \ app token used to initialize the SDK; distinct from the dashboard API key.\n  evidence: https://docs.justtrack.io/sdk/find-your-justtrack-token/\n- id: adjoe-sdk-hash\n  type: apiKey\n  in: sdk-initializer\n  name: sdkHash\n  applies_to:\n  - adjoe Playtime SDK\n  - adjoe SSP Revenue API (as a path parameter identifying the SDK/app)\n  evidence: https://docs.adjoe.io/rewarded-solutions/integration/playtime-sdk-for-android\nnot_supported:\n  oauth2: not documented on any surface\n  openIdConnect: no /.well-known/openid-configuration on any host (all probes 404)\n  mutualTLS: not documented\n  jwt_bearer: not documented\n  scopes: >-\n    none. No scope, permission or role model is published for any API key, so scopes/ is intentionally absent rather\n    than empty.\nkey_rotation:\n  documented: partial\n  detail: >-\n    justtrack documents generating a new key from the user profile page but publishes no rotation policy, key\n    expiry, or multi-key/per-environment guidance. adjoe documents\
   \ where to copy the publisher token but not how to\n    rotate it.\ntransport:\n  https_required: true\n  observed: all documented endpoints are https-only\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/applike/refs/heads/main/authentication/applike-authentication.yml
+source_yaml_url: https://artifacts.apis.io/applike/authentication/applike-authentication.yml
 summary_line: 6 schemes
 tags:
 - Mobile Attribution

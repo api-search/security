@@ -5,43 +5,43 @@ api_specs:
   label: Brandwatch Client API
   slug: brandwatch-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/openapi/brandwatch-client-api-openapi.yml
+  url: https://artifacts.apis.io/brandwatch/openapi/brandwatch-client-api-openapi.yml
 - filename: brandwatch-data-api-openapi.yml
   format: yaml
   label: Brandwatch Data API
   slug: brandwatch-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/openapi/brandwatch-data-api-openapi.yml
+  url: https://artifacts.apis.io/brandwatch/openapi/brandwatch-data-api-openapi.yml
 - filename: brandwatch-me-api-openapi.yml
   format: yaml
   label: Brandwatch Me API
   slug: brandwatch-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/openapi/brandwatch-me-api-openapi.yml
+  url: https://artifacts.apis.io/brandwatch/openapi/brandwatch-me-api-openapi.yml
 - filename: brandwatch-project-api-openapi.yml
   format: yaml
   label: Brandwatch Project API
   slug: brandwatch-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/openapi/brandwatch-project-api-openapi.yml
+  url: https://artifacts.apis.io/brandwatch/openapi/brandwatch-project-api-openapi.yml
 - filename: brandwatch-projects-api-openapi.yml
   format: yaml
   label: Brandwatch Projects API
   slug: brandwatch-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/openapi/brandwatch-projects-api-openapi.yml
+  url: https://artifacts.apis.io/brandwatch/openapi/brandwatch-projects-api-openapi.yml
 - filename: brandwatch-user-api-openapi.yml
   format: yaml
   label: Brandwatch User API
   slug: brandwatch-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/openapi/brandwatch-user-api-openapi.yml
+  url: https://artifacts.apis.io/brandwatch/openapi/brandwatch-user-api-openapi.yml
 - filename: brandwatch-oauth-api-openapi.yml
   format: yaml
   label: Brandwatch OAUTH API
   slug: brandwatch-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/openapi/brandwatch-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/brandwatch/openapi/brandwatch-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: brandwatch-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.brandwatch.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 08:00:55 2026 GMT\n  hsts: false\n- host: api.brandwatch.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  1 06:57:42 2026 GMT\n  hsts: null\ndomains:\n- domain: brandwatch.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/security/brandwatch-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/brandwatch/security/brandwatch-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Analytics

@@ -26,7 +26,7 @@ source_filename: eucalyptus-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.eucalyptus.health\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 23:26:11 2026 GMT\n  hsts: false\ndomains:\n- domain: eucalyptus.health\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eucalyptus/refs/heads/main/security/eucalyptus-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/eucalyptus/security/eucalyptus-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

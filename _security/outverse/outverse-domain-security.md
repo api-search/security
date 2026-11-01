@@ -33,7 +33,7 @@ source_filename: outverse-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: outverse.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 10:25:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: outverse.com\n  dnssec: false\n  caa:\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"starfieldtech.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/outverse/refs/heads/main/security/outverse-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/outverse/security/outverse-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -7,31 +7,31 @@ api_specs:
   label: SAP API Management API Products API
   slug: sap-api-management-api-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-api-management/refs/heads/main/openapi/sap-api-management-api-products-api-openapi.yml
+  url: https://artifacts.apis.io/sap-api-management/openapi/sap-api-management-api-products-api-openapi.yml
 - filename: sap-api-management-api-providers-api-openapi.yml
   format: yaml
   label: SAP API Management API Providers API
   slug: sap-api-management-api-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-api-management/refs/heads/main/openapi/sap-api-management-api-providers-api-openapi.yml
+  url: https://artifacts.apis.io/sap-api-management/openapi/sap-api-management-api-providers-api-openapi.yml
 - filename: sap-api-management-api-proxies-api-openapi.yml
   format: yaml
   label: SAP API Management API Proxies API
   slug: sap-api-management-api-proxies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-api-management/refs/heads/main/openapi/sap-api-management-api-proxies-api-openapi.yml
+  url: https://artifacts.apis.io/sap-api-management/openapi/sap-api-management-api-proxies-api-openapi.yml
 - filename: sap-api-management-applications-api-openapi.yml
   format: yaml
   label: SAP API Management Applications API
   slug: sap-api-management-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-api-management/refs/heads/main/openapi/sap-api-management-applications-api-openapi.yml
+  url: https://artifacts.apis.io/sap-api-management/openapi/sap-api-management-applications-api-openapi.yml
 - filename: sap-api-management-key-value-maps-api-openapi.yml
   format: yaml
   label: SAP API Management Key Value Maps API
   slug: sap-api-management-key-value-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-api-management/refs/heads/main/openapi/sap-api-management-key-value-maps-api-openapi.yml
+  url: https://artifacts.apis.io/sap-api-management/openapi/sap-api-management-key-value-maps-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -62,7 +62,7 @@ source_filename: sap-api-management-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sap-api-management-portal-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{tenantUrl}/oauth/token\n    scopes: 1\n  description: OAuth 2.0 authentication using SAP BTP service key credentials\n  sources:\n  - openapi/sap-api-management-portal-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap-api-management/refs/heads/main/authentication/sap-api-management-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sap-api-management/authentication/sap-api-management-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - API Management

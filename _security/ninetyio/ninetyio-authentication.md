@@ -7,43 +7,43 @@ api_specs:
   label: Ninety.io Issues API
   slug: ninetyio-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/openapi/ninetyio-issues-api-openapi.yml
+  url: https://artifacts.apis.io/ninetyio/openapi/ninetyio-issues-api-openapi.yml
 - filename: ninetyio-milestones-api-openapi.yml
   format: yaml
   label: Ninety.io Milestones API
   slug: ninetyio-milestones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/openapi/ninetyio-milestones-api-openapi.yml
+  url: https://artifacts.apis.io/ninetyio/openapi/ninetyio-milestones-api-openapi.yml
 - filename: ninetyio-rocks-api-openapi.yml
   format: yaml
   label: Ninety.io Rocks API
   slug: ninetyio-rocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/openapi/ninetyio-rocks-api-openapi.yml
+  url: https://artifacts.apis.io/ninetyio/openapi/ninetyio-rocks-api-openapi.yml
 - filename: ninetyio-scorecard-api-openapi.yml
   format: yaml
   label: Ninety.io Scorecard API
   slug: ninetyio-scorecard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/openapi/ninetyio-scorecard-api-openapi.yml
+  url: https://artifacts.apis.io/ninetyio/openapi/ninetyio-scorecard-api-openapi.yml
 - filename: ninetyio-teams-api-openapi.yml
   format: yaml
   label: Ninety.io Teams API
   slug: ninetyio-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/openapi/ninetyio-teams-api-openapi.yml
+  url: https://artifacts.apis.io/ninetyio/openapi/ninetyio-teams-api-openapi.yml
 - filename: ninetyio-to-dos-api-openapi.yml
   format: yaml
   label: Ninety.io To-Dos API
   slug: ninetyio-to-dos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/openapi/ninetyio-to-dos-api-openapi.yml
+  url: https://artifacts.apis.io/ninetyio/openapi/ninetyio-to-dos-api-openapi.yml
 - filename: ninetyio-users-api-openapi.yml
   format: yaml
   label: Ninety.io Users API
   slug: ninetyio-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/openapi/ninetyio-users-api-openapi.yml
+  url: https://artifacts.apis.io/ninetyio/openapi/ninetyio-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -73,7 +73,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/ninetyio-openapi-original.json\ndocs: https://help.ninety.io/en/articles/15505694-api-reference-and-access\nsummary:\n  types: [http]\n  http_schemes: [bearer]\n  bearer_format: JWT\n  token_model: personal-access-token\n  oauth2_flows: []\n  api_key_in: []\n  notes: >-\n    Authentication is a Personal Access Token (PAT) passed as an HTTP Bearer\n    token in the Authorization header. Tokens are generated per user at\n    https://app.ninety.io/settings/user/developer-settings with a selectable\n    expiration (30, 90, 180, or 365 days). Every call executes as the generating\n    user and respects that user's in-app permissions; there is no admin or\n    superuser override, and cross-company access requires a separate token per\n    company. There is no OAuth2 / OpenID Connect flow and no scope surface.\nschemes:\n  - name: JWT\n    type: http\n    scheme: bearer\n    bearer_format: JWT\n    description: >-\n      Personal\
   \ Access Token — generate one at\n      https://app.ninety.io/settings/user/developer-settings\n    location: header (Authorization)\n    sources: [openapi/ninetyio-openapi-original.json]\napplied:\n  global: true\n  requirement: [{JWT: []}]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/authentication/ninetyio-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ninetyio/authentication/ninetyio-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

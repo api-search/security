@@ -8,43 +8,43 @@ api_specs:
   label: Limrun Analytics API
   slug: limrun-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/openapi/limrun-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/limrun/openapi/limrun-analytics-api-openapi.yml
 - filename: limrun-android-instances-api-openapi.yml
   format: yaml
   label: Limrun Android Instances API
   slug: limrun-android-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/openapi/limrun-android-instances-api-openapi.yml
+  url: https://artifacts.apis.io/limrun/openapi/limrun-android-instances-api-openapi.yml
 - filename: limrun-assets-api-openapi.yml
   format: yaml
   label: Limrun Assets API
   slug: limrun-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/openapi/limrun-assets-api-openapi.yml
+  url: https://artifacts.apis.io/limrun/openapi/limrun-assets-api-openapi.yml
 - filename: limrun-downloads-api-openapi.yml
   format: yaml
   label: Limrun Downloads API
   slug: limrun-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/openapi/limrun-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/limrun/openapi/limrun-downloads-api-openapi.yml
 - filename: limrun-gradle-instances-api-openapi.yml
   format: yaml
   label: Limrun Gradle Instances API
   slug: limrun-gradle-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/openapi/limrun-gradle-instances-api-openapi.yml
+  url: https://artifacts.apis.io/limrun/openapi/limrun-gradle-instances-api-openapi.yml
 - filename: limrun-ios-instances-api-openapi.yml
   format: yaml
   label: Limrun Ios Instances API
   slug: limrun-ios-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/openapi/limrun-ios-instances-api-openapi.yml
+  url: https://artifacts.apis.io/limrun/openapi/limrun-ios-instances-api-openapi.yml
 - filename: limrun-xcode-instances-api-openapi.yml
   format: yaml
   label: Limrun Xcode Instances API
   slug: limrun-xcode-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/openapi/limrun-xcode-instances-api-openapi.yml
+  url: https://artifacts.apis.io/limrun/openapi/limrun-xcode-instances-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -114,7 +114,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/limrun-openapi-original.yml\ndocs: https://docs.limrun.com/docs/reference/sdk\nnotes: >-\n  The harvested OpenAPI declares no components.securitySchemes, so the mechanical derive produced\n  nothing. This profile is taken from the provider's SDK reference, MCP page, and the live RFC 8414\n  document at api.limrun.com. Limrun uses two distinct credentials plus an OAuth surface reserved\n  for MCP, and separately offers OIDC single sign-on for console access.\nsummary:\n  types:\n  - http\n  - oauth2\n  - openIdConnect\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: OrgAPIKey\n  type: http\n  scheme: bearer\n  in: header\n  header: Authorization\n  key_prefix: lim_\n  env_var: LIM_API_KEY\n  issued_at: https://console.limrun.com\n  scope: >-\n    The REST control plane at api.limrun.com - create, list, get, and delete instances and assets.\n  warning: Must never ship to a browser\
   \ or end-user client.\n  source: docs\n- name: PerInstanceToken\n  type: http\n  scheme: bearer\n  in: header\n  header: Authorization\n  obtained_from: instance.status.token (returned when the instance reaches ready)\n  scope: >-\n    The per-instance data plane - apiUrl device daemon, endpointWebSocketUrl (also accepted as a\n    ?token= query parameter), adbWebSocketUrl, sandbox.xcode.url, and the per-instance MCP endpoint.\n    Embedded in signedStreamUrl for browser streaming. Valid only while the instance runs and only\n    for that instance.\n  source: docs\n- name: SignedStreamURL\n  type: bearer-in-url\n  obtained_from: instance.status.signedStreamUrl\n  scope: >-\n    Browser watch URL with the token baked in. Anyone holding the URL can open the running simulator\n    without an interactive auth flow - the mechanism for sharing a live device with a reviewer.\n  source: docs\n- name: MCPOAuth\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    issuer: https://api.limrun.com\n\
   \    authorizationUrl: https://api.limrun.com/authn/oauth/authorize\n    tokenUrl: https://api.limrun.com/authn/oauth/token\n    registrationUrl: https://api.limrun.com/authn/oauth/register\n    code_challenge_methods:\n    - S256\n    token_endpoint_auth_methods:\n    - none\n    scopes:\n    - mcp\n  source: https://api.limrun.com/.well-known/oauth-authorization-server\n- name: OrganizationSSO\n  type: openIdConnect\n  scope: Organization single sign-on for the Limrun console; Okta Integration Network supported.\n  docs: https://docs.limrun.com/docs/reference/single-sign-on\n  source: docs\ncredential_confusion_note: >-\n  The provider's own SDK reference calls out mixing the org API key and the per-instance token as\n  \"the most common integration bug\". The two pages also disagree on which credential authenticates\n  MCP - see mcp/limrun-mcp.yml.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/authentication/limrun-authentication.yml
+source_yaml_url: https://artifacts.apis.io/limrun/authentication/limrun-authentication.yml
 summary_line: http/oauth2/openIdConnect · 5 schemes
 tags:
 - Company

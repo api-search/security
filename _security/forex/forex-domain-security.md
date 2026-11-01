@@ -5,19 +5,19 @@ api_specs:
   label: Forex Account API
   slug: forex-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forex/refs/heads/main/openapi/forex-account-api-openapi.yml
+  url: https://artifacts.apis.io/forex/openapi/forex-account-api-openapi.yml
 - filename: forex-rates-api-openapi.yml
   format: yaml
   label: Forex Rates API
   slug: forex-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forex/refs/heads/main/openapi/forex-rates-api-openapi.yml
+  url: https://artifacts.apis.io/forex/openapi/forex-rates-api-openapi.yml
 - filename: forex-reference-api-openapi.yml
   format: yaml
   label: Forex Reference API
   slug: forex-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forex/refs/heads/main/openapi/forex-reference-api-openapi.yml
+  url: https://artifacts.apis.io/forex/openapi/forex-reference-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: forex-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: openexchangerates.org\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 30 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: fixer.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 02:46:34 2026 GMT\n  hsts: false\n- host: api.fixer.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 02:46:34 2026 GMT\n  hsts: false\ndomains:\n- domain: openexchangerates.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: fixer.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forex/refs/heads/main/security/forex-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/forex/security/forex-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Currency

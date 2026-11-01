@@ -8,13 +8,13 @@ api_specs:
   label: Mediastack News API
   slug: mediastack-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediastack/refs/heads/main/openapi/mediastack-news-api-openapi.yml
+  url: https://artifacts.apis.io/mediastack/openapi/mediastack-news-api-openapi.yml
 - filename: mediastack-sources-api-openapi.yml
   format: yaml
   label: Mediastack Sources API
   slug: mediastack-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediastack/refs/heads/main/openapi/mediastack-sources-api-openapi.yml
+  url: https://artifacts.apis.io/mediastack/openapi/mediastack-sources-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -44,7 +44,7 @@ source_filename: mediastack-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/mediastack-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: query\n  parameter: access_key\n  description: |-\n    Mediastack uses a single static API access key passed as a query parameter\n    (`access_key=YOUR_KEY`). Keys are issued from the mediastack dashboard.\n  sources:\n  - openapi/mediastack-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mediastack/refs/heads/main/authentication/mediastack-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mediastack/authentication/mediastack-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - News

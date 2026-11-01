@@ -17,7 +17,7 @@ source_filename: rebrandly-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.rebrandly.com/\nurl: https://trust.rebrandly.com/\ncertifications:\n- SOC 2\n- HIPAA\n- GDPR\nevidence:\n- source: https://trust.rebrandly.com/\n  keywords:\n  - soc 2\n  - hipaa\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rebrandly/refs/heads/main/security/rebrandly-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/rebrandly/security/rebrandly-trust-center.yml
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - URL Shorteners

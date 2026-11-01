@@ -49,7 +49,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml hosts\nnotes: >-\n  Every BociMed web host answers on port 443 but presents a self-signed certificate,\n  so no host completes a trusted TLS handshake. The public site is served over plain\n  HTTP only (http://www.bocimed.com/, http://en.bocimed.com/), with no HSTS. The apex\n  bocimed.com does not answer HTTP or HTTPS at all — only www and en resolve to a\n  serving origin. Absence of a record below is observed data, not a gap in the probe.\nhosts:\n- host: www.bocimed.com\n  https: false\n  https_port_open: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed\n    certificate (_ssl.c:1082)'\n  http: 200\n  hsts: null\n  server: wts/1.7.4\n- host: en.bocimed.com\n  https: false\n  https_port_open: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed\n    certificate (_ssl.c:1082)'\n  http: 200\n  hsts:\
   \ null\n  server: wts/1.7.4\n- host: bocimed.com\n  https: false\n  https_port_open: false\n  tls_cert_error: timed out\n  http: null\n  hsts: null\ndomains:\n- domain: bocimed.com\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: v=spf1 include:spf.mail.qq.com ~all\n  dmarc: false\n  mx:\n  - 5 mxbiz1.qq.com.\n  - 10 mxbiz2.qq.com.\n  nameservers:\n  - dns21.hichina.com.\n  - dns22.hichina.com.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bocimed/refs/heads/main/security/bocimed-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bocimed/security/bocimed-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

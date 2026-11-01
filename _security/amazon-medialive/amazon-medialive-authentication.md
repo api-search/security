@@ -8,7 +8,55 @@ api_specs:
   label: Amazon MediaLive Prod API
   slug: amazon-medialive-prod-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/openapi/amazon-medialive-prod-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-medialive/openapi/amazon-medialive-prod-api-openapi.yml
+- filename: amazon-medialive-alerts-api-openapi.yml
+  format: yaml
+  label: Amazon MediaLive Medialive Alerts API
+  slug: amazon-medialive-alerts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-medialive/openapi/amazon-medialive-alerts-api-openapi.yml
+- filename: amazon-medialive-channelplacementgroups-api-openapi.yml
+  format: yaml
+  label: Amazon MediaLive Medialive Channelplacementgroups API
+  slug: amazon-medialive-channelplacementgroups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-medialive/openapi/amazon-medialive-channelplacementgroups-api-openapi.yml
+- filename: amazon-medialive-nodes-api-openapi.yml
+  format: yaml
+  label: Amazon MediaLive Medialive Nodes API
+  slug: amazon-medialive-nodes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-medialive/openapi/amazon-medialive-nodes-api-openapi.yml
+- filename: amazon-medialive-operations-api-openapi.yml
+  format: yaml
+  label: Amazon MediaLive Medialive Operations API
+  slug: amazon-medialive-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-medialive/openapi/amazon-medialive-operations-api-openapi.yml
+- filename: amazon-medialive-programs-api-openapi.yml
+  format: yaml
+  label: Amazon MediaLive Medialive Programs API
+  slug: amazon-medialive-programs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-medialive/openapi/amazon-medialive-programs-api-openapi.yml
+- filename: amazon-medialive-schedule-api-openapi.yml
+  format: yaml
+  label: Amazon MediaLive Medialive Schedule API
+  slug: amazon-medialive-schedule-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-medialive/openapi/amazon-medialive-schedule-api-openapi.yml
+- filename: amazon-medialive-start-api-openapi.yml
+  format: yaml
+  label: Amazon MediaLive Medialive Start API
+  slug: amazon-medialive-start-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-medialive/openapi/amazon-medialive-start-api-openapi.yml
+- filename: amazon-medialive-stop-api-openapi.yml
+  format: yaml
+  label: Amazon MediaLive Medialive Stop API
+  slug: amazon-medialive-stop-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-medialive/openapi/amazon-medialive-stop-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +84,7 @@ source_filename: amazon-medialive-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-medialive-openapi-original.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-medialive-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/authentication/amazon-medialive-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-medialive/authentication/amazon-medialive-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Broadcasting

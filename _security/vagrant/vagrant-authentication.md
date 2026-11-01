@@ -7,31 +7,31 @@ api_specs:
   label: Vagrant Boxes API
   slug: vagrant-boxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagrant/refs/heads/main/openapi/vagrant-boxes-api-openapi.yml
+  url: https://artifacts.apis.io/vagrant/openapi/vagrant-boxes-api-openapi.yml
 - filename: vagrant-providers-api-openapi.yml
   format: yaml
   label: Vagrant Providers API
   slug: vagrant-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagrant/refs/heads/main/openapi/vagrant-providers-api-openapi.yml
+  url: https://artifacts.apis.io/vagrant/openapi/vagrant-providers-api-openapi.yml
 - filename: vagrant-registries-api-openapi.yml
   format: yaml
   label: Vagrant Registries API
   slug: vagrant-registries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagrant/refs/heads/main/openapi/vagrant-registries-api-openapi.yml
+  url: https://artifacts.apis.io/vagrant/openapi/vagrant-registries-api-openapi.yml
 - filename: vagrant-search-api-openapi.yml
   format: yaml
   label: Vagrant Search API
   slug: vagrant-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagrant/refs/heads/main/openapi/vagrant-search-api-openapi.yml
+  url: https://artifacts.apis.io/vagrant/openapi/vagrant-search-api-openapi.yml
 - filename: vagrant-versions-api-openapi.yml
   format: yaml
   label: Vagrant Versions API
   slug: vagrant-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagrant/refs/heads/main/openapi/vagrant-versions-api-openapi.yml
+  url: https://artifacts.apis.io/vagrant/openapi/vagrant-versions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -59,12 +59,12 @@ source_filename: vagrant-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/vagrant-cloud-api-openapi.yml, openapi/vagrant-hcp-vagrant-box-registry-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Vagrant Cloud API token passed as a Bearer token in the Authorization header.\n  sources:\n  - openapi/vagrant-cloud-api-openapi.yml\n  - openapi/vagrant-hcp-vagrant-box-registry-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vagrant/refs/heads/main/authentication/vagrant-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vagrant/authentication/vagrant-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - DevOps
 - Virtualization
-- Development Environments
+- Developer Environments
 - Box
 - Cloud
 - HashiCorp

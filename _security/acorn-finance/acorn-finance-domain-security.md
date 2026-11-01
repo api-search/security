@@ -39,7 +39,7 @@ source_filename: acorn-finance-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.acornfinance.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 24 23:08:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.acornfinance.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 13 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.acornfinance.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 16 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: acornfinance.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acorn-finance/refs/heads/main/security/acorn-finance-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/acorn-finance/security/acorn-finance-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

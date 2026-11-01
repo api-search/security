@@ -5,37 +5,37 @@ api_specs:
   label: ACRCloud Audio Files API
   slug: acrcloud-audio-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/openapi/acrcloud-audio-files-api-openapi.yml
+  url: https://artifacts.apis.io/acrcloud/openapi/acrcloud-audio-files-api-openapi.yml
 - filename: acrcloud-broadcast-monitoring-api-openapi.yml
   format: yaml
   label: ACRCloud Broadcast Monitoring API
   slug: acrcloud-broadcast-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/openapi/acrcloud-broadcast-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/acrcloud/openapi/acrcloud-broadcast-monitoring-api-openapi.yml
 - filename: acrcloud-buckets-api-openapi.yml
   format: yaml
   label: ACRCloud Buckets API
   slug: acrcloud-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/openapi/acrcloud-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/acrcloud/openapi/acrcloud-buckets-api-openapi.yml
 - filename: acrcloud-file-scanning-api-openapi.yml
   format: yaml
   label: ACRCloud File Scanning API
   slug: acrcloud-file-scanning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/openapi/acrcloud-file-scanning-api-openapi.yml
+  url: https://artifacts.apis.io/acrcloud/openapi/acrcloud-file-scanning-api-openapi.yml
 - filename: acrcloud-identification-api-openapi.yml
   format: yaml
   label: ACRCloud Identification API
   slug: acrcloud-identification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/openapi/acrcloud-identification-api-openapi.yml
+  url: https://artifacts.apis.io/acrcloud/openapi/acrcloud-identification-api-openapi.yml
 - filename: acrcloud-metadata-api-openapi.yml
   format: yaml
   label: ACRCloud Metadata API
   slug: acrcloud-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/openapi/acrcloud-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/acrcloud/openapi/acrcloud-metadata-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: acrcloud-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.acrcloud.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  7 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.acrcloud.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 22:14:32 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: identify-eu-west-1.acrcloud.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov  6 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: acrcloud.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/security/acrcloud-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/acrcloud/security/acrcloud-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Audio

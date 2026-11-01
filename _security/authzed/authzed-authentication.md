@@ -7,31 +7,31 @@ api_specs:
   label: Authzed Experimental API
   slug: authzed-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authzed/refs/heads/main/openapi/authzed-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/authzed/openapi/authzed-experimental-api-openapi.yml
 - filename: authzed-permissions-api-openapi.yml
   format: yaml
   label: Authzed Permissions API
   slug: authzed-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authzed/refs/heads/main/openapi/authzed-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/authzed/openapi/authzed-permissions-api-openapi.yml
 - filename: authzed-relationships-api-openapi.yml
   format: yaml
   label: Authzed Relationships API
   slug: authzed-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authzed/refs/heads/main/openapi/authzed-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/authzed/openapi/authzed-relationships-api-openapi.yml
 - filename: authzed-schema-api-openapi.yml
   format: yaml
   label: Authzed Schema API
   slug: authzed-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authzed/refs/heads/main/openapi/authzed-schema-api-openapi.yml
+  url: https://artifacts.apis.io/authzed/openapi/authzed-schema-api-openapi.yml
 - filename: authzed-watch-api-openapi.yml
   format: yaml
   label: Authzed Watch API
   slug: authzed-watch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authzed/refs/heads/main/openapi/authzed-watch-api-openapi.yml
+  url: https://artifacts.apis.io/authzed/openapi/authzed-watch-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: authzed-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/authzed-spicedb-permissions-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: 'SpiceDB preshared-key. Pass as Authorization: Bearer <preshared-key>'\n  sources:\n  - openapi/authzed-spicedb-permissions-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/authzed/refs/heads/main/authentication/authzed-authentication.yml
+source_yaml_url: https://artifacts.apis.io/authzed/authentication/authzed-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Authorization

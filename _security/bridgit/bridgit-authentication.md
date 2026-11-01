@@ -7,241 +7,241 @@ api_specs:
   label: Bridgit AccountActivities API
   slug: bridgit-accountactivities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-accountactivities-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-accountactivities-api-openapi.yml
 - filename: bridgit-accountcertifications-api-openapi.yml
   format: yaml
   label: Bridgit AccountCertifications API
   slug: bridgit-accountcertifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-accountcertifications-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-accountcertifications-api-openapi.yml
 - filename: bridgit-accountgroupings-api-openapi.yml
   format: yaml
   label: Bridgit AccountGroupings API
   slug: bridgit-accountgroupings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-accountgroupings-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-accountgroupings-api-openapi.yml
 - filename: bridgit-accounts-api-openapi.yml
   format: yaml
   label: Bridgit Accounts API
   slug: bridgit-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-accounts-api-openapi.yml
 - filename: bridgit-allocations-api-openapi.yml
   format: yaml
   label: Bridgit Allocations API
   slug: bridgit-allocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-allocations-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-allocations-api-openapi.yml
 - filename: bridgit-experiencefields-api-openapi.yml
   format: yaml
   label: Bridgit ExperienceFields API
   slug: bridgit-experiencefields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-experiencefields-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-experiencefields-api-openapi.yml
 - filename: bridgit-experiencefieldvalues-api-openapi.yml
   format: yaml
   label: Bridgit ExperienceFieldValues API
   slug: bridgit-experiencefieldvalues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-experiencefieldvalues-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-experiencefieldvalues-api-openapi.yml
 - filename: bridgit-external-api-openapi.yml
   format: yaml
   label: Bridgit External API
   slug: bridgit-external-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-external-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-external-api-openapi.yml
 - filename: bridgit-hourlyallocations-api-openapi.yml
   format: yaml
   label: Bridgit HourlyAllocations API
   slug: bridgit-hourlyallocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-hourlyallocations-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-hourlyallocations-api-openapi.yml
 - filename: bridgit-hourlyrolenames-api-openapi.yml
   format: yaml
   label: Bridgit HourlyRoleNames API
   slug: bridgit-hourlyrolenames-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-hourlyrolenames-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-hourlyrolenames-api-openapi.yml
 - filename: bridgit-personattachments-api-openapi.yml
   format: yaml
   label: Bridgit PersonAttachments API
   slug: bridgit-personattachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-personattachments-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-personattachments-api-openapi.yml
 - filename: bridgit-personcertattachments-api-openapi.yml
   format: yaml
   label: Bridgit PersonCertAttachments API
   slug: bridgit-personcertattachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-personcertattachments-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-personcertattachments-api-openapi.yml
 - filename: bridgit-personcertifications-api-openapi.yml
   format: yaml
   label: Bridgit PersonCertifications API
   slug: bridgit-personcertifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-personcertifications-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-personcertifications-api-openapi.yml
 - filename: bridgit-personfields-api-openapi.yml
   format: yaml
   label: Bridgit PersonFields API
   slug: bridgit-personfields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-personfields-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-personfields-api-openapi.yml
 - filename: bridgit-personfieldvalue-api-openapi.yml
   format: yaml
   label: Bridgit PersonFieldValue API
   slug: bridgit-personfieldvalue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-personfieldvalue-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-personfieldvalue-api-openapi.yml
 - filename: bridgit-persongroupings-api-openapi.yml
   format: yaml
   label: Bridgit PersonGroupings API
   slug: bridgit-persongroupings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-persongroupings-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-persongroupings-api-openapi.yml
 - filename: bridgit-personhistoricalexperiencefields-api-openapi.yml
   format: yaml
   label: Bridgit PersonHistoricalExperienceFields API
   slug: bridgit-personhistoricalexperiencefields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-personhistoricalexperiencefields-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-personhistoricalexperiencefields-api-openapi.yml
 - filename: bridgit-personhistoricalexperiences-api-openapi.yml
   format: yaml
   label: Bridgit PersonHistoricalExperiences API
   slug: bridgit-personhistoricalexperiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-personhistoricalexperiences-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-personhistoricalexperiences-api-openapi.yml
 - filename: bridgit-personprofile-api-openapi.yml
   format: yaml
   label: Bridgit PersonProfile API
   slug: bridgit-personprofile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-personprofile-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-personprofile-api-openapi.yml
 - filename: bridgit-persons-api-openapi.yml
   format: yaml
   label: Bridgit Persons API
   slug: bridgit-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-persons-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-persons-api-openapi.yml
 - filename: bridgit-personunavailabilities-api-openapi.yml
   format: yaml
   label: Bridgit PersonUnavailabilities API
   slug: bridgit-personunavailabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-personunavailabilities-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-personunavailabilities-api-openapi.yml
 - filename: bridgit-phases-api-openapi.yml
   format: yaml
   label: Bridgit Phases API
   slug: bridgit-phases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-phases-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-phases-api-openapi.yml
 - filename: bridgit-projectfields-api-openapi.yml
   format: yaml
   label: Bridgit ProjectFields API
   slug: bridgit-projectfields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-projectfields-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-projectfields-api-openapi.yml
 - filename: bridgit-projectfieldvalue-api-openapi.yml
   format: yaml
   label: Bridgit ProjectFieldValue API
   slug: bridgit-projectfieldvalue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-projectfieldvalue-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-projectfieldvalue-api-openapi.yml
 - filename: bridgit-projectgroupings-api-openapi.yml
   format: yaml
   label: Bridgit ProjectGroupings API
   slug: bridgit-projectgroupings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-projectgroupings-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-projectgroupings-api-openapi.yml
 - filename: bridgit-projectnotes-api-openapi.yml
   format: yaml
   label: Bridgit ProjectNotes API
   slug: bridgit-projectnotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-projectnotes-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-projectnotes-api-openapi.yml
 - filename: bridgit-projectrolecategories-api-openapi.yml
   format: yaml
   label: Bridgit ProjectRoleCategories API
   slug: bridgit-projectrolecategories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-projectrolecategories-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-projectrolecategories-api-openapi.yml
 - filename: bridgit-projects-api-openapi.yml
   format: yaml
   label: Bridgit Projects API
   slug: bridgit-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-projects-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-projects-api-openapi.yml
 - filename: bridgit-projectsphases-api-openapi.yml
   format: yaml
   label: Bridgit ProjectsPhases API
   slug: bridgit-projectsphases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-projectsphases-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-projectsphases-api-openapi.yml
 - filename: bridgit-projectworkforcespendreports-api-openapi.yml
   format: yaml
   label: Bridgit ProjectWorkforceSpendReports API
   slug: bridgit-projectworkforcespendreports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-projectworkforcespendreports-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-projectworkforcespendreports-api-openapi.yml
 - filename: bridgit-roleallocations-api-openapi.yml
   format: yaml
   label: Bridgit RoleAllocations API
   slug: bridgit-roleallocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-roleallocations-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-roleallocations-api-openapi.yml
 - filename: bridgit-rolenames-api-openapi.yml
   format: yaml
   label: Bridgit RoleNames API
   slug: bridgit-rolenames-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-rolenames-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-rolenames-api-openapi.yml
 - filename: bridgit-sharedfilters-api-openapi.yml
   format: yaml
   label: Bridgit SharedFilters API
   slug: bridgit-sharedfilters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-sharedfilters-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-sharedfilters-api-openapi.yml
 - filename: bridgit-users-api-openapi.yml
   format: yaml
   label: Bridgit Users API
   slug: bridgit-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-users-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-users-api-openapi.yml
 - filename: bridgit-account-invitations-api-openapi.yml
   format: yaml
   label: Bridgit Account Invitations API
   slug: bridgit-account-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-account-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-account-invitations-api-openapi.yml
 - filename: bridgit-account-users-api-openapi.yml
   format: yaml
   label: Bridgit Account Users API
   slug: bridgit-account-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-account-users-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-account-users-api-openapi.yml
 - filename: bridgit-project-roles-api-openapi.yml
   format: yaml
   label: Bridgit Project Roles API
   slug: bridgit-project-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-project-roles-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-project-roles-api-openapi.yml
 - filename: bridgit-project-tasks-api-openapi.yml
   format: yaml
   label: Bridgit Project Tasks API
   slug: bridgit-project-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-project-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-project-tasks-api-openapi.yml
 - filename: bridgit-service-accounts-api-openapi.yml
   format: yaml
   label: Bridgit Service Accounts API
   slug: bridgit-service-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-service-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-service-accounts-api-openapi.yml
 - filename: bridgit-user-filters-api-openapi.yml
   format: yaml
   label: Bridgit User Filters API
   slug: bridgit-user-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-user-filters-api-openapi.yml
+  url: https://artifacts.apis.io/bridgit/openapi/bridgit-user-filters-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -269,7 +269,7 @@ source_filename: bridgit-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bridgit-bench-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: Bearer\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Standard Authorization header using the Bearer scheme\n  sources:\n  - openapi/bridgit-bench-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/authentication/bridgit-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bridgit/authentication/bridgit-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Construction

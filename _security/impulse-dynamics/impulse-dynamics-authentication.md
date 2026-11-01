@@ -8,7 +8,7 @@ api_specs:
   label: Impulse Dynamics MCP API
   slug: impulse-dynamics-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/impulse-dynamics/refs/heads/main/openapi/impulse-dynamics-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/impulse-dynamics/openapi/impulse-dynamics-mcp-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -63,7 +63,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-23'\nmethod: derived\nsource: openapi/impulse-dynamics-mcp-api-openapi.yml, openapi/impulse-dynamics-oembed-1-0-api-openapi.yml,\n  openapi/impulse-dynamics-root-api-openapi.yml, openapi/impulse-dynamics-wp-abilities-v1-api-openapi.yml,\n  openapi/impulse-dynamics-wp-v2-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: wpApplicationPassword\n  type: http\n  scheme: basic\n  description: 'WordPress Application Passwords. The live discovery document advertises this\n    as the site''s only machine authentication method: authentication.application-passwords.endpoints.authorization\n    = https://impulse-dynamics.com/wp-admin/authorize-application.php (fetched 2026-08-23).'\n  sources:\n  - openapi/impulse-dynamics-mcp-api-openapi.yml\n  - openapi/impulse-dynamics-oembed-1-0-api-openapi.yml\n  - openapi/impulse-dynamics-root-api-openapi.yml\n  - openapi/impulse-dynamics-wp-abilities-v1-api-openapi.yml\n \
   \ - openapi/impulse-dynamics-wp-v2-api-openapi.yml\n- name: wpNonce\n  type: apiKey\n  in: header\n  parameter: X-WP-Nonce\n  description: WordPress cookie-authentication nonce, used by same-origin browser clients.\n  sources:\n  - openapi/impulse-dynamics-mcp-api-openapi.yml\n  - openapi/impulse-dynamics-oembed-1-0-api-openapi.yml\n  - openapi/impulse-dynamics-root-api-openapi.yml\n  - openapi/impulse-dynamics-wp-abilities-v1-api-openapi.yml\n  - openapi/impulse-dynamics-wp-v2-api-openapi.yml\n- name: mcpAuth\n  type: http\n  scheme: bearer\n  description: Bearer authentication guarding the `mcp` namespace. Anonymous POST of a JSON-RPC\n    tools/list to https://impulse-dynamics.com/wp-json/mcp/mcp-oauth-server returned HTTP 401\n    `mcp_unauthorized` and to https://impulse-dynamics.com/wp-json/mcp/mcp-adapter-default-server\n    returned HTTP 401 `rest_forbidden` on 2026-08-23. This host publishes NO RFC 8414 authorization-server\n    metadata and NO RFC 9728 protect\n  sources:\n \
   \ - openapi/impulse-dynamics-mcp-api-openapi.yml\n  - openapi/impulse-dynamics-oembed-1-0-api-openapi.yml\n  - openapi/impulse-dynamics-root-api-openapi.yml\n  - openapi/impulse-dynamics-wp-abilities-v1-api-openapi.yml\n  - openapi/impulse-dynamics-wp-v2-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/impulse-dynamics/refs/heads/main/authentication/impulse-dynamics-authentication.yml
+source_yaml_url: https://artifacts.apis.io/impulse-dynamics/authentication/impulse-dynamics-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Company

@@ -7,7 +7,7 @@ api_specs:
   label: Runautomat Extract API
   slug: runautomat-extract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/openapi/runautomat-extract-api-openapi.yml
+  url: https://artifacts.apis.io/runautomat/openapi/runautomat-extract-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -36,7 +36,7 @@ source_filename: runautomat-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/runautomat-extract-openapi.json\ndocs: https://docs.runautomat.com/guides/getting-started/authentication\nsummary:\n  types:\n  - http\n  http_schemes:\n  - bearer\n  api_key_prefix: ak_\nnotes: >-\n  All API requests to Automat require an API key passed as an HTTP Bearer token\n  in the Authorization header (\"Authorization: Bearer ak_...\"). API keys are\n  scoped to the organization and grant access to all extractors within it. Keys\n  are created in the Automat dashboard (Settings -> API Keys), shown once, and\n  can be revoked independently. There is no OAuth/OIDC surface on the public\n  Extract API.\nschemes:\n- name: BearerAuthScheme\n  type: http\n  scheme: bearer\n  in: header\n  header: Authorization\n  format: 'Bearer ak_<api_key>'\n  sources:\n  - openapi/runautomat-extract-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/authentication/runautomat-authentication.yml
+source_yaml_url: https://artifacts.apis.io/runautomat/authentication/runautomat-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

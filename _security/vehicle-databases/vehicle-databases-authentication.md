@@ -8,31 +8,31 @@ api_specs:
   label: Vehicle Databases Maintenance API
   slug: vehicle-databases-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicle-databases/refs/heads/main/openapi/vehicle-databases-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/vehicle-databases/openapi/vehicle-databases-maintenance-api-openapi.yml
 - filename: vehicle-databases-recalls-api-openapi.yml
   format: yaml
   label: Vehicle Databases Recalls API
   slug: vehicle-databases-recalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicle-databases/refs/heads/main/openapi/vehicle-databases-recalls-api-openapi.yml
+  url: https://artifacts.apis.io/vehicle-databases/openapi/vehicle-databases-recalls-api-openapi.yml
 - filename: vehicle-databases-services-api-openapi.yml
   format: yaml
   label: Vehicle Databases Services API
   slug: vehicle-databases-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicle-databases/refs/heads/main/openapi/vehicle-databases-services-api-openapi.yml
+  url: https://artifacts.apis.io/vehicle-databases/openapi/vehicle-databases-services-api-openapi.yml
 - filename: vehicle-databases-tsbs-api-openapi.yml
   format: yaml
   label: Vehicle Databases TSBs API
   slug: vehicle-databases-tsbs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicle-databases/refs/heads/main/openapi/vehicle-databases-tsbs-api-openapi.yml
+  url: https://artifacts.apis.io/vehicle-databases/openapi/vehicle-databases-tsbs-api-openapi.yml
 - filename: vehicle-databases-vehicles-api-openapi.yml
   format: yaml
   label: Vehicle Databases Vehicles API
   slug: vehicle-databases-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicle-databases/refs/heads/main/openapi/vehicle-databases-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/vehicle-databases/openapi/vehicle-databases-vehicles-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: vehicle-databases-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/vehicle-databases-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKey\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: Vehicle Databases API key\n  sources:\n  - openapi/vehicle-databases-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vehicle-databases/refs/heads/main/authentication/vehicle-databases-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vehicle-databases/authentication/vehicle-databases-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Automotive

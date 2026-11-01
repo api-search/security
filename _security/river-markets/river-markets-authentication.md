@@ -8,79 +8,79 @@ api_specs:
   label: River Markets Balance API
   slug: river-markets-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-balance-api-openapi.yml
+  url: https://artifacts.apis.io/river-markets/openapi/river-markets-balance-api-openapi.yml
 - filename: river-markets-complex-orders-api-openapi.yml
   format: yaml
   label: River Markets Complex Orders API
   slug: river-markets-complex-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-complex-orders-api-openapi.yml
+  url: https://artifacts.apis.io/river-markets/openapi/river-markets-complex-orders-api-openapi.yml
 - filename: river-markets-fair-values-api-openapi.yml
   format: yaml
   label: River Markets Fair Values API
   slug: river-markets-fair-values-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-fair-values-api-openapi.yml
+  url: https://artifacts.apis.io/river-markets/openapi/river-markets-fair-values-api-openapi.yml
 - filename: river-markets-fills-api-openapi.yml
   format: yaml
   label: River Markets Fills API
   slug: river-markets-fills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-fills-api-openapi.yml
+  url: https://artifacts.apis.io/river-markets/openapi/river-markets-fills-api-openapi.yml
 - filename: river-markets-generic-assets-api-openapi.yml
   format: yaml
   label: River Markets Generic Assets API
   slug: river-markets-generic-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-generic-assets-api-openapi.yml
+  url: https://artifacts.apis.io/river-markets/openapi/river-markets-generic-assets-api-openapi.yml
 - filename: river-markets-markets-api-openapi.yml
   format: yaml
   label: River Markets API
   slug: river-markets-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-markets-api-openapi.yml
+  url: https://artifacts.apis.io/river-markets/openapi/river-markets-markets-api-openapi.yml
 - filename: river-markets-orders-api-openapi.yml
   format: yaml
   label: River Markets Orders API
   slug: river-markets-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-orders-api-openapi.yml
+  url: https://artifacts.apis.io/river-markets/openapi/river-markets-orders-api-openapi.yml
 - filename: river-markets-positions-api-openapi.yml
   format: yaml
   label: River Markets Positions API
   slug: river-markets-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-positions-api-openapi.yml
+  url: https://artifacts.apis.io/river-markets/openapi/river-markets-positions-api-openapi.yml
 - filename: river-markets-prices-api-openapi.yml
   format: yaml
   label: River Markets Prices API
   slug: river-markets-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-prices-api-openapi.yml
+  url: https://artifacts.apis.io/river-markets/openapi/river-markets-prices-api-openapi.yml
 - filename: river-markets-subaccounts-api-openapi.yml
   format: yaml
   label: River Markets Subaccounts API
   slug: river-markets-subaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-subaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/river-markets/openapi/river-markets-subaccounts-api-openapi.yml
 - filename: river-markets-tradeprints-api-openapi.yml
   format: yaml
   label: River Markets Tradeprints API
   slug: river-markets-tradeprints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-tradeprints-api-openapi.yml
+  url: https://artifacts.apis.io/river-markets/openapi/river-markets-tradeprints-api-openapi.yml
 - filename: river-markets-watchlists-api-openapi.yml
   format: yaml
   label: River Markets Watchlists API
   slug: river-markets-watchlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-watchlists-api-openapi.yml
+  url: https://artifacts.apis.io/river-markets/openapi/river-markets-watchlists-api-openapi.yml
 - filename: river-markets-order-books-api-openapi.yml
   format: yaml
   label: River Markets Order Books API
   slug: river-markets-order-books-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-order-books-api-openapi.yml
+  url: https://artifacts.apis.io/river-markets/openapi/river-markets-order-books-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -130,7 +130,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/river-markets-openapi-original.json\ndocs: https://docs.rivermarkets.com/api-reference/authentication\nnotes: >-\n  Primary programmatic auth is Ed25519 request signing via three apiKey headers\n  (X-River-Key-Id, X-River-Timestamp, X-River-Signature). The canonical string is\n  LF-joined: METHOD\\nPATH\\nSORTED_QUERY\\nTIMESTAMP\\nSHA256(body) hex. Timestamp must\n  be within 30s of server time; signatures are deduped in Redis with a 60s TTL for\n  replay protection. Keys are asymmetric — the server stores only the public key and\n  the private key is shown once at creation and never traverses the wire after that.\n  BearerAuth (JWT) is used by the web client. The official Python SDK signs transparently.\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: SignedRequestKeyId\n  type: apiKey\n  in: header\n  parameter: X-River-Key-Id\n  description: UUID of your API key (from Settings\
   \ → API Keys).\n  sources:\n  - openapi/river-markets-openapi-original.json\n- name: SignedRequestTimestamp\n  type: apiKey\n  in: header\n  parameter: X-River-Timestamp\n  description: Current unix seconds. Must be within 30s of server time.\n  sources:\n  - openapi/river-markets-openapi-original.json\n- name: SignedRequestSignature\n  type: apiKey\n  in: header\n  parameter: X-River-Signature\n  description: 'Base64 Ed25519 signature over the canonical request: METHOD\\nPATH\\nSORTED_QUERY\\nTIMESTAMP\\nSHA256(body)\n    hex. See /api-reference/authentication for the full recipe.'\n  sources:\n  - openapi/river-markets-openapi-original.json\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: JWT bearer token for web client authentication.\n  sources:\n  - openapi/river-markets-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/authentication/river-markets-authentication.yml
+source_yaml_url: https://artifacts.apis.io/river-markets/authentication/river-markets-authentication.yml
 summary_line: apiKey/http · 4 schemes
 tags:
 - Company

@@ -5,19 +5,19 @@ api_specs:
   label: Upgrade Marketing Offers API
   slug: upgrade-marketing-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upgrade/refs/heads/main/openapi/upgrade-marketing-offers-api-openapi.yml
+  url: https://artifacts.apis.io/upgrade/openapi/upgrade-marketing-offers-api-openapi.yml
 - filename: upgrade-orders-api-openapi.yml
   format: yaml
   label: Upgrade Orders API
   slug: upgrade-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upgrade/refs/heads/main/openapi/upgrade-orders-api-openapi.yml
+  url: https://artifacts.apis.io/upgrade/openapi/upgrade-orders-api-openapi.yml
 - filename: upgrade-transactions-api-openapi.yml
   format: yaml
   label: Upgrade Transactions API
   slug: upgrade-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upgrade/refs/heads/main/openapi/upgrade-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/upgrade/openapi/upgrade-transactions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -69,7 +69,7 @@ source_filename: upgrade-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.upgrade.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 23:59:59 2026 GMT\n  hsts: false\n- host: docs.uplift.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 03:47:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: partner.upgrade.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: upgrade.com\n  dnssec: true\n  caa:\n  - 0 iodef \"mailto:admin@upgrade.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: uplift.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upgrade/refs/heads/main/security/upgrade-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/upgrade/security/upgrade-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

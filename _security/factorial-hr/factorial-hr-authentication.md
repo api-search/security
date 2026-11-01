@@ -8,19 +8,19 @@ api_specs:
   label: Factorial Core::Employees::V2 API
   slug: factorial-hr-core-employees-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/openapi/factorial-hr-core-employees-v2-api-openapi.yml
+  url: https://artifacts.apis.io/factorial-hr/openapi/factorial-hr-core-employees-v2-api-openapi.yml
 - filename: factorial-hr-core-me-api-openapi.yml
   format: yaml
   label: Factorial Core::Me API
   slug: factorial-hr-core-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/openapi/factorial-hr-core-me-api-openapi.yml
+  url: https://artifacts.apis.io/factorial-hr/openapi/factorial-hr-core-me-api-openapi.yml
 - filename: factorial-hr-resources-api-openapi.yml
   format: yaml
   label: Factorial Resources API
   slug: factorial-hr-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/openapi/factorial-hr-resources-api-openapi.yml
+  url: https://artifacts.apis.io/factorial-hr/openapi/factorial-hr-resources-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -58,7 +58,7 @@ source_filename: factorial-hr-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/factorial-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: /oauth/authorize\n    tokenUrl: /oauth/token\n    scopes: 2\n  sources:\n  - openapi/factorial-openapi.yml\n- name: apikey\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/factorial-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/authentication/factorial-hr-authentication.yml
+source_yaml_url: https://artifacts.apis.io/factorial-hr/authentication/factorial-hr-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Human Resources

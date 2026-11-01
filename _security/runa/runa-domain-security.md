@@ -5,25 +5,25 @@ api_specs:
   label: Runa Balance API
   slug: runa-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runa/refs/heads/main/openapi/runa-balance-api-openapi.yml
+  url: https://artifacts.apis.io/runa/openapi/runa-balance-api-openapi.yml
 - filename: runa-orders-api-openapi.yml
   format: yaml
   label: Runa Orders API
   slug: runa-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runa/refs/heads/main/openapi/runa-orders-api-openapi.yml
+  url: https://artifacts.apis.io/runa/openapi/runa-orders-api-openapi.yml
 - filename: runa-products-api-openapi.yml
   format: yaml
   label: Runa Products API
   slug: runa-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runa/refs/heads/main/openapi/runa-products-api-openapi.yml
+  url: https://artifacts.apis.io/runa/openapi/runa-products-api-openapi.yml
 - filename: runa-utilities-api-openapi.yml
   format: yaml
   label: Runa Utilities API
   slug: runa-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runa/refs/heads/main/openapi/runa-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/runa/openapi/runa-utilities-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -69,7 +69,7 @@ source_filename: runa-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.runa.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 18:56:54 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.runa.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 10:12:33 2026 GMT\n  hsts: null\n- host: playground.runa.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 10:12:33 2026 GMT\n  hsts: null\ndomains:\n- domain: runa.io\n  dnssec: true\n  caa:\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 iodef \"mailto:eng-team@runa.io\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/runa/refs/heads/main/security/runa-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/runa/security/runa-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Gift Cards

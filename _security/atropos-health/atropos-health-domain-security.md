@@ -27,7 +27,7 @@ source_filename: atropos-health-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.atroposhealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 18:54:11 2026 GMT\n  hsts: false\ndomains:\n- domain: atroposhealth.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atropos-health/refs/heads/main/security/atropos-health-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/atropos-health/security/atropos-health-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Real-World Evidence

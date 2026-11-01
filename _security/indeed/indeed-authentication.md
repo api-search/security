@@ -7,19 +7,19 @@ api_specs:
   label: Indeed Candidates API
   slug: indeed-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indeed/refs/heads/main/openapi/indeed-candidates-api-openapi.yml
+  url: https://artifacts.apis.io/indeed/openapi/indeed-candidates-api-openapi.yml
 - filename: indeed-employers-api-openapi.yml
   format: yaml
   label: Indeed Employers API
   slug: indeed-employers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indeed/refs/heads/main/openapi/indeed-employers-api-openapi.yml
+  url: https://artifacts.apis.io/indeed/openapi/indeed-employers-api-openapi.yml
 - filename: indeed-jobs-api-openapi.yml
   format: yaml
   label: Indeed Jobs API
   slug: indeed-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indeed/refs/heads/main/openapi/indeed-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/indeed/openapi/indeed-jobs-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -57,7 +57,7 @@ source_filename: indeed-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/indeed-employer-api-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth 2.0 Bearer Token authentication. Obtain access tokens through the Indeed\n    OAuth 2.0 authorization flow using your partner client credentials.\n  sources:\n  - openapi/indeed-employer-api-openapi.yml\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://apis.indeed.com/oauth/v2/tokens\n    scopes: 3\n  description: Indeed OAuth 2.0 authentication for partner applications.\n  sources:\n  - openapi/indeed-employer-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/indeed/refs/heads/main/authentication/indeed-authentication.yml
+source_yaml_url: https://artifacts.apis.io/indeed/authentication/indeed-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Careers

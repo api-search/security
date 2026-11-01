@@ -5,67 +5,67 @@ api_specs:
   label: Electricity Maps Carbon Intensity API
   slug: electricitymaps-carbon-intensity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-carbon-intensity-api-openapi.yml
+  url: https://artifacts.apis.io/electricitymaps/openapi/electricitymaps-carbon-intensity-api-openapi.yml
 - filename: electricitymaps-forecast-api-openapi.yml
   format: yaml
   label: Electricity Maps Forecast API
   slug: electricitymaps-forecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-forecast-api-openapi.yml
+  url: https://artifacts.apis.io/electricitymaps/openapi/electricitymaps-forecast-api-openapi.yml
 - filename: electricitymaps-health-api-openapi.yml
   format: yaml
   label: Electricity Maps Health API
   slug: electricitymaps-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-health-api-openapi.yml
+  url: https://artifacts.apis.io/electricitymaps/openapi/electricitymaps-health-api-openapi.yml
 - filename: electricitymaps-power-breakdown-api-openapi.yml
   format: yaml
   label: Electricity Maps Power Breakdown API
   slug: electricitymaps-power-breakdown-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-power-breakdown-api-openapi.yml
+  url: https://artifacts.apis.io/electricitymaps/openapi/electricitymaps-power-breakdown-api-openapi.yml
 - filename: electricitymaps-power-consumption-api-openapi.yml
   format: yaml
   label: Electricity Maps Power Consumption API
   slug: electricitymaps-power-consumption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-power-consumption-api-openapi.yml
+  url: https://artifacts.apis.io/electricitymaps/openapi/electricitymaps-power-consumption-api-openapi.yml
 - filename: electricitymaps-power-production-api-openapi.yml
   format: yaml
   label: Electricity Maps Power Production API
   slug: electricitymaps-power-production-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-power-production-api-openapi.yml
+  url: https://artifacts.apis.io/electricitymaps/openapi/electricitymaps-power-production-api-openapi.yml
 - filename: electricitymaps-zones-api-openapi.yml
   format: yaml
   label: Electricity Maps Zones API
   slug: electricitymaps-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-zones-api-openapi.yml
+  url: https://artifacts.apis.io/electricitymaps/openapi/electricitymaps-zones-api-openapi.yml
 - filename: electricitymaps-electricitymix-api-openapi.yml
   format: yaml
   label: Electricity Maps Electricity Mix API
   slug: electricitymaps-electricitymix-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-electricitymix-api-openapi.yml
+  url: https://artifacts.apis.io/electricitymaps/openapi/electricitymaps-electricitymix-api-openapi.yml
 - filename: electricitymaps-gridmetrics-api-openapi.yml
   format: yaml
   label: Electricity Maps Grid Metrics API
   slug: electricitymaps-gridmetrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-gridmetrics-api-openapi.yml
+  url: https://artifacts.apis.io/electricitymaps/openapi/electricitymaps-gridmetrics-api-openapi.yml
 - filename: electricitymaps-pricing-api-openapi.yml
   format: yaml
   label: Electricity Maps Pricing API
   slug: electricitymaps-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/electricitymaps/openapi/electricitymaps-pricing-api-openapi.yml
 - filename: electricitymaps-renewables-api-openapi.yml
   format: yaml
   label: Electricity Maps Renewables API
   slug: electricitymaps-renewables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-renewables-api-openapi.yml
+  url: https://artifacts.apis.io/electricitymaps/openapi/electricitymaps-renewables-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -119,7 +119,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.electricitymaps.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 04:55:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: portal.electricitymaps.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 11:24:25 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.electricitymap.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 23:42:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: electricitymaps.com\n  dnssec: false\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: electricitymap.org\n  dnssec: false\n  caa: []\n  spf:\
   \ true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/security/electricitymaps-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/electricitymaps/security/electricitymaps-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Energy

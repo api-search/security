@@ -32,7 +32,7 @@ source_filename: rollins-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.rollins.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 12:04:54 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.rollins.com\n  https: false\n- host: api.rollins.com\n  https: false\ndomains:\n- domain: rollins.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rollins/refs/heads/main/security/rollins-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rollins/security/rollins-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Pest Control

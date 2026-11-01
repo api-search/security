@@ -7,85 +7,85 @@ api_specs:
   label: Loop Artifacts API
   slug: loop-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/loop/openapi/loop-artifacts-api-openapi.yml
 - filename: loop-artifacts-schema-validated-api-openapi.yml
   format: yaml
   label: Loop Artifacts Schema Validated API
   slug: loop-artifacts-schema-validated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-artifacts-schema-validated-api-openapi.yml
+  url: https://artifacts.apis.io/loop/openapi/loop-artifacts-schema-validated-api-openapi.yml
 - filename: loop-business-exceptions-api-openapi.yml
   format: yaml
   label: Loop Business Exceptions API
   slug: loop-business-exceptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-business-exceptions-api-openapi.yml
+  url: https://artifacts.apis.io/loop/openapi/loop-business-exceptions-api-openapi.yml
 - filename: loop-factoring-relationships-api-openapi.yml
   format: yaml
   label: Loop Factoring Relationships API
   slug: loop-factoring-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-factoring-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/loop/openapi/loop-factoring-relationships-api-openapi.yml
 - filename: loop-invoicing-relationships-api-openapi.yml
   format: yaml
   label: Loop Invoicing Relationships API
   slug: loop-invoicing-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-invoicing-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/loop/openapi/loop-invoicing-relationships-api-openapi.yml
 - filename: loop-onboarding-api-loop-com-api-openapi.yml
   format: yaml
   label: Loop Onboarding.api.loop.com API
   slug: loop-onboarding-api-loop-com-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-onboarding-api-loop-com-api-openapi.yml
+  url: https://artifacts.apis.io/loop/openapi/loop-onboarding-api-loop-com-api-openapi.yml
 - filename: loop-organizations-api-openapi.yml
   format: yaml
   label: Loop Organizations API
   slug: loop-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/loop/openapi/loop-organizations-api-openapi.yml
 - filename: loop-payable-allocations-api-openapi.yml
   format: yaml
   label: Loop Payable Allocations API
   slug: loop-payable-allocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-payable-allocations-api-openapi.yml
+  url: https://artifacts.apis.io/loop/openapi/loop-payable-allocations-api-openapi.yml
 - filename: loop-payable-invoice-reviews-api-openapi.yml
   format: yaml
   label: Loop Payable Invoice Reviews API
   slug: loop-payable-invoice-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-payable-invoice-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/loop/openapi/loop-payable-invoice-reviews-api-openapi.yml
 - filename: loop-payable-invoices-api-openapi.yml
   format: yaml
   label: Loop Payable Invoices API
   slug: loop-payable-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-payable-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/loop/openapi/loop-payable-invoices-api-openapi.yml
 - filename: loop-payments-api-openapi.yml
   format: yaml
   label: Loop Payments API
   slug: loop-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-payments-api-openapi.yml
+  url: https://artifacts.apis.io/loop/openapi/loop-payments-api-openapi.yml
 - filename: loop-ping-api-openapi.yml
   format: yaml
   label: Loop Ping API
   slug: loop-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-ping-api-openapi.yml
+  url: https://artifacts.apis.io/loop/openapi/loop-ping-api-openapi.yml
 - filename: loop-receivable-invoices-api-openapi.yml
   format: yaml
   label: Loop Receivable Invoices API
   slug: loop-receivable-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-receivable-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/loop/openapi/loop-receivable-invoices-api-openapi.yml
 - filename: loop-shipment-jobs-api-openapi.yml
   format: yaml
   label: Loop Shipment Jobs API
   slug: loop-shipment-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-shipment-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/loop/openapi/loop-shipment-jobs-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -114,7 +114,7 @@ source_filename: loop-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/loop-onboarding-openapi-original.json, openapi/loop-openapi-original.json\ndocs: https://docs.loop.com/developers/api-authentication\ndetail:\n  model: Bearer API key\n  header: 'Authorization: Bearer <apiKey>'\n  key_prefix: lk_live_\n  provisioning: API keys are issued by your Loop contact (no self-service token endpoint).\n  validation_endpoint: GET /v1/ping (HTTP 200 on a valid key)\nsummary:\n  types:\n  - http\nschemes:\n- name: bearer\n  type: http\n  scheme: bearer\n  bearerFormat: apiKey\n  description: \"Bearer HTTP authentication. Allowed headers: \\n  Authorization: Bearer <apiKey>\"\n  sources:\n  - openapi/loop-onboarding-openapi-original.json\n  - openapi/loop-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/authentication/loop-authentication.yml
+source_yaml_url: https://artifacts.apis.io/loop/authentication/loop-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

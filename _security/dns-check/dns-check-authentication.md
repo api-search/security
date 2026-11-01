@@ -3,12 +3,12 @@ anonymous_access: false
 api_key_in:
 - query
 api_specs:
-- filename: dns-check-dns-record-monitoring-api-openapi.yml
+- filename: dns-check-groups-api-openapi.yml
   format: yaml
-  label: DNS Check DNS Record Monitoring API
-  slug: dns-check-dns-record-monitoring-api
+  label: DNS Check Groups API
+  slug: dns-check-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dns-check/refs/heads/main/openapi/dns-check-dns-record-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/dns-check/openapi/dns-check-groups-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -35,7 +35,7 @@ source_filename: dns-check-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/dns-check-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: api_key\n  sources:\n  - openapi/dns-check-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dns-check/refs/heads/main/authentication/dns-check-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dns-check/authentication/dns-check-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - DNS

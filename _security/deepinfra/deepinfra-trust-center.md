@@ -5,37 +5,37 @@ api_specs:
   label: DeepInfra Audio API
   slug: deepinfra-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/openapi/deepinfra-audio-api-openapi.yml
+  url: https://artifacts.apis.io/deepinfra/openapi/deepinfra-audio-api-openapi.yml
 - filename: deepinfra-completions-api-openapi.yml
   format: yaml
   label: DeepInfra Completions API
   slug: deepinfra-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/openapi/deepinfra-completions-api-openapi.yml
+  url: https://artifacts.apis.io/deepinfra/openapi/deepinfra-completions-api-openapi.yml
 - filename: deepinfra-embeddings-api-openapi.yml
   format: yaml
   label: DeepInfra Embeddings API
   slug: deepinfra-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/openapi/deepinfra-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/deepinfra/openapi/deepinfra-embeddings-api-openapi.yml
 - filename: deepinfra-images-api-openapi.yml
   format: yaml
   label: DeepInfra Images API
   slug: deepinfra-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/openapi/deepinfra-images-api-openapi.yml
+  url: https://artifacts.apis.io/deepinfra/openapi/deepinfra-images-api-openapi.yml
 - filename: deepinfra-models-api-openapi.yml
   format: yaml
   label: DeepInfra Models API
   slug: deepinfra-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/openapi/deepinfra-models-api-openapi.yml
+  url: https://artifacts.apis.io/deepinfra/openapi/deepinfra-models-api-openapi.yml
 - filename: deepinfra-chat-completions-api-openapi.yml
   format: yaml
   label: DeepInfra Chat Completions API
   slug: deepinfra-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/openapi/deepinfra-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/deepinfra/openapi/deepinfra-chat-completions-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -55,7 +55,7 @@ source_filename: deepinfra-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.deepinfra.com/\nurl: https://trust.deepinfra.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\n- GDPR\nevidence:\n- source: https://trust.deepinfra.com/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - hipaa\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/security/deepinfra-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/deepinfra/security/deepinfra-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Artificial Intelligence

@@ -7,25 +7,25 @@ api_specs:
   label: Jenkins Computer API
   slug: jenkins-computer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/openapi/jenkins-computer-api-openapi.yml
+  url: https://artifacts.apis.io/jenkins/openapi/jenkins-computer-api-openapi.yml
 - filename: jenkins-jobs-api-openapi.yml
   format: yaml
   label: Jenkins Jobs API
   slug: jenkins-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/openapi/jenkins-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/jenkins/openapi/jenkins-jobs-api-openapi.yml
 - filename: jenkins-queue-api-openapi.yml
   format: yaml
   label: Jenkins Queue API
   slug: jenkins-queue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/openapi/jenkins-queue-api-openapi.yml
+  url: https://artifacts.apis.io/jenkins/openapi/jenkins-queue-api-openapi.yml
 - filename: jenkins-server-api-openapi.yml
   format: yaml
   label: Jenkins Server API
   slug: jenkins-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/openapi/jenkins-server-api-openapi.yml
+  url: https://artifacts.apis.io/jenkins/openapi/jenkins-server-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -53,7 +53,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/jenkins-openapi.yml\ndocs: https://www.jenkins.io/doc/book/system-administration/authenticating-scripted-clients/\nsummary:\n  types:\n  - http\n  http_schemes:\n  - basic\n  credential: username + API token\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: >-\n    HTTP Basic auth using a Jenkins username and an API token (not the account\n    password). API tokens are generated per-user under the user's Security\n    configuration and can be revoked independently.\n  sources:\n  - openapi/jenkins-openapi.yml\ncsrf:\n  required_for: state-changing POST requests (e.g. triggering builds)\n  mechanism: Jenkins-Crumb CSRF token\n  crumb_endpoint: /crumbIssuer/api/json\nnotes: >-\n  SSH public-key auth is also supported for the Jenkins CLI. See\n  cli/jenkins-cli.yml. Some deployments front Jenkins with a reverse-proxy or\n  SSO, but the native scripted-client mechanism is Basic auth with an API\
   \ token.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/authentication/jenkins-authentication.yml
+source_yaml_url: https://artifacts.apis.io/jenkins/authentication/jenkins-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Automation

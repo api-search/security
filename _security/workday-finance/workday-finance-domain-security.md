@@ -5,55 +5,55 @@ api_specs:
   label: Workday Finance Accounts API
   slug: workday-finance-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/openapi/workday-finance-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/workday-finance/openapi/workday-finance-accounts-api-openapi.yml
 - filename: workday-finance-cost-centers-api-openapi.yml
   format: yaml
   label: Workday Finance Cost Centers API
   slug: workday-finance-cost-centers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/openapi/workday-finance-cost-centers-api-openapi.yml
+  url: https://artifacts.apis.io/workday-finance/openapi/workday-finance-cost-centers-api-openapi.yml
 - filename: workday-finance-financial-periods-api-openapi.yml
   format: yaml
   label: Workday Finance Financial Periods API
   slug: workday-finance-financial-periods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/openapi/workday-finance-financial-periods-api-openapi.yml
+  url: https://artifacts.apis.io/workday-finance/openapi/workday-finance-financial-periods-api-openapi.yml
 - filename: workday-finance-journal-entries-api-openapi.yml
   format: yaml
   label: Workday Finance Journal Entries API
   slug: workday-finance-journal-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/openapi/workday-finance-journal-entries-api-openapi.yml
+  url: https://artifacts.apis.io/workday-finance/openapi/workday-finance-journal-entries-api-openapi.yml
 - filename: workday-finance-purchase-orders-api-openapi.yml
   format: yaml
   label: Workday Finance Purchase Orders API
   slug: workday-finance-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/openapi/workday-finance-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/workday-finance/openapi/workday-finance-purchase-orders-api-openapi.yml
 - filename: workday-finance-requisitions-api-openapi.yml
   format: yaml
   label: Workday Finance Requisitions API
   slug: workday-finance-requisitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/openapi/workday-finance-requisitions-api-openapi.yml
+  url: https://artifacts.apis.io/workday-finance/openapi/workday-finance-requisitions-api-openapi.yml
 - filename: workday-finance-supplier-invoices-api-openapi.yml
   format: yaml
   label: Workday Finance Supplier Invoices API
   slug: workday-finance-supplier-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/openapi/workday-finance-supplier-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/workday-finance/openapi/workday-finance-supplier-invoices-api-openapi.yml
 - filename: workday-finance-suppliers-api-openapi.yml
   format: yaml
   label: Workday Finance Suppliers API
   slug: workday-finance-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/openapi/workday-finance-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/workday-finance/openapi/workday-finance-suppliers-api-openapi.yml
 - filename: workday-finance-worktags-api-openapi.yml
   format: yaml
   label: Workday Finance Worktags API
   slug: workday-finance-worktags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/openapi/workday-finance-worktags-api-openapi.yml
+  url: https://artifacts.apis.io/workday-finance/openapi/workday-finance-worktags-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -93,7 +93,7 @@ source_filename: workday-finance-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: community.workday.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 23:59:59 2026 GMT\n  hsts: null\n- host: www.workday.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: wd2-impl-services1.workday.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 03:30:49 2026 GMT\n  hsts: null\ndomains:\n- domain: workday.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/security/workday-finance-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/workday-finance/security/workday-finance-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Accounting

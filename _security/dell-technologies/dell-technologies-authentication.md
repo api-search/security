@@ -7,7 +7,7 @@ api_specs:
   label: Dell Technologies Enterprise IT API
   slug: dell-technologies-enterprise-it-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dell-technologies/refs/heads/main/openapi/dell-technologies-enterprise-it-api-openapi.yml
+  url: https://artifacts.apis.io/dell-technologies/openapi/dell-technologies-enterprise-it-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -33,7 +33,7 @@ source_filename: dell-technologies-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/dell-technologies-dell-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/dell-technologies-dell-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dell-technologies/refs/heads/main/authentication/dell-technologies-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dell-technologies/authentication/dell-technologies-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Enterprise IT

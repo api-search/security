@@ -5,7 +5,7 @@ api_specs:
   label: Proctorio Launch API
   slug: proctorio-launch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/proctorio/refs/heads/main/openapi/proctorio-launch-api-openapi.yml
+  url: https://artifacts.apis.io/proctorio/openapi/proctorio-launch-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -25,7 +25,7 @@ source_filename: proctorio-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.proctorio.com/\nurl: https://trust.proctorio.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27018\n- PCI DSS\nevidence:\n- source: https://trust.proctorio.com/\n  keywords:\n  - soc 2\n  - soc2\n  - iso/iec 27001\n  - pci dss\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/proctorio/refs/heads/main/security/proctorio-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/proctorio/security/proctorio-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27018, PCI DSS
 tags:
 - Online Proctoring

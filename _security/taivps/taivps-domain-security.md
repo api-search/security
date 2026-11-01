@@ -27,7 +27,7 @@ source_filename: taivps-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: taivps.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 09:19:55 2026 GMT\n  hsts: false\ndomains:\n- domain: taivps.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taivps/refs/heads/main/security/taivps-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/taivps/security/taivps-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

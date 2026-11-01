@@ -8,25 +8,25 @@ api_specs:
   label: Steam IPlayerService API
   slug: steam-iplayerservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/openapi/steam-iplayerservice-api-openapi.yml
+  url: https://artifacts.apis.io/steam/openapi/steam-iplayerservice-api-openapi.yml
 - filename: steam-isteamnews-api-openapi.yml
   format: yaml
   label: Steam ISteamNews API
   slug: steam-isteamnews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/openapi/steam-isteamnews-api-openapi.yml
+  url: https://artifacts.apis.io/steam/openapi/steam-isteamnews-api-openapi.yml
 - filename: steam-isteamuser-api-openapi.yml
   format: yaml
   label: Steam ISteamUser API
   slug: steam-isteamuser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/openapi/steam-isteamuser-api-openapi.yml
+  url: https://artifacts.apis.io/steam/openapi/steam-isteamuser-api-openapi.yml
 - filename: steam-isteamuserstats-api-openapi.yml
   format: yaml
   label: Steam ISteamUserStats API
   slug: steam-isteamuserstats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/openapi/steam-isteamuserstats-api-openapi.yml
+  url: https://artifacts.apis.io/steam/openapi/steam-isteamuserstats-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: steam-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/steam-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKey\n  type: apiKey\n  in: query\n  parameter: key\n  description: Steam Web API key. Obtain at https://steamcommunity.com/dev/apikey.\n  sources:\n  - openapi/steam-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/authentication/steam-authentication.yml
+source_yaml_url: https://artifacts.apis.io/steam/authentication/steam-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Gaming

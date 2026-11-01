@@ -8,25 +8,25 @@ api_specs:
   label: Blotato Accounts API
   slug: blotato-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blotato/refs/heads/main/openapi/blotato-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/blotato/openapi/blotato-accounts-api-openapi.yml
 - filename: blotato-media-api-openapi.yml
   format: yaml
   label: Blotato Media API
   slug: blotato-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blotato/refs/heads/main/openapi/blotato-media-api-openapi.yml
+  url: https://artifacts.apis.io/blotato/openapi/blotato-media-api-openapi.yml
 - filename: blotato-posts-api-openapi.yml
   format: yaml
   label: Blotato Posts API
   slug: blotato-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blotato/refs/heads/main/openapi/blotato-posts-api-openapi.yml
+  url: https://artifacts.apis.io/blotato/openapi/blotato-posts-api-openapi.yml
 - filename: blotato-visuals-api-openapi.yml
   format: yaml
   label: Blotato Visuals API
   slug: blotato-visuals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blotato/refs/heads/main/openapi/blotato-visuals-api-openapi.yml
+  url: https://artifacts.apis.io/blotato/openapi/blotato-visuals-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: blotato-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/blotato-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: blotatoApiKey\n  type: apiKey\n  in: header\n  parameter: blotato-api-key\n  description: API key generated in Blotato Settings > API. Sent in the blotato-api-key header\n    on every request. Keys may include trailing '=' padding that must be preserved.\n  sources:\n  - openapi/blotato-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blotato/refs/heads/main/authentication/blotato-authentication.yml
+source_yaml_url: https://artifacts.apis.io/blotato/authentication/blotato-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Social Media

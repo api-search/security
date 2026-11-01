@@ -16,7 +16,7 @@ source_filename: expo-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://expo.dev/trust\nurl: https://expo.dev/trust\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://expo.dev/trust\n  keywords:\n  - soc 2\n  - trust center\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/expo/refs/heads/main/security/expo-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/expo/security/expo-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - React Native

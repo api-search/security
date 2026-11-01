@@ -7,61 +7,61 @@ api_specs:
   label: fatsecret Exercise Diary API
   slug: fatsecret-exercise-diary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-exercise-diary-api-openapi.yml
+  url: https://artifacts.apis.io/fatsecret/openapi/fatsecret-exercise-diary-api-openapi.yml
 - filename: fatsecret-food-diary-api-openapi.yml
   format: yaml
   label: fatsecret Food Diary API
   slug: fatsecret-food-diary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-food-diary-api-openapi.yml
+  url: https://artifacts.apis.io/fatsecret/openapi/fatsecret-food-diary-api-openapi.yml
 - filename: fatsecret-foods-api-openapi.yml
   format: yaml
   label: fatsecret Foods API
   slug: fatsecret-foods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-foods-api-openapi.yml
+  url: https://artifacts.apis.io/fatsecret/openapi/fatsecret-foods-api-openapi.yml
 - filename: fatsecret-image-recognition-api-openapi.yml
   format: yaml
   label: fatsecret Image Recognition API
   slug: fatsecret-image-recognition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-image-recognition-api-openapi.yml
+  url: https://artifacts.apis.io/fatsecret/openapi/fatsecret-image-recognition-api-openapi.yml
 - filename: fatsecret-natural-language-processing-api-openapi.yml
   format: yaml
   label: fatsecret Natural Language Processing API
   slug: fatsecret-natural-language-processing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-natural-language-processing-api-openapi.yml
+  url: https://artifacts.apis.io/fatsecret/openapi/fatsecret-natural-language-processing-api-openapi.yml
 - filename: fatsecret-profile-foods-api-openapi.yml
   format: yaml
   label: fatsecret Profile Foods API
   slug: fatsecret-profile-foods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-profile-foods-api-openapi.yml
+  url: https://artifacts.apis.io/fatsecret/openapi/fatsecret-profile-foods-api-openapi.yml
 - filename: fatsecret-profile-meals-api-openapi.yml
   format: yaml
   label: fatsecret Profile Meals API
   slug: fatsecret-profile-meals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-profile-meals-api-openapi.yml
+  url: https://artifacts.apis.io/fatsecret/openapi/fatsecret-profile-meals-api-openapi.yml
 - filename: fatsecret-recipes-api-openapi.yml
   format: yaml
   label: fatsecret Recipes API
   slug: fatsecret-recipes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-recipes-api-openapi.yml
+  url: https://artifacts.apis.io/fatsecret/openapi/fatsecret-recipes-api-openapi.yml
 - filename: fatsecret-reference-api-openapi.yml
   format: yaml
   label: fatsecret Reference API
   slug: fatsecret-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-reference-api-openapi.yml
+  url: https://artifacts.apis.io/fatsecret/openapi/fatsecret-reference-api-openapi.yml
 - filename: fatsecret-weight-tracking-api-openapi.yml
   format: yaml
   label: fatsecret Weight Tracking API
   slug: fatsecret-weight-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-weight-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/fatsecret/openapi/fatsecret-weight-tracking-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: https://platfor
   \ MEMBER identity. An agent\n    holding only a client-credentials token cannot read or write any profile surface.\nauthorization_server:\n  issuer: https://oauth.fatsecret.com\n  openid_configuration: https://oauth.fatsecret.com/.well-known/openid-configuration\n  probed: '2026-08-12'\n  http_status: 200\n  endpoints:\n    authorization: https://oauth.fatsecret.com/connect/authorize\n    token: https://oauth.fatsecret.com/connect/token\n    userinfo: https://oauth.fatsecret.com/connect/userinfo\n    introspection: https://oauth.fatsecret.com/connect/introspect\n    revocation: https://oauth.fatsecret.com/connect/revocation\n    device_authorization: https://oauth.fatsecret.com/connect/deviceauthorization\n    end_session: https://oauth.fatsecret.com/connect/endsession\n    jwks: https://oauth.fatsecret.com/.well-known/openid-configuration/jwks\n  id_token_signing_alg: [RS256]\n  code_challenge_methods: [plain, S256]\n  subject_types: [public]\nschemes:\n  - name: oauth2\n    type: oauth2\n\
   \    flows:\n      - flow: clientCredentials\n        tokenUrl: https://oauth.fatsecret.com/connect/token\n        scopes: 7\n        scope_list: [basic, premier, barcode, localization, nlp, image-recognition, feedback]\n    credential: Consumer Key (client_id) + Consumer Secret (client_secret) issued at registration\n    request_header: 'Authorization: Bearer <access_token>'\n    token_lifetime: 24 hours (default)\n    provider_guidance: >-\n      \"fatsecret requires that OAuth 2.0 tokens be requested through a proxy server\" — the secret must\n      not ship in a mobile or browser client.\n    sources:\n      - openapi/_original/fatsecret-platform-openapi.yml\n      - https://platform.fatsecret.com/docs/guides/authentication/oauth2\n  - name: oauth1\n    type: http\n    scheme: oauth\n    description: OAuth 1.0a request signing; 3-legged for member-scoped data\n    signature_methods_documented: true\n    scopes: 0\n    sources:\n      - openapi/_original/fatsecret-platform-openapi.yml\n\
   \      - https://platform.fatsecret.com/docs/guides/authentication/oauth1/three-legged\n    note: >-\n      The profile is carried by the access token, not by a user_id parameter. OAuth 1.0a signing\n      errors are reported as fatsecret error codes 2-9, not as HTTP 401.\nip_restriction:\n  supported: true\n  evidence: error code 21, \"Invalid IP address detected\"\nsee_also:\n  scopes: scopes/fatsecret-scopes.yml\n  errors: errors/fatsecret-error-codes.yml\n  conventions: conventions/fatsecret-conventions.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/authentication/fatsecret-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fatsecret/authentication/fatsecret-authentication.yml
 summary_line: oauth2/http · 2 schemes
 tags:
 - Artificial Intelligence

@@ -7,13 +7,13 @@ api_specs:
   label: Leafly Menu API
   slug: leafly-menu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leafly/refs/heads/main/openapi/leafly-menu-api-openapi.yml
+  url: https://artifacts.apis.io/leafly/openapi/leafly-menu-api-openapi.yml
 - filename: leafly-status-api-openapi.yml
   format: yaml
   label: Leafly Status API
   slug: leafly-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leafly/refs/heads/main/openapi/leafly-status-api-openapi.yml
+  url: https://artifacts.apis.io/leafly/openapi/leafly-status-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -43,7 +43,7 @@ source_filename: leafly-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/leafly-menu-integration-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: OAuth2ClientCredentials\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.leafly.com/oauth/token\n    scopes: 0\n  sources:\n  - openapi/leafly-menu-integration-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leafly/refs/heads/main/authentication/leafly-authentication.yml
+source_yaml_url: https://artifacts.apis.io/leafly/authentication/leafly-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Cannabis

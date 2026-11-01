@@ -5,19 +5,19 @@ api_specs:
   label: Mavenir One To One Call API
   slug: mavenir-onetoonecall-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mavenir/refs/heads/main/openapi/mavenir-onetoonecall-api-openapi.yml
+  url: https://artifacts.apis.io/mavenir/openapi/mavenir-onetoonecall-api-openapi.yml
 - filename: mavenir-push-token-api-openapi.yml
   format: yaml
   label: Mavenir Push Token API
   slug: mavenir-push-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mavenir/refs/heads/main/openapi/mavenir-push-token-api-openapi.yml
+  url: https://artifacts.apis.io/mavenir/openapi/mavenir-push-token-api-openapi.yml
 - filename: mavenir-racm-api-openapi.yml
   format: yaml
   label: Mavenir RACM API
   slug: mavenir-racm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mavenir/refs/heads/main/openapi/mavenir-racm-api-openapi.yml
+  url: https://artifacts.apis.io/mavenir/openapi/mavenir-racm-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: mavenir-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mavenir.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 21:42:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: mavenir.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mavenir/refs/heads/main/security/mavenir-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mavenir/security/mavenir-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Telecommunications

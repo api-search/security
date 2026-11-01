@@ -7,49 +7,49 @@ api_specs:
   label: ModelRush Audio API
   slug: modelrush-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modelrush/refs/heads/main/openapi/modelrush-audio-api-openapi.yml
+  url: https://artifacts.apis.io/modelrush/openapi/modelrush-audio-api-openapi.yml
 - filename: modelrush-discovery-api-openapi.yml
   format: yaml
   label: ModelRush Discovery API
   slug: modelrush-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modelrush/refs/heads/main/openapi/modelrush-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/modelrush/openapi/modelrush-discovery-api-openapi.yml
 - filename: modelrush-images-api-openapi.yml
   format: yaml
   label: ModelRush Images API
   slug: modelrush-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modelrush/refs/heads/main/openapi/modelrush-images-api-openapi.yml
+  url: https://artifacts.apis.io/modelrush/openapi/modelrush-images-api-openapi.yml
 - filename: modelrush-predictions-api-openapi.yml
   format: yaml
   label: ModelRush Predictions API
   slug: modelrush-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modelrush/refs/heads/main/openapi/modelrush-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/modelrush/openapi/modelrush-predictions-api-openapi.yml
 - filename: modelrush-uploads-api-openapi.yml
   format: yaml
   label: ModelRush Uploads API
   slug: modelrush-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modelrush/refs/heads/main/openapi/modelrush-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/modelrush/openapi/modelrush-uploads-api-openapi.yml
 - filename: modelrush-video-api-openapi.yml
   format: yaml
   label: ModelRush Video API
   slug: modelrush-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modelrush/refs/heads/main/openapi/modelrush-video-api-openapi.yml
+  url: https://artifacts.apis.io/modelrush/openapi/modelrush-video-api-openapi.yml
 - filename: modelrush-webhooks-api-openapi.yml
   format: yaml
   label: ModelRush Webhooks API
   slug: modelrush-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modelrush/refs/heads/main/openapi/modelrush-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/modelrush/openapi/modelrush-webhooks-api-openapi.yml
 - filename: modelrush-chat-completions-api-openapi.yml
   format: yaml
   label: ModelRush Chat Completions API
   slug: modelrush-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modelrush/refs/heads/main/openapi/modelrush-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/modelrush/openapi/modelrush-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -84,7 +84,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-10'\nmethod: searched\nsource: openapi/modelrush-public.openapi.yaml\ndocs: https://modelrush.ai/docs/api-keys\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: ModelRush API key\n  sources:\n  - openapi/modelrush-public.openapi.yaml\n  docs: https://modelrush.ai/docs/api-keys\n  notes:\n  - 'Keys are sent only as an HTTP Authorization Bearer header: \"ModelRush does\n    not accept keys in query strings.\"'\n  - Keys are server-side secrets -- store in a secret manager or server-side env\n    var; never in client-side code, binaries, source control, or logs.\n  - 'Rotation guidance: create a replacement key, deploy it, verify traffic, then\n    revoke the old key (immediate revocation only when compromised).'\n  - Missing, invalid, or revoked credentials return 401; rotating keys to bypass\n    rate limits is not supported.\n  - No scoping or granular permissions are documented; no OAuth2/OIDC surface\n\
   \    exists (well-known discovery documents 404 on every host, probed 2026-09-10).\nkeyless_surface:\n- operationId: listModels\n  path: GET /v1/models\n- operationId: listRegions\n  path: GET /v1/regions\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/modelrush/refs/heads/main/authentication/modelrush-authentication.yml
+source_yaml_url: https://artifacts.apis.io/modelrush/authentication/modelrush-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

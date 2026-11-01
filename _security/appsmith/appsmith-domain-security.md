@@ -5,19 +5,19 @@ api_specs:
   label: Appsmith Applications API
   slug: appsmith-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsmith/refs/heads/main/openapi/appsmith-applications-api-openapi.yml
+  url: https://artifacts.apis.io/appsmith/openapi/appsmith-applications-api-openapi.yml
 - filename: appsmith-workspaces-api-openapi.yml
   format: yaml
   label: Appsmith Workspaces API
   slug: appsmith-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsmith/refs/heads/main/openapi/appsmith-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/appsmith/openapi/appsmith-workspaces-api-openapi.yml
 - filename: appsmith-data-sources-api-openapi.yml
   format: yaml
   label: Appsmith Data Sources API
   slug: appsmith-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsmith/refs/heads/main/openapi/appsmith-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/appsmith/openapi/appsmith-data-sources-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: appsmith-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.appsmith.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 29 01:37:33 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.appsmith.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 15:54:41 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: app.appsmith.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 24 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: appsmith.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appsmith/refs/heads/main/security/appsmith-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/appsmith/security/appsmith-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Low-Code

@@ -26,7 +26,7 @@ source_filename: every-company-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: theeverycompany.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 23:29:41 2026 GMT\n  hsts: false\ndomains:\n- domain: theeverycompany.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/every-company/refs/heads/main/security/every-company-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/every-company/security/every-company-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

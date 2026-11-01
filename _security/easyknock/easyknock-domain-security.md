@@ -27,7 +27,7 @@ source_filename: easyknock-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.easyknock.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 11:34:54 2026 GMT\n  hsts: false\ndomains:\n- domain: easyknock.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/easyknock/refs/heads/main/security/easyknock-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/easyknock/security/easyknock-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

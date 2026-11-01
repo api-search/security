@@ -8,25 +8,25 @@ api_specs:
   label: APIGit Mocks API
   slug: apigit-mocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/openapi/apigit-mocks-api-openapi.yml
+  url: https://artifacts.apis.io/apigit/openapi/apigit-mocks-api-openapi.yml
 - filename: apigit-repositories-api-openapi.yml
   format: yaml
   label: APIGit Repositories API
   slug: apigit-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/openapi/apigit-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/apigit/openapi/apigit-repositories-api-openapi.yml
 - filename: apigit-tests-api-openapi.yml
   format: yaml
   label: APIGit Tests API
   slug: apigit-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/openapi/apigit-tests-api-openapi.yml
+  url: https://artifacts.apis.io/apigit/openapi/apigit-tests-api-openapi.yml
 - filename: apigit-apis-api-openapi.yml
   format: yaml
   label: APIGit APIs API
   slug: apigit-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/openapi/apigit-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apigit/openapi/apigit-apis-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -53,14 +53,14 @@ source_filename: apigit-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/apigit-api.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  sources:\n  - openapi/apigit-api.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/authentication/apigit-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apigit/authentication/apigit-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - API Design
 - API Lifecycle
 - Developer Tools
 - Documentation
-- Git
+- Version Control
 - Governance
 - Mocking
 - Platform

@@ -5,97 +5,97 @@ api_specs:
   label: GoCardless Billing Request Flows API
   slug: gocardless-billing-request-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/openapi/gocardless-billing-request-flows-api-openapi.yml
+  url: https://artifacts.apis.io/gocardless/openapi/gocardless-billing-request-flows-api-openapi.yml
 - filename: gocardless-billing-requests-api-openapi.yml
   format: yaml
   label: GoCardless Billing Requests API
   slug: gocardless-billing-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/openapi/gocardless-billing-requests-api-openapi.yml
+  url: https://artifacts.apis.io/gocardless/openapi/gocardless-billing-requests-api-openapi.yml
 - filename: gocardless-blocks-api-openapi.yml
   format: yaml
   label: GoCardless Blocks API
   slug: gocardless-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/openapi/gocardless-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/gocardless/openapi/gocardless-blocks-api-openapi.yml
 - filename: gocardless-creditor-bank-accounts-api-openapi.yml
   format: yaml
   label: GoCardless Creditor Bank Accounts API
   slug: gocardless-creditor-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/openapi/gocardless-creditor-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/gocardless/openapi/gocardless-creditor-bank-accounts-api-openapi.yml
 - filename: gocardless-creditors-api-openapi.yml
   format: yaml
   label: GoCardless Creditors API
   slug: gocardless-creditors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/openapi/gocardless-creditors-api-openapi.yml
+  url: https://artifacts.apis.io/gocardless/openapi/gocardless-creditors-api-openapi.yml
 - filename: gocardless-customer-bank-accounts-api-openapi.yml
   format: yaml
   label: GoCardless Customer Bank Accounts API
   slug: gocardless-customer-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/openapi/gocardless-customer-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/gocardless/openapi/gocardless-customer-bank-accounts-api-openapi.yml
 - filename: gocardless-customers-api-openapi.yml
   format: yaml
   label: GoCardless Customers API
   slug: gocardless-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/openapi/gocardless-customers-api-openapi.yml
+  url: https://artifacts.apis.io/gocardless/openapi/gocardless-customers-api-openapi.yml
 - filename: gocardless-events-api-openapi.yml
   format: yaml
   label: GoCardless Events API
   slug: gocardless-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/openapi/gocardless-events-api-openapi.yml
+  url: https://artifacts.apis.io/gocardless/openapi/gocardless-events-api-openapi.yml
 - filename: gocardless-instalment-schedules-api-openapi.yml
   format: yaml
   label: GoCardless Instalment Schedules API
   slug: gocardless-instalment-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/openapi/gocardless-instalment-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/gocardless/openapi/gocardless-instalment-schedules-api-openapi.yml
 - filename: gocardless-institutions-api-openapi.yml
   format: yaml
   label: GoCardless Institutions API
   slug: gocardless-institutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/openapi/gocardless-institutions-api-openapi.yml
+  url: https://artifacts.apis.io/gocardless/openapi/gocardless-institutions-api-openapi.yml
 - filename: gocardless-mandates-api-openapi.yml
   format: yaml
   label: GoCardless Mandates API
   slug: gocardless-mandates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/openapi/gocardless-mandates-api-openapi.yml
+  url: https://artifacts.apis.io/gocardless/openapi/gocardless-mandates-api-openapi.yml
 - filename: gocardless-payer-authorisations-api-openapi.yml
   format: yaml
   label: GoCardless Payer Authorisations API
   slug: gocardless-payer-authorisations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/openapi/gocardless-payer-authorisations-api-openapi.yml
+  url: https://artifacts.apis.io/gocardless/openapi/gocardless-payer-authorisations-api-openapi.yml
 - filename: gocardless-payments-api-openapi.yml
   format: yaml
   label: GoCardless Payments API
   slug: gocardless-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/openapi/gocardless-payments-api-openapi.yml
+  url: https://artifacts.apis.io/gocardless/openapi/gocardless-payments-api-openapi.yml
 - filename: gocardless-payouts-api-openapi.yml
   format: yaml
   label: GoCardless Payouts API
   slug: gocardless-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/openapi/gocardless-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/gocardless/openapi/gocardless-payouts-api-openapi.yml
 - filename: gocardless-refunds-api-openapi.yml
   format: yaml
   label: GoCardless Refunds API
   slug: gocardless-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/openapi/gocardless-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/gocardless/openapi/gocardless-refunds-api-openapi.yml
 - filename: gocardless-subscriptions-api-openapi.yml
   format: yaml
   label: GoCardless Subscriptions API
   slug: gocardless-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/openapi/gocardless-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/gocardless/openapi/gocardless-subscriptions-api-openapi.yml
 certification_count: 3
 certifications:
 - ISO/IEC 27001
@@ -115,7 +115,7 @@ source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-14'\nmethod: searched\nprobe: false\nsource: https://gocardless.com/security/\nurl: https://gocardless.com/security/\ndescription: >-\n  GoCardless's security & compliance posture, captured from the GoCardless\n  security page. GoCardless is ISO 27001 certified (since 2016, across all\n  services and products) and is authorised by the UK Financial Conduct\n  Authority under the Payment Services Regulations 2017. It handles bank-debit\n  and open-banking payments (it does not store card PANs), and states PCI DSS\n  compliance for the card-adjacent surface. Only certifications GoCardless\n  states about itself are recorded here; third-party attestations are excluded.\ncertifications:\n  - {name: ISO/IEC 27001, status: certified, since: '2016', scope: All GoCardless services and products, note: Reassessed annually by an accredited independent auditor (certified by the British Assessment Bureau).}\n  - {name: FCA authorisation, status: authorised, regulator:\
   \ UK Financial Conduct Authority, basis: Payment Services Regulations 2017.}\n  - {name: PCI DSS, status: compliant, note: Stated on the GoCardless security/PCI guidance; GoCardless collects bank-debit and open-banking payments and does not store card numbers.}\nreport_access:\n  note: >-\n    Security and compliance documentation (ISO 27001 certificate, due-diligence\n    packs) is provided to merchants and partners on request via GoCardless.\ndocs:\n  - https://gocardless.com/security/\n  - https://gocardless.com/faq/merchants/security/\nevidence:\n  - {source: https://gocardless.com/security/, keywords: [iso27001 certified since 2016, authorised by the uk financial conduct authority, payment services regulations 2017]}\n  - {source: https://gocardless.com/faq/merchants/security/, keywords: [pci compliant, strong encryption, safeguarded bank accounts]}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/security/gocardless-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/gocardless/security/gocardless-trust-center.yml
 summary_line: ISO/IEC 27001, FCA authorisation, PCI DSS
 tags:
 - Payments

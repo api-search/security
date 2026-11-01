@@ -8,37 +8,37 @@ api_specs:
   label: Wunderkind Email API
   slug: wunderkind-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/openapi/wunderkind-email-api-openapi.yml
+  url: https://artifacts.apis.io/wunderkind/openapi/wunderkind-email-api-openapi.yml
 - filename: wunderkind-id-resolution-api-openapi.yml
   format: yaml
   label: Wunderkind Id Resolution API
   slug: wunderkind-id-resolution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/openapi/wunderkind-id-resolution-api-openapi.yml
+  url: https://artifacts.apis.io/wunderkind/openapi/wunderkind-id-resolution-api-openapi.yml
 - filename: wunderkind-identity-api-openapi.yml
   format: yaml
   label: Wunderkind Identity API
   slug: wunderkind-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/openapi/wunderkind-identity-api-openapi.yml
+  url: https://artifacts.apis.io/wunderkind/openapi/wunderkind-identity-api-openapi.yml
 - filename: wunderkind-send-event-api-openapi.yml
   format: yaml
   label: Wunderkind Send Event API
   slug: wunderkind-send-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/openapi/wunderkind-send-event-api-openapi.yml
+  url: https://artifacts.apis.io/wunderkind/openapi/wunderkind-send-event-api-openapi.yml
 - filename: wunderkind-ucrm-api-openapi.yml
   format: yaml
   label: Wunderkind Ucrm API
   slug: wunderkind-ucrm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/openapi/wunderkind-ucrm-api-openapi.yml
+  url: https://artifacts.apis.io/wunderkind/openapi/wunderkind-ucrm-api-openapi.yml
 - filename: wunderkind-wunderhook-api-openapi.yml
   format: yaml
   label: Wunderkind Wunderhook API
   slug: wunderkind-wunderhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/openapi/wunderkind-wunderhook-api-openapi.yml
+  url: https://artifacts.apis.io/wunderkind/openapi/wunderkind-wunderhook-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -99,7 +99,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://developer.wunderkind.co/docs/authenticate-api-requests\ndocs: https://developer.wunderkind.co/docs/authenticate-api-requests\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\n  notes: >-\n    Wunderkind splits authentication by surface. Server-side APIs on\n    api.wunderkind.co authenticate with a private API key sent as\n    \"Authorization: apikey {apikey}\"; keys are created per API product\n    (id-resolution, UCRM, ...) under Settings > API Credentials in Wunderkind\n    Platform and require an Admin or Manager role. Client-side APIs on\n    api.bounceexchange.com use a public key: the numeric website ID (site ID),\n    normally supplied via the Mobile/Web SDKs. The Text Message API on\n    api.wknd.ai uses paired X-Client-ID / X-Client-Secret headers provisioned\n    by Wunderkind. The Email API documents Bearer (JWT) token authentication.\n    A 400 error indicates an invalid or missing API\
   \ key on server-side\n    endpoints.\nschemes:\n- name: PrivateApiKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  format: 'apikey {apikey}'\n  description: >-\n    Private API key created in Wunderkind Platform (Settings > API\n    Credentials), scoped to an API product such as id-resolution or UCRM.\n    Never use private keys in client-side code or public repositories.\n  hosts:\n  - https://api.wunderkind.co\n  sources:\n  - openapi/wunderkind-identity-openapi.yml\n  - openapi/wunderkind-ucrm-openapi.yml\n  docs: https://developer.wunderkind.co/docs/authenticate-api-requests\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Bearer token authentication documented for the Wunderkind Email API.\n  hosts:\n  - https://api.wunderkind.co\n  sources:\n  - openapi/wunderkind-email-openapi.yml\n- name: TextApiClientCredentials\n  type: apiKey\n  in: header\n  parameter: X-Client-ID / X-Client-Secret\n  description: >-\n    Paired headers\
   \ for the Text Message API on api.wknd.ai; X-Client-ID is a\n    32-byte hashed string and X-Client-Secret a 64-byte hashed string, both\n    provided by Wunderkind.\n  hosts:\n  - https://api.wknd.ai\n  docs: https://developer.wunderkind.co/reference/text-message-api\n- name: PublicSiteId\n  type: apiKey\n  in: query\n  parameter: website_id\n  description: >-\n    Public key authentication for client-side endpoints on\n    api.bounceexchange.com; the public API key is the numeric website ID\n    (site ID), normally handled by the Web and Mobile SDKs.\n  hosts:\n  - https://api.bounceexchange.com\n  docs: https://developer.wunderkind.co/docs/authenticate-api-requests\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/authentication/wunderkind-authentication.yml
+source_yaml_url: https://artifacts.apis.io/wunderkind/authentication/wunderkind-authentication.yml
 summary_line: apiKey/http · 4 schemes
 tags:
 - Company

@@ -38,7 +38,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: dig + openssl s_client + curl HEAD (apex https://speschina.com times out on 443; www host serves)\nhosts:\n- host: www.speschina.com\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: 'C=CN, O=Beijing Xinchacha Credit Management Co., Ltd., CN=Xcc Trust DV SSL CA'\n  cert_expires: '2027-03-08'\n  hsts: false\n  hsts_max_age: null\n  a_record: 118.178.138.165\n- host: speschina.com\n  https: false\n  note: apex resolves (121.43.159.115) but 443 connection times out; only the www host serves\ndomains:\n- domain: speschina.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n  dmarc_policy: null\n  mx:\n  - mxn.mxhichina.com\n  - mxw.mxhichina.com\n  mx_provider: Alibaba Cloud (Aliyun / mxhichina)\nnotes: >-\n  Consumer brand marketing site (Vue/ElementUI SPA) hosted on Alibaba Cloud in China; no\n  public API surface. No HSTS, no CAA, no DNSSEC, and no SPF/DMARC email-authentication\n  records were published at probe\
   \ time. Absence of these records is recorded data, not an error.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/speschina/refs/heads/main/security/speschina-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/speschina/security/speschina-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

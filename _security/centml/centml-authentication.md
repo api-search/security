@@ -7,31 +7,31 @@ api_specs:
   label: CentML Clusters API
   slug: centml-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/openapi/centml-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/centml/openapi/centml-clusters-api-openapi.yml
 - filename: centml-completions-api-openapi.yml
   format: yaml
   label: CentML Completions API
   slug: centml-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/openapi/centml-completions-api-openapi.yml
+  url: https://artifacts.apis.io/centml/openapi/centml-completions-api-openapi.yml
 - filename: centml-deployments-api-openapi.yml
   format: yaml
   label: CentML Deployments API
   slug: centml-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/openapi/centml-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/centml/openapi/centml-deployments-api-openapi.yml
 - filename: centml-models-api-openapi.yml
   format: yaml
   label: CentML Models API
   slug: centml-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/openapi/centml-models-api-openapi.yml
+  url: https://artifacts.apis.io/centml/openapi/centml-models-api-openapi.yml
 - filename: centml-chat-completions-api-openapi.yml
   format: yaml
   label: CentML Chat Completions API
   slug: centml-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/openapi/centml-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/centml/openapi/centml-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -59,7 +59,7 @@ source_filename: centml-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/centml-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: CentML API key\n  description: 'Set the `Authorization: Bearer <CENTML_API_KEY>` header. Serverless inference\n    uses a serverless token; the platform API uses an account access token. Both are issued\n    from the CentML platform.'\n  sources:\n  - openapi/centml-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/authentication/centml-authentication.yml
+source_yaml_url: https://artifacts.apis.io/centml/authentication/centml-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

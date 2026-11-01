@@ -7,73 +7,73 @@ api_specs:
   label: PayWithMyBank (Trustly) accounts API
   slug: paywithmybank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/paywithmybank/openapi/paywithmybank-accounts-api-openapi.yml
 - filename: paywithmybank-countries-api-openapi.yml
   format: yaml
   label: PayWithMyBank (Trustly) countries API
   slug: paywithmybank-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-countries-api-openapi.yml
+  url: https://artifacts.apis.io/paywithmybank/openapi/paywithmybank-countries-api-openapi.yml
 - filename: paywithmybank-customers-api-openapi.yml
   format: yaml
   label: PayWithMyBank (Trustly) Customers API
   slug: paywithmybank-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-customers-api-openapi.yml
+  url: https://artifacts.apis.io/paywithmybank/openapi/paywithmybank-customers-api-openapi.yml
 - filename: paywithmybank-identity-api-openapi.yml
   format: yaml
   label: PayWithMyBank (Trustly) Identity API
   slug: paywithmybank-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-identity-api-openapi.yml
+  url: https://artifacts.apis.io/paywithmybank/openapi/paywithmybank-identity-api-openapi.yml
 - filename: paywithmybank-networkcheckapi-api-openapi.yml
   format: yaml
   label: PayWithMyBank (Trustly) Network Check API
   slug: paywithmybank-networkcheckapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-networkcheckapi-api-openapi.yml
+  url: https://artifacts.apis.io/paywithmybank/openapi/paywithmybank-networkcheckapi-api-openapi.yml
 - filename: paywithmybank-payments-api-openapi.yml
   format: yaml
   label: PayWithMyBank (Trustly) Payments API
   slug: paywithmybank-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-payments-api-openapi.yml
+  url: https://artifacts.apis.io/paywithmybank/openapi/paywithmybank-payments-api-openapi.yml
 - filename: paywithmybank-transactions-api-openapi.yml
   format: yaml
   label: PayWithMyBank (Trustly) Transactions API
   slug: paywithmybank-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/paywithmybank/openapi/paywithmybank-transactions-api-openapi.yml
 - filename: paywithmybank-verifycustomer-api-openapi.yml
   format: yaml
   label: PayWithMyBank (Trustly) Verify Customer API
   slug: paywithmybank-verifycustomer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-verifycustomer-api-openapi.yml
+  url: https://artifacts.apis.io/paywithmybank/openapi/paywithmybank-verifycustomer-api-openapi.yml
 - filename: paywithmybank-api-api-openapi.yml
   format: yaml
   label: PayWithMyBank (Trustly) API
   slug: paywithmybank-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-api-api-openapi.yml
+  url: https://artifacts.apis.io/paywithmybank/openapi/paywithmybank-api-api-openapi.yml
 - filename: paywithmybank-account-data-api-openapi.yml
   format: yaml
   label: PayWithMyBank (Trustly) Account Data API
   slug: paywithmybank-account-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-account-data-api-openapi.yml
+  url: https://artifacts.apis.io/paywithmybank/openapi/paywithmybank-account-data-api-openapi.yml
 - filename: paywithmybank-dispute-management-api-openapi.yml
   format: yaml
   label: PayWithMyBank (Trustly) Dispute Management API
   slug: paywithmybank-dispute-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-dispute-management-api-openapi.yml
+  url: https://artifacts.apis.io/paywithmybank/openapi/paywithmybank-dispute-management-api-openapi.yml
 - filename: paywithmybank-payment-providers-api-openapi.yml
   format: yaml
   label: PayWithMyBank (Trustly) Payment Providers API
   slug: paywithmybank-payment-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-payment-providers-api-openapi.yml
+  url: https://artifacts.apis.io/paywithmybank/openapi/paywithmybank-payment-providers-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -101,7 +101,7 @@ source_filename: paywithmybank-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/paywithmybank-openapi-original.yml\ndocs: https://amer.developers.trustly.com/api-reference/api\nsummary:\n  types:\n  - http\n  http_schemes:\n  - basic\nschemes:\n- name: HTTPBasic\n  type: http\n  scheme: basic\n  credentials: accessId (username) + accessKey (password), provisioned in the Trustly Merchant Portal (Settings > Developer Settings)\n  transport: HTTPS only\n  sources:\n  - openapi/paywithmybank-openapi-original.yml\nnotes:\n- Optional field-level encryption is available for enhanced security.\n- Client-side Lightbox (trustly.js) calls require a server-generated requestSignature in addition to the accessId.\n- No OAuth2/OIDC surface; scopes/ is not applicable for this provider.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/authentication/paywithmybank-authentication.yml
+source_yaml_url: https://artifacts.apis.io/paywithmybank/authentication/paywithmybank-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

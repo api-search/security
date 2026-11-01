@@ -7,7 +7,7 @@ api_specs:
   label: Quiver Quantitative Beta API
   slug: quiver-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quiver/refs/heads/main/openapi/quiver-beta-api-openapi.yml
+  url: https://artifacts.apis.io/quiver/openapi/quiver-beta-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -34,7 +34,7 @@ source_filename: quiver-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/quiver-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: 'Bearer token from your Quiver Quantitative account. Pass as `Authorization:\n    Bearer <API_KEY>`.'\n  sources:\n  - openapi/quiver-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quiver/refs/heads/main/authentication/quiver-authentication.yml
+source_yaml_url: https://artifacts.apis.io/quiver/authentication/quiver-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Alternative Data

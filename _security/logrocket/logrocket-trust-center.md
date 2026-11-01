@@ -5,25 +5,25 @@ api_specs:
   label: LogRocket Data Export API
   slug: logrocket-data-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logrocket/refs/heads/main/openapi/logrocket-data-export-api-openapi.yml
+  url: https://artifacts.apis.io/logrocket/openapi/logrocket-data-export-api-openapi.yml
 - filename: logrocket-highlights-api-openapi.yml
   format: yaml
   label: LogRocket Highlights API
   slug: logrocket-highlights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logrocket/refs/heads/main/openapi/logrocket-highlights-api-openapi.yml
+  url: https://artifacts.apis.io/logrocket/openapi/logrocket-highlights-api-openapi.yml
 - filename: logrocket-users-api-openapi.yml
   format: yaml
   label: LogRocket Users API
   slug: logrocket-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logrocket/refs/heads/main/openapi/logrocket-users-api-openapi.yml
+  url: https://artifacts.apis.io/logrocket/openapi/logrocket-users-api-openapi.yml
 - filename: logrocket-graph-ql-api-openapi.yml
   format: yaml
   label: LogRocket Graph QL API
   slug: logrocket-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logrocket/refs/heads/main/openapi/logrocket-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/logrocket/openapi/logrocket-graph-ql-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -41,7 +41,7 @@ source_filename: logrocket-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://cpq.logrocket.com/trust\nurl: https://cpq.logrocket.com/trust\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://cpq.logrocket.com/trust\n  keywords:\n  - soc 2\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/logrocket/refs/heads/main/security/logrocket-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/logrocket/security/logrocket-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - Session Replay

@@ -5,73 +5,73 @@ api_specs:
   label: API League Art API
   slug: api-league-art-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-art-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-art-api-openapi.yml
 - filename: api-league-books-api-openapi.yml
   format: yaml
   label: API League Books API
   slug: api-league-books-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-books-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-books-api-openapi.yml
 - filename: api-league-food-api-openapi.yml
   format: yaml
   label: API League Food API
   slug: api-league-food-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-food-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-food-api-openapi.yml
 - filename: api-league-games-api-openapi.yml
   format: yaml
   label: API League Games API
   slug: api-league-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-games-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-games-api-openapi.yml
 - filename: api-league-humor-api-openapi.yml
   format: yaml
   label: API League Humor API
   slug: api-league-humor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-humor-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-humor-api-openapi.yml
 - filename: api-league-knowledge-api-openapi.yml
   format: yaml
   label: API League Knowledge API
   slug: api-league-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-knowledge-api-openapi.yml
 - filename: api-league-math-api-openapi.yml
   format: yaml
   label: API League Math API
   slug: api-league-math-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-math-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-math-api-openapi.yml
 - filename: api-league-media-api-openapi.yml
   format: yaml
   label: API League Media API
   slug: api-league-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-media-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-media-api-openapi.yml
 - filename: api-league-news-api-openapi.yml
   format: yaml
   label: API League News API
   slug: api-league-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-news-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-news-api-openapi.yml
 - filename: api-league-storage-api-openapi.yml
   format: yaml
   label: API League Storage API
   slug: api-league-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-storage-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-storage-api-openapi.yml
 - filename: api-league-text-api-openapi.yml
   format: yaml
   label: API League Text API
   slug: api-league-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-text-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-text-api-openapi.yml
 - filename: api-league-web-api-openapi.yml
   format: yaml
   label: API League Web API
   slug: api-league-web-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-web-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-web-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -105,7 +105,7 @@ source_filename: api-league-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: apileague.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 20:02:43 2026 GMT\n  hsts: false\n- host: api.apileague.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 29 09:23:25 2026 GMT\n  hsts: null\ndomains:\n- domain: apileague.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/security/api-league-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/api-league/security/api-league-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - API Marketplace

@@ -8,55 +8,55 @@ api_specs:
   label: Whisper Security A2a API
   slug: whisper-online-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisper-online/refs/heads/main/openapi/whisper-online-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/whisper-online/openapi/whisper-online-a2a-api-openapi.yml
 - filename: whisper-online-checkpoint-api-openapi.yml
   format: yaml
   label: Whisper Security Checkpoint API
   slug: whisper-online-checkpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisper-online/refs/heads/main/openapi/whisper-online-checkpoint-api-openapi.yml
+  url: https://artifacts.apis.io/whisper-online/openapi/whisper-online-checkpoint-api-openapi.yml
 - filename: whisper-online-consistency-api-openapi.yml
   format: yaml
   label: Whisper Security Consistency API
   slug: whisper-online-consistency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisper-online/refs/heads/main/openapi/whisper-online-consistency-api-openapi.yml
+  url: https://artifacts.apis.io/whisper-online/openapi/whisper-online-consistency-api-openapi.yml
 - filename: whisper-online-inclusion-api-openapi.yml
   format: yaml
   label: Whisper Security Inclusion API
   slug: whisper-online-inclusion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisper-online/refs/heads/main/openapi/whisper-online-inclusion-api-openapi.yml
+  url: https://artifacts.apis.io/whisper-online/openapi/whisper-online-inclusion-api-openapi.yml
 - filename: whisper-online-menu-api-openapi.yml
   format: yaml
   label: Whisper Security Menu API
   slug: whisper-online-menu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisper-online/refs/heads/main/openapi/whisper-online-menu-api-openapi.yml
+  url: https://artifacts.apis.io/whisper-online/openapi/whisper-online-menu-api-openapi.yml
 - filename: whisper-online-query-api-openapi.yml
   format: yaml
   label: Whisper Security Query API
   slug: whisper-online-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisper-online/refs/heads/main/openapi/whisper-online-query-api-openapi.yml
+  url: https://artifacts.apis.io/whisper-online/openapi/whisper-online-query-api-openapi.yml
 - filename: whisper-online-tile-api-openapi.yml
   format: yaml
   label: Whisper Security Tile API
   slug: whisper-online-tile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisper-online/refs/heads/main/openapi/whisper-online-tile-api-openapi.yml
+  url: https://artifacts.apis.io/whisper-online/openapi/whisper-online-tile-api-openapi.yml
 - filename: whisper-online-verify-identity-api-openapi.yml
   format: yaml
   label: Whisper Security Verify Identity API
   slug: whisper-online-verify-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisper-online/refs/heads/main/openapi/whisper-online-verify-identity-api-openapi.yml
+  url: https://artifacts.apis.io/whisper-online/openapi/whisper-online-verify-identity-api-openapi.yml
 - filename: whisper-online-well-known-api-openapi.yml
   format: yaml
   label: Whisper Security .well Known API
   slug: whisper-online-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisper-online/refs/heads/main/openapi/whisper-online-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/whisper-online/openapi/whisper-online-well-known-api-openapi.yml
 auth_types:
 - apiKey
 - http-bearer
@@ -126,7 +126,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://whisper
   \      tokenUrl: https://mcp.whisper.security/oauth/token\n      refreshUrl: https://mcp.whisper.security/oauth/token\n      scopes: {mcp:read: the whole read-only surface, offline_access: refresh token, mcp:query: legacy alias of mcp:read}\n  description: 'RFC 9728 protected resource; RFC 7591 dynamic client registration and Client ID Metadata Documents; PKCE S256 only; public clients (token_endpoint_auth_methods_supported [none]); access tokens 1 hour, refresh tokens up to 180 days rotating. Static keys are the fallback as Authorization: Bearer or X-API-Key; a request with no credentials is rejected with 401 (probed 2026-09-19). Detail in scopes/whisper-online-scopes.yml.'\n  sources: ['https://www.whisper.security/docs/ai/mcp/setup', well-known/whisper-online-mcp-oauth-authorization-server.json]\n- name: agent-plane address-as-credential\n  type: network-identity\n  description: 'From inside a connected agent, requests to https://[<agent /128>]/api/query and the per-verb GETs (/identify?q=,\
   \ /assess, /explain ...) carry no key at all: the routable /128 the request originates from IS the credential, and the answer is scoped to that identity. Verifiers check the identity keylessly via reverse DNS + forward AAAA + DANE TLSA (3 1 1) under DNSSEC + RDAP.'\n  sources: ['https://whisper.online/docs/graph-api', 'https://menu.whisper.online/menu']\n- name: per-agent API key\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: 'CALL whisper.agents({op:''register''}) mints a brand-new agent with its own api_key, \"handed back exactly once\". op:identity allocates a /128 on the caller''s existing key instead.'\n  sources: ['https://whisper.online/docs/control-plane']\ncli_key_ladder: 'WHISPER_API_KEY or WHISPER_KEY env, else the credential saved by `whisper login` (browser device-flow at console.whisper.online, or a pasted key); the key travels only in the header, never in the query string or a Cypher literal.'\nconsole: 'https://console.whisper.security (sign-up) /\
   \ https://console.whisper.online (sign-in); the console issues short-lived session tokens for browser use; browser cross-origin calls to the API are refused with 403.'\nmtls_dpop: 'A per-agent CA (Whisper Agent Identity Root CA / Issuing CA, O=viaGraph B.V.; fingerprints at /.well-known/whisper-ca.json), mTLS and DPoP are documented for agent-to-server authentication at /docs/per-agent-ca and /docs/egress-auth; not part of the REST API securitySchemes.'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whisper-online/refs/heads/main/authentication/whisper-online-authentication.yml
+source_yaml_url: https://artifacts.apis.io/whisper-online/authentication/whisper-online-authentication.yml
 summary_line: apiKey/http-bearer/oauth2/network-identity · 5 schemes
 tags:
 - Agent Identity

@@ -30,7 +30,7 @@ source_filename: tesorio-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://help.tesorio.com/en/articles/14050733-mcp-server-connect-ai-tools-to-tesorio\ndocs: https://help.tesorio.com/en/articles/14050733-mcp-server-connect-ai-tools-to-tesorio\nsummary:\n  types: [oauth2]\n  oauth2_flows: [authorizationCode]\n  api_key_in: []\n  notes: >-\n    Tesorio does not publish a general-purpose public REST API with its own auth\n    docs. The documented programmatic surface is the hosted MCP server at\n    https://mcp.tesorio.com/v1/mcp, which authenticates with OAuth 2.1 via a\n    secure browser-based login using existing Tesorio credentials. No static API\n    key is issued; the password is never stored locally by the client.\nschemes:\n  - name: TesorioMCPOAuth\n    type: oauth2\n    scheme: oauth2.1\n    flow: authorizationCode\n    browser_based: true\n    applies_to: https://mcp.tesorio.com/v1/mcp\n    sources: [https://help.tesorio.com/en/articles/14050733-mcp-server-connect-ai-tools-to-tesorio]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tesorio/refs/heads/main/authentication/tesorio-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tesorio/authentication/tesorio-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

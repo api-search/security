@@ -5,25 +5,25 @@ api_specs:
   label: FullEnrich Account API
   slug: fullenrich-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/openapi/fullenrich-account-api-openapi.yml
+  url: https://artifacts.apis.io/fullenrich/openapi/fullenrich-account-api-openapi.yml
 - filename: fullenrich-company-api-openapi.yml
   format: yaml
   label: FullEnrich Company API
   slug: fullenrich-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/openapi/fullenrich-company-api-openapi.yml
+  url: https://artifacts.apis.io/fullenrich/openapi/fullenrich-company-api-openapi.yml
 - filename: fullenrich-contact-api-openapi.yml
   format: yaml
   label: FullEnrich Contact API
   slug: fullenrich-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/openapi/fullenrich-contact-api-openapi.yml
+  url: https://artifacts.apis.io/fullenrich/openapi/fullenrich-contact-api-openapi.yml
 - filename: fullenrich-people-api-openapi.yml
   format: yaml
   label: FullEnrich People API
   slug: fullenrich-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/openapi/fullenrich-people-api-openapi.yml
+  url: https://artifacts.apis.io/fullenrich/openapi/fullenrich-people-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2 Type II
@@ -46,7 +46,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nprobe: false\nprobe_not
   \ Documentation\n  public: false\n  detail: Available on request through the trust center.\n- name: SOC 2 Type II Compliance Report\n  public: false\n  detail: Access requested through the hosted trust portal.\n\nhosted_trust_portal:\n  url: https://trust.delve.co/fullenrich\n  vendor: Delve\n  probe_status: 429\n  probe_note: >-\n    The portal answered with a Vercel Security Checkpoint bot challenge rather than\n    the page. We do not evade challenges, so its contents were not read; its\n    existence and purpose are taken from the link and description on\n    https://fullenrich.com/trust and https://fullenrich.com/pricing.md.\n\nsecurity_measures_published:\n  standard: GDPR Article 32\n  measures:\n  - Regular testing, assessment and evaluation of technical and organizational measures\n  - 'Identification and authorization: session cookies (JWT) signed with HMAC-SHA256, plus RBAC'\n  - Data at rest protected by AES encryption\n  - Event logging retained 1 year, encrypted at rest\n\
   \  - Data minimization\n  - Limited data retention (enrichment data kept 3 months)\n  - Contractual measures flowed down to sub-processors\n  pentesting: Regular penetration tests\n\ndata_handling:\n  hosting_provider: DigitalOcean\n  hosting_region: European Union\n  hosting_provider_certifications:\n  - SOC 2\n  - ISO 27001\n  hosting_provider_note: >-\n    These belong to DigitalOcean, not FullEnrich. Recorded here so the distinction\n    stays explicit and the misattribution does not recur.\n  international_transfers: Standard Contractual Clauses\n  processing_role: Processor for Waterfall Enrichment\n  database_claim: >-\n    FullEnrich states the Waterfall Enrichment service does not rely on a database\n    and does not create one from customer results — enrichment is real-time.\n  breach_process: >-\n    When acting as controller, FullEnrich states it will directly inform data\n    subjects where necessary.\n\nevidence:\n- source: https://fullenrich.com/trust\n  http_status: 200\n\
   \  keywords: [soc 2 type 2 certified, gdpr compliant, ccpa compliant, trust center, dpa, sub-processors, pentest]\n- source: https://fullenrich.com/pricing.md\n  http_status: 200\n  keywords: [soc 2 type ii, gdpr, ccpa]\n- source: https://trust.delve.co/fullenrich\n  http_status: 429\n  note: bot challenge, not read\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/security/fullenrich-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/fullenrich/security/fullenrich-trust-center.yml
 summary_line: SOC 2 Type II, GDPR, CCPA
 tags:
 - B2B Data

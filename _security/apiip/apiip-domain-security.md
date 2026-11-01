@@ -26,7 +26,7 @@ source_filename: apiip-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: apiip.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 12 22:47:35 2026 GMT\n  hsts: false\ndomains:\n- domain: apiip.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apiip/refs/heads/main/security/apiip-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apiip/security/apiip-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Geocoding

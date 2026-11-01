@@ -8,7 +8,7 @@ api_specs:
   label: Google Knowledge Graph Search Entities:search API
   slug: google-knowledge-graph-entities-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-knowledge-graph/refs/heads/main/openapi/google-knowledge-graph-entities-search-api-openapi.yml
+  url: https://artifacts.apis.io/google-knowledge-graph/openapi/google-knowledge-graph-entities-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -35,7 +35,7 @@ source_filename: google-knowledge-graph-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: query\n  parameter: key\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-knowledge-graph/refs/heads/main/authentication/google-knowledge-graph-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-knowledge-graph/authentication/google-knowledge-graph-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Entities

@@ -7,13 +7,13 @@ api_specs:
   label: Cardtonic Auth API
   slug: cardtonic-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardtonic/refs/heads/main/openapi/cardtonic-auth-api-openapi.yml
+  url: https://artifacts.apis.io/cardtonic/openapi/cardtonic-auth-api-openapi.yml
 - filename: cardtonic-user-api-openapi.yml
   format: yaml
   label: Cardtonic User API
   slug: cardtonic-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardtonic/refs/heads/main/openapi/cardtonic-user-api-openapi.yml
+  url: https://artifacts.apis.io/cardtonic/openapi/cardtonic-user-api-openapi.yml
 auth_types: []
 description: 'The Cardtonic Business API publishes no OpenAPI securitySchemes (components.securitySchemes is empty and every operation carries security: []), so this profile is read from the documented operations themselves rather than derived from the spec. Access is a two-stage model: a business user signs up and logs in to obtain a session token, then mints a long-lived API key through POST /users/generate-key. Every documented request additionally requires an X-Tonic-Env environment-selector header.'
 kind: authentication
@@ -68,7 +68,7 @@ source_yaml: "specification: API Commons Authentication\nspecificationVersion: '
   \ loginBusiness / verifyEmail in openapi/cardtonic-openapi.yml'\n    source: https://docs.cardtonic.com/login-business-11716513e0.md\n    gap: >-\n      The presentation header (Authorization: Bearer vs a custom header) is not published. An\n      integrator cannot construct an authenticated call from the documentation alone.\n  - id: cardtonic-api-key\n    type: apiKey\n    description: >-\n      POST /users/generate-key issues a private API key; GET /users/show-api-key returns the\n      current one. Cardtonic's own response example shows the key carries a \"PRIV_\" prefix followed\n      by 64 hex characters. The transport header for the key is not documented.\n    operations:\n      - generateApiKey\n      - fetchApiKey\n    key_prefix: PRIV_\n    evidence: 'data.apiKey in the 200 response of generateApiKey'\n    source: https://docs.cardtonic.com/generate-api-key-11716518e0.md\n    gap: >-\n      No securityScheme, no header name, no rotation or revocation operation is published.\n\
   mfa:\n  supported: true\n  description: >-\n    Account-level two-factor authentication is togglable through POST /users/enable-2fa and\n    POST /users/disable-2fa. Neither the factor type (TOTP, SMS, email) nor the challenge/verify\n    step is documented.\n  operations:\n    - enable2fa\n    - disable2fa\nidentity_verification:\n  description: >-\n    Business accounts are KYC-gated. POST /users/kyc/verify-bvn submits a Nigerian Bank Verification\n    Number; POST /users/kyc/verify-kyc submits corporate documents and shareholder identity records\n    (firstName, lastName, email, phoneNumber, id) with document URLs previously obtained from\n    PUT /users/upload.\n  operations:\n    - addBvn\n    - verifyKyc\n    - uploadFile\n  jurisdiction: Nigeria (BVN is a Central Bank of Nigeria identifier)\noauth2: false\nopenid_connect: false\nmutual_tls: false\nnotes: >-\n  /.well-known/openid-configuration and /.well-known/oauth-authorization-server return 404 on every\n  Cardtonic host (see\
   \ well-known/cardtonic-well-known.yml). There is no OAuth surface to describe.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cardtonic/refs/heads/main/authentication/cardtonic-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cardtonic/authentication/cardtonic-authentication.yml
 summary_line: 3 schemes
 tags:
 - Africa

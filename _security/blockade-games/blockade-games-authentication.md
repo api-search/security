@@ -8,13 +8,13 @@ api_specs:
   label: Blockade Games Skybox Exports API
   slug: blockade-games-skybox-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockade-games/refs/heads/main/openapi/blockade-games-skybox-exports-api-openapi.yml
+  url: https://artifacts.apis.io/blockade-games/openapi/blockade-games-skybox-exports-api-openapi.yml
 - filename: blockade-games-skyboxes-api-openapi.yml
   format: yaml
   label: Blockade Games Skyboxes API
   slug: blockade-games-skyboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockade-games/refs/heads/main/openapi/blockade-games-skyboxes-api-openapi.yml
+  url: https://artifacts.apis.io/blockade-games/openapi/blockade-games-skyboxes-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -41,7 +41,7 @@ source_filename: blockade-games-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/blockade-games-skybox-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: default\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/blockade-games-skybox-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blockade-games/refs/heads/main/authentication/blockade-games-authentication.yml
+source_yaml_url: https://artifacts.apis.io/blockade-games/authentication/blockade-games-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

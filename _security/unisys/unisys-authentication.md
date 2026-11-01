@@ -7,25 +7,25 @@ api_specs:
   label: Unisys Combined Isolation API
   slug: unisys-combined-isolation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unisys/refs/heads/main/openapi/unisys-combined-isolation-api-openapi.yml
+  url: https://artifacts.apis.io/unisys/openapi/unisys-combined-isolation-api-openapi.yml
 - filename: unisys-endpoint-isolation-api-openapi.yml
   format: yaml
   label: Unisys Endpoint Isolation API
   slug: unisys-endpoint-isolation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unisys/refs/heads/main/openapi/unisys-endpoint-isolation-api-openapi.yml
+  url: https://artifacts.apis.io/unisys/openapi/unisys-endpoint-isolation-api-openapi.yml
 - filename: unisys-roles-api-openapi.yml
   format: yaml
   label: Unisys Roles API
   slug: unisys-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unisys/refs/heads/main/openapi/unisys-roles-api-openapi.yml
+  url: https://artifacts.apis.io/unisys/openapi/unisys-roles-api-openapi.yml
 - filename: unisys-user-isolation-api-openapi.yml
   format: yaml
   label: Unisys User Isolation API
   slug: unisys-user-isolation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unisys/refs/heads/main/openapi/unisys-user-isolation-api-openapi.yml
+  url: https://artifacts.apis.io/unisys/openapi/unisys-user-isolation-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: unisys-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/unisys-stealth-ecoapi-openapi.yaml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic Authentication using Stealth server credentials (username and password).\n  sources:\n  - openapi/unisys-stealth-ecoapi-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unisys/refs/heads/main/authentication/unisys-authentication.yml
+source_yaml_url: https://artifacts.apis.io/unisys/authentication/unisys-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Fortune 1000

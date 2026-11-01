@@ -5,13 +5,13 @@ api_specs:
   label: Tatum Data API
   slug: tatum-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tatum/refs/heads/main/openapi/tatum-data-api-openapi.yml
+  url: https://artifacts.apis.io/tatum/openapi/tatum-data-api-openapi.yml
 - filename: tatum-rates-api-openapi.yml
   format: yaml
   label: Tatum Rates API
   slug: tatum-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tatum/refs/heads/main/openapi/tatum-rates-api-openapi.yml
+  url: https://artifacts.apis.io/tatum/openapi/tatum-rates-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -58,7 +58,7 @@ source_filename: tatum-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tatum.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 17:48:21 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.tatum.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 11:05:18 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.tatum.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 04:27:54 2026 GMT\n  hsts: null\ndomains:\n- domain: tatum.io\n  dnssec: true\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tatum/refs/heads/main/security/tatum-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tatum/security/tatum-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Web3

@@ -9,19 +9,19 @@ api_specs:
   label: Associated Press Account API
   slug: associated-press-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/associated-press/refs/heads/main/openapi/associated-press-account-api-openapi.yml
+  url: https://artifacts.apis.io/associated-press/openapi/associated-press-account-api-openapi.yml
 - filename: associated-press-content-api-openapi.yml
   format: yaml
   label: Associated Press Content API
   slug: associated-press-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/associated-press/refs/heads/main/openapi/associated-press-content-api-openapi.yml
+  url: https://artifacts.apis.io/associated-press/openapi/associated-press-content-api-openapi.yml
 - filename: associated-press-monitors-and-alerts-api-openapi.yml
   format: yaml
   label: Associated Press Monitors and Alerts API
   slug: associated-press-monitors-and-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/associated-press/refs/heads/main/openapi/associated-press-monitors-and-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/associated-press/openapi/associated-press-monitors-and-alerts-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -56,7 +56,7 @@ source_filename: associated-press-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/associated-press-meda-openapi-original.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: apikey\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: apikey submitted in HTTP header x-api-key\n  sources:\n  - openapi/associated-press-meda-openapi-original.yml\n- name: apikeyUrl\n  type: apiKey\n  in: query\n  parameter: apikey\n  description: DEPRECATED - no longer supported\n  sources:\n  - openapi/associated-press-meda-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/associated-press/refs/heads/main/authentication/associated-press-authentication.yml
+source_yaml_url: https://artifacts.apis.io/associated-press/authentication/associated-press-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Elections

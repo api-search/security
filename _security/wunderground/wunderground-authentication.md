@@ -8,25 +8,25 @@ api_specs:
   label: Weather Underground Forecast API
   slug: wunderground-forecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wunderground/refs/heads/main/openapi/wunderground-forecast-api-openapi.yml
+  url: https://artifacts.apis.io/wunderground/openapi/wunderground-forecast-api-openapi.yml
 - filename: wunderground-historical-api-openapi.yml
   format: yaml
   label: Weather Underground Historical API
   slug: wunderground-historical-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wunderground/refs/heads/main/openapi/wunderground-historical-api-openapi.yml
+  url: https://artifacts.apis.io/wunderground/openapi/wunderground-historical-api-openapi.yml
 - filename: wunderground-location-api-openapi.yml
   format: yaml
   label: Weather Underground Location API
   slug: wunderground-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wunderground/refs/heads/main/openapi/wunderground-location-api-openapi.yml
+  url: https://artifacts.apis.io/wunderground/openapi/wunderground-location-api-openapi.yml
 - filename: wunderground-observations-api-openapi.yml
   format: yaml
   label: Weather Underground Observations API
   slug: wunderground-observations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wunderground/refs/heads/main/openapi/wunderground-observations-api-openapi.yml
+  url: https://artifacts.apis.io/wunderground/openapi/wunderground-observations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: wunderground-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/wunderground-pws-api.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: apiKey\n  description: API key issued to registered PWS contributors via https://www.wunderground.com/member/api-keys\n  sources:\n  - openapi/wunderground-pws-api.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wunderground/refs/heads/main/authentication/wunderground-authentication.yml
+source_yaml_url: https://artifacts.apis.io/wunderground/authentication/wunderground-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Weather

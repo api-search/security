@@ -7,67 +7,67 @@ api_specs:
   label: Tito Account API
   slug: tito-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-account-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-account-api-openapi.yml
 - filename: tito-activities-api-openapi.yml
   format: yaml
   label: Tito Activities API
   slug: tito-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-activities-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-activities-api-openapi.yml
 - filename: tito-check-in-lists-api-openapi.yml
   format: yaml
   label: Tito Check-in Lists API
   slug: tito-check-in-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-check-in-lists-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-check-in-lists-api-openapi.yml
 - filename: tito-discount-codes-api-openapi.yml
   format: yaml
   label: Tito Discount Codes API
   slug: tito-discount-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-discount-codes-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-discount-codes-api-openapi.yml
 - filename: tito-events-api-openapi.yml
   format: yaml
   label: Tito Events API
   slug: tito-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-events-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-events-api-openapi.yml
 - filename: tito-refunds-api-openapi.yml
   format: yaml
   label: Tito Refunds API
   slug: tito-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-refunds-api-openapi.yml
 - filename: tito-registrations-api-openapi.yml
   format: yaml
   label: Tito Registrations API
   slug: tito-registrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-registrations-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-registrations-api-openapi.yml
 - filename: tito-releases-api-openapi.yml
   format: yaml
   label: Tito Releases API
   slug: tito-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-releases-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-releases-api-openapi.yml
 - filename: tito-tickets-api-openapi.yml
   format: yaml
   label: Tito Tickets API
   slug: tito-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-tickets-api-openapi.yml
 - filename: tito-webhook-endpoints-api-openapi.yml
   format: yaml
   label: Tito Webhook Endpoints API
   slug: tito-webhook-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-webhook-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-webhook-endpoints-api-openapi.yml
 - filename: tito-tito-admin-api-api-openapi.yml
   format: yaml
   label: Tito Admin API
   slug: tito-tito-admin-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-tito-admin-api-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-tito-admin-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -98,7 +98,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: documented\nsource: openapi/tito-openapi.yml\nsummary:\n  types:\n  - apiKey\nschemes:\n- name: titoToken\n  type: apiKey\n  in: header\n  parameterName: Authorization\n  format: 'Token token=YOUR-API-TOKEN'\n  description: >-\n    The Tito Admin API authenticates with a secret API token. Generate a token\n    by signing in at https://id.tito.io (api-access-tokens) and selecting\n    \"Generate New Token\". Only secret token types are valid for the private\n    Admin API, and each token is scoped to a live or test mode (test tokens\n    read and write only test data). The token is sent in the Authorization\n    header as \"Token token=YOUR-API-TOKEN\", and every request must also send\n    \"Accept: application/json\". A compromised token can be revoked and\n    regenerated at https://id.tito.io/api-access-tokens. The GET /hello endpoint\n    confirms a token is valid and lists the accounts it can access. Note the\n    separate Tito Check-in\
   \ API (https://checkin.tito.io) is unauthenticated and\n    instead scopes access by including a Check-in List slug in the URL.\n  sources:\n  - https://ti.to/docs/api/admin/3.0\n  - openapi/tito-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/authentication/tito-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tito/authentication/tito-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Event Ticketing

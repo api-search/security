@@ -5,31 +5,31 @@ api_specs:
   label: Egnyte Groups API
   slug: egnyte-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/openapi/egnyte-groups-api-openapi.yml
+  url: https://artifacts.apis.io/egnyte/openapi/egnyte-groups-api-openapi.yml
 - filename: egnyte-links-api-openapi.yml
   format: yaml
   label: Egnyte Links API
   slug: egnyte-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/openapi/egnyte-links-api-openapi.yml
+  url: https://artifacts.apis.io/egnyte/openapi/egnyte-links-api-openapi.yml
 - filename: egnyte-permissions-api-openapi.yml
   format: yaml
   label: Egnyte Permissions API
   slug: egnyte-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/openapi/egnyte-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/egnyte/openapi/egnyte-permissions-api-openapi.yml
 - filename: egnyte-users-api-openapi.yml
   format: yaml
   label: Egnyte Users API
   slug: egnyte-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/openapi/egnyte-users-api-openapi.yml
+  url: https://artifacts.apis.io/egnyte/openapi/egnyte-users-api-openapi.yml
 - filename: egnyte-filesystem-api-openapi.yml
   format: yaml
   label: Egnyte Filesystem API
   slug: egnyte-filesystem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/openapi/egnyte-filesystem-api-openapi.yml
+  url: https://artifacts.apis.io/egnyte/openapi/egnyte-filesystem-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: egnyte-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.egnyte.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.egnyte.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: egnyte.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/security/egnyte-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/egnyte/security/egnyte-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - File Sharing

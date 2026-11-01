@@ -5,25 +5,25 @@ api_specs:
   label: Rainbow.AI Nowcast API
   slug: rainbow-ai-nowcast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/openapi/rainbow-ai-nowcast-api-openapi.yml
+  url: https://artifacts.apis.io/rainbow-ai/openapi/rainbow-ai-nowcast-api-openapi.yml
 - filename: rainbow-ai-radar-api-openapi.yml
   format: yaml
   label: Rainbow.AI Radar API
   slug: rainbow-ai-radar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/openapi/rainbow-ai-radar-api-openapi.yml
+  url: https://artifacts.apis.io/rainbow-ai/openapi/rainbow-ai-radar-api-openapi.yml
 - filename: rainbow-ai-snapshots-api-openapi.yml
   format: yaml
   label: Rainbow.AI Snapshots API
   slug: rainbow-ai-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/openapi/rainbow-ai-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/rainbow-ai/openapi/rainbow-ai-snapshots-api-openapi.yml
 - filename: rainbow-ai-tiles-api-openapi.yml
   format: yaml
   label: Rainbow.AI Tiles API
   slug: rainbow-ai-tiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/openapi/rainbow-ai-tiles-api-openapi.yml
+  url: https://artifacts.apis.io/rainbow-ai/openapi/rainbow-ai-tiles-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: rainbow-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.rainbow.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 22:11:55 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: doc.rainbow.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 18:59:52 2026 GMT\n  hsts: false\n- host: api.rainbow.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 01:15:26 2026 GMT\n  hsts: null\ndomains:\n- domain: rainbow.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/security/rainbow-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rainbow-ai/security/rainbow-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Weather

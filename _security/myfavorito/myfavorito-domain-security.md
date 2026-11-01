@@ -28,7 +28,7 @@ source_filename: myfavorito-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: myfavorito.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 08:05:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: myfavorito.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/myfavorito/refs/heads/main/security/myfavorito-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/myfavorito/security/myfavorito-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

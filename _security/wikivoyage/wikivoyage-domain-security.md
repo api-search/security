@@ -5,55 +5,55 @@ api_specs:
   label: Wikivoyage Edit API
   slug: wikivoyage-edit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-edit-api-openapi.yml
+  url: https://artifacts.apis.io/wikivoyage/openapi/wikivoyage-edit-api-openapi.yml
 - filename: wikivoyage-files-api-openapi.yml
   format: yaml
   label: Wikivoyage Files API
   slug: wikivoyage-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-files-api-openapi.yml
+  url: https://artifacts.apis.io/wikivoyage/openapi/wikivoyage-files-api-openapi.yml
 - filename: wikivoyage-history-api-openapi.yml
   format: yaml
   label: Wikivoyage History API
   slug: wikivoyage-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-history-api-openapi.yml
+  url: https://artifacts.apis.io/wikivoyage/openapi/wikivoyage-history-api-openapi.yml
 - filename: wikivoyage-links-api-openapi.yml
   format: yaml
   label: Wikivoyage Links API
   slug: wikivoyage-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-links-api-openapi.yml
+  url: https://artifacts.apis.io/wikivoyage/openapi/wikivoyage-links-api-openapi.yml
 - filename: wikivoyage-pages-api-openapi.yml
   format: yaml
   label: Wikivoyage Pages API
   slug: wikivoyage-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-pages-api-openapi.yml
+  url: https://artifacts.apis.io/wikivoyage/openapi/wikivoyage-pages-api-openapi.yml
 - filename: wikivoyage-query-api-openapi.yml
   format: yaml
   label: Wikivoyage Query API
   slug: wikivoyage-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-query-api-openapi.yml
+  url: https://artifacts.apis.io/wikivoyage/openapi/wikivoyage-query-api-openapi.yml
 - filename: wikivoyage-revisions-api-openapi.yml
   format: yaml
   label: Wikivoyage Revisions API
   slug: wikivoyage-revisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-revisions-api-openapi.yml
+  url: https://artifacts.apis.io/wikivoyage/openapi/wikivoyage-revisions-api-openapi.yml
 - filename: wikivoyage-search-api-openapi.yml
   format: yaml
   label: Wikivoyage Search API
   slug: wikivoyage-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-search-api-openapi.yml
+  url: https://artifacts.apis.io/wikivoyage/openapi/wikivoyage-search-api-openapi.yml
 - filename: wikivoyage-transforms-api-openapi.yml
   format: yaml
   label: Wikivoyage Transforms API
   slug: wikivoyage-transforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-transforms-api-openapi.yml
+  url: https://artifacts.apis.io/wikivoyage/openapi/wikivoyage-transforms-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -107,7 +107,7 @@ source_filename: wikivoyage-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.wikivoyage.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 20:06:43 2026 GMT\n  hsts: true\n  hsts_max_age: 106384710\n- host: en.wikivoyage.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 20:06:43 2026 GMT\n  hsts: true\n  hsts_max_age: 106384710\n- host: www.mediawiki.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 20:06:43 2026 GMT\n  hsts: true\n  hsts_max_age: 106384710\ndomains:\n- domain: wikivoyage.org\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 iodef \"mailto:dns-admin@wikimedia.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: mediawiki.org\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 iodef \"mailto:dns-admin@wikimedia.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/security/wikivoyage-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wikivoyage/security/wikivoyage-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Travel

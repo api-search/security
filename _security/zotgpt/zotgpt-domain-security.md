@@ -5,13 +5,13 @@ api_specs:
   label: ZotGPT (UC Irvine) Embeddings API
   slug: zotgpt-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zotgpt/refs/heads/main/openapi/zotgpt-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/zotgpt/openapi/zotgpt-embeddings-api-openapi.yml
 - filename: zotgpt-chat-completions-api-openapi.yml
   format: yaml
   label: ZotGPT (UC Irvine) Chat Completions API
   slug: zotgpt-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zotgpt/refs/heads/main/openapi/zotgpt-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/zotgpt/openapi/zotgpt-chat-completions-api-openapi.yml
 description: 'Live TLS, transport, DNS, and identity-plane probe of the ZotGPT hosts. The probe is the clearest single piece of evidence for the platform''s multi-cloud posture: every interactive product terminates on a UC Irvine-owned AWS Application Load Balancer in us-west-2 under the *.aws.uci.edu naming convention, with an Amazon-issued certificate, while the developer API control plane terminates on Azure API Management in the same region. Two clouds, one campus namespace.'
 domains: []
 hosts:
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-07-28'\nmethod: probed\nprovider: ZotGPT (UC Irvi
   \ answers with\n      an APIM JSON envelope. This is the developer control plane for the\n      deprecated API.\n  - host: api.zotgpt.uci.edu\n    status: 0\n    resolves: false\n    notes: >-\n      Documented data-plane host for the deprecated API. NXDOMAIN from the public\n      internet — campus-internal or already withdrawn.\n  - host: api.azureapi.zotgpt.uci.edu\n    status: 0\n    resolves: false\n    notes: Old base URL quoted in the migration guide. NXDOMAIN publicly.\nidentity_plane:\n  idp: https://shib.service.uci.edu/idp/profile/SAML2/Redirect/SSO\n  metadata: https://shib.service.uci.edu/idp/shibboleth\n  metadata_status: 200\n  metadata_content_type: application/xml\n  protocol: SAML 2.0 (Shibboleth)\n  notes: >-\n    The IdP publishes its SAML metadata anonymously — the only machine-readable\n    descriptor anywhere in the ZotGPT estate that a third party can retrieve\n    without credentials.\nemail_domain_security:\n  domain: uci.edu\n  spf: 'v=spf1 include:%{ir}.%{v}.%{d}.spf.has.pphosted.com\
   \ ?all'\n  spf_notes: >-\n    Proofpoint macro-expanded include with a soft ?all rather than -all.\n  dmarc: 'v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com; ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com'\n  dmarc_policy: none\n  dmarc_notes: Monitoring only; no quarantine or reject enforcement.\n  dnssec: not enabled (no DS record for uci.edu)\n  caa: no CAA record published for uci.edu\nfindings:\n  - severity: informational\n    finding: >-\n      Multi-cloud is real and externally verifiable — AWS us-west-2 for every\n      application plane, Azure West US 2 for the API management plane.\n  - severity: informational\n    finding: >-\n      Product isolation is real — Chat, ClassChat, and Creator each run in their\n      own named AWS production environment behind their own load balancer.\n  - severity: low\n    finding: >-\n      No security.txt at /.well-known/security.txt on any ZotGPT host (404).\n  - severity: low\n    finding: >-\n      No robots.txt\
   \ on zotgpt.uci.edu (404), and no sitemap.xml.\n  - severity: low\n    finding: >-\n      uci.edu publishes no CAA record and no DS record (DNSSEC not enabled), and\n      DMARC is at p=none.\n  - severity: informational\n    finding: >-\n      Internal AWS account and environment names (zot-gpt-prod,\n      oit-instructorbot-prod, oit-zotgptcreator-prod) are disclosed through\n      certificate subjects and CNAME chains.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zotgpt/refs/heads/main/security/zotgpt-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zotgpt/security/zotgpt-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Domain Security

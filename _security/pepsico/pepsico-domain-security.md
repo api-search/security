@@ -5,7 +5,7 @@ api_specs:
   label: PepsiCo Food API
   slug: pepsico-food-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pepsico/refs/heads/main/openapi/pepsico-food-api-openapi.yml
+  url: https://artifacts.apis.io/pepsico/openapi/pepsico-food-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -36,7 +36,7 @@ source_filename: pepsico-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.pepsico.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 23:59:59 2026 GMT\n  hsts: null\n- host: api.pepsico.com\n  https: false\ndomains:\n- domain: pepsico.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pepsico/refs/heads/main/security/pepsico-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pepsico/security/pepsico-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Beverages

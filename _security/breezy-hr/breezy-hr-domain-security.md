@@ -1,17 +1,23 @@
 ---
 api_specs:
+- filename: breezy-hr-openapi-generated.yml
+  format: yaml
+  label: Breezy HR API
+  slug: breezy-hr-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/breezy-hr/openapi/_ae-authored/breezy-hr-openapi-generated.yml
 - filename: breezy-hr-breezy-hr-api-api-openapi.yml
   format: yaml
   label: Breezy HR Breezy HR API
   slug: breezy-hr-breezy-hr-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breezy-hr/refs/heads/main/openapi/breezy-hr-breezy-hr-api-api-openapi.yml
+  url: https://artifacts.apis.io/breezy-hr/openapi/breezy-hr-breezy-hr-api-api-openapi.yml
 - filename: breezy-hr-sign-in-api-openapi.yml
   format: yaml
   label: Breezy HR Sign In API
   slug: breezy-hr-sign-in-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breezy-hr/refs/heads/main/openapi/breezy-hr-sign-in-api-openapi.yml
+  url: https://artifacts.apis.io/breezy-hr/openapi/breezy-hr-sign-in-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +46,7 @@ source_filename: breezy-hr-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: breezy.hr\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 27 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 2678400\ndomains:\n- domain: breezy.hr\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/breezy-hr/refs/heads/main/security/breezy-hr-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/breezy-hr/security/breezy-hr-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Hiring

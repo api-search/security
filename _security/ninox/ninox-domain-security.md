@@ -5,31 +5,31 @@ api_specs:
   label: Ninox Fields API
   slug: ninox-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninox/refs/heads/main/openapi/ninox-fields-api-openapi.yml
+  url: https://artifacts.apis.io/ninox/openapi/ninox-fields-api-openapi.yml
 - filename: ninox-modules-api-openapi.yml
   format: yaml
   label: Ninox Modules API
   slug: ninox-modules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninox/refs/heads/main/openapi/ninox-modules-api-openapi.yml
+  url: https://artifacts.apis.io/ninox/openapi/ninox-modules-api-openapi.yml
 - filename: ninox-records-api-openapi.yml
   format: yaml
   label: Ninox Records API
   slug: ninox-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninox/refs/heads/main/openapi/ninox-records-api-openapi.yml
+  url: https://artifacts.apis.io/ninox/openapi/ninox-records-api-openapi.yml
 - filename: ninox-tables-api-openapi.yml
   format: yaml
   label: Ninox Tables API
   slug: ninox-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninox/refs/heads/main/openapi/ninox-tables-api-openapi.yml
+  url: https://artifacts.apis.io/ninox/openapi/ninox-tables-api-openapi.yml
 - filename: ninox-workspace-api-openapi.yml
   format: yaml
   label: Ninox Workspace API
   slug: ninox-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninox/refs/heads/main/openapi/ninox-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/ninox/openapi/ninox-workspace-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +71,7 @@ source_filename: ninox-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ninox.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  8 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.ninox.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 18:43:11 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: go.ninox.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 11:36:26 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: ninox.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ninox/refs/heads/main/security/ninox-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ninox/security/ninox-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

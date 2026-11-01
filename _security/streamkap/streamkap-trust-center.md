@@ -5,55 +5,55 @@ api_specs:
   label: Streamkap Authentication API
   slug: streamkap-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/openapi/streamkap-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/streamkap/openapi/streamkap-authentication-api-openapi.yml
 - filename: streamkap-connectors-api-openapi.yml
   format: yaml
   label: Streamkap Connectors API
   slug: streamkap-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/openapi/streamkap-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/streamkap/openapi/streamkap-connectors-api-openapi.yml
 - filename: streamkap-destinations-api-openapi.yml
   format: yaml
   label: Streamkap Destinations API
   slug: streamkap-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/openapi/streamkap-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/streamkap/openapi/streamkap-destinations-api-openapi.yml
 - filename: streamkap-kafka-access-api-openapi.yml
   format: yaml
   label: Streamkap Kafka Access API
   slug: streamkap-kafka-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/openapi/streamkap-kafka-access-api-openapi.yml
+  url: https://artifacts.apis.io/streamkap/openapi/streamkap-kafka-access-api-openapi.yml
 - filename: streamkap-pipelines-api-openapi.yml
   format: yaml
   label: Streamkap Pipelines API
   slug: streamkap-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/openapi/streamkap-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/streamkap/openapi/streamkap-pipelines-api-openapi.yml
 - filename: streamkap-sources-api-openapi.yml
   format: yaml
   label: Streamkap Sources API
   slug: streamkap-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/openapi/streamkap-sources-api-openapi.yml
+  url: https://artifacts.apis.io/streamkap/openapi/streamkap-sources-api-openapi.yml
 - filename: streamkap-tags-api-openapi.yml
   format: yaml
   label: Streamkap Tags API
   slug: streamkap-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/openapi/streamkap-tags-api-openapi.yml
+  url: https://artifacts.apis.io/streamkap/openapi/streamkap-tags-api-openapi.yml
 - filename: streamkap-topics-api-openapi.yml
   format: yaml
   label: Streamkap Topics API
   slug: streamkap-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/openapi/streamkap-topics-api-openapi.yml
+  url: https://artifacts.apis.io/streamkap/openapi/streamkap-topics-api-openapi.yml
 - filename: streamkap-transforms-api-openapi.yml
   format: yaml
   label: Streamkap Transforms API
   slug: streamkap-transforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/openapi/streamkap-transforms-api-openapi.yml
+  url: https://artifacts.apis.io/streamkap/openapi/streamkap-transforms-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -71,7 +71,7 @@ source_filename: streamkap-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: searched\nprobe: true\nsource: https://trust.streamkap.com/\nurl: https://trust.streamkap.com/\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://trust.streamkap.com/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/security/streamkap-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/streamkap/security/streamkap-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Streaming

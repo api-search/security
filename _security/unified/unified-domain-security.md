@@ -5,13 +5,13 @@ api_specs:
   label: Unified Health API
   slug: unified-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unified/refs/heads/main/openapi/unified-health-api-openapi.yml
+  url: https://artifacts.apis.io/unified/openapi/unified-health-api-openapi.yml
 - filename: unified-unified-mcp-service-api-openapi.yml
   format: yaml
   label: Unified Unified Mcp Service API
   slug: unified-unified-mcp-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unified/refs/heads/main/openapi/unified-unified-mcp-service-api-openapi.yml
+  url: https://artifacts.apis.io/unified/openapi/unified-unified-mcp-service-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: unified-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.unified.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 07:03:43 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.unified.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 30 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: unified.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unified/refs/heads/main/security/unified-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/unified/security/unified-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

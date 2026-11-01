@@ -5,49 +5,49 @@ api_specs:
   label: Infra Authentication API
   slug: infra-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/openapi/infra-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/infra/openapi/infra-authentication-api-openapi.yml
 - filename: infra-destinations-api-openapi.yml
   format: yaml
   label: Infra Destinations API
   slug: infra-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/openapi/infra-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/infra/openapi/infra-destinations-api-openapi.yml
 - filename: infra-grants-api-openapi.yml
   format: yaml
   label: Infra Grants API
   slug: infra-grants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/openapi/infra-grants-api-openapi.yml
+  url: https://artifacts.apis.io/infra/openapi/infra-grants-api-openapi.yml
 - filename: infra-groups-api-openapi.yml
   format: yaml
   label: Infra Groups API
   slug: infra-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/openapi/infra-groups-api-openapi.yml
+  url: https://artifacts.apis.io/infra/openapi/infra-groups-api-openapi.yml
 - filename: infra-organizations-api-openapi.yml
   format: yaml
   label: Infra Organizations API
   slug: infra-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/openapi/infra-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/infra/openapi/infra-organizations-api-openapi.yml
 - filename: infra-providers-api-openapi.yml
   format: yaml
   label: Infra Providers API
   slug: infra-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/openapi/infra-providers-api-openapi.yml
+  url: https://artifacts.apis.io/infra/openapi/infra-providers-api-openapi.yml
 - filename: infra-settings-api-openapi.yml
   format: yaml
   label: Infra Settings API
   slug: infra-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/openapi/infra-settings-api-openapi.yml
+  url: https://artifacts.apis.io/infra/openapi/infra-settings-api-openapi.yml
 - filename: infra-users-api-openapi.yml
   format: yaml
   label: Infra Users API
   slug: infra-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/openapi/infra-users-api-openapi.yml
+  url: https://artifacts.apis.io/infra/openapi/infra-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -79,7 +79,7 @@ source_filename: infra-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: infrahq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 21:53:46 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.infrahq.com\n  https: false\ndomains:\n- domain: infrahq.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/security/infra-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/infra/security/infra-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

@@ -8,43 +8,43 @@ api_specs:
   label: Crystal Reports Authentication API
   slug: crystal-reports-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/openapi/crystal-reports-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/crystal-reports/openapi/crystal-reports-authentication-api-openapi.yml
 - filename: crystal-reports-export-api-openapi.yml
   format: yaml
   label: Crystal Reports Export API
   slug: crystal-reports-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/openapi/crystal-reports-export-api-openapi.yml
+  url: https://artifacts.apis.io/crystal-reports/openapi/crystal-reports-export-api-openapi.yml
 - filename: crystal-reports-instances-api-openapi.yml
   format: yaml
   label: Crystal Reports Instances API
   slug: crystal-reports-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/openapi/crystal-reports-instances-api-openapi.yml
+  url: https://artifacts.apis.io/crystal-reports/openapi/crystal-reports-instances-api-openapi.yml
 - filename: crystal-reports-metadata-api-openapi.yml
   format: yaml
   label: Crystal Reports Metadata API
   slug: crystal-reports-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/openapi/crystal-reports-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/crystal-reports/openapi/crystal-reports-metadata-api-openapi.yml
 - filename: crystal-reports-reports-api-openapi.yml
   format: yaml
   label: Crystal Reports API
   slug: crystal-reports-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/openapi/crystal-reports-reports-api-openapi.yml
+  url: https://artifacts.apis.io/crystal-reports/openapi/crystal-reports-reports-api-openapi.yml
 - filename: crystal-reports-repository-api-openapi.yml
   format: yaml
   label: Crystal Reports Repository API
   slug: crystal-reports-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/openapi/crystal-reports-repository-api-openapi.yml
+  url: https://artifacts.apis.io/crystal-reports/openapi/crystal-reports-repository-api-openapi.yml
 - filename: crystal-reports-odata-api-openapi.yml
   format: yaml
   label: Crystal Reports O Data API
   slug: crystal-reports-odata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/openapi/crystal-reports-odata-api-openapi.yml
+  url: https://artifacts.apis.io/crystal-reports/openapi/crystal-reports-odata-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -79,7 +79,7 @@ source_filename: crystal-reports-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/crystal-reports-rest-api.yaml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: sapLogonToken\n  type: apiKey\n  in: header\n  parameter: X-SAP-LogonToken\n  description: SAP logon token obtained from the /logon/long endpoint. The token value must\n    be enclosed in double quotes when sent in the header.\n  sources:\n  - openapi/crystal-reports-rest-api.yaml\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication as an alternative to token-based auth\n  sources:\n  - openapi/crystal-reports-rest-api.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/authentication/crystal-reports-authentication.yml
+source_yaml_url: https://artifacts.apis.io/crystal-reports/authentication/crystal-reports-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Business Intelligence

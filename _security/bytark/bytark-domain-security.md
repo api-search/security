@@ -5,19 +5,19 @@ api_specs:
   label: ByteArk Live API
   slug: bytark-live-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytark/refs/heads/main/openapi/bytark-live-api-openapi.yml
+  url: https://artifacts.apis.io/bytark/openapi/bytark-live-api-openapi.yml
 - filename: bytark-uploads-api-openapi.yml
   format: yaml
   label: ByteArk Uploads API
   slug: bytark-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytark/refs/heads/main/openapi/bytark-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/bytark/openapi/bytark-uploads-api-openapi.yml
 - filename: bytark-videos-api-openapi.yml
   format: yaml
   label: ByteArk Videos API
   slug: bytark-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytark/refs/heads/main/openapi/bytark-videos-api-openapi.yml
+  url: https://artifacts.apis.io/bytark/openapi/bytark-videos-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: bytark-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.byteark.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 11:01:49 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: docs.byteark.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 07:01:43 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: stream.byteark.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 11:09:02 2026 GMT\n  hsts: false\ndomains:\n- domain: byteark.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bytark/refs/heads/main/security/bytark-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bytark/security/bytark-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Video

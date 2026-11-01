@@ -53,7 +53,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of the darrow.ai marketing, portal, platform and identity hosts\nhosts:\n- host: www.darrow.ai\n  role: marketing site (Webflow)\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 20:17:01 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: auth.darrow.ai\n  role: identity provider (Auth0 tenant)\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 16:32:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n- host: portal.darrow.ai\n  role: customer portal entry point\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 01:49:39 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: platform.darrow.ai\n  role: application host\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 15:11:28 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: darrow.ai\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record:\
   \ v=spf1 include:_spf.google.com include:45692213.spf02.hubspotemail.net include:amazonses.com\n    include:_spf.salesforce.com -all\n  dmarc: true\n  dmarc_policy: reject\nobservations:\n- Every host is TLS 1.3 with HSTS; the identity tenant additionally sets includeSubDomains.\n- No CAA record and no DNSSEC on darrow.ai — both are absent, not unprobed.\n- SPF ends in -all and DMARC policy is p=reject, which is a strong published email posture.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/darrow/refs/heads/main/security/darrow-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/darrow/security/darrow-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

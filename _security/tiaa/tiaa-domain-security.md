@@ -5,55 +5,55 @@ api_specs:
   label: TIAA Accounts API
   slug: tiaa-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/openapi/tiaa-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/tiaa/openapi/tiaa-accounts-api-openapi.yml
 - filename: tiaa-contributions-api-openapi.yml
   format: yaml
   label: TIAA Contributions API
   slug: tiaa-contributions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/openapi/tiaa-contributions-api-openapi.yml
+  url: https://artifacts.apis.io/tiaa/openapi/tiaa-contributions-api-openapi.yml
 - filename: tiaa-customer-api-openapi.yml
   format: yaml
   label: TIAA Customer API
   slug: tiaa-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/openapi/tiaa-customer-api-openapi.yml
+  url: https://artifacts.apis.io/tiaa/openapi/tiaa-customer-api-openapi.yml
 - filename: tiaa-investments-api-openapi.yml
   format: yaml
   label: TIAA Investments API
   slug: tiaa-investments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/openapi/tiaa-investments-api-openapi.yml
+  url: https://artifacts.apis.io/tiaa/openapi/tiaa-investments-api-openapi.yml
 - filename: tiaa-participants-api-openapi.yml
   format: yaml
   label: TIAA Participants API
   slug: tiaa-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/openapi/tiaa-participants-api-openapi.yml
+  url: https://artifacts.apis.io/tiaa/openapi/tiaa-participants-api-openapi.yml
 - filename: tiaa-plans-api-openapi.yml
   format: yaml
   label: TIAA Plans API
   slug: tiaa-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/openapi/tiaa-plans-api-openapi.yml
+  url: https://artifacts.apis.io/tiaa/openapi/tiaa-plans-api-openapi.yml
 - filename: tiaa-projections-api-openapi.yml
   format: yaml
   label: TIAA Projections API
   slug: tiaa-projections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/openapi/tiaa-projections-api-openapi.yml
+  url: https://artifacts.apis.io/tiaa/openapi/tiaa-projections-api-openapi.yml
 - filename: tiaa-tax-api-openapi.yml
   format: yaml
   label: TIAA Tax API
   slug: tiaa-tax-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/openapi/tiaa-tax-api-openapi.yml
+  url: https://artifacts.apis.io/tiaa/openapi/tiaa-tax-api-openapi.yml
 - filename: tiaa-transactions-api-openapi.yml
   format: yaml
   label: TIAA Transactions API
   slug: tiaa-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/openapi/tiaa-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/tiaa/openapi/tiaa-transactions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -94,7 +94,7 @@ source_filename: tiaa-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.tiaa.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 23:59:59 2026 GMT\n  hsts: null\n- host: www.tiaa.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 23:59:59 2026 GMT\n  hsts: null\n- host: api.tiaa.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: tiaa.org\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/security/tiaa-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tiaa/security/tiaa-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Finance

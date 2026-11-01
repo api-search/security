@@ -7,25 +7,25 @@ api_specs:
   label: Google Campaign Manager Ads API
   slug: google-campaign-manager-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/openapi/google-campaign-manager-ads-api-openapi.yml
+  url: https://artifacts.apis.io/google-campaign-manager/openapi/google-campaign-manager-ads-api-openapi.yml
 - filename: google-campaign-manager-campaigns-api-openapi.yml
   format: yaml
   label: Google Campaign Manager Campaigns API
   slug: google-campaign-manager-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/openapi/google-campaign-manager-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/google-campaign-manager/openapi/google-campaign-manager-campaigns-api-openapi.yml
 - filename: google-campaign-manager-placements-api-openapi.yml
   format: yaml
   label: Google Campaign Manager Placements API
   slug: google-campaign-manager-placements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/openapi/google-campaign-manager-placements-api-openapi.yml
+  url: https://artifacts.apis.io/google-campaign-manager/openapi/google-campaign-manager-placements-api-openapi.yml
 - filename: google-campaign-manager-reports-api-openapi.yml
   format: yaml
   label: Google Campaign Manager Reports API
   slug: google-campaign-manager-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/openapi/google-campaign-manager-reports-api-openapi.yml
+  url: https://artifacts.apis.io/google-campaign-manager/openapi/google-campaign-manager-reports-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://d
   \ receive a refresh\n          token; without it a long-running integration cannot re-authenticate.\n      - flow: jwt-bearer\n        description: >-\n          Service account with domain-wide delegation, impersonating a Google\n          Workspace user who holds a Campaign Manager 360 user profile. This is\n          the supported unattended path — a bare service account with no\n          delegation cannot see Campaign Manager data.\n        docs: https://developers.google.com/doubleclick-advertisers/service_accounts\n    token_presentation: 'Authorization: Bearer <access_token>'\n    alternative_parameters:\n      - access_token\n      - oauth_token\n    description: >-\n      OAuth 2.0 is the only way in. Google's global `key` query parameter is\n      accepted by the endpoint but does not authorise access to Campaign Manager\n      user data.\n    sources:\n      - https://developers.google.com/doubleclick-advertisers/authorizing\n      - openapi/google-campaign-manager-ads-api-openapi.yml\n\
   \      - openapi/google-campaign-manager-campaigns-api-openapi.yml\n      - openapi/google-campaign-manager-placements-api-openapi.yml\n      - openapi/google-campaign-manager-reports-api-openapi.yml\nauthorization_server:\n  issuer: https://accounts.google.com\n  metadata:\n    - url: https://accounts.google.com/.well-known/oauth-authorization-server\n      status: 200\n      file: well-known/google-campaign-manager-oauth-authorization-server.json\n    - url: https://accounts.google.com/.well-known/openid-configuration\n      status: 200\n      file: well-known/google-campaign-manager-openid-configuration.json\n  protected_resource_metadata:\n    url: https://dfareporting.googleapis.com/.well-known/oauth-protected-resource\n    status: 404\n    note: >-\n      RFC 9728 metadata is not served, so a client cannot discover the\n      authorization server from the API host.\nauthorization_model:\n  tenant_selector: profileId\n  note: >-\n    A valid token is not sufficient. Every data path\
   \ is\n    /userprofiles/{profileId}/..., and the profile determines which account and\n    which objects are visible. Resolve it with userProfiles.list, then treat it\n    as part of the credential.\n  role_model: >-\n    Fine-grained permissions live in Campaign Manager 360 user roles\n    (userRoles, userRolePermissions, accountPermissions), not in OAuth scopes.\n    The three scopes are coarse — there is no read-only scope.\nobserved:\n  - url: https://dfareporting.googleapis.com/dfareporting/v5/userprofiles\n    status: 401\n    body_status: UNAUTHENTICATED\n    reason: required\n    checked: '2026-08-13'\n    note: >-\n      The 401 response carries no WWW-Authenticate challenge pointing at the\n      authorization server; the error body names a documentation URL instead.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/authentication/google-campaign-manager-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-campaign-manager/authentication/google-campaign-manager-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Advertising

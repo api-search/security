@@ -26,7 +26,7 @@ source_filename: fabheads-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: fabheads.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 08:29:19 2026 GMT\n  hsts: false\ndomains:\n- domain: fabheads.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fabheads/refs/heads/main/security/fabheads-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fabheads/security/fabheads-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

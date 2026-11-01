@@ -11,31 +11,31 @@ api_specs:
   label: Wix Cart API
   slug: wix-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/openapi/wix-cart-api-openapi.yml
+  url: https://artifacts.apis.io/wix/openapi/wix-cart-api-openapi.yml
 - filename: wix-checkout-api-openapi.yml
   format: yaml
   label: Wix Checkout API
   slug: wix-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/openapi/wix-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/wix/openapi/wix-checkout-api-openapi.yml
 - filename: wix-orders-api-openapi.yml
   format: yaml
   label: Wix Orders API
   slug: wix-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/openapi/wix-orders-api-openapi.yml
+  url: https://artifacts.apis.io/wix/openapi/wix-orders-api-openapi.yml
 - filename: wix-products-api-openapi.yml
   format: yaml
   label: Wix Products API
   slug: wix-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/openapi/wix-products-api-openapi.yml
+  url: https://artifacts.apis.io/wix/openapi/wix-products-api-openapi.yml
 - filename: wix-oauth-api-openapi.yml
   format: yaml
   label: Wix O Auth API
   slug: wix-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/openapi/wix-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/wix/openapi/wix-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,7 +81,7 @@ source_filename: wix-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.wix.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 11:54:01 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: dev.wix.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 11:54:01 2026 GMT\n  hsts: true\n  hsts_max_age: 120\n- host: www.wixapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 11:14:54 2026 GMT\n  hsts: null\ndomains:\n- domain: wix.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: wixapis.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/security/wix-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wix/security/wix-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - CMS

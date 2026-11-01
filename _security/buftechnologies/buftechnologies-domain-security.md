@@ -5,13 +5,13 @@ api_specs:
   label: Buftechnologies Connectrpc API
   slug: buftechnologies-connectrpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buftechnologies/refs/heads/main/openapi/buftechnologies-connectrpc-api-openapi.yml
+  url: https://artifacts.apis.io/buftechnologies/openapi/buftechnologies-connectrpc-api-openapi.yml
 - filename: buftechnologies-foo-api-openapi.yml
   format: yaml
   label: Buftechnologies Foo API
   slug: buftechnologies-foo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buftechnologies/refs/heads/main/openapi/buftechnologies-foo-api-openapi.yml
+  url: https://artifacts.apis.io/buftechnologies/openapi/buftechnologies-foo-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,7 +41,7 @@ source_filename: buftechnologies-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: buf.build\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 02:06:32 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: buf.build\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buftechnologies/refs/heads/main/security/buftechnologies-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/buftechnologies/security/buftechnologies-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

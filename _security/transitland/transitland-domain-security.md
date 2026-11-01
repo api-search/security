@@ -5,55 +5,55 @@ api_specs:
   label: TransitLand Agencies API
   slug: transitland-agencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transitland/refs/heads/main/openapi/transitland-agencies-api-openapi.yml
+  url: https://artifacts.apis.io/transitland/openapi/transitland-agencies-api-openapi.yml
 - filename: transitland-feed-versions-api-openapi.yml
   format: yaml
   label: TransitLand Feed Versions API
   slug: transitland-feed-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transitland/refs/heads/main/openapi/transitland-feed-versions-api-openapi.yml
+  url: https://artifacts.apis.io/transitland/openapi/transitland-feed-versions-api-openapi.yml
 - filename: transitland-feeds-api-openapi.yml
   format: yaml
   label: TransitLand Feeds API
   slug: transitland-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transitland/refs/heads/main/openapi/transitland-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/transitland/openapi/transitland-feeds-api-openapi.yml
 - filename: transitland-onestop-id-api-openapi.yml
   format: yaml
   label: TransitLand Onestop Id API
   slug: transitland-onestop-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transitland/refs/heads/main/openapi/transitland-onestop-id-api-openapi.yml
+  url: https://artifacts.apis.io/transitland/openapi/transitland-onestop-id-api-openapi.yml
 - filename: transitland-operators-api-openapi.yml
   format: yaml
   label: TransitLand Operators API
   slug: transitland-operators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transitland/refs/heads/main/openapi/transitland-operators-api-openapi.yml
+  url: https://artifacts.apis.io/transitland/openapi/transitland-operators-api-openapi.yml
 - filename: transitland-routes-api-openapi.yml
   format: yaml
   label: TransitLand Routes API
   slug: transitland-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transitland/refs/heads/main/openapi/transitland-routes-api-openapi.yml
+  url: https://artifacts.apis.io/transitland/openapi/transitland-routes-api-openapi.yml
 - filename: transitland-stops-api-openapi.yml
   format: yaml
   label: TransitLand Stops API
   slug: transitland-stops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transitland/refs/heads/main/openapi/transitland-stops-api-openapi.yml
+  url: https://artifacts.apis.io/transitland/openapi/transitland-stops-api-openapi.yml
 - filename: transitland-street-routing-api-openapi.yml
   format: yaml
   label: TransitLand Street routing API
   slug: transitland-street-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transitland/refs/heads/main/openapi/transitland-street-routing-api-openapi.yml
+  url: https://artifacts.apis.io/transitland/openapi/transitland-street-routing-api-openapi.yml
 - filename: transitland-transit-routing-api-openapi.yml
   format: yaml
   label: TransitLand Transit routing API
   slug: transitland-transit-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transitland/refs/heads/main/openapi/transitland-transit-routing-api-openapi.yml
+  url: https://artifacts.apis.io/transitland/openapi/transitland-transit-routing-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: transitland-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.transit.land\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  8 14:04:29 2027 GMT\n  hsts: false\ndomains:\n- domain: transit.land\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transitland/refs/heads/main/security/transitland-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/transitland/security/transitland-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Transportation

@@ -8,31 +8,31 @@ api_specs:
   label: Shotstack Create API
   slug: shotstack-create-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shotstack/refs/heads/main/openapi/shotstack-create-api-openapi.yml
+  url: https://artifacts.apis.io/shotstack/openapi/shotstack-create-api-openapi.yml
 - filename: shotstack-edit-api-openapi.yml
   format: yaml
   label: Shotstack Edit API
   slug: shotstack-edit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shotstack/refs/heads/main/openapi/shotstack-edit-api-openapi.yml
+  url: https://artifacts.apis.io/shotstack/openapi/shotstack-edit-api-openapi.yml
 - filename: shotstack-ingest-api-openapi.yml
   format: yaml
   label: Shotstack Ingest API
   slug: shotstack-ingest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shotstack/refs/heads/main/openapi/shotstack-ingest-api-openapi.yml
+  url: https://artifacts.apis.io/shotstack/openapi/shotstack-ingest-api-openapi.yml
 - filename: shotstack-serve-api-openapi.yml
   format: yaml
   label: Shotstack Serve API
   slug: shotstack-serve-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shotstack/refs/heads/main/openapi/shotstack-serve-api-openapi.yml
+  url: https://artifacts.apis.io/shotstack/openapi/shotstack-serve-api-openapi.yml
 - filename: shotstack-templates-api-openapi.yml
   format: yaml
   label: Shotstack Templates API
   slug: shotstack-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shotstack/refs/heads/main/openapi/shotstack-templates-api-openapi.yml
+  url: https://artifacts.apis.io/shotstack/openapi/shotstack-templates-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: shotstack-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/shotstack-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: Developer API key. The same key set is used by all Shotstack APIs.\n  sources:\n  - openapi/shotstack-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shotstack/refs/heads/main/authentication/shotstack-authentication.yml
+source_yaml_url: https://artifacts.apis.io/shotstack/authentication/shotstack-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Video

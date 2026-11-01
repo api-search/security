@@ -8,7 +8,7 @@ api_specs:
   label: Kotoba Transcription API
   slug: kotoba-transcriptionapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kotoba/refs/heads/main/openapi/kotoba-transcriptionapi-api-openapi.yml
+  url: https://artifacts.apis.io/kotoba/openapi/kotoba-transcriptionapi-api-openapi.yml
 auth_types:
 - http
 - client-secret
@@ -71,7 +71,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/kotoba-asr-realtime-openapi-original.yml, openapi/kotoba-sts-realtime-openapi-original.yml,\n  openapi/kotoba-tts-realtime-openapi-original.yml\ndocs: https://docs.kotoba.tech/overview/authentication\nnotes: >-\n  Derived from the published securitySchemes, then upgraded from the docs auth\n  page. All Kotoba realtime APIs authenticate during the WebSocket handshake.\n  The docs describe a third, browser-oriented flow that is NOT expressed in any\n  published spec: mint a short-lived client secret server-side and pass it via\n  the Sec-WebSocket-Protocol subprotocol header. There is no OAuth 2.0 or OIDC\n  surface — `scopes/` is intentionally absent for this provider.\nsummary:\n  types:\n  - http\n  - client-secret\n  api_key_in: [header]\n  oauth2_flows: []\n  oauth2: false\n  openid_connect: false\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: |-\n    HTTP Bearer authentication. Pass\
   \ the Kotoba API key as a Bearer\n    token via the Authorization header. Server-side use only.\n  sources:\n  - openapi/kotoba-asr-realtime-openapi-original.yml\n  - openapi/kotoba-tts-realtime-openapi-original.yml\n- name: httpBasic\n  type: http\n  scheme: basic\n  description: |-\n    HTTP Basic authentication. Set device_id as the username and api_key\n    as the password. Send it via the Authorization header during the\n    WebSocket handshake.\n  sources:\n  - openapi/kotoba-sts-realtime-openapi-original.yml\n- name: browserClientSecret\n  type: client-secret\n  in: header\n  parameter: Sec-WebSocket-Protocol\n  format: 'realtime, kotoba-insecure-api-key.<CLIENT_SECRET>'\n  description: |-\n    Browser / client-side flow. Browsers cannot set arbitrary headers on a\n    WebSocket handshake, so the backend mints a short-lived client secret by\n    calling POST https://api.kotobatech.ai/v1/realtime/transcription_sessions,\n    passes it to the browser, and the browser supplies it through\
   \ the\n    Sec-WebSocket-Protocol header. Documented but not present in any published\n    spec. No browser-side SDK is available yet.\n  mint_endpoint: https://api.kotobatech.ai/v1/realtime/transcription_sessions\n  short_lived: true\n  sources:\n  - https://docs.kotoba.tech/overview/authentication\nguidance:\n  server_side_recommended: true\n  warning: Never embed long-lived API keys in browser-side code.\n  env_var: KOTOBA_API_KEY\n  sdk: kotoba-sdk (Python) reads KOTOBA_API_KEY from the environment by default\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kotoba/refs/heads/main/authentication/kotoba-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kotoba/authentication/kotoba-authentication.yml
 summary_line: http/client-secret · 3 schemes
 tags:
 - Company

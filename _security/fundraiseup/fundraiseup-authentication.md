@@ -7,31 +7,67 @@ api_specs:
   label: Fundraise Up Donations API
   slug: fundraiseup-donations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-donations-api-openapi.yml
-- filename: fundraiseup-donor-portal-api-openapi.yml
-  format: yaml
-  label: Fundraise Up Donor Portal API
-  slug: fundraiseup-donor-portal-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-donor-portal-api-openapi.yml
+  url: https://artifacts.apis.io/fundraiseup/openapi/fundraiseup-donations-api-openapi.yml
 - filename: fundraiseup-events-api-openapi.yml
   format: yaml
   label: Fundraise Up Events API
   slug: fundraiseup-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-events-api-openapi.yml
+  url: https://artifacts.apis.io/fundraiseup/openapi/fundraiseup-events-api-openapi.yml
 - filename: fundraiseup-recurring-plans-api-openapi.yml
   format: yaml
   label: Fundraise Up Recurring Plans API
   slug: fundraiseup-recurring-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-recurring-plans-api-openapi.yml
+  url: https://artifacts.apis.io/fundraiseup/openapi/fundraiseup-recurring-plans-api-openapi.yml
 - filename: fundraiseup-supporters-api-openapi.yml
   format: yaml
   label: Fundraise Up Supporters API
   slug: fundraiseup-supporters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-supporters-api-openapi.yml
+  url: https://artifacts.apis.io/fundraiseup/openapi/fundraiseup-supporters-api-openapi.yml
+- filename: fundraiseup-access-links-api-openapi.yml
+  format: yaml
+  label: Fundraise Up Access links API
+  slug: fundraiseup-access-links-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fundraiseup/openapi/fundraiseup-access-links-api-openapi.yml
+- filename: fundraiseup-campaigns-api-openapi.yml
+  format: yaml
+  label: Fundraise Up Campaigns API
+  slug: fundraiseup-campaigns-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fundraiseup/openapi/fundraiseup-campaigns-api-openapi.yml
+- filename: fundraiseup-designation-configurations-api-openapi.yml
+  format: yaml
+  label: Fundraise Up Designation configurations API
+  slug: fundraiseup-designation-configurations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fundraiseup/openapi/fundraiseup-designation-configurations-api-openapi.yml
+- filename: fundraiseup-designation-groups-api-openapi.yml
+  format: yaml
+  label: Fundraise Up Designation groups API
+  slug: fundraiseup-designation-groups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fundraiseup/openapi/fundraiseup-designation-groups-api-openapi.yml
+- filename: fundraiseup-designations-api-openapi.yml
+  format: yaml
+  label: Fundraise Up Designations API
+  slug: fundraiseup-designations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fundraiseup/openapi/fundraiseup-designations-api-openapi.yml
+- filename: fundraiseup-fundraisers-api-openapi.yml
+  format: yaml
+  label: Fundraise Up Fundraisers API
+  slug: fundraiseup-fundraisers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fundraiseup/openapi/fundraiseup-fundraisers-api-openapi.yml
+- filename: fundraiseup-upgrade-links-api-openapi.yml
+  format: yaml
+  label: Fundraise Up Upgrade links API
+  slug: fundraiseup-upgrade-links-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fundraiseup/openapi/fundraiseup-upgrade-links-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +94,7 @@ source_filename: fundraiseup-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fundraiseup-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: API key created in the dashboard under Settings > API keys, sent as a Bearer\n    token.\n  sources:\n  - openapi/fundraiseup-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/authentication/fundraiseup-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fundraiseup/authentication/fundraiseup-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Fundraising

@@ -5,43 +5,43 @@ api_specs:
   label: Amazon IoT Events Alarm Models API
   slug: amazon-iot-events-alarm-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/openapi/amazon-iot-events-alarm-models-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-events/openapi/amazon-iot-events-alarm-models-api-openapi.yml
 - filename: amazon-iot-events-analysis-api-openapi.yml
   format: yaml
   label: Amazon IoT Events Analysis API
   slug: amazon-iot-events-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/openapi/amazon-iot-events-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-events/openapi/amazon-iot-events-analysis-api-openapi.yml
 - filename: amazon-iot-events-detector-models-api-openapi.yml
   format: yaml
   label: Amazon IoT Events Detector Models API
   slug: amazon-iot-events-detector-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/openapi/amazon-iot-events-detector-models-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-events/openapi/amazon-iot-events-detector-models-api-openapi.yml
 - filename: amazon-iot-events-input-routings-api-openapi.yml
   format: yaml
   label: Amazon IoT Events Input Routings API
   slug: amazon-iot-events-input-routings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/openapi/amazon-iot-events-input-routings-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-events/openapi/amazon-iot-events-input-routings-api-openapi.yml
 - filename: amazon-iot-events-inputs-api-openapi.yml
   format: yaml
   label: Amazon IoT Events Inputs API
   slug: amazon-iot-events-inputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/openapi/amazon-iot-events-inputs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-events/openapi/amazon-iot-events-inputs-api-openapi.yml
 - filename: amazon-iot-events-logging-api-openapi.yml
   format: yaml
   label: Amazon IoT Events Logging API
   slug: amazon-iot-events-logging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/openapi/amazon-iot-events-logging-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-events/openapi/amazon-iot-events-logging-api-openapi.yml
 - filename: amazon-iot-events-tags-api-openapi.yml
   format: yaml
   label: Amazon IoT Events Tags API
   slug: amazon-iot-events-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/openapi/amazon-iot-events-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-events/openapi/amazon-iot-events-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -79,11 +79,12 @@ source_filename: amazon-iot-events-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: iotevents.amazonaws.com\n  https: false\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/security/amazon-iot-events-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amazon-iot-events/security/amazon-iot-events-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Event Detection
 - IoT
 - State Machine
 - Automation
+- Defunct
 ---

@@ -8,43 +8,43 @@ api_specs:
   label: MailerSend Bulk Email API
   slug: mailersend-bulk-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailersend/refs/heads/main/openapi/mailersend-bulk-email-api-openapi.yml
+  url: https://artifacts.apis.io/mailersend/openapi/mailersend-bulk-email-api-openapi.yml
 - filename: mailersend-domains-api-openapi.yml
   format: yaml
   label: MailerSend Domains API
   slug: mailersend-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailersend/refs/heads/main/openapi/mailersend-domains-api-openapi.yml
+  url: https://artifacts.apis.io/mailersend/openapi/mailersend-domains-api-openapi.yml
 - filename: mailersend-email-api-openapi.yml
   format: yaml
   label: MailerSend Email API
   slug: mailersend-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailersend/refs/heads/main/openapi/mailersend-email-api-openapi.yml
+  url: https://artifacts.apis.io/mailersend/openapi/mailersend-email-api-openapi.yml
 - filename: mailersend-messages-api-openapi.yml
   format: yaml
   label: MailerSend Messages API
   slug: mailersend-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailersend/refs/heads/main/openapi/mailersend-messages-api-openapi.yml
+  url: https://artifacts.apis.io/mailersend/openapi/mailersend-messages-api-openapi.yml
 - filename: mailersend-sender-identities-api-openapi.yml
   format: yaml
   label: MailerSend Sender Identities API
   slug: mailersend-sender-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailersend/refs/heads/main/openapi/mailersend-sender-identities-api-openapi.yml
+  url: https://artifacts.apis.io/mailersend/openapi/mailersend-sender-identities-api-openapi.yml
 - filename: mailersend-templates-api-openapi.yml
   format: yaml
   label: MailerSend Templates API
   slug: mailersend-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailersend/refs/heads/main/openapi/mailersend-templates-api-openapi.yml
+  url: https://artifacts.apis.io/mailersend/openapi/mailersend-templates-api-openapi.yml
 - filename: mailersend-webhooks-api-openapi.yml
   format: yaml
   label: MailerSend Webhooks API
   slug: mailersend-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailersend/refs/heads/main/openapi/mailersend-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/mailersend/openapi/mailersend-webhooks-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/_origin
   \ list.\n    scoped: true\n    scopes: scopes/mailersend-scopes.yml\n    rotation: 'Tokens can be paused/unpaused (PUT /v1/token/{token_id}) and deleted; no automatic expiry is documented.'\n    docs: https://developers.mailersend.com/api/v1/account/tokens\n    sources:\n      - openapi/_original/mailersend-openapi.yml\n      - https://developers.mailersend.com/general\n  - name: MCPOAuth\n    type: oauth2\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://mcp.mailersend.com/authorize\n        tokenUrl: https://mcp.mailersend.com/token\n        registrationUrl: https://mcp.mailersend.com/register\n        refresh: true\n        pkce: [S256]\n    description: >-\n      OAuth 2.1 authorization server protecting the MailerSend MCP server. Supports RFC 7591 dynamic\n      client registration, PKCE S256, and both authorization_code and refresh_token grants. Discovery via\n      RFC 8414 (/.well-known/oauth-authorization-server) and RFC 9728\n      (/.well-known/oauth-protected-resource).\n\
   \    token_endpoint_auth_methods: [client_secret_basic, client_secret_post, none]\n    applies_to: https://mcp.mailersend.com/mcp\n    sources:\n      - well-known/mailersend-oauth-authorization-server.json\n      - well-known/mailersend-oauth-protected-resource.json\n  - name: SMTPCredentials\n    type: smtp-basic\n    description: >-\n      SMTP relay users with their own username/password, managed independently of API tokens via the SMTP\n      Users endpoints. Same daily quota and a 120 req/min throttle apply.\n    docs: https://developers.mailersend.com/api/v1/email/smtp-relay\n    sources:\n      - https://developers.mailersend.com/api/v1/account/smtp-users\ncli_authentication:\n  methods: [oauth, api-token]\n  default: oauth\n  commands: ['mailersend auth login', 'mailersend auth login --method token', 'mailersend auth status', 'mailersend auth logout']\n  env_var: MAILERSEND_API_TOKEN\n  resolution_order: 'MAILERSEND_API_TOKEN env var > --profile flag > active profile > first profile'\n\
   \  refresh: 'OAuth tokens are automatically refreshed when they expire.'\n  docs: https://developers.mailersend.com/tools/cli\ncredential_leak_guidance:\n  documented: true\n  url: https://developers.mailersend.com/guides/remediation-of-credential-leaks-api-token-and-smtp\n  note: >-\n    MailerSend publishes a dedicated remediation guide for leaked API tokens and SMTP credentials — an\n    uncommon and genuinely useful piece of operational documentation.\nerrors:\n  '401': The provided API token is invalid.\n  '403': Action denied for the account or the token.\n  MS40301: The custom API token does not have the required permissions.\n  MS40302: The account's API/SMTP access has been switched off by support.\n  MS40305: The requesting IP address is not allowlisted.\nip_allowlisting:\n  supported: true\n  note: Accounts may restrict API access to allowlisted IP addresses; violations return MS40305.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mailersend/refs/heads/main/authentication/mailersend-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mailersend/authentication/mailersend-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Email

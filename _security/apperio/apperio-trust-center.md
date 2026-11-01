@@ -5,31 +5,31 @@ api_specs:
   label: Apperio Analytics API
   slug: apperio-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/openapi/apperio-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/apperio/openapi/apperio-analytics-api-openapi.yml
 - filename: apperio-e-billing-api-openapi.yml
   format: yaml
   label: Apperio E-billing API
   slug: apperio-e-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/openapi/apperio-e-billing-api-openapi.yml
+  url: https://artifacts.apis.io/apperio/openapi/apperio-e-billing-api-openapi.yml
 - filename: apperio-filter-api-openapi.yml
   format: yaml
   label: Apperio Filter API
   slug: apperio-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/openapi/apperio-filter-api-openapi.yml
+  url: https://artifacts.apis.io/apperio/openapi/apperio-filter-api-openapi.yml
 - filename: apperio-matter-information-api-openapi.yml
   format: yaml
   label: Apperio Matter information API
   slug: apperio-matter-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/openapi/apperio-matter-information-api-openapi.yml
+  url: https://artifacts.apis.io/apperio/openapi/apperio-matter-information-api-openapi.yml
 - filename: apperio-users-api-openapi.yml
   format: yaml
   label: Apperio Users API
   slug: apperio-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/openapi/apperio-users-api-openapi.yml
+  url: https://artifacts.apis.io/apperio/openapi/apperio-users-api-openapi.yml
 certification_count: 3
 certifications:
 - ISO/IEC 27001
@@ -49,13 +49,12 @@ source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://www.apperio.com/information-security\nurl: https://www.apperio.com/information-security\ndescription: >-\n  Apperio publishes its information-security posture and named certifications on\n  its Information Security page. Independently audited certifications cover an\n  ISO 27001 ISMS, SOC 2 Type 2, and UK Cyber Essentials.\ncertifications:\n  - name: ISO/IEC 27001\n    detail: Certificate number 23430; Information Security Management System, audited by ISOQAR.\n  - name: SOC 2 Type 2\n    detail: AICPA SOC 2 Type 2 attestation achieved March 2021 and each year since; independently audited annually.\n  - name: Cyber Essentials\n    detail: Complies with the UK Government's Cyber Essentials scheme, audited by external experts.\nevidence:\n  - source: https://www.apperio.com/information-security\n    keywords: [iso 27001, soc 2 type 2, cyber essentials, information security management]\nsecurity_contact: null\nvulnerability_disclosure:\
   \ null\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/security/apperio-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/apperio/security/apperio-trust-center.yml
 summary_line: ISO/IEC 27001, SOC 2 Type 2, Cyber Essentials
 tags:
 - Legal
-- Legal Spend Management
-- Legal Tech
 - E-Billing
+- Legal Tech
 - Matter Management
 - Legal Operations
 - Analytics

@@ -40,7 +40,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://docs.sphinx.ai/cli-documentation/authentication\ndocs: https://docs.sphinx.ai/cli-documentation/authentication\ndescription: >-\n  Sphinx authenticates developers to its platform two ways. No public OpenAPI is\n  published, so this profile is searched from the docs rather than derived from a\n  spec.\nsummary:\n  types: [apiKey, http-bearer-jwt]\n  api_key_in: [env]\n  api_key_prefix: \"sk-\"\nschemes:\n  - name: ApiKey\n    type: apiKey\n    in: env\n    env_var: SPHINX_API_KEY\n    prefix: \"sk-\"\n    description: >-\n      API key obtained from the Sphinx Dashboard account settings. Stored in the\n      SPHINX_API_KEY environment variable; the CLI uses it automatically when set,\n      bypassing interactive login.\n    obtain: https://dashboard.prod.sphinx.ai\n    sources: [https://docs.sphinx.ai/cli-documentation/authentication]\n  - name: JWTLogin\n    type: http\n    scheme: bearer\n    bearerFormat: JWT\n  \
   \  description: >-\n      Interactive login via `sphinx-cli auth login`, which persists a token in a\n      ~/.sphinx directory. Token must be renewed every 30 days.\n    sources: [https://docs.sphinx.ai/cli-documentation/authentication]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sphinx/refs/heads/main/authentication/sphinx-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sphinx/authentication/sphinx-authentication.yml
 summary_line: apiKey/http-bearer-jwt · 2 schemes
 tags:
 - Company

@@ -29,7 +29,7 @@ source_filename: filmtrack-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: filmtrack.com\n  https: false\ndomains:\n- domain: filmtrack.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issuewild \"amazontrust.com\"\n  - 0 issuewild \"awstrust.com\"\n  - 0 issuewild \"godaddy.com\"\n  - 0 issuewild \"pki.goog\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/filmtrack/refs/heads/main/security/filmtrack-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/filmtrack/security/filmtrack-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

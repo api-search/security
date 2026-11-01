@@ -5,43 +5,43 @@ api_specs:
   label: Striim Application API
   slug: striim-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/striim/refs/heads/main/openapi/striim-application-api-openapi.yml
+  url: https://artifacts.apis.io/striim/openapi/striim-application-api-openapi.yml
 - filename: striim-applicationmetadata-api-openapi.yml
   format: yaml
   label: Striim Application Metadata API
   slug: striim-applicationmetadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/striim/refs/heads/main/openapi/striim-applicationmetadata-api-openapi.yml
+  url: https://artifacts.apis.io/striim/openapi/striim-applicationmetadata-api-openapi.yml
 - filename: striim-checkpoint-api-openapi.yml
   format: yaml
   label: Striim Checkpoint API
   slug: striim-checkpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/striim/refs/heads/main/openapi/striim-checkpoint-api-openapi.yml
+  url: https://artifacts.apis.io/striim/openapi/striim-checkpoint-api-openapi.yml
 - filename: striim-monitoring-api-openapi.yml
   format: yaml
   label: Striim Monitoring API
   slug: striim-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/striim/refs/heads/main/openapi/striim-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/striim/openapi/striim-monitoring-api-openapi.yml
 - filename: striim-template-api-openapi.yml
   format: yaml
   label: Striim Template API
   slug: striim-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/striim/refs/heads/main/openapi/striim-template-api-openapi.yml
+  url: https://artifacts.apis.io/striim/openapi/striim-template-api-openapi.yml
 - filename: striim-tqlfiles-api-openapi.yml
   format: yaml
   label: Striim Tqlfiles API
   slug: striim-tqlfiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/striim/refs/heads/main/openapi/striim-tqlfiles-api-openapi.yml
+  url: https://artifacts.apis.io/striim/openapi/striim-tqlfiles-api-openapi.yml
 - filename: striim-tungsten-api-openapi.yml
   format: yaml
   label: Striim Tungsten API
   slug: striim-tungsten-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/striim/refs/heads/main/openapi/striim-tungsten-api-openapi.yml
+  url: https://artifacts.apis.io/striim/openapi/striim-tungsten-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -77,7 +77,7 @@ source_filename: striim-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: striim.stoplight.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 04:59:02 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: stoplight.io\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/striim/refs/heads/main/security/striim-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/striim/security/striim-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data

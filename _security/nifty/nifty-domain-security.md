@@ -5,55 +5,55 @@ api_specs:
   label: Nifty Authentication API
   slug: nifty-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nifty/refs/heads/main/openapi/nifty-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/nifty/openapi/nifty-authentication-api-openapi.yml
 - filename: nifty-documents-api-openapi.yml
   format: yaml
   label: Nifty Documents API
   slug: nifty-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nifty/refs/heads/main/openapi/nifty-documents-api-openapi.yml
+  url: https://artifacts.apis.io/nifty/openapi/nifty-documents-api-openapi.yml
 - filename: nifty-files-api-openapi.yml
   format: yaml
   label: Nifty Files API
   slug: nifty-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nifty/refs/heads/main/openapi/nifty-files-api-openapi.yml
+  url: https://artifacts.apis.io/nifty/openapi/nifty-files-api-openapi.yml
 - filename: nifty-folders-api-openapi.yml
   format: yaml
   label: Nifty Folders API
   slug: nifty-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nifty/refs/heads/main/openapi/nifty-folders-api-openapi.yml
+  url: https://artifacts.apis.io/nifty/openapi/nifty-folders-api-openapi.yml
 - filename: nifty-members-api-openapi.yml
   format: yaml
   label: Nifty Members API
   slug: nifty-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nifty/refs/heads/main/openapi/nifty-members-api-openapi.yml
+  url: https://artifacts.apis.io/nifty/openapi/nifty-members-api-openapi.yml
 - filename: nifty-milestones-api-openapi.yml
   format: yaml
   label: Nifty Milestones API
   slug: nifty-milestones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nifty/refs/heads/main/openapi/nifty-milestones-api-openapi.yml
+  url: https://artifacts.apis.io/nifty/openapi/nifty-milestones-api-openapi.yml
 - filename: nifty-projects-api-openapi.yml
   format: yaml
   label: Nifty Projects API
   slug: nifty-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nifty/refs/heads/main/openapi/nifty-projects-api-openapi.yml
+  url: https://artifacts.apis.io/nifty/openapi/nifty-projects-api-openapi.yml
 - filename: nifty-tasks-api-openapi.yml
   format: yaml
   label: Nifty Tasks API
   slug: nifty-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nifty/refs/heads/main/openapi/nifty-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/nifty/openapi/nifty-tasks-api-openapi.yml
 - filename: nifty-webhooks-api-openapi.yml
   format: yaml
   label: Nifty Webhooks API
   slug: nifty-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nifty/refs/heads/main/openapi/nifty-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/nifty/openapi/nifty-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -98,7 +98,7 @@ source_filename: nifty-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: niftypm.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 23:59:59 2026 GMT\n  hsts: false\n- host: developers.niftypm.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 03:43:08 2026 GMT\n  hsts: true\n  hsts_max_age: 0\n- host: openapi.niftypm.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  5 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: niftypm.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nifty/refs/heads/main/security/nifty-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nifty/security/nifty-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Project Management

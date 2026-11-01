@@ -8,55 +8,55 @@ api_specs:
   label: Brandtrack Accounts API
   slug: brandtrack-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/openapi/brandtrack-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/brandtrack/openapi/brandtrack-accounts-api-openapi.yml
 - filename: brandtrack-groups-api-openapi.yml
   format: yaml
   label: Brandtrack Groups API
   slug: brandtrack-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/openapi/brandtrack-groups-api-openapi.yml
+  url: https://artifacts.apis.io/brandtrack/openapi/brandtrack-groups-api-openapi.yml
 - filename: brandtrack-locations-api-openapi.yml
   format: yaml
   label: Brandtrack Locations API
   slug: brandtrack-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/openapi/brandtrack-locations-api-openapi.yml
+  url: https://artifacts.apis.io/brandtrack/openapi/brandtrack-locations-api-openapi.yml
 - filename: brandtrack-other-api-openapi.yml
   format: yaml
   label: Brandtrack Other API
   slug: brandtrack-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/openapi/brandtrack-other-api-openapi.yml
+  url: https://artifacts.apis.io/brandtrack/openapi/brandtrack-other-api-openapi.yml
 - filename: brandtrack-partner-api-openapi.yml
   format: yaml
   label: Brandtrack Partner API
   slug: brandtrack-partner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/openapi/brandtrack-partner-api-openapi.yml
+  url: https://artifacts.apis.io/brandtrack/openapi/brandtrack-partner-api-openapi.yml
 - filename: brandtrack-roles-api-openapi.yml
   format: yaml
   label: Brandtrack Roles API
   slug: brandtrack-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/openapi/brandtrack-roles-api-openapi.yml
+  url: https://artifacts.apis.io/brandtrack/openapi/brandtrack-roles-api-openapi.yml
 - filename: brandtrack-subscriptions-api-openapi.yml
   format: yaml
   label: Brandtrack Subscriptions API
   slug: brandtrack-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/openapi/brandtrack-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/brandtrack/openapi/brandtrack-subscriptions-api-openapi.yml
 - filename: brandtrack-users-api-openapi.yml
   format: yaml
   label: Brandtrack Users API
   slug: brandtrack-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/openapi/brandtrack-users-api-openapi.yml
+  url: https://artifacts.apis.io/brandtrack/openapi/brandtrack-users-api-openapi.yml
 - filename: brandtrack-zones-api-openapi.yml
   format: yaml
   label: Brandtrack Zones API
   slug: brandtrack-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/openapi/brandtrack-zones-api-openapi.yml
+  url: https://artifacts.apis.io/brandtrack/openapi/brandtrack-zones-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -110,7 +110,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/brandtrack-openapi-original.yml + https://api.brandtrack.fm/.well-known/oauth-authorization-server\ndocs: https://developers.brandtrack.ai/\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: default\n  type: apiKey\n  in: header\n  parameter: x-customer-api-key\n  description: >-\n    Primary REST auth. Include an x-customer-api-key header on every authenticated\n    request. Contact the Brandtrack team to obtain a key.\n  sources:\n  - openapi/brandtrack-openapi-original.yml\n- name: partner-key\n  type: apiKey\n  in: header\n  parameter: X-Partner-Key\n  description: Key used for the /partner/* endpoints (account registration, user token minting).\n  sources:\n  - https://developers.brandtrack.ai/\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.brandtrack.fm/oauth/authorize\n   \
   \ tokenUrl: https://api.brandtrack.fm/oauth/token\n    revocationUrl: https://api.brandtrack.fm/oauth/revoke\n    pkce: S256\n    grant_types: [authorization_code, refresh_token]\n    scopes: [mcp]\n  description: >-\n    OAuth 2.0 authorization server discovered via RFC 8414 metadata at\n    api.brandtrack.fm (.well-known/oauth-authorization-server). PKCE S256 required,\n    single \"mcp\" scope — guards an MCP/agent access path. Not yet in the human docs.\n  sources:\n  - https://api.brandtrack.fm/.well-known/oauth-authorization-server\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/authentication/brandtrack-authentication.yml
+source_yaml_url: https://artifacts.apis.io/brandtrack/authentication/brandtrack-authentication.yml
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - Company

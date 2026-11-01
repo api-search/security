@@ -8,73 +8,73 @@ api_specs:
   label: Paubox Analytics API
   slug: paubox-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/paubox/openapi/paubox-analytics-api-openapi.yml
 - filename: paubox-campaign-mailings-api-openapi.yml
   format: yaml
   label: Paubox Campaign Mailings API
   slug: paubox-campaign-mailings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-campaign-mailings-api-openapi.yml
+  url: https://artifacts.apis.io/paubox/openapi/paubox-campaign-mailings-api-openapi.yml
 - filename: paubox-drip-campaigns-api-openapi.yml
   format: yaml
   label: Paubox Drip Campaigns API
   slug: paubox-drip-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-drip-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/paubox/openapi/paubox-drip-campaigns-api-openapi.yml
 - filename: paubox-dynamic-templates-api-openapi.yml
   format: yaml
   label: Paubox Dynamic Templates API
   slug: paubox-dynamic-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-dynamic-templates-api-openapi.yml
+  url: https://artifacts.apis.io/paubox/openapi/paubox-dynamic-templates-api-openapi.yml
 - filename: paubox-form-management-api-openapi.yml
   format: yaml
   label: Paubox Form management API
   slug: paubox-form-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-form-management-api-openapi.yml
+  url: https://artifacts.apis.io/paubox/openapi/paubox-form-management-api-openapi.yml
 - filename: paubox-forms-api-openapi.yml
   format: yaml
   label: Paubox Forms API
   slug: paubox-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-forms-api-openapi.yml
+  url: https://artifacts.apis.io/paubox/openapi/paubox-forms-api-openapi.yml
 - filename: paubox-messages-api-openapi.yml
   format: yaml
   label: Paubox Messages API
   slug: paubox-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-messages-api-openapi.yml
+  url: https://artifacts.apis.io/paubox/openapi/paubox-messages-api-openapi.yml
 - filename: paubox-submissions-api-openapi.yml
   format: yaml
   label: Paubox Submissions API
   slug: paubox-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/paubox/openapi/paubox-submissions-api-openapi.yml
 - filename: paubox-subscribers-api-openapi.yml
   format: yaml
   label: Paubox Subscribers API
   slug: paubox-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/paubox/openapi/paubox-subscribers-api-openapi.yml
 - filename: paubox-subscription-lists-api-openapi.yml
   format: yaml
   label: Paubox Subscription Lists API
   slug: paubox-subscription-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-subscription-lists-api-openapi.yml
+  url: https://artifacts.apis.io/paubox/openapi/paubox-subscription-lists-api-openapi.yml
 - filename: paubox-subscriptions-api-openapi.yml
   format: yaml
   label: Paubox Subscriptions API
   slug: paubox-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/paubox/openapi/paubox-subscriptions-api-openapi.yml
 - filename: paubox-tracking-links-api-openapi.yml
   format: yaml
   label: Paubox Tracking Links API
   slug: paubox-tracking-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-tracking-links-api-openapi.yml
+  url: https://artifacts.apis.io/paubox/openapi/paubox-tracking-links-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -166,7 +166,7 @@ source_yaml: "generated: '2026-08-26'\nmethod: searched\nsource: >-\n  https://d
   \ control.\n    sources:\n      - openapi/paubox-forms-api-openapi.yaml\n  - name: TokenAuth\n    api: Paubox Marketing API\n    type: apiKey\n    in: header\n    parameter: authorization\n    format: 'Authorization: Token token=<API_KEY>'\n    docs: https://docs.paubox.com/marketing\n    note: >-\n      Bearer is not documented for Marketing. Marketing is a separately purchased plan, so\n      an Email API key will not necessarily work here.\n    sources:\n      - openapi/paubox-marketing-api-openapi.yaml\n  - name: SMTP\n    api: Paubox Email API (SMTP transport)\n    type: http\n    scheme: basic\n    host: smtp.paubox.com\n    port: 587\n    username: apikey\n    password: your Paubox API key\n    docs: https://docs.paubox.com/email-api/smtp\n  - name: MCP OAuth\n    api: Paubox MCP Server\n    type: oauth2\n    issuer: https://mcp.paubox.com\n    authorization_endpoint: https://mcp.paubox.com/oauth/authorize\n    token_endpoint: https://mcp.paubox.com/oauth/token\n    registration_endpoint:\
   \ https://mcp.paubox.com/register\n    response_types_supported: [code]\n    grant_types_supported: [authorization_code, refresh_token]\n    code_challenge_methods_supported: [S256]\n    token_endpoint_auth_methods_supported: [none]\n    scopes_supported: null\n    scopes_note: >-\n      The authorization-server metadata declares NO scopes_supported, so there is no\n      published OAuth scope vocabulary. This is why no scopes/ artifact is emitted.\n    alternatives:\n      - 'x-paubox-api-key: <api key> request header'\n      - PAUBOX_API_KEY environment variable (stdio transport)\n      - optional apiKey parameter on every tool (HTTP transport only)\n    docs: https://docs.paubox.com/mcp-server/authentication\n    discovery: well-known/paubox-mcp-oauth-authorization-server.json\n\nkey_management:\n  rotation: >-\n    Each domain can hold multiple active keys, so rotation is: create the new key, cut\n    traffic over, then revoke the old one.\n  revocation: Provider advises immediate\
   \ revocation on exposure or staff departure.\n  storage_guidance: >-\n    Provider warns against committing keys to source control and recommends environment\n    variables or a secrets manager. The CLI stores credentials in the OS keychain, falling\n    back to ~/.config/paubox/config.json at 0600.\n\ngaps:\n  - No OAuth, no scopes and no token exchange on any of the three REST APIs.\n  - >-\n    No scope vocabulary published for the MCP OAuth server either — scopes_supported is\n    absent from the authorization-server metadata.\n  - >-\n    Three different header conventions across three APIs on one host, with no shared\n    documentation page reconciling them.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/authentication/paubox-authentication.yml
+source_yaml_url: https://artifacts.apis.io/paubox/authentication/paubox-authentication.yml
 summary_line: apiKey/http/oauth2 · 5 schemes
 tags:
 - Email

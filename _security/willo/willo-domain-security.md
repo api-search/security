@@ -5,55 +5,55 @@ api_specs:
   label: Willo Child Organisations API
   slug: willo-child-organisations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/willo/refs/heads/main/openapi/willo-child-organisations-api-openapi.yml
+  url: https://artifacts.apis.io/willo/openapi/willo-child-organisations-api-openapi.yml
 - filename: willo-departments-api-openapi.yml
   format: yaml
   label: Willo Departments API
   slug: willo-departments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/willo/refs/heads/main/openapi/willo-departments-api-openapi.yml
+  url: https://artifacts.apis.io/willo/openapi/willo-departments-api-openapi.yml
 - filename: willo-interview-templates-api-openapi.yml
   format: yaml
   label: Willo Interview Templates API
   slug: willo-interview-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/willo/refs/heads/main/openapi/willo-interview-templates-api-openapi.yml
+  url: https://artifacts.apis.io/willo/openapi/willo-interview-templates-api-openapi.yml
 - filename: willo-interviews-api-openapi.yml
   format: yaml
   label: Willo Interviews API
   slug: willo-interviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/willo/refs/heads/main/openapi/willo-interviews-api-openapi.yml
+  url: https://artifacts.apis.io/willo/openapi/willo-interviews-api-openapi.yml
 - filename: willo-message-templates-api-openapi.yml
   format: yaml
   label: Willo Message Templates API
   slug: willo-message-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/willo/refs/heads/main/openapi/willo-message-templates-api-openapi.yml
+  url: https://artifacts.apis.io/willo/openapi/willo-message-templates-api-openapi.yml
 - filename: willo-participants-api-openapi.yml
   format: yaml
   label: Willo Participants API
   slug: willo-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/willo/refs/heads/main/openapi/willo-participants-api-openapi.yml
+  url: https://artifacts.apis.io/willo/openapi/willo-participants-api-openapi.yml
 - filename: willo-reference-api-openapi.yml
   format: yaml
   label: Willo Reference API
   slug: willo-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/willo/refs/heads/main/openapi/willo-reference-api-openapi.yml
+  url: https://artifacts.apis.io/willo/openapi/willo-reference-api-openapi.yml
 - filename: willo-users-api-openapi.yml
   format: yaml
   label: Willo Users API
   slug: willo-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/willo/refs/heads/main/openapi/willo-users-api-openapi.yml
+  url: https://artifacts.apis.io/willo/openapi/willo-users-api-openapi.yml
 - filename: willo-webhooks-api-openapi.yml
   format: yaml
   label: Willo Webhooks API
   slug: willo-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/willo/refs/heads/main/openapi/willo-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/willo/openapi/willo-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -111,7 +111,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.willo.video\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 12:27:02 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: documenter.getpostman.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 04:02:05 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.willotalent.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 23:21:06 2026 GMT\n  hsts: null\ndomains:\n- domain: willo.video\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \";\"\n  - 0 iodef \"mailto:support@corewide.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: getpostman.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 iodef \"mailto:security@postman.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  -\
   \ 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/willo/refs/heads/main/security/willo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/willo/security/willo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Video Interviewing

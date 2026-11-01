@@ -7,13 +7,13 @@ api_specs:
   label: Orange Device Phone Number API
   slug: orange-device-phone-number-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orange/refs/heads/main/openapi/orange-device-phone-number-api-openapi.yml
+  url: https://artifacts.apis.io/orange/openapi/orange-device-phone-number-api-openapi.yml
 - filename: orange-verify-api-openapi.yml
   format: yaml
   label: Orange Verify API
   slug: orange-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orange/refs/heads/main/openapi/orange-verify-api-openapi.yml
+  url: https://artifacts.apis.io/orange/openapi/orange-verify-api-openapi.yml
 auth_types:
 - openIdConnect
 description: ''
@@ -39,7 +39,7 @@ source_filename: orange-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/orange-openapi.yml\nsummary:\n  types:\n  - openIdConnect\nschemes:\n- name: openId\n  type: openIdConnect\n  openIdConnectUrl: https://api.orange.com/.well-known/openid-configuration\n  sources:\n  - openapi/orange-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orange/refs/heads/main/authentication/orange-authentication.yml
+source_yaml_url: https://artifacts.apis.io/orange/authentication/orange-authentication.yml
 summary_line: openIdConnect · 1 scheme
 tags:
 - Networks

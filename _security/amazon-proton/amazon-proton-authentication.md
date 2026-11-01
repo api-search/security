@@ -8,7 +8,13 @@ api_specs:
   label: Amazon Proton AWS Proton API
   slug: amazon-proton-aws-proton-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/openapi/amazon-proton-aws-proton-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-proton/openapi/amazon-proton-aws-proton-api-openapi.yml
+- filename: amazon-proton-deployment-api-openapi.yml
+  format: yaml
+  label: Amazon Proton Proton Deployment API
+  slug: amazon-proton-deployment-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-proton/openapi/amazon-proton-deployment-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +42,7 @@ source_filename: amazon-proton-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-proton-openapi-original.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-proton-openapi-original.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/authentication/amazon-proton-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-proton/authentication/amazon-proton-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - DevOps

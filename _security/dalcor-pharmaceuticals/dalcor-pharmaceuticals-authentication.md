@@ -27,7 +27,7 @@ source_filename: dalcor-pharmaceuticals-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: derived\nsource: openapi/dalcor-pharmaceuticals-content-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: applicationPassword\n  type: http\n  scheme: basic\n  description: WordPress Application Passwords (RFC 7617 Basic over TLS). Required only for\n    write and administrative routes, which are out of scope for this document — every operation\n    modelled here returns 200 anonymously.\n  sources:\n  - openapi/dalcor-pharmaceuticals-content-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dalcor-pharmaceuticals/refs/heads/main/authentication/dalcor-pharmaceuticals-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dalcor-pharmaceuticals/authentication/dalcor-pharmaceuticals-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

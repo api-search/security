@@ -7,7 +7,7 @@ api_specs:
   label: Walrus Protocol Routes API
   slug: walrus-protocol-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walrus-protocol/refs/heads/main/openapi/walrus-protocol-routes-api-openapi.yml
+  url: https://artifacts.apis.io/walrus-protocol/openapi/walrus-protocol-routes-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -27,7 +27,7 @@ source_filename: walrus-protocol-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/walrus-protocol-aggregator-openapi.json, openapi/walrus-protocol-publisher-openapi.json, https://docs.wal.app/\nsummary:\n  types: []\n  api_key_in: []\n  oauth2_flows: []\n  model: none-by-default\nschemes: []\nnotes: >\n  Neither the Walrus Aggregator nor the Walrus Publisher OpenAPI declares any\n  securityScheme — the public HTTP daemons are unauthenticated. Reads (aggregator)\n  are open. Writes (publisher) cost WAL/SUI, so public publishers are best-effort\n  and rate/size limited; operators who run their own publisher typically gate it\n  behind their own layer (e.g. a JWT-authenticated upload relay) rather than a\n  Walrus-native auth scheme. On-chain operations (registering/certifying blobs,\n  paying with WAL) are authorized by Sui wallet signatures, not by an HTTP API key.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/walrus-protocol/refs/heads/main/authentication/walrus-protocol-authentication.yml
+source_yaml_url: https://artifacts.apis.io/walrus-protocol/authentication/walrus-protocol-authentication.yml
 summary_line: 0 schemes
 tags:
 - Company

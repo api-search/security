@@ -27,7 +27,7 @@ source_filename: aquafortus-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aquafortus.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 04:53:19 2026 GMT\n  hsts: false\ndomains:\n- domain: aquafortus.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aquafortus/refs/heads/main/security/aquafortus-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aquafortus/security/aquafortus-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

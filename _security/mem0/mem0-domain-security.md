@@ -5,85 +5,85 @@ api_specs:
   label: Mem0 Agents API
   slug: mem0-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-agents-api-openapi.yml
+  url: https://artifacts.apis.io/mem0/openapi/mem0-agents-api-openapi.yml
 - filename: mem0-apps-api-openapi.yml
   format: yaml
   label: Mem0 Apps API
   slug: mem0-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-apps-api-openapi.yml
+  url: https://artifacts.apis.io/mem0/openapi/mem0-apps-api-openapi.yml
 - filename: mem0-entities-api-openapi.yml
   format: yaml
   label: Mem0 Entities API
   slug: mem0-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-entities-api-openapi.yml
+  url: https://artifacts.apis.io/mem0/openapi/mem0-entities-api-openapi.yml
 - filename: mem0-events-api-openapi.yml
   format: yaml
   label: Mem0 Events API
   slug: mem0-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-events-api-openapi.yml
+  url: https://artifacts.apis.io/mem0/openapi/mem0-events-api-openapi.yml
 - filename: mem0-exports-api-openapi.yml
   format: yaml
   label: Mem0 Exports API
   slug: mem0-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-exports-api-openapi.yml
+  url: https://artifacts.apis.io/mem0/openapi/mem0-exports-api-openapi.yml
 - filename: mem0-feedback-api-openapi.yml
   format: yaml
   label: Mem0 Feedback API
   slug: mem0-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/mem0/openapi/mem0-feedback-api-openapi.yml
 - filename: mem0-memories-api-openapi.yml
   format: yaml
   label: Mem0 Memories API
   slug: mem0-memories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-memories-api-openapi.yml
+  url: https://artifacts.apis.io/mem0/openapi/mem0-memories-api-openapi.yml
 - filename: mem0-organizations-api-openapi.yml
   format: yaml
   label: Mem0 Organizations API
   slug: mem0-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/mem0/openapi/mem0-organizations-api-openapi.yml
 - filename: mem0-project-api-openapi.yml
   format: yaml
   label: Mem0 Project API
   slug: mem0-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-project-api-openapi.yml
+  url: https://artifacts.apis.io/mem0/openapi/mem0-project-api-openapi.yml
 - filename: mem0-projects-api-openapi.yml
   format: yaml
   label: Mem0 Projects API
   slug: mem0-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-projects-api-openapi.yml
+  url: https://artifacts.apis.io/mem0/openapi/mem0-projects-api-openapi.yml
 - filename: mem0-runs-api-openapi.yml
   format: yaml
   label: Mem0 Runs API
   slug: mem0-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-runs-api-openapi.yml
+  url: https://artifacts.apis.io/mem0/openapi/mem0-runs-api-openapi.yml
 - filename: mem0-stats-api-openapi.yml
   format: yaml
   label: Mem0 Stats API
   slug: mem0-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-stats-api-openapi.yml
+  url: https://artifacts.apis.io/mem0/openapi/mem0-stats-api-openapi.yml
 - filename: mem0-users-api-openapi.yml
   format: yaml
   label: Mem0 Users API
   slug: mem0-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-users-api-openapi.yml
+  url: https://artifacts.apis.io/mem0/openapi/mem0-users-api-openapi.yml
 - filename: mem0-webhooks-api-openapi.yml
   format: yaml
   label: Mem0 Webhooks API
   slug: mem0-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/mem0/openapi/mem0-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -124,7 +124,7 @@ source_filename: mem0-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mem0.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 23:12:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.mem0.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 00:16:38 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.mem0.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 30 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: mem0.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/security/mem0-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mem0/security/mem0-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Memory

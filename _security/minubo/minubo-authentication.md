@@ -7,19 +7,19 @@ api_specs:
   label: Minubo Auth API
   slug: minubo-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/openapi/minubo-auth-api-openapi.yml
+  url: https://artifacts.apis.io/minubo/openapi/minubo-auth-api-openapi.yml
 - filename: minubo-data-api-openapi.yml
   format: yaml
   label: Minubo Data API
   slug: minubo-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/openapi/minubo-data-api-openapi.yml
+  url: https://artifacts.apis.io/minubo/openapi/minubo-data-api-openapi.yml
 - filename: minubo-etl-api-openapi.yml
   format: yaml
   label: Minubo ETL API
   slug: minubo-etl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/openapi/minubo-etl-api-openapi.yml
+  url: https://artifacts.apis.io/minubo/openapi/minubo-etl-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -47,7 +47,7 @@ source_filename: minubo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/minubo-api-openapi-original.json\nsummary:\n  types:\n  - http\nschemes:\n- name: etl_bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: JWT Authorization header using the Bearer scheme. Can be retrieved by authenticating\n    with the /auth/v1/token endpoint.\n  sources:\n  - openapi/minubo-api-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/authentication/minubo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/minubo/authentication/minubo-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

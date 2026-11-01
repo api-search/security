@@ -5,19 +5,19 @@ api_specs:
   label: McMaster University People API
   slug: mcmaster-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcmaster/refs/heads/main/openapi/mcmaster-people-api-openapi.yml
+  url: https://artifacts.apis.io/mcmaster/openapi/mcmaster-people-api-openapi.yml
 - filename: mcmaster-publications-api-openapi.yml
   format: yaml
   label: McMaster University Publications API
   slug: mcmaster-publications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcmaster/refs/heads/main/openapi/mcmaster-publications-api-openapi.yml
+  url: https://artifacts.apis.io/mcmaster/openapi/mcmaster-publications-api-openapi.yml
 - filename: mcmaster-search-api-openapi.yml
   format: yaml
   label: McMaster University Search API
   slug: mcmaster-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcmaster/refs/heads/main/openapi/mcmaster-search-api-openapi.yml
+  url: https://artifacts.apis.io/mcmaster/openapi/mcmaster-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: mcmaster-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mcmaster.ca\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  1 23:59:59 2026 GMT\n  hsts: false\n- host: developer.api.mcmaster.ca\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: library.mcmaster.ca\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  5 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: mcmaster.ca\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mcmaster/refs/heads/main/security/mcmaster-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mcmaster/security/mcmaster-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - University

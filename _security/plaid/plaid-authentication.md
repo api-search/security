@@ -8,43 +8,43 @@ api_specs:
   label: Plaid API
   slug: plaid-plaid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/openapi/plaid-plaid-api-openapi.yml
+  url: https://artifacts.apis.io/plaid/openapi/plaid-plaid-api-openapi.yml
 - filename: plaid-account-information-api-openapi.yml
   format: yaml
   label: Plaid Account Information API
   slug: plaid-account-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/openapi/plaid-account-information-api-openapi.yml
+  url: https://artifacts.apis.io/plaid/openapi/plaid-account-information-api-openapi.yml
 - filename: plaid-account-statements-api-openapi.yml
   format: yaml
   label: Plaid Account Statements API
   slug: plaid-account-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/openapi/plaid-account-statements-api-openapi.yml
+  url: https://artifacts.apis.io/plaid/openapi/plaid-account-statements-api-openapi.yml
 - filename: plaid-account-transactions-api-openapi.yml
   format: yaml
   label: Plaid Account Transactions API
   slug: plaid-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/openapi/plaid-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/plaid/openapi/plaid-account-transactions-api-openapi.yml
 - filename: plaid-asset-transfer-networks-information-api-openapi.yml
   format: yaml
   label: Plaid Asset Transfer Networks Information API
   slug: plaid-asset-transfer-networks-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/openapi/plaid-asset-transfer-networks-information-api-openapi.yml
+  url: https://artifacts.apis.io/plaid/openapi/plaid-asset-transfer-networks-information-api-openapi.yml
 - filename: plaid-payment-networks-information-api-openapi.yml
   format: yaml
   label: Plaid Payment Networks Information API
   slug: plaid-payment-networks-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/openapi/plaid-payment-networks-information-api-openapi.yml
+  url: https://artifacts.apis.io/plaid/openapi/plaid-payment-networks-information-api-openapi.yml
 - filename: plaid-personal-information-api-openapi.yml
   format: yaml
   label: Plaid Personal Information API
   slug: plaid-personal-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/openapi/plaid-personal-information-api-openapi.yml
+  url: https://artifacts.apis.io/plaid/openapi/plaid-personal-information-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -83,7 +83,7 @@ source_filename: plaid-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/plaid-openapi-original.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: clientId\n  type: apiKey\n  in: header\n  parameter: PLAID-CLIENT-ID\n  sources:\n  - openapi/plaid-openapi-original.yml\n- name: secret\n  type: apiKey\n  in: header\n  parameter: PLAID-SECRET\n  sources:\n  - openapi/plaid-openapi-original.yml\n- name: plaidVersion\n  type: apiKey\n  in: header\n  parameter: Plaid-Version\n  sources:\n  - openapi/plaid-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/authentication/plaid-authentication.yml
+source_yaml_url: https://artifacts.apis.io/plaid/authentication/plaid-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - Finance

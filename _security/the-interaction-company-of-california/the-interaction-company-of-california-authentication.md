@@ -7,7 +7,7 @@ api_specs:
   label: The Interaction Company Of California Messaging API
   slug: the-interaction-company-of-california-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-interaction-company-of-california/refs/heads/main/openapi/the-interaction-company-of-california-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/the-interaction-company-of-california/openapi/the-interaction-company-of-california-messaging-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -34,7 +34,7 @@ source_filename: the-interaction-company-of-california-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/the-interaction-company-of-california-poke-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'V2 API key generated in Kitchen, sent as `Authorization: Bearer YOUR_API_KEY`.\n    Legacy `pk_`-prefixed V1 keys work only with the deprecated inbound-sms webhook.'\n  sources:\n  - openapi/the-interaction-company-of-california-poke-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-interaction-company-of-california/refs/heads/main/authentication/the-interaction-company-of-california-authentication.yml
+source_yaml_url: https://artifacts.apis.io/the-interaction-company-of-california/authentication/the-interaction-company-of-california-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

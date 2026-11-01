@@ -5,31 +5,31 @@ api_specs:
   label: AxleHire (Jitsu) Assignment Information API
   slug: axlehire-assignment-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axlehire/refs/heads/main/openapi/axlehire-assignment-information-api-openapi.yml
+  url: https://artifacts.apis.io/axlehire/openapi/axlehire-assignment-information-api-openapi.yml
 - filename: axlehire-driver-information-api-openapi.yml
   format: yaml
   label: AxleHire (Jitsu) Driver Information API
   slug: axlehire-driver-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axlehire/refs/heads/main/openapi/axlehire-driver-information-api-openapi.yml
+  url: https://artifacts.apis.io/axlehire/openapi/axlehire-driver-information-api-openapi.yml
 - filename: axlehire-partner-information-api-openapi.yml
   format: yaml
   label: AxleHire (Jitsu) Partner Information API
   slug: axlehire-partner-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axlehire/refs/heads/main/openapi/axlehire-partner-information-api-openapi.yml
+  url: https://artifacts.apis.io/axlehire/openapi/axlehire-partner-information-api-openapi.yml
 - filename: axlehire-shipping-information-api-openapi.yml
   format: yaml
   label: AxleHire (Jitsu) Shipping Information API
   slug: axlehire-shipping-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axlehire/refs/heads/main/openapi/axlehire-shipping-information-api-openapi.yml
+  url: https://artifacts.apis.io/axlehire/openapi/axlehire-shipping-information-api-openapi.yml
 - filename: axlehire-tracking-information-api-openapi.yml
   format: yaml
   label: AxleHire (Jitsu) Tracking Information API
   slug: axlehire-tracking-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axlehire/refs/heads/main/openapi/axlehire-tracking-information-api-openapi.yml
+  url: https://artifacts.apis.io/axlehire/openapi/axlehire-tracking-information-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -75,7 +75,7 @@ source_filename: axlehire-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gojitsu.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 00:45:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.gojitsu.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 15:38:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\n- host: api.gojitsu.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 01:54:41 2026 GMT\n  hsts: null\ndomains:\n- domain: gojitsu.com\n  dnssec: true\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/axlehire/refs/heads/main/security/axlehire-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/axlehire/security/axlehire-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

@@ -19,7 +19,7 @@ source_filename: articulate-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nprobe: true\nsource: https://trust.articulate.com/\nurl: https://trust.articulate.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- FedRAMP\n- GDPR\n- CSA STAR\nevidence:\n- source: https://trust.articulate.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n  - csa star\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/articulate/refs/heads/main/security/articulate-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/articulate/security/articulate-trust-center.yml
 summary_line: SOC 2, ISO 27001, FedRAMP, GDPR, CSA STAR
 tags:
 - Company

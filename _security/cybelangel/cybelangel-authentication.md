@@ -7,79 +7,79 @@ api_specs:
   label: CybelAngel ADM Inventory API
   slug: cybelangel-adm-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/openapi/cybelangel-adm-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/cybelangel/openapi/cybelangel-adm-inventory-api-openapi.yml
 - filename: cybelangel-alerts-api-openapi.yml
   format: yaml
   label: CybelAngel Alerts API
   slug: cybelangel-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/openapi/cybelangel-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/cybelangel/openapi/cybelangel-alerts-api-openapi.yml
 - filename: cybelangel-asset-api-openapi.yml
   format: yaml
   label: CybelAngel Asset API
   slug: cybelangel-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/openapi/cybelangel-asset-api-openapi.yml
+  url: https://artifacts.apis.io/cybelangel/openapi/cybelangel-asset-api-openapi.yml
 - filename: cybelangel-audit-logs-api-openapi.yml
   format: yaml
   label: CybelAngel audit logs API
   slug: cybelangel-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/openapi/cybelangel-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/cybelangel/openapi/cybelangel-audit-logs-api-openapi.yml
 - filename: cybelangel-credential-watchlist-api-openapi.yml
   format: yaml
   label: CybelAngel Credential watchlist API
   slug: cybelangel-credential-watchlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/openapi/cybelangel-credential-watchlist-api-openapi.yml
+  url: https://artifacts.apis.io/cybelangel/openapi/cybelangel-credential-watchlist-api-openapi.yml
 - filename: cybelangel-domain-watchlist-api-openapi.yml
   format: yaml
   label: CybelAngel Domain watchlist API
   slug: cybelangel-domain-watchlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/openapi/cybelangel-domain-watchlist-api-openapi.yml
+  url: https://artifacts.apis.io/cybelangel/openapi/cybelangel-domain-watchlist-api-openapi.yml
 - filename: cybelangel-incident-reports-api-openapi.yml
   format: yaml
   label: CybelAngel Incident reports API
   slug: cybelangel-incident-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/openapi/cybelangel-incident-reports-api-openapi.yml
+  url: https://artifacts.apis.io/cybelangel/openapi/cybelangel-incident-reports-api-openapi.yml
 - filename: cybelangel-keywords-api-openapi.yml
   format: yaml
   label: CybelAngel Keywords API
   slug: cybelangel-keywords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/openapi/cybelangel-keywords-api-openapi.yml
+  url: https://artifacts.apis.io/cybelangel/openapi/cybelangel-keywords-api-openapi.yml
 - filename: cybelangel-reports-api-openapi.yml
   format: yaml
   label: CybelAngel Reports API
   slug: cybelangel-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/openapi/cybelangel-reports-api-openapi.yml
+  url: https://artifacts.apis.io/cybelangel/openapi/cybelangel-reports-api-openapi.yml
 - filename: cybelangel-stats-api-openapi.yml
   format: yaml
   label: CybelAngel Stats API
   slug: cybelangel-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/openapi/cybelangel-stats-api-openapi.yml
+  url: https://artifacts.apis.io/cybelangel/openapi/cybelangel-stats-api-openapi.yml
 - filename: cybelangel-stix-api-openapi.yml
   format: yaml
   label: CybelAngel Stix API
   slug: cybelangel-stix-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/openapi/cybelangel-stix-api-openapi.yml
+  url: https://artifacts.apis.io/cybelangel/openapi/cybelangel-stix-api-openapi.yml
 - filename: cybelangel-threat-intelligence-api-openapi.yml
   format: yaml
   label: CybelAngel Threat Intelligence API
   slug: cybelangel-threat-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/openapi/cybelangel-threat-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/cybelangel/openapi/cybelangel-threat-intelligence-api-openapi.yml
 - filename: cybelangel-workspaces-api-openapi.yml
   format: yaml
   label: CybelAngel Workspaces API
   slug: cybelangel-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/openapi/cybelangel-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/cybelangel/openapi/cybelangel-workspaces-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -132,7 +132,7 @@ source_yaml: "generated: '2026-08-17'\nmethod: searched\nsource: >-\n  openapi/c
   \ 'CybelAngel Platform admin'\n  self_serve: true\n  actions: ['Enable API access (plan includes the API)', 'Start 30-day trial (plan does not)']\n  values_issued: [organization_id, client_id, client_secret]\n  organization_id_note: >-\n    Required in the path of the Audit Logs and Partner APIs, and NOT self-serve — the provider's\n    guide says \"To retrieve your organization ID, please contact your Customer Success Manager.\"\n  alerts_stream_id_note: >-\n    The Alerts API additionally requires a stream_id, also issued by a CSM (or via\n    support@cybelangel.com). Not obtainable from any API.\n  rotation: 'not documented — no key-rotation endpoint or policy published'\ntoken_lifetime:\n  assume_seconds: 3600\n  conflict: >-\n    The docs contradict themselves: 1 hour on the Reports and Audit Logs authentication pages,\n    24 hours on the Alerts \"API calls\" page, and expires_in 86400 in the Reports OpenAPI\n    description. Assume 3600 and refresh on 401.\n  sliding: 'the Alerts\
   \ limitations page says validity \"is renewed whenever it is used in a successfully authenticated request\"'\n  minting_quota: '2000 tokens/month per client_id — caching is mandatory, not optional'\nschemes:\n  - name: bearer_token\n    type: oauth2\n    flows:\n      - flow: clientCredentials\n        tokenUrl: https://auth.cybelangel.com/oauth/token\n        scopes: 10\n    applied: 'root-level security requirement — every operation'\n    sources:\n      - openapi/cybelangel-platform-reports-openapi.yml\n    see: scopes/cybelangel-scopes.yml\n  - name: jwt\n    type: http\n    scheme: bearer\n    bearerFormat: JWT\n    applied: 'declared in components.securitySchemes; no root-level security requirement in these six specs'\n    scopes: 0\n    sources:\n      - openapi/cybelangel-adm-inventory-openapi.yml\n      - openapi/cybelangel-alerts-openapi.yml\n      - openapi/cybelangel-audit-logs-openapi.yml\n      - openapi/cybelangel-keywords-openapi.yml\n      - openapi/cybelangel-partner-openapi.yml\n\
   \      - openapi/cybelangel-threat-intelligence-openapi.yml\n    gap: >-\n      None of these six specs declares a root-level `security:` requirement or applies the scheme\n      per operation, so a code generator reading them alone produces an unauthenticated client\n      even though every endpoint returns 401 without a bearer. They also omit the token endpoint\n      and any scope names.\nerrors:\n  401: 'Missing or invalid token — verify the Authorization header format and regenerate a token'\n  403: 'Valid token, insufficient rights/scope — check that your API plan includes the required scope'\n  source: https://developers.cybelangel.com/docs/audit-logs-api/b87d37ae48a0d-authentication\nmtls: false\nopenid_connect_for_api: false\napi_keys: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/authentication/cybelangel-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cybelangel/authentication/cybelangel-authentication.yml
 summary_line: oauth2/http · 2 schemes
 tags:
 - Company

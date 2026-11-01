@@ -7,91 +7,91 @@ api_specs:
   label: WellnessLiving Appointments API
   slug: wellnessliving-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/wellnessliving/openapi/wellnessliving-appointments-api-openapi.yml
 - filename: wellnessliving-authentication-api-openapi.yml
   format: yaml
   label: WellnessLiving Authentication API
   slug: wellnessliving-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/wellnessliving/openapi/wellnessliving-authentication-api-openapi.yml
 - filename: wellnessliving-booking-api-openapi.yml
   format: yaml
   label: WellnessLiving Booking API
   slug: wellnessliving-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-booking-api-openapi.yml
+  url: https://artifacts.apis.io/wellnessliving/openapi/wellnessliving-booking-api-openapi.yml
 - filename: wellnessliving-business-api-openapi.yml
   format: yaml
   label: WellnessLiving Business API
   slug: wellnessliving-business-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-business-api-openapi.yml
+  url: https://artifacts.apis.io/wellnessliving/openapi/wellnessliving-business-api-openapi.yml
 - filename: wellnessliving-catalog-api-openapi.yml
   format: yaml
   label: WellnessLiving Catalog API
   slug: wellnessliving-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/wellnessliving/openapi/wellnessliving-catalog-api-openapi.yml
 - filename: wellnessliving-classes-api-openapi.yml
   format: yaml
   label: WellnessLiving Classes API
   slug: wellnessliving-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-classes-api-openapi.yml
+  url: https://artifacts.apis.io/wellnessliving/openapi/wellnessliving-classes-api-openapi.yml
 - filename: wellnessliving-clients-api-openapi.yml
   format: yaml
   label: WellnessLiving Clients API
   slug: wellnessliving-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-clients-api-openapi.yml
+  url: https://artifacts.apis.io/wellnessliving/openapi/wellnessliving-clients-api-openapi.yml
 - filename: wellnessliving-locations-api-openapi.yml
   format: yaml
   label: WellnessLiving Locations API
   slug: wellnessliving-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-locations-api-openapi.yml
+  url: https://artifacts.apis.io/wellnessliving/openapi/wellnessliving-locations-api-openapi.yml
 - filename: wellnessliving-payments-api-openapi.yml
   format: yaml
   label: WellnessLiving Payments API
   slug: wellnessliving-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-payments-api-openapi.yml
+  url: https://artifacts.apis.io/wellnessliving/openapi/wellnessliving-payments-api-openapi.yml
 - filename: wellnessliving-promotions-api-openapi.yml
   format: yaml
   label: WellnessLiving Promotions API
   slug: wellnessliving-promotions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-promotions-api-openapi.yml
+  url: https://artifacts.apis.io/wellnessliving/openapi/wellnessliving-promotions-api-openapi.yml
 - filename: wellnessliving-reports-api-openapi.yml
   format: yaml
   label: WellnessLiving Reports API
   slug: wellnessliving-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-reports-api-openapi.yml
+  url: https://artifacts.apis.io/wellnessliving/openapi/wellnessliving-reports-api-openapi.yml
 - filename: wellnessliving-reviews-api-openapi.yml
   format: yaml
   label: WellnessLiving Reviews API
   slug: wellnessliving-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/wellnessliving/openapi/wellnessliving-reviews-api-openapi.yml
 - filename: wellnessliving-rewards-api-openapi.yml
   format: yaml
   label: WellnessLiving Rewards API
   slug: wellnessliving-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/wellnessliving/openapi/wellnessliving-rewards-api-openapi.yml
 - filename: wellnessliving-staff-api-openapi.yml
   format: yaml
   label: WellnessLiving Staff API
   slug: wellnessliving-staff-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-staff-api-openapi.yml
+  url: https://artifacts.apis.io/wellnessliving/openapi/wellnessliving-staff-api-openapi.yml
 - filename: wellnessliving-websocket-api-openapi.yml
   format: yaml
   label: WellnessLiving WebSocket API
   slug: wellnessliving-websocket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-websocket-api-openapi.yml
+  url: https://artifacts.apis.io/wellnessliving/openapi/wellnessliving-websocket-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -119,7 +119,7 @@ source_filename: wellnessliving-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/wellnessliving-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: 'The officially published OpenAPI declares a JWT Bearer scheme: sign in via `POST\n    /Core/Passport/Login/Enter/Enter.json`, then mint a token with `GET /Core/Passport/Enter/Jwt/JwtToken.json`\n    and send it as `Authorization: Bearer <token>`. The underlying PHP/JS SDKs additionally\n    support the legacy scheme: a registered Application ID + secret code sign a per-request\n    HMAC (SHA3-based) placed in the `Au'\n  sources:\n  - openapi/wellnessliving-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/authentication/wellnessliving-authentication.yml
+source_yaml_url: https://artifacts.apis.io/wellnessliving/authentication/wellnessliving-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Fitness

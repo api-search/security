@@ -7,37 +7,37 @@ api_specs:
   label: ShareThis AI Summary API
   slug: sharethis-ai-summary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharethis/refs/heads/main/openapi/sharethis-ai-summary-api-openapi.yml
+  url: https://artifacts.apis.io/sharethis/openapi/sharethis-ai-summary-api-openapi.yml
 - filename: sharethis-apps-api-openapi.yml
   format: yaml
   label: ShareThis Apps API
   slug: sharethis-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharethis/refs/heads/main/openapi/sharethis-apps-api-openapi.yml
+  url: https://artifacts.apis.io/sharethis/openapi/sharethis-apps-api-openapi.yml
 - filename: sharethis-audience-api-openapi.yml
   format: yaml
   label: ShareThis Audience API
   slug: sharethis-audience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharethis/refs/heads/main/openapi/sharethis-audience-api-openapi.yml
+  url: https://artifacts.apis.io/sharethis/openapi/sharethis-audience-api-openapi.yml
 - filename: sharethis-authentication-api-openapi.yml
   format: yaml
   label: ShareThis Authentication API
   slug: sharethis-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharethis/refs/heads/main/openapi/sharethis-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sharethis/openapi/sharethis-authentication-api-openapi.yml
 - filename: sharethis-oauth-clients-api-openapi.yml
   format: yaml
   label: ShareThis OAuth Clients API
   slug: sharethis-oauth-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharethis/refs/heads/main/openapi/sharethis-oauth-clients-api-openapi.yml
+  url: https://artifacts.apis.io/sharethis/openapi/sharethis-oauth-clients-api-openapi.yml
 - filename: sharethis-properties-api-openapi.yml
   format: yaml
   label: ShareThis Properties API
   slug: sharethis-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharethis/refs/heads/main/openapi/sharethis-properties-api-openapi.yml
+  url: https://artifacts.apis.io/sharethis/openapi/sharethis-properties-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -115,7 +115,7 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: >-\n  openapi/s
   \  authorization_servers:\n  - https://mcp.sharethis.com\n  discovery_documents:\n  - path: /.well-known/oauth-protected-resource\n    file: well-known/sharethis-mcp-oauth-protected-resource.json\n  - path: /.well-known/oauth-authorization-server\n    file: well-known/sharethis-mcp-oauth-authorization-server.json\n  - path: /.well-known/openid-configuration\n    file: well-known/sharethis-mcp-openid-configuration.json\n  prerequisite: >-\n    A ShareThis account must exist at https://platform.sharethis.com before OAuth linking succeeds.\n  sources:\n  - https://mcp.sharethis.com/.well-known/oauth-authorization-server\n  - https://mcp.sharethis.com/\n- name: OAuth client management\n  surface: ShareThis Platform API\n  type: provisioning\n  note: >-\n    The Platform API also exposes POST/GET /oauth-clients and DELETE /oauth-clients/{client_id},\n    letting an account mint and revoke its own OAuth clients. Client creation is quota-limited\n    (403 OAUTH_CLIENT_LIMIT_EXCEEDED); the numeric\
   \ limit is not published.\nunauthenticated_surface:\n- api: ShareThis Social Share Count API\n  base_url: https://count-server.sharethis.com/v2.0\n  auth: none\n  verified: >-\n    Live GET of /get_counts?url=https://www.sharethis.com returned HTTP 200 with a full counts\n    payload and no credential of any kind (probed 2026-08-27).\n  note: >-\n    Genuinely open. This is the surface an agent can call today with zero onboarding, and the only\n    ShareThis API that needs no account.\n- surface: MCP tools/list discovery\n  auth: none\n  note: >-\n    tools/list on https://mcp.sharethis.com responds anonymously with complete input and output\n    schemas. Discovery is open; invocation is not.\nopenid_connect:\n  present: false\n  note: >-\n    An /.well-known/openid-configuration document IS served on mcp.sharethis.com, but it is an\n    OAuth authorization-server document wearing the OIDC filename — it advertises no id_token,\n    no userinfo_endpoint, no jwks_uri and no OIDC response\
   \ types. It should not be read as an\n    OpenID Connect provider.\nmutual_tls: false\napi_keys: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sharethis/refs/heads/main/authentication/sharethis-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sharethis/authentication/sharethis-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Company

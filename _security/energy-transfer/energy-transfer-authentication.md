@@ -7,19 +7,19 @@ api_specs:
   label: Energy Transfer Nominations API
   slug: energy-transfer-nominations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-transfer/refs/heads/main/openapi/energy-transfer-nominations-api-openapi.yml
+  url: https://artifacts.apis.io/energy-transfer/openapi/energy-transfer-nominations-api-openapi.yml
 - filename: energy-transfer-pipelines-api-openapi.yml
   format: yaml
   label: Energy Transfer Pipelines API
   slug: energy-transfer-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-transfer/refs/heads/main/openapi/energy-transfer-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/energy-transfer/openapi/energy-transfer-pipelines-api-openapi.yml
 - filename: energy-transfer-schedules-api-openapi.yml
   format: yaml
   label: Energy Transfer Schedules API
   slug: energy-transfer-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-transfer/refs/heads/main/openapi/energy-transfer-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/energy-transfer/openapi/energy-transfer-schedules-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -45,7 +45,7 @@ source_filename: energy-transfer-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/energy-transfer-messenger-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/energy-transfer-messenger-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/energy-transfer/refs/heads/main/authentication/energy-transfer-authentication.yml
+source_yaml_url: https://artifacts.apis.io/energy-transfer/authentication/energy-transfer-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Energy

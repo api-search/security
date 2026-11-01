@@ -52,7 +52,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: >-\n  https://developers.gamma.app/get-started/understanding-the-api-options ,\n  https://developers.gamma.app/reference/error-codes ,\n  https://developers.gamma.app/mcp/mcp-tools-reference\nsummary:\n  types: [apiKey, oauth2]\n  api_key_in: [header]\n  oauth2_flows: [authorizationCode]\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter_name: X-API-KEY\n  key_prefix: sk-gamma-\n  surface: REST API (https://public-api.gamma.app/v1.0)\n  plans: [Pro, Ultra, Teams, Business]\n  provisioning: https://gamma.app/settings/api-keys\n  notes: >-\n    All REST requests require an API key in the case-sensitive X-API-KEY header.\n    Keys start with sk-gamma-. Invalid/missing keys return 401 \"Invalid API key\".\n- name: OAuth2\n  type: oauth2\n  scheme: bearer\n  surface: Gamma MCP server (https://mcp.gamma.app/mcp)\n  authorization_server: https://auth.gamma.app\n  protected_resource_metadata: https://mcp.gamma.app/.well-known/oauth-protected-resource\n\
   \  dynamic_client_registration: true\n  specs: [RFC 9728, RFC 7591]\n  scopes: [generate, 'gamma:read']\n  notes: >-\n    The hosted MCP server (and the ChatGPT/Claude connectors it powers) uses\n    OAuth 2.0 Bearer tokens with Dynamic Client Registration. Available on all\n    plans.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gammaapp/refs/heads/main/authentication/gammaapp-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gammaapp/authentication/gammaapp-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company

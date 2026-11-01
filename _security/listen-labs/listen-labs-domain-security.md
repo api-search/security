@@ -5,7 +5,7 @@ api_specs:
   label: Listen Labs Public API
   slug: listen-labs-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listen-labs/refs/heads/main/openapi/listen-labs-public-api-openapi.yml
+  url: https://artifacts.apis.io/listen-labs/openapi/listen-labs-public-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -50,7 +50,7 @@ source_filename: listen-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.listenlabs.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 14:41:53 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.listenlabs.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 04:42:07 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: listenlabs.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 13:01:07 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: listenlabs.ai\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"ssl.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/listen-labs/refs/heads/main/security/listen-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/listen-labs/security/listen-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

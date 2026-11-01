@@ -5,31 +5,31 @@ api_specs:
   label: Sail Research Batches API
   slug: sail-research-batches-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/openapi/sail-research-batches-api-api-openapi.yml
+  url: https://artifacts.apis.io/sail-research/openapi/sail-research-batches-api-api-openapi.yml
 - filename: sail-research-chat-completions-api-api-openapi.yml
   format: yaml
   label: Sail Research Chat Completions API
   slug: sail-research-chat-completions-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/openapi/sail-research-chat-completions-api-api-openapi.yml
+  url: https://artifacts.apis.io/sail-research/openapi/sail-research-chat-completions-api-api-openapi.yml
 - filename: sail-research-messages-api-api-openapi.yml
   format: yaml
   label: Sail Research Messages API
   slug: sail-research-messages-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/openapi/sail-research-messages-api-api-openapi.yml
+  url: https://artifacts.apis.io/sail-research/openapi/sail-research-messages-api-api-openapi.yml
 - filename: sail-research-models-api-api-openapi.yml
   format: yaml
   label: Sail Research Models API
   slug: sail-research-models-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/openapi/sail-research-models-api-api-openapi.yml
+  url: https://artifacts.apis.io/sail-research/openapi/sail-research-models-api-api-openapi.yml
 - filename: sail-research-responses-api-api-openapi.yml
   format: yaml
   label: Sail Research Responses API
   slug: sail-research-responses-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/openapi/sail-research-responses-api-api-openapi.yml
+  url: https://artifacts.apis.io/sail-research/openapi/sail-research-responses-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: sail-research-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.sailresearch.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 29 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: sailresearch.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/security/sail-research-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sail-research/security/sail-research-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

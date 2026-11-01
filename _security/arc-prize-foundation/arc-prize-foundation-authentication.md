@@ -8,19 +8,19 @@ api_specs:
   label: Arc Prize Foundation Commands API
   slug: arc-prize-foundation-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arc-prize-foundation/refs/heads/main/openapi/arc-prize-foundation-commands-api-openapi.yml
+  url: https://artifacts.apis.io/arc-prize-foundation/openapi/arc-prize-foundation-commands-api-openapi.yml
 - filename: arc-prize-foundation-games-api-openapi.yml
   format: yaml
   label: Arc Prize Foundation Games API
   slug: arc-prize-foundation-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arc-prize-foundation/refs/heads/main/openapi/arc-prize-foundation-games-api-openapi.yml
+  url: https://artifacts.apis.io/arc-prize-foundation/openapi/arc-prize-foundation-games-api-openapi.yml
 - filename: arc-prize-foundation-scorecards-api-openapi.yml
   format: yaml
   label: Arc Prize Foundation Scorecards API
   slug: arc-prize-foundation-scorecards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arc-prize-foundation/refs/heads/main/openapi/arc-prize-foundation-scorecards-api-openapi.yml
+  url: https://artifacts.apis.io/arc-prize-foundation/openapi/arc-prize-foundation-scorecards-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -47,7 +47,7 @@ source_filename: arc-prize-foundation-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/arc-prize-foundation-arc-agi-3-openapi.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  sources:\n  - openapi/arc-prize-foundation-arc-agi-3-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arc-prize-foundation/refs/heads/main/authentication/arc-prize-foundation-authentication.yml
+source_yaml_url: https://artifacts.apis.io/arc-prize-foundation/authentication/arc-prize-foundation-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

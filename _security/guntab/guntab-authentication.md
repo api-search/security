@@ -8,25 +8,25 @@ api_specs:
   label: GunTab FFLs API
   slug: guntab-ffls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guntab/refs/heads/main/openapi/guntab-ffls-api-openapi.yml
+  url: https://artifacts.apis.io/guntab/openapi/guntab-ffls-api-openapi.yml
 - filename: guntab-invoices-api-openapi.yml
   format: yaml
   label: GunTab Invoices API
   slug: guntab-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guntab/refs/heads/main/openapi/guntab-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/guntab/openapi/guntab-invoices-api-openapi.yml
 - filename: guntab-users-api-openapi.yml
   format: yaml
   label: GunTab Users API
   slug: guntab-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guntab/refs/heads/main/openapi/guntab-users-api-openapi.yml
+  url: https://artifacts.apis.io/guntab/openapi/guntab-users-api-openapi.yml
 - filename: guntab-webhooks-api-openapi.yml
   format: yaml
   label: GunTab Webhooks API
   slug: guntab-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guntab/refs/heads/main/openapi/guntab-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/guntab/openapi/guntab-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: guntab-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/guntab-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: TokenAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Format: `Token {token_uuid}` issued to verified email users.'\n  sources:\n  - openapi/guntab-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/guntab/refs/heads/main/authentication/guntab-authentication.yml
+source_yaml_url: https://artifacts.apis.io/guntab/authentication/guntab-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - E-Commerce

@@ -5,67 +5,67 @@ api_specs:
   label: xCures Application API
   slug: xcures-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-application-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-application-api-openapi.yml
 - filename: xcures-checklist-api-openapi.yml
   format: yaml
   label: xCures Checklist API
   slug: xcures-checklist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-checklist-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-checklist-api-openapi.yml
 - filename: xcures-clinical-concepts-api-openapi.yml
   format: yaml
   label: xCures Clinical Concepts API
   slug: xcures-clinical-concepts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-clinical-concepts-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-clinical-concepts-api-openapi.yml
 - filename: xcures-document-api-openapi.yml
   format: yaml
   label: xCures Document API
   slug: xcures-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-document-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-document-api-openapi.yml
 - filename: xcures-fhir-api-openapi.yml
   format: yaml
   label: xCures FHIR API
   slug: xcures-fhir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-fhir-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-fhir-api-openapi.yml
 - filename: xcures-project-api-openapi.yml
   format: yaml
   label: xCures Project API
   slug: xcures-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-project-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-project-api-openapi.yml
 - filename: xcures-query-api-openapi.yml
   format: yaml
   label: xCures Query API
   slug: xcures-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-query-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-query-api-openapi.yml
 - filename: xcures-reciprocity-template-api-openapi.yml
   format: yaml
   label: xCures Reciprocity Template API
   slug: xcures-reciprocity-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-reciprocity-template-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-reciprocity-template-api-openapi.yml
 - filename: xcures-subject-api-openapi.yml
   format: yaml
   label: xCures Subject API
   slug: xcures-subject-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-subject-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-subject-api-openapi.yml
 - filename: xcures-summary-api-openapi.yml
   format: yaml
   label: xCures Summary API
   slug: xcures-summary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-summary-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-summary-api-openapi.yml
 - filename: xcures-oauth-api-openapi.yml
   format: yaml
   label: xCures O Auth API
   slug: xcures-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/xcures/openapi/xcures-oauth-api-openapi.yml
 certification_count: 0
 certifications: []
 description: ''
@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-09-04'\nmethod: searched\nsource: https://xcures.
   \ publishes measured accuracy for the AI that\n    produces its API's output, with a stated method and a named limitation set. Most AI-in-the-loop\n    providers publish neither.\n  approaches:\n    - name: Schema-based extraction\n      detail: >-\n        NER + relation extraction over unstructured clinical documents into FHIR R4 and OHDSI-normalized\n        structured data, with linkage to source verbatim preserved per element.\n    - name: Checklist-based assertion\n      detail: >-\n        RAG over the full longitudinal record, returning structured outputs with source citations and\n        evidence-hierarchy rules to resolve conflicting documentation.\n  method: >-\n    Validated against clinically trained human reviewers; each field classified TP/TN/FP/FN with\n    third-reviewer arbitration on discrepancies; random 10% audit. Only explicitly stated, verifiable\n    extractions count as true positives — correct inferences not present verbatim are counted as errors.\n  deployment_threshold:\
   \ accuracy and precision >= 95% before an extractor or checklist enters production\n  published_results:\n    - extractor: Medications\n      accuracy: 95.7%\n      precision: 97.5%\n      recall: 95.0%\n      f1: 96.3%\n    - extractor: Surgical Procedures\n      accuracy: 96.6%\n      precision: 97.7%\n      recall: 98.8%\n      f1: 98.2%\n    - extractor: Cancer Diagnosis\n      accuracy: 98.2%\n      precision: 98.7%\n      recall: 99.4%\n      f1: 99.0%\n    - extractor: Lines of Therapy\n      accuracy: 97.0%\n      precision: 95.4%\n      recall: 99.8%\n      f1: 97.6%\n  results_caveat: >-\n    xCures states these are a retrospective analysis of a defined historical dataset and do not guarantee\n    future performance.\n  source_citation: >-\n    Stuhlmiller TJ et al. \"A Scalable Method for Validated Data Extraction from Electronic Health Records\n    with Large Language Models.\" Submitted for peer review, 2026. Full methods, supplemental tables and\n    raw counts available\
   \ on request.\n  stated_limitations:\n    - >-\n      OCR quality — accuracy of extraction from scanned or faxed documents depends on document quality;\n      degraded scans may introduce errors or omissions.\n    - >-\n      Semantic search coverage gaps — checklists and schema LLMs rely on semantic search and use only the\n      top N semantically matched documents, so relevant information in lower-ranked documents can be\n      missed.\n  version_control: Extraction models are version-controlled and support rollback; A/B testing guides refinement\ninfrastructure:\n  hosting: AWS\n  monitoring: AWS + Datadog, SIEM\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/security/xcures-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/xcures/security/xcures-trust-center.yml
 summary_line: trust center published
 tags:
 - Health

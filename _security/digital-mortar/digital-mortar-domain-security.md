@@ -24,7 +24,7 @@ source_filename: digital-mortar-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: digitalmortar.com\n  https: false\ndomains:\n- domain: digitalmortar.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/digital-mortar/refs/heads/main/security/digital-mortar-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/digital-mortar/security/digital-mortar-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

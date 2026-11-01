@@ -5,31 +5,31 @@ api_specs:
   label: Re General API
   slug: re-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/re/refs/heads/main/openapi/re-general-api-openapi.yml
+  url: https://artifacts.apis.io/re/openapi/re-general-api-openapi.yml
 - filename: re-points-api-openapi.yml
   format: yaml
   label: Re Points API
   slug: re-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/re/refs/heads/main/openapi/re-points-api-openapi.yml
+  url: https://artifacts.apis.io/re/openapi/re-points-api-openapi.yml
 - filename: re-supply-api-openapi.yml
   format: yaml
   label: Re Supply API
   slug: re-supply-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/re/refs/heads/main/openapi/re-supply-api-openapi.yml
+  url: https://artifacts.apis.io/re/openapi/re-supply-api-openapi.yml
 - filename: re-tvl-api-openapi.yml
   format: yaml
   label: Re TVL API
   slug: re-tvl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/re/refs/heads/main/openapi/re-tvl-api-openapi.yml
+  url: https://artifacts.apis.io/re/openapi/re-tvl-api-openapi.yml
 - filename: re-wallet-api-openapi.yml
   format: yaml
   label: Re Wallet API
   slug: re-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/re/refs/heads/main/openapi/re-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/re/openapi/re-wallet-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: re-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: re.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 01:38:43 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.re.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 00:33:26 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.re.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 18:23:01 2026 GMT\n  hsts: null\ndomains:\n- domain: re.xyz\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/re/refs/heads/main/security/re-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/re/security/re-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

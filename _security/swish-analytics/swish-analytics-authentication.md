@@ -8,61 +8,61 @@ api_specs:
   label: Swish Analytics ATP Tennis API
   slug: swish-analytics-atp-tennis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swish-analytics/refs/heads/main/openapi/swish-analytics-atp-tennis-api-openapi.yml
+  url: https://artifacts.apis.io/swish-analytics/openapi/swish-analytics-atp-tennis-api-openapi.yml
 - filename: swish-analytics-bet-request-api-openapi.yml
   format: yaml
   label: Swish Analytics Bet Request API
   slug: swish-analytics-bet-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swish-analytics/refs/heads/main/openapi/swish-analytics-bet-request-api-openapi.yml
+  url: https://artifacts.apis.io/swish-analytics/openapi/swish-analytics-bet-request-api-openapi.yml
 - filename: swish-analytics-mlb-api-openapi.yml
   format: yaml
   label: Swish Analytics MLB API
   slug: swish-analytics-mlb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swish-analytics/refs/heads/main/openapi/swish-analytics-mlb-api-openapi.yml
+  url: https://artifacts.apis.io/swish-analytics/openapi/swish-analytics-mlb-api-openapi.yml
 - filename: swish-analytics-nba-api-openapi.yml
   format: yaml
   label: Swish Analytics NBA API
   slug: swish-analytics-nba-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swish-analytics/refs/heads/main/openapi/swish-analytics-nba-api-openapi.yml
+  url: https://artifacts.apis.io/swish-analytics/openapi/swish-analytics-nba-api-openapi.yml
 - filename: swish-analytics-ncaa-basketball-api-openapi.yml
   format: yaml
   label: Swish Analytics NCAA Basketball API
   slug: swish-analytics-ncaa-basketball-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swish-analytics/refs/heads/main/openapi/swish-analytics-ncaa-basketball-api-openapi.yml
+  url: https://artifacts.apis.io/swish-analytics/openapi/swish-analytics-ncaa-basketball-api-openapi.yml
 - filename: swish-analytics-ncaa-football-api-openapi.yml
   format: yaml
   label: Swish Analytics NCAA Football API
   slug: swish-analytics-ncaa-football-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swish-analytics/refs/heads/main/openapi/swish-analytics-ncaa-football-api-openapi.yml
+  url: https://artifacts.apis.io/swish-analytics/openapi/swish-analytics-ncaa-football-api-openapi.yml
 - filename: swish-analytics-nfl-api-openapi.yml
   format: yaml
   label: Swish Analytics NFL API
   slug: swish-analytics-nfl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swish-analytics/refs/heads/main/openapi/swish-analytics-nfl-api-openapi.yml
+  url: https://artifacts.apis.io/swish-analytics/openapi/swish-analytics-nfl-api-openapi.yml
 - filename: swish-analytics-nhl-api-openapi.yml
   format: yaml
   label: Swish Analytics NHL API
   slug: swish-analytics-nhl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swish-analytics/refs/heads/main/openapi/swish-analytics-nhl-api-openapi.yml
+  url: https://artifacts.apis.io/swish-analytics/openapi/swish-analytics-nhl-api-openapi.yml
 - filename: swish-analytics-soccer-api-openapi.yml
   format: yaml
   label: Swish Analytics Soccer API
   slug: swish-analytics-soccer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swish-analytics/refs/heads/main/openapi/swish-analytics-soccer-api-openapi.yml
+  url: https://artifacts.apis.io/swish-analytics/openapi/swish-analytics-soccer-api-openapi.yml
 - filename: swish-analytics-wta-tennis-api-openapi.yml
   format: yaml
   label: Swish Analytics WTA Tennis API
   slug: swish-analytics-wta-tennis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swish-analytics/refs/heads/main/openapi/swish-analytics-wta-tennis-api-openapi.yml
+  url: https://artifacts.apis.io/swish-analytics/openapi/swish-analytics-wta-tennis-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -90,7 +90,7 @@ source_filename: swish-analytics-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/swish-analytics-sportsbook-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKey\n  type: apiKey\n  in: header\n  parameter: ApiKey\n  description: API key issued via the Swish Analytics developer portal (docs.swishanalytics.com).\n    Managed under the /apikeys endpoints; passed in the ApiKey request header.\n  sources:\n  - openapi/swish-analytics-sportsbook-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swish-analytics/refs/heads/main/authentication/swish-analytics-authentication.yml
+source_yaml_url: https://artifacts.apis.io/swish-analytics/authentication/swish-analytics-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

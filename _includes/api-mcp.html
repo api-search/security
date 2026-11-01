@@ -20,7 +20,10 @@
   would be parsed as Liquid inside the string argument and swallow the filter.)
 {%- endcomment -%}
 {%- assign S = site.data.api_surface -%}
-{%- assign sec = S.sections[site.nav_active] -%}
+{%- comment -%} page.api_section lets a page inside one site borrow another section's entry —
+  the /compare/ pages live in the network site, whose nav_active is `search`. {%- endcomment -%}
+{%- assign sec_key = page.api_section | default: site.nav_active -%}
+{%- assign sec = S.sections[sec_key] -%}
 {%- if sec -%}
 {%- assign slug = page.slug | default: page.name | default: '' -%}
 {%- comment -%} roadmap#931 (TrickyBird): /v1/apis/{id} takes the provider-qualified id
@@ -60,6 +63,8 @@
   .apimcp-auth svg { flex: none; }
   @media (max-width: 575.98px) { .apimcp-card { flex-basis: 100%; } }
 </style>
+
+{% include compare-links.html %}
 
 <h2 class="section-anchor" id="api-mcp"><a href="#api-mcp">Work with this as data</a></h2>
 <p class="section-blurb">

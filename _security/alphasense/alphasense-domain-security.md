@@ -5,25 +5,25 @@ api_specs:
   label: AlphaSense Authentication API
   slug: alphasense-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphasense/refs/heads/main/openapi/alphasense-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/alphasense/openapi/alphasense-authentication-api-openapi.yml
 - filename: alphasense-gensearch-api-openapi.yml
   format: yaml
   label: AlphaSense GenSearch API
   slug: alphasense-gensearch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphasense/refs/heads/main/openapi/alphasense-gensearch-api-openapi.yml
+  url: https://artifacts.apis.io/alphasense/openapi/alphasense-gensearch-api-openapi.yml
 - filename: alphasense-ingestion-api-openapi.yml
   format: yaml
   label: AlphaSense Ingestion API
   slug: alphasense-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphasense/refs/heads/main/openapi/alphasense-ingestion-api-openapi.yml
+  url: https://artifacts.apis.io/alphasense/openapi/alphasense-ingestion-api-openapi.yml
 - filename: alphasense-search-api-openapi.yml
   format: yaml
   label: AlphaSense Search API
   slug: alphasense-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphasense/refs/heads/main/openapi/alphasense-search-api-openapi.yml
+  url: https://artifacts.apis.io/alphasense/openapi/alphasense-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: alphasense-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.alpha-sense.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 22:08:10 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.alpha-sense.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 29 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.alpha-sense.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  4 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: alpha-sense.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alphasense/refs/heads/main/security/alphasense-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/alphasense/security/alphasense-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Market Intelligence

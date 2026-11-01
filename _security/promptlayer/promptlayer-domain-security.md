@@ -5,25 +5,25 @@ api_specs:
   label: PromptLayer Evaluations & Datasets API
   slug: promptlayer-evaluations-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/promptlayer/refs/heads/main/openapi/promptlayer-evaluations-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/promptlayer/openapi/promptlayer-evaluations-datasets-api-openapi.yml
 - filename: promptlayer-logging-tracking-api-openapi.yml
   format: yaml
   label: PromptLayer Logging & Tracking API
   slug: promptlayer-logging-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/promptlayer/refs/heads/main/openapi/promptlayer-logging-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/promptlayer/openapi/promptlayer-logging-tracking-api-openapi.yml
 - filename: promptlayer-prompt-registry-api-openapi.yml
   format: yaml
   label: PromptLayer Prompt Registry API
   slug: promptlayer-prompt-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/promptlayer/refs/heads/main/openapi/promptlayer-prompt-registry-api-openapi.yml
+  url: https://artifacts.apis.io/promptlayer/openapi/promptlayer-prompt-registry-api-openapi.yml
 - filename: promptlayer-spans-traces-api-openapi.yml
   format: yaml
   label: PromptLayer Spans & Traces API
   slug: promptlayer-spans-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/promptlayer/refs/heads/main/openapi/promptlayer-spans-traces-api-openapi.yml
+  url: https://artifacts.apis.io/promptlayer/openapi/promptlayer-spans-traces-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: promptlayer-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.promptlayer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 09:21:27 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.promptlayer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 00:55:57 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.promptlayer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 18:10:04 2026 GMT\n  hsts: null\ndomains:\n- domain: promptlayer.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/promptlayer/refs/heads/main/security/promptlayer-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/promptlayer/security/promptlayer-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Artificial Intelligence

@@ -5,13 +5,13 @@ api_specs:
   label: Conversica Integrations API
   slug: conversica-conversica-integrations-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/openapi/conversica-conversica-integrations-api-api-openapi.yml
+  url: https://artifacts.apis.io/conversica/openapi/conversica-conversica-integrations-api-api-openapi.yml
 - filename: conversica-leads-api-openapi.yml
   format: yaml
   label: Conversica Leads API
   slug: conversica-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/openapi/conversica-leads-api-openapi.yml
+  url: https://artifacts.apis.io/conversica/openapi/conversica-leads-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: conversica-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-01'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.conversica.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 20:29:02 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: help.conversica.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 23:41:41 2026 GMT\n  hsts: true\n  hsts_max_age: 259200\n- host: integrations-api.conversica.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 10 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: conversica.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/security/conversica-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/conversica/security/conversica-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

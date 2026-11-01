@@ -5,49 +5,55 @@ api_specs:
   label: Amazon IAM Access Analyzer Access Preview API
   slug: amazon-iam-access-analyzer-access-preview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/openapi/amazon-iam-access-analyzer-access-preview-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iam-access-analyzer/openapi/amazon-iam-access-analyzer-access-preview-api-openapi.yml
 - filename: amazon-iam-access-analyzer-analyzed-resource-api-openapi.yml
   format: yaml
   label: Amazon IAM Access Analyzer Analyzed Resource API
   slug: amazon-iam-access-analyzer-analyzed-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/openapi/amazon-iam-access-analyzer-analyzed-resource-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iam-access-analyzer/openapi/amazon-iam-access-analyzer-analyzed-resource-api-openapi.yml
 - filename: amazon-iam-access-analyzer-analyzer-api-openapi.yml
   format: yaml
   label: Amazon IAM Access Analyzer API
   slug: amazon-iam-access-analyzer-analyzer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/openapi/amazon-iam-access-analyzer-analyzer-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iam-access-analyzer/openapi/amazon-iam-access-analyzer-analyzer-api-openapi.yml
 - filename: amazon-iam-access-analyzer-archive-rule-api-openapi.yml
   format: yaml
   label: Amazon IAM Access Analyzer Archive Rule API
   slug: amazon-iam-access-analyzer-archive-rule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/openapi/amazon-iam-access-analyzer-archive-rule-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iam-access-analyzer/openapi/amazon-iam-access-analyzer-archive-rule-api-openapi.yml
 - filename: amazon-iam-access-analyzer-finding-api-openapi.yml
   format: yaml
   label: Amazon IAM Access Analyzer Finding API
   slug: amazon-iam-access-analyzer-finding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/openapi/amazon-iam-access-analyzer-finding-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iam-access-analyzer/openapi/amazon-iam-access-analyzer-finding-api-openapi.yml
 - filename: amazon-iam-access-analyzer-policy-api-openapi.yml
   format: yaml
   label: Amazon IAM Access Analyzer Policy API
   slug: amazon-iam-access-analyzer-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/openapi/amazon-iam-access-analyzer-policy-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iam-access-analyzer/openapi/amazon-iam-access-analyzer-policy-api-openapi.yml
 - filename: amazon-iam-access-analyzer-resource-api-openapi.yml
   format: yaml
   label: Amazon IAM Access Analyzer Resource API
   slug: amazon-iam-access-analyzer-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/openapi/amazon-iam-access-analyzer-resource-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iam-access-analyzer/openapi/amazon-iam-access-analyzer-resource-api-openapi.yml
 - filename: amazon-iam-access-analyzer-tags-api-openapi.yml
   format: yaml
   label: Amazon IAM Access Analyzer Tags API
   slug: amazon-iam-access-analyzer-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/openapi/amazon-iam-access-analyzer-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iam-access-analyzer/openapi/amazon-iam-access-analyzer-tags-api-openapi.yml
+- filename: amazon-iam-access-analyzer-operations-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Access Analyzer Iam Access Analyzer Operations API
+  slug: amazon-iam-access-analyzer-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam-access-analyzer/openapi/amazon-iam-access-analyzer-operations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -85,7 +91,7 @@ source_filename: amazon-iam-access-analyzer-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: access-analyzer.amazonaws.com\n  https: false\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/security/amazon-iam-access-analyzer-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amazon-iam-access-analyzer/security/amazon-iam-access-analyzer-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Access Control

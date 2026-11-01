@@ -7,7 +7,7 @@ api_specs:
   label: iSpot.tv API
   slug: ispottv-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ispottv/refs/heads/main/openapi/_ae-authored/ispottv-openapi-generated.yml
+  url: https://artifacts.apis.io/ispottv/openapi/_ae-authored/ispottv-openapi-generated.yml
 auth_types:
 - oauth2
 description: ''
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://develop
   \ 24 hours and asks callers not to\n    mint a new token until the current one has expired.\n  scopes: []\n  scopes_note: >-\n    iSpot publishes no OAuth scope surface. Authorization is account-scoped —\n    access is limited to the brands/industries in the customer's subscription,\n    discoverable at runtime via filter[access]=1 on /v4/brands and /v4/industries\n    rather than through token scopes.\n  credential_issuance: >-\n    Client ID and Client Secret are created by an iSpot account manager /\n    Customer Success representative using internal tooling; there is no\n    self-service credential flow.\n  sources:\n  - https://developer.ispot.tv/documentation/python/base-template\n  - https://developer.ispot.tv/documentation/glossary\n  - https://developer.ispot.tv/sites/default/files/iSpot_API_Integration_Guide_2023-compressed.pdf\nrequest_authorization:\n  header: Authorization\n  format: 'Bearer <access_token>'\n  additional_headers:\n  - name: iSpot-Version\n    required: false\n\
   \    description: >-\n      Date-stamped API version pin. iSpot's own samples send\n      'iSpot-Version: 2017-08-16'; the live API echoes an 'ispot-version'\n      response header (observed value 2024-09-10 on the token endpoint).\nseparate_credentials:\n  note: >-\n    iSpot states explicitly that REST API credentials are NOT interchangeable\n    with developer-site credentials or iSpot Analytics Dashboard credentials —\n    three distinct credential sets.\n  source: https://developer.ispot.tv/sites/default/files/iSpot_API_Integration_Guide_2023-compressed.pdf\npixel_api:\n  note: >-\n    The measurement ingest surface (pi.ispot.tv / pt.ispot.tv) is not\n    OAuth-protected. It authenticates by possession of a client-specific\n    tracking code (Site ID, format TC-####-#) embedded in the request path.\n  source: https://developer.ispot.tv/documentation/unified-measurement\nx-evidence:\n- url: https://api.ispot.tv/v4/oauth2/token\n  method: POST\n  http_status: 400\n  content_type: application/problem+json\n\
   \  observed: >-\n    Live OAuth 2.0 token endpoint; an empty client_credentials request returns\n    RFC 9457 problem+json with type\n    http://developer.ispot.tv/api/v4/errors/invalid-request\n  fetched: '2026-08-13'\n- url: https://api.ispot.tv/v4/brands\n  method: GET\n  http_status: 401\n  content_type: application/problem+json\n  observed: '{\"title\":\"Authentication Required\",\"type\":\"authentication-required\",\"status\":401}'\n  fetched: '2026-08-13'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ispottv/refs/heads/main/authentication/ispottv-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ispottv/authentication/ispottv-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

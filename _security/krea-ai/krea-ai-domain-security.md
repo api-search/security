@@ -5,43 +5,79 @@ api_specs:
   label: Krea Assets API
   slug: krea-ai-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-assets-api-openapi.yml
+  url: https://artifacts.apis.io/krea-ai/openapi/krea-ai-assets-api-openapi.yml
 - filename: krea-ai-general-api-openapi.yml
   format: yaml
   label: Krea General API
   slug: krea-ai-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-general-api-openapi.yml
+  url: https://artifacts.apis.io/krea-ai/openapi/krea-ai-general-api-openapi.yml
 - filename: krea-ai-image-api-openapi.yml
   format: yaml
   label: Krea Image API
   slug: krea-ai-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-image-api-openapi.yml
+  url: https://artifacts.apis.io/krea-ai/openapi/krea-ai-image-api-openapi.yml
 - filename: krea-ai-image-enhance-api-openapi.yml
   format: yaml
   label: Krea Image Enhance API
   slug: krea-ai-image-enhance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-image-enhance-api-openapi.yml
+  url: https://artifacts.apis.io/krea-ai/openapi/krea-ai-image-enhance-api-openapi.yml
 - filename: krea-ai-node-apps-api-openapi.yml
   format: yaml
   label: Krea Node Apps API
   slug: krea-ai-node-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-node-apps-api-openapi.yml
+  url: https://artifacts.apis.io/krea-ai/openapi/krea-ai-node-apps-api-openapi.yml
 - filename: krea-ai-styles-api-openapi.yml
   format: yaml
   label: Krea Styles API
   slug: krea-ai-styles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-styles-api-openapi.yml
+  url: https://artifacts.apis.io/krea-ai/openapi/krea-ai-styles-api-openapi.yml
 - filename: krea-ai-video-api-openapi.yml
   format: yaml
   label: Krea Video API
   slug: krea-ai-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-video-api-openapi.yml
+  url: https://artifacts.apis.io/krea-ai/openapi/krea-ai-video-api-openapi.yml
+- filename: krea-ai-audio-api-openapi.yml
+  format: yaml
+  label: Krea Audio API
+  slug: krea-ai-audio-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/krea-ai/openapi/krea-ai-audio-api-openapi.yml
+- filename: krea-ai-krea-api-openapi.yml
+  format: yaml
+  label: Krea Krea API
+  slug: krea-ai-krea-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/krea-ai/openapi/krea-ai-krea-api-openapi.yml
+- filename: krea-ai-usage-api-openapi.yml
+  format: yaml
+  label: Krea Usage API
+  slug: krea-ai-usage-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/krea-ai/openapi/krea-ai-usage-api-openapi.yml
+- filename: krea-ai-utilities-api-openapi.yml
+  format: yaml
+  label: Krea Utilities API
+  slug: krea-ai-utilities-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/krea-ai/openapi/krea-ai-utilities-api-openapi.yml
+- filename: krea-ai-video-enhance-api-openapi.yml
+  format: yaml
+  label: Krea Video Enhance API
+  slug: krea-ai-video-enhance-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/krea-ai/openapi/krea-ai-video-enhance-api-openapi.yml
+- filename: krea-ai-3-d-api-openapi.yml
+  format: yaml
+  label: Krea 3 D API
+  slug: krea-ai-3-d-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/krea-ai/openapi/krea-ai-3-d-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -83,7 +119,7 @@ source_filename: krea-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.krea.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 11:16:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.krea.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 05:02:27 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.krea.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 19:01:03 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: krea.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/security/krea-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/krea-ai/security/krea-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

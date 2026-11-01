@@ -7,7 +7,7 @@ api_specs:
   label: Wahi Search API
   slug: wahi-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wahi/refs/heads/main/openapi/wahi-search-api-openapi.yml
+  url: https://artifacts.apis.io/wahi/openapi/wahi-search-api-openapi.yml
 auth_types:
 - none
 - http-basic
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: >-\n  https://w
   \ to authenticated CMS users, which is not a public developer path.\nschemes:\n- name: none\n  type: none\n  api: openapi/wahi-listing-search-openapi.yaml\n  applies_to: [searchListings]\n  evidence: >-\n    The published OpenAPI 3.0.1 contains no components.securitySchemes and no security[]\n    requirement on /search. https://wahi.com/.well-known/ai-plugin.json declares\n    \"auth\": {\"type\": \"none\"} and \"is_user_authenticated\": false.\n- name: application-passwords\n  type: http\n  scheme: basic\n  api: openapi/wahi-wp-json-discovery.json\n  authorization_endpoint: https://wahi.com/wp-admin/authorize-application.php\n  public: false\n  evidence: >-\n    The wp-json discovery document declares\n    authentication.application-passwords.endpoints.authorization. WordPress application passwords\n    are HTTP Basic credentials minted per user inside wp-admin; anonymous reads on\n    /wp-json/wp/v2/* need no credential, writes need one.\n- name: wordpress-cookie-nonce\n  type: cookie\n\
   \  api: openapi/wahi-wp-json-discovery.json\n  public: false\n  evidence: >-\n    Standard WordPress REST behaviour for same-origin browser requests (cookie plus X-WP-Nonce).\n    Not documented by Wahi; inherent to the WordPress core REST API it runs.\nconsumer_sign_in:\n  note: >-\n    Consumer sign-in on wahi.com is first-party session auth with a Google One Tap social login\n    wired to https://wahi.com/api/login/google/onetap/callback (HTTP 200, text/html). It is an\n    internal browser redirect route, not a documented API. https://wahi.com/ca/en/login redirects\n    to https://wahi.com/wp-login.php — the CMS admin login, not a consumer or developer sign-up.\ngraphql:\n  endpoint: https://api.prod.wahi.com/graphql\n  documented: false\n  introspection: disabled\n  evidence: >-\n    POST of the introspection query returns\n    {\"errors\":[{\"message\":\"introspection has been disabled\",\"extensions\":{\"code\":\"INTROSPECTION_DISABLED\"}}]}.\n    A GET without a query returns INVALID_GRAPHQL_REQUEST.\
   \ The endpoint is live but undocumented,\n    carries no published auth model, and wahi.com/robots.txt disallows */graphql. No schema was\n    harvested and none is fabricated here.\noauth: null\nscopes: null\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wahi/refs/heads/main/authentication/wahi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/wahi/authentication/wahi-authentication.yml
 summary_line: none/http-basic/cookie · 3 schemes
 tags:
 - Real Estate

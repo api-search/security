@@ -5,31 +5,31 @@ api_specs:
   label: Unitary AI API Authentication API
   slug: unitary-ai-api-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/openapi/unitary-ai-api-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/unitary-ai/openapi/unitary-ai-api-authentication-api-openapi.yml
 - filename: unitary-ai-detoxify-api-openapi.yml
   format: yaml
   label: Unitary AI Detoxify API
   slug: unitary-ai-detoxify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/openapi/unitary-ai-detoxify-api-openapi.yml
+  url: https://artifacts.apis.io/unitary-ai/openapi/unitary-ai-detoxify-api-openapi.yml
 - filename: unitary-ai-items-characteristics-api-openapi.yml
   format: yaml
   label: Unitary AI Items & Characteristics API
   slug: unitary-ai-items-characteristics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/openapi/unitary-ai-items-characteristics-api-openapi.yml
+  url: https://artifacts.apis.io/unitary-ai/openapi/unitary-ai-items-characteristics-api-openapi.yml
 - filename: unitary-ai-moderation-api-openapi.yml
   format: yaml
   label: Unitary AI Moderation API
   slug: unitary-ai-moderation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/openapi/unitary-ai-moderation-api-openapi.yml
+  url: https://artifacts.apis.io/unitary-ai/openapi/unitary-ai-moderation-api-openapi.yml
 - filename: unitary-ai-policy-classification-api-openapi.yml
   format: yaml
   label: Unitary AI Policy Classification API
   slug: unitary-ai-policy-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/openapi/unitary-ai-policy-classification-api-openapi.yml
+  url: https://artifacts.apis.io/unitary-ai/openapi/unitary-ai-policy-classification-api-openapi.yml
 certification_count: 0
 certifications: []
 description: ''
@@ -45,7 +45,7 @@ source_filename: unitary-ai-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nurl: https://trust.unitary.ai/\nplatform: Vanta Trust Report\ncertifications: []\nnotes: >-\n  Unitary publishes a trust center at trust.unitary.ai, linked from the unitary.ai\n  site footer as \"Trust Center\". The page is a Vanta-hosted Trust Report (all\n  assets served from assets.vanta.com; page title \"Unitary Trust Center\"). The\n  report content is rendered client-side behind Vanta's app, so specific\n  certifications could not be verified from the static page — none are asserted\n  here. The privacy policy separately documents GDPR/UK GDPR controller\n  obligations, SCCs, and the UK IDTA.\nevidence:\n  - source: https://trust.unitary.ai/\n    kind: vanta-trust-report\n    detail: HTTP 200; title \"Unitary Trust Center\"; stylesheets and fonts loaded from assets.vanta.com\n  - source: https://www.unitary.ai/\n    kind: footer-link\n    detail: Site footer links \"Trust Center\" to https://trust.unitary.ai/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/security/unitary-ai-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/unitary-ai/security/unitary-ai-trust-center.yml
 summary_line: trust center published
 tags:
 - Company

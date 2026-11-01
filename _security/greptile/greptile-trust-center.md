@@ -5,19 +5,19 @@ api_specs:
   label: Greptile Query API
   slug: greptile-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greptile/refs/heads/main/openapi/greptile-query-api-openapi.yml
+  url: https://artifacts.apis.io/greptile/openapi/greptile-query-api-openapi.yml
 - filename: greptile-repositories-api-openapi.yml
   format: yaml
   label: Greptile Repositories API
   slug: greptile-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greptile/refs/heads/main/openapi/greptile-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/greptile/openapi/greptile-repositories-api-openapi.yml
 - filename: greptile-search-api-openapi.yml
   format: yaml
   label: Greptile Search API
   slug: greptile-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greptile/refs/heads/main/openapi/greptile-search-api-openapi.yml
+  url: https://artifacts.apis.io/greptile/openapi/greptile-search-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2
@@ -34,7 +34,7 @@ source_filename: greptile-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.greptile.com/security\nurl: https://www.greptile.com/security\ncertifications:\n- SOC 2\nevidence:\n- source: https://www.greptile.com/security\n  keywords:\n  - soc 2\n  - soc2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/greptile/refs/heads/main/security/greptile-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/greptile/security/greptile-trust-center.yml
 summary_line: SOC 2
 tags:
 - Artificial Intelligence

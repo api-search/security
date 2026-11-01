@@ -28,7 +28,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://print-api.grabcad.com/public/documentation\ndocs: https://print-api.grabcad.com/public/documentation\nsummary:\n  types:\n  - account-login\n  notes: 'The GrabCAD Print API is gated behind GrabCAD account credentials and the\n    GrabCAD Software Partner Program. The public documentation endpoint presents a\n    login form (\"Please login using your GrabCAD credentials\") and an OAuth-style\n    authorization path at /obscure/login; the machine-facing token/authorization\n    scheme is not published on the open web and requires partner enrollment. No\n    OpenAPI/Swagger securitySchemes are publicly available to derive from.'\nschemes:\n- name: grabcad-account\n  type: account-login\n  description: 'Authentication uses GrabCAD account credentials. Interactive docs\n    require login; programmatic access is provisioned through the GrabCAD Software\n    Partner Program (grabcad.com/software-partner/become-a-partner).'\n\
   \  login_url: https://print-api.grabcad.com/obscure/login\n  sources:\n  - searched:print-api.grabcad.com/public/documentation\npartner_program: https://grabcad.com/software-partner/become-a-partner\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/grabcad/refs/heads/main/authentication/grabcad-authentication.yml
+source_yaml_url: https://artifacts.apis.io/grabcad/authentication/grabcad-authentication.yml
 summary_line: account-login · 1 scheme
 tags:
 - Company

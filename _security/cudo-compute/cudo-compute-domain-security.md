@@ -5,49 +5,85 @@ api_specs:
   label: CUDO Compute Billing API
   slug: cudo-compute-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-billing-api-openapi.yml
-- filename: cudo-compute-data-centers-api-openapi.yml
-  format: yaml
-  label: CUDO Compute Data Centers API
-  slug: cudo-compute-data-centers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-data-centers-api-openapi.yml
+  url: https://artifacts.apis.io/cudo-compute/openapi/cudo-compute-billing-api-openapi.yml
 - filename: cudo-compute-disks-api-openapi.yml
   format: yaml
   label: CUDO Compute Disks API
   slug: cudo-compute-disks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-disks-api-openapi.yml
+  url: https://artifacts.apis.io/cudo-compute/openapi/cudo-compute-disks-api-openapi.yml
 - filename: cudo-compute-images-api-openapi.yml
   format: yaml
   label: CUDO Compute Images API
   slug: cudo-compute-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-images-api-openapi.yml
-- filename: cudo-compute-machine-types-api-openapi.yml
-  format: yaml
-  label: CUDO Compute Machine Types API
-  slug: cudo-compute-machine-types-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-machine-types-api-openapi.yml
+  url: https://artifacts.apis.io/cudo-compute/openapi/cudo-compute-images-api-openapi.yml
 - filename: cudo-compute-networks-api-openapi.yml
   format: yaml
   label: CUDO Compute Networks API
   slug: cudo-compute-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-networks-api-openapi.yml
+  url: https://artifacts.apis.io/cudo-compute/openapi/cudo-compute-networks-api-openapi.yml
 - filename: cudo-compute-ssh-keys-api-openapi.yml
   format: yaml
   label: CUDO Compute SSH Keys API
   slug: cudo-compute-ssh-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-ssh-keys-api-openapi.yml
+  url: https://artifacts.apis.io/cudo-compute/openapi/cudo-compute-ssh-keys-api-openapi.yml
 - filename: cudo-compute-virtual-machines-api-openapi.yml
   format: yaml
   label: CUDO Compute Virtual Machines API
   slug: cudo-compute-virtual-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-virtual-machines-api-openapi.yml
+  url: https://artifacts.apis.io/cudo-compute/openapi/cudo-compute-virtual-machines-api-openapi.yml
+- filename: cudo-compute-api-keys-api-openapi.yml
+  format: yaml
+  label: CUDO Compute API keys API
+  slug: cudo-compute-api-keys-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cudo-compute/openapi/cudo-compute-api-keys-api-openapi.yml
+- filename: cudo-compute-clusters-api-openapi.yml
+  format: yaml
+  label: CUDO Compute Clusters API
+  slug: cudo-compute-clusters-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cudo-compute/openapi/cudo-compute-clusters-api-openapi.yml
+- filename: cudo-compute-machines-api-openapi.yml
+  format: yaml
+  label: CUDO Compute Machines API
+  slug: cudo-compute-machines-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cudo-compute/openapi/cudo-compute-machines-api-openapi.yml
+- filename: cudo-compute-object-storage-api-openapi.yml
+  format: yaml
+  label: CUDO Compute Object storage API
+  slug: cudo-compute-object-storage-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cudo-compute/openapi/cudo-compute-object-storage-api-openapi.yml
+- filename: cudo-compute-projects-api-openapi.yml
+  format: yaml
+  label: CUDO Compute Projects API
+  slug: cudo-compute-projects-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cudo-compute/openapi/cudo-compute-projects-api-openapi.yml
+- filename: cudo-compute-resources-api-openapi.yml
+  format: yaml
+  label: CUDO Compute Resources API
+  slug: cudo-compute-resources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cudo-compute/openapi/cudo-compute-resources-api-openapi.yml
+- filename: cudo-compute-users-api-openapi.yml
+  format: yaml
+  label: CUDO Compute Users API
+  slug: cudo-compute-users-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cudo-compute/openapi/cudo-compute-users-api-openapi.yml
+- filename: cudo-compute-volumes-api-openapi.yml
+  format: yaml
+  label: CUDO Compute Volumes API
+  slug: cudo-compute-volumes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cudo-compute/openapi/cudo-compute-volumes-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -101,7 +137,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cudocompute.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 17:14:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: rest.compute.cudo.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 15:00:09 2026 GMT\n  hsts: null\ndomains:\n- domain: cudocompute.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: cudo.org\n  dnssec: true\n  caa:\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\
   \n  - 0 issue \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/security/cudo-compute-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cudo-compute/security/cudo-compute-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - GPU

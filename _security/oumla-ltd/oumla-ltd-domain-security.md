@@ -5,73 +5,73 @@ api_specs:
   label: Oumla Ltd Addresses API
   slug: oumla-ltd-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/openapi/oumla-ltd-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/oumla-ltd/openapi/oumla-ltd-addresses-api-openapi.yml
 - filename: oumla-ltd-assets-api-openapi.yml
   format: yaml
   label: Oumla Ltd Assets API
   slug: oumla-ltd-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/openapi/oumla-ltd-assets-api-openapi.yml
+  url: https://artifacts.apis.io/oumla-ltd/openapi/oumla-ltd-assets-api-openapi.yml
 - filename: oumla-ltd-contract-interactions-api-openapi.yml
   format: yaml
   label: Oumla Ltd Contract Interactions API
   slug: oumla-ltd-contract-interactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/openapi/oumla-ltd-contract-interactions-api-openapi.yml
+  url: https://artifacts.apis.io/oumla-ltd/openapi/oumla-ltd-contract-interactions-api-openapi.yml
 - filename: oumla-ltd-contract-templates-api-openapi.yml
   format: yaml
   label: Oumla Ltd Contract Templates API
   slug: oumla-ltd-contract-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/openapi/oumla-ltd-contract-templates-api-openapi.yml
+  url: https://artifacts.apis.io/oumla-ltd/openapi/oumla-ltd-contract-templates-api-openapi.yml
 - filename: oumla-ltd-deployed-contracts-api-openapi.yml
   format: yaml
   label: Oumla Ltd Deployed Contracts API
   slug: oumla-ltd-deployed-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/openapi/oumla-ltd-deployed-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/oumla-ltd/openapi/oumla-ltd-deployed-contracts-api-openapi.yml
 - filename: oumla-ltd-networks-api-openapi.yml
   format: yaml
   label: Oumla Ltd Networks API
   slug: oumla-ltd-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/openapi/oumla-ltd-networks-api-openapi.yml
+  url: https://artifacts.apis.io/oumla-ltd/openapi/oumla-ltd-networks-api-openapi.yml
 - filename: oumla-ltd-profiles-api-openapi.yml
   format: yaml
   label: Oumla Ltd Profiles API
   slug: oumla-ltd-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/openapi/oumla-ltd-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/oumla-ltd/openapi/oumla-ltd-profiles-api-openapi.yml
 - filename: oumla-ltd-tokenization-api-openapi.yml
   format: yaml
   label: Oumla Ltd Tokenization API
   slug: oumla-ltd-tokenization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/openapi/oumla-ltd-tokenization-api-openapi.yml
+  url: https://artifacts.apis.io/oumla-ltd/openapi/oumla-ltd-tokenization-api-openapi.yml
 - filename: oumla-ltd-transactions-api-openapi.yml
   format: yaml
   label: Oumla Ltd Transactions API
   slug: oumla-ltd-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/openapi/oumla-ltd-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/oumla-ltd/openapi/oumla-ltd-transactions-api-openapi.yml
 - filename: oumla-ltd-wallets-api-openapi.yml
   format: yaml
   label: Oumla Ltd Wallets API
   slug: oumla-ltd-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/openapi/oumla-ltd-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/oumla-ltd/openapi/oumla-ltd-wallets-api-openapi.yml
 - filename: oumla-ltd-withdraw-api-openapi.yml
   format: yaml
   label: Oumla Ltd Withdraw API
   slug: oumla-ltd-withdraw-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/openapi/oumla-ltd-withdraw-api-openapi.yml
+  url: https://artifacts.apis.io/oumla-ltd/openapi/oumla-ltd-withdraw-api-openapi.yml
 - filename: oumla-ltd-workflows-api-openapi.yml
   format: yaml
   label: Oumla Ltd Workflows API
   slug: oumla-ltd-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/openapi/oumla-ltd-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/oumla-ltd/openapi/oumla-ltd-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -106,7 +106,7 @@ source_filename: oumla-ltd-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: oumla.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 08:26:27 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: sandbox.oumla.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 02:41:44 2026 GMT\n  hsts: null\ndomains:\n- domain: oumla.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/security/oumla-ltd-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/oumla-ltd/security/oumla-ltd-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

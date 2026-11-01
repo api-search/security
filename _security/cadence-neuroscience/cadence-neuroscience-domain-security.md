@@ -27,7 +27,7 @@ source_filename: cadence-neuroscience-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cadenceneuro.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 11:04:09 2026 GMT\n  hsts: false\ndomains:\n- domain: cadenceneuro.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cadence-neuroscience/refs/heads/main/security/cadence-neuroscience-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cadence-neuroscience/security/cadence-neuroscience-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

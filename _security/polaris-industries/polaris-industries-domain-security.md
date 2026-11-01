@@ -27,7 +27,7 @@ source_filename: polaris-industries-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.polaris.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 07:27:13 2026 GMT\n  hsts: null\ndomains:\n- domain: polaris.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/polaris-industries/refs/heads/main/security/polaris-industries-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/polaris-industries/security/polaris-industries-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Fortune 1000

@@ -5,25 +5,25 @@ api_specs:
   label: Truist Financial Accounts API
   slug: truist-financial-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/openapi/truist-financial-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/truist-financial/openapi/truist-financial-accounts-api-openapi.yml
 - filename: truist-financial-commercial-accounts-api-openapi.yml
   format: yaml
   label: Truist Financial Commercial Accounts API
   slug: truist-financial-commercial-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/openapi/truist-financial-commercial-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/truist-financial/openapi/truist-financial-commercial-accounts-api-openapi.yml
 - filename: truist-financial-commercial-transactions-api-openapi.yml
   format: yaml
   label: Truist Financial Commercial Transactions API
   slug: truist-financial-commercial-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/openapi/truist-financial-commercial-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/truist-financial/openapi/truist-financial-commercial-transactions-api-openapi.yml
 - filename: truist-financial-transactions-api-openapi.yml
   format: yaml
   label: Truist Financial Transactions API
   slug: truist-financial-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/openapi/truist-financial-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/truist-financial/openapi/truist-financial-transactions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -75,7 +75,7 @@ source_filename: truist-financial-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.truist.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.truist.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  7 23:59:59 2026 GMT\n  hsts: null\n- host: truist-1132.my.site.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 16 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: truist.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"ccs_certificate_services@truist.com\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"entrust.net\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: site.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/security/truist-financial-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/truist-financial/security/truist-financial-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Banking

@@ -5,49 +5,49 @@ api_specs:
   label: Alpic Analytics API
   slug: alpic-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/alpic/openapi/alpic-analytics-api-openapi.yml
 - filename: alpic-beacon-api-openapi.yml
   format: yaml
   label: Alpic Beacon API
   slug: alpic-beacon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-beacon-api-openapi.yml
+  url: https://artifacts.apis.io/alpic/openapi/alpic-beacon-api-openapi.yml
 - filename: alpic-deployments-api-openapi.yml
   format: yaml
   label: Alpic Deployments API
   slug: alpic-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/alpic/openapi/alpic-deployments-api-openapi.yml
 - filename: alpic-distribution-api-openapi.yml
   format: yaml
   label: Alpic Distribution API
   slug: alpic-distribution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-distribution-api-openapi.yml
+  url: https://artifacts.apis.io/alpic/openapi/alpic-distribution-api-openapi.yml
 - filename: alpic-environments-api-openapi.yml
   format: yaml
   label: Alpic Environments API
   slug: alpic-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-environments-api-openapi.yml
+  url: https://artifacts.apis.io/alpic/openapi/alpic-environments-api-openapi.yml
 - filename: alpic-projects-api-openapi.yml
   format: yaml
   label: Alpic Projects API
   slug: alpic-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-projects-api-openapi.yml
+  url: https://artifacts.apis.io/alpic/openapi/alpic-projects-api-openapi.yml
 - filename: alpic-teams-api-openapi.yml
   format: yaml
   label: Alpic Teams API
   slug: alpic-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-teams-api-openapi.yml
+  url: https://artifacts.apis.io/alpic/openapi/alpic-teams-api-openapi.yml
 - filename: alpic-tunnels-api-openapi.yml
   format: yaml
   label: Alpic Tunnels API
   slug: alpic-tunnels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-tunnels-api-openapi.yml
+  url: https://artifacts.apis.io/alpic/openapi/alpic-tunnels-api-openapi.yml
 certification_count: 0
 certifications: []
 description: ''
@@ -63,7 +63,7 @@ source_filename: alpic-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nprobe: false\nurl: https://trust.alpic.ai/\nsource: https://alpic.ai/legal\ncertifications: []\nnotes: >-\n  Alpic operates a hosted Trust Center at https://trust.alpic.ai/ (linked from the site's\n  legal page). The page is a client-rendered SPA, so specific named certifications\n  (SOC 2 / ISO 27001 / etc.) could not be confirmed from the raw HTML and no public source\n  names them; certifications left empty rather than asserted. Compliance pointer intentionally\n  NOT emitted (no verified published certification program).\nevidence:\n  - {source: https://alpic.ai/legal, kind: trust-center-link}\n  - {source: https://trust.alpic.ai/, kind: trust-center, keywords: [trust center]}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/security/alpic-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/alpic/security/alpic-trust-center.yml
 summary_line: trust center published
 tags:
 - Company

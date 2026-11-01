@@ -8,19 +8,19 @@ api_specs:
   label: Foreign Agricultural Service ESR Data API - United States Weekly Export Sales of Agricultural Commodity Data API
   slug: foreign-agricultural-service-esr-data-api-united-states-weekly-export-sales-of-agricultural-commodity-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/openapi/foreign-agricultural-service-esr-data-api-united-states-weekly-export-sales-of-agricultural-commodity-data-api-openapi.yml
+  url: https://artifacts.apis.io/foreign-agricultural-service/openapi/foreign-agricultural-service-esr-data-api-united-states-weekly-export-sales-of-agricultural-commodity-data-api-openapi.yml
 - filename: foreign-agricultural-service-gats-data-api-us-census-and-un-comtrade-import-export-re-export-data-api-openapi.yml
   format: yaml
   label: Foreign Agricultural Service GATS Data API - US Census and UN ComTrade Import Export & Re-Export Data API
   slug: foreign-agricultural-service-gats-data-api-us-census-and-un-comtrade-import-export-re-export-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/openapi/foreign-agricultural-service-gats-data-api-us-census-and-un-comtrade-import-export-re-export-data-api-openapi.yml
+  url: https://artifacts.apis.io/foreign-agricultural-service/openapi/foreign-agricultural-service-gats-data-api-us-census-and-un-comtrade-import-export-re-export-data-api-openapi.yml
 - filename: foreign-agricultural-service-psd-data-api-production-supply-and-distribution-forecast-data-of-world-agricultural-commodities-api-openapi.yml
   format: yaml
   label: Foreign Agricultural Service PSD Data API - Production, Supply and Distribution Forecast Data of World Agricultural Commodities API
   slug: foreign-agricultural-service-psd-data-api-production-supply-and-distribution-forecast-data-of-world-agricultural-commodities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/openapi/foreign-agricultural-service-psd-data-api-production-supply-and-distribution-forecast-data-of-world-agricultural-commodities-api-openapi.yml
+  url: https://artifacts.apis.io/foreign-agricultural-service/openapi/foreign-agricultural-service-psd-data-api-production-supply-and-distribution-forecast-data-of-world-agricultural-commodities-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-09-10'\nmethod: searched\nsource: >-\n  openapi/_
   \      - openapi/foreign-agricultural-service-gats-api-openapi.yml\n      - openapi/foreign-agricultural-service-psd-api-openapi.yml\nissuance:\n  cost: free\n  onboarding: self-serve\n  signup_url: https://apps.fas.usda.gov/opendatawebv2/#/signup\n  issuer: api.data.gov\n  mechanism: >-\n    The FAS portal embeds the api.data.gov signup widget — the Angular bundle at\n    apps.fas.usda.gov/opendatawebV2/main.*.js loads\n    https://api.data.gov/static/javascripts/signup_embed.js — so the key is minted by\n    api.data.gov and delivered by email, then presented to the FAS API directly.\n  gateway_note: >-\n    Precise distinction, because it changes what a consumer should expect: api.data.gov\n    ISSUES the key but does NOT proxy this API. apps.fas.usda.gov validates the key itself,\n    its responses carry none of the api.data.gov gateway headers, and its error body is FAS's\n    own. So api.data.gov's published rate limits and X-RateLimit headers do not apply here.\n  approval: automatic\
   \ — no application, no review, no terms acceptance beyond the signup form\n  key_rotation:\n    documented: false\n    note: no rotation, revocation or expiry policy is published, and the portal exposes no key-management screen\nobserved_failure_modes:\n  probed: '2026-09-10'\n  probed_endpoint: https://apps.fas.usda.gov/OpenData/api/esr/regions\n  not_probed: >-\n    The authenticated success path was not exercised. API Evangelist holds no FAS API key and\n    does not obtain credentials for profiled providers.\n  modes:\n  - condition: no API_KEY header\n    status: 403\n    body: '\"Bad API Key\"'\n    note: bare JSON string, not an object — a client parsing it as JSON gets a string, not a dict\n  - condition: malformed API_KEY value\n    status: 500\n    body: '{\"message\":\"An error has occurred.\"}'\n    note: >-\n      A real defect. An invalid credential should be 401 or 403; returning 500 tells retry\n      libraries to treat a permanent auth failure as a transient server error\
   \ and retry it.\n      Full write-up in errors/foreign-agricultural-service-problem-types.yml.\ntransport:\n  https_only: true\n  hsts: 'max-age=31536000; includeSubdomains; preload (observed on API responses)'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/authentication/foreign-agricultural-service-authentication.yml
+source_yaml_url: https://artifacts.apis.io/foreign-agricultural-service/authentication/foreign-agricultural-service-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Agriculture

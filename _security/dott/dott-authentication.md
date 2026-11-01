@@ -7,31 +7,31 @@ api_specs:
   label: Dott Discovery API
   slug: dott-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dott/refs/heads/main/openapi/dott-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/dott/openapi/dott-discovery-api-openapi.yml
 - filename: dott-stations-api-openapi.yml
   format: yaml
   label: Dott Stations API
   slug: dott-stations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dott/refs/heads/main/openapi/dott-stations-api-openapi.yml
+  url: https://artifacts.apis.io/dott/openapi/dott-stations-api-openapi.yml
 - filename: dott-system-api-openapi.yml
   format: yaml
   label: Dott System API
   slug: dott-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dott/refs/heads/main/openapi/dott-system-api-openapi.yml
+  url: https://artifacts.apis.io/dott/openapi/dott-system-api-openapi.yml
 - filename: dott-vehicles-api-openapi.yml
   format: yaml
   label: Dott Vehicles API
   slug: dott-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dott/refs/heads/main/openapi/dott-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/dott/openapi/dott-vehicles-api-openapi.yml
 - filename: dott-zones-api-openapi.yml
   format: yaml
   label: Dott Zones API
   slug: dott-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dott/refs/heads/main/openapi/dott-zones-api-openapi.yml
+  url: https://artifacts.apis.io/dott/openapi/dott-zones-api-openapi.yml
 auth_types:
 - none
 - apiKey
@@ -68,7 +68,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://ridedott.dev/docs/services/gbfs/introduction/\ndocs: https://ridedott.dev/docs/services/gbfs/introduction/\nsummary:\n  types: [none, apiKey]\n  notes: >-\n    Dott exposes two variants of the same GBFS 2.3 feeds. The PUBLIC feeds under\n    gbfs.api.ridedott.com/public/v2 are open (no credentials) and use rotating vehicle\n    IDs, matching the open-data intent of GBFS. The PARTNER feeds require authentication\n    (credentials issued by Dott to integration partners) and expose stable, non-rotating\n    vehicle IDs. There is no OAuth2 / OpenID Connect surface; the public spec declares no\n    security schemes.\nschemes:\n  - name: PublicFeeds\n    type: none\n    scheme: open\n    applies_to: https://gbfs.api.ridedott.com/public/v2\n    sources: [openapi/dott-gbfs-openapi.yml]\n    notes: Open, unauthenticated GBFS 2.3 feeds with rotating vehicle IDs.\n  - name: PartnerFeeds\n    type: apiKey\n    scheme: partner-credential\n\
   \    applies_to: https://gbfs.api.ridedott.com (partner base)\n    sources: [https://ridedott.dev/docs/services/gbfs/introduction/]\n    notes: >-\n      Authenticated partner variant; credentials are provisioned by Dott. Removes the\n      rotating-ID behavior of the public feed. Well-known paths on the API host return 401,\n      confirming an auth gate. Exact header name is not published publicly.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dott/refs/heads/main/authentication/dott-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dott/authentication/dott-authentication.yml
 summary_line: none/apiKey · 2 schemes
 tags:
 - Company

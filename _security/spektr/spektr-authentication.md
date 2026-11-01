@@ -8,55 +8,55 @@ api_specs:
   label: Spektr Action API
   slug: spektr-action-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-action-api-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-action-api-api-openapi.yml
 - filename: spektr-events-api-api-openapi.yml
   format: yaml
   label: Spektr Events API
   slug: spektr-events-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-events-api-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-events-api-api-openapi.yml
 - filename: spektr-execution-api-api-openapi.yml
   format: yaml
   label: Spektr Execution API
   slug: spektr-execution-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-execution-api-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-execution-api-api-openapi.yml
 - filename: spektr-import-api-api-openapi.yml
   format: yaml
   label: Spektr Import API
   slug: spektr-import-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-import-api-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-import-api-api-openapi.yml
 - filename: spektr-orchestration-api-api-openapi.yml
   format: yaml
   label: Spektr Orchestration API
   slug: spektr-orchestration-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-orchestration-api-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-orchestration-api-api-openapi.yml
 - filename: spektr-records-api-api-openapi.yml
   format: yaml
   label: Spektr Records API
   slug: spektr-records-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-records-api-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-records-api-api-openapi.yml
 - filename: spektr-transaction-definitions-api-openapi.yml
   format: yaml
   label: Spektr Transaction Definitions API
   slug: spektr-transaction-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-transaction-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-transaction-definitions-api-openapi.yml
 - filename: spektr-transactions-api-openapi.yml
   format: yaml
   label: Spektr Transactions API
   slug: spektr-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-transactions-api-openapi.yml
 - filename: spektr-workspace-fields-api-api-openapi.yml
   format: yaml
   label: Spektr Workspace Fields API
   slug: spektr-workspace-fields-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-workspace-fields-api-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-workspace-fields-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -84,7 +84,7 @@ source_filename: spektr-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/spektr-openapi.yml\ndocs: https://spektr.readme.io/reference/welcome-to-spektr-api-documentation\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nnotes: >-\n  Spektr uses a single API-key scheme. Keys are generated in the developer\n  dashboard (Settings) and sent on every request in the x-api-key header.\n  Keys are workspace-scoped. Webhook deliveries are separately authenticated\n  with an HMAC secret (see conventions/ and asyncapi/).\nschemes:\n- name: x-api-key\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: You can generate API keys in settings from the developer dashboard.\n  sources:\n  - openapi/spektr-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/authentication/spektr-authentication.yml
+source_yaml_url: https://artifacts.apis.io/spektr/authentication/spektr-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

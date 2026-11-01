@@ -7,61 +7,61 @@ api_specs:
   label: Shutterstock Audio API
   slug: shutterstock-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-audio-api-openapi.yml
+  url: https://artifacts.apis.io/shutterstock/openapi/shutterstock-audio-api-openapi.yml
 - filename: shutterstock-computer-vision-api-openapi.yml
   format: yaml
   label: Shutterstock Computer Vision API
   slug: shutterstock-computer-vision-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-computer-vision-api-openapi.yml
+  url: https://artifacts.apis.io/shutterstock/openapi/shutterstock-computer-vision-api-openapi.yml
 - filename: shutterstock-contributors-api-openapi.yml
   format: yaml
   label: Shutterstock Contributors API
   slug: shutterstock-contributors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-contributors-api-openapi.yml
+  url: https://artifacts.apis.io/shutterstock/openapi/shutterstock-contributors-api-openapi.yml
 - filename: shutterstock-editorial-images-api-openapi.yml
   format: yaml
   label: Shutterstock Editorial Images API
   slug: shutterstock-editorial-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-editorial-images-api-openapi.yml
+  url: https://artifacts.apis.io/shutterstock/openapi/shutterstock-editorial-images-api-openapi.yml
 - filename: shutterstock-editorial-video-api-openapi.yml
   format: yaml
   label: Shutterstock Editorial Video API
   slug: shutterstock-editorial-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-editorial-video-api-openapi.yml
+  url: https://artifacts.apis.io/shutterstock/openapi/shutterstock-editorial-video-api-openapi.yml
 - filename: shutterstock-images-api-openapi.yml
   format: yaml
   label: Shutterstock Images API
   slug: shutterstock-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-images-api-openapi.yml
+  url: https://artifacts.apis.io/shutterstock/openapi/shutterstock-images-api-openapi.yml
 - filename: shutterstock-test-api-openapi.yml
   format: yaml
   label: Shutterstock Test API
   slug: shutterstock-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-test-api-openapi.yml
+  url: https://artifacts.apis.io/shutterstock/openapi/shutterstock-test-api-openapi.yml
 - filename: shutterstock-users-api-openapi.yml
   format: yaml
   label: Shutterstock Users API
   slug: shutterstock-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-users-api-openapi.yml
+  url: https://artifacts.apis.io/shutterstock/openapi/shutterstock-users-api-openapi.yml
 - filename: shutterstock-videos-api-openapi.yml
   format: yaml
   label: Shutterstock Videos API
   slug: shutterstock-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-videos-api-openapi.yml
+  url: https://artifacts.apis.io/shutterstock/openapi/shutterstock-videos-api-openapi.yml
 - filename: shutterstock-oauth-api-openapi.yml
   format: yaml
   label: Shutterstock OAUTH API
   slug: shutterstock-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/shutterstock/openapi/shutterstock-oauth-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -98,7 +98,7 @@ source_filename: shutterstock-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/shutterstock-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: basic\n  type: http\n  scheme: basic\n  sources:\n  - openapi/shutterstock-openapi.yml\n- name: customer_accessCode\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.shutterstock.com/oauth/authorize\n    tokenUrl: https://api.shutterstock.com/v2/oauth/access_token\n    scopes: 5\n  sources:\n  - openapi/shutterstock-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/authentication/shutterstock-authentication.yml
+source_yaml_url: https://artifacts.apis.io/shutterstock/authentication/shutterstock-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Image

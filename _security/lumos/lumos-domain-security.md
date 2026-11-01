@@ -5,55 +5,55 @@ api_specs:
   label: Lumos Tasks API
   slug: lumos-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/openapi/lumos-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/lumos/openapi/lumos-tasks-api-openapi.yml
 - filename: lumos-access-reviews-api-openapi.yml
   format: yaml
   label: Lumos Access Reviews API
   slug: lumos-access-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/openapi/lumos-access-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/lumos/openapi/lumos-access-reviews-api-openapi.yml
 - filename: lumos-core-api-openapi.yml
   format: yaml
   label: Lumos Core API
   slug: lumos-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/openapi/lumos-core-api-openapi.yml
+  url: https://artifacts.apis.io/lumos/openapi/lumos-core-api-openapi.yml
 - filename: lumos-integration-webhooks-api-openapi.yml
   format: yaml
   label: Lumos Integration Webhooks API
   slug: lumos-integration-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/openapi/lumos-integration-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/lumos/openapi/lumos-integration-webhooks-api-openapi.yml
 - filename: lumos-knowledge-api-openapi.yml
   format: yaml
   label: Lumos Knowledge API
   slug: lumos-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/openapi/lumos-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/lumos/openapi/lumos-knowledge-api-openapi.yml
 - filename: lumos-lifecycle-management-api-openapi.yml
   format: yaml
   label: Lumos Lifecycle Management API
   slug: lumos-lifecycle-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/openapi/lumos-lifecycle-management-api-openapi.yml
+  url: https://artifacts.apis.io/lumos/openapi/lumos-lifecycle-management-api-openapi.yml
 - filename: lumos-meta-api-openapi.yml
   format: yaml
   label: Lumos Meta API
   slug: lumos-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/openapi/lumos-meta-api-openapi.yml
+  url: https://artifacts.apis.io/lumos/openapi/lumos-meta-api-openapi.yml
 - filename: lumos-vendor-management-api-openapi.yml
   format: yaml
   label: Lumos Vendor Management API
   slug: lumos-vendor-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/openapi/lumos-vendor-management-api-openapi.yml
+  url: https://artifacts.apis.io/lumos/openapi/lumos-vendor-management-api-openapi.yml
 - filename: lumos-app-store-api-openapi.yml
   format: yaml
   label: Lumos App Store API
   slug: lumos-app-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/openapi/lumos-app-store-api-openapi.yml
+  url: https://artifacts.apis.io/lumos/openapi/lumos-app-store-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -93,7 +93,7 @@ source_filename: lumos-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.lumos.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 22:34:19 2026 GMT\n  hsts: false\n- host: developers.lumos.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 00:25:32 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.lumos.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  1 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: lumos.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/security/lumos-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lumos/security/lumos-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Identity and Access Management

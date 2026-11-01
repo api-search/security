@@ -5,55 +5,55 @@ api_specs:
   label: Hubble API
   slug: hubble-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/asyncapi/cilium-hubble-asyncapi.yml
+  url: https://artifacts.apis.io/cilium/asyncapi/cilium-hubble-asyncapi.yml
 - filename: cilium-bgp-api-openapi.yml
   format: yaml
   label: Cilium BGP API
   slug: cilium-bgp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/openapi/cilium-bgp-api-openapi.yml
+  url: https://artifacts.apis.io/cilium/openapi/cilium-bgp-api-openapi.yml
 - filename: cilium-daemon-api-openapi.yml
   format: yaml
   label: Cilium Daemon API
   slug: cilium-daemon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/openapi/cilium-daemon-api-openapi.yml
+  url: https://artifacts.apis.io/cilium/openapi/cilium-daemon-api-openapi.yml
 - filename: cilium-endpoint-api-openapi.yml
   format: yaml
   label: Cilium Endpoint API
   slug: cilium-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/openapi/cilium-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/cilium/openapi/cilium-endpoint-api-openapi.yml
 - filename: cilium-ipam-api-openapi.yml
   format: yaml
   label: Cilium IPAM API
   slug: cilium-ipam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/openapi/cilium-ipam-api-openapi.yml
+  url: https://artifacts.apis.io/cilium/openapi/cilium-ipam-api-openapi.yml
 - filename: cilium-lrp-api-openapi.yml
   format: yaml
   label: Cilium Lrp API
   slug: cilium-lrp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/openapi/cilium-lrp-api-openapi.yml
+  url: https://artifacts.apis.io/cilium/openapi/cilium-lrp-api-openapi.yml
 - filename: cilium-policy-api-openapi.yml
   format: yaml
   label: Cilium Policy API
   slug: cilium-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/openapi/cilium-policy-api-openapi.yml
+  url: https://artifacts.apis.io/cilium/openapi/cilium-policy-api-openapi.yml
 - filename: cilium-prefilter-api-openapi.yml
   format: yaml
   label: Cilium Prefilter API
   slug: cilium-prefilter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/openapi/cilium-prefilter-api-openapi.yml
+  url: https://artifacts.apis.io/cilium/openapi/cilium-prefilter-api-openapi.yml
 - filename: cilium-service-api-openapi.yml
   format: yaml
   label: Cilium Service API
   slug: cilium-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/openapi/cilium-service-api-openapi.yml
+  url: https://artifacts.apis.io/cilium/openapi/cilium-service-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -99,7 +99,7 @@ source_filename: cilium-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cilium.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 19:34:02 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.cilium.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 20:32:49 2026 GMT\n  hsts: false\n- host: tetragon.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 06:35:25 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\ndomains:\n- domain: cilium.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: tetragon.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/security/cilium-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cilium/security/cilium-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud-Native

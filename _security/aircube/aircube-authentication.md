@@ -7,19 +7,19 @@ api_specs:
   label: AirCube AirCube API
   slug: aircube-aircube-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aircube/refs/heads/main/openapi/aircube-aircube-api-api-openapi.yml
+  url: https://artifacts.apis.io/aircube/openapi/aircube-aircube-api-api-openapi.yml
 - filename: aircube-models-api-openapi.yml
   format: yaml
   label: AirCube Models API
   slug: aircube-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aircube/refs/heads/main/openapi/aircube-models-api-openapi.yml
+  url: https://artifacts.apis.io/aircube/openapi/aircube-models-api-openapi.yml
 - filename: aircube-qwen-image-api-openapi.yml
   format: yaml
   label: AirCube Qwen Image API
   slug: aircube-qwen-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aircube/refs/heads/main/openapi/aircube-qwen-image-api-openapi.yml
+  url: https://artifacts.apis.io/aircube/openapi/aircube-qwen-image-api-openapi.yml
 auth_types: []
 description: Authentication via API keys
 kind: authentication
@@ -45,7 +45,7 @@ source_filename: aircube-authentication.yml
 source_heading: Authentication Profile
 source_url: https://aircube.ai/docs/getting-started/authentication
 source_yaml: "generated: '2026-09-25'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://aircube.ai/docs/getting-started/authentication\nsources:\n- https://aircube.ai/docs/getting-started/authentication\n- https://aircube.ai/docs/getting-started/overview\n- https://aircube.ai/docs/getting-started/quickstart\ndescription: Authentication via API keys\nschemes:\n- type: apiKey\n  name: Authorization\n  evidence: All AirCube API requests require authentication via an API key passed as a Bearer token.\n  location: header\n  header: Authorization\n  how_to_obtain: Create an API key in the AirCube dashboard (API Keys page) after signing up; the key starts with the prefix sk- and is provided\n    only once.\nnote: No OAuth2, http-bearer, http-basic, jwt, hmac, mtls, or other schemes are documented.\ndocs: https://aircube.ai/docs/getting-started/authentication\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aircube/refs/heads/main/authentication/aircube-authentication.yml
+source_yaml_url: https://artifacts.apis.io/aircube/authentication/aircube-authentication.yml
 summary_line: 1 scheme
 tags:
 - Artificial Intelligence

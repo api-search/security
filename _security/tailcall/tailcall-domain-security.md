@@ -38,7 +38,7 @@ source_filename: tailcall-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tailcall.run\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 03:37:55 2026 GMT\n  hsts: false\n- host: forgecode.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 10 21:50:18 2026 GMT\n  hsts: false\ndomains:\n- domain: tailcall.run\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: forgecode.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tailcall/refs/heads/main/security/tailcall-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tailcall/security/tailcall-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - GraphQL

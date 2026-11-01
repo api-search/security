@@ -5,19 +5,19 @@ api_specs:
   label: HP Analytics API
   slug: hp-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hp/refs/heads/main/openapi/hp-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/hp/openapi/hp-analytics-api-openapi.yml
 - filename: hp-devices-api-openapi.yml
   format: yaml
   label: HP Devices API
   slug: hp-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hp/refs/heads/main/openapi/hp-devices-api-openapi.yml
+  url: https://artifacts.apis.io/hp/openapi/hp-devices-api-openapi.yml
 - filename: hp-incidents-api-openapi.yml
   format: yaml
   label: HP Incidents API
   slug: hp-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hp/refs/heads/main/openapi/hp-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/hp/openapi/hp-incidents-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -56,7 +56,7 @@ source_filename: hp-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 21 23:59:59 2026 GMT\n  hsts: null\n- host: developers.hp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 23:59:59 2026 GMT\n  hsts: null\n- host: daas.api.hp.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 24 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: hp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hp/refs/heads/main/security/hp-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hp/security/hp-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Computer Hardware

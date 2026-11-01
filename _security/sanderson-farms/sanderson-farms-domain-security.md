@@ -34,7 +34,7 @@ source_filename: sanderson-farms-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sanderson-farms.com\n  https: false\n- host: waynesandersonfarms.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 05:13:15 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: sanderson-farms.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: waynesandersonfarms.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sanderson-farms/refs/heads/main/security/sanderson-farms-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sanderson-farms/security/sanderson-farms-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Agriculture

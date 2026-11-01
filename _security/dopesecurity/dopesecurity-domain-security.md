@@ -5,25 +5,25 @@ api_specs:
   label: dope.security Authorization API
   slug: dopesecurity-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/openapi/dopesecurity-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/dopesecurity/openapi/dopesecurity-authorization-api-openapi.yml
 - filename: dopesecurity-custom-categories-api-openapi.yml
   format: yaml
   label: dope.security Custom Categories API
   slug: dopesecurity-custom-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/openapi/dopesecurity-custom-categories-api-openapi.yml
+  url: https://artifacts.apis.io/dopesecurity/openapi/dopesecurity-custom-categories-api-openapi.yml
 - filename: dopesecurity-endpoints-api-openapi.yml
   format: yaml
   label: dope.security Endpoints API
   slug: dopesecurity-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/openapi/dopesecurity-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/dopesecurity/openapi/dopesecurity-endpoints-api-openapi.yml
 - filename: dopesecurity-policies-api-openapi.yml
   format: yaml
   label: dope.security Policies API
   slug: dopesecurity-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/openapi/dopesecurity-policies-api-openapi.yml
+  url: https://artifacts.apis.io/dopesecurity/openapi/dopesecurity-policies-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: dopesecurity-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dope.security\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 04:03:14 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: inflight.dope.security\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 22:59:30 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.flightdeck.dope.security\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: dope.security\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/security/dopesecurity-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dopesecurity/security/dopesecurity-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

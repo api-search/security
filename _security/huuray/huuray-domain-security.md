@@ -5,55 +5,55 @@ api_specs:
   label: Huuray Balance API
   slug: huuray-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-balance-api-openapi.yml
+  url: https://artifacts.apis.io/huuray/openapi/huuray-balance-api-openapi.yml
 - filename: huuray-cancel-api-openapi.yml
   format: yaml
   label: Huuray Cancel API
   slug: huuray-cancel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-cancel-api-openapi.yml
+  url: https://artifacts.apis.io/huuray/openapi/huuray-cancel-api-openapi.yml
 - filename: huuray-catalogue-api-openapi.yml
   format: yaml
   label: Huuray Catalogue API
   slug: huuray-catalogue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-catalogue-api-openapi.yml
+  url: https://artifacts.apis.io/huuray/openapi/huuray-catalogue-api-openapi.yml
 - filename: huuray-order-api-openapi.yml
   format: yaml
   label: Huuray Order API
   slug: huuray-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-order-api-openapi.yml
+  url: https://artifacts.apis.io/huuray/openapi/huuray-order-api-openapi.yml
 - filename: huuray-resend-api-openapi.yml
   format: yaml
   label: Huuray Resend API
   slug: huuray-resend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-resend-api-openapi.yml
+  url: https://artifacts.apis.io/huuray/openapi/huuray-resend-api-openapi.yml
 - filename: huuray-search-api-openapi.yml
   format: yaml
   label: Huuray Search API
   slug: huuray-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-search-api-openapi.yml
+  url: https://artifacts.apis.io/huuray/openapi/huuray-search-api-openapi.yml
 - filename: huuray-stock-api-openapi.yml
   format: yaml
   label: Huuray Stock API
   slug: huuray-stock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-stock-api-openapi.yml
+  url: https://artifacts.apis.io/huuray/openapi/huuray-stock-api-openapi.yml
 - filename: huuray-template-api-openapi.yml
   format: yaml
   label: Huuray Template API
   slug: huuray-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-template-api-openapi.yml
+  url: https://artifacts.apis.io/huuray/openapi/huuray-template-api-openapi.yml
 - filename: huuray-exchange-rates-api-openapi.yml
   format: yaml
   label: Huuray Exchange Rates API
   slug: huuray-exchange-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-exchange-rates-api-openapi.yml
+  url: https://artifacts.apis.io/huuray/openapi/huuray-exchange-rates-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -89,7 +89,7 @@ source_filename: huuray-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: huuray.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 00:10:51 2026 GMT\n  hsts: false\n- host: api.huuray.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep  7 04:27:21 2026 GMT\n  hsts: null\ndomains:\n- domain: huuray.com\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:sslreports@onlinedata.dk\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/security/huuray-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/huuray/security/huuray-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - E-Commerce

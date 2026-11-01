@@ -7,13 +7,13 @@ api_specs:
   label: Materialize Streaming Sources and Sinks (AsyncAPI)
   slug: materialize-streaming-asyncapi
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/materialize/refs/heads/main/asyncapi/materialize-asyncapi.yml
+  url: https://artifacts.apis.io/materialize/asyncapi/materialize-asyncapi.yml
 - filename: materialize-sql-api-openapi.yml
   format: yaml
   label: Materialize Sql API
   slug: materialize-sql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/materialize/refs/heads/main/openapi/materialize-sql-api-openapi.yml
+  url: https://artifacts.apis.io/materialize/openapi/materialize-sql-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -42,7 +42,7 @@ source_filename: materialize-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/materialize-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  description: |-\n    HTTP Basic authentication using your Materialize email as the username\n    and an app password as the password.\n  sources:\n  - openapi/materialize-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/materialize/refs/heads/main/authentication/materialize-authentication.yml
+source_yaml_url: https://artifacts.apis.io/materialize/authentication/materialize-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Streaming

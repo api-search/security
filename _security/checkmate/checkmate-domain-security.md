@@ -5,19 +5,19 @@ api_specs:
   label: Checkmate Health API
   slug: checkmate-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/openapi/checkmate-health-api-openapi.yml
+  url: https://artifacts.apis.io/checkmate/openapi/checkmate-health-api-openapi.yml
 - filename: checkmate-merchants-api-openapi.yml
   format: yaml
   label: Checkmate Merchants API
   slug: checkmate-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/openapi/checkmate-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/checkmate/openapi/checkmate-merchants-api-openapi.yml
 - filename: checkmate-shoppers-api-openapi.yml
   format: yaml
   label: Checkmate Shoppers API
   slug: checkmate-shoppers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/openapi/checkmate-shoppers-api-openapi.yml
+  url: https://artifacts.apis.io/checkmate/openapi/checkmate-shoppers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: checkmate-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: joincheckmate.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 04:29:29 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: openstock.sh\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 20:20:54 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.openstock.sh\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 20:20:54 2026 GMT\n  hsts: false\ndomains:\n- domain: joincheckmate.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: openstock.sh\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/security/checkmate-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/checkmate/security/checkmate-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

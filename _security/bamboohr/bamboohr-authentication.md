@@ -13,37 +13,37 @@ api_specs:
   label: BambooHR Directory API
   slug: bamboohr-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/openapi/bamboohr-directory-api-openapi.yml
+  url: https://artifacts.apis.io/bamboohr/openapi/bamboohr-directory-api-openapi.yml
 - filename: bamboohr-employees-api-openapi.yml
   format: yaml
   label: BambooHR Employees API
   slug: bamboohr-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/openapi/bamboohr-employees-api-openapi.yml
+  url: https://artifacts.apis.io/bamboohr/openapi/bamboohr-employees-api-openapi.yml
 - filename: bamboohr-files-api-openapi.yml
   format: yaml
   label: BambooHR Files API
   slug: bamboohr-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/openapi/bamboohr-files-api-openapi.yml
+  url: https://artifacts.apis.io/bamboohr/openapi/bamboohr-files-api-openapi.yml
 - filename: bamboohr-meta-api-openapi.yml
   format: yaml
   label: BambooHR Meta API
   slug: bamboohr-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/openapi/bamboohr-meta-api-openapi.yml
+  url: https://artifacts.apis.io/bamboohr/openapi/bamboohr-meta-api-openapi.yml
 - filename: bamboohr-reports-api-openapi.yml
   format: yaml
   label: BambooHR Reports API
   slug: bamboohr-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/openapi/bamboohr-reports-api-openapi.yml
+  url: https://artifacts.apis.io/bamboohr/openapi/bamboohr-reports-api-openapi.yml
 - filename: bamboohr-time-off-api-openapi.yml
   format: yaml
   label: BambooHR Time Off API
   slug: bamboohr-time-off-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/openapi/bamboohr-time-off-api-openapi.yml
+  url: https://artifacts.apis.io/bamboohr/openapi/bamboohr-time-off-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -82,7 +82,7 @@ source_filename: bamboohr-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bamboohr-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic auth. Use the API key as the username and any non-empty string as\n    the password.\n  sources:\n  - openapi/bamboohr-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.bamboohr.com/oauth/authorize.php\n    tokenUrl: https://api.bamboohr.com/token.php\n    scopes: 1\n  description: OAuth 2.0 authorization code flow (for multi-customer apps).\n  sources:\n  - openapi/bamboohr-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/authentication/bamboohr-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bamboohr/authentication/bamboohr-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Human Resources

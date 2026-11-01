@@ -15,7 +15,7 @@ source_filename: scanii-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.scanii.com/\nurl: https://trust.scanii.com/\ncertifications:\n- GDPR\nevidence:\n- source: https://trust.scanii.com/\n  keywords:\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scanii/refs/heads/main/security/scanii-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/scanii/security/scanii-trust-center.yml
 summary_line: GDPR
 tags:
 - Anti Malware

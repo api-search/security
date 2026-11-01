@@ -7,31 +7,31 @@ api_specs:
   label: Prophecy.io Connections API
   slug: prophecyio-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/openapi/prophecyio-connections-api-openapi.yml
+  url: https://artifacts.apis.io/prophecyio/openapi/prophecyio-connections-api-openapi.yml
 - filename: prophecyio-fabrics-api-openapi.yml
   format: yaml
   label: Prophecy.io Fabrics API
   slug: prophecyio-fabrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/openapi/prophecyio-fabrics-api-openapi.yml
+  url: https://artifacts.apis.io/prophecyio/openapi/prophecyio-fabrics-api-openapi.yml
 - filename: prophecyio-pipeline-runs-api-openapi.yml
   format: yaml
   label: Prophecy.io Pipeline Runs API
   slug: prophecyio-pipeline-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/openapi/prophecyio-pipeline-runs-api-openapi.yml
+  url: https://artifacts.apis.io/prophecyio/openapi/prophecyio-pipeline-runs-api-openapi.yml
 - filename: prophecyio-project-deployment-api-openapi.yml
   format: yaml
   label: Prophecy.io Project Deployment API
   slug: prophecyio-project-deployment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/openapi/prophecyio-project-deployment-api-openapi.yml
+  url: https://artifacts.apis.io/prophecyio/openapi/prophecyio-project-deployment-api-openapi.yml
 - filename: prophecyio-secrets-api-openapi.yml
   format: yaml
   label: Prophecy.io Secrets API
   slug: prophecyio-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/openapi/prophecyio-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/prophecyio/openapi/prophecyio-secrets-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -61,7 +61,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://docs.prophecy.ai/api-reference/introduction\ndocs: https://docs.prophecy.ai/api-reference/introduction\nsummary:\n  types: [http]\n  scheme: bearer\n  token_kind: personal-access-token\n  notes: >-\n    The Prophecy REST API authenticates with a per-user Personal Access Token\n    (PAT) sent as a bearer token in the request headers. Tokens are generated in\n    the Prophecy UI under Settings > Access Tokens (name + expiration). API\n    permissions are scoped to the token owner's user permissions. The OpenAPI\n    documents published by Prophecy do not declare a securityScheme, so this\n    profile is sourced from the API reference docs rather than derived.\nschemes:\n- name: personalAccessToken\n  type: http\n  scheme: bearer\n  bearerFormat: PAT\n  location: header\n  header: Authorization\n  sources:\n  - https://docs.prophecy.ai/api-reference/introduction\nidentity:\n  providers: [SAML, LDAP, Microsoft Entra ID,\
   \ Google SSO]\n  mfa: true\n  scim: optional\n  rbac: true\n  docs: https://docs.prophecy.ai/administration/management/authentication/authentication\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/authentication/prophecyio-authentication.yml
+source_yaml_url: https://artifacts.apis.io/prophecyio/authentication/prophecyio-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

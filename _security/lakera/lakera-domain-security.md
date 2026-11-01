@@ -1,23 +1,29 @@
 ---
 api_specs:
-- filename: lakera-guard-api-openapi.yml
-  format: yaml
-  label: Lakera Guard API
-  slug: lakera-guard-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/openapi/lakera-guard-api-openapi.yml
-- filename: lakera-health-api-openapi.yml
-  format: yaml
-  label: Lakera Health API
-  slug: lakera-health-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/openapi/lakera-health-api-openapi.yml
 - filename: lakera-policies-api-openapi.yml
   format: yaml
   label: Lakera Policies API
   slug: lakera-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/openapi/lakera-policies-api-openapi.yml
+  url: https://artifacts.apis.io/lakera/openapi/lakera-policies-api-openapi.yml
+- filename: lakera-analytics-api-openapi.yml
+  format: yaml
+  label: Lakera Analytics API
+  slug: lakera-analytics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lakera/openapi/lakera-analytics-api-openapi.yml
+- filename: lakera-logs-api-openapi.yml
+  format: yaml
+  label: Lakera Logs API
+  slug: lakera-logs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lakera/openapi/lakera-logs-api-openapi.yml
+- filename: lakera-projects-api-openapi.yml
+  format: yaml
+  label: Lakera Projects API
+  slug: lakera-projects-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lakera/openapi/lakera-projects-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -64,7 +70,7 @@ source_filename: lakera-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.lakera.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 01:18:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.lakera.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 10:00:39 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: gandalf.lakera.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 10:09:21 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: lakera.ai\n  dnssec: false\n  caa:\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/security/lakera-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lakera/security/lakera-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI Security

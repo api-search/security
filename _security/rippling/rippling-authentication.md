@@ -7,13 +7,13 @@ api_specs:
   label: Rippling Webhooks API
   slug: rippling-webhooks-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rippling/refs/heads/main/asyncapi/rippling-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/rippling/asyncapi/rippling-webhooks-asyncapi.yml
 - filename: rippling-platform-api-openapi.yml
   format: yaml
   label: Rippling Platform API
   slug: rippling-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rippling/refs/heads/main/openapi/rippling-platform-api-openapi.yml
+  url: https://artifacts.apis.io/rippling/openapi/rippling-platform-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -43,7 +43,7 @@ source_filename: rippling-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/rippling-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: |-\n    Rippling API tokens are issued via OAuth2 (or generated as personal/app\n    tokens) and supplied as `Authorization: Bearer <token>`.\n  sources:\n  - openapi/rippling-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rippling/refs/heads/main/authentication/rippling-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rippling/authentication/rippling-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Human Resources

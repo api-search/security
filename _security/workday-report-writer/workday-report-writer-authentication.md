@@ -7,49 +7,49 @@ api_specs:
   label: Workday Report Writer Agent Definition API
   slug: workday-report-writer-agentdefinition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/openapi/workday-report-writer-agentdefinition-api-openapi.yml
+  url: https://artifacts.apis.io/workday-report-writer/openapi/workday-report-writer-agentdefinition-api-openapi.yml
 - filename: workday-report-writer-buckets-api-openapi.yml
   format: yaml
   label: Workday Report Writer Buckets API
   slug: workday-report-writer-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/openapi/workday-report-writer-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/workday-report-writer/openapi/workday-report-writer-buckets-api-openapi.yml
 - filename: workday-report-writer-custom-reports-api-openapi.yml
   format: yaml
   label: Workday Report Writer Custom Reports API
   slug: workday-report-writer-custom-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/openapi/workday-report-writer-custom-reports-api-openapi.yml
+  url: https://artifacts.apis.io/workday-report-writer/openapi/workday-report-writer-custom-reports-api-openapi.yml
 - filename: workday-report-writer-data-change-tasks-api-openapi.yml
   format: yaml
   label: Workday Report Writer Data Change Tasks API
   slug: workday-report-writer-data-change-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/openapi/workday-report-writer-data-change-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/workday-report-writer/openapi/workday-report-writer-data-change-tasks-api-openapi.yml
 - filename: workday-report-writer-data-sources-api-openapi.yml
   format: yaml
   label: Workday Report Writer Data Sources API
   slug: workday-report-writer-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/openapi/workday-report-writer-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/workday-report-writer/openapi/workday-report-writer-data-sources-api-openapi.yml
 - filename: workday-report-writer-datasets-api-openapi.yml
   format: yaml
   label: Workday Report Writer Datasets API
   slug: workday-report-writer-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/openapi/workday-report-writer-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/workday-report-writer/openapi/workday-report-writer-datasets-api-openapi.yml
 - filename: workday-report-writer-query-execution-api-openapi.yml
   format: yaml
   label: Workday Report Writer Query Execution API
   slug: workday-report-writer-query-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/openapi/workday-report-writer-query-execution-api-openapi.yml
+  url: https://artifacts.apis.io/workday-report-writer/openapi/workday-report-writer-query-execution-api-openapi.yml
 - filename: workday-report-writer-tables-api-openapi.yml
   format: yaml
   label: Workday Report Writer Tables API
   slug: workday-report-writer-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/openapi/workday-report-writer-tables-api-openapi.yml
+  url: https://artifacts.apis.io/workday-report-writer/openapi/workday-report-writer-tables-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -85,7 +85,7 @@ source_filename: workday-report-writer-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/workday-report-writer-prism-analytics-openapi.yml, openapi/workday-report-writer-raas-openapi.yml,\n  openapi/workday-report-writer-wql-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: OAuth 2.0 bearer token obtained from Workday token endpoint. Requires the Prism\n    Analytics scope.\n  sources:\n  - openapi/workday-report-writer-prism-analytics-openapi.yml\n  - openapi/workday-report-writer-raas-openapi.yml\n  - openapi/workday-report-writer-wql-openapi.yml\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication using an Integration System User (ISU) username and\n    password configured in Workday\n  sources:\n  - openapi/workday-report-writer-raas-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/authentication/workday-report-writer-authentication.yml
+source_yaml_url: https://artifacts.apis.io/workday-report-writer/authentication/workday-report-writer-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Analytics

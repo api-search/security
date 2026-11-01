@@ -7,37 +7,37 @@ api_specs:
   label: drchrono Administrative API
   slug: drchrono-administrative-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/openapi/drchrono-administrative-api-openapi.yml
+  url: https://artifacts.apis.io/drchrono/openapi/drchrono-administrative-api-openapi.yml
 - filename: drchrono-audit-api-openapi.yml
   format: yaml
   label: drchrono Audit API
   slug: drchrono-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/openapi/drchrono-audit-api-openapi.yml
+  url: https://artifacts.apis.io/drchrono/openapi/drchrono-audit-api-openapi.yml
 - filename: drchrono-availability-api-openapi.yml
   format: yaml
   label: drchrono Availability API
   slug: drchrono-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/openapi/drchrono-availability-api-openapi.yml
+  url: https://artifacts.apis.io/drchrono/openapi/drchrono-availability-api-openapi.yml
 - filename: drchrono-billing-api-openapi.yml
   format: yaml
   label: drchrono Billing API
   slug: drchrono-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/openapi/drchrono-billing-api-openapi.yml
+  url: https://artifacts.apis.io/drchrono/openapi/drchrono-billing-api-openapi.yml
 - filename: drchrono-clinical-api-openapi.yml
   format: yaml
   label: drchrono Clinical API
   slug: drchrono-clinical-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/openapi/drchrono-clinical-api-openapi.yml
+  url: https://artifacts.apis.io/drchrono/openapi/drchrono-clinical-api-openapi.yml
 - filename: drchrono-practice-management-api-openapi.yml
   format: yaml
   label: drchrono Practice Management API
   slug: drchrono-practice-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/openapi/drchrono-practice-management-api-openapi.yml
+  url: https://artifacts.apis.io/drchrono/openapi/drchrono-practice-management-api-openapi.yml
 auth_types:
 - oauth2
 description: DrChrono runs two independent OAuth 2.0 estates that share no tokens, no scopes and no discovery surface. The proprietary REST v4 API authenticates against app.drchrono.com with a DrChrono-specific scope vocabulary and a hard 48-hour access-token lifetime. The ONC-certified SMART on FHIR R4 API authenticates against a separate EverHealth-hosted authorization server with SMART scopes, PKCE and OIDC. A token from one is not valid against the other.
@@ -169,7 +169,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: https://app.drc
   \n  - name: drchrono_iframe_jwt\n    surface: Embedded iframe applications inside the DrChrono patient chart and clinical note\n    type: jwt\n    algorithm: HS256\n    key: the API application's client_secret\n    claims: [doctor_id, patient_id, practice_id, iat]\n    description: >-\n      DrChrono appends a signed JWT to the iframe src when rendering a third-party application inside\n      the patient chart or clinical note page. The JWT signs the context parameters so the embedding\n      application can verify it is being loaded by an authorised DrChrono user. Because same-origin\n      policy blocks postMessage-free data exchange, the JWT is the only trusted context channel.\n    guidance: >-\n      Validate the JWT with a vetted library and use ONLY the claims extracted from it — never the raw\n      query parameters. DrChrono's own example allows 60 seconds of clock drift.\n    source: https://app.drchrono.com/api-docs/\n\n  - name: drchrono_webhook_secret\n    surface: Outbound\
   \ webhook deliveries\n    type: shared secret\n    header: X-drchrono-signature\n    verification_handshake: HMAC-SHA256 hex digest of the msg query parameter, keyed by the webhook secret token\n    description: >-\n      Webhook deliveries carry the shared secret in a header rather than an HMAC of the request body,\n      so the header authenticates the sender but attests nothing about payload integrity. A separate\n      HMAC-SHA256 challenge/response is used once at webhook creation and whenever the callback URL\n      changes.\n    source: https://app.drchrono.com/api-docs/\n\nfindings:\n  - >-\n    Neither DrChrono OAuth surface publishes RFC 8414 authorization-server metadata for the REST API;\n    only the FHIR estate is discoverable.\n  - >-\n    The 48-hour access token is short for a background integration and there is no client-credentials\n    flow on the REST API — every REST integration is bound to a human user's authorization and must\n    keep a refresh token alive indefinitely.\n\
   \  - >-\n    PKCE is available on the FHIR surface and absent from the REST surface's documentation.\n  - >-\n    The scope/permission double gate is the defining characteristic of DrChrono auth and is invisible\n    in the OpenAPI. It is documented in prose only.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/authentication/drchrono-authentication.yml
+source_yaml_url: https://artifacts.apis.io/drchrono/authentication/drchrono-authentication.yml
 summary_line: oauth2 · 4 schemes
 tags:
 - Electronic Health Records

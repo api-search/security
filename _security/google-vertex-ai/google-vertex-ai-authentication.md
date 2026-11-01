@@ -7,31 +7,31 @@ api_specs:
   label: Google Vertex AI Datasets API
   slug: google-vertex-ai-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vertex-ai/refs/heads/main/openapi/google-vertex-ai-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/google-vertex-ai/openapi/google-vertex-ai-datasets-api-openapi.yml
 - filename: google-vertex-ai-endpoints-api-openapi.yml
   format: yaml
   label: Google Vertex AI Endpoints API
   slug: google-vertex-ai-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vertex-ai/refs/heads/main/openapi/google-vertex-ai-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/google-vertex-ai/openapi/google-vertex-ai-endpoints-api-openapi.yml
 - filename: google-vertex-ai-models-api-openapi.yml
   format: yaml
   label: Google Vertex AI Models API
   slug: google-vertex-ai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vertex-ai/refs/heads/main/openapi/google-vertex-ai-models-api-openapi.yml
+  url: https://artifacts.apis.io/google-vertex-ai/openapi/google-vertex-ai-models-api-openapi.yml
 - filename: google-vertex-ai-predictions-api-openapi.yml
   format: yaml
   label: Google Vertex AI Predictions API
   slug: google-vertex-ai-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vertex-ai/refs/heads/main/openapi/google-vertex-ai-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/google-vertex-ai/openapi/google-vertex-ai-predictions-api-openapi.yml
 - filename: google-vertex-ai-trainingpipelines-api-openapi.yml
   format: yaml
   label: Google Vertex AI TrainingPipelines API
   slug: google-vertex-ai-trainingpipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vertex-ai/refs/heads/main/openapi/google-vertex-ai-trainingpipelines-api-openapi.yml
+  url: https://artifacts.apis.io/google-vertex-ai/openapi/google-vertex-ai-trainingpipelines-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -62,7 +62,7 @@ source_filename: google-vertex-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 1\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-vertex-ai/refs/heads/main/authentication/google-vertex-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-vertex-ai/authentication/google-vertex-ai-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Artificial Intelligence

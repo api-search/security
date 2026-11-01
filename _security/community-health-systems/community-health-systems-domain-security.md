@@ -5,25 +5,25 @@ api_specs:
   label: Community Health Systems Claims API
   slug: community-health-systems-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/openapi/community-health-systems-claims-api-openapi.yml
+  url: https://artifacts.apis.io/community-health-systems/openapi/community-health-systems-claims-api-openapi.yml
 - filename: community-health-systems-formulary-api-openapi.yml
   format: yaml
   label: Community Health Systems Formulary API
   slug: community-health-systems-formulary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/openapi/community-health-systems-formulary-api-openapi.yml
+  url: https://artifacts.apis.io/community-health-systems/openapi/community-health-systems-formulary-api-openapi.yml
 - filename: community-health-systems-patient-api-openapi.yml
   format: yaml
   label: Community Health Systems Patient API
   slug: community-health-systems-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/openapi/community-health-systems-patient-api-openapi.yml
+  url: https://artifacts.apis.io/community-health-systems/openapi/community-health-systems-patient-api-openapi.yml
 - filename: community-health-systems-practitioner-api-openapi.yml
   format: yaml
   label: Community Health Systems Practitioner API
   slug: community-health-systems-practitioner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/openapi/community-health-systems-practitioner-api-openapi.yml
+  url: https://artifacts.apis.io/community-health-systems/openapi/community-health-systems-practitioner-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -55,7 +55,7 @@ source_filename: community-health-systems-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.chs.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 24 18:46:33 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.chs.net\n  https: false\ndomains:\n- domain: chs.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/security/community-health-systems-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/community-health-systems/security/community-health-systems-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - CMS-9115-F

@@ -5,25 +5,25 @@ api_specs:
   label: Vast Haven-1 Station
   slug: haven-1-station
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vast-space/refs/heads/main/openapi/_original/vast-space-openapi.yml
+  url: https://artifacts.apis.io/vast-space/openapi/_original/vast-space-openapi.yml
 - filename: vast-space-openapi.yml
   format: yaml
   label: Vast Haven-2 Station
   slug: haven-2-station
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vast-space/refs/heads/main/openapi/_original/vast-space-openapi.yml
+  url: https://artifacts.apis.io/vast-space/openapi/_original/vast-space-openapi.yml
 - filename: vast-space-openapi.yml
   format: yaml
   label: Vast Haven-1 Lab
   slug: haven-1-lab
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vast-space/refs/heads/main/openapi/_original/vast-space-openapi.yml
+  url: https://artifacts.apis.io/vast-space/openapi/_original/vast-space-openapi.yml
 - filename: vast-space-openapi.yml
   format: yaml
   label: Vast Payload & Research Opportunities
   slug: payload-research-opportunities
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vast-space/refs/heads/main/openapi/_original/vast-space-openapi.yml
+  url: https://artifacts.apis.io/vast-space/openapi/_original/vast-space-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: vast-space-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.vastspace.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 21:15:03 2026 GMT\n  hsts: false\ndomains:\n- domain: vastspace.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vast-space/refs/heads/main/security/vast-space-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vast-space/security/vast-space-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Space

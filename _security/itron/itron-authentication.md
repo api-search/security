@@ -7,25 +7,25 @@ api_specs:
   label: Itron Device Templates API
   slug: itron-device-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/openapi/itron-device-templates-api-openapi.yml
+  url: https://artifacts.apis.io/itron/openapi/itron-device-templates-api-openapi.yml
 - filename: itron-devices-api-openapi.yml
   format: yaml
   label: Itron Devices API
   slug: itron-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/openapi/itron-devices-api-openapi.yml
+  url: https://artifacts.apis.io/itron/openapi/itron-devices-api-openapi.yml
 - filename: itron-observations-api-openapi.yml
   format: yaml
   label: Itron Observations API
   slug: itron-observations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/openapi/itron-observations-api-openapi.yml
+  url: https://artifacts.apis.io/itron/openapi/itron-observations-api-openapi.yml
 - filename: itron-tokens-api-openapi.yml
   format: yaml
   label: Itron Tokens API
   slug: itron-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/openapi/itron-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/itron/openapi/itron-tokens-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -53,7 +53,7 @@ source_filename: itron-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/starfish-data-platform-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Bearer token issued by the Tokens API (short-lived) or obtained via OAuth client\n    credentials.\n  sources:\n  - openapi/starfish-data-platform-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/authentication/itron-authentication.yml
+source_yaml_url: https://artifacts.apis.io/itron/authentication/itron-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Itron

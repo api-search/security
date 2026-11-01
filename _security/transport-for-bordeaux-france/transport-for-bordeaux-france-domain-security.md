@@ -32,7 +32,7 @@ source_filename: transport-for-bordeaux-france-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: opendata.bordeaux-metropole.fr\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: bordeaux-metropole.fr\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"digicert.com.\"\n  - 0 issue \"digicert.com\"\n  - 0 wild \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transport-for-bordeaux-france/refs/heads/main/security/transport-for-bordeaux-france-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/transport-for-bordeaux-france/security/transport-for-bordeaux-france-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Transportation

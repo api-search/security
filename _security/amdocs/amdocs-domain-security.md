@@ -5,25 +5,25 @@ api_specs:
   label: Amdocs Billing API
   slug: amdocs-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/openapi/amdocs-billing-api-openapi.yml
+  url: https://artifacts.apis.io/amdocs/openapi/amdocs-billing-api-openapi.yml
 - filename: amdocs-customers-api-openapi.yml
   format: yaml
   label: Amdocs Customers API
   slug: amdocs-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/openapi/amdocs-customers-api-openapi.yml
+  url: https://artifacts.apis.io/amdocs/openapi/amdocs-customers-api-openapi.yml
 - filename: amdocs-products-api-openapi.yml
   format: yaml
   label: Amdocs Products API
   slug: amdocs-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/openapi/amdocs-products-api-openapi.yml
+  url: https://artifacts.apis.io/amdocs/openapi/amdocs-products-api-openapi.yml
 - filename: amdocs-subscriptions-api-openapi.yml
   format: yaml
   label: Amdocs Subscriptions API
   slug: amdocs-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/openapi/amdocs-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/amdocs/openapi/amdocs-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -66,7 +66,7 @@ source_filename: amdocs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.amdocs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  5 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: devportal.amdocs-dbs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 14 23:59:59 2027 GMT\n  hsts: false\n- host: api.amdocs-dbs.com\n  https: false\ndomains:\n- domain: amdocs.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amdocs-dbs.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/security/amdocs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amdocs/security/amdocs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Telecommunications

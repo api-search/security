@@ -5,13 +5,13 @@ api_specs:
   label: Mediastack News API
   slug: mediastack-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediastack/refs/heads/main/openapi/mediastack-news-api-openapi.yml
+  url: https://artifacts.apis.io/mediastack/openapi/mediastack-news-api-openapi.yml
 - filename: mediastack-sources-api-openapi.yml
   format: yaml
   label: Mediastack Sources API
   slug: mediastack-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediastack/refs/heads/main/openapi/mediastack-sources-api-openapi.yml
+  url: https://artifacts.apis.io/mediastack/openapi/mediastack-sources-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: mediastack-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mediastack.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 05:11:12 2026 GMT\n  hsts: false\n- host: api.mediastack.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 05:11:12 2026 GMT\n  hsts: null\ndomains:\n- domain: mediastack.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mediastack/refs/heads/main/security/mediastack-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mediastack/security/mediastack-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - News

@@ -5,55 +5,55 @@ api_specs:
   label: Open-Meteo Air Quality APIs API
   slug: open-meteo-air-quality-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/openapi/open-meteo-air-quality-apis-api-openapi.yml
+  url: https://artifacts.apis.io/open-meteo/openapi/open-meteo-air-quality-apis-api-openapi.yml
 - filename: open-meteo-climate-change-apis-api-openapi.yml
   format: yaml
   label: Open-Meteo Climate Change APIs API
   slug: open-meteo-climate-change-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/openapi/open-meteo-climate-change-apis-api-openapi.yml
+  url: https://artifacts.apis.io/open-meteo/openapi/open-meteo-climate-change-apis-api-openapi.yml
 - filename: open-meteo-elevation-api-api-openapi.yml
   format: yaml
   label: Open-Meteo Elevation API
   slug: open-meteo-elevation-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/openapi/open-meteo-elevation-api-api-openapi.yml
+  url: https://artifacts.apis.io/open-meteo/openapi/open-meteo-elevation-api-api-openapi.yml
 - filename: open-meteo-ensemble-forecast-apis-api-openapi.yml
   format: yaml
   label: Open-Meteo Ensemble Forecast APIs API
   slug: open-meteo-ensemble-forecast-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/openapi/open-meteo-ensemble-forecast-apis-api-openapi.yml
+  url: https://artifacts.apis.io/open-meteo/openapi/open-meteo-ensemble-forecast-apis-api-openapi.yml
 - filename: open-meteo-flood-apis-api-openapi.yml
   format: yaml
   label: Open-Meteo Flood APIs API
   slug: open-meteo-flood-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/openapi/open-meteo-flood-apis-api-openapi.yml
+  url: https://artifacts.apis.io/open-meteo/openapi/open-meteo-flood-apis-api-openapi.yml
 - filename: open-meteo-historical-weather-apis-api-openapi.yml
   format: yaml
   label: Open-Meteo Historical Weather APIs API
   slug: open-meteo-historical-weather-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/openapi/open-meteo-historical-weather-apis-api-openapi.yml
+  url: https://artifacts.apis.io/open-meteo/openapi/open-meteo-historical-weather-apis-api-openapi.yml
 - filename: open-meteo-marine-weather-apis-api-openapi.yml
   format: yaml
   label: Open-Meteo Marine Weather APIs API
   slug: open-meteo-marine-weather-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/openapi/open-meteo-marine-weather-apis-api-openapi.yml
+  url: https://artifacts.apis.io/open-meteo/openapi/open-meteo-marine-weather-apis-api-openapi.yml
 - filename: open-meteo-seasonal-forecast-apis-api-openapi.yml
   format: yaml
   label: Open-Meteo Seasonal Forecast APIs API
   slug: open-meteo-seasonal-forecast-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/openapi/open-meteo-seasonal-forecast-apis-api-openapi.yml
+  url: https://artifacts.apis.io/open-meteo/openapi/open-meteo-seasonal-forecast-apis-api-openapi.yml
 - filename: open-meteo-weather-forecast-apis-api-openapi.yml
   format: yaml
   label: Open-Meteo Weather Forecast APIs API
   slug: open-meteo-weather-forecast-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/openapi/open-meteo-weather-forecast-apis-api-openapi.yml
+  url: https://artifacts.apis.io/open-meteo/openapi/open-meteo-weather-forecast-apis-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -99,7 +99,7 @@ source_filename: open-meteo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: open-meteo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 12 05:36:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.open-meteo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 02:36:07 2026 GMT\n  hsts: null\n- host: archive-api.open-meteo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 00:38:44 2026 GMT\n  hsts: null\ndomains:\n- domain: open-meteo.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/security/open-meteo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/open-meteo/security/open-meteo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Weather

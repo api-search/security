@@ -5,67 +5,109 @@ api_specs:
   label: Govly Awards API
   slug: govly-awards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-awards-api-openapi.yml
+  url: https://artifacts.apis.io/govly/openapi/govly-awards-api-openapi.yml
 - filename: govly-documents-api-openapi.yml
   format: yaml
   label: Govly Documents API
   slug: govly-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-documents-api-openapi.yml
+  url: https://artifacts.apis.io/govly/openapi/govly-documents-api-openapi.yml
 - filename: govly-follows-api-openapi.yml
   format: yaml
   label: Govly Follows API
   slug: govly-follows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-follows-api-openapi.yml
+  url: https://artifacts.apis.io/govly/openapi/govly-follows-api-openapi.yml
 - filename: govly-inbox-api-openapi.yml
   format: yaml
   label: Govly Inbox API
   slug: govly-inbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-inbox-api-openapi.yml
+  url: https://artifacts.apis.io/govly/openapi/govly-inbox-api-openapi.yml
 - filename: govly-opportunities-api-openapi.yml
   format: yaml
   label: Govly Opportunities API
   slug: govly-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/govly/openapi/govly-opportunities-api-openapi.yml
 - filename: govly-quote-submissions-api-openapi.yml
   format: yaml
   label: Govly Quote Submissions API
   slug: govly-quote-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-quote-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/govly/openapi/govly-quote-submissions-api-openapi.yml
 - filename: govly-saved-searches-api-openapi.yml
   format: yaml
   label: Govly Saved Searches API
   slug: govly-saved-searches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-saved-searches-api-openapi.yml
+  url: https://artifacts.apis.io/govly/openapi/govly-saved-searches-api-openapi.yml
 - filename: govly-workspace-attachments-api-openapi.yml
   format: yaml
   label: Govly Workspace Attachments API
   slug: govly-workspace-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-workspace-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/govly/openapi/govly-workspace-attachments-api-openapi.yml
 - filename: govly-workspace-comments-api-openapi.yml
   format: yaml
   label: Govly Workspace Comments API
   slug: govly-workspace-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-workspace-comments-api-openapi.yml
+  url: https://artifacts.apis.io/govly/openapi/govly-workspace-comments-api-openapi.yml
 - filename: govly-workspace-members-api-openapi.yml
   format: yaml
   label: Govly Workspace Members API
   slug: govly-workspace-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-workspace-members-api-openapi.yml
+  url: https://artifacts.apis.io/govly/openapi/govly-workspace-members-api-openapi.yml
 - filename: govly-workspaces-api-openapi.yml
   format: yaml
   label: Govly Workspaces API
   slug: govly-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/govly/openapi/govly-workspaces-api-openapi.yml
+- filename: govly-contacts-api-openapi.yml
+  format: yaml
+  label: Govly Contacts API
+  slug: govly-contacts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/govly/openapi/govly-contacts-api-openapi.yml
+- filename: govly-organization-labels-api-openapi.yml
+  format: yaml
+  label: Govly Organization Labels API
+  slug: govly-organization-labels-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/govly/openapi/govly-organization-labels-api-openapi.yml
+- filename: govly-organization-users-api-openapi.yml
+  format: yaml
+  label: Govly Organization Users API
+  slug: govly-organization-users-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/govly/openapi/govly-organization-users-api-openapi.yml
+- filename: govly-places-api-openapi.yml
+  format: yaml
+  label: Govly Places API
+  slug: govly-places-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/govly/openapi/govly-places-api-openapi.yml
+- filename: govly-product-catalogs-api-openapi.yml
+  format: yaml
+  label: Govly Product Catalogs API
+  slug: govly-product-catalogs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/govly/openapi/govly-product-catalogs-api-openapi.yml
+- filename: govly-shares-api-openapi.yml
+  format: yaml
+  label: Govly Shares API
+  slug: govly-shares-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/govly/openapi/govly-shares-api-openapi.yml
+- filename: govly-signals-api-openapi.yml
+  format: yaml
+  label: Govly Signals API
+  slug: govly-signals-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/govly/openapi/govly-signals-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -107,7 +149,7 @@ source_filename: govly-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.govly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 15:05:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.govly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 06:05:43 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: app.govly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 08:43:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: govly.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/security/govly-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/govly/security/govly-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

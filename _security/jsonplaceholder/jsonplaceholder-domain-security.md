@@ -5,37 +5,37 @@ api_specs:
   label: JSONPlaceholder Albums API
   slug: jsonplaceholder-albums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/openapi/jsonplaceholder-albums-api-openapi.yml
+  url: https://artifacts.apis.io/jsonplaceholder/openapi/jsonplaceholder-albums-api-openapi.yml
 - filename: jsonplaceholder-comments-api-openapi.yml
   format: yaml
   label: JSONPlaceholder Comments API
   slug: jsonplaceholder-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/openapi/jsonplaceholder-comments-api-openapi.yml
+  url: https://artifacts.apis.io/jsonplaceholder/openapi/jsonplaceholder-comments-api-openapi.yml
 - filename: jsonplaceholder-photos-api-openapi.yml
   format: yaml
   label: JSONPlaceholder Photos API
   slug: jsonplaceholder-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/openapi/jsonplaceholder-photos-api-openapi.yml
+  url: https://artifacts.apis.io/jsonplaceholder/openapi/jsonplaceholder-photos-api-openapi.yml
 - filename: jsonplaceholder-posts-api-openapi.yml
   format: yaml
   label: JSONPlaceholder Posts API
   slug: jsonplaceholder-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/openapi/jsonplaceholder-posts-api-openapi.yml
+  url: https://artifacts.apis.io/jsonplaceholder/openapi/jsonplaceholder-posts-api-openapi.yml
 - filename: jsonplaceholder-users-api-openapi.yml
   format: yaml
   label: JSONPlaceholder Users API
   slug: jsonplaceholder-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/openapi/jsonplaceholder-users-api-openapi.yml
+  url: https://artifacts.apis.io/jsonplaceholder/openapi/jsonplaceholder-users-api-openapi.yml
 - filename: jsonplaceholder-to-dos-api-openapi.yml
   format: yaml
   label: JSONPlaceholder To Dos API
   slug: jsonplaceholder-to-dos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/openapi/jsonplaceholder-to-dos-api-openapi.yml
+  url: https://artifacts.apis.io/jsonplaceholder/openapi/jsonplaceholder-to-dos-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: jsonplaceholder-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: jsonplaceholder.typicode.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 22:44:15 2026 GMT\n  hsts: false\ndomains:\n- domain: typicode.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/security/jsonplaceholder-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/jsonplaceholder/security/jsonplaceholder-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Development

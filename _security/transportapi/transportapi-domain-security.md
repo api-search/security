@@ -5,25 +5,25 @@ api_specs:
   label: TransportAPI Bus Information API
   slug: transportapi-bus-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transportapi/refs/heads/main/openapi/transportapi-bus-information-api-openapi.yml
+  url: https://artifacts.apis.io/transportapi/openapi/transportapi-bus-information-api-openapi.yml
 - filename: transportapi-journey-planner-api-openapi.yml
   format: yaml
   label: TransportAPI Journey Planner API
   slug: transportapi-journey-planner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transportapi/refs/heads/main/openapi/transportapi-journey-planner-api-openapi.yml
+  url: https://artifacts.apis.io/transportapi/openapi/transportapi-journey-planner-api-openapi.yml
 - filename: transportapi-places-api-openapi.yml
   format: yaml
   label: TransportAPI Places API
   slug: transportapi-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transportapi/refs/heads/main/openapi/transportapi-places-api-openapi.yml
+  url: https://artifacts.apis.io/transportapi/openapi/transportapi-places-api-openapi.yml
 - filename: transportapi-rail-information-api-openapi.yml
   format: yaml
   label: TransportAPI Rail Information API
   slug: transportapi-rail-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transportapi/refs/heads/main/openapi/transportapi-rail-information-api-openapi.yml
+  url: https://artifacts.apis.io/transportapi/openapi/transportapi-rail-information-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,7 +62,7 @@ source_filename: transportapi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.transportapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 23:59:59 2026 GMT\n  hsts: false\n- host: developer.transportapi.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 13 08:04:00 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: transportapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 17 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: transportapi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transportapi/refs/heads/main/security/transportapi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/transportapi/security/transportapi-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Public Transit

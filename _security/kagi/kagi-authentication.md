@@ -7,13 +7,13 @@ api_specs:
   label: Kagi Extract API
   slug: kagi-extract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kagi/refs/heads/main/openapi/kagi-extract-api-openapi.yml
+  url: https://artifacts.apis.io/kagi/openapi/kagi-extract-api-openapi.yml
 - filename: kagi-search-api-openapi.yml
   format: yaml
   label: Kagi Search API
   slug: kagi-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kagi/refs/heads/main/openapi/kagi-search-api-openapi.yml
+  url: https://artifacts.apis.io/kagi/openapi/kagi-search-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: kagi-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/kagi-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Kagi API token issued from https://kagi.com/api/keys, sent in the Authorization\n    header as \"Bearer <token>\" (or the equivalent \"Bot <token>\" form documented for the legacy\n    Search endpoint).\n  sources:\n  - openapi/kagi-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kagi/refs/heads/main/authentication/kagi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kagi/authentication/kagi-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Search

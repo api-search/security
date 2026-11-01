@@ -5,19 +5,19 @@ api_specs:
   label: iwant.fyi Agents API
   slug: iwant-fyi-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iwant-fyi/refs/heads/main/openapi/iwant-fyi-agents-api-openapi.yml
+  url: https://artifacts.apis.io/iwant-fyi/openapi/iwant-fyi-agents-api-openapi.yml
 - filename: iwant-fyi-mcp-api-openapi.yml
   format: yaml
   label: iwant.fyi MCP API
   slug: iwant-fyi-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iwant-fyi/refs/heads/main/openapi/iwant-fyi-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/iwant-fyi/openapi/iwant-fyi-mcp-api-openapi.yml
 - filename: iwant-fyi-wants-api-openapi.yml
   format: yaml
   label: iwant.fyi Wants API
   slug: iwant-fyi-wants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iwant-fyi/refs/heads/main/openapi/iwant-fyi-wants-api-openapi.yml
+  url: https://artifacts.apis.io/iwant-fyi/openapi/iwant-fyi-wants-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -50,7 +50,7 @@ source_filename: iwant-fyi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: iwant.fyi\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 08:35:16 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: iwant.fyi\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iwant-fyi/refs/heads/main/security/iwant-fyi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/iwant-fyi/security/iwant-fyi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Agentic Commerce

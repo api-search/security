@@ -8,19 +8,19 @@ api_specs:
   label: Payhip Coupons API
   slug: payhip-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payhip/refs/heads/main/openapi/payhip-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/payhip/openapi/payhip-coupons-api-openapi.yml
 - filename: payhip-license-keys-api-openapi.yml
   format: yaml
   label: Payhip License Keys API
   slug: payhip-license-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payhip/refs/heads/main/openapi/payhip-license-keys-api-openapi.yml
+  url: https://artifacts.apis.io/payhip/openapi/payhip-license-keys-api-openapi.yml
 - filename: payhip-payhip-api-api-openapi.yml
   format: yaml
   label: Payhip API
   slug: payhip-payhip-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payhip/refs/heads/main/openapi/payhip-payhip-api-api-openapi.yml
+  url: https://artifacts.apis.io/payhip/openapi/payhip-payhip-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -55,7 +55,7 @@ source_filename: payhip-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/payhip-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: payhip-api-key\n  description: Account API key from the Developer Settings page. Used for coupon operations.\n  sources:\n  - openapi/payhip-openapi.yml\n- name: productSecretAuth\n  type: apiKey\n  in: header\n  parameter: product-secret-key\n  description: Per-product secret key from the Developer Settings page. Used for license key\n    operations.\n  sources:\n  - openapi/payhip-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payhip/refs/heads/main/authentication/payhip-authentication.yml
+source_yaml_url: https://artifacts.apis.io/payhip/authentication/payhip-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - E-Commerce

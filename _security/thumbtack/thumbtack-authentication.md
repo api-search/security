@@ -7,61 +7,61 @@ api_specs:
   label: Thumbtack Authentication API
   slug: thumbtack-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/thumbtack/openapi/thumbtack-authentication-api-openapi.yml
 - filename: thumbtack-autocomplete-api-openapi.yml
   format: yaml
   label: Thumbtack Autocomplete API
   slug: thumbtack-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/thumbtack/openapi/thumbtack-autocomplete-api-openapi.yml
 - filename: thumbtack-categories-api-openapi.yml
   format: yaml
   label: Thumbtack Categories API
   slug: thumbtack-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-categories-api-openapi.yml
+  url: https://artifacts.apis.io/thumbtack/openapi/thumbtack-categories-api-openapi.yml
 - filename: thumbtack-leads-api-openapi.yml
   format: yaml
   label: Thumbtack Leads API
   slug: thumbtack-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-leads-api-openapi.yml
+  url: https://artifacts.apis.io/thumbtack/openapi/thumbtack-leads-api-openapi.yml
 - filename: thumbtack-messages-api-openapi.yml
   format: yaml
   label: Thumbtack Messages API
   slug: thumbtack-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-messages-api-openapi.yml
+  url: https://artifacts.apis.io/thumbtack/openapi/thumbtack-messages-api-openapi.yml
 - filename: thumbtack-orders-api-openapi.yml
   format: yaml
   label: Thumbtack Orders API
   slug: thumbtack-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-orders-api-openapi.yml
+  url: https://artifacts.apis.io/thumbtack/openapi/thumbtack-orders-api-openapi.yml
 - filename: thumbtack-pro-profiles-api-openapi.yml
   format: yaml
   label: Thumbtack Pro Profiles API
   slug: thumbtack-pro-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-pro-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/thumbtack/openapi/thumbtack-pro-profiles-api-openapi.yml
 - filename: thumbtack-pros-api-openapi.yml
   format: yaml
   label: Thumbtack Pros API
   slug: thumbtack-pros-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-pros-api-openapi.yml
+  url: https://artifacts.apis.io/thumbtack/openapi/thumbtack-pros-api-openapi.yml
 - filename: thumbtack-reviews-api-openapi.yml
   format: yaml
   label: Thumbtack Reviews API
   slug: thumbtack-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/thumbtack/openapi/thumbtack-reviews-api-openapi.yml
 - filename: thumbtack-testing-api-openapi.yml
   format: yaml
   label: Thumbtack Testing API
   slug: thumbtack-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-testing-api-openapi.yml
+  url: https://artifacts.apis.io/thumbtack/openapi/thumbtack-testing-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -116,7 +116,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/thumbtack-demand-openapi.yml, openapi/thumbtack-pro-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: Used by legacy v1/v2 routes.\n  sources:\n  - openapi/thumbtack-demand-openapi.yml\n  - openapi/thumbtack-pro-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.thumbtack.com/services/partner-connect/\n    tokenUrl: https://api.thumbtack.com/v4/oauth/token\n    scopes: 0\n  - flow: clientCredentials\n    tokenUrl: https://api.thumbtack.com/v4/oauth/token\n    scopes: 0\n  description: Used by v4 routes. Authorization Code and Client Credentials flows.\n  sources:\n  - openapi/thumbtack-demand-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.thumbtack.com/services/partner-connect/\n\
   \    tokenUrl: https://pro-api.thumbtack.com/v2/tokens/access\n    scopes: 0\n  description: Bearer token obtained via the partner-connect authorization code flow.\n  sources:\n  - openapi/thumbtack-pro-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/authentication/thumbtack-authentication.yml
+source_yaml_url: https://artifacts.apis.io/thumbtack/authentication/thumbtack-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Local Services

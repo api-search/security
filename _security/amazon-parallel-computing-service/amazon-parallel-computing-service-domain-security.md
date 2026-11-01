@@ -5,115 +5,115 @@ api_specs:
   label: Amazon Parallel Computing Service CreateCluster API
   slug: amazon-parallel-computing-service-createcluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/openapi/amazon-parallel-computing-service-createcluster-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-parallel-computing-service/openapi/amazon-parallel-computing-service-createcluster-api-openapi.yml
 - filename: amazon-parallel-computing-service-createcomputenodegroup-api-openapi.yml
   format: yaml
   label: Amazon Parallel Computing Service CreateComputeNodeGroup API
   slug: amazon-parallel-computing-service-createcomputenodegroup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/openapi/amazon-parallel-computing-service-createcomputenodegroup-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-parallel-computing-service/openapi/amazon-parallel-computing-service-createcomputenodegroup-api-openapi.yml
 - filename: amazon-parallel-computing-service-createqueue-api-openapi.yml
   format: yaml
   label: Amazon Parallel Computing Service CreateQueue API
   slug: amazon-parallel-computing-service-createqueue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/openapi/amazon-parallel-computing-service-createqueue-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-parallel-computing-service/openapi/amazon-parallel-computing-service-createqueue-api-openapi.yml
 - filename: amazon-parallel-computing-service-deletecluster-api-openapi.yml
   format: yaml
   label: Amazon Parallel Computing Service DeleteCluster API
   slug: amazon-parallel-computing-service-deletecluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/openapi/amazon-parallel-computing-service-deletecluster-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-parallel-computing-service/openapi/amazon-parallel-computing-service-deletecluster-api-openapi.yml
 - filename: amazon-parallel-computing-service-deletecomputenodegroup-api-openapi.yml
   format: yaml
   label: Amazon Parallel Computing Service DeleteComputeNodeGroup API
   slug: amazon-parallel-computing-service-deletecomputenodegroup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/openapi/amazon-parallel-computing-service-deletecomputenodegroup-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-parallel-computing-service/openapi/amazon-parallel-computing-service-deletecomputenodegroup-api-openapi.yml
 - filename: amazon-parallel-computing-service-deletequeue-api-openapi.yml
   format: yaml
   label: Amazon Parallel Computing Service DeleteQueue API
   slug: amazon-parallel-computing-service-deletequeue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/openapi/amazon-parallel-computing-service-deletequeue-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-parallel-computing-service/openapi/amazon-parallel-computing-service-deletequeue-api-openapi.yml
 - filename: amazon-parallel-computing-service-getcluster-api-openapi.yml
   format: yaml
   label: Amazon Parallel Computing Service GetCluster API
   slug: amazon-parallel-computing-service-getcluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/openapi/amazon-parallel-computing-service-getcluster-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-parallel-computing-service/openapi/amazon-parallel-computing-service-getcluster-api-openapi.yml
 - filename: amazon-parallel-computing-service-getcomputenodegroup-api-openapi.yml
   format: yaml
   label: Amazon Parallel Computing Service GetComputeNodeGroup API
   slug: amazon-parallel-computing-service-getcomputenodegroup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/openapi/amazon-parallel-computing-service-getcomputenodegroup-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-parallel-computing-service/openapi/amazon-parallel-computing-service-getcomputenodegroup-api-openapi.yml
 - filename: amazon-parallel-computing-service-getqueue-api-openapi.yml
   format: yaml
   label: Amazon Parallel Computing Service GetQueue API
   slug: amazon-parallel-computing-service-getqueue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/openapi/amazon-parallel-computing-service-getqueue-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-parallel-computing-service/openapi/amazon-parallel-computing-service-getqueue-api-openapi.yml
 - filename: amazon-parallel-computing-service-listclusters-api-openapi.yml
   format: yaml
   label: Amazon Parallel Computing Service ListClusters API
   slug: amazon-parallel-computing-service-listclusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/openapi/amazon-parallel-computing-service-listclusters-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-parallel-computing-service/openapi/amazon-parallel-computing-service-listclusters-api-openapi.yml
 - filename: amazon-parallel-computing-service-listcomputenodegroups-api-openapi.yml
   format: yaml
   label: Amazon Parallel Computing Service ListComputeNodeGroups API
   slug: amazon-parallel-computing-service-listcomputenodegroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/openapi/amazon-parallel-computing-service-listcomputenodegroups-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-parallel-computing-service/openapi/amazon-parallel-computing-service-listcomputenodegroups-api-openapi.yml
 - filename: amazon-parallel-computing-service-listqueues-api-openapi.yml
   format: yaml
   label: Amazon Parallel Computing Service ListQueues API
   slug: amazon-parallel-computing-service-listqueues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/openapi/amazon-parallel-computing-service-listqueues-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-parallel-computing-service/openapi/amazon-parallel-computing-service-listqueues-api-openapi.yml
 - filename: amazon-parallel-computing-service-registercomputenodegroupinstance-api-openapi.yml
   format: yaml
   label: Amazon Parallel Computing Service RegisterComputeNodeGroupInstance API
   slug: amazon-parallel-computing-service-registercomputenodegroupinstance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/openapi/amazon-parallel-computing-service-registercomputenodegroupinstance-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-parallel-computing-service/openapi/amazon-parallel-computing-service-registercomputenodegroupinstance-api-openapi.yml
 - filename: amazon-parallel-computing-service-updatecluster-api-openapi.yml
   format: yaml
   label: Amazon Parallel Computing Service UpdateCluster API
   slug: amazon-parallel-computing-service-updatecluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/openapi/amazon-parallel-computing-service-updatecluster-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-parallel-computing-service/openapi/amazon-parallel-computing-service-updatecluster-api-openapi.yml
 - filename: amazon-parallel-computing-service-updatecomputenodegroup-api-openapi.yml
   format: yaml
   label: Amazon Parallel Computing Service UpdateComputeNodeGroup API
   slug: amazon-parallel-computing-service-updatecomputenodegroup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/openapi/amazon-parallel-computing-service-updatecomputenodegroup-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-parallel-computing-service/openapi/amazon-parallel-computing-service-updatecomputenodegroup-api-openapi.yml
 - filename: amazon-parallel-computing-service-updatequeue-api-openapi.yml
   format: yaml
   label: Amazon Parallel Computing Service UpdateQueue API
   slug: amazon-parallel-computing-service-updatequeue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/openapi/amazon-parallel-computing-service-updatequeue-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-parallel-computing-service/openapi/amazon-parallel-computing-service-updatequeue-api-openapi.yml
 - filename: amazon-parallel-computing-service-list-tags-for-resource-api-openapi.yml
   format: yaml
   label: Amazon Parallel Computing Service List Tags For Resource API
   slug: amazon-parallel-computing-service-list-tags-for-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/openapi/amazon-parallel-computing-service-list-tags-for-resource-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-parallel-computing-service/openapi/amazon-parallel-computing-service-list-tags-for-resource-api-openapi.yml
 - filename: amazon-parallel-computing-service-tag-resource-api-openapi.yml
   format: yaml
   label: Amazon Parallel Computing Service Tag Resource API
   slug: amazon-parallel-computing-service-tag-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/openapi/amazon-parallel-computing-service-tag-resource-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-parallel-computing-service/openapi/amazon-parallel-computing-service-tag-resource-api-openapi.yml
 - filename: amazon-parallel-computing-service-untag-resource-api-openapi.yml
   format: yaml
   label: Amazon Parallel Computing Service Untag Resource API
   slug: amazon-parallel-computing-service-untag-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/openapi/amazon-parallel-computing-service-untag-resource-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-parallel-computing-service/openapi/amazon-parallel-computing-service-untag-resource-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -151,7 +151,7 @@ source_filename: amazon-parallel-computing-service-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: pcs.amazonaws.com\n  https: false\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/security/amazon-parallel-computing-service-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amazon-parallel-computing-service/security/amazon-parallel-computing-service-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - High Performance Computing

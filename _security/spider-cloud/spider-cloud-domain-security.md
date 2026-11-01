@@ -5,55 +5,55 @@ api_specs:
   label: Spider Crawling API
   slug: spider-cloud-crawling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/openapi/spider-cloud-crawling-api-openapi.yml
+  url: https://artifacts.apis.io/spider-cloud/openapi/spider-cloud-crawling-api-openapi.yml
 - filename: spider-cloud-data-api-openapi.yml
   format: yaml
   label: Spider Data API
   slug: spider-cloud-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/openapi/spider-cloud-data-api-openapi.yml
+  url: https://artifacts.apis.io/spider-cloud/openapi/spider-cloud-data-api-openapi.yml
 - filename: spider-cloud-fetch-api-openapi.yml
   format: yaml
   label: Spider Fetch API
   slug: spider-cloud-fetch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/openapi/spider-cloud-fetch-api-openapi.yml
+  url: https://artifacts.apis.io/spider-cloud/openapi/spider-cloud-fetch-api-openapi.yml
 - filename: spider-cloud-links-api-openapi.yml
   format: yaml
   label: Spider Links API
   slug: spider-cloud-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/openapi/spider-cloud-links-api-openapi.yml
+  url: https://artifacts.apis.io/spider-cloud/openapi/spider-cloud-links-api-openapi.yml
 - filename: spider-cloud-scraping-api-openapi.yml
   format: yaml
   label: Spider Scraping API
   slug: spider-cloud-scraping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/openapi/spider-cloud-scraping-api-openapi.yml
+  url: https://artifacts.apis.io/spider-cloud/openapi/spider-cloud-scraping-api-openapi.yml
 - filename: spider-cloud-screenshot-api-openapi.yml
   format: yaml
   label: Spider Screenshot API
   slug: spider-cloud-screenshot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/openapi/spider-cloud-screenshot-api-openapi.yml
+  url: https://artifacts.apis.io/spider-cloud/openapi/spider-cloud-screenshot-api-openapi.yml
 - filename: spider-cloud-search-api-openapi.yml
   format: yaml
   label: Spider Search API
   slug: spider-cloud-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/openapi/spider-cloud-search-api-openapi.yml
+  url: https://artifacts.apis.io/spider-cloud/openapi/spider-cloud-search-api-openapi.yml
 - filename: spider-cloud-transform-api-openapi.yml
   format: yaml
   label: Spider Transform API
   slug: spider-cloud-transform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/openapi/spider-cloud-transform-api-openapi.yml
+  url: https://artifacts.apis.io/spider-cloud/openapi/spider-cloud-transform-api-openapi.yml
 - filename: spider-cloud-unblocker-api-openapi.yml
   format: yaml
   label: Spider Unblocker API
   slug: spider-cloud-unblocker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/openapi/spider-cloud-unblocker-api-openapi.yml
+  url: https://artifacts.apis.io/spider-cloud/openapi/spider-cloud-unblocker-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -92,7 +92,7 @@ source_filename: spider-cloud-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: spider.cloud\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 02:28:54 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.spider.cloud\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 23 23:59:59 2027 GMT\n  hsts: false\n- host: mcp.spider.cloud\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: spider.cloud\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/security/spider-cloud-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/spider-cloud/security/spider-cloud-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Crawling
@@ -103,6 +103,6 @@ tags:
 - Markdown
 - MCP
 - Rust
-- Headless Browser
+- Browser Automation
 - Proxies
 ---

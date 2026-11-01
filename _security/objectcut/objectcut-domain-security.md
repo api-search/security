@@ -26,7 +26,7 @@ source_filename: objectcut-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: objectcut.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 15:06:21 2026 GMT\n  hsts: false\ndomains:\n- domain: objectcut.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/objectcut/refs/heads/main/security/objectcut-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/objectcut/security/objectcut-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Photography

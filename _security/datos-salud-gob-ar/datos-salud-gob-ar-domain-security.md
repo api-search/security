@@ -25,7 +25,7 @@ source_filename: datos-salud-gob-ar-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: datos.salud.gob.ar\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get\n    local issuer certificate (_ssl.c:1082)'\n  hsts: null\ndomains:\n- domain: gob.ar\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datos-salud-gob-ar/refs/heads/main/security/datos-salud-gob-ar-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/datos-salud-gob-ar/security/datos-salud-gob-ar-domain-security.yml
 summary_line: DNSSEC
 tags:
 - Open Data

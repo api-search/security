@@ -7,25 +7,25 @@ api_specs:
   label: Contentsquare Authentication API
   slug: contentsquare-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentsquare/refs/heads/main/openapi/contentsquare-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/contentsquare/openapi/contentsquare-authentication-api-openapi.yml
 - filename: contentsquare-exports-api-openapi.yml
   format: yaml
   label: Contentsquare Exports API
   slug: contentsquare-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentsquare/refs/heads/main/openapi/contentsquare-exports-api-openapi.yml
+  url: https://artifacts.apis.io/contentsquare/openapi/contentsquare-exports-api-openapi.yml
 - filename: contentsquare-fields-api-openapi.yml
   format: yaml
   label: Contentsquare Fields API
   slug: contentsquare-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentsquare/refs/heads/main/openapi/contentsquare-fields-api-openapi.yml
+  url: https://artifacts.apis.io/contentsquare/openapi/contentsquare-fields-api-openapi.yml
 - filename: contentsquare-runs-api-openapi.yml
   format: yaml
   label: Contentsquare Runs API
   slug: contentsquare-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentsquare/refs/heads/main/openapi/contentsquare-runs-api-openapi.yml
+  url: https://artifacts.apis.io/contentsquare/openapi/contentsquare-runs-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: contentsquare-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/contentsquare-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/contentsquare-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contentsquare/refs/heads/main/authentication/contentsquare-authentication.yml
+source_yaml_url: https://artifacts.apis.io/contentsquare/authentication/contentsquare-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Digital Experience Analytics

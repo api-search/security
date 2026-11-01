@@ -7,31 +7,31 @@ api_specs:
   label: Cargomatic Authorization API
   slug: cargomatic-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/openapi/cargomatic-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/cargomatic/openapi/cargomatic-authorization-api-openapi.yml
 - filename: cargomatic-carrier-api-openapi.yml
   format: yaml
   label: Cargomatic Carrier API
   slug: cargomatic-carrier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/openapi/cargomatic-carrier-api-openapi.yml
+  url: https://artifacts.apis.io/cargomatic/openapi/cargomatic-carrier-api-openapi.yml
 - filename: cargomatic-document-api-openapi.yml
   format: yaml
   label: Cargomatic Document API
   slug: cargomatic-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/openapi/cargomatic-document-api-openapi.yml
+  url: https://artifacts.apis.io/cargomatic/openapi/cargomatic-document-api-openapi.yml
 - filename: cargomatic-shipper-api-openapi.yml
   format: yaml
   label: Cargomatic Shipper API
   slug: cargomatic-shipper-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/openapi/cargomatic-shipper-api-openapi.yml
+  url: https://artifacts.apis.io/cargomatic/openapi/cargomatic-shipper-api-openapi.yml
 - filename: cargomatic-stops-api-openapi.yml
   format: yaml
   label: Cargomatic Stops API
   slug: cargomatic-stops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/openapi/cargomatic-stops-api-openapi.yml
+  url: https://artifacts.apis.io/cargomatic/openapi/cargomatic-stops-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: cargomatic-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/cargomatic-openapi-original.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/cargomatic-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/authentication/cargomatic-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cargomatic/authentication/cargomatic-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

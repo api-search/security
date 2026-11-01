@@ -7,49 +7,49 @@ api_specs:
   label: Zayo Maintenance Cases API
   slug: zayo-maintenance-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/openapi/zayo-maintenance-cases-api-openapi.yml
+  url: https://artifacts.apis.io/zayo/openapi/zayo-maintenance-cases-api-openapi.yml
 - filename: zayo-network-discovery-api-openapi.yml
   format: yaml
   label: Zayo Network Discovery API
   slug: zayo-network-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/openapi/zayo-network-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/zayo/openapi/zayo-network-discovery-api-openapi.yml
 - filename: zayo-order-api-openapi.yml
   format: yaml
   label: Zayo Order API
   slug: zayo-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/openapi/zayo-order-api-openapi.yml
+  url: https://artifacts.apis.io/zayo/openapi/zayo-order-api-openapi.yml
 - filename: zayo-product-catalog-api-openapi.yml
   format: yaml
   label: Zayo Product Catalog API
   slug: zayo-product-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/openapi/zayo-product-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/zayo/openapi/zayo-product-catalog-api-openapi.yml
 - filename: zayo-quote-api-openapi.yml
   format: yaml
   label: Zayo Quote API
   slug: zayo-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/openapi/zayo-quote-api-openapi.yml
+  url: https://artifacts.apis.io/zayo/openapi/zayo-quote-api-openapi.yml
 - filename: zayo-service-inventory-api-openapi.yml
   format: yaml
   label: Zayo Service Inventory API
   slug: zayo-service-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/openapi/zayo-service-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/zayo/openapi/zayo-service-inventory-api-openapi.yml
 - filename: zayo-ticket-catalog-api-openapi.yml
   format: yaml
   label: Zayo Ticket Catalog API
   slug: zayo-ticket-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/openapi/zayo-ticket-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/zayo/openapi/zayo-ticket-catalog-api-openapi.yml
 - filename: zayo-ticketing-api-openapi.yml
   format: yaml
   label: Zayo Ticketing API
   slug: zayo-ticketing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/openapi/zayo-ticketing-api-openapi.yml
+  url: https://artifacts.apis.io/zayo/openapi/zayo-ticketing-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -88,7 +88,7 @@ source_filename: zayo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/zayo-openapi-original.yml\ndocs: https://developer.zayo.com/docs/getting-started\ntoken_ttl_seconds: 3600\ntoken_type: Bearer\nnotes: >-\n  OAuth 2.0 Client Credentials grant; POST client_id/client_secret + grant_type=client_credentials\n  + scope=openid to https://auth.api.zayo.com/oauth/token. Bearer token valid 1 hour; re-request on 401.\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: BearerToken\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Bearer token authentication.\n  sources:\n  - openapi/zayo-openapi-original.yml\n- name: OAuthClientCredentials\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.api.zayo.com/oauth/token\n    scopes: 1\n  description: OAuth 2.0 using the Client Credentials grant type.\n  sources:\n  - openapi/zayo-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/authentication/zayo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zayo/authentication/zayo-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

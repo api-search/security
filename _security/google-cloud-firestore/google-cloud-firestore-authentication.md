@@ -7,13 +7,13 @@ api_specs:
   label: Google Cloud Firestore Databases API
   slug: google-cloud-firestore-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-firestore/refs/heads/main/openapi/google-cloud-firestore-databases-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-firestore/openapi/google-cloud-firestore-databases-api-openapi.yml
 - filename: google-cloud-firestore-documents-api-openapi.yml
   format: yaml
   label: Google Cloud Firestore Documents API
   slug: google-cloud-firestore-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-firestore/refs/heads/main/openapi/google-cloud-firestore-documents-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-firestore/openapi/google-cloud-firestore-documents-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -44,7 +44,7 @@ source_filename: google-cloud-firestore-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cloud-firestore-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 2\n  sources:\n  - openapi/cloud-firestore-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-firestore/refs/heads/main/authentication/google-cloud-firestore-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-firestore/authentication/google-cloud-firestore-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Database

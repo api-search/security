@@ -8,25 +8,25 @@ api_specs:
   label: AbuseIPDB Blacklist API
   slug: abuseipdb-blacklist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/openapi/abuseipdb-blacklist-api-openapi.yml
+  url: https://artifacts.apis.io/abuseipdb/openapi/abuseipdb-blacklist-api-openapi.yml
 - filename: abuseipdb-management-api-openapi.yml
   format: yaml
   label: AbuseIPDB Management API
   slug: abuseipdb-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/openapi/abuseipdb-management-api-openapi.yml
+  url: https://artifacts.apis.io/abuseipdb/openapi/abuseipdb-management-api-openapi.yml
 - filename: abuseipdb-reports-api-openapi.yml
   format: yaml
   label: AbuseIPDB Reports API
   slug: abuseipdb-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/openapi/abuseipdb-reports-api-openapi.yml
+  url: https://artifacts.apis.io/abuseipdb/openapi/abuseipdb-reports-api-openapi.yml
 - filename: abuseipdb-reputation-api-openapi.yml
   format: yaml
   label: AbuseIPDB Reputation API
   slug: abuseipdb-reputation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/openapi/abuseipdb-reputation-api-openapi.yml
+  url: https://artifacts.apis.io/abuseipdb/openapi/abuseipdb-reputation-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: abuseipdb-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/abuseipdb-apiv2-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Key\n  description: AbuseIPDB API key. Issue and rotate at https://www.abuseipdb.com/account/api.\n  sources:\n  - openapi/abuseipdb-apiv2-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/authentication/abuseipdb-authentication.yml
+source_yaml_url: https://artifacts.apis.io/abuseipdb/authentication/abuseipdb-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Anti Malware

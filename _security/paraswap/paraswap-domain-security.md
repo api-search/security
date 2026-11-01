@@ -5,19 +5,19 @@ api_specs:
   label: ParaSwap Prices API
   slug: paraswap-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paraswap/refs/heads/main/openapi/paraswap-prices-api-openapi.yml
+  url: https://artifacts.apis.io/paraswap/openapi/paraswap-prices-api-openapi.yml
 - filename: paraswap-tokens-api-openapi.yml
   format: yaml
   label: ParaSwap Tokens API
   slug: paraswap-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paraswap/refs/heads/main/openapi/paraswap-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/paraswap/openapi/paraswap-tokens-api-openapi.yml
 - filename: paraswap-transactions-api-openapi.yml
   format: yaml
   label: ParaSwap Transactions API
   slug: paraswap-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paraswap/refs/heads/main/openapi/paraswap-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/paraswap/openapi/paraswap-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: paraswap-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.velora.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 22:11:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.velora.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.paraswap.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 13 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: velora.xyz\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n- domain: paraswap.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paraswap/refs/heads/main/security/paraswap-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/paraswap/security/paraswap-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - DeFi

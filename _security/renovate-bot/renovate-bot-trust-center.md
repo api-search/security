@@ -14,7 +14,7 @@ source_filename: renovate-bot-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.mend.io/\nurl: https://trust.mend.io/\nevidence:\n- source: https://trust.mend.io/\n  keywords:\n  - trust center\n  - compliance certification\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/renovate-bot/refs/heads/main/security/renovate-bot-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/renovate-bot/security/renovate-bot-trust-center.yml
 summary_line: trust center published
 tags:
 - DependencyUpdates

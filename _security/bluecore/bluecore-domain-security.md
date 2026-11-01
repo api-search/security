@@ -5,49 +5,49 @@ api_specs:
   label: Bluecore Authn API
   slug: bluecore-authn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-authn-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-authn-api-openapi.yml
 - filename: bluecore-campaignsapipublic-api-openapi.yml
   format: yaml
   label: Bluecore CampaignsAPIPublic API
   slug: bluecore-campaignsapipublic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-campaignsapipublic-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-campaignsapipublic-api-openapi.yml
 - filename: bluecore-direct-send-api-openapi.yml
   format: yaml
   label: Bluecore Direct send API
   slug: bluecore-direct-send-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-direct-send-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-direct-send-api-openapi.yml
 - filename: bluecore-eligibility-api-openapi.yml
   format: yaml
   label: Bluecore Eligibility API
   slug: bluecore-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-eligibility-api-openapi.yml
 - filename: bluecore-profile-api-openapi.yml
   format: yaml
   label: Bluecore Profile API
   slug: bluecore-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-profile-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-profile-api-openapi.yml
 - filename: bluecore-transactional-api-openapi.yml
   format: yaml
   label: Bluecore Transactional API
   slug: bluecore-transactional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-transactional-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-transactional-api-openapi.yml
 - filename: bluecore-get-status-api-openapi.yml
   format: yaml
   label: Bluecore GET STATUS API
   slug: bluecore-get-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-get-status-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-get-status-api-openapi.yml
 - filename: bluecore-send-email-api-openapi.yml
   format: yaml
   label: Bluecore SEND EMAIL API
   slug: bluecore-send-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-send-email-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-send-email-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -87,7 +87,7 @@ source_filename: bluecore-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bluecore.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 15 13:28:17 2027 GMT\n  hsts: false\n- host: developers.bluecore.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 01:30:24 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: a.bluecore.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 16:43:21 2026 GMT\n  hsts: null\ndomains:\n- domain: bluecore.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/security/bluecore-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bluecore/security/bluecore-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

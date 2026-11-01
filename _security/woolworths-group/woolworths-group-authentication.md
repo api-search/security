@@ -8,103 +8,103 @@ api_specs:
   label: Woolworths Group Account Status Inquiry API
   slug: woolworths-group-accountstatusinquiry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woolworths-group/refs/heads/main/openapi/woolworths-group-accountstatusinquiry-api-openapi.yml
+  url: https://artifacts.apis.io/woolworths-group/openapi/woolworths-group-accountstatusinquiry-api-openapi.yml
 - filename: woolworths-group-activating-physical-gift-cards-api-openapi.yml
   format: yaml
   label: Woolworths Group Activating Physical Gift Cards API
   slug: woolworths-group-activating-physical-gift-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woolworths-group/refs/heads/main/openapi/woolworths-group-activating-physical-gift-cards-api-openapi.yml
+  url: https://artifacts.apis.io/woolworths-group/openapi/woolworths-group-activating-physical-gift-cards-api-openapi.yml
 - filename: woolworths-group-authorization-api-openapi.yml
   format: yaml
   label: Woolworths Group Authorization API
   slug: woolworths-group-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woolworths-group/refs/heads/main/openapi/woolworths-group-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/woolworths-group/openapi/woolworths-group-authorization-api-openapi.yml
 - filename: woolworths-group-capture-api-openapi.yml
   format: yaml
   label: Woolworths Group Capture API
   slug: woolworths-group-capture-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woolworths-group/refs/heads/main/openapi/woolworths-group-capture-api-openapi.yml
+  url: https://artifacts.apis.io/woolworths-group/openapi/woolworths-group-capture-api-openapi.yml
 - filename: woolworths-group-gifting-catalogue-api-openapi.yml
   format: yaml
   label: Woolworths Group Gifting Catalogue API
   slug: woolworths-group-gifting-catalogue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woolworths-group/refs/heads/main/openapi/woolworths-group-gifting-catalogue-api-openapi.yml
+  url: https://artifacts.apis.io/woolworths-group/openapi/woolworths-group-gifting-catalogue-api-openapi.yml
 - filename: woolworths-group-health-check-api-openapi.yml
   format: yaml
   label: Woolworths Group Health check API
   slug: woolworths-group-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woolworths-group/refs/heads/main/openapi/woolworths-group-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/woolworths-group/openapi/woolworths-group-health-check-api-openapi.yml
 - filename: woolworths-group-instruments-api-openapi.yml
   format: yaml
   label: Woolworths Group Instruments API
   slug: woolworths-group-instruments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woolworths-group/refs/heads/main/openapi/woolworths-group-instruments-api-openapi.yml
+  url: https://artifacts.apis.io/woolworths-group/openapi/woolworths-group-instruments-api-openapi.yml
 - filename: woolworths-group-key-management-api-openapi.yml
   format: yaml
   label: Woolworths Group Key Management API
   slug: woolworths-group-key-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woolworths-group/refs/heads/main/openapi/woolworths-group-key-management-api-openapi.yml
+  url: https://artifacts.apis.io/woolworths-group/openapi/woolworths-group-key-management-api-openapi.yml
 - filename: woolworths-group-order-api-openapi.yml
   format: yaml
   label: Woolworths Group Order API
   slug: woolworths-group-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woolworths-group/refs/heads/main/openapi/woolworths-group-order-api-openapi.yml
+  url: https://artifacts.apis.io/woolworths-group/openapi/woolworths-group-order-api-openapi.yml
 - filename: woolworths-group-ordering-digital-gift-cards-api-openapi.yml
   format: yaml
   label: Woolworths Group Ordering Digital Gift Cards API
   slug: woolworths-group-ordering-digital-gift-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woolworths-group/refs/heads/main/openapi/woolworths-group-ordering-digital-gift-cards-api-openapi.yml
+  url: https://artifacts.apis.io/woolworths-group/openapi/woolworths-group-ordering-digital-gift-cards-api-openapi.yml
 - filename: woolworths-group-payments-api-openapi.yml
   format: yaml
   label: Woolworths Group Payments API
   slug: woolworths-group-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woolworths-group/refs/heads/main/openapi/woolworths-group-payments-api-openapi.yml
+  url: https://artifacts.apis.io/woolworths-group/openapi/woolworths-group-payments-api-openapi.yml
 - filename: woolworths-group-refund-api-openapi.yml
   format: yaml
   label: Woolworths Group Refund API
   slug: woolworths-group-refund-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woolworths-group/refs/heads/main/openapi/woolworths-group-refund-api-openapi.yml
+  url: https://artifacts.apis.io/woolworths-group/openapi/woolworths-group-refund-api-openapi.yml
 - filename: woolworths-group-refunds-api-openapi.yml
   format: yaml
   label: Woolworths Group Refunds API
   slug: woolworths-group-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woolworths-group/refs/heads/main/openapi/woolworths-group-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/woolworths-group/openapi/woolworths-group-refunds-api-openapi.yml
 - filename: woolworths-group-support-api-openapi.yml
   format: yaml
   label: Woolworths Group Support API
   slug: woolworths-group-support-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woolworths-group/refs/heads/main/openapi/woolworths-group-support-api-openapi.yml
+  url: https://artifacts.apis.io/woolworths-group/openapi/woolworths-group-support-api-openapi.yml
 - filename: woolworths-group-transaction-api-openapi.yml
   format: yaml
   label: Woolworths Group Transaction API
   slug: woolworths-group-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woolworths-group/refs/heads/main/openapi/woolworths-group-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/woolworths-group/openapi/woolworths-group-transaction-api-openapi.yml
 - filename: woolworths-group-void-api-openapi.yml
   format: yaml
   label: Woolworths Group Void API
   slug: woolworths-group-void-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woolworths-group/refs/heads/main/openapi/woolworths-group-void-api-openapi.yml
+  url: https://artifacts.apis.io/woolworths-group/openapi/woolworths-group-void-api-openapi.yml
 - filename: woolworths-group-wallet-services-api-openapi.yml
   format: yaml
   label: Woolworths Group Wallet Services API
   slug: woolworths-group-wallet-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woolworths-group/refs/heads/main/openapi/woolworths-group-wallet-services-api-openapi.yml
+  url: https://artifacts.apis.io/woolworths-group/openapi/woolworths-group-wallet-services-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -180,7 +180,7 @@ source_yaml: "generated: '2026-10-22'\nmethod: searched\nsource: https://develop
   \ /api/v1/keys/credential/rotate-to/{keyId}); a new credential's\n    expiration cannot be more than 365 days in the future.\n  sources:\n  - https://developerhub.wpay.com.au/cardsconnect/docs/authentication\n  - https://developerhub.wpay.com.au/cardsconnect/docs/credential-rotation\n  - https://developerhub.wpay.com.au/cardsconnect/docs/error-codes\n- name: connextor-http-hmac\n  type: http\n  scheme: wpay-http-hmac (HMAC-SHA256)\n  applies_to: Wpay Cards Connect in-store (Connextor) API\n  description: Requests are signed with X-Authorization (wpay-http-hmac id/nonce/version/headers/signature, version connextor-1.0), X-Authorization-Timestamp (rejected if it differs from server time by\n    more than 900 seconds) and X-Authorization-Content-SHA256. The server signs responses with X-Server-Authorization-HMAC-SHA256.\n  parameters:\n  - X-Authorization\n  - X-Authorization-Timestamp\n  - X-Authorization-Content-SHA256\n  sources:\n  - openapi/woolworths-group-wpay-payment-openapi.yml\n\
   \  - openapi/_original/wpay-developerhub/cardsconnect__overview-of-headers.md\n  - openapi/_original/wpay-developerhub/cardsconnect__generating-the-client-request-header-and-signature.md\n- name: payto-jws\n  type: http\n  scheme: JWS\n  header: 'Authorization: JWS <JWStoken>'\n  applies_to: Wpay NPP PayTo Merchant API\n  description: The merchant is onboarded with a merchantId GUID, provides a public key and receives a Key ID (kid). Each request is signed as an ES256 JWS whose payload holds method, path, query, sha256\n    (of the body), iat and exp; exp must be within 60 seconds of iat.\n  sources:\n  - https://developerhub.wpay.com.au/payto/docs/getting-connected\n  - https://developerhub.wpay.com.au/payto/docs/signing-api-requests\ndocs_pages:\n- https://developerhub.wpay.com.au/giftingservices/docs/jwt-authentication-process\n- https://developerhub.wpay.com.au/giftingservices/docs/becoming-a-gifting-partner\n- https://developerhub.wpay.com.au/cardsconnect/docs/authentication\n- https://developerhub.wpay.com.au/cardsconnect/docs/credential-rotation\n\
   - https://developerhub.wpay.com.au/cardsconnect/reference/overview-of-headers\n- https://developerhub.wpay.com.au/payto/docs/getting-connected\n- https://developerhub.wpay.com.au/payto/docs/signing-api-requests\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/woolworths-group/refs/heads/main/authentication/woolworths-group-authentication.yml
+source_yaml_url: https://artifacts.apis.io/woolworths-group/authentication/woolworths-group-authentication.yml
 summary_line: apiKey/http/signed-request · 5 schemes
 tags:
 - Company

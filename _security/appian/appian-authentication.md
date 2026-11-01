@@ -8,31 +8,31 @@ api_specs:
   label: Appian Export API
   slug: appian-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/openapi/appian-export-api-openapi.yml
+  url: https://artifacts.apis.io/appian/openapi/appian-export-api-openapi.yml
 - filename: appian-import-api-openapi.yml
   format: yaml
   label: Appian Import API
   slug: appian-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/openapi/appian-import-api-openapi.yml
+  url: https://artifacts.apis.io/appian/openapi/appian-import-api-openapi.yml
 - filename: appian-inspection-api-openapi.yml
   format: yaml
   label: Appian Inspection API
   slug: appian-inspection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/openapi/appian-inspection-api-openapi.yml
+  url: https://artifacts.apis.io/appian/openapi/appian-inspection-api-openapi.yml
 - filename: appian-packages-api-openapi.yml
   format: yaml
   label: Appian Packages API
   slug: appian-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/openapi/appian-packages-api-openapi.yml
+  url: https://artifacts.apis.io/appian/openapi/appian-packages-api-openapi.yml
 - filename: appian-results-api-openapi.yml
   format: yaml
   label: Appian Results API
   slug: appian-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/openapi/appian-results-api-openapi.yml
+  url: https://artifacts.apis.io/appian/openapi/appian-results-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -61,7 +61,7 @@ source_filename: appian-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/appian-application-package-details-openapi.yml, openapi/appian-deployment-rest-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: appian-api-key\n  description: API key linked to a service account. Created and managed through the Appian Admin\n    Console. The service account must have access to the application via the application's role\n    map.\n  sources:\n  - openapi/appian-application-package-details-openapi.yml\n  - openapi/appian-deployment-rest-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/authentication/appian-authentication.yml
+source_yaml_url: https://artifacts.apis.io/appian/authentication/appian-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Automation

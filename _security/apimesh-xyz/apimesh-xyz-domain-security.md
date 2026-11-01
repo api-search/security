@@ -5,19 +5,19 @@ api_specs:
   label: APIMesh API Mesh API
   slug: apimesh-xyz-apimesh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apimesh-xyz/refs/heads/main/openapi/apimesh-xyz-apimesh-api-openapi.yml
+  url: https://artifacts.apis.io/apimesh-xyz/openapi/apimesh-xyz-apimesh-api-openapi.yml
 - filename: apimesh-xyz-health-api-openapi.yml
   format: yaml
   label: APIMesh Health API
   slug: apimesh-xyz-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apimesh-xyz/refs/heads/main/openapi/apimesh-xyz-health-api-openapi.yml
+  url: https://artifacts.apis.io/apimesh-xyz/openapi/apimesh-xyz-health-api-openapi.yml
 - filename: apimesh-xyz-preview-api-openapi.yml
   format: yaml
   label: APIMesh Preview API
   slug: apimesh-xyz-preview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apimesh-xyz/refs/heads/main/openapi/apimesh-xyz-preview-api-openapi.yml
+  url: https://artifacts.apis.io/apimesh-xyz/openapi/apimesh-xyz-preview-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: apimesh-xyz-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: apimesh.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 25 02:35:33 2026 GMT\n  hsts: false\n- host: agentsmd.apimesh.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 25 22:35:39 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: stripesig.apimesh.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 25 22:35:39 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: apimesh.xyz\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apimesh-xyz/refs/heads/main/security/apimesh-xyz-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apimesh-xyz/security/apimesh-xyz-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Web Analysis

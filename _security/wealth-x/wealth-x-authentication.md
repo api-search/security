@@ -8,19 +8,19 @@ api_specs:
   label: Wealth-X Dossiers API
   slug: wealth-x-dossiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/openapi/wealth-x-dossiers-api-openapi.yml
+  url: https://artifacts.apis.io/wealth-x/openapi/wealth-x-dossiers-api-openapi.yml
 - filename: wealth-x-reference-api-openapi.yml
   format: yaml
   label: Wealth-X Reference API
   slug: wealth-x-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/openapi/wealth-x-reference-api-openapi.yml
+  url: https://artifacts.apis.io/wealth-x/openapi/wealth-x-reference-api-openapi.yml
 - filename: wealth-x-search-api-openapi.yml
   format: yaml
   label: Wealth-X Search API
   slug: wealth-x-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/openapi/wealth-x-search-api-openapi.yml
+  url: https://artifacts.apis.io/wealth-x/openapi/wealth-x-search-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -129,7 +129,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: >-\n  https://d
   - name: altrataApiKey\n  surface: Altrata platform GraphQL APIs\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: >-\n    Subscription API key, required on the token request in addition to the\n    service user's HTTP Basic credentials. Also the key used by the Altrata\n    Salesforce App.\n  method: searched\n  source: https://docs.altrata.com/service-user-credentials\n- name: altrataBasic\n  surface: Altrata platform GraphQL APIs (token request)\n  type: http\n  scheme: basic\n  description: base64(serviceUsername:servicePassword) on the token request.\n  method: searched\n  source: https://docs.altrata.com/service-user-credentials\n- name: altrataMcpOAuth\n  surface: Altrata MCP server (https://mcp.altrata.com/mcp)\n  type: oauth2\n  flow: authorizationCode\n  pkce: S256\n  issuer: https://mcp.altrata.com\n  authorization_url: https://serviceauth.altrata.com/oauth2/authorize\n  token_url: https://serviceauth.altrata.com/oauth2/token\n  jwks_uri: https://cognito-idp.us-east-2.amazonaws.com/us-east-2_Pe8aMS8JG/.well-known/jwks.json\n\
   \  client_id: 21saqug474pjtpong1gue9505\n  token_endpoint_auth_methods_supported: [none]\n  grant_types_supported: [authorization_code, refresh_token]\n  scopes:\n  - openid\n  - email\n  description: >-\n    Amazon Cognito-backed OAuth. An anonymous request returns HTTP 401 with a\n    spec-conformant challenge — WWW-Authenticate: Bearer realm=\"Altrata MCP\",\n    resource_metadata=\".../.well-known/oauth-protected-resource/mcp\",\n    scope=\"openid email\".\n  method: probed\n  detail: scopes/wealth-x-scopes.yml\n\nhuman_access:\n  graphiql: >-\n    The GraphiQL explorers at <service>.altrata.com/v1/graphiql/ accept the\n    service account username and password directly in a sign-in form — no token\n    exchange needed for interactive use.\n  source: https://docs.altrata.com/service-user-credentials\n\ngaps:\n- No self-serve signup, trial, or public sandbox credential on any surface.\n- No openid-configuration document is served, despite the `openid` scope.\n- The legacy REST API\
   \ transmits an account password as a plain request header on every call.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/authentication/wealth-x-authentication.yml
+source_yaml_url: https://artifacts.apis.io/wealth-x/authentication/wealth-x-authentication.yml
 summary_line: apiKey/http/oauth2 · 7 schemes
 tags:
 - Company

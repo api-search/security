@@ -7,25 +7,25 @@ api_specs:
   label: FrameThrower Discovery API
   slug: framethrower-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/framethrower/refs/heads/main/openapi/framethrower-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/framethrower/openapi/framethrower-discovery-api-openapi.yml
 - filename: framethrower-films-api-openapi.yml
   format: yaml
   label: FrameThrower Films API
   slug: framethrower-films-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/framethrower/refs/heads/main/openapi/framethrower-films-api-openapi.yml
+  url: https://artifacts.apis.io/framethrower/openapi/framethrower-films-api-openapi.yml
 - filename: framethrower-frames-api-openapi.yml
   format: yaml
   label: FrameThrower Frames API
   slug: framethrower-frames-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/framethrower/refs/heads/main/openapi/framethrower-frames-api-openapi.yml
+  url: https://artifacts.apis.io/framethrower/openapi/framethrower-frames-api-openapi.yml
 - filename: framethrower-search-api-openapi.yml
   format: yaml
   label: FrameThrower Search API
   slug: framethrower-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/framethrower/refs/heads/main/openapi/framethrower-search-api-openapi.yml
+  url: https://artifacts.apis.io/framethrower/openapi/framethrower-search-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -77,7 +77,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-25'\nmethod: searched\nsource:\n- openapi/framethrower-openapi.yml\n- https://framethrower.ai/api/v1\n- https://framethrower.ai/.well-known/oauth-authorization-server\n- https://framethrower.ai/.well-known/oauth-protected-resource\ndocs: https://framethrower.ai/developers\nsummary:\n  types:\n  - http\n  - oauth2\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  surface: REST API (https://framethrower.ai/api/v1)\n  description: Personal access token, prefix `ft_`. Create one at https://framethrower.ai/settings?tab=api — free accounts included, no plan required.\n  header: 'Authorization: Bearer ft_YOUR_TOKEN'\n  token_prefix: ft_\n  how_to_get_token: Sign up at https://framethrower.ai/register (free, no card), then create a token at https://framethrower.ai/settings?tab=api\n  sources:\n  - openapi/framethrower-openapi.yml\n  - https://framethrower.ai/api/v1\n- name: mcpOAuth\n  type: oauth2\n  surface: MCP server (https://framethrower.ai/api/mcp)\n\
   \  flows:\n    authorizationCode:\n      authorizationUrl: https://framethrower.ai/api/auth/mcp/authorize\n      tokenUrl: https://framethrower.ai/api/auth/mcp/token\n      pkce: S256\n  registration_endpoint: https://framethrower.ai/api/auth/mcp/register\n  scopes_supported: [openid, profile, email, offline_access]\n  description: OAuth 2.1 for MCP clients per the framethrower-mcp README; metadata served at /.well-known/oauth-authorization-server (RFC 8414) and /.well-known/oauth-protected-resource (RFC 9728).\n  sources:\n  - https://framethrower.ai/.well-known/oauth-authorization-server\n  - https://github.com/framethrower-ai/framethrower-mcp\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/framethrower/refs/heads/main/authentication/framethrower-authentication.yml
+source_yaml_url: https://artifacts.apis.io/framethrower/authentication/framethrower-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Film

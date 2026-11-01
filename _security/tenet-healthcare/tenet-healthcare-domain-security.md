@@ -5,37 +5,37 @@ api_specs:
   label: Tenet Healthcare Appointments API
   slug: tenet-healthcare-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/openapi/tenet-healthcare-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/tenet-healthcare/openapi/tenet-healthcare-appointments-api-openapi.yml
 - filename: tenet-healthcare-conditions-api-openapi.yml
   format: yaml
   label: Tenet Healthcare Conditions API
   slug: tenet-healthcare-conditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/openapi/tenet-healthcare-conditions-api-openapi.yml
+  url: https://artifacts.apis.io/tenet-healthcare/openapi/tenet-healthcare-conditions-api-openapi.yml
 - filename: tenet-healthcare-documents-api-openapi.yml
   format: yaml
   label: Tenet Healthcare Documents API
   slug: tenet-healthcare-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/openapi/tenet-healthcare-documents-api-openapi.yml
+  url: https://artifacts.apis.io/tenet-healthcare/openapi/tenet-healthcare-documents-api-openapi.yml
 - filename: tenet-healthcare-medications-api-openapi.yml
   format: yaml
   label: Tenet Healthcare Medications API
   slug: tenet-healthcare-medications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/openapi/tenet-healthcare-medications-api-openapi.yml
+  url: https://artifacts.apis.io/tenet-healthcare/openapi/tenet-healthcare-medications-api-openapi.yml
 - filename: tenet-healthcare-observations-api-openapi.yml
   format: yaml
   label: Tenet Healthcare Observations API
   slug: tenet-healthcare-observations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/openapi/tenet-healthcare-observations-api-openapi.yml
+  url: https://artifacts.apis.io/tenet-healthcare/openapi/tenet-healthcare-observations-api-openapi.yml
 - filename: tenet-healthcare-patients-api-openapi.yml
   format: yaml
   label: Tenet Healthcare Patients API
   slug: tenet-healthcare-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/openapi/tenet-healthcare-patients-api-openapi.yml
+  url: https://artifacts.apis.io/tenet-healthcare/openapi/tenet-healthcare-patients-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: tenet-healthcare-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tenethealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 16:19:13 2026 GMT\n  hsts: true\n  hsts_max_age: 10368000\n- host: www.tenetcorporate.com\n  https: false\n- host: www.coniferhealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 12 12:44:18 2026 GMT\n  hsts: null\ndomains:\n- domain: tenethealth.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: tenetcorporate.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/security/tenet-healthcare-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tenet-healthcare/security/tenet-healthcare-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Healthcare

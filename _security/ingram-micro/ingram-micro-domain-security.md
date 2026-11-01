@@ -5,31 +5,31 @@ api_specs:
   label: ingram-micro Catalog API
   slug: ingram-micro-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ingram-micro/refs/heads/main/openapi/ingram-micro-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/ingram-micro/openapi/ingram-micro-catalog-api-openapi.yml
 - filename: ingram-micro-inventory-api-openapi.yml
   format: yaml
   label: ingram-micro Inventory API
   slug: ingram-micro-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ingram-micro/refs/heads/main/openapi/ingram-micro-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/ingram-micro/openapi/ingram-micro-inventory-api-openapi.yml
 - filename: ingram-micro-orders-api-openapi.yml
   format: yaml
   label: ingram-micro Orders API
   slug: ingram-micro-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ingram-micro/refs/heads/main/openapi/ingram-micro-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ingram-micro/openapi/ingram-micro-orders-api-openapi.yml
 - filename: ingram-micro-pricing-api-openapi.yml
   format: yaml
   label: ingram-micro Pricing API
   slug: ingram-micro-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ingram-micro/refs/heads/main/openapi/ingram-micro-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/ingram-micro/openapi/ingram-micro-pricing-api-openapi.yml
 - filename: ingram-micro-shipments-api-openapi.yml
   format: yaml
   label: ingram-micro Shipments API
   slug: ingram-micro-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ingram-micro/refs/heads/main/openapi/ingram-micro-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/ingram-micro/openapi/ingram-micro-shipments-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: ingram-micro-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.ingrammicro.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jul 16 23:59:59 2026 GMT\n  hsts: false\n- host: api.ingrammicro.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 21 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: ingrammicro.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ingram-micro/refs/heads/main/security/ingram-micro-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ingram-micro/security/ingram-micro-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Fortune 100

@@ -27,7 +27,7 @@ source_filename: lanzatech-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/lanzatech-wordpress-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: applicationPassword\n  type: http\n  scheme: basic\n  description: WordPress application passwords, advertised by the API root document at https://lanzatech.com/wp-json/\n    (authentication.application-passwords.endpoints.authorization = https://lanzatech.com/wp-admin/authorize-application.php).\n    Sent as HTTP Basic credentials. Only required for write operations; all read operations\n    captured here are public.\n  sources:\n  - openapi/lanzatech-wordpress-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lanzatech/refs/heads/main/authentication/lanzatech-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lanzatech/authentication/lanzatech-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

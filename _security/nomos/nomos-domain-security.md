@@ -5,73 +5,73 @@ api_specs:
   label: Nomos Authentication API
   slug: nomos-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/openapi/nomos-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/nomos/openapi/nomos-authentication-api-openapi.yml
 - filename: nomos-customers-api-openapi.yml
   format: yaml
   label: Nomos Customers API
   slug: nomos-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/openapi/nomos-customers-api-openapi.yml
+  url: https://artifacts.apis.io/nomos/openapi/nomos-customers-api-openapi.yml
 - filename: nomos-events-api-openapi.yml
   format: yaml
   label: Nomos Events API
   slug: nomos-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/openapi/nomos-events-api-openapi.yml
+  url: https://artifacts.apis.io/nomos/openapi/nomos-events-api-openapi.yml
 - filename: nomos-grid-fee-reductions-api-openapi.yml
   format: yaml
   label: Nomos Grid Fee Reductions API
   slug: nomos-grid-fee-reductions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/openapi/nomos-grid-fee-reductions-api-openapi.yml
+  url: https://artifacts.apis.io/nomos/openapi/nomos-grid-fee-reductions-api-openapi.yml
 - filename: nomos-invoices-api-openapi.yml
   format: yaml
   label: Nomos Invoices API
   slug: nomos-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/openapi/nomos-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/nomos/openapi/nomos-invoices-api-openapi.yml
 - filename: nomos-leads-api-openapi.yml
   format: yaml
   label: Nomos Leads API
   slug: nomos-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/openapi/nomos-leads-api-openapi.yml
+  url: https://artifacts.apis.io/nomos/openapi/nomos-leads-api-openapi.yml
 - filename: nomos-market-partners-api-openapi.yml
   format: yaml
   label: Nomos Market Partners API
   slug: nomos-market-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/openapi/nomos-market-partners-api-openapi.yml
+  url: https://artifacts.apis.io/nomos/openapi/nomos-market-partners-api-openapi.yml
 - filename: nomos-plans-api-openapi.yml
   format: yaml
   label: Nomos Plans API
   slug: nomos-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/openapi/nomos-plans-api-openapi.yml
+  url: https://artifacts.apis.io/nomos/openapi/nomos-plans-api-openapi.yml
 - filename: nomos-prices-api-openapi.yml
   format: yaml
   label: Nomos Prices API
   slug: nomos-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/openapi/nomos-prices-api-openapi.yml
+  url: https://artifacts.apis.io/nomos/openapi/nomos-prices-api-openapi.yml
 - filename: nomos-smart-meter-orders-api-openapi.yml
   format: yaml
   label: Nomos Smart Meter Orders API
   slug: nomos-smart-meter-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/openapi/nomos-smart-meter-orders-api-openapi.yml
+  url: https://artifacts.apis.io/nomos/openapi/nomos-smart-meter-orders-api-openapi.yml
 - filename: nomos-subscriptions-api-openapi.yml
   format: yaml
   label: Nomos Subscriptions API
   slug: nomos-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/openapi/nomos-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/nomos/openapi/nomos-subscriptions-api-openapi.yml
 - filename: nomos-usage-api-openapi.yml
   format: yaml
   label: Nomos Usage API
   slug: nomos-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/openapi/nomos-usage-api-openapi.yml
+  url: https://artifacts.apis.io/nomos/openapi/nomos-usage-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -103,7 +103,7 @@ source_filename: nomos-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.nomos.energy\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 23:25:28 2026 GMT\n  hsts: false\ndomains:\n- domain: nomos.energy\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/security/nomos-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nomos/security/nomos-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

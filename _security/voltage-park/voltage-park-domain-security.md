@@ -5,43 +5,43 @@ api_specs:
   label: Voltage Park Bare Metal API
   slug: voltage-park-bare-metal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/openapi/voltage-park-bare-metal-api-openapi.yml
+  url: https://artifacts.apis.io/voltage-park/openapi/voltage-park-bare-metal-api-openapi.yml
 - filename: voltage-park-billing-api-openapi.yml
   format: yaml
   label: Voltage Park Billing API
   slug: voltage-park-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/openapi/voltage-park-billing-api-openapi.yml
+  url: https://artifacts.apis.io/voltage-park/openapi/voltage-park-billing-api-openapi.yml
 - filename: voltage-park-locations-api-openapi.yml
   format: yaml
   label: Voltage Park Locations API
   slug: voltage-park-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/openapi/voltage-park-locations-api-openapi.yml
+  url: https://artifacts.apis.io/voltage-park/openapi/voltage-park-locations-api-openapi.yml
 - filename: voltage-park-organization-api-openapi.yml
   format: yaml
   label: Voltage Park Organization API
   slug: voltage-park-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/openapi/voltage-park-organization-api-openapi.yml
+  url: https://artifacts.apis.io/voltage-park/openapi/voltage-park-organization-api-openapi.yml
 - filename: voltage-park-storage-api-openapi.yml
   format: yaml
   label: Voltage Park Storage API
   slug: voltage-park-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/openapi/voltage-park-storage-api-openapi.yml
+  url: https://artifacts.apis.io/voltage-park/openapi/voltage-park-storage-api-openapi.yml
 - filename: voltage-park-validation-api-openapi.yml
   format: yaml
   label: Voltage Park Validation API
   slug: voltage-park-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/openapi/voltage-park-validation-api-openapi.yml
+  url: https://artifacts.apis.io/voltage-park/openapi/voltage-park-validation-api-openapi.yml
 - filename: voltage-park-virtual-machines-api-openapi.yml
   format: yaml
   label: Voltage Park Virtual Machines API
   slug: voltage-park-virtual-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/openapi/voltage-park-virtual-machines-api-openapi.yml
+  url: https://artifacts.apis.io/voltage-park/openapi/voltage-park-virtual-machines-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: voltage-park-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.voltagepark.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 22:34:07 2026 GMT\n  hsts: true\n  hsts_max_age: 86400\n- host: docs.voltagepark.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 02:32:31 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: cloud-api.voltagepark.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 01:28:50 2026 GMT\n  hsts: null\ndomains:\n- domain: voltagepark.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/security/voltage-park-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/voltage-park/security/voltage-park-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - GPU

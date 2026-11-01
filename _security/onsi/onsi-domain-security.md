@@ -5,13 +5,13 @@ api_specs:
   label: Onsi Members API
   slug: onsi-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/openapi/onsi-members-api-openapi.yml
+  url: https://artifacts.apis.io/onsi/openapi/onsi-members-api-openapi.yml
 - filename: onsi-pay-api-openapi.yml
   format: yaml
   label: Onsi Pay API
   slug: onsi-pay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/openapi/onsi-pay-api-openapi.yml
+  url: https://artifacts.apis.io/onsi/openapi/onsi-pay-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -56,7 +56,7 @@ source_filename: onsi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: onsi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 07:54:34 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.onsi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  6 23:59:59 2027 GMT\n  hsts: null\n- host: api.onsi.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 11 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: onsi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: onsi.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/security/onsi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/onsi/security/onsi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

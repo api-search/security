@@ -45,7 +45,7 @@ source_filename: tsenta-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tsenta.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 23:35:49 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.tsenta.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 11:10:01 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.autojobs.me\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 11:13:18 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\ndomains:\n- domain: tsenta.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: autojobs.me\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tsenta/refs/heads/main/security/tsenta-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tsenta/security/tsenta-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

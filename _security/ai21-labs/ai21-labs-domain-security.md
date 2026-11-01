@@ -11,19 +11,19 @@ api_specs:
   label: AI21 Labs Library API
   slug: ai21-labs-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai21-labs/refs/heads/main/openapi/ai21-labs-library-api-openapi.yml
+  url: https://artifacts.apis.io/ai21-labs/openapi/ai21-labs-library-api-openapi.yml
 - filename: ai21-labs-maestro-api-openapi.yml
   format: yaml
   label: AI21 Labs Maestro API
   slug: ai21-labs-maestro-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai21-labs/refs/heads/main/openapi/ai21-labs-maestro-api-openapi.yml
+  url: https://artifacts.apis.io/ai21-labs/openapi/ai21-labs-maestro-api-openapi.yml
 - filename: ai21-labs-chat-completions-api-openapi.yml
   format: yaml
   label: AI21 Labs Chat Completions API
   slug: ai21-labs-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai21-labs/refs/heads/main/openapi/ai21-labs-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/ai21-labs/openapi/ai21-labs-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: ai21-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ai21.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 01:26:06 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: docs.ai21.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 19:05:04 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.ai21.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 23:32:59 2026 GMT\n  hsts: null\ndomains:\n- domain: ai21.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ai21-labs/refs/heads/main/security/ai21-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ai21-labs/security/ai21-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

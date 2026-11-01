@@ -8,13 +8,13 @@ api_specs:
   label: Pinkfish Runs API
   slug: pinkfish-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinkfish/refs/heads/main/openapi/pinkfish-runs-api-openapi.yml
+  url: https://artifacts.apis.io/pinkfish/openapi/pinkfish-runs-api-openapi.yml
 - filename: pinkfish-triggers-api-openapi.yml
   format: yaml
   label: Pinkfish Triggers API
   slug: pinkfish-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinkfish/refs/heads/main/openapi/pinkfish-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/pinkfish/openapi/pinkfish-triggers-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -41,7 +41,7 @@ source_filename: pinkfish-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/pinkfish-triggers-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-KEY\n  sources:\n  - openapi/pinkfish-triggers-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pinkfish/refs/heads/main/authentication/pinkfish-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pinkfish/authentication/pinkfish-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

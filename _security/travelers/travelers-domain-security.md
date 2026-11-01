@@ -5,19 +5,19 @@ api_specs:
   label: Travelers Claims API
   slug: travelers-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelers/refs/heads/main/openapi/travelers-claims-api-openapi.yml
+  url: https://artifacts.apis.io/travelers/openapi/travelers-claims-api-openapi.yml
 - filename: travelers-policies-api-openapi.yml
   format: yaml
   label: Travelers Policies API
   slug: travelers-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelers/refs/heads/main/openapi/travelers-policies-api-openapi.yml
+  url: https://artifacts.apis.io/travelers/openapi/travelers-policies-api-openapi.yml
 - filename: travelers-quoting-api-openapi.yml
   format: yaml
   label: Travelers Quoting API
   slug: travelers-quoting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelers/refs/heads/main/openapi/travelers-quoting-api-openapi.yml
+  url: https://artifacts.apis.io/travelers/openapi/travelers-quoting-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: travelers-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.travelers.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 03:07:59 2026 GMT\n  hsts: false\n- host: developer.travelers.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 19:38:53 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.travelers.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 12:34:43 2026 GMT\n  hsts: null\ndomains:\n- domain: travelers.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/travelers/refs/heads/main/security/travelers-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/travelers/security/travelers-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance
@@ -75,7 +75,7 @@ tags:
 - Homeowners
 - Personal Insurance
 - Risk Management
-- Surety Bonds
+- Surety
 - Telematics
 - Workers Compensation
 ---

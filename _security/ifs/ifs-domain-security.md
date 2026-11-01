@@ -5,25 +5,25 @@ api_specs:
   label: IFS Finance API
   slug: ifs-finance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/openapi/ifs-finance-api-openapi.yml
+  url: https://artifacts.apis.io/ifs/openapi/ifs-finance-api-openapi.yml
 - filename: ifs-inventory-api-openapi.yml
   format: yaml
   label: IFS Inventory API
   slug: ifs-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/openapi/ifs-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/ifs/openapi/ifs-inventory-api-openapi.yml
 - filename: ifs-procurement-api-openapi.yml
   format: yaml
   label: IFS Procurement API
   slug: ifs-procurement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/openapi/ifs-procurement-api-openapi.yml
+  url: https://artifacts.apis.io/ifs/openapi/ifs-procurement-api-openapi.yml
 - filename: ifs-work-orders-api-openapi.yml
   format: yaml
   label: IFS Work Orders API
   slug: ifs-work-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/openapi/ifs-work-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ifs/openapi/ifs-work-orders-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -64,11 +64,11 @@ source_filename: ifs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ifs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 06:49:36 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.ifs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 25 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: ifs.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"awstrust.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 iodef \"mailto:noc@ifs.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/security/ifs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ifs/security/ifs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - ERP
-- Field Service
+- Field Service Management
 - Asset Management
 - Manufacturing
 - Energy

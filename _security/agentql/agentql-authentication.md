@@ -8,19 +8,31 @@ api_specs:
   label: AgentQL Query Data API
   slug: agentql-query-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentql/refs/heads/main/openapi/agentql-query-data-api-openapi.yml
+  url: https://artifacts.apis.io/agentql/openapi/agentql-query-data-api-openapi.yml
 - filename: agentql-query-document-api-openapi.yml
   format: yaml
   label: AgentQL Query Document API
   slug: agentql-query-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentql/refs/heads/main/openapi/agentql-query-document-api-openapi.yml
+  url: https://artifacts.apis.io/agentql/openapi/agentql-query-document-api-openapi.yml
 - filename: agentql-remote-browser-api-openapi.yml
   format: yaml
   label: AgentQL Remote Browser API
   slug: agentql-remote-browser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentql/refs/heads/main/openapi/agentql-remote-browser-api-openapi.yml
+  url: https://artifacts.apis.io/agentql/openapi/agentql-remote-browser-api-openapi.yml
+- filename: agentql-agentql-rest-api-api-openapi.yml
+  format: yaml
+  label: AgentQL AgentQL REST API
+  slug: agentql-agentql-rest-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentql/openapi/agentql-agentql-rest-api-api-openapi.yml
+- filename: agentql-agentql-tetra-remote-chrome-browser-api-openapi.yml
+  format: yaml
+  label: AgentQL AgentQL Tetra (Remote Chrome Browser) API
+  slug: agentql-agentql-tetra-remote-chrome-browser-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentql/openapi/agentql-agentql-tetra-remote-chrome-browser-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +60,7 @@ source_filename: agentql-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/agentql-openapi.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: API key from the AgentQL Dev Portal (https://dev.agentql.com)\n  sources:\n  - openapi/agentql-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentql/refs/heads/main/authentication/agentql-authentication.yml
+source_yaml_url: https://artifacts.apis.io/agentql/authentication/agentql-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Agents

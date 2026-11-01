@@ -5,25 +5,25 @@ api_specs:
   label: WalletConnect Relay (SDK-mediated)
   slug: walletconnect-protocol
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reown/refs/heads/main/asyncapi/reown-asyncapi.yml
+  url: https://artifacts.apis.io/reown/asyncapi/reown-asyncapi.yml
 - filename: reown-chains-api-openapi.yml
   format: yaml
   label: Reown Chains API
   slug: reown-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reown/refs/heads/main/openapi/reown-chains-api-openapi.yml
+  url: https://artifacts.apis.io/reown/openapi/reown-chains-api-openapi.yml
 - filename: reown-listings-api-openapi.yml
   format: yaml
   label: Reown Listings API
   slug: reown-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reown/refs/heads/main/openapi/reown-listings-api-openapi.yml
+  url: https://artifacts.apis.io/reown/openapi/reown-listings-api-openapi.yml
 - filename: reown-logos-api-openapi.yml
   format: yaml
   label: Reown Logos API
   slug: reown-logos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reown/refs/heads/main/openapi/reown-logos-api-openapi.yml
+  url: https://artifacts.apis.io/reown/openapi/reown-logos-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: reown-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: reown.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 02:35:40 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.reown.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 20:11:33 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.web3modal.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 21:58:10 2026 GMT\n  hsts: null\ndomains:\n- domain: reown.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: web3modal.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reown/refs/heads/main/security/reown-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/reown/security/reown-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Web3

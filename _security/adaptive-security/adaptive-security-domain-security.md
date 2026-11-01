@@ -5,31 +5,43 @@ api_specs:
   label: Adaptive Security Audit Logs API
   slug: adaptive-security-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/openapi/adaptive-security-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-security/openapi/adaptive-security-audit-logs-api-openapi.yml
 - filename: adaptive-security-groups-api-openapi.yml
   format: yaml
   label: Adaptive Security Groups API
   slug: adaptive-security-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/openapi/adaptive-security-groups-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-security/openapi/adaptive-security-groups-api-openapi.yml
 - filename: adaptive-security-phishing-api-openapi.yml
   format: yaml
   label: Adaptive Security Phishing API
   slug: adaptive-security-phishing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/openapi/adaptive-security-phishing-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-security/openapi/adaptive-security-phishing-api-openapi.yml
 - filename: adaptive-security-training-api-openapi.yml
   format: yaml
   label: Adaptive Security Training API
   slug: adaptive-security-training-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/openapi/adaptive-security-training-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-security/openapi/adaptive-security-training-api-openapi.yml
 - filename: adaptive-security-users-api-openapi.yml
   format: yaml
   label: Adaptive Security Users API
   slug: adaptive-security-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/openapi/adaptive-security-users-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-security/openapi/adaptive-security-users-api-openapi.yml
+- filename: adaptive-security-email-security-api-openapi.yml
+  format: yaml
+  label: Adaptive Security Email Security API
+  slug: adaptive-security-email-security-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adaptive-security/openapi/adaptive-security-email-security-api-openapi.yml
+- filename: adaptive-security-webhooks-api-openapi.yml
+  format: yaml
+  label: Adaptive Security Webhooks API
+  slug: adaptive-security-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adaptive-security/openapi/adaptive-security-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +82,7 @@ source_filename: adaptive-security-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.adaptivesecurity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 16:09:39 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.adaptivesecurity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 20 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.adaptivesecurity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 21 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: adaptivesecurity.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/security/adaptive-security-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/adaptive-security/security/adaptive-security-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -5,31 +5,31 @@ api_specs:
   label: Blazepizza Blazepizza API
   slug: blazepizza-blazepizza-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blazepizza/refs/heads/main/openapi/blazepizza-blazepizza-api-api-openapi.yml
+  url: https://artifacts.apis.io/blazepizza/openapi/blazepizza-blazepizza-api-api-openapi.yml
 - filename: blazepizza-cat-pic-api-openapi.yml
   format: yaml
   label: Blazepizza Cat Pic API
   slug: blazepizza-cat-pic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blazepizza/refs/heads/main/openapi/blazepizza-cat-pic-api-openapi.yml
+  url: https://artifacts.apis.io/blazepizza/openapi/blazepizza-cat-pic-api-openapi.yml
 - filename: blazepizza-foo-api-openapi.yml
   format: yaml
   label: Blazepizza Foo API
   slug: blazepizza-foo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blazepizza/refs/heads/main/openapi/blazepizza-foo-api-openapi.yml
+  url: https://artifacts.apis.io/blazepizza/openapi/blazepizza-foo-api-openapi.yml
 - filename: blazepizza-http-api-openapi.yml
   format: yaml
   label: Blazepizza HTTP API
   slug: blazepizza-http-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blazepizza/refs/heads/main/openapi/blazepizza-http-api-openapi.yml
+  url: https://artifacts.apis.io/blazepizza/openapi/blazepizza-http-api-openapi.yml
 - filename: blazepizza-image-api-openapi.yml
   format: yaml
   label: Blazepizza Image API
   slug: blazepizza-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blazepizza/refs/heads/main/openapi/blazepizza-image-api-openapi.yml
+  url: https://artifacts.apis.io/blazepizza/openapi/blazepizza-image-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: blazepizza-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.blazepizza.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 13:28:06 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: blazepizza.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blazepizza/refs/heads/main/security/blazepizza-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/blazepizza/security/blazepizza-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

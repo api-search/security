@@ -5,49 +5,49 @@ api_specs:
   label: APIGen Connectors API
   slug: apigen-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apigen/refs/heads/main/openapi/apigen-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/apigen/openapi/apigen-connectors-api-openapi.yml
 - filename: apigen-deployments-api-openapi.yml
   format: yaml
   label: APIGen Deployments API
   slug: apigen-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apigen/refs/heads/main/openapi/apigen-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/apigen/openapi/apigen-deployments-api-openapi.yml
 - filename: apigen-endpoints-api-openapi.yml
   format: yaml
   label: APIGen Endpoints API
   slug: apigen-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apigen/refs/heads/main/openapi/apigen-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/apigen/openapi/apigen-endpoints-api-openapi.yml
 - filename: apigen-projects-api-openapi.yml
   format: yaml
   label: APIGen Projects API
   slug: apigen-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apigen/refs/heads/main/openapi/apigen-projects-api-openapi.yml
+  url: https://artifacts.apis.io/apigen/openapi/apigen-projects-api-openapi.yml
 - filename: apigen-schemas-api-openapi.yml
   format: yaml
   label: APIGen Schemas API
   slug: apigen-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apigen/refs/heads/main/openapi/apigen-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/apigen/openapi/apigen-schemas-api-openapi.yml
 - filename: apigen-tests-api-openapi.yml
   format: yaml
   label: APIGen Tests API
   slug: apigen-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apigen/refs/heads/main/openapi/apigen-tests-api-openapi.yml
+  url: https://artifacts.apis.io/apigen/openapi/apigen-tests-api-openapi.yml
 - filename: apigen-tokens-api-openapi.yml
   format: yaml
   label: APIGen Tokens API
   slug: apigen-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apigen/refs/heads/main/openapi/apigen-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/apigen/openapi/apigen-tokens-api-openapi.yml
 - filename: apigen-users-api-openapi.yml
   format: yaml
   label: APIGen Users API
   slug: apigen-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apigen/refs/heads/main/openapi/apigen-users-api-openapi.yml
+  url: https://artifacts.apis.io/apigen/openapi/apigen-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: apigen-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.apigen.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 00:32:27 2026 GMT\n  hsts: null\ndomains:\n- domain: apigen.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apigen/refs/heads/main/security/apigen-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apigen/security/apigen-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Code

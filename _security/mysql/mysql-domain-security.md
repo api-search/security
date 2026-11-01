@@ -5,7 +5,7 @@ api_specs:
   label: MySQL Authentication API
   slug: mysql-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mysql/refs/heads/main/openapi/mysql-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/mysql/openapi/mysql-authentication-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -36,7 +36,7 @@ source_filename: mysql-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dev.mysql.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: mysql.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"symantec.com\"\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mysql/refs/heads/main/security/mysql-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mysql/security/mysql-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Database

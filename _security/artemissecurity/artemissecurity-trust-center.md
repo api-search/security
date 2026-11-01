@@ -15,7 +15,7 @@ source_filename: artemissecurity-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nprobe: true\nsource: https://artemissecurity.com/security/\nurl: https://artemissecurity.com/security/\ncertifications:\n- GDPR\nevidence:\n- source: https://artemissecurity.com/security/\n  keywords:\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/artemissecurity/refs/heads/main/security/artemissecurity-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/artemissecurity/security/artemissecurity-trust-center.yml
 summary_line: GDPR
 tags:
 - Company

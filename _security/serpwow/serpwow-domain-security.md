@@ -5,7 +5,7 @@ api_specs:
   label: SerpWow Search API
   slug: serpwow-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serpwow/refs/heads/main/openapi/serpwow-search-api-openapi.yml
+  url: https://artifacts.apis.io/serpwow/openapi/serpwow-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: serpwow-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: trajectdata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 23:54:17 2026 GMT\n  hsts: false\n- host: api.serpwow.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 21:51:24 2026 GMT\n  hsts: null\ndomains:\n- domain: trajectdata.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: serpwow.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/serpwow/refs/heads/main/security/serpwow-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/serpwow/security/serpwow-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Search

@@ -7,25 +7,25 @@ api_specs:
   label: Prelude Lookup API
   slug: prelude-so-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prelude-so/refs/heads/main/openapi/prelude-so-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/prelude-so/openapi/prelude-so-lookup-api-openapi.yml
 - filename: prelude-so-transactional-api-openapi.yml
   format: yaml
   label: Prelude Transactional API
   slug: prelude-so-transactional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prelude-so/refs/heads/main/openapi/prelude-so-transactional-api-openapi.yml
+  url: https://artifacts.apis.io/prelude-so/openapi/prelude-so-transactional-api-openapi.yml
 - filename: prelude-so-verification-api-openapi.yml
   format: yaml
   label: Prelude Verification API
   slug: prelude-so-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prelude-so/refs/heads/main/openapi/prelude-so-verification-api-openapi.yml
+  url: https://artifacts.apis.io/prelude-so/openapi/prelude-so-verification-api-openapi.yml
 - filename: prelude-so-watch-api-openapi.yml
   format: yaml
   label: Prelude Watch API
   slug: prelude-so-watch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prelude-so/refs/heads/main/openapi/prelude-so-watch-api-openapi.yml
+  url: https://artifacts.apis.io/prelude-so/openapi/prelude-so-watch-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -53,7 +53,7 @@ source_filename: prelude-so-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/prelude-so-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    Bearer API key passed as `Authorization: Bearer [example key]`. Keys are\n    issued from the Prelude dashboard under All Services > Configure > Keys. In\n    API v2 this replaced the v1 `X-API-Key` header and the previously required\n    `CUSTOMER_UUID` header.\n  sources:\n  - openapi/prelude-so-openapi.yml\n  - https://docs.prelude.so/verify/v2/documentation/v2-migration-guide\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prelude-so/refs/heads/main/authentication/prelude-so-authentication.yml
+source_yaml_url: https://artifacts.apis.io/prelude-so/authentication/prelude-so-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Number Verification

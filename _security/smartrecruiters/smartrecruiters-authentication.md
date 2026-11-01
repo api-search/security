@@ -8,31 +8,31 @@ api_specs:
   label: SmartRecruiters Applications API
   slug: smartrecruiters-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrecruiters/refs/heads/main/openapi/smartrecruiters-applications-api-openapi.yml
+  url: https://artifacts.apis.io/smartrecruiters/openapi/smartrecruiters-applications-api-openapi.yml
 - filename: smartrecruiters-candidates-api-openapi.yml
   format: yaml
   label: SmartRecruiters Candidates API
   slug: smartrecruiters-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrecruiters/refs/heads/main/openapi/smartrecruiters-candidates-api-openapi.yml
+  url: https://artifacts.apis.io/smartrecruiters/openapi/smartrecruiters-candidates-api-openapi.yml
 - filename: smartrecruiters-jobs-api-openapi.yml
   format: yaml
   label: SmartRecruiters Jobs API
   slug: smartrecruiters-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrecruiters/refs/heads/main/openapi/smartrecruiters-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/smartrecruiters/openapi/smartrecruiters-jobs-api-openapi.yml
 - filename: smartrecruiters-postings-api-openapi.yml
   format: yaml
   label: SmartRecruiters Postings API
   slug: smartrecruiters-postings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrecruiters/refs/heads/main/openapi/smartrecruiters-postings-api-openapi.yml
+  url: https://artifacts.apis.io/smartrecruiters/openapi/smartrecruiters-postings-api-openapi.yml
 - filename: smartrecruiters-teams-api-openapi.yml
   format: yaml
   label: SmartRecruiters Teams API
   slug: smartrecruiters-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrecruiters/refs/heads/main/openapi/smartrecruiters-teams-api-openapi.yml
+  url: https://artifacts.apis.io/smartrecruiters/openapi/smartrecruiters-teams-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -83,7 +83,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/smartrecruiters-candidates-openapi.yml, openapi/smartrecruiters-jobs-openapi.yml,\n  openapi/smartrecruiters-posting-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: ApiKey\n  type: apiKey\n  in: header\n  parameter: X-SmartToken\n  sources:\n  - openapi/smartrecruiters-candidates-openapi.yml\n  - openapi/smartrecruiters-jobs-openapi.yml\n  - openapi/smartrecruiters-posting-openapi.yml\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://www.smartrecruiters.com/identity/oauth/token\n    scopes: 2\n  sources:\n  - openapi/smartrecruiters-candidates-openapi.yml\n  - openapi/smartrecruiters-jobs-openapi.yml\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.smartrecruiters.com/identity/oauth/allow\n    tokenUrl:\
   \ https://www.smartrecruiters.com/identity/oauth/token\n    scopes: 4\n  sources:\n  - openapi/smartrecruiters-posting-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartrecruiters/refs/heads/main/authentication/smartrecruiters-authentication.yml
+source_yaml_url: https://artifacts.apis.io/smartrecruiters/authentication/smartrecruiters-authentication.yml
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - Human Resources

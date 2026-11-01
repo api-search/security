@@ -8,7 +8,7 @@ api_specs:
   label: Keller Williams Search API
   slug: keller-williams-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/openapi/keller-williams-search-api-openapi.yml
+  url: https://artifacts.apis.io/keller-williams/openapi/keller-williams-search-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\ndocs: https://developer
   \      introspect: https://partners.api.kw.com/idp/introspect\n      userinfo: https://partners.api.kw.com/idp/userinfo\n      revoke: https://partners.api.kw.com/idp/revoke\n      end_session: https://partners.api.kw.com/idp/end_session\n      device_authorization: https://partners.api.kw.com/idp/device_authorization\n      jwks_uri: https://partners.api.kw.com/idp/keys\n    jwks_note: >-\n      The advertised jwks_uri returns HTTP 404 (\"Resourse not supported.\")\n      to an anonymous client, so ID-token signature verification keys are\n      not publicly retrievable. Probed 2026-07-26.\ntoken_lifetimes:\n  access_token: 2 days\n  refresh_token: 365 days\n  rotation: >-\n    Refresh tokens are single-use — refreshing invalidates the old refresh\n    token and returns a new one in the same payload.\n  expired_refresh: Contact KW; a new refresh token cannot be self-issued.\n  docs: https://developer.kw.com/docs-authentication\npartner_token_refresh:\n  endpoint: https://partners.api.kw.com/v2/oauth2/partner/token\n\
   \  method: POST\n  content_type: application/x-www-form-urlencoded\n  auth: Basic <base64 API_KEY:API_SECRET> + api-key header\n  parameters: [grant_type=refresh_token, account_identifier, refresh_token]\n  response_fields:\n    - access_token\n    - refresh_token\n    - refresh_token_expires_in\n    - refresh_token_status\n    - refresh_token_issued_at\n    - refresh_count\n    - old_access_token_life_time\n    - token_type\n    - expires_in\n    - issued_at\n    - status\n    - client_id\n    - application_name\n    - organization_name\n    - developer.email\n  docs: https://developer.kw.com/docs-refresh-token\nmarketplace_token_minting:\n  note: >-\n    For KW Marketplace integrations, per-user access and refresh tokens\n    are not obtained through the /authorize redirect at all — they are\n    delivered to the partner inside the SUBSCRIPTION_ORDER and\n    USER_ASSIGNMENT webhook payloads as `access-token` and\n    `refresh-token` fields. See asyncapi/keller-williams-marketplace-webhooks.yml.\n\
   \  docs: https://developer.kw.com/docs-getting-started\ntransport:\n  https_required: true\n  note: Calls made over plain HTTP fail; unauthenticated requests fail.\nauthorization_model:\n  granularity: path + verb pair\n  note: >-\n    KW describes a fine-grained access policy where a resource is defined\n    by a path and verb pair — GET /v3/contacts and POST /v3/contacts are\n    granted separately, per partnership.\n  docs: https://developer.kw.com/docs-getting-started\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/authentication/keller-williams-authentication.yml
+source_yaml_url: https://artifacts.apis.io/keller-williams/authentication/keller-williams-authentication.yml
 summary_line: apiKey/http/oauth2/openIdConnect · 4 schemes
 tags:
 - Real Estate

@@ -5,43 +5,43 @@ api_specs:
   label: Apache Flink Checkpoints API
   slug: flink-checkpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flink/refs/heads/main/openapi/flink-checkpoints-api-openapi.yml
+  url: https://artifacts.apis.io/flink/openapi/flink-checkpoints-api-openapi.yml
 - filename: flink-cluster-api-openapi.yml
   format: yaml
   label: Apache Flink Cluster API
   slug: flink-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flink/refs/heads/main/openapi/flink-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/flink/openapi/flink-cluster-api-openapi.yml
 - filename: flink-datasets-api-openapi.yml
   format: yaml
   label: Apache Flink Datasets API
   slug: flink-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flink/refs/heads/main/openapi/flink-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/flink/openapi/flink-datasets-api-openapi.yml
 - filename: flink-jobs-api-openapi.yml
   format: yaml
   label: Apache Flink Jobs API
   slug: flink-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flink/refs/heads/main/openapi/flink-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/flink/openapi/flink-jobs-api-openapi.yml
 - filename: flink-jars-api-openapi.yml
   format: yaml
   label: Apache Flink JA Rs API
   slug: flink-jars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flink/refs/heads/main/openapi/flink-jars-api-openapi.yml
+  url: https://artifacts.apis.io/flink/openapi/flink-jars-api-openapi.yml
 - filename: flink-job-manager-api-openapi.yml
   format: yaml
   label: Apache Flink Job Manager API
   slug: flink-job-manager-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flink/refs/heads/main/openapi/flink-job-manager-api-openapi.yml
+  url: https://artifacts.apis.io/flink/openapi/flink-job-manager-api-openapi.yml
 - filename: flink-task-managers-api-openapi.yml
   format: yaml
   label: Apache Flink Task Managers API
   slug: flink-task-managers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flink/refs/heads/main/openapi/flink-task-managers-api-openapi.yml
+  url: https://artifacts.apis.io/flink/openapi/flink-task-managers-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -80,7 +80,7 @@ source_filename: flink-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: flink.apache.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 23:33:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: nightlies.apache.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 08:45:06 2026 GMT\n  hsts: false\ndomains:\n- domain: apache.org\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 iodef \"mailto:root@apache.org\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flink/refs/heads/main/security/flink-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/flink/security/flink-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Big Data

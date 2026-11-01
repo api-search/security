@@ -17,7 +17,7 @@ source_filename: imagen-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nprobe: true\nsource: https://imagen.ai/security-policy/\nurl: https://imagen.ai/security-policy/\ncertifications:\n- SOC 2 Type II\n- HITRUST CSF\n- HIPAA\nframeworks:\n- HITECH Act\n- NIST best practices\nevidence:\n- source: https://imagen.ai/security-policy/\n  keywords:\n  - soc 2 type ii\n  - hitrust csf\n  - hipaa\n  - hitech\n  - nist\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imagen/refs/heads/main/security/imagen-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/imagen/security/imagen-trust-center.yml
 summary_line: SOC 2 Type II, HITRUST CSF, HIPAA
 tags:
 - Company

@@ -8,31 +8,31 @@ api_specs:
   label: Azure Files Account API
   slug: azure-file-storage-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/openapi/azure-file-storage-account-api-openapi.yml
+  url: https://artifacts.apis.io/azure-file-storage/openapi/azure-file-storage-account-api-openapi.yml
 - filename: azure-file-storage-directories-api-openapi.yml
   format: yaml
   label: Azure Files Directories API
   slug: azure-file-storage-directories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/openapi/azure-file-storage-directories-api-openapi.yml
+  url: https://artifacts.apis.io/azure-file-storage/openapi/azure-file-storage-directories-api-openapi.yml
 - filename: azure-file-storage-files-api-openapi.yml
   format: yaml
   label: Azure Files API
   slug: azure-file-storage-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/openapi/azure-file-storage-files-api-openapi.yml
+  url: https://artifacts.apis.io/azure-file-storage/openapi/azure-file-storage-files-api-openapi.yml
 - filename: azure-file-storage-shares-api-openapi.yml
   format: yaml
   label: Azure Files Shares API
   slug: azure-file-storage-shares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/openapi/azure-file-storage-shares-api-openapi.yml
+  url: https://artifacts.apis.io/azure-file-storage/openapi/azure-file-storage-shares-api-openapi.yml
 - filename: azure-file-storage-shares-api-openapi.yml
   format: yaml
   label: Azure File Storage Shares API
   slug: microsoft-azure-file-storage-shares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/openapi/azure-file-storage-shares-api-openapi.yml
+  url: https://artifacts.apis.io/azure-file-storage/openapi/azure-file-storage-shares-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -75,7 +75,7 @@ source_filename: azure-file-storage-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-file-storage-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: sharedKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: |-\n    Shared Key authorization header in the form `SharedKey {account}:{signature}`,\n    where signature is an HMAC-SHA256 of the canonicalized request.\n    See https://learn.microsoft.com/en-us/rest/api/storageservices/authorize-with-shared-key\n  sources:\n  - openapi/azure-file-storage-openapi.yml\n- name: entra\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n    scopes: 1\n  description: Microsoft Entra ID OAuth 2.0 bearer token\n  sources:\n  - openapi/azure-file-storage-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/authentication/azure-file-storage-authentication.yml
+source_yaml_url: https://artifacts.apis.io/azure-file-storage/authentication/azure-file-storage-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Storage

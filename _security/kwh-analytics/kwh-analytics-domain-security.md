@@ -34,7 +34,7 @@ source_filename: kwh-analytics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: kwhanalytics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 23:03:38 2026 GMT\n  hsts: false\n- host: heliostats.kwhanalytics.com\n  https: true\n  tls_version: TLSv1.2\n  tls13_supported: false\n  cert_expires: Mar 13 23:59:59 2027 GMT\n  hsts: false\n  note: HelioStats customer platform; unauthenticated requests 302 to /authentication\ndomains:\n- domain: kwhanalytics.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kwh-analytics/refs/heads/main/security/kwh-analytics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kwh-analytics/security/kwh-analytics-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

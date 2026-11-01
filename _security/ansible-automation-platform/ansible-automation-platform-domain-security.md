@@ -5,25 +5,25 @@ api_specs:
   label: Ansible Automation Platform Inventories API
   slug: ansible-automation-platform-inventories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-automation-platform/refs/heads/main/openapi/ansible-automation-platform-inventories-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-automation-platform/openapi/ansible-automation-platform-inventories-api-openapi.yml
 - filename: ansible-automation-platform-job-templates-api-openapi.yml
   format: yaml
   label: Ansible Automation Platform Job Templates API
   slug: ansible-automation-platform-job-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-automation-platform/refs/heads/main/openapi/ansible-automation-platform-job-templates-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-automation-platform/openapi/ansible-automation-platform-job-templates-api-openapi.yml
 - filename: ansible-automation-platform-jobs-api-openapi.yml
   format: yaml
   label: Ansible Automation Platform Jobs API
   slug: ansible-automation-platform-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-automation-platform/refs/heads/main/openapi/ansible-automation-platform-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-automation-platform/openapi/ansible-automation-platform-jobs-api-openapi.yml
 - filename: ansible-automation-platform-projects-api-openapi.yml
   format: yaml
   label: Ansible Automation Platform Projects API
   slug: ansible-automation-platform-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-automation-platform/refs/heads/main/openapi/ansible-automation-platform-projects-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-automation-platform/openapi/ansible-automation-platform-projects-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -56,7 +56,7 @@ source_filename: ansible-automation-platform-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.ansible.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 12:36:59 2026 GMT\n  hsts: false\n- host: galaxy.ansible.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 12:14:32 2026 GMT\n  hsts: false\ndomains:\n- domain: ansible.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ansible-automation-platform/refs/heads/main/security/ansible-automation-platform-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ansible-automation-platform/security/ansible-automation-platform-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Automation

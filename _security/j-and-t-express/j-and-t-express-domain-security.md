@@ -26,7 +26,7 @@ source_filename: j-and-t-express-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: jtexpress.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 24 02:19:47 2026 GMT\n  hsts: false\ndomains:\n- domain: jtexpress.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/j-and-t-express/refs/heads/main/security/j-and-t-express-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/j-and-t-express/security/j-and-t-express-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Company

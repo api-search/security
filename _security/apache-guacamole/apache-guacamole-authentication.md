@@ -8,37 +8,37 @@ api_specs:
   label: Apache Guacamole Active Connections API
   slug: apache-guacamole-active-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-guacamole/refs/heads/main/openapi/apache-guacamole-active-connections-api-openapi.yml
+  url: https://artifacts.apis.io/apache-guacamole/openapi/apache-guacamole-active-connections-api-openapi.yml
 - filename: apache-guacamole-authentication-api-openapi.yml
   format: yaml
   label: Apache Guacamole Authentication API
   slug: apache-guacamole-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-guacamole/refs/heads/main/openapi/apache-guacamole-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/apache-guacamole/openapi/apache-guacamole-authentication-api-openapi.yml
 - filename: apache-guacamole-connections-api-openapi.yml
   format: yaml
   label: Apache Guacamole Connections API
   slug: apache-guacamole-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-guacamole/refs/heads/main/openapi/apache-guacamole-connections-api-openapi.yml
+  url: https://artifacts.apis.io/apache-guacamole/openapi/apache-guacamole-connections-api-openapi.yml
 - filename: apache-guacamole-history-api-openapi.yml
   format: yaml
   label: Apache Guacamole History API
   slug: apache-guacamole-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-guacamole/refs/heads/main/openapi/apache-guacamole-history-api-openapi.yml
+  url: https://artifacts.apis.io/apache-guacamole/openapi/apache-guacamole-history-api-openapi.yml
 - filename: apache-guacamole-user-groups-api-openapi.yml
   format: yaml
   label: Apache Guacamole User Groups API
   slug: apache-guacamole-user-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-guacamole/refs/heads/main/openapi/apache-guacamole-user-groups-api-openapi.yml
+  url: https://artifacts.apis.io/apache-guacamole/openapi/apache-guacamole-user-groups-api-openapi.yml
 - filename: apache-guacamole-users-api-openapi.yml
   format: yaml
   label: Apache Guacamole Users API
   slug: apache-guacamole-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-guacamole/refs/heads/main/openapi/apache-guacamole-users-api-openapi.yml
+  url: https://artifacts.apis.io/apache-guacamole/openapi/apache-guacamole-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: apache-guacamole-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/apache-guacamole-rest-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: GuacamoleToken\n  type: apiKey\n  in: header\n  parameter: Guacamole-Token\n  description: Authentication token obtained from POST /api/tokens\n  sources:\n  - openapi/apache-guacamole-rest-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-guacamole/refs/heads/main/authentication/apache-guacamole-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apache-guacamole/authentication/apache-guacamole-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Apache

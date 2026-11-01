@@ -7,31 +7,31 @@ api_specs:
   label: Podio Applications API
   slug: podio-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/openapi/podio-applications-api-openapi.yml
+  url: https://artifacts.apis.io/podio/openapi/podio-applications-api-openapi.yml
 - filename: podio-hooks-api-openapi.yml
   format: yaml
   label: Podio Hooks API
   slug: podio-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/openapi/podio-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/podio/openapi/podio-hooks-api-openapi.yml
 - filename: podio-items-api-openapi.yml
   format: yaml
   label: Podio Items API
   slug: podio-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/openapi/podio-items-api-openapi.yml
+  url: https://artifacts.apis.io/podio/openapi/podio-items-api-openapi.yml
 - filename: podio-tasks-api-openapi.yml
   format: yaml
   label: Podio Tasks API
   slug: podio-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/openapi/podio-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/podio/openapi/podio-tasks-api-openapi.yml
 - filename: podio-oauth-api-openapi.yml
   format: yaml
   label: Podio O Auth API
   slug: podio-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/openapi/podio-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/podio/openapi/podio-oauth-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -69,7 +69,7 @@ source_filename: podio-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/podio-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2Authorization\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://podio.com/oauth/authorize\n    tokenUrl: https://api.podio.com/oauth/token/v2\n    scopes: 0\n  sources:\n  - openapi/podio-openapi.yml\n- name: oauth2Token\n  type: http\n  scheme: bearer\n  description: 'Podio also accepts bearer-style tokens via `Authorization: OAuth2 <access_token>`.'\n  sources:\n  - openapi/podio-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/authentication/podio-authentication.yml
+source_yaml_url: https://artifacts.apis.io/podio/authentication/podio-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Work Management

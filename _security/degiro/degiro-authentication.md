@@ -8,55 +8,55 @@ api_specs:
   label: DEGIRO Product Search API
   slug: degiro-product-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-product-search-api-openapi.yml
+  url: https://artifacts.apis.io/degiro/openapi/degiro-product-search-api-openapi.yml
 - filename: degiro-reporting-api-openapi.yml
   format: yaml
   label: DEGIRO Reporting API
   slug: degiro-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/degiro/openapi/degiro-reporting-api-openapi.yml
 - filename: degiro-config-api-openapi.yml
   format: yaml
   label: DEGIRO Config API
   slug: degiro-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-config-api-openapi.yml
+  url: https://artifacts.apis.io/degiro/openapi/degiro-config-api-openapi.yml
 - filename: degiro-login-api-openapi.yml
   format: yaml
   label: DEGIRO Login API
   slug: degiro-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-login-api-openapi.yml
+  url: https://artifacts.apis.io/degiro/openapi/degiro-login-api-openapi.yml
 - filename: degiro-pa-api-openapi.yml
   format: yaml
   label: DEGIRO Pa API
   slug: degiro-pa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-pa-api-openapi.yml
+  url: https://artifacts.apis.io/degiro/openapi/degiro-pa-api-openapi.yml
 - filename: degiro-product-search-api-openapi.yml
   format: yaml
   label: DEGIRO Product Search API
   slug: degiro-product-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-product-search-api-openapi.yml
+  url: https://artifacts.apis.io/degiro/openapi/degiro-product-search-api-openapi.yml
 - filename: degiro-reporting-api-openapi.yml
   format: yaml
   label: DEGIRO Reporting API
   slug: degiro-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/degiro/openapi/degiro-reporting-api-openapi.yml
 - filename: degiro-settings-api-openapi.yml
   format: yaml
   label: DEGIRO Settings API
   slug: degiro-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-settings-api-openapi.yml
+  url: https://artifacts.apis.io/degiro/openapi/degiro-settings-api-openapi.yml
 - filename: degiro-trading-api-openapi.yml
   format: yaml
   label: DEGIRO Trading API
   slug: degiro-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-trading-api-openapi.yml
+  url: https://artifacts.apis.io/degiro/openapi/degiro-trading-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -89,7 +89,7 @@ source_filename: degiro-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/degiro-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: SessionIdAuth\n  type: apiKey\n  in: query\n  parameter: sessionId\n  sources:\n  - openapi/degiro-openapi.yml\n- name: IntAccountAuth\n  type: apiKey\n  in: query\n  parameter: intAccount\n  sources:\n  - openapi/degiro-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/authentication/degiro-authentication.yml
+source_yaml_url: https://artifacts.apis.io/degiro/authentication/degiro-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Trading

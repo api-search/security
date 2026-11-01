@@ -7,7 +7,7 @@ api_specs:
   label: ARC Geospatial API
   slug: arc-geospatial-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appalachian-regional-commission/refs/heads/main/openapi/appalachian-regional-commission-geospatial-api-openapi.yml
+  url: https://artifacts.apis.io/appalachian-regional-commission/openapi/appalachian-regional-commission-geospatial-api-openapi.yml
 auth_types: []
 description: The Appalachian Regional Commission runs no developer program, issues no API keys and operates no signup. Both of its machine-readable surfaces are open to anonymous callers, which is the normal posture for a federal-state commission publishing public-interest data. Authentication exists only on the write and administrative paths, and those are staff-facing.
 kind: authentication
@@ -31,7 +31,7 @@ source_yaml: "specification: API Commons Authentication\nspecificationVersion: '
   \ only.\n    gated_routes_observed:\n      - path: /wp/v2/users\n        status: 401\n        code: rest_user_cannot_view\n      - path: /wp/v2/settings\n        status: 401\n        code: rest_forbidden\n      - path: /wp/v2/comments\n        status: 403\n        code: rest_comment_disabled\n        note: Commenting is switched off site-wide, so this is a configuration block rather than an auth wall.\n  - name: ARC Geospatial API (ArcGIS hosted feature services)\n    host: services.arcgis.com\n    base: https://services.arcgis.com/nkunl3y8FDxPkXDl/arcgis/rest\n    anonymous_read: true\n    evidence: >-\n      GET /services (108 services), GET /services/arc_counties/FeatureServer,\n      /FeatureServer/0 and /FeatureServer/0/query?returnCountOnly=true (423 features) all returned\n      HTTP 200 with no token on 2026-09-07.\n    schemes:\n      - type: none\n        applies_to: query and describe operations on the 108 public feature services\n      - type: oauth2\n        applies_to: ARC's\
   \ ArcGIS Online organization (staff and content management)\n        issuer: https://arcgov.maps.arcgis.com\n        authorization_endpoint: https://arcgov.maps.arcgis.com/sharing/rest/oauth2/authorize\n        token_endpoint: https://arcgov.maps.arcgis.com/sharing/rest/oauth2/token\n        grant_types:\n          - authorization_code\n          - implicit\n        pkce: S256\n        metadata_document: well-known/appalachian-regional-commission-oauth-authorization-server.json\n        note: >-\n          Discovered by probe, not by documentation. This is Esri's ArcGIS Online OAuth server scoped\n          to ARC's organization tenant; ARC does not document it or invite third-party clients to it,\n          and no scopes are advertised in the metadata. It is recorded because the document is real\n          and served from ARC's org host, not because ARC offers OAuth to developers.\nnot_found:\n  - api key issuance or a developer portal on arc.gov\n  - documented authentication reference\
   \ page\n  - mutual TLS, openIdConnect or signed-request schemes\nmaintainers:\n  - FN: Kin Lane\n    email: info@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appalachian-regional-commission/refs/heads/main/authentication/appalachian-regional-commission-authentication.yml
+source_yaml_url: https://artifacts.apis.io/appalachian-regional-commission/authentication/appalachian-regional-commission-authentication.yml
 summary_line: 0 schemes
 tags:
 - Appalachia

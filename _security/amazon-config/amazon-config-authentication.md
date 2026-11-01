@@ -8,7 +8,19 @@ api_specs:
   label: Amazon Config AWS Config API
   slug: amazon-config-aws-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-config/refs/heads/main/openapi/amazon-config-aws-config-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-config/openapi/amazon-config-aws-config-api-openapi.yml
+- filename: amazon-config-connector-api-openapi.yml
+  format: yaml
+  label: Amazon Config Config Connector API
+  slug: amazon-config-connector-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-config/openapi/amazon-config-connector-api-openapi.yml
+- filename: amazon-config-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Config Config Operations API
+  slug: amazon-config-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-config/openapi/amazon-config-operations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +48,7 @@ source_filename: amazon-config-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-config-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-config-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-config/refs/heads/main/authentication/amazon-config-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-config/authentication/amazon-config-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Auditing

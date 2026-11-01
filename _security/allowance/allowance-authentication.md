@@ -8,19 +8,19 @@ api_specs:
   label: Allowance Mandates API
   slug: allowance-mandates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/openapi/allowance-mandates-api-openapi.yml
+  url: https://artifacts.apis.io/allowance/openapi/allowance-mandates-api-openapi.yml
 - filename: allowance-pricing-api-openapi.yml
   format: yaml
   label: Allowance Pricing API
   slug: allowance-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/openapi/allowance-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/allowance/openapi/allowance-pricing-api-openapi.yml
 - filename: allowance-status-api-openapi.yml
   format: yaml
   label: Allowance Status API
   slug: allowance-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/openapi/allowance-status-api-openapi.yml
+  url: https://artifacts.apis.io/allowance/openapi/allowance-status-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -60,7 +60,7 @@ source_filename: allowance-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: derived\nsource: openapi/allowance-openapi-original.json\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-Allowance-Key\n  description: API key with prefix alw_. Contact hello@useallowance.com for early access.\n  sources:\n  - openapi/allowance-openapi-original.json\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://useallowance.com/oauth/authorize\n    tokenUrl: https://useallowance.com/oauth/token\n    scopes: 3\n  description: OAuth2 authorization code flow (planned — not yet active)\n  sources:\n  - openapi/allowance-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/authentication/allowance-authentication.yml
+source_yaml_url: https://artifacts.apis.io/allowance/authentication/allowance-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company

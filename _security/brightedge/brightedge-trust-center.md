@@ -1,173 +1,59 @@
 ---
 api_specs:
-- filename: brightedge-accounts-api-openapi.yml
+- filename: brightedge-auth-api-openapi.yml
   format: yaml
-  label: BrightEdge Accounts API
-  slug: brightedge-accounts-api
+  label: BrightEdge Auth API
+  slug: brightedge-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-accounts-api-openapi.yml
-- filename: brightedge-ai-catalyst-api-openapi.yml
+  url: https://artifacts.apis.io/brightedge/openapi/brightedge-auth-api-openapi.yml
+- filename: brightedge-authorize-api-openapi.yml
   format: yaml
-  label: BrightEdge AI Catalyst API
-  slug: brightedge-ai-catalyst-api
+  label: BrightEdge Authorize API
+  slug: brightedge-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-ai-catalyst-api-openapi.yml
-- filename: brightedge-autopilot-api-openapi.yml
+  url: https://artifacts.apis.io/brightedge/openapi/brightedge-authorize-api-openapi.yml
+- filename: brightedge-feedback-api-openapi.yml
   format: yaml
-  label: BrightEdge Autopilot API
-  slug: brightedge-autopilot-api
+  label: BrightEdge Feedback API
+  slug: brightedge-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-autopilot-api-openapi.yml
-- filename: brightedge-backlinks-api-openapi.yml
+  url: https://artifacts.apis.io/brightedge/openapi/brightedge-feedback-api-openapi.yml
+- filename: brightedge-oauth-api-openapi.yml
   format: yaml
-  label: BrightEdge Backlinks API
-  slug: brightedge-backlinks-api
+  label: BrightEdge OAuth API
+  slug: brightedge-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-backlinks-api-openapi.yml
-- filename: brightedge-be-local-api-openapi.yml
+  url: https://artifacts.apis.io/brightedge/openapi/brightedge-oauth-api-openapi.yml
+- filename: brightedge-ping-api-openapi.yml
   format: yaml
-  label: BrightEdge Be Local API
-  slug: brightedge-be-local-api
+  label: BrightEdge Ping API
+  slug: brightedge-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-be-local-api-openapi.yml
-- filename: brightedge-budd-api-openapi.yml
+  url: https://artifacts.apis.io/brightedge/openapi/brightedge-ping-api-openapi.yml
+- filename: brightedge-saml-api-openapi.yml
   format: yaml
-  label: BrightEdge Budd API
-  slug: brightedge-budd-api
+  label: BrightEdge SAML API
+  slug: brightedge-saml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-budd-api-openapi.yml
-- filename: brightedge-bulk-export-api-openapi.yml
+  url: https://artifacts.apis.io/brightedge/openapi/brightedge-saml-api-openapi.yml
+- filename: brightedge-sso-api-openapi.yml
   format: yaml
-  label: BrightEdge Bulk Export API
-  slug: brightedge-bulk-export-api
+  label: BrightEdge SSO API
+  slug: brightedge-sso-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-bulk-export-api-openapi.yml
-- filename: brightedge-chrome-extension-api-openapi.yml
+  url: https://artifacts.apis.io/brightedge/openapi/brightedge-sso-api-openapi.yml
+- filename: brightedge-token-api-openapi.yml
   format: yaml
-  label: BrightEdge Chrome Extension API
-  slug: brightedge-chrome-extension-api
+  label: BrightEdge Token API
+  slug: brightedge-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-chrome-extension-api-openapi.yml
-- filename: brightedge-core-api-openapi.yml
+  url: https://artifacts.apis.io/brightedge/openapi/brightedge-token-api-openapi.yml
+- filename: brightedge-well-known-api-openapi.yml
   format: yaml
-  label: BrightEdge Core API
-  slug: brightedge-core-api
+  label: BrightEdge .well Known API
+  slug: brightedge-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-core-api-openapi.yml
-- filename: brightedge-dataset-api-openapi.yml
-  format: yaml
-  label: BrightEdge Dataset API
-  slug: brightedge-dataset-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-dataset-api-openapi.yml
-- filename: brightedge-domains-api-openapi.yml
-  format: yaml
-  label: BrightEdge Domains API
-  slug: brightedge-domains-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-domains-api-openapi.yml
-- filename: brightedge-instant-api-openapi.yml
-  format: yaml
-  label: BrightEdge Instant API
-  slug: brightedge-instant-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-instant-api-openapi.yml
-- filename: brightedge-keywordgroups-api-openapi.yml
-  format: yaml
-  label: BrightEdge Keywordgroups API
-  slug: brightedge-keywordgroups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-keywordgroups-api-openapi.yml
-- filename: brightedge-keywords-api-openapi.yml
-  format: yaml
-  label: BrightEdge Keywords API
-  slug: brightedge-keywords-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-keywords-api-openapi.yml
-- filename: brightedge-latest5-api-openapi.yml
-  format: yaml
-  label: BrightEdge Latest5 API
-  slug: brightedge-latest5-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-latest5-api-openapi.yml
-- filename: brightedge-legacy-api-openapi.yml
-  format: yaml
-  label: BrightEdge Legacy API
-  slug: brightedge-legacy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-legacy-api-openapi.yml
-- filename: brightedge-marketinsights-api-openapi.yml
-  format: yaml
-  label: BrightEdge Marketinsights API
-  slug: brightedge-marketinsights-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-marketinsights-api-openapi.yml
-- filename: brightedge-marketo-api-openapi.yml
-  format: yaml
-  label: BrightEdge Marketo API
-  slug: brightedge-marketo-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-marketo-api-openapi.yml
-- filename: brightedge-organizations-api-openapi.yml
-  format: yaml
-  label: BrightEdge Organizations API
-  slug: brightedge-organizations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-organizations-api-openapi.yml
-- filename: brightedge-pages-api-openapi.yml
-  format: yaml
-  label: BrightEdge Pages API
-  slug: brightedge-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-pages-api-openapi.yml
-- filename: brightedge-product-grid-api-openapi.yml
-  format: yaml
-  label: BrightEdge Product Grid API
-  slug: brightedge-product-grid-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-product-grid-api-openapi.yml
-- filename: brightedge-recommendations-api-openapi.yml
-  format: yaml
-  label: BrightEdge Recommendations API
-  slug: brightedge-recommendations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-recommendations-api-openapi.yml
-- filename: brightedge-searchengines-api-openapi.yml
-  format: yaml
-  label: BrightEdge Searchengines API
-  slug: brightedge-searchengines-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-searchengines-api-openapi.yml
-- filename: brightedge-serp-features-api-openapi.yml
-  format: yaml
-  label: BrightEdge Serp Features API
-  slug: brightedge-serp-features-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-serp-features-api-openapi.yml
-- filename: brightedge-time-api-openapi.yml
-  format: yaml
-  label: BrightEdge Time API
-  slug: brightedge-time-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-time-api-openapi.yml
-- filename: brightedge-user-settings-api-openapi.yml
-  format: yaml
-  label: BrightEdge User Settings API
-  slug: brightedge-user-settings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-user-settings-api-openapi.yml
-- filename: brightedge-users-api-openapi.yml
-  format: yaml
-  label: BrightEdge Users API
-  slug: brightedge-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-users-api-openapi.yml
-- filename: brightedge-web-vitals-api-openapi.yml
-  format: yaml
-  label: BrightEdge Web Vitals API
-  slug: brightedge-web-vitals-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-web-vitals-api-openapi.yml
+  url: https://artifacts.apis.io/brightedge/openapi/brightedge-well-known-api-openapi.yml
 certification_count: 7
 certifications:
 - SOC 2
@@ -191,7 +77,7 @@ source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: https://www.brightedge.com/trust\nurl: https://www.brightedge.com/trust\ncertifications:\n- SOC 2\n- ISO/IEC 27001:2022\n- ISO/IEC 27701:2019\n- ISO/IEC 42001:2023\n- GDPR\n- CCPA\n- EU-U.S. Data Privacy Framework\nframeworks:\n- NIST Cybersecurity Framework (CSF)\n- NIST AI Risk Management Framework\ndetails:\n- id: iso-42001\n  claim: BrightEdge is ISO/IEC 42001 certified (AI Management Systems)\n  note: an AI-management-system certification is unusual in this catalog and is the strongest\n    signal on the page given BrightEdge's AI product line.\n- id: iso-27001\n  claim: maintains an ISMS aligned to ISO/IEC 27001:2022\n- id: iso-27701\n  claim: supports a Privacy Information Management System per ISO/IEC 27701:2019\n- id: soc2\n  claim: SOC 2 — controls for security, availability, processing integrity, confidentiality and\n    privacy\n- id: gdpr\n  claim: BrightEdge is GDPR compliant\n- id: ccpa\n  claim:\
   \ internal process based on privacy principles that comply with CCPA\n- id: eu-us-dpf\n  claim: compliant with the Data Privacy Framework and audited annually\n- id: nist-csf\n  claim: information security program conforms to the NIST Cybersecurity Framework\n- id: nist-ai-rmf\n  claim: used to incorporate trustworthiness into design, development, use and evaluation of AI\n    products\nnot_published:\n- vulnerability disclosure / responsible disclosure policy\n- bug bounty program (no HackerOne or Bugcrowd program — hackerone.com/programs/search?query=handle:brightedge\n  returns 0 results)\n- security contact email or /.well-known/security.txt\n- public status page or uptime/SLA commitment\n- sub-processor list\nevidence:\n- source: https://www.brightedge.com/trust\n  status: 200\n  keywords: [soc 2, iso/iec 27001, iso/iec 27701, iso/iec 42001, gdpr, ccpa, data privacy framework,\n    nist csf, nist ai rmf]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/security/brightedge-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/brightedge/security/brightedge-trust-center.yml
 summary_line: SOC 2, ISO/IEC 27001:2022, ISO/IEC 27701:2019, ISO/IEC 42001:2023, GDPR, CCPA, EU-U.S. Data Privacy Framework
 tags:
 - Company

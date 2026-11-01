@@ -5,19 +5,19 @@ api_specs:
   label: Weglot Languages API
   slug: weglot-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weglot/refs/heads/main/openapi/weglot-languages-api-openapi.yml
+  url: https://artifacts.apis.io/weglot/openapi/weglot-languages-api-openapi.yml
 - filename: weglot-status-api-openapi.yml
   format: yaml
   label: Weglot Status API
   slug: weglot-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weglot/refs/heads/main/openapi/weglot-status-api-openapi.yml
+  url: https://artifacts.apis.io/weglot/openapi/weglot-status-api-openapi.yml
 - filename: weglot-translate-api-openapi.yml
   format: yaml
   label: Weglot Translate API
   slug: weglot-translate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weglot/refs/heads/main/openapi/weglot-translate-api-openapi.yml
+  url: https://artifacts.apis.io/weglot/openapi/weglot-translate-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -64,7 +64,7 @@ source_filename: weglot-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.weglot.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 12:57:53 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.weglot.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 18:53:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.weglot.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 12:40:01 2026 GMT\n  hsts: null\ndomains:\n- domain: weglot.com\n  dnssec: true\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weglot/refs/heads/main/security/weglot-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/weglot/security/weglot-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Translation

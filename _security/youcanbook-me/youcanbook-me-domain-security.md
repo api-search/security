@@ -28,7 +28,7 @@ source_filename: youcanbook-me-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: youcanbook.me\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 20 13:34:08 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: youcanbook.me\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/youcanbook-me/refs/heads/main/security/youcanbook-me-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/youcanbook-me/security/youcanbook-me-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

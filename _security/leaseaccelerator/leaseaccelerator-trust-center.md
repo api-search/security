@@ -5,55 +5,55 @@ api_specs:
   label: LeaseAccelerator Documents API
   slug: leaseaccelerator-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/openapi/leaseaccelerator-documents-api-openapi.yml
+  url: https://artifacts.apis.io/leaseaccelerator/openapi/leaseaccelerator-documents-api-openapi.yml
 - filename: leaseaccelerator-events-api-openapi.yml
   format: yaml
   label: LeaseAccelerator Events API
   slug: leaseaccelerator-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/openapi/leaseaccelerator-events-api-openapi.yml
+  url: https://artifacts.apis.io/leaseaccelerator/openapi/leaseaccelerator-events-api-openapi.yml
 - filename: leaseaccelerator-financials-api-openapi.yml
   format: yaml
   label: LeaseAccelerator Financials API
   slug: leaseaccelerator-financials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/openapi/leaseaccelerator-financials-api-openapi.yml
+  url: https://artifacts.apis.io/leaseaccelerator/openapi/leaseaccelerator-financials-api-openapi.yml
 - filename: leaseaccelerator-portfolio-api-openapi.yml
   format: yaml
   label: LeaseAccelerator Portfolio API
   slug: leaseaccelerator-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/openapi/leaseaccelerator-portfolio-api-openapi.yml
+  url: https://artifacts.apis.io/leaseaccelerator/openapi/leaseaccelerator-portfolio-api-openapi.yml
 - filename: leaseaccelerator-process-status-api-openapi.yml
   format: yaml
   label: LeaseAccelerator Process Status API
   slug: leaseaccelerator-process-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/openapi/leaseaccelerator-process-status-api-openapi.yml
+  url: https://artifacts.apis.io/leaseaccelerator/openapi/leaseaccelerator-process-status-api-openapi.yml
 - filename: leaseaccelerator-reference-data-api-openapi.yml
   format: yaml
   label: LeaseAccelerator Reference Data API
   slug: leaseaccelerator-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/openapi/leaseaccelerator-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/leaseaccelerator/openapi/leaseaccelerator-reference-data-api-openapi.yml
 - filename: leaseaccelerator-reporting-api-openapi.yml
   format: yaml
   label: LeaseAccelerator Reporting API
   slug: leaseaccelerator-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/openapi/leaseaccelerator-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/leaseaccelerator/openapi/leaseaccelerator-reporting-api-openapi.yml
 - filename: leaseaccelerator-search-api-openapi.yml
   format: yaml
   label: LeaseAccelerator Search API
   slug: leaseaccelerator-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/openapi/leaseaccelerator-search-api-openapi.yml
+  url: https://artifacts.apis.io/leaseaccelerator/openapi/leaseaccelerator-search-api-openapi.yml
 - filename: leaseaccelerator-user-provisioning-api-openapi.yml
   format: yaml
   label: LeaseAccelerator User Provisioning API
   slug: leaseaccelerator-user-provisioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/openapi/leaseaccelerator-user-provisioning-api-openapi.yml
+  url: https://artifacts.apis.io/leaseaccelerator/openapi/leaseaccelerator-user-provisioning-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2 Type 2
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: searched\nprobe: true\nsource: ht
   \ April 2025\n  - LeaseAccelerator - SOC 1 Type 2 Audit Report April 2025\n  - LeaseAccelerator SOC 1 Type 2 Audit Report Sep 2025\n  - LeaseAccelerator - Agreed Upon Procedures - Report 2025\n  - 2025 Lease Accounting Manager Customer Facing (penetration test report)\n  bridge_letters: >-\n    Monthly SOC 1 Type 2 and SOC 2 Type 2 bridge letters are published continuously; the most recent\n    observed are dated July 2026.\nroadmap:\n  note: Published on the trust center as planned compliance work.\n  items:\n  - ISO 27001 - 2026 certificate\n  - JustPerform - Account Reconciliation - SOC 1 Type 2\nsecurity_program:\n  source: https://insightsoftware.com/trust/\n  approach: defense in depth\n  practices:\n  - Encryption — TLS in transit, AES-256 at rest.\n  - Vulnerability management with scheduled scans and dark web monitoring.\n  - Secure software development lifecycle with static code analysis and independent third-party penetration testing.\n  - Documented incident response plan covering\
   \ reporting, roles and responsibilities, prioritization, escalation, and remediation.\n  - Employee security awareness training and phishing simulations.\n  - Automated encrypted backups with disaster recovery plans.\n  - >-\n    Security remediations from penetration testing and automated vulnerability scanning are shipped in\n    platform releases (see the 26.2.1 release notes).\n  breach_notification: >-\n    Upon becoming aware of a Security Incident, insightsoftware will notify the customer without undue\n    delay and will provide information relating to the incident as it becomes known or is reasonably\n    requested.\nevidence:\n- source: https://trust.insightsoftware.com/\n  finding: >-\n    Trust center payload declares certifications iso-9001, iso-27001, soc1-type-2, soc2-type-2, ccpa, gdpr;\n    data room lists LeaseAccelerator-specific SOC 1/SOC 2 Type 2 audit reports and monthly bridge letters.\n- source: https://insightsoftware.com/trust/\n  finding: >-\n    Public trust\
   \ summary names ISO 27001, SSAE-18 SOC 2 Type 2, GDPR, and CCPA, and describes the security\n    program above.\nnotes:\n- >-\n  ISO 27017, ISO 27018, FedRAMP, PCI DSS, HIPAA, TISAX, and CSA STAR strings appear in the trust center\n  page source but belong to the Conveyor platform's generic certification label vocabulary, not to\n  insightsoftware's declared certification set. They are deliberately excluded here.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/security/leaseaccelerator-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/leaseaccelerator/security/leaseaccelerator-trust-center.yml
 summary_line: SOC 2 Type 2, SOC 1 Type 2, ISO 27001, ISO 9001
 tags:
 - Company

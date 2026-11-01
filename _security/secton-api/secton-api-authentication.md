@@ -8,13 +8,13 @@ api_specs:
   label: Secton API Models API
   slug: secton-api-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/secton-api/refs/heads/main/openapi/secton-api-models-api-openapi.yml
+  url: https://artifacts.apis.io/secton-api/openapi/secton-api-models-api-openapi.yml
 - filename: secton-api-chat-completions-api-openapi.yml
   format: yaml
   label: Secton API Chat Completions API
   slug: secton-api-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/secton-api/refs/heads/main/openapi/secton-api-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/secton-api/openapi/secton-api-chat-completions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-08-16'\nmethod: searched\nsource: >-\n  openapi/s
   \ `{\"error\":\"Invalid or expired API key\"}` 401 when probed with\n        a fabricated value on 2026-08-16, so the server tolerates either. The live \"API key is\n        missing from bearer\" message implies bearer is the intended form, which contradicts the\n        OpenAPI's raw-apiKey declaration.\n    sdk_env_var: SECTON_API_KEY\n    sdk_source: npm `secton` 1.0.2 README\nspec_defect:\n  issue: security is declared but never applied\n  detail: >-\n    The source document places the security requirement at `components.security`, which is not a\n    valid OpenAPI location — the requirement belongs at the document root or on each operation.\n    `components.securitySchemes.ApiKeyAuth` is defined correctly, but no operation references it.\n    A client generated from the published spec will therefore send NO credential and receive 401\n    on every call.\n  evidence: openapi/_original/secton-api-openapi.json\n  remediation: \"overlays/secton-api-chat-api-overlay.yaml and overlays/secton-api-models-api-overlay.yaml\
   \ add `security: [{ApiKeyAuth: []}]` at the root of each refined spec.\"\ncustomer_obligations:\n  source: https://secton.org/legal/console-terms §6 (effective 2026-08-06)\n  obligations:\n    - maintain the confidentiality of credentials\n    - implement appropriate security controls\n    - monitor usage associated with credentials\n    - promptly rotate compromised credentials\n    - limit access to authorized persons\n  prohibitions:\n    - credentials may not be shared publicly\n    - credentials may not be embedded in publicly accessible source code\n    - credentials may not be sold, leased, sublicensed or transferred\n  attribution: >-\n    \"Activity performed using credentials issued to a workspace or Account may be attributed to the\n    applicable Customer.\"\nbrowser_exposure_risk:\n  cors_allows_authorization: true\n  observed:\n    access-control-allow-origin: '*'\n    access-control-allow-headers: Content-Type, Authorization\n  note: >-\n    Wildcard CORS plus an allowed\
   \ `Authorization` header means the API is callable straight from a\n    browser with a raw key, and the SDK README demonstrates exactly that with an unpinned\n    `<script type=\"module\">` import from unpkg. Doing so publishes the key to every visitor and\n    breaches Secton's own Console Terms §6. Consumers should proxy server-side.\ndiscovery:\n  oauth_authorization_server: not-served (404 / soft-404 on every host)\n  oauth_protected_resource: not-served\n  openid_configuration: not-served\n  see: well-known/secton-api-well-known.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/secton-api/refs/heads/main/authentication/secton-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/secton-api/authentication/secton-api-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence

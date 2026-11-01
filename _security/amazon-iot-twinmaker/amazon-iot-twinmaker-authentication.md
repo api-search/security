@@ -8,43 +8,73 @@ api_specs:
   label: Amazon IoT TwinMaker Pricingplan API
   slug: amazon-iot-twinmaker-pricingplan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/openapi/amazon-iot-twinmaker-pricingplan-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-twinmaker/openapi/amazon-iot-twinmaker-pricingplan-api-openapi.yml
 - filename: amazon-iot-twinmaker-queries-api-openapi.yml
   format: yaml
   label: Amazon IoT TwinMaker Queries API
   slug: amazon-iot-twinmaker-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/openapi/amazon-iot-twinmaker-queries-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-twinmaker/openapi/amazon-iot-twinmaker-queries-api-openapi.yml
 - filename: amazon-iot-twinmaker-sync-jobs-api-openapi.yml
   format: yaml
   label: Amazon IoT TwinMaker Sync Jobs API
   slug: amazon-iot-twinmaker-sync-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/openapi/amazon-iot-twinmaker-sync-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-twinmaker/openapi/amazon-iot-twinmaker-sync-jobs-api-openapi.yml
 - filename: amazon-iot-twinmaker-tags-api-openapi.yml
   format: yaml
   label: Amazon IoT TwinMaker Tags API
   slug: amazon-iot-twinmaker-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/openapi/amazon-iot-twinmaker-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-twinmaker/openapi/amazon-iot-twinmaker-tags-api-openapi.yml
 - filename: amazon-iot-twinmaker-tags-list-api-openapi.yml
   format: yaml
   label: Amazon IoT TwinMaker Tags List API
   slug: amazon-iot-twinmaker-tags-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/openapi/amazon-iot-twinmaker-tags-list-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-twinmaker/openapi/amazon-iot-twinmaker-tags-list-api-openapi.yml
 - filename: amazon-iot-twinmaker-workspaces-api-openapi.yml
   format: yaml
   label: Amazon IoT TwinMaker Workspaces API
   slug: amazon-iot-twinmaker-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/openapi/amazon-iot-twinmaker-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-twinmaker/openapi/amazon-iot-twinmaker-workspaces-api-openapi.yml
 - filename: amazon-iot-twinmaker-workspaces-list-api-openapi.yml
   format: yaml
   label: Amazon IoT TwinMaker Workspaces List API
   slug: amazon-iot-twinmaker-workspaces-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/openapi/amazon-iot-twinmaker-workspaces-list-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-twinmaker/openapi/amazon-iot-twinmaker-workspaces-list-api-openapi.yml
+- filename: amazon-iot-twinmaker-component-types-api-openapi.yml
+  format: yaml
+  label: Amazon IoT TwinMaker Iot Twinmaker Component Types API
+  slug: amazon-iot-twinmaker-component-types-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-twinmaker/openapi/amazon-iot-twinmaker-component-types-api-openapi.yml
+- filename: amazon-iot-twinmaker-entities-api-openapi.yml
+  format: yaml
+  label: Amazon IoT TwinMaker Iot Twinmaker Entities API
+  slug: amazon-iot-twinmaker-entities-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-twinmaker/openapi/amazon-iot-twinmaker-entities-api-openapi.yml
+- filename: amazon-iot-twinmaker-entity-properties-api-openapi.yml
+  format: yaml
+  label: Amazon IoT TwinMaker Iot Twinmaker Entity Properties API
+  slug: amazon-iot-twinmaker-entity-properties-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-twinmaker/openapi/amazon-iot-twinmaker-entity-properties-api-openapi.yml
+- filename: amazon-iot-twinmaker-operations-api-openapi.yml
+  format: yaml
+  label: Amazon IoT TwinMaker Iot Twinmaker Operations API
+  slug: amazon-iot-twinmaker-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-twinmaker/openapi/amazon-iot-twinmaker-operations-api-openapi.yml
+- filename: amazon-iot-twinmaker-scenes-api-openapi.yml
+  format: yaml
+  label: Amazon IoT TwinMaker Iot Twinmaker Scenes API
+  slug: amazon-iot-twinmaker-scenes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-twinmaker/openapi/amazon-iot-twinmaker-scenes-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -72,7 +102,7 @@ source_filename: amazon-iot-twinmaker-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-iot-twinmaker-openapi-original.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-iot-twinmaker-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/authentication/amazon-iot-twinmaker-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-iot-twinmaker/authentication/amazon-iot-twinmaker-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - 3D Visualization

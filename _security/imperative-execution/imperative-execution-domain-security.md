@@ -5,7 +5,7 @@ api_specs:
   label: IntelligentCross IQX Market Data Feed
   slug: intelligentcross-iqx-market-data-feed
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperative-execution/refs/heads/main/asyncapi/imperative-execution-iqx-asyncapi.yml
+  url: https://artifacts.apis.io/imperative-execution/asyncapi/imperative-execution-iqx-asyncapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: imperative-execution-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.imperativex.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 11:35:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: s3.amazonaws.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: imperativex.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imperative-execution/refs/heads/main/security/imperative-execution-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/imperative-execution/security/imperative-execution-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

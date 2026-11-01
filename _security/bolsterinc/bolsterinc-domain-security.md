@@ -27,7 +27,7 @@ source_filename: bolsterinc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bolster.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 22:05:40 2026 GMT\n  hsts: null\ndomains:\n- domain: bolster.ai\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bolsterinc/refs/heads/main/security/bolsterinc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bolsterinc/security/bolsterinc-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

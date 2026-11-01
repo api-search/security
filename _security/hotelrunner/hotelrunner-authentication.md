@@ -8,25 +8,25 @@ api_specs:
   label: HotelRunner Channels API
   slug: hotelrunner-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelrunner/refs/heads/main/openapi/hotelrunner-channels-api-openapi.yml
+  url: https://artifacts.apis.io/hotelrunner/openapi/hotelrunner-channels-api-openapi.yml
 - filename: hotelrunner-inventory-api-openapi.yml
   format: yaml
   label: HotelRunner Inventory API
   slug: hotelrunner-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelrunner/refs/heads/main/openapi/hotelrunner-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/hotelrunner/openapi/hotelrunner-inventory-api-openapi.yml
 - filename: hotelrunner-reference-data-api-openapi.yml
   format: yaml
   label: HotelRunner Reference Data API
   slug: hotelrunner-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelrunner/refs/heads/main/openapi/hotelrunner-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/hotelrunner/openapi/hotelrunner-reference-data-api-openapi.yml
 - filename: hotelrunner-reservations-api-openapi.yml
   format: yaml
   label: HotelRunner Reservations API
   slug: hotelrunner-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelrunner/refs/heads/main/openapi/hotelrunner-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/hotelrunner/openapi/hotelrunner-reservations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: hotelrunner-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/hotelrunner-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: tokenAuth\n  type: apiKey\n  in: query\n  parameter: token\n  description: API token issued in the property's HotelRunner Partners extranet (\"My Property\"\n    section) or PMS sandbox account. Always sent together with the hr_id query parameter identifying\n    the property.\n  sources:\n  - openapi/hotelrunner-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hotelrunner/refs/heads/main/authentication/hotelrunner-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hotelrunner/authentication/hotelrunner-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Hospitality

@@ -27,7 +27,7 @@ source_filename: cps-cheapest-power-scheduler-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cps.sedra-0b3.workers.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 19:53:50 2026 GMT\n  hsts: null\ndomains:\n- domain: workers.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cps-cheapest-power-scheduler/refs/heads/main/security/cps-cheapest-power-scheduler-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cps-cheapest-power-scheduler/security/cps-cheapest-power-scheduler-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -5,31 +5,31 @@ api_specs:
   label: Pimloc Account API
   slug: pimloc-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/openapi/pimloc-account-api-openapi.yml
+  url: https://artifacts.apis.io/pimloc/openapi/pimloc-account-api-openapi.yml
 - filename: pimloc-authentication-api-openapi.yml
   format: yaml
   label: Pimloc Authentication API
   slug: pimloc-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/openapi/pimloc-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/pimloc/openapi/pimloc-authentication-api-openapi.yml
 - filename: pimloc-media-api-openapi.yml
   format: yaml
   label: Pimloc Media API
   slug: pimloc-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/openapi/pimloc-media-api-openapi.yml
+  url: https://artifacts.apis.io/pimloc/openapi/pimloc-media-api-openapi.yml
 - filename: pimloc-projects-api-openapi.yml
   format: yaml
   label: Pimloc Projects API
   slug: pimloc-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/openapi/pimloc-projects-api-openapi.yml
+  url: https://artifacts.apis.io/pimloc/openapi/pimloc-projects-api-openapi.yml
 - filename: pimloc-secure-redact-api-api-openapi.yml
   format: yaml
   label: Pimloc Secure Redact API
   slug: pimloc-secure-redact-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/openapi/pimloc-secure-redact-api-api-openapi.yml
+  url: https://artifacts.apis.io/pimloc/openapi/pimloc-secure-redact-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: pimloc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.secureredact.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 06:17:43 2026 GMT\n  hsts: true\n  hsts_max_age: 0\n- host: app.secureredact.co.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 20:08:35 2026 GMT\n  hsts: false\ndomains:\n- domain: secureredact.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: secureredact.co.uk\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/security/pimloc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pimloc/security/pimloc-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

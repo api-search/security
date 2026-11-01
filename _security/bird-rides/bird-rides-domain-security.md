@@ -5,43 +5,43 @@ api_specs:
   label: Bird Discovery API
   slug: bird-rides-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird-rides/refs/heads/main/openapi/bird-rides-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/bird-rides/openapi/bird-rides-discovery-api-openapi.yml
 - filename: bird-rides-geofencing-api-openapi.yml
   format: yaml
   label: Bird Geofencing API
   slug: bird-rides-geofencing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird-rides/refs/heads/main/openapi/bird-rides-geofencing-api-openapi.yml
+  url: https://artifacts.apis.io/bird-rides/openapi/bird-rides-geofencing-api-openapi.yml
 - filename: bird-rides-pricing-api-openapi.yml
   format: yaml
   label: Bird Pricing API
   slug: bird-rides-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird-rides/refs/heads/main/openapi/bird-rides-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/bird-rides/openapi/bird-rides-pricing-api-openapi.yml
 - filename: bird-rides-realtime-api-openapi.yml
   format: yaml
   label: Bird Realtime API
   slug: bird-rides-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird-rides/refs/heads/main/openapi/bird-rides-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/bird-rides/openapi/bird-rides-realtime-api-openapi.yml
 - filename: bird-rides-stations-api-openapi.yml
   format: yaml
   label: Bird Stations API
   slug: bird-rides-stations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird-rides/refs/heads/main/openapi/bird-rides-stations-api-openapi.yml
+  url: https://artifacts.apis.io/bird-rides/openapi/bird-rides-stations-api-openapi.yml
 - filename: bird-rides-system-api-openapi.yml
   format: yaml
   label: Bird System API
   slug: bird-rides-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird-rides/refs/heads/main/openapi/bird-rides-system-api-openapi.yml
+  url: https://artifacts.apis.io/bird-rides/openapi/bird-rides-system-api-openapi.yml
 - filename: bird-rides-vehicles-api-openapi.yml
   format: yaml
   label: Bird Vehicles API
   slug: bird-rides-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird-rides/refs/heads/main/openapi/bird-rides-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/bird-rides/openapi/bird-rides-vehicles-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ source_filename: bird-rides-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bird.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 21:45:08 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\n- host: city-data.bird.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15724800\n- host: api.birdapp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 24 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: bird.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: birdapp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bird-rides/refs/heads/main/security/bird-rides-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bird-rides/security/bird-rides-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Micromobility

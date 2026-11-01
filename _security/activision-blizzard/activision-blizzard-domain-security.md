@@ -5,31 +5,31 @@ api_specs:
   label: activision-blizzard Account API
   slug: activision-blizzard-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activision-blizzard/refs/heads/main/openapi/activision-blizzard-account-api-openapi.yml
+  url: https://artifacts.apis.io/activision-blizzard/openapi/activision-blizzard-account-api-openapi.yml
 - filename: activision-blizzard-diablo-iii-api-openapi.yml
   format: yaml
   label: activision-blizzard Diablo III API
   slug: activision-blizzard-diablo-iii-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activision-blizzard/refs/heads/main/openapi/activision-blizzard-diablo-iii-api-openapi.yml
+  url: https://artifacts.apis.io/activision-blizzard/openapi/activision-blizzard-diablo-iii-api-openapi.yml
 - filename: activision-blizzard-hearthstone-api-openapi.yml
   format: yaml
   label: activision-blizzard Hearthstone API
   slug: activision-blizzard-hearthstone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activision-blizzard/refs/heads/main/openapi/activision-blizzard-hearthstone-api-openapi.yml
+  url: https://artifacts.apis.io/activision-blizzard/openapi/activision-blizzard-hearthstone-api-openapi.yml
 - filename: activision-blizzard-starcraft-ii-api-openapi.yml
   format: yaml
   label: activision-blizzard StarCraft II API
   slug: activision-blizzard-starcraft-ii-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activision-blizzard/refs/heads/main/openapi/activision-blizzard-starcraft-ii-api-openapi.yml
+  url: https://artifacts.apis.io/activision-blizzard/openapi/activision-blizzard-starcraft-ii-api-openapi.yml
 - filename: activision-blizzard-world-of-warcraft-api-openapi.yml
   format: yaml
   label: activision-blizzard World of Warcraft API
   slug: activision-blizzard-world-of-warcraft-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activision-blizzard/refs/heads/main/openapi/activision-blizzard-world-of-warcraft-api-openapi.yml
+  url: https://artifacts.apis.io/activision-blizzard/openapi/activision-blizzard-world-of-warcraft-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +71,7 @@ source_filename: activision-blizzard-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.activision-blizzard.com\n  https: false\n- host: develop.battle.net\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec  2 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: gateway.battlenet.com.cn\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 30 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: activision-blizzard.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: battle.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/activision-blizzard/refs/heads/main/security/activision-blizzard-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/activision-blizzard/security/activision-blizzard-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Fortune 1000

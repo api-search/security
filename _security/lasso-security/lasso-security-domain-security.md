@@ -5,7 +5,7 @@ api_specs:
   label: Lasso Security Classify API
   slug: lasso-security-classify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lasso-security/refs/heads/main/openapi/lasso-security-classify-api-openapi.yml
+  url: https://artifacts.apis.io/lasso-security/openapi/lasso-security-classify-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -46,7 +46,7 @@ source_filename: lasso-security-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.lasso.security\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 18:16:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: server.lasso.security\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  4 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: lasso.security\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 iodef \"mailto:devops@lasso.security\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lasso-security/refs/heads/main/security/lasso-security-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lasso-security/security/lasso-security-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

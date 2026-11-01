@@ -27,7 +27,7 @@ source_filename: housesigma-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-26'\nmethod: derived\nsource: openapi/housesigma-blog-content-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: applicationPassword\n  type: http\n  scheme: basic\n  description: WordPress application passwords, advertised by the live discovery document at\n    https://housesigma.com/blog-en/wp-admin/authorize-application.php. Required only for write\n    methods and for routes excluded from this document; every operation modelled here is anonymous.\n  sources:\n  - openapi/housesigma-blog-content-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/housesigma/refs/heads/main/authentication/housesigma-authentication.yml
+source_yaml_url: https://artifacts.apis.io/housesigma/authentication/housesigma-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Real Estate

@@ -27,7 +27,7 @@ source_filename: entactbio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: entactbio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 03:21:24 2026 GMT\n  hsts: false\ndomains:\n- domain: entactbio.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/entactbio/refs/heads/main/security/entactbio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/entactbio/security/entactbio-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

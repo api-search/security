@@ -8,103 +8,103 @@ api_specs:
   label: Appcharge Assets API
   slug: appcharge-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-assets-api-openapi.yml
+  url: https://artifacts.apis.io/appcharge/openapi/appcharge-assets-api-openapi.yml
 - filename: appcharge-authentication-api-openapi.yml
   format: yaml
   label: Appcharge Authentication API
   slug: appcharge-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/appcharge/openapi/appcharge-authentication-api-openapi.yml
 - filename: appcharge-badges-api-openapi.yml
   format: yaml
   label: Appcharge Badges API
   slug: appcharge-badges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-badges-api-openapi.yml
+  url: https://artifacts.apis.io/appcharge/openapi/appcharge-badges-api-openapi.yml
 - filename: appcharge-coupons-api-openapi.yml
   format: yaml
   label: Appcharge Coupons API
   slug: appcharge-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/appcharge/openapi/appcharge-coupons-api-openapi.yml
 - filename: appcharge-general-api-openapi.yml
   format: yaml
   label: Appcharge General API
   slug: appcharge-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-general-api-openapi.yml
+  url: https://artifacts.apis.io/appcharge/openapi/appcharge-general-api-openapi.yml
 - filename: appcharge-localization-api-openapi.yml
   format: yaml
   label: Appcharge Localization API
   slug: appcharge-localization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-localization-api-openapi.yml
+  url: https://artifacts.apis.io/appcharge/openapi/appcharge-localization-api-openapi.yml
 - filename: appcharge-offer-designs-api-openapi.yml
   format: yaml
   label: Appcharge Offer Designs API
   slug: appcharge-offer-designs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-offer-designs-api-openapi.yml
+  url: https://artifacts.apis.io/appcharge/openapi/appcharge-offer-designs-api-openapi.yml
 - filename: appcharge-offers-api-openapi.yml
   format: yaml
   label: Appcharge Offers API
   slug: appcharge-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-offers-api-openapi.yml
+  url: https://artifacts.apis.io/appcharge/openapi/appcharge-offers-api-openapi.yml
 - filename: appcharge-orders-api-openapi.yml
   format: yaml
   label: Appcharge Orders API
   slug: appcharge-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-orders-api-openapi.yml
+  url: https://artifacts.apis.io/appcharge/openapi/appcharge-orders-api-openapi.yml
 - filename: appcharge-personalization-api-openapi.yml
   format: yaml
   label: Appcharge Personalization API
   slug: appcharge-personalization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-personalization-api-openapi.yml
+  url: https://artifacts.apis.io/appcharge/openapi/appcharge-personalization-api-openapi.yml
 - filename: appcharge-popups-api-openapi.yml
   format: yaml
   label: Appcharge Popups API
   slug: appcharge-popups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-popups-api-openapi.yml
+  url: https://artifacts.apis.io/appcharge/openapi/appcharge-popups-api-openapi.yml
 - filename: appcharge-portal-content-api-openapi.yml
   format: yaml
   label: Appcharge Portal Content API
   slug: appcharge-portal-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-portal-content-api-openapi.yml
+  url: https://artifacts.apis.io/appcharge/openapi/appcharge-portal-content-api-openapi.yml
 - filename: appcharge-products-api-openapi.yml
   format: yaml
   label: Appcharge Products API
   slug: appcharge-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-products-api-openapi.yml
+  url: https://artifacts.apis.io/appcharge/openapi/appcharge-products-api-openapi.yml
 - filename: appcharge-promo-codes-api-openapi.yml
   format: yaml
   label: Appcharge Promo Codes API
   slug: appcharge-promo-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-promo-codes-api-openapi.yml
+  url: https://artifacts.apis.io/appcharge/openapi/appcharge-promo-codes-api-openapi.yml
 - filename: appcharge-rolling-offers-api-openapi.yml
   format: yaml
   label: Appcharge Rolling Offers API
   slug: appcharge-rolling-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-rolling-offers-api-openapi.yml
+  url: https://artifacts.apis.io/appcharge/openapi/appcharge-rolling-offers-api-openapi.yml
 - filename: appcharge-store-refresh-popups-api-openapi.yml
   format: yaml
   label: Appcharge Store Refresh Popups API
   slug: appcharge-store-refresh-popups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-store-refresh-popups-api-openapi.yml
+  url: https://artifacts.apis.io/appcharge/openapi/appcharge-store-refresh-popups-api-openapi.yml
 - filename: appcharge-triggered-popups-api-openapi.yml
   format: yaml
   label: Appcharge Triggered Popups API
   slug: appcharge-triggered-popups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-triggered-popups-api-openapi.yml
+  url: https://artifacts.apis.io/appcharge/openapi/appcharge-triggered-popups-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -167,7 +167,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: openapi/appcharge-openapi.yml + https://docs.appcharge.com/api-reference/appcharge-publisher-secure-communication + https://docs.appcharge.com/merchant-of-record/security/about-security-at-appcharge\ndocs: https://docs.appcharge.com/api-reference/appcharge-publisher-secure-communication\ndescription: >-\n  Appcharge uses three distinct authentication surfaces: (1) the publisher REST\n  API authenticates with the x-publisher-token API key header (from the\n  Publisher Dashboard > Settings > Integration); (2) webhooks and Appcharge->\n  publisher callbacks are verified with an HMAC-SHA256 signature over\n  \"{timestamp}.{json_payload}\" carried in the `signature: t=...,v1=...` header\n  (plus x-publisher-token and x-project-id), with a ~5-minute replay window;\n  (3) the hosted MCP server is protected by OAuth 2.0 (authorization_code +\n  PKCE). mTLS is supported for sensitive server-to-server integrations.\nsummary:\n  types:\
   \ [apiKey, oauth2, mutualTLS, hmac-signature]\n  api_key_in: [header]\n  api_key_names: [x-publisher-token]\n  oauth2_flows: [authorizationCode]\nschemes:\n  - name: PublisherTokenAuth\n    type: apiKey\n    in: header\n    parameter: x-publisher-token\n    description: >-\n      Publisher token from the Publisher Dashboard (Settings > Integration).\n      Required on all REST API calls. Can be shared across multiple Appcharge\n      accounts.\n    sources: [openapi/appcharge-openapi.yml]\n  - name: WebhookSignature\n    type: hmac\n    algorithm: HMAC-SHA256\n    header: signature\n    format: t={timestamp},v1={hex_signature}\n    input: \"{timestamp}.{json_payload}\"\n    replay_window: ~5 minutes\n    also_sent: [x-publisher-token, x-project-id]\n    description: >-\n      Signature Appcharge attaches to every outbound webhook/callback so the\n      publisher can verify authenticity and integrity. Timestamp is a Unix ms\n      value; publishers reconstruct the HMAC with their main key\
   \ (Settings >\n      Integration) and compare.\n    sources: [https://docs.appcharge.com/api-reference/events/v2/introduction]\n  - name: OAuth2\n    type: oauth2\n    flow: authorizationCode\n    authorizationUrl: https://api.appcharge.com/oauth/authorize\n    tokenUrl: https://api.appcharge.com/oauth/token\n    scopes: [mcp:read, mcp:write]\n    applies_to: hosted MCP server (mcp.appcharge.com)\n    sources: [https://api.appcharge.com/.well-known/oauth-authorization-server]\n  - name: MutualTLS\n    type: mutualTLS\n    description: >-\n      mTLS supported for server-to-server integrations that require both parties\n      to present and verify certificates.\n    sources: [https://docs.appcharge.com/merchant-of-record/security/about-security-at-appcharge]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/authentication/appcharge-authentication.yml
+source_yaml_url: https://artifacts.apis.io/appcharge/authentication/appcharge-authentication.yml
 summary_line: apiKey/oauth2/mutualTLS/hmac-signature · 4 schemes
 tags:
 - Company

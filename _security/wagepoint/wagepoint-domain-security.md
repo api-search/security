@@ -5,37 +5,37 @@ api_specs:
   label: Wagepoint Companies API
   slug: wagepoint-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wagepoint/refs/heads/main/openapi/wagepoint-companies-api-openapi.yml
+  url: https://artifacts.apis.io/wagepoint/openapi/wagepoint-companies-api-openapi.yml
 - filename: wagepoint-health-api-openapi.yml
   format: yaml
   label: Wagepoint Health API
   slug: wagepoint-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wagepoint/refs/heads/main/openapi/wagepoint-health-api-openapi.yml
+  url: https://artifacts.apis.io/wagepoint/openapi/wagepoint-health-api-openapi.yml
 - filename: wagepoint-mcp-api-openapi.yml
   format: yaml
   label: Wagepoint MCP API
   slug: wagepoint-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wagepoint/refs/heads/main/openapi/wagepoint-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/wagepoint/openapi/wagepoint-mcp-api-openapi.yml
 - filename: wagepoint-pay-groups-api-openapi.yml
   format: yaml
   label: Wagepoint Pay Groups API
   slug: wagepoint-pay-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wagepoint/refs/heads/main/openapi/wagepoint-pay-groups-api-openapi.yml
+  url: https://artifacts.apis.io/wagepoint/openapi/wagepoint-pay-groups-api-openapi.yml
 - filename: wagepoint-persons-api-openapi.yml
   format: yaml
   label: Wagepoint Persons API
   slug: wagepoint-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wagepoint/refs/heads/main/openapi/wagepoint-persons-api-openapi.yml
+  url: https://artifacts.apis.io/wagepoint/openapi/wagepoint-persons-api-openapi.yml
 - filename: wagepoint-time-entries-api-openapi.yml
   format: yaml
   label: Wagepoint Time Entries API
   slug: wagepoint-time-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wagepoint/refs/heads/main/openapi/wagepoint-time-entries-api-openapi.yml
+  url: https://artifacts.apis.io/wagepoint/openapi/wagepoint-time-entries-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -71,7 +71,7 @@ source_filename: wagepoint-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: wagepoint.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 21 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: wagepoint.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wagepoint/refs/heads/main/security/wagepoint-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wagepoint/security/wagepoint-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

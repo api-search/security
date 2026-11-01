@@ -5,25 +5,25 @@ api_specs:
   label: Shopper Approved Orders API
   slug: shopper-approved-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopper-approved/refs/heads/main/openapi/shopper-approved-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shopper-approved/openapi/shopper-approved-orders-api-openapi.yml
 - filename: shopper-approved-product-reviews-api-openapi.yml
   format: yaml
   label: Shopper Approved Product Reviews API
   slug: shopper-approved-product-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopper-approved/refs/heads/main/openapi/shopper-approved-product-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/shopper-approved/openapi/shopper-approved-product-reviews-api-openapi.yml
 - filename: shopper-approved-reviews-api-openapi.yml
   format: yaml
   label: Shopper Approved Reviews API
   slug: shopper-approved-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopper-approved/refs/heads/main/openapi/shopper-approved-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/shopper-approved/openapi/shopper-approved-reviews-api-openapi.yml
 - filename: shopper-approved-statistics-api-openapi.yml
   format: yaml
   label: Shopper Approved Statistics API
   slug: shopper-approved-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopper-approved/refs/heads/main/openapi/shopper-approved-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/shopper-approved/openapi/shopper-approved-statistics-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: shopper-approved-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: help.shopperapproved.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 19:50:35 2026 GMT\n  hsts: false\n- host: api.shopperapproved.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 19:50:35 2026 GMT\n  hsts: null\ndomains:\n- domain: shopperapproved.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shopper-approved/refs/heads/main/security/shopper-approved-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/shopper-approved/security/shopper-approved-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Reviews

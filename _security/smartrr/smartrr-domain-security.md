@@ -5,37 +5,37 @@ api_specs:
   label: Smartrr Bills API
   slug: smartrr-bills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrr/refs/heads/main/openapi/smartrr-bills-api-openapi.yml
+  url: https://artifacts.apis.io/smartrr/openapi/smartrr-bills-api-openapi.yml
 - filename: smartrr-orders-api-openapi.yml
   format: yaml
   label: Smartrr Orders API
   slug: smartrr-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrr/refs/heads/main/openapi/smartrr-orders-api-openapi.yml
+  url: https://artifacts.apis.io/smartrr/openapi/smartrr-orders-api-openapi.yml
 - filename: smartrr-plans-api-openapi.yml
   format: yaml
   label: Smartrr Plans API
   slug: smartrr-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrr/refs/heads/main/openapi/smartrr-plans-api-openapi.yml
+  url: https://artifacts.apis.io/smartrr/openapi/smartrr-plans-api-openapi.yml
 - filename: smartrr-subscribers-api-openapi.yml
   format: yaml
   label: Smartrr Subscribers API
   slug: smartrr-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrr/refs/heads/main/openapi/smartrr-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/smartrr/openapi/smartrr-subscribers-api-openapi.yml
 - filename: smartrr-subscriptions-api-openapi.yml
   format: yaml
   label: Smartrr Subscriptions API
   slug: smartrr-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrr/refs/heads/main/openapi/smartrr-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/smartrr/openapi/smartrr-subscriptions-api-openapi.yml
 - filename: smartrr-webhooks-api-openapi.yml
   format: yaml
   label: Smartrr Webhooks API
   slug: smartrr-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrr/refs/heads/main/openapi/smartrr-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/smartrr/openapi/smartrr-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -82,7 +82,7 @@ source_filename: smartrr-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: smartrr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 04:58:06 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.smartrr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 20:34:15 2026 GMT\n  hsts: false\n- host: help.smartrr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 05:18:25 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: smartrr.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartrr/refs/heads/main/security/smartrr-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/smartrr/security/smartrr-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Subscription

@@ -7,49 +7,49 @@ api_specs:
   label: Freshservice Agents API
   slug: freshservice-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshservice/refs/heads/main/openapi/freshservice-agents-api-openapi.yml
+  url: https://artifacts.apis.io/freshservice/openapi/freshservice-agents-api-openapi.yml
 - filename: freshservice-assets-api-openapi.yml
   format: yaml
   label: Freshservice Assets API
   slug: freshservice-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshservice/refs/heads/main/openapi/freshservice-assets-api-openapi.yml
+  url: https://artifacts.apis.io/freshservice/openapi/freshservice-assets-api-openapi.yml
 - filename: freshservice-changes-api-openapi.yml
   format: yaml
   label: Freshservice Changes API
   slug: freshservice-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshservice/refs/heads/main/openapi/freshservice-changes-api-openapi.yml
+  url: https://artifacts.apis.io/freshservice/openapi/freshservice-changes-api-openapi.yml
 - filename: freshservice-groups-api-openapi.yml
   format: yaml
   label: Freshservice Groups API
   slug: freshservice-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshservice/refs/heads/main/openapi/freshservice-groups-api-openapi.yml
+  url: https://artifacts.apis.io/freshservice/openapi/freshservice-groups-api-openapi.yml
 - filename: freshservice-problems-api-openapi.yml
   format: yaml
   label: Freshservice Problems API
   slug: freshservice-problems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshservice/refs/heads/main/openapi/freshservice-problems-api-openapi.yml
+  url: https://artifacts.apis.io/freshservice/openapi/freshservice-problems-api-openapi.yml
 - filename: freshservice-releases-api-openapi.yml
   format: yaml
   label: Freshservice Releases API
   slug: freshservice-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshservice/refs/heads/main/openapi/freshservice-releases-api-openapi.yml
+  url: https://artifacts.apis.io/freshservice/openapi/freshservice-releases-api-openapi.yml
 - filename: freshservice-requesters-api-openapi.yml
   format: yaml
   label: Freshservice Requesters API
   slug: freshservice-requesters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshservice/refs/heads/main/openapi/freshservice-requesters-api-openapi.yml
+  url: https://artifacts.apis.io/freshservice/openapi/freshservice-requesters-api-openapi.yml
 - filename: freshservice-tickets-api-openapi.yml
   format: yaml
   label: Freshservice Tickets API
   slug: freshservice-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshservice/refs/heads/main/openapi/freshservice-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/freshservice/openapi/freshservice-tickets-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -76,7 +76,7 @@ source_filename: freshservice-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/freshservice-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic with API key as username and \"X\" as password.\n  sources:\n  - openapi/freshservice-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freshservice/refs/heads/main/authentication/freshservice-authentication.yml
+source_yaml_url: https://artifacts.apis.io/freshservice/authentication/freshservice-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - ITSM

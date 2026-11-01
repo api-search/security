@@ -3,24 +3,24 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: listnr-jobs-api-openapi.yml
+- filename: listnr-agent-api-openapi.yml
   format: yaml
-  label: Listnr Jobs API
-  slug: listnr-jobs-api
+  label: Listnr Agent API
+  slug: listnr-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listnr/refs/heads/main/openapi/listnr-jobs-api-openapi.yml
-- filename: listnr-text-to-speech-api-openapi.yml
+  url: https://artifacts.apis.io/listnr/openapi/listnr-agent-api-openapi.yml
+- filename: listnr-billing-api-openapi.yml
   format: yaml
-  label: Listnr Text-to-Speech API
-  slug: listnr-text-to-speech-api
+  label: Listnr Billing API
+  slug: listnr-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listnr/refs/heads/main/openapi/listnr-text-to-speech-api-openapi.yml
-- filename: listnr-voices-api-openapi.yml
+  url: https://artifacts.apis.io/listnr/openapi/listnr-billing-api-openapi.yml
+- filename: listnr-catalog-api-openapi.yml
   format: yaml
-  label: Listnr Voices API
-  slug: listnr-voices-api
+  label: Listnr Catalog API
+  slug: listnr-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listnr/refs/heads/main/openapi/listnr-voices-api-openapi.yml
+  url: https://artifacts.apis.io/listnr/openapi/listnr-catalog-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,12 +48,11 @@ source_filename: listnr-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/listnr-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: listnrToken\n  type: apiKey\n  in: header\n  parameter: x-listnr-token\n  description: Personal API key generated in the Listnr dashboard at voices.listnr.tech. Keep\n    it server-side; never expose it in the browser or front-end code.\n  sources:\n  - openapi/listnr-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/listnr/refs/heads/main/authentication/listnr-authentication.yml
+source_yaml_url: https://artifacts.apis.io/listnr/authentication/listnr-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence
 - Text-to-Speech
-- TTS
 - Voice
 - Speech Synthesis
 - Audio

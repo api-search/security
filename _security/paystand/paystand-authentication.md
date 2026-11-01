@@ -8,49 +8,49 @@ api_specs:
   label: PayStand Balances API
   slug: paystand-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-balances-api-openapi.yml
+  url: https://artifacts.apis.io/paystand/openapi/paystand-balances-api-openapi.yml
 - filename: paystand-banks-api-openapi.yml
   format: yaml
   label: PayStand Banks API
   slug: paystand-banks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-banks-api-openapi.yml
+  url: https://artifacts.apis.io/paystand/openapi/paystand-banks-api-openapi.yml
 - filename: paystand-oauth-api-openapi.yml
   format: yaml
   label: PayStand OAuth API
   slug: paystand-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/paystand/openapi/paystand-oauth-api-openapi.yml
 - filename: paystand-payers-api-openapi.yml
   format: yaml
   label: PayStand Payers API
   slug: paystand-payers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-payers-api-openapi.yml
+  url: https://artifacts.apis.io/paystand/openapi/paystand-payers-api-openapi.yml
 - filename: paystand-payments-api-openapi.yml
   format: yaml
   label: PayStand Payments API
   slug: paystand-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-payments-api-openapi.yml
+  url: https://artifacts.apis.io/paystand/openapi/paystand-payments-api-openapi.yml
 - filename: paystand-refunds-api-openapi.yml
   format: yaml
   label: PayStand Refunds API
   slug: paystand-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/paystand/openapi/paystand-refunds-api-openapi.yml
 - filename: paystand-transfers-api-openapi.yml
   format: yaml
   label: PayStand Transfers API
   slug: paystand-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/paystand/openapi/paystand-transfers-api-openapi.yml
 - filename: paystand-withdrawals-api-openapi.yml
   format: yaml
   label: PayStand Withdrawals API
   slug: paystand-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/paystand/openapi/paystand-withdrawals-api-openapi.yml
 auth_types:
 - oauth2
 - apiKey
@@ -110,7 +110,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://api.paystand.com/.well-known/openid-configuration\ndocs: https://developers.paystand.com/reference/getting-api-access\nsummary:\n  types: [oauth2, apiKey, http]\n  api_key_in: [header]\n  oauth2_flows: [clientCredentials, authorizationCode, password]\nnotes: >-\n  Authenticated Paystand API calls use an OAuth2 access token in the\n  Authorization header (\"Bearer <token>\") plus an X-CUSTOMER-ID header. Access\n  tokens are minted at the token endpoint with grant_type=client_credentials\n  using the application clientId/clientSecret (scope \"auth\"). Non-authenticated\n  (public checkout) calls use the X-PUBLISHABLE-KEY header carrying the\n  customer's publishable key.\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.paystand.com/v3/api/v3/oauth/token\n    scopes: [auth]\n  - flow: authorizationCode\n    authorizationUrl: https://api.paystand.com/v3/api/v3/oauth/authorize\n\
   \    tokenUrl: https://api.paystand.com/v3/api/v3/oauth/token\n    scopes: [auth]\n  token_endpoint_auth_methods: [client_secret_basic, client_secret_post]\n  source: https://api.paystand.com/.well-known/openid-configuration\n- name: Authorization\n  type: http\n  scheme: bearer\n  description: \"Bearer <access_token> for authenticated calls.\"\n  source: https://developers.paystand.com/reference/headers\n- name: X-CUSTOMER-ID\n  type: apiKey\n  in: header\n  parameter: X-CUSTOMER-ID\n  description: Customer id, required for authenticated calls.\n  source: https://developers.paystand.com/reference/headers\n- name: X-PUBLISHABLE-KEY\n  type: apiKey\n  in: header\n  parameter: X-PUBLISHABLE-KEY\n  description: Customer's publishable API key, required for non-authenticated (public) calls.\n  source: https://developers.paystand.com/reference/headers\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/authentication/paystand-authentication.yml
+source_yaml_url: https://artifacts.apis.io/paystand/authentication/paystand-authentication.yml
 summary_line: oauth2/apiKey/http · 4 schemes
 tags:
 - Company

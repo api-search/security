@@ -5,7 +5,7 @@ api_specs:
   label: LLM Abacus API
   slug: llmabacus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmabacus/refs/heads/main/openapi/_ae-authored/llmabacus-openapi-generated.yml
+  url: https://artifacts.apis.io/llmabacus/openapi/_ae-authored/llmabacus-openapi-generated.yml
 description: ''
 domains:
 - caa: []
@@ -34,12 +34,11 @@ source_filename: llmabacus-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: llmabacus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 21 14:15:16 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: llmabacus.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/llmabacus/refs/heads/main/security/llmabacus-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/llmabacus/security/llmabacus-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - LLM
-- API
 - Pricing
 - Comparison
 ---

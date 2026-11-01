@@ -5,13 +5,13 @@ api_specs:
   label: Podcastle Text to Speech API
   slug: podcastle-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podcastle/refs/heads/main/openapi/podcastle-text-to-speech-api-openapi.yml
+  url: https://artifacts.apis.io/podcastle/openapi/podcastle-text-to-speech-api-openapi.yml
 - filename: podcastle-voices-api-openapi.yml
   format: yaml
   label: Podcastle Voices API
   slug: podcastle-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podcastle/refs/heads/main/openapi/podcastle-voices-api-openapi.yml
+  url: https://artifacts.apis.io/podcastle/openapi/podcastle-voices-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: podcastle-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: podcastle.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 22:15:43 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.async.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  9 00:03:30 2026 GMT\n  hsts: false\n- host: api.async.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 14 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: podcastle.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: async.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/podcastle/refs/heads/main/security/podcastle-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/podcastle/security/podcastle-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

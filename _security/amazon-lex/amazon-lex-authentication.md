@@ -8,67 +8,67 @@ api_specs:
   label: Amazon Lex Bots API
   slug: amazon-lex-bots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-bots-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lex/openapi/amazon-lex-bots-api-openapi.yml
 - filename: amazon-lex-builtins-api-openapi.yml
   format: yaml
   label: Amazon Lex Builtins API
   slug: amazon-lex-builtins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-builtins-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lex/openapi/amazon-lex-builtins-api-openapi.yml
 - filename: amazon-lex-createuploadurl-api-openapi.yml
   format: yaml
   label: Amazon Lex Createuploadurl API
   slug: amazon-lex-createuploadurl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-createuploadurl-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lex/openapi/amazon-lex-createuploadurl-api-openapi.yml
 - filename: amazon-lex-exports-api-openapi.yml
   format: yaml
   label: Amazon Lex Exports API
   slug: amazon-lex-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-exports-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lex/openapi/amazon-lex-exports-api-openapi.yml
 - filename: amazon-lex-imports-api-openapi.yml
   format: yaml
   label: Amazon Lex Imports API
   slug: amazon-lex-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-imports-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lex/openapi/amazon-lex-imports-api-openapi.yml
 - filename: amazon-lex-policy-api-openapi.yml
   format: yaml
   label: Amazon Lex Policy API
   slug: amazon-lex-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-policy-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lex/openapi/amazon-lex-policy-api-openapi.yml
 - filename: amazon-lex-tags-api-openapi.yml
   format: yaml
   label: Amazon Lex Tags API
   slug: amazon-lex-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lex/openapi/amazon-lex-tags-api-openapi.yml
 - filename: amazon-lex-testexecutions-api-openapi.yml
   format: yaml
   label: Amazon Lex Testexecutions API
   slug: amazon-lex-testexecutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-testexecutions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lex/openapi/amazon-lex-testexecutions-api-openapi.yml
 - filename: amazon-lex-testsetdiscrepancy-api-openapi.yml
   format: yaml
   label: Amazon Lex Testsetdiscrepancy API
   slug: amazon-lex-testsetdiscrepancy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-testsetdiscrepancy-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lex/openapi/amazon-lex-testsetdiscrepancy-api-openapi.yml
 - filename: amazon-lex-testsetgenerations-api-openapi.yml
   format: yaml
   label: Amazon Lex Testsetgenerations API
   slug: amazon-lex-testsetgenerations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-testsetgenerations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lex/openapi/amazon-lex-testsetgenerations-api-openapi.yml
 - filename: amazon-lex-testsets-api-openapi.yml
   format: yaml
   label: Amazon Lex Testsets API
   slug: amazon-lex-testsets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-testsets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lex/openapi/amazon-lex-testsets-api-openapi.yml
 auth_types:
 - sigv4
 description: ''
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-09-17'\nmethod: searched\nsource: >-\n  https://d
   \ is\n  typed apiKey/header only because OpenAPI has no native SigV4 type; the real mechanism is a signed\n  canonical request, and a caller cannot construct one from a static header value.\nschemes:\n- name: sigv4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  signing_name: lex\n  signing_region: the calling AWS Region\n  description: >-\n    AWS Signature Version 4. The Authorization header carries the credential scope, signed headers and\n    signature; x-amz-date is required alongside it. Temporary credentials add x-amz-security-token.\n  spec: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html\n  sources:\n  - smithy/amazon-lex-models-v2-2020-08-07.json\n  - openapi/amazon-lex-models-v2-openapi.yml\n  - openapi/amazon-lex-runtime-v2-openapi.yml\nauthorization:\n  model: IAM identity-based policy plus optional resource-based policy\n  actions_reference: https://servicereference.us-east-1.amazonaws.com/v1/lex/lex.json\n  action_count: 152\n  action_breakdown:\n\
   \    write: 75\n    list: 39\n    tagging_only: 2\n    permission_management: 0\n  resource_types: [bot, bot alias, bot version, channel, intent version, slottype version, test set]\n  note: >-\n    Worth calling out as a discoverability fact: AWS publishes the full permission surface\n    machine-readably and anonymously. The Service Reference document gives all 152 `lex:*` actions with\n    per-action write/list/tagging annotations and the resource types each one touches — an agent can\n    compute the exact least-privilege policy for a planned call sequence without reading a docs page.\n  managed_policies:\n  - name: AmazonLexFullAccess\n  - name: AmazonLexReadOnly\n  - name: AmazonLexRunBotsOnly\n  - name: AmazonLexReplicationPolicy\n  managed_policies_docs: https://docs.aws.amazon.com/lexv2/latest/dg/security-iam-awsmanpol.html\n  resource_based:\n    supported: true\n    operations: [CreateResourcePolicy, DescribeResourcePolicy, UpdateResourcePolicy, DeleteResourcePolicy, CreateResourcePolicyStatement,\
   \ DeleteResourcePolicyStatement]\n    note: Attachable to a bot or bot alias, for cross-account invocation.\n  service_role:\n    required: true\n    note: >-\n      CreateBot requires a roleArn — the IAM role Amazon Lex itself assumes to write conversation logs,\n      call Lambda code hooks and read S3 grammar files. This is a second, distinct identity from the\n      caller's, and a misconfigured one surfaces at runtime as DependencyFailedException (424), not as\n      an auth error at build time.\ndocs: https://docs.aws.amazon.com/lexv2/latest/dg/security_iam_service-with-iam.html\nscopes_artifact: null\nscopes_note: No OAuth scopes exist. Authorization granularity is the 152 IAM actions above.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/authentication/amazon-lex-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-lex/authentication/amazon-lex-authentication.yml
 summary_line: sigv4 · 1 scheme
 tags:
 - Artificial Intelligence

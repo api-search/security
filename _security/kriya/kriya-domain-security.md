@@ -5,37 +5,37 @@ api_specs:
   label: Kriya Buyers API
   slug: kriya-buyers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kriya/refs/heads/main/openapi/kriya-buyers-api-openapi.yml
+  url: https://artifacts.apis.io/kriya/openapi/kriya-buyers-api-openapi.yml
 - filename: kriya-onboarding-api-api-openapi.yml
   format: yaml
   label: Kriya Onboarding API
   slug: kriya-onboarding-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kriya/refs/heads/main/openapi/kriya-onboarding-api-api-openapi.yml
+  url: https://artifacts.apis.io/kriya/openapi/kriya-onboarding-api-api-openapi.yml
 - filename: kriya-onboardingjourney-api-openapi.yml
   format: yaml
   label: Kriya OnboardingJourney API
   slug: kriya-onboardingjourney-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kriya/refs/heads/main/openapi/kriya-onboardingjourney-api-openapi.yml
+  url: https://artifacts.apis.io/kriya/openapi/kriya-onboardingjourney-api-openapi.yml
 - filename: kriya-orders-api-openapi.yml
   format: yaml
   label: Kriya Orders API
   slug: kriya-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kriya/refs/heads/main/openapi/kriya-orders-api-openapi.yml
+  url: https://artifacts.apis.io/kriya/openapi/kriya-orders-api-openapi.yml
 - filename: kriya-payments-api-openapi.yml
   format: yaml
   label: Kriya Payments API
   slug: kriya-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kriya/refs/heads/main/openapi/kriya-payments-api-openapi.yml
+  url: https://artifacts.apis.io/kriya/openapi/kriya-payments-api-openapi.yml
 - filename: kriya-scenario-api-openapi.yml
   format: yaml
   label: Kriya Scenario API
   slug: kriya-scenario-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kriya/refs/heads/main/openapi/kriya-scenario-api-openapi.yml
+  url: https://artifacts.apis.io/kriya/openapi/kriya-scenario-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: kriya-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.kriya.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 12:30:14 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.kriya.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 09:31:11 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.kriya.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 13:09:27 2026 GMT\n  hsts: null\ndomains:\n- domain: kriya.co\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kriya/refs/heads/main/security/kriya-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kriya/security/kriya-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

@@ -26,7 +26,7 @@ source_filename: cenyxbiotech-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cenyxbiotech.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 24 08:30:30 2026 GMT\n  hsts: false\ndomains:\n- domain: cenyxbiotech.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cenyxbiotech/refs/heads/main/security/cenyxbiotech-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cenyxbiotech/security/cenyxbiotech-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Company

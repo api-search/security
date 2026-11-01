@@ -5,43 +5,43 @@ api_specs:
   label: VergeSense Buildings API
   slug: vergesense-buildings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vergesense/refs/heads/main/openapi/vergesense-buildings-api-openapi.yml
+  url: https://artifacts.apis.io/vergesense/openapi/vergesense-buildings-api-openapi.yml
 - filename: vergesense-hardware-api-openapi.yml
   format: yaml
   label: VergeSense Hardware API
   slug: vergesense-hardware-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vergesense/refs/heads/main/openapi/vergesense-hardware-api-openapi.yml
+  url: https://artifacts.apis.io/vergesense/openapi/vergesense-hardware-api-openapi.yml
 - filename: vergesense-metrics-api-openapi.yml
   format: yaml
   label: VergeSense Metrics API
   slug: vergesense-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vergesense/refs/heads/main/openapi/vergesense-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/vergesense/openapi/vergesense-metrics-api-openapi.yml
 - filename: vergesense-predict-api-openapi.yml
   format: yaml
   label: VergeSense Predict API
   slug: vergesense-predict-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vergesense/refs/heads/main/openapi/vergesense-predict-api-openapi.yml
+  url: https://artifacts.apis.io/vergesense/openapi/vergesense-predict-api-openapi.yml
 - filename: vergesense-sensors-api-openapi.yml
   format: yaml
   label: VergeSense Sensors API
   slug: vergesense-sensors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vergesense/refs/heads/main/openapi/vergesense-sensors-api-openapi.yml
+  url: https://artifacts.apis.io/vergesense/openapi/vergesense-sensors-api-openapi.yml
 - filename: vergesense-spaces-api-openapi.yml
   format: yaml
   label: VergeSense Spaces API
   slug: vergesense-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vergesense/refs/heads/main/openapi/vergesense-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/vergesense/openapi/vergesense-spaces-api-openapi.yml
 - filename: vergesense-webhooks-api-openapi.yml
   format: yaml
   label: VergeSense Webhooks API
   slug: vergesense-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vergesense/refs/heads/main/openapi/vergesense-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/vergesense/openapi/vergesense-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -89,7 +89,7 @@ source_filename: vergesense-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.vergesense.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 17 16:38:08 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: vergesense.readme.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 13:12:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.vergesense.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 07:53:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: vergesense.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: readme.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vergesense/refs/heads/main/security/vergesense-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vergesense/security/vergesense-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Occupancy Intelligence

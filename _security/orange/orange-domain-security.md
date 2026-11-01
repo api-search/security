@@ -5,13 +5,13 @@ api_specs:
   label: Orange Device Phone Number API
   slug: orange-device-phone-number-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orange/refs/heads/main/openapi/orange-device-phone-number-api-openapi.yml
+  url: https://artifacts.apis.io/orange/openapi/orange-device-phone-number-api-openapi.yml
 - filename: orange-verify-api-openapi.yml
   format: yaml
   label: Orange Verify API
   slug: orange-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orange/refs/heads/main/openapi/orange-verify-api-openapi.yml
+  url: https://artifacts.apis.io/orange/openapi/orange-verify-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: orange-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.orange.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: www.orange.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 17 23:59:59 2026 GMT\n  hsts: false\n- host: docs.developer.orange.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: orange.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orange/refs/heads/main/security/orange-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/orange/security/orange-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Networks

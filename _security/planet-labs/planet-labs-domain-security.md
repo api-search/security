@@ -5,37 +5,37 @@ api_specs:
   label: Planet Labs Data - Item Types API
   slug: planet-labs-data-item-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/openapi/planet-labs-data-item-types-api-openapi.yml
+  url: https://artifacts.apis.io/planet-labs/openapi/planet-labs-data-item-types-api-openapi.yml
 - filename: planet-labs-data-items-api-openapi.yml
   format: yaml
   label: Planet Labs Data - Items API
   slug: planet-labs-data-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/openapi/planet-labs-data-items-api-openapi.yml
+  url: https://artifacts.apis.io/planet-labs/openapi/planet-labs-data-items-api-openapi.yml
 - filename: planet-labs-data-search-api-openapi.yml
   format: yaml
   label: Planet Labs Data - Search API
   slug: planet-labs-data-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/openapi/planet-labs-data-search-api-openapi.yml
+  url: https://artifacts.apis.io/planet-labs/openapi/planet-labs-data-search-api-openapi.yml
 - filename: planet-labs-data-stats-api-openapi.yml
   format: yaml
   label: Planet Labs Data - Stats API
   slug: planet-labs-data-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/openapi/planet-labs-data-stats-api-openapi.yml
+  url: https://artifacts.apis.io/planet-labs/openapi/planet-labs-data-stats-api-openapi.yml
 - filename: planet-labs-orders-api-openapi.yml
   format: yaml
   label: Planet Labs Orders API
   slug: planet-labs-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/openapi/planet-labs-orders-api-openapi.yml
+  url: https://artifacts.apis.io/planet-labs/openapi/planet-labs-orders-api-openapi.yml
 - filename: planet-labs-subscriptions-api-openapi.yml
   format: yaml
   label: Planet Labs Subscriptions API
   slug: planet-labs-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/openapi/planet-labs-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/planet-labs/openapi/planet-labs-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: planet-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.planet.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.planet.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 17:13:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.planet.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 20:29:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: planet.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/security/planet-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/planet-labs/security/planet-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Earth Observation

@@ -11,13 +11,13 @@ api_specs:
   label: Bitso Private API
   slug: bitso-private-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/openapi/bitso-private-api-openapi.yml
+  url: https://artifacts.apis.io/bitso/openapi/bitso-private-api-openapi.yml
 - filename: bitso-public-api-openapi.yml
   format: yaml
   label: Bitso Public API
   slug: bitso-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/openapi/bitso-public-api-openapi.yml
+  url: https://artifacts.apis.io/bitso/openapi/bitso-public-api-openapi.yml
 certification_count: 1
 certifications:
 - ISO 27001
@@ -34,7 +34,7 @@ source_filename: bitso-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://bitso.com/trust\nurl: https://bitso.com/trust\ncertifications:\n- ISO 27001\nevidence:\n- source: https://bitso.com/trust\n  keywords:\n  - iso/iec 27001\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/security/bitso-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/bitso/security/bitso-trust-center.yml
 summary_line: ISO 27001
 tags:
 - Cryptocurrency

@@ -43,7 +43,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of traffixsystems.com (legacy Traffix Systems domain, now held by F5 Networks)\nnote: >-\n  Traffix Systems was acquired by F5 Networks in 2012. The legacy domain\n  traffixsystems.com still resolves but is parked on F5 infrastructure\n  (F5 nameservers and mail exchangers); no web service answers on HTTP or\n  HTTPS. SPF is a hard \"send nothing\" record and DMARC is p=reject with\n  F5-operated reporting addresses — the domain is locked down, not operated.\nhosts:\n- host: traffixsystems.com\n  a_record: 107.162.230.156\n  https: false\n  https_status: 'no response (connection timeout)'\n  http_status: 'no response (connection timeout)'\n  tls_version: null\n  hsts: false\n- host: www.traffixsystems.com\n  a_record: 107.162.230.156\n  https: false\n  https_status: 'no response (connection timeout)'\ndomains:\n- domain: traffixsystems.com\n  nameservers:\n  - pdns130.f5.com\n  - pdns131.f5.com\n  - pdns150.f5.com\n\
   \  - pdns151.f5.com\n  mx:\n  - mail13.f5.com\n  - mail15.f5.com\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: v=spf1 -all\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/traffix/refs/heads/main/security/traffix-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/traffix/security/traffix-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

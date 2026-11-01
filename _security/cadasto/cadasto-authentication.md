@@ -7,139 +7,139 @@ api_specs:
   label: Cadasto ADL1.4 API
   slug: cadasto-adl1-4-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-adl1-4-api-openapi.yml
+  url: https://artifacts.apis.io/cadasto/openapi/cadasto-adl1-4-api-openapi.yml
 - filename: cadasto-adl2-api-openapi.yml
   format: yaml
   label: Cadasto ADL2 API
   slug: cadasto-adl2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-adl2-api-openapi.yml
+  url: https://artifacts.apis.io/cadasto/openapi/cadasto-adl2-api-openapi.yml
 - filename: cadasto-admin-api-openapi.yml
   format: yaml
   label: Cadasto Admin API
   slug: cadasto-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-admin-api-openapi.yml
+  url: https://artifacts.apis.io/cadasto/openapi/cadasto-admin-api-openapi.yml
 - filename: cadasto-agent-api-openapi.yml
   format: yaml
   label: Cadasto AGENT API
   slug: cadasto-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-agent-api-openapi.yml
+  url: https://artifacts.apis.io/cadasto/openapi/cadasto-agent-api-openapi.yml
 - filename: cadasto-composition-api-openapi.yml
   format: yaml
   label: Cadasto COMPOSITION API
   slug: cadasto-composition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-composition-api-openapi.yml
+  url: https://artifacts.apis.io/cadasto/openapi/cadasto-composition-api-openapi.yml
 - filename: cadasto-contribution-api-openapi.yml
   format: yaml
   label: Cadasto CONTRIBUTION API
   slug: cadasto-contribution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-contribution-api-openapi.yml
+  url: https://artifacts.apis.io/cadasto/openapi/cadasto-contribution-api-openapi.yml
 - filename: cadasto-datamap-definition-api-openapi.yml
   format: yaml
   label: Cadasto Datamap Definition API
   slug: cadasto-datamap-definition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-datamap-definition-api-openapi.yml
+  url: https://artifacts.apis.io/cadasto/openapi/cadasto-datamap-definition-api-openapi.yml
 - filename: cadasto-datamap-query-api-openapi.yml
   format: yaml
   label: Cadasto Datamap Query API
   slug: cadasto-datamap-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-datamap-query-api-openapi.yml
+  url: https://artifacts.apis.io/cadasto/openapi/cadasto-datamap-query-api-openapi.yml
 - filename: cadasto-directory-api-openapi.yml
   format: yaml
   label: Cadasto DIRECTORY API
   slug: cadasto-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-directory-api-openapi.yml
+  url: https://artifacts.apis.io/cadasto/openapi/cadasto-directory-api-openapi.yml
 - filename: cadasto-ehr-api-openapi.yml
   format: yaml
   label: Cadasto EHR API
   slug: cadasto-ehr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-ehr-api-openapi.yml
+  url: https://artifacts.apis.io/cadasto/openapi/cadasto-ehr-api-openapi.yml
 - filename: cadasto-ehr-status-api-openapi.yml
   format: yaml
   label: Cadasto EHR STATUS API
   slug: cadasto-ehr-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-ehr-status-api-openapi.yml
+  url: https://artifacts.apis.io/cadasto/openapi/cadasto-ehr-status-api-openapi.yml
 - filename: cadasto-episode-api-openapi.yml
   format: yaml
   label: Cadasto Episode API
   slug: cadasto-episode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-episode-api-openapi.yml
+  url: https://artifacts.apis.io/cadasto/openapi/cadasto-episode-api-openapi.yml
 - filename: cadasto-group-api-openapi.yml
   format: yaml
   label: Cadasto GROUP API
   slug: cadasto-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-group-api-openapi.yml
+  url: https://artifacts.apis.io/cadasto/openapi/cadasto-group-api-openapi.yml
 - filename: cadasto-health-api-openapi.yml
   format: yaml
   label: Cadasto Health API
   slug: cadasto-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-health-api-openapi.yml
+  url: https://artifacts.apis.io/cadasto/openapi/cadasto-health-api-openapi.yml
 - filename: cadasto-item-tag-api-openapi.yml
   format: yaml
   label: Cadasto ITEM TAG API
   slug: cadasto-item-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-item-tag-api-openapi.yml
+  url: https://artifacts.apis.io/cadasto/openapi/cadasto-item-tag-api-openapi.yml
 - filename: cadasto-options-api-openapi.yml
   format: yaml
   label: Cadasto Options API
   slug: cadasto-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-options-api-openapi.yml
+  url: https://artifacts.apis.io/cadasto/openapi/cadasto-options-api-openapi.yml
 - filename: cadasto-organisation-api-openapi.yml
   format: yaml
   label: Cadasto ORGANISATION API
   slug: cadasto-organisation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-organisation-api-openapi.yml
+  url: https://artifacts.apis.io/cadasto/openapi/cadasto-organisation-api-openapi.yml
 - filename: cadasto-person-api-openapi.yml
   format: yaml
   label: Cadasto PERSON API
   slug: cadasto-person-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-person-api-openapi.yml
+  url: https://artifacts.apis.io/cadasto/openapi/cadasto-person-api-openapi.yml
 - filename: cadasto-query-api-openapi.yml
   format: yaml
   label: Cadasto Query API
   slug: cadasto-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-query-api-openapi.yml
+  url: https://artifacts.apis.io/cadasto/openapi/cadasto-query-api-openapi.yml
 - filename: cadasto-role-api-openapi.yml
   format: yaml
   label: Cadasto ROLE API
   slug: cadasto-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-role-api-openapi.yml
+  url: https://artifacts.apis.io/cadasto/openapi/cadasto-role-api-openapi.yml
 - filename: cadasto-terminology-api-openapi.yml
   format: yaml
   label: Cadasto Terminology API
   slug: cadasto-terminology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-terminology-api-openapi.yml
+  url: https://artifacts.apis.io/cadasto/openapi/cadasto-terminology-api-openapi.yml
 - filename: cadasto-user-api-openapi.yml
   format: yaml
   label: Cadasto User API
   slug: cadasto-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-user-api-openapi.yml
+  url: https://artifacts.apis.io/cadasto/openapi/cadasto-user-api-openapi.yml
 - filename: cadasto-versioned-party-api-openapi.yml
   format: yaml
   label: Cadasto VERSIONED PARTY API
   slug: cadasto-versioned-party-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-versioned-party-api-openapi.yml
+  url: https://artifacts.apis.io/cadasto/openapi/cadasto-versioned-party-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -206,7 +206,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: searched\nsource: >-\n  https://d
   \  client_authentication: HTTP Basic (preferred) or client_id/client_secret in the form body (documented as less preferred)\n  required_parameters:\n    grant_type: client_credentials\n    audience: https://{mycompany}.api.prod.cadasto.io/openehr/v1\n  optional_parameters:\n    scope: space-separated, e.g. \"api.read api.write\"\n  token_type: Bearer\n  token_lifetime_seconds: 3600\n  refresh_token: false\n  refresh_strategy: >-\n    No refresh_token is issued. The docs instruct clients to read expires_in and request a new\n    token before expiry with a safety margin.\n  usage: Authorization:...Bearer <access_token> on every API request\n  errors:\n    format: RFC 6749 section 5.2 ({\"error\", \"error_description\"})\n    codes:\n      invalid_client: Wrong client_id or client_secret\n      invalid_grant: Incorrect grant_type\n      invalid_request: Invalid client credentials or refresh token\n      invalid_scope: Requested scope not allowed for this client\n  sources:\n  - https://docs.cadasto.io/docs/guides/authentication\n\
   \n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  applies_to: Cadasto Additional API (the only published document that declares a securityScheme)\n  sources:\n  - openapi/cadasto-extra-api-openapi.json\n\n- name: smart_on_openehr\n  type: oauth2\n  flow: authorizationCode\n  pkce: required for interactive flows\n  applies_to: Third-party app launch against a Cadasto tenant\n  detail: >-\n    Cadasto declares SMART-on-openEHR 1.1.0 \"Fully supported\" in its published conformance\n    statement, and publishes a pointer OpenAPI document at\n    https://docs.cadasto.io/smart-on-openehr rather than restating the specification. Redirect\n    URIs and CORS origins are registered at credential-issuance time (docs FAQ).\n  sources:\n  - https://docs.cadasto.io/smart-on-openehr\n  - https://www.cadasto.com/wp-content/uploads/2026/06/Cadasto-CDR-openEHR-conformance-statement-June-2026.pdf\n\nenvironments:\n  names: [development, acceptation, production]\n  isolation: >-\n\
   \    Credentials are issued and isolated per environment; the docs FAQ states each set must be\n    treated independently.\n\ncredential_handling_guidance:\n  published: true\n  points:\n    - Never check client_secret into source control; use a secret manager, environment variables or vault.\n    - Rotate immediately on compromise.\n    - Per-environment isolation is mandatory.\n  source: https://docs.cadasto.io/docs/faq\n\ngaps:\n  - The six openEHR ITS-REST OpenAPI documents declare no securitySchemes and an empty security\n    array, so a generated client reads them as unauthenticated. Only the Additional API document\n    declares bearerAuth.\n  - No mutualTLS, no API-key scheme, and no OpenID Connect discovery document is published on an\n    anonymously reachable host.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/authentication/cadasto-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cadasto/authentication/cadasto-authentication.yml
 summary_line: oauth2/http · 3 schemes
 tags:
 - Healthcare

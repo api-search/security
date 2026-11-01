@@ -5,37 +5,37 @@ api_specs:
   label: Thought Industries Content API
   slug: thought-industries-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/openapi/thought-industries-content-api-openapi.yml
+  url: https://artifacts.apis.io/thought-industries/openapi/thought-industries-content-api-openapi.yml
 - filename: thought-industries-courses-api-openapi.yml
   format: yaml
   label: Thought Industries Courses API
   slug: thought-industries-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/openapi/thought-industries-courses-api-openapi.yml
+  url: https://artifacts.apis.io/thought-industries/openapi/thought-industries-courses-api-openapi.yml
 - filename: thought-industries-enrollments-api-openapi.yml
   format: yaml
   label: Thought Industries Enrollments API
   slug: thought-industries-enrollments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/openapi/thought-industries-enrollments-api-openapi.yml
+  url: https://artifacts.apis.io/thought-industries/openapi/thought-industries-enrollments-api-openapi.yml
 - filename: thought-industries-groups-api-openapi.yml
   format: yaml
   label: Thought Industries Groups API
   slug: thought-industries-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/openapi/thought-industries-groups-api-openapi.yml
+  url: https://artifacts.apis.io/thought-industries/openapi/thought-industries-groups-api-openapi.yml
 - filename: thought-industries-reports-api-openapi.yml
   format: yaml
   label: Thought Industries Reports API
   slug: thought-industries-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/openapi/thought-industries-reports-api-openapi.yml
+  url: https://artifacts.apis.io/thought-industries/openapi/thought-industries-reports-api-openapi.yml
 - filename: thought-industries-users-api-openapi.yml
   format: yaml
   label: Thought Industries Users API
   slug: thought-industries-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/openapi/thought-industries-users-api-openapi.yml
+  url: https://artifacts.apis.io/thought-industries/openapi/thought-industries-users-api-openapi.yml
 certification_count: 5
 certifications:
 - SOC 2
@@ -56,7 +56,7 @@ source_filename: thought-industries-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.thoughtindustries.com/\nurl: https://trust.thoughtindustries.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- PCI DSS\n- HIPAA\n- GDPR\nevidence:\n- source: https://trust.thoughtindustries.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - pci dss\n  - hipaa\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/security/thought-industries-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/thought-industries/security/thought-industries-trust-center.yml
 summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
 tags:
 - Education

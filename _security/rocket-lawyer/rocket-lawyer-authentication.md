@@ -7,49 +7,49 @@ api_specs:
   label: Rocket Lawyer Binders API
   slug: rocket-lawyer-binders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-binders-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-lawyer/openapi/rocket-lawyer-binders-api-openapi.yml
 - filename: rocket-lawyer-documents-api-openapi.yml
   format: yaml
   label: Rocket Lawyer Documents API
   slug: rocket-lawyer-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-documents-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-lawyer/openapi/rocket-lawyer-documents-api-openapi.yml
 - filename: rocket-lawyer-event-consumption-api-openapi.yml
   format: yaml
   label: Rocket Lawyer Event Consumption API
   slug: rocket-lawyer-event-consumption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-event-consumption-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-lawyer/openapi/rocket-lawyer-event-consumption-api-openapi.yml
 - filename: rocket-lawyer-interviews-api-openapi.yml
   format: yaml
   label: Rocket Lawyer Interviews API
   slug: rocket-lawyer-interviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-interviews-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-lawyer/openapi/rocket-lawyer-interviews-api-openapi.yml
 - filename: rocket-lawyer-servicetoken-api-openapi.yml
   format: yaml
   label: Rocket Lawyer Servicetoken API
   slug: rocket-lawyer-servicetoken-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-servicetoken-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-lawyer/openapi/rocket-lawyer-servicetoken-api-openapi.yml
 - filename: rocket-lawyer-subscription-management-api-openapi.yml
   format: yaml
   label: Rocket Lawyer Subscription Management API
   slug: rocket-lawyer-subscription-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-subscription-management-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-lawyer/openapi/rocket-lawyer-subscription-management-api-openapi.yml
 - filename: rocket-lawyer-templates-api-openapi.yml
   format: yaml
   label: Rocket Lawyer Templates API
   slug: rocket-lawyer-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-templates-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-lawyer/openapi/rocket-lawyer-templates-api-openapi.yml
 - filename: rocket-lawyer-access-token-api-openapi.yml
   format: yaml
   label: Rocket Lawyer Access Token API
   slug: rocket-lawyer-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-access-token-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-lawyer/openapi/rocket-lawyer-access-token-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -78,7 +78,7 @@ source_filename: rocket-lawyer-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/rocket-lawyer-authentication-api-openapi.yml, openapi/rocket-lawyer-events-api-openapi.yml,\n  openapi/rocket-lawyer-rocketdocument-api-openapi.yml, openapi/rocket-lawyer-rocketsign-binders-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerTokenAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/rocket-lawyer-authentication-api-openapi.yml\n  - openapi/rocket-lawyer-events-api-openapi.yml\n  - openapi/rocket-lawyer-rocketdocument-api-openapi.yml\n  - openapi/rocket-lawyer-rocketsign-binders-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/authentication/rocket-lawyer-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rocket-lawyer/authentication/rocket-lawyer-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Legal

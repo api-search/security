@@ -9,19 +9,19 @@ api_specs:
   label: First Street Enterprise API
   slug: first-street-enterprise-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-street/refs/heads/main/openapi/first-street-enterprise-api-openapi.yml
+  url: https://artifacts.apis.io/first-street/openapi/first-street-enterprise-api-openapi.yml
 - filename: first-street-maps-api-openapi.yml
   format: yaml
   label: First Street Maps API
   slug: first-street-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-street/refs/heads/main/openapi/first-street-maps-api-openapi.yml
+  url: https://artifacts.apis.io/first-street/openapi/first-street-maps-api-openapi.yml
 - filename: first-street-graph-ql-api-openapi.yml
   format: yaml
   label: First Street Graph QL API
   slug: first-street-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-street/refs/heads/main/openapi/first-street-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/first-street/openapi/first-street-graph-ql-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-09-10'\nmethod: searched\nsource: https://docs.fi
   \ on the MCP server.\n\nmcp:\n  endpoint: https://mcp.firststreet.org/mcp\n  scheme: bearer\n  config_header: '\"Authorization\": \"Bearer <your-token>\"'\n  entitlement: >-\n    \"All API users with access to the Climate Risk API is able utilize First Street's MCP\n    Service\" — no separate MCP credential or consent step.\n  anonymous_surface: >-\n    tools/list answers WITHOUT a key (HTTP 200). Discovery is open; invocation is not.\n\nentitlement_model:\n  granularity: schema node\n  enforced_by: server-side policy directives in the GraphQL schema (@fsHasPolicy, @fsApplyExclusion)\n  evidence: >-\n    The published SDL declares directives `@fsHasPolicy(service: Service!)` and\n    `@fsApplyExclusion` on field definitions — the entitlement machinery is visible in the\n    contract even though the grant matrix is not.\n  failure_mode: >-\n    An unentitled field returns HTTP 200 with that branch null and an \"Error 15: Your\n    account has no access to this node\" entry in errors[].\
   \ See errors/.\n  remediation_contact: api@firststreet.org\n\nkey_management:\n  self_serve: false\n  rotation_policy_published: false\n  guidance:\n    - Do not embed API keys directly in code.\n    - Do not store API keys in files inside your application's source tree.\n    - Set up application and API key restrictions.\n    - Delete unneeded API keys to minimize exposure to attacks.\n    - Regenerate your API keys periodically.\n    - Review your code before publicly releasing it.\n  leak_response: 'Contact your account executive or security@firststreet.org immediately.'\n  note: >-\n    Rate limits and service-specific limits are \"applied during key retrevial\" — the key\n    carries the contract, so keys are not interchangeable between entitlements.\n\nhuman_authentication:\n  surface: First Street Enterprise Suite (https://app.firststreet.org/)\n  method: SAML 2.0 Single Sign-On\n  entity_id: https://auth.firststreet.org/sso/saml/metadata\n  acs_url: https://auth.firststreet.org/sso/saml/acs\n\
   \  metadata: conformance/first-street-saml-sp-metadata.xml\n  attributes: [email, firstName, lastName]\n  attribute_note: Mappings must not be namespaced or prefixed.\n  idp_guides: [Okta, 'Microsoft Entra ID (Azure AD)']\n  setup: account-executive mediated (not self-serve)\n  password_login_after_sso: disabled\n  scim: false\n  scim_note: >-\n    \"First Street currently does not support SCIM.\" User reconciliation is a GraphQL\n    query — rbacGroupUsersConnection(filter: { userGroupId: XX }).\n  docs: https://docs.firststreet.org/api/enterprise-platform/saml-sso/quickstart\n\nnot_supported:\n  - OAuth 2.0 (no authorization server, no /.well-known/oauth-authorization-server)\n  - OpenID Connect (no /.well-known/openid-configuration)\n  - mTLS\n  - Scoped or short-lived API tokens\n  - JWT access tokens\n\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/first-street/refs/heads/main/authentication/first-street-authentication.yml
+source_yaml_url: https://artifacts.apis.io/first-street/authentication/first-street-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Climate

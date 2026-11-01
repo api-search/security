@@ -32,7 +32,7 @@ source_filename: 011h-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts; api.011h.com added from STEP 0b contract discovery\n  (DNS resolves, Kong gateway)\nhosts:\n- host: 011h.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 13 23:59:59 2027 GMT\n  hsts: false\n- host: api.011h.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 02:51:53 2026 GMT\n  hsts: false\n  note: Resolves to an AWS-hosted Kong API gateway that answers every probed path with {\"message\":\"no Route matched\n    with those values\"} (HTTP 404). No public routes, docs or spec are exposed anonymously.\ndomains:\n- domain: 011h.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/011h/refs/heads/main/security/011h-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/011h/security/011h-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Construction

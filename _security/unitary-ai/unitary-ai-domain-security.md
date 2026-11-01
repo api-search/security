@@ -5,31 +5,31 @@ api_specs:
   label: Unitary AI API Authentication API
   slug: unitary-ai-api-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/openapi/unitary-ai-api-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/unitary-ai/openapi/unitary-ai-api-authentication-api-openapi.yml
 - filename: unitary-ai-detoxify-api-openapi.yml
   format: yaml
   label: Unitary AI Detoxify API
   slug: unitary-ai-detoxify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/openapi/unitary-ai-detoxify-api-openapi.yml
+  url: https://artifacts.apis.io/unitary-ai/openapi/unitary-ai-detoxify-api-openapi.yml
 - filename: unitary-ai-items-characteristics-api-openapi.yml
   format: yaml
   label: Unitary AI Items & Characteristics API
   slug: unitary-ai-items-characteristics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/openapi/unitary-ai-items-characteristics-api-openapi.yml
+  url: https://artifacts.apis.io/unitary-ai/openapi/unitary-ai-items-characteristics-api-openapi.yml
 - filename: unitary-ai-moderation-api-openapi.yml
   format: yaml
   label: Unitary AI Moderation API
   slug: unitary-ai-moderation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/openapi/unitary-ai-moderation-api-openapi.yml
+  url: https://artifacts.apis.io/unitary-ai/openapi/unitary-ai-moderation-api-openapi.yml
 - filename: unitary-ai-policy-classification-api-openapi.yml
   format: yaml
   label: Unitary AI Policy Classification API
   slug: unitary-ai-policy-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/openapi/unitary-ai-policy-classification-api-openapi.yml
+  url: https://artifacts.apis.io/unitary-ai/openapi/unitary-ai-policy-classification-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +71,7 @@ source_filename: unitary-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.unitary.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 07:14:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.unitary.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 22:01:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.unitary.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 22:31:38 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: unitary.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/security/unitary-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/unitary-ai/security/unitary-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

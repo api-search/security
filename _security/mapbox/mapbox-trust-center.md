@@ -5,19 +5,19 @@ api_specs:
   label: Mapbox Activity API
   slug: mapbox-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mapbox/refs/heads/main/openapi/mapbox-activity-api-openapi.yml
+  url: https://artifacts.apis.io/mapbox/openapi/mapbox-activity-api-openapi.yml
 - filename: mapbox-mapbox-tiling-service-api-api-openapi.yml
   format: yaml
   label: Mapbox Tiling Service API
   slug: mapbox-mapbox-tiling-service-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mapbox/refs/heads/main/openapi/mapbox-mapbox-tiling-service-api-api-openapi.yml
+  url: https://artifacts.apis.io/mapbox/openapi/mapbox-mapbox-tiling-service-api-api-openapi.yml
 - filename: mapbox-tilesets-api-openapi.yml
   format: yaml
   label: Mapbox Tilesets API
   slug: mapbox-tilesets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mapbox/refs/heads/main/openapi/mapbox-tilesets-api-openapi.yml
+  url: https://artifacts.apis.io/mapbox/openapi/mapbox-tilesets-api-openapi.yml
 certification_count: 6
 certifications:
 - SOC 2
@@ -39,7 +39,7 @@ source_filename: mapbox-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.mapbox.com/\nurl: https://trust.mapbox.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\n- FedRAMP\n- GDPR\n- CSA STAR\nevidence:\n- source: https://trust.mapbox.com/\n  keywords:\n  - soc 2\n  - soc2\n  - hipaa\n  - fedramp\n  - trust center\n  - gdpr\n  - csa star\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mapbox/refs/heads/main/security/mapbox-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/mapbox/security/mapbox-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA, FedRAMP, GDPR, CSA STAR
 tags:
 - Mapping

@@ -5,43 +5,43 @@ api_specs:
   label: 1inch Balance API
   slug: one-inch-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-inch/refs/heads/main/openapi/one-inch-balance-api-openapi.yml
+  url: https://artifacts.apis.io/one-inch/openapi/one-inch-balance-api-openapi.yml
 - filename: one-inch-orderbook-api-openapi.yml
   format: yaml
   label: 1inch Orderbook API
   slug: one-inch-orderbook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-inch/refs/heads/main/openapi/one-inch-orderbook-api-openapi.yml
+  url: https://artifacts.apis.io/one-inch/openapi/one-inch-orderbook-api-openapi.yml
 - filename: one-inch-portfolio-api-openapi.yml
   format: yaml
   label: 1inch Portfolio API
   slug: one-inch-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-inch/refs/heads/main/openapi/one-inch-portfolio-api-openapi.yml
+  url: https://artifacts.apis.io/one-inch/openapi/one-inch-portfolio-api-openapi.yml
 - filename: one-inch-spotprice-api-openapi.yml
   format: yaml
   label: 1inch SpotPrice API
   slug: one-inch-spotprice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-inch/refs/heads/main/openapi/one-inch-spotprice-api-openapi.yml
+  url: https://artifacts.apis.io/one-inch/openapi/one-inch-spotprice-api-openapi.yml
 - filename: one-inch-swap-api-openapi.yml
   format: yaml
   label: 1inch Swap API
   slug: one-inch-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-inch/refs/heads/main/openapi/one-inch-swap-api-openapi.yml
+  url: https://artifacts.apis.io/one-inch/openapi/one-inch-swap-api-openapi.yml
 - filename: one-inch-token-api-openapi.yml
   format: yaml
   label: 1inch Token API
   slug: one-inch-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-inch/refs/heads/main/openapi/one-inch-token-api-openapi.yml
+  url: https://artifacts.apis.io/one-inch/openapi/one-inch-token-api-openapi.yml
 - filename: one-inch-gas-price-api-openapi.yml
   format: yaml
   label: 1inch Gas Price API
   slug: one-inch-gas-price-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-inch/refs/heads/main/openapi/one-inch-gas-price-api-openapi.yml
+  url: https://artifacts.apis.io/one-inch/openapi/one-inch-gas-price-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,7 +81,7 @@ source_filename: one-inch-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: business.1inch.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 19:25:58 2026 GMT\n  hsts: false\n- host: api.1inch.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 00:36:27 2026 GMT\n  hsts: null\ndomains:\n- domain: 1inch.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: 1inch.dev\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/one-inch/refs/heads/main/security/one-inch-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/one-inch/security/one-inch-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Web3

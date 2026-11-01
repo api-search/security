@@ -7,25 +7,25 @@ api_specs:
   label: Wombo Images API
   slug: wombo-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/openapi/wombo-images-api-openapi.yml
+  url: https://artifacts.apis.io/wombo/openapi/wombo-images-api-openapi.yml
 - filename: wombo-models-api-openapi.yml
   format: yaml
   label: Wombo Models API
   slug: wombo-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/openapi/wombo-models-api-openapi.yml
+  url: https://artifacts.apis.io/wombo/openapi/wombo-models-api-openapi.yml
 - filename: wombo-predictions-api-openapi.yml
   format: yaml
   label: Wombo Predictions API
   slug: wombo-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/openapi/wombo-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/wombo/openapi/wombo-predictions-api-openapi.yml
 - filename: wombo-chat-completions-api-openapi.yml
   format: yaml
   label: Wombo Chat Completions API
   slug: wombo-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/openapi/wombo-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/wombo/openapi/wombo-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -53,7 +53,7 @@ source_filename: wombo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/wombo-wai-openapi.yml\ndocs: https://docs.w.ai/w.ai-api/api-features\nnotes: >-\n  Single auth model: a developer API key (prefix `wsk-`) generated at\n  https://app.w.ai/developers/keys and sent as an `Authorization: Bearer`\n  header on the OpenAI-compatible endpoints. The `wai` CLI uses separate Auth\n  API keys (env `W_AI_API_KEY`) managed via `wai key list` / `wai revoke`. No\n  OAuth 2.0 / OIDC scope surface is documented, so no scopes/ artifact.\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: wsk\n  description: 'Developer API key issued at https://app.w.ai/developers/keys , sent as `Authorization:\n    Bearer wsk-...`.'\n  sources:\n  - openapi/wombo-wai-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/authentication/wombo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/wombo/authentication/wombo-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

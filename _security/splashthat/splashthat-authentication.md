@@ -8,7 +8,7 @@ api_specs:
   label: Splash API
   slug: splash-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/splashthat/refs/heads/main/postman/splashthat-api.postman_collection.json
+  url: https://artifacts.apis.io/splashthat/postman/splashthat-api.postman_collection.json
 auth_types:
 - oauth2
 - apiKey
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://api-doc
   \          - refresh_token\n    token:\n      transport: Authorization header\n      token_type: bearer\n      response_fields: [access_token, expires_in, token_type, scope, refresh_token]\n      documented_lifetime: 8 hours\n      example_expires_in: 604800\n      lifetime_note: >\n        The Authentication folder states the access token \"remains valid for the\n        next 8 hours\", while the published success example returns\n        expires_in 604800 (7 days). Splash documents both; the conservative\n        assumption for an integration is the 8-hour figure with a refresh flow.\n      alternate_transport: >\n        The Forms endpoint documentation notes the token may be passed either as\n        an access_token parameter or as a Bearer Authorization header.\n    errors:\n      - error: invalid_grant\n        description: Invalid username and password combination\n      - error: invalid_grant\n        description: Invalid refresh token (HTTP 400 on refresh)\n  - name: SplashCRMKey\n\
   \    type: apiKey\n    in: header\n    parameter_name: AUTHORIZATION\n    value_format: 'SplashCRM <crm_api_key>'\n    applies_to: https://splashthat.com/api/v2/crm/events\n    note: >\n      Event CREATION runs through a separate CRM API with its own static key,\n      distinct from the OAuth client credentials used everywhere else. Splash\n      documents it as \"a potent endpoint\" and asks customers to consult their\n      team before using it.\nauthorization_model:\n  - scope: user\n    note: The only scope value that appears in Splash's published token requests.\n  - privilege: organization admin\n    note: >\n      The Anonymize Contact endpoint (PUT /contacts/:contact_id/anonymize)\n      requires elevated privileges granted only to organization admins;\n      inadequate privileges surface as HTTP 403.\n  - privilege: Team Users view permission\n    note: >\n      GET /v1/team-manager/users returns 403 when the authenticated user cannot\n      view Team Users.\nunauthenticated_behavior:\n\
   \  status: 401\n  body: '{\"message\":\"Unauthorized\"}'\n  note: >\n    Every path on api.splashthat.com, including /.well-known/* and /openapi.json,\n    answers 401 with this body when no token is presented — observed\n    2026-08-13.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/splashthat/refs/heads/main/authentication/splashthat-authentication.yml
+source_yaml_url: https://artifacts.apis.io/splashthat/authentication/splashthat-authentication.yml
 summary_line: oauth2/apiKey · 2 schemes
 tags:
 - Event

@@ -5,19 +5,19 @@ api_specs:
   label: Plivo Audio Stream API
   slug: plivo-audio-stream-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plivo/refs/heads/main/asyncapi/plivo-asyncapi.yml
+  url: https://artifacts.apis.io/plivo/asyncapi/plivo-asyncapi.yml
 - filename: plivo-account-api-openapi.yml
   format: yaml
   label: Plivo Account API
   slug: plivo-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plivo/refs/heads/main/openapi/plivo-account-api-openapi.yml
+  url: https://artifacts.apis.io/plivo/openapi/plivo-account-api-openapi.yml
 - filename: plivo-message-api-openapi.yml
   format: yaml
   label: Plivo Message API
   slug: plivo-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plivo/refs/heads/main/openapi/plivo-message-api-openapi.yml
+  url: https://artifacts.apis.io/plivo/openapi/plivo-message-api-openapi.yml
 certification_count: 6
 certifications:
 - SOC 2
@@ -39,7 +39,7 @@ source_filename: plivo-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.plivo.com/security/\nurl: https://www.plivo.com/security/\ncertifications:\n- SOC 2\n- ISO 27001\n- PCI DSS\n- HIPAA\n- GDPR\n- CSA STAR\nevidence:\n- source: https://www.plivo.com/security/\n  keywords:\n  - soc 2\n  - iso 27001\n  - pci dss\n  - hipaa\n  - gdpr\n  - csa star\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plivo/refs/heads/main/security/plivo-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/plivo/security/plivo-trust-center.yml
 summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR, CSA STAR
 tags:
 - Communications

@@ -5,13 +5,13 @@ api_specs:
   label: University of Twente Energy API
   slug: energy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-twente/refs/heads/main/openapi/university-of-twente-energy-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-twente/openapi/university-of-twente-energy-api-openapi.yml
 - filename: university-of-twente-dashboard-api-openapi.yml
   format: yaml
   label: University of Twente Dashboard API
   slug: university-of-twente-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-twente/refs/heads/main/openapi/university-of-twente-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-twente/openapi/university-of-twente-dashboard-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -45,7 +45,7 @@ source_filename: university-of-twente-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.utwente.nl\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  8 10:17:33 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: utwente.nl\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"harica.gr\"\n  - 0 issuemail \"harica.gr\"\n  - 0 iodef \"mailto:scs-ra@utwente.nl\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-twente/refs/heads/main/security/university-of-twente-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/university-of-twente/security/university-of-twente-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - University

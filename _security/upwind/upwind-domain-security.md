@@ -5,73 +5,73 @@ api_specs:
   label: Upwind Access Management API
   slug: upwind-access-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-access-management-api-openapi.yml
+  url: https://artifacts.apis.io/upwind/openapi/upwind-access-management-api-openapi.yml
 - filename: upwind-api-security-api-openapi.yml
   format: yaml
   label: Upwind API Security API
   slug: upwind-api-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-api-security-api-openapi.yml
+  url: https://artifacts.apis.io/upwind/openapi/upwind-api-security-api-openapi.yml
 - filename: upwind-cloud-accounts-api-openapi.yml
   format: yaml
   label: Upwind Cloud Accounts API
   slug: upwind-cloud-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-cloud-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/upwind/openapi/upwind-cloud-accounts-api-openapi.yml
 - filename: upwind-configurations-api-openapi.yml
   format: yaml
   label: Upwind Configurations API
   slug: upwind-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/upwind/openapi/upwind-configurations-api-openapi.yml
 - filename: upwind-events-api-openapi.yml
   format: yaml
   label: Upwind Events API
   slug: upwind-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-events-api-openapi.yml
+  url: https://artifacts.apis.io/upwind/openapi/upwind-events-api-openapi.yml
 - filename: upwind-integrations-api-openapi.yml
   format: yaml
   label: Upwind Integrations API
   slug: upwind-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/upwind/openapi/upwind-integrations-api-openapi.yml
 - filename: upwind-inventory-api-openapi.yml
   format: yaml
   label: Upwind Inventory API
   slug: upwind-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/upwind/openapi/upwind-inventory-api-openapi.yml
 - filename: upwind-packages-api-openapi.yml
   format: yaml
   label: Upwind Packages API
   slug: upwind-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-packages-api-openapi.yml
+  url: https://artifacts.apis.io/upwind/openapi/upwind-packages-api-openapi.yml
 - filename: upwind-threats-api-openapi.yml
   format: yaml
   label: Upwind Threats API
   slug: upwind-threats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-threats-api-openapi.yml
+  url: https://artifacts.apis.io/upwind/openapi/upwind-threats-api-openapi.yml
 - filename: upwind-vulnerabilities-api-openapi.yml
   format: yaml
   label: Upwind Vulnerabilities API
   slug: upwind-vulnerabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-vulnerabilities-api-openapi.yml
+  url: https://artifacts.apis.io/upwind/openapi/upwind-vulnerabilities-api-openapi.yml
 - filename: upwind-workflows-api-openapi.yml
   format: yaml
   label: Upwind Workflows API
   slug: upwind-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/upwind/openapi/upwind-workflows-api-openapi.yml
 - filename: upwind-shift-left-api-openapi.yml
   format: yaml
   label: Upwind Shift Left API
   slug: upwind-shift-left-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-shift-left-api-openapi.yml
+  url: https://artifacts.apis.io/upwind/openapi/upwind-shift-left-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -111,7 +111,7 @@ source_filename: upwind-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: upwind.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 21:02:27 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.upwind.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 23:59:59 2026 GMT\n  hsts: null\n- host: api.eu.upwind.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: upwind.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/security/upwind-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/upwind/security/upwind-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Security

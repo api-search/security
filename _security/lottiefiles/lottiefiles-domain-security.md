@@ -27,7 +27,7 @@ source_filename: lottiefiles-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: lottiefiles.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 15:57:52 2026 GMT\n  hsts: null\ndomains:\n- domain: lottiefiles.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lottiefiles/refs/heads/main/security/lottiefiles-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lottiefiles/security/lottiefiles-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

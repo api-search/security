@@ -5,109 +5,109 @@ api_specs:
   label: Fusebit Accounts API
   slug: fusebit-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-accounts-api-openapi.yml
 - filename: fusebit-boundaries-api-openapi.yml
   format: yaml
   label: Fusebit Boundaries API
   slug: fusebit-boundaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-boundaries-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-boundaries-api-openapi.yml
 - filename: fusebit-clients-api-openapi.yml
   format: yaml
   label: Fusebit Clients API
   slug: fusebit-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-clients-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-clients-api-openapi.yml
 - filename: fusebit-connector-api-openapi.yml
   format: yaml
   label: Fusebit Connector API
   slug: fusebit-connector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-connector-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-connector-api-openapi.yml
 - filename: fusebit-connector-tags-api-openapi.yml
   format: yaml
   label: Fusebit Connector/Tags API
   slug: fusebit-connector-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-connector-tags-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-connector-tags-api-openapi.yml
 - filename: fusebit-functions-api-openapi.yml
   format: yaml
   label: Fusebit Functions API
   slug: fusebit-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-functions-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-functions-api-openapi.yml
 - filename: fusebit-identity-api-openapi.yml
   format: yaml
   label: Fusebit Identity API
   slug: fusebit-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-identity-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-identity-api-openapi.yml
 - filename: fusebit-identity-tags-api-openapi.yml
   format: yaml
   label: Fusebit Identity/Tags API
   slug: fusebit-identity-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-identity-tags-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-identity-tags-api-openapi.yml
 - filename: fusebit-install-api-openapi.yml
   format: yaml
   label: Fusebit Install API
   slug: fusebit-install-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-install-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-install-api-openapi.yml
 - filename: fusebit-install-tags-api-openapi.yml
   format: yaml
   label: Fusebit Install/Tags API
   slug: fusebit-install-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-install-tags-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-install-tags-api-openapi.yml
 - filename: fusebit-integration-api-openapi.yml
   format: yaml
   label: Fusebit Integration API
   slug: fusebit-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-integration-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-integration-api-openapi.yml
 - filename: fusebit-integration-tags-api-openapi.yml
   format: yaml
   label: Fusebit Integration/Tags API
   slug: fusebit-integration-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-integration-tags-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-integration-tags-api-openapi.yml
 - filename: fusebit-issuers-api-openapi.yml
   format: yaml
   label: Fusebit Issuers API
   slug: fusebit-issuers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-issuers-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-issuers-api-openapi.yml
 - filename: fusebit-registry-api-openapi.yml
   format: yaml
   label: Fusebit Registry API
   slug: fusebit-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-registry-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-registry-api-openapi.yml
 - filename: fusebit-session-api-openapi.yml
   format: yaml
   label: Fusebit Session API
   slug: fusebit-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-session-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-session-api-openapi.yml
 - filename: fusebit-storage-api-openapi.yml
   format: yaml
   label: Fusebit Storage API
   slug: fusebit-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-storage-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-storage-api-openapi.yml
 - filename: fusebit-subscriptions-api-openapi.yml
   format: yaml
   label: Fusebit Subscriptions API
   slug: fusebit-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-subscriptions-api-openapi.yml
 - filename: fusebit-users-api-openapi.yml
   format: yaml
   label: Fusebit Users API
   slug: fusebit-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-users-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-users-api-openapi.yml
 description: ''
 domains:
 - a_record: false
@@ -184,7 +184,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-10'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of every host in apis.yml and every OpenAPI servers[] host, 2026-09-10\nprovider: Fusebit\nproviderId: fusebit\nsummary: >-\n  The fusebit.io zone is still published and still routes MAIL, but it serves no web. Every host\n  fails to resolve an A record, so there is no TLS endpoint to assess and no HSTS header to read.\n  DNSSEC is not enabled, no CAA record constrains certificate issuance, and no DMARC policy protects\n  a domain whose MX still points at Google Workspace — an unusual residual risk on a retired brand:\n  mail for @fusebit.io is still deliverable and unauthenticated senders are not rejected.\nhosts:\n  - host: fusebit.io\n    a_record: null\n    https: false\n    result: dns-nxdomain\n    tls: null\n    hsts: null\n  - host: www.fusebit.io\n    a_record: null\n    https: false\n    result: dns-nxdomain\n  - host: developer.fusebit.io\n    a_record: null\n    https: false\n    result: dns-nxdomain\n\
   \  - host: api.us-west-1.on.fusebit.io\n    a_record: null\n    https: false\n    result: dns-nxdomain\n    note: The host named by servers[] in both published OpenAPI documents (region variable resolved to its declared default).\n  - host: manage.fusebit.io\n    a_record: null\n    https: false\n    result: dns-nxdomain\n  - host: cdn.fusebit.io\n    a_record: null\n    https: false\n    result: dns-nxdomain\ndomains:\n  - domain: fusebit.io\n    registrar: 'NameCheap, Inc.'\n    created: '2019-04-10'\n    expires: '2027-04-10'\n    updated: '2026-08-12'\n    nameservers: [dns1.registrar-servers.com, dns2.registrar-servers.com]\n    zone_published: true\n    a_record: false\n    dnssec: false\n    dnssec_evidence: 'no DNSKEY and no DS record returned (dig DNSKEY/DS fusebit.io @1.1.1.1)'\n    caa: []\n    caa_note: No CAA record — nothing constrains which CA may issue for this domain.\n    spf: true\n    spf_record: 'v=spf1 include:_spf.google.com include:zcsend.net include:servers.mcsv.net\
   \ ~all'\n    spf_note: >-\n      Soft-fail (~all) rather than hard-fail (-all). Still names Zoho Campaigns (zcsend.net) and\n      Mailchimp (servers.mcsv.net) as authorized senders for a brand that no longer operates.\n    dmarc: false\n    dmarc_note: >-\n      No record at _dmarc.fusebit.io. With no DMARC policy and a soft-fail SPF, a receiver has no\n      instruction to reject spoofed mail from this domain.\n    mx: true\n    mx_records: [aspmx.l.google.com, alt1.aspmx.l.google.com, alt2.aspmx.l.google.com, aspmx2.googlemail.com, aspmx3.googlemail.com]\n    mx_note: Google Workspace mail routing is still live for a domain whose web presence is entirely gone.\n    txt_verifications:\n      - 'MS=BCC655C596ADBD2570A850B3BFC55EDE7BFB2C68 (Microsoft)'\n      - 'google-site-verification x4'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/security/fusebit-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fusebit/security/fusebit-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Developer Tools

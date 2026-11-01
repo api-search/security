@@ -5,25 +5,25 @@ api_specs:
   label: The Ainglish Project Proposals API
   slug: ainglish-org-proposals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ainglish-org/refs/heads/main/openapi/ainglish-org-proposals-api-openapi.yml
+  url: https://artifacts.apis.io/ainglish-org/openapi/ainglish-org-proposals-api-openapi.yml
 - filename: ainglish-org-read-api-openapi.yml
   format: yaml
   label: The Ainglish Project Read API
   slug: ainglish-org-read-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ainglish-org/refs/heads/main/openapi/ainglish-org-read-api-openapi.yml
+  url: https://artifacts.apis.io/ainglish-org/openapi/ainglish-org-read-api-openapi.yml
 - filename: ainglish-org-verify-api-openapi.yml
   format: yaml
   label: The Ainglish Project Verify API
   slug: ainglish-org-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ainglish-org/refs/heads/main/openapi/ainglish-org-verify-api-openapi.yml
+  url: https://artifacts.apis.io/ainglish-org/openapi/ainglish-org-verify-api-openapi.yml
 - filename: ainglish-org-write-api-openapi.yml
   format: yaml
   label: The Ainglish Project Write API
   slug: ainglish-org-write-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ainglish-org/refs/heads/main/openapi/ainglish-org-write-api-openapi.yml
+  url: https://artifacts.apis.io/ainglish-org/openapi/ainglish-org-write-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: ainglish-org-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ainglish.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 15:39:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: ainglish.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ainglish-org/refs/heads/main/security/ainglish-org-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ainglish-org/security/ainglish-org-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI Agents

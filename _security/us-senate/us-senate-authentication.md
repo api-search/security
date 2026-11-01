@@ -8,37 +8,37 @@ api_specs:
   label: US Senate Clients API
   slug: us-senate-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-senate/refs/heads/main/openapi/us-senate-clients-api-openapi.yml
+  url: https://artifacts.apis.io/us-senate/openapi/us-senate-clients-api-openapi.yml
 - filename: us-senate-constants-api-openapi.yml
   format: yaml
   label: US Senate Constants API
   slug: us-senate-constants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-senate/refs/heads/main/openapi/us-senate-constants-api-openapi.yml
+  url: https://artifacts.apis.io/us-senate/openapi/us-senate-constants-api-openapi.yml
 - filename: us-senate-contributions-api-openapi.yml
   format: yaml
   label: US Senate Contributions API
   slug: us-senate-contributions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-senate/refs/heads/main/openapi/us-senate-contributions-api-openapi.yml
+  url: https://artifacts.apis.io/us-senate/openapi/us-senate-contributions-api-openapi.yml
 - filename: us-senate-filings-api-openapi.yml
   format: yaml
   label: US Senate Filings API
   slug: us-senate-filings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-senate/refs/heads/main/openapi/us-senate-filings-api-openapi.yml
+  url: https://artifacts.apis.io/us-senate/openapi/us-senate-filings-api-openapi.yml
 - filename: us-senate-lobbyists-api-openapi.yml
   format: yaml
   label: US Senate Lobbyists API
   slug: us-senate-lobbyists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-senate/refs/heads/main/openapi/us-senate-lobbyists-api-openapi.yml
+  url: https://artifacts.apis.io/us-senate/openapi/us-senate-lobbyists-api-openapi.yml
 - filename: us-senate-registrants-api-openapi.yml
   format: yaml
   label: US Senate Registrants API
   slug: us-senate-registrants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-senate/refs/heads/main/openapi/us-senate-registrants-api-openapi.yml
+  url: https://artifacts.apis.io/us-senate/openapi/us-senate-registrants-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: us-senate-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/us-senate-lda-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Token-based auth. Format: ''Token YOUR_API_KEY'''\n  sources:\n  - openapi/us-senate-lda-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-senate/refs/heads/main/authentication/us-senate-authentication.yml
+source_yaml_url: https://artifacts.apis.io/us-senate/authentication/us-senate-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Federal Government

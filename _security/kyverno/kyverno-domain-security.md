@@ -5,43 +5,43 @@ api_specs:
   label: Kyverno ClusterPolicyReports API
   slug: kyverno-clusterpolicyreports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/openapi/kyverno-clusterpolicyreports-api-openapi.yml
+  url: https://artifacts.apis.io/kyverno/openapi/kyverno-clusterpolicyreports-api-openapi.yml
 - filename: kyverno-health-api-openapi.yml
   format: yaml
   label: Kyverno Health API
   slug: kyverno-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/openapi/kyverno-health-api-openapi.yml
+  url: https://artifacts.apis.io/kyverno/openapi/kyverno-health-api-openapi.yml
 - filename: kyverno-namespaces-api-openapi.yml
   format: yaml
   label: Kyverno Namespaces API
   slug: kyverno-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/openapi/kyverno-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/kyverno/openapi/kyverno-namespaces-api-openapi.yml
 - filename: kyverno-policies-api-openapi.yml
   format: yaml
   label: Kyverno Policies API
   slug: kyverno-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/openapi/kyverno-policies-api-openapi.yml
+  url: https://artifacts.apis.io/kyverno/openapi/kyverno-policies-api-openapi.yml
 - filename: kyverno-results-api-openapi.yml
   format: yaml
   label: Kyverno Results API
   slug: kyverno-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/openapi/kyverno-results-api-openapi.yml
+  url: https://artifacts.apis.io/kyverno/openapi/kyverno-results-api-openapi.yml
 - filename: kyverno-sources-api-openapi.yml
   format: yaml
   label: Kyverno Sources API
   slug: kyverno-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/openapi/kyverno-sources-api-openapi.yml
+  url: https://artifacts.apis.io/kyverno/openapi/kyverno-sources-api-openapi.yml
 - filename: kyverno-policy-reports-api-openapi.yml
   format: yaml
   label: Kyverno Policy Reports API
   slug: kyverno-policy-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/openapi/kyverno-policy-reports-api-openapi.yml
+  url: https://artifacts.apis.io/kyverno/openapi/kyverno-policy-reports-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: kyverno-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: kyverno.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 08:45:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: kyverno.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/security/kyverno-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kyverno/security/kyverno-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Cloud-Native

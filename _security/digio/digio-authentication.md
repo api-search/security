@@ -7,25 +7,25 @@ api_specs:
   label: Digio Documents API
   slug: digio-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/openapi/digio-documents-api-openapi.yml
+  url: https://artifacts.apis.io/digio/openapi/digio-documents-api-openapi.yml
 - filename: digio-emandate-api-openapi.yml
   format: yaml
   label: Digio eMandate API
   slug: digio-emandate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/openapi/digio-emandate-api-openapi.yml
+  url: https://artifacts.apis.io/digio/openapi/digio-emandate-api-openapi.yml
 - filename: digio-kyc-api-openapi.yml
   format: yaml
   label: Digio KYC API
   slug: digio-kyc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/openapi/digio-kyc-api-openapi.yml
+  url: https://artifacts.apis.io/digio/openapi/digio-kyc-api-openapi.yml
 - filename: digio-e-sign-api-openapi.yml
   format: yaml
   label: Digio e Sign API
   slug: digio-e-sign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/openapi/digio-e-sign-api-openapi.yml
+  url: https://artifacts.apis.io/digio/openapi/digio-e-sign-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -54,7 +54,7 @@ source_filename: digio-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: derived\nsource: openapi/digio-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  bearerFormat: null\n  note: >-\n    HTTP Basic authentication. Send Authorization: Basic\n    Base64(client_id:client_secret) with Content-Type application/json. The\n    client_id and client_secret are issued per environment (sandbox\n    ext.digio.in and production api.digio.in) from the Digio dashboard.\n  sources:\n  - openapi/digio-openapi.yml\n  - https://documentation.digio.in/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/authentication/digio-authentication.yml
+source_yaml_url: https://artifacts.apis.io/digio/authentication/digio-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - E-Signature

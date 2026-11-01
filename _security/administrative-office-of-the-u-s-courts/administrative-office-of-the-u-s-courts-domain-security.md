@@ -5,19 +5,19 @@ api_specs:
   label: Administrative Office of the U.S. Courts Cases API
   slug: administrative-office-of-the-u-s-courts-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/administrative-office-of-the-u-s-courts/refs/heads/main/openapi/administrative-office-of-the-u-s-courts-cases-api-openapi.yml
+  url: https://artifacts.apis.io/administrative-office-of-the-u-s-courts/openapi/administrative-office-of-the-u-s-courts-cases-api-openapi.yml
 - filename: administrative-office-of-the-u-s-courts-parties-api-openapi.yml
   format: yaml
   label: Administrative Office of the U.S. Courts Parties API
   slug: administrative-office-of-the-u-s-courts-parties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/administrative-office-of-the-u-s-courts/refs/heads/main/openapi/administrative-office-of-the-u-s-courts-parties-api-openapi.yml
+  url: https://artifacts.apis.io/administrative-office-of-the-u-s-courts/openapi/administrative-office-of-the-u-s-courts-parties-api-openapi.yml
 - filename: administrative-office-of-the-u-s-courts-services-api-openapi.yml
   format: yaml
   label: Administrative Office of the U.S. Courts Services API
   slug: administrative-office-of-the-u-s-courts-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/administrative-office-of-the-u-s-courts/refs/heads/main/openapi/administrative-office-of-the-u-s-courts-services-api-openapi.yml
+  url: https://artifacts.apis.io/administrative-office-of-the-u-s-courts/openapi/administrative-office-of-the-u-s-courts-services-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: administrative-office-of-the-u-s-courts-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.uscourts.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: pacer.uscourts.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  8 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 16070400\n- host: qa-pcl.uscourts.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 10886400\ndomains:\n- domain: uscourts.gov\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/administrative-office-of-the-u-s-courts/refs/heads/main/security/administrative-office-of-the-u-s-courts-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/administrative-office-of-the-u-s-courts/security/administrative-office-of-the-u-s-courts-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Courts

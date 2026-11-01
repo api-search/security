@@ -7,19 +7,19 @@ api_specs:
   label: Wealth Reader Advanced API
   slug: wealth-reader-advanced-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealth-reader/refs/heads/main/openapi/wealth-reader-advanced-api-openapi.yml
+  url: https://artifacts.apis.io/wealth-reader/openapi/wealth-reader-advanced-api-openapi.yml
 - filename: wealth-reader-cards-real-time-api-openapi.yml
   format: yaml
   label: Wealth Reader Cards (real time) API
   slug: wealth-reader-cards-real-time-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealth-reader/refs/heads/main/openapi/wealth-reader-cards-real-time-api-openapi.yml
+  url: https://artifacts.apis.io/wealth-reader/openapi/wealth-reader-cards-real-time-api-openapi.yml
 - filename: wealth-reader-core-api-openapi.yml
   format: yaml
   label: Wealth Reader Core API
   slug: wealth-reader-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealth-reader/refs/heads/main/openapi/wealth-reader-core-api-openapi.yml
+  url: https://artifacts.apis.io/wealth-reader/openapi/wealth-reader-core-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-09-03'\nmethod: searched\nsource: >-\n  https://w
   \ No scopes are defined. Parameter names differ\n    from RFC 7636: the challenge is sent as `challenge_code`, not `code_challenge`. The docs\n    require the verifier to be a 41-character alphanumeric string hex-encoded to 82 characters, and\n    `wr_conf` (the selector configuration JSON) is hex-encoded into the query string. Used when the\n    integrator cannot embed the iframe — native apps and redirect flows.\n- id: webhook_signature\n  type: hmac\n  header: X-WR-Signature\n  algorithm: 'sha256=<hex of hmac_sha256(raw_body, webhook_secret)>'\n  applies_to: real-time cards webhook deliveries\n  secret_issuance: >-\n    64 hex characters, returned exactly once by POST /cards/webhook/ on first setup or when\n    rotate_secret is true; otherwise it comes back null and cannot be retrieved again.\n  verification: >-\n    The provider explicitly instructs consumers to compare in constant time (hash_equals or\n    equivalent) before trusting the body.\n- id: allwr_api_key\n  type: apiKey\n\
   \  product: ALL WR (allwr.io) — sibling platform, not the bank-aggregation API\n  key_prefix: wrk_\n  scope: 'tasks:import'\n  env: ALLWR_TOOLKIT_ALLWR_API_KEY\n  source: https://raw.githubusercontent.com/Wealth-Reader/allwr-toolkit/main/docs/authentication.md\n  note: >-\n    The only scoped credential anywhere in the company's published surface. Created under\n    Settings -> API keys in an ALL WR workspace. Recorded because it is the only place the\n    provider documents a named permission scope.\ncallback_auth:\n  mechanism: none\n  detail: >-\n    The iframe callback POST to the integrator's own HTTPS endpoint carries no signature and no\n    shared secret — only the operation_id the integrator generated. Authenticity rests on the\n    integrator having registered that domain and callback URL in the client area beforehand, and\n    on the operation_id being unguessable. The integrator must answer HTTP 200 with\n    {\"status\":\"ok\"} or the widget will not report success to the\
   \ frontend. Contrast with the cards\n    webhook, which IS HMAC-signed.\ngaps:\n- The OpenAPI declares no securitySchemes, so generated clients get no auth wiring.\n- No OAuth discovery document; no scopes; non-standard PKCE parameter names.\n- The iframe callback is unsigned.\n- No /.well-known/openid-configuration or /.well-known/oauth-authorization-server (both 404).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wealth-reader/refs/heads/main/authentication/wealth-reader-authentication.yml
+source_yaml_url: https://artifacts.apis.io/wealth-reader/authentication/wealth-reader-authentication.yml
 summary_line: 5 schemes
 tags:
 - Bank Aggregation

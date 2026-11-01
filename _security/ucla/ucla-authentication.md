@@ -7,55 +7,55 @@ api_specs:
   label: University of California, Los Angeles Class Sections API
   slug: ucla-class-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-class-sections-api-openapi.yml
+  url: https://artifacts.apis.io/ucla/openapi/ucla-class-sections-api-openapi.yml
 - filename: ucla-classes-api-openapi.yml
   format: yaml
   label: University of California, Los Angeles Classes API
   slug: ucla-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-classes-api-openapi.yml
+  url: https://artifacts.apis.io/ucla/openapi/ucla-classes-api-openapi.yml
 - filename: ucla-courses-api-openapi.yml
   format: yaml
   label: University of California, Los Angeles Courses API
   slug: ucla-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-courses-api-openapi.yml
+  url: https://artifacts.apis.io/ucla/openapi/ucla-courses-api-openapi.yml
 - filename: ucla-dictionary-api-openapi.yml
   format: yaml
   label: University of California, Los Angeles Dictionary API
   slug: ucla-dictionary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-dictionary-api-openapi.yml
+  url: https://artifacts.apis.io/ucla/openapi/ucla-dictionary-api-openapi.yml
 - filename: ucla-ge-foundations-api-openapi.yml
   format: yaml
   label: University of California, Los Angeles GE Foundations API
   slug: ucla-ge-foundations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-ge-foundations-api-openapi.yml
+  url: https://artifacts.apis.io/ucla/openapi/ucla-ge-foundations-api-openapi.yml
 - filename: ucla-infrastructure-api-openapi.yml
   format: yaml
   label: University of California, Los Angeles Infrastructure API
   slug: ucla-infrastructure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-infrastructure-api-openapi.yml
+  url: https://artifacts.apis.io/ucla/openapi/ucla-infrastructure-api-openapi.yml
 - filename: ucla-myucla-api-openapi.yml
   format: yaml
   label: University of California, Los Angeles My UCLA API
   slug: ucla-myucla-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-myucla-api-openapi.yml
+  url: https://artifacts.apis.io/ucla/openapi/ucla-myucla-api-openapi.yml
 - filename: ucla-production-calendar-jobs-api-openapi.yml
   format: yaml
   label: University of California, Los Angeles Production Calendar Jobs API
   slug: ucla-production-calendar-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-production-calendar-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/ucla/openapi/ucla-production-calendar-jobs-api-openapi.yml
 - filename: ucla-weather-api-openapi.yml
   format: yaml
   label: University of California, Los Angeles Weather API
   slug: ucla-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-weather-api-openapi.yml
+  url: https://artifacts.apis.io/ucla/openapi/ucla-weather-api-openapi.yml
 auth_types: []
 description: 'Authentication posture across every UCLA surface reachable from the open internet. UCLA is unusual for this cohort: it runs a real, centrally governed API program with one gateway, one documented credential model and one authorization server, all under ucla.edu. What it does not run is a self-service path — every credential is issued by request through the developer portal, and the portal itself signs in through the campus Shibboleth IdP.'
 kind: authentication
@@ -144,7 +144,7 @@ source_yaml: "generated: '2026-08-19'\nmethod: probed\nsource: >-\n  securityDef
   \  - binding: urn:oasis:names:tc:SAML:2.0:bindings:SOAP\n    location: https://shb.ais.ucla.edu:8443/shibboleth-idp/profile/SAML2/SOAP/AttributeQuery\n  - binding: urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding\n    location: https://shb.ais.ucla.edu:8443/shibboleth-idp/profile/SAML1/SOAP/AttributeQuery\n  entity_categories:\n  - http://id.incommon.org/category/research-and-scholarship\n  - http://refeds.org/category/research-and-scholarship\n  - http://id.incommon.org/category/registered-by-incommon\n  assurance_certification:\n  - https://refeds.org/sirtfi\n  security_contact: security@it.ucla.edu\n  notes: >-\n    This is the credential every UCLA human authentication path ultimately terminates at,\n    including sign-in to the developer portal itself (/saml_login). It is machine-readable,\n    signed, and federated into eduGAIN through InCommon — the single most under-catalogued\n    institution-operated API surface class in higher education.\n- name: BruinLearn (Canvas) OAuth 2.0\
   \ and LTI 1.3\n  type: oauth2\n  x-operator: tenant\n  observed_enforcement: >-\n    HTTP 401 {\"status\":\"unauthenticated\",\"errors\":[{\"message\":\"user authorization required\"}]}\n    on https://bruinlearn.ucla.edu/api/v1/accounts.\n  public_metadata: https://bruinlearn.ucla.edu/api/lti/security/jwks\n  notes: >-\n    UCLA's students and courses, Instructure's authorization server and contract. Recorded as\n    a relationship; no Canvas contract is saved under this institution.\nunauthenticated_surfaces:\n- url: https://mdq.incommon.org/entities/urn%3Amace%3Aincommon%3Aucla.edu\n  x-operator: institution\n  note: Signed SAML metadata, anonymously readable.\n- url: https://developer.api.ucla.edu/sites/default/files/apidoc_specs/\n  x-operator: institution\n  note: >-\n    Seven OpenAPI documents, anonymously readable. The portal gates the interactive console\n    behind campus sign-in but does not gate the underlying specification files.\n- url: https://bruinlearn.ucla.edu/api/lti/security/jwks\n\
   \  x-operator: tenant\n  note: LTI 1.3 platform JWKS, anonymously readable.\nself_service: false\nself_service_note: >-\n  No UCLA API can be reached by an unaffiliated developer. Every credential path requires a\n  UCLA logon, and the portal states that \"Most APIs, except those available for public\n  consumption, are only visible after log on.\"\nsupport_contact: api-support@it.ucla.edu\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/authentication/ucla-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ucla/authentication/ucla-authentication.yml
 summary_line: 4 schemes
 tags:
 - University

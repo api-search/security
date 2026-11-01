@@ -8,7 +8,7 @@ api_specs:
   label: Ryft Ingest API
   slug: ryft-ingest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ryft/refs/heads/main/openapi/ryft-ingest-api-openapi.yml
+  url: https://artifacts.apis.io/ryft/openapi/ryft-ingest-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -61,7 +61,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource:\n  - https://docs.ryft.io/integrations/custom-engine\n  - https://docs.ryft.io/integrations/ryft-mcp\n  - https://docs.ryft.io/administration/security-and-privacy\n  - https://docs.ryft.io/administration/okta-sso\ndocs: https://docs.ryft.io/administration/security-and-privacy\nsummary:\n  types: [apiKey, oauth2, openIdConnect]\n  api_key_in: [header]\n  oauth2_flows: [authorizationCode]\n  identity_provider: Auth0\n  sso: Okta OIDC (organization SSO)\nschemes:\n  - name: RyftIngestToken\n    type: apiKey\n    in: header\n    parameter: X-Ryft-Token\n    used_by: Ryft Ingest API (ingest.ryft.io)\n    description: Per-environment ingest token supplied by Ryft.\n    sources: [openapi/ryft-ingest-openapi.yml]\n  - name: RyftMcpOAuth\n    type: oauth2\n    flow: authorizationCode\n    authorization_endpoint: https://app.ryft.io/authorize\n    token_endpoint: https://app.ryft.io/token\n    registration_endpoint: https://app.ryft.io/register\n\
   \    code_challenge_methods: [S256]\n    grant_types: [authorization_code, refresh_token]\n    used_by: Ryft MCP server (app.ryft.io/mcp) and the Ryft web app\n    provider: Auth0\n    sources: [well-known/ryft-oauth-authorization-server.json]\n  - name: OktaSSO\n    type: openIdConnect\n    description: >-\n      Organization single sign-on via Okta OIDC. Admins create an OIDC app,\n      configure redirect URIs, and share credentials with Ryft.\n    used_by: Ryft web app (organization login)\n    docs: https://docs.ryft.io/administration/okta-sso\nnotes: >-\n  Cloud integrations (AWS/GCP/Azure/Snowflake/Databricks) use least-privilege,\n  read-only service accounts / IAM roles rather than end-user API auth.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ryft/refs/heads/main/authentication/ryft-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ryft/authentication/ryft-authentication.yml
 summary_line: apiKey/oauth2/openIdConnect · 3 schemes
 tags:
 - Company

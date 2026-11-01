@@ -5,43 +5,43 @@ api_specs:
   label: Curse Categories API
   slug: curse-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curse/refs/heads/main/openapi/curse-categories-api-openapi.yml
+  url: https://artifacts.apis.io/curse/openapi/curse-categories-api-openapi.yml
 - filename: curse-files-api-openapi.yml
   format: yaml
   label: Curse Files API
   slug: curse-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curse/refs/heads/main/openapi/curse-files-api-openapi.yml
-- filename: curse-fingerprints-api-openapi.yml
-  format: yaml
-  label: Curse Fingerprints API
-  slug: curse-fingerprints-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curse/refs/heads/main/openapi/curse-fingerprints-api-openapi.yml
+  url: https://artifacts.apis.io/curse/openapi/curse-files-api-openapi.yml
 - filename: curse-games-api-openapi.yml
   format: yaml
   label: Curse Games API
   slug: curse-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curse/refs/heads/main/openapi/curse-games-api-openapi.yml
+  url: https://artifacts.apis.io/curse/openapi/curse-games-api-openapi.yml
 - filename: curse-minecraft-api-openapi.yml
   format: yaml
   label: Curse Minecraft API
   slug: curse-minecraft-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curse/refs/heads/main/openapi/curse-minecraft-api-openapi.yml
+  url: https://artifacts.apis.io/curse/openapi/curse-minecraft-api-openapi.yml
 - filename: curse-mods-api-openapi.yml
   format: yaml
   label: Curse Mods API
   slug: curse-mods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curse/refs/heads/main/openapi/curse-mods-api-openapi.yml
+  url: https://artifacts.apis.io/curse/openapi/curse-mods-api-openapi.yml
 - filename: curse-subscriptions-api-openapi.yml
   format: yaml
   label: Curse Subscriptions API
   slug: curse-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curse/refs/heads/main/openapi/curse-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/curse/openapi/curse-subscriptions-api-openapi.yml
+- filename: curse-usermods-api-openapi.yml
+  format: yaml
+  label: Curse User Mods API
+  slug: curse-usermods-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/curse/openapi/curse-usermods-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -88,7 +88,7 @@ source_filename: curse-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fandom.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 12:56:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.curseforge.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: fandom.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 iodef \"mailto:domains@fandom.com\"\n  - 0 iodef \"mailto:ops-l@fandom.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: curseforge.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/curse/refs/heads/main/security/curse-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/curse/security/curse-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

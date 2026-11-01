@@ -5,7 +5,7 @@ api_specs:
   label: APIOps Cycles Canvas Products API
   slug: apiops-cycles-canvas-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiops-cycles-canvas/refs/heads/main/openapi/apiops-cycles-canvas-products-api-openapi.yml
+  url: https://artifacts.apis.io/apiops-cycles-canvas/openapi/apiops-cycles-canvas-products-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -34,7 +34,7 @@ source_filename: apiops-cycles-canvas-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.apiopscycles.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 13:56:08 2026 GMT\n  hsts: false\ndomains:\n- domain: apiopscycles.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apiops-cycles-canvas/refs/heads/main/security/apiops-cycles-canvas-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apiops-cycles-canvas/security/apiops-cycles-canvas-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - API Design

@@ -5,49 +5,49 @@ api_specs:
   label: Google Tag Manager Accounts API
   slug: google-tag-manager-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/openapi/google-tag-manager-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-accounts-api-openapi.yml
 - filename: google-tag-manager-containers-api-openapi.yml
   format: yaml
   label: Google Tag Manager Containers API
   slug: google-tag-manager-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/openapi/google-tag-manager-containers-api-openapi.yml
+  url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-containers-api-openapi.yml
 - filename: google-tag-manager-triggers-api-openapi.yml
   format: yaml
   label: Google Tag Manager Triggers API
   slug: google-tag-manager-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/openapi/google-tag-manager-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-triggers-api-openapi.yml
 - filename: google-tag-manager-user-permissions-api-openapi.yml
   format: yaml
   label: Google Tag Manager User Permissions API
   slug: google-tag-manager-user-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/openapi/google-tag-manager-user-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-user-permissions-api-openapi.yml
 - filename: google-tag-manager-variables-api-openapi.yml
   format: yaml
   label: Google Tag Manager Variables API
   slug: google-tag-manager-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/openapi/google-tag-manager-variables-api-openapi.yml
+  url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-variables-api-openapi.yml
 - filename: google-tag-manager-versions-api-openapi.yml
   format: yaml
   label: Google Tag Manager Versions API
   slug: google-tag-manager-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/openapi/google-tag-manager-versions-api-openapi.yml
+  url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-versions-api-openapi.yml
 - filename: google-tag-manager-workspaces-api-openapi.yml
   format: yaml
   label: Google Tag Manager Workspaces API
   slug: google-tag-manager-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/openapi/google-tag-manager-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-workspaces-api-openapi.yml
 - filename: google-tag-manager-tag-manager-api-openapi.yml
   format: yaml
   label: Google Tag Manager Tag Manager API
   slug: google-tag-manager-tag-manager-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/openapi/google-tag-manager-tag-manager-api-openapi.yml
+  url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-tag-manager-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -90,7 +90,7 @@ source_filename: google-tag-manager-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 18:05:55 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: tagmanager.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 18:07:34 2026 GMT\n  hsts: null\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/security/google-tag-manager-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/google-tag-manager/security/google-tag-manager-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics

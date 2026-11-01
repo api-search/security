@@ -5,43 +5,43 @@ api_specs:
   label: Gateway Bank Banking Account Balances API
   slug: gateway-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/gateway-bank/openapi/gateway-bank-banking-account-balances-api-openapi.yml
 - filename: gateway-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Gateway Bank Banking Account Direct Debits API
   slug: gateway-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/gateway-bank/openapi/gateway-bank-banking-account-direct-debits-api-openapi.yml
 - filename: gateway-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Gateway Bank Banking Account Scheduled Payments API
   slug: gateway-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/gateway-bank/openapi/gateway-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: gateway-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Gateway Bank Banking Account Transactions API
   slug: gateway-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/gateway-bank/openapi/gateway-bank-banking-account-transactions-api-openapi.yml
 - filename: gateway-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Gateway Bank Banking Accounts API
   slug: gateway-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/gateway-bank/openapi/gateway-bank-banking-accounts-api-openapi.yml
 - filename: gateway-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Gateway Bank Banking Payees API
   slug: gateway-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/gateway-bank/openapi/gateway-bank-banking-payees-api-openapi.yml
 - filename: gateway-bank-banking-products-api-openapi.yml
   format: yaml
   label: Gateway Bank Banking Products API
   slug: gateway-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/gateway-bank/openapi/gateway-bank-banking-products-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -81,7 +81,7 @@ source_filename: gateway-bank-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.gatewaybank.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 18 23:59:59 2027 GMT\n  hsts: null\n- host: public.cdr-api.gatewaybank.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 19:20:32 2026 GMT\n  hsts: null\ndomains:\n- domain: gatewaybank.com.au\n  dnssec: false\n  caa:\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/security/gateway-bank-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gateway-bank/security/gateway-bank-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Finance

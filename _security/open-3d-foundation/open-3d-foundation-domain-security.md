@@ -28,7 +28,7 @@ source_filename: open-3d-foundation-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.o3de.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 19:54:50 2026 GMT\n  hsts: true\n  hsts_max_age: 300\ndomains:\n- domain: o3de.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-3d-foundation/refs/heads/main/security/open-3d-foundation-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/open-3d-foundation/security/open-3d-foundation-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - 3D Engine

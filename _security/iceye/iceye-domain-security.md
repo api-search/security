@@ -5,19 +5,19 @@ api_specs:
   label: ICEYE Catalog API
   slug: iceye-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iceye/refs/heads/main/openapi/iceye-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/iceye/openapi/iceye-catalog-api-openapi.yml
 - filename: iceye-company-api-openapi.yml
   format: yaml
   label: ICEYE Company API
   slug: iceye-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iceye/refs/heads/main/openapi/iceye-company-api-openapi.yml
+  url: https://artifacts.apis.io/iceye/openapi/iceye-company-api-openapi.yml
 - filename: iceye-tasking-api-openapi.yml
   format: yaml
   label: ICEYE Tasking API
   slug: iceye-tasking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iceye/refs/heads/main/openapi/iceye-tasking-api-openapi.yml
+  url: https://artifacts.apis.io/iceye/openapi/iceye-tasking-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -55,7 +55,7 @@ source_filename: iceye-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.iceye.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 03:21:18 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.iceye.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  5 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.iceye.com\n  https: false\ndomains:\n- domain: iceye.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iceye/refs/heads/main/security/iceye-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/iceye/security/iceye-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - SAR

@@ -27,7 +27,7 @@ source_filename: clinflash-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.clinflash.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 28 01:10:33 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: clinflash.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clinflash/refs/heads/main/security/clinflash-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/clinflash/security/clinflash-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC
 tags:
 - Company

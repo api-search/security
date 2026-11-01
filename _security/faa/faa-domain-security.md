@@ -5,115 +5,151 @@ api_specs:
   label: Federal Aviation Administration Air Carrier API
   slug: faa-aircarrierapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/openapi/faa-aircarrierapi-api-openapi.yml
+  url: https://artifacts.apis.io/faa/openapi/faa-aircarrierapi-api-openapi.yml
 - filename: faa-axhsubmitdiscrepancies-api-openapi.yml
   format: yaml
   label: Federal Aviation Administration Axhsubmitdiscrepancies API
   slug: faa-axhsubmitdiscrepancies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/openapi/faa-axhsubmitdiscrepancies-api-openapi.yml
+  url: https://artifacts.apis.io/faa/openapi/faa-axhsubmitdiscrepancies-api-openapi.yml
 - filename: faa-coded-instrument-flight-procedures-cifp-api-openapi.yml
   format: yaml
   label: Federal Aviation Administration Coded Instrument Flight Procedures (CIFP) API
   slug: faa-coded-instrument-flight-procedures-cifp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/openapi/faa-coded-instrument-flight-procedures-cifp-api-openapi.yml
+  url: https://artifacts.apis.io/faa/openapi/faa-coded-instrument-flight-procedures-cifp-api-openapi.yml
 - filename: faa-daily-digital-obstacle-file-ddof-api-openapi.yml
   format: yaml
   label: Federal Aviation Administration Daily Digital Obstacle File (DDOF) API
   slug: faa-daily-digital-obstacle-file-ddof-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/openapi/faa-daily-digital-obstacle-file-ddof-api-openapi.yml
+  url: https://artifacts.apis.io/faa/openapi/faa-daily-digital-obstacle-file-ddof-api-openapi.yml
 - filename: faa-digital-enroute-charts-us-ddecus-api-openapi.yml
   format: yaml
   label: Federal Aviation Administration Digital Enroute Charts US (DDECUS) API
   slug: faa-digital-enroute-charts-us-ddecus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/openapi/faa-digital-enroute-charts-us-ddecus-api-openapi.yml
+  url: https://artifacts.apis.io/faa/openapi/faa-digital-enroute-charts-us-ddecus-api-openapi.yml
 - filename: faa-digital-enroute-supplement-ders-api-openapi.yml
   format: yaml
   label: Federal Aviation Administration Digital Enroute Supplement (DERS) API
   slug: faa-digital-enroute-supplement-ders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/openapi/faa-digital-enroute-supplement-ders-api-openapi.yml
+  url: https://artifacts.apis.io/faa/openapi/faa-digital-enroute-supplement-ders-api-openapi.yml
 - filename: faa-faa-airport-status-service-api-openapi.yml
   format: yaml
   label: Federal Aviation Administration FAA Airport Status Service API
   slug: faa-faa-airport-status-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/openapi/faa-faa-airport-status-service-api-openapi.yml
+  url: https://artifacts.apis.io/faa/openapi/faa-faa-airport-status-service-api-openapi.yml
 - filename: faa-grand-canyon-vfr-chart-api-openapi.yml
   format: yaml
   label: Federal Aviation Administration Grand Canyon VFR Chart API
   slug: faa-grand-canyon-vfr-chart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/openapi/faa-grand-canyon-vfr-chart-api-openapi.yml
+  url: https://artifacts.apis.io/faa/openapi/faa-grand-canyon-vfr-chart-api-openapi.yml
 - filename: faa-gulf-of-mexico-ifr-enroute-chart-api-openapi.yml
   format: yaml
   label: Federal Aviation Administration Gulf of Mexico IFR Enroute Chart API
   slug: faa-gulf-of-mexico-ifr-enroute-chart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/openapi/faa-gulf-of-mexico-ifr-enroute-chart-api-openapi.yml
+  url: https://artifacts.apis.io/faa/openapi/faa-gulf-of-mexico-ifr-enroute-chart-api-openapi.yml
 - filename: faa-ifr-enroute-charts-api-openapi.yml
   format: yaml
   label: Federal Aviation Administration IFR Enroute Charts API
   slug: faa-ifr-enroute-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/openapi/faa-ifr-enroute-charts-api-openapi.yml
+  url: https://artifacts.apis.io/faa/openapi/faa-ifr-enroute-charts-api-openapi.yml
 - filename: faa-ifr-planning-charts-api-openapi.yml
   format: yaml
   label: Federal Aviation Administration IFR Planning Charts API
   slug: faa-ifr-planning-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/openapi/faa-ifr-planning-charts-api-openapi.yml
+  url: https://artifacts.apis.io/faa/openapi/faa-ifr-planning-charts-api-openapi.yml
 - filename: faa-nasr-28-day-subscription-api-openapi.yml
   format: yaml
   label: Federal Aviation Administration NASR 28 Day Subscription API
   slug: faa-nasr-28-day-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/openapi/faa-nasr-28-day-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/faa/openapi/faa-nasr-28-day-subscription-api-openapi.yml
 - filename: faa-oceanic-route-charts-api-openapi.yml
   format: yaml
   label: Federal Aviation Administration Oceanic Route Charts API
   slug: faa-oceanic-route-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/openapi/faa-oceanic-route-charts-api-openapi.yml
+  url: https://artifacts.apis.io/faa/openapi/faa-oceanic-route-charts-api-openapi.yml
 - filename: faa-sectional-charts-api-openapi.yml
   format: yaml
   label: Federal Aviation Administration Sectional Charts API
   slug: faa-sectional-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/openapi/faa-sectional-charts-api-openapi.yml
+  url: https://artifacts.apis.io/faa/openapi/faa-sectional-charts-api-openapi.yml
 - filename: faa-supplement-chart-api-openapi.yml
   format: yaml
   label: Federal Aviation Administration Supplement Chart API
   slug: faa-supplement-chart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/openapi/faa-supplement-chart-api-openapi.yml
+  url: https://artifacts.apis.io/faa/openapi/faa-supplement-chart-api-openapi.yml
 - filename: faa-terminal-area-charts-api-openapi.yml
   format: yaml
   label: Federal Aviation Administration Terminal Area Charts API
   slug: faa-terminal-area-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/openapi/faa-terminal-area-charts-api-openapi.yml
+  url: https://artifacts.apis.io/faa/openapi/faa-terminal-area-charts-api-openapi.yml
 - filename: faa-us-terminal-procedures-publication-tpp-api-openapi.yml
   format: yaml
   label: Federal Aviation Administration US Terminal Procedures Publication (TPP) API
   slug: faa-us-terminal-procedures-publication-tpp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/openapi/faa-us-terminal-procedures-publication-tpp-api-openapi.yml
+  url: https://artifacts.apis.io/faa/openapi/faa-us-terminal-procedures-publication-tpp-api-openapi.yml
 - filename: faa-us-vfr-wall-planning-chart-api-openapi.yml
   format: yaml
   label: Federal Aviation Administration US VFR Wall Planning Chart API
   slug: faa-us-vfr-wall-planning-chart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/openapi/faa-us-vfr-wall-planning-chart-api-openapi.yml
+  url: https://artifacts.apis.io/faa/openapi/faa-us-vfr-wall-planning-chart-api-openapi.yml
 - filename: faa-vfr-helicopter-route-chart-api-openapi.yml
   format: yaml
   label: Federal Aviation Administration VFR Helicopter Route Chart API
   slug: faa-vfr-helicopter-route-chart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/openapi/faa-vfr-helicopter-route-chart-api-openapi.yml
+  url: https://artifacts.apis.io/faa/openapi/faa-vfr-helicopter-route-chart-api-openapi.yml
+- filename: faa-airport-events-controller-api-openapi.yml
+  format: yaml
+  label: Federal Aviation Administration Airport Events Controller API
+  slug: faa-airport-events-controller-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/faa/openapi/faa-airport-events-controller-api-openapi.yml
+- filename: faa-airport-status-information-controller-api-openapi.yml
+  format: yaml
+  label: Federal Aviation Administration Airport Status Information Controller API
+  slug: faa-airport-status-information-controller-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/faa/openapi/faa-airport-status-information-controller-api-openapi.yml
+- filename: faa-analytics-controller-api-openapi.yml
+  format: yaml
+  label: Federal Aviation Administration Analytics Controller API
+  slug: faa-analytics-controller-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/faa/openapi/faa-analytics-controller-api-openapi.yml
+- filename: faa-artcc-boundary-controller-api-openapi.yml
+  format: yaml
+  label: Federal Aviation Administration Artcc Boundary Controller API
+  slug: faa-artcc-boundary-controller-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/faa/openapi/faa-artcc-boundary-controller-api-openapi.yml
+- filename: faa-operations-plan-controller-api-openapi.yml
+  format: yaml
+  label: Federal Aviation Administration Operations Plan Controller API
+  slug: faa-operations-plan-controller-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/faa/openapi/faa-operations-plan-controller-api-openapi.yml
+- filename: faa-reset-db-controller-api-openapi.yml
+  format: yaml
+  label: Federal Aviation Administration Reset Db Controller API
+  slug: faa-reset-db-controller-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/faa/openapi/faa-reset-db-controller-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -157,7 +193,7 @@ source_filename: faa-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.faa.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: registry.faa.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  2 23:59:59 2026 GMT\n  hsts: null\n- host: portal.swim.faa.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 21 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: faa.gov\n  dnssec: false\n  caa:\n  - 0 issue \"globalsign.com\"\n  - 128 issue \"digicert.com\"\n  - 128 issue \"amazon.com\"\n  - 128 iodef \"mailto:9-ait-arin-abuse@faa.gov\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/security/faa-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/faa/security/faa-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Travel

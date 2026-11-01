@@ -8,7 +8,7 @@ api_specs:
   label: Boston Properties (BXP) Website (WordPress REST)
   slug: bxp-com-website-wordpress-rest
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boston-properties/refs/heads/main/openapi/boston-properties-wp-json-discovery.json
+  url: https://artifacts.apis.io/boston-properties/openapi/boston-properties-wp-json-discovery.json
 auth_types:
 - apiKey
 - http
@@ -43,7 +43,7 @@ source_filename: boston-properties-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: derived\nsource: openapi/boston-properties-wordpress-rest-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: WordPress application passwords, advertised by the site's own discovery document\n    at https://www.bxp.com/wp-json/ (authentication.application-passwords.endpoints.authorization\n    = https://www.bxp.com/wp-admin/authorize-application.php). Issued only to WordPress user\n    accounts on the BXP site; not available to third parties.\n  sources:\n  - openapi/boston-properties-wordpress-rest-openapi.yml\n- name: cookieNonce\n  type: apiKey\n  in: header\n  parameter: X-WP-Nonce\n  description: WordPress logged-in cookie plus an X-WP-Nonce header. Advertised by the Access-Control-Allow-Headers\n    response header observed on https://www.bxp.com/wp-json/wp/v2/pages (2026-09-04).\n  sources:\n  - openapi/boston-properties-wordpress-rest-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boston-properties/refs/heads/main/authentication/boston-properties-authentication.yml
+source_yaml_url: https://artifacts.apis.io/boston-properties/authentication/boston-properties-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Real Estate

@@ -7,43 +7,43 @@ api_specs:
   label: ACMA Access areas API
   slug: acma-access-areas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/openapi/acma-access-areas-api-openapi.yml
+  url: https://artifacts.apis.io/acma/openapi/acma-access-areas-api-openapi.yml
 - filename: acma-antennas-api-openapi.yml
   format: yaml
   label: ACMA Antennas API
   slug: acma-antennas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/openapi/acma-antennas-api-openapi.yml
+  url: https://artifacts.apis.io/acma/openapi/acma-antennas-api-openapi.yml
 - filename: acma-clients-api-openapi.yml
   format: yaml
   label: ACMA Clients API
   slug: acma-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/openapi/acma-clients-api-openapi.yml
+  url: https://artifacts.apis.io/acma/openapi/acma-clients-api-openapi.yml
 - filename: acma-licence-categories-api-openapi.yml
   format: yaml
   label: ACMA Licence categories API
   slug: acma-licence-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/openapi/acma-licence-categories-api-openapi.yml
+  url: https://artifacts.apis.io/acma/openapi/acma-licence-categories-api-openapi.yml
 - filename: acma-licences-api-openapi.yml
   format: yaml
   label: ACMA Licences API
   slug: acma-licences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/openapi/acma-licences-api-openapi.yml
+  url: https://artifacts.apis.io/acma/openapi/acma-licences-api-openapi.yml
 - filename: acma-registrations-api-openapi.yml
   format: yaml
   label: ACMA Registrations API
   slug: acma-registrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/openapi/acma-registrations-api-openapi.yml
+  url: https://artifacts.apis.io/acma/openapi/acma-registrations-api-openapi.yml
 - filename: acma-sites-api-openapi.yml
   format: yaml
   label: ACMA Sites API
   slug: acma-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/openapi/acma-sites-api-openapi.yml
+  url: https://artifacts.apis.io/acma/openapi/acma-sites-api-openapi.yml
 auth_types:
 - none
 - soap-body-credentials
@@ -133,7 +133,7 @@ source_yaml: "generated: '2026-07-25'\nmethod: searched\nsource: >-\n  https://w
   \ of the main account.\n  transport:\n    tls_minimum: TLSv1.2\n    note: >-\n      ACMA states users are required to have TLS 1.2 to connect, and that client applications\n      must be configured to force TLS 1.2 or above.\n  sources:\n  - wsdl/acma-dncr-realtime-washing.wsdl\n  - https://www.donotcall.gov.au/getmedia/9810ca84-d7af-4972-b626-6b5495f52ac2/DNCR-SOAP-Fact-Sheet.pdf\n- name: dncr-sftp-ssh-key\n  api: acma:do-not-call-register-washing\n  type: ssh-key\n  description: >-\n    The Automated Washing Service batch channel authenticates over SFTP at\n    sftp.donotcall.gov.au. Access seekers first connect with a username and a password\n    issued by SMS to the registered mobile number, then upload an RSA public key (SSH-2\n    RSA, 2048-bit) into the account's /upload folder; subsequent connections use the key\n    pair. Access is provisioned by emailing DNCR support with the organisation name,\n    contact, mailing address, email, mobile number and the external public IP address\
   \ of\n    the device that will connect — the service is IP-restricted.\n  host: sftp.donotcall.gov.au\n  directories:\n  - upload\n  - download\n  - archive\n  sources:\n  - https://www.donotcall.gov.au/industry/washing-process-overview/sftp\n  - https://www.donotcall.gov.au/getmedia/9b201a6a-6426-414a-a48d-0fdee2608ae1/dncr-ssh-key-authentication.pdf\n- name: azure-apim-portal-signin\n  api: null\n  type: session\n  description: >-\n    The ACMA developer portal at developer.acma.gov.au is a Microsoft Azure API Management\n    developer portal behind a complete sign-in wall. Every anonymous request — /apis,\n    /products, /api-docs — returns the identical sign-in shell, and the portal management\n    API /mapi/apis returns HTTP 401. No API, product or specification is visible without\n    an account. The /.well-known/openid-configuration and /.well-known/oauth-authorization-server\n    paths return HTTP 200 but serve text/html (the SPA catch-all), not OIDC or RFC 8414\n    metadata,\
   \ so no discoverable authorization server exists.\n  sources:\n  - well-known/acma-well-known.yml\n  evidence:\n    probed: https://developer.acma.gov.au/.well-known/openid-configuration\n    status: 200\n    content_type: text/html\n    verdict: SPA sign-in shell, not OIDC metadata\n    verified_on: '2026-07-25'\n- name: numbering-system-session\n  api: null\n  type: session\n  description: >-\n    The ACMA Numbering System at thenumberingsystem.com.au is an authenticated web\n    application for licensed carriage service providers. Its internal JSON backend under\n    /app/* returns HTTP 401 to anonymous callers and is not offered or documented as an API.\n  sources:\n  - review.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/authentication/acma-authentication.yml
+source_yaml_url: https://artifacts.apis.io/acma/authentication/acma-authentication.yml
 summary_line: none/soap-body-credentials/ssh-key/session · 5 schemes
 tags:
 - Telecommunications

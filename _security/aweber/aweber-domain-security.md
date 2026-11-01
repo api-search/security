@@ -5,79 +5,79 @@ api_specs:
   label: AWeber Accounts API
   slug: aweber-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-accounts-api-openapi.yml
 - filename: aweber-broadcasts-api-openapi.yml
   format: yaml
   label: AWeber Broadcasts API
   slug: aweber-broadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-broadcasts-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-broadcasts-api-openapi.yml
 - filename: aweber-campaigns-api-openapi.yml
   format: yaml
   label: AWeber Campaigns API
   slug: aweber-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-campaigns-api-openapi.yml
 - filename: aweber-custom-fields-api-openapi.yml
   format: yaml
   label: AWeber Custom Fields API
   slug: aweber-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-custom-fields-api-openapi.yml
 - filename: aweber-landing-pages-api-openapi.yml
   format: yaml
   label: AWeber Landing Pages API
   slug: aweber-landing-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-landing-pages-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-landing-pages-api-openapi.yml
 - filename: aweber-lists-api-openapi.yml
   format: yaml
   label: AWeber Lists API
   slug: aweber-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-lists-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-lists-api-openapi.yml
 - filename: aweber-segments-api-openapi.yml
   format: yaml
   label: AWeber Segments API
   slug: aweber-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-segments-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-segments-api-openapi.yml
 - filename: aweber-subscribers-api-openapi.yml
   format: yaml
   label: AWeber Subscribers API
   slug: aweber-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-subscribers-api-openapi.yml
 - filename: aweber-integrations-api-openapi.yml
   format: yaml
   label: AWeber Integrations API
   slug: aweber-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-integrations-api-openapi.yml
 - filename: aweber-beta-endpoints-api-openapi.yml
   format: yaml
   label: AWeber Beta Endpoints API
   slug: aweber-beta-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-beta-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-beta-endpoints-api-openapi.yml
 - filename: aweber-oauth-1-0a-reference-api-openapi.yml
   format: yaml
   label: AWeber OAuth 1.0a Reference API
   slug: aweber-oauth-1-0a-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-oauth-1-0a-reference-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-oauth-1-0a-reference-api-openapi.yml
 - filename: aweber-oauth-2-0-reference-api-openapi.yml
   format: yaml
   label: AWeber OAuth 2.0 Reference API
   slug: aweber-oauth-2-0-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-oauth-2-0-reference-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-oauth-2-0-reference-api-openapi.yml
 - filename: aweber-webforms-api-openapi.yml
   format: yaml
   label: AWeber Webforms API
   slug: aweber-webforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-webforms-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-webforms-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -122,7 +122,7 @@ source_filename: aweber-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.aweber.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 23 23:59:59 2027 GMT\n  hsts: false\n- host: developer.aweber.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 23 23:59:59 2027 GMT\n  hsts: false\n- host: api.aweber.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 23 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: aweber.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"entrust.net\"\n  - 0 issue \"geotrust.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/security/aweber-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aweber/security/aweber-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Email Marketing

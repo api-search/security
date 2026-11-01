@@ -33,7 +33,7 @@ source_filename: bank-of-russia-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cbr.ru\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 13 06:49:32 2027 GMT\n  hsts: false\ndomains:\n- domain: cbr.ru\n  dnssec: false\n  caa:\n  - 0 issue \"ssl.com\"\n  - 0 issue \"wosign.com\"\n  - 0 issue \"jprs.jp\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"emsign.com\"\n  - 0 issue \"harica.gr\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bank-of-russia/refs/heads/main/security/bank-of-russia-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bank-of-russia/security/bank-of-russia-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Foreign Exchange

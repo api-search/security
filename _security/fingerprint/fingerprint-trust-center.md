@@ -5,25 +5,25 @@ api_specs:
   label: Fingerprint Event Search API
   slug: fingerprint-event-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fingerprint/refs/heads/main/openapi/fingerprint-event-search-api-openapi.yml
+  url: https://artifacts.apis.io/fingerprint/openapi/fingerprint-event-search-api-openapi.yml
 - filename: fingerprint-events-api-openapi.yml
   format: yaml
   label: Fingerprint Events API
   slug: fingerprint-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fingerprint/refs/heads/main/openapi/fingerprint-events-api-openapi.yml
+  url: https://artifacts.apis.io/fingerprint/openapi/fingerprint-events-api-openapi.yml
 - filename: fingerprint-related-visitors-api-openapi.yml
   format: yaml
   label: Fingerprint Related Visitors API
   slug: fingerprint-related-visitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fingerprint/refs/heads/main/openapi/fingerprint-related-visitors-api-openapi.yml
+  url: https://artifacts.apis.io/fingerprint/openapi/fingerprint-related-visitors-api-openapi.yml
 - filename: fingerprint-visitors-api-openapi.yml
   format: yaml
   label: Fingerprint Visitors API
   slug: fingerprint-visitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fingerprint/refs/heads/main/openapi/fingerprint-visitors-api-openapi.yml
+  url: https://artifacts.apis.io/fingerprint/openapi/fingerprint-visitors-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -43,7 +43,7 @@ source_filename: fingerprint-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.fingerprint.com/\nurl: https://trust.fingerprint.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\n- CSA STAR\nevidence:\n- source: https://trust.fingerprint.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - trust center\n  - gdpr\n  - csa star\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fingerprint/refs/heads/main/security/fingerprint-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/fingerprint/security/fingerprint-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR, CSA STAR
 tags:
 - Device Identification

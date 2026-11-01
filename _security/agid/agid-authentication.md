@@ -30,7 +30,7 @@ source_yaml: 'name: AgID authentication
   schemes: []
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agid/refs/heads/main/authentication/agid-authentication.yml
+source_yaml_url: https://artifacts.apis.io/agid/authentication/agid-authentication.yml
 summary_line: 0 schemes
 tags:
 - Company

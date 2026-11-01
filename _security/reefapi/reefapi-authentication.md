@@ -8,85 +8,85 @@ api_specs:
   label: ReefAPI Classifieds & Second-hand API
   slug: reefapi-classifieds-second-hand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/openapi/reefapi-classifieds-second-hand-api-openapi.yml
+  url: https://artifacts.apis.io/reefapi/openapi/reefapi-classifieds-second-hand-api-openapi.yml
 - filename: reefapi-developer-tools-api-openapi.yml
   format: yaml
   label: ReefAPI Developer Tools API
   slug: reefapi-developer-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/openapi/reefapi-developer-tools-api-openapi.yml
+  url: https://artifacts.apis.io/reefapi/openapi/reefapi-developer-tools-api-openapi.yml
 - filename: reefapi-e-commerce-marketplaces-api-openapi.yml
   format: yaml
   label: ReefAPI E-commerce & Marketplaces API
   slug: reefapi-e-commerce-marketplaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/openapi/reefapi-e-commerce-marketplaces-api-openapi.yml
+  url: https://artifacts.apis.io/reefapi/openapi/reefapi-e-commerce-marketplaces-api-openapi.yml
 - filename: reefapi-finance-data-api-openapi.yml
   format: yaml
   label: ReefAPI Finance & Data API
   slug: reefapi-finance-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/openapi/reefapi-finance-data-api-openapi.yml
+  url: https://artifacts.apis.io/reefapi/openapi/reefapi-finance-data-api-openapi.yml
 - filename: reefapi-government-tenders-api-openapi.yml
   format: yaml
   label: ReefAPI Government & Tenders API
   slug: reefapi-government-tenders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/openapi/reefapi-government-tenders-api-openapi.yml
+  url: https://artifacts.apis.io/reefapi/openapi/reefapi-government-tenders-api-openapi.yml
 - filename: reefapi-jobs-hiring-api-openapi.yml
   format: yaml
   label: ReefAPI Jobs & Hiring API
   slug: reefapi-jobs-hiring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/openapi/reefapi-jobs-hiring-api-openapi.yml
+  url: https://artifacts.apis.io/reefapi/openapi/reefapi-jobs-hiring-api-openapi.yml
 - filename: reefapi-media-film-knowledge-api-openapi.yml
   format: yaml
   label: ReefAPI Media, Film & Knowledge API
   slug: reefapi-media-film-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/openapi/reefapi-media-film-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/reefapi/openapi/reefapi-media-film-knowledge-api-openapi.yml
 - filename: reefapi-other-api-openapi.yml
   format: yaml
   label: ReefAPI Other API
   slug: reefapi-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/openapi/reefapi-other-api-openapi.yml
+  url: https://artifacts.apis.io/reefapi/openapi/reefapi-other-api-openapi.yml
 - filename: reefapi-real-estate-api-openapi.yml
   format: yaml
   label: ReefAPI Real Estate API
   slug: reefapi-real-estate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/openapi/reefapi-real-estate-api-openapi.yml
+  url: https://artifacts.apis.io/reefapi/openapi/reefapi-real-estate-api-openapi.yml
 - filename: reefapi-reputation-reviews-api-openapi.yml
   format: yaml
   label: ReefAPI Reputation & Reviews API
   slug: reefapi-reputation-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/openapi/reefapi-reputation-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/reefapi/openapi/reefapi-reputation-reviews-api-openapi.yml
 - filename: reefapi-search-seo-api-openapi.yml
   format: yaml
   label: ReefAPI Search & SEO API
   slug: reefapi-search-seo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/openapi/reefapi-search-seo-api-openapi.yml
+  url: https://artifacts.apis.io/reefapi/openapi/reefapi-search-seo-api-openapi.yml
 - filename: reefapi-social-media-api-openapi.yml
   format: yaml
   label: ReefAPI Social Media API
   slug: reefapi-social-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/openapi/reefapi-social-media-api-openapi.yml
+  url: https://artifacts.apis.io/reefapi/openapi/reefapi-social-media-api-openapi.yml
 - filename: reefapi-travel-lodging-api-openapi.yml
   format: yaml
   label: ReefAPI Travel & Lodging API
   slug: reefapi-travel-lodging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/openapi/reefapi-travel-lodging-api-openapi.yml
+  url: https://artifacts.apis.io/reefapi/openapi/reefapi-travel-lodging-api-openapi.yml
 - filename: reefapi-utilities-ai-api-openapi.yml
   format: yaml
   label: ReefAPI Utilities & AI API
   slug: reefapi-utilities-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/openapi/reefapi-utilities-ai-api-openapi.yml
+  url: https://artifacts.apis.io/reefapi/openapi/reefapi-utilities-ai-api-openapi.yml
 auth_types:
 - apiKey
 - http-bearer
@@ -130,7 +130,7 @@ source_yaml: "generated: '2026-08-31'\nmethod: searched\nsource: https://reefapi
   - name: BearerKey\n  type: http\n  scheme: bearer\n  header: Authorization\n  surface: MCP (https://api.reefapi.com/mcp)\n  applies_to: the call_engine tool only\n  sources:\n  - https://reefapi.com/mcp\n  - https://reefapi.com/llms.txt\n  note: >-\n    The MCP server takes the SAME ReefAPI key but as 'Authorization: Bearer <key>',\n    not as x-api-key. Not declared in the OpenAPI (the MCP endpoint is outside the spec).\nkey_management:\n  issued_from: https://reefapi.com/signup (dashboard)\n  prefix: ak_live_\n  display_policy: full key shown once at creation\n  rotation_documented: false\n  guidance: \"Keep it server-side; never ship it to a browser. (docs, Authentication section)\"\nanonymous_access:\n  rest: false\n  mcp_discovery: true\n  detail: >-\n    PROBED 2026-08-31. The MCP methods initialize, tools/list, prompts/list and\n    resources/list all return 200 with no Authorization header. Four of the five tools\n    (search_engines, get_catalog, get_engine_schema, get_action_schema)\
   \ are documented\n    and verified keyless. Only call_engine authenticates and spends credits. The\n    OpenAPI itself (https://api.reefapi.com/openapi.json) and the RFC 9727 api-catalog\n    are also anonymous.\nfailure_behavior:\n  status: 401\n  code: AUTH_FAILED\n  envelope: '{\"ok\":false,\"meta\":{...},\"error\":{\"code\":\"AUTH_FAILED\",\"message\":\"auth: no_key\",\"retryable\":false}}'\n  observed: '2026-08-31 POST https://api.reefapi.com/currency/v1/convert with no key'\n  note: The 401 body is the standard success envelope with ok=false — error semantics are uniform with the happy path.\ngaps:\n- \"No /.well-known/openid-configuration, /.well-known/oauth-authorization-server or /.well-known/oauth-protected-resource on either host (all 404) — the MCP server is key-auth, not OAuth-protected, so RFC 9728 protected-resource metadata does not apply.\"\n- \"No documented key-rotation or key-expiry policy.\"\n- \"No IP allow-listing, per-key scope restriction or read-only key variant\
   \ is documented.\"\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/authentication/reefapi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/reefapi/authentication/reefapi-authentication.yml
 summary_line: apiKey/http-bearer · 2 schemes
 tags:
 - Web Data

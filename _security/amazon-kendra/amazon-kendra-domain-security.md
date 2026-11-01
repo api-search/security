@@ -5,49 +5,85 @@ api_specs:
   label: Amazon Kendra Data Sources API
   slug: amazon-kendra-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-kendra/openapi/amazon-kendra-data-sources-api-openapi.yml
 - filename: amazon-kendra-documents-api-openapi.yml
   format: yaml
   label: Amazon Kendra Documents API
   slug: amazon-kendra-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-documents-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-kendra/openapi/amazon-kendra-documents-api-openapi.yml
 - filename: amazon-kendra-experience-api-openapi.yml
   format: yaml
   label: Amazon Kendra Experience API
   slug: amazon-kendra-experience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-experience-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-kendra/openapi/amazon-kendra-experience-api-openapi.yml
 - filename: amazon-kendra-indexes-api-openapi.yml
   format: yaml
   label: Amazon Kendra Indexes API
   slug: amazon-kendra-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-indexes-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-kendra/openapi/amazon-kendra-indexes-api-openapi.yml
 - filename: amazon-kendra-queries-api-openapi.yml
   format: yaml
   label: Amazon Kendra Queries API
   slug: amazon-kendra-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-queries-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-kendra/openapi/amazon-kendra-queries-api-openapi.yml
 - filename: amazon-kendra-query-suggestions-api-openapi.yml
   format: yaml
   label: Amazon Kendra Query Suggestions API
   slug: amazon-kendra-query-suggestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-query-suggestions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-kendra/openapi/amazon-kendra-query-suggestions-api-openapi.yml
 - filename: amazon-kendra-thesaurus-api-openapi.yml
   format: yaml
   label: Amazon Kendra Thesaurus API
   slug: amazon-kendra-thesaurus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-thesaurus-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-kendra/openapi/amazon-kendra-thesaurus-api-openapi.yml
 - filename: amazon-kendra-faqs-api-openapi.yml
   format: yaml
   label: Amazon Kendra FA Qs API
   slug: amazon-kendra-faqs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-faqs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-kendra/openapi/amazon-kendra-faqs-api-openapi.yml
+- filename: amazon-kendra-access-control-configuration-api-openapi.yml
+  format: yaml
+  label: Amazon Kendra Kendra Access Control Configuration API
+  slug: amazon-kendra-access-control-configuration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kendra/openapi/amazon-kendra-access-control-configuration-api-openapi.yml
+- filename: amazon-kendra-data-source-sync-job-api-openapi.yml
+  format: yaml
+  label: Amazon Kendra Kendra Data Source Sync Job API
+  slug: amazon-kendra-data-source-sync-job-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kendra/openapi/amazon-kendra-data-source-sync-job-api-openapi.yml
+- filename: amazon-kendra-featured-results-set-api-openapi.yml
+  format: yaml
+  label: Amazon Kendra Kendra Featured Results Set API
+  slug: amazon-kendra-featured-results-set-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kendra/openapi/amazon-kendra-featured-results-set-api-openapi.yml
+- filename: amazon-kendra-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Kendra Kendra Operations API
+  slug: amazon-kendra-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kendra/openapi/amazon-kendra-operations-api-openapi.yml
+- filename: amazon-kendra-principal-mapping-api-openapi.yml
+  format: yaml
+  label: Amazon Kendra Kendra Principal Mapping API
+  slug: amazon-kendra-principal-mapping-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kendra/openapi/amazon-kendra-principal-mapping-api-openapi.yml
+- filename: amazon-kendra-query-suggestions-block-list-api-openapi.yml
+  format: yaml
+  label: Amazon Kendra Kendra Query Suggestions Block List API
+  slug: amazon-kendra-query-suggestions-block-list-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kendra/openapi/amazon-kendra-query-suggestions-block-list-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -85,7 +121,7 @@ source_filename: amazon-kendra-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: kendra.amazonaws.com\n  https: false\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/security/amazon-kendra-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amazon-kendra/security/amazon-kendra-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

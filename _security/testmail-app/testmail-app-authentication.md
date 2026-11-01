@@ -8,13 +8,13 @@ api_specs:
   label: Testmail Inbox API
   slug: testmail-app-inbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testmail-app/refs/heads/main/openapi/testmail-app-inbox-api-openapi.yml
+  url: https://artifacts.apis.io/testmail-app/openapi/testmail-app-inbox-api-openapi.yml
 - filename: testmail-app-graph-ql-api-openapi.yml
   format: yaml
   label: Testmail Graph QL API
   slug: testmail-app-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testmail-app/refs/heads/main/openapi/testmail-app-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/testmail-app/openapi/testmail-app-graph-ql-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -49,7 +49,7 @@ source_filename: testmail-app-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/testmail-app-graphql-api-openapi.yml, openapi/testmail-app-json-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - query\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: 'API key as Bearer token. Obtain from the Testmail developer console and pass\n    as: Authorization: Bearer [example key]'\n  sources:\n  - openapi/testmail-app-graphql-api-openapi.yml\n- name: ApiKeyQuery\n  type: apiKey\n  in: query\n  parameter: apikey\n  description: API key retrieved from the Testmail developer console.\n  sources:\n  - openapi/testmail-app-json-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/testmail-app/refs/heads/main/authentication/testmail-app-authentication.yml
+source_yaml_url: https://artifacts.apis.io/testmail-app/authentication/testmail-app-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Email Testing

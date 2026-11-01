@@ -7,13 +7,13 @@ api_specs:
   label: Tivo Content API
   slug: tivo-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tivo/refs/heads/main/openapi/tivo-content-api-openapi.yml
+  url: https://artifacts.apis.io/tivo/openapi/tivo-content-api-openapi.yml
 - filename: tivo-lookup-api-openapi.yml
   format: yaml
   label: Tivo Lookup API
   slug: tivo-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tivo/refs/heads/main/openapi/tivo-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/tivo/openapi/tivo-lookup-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: tivo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tivo-video-metadata-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: TiVo API authentication token\n  sources:\n  - openapi/tivo-video-metadata-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tivo/refs/heads/main/authentication/tivo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tivo/authentication/tivo-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Entertainment

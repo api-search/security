@@ -5,19 +5,19 @@ api_specs:
   label: MailPace API Tokens API
   slug: mailpace-api-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailpace/refs/heads/main/openapi/mailpace-api-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/mailpace/openapi/mailpace-api-tokens-api-openapi.yml
 - filename: mailpace-domains-api-openapi.yml
   format: yaml
   label: MailPace Domains API
   slug: mailpace-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailpace/refs/heads/main/openapi/mailpace-domains-api-openapi.yml
+  url: https://artifacts.apis.io/mailpace/openapi/mailpace-domains-api-openapi.yml
 - filename: mailpace-send-api-openapi.yml
   format: yaml
   label: MailPace Send API
   slug: mailpace-send-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailpace/refs/heads/main/openapi/mailpace-send-api-openapi.yml
+  url: https://artifacts.apis.io/mailpace/openapi/mailpace-send-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: mailpace-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mailpace.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 02:13:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.mailpace.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 02:03:39 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.mailpace.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 20:58:38 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: mailpace.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mailpace/refs/heads/main/security/mailpace-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mailpace/security/mailpace-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Email

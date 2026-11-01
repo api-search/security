@@ -5,13 +5,13 @@ api_specs:
   label: GNews Headlines API
   slug: gnews-headlines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gnews/refs/heads/main/openapi/gnews-headlines-api-openapi.yml
+  url: https://artifacts.apis.io/gnews/openapi/gnews-headlines-api-openapi.yml
 - filename: gnews-search-api-openapi.yml
   format: yaml
   label: GNews Search API
   slug: gnews-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gnews/refs/heads/main/openapi/gnews-search-api-openapi.yml
+  url: https://artifacts.apis.io/gnews/openapi/gnews-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +40,7 @@ source_filename: gnews-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gnews.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 14:40:56 2026 GMT\n  hsts: false\ndomains:\n- domain: gnews.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gnews/refs/heads/main/security/gnews-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gnews/security/gnews-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Articles

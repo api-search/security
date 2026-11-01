@@ -35,7 +35,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS probes of apis.yml website + email hosts (July 2026)\nnotes: >-\n  Marley Medical's public web endpoints (Webflow marketing/signup and a Netlify-hosted\n  patient portal) rejected the TLS ClientHello from every non-browser probe client\n  (OpenSSL, LibreSSL, and Python), so HTTPS reachability and HSTS could not be observed\n  programmatically; the sites do serve to real browsers. DNS-layer records below were\n  resolved successfully with dig.\nhosts:\n- host: www.marleymedical.com\n  platform: webflow\n  https: false\n  tls_note: TLS handshake failure (server rejected ClientHello from probe clients)\n- host: marleymedical.com\n  platform: netlify\n  https: false\n  tls_note: apex record (75.2.70.75) returned TLS internal_error alert to probe clients\n- host: my.marleymedical.com\n  platform: netlify\n  https: false\n  tls_note: patient portal; TLS handshake failure from probe clients\ndomains:\n- domain: marleymedical.com\n\
   \  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/marley-medical/refs/heads/main/security/marley-medical-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/marley-medical/security/marley-medical-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

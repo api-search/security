@@ -5,31 +5,31 @@ api_specs:
   label: HireLayer HireLayer API
   slug: hirelayer-hirelayer-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hirelayer/refs/heads/main/openapi/hirelayer-hirelayer-api-api-openapi.yml
+  url: https://artifacts.apis.io/hirelayer/openapi/hirelayer-hirelayer-api-api-openapi.yml
 - filename: hirelayer-jobs-api-openapi.yml
   format: yaml
   label: HireLayer Jobs API
   slug: hirelayer-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hirelayer/refs/heads/main/openapi/hirelayer-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/hirelayer/openapi/hirelayer-jobs-api-openapi.yml
 - filename: hirelayer-matching-api-openapi.yml
   format: yaml
   label: HireLayer Matching API
   slug: hirelayer-matching-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hirelayer/refs/heads/main/openapi/hirelayer-matching-api-openapi.yml
+  url: https://artifacts.apis.io/hirelayer/openapi/hirelayer-matching-api-openapi.yml
 - filename: hirelayer-parser-api-openapi.yml
   format: yaml
   label: HireLayer Parser API
   slug: hirelayer-parser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hirelayer/refs/heads/main/openapi/hirelayer-parser-api-openapi.yml
+  url: https://artifacts.apis.io/hirelayer/openapi/hirelayer-parser-api-openapi.yml
 - filename: hirelayer-skills-api-openapi.yml
   format: yaml
   label: HireLayer Skills API
   slug: hirelayer-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hirelayer/refs/heads/main/openapi/hirelayer-skills-api-openapi.yml
+  url: https://artifacts.apis.io/hirelayer/openapi/hirelayer-skills-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,11 +59,11 @@ source_filename: hirelayer-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: hirelayer.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  1 11:57:40 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: hirelayer.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hirelayer/refs/heads/main/security/hirelayer-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hirelayer/security/hirelayer-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Recruiting
-- ResumeParsing
+- Resume Parsing
 - CandidateMatching
 ---

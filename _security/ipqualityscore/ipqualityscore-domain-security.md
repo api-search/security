@@ -5,37 +5,37 @@ api_specs:
   label: IPQualityScore Device Fingerprint API
   slug: ipqualityscore-device-fingerprint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/openapi/ipqualityscore-device-fingerprint-api-openapi.yml
+  url: https://artifacts.apis.io/ipqualityscore/openapi/ipqualityscore-device-fingerprint-api-openapi.yml
 - filename: ipqualityscore-email-validation-api-openapi.yml
   format: yaml
   label: IPQualityScore Email Validation API
   slug: ipqualityscore-email-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/openapi/ipqualityscore-email-validation-api-openapi.yml
+  url: https://artifacts.apis.io/ipqualityscore/openapi/ipqualityscore-email-validation-api-openapi.yml
 - filename: ipqualityscore-ip-reputation-api-openapi.yml
   format: yaml
   label: IPQualityScore IP Reputation API
   slug: ipqualityscore-ip-reputation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/openapi/ipqualityscore-ip-reputation-api-openapi.yml
+  url: https://artifacts.apis.io/ipqualityscore/openapi/ipqualityscore-ip-reputation-api-openapi.yml
 - filename: ipqualityscore-leaked-data-api-openapi.yml
   format: yaml
   label: IPQualityScore Leaked Data API
   slug: ipqualityscore-leaked-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/openapi/ipqualityscore-leaked-data-api-openapi.yml
+  url: https://artifacts.apis.io/ipqualityscore/openapi/ipqualityscore-leaked-data-api-openapi.yml
 - filename: ipqualityscore-phone-validation-api-openapi.yml
   format: yaml
   label: IPQualityScore Phone Validation API
   slug: ipqualityscore-phone-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/openapi/ipqualityscore-phone-validation-api-openapi.yml
+  url: https://artifacts.apis.io/ipqualityscore/openapi/ipqualityscore-phone-validation-api-openapi.yml
 - filename: ipqualityscore-url-scanner-api-openapi.yml
   format: yaml
   label: IPQualityScore URL Scanner API
   slug: ipqualityscore-url-scanner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/openapi/ipqualityscore-url-scanner-api-openapi.yml
+  url: https://artifacts.apis.io/ipqualityscore/openapi/ipqualityscore-url-scanner-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: ipqualityscore-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ipqualityscore.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 10:36:38 2026 GMT\n  hsts: false\ndomains:\n- domain: ipqualityscore.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/security/ipqualityscore-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ipqualityscore/security/ipqualityscore-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Fraud Prevention

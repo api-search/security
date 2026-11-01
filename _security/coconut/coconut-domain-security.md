@@ -5,13 +5,13 @@ api_specs:
   label: Coconut Jobs API
   slug: coconut-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coconut/refs/heads/main/openapi/coconut-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/coconut/openapi/coconut-jobs-api-openapi.yml
 - filename: coconut-metadata-api-openapi.yml
   format: yaml
   label: Coconut Metadata API
   slug: coconut-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coconut/refs/heads/main/openapi/coconut-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/coconut/openapi/coconut-metadata-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: coconut-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.coconut.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 11:48:27 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.coconut.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 20:11:26 2026 GMT\n  hsts: false\n- host: api.coconut.co\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 25 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: coconut.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coconut/refs/heads/main/security/coconut-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/coconut/security/coconut-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Video

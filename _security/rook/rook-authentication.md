@@ -8,19 +8,19 @@ api_specs:
   label: Rook Buckets API
   slug: rook-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rook/refs/heads/main/openapi/rook-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/rook/openapi/rook-buckets-api-openapi.yml
 - filename: rook-multipart-uploads-api-openapi.yml
   format: yaml
   label: Rook Multipart Uploads API
   slug: rook-multipart-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rook/refs/heads/main/openapi/rook-multipart-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/rook/openapi/rook-multipart-uploads-api-openapi.yml
 - filename: rook-objects-api-openapi.yml
   format: yaml
   label: Rook Objects API
   slug: rook-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rook/refs/heads/main/openapi/rook-objects-api-openapi.yml
+  url: https://artifacts.apis.io/rook/openapi/rook-objects-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: rook-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/rook-ceph-object-storage-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: s3Auth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4 (SigV4) or AWS Signature Version 2 authentication using\n    access key and secret key pairs provisioned by CephObjectStoreUser Kubernetes CRDs. Credentials\n    are available in the Kubernetes Secret created by Rook for each CephObjectStoreUser.\n  sources:\n  - openapi/rook-ceph-object-storage-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rook/refs/heads/main/authentication/rook-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rook/authentication/rook-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Block Storage

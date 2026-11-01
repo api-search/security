@@ -8,37 +8,37 @@ api_specs:
   label: Camb.AI Dubbing API
   slug: camb-ai-dubbing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camb-ai/refs/heads/main/openapi/camb-ai-dubbing-api-openapi.yml
+  url: https://artifacts.apis.io/camb-ai/openapi/camb-ai-dubbing-api-openapi.yml
 - filename: camb-ai-languages-api-openapi.yml
   format: yaml
   label: Camb.AI Languages API
   slug: camb-ai-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camb-ai/refs/heads/main/openapi/camb-ai-languages-api-openapi.yml
+  url: https://artifacts.apis.io/camb-ai/openapi/camb-ai-languages-api-openapi.yml
 - filename: camb-ai-text-to-speech-api-openapi.yml
   format: yaml
   label: Camb.AI Text-to-Speech API
   slug: camb-ai-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camb-ai/refs/heads/main/openapi/camb-ai-text-to-speech-api-openapi.yml
+  url: https://artifacts.apis.io/camb-ai/openapi/camb-ai-text-to-speech-api-openapi.yml
 - filename: camb-ai-transcription-api-openapi.yml
   format: yaml
   label: Camb.AI Transcription API
   slug: camb-ai-transcription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camb-ai/refs/heads/main/openapi/camb-ai-transcription-api-openapi.yml
+  url: https://artifacts.apis.io/camb-ai/openapi/camb-ai-transcription-api-openapi.yml
 - filename: camb-ai-translation-api-openapi.yml
   format: yaml
   label: Camb.AI Translation API
   slug: camb-ai-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camb-ai/refs/heads/main/openapi/camb-ai-translation-api-openapi.yml
+  url: https://artifacts.apis.io/camb-ai/openapi/camb-ai-translation-api-openapi.yml
 - filename: camb-ai-voices-api-openapi.yml
   format: yaml
   label: Camb.AI Voices API
   slug: camb-ai-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camb-ai/refs/heads/main/openapi/camb-ai-voices-api-openapi.yml
+  url: https://artifacts.apis.io/camb-ai/openapi/camb-ai-voices-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -65,7 +65,7 @@ source_filename: camb-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/camb-ai-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/camb-ai-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/camb-ai/refs/heads/main/authentication/camb-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/camb-ai/authentication/camb-ai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence

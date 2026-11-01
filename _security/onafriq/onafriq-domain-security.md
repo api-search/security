@@ -41,7 +41,7 @@ source_filename: onafriq-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: onafriq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 12:44:30 2026 GMT\n  hsts: false\n- host: developers.onafriq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 14:40:04 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.mfsafrica.com\n  https: false\ndomains:\n- domain: onafriq.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: mfsafrica.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onafriq/refs/heads/main/security/onafriq-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/onafriq/security/onafriq-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments

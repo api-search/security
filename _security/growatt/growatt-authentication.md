@@ -30,7 +30,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://www.showdoc.com.cn/262556420217021/0\ndocs: https://www.showdoc.com.cn/262556420217021/0\nnotes: >-\n  Growatt Open API V1 uses a static API token issued to the account. The token is\n  sent on every request in a `token` HTTP header. Tokens are obtained by an account\n  holder from the Growatt Open API console (openapi.growatt.com). The legacy\n  ShinePhone API instead used username/password (MD5) session login; V1 token auth\n  is the officially supported, recommended mechanism.\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  oauth2_flows: []\nschemes:\n- name: growattToken\n  type: apiKey\n  in: header\n  parameter_name: token\n  description: Account-scoped Open API V1 token, issued from openapi.growatt.com and\n    sent on every request.\n  sources:\n  - https://www.showdoc.com.cn/262556420217021/0\nlegacy:\n- name: shinephoneLogin\n  type: session\n  scheme: username/password (MD5) login, cookie session\n\
   \  status: deprecated-in-favor-of-v1-token\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/growatt/refs/heads/main/authentication/growatt-authentication.yml
+source_yaml_url: https://artifacts.apis.io/growatt/authentication/growatt-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

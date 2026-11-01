@@ -32,7 +32,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://support.cybersmart.co.uk/knowledgebase/s/article/Ticketing-API-Explained\ndocs: https://support.cybersmart.co.uk/knowledgebase/s/article/Ticketing-API-Explained\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\n  api_key_in: []\nschemes:\n- name: OAuth2 Partner Credentials\n  type: oauth2\n  flow: clientCredentials\n  description: >-\n    The CyberSmart Ticketing API authenticates with OAuth2 credentials (client\n    ID and client secret) issued at the partner level. A single credential set\n    covers all of a partner's managed organisations. Credentials are retrieved\n    from the CyberSmart partner portal under Settings > CyberSmart API.\n  credential_scope: partner-level (covers all managed organisations)\n  availability: All CyberSmart Partners regardless of tier; not available to direct customers\n  sources:\n  - https://support.cybersmart.co.uk/knowledgebase/s/article/Ticketing-API-Explained\n\
   \  - https://knowledge.adoptech.co.uk/how-do-i-set-up-my-cybersmart-integration-0\nnotes: >-\n  No public OpenAPI/Swagger specification is published for the Ticketing API, so\n  this profile is sourced from CyberSmart partner documentation and a partner\n  integration guide rather than derived from a spec. No token or authorization\n  endpoint URLs are documented publicly.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cybersmart/refs/heads/main/authentication/cybersmart-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cybersmart/authentication/cybersmart-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

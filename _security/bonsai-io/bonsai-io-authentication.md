@@ -7,25 +7,25 @@ api_specs:
   label: Bonsai Clusters API
   slug: bonsai-io-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonsai-io/refs/heads/main/openapi/bonsai-io-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/bonsai-io/openapi/bonsai-io-clusters-api-openapi.yml
 - filename: bonsai-io-plans-api-openapi.yml
   format: yaml
   label: Bonsai Plans API
   slug: bonsai-io-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonsai-io/refs/heads/main/openapi/bonsai-io-plans-api-openapi.yml
+  url: https://artifacts.apis.io/bonsai-io/openapi/bonsai-io-plans-api-openapi.yml
 - filename: bonsai-io-releases-api-openapi.yml
   format: yaml
   label: Bonsai Releases API
   slug: bonsai-io-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonsai-io/refs/heads/main/openapi/bonsai-io-releases-api-openapi.yml
+  url: https://artifacts.apis.io/bonsai-io/openapi/bonsai-io-releases-api-openapi.yml
 - filename: bonsai-io-spaces-api-openapi.yml
   format: yaml
   label: Bonsai Spaces API
   slug: bonsai-io-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonsai-io/refs/heads/main/openapi/bonsai-io-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/bonsai-io/openapi/bonsai-io-spaces-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -53,7 +53,7 @@ source_filename: bonsai-io-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "name: Bonsai Cloud API Authentication\ngenerated: '2026-10-14'\nmethod: searched\nsource: https://bonsai.io/docs/api/authentication/overview/\ndocs: https://bonsai.io/docs/api/authentication/overview/\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Authorization: Bearer bonsai_<key>_<secret>. This is the simplest option for a new token.'\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: 'HTTP Basic Auth: the token''s key and secret as the username and password.'\ncredential:\n  format: bonsai_<key>_<secret>\n  issued_from: https://bonsai.io/docs/account/api-tokens\nnotes:\n- 'Send one credential per request: a request with more than one, such as both a Basic and a Bearer credential, is refused.'\n- 'Requests that do not have the proper authentication will receive an HTTP 401: Unauthorized response.'\n- 'A token that authenticates but lacks the scope an API call needs gets an HTTP 403: Forbidden response instead.'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bonsai-io/refs/heads/main/authentication/bonsai-io-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bonsai-io/authentication/bonsai-io-authentication.yml
 summary_line: 2 schemes
 tags:
 - Company

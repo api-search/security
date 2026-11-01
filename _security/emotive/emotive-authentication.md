@@ -9,211 +9,211 @@ api_specs:
   label: Emotive Admin API
   slug: emotive-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-admin-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-admin-api-openapi.yml
 - filename: emotive-auth0-api-openapi.yml
   format: yaml
   label: Emotive Auth0 API
   slug: emotive-auth0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-auth0-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-auth0-api-openapi.yml
 - filename: emotive-authentication-source-api-api-openapi.yml
   format: yaml
   label: Emotive Authentication Source API
   slug: emotive-authentication-source-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-authentication-source-api-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-authentication-source-api-api-openapi.yml
 - filename: emotive-brand-api-openapi.yml
   format: yaml
   label: Emotive Brand API
   slug: emotive-brand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-brand-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-brand-api-openapi.yml
 - filename: emotive-brands-api-openapi.yml
   format: yaml
   label: Emotive Brands API
   slug: emotive-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-brands-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-brands-api-openapi.yml
 - filename: emotive-bulk-subscriber-api-openapi.yml
   format: yaml
   label: Emotive Bulk Subscriber API
   slug: emotive-bulk-subscriber-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-bulk-subscriber-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-bulk-subscriber-api-openapi.yml
 - filename: emotive-connections-api-openapi.yml
   format: yaml
   label: Emotive Connections API
   slug: emotive-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-connections-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-connections-api-openapi.yml
 - filename: emotive-custom-events-api-openapi.yml
   format: yaml
   label: Emotive Custom Events API
   slug: emotive-custom-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-custom-events-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-custom-events-api-openapi.yml
 - filename: emotive-experience-api-openapi.yml
   format: yaml
   label: Emotive Experience API
   slug: emotive-experience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-experience-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-experience-api-openapi.yml
 - filename: emotive-google-api-openapi.yml
   format: yaml
   label: Emotive Google API
   slug: emotive-google-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-google-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-google-api-openapi.yml
 - filename: emotive-impersonate-api-openapi.yml
   format: yaml
   label: Emotive Impersonate API
   slug: emotive-impersonate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-impersonate-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-impersonate-api-openapi.yml
 - filename: emotive-jwt-api-openapi.yml
   format: yaml
   label: Emotive JWT API
   slug: emotive-jwt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-jwt-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-jwt-api-openapi.yml
 - filename: emotive-logout-api-openapi.yml
   format: yaml
   label: Emotive Logout API
   slug: emotive-logout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-logout-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-logout-api-openapi.yml
 - filename: emotive-messaging-api-openapi.yml
   format: yaml
   label: Emotive Messaging API
   slug: emotive-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-messaging-api-openapi.yml
 - filename: emotive-opt-outs-api-openapi.yml
   format: yaml
   label: Emotive Opt Outs API
   slug: emotive-opt-outs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-opt-outs-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-opt-outs-api-openapi.yml
 - filename: emotive-orders-api-openapi.yml
   format: yaml
   label: Emotive Orders API
   slug: emotive-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-orders-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-orders-api-openapi.yml
 - filename: emotive-password-api-openapi.yml
   format: yaml
   label: Emotive Password API
   slug: emotive-password-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-password-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-password-api-openapi.yml
 - filename: emotive-product-api-api-openapi.yml
   format: yaml
   label: Emotive Product API
   slug: emotive-product-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-product-api-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-product-api-api-openapi.yml
 - filename: emotive-profile-properties-api-openapi.yml
   format: yaml
   label: Emotive Profile Properties API
   slug: emotive-profile-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-profile-properties-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-profile-properties-api-openapi.yml
 - filename: emotive-qa-api-openapi.yml
   format: yaml
   label: Emotive QA API
   slug: emotive-qa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-qa-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-qa-api-openapi.yml
 - filename: emotive-search-api-openapi.yml
   format: yaml
   label: Emotive Search API
   slug: emotive-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-search-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-search-api-openapi.yml
 - filename: emotive-segment-filter-api-openapi.yml
   format: yaml
   label: Emotive Segment Filter API
   slug: emotive-segment-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-segment-filter-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-segment-filter-api-openapi.yml
 - filename: emotive-sensus-webhooks-api-openapi.yml
   format: yaml
   label: Emotive Sensus Webhooks API
   slug: emotive-sensus-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-sensus-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-sensus-webhooks-api-openapi.yml
 - filename: emotive-shopify-api-openapi.yml
   format: yaml
   label: Emotive Shopify API
   slug: emotive-shopify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-shopify-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-shopify-api-openapi.yml
 - filename: emotive-single-segment-api-openapi.yml
   format: yaml
   label: Emotive Single Segment API
   slug: emotive-single-segment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-single-segment-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-single-segment-api-openapi.yml
 - filename: emotive-subscriber-api-openapi.yml
   format: yaml
   label: Emotive Subscriber API
   slug: emotive-subscriber-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-subscriber-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-subscriber-api-openapi.yml
 - filename: emotive-subscriber-engine-subscriber-api-openapi.yml
   format: yaml
   label: Emotive subscriber_engine Subscriber API
   slug: emotive-subscriber-engine-subscriber-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-subscriber-engine-subscriber-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-subscriber-engine-subscriber-api-openapi.yml
 - filename: emotive-sync-api-openapi.yml
   format: yaml
   label: Emotive Sync API
   slug: emotive-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-sync-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-sync-api-openapi.yml
 - filename: emotive-ticket-systems-api-openapi.yml
   format: yaml
   label: Emotive Ticket Systems API
   slug: emotive-ticket-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-ticket-systems-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-ticket-systems-api-openapi.yml
 - filename: emotive-tickets-api-openapi.yml
   format: yaml
   label: Emotive Tickets API
   slug: emotive-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-tickets-api-openapi.yml
 - filename: emotive-token-api-openapi.yml
   format: yaml
   label: Emotive Token API
   slug: emotive-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-token-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-token-api-openapi.yml
 - filename: emotive-user-api-api-openapi.yml
   format: yaml
   label: Emotive User API
   slug: emotive-user-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-user-api-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-user-api-api-openapi.yml
 - filename: emotive-webhooks-api-openapi.yml
   format: yaml
   label: Emotive Webhooks API
   slug: emotive-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-webhooks-api-openapi.yml
 - filename: emotive-zapier-me-api-api-openapi.yml
   format: yaml
   label: Emotive Zapier Me API
   slug: emotive-zapier-me-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-zapier-me-api-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-zapier-me-api-api-openapi.yml
 - filename: emotive-oauth-api-openapi.yml
   format: yaml
   label: Emotive OAUTH API
   slug: emotive-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/emotive/openapi/emotive-oauth-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -298,7 +298,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://emotive
   \ endpoint.\n  applies_to:\n  - Emotive Open API (orders, opt-outs, custom events)\n  - Emotive Lists API (subscriber engine)\n  - Emotive Sensus Webhooks API (subscriber, profile properties)\n  sources:\n  - openapi/emotive-open-api-openapi.yml\n  - openapi/emotive-subscriber-engine-openapi.yml\n  docs: https://emotive.gitbook.io/emotive-lists/reference/authentication\n  failure_response:\n    status: 401\n    body: '{\"detail\": \"Authentication credentials were not provided.\"}'\n    observed: '2026-08-13 against https://api.emotiveapp.co/ecommerce/v1/orders/'\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: >-\n    Brand token for the Helpdesk API. Minted by POSTing to /connections/config with an\n    Emotive JWT; each brand may hold only one active token. Used for every subsequent\n    Helpdesk request and for the brand's own webhook configuration.\n  applies_to:\n  - Emotive Helpdesk API\n  - Emotive Auth Server API\n  sources:\n  - openapi/emotive-helpdesk-openapi.yml\n\
   \  - openapi/emotive-auth-openapi.yml\n  docs: https://help.emotive.io/docs/integrations/custom-helpdesk\n- name: AlloyKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: Partner key variant used for the Alloy integration path on the Helpdesk service.\n  sources: [openapi/emotive-helpdesk-openapi.yml]\n- name: InternalApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: Internal service-to-service key variant declared on the Helpdesk service.\n  sources: [openapi/emotive-helpdesk-openapi.yml]\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: >-\n    Emotive JWT, presented as `Authorization: bearer {emotive JWT}`. Required to bootstrap\n    a Helpdesk brand token and to call the Auth Server's brand/user management operations.\n  sources: [openapi/emotive-helpdesk-openapi.yml]\n  docs: https://help.emotive.io/docs/integrations/custom-helpdesk\n- name: cookieAuth\n  type: apiKey\n  in: cookie\n  parameter:\
   \ access_token_cookie\n  description: Browser session cookie carrying the same Emotive JWT; used by the dashboard.\n  sources: [openapi/emotive-helpdesk-openapi.yml]\ntoken_endpoints:\n- POST https://api-gw.emotiveapp.co/auth/oauth/token\n- POST https://api-gw.emotiveapp.co/auth/v2/oauth/token\n- POST https://api-gw.emotiveapp.co/auth/auth0/token\n- GET  https://api-gw.emotiveapp.co/auth/google/token\n- GET  https://api-gw.emotiveapp.co/auth/shopify/token\nidentity_providers:\n- Auth0\n- Google\n- Shopify\ngaps:\n- No published OAuth scope list and no oauth2 securityScheme, despite live token endpoints.\n- No self-service API key issuance for the Open API; the docs route developers to support@emotive.io.\n- No documented token rotation, expiry or revocation policy.\n- No /.well-known/openid-configuration or /.well-known/oauth-authorization-server on any host.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/authentication/emotive-authentication.yml
+source_yaml_url: https://artifacts.apis.io/emotive/authentication/emotive-authentication.yml
 summary_line: apiKey/http · 6 schemes
 tags:
 - Company

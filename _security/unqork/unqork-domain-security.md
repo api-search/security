@@ -5,103 +5,103 @@ api_specs:
   label: Unqork Applications API
   slug: unqork-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-applications-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-applications-api-openapi.yml
 - filename: unqork-authentication-api-openapi.yml
   format: yaml
   label: Unqork Authentication API
   slug: unqork-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-authentication-api-openapi.yml
 - filename: unqork-credentials-api-openapi.yml
   format: yaml
   label: Unqork Credentials API
   slug: unqork-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-credentials-api-openapi.yml
 - filename: unqork-data-collections-api-openapi.yml
   format: yaml
   label: Unqork Data Collections API
   slug: unqork-data-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-data-collections-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-data-collections-api-openapi.yml
 - filename: unqork-data-model-records-api-openapi.yml
   format: yaml
   label: Unqork Data Model Records API
   slug: unqork-data-model-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-data-model-records-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-data-model-records-api-openapi.yml
 - filename: unqork-global-variables-api-openapi.yml
   format: yaml
   label: Unqork Global Variables API
   slug: unqork-global-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-global-variables-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-global-variables-api-openapi.yml
 - filename: unqork-groups-api-openapi.yml
   format: yaml
   label: Unqork Groups API
   slug: unqork-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-groups-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-groups-api-openapi.yml
 - filename: unqork-logs-api-openapi.yml
   format: yaml
   label: Unqork Logs API
   slug: unqork-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-logs-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-logs-api-openapi.yml
 - filename: unqork-modules-api-openapi.yml
   format: yaml
   label: Unqork Modules API
   slug: unqork-modules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-modules-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-modules-api-openapi.yml
 - filename: unqork-promotions-api-openapi.yml
   format: yaml
   label: Unqork Promotions API
   slug: unqork-promotions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-promotions-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-promotions-api-openapi.yml
 - filename: unqork-query-api-openapi.yml
   format: yaml
   label: Unqork Query API
   slug: unqork-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-query-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-query-api-openapi.yml
 - filename: unqork-revisions-api-openapi.yml
   format: yaml
   label: Unqork Revisions API
   slug: unqork-revisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-revisions-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-revisions-api-openapi.yml
 - filename: unqork-search-configs-api-openapi.yml
   format: yaml
   label: Unqork Search Configs API
   slug: unqork-search-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-search-configs-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-search-configs-api-openapi.yml
 - filename: unqork-submissions-api-openapi.yml
   format: yaml
   label: Unqork Submissions API
   slug: unqork-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-submissions-api-openapi.yml
 - filename: unqork-transforms-api-openapi.yml
   format: yaml
   label: Unqork Transforms API
   slug: unqork-transforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-transforms-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-transforms-api-openapi.yml
 - filename: unqork-users-api-openapi.yml
   format: yaml
   label: Unqork Users API
   slug: unqork-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-users-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-users-api-openapi.yml
 - filename: unqork-workflow-api-openapi.yml
   format: yaml
   label: Unqork Workflow API
   slug: unqork-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-workflow-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -156,7 +156,7 @@ source_filename: unqork-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-31'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: unqork.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 20:53:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.unqork.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 23:59:59 2026 GMT\n  hsts: false\n- host: training.unqork.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 10 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: unqork.com\n  dnssec: true\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: unqork.io\n  dnssec: false\n  caa:\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"csc.com\"\n  - 0 issue \"cscglobal.com\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/security/unqork-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/unqork/security/unqork-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

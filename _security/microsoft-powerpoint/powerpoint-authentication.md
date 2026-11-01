@@ -7,7 +7,7 @@ api_specs:
   label: Microsoft PowerPoint Drive Items API
   slug: microsoft-powerpoint-drive-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-powerpoint/refs/heads/main/openapi/microsoft-powerpoint-drive-items-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-powerpoint/openapi/microsoft-powerpoint-drive-items-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -43,7 +43,7 @@ source_filename: powerpoint-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/powerpoint-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n    scopes: 4\n  description: |-\n    Microsoft Graph uses Microsoft Entra ID (Azure AD) OAuth 2.0.\n    Apps require delegated or application permissions such as Files.Read,\n    Files.ReadWrite, Sites.Read.All, or Sites.ReadWrite.All.\n  sources:\n  - openapi/powerpoint-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-powerpoint/refs/heads/main/authentication/powerpoint-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-powerpoint/authentication/powerpoint-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Microsoft Office

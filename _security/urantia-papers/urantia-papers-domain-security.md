@@ -5,79 +5,97 @@ api_specs:
   label: Urantia Papers Audio API
   slug: urantia-papers-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urantia-papers/refs/heads/main/openapi/urantia-papers-audio-api-openapi.yml
+  url: https://artifacts.apis.io/urantia-papers/openapi/urantia-papers-audio-api-openapi.yml
 - filename: urantia-papers-bible-api-openapi.yml
   format: yaml
   label: Urantia Papers Bible API
   slug: urantia-papers-bible-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urantia-papers/refs/heads/main/openapi/urantia-papers-bible-api-openapi.yml
+  url: https://artifacts.apis.io/urantia-papers/openapi/urantia-papers-bible-api-openapi.yml
 - filename: urantia-papers-citation-api-openapi.yml
   format: yaml
   label: Urantia Papers Citation API
   slug: urantia-papers-citation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urantia-papers/refs/heads/main/openapi/urantia-papers-citation-api-openapi.yml
+  url: https://artifacts.apis.io/urantia-papers/openapi/urantia-papers-citation-api-openapi.yml
 - filename: urantia-papers-embeddings-api-openapi.yml
   format: yaml
   label: Urantia Papers Embeddings API
   slug: urantia-papers-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urantia-papers/refs/heads/main/openapi/urantia-papers-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/urantia-papers/openapi/urantia-papers-embeddings-api-openapi.yml
 - filename: urantia-papers-entities-api-openapi.yml
   format: yaml
   label: Urantia Papers Entities API
   slug: urantia-papers-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urantia-papers/refs/heads/main/openapi/urantia-papers-entities-api-openapi.yml
+  url: https://artifacts.apis.io/urantia-papers/openapi/urantia-papers-entities-api-openapi.yml
 - filename: urantia-papers-feedback-api-openapi.yml
   format: yaml
   label: Urantia Papers Feedback API
   slug: urantia-papers-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urantia-papers/refs/heads/main/openapi/urantia-papers-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/urantia-papers/openapi/urantia-papers-feedback-api-openapi.yml
 - filename: urantia-papers-languages-api-openapi.yml
   format: yaml
   label: Urantia Papers Languages API
   slug: urantia-papers-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urantia-papers/refs/heads/main/openapi/urantia-papers-languages-api-openapi.yml
+  url: https://artifacts.apis.io/urantia-papers/openapi/urantia-papers-languages-api-openapi.yml
 - filename: urantia-papers-og-images-api-openapi.yml
   format: yaml
   label: Urantia Papers OG Images API
   slug: urantia-papers-og-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urantia-papers/refs/heads/main/openapi/urantia-papers-og-images-api-openapi.yml
+  url: https://artifacts.apis.io/urantia-papers/openapi/urantia-papers-og-images-api-openapi.yml
 - filename: urantia-papers-papers-api-openapi.yml
   format: yaml
   label: Urantia Papers Papers API
   slug: urantia-papers-papers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urantia-papers/refs/heads/main/openapi/urantia-papers-papers-api-openapi.yml
+  url: https://artifacts.apis.io/urantia-papers/openapi/urantia-papers-papers-api-openapi.yml
 - filename: urantia-papers-paragraphs-api-openapi.yml
   format: yaml
   label: Urantia Papers Paragraphs API
   slug: urantia-papers-paragraphs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urantia-papers/refs/heads/main/openapi/urantia-papers-paragraphs-api-openapi.yml
+  url: https://artifacts.apis.io/urantia-papers/openapi/urantia-papers-paragraphs-api-openapi.yml
 - filename: urantia-papers-search-api-openapi.yml
   format: yaml
   label: Urantia Papers Search API
   slug: urantia-papers-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urantia-papers/refs/heads/main/openapi/urantia-papers-search-api-openapi.yml
+  url: https://artifacts.apis.io/urantia-papers/openapi/urantia-papers-search-api-openapi.yml
 - filename: urantia-papers-table-of-contents-api-openapi.yml
   format: yaml
   label: Urantia Papers Table of Contents API
   slug: urantia-papers-table-of-contents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urantia-papers/refs/heads/main/openapi/urantia-papers-table-of-contents-api-openapi.yml
+  url: https://artifacts.apis.io/urantia-papers/openapi/urantia-papers-table-of-contents-api-openapi.yml
 - filename: urantia-papers-tools-api-openapi.yml
   format: yaml
   label: Urantia Papers Tools API
   slug: urantia-papers-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urantia-papers/refs/heads/main/openapi/urantia-papers-tools-api-openapi.yml
+  url: https://artifacts.apis.io/urantia-papers/openapi/urantia-papers-tools-api-openapi.yml
+- filename: urantia-papers-quotes-api-openapi.yml
+  format: yaml
+  label: Urantia Papers Quotes API
+  slug: urantia-papers-quotes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/urantia-papers/openapi/urantia-papers-quotes-api-openapi.yml
+- filename: urantia-papers-scriptures-api-openapi.yml
+  format: yaml
+  label: Urantia Papers Scriptures API
+  slug: urantia-papers-scriptures-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/urantia-papers/openapi/urantia-papers-scriptures-api-openapi.yml
+- filename: urantia-papers-works-api-openapi.yml
+  format: yaml
+  label: Urantia Papers Works API
+  slug: urantia-papers-works-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/urantia-papers/openapi/urantia-papers-works-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -106,7 +124,7 @@ source_filename: urantia-papers-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: urantia.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  3 19:44:39 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: urantia.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/urantia-papers/refs/heads/main/security/urantia-papers-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/urantia-papers/security/urantia-papers-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Books

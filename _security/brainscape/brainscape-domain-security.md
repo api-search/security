@@ -27,12 +27,12 @@ source_filename: brainscape-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.brainscape.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 17 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: brainscape.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brainscape/refs/heads/main/security/brainscape-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/brainscape/security/brainscape-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Education
 - Flashcards
 - Learning
-- StudyTools
+- Study Tools
 - Mobile App
 ---

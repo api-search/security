@@ -5,31 +5,31 @@ api_specs:
   label: TheGamesDB Developers API
   slug: thegamesdb-developers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/openapi/thegamesdb-developers-api-openapi.yml
+  url: https://artifacts.apis.io/thegamesdb/openapi/thegamesdb-developers-api-openapi.yml
 - filename: thegamesdb-games-api-openapi.yml
   format: yaml
   label: TheGamesDB Games API
   slug: thegamesdb-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/openapi/thegamesdb-games-api-openapi.yml
+  url: https://artifacts.apis.io/thegamesdb/openapi/thegamesdb-games-api-openapi.yml
 - filename: thegamesdb-genres-api-openapi.yml
   format: yaml
   label: TheGamesDB Genres API
   slug: thegamesdb-genres-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/openapi/thegamesdb-genres-api-openapi.yml
+  url: https://artifacts.apis.io/thegamesdb/openapi/thegamesdb-genres-api-openapi.yml
 - filename: thegamesdb-platforms-api-openapi.yml
   format: yaml
   label: TheGamesDB Platforms API
   slug: thegamesdb-platforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/openapi/thegamesdb-platforms-api-openapi.yml
+  url: https://artifacts.apis.io/thegamesdb/openapi/thegamesdb-platforms-api-openapi.yml
 - filename: thegamesdb-publishers-api-openapi.yml
   format: yaml
   label: TheGamesDB Publishers API
   slug: thegamesdb-publishers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/openapi/thegamesdb-publishers-api-openapi.yml
+  url: https://artifacts.apis.io/thegamesdb/openapi/thegamesdb-publishers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: thegamesdb-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: thegamesdb.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 21:15:06 2026 GMT\n  hsts: false\n- host: api.thegamesdb.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 16:15:20 2026 GMT\n  hsts: false\ndomains:\n- domain: thegamesdb.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/security/thegamesdb-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/thegamesdb/security/thegamesdb-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Database

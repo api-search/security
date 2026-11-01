@@ -41,7 +41,7 @@ source_filename: waiv-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: waiv.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 16:29:11 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: wearewaiv.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 13:39:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  note: Legacy brand domain; 301 redirects to waiv.com. Still the published contact/mail\n    domain (marketing@wearewaiv.com).\ndomains:\n- domain: waiv.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n  note: Current canonical web domain. No SPF or DMARC TXT record was returned on probe,\n    while the legacy wearewaiv.com domain publishes both — the email posture has not\n    followed the domain rename.\n- domain: wearewaiv.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/waiv/refs/heads/main/security/waiv-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/waiv/security/waiv-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

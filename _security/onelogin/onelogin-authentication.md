@@ -7,37 +7,37 @@ api_specs:
   label: OneLogin Apps API
   slug: onelogin-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onelogin/refs/heads/main/openapi/onelogin-apps-api-openapi.yml
+  url: https://artifacts.apis.io/onelogin/openapi/onelogin-apps-api-openapi.yml
 - filename: onelogin-mfa-api-openapi.yml
   format: yaml
   label: OneLogin MFA API
   slug: onelogin-mfa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onelogin/refs/heads/main/openapi/onelogin-mfa-api-openapi.yml
+  url: https://artifacts.apis.io/onelogin/openapi/onelogin-mfa-api-openapi.yml
 - filename: onelogin-roles-api-openapi.yml
   format: yaml
   label: OneLogin Roles API
   slug: onelogin-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onelogin/refs/heads/main/openapi/onelogin-roles-api-openapi.yml
+  url: https://artifacts.apis.io/onelogin/openapi/onelogin-roles-api-openapi.yml
 - filename: onelogin-saml-api-openapi.yml
   format: yaml
   label: OneLogin SAML API
   slug: onelogin-saml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onelogin/refs/heads/main/openapi/onelogin-saml-api-openapi.yml
+  url: https://artifacts.apis.io/onelogin/openapi/onelogin-saml-api-openapi.yml
 - filename: onelogin-users-api-openapi.yml
   format: yaml
   label: OneLogin Users API
   slug: onelogin-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onelogin/refs/heads/main/openapi/onelogin-users-api-openapi.yml
+  url: https://artifacts.apis.io/onelogin/openapi/onelogin-users-api-openapi.yml
 - filename: onelogin-oauth-api-openapi.yml
   format: yaml
   label: OneLogin O Auth API
   slug: onelogin-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onelogin/refs/heads/main/openapi/onelogin-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/onelogin/openapi/onelogin-oauth-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +64,7 @@ source_filename: onelogin-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/onelogin-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/onelogin-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onelogin/refs/heads/main/authentication/onelogin-authentication.yml
+source_yaml_url: https://artifacts.apis.io/onelogin/authentication/onelogin-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Identity

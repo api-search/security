@@ -27,12 +27,12 @@ source_filename: braincube7f2a-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: braincube.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 12:54:19 2026 GMT\n  hsts: false\ndomains:\n- domain: braincube.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/braincube7f2a/refs/heads/main/security/braincube7f2a-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/braincube7f2a/security/braincube7f2a-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Industrial AI
 - Process Optimization
 - Manufacturing
-- Real-time Analytics
+- Real-Time Analytics
 ---

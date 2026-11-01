@@ -5,43 +5,43 @@ api_specs:
   label: Ansa Add Incentive API
   slug: ansa-add-incentive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/openapi/ansa-add-incentive-api-openapi.yml
+  url: https://artifacts.apis.io/ansa/openapi/ansa-add-incentive-api-openapi.yml
 - filename: ansa-customer-segments-api-openapi.yml
   format: yaml
   label: Ansa Customer Segments API
   slug: ansa-customer-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/openapi/ansa-customer-segments-api-openapi.yml
+  url: https://artifacts.apis.io/ansa/openapi/ansa-customer-segments-api-openapi.yml
 - filename: ansa-customers-api-openapi.yml
   format: yaml
   label: Ansa Customers API
   slug: ansa-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/openapi/ansa-customers-api-openapi.yml
+  url: https://artifacts.apis.io/ansa/openapi/ansa-customers-api-openapi.yml
 - filename: ansa-initialize-payment-session-api-openapi.yml
   format: yaml
   label: Ansa Initialize Payment Session API
   slug: ansa-initialize-payment-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/openapi/ansa-initialize-payment-session-api-openapi.yml
+  url: https://artifacts.apis.io/ansa/openapi/ansa-initialize-payment-session-api-openapi.yml
 - filename: ansa-merchants-api-openapi.yml
   format: yaml
   label: Ansa Merchants API
   slug: ansa-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/openapi/ansa-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/ansa/openapi/ansa-merchants-api-openapi.yml
 - filename: ansa-refunds-api-openapi.yml
   format: yaml
   label: Ansa Refunds API
   slug: ansa-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/openapi/ansa-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/ansa/openapi/ansa-refunds-api-openapi.yml
 - filename: ansa-transactions-api-openapi.yml
   format: yaml
   label: Ansa Transactions API
   slug: ansa-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/openapi/ansa-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/ansa/openapi/ansa-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -89,7 +89,7 @@ source_filename: ansa-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ansa.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 14:12:43 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.getansa.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 28 23:59:59 2026 GMT\n  hsts: null\n- host: api-sandbox.getansa.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 28 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: ansa.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: getansa.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/security/ansa-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ansa/security/ansa-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -7,43 +7,43 @@ api_specs:
   label: Bankwest Banking Account Balances API
   slug: bankwest-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/openapi/bankwest-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/bankwest/openapi/bankwest-banking-account-balances-api-openapi.yml
 - filename: bankwest-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Bankwest Banking Account Direct Debits API
   slug: bankwest-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/openapi/bankwest-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/bankwest/openapi/bankwest-banking-account-direct-debits-api-openapi.yml
 - filename: bankwest-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Bankwest Banking Account Scheduled Payments API
   slug: bankwest-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/openapi/bankwest-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/bankwest/openapi/bankwest-banking-account-scheduled-payments-api-openapi.yml
 - filename: bankwest-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Bankwest Banking Account Transactions API
   slug: bankwest-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/openapi/bankwest-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bankwest/openapi/bankwest-banking-account-transactions-api-openapi.yml
 - filename: bankwest-banking-accounts-api-openapi.yml
   format: yaml
   label: Bankwest Banking Accounts API
   slug: bankwest-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/openapi/bankwest-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bankwest/openapi/bankwest-banking-accounts-api-openapi.yml
 - filename: bankwest-banking-payees-api-openapi.yml
   format: yaml
   label: Bankwest Banking Payees API
   slug: bankwest-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/openapi/bankwest-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/bankwest/openapi/bankwest-banking-payees-api-openapi.yml
 - filename: bankwest-banking-products-api-openapi.yml
   format: yaml
   label: Bankwest Banking Products API
   slug: bankwest-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/openapi/bankwest-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/bankwest/openapi/bankwest-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -78,7 +78,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://www.bankwest.com.au/support/open-banking/developers\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#security-profile\nnote: >-\n  The harvested OpenAPI declares no securitySchemes because the Product Reference\n  Data (PRD) endpoints are public. This profile is authored from Bankwest's\n  developer page and the DSB Consumer Data Standards security profile.\nsummary:\n  types: [none, oauth2, openIdConnect]\n  public_surface: none\n  consumer_surface: oauth2 + openIdConnect (FAPI 2.0)\nschemes:\n- name: publicPRD\n  type: none\n  applies_to: [listBankingProducts, getBankingProductDetail]\n  detail: >-\n    Product APIs are publicly available; no authentication is required. Only the\n    mandatory x-v version header must be supplied. Confirmed live (HTTP 200).\n- name: cdrConsumerAuthorisation\n  type: openIdConnect\n  applies_to: []\n  publicly_callable: false\n  detail: >-\n    Access to consumer (customer-authorised)\
   \ CDR data beyond PRD is NOT publicly\n    callable. It requires ACCC accreditation as an Accredited Data Recipient and\n    customer consent, using OAuth 2.0 / OpenID Connect under the FAPI 2.0 security\n    profile with Pushed Authorization Requests (PAR) as mandated by the Consumer\n    Data Standards. Bankwest publishes no self-onboarding path for this channel.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/authentication/bankwest-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bankwest/authentication/bankwest-authentication.yml
 summary_line: none/oauth2/openIdConnect · 2 schemes
 tags:
 - Finance

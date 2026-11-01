@@ -8,31 +8,37 @@ api_specs:
   label: HealthSherpa Enrollment Sessions API
   slug: healthsherpa-enrollment-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/openapi/healthsherpa-enrollment-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/healthsherpa/openapi/healthsherpa-enrollment-sessions-api-openapi.yml
 - filename: healthsherpa-enrollments-api-openapi.yml
   format: yaml
   label: HealthSherpa Enrollments API
   slug: healthsherpa-enrollments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/openapi/healthsherpa-enrollments-api-openapi.yml
+  url: https://artifacts.apis.io/healthsherpa/openapi/healthsherpa-enrollments-api-openapi.yml
 - filename: healthsherpa-quotes-api-openapi.yml
   format: yaml
   label: HealthSherpa Quotes API
   slug: healthsherpa-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/openapi/healthsherpa-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/healthsherpa/openapi/healthsherpa-quotes-api-openapi.yml
 - filename: healthsherpa-reference-api-openapi.yml
   format: yaml
   label: HealthSherpa Reference API
   slug: healthsherpa-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/openapi/healthsherpa-reference-api-openapi.yml
+  url: https://artifacts.apis.io/healthsherpa/openapi/healthsherpa-reference-api-openapi.yml
 - filename: healthsherpa-utility-api-openapi.yml
   format: yaml
   label: HealthSherpa Utility API
   slug: healthsherpa-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/openapi/healthsherpa-utility-api-openapi.yml
+  url: https://artifacts.apis.io/healthsherpa/openapi/healthsherpa-utility-api-openapi.yml
+- filename: healthsherpa-policy-status-api-openapi.yml
+  format: yaml
+  label: HealthSherpa Policy Status API
+  slug: healthsherpa-policy-status-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/healthsherpa/openapi/healthsherpa-policy-status-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -59,7 +65,7 @@ source_filename: healthsherpa-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/healthsherpa-one-openapi.json\ndocs: https://one.healthsherpa.com/docs.html\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  notes: >-\n    Single scheme on the public ONE API. Keys are issued at onboarding and revealed once in the\n    passwordless developer portal; server-side use only. No OAuth, sessions, or HMAC signing on ONE.\n    (Separately, the HealthSherpa Medicare Partner API offers v1 API keys and a v2 OAuth flow, and\n    the ICHRA Partner API also uses x-api-key — those surfaces publish no OpenAPI.)\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/healthsherpa-one-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/authentication/healthsherpa-authentication.yml
+source_yaml_url: https://artifacts.apis.io/healthsherpa/authentication/healthsherpa-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

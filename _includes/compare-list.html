@@ -1,0 +1,50 @@
+{%- comment -%}
+  compare-list.html — /compare/cohorts/ and /compare/providers/: every showcase pair as a card
+  with both K'in suns. page.compare_kind picks the list.
+{%- endcomment -%}
+{%- assign SC = site.data.compare_showcase -%}
+{% include compare-css.html %}
+<div class="cmp-crumb"><a href="/compare/">Compare</a> / {% if page.compare_kind == 'cohorts' %}Markets{% else %}Providers{% endif %}</div>
+{%- if page.compare_kind == 'cohorts' %}
+<span class="cmp-tool">compare_cohorts</span>
+<h1>Compare two API markets on one rubric</h1>
+<p class="cmp-lead">Is payments further along than banking? Does Europe publish better APIs than North America? A written report covers one market at a time. <code>compare_cohorts</code> puts any two tags, industries, regions, areas or VC portfolios side by side: both distributions, and the delta on the Kin Score, agent readiness, every facet and every adoption rate.</p>
+<p>It also tells you when not to trust the gap. When the higher-scoring cohort is also the one we enriched more deeply, <code>depth_confounded</code> is true, and each comparison below shows that warning before its narrative. Here are {{ SC.cohorts.size }} real results.</p>
+<div class="cmp-grid">
+  {%- for c in SC.cohorts -%}
+  <a class="cmp-card" href="/compare/cohorts/{{ c.id }}/">
+    <div class="cmp-card-suns">
+      {% include compare-sun.html small=true name=c.result.a.name score=c.suns.a.score band=c.suns.a.band agent_score=c.suns.a.agent_score agent_band=c.suns.a.agent_band facets=c.suns.a.facets %}
+      <span class="cmp-score">{{ c.suns.a.score }}</span><span class="cmp-vs">VS</span><span class="cmp-score">{{ c.suns.b.score }}</span>
+      {% include compare-sun.html small=true name=c.result.b.name score=c.suns.b.score band=c.suns.b.band agent_score=c.suns.b.agent_score agent_band=c.suns.b.agent_band facets=c.suns.b.facets %}
+    </div>
+    <h3>{{ c.result.a.name }} vs {{ c.result.b.name }}</h3>
+    <p>{{ c.summary }}</p>
+  </a>
+  {%- endfor -%}
+</div>
+{%- capture args -%}{"a": "tag:payments", "b": "industry:banking"}{%- endcapture -%}
+{% include compare-footer.html tool='compare_cohorts' args_json=args curl='/cohorts/compare?a=tag:payments&b=industry:banking' %}
+{%- else %}
+<span class="cmp-tool">compare_providers</span>
+<h1>Compare API providers head to head</h1>
+<p class="cmp-lead">Choosing between two vendors usually means a week of reading docs and pricing pages. <code>compare_providers</code> returns the answer in one call: composite score and band, the leader on every facet, an artifact-coverage matrix, and each provider's economics, including entry cost, marginal cost and take rate, with the plan and quoted figure behind each number.</p>
+<p>Here are {{ SC.providers.size }} real results from some of the most-compared APIs in the catalog.</p>
+<div class="cmp-grid">
+  {%- for c in SC.providers -%}
+  {%- assign pa = c.result.providers[0] -%}{%- assign pb = c.result.providers[1] -%}
+  {%- assign fa = c.suns[pa.slug].facets -%}{%- assign fb = c.suns[pb.slug].facets -%}{%- assign da = c.dims[pa.slug] -%}{%- assign db = c.dims[pb.slug] -%}
+  <a class="cmp-card" href="/compare/providers/{{ c.id }}/">
+    <div class="cmp-card-suns">
+      {% include compare-sun.html small=true name=pa.name score=pa.composite band=pa.band agent_score=pa.agent_readiness.score agent_band=pa.agent_readiness.band facets=fa dims=da %}
+      <span class="cmp-score">{{ pa.composite }}</span><span class="cmp-vs">VS</span><span class="cmp-score">{{ pb.composite }}</span>
+      {% include compare-sun.html small=true name=pb.name score=pb.composite band=pb.band agent_score=pb.agent_readiness.score agent_band=pb.agent_readiness.band facets=fb dims=db %}
+    </div>
+    <h3>{{ pa.name }} vs {{ pb.name }}</h3>
+    <p>{{ c.summary }}</p>
+  </a>
+  {%- endfor -%}
+</div>
+{%- capture args -%}{"providers": ["stripe", "adyen"]}{%- endcapture -%}
+{% include compare-footer.html tool='compare_providers' args_json=args curl='/compare?providers=stripe,adyen' %}
+{%- endif %}

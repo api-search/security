@@ -8,67 +8,67 @@ api_specs:
   label: CubeFS Buckets API
   slug: cubefs-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/openapi/cubefs-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/cubefs/openapi/cubefs-buckets-api-openapi.yml
 - filename: cubefs-cluster-api-openapi.yml
   format: yaml
   label: CubeFS Cluster API
   slug: cubefs-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/openapi/cubefs-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/cubefs/openapi/cubefs-cluster-api-openapi.yml
 - filename: cubefs-datapartitions-api-openapi.yml
   format: yaml
   label: CubeFS DataPartitions API
   slug: cubefs-datapartitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/openapi/cubefs-datapartitions-api-openapi.yml
+  url: https://artifacts.apis.io/cubefs/openapi/cubefs-datapartitions-api-openapi.yml
 - filename: cubefs-metanodes-api-openapi.yml
   format: yaml
   label: CubeFS MetaNodes API
   slug: cubefs-metanodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/openapi/cubefs-metanodes-api-openapi.yml
+  url: https://artifacts.apis.io/cubefs/openapi/cubefs-metanodes-api-openapi.yml
 - filename: cubefs-metapartitions-api-openapi.yml
   format: yaml
   label: CubeFS MetaPartitions API
   slug: cubefs-metapartitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/openapi/cubefs-metapartitions-api-openapi.yml
+  url: https://artifacts.apis.io/cubefs/openapi/cubefs-metapartitions-api-openapi.yml
 - filename: cubefs-multipart-api-openapi.yml
   format: yaml
   label: CubeFS Multipart API
   slug: cubefs-multipart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/openapi/cubefs-multipart-api-openapi.yml
+  url: https://artifacts.apis.io/cubefs/openapi/cubefs-multipart-api-openapi.yml
 - filename: cubefs-objects-api-openapi.yml
   format: yaml
   label: CubeFS Objects API
   slug: cubefs-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/openapi/cubefs-objects-api-openapi.yml
+  url: https://artifacts.apis.io/cubefs/openapi/cubefs-objects-api-openapi.yml
 - filename: cubefs-users-api-openapi.yml
   format: yaml
   label: CubeFS Users API
   slug: cubefs-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/openapi/cubefs-users-api-openapi.yml
+  url: https://artifacts.apis.io/cubefs/openapi/cubefs-users-api-openapi.yml
 - filename: cubefs-volumes-api-openapi.yml
   format: yaml
   label: CubeFS Volumes API
   slug: cubefs-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/openapi/cubefs-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/cubefs/openapi/cubefs-volumes-api-openapi.yml
 - filename: cubefs-acls-api-openapi.yml
   format: yaml
   label: CubeFS AC Ls API
   slug: cubefs-acls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/openapi/cubefs-acls-api-openapi.yml
+  url: https://artifacts.apis.io/cubefs/openapi/cubefs-acls-api-openapi.yml
 - filename: cubefs-data-nodes-api-openapi.yml
   format: yaml
   label: CubeFS Data Nodes API
   slug: cubefs-data-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/openapi/cubefs-data-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/cubefs/openapi/cubefs-data-nodes-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -96,7 +96,7 @@ source_filename: cubefs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cubefs-s3-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: awsAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'AWS Signature Version 4 authorization. Format: AWS4-HMAC-SHA256 Credential={accessKey}/{date}/{region}/s3/aws4_request,\n    SignedHeaders={headers}, Signature={signature}. Access keys are managed via the CubeFS Master\n    API user management endpoints.'\n  sources:\n  - openapi/cubefs-s3-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/authentication/cubefs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cubefs/authentication/cubefs-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Cloud-Native

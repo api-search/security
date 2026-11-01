@@ -5,31 +5,31 @@ api_specs:
   label: CharitySense Assistant API
   slug: charitysense-com-assistant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charitysense-com/refs/heads/main/openapi/charitysense-com-assistant-api-openapi.yml
+  url: https://artifacts.apis.io/charitysense-com/openapi/charitysense-com-assistant-api-openapi.yml
 - filename: charitysense-com-dataset-api-openapi.yml
   format: yaml
   label: CharitySense Dataset API
   slug: charitysense-com-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charitysense-com/refs/heads/main/openapi/charitysense-com-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/charitysense-com/openapi/charitysense-com-dataset-api-openapi.yml
 - filename: charitysense-com-discovery-api-openapi.yml
   format: yaml
   label: CharitySense Discovery API
   slug: charitysense-com-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charitysense-com/refs/heads/main/openapi/charitysense-com-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/charitysense-com/openapi/charitysense-com-discovery-api-openapi.yml
 - filename: charitysense-com-profiles-api-openapi.yml
   format: yaml
   label: CharitySense Profiles API
   slug: charitysense-com-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charitysense-com/refs/heads/main/openapi/charitysense-com-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/charitysense-com/openapi/charitysense-com-profiles-api-openapi.yml
 - filename: charitysense-com-usage-api-openapi.yml
   format: yaml
   label: CharitySense Usage API
   slug: charitysense-com-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charitysense-com/refs/heads/main/openapi/charitysense-com-usage-api-openapi.yml
+  url: https://artifacts.apis.io/charitysense-com/openapi/charitysense-com-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: charitysense-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: charitysense.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 16:01:36 2026 GMT\n  hsts: false\n- host: data.charitysense.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 16:01:36 2026 GMT\n  hsts: false\ndomains:\n- domain: charitysense.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/charitysense-com/refs/heads/main/security/charitysense-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/charitysense-com/security/charitysense-com-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Non-Profit

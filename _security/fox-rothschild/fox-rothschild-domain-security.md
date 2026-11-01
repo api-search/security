@@ -40,7 +40,7 @@ source_filename: fox-rothschild-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.foxrothschild.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 11:40:41 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: advertisinglaw.foxrothschild.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 17:55:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: californiaemploymentlaw.foxrothschild.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 18:22:31 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: foxrothschild.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fox-rothschild/refs/heads/main/security/fox-rothschild-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fox-rothschild/security/fox-rothschild-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Law Firms

@@ -5,13 +5,13 @@ api_specs:
   label: Windy Point Forecast API
   slug: windy-point-forecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windy/refs/heads/main/openapi/windy-point-forecast-api-openapi.yml
+  url: https://artifacts.apis.io/windy/openapi/windy-point-forecast-api-openapi.yml
 - filename: windy-webcams-api-openapi.yml
   format: yaml
   label: Windy Webcams API
   slug: windy-webcams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windy/refs/heads/main/openapi/windy-webcams-api-openapi.yml
+  url: https://artifacts.apis.io/windy/openapi/windy-webcams-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: windy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.windy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 09:31:17 2026 GMT\n  hsts: false\n- host: api.windy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 09:31:17 2026 GMT\n  hsts: false\ndomains:\n- domain: windy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/windy/refs/heads/main/security/windy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/windy/security/windy-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Weather

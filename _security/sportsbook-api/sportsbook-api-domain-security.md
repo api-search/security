@@ -5,19 +5,19 @@ api_specs:
   label: Sportsbook API Betting Analysis API
   slug: sportsbook-api-betting-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsbook-api/refs/heads/main/openapi/sportsbook-api-betting-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/sportsbook-api/openapi/sportsbook-api-betting-analysis-api-openapi.yml
 - filename: sportsbook-api-odds-api-openapi.yml
   format: yaml
   label: Sportsbook API Odds API
   slug: sportsbook-api-odds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsbook-api/refs/heads/main/openapi/sportsbook-api-odds-api-openapi.yml
+  url: https://artifacts.apis.io/sportsbook-api/openapi/sportsbook-api-odds-api-openapi.yml
 - filename: sportsbook-api-reference-api-openapi.yml
   format: yaml
   label: Sportsbook API Reference API
   slug: sportsbook-api-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsbook-api/refs/heads/main/openapi/sportsbook-api-reference-api-openapi.yml
+  url: https://artifacts.apis.io/sportsbook-api/openapi/sportsbook-api-reference-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,7 +50,7 @@ source_filename: sportsbook-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sportsbookapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 07:28:31 2026 GMT\n  hsts: false\n- host: api.sportsbookapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 11:22:51 2026 GMT\n  hsts: false\ndomains:\n- domain: sportsbookapi.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sportsbook-api/refs/heads/main/security/sportsbook-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sportsbook-api/security/sportsbook-api-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Sports Betting

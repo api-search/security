@@ -34,12 +34,11 @@ source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-06-20'\nmethod: searched\nprobe: true\nsource: GitHub + GitLab public trust centers\ntrust_centers:\n  - provider: GitHub\n    url: https://ghec.github.trust.page/\n    certifications:\n      - ISO/IEC 27001:2013\n      - ISO/IEC 42001:2023\n      - CSA STAR Level 2\n      - SOC 1 Type 2\n      - SOC 2 Type 2\n      - SOC 3\n      - TISAX\n      - FedRAMP LI-SaaS\n    notes: >-\n      GitHub Enterprise Cloud with data residency is pursuing FedRAMP Moderate.\n      Copilot maintains a separate trust center at https://copilot.github.trust.page/.\n    evidence:\n      - {source: https://ghec.github.trust.page/, keywords: [soc 2, iso 27001, iso 42001, csa star, trust center]}\n  - provider: GitLab\n    url: https://trust.gitlab.com/\n    certifications:\n      - SOC 2 Type 2\n      - SOC 3\n      - ISO/IEC 27001:2022\n      - ISO/IEC 27017\n      - ISO/IEC 27018\n      - ISO/IEC 42001\n    notes: >-\n      Covers both GitLab.com and GitLab Dedicated. Trust center\
   \ powered by\n      SafeBase; certificates available in multiple languages.\n    evidence:\n      - {source: https://trust.gitlab.com/, keywords: [soc 2, iso 27001, iso 27017, iso 27018, iso 42001]}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/git/refs/heads/main/security/git-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/git/security/git-trust-center.yml
 summary_line: trust center published
 tags:
 - Distributed
-- Git
-- Open Source
 - Version Control
+- Open Source
 trust_url: ''
 ---

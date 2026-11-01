@@ -5,31 +5,37 @@ api_specs:
   label: CrewAI AMP Webhook Streaming
   slug: crewai-amp-webhook-streaming
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/asyncapi/crewai-amp-webhooks-asyncapi.yml
-- filename: crewai-cloud-inputs-api-openapi.yml
+  url: https://artifacts.apis.io/crewai-cloud/asyncapi/crewai-amp-webhooks-asyncapi.yml
+- filename: crewai-cloud-blog-posts-api-openapi.yml
   format: yaml
-  label: CrewAI Cloud Inputs API
-  slug: crewai-cloud-inputs-api
+  label: CrewAI Cloud Blog Posts API
+  slug: crewai-cloud-blog-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/openapi/crewai-cloud-inputs-api-openapi.yml
-- filename: crewai-cloud-kickoff-api-openapi.yml
+  url: https://artifacts.apis.io/crewai-cloud/openapi/crewai-cloud-blog-posts-api-openapi.yml
+- filename: crewai-cloud-case-studies-api-openapi.yml
   format: yaml
-  label: CrewAI Cloud Kickoff API
-  slug: crewai-cloud-kickoff-api
+  label: CrewAI Cloud Case Studies API
+  slug: crewai-cloud-case-studies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/openapi/crewai-cloud-kickoff-api-openapi.yml
-- filename: crewai-cloud-resume-api-openapi.yml
+  url: https://artifacts.apis.io/crewai-cloud/openapi/crewai-cloud-case-studies-api-openapi.yml
+- filename: crewai-cloud-events-api-openapi.yml
   format: yaml
-  label: CrewAI Cloud Resume API
-  slug: crewai-cloud-resume-api
+  label: CrewAI Cloud Events API
+  slug: crewai-cloud-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/openapi/crewai-cloud-resume-api-openapi.yml
-- filename: crewai-cloud-status-api-openapi.yml
+  url: https://artifacts.apis.io/crewai-cloud/openapi/crewai-cloud-events-api-openapi.yml
+- filename: crewai-cloud-health-api-openapi.yml
   format: yaml
-  label: CrewAI Cloud Status API
-  slug: crewai-cloud-status-api
+  label: CrewAI Cloud Health API
+  slug: crewai-cloud-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/openapi/crewai-cloud-status-api-openapi.yml
+  url: https://artifacts.apis.io/crewai-cloud/openapi/crewai-cloud-health-api-openapi.yml
+- filename: crewai-cloud-webinars-api-openapi.yml
+  format: yaml
+  label: CrewAI Cloud Webinars API
+  slug: crewai-cloud-webinars-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/crewai-cloud/openapi/crewai-cloud-webinars-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +71,7 @@ source_filename: crewai-cloud-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.crewai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 16:10:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.crewai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 12:45:45 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: crewai.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/security/crewai-cloud-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/crewai-cloud/security/crewai-cloud-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI Agents

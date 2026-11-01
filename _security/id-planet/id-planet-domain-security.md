@@ -27,7 +27,7 @@ source_filename: id-planet-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: idplanet.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar  1 12:15:02 2027 GMT\n  hsts: false\ndomains:\n- domain: idplanet.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/id-planet/refs/heads/main/security/id-planet-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/id-planet/security/id-planet-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

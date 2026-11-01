@@ -34,7 +34,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://docs.across.to/introduction/api-keys\nprovider: Across\napi: Across Swap API\ndocs: https://docs.across.to/introduction/api-keys\nsummary: >-\n  Production use of the Across Swap API requires two credentials: an API key\n  passed as a Bearer token in the Authorization header, and a 2-byte hex\n  integratorId. Testnet requires no credentials.\nschemes:\n- type: http\n  scheme: bearer\n  name: Authorization\n  in: header\n  required_for: production\n  format: 'Authorization: Bearer [example key]'\n  description: API key issued per integrator; sent on every API call.\n- type: apiKey\n  name: integratorId\n  in: query\n  required_for: production\n  format: 2-byte hex identifier (e.g. 0xdead, 0x0001, 0xffff)\n  description: >-\n    Unique integrator identifier. Passed as the integratorId query parameter on\n    Swap API calls; for direct contract integration it is appended to calldata\n    prefixed with the delimiter 1dc0de\
   \ (without the 0x prefix).\nnotes:\n- Testnet does not require an API key or integrator ID.\n- Requests without valid credentials are subject to strict rate limits; authenticated requests receive higher allowances.\n- Exceeding limits returns HTTP 429 Too Many Requests.\ncredentials_request: https://docs.across.to/introduction/api-keys\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/across/refs/heads/main/authentication/across-authentication.yml
+source_yaml_url: https://artifacts.apis.io/across/authentication/across-authentication.yml
 summary_line: 2 schemes
 tags:
 - Company

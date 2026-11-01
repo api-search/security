@@ -27,7 +27,7 @@ source_filename: tripwire-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tripwire.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 04:14:08 2026 GMT\n  hsts: null\ndomains:\n- domain: tripwire.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tripwire/refs/heads/main/security/tripwire-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tripwire/security/tripwire-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

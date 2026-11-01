@@ -7,55 +7,55 @@ api_specs:
   label: SingleStore Files API
   slug: singlestore-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-files-api-openapi.yml
+  url: https://artifacts.apis.io/singlestore/openapi/singlestore-files-api-openapi.yml
 - filename: singlestore-health-api-openapi.yml
   format: yaml
   label: SingleStore Health API
   slug: singlestore-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-health-api-openapi.yml
+  url: https://artifacts.apis.io/singlestore/openapi/singlestore-health-api-openapi.yml
 - filename: singlestore-jobs-api-openapi.yml
   format: yaml
   label: SingleStore Jobs API
   slug: singlestore-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/singlestore/openapi/singlestore-jobs-api-openapi.yml
 - filename: singlestore-organizations-api-openapi.yml
   format: yaml
   label: SingleStore Organizations API
   slug: singlestore-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/singlestore/openapi/singlestore-organizations-api-openapi.yml
 - filename: singlestore-queries-api-openapi.yml
   format: yaml
   label: SingleStore Queries API
   slug: singlestore-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-queries-api-openapi.yml
+  url: https://artifacts.apis.io/singlestore/openapi/singlestore-queries-api-openapi.yml
 - filename: singlestore-regions-api-openapi.yml
   format: yaml
   label: SingleStore Regions API
   slug: singlestore-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-regions-api-openapi.yml
+  url: https://artifacts.apis.io/singlestore/openapi/singlestore-regions-api-openapi.yml
 - filename: singlestore-secrets-api-openapi.yml
   format: yaml
   label: SingleStore Secrets API
   slug: singlestore-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/singlestore/openapi/singlestore-secrets-api-openapi.yml
 - filename: singlestore-workspaces-api-openapi.yml
   format: yaml
   label: SingleStore Workspaces API
   slug: singlestore-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/singlestore/openapi/singlestore-workspaces-api-openapi.yml
 - filename: singlestore-workspace-groups-api-openapi.yml
   format: yaml
   label: SingleStore Workspace Groups API
   slug: singlestore-workspace-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-workspace-groups-api-openapi.yml
+  url: https://artifacts.apis.io/singlestore/openapi/singlestore-workspace-groups-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -89,7 +89,7 @@ source_filename: singlestore-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/singlestore-data-api-openapi.yml, openapi/singlestore-management-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic Authentication using SingleStore database credentials. Provide the\n    username and password as a Base-64 encoded username:password string in the Authorization\n    header.\n  sources:\n  - openapi/singlestore-data-api-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token authentication using a JWT token obtained from the SingleStore Cloud\n    Portal.\n  sources:\n  - openapi/singlestore-data-api-openapi.yml\n  - openapi/singlestore-management-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/authentication/singlestore-authentication.yml
+source_yaml_url: https://artifacts.apis.io/singlestore/authentication/singlestore-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Database

@@ -8,37 +8,37 @@ api_specs:
   label: MedTrainer Departments API
   slug: medtrainer-departments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/openapi/medtrainer-departments-api-openapi.yml
+  url: https://artifacts.apis.io/medtrainer/openapi/medtrainer-departments-api-openapi.yml
 - filename: medtrainer-divisions-api-openapi.yml
   format: yaml
   label: MedTrainer Divisions API
   slug: medtrainer-divisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/openapi/medtrainer-divisions-api-openapi.yml
+  url: https://artifacts.apis.io/medtrainer/openapi/medtrainer-divisions-api-openapi.yml
 - filename: medtrainer-locations-api-openapi.yml
   format: yaml
   label: MedTrainer Locations API
   slug: medtrainer-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/openapi/medtrainer-locations-api-openapi.yml
+  url: https://artifacts.apis.io/medtrainer/openapi/medtrainer-locations-api-openapi.yml
 - filename: medtrainer-positions-api-openapi.yml
   format: yaml
   label: MedTrainer Positions API
   slug: medtrainer-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/openapi/medtrainer-positions-api-openapi.yml
+  url: https://artifacts.apis.io/medtrainer/openapi/medtrainer-positions-api-openapi.yml
 - filename: medtrainer-practitioner-categories-api-openapi.yml
   format: yaml
   label: MedTrainer Practitioner Categories API
   slug: medtrainer-practitioner-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/openapi/medtrainer-practitioner-categories-api-openapi.yml
+  url: https://artifacts.apis.io/medtrainer/openapi/medtrainer-practitioner-categories-api-openapi.yml
 - filename: medtrainer-practitioners-api-openapi.yml
   format: yaml
   label: MedTrainer Practitioners API
   slug: medtrainer-practitioners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/openapi/medtrainer-practitioners-api-openapi.yml
+  url: https://artifacts.apis.io/medtrainer/openapi/medtrainer-practitioners-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-08-25'\nmethod: searched\nsource: >-\n  openapi/m
   \ true\n  flow:\n  - Sign in to the MedTrainer platform with an account holding Super Admin or Admin permissions.\n  - Open Organization from the left-hand menu.\n  - Expand \"Organization Management\" and open \"API keys manager\".\n  - Create an API key group, supplying a name and description.\n  - The group is created with a \"Default\" key in Inactive status; change the status to Active before use.\n  source: 'https://api.medtrainer.com/docs#section/Step-by-step (also carried verbatim in info.description of the OpenAPI)'\n  note: >-\n    Keys cannot be obtained without a paying MedTrainer tenant and an admin role. There is no\n    developer sandbox, no free tier and no anonymous key issuance, so the API is customer-gated\n    even though the reference documentation is fully public.\nunauthenticated_behavior:\n  status: 401\n  media_type: application/fhir+json\n  body: '{\"resourceType\":\"OperationOutcome\",\"issue\":[{\"severity\":\"error\",\"code\":\"login\",\"details\":{\"text\"\
   :\"Missing or invalid authentication credentials. Provide an API key using the X-API-Key header or Authorization: Bearer <token>.\"}}]}'\n  observed: 'Probed 2026-08-25 against https://api.medtrainer.com/api/v1/locations — the host returns this for every path, including /.well-known/*.'\nrelated_surfaces:\n- surface: MedTrainer platform sign-in\n  protocol: OpenID Connect / OAuth 2.0\n  issuer: https://auth.medtrainer.com/\n  discovery: well-known/medtrainer-auth-openid-configuration.json\n  note: 'Auth0 on a MedTrainer custom domain. Supports authorization_code with PKCE (S256), refresh tokens, device code, private_key_jwt, and MFA challenge. Governs the LMS/web app, not the Public API.'\n- surface: MedTrainer MCP server\n  protocol: OAuth 2.0 (RFC 8414 + RFC 9728)\n  issuer: https://medtrainer.com\n  scope: mcp\n  note: See mcp/medtrainer-mcp.yml.\ngaps:\n- 'No token rotation, expiry or revocation policy is published for API keys.'\n- 'No key prefix convention is documented, so a leaked\
   \ key is not self-identifying.'\n- 'No mTLS, no signed requests, and no IP allow-listing are documented for a directory API that carries practitioner PII (names, home addresses, phone, email, NPI, birth place).'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/authentication/medtrainer-authentication.yml
+source_yaml_url: https://artifacts.apis.io/medtrainer/authentication/medtrainer-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

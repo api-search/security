@@ -7,37 +7,37 @@ api_specs:
   label: Platzi Auth API
   slug: platzi-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/platzi/refs/heads/main/openapi/platzi-auth-api-openapi.yml
+  url: https://artifacts.apis.io/platzi/openapi/platzi-auth-api-openapi.yml
 - filename: platzi-categories-api-openapi.yml
   format: yaml
   label: Platzi Categories API
   slug: platzi-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/platzi/refs/heads/main/openapi/platzi-categories-api-openapi.yml
+  url: https://artifacts.apis.io/platzi/openapi/platzi-categories-api-openapi.yml
 - filename: platzi-files-api-openapi.yml
   format: yaml
   label: Platzi Files API
   slug: platzi-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/platzi/refs/heads/main/openapi/platzi-files-api-openapi.yml
+  url: https://artifacts.apis.io/platzi/openapi/platzi-files-api-openapi.yml
 - filename: platzi-locations-api-openapi.yml
   format: yaml
   label: Platzi Locations API
   slug: platzi-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/platzi/refs/heads/main/openapi/platzi-locations-api-openapi.yml
+  url: https://artifacts.apis.io/platzi/openapi/platzi-locations-api-openapi.yml
 - filename: platzi-products-api-openapi.yml
   format: yaml
   label: Platzi Products API
   slug: platzi-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/platzi/refs/heads/main/openapi/platzi-products-api-openapi.yml
+  url: https://artifacts.apis.io/platzi/openapi/platzi-products-api-openapi.yml
 - filename: platzi-users-api-openapi.yml
   format: yaml
   label: Platzi Users API
   slug: platzi-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/platzi/refs/heads/main/openapi/platzi-users-api-openapi.yml
+  url: https://artifacts.apis.io/platzi/openapi/platzi-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -67,7 +67,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://fakeapi.platzi.com/en/rest/auth-jwt/\ndocs: https://fakeapi.platzi.com/en/rest/auth-jwt/\nsummary:\n  types: [http]\n  http_schemes: [bearer]\n  bearer_format: JWT\n  notes: >-\n    The OpenAPI document does not declare a securityScheme, but the API\n    documents JWT bearer authentication. POST /auth/login returns an\n    access_token and refresh_token; the access_token is sent as\n    `Authorization: Bearer <access_token>` on protected endpoints\n    (e.g. GET /auth/profile). Access tokens expire; POST /auth/refresh-token\n    exchanges a refresh_token for a new access_token. Read endpoints\n    (products, categories) are open and require no authentication.\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  in: header\n  parameter: Authorization\n  sources: [docs]\nflows:\n- name: login\n  operation: openapi/platzi-fake-store-openapi-original.json#AuthController_login\n  request:\
   \ 'POST /api/v1/auth/login {email, password}'\n  returns: [access_token, refresh_token]\n- name: refresh\n  operation: openapi/platzi-fake-store-openapi-original.json#AuthController_refreshToken\n  request: 'POST /api/v1/auth/refresh-token {refreshToken}'\n  returns: [access_token, refresh_token]\n- name: profile\n  operation: openapi/platzi-fake-store-openapi-original.json#AuthController_profile\n  request: 'GET /api/v1/auth/profile (Authorization: Bearer <access_token>)'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/platzi/refs/heads/main/authentication/platzi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/platzi/authentication/platzi-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

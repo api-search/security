@@ -5,19 +5,19 @@ api_specs:
   label: Sensedia Accounts API
   slug: sensedia-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sensedia/refs/heads/main/openapi/sensedia-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/sensedia/openapi/sensedia-accounts-api-openapi.yml
 - filename: sensedia-health-api-openapi.yml
   format: yaml
   label: Sensedia Health API
   slug: sensedia-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sensedia/refs/heads/main/openapi/sensedia-health-api-openapi.yml
+  url: https://artifacts.apis.io/sensedia/openapi/sensedia-health-api-openapi.yml
 - filename: sensedia-sensedia-api-api-openapi.yml
   format: yaml
   label: Sensedia Sensedia API
   slug: sensedia-sensedia-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sensedia/refs/heads/main/openapi/sensedia-sensedia-api-api-openapi.yml
+  url: https://artifacts.apis.io/sensedia/openapi/sensedia-sensedia-api-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -53,7 +53,7 @@ source_filename: sensedia-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sensedia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  5 10:03:38 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: sensedia.com\n  dnssec: false\n  caa:\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"globalsign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sensedia/refs/heads/main/security/sensedia-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sensedia/security/sensedia-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

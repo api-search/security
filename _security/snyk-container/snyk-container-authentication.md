@@ -7,19 +7,19 @@ api_specs:
   label: Snyk Container Projects API
   slug: snyk-container-container-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/openapi/snyk-container-container-projects-api-openapi.yml
+  url: https://artifacts.apis.io/snyk-container/openapi/snyk-container-container-projects-api-openapi.yml
 - filename: snyk-container-issues-api-openapi.yml
   format: yaml
   label: Snyk Container Issues API
   slug: snyk-container-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/openapi/snyk-container-issues-api-openapi.yml
+  url: https://artifacts.apis.io/snyk-container/openapi/snyk-container-issues-api-openapi.yml
 - filename: snyk-container-targets-api-openapi.yml
   format: yaml
   label: Snyk Container Targets API
   slug: snyk-container-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/openapi/snyk-container-targets-api-openapi.yml
+  url: https://artifacts.apis.io/snyk-container/openapi/snyk-container-targets-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: snyk-container-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/snyk-container-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Snyk API token obtained from your Snyk account settings\n  sources:\n  - openapi/snyk-container-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/authentication/snyk-container-authentication.yml
+source_yaml_url: https://artifacts.apis.io/snyk-container/authentication/snyk-container-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Container Images

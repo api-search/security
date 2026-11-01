@@ -8,13 +8,13 @@ api_specs:
   label: World Labs Credits API
   slug: world-labs-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/world-labs/refs/heads/main/openapi/world-labs-credits-api-openapi.yml
+  url: https://artifacts.apis.io/world-labs/openapi/world-labs-credits-api-openapi.yml
 - filename: world-labs-marble-api-openapi.yml
   format: yaml
   label: World Labs Marble API
   slug: world-labs-marble-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/world-labs/refs/heads/main/openapi/world-labs-marble-api-openapi.yml
+  url: https://artifacts.apis.io/world-labs/openapi/world-labs-marble-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: world-labs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/world-labs-marble-openapi-original.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: WLT-Api-Key\n  description: API key for authentication. Get your key from the developer portal.\n  sources:\n  - openapi/world-labs-marble-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/world-labs/refs/heads/main/authentication/world-labs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/world-labs/authentication/world-labs-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

@@ -8,13 +8,13 @@ api_specs:
   label: SIGNL4 Events API
   slug: signl4-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signl4/refs/heads/main/openapi/signl4-events-api-openapi.yml
+  url: https://artifacts.apis.io/signl4/openapi/signl4-events-api-openapi.yml
 - filename: signl4-webhook-api-openapi.yml
   format: yaml
   label: SIGNL4 Webhook API
   slug: signl4-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signl4/refs/heads/main/openapi/signl4-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/signl4/openapi/signl4-webhook-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: signl4-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/signl4-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: S4ApiKey\n  type: apiKey\n  in: header\n  parameter: X-S4-Api-Key\n  description: Team or webhook secret used to authorize REST API requests.\n  sources:\n  - openapi/signl4-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signl4/refs/heads/main/authentication/signl4-authentication.yml
+source_yaml_url: https://artifacts.apis.io/signl4/authentication/signl4-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Alerting

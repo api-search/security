@@ -26,7 +26,7 @@ source_filename: transfs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: feefighters.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 17:55:44 2026 GMT\n  hsts: false\ndomains:\n- domain: feefighters.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transfs/refs/heads/main/security/transfs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/transfs/security/transfs-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

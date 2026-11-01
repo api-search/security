@@ -27,7 +27,7 @@ source_filename: itunes-search-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: affiliate.itunes.apple.com\n  https: false\ndomains:\n- domain: apple.com\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:contact_pki@apple.com\"\n  - 0 issue \"pki.apple.com\"\n  - 0 issuewild \"pki.apple.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/itunes-search/refs/heads/main/security/itunes-search-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/itunes-search/security/itunes-search-domain-security.yml
 summary_line: DMARC
 tags:
 - Music

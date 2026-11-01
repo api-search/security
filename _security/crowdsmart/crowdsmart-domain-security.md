@@ -1,11 +1,17 @@
 ---
 api_specs:
+- filename: crowdsmart-openapi-generated.yml
+  format: yaml
+  label: CrowdSmart API
+  slug: crowdsmart-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/crowdsmart/openapi/_ae-authored/crowdsmart-openapi-generated.yml
 - filename: crowdsmart-agents-api-openapi.yml
   format: yaml
   label: CrowdSmart Agents API
   slug: crowdsmart-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowdsmart/refs/heads/main/openapi/crowdsmart-agents-api-openapi.yml
+  url: https://artifacts.apis.io/crowdsmart/openapi/crowdsmart-agents-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -33,12 +39,12 @@ source_filename: crowdsmart-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: crowdsmart.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  9 08:12:25 2027 GMT\n  hsts: false\ndomains:\n- domain: crowdsmart.ai\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crowdsmart/refs/heads/main/security/crowdsmart-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/crowdsmart/security/crowdsmart-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Artificial Intelligence
 - Governance
 - TrustLayer
-- CollectiveIntelligence
+- Collective Intelligence
 - Platform
 ---

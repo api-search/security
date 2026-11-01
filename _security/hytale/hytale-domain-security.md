@@ -26,7 +26,7 @@ source_filename: hytale-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: hytale-api.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 19:02:29 2026 GMT\n  hsts: null\ndomains:\n- domain: hytale-api.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hytale/refs/heads/main/security/hytale-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hytale/security/hytale-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Public APIs

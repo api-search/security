@@ -5,19 +5,19 @@ api_specs:
   label: WATI Contacts API
   slug: wati-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wati/refs/heads/main/openapi/wati-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/wati/openapi/wati-contacts-api-openapi.yml
 - filename: wati-messages-api-openapi.yml
   format: yaml
   label: WATI Messages API
   slug: wati-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wati/refs/heads/main/openapi/wati-messages-api-openapi.yml
+  url: https://artifacts.apis.io/wati/openapi/wati-messages-api-openapi.yml
 - filename: wati-templates-api-openapi.yml
   format: yaml
   label: WATI Templates API
   slug: wati-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wati/refs/heads/main/openapi/wati-templates-api-openapi.yml
+  url: https://artifacts.apis.io/wati/openapi/wati-templates-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -36,7 +36,7 @@ source_filename: wati-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.wati.io/\nurl: https://trust.wati.io/\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://trust.wati.io/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wati/refs/heads/main/security/wati-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/wati/security/wati-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - WhatsApp

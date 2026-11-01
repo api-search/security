@@ -5,55 +5,55 @@ api_specs:
   label: ReasonBlocks Billing API
   slug: reasonblocks-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/openapi/reasonblocks-billing-api-openapi.yml
+  url: https://artifacts.apis.io/reasonblocks/openapi/reasonblocks-billing-api-openapi.yml
 - filename: reasonblocks-codebase-findings-api-openapi.yml
   format: yaml
   label: ReasonBlocks Codebase Findings API
   slug: reasonblocks-codebase-findings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/openapi/reasonblocks-codebase-findings-api-openapi.yml
+  url: https://artifacts.apis.io/reasonblocks/openapi/reasonblocks-codebase-findings-api-openapi.yml
 - filename: reasonblocks-health-api-openapi.yml
   format: yaml
   label: ReasonBlocks Health API
   slug: reasonblocks-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/openapi/reasonblocks-health-api-openapi.yml
+  url: https://artifacts.apis.io/reasonblocks/openapi/reasonblocks-health-api-openapi.yml
 - filename: reasonblocks-monitor-api-openapi.yml
   format: yaml
   label: ReasonBlocks Monitor API
   slug: reasonblocks-monitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/openapi/reasonblocks-monitor-api-openapi.yml
+  url: https://artifacts.apis.io/reasonblocks/openapi/reasonblocks-monitor-api-openapi.yml
 - filename: reasonblocks-monitor-telemetry-api-openapi.yml
   format: yaml
   label: ReasonBlocks Monitor Telemetry API
   slug: reasonblocks-monitor-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/openapi/reasonblocks-monitor-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/reasonblocks/openapi/reasonblocks-monitor-telemetry-api-openapi.yml
 - filename: reasonblocks-monitors-api-openapi.yml
   format: yaml
   label: ReasonBlocks Monitors API
   slug: reasonblocks-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/openapi/reasonblocks-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/reasonblocks/openapi/reasonblocks-monitors-api-openapi.yml
 - filename: reasonblocks-pattern-library-api-openapi.yml
   format: yaml
   label: ReasonBlocks Pattern Library API
   slug: reasonblocks-pattern-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/openapi/reasonblocks-pattern-library-api-openapi.yml
+  url: https://artifacts.apis.io/reasonblocks/openapi/reasonblocks-pattern-library-api-openapi.yml
 - filename: reasonblocks-patterns-traces-api-openapi.yml
   format: yaml
   label: ReasonBlocks Patterns & Traces API
   slug: reasonblocks-patterns-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/openapi/reasonblocks-patterns-traces-api-openapi.yml
+  url: https://artifacts.apis.io/reasonblocks/openapi/reasonblocks-patterns-traces-api-openapi.yml
 - filename: reasonblocks-scoring-api-openapi.yml
   format: yaml
   label: ReasonBlocks Scoring API
   slug: reasonblocks-scoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/openapi/reasonblocks-scoring-api-openapi.yml
+  url: https://artifacts.apis.io/reasonblocks/openapi/reasonblocks-scoring-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -96,7 +96,7 @@ source_filename: reasonblocks-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: reasonblocks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 05:58:45 2026 GMT\n  hsts: false\n- host: docs.reasonblocks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 10:44:46 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: rb-api.reasonblocks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 17:13:23 2026 GMT\n  hsts: null\ndomains:\n- domain: reasonblocks.com\n  dnssec: true\n  caa:\n  - reasonblocks-website.onrender.com.\n  - gcp-us-west1-1.origin.onrender.com.\n  - gcp-us-west1-1.origin.onrender.com.cdn.cloudflare.net.\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/security/reasonblocks-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/reasonblocks/security/reasonblocks-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

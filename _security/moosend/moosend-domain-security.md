@@ -5,25 +5,25 @@ api_specs:
   label: Moosend Campaigns API
   slug: moosend-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/openapi/moosend-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/moosend/openapi/moosend-campaigns-api-openapi.yml
 - filename: moosend-mailing-lists-api-openapi.yml
   format: yaml
   label: Moosend Mailing Lists API
   slug: moosend-mailing-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/openapi/moosend-mailing-lists-api-openapi.yml
+  url: https://artifacts.apis.io/moosend/openapi/moosend-mailing-lists-api-openapi.yml
 - filename: moosend-segments-api-openapi.yml
   format: yaml
   label: Moosend Segments API
   slug: moosend-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/openapi/moosend-segments-api-openapi.yml
+  url: https://artifacts.apis.io/moosend/openapi/moosend-segments-api-openapi.yml
 - filename: moosend-subscribers-api-openapi.yml
   format: yaml
   label: Moosend Subscribers API
   slug: moosend-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/openapi/moosend-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/moosend/openapi/moosend-subscribers-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -63,7 +63,7 @@ source_filename: moosend-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: moosend.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  6 16:03:03 2027 GMT\n  hsts: false\n- host: api.moosend.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 18:13:52 2026 GMT\n  hsts: null\ndomains:\n- domain: moosend.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issuewild \"amazontrust.com\"\n  - 0 issuewild \"awstrust.com\"\n  - 0 issuewild \"globalsign.com\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/security/moosend-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/moosend/security/moosend-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Email Marketing

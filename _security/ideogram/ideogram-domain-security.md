@@ -5,25 +5,25 @@ api_specs:
   label: Ideogram Subpackage Datasets API
   slug: ideogram-subpackage-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ideogram/refs/heads/main/openapi/ideogram-subpackage-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/ideogram/openapi/ideogram-subpackage-datasets-api-openapi.yml
 - filename: ideogram-subpackage-generate-api-openapi.yml
   format: yaml
   label: Ideogram Subpackage Generate API
   slug: ideogram-subpackage-generate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ideogram/refs/heads/main/openapi/ideogram-subpackage-generate-api-openapi.yml
+  url: https://artifacts.apis.io/ideogram/openapi/ideogram-subpackage-generate-api-openapi.yml
 - filename: ideogram-subpackage-models-api-openapi.yml
   format: yaml
   label: Ideogram Subpackage Models API
   slug: ideogram-subpackage-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ideogram/refs/heads/main/openapi/ideogram-subpackage-models-api-openapi.yml
+  url: https://artifacts.apis.io/ideogram/openapi/ideogram-subpackage-models-api-openapi.yml
 - filename: ideogram-subpackage-vision-api-openapi.yml
   format: yaml
   label: Ideogram Subpackage Vision API
   slug: ideogram-subpackage-vision-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ideogram/refs/heads/main/openapi/ideogram-subpackage-vision-api-openapi.yml
+  url: https://artifacts.apis.io/ideogram/openapi/ideogram-subpackage-vision-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: ideogram-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ideogram.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 13 09:07:03 2026 GMT\n  hsts: null\n- host: docs.ideogram.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 08:04:03 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.ideogram.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 13 09:07:03 2026 GMT\n  hsts: null\ndomains:\n- domain: ideogram.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ideogram/refs/heads/main/security/ideogram-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ideogram/security/ideogram-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

@@ -8,13 +8,13 @@ api_specs:
   label: Sieve Functions API
   slug: sieve-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sieve/refs/heads/main/openapi/sieve-functions-api-openapi.yml
+  url: https://artifacts.apis.io/sieve/openapi/sieve-functions-api-openapi.yml
 - filename: sieve-jobs-api-openapi.yml
   format: yaml
   label: Sieve Jobs API
   slug: sieve-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sieve/refs/heads/main/openapi/sieve-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/sieve/openapi/sieve-jobs-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: sieve-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sieve-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: The Sieve API key to authenticate with.\n  sources:\n  - openapi/sieve-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sieve/refs/heads/main/authentication/sieve-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sieve/authentication/sieve-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence

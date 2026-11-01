@@ -7,67 +7,67 @@ api_specs:
   label: CB Insights Authorization API
   slug: cb-insights-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/openapi/cb-insights-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/cb-insights/openapi/cb-insights-authorization-api-openapi.yml
 - filename: cb-insights-businessrelationships-api-openapi.yml
   format: yaml
   label: CB Insights Business Relationships API
   slug: cb-insights-businessrelationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/openapi/cb-insights-businessrelationships-api-openapi.yml
+  url: https://artifacts.apis.io/cb-insights/openapi/cb-insights-businessrelationships-api-openapi.yml
 - filename: cb-insights-chatcbi-api-openapi.yml
   format: yaml
   label: CB Insights Chat CBI API
   slug: cb-insights-chatcbi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/openapi/cb-insights-chatcbi-api-openapi.yml
+  url: https://artifacts.apis.io/cb-insights/openapi/cb-insights-chatcbi-api-openapi.yml
 - filename: cb-insights-firmographics-api-openapi.yml
   format: yaml
   label: CB Insights Firmographics API
   slug: cb-insights-firmographics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/openapi/cb-insights-firmographics-api-openapi.yml
+  url: https://artifacts.apis.io/cb-insights/openapi/cb-insights-firmographics-api-openapi.yml
 - filename: cb-insights-managementandboard-api-openapi.yml
   format: yaml
   label: CB Insights Management And Board API
   slug: cb-insights-managementandboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/openapi/cb-insights-managementandboard-api-openapi.yml
+  url: https://artifacts.apis.io/cb-insights/openapi/cb-insights-managementandboard-api-openapi.yml
 - filename: cb-insights-organizations-api-openapi.yml
   format: yaml
   label: CB Insights Organizations API
   slug: cb-insights-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/openapi/cb-insights-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/cb-insights/openapi/cb-insights-organizations-api-openapi.yml
 - filename: cb-insights-outlook-api-openapi.yml
   format: yaml
   label: CB Insights Outlook API
   slug: cb-insights-outlook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/openapi/cb-insights-outlook-api-openapi.yml
+  url: https://artifacts.apis.io/cb-insights/openapi/cb-insights-outlook-api-openapi.yml
 - filename: cb-insights-revenue-api-openapi.yml
   format: yaml
   label: CB Insights Revenue API
   slug: cb-insights-revenue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/openapi/cb-insights-revenue-api-openapi.yml
+  url: https://artifacts.apis.io/cb-insights/openapi/cb-insights-revenue-api-openapi.yml
 - filename: cb-insights-scoutingreports-api-openapi.yml
   format: yaml
   label: CB Insights Scouting Reports API
   slug: cb-insights-scoutingreports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/openapi/cb-insights-scoutingreports-api-openapi.yml
+  url: https://artifacts.apis.io/cb-insights/openapi/cb-insights-scoutingreports-api-openapi.yml
 - filename: cb-insights-strategymap-api-openapi.yml
   format: yaml
   label: CB Insights Strategy Map API
   slug: cb-insights-strategymap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/openapi/cb-insights-strategymap-api-openapi.yml
+  url: https://artifacts.apis.io/cb-insights/openapi/cb-insights-strategymap-api-openapi.yml
 - filename: cb-insights-financial-transactions-api-openapi.yml
   format: yaml
   label: CB Insights Financial Transactions API
   slug: cb-insights-financial-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/openapi/cb-insights-financial-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/cb-insights/openapi/cb-insights-financial-transactions-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -157,7 +157,7 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: https://api-doc
   \  - email\n  - profile\n  bearer_methods_supported:\n  - header\n  discovery:\n    oauth_authorization_server: well-known/cb-insights-mcp-oauth-authorization-server.json\n    oauth_protected_resource: well-known/cb-insights-mcp-oauth-protected-resource.json\n    openid_configuration: well-known/cb-insights-mcp-openid-configuration.json\n  notes: >-\n    Dynamic client registration is open (registration_endpoint present, token_endpoint_auth_methods\n    includes \"none\"), which is what makes one-click connector setup work in Claude/ChatGPT/Copilot.\n    The three scopes advertised are identity scopes only — no data-permission scopes are published,\n    so authorization granularity is not expressed in the token.\n  sources:\n  - https://mcp.cbinsights.com/.well-known/oauth-authorization-server\n  - https://mcp.cbinsights.com/.well-known/oauth-protected-resource\ncredential_issuance:\n  self_serve: partial\n  detail: >-\n    A trial clientId/clientSecret is issued through the developer-portal\
   \ sign-up form after email\n    validation (25 companies, 5 scouting reports, 5 ChatCBI messages). Production credentials are\n    issued by a CB Insights representative / CSM — there is no self-serve production key.\n  sign_up: https://api-docs.cbinsights.com/portal/signup\nenterprise_identity:\n  saml_sso:\n    supported: true\n    initiation: SP-initiated only (IdP-initiated SSO is explicitly not supported)\n    idps_documented:\n    - Okta (Okta Integration Network app)\n    - Azure AD\n    docs: https://docs.cbinsights.com/docs/sso/index.html\n  scim:\n    supported: true\n    version_documented: SCIM (version not stated)\n    operations:\n    - create users\n    - update user attributes\n    - deactivate users\n    primary_identifier: email mapped to SCIM userName\n    credential: SCIM API key generated in Account Settings > Single Sign-On\n    docs: https://docs.cbinsights.com/docs/scim/index.html\n  mfa:\n    supported: true\n    source: https://www.cbinsights.com/security-and-privacy/\n\
   gaps:\n- No RFC 6749 / RFC 8414 conformance on the REST token endpoint — the \"client credentials flow\" is a\n  bespoke JSON exchange, so standard OAuth clients cannot be pointed at it.\n- No refresh token on the REST APIs; every 24 hours the client must resend the long-lived secret.\n- v1 transmits clientSecret in a URL query string.\n- No token revocation, introspection, or key-rotation endpoint is documented.\n- The MCP authorization server advertises only openid/email/profile — no data scopes, so an agent\n  token cannot be narrowed to a subset of the data surface.\ncross_links:\n  conformance: conformance/cb-insights-conformance.yml\n  conventions: conventions/cb-insights-conventions.yml\n  well_known: well-known/cb-insights-well-known.yml\n  mcp: mcp/cb-insights-mcp.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/authentication/cb-insights-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cb-insights/authentication/cb-insights-authentication.yml
 summary_line: 4 schemes
 tags:
 - Company

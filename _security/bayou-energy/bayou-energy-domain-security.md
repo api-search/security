@@ -5,25 +5,25 @@ api_specs:
   label: Bayou Energy Bills API
   slug: bayou-energy-bills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bayou-energy/refs/heads/main/openapi/bayou-energy-bills-api-openapi.yml
+  url: https://artifacts.apis.io/bayou-energy/openapi/bayou-energy-bills-api-openapi.yml
 - filename: bayou-energy-customers-api-openapi.yml
   format: yaml
   label: Bayou Energy Customers API
   slug: bayou-energy-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bayou-energy/refs/heads/main/openapi/bayou-energy-customers-api-openapi.yml
+  url: https://artifacts.apis.io/bayou-energy/openapi/bayou-energy-customers-api-openapi.yml
 - filename: bayou-energy-intervals-api-openapi.yml
   format: yaml
   label: Bayou Energy Intervals API
   slug: bayou-energy-intervals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bayou-energy/refs/heads/main/openapi/bayou-energy-intervals-api-openapi.yml
+  url: https://artifacts.apis.io/bayou-energy/openapi/bayou-energy-intervals-api-openapi.yml
 - filename: bayou-energy-utilities-api-openapi.yml
   format: yaml
   label: Bayou Energy Utilities API
   slug: bayou-energy-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bayou-energy/refs/heads/main/openapi/bayou-energy-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/bayou-energy/openapi/bayou-energy-utilities-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -67,7 +67,7 @@ source_filename: bayou-energy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bayou.energy\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 17:21:34 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.bayou.energy\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 05:18:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: bayou.energy\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: bayou.energy\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazontrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bayou-energy/refs/heads/main/security/bayou-energy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bayou-energy/security/bayou-energy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Utility Data

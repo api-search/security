@@ -5,13 +5,13 @@ api_specs:
   label: Dashbot Export API
   slug: dashbot-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/openapi/dashbot-export-api-openapi.yml
+  url: https://artifacts.apis.io/dashbot/openapi/dashbot-export-api-openapi.yml
 - filename: dashbot-index-api-openapi.yml
   format: yaml
   label: Dashbot Index API
   slug: dashbot-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/openapi/dashbot-index-api-openapi.yml
+  url: https://artifacts.apis.io/dashbot/openapi/dashbot-index-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: dashbot-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dimensionlabs.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 10:24:12 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.dimensionlabs.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 22:29:24 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.dimensionlabs.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 17 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: dimensionlabs.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/security/dashbot-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dashbot/security/dashbot-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -8,31 +8,31 @@ api_specs:
   label: UniUni Batches API
   slug: uniuni-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/openapi/uniuni-batches-api-openapi.yml
+  url: https://artifacts.apis.io/uniuni/openapi/uniuni-batches-api-openapi.yml
 - filename: uniuni-labels-api-openapi.yml
   format: yaml
   label: UniUni Labels API
   slug: uniuni-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/openapi/uniuni-labels-api-openapi.yml
+  url: https://artifacts.apis.io/uniuni/openapi/uniuni-labels-api-openapi.yml
 - filename: uniuni-shipments-api-openapi.yml
   format: yaml
   label: UniUni Shipments API
   slug: uniuni-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/openapi/uniuni-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/uniuni/openapi/uniuni-shipments-api-openapi.yml
 - filename: uniuni-tracking-api-openapi.yml
   format: yaml
   label: UniUni Tracking API
   slug: uniuni-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/openapi/uniuni-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/uniuni/openapi/uniuni-tracking-api-openapi.yml
 - filename: uniuni-webhooks-api-openapi.yml
   format: yaml
   label: UniUni Webhooks API
   slug: uniuni-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/openapi/uniuni-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/uniuni/openapi/uniuni-webhooks-api-openapi.yml
 auth_types:
 - http-bearer
 - apiKey
@@ -82,7 +82,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://help.ship.uniuni.com/en/api/create-access-token\ndocs:\n  - https://help.ship.uniuni.com/en/api/create-access-token\n  - https://help.ship.uniuni.com/en/partner-api/authentication\n  - https://docs.uniuni.com/\nsummary:\n  types: [http-bearer, apiKey]\n  api_key_in: [header]\n  oauth2_flows: []\nschemes:\n  - name: bearerAuth\n    type: http\n    scheme: bearer\n    api: UniUni Platform Client API\n    description: >-\n      API access token generated from the UniUni Platform dashboard (New shipment → Import from\n      integration → REST API). Up to 5 active tokens; deleting a token revokes access\n      immediately. Sent as Authorization: Bearer <ACCESS_TOKEN> on every request.\n    token_management:\n      max_active_tokens: 5\n      portal_production: https://ship.uniuni.com/integrations/rest-api\n      portal_sandbox: https://sandbox.unigo.ca/integrations/rest-api\n    sources: [openapi/uniuni-platform-client-api-openapi.yml]\n\
   \  - name: partnerApiKey\n    type: apiKey\n    in: header\n    parameter: X-API-Key\n    api: UniUni Partner API\n    description: >-\n      Partner vendors exchange an X-API-Key for a JWT access token via GET\n      https://api.ship.uniuni.com/partner/auth/token; the JWT (valid 24 hours) is then sent as\n      Authorization: Bearer <accessToken>. Keys are issued by a UniUni account representative.\n    token_ttl_seconds: 86400\n    error_codes: [MissingTokenError, ExpiredTokenError, InvalidTokenError, TokenPayloadError]\n  - name: integrationClientCredentials\n    type: apiKey\n    api: UniUni Integration API (legacy)\n    description: >-\n      The legacy Integration API (docs.uniuni.com) obtains a customer token via POST\n      /storeauth/customertoken?grant_type=client_crendetials using a UniUni-issued Client ID and\n      Client Secret, then sends the token on subsequent requests. Base hosts:\n      https://prm-api.uniuni.com (production), https://prm-api.qa.uniuni.com (QA).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/authentication/uniuni-authentication.yml
+source_yaml_url: https://artifacts.apis.io/uniuni/authentication/uniuni-authentication.yml
 summary_line: http-bearer/apiKey · 3 schemes
 tags:
 - Company

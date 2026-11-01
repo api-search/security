@@ -11,73 +11,73 @@ api_specs:
   label: Swetrix Annotations API
   slug: swetrix-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/openapi/swetrix-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/swetrix/openapi/swetrix-annotations-api-openapi.yml
 - filename: swetrix-custom-events-api-openapi.yml
   format: yaml
   label: Swetrix Custom Events API
   slug: swetrix-custom-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/openapi/swetrix-custom-events-api-openapi.yml
+  url: https://artifacts.apis.io/swetrix/openapi/swetrix-custom-events-api-openapi.yml
 - filename: swetrix-errors-api-openapi.yml
   format: yaml
   label: Swetrix Errors API
   slug: swetrix-errors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/openapi/swetrix-errors-api-openapi.yml
+  url: https://artifacts.apis.io/swetrix/openapi/swetrix-errors-api-openapi.yml
 - filename: swetrix-feature-flags-api-openapi.yml
   format: yaml
   label: Swetrix Feature Flags API
   slug: swetrix-feature-flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/openapi/swetrix-feature-flags-api-openapi.yml
+  url: https://artifacts.apis.io/swetrix/openapi/swetrix-feature-flags-api-openapi.yml
 - filename: swetrix-funnels-api-openapi.yml
   format: yaml
   label: Swetrix Funnels API
   slug: swetrix-funnels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/openapi/swetrix-funnels-api-openapi.yml
+  url: https://artifacts.apis.io/swetrix/openapi/swetrix-funnels-api-openapi.yml
 - filename: swetrix-organisations-api-openapi.yml
   format: yaml
   label: Swetrix Organisations API
   slug: swetrix-organisations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/openapi/swetrix-organisations-api-openapi.yml
+  url: https://artifacts.apis.io/swetrix/openapi/swetrix-organisations-api-openapi.yml
 - filename: swetrix-performance-api-openapi.yml
   format: yaml
   label: Swetrix Performance API
   slug: swetrix-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/openapi/swetrix-performance-api-openapi.yml
+  url: https://artifacts.apis.io/swetrix/openapi/swetrix-performance-api-openapi.yml
 - filename: swetrix-projects-api-openapi.yml
   format: yaml
   label: Swetrix Projects API
   slug: swetrix-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/openapi/swetrix-projects-api-openapi.yml
+  url: https://artifacts.apis.io/swetrix/openapi/swetrix-projects-api-openapi.yml
 - filename: swetrix-revenue-api-openapi.yml
   format: yaml
   label: Swetrix Revenue API
   slug: swetrix-revenue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/openapi/swetrix-revenue-api-openapi.yml
+  url: https://artifacts.apis.io/swetrix/openapi/swetrix-revenue-api-openapi.yml
 - filename: swetrix-sessions-api-openapi.yml
   format: yaml
   label: Swetrix Sessions API
   slug: swetrix-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/openapi/swetrix-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/swetrix/openapi/swetrix-sessions-api-openapi.yml
 - filename: swetrix-traffic-api-openapi.yml
   format: yaml
   label: Swetrix Traffic API
   slug: swetrix-traffic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/openapi/swetrix-traffic-api-openapi.yml
+  url: https://artifacts.apis.io/swetrix/openapi/swetrix-traffic-api-openapi.yml
 - filename: swetrix-views-api-openapi.yml
   format: yaml
   label: Swetrix Views API
   slug: swetrix-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/openapi/swetrix-views-api-openapi.yml
+  url: https://artifacts.apis.io/swetrix/openapi/swetrix-views-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -113,7 +113,7 @@ source_filename: swetrix-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: swetrix.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 23:14:33 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.swetrix.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 21:14:21 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: swetrix.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/security/swetrix-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/swetrix/security/swetrix-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics

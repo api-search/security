@@ -5,37 +5,37 @@ api_specs:
   label: manhattan-associates Inbound API
   slug: manhattan-associates-inbound-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-inbound-api-openapi.yml
+  url: https://artifacts.apis.io/manhattan-associates/openapi/manhattan-associates-inbound-api-openapi.yml
 - filename: manhattan-associates-inventory-api-openapi.yml
   format: yaml
   label: manhattan-associates Inventory API
   slug: manhattan-associates-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/manhattan-associates/openapi/manhattan-associates-inventory-api-openapi.yml
 - filename: manhattan-associates-orders-api-openapi.yml
   format: yaml
   label: manhattan-associates Orders API
   slug: manhattan-associates-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-orders-api-openapi.yml
+  url: https://artifacts.apis.io/manhattan-associates/openapi/manhattan-associates-orders-api-openapi.yml
 - filename: manhattan-associates-outbound-api-openapi.yml
   format: yaml
   label: manhattan-associates Outbound API
   slug: manhattan-associates-outbound-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-outbound-api-openapi.yml
+  url: https://artifacts.apis.io/manhattan-associates/openapi/manhattan-associates-outbound-api-openapi.yml
 - filename: manhattan-associates-promising-api-openapi.yml
   format: yaml
   label: manhattan-associates Promising API
   slug: manhattan-associates-promising-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-promising-api-openapi.yml
+  url: https://artifacts.apis.io/manhattan-associates/openapi/manhattan-associates-promising-api-openapi.yml
 - filename: manhattan-associates-returns-api-openapi.yml
   format: yaml
   label: manhattan-associates Returns API
   slug: manhattan-associates-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-returns-api-openapi.yml
+  url: https://artifacts.apis.io/manhattan-associates/openapi/manhattan-associates-returns-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: manhattan-associates-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.manh.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 05:03:27 2026 GMT\n  hsts: false\n- host: www.manh.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 07:59:19 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: platform.developer.manh.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 05:03:27 2026 GMT\n  hsts: null\ndomains:\n- domain: manh.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/security/manhattan-associates-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/manhattan-associates/security/manhattan-associates-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Logistics

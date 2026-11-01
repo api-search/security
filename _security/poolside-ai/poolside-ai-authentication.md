@@ -7,13 +7,13 @@ api_specs:
   label: Poolside Chat API
   slug: poolside-ai-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/poolside-ai/refs/heads/main/openapi/poolside-ai-chat-api-openapi.yml
+  url: https://artifacts.apis.io/poolside-ai/openapi/poolside-ai-chat-api-openapi.yml
 - filename: poolside-ai-models-api-openapi.yml
   format: yaml
   label: Poolside Models API
   slug: poolside-ai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/poolside-ai/refs/heads/main/openapi/poolside-ai-models-api-openapi.yml
+  url: https://artifacts.apis.io/poolside-ai/openapi/poolside-ai-models-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -39,7 +39,7 @@ source_filename: poolside-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/poolside-ai-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/poolside-ai-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/poolside-ai/refs/heads/main/authentication/poolside-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/poolside-ai/authentication/poolside-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

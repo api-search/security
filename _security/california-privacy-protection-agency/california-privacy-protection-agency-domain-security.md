@@ -5,13 +5,13 @@ api_specs:
   label: California Privacy Protection Agency Download API
   slug: california-privacy-protection-agency-download-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/california-privacy-protection-agency/refs/heads/main/openapi/california-privacy-protection-agency-download-api-openapi.yml
+  url: https://artifacts.apis.io/california-privacy-protection-agency/openapi/california-privacy-protection-agency-download-api-openapi.yml
 - filename: california-privacy-protection-agency-upload-api-openapi.yml
   format: yaml
   label: California Privacy Protection Agency Upload API
   slug: california-privacy-protection-agency-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/california-privacy-protection-agency/refs/heads/main/openapi/california-privacy-protection-agency-upload-api-openapi.yml
+  url: https://artifacts.apis.io/california-privacy-protection-agency/openapi/california-privacy-protection-agency-upload-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: california-privacy-protection-agency-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cppa.ca.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 28 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 16070400\n- host: privacy.ca.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 03:16:02 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.drop.privacy.ca.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec  3 01:09:23 2026 GMT\n  hsts: null\ndomains:\n- domain: ca.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/california-privacy-protection-agency/refs/heads/main/security/california-privacy-protection-agency-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/california-privacy-protection-agency/security/california-privacy-protection-agency-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Government

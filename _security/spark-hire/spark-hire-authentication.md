@@ -7,43 +7,43 @@ api_specs:
   label: Spark Hire Account API
   slug: spark-hire-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-account-api-openapi.yml
+  url: https://artifacts.apis.io/spark-hire/openapi/spark-hire-account-api-openapi.yml
 - filename: spark-hire-interview-questions-api-openapi.yml
   format: yaml
   label: Spark Hire Interview Questions API
   slug: spark-hire-interview-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-interview-questions-api-openapi.yml
+  url: https://artifacts.apis.io/spark-hire/openapi/spark-hire-interview-questions-api-openapi.yml
 - filename: spark-hire-interviews-api-openapi.yml
   format: yaml
   label: Spark Hire Interviews API
   slug: spark-hire-interviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-interviews-api-openapi.yml
+  url: https://artifacts.apis.io/spark-hire/openapi/spark-hire-interviews-api-openapi.yml
 - filename: spark-hire-jobs-api-openapi.yml
   format: yaml
   label: Spark Hire Jobs API
   slug: spark-hire-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/spark-hire/openapi/spark-hire-jobs-api-openapi.yml
 - filename: spark-hire-share-links-api-openapi.yml
   format: yaml
   label: Spark Hire Share Links API
   slug: spark-hire-share-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-share-links-api-openapi.yml
+  url: https://artifacts.apis.io/spark-hire/openapi/spark-hire-share-links-api-openapi.yml
 - filename: spark-hire-users-api-openapi.yml
   format: yaml
   label: Spark Hire Users API
   slug: spark-hire-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-users-api-openapi.yml
+  url: https://artifacts.apis.io/spark-hire/openapi/spark-hire-users-api-openapi.yml
 - filename: spark-hire-webhooks-api-openapi.yml
   format: yaml
   label: Spark Hire Webhooks API
   slug: spark-hire-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/spark-hire/openapi/spark-hire-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -70,7 +70,7 @@ source_filename: spark-hire-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/spark-hire-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication. The username is your Spark Hire API key; the password\n    is ignored. Keys are scoped to a user and respect that user's permission level.\n  sources:\n  - openapi/spark-hire-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/authentication/spark-hire-authentication.yml
+source_yaml_url: https://artifacts.apis.io/spark-hire/authentication/spark-hire-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Video Interviewing

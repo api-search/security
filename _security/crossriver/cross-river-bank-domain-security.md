@@ -33,7 +33,7 @@ source_filename: cross-river-bank-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.crossriver.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 04:15:37 2026 GMT\n  hsts: false\n- host: docs.crossriver.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 02:59:58 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: crossriver.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crossriver/refs/heads/main/security/cross-river-bank-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/crossriver/security/cross-river-bank-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Banking

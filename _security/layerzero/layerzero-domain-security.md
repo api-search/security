@@ -5,31 +5,31 @@ api_specs:
   label: LayerZero Discovery API
   slug: layerzero-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/layerzero/refs/heads/main/openapi/layerzero-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/layerzero/openapi/layerzero-discovery-api-openapi.yml
 - filename: layerzero-messages-api-openapi.yml
   format: yaml
   label: LayerZero Messages API
   slug: layerzero-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/layerzero/refs/heads/main/openapi/layerzero-messages-api-openapi.yml
+  url: https://artifacts.apis.io/layerzero/openapi/layerzero-messages-api-openapi.yml
 - filename: layerzero-ofts-api-openapi.yml
   format: yaml
   label: LayerZero Ofts API
   slug: layerzero-ofts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/layerzero/refs/heads/main/openapi/layerzero-ofts-api-openapi.yml
+  url: https://artifacts.apis.io/layerzero/openapi/layerzero-ofts-api-openapi.yml
 - filename: layerzero-transfer-api-openapi.yml
   format: yaml
   label: LayerZero Transfer API
   slug: layerzero-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/layerzero/refs/heads/main/openapi/layerzero-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/layerzero/openapi/layerzero-transfer-api-openapi.yml
 - filename: layerzero-open-api-api-openapi.yml
   format: yaml
   label: LayerZero Open API
   slug: layerzero-open-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/layerzero/refs/heads/main/openapi/layerzero-open-api-api-openapi.yml
+  url: https://artifacts.apis.io/layerzero/openapi/layerzero-open-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: layerzero-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: layerzero.network\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 16:12:10 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.layerzero.network\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 04:41:20 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: scan.layerzero-api.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 18 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: layerzero.network\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: layerzero-api.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/layerzero/refs/heads/main/security/layerzero-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/layerzero/security/layerzero-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Blockchain

@@ -7,25 +7,25 @@ api_specs:
   label: Southern California Edison DRPEP Portal API
   slug: southern-california-edison-drpep-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/southern-california-edison/refs/heads/main/openapi/southern-california-edison-drpep-portal-api-openapi.yml
+  url: https://artifacts.apis.io/southern-california-edison/openapi/southern-california-edison-drpep-portal-api-openapi.yml
 - filename: southern-california-edison-feature-services-api-openapi.yml
   format: yaml
   label: Southern California Edison Feature Services API
   slug: southern-california-edison-feature-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/southern-california-edison/refs/heads/main/openapi/southern-california-edison-feature-services-api-openapi.yml
+  url: https://artifacts.apis.io/southern-california-edison/openapi/southern-california-edison-feature-services-api-openapi.yml
 - filename: southern-california-edison-query-api-openapi.yml
   format: yaml
   label: Southern California Edison Query API
   slug: southern-california-edison-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/southern-california-edison/refs/heads/main/openapi/southern-california-edison-query-api-openapi.yml
+  url: https://artifacts.apis.io/southern-california-edison/openapi/southern-california-edison-query-api-openapi.yml
 - filename: southern-california-edison-server-api-openapi.yml
   format: yaml
   label: Southern California Edison Server API
   slug: southern-california-edison-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/southern-california-edison/refs/heads/main/openapi/southern-california-edison-server-api-openapi.yml
+  url: https://artifacts.apis.io/southern-california-edison/openapi/southern-california-edison-server-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -54,7 +54,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: >-\n  https://w
   \ client registration)\n  - scope syntax (ESPI FB=/ scope strings)\n  - token lifetime / refresh policy\n  - sandbox or test client\n  gate:\n    type: application-approval\n    steps:\n    - Create a Third Party User ID (an email not already an SCE.com user ID) at https://www.sce.com/user-registration?userType=4\n    - Supply the organization's Taxpayer Identification Number (TIN)\n    - Accept the Third Party Registration Terms & Conditions for use of customer data\n    - Pass an SCE-run machine-to-machine connectivity test\n    contact: mailto:GreenButton@sce.com\n  probe_result: >-\n    api.sce.com is live (Imperva -> IBM DataPower / API Connect) but every ESPI-shaped path probed\n    (/espi/1_1/resource/ApplicationInformation, /DataCustodian/espi/1_1/..., /greenbutton/..., /oauth/token)\n    returned HTTP 500 with the gateway fault \"Dynamic backend host not specified\". Real gateway, no anonymous route.\n- name: SCE Okta identity org\n  api: null\n  scheme: openIdConnect\n  status:\
   \ verified\n  discovery: https://sce.okta.com/.well-known/openid-configuration\n  artifact: well-known/southern-california-edison-okta-openid-configuration.json\n  evidence: >-\n    Anonymous HTTP 200. issuer https://sce.okta.com; authorization_endpoint /oauth2/v1/authorize;\n    token_endpoint /oauth2/v1/token; jwks_uri /oauth2/v1/keys; grant types authorization_code, implicit,\n    refresh_token, password, device_code (plus client_credentials on the RFC 8414 document); PKCE S256.\n  caveat: >-\n    This is the login estate for sce.com / My Account / the Energy Data Request Program shell. It is NOT\n    evidence of a Green Button OAuth surface and must not be presented as one.\nscopes:\n  published: false\n  note: >-\n    No energy-data scope list exists publicly. The scopes advertised by sce.okta.com are Okta's own platform\n    scopes (openid/email/profile plus okta.* management scopes) and describe Okta, not SCE customer data - so\n    no scopes/ artifact is emitted for this provider\
   \ rather than fabricate one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/southern-california-edison/refs/heads/main/authentication/southern-california-edison-authentication.yml
+source_yaml_url: https://artifacts.apis.io/southern-california-edison/authentication/southern-california-edison-authentication.yml
 summary_line: none/oauth2/token · 0 schemes
 tags:
 - Energy

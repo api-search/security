@@ -7,49 +7,49 @@ api_specs:
   label: ClearML Auth API
   slug: clearml-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/openapi/clearml-auth-api-openapi.yml
+  url: https://artifacts.apis.io/clearml/openapi/clearml-auth-api-openapi.yml
 - filename: clearml-debug-api-openapi.yml
   format: yaml
   label: ClearML Debug API
   slug: clearml-debug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/openapi/clearml-debug-api-openapi.yml
+  url: https://artifacts.apis.io/clearml/openapi/clearml-debug-api-openapi.yml
 - filename: clearml-events-api-openapi.yml
   format: yaml
   label: ClearML Events API
   slug: clearml-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/openapi/clearml-events-api-openapi.yml
+  url: https://artifacts.apis.io/clearml/openapi/clearml-events-api-openapi.yml
 - filename: clearml-models-api-openapi.yml
   format: yaml
   label: ClearML Models API
   slug: clearml-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/openapi/clearml-models-api-openapi.yml
+  url: https://artifacts.apis.io/clearml/openapi/clearml-models-api-openapi.yml
 - filename: clearml-projects-api-openapi.yml
   format: yaml
   label: ClearML Projects API
   slug: clearml-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/openapi/clearml-projects-api-openapi.yml
+  url: https://artifacts.apis.io/clearml/openapi/clearml-projects-api-openapi.yml
 - filename: clearml-queues-api-openapi.yml
   format: yaml
   label: ClearML Queues API
   slug: clearml-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/openapi/clearml-queues-api-openapi.yml
+  url: https://artifacts.apis.io/clearml/openapi/clearml-queues-api-openapi.yml
 - filename: clearml-tasks-api-openapi.yml
   format: yaml
   label: ClearML Tasks API
   slug: clearml-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/openapi/clearml-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/clearml/openapi/clearml-tasks-api-openapi.yml
 - filename: clearml-workers-api-openapi.yml
   format: yaml
   label: ClearML Workers API
   slug: clearml-workers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/openapi/clearml-workers-api-openapi.yml
+  url: https://artifacts.apis.io/clearml/openapi/clearml-workers-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -82,7 +82,7 @@ source_filename: clearml-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/clearml-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token obtained from /auth.login\n  sources:\n  - openapi/clearml-openapi.yml\n- name: BasicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic with access_key / secret_key for /auth.login\n  sources:\n  - openapi/clearml-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/authentication/clearml-authentication.yml
+source_yaml_url: https://artifacts.apis.io/clearml/authentication/clearml-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Machine Learning

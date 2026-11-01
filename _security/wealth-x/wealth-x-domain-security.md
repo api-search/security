@@ -5,19 +5,19 @@ api_specs:
   label: Wealth-X Dossiers API
   slug: wealth-x-dossiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/openapi/wealth-x-dossiers-api-openapi.yml
+  url: https://artifacts.apis.io/wealth-x/openapi/wealth-x-dossiers-api-openapi.yml
 - filename: wealth-x-reference-api-openapi.yml
   format: yaml
   label: Wealth-X Reference API
   slug: wealth-x-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/openapi/wealth-x-reference-api-openapi.yml
+  url: https://artifacts.apis.io/wealth-x/openapi/wealth-x-reference-api-openapi.yml
 - filename: wealth-x-search-api-openapi.yml
   format: yaml
   label: Wealth-X Search API
   slug: wealth-x-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/openapi/wealth-x-search-api-openapi.yml
+  url: https://artifacts.apis.io/wealth-x/openapi/wealth-x-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: wealth-x-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: wealthx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 15:45:17 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.wealthx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 23:59:59 2026 GMT\n  hsts: null\n- host: connect.wealthx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: wealthx.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/security/wealth-x-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wealth-x/security/wealth-x-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -5,31 +5,31 @@ api_specs:
   label: Brandlive Brandlive API
   slug: brandlive-brandlive-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandlive/refs/heads/main/openapi/brandlive-brandlive-api-api-openapi.yml
+  url: https://artifacts.apis.io/brandlive/openapi/brandlive-brandlive-api-api-openapi.yml
 - filename: brandlive-event-api-openapi.yml
   format: yaml
   label: Brandlive Event API
   slug: brandlive-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandlive/refs/heads/main/openapi/brandlive-event-api-openapi.yml
+  url: https://artifacts.apis.io/brandlive/openapi/brandlive-event-api-openapi.yml
 - filename: brandlive-registration-api-openapi.yml
   format: yaml
   label: Brandlive Registration API
   slug: brandlive-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandlive/refs/heads/main/openapi/brandlive-registration-api-openapi.yml
+  url: https://artifacts.apis.io/brandlive/openapi/brandlive-registration-api-openapi.yml
 - filename: brandlive-registration-code-check-api-openapi.yml
   format: yaml
   label: Brandlive Registration Code Check API
   slug: brandlive-registration-code-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandlive/refs/heads/main/openapi/brandlive-registration-code-check-api-openapi.yml
+  url: https://artifacts.apis.io/brandlive/openapi/brandlive-registration-code-check-api-openapi.yml
 - filename: brandlive-template-api-openapi.yml
   format: yaml
   label: Brandlive Template API
   slug: brandlive-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandlive/refs/heads/main/openapi/brandlive-template-api-openapi.yml
+  url: https://artifacts.apis.io/brandlive/openapi/brandlive-template-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: brandlive-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.brandlive.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 29 15:06:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: brandlive.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brandlive/refs/heads/main/security/brandlive-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/brandlive/security/brandlive-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

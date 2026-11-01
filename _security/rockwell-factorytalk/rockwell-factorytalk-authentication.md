@@ -8,31 +8,31 @@ api_specs:
   label: Rockwell FactoryTalk Hub API
   slug: factorytalk-hub-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/asyncapi/rockwell-factorytalk-realtime-asyncapi.yml
+  url: https://artifacts.apis.io/rockwell-factorytalk/asyncapi/rockwell-factorytalk-realtime-asyncapi.yml
 - filename: rockwell-factorytalk-alarms-api-openapi.yml
   format: yaml
   label: rockwell-factorytalk Alarms API
   slug: rockwell-factorytalk-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/openapi/rockwell-factorytalk-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-factorytalk/openapi/rockwell-factorytalk-alarms-api-openapi.yml
 - filename: rockwell-factorytalk-recipes-api-openapi.yml
   format: yaml
   label: rockwell-factorytalk Recipes API
   slug: rockwell-factorytalk-recipes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/openapi/rockwell-factorytalk-recipes-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-factorytalk/openapi/rockwell-factorytalk-recipes-api-openapi.yml
 - filename: rockwell-factorytalk-tags-api-openapi.yml
   format: yaml
   label: rockwell-factorytalk Tags API
   slug: rockwell-factorytalk-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/openapi/rockwell-factorytalk-tags-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-factorytalk/openapi/rockwell-factorytalk-tags-api-openapi.yml
 - filename: rockwell-factorytalk-trenddata-api-openapi.yml
   format: yaml
   label: rockwell-factorytalk TrendData API
   slug: rockwell-factorytalk-trenddata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/openapi/rockwell-factorytalk-trenddata-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-factorytalk/openapi/rockwell-factorytalk-trenddata-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -70,7 +70,7 @@ source_filename: rockwell-factorytalk-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/rockwell-factorytalk-optix-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://optix.example.com/auth/token\n    scopes: 3\n  sources:\n  - openapi/rockwell-factorytalk-optix-openapi.yml\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-Api-Key\n  description: FactoryTalk Optix API key\n  sources:\n  - openapi/rockwell-factorytalk-optix-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/authentication/rockwell-factorytalk-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rockwell-factorytalk/authentication/rockwell-factorytalk-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Automation

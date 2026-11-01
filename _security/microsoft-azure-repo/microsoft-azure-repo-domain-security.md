@@ -5,55 +5,55 @@ api_specs:
   label: Azure Repos Commits API
   slug: microsoft-azure-repo-commits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-commits-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-repo/openapi/microsoft-azure-repo-commits-api-openapi.yml
 - filename: microsoft-azure-repo-items-api-openapi.yml
   format: yaml
   label: Azure Repos Items API
   slug: microsoft-azure-repo-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-items-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-repo/openapi/microsoft-azure-repo-items-api-openapi.yml
 - filename: microsoft-azure-repo-pull-request-reviewers-api-openapi.yml
   format: yaml
   label: Azure Repos Pull Request Reviewers API
   slug: microsoft-azure-repo-pull-request-reviewers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-pull-request-reviewers-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-repo/openapi/microsoft-azure-repo-pull-request-reviewers-api-openapi.yml
 - filename: microsoft-azure-repo-pull-request-threads-api-openapi.yml
   format: yaml
   label: Azure Repos Pull Request Threads API
   slug: microsoft-azure-repo-pull-request-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-pull-request-threads-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-repo/openapi/microsoft-azure-repo-pull-request-threads-api-openapi.yml
 - filename: microsoft-azure-repo-pull-requests-api-openapi.yml
   format: yaml
   label: Azure Repos Pull Requests API
   slug: microsoft-azure-repo-pull-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-pull-requests-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-repo/openapi/microsoft-azure-repo-pull-requests-api-openapi.yml
 - filename: microsoft-azure-repo-pushes-api-openapi.yml
   format: yaml
   label: Azure Repos Pushes API
   slug: microsoft-azure-repo-pushes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-pushes-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-repo/openapi/microsoft-azure-repo-pushes-api-openapi.yml
 - filename: microsoft-azure-repo-refs-api-openapi.yml
   format: yaml
   label: Azure Repos Refs API
   slug: microsoft-azure-repo-refs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-refs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-repo/openapi/microsoft-azure-repo-refs-api-openapi.yml
 - filename: microsoft-azure-repo-repositories-api-openapi.yml
   format: yaml
   label: Azure Repos Repositories API
   slug: microsoft-azure-repo-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-repo/openapi/microsoft-azure-repo-repositories-api-openapi.yml
 - filename: microsoft-azure-repo-stats-api-openapi.yml
   format: yaml
   label: Azure Repos Stats API
   slug: microsoft-azure-repo-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-stats-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-repo/openapi/microsoft-azure-repo-stats-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -95,13 +95,12 @@ source_filename: microsoft-azure-repo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: learn.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 02:26:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: azure.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 22:04:48 2026 GMT\n  hsts: null\n- host: docs.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 06:59:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/security/microsoft-azure-repo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-repo/security/microsoft-azure-repo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Developer Tools
 - DevOps
-- Git
-- Repositories
 - Version Control
+- Repositories
 - TFVC
 ---

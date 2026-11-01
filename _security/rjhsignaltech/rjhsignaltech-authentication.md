@@ -8,37 +8,37 @@ api_specs:
   label: Who Represents This Address (RJH Signal Technologies) Batch API
   slug: rjhsignaltech-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rjhsignaltech/refs/heads/main/openapi/rjhsignaltech-batch-api-openapi.yml
+  url: https://artifacts.apis.io/rjhsignaltech/openapi/rjhsignaltech-batch-api-openapi.yml
 - filename: rjhsignaltech-civicinfo-api-openapi.yml
   format: yaml
   label: Who Represents This Address (RJH Signal Technologies) Civicinfo API
   slug: rjhsignaltech-civicinfo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rjhsignaltech/refs/heads/main/openapi/rjhsignaltech-civicinfo-api-openapi.yml
+  url: https://artifacts.apis.io/rjhsignaltech/openapi/rjhsignaltech-civicinfo-api-openapi.yml
 - filename: rjhsignaltech-divisions-api-openapi.yml
   format: yaml
   label: Who Represents This Address (RJH Signal Technologies) Divisions API
   slug: rjhsignaltech-divisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rjhsignaltech/refs/heads/main/openapi/rjhsignaltech-divisions-api-openapi.yml
+  url: https://artifacts.apis.io/rjhsignaltech/openapi/rjhsignaltech-divisions-api-openapi.yml
 - filename: rjhsignaltech-lookup-api-openapi.yml
   format: yaml
   label: Who Represents This Address (RJH Signal Technologies) Lookup API
   slug: rjhsignaltech-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rjhsignaltech/refs/heads/main/openapi/rjhsignaltech-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/rjhsignaltech/openapi/rjhsignaltech-lookup-api-openapi.yml
 - filename: rjhsignaltech-x402-api-openapi.yml
   format: yaml
   label: Who Represents This Address (RJH Signal Technologies) X402 API
   slug: rjhsignaltech-x402-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rjhsignaltech/refs/heads/main/openapi/rjhsignaltech-x402-api-openapi.yml
+  url: https://artifacts.apis.io/rjhsignaltech/openapi/rjhsignaltech-x402-api-openapi.yml
 - filename: rjhsignaltech-zip-api-openapi.yml
   format: yaml
   label: Who Represents This Address (RJH Signal Technologies) Zip API
   slug: rjhsignaltech-zip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rjhsignaltech/refs/heads/main/openapi/rjhsignaltech-zip-api-openapi.yml
+  url: https://artifacts.apis.io/rjhsignaltech/openapi/rjhsignaltech-zip-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -65,7 +65,7 @@ source_filename: rjhsignaltech-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-25'\nmethod: derived\nsource: openapi/whorepresents.openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  sources:\n  - openapi/whorepresents.openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rjhsignaltech/refs/heads/main/authentication/rjhsignaltech-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rjhsignaltech/authentication/rjhsignaltech-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

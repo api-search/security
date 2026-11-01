@@ -5,25 +5,25 @@ api_specs:
   label: Stigg Coupons API
   slug: stigg-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stigg/refs/heads/main/openapi/stigg-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/stigg/openapi/stigg-coupons-api-openapi.yml
 - filename: stigg-customers-api-openapi.yml
   format: yaml
   label: Stigg Customers API
   slug: stigg-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stigg/refs/heads/main/openapi/stigg-customers-api-openapi.yml
+  url: https://artifacts.apis.io/stigg/openapi/stigg-customers-api-openapi.yml
 - filename: stigg-subscriptions-api-openapi.yml
   format: yaml
   label: Stigg Subscriptions API
   slug: stigg-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stigg/refs/heads/main/openapi/stigg-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/stigg/openapi/stigg-subscriptions-api-openapi.yml
 - filename: stigg-usage-api-openapi.yml
   format: yaml
   label: Stigg Usage API
   slug: stigg-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stigg/refs/heads/main/openapi/stigg-usage-api-openapi.yml
+  url: https://artifacts.apis.io/stigg/openapi/stigg-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: stigg-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.stigg.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 18:02:06 2026 GMT\n  hsts: false\n- host: docs.stigg.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 12:52:51 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.stigg.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: stigg.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stigg/refs/heads/main/security/stigg-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/stigg/security/stigg-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - FinOps

@@ -5,49 +5,49 @@ api_specs:
   label: BCB Group Accounts API
   slug: bcb-group-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bcb-group/openapi/bcb-group-accounts-api-openapi.yml
 - filename: bcb-group-authentication-api-openapi.yml
   format: yaml
   label: BCB Group Authentication API
   slug: bcb-group-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/bcb-group/openapi/bcb-group-authentication-api-openapi.yml
 - filename: bcb-group-beneficiaries-api-openapi.yml
   format: yaml
   label: BCB Group Beneficiaries API
   slug: bcb-group-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/bcb-group/openapi/bcb-group-beneficiaries-api-openapi.yml
 - filename: bcb-group-blinc-api-openapi.yml
   format: yaml
   label: BCB Group BLINC API
   slug: bcb-group-blinc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-blinc-api-openapi.yml
+  url: https://artifacts.apis.io/bcb-group/openapi/bcb-group-blinc-api-openapi.yml
 - filename: bcb-group-notifications-api-openapi.yml
   format: yaml
   label: BCB Group Notifications API
   slug: bcb-group-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/bcb-group/openapi/bcb-group-notifications-api-openapi.yml
 - filename: bcb-group-payments-api-openapi.yml
   format: yaml
   label: BCB Group Payments API
   slug: bcb-group-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-payments-api-openapi.yml
+  url: https://artifacts.apis.io/bcb-group/openapi/bcb-group-payments-api-openapi.yml
 - filename: bcb-group-tools-api-openapi.yml
   format: yaml
   label: BCB Group Tools API
   slug: bcb-group-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-tools-api-openapi.yml
+  url: https://artifacts.apis.io/bcb-group/openapi/bcb-group-tools-api-openapi.yml
 - filename: bcb-group-virtual-accounts-api-openapi.yml
   format: yaml
   label: BCB Group Virtual Accounts API
   slug: bcb-group-virtual-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-virtual-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bcb-group/openapi/bcb-group-virtual-accounts-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: bcb-group-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bcbgroup.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 00:21:51 2026 GMT\n  hsts: true\n  hsts_max_age: 16070400\ndomains:\n- domain: bcbgroup.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/security/bcb-group-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bcb-group/security/bcb-group-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

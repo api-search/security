@@ -17,7 +17,7 @@ source_filename: runware-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nsource: https://runware.ai/security-disclosure ; runware.ai footer\nurl: https://runware.ai/security-disclosure\ncertifications:\n- ISO 27001\n- SOC 2\n- GDPR\ndata_residency:\n- EU\n- US\nevidence:\n- {source: https://runware.ai/security-disclosure, keywords: [iso 27001, soc 2, gdpr, data residency]}\nnotes: >-\n  Runware advertises ISO 27001 and SOC 2 certification and GDPR compliance with\n  EU & US data residency. No dedicated trust.runware.ai portal was found at the\n  probe date; these certifications are published on the security-disclosure page\n  and the site footer.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/runware/refs/heads/main/security/runware-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/runware/security/runware-trust-center.yml
 summary_line: ISO 27001, SOC 2, GDPR
 tags:
 - Company

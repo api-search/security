@@ -7,7 +7,7 @@ api_specs:
   label: Carte V1Alpha1 API
   slug: carte-v1alpha1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carte/refs/heads/main/openapi/carte-v1alpha1-api-openapi.yml
+  url: https://artifacts.apis.io/carte/openapi/carte-v1alpha1-api-openapi.yml
 auth_types: []
 description: Carta’s API uses OAuth 2.0 and supports the AUTHORIZATION_CODE and CLIENT_CREDENTIALS grant types.
 kind: authentication
@@ -31,11 +31,11 @@ source_filename: carte-authentication.yml
 source_heading: Authentication Profile
 source_url: https://docs.carta.com/api-platform/guides/guides/authorization
 source_yaml: "generated: '2026-10-07'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://docs.carta.com/api-platform/guides/guides/authorization\nsources:\n- https://docs.carta.com/api-platform/guides/guides/authorization\n- https://docs.carta.com/api-platform/guides/guides/adding-new-oauth-scopes\n- https://docs.carta.com/api-platform/guides/guides/authorization/using-the-client-credentials-flow\n- https://docs.carta.com/api-platform/guides/guides/service-accounts\ndescription: Carta’s API uses OAuth 2.0 and supports the AUTHORIZATION_CODE and CLIENT_CREDENTIALS grant types.\nschemes:\n- type: oauth2\n  name: Carta OAuth\n  evidence: Carta’s API uses the OAuth 2.0 open specification to authorize your access to our data, and supports AUTHORIZATION_CODE and CLIENT_CREDENTIALS\n    grant types.\n  how_to_obtain: You are provided a client_id and client_secret by Carta.\ndocs: https://docs.carta.com/api-platform/guides/guides/authorization\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carte/refs/heads/main/authentication/carte-authentication.yml
+source_yaml_url: https://artifacts.apis.io/carte/authentication/carte-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company
 - Finance
 - Equity
-- FundManagement
+- Fund Management
 ---

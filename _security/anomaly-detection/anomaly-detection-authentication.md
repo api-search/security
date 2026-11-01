@@ -8,19 +8,19 @@ api_specs:
   label: Anomaly Detection ChangePoint API
   slug: anomaly-detection-changepoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anomaly-detection/refs/heads/main/openapi/anomaly-detection-changepoint-api-openapi.yml
+  url: https://artifacts.apis.io/anomaly-detection/openapi/anomaly-detection-changepoint-api-openapi.yml
 - filename: anomaly-detection-multivariate-api-openapi.yml
   format: yaml
   label: Anomaly Detection Multivariate API
   slug: anomaly-detection-multivariate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anomaly-detection/refs/heads/main/openapi/anomaly-detection-multivariate-api-openapi.yml
+  url: https://artifacts.apis.io/anomaly-detection/openapi/anomaly-detection-multivariate-api-openapi.yml
 - filename: anomaly-detection-univariate-api-openapi.yml
   format: yaml
   label: Anomaly Detection Univariate API
   slug: anomaly-detection-univariate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anomaly-detection/refs/heads/main/openapi/anomaly-detection-univariate-api-openapi.yml
+  url: https://artifacts.apis.io/anomaly-detection/openapi/anomaly-detection-univariate-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: anomaly-detection-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/anomaly-detection-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: SubscriptionKey\n  type: apiKey\n  in: header\n  parameter: Ocp-Apim-Subscription-Key\n  description: Azure Cognitive Services subscription key for the Anomaly Detector resource.\n  sources:\n  - openapi/anomaly-detection-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anomaly-detection/refs/heads/main/authentication/anomaly-detection-authentication.yml
+source_yaml_url: https://artifacts.apis.io/anomaly-detection/authentication/anomaly-detection-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Anomaly Detection

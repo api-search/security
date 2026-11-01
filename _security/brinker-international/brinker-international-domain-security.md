@@ -55,7 +55,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.brinker.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  5 02:02:20 2026 GMT\n  hsts: true\n  hsts_max_age: 16070400\n- host: www.chilis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 09:19:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.maggianos.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 17 23:29:35 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: brinker.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: chilis.com\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy:\
   \ reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brinker-international/refs/heads/main/security/brinker-international-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/brinker-international/security/brinker-international-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Restaurant

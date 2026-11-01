@@ -7,139 +7,139 @@ api_specs:
   label: Airtm Account Status API
   slug: airtm-account-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-account-status-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-account-status-api-openapi.yml
 - filename: airtm-bulk-payments-api-openapi.yml
   format: yaml
   label: Airtm Bulk Payments API
   slug: airtm-bulk-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-bulk-payments-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-bulk-payments-api-openapi.yml
 - filename: airtm-bulk-payouts-api-openapi.yml
   format: yaml
   label: Airtm Bulk Payouts API
   slug: airtm-bulk-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-bulk-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-bulk-payouts-api-openapi.yml
 - filename: airtm-deposits-api-openapi.yml
   format: yaml
   label: Airtm Deposits API
   slug: airtm-deposits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-deposits-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-deposits-api-openapi.yml
 - filename: airtm-embedded-catalog-api-openapi.yml
   format: yaml
   label: Airtm Embedded Catalog API
   slug: airtm-embedded-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-embedded-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-embedded-catalog-api-openapi.yml
 - filename: airtm-embedded-quotes-api-openapi.yml
   format: yaml
   label: Airtm Embedded Quotes API
   slug: airtm-embedded-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-embedded-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-embedded-quotes-api-openapi.yml
 - filename: airtm-embedded-receivers-api-openapi.yml
   format: yaml
   label: Airtm Embedded Receivers API
   slug: airtm-embedded-receivers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-embedded-receivers-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-embedded-receivers-api-openapi.yml
 - filename: airtm-embedded-senders-api-openapi.yml
   format: yaml
   label: Airtm Embedded Senders API
   slug: airtm-embedded-senders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-embedded-senders-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-embedded-senders-api-openapi.yml
 - filename: airtm-embedded-transactions-api-openapi.yml
   format: yaml
   label: Airtm Embedded Transactions API
   slug: airtm-embedded-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-embedded-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-embedded-transactions-api-openapi.yml
 - filename: airtm-external-bank-account-api-openapi.yml
   format: yaml
   label: Airtm External Bank Account API
   slug: airtm-external-bank-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-external-bank-account-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-external-bank-account-api-openapi.yml
 - filename: airtm-external-crypto-account-api-openapi.yml
   format: yaml
   label: Airtm External Crypto Account API
   slug: airtm-external-crypto-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-external-crypto-account-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-external-crypto-account-api-openapi.yml
 - filename: airtm-me-api-openapi.yml
   format: yaml
   label: Airtm Me API
   slug: airtm-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-me-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-me-api-openapi.yml
 - filename: airtm-operations-api-openapi.yml
   format: yaml
   label: Airtm Operations API
   slug: airtm-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-operations-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-operations-api-openapi.yml
 - filename: airtm-partner-api-openapi.yml
   format: yaml
   label: Airtm Partner API
   slug: airtm-partner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-partner-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-partner-api-openapi.yml
 - filename: airtm-payins-api-openapi.yml
   format: yaml
   label: Airtm Payins API
   slug: airtm-payins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-payins-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-payins-api-openapi.yml
 - filename: airtm-payments-payouts-api-openapi.yml
   format: yaml
   label: Airtm Payments / Payouts API
   slug: airtm-payments-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-payments-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-payments-payouts-api-openapi.yml
 - filename: airtm-payouts-api-openapi.yml
   format: yaml
   label: Airtm Payouts API
   slug: airtm-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-payouts-api-openapi.yml
 - filename: airtm-purchases-payins-api-openapi.yml
   format: yaml
   label: Airtm Purchases / Payins API
   slug: airtm-purchases-payins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-purchases-payins-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-purchases-payins-api-openapi.yml
 - filename: airtm-reports-api-openapi.yml
   format: yaml
   label: Airtm Reports API
   slug: airtm-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-reports-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-reports-api-openapi.yml
 - filename: airtm-users-api-openapi.yml
   format: yaml
   label: Airtm Users API
   slug: airtm-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-users-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-users-api-openapi.yml
 - filename: airtm-webhooks-api-openapi.yml
   format: yaml
   label: Airtm Webhooks API
   slug: airtm-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-webhooks-api-openapi.yml
 - filename: airtm-withdrawals-api-openapi.yml
   format: yaml
   label: Airtm Withdrawals API
   slug: airtm-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-withdrawals-api-openapi.yml
 - filename: airtm-api-keys-api-openapi.yml
   format: yaml
   label: Airtm API Keys API
   slug: airtm-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-api-keys-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -220,7 +220,7 @@ source_yaml: "generated: '2026-08-06'\nmethod: searched\nsource: >-\n  openapi/a
   \ are required.\n  sources:\n  - openapi/airtm-enterprise-v1-openapi.json\n  - openapi/airtm-enterprise-v2-openapi.json\n  management:\n    console: https://enterprise.airtm.com/settings\n    api_operations: [CreateApiKey, ListApiKeys, RevokeApiKey, ToggleAllowedIp]\n    ip_allowlist: true\n    rotation_guidance: every 90 days (documented recommendation)\n- name: Airtm OIDC\n  type: openIdConnect\n  openIdConnectUrl: https://api.enterprise.airtm.com/oidc/.well-known/openid-configuration\n  description: >-\n    OAuth 2.0 / OpenID Connect authorization server backing the Wallet Resource (Connect) API.\n    Authorization Code (PKCE S256 mandatory), Refresh Token (rotating), and Client Credentials\n    grants. Access tokens are OPAQUE — resource servers must introspect them at\n    POST /oidc/token/introspection rather than verifying a JWT signature. The id_token is RS256.\n  sources:\n  - well-known/airtm-openid-configuration.json\n  - docs\n  endpoints:\n    issuer: https://api.enterprise.airtm.com/oidc\n\
   \    authorization: https://api.enterprise.airtm.com/oidc/auth\n    token: https://api.enterprise.airtm.com/oidc/token\n    userinfo: https://api.enterprise.airtm.com/oidc/me\n    jwks: https://api.enterprise.airtm.com/oidc/jwks\n    introspection: https://api.enterprise.airtm.com/oidc/token/introspection\n    revocation: https://api.enterprise.airtm.com/oidc/token/revocation\n    end_session: https://api.enterprise.airtm.com/oidc/session/end\n    pushed_authorization_request: https://api.enterprise.airtm.com/oidc/request\n  client_auth_methods: [client_secret_basic, client_secret_jwt, client_secret_post, private_key_jwt, none]\n  dpop_supported: true\n  dpop_algs: [ES256, Ed25519, EdDSA]\n  scopes: scopes/airtm-scopes.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: opaque\n  description: >-\n    Bearer access token issued by the Airtm OIDC server, spent against the Wallet Resource (Connect)\n    API at /api/connect/v1. There are no API keys in that API — the token\
   \ and the scopes baked into\n    it are the credential. Missing/expired/revoked tokens return 401 invalid_token; a valid token\n    without the required scope returns 403 insufficient_scope.\n  sources:\n  - docs\nsecond_factor:\n  per_transaction_2fa: true\n  description: >-\n    Every wallet:send transaction is created in pending_user_confirmation and only dispatched after\n    the user confirms a one-time code via POST /transactions/{transactionId}/2fa. Users with 2FA\n    configured receive the code on their own channel (SMS, WhatsApp, or authenticator app); users\n    without 2FA configured are emailed the code. POST /transactions/{transactionId}/2fa/resend\n    re-issues it.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/authentication/airtm-authentication.yml
+source_yaml_url: https://artifacts.apis.io/airtm/authentication/airtm-authentication.yml
 summary_line: http/oauth2/openIdConnect · 3 schemes
 tags:
 - Payments

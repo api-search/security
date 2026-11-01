@@ -7,43 +7,43 @@ api_specs:
   label: Cisco Control Hub Devices API
   slug: cisco-control-hub-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/openapi/cisco-control-hub-devices-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-control-hub/openapi/cisco-control-hub-devices-api-openapi.yml
 - filename: cisco-control-hub-licenses-api-openapi.yml
   format: yaml
   label: Cisco Control Hub Licenses API
   slug: cisco-control-hub-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/openapi/cisco-control-hub-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-control-hub/openapi/cisco-control-hub-licenses-api-openapi.yml
 - filename: cisco-control-hub-locations-api-openapi.yml
   format: yaml
   label: Cisco Control Hub Locations API
   slug: cisco-control-hub-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/openapi/cisco-control-hub-locations-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-control-hub/openapi/cisco-control-hub-locations-api-openapi.yml
 - filename: cisco-control-hub-organizations-api-openapi.yml
   format: yaml
   label: Cisco Control Hub Organizations API
   slug: cisco-control-hub-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/openapi/cisco-control-hub-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-control-hub/openapi/cisco-control-hub-organizations-api-openapi.yml
 - filename: cisco-control-hub-people-api-openapi.yml
   format: yaml
   label: Cisco Control Hub People API
   slug: cisco-control-hub-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/openapi/cisco-control-hub-people-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-control-hub/openapi/cisco-control-hub-people-api-openapi.yml
 - filename: cisco-control-hub-workspaces-api-openapi.yml
   format: yaml
   label: Cisco Control Hub Workspaces API
   slug: cisco-control-hub-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/openapi/cisco-control-hub-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-control-hub/openapi/cisco-control-hub-workspaces-api-openapi.yml
 - filename: cisco-control-hub-admin-audit-events-api-openapi.yml
   format: yaml
   label: Cisco Control Hub Admin Audit Events API
   slug: cisco-control-hub-admin-audit-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/openapi/cisco-control-hub-admin-audit-events-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-control-hub/openapi/cisco-control-hub-admin-audit-events-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -70,7 +70,7 @@ source_filename: cisco-control-hub-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cisco-control-hub-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: OAuth2-Access-Token\n  sources:\n  - openapi/cisco-control-hub-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/authentication/cisco-control-hub-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cisco-control-hub/authentication/cisco-control-hub-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Administration

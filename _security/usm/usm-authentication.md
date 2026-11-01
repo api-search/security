@@ -7,19 +7,19 @@ api_specs:
   label: Universiti Sains Malaysia Export API
   slug: usm-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usm/refs/heads/main/openapi/usm-export-api-openapi.yml
+  url: https://artifacts.apis.io/usm/openapi/usm-export-api-openapi.yml
 - filename: usm-oai-pmh-api-openapi.yml
   format: yaml
   label: Universiti Sains Malaysia OAI PMH API
   slug: usm-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usm/refs/heads/main/openapi/usm-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/usm/openapi/usm-oai-pmh-api-openapi.yml
 - filename: usm-repository-api-openapi.yml
   format: yaml
   label: Universiti Sains Malaysia Repository API
   slug: usm-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usm/refs/heads/main/openapi/usm-repository-api-openapi.yml
+  url: https://artifacts.apis.io/usm/openapi/usm-repository-api-openapi.yml
 auth_types: []
 description: How each Universiti Sains Malaysia surface authenticates, established by probing the live hosts on 2026-09-01. USM publishes no developer authentication documentation of any kind; every statement below comes from an observed response.
 kind: authentication
@@ -43,7 +43,7 @@ source_yaml: "---\nname: Universiti Sains Malaysia authentication posture\ndescr
   \      profile; SLO over POST, Redirect and SOAP; an AttributeAuthority over SAML1 and\n      SAML2 SOAP. This is the institution's strongest machine-readable identity surface\n      and it is in live use — eduvpn.usm.my redirects an unauthenticated request\n      straight into https://shibsso.usm.my/idp/profile/SAML2/Redirect/SSO.\n    evidence:\n      - url: https://metadata.sifulan.my/metadata.xml\n        status: 200\n      - url: https://shibsso.usm.my/idp/shibboleth\n        status: 200\n      - url: https://eduvpn.usm.my/\n        status: 200\n  - surface: API@USM portal\n    url: https://api.usm.my/\n    x-operator: institution\n    scheme: unknown\n    detail: >-\n      The page renders login and register modals, but the whole site is an unmodified\n      TemplateMo \"Chain App Dev\" HTML template — body copy is lorem ipsum, the contact\n      address is the template's own info@company.co, and every navigation link is an\n      in-page anchor. No authentication endpoint, no catalog\
   \ and no documentation path\n      exists behind it (/docs, /openapi.json, /swagger-ui and /robots.txt all 404).\n      Treat the login as scaffolding, not as a gate in front of an API programme.\n    evidence:\n      - url: https://api.usm.my/\n        status: 200\n      - url: https://api.usm.my/openapi.json\n        status: 404\n      - url: https://api.usm.my/docs\n        status: 404\n  - surface: USM Moodle (e-Learning@USM)\n    url: https://elearning.usm.my/sidang2526/\n    x-operator: institution\n    scheme: token\n    detail: >-\n      Self-hosted Moodle with the REST web-service server enabled. An unauthenticated\n      call returns Moodle's own invalidtoken exception, which proves the service is\n      live and token-gated. The contract is Moodle's, not USM's — the deployment and\n      the host are USM's.\n    evidence:\n      - url: https://elearning.usm.my/sidang2526/webservice/rest/server.php?wstoken=x&wsfunction=core_webservice_get_site_info&moodlewsrestformat=json\n \
   \       status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/usm/refs/heads/main/authentication/usm-authentication.yml
+source_yaml_url: https://artifacts.apis.io/usm/authentication/usm-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

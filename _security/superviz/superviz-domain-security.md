@@ -5,37 +5,37 @@ api_specs:
   label: SuperViz Channels API
   slug: superviz-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-channels-api-openapi.yml
+  url: https://artifacts.apis.io/superviz/openapi/superviz-channels-api-openapi.yml
 - filename: superviz-comments-api-openapi.yml
   format: yaml
   label: SuperViz Comments API
   slug: superviz-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-comments-api-openapi.yml
+  url: https://artifacts.apis.io/superviz/openapi/superviz-comments-api-openapi.yml
 - filename: superviz-meetings-api-openapi.yml
   format: yaml
   label: SuperViz Meetings API
   slug: superviz-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/superviz/openapi/superviz-meetings-api-openapi.yml
 - filename: superviz-presence-api-openapi.yml
   format: yaml
   label: SuperViz Presence API
   slug: superviz-presence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-presence-api-openapi.yml
+  url: https://artifacts.apis.io/superviz/openapi/superviz-presence-api-openapi.yml
 - filename: superviz-realtime-api-openapi.yml
   format: yaml
   label: SuperViz Realtime API
   slug: superviz-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/superviz/openapi/superviz-realtime-api-openapi.yml
 - filename: superviz-rooms-api-openapi.yml
   format: yaml
   label: SuperViz Rooms API
   slug: superviz-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/superviz/openapi/superviz-rooms-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: superviz-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.superviz.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 14:01:34 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.superviz.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 12 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: superviz.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/security/superviz-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/superviz/security/superviz-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Real-Time

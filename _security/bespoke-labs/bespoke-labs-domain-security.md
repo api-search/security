@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: bespoke-labs-minicheck-api-openapi.yml
+- filename: bespoke-labs-nimble-api-openapi.yml
   format: yaml
-  label: Bespoke Labs Minicheck API
-  slug: bespoke-labs-minicheck-api
+  label: Bespoke Labs Nimble API
+  slug: bespoke-labs-nimble-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bespoke-labs/refs/heads/main/openapi/bespoke-labs-minicheck-api-openapi.yml
+  url: https://artifacts.apis.io/bespoke-labs/openapi/bespoke-labs-nimble-api-openapi.yml
+- filename: bespoke-labs-viewer-api-openapi.yml
+  format: yaml
+  label: Bespoke Labs Viewer API
+  slug: bespoke-labs-viewer-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bespoke-labs/openapi/bespoke-labs-viewer-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -42,7 +48,7 @@ source_filename: bespoke-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bespokelabs.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 19:28:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.bespokelabs.ai\n  https: false\n  tls_error: certificate has expired (observed 2026-07-18)\n  note: API base host used by the official SDK; served an expired TLS certificate at probe time.\n- host: console.bespokelabs.ai\n  https: false\n  tls_error: certificate has expired (observed 2026-07-18)\ndomains:\n- domain: bespokelabs.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bespoke-labs/refs/heads/main/security/bespoke-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bespoke-labs/security/bespoke-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

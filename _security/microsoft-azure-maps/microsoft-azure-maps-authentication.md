@@ -8,13 +8,13 @@ api_specs:
   label: Azure Maps Geocoding API
   slug: microsoft-azure-maps-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-maps/refs/heads/main/openapi/microsoft-azure-maps-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-maps/openapi/microsoft-azure-maps-geocoding-api-openapi.yml
 - filename: microsoft-azure-maps-search-api-openapi.yml
   format: yaml
   label: Azure Maps Search API
   slug: microsoft-azure-maps-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-maps/refs/heads/main/openapi/microsoft-azure-maps-search-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-maps/openapi/microsoft-azure-maps-search-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -51,7 +51,7 @@ source_filename: microsoft-azure-maps-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-azure-maps-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - query\n  oauth2_flows:\n  - implicit\nschemes:\n- name: subscriptionKey\n  type: apiKey\n  in: query\n  parameter: subscription-key\n  sources:\n  - openapi/microsoft-azure-maps-openapi.yml\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  sources:\n  - openapi/microsoft-azure-maps-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-maps/refs/heads/main/authentication/microsoft-azure-maps-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-maps/authentication/microsoft-azure-maps-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Geocoding

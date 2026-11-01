@@ -5,43 +5,43 @@ api_specs:
   label: Microsoft Visio API Application API
   slug: visio-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/openapi/visio-application-api-openapi.yml
+  url: https://artifacts.apis.io/visio/openapi/visio-application-api-openapi.yml
 - filename: visio-comments-api-openapi.yml
   format: yaml
   label: Microsoft Visio API Comments API
   slug: visio-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/openapi/visio-comments-api-openapi.yml
+  url: https://artifacts.apis.io/visio/openapi/visio-comments-api-openapi.yml
 - filename: visio-documents-api-openapi.yml
   format: yaml
   label: Microsoft Visio API Documents API
   slug: visio-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/openapi/visio-documents-api-openapi.yml
+  url: https://artifacts.apis.io/visio/openapi/visio-documents-api-openapi.yml
 - filename: visio-hyperlinks-api-openapi.yml
   format: yaml
   label: Microsoft Visio API Hyperlinks API
   slug: visio-hyperlinks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/openapi/visio-hyperlinks-api-openapi.yml
+  url: https://artifacts.apis.io/visio/openapi/visio-hyperlinks-api-openapi.yml
 - filename: visio-pages-api-openapi.yml
   format: yaml
   label: Microsoft Visio API Pages API
   slug: visio-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/openapi/visio-pages-api-openapi.yml
+  url: https://artifacts.apis.io/visio/openapi/visio-pages-api-openapi.yml
 - filename: visio-shape-data-api-openapi.yml
   format: yaml
   label: Microsoft Visio API Shape Data API
   slug: visio-shape-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/openapi/visio-shape-data-api-openapi.yml
+  url: https://artifacts.apis.io/visio/openapi/visio-shape-data-api-openapi.yml
 - filename: visio-shapes-api-openapi.yml
   format: yaml
   label: Microsoft Visio API Shapes API
   slug: visio-shapes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/openapi/visio-shapes-api-openapi.yml
+  url: https://artifacts.apis.io/visio/openapi/visio-shapes-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -82,7 +82,7 @@ source_filename: visio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: learn.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 02:26:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: appsforoffice.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 13:03:52 2027 GMT\n  hsts: null\n- host: graph.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 03:53:00 2026 GMT\n  hsts: null\ndomains:\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/security/visio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/visio/security/visio-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Business Process

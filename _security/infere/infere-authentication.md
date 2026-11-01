@@ -7,7 +7,7 @@ api_specs:
   label: Snowball Studio Ltd. API
   slug: infere-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infere/refs/heads/main/openapi/_ae-authored/infere-openapi-generated.yml
+  url: https://artifacts.apis.io/infere/openapi/_ae-authored/infere-openapi-generated.yml
 auth_types: []
 description: Authentication schemes for Infere
 kind: authentication
@@ -32,12 +32,12 @@ source_filename: infere-authentication.yml
 source_heading: Authentication Profile
 source_url: https://infere.com/documentation/token-management/
 source_yaml: "generated: '2026-10-18'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://infere.com/documentation/token-management/\nsources:\n- https://infere.com/documentation/token-management/\n- https://infere.com/glossary/api-token/\n- https://infere.com/glossary/token/\n- https://infere.com/glossary/token-budget/\ndescription: Authentication schemes for Infere\nschemes:\n- type: http-bearer\n  name: API token\n  evidence: API tokens are the primary authentication mechanism for the Infere platform.\n  location: header\n  header: Authorization\ndocs: https://infere.com/documentation/token-management/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infere/refs/heads/main/authentication/infere-authentication.yml
+source_yaml_url: https://artifacts.apis.io/infere/authentication/infere-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Observability
-- PromptManagement
+- Prompt Management
 - LLM
 ---

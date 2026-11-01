@@ -5,97 +5,97 @@ api_specs:
   label: FCC (Federal Communications Commission) Am Pattern API
   slug: fcc-am-pattern-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-am-pattern-api-openapi.yml
+  url: https://artifacts.apis.io/fcc/openapi/fcc-am-pattern-api-openapi.yml
 - filename: fcc-antenna-api-openapi.yml
   format: yaml
   label: FCC (Federal Communications Commission) Antenna API
   slug: fcc-antenna-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-antenna-api-openapi.yml
+  url: https://artifacts.apis.io/fcc/openapi/fcc-antenna-api-openapi.yml
 - filename: fcc-area-api-openapi.yml
   format: yaml
   label: FCC (Federal Communications Commission) Area API
   slug: fcc-area-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-area-api-openapi.yml
+  url: https://artifacts.apis.io/fcc/openapi/fcc-area-api-openapi.yml
 - filename: fcc-block-api-openapi.yml
   format: yaml
   label: FCC (Federal Communications Commission) Block API
   slug: fcc-block-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-block-api-openapi.yml
+  url: https://artifacts.apis.io/fcc/openapi/fcc-block-api-openapi.yml
 - filename: fcc-coordinate-conversion-api-openapi.yml
   format: yaml
   label: FCC (Federal Communications Commission) Coordinate Conversion API
   slug: fcc-coordinate-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-coordinate-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/fcc/openapi/fcc-coordinate-conversion-api-openapi.yml
 - filename: fcc-coverage-api-openapi.yml
   format: yaml
   label: FCC (Federal Communications Commission) Coverage API
   slug: fcc-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/fcc/openapi/fcc-coverage-api-openapi.yml
 - filename: fcc-distance-api-openapi.yml
   format: yaml
   label: FCC (Federal Communications Commission) Distance API
   slug: fcc-distance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-distance-api-openapi.yml
+  url: https://artifacts.apis.io/fcc/openapi/fcc-distance-api-openapi.yml
 - filename: fcc-elevation-api-openapi.yml
   format: yaml
   label: FCC (Federal Communications Commission) Elevation API
   slug: fcc-elevation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-elevation-api-openapi.yml
+  url: https://artifacts.apis.io/fcc/openapi/fcc-elevation-api-openapi.yml
 - filename: fcc-entity-api-openapi.yml
   format: yaml
   label: FCC (Federal Communications Commission) Entity API
   slug: fcc-entity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-entity-api-openapi.yml
+  url: https://artifacts.apis.io/fcc/openapi/fcc-entity-api-openapi.yml
 - filename: fcc-haat-api-openapi.yml
   format: yaml
   label: FCC (Federal Communications Commission) Haat API
   slug: fcc-haat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-haat-api-openapi.yml
+  url: https://artifacts.apis.io/fcc/openapi/fcc-haat-api-openapi.yml
 - filename: fcc-profile-api-openapi.yml
   format: yaml
   label: FCC (Federal Communications Commission) Profile API
   slug: fcc-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-profile-api-openapi.yml
+  url: https://artifacts.apis.io/fcc/openapi/fcc-profile-api-openapi.yml
 - filename: fcc-projection-api-openapi.yml
   format: yaml
   label: FCC (Federal Communications Commission) Projection API
   slug: fcc-projection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-projection-api-openapi.yml
+  url: https://artifacts.apis.io/fcc/openapi/fcc-projection-api-openapi.yml
 - filename: fcc-datasets-api-openapi.yml
   format: yaml
   label: FCC (Federal Communications Commission) Datasets API
   slug: fcc-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/fcc/openapi/fcc-datasets-api-openapi.yml
 - filename: fcc-filings-api-openapi.yml
   format: yaml
   label: FCC (Federal Communications Commission) Filings API
   slug: fcc-filings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-filings-api-openapi.yml
+  url: https://artifacts.apis.io/fcc/openapi/fcc-filings-api-openapi.yml
 - filename: fcc-pirate-radio-api-openapi.yml
   format: yaml
   label: FCC (Federal Communications Commission) Pirate Radio API
   slug: fcc-pirate-radio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-pirate-radio-api-openapi.yml
+  url: https://artifacts.apis.io/fcc/openapi/fcc-pirate-radio-api-openapi.yml
 - filename: fcc-proceedings-api-openapi.yml
   format: yaml
   label: FCC (Federal Communications Commission) Proceedings API
   slug: fcc-proceedings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-proceedings-api-openapi.yml
+  url: https://artifacts.apis.io/fcc/openapi/fcc-proceedings-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -134,7 +134,7 @@ source_filename: fcc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fcc.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 11 23:59:59 2026 GMT\n  hsts: null\n- host: data.fcc.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  4 01:13:20 2026 GMT\n  hsts: null\n- host: geo.fcc.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 30 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: fcc.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/security/fcc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fcc/security/fcc-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Federal Government

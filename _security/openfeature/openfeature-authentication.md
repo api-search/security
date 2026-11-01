@@ -8,7 +8,7 @@ api_specs:
   label: OpenFeature OFREP Core API
   slug: openfeature-ofrep-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openfeature/refs/heads/main/openapi/openfeature-ofrep-core-api-openapi.yml
+  url: https://artifacts.apis.io/openfeature/openapi/openfeature-ofrep-core-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -44,7 +44,7 @@ source_filename: openfeature-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openfeature-openapi.yaml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: \"Optional Bearer token authentication. If supported by the flag management system,\\\n    \\ \\nclients can authenticate using a Bearer token in the `Authorization` header following\\\n    \\ \\nthe format: `Authorization: Bearer <token>`.\"\n  sources:\n  - openapi/openfeature-openapi.yaml\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: \"Optional API key authentication. If supported by the flag management system,\\\n    \\ clients \\ncan authenticate by providing an API key in the `X-API-Key` header.\"\n  sources:\n  - openapi/openfeature-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openfeature/refs/heads/main/authentication/openfeature-authentication.yml
+source_yaml_url: https://artifacts.apis.io/openfeature/authentication/openfeature-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Cloud-Native

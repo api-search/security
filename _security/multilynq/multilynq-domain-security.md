@@ -26,7 +26,7 @@ source_filename: multilynq-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.multilynq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  5 19:28:42 2026 GMT\n  hsts: false\ndomains:\n- domain: multilynq.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/multilynq/refs/heads/main/security/multilynq-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/multilynq/security/multilynq-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

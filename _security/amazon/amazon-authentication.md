@@ -8,61 +8,61 @@ api_specs:
   label: Amazon Ad Groups API
   slug: amazon-ad-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-ad-groups-api-openapi.yml
+  url: https://artifacts.apis.io/amazon/openapi/amazon-ad-groups-api-openapi.yml
 - filename: amazon-campaigns-api-openapi.yml
   format: yaml
   label: Amazon Campaigns API
   slug: amazon-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/amazon/openapi/amazon-campaigns-api-openapi.yml
 - filename: amazon-charge-permissions-api-openapi.yml
   format: yaml
   label: Amazon Charge Permissions API
   slug: amazon-charge-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-charge-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon/openapi/amazon-charge-permissions-api-openapi.yml
 - filename: amazon-charges-api-openapi.yml
   format: yaml
   label: Amazon Charges API
   slug: amazon-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-charges-api-openapi.yml
+  url: https://artifacts.apis.io/amazon/openapi/amazon-charges-api-openapi.yml
 - filename: amazon-checkout-sessions-api-openapi.yml
   format: yaml
   label: Amazon Checkout Sessions API
   slug: amazon-checkout-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-checkout-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon/openapi/amazon-checkout-sessions-api-openapi.yml
 - filename: amazon-keywords-api-openapi.yml
   format: yaml
   label: Amazon Keywords API
   slug: amazon-keywords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-keywords-api-openapi.yml
+  url: https://artifacts.apis.io/amazon/openapi/amazon-keywords-api-openapi.yml
 - filename: amazon-profiles-api-openapi.yml
   format: yaml
   label: Amazon Profiles API
   slug: amazon-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/amazon/openapi/amazon-profiles-api-openapi.yml
 - filename: amazon-refunds-api-openapi.yml
   format: yaml
   label: Amazon Refunds API
   slug: amazon-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/amazon/openapi/amazon-refunds-api-openapi.yml
 - filename: amazon-reports-api-openapi.yml
   format: yaml
   label: Amazon Ads Reports API
   slug: amazon-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-reports-api-openapi.yml
+  url: https://artifacts.apis.io/amazon/openapi/amazon-reports-api-openapi.yml
 - filename: amazon-targets-api-openapi.yml
   format: yaml
   label: Amazon Targets API
   slug: amazon-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-targets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon/openapi/amazon-targets-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -98,7 +98,7 @@ source_filename: amazon-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-advertising-api-openapi.yml, openapi/amazon-pay-api-openapi.yml, openapi/amazon-selling-partner-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth 2.0 access token from Login with Amazon\n  sources:\n  - openapi/amazon-advertising-api-openapi.yml\n  - openapi/amazon-selling-partner-api-openapi.yml\n- name: amazonPaySignature\n  type: apiKey\n  in: header\n  parameter: authorization\n  description: AMZN-PAY-RSASSA-PSS-V2 signature using merchant private key\n  sources:\n  - openapi/amazon-pay-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/authentication/amazon-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon/authentication/amazon-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Amazon

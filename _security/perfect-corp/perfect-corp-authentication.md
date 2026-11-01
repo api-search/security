@@ -7,7 +7,7 @@ api_specs:
   label: Perfect Corp S2s API
   slug: perfect-corp-s2s-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/openapi/perfect-corp-s2s-api-openapi.yml
+  url: https://artifacts.apis.io/perfect-corp/openapi/perfect-corp-s2s-api-openapi.yml
 auth_types:
 - http
 description: 'One credential covers the whole platform: a YouCam API key sent as an HTTP bearer token. The same key authenticates the REST API and all three hosted MCP servers. An OAuth 2.0 authorization server is ALSO discoverable at the API host well-known path, but nothing in the developer documentation references it and no published operation requires it.'
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: searched\nsource: https://docs.pe
   \  - openapi/perfect-corp-ai_necklace-openapi.yml\n  - openapi/perfect-corp-ai_object_removal_pro-openapi.yml\n  - openapi/perfect-corp-ai_photo_background_blur-openapi.yml\n  - openapi/perfect-corp-ai_photo_background_change-openapi.yml\n  - openapi/perfect-corp-ai_photo_colorize-openapi.yml\n  - openapi/perfect-corp-ai_photo_enhance-openapi.yml\n  - openapi/perfect-corp-ai_photo_lighting-openapi.yml\n  - openapi/perfect-corp-ai_replace-openapi.yml\n  - openapi/perfect-corp-ai_scarf-openapi.yml\n  - openapi/perfect-corp-ai_shoes-openapi.yml\n  - openapi/perfect-corp-ai_skin_analysis-openapi.yml\n  - openapi/perfect-corp-ai_skin_simulation-openapi.yml\n  - openapi/perfect-corp-ai_skin_tone_analysis-openapi.yml\n  - openapi/perfect-corp-ai_smile-openapi.yml\n  - openapi/perfect-corp-ai_studio_generator-openapi.yml\n  - openapi/perfect-corp-ai_teeth_whitening-openapi.yml\n  - openapi/perfect-corp-ai_video_background_replace-openapi.yml\n  - openapi/perfect-corp-ai_video_enhancer-openapi.yml\n\
   \  - openapi/perfect-corp-ai_video_face_swap-openapi.yml\n  - openapi/perfect-corp-ai_video_generator-openapi.yml\n  - openapi/perfect-corp-ai_video_object_removal-openapi.yml\n  - openapi/perfect-corp-ai_video_style_transfer-openapi.yml\n  - openapi/perfect-corp-ai_watch-openapi.yml\n  - openapi/perfect-corp-ai_wavy_hair-openapi.yml\n  - openapi/perfect-corp-file-openapi.yml\n  - openapi/perfect-corp-makeup_vto-openapi.yml\n  - openapi/perfect-corp-ring_vto-openapi.yml\n  - openapi/perfect-corp-task_management-openapi.yml\n  - openapi/perfect-corp-unit_system-openapi.yml\nx-evidence:\n- url: https://docs.perfectcorp.com/develop/quick_start_guide\n  http_status: 200\n- url: https://docs.perfectcorp.com/develop/debugging_guide.md\n  http_status: 200\n- url: https://yce-api-01.makeupar.com/.well-known/oauth-authorization-server\n  http_status: 200\n- url: https://yce-api-01.makeupar.com/s2s/v2.0/credit/feature-cost\n  http_status: 401\n  body: '{\"status\":401,\"error\":\"This API key is\
   \ not recognized.\",\"error_code\":\"InvalidApiKey\"}'\n- url: https://yce.perfectcorp.com/api-console/en/api-keys/\n  http_status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/authentication/perfect-corp-authentication.yml
+source_yaml_url: https://artifacts.apis.io/perfect-corp/authentication/perfect-corp-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Beauty
@@ -121,7 +121,7 @@ tags:
 - Generative AI
 - Computer Vision
 - Augmented Reality
-- visual-commerce
+- Visual Commerce
 - Artificial Intelligence
 - Machine Learning
 - Video Generation

@@ -5,61 +5,61 @@ api_specs:
   label: Hoverfly Cache API
   slug: hoverfly-cache-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-cache-api-openapi.yml
+  url: https://artifacts.apis.io/hoverfly/openapi/hoverfly-cache-api-openapi.yml
 - filename: hoverfly-diff-api-openapi.yml
   format: yaml
   label: Hoverfly Diff API
   slug: hoverfly-diff-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-diff-api-openapi.yml
+  url: https://artifacts.apis.io/hoverfly/openapi/hoverfly-diff-api-openapi.yml
 - filename: hoverfly-hoverfly-api-openapi.yml
   format: yaml
   label: Hoverfly API
   slug: hoverfly-hoverfly-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-hoverfly-api-openapi.yml
+  url: https://artifacts.apis.io/hoverfly/openapi/hoverfly-hoverfly-api-openapi.yml
 - filename: hoverfly-journal-api-openapi.yml
   format: yaml
   label: Hoverfly Journal API
   slug: hoverfly-journal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-journal-api-openapi.yml
+  url: https://artifacts.apis.io/hoverfly/openapi/hoverfly-journal-api-openapi.yml
 - filename: hoverfly-logs-api-openapi.yml
   format: yaml
   label: Hoverfly Logs API
   slug: hoverfly-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-logs-api-openapi.yml
+  url: https://artifacts.apis.io/hoverfly/openapi/hoverfly-logs-api-openapi.yml
 - filename: hoverfly-post-serve-actions-api-openapi.yml
   format: yaml
   label: Hoverfly Post-Serve Actions API
   slug: hoverfly-post-serve-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-post-serve-actions-api-openapi.yml
+  url: https://artifacts.apis.io/hoverfly/openapi/hoverfly-post-serve-actions-api-openapi.yml
 - filename: hoverfly-simulation-api-openapi.yml
   format: yaml
   label: Hoverfly Simulation API
   slug: hoverfly-simulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-simulation-api-openapi.yml
+  url: https://artifacts.apis.io/hoverfly/openapi/hoverfly-simulation-api-openapi.yml
 - filename: hoverfly-state-api-openapi.yml
   format: yaml
   label: Hoverfly State API
   slug: hoverfly-state-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-state-api-openapi.yml
+  url: https://artifacts.apis.io/hoverfly/openapi/hoverfly-state-api-openapi.yml
 - filename: hoverfly-system-api-openapi.yml
   format: yaml
   label: Hoverfly System API
   slug: hoverfly-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-system-api-openapi.yml
+  url: https://artifacts.apis.io/hoverfly/openapi/hoverfly-system-api-openapi.yml
 - filename: hoverfly-templating-data-api-openapi.yml
   format: yaml
   label: Hoverfly Templating Data API
   slug: hoverfly-templating-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-templating-data-api-openapi.yml
+  url: https://artifacts.apis.io/hoverfly/openapi/hoverfly-templating-data-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -94,7 +94,7 @@ source_filename: hoverfly-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: hoverfly.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 11:45:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.hoverfly.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 12:13:04 2026 GMT\n  hsts: false\ndomains:\n- domain: hoverfly.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/security/hoverfly-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hoverfly/security/hoverfly-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Mocking

@@ -44,7 +44,7 @@ source_filename: levelten-energy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: leveltenenergy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 18:05:00 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: marketplace.levelten.energy\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 21:52:38 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.levelten.energy\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 06:58:01 2026 GMT\n  hsts: null\ndomains:\n- domain: leveltenenergy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: levelten.energy\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/levelten-energy/refs/heads/main/security/levelten-energy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/levelten-energy/security/levelten-energy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -45,7 +45,7 @@ source_filename: trust-payments-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-24'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.trustpayments.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 00:29:04 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: help.trustpayments.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 23:41:42 2026 GMT\n  hsts: true\n  hsts_max_age: 259200\n- host: webservices.securetrading.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: trustpayments.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: securetrading.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trust-payments/refs/heads/main/security/trust-payments-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trust-payments/security/trust-payments-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments

@@ -8,25 +8,25 @@ api_specs:
   label: Mendable Chat API
   slug: mendable-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/openapi/mendable-chat-api-openapi.yml
+  url: https://artifacts.apis.io/mendable/openapi/mendable-chat-api-openapi.yml
 - filename: mendable-conversations-api-openapi.yml
   format: yaml
   label: Mendable Conversations API
   slug: mendable-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/openapi/mendable-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/mendable/openapi/mendable-conversations-api-openapi.yml
 - filename: mendable-ingestion-api-openapi.yml
   format: yaml
   label: Mendable Ingestion API
   slug: mendable-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/openapi/mendable-ingestion-api-openapi.yml
+  url: https://artifacts.apis.io/mendable/openapi/mendable-ingestion-api-openapi.yml
 - filename: mendable-ratings-api-openapi.yml
   format: yaml
   label: Mendable Ratings API
   slug: mendable-ratings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/openapi/mendable-ratings-api-openapi.yml
+  url: https://artifacts.apis.io/mendable/openapi/mendable-ratings-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -61,7 +61,7 @@ source_filename: mendable-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/mendable-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - query\nschemes:\n- name: apiKeyBody\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: Mendable api_key. Sent as the api_key field inside the JSON request body for\n    every endpoint (modeled here as apiKey for tooling).\n  sources:\n  - openapi/mendable-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Mendable api_key supplied as a Bearer token in the Authorization header.\n  sources:\n  - openapi/mendable-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/authentication/mendable-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mendable/authentication/mendable-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Artificial Intelligence

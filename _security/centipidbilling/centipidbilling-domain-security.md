@@ -5,25 +5,25 @@ api_specs:
   label: Centipid Technologies Async API
   slug: centipidbilling-async-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centipidbilling/refs/heads/main/openapi/centipidbilling-async-api-openapi.yml
+  url: https://artifacts.apis.io/centipidbilling/openapi/centipidbilling-async-api-openapi.yml
 - filename: centipidbilling-collections-api-openapi.yml
   format: yaml
   label: Centipid Technologies Collections API
   slug: centipidbilling-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centipidbilling/refs/heads/main/openapi/centipidbilling-collections-api-openapi.yml
+  url: https://artifacts.apis.io/centipidbilling/openapi/centipidbilling-collections-api-openapi.yml
 - filename: centipidbilling-interface-api-openapi.yml
   format: yaml
   label: Centipid Technologies Interface API
   slug: centipidbilling-interface-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centipidbilling/refs/heads/main/openapi/centipidbilling-interface-api-openapi.yml
+  url: https://artifacts.apis.io/centipidbilling/openapi/centipidbilling-interface-api-openapi.yml
 - filename: centipidbilling-mcp-api-openapi.yml
   format: yaml
   label: Centipid Technologies MCP API
   slug: centipidbilling-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centipidbilling/refs/heads/main/openapi/centipidbilling-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/centipidbilling/openapi/centipidbilling-mcp-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,12 +52,12 @@ source_filename: centipidbilling-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-16'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: centipidbilling.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 12 12:18:27 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: centipidbilling.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/centipidbilling/refs/heads/main/security/centipidbilling-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/centipidbilling/security/centipidbilling-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
 - ISP
 - Billing
-- OSS/BSS
+- OSS BSS
 - Telecommunications
 ---

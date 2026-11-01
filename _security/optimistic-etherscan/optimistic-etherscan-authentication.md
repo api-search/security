@@ -8,7 +8,7 @@ api_specs:
   label: Optimism Etherscan Accounts API
   slug: optimistic-etherscan-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimistic-etherscan/refs/heads/main/openapi/optimistic-etherscan-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/optimistic-etherscan/openapi/optimistic-etherscan-accounts-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: optimistic-etherscan-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/optimistic-etherscan-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: query\n  parameter: apikey\n  description: Etherscan API key obtained from https://optimistic.etherscan.io/myapikey. The\n    free tier supports select chains with 3 req/s and 100k req/day. Paid plans start at $49/month\n    for full multichain access.\n  sources:\n  - openapi/optimistic-etherscan-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/optimistic-etherscan/refs/heads/main/authentication/optimistic-etherscan-authentication.yml
+source_yaml_url: https://artifacts.apis.io/optimistic-etherscan/authentication/optimistic-etherscan-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Blockchain

@@ -5,25 +5,25 @@ api_specs:
   label: Dyno Nobel Robots Landing Page API
   slug: dyno-nobel-robotslandingpage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno-nobel/refs/heads/main/openapi/dyno-nobel-robotslandingpage-api-openapi.yml
+  url: https://artifacts.apis.io/dyno-nobel/openapi/dyno-nobel-robotslandingpage-api-openapi.yml
 - filename: dyno-nobel-robotstext-api-openapi.yml
   format: yaml
   label: Dyno Nobel Robots Text API
   slug: dyno-nobel-robotstext-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno-nobel/refs/heads/main/openapi/dyno-nobel-robotstext-api-openapi.yml
+  url: https://artifacts.apis.io/dyno-nobel/openapi/dyno-nobel-robotstext-api-openapi.yml
 - filename: dyno-nobel-searchapi-api-openapi.yml
   format: yaml
   label: Dyno Nobel Search API
   slug: dyno-nobel-searchapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno-nobel/refs/heads/main/openapi/dyno-nobel-searchapi-api-openapi.yml
+  url: https://artifacts.apis.io/dyno-nobel/openapi/dyno-nobel-searchapi-api-openapi.yml
 - filename: dyno-nobel-sitemanifest-api-openapi.yml
   format: yaml
   label: Dyno Nobel Site Manifest API
   slug: dyno-nobel-sitemanifest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno-nobel/refs/heads/main/openapi/dyno-nobel-sitemanifest-api-openapi.yml
+  url: https://artifacts.apis.io/dyno-nobel/openapi/dyno-nobel-sitemanifest-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: dyno-nobel-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dynonobel.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 10 05:18:31 2027 GMT\n  hsts: true\n  hsts_max_age: 2592000\ndomains:\n- domain: dynonobel.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dyno-nobel/refs/heads/main/security/dyno-nobel-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dyno-nobel/security/dyno-nobel-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

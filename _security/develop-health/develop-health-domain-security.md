@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: develop-health-public-api-api-openapi.yml
+- filename: develop-health-eligibility-check-api-openapi.yml
   format: yaml
-  label: Develop Health Public API
-  slug: develop-health-public-api-api
+  label: Develop Health Eligibility Check API
+  slug: develop-health-eligibility-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/develop-health/refs/heads/main/openapi/develop-health-public-api-api-openapi.yml
+  url: https://artifacts.apis.io/develop-health/openapi/develop-health-eligibility-check-api-openapi.yml
+- filename: develop-health-support-program-api-openapi.yml
+  format: yaml
+  label: Develop Health Support Program API
+  slug: develop-health-support-program-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/develop-health/openapi/develop-health-support-program-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +46,7 @@ source_filename: develop-health-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.develophealth.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 13:35:46 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.develophealth.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 22:06:04 2026 GMT\n  hsts: null\ndomains:\n- domain: develophealth.ai\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/develop-health/refs/heads/main/security/develop-health-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/develop-health/security/develop-health-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

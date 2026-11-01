@@ -11,37 +11,37 @@ api_specs:
   label: Apache Cassandra Columns API
   slug: cassandra-columns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/openapi/cassandra-columns-api-openapi.yml
+  url: https://artifacts.apis.io/cassandra/openapi/cassandra-columns-api-openapi.yml
 - filename: cassandra-indexes-api-openapi.yml
   format: yaml
   label: Apache Cassandra Indexes API
   slug: cassandra-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/openapi/cassandra-indexes-api-openapi.yml
+  url: https://artifacts.apis.io/cassandra/openapi/cassandra-indexes-api-openapi.yml
 - filename: cassandra-keyspaces-api-openapi.yml
   format: yaml
   label: Apache Cassandra Keyspaces API
   slug: cassandra-keyspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/openapi/cassandra-keyspaces-api-openapi.yml
+  url: https://artifacts.apis.io/cassandra/openapi/cassandra-keyspaces-api-openapi.yml
 - filename: cassandra-rows-api-openapi.yml
   format: yaml
   label: Apache Cassandra Rows API
   slug: cassandra-rows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/openapi/cassandra-rows-api-openapi.yml
+  url: https://artifacts.apis.io/cassandra/openapi/cassandra-rows-api-openapi.yml
 - filename: cassandra-tables-api-openapi.yml
   format: yaml
   label: Apache Cassandra Tables API
   slug: cassandra-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/openapi/cassandra-tables-api-openapi.yml
+  url: https://artifacts.apis.io/cassandra/openapi/cassandra-tables-api-openapi.yml
 - filename: cassandra-types-api-openapi.yml
   format: yaml
   label: Apache Cassandra Types API
   slug: cassandra-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/openapi/cassandra-types-api-openapi.yml
+  url: https://artifacts.apis.io/cassandra/openapi/cassandra-types-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -86,7 +86,7 @@ source_filename: cassandra-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cassandra.apache.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 23:33:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: stargate.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 05:51:15 2026 GMT\n  hsts: false\ndomains:\n- domain: apache.org\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 iodef \"mailto:root@apache.org\"\n  - 0 issue \"globalsign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: stargate.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/security/cassandra-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cassandra/security/cassandra-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Apache

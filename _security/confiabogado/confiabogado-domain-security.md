@@ -24,7 +24,7 @@ source_filename: confiabogado-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: confiabogado.com\n  https: false\ndomains:\n- domain: confiabogado.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/confiabogado/refs/heads/main/security/confiabogado-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/confiabogado/security/confiabogado-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

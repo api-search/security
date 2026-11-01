@@ -7,37 +7,37 @@ api_specs:
   label: Google Vault Exports API
   slug: google-vault-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/openapi/google-vault-exports-api-openapi.yml
+  url: https://artifacts.apis.io/google-vault/openapi/google-vault-exports-api-openapi.yml
 - filename: google-vault-heldaccounts-api-openapi.yml
   format: yaml
   label: Google Vault HeldAccounts API
   slug: google-vault-heldaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/openapi/google-vault-heldaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/google-vault/openapi/google-vault-heldaccounts-api-openapi.yml
 - filename: google-vault-holds-api-openapi.yml
   format: yaml
   label: Google Vault Holds API
   slug: google-vault-holds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/openapi/google-vault-holds-api-openapi.yml
+  url: https://artifacts.apis.io/google-vault/openapi/google-vault-holds-api-openapi.yml
 - filename: google-vault-matters-api-openapi.yml
   format: yaml
   label: Google Vault Matters API
   slug: google-vault-matters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/openapi/google-vault-matters-api-openapi.yml
+  url: https://artifacts.apis.io/google-vault/openapi/google-vault-matters-api-openapi.yml
 - filename: google-vault-operations-api-openapi.yml
   format: yaml
   label: Google Vault Operations API
   slug: google-vault-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/openapi/google-vault-operations-api-openapi.yml
+  url: https://artifacts.apis.io/google-vault/openapi/google-vault-operations-api-openapi.yml
 - filename: google-vault-saved-queries-api-openapi.yml
   format: yaml
   label: Google Vault Saved Queries API
   slug: google-vault-saved-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/openapi/google-vault-saved-queries-api-openapi.yml
+  url: https://artifacts.apis.io/google-vault/openapi/google-vault-saved-queries-api-openapi.yml
 auth_types:
 - oauth2
 description: Every Vault API method requires an OAuth 2.0 access token; there is no API-key or unauthenticated path. Vault is an admin surface, so the token must belong to a Google Workspace user who holds Vault privileges (or to a service account with domain-wide delegation impersonating one). The authorization server is accounts.google.com, whose OIDC and RFC 8414 metadata are saved verbatim under well-known/.
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-09-12'\nmethod: searched\nsource: https://develop
   \ privileges. A raw\n      service account identity with no impersonation has no Vault data of its own.\n    docs: https://developers.google.com/workspace/guides/create-credentials\n  - kind: api-key\n    supported: false\n    note: >-\n      Vault carries only user data, so the api key path Google offers for public data APIs\n      does not apply. The Discovery document's global `key` parameter exists on every Google\n      API but does not satisfy the method's scopes[] requirement.\nauthorization:\n  model: >-\n    OAuth scope AND Google Workspace Vault privilege. Holding the ediscovery scope is not\n    sufficient — the acting user must also be granted the relevant Vault privileges in the\n    Admin console, and matters are further gated per-matter by MatterPermission.\n  scopes_detail: scopes/google-vault-scopes.yml\n  per_matter: >-\n    matters.addPermissions / matters.removePermissions manage collaborator access on a single\n    matter via the MatterPermission resource, so visibility\
   \ is scoped per matter and not only\n    per user.\nfailure_modes:\n  - status: 401\n    meaning: The access token is invalid or expired.\n    remedy: Refresh the token and retry.\n    source: https://developers.google.com/workspace/vault/guides/errors\n  - status: 404\n    meaning: >-\n      The specified resource was not found — returned when the request names a matter, hold or\n      account that does not exist. Verbatim from the provider's error guide; the guide does not\n      document a 403, so permission failures are not separately described there.\n    source: https://developers.google.com/workspace/vault/guides/errors\nconsent_and_setup_failures:\n  source: https://developers.google.com/workspace/vault/troubleshoot-authentication-authorization\n  documented:\n    - symptom: This app isn't verified\n      cause: The app requests scopes over sensitive user data and has not completed verification.\n    - symptom: File not found error for credentials.json\n      cause: Desktop-application\
   \ credentials were never created or are not in the working directory.\n    - symptom: Token has been expired or revoked\n      cause: The access/refresh token from Google's authorization server is no longer valid.\n    - symptom: 'JavaScript: origin_mismatch / idpiframe_initialization_failed'\n      cause: Authorized JavaScript origin mismatch, or third-party cookies disabled for accounts.google.com.\nauthorization_server:\n  issuer: https://accounts.google.com\n  openid_configuration: well-known/google-vault-openid-configuration.json\n  oauth_authorization_server: well-known/google-vault-oauth-authorization-server.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/authentication/google-vault-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-vault/authentication/google-vault-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - eDiscovery

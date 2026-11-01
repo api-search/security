@@ -8,31 +8,31 @@ api_specs:
   label: BlueCart Catalogs API
   slug: bluecart-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecart/refs/heads/main/openapi/bluecart-catalogs-api-openapi.yml
+  url: https://artifacts.apis.io/bluecart/openapi/bluecart-catalogs-api-openapi.yml
 - filename: bluecart-clients-api-openapi.yml
   format: yaml
   label: BlueCart Clients API
   slug: bluecart-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecart/refs/heads/main/openapi/bluecart-clients-api-openapi.yml
+  url: https://artifacts.apis.io/bluecart/openapi/bluecart-clients-api-openapi.yml
 - filename: bluecart-orders-api-openapi.yml
   format: yaml
   label: BlueCart Orders API
   slug: bluecart-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecart/refs/heads/main/openapi/bluecart-orders-api-openapi.yml
+  url: https://artifacts.apis.io/bluecart/openapi/bluecart-orders-api-openapi.yml
 - filename: bluecart-products-api-openapi.yml
   format: yaml
   label: BlueCart Products API
   slug: bluecart-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecart/refs/heads/main/openapi/bluecart-products-api-openapi.yml
+  url: https://artifacts.apis.io/bluecart/openapi/bluecart-products-api-openapi.yml
 - filename: bluecart-users-api-openapi.yml
   format: yaml
   label: BlueCart Users API
   slug: bluecart-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecart/refs/heads/main/openapi/bluecart-users-api-openapi.yml
+  url: https://artifacts.apis.io/bluecart/openapi/bluecart-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -67,7 +67,7 @@ source_filename: bluecart-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bluecart-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: awsSigV4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4 authorization against the AWS execute-api service in\n    us-east-1. Requires an Access Key ID, Secret Access Key, and API Key generated in the BlueCart\n    app under Settings, API Access Credentials. The API Key is supplied via the x-api-key header.\n  sources:\n  - openapi/bluecart-openapi.yml\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: BlueCart API Key generated under Settings, API Access Credentials.\n  sources:\n  - openapi/bluecart-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bluecart/refs/heads/main/authentication/bluecart-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bluecart/authentication/bluecart-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Restaurant

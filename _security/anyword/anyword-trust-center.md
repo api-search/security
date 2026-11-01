@@ -16,7 +16,7 @@ source_filename: anyword-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-09-25'\nmethod: searched\nprobe: true\nsource: https://www.anyword.com/security\nurl: https://www.anyword.com/security\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://www.anyword.com/security\n  keywords:\n  - soc 2\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anyword/refs/heads/main/security/anyword-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/anyword/security/anyword-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - Company

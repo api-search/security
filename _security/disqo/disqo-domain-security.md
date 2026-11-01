@@ -5,7 +5,7 @@ api_specs:
   label: DISQO Audience Projects API
   slug: disqo-audience-projects-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/disqo/refs/heads/main/postman/disqo-audience-api-postman.json
+  url: https://artifacts.apis.io/disqo/postman/disqo-audience-api-postman.json
 description: ''
 domains:
 - caa: []
@@ -44,7 +44,7 @@ source_filename: disqo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.disqo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 14:49:23 2026 GMT\n  hsts: null\n- host: developer.disqo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 14:49:23 2026 GMT\n  hsts: null\n- host: projects-api.audience.disqo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 14:49:23 2026 GMT\n  hsts: null\ndomains:\n- domain: disqo.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/disqo/refs/heads/main/security/disqo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/disqo/security/disqo-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -7,19 +7,19 @@ api_specs:
   label: Aircover Discovery API
   slug: aircover-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aircover/refs/heads/main/openapi/aircover-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/aircover/openapi/aircover-discovery-api-openapi.yml
 - filename: aircover-mcp-api-openapi.yml
   format: yaml
   label: Aircover MCP API
   slug: aircover-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aircover/refs/heads/main/openapi/aircover-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/aircover/openapi/aircover-mcp-api-openapi.yml
 - filename: aircover-oauth-api-openapi.yml
   format: yaml
   label: Aircover OAuth API
   slug: aircover-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aircover/refs/heads/main/openapi/aircover-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/aircover/openapi/aircover-oauth-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://www.air
   \ /auth/login or a bearer token copied from the web app; that surface is customer-only and undocumented\n    publicly.\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.aircover.ai/oauth/authorize\n    tokenUrl: https://api.aircover.ai/oauth/token\n    refreshUrl: https://api.aircover.ai/oauth/token\n    scopes: 1\n  registration_endpoint: https://api.aircover.ai/oauth/register\n  revocation_endpoint: https://api.aircover.ai/oauth/revoke\n  grant_types_supported:\n  - authorization_code\n  - refresh_token\n  response_types_supported:\n  - code\n  code_challenge_methods_supported:\n  - S256\n  token_endpoint_auth_methods_supported:\n  - client_secret_basic\n  - client_secret_post\n  scopes_supported:\n  - mcp\n  description: >-\n    OAuth 2.0 authorization code flow with PKCE (S256) and dynamic client registration (RFC 7591). Agents\n    register a client at /oauth/register (redirect_uris required — a live POST with an empty\
   \ body returned\n    400 invalid_client_metadata \"redirect_uris is required\"), send the user to /oauth/authorize, exchange the\n    code at /oauth/token, and refresh without human intervention beyond the initial consent. A token's scope\n    caps what the client may request and every request is additionally bounded by the authorizing user's own\n    role and organization. Tokens are revocable at /oauth/revoke.\n  challenge: >-\n    Unauthenticated POST https://api.aircover.ai/mcp returned 401 with\n    WWW-Authenticate: Bearer resource_metadata=\"https://api.aircover.ai/.well-known/oauth-protected-resource\"\n    (observed 2026-09-19 via the x-amzn-remapped-www-authenticate header on the API Gateway edge).\n  sources:\n  - openapi/aircover-openapi.yml\n  - https://api.aircover.ai/.well-known/oauth-authorization-server\n  - https://www.aircover.ai/developers\nend_user_sign_in:\n  note: >-\n    End users of the Aircover app sign in with Google OAuth, Microsoft OAuth (Azure AD) or a per-organization\n\
   \    OIDC/SSO provider (Okta, Auth0, Azure AD B2C). Personal email domains are refused; new sign-ups receive\n    a trial license. These are the identities an MCP client's OAuth consent screen delegates to; they are not\n    themselves API credentials.\n  methods:\n  - Google OAuth (requests calendar scopes; Drive scopes optional for CMS indexing)\n  - Microsoft OAuth / Azure AD (requests Microsoft Graph calendar scopes; OneDrive optional)\n  - OIDC / SSO configured per customer organization\n  source: https://www.aircover.ai/llms.txt\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aircover/refs/heads/main/authentication/aircover-authentication.yml
+source_yaml_url: https://artifacts.apis.io/aircover/authentication/aircover-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Sales Enablement

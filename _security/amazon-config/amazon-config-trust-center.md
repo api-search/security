@@ -5,7 +5,19 @@ api_specs:
   label: Amazon Config AWS Config API
   slug: amazon-config-aws-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-config/refs/heads/main/openapi/amazon-config-aws-config-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-config/openapi/amazon-config-aws-config-api-openapi.yml
+- filename: amazon-config-connector-api-openapi.yml
+  format: yaml
+  label: Amazon Config Config Connector API
+  slug: amazon-config-connector-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-config/openapi/amazon-config-connector-api-openapi.yml
+- filename: amazon-config-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Config Config Operations API
+  slug: amazon-config-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-config/openapi/amazon-config-operations-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -26,7 +38,7 @@ source_filename: amazon-config-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://aws.amazon.com/compliance/\nurl: https://aws.amazon.com/compliance/\ncertifications:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://aws.amazon.com/compliance/\n  keywords:\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-config/refs/heads/main/security/amazon-config-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/amazon-config/security/amazon-config-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Auditing

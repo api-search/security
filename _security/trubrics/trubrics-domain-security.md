@@ -5,13 +5,13 @@ api_specs:
   label: Trubrics Events API
   slug: trubrics-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trubrics/refs/heads/main/openapi/trubrics-events-api-openapi.yml
+  url: https://artifacts.apis.io/trubrics/openapi/trubrics-events-api-openapi.yml
 - filename: trubrics-llm-events-api-openapi.yml
   format: yaml
   label: Trubrics LLM Events API
   slug: trubrics-llm-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trubrics/refs/heads/main/openapi/trubrics-llm-events-api-openapi.yml
+  url: https://artifacts.apis.io/trubrics/openapi/trubrics-llm-events-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -49,7 +49,7 @@ source_filename: trubrics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.trubrics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 14:00:27 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.trubrics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 05:29:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n- host: app.trubrics.com\n  https: false\ndomains:\n- domain: trubrics.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trubrics/refs/heads/main/security/trubrics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trubrics/security/trubrics-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

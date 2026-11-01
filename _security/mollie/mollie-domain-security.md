@@ -5,7 +5,7 @@ api_specs:
   label: Mollie API
   slug: mollie-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/openapi/mollie-openapi-original.yml
+  url: https://artifacts.apis.io/mollie/openapi/mollie-openapi-original.yml
 description: ''
 domains:
 - caa:
@@ -52,7 +52,7 @@ source_filename: mollie-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-01'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mollie.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 10:28:00 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.mollie.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 06:49:02 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.mollie.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 10:28:00 2026 GMT\n  hsts: null\ndomains:\n- domain: mollie.com\n  dnssec: true\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issuewild \";\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"globalsign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/security/mollie-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mollie/security/mollie-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

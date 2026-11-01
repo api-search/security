@@ -8,43 +8,43 @@ api_specs:
   label: Rasayel Channels API
   slug: rasayel-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/openapi/rasayel-channels-api-openapi.yml
+  url: https://artifacts.apis.io/rasayel/openapi/rasayel-channels-api-openapi.yml
 - filename: rasayel-contacts-api-openapi.yml
   format: yaml
   label: Rasayel Contacts API
   slug: rasayel-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/openapi/rasayel-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/rasayel/openapi/rasayel-contacts-api-openapi.yml
 - filename: rasayel-conversations-api-openapi.yml
   format: yaml
   label: Rasayel Conversations API
   slug: rasayel-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/openapi/rasayel-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/rasayel/openapi/rasayel-conversations-api-openapi.yml
 - filename: rasayel-messages-api-openapi.yml
   format: yaml
   label: Rasayel Messages API
   slug: rasayel-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/openapi/rasayel-messages-api-openapi.yml
+  url: https://artifacts.apis.io/rasayel/openapi/rasayel-messages-api-openapi.yml
 - filename: rasayel-properties-api-openapi.yml
   format: yaml
   label: Rasayel Properties API
   slug: rasayel-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/openapi/rasayel-properties-api-openapi.yml
+  url: https://artifacts.apis.io/rasayel/openapi/rasayel-properties-api-openapi.yml
 - filename: rasayel-tags-api-openapi.yml
   format: yaml
   label: Rasayel Tags API
   slug: rasayel-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/openapi/rasayel-tags-api-openapi.yml
+  url: https://artifacts.apis.io/rasayel/openapi/rasayel-tags-api-openapi.yml
 - filename: rasayel-templates-api-openapi.yml
   format: yaml
   label: Rasayel Templates API
   slug: rasayel-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/openapi/rasayel-templates-api-openapi.yml
+  url: https://artifacts.apis.io/rasayel/openapi/rasayel-templates-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -74,7 +74,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://rest.developers.rasayel.io/ (public Postman collection docs)\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  oauth2_flows: []\nschemes:\n  - name: basicToken\n    type: apiKey\n    in: header\n    parameter: Authorization\n    format: \"Basic {token}\"\n    description: >-\n      Rasayel authenticates REST requests with an API key. Create a key on the\n      API management page (Settings > API management) and copy its \"Basic Auth\n      Value\". Send that value in the Authorization header as `Authorization:\n      Basic {token}` on every request.\n    sources: [openapi/rasayel-rest-openapi.yml]\nscopes:\n  - scope: read\n    description: Read-only operations (fetch templates, contacts, conversations, etc).\n  - scope: read-write\n    description: Any read or write operation (send a message, create a contact, etc).\nimpersonation:\n  header: X_On_Behalf_Of\n  description: >-\n    Optional header to act on behalf\
   \ of a specific user; set it to that user's\n    ID. The ID is found on the user's profile settings page.\ndocs: https://rest.developers.rasayel.io/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/authentication/rasayel-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rasayel/authentication/rasayel-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

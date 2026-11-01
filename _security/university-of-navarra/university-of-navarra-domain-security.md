@@ -5,7 +5,7 @@ api_specs:
   label: University of Navarra Harvesting API
   slug: university-of-navarra-harvesting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-navarra/refs/heads/main/openapi/university-of-navarra-harvesting-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-navarra/openapi/university-of-navarra-harvesting-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -44,7 +44,7 @@ source_filename: university-of-navarra-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: en.unav.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 12:02:55 2026 GMT\n  hsts: false\n- host: www.unav.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 12:12:48 2026 GMT\n  hsts: false\n- host: dadun.unav.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  5 04:30:04 2026 GMT\n  hsts: null\ndomains:\n- domain: unav.edu\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-navarra/refs/heads/main/security/university-of-navarra-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/university-of-navarra/security/university-of-navarra-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Education

@@ -8,43 +8,43 @@ api_specs:
   label: Aeropay Authentication API
   slug: aeropay-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeropay/refs/heads/main/openapi/aeropay-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/aeropay/openapi/aeropay-authentication-api-openapi.yml
 - filename: aeropay-bank-connection-api-openapi.yml
   format: yaml
   label: Aeropay Bank Connection API
   slug: aeropay-bank-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeropay/refs/heads/main/openapi/aeropay-bank-connection-api-openapi.yml
+  url: https://artifacts.apis.io/aeropay/openapi/aeropay-bank-connection-api-openapi.yml
 - filename: aeropay-create-manage-transactions-api-openapi.yml
   format: yaml
   label: Aeropay Create & Manage Transactions API
   slug: aeropay-create-manage-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeropay/refs/heads/main/openapi/aeropay-create-manage-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/aeropay/openapi/aeropay-create-manage-transactions-api-openapi.yml
 - filename: aeropay-merchant-management-api-openapi.yml
   format: yaml
   label: Aeropay Merchant Management API
   slug: aeropay-merchant-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeropay/refs/heads/main/openapi/aeropay-merchant-management-api-openapi.yml
+  url: https://artifacts.apis.io/aeropay/openapi/aeropay-merchant-management-api-openapi.yml
 - filename: aeropay-reports-api-openapi.yml
   format: yaml
   label: Aeropay Reports API
   slug: aeropay-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeropay/refs/heads/main/openapi/aeropay-reports-api-openapi.yml
+  url: https://artifacts.apis.io/aeropay/openapi/aeropay-reports-api-openapi.yml
 - filename: aeropay-user-management-api-openapi.yml
   format: yaml
   label: Aeropay User Management API
   slug: aeropay-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeropay/refs/heads/main/openapi/aeropay-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/aeropay/openapi/aeropay-user-management-api-openapi.yml
 - filename: aeropay-webhooks-api-openapi.yml
   format: yaml
   label: Aeropay Webhooks API
   slug: aeropay-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeropay/refs/heads/main/openapi/aeropay-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/aeropay/openapi/aeropay-webhooks-api-openapi.yml
 auth_types:
 - http-bearer
 - credentials-exchange
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-09-10'\nmethod: searched\nsource: openapi/aeropay
   token_scopes:\n  model: 'Aeropay calls these \"scopes\" but they are NOT OAuth 2.0 scopes — there is no authorization\n    server, no consent step and no scope string on a token request beyond a single enum. The `scope`\n    body parameter selects WHICH ACTOR the token represents, and each operation requires one specific\n    actor. No scopes/ artifact is emitted for this provider because there is no OAuth surface to\n    describe; the actor model is recorded here instead.'\n  docs: https://dev.aero.inc/docs/token-scopes\n  scopes:\n  - scope: merchant\n    required_parameters:\n    - apiKey\n    - apiSecret\n    - scope\n    - id\n    description: Acts on behalf of the merchant organisation.\n    example_operations:\n    - POST /v2/user\n    - POST /v2/transactionSearch\n    - POST /v2/payoutTransaction\n    - GET /v2/merchant/tipConfiguration\n  - scope: userForMerchant\n    required_parameters:\n    - apiKey\n    - apiSecret\n    - scope\n    - id\n    - userId\n    description: Acts\
   \ on behalf of one Aeropay user created by that merchant.\n    example_operations:\n    - GET /v2/user\n    - GET /v2/bankAccounts\n    - GET /v2/aggregatorCredentials\n    - POST /v2/transaction\n    - POST /v2/preauthTransaction\nend_user_bank_authorization:\n  mechanism: 'Separate from API authentication. End users authorise access to their own bank account\n    through the Aerosync widget, which Aeropay describes as OAuth-first bank linking. The integrator\n    calls GET /v2/aggregatorCredentials to mint a one-time widget URL and token, the user completes the\n    bank''s own OAuth or credential flow inside the widget, and the returned connectionId is attached\n    with POST /v2/linkAccountFromAggregator.'\n  docs: https://dev.aero.inc/docs/oauth-connections\nauth_errors:\n  source: https://dev.aero.inc/docs/error-handling\n  note: 'Authentication failures are returned with an HTTP 200 body carrying an error object, not an HTTP\n    401, for most codes. See errors/aeropay-error-codes.yml.'\n\
   \  codes:\n  - code: AP001\n    meaning: API key and secret key required.\n  - code: AP002\n    meaning: Invalid API key or secret key, or wrong environment.\n  - code: AP003\n    meaning: Merchant account locked.\n  - code: AP004\n    meaning: Missing authorization header token.\n  - code: AP006\n    meaning: Client is not authorized for this scope.\n  - code: AP007\n    meaning: Token has expired.\n  - code: AP008\n    meaning: Invalid token.\n  - code: AP101\n    meaning: No authenticated user.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aeropay/refs/heads/main/authentication/aeropay-authentication.yml
+source_yaml_url: https://artifacts.apis.io/aeropay/authentication/aeropay-authentication.yml
 summary_line: http-bearer/credentials-exchange · 2 schemes
 tags:
 - Payments

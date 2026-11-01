@@ -7,25 +7,25 @@ api_specs:
   label: Wellhub Companies API
   slug: wellhub-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/openapi/wellhub-companies-api-openapi.yml
+  url: https://artifacts.apis.io/wellhub/openapi/wellhub-companies-api-openapi.yml
 - filename: wellhub-employees-api-openapi.yml
   format: yaml
   label: Wellhub Employees API
   slug: wellhub-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/openapi/wellhub-employees-api-openapi.yml
+  url: https://artifacts.apis.io/wellhub/openapi/wellhub-employees-api-openapi.yml
 - filename: wellhub-jobs-api-openapi.yml
   format: yaml
   label: Wellhub Jobs API
   slug: wellhub-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/openapi/wellhub-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/wellhub/openapi/wellhub-jobs-api-openapi.yml
 - filename: wellhub-oauth-api-openapi.yml
   format: yaml
   label: Wellhub O Auth API
   slug: wellhub-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/openapi/wellhub-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/wellhub/openapi/wellhub-oauth-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -55,7 +55,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/wellhub-integrations-openapi-original.json\ndocs: https://developer-hub.wellhub.com/docs/integrations/api/getting-started/\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\n  presented_as: Authorization Bearer JWT\ngrant:\n  flow: client_credentials\n  token_endpoint: https://api.clients.wellhub.com/oauth/token\n  token_request_content_type: application/x-www-form-urlencoded\n  request_fields: [client_id, client_secret, grant_type]\n  token_format: JWT (Bearer)\n  credential_management: Wellhub for Companies portal (clients.wellhub.com) -> Settings -> API OAuth credentials; permissions chosen per product area at creation; secret shown once; expiration configurable.\nschemes:\n- name: OAuth2\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: >-\n    Bearer token obtained from POST /oauth/token using the client_credentials grant type.\n    Although the OpenAPI declares an http-bearer\
   \ scheme, the documented mechanism is the\n    OAuth 2.0 client-credentials flow.\n  sources:\n  - openapi/wellhub-integrations-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/authentication/wellhub-authentication.yml
+source_yaml_url: https://artifacts.apis.io/wellhub/authentication/wellhub-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

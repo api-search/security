@@ -33,7 +33,7 @@ source_filename: k4connect-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: k4connect.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 15:25:17 2026 GMT\n  hsts: null\ndomains:\n- domain: k4connect.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"starfieldtech.com\"\n  - 0 issue \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/k4connect/refs/heads/main/security/k4connect-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/k4connect/security/k4connect-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

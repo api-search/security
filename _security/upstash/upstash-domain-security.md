@@ -5,31 +5,31 @@ api_specs:
   label: Upstash Kafka API
   slug: upstash-kafka-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstash/refs/heads/main/openapi/upstash-kafka-api-openapi.yml
+  url: https://artifacts.apis.io/upstash/openapi/upstash-kafka-api-openapi.yml
 - filename: upstash-redis-api-openapi.yml
   format: yaml
   label: Upstash Redis API
   slug: upstash-redis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstash/refs/heads/main/openapi/upstash-redis-api-openapi.yml
+  url: https://artifacts.apis.io/upstash/openapi/upstash-redis-api-openapi.yml
 - filename: upstash-rediscommand-api-openapi.yml
   format: yaml
   label: Upstash RedisCommand API
   slug: upstash-rediscommand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstash/refs/heads/main/openapi/upstash-rediscommand-api-openapi.yml
+  url: https://artifacts.apis.io/upstash/openapi/upstash-rediscommand-api-openapi.yml
 - filename: upstash-teams-api-openapi.yml
   format: yaml
   label: Upstash Teams API
   slug: upstash-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstash/refs/heads/main/openapi/upstash-teams-api-openapi.yml
+  url: https://artifacts.apis.io/upstash/openapi/upstash-teams-api-openapi.yml
 - filename: upstash-vector-api-openapi.yml
   format: yaml
   label: Upstash Vector API
   slug: upstash-vector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstash/refs/heads/main/openapi/upstash-vector-api-openapi.yml
+  url: https://artifacts.apis.io/upstash/openapi/upstash-vector-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,15 +76,14 @@ source_filename: upstash-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: upstash.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 18:18:03 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.upstash.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 13 23:59:59 2026 GMT\n  hsts: null\n- host: <endpoint>.upstash.io\n  https: false\ndomains:\n- domain: upstash.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: upstash.io\n  dnssec: false\n  caa:\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upstash/refs/heads/main/security/upstash-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/upstash/security/upstash-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Serverless
 - Redis
 - Kafka
 - Messaging
-- Vector Database
+- Vector Search
 - Edge Computing
 - Database
-- Vector Search
 ---

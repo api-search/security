@@ -7,19 +7,19 @@ api_specs:
   label: Kontent AI Assets API
   slug: kontent-ai-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kontent-ai/refs/heads/main/openapi/kontent-ai-assets-api-openapi.yml
+  url: https://artifacts.apis.io/kontent-ai/openapi/kontent-ai-assets-api-openapi.yml
 - filename: kontent-ai-items-api-openapi.yml
   format: yaml
   label: Kontent AI Items API
   slug: kontent-ai-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kontent-ai/refs/heads/main/openapi/kontent-ai-items-api-openapi.yml
+  url: https://artifacts.apis.io/kontent-ai/openapi/kontent-ai-items-api-openapi.yml
 - filename: kontent-ai-items-feed-api-openapi.yml
   format: yaml
   label: Kontent AI Items Feed API
   slug: kontent-ai-items-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kontent-ai/refs/heads/main/openapi/kontent-ai-items-feed-api-openapi.yml
+  url: https://artifacts.apis.io/kontent-ai/openapi/kontent-ai-items-feed-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -51,7 +51,7 @@ source_filename: kontent-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/kontent-ai-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: |-\n    Send `Authorization: Bearer <YOUR_DELIVERY_API_KEY>`. Required for\n    secure delivery, preview delivery, and secured asset access. The\n    default public Delivery API does not require authentication.\n  sources:\n  - openapi/kontent-ai-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kontent-ai/refs/heads/main/authentication/kontent-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kontent-ai/authentication/kontent-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - CMS

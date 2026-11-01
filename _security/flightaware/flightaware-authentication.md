@@ -8,49 +8,49 @@ api_specs:
   label: FlightAware Airports API
   slug: flightaware-airports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/openapi/flightaware-airports-api-openapi.yml
+  url: https://artifacts.apis.io/flightaware/openapi/flightaware-airports-api-openapi.yml
 - filename: flightaware-alerts-api-openapi.yml
   format: yaml
   label: FlightAware Alerts API
   slug: flightaware-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/openapi/flightaware-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/flightaware/openapi/flightaware-alerts-api-openapi.yml
 - filename: flightaware-flights-api-openapi.yml
   format: yaml
   label: FlightAware Flights API
   slug: flightaware-flights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/openapi/flightaware-flights-api-openapi.yml
+  url: https://artifacts.apis.io/flightaware/openapi/flightaware-flights-api-openapi.yml
 - filename: flightaware-foresight-api-openapi.yml
   format: yaml
   label: FlightAware Foresight API
   slug: flightaware-foresight-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/openapi/flightaware-foresight-api-openapi.yml
+  url: https://artifacts.apis.io/flightaware/openapi/flightaware-foresight-api-openapi.yml
 - filename: flightaware-history-api-openapi.yml
   format: yaml
   label: FlightAware History API
   slug: flightaware-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/openapi/flightaware-history-api-openapi.yml
+  url: https://artifacts.apis.io/flightaware/openapi/flightaware-history-api-openapi.yml
 - filename: flightaware-miscellaneous-api-openapi.yml
   format: yaml
   label: FlightAware Miscellaneous API
   slug: flightaware-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/openapi/flightaware-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/flightaware/openapi/flightaware-miscellaneous-api-openapi.yml
 - filename: flightaware-operators-api-openapi.yml
   format: yaml
   label: FlightAware Operators API
   slug: flightaware-operators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/openapi/flightaware-operators-api-openapi.yml
+  url: https://artifacts.apis.io/flightaware/openapi/flightaware-operators-api-openapi.yml
 - filename: flightaware-account-api-openapi.yml
   format: yaml
   label: FlightAware Account API
   slug: flightaware-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/openapi/flightaware-account-api-openapi.yml
+  url: https://artifacts.apis.io/flightaware/openapi/flightaware-account-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -90,7 +90,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-10'\nmethod: derived\nsource: openapi/flightaware-account-api-openapi.yml, openapi/flightaware-airports-api-openapi.yml,\n  openapi/flightaware-alerts-api-openapi.yml, openapi/flightaware-flights-api-openapi.yml, openapi/flightaware-foresight-api-openapi.yml,\n  openapi/flightaware-history-api-openapi.yml, openapi/flightaware-miscellaneous-api-openapi.yml,\n  openapi/flightaware-operators-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-apikey\n  description: |-\n    Unlike previous versions of AeroAPI, authentication is now controlled by\n    an API key that must be set in the header ```x-apikey```. Your\n    FlightAware username is not used when authenticating to the API.\n  sources:\n  - openapi/flightaware-account-api-openapi.yml\n  - openapi/flightaware-airports-api-openapi.yml\n  - openapi/flightaware-alerts-api-openapi.yml\n  - openapi/flightaware-flights-api-openapi.yml\n\
   \  - openapi/flightaware-foresight-api-openapi.yml\n  - openapi/flightaware-history-api-openapi.yml\n  - openapi/flightaware-miscellaneous-api-openapi.yml\n  - openapi/flightaware-operators-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/authentication/flightaware-authentication.yml
+source_yaml_url: https://artifacts.apis.io/flightaware/authentication/flightaware-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Aviation

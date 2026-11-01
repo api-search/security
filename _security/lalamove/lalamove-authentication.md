@@ -41,7 +41,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://develop
   \    signing:\n      algorithm: HMAC-SHA256\n      encoding: lowercase hexadecimal (base 16)\n      secret: API SECRET\n      raw_signature_template: \"{TIMESTAMP}\\\\r\\\\n{HTTP_METHOD}\\\\r\\\\n{PATH}\\\\r\\\\n\\\\r\\\\n{BODY}\"\n      steps:\n        - Generate a Unix timestamp in milliseconds (e.g. 1545880607433).\n        - >-\n          Build the raw signature string\n          {TIMESTAMP}\\r\\n{METHOD}\\r\\n{PATH}\\r\\n\\r\\n{BODY}. For GET requests the\n          body segment is omitted.\n        - Compute HmacSHA256(rawSignature, API_SECRET).\n        - Render the digest as lowercase hex.\n        - >-\n          Assemble the Authorization header as\n          hmac {API_KEY}:{TIMESTAMP}:{SIGNATURE}. The timestamp in the header\n          MUST match the timestamp used to build the signature.\ncredentials:\n  api_key:\n    sandbox_prefix: pk_test\n    production_prefix: pk_prod\n  api_secret:\n    sandbox_prefix: sk_test\n    production_prefix: sk_prod\n  issuance: https://partnerportal.lalamove.com\
   \ (Developers tab)\n  note: >-\n    Production credentials are released only after the production wallet is\n    topped up. Sandbox credentials require no approval.\nrequired_headers:\n  - name: Authorization\n    required: true\n    description: HMAC credential triplet — hmac {KEY}:{TIMESTAMP}:{SIGNATURE}\n  - name: Market\n    required: true\n    description: >-\n      Target market in UN/LOCODE form (HK, SG, MY, TH, PH, ID, VN, TW, JP, MX,\n      BR). Scopes the request to one market's fleet, pricing and service types.\n  - name: Request-ID\n    required: true\n    description: >-\n      Client-generated nonce/UUID. Used as the request's unique identifier for\n      support and tracing. NOT an idempotency key — the documentation does not\n      describe it as deduplicating or replaying repeated requests.\n  - name: Content-Type\n    required: true\n    description: application/json\noauth2: false\noidc: false\nscopes:\n  supported: false\n  note: >-\n    Key-and-secret HMAC auth has\
   \ no scope or permission surface, so no\n    scopes/ artifact is produced for this provider.\nmtls: false\nwebhook_authentication:\n  note: >-\n    Webhook delivery is configured by URL through PATCH /v3/webhook or the\n    Partner Portal. The public documentation reviewed does not describe a\n    signature header for verifying inbound webhook payloads; consumers should\n    confirm current webhook verification guidance with partner.support@lalamove.com.\ndocs: https://developers.lalamove.com/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lalamove/refs/heads/main/authentication/lalamove-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lalamove/authentication/lalamove-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company
@@ -52,6 +52,6 @@ tags:
 - Couriers
 - Transportation
 - On-Demand
-- Fleet
+- Fleet Management
 - Shipping
 ---

@@ -27,7 +27,7 @@ source_filename: caimitech-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: caimitech.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 20 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: caimitech.com\n  dnssec: true\n  caa:\n  - qsh-idc.caimitech.com.\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/caimitech/refs/heads/main/security/caimitech-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/caimitech/security/caimitech-domain-security.yml
 summary_line: TLSv1.2 · DNSSEC
 tags:
 - Company

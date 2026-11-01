@@ -35,13 +35,12 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://github.com/corelight/corelight-client\ndocs: https://github.com/corelight/corelight-client#access-and-authentication\nsummary:\n  types:\n  - http\n  http_schemes:\n  - basic\n  mfa: true\n  notes: >-\n    No public OpenAPI is published for the Corelight Sensor API (device-local,\n    account-gated). This profile is searched from the official corelight-client\n    documentation.\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: >-\n    HTTP Basic authentication against the Corelight Sensor. Two device API users\n    exist: admin (unlimited access) and monitor (read-only access). API access\n    must first be enabled through the device configuration interface and\n    passwords set for both users.\n  sources:\n  - https://github.com/corelight/corelight-client\n- name: fleetMfa\n  type: http\n  scheme: basic\n  mfa: totp\n  description: >-\n    Authentication against a Corelight Fleet Manager\
   \ additionally accepts a 2FA\n    verification code (--mfa). Credentials are cached in\n    ~/.corelight-client/credentials after first use.\n  sources:\n  - https://github.com/corelight/corelight-client\ntransport_security:\n  tls: required\n  custom_ca: supported\n  notes: >-\n    Client validates the device SSL certificate by default; a custom CA cert may\n    be supplied, and verification can be relaxed for lab devices.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/corelight/refs/heads/main/authentication/corelight-authentication.yml
+source_yaml_url: https://artifacts.apis.io/corelight/authentication/corelight-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Company
 - Cybersecurity
 - Network Detection and Response
-- NDR
 - Network Security
 - Threat Detection
 - Zeek

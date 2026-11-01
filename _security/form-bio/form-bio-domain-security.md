@@ -1,17 +1,23 @@
 ---
 api_specs:
+- filename: form-bio-openapi-generated.yml
+  format: yaml
+  label: Form Bio API
+  slug: form-bio-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/form-bio/openapi/_ae-authored/form-bio-openapi-generated.yml
 - filename: form-bio-form-bio-api-api-openapi.yml
   format: yaml
   label: Form Bio Form Bio API
   slug: form-bio-form-bio-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form-bio/refs/heads/main/openapi/form-bio-form-bio-api-api-openapi.yml
+  url: https://artifacts.apis.io/form-bio/openapi/form-bio-form-bio-api-api-openapi.yml
 - filename: form-bio-public-api-openapi.yml
   format: yaml
   label: Form Bio Public API
   slug: form-bio-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form-bio/refs/heads/main/openapi/form-bio-public-api-openapi.yml
+  url: https://artifacts.apis.io/form-bio/openapi/form-bio-public-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,7 +47,7 @@ source_filename: form-bio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.formbio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 30 15:19:00 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: formbio.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/form-bio/refs/heads/main/security/form-bio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/form-bio/security/form-bio-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

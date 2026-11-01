@@ -7,31 +7,31 @@ api_specs:
   label: SideQuest Apps API
   slug: sidequest-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/openapi/sidequest-apps-api-openapi.yml
+  url: https://artifacts.apis.io/sidequest/openapi/sidequest-apps-api-openapi.yml
 - filename: sidequest-developers-api-openapi.yml
   format: yaml
   label: SideQuest Developers API
   slug: sidequest-developers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/openapi/sidequest-developers-api-openapi.yml
+  url: https://artifacts.apis.io/sidequest/openapi/sidequest-developers-api-openapi.yml
 - filename: sidequest-users-api-openapi.yml
   format: yaml
   label: SideQuest Users API
   slug: sidequest-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/openapi/sidequest-users-api-openapi.yml
+  url: https://artifacts.apis.io/sidequest/openapi/sidequest-users-api-openapi.yml
 - filename: sidequest-usersapps-api-openapi.yml
   format: yaml
   label: SideQuest UsersApps API
   slug: sidequest-usersapps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/openapi/sidequest-usersapps-api-openapi.yml
+  url: https://artifacts.apis.io/sidequest/openapi/sidequest-usersapps-api-openapi.yml
 - filename: sidequest-oauth2-api-openapi.yml
   format: yaml
   label: SideQuest O Auth2 API
   slug: sidequest-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/openapi/sidequest-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/sidequest/openapi/sidequest-oauth2-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -57,7 +57,7 @@ source_filename: sidequest-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/sidequest-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: userAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/sidequest-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/authentication/sidequest-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sidequest/authentication/sidequest-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

@@ -7,7 +7,7 @@ api_specs:
   label: Limble CMMS Routes API
   slug: limble-cmms-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/openapi/limble-cmms-routes-api-openapi.yml
+  url: https://artifacts.apis.io/limble-cmms/openapi/limble-cmms-routes-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -33,7 +33,7 @@ source_filename: limble-cmms-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/limble-cmms-limble-api-v2.yaml\nsummary:\n  types:\n  - http\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/limble-cmms-limble-api-v2.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/authentication/limble-cmms-authentication.yml
+source_yaml_url: https://artifacts.apis.io/limble-cmms/authentication/limble-cmms-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - CMMS

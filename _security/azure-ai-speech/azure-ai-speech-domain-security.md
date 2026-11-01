@@ -1,35 +1,41 @@
 ---
 api_specs:
+- filename: azure-ai-speech-openapi-generated.yml
+  format: yaml
+  label: Azure AI Speech API
+  slug: azure-ai-speech-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-ai-speech/openapi/_ae-authored/azure-ai-speech-openapi-generated.yml
 - filename: azure-ai-speech-azure-ai-speech-api-api-openapi.yml
   format: yaml
   label: Azure AI Speech Azure AI Speech API
   slug: azure-ai-speech-azure-ai-speech-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-speech/refs/heads/main/openapi/azure-ai-speech-azure-ai-speech-api-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-speech/openapi/azure-ai-speech-azure-ai-speech-api-api-openapi.yml
 - filename: azure-ai-speech-swagger-api-openapi.yml
   format: yaml
   label: Azure AI Speech Swagger API
   slug: azure-ai-speech-swagger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-speech/refs/heads/main/openapi/azure-ai-speech-swagger-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-speech/openapi/azure-ai-speech-swagger-api-openapi.yml
 - filename: azure-ai-speech-todoitems-api-openapi.yml
   format: yaml
   label: Azure AI Speech Todoitems API
   slug: azure-ai-speech-todoitems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-speech/refs/heads/main/openapi/azure-ai-speech-todoitems-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-speech/openapi/azure-ai-speech-todoitems-api-openapi.yml
 - filename: azure-ai-speech-weatherforecast-api-openapi.yml
   format: yaml
   label: Azure AI Speech Weatherforecast API
   slug: azure-ai-speech-weatherforecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-speech/refs/heads/main/openapi/azure-ai-speech-weatherforecast-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-speech/openapi/azure-ai-speech-weatherforecast-api-openapi.yml
 - filename: azure-ai-speech-to-dos-api-openapi.yml
   format: yaml
   label: Azure AI Speech To Dos API
   slug: azure-ai-speech-to-dos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-speech/refs/heads/main/openapi/azure-ai-speech-to-dos-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-speech/openapi/azure-ai-speech-to-dos-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -59,7 +65,7 @@ source_filename: azure-ai-speech-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: azure.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  2 19:05:38 2027 GMT\n  hsts: null\ndomains:\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-ai-speech/refs/heads/main/security/azure-ai-speech-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/azure-ai-speech/security/azure-ai-speech-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Cloud

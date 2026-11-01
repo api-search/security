@@ -8,31 +8,31 @@ api_specs:
   label: Disqus Categories API
   slug: disqus-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disqus/refs/heads/main/openapi/disqus-categories-api-openapi.yml
+  url: https://artifacts.apis.io/disqus/openapi/disqus-categories-api-openapi.yml
 - filename: disqus-forums-api-openapi.yml
   format: yaml
   label: Disqus Forums API
   slug: disqus-forums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disqus/refs/heads/main/openapi/disqus-forums-api-openapi.yml
+  url: https://artifacts.apis.io/disqus/openapi/disqus-forums-api-openapi.yml
 - filename: disqus-posts-api-openapi.yml
   format: yaml
   label: Disqus Posts API
   slug: disqus-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disqus/refs/heads/main/openapi/disqus-posts-api-openapi.yml
+  url: https://artifacts.apis.io/disqus/openapi/disqus-posts-api-openapi.yml
 - filename: disqus-threads-api-openapi.yml
   format: yaml
   label: Disqus Threads API
   slug: disqus-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disqus/refs/heads/main/openapi/disqus-threads-api-openapi.yml
+  url: https://artifacts.apis.io/disqus/openapi/disqus-threads-api-openapi.yml
 - filename: disqus-users-api-openapi.yml
   format: yaml
   label: Disqus Users API
   slug: disqus-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disqus/refs/heads/main/openapi/disqus-users-api-openapi.yml
+  url: https://artifacts.apis.io/disqus/openapi/disqus-users-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -70,7 +70,7 @@ source_filename: disqus-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/disqus-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - query\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: api_key\n  sources:\n  - openapi/disqus-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://disqus.com/api/oauth/2.0/authorize/\n    tokenUrl: https://disqus.com/api/oauth/2.0/access_token/\n    scopes: 3\n  sources:\n  - openapi/disqus-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/disqus/refs/heads/main/authentication/disqus-authentication.yml
+source_yaml_url: https://artifacts.apis.io/disqus/authentication/disqus-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Comments

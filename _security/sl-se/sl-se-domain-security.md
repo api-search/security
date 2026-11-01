@@ -28,11 +28,11 @@ source_filename: sl-se-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sl.se\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 20 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: sl.se\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sl-se/refs/heads/main/security/sl-se-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sl-se/security/sl-se-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Transport
-- PublicTransit
+- Public Transit
 - Sweden
 - Stockholm
 - Open Data

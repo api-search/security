@@ -5,25 +5,25 @@ api_specs:
   label: Clay Me API
   slug: clay-com-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clay-com/refs/heads/main/openapi/clay-com-me-api-openapi.yml
+  url: https://artifacts.apis.io/clay-com/openapi/clay-com-me-api-openapi.yml
 - filename: clay-com-routines-api-openapi.yml
   format: yaml
   label: Clay Routines API
   slug: clay-com-routines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clay-com/refs/heads/main/openapi/clay-com-routines-api-openapi.yml
+  url: https://artifacts.apis.io/clay-com/openapi/clay-com-routines-api-openapi.yml
 - filename: clay-com-search-api-openapi.yml
   format: yaml
   label: Clay Search API
   slug: clay-com-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clay-com/refs/heads/main/openapi/clay-com-search-api-openapi.yml
+  url: https://artifacts.apis.io/clay-com/openapi/clay-com-search-api-openapi.yml
 - filename: clay-com-tables-api-openapi.yml
   format: yaml
   label: Clay Tables API
   slug: clay-com-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clay-com/refs/heads/main/openapi/clay-com-tables-api-openapi.yml
+  url: https://artifacts.apis.io/clay-com/openapi/clay-com-tables-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: clay-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.clay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 14 23:59:59 2027 GMT\n  hsts: false\n- host: university.clay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 22:43:28 2026 GMT\n  hsts: false\n- host: app.clay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: clay.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clay-com/refs/heads/main/security/clay-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/clay-com/security/clay-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Prospecting

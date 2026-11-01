@@ -11,49 +11,49 @@ api_specs:
   label: Gladia AudioToText API
   slug: gladia-audiototext-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/openapi/gladia-audiototext-api-openapi.yml
+  url: https://artifacts.apis.io/gladia/openapi/gladia-audiototext-api-openapi.yml
 - filename: gladia-file-management-api-openapi.yml
   format: yaml
   label: Gladia File Management API
   slug: gladia-file-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/openapi/gladia-file-management-api-openapi.yml
+  url: https://artifacts.apis.io/gladia/openapi/gladia-file-management-api-openapi.yml
 - filename: gladia-job-history-api-openapi.yml
   format: yaml
   label: Gladia Job History API
   slug: gladia-job-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/openapi/gladia-job-history-api-openapi.yml
+  url: https://artifacts.apis.io/gladia/openapi/gladia-job-history-api-openapi.yml
 - filename: gladia-live-v2-api-openapi.yml
   format: yaml
   label: Gladia Live V2 API
   slug: gladia-live-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/openapi/gladia-live-v2-api-openapi.yml
+  url: https://artifacts.apis.io/gladia/openapi/gladia-live-v2-api-openapi.yml
 - filename: gladia-pre-recorded-v2-api-openapi.yml
   format: yaml
   label: Gladia Pre-recorded V2 API
   slug: gladia-pre-recorded-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/openapi/gladia-pre-recorded-v2-api-openapi.yml
+  url: https://artifacts.apis.io/gladia/openapi/gladia-pre-recorded-v2-api-openapi.yml
 - filename: gladia-transcription-v1-api-openapi.yml
   format: yaml
   label: Gladia Transcription V1 API
   slug: gladia-transcription-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/openapi/gladia-transcription-v1-api-openapi.yml
+  url: https://artifacts.apis.io/gladia/openapi/gladia-transcription-v1-api-openapi.yml
 - filename: gladia-transcription-v2-api-openapi.yml
   format: yaml
   label: Gladia Transcription V2 API
   slug: gladia-transcription-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/openapi/gladia-transcription-v2-api-openapi.yml
+  url: https://artifacts.apis.io/gladia/openapi/gladia-transcription-v2-api-openapi.yml
 - filename: gladia-open-router-api-openapi.yml
   format: yaml
   label: Gladia Open Router API
   slug: gladia-open-router-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/openapi/gladia-open-router-api-openapi.yml
+  url: https://artifacts.apis.io/gladia/openapi/gladia-open-router-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -97,7 +97,7 @@ source_filename: gladia-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.gladia.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 21:23:50 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.gladia.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 23:44:12 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.gladia.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 11:02:37 2026 GMT\n  hsts: null\ndomains:\n- domain: gladia.io\n  dnssec: true\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/security/gladia-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gladia/security/gladia-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Speech-to-Text

@@ -26,7 +26,7 @@ source_filename: blissmo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: blissmo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 31 14:27:21 2027 GMT\n  hsts: null\ndomains:\n- domain: blissmo.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blissmo/refs/heads/main/security/blissmo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/blissmo/security/blissmo-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

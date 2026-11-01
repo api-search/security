@@ -27,7 +27,7 @@ source_filename: aerodyne-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aerodyne.group\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: aerodyne.group\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aerodyne/refs/heads/main/security/aerodyne-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aerodyne/security/aerodyne-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

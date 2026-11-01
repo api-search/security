@@ -8,19 +8,19 @@ api_specs:
   label: Fundamental Research Labs Authentication API
   slug: fundamental-research-labs-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/openapi/fundamental-research-labs-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/fundamental-research-labs/openapi/fundamental-research-labs-authentication-api-openapi.yml
 - filename: fundamental-research-labs-spreadsheets-api-openapi.yml
   format: yaml
   label: Fundamental Research Labs Spreadsheets API
   slug: fundamental-research-labs-spreadsheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/openapi/fundamental-research-labs-spreadsheets-api-openapi.yml
+  url: https://artifacts.apis.io/fundamental-research-labs/openapi/fundamental-research-labs-spreadsheets-api-openapi.yml
 - filename: fundamental-research-labs-usage-api-openapi.yml
   format: yaml
   label: Fundamental Research Labs Usage API
   slug: fundamental-research-labs-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/openapi/fundamental-research-labs-usage-api-openapi.yml
+  url: https://artifacts.apis.io/fundamental-research-labs/openapi/fundamental-research-labs-usage-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -57,7 +57,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/fundamental-research-labs-openapi-original.json\ndocs: https://shortcut.ai/docs/platform-api\nnotes: 'External callers authenticate with an API key sent as a Bearer token (`Authorization:\n  Bearer [example key]`), created from Settings -> API Keys in Shortcut. First-party Shortcut\n  applications may instead pass the user session/access token as a Bearer token\n  (shortcutSession) or, for trusted Shortcut web origins, via the `shortcut_access_token`\n  cookie (shortcutCookie). `/verify` and webhooks require API-key auth. No OAuth2 or\n  OpenID Connect flows are offered.'\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - cookie\nschemes:\n- name: apiKey\n  type: http\n  scheme: bearer\n  bearerFormat: API Key\n  description: 'API key in Bearer token format: `Authorization: Bearer [example key]`'\n  sources:\n  - openapi/fundamental-research-labs-openapi-original.json\n- name: shortcutCookie\n  type: apiKey\n\
   \  in: cookie\n  parameter: shortcut_access_token\n  description: Shortcut web session cookie for credentialed fetch requests. Missing or untrusted\n    Origin headers are rejected.\n  sources:\n  - openapi/fundamental-research-labs-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/authentication/fundamental-research-labs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fundamental-research-labs/authentication/fundamental-research-labs-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

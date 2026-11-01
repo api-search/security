@@ -5,25 +5,25 @@ api_specs:
   label: HyperPay COPYandPAY API
   slug: hyperpay-copyandpay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/openapi/hyperpay-copyandpay-api-openapi.yml
+  url: https://artifacts.apis.io/hyperpay/openapi/hyperpay-copyandpay-api-openapi.yml
 - filename: hyperpay-payments-api-openapi.yml
   format: yaml
   label: HyperPay Payments API
   slug: hyperpay-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/openapi/hyperpay-payments-api-openapi.yml
+  url: https://artifacts.apis.io/hyperpay/openapi/hyperpay-payments-api-openapi.yml
 - filename: hyperpay-query-api-openapi.yml
   format: yaml
   label: HyperPay Query API
   slug: hyperpay-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/openapi/hyperpay-query-api-openapi.yml
+  url: https://artifacts.apis.io/hyperpay/openapi/hyperpay-query-api-openapi.yml
 - filename: hyperpay-registrations-api-openapi.yml
   format: yaml
   label: HyperPay Registrations API
   slug: hyperpay-registrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/openapi/hyperpay-registrations-api-openapi.yml
+  url: https://artifacts.apis.io/hyperpay/openapi/hyperpay-registrations-api-openapi.yml
 certification_count: 2
 certifications:
 - PCI-DSS Level 1
@@ -41,7 +41,7 @@ source_filename: hyperpay-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nprobe: true\nsource: https://www.hyperpay.com/\nurl: https://www.hyperpay.com/\ncertifications:\n- PCI-DSS Level 1\n- SAMA (Saudi Central Bank) licensed payment service provider\nevidence:\n- source: https://www.hyperpay.com/\n  keywords:\n  - pci dss\n  - pci-dss level 1\n  - sama\n  - saudi central bank\n  - secure payment\nnotes: >-\n  HyperPay is a PCI-DSS Level 1 certified payment gateway operating in the MENA\n  region and licensed / regulated as a payment service provider under the Saudi\n  Central Bank (SAMA). The underlying processing platform (ACI / OPPWA) is itself\n  PCI-DSS certified. HyperPay does not publish a dedicated machine-readable trust\n  center; certifications are stated on the corporate site and in onboarding\n  materials. Verify current certification scope with a HyperPay account manager.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/security/hyperpay-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/hyperpay/security/hyperpay-trust-center.yml
 summary_line: PCI-DSS Level 1, SAMA (Saudi Central Bank) licensed payment service provider
 tags:
 - Payments

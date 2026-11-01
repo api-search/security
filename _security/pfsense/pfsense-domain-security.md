@@ -5,25 +5,25 @@ api_specs:
   label: pfSense Authentication API
   slug: pfsense-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pfsense/refs/heads/main/openapi/pfsense-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/pfsense/openapi/pfsense-authentication-api-openapi.yml
 - filename: pfsense-firewall-aliases-api-openapi.yml
   format: yaml
   label: pfSense Firewall Aliases API
   slug: pfsense-firewall-aliases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pfsense/refs/heads/main/openapi/pfsense-firewall-aliases-api-openapi.yml
+  url: https://artifacts.apis.io/pfsense/openapi/pfsense-firewall-aliases-api-openapi.yml
 - filename: pfsense-firewall-apply-api-openapi.yml
   format: yaml
   label: pfSense Firewall Apply API
   slug: pfsense-firewall-apply-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pfsense/refs/heads/main/openapi/pfsense-firewall-apply-api-openapi.yml
+  url: https://artifacts.apis.io/pfsense/openapi/pfsense-firewall-apply-api-openapi.yml
 - filename: pfsense-firewall-rules-api-openapi.yml
   format: yaml
   label: pfSense Firewall Rules API
   slug: pfsense-firewall-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pfsense/refs/heads/main/openapi/pfsense-firewall-rules-api-openapi.yml
+  url: https://artifacts.apis.io/pfsense/openapi/pfsense-firewall-rules-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -69,7 +69,7 @@ source_filename: pfsense-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.pfsense.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 12:08:08 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: pfrest.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 20:57:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n- host: pfsense.local\n  https: false\ndomains:\n- domain: pfsense.org\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: pfrest.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pfsense/refs/heads/main/security/pfsense-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pfsense/security/pfsense-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Firewall

@@ -5,49 +5,49 @@ api_specs:
   label: Apache Storm Cluster API
   slug: apache-storm-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/openapi/apache-storm-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/apache-storm/openapi/apache-storm-cluster-api-openapi.yml
 - filename: apache-storm-drpc-api-openapi.yml
   format: yaml
   label: Apache Storm Drpc API
   slug: apache-storm-drpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/openapi/apache-storm-drpc-api-openapi.yml
+  url: https://artifacts.apis.io/apache-storm/openapi/apache-storm-drpc-api-openapi.yml
 - filename: apache-storm-history-api-openapi.yml
   format: yaml
   label: Apache Storm History API
   slug: apache-storm-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/openapi/apache-storm-history-api-openapi.yml
+  url: https://artifacts.apis.io/apache-storm/openapi/apache-storm-history-api-openapi.yml
 - filename: apache-storm-nimbus-api-openapi.yml
   format: yaml
   label: Apache Storm Nimbus API
   slug: apache-storm-nimbus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/openapi/apache-storm-nimbus-api-openapi.yml
+  url: https://artifacts.apis.io/apache-storm/openapi/apache-storm-nimbus-api-openapi.yml
 - filename: apache-storm-owner-resources-api-openapi.yml
   format: yaml
   label: Apache Storm Owner Resources API
   slug: apache-storm-owner-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/openapi/apache-storm-owner-resources-api-openapi.yml
+  url: https://artifacts.apis.io/apache-storm/openapi/apache-storm-owner-resources-api-openapi.yml
 - filename: apache-storm-supervisor-api-openapi.yml
   format: yaml
   label: Apache Storm Supervisor API
   slug: apache-storm-supervisor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/openapi/apache-storm-supervisor-api-openapi.yml
+  url: https://artifacts.apis.io/apache-storm/openapi/apache-storm-supervisor-api-openapi.yml
 - filename: apache-storm-topology-api-openapi.yml
   format: yaml
   label: Apache Storm Topology API
   slug: apache-storm-topology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/openapi/apache-storm-topology-api-openapi.yml
+  url: https://artifacts.apis.io/apache-storm/openapi/apache-storm-topology-api-openapi.yml
 - filename: apache-storm-topology-workers-api-openapi.yml
   format: yaml
   label: Apache Storm Topology Workers API
   slug: apache-storm-topology-workers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/openapi/apache-storm-topology-workers-api-openapi.yml
+  url: https://artifacts.apis.io/apache-storm/openapi/apache-storm-topology-workers-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -81,7 +81,7 @@ source_filename: apache-storm-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: storm.apache.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 23:33:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: apache.org\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:root@apache.org\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/security/apache-storm-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apache-storm/security/apache-storm-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Distributed Computing

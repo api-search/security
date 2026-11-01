@@ -5,19 +5,19 @@ api_specs:
   label: Shapes Models API
   slug: shapes-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapes/refs/heads/main/openapi/shapes-models-api-openapi.yml
+  url: https://artifacts.apis.io/shapes/openapi/shapes-models-api-openapi.yml
 - filename: shapes-shapes-api-openapi.yml
   format: yaml
   label: Shapes API
   slug: shapes-shapes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapes/refs/heads/main/openapi/shapes-shapes-api-openapi.yml
+  url: https://artifacts.apis.io/shapes/openapi/shapes-shapes-api-openapi.yml
 - filename: shapes-chat-completions-api-openapi.yml
   format: yaml
   label: Shapes Chat Completions API
   slug: shapes-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapes/refs/heads/main/openapi/shapes-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/shapes/openapi/shapes-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: shapes-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: shapes.inc\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 00:26:05 2026 GMT\n  hsts: false\n- host: api.shapes.inc\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  3 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: shapes.inc\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shapes/refs/heads/main/security/shapes-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/shapes/security/shapes-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

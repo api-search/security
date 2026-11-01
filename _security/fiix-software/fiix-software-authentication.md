@@ -23,7 +23,7 @@ source_filename: fiix-software-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "name: Fiix Software authentication\ngenerated: '2026-10-20'\nmethod: searched\nsource: https://fiixlabs.github.io/api-documentation/guide.html\ndocs: https://fiixlabs.github.io/api-documentation/guide.html\nschemes:\n- type: apiKey\n  name: Fiix API access keys\n  description: An administrator generates an Application Key, Access Key and Secret Key in the CMMS; the secret cannot be retrieved later. Keys are passed to the Fiix CMMS Client (Java/JavaScript) which signs requests to https://{subdomain}.macmms.com/api.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fiix-software/refs/heads/main/authentication/fiix-software-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fiix-software/authentication/fiix-software-authentication.yml
 summary_line: 1 scheme
 tags:
 - CMMS
@@ -32,5 +32,5 @@ tags:
 - Manufacturing
 - Reliability
 - Work Orders
-- SaaS
+- Software-as-a-Service
 ---

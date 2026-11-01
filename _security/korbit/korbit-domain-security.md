@@ -5,49 +5,49 @@ api_specs:
   label: Korbit Open API v2 WebSocket
   slug: korbit-open-api-v2-websocket
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/asyncapi/korbit-websocket-asyncapi.yml
+  url: https://artifacts.apis.io/korbit/asyncapi/korbit-websocket-asyncapi.yml
 - filename: korbit-asset-api-openapi.yml
   format: yaml
   label: Korbit Asset API
   slug: korbit-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/openapi/korbit-asset-api-openapi.yml
+  url: https://artifacts.apis.io/korbit/openapi/korbit-asset-api-openapi.yml
 - filename: korbit-deposit-crypto-api-openapi.yml
   format: yaml
   label: Korbit Deposit (Crypto) API
   slug: korbit-deposit-crypto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/openapi/korbit-deposit-crypto-api-openapi.yml
+  url: https://artifacts.apis.io/korbit/openapi/korbit-deposit-crypto-api-openapi.yml
 - filename: korbit-deposit-withdrawal-krw-api-openapi.yml
   format: yaml
   label: Korbit Deposit/Withdrawal (KRW) API
   slug: korbit-deposit-withdrawal-krw-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/openapi/korbit-deposit-withdrawal-krw-api-openapi.yml
+  url: https://artifacts.apis.io/korbit/openapi/korbit-deposit-withdrawal-krw-api-openapi.yml
 - filename: korbit-other-api-openapi.yml
   format: yaml
   label: Korbit Other API
   slug: korbit-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/openapi/korbit-other-api-openapi.yml
+  url: https://artifacts.apis.io/korbit/openapi/korbit-other-api-openapi.yml
 - filename: korbit-quotation-api-openapi.yml
   format: yaml
   label: Korbit Quotation API
   slug: korbit-quotation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/openapi/korbit-quotation-api-openapi.yml
+  url: https://artifacts.apis.io/korbit/openapi/korbit-quotation-api-openapi.yml
 - filename: korbit-trading-api-openapi.yml
   format: yaml
   label: Korbit Trading API
   slug: korbit-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/openapi/korbit-trading-api-openapi.yml
+  url: https://artifacts.apis.io/korbit/openapi/korbit-trading-api-openapi.yml
 - filename: korbit-withdrawal-crypto-api-openapi.yml
   format: yaml
   label: Korbit Withdrawal (Crypto) API
   slug: korbit-withdrawal-crypto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/openapi/korbit-withdrawal-crypto-api-openapi.yml
+  url: https://artifacts.apis.io/korbit/openapi/korbit-withdrawal-crypto-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -86,7 +86,7 @@ source_filename: korbit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.korbit.co.kr\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  6 23:59:59 2027 GMT\n  hsts: false\n- host: docs.korbit.co.kr\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  6 23:59:59 2027 GMT\n  hsts: false\n- host: api.korbit.co.kr\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  6 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: korbit.co.kr\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/security/korbit-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/korbit/security/korbit-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

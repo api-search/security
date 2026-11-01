@@ -27,7 +27,7 @@ source_filename: saks-off-5th-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.saksoff5th.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: saksoff5th.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/saks-off-5th/refs/heads/main/security/saks-off-5th-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/saks-off-5th/security/saks-off-5th-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

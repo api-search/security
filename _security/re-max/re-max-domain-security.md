@@ -5,13 +5,13 @@ api_specs:
   label: RE/MAX Europe Datahub API
   slug: re-max-eu-datahub-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/re-max/refs/heads/main/collections/re-max-eu-datahub-api.postman_collection.json
+  url: https://artifacts.apis.io/re-max/collections/re-max-eu-datahub-api.postman_collection.json
 - filename: re-max-eu-listings-api.postman_collection.json
   format: json
   label: RE/MAX Europe Listings API
   slug: re-max-eu-listings-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/re-max/refs/heads/main/collections/re-max-eu-listings-api.postman_collection.json
+  url: https://artifacts.apis.io/re-max/collections/re-max-eu-listings-api.postman_collection.json
 description: ''
 domains:
 - caa: []
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: probed\nsource: live DNS/TLS/HTTP
   \ and sets no HSTS\n- host: oauth.datahub.remax.eu\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 12 23:59:59 2026 GMT\n  hsts: false\n  note: >-\n    the OAuth authorization server negotiates TLS 1.2 and sets no HSTS, while\n    also carrying tokens in query strings\n- host: datahub.remax.eu\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  2 23:59:59 2026 GMT\n  hsts: false\n- host: listing-api-remaxeu.bwscloud.tech\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 19 23:59:59 2026 GMT\n  hsts: false\n  note: staging Listings API on a third-party vendor domain, outside RE/MAX DNS control\ndomains:\n- domain: remax.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: remax.eu\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\nobservations:\n- >-\n  No CAA records on either registrable domain, so any public CA may issue for\n  remax.com or remax.eu.\n- >-\n  No DNSSEC on either\
   \ domain.\n- >-\n  DMARC is enforced only at p=quarantine, not p=reject, on both domains.\n- >-\n  remax.com serves a DNS wildcard (CNAME customers.kvcore.com). The control probe\n  zzzznotreal.remax.com resolves identically to developer.remax.com,\n  developers.remax.com, docs.remax.com, status.remax.com and trust.remax.com -\n  none of those hostnames is a service RE/MAX runs. A wildcard that answers on\n  443 for every conceivable subdomain is itself a security-relevant posture\n  (subdomain-confusion and phishing surface).\n- >-\n  api.remax.com is a dangling CNAME to api.remax-prod.booj.io, which returns\n  NXDOMAIN - a classic subdomain-takeover shape left behind by the decommissioned\n  booj platform.\n- >-\n  The API and OAuth hosts negotiate TLS 1.2 and set no HSTS, while the two\n  Postman documentation hosts (which carry no data) are TLS 1.3 with HSTS\n  preload. The transport hardening is inverted relative to where the risk is.\nprograms:\n  security_txt: absent on every host\
   \ probed\n  vulnerability_disclosure: none published\n  trust_center: >-\n    none. trust.remax.com answers 403 only because of the remax.com wildcard; it\n    is not a trust center.\n  probe: 0-working/probe-security-programs.py returned vdp=none trust=none (2026-07-26)\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/re-max/refs/heads/main/security/re-max-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/re-max/security/re-max-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Real Estate

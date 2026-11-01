@@ -5,769 +5,769 @@ api_specs:
   label: Qlik Cloud System Events
   slug: system-events
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/asyncapi/qliksense-asyncapi-index.yml
+  url: https://artifacts.apis.io/qliksense/asyncapi/qliksense-asyncapi-index.yml
 - filename: qliksense-ai-mcps-asyncapi.json
   format: json
   label: Qlik MCP Server
   slug: mcp-server
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/asyncapi/qliksense-ai-mcps-asyncapi.json
+  url: https://artifacts.apis.io/qliksense/asyncapi/qliksense-ai-mcps-asyncapi.json
 - filename: qliksense-alerting-actions-api-openapi.yml
   format: yaml
   label: Qlik Sense alerting actions API
   slug: qliksense-alerting-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-alerting-actions-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-alerting-actions-api-openapi.yml
 - filename: qliksense-alerting-settings-api-openapi.yml
   format: yaml
   label: Qlik Sense alerting settings API
   slug: qliksense-alerting-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-alerting-settings-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-alerting-settings-api-openapi.yml
 - filename: qliksense-alerting-tasks-api-openapi.yml
   format: yaml
   label: Qlik Sense alerting tasks API
   slug: qliksense-alerting-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-alerting-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-alerting-tasks-api-openapi.yml
 - filename: qliksense-alerting-tasks-executions-api-openapi.yml
   format: yaml
   label: Qlik Sense alerting tasks executions API
   slug: qliksense-alerting-tasks-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-alerting-tasks-executions-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-alerting-tasks-executions-api-openapi.yml
 - filename: qliksense-aliases-api-openapi.yml
   format: yaml
   label: Qlik Sense Aliases API
   slug: qliksense-aliases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-aliases-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-aliases-api-openapi.yml
 - filename: qliksense-analytics-api-openapi.yml
   format: yaml
   label: Qlik Sense Analytics API
   slug: qliksense-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-analytics-api-openapi.yml
 - filename: qliksense-api-keys-api-openapi.yml
   format: yaml
   label: Qlik Sense API Keys API
   slug: qliksense-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-api-keys-api-openapi.yml
 - filename: qliksense-api-keys-configurations-api-openapi.yml
   format: yaml
   label: Qlik Sense api-keys configurations API
   slug: qliksense-api-keys-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-api-keys-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-api-keys-configurations-api-openapi.yml
 - filename: qliksense-api-settings-api-openapi.yml
   format: yaml
   label: Qlik Sense api settings API
   slug: qliksense-api-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-api-settings-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-api-settings-api-openapi.yml
 - filename: qliksense-apps-api-openapi.yml
   format: yaml
   label: Qlik Sense Apps API
   slug: qliksense-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-apps-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-apps-api-openapi.yml
 - filename: qliksense-assignments-api-openapi.yml
   format: yaml
   label: Qlik Sense Assignments API
   slug: qliksense-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-assignments-api-openapi.yml
 - filename: qliksense-assistants-api-openapi.yml
   format: yaml
   label: Qlik Sense Assistants API
   slug: qliksense-assistants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-assistants-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-assistants-api-openapi.yml
 - filename: qliksense-async-actions-api-openapi.yml
   format: yaml
   label: Qlik Sense async actions API
   slug: qliksense-async-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-async-actions-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-async-actions-api-openapi.yml
 - filename: qliksense-audits-api-openapi.yml
   format: yaml
   label: Qlik Sense Audits API
   slug: qliksense-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-audits-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-audits-api-openapi.yml
 - filename: qliksense-automation-connections-api-openapi.yml
   format: yaml
   label: Qlik Sense Automation Connections API
   slug: qliksense-automation-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-automation-connections-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-automation-connections-api-openapi.yml
 - filename: qliksense-automation-connectors-api-openapi.yml
   format: yaml
   label: Qlik Sense Automation Connectors API
   slug: qliksense-automation-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-automation-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-automation-connectors-api-openapi.yml
 - filename: qliksense-automations-api-openapi.yml
   format: yaml
   label: Qlik Sense Automations API
   slug: qliksense-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-automations-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-automations-api-openapi.yml
 - filename: qliksense-automl-deployments-api-openapi.yml
   format: yaml
   label: Qlik Sense Automl Deployments API
   slug: qliksense-automl-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-automl-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-automl-deployments-api-openapi.yml
 - filename: qliksense-automl-predictions-api-openapi.yml
   format: yaml
   label: Qlik Sense Automl Predictions API
   slug: qliksense-automl-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-automl-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-automl-predictions-api-openapi.yml
 - filename: qliksense-banner-api-openapi.yml
   format: yaml
   label: Qlik Sense Banner API
   slug: qliksense-banner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-banner-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-banner-api-openapi.yml
 - filename: qliksense-brands-api-openapi.yml
   format: yaml
   label: Qlik Sense Brands API
   slug: qliksense-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-brands-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-brands-api-openapi.yml
 - filename: qliksense-categories-api-openapi.yml
   format: yaml
   label: Qlik Sense Categories API
   slug: qliksense-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-categories-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-categories-api-openapi.yml
 - filename: qliksense-change-stores-api-openapi.yml
   format: yaml
   label: Qlik Sense Change Stores API
   slug: qliksense-change-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-change-stores-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-change-stores-api-openapi.yml
 - filename: qliksense-changes-api-openapi.yml
   format: yaml
   label: Qlik Sense Changes API
   slug: qliksense-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-changes-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-changes-api-openapi.yml
 - filename: qliksense-chat-api-openapi.yml
   format: yaml
   label: Qlik Sense Chat API
   slug: qliksense-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-chat-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-chat-api-openapi.yml
 - filename: qliksense-collections-api-openapi.yml
   format: yaml
   label: Qlik Sense Collections API
   slug: qliksense-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-collections-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-collections-api-openapi.yml
 - filename: qliksense-computation-api-openapi.yml
   format: yaml
   label: Qlik Sense Computation API
   slug: qliksense-computation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-computation-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-computation-api-openapi.yml
 - filename: qliksense-condition-preview-api-openapi.yml
   format: yaml
   label: Qlik Sense condition preview API
   slug: qliksense-condition-preview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-condition-preview-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-condition-preview-api-openapi.yml
 - filename: qliksense-conditions-api-openapi.yml
   format: yaml
   label: Qlik Sense Conditions API
   slug: qliksense-conditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-conditions-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-conditions-api-openapi.yml
 - filename: qliksense-consumption-api-openapi.yml
   format: yaml
   label: Qlik Sense Consumption API
   slug: qliksense-consumption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-consumption-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-consumption-api-openapi.yml
 - filename: qliksense-csp-origins-api-openapi.yml
   format: yaml
   label: Qlik Sense Csp Origins API
   slug: qliksense-csp-origins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-csp-origins-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-csp-origins-api-openapi.yml
 - filename: qliksense-csrf-api-openapi.yml
   format: yaml
   label: Qlik Sense Csrf API
   slug: qliksense-csrf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-csrf-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-csrf-api-openapi.yml
 - filename: qliksense-data-asset-api-openapi.yml
   format: yaml
   label: Qlik Sense Data Asset API
   slug: qliksense-data-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-data-asset-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-data-asset-api-openapi.yml
 - filename: qliksense-data-connections-api-openapi.yml
   format: yaml
   label: Qlik Sense Data Connections API
   slug: qliksense-data-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-data-connections-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-data-connections-api-openapi.yml
 - filename: qliksense-data-credentials-api-openapi.yml
   format: yaml
   label: Qlik Sense Data Credentials API
   slug: qliksense-data-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-data-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-data-credentials-api-openapi.yml
 - filename: qliksense-data-product-activation-api-openapi.yml
   format: yaml
   label: Qlik Sense Data Product Activation API
   slug: qliksense-data-product-activation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-data-product-activation-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-data-product-activation-api-openapi.yml
 - filename: qliksense-data-product-api-openapi.yml
   format: yaml
   label: Qlik Sense Data Product API
   slug: qliksense-data-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-data-product-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-data-product-api-openapi.yml
 - filename: qliksense-data-product-changelog-api-openapi.yml
   format: yaml
   label: Qlik Sense Data Product Changelog API
   slug: qliksense-data-product-changelog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-data-product-changelog-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-data-product-changelog-api-openapi.yml
 - filename: qliksense-data-product-data-quality-api-openapi.yml
   format: yaml
   label: Qlik Sense Data Product Data Quality API
   slug: qliksense-data-product-data-quality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-data-product-data-quality-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-data-product-data-quality-api-openapi.yml
 - filename: qliksense-data-product-generate-provider-url-api-openapi.yml
   format: yaml
   label: Qlik Sense Data Product Generate Provider URL API
   slug: qliksense-data-product-generate-provider-url-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-data-product-generate-provider-url-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-data-product-generate-provider-url-api-openapi.yml
 - filename: qliksense-data-project-actions-api-openapi.yml
   format: yaml
   label: Qlik Sense data project actions API
   slug: qliksense-data-project-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-data-project-actions-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-data-project-actions-api-openapi.yml
 - filename: qliksense-data-project-api-openapi.yml
   format: yaml
   label: Qlik Sense data project API
   slug: qliksense-data-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-data-project-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-data-project-api-openapi.yml
 - filename: qliksense-data-project-deployment-api-openapi.yml
   format: yaml
   label: Qlik Sense data project deployment API
   slug: qliksense-data-project-deployment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-data-project-deployment-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-data-project-deployment-api-openapi.yml
 - filename: qliksense-data-quality-api-openapi.yml
   format: yaml
   label: Qlik Sense Data Quality API
   slug: qliksense-data-quality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-data-quality-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-data-quality-api-openapi.yml
 - filename: qliksense-data-sources-api-openapi.yml
   format: yaml
   label: Qlik Sense Data Sources API
   slug: qliksense-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-data-sources-api-openapi.yml
 - filename: qliksense-data-task-actions-api-openapi.yml
   format: yaml
   label: Qlik Sense data task actions API
   slug: qliksense-data-task-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-data-task-actions-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-data-task-actions-api-openapi.yml
 - filename: qliksense-data-task-api-openapi.yml
   format: yaml
   label: Qlik Sense data task API
   slug: qliksense-data-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-data-task-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-data-task-api-openapi.yml
 - filename: qliksense-data-task-runtime-api-openapi.yml
   format: yaml
   label: Qlik Sense data task runtime API
   slug: qliksense-data-task-runtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-data-task-runtime-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-data-task-runtime-api-openapi.yml
 - filename: qliksense-datafiles-api-openapi.yml
   format: yaml
   label: Qlik Sense Datafiles API
   slug: qliksense-datafiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-datafiles-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-datafiles-api-openapi.yml
 - filename: qliksense-deliveries-api-openapi.yml
   format: yaml
   label: Qlik Sense Deliveries API
   slug: qliksense-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-deliveries-api-openapi.yml
 - filename: qliksense-deployments-api-openapi.yml
   format: yaml
   label: Qlik Sense Deployments API
   slug: qliksense-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-deployments-api-openapi.yml
 - filename: qliksense-direct-access-agent-benchmarking-api-openapi.yml
   format: yaml
   label: Qlik Sense Direct Access Agent Benchmarking API
   slug: qliksense-direct-access-agent-benchmarking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-direct-access-agent-benchmarking-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-direct-access-agent-benchmarking-api-openapi.yml
 - filename: qliksense-direct-access-agent-configuration-api-openapi.yml
   format: yaml
   label: Qlik Sense Direct Access Agent Configuration API
   slug: qliksense-direct-access-agent-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-direct-access-agent-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-direct-access-agent-configuration-api-openapi.yml
 - filename: qliksense-editable-columns-api-openapi.yml
   format: yaml
   label: Qlik Sense Editable Columns API
   slug: qliksense-editable-columns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-editable-columns-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-editable-columns-api-openapi.yml
 - filename: qliksense-email-config-actions-api-openapi.yml
   format: yaml
   label: Qlik Sense Email Config Actions API
   slug: qliksense-email-config-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-email-config-actions-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-email-config-actions-api-openapi.yml
 - filename: qliksense-email-config-api-openapi.yml
   format: yaml
   label: Qlik Sense Email Config API
   slug: qliksense-email-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-email-config-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-email-config-api-openapi.yml
 - filename: qliksense-evaluation-api-openapi.yml
   format: yaml
   label: Qlik Sense Evaluation API
   slug: qliksense-evaluation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-evaluation-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-evaluation-api-openapi.yml
 - filename: qliksense-evaluations-api-openapi.yml
   format: yaml
   label: Qlik Sense Evaluations API
   slug: qliksense-evaluations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-evaluations-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-evaluations-api-openapi.yml
 - filename: qliksense-experiments-api-openapi.yml
   format: yaml
   label: Qlik Sense Experiments API
   slug: qliksense-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-experiments-api-openapi.yml
 - filename: qliksense-extensions-api-openapi.yml
   format: yaml
   label: Qlik Sense Extensions API
   slug: qliksense-extensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-extensions-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-extensions-api-openapi.yml
 - filename: qliksense-filters-api-openapi.yml
   format: yaml
   label: Qlik Sense Filters API
   slug: qliksense-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-filters-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-filters-api-openapi.yml
 - filename: qliksense-glossaries-api-openapi.yml
   format: yaml
   label: Qlik Sense Glossaries API
   slug: qliksense-glossaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-glossaries-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-glossaries-api-openapi.yml
 - filename: qliksense-groups-api-openapi.yml
   format: yaml
   label: Qlik Sense Groups API
   slug: qliksense-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-groups-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-groups-api-openapi.yml
 - filename: qliksense-groups-settings-api-openapi.yml
   format: yaml
   label: Qlik Sense Groups Settings API
   slug: qliksense-groups-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-groups-settings-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-groups-settings-api-openapi.yml
 - filename: qliksense-iam-resources-api-openapi.yml
   format: yaml
   label: Qlik Sense Iam Resources API
   slug: qliksense-iam-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-iam-resources-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-iam-resources-api-openapi.yml
 - filename: qliksense-idp-api-openapi.yml
   format: yaml
   label: Qlik Sense Idp API
   slug: qliksense-idp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-idp-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-idp-api-openapi.yml
 - filename: qliksense-impact-api-openapi.yml
   format: yaml
   label: Qlik Sense Impact API
   slug: qliksense-impact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-impact-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-impact-api-openapi.yml
 - filename: qliksense-insight-analyses-api-openapi.yml
   format: yaml
   label: Qlik Sense Insight Analyses API
   slug: qliksense-insight-analyses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-insight-analyses-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-insight-analyses-api-openapi.yml
 - filename: qliksense-invite-api-openapi.yml
   format: yaml
   label: Qlik Sense Invite API
   slug: qliksense-invite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-invite-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-invite-api-openapi.yml
 - filename: qliksense-items-api-openapi.yml
   format: yaml
   label: Qlik Sense Items API
   slug: qliksense-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-items-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-items-api-openapi.yml
 - filename: qliksense-items-settings-api-openapi.yml
   format: yaml
   label: Qlik Sense Items Settings API
   slug: qliksense-items-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-items-settings-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-items-settings-api-openapi.yml
 - filename: qliksense-jobs-api-openapi.yml
   format: yaml
   label: Qlik Sense Jobs API
   slug: qliksense-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-jobs-api-openapi.yml
 - filename: qliksense-licenses-api-openapi.yml
   format: yaml
   label: Qlik Sense Licenses API
   slug: qliksense-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-licenses-api-openapi.yml
 - filename: qliksense-lineage-graphs-api-openapi.yml
   format: yaml
   label: Qlik Sense Lineage Graphs API
   slug: qliksense-lineage-graphs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-lineage-graphs-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-lineage-graphs-api-openapi.yml
 - filename: qliksense-link-api-openapi.yml
   format: yaml
   label: Qlik Sense Link API
   slug: qliksense-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-link-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-link-api-openapi.yml
 - filename: qliksense-links-api-openapi.yml
   format: yaml
   label: Qlik Sense Links API
   slug: qliksense-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-links-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-links-api-openapi.yml
 - filename: qliksense-login-api-openapi.yml
   format: yaml
   label: Qlik Sense Login API
   slug: qliksense-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-login-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-login-api-openapi.yml
 - filename: qliksense-notifications-api-openapi.yml
   format: yaml
   label: Qlik Sense Notifications API
   slug: qliksense-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-notifications-api-openapi.yml
 - filename: qliksense-oauth-clients-api-openapi.yml
   format: yaml
   label: Qlik Sense OAUTH Clients API
   slug: qliksense-oauth-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-oauth-clients-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-oauth-clients-api-openapi.yml
 - filename: qliksense-oauth-tokens-api-openapi.yml
   format: yaml
   label: Qlik Sense OAUTH Tokens API
   slug: qliksense-oauth-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-oauth-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-oauth-tokens-api-openapi.yml
 - filename: qliksense-outputs-api-openapi.yml
   format: yaml
   label: Qlik Sense Outputs API
   slug: qliksense-outputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-outputs-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-outputs-api-openapi.yml
 - filename: qliksense-owl-api-openapi.yml
   format: yaml
   label: Qlik Sense Owl API
   slug: qliksense-owl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-owl-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-owl-api-openapi.yml
 - filename: qliksense-pinned-links-api-openapi.yml
   format: yaml
   label: Qlik Sense pinned links API
   slug: qliksense-pinned-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-pinned-links-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-pinned-links-api-openapi.yml
 - filename: qliksense-predictions-api-openapi.yml
   format: yaml
   label: Qlik Sense Predictions API
   slug: qliksense-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-predictions-api-openapi.yml
 - filename: qliksense-profile-api-openapi.yml
   format: yaml
   label: Qlik Sense Profile API
   slug: qliksense-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-profile-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-profile-api-openapi.yml
 - filename: qliksense-profile-insights-api-openapi.yml
   format: yaml
   label: Qlik Sense Profile Insights API
   slug: qliksense-profile-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-profile-insights-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-profile-insights-api-openapi.yml
 - filename: qliksense-questions-api-openapi.yml
   format: yaml
   label: Qlik Sense Questions API
   slug: qliksense-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-questions-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-questions-api-openapi.yml
 - filename: qliksense-quotas-api-openapi.yml
   format: yaml
   label: Qlik Sense Quotas API
   slug: qliksense-quotas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-quotas-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-quotas-api-openapi.yml
 - filename: qliksense-reload-tasks-api-openapi.yml
   format: yaml
   label: Qlik Sense Reload Tasks API
   slug: qliksense-reload-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-reload-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-reload-tasks-api-openapi.yml
 - filename: qliksense-reloads-api-openapi.yml
   format: yaml
   label: Qlik Sense Reloads API
   slug: qliksense-reloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-reloads-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-reloads-api-openapi.yml
 - filename: qliksense-report-templates-api-openapi.yml
   format: yaml
   label: Qlik Sense Report Templates API
   slug: qliksense-report-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-report-templates-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-report-templates-api-openapi.yml
 - filename: qliksense-reports-api-openapi.yml
   format: yaml
   label: Qlik Sense Reports API
   slug: qliksense-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-reports-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-reports-api-openapi.yml
 - filename: qliksense-request-api-openapi.yml
   format: yaml
   label: Qlik Sense Request API
   slug: qliksense-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-request-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-request-api-openapi.yml
 - filename: qliksense-roles-api-openapi.yml
   format: yaml
   label: Qlik Sense Roles API
   slug: qliksense-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-roles-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-roles-api-openapi.yml
 - filename: qliksense-search-api-openapi.yml
   format: yaml
   label: Qlik Sense Search API
   slug: qliksense-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-search-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-search-api-openapi.yml
 - filename: qliksense-setting-api-openapi.yml
   format: yaml
   label: Qlik Sense Setting API
   slug: qliksense-setting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-setting-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-setting-api-openapi.yml
 - filename: qliksense-settings-api-openapi.yml
   format: yaml
   label: Qlik Sense Settings API
   slug: qliksense-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-settings-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-settings-api-openapi.yml
 - filename: qliksense-shares-api-openapi.yml
   format: yaml
   label: Qlik Sense Shares API
   slug: qliksense-shares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-shares-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-shares-api-openapi.yml
 - filename: qliksense-sharing-settings-api-openapi.yml
   format: yaml
   label: Qlik Sense sharing settings API
   slug: qliksense-sharing-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-sharing-settings-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-sharing-settings-api-openapi.yml
 - filename: qliksense-sharing-tasks-actions-api-openapi.yml
   format: yaml
   label: Qlik Sense sharing tasks actions API
   slug: qliksense-sharing-tasks-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-sharing-tasks-actions-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-sharing-tasks-actions-api-openapi.yml
 - filename: qliksense-sharing-tasks-api-openapi.yml
   format: yaml
   label: Qlik Sense sharing tasks API
   slug: qliksense-sharing-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-sharing-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-sharing-tasks-api-openapi.yml
 - filename: qliksense-sharing-tasks-executions-api-openapi.yml
   format: yaml
   label: Qlik Sense sharing tasks executions API
   slug: qliksense-sharing-tasks-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-sharing-tasks-executions-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-sharing-tasks-executions-api-openapi.yml
 - filename: qliksense-spaces-api-openapi.yml
   format: yaml
   label: Qlik Sense Spaces API
   slug: qliksense-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-spaces-api-openapi.yml
 - filename: qliksense-starters-api-openapi.yml
   format: yaml
   label: Qlik Sense Starters API
   slug: qliksense-starters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-starters-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-starters-api-openapi.yml
 - filename: qliksense-status-api-openapi.yml
   format: yaml
   label: Qlik Sense Status API
   slug: qliksense-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-status-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-status-api-openapi.yml
 - filename: qliksense-task-api-openapi.yml
   format: yaml
   label: Qlik Sense Task API
   slug: qliksense-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-task-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-task-api-openapi.yml
 - filename: qliksense-task-graph-api-openapi.yml
   format: yaml
   label: Qlik Sense Task Graph API
   slug: qliksense-task-graph-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-task-graph-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-task-graph-api-openapi.yml
 - filename: qliksense-task-run-history-api-openapi.yml
   format: yaml
   label: Qlik Sense task run history API
   slug: qliksense-task-run-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-task-run-history-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-task-run-history-api-openapi.yml
 - filename: qliksense-temporary-contents-api-openapi.yml
   format: yaml
   label: Qlik Sense Temporary contents API
   slug: qliksense-temporary-contents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-temporary-contents-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-temporary-contents-api-openapi.yml
 - filename: qliksense-tenant-key-migration-information-api-openapi.yml
   format: yaml
   label: Qlik Sense tenant key migration information API
   slug: qliksense-tenant-key-migration-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-tenant-key-migration-information-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-tenant-key-migration-information-api-openapi.yml
 - filename: qliksense-tenant-key-provider-management-api-openapi.yml
   format: yaml
   label: Qlik Sense tenant key provider management API
   slug: qliksense-tenant-key-provider-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-tenant-key-provider-management-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-tenant-key-provider-management-api-openapi.yml
 - filename: qliksense-tenant-key-provider-operations-api-openapi.yml
   format: yaml
   label: Qlik Sense tenant key provider operations API
   slug: qliksense-tenant-key-provider-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-tenant-key-provider-operations-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-tenant-key-provider-operations-api-openapi.yml
 - filename: qliksense-tenant-settings-api-openapi.yml
   format: yaml
   label: Qlik Sense Tenant Settings API
   slug: qliksense-tenant-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-tenant-settings-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-tenant-settings-api-openapi.yml
 - filename: qliksense-tenants-api-openapi.yml
   format: yaml
   label: Qlik Sense Tenants API
   slug: qliksense-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-tenants-api-openapi.yml
 - filename: qliksense-terms-api-openapi.yml
   format: yaml
   label: Qlik Sense Terms API
   slug: qliksense-terms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-terms-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-terms-api-openapi.yml
 - filename: qliksense-themes-api-openapi.yml
   format: yaml
   label: Qlik Sense Themes API
   slug: qliksense-themes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-themes-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-themes-api-openapi.yml
 - filename: qliksense-threads-api-openapi.yml
   format: yaml
   label: Qlik Sense Threads API
   slug: qliksense-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-threads-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-threads-api-openapi.yml
 - filename: qliksense-tokens-api-openapi.yml
   format: yaml
   label: Qlik Sense Tokens API
   slug: qliksense-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-tokens-api-openapi.yml
 - filename: qliksense-trust-score-result-api-openapi.yml
   format: yaml
   label: Qlik Sense Trust Score Result API
   slug: qliksense-trust-score-result-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-trust-score-result-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-trust-score-result-api-openapi.yml
 - filename: qliksense-users-api-openapi.yml
   format: yaml
   label: Qlik Sense Users API
   slug: qliksense-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-users-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-users-api-openapi.yml
 - filename: qliksense-web-integrations-api-openapi.yml
   format: yaml
   label: Qlik Sense Web Integrations API
   slug: qliksense-web-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-web-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-web-integrations-api-openapi.yml
 - filename: qliksense-web-notifications-api-openapi.yml
   format: yaml
   label: Qlik Sense Web Notifications API
   slug: qliksense-web-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-web-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-web-notifications-api-openapi.yml
 - filename: qliksense-webhooks-api-openapi.yml
   format: yaml
   label: Qlik Sense Webhooks API
   slug: qliksense-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-webhooks-api-openapi.yml
 - filename: qliksense-dataset-api-openapi.yml
   format: yaml
   label: Qlik Sense Dataset API
   slug: qliksense-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-dataset-api-openapi.yml
 - filename: qliksense-datastore-api-openapi.yml
   format: yaml
   label: Qlik Sense Datastore API
   slug: qliksense-datastore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-datastore-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-datastore-api-openapi.yml
 - filename: qliksense-knowledge-bases-api-openapi.yml
   format: yaml
   label: Qlik Sense Knowledge Bases API
   slug: qliksense-knowledge-bases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-knowledge-bases-api-openapi.yml
+  url: https://artifacts.apis.io/qliksense/openapi/qliksense-knowledge-bases-api-openapi.yml
 certification_count: 3
 certifications:
 - qlik
@@ -788,7 +788,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-29'\nmethod: searched\nsource: https://www.qlik.com/us/trust and https://security.qlik.com/\ndescription: >-\n  Qlik runs a public trust center at security.qlik.com and a compliance summary\n  at qlik.com/us/trust, listing named third-party certifications and\n  attestations for three distinct estates: Qlik generally, Qlik Cloud\n  Government, and Talend Cloud. Certifications are transcribed verbatim from\n  Qlik's own page; none is inferred.\ntrust_center:\n  url: https://security.qlik.com/\n  status: 200\n  compliance_page: https://www.qlik.com/us/trust\n  status_page: https://status.qlikcloud.com/\n  security_contact: security@qlik.com\ncertifications:\n  qlik:\n    - ISO 27001:2022\n    - ISO 27017:2015\n    - ISO 27018:2019\n    - ISO 42001:2023\n    - SOC 1 Type 2\n    - SOC 2 Type 2 + HITRUST CSF\n    - SOC 3\n    - HIPAA (via SOC 2 Type 2 + HITRUST CSF attestation)\n    - TISAX\n    - IRAP\n    - Cyber Essentials\n    - Cyber Essentials Plus\n  \
   \  - UK G-Cloud v14\n    - CASA Tier 3 (App Defense Alliance)\n    - C5 (BSI, Germany)\n  qlik_cloud_government:\n    - FedRAMP\n    - GovRAMP\n    - TX-RAMP Level 2\n    - ITAR\n    - DISA Impact Level 2\n    - DISA Impact Level 4\n    - CASA Tier 3\n    - CJIS\n    - HIPAA\n  talend_cloud:\n    - ISO 27001:2022\n    - ISO 27017:2015\n    - ISO 27018:2019\n    - SOC 1 Type 2\n    - SOC 2 Type 2\n    - SOC 3\n    - HIPAA attestation\n    - Cyber Essentials\n    - Cyber Essentials Plus\n    - UK G-Cloud v14\nnotable:\n  - >-\n    ISO 42001:2023 (AI management systems) is present. For a vendor now shipping\n    a GA MCP server, an AI assistant surface and AutoML, an AI-specific\n    management-system certification is the directly relevant one.\n  - >-\n    Qlik's own API policy states plainly that Qlik \"does not intend use of the\n    APIs to create obligations under HIPAA and makes no representations that the\n    APIs satisfy HIPAA requirements\" — the HIPAA attestation covers the platform\n\
   \    estate, NOT the public API surface. Recorded because the two are easy to\n    conflate. Source https://qlik.dev/apis/api-policy/.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/security/qliksense-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/qliksense/security/qliksense-trust-center.yml
 summary_line: qlik, qlik_cloud_government, talend_cloud
 tags:
 - Agents

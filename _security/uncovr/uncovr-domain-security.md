@@ -5,7 +5,7 @@ api_specs:
   label: Uncovr Inference (V3, Backwards Compatible) API
   slug: uncovr-inference-v3-backwards-compatible-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uncovr/refs/heads/main/openapi/uncovr-inference-v3-backwards-compatible-api-openapi.yml
+  url: https://artifacts.apis.io/uncovr/openapi/uncovr-inference-v3-backwards-compatible-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,7 +39,7 @@ source_filename: uncovr-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.uncovr.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 13:27:12 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.uncovr.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 11:14:57 2026 GMT\n  hsts: null\ndomains:\n- domain: uncovr.ai\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uncovr/refs/heads/main/security/uncovr-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/uncovr/security/uncovr-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company

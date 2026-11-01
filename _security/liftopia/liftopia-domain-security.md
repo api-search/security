@@ -35,7 +35,7 @@ source_filename: liftopia-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.liftopia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  7 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: liftopia.com\n  https: false\n  tls_cert_error: 'certificate verify failed: certificate has expired'\n  cert_subject: C=US, ST=California, L=Palo Alto, O=Liftopia, Inc., CN=*.liftopia.com\n  cert_expires: Aug 18 23:59:59 2025 GMT\n  hsts: null\n  note: apex host serves an expired certificate; www.liftopia.com is the canonical\n    reachable host\ndomains:\n- domain: liftopia.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liftopia/refs/heads/main/security/liftopia-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/liftopia/security/liftopia-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

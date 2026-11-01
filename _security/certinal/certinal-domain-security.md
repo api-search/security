@@ -5,13 +5,13 @@ api_specs:
   label: Certinal Auth API
   slug: certinal-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certinal/refs/heads/main/openapi/certinal-auth-api-openapi.yml
+  url: https://artifacts.apis.io/certinal/openapi/certinal-auth-api-openapi.yml
 - filename: certinal-rssp-api-openapi.yml
   format: yaml
   label: Certinal Rssp API
   slug: certinal-rssp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certinal/refs/heads/main/openapi/certinal-rssp-api-openapi.yml
+  url: https://artifacts.apis.io/certinal/openapi/certinal-rssp-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +40,7 @@ source_filename: certinal-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-16'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: certinal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 20 09:23:42 2026 GMT\n  hsts: false\ndomains:\n- domain: certinal.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/certinal/refs/heads/main/security/certinal-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/certinal/security/certinal-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Healthcare

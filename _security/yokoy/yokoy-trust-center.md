@@ -5,133 +5,133 @@ api_specs:
   label: Yokoy Card account API
   slug: yokoy-card-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-card-account-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-card-account-api-openapi.yml
 - filename: yokoy-company-card-api-openapi.yml
   format: yaml
   label: Yokoy Company card API
   slug: yokoy-company-card-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-company-card-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-company-card-api-openapi.yml
 - filename: yokoy-cost-center-api-openapi.yml
   format: yaml
   label: Yokoy Cost center API
   slug: yokoy-cost-center-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-cost-center-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-cost-center-api-openapi.yml
 - filename: yokoy-daily-statement-api-openapi.yml
   format: yaml
   label: Yokoy Daily statement API
   slug: yokoy-daily-statement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-daily-statement-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-daily-statement-api-openapi.yml
 - filename: yokoy-expense-api-openapi.yml
   format: yaml
   label: Yokoy Expense API
   slug: yokoy-expense-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-expense-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-expense-api-openapi.yml
 - filename: yokoy-expense-category-api-openapi.yml
   format: yaml
   label: Yokoy Expense category API
   slug: yokoy-expense-category-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-expense-category-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-expense-category-api-openapi.yml
 - filename: yokoy-external-invoice-api-openapi.yml
   format: yaml
   label: Yokoy External invoice API
   slug: yokoy-external-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-external-invoice-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-external-invoice-api-openapi.yml
 - filename: yokoy-finance-export-api-openapi.yml
   format: yaml
   label: Yokoy Finance export API
   slug: yokoy-finance-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-finance-export-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-finance-export-api-openapi.yml
 - filename: yokoy-fx-rates-api-openapi.yml
   format: yaml
   label: Yokoy FX rates API
   slug: yokoy-fx-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-fx-rates-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-fx-rates-api-openapi.yml
 - filename: yokoy-goods-receipt-api-openapi.yml
   format: yaml
   label: Yokoy Goods receipt API
   slug: yokoy-goods-receipt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-goods-receipt-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-goods-receipt-api-openapi.yml
 - filename: yokoy-invoice-api-openapi.yml
   format: yaml
   label: Yokoy Invoice API
   slug: yokoy-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-invoice-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-invoice-api-openapi.yml
 - filename: yokoy-invoice-category-api-openapi.yml
   format: yaml
   label: Yokoy Invoice category API
   slug: yokoy-invoice-category-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-invoice-category-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-invoice-category-api-openapi.yml
 - filename: yokoy-invoice-payment-terms-api-openapi.yml
   format: yaml
   label: Yokoy Invoice payment terms API
   slug: yokoy-invoice-payment-terms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-invoice-payment-terms-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-invoice-payment-terms-api-openapi.yml
 - filename: yokoy-legal-entity-api-openapi.yml
   format: yaml
   label: Yokoy Legal entity API
   slug: yokoy-legal-entity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-legal-entity-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-legal-entity-api-openapi.yml
 - filename: yokoy-policy-api-openapi.yml
   format: yaml
   label: Yokoy Policy API
   slug: yokoy-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-policy-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-policy-api-openapi.yml
 - filename: yokoy-purchase-order-api-openapi.yml
   format: yaml
   label: Yokoy Purchase order API
   slug: yokoy-purchase-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-purchase-order-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-purchase-order-api-openapi.yml
 - filename: yokoy-supplier-api-openapi.yml
   format: yaml
   label: Yokoy Supplier API
   slug: yokoy-supplier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-supplier-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-supplier-api-openapi.yml
 - filename: yokoy-tag-api-openapi.yml
   format: yaml
   label: Yokoy Tag API
   slug: yokoy-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-tag-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-tag-api-openapi.yml
 - filename: yokoy-tax-rates-api-openapi.yml
   format: yaml
   label: Yokoy Tax rates API
   slug: yokoy-tax-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-tax-rates-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-tax-rates-api-openapi.yml
 - filename: yokoy-transaction-api-openapi.yml
   format: yaml
   label: Yokoy Transaction API
   slug: yokoy-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-transaction-api-openapi.yml
 - filename: yokoy-trip-api-openapi.yml
   format: yaml
   label: Yokoy Trip API
   slug: yokoy-trip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-trip-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-trip-api-openapi.yml
 - filename: yokoy-user-api-openapi.yml
   format: yaml
   label: Yokoy User API
   slug: yokoy-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-user-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-user-api-openapi.yml
 certification_count: 4
 certifications:
 - ISO 27001
@@ -151,7 +151,7 @@ source_filename: yokoy-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: false\nsource: https://www.perk.com/security/\nurl: https://trustcenter.perk.com/\nstatus_page: https://status.perk.com/\ncertifications:\n  - ISO 27001\n  - SOC 2\n  - Cyber Essentials\n  - GDPR\nnotes: >-\n  Yokoy is now operated under the Perk (TravelPerk) brand; yokoy.io/security\n  301-redirects to www.perk.com/security. Perk states its ISMS is aligned with\n  ISO 27001, SOC 2 and Cyber Essentials, runs a dedicated GDPR data-protection\n  program, and publishes a trust center (trustcenter.perk.com) and a public\n  status page (status.perk.com). AWS Ireland is the hosting provider.\nevidence:\n  - source: https://www.perk.com/security/\n    keywords: [iso 27001, soc 2, cyber essentials, gdpr, trust center]\n  - source: https://trustcenter.perk.com/\n    keywords: [trust center]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/security/yokoy-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/yokoy/security/yokoy-trust-center.yml
 summary_line: ISO 27001, SOC 2, Cyber Essentials, GDPR
 tags:
 - Company

@@ -5,19 +5,19 @@ api_specs:
   label: Rentahuman Bookings API
   slug: rentahuman-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentahuman/refs/heads/main/openapi/rentahuman-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/rentahuman/openapi/rentahuman-bookings-api-openapi.yml
 - filename: rentahuman-humans-api-openapi.yml
   format: yaml
   label: Rentahuman Humans API
   slug: rentahuman-humans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentahuman/refs/heads/main/openapi/rentahuman-humans-api-openapi.yml
+  url: https://artifacts.apis.io/rentahuman/openapi/rentahuman-humans-api-openapi.yml
 - filename: rentahuman-wallet-api-openapi.yml
   format: yaml
   label: Rentahuman Wallet API
   slug: rentahuman-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentahuman/refs/heads/main/openapi/rentahuman-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/rentahuman/openapi/rentahuman-wallet-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: rentahuman-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: rentahuman.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 17:43:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: rentahuman.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rentahuman/refs/heads/main/security/rentahuman-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rentahuman/security/rentahuman-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

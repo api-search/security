@@ -26,7 +26,7 @@ source_filename: collegeconsortium-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: thecollegeconsortium.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 09:44:39 2026 GMT\n  hsts: null\ndomains:\n- domain: thecollegeconsortium.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/collegeconsortium/refs/heads/main/security/collegeconsortium-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/collegeconsortium/security/collegeconsortium-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

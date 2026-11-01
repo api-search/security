@@ -5,13 +5,13 @@ api_specs:
   label: Sophos Alerts API
   slug: sophos-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sophos/refs/heads/main/openapi/sophos-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/sophos/openapi/sophos-alerts-api-openapi.yml
 - filename: sophos-events-api-openapi.yml
   format: yaml
   label: Sophos Events API
   slug: sophos-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sophos/refs/heads/main/openapi/sophos-events-api-openapi.yml
+  url: https://artifacts.apis.io/sophos/openapi/sophos-events-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,7 +50,7 @@ source_filename: sophos-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.sophos.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 12 15:36:01 2026 GMT\n  hsts: null\n- host: www.sophos.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 07:34:11 2026 GMT\n  hsts: null\n- host: api1.central.sophos.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 21 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: sophos.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sophos/refs/heads/main/security/sophos-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sophos/security/sophos-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Cybersecurity

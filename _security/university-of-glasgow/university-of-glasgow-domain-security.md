@@ -5,7 +5,7 @@ api_specs:
   label: University of Glasgow Repository API
   slug: university-of-glasgow-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-glasgow/refs/heads/main/openapi/university-of-glasgow-repository-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-glasgow/openapi/university-of-glasgow-repository-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -44,7 +44,7 @@ source_filename: university-of-glasgow-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.gla.ac.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 12 23:27:51 2026 GMT\n  hsts: false\n- host: eprints.gla.ac.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 23:24:56 2026 GMT\n  hsts: false\n- host: researchdata.gla.ac.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 23:22:57 2026 GMT\n  hsts: false\ndomains:\n- domain: gla.ac.uk\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-glasgow/refs/heads/main/security/university-of-glasgow-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/university-of-glasgow/security/university-of-glasgow-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - University

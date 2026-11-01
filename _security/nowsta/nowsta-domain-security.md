@@ -5,37 +5,37 @@ api_specs:
   label: Nowsta Clients API
   slug: nowsta-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/openapi/nowsta-clients-api-openapi.yml
+  url: https://artifacts.apis.io/nowsta/openapi/nowsta-clients-api-openapi.yml
 - filename: nowsta-events-api-openapi.yml
   format: yaml
   label: Nowsta Events API
   slug: nowsta-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/openapi/nowsta-events-api-openapi.yml
+  url: https://artifacts.apis.io/nowsta/openapi/nowsta-events-api-openapi.yml
 - filename: nowsta-positions-api-openapi.yml
   format: yaml
   label: Nowsta Positions API
   slug: nowsta-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/openapi/nowsta-positions-api-openapi.yml
+  url: https://artifacts.apis.io/nowsta/openapi/nowsta-positions-api-openapi.yml
 - filename: nowsta-uniforms-api-openapi.yml
   format: yaml
   label: Nowsta Uniforms API
   slug: nowsta-uniforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/openapi/nowsta-uniforms-api-openapi.yml
+  url: https://artifacts.apis.io/nowsta/openapi/nowsta-uniforms-api-openapi.yml
 - filename: nowsta-venues-api-openapi.yml
   format: yaml
   label: Nowsta Venues API
   slug: nowsta-venues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/openapi/nowsta-venues-api-openapi.yml
+  url: https://artifacts.apis.io/nowsta/openapi/nowsta-venues-api-openapi.yml
 - filename: nowsta-workers-api-openapi.yml
   format: yaml
   label: Nowsta Workers API
   slug: nowsta-workers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/openapi/nowsta-workers-api-openapi.yml
+  url: https://artifacts.apis.io/nowsta/openapi/nowsta-workers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -85,7 +85,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-01'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nnotes: >-\n  The web.archive.org / archive.org rows produced by the mechanical probe were removed - they are an\n  artefact of the API humanURL pointing at the archived Nowsta developer reference (Nowsta's own docs\n  host, developer.nowsta.com, no longer resolves) and say nothing about Nowsta's security posture.\n  api.nowsta.com returns no HSTS header on the root path (which 404s), but does send\n  `Strict-Transport-Security: max-age=31536000; includeSubDomains` on the real integration paths -\n  observed 2026-08-01 on POST /integrations/v1/events/publications.\nhosts:\n- host: www.nowsta.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 14:36:26 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.nowsta.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 12:54:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains:\
   \ true\n  hsts_observed_on: POST /integrations/v1/events/publications\n- host: app.nowsta.com\n  https: true\n  reachable: true\n- host: my.nowsta.com\n  https: true\n  reachable: true\n- host: status.nowsta.com\n  https: true\n  reachable: true\n  provider: Atlassian Statuspage\ndomains:\n- domain: nowsta.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\nfindings:\n- id: no-dnssec\n  severity: low\n  detail: nowsta.com is not DNSSEC signed.\n- id: no-caa\n  severity: low\n  detail: >-\n    No CAA records published for nowsta.com, so certificate issuance is not constrained to named CAs.\n- id: dmarc-policy-none\n  severity: medium\n  detail: >-\n    DMARC is published but the policy is p=none (monitor only), so spoofed mail claiming to be from\n    nowsta.com is reported but not rejected or quarantined.\n- id: no-security-txt\n  severity: medium\n  detail: >-\n    No /.well-known/security.txt on any Nowsta host. www.nowsta.com answers 200 for every\n  \
   \  /.well-known/* path with the WordPress homepage (soft 404), which is a false positive, not a\n    published document - see well-known/nowsta-well-known.yml.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/security/nowsta-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nowsta/security/nowsta-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Workforce Management

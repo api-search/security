@@ -5,37 +5,37 @@ api_specs:
   label: SimpleLegal Cost Codes API
   slug: simplelegal-cost-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/openapi/simplelegal-cost-codes-api-openapi.yml
+  url: https://artifacts.apis.io/simplelegal/openapi/simplelegal-cost-codes-api-openapi.yml
 - filename: simplelegal-invoices-api-openapi.yml
   format: yaml
   label: SimpleLegal Invoices API
   slug: simplelegal-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/openapi/simplelegal-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/simplelegal/openapi/simplelegal-invoices-api-openapi.yml
 - filename: simplelegal-matters-api-openapi.yml
   format: yaml
   label: SimpleLegal Matters API
   slug: simplelegal-matters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/openapi/simplelegal-matters-api-openapi.yml
+  url: https://artifacts.apis.io/simplelegal/openapi/simplelegal-matters-api-openapi.yml
 - filename: simplelegal-payments-api-openapi.yml
   format: yaml
   label: SimpleLegal Payments API
   slug: simplelegal-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/openapi/simplelegal-payments-api-openapi.yml
+  url: https://artifacts.apis.io/simplelegal/openapi/simplelegal-payments-api-openapi.yml
 - filename: simplelegal-users-api-openapi.yml
   format: yaml
   label: SimpleLegal Users API
   slug: simplelegal-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/openapi/simplelegal-users-api-openapi.yml
+  url: https://artifacts.apis.io/simplelegal/openapi/simplelegal-users-api-openapi.yml
 - filename: simplelegal-vendors-api-openapi.yml
   format: yaml
   label: SimpleLegal Vendors API
   slug: simplelegal-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/openapi/simplelegal-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/simplelegal/openapi/simplelegal-vendors-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,13 +77,12 @@ source_filename: simplelegal-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.simplelegal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 07:45:49 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.simplelegal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 07:45:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.simplelegal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 07:45:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: simplelegal.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/security/simplelegal-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/simplelegal/security/simplelegal-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - E-Billing
 - Enterprise Legal Management
 - Legal Operations
-- Legal Spend Management
 - Matter Management
 - Vendor Management
 ---

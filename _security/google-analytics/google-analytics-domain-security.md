@@ -5,73 +5,73 @@ api_specs:
   label: Google Analytics Accounts API
   slug: google-analytics-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-accounts-api-openapi.yml
 - filename: google-analytics-accountsummaries-api-openapi.yml
   format: yaml
   label: Google Analytics Account Summaries API
   slug: google-analytics-accountsummaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-accountsummaries-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-accountsummaries-api-openapi.yml
 - filename: google-analytics-data-api-openapi.yml
   format: yaml
   label: Google Analytics Data API
   slug: google-analytics-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-data-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-data-api-openapi.yml
 - filename: google-analytics-events-api-openapi.yml
   format: yaml
   label: Google Analytics Events API
   slug: google-analytics-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-events-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-events-api-openapi.yml
 - filename: google-analytics-management-api-openapi.yml
   format: yaml
   label: Google Analytics Management API
   slug: google-analytics-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-management-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-management-api-openapi.yml
 - filename: google-analytics-metadata-api-openapi.yml
   format: yaml
   label: Google Analytics Metadata API
   slug: google-analytics-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-metadata-api-openapi.yml
 - filename: google-analytics-properties-api-openapi.yml
   format: yaml
   label: Google Analytics Properties API
   slug: google-analytics-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-properties-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-properties-api-openapi.yml
 - filename: google-analytics-provisioning-api-openapi.yml
   format: yaml
   label: Google Analytics Provisioning API
   slug: google-analytics-provisioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-provisioning-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-provisioning-api-openapi.yml
 - filename: google-analytics-reports-api-openapi.yml
   format: yaml
   label: Google Analytics Reports API
   slug: google-analytics-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-reports-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-reports-api-openapi.yml
 - filename: google-analytics-userdeletion-api-openapi.yml
   format: yaml
   label: Google Analytics User Deletion API
   slug: google-analytics-userdeletion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-userdeletion-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-userdeletion-api-openapi.yml
 - filename: google-analytics-validation-api-openapi.yml
   format: yaml
   label: Google Analytics Validation API
   slug: google-analytics-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-validation-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-validation-api-openapi.yml
 - filename: google-analytics-user-activity-api-openapi.yml
   format: yaml
   label: Google Analytics User Activity API
   slug: google-analytics-user-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-user-activity-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-user-activity-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -119,7 +119,7 @@ source_filename: google-analytics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 18:05:55 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: analyticsdata.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 18:07:34 2026 GMT\n  hsts: null\n- host: analyticsadmin.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 18:07:34 2026 GMT\n  hsts: null\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/security/google-analytics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/google-analytics/security/google-analytics-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics

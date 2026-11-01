@@ -5,13 +5,13 @@ api_specs:
   label: Aztec Network Aztec Network API
   slug: aztec-network-aztec-network-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aztec-network/refs/heads/main/openapi/aztec-network-aztec-network-api-api-openapi.yml
+  url: https://artifacts.apis.io/aztec-network/openapi/aztec-network-aztec-network-api-api-openapi.yml
 - filename: aztec-network-status-api-openapi.yml
   format: yaml
   label: Aztec Network Status API
   slug: aztec-network-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aztec-network/refs/heads/main/openapi/aztec-network-status-api-openapi.yml
+  url: https://artifacts.apis.io/aztec-network/openapi/aztec-network-status-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,7 +41,7 @@ source_filename: aztec-network-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aztec.network\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 25 13:44:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: aztec.network\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aztec-network/refs/heads/main/security/aztec-network-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aztec-network/security/aztec-network-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

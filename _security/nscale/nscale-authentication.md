@@ -7,31 +7,31 @@ api_specs:
   label: Nscale Completions API
   slug: nscale-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nscale/refs/heads/main/openapi/nscale-completions-api-openapi.yml
+  url: https://artifacts.apis.io/nscale/openapi/nscale-completions-api-openapi.yml
 - filename: nscale-embeddings-api-openapi.yml
   format: yaml
   label: Nscale Embeddings API
   slug: nscale-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nscale/refs/heads/main/openapi/nscale-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/nscale/openapi/nscale-embeddings-api-openapi.yml
 - filename: nscale-images-api-openapi.yml
   format: yaml
   label: Nscale Images API
   slug: nscale-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nscale/refs/heads/main/openapi/nscale-images-api-openapi.yml
+  url: https://artifacts.apis.io/nscale/openapi/nscale-images-api-openapi.yml
 - filename: nscale-models-api-openapi.yml
   format: yaml
   label: Nscale Models API
   slug: nscale-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nscale/refs/heads/main/openapi/nscale-models-api-openapi.yml
+  url: https://artifacts.apis.io/nscale/openapi/nscale-models-api-openapi.yml
 - filename: nscale-chat-completions-api-openapi.yml
   format: yaml
   label: Nscale Chat Completions API
   slug: nscale-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nscale/refs/heads/main/openapi/nscale-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/nscale/openapi/nscale-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: nscale-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/nscale-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Nscale API key issued from the console, sent as `Authorization: Bearer $NSCALE_API_KEY`.'\n  sources:\n  - openapi/nscale-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nscale/refs/heads/main/authentication/nscale-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nscale/authentication/nscale-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

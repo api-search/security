@@ -5,13 +5,13 @@ api_specs:
   label: CallRail Accounts API
   slug: callrail-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callrail/refs/heads/main/openapi/callrail-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/callrail/openapi/callrail-accounts-api-openapi.yml
 - filename: callrail-calls-api-openapi.yml
   format: yaml
   label: CallRail Calls API
   slug: callrail-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callrail/refs/heads/main/openapi/callrail-calls-api-openapi.yml
+  url: https://artifacts.apis.io/callrail/openapi/callrail-calls-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: callrail-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.callrail.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 00:43:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apidocs.callrail.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 21:05:18 2026 GMT\n  hsts: false\n- host: api.callrail.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 31 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: callrail.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/callrail/refs/heads/main/security/callrail-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/callrail/security/callrail-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Call Tracking

@@ -27,7 +27,7 @@ source_filename: humansand-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: humansand.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 14:04:18 2026 GMT\n  hsts: false\ndomains:\n- domain: humansand.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/humansand/refs/heads/main/security/humansand-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/humansand/security/humansand-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
@@ -35,7 +35,7 @@ tags:
 - Machine Learning
 - Reinforcement Learning
 - Frontier AI
-- AI Research Lab
+- AI Lab
 - Multi-Agent Systems
 - AI Agents
 ---

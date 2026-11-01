@@ -5,67 +5,67 @@ api_specs:
   label: CubeFS Buckets API
   slug: cubefs-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/openapi/cubefs-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/cubefs/openapi/cubefs-buckets-api-openapi.yml
 - filename: cubefs-cluster-api-openapi.yml
   format: yaml
   label: CubeFS Cluster API
   slug: cubefs-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/openapi/cubefs-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/cubefs/openapi/cubefs-cluster-api-openapi.yml
 - filename: cubefs-datapartitions-api-openapi.yml
   format: yaml
   label: CubeFS DataPartitions API
   slug: cubefs-datapartitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/openapi/cubefs-datapartitions-api-openapi.yml
+  url: https://artifacts.apis.io/cubefs/openapi/cubefs-datapartitions-api-openapi.yml
 - filename: cubefs-metanodes-api-openapi.yml
   format: yaml
   label: CubeFS MetaNodes API
   slug: cubefs-metanodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/openapi/cubefs-metanodes-api-openapi.yml
+  url: https://artifacts.apis.io/cubefs/openapi/cubefs-metanodes-api-openapi.yml
 - filename: cubefs-metapartitions-api-openapi.yml
   format: yaml
   label: CubeFS MetaPartitions API
   slug: cubefs-metapartitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/openapi/cubefs-metapartitions-api-openapi.yml
+  url: https://artifacts.apis.io/cubefs/openapi/cubefs-metapartitions-api-openapi.yml
 - filename: cubefs-multipart-api-openapi.yml
   format: yaml
   label: CubeFS Multipart API
   slug: cubefs-multipart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/openapi/cubefs-multipart-api-openapi.yml
+  url: https://artifacts.apis.io/cubefs/openapi/cubefs-multipart-api-openapi.yml
 - filename: cubefs-objects-api-openapi.yml
   format: yaml
   label: CubeFS Objects API
   slug: cubefs-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/openapi/cubefs-objects-api-openapi.yml
+  url: https://artifacts.apis.io/cubefs/openapi/cubefs-objects-api-openapi.yml
 - filename: cubefs-users-api-openapi.yml
   format: yaml
   label: CubeFS Users API
   slug: cubefs-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/openapi/cubefs-users-api-openapi.yml
+  url: https://artifacts.apis.io/cubefs/openapi/cubefs-users-api-openapi.yml
 - filename: cubefs-volumes-api-openapi.yml
   format: yaml
   label: CubeFS Volumes API
   slug: cubefs-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/openapi/cubefs-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/cubefs/openapi/cubefs-volumes-api-openapi.yml
 - filename: cubefs-acls-api-openapi.yml
   format: yaml
   label: CubeFS AC Ls API
   slug: cubefs-acls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/openapi/cubefs-acls-api-openapi.yml
+  url: https://artifacts.apis.io/cubefs/openapi/cubefs-acls-api-openapi.yml
 - filename: cubefs-data-nodes-api-openapi.yml
   format: yaml
   label: CubeFS Data Nodes API
   slug: cubefs-data-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/openapi/cubefs-data-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/cubefs/openapi/cubefs-data-nodes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -93,7 +93,7 @@ source_filename: cubefs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cubefs.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 12 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: cubefs.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/security/cubefs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cubefs/security/cubefs-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Cloud-Native

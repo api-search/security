@@ -5,37 +5,37 @@ api_specs:
   label: Notch Bank Accounts API
   slug: notch-financial-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notch-financial/refs/heads/main/openapi/notch-financial-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/notch-financial/openapi/notch-financial-bank-accounts-api-openapi.yml
 - filename: notch-financial-customers-api-openapi.yml
   format: yaml
   label: Notch Customers API
   slug: notch-financial-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notch-financial/refs/heads/main/openapi/notch-financial-customers-api-openapi.yml
+  url: https://artifacts.apis.io/notch-financial/openapi/notch-financial-customers-api-openapi.yml
 - filename: notch-financial-invoices-api-openapi.yml
   format: yaml
   label: Notch Invoices API
   slug: notch-financial-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notch-financial/refs/heads/main/openapi/notch-financial-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/notch-financial/openapi/notch-financial-invoices-api-openapi.yml
 - filename: notch-financial-payment-methods-api-openapi.yml
   format: yaml
   label: Notch Payment Methods API
   slug: notch-financial-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notch-financial/refs/heads/main/openapi/notch-financial-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/notch-financial/openapi/notch-financial-payment-methods-api-openapi.yml
 - filename: notch-financial-payments-api-openapi.yml
   format: yaml
   label: Notch Payments API
   slug: notch-financial-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notch-financial/refs/heads/main/openapi/notch-financial-payments-api-openapi.yml
+  url: https://artifacts.apis.io/notch-financial/openapi/notch-financial-payments-api-openapi.yml
 - filename: notch-financial-webhooks-api-openapi.yml
   format: yaml
   label: Notch Webhooks API
   slug: notch-financial-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notch-financial/refs/heads/main/openapi/notch-financial-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/notch-financial/openapi/notch-financial-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -67,7 +67,7 @@ source_filename: notch-financial-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.notch.financial\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 02:22:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.notch.financial\n  https: false\ndomains:\n- domain: notch.financial\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/notch-financial/refs/heads/main/security/notch-financial-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/notch-financial/security/notch-financial-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Accounts Receivable

@@ -8,37 +8,37 @@ api_specs:
   label: RevenueBase Account API
   slug: revenuebase-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/openapi/revenuebase-account-api-openapi.yml
+  url: https://artifacts.apis.io/revenuebase/openapi/revenuebase-account-api-openapi.yml
 - filename: revenuebase-email-api-openapi.yml
   format: yaml
   label: RevenueBase Email API
   slug: revenuebase-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/openapi/revenuebase-email-api-openapi.yml
+  url: https://artifacts.apis.io/revenuebase/openapi/revenuebase-email-api-openapi.yml
 - filename: revenuebase-jobs-api-openapi.yml
   format: yaml
   label: RevenueBase Jobs API
   slug: revenuebase-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/openapi/revenuebase-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/revenuebase/openapi/revenuebase-jobs-api-openapi.yml
 - filename: revenuebase-organization-api-openapi.yml
   format: yaml
   label: RevenueBase Organization API
   slug: revenuebase-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/openapi/revenuebase-organization-api-openapi.yml
+  url: https://artifacts.apis.io/revenuebase/openapi/revenuebase-organization-api-openapi.yml
 - filename: revenuebase-health-api-openapi.yml
   format: yaml
   label: RevenueBase Health API
   slug: revenuebase-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/openapi/revenuebase-health-api-openapi.yml
+  url: https://artifacts.apis.io/revenuebase/openapi/revenuebase-health-api-openapi.yml
 - filename: revenuebase-contact-api-openapi.yml
   format: yaml
   label: RevenueBase Contact API
   slug: revenuebase-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/openapi/revenuebase-contact-api-openapi.yml
+  url: https://artifacts.apis.io/revenuebase/openapi/revenuebase-contact-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -68,7 +68,7 @@ source_filename: revenuebase-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/revenuebase-openapi.json\ndocs: https://docs.revenuebase.ai/api-reference/authentication\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  notes: >-\n    RevenueBase uses API key authentication exclusively. The key is passed in\n    the `x-key` request header (not `Authorization`, not `x-api-key`). Keys are\n    generated in the dashboard at https://app.revenuebase.ai under the Developers\n    section (Production API Key). No documented key prefix. Keys can be rotated\n    programmatically via POST /v2/account/api-keys/rotate, which immediately\n    invalidates the previous key.\nschemes:\n- name: APIKeyHeader\n  type: apiKey\n  in: header\n  parameter: x-key\n  dashboard: https://app.revenuebase.ai\n  rotation_operation: rotate_api_key_v2_account_api_keys_rotate_post\n  sources:\n  - openapi/revenuebase-openapi.json\n  - https://docs.revenuebase.ai/api-reference/authentication\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/authentication/revenuebase-authentication.yml
+source_yaml_url: https://artifacts.apis.io/revenuebase/authentication/revenuebase-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

@@ -5,31 +5,31 @@ api_specs:
   label: TrueLayer Mandates API
   slug: truelayer-mandates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/openapi/truelayer-mandates-api-openapi.yml
+  url: https://artifacts.apis.io/truelayer/openapi/truelayer-mandates-api-openapi.yml
 - filename: truelayer-merchant-accounts-api-openapi.yml
   format: yaml
   label: TrueLayer Merchant Accounts API
   slug: truelayer-merchant-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/openapi/truelayer-merchant-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/truelayer/openapi/truelayer-merchant-accounts-api-openapi.yml
 - filename: truelayer-payments-api-openapi.yml
   format: yaml
   label: TrueLayer Payments API
   slug: truelayer-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/openapi/truelayer-payments-api-openapi.yml
+  url: https://artifacts.apis.io/truelayer/openapi/truelayer-payments-api-openapi.yml
 - filename: truelayer-payouts-api-openapi.yml
   format: yaml
   label: TrueLayer Payouts API
   slug: truelayer-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/openapi/truelayer-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/truelayer/openapi/truelayer-payouts-api-openapi.yml
 - filename: truelayer-refunds-api-openapi.yml
   format: yaml
   label: TrueLayer Refunds API
   slug: truelayer-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/openapi/truelayer-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/truelayer/openapi/truelayer-refunds-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: truelayer-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: truelayer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 20:45:01 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.truelayer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 14:30:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.truelayer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 18:14:12 2026 GMT\n  hsts: null\ndomains:\n- domain: truelayer.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/security/truelayer-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/truelayer/security/truelayer-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Data API

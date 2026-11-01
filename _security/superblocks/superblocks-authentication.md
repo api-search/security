@@ -8,13 +8,13 @@ api_specs:
   label: Superblocks Applications API
   slug: superblocks-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superblocks/refs/heads/main/openapi/superblocks-applications-api-openapi.yml
+  url: https://artifacts.apis.io/superblocks/openapi/superblocks-applications-api-openapi.yml
 - filename: superblocks-workflows-api-openapi.yml
   format: yaml
   label: Superblocks Workflows API
   slug: superblocks-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superblocks/refs/heads/main/openapi/superblocks-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/superblocks/openapi/superblocks-workflows-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -48,7 +48,7 @@ source_filename: superblocks-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/superblocks-superblocks-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/superblocks-superblocks-api-openapi.yml\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  sources:\n  - openapi/superblocks-superblocks-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superblocks/refs/heads/main/authentication/superblocks-authentication.yml
+source_yaml_url: https://artifacts.apis.io/superblocks/authentication/superblocks-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Internal Tools

@@ -16,7 +16,7 @@ source_filename: evroc-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nprobe: true\nsource: https://evroc.com/security/\nurl: https://evroc.com/security/\ncertifications:\n- ISO 27001\n- GDPR\nevidence:\n- source: https://evroc.com/security/\n  keywords:\n  - iso 27001\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evroc/refs/heads/main/security/evroc-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/evroc/security/evroc-trust-center.yml
 summary_line: ISO 27001, GDPR
 tags:
 - Company

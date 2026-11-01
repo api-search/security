@@ -5,19 +5,19 @@ api_specs:
   label: Kairos AR Emotion Analysis API
   slug: kairos-ar-emotion-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/openapi/kairos-ar-emotion-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/kairos-ar/openapi/kairos-ar-emotion-analysis-api-openapi.yml
 - filename: kairos-ar-face-recognition-api-openapi.yml
   format: yaml
   label: Kairos AR Face Recognition API
   slug: kairos-ar-face-recognition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/openapi/kairos-ar-face-recognition-api-openapi.yml
+  url: https://artifacts.apis.io/kairos-ar/openapi/kairos-ar-face-recognition-api-openapi.yml
 - filename: kairos-ar-galleries-api-openapi.yml
   format: yaml
   label: Kairos AR Galleries API
   slug: kairos-ar-galleries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/openapi/kairos-ar-galleries-api-openapi.yml
+  url: https://artifacts.apis.io/kairos-ar/openapi/kairos-ar-galleries-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -56,7 +56,7 @@ source_filename: kairos-ar-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: kairos.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 00:27:03 2026 GMT\n  hsts: null\n- host: face.kairos.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 16:22:49 2026 GMT\n  hsts: null\n- host: api.kairos.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 11:59:08 2026 GMT\n  hsts: null\ndomains:\n- domain: kairos.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/security/kairos-ar-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kairos-ar/security/kairos-ar-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

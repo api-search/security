@@ -28,7 +28,7 @@ source_filename: advantage-solutions-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/advantage-solutions-mrktblog-content-openapi.yml, openapi/advantage-solutions-youradv-content-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: applicationPassword\n  type: http\n  scheme: basic\n  description: WordPress Application Passwords (HTTP Basic). The discovery document advertises\n    the authorization endpoint at https://mrktblog.com/wp-admin/authorize-application.php. Read\n    operations on published content are anonymous.\n  sources:\n  - openapi/advantage-solutions-mrktblog-content-openapi.yml\n  - openapi/advantage-solutions-youradv-content-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/authentication/advantage-solutions-authentication.yml
+source_yaml_url: https://artifacts.apis.io/advantage-solutions/authentication/advantage-solutions-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Sales

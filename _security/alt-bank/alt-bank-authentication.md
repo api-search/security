@@ -8,7 +8,7 @@ api_specs:
   label: Alt Bank Underwriting API
   slug: alt-bank-underwriting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alt-bank/refs/heads/main/openapi/alt-bank-underwriting-api-openapi.yml
+  url: https://artifacts.apis.io/alt-bank/openapi/alt-bank-underwriting-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -38,7 +38,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://developers.altbank.ai/docs/guard-api\ndocs: https://developers.altbank.ai/docs/guard-api\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  oauth2_flows: []\n  notes: >-\n    alt.bank authenticates partners with a static per-partner API token, not\n    OAuth. There is no documented OAuth2/OIDC scope surface, so no scopes/\n    artifact is emitted.\nschemes:\n- name: X-Partner-Auth\n  type: apiKey\n  in: header\n  parameter_name: X-Partner-Auth\n  description: >-\n    A 64-character alphanumeric token that uniquely identifies the partner and\n    is sent on the X-Partner-Auth request header for every GUARD API call.\n  format: 64-character alphanumeric string\n  sources: [https://developers.altbank.ai/docs/guard-api]\nnetwork_controls:\n- type: ip-allowlist\n  description: >-\n    Partners must register the list of source IP addresses from which API\n    requests originate; alt.bank locks API communication down\
   \ to those\n    predefined addresses in addition to token auth.\n  sources: [https://developers.altbank.ai/docs/guard-api]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alt-bank/refs/heads/main/authentication/alt-bank-authentication.yml
+source_yaml_url: https://artifacts.apis.io/alt-bank/authentication/alt-bank-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

@@ -5,7 +5,7 @@ api_specs:
   label: The Coin Analysis Public API
   slug: thecoinanalysis-public-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecoinanalysis/refs/heads/main/openapi/thecoinanalysis-public-api-api-openapi.yml
+  url: https://artifacts.apis.io/thecoinanalysis/openapi/thecoinanalysis-public-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -34,7 +34,7 @@ source_filename: thecoinanalysis-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.thecoinanalysis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 16 20:42:42 2026 GMT\n  hsts: false\ndomains:\n- domain: thecoinanalysis.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thecoinanalysis/refs/heads/main/security/thecoinanalysis-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/thecoinanalysis/security/thecoinanalysis-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -5,73 +5,73 @@ api_specs:
   label: freee Account Items API
   slug: freee-account-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-account-items-api-openapi.yml
+  url: https://artifacts.apis.io/freee/openapi/freee-account-items-api-openapi.yml
 - filename: freee-attendance-api-openapi.yml
   format: yaml
   label: freee Attendance API
   slug: freee-attendance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-attendance-api-openapi.yml
+  url: https://artifacts.apis.io/freee/openapi/freee-attendance-api-openapi.yml
 - filename: freee-companies-api-openapi.yml
   format: yaml
   label: freee Companies API
   slug: freee-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-companies-api-openapi.yml
+  url: https://artifacts.apis.io/freee/openapi/freee-companies-api-openapi.yml
 - filename: freee-deals-api-openapi.yml
   format: yaml
   label: freee Deals API
   slug: freee-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-deals-api-openapi.yml
+  url: https://artifacts.apis.io/freee/openapi/freee-deals-api-openapi.yml
 - filename: freee-employees-api-openapi.yml
   format: yaml
   label: freee Employees API
   slug: freee-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-employees-api-openapi.yml
+  url: https://artifacts.apis.io/freee/openapi/freee-employees-api-openapi.yml
 - filename: freee-hr-users-api-openapi.yml
   format: yaml
   label: freee HR Users API
   slug: freee-hr-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-hr-users-api-openapi.yml
+  url: https://artifacts.apis.io/freee/openapi/freee-hr-users-api-openapi.yml
 - filename: freee-invoices-api-openapi.yml
   format: yaml
   label: freee Invoices API
   slug: freee-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/freee/openapi/freee-invoices-api-openapi.yml
 - filename: freee-journals-api-openapi.yml
   format: yaml
   label: freee Journals API
   slug: freee-journals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-journals-api-openapi.yml
+  url: https://artifacts.apis.io/freee/openapi/freee-journals-api-openapi.yml
 - filename: freee-partners-api-openapi.yml
   format: yaml
   label: freee Partners API
   slug: freee-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-partners-api-openapi.yml
+  url: https://artifacts.apis.io/freee/openapi/freee-partners-api-openapi.yml
 - filename: freee-payroll-api-openapi.yml
   format: yaml
   label: freee Payroll API
   slug: freee-payroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-payroll-api-openapi.yml
+  url: https://artifacts.apis.io/freee/openapi/freee-payroll-api-openapi.yml
 - filename: freee-taxes-api-openapi.yml
   format: yaml
   label: freee Taxes API
   slug: freee-taxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-taxes-api-openapi.yml
+  url: https://artifacts.apis.io/freee/openapi/freee-taxes-api-openapi.yml
 - filename: freee-wallet-transactions-api-openapi.yml
   format: yaml
   label: freee Wallet Transactions API
   slug: freee-wallet-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/openapi/freee-wallet-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/freee/openapi/freee-wallet-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -122,7 +122,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.freee.co.jp\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: GlobalSign nv-sa (GlobalSign GCC R6 AlphaSSL CA 2025)\n  cert_expires: Mar 20 05:19:20 2027 GMT\n  hsts: true\n  hsts_max_age: 15768000\n- host: api.freee.co.jp\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: Amazon (Amazon RSA 2048 M04)\n  cert_expires: Nov  5 23:59:59 2026 GMT\n  hsts: false\n- host: accounts.secure.freee.co.jp\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: Amazon (Amazon RSA 2048 M04)\n  cert_expires: Feb  7 23:59:59 2027 GMT\n  hsts: false\n- host: developer.freee.co.jp\n  https: true\n  hsts: false\n  note: Developer documentation portal; HTTPS reachable, HSTS header not observed.\ndomains:\n- domain: freee.co.jp\n  dnssec: false\n  caa: []\n  spf: true\n  spf_policy: \"~all (softfail); includes _spf.google.com, amazonses.com, mktomail.com, salesforce/pardot,\
   \ hubspot\"\n  dmarc: true\n  dmarc_policy: quarantine\n  dmarc_pct: 100\n  dmarc_rua: mailto:psirt@freee.co.jp\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/security/freee-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/freee/security/freee-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Accounting

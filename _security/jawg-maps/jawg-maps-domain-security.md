@@ -5,43 +5,43 @@ api_specs:
   label: Jawg Maps Isochrone API
   slug: jawg-maps-isochrone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/openapi/jawg-maps-isochrone-api-openapi.yml
+  url: https://artifacts.apis.io/jawg-maps/openapi/jawg-maps-isochrone-api-openapi.yml
 - filename: jawg-maps-matrix-api-openapi.yml
   format: yaml
   label: Jawg Maps Matrix API
   slug: jawg-maps-matrix-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/openapi/jawg-maps-matrix-api-openapi.yml
+  url: https://artifacts.apis.io/jawg-maps/openapi/jawg-maps-matrix-api-openapi.yml
 - filename: jawg-maps-places-api-openapi.yml
   format: yaml
   label: Jawg Maps Places API
   slug: jawg-maps-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/openapi/jawg-maps-places-api-openapi.yml
+  url: https://artifacts.apis.io/jawg-maps/openapi/jawg-maps-places-api-openapi.yml
 - filename: jawg-maps-routing-api-openapi.yml
   format: yaml
   label: Jawg Maps Routing API
   slug: jawg-maps-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/openapi/jawg-maps-routing-api-openapi.yml
+  url: https://artifacts.apis.io/jawg-maps/openapi/jawg-maps-routing-api-openapi.yml
 - filename: jawg-maps-static-maps-api-openapi.yml
   format: yaml
   label: Jawg Maps Static Maps API
   slug: jawg-maps-static-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/openapi/jawg-maps-static-maps-api-openapi.yml
+  url: https://artifacts.apis.io/jawg-maps/openapi/jawg-maps-static-maps-api-openapi.yml
 - filename: jawg-maps-styles-api-openapi.yml
   format: yaml
   label: Jawg Maps Styles API
   slug: jawg-maps-styles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/openapi/jawg-maps-styles-api-openapi.yml
+  url: https://artifacts.apis.io/jawg-maps/openapi/jawg-maps-styles-api-openapi.yml
 - filename: jawg-maps-tiles-api-openapi.yml
   format: yaml
   label: Jawg Maps Tiles API
   slug: jawg-maps-tiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/openapi/jawg-maps-tiles-api-openapi.yml
+  url: https://artifacts.apis.io/jawg-maps/openapi/jawg-maps-tiles-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -84,7 +84,7 @@ source_filename: jawg-maps-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.jawg.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 20:25:27 2026 GMT\n  hsts: false\n- host: tile.jawg.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 11:06:09 2026 GMT\n  hsts: null\n- host: api.jawg.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 11:06:09 2026 GMT\n  hsts: null\ndomains:\n- domain: jawg.io\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org;validationmethods=dns-01\"\n  - 0 iodef \"mailto:tls-abuse@jawg.io\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/security/jawg-maps-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/jawg-maps/security/jawg-maps-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Maps

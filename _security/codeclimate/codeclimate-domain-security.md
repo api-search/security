@@ -5,37 +5,37 @@ api_specs:
   label: Code Climate Issues API
   slug: codeclimate-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeclimate/refs/heads/main/openapi/codeclimate-issues-api-openapi.yml
+  url: https://artifacts.apis.io/codeclimate/openapi/codeclimate-issues-api-openapi.yml
 - filename: codeclimate-organizations-api-openapi.yml
   format: yaml
   label: Code Climate Organizations API
   slug: codeclimate-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeclimate/refs/heads/main/openapi/codeclimate-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/codeclimate/openapi/codeclimate-organizations-api-openapi.yml
 - filename: codeclimate-repositories-api-openapi.yml
   format: yaml
   label: Code Climate Repositories API
   slug: codeclimate-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeclimate/refs/heads/main/openapi/codeclimate-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/codeclimate/openapi/codeclimate-repositories-api-openapi.yml
 - filename: codeclimate-services-api-openapi.yml
   format: yaml
   label: Code Climate Services API
   slug: codeclimate-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeclimate/refs/heads/main/openapi/codeclimate-services-api-openapi.yml
+  url: https://artifacts.apis.io/codeclimate/openapi/codeclimate-services-api-openapi.yml
 - filename: codeclimate-snapshots-api-openapi.yml
   format: yaml
   label: Code Climate Snapshots API
   slug: codeclimate-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeclimate/refs/heads/main/openapi/codeclimate-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/codeclimate/openapi/codeclimate-snapshots-api-openapi.yml
 - filename: codeclimate-test-coverage-api-openapi.yml
   format: yaml
   label: Code Climate Test Coverage API
   slug: codeclimate-test-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeclimate/refs/heads/main/openapi/codeclimate-test-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/codeclimate/openapi/codeclimate-test-coverage-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -80,7 +80,7 @@ source_filename: codeclimate-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: codeclimate.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 20 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.codeclimate.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 13 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.codeclimate.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 13 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: codeclimate.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codeclimate/refs/heads/main/security/codeclimate-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/codeclimate/security/codeclimate-domain-security.yml
 summary_line: TLSv1.2 · HSTS
 tags:
 - Code Quality

@@ -31,7 +31,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://api.rewardstyle.com/\ndocs: https://api.rewardstyle.com/\nsummary:\n  types: [oauth2]\n  oauth2_flows: [clientCredentials]\n  registration: gated\nschemes:\n  - name: OAuth2\n    type: oauth2\n    flows:\n      - flow: clientCredentials\n        tokenUrl: https://api.rewardstyle.com/oauth/token\n        note: >-\n          Live token endpoint returns RFC 6749 errors (POST with no\n          credentials -> HTTP 400 {\"error\":\"invalid_client\"}), confirming an\n          OAuth2 client-authenticated token endpoint. Client credentials are\n          issued through the gated rewardStyle Developer Portal\n          (registration at https://api.rewardstyle.com/register).\n    sources: [https://api.rewardstyle.com/oauth/token]\nnotes: >-\n  The rewardStyle Developer Portal (api.rewardstyle.com) is registration-gated;\n  the full API reference, OpenAPI/Swagger spec, and scope list are only visible\n  to approved partners after\
   \ login, so scopes could not be enumerated publicly.\n  The public, verifiable surface is the OAuth2 token endpoint behavior above.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ltk/refs/heads/main/authentication/ltk-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ltk/authentication/ltk-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

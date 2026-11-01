@@ -8,61 +8,61 @@ api_specs:
   label: Understudy Labs Capabilities API
   slug: understudy-labs-capabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/openapi/understudy-labs-capabilities-api-openapi.yml
+  url: https://artifacts.apis.io/understudy-labs/openapi/understudy-labs-capabilities-api-openapi.yml
 - filename: understudy-labs-conversations-api-openapi.yml
   format: yaml
   label: Understudy Labs Conversations API
   slug: understudy-labs-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/openapi/understudy-labs-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/understudy-labs/openapi/understudy-labs-conversations-api-openapi.yml
 - filename: understudy-labs-downloads-api-openapi.yml
   format: yaml
   label: Understudy Labs Downloads API
   slug: understudy-labs-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/openapi/understudy-labs-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/understudy-labs/openapi/understudy-labs-downloads-api-openapi.yml
 - filename: understudy-labs-feedback-api-openapi.yml
   format: yaml
   label: Understudy Labs Feedback API
   slug: understudy-labs-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/openapi/understudy-labs-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/understudy-labs/openapi/understudy-labs-feedback-api-openapi.yml
 - filename: understudy-labs-metrics-api-openapi.yml
   format: yaml
   label: Understudy Labs Metrics API
   slug: understudy-labs-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/openapi/understudy-labs-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/understudy-labs/openapi/understudy-labs-metrics-api-openapi.yml
 - filename: understudy-labs-models-api-openapi.yml
   format: yaml
   label: Understudy Labs Models API
   slug: understudy-labs-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/openapi/understudy-labs-models-api-openapi.yml
+  url: https://artifacts.apis.io/understudy-labs/openapi/understudy-labs-models-api-openapi.yml
 - filename: understudy-labs-residency-api-openapi.yml
   format: yaml
   label: Understudy Labs Residency API
   slug: understudy-labs-residency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/openapi/understudy-labs-residency-api-openapi.yml
+  url: https://artifacts.apis.io/understudy-labs/openapi/understudy-labs-residency-api-openapi.yml
 - filename: understudy-labs-runs-api-openapi.yml
   format: yaml
   label: Understudy Labs Runs API
   slug: understudy-labs-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/openapi/understudy-labs-runs-api-openapi.yml
+  url: https://artifacts.apis.io/understudy-labs/openapi/understudy-labs-runs-api-openapi.yml
 - filename: understudy-labs-status-api-openapi.yml
   format: yaml
   label: Understudy Labs Status API
   slug: understudy-labs-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/openapi/understudy-labs-status-api-openapi.yml
+  url: https://artifacts.apis.io/understudy-labs/openapi/understudy-labs-status-api-openapi.yml
 - filename: understudy-labs-supervision-api-openapi.yml
   format: yaml
   label: Understudy Labs Supervision API
   slug: understudy-labs-supervision-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/openapi/understudy-labs-supervision-api-openapi.yml
+  url: https://artifacts.apis.io/understudy-labs/openapi/understudy-labs-supervision-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -119,7 +119,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://docs.understudylabs.com/authentication\ndocs: https://docs.understudylabs.com/authentication\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\n  notes: One credential - the Understudy sk_* key - authenticates the gateway proxy,\n    the control-plane API, and the agent CLI. Header placement depends on the API\n    shape being spoken. Keys are minted/revoked on the dashboard; plaintext is\n    shown exactly once at creation. Keys are org-scoped; captures are attributed\n    to the key id. No OAuth scopes surface is published.\nschemes:\n- name: understudyKeyAnthropicStyle\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: Understudy sk_live_* key sent Anthropic-style on POST /v1/messages.\n  sources:\n  - https://docs.understudylabs.com/authentication\n- name: understudyKeyBearer\n  type: http\n  scheme: bearer\n  description: Understudy sk_live_* key as Authorization Bearer - OpenAI-style;\
   \ works\n    on /v1/chat/completions, /v1/models, and every /admin/v1 + /customer/v1\n    control-plane route.\n  sources:\n  - https://docs.understudylabs.com/authentication\n  - https://docs.understudylabs.com/reference/control-plane\n- name: upstreamProviderKey\n  type: apiKey\n  in: header\n  parameter: x-understudy-upstream-key\n  description: Bring-your-own Anthropic or OpenAI provider key, forwarded upstream\n    for that single request and never stored. Never the credential Understudy\n    validates; rejected on routed workloads.\n  sources:\n  - https://docs.understudylabs.com/reference/request-headers\n- name: desktopBearer\n  type: http\n  scheme: bearer\n  description: Ephemeral loopback token for the Understudy Desktop Agent API, read\n    from the owner-only desktop capability file (~/.understudy/desktop-api.json,\n    mode 0600). Agents should use the Understudy CLI or MCP adapter instead of\n    handling this token directly.\n  sources:\n  - openapi/understudy-labs-desktop-api-openapi.json\n\
   - name: agentAuthWorkOS\n  type: http\n  scheme: bearer\n  description: Agent-native registration flow advertised in the RFC 9728-style\n    protected-resource metadata at /.well-known/oauth-authorization-server -\n    register at /agent/auth, claim at /agent/auth/claim, revoke at\n    /agent/auth/revoke; identity via verified_email assertion, credential type\n    api_key (WorkOS agent-auth skill).\n  sources:\n  - well-known/understudy-labs-oauth-authorization-server.json\nfailure_modes:\n- status: 401\n  type: authentication_error\n  when: sk_* key missing, malformed, revoked, or unknown\n- status: 403\n  type: authorization_error\n  when: valid key used against another organization's resources\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/authentication/understudy-labs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/understudy-labs/authentication/understudy-labs-authentication.yml
 summary_line: apiKey/http · 5 schemes
 tags:
 - Artificial Intelligence

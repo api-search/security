@@ -5,37 +5,37 @@ api_specs:
   label: Amazon Elastic Transcoder Jobs API
   slug: amazon-elastic-transcoder-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/openapi/amazon-elastic-transcoder-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-elastic-transcoder/openapi/amazon-elastic-transcoder-jobs-api-openapi.yml
 - filename: amazon-elastic-transcoder-jobsbypipeline-api-openapi.yml
   format: yaml
   label: Amazon Elastic Transcoder JobsByPipeline API
   slug: amazon-elastic-transcoder-jobsbypipeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/openapi/amazon-elastic-transcoder-jobsbypipeline-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-elastic-transcoder/openapi/amazon-elastic-transcoder-jobsbypipeline-api-openapi.yml
 - filename: amazon-elastic-transcoder-jobsbystatus-api-openapi.yml
   format: yaml
   label: Amazon Elastic Transcoder JobsByStatus API
   slug: amazon-elastic-transcoder-jobsbystatus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/openapi/amazon-elastic-transcoder-jobsbystatus-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-elastic-transcoder/openapi/amazon-elastic-transcoder-jobsbystatus-api-openapi.yml
 - filename: amazon-elastic-transcoder-pipelines-api-openapi.yml
   format: yaml
   label: Amazon Elastic Transcoder Pipelines API
   slug: amazon-elastic-transcoder-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/openapi/amazon-elastic-transcoder-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-elastic-transcoder/openapi/amazon-elastic-transcoder-pipelines-api-openapi.yml
 - filename: amazon-elastic-transcoder-presets-api-openapi.yml
   format: yaml
   label: Amazon Elastic Transcoder Presets API
   slug: amazon-elastic-transcoder-presets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/openapi/amazon-elastic-transcoder-presets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-elastic-transcoder/openapi/amazon-elastic-transcoder-presets-api-openapi.yml
 - filename: amazon-elastic-transcoder-roletests-api-openapi.yml
   format: yaml
   label: Amazon Elastic Transcoder RoleTests API
   slug: amazon-elastic-transcoder-roletests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/openapi/amazon-elastic-transcoder-roletests-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-elastic-transcoder/openapi/amazon-elastic-transcoder-roletests-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -56,7 +56,7 @@ source_filename: amazon-elastic-transcoder-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://aws.amazon.com/compliance/\nurl: https://aws.amazon.com/compliance/\ncertifications:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://aws.amazon.com/compliance/\n  keywords:\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/security/amazon-elastic-transcoder-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/amazon-elastic-transcoder/security/amazon-elastic-transcoder-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Amazon Web Services

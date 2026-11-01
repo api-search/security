@@ -7,19 +7,19 @@ api_specs:
   label: Snowplow Authentication API
   slug: snowplow-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/openapi/snowplow-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/snowplow/openapi/snowplow-authentication-api-openapi.yml
 - filename: snowplow-data-products-api-openapi.yml
   format: yaml
   label: Snowplow Data Products API
   slug: snowplow-data-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/openapi/snowplow-data-products-api-openapi.yml
+  url: https://artifacts.apis.io/snowplow/openapi/snowplow-data-products-api-openapi.yml
 - filename: snowplow-data-structures-api-openapi.yml
   format: yaml
   label: Snowplow Data Structures API
   slug: snowplow-data-structures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/openapi/snowplow-data-structures-api-openapi.yml
+  url: https://artifacts.apis.io/snowplow/openapi/snowplow-data-structures-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -47,7 +47,7 @@ source_filename: snowplow-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/snowplow-console-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: JWT token obtained from the Credentials API (/credentials/v3/token)\n  sources:\n  - openapi/snowplow-console-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/authentication/snowplow-authentication.yml
+source_yaml_url: https://artifacts.apis.io/snowplow/authentication/snowplow-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Analytics Platform

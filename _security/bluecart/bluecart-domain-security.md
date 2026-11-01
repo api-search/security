@@ -5,31 +5,31 @@ api_specs:
   label: BlueCart Catalogs API
   slug: bluecart-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecart/refs/heads/main/openapi/bluecart-catalogs-api-openapi.yml
+  url: https://artifacts.apis.io/bluecart/openapi/bluecart-catalogs-api-openapi.yml
 - filename: bluecart-clients-api-openapi.yml
   format: yaml
   label: BlueCart Clients API
   slug: bluecart-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecart/refs/heads/main/openapi/bluecart-clients-api-openapi.yml
+  url: https://artifacts.apis.io/bluecart/openapi/bluecart-clients-api-openapi.yml
 - filename: bluecart-orders-api-openapi.yml
   format: yaml
   label: BlueCart Orders API
   slug: bluecart-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecart/refs/heads/main/openapi/bluecart-orders-api-openapi.yml
+  url: https://artifacts.apis.io/bluecart/openapi/bluecart-orders-api-openapi.yml
 - filename: bluecart-products-api-openapi.yml
   format: yaml
   label: BlueCart Products API
   slug: bluecart-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecart/refs/heads/main/openapi/bluecart-products-api-openapi.yml
+  url: https://artifacts.apis.io/bluecart/openapi/bluecart-products-api-openapi.yml
 - filename: bluecart-users-api-openapi.yml
   format: yaml
   label: BlueCart Users API
   slug: bluecart-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecart/refs/heads/main/openapi/bluecart-users-api-openapi.yml
+  url: https://artifacts.apis.io/bluecart/openapi/bluecart-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: bluecart-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bluecart.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 03:37:21 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.bluecart.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 16:13:20 2026 GMT\n  hsts: false\ndomains:\n- domain: bluecart.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bluecart/refs/heads/main/security/bluecart-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bluecart/security/bluecart-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Restaurant

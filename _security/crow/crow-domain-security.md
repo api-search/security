@@ -44,7 +44,7 @@ source_filename: crow-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.usecrow.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 21:25:02 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.usecrow.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 10:30:14 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.usecrow.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 22:07:27 2026 GMT\n  hsts: null\ndomains:\n- domain: usecrow.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: usecrow.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crow/refs/heads/main/security/crow-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/crow/security/crow-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

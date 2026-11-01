@@ -5,31 +5,31 @@ api_specs:
   label: Arpeggi Labs Stem Splitter API
   slug: arpeggi-labs-stem-splitter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/openapi/arpeggi-labs-stem-splitter-api-openapi.yml
+  url: https://artifacts.apis.io/arpeggi-labs/openapi/arpeggi-labs-stem-splitter-api-openapi.yml
 - filename: arpeggi-labs-vocal-separation-api-openapi.yml
   format: yaml
   label: Arpeggi Labs Vocal Separation API
   slug: arpeggi-labs-vocal-separation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/openapi/arpeggi-labs-vocal-separation-api-openapi.yml
+  url: https://artifacts.apis.io/arpeggi-labs/openapi/arpeggi-labs-vocal-separation-api-openapi.yml
 - filename: arpeggi-labs-voice-blender-api-openapi.yml
   format: yaml
   label: Arpeggi Labs Voice Blender API
   slug: arpeggi-labs-voice-blender-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/openapi/arpeggi-labs-voice-blender-api-openapi.yml
+  url: https://artifacts.apis.io/arpeggi-labs/openapi/arpeggi-labs-voice-blender-api-openapi.yml
 - filename: arpeggi-labs-voice-conversion-api-openapi.yml
   format: yaml
   label: Arpeggi Labs Voice Conversion API
   slug: arpeggi-labs-voice-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/openapi/arpeggi-labs-voice-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/arpeggi-labs/openapi/arpeggi-labs-voice-conversion-api-openapi.yml
 - filename: arpeggi-labs-voice-models-api-openapi.yml
   format: yaml
   label: Arpeggi Labs Voice Models API
   slug: arpeggi-labs-voice-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/openapi/arpeggi-labs-voice-models-api-openapi.yml
+  url: https://artifacts.apis.io/arpeggi-labs/openapi/arpeggi-labs-voice-models-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: arpeggi-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: kits.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 15:02:06 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.kits.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 14:56:20 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: arpeggi.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 18 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: kits.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: arpeggi.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/security/arpeggi-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/arpeggi-labs/security/arpeggi-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

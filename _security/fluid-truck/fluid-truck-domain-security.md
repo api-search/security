@@ -24,7 +24,7 @@ source_filename: fluid-truck-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-16'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: fluidtruck.com\n  https: false\ndomains:\n- domain: fluidtruck.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fluid-truck/refs/heads/main/security/fluid-truck-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fluid-truck/security/fluid-truck-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

@@ -7,13 +7,13 @@ api_specs:
   label: AI Router AI Router API
   slug: airouter-ai-router-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airouter/refs/heads/main/openapi/airouter-ai-router-api-api-openapi.yml
+  url: https://artifacts.apis.io/airouter/openapi/airouter-ai-router-api-api-openapi.yml
 - filename: airouter-chat-completions-api-openapi.yml
   format: yaml
   label: AI Router Chat Completions API
   slug: airouter-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airouter/refs/heads/main/openapi/airouter-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/airouter/openapi/airouter-chat-completions-api-openapi.yml
 auth_types: []
 description: API key authentication using a bearer token
 kind: authentication
@@ -39,7 +39,7 @@ source_filename: airouter-authentication.yml
 source_heading: Authentication Profile
 source_url: https://airouter.io/docs/quickstart/getting-started
 source_yaml: "generated: '2026-10-15'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://airouter.io/docs/quickstart/getting-started\nsources:\n- https://airouter.io/docs/quickstart/getting-started\n- https://airouter.io/docs/quickstart/provider-keys\n- https://airouter.io/docs/quickstart/using-python-sdk\ndescription: API key authentication using a bearer token\nschemes:\n- type: http-bearer\n  name: API Key\n  evidence: 'Use the key as a bearer token ( Authorization: Bearer <API-KEY> ) for every request.'\n  location: header\n  header: Authorization\n  how_to_obtain: Create a key in the dashboard under Settings → API Keys.\ndocs: https://airouter.io/docs/quickstart/getting-started\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airouter/refs/heads/main/authentication/airouter-authentication.yml
+source_yaml_url: https://artifacts.apis.io/airouter/authentication/airouter-authentication.yml
 summary_line: 1 scheme
 tags:
 - LLM Cost Optimization

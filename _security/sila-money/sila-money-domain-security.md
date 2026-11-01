@@ -5,31 +5,31 @@ api_specs:
   label: Sila Accounts API
   slug: sila-money-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sila-money/refs/heads/main/openapi/sila-money-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/sila-money/openapi/sila-money-accounts-api-openapi.yml
 - filename: sila-money-identity-api-openapi.yml
   format: yaml
   label: Sila Identity API
   slug: sila-money-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sila-money/refs/heads/main/openapi/sila-money-identity-api-openapi.yml
+  url: https://artifacts.apis.io/sila-money/openapi/sila-money-identity-api-openapi.yml
 - filename: sila-money-payment-methods-api-openapi.yml
   format: yaml
   label: Sila Payment Methods API
   slug: sila-money-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sila-money/refs/heads/main/openapi/sila-money-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/sila-money/openapi/sila-money-payment-methods-api-openapi.yml
 - filename: sila-money-payments-api-openapi.yml
   format: yaml
   label: Sila Payments API
   slug: sila-money-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sila-money/refs/heads/main/openapi/sila-money-payments-api-openapi.yml
+  url: https://artifacts.apis.io/sila-money/openapi/sila-money-payments-api-openapi.yml
 - filename: sila-money-wallets-api-openapi.yml
   format: yaml
   label: Sila Wallets API
   slug: sila-money-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sila-money/refs/heads/main/openapi/sila-money-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/sila-money/openapi/sila-money-wallets-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -80,7 +80,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nstatus: live\nstatusNote: >-\n  As of 2026-07-12 Sila is operating. DNS resolves for www.silamoney.com,\n  api.silamoney.com (AWS ELB, us-west-2), sandbox.silamoney.com (AWS ELB,\n  us-west-2), and docs.silamoney.com (ReadMe-hosted, Cloudflare). The production\n  API responds - POST https://api.silamoney.com/0.2/check_handle returns HTTP 400\n  with a JSON validation error requiring the signature header - confirming the\n  documented /0.2 surface is live. No acquisition or shutdown was found.\nhosts:\n- host: api.silamoney.com\n  https: true\n  http_version: HTTP/2\n  http_status: 400\n  tls_note: Sectigo DV cert, valid May 27 2026 - Dec 11 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  hsts_include_subdomains: true\n  server: nginx/1.24.0 (Ubuntu)\n  x_content_type_options: nosniff\n  cors_allow_origin: '*'\n  origin: sila-prod-lb (AWS ELB, us-west-2)\n- host: sandbox.silamoney.com\n\
   \  https: true\n  reachable: true\n  origin: sila-sandbox-lb (AWS ELB, us-west-2)\n- host: www.silamoney.com\n  https: true\n  http_status: 200\n- host: docs.silamoney.com\n  https: true\n  http_status: 200\n  note: ReadMe-hosted docs (ssl.readmessl.com / Cloudflare), redirects to /docs/get-started.\ndomains:\n- domain: silamoney.com\n  dnssec: false\n  caa: []\n  spf: true\n  spf_policy: '-all'\n  spf_record: v=spf1 include:spf.mandrillapp.com include:_spf.google.com include:emsd1.com include:spf.autopilothq.com include:sendgrid.net -all\n  dmarc: true\n  dmarc_policy: reject\n  dmarc_pct: 100\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sila-money/refs/heads/main/security/sila-money-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sila-money/security/sila-money-domain-security.yml
 summary_line: HSTS · DMARC
 tags:
 - Embedded Finance

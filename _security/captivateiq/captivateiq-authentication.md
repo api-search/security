@@ -8,97 +8,97 @@ api_specs:
   label: CaptivateIQ Attribute Worksheets API
   slug: captivateiq-attribute-worksheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-attribute-worksheets-api-openapi.yml
+  url: https://artifacts.apis.io/captivateiq/openapi/captivateiq-attribute-worksheets-api-openapi.yml
 - filename: captivateiq-audit-logs-api-openapi.yml
   format: yaml
   label: CaptivateIQ Audit Logs API
   slug: captivateiq-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/captivateiq/openapi/captivateiq-audit-logs-api-openapi.yml
 - filename: captivateiq-commission-plans-api-openapi.yml
   format: yaml
   label: CaptivateIQ Commission Plans API
   slug: captivateiq-commission-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-commission-plans-api-openapi.yml
+  url: https://artifacts.apis.io/captivateiq/openapi/captivateiq-commission-plans-api-openapi.yml
 - filename: captivateiq-dashboards-api-openapi.yml
   format: yaml
   label: CaptivateIQ Dashboards API
   slug: captivateiq-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/captivateiq/openapi/captivateiq-dashboards-api-openapi.yml
 - filename: captivateiq-data-workbooks-api-openapi.yml
   format: yaml
   label: CaptivateIQ Data Workbooks API
   slug: captivateiq-data-workbooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-data-workbooks-api-openapi.yml
+  url: https://artifacts.apis.io/captivateiq/openapi/captivateiq-data-workbooks-api-openapi.yml
 - filename: captivateiq-data-worksheets-api-openapi.yml
   format: yaml
   label: CaptivateIQ Data Worksheets API
   slug: captivateiq-data-worksheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-data-worksheets-api-openapi.yml
+  url: https://artifacts.apis.io/captivateiq/openapi/captivateiq-data-worksheets-api-openapi.yml
 - filename: captivateiq-employee-assumptions-api-openapi.yml
   format: yaml
   label: CaptivateIQ Employee Assumptions API
   slug: captivateiq-employee-assumptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-employee-assumptions-api-openapi.yml
+  url: https://artifacts.apis.io/captivateiq/openapi/captivateiq-employee-assumptions-api-openapi.yml
 - filename: captivateiq-employees-api-openapi.yml
   format: yaml
   label: CaptivateIQ Employees API
   slug: captivateiq-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-employees-api-openapi.yml
+  url: https://artifacts.apis.io/captivateiq/openapi/captivateiq-employees-api-openapi.yml
 - filename: captivateiq-hierarchies-api-openapi.yml
   format: yaml
   label: CaptivateIQ Hierarchies API
   slug: captivateiq-hierarchies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-hierarchies-api-openapi.yml
+  url: https://artifacts.apis.io/captivateiq/openapi/captivateiq-hierarchies-api-openapi.yml
 - filename: captivateiq-jobs-api-openapi.yml
   format: yaml
   label: CaptivateIQ Jobs API
   slug: captivateiq-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/captivateiq/openapi/captivateiq-jobs-api-openapi.yml
 - filename: captivateiq-metadata-api-openapi.yml
   format: yaml
   label: CaptivateIQ Metadata API
   slug: captivateiq-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/captivateiq/openapi/captivateiq-metadata-api-openapi.yml
 - filename: captivateiq-payouts-api-openapi.yml
   format: yaml
   label: CaptivateIQ Payouts API
   slug: captivateiq-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/captivateiq/openapi/captivateiq-payouts-api-openapi.yml
 - filename: captivateiq-report-models-api-openapi.yml
   format: yaml
   label: CaptivateIQ Report Models API
   slug: captivateiq-report-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-report-models-api-openapi.yml
+  url: https://artifacts.apis.io/captivateiq/openapi/captivateiq-report-models-api-openapi.yml
 - filename: captivateiq-transformation-worksheets-api-openapi.yml
   format: yaml
   label: CaptivateIQ Transformation Worksheets API
   slug: captivateiq-transformation-worksheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-transformation-worksheets-api-openapi.yml
+  url: https://artifacts.apis.io/captivateiq/openapi/captivateiq-transformation-worksheets-api-openapi.yml
 - filename: captivateiq-uploads-api-openapi.yml
   format: yaml
   label: CaptivateIQ Uploads API
   slug: captivateiq-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/captivateiq/openapi/captivateiq-uploads-api-openapi.yml
 - filename: captivateiq-users-api-openapi.yml
   format: yaml
   label: CaptivateIQ Users API
   slug: captivateiq-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-users-api-openapi.yml
+  url: https://artifacts.apis.io/captivateiq/openapi/captivateiq-users-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -158,7 +158,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://develop
   \ Authorization\n  format: Bearer <access token>\n  discovery: https://app.captivateiq.com/.well-known/oauth-authorization-server\n  issuer: https://app.captivateiq.com\n  authorization_endpoint: https://app.captivateiq.com/o/authorize/\n  token_endpoint: https://app.captivateiq.com/o/token/\n  revocation_endpoint: https://app.captivateiq.com/o/revoke_token/\n  introspection_endpoint: https://app.captivateiq.com/o/introspect/\n  pkce: S256 (required method advertised)\n  grant_types:\n  - authorization_code\n  - refresh_token\n  scopes:\n  - read\n  client_registration: 'client_id_metadata_document_supported: true'\n  documented_by_provider: false\n  description: Real RFC 8414 authorization-server metadata served at HTTP 200 on the app host. This OAuth\n    surface is NOT documented anywhere in the public developer reference, which describes only static\n    token auth; it was found by probe. The single advertised scope is read, so the OAuth path is read-only\n    as published.\n  sources:\n\
   \  - https://app.captivateiq.com/.well-known/oauth-authorization-server\n  - well-known/captivateiq-oauth-authorization-server.json\n  ref: scopes/captivateiq-scopes.yml\ntoken_management:\n  where: CaptivateIQ app > user profile settings > API Tokens tab\n  creation: Enter a label and click create.\n  visibility: '\"Save the token value somewhere safe. It will never be shown again.\" — shown once at creation.'\n  rotation_policy: null\n  expiry: null\n  scopes: null\n  note: 'No token scopes, permission levels, or expiry are documented for static API tokens; the token\n    inherits the permissions of the CaptivateIQ user that created it. Scopes exist only on the separate,\n    undocumented OAuth surface — see scopes/captivateiq-scopes.yml.'\ngaps:\n- OAuth 2.0 is served but entirely undocumented — the developer reference names only token auth.\n- Only a read scope is advertised; OAuth clients cannot perform ciq/v1 writes.\n- No token expiry or rotation policy published for static API\
   \ tokens.\n- No /.well-known/openid-configuration or jwks.json (404) — OAuth 2.0, not OpenID Connect.\n- api.captivateiq.com WAF answers 403 for every /.well-known/ path, so the API host publishes no discovery.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/authentication/captivateiq-authentication.yml
+source_yaml_url: https://artifacts.apis.io/captivateiq/authentication/captivateiq-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company

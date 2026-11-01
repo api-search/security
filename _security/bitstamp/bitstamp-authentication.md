@@ -8,7 +8,7 @@ api_specs:
   label: Bitstamp Market Data API
   slug: bitstamp-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitstamp/refs/heads/main/openapi/bitstamp-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/bitstamp/openapi/bitstamp-market-data-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -43,7 +43,7 @@ source_filename: bitstamp-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-Auth\n  description: Bitstamp API key for authenticated endpoints\n  sources:\n  - openapi/openapi.json\n- name: apiSignature\n  type: apiKey\n  in: header\n  parameter: X-Auth-Signature\n  description: HMAC-SHA256 request signature\n  sources:\n  - openapi/openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitstamp/refs/heads/main/authentication/bitstamp-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bitstamp/authentication/bitstamp-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Cryptocurrency

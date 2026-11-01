@@ -8,25 +8,25 @@ api_specs:
   label: Tigera Projectcalico Org API
   slug: tigera-projectcalicoorg-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/openapi/tigera-projectcalicoorg-api-openapi.yml
+  url: https://artifacts.apis.io/tigera/openapi/tigera-projectcalicoorg-api-openapi.yml
 - filename: tigera-projectcalicoorg-v3-api-openapi.yml
   format: yaml
   label: Tigera Projectcalico Org V3 API
   slug: tigera-projectcalicoorg-v3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/openapi/tigera-projectcalicoorg-v3-api-openapi.yml
+  url: https://artifacts.apis.io/tigera/openapi/tigera-projectcalicoorg-v3-api-openapi.yml
 - filename: tigera-version-api-openapi.yml
   format: yaml
   label: Tigera Version API
   slug: tigera-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/openapi/tigera-version-api-openapi.yml
+  url: https://artifacts.apis.io/tigera/openapi/tigera-version-api-openapi.yml
 - filename: tigera-apis-api-openapi.yml
   format: yaml
   label: Tigera APIS API
   slug: tigera-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/openapi/tigera-apis-api-openapi.yml
+  url: https://artifacts.apis.io/tigera/openapi/tigera-apis-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-08-05'\nmethod: searched\nsource: >-\n  https://d
   \ Owner role. The console emits a ready-made command per key. Tigera does not\n    publish the header name in public documentation, so it is recorded as unknown rather than\n    guessed.\n  parameter_name: null\n  docs: https://docs.tigera.io/calico-cloud/operations/usage-api\n  sources: [documentation]\n- name: CalicoCloudConsoleSSO\n  surface: Calico Cloud web console\n  type: openIdConnect\n  description: >-\n    The Calico Cloud console authenticates users over OIDC (Auth0), with Google social login\n    among the supported options, mapped onto the predefined roles Owner, Admin, Security and\n    Viewer.\n  docs: https://docs.tigera.io/calico-cloud/users/user-management\n  sources: [documentation]\n- name: TigeraMCPOAuth\n  surface: Tigera MCP server\n  type: oauth2\n  description: >-\n    OAuth 2.1 authorization-code with PKCE (S256) for the remote MCP server on www.tigera.io.\n    Public clients (token_endpoint_auth_method none) identified by client-ID metadata document;\n    bearer\
   \ token presented in the Authorization header; single scope `mcp`.\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.tigera.io/oauth/authorize\n    tokenUrl: https://www.tigera.io/oauth/token\n    scopes: [mcp]\n  detail: scopes/tigera-scopes.yml\n  sources: [https://www.tigera.io/.well-known/oauth-authorization-server]\ngaps:\n- >-\n  The published Calico Swagger 2.0 document declares no securityDefinitions and applies no\n  security to any of its 261 operations. A generated client or an agent reading only the spec\n  has no machine-readable signal about how to authenticate.\n- >-\n  The Calico Cloud Usage API's authentication header name and base URL are not published; both\n  are only visible inside the authenticated console.\nx-evidence:\n  fetched: '2026-08-05'\n  probes:\n  - url: https://docs.tigera.io/calico-cloud/operations/usage-api\n    status: 200\n  - url: https://www.tigera.io/.well-known/oauth-authorization-server\n    status: 200\n  - url: https://docs.tigera.io/json/calico-api-swagger.json\n\
   \    status: 200\n    finding: securityDefinitions absent\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/authentication/tigera-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tigera/authentication/tigera-authentication.yml
 summary_line: http/apiKey/oauth2/openIdConnect/mutualTLS · 6 schemes
 tags:
 - Company

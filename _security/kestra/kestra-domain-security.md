@@ -5,37 +5,37 @@ api_specs:
   label: Kestra Executions API
   slug: kestra-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-executions-api-openapi.yml
+  url: https://artifacts.apis.io/kestra/openapi/kestra-executions-api-openapi.yml
 - filename: kestra-files-api-openapi.yml
   format: yaml
   label: Kestra Files API
   slug: kestra-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-files-api-openapi.yml
+  url: https://artifacts.apis.io/kestra/openapi/kestra-files-api-openapi.yml
 - filename: kestra-flows-api-openapi.yml
   format: yaml
   label: Kestra Flows API
   slug: kestra-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-flows-api-openapi.yml
+  url: https://artifacts.apis.io/kestra/openapi/kestra-flows-api-openapi.yml
 - filename: kestra-namespaces-api-openapi.yml
   format: yaml
   label: Kestra Namespaces API
   slug: kestra-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/kestra/openapi/kestra-namespaces-api-openapi.yml
 - filename: kestra-triggers-api-openapi.yml
   format: yaml
   label: Kestra Triggers API
   slug: kestra-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/kestra/openapi/kestra-triggers-api-openapi.yml
 - filename: kestra-kv-store-api-openapi.yml
   format: yaml
   label: Kestra KV Store API
   slug: kestra-kv-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-kv-store-api-openapi.yml
+  url: https://artifacts.apis.io/kestra/openapi/kestra-kv-store-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: kestra-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: kestra.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 19:26:46 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: kestra.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/security/kestra-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kestra/security/kestra-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Automation

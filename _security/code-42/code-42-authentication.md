@@ -33,7 +33,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://developer.code42.com/ + Code42 API clients docs\ndocs: https://developer.code42.com/\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\n  token_lifetime_seconds: 900\n  token_type: bearer\nschemes:\n- name: apiClientOAuth\n  type: oauth2\n  flow: clientCredentials\n  description: >-\n    Code42 API clients are OAuth 2.0-compliant. You create an API client in the\n    Code42 console, which issues a client ID, secret, and a tenant-specific base\n    URL (shown only once). Exchange the client ID and secret for a short-lived\n    bearer token, then send that token on every API request.\n  token_endpoint: https://api.us.code42.com/v1/oauth\n  token_request: >-\n    curl -X POST -u '<ClientID>:<Secret>' -d \"\" https://api.us.code42.com/v1/oauth\n  token_response_example: '{\"access_token\":\"...\",\"token_type\":\"bearer\",\"expires_in\":900}'\n  request_header: 'Authorization: Bearer <access_token>'\n\
   \  token_expires_in: 900\n  notes: >-\n    Tokens expire after 15 minutes (900s). The token endpoint host is\n    region-specific (api.us.code42.com, api.us2.code42.com, api.gov.code42.com,\n    and other regional gateways). Permissions are governed by the role assigned\n    to the API client, not by OAuth scopes; no public scope reference is\n    documented, so no scopes/ artifact is emitted.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/code-42/refs/heads/main/authentication/code-42-authentication.yml
+source_yaml_url: https://artifacts.apis.io/code-42/authentication/code-42-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

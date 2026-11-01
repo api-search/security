@@ -49,7 +49,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://developers.gamma.app/get-started/understanding-the-api-options\ndocs: https://developers.gamma.app/get-started/understanding-the-api-options\nsummary:\n  types: [apiKey, oauth2]\n  api_key_in: [header]\n  oauth2_flows: [authorizationCode]\nschemes:\n- name: X-API-KEY\n  type: apiKey\n  in: header\n  parameter_name: X-API-KEY\n  key_prefix: sk-gamma-\n  description: >-\n    REST API authentication. Generate a key from Account Settings > API Keys.\n    Requires a Pro, Ultra, Teams, or Business plan. The header name is\n    case-sensitive.\n  applies_to: https://public-api.gamma.app/v1.0\n- name: OAuth2\n  type: oauth2\n  description: >-\n    Used by the official remote MCP server (https://mcp.gamma.app/mcp). OAuth 2.0\n    authorization-code flow with PKCE (S256) and Dynamic Client Registration\n    (RFC 7591). Bearer token in the Authorization header.\n  authorization_server: https://auth.gamma.app\n  authorization_endpoint:\
   \ https://auth.gamma.app/oauth/authorize\n  token_endpoint: https://auth.gamma.app/oauth/token\n  registration_endpoint: https://auth.gamma.app/oauth/register\n  jwks_uri: https://auth.gamma.app/.well-known/jwks.json\n  grant_types: [authorization_code, refresh_token]\n  code_challenge_methods: [S256]\n  scopes: [generate, gamma:read]\n  applies_to: https://mcp.gamma.app/mcp\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gamma/refs/heads/main/authentication/gamma-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gamma/authentication/gamma-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company

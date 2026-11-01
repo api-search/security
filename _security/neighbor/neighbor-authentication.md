@@ -8,7 +8,7 @@ api_specs:
   label: Neighbor Public API
   slug: neighbor-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neighbor/refs/heads/main/openapi/neighbor-public-api-openapi.yml
+  url: https://artifacts.apis.io/neighbor/openapi/neighbor-public-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: neighbor-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/neighbor-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: NeighborApiKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Use header value `NEIGHBOR-API-KEY <your-api-key>`. Email jon@neighbor.com to\n    request an API key.\n  sources:\n  - openapi/neighbor-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neighbor/refs/heads/main/authentication/neighbor-authentication.yml
+source_yaml_url: https://artifacts.apis.io/neighbor/authentication/neighbor-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Storage

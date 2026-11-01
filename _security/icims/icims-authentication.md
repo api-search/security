@@ -7,7 +7,7 @@ api_specs:
   label: iCIMS Workflows API
   slug: icims-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/icims/refs/heads/main/openapi/icims-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/icims/openapi/icims-workflows-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -33,7 +33,7 @@ source_filename: icims-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/icims-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/icims-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/icims/refs/heads/main/authentication/icims-authentication.yml
+source_yaml_url: https://artifacts.apis.io/icims/authentication/icims-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Applicant Tracking

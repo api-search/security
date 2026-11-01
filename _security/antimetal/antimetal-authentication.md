@@ -7,19 +7,19 @@ api_specs:
   label: Antimetal Artifacts API
   slug: antimetal-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/openapi/antimetal-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/antimetal/openapi/antimetal-artifacts-api-openapi.yml
 - filename: antimetal-issues-api-openapi.yml
   format: yaml
   label: Antimetal Issues API
   slug: antimetal-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/openapi/antimetal-issues-api-openapi.yml
+  url: https://artifacts.apis.io/antimetal/openapi/antimetal-issues-api-openapi.yml
 - filename: antimetal-query-api-openapi.yml
   format: yaml
   label: Antimetal Query API
   slug: antimetal-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/openapi/antimetal-query-api-openapi.yml
+  url: https://artifacts.apis.io/antimetal/openapi/antimetal-query-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: antimetal-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-06'\nmethod: derived\nsource: openapi/antimetal-external-api-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: bearer\n  type: http\n  scheme: bearer\n  description: API key authentication via Bearer token\n  sources:\n  - openapi/antimetal-external-api-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/authentication/antimetal-authentication.yml
+source_yaml_url: https://artifacts.apis.io/antimetal/authentication/antimetal-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

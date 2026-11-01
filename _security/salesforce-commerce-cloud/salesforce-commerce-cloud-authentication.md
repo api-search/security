@@ -7,7 +7,7 @@ api_specs:
   label: Salesforce Commerce Cloud Shopper API
   slug: salesforce-commerce-cloud-shopper-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-commerce-cloud/refs/heads/main/openapi/salesforce-commerce-cloud-shopper-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-commerce-cloud/openapi/salesforce-commerce-cloud-shopper-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -36,7 +36,7 @@ source_filename: salesforce-commerce-cloud-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/salesforce-commerce-cloud-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: |-\n    OAuth 2.0 access token from SLAS (Shopper APIs) or Salesforce Account\n    Manager (Data and Admin APIs), sent as `Authorization: Bearer <token>`.\n  sources:\n  - openapi/salesforce-commerce-cloud-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce-commerce-cloud/refs/heads/main/authentication/salesforce-commerce-cloud-authentication.yml
+source_yaml_url: https://artifacts.apis.io/salesforce-commerce-cloud/authentication/salesforce-commerce-cloud-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Commerce

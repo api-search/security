@@ -5,49 +5,49 @@ api_specs:
   label: Passport Cart API
   slug: passport-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passport/refs/heads/main/openapi/passport-cart-api-openapi.yml
+  url: https://artifacts.apis.io/passport/openapi/passport-cart-api-openapi.yml
 - filename: passport-order-api-openapi.yml
   format: yaml
   label: Passport Order API
   slug: passport-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passport/refs/heads/main/openapi/passport-order-api-openapi.yml
+  url: https://artifacts.apis.io/passport/openapi/passport-order-api-openapi.yml
 - filename: passport-product-price-api-openapi.yml
   format: yaml
   label: Passport Product Price API
   slug: passport-product-price-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passport/refs/heads/main/openapi/passport-product-price-api-openapi.yml
+  url: https://artifacts.apis.io/passport/openapi/passport-product-price-api-openapi.yml
 - filename: passport-rate-api-openapi.yml
   format: yaml
   label: Passport Rate API
   slug: passport-rate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passport/refs/heads/main/openapi/passport-rate-api-openapi.yml
+  url: https://artifacts.apis.io/passport/openapi/passport-rate-api-openapi.yml
 - filename: passport-ship-api-openapi.yml
   format: yaml
   label: Passport Ship API
   slug: passport-ship-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passport/refs/heads/main/openapi/passport-ship-api-openapi.yml
+  url: https://artifacts.apis.io/passport/openapi/passport-ship-api-openapi.yml
 - filename: passport-tax-and-duty-api-openapi.yml
   format: yaml
   label: Passport Tax And Duty API
   slug: passport-tax-and-duty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passport/refs/heads/main/openapi/passport-tax-and-duty-api-openapi.yml
+  url: https://artifacts.apis.io/passport/openapi/passport-tax-and-duty-api-openapi.yml
 - filename: passport-void-api-openapi.yml
   format: yaml
   label: Passport Void API
   slug: passport-void-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passport/refs/heads/main/openapi/passport-void-api-openapi.yml
+  url: https://artifacts.apis.io/passport/openapi/passport-void-api-openapi.yml
 - filename: passport-health-check-api-openapi.yml
   format: yaml
   label: Passport Health Check API
   slug: passport-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passport/refs/heads/main/openapi/passport-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/passport/openapi/passport-health-check-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -101,7 +101,7 @@ source_filename: passport-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: passportglobal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 16 18:01:54 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.passportglobal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 16 18:01:54 2027 GMT\n  hsts: false\n- host: api.passportshipping.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 22:34:05 2026 GMT\n  hsts: null\ndomains:\n- domain: passportglobal.com\n  dnssec: false\n  caa:\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: passportshipping.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"godaddy.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/passport/refs/heads/main/security/passport-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/passport/security/passport-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

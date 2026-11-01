@@ -5,7 +5,7 @@ api_specs:
   label: Spire Maritime Vessels API
   slug: spire-maritime-vessels-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/spire-maritime/refs/heads/main/collections/spire-maritime.postman_collection.json
+  url: https://artifacts.apis.io/spire-maritime/collections/spire-maritime.postman_collection.json
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + GraphQL hosts\nhosts:\n- host: spire.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 00:11:44 2026 GMT\n  hsts: false\n  hsts_note: No Strict-Transport-Security header returned on the root document at probe time.\n- host: api.spire.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jun 18 21:22:32 2027 GMT\n  hsts: false\n  hsts_note: GraphQL host; no HSTS header observed on probe (GraphQL requires POST + auth).\n- host: documentation.spire.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 08:52:42 2026 GMT\n  hsts: false\n  hsts_note: 301-redirects to servicedocs-sm.kpler.com following the Kpler acquisition.\ndomains:\n- domain: spire.com\n  dnssec: false\n  caa: []\n  caa_note: No CAA records returned at probe time.\n  spf: true\n  spf_note: v=spf1 with multiple includes (Google, Office365, SendGrid, Mandrill, HubSpot, Zendesk) and ~all.\n \
   \ dmarc: true\n  dmarc_policy: none\n  dmarc_note: v=DMARC1; p=none; rua=mailto:dmarc-reports@spire.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spire-maritime/refs/heads/main/security/spire-maritime-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/spire-maritime/security/spire-maritime-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Vessel Tracking

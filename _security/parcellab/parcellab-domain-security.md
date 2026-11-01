@@ -5,43 +5,43 @@ api_specs:
   label: parcelLab Campaigns API
   slug: parcellab-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/openapi/parcellab-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/parcellab/openapi/parcellab-campaigns-api-openapi.yml
 - filename: parcellab-events-api-openapi.yml
   format: yaml
   label: parcelLab Events API
   slug: parcellab-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/openapi/parcellab-events-api-openapi.yml
+  url: https://artifacts.apis.io/parcellab/openapi/parcellab-events-api-openapi.yml
 - filename: parcellab-orders-api-openapi.yml
   format: yaml
   label: parcelLab Orders API
   slug: parcellab-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/openapi/parcellab-orders-api-openapi.yml
+  url: https://artifacts.apis.io/parcellab/openapi/parcellab-orders-api-openapi.yml
 - filename: parcellab-place-info-api-openapi.yml
   format: yaml
   label: parcelLab Place Info API
   slug: parcellab-place-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/openapi/parcellab-place-info-api-openapi.yml
+  url: https://artifacts.apis.io/parcellab/openapi/parcellab-place-info-api-openapi.yml
 - filename: parcellab-promise-api-openapi.yml
   format: yaml
   label: parcelLab Promise API
   slug: parcellab-promise-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/openapi/parcellab-promise-api-openapi.yml
+  url: https://artifacts.apis.io/parcellab/openapi/parcellab-promise-api-openapi.yml
 - filename: parcellab-returns-api-openapi.yml
   format: yaml
   label: parcelLab Returns API
   slug: parcellab-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/openapi/parcellab-returns-api-openapi.yml
+  url: https://artifacts.apis.io/parcellab/openapi/parcellab-returns-api-openapi.yml
 - filename: parcellab-surveys-api-openapi.yml
   format: yaml
   label: parcelLab Surveys API
   slug: parcellab-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/openapi/parcellab-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/parcellab/openapi/parcellab-surveys-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -89,7 +89,7 @@ source_filename: parcellab-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: parcellab.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 17:46:26 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.parcellab.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 15:32:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.parcellab.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: parcellab.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/security/parcellab-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/parcellab/security/parcellab-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Post-Purchase

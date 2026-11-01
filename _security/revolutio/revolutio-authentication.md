@@ -8,25 +8,25 @@ api_specs:
   label: Revolutio Combined Hazard API
   slug: revolutio-combined-hazard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revolutio/refs/heads/main/openapi/revolutio-combined-hazard-api-openapi.yml
+  url: https://artifacts.apis.io/revolutio/openapi/revolutio-combined-hazard-api-openapi.yml
 - filename: revolutio-seismic-api-openapi.yml
   format: yaml
   label: Revolutio Seismic API
   slug: revolutio-seismic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revolutio/refs/heads/main/openapi/revolutio-seismic-api-openapi.yml
+  url: https://artifacts.apis.io/revolutio/openapi/revolutio-seismic-api-openapi.yml
 - filename: revolutio-snow-and-ice-api-openapi.yml
   format: yaml
   label: Revolutio Snow And Ice API
   slug: revolutio-snow-and-ice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revolutio/refs/heads/main/openapi/revolutio-snow-and-ice-api-openapi.yml
+  url: https://artifacts.apis.io/revolutio/openapi/revolutio-snow-and-ice-api-openapi.yml
 - filename: revolutio-wind-api-openapi.yml
   format: yaml
   label: Revolutio Wind API
   slug: revolutio-wind-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revolutio/refs/heads/main/openapi/revolutio-wind-api-openapi.yml
+  url: https://artifacts.apis.io/revolutio/openapi/revolutio-wind-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: revolutio-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/revolutio-hazard-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: HazardApiKey\n  type: apiKey\n  in: query\n  parameter: apiKey\n  description: Revolutio Hazard API subscription key. For POST requests pass in request header.\n  sources:\n  - openapi/revolutio-hazard-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/revolutio/refs/heads/main/authentication/revolutio-authentication.yml
+source_yaml_url: https://artifacts.apis.io/revolutio/authentication/revolutio-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Engineering

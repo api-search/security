@@ -8,25 +8,25 @@ api_specs:
   label: Runa Balance API
   slug: runa-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runa/refs/heads/main/openapi/runa-balance-api-openapi.yml
+  url: https://artifacts.apis.io/runa/openapi/runa-balance-api-openapi.yml
 - filename: runa-orders-api-openapi.yml
   format: yaml
   label: Runa Orders API
   slug: runa-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runa/refs/heads/main/openapi/runa-orders-api-openapi.yml
+  url: https://artifacts.apis.io/runa/openapi/runa-orders-api-openapi.yml
 - filename: runa-products-api-openapi.yml
   format: yaml
   label: Runa Products API
   slug: runa-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runa/refs/heads/main/openapi/runa-products-api-openapi.yml
+  url: https://artifacts.apis.io/runa/openapi/runa-products-api-openapi.yml
 - filename: runa-utilities-api-openapi.yml
   format: yaml
   label: Runa Utilities API
   slug: runa-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runa/refs/heads/main/openapi/runa-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/runa/openapi/runa-utilities-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: runa-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/runa-payouts-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-Api-Key\n  description: Runa API key. Generate your key at https://app.runa.io/api-keys. The key is only\n    displayed at generation time for security.\n  sources:\n  - openapi/runa-payouts-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/runa/refs/heads/main/authentication/runa-authentication.yml
+source_yaml_url: https://artifacts.apis.io/runa/authentication/runa-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Gift Cards

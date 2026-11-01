@@ -8,13 +8,13 @@ api_specs:
   label: Nected Dev API
   slug: nected-dev-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nected/refs/heads/main/openapi/nected-dev-api-openapi.yml
+  url: https://artifacts.apis.io/nected/openapi/nected-dev-api-openapi.yml
 - filename: nected-nected-api-openapi.yml
   format: yaml
   label: Nected API
   slug: nected-nected-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nected/refs/heads/main/openapi/nected-nected-api-openapi.yml
+  url: https://artifacts.apis.io/nected/openapi/nected-nected-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -41,7 +41,7 @@ source_filename: nected-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/nected-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: NectedApiKey\n  type: apiKey\n  in: header\n  parameter: nected-api-key\n  sources:\n  - openapi/nected-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nected/refs/heads/main/authentication/nected-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nected/authentication/nected-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Low-Code

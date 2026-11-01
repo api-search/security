@@ -8,13 +8,13 @@ api_specs:
   label: Air Quality Programmatic APIs Air Quality Programmatic APIs Real Time Air Quality Tile API
   slug: air-quality-programmatic-apis-air-quality-programmatic-apis-real-time-air-quality-tile-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/air-quality-programmatic-apis/refs/heads/main/openapi/air-quality-programmatic-apis-air-quality-programmatic-apis-real-time-air-quality-tile-api-api-openapi.yml
+  url: https://artifacts.apis.io/air-quality-programmatic-apis/openapi/air-quality-programmatic-apis-air-quality-programmatic-apis-real-time-air-quality-tile-api-api-openapi.yml
 - filename: air-quality-programmatic-apis-stations-api-openapi.yml
   format: yaml
   label: Air Quality Programmatic APIs Stations API
   slug: air-quality-programmatic-apis-stations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/air-quality-programmatic-apis/refs/heads/main/openapi/air-quality-programmatic-apis-stations-api-openapi.yml
+  url: https://artifacts.apis.io/air-quality-programmatic-apis/openapi/air-quality-programmatic-apis-stations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -43,7 +43,7 @@ source_filename: air-quality-programmatic-apis-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/air-quality-programmatic-apis-openapi.yml, openapi/aqicn-json-api-openapi.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: query\n  parameter: token\n  description: API key for authentication\n  sources:\n  - openapi/air-quality-programmatic-apis-openapi.yml\n  - openapi/aqicn-json-api-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/air-quality-programmatic-apis/refs/heads/main/authentication/air-quality-programmatic-apis-authentication.yml
+source_yaml_url: https://artifacts.apis.io/air-quality-programmatic-apis/authentication/air-quality-programmatic-apis-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Air Quality

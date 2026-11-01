@@ -7,25 +7,25 @@ api_specs:
   label: midjourney Image Analysis API
   slug: midjourney-image-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midjourney/refs/heads/main/openapi/midjourney-image-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/midjourney/openapi/midjourney-image-analysis-api-openapi.yml
 - filename: midjourney-image-generation-api-openapi.yml
   format: yaml
   label: midjourney Image Generation API
   slug: midjourney-image-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midjourney/refs/heads/main/openapi/midjourney-image-generation-api-openapi.yml
+  url: https://artifacts.apis.io/midjourney/openapi/midjourney-image-generation-api-openapi.yml
 - filename: midjourney-image-manipulation-api-openapi.yml
   format: yaml
   label: midjourney Image Manipulation API
   slug: midjourney-image-manipulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midjourney/refs/heads/main/openapi/midjourney-image-manipulation-api-openapi.yml
+  url: https://artifacts.apis.io/midjourney/openapi/midjourney-image-manipulation-api-openapi.yml
 - filename: midjourney-jobs-api-openapi.yml
   format: yaml
   label: midjourney Jobs API
   slug: midjourney-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midjourney/refs/heads/main/openapi/midjourney-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/midjourney/openapi/midjourney-jobs-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -53,7 +53,7 @@ source_filename: midjourney-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/midjourney-image-generation-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: API Key\n  description: API key obtained from the Midjourney Enterprise dashboard. Include in the Authorization\n    header as a Bearer token.\n  sources:\n  - openapi/midjourney-image-generation-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/midjourney/refs/heads/main/authentication/midjourney-authentication.yml
+source_yaml_url: https://artifacts.apis.io/midjourney/authentication/midjourney-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Image Generation

@@ -8,43 +8,61 @@ api_specs:
   label: Amazon Outposts Catalog API
   slug: amazon-outposts-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/openapi/amazon-outposts-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-catalog-api-openapi.yml
 - filename: amazon-outposts-connections-api-openapi.yml
   format: yaml
   label: Amazon Outposts Connections API
   slug: amazon-outposts-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/openapi/amazon-outposts-connections-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-connections-api-openapi.yml
 - filename: amazon-outposts-list-orders-api-openapi.yml
   format: yaml
   label: Amazon Outposts List Orders API
   slug: amazon-outposts-list-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/openapi/amazon-outposts-list-orders-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-list-orders-api-openapi.yml
 - filename: amazon-outposts-orders-api-openapi.yml
   format: yaml
   label: Amazon Outposts Orders API
   slug: amazon-outposts-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/openapi/amazon-outposts-orders-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-orders-api-openapi.yml
 - filename: amazon-outposts-outposts-api-openapi.yml
   format: yaml
   label: Amazon Outposts API
   slug: amazon-outposts-outposts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/openapi/amazon-outposts-outposts-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-outposts-api-openapi.yml
 - filename: amazon-outposts-sites-api-openapi.yml
   format: yaml
   label: Amazon Outposts Sites API
   slug: amazon-outposts-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/openapi/amazon-outposts-sites-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-sites-api-openapi.yml
 - filename: amazon-outposts-tags-api-openapi.yml
   format: yaml
   label: Amazon Outposts Tags API
   slug: amazon-outposts-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/openapi/amazon-outposts-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-tags-api-openapi.yml
+- filename: amazon-outposts-capacity-api-openapi.yml
+  format: yaml
+  label: Amazon Outposts Outposts Capacity API
+  slug: amazon-outposts-capacity-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-capacity-api-openapi.yml
+- filename: amazon-outposts-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Outposts Outposts Operations API
+  slug: amazon-outposts-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-operations-api-openapi.yml
+- filename: amazon-outposts-quotes-api-openapi.yml
+  format: yaml
+  label: Amazon Outposts Outposts Quotes API
+  slug: amazon-outposts-quotes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-quotes-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -72,7 +90,7 @@ source_filename: amazon-outposts-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-outposts-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-outposts-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/authentication/amazon-outposts-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-outposts/authentication/amazon-outposts-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Edge Computing

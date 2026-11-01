@@ -33,7 +33,7 @@ source_filename: mirai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: trymirai.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 27 13:00:45 2026 GMT\n  hsts: false\n- host: docs.trymirai.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 12 05:07:08 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: trymirai.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mirai/refs/heads/main/security/mirai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mirai/security/mirai-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company

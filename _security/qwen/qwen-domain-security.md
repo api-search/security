@@ -5,19 +5,19 @@ api_specs:
   label: Qwen Embeddings API
   slug: qwen-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwen/refs/heads/main/openapi/qwen-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/qwen/openapi/qwen-embeddings-api-openapi.yml
 - filename: qwen-models-api-openapi.yml
   format: yaml
   label: Qwen Models API
   slug: qwen-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwen/refs/heads/main/openapi/qwen-models-api-openapi.yml
+  url: https://artifacts.apis.io/qwen/openapi/qwen-models-api-openapi.yml
 - filename: qwen-chat-completions-api-openapi.yml
   format: yaml
   label: Qwen Chat Completions API
   slug: qwen-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwen/refs/heads/main/openapi/qwen-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/qwen/openapi/qwen-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -66,7 +66,7 @@ source_filename: qwen-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: qwen.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 31 02:36:11 2027 GMT\n  hsts: null\n- host: www.alibabacloud.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep  5 02:26:16 2026 GMT\n  hsts: null\n- host: dashscope-intl.aliyuncs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 08:06:18 2026 GMT\n  hsts: null\ndomains:\n- domain: qwen.ai\n  dnssec: false\n  caa:\n  - 0 issue \"globalsign.com\"\n  - 0 iodef \"mailto:certificate-transparency@list.alibaba-inc.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: alibabacloud.com\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:certificate-transparency@list.alibaba-inc.com\"\n  - 0 issue \"globalsign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qwen/refs/heads/main/security/qwen-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/qwen/security/qwen-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Artificial Intelligence

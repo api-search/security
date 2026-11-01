@@ -8,25 +8,25 @@ api_specs:
   label: Ship24 ➕ API for per-call plans API
   slug: ship24-api-for-per-call-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ship24/refs/heads/main/openapi/ship24-api-for-per-call-plans-api-openapi.yml
+  url: https://artifacts.apis.io/ship24/openapi/ship24-api-for-per-call-plans-api-openapi.yml
 - filename: ship24-couriers-api-openapi.yml
   format: yaml
   label: Ship24 🚚 Couriers API
   slug: ship24-couriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ship24/refs/heads/main/openapi/ship24-couriers-api-openapi.yml
+  url: https://artifacts.apis.io/ship24/openapi/ship24-couriers-api-openapi.yml
 - filename: ship24-trackers-api-openapi.yml
   format: yaml
   label: Ship24 📦 Trackers API
   slug: ship24-trackers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ship24/refs/heads/main/openapi/ship24-trackers-api-openapi.yml
+  url: https://artifacts.apis.io/ship24/openapi/ship24-trackers-api-openapi.yml
 - filename: ship24-ship24-tracking-api-api-openapi.yml
   format: yaml
   label: Ship24 Tracking API
   slug: ship24-ship24-tracking-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ship24/refs/heads/main/openapi/ship24-ship24-tracking-api-api-openapi.yml
+  url: https://artifacts.apis.io/ship24/openapi/ship24-ship24-tracking-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -57,7 +57,7 @@ source_filename: ship24-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ship24-tracking-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: Authorization\n  type: apiKey\n  in: header\n  parameter: Bearer [example key]\n  description: \"The Ship24 API uses API keys to authenticate requests. You can [view and manage\\\n    \\ them in your Dashboard](https://dashboard.ship24.com/integrations/api-keys). A `Default`\\\n    \\ API key is created after you subscribe to a plan.\\n\\nTo authenticate your requests, include\\\n    \\ an `Authorization` HTTP header to all your requests with the following value: `Bearer\\\n    \\ your_api_key`. (Replace `your_api_key` by the one from \"\n  sources:\n  - openapi/ship24-tracking-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ship24/refs/heads/main/authentication/ship24-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ship24/authentication/ship24-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Tracking

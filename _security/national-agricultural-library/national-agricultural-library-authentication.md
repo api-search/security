@@ -8,7 +8,7 @@ api_specs:
   label: National Agricultural Library FDC API
   slug: national-agricultural-library-fdc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-agricultural-library/refs/heads/main/openapi/national-agricultural-library-fdc-api-openapi.yml
+  url: https://artifacts.apis.io/national-agricultural-library/openapi/national-agricultural-library-fdc-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -35,7 +35,7 @@ source_filename: national-agricultural-library-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/national-agricultural-library-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: query\n  parameter: api_key\n  sources:\n  - openapi/national-agricultural-library-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-agricultural-library/refs/heads/main/authentication/national-agricultural-library-authentication.yml
+source_yaml_url: https://artifacts.apis.io/national-agricultural-library/authentication/national-agricultural-library-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Agriculture

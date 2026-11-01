@@ -8,349 +8,349 @@ api_specs:
   label: Centene Batch Results Ack Submit Transaction API
   slug: centene-batchresultsacksubmittransaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-batchresultsacksubmittransaction-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-batchresultsacksubmittransaction-api-openapi.yml
 - filename: centene-batchresultsretrievaltransaction-api-openapi.yml
   format: yaml
   label: Centene Batch Results Retrieval Transaction API
   slug: centene-batchresultsretrievaltransaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-batchresultsretrievaltransaction-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-batchresultsretrievaltransaction-api-openapi.yml
 - filename: centene-batchsubmitackretrievaltransaction-api-openapi.yml
   format: yaml
   label: Centene Batch Submit Ack Retrieval Transaction API
   slug: centene-batchsubmitackretrievaltransaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-batchsubmitackretrievaltransaction-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-batchsubmitackretrievaltransaction-api-openapi.yml
 - filename: centene-batchsubmittransaction-api-openapi.yml
   format: yaml
   label: Centene Batch Submit Transaction API
   slug: centene-batchsubmittransaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-batchsubmittransaction-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-batchsubmittransaction-api-openapi.yml
 - filename: centene-careteam-api-openapi.yml
   format: yaml
   label: Centene Care Team API
   slug: centene-careteam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-careteam-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-careteam-api-openapi.yml
 - filename: centene-communication-api-openapi.yml
   format: yaml
   label: Centene Communication API
   slug: centene-communication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-communication-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-communication-api-openapi.yml
 - filename: centene-condition-api-openapi.yml
   format: yaml
   label: Centene Condition API
   slug: centene-condition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-condition-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-condition-api-openapi.yml
 - filename: centene-coverage-api-openapi.yml
   format: yaml
   label: Centene Coverage API
   slug: centene-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-coverage-api-openapi.yml
 - filename: centene-custom-mapping-api-openapi.yml
   format: yaml
   label: Centene Custom Mapping API
   slug: centene-custom-mapping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-custom-mapping-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-custom-mapping-api-openapi.yml
 - filename: centene-custom-query-validator-api-openapi.yml
   format: yaml
   label: Centene Custom Query Validator API
   slug: centene-custom-query-validator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-custom-query-validator-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-custom-query-validator-api-openapi.yml
 - filename: centene-device-api-openapi.yml
   format: yaml
   label: Centene Device API
   slug: centene-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-device-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-device-api-openapi.yml
 - filename: centene-diagnosticreport-api-openapi.yml
   format: yaml
   label: Centene Diagnostic Report API
   slug: centene-diagnosticreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-diagnosticreport-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-diagnosticreport-api-openapi.yml
 - filename: centene-encounter-api-openapi.yml
   format: yaml
   label: Centene Encounter API
   slug: centene-encounter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-encounter-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-encounter-api-openapi.yml
 - filename: centene-endpoint-api-openapi.yml
   format: yaml
   label: Centene Endpoint API
   slug: centene-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-endpoint-api-openapi.yml
 - filename: centene-explanationofbenefit-api-openapi.yml
   format: yaml
   label: Centene Explanation Of Benefit API
   slug: centene-explanationofbenefit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-explanationofbenefit-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-explanationofbenefit-api-openapi.yml
 - filename: centene-extract-api-openapi.yml
   format: yaml
   label: Centene Extract API
   slug: centene-extract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-extract-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-extract-api-openapi.yml
 - filename: centene-fhir-pdex-plan-net-api-api-openapi.yml
   format: yaml
   label: Centene FHIR PDEX Plan Net API
   slug: centene-fhir-pdex-plan-net-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-fhir-pdex-plan-net-api-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-fhir-pdex-plan-net-api-api-openapi.yml
 - filename: centene-genericbatchreceiptconfirmationtransaction-api-openapi.yml
   format: yaml
   label: Centene Generic Batch Receipt Confirmation Transaction API
   slug: centene-genericbatchreceiptconfirmationtransaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-genericbatchreceiptconfirmationtransaction-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-genericbatchreceiptconfirmationtransaction-api-openapi.yml
 - filename: centene-genericbatchretrievaltransaction-api-openapi.yml
   format: yaml
   label: Centene Generic Batch Retrieval Transaction API
   slug: centene-genericbatchretrievaltransaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-genericbatchretrievaltransaction-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-genericbatchretrievaltransaction-api-openapi.yml
 - filename: centene-genericbatchsubmissiontransaction-api-openapi.yml
   format: yaml
   label: Centene Generic Batch Submission Transaction API
   slug: centene-genericbatchsubmissiontransaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-genericbatchsubmissiontransaction-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-genericbatchsubmissiontransaction-api-openapi.yml
 - filename: centene-geo-api-openapi.yml
   format: yaml
   label: Centene Geo API
   slug: centene-geo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-geo-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-geo-api-openapi.yml
 - filename: centene-goal-api-openapi.yml
   format: yaml
   label: Centene Goal API
   slug: centene-goal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-goal-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-goal-api-openapi.yml
 - filename: centene-immunization-api-openapi.yml
   format: yaml
   label: Centene Immunization API
   slug: centene-immunization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-immunization-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-immunization-api-openapi.yml
 - filename: centene-list-api-openapi.yml
   format: yaml
   label: Centene List API
   slug: centene-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-list-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-list-api-openapi.yml
 - filename: centene-location-api-openapi.yml
   format: yaml
   label: Centene Location API
   slug: centene-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-location-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-location-api-openapi.yml
 - filename: centene-medication-api-openapi.yml
   format: yaml
   label: Centene Medication API
   slug: centene-medication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-medication-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-medication-api-openapi.yml
 - filename: centene-medicationknowledge-api-openapi.yml
   format: yaml
   label: Centene Medication Knowledge API
   slug: centene-medicationknowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-medicationknowledge-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-medicationknowledge-api-openapi.yml
 - filename: centene-member-api-openapi.yml
   format: yaml
   label: Centene Member API
   slug: centene-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-member-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-member-api-openapi.yml
 - filename: centene-metadata-api-openapi.yml
   format: yaml
   label: Centene Metadata API
   slug: centene-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-metadata-api-openapi.yml
 - filename: centene-network-api-openapi.yml
   format: yaml
   label: Centene Network API
   slug: centene-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-network-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-network-api-openapi.yml
 - filename: centene-observation-api-openapi.yml
   format: yaml
   label: Centene Observation API
   slug: centene-observation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-observation-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-observation-api-openapi.yml
 - filename: centene-organization-api-openapi.yml
   format: yaml
   label: Centene Organization API
   slug: centene-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-organization-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-organization-api-openapi.yml
 - filename: centene-organizationaffiliation-api-openapi.yml
   format: yaml
   label: Centene Organization Affiliation API
   slug: centene-organizationaffiliation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-organizationaffiliation-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-organizationaffiliation-api-openapi.yml
 - filename: centene-patient-api-openapi.yml
   format: yaml
   label: Centene Patient API
   slug: centene-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-patient-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-patient-api-openapi.yml
 - filename: centene-practitioner-api-api-openapi.yml
   format: yaml
   label: Centene Practitioner API
   slug: centene-practitioner-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-practitioner-api-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-practitioner-api-api-openapi.yml
 - filename: centene-practitioner-api-openapi.yml
   format: yaml
   label: Centene Practitioner API
   slug: centene-practitioner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-practitioner-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-practitioner-api-openapi.yml
 - filename: centene-practitioner-date-api-api-openapi.yml
   format: yaml
   label: Centene Practitioner Date API
   slug: centene-practitioner-date-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-practitioner-date-api-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-practitioner-date-api-api-openapi.yml
 - filename: centene-practitioner-network-api-api-openapi.yml
   format: yaml
   label: Centene Practitioner Network API
   slug: centene-practitioner-network-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-practitioner-network-api-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-practitioner-network-api-api-openapi.yml
 - filename: centene-practitioner-search-api-api-openapi.yml
   format: yaml
   label: Centene Practitioner Search API
   slug: centene-practitioner-search-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-practitioner-search-api-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-practitioner-search-api-api-openapi.yml
 - filename: centene-procedure-api-openapi.yml
   format: yaml
   label: Centene Procedure API
   slug: centene-procedure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-procedure-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-procedure-api-openapi.yml
 - filename: centene-provenance-api-openapi.yml
   format: yaml
   label: Centene Provenance API
   slug: centene-provenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-provenance-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-provenance-api-openapi.yml
 - filename: centene-provider-api-api-openapi.yml
   format: yaml
   label: Centene Provider API
   slug: centene-provider-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-provider-api-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-provider-api-api-openapi.yml
 - filename: centene-provider-date-api-api-openapi.yml
   format: yaml
   label: Centene Provider Date API
   slug: centene-provider-date-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-provider-date-api-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-provider-date-api-api-openapi.yml
 - filename: centene-provider-network-api-api-openapi.yml
   format: yaml
   label: Centene Provider Network API
   slug: centene-provider-network-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-provider-network-api-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-provider-network-api-api-openapi.yml
 - filename: centene-provider-search-api-api-openapi.yml
   format: yaml
   label: Centene Provider Search API
   slug: centene-provider-search-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-provider-search-api-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-provider-search-api-api-openapi.yml
 - filename: centene-query-api-openapi.yml
   format: yaml
   label: Centene Query API
   slug: centene-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-query-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-query-api-openapi.yml
 - filename: centene-query-v2-api-openapi.yml
   format: yaml
   label: Centene query v2 API
   slug: centene-query-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-query-v2-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-query-v2-api-openapi.yml
 - filename: centene-query-validator-api-openapi.yml
   format: yaml
   label: Centene Query Validator API
   slug: centene-query-validator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-query-validator-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-query-validator-api-openapi.yml
 - filename: centene-questionnaireresponse-api-openapi.yml
   format: yaml
   label: Centene Questionnaire Response API
   slug: centene-questionnaireresponse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-questionnaireresponse-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-questionnaireresponse-api-openapi.yml
 - filename: centene-realtimetransaction-api-openapi.yml
   format: yaml
   label: Centene Real Time Transaction API
   slug: centene-realtimetransaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-realtimetransaction-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-realtimetransaction-api-openapi.yml
 - filename: centene-searchhealowmembercg-api-openapi.yml
   format: yaml
   label: Centene Search Healow Member CG API
   slug: centene-searchhealowmembercg-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-searchhealowmembercg-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-searchhealowmembercg-api-openapi.yml
 - filename: centene-utilities-api-openapi.yml
   format: yaml
   label: Centene Utilities API
   slug: centene-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-utilities-api-openapi.yml
 - filename: centene-allergy-intolerance-api-openapi.yml
   format: yaml
   label: Centene Allergy Intolerance API
   slug: centene-allergy-intolerance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-allergy-intolerance-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-allergy-intolerance-api-openapi.yml
 - filename: centene-care-plan-api-openapi.yml
   format: yaml
   label: Centene Care plan API
   slug: centene-care-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-care-plan-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-care-plan-api-openapi.yml
 - filename: centene-healthcare-service-api-openapi.yml
   format: yaml
   label: Centene Healthcare Service API
   slug: centene-healthcare-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-healthcare-service-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-healthcare-service-api-openapi.yml
 - filename: centene-insurance-plan-api-openapi.yml
   format: yaml
   label: Centene Insurance Plan API
   slug: centene-insurance-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-insurance-plan-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-insurance-plan-api-openapi.yml
 - filename: centene-medication-request-api-openapi.yml
   format: yaml
   label: Centene Medication Request API
   slug: centene-medication-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-medication-request-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-medication-request-api-openapi.yml
 - filename: centene-practitioner-role-api-openapi.yml
   format: yaml
   label: Centene Practitioner Role API
   slug: centene-practitioner-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/openapi/centene-practitioner-role-api-openapi.yml
+  url: https://artifacts.apis.io/centene/openapi/centene-practitioner-role-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -418,7 +418,7 @@ source_yaml: "generated: '2026-09-07'\nmethod: searched\nsource: https://partner
   \ API\n      - Provider Carrier Entity Search (PCES) API\n      - Provider Carrier Entity Search (PCES) Extract API\n      - Provider Search Suggest API\n      - Product Mapping V2\n      - LWC EDI CORE REAL TIME SERVICE\n      - CCM Communication\n      - Healow API\n    grant_type: client_credentials\n    token_url: https://stage.entrykeyid.com/as/token.oauth2\n    scopes: [resource.read, openid, profile]\n    audience_required: true\n    audience_note: >-\n      Every catalogue entry carries an `audience` value (patientaccess, prtrdemographic, ewsext,\n      edicorertservice, CCMAPIUSER, edas, xkafdev). The gateway validates it, so a token minted\n      for one Centene API will not open another.\n  - id: public-no-auth\n    name: Anonymous\n    used_by:\n      - FHIR - Provider Directory\n    grant_type: none\n    note: >-\n      The catalogue entry records authentication \"None\" and an empty scope list, and this was\n      verified live - GET on the production Practitioner endpoint\
   \ returned HTTP 200 with a FHIR\n      searchset Bundle with no credential of any kind. CMS requires payer provider-directory data\n      to be publicly accessible without member authorization.\nschemes:\n  - name: oauth2\n    type: oauth2\n    flows:\n      - flow: clientCredentials\n        tokenUrl: https://stage.entrykeyid.com/as/token.oauth2\n        scopes: 1\n    sources:\n      - openapi/centene-provider-rtr-demographics-openapi.json\n      - openapi/centene-provider-rtr-fhir-pdex-openapi.json\n  - name: Bearer\n    type: http\n    scheme: bearer\n    sources:\n      - openapi/centene-fhir-patient-access-openapi.json\n  - name: Basic\n    type: http\n    scheme: basic\n    note: >-\n      Declared in three specs. For the Provider Directory this contradicts the catalogue entry and\n      the live behaviour, both of which say the API is anonymous - treat the spec block as stale.\n    sources:\n      - openapi/centene-fhir-provider-directory-openapi.json\n      - openapi/centene-product-mapping-v2-openapi.yaml\n\
   \      - openapi/centene-provider-search-suggest-openapi.yaml\n  - name: api_key\n    type: apiKey\n    in: header\n    parameter: api_key\n    sources:\n      - openapi/centene-pces-openapi.yaml\n      - openapi/centene-pces-extract-openapi.yaml\n  - name: clientID\n    type: apiKey\n    in: header\n    parameter: APIKey\n    sources:\n      - openapi/centene-edi-core-realtime-openapi.json\ngaps:\n  - >-\n    The OpenAPI documents do not declare the OAuth 2.0 authorization server the gateway actually\n    enforces; only two of twelve carry an oauth2 securityScheme, and those point at a staging\n    token endpoint (stage.entrykeyid.com) rather than production.\n  - >-\n    No securityScheme in any published spec references the SMART on FHIR scopes, so an agent\n    reading only the Patient Access OpenAPI would request no scopes and be rejected.\n  - No mutual TLS, DPoP, signed-request or token-binding requirement is published.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/authentication/centene-authentication.yml
+source_yaml_url: https://artifacts.apis.io/centene/authentication/centene-authentication.yml
 summary_line: oauth2/openIdConnect/http/apiKey/none · 5 schemes
 tags:
 - Healthcare

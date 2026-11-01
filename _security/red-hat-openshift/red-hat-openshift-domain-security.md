@@ -5,67 +5,67 @@ api_specs:
   label: Red Hat OpenShift Add-ons API
   slug: red-hat-openshift-add-ons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/openapi/red-hat-openshift-add-ons-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-openshift/openapi/red-hat-openshift-add-ons-api-openapi.yml
 - filename: red-hat-openshift-builds-api-openapi.yml
   format: yaml
   label: Red Hat OpenShift Builds API
   slug: red-hat-openshift-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/openapi/red-hat-openshift-builds-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-openshift/openapi/red-hat-openshift-builds-api-openapi.yml
 - filename: red-hat-openshift-clusters-api-openapi.yml
   format: yaml
   label: Red Hat OpenShift Clusters API
   slug: red-hat-openshift-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/openapi/red-hat-openshift-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-openshift/openapi/red-hat-openshift-clusters-api-openapi.yml
 - filename: red-hat-openshift-deployment-configs-api-openapi.yml
   format: yaml
   label: Red Hat OpenShift Deployment Configs API
   slug: red-hat-openshift-deployment-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/openapi/red-hat-openshift-deployment-configs-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-openshift/openapi/red-hat-openshift-deployment-configs-api-openapi.yml
 - filename: red-hat-openshift-identity-providers-api-openapi.yml
   format: yaml
   label: Red Hat OpenShift Identity Providers API
   slug: red-hat-openshift-identity-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/openapi/red-hat-openshift-identity-providers-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-openshift/openapi/red-hat-openshift-identity-providers-api-openapi.yml
 - filename: red-hat-openshift-image-streams-api-openapi.yml
   format: yaml
   label: Red Hat OpenShift Image Streams API
   slug: red-hat-openshift-image-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/openapi/red-hat-openshift-image-streams-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-openshift/openapi/red-hat-openshift-image-streams-api-openapi.yml
 - filename: red-hat-openshift-machine-pools-api-openapi.yml
   format: yaml
   label: Red Hat OpenShift Machine Pools API
   slug: red-hat-openshift-machine-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/openapi/red-hat-openshift-machine-pools-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-openshift/openapi/red-hat-openshift-machine-pools-api-openapi.yml
 - filename: red-hat-openshift-projects-api-openapi.yml
   format: yaml
   label: Red Hat OpenShift Projects API
   slug: red-hat-openshift-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/openapi/red-hat-openshift-projects-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-openshift/openapi/red-hat-openshift-projects-api-openapi.yml
 - filename: red-hat-openshift-routes-api-openapi.yml
   format: yaml
   label: Red Hat OpenShift Routes API
   slug: red-hat-openshift-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/openapi/red-hat-openshift-routes-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-openshift/openapi/red-hat-openshift-routes-api-openapi.yml
 - filename: red-hat-openshift-security-context-constraints-api-openapi.yml
   format: yaml
   label: Red Hat OpenShift Security Context Constraints API
   slug: red-hat-openshift-security-context-constraints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/openapi/red-hat-openshift-security-context-constraints-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-openshift/openapi/red-hat-openshift-security-context-constraints-api-openapi.yml
 - filename: red-hat-openshift-versions-api-openapi.yml
   format: yaml
   label: Red Hat OpenShift Versions API
   slug: red-hat-openshift-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/openapi/red-hat-openshift-versions-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-openshift/openapi/red-hat-openshift-versions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -121,7 +121,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.redhat.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.openshift.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 23:59:59 2026 GMT\n  hsts: null\n- host: api.openshift.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 11 09:27:05 2026 GMT\n  hsts: false\ndomains:\n- domain: redhat.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 iodef \"mailto:it-cert-admin@redhat.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: openshift.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\
   \n  - 0 issue \"ssl.com\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/security/red-hat-openshift-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/red-hat-openshift/security/red-hat-openshift-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Containers

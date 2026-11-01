@@ -5,19 +5,19 @@ api_specs:
   label: HitchPin Instant Invoice Share API
   slug: hitchpin-instant-invoice-share-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hitchpin/refs/heads/main/openapi/hitchpin-instant-invoice-share-api-openapi.yml
+  url: https://artifacts.apis.io/hitchpin/openapi/hitchpin-instant-invoice-share-api-openapi.yml
 - filename: hitchpin-instant-invoices-api-openapi.yml
   format: yaml
   label: HitchPin Instant Invoices API
   slug: hitchpin-instant-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hitchpin/refs/heads/main/openapi/hitchpin-instant-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/hitchpin/openapi/hitchpin-instant-invoices-api-openapi.yml
 - filename: hitchpin-rendering-api-openapi.yml
   format: yaml
   label: HitchPin Rendering API
   slug: hitchpin-rendering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hitchpin/refs/heads/main/openapi/hitchpin-rendering-api-openapi.yml
+  url: https://artifacts.apis.io/hitchpin/openapi/hitchpin-rendering-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: hitchpin-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hitchpin.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 10 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: hitchpin.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hitchpin/refs/heads/main/security/hitchpin-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hitchpin/security/hitchpin-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

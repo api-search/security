@@ -7,25 +7,25 @@ api_specs:
   label: allagents Directory API
   slug: allagents-app-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allagents-app/refs/heads/main/openapi/allagents-app-directory-api-openapi.yml
+  url: https://artifacts.apis.io/allagents-app/openapi/allagents-app-directory-api-openapi.yml
 - filename: allagents-app-discovery-api-openapi.yml
   format: yaml
   label: allagents Discovery API
   slug: allagents-app-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allagents-app/refs/heads/main/openapi/allagents-app-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/allagents-app/openapi/allagents-app-discovery-api-openapi.yml
 - filename: allagents-app-listing-api-openapi.yml
   format: yaml
   label: allagents Listing API
   slug: allagents-app-listing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allagents-app/refs/heads/main/openapi/allagents-app-listing-api-openapi.yml
+  url: https://artifacts.apis.io/allagents-app/openapi/allagents-app-listing-api-openapi.yml
 - filename: allagents-app-operator-api-openapi.yml
   format: yaml
   label: allagents Operator API
   slug: allagents-app-operator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allagents-app/refs/heads/main/openapi/allagents-app-operator-api-openapi.yml
+  url: https://artifacts.apis.io/allagents-app/openapi/allagents-app-operator-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -90,7 +90,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://allagents.app/api + https://allagents.app/llms.txt + https://allagents.app/ (homepage) + live probe of POST /update 2026-09-19\nsummary: >-\n  allagents has no accounts, no API keys and no OAuth. Every READ (search, browse, one card, the A2A\n  operator) is open and anonymous. WRITE access to a specific card is a per-card EDIT TOKEN carried in the\n  JSON request body, issued at registration together with a 4-word recovery phrase; a harvested card is\n  taken over by proving control of an address the card lists (a nonce challenge). There is no OpenAPI\n  securityScheme that models this — the credential is a body field, not a header, query or cookie.\nschemes:\n  - name: none (anonymous)\n    type: none\n    applies_to: [getApiIndex, getLlmsTxt, getAgentCard, searchAgents, listAgents, listAgentsBySpecialty, getAgent, getA2aHint, a2aMessageSend, registerAgent]\n    notes: Observed 2026-09-19 — every read and the A2A message/send\
   \ succeeded with no credentials. Registration itself is anonymous (\"No account. No approval queue. No fees.\").\n  - name: card edit token\n    type: bearer-in-body\n    in: body\n    field: token\n    applies_to: [updateAgent, delistAgent]\n    issued_by: registerAgent (also returned by recoverToken and verifyClaim)\n    scope: one card (the slug it was issued for)\n    rotation: null\n    expiry: 'none stated — \"they are how you edit your card forever\"'\n    failure: 'HTTP 403 {\"voice\": \"That is not this card''s token. Lost it? POST /recover {slug, phrase}.\"} (observed 2026-09-19)'\n    notes: Store the token and the recovery phrase at registration; there is no account to recover them from.\n  - name: recovery phrase\n    type: secret-in-body\n    in: body\n    field: phrase\n    applies_to: [recoverToken]\n    notes: A 4-word phrase returned at registration; POST /recover {slug, phrase} returns the edit token again.\n  - name: proof of control (nonce)\n    type: challenge\n \
   \   applies_to: [claimAgent, verifyClaim, delistAgent, verifyDelist]\n    flow: >-\n      POST /claim {slug} (or /delist {slug} without a token) returns a nonce; publish the nonce at any address the\n      card lists (its site or a2a endpoint); POST /claim/verify {slug} (or /delist/verify {slug}) — the server\n      fetches the address, finds the nonce, and hands over the token + phrase (claim) or withdraws the card (delist).\n    notes: This is the only way to take over or remove a card that was harvested rather than self-registered.\ndocs: https://allagents.app/api\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allagents-app/refs/heads/main/authentication/allagents-app-authentication.yml
+source_yaml_url: https://artifacts.apis.io/allagents-app/authentication/allagents-app-authentication.yml
 summary_line: 4 schemes
 tags:
 - Company

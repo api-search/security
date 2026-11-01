@@ -8,37 +8,37 @@ api_specs:
   label: Hourone General API
   slug: hourone-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/openapi/hourone-general-api-openapi.yml
+  url: https://artifacts.apis.io/hourone/openapi/hourone-general-api-openapi.yml
 - filename: hourone-keys-api-openapi.yml
   format: yaml
   label: Hourone Keys API
   slug: hourone-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/openapi/hourone-keys-api-openapi.yml
+  url: https://artifacts.apis.io/hourone/openapi/hourone-keys-api-openapi.yml
 - filename: hourone-playground-api-openapi.yml
   format: yaml
   label: Hourone Playground API
   slug: hourone-playground-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/openapi/hourone-playground-api-openapi.yml
+  url: https://artifacts.apis.io/hourone/openapi/hourone-playground-api-openapi.yml
 - filename: hourone-videos-api-openapi.yml
   format: yaml
   label: Hourone Videos API
   slug: hourone-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/openapi/hourone-videos-api-openapi.yml
+  url: https://artifacts.apis.io/hourone/openapi/hourone-videos-api-openapi.yml
 - filename: hourone-voice-preview-api-openapi.yml
   format: yaml
   label: Hourone Voice Preview API
   slug: hourone-voice-preview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/openapi/hourone-voice-preview-api-openapi.yml
+  url: https://artifacts.apis.io/hourone/openapi/hourone-voice-preview-api-openapi.yml
 - filename: hourone-webhook-api-openapi.yml
   format: yaml
   label: Hourone Webhook API
   slug: hourone-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/openapi/hourone-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/hourone/openapi/hourone-webhook-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -71,7 +71,7 @@ source_filename: hourone-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/hourone-openapi-original.json\ndocs: https://hourone.gitbook.io/api-docs/get-your-api-keys\nnotes: >-\n  Primary auth is a single API key sent in the `api-key` request header (docs:\n  \"Get Your API Keys\"). Only one key is active at a time; generating a new key\n  revokes the previous one; keys are encrypted and cannot be retrieved after\n  creation. Keys are managed via GET/POST/DELETE /keys. The OpenAPI also declares\n  an HTTP bearer scheme. No OAuth2 / OIDC scopes exist, so no scopes/ artifact.\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: APIKeyHeader\n  type: apiKey\n  in: header\n  parameter: api-key\n  sources:\n  - openapi/hourone-openapi-original.json\n- name: HTTPBearer\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/hourone-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/authentication/hourone-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hourone/authentication/hourone-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

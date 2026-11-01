@@ -44,7 +44,7 @@ source_filename: phantom-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: phantom.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 18:52:34 2026 GMT\n  hsts: false\n- host: docs.phantom.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 10 00:13:49 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: phantom.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 19:31:44 2026 GMT\n  hsts: false\ndomains:\n- domain: phantom.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: phantom.app\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/phantom/refs/heads/main/security/phantom-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/phantom/security/phantom-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Base

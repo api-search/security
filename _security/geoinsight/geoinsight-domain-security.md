@@ -5,55 +5,79 @@ api_specs:
   label: GeoInsight Collection ID API
   slug: geoinsight-collection-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-collection-id-api-openapi.yml
+  url: https://artifacts.apis.io/geoinsight/openapi/geoinsight-collection-id-api-openapi.yml
 - filename: geoinsight-collections-api-openapi.yml
   format: yaml
   label: GeoInsight Collections API
   slug: geoinsight-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-collections-api-openapi.yml
+  url: https://artifacts.apis.io/geoinsight/openapi/geoinsight-collections-api-openapi.yml
 - filename: geoinsight-data-api-openapi.yml
   format: yaml
   label: GeoInsight Data API
   slug: geoinsight-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-data-api-openapi.yml
+  url: https://artifacts.apis.io/geoinsight/openapi/geoinsight-data-api-openapi.yml
 - filename: geoinsight-dggrs-id-api-openapi.yml
   format: yaml
   label: GeoInsight DGGRS ID API
   slug: geoinsight-dggrs-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-dggrs-id-api-openapi.yml
+  url: https://artifacts.apis.io/geoinsight/openapi/geoinsight-dggrs-id-api-openapi.yml
 - filename: geoinsight-dggs-api-openapi.yml
   format: yaml
   label: GeoInsight DGGS API
   slug: geoinsight-dggs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-dggs-api-openapi.yml
+  url: https://artifacts.apis.io/geoinsight/openapi/geoinsight-dggs-api-openapi.yml
 - filename: geoinsight-items-api-openapi.yml
   format: yaml
   label: GeoInsight Items API
   slug: geoinsight-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-items-api-openapi.yml
+  url: https://artifacts.apis.io/geoinsight/openapi/geoinsight-items-api-openapi.yml
 - filename: geoinsight-root-api-openapi.yml
   format: yaml
   label: GeoInsight Root API
   slug: geoinsight-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-root-api-openapi.yml
+  url: https://artifacts.apis.io/geoinsight/openapi/geoinsight-root-api-openapi.yml
 - filename: geoinsight-zone-id-api-openapi.yml
   format: yaml
   label: GeoInsight Zone ID API
   slug: geoinsight-zone-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-zone-id-api-openapi.yml
+  url: https://artifacts.apis.io/geoinsight/openapi/geoinsight-zone-id-api-openapi.yml
 - filename: geoinsight-zones-api-openapi.yml
   format: yaml
   label: GeoInsight Zones API
   slug: geoinsight-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-zones-api-openapi.yml
+  url: https://artifacts.apis.io/geoinsight/openapi/geoinsight-zones-api-openapi.yml
+- filename: geoinsight-concept-id-api-openapi.yml
+  format: yaml
+  label: GeoInsight Concept ID API
+  slug: geoinsight-concept-id-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/geoinsight/openapi/geoinsight-concept-id-api-openapi.yml
+- filename: geoinsight-concepts-api-openapi.yml
+  format: yaml
+  label: GeoInsight Concepts API
+  slug: geoinsight-concepts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/geoinsight/openapi/geoinsight-concepts-api-openapi.yml
+- filename: geoinsight-conformance-api-openapi.yml
+  format: yaml
+  label: GeoInsight Conformance API
+  slug: geoinsight-conformance-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/geoinsight/openapi/geoinsight-conformance-api-openapi.yml
+- filename: geoinsight-orders-api-openapi.yml
+  format: yaml
+  label: GeoInsight Orders API
+  slug: geoinsight-orders-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/geoinsight/openapi/geoinsight-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -90,7 +114,7 @@ source_yaml: "generated: '2026-08-20'\nmethod: probed\nsource: live DNS/TLS/HTTP
   \      HTTP 200: strict-transport-security: max-age=15724800; includeSubDomains. max-age is 182 days,\n      below the 1-year value HSTS preload requires.\n  dead_or_misconfigured_hosts:\n    note: >-\n      Three GeoInsight subdomains resolve and accept TCP 443 but present a self-signed\n      \"O=Acme Co, CN=Kubernetes Ingress Controller Fake Certificate\" - the default certificate an\n      unconfigured ingress-nginx serves. An ordinary client cannot complete the handshake. Behind the\n      bad certificate every path returns a 404. Two of the three are load-bearing: the API's own root\n      document attributes to docs.geoinsight.ai, and the official PyPI package tells users to get their\n      credentials from dashboard.geoinsight.ai.\n    hosts:\n      - host: dggs.geoinsight.ai\n        ip: 62.113.194.100\n        tls: fake-kubernetes-ingress-certificate\n        cert_subject: O=Acme Co, CN=Kubernetes Ingress Controller Fake Certificate\n        cert_not_after: Jul 27 10:31:16 2027\
   \ GMT\n        http_status_all_paths: 404\n        server: nginx\n        note: Host previously recorded as this provider's baseURL. Corrected to api.geoinsight.ai.\n      - host: docs.geoinsight.ai\n        ip: 62.113.194.100\n        tls: fake-kubernetes-ingress-certificate\n        http_status_all_paths: 404\n        server: nginx\n        note: Named in the API root document's own attribution field. Serves nothing.\n      - host: dashboard.geoinsight.ai\n        ip: 64.225.143.189\n        tls: fake-kubernetes-ingress-certificate\n        cert_not_after: Jun  5 16:58:26 2027 GMT\n        http_status_all_paths: 404\n        body: default backend - 404\n        note: >-\n          Named in the official PyPI geoinsight package README as where a GeoInsight Personal Token and\n          API Private Key are issued. Serves nothing, so the documented credential path is unreachable.\n  dggs_io:\n    host: dggs.io\n    https: true\n    note: >-\n      Separate domain, same operator - the site\
   \ footer reads \"Powered by GeoInsight\" and links to\n      geoinsight.ai. Carries the DGGS tooling surface (API tester, zone browser, GeoParquet viewer).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/security/geoinsight-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/geoinsight/security/geoinsight-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Geospatial

@@ -7,43 +7,43 @@ api_specs:
   label: BankSA Banking Account Balances API
   slug: banksa-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banksa/refs/heads/main/openapi/banksa-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/banksa/openapi/banksa-banking-account-balances-api-openapi.yml
 - filename: banksa-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: BankSA Banking Account Direct Debits API
   slug: banksa-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banksa/refs/heads/main/openapi/banksa-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/banksa/openapi/banksa-banking-account-direct-debits-api-openapi.yml
 - filename: banksa-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: BankSA Banking Account Scheduled Payments API
   slug: banksa-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banksa/refs/heads/main/openapi/banksa-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/banksa/openapi/banksa-banking-account-scheduled-payments-api-openapi.yml
 - filename: banksa-banking-account-transactions-api-openapi.yml
   format: yaml
   label: BankSA Banking Account Transactions API
   slug: banksa-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banksa/refs/heads/main/openapi/banksa-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/banksa/openapi/banksa-banking-account-transactions-api-openapi.yml
 - filename: banksa-banking-accounts-api-openapi.yml
   format: yaml
   label: BankSA Banking Accounts API
   slug: banksa-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banksa/refs/heads/main/openapi/banksa-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/banksa/openapi/banksa-banking-accounts-api-openapi.yml
 - filename: banksa-banking-payees-api-openapi.yml
   format: yaml
   label: BankSA Banking Payees API
   slug: banksa-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banksa/refs/heads/main/openapi/banksa-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/banksa/openapi/banksa-banking-payees-api-openapi.yml
 - filename: banksa-banking-products-api-openapi.yml
   format: yaml
   label: BankSA Banking Products API
   slug: banksa-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banksa/refs/heads/main/openapi/banksa-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/banksa/openapi/banksa-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: >-\n  https://c
   \ by the CDR to be public\n    and unauthenticated. BankSA's live host returns HTTP 200 for these with no\n    Authorization header and no client certificate. A valid x-v version header\n    is still required (see conventions/banksa-conventions.yml).\n  sources: [openapi/banksa-cds-banking-products-openapi.yml]\n- name: CDRConsumerDataSharing\n  type: oauth2\n  scheme: FAPI 1.0 Advanced authorization-code with PAR + PKCE\n  description: >-\n    All consumer-data endpoints in this spec (accounts, balances, transactions,\n    direct debits, scheduled payments, payees) are only reachable by an\n    accredited data recipient (ADR) acting on a consumer's behalf. Authorization\n    uses OAuth 2.0 authorization-code with the OpenID Connect hybrid flow under\n    the FAPI 1.0 Advanced profile: Pushed Authorization Requests (PAR), PKCE,\n    request objects (JAR), and confirmation of the consumer's consent via the\n    CDR authorization server. Tokens are bound with mTLS sender-constrained\n  \
   \  access tokens.\n  flows:\n  - flow: authorizationCode\n    scopes: 9\n    detail: scopes/banksa-scopes.yml\n  sources: [openapi/banksa-cds-banking-products-openapi.yml]\n- name: CDRmTLS\n  type: mutualTLS\n  description: >-\n    The data-holder resource server is exposed on an mTLS endpoint (the OpenAPI\n    server is described as \"MTLS\"). Accredited data recipients present a client\n    certificate issued through the CDR Register PKI; access tokens are\n    sender-constrained (bound to the client certificate) per FAPI.\n  sources: [openapi/banksa-cds-banking-products-openapi.yml]\n- name: CDROpenIDConnect\n  type: openIdConnect\n  description: >-\n    Consumer authentication and consent are brokered through the data holder's\n    OpenID Provider, discovered by ADRs via the CDR Register rather than a public\n    /.well-known/openid-configuration on digital-api.banksa.com.au.\n  sources: [openapi/banksa-cds-banking-products-openapi.yml]\nnotes: >-\n  BankSA does not operate an independent\
   \ developer portal or issue self-service\n  API keys. There is no path to the consumer-data endpoints outside CDR\n  accreditation; the only openly consumable surface is the public PRD.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/banksa/refs/heads/main/authentication/banksa-authentication.yml
+source_yaml_url: https://artifacts.apis.io/banksa/authentication/banksa-authentication.yml
 summary_line: none/oauth2/openIdConnect/mutualTLS · 4 schemes
 tags:
 - Finance

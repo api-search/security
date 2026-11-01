@@ -40,7 +40,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: quanergy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 06:59:40 2026 GMT\n  hsts: false\n  x-note: 'Fronted by Sucuri/Cloudproxy; sends CSP upgrade-insecure-requests, X-Frame-Options\n    SAMEORIGIN, X-Content-Type-Options nosniff, but no Strict-Transport-Security.'\n- host: downloads.quanergy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 23:59:59 2026 GMT\n  cert_verify: 0 (ok)\n  hsts: false\n  x-note: 'AWS CloudFront (d37kvolyxq2d8.cloudfront.net). Hosts the public QORTEX DTC API\n    Reference, user guides and installers; probed 2026-08-05.'\ndomains:\n- domain: quanergy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n  nameservers: [ns43.domaincontrol.com, ns44.domaincontrol.com]\n  mx: Google Workspace (aspmx.l.google.com)\ngaps:\n- No HSTS on either host.\n- No DNSSEC and\
   \ no CAA records on quanergy.com.\n- 'No /.well-known/security.txt (RFC 9116) — probed 2026-08-05, HTTP 404.'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quanergy/refs/heads/main/security/quanergy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/quanergy/security/quanergy-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

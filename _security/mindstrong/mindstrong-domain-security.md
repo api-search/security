@@ -26,7 +26,7 @@ source_filename: mindstrong-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mindstrong.com\n  https: false\ndomains:\n- domain: mindstrong.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mindstrong/refs/heads/main/security/mindstrong-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mindstrong/security/mindstrong-domain-security.yml
 summary_line: DNSSEC · DMARC
 tags:
 - Company

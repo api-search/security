@@ -7,49 +7,49 @@ api_specs:
   label: BCB Group Accounts API
   slug: bcb-group-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bcb-group/openapi/bcb-group-accounts-api-openapi.yml
 - filename: bcb-group-authentication-api-openapi.yml
   format: yaml
   label: BCB Group Authentication API
   slug: bcb-group-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/bcb-group/openapi/bcb-group-authentication-api-openapi.yml
 - filename: bcb-group-beneficiaries-api-openapi.yml
   format: yaml
   label: BCB Group Beneficiaries API
   slug: bcb-group-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/bcb-group/openapi/bcb-group-beneficiaries-api-openapi.yml
 - filename: bcb-group-blinc-api-openapi.yml
   format: yaml
   label: BCB Group BLINC API
   slug: bcb-group-blinc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-blinc-api-openapi.yml
+  url: https://artifacts.apis.io/bcb-group/openapi/bcb-group-blinc-api-openapi.yml
 - filename: bcb-group-notifications-api-openapi.yml
   format: yaml
   label: BCB Group Notifications API
   slug: bcb-group-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/bcb-group/openapi/bcb-group-notifications-api-openapi.yml
 - filename: bcb-group-payments-api-openapi.yml
   format: yaml
   label: BCB Group Payments API
   slug: bcb-group-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-payments-api-openapi.yml
+  url: https://artifacts.apis.io/bcb-group/openapi/bcb-group-payments-api-openapi.yml
 - filename: bcb-group-tools-api-openapi.yml
   format: yaml
   label: BCB Group Tools API
   slug: bcb-group-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-tools-api-openapi.yml
+  url: https://artifacts.apis.io/bcb-group/openapi/bcb-group-tools-api-openapi.yml
 - filename: bcb-group-virtual-accounts-api-openapi.yml
   format: yaml
   label: BCB Group Virtual Accounts API
   slug: bcb-group-virtual-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-virtual-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bcb-group/openapi/bcb-group-virtual-accounts-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -87,7 +87,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://docs.bcb.group/docs/api-authentication.md\ndocs: https://docs.bcb.group/docs/api-authentication\nsummary:\n  types: [oauth2, http]\n  oauth2_flows: [clientCredentials]\n  bearer: true\nmodel: >-\n  All BCB Group Payments API calls require OAuth 2.0 Client Credentials Grant.\n  The application exchanges a Client ID and Client Secret at the token endpoint\n  for a short-lived Access Token, then presents it as a Bearer token in the\n  Authorization header of every request. Credentials are environment-specific\n  (separate Sandbox and Production Client ID/Secret).\nschemes:\n  - name: OAuth2ClientCredentials\n    type: oauth2\n    flow: clientCredentials\n    token_url: https://api.bcb.group/v1/auth/oauth/token\n    token_url_sandbox: https://api.uat.bcb.group/v1/auth/oauth/token\n    request: 'POST application/json {\"client_id\": \"...\", \"client_secret\": \"...\"}'\n    source: https://docs.bcb.group/reference/get-token\n\
   \  - name: BearerAuth\n    type: http\n    scheme: bearer\n    bearer_format: JWT\n    in: header\n    header: Authorization\n    note: >-\n      Access token returned by the token endpoint (access_token, expires_in unix\n      timestamp). The `scope` and `token_type` fields are documented as deprecated.\ncredentials_source: Provided by BCB Group on successful registration/onboarding; distinct per environment.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/authentication/bcb-group-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bcb-group/authentication/bcb-group-authentication.yml
 summary_line: oauth2/http · 2 schemes
 tags:
 - Company

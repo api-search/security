@@ -7,37 +7,37 @@ api_specs:
   label: Exotel AgentStream Voice Streaming API
   slug: exotel-agentstream-voice-streaming-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/asyncapi/exotel-asyncapi.yml
+  url: https://artifacts.apis.io/exotel/asyncapi/exotel-asyncapi.yml
 - filename: exotel-call-details-api-openapi.yml
   format: yaml
   label: Exotel Call Details API
   slug: exotel-call-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/openapi/exotel-call-details-api-openapi.yml
+  url: https://artifacts.apis.io/exotel/openapi/exotel-call-details-api-openapi.yml
 - filename: exotel-campaigns-api-openapi.yml
   format: yaml
   label: Exotel Campaigns API
   slug: exotel-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/openapi/exotel-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/exotel/openapi/exotel-campaigns-api-openapi.yml
 - filename: exotel-numbers-api-openapi.yml
   format: yaml
   label: Exotel Numbers API
   slug: exotel-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/openapi/exotel-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/exotel/openapi/exotel-numbers-api-openapi.yml
 - filename: exotel-sms-api-openapi.yml
   format: yaml
   label: Exotel SMS API
   slug: exotel-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/openapi/exotel-sms-api-openapi.yml
+  url: https://artifacts.apis.io/exotel/openapi/exotel-sms-api-openapi.yml
 - filename: exotel-voice-api-openapi.yml
   format: yaml
   label: Exotel Voice API
   slug: exotel-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/openapi/exotel-voice-api-openapi.yml
+  url: https://artifacts.apis.io/exotel/openapi/exotel-voice-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -66,7 +66,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: documented\nsource: https://developer.exotel.com/docs/references/authentication\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: >-\n    HTTP Basic authentication (RFC 7617). The API Key is the username and the\n    API Token is the password; both, with the Account SID, come from the\n    Exotel Dashboard -> Settings -> API Settings. Credentials may be passed as\n    an `Authorization: Basic base64(<api_key>:<api_token>)` header (recommended\n    for production) or embedded directly in the request URL as\n    `https://<api_key>:<api_token>@<subdomain>/v1/Accounts/<account_sid>/...`.\n    Region subdomains: api.exotel.com (Singapore, default) or api.in.exotel.com\n    (Mumbai/India). The Account SID also appears in every endpoint path.\n  sources:\n  - https://developer.exotel.com/docs/references/authentication\n  - https://developer.exotel.com/api/make-a-call-api\nnotes: >-\n  The AgentStream\
   \ WebSocket (wss://) surface does not use this API Basic auth:\n  Exotel connects outbound to a developer-hosted endpoint, and any auth is\n  whatever you enforce on your own wss:// endpoint (e.g. a token in the applet\n  URL surfaced back as custom_parameters).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/authentication/exotel-authentication.yml
+source_yaml_url: https://artifacts.apis.io/exotel/authentication/exotel-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Cloud Telephony

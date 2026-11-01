@@ -8,49 +8,49 @@ api_specs:
   label: Sarvam Pronunciation Dictionary API
   slug: sarvam-pronunciationdictionary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sarvam/refs/heads/main/openapi/sarvam-pronunciationdictionary-api-openapi.yml
+  url: https://artifacts.apis.io/sarvam/openapi/sarvam-pronunciationdictionary-api-openapi.yml
 - filename: sarvam-speechtotextjob-api-openapi.yml
   format: yaml
   label: Sarvam Speech To Text Job API
   slug: sarvam-speechtotextjob-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sarvam/refs/heads/main/openapi/sarvam-speechtotextjob-api-openapi.yml
+  url: https://artifacts.apis.io/sarvam/openapi/sarvam-speechtotextjob-api-openapi.yml
 - filename: sarvam-speechtotexttranslatejob-api-openapi.yml
   format: yaml
   label: Sarvam Speech To Text Translate Job API
   slug: sarvam-speechtotexttranslatejob-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sarvam/refs/heads/main/openapi/sarvam-speechtotexttranslatejob-api-openapi.yml
+  url: https://artifacts.apis.io/sarvam/openapi/sarvam-speechtotexttranslatejob-api-openapi.yml
 - filename: sarvam-text-api-openapi.yml
   format: yaml
   label: Sarvam Text API
   slug: sarvam-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sarvam/refs/heads/main/openapi/sarvam-text-api-openapi.yml
+  url: https://artifacts.apis.io/sarvam/openapi/sarvam-text-api-openapi.yml
 - filename: sarvam-chat-completions-api-openapi.yml
   format: yaml
   label: Sarvam Chat Completions API
   slug: sarvam-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sarvam/refs/heads/main/openapi/sarvam-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/sarvam/openapi/sarvam-chat-completions-api-openapi.yml
 - filename: sarvam-document-intelligence-api-openapi.yml
   format: yaml
   label: Sarvam Document Intelligence API
   slug: sarvam-document-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sarvam/refs/heads/main/openapi/sarvam-document-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/sarvam/openapi/sarvam-document-intelligence-api-openapi.yml
 - filename: sarvam-speech-to-text-api-openapi.yml
   format: yaml
   label: Sarvam Speech To Text API
   slug: sarvam-speech-to-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sarvam/refs/heads/main/openapi/sarvam-speech-to-text-api-openapi.yml
+  url: https://artifacts.apis.io/sarvam/openapi/sarvam-speech-to-text-api-openapi.yml
 - filename: sarvam-text-to-speech-api-openapi.yml
   format: yaml
   label: Sarvam Text To Speech API
   slug: sarvam-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sarvam/refs/heads/main/openapi/sarvam-text-to-speech-api-openapi.yml
+  url: https://artifacts.apis.io/sarvam/openapi/sarvam-text-to-speech-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -83,7 +83,7 @@ source_filename: sarvam-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/sarvam-openapi-original.json\ndocs: https://docs.sarvam.ai/api-reference/authentication\nnotes: >-\n  Primary auth is an API key sent in the `api-subscription-key` header;\n  `Authorization: Bearer <key>` is also accepted. Keys are generated manually\n  in the Sarvam dashboard. Authentication failures return HTTP 403 (not 401)\n  with error.code `invalid_api_key_error`. The SDK also reads SARVAM_API_KEY.\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: api-subscription-key\n  sources:\n  - openapi/sarvam-openapi-original.json\n- name: HTTPBearer\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/sarvam-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sarvam/refs/heads/main/authentication/sarvam-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sarvam/authentication/sarvam-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

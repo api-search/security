@@ -24,7 +24,7 @@ source_filename: airplane-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.airplane.dev\n  https: false\ndomains:\n- domain: airplane.dev\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airplane/refs/heads/main/security/airplane-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/airplane/security/airplane-domain-security.yml
 summary_line: DNSSEC · DMARC
 tags:
 - Company

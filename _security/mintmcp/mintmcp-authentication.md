@@ -7,7 +7,7 @@ api_specs:
   label: MintMCP API
   slug: mintmcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mintmcp/refs/heads/main/openapi/_ae-authored/mintmcp-openapi-generated.yml
+  url: https://artifacts.apis.io/mintmcp/openapi/_ae-authored/mintmcp-openapi-generated.yml
 auth_types: []
 description: Client authentication
 kind: authentication
@@ -30,10 +30,10 @@ source_filename: mintmcp-authentication.yml
 source_heading: Authentication Profile
 source_url: https://www.mintmcp.com/docs/authentication-models
 source_yaml: "generated: '2026-10-18'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://www.mintmcp.com/docs/authentication-models\nsources:\n- https://www.mintmcp.com/docs/authentication-models\n- https://www.mintmcp.com/docs/stdio-oauth-howto\n- https://www.mintmcp.com/docs/security/authentication-identity\n- https://www.mintmcp.com/docs/hosted-connector-oauth\ndescription: Client authentication\nschemes:\n- type: oauth2\n  name: OAuth\n  evidence: Every MCP server exposes an OAuth 2.0 endpoint. AI clients use this to get access tokens representing the user and the selected MCP\n    server.\ndocs: https://www.mintmcp.com/docs/authentication-models\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mintmcp/refs/heads/main/authentication/mintmcp-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mintmcp/authentication/mintmcp-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Platform
 - Enterprise
 - Security

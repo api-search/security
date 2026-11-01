@@ -5,19 +5,19 @@ api_specs:
   label: Relay App Runs API
   slug: relay-app-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relay-app/refs/heads/main/openapi/relay-app-runs-api-openapi.yml
+  url: https://artifacts.apis.io/relay-app/openapi/relay-app-runs-api-openapi.yml
 - filename: relay-app-webhooks-api-openapi.yml
   format: yaml
   label: Relay App Webhooks API
   slug: relay-app-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relay-app/refs/heads/main/openapi/relay-app-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/relay-app/openapi/relay-app-webhooks-api-openapi.yml
 - filename: relay-app-workflows-api-openapi.yml
   format: yaml
   label: Relay App Workflows API
   slug: relay-app-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relay-app/refs/heads/main/openapi/relay-app-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/relay-app/openapi/relay-app-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -55,7 +55,7 @@ source_filename: relay-app-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.relay.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 07:48:12 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.relay.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 13:45:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.relay.app\n  https: false\ndomains:\n- domain: relay.app\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/relay-app/refs/heads/main/security/relay-app-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/relay-app/security/relay-app-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Automation

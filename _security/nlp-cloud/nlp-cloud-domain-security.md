@@ -27,7 +27,7 @@ source_filename: nlp-cloud-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: nlpcloud.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 12:34:54 2026 GMT\n  hsts: false\ndomains:\n- domain: nlpcloud.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nlp-cloud/refs/heads/main/security/nlp-cloud-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nlp-cloud/security/nlp-cloud-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Machine Learning

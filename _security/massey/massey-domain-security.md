@@ -5,25 +5,25 @@ api_specs:
   label: Massey University Core API
   slug: massey-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/massey/refs/heads/main/openapi/massey-core-api-openapi.yml
+  url: https://artifacts.apis.io/massey/openapi/massey-core-api-openapi.yml
 - filename: massey-discovery-api-openapi.yml
   format: yaml
   label: Massey University Discovery API
   slug: massey-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/massey/refs/heads/main/openapi/massey-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/massey/openapi/massey-discovery-api-openapi.yml
 - filename: massey-news-api-openapi.yml
   format: yaml
   label: Massey University News API
   slug: massey-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/massey/refs/heads/main/openapi/massey-news-api-openapi.yml
+  url: https://artifacts.apis.io/massey/openapi/massey-news-api-openapi.yml
 - filename: massey-root-api-openapi.yml
   format: yaml
   label: Massey University Root API
   slug: massey-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/massey/refs/heads/main/openapi/massey-root-api-openapi.yml
+  url: https://artifacts.apis.io/massey/openapi/massey-root-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -63,7 +63,7 @@ source_filename: massey-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.massey.ac.nz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 23:59:59 2026 GMT\n  hsts: false\n- host: mro.massey.ac.nz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: massey.ac.nz\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"ssl.com\"\n  - 0 iodef \"mailto:certificates@massey.ac.nz\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/massey/refs/heads/main/security/massey-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/massey/security/massey-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Education

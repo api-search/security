@@ -27,7 +27,7 @@ source_filename: luxvisions-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.luxvisions-inno.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  6 06:16:04 2026 GMT\n  hsts: false\ndomains:\n- domain: luxvisions-inno.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/luxvisions/refs/heads/main/security/luxvisions-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/luxvisions/security/luxvisions-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

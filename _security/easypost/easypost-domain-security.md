@@ -5,43 +5,43 @@ api_specs:
   label: EasyPost Webhooks API
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/asyncapi/easypost-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/easypost/asyncapi/easypost-webhooks-asyncapi.yml
 - filename: easypost-addresses-api-openapi.yml
   format: yaml
   label: EasyPost Addresses API
   slug: easypost-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/openapi/easypost-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/easypost/openapi/easypost-addresses-api-openapi.yml
 - filename: easypost-parcels-api-openapi.yml
   format: yaml
   label: EasyPost Parcels API
   slug: easypost-parcels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/openapi/easypost-parcels-api-openapi.yml
+  url: https://artifacts.apis.io/easypost/openapi/easypost-parcels-api-openapi.yml
 - filename: easypost-refunds-api-openapi.yml
   format: yaml
   label: EasyPost Refunds API
   slug: easypost-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/openapi/easypost-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/easypost/openapi/easypost-refunds-api-openapi.yml
 - filename: easypost-reports-api-openapi.yml
   format: yaml
   label: EasyPost Reports API
   slug: easypost-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/openapi/easypost-reports-api-openapi.yml
+  url: https://artifacts.apis.io/easypost/openapi/easypost-reports-api-openapi.yml
 - filename: easypost-shipments-api-openapi.yml
   format: yaml
   label: EasyPost Shipments API
   slug: easypost-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/openapi/easypost-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/easypost/openapi/easypost-shipments-api-openapi.yml
 - filename: easypost-trackers-api-openapi.yml
   format: yaml
   label: EasyPost Trackers API
   slug: easypost-trackers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/openapi/easypost-trackers-api-openapi.yml
+  url: https://artifacts.apis.io/easypost/openapi/easypost-trackers-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -87,7 +87,7 @@ source_filename: easypost-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.easypost.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.easypost.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 20 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.easypost.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 20 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: easypost.com\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:webmaster@easypost.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  - 0 issuewild \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/security/easypost-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/easypost/security/easypost-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Shipping

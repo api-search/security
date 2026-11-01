@@ -5,19 +5,19 @@ api_specs:
   label: DerivaDEX Market API
   slug: derivadex-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/derivadex/refs/heads/main/openapi/derivadex-market-api-openapi.yml
+  url: https://artifacts.apis.io/derivadex/openapi/derivadex-market-api-openapi.yml
 - filename: derivadex-stats-api-openapi.yml
   format: yaml
   label: DerivaDEX Stats API
   slug: derivadex-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/derivadex/refs/heads/main/openapi/derivadex-stats-api-openapi.yml
+  url: https://artifacts.apis.io/derivadex/openapi/derivadex-stats-api-openapi.yml
 - filename: derivadex-system-api-openapi.yml
   format: yaml
   label: DerivaDEX System API
   slug: derivadex-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/derivadex/refs/heads/main/openapi/derivadex-system-api-openapi.yml
+  url: https://artifacts.apis.io/derivadex/openapi/derivadex-system-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: derivadex-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: derivadex.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 16:17:38 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.derivadex.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 07:55:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: exchange.derivadex.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 16:17:38 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: derivadex.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: derivadex.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/derivadex/refs/heads/main/security/derivadex-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/derivadex/security/derivadex-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

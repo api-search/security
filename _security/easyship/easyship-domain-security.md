@@ -5,43 +5,43 @@ api_specs:
   label: Easyship Addresses API
   slug: easyship-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easyship/refs/heads/main/openapi/easyship-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/easyship/openapi/easyship-addresses-api-openapi.yml
 - filename: easyship-labels-api-openapi.yml
   format: yaml
   label: Easyship Labels API
   slug: easyship-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easyship/refs/heads/main/openapi/easyship-labels-api-openapi.yml
+  url: https://artifacts.apis.io/easyship/openapi/easyship-labels-api-openapi.yml
 - filename: easyship-pickups-api-openapi.yml
   format: yaml
   label: Easyship Pickups API
   slug: easyship-pickups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easyship/refs/heads/main/openapi/easyship-pickups-api-openapi.yml
+  url: https://artifacts.apis.io/easyship/openapi/easyship-pickups-api-openapi.yml
 - filename: easyship-rates-api-openapi.yml
   format: yaml
   label: Easyship Rates API
   slug: easyship-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easyship/refs/heads/main/openapi/easyship-rates-api-openapi.yml
+  url: https://artifacts.apis.io/easyship/openapi/easyship-rates-api-openapi.yml
 - filename: easyship-shipments-api-openapi.yml
   format: yaml
   label: Easyship Shipments API
   slug: easyship-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easyship/refs/heads/main/openapi/easyship-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/easyship/openapi/easyship-shipments-api-openapi.yml
 - filename: easyship-trackings-api-openapi.yml
   format: yaml
   label: Easyship Trackings API
   slug: easyship-trackings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easyship/refs/heads/main/openapi/easyship-trackings-api-openapi.yml
+  url: https://artifacts.apis.io/easyship/openapi/easyship-trackings-api-openapi.yml
 - filename: easyship-webhooks-api-openapi.yml
   format: yaml
   label: Easyship Webhooks API
   slug: easyship-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easyship/refs/heads/main/openapi/easyship-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/easyship/openapi/easyship-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -87,7 +87,7 @@ source_filename: easyship-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.easyship.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 04:12:23 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: developers.easyship.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 02:24:31 2026 GMT\n  hsts: null\n- host: api.easyship.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 04:12:23 2026 GMT\n  hsts: null\ndomains:\n- domain: easyship.com\n  dnssec: true\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/easyship/refs/heads/main/security/easyship-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/easyship/security/easyship-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Shipping

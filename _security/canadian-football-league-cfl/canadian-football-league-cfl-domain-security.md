@@ -24,7 +24,7 @@ source_filename: canadian-football-league-cfl-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.cfl.ca\n  https: false\ndomains:\n- domain: cfl.ca\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canadian-football-league-cfl/refs/heads/main/security/canadian-football-league-cfl-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/canadian-football-league-cfl/security/canadian-football-league-cfl-domain-security.yml
 summary_line: DMARC
 tags:
 - Public APIs

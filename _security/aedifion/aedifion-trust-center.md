@@ -5,85 +5,85 @@ api_specs:
   label: aedifion MQTT API
   slug: aedifion-mqtt-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/asyncapi/aedifion-mqtt-asyncapi.yml
+  url: https://artifacts.apis.io/aedifion/asyncapi/aedifion-mqtt-asyncapi.yml
 - filename: aedifion-ai-api-openapi.yml
   format: yaml
   label: Aedifion AI API
   slug: aedifion-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-ai-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-ai-api-openapi.yml
 - filename: aedifion-alert-api-openapi.yml
   format: yaml
   label: Aedifion Alert API
   slug: aedifion-alert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-alert-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-alert-api-openapi.yml
 - filename: aedifion-analytics-api-openapi.yml
   format: yaml
   label: Aedifion Analytics API
   slug: aedifion-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-analytics-api-openapi.yml
 - filename: aedifion-company-api-openapi.yml
   format: yaml
   label: Aedifion Company API
   slug: aedifion-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-company-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-company-api-openapi.yml
 - filename: aedifion-component-api-openapi.yml
   format: yaml
   label: Aedifion Component API
   slug: aedifion-component-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-component-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-component-api-openapi.yml
 - filename: aedifion-controls-api-openapi.yml
   format: yaml
   label: Aedifion Controls API
   slug: aedifion-controls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-controls-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-controls-api-openapi.yml
 - filename: aedifion-datapoint-api-openapi.yml
   format: yaml
   label: Aedifion Datapoint API
   slug: aedifion-datapoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-datapoint-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-datapoint-api-openapi.yml
 - filename: aedifion-meta-api-openapi.yml
   format: yaml
   label: Aedifion Meta API
   slug: aedifion-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-meta-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-meta-api-openapi.yml
 - filename: aedifion-project-api-openapi.yml
   format: yaml
   label: Aedifion Project API
   slug: aedifion-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-project-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-project-api-openapi.yml
 - filename: aedifion-realm-api-openapi.yml
   format: yaml
   label: Aedifion Realm API
   slug: aedifion-realm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-realm-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-realm-api-openapi.yml
 - filename: aedifion-task-api-openapi.yml
   format: yaml
   label: Aedifion Task API
   slug: aedifion-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-task-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-task-api-openapi.yml
 - filename: aedifion-user-api-openapi.yml
   format: yaml
   label: Aedifion User API
   slug: aedifion-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-user-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-user-api-openapi.yml
 - filename: aedifion-time-series-api-openapi.yml
   format: yaml
   label: Aedifion Time Series API
   slug: aedifion-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-time-series-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-time-series-api-openapi.yml
 certification_count: 2
 certifications:
 - DIN EN ISO/IEC 27001
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-09-09'\nmethod: searched\nprobe: true\nurl: https
   \ true\n  certificate_http_status: 200\n  certificate_content_type: application/pdf\n  certificate_bytes: 302351\n- name: GDPR / DSGVO\n  status: compliant\n  evidence: Privacy policy published; all processing in Germany.\nhosting:\n  provider: Hetzner Online GmbH\n  locations: [Nuremberg, Falkenstein]\n  country: Germany\n  provider_certification: DIN ISO/IEC 27001\n  dedicated_option: 'On demand, aedifion stores and processes your data on dedicated servers.'\nsecurity_posture:\n  transport_encryption: TLS between edge device and platform; SSH as an alternative\n  certificates: X.509 from Let's Encrypt, renewed quarterly\n  access_control: >-\n    Role-based access control with read or write granularity on individual datapoints;\n    federation with LDAP and Active Directory via OpenID Connect, OAuth and SAML\n  penetration_testing: >-\n    Edge devices \"must pass an extensive series of functional and penetration tests\" before\n    commissioning. No platform-level pentest report or\
   \ summary is published.\n  uptime_commitment: '97%'\ncontact:\n  general: contact@aedifion.com\n  phone: '+49 221 98650-770'\n  page: https://www.aedifion.com/kontakt\nevidence:\n- source: https://www.aedifion.com/sicherheit\n  status: 200\n  keywords: [ISO 27001, DIN EN ISO/IEC 27001, INFAZ, DSGVO, Informationssicherheit]\n- source: https://docs.aedifion.io/en/products/general/security/overview/\n  status: 200\n  keywords: [TLS, X.509, RBAC, penetration tests, ISO 27001, Hetzner]\n- source: https://cdn.prod.website-files.com/6942a43e5bcce46ebe9f73a1/696e525b02ad6e609db2751c_2025_aedifion_certificate_iso-iec-27001_de.pdf\n  status: 200\ngaps:\n- No SOC 2 report.\n- No trust portal or subprocessor list.\n- No published vulnerability disclosure policy, security.txt or bug bounty - see below.\nvulnerability_disclosure:\n  published: false\n  security_txt: false\n  bug_bounty: false\n  policy_url: null\n  note: >-\n    Probed /.well-known/security.txt on all six known hosts (all 404 or SPA\
   \ shell), and checked\n    /security, /responsible-disclosure and /vulnerability-disclosure. No responsible-disclosure\n    policy, no security@ address and no bug-bounty program was found. The only route for a\n    researcher is the general contact address. For an ISO 27001 certified operator of building\n    control systems, a published disclosure channel is the clearest gap in this profile.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/security/aedifion-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/aedifion/security/aedifion-trust-center.yml
 summary_line: DIN EN ISO/IEC 27001, GDPR / DSGVO
 tags:
 - Building Automation

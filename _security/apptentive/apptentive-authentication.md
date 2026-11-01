@@ -9,25 +9,25 @@ api_specs:
   label: Apptentive Experimental API
   slug: apptentive-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/openapi/apptentive-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/apptentive/openapi/apptentive-experimental-api-openapi.yml
 - filename: apptentive-info-api-openapi.yml
   format: yaml
   label: Apptentive Info API
   slug: apptentive-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/openapi/apptentive-info-api-openapi.yml
+  url: https://artifacts.apis.io/apptentive/openapi/apptentive-info-api-openapi.yml
 - filename: apptentive-metrics-api-openapi.yml
   format: yaml
   label: Apptentive Metrics API
   slug: apptentive-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/openapi/apptentive-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/apptentive/openapi/apptentive-metrics-api-openapi.yml
 - filename: apptentive-raw-api-openapi.yml
   format: yaml
   label: Apptentive Raw API
   slug: apptentive-raw-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/openapi/apptentive-raw-api-openapi.yml
+  url: https://artifacts.apis.io/apptentive/openapi/apptentive-raw-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -55,7 +55,7 @@ source_filename: apptentive-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/apptentive-openapi-original.yml\ndocs: https://help.alchemer.com/help/alchemer-digital-api\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\nnotes: >-\n  API keys are generated and scoped by the customer from the Alchemer Digital dashboard\n  (\"completely self-manage API key generation and scope\"). Pass as the X-API-KEY header,\n  or optionally as the api_key query parameter. All access is over HTTPS/TLS.\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-KEY\n  query_alt: api_key\n  sources:\n  - openapi/apptentive-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/authentication/apptentive-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apptentive/authentication/apptentive-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

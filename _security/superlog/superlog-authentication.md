@@ -7,25 +7,25 @@ api_specs:
   label: Superlog API keys API
   slug: superlog-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/openapi/superlog-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/superlog/openapi/superlog-api-keys-api-openapi.yml
 - filename: superlog-github-integration-api-openapi.yml
   format: yaml
   label: Superlog GitHub integration API
   slug: superlog-github-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/openapi/superlog-github-integration-api-openapi.yml
+  url: https://artifacts.apis.io/superlog/openapi/superlog-github-integration-api-openapi.yml
 - filename: superlog-projects-api-openapi.yml
   format: yaml
   label: Superlog Projects API
   slug: superlog-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/openapi/superlog-projects-api-openapi.yml
+  url: https://artifacts.apis.io/superlog/openapi/superlog-projects-api-openapi.yml
 - filename: superlog-telemetry-read-api-openapi.yml
   format: yaml
   label: Superlog Telemetry read API
   slug: superlog-telemetry-read-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/openapi/superlog-telemetry-read-api-openapi.yml
+  url: https://artifacts.apis.io/superlog/openapi/superlog-telemetry-read-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: superlog-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/superlog-management-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: sl_management_*\n  sources:\n  - openapi/superlog-management-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/authentication/superlog-authentication.yml
+source_yaml_url: https://artifacts.apis.io/superlog/authentication/superlog-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

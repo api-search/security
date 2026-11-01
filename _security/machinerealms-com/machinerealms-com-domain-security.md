@@ -5,7 +5,7 @@ api_specs:
   label: Machine Realms Commons API
   slug: machinerealms-com-commons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/machinerealms-com/refs/heads/main/openapi/machinerealms-com-commons-api-openapi.yml
+  url: https://artifacts.apis.io/machinerealms-com/openapi/machinerealms-com-commons-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -34,7 +34,7 @@ source_filename: machinerealms-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: machinerealms.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  7 00:52:01 2026 GMT\n  hsts: null\ndomains:\n- domain: machinerealms.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/machinerealms-com/refs/heads/main/security/machinerealms-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/machinerealms-com/security/machinerealms-com-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Agents

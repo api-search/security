@@ -5,19 +5,19 @@ api_specs:
   label: Meteomatics Authentication API
   slug: meteomatics-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meteomatics/refs/heads/main/openapi/meteomatics-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/meteomatics/openapi/meteomatics-authentication-api-openapi.yml
 - filename: meteomatics-user-api-openapi.yml
   format: yaml
   label: Meteomatics User API
   slug: meteomatics-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meteomatics/refs/heads/main/openapi/meteomatics-user-api-openapi.yml
+  url: https://artifacts.apis.io/meteomatics/openapi/meteomatics-user-api-openapi.yml
 - filename: meteomatics-weather-data-api-openapi.yml
   format: yaml
   label: Meteomatics Weather Data API
   slug: meteomatics-weather-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meteomatics/refs/heads/main/openapi/meteomatics-weather-data-api-openapi.yml
+  url: https://artifacts.apis.io/meteomatics/openapi/meteomatics-weather-data-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: meteomatics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.meteomatics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 09:01:29 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.meteomatics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 21 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: meteomatics.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meteomatics/refs/heads/main/security/meteomatics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/meteomatics/security/meteomatics-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Weather

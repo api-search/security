@@ -5,25 +5,25 @@ api_specs:
   label: Sofar Ocean Devices API
   slug: sofar-ocean-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/openapi/sofar-ocean-devices-api-openapi.yml
+  url: https://artifacts.apis.io/sofar-ocean/openapi/sofar-ocean-devices-api-openapi.yml
 - filename: sofar-ocean-smart-mooring-api-openapi.yml
   format: yaml
   label: Sofar Ocean Smart Mooring API
   slug: sofar-ocean-smart-mooring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/openapi/sofar-ocean-smart-mooring-api-openapi.yml
+  url: https://artifacts.apis.io/sofar-ocean/openapi/sofar-ocean-smart-mooring-api-openapi.yml
 - filename: sofar-ocean-spotter-data-api-openapi.yml
   format: yaml
   label: Sofar Ocean Spotter Data API
   slug: sofar-ocean-spotter-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/openapi/sofar-ocean-spotter-data-api-openapi.yml
+  url: https://artifacts.apis.io/sofar-ocean/openapi/sofar-ocean-spotter-data-api-openapi.yml
 - filename: sofar-ocean-wave-spectra-api-openapi.yml
   format: yaml
   label: Sofar Ocean Wave Spectra API
   slug: sofar-ocean-wave-spectra-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/openapi/sofar-ocean-wave-spectra-api-openapi.yml
+  url: https://artifacts.apis.io/sofar-ocean/openapi/sofar-ocean-wave-spectra-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: sofar-ocean-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sofarocean.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 02:56:00 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.sofarocean.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 09:32:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.sofarocean.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: sofarocean.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/security/sofar-ocean-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sofar-ocean/security/sofar-ocean-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

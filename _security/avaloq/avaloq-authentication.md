@@ -7,31 +7,31 @@ api_specs:
   label: Avaloq Accounts API
   slug: avaloq-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/openapi/avaloq-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/avaloq/openapi/avaloq-accounts-api-openapi.yml
 - filename: avaloq-customers-api-openapi.yml
   format: yaml
   label: Avaloq Customers API
   slug: avaloq-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/openapi/avaloq-customers-api-openapi.yml
+  url: https://artifacts.apis.io/avaloq/openapi/avaloq-customers-api-openapi.yml
 - filename: avaloq-payment-status-api-openapi.yml
   format: yaml
   label: Avaloq Payment Status API
   slug: avaloq-payment-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/openapi/avaloq-payment-status-api-openapi.yml
+  url: https://artifacts.apis.io/avaloq/openapi/avaloq-payment-status-api-openapi.yml
 - filename: avaloq-payments-api-openapi.yml
   format: yaml
   label: Avaloq Payments API
   slug: avaloq-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/openapi/avaloq-payments-api-openapi.yml
+  url: https://artifacts.apis.io/avaloq/openapi/avaloq-payments-api-openapi.yml
 - filename: avaloq-transactions-api-openapi.yml
   format: yaml
   label: Avaloq Transactions API
   slug: avaloq-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/openapi/avaloq-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/avaloq/openapi/avaloq-transactions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -59,7 +59,7 @@ source_filename: avaloq-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/avaloq-banking-openapi.yml, openapi/avaloq-payments-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/avaloq-banking-openapi.yml\n  - openapi/avaloq-payments-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/authentication/avaloq-authentication.yml
+source_yaml_url: https://artifacts.apis.io/avaloq/authentication/avaloq-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Banking

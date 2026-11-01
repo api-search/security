@@ -5,19 +5,19 @@ api_specs:
   label: ToHuman Humanizations API
   slug: tohuman-humanizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tohuman/refs/heads/main/openapi/tohuman-humanizations-api-openapi.yml
+  url: https://artifacts.apis.io/tohuman/openapi/tohuman-humanizations-api-openapi.yml
 - filename: tohuman-humanize-api-openapi.yml
   format: yaml
   label: ToHuman Humanize API
   slug: tohuman-humanize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tohuman/refs/heads/main/openapi/tohuman-humanize-api-openapi.yml
+  url: https://artifacts.apis.io/tohuman/openapi/tohuman-humanize-api-openapi.yml
 - filename: tohuman-submit-api-openapi.yml
   format: yaml
   label: ToHuman Submit API
   slug: tohuman-submit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tohuman/refs/heads/main/openapi/tohuman-submit-api-openapi.yml
+  url: https://artifacts.apis.io/tohuman/openapi/tohuman-submit-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: tohuman-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tohuman.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 21:37:03 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: astral.sh\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 20 20:45:53 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: tohuman.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: astral.sh\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tohuman/refs/heads/main/security/tohuman-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tohuman/security/tohuman-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

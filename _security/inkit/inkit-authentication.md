@@ -8,31 +8,31 @@ api_specs:
   label: Inkit Batches API
   slug: inkit-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inkit/refs/heads/main/openapi/inkit-batches-api-openapi.yml
+  url: https://artifacts.apis.io/inkit/openapi/inkit-batches-api-openapi.yml
 - filename: inkit-documents-api-openapi.yml
   format: yaml
   label: Inkit Documents API
   slug: inkit-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inkit/refs/heads/main/openapi/inkit-documents-api-openapi.yml
+  url: https://artifacts.apis.io/inkit/openapi/inkit-documents-api-openapi.yml
 - filename: inkit-folders-api-openapi.yml
   format: yaml
   label: Inkit Folders API
   slug: inkit-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inkit/refs/heads/main/openapi/inkit-folders-api-openapi.yml
+  url: https://artifacts.apis.io/inkit/openapi/inkit-folders-api-openapi.yml
 - filename: inkit-renders-api-openapi.yml
   format: yaml
   label: Inkit Renders API
   slug: inkit-renders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inkit/refs/heads/main/openapi/inkit-renders-api-openapi.yml
+  url: https://artifacts.apis.io/inkit/openapi/inkit-renders-api-openapi.yml
 - filename: inkit-templates-api-openapi.yml
   format: yaml
   label: Inkit Templates API
   slug: inkit-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inkit/refs/heads/main/openapi/inkit-templates-api-openapi.yml
+  url: https://artifacts.apis.io/inkit/openapi/inkit-templates-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: inkit-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/inkit-document-generation-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-Inkit-API-Token\n  description: API token for Inkit authentication\n  sources:\n  - openapi/inkit-document-generation-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inkit/refs/heads/main/authentication/inkit-authentication.yml
+source_yaml_url: https://artifacts.apis.io/inkit/authentication/inkit-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Document Generation

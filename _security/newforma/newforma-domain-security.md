@@ -5,19 +5,19 @@ api_specs:
   label: Newforma Hub API
   slug: newforma-hub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newforma/refs/heads/main/openapi/newforma-hub-api-openapi.yml
+  url: https://artifacts.apis.io/newforma/openapi/newforma-hub-api-openapi.yml
 - filename: newforma-issue-api-openapi.yml
   format: yaml
   label: Newforma Issue API
   slug: newforma-issue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newforma/refs/heads/main/openapi/newforma-issue-api-openapi.yml
+  url: https://artifacts.apis.io/newforma/openapi/newforma-issue-api-openapi.yml
 - filename: newforma-project-api-openapi.yml
   format: yaml
   label: Newforma Project API
   slug: newforma-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newforma/refs/heads/main/openapi/newforma-project-api-openapi.yml
+  url: https://artifacts.apis.io/newforma/openapi/newforma-project-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: newforma-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.bimtrackapp.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 28 17:49:02 2026 GMT\n  hsts: null\ndomains:\n- domain: bimtrackapp.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/newforma/refs/heads/main/security/newforma-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/newforma/security/newforma-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

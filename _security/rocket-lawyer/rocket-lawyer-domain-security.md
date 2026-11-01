@@ -5,49 +5,49 @@ api_specs:
   label: Rocket Lawyer Binders API
   slug: rocket-lawyer-binders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-binders-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-lawyer/openapi/rocket-lawyer-binders-api-openapi.yml
 - filename: rocket-lawyer-documents-api-openapi.yml
   format: yaml
   label: Rocket Lawyer Documents API
   slug: rocket-lawyer-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-documents-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-lawyer/openapi/rocket-lawyer-documents-api-openapi.yml
 - filename: rocket-lawyer-event-consumption-api-openapi.yml
   format: yaml
   label: Rocket Lawyer Event Consumption API
   slug: rocket-lawyer-event-consumption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-event-consumption-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-lawyer/openapi/rocket-lawyer-event-consumption-api-openapi.yml
 - filename: rocket-lawyer-interviews-api-openapi.yml
   format: yaml
   label: Rocket Lawyer Interviews API
   slug: rocket-lawyer-interviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-interviews-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-lawyer/openapi/rocket-lawyer-interviews-api-openapi.yml
 - filename: rocket-lawyer-servicetoken-api-openapi.yml
   format: yaml
   label: Rocket Lawyer Servicetoken API
   slug: rocket-lawyer-servicetoken-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-servicetoken-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-lawyer/openapi/rocket-lawyer-servicetoken-api-openapi.yml
 - filename: rocket-lawyer-subscription-management-api-openapi.yml
   format: yaml
   label: Rocket Lawyer Subscription Management API
   slug: rocket-lawyer-subscription-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-subscription-management-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-lawyer/openapi/rocket-lawyer-subscription-management-api-openapi.yml
 - filename: rocket-lawyer-templates-api-openapi.yml
   format: yaml
   label: Rocket Lawyer Templates API
   slug: rocket-lawyer-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-templates-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-lawyer/openapi/rocket-lawyer-templates-api-openapi.yml
 - filename: rocket-lawyer-access-token-api-openapi.yml
   format: yaml
   label: Rocket Lawyer Access Token API
   slug: rocket-lawyer-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-access-token-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-lawyer/openapi/rocket-lawyer-access-token-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -93,7 +93,7 @@ source_filename: rocket-lawyer-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.rocketlawyer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  4 22:07:28 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.rocketlawyer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 16:40:13 2026 GMT\n  hsts: null\n- host: api.rocketlawyer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 20:08:33 2026 GMT\n  hsts: null\ndomains:\n- domain: rocketlawyer.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issue \"certainly.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/security/rocket-lawyer-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rocket-lawyer/security/rocket-lawyer-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Legal

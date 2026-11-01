@@ -7,13 +7,13 @@ api_specs:
   label: Agent Diff Diffs API
   slug: agent-diff-diffs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agent-diff/refs/heads/main/openapi/agent-diff-diffs-api-openapi.yml
+  url: https://artifacts.apis.io/agent-diff/openapi/agent-diff-diffs-api-openapi.yml
 - filename: agent-diff-sandboxes-api-openapi.yml
   format: yaml
   label: Agent Diff Sandboxes API
   slug: agent-diff-sandboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agent-diff/refs/heads/main/openapi/agent-diff-sandboxes-api-openapi.yml
+  url: https://artifacts.apis.io/agent-diff/openapi/agent-diff-sandboxes-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: agent-diff-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/agent-diff-sandbox-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token authentication for Agent Diff API.\n  sources:\n  - openapi/agent-diff-sandbox-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agent-diff/refs/heads/main/authentication/agent-diff-authentication.yml
+source_yaml_url: https://artifacts.apis.io/agent-diff/authentication/agent-diff-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - API Testing

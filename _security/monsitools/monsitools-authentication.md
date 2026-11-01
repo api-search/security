@@ -7,19 +7,19 @@ api_specs:
   label: MonsiTools Api Tools.json API
   slug: monsitools-api-tools-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monsitools/refs/heads/main/openapi/monsitools-api-tools-json-api-openapi.yml
+  url: https://artifacts.apis.io/monsitools/openapi/monsitools-api-tools-json-api-openapi.yml
 - filename: monsitools-calculate-api-openapi.yml
   format: yaml
   label: MonsiTools Calculate API
   slug: monsitools-calculate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monsitools/refs/heads/main/openapi/monsitools-calculate-api-openapi.yml
+  url: https://artifacts.apis.io/monsitools/openapi/monsitools-calculate-api-openapi.yml
 - filename: monsitools-keys-api-openapi.yml
   format: yaml
   label: MonsiTools Keys API
   slug: monsitools-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monsitools/refs/heads/main/openapi/monsitools-keys-api-openapi.yml
+  url: https://artifacts.apis.io/monsitools/openapi/monsitools-keys-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: monsitools-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-09'\nmethod: derived\nsource: openapi/monsitools-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: An API key (mt_live_...) for /api/calculate; a signed-in session token for /api/keys.\n  sources:\n  - openapi/monsitools-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/monsitools/refs/heads/main/authentication/monsitools-authentication.yml
+source_yaml_url: https://artifacts.apis.io/monsitools/authentication/monsitools-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

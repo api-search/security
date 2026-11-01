@@ -43,7 +43,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: myurbanjungle.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 22 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.myurbanjungle.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 22 23:59:59 2026 GMT\n  hsts: false\n  server: gunicorn\n  note: >-\n    Answers HTTP 200 with a two-byte \"OK\" body and access-control-allow-origin\n    \"*\". Every specification and .well-known path 404s. Added manually this\n    round; it is not an apis.yml baseURL because no documented API is served\n    from it.\n- host: hello.myurbanjungle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 13:51:06 2026 GMT\n  hsts: false\n  server: cloudflare\n  note: >-\n    Unbounce/Cloudflare marketing host serving the affiliate-programme landing\n    page. HEAD / returns 404; /partner-with-us/ returns 200.\ndomains:\n-\
   \ domain: myurbanjungle.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/urban-jungle/refs/heads/main/security/urban-jungle-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/urban-jungle/security/urban-jungle-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Insurance

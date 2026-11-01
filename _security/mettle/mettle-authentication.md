@@ -7,37 +7,37 @@ api_specs:
   label: Mettle ATM API
   slug: mettle-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/openapi/mettle-atm-api-openapi.yml
+  url: https://artifacts.apis.io/mettle/openapi/mettle-atm-api-openapi.yml
 - filename: mettle-bca-api-openapi.yml
   format: yaml
   label: Mettle BCA API
   slug: mettle-bca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/openapi/mettle-bca-api-openapi.yml
+  url: https://artifacts.apis.io/mettle/openapi/mettle-bca-api-openapi.yml
 - filename: mettle-branch-api-openapi.yml
   format: yaml
   label: Mettle Branch API
   slug: mettle-branch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/openapi/mettle-branch-api-openapi.yml
+  url: https://artifacts.apis.io/mettle/openapi/mettle-branch-api-openapi.yml
 - filename: mettle-ccc-api-openapi.yml
   format: yaml
   label: Mettle CCC API
   slug: mettle-ccc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/openapi/mettle-ccc-api-openapi.yml
+  url: https://artifacts.apis.io/mettle/openapi/mettle-ccc-api-openapi.yml
 - filename: mettle-pca-api-openapi.yml
   format: yaml
   label: Mettle PCA API
   slug: mettle-pca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/openapi/mettle-pca-api-openapi.yml
+  url: https://artifacts.apis.io/mettle/openapi/mettle-pca-api-openapi.yml
 - filename: mettle-sme-api-openapi.yml
   format: yaml
   label: Mettle SME API
   slug: mettle-sme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/openapi/mettle-sme-api-openapi.yml
+  url: https://artifacts.apis.io/mettle/openapi/mettle-sme-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -109,7 +109,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: >-\n  https://secure1.natwest.com/.well-known/openid-configuration (NatWest Group\n  Open Banking OpenID Provider) + OBIE FAPI Read/Write security profile\ndocs: https://www.bankofapis.com/products/accounts/documentation/mettle\nnotes: >-\n  The public Open Data (Product) API is unsecured (no credentials required to read\n  reference data). The Read/Write family (AIS/PIS/CBPII) is FAPI-secured against the\n  shared NatWest Group OpenID Provider. Onboarding requires OBIE/eIDAS OB Transport\n  and Signing certificates issued via the OpenBanking Directory and registration\n  through the Bank of APIs portal.\nsummary:\n  types: [oauth2, openIdConnect, mutualTLS]\n  api_key_in: []\n  oauth2_flows: [authorizationCode, clientCredentials, refreshToken]\n  open_data_api: unsecured\n  fapi: true\n  psd2_sca: true\nprovider:\n  issuer: https://secure1.natwest.com\n  authorization_endpoint: https://secure1.natwest.com/as/authorization.oauth2\n\
   \  token_endpoint: https://secure1t.natwest.com/as/token.oauth2\n  revocation_endpoint: https://secure1.natwest.com/as/revoke_token.oauth2\n  registration_endpoint: https://api.natwest.com/register/v1.0\n  jwks_uri: https://keystore.openbanking.org.uk/0015800000jfwxXAAQ/6htRg5BcPIKPQEMSacgHjn.jwks\nschemes:\n- name: OpenBankingOAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://secure1.natwest.com/as/authorization.oauth2\n    tokenUrl: https://secure1t.natwest.com/as/token.oauth2\n    use: AIS/PIS/CBPII customer-consent access (accounts, payments, fundsconfirmations)\n  - flow: clientCredentials\n    tokenUrl: https://secure1t.natwest.com/as/token.oauth2\n    use: TPP client access-token acquisition prior to consent\n  applies_to: [aisp, pisp, cbpii]\n- name: OpenIDConnect\n  type: openIdConnect\n  response_types: [code id_token]\n  id_token_signing_alg: [PS256, RS256, ES256]\n  request_object_signing_alg: [PS256, RS256, ES256]\n  acr_values: ['urn:openbanking:psd2:ca',\
   \ 'urn:openbanking:psd2:sca']\n  claims: [openbanking_intent_id, acr, sub, iss, aud, exp, iat]\n  note: FAPI hybrid flow; request object is a signed JWT carrying openbanking_intent_id\n- name: MutualTLS\n  type: mutualTLS\n  token_endpoint_auth_methods: [tls_client_auth, private_key_jwt]\n  note: >-\n    OBIE/eIDAS OB Transport certificate for the mTLS channel; OB Signing\n    certificate for detached JWS message signing on write operations.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/authentication/mettle-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mettle/authentication/mettle-authentication.yml
 summary_line: oauth2/openIdConnect/mutualTLS · 3 schemes
 tags:
 - Financial Services

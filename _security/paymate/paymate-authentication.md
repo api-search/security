@@ -8,37 +8,37 @@ api_specs:
   label: PayMate Businesses API
   slug: paymate-businesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/openapi/paymate-businesses-api-openapi.yml
+  url: https://artifacts.apis.io/paymate/openapi/paymate-businesses-api-openapi.yml
 - filename: paymate-cards-api-openapi.yml
   format: yaml
   label: PayMate Cards API
   slug: paymate-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/openapi/paymate-cards-api-openapi.yml
+  url: https://artifacts.apis.io/paymate/openapi/paymate-cards-api-openapi.yml
 - filename: paymate-collections-api-openapi.yml
   format: yaml
   label: PayMate Collections API
   slug: paymate-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/openapi/paymate-collections-api-openapi.yml
+  url: https://artifacts.apis.io/paymate/openapi/paymate-collections-api-openapi.yml
 - filename: paymate-contacts-api-openapi.yml
   format: yaml
   label: PayMate Contacts API
   slug: paymate-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/openapi/paymate-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/paymate/openapi/paymate-contacts-api-openapi.yml
 - filename: paymate-payments-api-openapi.yml
   format: yaml
   label: PayMate Payments API
   slug: paymate-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/openapi/paymate-payments-api-openapi.yml
+  url: https://artifacts.apis.io/paymate/openapi/paymate-payments-api-openapi.yml
 - filename: paymate-reference-api-openapi.yml
   format: yaml
   label: PayMate Reference API
   slug: paymate-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/openapi/paymate-reference-api-openapi.yml
+  url: https://artifacts.apis.io/paymate/openapi/paymate-reference-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-08-26'\nmethod: searched\nsource: https://api.pay
   \ exchange and\n    algorithm parameters are not published.\n- api: PayMate India Business Payments API (PMXClients)\n  scheme: MultiHeaderCredentials\n  type: apiKey\n  in: header\n  verified: true\n  parameters:\n  - name: MerchantIdentification\n    description: 32-digit alphanumeric merchant identifier issued by PayMate.\n    required: true\n  - name: TerminalIdentification\n    description: 32-digit alphanumeric terminal identifier issued by PayMate.\n    required: true\n  - name: XpressID\n    description: 10-digit alphanumeric PayMate account identifier.\n    required: true\n  - name: Email\n    description: >-\n      The registered signup email. Where an account has multiple users, passing that user's email applies\n      that user's role permissions; when absent the API assumes the Admin role.\n    required: true\n  payload_encryption: >-\n    Request and response JSON bodies are encrypted with AES-256 using a per-account key and IV published\n    in the account's Account Settings\
   \ > API Settings screen. The documentation states the key and IV can be\n    rotated by PayMate at any time.\n  network_controls: >-\n    The calling domain name or IP address must be whitelisted on the account before any call succeeds; error\n    code 192 is \"No Method Access for ip\" and 129 is \"Request from invalid Source\". The number of domains\n    permitted is a plan attribute (1 / 3 / 5 domains — see plans/paymate-plans-pricing.yml).\n  how_to_obtain: >-\n    Sign up, complete KYC verification, upgrade to a plan that includes API access, then whitelist the\n    calling domain/IP. Keys then appear under Account Settings > API Settings.\ngaps:\n- No OAuth 2.0, OpenID Connect or mTLS on either surface.\n- No published scope or permission model; authorization is role-based inside the PayMate account.\n- No published key-rotation procedure, key-prefix convention, or token expiry for the Global Partner API key.\n- The Global Partner API's credential header name is undocumented, so\
   \ an integrator cannot write a client\n  from the public documentation alone.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/authentication/paymate-authentication.yml
+source_yaml_url: https://artifacts.apis.io/paymate/authentication/paymate-authentication.yml
 summary_line: apiKey · 0 schemes
 tags:
 - Payments

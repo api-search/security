@@ -5,43 +5,43 @@ api_specs:
   label: LearnWorlds Courses API
   slug: learnworlds-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/openapi/learnworlds-courses-api-openapi.yml
+  url: https://artifacts.apis.io/learnworlds/openapi/learnworlds-courses-api-openapi.yml
 - filename: learnworlds-enrollments-api-openapi.yml
   format: yaml
   label: LearnWorlds Enrollments API
   slug: learnworlds-enrollments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/openapi/learnworlds-enrollments-api-openapi.yml
+  url: https://artifacts.apis.io/learnworlds/openapi/learnworlds-enrollments-api-openapi.yml
 - filename: learnworlds-payments-api-openapi.yml
   format: yaml
   label: LearnWorlds Payments API
   slug: learnworlds-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/openapi/learnworlds-payments-api-openapi.yml
+  url: https://artifacts.apis.io/learnworlds/openapi/learnworlds-payments-api-openapi.yml
 - filename: learnworlds-progress-api-openapi.yml
   format: yaml
   label: LearnWorlds Progress API
   slug: learnworlds-progress-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/openapi/learnworlds-progress-api-openapi.yml
+  url: https://artifacts.apis.io/learnworlds/openapi/learnworlds-progress-api-openapi.yml
 - filename: learnworlds-tags-api-openapi.yml
   format: yaml
   label: LearnWorlds Tags API
   slug: learnworlds-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/openapi/learnworlds-tags-api-openapi.yml
+  url: https://artifacts.apis.io/learnworlds/openapi/learnworlds-tags-api-openapi.yml
 - filename: learnworlds-users-api-openapi.yml
   format: yaml
   label: LearnWorlds Users API
   slug: learnworlds-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/openapi/learnworlds-users-api-openapi.yml
+  url: https://artifacts.apis.io/learnworlds/openapi/learnworlds-users-api-openapi.yml
 - filename: learnworlds-webhooks-api-openapi.yml
   format: yaml
   label: LearnWorlds Webhooks API
   slug: learnworlds-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/openapi/learnworlds-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/learnworlds/openapi/learnworlds-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: learnworlds-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.learnworlds.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 07:31:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.learnworlds.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 11:26:08 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: learnworlds.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: learnworlds.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/security/learnworlds-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/learnworlds/security/learnworlds-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Online Courses

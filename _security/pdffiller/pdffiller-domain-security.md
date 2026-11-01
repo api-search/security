@@ -5,67 +5,67 @@ api_specs:
   label: PDFfiller Applications API
   slug: pdffiller-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-applications-api-openapi.yml
+  url: https://artifacts.apis.io/pdffiller/openapi/pdffiller-applications-api-openapi.yml
 - filename: pdffiller-auth-api-openapi.yml
   format: yaml
   label: PDFfiller Auth API
   slug: pdffiller-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-auth-api-openapi.yml
+  url: https://artifacts.apis.io/pdffiller/openapi/pdffiller-auth-api-openapi.yml
 - filename: pdffiller-callbacks-api-openapi.yml
   format: yaml
   label: PDFfiller Callbacks API
   slug: pdffiller-callbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-callbacks-api-openapi.yml
+  url: https://artifacts.apis.io/pdffiller/openapi/pdffiller-callbacks-api-openapi.yml
 - filename: pdffiller-custom-logos-api-openapi.yml
   format: yaml
   label: PDFfiller Custom Logos API
   slug: pdffiller-custom-logos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-custom-logos-api-openapi.yml
+  url: https://artifacts.apis.io/pdffiller/openapi/pdffiller-custom-logos-api-openapi.yml
 - filename: pdffiller-fillable-forms-api-openapi.yml
   format: yaml
   label: PDFfiller Fillable Forms API
   slug: pdffiller-fillable-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-fillable-forms-api-openapi.yml
+  url: https://artifacts.apis.io/pdffiller/openapi/pdffiller-fillable-forms-api-openapi.yml
 - filename: pdffiller-folders-api-openapi.yml
   format: yaml
   label: PDFfiller Folders API
   slug: pdffiller-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-folders-api-openapi.yml
+  url: https://artifacts.apis.io/pdffiller/openapi/pdffiller-folders-api-openapi.yml
 - filename: pdffiller-signature-requests-api-openapi.yml
   format: yaml
   label: PDFfiller Signature Requests API
   slug: pdffiller-signature-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-signature-requests-api-openapi.yml
+  url: https://artifacts.apis.io/pdffiller/openapi/pdffiller-signature-requests-api-openapi.yml
 - filename: pdffiller-templates-api-openapi.yml
   format: yaml
   label: PDFfiller Templates API
   slug: pdffiller-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-templates-api-openapi.yml
+  url: https://artifacts.apis.io/pdffiller/openapi/pdffiller-templates-api-openapi.yml
 - filename: pdffiller-tokens-api-openapi.yml
   format: yaml
   label: PDFfiller Tokens API
   slug: pdffiller-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/pdffiller/openapi/pdffiller-tokens-api-openapi.yml
 - filename: pdffiller-tools-api-openapi.yml
   format: yaml
   label: PDFfiller Tools API
   slug: pdffiller-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-tools-api-openapi.yml
+  url: https://artifacts.apis.io/pdffiller/openapi/pdffiller-tools-api-openapi.yml
 - filename: pdffiller-users-api-openapi.yml
   format: yaml
   label: PDFfiller Users API
   slug: pdffiller-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-users-api-openapi.yml
+  url: https://artifacts.apis.io/pdffiller/openapi/pdffiller-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -106,7 +106,7 @@ source_filename: pdffiller-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.pdffiller.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.pdffiller.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 19:48:38 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.pdffiller.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  6 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: pdffiller.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/security/pdffiller-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pdffiller/security/pdffiller-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - PDF

@@ -5,25 +5,25 @@ api_specs:
   label: IntelyCare Check In / Check Out API
   slug: intelycare-check-in-check-out-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/openapi/intelycare-check-in-check-out-api-openapi.yml
+  url: https://artifacts.apis.io/intelycare/openapi/intelycare-check-in-check-out-api-openapi.yml
 - filename: intelycare-shift-api-openapi.yml
   format: yaml
   label: IntelyCare Shift API
   slug: intelycare-shift-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/openapi/intelycare-shift-api-openapi.yml
+  url: https://artifacts.apis.io/intelycare/openapi/intelycare-shift-api-openapi.yml
 - filename: intelycare-webhook-events-api-openapi.yml
   format: yaml
   label: IntelyCare Webhook Events API
   slug: intelycare-webhook-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/openapi/intelycare-webhook-events-api-openapi.yml
+  url: https://artifacts.apis.io/intelycare/openapi/intelycare-webhook-events-api-openapi.yml
 - filename: intelycare-time-card-api-openapi.yml
   format: yaml
   label: IntelyCare Time Card API
   slug: intelycare-time-card-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/openapi/intelycare-time-card-api-openapi.yml
+  url: https://artifacts.apis.io/intelycare/openapi/intelycare-time-card-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: intelycare-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-01'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.intelycare.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 13:08:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apidocs.intelycare.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 15:24:19 2026 GMT\n  hsts: false\n- host: api.intelycare.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: intelycare.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/security/intelycare-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/intelycare/security/intelycare-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Healthcare

@@ -7,259 +7,259 @@ api_specs:
   label: Integration.app (Membrane) Actions API
   slug: integration-app-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-actions-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-actions-api-openapi.yml
 - filename: integration-app-app-event-subscriptions-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) App Event Subscriptions API
   slug: integration-app-app-event-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-app-event-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-app-event-subscriptions-api-openapi.yml
 - filename: integration-app-connections-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Connections API
   slug: integration-app-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-connections-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-connections-api-openapi.yml
 - filename: integration-app-connectors-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Connectors API
   slug: integration-app-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-connectors-api-openapi.yml
 - filename: integration-app-customers-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Customers API
   slug: integration-app-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-customers-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-customers-api-openapi.yml
 - filename: integration-app-data-collections-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Data Collections API
   slug: integration-app-data-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-data-collections-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-data-collections-api-openapi.yml
 - filename: integration-app-external-event-subscriptions-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) External Event Subscriptions API
   slug: integration-app-external-event-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-external-event-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-external-event-subscriptions-api-openapi.yml
 - filename: integration-app-field-mappings-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Field Mappings API
   slug: integration-app-field-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-field-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-field-mappings-api-openapi.yml
 - filename: integration-app-flow-runs-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Flow Runs API
   slug: integration-app-flow-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-flow-runs-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-flow-runs-api-openapi.yml
 - filename: integration-app-flows-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Flows API
   slug: integration-app-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-flows-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-flows-api-openapi.yml
 - filename: integration-app-integrations-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Integrations API
   slug: integration-app-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-integrations-api-openapi.yml
 - filename: integration-app-logs-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Logs API
   slug: integration-app-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-logs-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-logs-api-openapi.yml
 - filename: integration-app-public-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Public API
   slug: integration-app-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-public-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-public-api-openapi.yml
 - filename: integration-app-search-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Search API
   slug: integration-app-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-search-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-search-api-openapi.yml
 - filename: integration-app-sessions-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Sessions API
   slug: integration-app-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-sessions-api-openapi.yml
 - filename: integration-app-act-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Act API
   slug: integration-app-act-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-act-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-act-api-openapi.yml
 - filename: integration-app-actionrunlogs-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Action Run Logs API
   slug: integration-app-actionrunlogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-actionrunlogs-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-actionrunlogs-api-openapi.yml
 - filename: integration-app-appdataschemas-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) App Data Schemas API
   slug: integration-app-appdataschemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-appdataschemas-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-appdataschemas-api-openapi.yml
 - filename: integration-app-appeventlogrecords-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) App Event Log Records API
   slug: integration-app-appeventlogrecords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-appeventlogrecords-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-appeventlogrecords-api-openapi.yml
 - filename: integration-app-appeventtypes-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) App Event Types API
   slug: integration-app-appeventtypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-appeventtypes-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-appeventtypes-api-openapi.yml
 - filename: integration-app-appsuniverse-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Apps Universe API
   slug: integration-app-appsuniverse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-appsuniverse-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-appsuniverse-api-openapi.yml
 - filename: integration-app-checkpoints-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Checkpoints API
   slug: integration-app-checkpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-checkpoints-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-checkpoints-api-openapi.yml
 - filename: integration-app-connectedproducts-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Connected Products API
   slug: integration-app-connectedproducts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-connectedproducts-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-connectedproducts-api-openapi.yml
 - filename: integration-app-connectorsuniverse-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Connectors Universe API
   slug: integration-app-connectorsuniverse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-connectorsuniverse-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-connectorsuniverse-api-openapi.yml
 - filename: integration-app-datalinktables-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Data Link Tables API
   slug: integration-app-datalinktables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-datalinktables-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-datalinktables-api-openapi.yml
 - filename: integration-app-exportmembraneinterfaces-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Export Membrane Interfaces API
   slug: integration-app-exportmembraneinterfaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-exportmembraneinterfaces-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-exportmembraneinterfaces-api-openapi.yml
 - filename: integration-app-externalapilogs-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) External API Logs API
   slug: integration-app-externalapilogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-externalapilogs-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-externalapilogs-api-openapi.yml
 - filename: integration-app-externaleventlogrecords-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) External Event Log Records API
   slug: integration-app-externaleventlogrecords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-externaleventlogrecords-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-externaleventlogrecords-api-openapi.yml
 - filename: integration-app-externaleventpulls-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) External Event Pulls API
   slug: integration-app-externaleventpulls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-externaleventpulls-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-externaleventpulls-api-openapi.yml
 - filename: integration-app-externaleventtypes-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) External Event Types API
   slug: integration-app-externaleventtypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-externaleventtypes-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-externaleventtypes-api-openapi.yml
 - filename: integration-app-files-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Files API
   slug: integration-app-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-files-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-files-api-openapi.yml
 - filename: integration-app-importmembraneinterfaces-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Import Membrane Interfaces API
   slug: integration-app-importmembraneinterfaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-importmembraneinterfaces-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-importmembraneinterfaces-api-openapi.yml
 - filename: integration-app-incomingwebhooksreader-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Incoming Webhooks Reader API
   slug: integration-app-incomingwebhooksreader-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-incomingwebhooksreader-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-incomingwebhooksreader-api-openapi.yml
 - filename: integration-app-orgworkspaces-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Org Workspaces API
   slug: integration-app-orgworkspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-orgworkspaces-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-orgworkspaces-api-openapi.yml
 - filename: integration-app-orgworkspacestransfer-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Org Workspaces Transfer API
   slug: integration-app-orgworkspacestransfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-orgworkspacestransfer-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-orgworkspacestransfer-api-openapi.yml
 - filename: integration-app-packages-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Packages API
   slug: integration-app-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-packages-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-packages-api-openapi.yml
 - filename: integration-app-packagesuniverse-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Packages Universe API
   slug: integration-app-packagesuniverse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-packagesuniverse-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-packagesuniverse-api-openapi.yml
 - filename: integration-app-tools-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Tools API
   slug: integration-app-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-tools-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-tools-api-openapi.yml
 - filename: integration-app-universe-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Universe API
   slug: integration-app-universe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-universe-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-universe-api-openapi.yml
 - filename: integration-app-workspaceelementssearch-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Workspace Elements Search API
   slug: integration-app-workspaceelementssearch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-workspaceelementssearch-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-workspaceelementssearch-api-openapi.yml
 - filename: integration-app-data-links-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Data links API
   slug: integration-app-data-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-data-links-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-data-links-api-openapi.yml
 - filename: integration-app-data-sources-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) Data Sources API
   slug: integration-app-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-data-sources-api-openapi.yml
 - filename: integration-app-external-apps-api-openapi.yml
   format: yaml
   label: Integration.app (Membrane) External Apps API
   slug: integration-app-external-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/openapi/integration-app-external-apps-api-openapi.yml
+  url: https://artifacts.apis.io/integration-app/openapi/integration-app-external-apps-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -357,7 +357,7 @@ source_yaml: "generated: '2026-09-13'\nmethod: searched\nsource: >-\n  https://d
   \ README; a credential in a URL is logged by intermediaries)\nopenid_connect:\n  present: false\n  evidence: /.well-known/openid-configuration returns 404 on api.getmembrane.com and docs.getmembrane.com.\ndownstream_credentials:\n  model: managed\n  description: >-\n    The connector layer holds OAuth1, OAuth2, client-credentials, API-key and auth-proxy credentials\n    for the external apps a customer connects, refreshes them transparently, and injects them into\n    proxied requests. The caller passes a connectionKey or connectionId and never sees the\n    third-party secret.\n  storage: >-\n    \"All tenant credentials are stored in encrypted form in the database. They are only decrypted\n    before making API requests. Decrypted versions are not stored anywhere outside the system\n    memory.\" - https://docs.getmembrane.com/docs/managing-membrane/security-and-privacy\n  revocation: >-\n    POST /connections/{id}/disconnect revokes and ERASES a connection's credentials; this is not\n\
   \    reversible and requires the end user to re-authenticate.\n  connector_auth_types:\n  - oauth2\n  - oauth1\n  - client-credentials\n  - auth-proxy\n  docs: https://docs.getmembrane.com/reference/workspace-elements/connectors/connector-types/oauth2\nprivilege_levels:\n- level: tenant\n  description: Token carries tenantKey; scoped to one customer's connections and data.\n- level: workspace\n  description: Token omits tenantKey; workspace-wide operations.\n- level: admin\n  description: >-\n    Required for some operations such as editing users. Generated per the admin-token section of the\n    authentication doc.\n  docs: https://docs.getmembrane.com/docs/how-membrane-works/authentication#admin-token\n- level: org read-only\n  description: >-\n    Read-only org access tokens, added 2026-08-11 per the changelog; GenerateOrgAccessTokenRequest\n    appears in the 2026-08-12 SDK release.\ngaps:\n- finding: >-\n    The published OpenAPI declares a single `bearer` http scheme and nothing\
   \ else. The OAuth server,\n    the dynamic client registration endpoint, the token expiry model and the admin/org privilege\n    levels are all documented only in prose or in well-known metadata, so a client generated from\n    the contract cannot authenticate to the MCP surface at all.\n  fixable_by: provider\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/authentication/integration-app-authentication.yml
+source_yaml_url: https://artifacts.apis.io/integration-app/authentication/integration-app-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Agentic Integrations

@@ -7,31 +7,31 @@ api_specs:
   label: 46elks Calls API
   slug: 46elks-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/openapi/46elks-calls-api-openapi.yml
+  url: https://artifacts.apis.io/46elks/openapi/46elks-calls-api-openapi.yml
 - filename: 46elks-media-api-openapi.yml
   format: yaml
   label: 46elks Media API
   slug: 46elks-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/openapi/46elks-media-api-openapi.yml
+  url: https://artifacts.apis.io/46elks/openapi/46elks-media-api-openapi.yml
 - filename: 46elks-mms-api-openapi.yml
   format: yaml
   label: 46elks MMS API
   slug: 46elks-mms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/openapi/46elks-mms-api-openapi.yml
+  url: https://artifacts.apis.io/46elks/openapi/46elks-mms-api-openapi.yml
 - filename: 46elks-numbers-api-openapi.yml
   format: yaml
   label: 46elks Numbers API
   slug: 46elks-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/openapi/46elks-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/46elks/openapi/46elks-numbers-api-openapi.yml
 - filename: 46elks-sms-api-openapi.yml
   format: yaml
   label: 46elks SMS API
   slug: 46elks-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/openapi/46elks-sms-api-openapi.yml
+  url: https://artifacts.apis.io/46elks/openapi/46elks-sms-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: 46elks-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/46elks-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication using your 46elks API username and API password from\n    the dashboard.\n  sources:\n  - openapi/46elks-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/authentication/46elks-authentication.yml
+source_yaml_url: https://artifacts.apis.io/46elks/authentication/46elks-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - CPaaS

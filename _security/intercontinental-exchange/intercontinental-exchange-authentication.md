@@ -8,7 +8,7 @@ api_specs:
   label: ICE Consolidated Feed API
   slug: consolidated-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/openapi/intercontinental-exchange-instruments-api-openapi.yml
+  url: https://artifacts.apis.io/intercontinental-exchange/openapi/intercontinental-exchange-instruments-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -45,7 +45,7 @@ source_filename: intercontinental-exchange-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-22'\nmethod: derived\nsource: openapi/intercontinental-exchange-instruments-api-openapi.yml, openapi/intercontinental-exchange-market-data-api-openapi.yml,\n  openapi/intercontinental-exchange-reference-data-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/intercontinental-exchange-instruments-api-openapi.yml\n  - openapi/intercontinental-exchange-market-data-api-openapi.yml\n  - openapi/intercontinental-exchange-reference-data-api-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/intercontinental-exchange-instruments-api-openapi.yml\n  - openapi/intercontinental-exchange-market-data-api-openapi.yml\n  - openapi/intercontinental-exchange-reference-data-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/authentication/intercontinental-exchange-authentication.yml
+source_yaml_url: https://artifacts.apis.io/intercontinental-exchange/authentication/intercontinental-exchange-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Commodities

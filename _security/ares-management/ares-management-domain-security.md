@@ -41,7 +41,7 @@ source_filename: ares-management-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts, extended by hand on 2026-09-18 to www.ares.com\n  / ares.com, the current corporate domain that aresmgmt.com now 301s to\nhosts:\n- host: www.aresmgmt.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  4 06:48:52 2026 GMT\n  hsts: null\n- host: www.ares.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 17 12:12:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\n  note: Current corporate host; aresmgmt.com redirects here.\ndomains:\n- domain: aresmgmt.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: ares.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n  note: No SPF TXT record observed at the apex on 2026-09-18 (DMARC is published via Proofpoint).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ares-management/refs/heads/main/security/ares-management-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ares-management/security/ares-management-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Alternative Investment

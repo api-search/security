@@ -7,61 +7,61 @@ api_specs:
   label: Vantiv Authorizations API
   slug: vantiv-authorizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-authorizations-api-openapi.yml
+  url: https://artifacts.apis.io/vantiv/openapi/vantiv-authorizations-api-openapi.yml
 - filename: vantiv-captures-api-openapi.yml
   format: yaml
   label: Vantiv Captures API
   slug: vantiv-captures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-captures-api-openapi.yml
+  url: https://artifacts.apis.io/vantiv/openapi/vantiv-captures-api-openapi.yml
 - filename: vantiv-chargebacks-api-openapi.yml
   format: yaml
   label: Vantiv Chargebacks API
   slug: vantiv-chargebacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-chargebacks-api-openapi.yml
+  url: https://artifacts.apis.io/vantiv/openapi/vantiv-chargebacks-api-openapi.yml
 - filename: vantiv-credits-api-openapi.yml
   format: yaml
   label: Vantiv Credits API
   slug: vantiv-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-credits-api-openapi.yml
+  url: https://artifacts.apis.io/vantiv/openapi/vantiv-credits-api-openapi.yml
 - filename: vantiv-documents-api-openapi.yml
   format: yaml
   label: Vantiv Documents API
   slug: vantiv-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-documents-api-openapi.yml
+  url: https://artifacts.apis.io/vantiv/openapi/vantiv-documents-api-openapi.yml
 - filename: vantiv-echeck-api-openapi.yml
   format: yaml
   label: Vantiv eCheck API
   slug: vantiv-echeck-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-echeck-api-openapi.yml
+  url: https://artifacts.apis.io/vantiv/openapi/vantiv-echeck-api-openapi.yml
 - filename: vantiv-recurring-api-openapi.yml
   format: yaml
   label: Vantiv Recurring API
   slug: vantiv-recurring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-recurring-api-openapi.yml
+  url: https://artifacts.apis.io/vantiv/openapi/vantiv-recurring-api-openapi.yml
 - filename: vantiv-sales-api-openapi.yml
   format: yaml
   label: Vantiv Sales API
   slug: vantiv-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-sales-api-openapi.yml
+  url: https://artifacts.apis.io/vantiv/openapi/vantiv-sales-api-openapi.yml
 - filename: vantiv-tokenization-api-openapi.yml
   format: yaml
   label: Vantiv Tokenization API
   slug: vantiv-tokenization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-tokenization-api-openapi.yml
+  url: https://artifacts.apis.io/vantiv/openapi/vantiv-tokenization-api-openapi.yml
 - filename: vantiv-voids-api-openapi.yml
   format: yaml
   label: Vantiv Voids API
   slug: vantiv-voids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-voids-api-openapi.yml
+  url: https://artifacts.apis.io/vantiv/openapi/vantiv-voids-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -88,7 +88,7 @@ source_filename: vantiv-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/vantiv-chargeback-openapi.yml, openapi/vantiv-cnp-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/vantiv-chargeback-openapi.yml\n  - openapi/vantiv-cnp-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/authentication/vantiv-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vantiv/authentication/vantiv-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Payments

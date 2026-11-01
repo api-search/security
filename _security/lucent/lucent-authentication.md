@@ -9,25 +9,25 @@ api_specs:
   label: Lucent Insights API
   slug: lucent-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/openapi/lucent-insights-api-openapi.yml
+  url: https://artifacts.apis.io/lucent/openapi/lucent-insights-api-openapi.yml
 - filename: lucent-issues-api-openapi.yml
   format: yaml
   label: Lucent Issues API
   slug: lucent-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/openapi/lucent-issues-api-openapi.yml
+  url: https://artifacts.apis.io/lucent/openapi/lucent-issues-api-openapi.yml
 - filename: lucent-sdk-api-openapi.yml
   format: yaml
   label: Lucent Sdk API
   slug: lucent-sdk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/openapi/lucent-sdk-api-openapi.yml
+  url: https://artifacts.apis.io/lucent/openapi/lucent-sdk-api-openapi.yml
 - filename: lucent-signals-api-openapi.yml
   format: yaml
   label: Lucent Signals API
   slug: lucent-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/openapi/lucent-signals-api-openapi.yml
+  url: https://artifacts.apis.io/lucent/openapi/lucent-signals-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -64,7 +64,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/lucent-openapi-original.json\ndocs: https://docs.lucenthq.com/api-reference/authentication\noauth_docs: https://docs.lucenthq.com/mcp/oauth\nsummary:\n  types:\n  - apiKey\n  - http\n  - oauth2\n  api_key_in:\n  - header\n  - query\n  oauth2:\n    profile: OAuth 2.1 (fronts the MCP endpoint; PKCE S256, Dynamic Client Registration, refresh tokens)\n    authorizationUrl: https://app.lucenthq.com/oauth/authorize\n    tokenUrl: https://app.lucenthq.com/api/oauth/token\n    scopes: [read:lucent, write:issues]\n    metadata:\n    - well-known/lucent-oauth-authorization-server.json\n    - well-known/lucent-oauth-protected-resource.json\n  token_prefixes:\n    luc_pk_: Ingest public key (write-only; X-Lucent-Api-Key header or api_key query)\n    luc_api_: Data API key (bearer)\n    luc_oat_: OAuth access token (bearer, 1h TTL)\n    luc_mcp_: Legacy static MCP bearer token\nschemes:\n- name: lucentApiKey\n  type: apiKey\n  in:\
   \ header\n  parameter: X-Lucent-Api-Key\n  description: Public key prefixed with `luc_pk_`. Safe to expose in client-side code. For `navigator.sendBeacon`\n    callers that cannot set headers, the key may also be passed as the `api_key` query parameter.\n  sources:\n  - openapi/lucent-openapi-original.json\n- name: lucentBearer\n  type: http\n  scheme: bearer\n  description: API keys prefixed with `luc_api_` or OAuth access tokens prefixed with `luc_oat_`.\n    Legacy static keys prefixed with `luc_mcp_` continue to work.\n  sources:\n  - openapi/lucent-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/authentication/lucent-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lucent/authentication/lucent-authentication.yml
 summary_line: apiKey/http/oauth2 · 2 schemes
 tags:
 - Company

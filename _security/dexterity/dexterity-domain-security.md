@@ -5,25 +5,25 @@ api_specs:
   label: Dexterity Games API
   slug: dexterity-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexterity/refs/heads/main/openapi/dexterity-games-api-openapi.yml
+  url: https://artifacts.apis.io/dexterity/openapi/dexterity-games-api-openapi.yml
 - filename: dexterity-leaderboard-api-openapi.yml
   format: yaml
   label: Dexterity Leaderboard API
   slug: dexterity-leaderboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexterity/refs/heads/main/openapi/dexterity-leaderboard-api-openapi.yml
+  url: https://artifacts.apis.io/dexterity/openapi/dexterity-leaderboard-api-openapi.yml
 - filename: dexterity-players-api-openapi.yml
   format: yaml
   label: Dexterity Players API
   slug: dexterity-players-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexterity/refs/heads/main/openapi/dexterity-players-api-openapi.yml
+  url: https://artifacts.apis.io/dexterity/openapi/dexterity-players-api-openapi.yml
 - filename: dexterity-system-api-openapi.yml
   format: yaml
   label: Dexterity System API
   slug: dexterity-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexterity/refs/heads/main/openapi/dexterity-system-api-openapi.yml
+  url: https://artifacts.apis.io/dexterity/openapi/dexterity-system-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -63,7 +63,7 @@ source_filename: dexterity-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dexterity.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 21:10:47 2026 GMT\n  hsts: false\n- host: dexterity.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 05:05:13 2026 GMT\n  hsts: false\ndomains:\n- domain: dexterity.ai\n  dnssec: true\n  caa:\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"globalsign.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dexterity/refs/heads/main/security/dexterity-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dexterity/security/dexterity-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Physical AI

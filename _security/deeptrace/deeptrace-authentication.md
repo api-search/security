@@ -8,13 +8,13 @@ api_specs:
   label: Deeptrace Chat API
   slug: deeptrace-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deeptrace/refs/heads/main/openapi/deeptrace-chat-api-openapi.yml
+  url: https://artifacts.apis.io/deeptrace/openapi/deeptrace-chat-api-openapi.yml
 - filename: deeptrace-investigations-api-openapi.yml
   format: yaml
   label: Deeptrace Investigations API
   slug: deeptrace-investigations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deeptrace/refs/heads/main/openapi/deeptrace-investigations-api-openapi.yml
+  url: https://artifacts.apis.io/deeptrace/openapi/deeptrace-investigations-api-openapi.yml
 auth_types:
 - apiKey
 - http-bearer
@@ -51,7 +51,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://docs.deeptrace.com/api.md\ndocs: https://docs.deeptrace.com/trigger-investigation\nsummary:\n  types: [apiKey, http-bearer]\n  api_key_in: [header]\n  api_key_header: X-API-Key\n  api_key_prefix: dt_\n  oauth2_flows: []\n  notes: >-\n    A single Deeptrace API key authenticates every REST endpoint. It may be sent\n    either as the X-API-Key header or as an Authorization: Bearer <key> token — the\n    two are interchangeable. Keys are created and revoked in the dashboard at\n    Settings > API Keys (https://app.deeptrace.com/api-keys). Dashboard/web app\n    sign-in is handled separately by Clerk (clerk.deeptrace.com); the API key is the\n    programmatic credential.\nschemes:\n  - name: ApiKeyHeader\n    type: apiKey\n    in: header\n    parameter: X-API-Key\n    prefix: dt_\n    sources: [https://docs.deeptrace.com/trigger-investigation]\n  - name: BearerAuth\n    type: http\n    scheme: bearer\n    description: 'Authorization:\
   \ Bearer <your_api_key> — the same Deeptrace API key.'\n    sources: [https://docs.deeptrace.com/send-chat, https://docs.deeptrace.com/get-chat]\nkey_management:\n  create: https://app.deeptrace.com/api-keys\n  settings: https://app.deeptrace.com/settings\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deeptrace/refs/heads/main/authentication/deeptrace-authentication.yml
+source_yaml_url: https://artifacts.apis.io/deeptrace/authentication/deeptrace-authentication.yml
 summary_line: apiKey/http-bearer · 2 schemes
 tags:
 - Company

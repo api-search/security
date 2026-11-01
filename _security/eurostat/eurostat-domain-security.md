@@ -5,49 +5,49 @@ api_specs:
   label: Eurostat Async API
   slug: eurostat-async-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/openapi/eurostat-async-api-openapi.yml
+  url: https://artifacts.apis.io/eurostat/openapi/eurostat-async-api-openapi.yml
 - filename: eurostat-catalogue-queries-api-openapi.yml
   format: yaml
   label: Eurostat Catalogue queries API
   slug: eurostat-catalogue-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/openapi/eurostat-catalogue-queries-api-openapi.yml
+  url: https://artifacts.apis.io/eurostat/openapi/eurostat-catalogue-queries-api-openapi.yml
 - filename: eurostat-sdmx-2-1-data-queries-api-openapi.yml
   format: yaml
   label: Eurostat SDMX 2.1 Data queries API
   slug: eurostat-sdmx-2-1-data-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/openapi/eurostat-sdmx-2-1-data-queries-api-openapi.yml
+  url: https://artifacts.apis.io/eurostat/openapi/eurostat-sdmx-2-1-data-queries-api-openapi.yml
 - filename: eurostat-sdmx-2-1-navigation-structure-queries-api-openapi.yml
   format: yaml
   label: Eurostat SDMX 2.1 Navigation Structure queries API
   slug: eurostat-sdmx-2-1-navigation-structure-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/openapi/eurostat-sdmx-2-1-navigation-structure-queries-api-openapi.yml
+  url: https://artifacts.apis.io/eurostat/openapi/eurostat-sdmx-2-1-navigation-structure-queries-api-openapi.yml
 - filename: eurostat-sdmx-2-1-structure-queries-api-openapi.yml
   format: yaml
   label: Eurostat SDMX 2.1 Structure queries API
   slug: eurostat-sdmx-2-1-structure-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/openapi/eurostat-sdmx-2-1-structure-queries-api-openapi.yml
+  url: https://artifacts.apis.io/eurostat/openapi/eurostat-sdmx-2-1-structure-queries-api-openapi.yml
 - filename: eurostat-sdmx-3-0-data-queries-api-openapi.yml
   format: yaml
   label: Eurostat SDMX 3.0 Data queries API
   slug: eurostat-sdmx-3-0-data-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/openapi/eurostat-sdmx-3-0-data-queries-api-openapi.yml
+  url: https://artifacts.apis.io/eurostat/openapi/eurostat-sdmx-3-0-data-queries-api-openapi.yml
 - filename: eurostat-sdmx-3-0-structure-queries-api-openapi.yml
   format: yaml
   label: Eurostat SDMX 3.0 Structure queries API
   slug: eurostat-sdmx-3-0-structure-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/openapi/eurostat-sdmx-3-0-structure-queries-api-openapi.yml
+  url: https://artifacts.apis.io/eurostat/openapi/eurostat-sdmx-3-0-structure-queries-api-openapi.yml
 - filename: eurostat-statistics-data-queries-api-openapi.yml
   format: yaml
   label: Eurostat Statistics data queries API
   slug: eurostat-statistics-data-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/openapi/eurostat-statistics-data-queries-api-openapi.yml
+  url: https://artifacts.apis.io/eurostat/openapi/eurostat-statistics-data-queries-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: eurostat-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ec.europa.eu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  7 13:10:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: europa.eu\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/security/eurostat-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/eurostat/security/eurostat-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Statistics

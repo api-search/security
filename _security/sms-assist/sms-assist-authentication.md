@@ -42,14 +42,14 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://developers.lessen.com/docs/#/client/authentication/client\ndocs:\n- https://developers.lessen.com/docs/#/client/authentication/client\n- https://developers.lessen.com/docs/#/vendor/authentication/vendor\nsummary:\n  types: [http, oauth2]\n  api_key_in: []\n  oauth2_flows: [clientCredentials]\n  model: >-\n    Token-based (bearer) authentication. Callers exchange HTTP Basic Auth\n    credentials (client-specific username/password issued per developer account\n    and environment) at a /token endpoint for a short-lived bearer access_token,\n    then send that token on every GraphQL request. Documentation notes OAuth 2.0\n    is the underlying protocol. Unauthorized calls return 401.\nschemes:\n- name: BasicAuthTokenExchange\n  type: http\n  scheme: basic\n  description: >-\n    HTTP Basic Auth (username + password) presented to the environment /token\n    endpoint to obtain an access_token. Client and Vendor surfaces\
   \ have separate\n    credentials and separate token endpoints.\n  token_endpoints:\n    client:\n      stage: https://meshstage.lessen.com/one-graph-client/token\n      dev: https://meshdev.lessen.com/one-graph-client/token\n      production: https://meshlive.lessen.com/one-graph-client/token\n    vendor:\n      stage: https://meshstage.lessen.com/one-graph-vendor/token\n      production: https://meshlive.lessen.com/one-graph-vendor/token\n- name: BearerToken\n  type: http\n  scheme: bearer\n  bearerFormat: access_token\n  description: >-\n    Bearer access_token returned by the /token endpoint, sent on every GraphQL\n    request. Expires after the period given by the response `expires_in`\n    property (Unix epoch time); regenerate by repeating the Basic Auth exchange.\nwebhook_auth:\n  description: >-\n    Outbound webhook deliveries are secured per subscription with an Application\n    Id and a shared Secret (HMAC signing key), and optionally JWT Bearer Token\n    authentication against\
   \ the subscriber's endpoint (added Oct 2025). Custom\n    header injection and per-endpoint test-connection validation are supported.\nsso:\n  description: >-\n    Client Portal and Resident Portal support SSO and SCIM 2.0 user\n    provisioning. Documented identity providers: Okta, OneLogin, and Azure AD.\n  docs: https://developers.lessen.com/docs/#/client/sso/overview\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sms-assist/refs/heads/main/authentication/sms-assist-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sms-assist/authentication/sms-assist-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
 - Facilities Management
 - Property Maintenance
 - Work Orders
-- Field Service
+- Field Service Management
 - Maintenance
 - Real Estate
 - GraphQL

@@ -8,19 +8,19 @@ api_specs:
   label: Teahouse Finance Logs API
   slug: teahouse-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teahouse/refs/heads/main/openapi/teahouse-logs-api-openapi.yml
+  url: https://artifacts.apis.io/teahouse/openapi/teahouse-logs-api-openapi.yml
 - filename: teahouse-performance-api-openapi.yml
   format: yaml
   label: Teahouse Finance Performance API
   slug: teahouse-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teahouse/refs/heads/main/openapi/teahouse-performance-api-openapi.yml
+  url: https://artifacts.apis.io/teahouse/openapi/teahouse-performance-api-openapi.yml
 - filename: teahouse-vaults-api-openapi.yml
   format: yaml
   label: Teahouse Finance Vaults API
   slug: teahouse-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teahouse/refs/heads/main/openapi/teahouse-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/teahouse/openapi/teahouse-vaults-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: teahouse-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://docs.teahouse.finance/docs/vault-api\ndocs: https://docs.teahouse.finance/docs/for-developers/vault-api-introduction\nnote: >-\n  Teahouse documents a 401 \"API Key verification failed\" response for the Vault\n  API, indicating API-key authentication is required for authenticated calls.\n  The exact header/parameter name is NOT published in the docs and must be\n  confirmed with the provider. Several read endpoints (the /vaults catalog)\n  appear to be publicly readable and are also consumed by third parties such as\n  DeFiLlama.\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  oauth2_flows: []\nschemes:\n  - name: ApiKeyAuth\n    type: apiKey\n    in: header\n    name: X-API-KEY\n    documented: partial\n    note: header name inferred/placeholder; provider does not publish it\n    sources: [openapi/teahouse-vault-openapi.yml]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teahouse/refs/heads/main/authentication/teahouse-authentication.yml
+source_yaml_url: https://artifacts.apis.io/teahouse/authentication/teahouse-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

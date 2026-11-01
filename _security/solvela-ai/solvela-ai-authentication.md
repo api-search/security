@@ -8,25 +8,25 @@ api_specs:
   label: Solvela Health API
   slug: solvela-ai-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solvela-ai/refs/heads/main/openapi/solvela-ai-health-api-openapi.yml
+  url: https://artifacts.apis.io/solvela-ai/openapi/solvela-ai-health-api-openapi.yml
 - filename: solvela-ai-models-api-openapi.yml
   format: yaml
   label: Solvela Models API
   slug: solvela-ai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solvela-ai/refs/heads/main/openapi/solvela-ai-models-api-openapi.yml
+  url: https://artifacts.apis.io/solvela-ai/openapi/solvela-ai-models-api-openapi.yml
 - filename: solvela-ai-receipts-api-openapi.yml
   format: yaml
   label: Solvela Receipts API
   slug: solvela-ai-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solvela-ai/refs/heads/main/openapi/solvela-ai-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/solvela-ai/openapi/solvela-ai-receipts-api-openapi.yml
 - filename: solvela-ai-chat-completions-api-openapi.yml
   format: yaml
   label: Solvela Chat Completions API
   slug: solvela-ai-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solvela-ai/refs/heads/main/openapi/solvela-ai-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/solvela-ai/openapi/solvela-ai-chat-completions-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -129,7 +129,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/solvela
   \    hashed. Rate limiting for key auth is per source IP rather than per wallet (docs comparison table).\n  used_by: ['/v1/orgs/... (undeclared in the OpenAPI; live GET /v1/orgs returned 401 \"Valid admin token or API key required\")', 'createChatCompletion (docs example shows Authorization: Bearer solvela_k_ on chat)']\n  issuance: enterprise account; no self-serve signup documented\n  sources:\n  - https://github.com/solvela-ai/solvela/blob/main/dashboard/content/docs/api/authentication.mdx\n- name: AdminToken\n  type: http\n  scheme: bearer\n  parameter: 'Authorization: Bearer <SOLVELA_ADMIN_TOKEN>'\n  audience: operator\n  description: Constant-time-compared operator token gating /metrics, /v1/escrow/health, /v1/admin/stats and POST /v1/services/register. When unset, /metrics is hidden (404).\n  observed: 'GET /metrics -> 401 \"unauthorized\"; GET /v1/admin/stats -> 401 {\"error\":\"unauthorized\"}'\n  sources:\n  - https://github.com/solvela-ai/solvela/blob/main/dashboard/content/docs/operations/security.mdx\n\
   - name: BearerCapabilities\n  type: capability\n  description: >-\n    Unguessable identifiers that are themselves the credential: the UUIDv4 receipt id returned in the\n    X-Solvela-Receipt header (GET /v1/receipts/{receipt_id}; unknown and malformed ids return identical 404s,\n    rate-capped per IP) and the A2A task id (tasks/get for ~10 minutes after the last state change). The\n    provider documents both as bearer capabilities to be kept secret.\n  sources:\n  - openapi/solvela-ai-openapi.json\n  - https://github.com/solvela-ai/solvela/blob/main/dashboard/content/docs/concepts/a2a.mdx\nwallet_identity:\n  format: Solana base58 public key\n  derived_from: the signer of the payment transaction (or the funding wallet of a channel)\n  used_for: [rate limiting, spend ledger, receipts (payer_wallet), enterprise org membership]\n  pii: none — the provider's regulatory-position document states no names, emails or identifiers are collected\ndiscovery_documents:\n  probed: '2026-09-19 on\
   \ api.solvela.ai and solvela-gateway.fly.dev'\n  openid_configuration: 404\n  oauth_authorization_server: 404\n  oauth_protected_resource: 404\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/solvela-ai/refs/heads/main/authentication/solvela-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/solvela-ai/authentication/solvela-ai-authentication.yml
 summary_line: apiKey/http · 4 schemes
 tags:
 - Company

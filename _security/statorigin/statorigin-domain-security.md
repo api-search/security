@@ -5,37 +5,37 @@ api_specs:
   label: StatOrigin Indicators API
   slug: statorigin-indicators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statorigin/refs/heads/main/openapi/statorigin-indicators-api-openapi.yml
+  url: https://artifacts.apis.io/statorigin/openapi/statorigin-indicators-api-openapi.yml
 - filename: statorigin-industries-api-openapi.yml
   format: yaml
   label: StatOrigin Industries API
   slug: statorigin-industries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statorigin/refs/heads/main/openapi/statorigin-industries-api-openapi.yml
+  url: https://artifacts.apis.io/statorigin/openapi/statorigin-industries-api-openapi.yml
 - filename: statorigin-regions-api-openapi.yml
   format: yaml
   label: StatOrigin Regions API
   slug: statorigin-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statorigin/refs/heads/main/openapi/statorigin-regions-api-openapi.yml
+  url: https://artifacts.apis.io/statorigin/openapi/statorigin-regions-api-openapi.yml
 - filename: statorigin-search-api-openapi.yml
   format: yaml
   label: StatOrigin Search API
   slug: statorigin-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statorigin/refs/heads/main/openapi/statorigin-search-api-openapi.yml
+  url: https://artifacts.apis.io/statorigin/openapi/statorigin-search-api-openapi.yml
 - filename: statorigin-sources-api-openapi.yml
   format: yaml
   label: StatOrigin Sources API
   slug: statorigin-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statorigin/refs/heads/main/openapi/statorigin-sources-api-openapi.yml
+  url: https://artifacts.apis.io/statorigin/openapi/statorigin-sources-api-openapi.yml
 - filename: statorigin-statistics-api-openapi.yml
   format: yaml
   label: StatOrigin Statistics API
   slug: statorigin-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statorigin/refs/heads/main/openapi/statorigin-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/statorigin/openapi/statorigin-statistics-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: statorigin-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: statorigin.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 14 08:28:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: statorigin.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/statorigin/refs/heads/main/security/statorigin-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/statorigin/security/statorigin-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

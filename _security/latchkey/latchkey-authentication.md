@@ -7,7 +7,7 @@ api_specs:
   label: Latchkey Jobs API Jobs API
   slug: latchkey-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/latchkey/refs/heads/main/openapi/latchkey-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/latchkey/openapi/latchkey-jobs-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -34,7 +34,7 @@ source_filename: latchkey-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-07'\nmethod: derived\nsource: openapi/latchkey-jobs-api-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: latchkeyApiKey\n  type: http\n  scheme: bearer\n  description: 'A Latchkey API key, sent as `Authorization: Bearer lk_live_...`. Create one\n    in the Latchkey dashboard. Scopes: `jobs:read` for getJob, getJobLogs and listJobs; `jobs:run`\n    for createJob, submitJob and cancelJob.'\n  sources:\n  - openapi/latchkey-jobs-api-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/latchkey/refs/heads/main/authentication/latchkey-authentication.yml
+source_yaml_url: https://artifacts.apis.io/latchkey/authentication/latchkey-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - CI/CD

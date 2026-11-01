@@ -5,13 +5,13 @@ api_specs:
   label: University of California, San Francisco Documents API
   slug: ucsf-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsf/refs/heads/main/openapi/ucsf-documents-api-openapi.yml
+  url: https://artifacts.apis.io/ucsf/openapi/ucsf-documents-api-openapi.yml
 - filename: ucsf-profiles-api-openapi.yml
   format: yaml
   label: University of California, San Francisco Profiles API
   slug: ucsf-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsf/refs/heads/main/openapi/ucsf-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/ucsf/openapi/ucsf-profiles-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: ucsf-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ucsf.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  2 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: profilesdeveloper.ucsf.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 13:20:57 2026 GMT\n  hsts: false\n- host: api.profiles.ucsf.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 04:51:25 2026 GMT\n  hsts: false\ndomains:\n- domain: ucsf.edu\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ucsf/refs/heads/main/security/ucsf-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ucsf/security/ucsf-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - University

@@ -1,11 +1,17 @@
 ---
 api_specs:
+- filename: claritymovement-openapi-generated.yml
+  format: yaml
+  label: Claritymovement API
+  slug: claritymovement-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/claritymovement/openapi/_ae-authored/claritymovement-openapi-generated.yml
 - filename: claritymovement-report-requests-api-openapi.yml
   format: yaml
   label: Claritymovement Report Requests API
   slug: claritymovement-report-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/claritymovement/refs/heads/main/openapi/claritymovement-report-requests-api-openapi.yml
+  url: https://artifacts.apis.io/claritymovement/openapi/claritymovement-report-requests-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -35,7 +41,7 @@ source_filename: claritymovement-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.clarity.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 19:48:01 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: clarity.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/claritymovement/refs/heads/main/security/claritymovement-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/claritymovement/security/claritymovement-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -5,19 +5,19 @@ api_specs:
   label: Zally Api Violations API
   slug: zally-api-violations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zally/refs/heads/main/openapi/zally-api-violations-api-openapi.yml
+  url: https://artifacts.apis.io/zally/openapi/zally-api-violations-api-openapi.yml
 - filename: zally-review-statistics-api-openapi.yml
   format: yaml
   label: Zally Review Statistics API
   slug: zally-review-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zally/refs/heads/main/openapi/zally-review-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/zally/openapi/zally-review-statistics-api-openapi.yml
 - filename: zally-supported-rules-api-openapi.yml
   format: yaml
   label: Zally Supported Rules API
   slug: zally-supported-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zally/refs/heads/main/openapi/zally-supported-rules-api-openapi.yml
+  url: https://artifacts.apis.io/zally/openapi/zally-supported-rules-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: zally-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: opensource.zalando.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 21:17:50 2026 GMT\n  hsts: false\n- host: zally.on.inter.net\n  https: false\ndomains:\n- domain: zalando.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: inter.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zally/refs/heads/main/security/zally-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zally/security/zally-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - API Design

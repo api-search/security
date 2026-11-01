@@ -1,41 +1,47 @@
 ---
 api_specs:
+- filename: cloudsek-openapi-generated.yml
+  format: yaml
+  label: CloudSEK API
+  slug: cloudsek-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cloudsek/openapi/_ae-authored/cloudsek-openapi-generated.yml
 - filename: cloudsek-bulk-api-openapi.yml
   format: yaml
   label: Cloudsek Bulk API
   slug: cloudsek-bulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudsek/refs/heads/main/openapi/cloudsek-bulk-api-openapi.yml
+  url: https://artifacts.apis.io/cloudsek/openapi/cloudsek-bulk-api-openapi.yml
 - filename: cloudsek-comments-api-openapi.yml
   format: yaml
   label: Cloudsek Comments API
   slug: cloudsek-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudsek/refs/heads/main/openapi/cloudsek-comments-api-openapi.yml
+  url: https://artifacts.apis.io/cloudsek/openapi/cloudsek-comments-api-openapi.yml
 - filename: cloudsek-events-api-openapi.yml
   format: yaml
   label: Cloudsek Events API
   slug: cloudsek-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudsek/refs/heads/main/openapi/cloudsek-events-api-openapi.yml
+  url: https://artifacts.apis.io/cloudsek/openapi/cloudsek-events-api-openapi.yml
 - filename: cloudsek-incidents-api-openapi.yml
   format: yaml
   label: Cloudsek Incidents API
   slug: cloudsek-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudsek/refs/heads/main/openapi/cloudsek-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/cloudsek/openapi/cloudsek-incidents-api-openapi.yml
 - filename: cloudsek-jobs-api-openapi.yml
   format: yaml
   label: Cloudsek Jobs API
   slug: cloudsek-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudsek/refs/heads/main/openapi/cloudsek-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/cloudsek/openapi/cloudsek-jobs-api-openapi.yml
 - filename: cloudsek-snapshot-api-openapi.yml
   format: yaml
   label: Cloudsek Snapshot API
   slug: cloudsek-snapshot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudsek/refs/heads/main/openapi/cloudsek-snapshot-api-openapi.yml
+  url: https://artifacts.apis.io/cloudsek/openapi/cloudsek-snapshot-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -71,7 +77,7 @@ source_filename: cloudsek-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cloudsek.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 14 08:17:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: cloudsek.com\n  dnssec: true\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudsek/refs/heads/main/security/cloudsek-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cloudsek/security/cloudsek-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Security

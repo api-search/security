@@ -27,7 +27,7 @@ source_filename: ajeer-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: iajeer.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 31 19:27:40 2026 GMT\n  hsts: false\ndomains:\n- domain: iajeer.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ajeer/refs/heads/main/security/ajeer-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ajeer/security/ajeer-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

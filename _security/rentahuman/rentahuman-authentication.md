@@ -8,19 +8,19 @@ api_specs:
   label: Rentahuman Bookings API
   slug: rentahuman-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentahuman/refs/heads/main/openapi/rentahuman-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/rentahuman/openapi/rentahuman-bookings-api-openapi.yml
 - filename: rentahuman-humans-api-openapi.yml
   format: yaml
   label: Rentahuman Humans API
   slug: rentahuman-humans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentahuman/refs/heads/main/openapi/rentahuman-humans-api-openapi.yml
+  url: https://artifacts.apis.io/rentahuman/openapi/rentahuman-humans-api-openapi.yml
 - filename: rentahuman-wallet-api-openapi.yml
   format: yaml
   label: Rentahuman Wallet API
   slug: rentahuman-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentahuman/refs/heads/main/openapi/rentahuman-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/rentahuman/openapi/rentahuman-wallet-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -65,7 +65,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://rentahuman.ai/api-docs\ndocs: https://rentahuman.ai/docs\nsummary:\n  types: [apiKey, http, firebase, mcp-identity]\n  api_key_in: [header]\n  notes: >-\n    The published OpenAPI declares no securitySchemes; the auth model is\n    documented in the developer docs and captured here (method: searched).\nschemes:\n  - name: ApiKeyHeader\n    type: apiKey\n    in: header\n    parameter: X-API-Key\n    format: rah_live_... (also rah_YOUR_API_KEY)\n    docs: https://rentahuman.ai/api-docs\n  - name: BearerToken\n    type: http\n    scheme: bearer\n    parameter: Authorization\n    format: Bearer rah_live_...\n    docs: https://rentahuman.ai/api-docs\n  - name: FirebaseSession\n    type: firebase\n    description: Firebase account authentication for protected/session endpoints.\n    docs: https://rentahuman.ai/docs\n  - name: McpIdentity\n    type: mcp-identity\n    description: Ed25519-backed MCP cryptographic identity,\
   \ bound via POST /api/keys/register-identity.\n    docs: https://rentahuman.ai/docs\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rentahuman/refs/heads/main/authentication/rentahuman-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rentahuman/authentication/rentahuman-authentication.yml
 summary_line: apiKey/http/firebase/mcp-identity · 4 schemes
 tags:
 - Company

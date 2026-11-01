@@ -5,25 +5,25 @@ api_specs:
   label: HyperPay COPYandPAY API
   slug: hyperpay-copyandpay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/openapi/hyperpay-copyandpay-api-openapi.yml
+  url: https://artifacts.apis.io/hyperpay/openapi/hyperpay-copyandpay-api-openapi.yml
 - filename: hyperpay-payments-api-openapi.yml
   format: yaml
   label: HyperPay Payments API
   slug: hyperpay-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/openapi/hyperpay-payments-api-openapi.yml
+  url: https://artifacts.apis.io/hyperpay/openapi/hyperpay-payments-api-openapi.yml
 - filename: hyperpay-query-api-openapi.yml
   format: yaml
   label: HyperPay Query API
   slug: hyperpay-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/openapi/hyperpay-query-api-openapi.yml
+  url: https://artifacts.apis.io/hyperpay/openapi/hyperpay-query-api-openapi.yml
 - filename: hyperpay-registrations-api-openapi.yml
   format: yaml
   label: HyperPay Registrations API
   slug: hyperpay-registrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/openapi/hyperpay-registrations-api-openapi.yml
+  url: https://artifacts.apis.io/hyperpay/openapi/hyperpay-registrations-api-openapi.yml
 description: ''
 domains: []
 hosts:
@@ -73,7 +73,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hyperpay.com\n  https: true\n  http_status: 200\n  cert_expires: Mar 26 23:59:59 2027 GMT\n  hsts: false\n- host: hyperpay.com\n  https: true\n  http_status: 301\n  note: Redirects to www.hyperpay.com.\n- host: eu-prod.oppwa.com\n  https: true\n  http_status: 200\n  cert_expires: Aug 11 00:52:34 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  hsts_include_subdomains: true\n  hsts_preload: true\n  note: Production (live) API host of the ACI / OPPWA platform HyperPay runs on.\n- host: test.oppwa.com\n  https: true\n  http_status: 200\n  cert_expires: Aug 11 00:52:34 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  hsts_include_subdomains: true\n  hsts_preload: true\n  note: Integration / test API host.\n- host: hyperpay.docs.oppwa.com\n  https: true\n  http_status: 200\n  note: Developer documentation portal.\nnotes: >-\n  API traffic terminates on\
   \ the ACI / OPPWA hosts (eu-prod.oppwa.com live,\n  test.oppwa.com test), which enforce HSTS with a two-year max-age, subdomain\n  inclusion, and preload. All payment operations require TLS. HyperPay is a\n  PCI-DSS Level 1 certified payment service provider; using the COPYandPAY widget\n  keeps raw card data off the merchant server, while Server-to-Server requires the\n  merchant to hold PCI-DSS scope.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/security/hyperpay-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hyperpay/security/hyperpay-domain-security.yml
 summary_line: HSTS
 tags:
 - Payments

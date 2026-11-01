@@ -8,37 +8,37 @@ api_specs:
   label: Hey API Get API
   slug: hey-api-get-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/openapi/hey-api-get-api-openapi.yml
+  url: https://artifacts.apis.io/hey-api/openapi/hey-api-get-api-openapi.yml
 - filename: hey-api-hey-api-api-openapi.yml
   format: yaml
   label: Hey API Hey API
   slug: hey-api-hey-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/openapi/hey-api-hey-api-api-openapi.yml
+  url: https://artifacts.apis.io/hey-api/openapi/hey-api-hey-api-api-openapi.yml
 - filename: hey-api-internal-api-openapi.yml
   format: yaml
   label: Hey API Internal API
   slug: hey-api-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/openapi/hey-api-internal-api-openapi.yml
+  url: https://artifacts.apis.io/hey-api/openapi/hey-api-internal-api-openapi.yml
 - filename: hey-api-organizations-api-openapi.yml
   format: yaml
   label: Hey API Organizations API
   slug: hey-api-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/openapi/hey-api-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/hey-api/openapi/hey-api-organizations-api-openapi.yml
 - filename: hey-api-specifications-api-openapi.yml
   format: yaml
   label: Hey API Specifications API
   slug: hey-api-specifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/openapi/hey-api-specifications-api-openapi.yml
+  url: https://artifacts.apis.io/hey-api/openapi/hey-api-specifications-api-openapi.yml
 - filename: hey-api-users-api-openapi.yml
   format: yaml
   label: Hey API Users API
   slug: hey-api-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/openapi/hey-api-users-api-openapi.yml
+  url: https://artifacts.apis.io/hey-api/openapi/hey-api-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-08-06'\nmethod: searched\nsource: openapi/hey-api
   \      shell history. Prefer the Authorization header where the toolchain allows.\nkey_types:\n  - name: project API key\n    scope: one project\n    issued_at: app.heyapi.dev > project > Integrations > APIs\n    can_upload: true\n    intended_for: CI workflows (the hey-api/upload-openapi-spec GitHub Action reads it from $API_KEY)\n  - name: personal API key\n    scope: the user's accessible projects\n    issued_at: https://app.heyapi.dev/settings/user/apis\n    can_upload: false\n    intended_for: local development / pulling specs\n    evidence: 'Docs: \"Personal API keys can''t be used to upload specifications.\"'\nanonymous_access:\n  - operation: GET /\n    note: Unauthenticated liveness response — \"Hey API Backend v1.0.0\".\n  - operation: GET /v1/get/{organization_slug}/{project_slug}\n    note: >-\n      The spec declares an empty security requirement `{}` alongside ApiKey and\n      Clerk, i.e. anonymous access is permitted for PUBLIC projects. Projects\n      are private by default;\
   \ hey-api/backend is public, which is how this\n      repo harvested the platform OpenAPI without credentials.\nkey_lifecycle:\n  create: POST /v1/organizations/{organization_slug}/projects/{project_slug}/api-keys\n  list: GET /v1/organizations/{organization_slug}/projects/{project_slug}/api-keys\n  rotate_or_update: POST /v1/organizations/{organization_slug}/projects/{project_slug}/api-keys/{api_key_id}\n  revoke: DELETE /v1/organizations/{organization_slug}/projects/{project_slug}/api-keys/{api_key_id}\n  personal_keys: /v1/users/{user_id}/api-keys\n  last_used_tracking: 'ApiKeyConcealed.last_used_at is returned on every key listing'\n  value_disclosure: >-\n    The full key value is only present on the `ApiKey` schema (returned at\n    creation); listings return `ApiKeyConcealed`, which omits `value`.\noauth2: false\nscopes: none\nnotes: >-\n  No OAuth 2.0 and no OpenID Connect provider metadata is exposed by Hey API\n  itself — /.well-known/openid-configuration and\n  /.well-known/oauth-authorization-server\
   \ both 404 on every host. Console\n  identity is delegated to Clerk; API-to-API identity is a bearer API key.\n  There is therefore no scopes/ artifact for this provider.\nx-evidence:\n  fetched: '2026-08-06'\n  spec_url: https://api.heyapi.dev/v1/get/hey-api/backend\n  spec_http_status: 200\n  docs_url: https://heyapi.dev/docs/openapi/typescript/integrations\n  docs_http_status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/authentication/hey-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hey-api/authentication/hey-api-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Code Generation

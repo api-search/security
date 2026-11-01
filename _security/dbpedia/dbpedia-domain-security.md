@@ -38,7 +38,7 @@ source_filename: dbpedia-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dbpedia.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 12:04:40 2026 GMT\n  hsts: true\n  hsts_max_age: 15768000\n- host: dbpedia.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 01:05:38 2026 GMT\n  hsts: true\n  hsts_max_age: 15768000\n- host: lookup.dbpedia.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 10 08:11:57 2026 GMT\n  hsts: false\ndomains:\n- domain: dbpedia.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dbpedia/refs/heads/main/security/dbpedia-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dbpedia/security/dbpedia-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Linked Data

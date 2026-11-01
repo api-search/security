@@ -8,37 +8,43 @@ api_specs:
   label: Climate Engine Home API
   slug: climate-engine-home-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-home-api-openapi.yml
+  url: https://artifacts.apis.io/climate-engine/openapi/climate-engine-home-api-openapi.yml
 - filename: climate-engine-metadata-api-openapi.yml
   format: yaml
   label: Climate Engine Metadata API
   slug: climate-engine-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-metadata-api-openapi.yml
-- filename: climate-engine-raster-api-openapi.yml
-  format: yaml
-  label: Climate Engine Raster API
-  slug: climate-engine-raster-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-raster-api-openapi.yml
+  url: https://artifacts.apis.io/climate-engine/openapi/climate-engine-metadata-api-openapi.yml
 - filename: climate-engine-reports-api-openapi.yml
   format: yaml
   label: Climate Engine Reports API
   slug: climate-engine-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-reports-api-openapi.yml
-- filename: climate-engine-zonal-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/climate-engine/openapi/climate-engine-reports-api-openapi.yml
+- filename: climate-engine-raster-export-api-openapi.yml
   format: yaml
-  label: Climate Engine Zonal Statistics API
-  slug: climate-engine-zonal-statistics-api
+  label: Climate Engine Raster/export API
+  slug: climate-engine-raster-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-zonal-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/climate-engine/openapi/climate-engine-raster-export-api-openapi.yml
+- filename: climate-engine-raster-mapid-api-openapi.yml
+  format: yaml
+  label: Climate Engine Raster/mapid API
+  slug: climate-engine-raster-mapid-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/climate-engine/openapi/climate-engine-raster-mapid-api-openapi.yml
+- filename: climate-engine-zonal-stats-api-openapi.yml
+  format: yaml
+  label: Climate Engine Zonal Stats API
+  slug: climate-engine-zonal-stats-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/climate-engine/openapi/climate-engine-zonal-stats-api-openapi.yml
 - filename: climate-engine-time-series-api-openapi.yml
   format: yaml
   label: Climate Engine Time Series API
   slug: climate-engine-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-time-series-api-openapi.yml
+  url: https://artifacts.apis.io/climate-engine/openapi/climate-engine-time-series-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +72,7 @@ source_filename: climate-engine-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/climate-engine-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: APIKeyHeader\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: API key issued by the Climate Engine team, sent in the Authorization header.\n    Request a key from the ClimateEngine.org team.\n  sources:\n  - openapi/climate-engine-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/authentication/climate-engine-authentication.yml
+source_yaml_url: https://artifacts.apis.io/climate-engine/authentication/climate-engine-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Climate

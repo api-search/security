@@ -7,31 +7,31 @@ api_specs:
   label: Chime Authentication API
   slug: chime-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chime/refs/heads/main/openapi/chime-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/chime/openapi/chime-authentication-api-openapi.yml
 - filename: chime-statements-api-openapi.yml
   format: yaml
   label: Chime Statements API
   slug: chime-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chime/refs/heads/main/openapi/chime-statements-api-openapi.yml
+  url: https://artifacts.apis.io/chime/openapi/chime-statements-api-openapi.yml
 - filename: chime-transactions-api-openapi.yml
   format: yaml
   label: Chime Transactions API
   slug: chime-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chime/refs/heads/main/openapi/chime-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/chime/openapi/chime-transactions-api-openapi.yml
 - filename: chime-users-api-openapi.yml
   format: yaml
   label: Chime Users API
   slug: chime-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chime/refs/heads/main/openapi/chime-users-api-openapi.yml
+  url: https://artifacts.apis.io/chime/openapi/chime-users-api-openapi.yml
 - filename: chime-oauth-api-openapi.yml
   format: yaml
   label: Chime O Auth API
   slug: chime-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chime/refs/heads/main/openapi/chime-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/chime/openapi/chime-oauth-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -59,7 +59,7 @@ source_filename: chime-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/chime-partner-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: OAuth 2.0 Bearer token\n  sources:\n  - openapi/chime-partner-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chime/refs/heads/main/authentication/chime-authentication.yml
+source_yaml_url: https://artifacts.apis.io/chime/authentication/chime-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Fintech

@@ -5,73 +5,73 @@ api_specs:
   label: Veracode API Credentials API
   slug: veracode-api-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-api-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/veracode/openapi/veracode-api-credentials-api-openapi.yml
 - filename: veracode-applications-api-openapi.yml
   format: yaml
   label: Veracode Applications API
   slug: veracode-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-applications-api-openapi.yml
+  url: https://artifacts.apis.io/veracode/openapi/veracode-applications-api-openapi.yml
 - filename: veracode-business-units-api-openapi.yml
   format: yaml
   label: Veracode Business Units API
   slug: veracode-business-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-business-units-api-openapi.yml
+  url: https://artifacts.apis.io/veracode/openapi/veracode-business-units-api-openapi.yml
 - filename: veracode-findings-api-openapi.yml
   format: yaml
   label: Veracode Findings API
   slug: veracode-findings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-findings-api-openapi.yml
+  url: https://artifacts.apis.io/veracode/openapi/veracode-findings-api-openapi.yml
 - filename: veracode-manual-penetration-testing-api-openapi.yml
   format: yaml
   label: Veracode Manual Penetration Testing API
   slug: veracode-manual-penetration-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-manual-penetration-testing-api-openapi.yml
+  url: https://artifacts.apis.io/veracode/openapi/veracode-manual-penetration-testing-api-openapi.yml
 - filename: veracode-policy-evaluations-api-openapi.yml
   format: yaml
   label: Veracode Policy Evaluations API
   slug: veracode-policy-evaluations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-policy-evaluations-api-openapi.yml
+  url: https://artifacts.apis.io/veracode/openapi/veracode-policy-evaluations-api-openapi.yml
 - filename: veracode-reports-api-openapi.yml
   format: yaml
   label: Veracode Reports API
   slug: veracode-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-reports-api-openapi.yml
+  url: https://artifacts.apis.io/veracode/openapi/veracode-reports-api-openapi.yml
 - filename: veracode-roles-api-openapi.yml
   format: yaml
   label: Veracode Roles API
   slug: veracode-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-roles-api-openapi.yml
+  url: https://artifacts.apis.io/veracode/openapi/veracode-roles-api-openapi.yml
 - filename: veracode-sandboxes-api-openapi.yml
   format: yaml
   label: Veracode Sandboxes API
   slug: veracode-sandboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-sandboxes-api-openapi.yml
+  url: https://artifacts.apis.io/veracode/openapi/veracode-sandboxes-api-openapi.yml
 - filename: veracode-teams-api-openapi.yml
   format: yaml
   label: Veracode Teams API
   slug: veracode-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-teams-api-openapi.yml
+  url: https://artifacts.apis.io/veracode/openapi/veracode-teams-api-openapi.yml
 - filename: veracode-users-api-openapi.yml
   format: yaml
   label: Veracode Users API
   slug: veracode-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-users-api-openapi.yml
+  url: https://artifacts.apis.io/veracode/openapi/veracode-users-api-openapi.yml
 - filename: veracode-api-credentials-api-openapi.yml
   format: yaml
   label: Veracode API Credentials API
   slug: veracode-api-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-api-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/veracode/openapi/veracode-api-credentials-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -111,7 +111,7 @@ source_filename: veracode-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.veracode.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 21 21:59:55 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.veracode.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 14:28:36 2026 GMT\n  hsts: false\n- host: api.veracode.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 14:28:36 2026 GMT\n  hsts: null\ndomains:\n- domain: veracode.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/security/veracode-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/veracode/security/veracode-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Application Security

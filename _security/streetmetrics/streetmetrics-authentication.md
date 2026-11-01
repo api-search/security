@@ -7,67 +7,67 @@ api_specs:
   label: StreetMetrics Ad Groups API
   slug: streetmetrics-ad-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streetmetrics/refs/heads/main/openapi/streetmetrics-ad-groups-api-openapi.yml
+  url: https://artifacts.apis.io/streetmetrics/openapi/streetmetrics-ad-groups-api-openapi.yml
 - filename: streetmetrics-assets-api-openapi.yml
   format: yaml
   label: StreetMetrics Assets API
   slug: streetmetrics-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streetmetrics/refs/heads/main/openapi/streetmetrics-assets-api-openapi.yml
+  url: https://artifacts.apis.io/streetmetrics/openapi/streetmetrics-assets-api-openapi.yml
 - filename: streetmetrics-attribution-studies-api-openapi.yml
   format: yaml
   label: StreetMetrics Attribution Studies API
   slug: streetmetrics-attribution-studies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streetmetrics/refs/heads/main/openapi/streetmetrics-attribution-studies-api-openapi.yml
+  url: https://artifacts.apis.io/streetmetrics/openapi/streetmetrics-attribution-studies-api-openapi.yml
 - filename: streetmetrics-authentication-api-openapi.yml
   format: yaml
   label: StreetMetrics Authentication API
   slug: streetmetrics-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streetmetrics/refs/heads/main/openapi/streetmetrics-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/streetmetrics/openapi/streetmetrics-authentication-api-openapi.yml
 - filename: streetmetrics-campaigns-api-openapi.yml
   format: yaml
   label: StreetMetrics Campaigns API
   slug: streetmetrics-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streetmetrics/refs/heads/main/openapi/streetmetrics-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/streetmetrics/openapi/streetmetrics-campaigns-api-openapi.yml
 - filename: streetmetrics-creatives-api-openapi.yml
   format: yaml
   label: StreetMetrics Creatives API
   slug: streetmetrics-creatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streetmetrics/refs/heads/main/openapi/streetmetrics-creatives-api-openapi.yml
+  url: https://artifacts.apis.io/streetmetrics/openapi/streetmetrics-creatives-api-openapi.yml
 - filename: streetmetrics-frames-api-openapi.yml
   format: yaml
   label: StreetMetrics Frames API
   slug: streetmetrics-frames-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streetmetrics/refs/heads/main/openapi/streetmetrics-frames-api-openapi.yml
+  url: https://artifacts.apis.io/streetmetrics/openapi/streetmetrics-frames-api-openapi.yml
 - filename: streetmetrics-markets-api-openapi.yml
   format: yaml
   label: StreetMetrics Markets API
   slug: streetmetrics-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streetmetrics/refs/heads/main/openapi/streetmetrics-markets-api-openapi.yml
+  url: https://artifacts.apis.io/streetmetrics/openapi/streetmetrics-markets-api-openapi.yml
 - filename: streetmetrics-media-api-openapi.yml
   format: yaml
   label: StreetMetrics Media API
   slug: streetmetrics-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streetmetrics/refs/heads/main/openapi/streetmetrics-media-api-openapi.yml
+  url: https://artifacts.apis.io/streetmetrics/openapi/streetmetrics-media-api-openapi.yml
 - filename: streetmetrics-pixels-api-openapi.yml
   format: yaml
   label: StreetMetrics Pixels API
   slug: streetmetrics-pixels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streetmetrics/refs/heads/main/openapi/streetmetrics-pixels-api-openapi.yml
+  url: https://artifacts.apis.io/streetmetrics/openapi/streetmetrics-pixels-api-openapi.yml
 - filename: streetmetrics-reporting-api-openapi.yml
   format: yaml
   label: StreetMetrics Reporting API
   slug: streetmetrics-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streetmetrics/refs/heads/main/openapi/streetmetrics-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/streetmetrics/openapi/streetmetrics-reporting-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: >-\n  https://d
   \    body: '{ \"email\": \"<platform email>\", \"password\": \"<platform password>\" }'\n    schema: AuthDto\n    note: Only `email` is listed in AuthDto.required; `password` is required in practice.\n  step_2:\n    response_schema: AuthResponse\n    response: '{ \"statusCode\": 201, \"message\": \"Token to attach to subsequent requests\", \"meta\": {}, \"data\": \"<token>\" }'\n    note: The token is the `data` string itself, not a nested object.\n  step_3:\n    usage: 'Authorization: Bearer <token> on every other operation'\ntoken:\n  lifetime_published: false\n  refresh_endpoint: none\n  revocation_endpoint: none\n  note: No expiry, refresh or revocation is documented. Treat a 401 on a previously-working token as\n    expiry and re-mint.\noauth:\n  present: false\n  oidc_discovery: 404 on all probed hosts\n  scopes: none — nothing to model, so no scopes/ artifact is written\nobserved:\n- url: https://dashboard.streetmetrics.io/v3/public/markets\n  method: GET\n  http_status: 401\n \
   \ body: '{\"status\":\"error\",\"statusCode\":401,\"errorCode\":\"UNAUTHORIZED\",\"message\":\"You do not have permission for this action\",...}'\n  fetched: '2026-08-12'\n- url: https://dashboard.streetmetrics.io/v3/public/auth/authenticate\n  method: POST\n  http_status: 400\n  body: '{\"status\":\"error\",\"statusCode\":400,\"errorCode\":\"BAD_REQUEST\",\"message\":\"Email must be an email\",...}'\n  fetched: '2026-08-12'\ndocumentation_drift:\n  finding: >-\n    The published authentication recipe (last updated 2025-05-12) shows\n    https://dashboard.streetmetrics.io/v3/api/auth/authenticate and warns readers about a \"v3/\" vs\n    \"v3/api/\" distinction. On 2026-08-12 POST to /v3/api/auth/authenticate returned 404, /v3/public/auth/authenticate\n    returned the current envelope, and the legacy /v3/auth/authenticate still answered with the older\n    envelope. The one recipe a new integrator follows first documents a path that no longer exists.\ntransport_security:\n  https_required:\
   \ true\n  tls: TLSv1.3\n  hsts: 'max-age=31536000; includeSubDomains (observed on dashboard.streetmetrics.io)'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/streetmetrics/refs/heads/main/authentication/streetmetrics-authentication.yml
+source_yaml_url: https://artifacts.apis.io/streetmetrics/authentication/streetmetrics-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Company

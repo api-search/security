@@ -26,7 +26,7 @@ source_filename: betterplace01b9-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.betterplace.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar  8 10:07:10 2027 GMT\n  hsts: false\ndomains:\n- domain: betterplace.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/betterplace01b9/refs/heads/main/security/betterplace01b9-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/betterplace01b9/security/betterplace01b9-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Education

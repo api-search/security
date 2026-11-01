@@ -5,97 +5,97 @@ api_specs:
   label: Voltair Assets API
   slug: voltair-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-assets-api-openapi.yml
+  url: https://artifacts.apis.io/voltair/openapi/voltair-assets-api-openapi.yml
 - filename: voltair-clusters-api-openapi.yml
   format: yaml
   label: Voltair Clusters API
   slug: voltair-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/voltair/openapi/voltair-clusters-api-openapi.yml
 - filename: voltair-clustervisits-api-openapi.yml
   format: yaml
   label: Voltair ClusterVisits API
   slug: voltair-clustervisits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-clustervisits-api-openapi.yml
+  url: https://artifacts.apis.io/voltair/openapi/voltair-clustervisits-api-openapi.yml
 - filename: voltair-events-api-openapi.yml
   format: yaml
   label: Voltair Events API
   slug: voltair-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-events-api-openapi.yml
+  url: https://artifacts.apis.io/voltair/openapi/voltair-events-api-openapi.yml
 - filename: voltair-identity-api-openapi.yml
   format: yaml
   label: Voltair Identity API
   slug: voltair-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-identity-api-openapi.yml
+  url: https://artifacts.apis.io/voltair/openapi/voltair-identity-api-openapi.yml
 - filename: voltair-inspections-api-openapi.yml
   format: yaml
   label: Voltair Inspections API
   slug: voltair-inspections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-inspections-api-openapi.yml
+  url: https://artifacts.apis.io/voltair/openapi/voltair-inspections-api-openapi.yml
 - filename: voltair-media-api-openapi.yml
   format: yaml
   label: Voltair Media API
   slug: voltair-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-media-api-openapi.yml
+  url: https://artifacts.apis.io/voltair/openapi/voltair-media-api-openapi.yml
 - filename: voltair-missions-api-openapi.yml
   format: yaml
   label: Voltair Missions API
   slug: voltair-missions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-missions-api-openapi.yml
+  url: https://artifacts.apis.io/voltair/openapi/voltair-missions-api-openapi.yml
 - filename: voltair-organization-api-openapi.yml
   format: yaml
   label: Voltair Organization API
   slug: voltair-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-organization-api-openapi.yml
+  url: https://artifacts.apis.io/voltair/openapi/voltair-organization-api-openapi.yml
 - filename: voltair-roles-api-openapi.yml
   format: yaml
   label: Voltair Roles API
   slug: voltair-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-roles-api-openapi.yml
+  url: https://artifacts.apis.io/voltair/openapi/voltair-roles-api-openapi.yml
 - filename: voltair-sites-api-openapi.yml
   format: yaml
   label: Voltair Sites API
   slug: voltair-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-sites-api-openapi.yml
+  url: https://artifacts.apis.io/voltair/openapi/voltair-sites-api-openapi.yml
 - filename: voltair-sitevisits-api-openapi.yml
   format: yaml
   label: Voltair SiteVisits API
   slug: voltair-sitevisits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-sitevisits-api-openapi.yml
+  url: https://artifacts.apis.io/voltair/openapi/voltair-sitevisits-api-openapi.yml
 - filename: voltair-transactions-api-openapi.yml
   format: yaml
   label: Voltair Transactions API
   slug: voltair-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/voltair/openapi/voltair-transactions-api-openapi.yml
 - filename: voltair-users-api-openapi.yml
   format: yaml
   label: Voltair Users API
   slug: voltair-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-users-api-openapi.yml
+  url: https://artifacts.apis.io/voltair/openapi/voltair-users-api-openapi.yml
 - filename: voltair-webhooks-api-openapi.yml
   format: yaml
   label: Voltair Webhooks API
   slug: voltair-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/voltair/openapi/voltair-webhooks-api-openapi.yml
 - filename: voltair-api-keys-api-openapi.yml
   format: yaml
   label: Voltair API Keys API
   slug: voltair-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/voltair/openapi/voltair-api-keys-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -130,7 +130,7 @@ source_filename: voltair-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: voltairlabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 15:21:12 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.voltairlabs.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 30 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: voltairlabs.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/security/voltair-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/voltair/security/voltair-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Drones

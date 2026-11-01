@@ -5,13 +5,31 @@ api_specs:
   label: Casap Auth API
   slug: casap-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/openapi/casap-auth-api-openapi.yml
+  url: https://artifacts.apis.io/casap/openapi/casap-auth-api-openapi.yml
 - filename: casap-disputes-api-openapi.yml
   format: yaml
   label: Casap Disputes API
   slug: casap-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/openapi/casap-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/casap/openapi/casap-disputes-api-openapi.yml
+- filename: casap-accounts-api-openapi.yml
+  format: yaml
+  label: Casap Accounts API
+  slug: casap-accounts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/casap/openapi/casap-accounts-api-openapi.yml
+- filename: casap-intakes-api-openapi.yml
+  format: yaml
+  label: Casap Intakes API
+  slug: casap-intakes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/casap/openapi/casap-intakes-api-openapi.yml
+- filename: casap-organizations-api-openapi.yml
+  format: yaml
+  label: Casap Organizations API
+  slug: casap-organizations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/casap/openapi/casap-organizations-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -57,7 +75,7 @@ source_filename: casap-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.casaphq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 19:59:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.casaphq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 19:51:34 2026 GMT\n  hsts: false\n- host: api.casaphq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 02:11:15 2026 GMT\n  hsts: null\ndomains:\n- domain: casaphq.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/security/casap-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/casap/security/casap-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

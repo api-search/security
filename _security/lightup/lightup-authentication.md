@@ -7,73 +7,73 @@ api_specs:
   label: Lightup API Credentials API
   slug: lightup-api-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-api-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/lightup/openapi/lightup-api-credentials-api-openapi.yml
 - filename: lightup-catalogs-api-openapi.yml
   format: yaml
   label: Lightup Catalogs API
   slug: lightup-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-catalogs-api-openapi.yml
+  url: https://artifacts.apis.io/lightup/openapi/lightup-catalogs-api-openapi.yml
 - filename: lightup-dashboard-chart-api-openapi.yml
   format: yaml
   label: Lightup Dashboard chart API
   slug: lightup-dashboard-chart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-dashboard-chart-api-openapi.yml
+  url: https://artifacts.apis.io/lightup/openapi/lightup-dashboard-chart-api-openapi.yml
 - filename: lightup-datapoints-api-openapi.yml
   format: yaml
   label: Lightup Datapoints API
   slug: lightup-datapoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-datapoints-api-openapi.yml
+  url: https://artifacts.apis.io/lightup/openapi/lightup-datapoints-api-openapi.yml
 - filename: lightup-health-check-api-openapi.yml
   format: yaml
   label: Lightup Health check API
   slug: lightup-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/lightup/openapi/lightup-health-check-api-openapi.yml
 - filename: lightup-incidents-api-openapi.yml
   format: yaml
   label: Lightup Incidents API
   slug: lightup-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/lightup/openapi/lightup-incidents-api-openapi.yml
 - filename: lightup-integrations-api-openapi.yml
   format: yaml
   label: Lightup Integrations API
   slug: lightup-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/lightup/openapi/lightup-integrations-api-openapi.yml
 - filename: lightup-metrics-api-openapi.yml
   format: yaml
   label: Lightup Metrics API
   slug: lightup-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/lightup/openapi/lightup-metrics-api-openapi.yml
 - filename: lightup-monitors-api-openapi.yml
   format: yaml
   label: Lightup Monitors API
   slug: lightup-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/lightup/openapi/lightup-monitors-api-openapi.yml
 - filename: lightup-users-api-openapi.yml
   format: yaml
   label: Lightup Users API
   slug: lightup-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-users-api-openapi.yml
+  url: https://artifacts.apis.io/lightup/openapi/lightup-users-api-openapi.yml
 - filename: lightup-workspaces-api-openapi.yml
   format: yaml
   label: Lightup Workspaces API
   slug: lightup-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/lightup/openapi/lightup-workspaces-api-openapi.yml
 - filename: lightup-data-sources-api-openapi.yml
   format: yaml
   label: Lightup Data Sources API
   slug: lightup-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/lightup/openapi/lightup-data-sources-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -107,7 +107,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://docs.li
   \ in the Lightup app under the gear icon -> API Credentials\n      -> Generate API credential, then downloaded as a JSON file.\n    filename_pattern: lightup-api-credential*.json\n    contains:\n    - refresh token\n    - host / cluster URL\n  exchange:\n    operation: POST /api/v1/token/refresh/\n    docs: https://docs.lightup.ai/reference/post_api-v1-token-refresh\n    request_field: refresh\n    response_field: access\n    description: >-\n      Exchange the refresh value from the credential file for a short-lived access\n      token, then send it in the Authorization header as \"Bearer <access>\" on\n      subsequent calls.\n  cluster_scoping: Credentials are bound to a specific Lightup cluster; requests must\n    target the matching https://app.<clusterId>.lightup.ai host.\nconsumers:\n- name: lightctl CLI\n  credential_path: ~/.lightup/credential\n  env: LIGHTCTL_CREDENTIAL_PATH\n- name: Lightup MCP server\n  description: Connects as /sse?host=<instance>&refresh_token=<JWT refresh\
   \ token>;\n    stateless, credentials never stored server-side.\nauthorization:\n  model: role-based access control\n  docs: https://docs.lightup.ai/docs/roles\n  app_roles:\n  - name: App Admin\n    description: Invite users, set app roles, create workspaces, invite users to workspaces\n      and set their initial workspace role.\n  - name: App Editor\n    description: Create workspaces, but cannot invite new app users or set app roles.\n  - name: App Viewer\n    description: Can be invited to join any workspace, but cannot create workspaces.\n  workspace_roles:\n  - name: Admin\n    description: Everything associated with creating, editing and operationalizing\n      metrics and monitors, including managing datasources.\n  - name: Editor\n    description: Everything Admins can do except managing datasources.\n  - name: Viewer\n    description: Read access to workspace objects.\n  - name: Observer\n    description: Most restricted workspace role; includes table sample preview permissions\n\
   \      added in release 4.21.\n  scoping: Most API resources are workspace-scoped via a {workspace_id} path segment;\n    a 403 is returned when the user lacks access to the workspace.\nsso:\n  cloud:\n  - Google SSO\n  - Okta\n  enterprise:\n  - Google SSO\n  - Okta\n  - SAML\n  - Microsoft AD\n  source: https://www.lightup.ai/pricing\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/authentication/lightup-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lightup/authentication/lightup-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Data Quality

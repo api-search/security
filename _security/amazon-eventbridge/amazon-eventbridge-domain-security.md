@@ -5,31 +5,73 @@ api_specs:
   label: Amazon EventBridge Archives API
   slug: amazon-eventbridge-archives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/openapi/amazon-eventbridge-archives-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-eventbridge/openapi/amazon-eventbridge-archives-api-openapi.yml
 - filename: amazon-eventbridge-event-buses-api-openapi.yml
   format: yaml
   label: Amazon EventBridge Event Buses API
   slug: amazon-eventbridge-event-buses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/openapi/amazon-eventbridge-event-buses-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-eventbridge/openapi/amazon-eventbridge-event-buses-api-openapi.yml
 - filename: amazon-eventbridge-events-api-openapi.yml
   format: yaml
   label: Amazon EventBridge Events API
   slug: amazon-eventbridge-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/openapi/amazon-eventbridge-events-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-eventbridge/openapi/amazon-eventbridge-events-api-openapi.yml
 - filename: amazon-eventbridge-rules-api-openapi.yml
   format: yaml
   label: Amazon EventBridge Rules API
   slug: amazon-eventbridge-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/openapi/amazon-eventbridge-rules-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-eventbridge/openapi/amazon-eventbridge-rules-api-openapi.yml
 - filename: amazon-eventbridge-targets-api-openapi.yml
   format: yaml
   label: Amazon EventBridge Targets API
   slug: amazon-eventbridge-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/openapi/amazon-eventbridge-targets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-eventbridge/openapi/amazon-eventbridge-targets-api-openapi.yml
+- filename: amazon-eventbridge-api-destination-api-openapi.yml
+  format: yaml
+  label: Amazon EventBridge Eventbridge Api Destination API
+  slug: amazon-eventbridge-api-destination-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-eventbridge/openapi/amazon-eventbridge-api-destination-api-openapi.yml
+- filename: amazon-eventbridge-connection-api-openapi.yml
+  format: yaml
+  label: Amazon EventBridge Eventbridge Connection API
+  slug: amazon-eventbridge-connection-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-eventbridge/openapi/amazon-eventbridge-connection-api-openapi.yml
+- filename: amazon-eventbridge-endpoint-api-openapi.yml
+  format: yaml
+  label: Amazon EventBridge Eventbridge Endpoint API
+  slug: amazon-eventbridge-endpoint-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-eventbridge/openapi/amazon-eventbridge-endpoint-api-openapi.yml
+- filename: amazon-eventbridge-event-bus-api-openapi.yml
+  format: yaml
+  label: Amazon EventBridge Eventbridge Event Bus API
+  slug: amazon-eventbridge-event-bus-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-eventbridge/openapi/amazon-eventbridge-event-bus-api-openapi.yml
+- filename: amazon-eventbridge-operations-api-openapi.yml
+  format: yaml
+  label: Amazon EventBridge Eventbridge Operations API
+  slug: amazon-eventbridge-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-eventbridge/openapi/amazon-eventbridge-operations-api-openapi.yml
+- filename: amazon-eventbridge-partner-event-source-api-openapi.yml
+  format: yaml
+  label: Amazon EventBridge Eventbridge Partner Event Source API
+  slug: amazon-eventbridge-partner-event-source-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-eventbridge/openapi/amazon-eventbridge-partner-event-source-api-openapi.yml
+- filename: amazon-eventbridge-replay-api-openapi.yml
+  format: yaml
+  label: Amazon EventBridge Eventbridge Replay API
+  slug: amazon-eventbridge-replay-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-eventbridge/openapi/amazon-eventbridge-replay-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -67,7 +109,7 @@ source_filename: amazon-eventbridge-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: events.amazonaws.com\n  https: false\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/security/amazon-eventbridge-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amazon-eventbridge/security/amazon-eventbridge-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Amazon Web Services

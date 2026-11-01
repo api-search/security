@@ -26,7 +26,7 @@ source_filename: uxin-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.youxinpai.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep  6 03:06:01 2026 GMT\n  hsts: false\ndomains:\n- domain: youxinpai.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uxin/refs/heads/main/security/uxin-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/uxin/security/uxin-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Company

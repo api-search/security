@@ -5,37 +5,37 @@ api_specs:
   label: TROLIE Forecasting API
   slug: trolie-forecasting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/openapi/trolie-forecasting-api-openapi.yml
+  url: https://artifacts.apis.io/trolie/openapi/trolie-forecasting-api-openapi.yml
 - filename: trolie-monitoring-sets-api-openapi.yml
   format: yaml
   label: TROLIE Monitoring Sets API
   slug: trolie-monitoring-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/openapi/trolie-monitoring-sets-api-openapi.yml
+  url: https://artifacts.apis.io/trolie/openapi/trolie-monitoring-sets-api-openapi.yml
 - filename: trolie-seasonal-api-openapi.yml
   format: yaml
   label: TROLIE Seasonal API
   slug: trolie-seasonal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/openapi/trolie-seasonal-api-openapi.yml
+  url: https://artifacts.apis.io/trolie/openapi/trolie-seasonal-api-openapi.yml
 - filename: trolie-seasonal-overrides-api-openapi.yml
   format: yaml
   label: TROLIE Seasonal Overrides API
   slug: trolie-seasonal-overrides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/openapi/trolie-seasonal-overrides-api-openapi.yml
+  url: https://artifacts.apis.io/trolie/openapi/trolie-seasonal-overrides-api-openapi.yml
 - filename: trolie-temporary-aar-exceptions-api-openapi.yml
   format: yaml
   label: TROLIE Temporary AAR Exceptions API
   slug: trolie-temporary-aar-exceptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/openapi/trolie-temporary-aar-exceptions-api-openapi.yml
+  url: https://artifacts.apis.io/trolie/openapi/trolie-temporary-aar-exceptions-api-openapi.yml
 - filename: trolie-realtime-api-openapi.yml
   format: yaml
   label: TROLIE Realtime API
   slug: trolie-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/openapi/trolie-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/trolie/openapi/trolie-realtime-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: trolie-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: trolie.energy\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 18:38:21 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\ndomains:\n- domain: trolie.energy\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/security/trolie-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trolie/security/trolie-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

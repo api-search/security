@@ -5,25 +5,25 @@ api_specs:
   label: Arthur J. Gallagher Access Groups API
   slug: arthur-j-gallagher-access-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-j-gallagher/refs/heads/main/openapi/arthur-j-gallagher-access-groups-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-j-gallagher/openapi/arthur-j-gallagher-access-groups-api-openapi.yml
 - filename: arthur-j-gallagher-alarms-api-openapi.yml
   format: yaml
   label: Arthur J. Gallagher Alarms API
   slug: arthur-j-gallagher-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-j-gallagher/refs/heads/main/openapi/arthur-j-gallagher-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-j-gallagher/openapi/arthur-j-gallagher-alarms-api-openapi.yml
 - filename: arthur-j-gallagher-cardholders-api-openapi.yml
   format: yaml
   label: Arthur J. Gallagher Cardholders API
   slug: arthur-j-gallagher-cardholders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-j-gallagher/refs/heads/main/openapi/arthur-j-gallagher-cardholders-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-j-gallagher/openapi/arthur-j-gallagher-cardholders-api-openapi.yml
 - filename: arthur-j-gallagher-events-api-openapi.yml
   format: yaml
   label: Arthur J. Gallagher Events API
   slug: arthur-j-gallagher-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-j-gallagher/refs/heads/main/openapi/arthur-j-gallagher-events-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-j-gallagher/openapi/arthur-j-gallagher-events-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: arthur-j-gallagher-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ajg.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 11 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.gallagherbassett.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 21 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.gallagherbassett.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: ajg.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: gallagherbassett.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arthur-j-gallagher/refs/heads/main/security/arthur-j-gallagher-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/arthur-j-gallagher/security/arthur-j-gallagher-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance

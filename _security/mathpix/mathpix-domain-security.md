@@ -5,43 +5,43 @@ api_specs:
   label: Mathpix Strokes API
   slug: mathpix-strokes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-strokes-api-openapi.yml
+  url: https://artifacts.apis.io/mathpix/openapi/mathpix-strokes-api-openapi.yml
 - filename: mathpix-app-tokens-api-openapi.yml
   format: yaml
   label: Mathpix App Tokens API
   slug: mathpix-app-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-app-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/mathpix/openapi/mathpix-app-tokens-api-openapi.yml
 - filename: mathpix-batches-api-openapi.yml
   format: yaml
   label: Mathpix Batches API
   slug: mathpix-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-batches-api-openapi.yml
+  url: https://artifacts.apis.io/mathpix/openapi/mathpix-batches-api-openapi.yml
 - filename: mathpix-conversions-api-openapi.yml
   format: yaml
   label: Mathpix Conversions API
   slug: mathpix-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/mathpix/openapi/mathpix-conversions-api-openapi.yml
 - filename: mathpix-images-api-openapi.yml
   format: yaml
   label: Mathpix Images API
   slug: mathpix-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-images-api-openapi.yml
+  url: https://artifacts.apis.io/mathpix/openapi/mathpix-images-api-openapi.yml
 - filename: mathpix-usage-api-openapi.yml
   format: yaml
   label: Mathpix Usage API
   slug: mathpix-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-usage-api-openapi.yml
+  url: https://artifacts.apis.io/mathpix/openapi/mathpix-usage-api-openapi.yml
 - filename: mathpix-documents-api-openapi.yml
   format: yaml
   label: Mathpix Documents API
   slug: mathpix-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-documents-api-openapi.yml
+  url: https://artifacts.apis.io/mathpix/openapi/mathpix-documents-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: mathpix-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.mathpix.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 23:59:59 2026 GMT\n  hsts: false\n- host: api.mathpix.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: mathpix.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/security/mathpix-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mathpix/security/mathpix-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - OCR

@@ -7,13 +7,13 @@ api_specs:
   label: University of Toronto Courses API
   slug: university-of-toronto-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-toronto/refs/heads/main/openapi/university-of-toronto-courses-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-toronto/openapi/university-of-toronto-courses-api-openapi.yml
 - filename: university-of-toronto-reference-data-api-openapi.yml
   format: yaml
   label: University of Toronto Reference Data API
   slug: university-of-toronto-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-toronto/refs/heads/main/openapi/university-of-toronto-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-toronto/openapi/university-of-toronto-reference-data-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -36,7 +36,7 @@ source_yaml: "---\ngenerated: '2026-08-19'\nmethod: probed\nsource: >-\n  Live p
   \      - url: https://api.easi.utoronto.ca/ttb/reference-data\n        status: 200\n        note: 200 with no Authorization header, no cookie, no API key.\n    browser_restriction:\n      header: 'Access-Control-Allow-Origin: https://ttb.utoronto.ca'\n      note: >-\n        CORS is pinned to the official UI origin, so a browser-based third-party client is blocked\n        while a server-side client is not. This is an origin restriction, not authentication, and it\n        is the only access control observed on the surface.\n  - api: university-of-toronto:utorauth-shibboleth-idp\n    host: idpz.utorauth.utoronto.ca\n    x-operator: institution\n    scheme: SAML 2.0 Web Browser SSO (Shibboleth IdP)\n    entity_id: https://idpz.utorauth.utoronto.ca/shibboleth\n    verified: '2026-08-19'\n    evidence:\n      - url: https://idpz.utorauth.utoronto.ca/idp/shibboleth\n        status: 200\n        note: >-\n          Serves a signed md:EntityDescriptor. Registration authority http://www.canarie.ca\n\
   \          (Canadian Access Federation), registered 2018-09-21.\n    entity_categories:\n      - http://refeds.org/category/research-and-scholarship\n    assurance:\n      - https://refeds.org/sirtfi\n    note: >-\n      This is a federation login endpoint for humans in a browser, not an API authorization server.\n      It is catalogued because it is machine-readable, institution-operated, and the University's\n      only published conformance to an identity standard.\n  - api: university-of-toronto:tspace-dspace-rest\n    host: utoronto.scholaris.ca\n    x-operator: tenant\n    scheme: DSpace 8 authn endpoint (/server/api/authn), vendor-defined\n    verified: '2026-08-19'\n    note: >-\n      The authentication design here is the Scholaris/DSpace platform's, not the University's. Read\n      access to the repository requires no credential.\ngaps:\n  - No OAuth 2.0 or OpenID Connect surface published for third-party developers.\n  - No API key programme, developer registration, or client\
   \ credential issuance.\n  - No published authentication documentation for any institution-operated API.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-toronto/refs/heads/main/authentication/university-of-toronto-authentication.yml
+source_yaml_url: https://artifacts.apis.io/university-of-toronto/authentication/university-of-toronto-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

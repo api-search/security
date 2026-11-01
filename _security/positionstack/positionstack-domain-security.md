@@ -5,13 +5,13 @@ api_specs:
   label: positionstack Forward Geocoding API
   slug: positionstack-forward-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/positionstack/refs/heads/main/openapi/positionstack-forward-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/positionstack/openapi/positionstack-forward-geocoding-api-openapi.yml
 - filename: positionstack-reverse-geocoding-api-openapi.yml
   format: yaml
   label: positionstack Reverse Geocoding API
   slug: positionstack-reverse-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/positionstack/refs/heads/main/openapi/positionstack-reverse-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/positionstack/openapi/positionstack-reverse-geocoding-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: positionstack-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: positionstack.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 11:44:19 2026 GMT\n  hsts: false\n- host: api.positionstack.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 11:44:19 2026 GMT\n  hsts: null\ndomains:\n- domain: positionstack.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/positionstack/refs/heads/main/security/positionstack-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/positionstack/security/positionstack-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Geocoding

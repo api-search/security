@@ -7,31 +7,31 @@ api_specs:
   label: Datafiniti Authentication API
   slug: datafiniti-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/openapi/datafiniti-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/datafiniti/openapi/datafiniti-authentication-api-openapi.yml
 - filename: datafiniti-businesses-api-openapi.yml
   format: yaml
   label: Datafiniti Businesses API
   slug: datafiniti-businesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/openapi/datafiniti-businesses-api-openapi.yml
+  url: https://artifacts.apis.io/datafiniti/openapi/datafiniti-businesses-api-openapi.yml
 - filename: datafiniti-people-api-openapi.yml
   format: yaml
   label: Datafiniti People API
   slug: datafiniti-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/openapi/datafiniti-people-api-openapi.yml
+  url: https://artifacts.apis.io/datafiniti/openapi/datafiniti-people-api-openapi.yml
 - filename: datafiniti-products-api-openapi.yml
   format: yaml
   label: Datafiniti Products API
   slug: datafiniti-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/openapi/datafiniti-products-api-openapi.yml
+  url: https://artifacts.apis.io/datafiniti/openapi/datafiniti-products-api-openapi.yml
 - filename: datafiniti-properties-api-openapi.yml
   format: yaml
   label: Datafiniti Properties API
   slug: datafiniti-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/openapi/datafiniti-properties-api-openapi.yml
+  url: https://artifacts.apis.io/datafiniti/openapi/datafiniti-properties-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: datafiniti-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/datafiniti-api.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/datafiniti-api.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/authentication/datafiniti-authentication.yml
+source_yaml_url: https://artifacts.apis.io/datafiniti/authentication/datafiniti-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Business Data

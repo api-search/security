@@ -16,13 +16,13 @@ source_filename: cell-ed-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-07'\nmethod: searched\nprobe: true\nsource: https://trust.cell-ed.com/\nurl: https://trust.cell-ed.com/\ncertifications:\n- SOC 2\n- HIPAA\nevidence:\n- source: https://trust.cell-ed.com/\n  keywords:\n  - soc 2\n  - soc2\n  - hipaa\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cell-ed/refs/heads/main/security/cell-ed-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/cell-ed/security/cell-ed-trust-center.yml
 summary_line: SOC 2, HIPAA
 tags:
 - Education
-- MobileLearning
-- WorkforceDevelopment
-- MicroLearning
+- Mobile Learning
+- Workforce Development
+- Microlearning
 - SkillBuilding
 - Company
 trust_url: https://trust.cell-ed.com/

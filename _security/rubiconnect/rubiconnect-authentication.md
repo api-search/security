@@ -8,25 +8,25 @@ api_specs:
   label: RubiConnect Campaigns API
   slug: rubiconnect-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/openapi/rubiconnect-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/rubiconnect/openapi/rubiconnect-campaigns-api-openapi.yml
 - filename: rubiconnect-capabilities-api-openapi.yml
   format: yaml
   label: RubiConnect Capabilities API
   slug: rubiconnect-capabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/openapi/rubiconnect-capabilities-api-openapi.yml
+  url: https://artifacts.apis.io/rubiconnect/openapi/rubiconnect-capabilities-api-openapi.yml
 - filename: rubiconnect-messages-api-openapi.yml
   format: yaml
   label: RubiConnect Messages API
   slug: rubiconnect-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/openapi/rubiconnect-messages-api-openapi.yml
+  url: https://artifacts.apis.io/rubiconnect/openapi/rubiconnect-messages-api-openapi.yml
 - filename: rubiconnect-webhooks-api-openapi.yml
   format: yaml
   label: RubiConnect Webhooks API
   slug: rubiconnect-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/openapi/rubiconnect-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/rubiconnect/openapi/rubiconnect-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -60,7 +60,7 @@ source_filename: rubiconnect-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-15'\nmethod: searched\nsource: >-\n  openapi/rubiconnect-openapi.json (REST schemes) +\n  https://console.rubiconnect.com/.well-known/oauth-authorization-server (MCP OAuth)\nsummary:\n  types:\n  - apiKey\n  - http\n  - oauth2\n  api_key_in:\n  - header\n  api_key_prefix: rc_live_\n  oauth:\n    flow: authorization_code\n    pkce: [S256, plain]\n    dynamic_client_registration: true\n    authorization_endpoint: https://console.rubiconnect.com/en/authorize\n    token_endpoint: https://console.rubiconnect.com/api/oauth/token\n    registration_endpoint: https://console.rubiconnect.com/api/oauth/register\n    scopes: [mcp]\n    applies_to: hosted MCP server (not declared in the REST OpenAPI)\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  sources:\n  - openapi/rubiconnect-openapi.json\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/rubiconnect-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/authentication/rubiconnect-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rubiconnect/authentication/rubiconnect-authentication.yml
 summary_line: apiKey/http/oauth2 · 2 schemes
 tags:
 - CPaaS

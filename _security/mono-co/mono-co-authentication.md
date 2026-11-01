@@ -8,61 +8,61 @@ api_specs:
   label: Mono Account Information API
   slug: mono-co-account-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-account-information-api-openapi.yml
+  url: https://artifacts.apis.io/mono-co/openapi/mono-co-account-information-api-openapi.yml
 - filename: mono-co-account-linking-api-openapi.yml
   format: yaml
   label: Mono Account Linking API
   slug: mono-co-account-linking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-account-linking-api-openapi.yml
+  url: https://artifacts.apis.io/mono-co/openapi/mono-co-account-linking-api-openapi.yml
 - filename: mono-co-direct-debit-api-openapi.yml
   format: yaml
   label: Mono Direct Debit API
   slug: mono-co-direct-debit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-direct-debit-api-openapi.yml
+  url: https://artifacts.apis.io/mono-co/openapi/mono-co-direct-debit-api-openapi.yml
 - filename: mono-co-directpay-api-openapi.yml
   format: yaml
   label: Mono DirectPay API
   slug: mono-co-directpay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-directpay-api-openapi.yml
+  url: https://artifacts.apis.io/mono-co/openapi/mono-co-directpay-api-openapi.yml
 - filename: mono-co-identity-and-income-api-openapi.yml
   format: yaml
   label: Mono Identity and Income API
   slug: mono-co-identity-and-income-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-identity-and-income-api-openapi.yml
+  url: https://artifacts.apis.io/mono-co/openapi/mono-co-identity-and-income-api-openapi.yml
 - filename: mono-co-transactions-and-statements-api-openapi.yml
   format: yaml
   label: Mono Transactions and Statements API
   slug: mono-co-transactions-and-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-transactions-and-statements-api-openapi.yml
+  url: https://artifacts.apis.io/mono-co/openapi/mono-co-transactions-and-statements-api-openapi.yml
 - filename: mono-co-creditworthiness-api-openapi.yml
   format: yaml
   label: Mono Creditworthiness API
   slug: mono-co-creditworthiness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-creditworthiness-api-openapi.yml
+  url: https://artifacts.apis.io/mono-co/openapi/mono-co-creditworthiness-api-openapi.yml
 - filename: mono-co-financial-data-api-openapi.yml
   format: yaml
   label: Mono Financial Data API
   slug: mono-co-financial-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-financial-data-api-openapi.yml
+  url: https://artifacts.apis.io/mono-co/openapi/mono-co-financial-data-api-openapi.yml
 - filename: mono-co-investment-api-openapi.yml
   format: yaml
   label: Mono Investment API
   slug: mono-co-investment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-investment-api-openapi.yml
+  url: https://artifacts.apis.io/mono-co/openapi/mono-co-investment-api-openapi.yml
 - filename: mono-co-lookup-api-openapi.yml
   format: yaml
   label: Mono Lookup API
   slug: mono-co-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/mono-co/openapi/mono-co-lookup-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -90,7 +90,7 @@ source_filename: mono-co-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/mono-co-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: monoSecKey\n  type: apiKey\n  in: header\n  parameter: mono-sec-key\n  description: Secret application key issued in the Mono dashboard.\n  sources:\n  - openapi/mono-co-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/authentication/mono-co-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mono-co/authentication/mono-co-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Open Banking

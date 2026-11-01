@@ -5,19 +5,19 @@ api_specs:
   label: Greenbrier Companies Export API
   slug: greenbrier-cos-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/openapi/greenbrier-cos-export-api-openapi.yml
+  url: https://artifacts.apis.io/greenbrier-cos/openapi/greenbrier-cos-export-api-openapi.yml
 - filename: greenbrier-cos-gauge-tables-api-openapi.yml
   format: yaml
   label: Greenbrier Companies Gauge Tables API
   slug: greenbrier-cos-gauge-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/openapi/greenbrier-cos-gauge-tables-api-openapi.yml
+  url: https://artifacts.apis.io/greenbrier-cos/openapi/greenbrier-cos-gauge-tables-api-openapi.yml
 - filename: greenbrier-cos-reporting-marks-api-openapi.yml
   format: yaml
   label: Greenbrier Companies Reporting Marks API
   slug: greenbrier-cos-reporting-marks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/openapi/greenbrier-cos-reporting-marks-api-openapi.yml
+  url: https://artifacts.apis.io/greenbrier-cos/openapi/greenbrier-cos-reporting-marks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: greenbrier-cos-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.gbrx.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 25 17:00:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: tankcar.gbrx.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar  6 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 157680000\ndomains:\n- domain: gbrx.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/security/greenbrier-cos-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/greenbrier-cos/security/greenbrier-cos-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Rail

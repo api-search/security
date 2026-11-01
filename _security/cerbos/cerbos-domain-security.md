@@ -5,49 +5,49 @@ api_specs:
   label: Cerbos Admin Audit API
   slug: cerbos-admin-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerbos/refs/heads/main/openapi/cerbos-admin-audit-api-openapi.yml
+  url: https://artifacts.apis.io/cerbos/openapi/cerbos-admin-audit-api-openapi.yml
 - filename: cerbos-admin-policies-api-openapi.yml
   format: yaml
   label: Cerbos Admin Policies API
   slug: cerbos-admin-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerbos/refs/heads/main/openapi/cerbos-admin-policies-api-openapi.yml
+  url: https://artifacts.apis.io/cerbos/openapi/cerbos-admin-policies-api-openapi.yml
 - filename: cerbos-admin-schemas-api-openapi.yml
   format: yaml
   label: Cerbos Admin Schemas API
   slug: cerbos-admin-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerbos/refs/heads/main/openapi/cerbos-admin-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/cerbos/openapi/cerbos-admin-schemas-api-openapi.yml
 - filename: cerbos-admin-store-api-openapi.yml
   format: yaml
   label: Cerbos Admin Store API
   slug: cerbos-admin-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerbos/refs/heads/main/openapi/cerbos-admin-store-api-openapi.yml
+  url: https://artifacts.apis.io/cerbos/openapi/cerbos-admin-store-api-openapi.yml
 - filename: cerbos-check-api-openapi.yml
   format: yaml
   label: Cerbos Check API
   slug: cerbos-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerbos/refs/heads/main/openapi/cerbos-check-api-openapi.yml
+  url: https://artifacts.apis.io/cerbos/openapi/cerbos-check-api-openapi.yml
 - filename: cerbos-plan-api-openapi.yml
   format: yaml
   label: Cerbos Plan API
   slug: cerbos-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerbos/refs/heads/main/openapi/cerbos-plan-api-openapi.yml
+  url: https://artifacts.apis.io/cerbos/openapi/cerbos-plan-api-openapi.yml
 - filename: cerbos-server-api-openapi.yml
   format: yaml
   label: Cerbos Server API
   slug: cerbos-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerbos/refs/heads/main/openapi/cerbos-server-api-openapi.yml
+  url: https://artifacts.apis.io/cerbos/openapi/cerbos-server-api-openapi.yml
 - filename: cerbos-auth-zen-api-openapi.yml
   format: yaml
   label: Cerbos Auth ZEN API
   slug: cerbos-auth-zen-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerbos/refs/heads/main/openapi/cerbos-auth-zen-api-openapi.yml
+  url: https://artifacts.apis.io/cerbos/openapi/cerbos-auth-zen-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -83,7 +83,7 @@ source_filename: cerbos-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cerbos.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 23:10:33 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.cerbos.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 11:43:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: cerbos.dev\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cerbos/refs/heads/main/security/cerbos-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cerbos/security/cerbos-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - ABAC

@@ -5,37 +5,37 @@ api_specs:
   label: Apache Software Foundation Committees API
   slug: apache-software-foundation-committees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/openapi/apache-software-foundation-committees-api-openapi.yml
+  url: https://artifacts.apis.io/apache-software-foundation/openapi/apache-software-foundation-committees-api-openapi.yml
 - filename: apache-software-foundation-groups-api-openapi.yml
   format: yaml
   label: Apache Software Foundation Groups API
   slug: apache-software-foundation-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/openapi/apache-software-foundation-groups-api-openapi.yml
+  url: https://artifacts.apis.io/apache-software-foundation/openapi/apache-software-foundation-groups-api-openapi.yml
 - filename: apache-software-foundation-icla-api-openapi.yml
   format: yaml
   label: Apache Software Foundation ICLA API
   slug: apache-software-foundation-icla-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/openapi/apache-software-foundation-icla-api-openapi.yml
+  url: https://artifacts.apis.io/apache-software-foundation/openapi/apache-software-foundation-icla-api-openapi.yml
 - filename: apache-software-foundation-members-api-openapi.yml
   format: yaml
   label: Apache Software Foundation Members API
   slug: apache-software-foundation-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/openapi/apache-software-foundation-members-api-openapi.yml
+  url: https://artifacts.apis.io/apache-software-foundation/openapi/apache-software-foundation-members-api-openapi.yml
 - filename: apache-software-foundation-people-api-openapi.yml
   format: yaml
   label: Apache Software Foundation People API
   slug: apache-software-foundation-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/openapi/apache-software-foundation-people-api-openapi.yml
+  url: https://artifacts.apis.io/apache-software-foundation/openapi/apache-software-foundation-people-api-openapi.yml
 - filename: apache-software-foundation-podlings-api-openapi.yml
   format: yaml
   label: Apache Software Foundation Podlings API
   slug: apache-software-foundation-podlings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/openapi/apache-software-foundation-podlings-api-openapi.yml
+  url: https://artifacts.apis.io/apache-software-foundation/openapi/apache-software-foundation-podlings-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -79,7 +79,7 @@ source_filename: apache-software-foundation-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.apache.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 23:33:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: projects.apache.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 23:59:59 2026 GMT\n  hsts: false\n- host: whimsy.apache.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 11:27:01 2026 GMT\n  hsts: false\ndomains:\n- domain: apache.org\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:root@apache.org\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/security/apache-software-foundation-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apache-software-foundation/security/apache-software-foundation-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - ASF

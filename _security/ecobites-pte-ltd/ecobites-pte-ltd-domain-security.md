@@ -26,7 +26,7 @@ source_filename: ecobites-pte-ltd-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.recrec.vn\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 12 13:21:48 2026 GMT\n  hsts: null\ndomains:\n- domain: recrec.vn\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ecobites-pte-ltd/refs/heads/main/security/ecobites-pte-ltd-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ecobites-pte-ltd/security/ecobites-pte-ltd-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Company

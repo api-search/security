@@ -5,61 +5,61 @@ api_specs:
   label: BitPowr Technologies, Inc. Account API
   slug: bitpowr-technologies-inc-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/openapi/bitpowr-technologies-inc-account-api-openapi.yml
+  url: https://artifacts.apis.io/bitpowr-technologies-inc/openapi/bitpowr-technologies-inc-account-api-openapi.yml
 - filename: bitpowr-technologies-inc-address-api-openapi.yml
   format: yaml
   label: BitPowr Technologies, Inc. Address API
   slug: bitpowr-technologies-inc-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/openapi/bitpowr-technologies-inc-address-api-openapi.yml
+  url: https://artifacts.apis.io/bitpowr-technologies-inc/openapi/bitpowr-technologies-inc-address-api-openapi.yml
 - filename: bitpowr-technologies-inc-assets-api-openapi.yml
   format: yaml
   label: BitPowr Technologies, Inc. Assets API
   slug: bitpowr-technologies-inc-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/openapi/bitpowr-technologies-inc-assets-api-openapi.yml
+  url: https://artifacts.apis.io/bitpowr-technologies-inc/openapi/bitpowr-technologies-inc-assets-api-openapi.yml
 - filename: bitpowr-technologies-inc-customer-api-openapi.yml
   format: yaml
   label: BitPowr Technologies, Inc. Customer API
   slug: bitpowr-technologies-inc-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/openapi/bitpowr-technologies-inc-customer-api-openapi.yml
+  url: https://artifacts.apis.io/bitpowr-technologies-inc/openapi/bitpowr-technologies-inc-customer-api-openapi.yml
 - filename: bitpowr-technologies-inc-market-api-openapi.yml
   format: yaml
   label: BitPowr Technologies, Inc. Market API
   slug: bitpowr-technologies-inc-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/openapi/bitpowr-technologies-inc-market-api-openapi.yml
+  url: https://artifacts.apis.io/bitpowr-technologies-inc/openapi/bitpowr-technologies-inc-market-api-openapi.yml
 - filename: bitpowr-technologies-inc-others-api-openapi.yml
   format: yaml
   label: BitPowr Technologies, Inc. Others API
   slug: bitpowr-technologies-inc-others-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/openapi/bitpowr-technologies-inc-others-api-openapi.yml
+  url: https://artifacts.apis.io/bitpowr-technologies-inc/openapi/bitpowr-technologies-inc-others-api-openapi.yml
 - filename: bitpowr-technologies-inc-staking-api-openapi.yml
   format: yaml
   label: BitPowr Technologies, Inc. Staking API
   slug: bitpowr-technologies-inc-staking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/openapi/bitpowr-technologies-inc-staking-api-openapi.yml
+  url: https://artifacts.apis.io/bitpowr-technologies-inc/openapi/bitpowr-technologies-inc-staking-api-openapi.yml
 - filename: bitpowr-technologies-inc-swap-api-openapi.yml
   format: yaml
   label: BitPowr Technologies, Inc. Swap API
   slug: bitpowr-technologies-inc-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/openapi/bitpowr-technologies-inc-swap-api-openapi.yml
+  url: https://artifacts.apis.io/bitpowr-technologies-inc/openapi/bitpowr-technologies-inc-swap-api-openapi.yml
 - filename: bitpowr-technologies-inc-transaction-api-openapi.yml
   format: yaml
   label: BitPowr Technologies, Inc. Transaction API
   slug: bitpowr-technologies-inc-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/openapi/bitpowr-technologies-inc-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/bitpowr-technologies-inc/openapi/bitpowr-technologies-inc-transaction-api-openapi.yml
 - filename: bitpowr-technologies-inc-utils-api-openapi.yml
   format: yaml
   label: BitPowr Technologies, Inc. Utils API
   slug: bitpowr-technologies-inc-utils-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/openapi/bitpowr-technologies-inc-utils-api-openapi.yml
+  url: https://artifacts.apis.io/bitpowr-technologies-inc/openapi/bitpowr-technologies-inc-utils-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -95,7 +95,7 @@ source_filename: bitpowr-technologies-inc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bitpowr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 03:05:30 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.bitpowr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 03:05:30 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: bitpowr.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/security/bitpowr-technologies-inc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bitpowr-technologies-inc/security/bitpowr-technologies-inc-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

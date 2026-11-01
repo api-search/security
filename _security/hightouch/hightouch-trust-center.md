@@ -5,61 +5,73 @@ api_specs:
   label: Hightouch Sources API
   slug: hightouch-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-sources-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-sources-api-openapi.yml
 - filename: hightouch-models-api-openapi.yml
   format: yaml
   label: Hightouch Models API
   slug: hightouch-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-models-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-models-api-openapi.yml
 - filename: hightouch-destinations-api-openapi.yml
   format: yaml
   label: Hightouch Destinations API
   slug: hightouch-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-destinations-api-openapi.yml
 - filename: hightouch-syncs-api-openapi.yml
   format: yaml
   label: Hightouch Syncs API
   slug: hightouch-syncs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-syncs-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-syncs-api-openapi.yml
 - filename: hightouch-campaigns-api-openapi.yml
   format: yaml
   label: Hightouch Campaigns API
   slug: hightouch-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-campaigns-api-openapi.yml
 - filename: hightouch-events-api-openapi.yml
   format: yaml
   label: Hightouch Events API
   slug: hightouch-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-events-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-events-api-openapi.yml
 - filename: hightouch-decision-engine-api-openapi.yml
   format: yaml
   label: Hightouch Decision Engine API
   slug: hightouch-decision-engine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-decision-engine-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-decision-engine-api-openapi.yml
 - filename: hightouch-id-graphs-api-openapi.yml
   format: yaml
   label: Hightouch Id Graphs API
   slug: hightouch-id-graphs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-id-graphs-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-id-graphs-api-openapi.yml
 - filename: hightouch-idr-api-openapi.yml
   format: yaml
   label: Hightouch Idr API
   slug: hightouch-idr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-idr-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-idr-api-openapi.yml
 - filename: hightouch-sync-sequences-api-openapi.yml
   format: yaml
   label: Hightouch Sync Sequences API
   slug: hightouch-sync-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-sync-sequences-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-sync-sequences-api-openapi.yml
+- filename: hightouch-signups-api-openapi.yml
+  format: yaml
+  label: Hightouch Signups API
+  slug: hightouch-signups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-signups-api-openapi.yml
+- filename: hightouch-sync-templates-api-openapi.yml
+  format: yaml
+  label: Hightouch Sync Templates API
+  slug: hightouch-sync-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-sync-templates-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -79,7 +91,7 @@ source_filename: hightouch-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: https://hightouch.com/platform/security\nurl: https://hightouch.com/platform/security\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\n- GDPR\nevidence:\n- source: https://hightouch.com/platform/security\n  keywords:\n  - soc 2\n  - iso 27001\n  - hipaa\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/security/hightouch-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/hightouch/security/hightouch-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - CDP

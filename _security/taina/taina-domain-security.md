@@ -27,7 +27,7 @@ source_filename: taina-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.taina.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 19:34:45 2026 GMT\n  hsts: false\ndomains:\n- domain: taina.tech\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taina/refs/heads/main/security/taina-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/taina/security/taina-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

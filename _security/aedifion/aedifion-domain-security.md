@@ -5,85 +5,85 @@ api_specs:
   label: aedifion MQTT API
   slug: aedifion-mqtt-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/asyncapi/aedifion-mqtt-asyncapi.yml
+  url: https://artifacts.apis.io/aedifion/asyncapi/aedifion-mqtt-asyncapi.yml
 - filename: aedifion-ai-api-openapi.yml
   format: yaml
   label: Aedifion AI API
   slug: aedifion-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-ai-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-ai-api-openapi.yml
 - filename: aedifion-alert-api-openapi.yml
   format: yaml
   label: Aedifion Alert API
   slug: aedifion-alert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-alert-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-alert-api-openapi.yml
 - filename: aedifion-analytics-api-openapi.yml
   format: yaml
   label: Aedifion Analytics API
   slug: aedifion-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-analytics-api-openapi.yml
 - filename: aedifion-company-api-openapi.yml
   format: yaml
   label: Aedifion Company API
   slug: aedifion-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-company-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-company-api-openapi.yml
 - filename: aedifion-component-api-openapi.yml
   format: yaml
   label: Aedifion Component API
   slug: aedifion-component-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-component-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-component-api-openapi.yml
 - filename: aedifion-controls-api-openapi.yml
   format: yaml
   label: Aedifion Controls API
   slug: aedifion-controls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-controls-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-controls-api-openapi.yml
 - filename: aedifion-datapoint-api-openapi.yml
   format: yaml
   label: Aedifion Datapoint API
   slug: aedifion-datapoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-datapoint-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-datapoint-api-openapi.yml
 - filename: aedifion-meta-api-openapi.yml
   format: yaml
   label: Aedifion Meta API
   slug: aedifion-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-meta-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-meta-api-openapi.yml
 - filename: aedifion-project-api-openapi.yml
   format: yaml
   label: Aedifion Project API
   slug: aedifion-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-project-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-project-api-openapi.yml
 - filename: aedifion-realm-api-openapi.yml
   format: yaml
   label: Aedifion Realm API
   slug: aedifion-realm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-realm-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-realm-api-openapi.yml
 - filename: aedifion-task-api-openapi.yml
   format: yaml
   label: Aedifion Task API
   slug: aedifion-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-task-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-task-api-openapi.yml
 - filename: aedifion-user-api-openapi.yml
   format: yaml
   label: Aedifion User API
   slug: aedifion-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-user-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-user-api-openapi.yml
 - filename: aedifion-time-series-api-openapi.yml
   format: yaml
   label: Aedifion Time Series API
   slug: aedifion-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-time-series-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-time-series-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -129,7 +129,7 @@ source_filename: aedifion-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.aedifion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 27 10:05:40 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.aedifion.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 18 08:32:44 2026 GMT\n  hsts: false\n- host: api.aedifion.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 00:14:49 2026 GMT\n  hsts: false\ndomains:\n- domain: aedifion.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: aedifion.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/security/aedifion-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aedifion/security/aedifion-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Building Automation

@@ -8,31 +8,31 @@ api_specs:
   label: Toys R Us Acknowledgements API
   slug: toys-r-us-acknowledgements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/openapi/toys-r-us-acknowledgements-api-openapi.yml
+  url: https://artifacts.apis.io/toys-r-us/openapi/toys-r-us-acknowledgements-api-openapi.yml
 - filename: toys-r-us-invoices-api-openapi.yml
   format: yaml
   label: Toys R Us Invoices API
   slug: toys-r-us-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/openapi/toys-r-us-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/toys-r-us/openapi/toys-r-us-invoices-api-openapi.yml
 - filename: toys-r-us-orders-api-openapi.yml
   format: yaml
   label: Toys R Us Orders API
   slug: toys-r-us-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/openapi/toys-r-us-orders-api-openapi.yml
+  url: https://artifacts.apis.io/toys-r-us/openapi/toys-r-us-orders-api-openapi.yml
 - filename: toys-r-us-products-api-openapi.yml
   format: yaml
   label: Toys R Us Products API
   slug: toys-r-us-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/openapi/toys-r-us-products-api-openapi.yml
+  url: https://artifacts.apis.io/toys-r-us/openapi/toys-r-us-products-api-openapi.yml
 - filename: toys-r-us-shipments-api-openapi.yml
   format: yaml
   label: Toys R Us Shipments API
   slug: toys-r-us-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/openapi/toys-r-us-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/toys-r-us/openapi/toys-r-us-shipments-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: toys-r-us-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/toys-r-us-commerce-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: subscription-key\n  description: API subscription key obtained from the Toys R Us LogicBroker supplier portal.\n    Set up your key at https://stageportal.logicbroker.com/profile/api-authentication/\n  sources:\n  - openapi/toys-r-us-commerce-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/authentication/toys-r-us-authentication.yml
+source_yaml_url: https://artifacts.apis.io/toys-r-us/authentication/toys-r-us-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Commerce

@@ -7,85 +7,85 @@ api_specs:
   label: temp.md Accounts API
   slug: temp-md-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-accounts-api-openapi.yml
 - filename: temp-md-agents-api-openapi.yml
   format: yaml
   label: temp.md Agents API
   slug: temp-md-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-agents-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-agents-api-openapi.yml
 - filename: temp-md-applications-api-openapi.yml
   format: yaml
   label: temp.md Applications API
   slug: temp-md-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-applications-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-applications-api-openapi.yml
 - filename: temp-md-comments-api-openapi.yml
   format: yaml
   label: temp.md Comments API
   slug: temp-md-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-comments-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-comments-api-openapi.yml
 - filename: temp-md-health-api-openapi.yml
   format: yaml
   label: temp.md Health API
   slug: temp-md-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-health-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-health-api-openapi.yml
 - filename: temp-md-lifecycle-api-openapi.yml
   format: yaml
   label: temp.md Lifecycle API
   slug: temp-md-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-lifecycle-api-openapi.yml
 - filename: temp-md-organizations-api-openapi.yml
   format: yaml
   label: temp.md Organizations API
   slug: temp-md-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-organizations-api-openapi.yml
 - filename: temp-md-previews-api-openapi.yml
   format: yaml
   label: temp.md Previews API
   slug: temp-md-previews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-previews-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-previews-api-openapi.yml
 - filename: temp-md-publish-api-openapi.yml
   format: yaml
   label: temp.md Publish API
   slug: temp-md-publish-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-publish-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-publish-api-openapi.yml
 - filename: temp-md-publish-grants-api-openapi.yml
   format: yaml
   label: temp.md Publish Grants API
   slug: temp-md-publish-grants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-publish-grants-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-publish-grants-api-openapi.yml
 - filename: temp-md-publish-sessions-api-openapi.yml
   format: yaml
   label: temp.md Publish Sessions API
   slug: temp-md-publish-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-publish-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-publish-sessions-api-openapi.yml
 - filename: temp-md-review-requests-api-openapi.yml
   format: yaml
   label: temp.md Review Requests API
   slug: temp-md-review-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-review-requests-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-review-requests-api-openapi.yml
 - filename: temp-md-safety-api-openapi.yml
   format: yaml
   label: temp.md Safety API
   slug: temp-md-safety-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-safety-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-safety-api-openapi.yml
 - filename: temp-md-usage-api-openapi.yml
   format: yaml
   label: temp.md Usage API
   slug: temp-md-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-usage-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-usage-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -217,7 +217,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/temp-md
   \ createPublishSession, getTempStatus, restoreTemp, snapshotTemp, updateTempCapabilitySettings, listApiKeys, createApiKey, revokeApiKey, rotateUpdateToken, MCP connection header (list_temps, recover_update_token, account-owned publish), A2A GetTask/ListTasks]\n  key_management: GET/POST /me/api-keys, DELETE /me/api-keys/{keyId}; CLI `tempmd login`, `tempmd keys`, `tempmd keys revoke <id>`\n  sources: [openapi/temp-md-openapi.yml, https://temp.md/.well-known/agent.json]\n- name: dashboardBearer\n  type: http\n  scheme: bearer\n  description: A Temp.md dashboard session or personal account API key.\n  accepted_on: [createOrganization, getOrganization, createApplication, getApplication, updateApplication, listApplicationKeys, createApplicationKey, revokeApplicationKey, webhook endpoint + domain binding operations]\n  sources: [openapi/temp-md-platform-openapi.yml]\n- name: applicationBearer\n  type: http\n  scheme: bearer\n  bearerFormat: tempmd_app_<id>_<secret>\n  description: Server-only\
   \ Application key with explicit scopes. Returned once; must never reach a browser or Electron renderer.\n  accepted_on: [listPlatformPreviews, getPlatformPreview, revokePlatformPreview, createPublishGrant, revokePublishGrant, createPlatformPublishSession, listReviewRequests, createReviewRequest, getPlatformUsage]\n  sources: [openapi/temp-md-platform-openapi.yml, https://temp.md/llms.txt]\n- name: publishGrantBearer\n  type: http\n  scheme: bearer\n  bearerFormat: tempmd_grant_<id>_<secret>\n  description: Short-lived, one-session delegated publishing authority (backend mints a 5-15 minute grant; requests carrying an Origin header MUST use a grant, not an Application key).\n  accepted_on: [createPlatformPublishSession]\n  sources: [openapi/temp-md-platform-openapi.yml, https://temp.md/llms.txt]\n- name: reviewBearer\n  type: http\n  scheme: bearer\n  bearerFormat: tempmd_view_<id>_<secret>\n  description: Short-lived viewer capability bound to one frozen review request.\n  accepted_on:\
   \ [getReviewRequest, createReviewDecision]\n  sources: [openapi/temp-md-platform-openapi.yml]\nheaders:\n  authorization: 'Authorization: Bearer <token>'\n  client_identity: 'X-Tempmd-Client: product/version (optional, sanitized attribution only; pattern ^[A-Za-z0-9][A-Za-z0-9._+/@-]{0,79}$; never user data or capabilities)'\ncors:\n  note: Capability-backed publish-session, status, update and revoke routes allow credential-free cross-origin requests; account, claim, settings, restore, snapshot and dashboard routes keep a restricted-origin policy. Do not send cookies. (docs#browser-integrations)\nsignup:\n  self_serve: true\n  operations: [signup, login]\n  dashboard: https://temp.md/dashboard\n  note: Not required to publish.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/authentication/temp-md-authentication.yml
+source_yaml_url: https://artifacts.apis.io/temp-md/authentication/temp-md-authentication.yml
 summary_line: http · 7 schemes
 tags:
 - Web Publishing

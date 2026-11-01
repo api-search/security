@@ -8,25 +8,25 @@ api_specs:
   label: Kakao OIDC API
   slug: kakao-oidc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/openapi/kakao-oidc-api-openapi.yml
+  url: https://artifacts.apis.io/kakao/openapi/kakao-oidc-api-openapi.yml
 - filename: kakao-service-terms-api-openapi.yml
   format: yaml
   label: Kakao Service Terms API
   slug: kakao-service-terms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/openapi/kakao-service-terms-api-openapi.yml
+  url: https://artifacts.apis.io/kakao/openapi/kakao-service-terms-api-openapi.yml
 - filename: kakao-user-api-openapi.yml
   format: yaml
   label: Kakao User API
   slug: kakao-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/openapi/kakao-user-api-openapi.yml
+  url: https://artifacts.apis.io/kakao/openapi/kakao-user-api-openapi.yml
 - filename: kakao-oauth-api-openapi.yml
   format: yaml
   label: Kakao O Auth API
   slug: kakao-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/openapi/kakao-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/kakao/openapi/kakao-oauth-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -62,7 +62,7 @@ source_filename: kakao-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/kakao-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: Kakao access token\n  description: Kakao access token issued by /oauth/token, sent as \"Bearer {access_token}\".\n  sources:\n  - openapi/kakao-openapi.yml\n- name: adminKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Kakao app Admin Key sent as \"KakaoAK {admin_key}\" for server-to-server calls.\n  sources:\n  - openapi/kakao-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/authentication/kakao-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kakao/authentication/kakao-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Messaging

@@ -7,25 +7,25 @@ api_specs:
   label: Evervault Core API
   slug: evervault-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/openapi/evervault-core-api-openapi.yml
+  url: https://artifacts.apis.io/evervault/openapi/evervault-core-api-openapi.yml
 - filename: evervault-payments-api-openapi.yml
   format: yaml
   label: Evervault Payments API
   slug: evervault-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/openapi/evervault-payments-api-openapi.yml
+  url: https://artifacts.apis.io/evervault/openapi/evervault-payments-api-openapi.yml
 - filename: evervault-webhooks-api-openapi.yml
   format: yaml
   label: Evervault Webhooks API
   slug: evervault-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/openapi/evervault-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/evervault/openapi/evervault-webhooks-api-openapi.yml
 - filename: evervault-evervault-api-api-openapi.yml
   format: yaml
   label: Evervault API
   slug: evervault-evervault-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/openapi/evervault-evervault-api-api-openapi.yml
+  url: https://artifacts.apis.io/evervault/openapi/evervault-evervault-api-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -67,7 +67,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/evervault-openapi-original.json + https://docs.evervault.com/developers/api-keys\ndocs: https://docs.evervault.com/developers/api-keys\nsummary:\n  types:\n  - http\n  http_schemes: [basic, bearer]\n  note: API keys can be created, scoped, rotated, and revoked. Short-lived bearer tokens are minted for client-side and Function-run contexts.\nschemes:\n- name: ApiKey\n  type: http\n  scheme: basic\n  description: Authentication using an API key. The username is the App ID and the password is the API Key (base64 App-ID:API-Key).\n  sources:\n  - openapi/evervault-openapi-original.json\n- name: TokenAuth\n  type: http\n  scheme: bearer\n  bearerFormat: RunToken\n  description: 'Authentication using a short-lived Function run token shareable with clients. Authorization header: \"RunToken <Function Run Token>\".'\n  sources:\n  - openapi/evervault-openapi-original.json\n- name: ClientSideToken\n  type: http\n  scheme: bearer\n\
   \  bearerFormat: Token\n  description: 'Authentication using a short-lived client-side token. Authorization header: \"Token <Client-Side Token>\".'\n  sources:\n  - openapi/evervault-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/authentication/evervault-authentication.yml
+source_yaml_url: https://artifacts.apis.io/evervault/authentication/evervault-authentication.yml
 summary_line: http · 3 schemes
 tags:
 - Company

@@ -5,241 +5,241 @@ api_specs:
   label: Alasco Annual Consumption API
   slug: alasco-annual-consumption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-annual-consumption-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-annual-consumption-api-openapi.yml
 - filename: alasco-asset-api-openapi.yml
   format: yaml
   label: Alasco Asset API
   slug: alasco-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-asset-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-asset-api-openapi.yml
 - filename: alasco-audit-log-api-openapi.yml
   format: yaml
   label: Alasco Audit Log API
   slug: alasco-audit-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-audit-log-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-audit-log-api-openapi.yml
 - filename: alasco-budget-shift-api-openapi.yml
   format: yaml
   label: Alasco Budget Shift API
   slug: alasco-budget-shift-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-budget-shift-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-budget-shift-api-openapi.yml
 - filename: alasco-buildings-api-openapi.yml
   format: yaml
   label: Alasco Buildings API
   slug: alasco-buildings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-buildings-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-buildings-api-openapi.yml
 - filename: alasco-cash-outflow-cost-element-view-api-openapi.yml
   format: yaml
   label: Alasco Cash Outflow Cost Element View API
   slug: alasco-cash-outflow-cost-element-view-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-cash-outflow-cost-element-view-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-cash-outflow-cost-element-view-api-openapi.yml
 - filename: alasco-change-order-api-openapi.yml
   format: yaml
   label: Alasco Change Order API
   slug: alasco-change-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-change-order-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-change-order-api-openapi.yml
 - filename: alasco-change-order-document-api-openapi.yml
   format: yaml
   label: Alasco Change Order Document API
   slug: alasco-change-order-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-change-order-document-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-change-order-document-api-openapi.yml
 - filename: alasco-consumption-intervals-api-openapi.yml
   format: yaml
   label: Alasco Consumption Intervals API
   slug: alasco-consumption-intervals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-consumption-intervals-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-consumption-intervals-api-openapi.yml
 - filename: alasco-contact-api-openapi.yml
   format: yaml
   label: Alasco Contact API
   slug: alasco-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-contact-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-contact-api-openapi.yml
 - filename: alasco-contract-api-openapi.yml
   format: yaml
   label: Alasco Contract API
   slug: alasco-contract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-contract-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-contract-api-openapi.yml
 - filename: alasco-contract-document-api-openapi.yml
   format: yaml
   label: Alasco Contract Document API
   slug: alasco-contract-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-contract-document-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-contract-document-api-openapi.yml
 - filename: alasco-contract-financials-api-openapi.yml
   format: yaml
   label: Alasco Contract Financials API
   slug: alasco-contract-financials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-contract-financials-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-contract-financials-api-openapi.yml
 - filename: alasco-contract-unit-api-openapi.yml
   format: yaml
   label: Alasco Contract Unit API
   slug: alasco-contract-unit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-contract-unit-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-contract-unit-api-openapi.yml
 - filename: alasco-contract-unit-financials-api-openapi.yml
   format: yaml
   label: Alasco Contract Unit Financials API
   slug: alasco-contract-unit-financials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-contract-unit-financials-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-contract-unit-financials-api-openapi.yml
 - filename: alasco-contracting-entity-api-openapi.yml
   format: yaml
   label: Alasco Contracting Entity API
   slug: alasco-contracting-entity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-contracting-entity-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-contracting-entity-api-openapi.yml
 - filename: alasco-contractor-api-openapi.yml
   format: yaml
   label: Alasco Contractor API
   slug: alasco-contractor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-contractor-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-contractor-api-openapi.yml
 - filename: alasco-cost-element-api-openapi.yml
   format: yaml
   label: Alasco Cost Element API
   slug: alasco-cost-element-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-cost-element-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-cost-element-api-openapi.yml
 - filename: alasco-cost-element-contract-financials-api-openapi.yml
   format: yaml
   label: Alasco Cost Element Contract Financials API
   slug: alasco-cost-element-contract-financials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-cost-element-contract-financials-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-cost-element-contract-financials-api-openapi.yml
 - filename: alasco-cost-element-contract-unit-financials-api-openapi.yml
   format: yaml
   label: Alasco Cost Element Contract Unit Financials API
   slug: alasco-cost-element-contract-unit-financials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-cost-element-contract-unit-financials-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-cost-element-contract-unit-financials-api-openapi.yml
 - filename: alasco-cost-element-financials-api-openapi.yml
   format: yaml
   label: Alasco Cost Element Financials API
   slug: alasco-cost-element-financials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-cost-element-financials-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-cost-element-financials-api-openapi.yml
 - filename: alasco-cost-element-tree-template-api-openapi.yml
   format: yaml
   label: Alasco Cost Element Tree Template API
   slug: alasco-cost-element-tree-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-cost-element-tree-template-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-cost-element-tree-template-api-openapi.yml
 - filename: alasco-custom-field-api-openapi.yml
   format: yaml
   label: Alasco Custom Field API
   slug: alasco-custom-field-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-custom-field-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-custom-field-api-openapi.yml
 - filename: alasco-custom-field-definition-api-openapi.yml
   format: yaml
   label: Alasco Custom Field Definition API
   slug: alasco-custom-field-definition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-custom-field-definition-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-custom-field-definition-api-openapi.yml
 - filename: alasco-documents-api-openapi.yml
   format: yaml
   label: Alasco Documents API
   slug: alasco-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-documents-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-documents-api-openapi.yml
 - filename: alasco-invoice-api-openapi.yml
   format: yaml
   label: Alasco Invoice API
   slug: alasco-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-invoice-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-invoice-api-openapi.yml
 - filename: alasco-invoice-document-api-openapi.yml
   format: yaml
   label: Alasco Invoice Document API
   slug: alasco-invoice-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-invoice-document-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-invoice-document-api-openapi.yml
 - filename: alasco-invoice-tag-api-openapi.yml
   format: yaml
   label: Alasco Invoice Tag API
   slug: alasco-invoice-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-invoice-tag-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-invoice-tag-api-openapi.yml
 - filename: alasco-measure-api-openapi.yml
   format: yaml
   label: Alasco Measure API
   slug: alasco-measure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-measure-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-measure-api-openapi.yml
 - filename: alasco-outright-sale-api-openapi.yml
   format: yaml
   label: Alasco Outright Sale API
   slug: alasco-outright-sale-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-outright-sale-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-outright-sale-api-openapi.yml
 - filename: alasco-project-api-openapi.yml
   format: yaml
   label: Alasco Project API
   slug: alasco-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-project-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-project-api-openapi.yml
 - filename: alasco-project-financials-api-openapi.yml
   format: yaml
   label: Alasco Project Financials API
   slug: alasco-project-financials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-project-financials-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-project-financials-api-openapi.yml
 - filename: alasco-property-api-openapi.yml
   format: yaml
   label: Alasco Property API
   slug: alasco-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-property-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-property-api-openapi.yml
 - filename: alasco-rent-unit-api-openapi.yml
   format: yaml
   label: Alasco Rent Unit API
   slug: alasco-rent-unit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-rent-unit-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-rent-unit-api-openapi.yml
 - filename: alasco-sales-unit-api-openapi.yml
   format: yaml
   label: Alasco Sales Unit API
   slug: alasco-sales-unit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-sales-unit-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-sales-unit-api-openapi.yml
 - filename: alasco-tenant-consumption-links-api-openapi.yml
   format: yaml
   label: Alasco Tenant Consumption Links API
   slug: alasco-tenant-consumption-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-tenant-consumption-links-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-tenant-consumption-links-api-openapi.yml
 - filename: alasco-tenants-api-openapi.yml
   format: yaml
   label: Alasco Tenants API
   slug: alasco-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-tenants-api-openapi.yml
 - filename: alasco-utility-data-batch-info-api-openapi.yml
   format: yaml
   label: Alasco Utility Data Batch Info API
   slug: alasco-utility-data-batch-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-utility-data-batch-info-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-utility-data-batch-info-api-openapi.yml
 - filename: alasco-utility-meter-readings-api-openapi.yml
   format: yaml
   label: Alasco Utility Meter Readings API
   slug: alasco-utility-meter-readings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-utility-meter-readings-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-utility-meter-readings-api-openapi.yml
 - filename: alasco-utility-meters-api-openapi.yml
   format: yaml
   label: Alasco Utility Meters API
   slug: alasco-utility-meters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-utility-meters-api-openapi.yml
+  url: https://artifacts.apis.io/alasco/openapi/alasco-utility-meters-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -258,7 +258,7 @@ source_filename: alasco-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nprobe: true\nsource: https://www.alasco.com/security-trust\nurl: https://www.alasco.com/security-trust\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://www.alasco.com/security-trust\n  keywords:\n  - soc2\n  - iso 27001\n  - iso/iec 27001\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/security/alasco-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/alasco/security/alasco-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company

@@ -46,7 +46,7 @@ source_filename: monzo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: monzo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 27 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.monzo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 03:25:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.monzo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 03:25:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: monzo.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 iodef \"mailto:security@monzo.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"buypass.com\"\n  - 0 issue \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/security/monzo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/monzo/security/monzo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

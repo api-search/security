@@ -5,13 +5,13 @@ api_specs:
   label: Beenverified Append API
   slug: beenverified-append-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beenverified/refs/heads/main/openapi/beenverified-append-api-openapi.yml
+  url: https://artifacts.apis.io/beenverified/openapi/beenverified-append-api-openapi.yml
 - filename: beenverified-append-sandbox-api-openapi.yml
   format: yaml
   label: Beenverified Append Sandbox API
   slug: beenverified-append-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beenverified/refs/heads/main/openapi/beenverified-append-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/beenverified/openapi/beenverified-append-sandbox-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,7 +41,7 @@ source_filename: beenverified-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.beenverified.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 22 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 2592000\ndomains:\n- domain: beenverified.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beenverified/refs/heads/main/security/beenverified-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/beenverified/security/beenverified-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

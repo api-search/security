@@ -26,7 +26,7 @@ source_filename: weeby-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gameclosure.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 02:59:00 2026 GMT\n  hsts: false\ndomains:\n- domain: gameclosure.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weeby/refs/heads/main/security/weeby-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/weeby/security/weeby-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

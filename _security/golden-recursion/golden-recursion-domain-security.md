@@ -5,19 +5,19 @@ api_specs:
   label: Golden Recursion Entity API
   slug: golden-recursion-entity-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/openapi/golden-recursion-entity-api-api-openapi.yml
+  url: https://artifacts.apis.io/golden-recursion/openapi/golden-recursion-entity-api-api-openapi.yml
 - filename: golden-recursion-query-api-api-openapi.yml
   format: yaml
   label: Golden Recursion Query API
   slug: golden-recursion-query-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/openapi/golden-recursion-query-api-api-openapi.yml
+  url: https://artifacts.apis.io/golden-recursion/openapi/golden-recursion-query-api-api-openapi.yml
 - filename: golden-recursion-schema-api-api-openapi.yml
   format: yaml
   label: Golden Recursion Schema API
   slug: golden-recursion-schema-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/openapi/golden-recursion-schema-api-api-openapi.yml
+  url: https://artifacts.apis.io/golden-recursion/openapi/golden-recursion-schema-api-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -57,7 +57,7 @@ source_filename: golden-recursion-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.golden.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 10:58:48 2026 GMT\n  hsts: false\n- host: golden.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 11:52:29 2026 GMT\n  hsts: false\ndomains:\n- domain: golden.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 iodef \"mailto:hello@golden-support.com\"\n  - 0 issue \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/security/golden-recursion-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/golden-recursion/security/golden-recursion-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

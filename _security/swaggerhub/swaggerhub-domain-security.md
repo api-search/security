@@ -5,55 +5,61 @@ api_specs:
   label: SwaggerHub Domains API
   slug: swaggerhub-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-domains-api-openapi.yml
+  url: https://artifacts.apis.io/swaggerhub/openapi/swaggerhub-domains-api-openapi.yml
 - filename: swaggerhub-integrations-api-openapi.yml
   format: yaml
   label: SwaggerHub Integrations API
   slug: swaggerhub-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/swaggerhub/openapi/swaggerhub-integrations-api-openapi.yml
 - filename: swaggerhub-organizations-api-openapi.yml
   format: yaml
   label: SwaggerHub Organizations API
   slug: swaggerhub-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/swaggerhub/openapi/swaggerhub-organizations-api-openapi.yml
 - filename: swaggerhub-projects-api-openapi.yml
   format: yaml
   label: SwaggerHub Projects API
   slug: swaggerhub-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-projects-api-openapi.yml
+  url: https://artifacts.apis.io/swaggerhub/openapi/swaggerhub-projects-api-openapi.yml
 - filename: swaggerhub-search-api-openapi.yml
   format: yaml
   label: SwaggerHub Search API
   slug: swaggerhub-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-search-api-openapi.yml
+  url: https://artifacts.apis.io/swaggerhub/openapi/swaggerhub-search-api-openapi.yml
 - filename: swaggerhub-settings-api-openapi.yml
   format: yaml
   label: SwaggerHub Settings API
   slug: swaggerhub-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-settings-api-openapi.yml
+  url: https://artifacts.apis.io/swaggerhub/openapi/swaggerhub-settings-api-openapi.yml
 - filename: swaggerhub-standardization-api-openapi.yml
   format: yaml
   label: SwaggerHub Standardization API
   slug: swaggerhub-standardization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-standardization-api-openapi.yml
+  url: https://artifacts.apis.io/swaggerhub/openapi/swaggerhub-standardization-api-openapi.yml
 - filename: swaggerhub-teams-api-openapi.yml
   format: yaml
   label: SwaggerHub Teams API
   slug: swaggerhub-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-teams-api-openapi.yml
+  url: https://artifacts.apis.io/swaggerhub/openapi/swaggerhub-teams-api-openapi.yml
 - filename: swaggerhub-apis-api-openapi.yml
   format: yaml
   label: SwaggerHub APIs API
   slug: swaggerhub-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-apis-api-openapi.yml
+  url: https://artifacts.apis.io/swaggerhub/openapi/swaggerhub-apis-api-openapi.yml
+- filename: swaggerhub-templates-api-openapi.yml
+  format: yaml
+  label: SwaggerHub Templates API
+  slug: swaggerhub-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/swaggerhub/openapi/swaggerhub-templates-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -99,7 +105,7 @@ source_filename: swaggerhub-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: swagger.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 16:46:01 2026 GMT\n  hsts: false\n- host: support.smartbear.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 15:02:27 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.swaggerhub.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: swagger.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: smartbear.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/security/swaggerhub-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/swaggerhub/security/swaggerhub-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - API Design

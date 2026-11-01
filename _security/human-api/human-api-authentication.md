@@ -7,43 +7,43 @@ api_specs:
   label: Human API Admin API
   slug: human-api-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/openapi/human-api-admin-api-openapi.yml
+  url: https://artifacts.apis.io/human-api/openapi/human-api-admin-api-openapi.yml
 - filename: human-api-connect-api-openapi.yml
   format: yaml
   label: Human API Connect API
   slug: human-api-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/openapi/human-api-connect-api-openapi.yml
+  url: https://artifacts.apis.io/human-api/openapi/human-api-connect-api-openapi.yml
 - filename: human-api-orders-api-openapi.yml
   format: yaml
   label: Human API Orders API
   slug: human-api-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/openapi/human-api-orders-api-openapi.yml
+  url: https://artifacts.apis.io/human-api/openapi/human-api-orders-api-openapi.yml
 - filename: human-api-reports-api-openapi.yml
   format: yaml
   label: Human API Reports API
   slug: human-api-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/openapi/human-api-reports-api-openapi.yml
+  url: https://artifacts.apis.io/human-api/openapi/human-api-reports-api-openapi.yml
 - filename: human-api-resources-api-openapi.yml
   format: yaml
   label: Human API Resources API
   slug: human-api-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/openapi/human-api-resources-api-openapi.yml
+  url: https://artifacts.apis.io/human-api/openapi/human-api-resources-api-openapi.yml
 - filename: human-api-subscriptions-api-openapi.yml
   format: yaml
   label: Human API Subscriptions API
   slug: human-api-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/openapi/human-api-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/human-api/openapi/human-api-subscriptions-api-openapi.yml
 - filename: human-api-users-api-openapi.yml
   format: yaml
   label: Human API Users API
   slug: human-api-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/openapi/human-api-users-api-openapi.yml
+  url: https://artifacts.apis.io/human-api/openapi/human-api-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -83,7 +83,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-15'\nmethod: derived\nsource: openapi/human-api-admin-consumer-link-openapi.json, openapi/human-api-admin-order-types-openapi.json,\n  openapi/human-api-admin-report-by-id-openapi.json, openapi/human-api-admin-subscription-create-openapi.json,\n  openapi/human-api-admin-subscription-delete-openapi.json, openapi/human-api-admin-subscription-details-openapi.json,\n  openapi/human-api-admin-subscriptions-list-openapi.json, openapi/human-api-admin-user-actions-openapi.json,\n  openapi/human-api-admin-user-create-openapi.json, openapi/human-api-admin-user-details-openapi.json,\n  openapi/human-api-admin-user-providers-openapi.json, openapi/human-api-admin-user-reports-openapi.json\n  ...\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/human-api-admin-consumer-link-openapi.json\n  - openapi/human-api-admin-order-types-openapi.json\n  - openapi/human-api-admin-report-by-id-openapi.json\n\
   \  - openapi/human-api-admin-subscription-create-openapi.json\n  - openapi/human-api-admin-subscription-delete-openapi.json\n  - openapi/human-api-admin-subscription-details-openapi.json\n  - openapi/human-api-admin-subscriptions-list-openapi.json\n  - openapi/human-api-admin-user-actions-openapi.json\n  - openapi/human-api-admin-user-create-openapi.json\n  - openapi/human-api-admin-user-details-openapi.json\n  - openapi/human-api-admin-user-providers-openapi.json\n  - openapi/human-api-admin-user-reports-openapi.json\n  - openapi/human-api-admin-users-list-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/authentication/human-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/human-api/authentication/human-api-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Healthcare

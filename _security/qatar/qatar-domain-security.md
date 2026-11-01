@@ -5,31 +5,31 @@ api_specs:
   label: Qatar University Client Registration API
   slug: qatar-client-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qatar/refs/heads/main/openapi/qatar-client-registration-api-openapi.yml
+  url: https://artifacts.apis.io/qatar/openapi/qatar-client-registration-api-openapi.yml
 - filename: qatar-discovery-api-openapi.yml
   format: yaml
   label: Qatar University Discovery API
   slug: qatar-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qatar/refs/heads/main/openapi/qatar-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/qatar/openapi/qatar-discovery-api-openapi.yml
 - filename: qatar-oai-pmh-api-openapi.yml
   format: yaml
   label: Qatar University OAI PMH API
   slug: qatar-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qatar/refs/heads/main/openapi/qatar-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/qatar/openapi/qatar-oai-pmh-api-openapi.yml
 - filename: qatar-openid-connect-api-openapi.yml
   format: yaml
   label: Qatar University OpenID Connect API
   slug: qatar-openid-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qatar/refs/heads/main/openapi/qatar-openid-connect-api-openapi.yml
+  url: https://artifacts.apis.io/qatar/openapi/qatar-openid-connect-api-openapi.yml
 - filename: qatar-oauth-api-openapi.yml
   format: yaml
   label: Qatar University O Auth API
   slug: qatar-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qatar/refs/heads/main/openapi/qatar-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/qatar/openapi/qatar-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: qatar-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.qu.edu.qa\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 15 23:59:59 2026 GMT\n  hsts: false\n- host: libguides.qu.edu.qa\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 07:50:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: qspace.qu.edu.qa\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 23:07:17 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: qu.edu.qa\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qatar/refs/heads/main/security/qatar-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/qatar/security/qatar-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Education

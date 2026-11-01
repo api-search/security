@@ -5,49 +5,49 @@ api_specs:
   label: Rancher Apps API
   slug: rancher-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/openapi/rancher-apps-api-openapi.yml
+  url: https://artifacts.apis.io/rancher/openapi/rancher-apps-api-openapi.yml
 - filename: rancher-catalogs-api-openapi.yml
   format: yaml
   label: Rancher Catalogs API
   slug: rancher-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/openapi/rancher-catalogs-api-openapi.yml
+  url: https://artifacts.apis.io/rancher/openapi/rancher-catalogs-api-openapi.yml
 - filename: rancher-clusters-api-openapi.yml
   format: yaml
   label: Rancher Clusters API
   slug: rancher-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/openapi/rancher-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/rancher/openapi/rancher-clusters-api-openapi.yml
 - filename: rancher-nodes-api-openapi.yml
   format: yaml
   label: Rancher Nodes API
   slug: rancher-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/openapi/rancher-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/rancher/openapi/rancher-nodes-api-openapi.yml
 - filename: rancher-projects-api-openapi.yml
   format: yaml
   label: Rancher Projects API
   slug: rancher-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/openapi/rancher-projects-api-openapi.yml
+  url: https://artifacts.apis.io/rancher/openapi/rancher-projects-api-openapi.yml
 - filename: rancher-roles-api-openapi.yml
   format: yaml
   label: Rancher Roles API
   slug: rancher-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/openapi/rancher-roles-api-openapi.yml
+  url: https://artifacts.apis.io/rancher/openapi/rancher-roles-api-openapi.yml
 - filename: rancher-tokens-api-openapi.yml
   format: yaml
   label: Rancher Tokens API
   slug: rancher-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/openapi/rancher-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/rancher/openapi/rancher-tokens-api-openapi.yml
 - filename: rancher-users-api-openapi.yml
   format: yaml
   label: Rancher Users API
   slug: rancher-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/openapi/rancher-users-api-openapi.yml
+  url: https://artifacts.apis.io/rancher/openapi/rancher-users-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -87,7 +87,7 @@ source_filename: rancher-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.rancher.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 13 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: ranchermanager.docs.rancher.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 04:53:19 2026 GMT\n  hsts: false\ndomains:\n- domain: rancher.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/security/rancher-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rancher/security/rancher-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cluster Management

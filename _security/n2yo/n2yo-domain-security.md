@@ -5,31 +5,31 @@ api_specs:
   label: N2YO Above API
   slug: n2yo-above-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n2yo/refs/heads/main/openapi/n2yo-above-api-openapi.yml
+  url: https://artifacts.apis.io/n2yo/openapi/n2yo-above-api-openapi.yml
 - filename: n2yo-positions-api-openapi.yml
   format: yaml
   label: N2YO Positions API
   slug: n2yo-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n2yo/refs/heads/main/openapi/n2yo-positions-api-openapi.yml
+  url: https://artifacts.apis.io/n2yo/openapi/n2yo-positions-api-openapi.yml
 - filename: n2yo-radio-passes-api-openapi.yml
   format: yaml
   label: N2YO Radio Passes API
   slug: n2yo-radio-passes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n2yo/refs/heads/main/openapi/n2yo-radio-passes-api-openapi.yml
+  url: https://artifacts.apis.io/n2yo/openapi/n2yo-radio-passes-api-openapi.yml
 - filename: n2yo-tle-api-openapi.yml
   format: yaml
   label: N2YO TLE API
   slug: n2yo-tle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n2yo/refs/heads/main/openapi/n2yo-tle-api-openapi.yml
+  url: https://artifacts.apis.io/n2yo/openapi/n2yo-tle-api-openapi.yml
 - filename: n2yo-visual-passes-api-openapi.yml
   format: yaml
   label: N2YO Visual Passes API
   slug: n2yo-visual-passes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n2yo/refs/heads/main/openapi/n2yo-visual-passes-api-openapi.yml
+  url: https://artifacts.apis.io/n2yo/openapi/n2yo-visual-passes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: n2yo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.n2yo.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 13 23:59:59 2026 GMT\n  hsts: false\n- host: api.n2yo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  4 16:53:01 2026 GMT\n  hsts: false\ndomains:\n- domain: n2yo.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/n2yo/refs/heads/main/security/n2yo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/n2yo/security/n2yo-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Satellite

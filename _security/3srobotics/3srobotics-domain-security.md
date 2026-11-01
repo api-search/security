@@ -27,7 +27,7 @@ source_filename: 3srobotics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: 3srobotics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 04:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: 3srobotics.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/3srobotics/refs/heads/main/security/3srobotics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/3srobotics/security/3srobotics-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

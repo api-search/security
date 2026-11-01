@@ -26,7 +26,7 @@ source_filename: avina-clean-hydrogen-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: avinah2.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  1 05:48:08 2026 GMT\n  hsts: false\ndomains:\n- domain: avinah2.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avina-clean-hydrogen/refs/heads/main/security/avina-clean-hydrogen-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/avina-clean-hydrogen/security/avina-clean-hydrogen-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

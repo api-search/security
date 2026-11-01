@@ -29,7 +29,7 @@ source_filename: pts-se-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pts.se\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 21 12:37:14 2027 GMT\n  hsts: false\ndomains:\n- domain: pts.se\n  dnssec: true\n  caa:\n  - 0 iodef \"mailto:postmaster@pts.se\"\n  - 0 issue \"godaddy.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pts-se/refs/heads/main/security/pts-se-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pts-se/security/pts-se-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Government

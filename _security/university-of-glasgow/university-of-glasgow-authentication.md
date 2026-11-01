@@ -7,7 +7,7 @@ api_specs:
   label: University of Glasgow Repository API
   slug: university-of-glasgow-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-glasgow/refs/heads/main/openapi/university-of-glasgow-repository-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-glasgow/openapi/university-of-glasgow-repository-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -32,7 +32,7 @@ source_yaml: "name: University of Glasgow — authentication posture\naid: unive
   \ '2026-08-30'\n- aid: university-of-glasgow:sierra-library-api\n  x-operator: institution\n  x-vendor: innovative-interfaces\n  scheme: oauth2-client-credentials\n  detail: >-\n    The library management system at eleanor.lib.gla.ac.uk exposes the Innovative Interfaces Sierra\n    API. /iii/sierra-api/v6/info/token returned 401 on 2026-08-30 — live and credentialed, not\n    absent. Keys are issued by the library to named partners; there is no public registration path.\n  verified: '2026-08-30'\n- aid: university-of-glasgow:worldcat-discovery\n  x-operator: tenant\n  x-vendor: oclc\n  scheme: vendor\n  detail: >-\n    gla.on.worldcat.org is Glasgow's OCLC WorldCat Discovery tenancy. Any programmatic access runs\n    on OCLC's own WorldCat Search API keys and OAuth, documented and operated by OCLC. Not scored\n    here.\n  verified: '2026-08-30'\n- aid: university-of-glasgow:libguides\n  x-operator: tenant\n  x-vendor: springshare\n  scheme: vendor\n  detail: >-\n    gla.libguides.com\
   \ is Glasgow's Springshare LibGuides tenancy. The LibGuides API is Springshare's\n    product, keyed per site by Springshare. Not scored here.\n  verified: '2026-08-30'\nidentity_federation:\n  x-operator: institution\n  protocol: SAML 2.0 / Shibboleth\n  entity_id: https://idp.gla.ac.uk/shibboleth\n  scope: gla.ac.uk\n  metadata:\n    self_published: https://idp.gla.ac.uk/idp/shibboleth\n    federation_mdq: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fidp.gla.ac.uk%2Fshibboleth\n  federations:\n  - UK Access Management Federation\n  - eduGAIN\n  bindings:\n  - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST\n  - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign\n  - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect\n  - urn:mace:shibboleth:1.0:profiles:AuthnRequest\n  entities_registered: 2\n  service_providers_registered: 0\n  detail: >-\n    Glasgow registers a production IdP and a test IdP (https://idptest.gla.ac.uk/idp/shibboleth) in\n    the UK federation aggregate\
   \ and no Service Provider entities. Both metadata copies — the IdP's\n    own and the federation's signed MDQ copy — were fetched and read on 2026-08-30.\n  verified: '2026-08-30'\nnotes:\n- >-\n  No developer key, no OAuth client registration, no API key issuance page and no self-service\n  onboarding of any kind exists on gla.ac.uk. Everything credentialed here is credentialed through\n  institutional identity or a library/VLE administrator.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-glasgow/refs/heads/main/authentication/university-of-glasgow-authentication.yml
+source_yaml_url: https://artifacts.apis.io/university-of-glasgow/authentication/university-of-glasgow-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

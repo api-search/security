@@ -8,25 +8,25 @@ api_specs:
   label: LootRush Connect API
   slug: lootrush-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/openapi/lootrush-connect-api-openapi.yml
+  url: https://artifacts.apis.io/lootrush/openapi/lootrush-connect-api-openapi.yml
 - filename: lootrush-history-api-openapi.yml
   format: yaml
   label: LootRush History API
   slug: lootrush-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/openapi/lootrush-history-api-openapi.yml
+  url: https://artifacts.apis.io/lootrush/openapi/lootrush-history-api-openapi.yml
 - filename: lootrush-mcp-api-openapi.yml
   format: yaml
   label: LootRush MCP API
   slug: lootrush-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/openapi/lootrush-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/lootrush/openapi/lootrush-mcp-api-openapi.yml
 - filename: lootrush-withdrawals-api-openapi.yml
   format: yaml
   label: LootRush Withdrawals API
   slug: lootrush-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/openapi/lootrush-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/lootrush/openapi/lootrush-withdrawals-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -61,7 +61,7 @@ source_filename: lootrush-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/lootrush-openapi-original.json\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'API token issued by your LootRush account manager. Sent as `Authorization: Bearer\n    <token>`.'\n  sources:\n  - openapi/lootrush-openapi-original.json\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: Integration API key provided by LootRush during Connect registration.\n  sources:\n  - openapi/lootrush-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/authentication/lootrush-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lootrush/authentication/lootrush-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

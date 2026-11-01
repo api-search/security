@@ -8,19 +8,19 @@ api_specs:
   label: StayingAPI Account API
   slug: stayingapi-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/openapi/stayingapi-account-api-openapi.yml
+  url: https://artifacts.apis.io/stayingapi/openapi/stayingapi-account-api-openapi.yml
 - filename: stayingapi-data-api-openapi.yml
   format: yaml
   label: StayingAPI Data API
   slug: stayingapi-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/openapi/stayingapi-data-api-openapi.yml
+  url: https://artifacts.apis.io/stayingapi/openapi/stayingapi-data-api-openapi.yml
 - filename: stayingapi-jobs-api-openapi.yml
   format: yaml
   label: StayingAPI Jobs API
   slug: stayingapi-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/openapi/stayingapi-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/stayingapi/openapi/stayingapi-jobs-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: openapi/staying
   \ synchronous); stay_live_ = live.\n    key_prefixes:\n      - stay_test_\n      - stay_live_\n    sources:\n      - openapi/stayingapi-openapi-original.json\n      - https://stayingapi.com/docs/authentication\n  - name: mcpOAuth\n    type: oauth2\n    surface: MCP\n    description: >-\n      OAuth 2.1 authorization code + PKCE (S256) with dynamic client registration for the\n      hosted MCP server. Not declared in the REST OpenAPI; discovered from the live\n      /.well-known metadata on mcp.stayingapi.com.\n    flows:\n      - flow: authorizationCode\n        issuer: https://mcp.stayingapi.com/mcp/oauth\n        authorizationUrl: https://mcp.stayingapi.com/mcp/oauth/authorize\n        tokenUrl: https://mcp.stayingapi.com/mcp/oauth/token\n        registrationUrl: https://mcp.stayingapi.com/mcp/oauth/register\n        code_challenge_methods:\n          - S256\n        token_endpoint_auth_methods:\n          - none\n          - client_secret_basic\n        scopes:\n          - stays.read\n\
   \    sources:\n      - well-known/stayingapi-oauth-authorization-server.json\n      - well-known/stayingapi-oauth-protected-resource.json\n      - https://stayingapi.com/docs/mcp\nkey_management:\n  dashboard: https://stayingapi.com/dashboard/keys\n  rotation: Keys can be created, labelled, rotated and revoked from the dashboard.\n  storage: Secret is displayed once at creation and stored only as a hash.\n  revocation: Revoked keys immediately return 401 revoked_api_key.\n  verification_gate: >-\n    Live credits are unusable until account email is verified; a 403 permission_denied /\n    email_unverified is returned until then. Sandbox keys work throughout.\nx-evidence:\n  - url: https://api.stayingapi.com/openapi.json\n    http_status: 200\n    note: components.securitySchemes.bearerAuth\n  - url: https://mcp.stayingapi.com/.well-known/oauth-authorization-server\n    http_status: 200\n  - url: https://mcp.stayingapi.com/.well-known/oauth-protected-resource\n    http_status: 200\n  -\
   \ url: https://mcp.stayingapi.com/mcp\n    http_status: 401\n    note: >-\n      WWW-Authenticate: Bearer resource_metadata=\"https://mcp.stayingapi.com/mcp/.well-known/oauth-protected-resource\"\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/authentication/stayingapi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/stayingapi/authentication/stayingapi-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Travel

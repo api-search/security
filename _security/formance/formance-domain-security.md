@@ -5,49 +5,49 @@ api_specs:
   label: Formance Auth API
   slug: formance-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-auth-api-openapi.yml
+  url: https://artifacts.apis.io/formance/openapi/formance-auth-api-openapi.yml
 - filename: formance-ledger-api-openapi.yml
   format: yaml
   label: Formance Ledger API
   slug: formance-ledger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-ledger-api-openapi.yml
+  url: https://artifacts.apis.io/formance/openapi/formance-ledger-api-openapi.yml
 - filename: formance-orchestration-api-openapi.yml
   format: yaml
   label: Formance Orchestration API
   slug: formance-orchestration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-orchestration-api-openapi.yml
+  url: https://artifacts.apis.io/formance/openapi/formance-orchestration-api-openapi.yml
 - filename: formance-payments-api-openapi.yml
   format: yaml
   label: Formance Payments API
   slug: formance-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-payments-api-openapi.yml
+  url: https://artifacts.apis.io/formance/openapi/formance-payments-api-openapi.yml
 - filename: formance-reconciliation-api-openapi.yml
   format: yaml
   label: Formance Reconciliation API
   slug: formance-reconciliation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-reconciliation-api-openapi.yml
+  url: https://artifacts.apis.io/formance/openapi/formance-reconciliation-api-openapi.yml
 - filename: formance-search-api-openapi.yml
   format: yaml
   label: Formance Search API
   slug: formance-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-search-api-openapi.yml
+  url: https://artifacts.apis.io/formance/openapi/formance-search-api-openapi.yml
 - filename: formance-wallets-api-openapi.yml
   format: yaml
   label: Formance Wallets API
   slug: formance-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/formance/openapi/formance-wallets-api-openapi.yml
 - filename: formance-webhooks-api-openapi.yml
   format: yaml
   label: Formance Webhooks API
   slug: formance-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/formance/openapi/formance-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -83,12 +83,12 @@ source_filename: formance-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.formance.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 15:06:18 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.formance.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 03:00:48 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: formance.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/security/formance-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/formance/security/formance-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Financial Infrastructure
 - Ledger
-- double-entry-accounting
+- Double-Entry
 - Payments
 - Orchestration
 - Money Movement

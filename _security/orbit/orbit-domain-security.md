@@ -5,55 +5,55 @@ api_specs:
   label: Orbit Activities API
   slug: orbit-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/openapi/orbit-activities-api-openapi.yml
+  url: https://artifacts.apis.io/orbit/openapi/orbit-activities-api-openapi.yml
 - filename: orbit-activity-types-api-openapi.yml
   format: yaml
   label: Orbit Activity Types API
   slug: orbit-activity-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/openapi/orbit-activity-types-api-openapi.yml
+  url: https://artifacts.apis.io/orbit/openapi/orbit-activity-types-api-openapi.yml
 - filename: orbit-members-api-openapi.yml
   format: yaml
   label: Orbit Members API
   slug: orbit-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/openapi/orbit-members-api-openapi.yml
+  url: https://artifacts.apis.io/orbit/openapi/orbit-members-api-openapi.yml
 - filename: orbit-notes-api-openapi.yml
   format: yaml
   label: Orbit Notes API
   slug: orbit-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/openapi/orbit-notes-api-openapi.yml
+  url: https://artifacts.apis.io/orbit/openapi/orbit-notes-api-openapi.yml
 - filename: orbit-organizations-api-openapi.yml
   format: yaml
   label: Orbit Organizations API
   slug: orbit-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/openapi/orbit-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/orbit/openapi/orbit-organizations-api-openapi.yml
 - filename: orbit-reports-api-openapi.yml
   format: yaml
   label: Orbit Reports API
   slug: orbit-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/openapi/orbit-reports-api-openapi.yml
+  url: https://artifacts.apis.io/orbit/openapi/orbit-reports-api-openapi.yml
 - filename: orbit-users-api-openapi.yml
   format: yaml
   label: Orbit Users API
   slug: orbit-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/openapi/orbit-users-api-openapi.yml
+  url: https://artifacts.apis.io/orbit/openapi/orbit-users-api-openapi.yml
 - filename: orbit-webhooks-api-openapi.yml
   format: yaml
   label: Orbit Webhooks API
   slug: orbit-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/openapi/orbit-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/orbit/openapi/orbit-webhooks-api-openapi.yml
 - filename: orbit-workspaces-api-openapi.yml
   format: yaml
   label: Orbit Workspaces API
   slug: orbit-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/openapi/orbit-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/orbit/openapi/orbit-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -95,7 +95,7 @@ source_filename: orbit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-10'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: orbit.love\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 23 19:54:35 2026 GMT\n  hsts: null\n- host: app.orbit.love\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 23 19:54:35 2026 GMT\n  hsts: null\n- host: web.archive.org\n  https: false\ndomains:\n- domain: orbit.love\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: archive.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/security/orbit-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/orbit/security/orbit-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Developer Relations

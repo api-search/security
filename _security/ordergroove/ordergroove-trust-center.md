@@ -5,37 +5,37 @@ api_specs:
   label: Ordergroove Customers API
   slug: ordergroove-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-customers-api-openapi.yml
+  url: https://artifacts.apis.io/ordergroove/openapi/ordergroove-customers-api-openapi.yml
 - filename: ordergroove-items-api-openapi.yml
   format: yaml
   label: Ordergroove Items API
   slug: ordergroove-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-items-api-openapi.yml
+  url: https://artifacts.apis.io/ordergroove/openapi/ordergroove-items-api-openapi.yml
 - filename: ordergroove-offers-api-openapi.yml
   format: yaml
   label: Ordergroove Offers API
   slug: ordergroove-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-offers-api-openapi.yml
+  url: https://artifacts.apis.io/ordergroove/openapi/ordergroove-offers-api-openapi.yml
 - filename: ordergroove-orders-api-openapi.yml
   format: yaml
   label: Ordergroove Orders API
   slug: ordergroove-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ordergroove/openapi/ordergroove-orders-api-openapi.yml
 - filename: ordergroove-products-api-openapi.yml
   format: yaml
   label: Ordergroove Products API
   slug: ordergroove-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-products-api-openapi.yml
+  url: https://artifacts.apis.io/ordergroove/openapi/ordergroove-products-api-openapi.yml
 - filename: ordergroove-subscriptions-api-openapi.yml
   format: yaml
   label: Ordergroove Subscriptions API
   slug: ordergroove-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/ordergroove/openapi/ordergroove-subscriptions-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -54,7 +54,7 @@ source_filename: ordergroove-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.ordergroove.com/security/\nurl: https://www.ordergroove.com/security/\ncertifications:\n- SOC 2\n- PCI DSS\n- GDPR\nevidence:\n- source: https://www.ordergroove.com/security/\n  keywords:\n  - soc 2\n  - pci dss\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/security/ordergroove-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/ordergroove/security/ordergroove-trust-center.yml
 summary_line: SOC 2, PCI DSS, GDPR
 tags:
 - Subscription

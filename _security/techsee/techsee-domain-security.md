@@ -27,7 +27,7 @@ source_filename: techsee-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: techsee.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 18:43:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: techsee.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/techsee/refs/heads/main/security/techsee-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/techsee/security/techsee-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
@@ -38,7 +38,7 @@ tags:
 - Computer Vision
 - Augmented Reality
 - Artificial Intelligence
-- Field Service
+- Field Service Management
 - Remote Support
 - Video
 - Telecommunications

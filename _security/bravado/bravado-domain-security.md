@@ -23,7 +23,7 @@ source_filename: bravado-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bravado.co\n  https: false\ndomains:\n- domain: bravado.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bravado/refs/heads/main/security/bravado-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bravado/security/bravado-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

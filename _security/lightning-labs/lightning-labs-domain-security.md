@@ -5,7 +5,7 @@ api_specs:
   label: Lightning Labs Lightning API
   slug: lightning-labs-lightning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightning-labs/refs/heads/main/openapi/lightning-labs-lightning-api-openapi.yml
+  url: https://artifacts.apis.io/lightning-labs/openapi/lightning-labs-lightning-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -35,7 +35,7 @@ source_filename: lightning-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: lightning.engineering\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 06:52:25 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: lightning.engineering\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightning-labs/refs/heads/main/security/lightning-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lightning-labs/security/lightning-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Bitcoin

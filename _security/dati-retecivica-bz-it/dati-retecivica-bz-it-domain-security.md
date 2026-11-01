@@ -26,7 +26,7 @@ source_filename: dati-retecivica-bz-it-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dati.retecivica.bz.it\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 12 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: bz.it\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dati-retecivica-bz-it/refs/heads/main/security/dati-retecivica-bz-it-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dati-retecivica-bz-it/security/dati-retecivica-bz-it-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Open Data

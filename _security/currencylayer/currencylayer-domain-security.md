@@ -5,31 +5,31 @@ api_specs:
   label: Currencylayer Change API
   slug: currencylayer-change-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/openapi/currencylayer-change-api-openapi.yml
+  url: https://artifacts.apis.io/currencylayer/openapi/currencylayer-change-api-openapi.yml
 - filename: currencylayer-conversion-api-openapi.yml
   format: yaml
   label: Currencylayer Conversion API
   slug: currencylayer-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/openapi/currencylayer-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/currencylayer/openapi/currencylayer-conversion-api-openapi.yml
 - filename: currencylayer-rates-api-openapi.yml
   format: yaml
   label: Currencylayer Rates API
   slug: currencylayer-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/openapi/currencylayer-rates-api-openapi.yml
+  url: https://artifacts.apis.io/currencylayer/openapi/currencylayer-rates-api-openapi.yml
 - filename: currencylayer-symbols-api-openapi.yml
   format: yaml
   label: Currencylayer Symbols API
   slug: currencylayer-symbols-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/openapi/currencylayer-symbols-api-openapi.yml
+  url: https://artifacts.apis.io/currencylayer/openapi/currencylayer-symbols-api-openapi.yml
 - filename: currencylayer-time-frame-api-openapi.yml
   format: yaml
   label: Currencylayer Time Frame API
   slug: currencylayer-time-frame-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/openapi/currencylayer-time-frame-api-openapi.yml
+  url: https://artifacts.apis.io/currencylayer/openapi/currencylayer-time-frame-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,7 +81,7 @@ source_filename: currencylayer-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: currencylayer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 18:54:04 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.apilayer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 12 16:33:32 2026 GMT\n  hsts: null\n- host: api.currencylayer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 18:54:04 2026 GMT\n  hsts: null\ndomains:\n- domain: currencylayer.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n- domain: apilayer.com\n  dnssec: false\n  caa:\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/security/currencylayer-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/currencylayer/security/currencylayer-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Foreign Exchange

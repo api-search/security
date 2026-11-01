@@ -7,43 +7,43 @@ api_specs:
   label: Great Southern Bank Banking Account Balances API
   slug: great-southern-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/great-southern-bank/openapi/great-southern-bank-banking-account-balances-api-openapi.yml
 - filename: great-southern-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Great Southern Bank Banking Account Direct Debits API
   slug: great-southern-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/great-southern-bank/openapi/great-southern-bank-banking-account-direct-debits-api-openapi.yml
 - filename: great-southern-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Great Southern Bank Banking Account Scheduled Payments API
   slug: great-southern-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/great-southern-bank/openapi/great-southern-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: great-southern-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Great Southern Bank Banking Account Transactions API
   slug: great-southern-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/great-southern-bank/openapi/great-southern-bank-banking-account-transactions-api-openapi.yml
 - filename: great-southern-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Great Southern Bank Banking Accounts API
   slug: great-southern-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/great-southern-bank/openapi/great-southern-bank-banking-accounts-api-openapi.yml
 - filename: great-southern-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Great Southern Bank Banking Payees API
   slug: great-southern-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/great-southern-bank/openapi/great-southern-bank-banking-payees-api-openapi.yml
 - filename: great-southern-bank-banking-products-api-openapi.yml
   format: yaml
   label: Great Southern Bank Banking Products API
   slug: great-southern-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/great-southern-bank/openapi/great-southern-bank-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://consume
   \  authorization_endpoint: https://secure.open-banking.greatsouthernbank.com.au/as/authorization.oauth2\n  token_endpoint: https://auth.open-banking.greatsouthernbank.com.au/as/token.oauth2\n  pushed_authorization_request_endpoint: https://auth.open-banking.greatsouthernbank.com.au/as/par.oauth2\n  registration_endpoint: https://auth.open-banking.greatsouthernbank.com.au/as/clients.oauth2\n  backchannel_authentication_endpoint: https://auth.open-banking.greatsouthernbank.com.au/as/bc-auth.ciba\n  cdr_arrangement_revocation_endpoint: https://auth.open-banking.greatsouthernbank.com.au/data-holder/arrangements/revoke\n  require_pushed_authorization_requests: true\n  tls_client_certificate_bound_access_tokens: true\n  token_endpoint_auth_methods_supported: [client_secret_basic, client_secret_post, private_key_jwt]\n  code_challenge_methods_supported: [S256]\n  acr_values_supported: [urn:cds.au:cdr:2]\n  id_token_signing_alg_values_supported: [ES256, PS256]\n  grant_types_supported: [authorization_code,\
   \ client_credentials, refresh_token]\nschemes:\n- name: PublicProductReferenceData\n  type: none\n  applies_to:\n  - listBankingProducts\n  - getBankingProductDetail\n  note: >-\n    Product Reference Data endpoints are openly accessible with no credential.\n    Confirmed live: GET https://api.open-banking.greatsouthernbank.com.au/cds-au/v1/banking/products\n    returns HTTP 200 with no Authorization header.\n  sources:\n  - openapi/great-southern-bank-cds-banking-products-openapi.yml\n- name: CDR-OIDC-FAPI\n  type: openIdConnect\n  scheme: fapi-1.0-advanced\n  applies_to: authenticated CDR banking resource endpoints (ADR-only)\n  note: >-\n    Consumer data sharing follows the CDR security profile: OpenID Connect with\n    the FAPI 1.0 Advanced profile, Pushed Authorization Requests (PAR), private_key_jwt\n    client authentication, and the CDR Register's dynamic client registration and\n    ADR accreditation model. Not available to the general public.\n  sources:\n  - review.yml\n- name:\
   \ CDR-OAuth2\n  type: oauth2\n  applies_to: authenticated CDR banking resource endpoints (ADR-only)\n  flows:\n  - flow: authorizationCode\n    note: Authorization Code flow with PKCE per the CDR / FAPI security profile; consumer authorises data sharing.\n  scopes:\n  - bank:accounts.basic:read\n  - bank:accounts.detail:read\n  - bank:transactions:read\n  - bank:payees:read\n  - bank:regular_payments:read\n  sources:\n  - openapi/great-southern-bank-cds-banking-products-openapi.yml\n- name: MutualTLS\n  type: mutualTLS\n  applies_to: all authenticated CDR data-holder endpoints\n  note: >-\n    CDR data-holder endpoints are served over the MTLS server described in the\n    spec (servers[].description \"MTLS\"); ADRs present a CDR-issued client certificate.\n  sources:\n  - openapi/great-southern-bank-cds-banking-products-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/authentication/great-southern-bank-authentication.yml
+source_yaml_url: https://artifacts.apis.io/great-southern-bank/authentication/great-southern-bank-authentication.yml
 summary_line: none/oauth2/openIdConnect/mutualTLS · 4 schemes
 tags:
 - Finance

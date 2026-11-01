@@ -27,7 +27,7 @@ source_filename: play-versus-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: playvs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 14:12:15 2026 GMT\n  hsts: false\ndomains:\n- domain: playvs.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/play-versus/refs/heads/main/security/play-versus-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/play-versus/security/play-versus-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

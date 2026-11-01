@@ -5,61 +5,61 @@ api_specs:
   label: Asapp3 Auto Compose API
   slug: asapp3-autocompose-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/openapi/asapp3-autocompose-api-openapi.yml
+  url: https://artifacts.apis.io/asapp3/openapi/asapp3-autocompose-api-openapi.yml
 - filename: asapp3-autosummary-api-openapi.yml
   format: yaml
   label: Asapp3 Auto Summary API
   slug: asapp3-autosummary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/openapi/asapp3-autosummary-api-openapi.yml
+  url: https://artifacts.apis.io/asapp3/openapi/asapp3-autosummary-api-openapi.yml
 - filename: asapp3-autotranscribe-api-openapi.yml
   format: yaml
   label: Asapp3 Auto Transcribe API
   slug: asapp3-autotranscribe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/openapi/asapp3-autotranscribe-api-openapi.yml
+  url: https://artifacts.apis.io/asapp3/openapi/asapp3-autotranscribe-api-openapi.yml
 - filename: asapp3-autotranscribe-media-gateway-api-openapi.yml
   format: yaml
   label: Asapp3 AutoTranscribe Media Gateway API
   slug: asapp3-autotranscribe-media-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/openapi/asapp3-autotranscribe-media-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/asapp3/openapi/asapp3-autotranscribe-media-gateway-api-openapi.yml
 - filename: asapp3-conversations-api-openapi.yml
   format: yaml
   label: Asapp3 Conversations API
   slug: asapp3-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/openapi/asapp3-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/asapp3/openapi/asapp3-conversations-api-openapi.yml
 - filename: asapp3-file-exporter-api-openapi.yml
   format: yaml
   label: Asapp3 File Exporter API
   slug: asapp3-file-exporter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/openapi/asapp3-file-exporter-api-openapi.yml
+  url: https://artifacts.apis.io/asapp3/openapi/asapp3-file-exporter-api-openapi.yml
 - filename: asapp3-generativeagent-api-openapi.yml
   format: yaml
   label: Asapp3 Generative Agent API
   slug: asapp3-generativeagent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/openapi/asapp3-generativeagent-api-openapi.yml
+  url: https://artifacts.apis.io/asapp3/openapi/asapp3-generativeagent-api-openapi.yml
 - filename: asapp3-health-check-api-openapi.yml
   format: yaml
   label: Asapp3 Health Check API
   slug: asapp3-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/openapi/asapp3-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/asapp3/openapi/asapp3-health-check-api-openapi.yml
 - filename: asapp3-knowledge-base-api-openapi.yml
   format: yaml
   label: Asapp3 Knowledge Base API
   slug: asapp3-knowledge-base-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/openapi/asapp3-knowledge-base-api-openapi.yml
+  url: https://artifacts.apis.io/asapp3/openapi/asapp3-knowledge-base-api-openapi.yml
 - filename: asapp3-metadata-api-openapi.yml
   format: yaml
   label: Asapp3 Metadata API
   slug: asapp3-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/openapi/asapp3-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/asapp3/openapi/asapp3-metadata-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -89,7 +89,7 @@ source_filename: asapp3-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.asapp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 16 17:32:08 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: asapp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/security/asapp3-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/asapp3/security/asapp3-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

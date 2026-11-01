@@ -8,19 +8,19 @@ api_specs:
   label: OpenFIGI Filter API
   slug: openfigi-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openfigi/refs/heads/main/openapi/openfigi-filter-api-openapi.yml
+  url: https://artifacts.apis.io/openfigi/openapi/openfigi-filter-api-openapi.yml
 - filename: openfigi-mapping-api-openapi.yml
   format: yaml
   label: OpenFIGI Mapping API
   slug: openfigi-mapping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openfigi/refs/heads/main/openapi/openfigi-mapping-api-openapi.yml
+  url: https://artifacts.apis.io/openfigi/openapi/openfigi-mapping-api-openapi.yml
 - filename: openfigi-search-api-openapi.yml
   format: yaml
   label: OpenFIGI Search API
   slug: openfigi-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openfigi/refs/heads/main/openapi/openfigi-search-api-openapi.yml
+  url: https://artifacts.apis.io/openfigi/openapi/openfigi-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -47,7 +47,7 @@ source_filename: openfigi-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openfigi-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-OPENFIGI-APIKEY\n  sources:\n  - openapi/openfigi-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openfigi/refs/heads/main/authentication/openfigi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/openfigi/authentication/openfigi-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Finance

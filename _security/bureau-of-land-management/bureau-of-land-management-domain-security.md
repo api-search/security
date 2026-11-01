@@ -5,49 +5,49 @@ api_specs:
   label: Bureau of Land Management Catalog API
   slug: bureau-of-land-management-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-land-management/openapi/bureau-of-land-management-catalog-api-openapi.yml
 - filename: bureau-of-land-management-collection-api-openapi.yml
   format: yaml
   label: Bureau of Land Management Collection API
   slug: bureau-of-land-management-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-collection-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-land-management/openapi/bureau-of-land-management-collection-api-openapi.yml
 - filename: bureau-of-land-management-geoservice-beta-api-openapi.yml
   format: yaml
   label: Bureau of Land Management Geoservice Beta API
   slug: bureau-of-land-management-geoservice-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-geoservice-beta-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-land-management/openapi/bureau-of-land-management-geoservice-beta-api-openapi.yml
 - filename: bureau-of-land-management-ogcitem-api-openapi.yml
   format: yaml
   label: Bureau of Land Management Ogc Item API
   slug: bureau-of-land-management-ogcitem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-ogcitem-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-land-management/openapi/bureau-of-land-management-ogcitem-api-openapi.yml
 - filename: bureau-of-land-management-ogcitemaggregation-api-openapi.yml
   format: yaml
   label: Bureau of Land Management Ogc Item Aggregation API
   slug: bureau-of-land-management-ogcitemaggregation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-ogcitemaggregation-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-land-management/openapi/bureau-of-land-management-ogcitemaggregation-api-openapi.yml
 - filename: bureau-of-land-management-ogcroot-api-openapi.yml
   format: yaml
   label: Bureau of Land Management Ogc Root API
   slug: bureau-of-land-management-ogcroot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-ogcroot-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-land-management/openapi/bureau-of-land-management-ogcroot-api-openapi.yml
 - filename: bureau-of-land-management-ogcrootconformance-api-openapi.yml
   format: yaml
   label: Bureau of Land Management Ogc Root Conformance API
   slug: bureau-of-land-management-ogcrootconformance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-ogcrootconformance-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-land-management/openapi/bureau-of-land-management-ogcrootconformance-api-openapi.yml
 - filename: bureau-of-land-management-queryable-api-openapi.yml
   format: yaml
   label: Bureau of Land Management Queryable API
   slug: bureau-of-land-management-queryable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-queryable-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-land-management/openapi/bureau-of-land-management-queryable-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -101,7 +101,7 @@ source_filename: bureau-of-land-management-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.blm.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 19:44:02 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: gbp-blm-egis.hub.arcgis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: blm-egis.maps.arcgis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 18 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: blm.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: arcgis.com\n  dnssec: true\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/security/bureau-of-land-management-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bureau-of-land-management/security/bureau-of-land-management-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Environment

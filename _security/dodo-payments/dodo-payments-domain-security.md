@@ -5,73 +5,73 @@ api_specs:
   label: Dodo Payments Checkout Sessions API
   slug: dodo-payments-checkout-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/openapi/dodo-payments-checkout-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/dodo-payments/openapi/dodo-payments-checkout-sessions-api-openapi.yml
 - filename: dodo-payments-customers-api-openapi.yml
   format: yaml
   label: Dodo Payments Customers API
   slug: dodo-payments-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/openapi/dodo-payments-customers-api-openapi.yml
+  url: https://artifacts.apis.io/dodo-payments/openapi/dodo-payments-customers-api-openapi.yml
 - filename: dodo-payments-discounts-api-openapi.yml
   format: yaml
   label: Dodo Payments Discounts API
   slug: dodo-payments-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/openapi/dodo-payments-discounts-api-openapi.yml
+  url: https://artifacts.apis.io/dodo-payments/openapi/dodo-payments-discounts-api-openapi.yml
 - filename: dodo-payments-disputes-api-openapi.yml
   format: yaml
   label: Dodo Payments Disputes API
   slug: dodo-payments-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/openapi/dodo-payments-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/dodo-payments/openapi/dodo-payments-disputes-api-openapi.yml
 - filename: dodo-payments-license-keys-api-openapi.yml
   format: yaml
   label: Dodo Payments License Keys API
   slug: dodo-payments-license-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/openapi/dodo-payments-license-keys-api-openapi.yml
+  url: https://artifacts.apis.io/dodo-payments/openapi/dodo-payments-license-keys-api-openapi.yml
 - filename: dodo-payments-licenses-api-openapi.yml
   format: yaml
   label: Dodo Payments Licenses API
   slug: dodo-payments-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/openapi/dodo-payments-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/dodo-payments/openapi/dodo-payments-licenses-api-openapi.yml
 - filename: dodo-payments-payments-api-openapi.yml
   format: yaml
   label: Dodo Payments API
   slug: dodo-payments-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/openapi/dodo-payments-payments-api-openapi.yml
+  url: https://artifacts.apis.io/dodo-payments/openapi/dodo-payments-payments-api-openapi.yml
 - filename: dodo-payments-payouts-api-openapi.yml
   format: yaml
   label: Dodo Payments Payouts API
   slug: dodo-payments-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/openapi/dodo-payments-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/dodo-payments/openapi/dodo-payments-payouts-api-openapi.yml
 - filename: dodo-payments-products-api-openapi.yml
   format: yaml
   label: Dodo Payments Products API
   slug: dodo-payments-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/openapi/dodo-payments-products-api-openapi.yml
+  url: https://artifacts.apis.io/dodo-payments/openapi/dodo-payments-products-api-openapi.yml
 - filename: dodo-payments-refunds-api-openapi.yml
   format: yaml
   label: Dodo Payments Refunds API
   slug: dodo-payments-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/openapi/dodo-payments-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/dodo-payments/openapi/dodo-payments-refunds-api-openapi.yml
 - filename: dodo-payments-subscriptions-api-openapi.yml
   format: yaml
   label: Dodo Payments Subscriptions API
   slug: dodo-payments-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/openapi/dodo-payments-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/dodo-payments/openapi/dodo-payments-subscriptions-api-openapi.yml
 - filename: dodo-payments-webhooks-api-openapi.yml
   format: yaml
   label: Dodo Payments Webhooks API
   slug: dodo-payments-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/openapi/dodo-payments-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/dodo-payments/openapi/dodo-payments-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -118,7 +118,7 @@ source_filename: dodo-payments-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dodopayments.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 17:29:55 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.dodopayments.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 19:30:52 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: live.dodopayments.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 14:44:12 2026 GMT\n  hsts: null\ndomains:\n- domain: dodopayments.com\n  dnssec: true\n  caa:\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/security/dodo-payments-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dodo-payments/security/dodo-payments-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Payments

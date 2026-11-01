@@ -5,19 +5,19 @@ api_specs:
   label: China Mobile Application Development API
   slug: china-mobile-application-development-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/openapi/china-mobile-application-development-api-openapi.yml
+  url: https://artifacts.apis.io/china-mobile/openapi/china-mobile-application-development-api-openapi.yml
 - filename: china-mobile-device-management-api-openapi.yml
   format: yaml
   label: China Mobile Device Management API
   slug: china-mobile-device-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/openapi/china-mobile-device-management-api-openapi.yml
+  url: https://artifacts.apis.io/china-mobile/openapi/china-mobile-device-management-api-openapi.yml
 - filename: china-mobile-voice-call-service-api-openapi.yml
   format: yaml
   label: China Mobile Voice Call Service API
   slug: china-mobile-voice-call-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/openapi/china-mobile-voice-call-service-api-openapi.yml
+  url: https://artifacts.apis.io/china-mobile/openapi/china-mobile-voice-call-service-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -91,7 +91,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.chinamobileltd.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 23 00:54:37 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: dev.10086.cn\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  1 08:39:04 2027 GMT\n  hsts: false\n- host: open.iot.10086.cn\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  7 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: openapi.heclouds.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  8 23:59:59 2027 GMT\n  hsts: false\n  note: OneNET open API gateway; returns HTTP 403 to anonymous requests (openresty).\n- host: api.heclouds.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  8 23:59:59 2027 GMT\n  hsts: false\n  note: OneNET legacy device cloud API; anonymous GET /devices returns a token\n    authentication error (nginx).\n- host: iot-api.heclouds.com\n\
   \  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  8 23:59:59 2027 GMT\n  hsts: false\n  note: OneNET new-generation device API; anonymous requests return code 10403.\n- host: api.iot.10086.cn\n  https: true\n  hsts: false\n  note: IoT Card Capability Open Platform (Tomcat). TLS version and certificate expiry\n    were not captured in this round.\ndomains:\n- domain: chinamobileltd.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: 10086.cn\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: heclouds.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\nsummary: >-\n  Every China Mobile host reachable over HTTPS, but the posture is thin. No registrable\n  domain in the estate publishes DNSSEC, a CAA record, an SPF record or a DMARC policy —\n  three domains, zero of twelve controls. HSTS is set only on the corporate site\n  (www.chinamobileltd.com, one year) and the OneNET portal (open.iot.10086.cn, 30 days);\n  none of the four\
   \ API hosts sets it. TLS 1.2 predominates; only dev.10086.cn negotiated\n  TLS 1.3.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/security/china-mobile-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/china-mobile/security/china-mobile-domain-security.yml
 summary_line: TLSv1.2 · HSTS
 tags:
 - Telecommunications

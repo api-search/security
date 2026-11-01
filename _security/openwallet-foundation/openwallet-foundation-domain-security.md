@@ -5,37 +5,37 @@ api_specs:
   label: OpenWallet Foundation Basicmessages API
   slug: openwallet-foundation-basicmessages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/openapi/openwallet-foundation-basicmessages-api-openapi.yml
+  url: https://artifacts.apis.io/openwallet-foundation/openapi/openwallet-foundation-basicmessages-api-openapi.yml
 - filename: openwallet-foundation-connections-api-openapi.yml
   format: yaml
   label: OpenWallet Foundation Connections API
   slug: openwallet-foundation-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/openapi/openwallet-foundation-connections-api-openapi.yml
+  url: https://artifacts.apis.io/openwallet-foundation/openapi/openwallet-foundation-connections-api-openapi.yml
 - filename: openwallet-foundation-forward-api-openapi.yml
   format: yaml
   label: OpenWallet Foundation Forward API
   slug: openwallet-foundation-forward-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/openapi/openwallet-foundation-forward-api-openapi.yml
+  url: https://artifacts.apis.io/openwallet-foundation/openapi/openwallet-foundation-forward-api-openapi.yml
 - filename: openwallet-foundation-issue-credential-api-openapi.yml
   format: yaml
   label: OpenWallet Foundation Issue Credential API
   slug: openwallet-foundation-issue-credential-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/openapi/openwallet-foundation-issue-credential-api-openapi.yml
+  url: https://artifacts.apis.io/openwallet-foundation/openapi/openwallet-foundation-issue-credential-api-openapi.yml
 - filename: openwallet-foundation-present-proof-api-openapi.yml
   format: yaml
   label: OpenWallet Foundation Present Proof API
   slug: openwallet-foundation-present-proof-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/openapi/openwallet-foundation-present-proof-api-openapi.yml
+  url: https://artifacts.apis.io/openwallet-foundation/openapi/openwallet-foundation-present-proof-api-openapi.yml
 - filename: openwallet-foundation-ws-api-openapi.yml
   format: yaml
   label: OpenWallet Foundation Ws API
   slug: openwallet-foundation-ws-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/openapi/openwallet-foundation-ws-api-openapi.yml
+  url: https://artifacts.apis.io/openwallet-foundation/openapi/openwallet-foundation-ws-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -80,7 +80,7 @@ source_filename: openwallet-foundation-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: openwallet.foundation\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 19:15:50 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: aca-py.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 21:37:21 2026 GMT\n  hsts: false\n- host: credo.js.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 14:27:59 2026 GMT\n  hsts: false\ndomains:\n- domain: openwallet.foundation\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: aca-py.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/security/openwallet-foundation-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/openwallet-foundation/security/openwallet-foundation-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Credentials

@@ -8,19 +8,19 @@ api_specs:
   label: AgeChecker.Net Sessions API
   slug: agechecker-net-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agechecker-net/refs/heads/main/openapi/agechecker-net-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/agechecker-net/openapi/agechecker-net-sessions-api-openapi.yml
 - filename: agechecker-net-verification-api-openapi.yml
   format: yaml
   label: AgeChecker.Net Verification API
   slug: agechecker-net-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agechecker-net/refs/heads/main/openapi/agechecker-net-verification-api-openapi.yml
+  url: https://artifacts.apis.io/agechecker-net/openapi/agechecker-net-verification-api-openapi.yml
 - filename: agechecker-net-webhooks-api-openapi.yml
   format: yaml
   label: AgeChecker.Net Webhooks API
   slug: agechecker-net-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agechecker-net/refs/heads/main/openapi/agechecker-net-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/agechecker-net/openapi/agechecker-net-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: agechecker-net-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/agechecker-net-age-verification-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: API key for AgeChecker.Net API access.\n  sources:\n  - openapi/agechecker-net-age-verification-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agechecker-net/refs/heads/main/authentication/agechecker-net-authentication.yml
+source_yaml_url: https://artifacts.apis.io/agechecker-net/authentication/agechecker-net-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Age Verification

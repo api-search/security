@@ -5,55 +5,55 @@ api_specs:
   label: Intercom Admins API
   slug: intercom-admins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intercom/refs/heads/main/openapi/intercom-admins-api-openapi.yml
+  url: https://artifacts.apis.io/intercom/openapi/intercom-admins-api-openapi.yml
 - filename: intercom-articles-api-openapi.yml
   format: yaml
   label: Intercom Articles API
   slug: intercom-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intercom/refs/heads/main/openapi/intercom-articles-api-openapi.yml
+  url: https://artifacts.apis.io/intercom/openapi/intercom-articles-api-openapi.yml
 - filename: intercom-companies-api-openapi.yml
   format: yaml
   label: Intercom Companies API
   slug: intercom-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intercom/refs/heads/main/openapi/intercom-companies-api-openapi.yml
+  url: https://artifacts.apis.io/intercom/openapi/intercom-companies-api-openapi.yml
 - filename: intercom-contacts-api-openapi.yml
   format: yaml
   label: Intercom Contacts API
   slug: intercom-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intercom/refs/heads/main/openapi/intercom-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/intercom/openapi/intercom-contacts-api-openapi.yml
 - filename: intercom-conversations-api-openapi.yml
   format: yaml
   label: Intercom Conversations API
   slug: intercom-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intercom/refs/heads/main/openapi/intercom-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/intercom/openapi/intercom-conversations-api-openapi.yml
 - filename: intercom-data-events-api-openapi.yml
   format: yaml
   label: Intercom Data Events API
   slug: intercom-data-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intercom/refs/heads/main/openapi/intercom-data-events-api-openapi.yml
+  url: https://artifacts.apis.io/intercom/openapi/intercom-data-events-api-openapi.yml
 - filename: intercom-messages-api-openapi.yml
   format: yaml
   label: Intercom Messages API
   slug: intercom-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intercom/refs/heads/main/openapi/intercom-messages-api-openapi.yml
+  url: https://artifacts.apis.io/intercom/openapi/intercom-messages-api-openapi.yml
 - filename: intercom-news-api-openapi.yml
   format: yaml
   label: Intercom News API
   slug: intercom-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intercom/refs/heads/main/openapi/intercom-news-api-openapi.yml
+  url: https://artifacts.apis.io/intercom/openapi/intercom-news-api-openapi.yml
 - filename: intercom-segments-api-openapi.yml
   format: yaml
   label: Intercom Segments API
   slug: intercom-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intercom/refs/heads/main/openapi/intercom-segments-api-openapi.yml
+  url: https://artifacts.apis.io/intercom/openapi/intercom-segments-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -99,7 +99,7 @@ source_filename: intercom-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.intercom.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 15:01:37 2026 GMT\n  hsts: false\n- host: www.intercom.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.intercom.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: intercom.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: intercom.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intercom/refs/heads/main/security/intercom-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/intercom/security/intercom-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

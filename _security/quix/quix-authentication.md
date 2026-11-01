@@ -7,49 +7,49 @@ api_specs:
   label: Quix Streaming Reader API (Real-time)
   slug: streaming-reader-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/asyncapi/quix-asyncapi.yml
+  url: https://artifacts.apis.io/quix/asyncapi/quix-asyncapi.yml
 - filename: quix-definitions-api-openapi.yml
   format: yaml
   label: Quix Definitions API
   slug: quix-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/openapi/quix-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/quix/openapi/quix-definitions-api-openapi.yml
 - filename: quix-deployments-api-openapi.yml
   format: yaml
   label: Quix Deployments API
   slug: quix-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/openapi/quix-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/quix/openapi/quix-deployments-api-openapi.yml
 - filename: quix-event-data-api-openapi.yml
   format: yaml
   label: Quix Event Data API
   slug: quix-event-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/openapi/quix-event-data-api-openapi.yml
+  url: https://artifacts.apis.io/quix/openapi/quix-event-data-api-openapi.yml
 - filename: quix-parameter-data-api-openapi.yml
   format: yaml
   label: Quix Parameter Data API
   slug: quix-parameter-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/openapi/quix-parameter-data-api-openapi.yml
+  url: https://artifacts.apis.io/quix/openapi/quix-parameter-data-api-openapi.yml
 - filename: quix-streams-api-openapi.yml
   format: yaml
   label: Quix Streams API
   slug: quix-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/openapi/quix-streams-api-openapi.yml
+  url: https://artifacts.apis.io/quix/openapi/quix-streams-api-openapi.yml
 - filename: quix-topics-api-openapi.yml
   format: yaml
   label: Quix Topics API
   slug: quix-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/openapi/quix-topics-api-openapi.yml
+  url: https://artifacts.apis.io/quix/openapi/quix-topics-api-openapi.yml
 - filename: quix-workspaces-api-openapi.yml
   format: yaml
   label: Quix Workspaces API
   slug: quix-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/openapi/quix-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/quix/openapi/quix-workspaces-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -77,7 +77,7 @@ source_filename: quix-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/quix-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: PAT\n  description: 'Quix Personal Access Token (PAT) presented as `Authorization: Bearer <PAT>`.\n    Generate from the Quix portal under your profile > Personal Access Tokens, or Settings >\n    APIs and tokens.'\n  sources:\n  - openapi/quix-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/authentication/quix-authentication.yml
+source_yaml_url: https://artifacts.apis.io/quix/authentication/quix-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Stream Processing

@@ -7,283 +7,283 @@ api_specs:
   label: Snowflake Artifact Repository API
   slug: snowflake-artifact-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-artifact-repository-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-artifact-repository-api-openapi.yml
 - filename: snowflake-cortex-embed-api-openapi.yml
   format: yaml
   label: Cortex Embed API
   slug: cortex-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-cortex-embed-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-cortex-embed-api-openapi.yml
 - filename: snowflake-network-rule-api-openapi.yml
   format: yaml
   label: Snowflake Network Rule API
   slug: snowflake-network-rule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-network-rule-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-network-rule-api-openapi.yml
 - filename: snowflake-password-policy-api-openapi.yml
   format: yaml
   label: Snowflake Password Policy API
   slug: snowflake-password-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-password-policy-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-password-policy-api-openapi.yml
 - filename: snowflake-secret-api-openapi.yml
   format: yaml
   label: Snowflake Secret API
   slug: snowflake-secret-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-secret-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-secret-api-openapi.yml
 - filename: snowflake-sequence-api-openapi.yml
   format: yaml
   label: Snowflake Sequence API
   slug: snowflake-sequence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-sequence-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-sequence-api-openapi.yml
 - filename: snowflake-spark-connect-api-openapi.yml
   format: yaml
   label: Snowflake Spark Connect API
   slug: snowflake-spark-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-spark-connect-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-spark-connect-api-openapi.yml
 - filename: snowflake-streamlit-api-openapi.yml
   format: yaml
   label: Snowflake Streamlit API
   slug: snowflake-streamlit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-streamlit-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-streamlit-api-openapi.yml
 - filename: snowflake-tag-api-openapi.yml
   format: yaml
   label: Snowflake Tag API
   slug: snowflake-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-tag-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-tag-api-openapi.yml
 - filename: snowflake-account-api-openapi.yml
   format: yaml
   label: Snowflake Account API
   slug: snowflake-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-account-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-account-api-openapi.yml
 - filename: snowflake-alert-api-openapi.yml
   format: yaml
   label: Snowflake Alert API
   slug: snowflake-alert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-alert-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-alert-api-openapi.yml
 - filename: snowflake-api-integration-api-openapi.yml
   format: yaml
   label: Snowflake API Integration API
   slug: snowflake-api-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-api-integration-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-api-integration-api-openapi.yml
 - filename: snowflake-catalog-integration-api-openapi.yml
   format: yaml
   label: Snowflake Catalog Integration API
   slug: snowflake-catalog-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-catalog-integration-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-catalog-integration-api-openapi.yml
 - filename: snowflake-compute-pool-api-openapi.yml
   format: yaml
   label: Snowflake Compute Pool API
   slug: snowflake-compute-pool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-compute-pool-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-compute-pool-api-openapi.yml
 - filename: snowflake-cortex-analyst-api-openapi.yml
   format: yaml
   label: Snowflake Cortex Analyst API
   slug: snowflake-cortex-analyst-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-cortex-analyst-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-cortex-analyst-api-openapi.yml
 - filename: snowflake-cortex-inference-api-openapi.yml
   format: yaml
   label: Snowflake Cortex Inference API
   slug: snowflake-cortex-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-cortex-inference-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-cortex-inference-api-openapi.yml
 - filename: snowflake-cortex-search-service-api-openapi.yml
   format: yaml
   label: Snowflake cortex search service API
   slug: snowflake-cortex-search-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-cortex-search-service-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-cortex-search-service-api-openapi.yml
 - filename: snowflake-database-api-openapi.yml
   format: yaml
   label: Snowflake Database API
   slug: snowflake-database-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-database-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-database-api-openapi.yml
 - filename: snowflake-database-role-api-openapi.yml
   format: yaml
   label: Snowflake Database Role API
   slug: snowflake-database-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-database-role-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-database-role-api-openapi.yml
 - filename: snowflake-dynamic-table-api-openapi.yml
   format: yaml
   label: Snowflake Dynamic Table API
   slug: snowflake-dynamic-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-dynamic-table-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-dynamic-table-api-openapi.yml
 - filename: snowflake-event-table-api-openapi.yml
   format: yaml
   label: Snowflake Event Table API
   slug: snowflake-event-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-event-table-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-event-table-api-openapi.yml
 - filename: snowflake-external-volume-api-openapi.yml
   format: yaml
   label: Snowflake External Volume API
   slug: snowflake-external-volume-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-external-volume-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-external-volume-api-openapi.yml
 - filename: snowflake-function-api-openapi.yml
   format: yaml
   label: Snowflake Function API
   slug: snowflake-function-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-function-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-function-api-openapi.yml
 - filename: snowflake-grant-api-openapi.yml
   format: yaml
   label: Snowflake Grant API
   slug: snowflake-grant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-grant-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-grant-api-openapi.yml
 - filename: snowflake-iceberg-table-api-openapi.yml
   format: yaml
   label: Snowflake Iceberg Table API
   slug: snowflake-iceberg-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-iceberg-table-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-iceberg-table-api-openapi.yml
 - filename: snowflake-image-repository-api-openapi.yml
   format: yaml
   label: Snowflake Image Repository API
   slug: snowflake-image-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-image-repository-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-image-repository-api-openapi.yml
 - filename: snowflake-managed-account-api-openapi.yml
   format: yaml
   label: Snowflake Managed Account API
   slug: snowflake-managed-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-managed-account-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-managed-account-api-openapi.yml
 - filename: snowflake-network-policy-api-openapi.yml
   format: yaml
   label: Snowflake Network Policy API
   slug: snowflake-network-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-network-policy-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-network-policy-api-openapi.yml
 - filename: snowflake-notebook-api-openapi.yml
   format: yaml
   label: Snowflake Notebook API
   slug: snowflake-notebook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-notebook-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-notebook-api-openapi.yml
 - filename: snowflake-notification-integration-api-openapi.yml
   format: yaml
   label: Snowflake Notification Integration API
   slug: snowflake-notification-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-notification-integration-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-notification-integration-api-openapi.yml
 - filename: snowflake-pipe-api-openapi.yml
   format: yaml
   label: Snowflake Pipe API
   slug: snowflake-pipe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-pipe-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-pipe-api-openapi.yml
 - filename: snowflake-procedure-api-openapi.yml
   format: yaml
   label: Snowflake Procedure API
   slug: snowflake-procedure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-procedure-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-procedure-api-openapi.yml
 - filename: snowflake-result-api-openapi.yml
   format: yaml
   label: Snowflake Result API
   slug: snowflake-result-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-result-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-result-api-openapi.yml
 - filename: snowflake-role-api-openapi.yml
   format: yaml
   label: Snowflake Role API
   slug: snowflake-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-role-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-role-api-openapi.yml
 - filename: snowflake-schema-api-openapi.yml
   format: yaml
   label: Snowflake Schema API
   slug: snowflake-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-schema-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-schema-api-openapi.yml
 - filename: snowflake-service-api-openapi.yml
   format: yaml
   label: Snowflake Service API
   slug: snowflake-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-service-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-service-api-openapi.yml
 - filename: snowflake-stage-api-openapi.yml
   format: yaml
   label: Snowflake Stage API
   slug: snowflake-stage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-stage-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-stage-api-openapi.yml
 - filename: snowflake-statements-api-openapi.yml
   format: yaml
   label: Snowflake Statements API
   slug: snowflake-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-statements-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-statements-api-openapi.yml
 - filename: snowflake-stream-api-openapi.yml
   format: yaml
   label: Snowflake Stream API
   slug: snowflake-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-stream-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-stream-api-openapi.yml
 - filename: snowflake-table-api-openapi.yml
   format: yaml
   label: Snowflake Table API
   slug: snowflake-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-table-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-table-api-openapi.yml
 - filename: snowflake-task-api-openapi.yml
   format: yaml
   label: Snowflake Task API
   slug: snowflake-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-task-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-task-api-openapi.yml
 - filename: snowflake-user-api-openapi.yml
   format: yaml
   label: Snowflake User API
   slug: snowflake-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-user-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-user-api-openapi.yml
 - filename: snowflake-user-defined-function-api-openapi.yml
   format: yaml
   label: Snowflake User Defined Function API
   slug: snowflake-user-defined-function-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-user-defined-function-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-user-defined-function-api-openapi.yml
 - filename: snowflake-view-api-openapi.yml
   format: yaml
   label: Snowflake View API
   slug: snowflake-view-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-view-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-view-api-openapi.yml
 - filename: snowflake-warehouse-api-openapi.yml
   format: yaml
   label: Snowflake Warehouse API
   slug: snowflake-warehouse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-warehouse-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-warehouse-api-openapi.yml
 - filename: snowflake-cortex-generic-anthropic-api-openapi.yml
   format: yaml
   label: Cortex Messages API
   slug: snowflake-cortex-generic-anthropic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-cortex-generic-anthropic-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-cortex-generic-anthropic-api-openapi.yml
 - filename: snowflake-cortex-generic-openai-api-openapi.yml
   format: yaml
   label: Cortex Chat Completions API
   slug: snowflake-cortex-generic-openai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-cortex-generic-openai-api-openapi.yml
+  url: https://artifacts.apis.io/snowflake/openapi/snowflake-cortex-generic-openai-api-openapi.yml
 auth_types:
 - http-bearer
 - oauth2
@@ -369,7 +369,7 @@ source_yaml: "generated: '2026-09-03'\nmethod: searched\nsource: >-\n  Baseline 
   \    interactive: false\n    caution: >-\n      A PAT is a bearer secret in a file. Snowflake's own MCP documentation explicitly recommends\n      against hardcoded tokens and, where a PAT is used, that it be scoped to a least-privileged\n      role. Prefer KeyPair for anything unattended.\n    recommended_for: [scripts, quick integrations, CLI use where key-pair setup is impractical]\n\nauthorization_model:\n  type: RBAC\n  note: >-\n    Authentication establishes WHO. Authorization is entirely Snowflake RBAC: privileges granted\n    to roles, roles granted to users and to other roles. No credential type carries permissions of\n    its own, and OAuth scopes only select which role the session runs as. The practical\n    consequence: to constrain an integration you create a dedicated role with exactly the grants\n    it needs — narrowing the credential does nothing on its own.\n  docs: https://docs.snowflake.com/en/user-guide/security-access-control-overview\n  scopes: scopes/snowflake-scopes.yml\n\
   \nnetwork_controls:\n  note: >-\n    Snowflake layers network-level restriction on top of credentials, manageable over the same\n    REST API.\n  mechanisms:\n    - name: Network policies\n      operations: [createNetworkPolicy, listNetworkPolicies, fetchNetworkPolicy, deleteNetworkPolicy]\n      spec: openapi/snowflake-network-policy-api-openapi.yml\n      description: Allow/deny lists of IP ranges at the account or user level.\n    - name: Network rules\n      operations: [createNetworkRule, listNetworkRules, fetchNetworkRule, deleteNetworkRule]\n      spec: openapi/snowflake-network-rule-api-openapi.yml\n    - name: Private connectivity\n      description: >-\n        AWS PrivateLink, Azure Private Link and Google Private Service Connect, available on\n        Business Critical Edition and above. See plans/snowflake-plans-pricing.yml.\n\nidentity_provisioning:\n  standard: SCIM 2.0\n  endpoint: https://<account>.snowflakecomputing.com/scim/v2/\n  docs:\n    - https://docs.snowflake.com/en/user-guide/scim-user-api-reference\n\
   \    - https://docs.snowflake.com/en/user-guide/scim-group-api-reference\n  note: >-\n    Users and roles can be provisioned from an IdP over a standards-conformant SCIM 2.0 surface\n    carrying real IETF SCIM URNs. This surface has no OpenAPI in openapi/ — it is documented in\n    prose only. See conformance/snowflake-conformance.yml.\n\nfailure_modes:\n  - status: 401\n    causes:\n      - Missing or expired token\n      - Missing X-Snowflake-Authorization-Token-Type header\n      - JWT signed with a key not registered on the user\n      - JWT issuer/subject not matching the account and user\n  - status: 403\n    causes:\n      - The session's role lacks the privilege on the object\n      - The REST API is not enabled on the account (Snowflake's own 403 description says so)\n      - A network policy blocked the source IP\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/authentication/snowflake-authentication.yml
+source_yaml_url: https://artifacts.apis.io/snowflake/authentication/snowflake-authentication.yml
 summary_line: http-bearer/oauth2 · 4 schemes
 tags:
 - Snowflake

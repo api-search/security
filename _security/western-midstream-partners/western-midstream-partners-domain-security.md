@@ -27,7 +27,7 @@ source_filename: western-midstream-partners-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.westernmidstream.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 14:33:21 2026 GMT\n  hsts: false\ndomains:\n- domain: westernmidstream.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/western-midstream-partners/refs/heads/main/security/western-midstream-partners-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/western-midstream-partners/security/western-midstream-partners-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Energy

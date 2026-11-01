@@ -43,7 +43,7 @@ source_filename: ucl-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ucl.ac.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: uclapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 15:20:09 2026 GMT\n  hsts: false\n- host: discovery.ucl.ac.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 27 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: ucl.ac.uk\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: uclapi.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ucl/refs/heads/main/security/ucl-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ucl/security/ucl-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Education

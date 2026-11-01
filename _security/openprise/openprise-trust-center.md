@@ -15,7 +15,7 @@ source_filename: openprise-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: searched\nprobe: true\nsource: https://www.openprisetech.com/security\nurl: https://www.openprisetech.com/security\ncertifications:\n- SOC 2\nevidence:\n- source: https://www.openprisetech.com/security\n  keywords:\n  - soc 2\n  - compliance certification\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openprise/refs/heads/main/security/openprise-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/openprise/security/openprise-trust-center.yml
 summary_line: SOC 2
 tags:
 - Data Automation

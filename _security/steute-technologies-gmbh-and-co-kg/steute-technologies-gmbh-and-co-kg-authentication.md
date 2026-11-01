@@ -8,43 +8,43 @@ api_specs:
   label: steute Technologies GmbH & Co. KG Access Point API
   slug: steute-technologies-gmbh-and-co-kg-access-point-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/openapi/steute-technologies-gmbh-and-co-kg-access-point-api-openapi.yml
+  url: https://artifacts.apis.io/steute-technologies-gmbh-and-co-kg/openapi/steute-technologies-gmbh-and-co-kg-access-point-api-openapi.yml
 - filename: steute-technologies-gmbh-and-co-kg-auth-api-openapi.yml
   format: yaml
   label: steute Technologies GmbH & Co. KG Auth API
   slug: steute-technologies-gmbh-and-co-kg-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/openapi/steute-technologies-gmbh-and-co-kg-auth-api-openapi.yml
+  url: https://artifacts.apis.io/steute-technologies-gmbh-and-co-kg/openapi/steute-technologies-gmbh-and-co-kg-auth-api-openapi.yml
 - filename: steute-technologies-gmbh-and-co-kg-history-api-openapi.yml
   format: yaml
   label: steute Technologies GmbH & Co. KG History API
   slug: steute-technologies-gmbh-and-co-kg-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/openapi/steute-technologies-gmbh-and-co-kg-history-api-openapi.yml
+  url: https://artifacts.apis.io/steute-technologies-gmbh-and-co-kg/openapi/steute-technologies-gmbh-and-co-kg-history-api-openapi.yml
 - filename: steute-technologies-gmbh-and-co-kg-notification-config-api-openapi.yml
   format: yaml
   label: steute Technologies GmbH & Co. KG Notification Config API
   slug: steute-technologies-gmbh-and-co-kg-notification-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/openapi/steute-technologies-gmbh-and-co-kg-notification-config-api-openapi.yml
+  url: https://artifacts.apis.io/steute-technologies-gmbh-and-co-kg/openapi/steute-technologies-gmbh-and-co-kg-notification-config-api-openapi.yml
 - filename: steute-technologies-gmbh-and-co-kg-switch-api-openapi.yml
   format: yaml
   label: steute Technologies GmbH & Co. KG Switch API
   slug: steute-technologies-gmbh-and-co-kg-switch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/openapi/steute-technologies-gmbh-and-co-kg-switch-api-openapi.yml
+  url: https://artifacts.apis.io/steute-technologies-gmbh-and-co-kg/openapi/steute-technologies-gmbh-and-co-kg-switch-api-openapi.yml
 - filename: steute-technologies-gmbh-and-co-kg-switch-group-api-openapi.yml
   format: yaml
   label: steute Technologies GmbH & Co. KG Switch Group API
   slug: steute-technologies-gmbh-and-co-kg-switch-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/openapi/steute-technologies-gmbh-and-co-kg-switch-group-api-openapi.yml
+  url: https://artifacts.apis.io/steute-technologies-gmbh-and-co-kg/openapi/steute-technologies-gmbh-and-co-kg-switch-group-api-openapi.yml
 - filename: steute-technologies-gmbh-and-co-kg-system-status-api-openapi.yml
   format: yaml
   label: steute Technologies GmbH & Co. KG System Status API
   slug: steute-technologies-gmbh-and-co-kg-system-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/openapi/steute-technologies-gmbh-and-co-kg-system-status-api-openapi.yml
+  url: https://artifacts.apis.io/steute-technologies-gmbh-and-co-kg/openapi/steute-technologies-gmbh-and-co-kg-system-status-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -81,7 +81,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/steute-technologies-gmbh-and-co-kg-sensor-bridge-openapi-original.json\ndocs: https://docs.nexy.net/docs/sensor-bridge/rest-api/\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  oauth2_flows: []\nnotes: >-\n  The nexy Sensor Bridge API v2 uses JWT authentication carried in a custom\n  JWTAuthorization header (declared as an apiKey-in-header scheme named \"bearer\"\n  in the OpenAPI). Clients POST username/password to /api/v2/auth/login\n  (AuthController_login) to obtain an accessToken (valid 30 minutes) and a\n  refreshToken; GET /api/v2/auth/refresh (AuthController_refresh) renews them.\n  The API ships with a documented factory-default API user (username \"api\",\n  password \"steute_api\") which administrators change in the Sensor Bridge web\n  UI User Settings menu. The separate HTTP(S) notification (webhook) interface\n  supports HTTP Basic Authentication toward the customer's receiving endpoint.\n\
   schemes:\n- name: bearer\n  type: apiKey\n  in: header\n  parameter: JWTAuthorization\n  bearerFormat: JWT\n  token_ttl_seconds: 1800\n  obtain_via: 'POST /api/v2/auth/login (AuthController_login)'\n  refresh_via: 'GET /api/v2/auth/refresh (AuthController_refresh)'\n  sources:\n  - openapi/steute-technologies-gmbh-and-co-kg-sensor-bridge-openapi-original.json\n- name: notification-basic-auth\n  type: http\n  scheme: basic\n  applies_to: outbound HTTP(S) notifications from Sensor Bridge to customer endpoints\n  source: https://docs.nexy.net/docs/api-and-protocols/https-notifications/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/authentication/steute-technologies-gmbh-and-co-kg-authentication.yml
+source_yaml_url: https://artifacts.apis.io/steute-technologies-gmbh-and-co-kg/authentication/steute-technologies-gmbh-and-co-kg-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company

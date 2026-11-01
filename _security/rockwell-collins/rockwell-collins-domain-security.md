@@ -5,43 +5,43 @@ api_specs:
   label: Rockwell Collins Airports API
   slug: rockwell-collins-airports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/openapi/rockwell-collins-airports-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-collins/openapi/rockwell-collins-airports-api-openapi.yml
 - filename: rockwell-collins-alerts-api-openapi.yml
   format: yaml
   label: Rockwell Collins Alerts API
   slug: rockwell-collins-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/openapi/rockwell-collins-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-collins/openapi/rockwell-collins-alerts-api-openapi.yml
 - filename: rockwell-collins-flights-api-openapi.yml
   format: yaml
   label: Rockwell Collins Flights API
   slug: rockwell-collins-flights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/openapi/rockwell-collins-flights-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-collins/openapi/rockwell-collins-flights-api-openapi.yml
 - filename: rockwell-collins-foresight-api-openapi.yml
   format: yaml
   label: Rockwell Collins Foresight API
   slug: rockwell-collins-foresight-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/openapi/rockwell-collins-foresight-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-collins/openapi/rockwell-collins-foresight-api-openapi.yml
 - filename: rockwell-collins-history-api-openapi.yml
   format: yaml
   label: Rockwell Collins History API
   slug: rockwell-collins-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/openapi/rockwell-collins-history-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-collins/openapi/rockwell-collins-history-api-openapi.yml
 - filename: rockwell-collins-miscellaneous-api-openapi.yml
   format: yaml
   label: Rockwell Collins Miscellaneous API
   slug: rockwell-collins-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/openapi/rockwell-collins-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-collins/openapi/rockwell-collins-miscellaneous-api-openapi.yml
 - filename: rockwell-collins-operators-api-openapi.yml
   format: yaml
   label: Rockwell Collins Operators API
   slug: rockwell-collins-operators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/openapi/rockwell-collins-operators-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-collins/openapi/rockwell-collins-operators-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -94,7 +94,7 @@ source_filename: rockwell-collins-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.rockwellcollins.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  7 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: www.rtx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 10:20:19 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.collins.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 27 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: rockwellcollins.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: rtx.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"ssl.com\"\n  - 0 iodef \"sectigo.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/security/rockwell-collins-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rockwell-collins/security/rockwell-collins-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Avionics

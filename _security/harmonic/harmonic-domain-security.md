@@ -32,7 +32,7 @@ source_filename: harmonic-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.harmonic.fun\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 31 17:05:33 2027 GMT\n  hsts: false\n- host: aristotle.harmonic.fun\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 20:39:21 2026 GMT\n  hsts: false\ndomains:\n- domain: harmonic.fun\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/harmonic/refs/heads/main/security/harmonic-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/harmonic/security/harmonic-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

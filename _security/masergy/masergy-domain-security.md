@@ -36,7 +36,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live TLS/HTTP HEAD + dig on masergy.com (2026-07-20)\nnote: >-\n  Masergy Communications was acquired by Comcast Business in October 2021 and\n  folded into Comcast Business. The masergy.com web hosts now 301-redirect to\n  business.comcast.com/masergy/. The domain's DNS + email records remain active\n  (Proofpoint-managed). No standalone Masergy API/developer surface is live:\n  api.masergy.com resolves to F5 Distributed Cloud but returns HTTP 502, and\n  developer.masergy.com / docs.masergy.com do not resolve.\nhosts:\n  - host: www.masergy.com\n    https: true\n    tls_version: TLSv1.2\n    cert_valid: true\n    hsts: false\n    redirects_to: https://business.comcast.com/masergy/\n  - host: api.masergy.com\n    https: true\n    http_status: 502\n    live_api: false\n    upstream: F5 Distributed Cloud (ves.io)\ndomains:\n  - domain: masergy.com\n    dnssec: false\n    caa: []\n    spf: true\n    spf_record: \"v=spf1 include:%{ir}.%{v}.%{d}.spf.has.pphosted.com\
   \ ~all\"\n    dmarc: true\n    dmarc_policy: reject\n    dmarc_provider: Proofpoint Email Defense\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/masergy/refs/heads/main/security/masergy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/masergy/security/masergy-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

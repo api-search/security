@@ -5,25 +5,25 @@ api_specs:
   label: Incognia Authentication API
   slug: incognia-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/openapi/incognia-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/incognia/openapi/incognia-authentication-api-openapi.yml
 - filename: incognia-feedback-api-openapi.yml
   format: yaml
   label: Incognia Feedback API
   slug: incognia-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/openapi/incognia-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/incognia/openapi/incognia-feedback-api-openapi.yml
 - filename: incognia-onboarding-api-openapi.yml
   format: yaml
   label: Incognia Onboarding API
   slug: incognia-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/openapi/incognia-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/incognia/openapi/incognia-onboarding-api-openapi.yml
 - filename: incognia-transactions-api-openapi.yml
   format: yaml
   label: Incognia Transactions API
   slug: incognia-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/openapi/incognia-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/incognia/openapi/incognia-transactions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -70,7 +70,7 @@ source_filename: incognia-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.incognia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 03:32:43 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.incognia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 12 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.incognia.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 23 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: incognia.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issuewild \"amazontrust.com\"\n  - 0 issuewild \"awstrust.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/security/incognia-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/incognia/security/incognia-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

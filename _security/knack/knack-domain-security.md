@@ -5,13 +5,13 @@ api_specs:
   label: Knack Object Records API
   slug: knack-object-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knack/refs/heads/main/openapi/knack-object-records-api-openapi.yml
+  url: https://artifacts.apis.io/knack/openapi/knack-object-records-api-openapi.yml
 - filename: knack-view-records-api-openapi.yml
   format: yaml
   label: Knack View Records API
   slug: knack-view-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knack/refs/heads/main/openapi/knack-view-records-api-openapi.yml
+  url: https://artifacts.apis.io/knack/openapi/knack-view-records-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -59,7 +59,7 @@ source_filename: knack-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.knack.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  7 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.knack.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 22:42:33 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.knack.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  8 06:14:53 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: knack.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"lencr.org\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/knack/refs/heads/main/security/knack-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/knack/security/knack-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - No-Code

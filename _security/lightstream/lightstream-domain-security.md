@@ -5,61 +5,61 @@ api_specs:
   label: Lightstream BackendAuthenticationService API
   slug: lightstream-backendauthenticationservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-backendauthenticationservice-api-openapi.yml
+  url: https://artifacts.apis.io/lightstream/openapi/lightstream-backendauthenticationservice-api-openapi.yml
 - filename: lightstream-collectionservice-api-openapi.yml
   format: yaml
   label: Lightstream CollectionService API
   slug: lightstream-collectionservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-collectionservice-api-openapi.yml
+  url: https://artifacts.apis.io/lightstream/openapi/lightstream-collectionservice-api-openapi.yml
 - filename: lightstream-destinationservice-api-openapi.yml
   format: yaml
   label: Lightstream DestinationService API
   slug: lightstream-destinationservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-destinationservice-api-openapi.yml
+  url: https://artifacts.apis.io/lightstream/openapi/lightstream-destinationservice-api-openapi.yml
 - filename: lightstream-layerservice-api-openapi.yml
   format: yaml
   label: Lightstream LayerService API
   slug: lightstream-layerservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-layerservice-api-openapi.yml
+  url: https://artifacts.apis.io/lightstream/openapi/lightstream-layerservice-api-openapi.yml
 - filename: lightstream-layoutservice-api-openapi.yml
   format: yaml
   label: Lightstream LayoutService API
   slug: lightstream-layoutservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-layoutservice-api-openapi.yml
+  url: https://artifacts.apis.io/lightstream/openapi/lightstream-layoutservice-api-openapi.yml
 - filename: lightstream-projectservice-api-openapi.yml
   format: yaml
   label: Lightstream ProjectService API
   slug: lightstream-projectservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-projectservice-api-openapi.yml
+  url: https://artifacts.apis.io/lightstream/openapi/lightstream-projectservice-api-openapi.yml
 - filename: lightstream-publicauthenticationservice-api-openapi.yml
   format: yaml
   label: Lightstream PublicAuthenticationService API
   slug: lightstream-publicauthenticationservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-publicauthenticationservice-api-openapi.yml
+  url: https://artifacts.apis.io/lightstream/openapi/lightstream-publicauthenticationservice-api-openapi.yml
 - filename: lightstream-sourceservice-api-openapi.yml
   format: yaml
   label: Lightstream SourceService API
   slug: lightstream-sourceservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-sourceservice-api-openapi.yml
+  url: https://artifacts.apis.io/lightstream/openapi/lightstream-sourceservice-api-openapi.yml
 - filename: lightstream-authentication-service-api-openapi.yml
   format: yaml
   label: Lightstream Authentication Service API
   slug: lightstream-authentication-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-authentication-service-api-openapi.yml
+  url: https://artifacts.apis.io/lightstream/openapi/lightstream-authentication-service-api-openapi.yml
 - filename: lightstream-event-service-api-openapi.yml
   format: yaml
   label: Lightstream Event Service API
   slug: lightstream-event-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-event-service-api-openapi.yml
+  url: https://artifacts.apis.io/lightstream/openapi/lightstream-event-service-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -111,7 +111,7 @@ source_filename: lightstream-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: golightstream.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 15:01:14 2026 GMT\n  hsts: false\n- host: www.api.stream\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 11:02:10 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: live.api.stream\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 11:02:10 2026 GMT\n  hsts: null\ndomains:\n- domain: golightstream.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: api.stream\n  dnssec: false\n  caa:\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/security/lightstream-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lightstream/security/lightstream-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

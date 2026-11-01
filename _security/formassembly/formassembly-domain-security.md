@@ -5,43 +5,43 @@ api_specs:
   label: FormAssembly Aggregates API
   slug: formassembly-aggregates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/openapi/formassembly-aggregates-api-openapi.yml
+  url: https://artifacts.apis.io/formassembly/openapi/formassembly-aggregates-api-openapi.yml
 - filename: formassembly-connectors-api-openapi.yml
   format: yaml
   label: FormAssembly Connectors API
   slug: formassembly-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/openapi/formassembly-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/formassembly/openapi/formassembly-connectors-api-openapi.yml
 - filename: formassembly-form-elements-api-openapi.yml
   format: yaml
   label: FormAssembly Form Elements API
   slug: formassembly-form-elements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/openapi/formassembly-form-elements-api-openapi.yml
+  url: https://artifacts.apis.io/formassembly/openapi/formassembly-form-elements-api-openapi.yml
 - filename: formassembly-forms-api-openapi.yml
   format: yaml
   label: FormAssembly Forms API
   slug: formassembly-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/openapi/formassembly-forms-api-openapi.yml
+  url: https://artifacts.apis.io/formassembly/openapi/formassembly-forms-api-openapi.yml
 - filename: formassembly-responses-api-openapi.yml
   format: yaml
   label: FormAssembly Responses API
   slug: formassembly-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/openapi/formassembly-responses-api-openapi.yml
+  url: https://artifacts.apis.io/formassembly/openapi/formassembly-responses-api-openapi.yml
 - filename: formassembly-themes-api-openapi.yml
   format: yaml
   label: FormAssembly Themes API
   slug: formassembly-themes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/openapi/formassembly-themes-api-openapi.yml
+  url: https://artifacts.apis.io/formassembly/openapi/formassembly-themes-api-openapi.yml
 - filename: formassembly-oauth2-api-openapi.yml
   format: yaml
   label: FormAssembly O Auth2 API
   slug: formassembly-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/openapi/formassembly-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/formassembly/openapi/formassembly-oauth2-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,7 +81,7 @@ source_filename: formassembly-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.formassembly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 07:31:05 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: help.formassembly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 15:35:40 2026 GMT\n  hsts: false\n- host: app.formassembly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: formassembly.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/security/formassembly-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/formassembly/security/formassembly-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Forms

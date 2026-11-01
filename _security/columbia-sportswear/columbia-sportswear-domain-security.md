@@ -5,7 +5,7 @@ api_specs:
   label: Columbia Sportswear External Image API
   slug: columbia-sportswear-externalimage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/columbia-sportswear/refs/heads/main/openapi/columbia-sportswear-externalimage-api-openapi.yml
+  url: https://artifacts.apis.io/columbia-sportswear/openapi/columbia-sportswear-externalimage-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,7 +50,7 @@ source_filename: columbia-sportswear-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.columbia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 17 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: columbia.portal.azure-api.net\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''columbia.po'\n  hsts: null\n- host: api.columbia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 18 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: columbia.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: azure-api.net\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/columbia-sportswear/refs/heads/main/security/columbia-sportswear-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/columbia-sportswear/security/columbia-sportswear-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Apparel

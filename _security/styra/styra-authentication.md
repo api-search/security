@@ -7,31 +7,31 @@ api_specs:
   label: Styra Batch API
   slug: styra-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/styra/refs/heads/main/openapi/styra-batch-api-openapi.yml
+  url: https://artifacts.apis.io/styra/openapi/styra-batch-api-openapi.yml
 - filename: styra-compile-api-openapi.yml
   format: yaml
   label: Styra Compile API
   slug: styra-compile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/styra/refs/heads/main/openapi/styra-compile-api-openapi.yml
+  url: https://artifacts.apis.io/styra/openapi/styra-compile-api-openapi.yml
 - filename: styra-data-api-openapi.yml
   format: yaml
   label: Styra Data API
   slug: styra-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/styra/refs/heads/main/openapi/styra-data-api-openapi.yml
+  url: https://artifacts.apis.io/styra/openapi/styra-data-api-openapi.yml
 - filename: styra-enterprise-opa-rest-api-api-openapi.yml
   format: yaml
   label: Styra Enterprise OPA REST API
   slug: styra-enterprise-opa-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/styra/refs/heads/main/openapi/styra-enterprise-opa-rest-api-api-openapi.yml
+  url: https://artifacts.apis.io/styra/openapi/styra-enterprise-opa-rest-api-api-openapi.yml
 - filename: styra-health-api-openapi.yml
   format: yaml
   label: Styra Health API
   slug: styra-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/styra/refs/heads/main/openapi/styra-health-api-openapi.yml
+  url: https://artifacts.apis.io/styra/openapi/styra-health-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -57,14 +57,14 @@ source_filename: styra-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/styra-enterprise-opa-openapi.yaml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/styra-enterprise-opa-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/styra/refs/heads/main/authentication/styra-authentication.yml
+source_yaml_url: https://artifacts.apis.io/styra/authentication/styra-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company
 - Cybersecurity
 - Authorization
 - Policy as Code
-- Open Policy Agent
+- OPA
 - Access Control
 - Cloud-Native
 - API Security

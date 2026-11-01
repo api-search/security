@@ -5,25 +5,31 @@ api_specs:
   label: Brand API (Brandfetch) Brands API
   slug: brand-api-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/openapi/brand-api-brands-api-openapi.yml
+  url: https://artifacts.apis.io/brand-api/openapi/brand-api-brands-api-openapi.yml
 - filename: brand-api-context-api-openapi.yml
   format: yaml
   label: Brand API (Brandfetch) Context API
   slug: brand-api-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/openapi/brand-api-context-api-openapi.yml
+  url: https://artifacts.apis.io/brand-api/openapi/brand-api-context-api-openapi.yml
 - filename: brand-api-search-api-openapi.yml
   format: yaml
   label: Brand API (Brandfetch) Search API
   slug: brand-api-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/openapi/brand-api-search-api-openapi.yml
+  url: https://artifacts.apis.io/brand-api/openapi/brand-api-search-api-openapi.yml
 - filename: brand-api-viewer-api-openapi.yml
   format: yaml
   label: Brand API (Brandfetch) Viewer API
   slug: brand-api-viewer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/openapi/brand-api-viewer-api-openapi.yml
+  url: https://artifacts.apis.io/brand-api/openapi/brand-api-viewer-api-openapi.yml
+- filename: brand-api-agents-api-openapi.yml
+  format: yaml
+  label: Brand API (Brandfetch) Agents API
+  slug: brand-api-agents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/brand-api/openapi/brand-api-agents-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +70,7 @@ source_filename: brand-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.brandfetch.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 05:24:51 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.brandfetch.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 16 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: brandfetch.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: brandfetch.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/security/brand-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/brand-api/security/brand-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Brands

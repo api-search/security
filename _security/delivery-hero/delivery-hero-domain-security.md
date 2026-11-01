@@ -5,43 +5,43 @@ api_specs:
   label: Delivery Hero Authentication API
   slug: delivery-hero-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/openapi/delivery-hero-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/delivery-hero/openapi/delivery-hero-authentication-api-openapi.yml
 - filename: delivery-hero-callback-api-openapi.yml
   format: yaml
   label: Delivery Hero Callback API
   slug: delivery-hero-callback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/openapi/delivery-hero-callback-api-openapi.yml
+  url: https://artifacts.apis.io/delivery-hero/openapi/delivery-hero-callback-api-openapi.yml
 - filename: delivery-hero-ordersestimation-api-openapi.yml
   format: yaml
   label: Delivery Hero OrdersEstimation API
   slug: delivery-hero-ordersestimation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/openapi/delivery-hero-ordersestimation-api-openapi.yml
+  url: https://artifacts.apis.io/delivery-hero/openapi/delivery-hero-ordersestimation-api-openapi.yml
 - filename: delivery-hero-ordersmanagement-api-openapi.yml
   format: yaml
   label: Delivery Hero OrdersManagement API
   slug: delivery-hero-ordersmanagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/openapi/delivery-hero-ordersmanagement-api-openapi.yml
+  url: https://artifacts.apis.io/delivery-hero/openapi/delivery-hero-ordersmanagement-api-openapi.yml
 - filename: delivery-hero-outlets-api-openapi.yml
   format: yaml
   label: Delivery Hero Outlets API
   slug: delivery-hero-outlets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/openapi/delivery-hero-outlets-api-openapi.yml
+  url: https://artifacts.apis.io/delivery-hero/openapi/delivery-hero-outlets-api-openapi.yml
 - filename: delivery-hero-proofs-api-openapi.yml
   format: yaml
   label: Delivery Hero Proofs API
   slug: delivery-hero-proofs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/openapi/delivery-hero-proofs-api-openapi.yml
+  url: https://artifacts.apis.io/delivery-hero/openapi/delivery-hero-proofs-api-openapi.yml
 - filename: delivery-hero-riderposition-api-openapi.yml
   format: yaml
   label: Delivery Hero RiderPosition API
   slug: delivery-hero-riderposition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/openapi/delivery-hero-riderposition-api-openapi.yml
+  url: https://artifacts.apis.io/delivery-hero/openapi/delivery-hero-riderposition-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +71,7 @@ source_filename: delivery-hero-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: deliveryhero.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 29 04:37:15 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: deliveryhero.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/security/delivery-hero-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/delivery-hero/security/delivery-hero-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company

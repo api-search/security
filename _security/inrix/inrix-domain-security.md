@@ -5,85 +5,85 @@ api_specs:
   label: INRIX Accounts API
   slug: inrix-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/inrix/openapi/inrix-accounts-api-openapi.yml
 - filename: inrix-application-api-openapi.yml
   format: yaml
   label: INRIX Application API
   slug: inrix-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-application-api-openapi.yml
+  url: https://artifacts.apis.io/inrix/openapi/inrix-application-api-openapi.yml
 - filename: inrix-auth-api-openapi.yml
   format: yaml
   label: INRIX Auth API
   slug: inrix-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-auth-api-openapi.yml
+  url: https://artifacts.apis.io/inrix/openapi/inrix-auth-api-openapi.yml
 - filename: inrix-developer-api-openapi.yml
   format: yaml
   label: INRIX Developer API
   slug: inrix-developer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-developer-api-openapi.yml
+  url: https://artifacts.apis.io/inrix/openapi/inrix-developer-api-openapi.yml
 - filename: inrix-device-api-openapi.yml
   format: yaml
   label: INRIX Device API
   slug: inrix-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-device-api-openapi.yml
+  url: https://artifacts.apis.io/inrix/openapi/inrix-device-api-openapi.yml
 - filename: inrix-metadata-api-openapi.yml
   format: yaml
   label: INRIX Metadata API
   slug: inrix-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/inrix/openapi/inrix-metadata-api-openapi.yml
 - filename: inrix-metrics-api-openapi.yml
   format: yaml
   label: INRIX Metrics API
   slug: inrix-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/inrix/openapi/inrix-metrics-api-openapi.yml
 - filename: inrix-namespace-management-api-openapi.yml
   format: yaml
   label: INRIX Namespace Management API
   slug: inrix-namespace-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-namespace-management-api-openapi.yml
+  url: https://artifacts.apis.io/inrix/openapi/inrix-namespace-management-api-openapi.yml
 - filename: inrix-user-api-openapi.yml
   format: yaml
   label: INRIX User API
   slug: inrix-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-user-api-openapi.yml
+  url: https://artifacts.apis.io/inrix/openapi/inrix-user-api-openapi.yml
 - filename: inrix-caniparkhere-api-openapi.yml
   format: yaml
   label: INRIX Caniparkhere API
   slug: inrix-caniparkhere-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-caniparkhere-api-openapi.yml
+  url: https://artifacts.apis.io/inrix/openapi/inrix-caniparkhere-api-openapi.yml
 - filename: inrix-openspots-api-openapi.yml
   format: yaml
   label: INRIX Openspots API
   slug: inrix-openspots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-openspots-api-openapi.yml
+  url: https://artifacts.apis.io/inrix/openapi/inrix-openspots-api-openapi.yml
 - filename: inrix-application-management-api-openapi.yml
   format: yaml
   label: INRIX Application Management API
   slug: inrix-application-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-application-management-api-openapi.yml
+  url: https://artifacts.apis.io/inrix/openapi/inrix-application-management-api-openapi.yml
 - filename: inrix-email-template-api-openapi.yml
   format: yaml
   label: INRIX Email Template API
   slug: inrix-email-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-email-template-api-openapi.yml
+  url: https://artifacts.apis.io/inrix/openapi/inrix-email-template-api-openapi.yml
 - filename: inrix-user-group-api-openapi.yml
   format: yaml
   label: INRIX User Group API
   slug: inrix-user-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-user-group-api-openapi.yml
+  url: https://artifacts.apis.io/inrix/openapi/inrix-user-group-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -122,7 +122,7 @@ source_filename: inrix-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-01'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: inrix.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 11:10:55 2026 GMT\n  hsts: null\n- host: docs.inrix.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  2 23:59:59 2027 GMT\n  hsts: false\n- host: uas-api.inrix.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 21 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: inrix.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/security/inrix-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/inrix/security/inrix-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Transportation
@@ -138,6 +138,6 @@ tags:
 - Connected Vehicles
 - Road Network
 - Data
-- Fleet
+- Fleet Management
 - Intelligent Transportation Systems
 ---

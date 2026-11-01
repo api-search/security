@@ -7,19 +7,43 @@ api_specs:
   label: Infer by Flow7 Catalog API
   slug: infer-by-flow7-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/openapi/infer-by-flow7-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/infer-by-flow7/openapi/infer-by-flow7-catalog-api-openapi.yml
 - filename: infer-by-flow7-inference-api-openapi.yml
   format: yaml
   label: Infer by Flow7 Inference API
   slug: infer-by-flow7-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/openapi/infer-by-flow7-inference-api-openapi.yml
+  url: https://artifacts.apis.io/infer-by-flow7/openapi/infer-by-flow7-inference-api-openapi.yml
 - filename: infer-by-flow7-status-api-openapi.yml
   format: yaml
   label: Infer by Flow7 Status API
   slug: infer-by-flow7-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/openapi/infer-by-flow7-status-api-openapi.yml
+  url: https://artifacts.apis.io/infer-by-flow7/openapi/infer-by-flow7-status-api-openapi.yml
+- filename: infer-by-flow7-generation-api-openapi.yml
+  format: yaml
+  label: Infer by Flow7 Generation API
+  slug: infer-by-flow7-generation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infer-by-flow7/openapi/infer-by-flow7-generation-api-openapi.yml
+- filename: infer-by-flow7-messages-api-openapi.yml
+  format: yaml
+  label: Infer by Flow7 Messages API
+  slug: infer-by-flow7-messages-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infer-by-flow7/openapi/infer-by-flow7-messages-api-openapi.yml
+- filename: infer-by-flow7-usage-api-openapi.yml
+  format: yaml
+  label: Infer by Flow7 Usage API
+  slug: infer-by-flow7-usage-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infer-by-flow7/openapi/infer-by-flow7-usage-api-openapi.yml
+- filename: infer-by-flow7-chat-completions-api-openapi.yml
+  format: yaml
+  label: Infer by Flow7 Chat Completions API
+  slug: infer-by-flow7-chat-completions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infer-by-flow7/openapi/infer-by-flow7-chat-completions-api-openapi.yml
 auth_types: []
 description: 'Infer exposes exactly one authentication mechanism: an HTTP Bearer API key issued inside a workspace. There is no OAuth 2.0, no OIDC, no mTLS and no signed-request scheme. Two of the four published operations are deliberately unauthenticated (public catalog and public status), which is what makes the price and availability surface machine-readable without an account.'
 kind: authentication
@@ -55,7 +79,7 @@ source_yaml: "generated: '2026-08-11'\nmethod: searched\nsource: >-\n  https://i
   \ = \"Infer local sandbox fixture\".\n    - name: live\n      key_env_var_convention: INFER_API_KEY\n      requires_funding: true\n      note: A live key cannot send paid inference until the prepaid wallet is funded ($20 first funding).\n  scopes:\n    - name: inference:write\n      required_by:\n        - listModels\n        - createResponse\n      source: >-\n        https://infer.flow7.org/openapi-public.json — listModels description: \"The key must carry the\n        inference:write scope.\"\n      note: >-\n        This is an API-key permission scope, NOT an OAuth 2.0 scope. There is no authorization server\n        and no scope-grant flow; the scope is attached to the key when it is created.\n  spend_controls:\n    - control: per-key daily spend ceiling\n      unit: microdollars\n      note: >-\n        Enforced before a request is admitted, not after settlement. Observed in Route Note 005: a key\n        with a $0.010000 daily and monthly ceiling admitted one request and rejected\
   \ seven concurrent\n        contenders with HTTP 429 daily_budget_exceeded.\n    - control: per-key monthly spend ceiling\n      unit: microdollars\n  revocation: >-\n    Keys are revocable from the workspace. Infer's own published test records state the temporary\n    bounded keys were revoked after every task reached a terminal state.\nunauthenticated_surface:\n  - operation: getPublicCatalog\n    path: GET /api/public/catalog\n    note: Full published price catalog including per-million token rates, privacy modes and price versions.\n  - operation: getPublicStatus\n    path: GET /api/public/status\n    note: Per-service operational state and p95 latency for every published model.\nfailure_modes:\n  - status: 401\n    code: invalid_api_key\n    meaning: Missing, revoked, or invalid key.\n  - status: 403\n    meaning: The key, organization, environment, or scope cannot perform this operation.\n  - status: 402\n    code: insufficient_credits\n    meaning: The wallet cannot cover the request's\
   \ reservation.\ndocs: https://infer.flow7.org/docs\nrelated:\n  - conventions/infer-by-flow7-conventions.yml\n  - errors/infer-by-flow7-problem-types.yml\n  - scopes/infer-by-flow7-scopes.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/authentication/infer-by-flow7-authentication.yml
+source_yaml_url: https://artifacts.apis.io/infer-by-flow7/authentication/infer-by-flow7-authentication.yml
 summary_line: 1 scheme
 tags:
 - AI/ML inference

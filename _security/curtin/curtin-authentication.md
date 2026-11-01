@@ -7,19 +7,19 @@ api_specs:
   label: Curtin University Countries API
   slug: curtin-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curtin/refs/heads/main/openapi/curtin-countries-api-openapi.yml
+  url: https://artifacts.apis.io/curtin/openapi/curtin-countries-api-openapi.yml
 - filename: curtin-institutions-api-openapi.yml
   format: yaml
   label: Curtin University Institutions API
   slug: curtin-institutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curtin/refs/heads/main/openapi/curtin-institutions-api-openapi.yml
+  url: https://artifacts.apis.io/curtin/openapi/curtin-institutions-api-openapi.yml
 - filename: curtin-search-api-openapi.yml
   format: yaml
   label: Curtin University Search API
   slug: curtin-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curtin/refs/heads/main/openapi/curtin-search-api-openapi.yml
+  url: https://artifacts.apis.io/curtin/openapi/curtin-search-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -45,7 +45,7 @@ source_yaml: "authentication:\n  generated: '2026-08-30'\n  method: derived\n  x
   \      scheme: AWS Cognito user pool via Amplify\n      credential: required\n      observed: >-\n        GET /AMP/Catalogs and GET /AMP/Dashboards both return HTTP 401 {\"message\":\"Unauthorized\"}\n        unauthenticated. The front end at data.curtin.edu.au ships @aws-amplify Auth and a Cognito\n        identity/idp configuration. Curtin staff and student credentials only; no public\n        registration path was found.\n    - name: Curtin Shibboleth Identity Provider\n      x-operator: tenant\n      x-operator-evidence: >-\n        idpp1.curtin.edu.au CNAMEs to 1f0b5d9aaec3f802f7411017de5ea657.idp-cname.aaf.edu.au —\n        the Australian Access Federation's managed IdP service. Curtin is the identity authority;\n        AAF operates the Shibboleth deployment. The companion service provider at\n        auth.lis.curtin.edu.au resolves to Curtin's own Kubernetes cluster and IS\n        institution-operated.\n      base: https://idpp1.curtin.edu.au/idp\n      scheme: SAML 2.0 (Shibboleth\
   \ IdP)\n      credential: institutional account\n      observed: >-\n        GET https://idpp1.curtin.edu.au/idp/shibboleth returns HTTP 200 application/xml — the\n        IdP's own SAML 2.0 entity metadata, served without credentials. Bindings advertised:\n        HTTP-POST, HTTP-Redirect and HTTP-POST-SimpleSign at\n        /idp/profile/SAML2/{POST,Redirect,POST-SimpleSign}/SSO. shibmd:Scope is curtin.edu.au.\n      federation: >-\n        Registered in the Australian Access Federation aggregate (md.aaf.edu.au/aaf-metadata.xml)\n        as entityID https://idpp1.curtin.edu.au/idp/shibboleth, OrganizationDisplayName\n        \"Curtin University\". Curtin also operates the service provider\n        https://auth.lis.curtin.edu.au/shibboleth, whose metadata is served at\n        https://auth.lis.curtin.edu.au/Shibboleth.sso/Metadata (HTTP 200,\n        application/samlmetadata+xml).\n    - name: Curtin Curate research repository\n      x-operator: tenant\n      base: https://curate.curtin.edu.au\n\
   \      scheme: not determinable\n      credential: unknown\n      observed: >-\n        Every request returns HTTP 202 with an AWS WAF JavaScript challenge whose\n        awsWafCookieDomainList is [\"figshare.com\"]. No API behaviour could be probed. Figshare\n        operates the platform; the tenant is Curtin's.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/curtin/refs/heads/main/authentication/curtin-authentication.yml
+source_yaml_url: https://artifacts.apis.io/curtin/authentication/curtin-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

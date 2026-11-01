@@ -25,7 +25,7 @@ source_filename: micrographia-bio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: micrographia.bio\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''micrographi'\n  hsts: null\ndomains:\n- domain: micrographia.bio\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/micrographia-bio/refs/heads/main/security/micrographia-bio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/micrographia-bio/security/micrographia-bio-domain-security.yml
 summary_line: DNSSEC
 tags:
 - Company

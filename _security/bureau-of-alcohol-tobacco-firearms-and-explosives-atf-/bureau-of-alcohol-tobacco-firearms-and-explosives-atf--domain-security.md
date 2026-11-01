@@ -5,25 +5,25 @@ api_specs:
   label: Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) Diffs API
   slug: bureau-of-alcohol-tobacco-firearms-and-explosives-atf--diffs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/openapi/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--diffs-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/openapi/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--diffs-api-openapi.yml
 - filename: bureau-of-alcohol-tobacco-firearms-and-explosives-atf--notices-api-openapi.yml
   format: yaml
   label: Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) Notices API
   slug: bureau-of-alcohol-tobacco-firearms-and-explosives-atf--notices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/openapi/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--notices-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/openapi/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--notices-api-openapi.yml
 - filename: bureau-of-alcohol-tobacco-firearms-and-explosives-atf--regulations-api-openapi.yml
   format: yaml
   label: Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) Regulations API
   slug: bureau-of-alcohol-tobacco-firearms-and-explosives-atf--regulations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/openapi/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--regulations-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/openapi/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--regulations-api-openapi.yml
 - filename: bureau-of-alcohol-tobacco-firearms-and-explosives-atf--search-api-openapi.yml
   format: yaml
   label: Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) Search API
   slug: bureau-of-alcohol-tobacco-firearms-and-explosives-atf--search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/openapi/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--search-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/openapi/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: bureau-of-alcohol-tobacco-firearms-and-explosives-atf--domain-s
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.atf.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: atf.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/security/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/security/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Alcohol

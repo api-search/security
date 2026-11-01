@@ -5,13 +5,73 @@ api_specs:
   label: Amazon IAM Identity Center AWS Single Sign On Admin API
   slug: amazon-iam-identity-center-aws-single-sign-on-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-aws-single-sign-on-admin-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iam-identity-center/openapi/amazon-iam-identity-center-aws-single-sign-on-admin-api-openapi.yml
 - filename: amazon-iam-identity-center-aws-sso-identity-store-api-openapi.yml
   format: yaml
   label: Amazon IAM Identity Center AWS SSO Identity Store API
   slug: amazon-iam-identity-center-aws-sso-identity-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-aws-sso-identity-store-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iam-identity-center/openapi/amazon-iam-identity-center-aws-sso-identity-store-api-openapi.yml
+- filename: amazon-iam-identity-center-application-access-scope-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Identity Center Iam Identity Center Application Access Scope API
+  slug: amazon-iam-identity-center-application-access-scope-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam-identity-center/openapi/amazon-iam-identity-center-application-access-scope-api-openapi.yml
+- filename: amazon-iam-identity-center-application-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Identity Center Iam Identity Center Application API
+  slug: amazon-iam-identity-center-application-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam-identity-center/openapi/amazon-iam-identity-center-application-api-openapi.yml
+- filename: amazon-iam-identity-center-application-assignment-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Identity Center Iam Identity Center Application Assignment API
+  slug: amazon-iam-identity-center-application-assignment-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam-identity-center/openapi/amazon-iam-identity-center-application-assignment-api-openapi.yml
+- filename: amazon-iam-identity-center-application-authentication-method-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Identity Center Iam Identity Center Application Authentication Method API
+  slug: amazon-iam-identity-center-application-authentication-method-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam-identity-center/openapi/amazon-iam-identity-center-application-authentication-method-api-openapi.yml
+- filename: amazon-iam-identity-center-application-grant-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Identity Center Iam Identity Center Application Grant API
+  slug: amazon-iam-identity-center-application-grant-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam-identity-center/openapi/amazon-iam-identity-center-application-grant-api-openapi.yml
+- filename: amazon-iam-identity-center-identity-store-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Identity Center Iam Identity Center Identity Store API
+  slug: amazon-iam-identity-center-identity-store-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam-identity-center/openapi/amazon-iam-identity-center-identity-store-api-openapi.yml
+- filename: amazon-iam-identity-center-instance-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Identity Center Iam Identity Center Instance API
+  slug: amazon-iam-identity-center-instance-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam-identity-center/openapi/amazon-iam-identity-center-instance-api-openapi.yml
+- filename: amazon-iam-identity-center-operations-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Identity Center Iam Identity Center Operations API
+  slug: amazon-iam-identity-center-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam-identity-center/openapi/amazon-iam-identity-center-operations-api-openapi.yml
+- filename: amazon-iam-identity-center-region-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Identity Center Iam Identity Center Region API
+  slug: amazon-iam-identity-center-region-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam-identity-center/openapi/amazon-iam-identity-center-region-api-openapi.yml
+- filename: amazon-iam-identity-center-trusted-token-issuer-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Identity Center Iam Identity Center Trusted Token Issuer API
+  slug: amazon-iam-identity-center-trusted-token-issuer-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam-identity-center/openapi/amazon-iam-identity-center-trusted-token-issuer-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -55,7 +115,7 @@ source_filename: amazon-iam-identity-center-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: sso.amazonaws.com\n  https: false\n- host: docs.aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/security/amazon-iam-identity-center-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amazon-iam-identity-center/security/amazon-iam-identity-center-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Access Control

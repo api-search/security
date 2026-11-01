@@ -29,7 +29,7 @@ source_filename: peer-robotics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: peerrobotics.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 11:14:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: peerrobotics.ai\n  dnssec: true\n  caa:\n  - cdn.webflow.com.\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peer-robotics/refs/heads/main/security/peer-robotics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/peer-robotics/security/peer-robotics-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

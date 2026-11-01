@@ -5,13 +5,13 @@ api_specs:
   label: Suno Lyrics API
   slug: suno-lyrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suno/refs/heads/main/openapi/suno-lyrics-api-openapi.yml
+  url: https://artifacts.apis.io/suno/openapi/suno-lyrics-api-openapi.yml
 - filename: suno-music-api-openapi.yml
   format: yaml
   label: Suno Music API
   slug: suno-music-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suno/refs/heads/main/openapi/suno-music-api-openapi.yml
+  url: https://artifacts.apis.io/suno/openapi/suno-music-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,13 +57,13 @@ source_filename: suno-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: suno.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 18:29:38 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.sunoapi.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 04:36:40 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.sunoapi.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 22:57:45 2026 GMT\n  hsts: null\ndomains:\n- domain: suno.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: sunoapi.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/suno/refs/heads/main/security/suno-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/suno/security/suno-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
 - Music Generation
 - Audio
 - Generative
-- TTS
+- Text-to-Speech
 - Music
 ---

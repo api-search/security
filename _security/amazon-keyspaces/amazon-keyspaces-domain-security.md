@@ -5,13 +5,25 @@ api_specs:
   label: Amazon Keyspaces API
   slug: amazon-keyspaces-keyspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/openapi/amazon-keyspaces-keyspaces-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-keyspaces/openapi/amazon-keyspaces-keyspaces-api-openapi.yml
 - filename: amazon-keyspaces-tables-api-openapi.yml
   format: yaml
   label: Amazon Keyspaces Tables API
   slug: amazon-keyspaces-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/openapi/amazon-keyspaces-tables-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-keyspaces/openapi/amazon-keyspaces-tables-api-openapi.yml
+- filename: amazon-keyspaces-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Keyspaces Keyspaces Operations API
+  slug: amazon-keyspaces-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-keyspaces/openapi/amazon-keyspaces-operations-api-openapi.yml
+- filename: amazon-keyspaces-type-api-openapi.yml
+  format: yaml
+  label: Amazon Keyspaces Keyspaces Type API
+  slug: amazon-keyspaces-type-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-keyspaces/openapi/amazon-keyspaces-type-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -54,7 +66,7 @@ source_filename: amazon-keyspaces-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: cassandra.amazonaws.com\n  https: false\n- host: cassandra.us-east-1.amazonaws.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/security/amazon-keyspaces-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amazon-keyspaces/security/amazon-keyspaces-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cassandra

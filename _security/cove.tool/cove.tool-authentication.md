@@ -8,43 +8,43 @@ api_specs:
   label: Cove.Tool Authentication Token API
   slug: cove.tool-authentication-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cove.tool/refs/heads/main/openapi/cove.tool-authentication-token-api-openapi.yml
+  url: https://artifacts.apis.io/cove.tool/openapi/cove.tool-authentication-token-api-openapi.yml
 - filename: cove.tool-daylight-analysis-api-openapi.yml
   format: yaml
   label: Cove.Tool Daylight Analysis API
   slug: cove.tool-daylight-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cove.tool/refs/heads/main/openapi/cove.tool-daylight-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/cove.tool/openapi/cove.tool-daylight-analysis-api-openapi.yml
 - filename: cove.tool-energy-codes-api-openapi.yml
   format: yaml
   label: Cove.Tool Energy Codes API
   slug: cove.tool-energy-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cove.tool/refs/heads/main/openapi/cove.tool-energy-codes-api-openapi.yml
+  url: https://artifacts.apis.io/cove.tool/openapi/cove.tool-energy-codes-api-openapi.yml
 - filename: cove.tool-profiles-api-openapi.yml
   format: yaml
   label: Cove.Tool Profiles API
   slug: cove.tool-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cove.tool/refs/heads/main/openapi/cove.tool-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/cove.tool/openapi/cove.tool-profiles-api-openapi.yml
 - filename: cove.tool-project-geometry-api-openapi.yml
   format: yaml
   label: Cove.Tool Project Geometry API
   slug: cove.tool-project-geometry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cove.tool/refs/heads/main/openapi/cove.tool-project-geometry-api-openapi.yml
+  url: https://artifacts.apis.io/cove.tool/openapi/cove.tool-project-geometry-api-openapi.yml
 - filename: cove.tool-projects-api-openapi.yml
   format: yaml
   label: Cove.Tool Projects API
   slug: cove.tool-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cove.tool/refs/heads/main/openapi/cove.tool-projects-api-openapi.yml
+  url: https://artifacts.apis.io/cove.tool/openapi/cove.tool-projects-api-openapi.yml
 - filename: cove.tool-user-api-openapi.yml
   format: yaml
   label: Cove.Tool User API
   slug: cove.tool-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cove.tool/refs/heads/main/openapi/cove.tool-user-api-openapi.yml
+  url: https://artifacts.apis.io/cove.tool/openapi/cove.tool-user-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-08-11'\nmethod: searched\nsource: >-\n  openapi/c
   token_issuance:\n  endpoint: https://app.covetool.com/api/get-token\n  method: POST\n  documented_in: 'OpenAPI info.description, \"Generating an API Token\" table'\n  v1_operation: 'POST /get-token'\n  probed_status: 405\n  probed_note: >-\n    A GET on /api/get-token returns 405, confirming POST-only. The credential exchange itself was\n    not exercised — it requires real account credentials, and this pipeline uses none.\n  prerequisite: 'A valid trial or licensed cove.tool account. There is no self-serve API tier.'\nobserved:\n  method: probed\n  url: https://app.covetool.com/api/v2/energy-codes\n  status: 401\n  www_authenticate: Token\n  body: '{\"detail\":\"Authentication credentials were not provided.\"}'\n  note: >-\n    Django REST Framework TokenAuthentication. The challenge scheme is `Token`, NOT RFC 6750\n    `Bearer` — a client that sends `Authorization: Bearer <t>` will be rejected. This distinction is\n    easy to miss because the v2 spec models the scheme as a generic `apiKey`\
   \ in the `Authorization`\n    header without stating the prefix; the prefix is only visible on the wire and in the\n    description's examples.\nunauthenticated_operations:\n- operation: 'POST /auth/signup'\n  spec: openapi/cove.tool-rest-api-v2-openapi.yml\n  note: >-\n    Declares no `security` and is therefore anonymous, yet it creates a user account against an\n    organization's cove.tool license. This is the sharpest edge on the auth surface and it is not\n    called out in the documentation.\nscopes:\n  supported: false\n  note: >-\n    No OAuth2, no scopes, no permission strings. Authorization is coarse: a token acts as its\n    profile, and access is bounded by the business the profile belongs to — a cross-business\n    profile read returns 403. `is_owner` and `is_admin` on the profile are the only role signals,\n    and neither is settable through the API. No scopes/ artifact was written because there is\n    nothing to derive; derive-oauth-scopes.py returned zero oauth2 schemes.\n\
   rotation:\n  documented: false\n  note: 'No token expiry, rotation, revocation or refresh guidance published.'\ntransport_security:\n  https_required: true\n  hsts: false\n  note: 'TLS 1.2 on app.covetool.com; strict-transport-security is not set. See security/cove.tool-domain-security.yml.'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cove.tool/refs/heads/main/authentication/cove.tool-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cove.tool/authentication/cove.tool-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company

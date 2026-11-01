@@ -5,49 +5,49 @@ api_specs:
   label: Parallel Chat API (Beta) API
   slug: parallel-ai-chat-api-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-ai-chat-api-beta-api-openapi.yml
+  url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-chat-api-beta-api-openapi.yml
 - filename: parallel-ai-extract-api-openapi.yml
   format: yaml
   label: Parallel Extract API
   slug: parallel-ai-extract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-ai-extract-api-openapi.yml
+  url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-extract-api-openapi.yml
 - filename: parallel-ai-findall-api-openapi.yml
   format: yaml
   label: Parallel Find All API
   slug: parallel-ai-findall-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-ai-findall-api-openapi.yml
+  url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-findall-api-openapi.yml
 - filename: parallel-ai-memory-api-openapi.yml
   format: yaml
   label: Parallel Memory API
   slug: parallel-ai-memory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-ai-memory-api-openapi.yml
+  url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-memory-api-openapi.yml
 - filename: parallel-ai-monitor-api-openapi.yml
   format: yaml
   label: Parallel Monitor API
   slug: parallel-ai-monitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-ai-monitor-api-openapi.yml
+  url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-monitor-api-openapi.yml
 - filename: parallel-ai-responses-api-api-openapi.yml
   format: yaml
   label: Parallel Responses API
   slug: parallel-ai-responses-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-ai-responses-api-api-openapi.yml
+  url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-responses-api-api-openapi.yml
 - filename: parallel-ai-search-api-openapi.yml
   format: yaml
   label: Parallel Search API
   slug: parallel-ai-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-ai-search-api-openapi.yml
+  url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-search-api-openapi.yml
 - filename: parallel-ai-tasks-api-openapi.yml
   format: yaml
   label: Parallel Tasks API
   slug: parallel-ai-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-ai-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-tasks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ source_filename: parallel-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.parallel.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 05:43:57 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.parallel.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 14:11:19 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.parallel.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 19:46:36 2026 GMT\n  hsts: null\ndomains:\n- domain: parallel.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/security/parallel-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/parallel-ai/security/parallel-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

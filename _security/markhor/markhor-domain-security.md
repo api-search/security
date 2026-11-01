@@ -26,7 +26,7 @@ source_filename: markhor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: markhor.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 04:21:01 2026 GMT\n  hsts: null\ndomains:\n- domain: markhor.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/markhor/refs/heads/main/security/markhor-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/markhor/security/markhor-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

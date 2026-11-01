@@ -5,37 +5,37 @@ api_specs:
   label: iconik Assets API
   slug: iconik-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-assets-api-openapi.yml
+  url: https://artifacts.apis.io/iconik/openapi/iconik-assets-api-openapi.yml
 - filename: iconik-collections-api-openapi.yml
   format: yaml
   label: iconik Collections API
   slug: iconik-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-collections-api-openapi.yml
+  url: https://artifacts.apis.io/iconik/openapi/iconik-collections-api-openapi.yml
 - filename: iconik-files-api-openapi.yml
   format: yaml
   label: iconik Files API
   slug: iconik-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-files-api-openapi.yml
+  url: https://artifacts.apis.io/iconik/openapi/iconik-files-api-openapi.yml
 - filename: iconik-jobs-api-openapi.yml
   format: yaml
   label: iconik Jobs API
   slug: iconik-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/iconik/openapi/iconik-jobs-api-openapi.yml
 - filename: iconik-metadata-api-openapi.yml
   format: yaml
   label: iconik Metadata API
   slug: iconik-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/iconik/openapi/iconik-metadata-api-openapi.yml
 - filename: iconik-search-api-openapi.yml
   format: yaml
   label: iconik Search API
   slug: iconik-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-search-api-openapi.yml
+  url: https://artifacts.apis.io/iconik/openapi/iconik-search-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -83,7 +83,7 @@ source_filename: iconik-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.iconik.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 17:36:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.iconik.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 08:52:58 2026 GMT\n  hsts: true\n  hsts_max_age: 15724800\n- host: eu.iconik.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 21:06:51 2026 GMT\n  hsts: true\n  hsts_max_age: 15724800\ndomains:\n- domain: iconik.io\n  dnssec: true\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"'digicert.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/security/iconik-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/iconik/security/iconik-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Media Asset Management

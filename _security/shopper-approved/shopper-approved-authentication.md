@@ -8,25 +8,25 @@ api_specs:
   label: Shopper Approved Orders API
   slug: shopper-approved-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopper-approved/refs/heads/main/openapi/shopper-approved-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shopper-approved/openapi/shopper-approved-orders-api-openapi.yml
 - filename: shopper-approved-product-reviews-api-openapi.yml
   format: yaml
   label: Shopper Approved Product Reviews API
   slug: shopper-approved-product-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopper-approved/refs/heads/main/openapi/shopper-approved-product-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/shopper-approved/openapi/shopper-approved-product-reviews-api-openapi.yml
 - filename: shopper-approved-reviews-api-openapi.yml
   format: yaml
   label: Shopper Approved Reviews API
   slug: shopper-approved-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopper-approved/refs/heads/main/openapi/shopper-approved-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/shopper-approved/openapi/shopper-approved-reviews-api-openapi.yml
 - filename: shopper-approved-statistics-api-openapi.yml
   format: yaml
   label: Shopper Approved Statistics API
   slug: shopper-approved-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopper-approved/refs/heads/main/openapi/shopper-approved-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/shopper-approved/openapi/shopper-approved-statistics-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: shopper-approved-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/shopper-approved-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: SiteIdToken\n  type: apiKey\n  in: query\n  parameter: token\n  description: Shopper Approved API token (used with site_id path parameter)\n  sources:\n  - openapi/shopper-approved-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shopper-approved/refs/heads/main/authentication/shopper-approved-authentication.yml
+source_yaml_url: https://artifacts.apis.io/shopper-approved/authentication/shopper-approved-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Reviews

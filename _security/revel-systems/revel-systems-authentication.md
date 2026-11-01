@@ -8,37 +8,37 @@ api_specs:
   label: Revel Webhooks
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/asyncapi/revel-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/revel-systems/asyncapi/revel-webhooks-asyncapi.yml
 - filename: revel-systems-customers-api-openapi.yml
   format: yaml
   label: Revel Systems Customers API
   slug: revel-systems-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/openapi/revel-systems-customers-api-openapi.yml
+  url: https://artifacts.apis.io/revel-systems/openapi/revel-systems-customers-api-openapi.yml
 - filename: revel-systems-establishments-api-openapi.yml
   format: yaml
   label: Revel Systems Establishments API
   slug: revel-systems-establishments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/openapi/revel-systems-establishments-api-openapi.yml
+  url: https://artifacts.apis.io/revel-systems/openapi/revel-systems-establishments-api-openapi.yml
 - filename: revel-systems-orders-api-openapi.yml
   format: yaml
   label: Revel Systems Orders API
   slug: revel-systems-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/openapi/revel-systems-orders-api-openapi.yml
+  url: https://artifacts.apis.io/revel-systems/openapi/revel-systems-orders-api-openapi.yml
 - filename: revel-systems-products-api-openapi.yml
   format: yaml
   label: Revel Systems Products API
   slug: revel-systems-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/openapi/revel-systems-products-api-openapi.yml
+  url: https://artifacts.apis.io/revel-systems/openapi/revel-systems-products-api-openapi.yml
 - filename: revel-systems-scheduling-api-openapi.yml
   format: yaml
   label: Revel Systems Scheduling API
   slug: revel-systems-scheduling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/openapi/revel-systems-scheduling-api-openapi.yml
+  url: https://artifacts.apis.io/revel-systems/openapi/revel-systems-scheduling-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: revel-systems-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/revel-open-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiAuthentication\n  type: apiKey\n  in: header\n  parameter: API-AUTHENTICATION\n  description: 'API key and secret joined by a colon, e.g. `API-AUTHENTICATION: key:secret`.\n    The key and secret may alternatively be passed as `api_key` and `api_secret` query parameters.'\n  sources:\n  - openapi/revel-open-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/authentication/revel-systems-authentication.yml
+source_yaml_url: https://artifacts.apis.io/revel-systems/authentication/revel-systems-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Point-of-Sale

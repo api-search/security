@@ -47,7 +47,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of the registrant domain labrysbiologics.com\nnote: >-\n  labrysbiologics.com resolves but serves nothing — TCP 80 and 443 are both closed, so no\n  TLS/HSTS posture can be observed. The domain is a defended brand registration held under\n  Teva nameservers (ns3/ns4/ns5.tevapharm.com) following Teva's 2014 acquisition of Labrys\n  Biologics. The mail posture is a deliberate no-mail lockdown: SPF \"v=spf1 -all\" and DMARC\n  p=reject with aggregate reports routed to dmarc.RUA@tevapharm.com.\nhosts:\n- host: labrysbiologics.com\n  https: false\n  http_port_80: closed\n  https_port_443: closed\n  resolves: true\n  a_record: 192.115.248.118\n  hsts: null\n- host: labrysbio.com\n  https: false\n  http_port_80: closed\n  https_port_443: closed\n  resolves: true\n  a_record: 192.115.248.118\n  hsts: null\ndomains:\n- domain: labrysbiologics.com\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: v=spf1 -all\n\
   \  dmarc: true\n  dmarc_policy: reject\n  dmarc_rua: dmarc.RUA@tevapharm.com\n  nameservers:\n  - ns3.tevapharm.com\n  - ns4.tevapharm.com\n  - ns5.tevapharm.com\n  registrar: Nom-iq Ltd. dba COM LAUDE\n  registrant_organization: Labrys Biologics\n  created: '2012-12-09'\n  expires: '2026-12-09'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/labrys-biologics/refs/heads/main/security/labrys-biologics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/labrys-biologics/security/labrys-biologics-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

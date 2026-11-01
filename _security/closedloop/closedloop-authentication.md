@@ -8,67 +8,67 @@ api_specs:
   label: ClosedLoop AI Analytics API
   slug: closedloop-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-analytics-api-openapi.yml
 - filename: closedloop-competitors-api-openapi.yml
   format: yaml
   label: ClosedLoop AI Competitors API
   slug: closedloop-competitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-competitors-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-competitors-api-openapi.yml
 - filename: closedloop-context-api-openapi.yml
   format: yaml
   label: ClosedLoop AI Context API
   slug: closedloop-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-context-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-context-api-openapi.yml
 - filename: closedloop-customers-api-openapi.yml
   format: yaml
   label: ClosedLoop AI Customers API
   slug: closedloop-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-customers-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-customers-api-openapi.yml
 - filename: closedloop-features-api-openapi.yml
   format: yaml
   label: ClosedLoop AI Features API
   slug: closedloop-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-features-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-features-api-openapi.yml
 - filename: closedloop-insights-api-openapi.yml
   format: yaml
   label: ClosedLoop AI Insights API
   slug: closedloop-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-insights-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-insights-api-openapi.yml
 - filename: closedloop-integrations-api-openapi.yml
   format: yaml
   label: ClosedLoop AI Integrations API
   slug: closedloop-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-integrations-api-openapi.yml
 - filename: closedloop-meta-api-openapi.yml
   format: yaml
   label: ClosedLoop AI Meta API
   slug: closedloop-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-meta-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-meta-api-openapi.yml
 - filename: closedloop-products-api-openapi.yml
   format: yaml
   label: ClosedLoop AI Products API
   slug: closedloop-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-products-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-products-api-openapi.yml
 - filename: closedloop-themes-api-openapi.yml
   format: yaml
   label: ClosedLoop AI Themes API
   slug: closedloop-themes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-themes-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-themes-api-openapi.yml
 - filename: closedloop-usage-api-openapi.yml
   format: yaml
   label: ClosedLoop AI Usage API
   slug: closedloop-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-usage-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-usage-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -205,7 +205,7 @@ source_yaml: "generated: '2026-08-30'\nmethod: searched\nsource: https://closedl
   \  - https://closedloop.sh/docs/account/mcp-service-clients\n- name: WebhookSigningSecret\n  type: hmac\n  declared_in_openapi: false\n  surface: inbound webhook ingestion\n  algorithm: HMAC-SHA256 over the unmodified raw request body\n  headers: [x-webhook-signature, x-hub-signature-256, x-signature, typeform-signature]\n  encodings: [hex, base64]\n  prefix_accepted: 'sha256='\n  credential_name: Webhook Key\n  credential_location: Settings → API Keys page (same page, different credential)\n  explicit_negative: >-\n    An x-api-key header does NOT authenticate an inbound webhook. Only the signing secret and the\n    configuration confirmed at provisioning are accepted.\n  rotation: self-service regenerate; no dual-secret overlap window -- previously-signed requests\n    fail immediately\n  sources:\n  - https://closedloop.sh/docs/integrations/webhooks\n  - https://closedloop.sh/docs/account/api-keys\nworkforce_sso:\n  note: >-\n    Not an API credential -- this authenticates HUMANS into\
   \ the app, and is Enterprise-plan gated.\n    Recorded because it is part of the provider's overall authentication posture and because the\n    SCIM surface it drives is a live, probeable API.\n  protocols:\n  - name: OIDC\n    idp: Okta\n    role: relying-party\n    validates: [issuer, audience, signature, state, nonce, email claim]\n    jit_provisioning: supported when enabled\n    callback: https://api.closedloop.sh/api/okta/oidc/callback\n  - name: SAML 2.0\n    idps: [Google Workspace, Microsoft Entra ID]\n    role: service-provider\n    jit_provisioning: supported\n  - name: SCIM 2.0\n    idps: [Okta, Microsoft Entra ID]\n    role: service-provider\n    base_url_template: 'https://api.closedloop.sh/api/scim/v2/{team_id}'\n    scopes: [scim.read, scim.write, entitlements.read]\n    token_model: OAuth 2.0 scoped bearer token\n    resources: [Users, Groups, Roles]\n    password_sync: not accepted -- must be left disabled\n    probe:\n      url: https://api.closedloop.sh/api/scim/v2/test/ServiceProviderConfig\n\
   \      status: 401\n      body: '{\"schemas\":[\"urn:ietf:params:scim:api:messages:2.0:Error\"],\"status\":\"401\",\"detail\":\"Bearer\n        token is required\"}'\n  - name: Global Token Revocation\n    idp: Okta (Universal Logout)\n    endpoint: https://api.closedloop.sh/api/okta/universal-logout\n    not_supported: OIDC Post Logout / browser Single Logout -- the provider says to leave the Post\n      Logout URI blank\nmtls: false\nopenid_connect_provider: false\nopenid_connect_provider_note: >-\n  No host serves /.well-known/openid-configuration -- probed on closedloop.sh, api.closedloop.sh,\n  mcp.closedloop.sh, docs.closedloop.sh, eu.api.closedloop.sh and eu.mcp.closedloop.sh, all 404.\n  ClosedLoop AI consumes OIDC as a relying party; it does not issue it.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/authentication/closedloop-authentication.yml
+source_yaml_url: https://artifacts.apis.io/closedloop/authentication/closedloop-authentication.yml
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - Product Intelligence

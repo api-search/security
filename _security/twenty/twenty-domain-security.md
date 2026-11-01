@@ -5,55 +5,55 @@ api_specs:
   label: Twenty Companies API
   slug: twenty-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-companies-api-openapi.yml
+  url: https://artifacts.apis.io/twenty/openapi/twenty-companies-api-openapi.yml
 - filename: twenty-fields-api-openapi.yml
   format: yaml
   label: Twenty Fields API
   slug: twenty-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-fields-api-openapi.yml
+  url: https://artifacts.apis.io/twenty/openapi/twenty-fields-api-openapi.yml
 - filename: twenty-notes-api-openapi.yml
   format: yaml
   label: Twenty Notes API
   slug: twenty-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-notes-api-openapi.yml
+  url: https://artifacts.apis.io/twenty/openapi/twenty-notes-api-openapi.yml
 - filename: twenty-objects-api-openapi.yml
   format: yaml
   label: Twenty Objects API
   slug: twenty-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-objects-api-openapi.yml
+  url: https://artifacts.apis.io/twenty/openapi/twenty-objects-api-openapi.yml
 - filename: twenty-opportunities-api-openapi.yml
   format: yaml
   label: Twenty Opportunities API
   slug: twenty-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/twenty/openapi/twenty-opportunities-api-openapi.yml
 - filename: twenty-people-api-openapi.yml
   format: yaml
   label: Twenty People API
   slug: twenty-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-people-api-openapi.yml
+  url: https://artifacts.apis.io/twenty/openapi/twenty-people-api-openapi.yml
 - filename: twenty-relations-api-openapi.yml
   format: yaml
   label: Twenty Relations API
   slug: twenty-relations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-relations-api-openapi.yml
+  url: https://artifacts.apis.io/twenty/openapi/twenty-relations-api-openapi.yml
 - filename: twenty-tasks-api-openapi.yml
   format: yaml
   label: Twenty Tasks API
   slug: twenty-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/twenty/openapi/twenty-tasks-api-openapi.yml
 - filename: twenty-open-api-api-openapi.yml
   format: yaml
   label: Twenty Open API
   slug: twenty-open-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-open-api-api-openapi.yml
+  url: https://artifacts.apis.io/twenty/openapi/twenty-open-api-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -94,7 +94,7 @@ source_filename: twenty-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: twenty.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 23:59:45 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.twenty.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 20:32:08 2026 GMT\n  hsts: null\ndomains:\n- domain: twenty.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/security/twenty-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/twenty/security/twenty-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - CRM

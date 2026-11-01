@@ -8,25 +8,25 @@ api_specs:
   label: Pika Labs Cancel API
   slug: pika-labs-cancel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pika-labs/refs/heads/main/openapi/pika-labs-cancel-api-openapi.yml
+  url: https://artifacts.apis.io/pika-labs/openapi/pika-labs-cancel-api-openapi.yml
 - filename: pika-labs-result-api-openapi.yml
   format: yaml
   label: Pika Labs Result API
   slug: pika-labs-result-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pika-labs/refs/heads/main/openapi/pika-labs-result-api-openapi.yml
+  url: https://artifacts.apis.io/pika-labs/openapi/pika-labs-result-api-openapi.yml
 - filename: pika-labs-status-api-openapi.yml
   format: yaml
   label: Pika Labs Status API
   slug: pika-labs-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pika-labs/refs/heads/main/openapi/pika-labs-status-api-openapi.yml
+  url: https://artifacts.apis.io/pika-labs/openapi/pika-labs-status-api-openapi.yml
 - filename: pika-labs-submission-api-openapi.yml
   format: yaml
   label: Pika Labs Submission API
   slug: pika-labs-submission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pika-labs/refs/heads/main/openapi/pika-labs-submission-api-openapi.yml
+  url: https://artifacts.apis.io/pika-labs/openapi/pika-labs-submission-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: pika-labs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pika-labs-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: falKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'fal.ai API key sent as `Authorization: Key $FAL_KEY`.'\n  sources:\n  - openapi/pika-labs-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pika-labs/refs/heads/main/authentication/pika-labs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pika-labs/authentication/pika-labs-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence

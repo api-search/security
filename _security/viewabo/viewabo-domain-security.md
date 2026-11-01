@@ -24,13 +24,13 @@ source_filename: viewabo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: viewabo.com\n  https: false\ndomains:\n- domain: viewabo.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/viewabo/refs/heads/main/security/viewabo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/viewabo/security/viewabo-domain-security.yml
 summary_line: DMARC
 tags:
 - Company
 - Visual Support
 - Customer Service
-- Field Service
+- Field Service Management
 - Remote Assistance
 - Video Support
 - Customer Experience

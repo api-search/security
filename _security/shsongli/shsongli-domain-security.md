@@ -25,7 +25,7 @@ source_filename: shsongli-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: shsongli.com\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has\n    expired (_ssl.c:1082)'\n  hsts: null\ndomains:\n- domain: shsongli.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shsongli/refs/heads/main/security/shsongli-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/shsongli/security/shsongli-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

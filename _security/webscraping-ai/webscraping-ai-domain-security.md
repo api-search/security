@@ -5,31 +5,31 @@ api_specs:
   label: WebScraping.AI Account API
   slug: webscraping-ai-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/openapi/webscraping-ai-account-api-openapi.yml
+  url: https://artifacts.apis.io/webscraping-ai/openapi/webscraping-ai-account-api-openapi.yml
 - filename: webscraping-ai-ai-api-openapi.yml
   format: yaml
   label: WebScraping.AI AI API
   slug: webscraping-ai-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/openapi/webscraping-ai-ai-api-openapi.yml
+  url: https://artifacts.apis.io/webscraping-ai/openapi/webscraping-ai-ai-api-openapi.yml
 - filename: webscraping-ai-html-api-openapi.yml
   format: yaml
   label: WebScraping.AI HTML API
   slug: webscraping-ai-html-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/openapi/webscraping-ai-html-api-openapi.yml
+  url: https://artifacts.apis.io/webscraping-ai/openapi/webscraping-ai-html-api-openapi.yml
 - filename: webscraping-ai-selected-html-api-openapi.yml
   format: yaml
   label: WebScraping.AI Selected HTML API
   slug: webscraping-ai-selected-html-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/openapi/webscraping-ai-selected-html-api-openapi.yml
+  url: https://artifacts.apis.io/webscraping-ai/openapi/webscraping-ai-selected-html-api-openapi.yml
 - filename: webscraping-ai-text-api-openapi.yml
   format: yaml
   label: WebScraping.AI Text API
   slug: webscraping-ai-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/openapi/webscraping-ai-text-api-openapi.yml
+  url: https://artifacts.apis.io/webscraping-ai/openapi/webscraping-ai-text-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: webscraping-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: webscraping.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 03:29:54 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.webscraping.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 03:29:54 2026 GMT\n  hsts: null\ndomains:\n- domain: webscraping.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/security/webscraping-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/webscraping-ai/security/webscraping-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Web Scraping
@@ -78,6 +78,5 @@ tags:
 - HTML
 - LLM Tools
 - Structured Data
-- Headless Browser
 - CAPTCHA
 ---

@@ -30,7 +30,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-17'\nmethod: derived\nsource: graphql/brigad-talent.graphql, graphql/brigad-agent.graphql, graphql/brigad-legacy.graphql\nnote: >-\n  Brigad publishes no auth documentation (no developer program). This profile is\n  derived from observed behaviour of the first-party GraphQL routers. Anonymous\n  __schema introspection is OPEN on all three routers, but data queries and every\n  mutation require an authenticated end-user session established by the Brigad web\n  app (app.hsp.brigad.co) / mobile apps. No OpenAPI securitySchemes exist to run\n  derive-authentication.py against; no OAuth authorization-server / OIDC discovery\n  document is served (see well-known/brigad-well-known.yml). Not a third-party\n  developer credential surface.\nsummary:\n  types: [bearer-session]\n  api_key_in: []\n  oauth2_flows: []\n  introspection: open-anonymous\nschemes:\n- name: BrigadUserSession\n  type: http\n  scheme: bearer\n  description: >-\n    End-user session/bearer token\
   \ minted by the Brigad app login flow, sent to\n    the GraphQL routers. No public client-credentials or API-key path is\n    documented or offered to third parties.\n  sources:\n  - graphql/brigad-talent.graphql\n  - graphql/brigad-agent.graphql\n  - graphql/brigad-legacy.graphql\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brigad/refs/heads/main/authentication/brigad-authentication.yml
+source_yaml_url: https://artifacts.apis.io/brigad/authentication/brigad-authentication.yml
 summary_line: bearer-session · 1 scheme
 tags:
 - Company

@@ -5,37 +5,37 @@ api_specs:
   label: Orbital Caches API
   slug: orbital-caches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbital/refs/heads/main/openapi/orbital-caches-api-openapi.yml
+  url: https://artifacts.apis.io/orbital/openapi/orbital-caches-api-openapi.yml
 - filename: orbital-connections-api-openapi.yml
   format: yaml
   label: Orbital Connections API
   slug: orbital-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbital/refs/heads/main/openapi/orbital-connections-api-openapi.yml
+  url: https://artifacts.apis.io/orbital/openapi/orbital-connections-api-openapi.yml
 - filename: orbital-schemas-api-openapi.yml
   format: yaml
   label: Orbital Schemas API
   slug: orbital-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbital/refs/heads/main/openapi/orbital-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/orbital/openapi/orbital-schemas-api-openapi.yml
 - filename: orbital-services-api-openapi.yml
   format: yaml
   label: Orbital Services API
   slug: orbital-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbital/refs/heads/main/openapi/orbital-services-api-openapi.yml
+  url: https://artifacts.apis.io/orbital/openapi/orbital-services-api-openapi.yml
 - filename: orbital-taxiql-api-openapi.yml
   format: yaml
   label: Orbital Taxiql API
   slug: orbital-taxiql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbital/refs/heads/main/openapi/orbital-taxiql-api-openapi.yml
+  url: https://artifacts.apis.io/orbital/openapi/orbital-taxiql-api-openapi.yml
 - filename: orbital-types-api-openapi.yml
   format: yaml
   label: Orbital Types API
   slug: orbital-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbital/refs/heads/main/openapi/orbital-types-api-openapi.yml
+  url: https://artifacts.apis.io/orbital/openapi/orbital-types-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: orbital-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: orbitalhq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 02:53:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: orbitalhq.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orbital/refs/heads/main/security/orbital-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/orbital/security/orbital-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data

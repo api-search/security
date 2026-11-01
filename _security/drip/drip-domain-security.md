@@ -5,61 +5,61 @@ api_specs:
   label: Drip Accounts API
   slug: drip-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/drip/openapi/drip-accounts-api-openapi.yml
 - filename: drip-broadcasts-api-openapi.yml
   format: yaml
   label: Drip Broadcasts API
   slug: drip-broadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-broadcasts-api-openapi.yml
+  url: https://artifacts.apis.io/drip/openapi/drip-broadcasts-api-openapi.yml
 - filename: drip-campaigns-api-openapi.yml
   format: yaml
   label: Drip Campaigns API
   slug: drip-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/drip/openapi/drip-campaigns-api-openapi.yml
 - filename: drip-conversions-api-openapi.yml
   format: yaml
   label: Drip Conversions API
   slug: drip-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/drip/openapi/drip-conversions-api-openapi.yml
 - filename: drip-custom-fields-api-openapi.yml
   format: yaml
   label: Drip Custom Fields API
   slug: drip-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/drip/openapi/drip-custom-fields-api-openapi.yml
 - filename: drip-events-api-openapi.yml
   format: yaml
   label: Drip Events API
   slug: drip-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-events-api-openapi.yml
+  url: https://artifacts.apis.io/drip/openapi/drip-events-api-openapi.yml
 - filename: drip-forms-api-openapi.yml
   format: yaml
   label: Drip Forms API
   slug: drip-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-forms-api-openapi.yml
+  url: https://artifacts.apis.io/drip/openapi/drip-forms-api-openapi.yml
 - filename: drip-orders-api-openapi.yml
   format: yaml
   label: Drip Orders API
   slug: drip-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-orders-api-openapi.yml
+  url: https://artifacts.apis.io/drip/openapi/drip-orders-api-openapi.yml
 - filename: drip-shopper-activity-api-openapi.yml
   format: yaml
   label: Drip Shopper Activity API
   slug: drip-shopper-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-shopper-activity-api-openapi.yml
+  url: https://artifacts.apis.io/drip/openapi/drip-shopper-activity-api-openapi.yml
 - filename: drip-subscribers-api-openapi.yml
   format: yaml
   label: Drip Subscribers API
   slug: drip-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/drip/openapi/drip-subscribers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -104,7 +104,7 @@ source_filename: drip-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.drip.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 22:06:49 2026 GMT\n  hsts: null\n- host: developer.drip.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 07:13:18 2026 GMT\n  hsts: false\n- host: api.getdrip.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: drip.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: getdrip.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/security/drip-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/drip/security/drip-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Email Marketing

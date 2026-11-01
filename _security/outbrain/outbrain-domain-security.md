@@ -5,133 +5,133 @@ api_specs:
   label: Outbrain Authentication API
   slug: outbrain-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/outbrain/openapi/outbrain-authentication-api-openapi.yml
 - filename: outbrain-budgets-api-openapi.yml
   format: yaml
   label: Outbrain Budgets API
   slug: outbrain-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-budgets-api-openapi.yml
+  url: https://artifacts.apis.io/outbrain/openapi/outbrain-budgets-api-openapi.yml
 - filename: outbrain-campaigns-api-openapi.yml
   format: yaml
   label: Outbrain Campaigns API
   slug: outbrain-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/outbrain/openapi/outbrain-campaigns-api-openapi.yml
 - filename: outbrain-conversions-api-openapi.yml
   format: yaml
   label: Outbrain Conversions API
   slug: outbrain-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/outbrain/openapi/outbrain-conversions-api-openapi.yml
 - filename: outbrain-events-api-openapi.yml
   format: yaml
   label: Outbrain Events API
   slug: outbrain-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-events-api-openapi.yml
+  url: https://artifacts.apis.io/outbrain/openapi/outbrain-events-api-openapi.yml
 - filename: outbrain-marketers-api-openapi.yml
   format: yaml
   label: Outbrain Marketers API
   slug: outbrain-marketers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-marketers-api-openapi.yml
+  url: https://artifacts.apis.io/outbrain/openapi/outbrain-marketers-api-openapi.yml
 - filename: outbrain-promotedlinks-api-openapi.yml
   format: yaml
   label: Outbrain PromotedLinks API
   slug: outbrain-promotedlinks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-promotedlinks-api-openapi.yml
+  url: https://artifacts.apis.io/outbrain/openapi/outbrain-promotedlinks-api-openapi.yml
 - filename: outbrain-recommendations-api-openapi.yml
   format: yaml
   label: Outbrain Recommendations API
   slug: outbrain-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/outbrain/openapi/outbrain-recommendations-api-openapi.yml
 - filename: outbrain-reporting-api-openapi.yml
   format: yaml
   label: Outbrain Reporting API
   slug: outbrain-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/outbrain/openapi/outbrain-reporting-api-openapi.yml
 - filename: outbrain-targeting-api-openapi.yml
   format: yaml
   label: Outbrain Targeting API
   slug: outbrain-targeting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-targeting-api-openapi.yml
+  url: https://artifacts.apis.io/outbrain/openapi/outbrain-targeting-api-openapi.yml
 - filename: outbrain-authentications-api-openapi.yml
   format: yaml
   label: Outbrain Authentications API
   slug: outbrain-authentications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-authentications-api-openapi.yml
+  url: https://artifacts.apis.io/outbrain/openapi/outbrain-authentications-api-openapi.yml
 - filename: outbrain-currencies-api-openapi.yml
   format: yaml
   label: Outbrain Currencies API
   slug: outbrain-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-currencies-api-openapi.yml
+  url: https://artifacts.apis.io/outbrain/openapi/outbrain-currencies-api-openapi.yml
 - filename: outbrain-geo-locations-api-openapi.yml
   format: yaml
   label: Outbrain Geo Locations API
   slug: outbrain-geo-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-geo-locations-api-openapi.yml
+  url: https://artifacts.apis.io/outbrain/openapi/outbrain-geo-locations-api-openapi.yml
 - filename: outbrain-iab-category-targeting-api-openapi.yml
   format: yaml
   label: Outbrain IAB category Targeting API
   slug: outbrain-iab-category-targeting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-iab-category-targeting-api-openapi.yml
+  url: https://artifacts.apis.io/outbrain/openapi/outbrain-iab-category-targeting-api-openapi.yml
 - filename: outbrain-interest-targeting-api-openapi.yml
   format: yaml
   label: Outbrain Interest Targeting API
   slug: outbrain-interest-targeting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-interest-targeting-api-openapi.yml
+  url: https://artifacts.apis.io/outbrain/openapi/outbrain-interest-targeting-api-openapi.yml
 - filename: outbrain-multiple-conversions-api-openapi.yml
   format: yaml
   label: Outbrain Multiple Conversions API
   slug: outbrain-multiple-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-multiple-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/outbrain/openapi/outbrain-multiple-conversions-api-openapi.yml
 - filename: outbrain-performance-reporting-api-openapi.yml
   format: yaml
   label: Outbrain Performance Reporting API
   slug: outbrain-performance-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-performance-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/outbrain/openapi/outbrain-performance-reporting-api-openapi.yml
 - filename: outbrain-promotedlinkssequences-api-openapi.yml
   format: yaml
   label: Outbrain Promoted Links Sequences API
   slug: outbrain-promotedlinkssequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-promotedlinkssequences-api-openapi.yml
+  url: https://artifacts.apis.io/outbrain/openapi/outbrain-promotedlinkssequences-api-openapi.yml
 - filename: outbrain-sections-api-openapi.yml
   format: yaml
   label: Outbrain Sections API
   slug: outbrain-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-sections-api-openapi.yml
+  url: https://artifacts.apis.io/outbrain/openapi/outbrain-sections-api-openapi.yml
 - filename: outbrain-segments-api-openapi.yml
   format: yaml
   label: Outbrain Segments API
   slug: outbrain-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-segments-api-openapi.yml
+  url: https://artifacts.apis.io/outbrain/openapi/outbrain-segments-api-openapi.yml
 - filename: outbrain-users-api-openapi.yml
   format: yaml
   label: Outbrain Users API
   slug: outbrain-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-users-api-openapi.yml
+  url: https://artifacts.apis.io/outbrain/openapi/outbrain-users-api-openapi.yml
 - filename: outbrain-metadata-api-openapi.yml
   format: yaml
   label: Outbrain Metadata API
   slug: outbrain-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/outbrain/openapi/outbrain-metadata-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -190,7 +190,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.outbrain.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 86400\n- host: www.teads.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 15:28:08 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: developer.outbrain.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 16:25:26 2026 GMT\n  hsts: false\ndomains:\n- domain: outbrain.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 iodef \"email:caa@teads.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: teads.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"certainly.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog\"\
   \n  - 0 iodef \"mailto:caa@teads.com\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/security/outbrain-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/outbrain/security/outbrain-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Advertising

@@ -5,13 +5,13 @@ api_specs:
   label: char.gy Locations API
   slug: chargy-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/openapi/chargy-locations-api-openapi.yml
+  url: https://artifacts.apis.io/chargy/openapi/chargy-locations-api-openapi.yml
 - filename: chargy-tariffs-api-openapi.yml
   format: yaml
   label: char.gy Tariffs API
   slug: chargy-tariffs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/openapi/chargy-tariffs-api-openapi.yml
+  url: https://artifacts.apis.io/chargy/openapi/chargy-tariffs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: chargy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: char.gy\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  6 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: help.char.gy\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 20:09:39 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: char.gy\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/security/chargy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/chargy/security/chargy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Energy

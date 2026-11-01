@@ -42,7 +42,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cubbystorage.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 20:21:26 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.cubbystorage.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 10:05:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  hsts_note: >-\n    Recorded as null by the automated probe because the API host root returns a JSON 404; a\n    direct HEAD confirms 'strict-transport-security: max-age=31536000 ; includeSubDomains' is\n    served on every response from this host, including the 404 and the /mcp 401. Corrected\n    by hand from the observed header on 2026-08-11.\n  other_headers_observed:\n  - x-content-type-options: nosniff\n  - x-frame-options: DENY\n  - x-xss-protection: '0'\n  - 'cache-control: no-cache, no-store, max-age=0, must-revalidate'\ndomains:\n\
   - domain: cubbystorage.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cubby/refs/heads/main/security/cubby-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cubby/security/cubby-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

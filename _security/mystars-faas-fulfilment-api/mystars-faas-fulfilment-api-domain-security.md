@@ -5,25 +5,25 @@ api_specs:
   label: MyStars FaaS — Fulfilment API MyStars FaaS — Fulfilment API
   slug: mystars-faas-fulfilment-api-mystars-faas-fulfilment-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mystars-faas-fulfilment-api/refs/heads/main/openapi/mystars-faas-fulfilment-api-mystars-faas-fulfilment-api-api-openapi.yml
+  url: https://artifacts.apis.io/mystars-faas-fulfilment-api/openapi/mystars-faas-fulfilment-api-mystars-faas-fulfilment-api-api-openapi.yml
 - filename: mystars-faas-fulfilment-api-orders-api-openapi.yml
   format: yaml
   label: MyStars FaaS — Fulfilment API Orders API
   slug: mystars-faas-fulfilment-api-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mystars-faas-fulfilment-api/refs/heads/main/openapi/mystars-faas-fulfilment-api-orders-api-openapi.yml
+  url: https://artifacts.apis.io/mystars-faas-fulfilment-api/openapi/mystars-faas-fulfilment-api-orders-api-openapi.yml
 - filename: mystars-faas-fulfilment-api-pricing-api-openapi.yml
   format: yaml
   label: MyStars FaaS — Fulfilment API Pricing API
   slug: mystars-faas-fulfilment-api-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mystars-faas-fulfilment-api/refs/heads/main/openapi/mystars-faas-fulfilment-api-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/mystars-faas-fulfilment-api/openapi/mystars-faas-fulfilment-api-pricing-api-openapi.yml
 - filename: mystars-faas-fulfilment-api-recipients-api-openapi.yml
   format: yaml
   label: MyStars FaaS — Fulfilment API Recipients API
   slug: mystars-faas-fulfilment-api-recipients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mystars-faas-fulfilment-api/refs/heads/main/openapi/mystars-faas-fulfilment-api-recipients-api-openapi.yml
+  url: https://artifacts.apis.io/mystars-faas-fulfilment-api/openapi/mystars-faas-fulfilment-api-recipients-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: mystars-faas-fulfilment-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mystars.tg\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 03:25:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.mystars.tg\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 03:25:59 2026 GMT\n  hsts: null\ndomains:\n- domain: mystars.tg\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mystars-faas-fulfilment-api/refs/heads/main/security/mystars-faas-fulfilment-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mystars-faas-fulfilment-api/security/mystars-faas-fulfilment-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Telegram

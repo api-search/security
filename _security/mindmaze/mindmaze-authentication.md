@@ -7,7 +7,7 @@ api_specs:
   label: MindMaze Website (WordPress REST)
   slug: mindmazetherapeutics-com-website-wordpress-rest
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/openapi/mindmaze-content-wp-routes-original.json
+  url: https://artifacts.apis.io/mindmaze/openapi/mindmaze-content-wp-routes-original.json
 auth_types:
 - none
 - http
@@ -46,7 +46,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-01'\nmethod: derived\nsource: openapi/mindmaze-content-openapi.yml + the live API index at https://mindmazetherapeutics.com/wp-json/\nnote: >-\n  derive-authentication.py produced no profile for this provider because the captured OpenAPI\n  declares no securitySchemes - correctly, since every captured operation is anonymous. This\n  file is written by hand from the same evidence so the auth model is recorded rather than\n  silently absent.\nsummary:\n  types: [none, http]\n  api_key_in: []\n  oauth2_flows: []\n  public_read: true\n  developer_credential_available: false\nschemes:\n- name: anonymous\n  type: none\n  applies_to: every operation in openapi/mindmaze-content-openapi.yml\n  detail: >-\n    All 17 captured operations return HTTP 200 with no credential. Verified live on 2026-08-01\n    against https://mindmazetherapeutics.com/wp-json.\n  sources: [openapi/mindmaze-content-openapi.yml]\n- name: application-passwords\n  type: http\n  scheme: basic\n\
   \  applies_to: write and administrative routes, excluded from the captured OpenAPI\n  authorization_endpoint: https://mindmazetherapeutics.com/wp-admin/authorize-application.php\n  detail: >-\n    The API index advertises WordPress Application Passwords as the only authentication method\n    on the host. Credentials are issued from wp-admin to existing WordPress users - there is no\n    self-serve sign-up, no developer account and no API key programme. Routes behind it\n    (settings, themes, plugins, menus, block-types, widgets, all write methods) return\n    {\"code\":\"rest_forbidden\",\"data\":{\"status\":401}} anonymously.\n  sources: [https://mindmazetherapeutics.com/wp-json/]\n  self_serve: false\noauth:\n  present: false\n  detail: >-\n    No OAuth 2.0 or OpenID Connect surface. /.well-known/oauth-authorization-server,\n    /.well-known/oauth-protected-resource and /.well-known/openid-configuration all return 404\n    on every MindMaze host. No scopes/ artifact is written - there\
   \ is no scope surface to record.\ndocs: null\ndocs_note: >-\n  MindMaze publishes no authentication documentation, because it publishes no developer\n  programme. Everything above is observed behaviour, not a documented contract, and MindMaze\n  makes no commitment to keep it stable.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/authentication/mindmaze-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mindmaze/authentication/mindmaze-authentication.yml
 summary_line: none/http · 2 schemes
 tags:
 - Company

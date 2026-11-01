@@ -5,49 +5,49 @@ api_specs:
   label: Rezdy Availability API
   slug: rezdy-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rezdy/refs/heads/main/openapi/rezdy-availability-api-openapi.yml
+  url: https://artifacts.apis.io/rezdy/openapi/rezdy-availability-api-openapi.yml
 - filename: rezdy-bookings-api-openapi.yml
   format: yaml
   label: Rezdy Bookings API
   slug: rezdy-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rezdy/refs/heads/main/openapi/rezdy-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/rezdy/openapi/rezdy-bookings-api-openapi.yml
 - filename: rezdy-categories-api-openapi.yml
   format: yaml
   label: Rezdy Categories API
   slug: rezdy-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rezdy/refs/heads/main/openapi/rezdy-categories-api-openapi.yml
+  url: https://artifacts.apis.io/rezdy/openapi/rezdy-categories-api-openapi.yml
 - filename: rezdy-companies-api-openapi.yml
   format: yaml
   label: Rezdy Companies API
   slug: rezdy-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rezdy/refs/heads/main/openapi/rezdy-companies-api-openapi.yml
+  url: https://artifacts.apis.io/rezdy/openapi/rezdy-companies-api-openapi.yml
 - filename: rezdy-manifest-api-openapi.yml
   format: yaml
   label: Rezdy Manifest API
   slug: rezdy-manifest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rezdy/refs/heads/main/openapi/rezdy-manifest-api-openapi.yml
+  url: https://artifacts.apis.io/rezdy/openapi/rezdy-manifest-api-openapi.yml
 - filename: rezdy-products-api-openapi.yml
   format: yaml
   label: Rezdy Products API
   slug: rezdy-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rezdy/refs/heads/main/openapi/rezdy-products-api-openapi.yml
+  url: https://artifacts.apis.io/rezdy/openapi/rezdy-products-api-openapi.yml
 - filename: rezdy-resources-api-openapi.yml
   format: yaml
   label: Rezdy Resources API
   slug: rezdy-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rezdy/refs/heads/main/openapi/rezdy-resources-api-openapi.yml
+  url: https://artifacts.apis.io/rezdy/openapi/rezdy-resources-api-openapi.yml
 - filename: rezdy-vouchers-api-openapi.yml
   format: yaml
   label: Rezdy Vouchers API
   slug: rezdy-vouchers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rezdy/refs/heads/main/openapi/rezdy-vouchers-api-openapi.yml
+  url: https://artifacts.apis.io/rezdy/openapi/rezdy-vouchers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: rezdy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: rezdy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 26 23:43:33 2026 GMT\n  hsts: false\ndomains:\n- domain: rezdy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rezdy/refs/heads/main/security/rezdy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rezdy/security/rezdy-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

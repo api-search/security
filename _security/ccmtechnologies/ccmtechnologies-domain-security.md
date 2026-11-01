@@ -27,7 +27,7 @@ source_filename: ccmtechnologies-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ccmtechnologies.co.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 19 04:15:53 2026 GMT\n  hsts: false\ndomains:\n- domain: ccmtechnologies.co.uk\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ccmtechnologies/refs/heads/main/security/ccmtechnologies-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ccmtechnologies/security/ccmtechnologies-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

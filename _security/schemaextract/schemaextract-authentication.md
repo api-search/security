@@ -7,13 +7,13 @@ api_specs:
   label: SchemaExtract Extract API
   slug: schemaextract-extract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schemaextract/refs/heads/main/openapi/schemaextract-extract-api-openapi.yml
+  url: https://artifacts.apis.io/schemaextract/openapi/schemaextract-extract-api-openapi.yml
 - filename: schemaextract-health-api-openapi.yml
   format: yaml
   label: SchemaExtract Health API
   slug: schemaextract-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schemaextract/refs/heads/main/openapi/schemaextract-health-api-openapi.yml
+  url: https://artifacts.apis.io/schemaextract/openapi/schemaextract-health-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: schemaextract-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-20'\nmethod: derived\nsource: openapi/schemaextract-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: sk_live_\n  sources:\n  - openapi/schemaextract-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/schemaextract/refs/heads/main/authentication/schemaextract-authentication.yml
+source_yaml_url: https://artifacts.apis.io/schemaextract/authentication/schemaextract-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Document AI

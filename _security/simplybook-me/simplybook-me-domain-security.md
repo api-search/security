@@ -1,11 +1,17 @@
 ---
 api_specs:
+- filename: simplybook-me-openapi-generated.yml
+  format: yaml
+  label: SimplyBook.me API
+  slug: simplybook-me-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/simplybook-me/openapi/_ae-authored/simplybook-me-openapi-generated.yml
 - filename: simplybook-me-admin-api-openapi.yml
   format: yaml
   label: SimplyBook.me Admin API
   slug: simplybook-me-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplybook-me/refs/heads/main/openapi/simplybook-me-admin-api-openapi.yml
+  url: https://artifacts.apis.io/simplybook-me/openapi/simplybook-me-admin-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -35,7 +41,7 @@ source_filename: simplybook-me-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: simplybook.me\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 18 10:40:40 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: simplybook.me\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simplybook-me/refs/heads/main/security/simplybook-me-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/simplybook-me/security/simplybook-me-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Scheduling

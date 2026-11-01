@@ -8,7 +8,7 @@ api_specs:
   label: Collectors PSA Public API Methods API
   slug: collectors-psa-public-api-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/collectors/refs/heads/main/openapi/collectors-psa-public-api-methods-api-openapi.yml
+  url: https://artifacts.apis.io/collectors/openapi/collectors-psa-public-api-methods-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -35,7 +35,7 @@ source_filename: collectors-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/collectors-psa-openapi-original.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: Bearer\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/collectors-psa-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/collectors/refs/heads/main/authentication/collectors-authentication.yml
+source_yaml_url: https://artifacts.apis.io/collectors/authentication/collectors-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

@@ -5,7 +5,7 @@ api_specs:
   label: Proof of Play Public API
   slug: proof-of-play-public-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/proof-of-play/refs/heads/main/openapi/proof-of-play-public-api-api-openapi.yml
+  url: https://artifacts.apis.io/proof-of-play/openapi/proof-of-play-public-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -34,7 +34,7 @@ source_filename: proof-of-play-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: staging.vrf.proofofplay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 04:00:19 2026 GMT\n  hsts: null\ndomains:\n- domain: proofofplay.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/proof-of-play/refs/heads/main/security/proof-of-play-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/proof-of-play/security/proof-of-play-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

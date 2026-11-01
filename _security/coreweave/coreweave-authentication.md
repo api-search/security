@@ -7,7 +7,7 @@ api_specs:
   label: CoreWeave Clusters API
   slug: coreweave-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coreweave/refs/heads/main/openapi/coreweave-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/coreweave/openapi/coreweave-clusters-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -37,7 +37,7 @@ source_filename: coreweave-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/coreweave-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: API Access Token\n  description: |-\n    Provide a CoreWeave API access token using the `Authorization: Bearer\n    {API_ACCESS_TOKEN}` header.\n  sources:\n  - openapi/coreweave-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coreweave/refs/heads/main/authentication/coreweave-authentication.yml
+source_yaml_url: https://artifacts.apis.io/coreweave/authentication/coreweave-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

@@ -5,31 +5,31 @@ api_specs:
   label: SoundCloud Playlists API
   slug: soundcloud-playlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcloud/refs/heads/main/openapi/soundcloud-playlists-api-openapi.yml
+  url: https://artifacts.apis.io/soundcloud/openapi/soundcloud-playlists-api-openapi.yml
 - filename: soundcloud-search-api-openapi.yml
   format: yaml
   label: SoundCloud Search API
   slug: soundcloud-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcloud/refs/heads/main/openapi/soundcloud-search-api-openapi.yml
+  url: https://artifacts.apis.io/soundcloud/openapi/soundcloud-search-api-openapi.yml
 - filename: soundcloud-social-api-openapi.yml
   format: yaml
   label: SoundCloud Social API
   slug: soundcloud-social-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcloud/refs/heads/main/openapi/soundcloud-social-api-openapi.yml
+  url: https://artifacts.apis.io/soundcloud/openapi/soundcloud-social-api-openapi.yml
 - filename: soundcloud-tracks-api-openapi.yml
   format: yaml
   label: SoundCloud Tracks API
   slug: soundcloud-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcloud/refs/heads/main/openapi/soundcloud-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/soundcloud/openapi/soundcloud-tracks-api-openapi.yml
 - filename: soundcloud-users-api-openapi.yml
   format: yaml
   label: SoundCloud Users API
   slug: soundcloud-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcloud/refs/heads/main/openapi/soundcloud-users-api-openapi.yml
+  url: https://artifacts.apis.io/soundcloud/openapi/soundcloud-users-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -76,7 +76,7 @@ source_filename: soundcloud-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: soundcloud.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 18 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developers.soundcloud.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 18 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.soundcloud.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 18 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: soundcloud.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/soundcloud/refs/heads/main/security/soundcloud-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/soundcloud/security/soundcloud-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Music

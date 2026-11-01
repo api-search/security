@@ -8,37 +8,37 @@ api_specs:
   label: Hilos Contact API
   slug: hilos-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/openapi/hilos-contact-api-openapi.yml
+  url: https://artifacts.apis.io/hilos/openapi/hilos-contact-api-openapi.yml
 - filename: hilos-conversation-api-openapi.yml
   format: yaml
   label: Hilos Conversation API
   slug: hilos-conversation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/openapi/hilos-conversation-api-openapi.yml
+  url: https://artifacts.apis.io/hilos/openapi/hilos-conversation-api-openapi.yml
 - filename: hilos-flow-execution-api-openapi.yml
   format: yaml
   label: Hilos Flow Execution API
   slug: hilos-flow-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/openapi/hilos-flow-execution-api-openapi.yml
+  url: https://artifacts.apis.io/hilos/openapi/hilos-flow-execution-api-openapi.yml
 - filename: hilos-flow-execution-contact-api-openapi.yml
   format: yaml
   label: Hilos Flow Execution Contact API
   slug: hilos-flow-execution-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/openapi/hilos-flow-execution-contact-api-openapi.yml
+  url: https://artifacts.apis.io/hilos/openapi/hilos-flow-execution-contact-api-openapi.yml
 - filename: hilos-user-api-openapi.yml
   format: yaml
   label: Hilos User API
   slug: hilos-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/openapi/hilos-user-api-openapi.yml
+  url: https://artifacts.apis.io/hilos/openapi/hilos-user-api-openapi.yml
 - filename: hilos-whats-app-api-openapi.yml
   format: yaml
   label: Hilos Whats App API
   slug: hilos-whats-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/openapi/hilos-whats-app-api-openapi.yml
+  url: https://artifacts.apis.io/hilos/openapi/hilos-whats-app-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: hilos-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/hilos-openapi-original.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: tokenAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Token-based authentication with required prefix \"Token\"\n  sources:\n  - openapi/hilos-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/authentication/hilos-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hilos/authentication/hilos-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

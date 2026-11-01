@@ -7,7 +7,7 @@ api_specs:
   label: Ionetix Website (WordPress REST)
   slug: ionetix-com-website-wordpress-rest
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionetix/refs/heads/main/openapi/ionetix-wp-json-route-index.json
+  url: https://artifacts.apis.io/ionetix/openapi/ionetix-wp-json-route-index.json
 auth_types:
 - http
 description: ''
@@ -43,7 +43,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-23'\nmethod: derived\nsource: openapi/ionetix-comments-api-openapi.yml, openapi/ionetix-discovery-api-openapi.yml,\n  openapi/ionetix-media-api-openapi.yml, openapi/ionetix-oembed-api-openapi.yml, openapi/ionetix-pages-api-openapi.yml,\n  openapi/ionetix-posts-api-openapi.yml, openapi/ionetix-search-api-openapi.yml, openapi/ionetix-taxonomy-api-openapi.yml,\n  openapi/ionetix-users-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: applicationPassword\n  type: http\n  scheme: basic\n  description: WordPress Application Passwords over HTTP Basic. The route index at https://ionetix.com/wp-json/\n    advertises the authorization endpoint https://ionetix.com/wp-admin/authorize-application.php.\n    Read operations on this namespace are anonymous; write operations are not.\n  sources:\n  - openapi/ionetix-comments-api-openapi.yml\n  - openapi/ionetix-discovery-api-openapi.yml\n  - openapi/ionetix-media-api-openapi.yml\n  - openapi/ionetix-oembed-api-openapi.yml\n\
   \  - openapi/ionetix-pages-api-openapi.yml\n  - openapi/ionetix-posts-api-openapi.yml\n  - openapi/ionetix-search-api-openapi.yml\n  - openapi/ionetix-taxonomy-api-openapi.yml\n  - openapi/ionetix-users-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ionetix/refs/heads/main/authentication/ionetix-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ionetix/authentication/ionetix-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

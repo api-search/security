@@ -7,13 +7,13 @@ api_specs:
   label: Globant Catalog API
   slug: globant-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/globant/refs/heads/main/openapi/globant-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/globant/openapi/globant-catalog-api-openapi.yml
 - filename: globant-health-api-openapi.yml
   format: yaml
   label: Globant Health API
   slug: globant-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/globant/refs/heads/main/openapi/globant-health-api-openapi.yml
+  url: https://artifacts.apis.io/globant/openapi/globant-health-api-openapi.yml
 auth_types: []
 description: 'Globant runs three authentication models across three separate surfaces, and one of them is unusually well documented for agents: glob.ai publishes an auth.md that states in plain language what exists, what is gated, and — explicitly, so agents stop probing — what does NOT exist.'
 kind: authentication
@@ -38,7 +38,7 @@ source_yaml: "generated: '2026-09-14'\nmethod: searched\nsource: https://glob.ai
   \     mechanism: 'HTTP Bearer token; a per-project API token'\n      - type: http\n        scheme: bearer\n        variable: GEAI_ORGANIZATION_APITOKEN\n        scope: organization\n        mechanism: 'HTTP Bearer token; required for organization-level endpoints (admin/organizations, usageLimits/organizations/*)'\n      - type: oauth2\n        variable: OAuth_accesstoken\n        mechanism: 'Temporary OAuth access tokens offered for enhanced security'\n        note: >-\n          The docs reference OAuth access tokens but publish no authorization/token endpoint, no scope\n          reference and no discovery document. No scopes/ artifact was written for this reason — see\n          notes.\n    token_management:\n      docs: https://docs.globant.ai/en/wiki?564,API+Tokens\n      operations:\n        - 'POST /projects/tokens'\n        - 'GET /organization/project/{id}/tokens'\n        - 'GET /projects/tokens/{ApiTokenId}'\n        - 'PUT /projects/tokens/{ApiTokenId}'\n        - 'DELETE /projects/tokens/{ApiTokenId}'\n\
   \        - 'GET /accessControl/apitoken/validate'\n    related_errors:\n      - {code: 5, message: Api Key Not Found}\n      - {code: 6, message: ApiToken not found or blocked}\n      - {code: 7, message: ApiToken out of scope}\n      - {code: 101, message: Refresh token error}\n      - {code: 102, message: Token revoked, login again}\n      - {code: 103, message: Token expired, login again}\n      - {code: 112, message: Access token not found, login again}\n      - {code: 114, message: Access token not valid, login again}\n      - {code: 122, message: Session token error, login again}\n  - surface: Legacy Globant gateway\n    host: api.globant.com\n    docs: null\n    schemes:\n      - type: unknown\n        mechanism: 'Unknown. Every path, including / and /.well-known/*, returns HTTP 401 {\"status\":\"Error\",\"description\":\" Authentication Error\"}.'\n    note: >-\n      No public documentation for this host was found anywhere. It is a live, wholly gated gateway with\n      no discoverable\
   \ contract.\nnotes:\n  - >-\n    No scopes/globant-scopes.yml was written. glob.ai/auth.md states the origin is not an OAuth issuer,\n    the GEAI docs name OAuth access tokens without publishing a scope reference, and no OpenAPI with\n    oauth2 securitySchemes exists to derive a baseline from. An invented scope list would be fabrication.\n  - >-\n    RBAC inside Globant Enterprise AI is documented separately at\n    https://docs.globant.ai/en/wiki?242,Managing+Roles+and+Permissions+in+Glob.AI+OS and is a\n    platform-internal permission model, not an API scope surface.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/globant/refs/heads/main/authentication/globant-authentication.yml
+source_yaml_url: https://artifacts.apis.io/globant/authentication/globant-authentication.yml
 summary_line: 0 schemes
 tags:
 - Software

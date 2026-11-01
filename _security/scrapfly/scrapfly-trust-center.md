@@ -5,13 +5,13 @@ api_specs:
   label: Scrapfly Scraping API
   slug: scrapfly-scraping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapfly/refs/heads/main/openapi/scrapfly-scraping-api-openapi.yml
+  url: https://artifacts.apis.io/scrapfly/openapi/scrapfly-scraping-api-openapi.yml
 - filename: scrapfly-screenshots-api-openapi.yml
   format: yaml
   label: Scrapfly Screenshots API
   slug: scrapfly-screenshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapfly/refs/heads/main/openapi/scrapfly-screenshots-api-openapi.yml
+  url: https://artifacts.apis.io/scrapfly/openapi/scrapfly-screenshots-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -31,7 +31,7 @@ source_filename: scrapfly-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.inc/org_695c03cda42fc2450f034183\nurl: https://trust.inc/org_695c03cda42fc2450f034183\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\n- GDPR\nevidence:\n- source: https://trust.inc/org_695c03cda42fc2450f034183\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - hipaa\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scrapfly/refs/heads/main/security/scrapfly-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/scrapfly/security/scrapfly-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Artificial Intelligence

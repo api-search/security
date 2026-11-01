@@ -5,25 +5,25 @@ api_specs:
   label: Docparser Documents API
   slug: docparser-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docparser/refs/heads/main/openapi/docparser-documents-api-openapi.yml
+  url: https://artifacts.apis.io/docparser/openapi/docparser-documents-api-openapi.yml
 - filename: docparser-parsers-api-openapi.yml
   format: yaml
   label: Docparser Parsers API
   slug: docparser-parsers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docparser/refs/heads/main/openapi/docparser-parsers-api-openapi.yml
+  url: https://artifacts.apis.io/docparser/openapi/docparser-parsers-api-openapi.yml
 - filename: docparser-ping-api-openapi.yml
   format: yaml
   label: Docparser Ping API
   slug: docparser-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docparser/refs/heads/main/openapi/docparser-ping-api-openapi.yml
+  url: https://artifacts.apis.io/docparser/openapi/docparser-ping-api-openapi.yml
 - filename: docparser-results-api-openapi.yml
   format: yaml
   label: Docparser Results API
   slug: docparser-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docparser/refs/heads/main/openapi/docparser-results-api-openapi.yml
+  url: https://artifacts.apis.io/docparser/openapi/docparser-results-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: docparser-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docparser.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 08:12:46 2026 GMT\n  hsts: false\n- host: api.docparser.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 30 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: docparser.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docparser/refs/heads/main/security/docparser-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/docparser/security/docparser-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Document Parsing

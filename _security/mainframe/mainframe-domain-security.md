@@ -27,7 +27,7 @@ source_filename: mainframe-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mainframe.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 01:45:17 2026 GMT\n  hsts: false\ndomains:\n- domain: mainframe.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mainframe/refs/heads/main/security/mainframe-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mainframe/security/mainframe-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

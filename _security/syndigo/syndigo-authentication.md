@@ -7,13 +7,13 @@ api_specs:
   label: Syndigo Auth API
   slug: syndigo-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/syndigo/refs/heads/main/openapi/syndigo-auth-api-openapi.yml
+  url: https://artifacts.apis.io/syndigo/openapi/syndigo-auth-api-openapi.yml
 - filename: syndigo-natural-api-openapi.yml
   format: yaml
   label: Syndigo Natural API
   slug: syndigo-natural-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/syndigo/refs/heads/main/openapi/syndigo-natural-api-openapi.yml
+  url: https://artifacts.apis.io/syndigo/openapi/syndigo-natural-api-openapi.yml
 auth_types: []
 description: Syndigo Integration APIs utilize a bearer token authentication scheme.
 kind: authentication
@@ -41,12 +41,12 @@ source_heading: Authentication Profile
 source_url: https://docx.syndigo.com/developers/docs/api-authentication
 source_yaml: "generated: '2026-10-12'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://docx.syndigo.com/developers/docs/api-authentication\nsources:\n- https://docx.syndigo.com/developers/docs/api-authentication\n- https://docx.syndigo.com/developers/docs/obtaining-api-keys-and-authenticating-api.md\n- https://docx.syndigo.com/developers/docs/environment-setup.md\n- https://docx.syndigo.com/developers/docs/getting-started-1.md\ndescription: Syndigo Integration APIs utilize a bearer token authentication scheme.\nschemes:\n- type: http-bearer\n  name: Bearer Token\n  evidence: Syndigo Integration APIs utilize a bearer token authentication scheme.\n  location: header\n  header: Authorization\n  token_url: https://api.uat.syndigo.com/api/auth?username=YourApiUsername&secret=YourUrlEncodedSecret\n  how_to_obtain: Call the Auth API by providing the username and secret as URL parameters or in the request body; extract the \"Value\" property\n    from the returned\
   \ JSON object.\ndocs: https://docx.syndigo.com/developers/docs/api-authentication\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/syndigo/refs/heads/main/authentication/syndigo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/syndigo/authentication/syndigo-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company
 - Data
 - Master Data Management
-- ProductInformationManagement
+- Product Information Management
 - Syndication
 ---

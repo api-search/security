@@ -5,19 +5,19 @@ api_specs:
   label: Snyk Container Projects API
   slug: snyk-container-container-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/openapi/snyk-container-container-projects-api-openapi.yml
+  url: https://artifacts.apis.io/snyk-container/openapi/snyk-container-container-projects-api-openapi.yml
 - filename: snyk-container-issues-api-openapi.yml
   format: yaml
   label: Snyk Container Issues API
   slug: snyk-container-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/openapi/snyk-container-issues-api-openapi.yml
+  url: https://artifacts.apis.io/snyk-container/openapi/snyk-container-issues-api-openapi.yml
 - filename: snyk-container-targets-api-openapi.yml
   format: yaml
   label: Snyk Container Targets API
   slug: snyk-container-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/openapi/snyk-container-targets-api-openapi.yml
+  url: https://artifacts.apis.io/snyk-container/openapi/snyk-container-targets-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -65,7 +65,7 @@ source_filename: snyk-container-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: snyk.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.snyk.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.us.snyk.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: snyk.io\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/security/snyk-container-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/snyk-container/security/snyk-container-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Container Images

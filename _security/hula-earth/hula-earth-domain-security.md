@@ -28,7 +28,7 @@ source_filename: hula-earth-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: hula.earth\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 23:16:42 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: hula.earth\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hula-earth/refs/heads/main/security/hula-earth-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hula-earth/security/hula-earth-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

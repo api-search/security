@@ -5,49 +5,49 @@ api_specs:
   label: Leanplum A/B Tests API
   slug: leanplum-a-b-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-a-b-tests-api-openapi.yml
+  url: https://artifacts.apis.io/leanplum/openapi/leanplum-a-b-tests-api-openapi.yml
 - filename: leanplum-campaigns-api-openapi.yml
   format: yaml
   label: Leanplum Campaigns API
   slug: leanplum-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/leanplum/openapi/leanplum-campaigns-api-openapi.yml
 - filename: leanplum-export-data-api-openapi.yml
   format: yaml
   label: Leanplum Export Data API
   slug: leanplum-export-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-export-data-api-openapi.yml
+  url: https://artifacts.apis.io/leanplum/openapi/leanplum-export-data-api-openapi.yml
 - filename: leanplum-files-and-variables-api-openapi.yml
   format: yaml
   label: Leanplum Files and Variables API
   slug: leanplum-files-and-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-files-and-variables-api-openapi.yml
+  url: https://artifacts.apis.io/leanplum/openapi/leanplum-files-and-variables-api-openapi.yml
 - filename: leanplum-import-data-api-openapi.yml
   format: yaml
   label: Leanplum Import Data API
   slug: leanplum-import-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-import-data-api-openapi.yml
+  url: https://artifacts.apis.io/leanplum/openapi/leanplum-import-data-api-openapi.yml
 - filename: leanplum-messages-api-openapi.yml
   format: yaml
   label: Leanplum Messages API
   slug: leanplum-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-messages-api-openapi.yml
+  url: https://artifacts.apis.io/leanplum/openapi/leanplum-messages-api-openapi.yml
 - filename: leanplum-user-behavior-api-openapi.yml
   format: yaml
   label: Leanplum User Behavior API
   slug: leanplum-user-behavior-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-user-behavior-api-openapi.yml
+  url: https://artifacts.apis.io/leanplum/openapi/leanplum-user-behavior-api-openapi.yml
 - filename: leanplum-user-information-api-openapi.yml
   format: yaml
   label: Leanplum User Information API
   slug: leanplum-user-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-user-information-api-openapi.yml
+  url: https://artifacts.apis.io/leanplum/openapi/leanplum-user-information-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -87,7 +87,7 @@ source_filename: leanplum-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.leanplum.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  3 23:59:59 2026 GMT\n  hsts: false\n- host: docs.leanplum.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 12:31:18 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.leanplum.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  3 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: leanplum.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/security/leanplum-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/leanplum/security/leanplum-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Mobile Marketing

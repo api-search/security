@@ -5,31 +5,31 @@ api_specs:
   label: A10 Networks Authentication API
   slug: a10-networks-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/openapi/a10-networks-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/a10-networks/openapi/a10-networks-authentication-api-openapi.yml
 - filename: a10-networks-slb-health-monitor-api-openapi.yml
   format: yaml
   label: A10 Networks SLB Health Monitor API
   slug: a10-networks-slb-health-monitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/openapi/a10-networks-slb-health-monitor-api-openapi.yml
+  url: https://artifacts.apis.io/a10-networks/openapi/a10-networks-slb-health-monitor-api-openapi.yml
 - filename: a10-networks-slb-server-api-openapi.yml
   format: yaml
   label: A10 Networks SLB Server API
   slug: a10-networks-slb-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/openapi/a10-networks-slb-server-api-openapi.yml
+  url: https://artifacts.apis.io/a10-networks/openapi/a10-networks-slb-server-api-openapi.yml
 - filename: a10-networks-slb-service-group-api-openapi.yml
   format: yaml
   label: A10 Networks SLB Service Group API
   slug: a10-networks-slb-service-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/openapi/a10-networks-slb-service-group-api-openapi.yml
+  url: https://artifacts.apis.io/a10-networks/openapi/a10-networks-slb-service-group-api-openapi.yml
 - filename: a10-networks-slb-virtual-server-api-openapi.yml
   format: yaml
   label: A10 Networks SLB Virtual Server API
   slug: a10-networks-slb-virtual-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/openapi/a10-networks-slb-virtual-server-api-openapi.yml
+  url: https://artifacts.apis.io/a10-networks/openapi/a10-networks-slb-virtual-server-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: a10-networks-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.a10networks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 00:35:26 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: documentation.a10networks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 05:29:58 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\ndomains:\n- domain: a10networks.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/security/a10-networks-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/a10-networks/security/a10-networks-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Application Delivery

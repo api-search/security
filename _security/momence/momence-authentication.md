@@ -7,49 +7,49 @@ api_specs:
   label: Momence Auth API
   slug: momence-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-auth-api-openapi.yml
+  url: https://artifacts.apis.io/momence/openapi/momence-auth-api-openapi.yml
 - filename: momence-host-api-openapi.yml
   format: yaml
   label: Momence Host API
   slug: momence-host-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-host-api-openapi.yml
+  url: https://artifacts.apis.io/momence/openapi/momence-host-api-openapi.yml
 - filename: momence-host-checkout-api-openapi.yml
   format: yaml
   label: Momence Host Checkout API
   slug: momence-host-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-host-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/momence/openapi/momence-host-checkout-api-openapi.yml
 - filename: momence-member-addresses-api-openapi.yml
   format: yaml
   label: Momence Member Addresses API
   slug: momence-member-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-member-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/momence/openapi/momence-member-addresses-api-openapi.yml
 - filename: momence-member-api-openapi.yml
   format: yaml
   label: Momence Member API
   slug: momence-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-member-api-openapi.yml
+  url: https://artifacts.apis.io/momence/openapi/momence-member-api-openapi.yml
 - filename: momence-member-checkout-api-openapi.yml
   format: yaml
   label: Momence Member Checkout API
   slug: momence-member-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-member-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/momence/openapi/momence-member-checkout-api-openapi.yml
 - filename: momence-member-host-api-openapi.yml
   format: yaml
   label: Momence Member Host API
   slug: momence-member-host-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-member-host-api-openapi.yml
+  url: https://artifacts.apis.io/momence/openapi/momence-member-host-api-openapi.yml
 - filename: momence-member-sessions-api-openapi.yml
   format: yaml
   label: Momence Member Sessions API
   slug: momence-member-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-member-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/momence/openapi/momence-member-sessions-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -91,7 +91,7 @@ source_filename: momence-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/momence-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - password\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: password\n    tokenUrl: /api/v2/auth/token\n    scopes: 0\n  - flow: authorizationCode\n    authorizationUrl: /api/v2/auth/authorize\n    tokenUrl: /api/v2/auth/token\n    scopes: 0\n  sources:\n  - openapi/momence-openapi.yml\n- name: OAuth2ApiClient\n  type: http\n  scheme: basic\n  description: Use your `client_id` as username and `client_secret` as password\n  sources:\n  - openapi/momence-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/authentication/momence-authentication.yml
+source_yaml_url: https://artifacts.apis.io/momence/authentication/momence-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Fitness

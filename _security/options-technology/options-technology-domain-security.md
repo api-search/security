@@ -41,7 +41,7 @@ source_filename: options-technology-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.options-it.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 18:00:06 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: weboneapi.activfinancial.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 07:49:58 2026 GMT\n  hsts: false\n- host: aop-ny4-replay.activfinancial.com\n  https: false\ndomains:\n- domain: options-it.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: activfinancial.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/options-technology/refs/heads/main/security/options-technology-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/options-technology/security/options-technology-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Finance

@@ -7,19 +7,19 @@ api_specs:
   label: Procter & Gamble Orders API
   slug: procter-and-gamble-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/procter-and-gamble/refs/heads/main/openapi/procter-and-gamble-orders-api-openapi.yml
+  url: https://artifacts.apis.io/procter-and-gamble/openapi/procter-and-gamble-orders-api-openapi.yml
 - filename: procter-and-gamble-products-api-openapi.yml
   format: yaml
   label: Procter & Gamble Products API
   slug: procter-and-gamble-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/procter-and-gamble/refs/heads/main/openapi/procter-and-gamble-products-api-openapi.yml
+  url: https://artifacts.apis.io/procter-and-gamble/openapi/procter-and-gamble-products-api-openapi.yml
 - filename: procter-and-gamble-supply-chain-api-openapi.yml
   format: yaml
   label: Procter & Gamble Supply Chain API
   slug: procter-and-gamble-supply-chain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/procter-and-gamble/refs/heads/main/openapi/procter-and-gamble-supply-chain-api-openapi.yml
+  url: https://artifacts.apis.io/procter-and-gamble/openapi/procter-and-gamble-supply-chain-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -45,7 +45,7 @@ source_filename: procter-and-gamble-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/procter-and-gamble-api-marketplace-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/procter-and-gamble-api-marketplace-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/procter-and-gamble/refs/heads/main/authentication/procter-and-gamble-authentication.yml
+source_yaml_url: https://artifacts.apis.io/procter-and-gamble/authentication/procter-and-gamble-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Consumer Goods

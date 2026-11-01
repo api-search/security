@@ -41,7 +41,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://voltchat.com/docs/mcp/setup-instructions\ndocs: https://voltchat.com/docs/mcp/setup-instructions\nnote: >-\n  Volt publishes no public REST API/OpenAPI. Its only programmatic surface is the\n  authenticated remote MCP server (https://mcp.voltchat.com/mcp). Authentication\n  below is derived from the MCP setup docs, not an OpenAPI spec.\nsummary:\n  types: [oauth2, http]\n  api_key_in: [header]\n  oauth2_flows: [authorizationCode]\nschemes:\n- name: OAuth Custom Connector\n  type: oauth2\n  applies_to: mcp.voltchat.com\n  description: >-\n    OAuth-based custom connector supported natively in Claude and ChatGPT — no\n    API key or config file required.\n  sources: [https://voltchat.com/docs/mcp/setup-instructions]\n- name: Volt API Key (Bearer)\n  type: http\n  scheme: bearer\n  in: header\n  parameter: Authorization\n  format: 'Authorization: Bearer YOUR_VOLT_API_KEY'\n  applies_to: mcp.voltchat.com\n  description:\
   \ >-\n    Personal Volt API key sent as an HTTP Bearer token, used with the mcp-remote\n    module for MCP clients without native remote support.\n  sources: [https://voltchat.com/docs/mcp/setup-instructions]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/volt/refs/heads/main/authentication/volt-authentication.yml
+source_yaml_url: https://artifacts.apis.io/volt/authentication/volt-authentication.yml
 summary_line: oauth2/http · 2 schemes
 tags:
 - Company

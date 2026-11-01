@@ -7,19 +7,19 @@ api_specs:
   label: Levitate Companies API
   slug: levitate-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/openapi/levitate-companies-api-openapi.yml
+  url: https://artifacts.apis.io/levitate/openapi/levitate-companies-api-openapi.yml
 - filename: levitate-contacts-api-openapi.yml
   format: yaml
   label: Levitate Contacts API
   slug: levitate-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/openapi/levitate-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/levitate/openapi/levitate-contacts-api-openapi.yml
 - filename: levitate-notes-api-openapi.yml
   format: yaml
   label: Levitate Notes API
   slug: levitate-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/openapi/levitate-notes-api-openapi.yml
+  url: https://artifacts.apis.io/levitate/openapi/levitate-notes-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -51,7 +51,7 @@ source_filename: levitate-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-25'\nmethod: derived\nsource: openapi/levitate-public-v1-openapi.json\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.levitate.ai/oauth2/authorize\n    tokenUrl: https://login.levitate.ai/oauth2/token\n    scopes: 2\n  description: Levitate OAuth2 Authorization Flow\n  sources:\n  - openapi/levitate-public-v1-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/authentication/levitate-authentication.yml
+source_yaml_url: https://artifacts.apis.io/levitate/authentication/levitate-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - relationship-marketing

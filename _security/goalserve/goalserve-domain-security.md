@@ -5,37 +5,37 @@ api_specs:
   label: GoalServe Commentaries API
   slug: goalserve-commentaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goalserve/refs/heads/main/openapi/goalserve-commentaries-api-openapi.yml
+  url: https://artifacts.apis.io/goalserve/openapi/goalserve-commentaries-api-openapi.yml
 - filename: goalserve-fixtures-api-openapi.yml
   format: yaml
   label: GoalServe Fixtures API
   slug: goalserve-fixtures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goalserve/refs/heads/main/openapi/goalserve-fixtures-api-openapi.yml
+  url: https://artifacts.apis.io/goalserve/openapi/goalserve-fixtures-api-openapi.yml
 - filename: goalserve-player-data-api-openapi.yml
   format: yaml
   label: GoalServe Player Data API
   slug: goalserve-player-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goalserve/refs/heads/main/openapi/goalserve-player-data-api-openapi.yml
+  url: https://artifacts.apis.io/goalserve/openapi/goalserve-player-data-api-openapi.yml
 - filename: goalserve-standings-api-openapi.yml
   format: yaml
   label: GoalServe Standings API
   slug: goalserve-standings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goalserve/refs/heads/main/openapi/goalserve-standings-api-openapi.yml
+  url: https://artifacts.apis.io/goalserve/openapi/goalserve-standings-api-openapi.yml
 - filename: goalserve-team-data-api-openapi.yml
   format: yaml
   label: GoalServe Team Data API
   slug: goalserve-team-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goalserve/refs/heads/main/openapi/goalserve-team-data-api-openapi.yml
+  url: https://artifacts.apis.io/goalserve/openapi/goalserve-team-data-api-openapi.yml
 - filename: goalserve-livescores-api-openapi.yml
   format: yaml
   label: GoalServe Livescores API
   slug: goalserve-livescores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goalserve/refs/heads/main/openapi/goalserve-livescores-api-openapi.yml
+  url: https://artifacts.apis.io/goalserve/openapi/goalserve-livescores-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: goalserve-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.goalserve.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  9 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 2592000\ndomains:\n- domain: goalserve.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goalserve/refs/heads/main/security/goalserve-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/goalserve/security/goalserve-domain-security.yml
 summary_line: TLSv1.2 · HSTS
 tags:
 - Sports Data

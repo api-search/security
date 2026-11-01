@@ -5,7 +5,7 @@ api_specs:
   label: Sejda HTML to PDF API
   slug: sejda-html-to-pdf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sejda/refs/heads/main/openapi/sejda-html-to-pdf-api-openapi.yml
+  url: https://artifacts.apis.io/sejda/openapi/sejda-html-to-pdf-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,7 +50,7 @@ source_filename: sejda-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sejda.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 14:24:27 2026 GMT\n  hsts: false\n- host: api.sejda.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 19:07:29 2026 GMT\n  hsts: null\n- host: sejda.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 12:16:23 2026 GMT\n  hsts: false\ndomains:\n- domain: sejda.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: sejda.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sejda/refs/heads/main/security/sejda-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sejda/security/sejda-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - PDF

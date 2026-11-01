@@ -7,25 +7,25 @@ api_specs:
   label: Google Cloud App Engine Applications API
   slug: google-cloud-app-engine-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-app-engine/refs/heads/main/openapi/google-cloud-app-engine-applications-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-app-engine/openapi/google-cloud-app-engine-applications-api-openapi.yml
 - filename: google-cloud-app-engine-apps-api-openapi.yml
   format: yaml
   label: Google Cloud App Engine Apps API
   slug: google-cloud-app-engine-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-app-engine/refs/heads/main/openapi/google-cloud-app-engine-apps-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-app-engine/openapi/google-cloud-app-engine-apps-api-openapi.yml
 - filename: google-cloud-app-engine-instances-api-openapi.yml
   format: yaml
   label: Google Cloud App Engine Instances API
   slug: google-cloud-app-engine-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-app-engine/refs/heads/main/openapi/google-cloud-app-engine-instances-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-app-engine/openapi/google-cloud-app-engine-instances-api-openapi.yml
 - filename: google-cloud-app-engine-versions-api-openapi.yml
   format: yaml
   label: Google Cloud App Engine Versions API
   slug: google-cloud-app-engine-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-app-engine/refs/heads/main/openapi/google-cloud-app-engine-versions-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-app-engine/openapi/google-cloud-app-engine-versions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -56,7 +56,7 @@ source_filename: google-cloud-app-engine-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/appengine-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 2\n  sources:\n  - openapi/appengine-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-app-engine/refs/heads/main/authentication/google-cloud-app-engine-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-app-engine/authentication/google-cloud-app-engine-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - App Engine

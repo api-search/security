@@ -8,37 +8,37 @@ api_specs:
   label: Bolt GenericClient API
   slug: bolt-eu-genericclient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-eu/refs/heads/main/openapi/bolt-eu-genericclient-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-eu/openapi/bolt-eu-genericclient-api-openapi.yml
 - filename: bolt-eu-pim-api-openapi.yml
   format: yaml
   label: Bolt Pim API
   slug: bolt-eu-pim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-eu/refs/heads/main/openapi/bolt-eu-pim-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-eu/openapi/bolt-eu-pim-api-openapi.yml
 - filename: bolt-eu-validateloyaltycard-api-openapi.yml
   format: yaml
   label: Bolt ValidateLoyaltyCard API
   slug: bolt-eu-validateloyaltycard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-eu/refs/heads/main/openapi/bolt-eu-validateloyaltycard-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-eu/openapi/bolt-eu-validateloyaltycard-api-openapi.yml
 - filename: bolt-eu-bolt-delivery-api-api-openapi.yml
   format: yaml
   label: Bolt Delivery API
   slug: bolt-eu-bolt-delivery-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-eu/refs/heads/main/openapi/bolt-eu-bolt-delivery-api-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-eu/openapi/bolt-eu-bolt-delivery-api-api-openapi.yml
 - filename: bolt-eu-bolt-food-api-api-openapi.yml
   format: yaml
   label: Bolt Food API
   slug: bolt-eu-bolt-food-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-eu/refs/heads/main/openapi/bolt-eu-bolt-food-api-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-eu/openapi/bolt-eu-bolt-food-api-api-openapi.yml
 - filename: bolt-eu-bolt-stores-api-api-openapi.yml
   format: yaml
   label: Bolt Stores API
   slug: bolt-eu-bolt-stores-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-eu/refs/heads/main/openapi/bolt-eu-bolt-stores-api-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-eu/openapi/bolt-eu-bolt-stores-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -68,7 +68,7 @@ source_filename: bolt-eu-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bolt-eu-delivery-openapi.yml, openapi/bolt-eu-food-openapi.yml, openapi/bolt-eu-stores-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: boltHmacSignature\n  type: apiKey\n  in: header\n  parameter: x-external-integrator-id\n  description: Partner-gated HMAC request signing. Every request carries the integrator ID in\n    `x-external-integrator-id` plus a `x-server-authorization-hmac-sha256` header containing\n    the base64-encoded HMAC-SHA256 signature of the raw payload, computed with a secret key\n    issued by Bolt. Webhook calls from Bolt to the partner authenticate with Basic auth or a\n    partner-hosted identity server issuing bearer tokens.\n  sources:\n  - openapi/bolt-eu-delivery-openapi.yml\n  - openapi/bolt-eu-food-openapi.yml\n  - openapi/bolt-eu-stores-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bolt-eu/refs/heads/main/authentication/bolt-eu-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bolt-eu/authentication/bolt-eu-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Ride Booking

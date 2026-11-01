@@ -8,37 +8,37 @@ api_specs:
   label: Ternary Anomaly Detection API
   slug: ternary-anomaly-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/openapi/ternary-anomaly-detection-api-openapi.yml
+  url: https://artifacts.apis.io/ternary/openapi/ternary-anomaly-detection-api-openapi.yml
 - filename: ternary-commitments-api-openapi.yml
   format: yaml
   label: Ternary Commitments API
   slug: ternary-commitments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/openapi/ternary-commitments-api-openapi.yml
+  url: https://artifacts.apis.io/ternary/openapi/ternary-commitments-api-openapi.yml
 - filename: ternary-cost-allocation-api-openapi.yml
   format: yaml
   label: Ternary Cost Allocation API
   slug: ternary-cost-allocation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/openapi/ternary-cost-allocation-api-openapi.yml
+  url: https://artifacts.apis.io/ternary/openapi/ternary-cost-allocation-api-openapi.yml
 - filename: ternary-forecasting-api-openapi.yml
   format: yaml
   label: Ternary Forecasting API
   slug: ternary-forecasting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/openapi/ternary-forecasting-api-openapi.yml
+  url: https://artifacts.apis.io/ternary/openapi/ternary-forecasting-api-openapi.yml
 - filename: ternary-kubernetes-api-openapi.yml
   format: yaml
   label: Ternary Kubernetes API
   slug: ternary-kubernetes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/openapi/ternary-kubernetes-api-openapi.yml
+  url: https://artifacts.apis.io/ternary/openapi/ternary-kubernetes-api-openapi.yml
 - filename: ternary-reporting-api-openapi.yml
   format: yaml
   label: Ternary Reporting API
   slug: ternary-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/openapi/ternary-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/ternary/openapi/ternary-reporting-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: ternary-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ternary-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: API key generated from the Ternary platform settings\n  sources:\n  - openapi/ternary-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/authentication/ternary-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ternary/authentication/ternary-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Cloud Cost Management

@@ -7,43 +7,43 @@ api_specs:
   label: Bigchaindb Assets API
   slug: bigchaindb-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigchaindb/refs/heads/main/openapi/bigchaindb-assets-api-openapi.yml
+  url: https://artifacts.apis.io/bigchaindb/openapi/bigchaindb-assets-api-openapi.yml
 - filename: bigchaindb-blocks-api-openapi.yml
   format: yaml
   label: Bigchaindb Blocks API
   slug: bigchaindb-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigchaindb/refs/heads/main/openapi/bigchaindb-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/bigchaindb/openapi/bigchaindb-blocks-api-openapi.yml
 - filename: bigchaindb-metadata-api-openapi.yml
   format: yaml
   label: Bigchaindb Metadata API
   slug: bigchaindb-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigchaindb/refs/heads/main/openapi/bigchaindb-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/bigchaindb/openapi/bigchaindb-metadata-api-openapi.yml
 - filename: bigchaindb-outputs-api-openapi.yml
   format: yaml
   label: Bigchaindb Outputs API
   slug: bigchaindb-outputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigchaindb/refs/heads/main/openapi/bigchaindb-outputs-api-openapi.yml
+  url: https://artifacts.apis.io/bigchaindb/openapi/bigchaindb-outputs-api-openapi.yml
 - filename: bigchaindb-root-api-openapi.yml
   format: yaml
   label: Bigchaindb Root API
   slug: bigchaindb-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigchaindb/refs/heads/main/openapi/bigchaindb-root-api-openapi.yml
+  url: https://artifacts.apis.io/bigchaindb/openapi/bigchaindb-root-api-openapi.yml
 - filename: bigchaindb-transactions-api-openapi.yml
   format: yaml
   label: Bigchaindb Transactions API
   slug: bigchaindb-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigchaindb/refs/heads/main/openapi/bigchaindb-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bigchaindb/openapi/bigchaindb-transactions-api-openapi.yml
 - filename: bigchaindb-validators-api-openapi.yml
   format: yaml
   label: Bigchaindb Validators API
   slug: bigchaindb-validators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigchaindb/refs/heads/main/openapi/bigchaindb-validators-api-openapi.yml
+  url: https://artifacts.apis.io/bigchaindb/openapi/bigchaindb-validators-api-openapi.yml
 auth_types:
 - none
 - payload-signature
@@ -66,7 +66,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: >-\n  BigchainDB Server HTTP API reference and transaction-model documentation.\n  Derived-then-confirmed: the OpenAPI transcription declares no HTTP\n  securitySchemes because the BigchainDB HTTP API has no transport-layer auth by\n  default — authorization is enforced cryptographically at the payload level.\ndocs: https://docs.bigchaindb.com/projects/server/en/latest/http-client-server-api.html\nsummary:\n  types: [none, payload-signature]\n  api_key_in: []\n  oauth2_flows: []\nmodel:\n  transport_auth: none-by-default\n  payload_auth: crypto-conditions (Ed25519 signatures)\n  notes: >-\n    The core BigchainDB HTTP API accepts unauthenticated reads and writes; a write\n    is only valid if the transaction is correctly signed with the owners' Ed25519\n    keys via crypto-conditions, and outputs can only be spent by fulfilling their\n    conditions. Hosted networks may add app_id / app_key headers at the gateway\n    (deployment-specific),\
   \ but that is not part of the core API contract.\nschemes: []\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bigchaindb/refs/heads/main/authentication/bigchaindb-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bigchaindb/authentication/bigchaindb-authentication.yml
 summary_line: none/payload-signature · 0 schemes
 tags:
 - Company

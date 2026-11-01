@@ -8,31 +8,31 @@ api_specs:
   label: Pexafy Collections API
   slug: pexafy-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexafy/refs/heads/main/openapi/pexafy-collections-api-openapi.yml
+  url: https://artifacts.apis.io/pexafy/openapi/pexafy-collections-api-openapi.yml
 - filename: pexafy-facets-api-openapi.yml
   format: yaml
   label: Pexafy Facets API
   slug: pexafy-facets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexafy/refs/heads/main/openapi/pexafy-facets-api-openapi.yml
+  url: https://artifacts.apis.io/pexafy/openapi/pexafy-facets-api-openapi.yml
 - filename: pexafy-photos-api-openapi.yml
   format: yaml
   label: Pexafy Photos API
   slug: pexafy-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexafy/refs/heads/main/openapi/pexafy-photos-api-openapi.yml
+  url: https://artifacts.apis.io/pexafy/openapi/pexafy-photos-api-openapi.yml
 - filename: pexafy-search-api-openapi.yml
   format: yaml
   label: Pexafy Search API
   slug: pexafy-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexafy/refs/heads/main/openapi/pexafy-search-api-openapi.yml
+  url: https://artifacts.apis.io/pexafy/openapi/pexafy-search-api-openapi.yml
 - filename: pexafy-usage-api-openapi.yml
   format: yaml
   label: Pexafy Usage API
   slug: pexafy-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexafy/refs/heads/main/openapi/pexafy-usage-api-openapi.yml
+  url: https://artifacts.apis.io/pexafy/openapi/pexafy-usage-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: openapi/pexafy-
   \ as a bearer\n    token for clients that cannot do OAuth.\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: |-\n    Pass your Pexafy API key in this header.\n\n    Get your API key at https://pexafy.com/dashboard/api-keys/create/\n  sources:\n  - openapi/pexafy-api-openapi.json\n- name: apiKey\n  type: http\n  scheme: bearer\n  description: >-\n    Send the key as a bearer token. Keys carry scopes; a read-scoped key gets a 403 on\n    anything under /collections.\n  sources:\n  - openapi/pexafy-api-v1-openapi.json\n- name: PexafyOAuth\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://pexafy.com/oauth/authorize/\n    tokenUrl: https://pexafy.com/oauth/token/\n    scopes: [read, write]\n    pkce: S256\n  registration_endpoint: https://pexafy.com/oauth/register\n  revocation_endpoint: https://pexafy.com/oauth/revoke_token/\n  introspection_endpoint: https://pexafy.com/oauth/introspect/\n  issuer: https://pexafy.com/\n\
   \  sources:\n  - https://pexafy.com/.well-known/oauth-authorization-server\n  note: >-\n    Not declared in either OpenAPI document — discovered from RFC 8414 metadata. It is the\n    credential model for the MCP server (mcp.pexafy.com), which advertises it via RFC 9728\n    protected-resource metadata and a WWW-Authenticate challenge on an unauthenticated\n    tools/list.\nkey_lifecycle:\n  issuance: >-\n    Console only. Create an account at https://pexafy.com/signup/, then create a key at\n    https://pexafy.com/dashboard/api-keys/create/. Issued immediately — no application\n    form, no review queue.\n  programmatic_issuance: false\n  one_time_display: true\n  rotation: Create a new key and revoke the old one from https://pexafy.com/dashboard/api-keys/\n  env_var: PEXAFY_API_KEY\n  key_prefix: pexafy_api_\n  keys_per_plan: 1 on Free, 3 Starter, 5 Pro, 10 Expert, 25 Team, unlimited on Business and Enterprise\nunauthenticated_surface:\n- endpoint: GET https://api.pexafy.com/health\n\
   \  status: 200\n  note: Public liveness check — the api-onboarding flow uses it as the pre-flight probe before spending a key.\n- endpoint: GET https://mcp.pexafy.com/health\n  note: Public liveness check for the MCP server, per the pexafy-mcp README.\ngaps:\n- The live /openapi.json declares ApiKeyAuth per-operation on all 20 operations but has no root-level `security` and no 401 response anywhere, so a generated client knows a credential is needed and still has no error shape for a missing one.\n- The two published OpenAPI documents disagree on the scheme name and type (ApiKeyAuth/apiKey-header vs apiKey/http-bearer) for the same credential.\n- OAuth 2.1 is not represented in either OpenAPI document.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pexafy/refs/heads/main/authentication/pexafy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pexafy/authentication/pexafy-authentication.yml
 summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Image

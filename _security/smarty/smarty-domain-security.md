@@ -5,31 +5,31 @@ api_specs:
   label: Smarty Lookup API
   slug: smarty-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/smarty/openapi/smarty-lookup-api-openapi.yml
 - filename: smarty-street-address-api-openapi.yml
   format: yaml
   label: Smarty Street Address API
   slug: smarty-street-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-street-address-api-openapi.yml
+  url: https://artifacts.apis.io/smarty/openapi/smarty-street-address-api-openapi.yml
 - filename: smarty-us-enrichment-api-openapi.yml
   format: yaml
   label: Smarty Us Enrichment API
   slug: smarty-us-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-us-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/smarty/openapi/smarty-us-enrichment-api-openapi.yml
 - filename: smarty-us-extract-api-api-openapi.yml
   format: yaml
   label: Smarty US Extract API
   slug: smarty-us-extract-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-us-extract-api-api-openapi.yml
+  url: https://artifacts.apis.io/smarty/openapi/smarty-us-extract-api-api-openapi.yml
 - filename: smarty-verify-api-openapi.yml
   format: yaml
   label: Smarty Verify API
   slug: smarty-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-verify-api-openapi.yml
+  url: https://artifacts.apis.io/smarty/openapi/smarty-verify-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -75,7 +75,7 @@ source_filename: smarty-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.smarty.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 04:52:55 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: us-street.api.smarty.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 23:12:21 2026 GMT\n  hsts: null\n- host: us-autocomplete-pro.api.smarty.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 23:12:21 2026 GMT\n  hsts: null\ndomains:\n- domain: smarty.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/security/smarty-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/smarty/security/smarty-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Address Verification

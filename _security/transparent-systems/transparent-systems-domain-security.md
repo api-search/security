@@ -26,7 +26,7 @@ source_filename: transparent-systems-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nnote: transparentsystems.com is a parked GoDaddy for-sale lander (307 to forsale.godaddy.com,\n  null MX, wildcard 200s) as of 2026-07-21 — this records the parking host's posture,\n  not live company infrastructure. The company appears defunct.\nhosts:\n- host: www.transparentsystems.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 20:20:37 2026 GMT\n  hsts: false\ndomains:\n- domain: transparentsystems.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transparent-systems/refs/heads/main/security/transparent-systems-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/transparent-systems/security/transparent-systems-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

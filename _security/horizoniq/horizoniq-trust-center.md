@@ -5,55 +5,55 @@ api_specs:
   label: HorizonIQ Action Items API
   slug: horizoniq-action-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/openapi/horizoniq-action-items-api-openapi.yml
+  url: https://artifacts.apis.io/horizoniq/openapi/horizoniq-action-items-api-openapi.yml
 - filename: horizoniq-billing-api-openapi.yml
   format: yaml
   label: HorizonIQ Billing API
   slug: horizoniq-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/openapi/horizoniq-billing-api-openapi.yml
+  url: https://artifacts.apis.io/horizoniq/openapi/horizoniq-billing-api-openapi.yml
 - filename: horizoniq-devices-api-openapi.yml
   format: yaml
   label: HorizonIQ Devices API
   slug: horizoniq-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/openapi/horizoniq-devices-api-openapi.yml
+  url: https://artifacts.apis.io/horizoniq/openapi/horizoniq-devices-api-openapi.yml
 - filename: horizoniq-images-api-openapi.yml
   format: yaml
   label: HorizonIQ Images API
   slug: horizoniq-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/openapi/horizoniq-images-api-openapi.yml
+  url: https://artifacts.apis.io/horizoniq/openapi/horizoniq-images-api-openapi.yml
 - filename: horizoniq-managed-firewalls-api-openapi.yml
   format: yaml
   label: HorizonIQ Managed Firewalls API
   slug: horizoniq-managed-firewalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/openapi/horizoniq-managed-firewalls-api-openapi.yml
+  url: https://artifacts.apis.io/horizoniq/openapi/horizoniq-managed-firewalls-api-openapi.yml
 - filename: horizoniq-servers-api-openapi.yml
   format: yaml
   label: HorizonIQ Servers API
   slug: horizoniq-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/openapi/horizoniq-servers-api-openapi.yml
+  url: https://artifacts.apis.io/horizoniq/openapi/horizoniq-servers-api-openapi.yml
 - filename: horizoniq-ssl-certificates-api-openapi.yml
   format: yaml
   label: HorizonIQ SSL Certificates API
   slug: horizoniq-ssl-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/openapi/horizoniq-ssl-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/horizoniq/openapi/horizoniq-ssl-certificates-api-openapi.yml
 - filename: horizoniq-support-api-openapi.yml
   format: yaml
   label: HorizonIQ Support API
   slug: horizoniq-support-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/openapi/horizoniq-support-api-openapi.yml
+  url: https://artifacts.apis.io/horizoniq/openapi/horizoniq-support-api-openapi.yml
 - filename: horizoniq-user-accounts-api-openapi.yml
   format: yaml
   label: HorizonIQ User Accounts API
   slug: horizoniq-user-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/openapi/horizoniq-user-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/horizoniq/openapi/horizoniq-user-accounts-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -72,7 +72,7 @@ source_filename: horizoniq-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nprobe: true\nsource: https://www.horizoniq.com/compliance/\nurl: https://www.horizoniq.com/compliance/\ncertifications:\n- SOC 2\n- ISO 27001\n- PCI DSS\nevidence:\n- source: https://www.horizoniq.com/compliance/\n  keywords:\n  - soc 2\n  - iso 27001\n  - pci dss\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/security/horizoniq-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/horizoniq/security/horizoniq-trust-center.yml
 summary_line: SOC 2, ISO 27001, PCI DSS
 tags:
 - Company

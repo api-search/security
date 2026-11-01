@@ -36,7 +36,7 @@ source_filename: davita-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: derived\nsource: openapi/davita-wp-rest.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: applicationPassword\n  type: http\n  scheme: basic\n  description: 'WordPress Application Passwords. Authorization endpoint declared by the index:\n    https://davita.com/wp-admin/authorize-application.php. Not offered to the public; write\n    routes are staff-only.'\n  sources:\n  - openapi/davita-wp-rest.yml\n- name: cookieNonce\n  type: apiKey\n  in: header\n  parameter: X-WP-Nonce\n  description: WordPress cookie authentication nonce, accepted per the Access-Control-Allow-Headers\n    response header. Browser/session only.\n  sources:\n  - openapi/davita-wp-rest.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/davita/refs/heads/main/authentication/davita-authentication.yml
+source_yaml_url: https://artifacts.apis.io/davita/authentication/davita-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Chronic Kidney Disease

@@ -5,25 +5,25 @@ api_specs:
   label: Uberduck Conversational API
   slug: uberduck-conversational-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/openapi/uberduck-conversational-api-openapi.yml
+  url: https://artifacts.apis.io/uberduck/openapi/uberduck-conversational-api-openapi.yml
 - filename: uberduck-models-api-openapi.yml
   format: yaml
   label: Uberduck Models API
   slug: uberduck-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/openapi/uberduck-models-api-openapi.yml
+  url: https://artifacts.apis.io/uberduck/openapi/uberduck-models-api-openapi.yml
 - filename: uberduck-text-to-speech-api-openapi.yml
   format: yaml
   label: Uberduck Text-to-Speech API
   slug: uberduck-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/openapi/uberduck-text-to-speech-api-openapi.yml
+  url: https://artifacts.apis.io/uberduck/openapi/uberduck-text-to-speech-api-openapi.yml
 - filename: uberduck-voices-api-openapi.yml
   format: yaml
   label: Uberduck Voices API
   slug: uberduck-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/openapi/uberduck-voices-api-openapi.yml
+  url: https://artifacts.apis.io/uberduck/openapi/uberduck-voices-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,12 +64,11 @@ source_filename: uberduck-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: uberduck.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 19:24:57 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.uberduck.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 12:17:30 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.uberduck.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 19:24:57 2026 GMT\n  hsts: null\ndomains:\n- domain: uberduck.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/security/uberduck-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/uberduck/security/uberduck-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
 - Text-to-Speech
-- TTS
 - Voice
 - Voice Cloning
 - Speech Synthesis

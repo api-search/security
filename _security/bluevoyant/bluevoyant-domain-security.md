@@ -33,7 +33,7 @@ source_filename: bluevoyant-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bluevoyant.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 22:17:16 2026 GMT\n  hsts: null\ndomains:\n- domain: bluevoyant.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"globalsign.com\"\n  - 0 issuewild \"pki.goog\"\n  - 0 iodef \"mailto:caa-audit@bluevoyant.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bluevoyant/refs/heads/main/security/bluevoyant-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bluevoyant/security/bluevoyant-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

@@ -38,7 +38,7 @@ source_filename: storone-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.storone.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 20:04:17 2026 GMT\n  hsts: false\n- host: docs.onestor.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 09:02:42 2026 GMT\n  hsts: true\n  hsts_max_age: 604800\ndomains:\n- domain: storone.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: onestor.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/storone/refs/heads/main/security/storone-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/storone/security/storone-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Storage

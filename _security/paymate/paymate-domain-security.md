@@ -5,37 +5,37 @@ api_specs:
   label: PayMate Businesses API
   slug: paymate-businesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/openapi/paymate-businesses-api-openapi.yml
+  url: https://artifacts.apis.io/paymate/openapi/paymate-businesses-api-openapi.yml
 - filename: paymate-cards-api-openapi.yml
   format: yaml
   label: PayMate Cards API
   slug: paymate-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/openapi/paymate-cards-api-openapi.yml
+  url: https://artifacts.apis.io/paymate/openapi/paymate-cards-api-openapi.yml
 - filename: paymate-collections-api-openapi.yml
   format: yaml
   label: PayMate Collections API
   slug: paymate-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/openapi/paymate-collections-api-openapi.yml
+  url: https://artifacts.apis.io/paymate/openapi/paymate-collections-api-openapi.yml
 - filename: paymate-contacts-api-openapi.yml
   format: yaml
   label: PayMate Contacts API
   slug: paymate-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/openapi/paymate-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/paymate/openapi/paymate-contacts-api-openapi.yml
 - filename: paymate-payments-api-openapi.yml
   format: yaml
   label: PayMate Payments API
   slug: paymate-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/openapi/paymate-payments-api-openapi.yml
+  url: https://artifacts.apis.io/paymate/openapi/paymate-payments-api-openapi.yml
 - filename: paymate-reference-api-openapi.yml
   format: yaml
   label: PayMate Reference API
   slug: paymate-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/openapi/paymate-reference-api-openapi.yml
+  url: https://artifacts.apis.io/paymate/openapi/paymate-reference-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: paymate-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: paymate.in\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 22 10:43:55 2026 GMT\n  hsts: null\n- host: api.paymate.my\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 10:20:26 2026 GMT\n  hsts: null\n- host: uat.paymate.co.in\n  https: false\ndomains:\n- domain: paymate.in\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: paymate.my\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/security/paymate-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/paymate/security/paymate-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Payments

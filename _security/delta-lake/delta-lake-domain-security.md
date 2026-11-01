@@ -5,19 +5,19 @@ api_specs:
   label: Delta Lake Schemas API
   slug: delta-lake-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delta-lake/refs/heads/main/openapi/delta-lake-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/delta-lake/openapi/delta-lake-schemas-api-openapi.yml
 - filename: delta-lake-shares-api-openapi.yml
   format: yaml
   label: Delta Lake Shares API
   slug: delta-lake-shares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delta-lake/refs/heads/main/openapi/delta-lake-shares-api-openapi.yml
+  url: https://artifacts.apis.io/delta-lake/openapi/delta-lake-shares-api-openapi.yml
 - filename: delta-lake-tables-api-openapi.yml
   format: yaml
   label: Delta Lake Tables API
   slug: delta-lake-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delta-lake/refs/heads/main/openapi/delta-lake-tables-api-openapi.yml
+  url: https://artifacts.apis.io/delta-lake/openapi/delta-lake-tables-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: delta-lake-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: delta.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 12:16:33 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.delta.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 12:16:33 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: sharing.delta.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar  2 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: delta.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/delta-lake/refs/heads/main/security/delta-lake-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/delta-lake/security/delta-lake-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Data

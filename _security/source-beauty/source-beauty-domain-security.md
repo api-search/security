@@ -28,7 +28,7 @@ source_filename: source-beauty-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sourcebeauty.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 16:31:03 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\ndomains:\n- domain: sourcebeauty.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/source-beauty/refs/heads/main/security/source-beauty-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/source-beauty/security/source-beauty-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -29,11 +29,11 @@ source_filename: breakr-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-05'\nmethod: derived\nsource: openapi/breakr-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: Bearer\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'JWT Bearer token. Enter: **Bearer <your_token>**'\n  sources:\n  - openapi/breakr-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/breakr/refs/heads/main/authentication/breakr-authentication.yml
+source_yaml_url: https://artifacts.apis.io/breakr/authentication/breakr-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- CreatorEconomy
+- Creator Economy
 - Fintech
 - Software-as-a-Service
 - Payments

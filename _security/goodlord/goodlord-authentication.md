@@ -8,91 +8,91 @@ api_specs:
   label: Goodlord Agent API
   slug: goodlord-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/openapi/goodlord-agent-api-openapi.yml
+  url: https://artifacts.apis.io/goodlord/openapi/goodlord-agent-api-openapi.yml
 - filename: goodlord-application-api-openapi.yml
   format: yaml
   label: Goodlord Application API
   slug: goodlord-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/openapi/goodlord-application-api-openapi.yml
+  url: https://artifacts.apis.io/goodlord/openapi/goodlord-application-api-openapi.yml
 - filename: goodlord-authentication-api-openapi.yml
   format: yaml
   label: Goodlord Authentication API
   slug: goodlord-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/openapi/goodlord-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/goodlord/openapi/goodlord-authentication-api-openapi.yml
 - filename: goodlord-company-api-openapi.yml
   format: yaml
   label: Goodlord Company API
   slug: goodlord-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/openapi/goodlord-company-api-openapi.yml
+  url: https://artifacts.apis.io/goodlord/openapi/goodlord-company-api-openapi.yml
 - filename: goodlord-file-api-openapi.yml
   format: yaml
   label: Goodlord File API
   slug: goodlord-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/openapi/goodlord-file-api-openapi.yml
+  url: https://artifacts.apis.io/goodlord/openapi/goodlord-file-api-openapi.yml
 - filename: goodlord-insuranceclaim-api-openapi.yml
   format: yaml
   label: Goodlord Insurance Claim API
   slug: goodlord-insuranceclaim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/openapi/goodlord-insuranceclaim-api-openapi.yml
+  url: https://artifacts.apis.io/goodlord/openapi/goodlord-insuranceclaim-api-openapi.yml
 - filename: goodlord-media-api-openapi.yml
   format: yaml
   label: Goodlord Media API
   slug: goodlord-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/openapi/goodlord-media-api-openapi.yml
+  url: https://artifacts.apis.io/goodlord/openapi/goodlord-media-api-openapi.yml
 - filename: goodlord-payment-api-openapi.yml
   format: yaml
   label: Goodlord Payment API
   slug: goodlord-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/openapi/goodlord-payment-api-openapi.yml
+  url: https://artifacts.apis.io/goodlord/openapi/goodlord-payment-api-openapi.yml
 - filename: goodlord-rentschedule-api-openapi.yml
   format: yaml
   label: Goodlord Rent Schedule API
   slug: goodlord-rentschedule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/openapi/goodlord-rentschedule-api-openapi.yml
+  url: https://artifacts.apis.io/goodlord/openapi/goodlord-rentschedule-api-openapi.yml
 - filename: goodlord-rentschedulerow-api-openapi.yml
   format: yaml
   label: Goodlord Rent Schedule Row API
   slug: goodlord-rentschedulerow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/openapi/goodlord-rentschedulerow-api-openapi.yml
+  url: https://artifacts.apis.io/goodlord/openapi/goodlord-rentschedulerow-api-openapi.yml
 - filename: goodlord-rentschedulerowpostdto-api-openapi.yml
   format: yaml
   label: Goodlord Rent Schedule Row Post Dto API
   slug: goodlord-rentschedulerowpostdto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/openapi/goodlord-rentschedulerowpostdto-api-openapi.yml
+  url: https://artifacts.apis.io/goodlord/openapi/goodlord-rentschedulerowpostdto-api-openapi.yml
 - filename: goodlord-rentschedulerowupdate-api-openapi.yml
   format: yaml
   label: Goodlord Rent Schedule Row Update API
   slug: goodlord-rentschedulerowupdate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/openapi/goodlord-rentschedulerowupdate-api-openapi.yml
+  url: https://artifacts.apis.io/goodlord/openapi/goodlord-rentschedulerowupdate-api-openapi.yml
 - filename: goodlord-role-api-openapi.yml
   format: yaml
   label: Goodlord Role API
   slug: goodlord-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/openapi/goodlord-role-api-openapi.yml
+  url: https://artifacts.apis.io/goodlord/openapi/goodlord-role-api-openapi.yml
 - filename: goodlord-rolegroup-api-openapi.yml
   format: yaml
   label: Goodlord Role Group API
   slug: goodlord-rolegroup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/openapi/goodlord-rolegroup-api-openapi.yml
+  url: https://artifacts.apis.io/goodlord/openapi/goodlord-rolegroup-api-openapi.yml
 - filename: goodlord-subject-api-openapi.yml
   format: yaml
   label: Goodlord Subject API
   slug: goodlord-subject-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/openapi/goodlord-subject-api-openapi.yml
+  url: https://artifacts.apis.io/goodlord/openapi/goodlord-subject-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -152,7 +152,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: openapi/goodlor
   \ and is scoped to one or more companies[].\n    RoleGroups are flagged admin and/or agent. GET /api/v1/me returns the caller's own\n    identity, companies, roles and role groups. Every collection returns 403 when the resource\n    falls outside the caller's companies.\ndelegated_tokens:\n  api: Goodlord Referencing API\n  operations: [getBotToken, createBotToken]\n  paths:\n  - 'GET /referencing/subject/{subjectId}/auth/token'\n  - 'POST /referencing/subject/{subjectId}/auth/token'\n  note: >-\n    The Referencing API can mint a per-subject \"bot\" JWT scoped to a single subject —\n    a delegated token for driving a subject's own referencing journey. Goodlord publishes no\n    prose documentation for these two operations; their lifetime, audience and permitted\n    operations are undocumented.\nend_user_platform_identity:\n  scheme: OpenID Connect / OAuth 2.0 via Microsoft Entra External ID (Azure AD B2C) custom policy\n  audience: letting agents, landlords, tenants and guarantors —\
   \ NOT developers\n  tenant_id: 7ddbafdc-ee33-46fb-968a-3011e2a0a825\n  policy: B2C_1A_2_SIGNUPORSIGNIN\n  issuer: https://login.goodlord.co/7ddbafdc-ee33-46fb-968a-3011e2a0a825/v2.0/\n  discovery: well-known/goodlord-openid-configuration.json\n  scopes_supported: [openid]\n  id_token_signing_algs: [RS256]\n  subject_types: [pairwise]\n  custom_claims: [companies, userRoles, userTypes]\n  resource_scope_prefix: https://vouchauth.onmicrosoft.com/gl-api\n  note: >-\n    The \"vouchauth\" tenant name reflects Goodlord's Vouch referencing lineage — corroborated by\n    the Referencing API's own contact address, devs@vouch.co.uk, and by the \"vouch\" source name\n    in the webhook payload envelope.\ndiscovery:\n  oauth_authorization_server_metadata: false\n  openid_configuration_on_api_hosts: false\n  note: >-\n    Neither Referencing gateway serves RFC 8414 authorization-server metadata or an OIDC\n    discovery document. The only discovery document in the estate belongs to the end-user\n\
   \    platform login.\nrelated:\n  scopes: scopes/goodlord-scopes.yml\n  conventions: conventions/goodlord-conventions.yml\n  sandbox: sandbox/goodlord-sandbox.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/authentication/goodlord-authentication.yml
+source_yaml_url: https://artifacts.apis.io/goodlord/authentication/goodlord-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Real Estate

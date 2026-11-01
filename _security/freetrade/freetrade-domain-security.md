@@ -55,7 +55,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: freetrade.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  8 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  hsts_preload: true\n  server: cloudflare\n- host: web.freetrade.io\n  https: true\n  tls_version: TLSv1.3\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  hsts_preload: true\n  csp: true\n  x_content_type_options: nosniff\n  server: cloudflare\n  note: Authenticated web trading platform; strict CSP with nonce + strict-dynamic.\n- host: help.freetrade.io\n  https: true\n  tls_version: TLSv1.3\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  hsts_preload: true\n  csp: true\n  x_frame_options: DENY\n  x_content_type_options: nosniff\n  server: cloudflare\n  note: Intercom-hosted help centre (CNAME); response headers are Intercom's, not Freetrade's.\n\
   domains:\n- domain: freetrade.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\ngaps:\n- No DNSSEC on freetrade.io.\n- No CAA records on freetrade.io.\nx-evidence:\n  fetched: '2026-08-04'\n  method: dig + openssl s_client + curl -I\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freetrade/refs/heads/main/security/freetrade-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/freetrade/security/freetrade-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

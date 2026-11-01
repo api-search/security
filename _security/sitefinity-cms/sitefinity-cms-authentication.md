@@ -8,19 +8,19 @@ api_specs:
   label: Sitefinity CMS Blog Posts API
   slug: sitefinity-cms-blog-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/openapi/sitefinity-cms-blog-posts-api-openapi.yml
+  url: https://artifacts.apis.io/sitefinity-cms/openapi/sitefinity-cms-blog-posts-api-openapi.yml
 - filename: sitefinity-cms-events-api-openapi.yml
   format: yaml
   label: Sitefinity CMS Events API
   slug: sitefinity-cms-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/openapi/sitefinity-cms-events-api-openapi.yml
+  url: https://artifacts.apis.io/sitefinity-cms/openapi/sitefinity-cms-events-api-openapi.yml
 - filename: sitefinity-cms-news-items-api-openapi.yml
   format: yaml
   label: Sitefinity CMS News Items API
   slug: sitefinity-cms-news-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/openapi/sitefinity-cms-news-items-api-openapi.yml
+  url: https://artifacts.apis.io/sitefinity-cms/openapi/sitefinity-cms-news-items-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: sitefinity-cms-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sitefinity-cms-content-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - cookie\nschemes:\n- name: cookieAuth\n  type: apiKey\n  in: cookie\n  parameter: .ASPXAUTH\n  description: Sitefinity CMS uses ASP.NET forms authentication. Authenticate via the /Sitefinity/Authenticate/SWT\n    endpoint to obtain a token, or use the /api/default/Authenticate endpoint for REST token-based\n    auth.\n  sources:\n  - openapi/sitefinity-cms-content-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/authentication/sitefinity-cms-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sitefinity-cms/authentication/sitefinity-cms-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Content Management

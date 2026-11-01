@@ -7,43 +7,43 @@ api_specs:
   label: Mailosaur Analysis API
   slug: mailosaur-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/openapi/mailosaur-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/mailosaur/openapi/mailosaur-analysis-api-openapi.yml
 - filename: mailosaur-devices-api-openapi.yml
   format: yaml
   label: Mailosaur Devices API
   slug: mailosaur-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/openapi/mailosaur-devices-api-openapi.yml
+  url: https://artifacts.apis.io/mailosaur/openapi/mailosaur-devices-api-openapi.yml
 - filename: mailosaur-files-api-openapi.yml
   format: yaml
   label: Mailosaur Files API
   slug: mailosaur-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/openapi/mailosaur-files-api-openapi.yml
+  url: https://artifacts.apis.io/mailosaur/openapi/mailosaur-files-api-openapi.yml
 - filename: mailosaur-messages-api-openapi.yml
   format: yaml
   label: Mailosaur Messages API
   slug: mailosaur-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/openapi/mailosaur-messages-api-openapi.yml
+  url: https://artifacts.apis.io/mailosaur/openapi/mailosaur-messages-api-openapi.yml
 - filename: mailosaur-previews-api-openapi.yml
   format: yaml
   label: Mailosaur Previews API
   slug: mailosaur-previews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/openapi/mailosaur-previews-api-openapi.yml
+  url: https://artifacts.apis.io/mailosaur/openapi/mailosaur-previews-api-openapi.yml
 - filename: mailosaur-servers-api-openapi.yml
   format: yaml
   label: Mailosaur Servers API
   slug: mailosaur-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/openapi/mailosaur-servers-api-openapi.yml
+  url: https://artifacts.apis.io/mailosaur/openapi/mailosaur-servers-api-openapi.yml
 - filename: mailosaur-usage-api-openapi.yml
   format: yaml
   label: Mailosaur Usage API
   slug: mailosaur-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/openapi/mailosaur-usage-api-openapi.yml
+  url: https://artifacts.apis.io/mailosaur/openapi/mailosaur-usage-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\ndocs: https://mailosaur
   \ and password.\n  applied: global\n  sources:\n  - openapi/mailosaur-analysis-api-openapi.yml\n  - openapi/mailosaur-devices-api-openapi.yml\n  - openapi/mailosaur-files-api-openapi.yml\n  - openapi/mailosaur-messages-api-openapi.yml\n  - openapi/mailosaur-previews-api-openapi.yml\n  - openapi/mailosaur-servers-api-openapi.yml\n  - openapi/mailosaur-usage-api-openapi.yml\ncredentials:\n  kind: api-key\n  transport: HTTP Basic — API key as the username, password left empty\n  example: 'curl https://mailosaur.com/api/servers -u api:YOUR_API_KEY'\n  https_required: true\n  key_types:\n    - name: standard\n      scope: account-wide\n      capabilities: >-\n        Full access to all inboxes and all API operations, including creating and\n        deleting inboxes. Required for account-level surfaces — the Usage API,\n        the Devices (TOTP) API and the SCIM API.\n    - name: server-restricted\n      scope: single inbox (server)\n      capabilities: >-\n        Email and SMS functions on\
   \ one inbox only. Cannot create or delete\n        inboxes. A resource outside the key's scope is indistinguishable from one\n        that does not exist — both answer 404 with an empty body.\n  management:\n    console: https://mailosaur.com/app/keys\n    api_manageable: false\n    note: >-\n      Keys can only be created, revealed and deleted in the dashboard, and only\n      by an Account Administrator. There is no key-management API.\n  rotation:\n    expiry: none\n    note: >-\n      Keys never expire and cannot be renamed. Rotation means creating a\n      replacement and deleting the old key; deletion revokes immediately, so cut\n      over before deleting.\n  limits:\n    max_keys: unlimited\nx-evidence:\n  probed: '2026-08-14'\n  url: https://mailosaur.com/api/servers\n  http_status: 401\n  observation: >-\n    An unauthenticated GET returns 401 with `www-authenticate: Bearer` and\n    content-length 0. The advertised challenge scheme contradicts the documented\n    and working\
   \ Basic scheme, and the empty body means the response carries no\n    diagnostic at all. Recorded as observed; not corrected.\naccount_authentication:\n  note: >-\n    Distinct from API authentication. Dashboard sign-in supports Enterprise SSO\n    via SAML2 or OpenID Connect (documented integrations: Okta, Microsoft Entra),\n    with JIT and SCIM 2.0 provisioning. None of this applies to the REST API,\n    which is API-key-over-Basic only — there is no OAuth surface, and therefore\n    no scopes/ artifact for this provider.\n  sso_docs: https://mailosaur.com/docs/managing-your-account/sso\n  scim_docs: https://mailosaur.com/docs/managing-your-account/scim\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/authentication/mailosaur-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mailosaur/authentication/mailosaur-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Email Testing

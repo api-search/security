@@ -7,25 +7,25 @@ api_specs:
   label: blue-yonder Inventory API
   slug: blue-yonder-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blue-yonder/refs/heads/main/openapi/blue-yonder-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/blue-yonder/openapi/blue-yonder-inventory-api-openapi.yml
 - filename: blue-yonder-orders-api-openapi.yml
   format: yaml
   label: blue-yonder Orders API
   slug: blue-yonder-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blue-yonder/refs/heads/main/openapi/blue-yonder-orders-api-openapi.yml
+  url: https://artifacts.apis.io/blue-yonder/openapi/blue-yonder-orders-api-openapi.yml
 - filename: blue-yonder-receipts-api-openapi.yml
   format: yaml
   label: blue-yonder Receipts API
   slug: blue-yonder-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blue-yonder/refs/heads/main/openapi/blue-yonder-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/blue-yonder/openapi/blue-yonder-receipts-api-openapi.yml
 - filename: blue-yonder-tasks-api-openapi.yml
   format: yaml
   label: blue-yonder Tasks API
   slug: blue-yonder-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blue-yonder/refs/heads/main/openapi/blue-yonder-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/blue-yonder/openapi/blue-yonder-tasks-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -61,7 +61,7 @@ source_filename: blue-yonder-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/blue-yonder-warehouse-management-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.blueyonder.example.com/oauth/token\n    scopes: 2\n  sources:\n  - openapi/blue-yonder-warehouse-management-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/blue-yonder-warehouse-management-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blue-yonder/refs/heads/main/authentication/blue-yonder-authentication.yml
+source_yaml_url: https://artifacts.apis.io/blue-yonder/authentication/blue-yonder-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Supply Chain

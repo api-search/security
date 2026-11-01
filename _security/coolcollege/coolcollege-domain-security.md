@@ -5,19 +5,19 @@ api_specs:
   label: 酷学院 (Cool College) 学习 API
   slug: coolcollege-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coolcollege/refs/heads/main/openapi/coolcollege-default-api-openapi.yml
+  url: https://artifacts.apis.io/coolcollege/openapi/coolcollege-default-api-openapi.yml
 - filename: coolcollege-pet-api-openapi.yml
   format: yaml
   label: 酷学院 (Cool College) pet API
   slug: coolcollege-pet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coolcollege/refs/heads/main/openapi/coolcollege-pet-api-openapi.yml
+  url: https://artifacts.apis.io/coolcollege/openapi/coolcollege-pet-api-openapi.yml
 - filename: coolcollege-thirdoa-api-openapi.yml
   format: yaml
   label: 酷学院 (Cool College) thirdoa API
   slug: coolcollege-thirdoa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coolcollege/refs/heads/main/openapi/coolcollege-thirdoa-api-openapi.yml
+  url: https://artifacts.apis.io/coolcollege/openapi/coolcollege-thirdoa-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: coolcollege-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: coolcollege.cn\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 20 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: coolcollege.cn\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coolcollege/refs/heads/main/security/coolcollege-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/coolcollege/security/coolcollege-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Company

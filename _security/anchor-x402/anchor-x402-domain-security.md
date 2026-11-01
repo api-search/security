@@ -5,109 +5,103 @@ api_specs:
   label: anchor-x402 Anchor API
   slug: anchor-x402-anchor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-anchor-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-anchor-api-openapi.yml
 - filename: anchor-x402-attest-api-openapi.yml
   format: yaml
   label: anchor-x402 Attest API
   slug: anchor-x402-attest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-attest-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-attest-api-openapi.yml
 - filename: anchor-x402-aura-api-openapi.yml
   format: yaml
   label: anchor-x402 Aura API
   slug: anchor-x402-aura-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-aura-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-aura-api-openapi.yml
 - filename: anchor-x402-decode-api-openapi.yml
   format: yaml
   label: anchor-x402 Decode API
   slug: anchor-x402-decode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-decode-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-decode-api-openapi.yml
 - filename: anchor-x402-grade-api-openapi.yml
   format: yaml
   label: anchor-x402 Grade API
   slug: anchor-x402-grade-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-grade-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-grade-api-openapi.yml
 - filename: anchor-x402-health-api-openapi.yml
   format: yaml
   label: anchor-x402 Health API
   slug: anchor-x402-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-health-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-health-api-openapi.yml
 - filename: anchor-x402-intel-api-openapi.yml
   format: yaml
   label: anchor-x402 Intel API
   slug: anchor-x402-intel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-intel-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-intel-api-openapi.yml
 - filename: anchor-x402-investigate-api-openapi.yml
   format: yaml
   label: anchor-x402 Investigate API
   slug: anchor-x402-investigate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-investigate-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-investigate-api-openapi.yml
 - filename: anchor-x402-ledger-api-openapi.yml
   format: yaml
   label: anchor-x402 Ledger API
   slug: anchor-x402-ledger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-ledger-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-ledger-api-openapi.yml
 - filename: anchor-x402-oracle-api-openapi.yml
   format: yaml
   label: anchor-x402 Oracle API
   slug: anchor-x402-oracle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-oracle-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-oracle-api-openapi.yml
 - filename: anchor-x402-parse-api-openapi.yml
   format: yaml
   label: anchor-x402 Parse API
   slug: anchor-x402-parse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-parse-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-parse-api-openapi.yml
 - filename: anchor-x402-price-api-openapi.yml
   format: yaml
   label: anchor-x402 Price API
   slug: anchor-x402-price-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-price-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-price-api-openapi.yml
 - filename: anchor-x402-resolve-api-openapi.yml
   format: yaml
   label: anchor-x402 Resolve API
   slug: anchor-x402-resolve-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-resolve-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-resolve-api-openapi.yml
 - filename: anchor-x402-roast-api-openapi.yml
   format: yaml
   label: anchor-x402 Roast API
   slug: anchor-x402-roast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-roast-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-roast-api-openapi.yml
 - filename: anchor-x402-roll-api-openapi.yml
   format: yaml
   label: anchor-x402 Roll API
   slug: anchor-x402-roll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-roll-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-roll-api-openapi.yml
 - filename: anchor-x402-screen-api-openapi.yml
   format: yaml
   label: anchor-x402 Screen API
   slug: anchor-x402-screen-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-screen-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-screen-api-openapi.yml
 - filename: anchor-x402-tldr-api-openapi.yml
   format: yaml
   label: anchor-x402 Tldr API
   slug: anchor-x402-tldr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-tldr-api-openapi.yml
-- filename: anchor-x402-feedback-api-openapi.yml
-  format: yaml
-  label: anchor-x402 Feedback API
-  slug: anchor-x402-feedback-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-tldr-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -121,7 +115,7 @@ hosts:
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Apr 24 23:59:59 2027 GMT
+- cert_expires: Nov 22 23:59:59 2026 GMT
   host: api.anchor-x402.com
   hsts: false
   https: true
@@ -139,8 +133,8 @@ slug: anchor-x402-domain-security
 source_filename: anchor-x402-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: anchor-x402.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  4 01:26:27 2026 GMT\n  hsts: false\n- host: api.anchor-x402.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 24 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: anchor-x402.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/security/anchor-x402-domain-security.yml
+source_yaml: "generated: '2026-09-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: anchor-x402.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  4 01:26:27 2026 GMT\n  hsts: false\n- host: api.anchor-x402.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 22 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: anchor-x402.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml_url: https://artifacts.apis.io/anchor-x402/security/anchor-x402-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

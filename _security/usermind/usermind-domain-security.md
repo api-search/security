@@ -24,7 +24,7 @@ source_filename: usermind-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: usermind.com\n  https: false\ndomains:\n- domain: usermind.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/usermind/refs/heads/main/security/usermind-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/usermind/security/usermind-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

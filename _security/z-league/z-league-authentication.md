@@ -7,13 +7,13 @@ api_specs:
   label: Z League Leads API
   slug: z-league-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/z-league/refs/heads/main/openapi/z-league-leads-api-openapi.yml
+  url: https://artifacts.apis.io/z-league/openapi/z-league-leads-api-openapi.yml
 - filename: z-league-webhooks-api-openapi.yml
   format: yaml
   label: Z League Webhooks API
   slug: z-league-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/z-league/refs/heads/main/openapi/z-league-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/z-league/openapi/z-league-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -41,7 +41,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/z-league-crm-lead-openapi.json\ndocs: https://docs.gomega.ai/authentication\nsummary:\n  types:\n  - http\n  http_schemes:\n  - bearer\n  key_delivery: admin-issued (no self-serve key portal)\n  key_prefix: mega_\n  customer_scoped: true\n  extra_required_header: x-customer-id\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    Admin-issued Personal Access Token (PAT), e.g. `Authorization: Bearer mega_<64 hex>`.\n    Keys are issued by MEGA and delivered securely (there is no self-serve key portal —\n    request one from your MEGA account manager or support@gomega.ai). Each key is\n    customer-locked (using it with a different x-customer-id returns 403), scoped, and\n    shown only once.\n  sources:\n  - openapi/z-league-crm-lead-openapi.json\nrequired_headers:\n- name: Authorization\n  value: 'Bearer mega_<token>'\n- name: x-customer-id\n  value: UUID of the customer the request acts\
   \ on; must match the customer the key is locked to\nscopes:\n- scope: public_api:leads:read\n  grants: GET /api/agents/crm/leads\n- scope: public_api:leads:write\n  grants: POST /api/agents/crm/leads, POST /api/agents/crm/leads/bulk\n- scope: public_api:webhooks:manage\n  grants: The /api/agents/crm/lead-webhooks endpoints (list/create/update/delete)\nnotes:\n- Server-to-server only — secret-key endpoints; never call from a browser or mobile client.\n- Missing/invalid token or missing x-customer-id returns 401; missing scope or wrong customer returns 403.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/z-league/refs/heads/main/authentication/z-league-authentication.yml
+source_yaml_url: https://artifacts.apis.io/z-league/authentication/z-league-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

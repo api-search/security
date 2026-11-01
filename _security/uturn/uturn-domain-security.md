@@ -27,7 +27,7 @@ source_filename: uturn-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: uturn.me\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec  1 10:26:18 2026 GMT\n  hsts: false\ndomains:\n- domain: uturn.me\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uturn/refs/heads/main/security/uturn-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/uturn/security/uturn-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

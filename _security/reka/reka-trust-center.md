@@ -5,55 +5,55 @@ api_specs:
   label: Reka Clips API
   slug: reka-clips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/openapi/reka-clips-api-openapi.yml
+  url: https://artifacts.apis.io/reka/openapi/reka-clips-api-openapi.yml
 - filename: reka-models-api-openapi.yml
   format: yaml
   label: Reka Models API
   slug: reka-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/openapi/reka-models-api-openapi.yml
+  url: https://artifacts.apis.io/reka/openapi/reka-models-api-openapi.yml
 - filename: reka-qa-api-openapi.yml
   format: yaml
   label: Reka QA API
   slug: reka-qa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/openapi/reka-qa-api-openapi.yml
+  url: https://artifacts.apis.io/reka/openapi/reka-qa-api-openapi.yml
 - filename: reka-research-api-openapi.yml
   format: yaml
   label: Reka Research API
   slug: reka-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/openapi/reka-research-api-openapi.yml
+  url: https://artifacts.apis.io/reka/openapi/reka-research-api-openapi.yml
 - filename: reka-search-api-openapi.yml
   format: yaml
   label: Reka Search API
   slug: reka-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/openapi/reka-search-api-openapi.yml
+  url: https://artifacts.apis.io/reka/openapi/reka-search-api-openapi.yml
 - filename: reka-speech-api-openapi.yml
   format: yaml
   label: Reka Speech API
   slug: reka-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/openapi/reka-speech-api-openapi.yml
+  url: https://artifacts.apis.io/reka/openapi/reka-speech-api-openapi.yml
 - filename: reka-videogroups-api-openapi.yml
   format: yaml
   label: Reka VideoGroups API
   slug: reka-videogroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/openapi/reka-videogroups-api-openapi.yml
+  url: https://artifacts.apis.io/reka/openapi/reka-videogroups-api-openapi.yml
 - filename: reka-videos-api-openapi.yml
   format: yaml
   label: Reka Videos API
   slug: reka-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/openapi/reka-videos-api-openapi.yml
+  url: https://artifacts.apis.io/reka/openapi/reka-videos-api-openapi.yml
 - filename: reka-chat-completions-api-openapi.yml
   format: yaml
   label: Reka Chat Completions API
   slug: reka-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/openapi/reka-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/reka/openapi/reka-chat-completions-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2
@@ -70,7 +70,7 @@ source_filename: reka-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.reka.ai/\nurl: https://trust.reka.ai/\ncertifications:\n- SOC 2\nevidence:\n- source: https://trust.reka.ai/\n  keywords:\n  - soc 2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/security/reka-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/reka/security/reka-trust-center.yml
 summary_line: SOC 2
 tags:
 - Artificial Intelligence

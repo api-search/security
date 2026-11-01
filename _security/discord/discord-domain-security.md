@@ -5,91 +5,109 @@ api_specs:
   label: Discord Interactions API
   slug: discord-interactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-interactions-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-interactions-api-openapi.yml
 - filename: discord-webhook-events-api-openapi.yml
   format: yaml
   label: Discord Webhook Events API
   slug: discord-webhook-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-webhook-events-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-webhook-events-api-openapi.yml
 - filename: discord-applications-api-openapi.yml
   format: yaml
   label: Discord Applications API
   slug: discord-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-applications-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-applications-api-openapi.yml
 - filename: discord-channels-api-openapi.yml
   format: yaml
   label: Discord Channels API
   slug: discord-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-channels-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-channels-api-openapi.yml
 - filename: discord-gateway-api-openapi.yml
   format: yaml
   label: Discord Gateway API
   slug: discord-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-gateway-api-openapi.yml
 - filename: discord-guilds-api-openapi.yml
   format: yaml
   label: Discord Guilds API
   slug: discord-guilds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-guilds-api-openapi.yml
-- filename: discord-interaction-responses-api-openapi.yml
-  format: yaml
-  label: Discord Interaction Responses API
-  slug: discord-interaction-responses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-interaction-responses-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-guilds-api-openapi.yml
 - filename: discord-invites-api-openapi.yml
   format: yaml
   label: Discord Invites API
   slug: discord-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-invites-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-invites-api-openapi.yml
 - filename: discord-stage-instances-api-openapi.yml
   format: yaml
   label: Discord Stage Instances API
   slug: discord-stage-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-stage-instances-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-stage-instances-api-openapi.yml
 - filename: discord-sticker-packs-api-openapi.yml
   format: yaml
   label: Discord Sticker Packs API
   slug: discord-sticker-packs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-sticker-packs-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-sticker-packs-api-openapi.yml
 - filename: discord-stickers-api-openapi.yml
   format: yaml
   label: Discord Stickers API
   slug: discord-stickers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-stickers-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-stickers-api-openapi.yml
 - filename: discord-users-api-openapi.yml
   format: yaml
   label: Discord Users API
   slug: discord-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-users-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-users-api-openapi.yml
 - filename: discord-voice-api-openapi.yml
   format: yaml
   label: Discord Voice API
   slug: discord-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-voice-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-voice-api-openapi.yml
 - filename: discord-webhooks-api-openapi.yml
   format: yaml
   label: Discord Webhooks API
   slug: discord-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-webhooks-api-openapi.yml
 - filename: discord-oauth2-api-openapi.yml
   format: yaml
   label: Discord Oauth2 API
   slug: discord-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-oauth2-api-openapi.yml
+- filename: discord-lobbies-api-openapi.yml
+  format: yaml
+  label: Discord Lobbies API
+  slug: discord-lobbies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/discord/openapi/discord-lobbies-api-openapi.yml
+- filename: discord-partner-sdk-api-openapi.yml
+  format: yaml
+  label: Discord Partner Sdk API
+  slug: discord-partner-sdk-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/discord/openapi/discord-partner-sdk-api-openapi.yml
+- filename: discord-skus-api-openapi.yml
+  format: yaml
+  label: Discord Skus API
+  slug: discord-skus-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/discord/openapi/discord-skus-api-openapi.yml
+- filename: discord-soundboard-default-sounds-api-openapi.yml
+  format: yaml
+  label: Discord Soundboard Default Sounds API
+  slug: discord-soundboard-default-sounds-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/discord/openapi/discord-soundboard-default-sounds-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -119,7 +137,7 @@ source_filename: discord-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: discord.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 21:41:17 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: discord.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/security/discord-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/discord/security/discord-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Discord

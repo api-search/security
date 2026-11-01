@@ -8,19 +8,19 @@ api_specs:
   label: CrustAPI Demo API
   slug: crustapi-demo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crustapi/refs/heads/main/openapi/crustapi-demo-api-openapi.yml
+  url: https://artifacts.apis.io/crustapi/openapi/crustapi-demo-api-openapi.yml
 - filename: crustapi-search-api-openapi.yml
   format: yaml
   label: CrustAPI Search API
   slug: crustapi-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crustapi/refs/heads/main/openapi/crustapi-search-api-openapi.yml
+  url: https://artifacts.apis.io/crustapi/openapi/crustapi-search-api-openapi.yml
 - filename: crustapi-linked-in-api-openapi.yml
   format: yaml
   label: CrustAPI Linked In API
   slug: crustapi-linked-in-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crustapi/refs/heads/main/openapi/crustapi-linked-in-api-openapi.yml
+  url: https://artifacts.apis.io/crustapi/openapi/crustapi-linked-in-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -47,7 +47,7 @@ source_filename: crustapi-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-10'\nmethod: derived\nsource: openapi/crustapi-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/crustapi-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crustapi/refs/heads/main/authentication/crustapi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/crustapi/authentication/crustapi-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Search

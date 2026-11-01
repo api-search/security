@@ -5,67 +5,67 @@ api_specs:
   label: Varian Medical Systems Condition API
   slug: varian-medical-systems-condition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-condition-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-condition-api-openapi.yml
 - filename: varian-medical-systems-diagnosticreport-api-openapi.yml
   format: yaml
   label: Varian Medical Systems DiagnosticReport API
   slug: varian-medical-systems-diagnosticreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-diagnosticreport-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-diagnosticreport-api-openapi.yml
 - filename: varian-medical-systems-goal-api-openapi.yml
   format: yaml
   label: Varian Medical Systems Goal API
   slug: varian-medical-systems-goal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-goal-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-goal-api-openapi.yml
 - filename: varian-medical-systems-metadata-api-openapi.yml
   format: yaml
   label: Varian Medical Systems Metadata API
   slug: varian-medical-systems-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-metadata-api-openapi.yml
 - filename: varian-medical-systems-observation-api-openapi.yml
   format: yaml
   label: Varian Medical Systems Observation API
   slug: varian-medical-systems-observation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-observation-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-observation-api-openapi.yml
 - filename: varian-medical-systems-patient-api-openapi.yml
   format: yaml
   label: Varian Medical Systems Patient API
   slug: varian-medical-systems-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-patient-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-patient-api-openapi.yml
 - filename: varian-medical-systems-procedure-api-openapi.yml
   format: yaml
   label: Varian Medical Systems Procedure API
   slug: varian-medical-systems-procedure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-procedure-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-procedure-api-openapi.yml
 - filename: varian-medical-systems-allergy-intolerance-api-openapi.yml
   format: yaml
   label: Varian Medical Systems Allergy Intolerance API
   slug: varian-medical-systems-allergy-intolerance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-allergy-intolerance-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-allergy-intolerance-api-openapi.yml
 - filename: varian-medical-systems-care-plan-api-openapi.yml
   format: yaml
   label: Varian Medical Systems Care plan API
   slug: varian-medical-systems-care-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-care-plan-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-care-plan-api-openapi.yml
 - filename: varian-medical-systems-document-reference-api-openapi.yml
   format: yaml
   label: Varian Medical Systems Document Reference API
   slug: varian-medical-systems-document-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-document-reference-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-document-reference-api-openapi.yml
 - filename: varian-medical-systems-medication-request-api-openapi.yml
   format: yaml
   label: Varian Medical Systems Medication Request API
   slug: varian-medical-systems-medication-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-medication-request-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-medication-request-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -113,14 +113,14 @@ source_filename: varian-medical-systems-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: varian.dynamicfhir.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 15 13:02:07 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: www.varian.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 15:11:32 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: cancercare.siemens-healthineers.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 15:11:32 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\ndomains:\n- domain: dynamicfhir.com\n  dnssec: false\n  caa:\n  - ;; connection timed out; no servers could be reached\n  spf: false\n  dmarc: false\n- domain: varian.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/security/varian-medical-systems-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/varian-medical-systems/security/varian-medical-systems-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Healthcare
 - Oncology
 - Medical Devices
 - FHIR
-- Radiation Therapy
+- Radiation Oncology
 - Health IT
 - Fortune 1000
 ---

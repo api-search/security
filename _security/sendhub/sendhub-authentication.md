@@ -8,37 +8,37 @@ api_specs:
   label: SendHub Authentication API
   slug: sendhub-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/openapi/sendhub-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sendhub/openapi/sendhub-authentication-api-openapi.yml
 - filename: sendhub-contact-api-openapi.yml
   format: yaml
   label: SendHub Contact API
   slug: sendhub-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/openapi/sendhub-contact-api-openapi.yml
+  url: https://artifacts.apis.io/sendhub/openapi/sendhub-contact-api-openapi.yml
 - filename: sendhub-group-api-openapi.yml
   format: yaml
   label: SendHub Group API
   slug: sendhub-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/openapi/sendhub-group-api-openapi.yml
+  url: https://artifacts.apis.io/sendhub/openapi/sendhub-group-api-openapi.yml
 - filename: sendhub-message-api-openapi.yml
   format: yaml
   label: SendHub Message API
   slug: sendhub-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/openapi/sendhub-message-api-openapi.yml
+  url: https://artifacts.apis.io/sendhub/openapi/sendhub-message-api-openapi.yml
 - filename: sendhub-profile-api-openapi.yml
   format: yaml
   label: SendHub Profile API
   slug: sendhub-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/openapi/sendhub-profile-api-openapi.yml
+  url: https://artifacts.apis.io/sendhub/openapi/sendhub-profile-api-openapi.yml
 - filename: sendhub-thread-api-openapi.yml
   format: yaml
   label: SendHub Thread API
   slug: sendhub-thread-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/openapi/sendhub-thread-api-openapi.yml
+  url: https://artifacts.apis.io/sendhub/openapi/sendhub-thread-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -96,7 +96,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/sendhub-authentication-api-openapi.yml, openapi/sendhub-contact-api-openapi.yml,\n  openapi/sendhub-group-api-openapi.yml, openapi/sendhub-message-api-openapi.yml, openapi/sendhub-profile-api-openapi.yml,\n  openapi/sendhub-thread-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - query\nschemes:\n- name: username\n  type: apiKey\n  in: query\n  parameter: username\n  description: Your SendHub line's username (can be found in your My Settings page)\n  sources:\n  - openapi/sendhub-authentication-api-openapi.yml\n  - openapi/sendhub-contact-api-openapi.yml\n  - openapi/sendhub-group-api-openapi.yml\n  - openapi/sendhub-message-api-openapi.yml\n  - openapi/sendhub-profile-api-openapi.yml\n  - openapi/sendhub-thread-api-openapi.yml\n- name: api_key\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: Your SendHub line's API key (can be found in your My Settings page)\n  sources:\n\
   \  - openapi/sendhub-authentication-api-openapi.yml\n  - openapi/sendhub-contact-api-openapi.yml\n  - openapi/sendhub-group-api-openapi.yml\n  - openapi/sendhub-message-api-openapi.yml\n  - openapi/sendhub-profile-api-openapi.yml\n  - openapi/sendhub-thread-api-openapi.yml\n- name: basic_auth\n  type: http\n  scheme: basic\n  description: Use your SendHub line's password or API key as the password with HTTP Basic Authentication\n    (Your username and API key can be found in your My Settings page)\n  sources:\n  - openapi/sendhub-authentication-api-openapi.yml\n  - openapi/sendhub-contact-api-openapi.yml\n  - openapi/sendhub-group-api-openapi.yml\n  - openapi/sendhub-message-api-openapi.yml\n  - openapi/sendhub-profile-api-openapi.yml\n  - openapi/sendhub-thread-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/authentication/sendhub-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sendhub/authentication/sendhub-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Company

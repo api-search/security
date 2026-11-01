@@ -44,7 +44,7 @@ source_filename: unruly-studios-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.unrulysplats.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 10:13:04 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: status.unrulysplats.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 23:59:59 2026 GMT\n  hsts: false\n- host: gamelocker.unruly-studios.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 26 15:51:21 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: unrulysplats.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: unruly-studios.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unruly-studios/refs/heads/main/security/unruly-studios-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/unruly-studios/security/unruly-studios-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

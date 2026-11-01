@@ -5,31 +5,31 @@ api_specs:
   label: Azure SQL Database Databases API
   slug: microsoft-azure-sql-database-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/openapi/microsoft-azure-sql-database-databases-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-sql-database/openapi/microsoft-azure-sql-database-databases-api-openapi.yml
 - filename: microsoft-azure-sql-database-elasticpools-api-openapi.yml
   format: yaml
   label: Azure SQL Database ElasticPools API
   slug: microsoft-azure-sql-database-elasticpools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/openapi/microsoft-azure-sql-database-elasticpools-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-sql-database/openapi/microsoft-azure-sql-database-elasticpools-api-openapi.yml
 - filename: microsoft-azure-sql-database-failovergroups-api-openapi.yml
   format: yaml
   label: Azure SQL Database FailoverGroups API
   slug: microsoft-azure-sql-database-failovergroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/openapi/microsoft-azure-sql-database-failovergroups-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-sql-database/openapi/microsoft-azure-sql-database-failovergroups-api-openapi.yml
 - filename: microsoft-azure-sql-database-servers-api-openapi.yml
   format: yaml
   label: Azure SQL Database Servers API
   slug: microsoft-azure-sql-database-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/openapi/microsoft-azure-sql-database-servers-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-sql-database/openapi/microsoft-azure-sql-database-servers-api-openapi.yml
 - filename: microsoft-azure-sql-database-firewall-rules-api-openapi.yml
   format: yaml
   label: Azure SQL Database Firewall Rules API
   slug: microsoft-azure-sql-database-firewall-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/openapi/microsoft-azure-sql-database-firewall-rules-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-sql-database/openapi/microsoft-azure-sql-database-firewall-rules-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -78,7 +78,7 @@ source_filename: microsoft-azure-sql-database-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: portal.azure.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 19:53:18 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: learn.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 02:26:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: management.azure.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 23:36:21 2026 GMT\n  hsts: null\ndomains:\n- domain: azure.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/security/microsoft-azure-sql-database-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-sql-database/security/microsoft-azure-sql-database-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Database

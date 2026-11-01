@@ -5,19 +5,19 @@ api_specs:
   label: Metaplane Connections API
   slug: metaplane-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metaplane/refs/heads/main/openapi/metaplane-connections-api-openapi.yml
+  url: https://artifacts.apis.io/metaplane/openapi/metaplane-connections-api-openapi.yml
 - filename: metaplane-monitors-api-openapi.yml
   format: yaml
   label: Metaplane Monitors API
   slug: metaplane-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metaplane/refs/heads/main/openapi/metaplane-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/metaplane/openapi/metaplane-monitors-api-openapi.yml
 - filename: metaplane-tags-api-openapi.yml
   format: yaml
   label: Metaplane Tags API
   slug: metaplane-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metaplane/refs/heads/main/openapi/metaplane-tags-api-openapi.yml
+  url: https://artifacts.apis.io/metaplane/openapi/metaplane-tags-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -37,7 +37,7 @@ source_filename: metaplane-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-29'\nmethod: searched\nprobe: true\nsource: https://www.metaplane.dev/security\nurl: https://www.metaplane.dev/security\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\n- GDPR\nevidence:\n- source: https://www.metaplane.dev/security\n  keywords:\n  - soc 2\n  - iso 27001\n  - hipaa\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metaplane/refs/heads/main/security/metaplane-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/metaplane/security/metaplane-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - AIOps

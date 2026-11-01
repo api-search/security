@@ -5,127 +5,127 @@ api_specs:
   label: HappyOrNot Alert Comments API
   slug: happyornot-alert-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/openapi/happyornot-alert-comments-api-openapi.yml
+  url: https://artifacts.apis.io/happyornot/openapi/happyornot-alert-comments-api-openapi.yml
 - filename: happyornot-alert-specifications-api-openapi.yml
   format: yaml
   label: HappyOrNot Alert Specifications API
   slug: happyornot-alert-specifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/openapi/happyornot-alert-specifications-api-openapi.yml
+  url: https://artifacts.apis.io/happyornot/openapi/happyornot-alert-specifications-api-openapi.yml
 - filename: happyornot-alerts-api-openapi.yml
   format: yaml
   label: HappyOrNot Alerts API
   slug: happyornot-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/openapi/happyornot-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/happyornot/openapi/happyornot-alerts-api-openapi.yml
 - filename: happyornot-button-feedbacks-api-openapi.yml
   format: yaml
   label: HappyOrNot Button Feedbacks API
   slug: happyornot-button-feedbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/openapi/happyornot-button-feedbacks-api-openapi.yml
+  url: https://artifacts.apis.io/happyornot/openapi/happyornot-button-feedbacks-api-openapi.yml
 - filename: happyornot-contact-details-api-openapi.yml
   format: yaml
   label: HappyOrNot Contact Details API
   slug: happyornot-contact-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/openapi/happyornot-contact-details-api-openapi.yml
+  url: https://artifacts.apis.io/happyornot/openapi/happyornot-contact-details-api-openapi.yml
 - filename: happyornot-custom-data-fields-api-openapi.yml
   format: yaml
   label: HappyOrNot Custom Data Fields API
   slug: happyornot-custom-data-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/openapi/happyornot-custom-data-fields-api-openapi.yml
+  url: https://artifacts.apis.io/happyornot/openapi/happyornot-custom-data-fields-api-openapi.yml
 - filename: happyornot-demographics-api-openapi.yml
   format: yaml
   label: HappyOrNot Demographics API
   slug: happyornot-demographics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/openapi/happyornot-demographics-api-openapi.yml
+  url: https://artifacts.apis.io/happyornot/openapi/happyornot-demographics-api-openapi.yml
 - filename: happyornot-experience-points-api-openapi.yml
   format: yaml
   label: HappyOrNot Experience Points API
   slug: happyornot-experience-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/openapi/happyornot-experience-points-api-openapi.yml
+  url: https://artifacts.apis.io/happyornot/openapi/happyornot-experience-points-api-openapi.yml
 - filename: happyornot-follow-up-feedbacks-api-openapi.yml
   format: yaml
   label: HappyOrNot Follow Up Feedbacks API
   slug: happyornot-follow-up-feedbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/openapi/happyornot-follow-up-feedbacks-api-openapi.yml
+  url: https://artifacts.apis.io/happyornot/openapi/happyornot-follow-up-feedbacks-api-openapi.yml
 - filename: happyornot-follow-up-option-localizations-api-openapi.yml
   format: yaml
   label: HappyOrNot Follow Up Option Localizations API
   slug: happyornot-follow-up-option-localizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/openapi/happyornot-follow-up-option-localizations-api-openapi.yml
+  url: https://artifacts.apis.io/happyornot/openapi/happyornot-follow-up-option-localizations-api-openapi.yml
 - filename: happyornot-follow-up-options-api-openapi.yml
   format: yaml
   label: HappyOrNot Follow Up Options API
   slug: happyornot-follow-up-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/openapi/happyornot-follow-up-options-api-openapi.yml
+  url: https://artifacts.apis.io/happyornot/openapi/happyornot-follow-up-options-api-openapi.yml
 - filename: happyornot-follow-up-question-localizations-api-openapi.yml
   format: yaml
   label: HappyOrNot Follow Up Question Localizations API
   slug: happyornot-follow-up-question-localizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/openapi/happyornot-follow-up-question-localizations-api-openapi.yml
+  url: https://artifacts.apis.io/happyornot/openapi/happyornot-follow-up-question-localizations-api-openapi.yml
 - filename: happyornot-follow-up-questions-api-openapi.yml
   format: yaml
   label: HappyOrNot Follow Up Questions API
   slug: happyornot-follow-up-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/openapi/happyornot-follow-up-questions-api-openapi.yml
+  url: https://artifacts.apis.io/happyornot/openapi/happyornot-follow-up-questions-api-openapi.yml
 - filename: happyornot-metadata-api-openapi.yml
   format: yaml
   label: HappyOrNot Metadata API
   slug: happyornot-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/openapi/happyornot-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/happyornot/openapi/happyornot-metadata-api-openapi.yml
 - filename: happyornot-question-localizations-api-openapi.yml
   format: yaml
   label: HappyOrNot Question Localizations API
   slug: happyornot-question-localizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/openapi/happyornot-question-localizations-api-openapi.yml
+  url: https://artifacts.apis.io/happyornot/openapi/happyornot-question-localizations-api-openapi.yml
 - filename: happyornot-questions-api-openapi.yml
   format: yaml
   label: HappyOrNot Questions API
   slug: happyornot-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/openapi/happyornot-questions-api-openapi.yml
+  url: https://artifacts.apis.io/happyornot/openapi/happyornot-questions-api-openapi.yml
 - filename: happyornot-smileys-api-openapi.yml
   format: yaml
   label: HappyOrNot Smileys API
   slug: happyornot-smileys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/openapi/happyornot-smileys-api-openapi.yml
+  url: https://artifacts.apis.io/happyornot/openapi/happyornot-smileys-api-openapi.yml
 - filename: happyornot-surveys-api-openapi.yml
   format: yaml
   label: HappyOrNot Surveys API
   slug: happyornot-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/openapi/happyornot-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/happyornot/openapi/happyornot-surveys-api-openapi.yml
 - filename: happyornot-text-feedbacks-api-openapi.yml
   format: yaml
   label: HappyOrNot Text Feedbacks API
   slug: happyornot-text-feedbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/openapi/happyornot-text-feedbacks-api-openapi.yml
+  url: https://artifacts.apis.io/happyornot/openapi/happyornot-text-feedbacks-api-openapi.yml
 - filename: happyornot-token-introspection-api-openapi.yml
   format: yaml
   label: HappyOrNot Token Introspection API
   slug: happyornot-token-introspection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/openapi/happyornot-token-introspection-api-openapi.yml
+  url: https://artifacts.apis.io/happyornot/openapi/happyornot-token-introspection-api-openapi.yml
 - filename: happyornot-users-api-openapi.yml
   format: yaml
   label: HappyOrNot Users API
   slug: happyornot-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/openapi/happyornot-users-api-openapi.yml
+  url: https://artifacts.apis.io/happyornot/openapi/happyornot-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -160,7 +160,7 @@ source_filename: happyornot-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: happy-or-not.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 04:03:07 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.happy-or-not.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 11 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: happy-or-not.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/security/happyornot-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/happyornot/security/happyornot-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

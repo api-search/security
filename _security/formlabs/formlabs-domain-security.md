@@ -5,31 +5,31 @@ api_specs:
   label: Formlabs Consumables API
   slug: formlabs-consumables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/heads/main/openapi/formlabs-consumables-api-openapi.yml
+  url: https://artifacts.apis.io/formlabs/openapi/formlabs-consumables-api-openapi.yml
 - filename: formlabs-events-api-openapi.yml
   format: yaml
   label: Formlabs Events API
   slug: formlabs-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/heads/main/openapi/formlabs-events-api-openapi.yml
+  url: https://artifacts.apis.io/formlabs/openapi/formlabs-events-api-openapi.yml
 - filename: formlabs-groups-api-openapi.yml
   format: yaml
   label: Formlabs Groups API
   slug: formlabs-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/heads/main/openapi/formlabs-groups-api-openapi.yml
+  url: https://artifacts.apis.io/formlabs/openapi/formlabs-groups-api-openapi.yml
 - filename: formlabs-printers-api-openapi.yml
   format: yaml
   label: Formlabs Printers API
   slug: formlabs-printers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/heads/main/openapi/formlabs-printers-api-openapi.yml
+  url: https://artifacts.apis.io/formlabs/openapi/formlabs-printers-api-openapi.yml
 - filename: formlabs-prints-api-openapi.yml
   format: yaml
   label: Formlabs Prints API
   slug: formlabs-prints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/heads/main/openapi/formlabs-prints-api-openapi.yml
+  url: https://artifacts.apis.io/formlabs/openapi/formlabs-prints-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: formlabs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: formlabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15724800\n- host: formlabs-dashboard-api-resources.s3.amazonaws.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 23:59:59 2026 GMT\n  hsts: null\n- host: api.formlabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 10:28:15 2026 GMT\n  hsts: true\n  hsts_max_age: 15724800\ndomains:\n- domain: formlabs.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/heads/main/security/formlabs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/formlabs/security/formlabs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - 3D Printing

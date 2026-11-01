@@ -8,19 +8,19 @@ api_specs:
   label: TypingDNA Advanced API
   slug: typingdna-advanced-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/openapi/typingdna-advanced-api-openapi.yml
+  url: https://artifacts.apis.io/typingdna/openapi/typingdna-advanced-api-openapi.yml
 - filename: typingdna-optional-api-openapi.yml
   format: yaml
   label: TypingDNA Optional API
   slug: typingdna-optional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/openapi/typingdna-optional-api-openapi.yml
+  url: https://artifacts.apis.io/typingdna/openapi/typingdna-optional-api-openapi.yml
 - filename: typingdna-standard-api-openapi.yml
   format: yaml
   label: TypingDNA Standard API
   slug: typingdna-standard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/openapi/typingdna-standard-api-openapi.yml
+  url: https://artifacts.apis.io/typingdna/openapi/typingdna-standard-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -69,7 +69,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/typingdna-authentication-api-openapi-original.json, openapi/typingdna-verify-2fa-openapi.json\ndocs: https://api.typingdna.com/docs/index.html\nsummary:\n  types:\n  - apiKey\n  - http\n  - openIdConnect\n  api_key_in:\n  - header\nschemes:\n- name: basic_auth\n  type: http\n  scheme: basic\n  description: >-\n    HTTP Basic over HTTPS (TLS 1.2+): apiKey as username, apiSecret as\n    password. Keys are issued per account in the client dashboard\n    (https://www.typingdna.com/clients/signup, free Starter tier available).\n    Applies to every Authentication API operation on api.typingdna.com /\n    eu-api.typingdna.com / us-api.typingdna.com.\n  sources:\n  - openapi/typingdna-authentication-api-openapi-original.json\n- name: ResetProfileBasicAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Authorization token required for the /user/reset-profile endpoint. Obtain this\n    from the TypingDNA\
   \ Verify Dashboard under your application's Reset Profile endpoint section.\n  sources:\n  - openapi/typingdna-verify-2fa-openapi.json\n- name: verify_2fa_payload\n  type: custom\n  description: >-\n    Verify 2FA service calls (/otp/validate, /otp/send) authenticate with\n    clientId + applicationId + an encrypted payload generated server-side by\n    the official Verify client's getDataAttributes() using the application\n    secret; credentials differ between Sandbox and Production environments.\n  sources:\n  - https://verify.typingdna.com/docs\n- name: verify_oidc\n  type: openIdConnect\n  openIdConnectUrl: https://verify.typingdna.com/.well-known/openid-configuration\n  description: >-\n    Verify 2FA OIDC integration: verify.typingdna.com is a standard OIDC\n    issuer (authorization_code + refresh_token + device_code + jwt-bearer,\n    PKCE S256, RS256 id tokens; client_secret_post/client_secret_basic or\n    public/private key auth). Used to plug typing verification into Okta,\n\
   \    Ping Identity and Microsoft Entra ID.\n  sources:\n  - well-known/typingdna-verify-openid-configuration.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/authentication/typingdna-authentication.yml
+source_yaml_url: https://artifacts.apis.io/typingdna/authentication/typingdna-authentication.yml
 summary_line: apiKey/http/openIdConnect · 4 schemes
 tags:
 - Company

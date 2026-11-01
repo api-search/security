@@ -16,7 +16,7 @@ source_filename: banquet-health-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-09-27'\nmethod: searched\nprobe: true\nsource: https://www.banquethealth.com/security\nurl: https://www.banquethealth.com/security\ncertifications:\n- SOC 2\n- HIPAA\nevidence:\n- source: https://www.banquethealth.com/security\n  keywords:\n  - soc 2\n  - soc2\n  - hipaa\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/banquet-health/refs/heads/main/security/banquet-health-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/banquet-health/security/banquet-health-trust-center.yml
 summary_line: SOC 2, HIPAA
 tags:
 - Food Service Management

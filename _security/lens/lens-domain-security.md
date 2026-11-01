@@ -5,13 +5,25 @@ api_specs:
   label: Lens Patents API
   slug: lens-patents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lens/refs/heads/main/openapi/lens-patents-api-openapi.yml
+  url: https://artifacts.apis.io/lens/openapi/lens-patents-api-openapi.yml
 - filename: lens-scholarly-api-openapi.yml
   format: yaml
   label: Lens Scholarly API
   slug: lens-scholarly-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lens/refs/heads/main/openapi/lens-scholarly-api-openapi.yml
+  url: https://artifacts.apis.io/lens/openapi/lens-scholarly-api-openapi.yml
+- filename: lens-bulk-api-openapi.yml
+  format: yaml
+  label: Lens Bulk API
+  slug: lens-bulk-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lens/openapi/lens-bulk-api-openapi.yml
+- filename: lens-collections-api-openapi.yml
+  format: yaml
+  label: Lens Collections API
+  slug: lens-collections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lens/openapi/lens-collections-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -54,7 +66,7 @@ source_filename: lens-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.lens.org\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  2 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.api.lens.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 17:07:51 2026 GMT\n  hsts: false\n- host: api.lens.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: lens.org\n  dnssec: false\n  caa:\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lens/refs/heads/main/security/lens-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lens/security/lens-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Scholarly

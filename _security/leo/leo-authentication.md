@@ -7,13 +7,13 @@ api_specs:
   label: LeO Public API
   slug: leo-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leo/refs/heads/main/openapi/leo-prospects-api-openapi.yml
+  url: https://artifacts.apis.io/leo/openapi/leo-prospects-api-openapi.yml
 - filename: leo-health-api-openapi.yml
   format: yaml
   label: LeO Health API
   slug: leo-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leo/refs/heads/main/openapi/leo-health-api-openapi.yml
+  url: https://artifacts.apis.io/leo/openapi/leo-health-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -44,7 +44,7 @@ source_filename: leo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: derived\nsource: openapi/leo-account-api-openapi.yml, openapi/leo-credits-api-openapi.yml, openapi/leo-health-api-openapi.yml,\n  openapi/leo-jobs-api-openapi.yml, openapi/leo-prospects-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearer\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/leo-account-api-openapi.yml\n  - openapi/leo-credits-api-openapi.yml\n  - openapi/leo-health-api-openapi.yml\n  - openapi/leo-jobs-api-openapi.yml\n  - openapi/leo-prospects-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leo/refs/heads/main/authentication/leo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/leo/authentication/leo-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

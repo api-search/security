@@ -5,19 +5,19 @@ api_specs:
   label: Gridspace Conversations API
   slug: gridspace-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/openapi/gridspace-conversations-api-openapi.yml
-- filename: gridspace-messages-api-openapi.yml
+  url: https://artifacts.apis.io/gridspace/openapi/gridspace-conversations-api-openapi.yml
+- filename: gridspace-check-deprecation-api-openapi.yml
   format: yaml
-  label: Gridspace Messages API
-  slug: gridspace-messages-api
+  label: Gridspace Check Deprecation API
+  slug: gridspace-check-deprecation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/openapi/gridspace-messages-api-openapi.yml
-- filename: gridspace-sdk-api-openapi.yml
+  url: https://artifacts.apis.io/gridspace/openapi/gridspace-check-deprecation-api-openapi.yml
+- filename: gridspace-sms-api-openapi.yml
   format: yaml
-  label: Gridspace SDK API
-  slug: gridspace-sdk-api
+  label: Gridspace SMS API
+  slug: gridspace-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/openapi/gridspace-sdk-api-openapi.yml
+  url: https://artifacts.apis.io/gridspace/openapi/gridspace-sms-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -48,7 +48,7 @@ source_filename: gridspace-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: goguava.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 04:41:35 2026 GMT\n  hsts: false\n- host: api.goguava.ai\n  https: false\ndomains:\n- domain: goguava.ai\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/security/gridspace-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gridspace/security/gridspace-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

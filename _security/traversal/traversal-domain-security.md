@@ -5,7 +5,7 @@ api_specs:
   label: Traversal Sessions API
   slug: traversal-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traversal/refs/heads/main/openapi/traversal-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/traversal/openapi/traversal-sessions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -45,7 +45,7 @@ source_filename: traversal-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.traversal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 17:47:18 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.traversal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 19:23:38 2026 GMT\n  hsts: null\ndomains:\n- domain: traversal.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/traversal/refs/heads/main/security/traversal-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/traversal/security/traversal-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

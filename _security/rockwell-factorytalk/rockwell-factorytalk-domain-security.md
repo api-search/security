@@ -5,31 +5,31 @@ api_specs:
   label: Rockwell FactoryTalk Hub API
   slug: factorytalk-hub-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/asyncapi/rockwell-factorytalk-realtime-asyncapi.yml
+  url: https://artifacts.apis.io/rockwell-factorytalk/asyncapi/rockwell-factorytalk-realtime-asyncapi.yml
 - filename: rockwell-factorytalk-alarms-api-openapi.yml
   format: yaml
   label: rockwell-factorytalk Alarms API
   slug: rockwell-factorytalk-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/openapi/rockwell-factorytalk-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-factorytalk/openapi/rockwell-factorytalk-alarms-api-openapi.yml
 - filename: rockwell-factorytalk-recipes-api-openapi.yml
   format: yaml
   label: rockwell-factorytalk Recipes API
   slug: rockwell-factorytalk-recipes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/openapi/rockwell-factorytalk-recipes-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-factorytalk/openapi/rockwell-factorytalk-recipes-api-openapi.yml
 - filename: rockwell-factorytalk-tags-api-openapi.yml
   format: yaml
   label: rockwell-factorytalk Tags API
   slug: rockwell-factorytalk-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/openapi/rockwell-factorytalk-tags-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-factorytalk/openapi/rockwell-factorytalk-tags-api-openapi.yml
 - filename: rockwell-factorytalk-trenddata-api-openapi.yml
   format: yaml
   label: rockwell-factorytalk TrendData API
   slug: rockwell-factorytalk-trenddata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/openapi/rockwell-factorytalk-trenddata-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-factorytalk/openapi/rockwell-factorytalk-trenddata-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -62,7 +62,7 @@ source_filename: rockwell-factorytalk-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.rockwellautomation.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 22 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.rockwellautomation.com\n  https: false\ndomains:\n- domain: rockwellautomation.com\n  dnssec: false\n  caa:\n  - 1 issue \"letsencrypt.org\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/security/rockwell-factorytalk-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rockwell-factorytalk/security/rockwell-factorytalk-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Automation

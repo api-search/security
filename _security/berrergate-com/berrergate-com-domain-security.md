@@ -5,37 +5,37 @@ api_specs:
   label: Berrer A2a API
   slug: berrergate-com-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/berrergate-com/refs/heads/main/openapi/berrergate-com-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/berrergate-com/openapi/berrergate-com-a2a-api-openapi.yml
 - filename: berrergate-com-agent-api-openapi.yml
   format: yaml
   label: Berrer Agent API
   slug: berrergate-com-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/berrergate-com/refs/heads/main/openapi/berrergate-com-agent-api-openapi.yml
+  url: https://artifacts.apis.io/berrergate-com/openapi/berrergate-com-agent-api-openapi.yml
 - filename: berrergate-com-research-api-openapi.yml
   format: yaml
   label: Berrer Research API
   slug: berrergate-com-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/berrergate-com/refs/heads/main/openapi/berrergate-com-research-api-openapi.yml
+  url: https://artifacts.apis.io/berrergate-com/openapi/berrergate-com-research-api-openapi.yml
 - filename: berrergate-com-search-api-openapi.yml
   format: yaml
   label: Berrer Search API
   slug: berrergate-com-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/berrergate-com/refs/heads/main/openapi/berrergate-com-search-api-openapi.yml
+  url: https://artifacts.apis.io/berrergate-com/openapi/berrergate-com-search-api-openapi.yml
 - filename: berrergate-com-skill-md-api-openapi.yml
   format: yaml
   label: Berrer Skill.md API
   slug: berrergate-com-skill-md-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/berrergate-com/refs/heads/main/openapi/berrergate-com-skill-md-api-openapi.yml
+  url: https://artifacts.apis.io/berrergate-com/openapi/berrergate-com-skill-md-api-openapi.yml
 - filename: berrergate-com-well-known-api-openapi.yml
   format: yaml
   label: Berrer .well Known API
   slug: berrergate-com-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/berrergate-com/refs/heads/main/openapi/berrergate-com-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/berrergate-com/openapi/berrergate-com-well-known-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: berrergate-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: berrergate.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 15:04:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: berrergate.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/berrergate-com/refs/heads/main/security/berrergate-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/berrergate-com/security/berrergate-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Agents

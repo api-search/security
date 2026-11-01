@@ -8,49 +8,49 @@ api_specs:
   label: Probabl Anthropic Compatible Agent API
   slug: probabl-anthropic-compatible-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/openapi/probabl-anthropic-compatible-agent-api-openapi.yml
+  url: https://artifacts.apis.io/probabl/openapi/probabl-anthropic-compatible-agent-api-openapi.yml
 - filename: probabl-health-api-openapi.yml
   format: yaml
   label: Probabl Health API
   slug: probabl-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/openapi/probabl-health-api-openapi.yml
+  url: https://artifacts.apis.io/probabl/openapi/probabl-health-api-openapi.yml
 - filename: probabl-identity-api-openapi.yml
   format: yaml
   label: Probabl Identity API
   slug: probabl-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/openapi/probabl-identity-api-openapi.yml
+  url: https://artifacts.apis.io/probabl/openapi/probabl-identity-api-openapi.yml
 - filename: probabl-liveness-api-openapi.yml
   format: yaml
   label: Probabl Liveness API
   slug: probabl-liveness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/openapi/probabl-liveness-api-openapi.yml
+  url: https://artifacts.apis.io/probabl/openapi/probabl-liveness-api-openapi.yml
 - filename: probabl-llm-provider-api-openapi.yml
   format: yaml
   label: Probabl LLM Provider API
   slug: probabl-llm-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/openapi/probabl-llm-provider-api-openapi.yml
+  url: https://artifacts.apis.io/probabl/openapi/probabl-llm-provider-api-openapi.yml
 - filename: probabl-openai-compatible-agent-api-openapi.yml
   format: yaml
   label: Probabl OpenAI Compatible Agent API
   slug: probabl-openai-compatible-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/openapi/probabl-openai-compatible-agent-api-openapi.yml
+  url: https://artifacts.apis.io/probabl/openapi/probabl-openai-compatible-agent-api-openapi.yml
 - filename: probabl-projects-api-openapi.yml
   format: yaml
   label: Probabl Projects API
   slug: probabl-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/openapi/probabl-projects-api-openapi.yml
+  url: https://artifacts.apis.io/probabl/openapi/probabl-projects-api-openapi.yml
 - filename: probabl-readiness-api-openapi.yml
   format: yaml
   label: Probabl Readiness API
   slug: probabl-readiness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/openapi/probabl-readiness-api-openapi.yml
+  url: https://artifacts.apis.io/probabl/openapi/probabl-readiness-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -120,7 +120,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: searched\nsource:\n- https://api.
   \  description: Workspace-scoped API key. skore sends it as the X-API-Key header when SKORE_HUB_API_KEY is set (non-interactive\n    / agent use). Keys are minted by an interactively logged-in user.\n  lifecycle_operations:\n  - openapi/probabl-identity-api-openapi.yml#create_api_key_identity_users__user_id__api_keys_post\n  - openapi/probabl-identity-api-openapi.yml#list_api_keys_identity_users__user_id__api_keys_get\n  - openapi/probabl-identity-api-openapi.yml#patch_api_key_identity_users__user_id__api_keys__api_key_id__patch\n  - openapi/probabl-identity-api-openapi.yml#delete_api_key_identity_users__user_id__api_keys__api_key_id__delete\n  key_fields:\n    workspace_id: required\n    permissions: required, array of Permission\n    expires_at: optional date-time\n    name: optional\n  permissions:\n  - create:project\n  - read:project\n  - update:project\n  - delete:project\n  - create:invitation\n  - read:invitation\n  - delete:invitation\n  permissions_source: OpenAPI components.schemas.Permission\
   \ (API-key permissions, not OAuth scopes)\n  used_by:\n  - REST API\n  - Skore Hub MCP server (https://api.skore.probabl.ai/mcp) via requestHeaders X-API-Key\n- name: SkoreHubOAuth\n  type: oauth2\n  bearer_header: 'Authorization: Bearer <access_token>'\n  description: 'Interactive login. The hub brokers an external identity provider (OIDC): /identity/oauth/login returns\n    the IdP authorization_url (authorization code flow); /identity/oauth/device/login + /identity/oauth/device/token\n    implement a device flow used by the skore Python client and skore-cli. Refresh via /identity/oauth/token/refresh;\n    logout revokes tokens at the OAuth2 provider when a revocation endpoint is advertised.'\n  flows:\n  - flow: authorizationCode\n    operations:\n    - openapi/probabl-identity-api-openapi.yml#oauth_login_identity_oauth_login_get\n    - openapi/probabl-identity-api-openapi.yml#oauth_callback_identity_oauth_callback_get\n  - flow: deviceCode\n    operations:\n    - openapi/probabl-identity-api-openapi.yml#oauth_device_identity_oauth_device_login_get\n\
   \    - openapi/probabl-identity-api-openapi.yml#oauth_device_token_identity_oauth_device_token_get\n  scopes_documented: false\n  note: Token responses carry a `scope` string but no scope catalogue is published.\nworkspace_header:\n  name: x-skore-workspace\n  in: header\n  operations:\n  - /v1/chat/completions\n  - /v1/responses\n  - /v1/messages\nroles:\n  values:\n  - owner\n  - contributor\n  - reader\n  source: OpenAPI components.schemas.WorkspaceRole\ndocs: https://github.com/probabl-ai/skore-cli#agent\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/authentication/probabl-authentication.yml
+source_yaml_url: https://artifacts.apis.io/probabl/authentication/probabl-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company

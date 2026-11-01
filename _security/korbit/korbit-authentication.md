@@ -8,49 +8,49 @@ api_specs:
   label: Korbit Open API v2 WebSocket
   slug: korbit-open-api-v2-websocket
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/asyncapi/korbit-websocket-asyncapi.yml
+  url: https://artifacts.apis.io/korbit/asyncapi/korbit-websocket-asyncapi.yml
 - filename: korbit-asset-api-openapi.yml
   format: yaml
   label: Korbit Asset API
   slug: korbit-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/openapi/korbit-asset-api-openapi.yml
+  url: https://artifacts.apis.io/korbit/openapi/korbit-asset-api-openapi.yml
 - filename: korbit-deposit-crypto-api-openapi.yml
   format: yaml
   label: Korbit Deposit (Crypto) API
   slug: korbit-deposit-crypto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/openapi/korbit-deposit-crypto-api-openapi.yml
+  url: https://artifacts.apis.io/korbit/openapi/korbit-deposit-crypto-api-openapi.yml
 - filename: korbit-deposit-withdrawal-krw-api-openapi.yml
   format: yaml
   label: Korbit Deposit/Withdrawal (KRW) API
   slug: korbit-deposit-withdrawal-krw-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/openapi/korbit-deposit-withdrawal-krw-api-openapi.yml
+  url: https://artifacts.apis.io/korbit/openapi/korbit-deposit-withdrawal-krw-api-openapi.yml
 - filename: korbit-other-api-openapi.yml
   format: yaml
   label: Korbit Other API
   slug: korbit-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/openapi/korbit-other-api-openapi.yml
+  url: https://artifacts.apis.io/korbit/openapi/korbit-other-api-openapi.yml
 - filename: korbit-quotation-api-openapi.yml
   format: yaml
   label: Korbit Quotation API
   slug: korbit-quotation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/openapi/korbit-quotation-api-openapi.yml
+  url: https://artifacts.apis.io/korbit/openapi/korbit-quotation-api-openapi.yml
 - filename: korbit-trading-api-openapi.yml
   format: yaml
   label: Korbit Trading API
   slug: korbit-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/openapi/korbit-trading-api-openapi.yml
+  url: https://artifacts.apis.io/korbit/openapi/korbit-trading-api-openapi.yml
 - filename: korbit-withdrawal-crypto-api-openapi.yml
   format: yaml
   label: Korbit Withdrawal (Crypto) API
   slug: korbit-withdrawal-crypto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/openapi/korbit-withdrawal-crypto-api-openapi.yml
+  url: https://artifacts.apis.io/korbit/openapi/korbit-withdrawal-crypto-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -78,7 +78,7 @@ source_filename: korbit-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/korbit-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: KorbitApiKey\n  type: apiKey\n  in: header\n  parameter: X-KAPI-KEY\n  description: API key issued in the Korbit Developers portal (https://developers.korbit.co.kr).\n    Keys carry permissions (readOrders, writeOrders, readBalances, readDeposits, writeDeposits,\n    readWithdrawals, writeWithdrawals), may be pinned to an IP allowlist, and are valid for\n    one year. Every signed request additionally carries `timestamp` and `signature` parameters\n    (HMAC-SHA256 hex or ED25519 base64).\n  sources:\n  - openapi/korbit-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/authentication/korbit-authentication.yml
+source_yaml_url: https://artifacts.apis.io/korbit/authentication/korbit-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

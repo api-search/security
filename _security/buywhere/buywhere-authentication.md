@@ -2,24 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: buywhere-authentication-api-openapi.yml
-  format: yaml
-  label: BuyWhere Authentication API
-  slug: buywhere-authentication-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/openapi/buywhere-authentication-api-openapi.yml
 - filename: buywhere-categories-api-openapi.yml
   format: yaml
   label: BuyWhere Categories API
   slug: buywhere-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/openapi/buywhere-categories-api-openapi.yml
+  url: https://artifacts.apis.io/buywhere/openapi/buywhere-categories-api-openapi.yml
 - filename: buywhere-products-api-openapi.yml
   format: yaml
   label: BuyWhere Products API
   slug: buywhere-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/openapi/buywhere-products-api-openapi.yml
+  url: https://artifacts.apis.io/buywhere/openapi/buywhere-products-api-openapi.yml
+- filename: buywhere-auth-api-openapi.yml
+  format: yaml
+  label: BuyWhere Auth API
+  slug: buywhere-auth-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/buywhere/openapi/buywhere-auth-api-openapi.yml
+- filename: buywhere-featured-api-openapi.yml
+  format: yaml
+  label: BuyWhere Featured API
+  slug: buywhere-featured-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/buywhere/openapi/buywhere-featured-api-openapi.yml
+- filename: buywhere-usage-api-openapi.yml
+  format: yaml
+  label: BuyWhere Usage API
+  slug: buywhere-usage-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/buywhere/openapi/buywhere-usage-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -48,7 +60,7 @@ source_filename: buywhere-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/buywhere-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: |-\n    Pass your API key as a Bearer token. Get a free key at `POST /v1/auth/register`.\n    Tiers: `bw_free_*` (60 rpm), `bw_live_*` (600 rpm), `bw_partner_*` (unlimited).\n  sources:\n  - openapi/buywhere-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/authentication/buywhere-authentication.yml
+source_yaml_url: https://artifacts.apis.io/buywhere/authentication/buywhere-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - E-Commerce

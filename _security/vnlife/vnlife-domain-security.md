@@ -38,7 +38,7 @@ source_filename: vnlife-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: vnpay.vn\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 13 10:11:02 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: sandbox.vnpayment.vn\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: vnpay.vn\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: vnpayment.vn\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vnlife/refs/heads/main/security/vnlife-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vnlife/security/vnlife-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

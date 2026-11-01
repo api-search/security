@@ -7,55 +7,55 @@ api_specs:
   label: Energy Queensland Data Holder Customers API
   slug: energy-queensland-data-holder-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-data-holder-customers-api-openapi.yml
+  url: https://artifacts.apis.io/energy-queensland/openapi/energy-queensland-data-holder-customers-api-openapi.yml
 - filename: energy-queensland-data-holder-operations-api-openapi.yml
   format: yaml
   label: Energy Queensland Data Holder Operations API
   slug: energy-queensland-data-holder-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-data-holder-operations-api-openapi.yml
+  url: https://artifacts.apis.io/energy-queensland/openapi/energy-queensland-data-holder-operations-api-openapi.yml
 - filename: energy-queensland-distributed-energy-resources-api-openapi.yml
   format: yaml
   label: Energy Queensland Distributed Energy Resources API
   slug: energy-queensland-distributed-energy-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-distributed-energy-resources-api-openapi.yml
+  url: https://artifacts.apis.io/energy-queensland/openapi/energy-queensland-distributed-energy-resources-api-openapi.yml
 - filename: energy-queensland-electricity-service-points-api-openapi.yml
   format: yaml
   label: Energy Queensland Electricity Service Points API
   slug: energy-queensland-electricity-service-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-electricity-service-points-api-openapi.yml
+  url: https://artifacts.apis.io/energy-queensland/openapi/energy-queensland-electricity-service-points-api-openapi.yml
 - filename: energy-queensland-electricity-usage-api-openapi.yml
   format: yaml
   label: Energy Queensland Electricity Usage API
   slug: energy-queensland-electricity-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-electricity-usage-api-openapi.yml
+  url: https://artifacts.apis.io/energy-queensland/openapi/energy-queensland-electricity-usage-api-openapi.yml
 - filename: energy-queensland-energy-account-balances-api-openapi.yml
   format: yaml
   label: Energy Queensland Energy Account Balances API
   slug: energy-queensland-energy-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-energy-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/energy-queensland/openapi/energy-queensland-energy-account-balances-api-openapi.yml
 - filename: energy-queensland-energy-account-billing-api-openapi.yml
   format: yaml
   label: Energy Queensland Energy Account Billing API
   slug: energy-queensland-energy-account-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-energy-account-billing-api-openapi.yml
+  url: https://artifacts.apis.io/energy-queensland/openapi/energy-queensland-energy-account-billing-api-openapi.yml
 - filename: energy-queensland-energy-accounts-api-openapi.yml
   format: yaml
   label: Energy Queensland Energy Accounts API
   slug: energy-queensland-energy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-energy-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/energy-queensland/openapi/energy-queensland-energy-accounts-api-openapi.yml
 - filename: energy-queensland-energy-plans-api-openapi.yml
   format: yaml
   label: Energy Queensland Energy Plans API
   slug: energy-queensland-energy-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-energy-plans-api-openapi.yml
+  url: https://artifacts.apis.io/energy-queensland/openapi/energy-queensland-energy-plans-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -132,7 +132,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: >-\n  https://c
   \ and common operations\n    host: https://api.cdr.ergonretail.com.au\n    evidence: >-\n      The resource host resolves and its TLS handshake emits \"Request CERT (13)\"\n      backed by a private CDR certificate chain - the server demands a client\n      certificate issued by the CDR Register certificate authority. Observed\n      directly; no endpoint behind the gate was called.\n    certificate_authority: CDR Register (ACCC) private CA - transport and signing certificates\n  - name: CDR OAuth2 / FAPI 1.0 Advanced\n    type: oauth2\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: not publicly discoverable\n        tokenUrl: not publicly discoverable\n        scopes_detail: scopes/energy-queensland-scopes.yml\n    client_authentication: private_key_jwt\n    token_binding: mutual-TLS sender-constrained access tokens\n    features:\n      - Pushed Authorization Requests (PAR)\n      - PKCE\n      - request object signing (JARM where applicable)\n      - CDR Arrangement\
   \ Revocation endpoint\n      - consumer dashboard for consent review and revocation (mandated)\n    registration: >-\n      Dynamic Client Registration using a software statement assertion issued by\n      the CDR Register to an accredited data recipient software product.\n  - name: OpenID Connect\n    type: openIdConnect\n    openIdConnectUrl: not publicly discoverable\n    evidence: >-\n      Anonymous OIDC discovery was attempted and refused by design. On\n      2026-07-27 GET /.well-known/openid-configuration returned HTTP 404 on\n      public.cdr.ergonretail.com.au and on cdr.energymadeeasy.gov.au, and\n      /.well-known/oauth-authorization-server returned 404 on both. A CDR data\n      holder publishes its infosec base URI through the authenticated portion of\n      the CDR Register, so no OIDC metadata document is fetchable without\n      accreditation. See well-known/energy-queensland-well-known.yml.\nonboarding:\n  self_serve: false\n  steps:\n    - Apply to the ACCC for accreditation\
   \ as a CDR data recipient (unrestricted or sponsored), or operate under the CDR representative / trusted adviser pathways.\n    - Obtain client credentials plus transport and signing certificates from the CDR Register certificate authority.\n    - Complete Conformance Test Suite (CTS) testing.\n    - Register the software product and complete Dynamic Client Registration with the data holder.\n    - Initiate a consent flow that the individual Ergon Energy Retail customer approves.\n  gate: statutory, not commercial\nrelated:\n  scopes: scopes/energy-queensland-scopes.yml\n  conventions: conventions/energy-queensland-conventions.yml\n  conformance: conformance/energy-queensland-conformance.yml\n  well_known: well-known/energy-queensland-well-known.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/authentication/energy-queensland-authentication.yml
+source_yaml_url: https://artifacts.apis.io/energy-queensland/authentication/energy-queensland-authentication.yml
 summary_line: none/oauth2/openIdConnect/mutualTLS · 4 schemes
 tags:
 - Energy

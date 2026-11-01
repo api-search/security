@@ -5,37 +5,37 @@ api_specs:
   label: FullContact Address API
   slug: fullcontact-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullcontact/refs/heads/main/openapi/fullcontact-address-api-openapi.yml
+  url: https://artifacts.apis.io/fullcontact/openapi/fullcontact-address-api-openapi.yml
 - filename: fullcontact-audience-api-openapi.yml
   format: yaml
   label: FullContact Audience API
   slug: fullcontact-audience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullcontact/refs/heads/main/openapi/fullcontact-audience-api-openapi.yml
+  url: https://artifacts.apis.io/fullcontact/openapi/fullcontact-audience-api-openapi.yml
 - filename: fullcontact-enrich-api-openapi.yml
   format: yaml
   label: FullContact Enrich API
   slug: fullcontact-enrich-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullcontact/refs/heads/main/openapi/fullcontact-enrich-api-openapi.yml
+  url: https://artifacts.apis.io/fullcontact/openapi/fullcontact-enrich-api-openapi.yml
 - filename: fullcontact-identity-api-openapi.yml
   format: yaml
   label: FullContact Identity API
   slug: fullcontact-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullcontact/refs/heads/main/openapi/fullcontact-identity-api-openapi.yml
+  url: https://artifacts.apis.io/fullcontact/openapi/fullcontact-identity-api-openapi.yml
 - filename: fullcontact-permission-api-openapi.yml
   format: yaml
   label: FullContact Permission API
   slug: fullcontact-permission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullcontact/refs/heads/main/openapi/fullcontact-permission-api-openapi.yml
+  url: https://artifacts.apis.io/fullcontact/openapi/fullcontact-permission-api-openapi.yml
 - filename: fullcontact-tags-api-openapi.yml
   format: yaml
   label: FullContact Tags API
   slug: fullcontact-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullcontact/refs/heads/main/openapi/fullcontact-tags-api-openapi.yml
+  url: https://artifacts.apis.io/fullcontact/openapi/fullcontact-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: fullcontact-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fullcontact.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 03:00:12 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.fullcontact.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  7 14:04:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.fullcontact.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 26 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: fullcontact.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fullcontact/refs/heads/main/security/fullcontact-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fullcontact/security/fullcontact-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Identity Resolution

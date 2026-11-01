@@ -7,13 +7,13 @@ api_specs:
   label: Steadfast Group Address API
   slug: steadfast-group-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steadfast-group/refs/heads/main/openapi/steadfast-group-address-api-openapi.yml
+  url: https://artifacts.apis.io/steadfast-group/openapi/steadfast-group-address-api-openapi.yml
 - filename: steadfast-group-risk-api-openapi.yml
   format: yaml
   label: Steadfast Group Risk API
   slug: steadfast-group-risk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steadfast-group/refs/heads/main/openapi/steadfast-group-risk-api-openapi.yml
+  url: https://artifacts.apis.io/steadfast-group/openapi/steadfast-group-risk-api-openapi.yml
 auth_types:
 - none
 - openIdConnect
@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-07-25'\nmethod: searched\nsource: https://idp.ste
   \    grant_types_supported:\n      - authorization_code\n      - implicit\n      - refresh_token\n      - password\n      - urn:ietf:params:oauth:grant-type:device_code\n      - urn:openid:params:grant-type:ciba\n      - urn:okta:params:oauth:grant-type:otp\n      - urn:okta:params:oauth:grant-type:oob\n    response_types_supported:\n      - code\n      - id_token\n      - code id_token\n      - code token\n      - id_token token\n      - code id_token token\n    token_endpoint_auth_methods_supported:\n      - client_secret_basic\n      - client_secret_post\n      - client_secret_jwt\n      - private_key_jwt\n      - none\n    pkce:\n      supported: true\n      code_challenge_methods:\n        - S256\n    dpop:\n      supported: true\n      signing_algs:\n        - RS256\n        - RS384\n        - RS512\n        - ES256\n        - ES384\n        - ES512\n    id_token_signing_alg_values_supported:\n      - RS256\n    subject_types_supported:\n      - public\n    request_parameter_supported:\
   \ true\n    scopes: scopes/steadfast-group-scopes.yml\n    sources:\n      - well-known/steadfast-group-openid-configuration.json\n      - well-known/steadfast-group-oauth-authorization-server.json\nobservations:\n  - >-\n    PKCE with S256 and DPoP proof-of-possession are both advertised - a modern posture for a\n    broker-network identity provider, and stronger than the estate's published documentation\n    (of which there is none) would suggest.\n  - >-\n    The Resource Owner Password Credentials grant (`password`) and the `implicit` response types\n    remain enabled. Both are discouraged by OAuth 2.1 and BCP 212; their presence is recorded as\n    observed configuration, not as a recommendation.\n  - >-\n    `token_endpoint_auth_methods_supported` includes `none`, meaning public clients (SPA/mobile)\n    are provisioned on this tenant alongside confidential clients using private_key_jwt.\n  - >-\n    No mutualTLS, no API-key scheme and no HTTP basic scheme is published anywhere\
   \ on the\n    Steadfast estate.\ngaps:\n  - No developer-facing authentication documentation exists on any public Steadfast property.\n  - >-\n    api.steadfast.com.au - the partner API host - publishes no auth metadata; /.well-known/\n    returns 503 and the root returns 403, so its token model is not externally observable.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/steadfast-group/refs/heads/main/authentication/steadfast-group-authentication.yml
+source_yaml_url: https://artifacts.apis.io/steadfast-group/authentication/steadfast-group-authentication.yml
 summary_line: none/openIdConnect/oauth2 · 2 schemes
 tags:
 - Insurance

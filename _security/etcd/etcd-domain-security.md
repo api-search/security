@@ -5,37 +5,37 @@ api_specs:
   label: Etcd Auth API
   slug: etcd-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etcd/refs/heads/main/openapi/etcd-auth-api-openapi.yml
+  url: https://artifacts.apis.io/etcd/openapi/etcd-auth-api-openapi.yml
 - filename: etcd-cluster-api-openapi.yml
   format: yaml
   label: Etcd Cluster API
   slug: etcd-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etcd/refs/heads/main/openapi/etcd-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/etcd/openapi/etcd-cluster-api-openapi.yml
 - filename: etcd-kv-api-openapi.yml
   format: yaml
   label: Etcd KV API
   slug: etcd-kv-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etcd/refs/heads/main/openapi/etcd-kv-api-openapi.yml
+  url: https://artifacts.apis.io/etcd/openapi/etcd-kv-api-openapi.yml
 - filename: etcd-lease-api-openapi.yml
   format: yaml
   label: Etcd Lease API
   slug: etcd-lease-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etcd/refs/heads/main/openapi/etcd-lease-api-openapi.yml
+  url: https://artifacts.apis.io/etcd/openapi/etcd-lease-api-openapi.yml
 - filename: etcd-maintenance-api-openapi.yml
   format: yaml
   label: Etcd Maintenance API
   slug: etcd-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etcd/refs/heads/main/openapi/etcd-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/etcd/openapi/etcd-maintenance-api-openapi.yml
 - filename: etcd-watch-api-openapi.yml
   format: yaml
   label: Etcd Watch API
   slug: etcd-watch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etcd/refs/heads/main/openapi/etcd-watch-api-openapi.yml
+  url: https://artifacts.apis.io/etcd/openapi/etcd-watch-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: etcd-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: etcd.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 03:13:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: etcd.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/etcd/refs/heads/main/security/etcd-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/etcd/security/etcd-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Cloud-Native

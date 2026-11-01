@@ -8,25 +8,25 @@ api_specs:
   label: Beeceptor Endpoint Settings API
   slug: beeceptor-endpoint-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeceptor/refs/heads/main/openapi/beeceptor-endpoint-settings-api-openapi.yml
+  url: https://artifacts.apis.io/beeceptor/openapi/beeceptor-endpoint-settings-api-openapi.yml
 - filename: beeceptor-mock-rules-api-openapi.yml
   format: yaml
   label: Beeceptor Mock Rules API
   slug: beeceptor-mock-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeceptor/refs/heads/main/openapi/beeceptor-mock-rules-api-openapi.yml
+  url: https://artifacts.apis.io/beeceptor/openapi/beeceptor-mock-rules-api-openapi.yml
 - filename: beeceptor-request-history-api-openapi.yml
   format: yaml
   label: Beeceptor Request History API
   slug: beeceptor-request-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeceptor/refs/heads/main/openapi/beeceptor-request-history-api-openapi.yml
+  url: https://artifacts.apis.io/beeceptor/openapi/beeceptor-request-history-api-openapi.yml
 - filename: beeceptor-state-store-api-openapi.yml
   format: yaml
   label: Beeceptor State Store API
   slug: beeceptor-state-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeceptor/refs/heads/main/openapi/beeceptor-state-store-api-openapi.yml
+  url: https://artifacts.apis.io/beeceptor/openapi/beeceptor-state-store-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -53,7 +53,7 @@ source_filename: beeceptor-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/beeceptor-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/beeceptor-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beeceptor/refs/heads/main/authentication/beeceptor-authentication.yml
+source_yaml_url: https://artifacts.apis.io/beeceptor/authentication/beeceptor-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - API Mocking

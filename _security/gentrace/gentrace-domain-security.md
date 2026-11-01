@@ -5,25 +5,25 @@ api_specs:
   label: Gentrace Datasets API
   slug: gentrace-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gentrace/refs/heads/main/openapi/gentrace-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/gentrace/openapi/gentrace-datasets-api-openapi.yml
 - filename: gentrace-experiments-api-openapi.yml
   format: yaml
   label: Gentrace Experiments API
   slug: gentrace-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gentrace/refs/heads/main/openapi/gentrace-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/gentrace/openapi/gentrace-experiments-api-openapi.yml
 - filename: gentrace-pipelines-api-openapi.yml
   format: yaml
   label: Gentrace Pipelines API
   slug: gentrace-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gentrace/refs/heads/main/openapi/gentrace-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/gentrace/openapi/gentrace-pipelines-api-openapi.yml
 - filename: gentrace-test-cases-api-openapi.yml
   format: yaml
   label: Gentrace Test Cases API
   slug: gentrace-test-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gentrace/refs/heads/main/openapi/gentrace-test-cases-api-openapi.yml
+  url: https://artifacts.apis.io/gentrace/openapi/gentrace-test-cases-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: gentrace-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gentrace.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 20:11:42 2026 GMT\n  hsts: false\ndomains:\n- domain: gentrace.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gentrace/refs/heads/main/security/gentrace-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gentrace/security/gentrace-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

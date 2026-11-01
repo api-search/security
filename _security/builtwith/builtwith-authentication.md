@@ -9,283 +9,283 @@ api_specs:
   label: BuiltWith Domain API
   slug: builtwith-domain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-domain-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-domain-api-openapi.yml
 - filename: builtwith-lists-api-openapi.yml
   format: yaml
   label: BuiltWith Lists API
   slug: builtwith-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-lists-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-lists-api-openapi.yml
 - filename: builtwith-trends-api-openapi.yml
   format: yaml
   label: BuiltWith Trends API
   slug: builtwith-trends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-trends-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-trends-api-openapi.yml
 - filename: builtwith-change-api-openapi.yml
   format: yaml
   label: BuiltWith Change API
   slug: builtwith-change-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-change-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-change-api-openapi.yml
 - filename: builtwith-relationships-api-openapi.yml
   format: yaml
   label: BuiltWith Relationships API
   slug: builtwith-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-relationships-api-openapi.yml
 - filename: builtwith-free-api-openapi.yml
   format: yaml
   label: BuiltWith Free API
   slug: builtwith-free-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-free-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-free-api-openapi.yml
 - filename: builtwith-ask-api-openapi.yml
   format: yaml
   label: BuiltWith Ask API
   slug: builtwith-ask-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-ask-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-ask-api-openapi.yml
 - filename: builtwith-live-feed-asyncapi.yml
   format: yaml
   label: BuiltWith Live Feed API
   slug: builtwith-live-feed-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/asyncapi/builtwith-live-feed-asyncapi.yml
+  url: https://artifacts.apis.io/builtwith/asyncapi/builtwith-live-feed-asyncapi.yml
 - filename: builtwith-tags-api-openapi.yml
   format: yaml
   label: BuiltWith Tags API
   slug: builtwith-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-tags-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-tags-api-openapi.yml
 - filename: builtwith-recommendations-api-openapi.yml
   format: yaml
   label: BuiltWith Recommendations API
   slug: builtwith-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-recommendations-api-openapi.yml
 - filename: builtwith-keywords-api-openapi.yml
   format: yaml
   label: BuiltWith Keywords API
   slug: builtwith-keywords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-keywords-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-keywords-api-openapi.yml
 - filename: builtwith-redirects-api-openapi.yml
   format: yaml
   label: BuiltWith Redirects API
   slug: builtwith-redirects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-redirects-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-redirects-api-openapi.yml
 - filename: builtwith-product-api-openapi.yml
   format: yaml
   label: BuiltWith Product API
   slug: builtwith-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-product-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-product-api-openapi.yml
 - filename: builtwith-trust-api-openapi.yml
   format: yaml
   label: BuiltWith Trust API
   slug: builtwith-trust-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-trust-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-trust-api-openapi.yml
 - filename: builtwith-financial-api-openapi.yml
   format: yaml
   label: BuiltWith Financial API
   slug: builtwith-financial-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-financial-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-financial-api-openapi.yml
 - filename: builtwith-bulk-processing-api-openapi.yml
   format: yaml
   label: BuiltWith Bulk Processing API
   slug: builtwith-bulk-processing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-bulk-processing-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-bulk-processing-api-openapi.yml
 - filename: builtwith-domain-lookup-api-openapi.yml
   format: yaml
   label: BuiltWith Domain Lookup API
   slug: builtwith-domain-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-domain-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-domain-lookup-api-openapi.yml
 - filename: builtwith-technology-lists-api-openapi.yml
   format: yaml
   label: BuiltWith Technology Lists API
   slug: builtwith-technology-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-technology-lists-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-technology-lists-api-openapi.yml
 - filename: builtwith-agentauth-api-openapi.yml
   format: yaml
   label: BuiltWith Agent Auth API
   slug: builtwith-agentauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-agentauth-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-agentauth-api-openapi.yml
 - filename: builtwith-agentpayments-api-openapi.yml
   format: yaml
   label: BuiltWith Agent Payments API
   slug: builtwith-agentpayments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-agentpayments-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-agentpayments-api-openapi.yml
 - filename: builtwith-ask-api-openapi.yml
   format: yaml
   label: BuiltWith Ask API
   slug: builtwith-ask-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-ask-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-ask-api-openapi.yml
 - filename: builtwith-change-api-openapi.yml
   format: yaml
   label: BuiltWith Change API
   slug: builtwith-change-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-change-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-change-api-openapi.yml
 - filename: builtwith-company-research-api-openapi.yml
   format: yaml
   label: BuiltWith Company Research API
   slug: builtwith-company-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-company-research-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-company-research-api-openapi.yml
 - filename: builtwith-companytourl-api-openapi.yml
   format: yaml
   label: BuiltWith Company To URL API
   slug: builtwith-companytourl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-companytourl-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-companytourl-api-openapi.yml
 - filename: builtwith-domain-api-openapi.yml
   format: yaml
   label: BuiltWith Domain API
   slug: builtwith-domain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-domain-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-domain-api-openapi.yml
 - filename: builtwith-domain-intelligence-api-openapi.yml
   format: yaml
   label: BuiltWith Domain Intelligence API
   slug: builtwith-domain-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-domain-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-domain-intelligence-api-openapi.yml
 - filename: builtwith-financial-api-openapi.yml
   format: yaml
   label: BuiltWith Financial API
   slug: builtwith-financial-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-financial-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-financial-api-openapi.yml
 - filename: builtwith-free-api-openapi.yml
   format: yaml
   label: BuiltWith Free API
   slug: builtwith-free-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-free-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-free-api-openapi.yml
 - filename: builtwith-keywords-api-openapi.yml
   format: yaml
   label: BuiltWith Keywords API
   slug: builtwith-keywords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-keywords-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-keywords-api-openapi.yml
 - filename: builtwith-keywordsearch-api-openapi.yml
   format: yaml
   label: BuiltWith Keyword Search API
   slug: builtwith-keywordsearch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-keywordsearch-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-keywordsearch-api-openapi.yml
 - filename: builtwith-list-passes-api-openapi.yml
   format: yaml
   label: BuiltWith List Passes API
   slug: builtwith-list-passes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-list-passes-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-list-passes-api-openapi.yml
 - filename: builtwith-lists-api-openapi.yml
   format: yaml
   label: BuiltWith Lists API
   slug: builtwith-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-lists-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-lists-api-openapi.yml
 - filename: builtwith-meta-api-openapi.yml
   format: yaml
   label: BuiltWith Meta API
   slug: builtwith-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-meta-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-meta-api-openapi.yml
 - filename: builtwith-mppx-api-openapi.yml
   format: yaml
   label: BuiltWith Mppx API
   slug: builtwith-mppx-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-mppx-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-mppx-api-openapi.yml
 - filename: builtwith-product-api-openapi.yml
   format: yaml
   label: BuiltWith Product API
   slug: builtwith-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-product-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-product-api-openapi.yml
 - filename: builtwith-recommendations-api-openapi.yml
   format: yaml
   label: BuiltWith Recommendations API
   slug: builtwith-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-recommendations-api-openapi.yml
 - filename: builtwith-redirects-api-openapi.yml
   format: yaml
   label: BuiltWith Redirects API
   slug: builtwith-redirects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-redirects-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-redirects-api-openapi.yml
 - filename: builtwith-relationships-api-openapi.yml
   format: yaml
   label: BuiltWith Relationships API
   slug: builtwith-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-relationships-api-openapi.yml
 - filename: builtwith-social-api-openapi.yml
   format: yaml
   label: BuiltWith Social API
   slug: builtwith-social-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-social-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-social-api-openapi.yml
 - filename: builtwith-tags-api-openapi.yml
   format: yaml
   label: BuiltWith Tags API
   slug: builtwith-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-tags-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-tags-api-openapi.yml
 - filename: builtwith-technology-discovery-api-openapi.yml
   format: yaml
   label: BuiltWith Technology Discovery API
   slug: builtwith-technology-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-technology-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-technology-discovery-api-openapi.yml
 - filename: builtwith-technology-intelligence-api-openapi.yml
   format: yaml
   label: BuiltWith Technology Intelligence API
   slug: builtwith-technology-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-technology-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-technology-intelligence-api-openapi.yml
 - filename: builtwith-trends-api-openapi.yml
   format: yaml
   label: BuiltWith Trends API
   slug: builtwith-trends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-trends-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-trends-api-openapi.yml
 - filename: builtwith-trust-and-risk-api-openapi.yml
   format: yaml
   label: BuiltWith Trust and Risk API
   slug: builtwith-trust-and-risk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-trust-and-risk-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-trust-and-risk-api-openapi.yml
 - filename: builtwith-trust-api-openapi.yml
   format: yaml
   label: BuiltWith Trust API
   slug: builtwith-trust-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-trust-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-trust-api-openapi.yml
 - filename: builtwith-vector-api-openapi.yml
   format: yaml
   label: BuiltWith Vector API
   slug: builtwith-vector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-vector-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-vector-api-openapi.yml
 - filename: builtwith-website-search-api-openapi.yml
   format: yaml
   label: BuiltWith Website Search API
   slug: builtwith-website-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-website-search-api-openapi.yml
+  url: https://artifacts.apis.io/builtwith/openapi/builtwith-website-search-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -388,7 +388,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\ndocs: https://api.built
   \ credential obtained from\n    https://payments.builtwith.com/agent-payment-api-config. General API keys and temporary\n    bw- tokens cannot purchase credits.\n  sources:\n  - openapi/builtwith-agent-stripe-topup-openapi.json\n  - openapi/builtwith-rest-api-openapi.json\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.builtwith.com/authorize\n    tokenUrl: https://api.builtwith.com/token\n    registrationUrl: https://api.builtwith.com/oauth/register\n    code_challenge_methods: [S256]\n    token_endpoint_auth_methods: [none]\n    scopes: [api.read, api.write]\n  discovery:\n  - https://api.builtwith.com/.well-known/oauth-authorization-server\n  - https://api.builtwith.com/.well-known/oauth-protected-resource\n  note: >-\n    Not declared in any OpenAPI - published only as RFC 8414 / RFC 9728 discovery documents,\n    which is the shape an MCP client negotiates. Detail in scopes/builtwith-scopes.yml.\n  sources:\n  - https://api.builtwith.com/.well-known/oauth-authorization-server\n\
   device_code_authorization:\n  purpose: Lets an agent obtain a temporary token without asking a human to paste an API key.\n  start: POST https://api.builtwith.com/agent-auth/start\n  verification_uri_template: https://api.builtwith.com/device-auth?code={device_code}\n  poll: POST https://api.builtwith.com/agent-auth/token\n  poll_body: '{\"device_code\":\"<device_code>\"}'\n  default_interval_seconds: 5\n  code_expires_in_seconds: 900\n  token_prefix: bw-\n  token_type: bearer\n  token_expires_in_seconds: 86400\n  pending_responses: [authorization_pending, access_denied, expired_token]\n  error_status: 400\n  usage: 'Pass the returned token as KEY=bw-... exactly like a permanent key.'\n  operations:\n  - openapi/builtwith-rest-api-openapi.json#agent_auth_start\n  - openapi/builtwith-rest-api-openapi.json#agent_auth_token\n  source: https://api.builtwith.com/llms.txt\npayment_credentials:\n- name: creditKey\n  protocol: x402 v2\n  description: Reusable, non-expiring prepaid lookup-unit\
   \ key bought with Base USDC; held in a separate x402 ledger, not a BuiltWith account.\n  bound_to: the payer wallet that created it\n  discovery: https://api.builtwith.com/.well-known/x402\n- name: passToken\n  protocol: x402 v2\n  description: 30-day Basic or Pro List pass token required for x402 List and Keyword Search tools.\nintrospection:\n  whoami: GET https://api.builtwith.com/whoamiv1/api.json\n  usage: GET https://api.builtwith.com/usagev2/api.json\n  note: Both are free (no credits) and let an agent discover its own plan, limits, credit costs and privacy flags before acting.\nkey_handling:\n  rotation: via the account dashboard\n  guidance:\n  - HTTPS is required on every endpoint.\n  - Never expose the API key in client-side code.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/authentication/builtwith-authentication.yml
+source_yaml_url: https://artifacts.apis.io/builtwith/authentication/builtwith-authentication.yml
 summary_line: apiKey/http/oauth2 · 5 schemes
 tags:
 - Technology Profiling

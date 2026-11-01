@@ -27,7 +27,7 @@ source_filename: aillis-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aillis.jp\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  3 20:21:05 2026 GMT\n  hsts: false\ndomains:\n- domain: aillis.jp\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aillis/refs/heads/main/security/aillis-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aillis/security/aillis-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -7,49 +7,49 @@ api_specs:
   label: WisdomTree Accruals API
   slug: wisdomtree-accruals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-accruals-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-accruals-api-openapi.yml
 - filename: wisdomtree-dividend-payment-preferences-api-openapi.yml
   format: yaml
   label: WisdomTree Dividend Payment Preferences API
   slug: wisdomtree-dividend-payment-preferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-dividend-payment-preferences-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-dividend-payment-preferences-api-openapi.yml
 - filename: wisdomtree-fund-data-api-openapi.yml
   format: yaml
   label: WisdomTree Fund Data API
   slug: wisdomtree-fund-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-fund-data-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-fund-data-api-openapi.yml
 - filename: wisdomtree-orders-api-openapi.yml
   format: yaml
   label: WisdomTree Orders API
   slug: wisdomtree-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-orders-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-orders-api-openapi.yml
 - filename: wisdomtree-organizations-api-openapi.yml
   format: yaml
   label: WisdomTree Organizations API
   slug: wisdomtree-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-organizations-api-openapi.yml
 - filename: wisdomtree-statements-api-openapi.yml
   format: yaml
   label: WisdomTree Statements API
   slug: wisdomtree-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-statements-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-statements-api-openapi.yml
 - filename: wisdomtree-users-api-openapi.yml
   format: yaml
   label: WisdomTree Users API
   slug: wisdomtree-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-users-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-users-api-openapi.yml
 - filename: wisdomtree-wallets-api-openapi.yml
   format: yaml
   label: WisdomTree Wallets API
   slug: wisdomtree-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-wallets-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -79,7 +79,7 @@ source_filename: wisdomtree-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: derived\nsource: openapi/wisdomtree-connect-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - password\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: password\n    tokenUrl: https://app.wisdomtreeconnect.com/o/token/\n    scopes: 3\n  sources:\n  - openapi/wisdomtree-connect-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/authentication/wisdomtree-authentication.yml
+source_yaml_url: https://artifacts.apis.io/wisdomtree/authentication/wisdomtree-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

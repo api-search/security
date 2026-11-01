@@ -7,7 +7,7 @@ api_specs:
   label: Uncovr Inference (V3, Backwards Compatible) API
   slug: uncovr-inference-v3-backwards-compatible-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uncovr/refs/heads/main/openapi/uncovr-inference-v3-backwards-compatible-api-openapi.yml
+  url: https://artifacts.apis.io/uncovr/openapi/uncovr-inference-v3-backwards-compatible-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -33,7 +33,7 @@ source_filename: uncovr-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/uncovr-api-openapi-original.json\nsummary:\n  types:\n  - http\nschemes:\n- name: HTTPBearer\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/uncovr-api-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uncovr/refs/heads/main/authentication/uncovr-authentication.yml
+source_yaml_url: https://artifacts.apis.io/uncovr/authentication/uncovr-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

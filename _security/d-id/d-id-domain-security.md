@@ -5,55 +5,55 @@ api_specs:
   label: D-ID Agents API
   slug: d-id-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-agents-api-openapi.yml
+  url: https://artifacts.apis.io/d-id/openapi/d-id-agents-api-openapi.yml
 - filename: d-id-chat-api-openapi.yml
   format: yaml
   label: D-ID Chat API
   slug: d-id-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-chat-api-openapi.yml
+  url: https://artifacts.apis.io/d-id/openapi/d-id-chat-api-openapi.yml
 - filename: d-id-credits-api-openapi.yml
   format: yaml
   label: D-ID Credits API
   slug: d-id-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-credits-api-openapi.yml
+  url: https://artifacts.apis.io/d-id/openapi/d-id-credits-api-openapi.yml
 - filename: d-id-knowledge-api-openapi.yml
   format: yaml
   label: D-ID Knowledge API
   slug: d-id-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/d-id/openapi/d-id-knowledge-api-openapi.yml
 - filename: d-id-sessions-api-openapi.yml
   format: yaml
   label: D-ID Sessions API
   slug: d-id-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/d-id/openapi/d-id-sessions-api-openapi.yml
 - filename: d-id-talks-api-openapi.yml
   format: yaml
   label: D-ID Talks API
   slug: d-id-talks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-talks-api-openapi.yml
+  url: https://artifacts.apis.io/d-id/openapi/d-id-talks-api-openapi.yml
 - filename: d-id-translations-api-openapi.yml
   format: yaml
   label: D-ID Translations API
   slug: d-id-translations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-translations-api-openapi.yml
+  url: https://artifacts.apis.io/d-id/openapi/d-id-translations-api-openapi.yml
 - filename: d-id-videos-v4-api-openapi.yml
   format: yaml
   label: D-ID Videos V4 API
   slug: d-id-videos-v4-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-videos-v4-api-openapi.yml
+  url: https://artifacts.apis.io/d-id/openapi/d-id-videos-v4-api-openapi.yml
 - filename: d-id-voices-api-openapi.yml
   format: yaml
   label: D-ID Voices API
   slug: d-id-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-voices-api-openapi.yml
+  url: https://artifacts.apis.io/d-id/openapi/d-id-voices-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -93,7 +93,7 @@ source_filename: d-id-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.d-id.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 12 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.d-id.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 14:46:30 2026 GMT\n  hsts: null\n- host: api.d-id.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: d-id.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/security/d-id-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/d-id/security/d-id-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Avatars

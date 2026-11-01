@@ -5,37 +5,37 @@ api_specs:
   label: Cursor Audit Logs API
   slug: cursor-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/openapi/cursor-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/cursor/openapi/cursor-audit-logs-api-openapi.yml
 - filename: cursor-groups-api-openapi.yml
   format: yaml
   label: Cursor Groups API
   slug: cursor-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/openapi/cursor-groups-api-openapi.yml
+  url: https://artifacts.apis.io/cursor/openapi/cursor-groups-api-openapi.yml
 - filename: cursor-members-api-openapi.yml
   format: yaml
   label: Cursor Members API
   slug: cursor-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/openapi/cursor-members-api-openapi.yml
+  url: https://artifacts.apis.io/cursor/openapi/cursor-members-api-openapi.yml
 - filename: cursor-repo-blocklists-api-openapi.yml
   format: yaml
   label: Cursor Repo Blocklists API
   slug: cursor-repo-blocklists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/openapi/cursor-repo-blocklists-api-openapi.yml
+  url: https://artifacts.apis.io/cursor/openapi/cursor-repo-blocklists-api-openapi.yml
 - filename: cursor-spend-api-openapi.yml
   format: yaml
   label: Cursor Spend API
   slug: cursor-spend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/openapi/cursor-spend-api-openapi.yml
+  url: https://artifacts.apis.io/cursor/openapi/cursor-spend-api-openapi.yml
 - filename: cursor-usage-api-openapi.yml
   format: yaml
   label: Cursor Usage API
   slug: cursor-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/openapi/cursor-usage-api-openapi.yml
+  url: https://artifacts.apis.io/cursor/openapi/cursor-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: cursor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cursor.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 11:10:16 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.cursor.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  4 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: cursor.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/security/cursor-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cursor/security/cursor-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

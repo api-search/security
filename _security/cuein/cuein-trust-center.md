@@ -5,13 +5,13 @@ api_specs:
   label: Cuein Answers API
   slug: cuein-answers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuein/refs/heads/main/openapi/cuein-answers-api-openapi.yml
+  url: https://artifacts.apis.io/cuein/openapi/cuein-answers-api-openapi.yml
 - filename: cuein-conversations-api-openapi.yml
   format: yaml
   label: Cuein Conversations API
   slug: cuein-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuein/refs/heads/main/openapi/cuein-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/cuein/openapi/cuein-conversations-api-openapi.yml
 certification_count: 0
 certifications: []
 description: ''
@@ -28,7 +28,7 @@ source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: searched\nprobe: true\nsource: https://cuein.ai/\nurl: https://app.vanta.com/cueinai/trust/7pzlr5lnec2vu3lghvusmd\nplatform: Vanta\ncertifications: []\nnote: >-\n  Cuein publishes a Vanta-hosted trust center, linked from the cuein.ai footer. The\n  page returns HTTP 200 but is a client-side application: the served HTML contains no\n  certification names, and a keyword scan of the response body for SOC 2, ISO 27001,\n  ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, GDPR and CSA STAR returned zero\n  matches. The certification list exists only after script execution, so nothing is\n  asserted here and no Compliance pointer is emitted — the trust center's presence is\n  recorded, its contents are not claimed.\nevidence:\n  - source: https://cuein.ai/\n    kind: homepage-link\n    detail: footer \"Security\" link -> Vanta trust center\n  - source: https://app.vanta.com/cueinai/trust/7pzlr5lnec2vu3lghvusmd\n    kind: probe\n    http_status: 200\n\
   \    detail: JS-rendered; no certification string present in the served document\n    checked: '2026-08-14'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cuein/refs/heads/main/security/cuein-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/cuein/security/cuein-trust-center.yml
 summary_line: trust center published
 tags:
 - Company

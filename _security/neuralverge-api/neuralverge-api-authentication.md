@@ -7,31 +7,31 @@ api_specs:
   label: NeuralVerge API AI Agents API
   slug: neuralverge-api-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neuralverge-api/refs/heads/main/openapi/neuralverge-api-ai-agents-api-openapi.yml
+  url: https://artifacts.apis.io/neuralverge-api/openapi/neuralverge-api-ai-agents-api-openapi.yml
 - filename: neuralverge-api-ai-extract-api-openapi.yml
   format: yaml
   label: NeuralVerge API AI Extract API
   slug: neuralverge-api-ai-extract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neuralverge-api/refs/heads/main/openapi/neuralverge-api-ai-extract-api-openapi.yml
+  url: https://artifacts.apis.io/neuralverge-api/openapi/neuralverge-api-ai-extract-api-openapi.yml
 - filename: neuralverge-api-ai-research-api-openapi.yml
   format: yaml
   label: NeuralVerge API AI Research API
   slug: neuralverge-api-ai-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neuralverge-api/refs/heads/main/openapi/neuralverge-api-ai-research-api-openapi.yml
+  url: https://artifacts.apis.io/neuralverge-api/openapi/neuralverge-api-ai-research-api-openapi.yml
 - filename: neuralverge-api-data-sources-api-openapi.yml
   format: yaml
   label: NeuralVerge API Data Sources API
   slug: neuralverge-api-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neuralverge-api/refs/heads/main/openapi/neuralverge-api-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/neuralverge-api/openapi/neuralverge-api-data-sources-api-openapi.yml
 - filename: neuralverge-api-search-api-openapi.yml
   format: yaml
   label: NeuralVerge API Search API
   slug: neuralverge-api-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neuralverge-api/refs/heads/main/openapi/neuralverge-api-search-api-openapi.yml
+  url: https://artifacts.apis.io/neuralverge-api/openapi/neuralverge-api-search-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: neuralverge-api-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-18'\nmethod: derived\nsource: openapi/neuralverge-api-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: API Key\n  sources:\n  - openapi/neuralverge-api-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neuralverge-api/refs/heads/main/authentication/neuralverge-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/neuralverge-api/authentication/neuralverge-api-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company Data

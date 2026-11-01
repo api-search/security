@@ -31,7 +31,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://help.everlance.com/hc/en-us/articles/45326074722203-Managing-Data-with-APIs\ndocs: https://help.everlance.com/hc/en-us/sections/38201888806157-Everlance-Business-API\nsummary:\n  types:\n  - http\n  http_schemes:\n  - bearer\n  api_key_in: []\n  oauth2_flows: []\n  access_model: gated\n  provisioning: 'Access tokens are issued by the Everlance team on request. Ask your\n    Everlance account manager or email support@everlance.com to obtain an API access\n    token.'\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Everlance Business API requires an access_token passed in the Authorization\n    header as: \"Authorization: Bearer access_token\". The token is provisioned by the\n    Everlance team (not self-service). Static long-lived bearer token — no OAuth2 flow\n    or scope surface is documented.'\n  in: header\n  header: Authorization\n  format: 'Bearer {access_token}'\n  sources:\n \
   \ - docs\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/everlance/refs/heads/main/authentication/everlance-authentication.yml
+source_yaml_url: https://artifacts.apis.io/everlance/authentication/everlance-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

@@ -5,37 +5,37 @@ api_specs:
   label: TheSports Competitions API
   slug: thesports-competitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thesports/refs/heads/main/openapi/thesports-competitions-api-openapi.yml
+  url: https://artifacts.apis.io/thesports/openapi/thesports-competitions-api-openapi.yml
 - filename: thesports-matches-api-openapi.yml
   format: yaml
   label: TheSports Matches API
   slug: thesports-matches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thesports/refs/heads/main/openapi/thesports-matches-api-openapi.yml
+  url: https://artifacts.apis.io/thesports/openapi/thesports-matches-api-openapi.yml
 - filename: thesports-players-api-openapi.yml
   format: yaml
   label: TheSports Players API
   slug: thesports-players-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thesports/refs/heads/main/openapi/thesports-players-api-openapi.yml
+  url: https://artifacts.apis.io/thesports/openapi/thesports-players-api-openapi.yml
 - filename: thesports-standings-api-openapi.yml
   format: yaml
   label: TheSports Standings API
   slug: thesports-standings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thesports/refs/heads/main/openapi/thesports-standings-api-openapi.yml
+  url: https://artifacts.apis.io/thesports/openapi/thesports-standings-api-openapi.yml
 - filename: thesports-statistics-api-openapi.yml
   format: yaml
   label: TheSports Statistics API
   slug: thesports-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thesports/refs/heads/main/openapi/thesports-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/thesports/openapi/thesports-statistics-api-openapi.yml
 - filename: thesports-teams-api-openapi.yml
   format: yaml
   label: TheSports Teams API
   slug: thesports-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thesports/refs/heads/main/openapi/thesports-teams-api-openapi.yml
+  url: https://artifacts.apis.io/thesports/openapi/thesports-teams-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: thesports-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.thesports.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 04:08:52 2026 GMT\n  hsts: false\n- host: api.thesports.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 23:18:17 2026 GMT\n  hsts: false\ndomains:\n- domain: thesports.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thesports/refs/heads/main/security/thesports-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/thesports/security/thesports-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Sports

@@ -5,19 +5,19 @@ api_specs:
   label: BILT Default payment method API
   slug: bilt-default-payment-method-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bilt/refs/heads/main/openapi/bilt-default-payment-method-api-openapi.yml
+  url: https://artifacts.apis.io/bilt/openapi/bilt-default-payment-method-api-openapi.yml
 - filename: bilt-headless-payments-api-openapi.yml
   format: yaml
   label: BILT Headless payments API
   slug: bilt-headless-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bilt/refs/heads/main/openapi/bilt-headless-payments-api-openapi.yml
+  url: https://artifacts.apis.io/bilt/openapi/bilt-headless-payments-api-openapi.yml
 - filename: bilt-one-time-payments-api-openapi.yml
   format: yaml
   label: BILT One-time payments API
   slug: bilt-one-time-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bilt/refs/heads/main/openapi/bilt-one-time-payments-api-openapi.yml
+  url: https://artifacts.apis.io/bilt/openapi/bilt-one-time-payments-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: bilt-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bilt.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 26 12:52:14 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: bilt.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bilt/refs/heads/main/security/bilt-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bilt/security/bilt-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Fintech

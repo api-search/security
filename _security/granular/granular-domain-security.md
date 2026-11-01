@@ -5,31 +5,31 @@ api_specs:
   label: Granular (Corteva Agriscience) Activities API
   slug: granular-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/granular/refs/heads/main/openapi/granular-activities-api-openapi.yml
+  url: https://artifacts.apis.io/granular/openapi/granular-activities-api-openapi.yml
 - filename: granular-crops-api-openapi.yml
   format: yaml
   label: Granular (Corteva Agriscience) Crops API
   slug: granular-crops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/granular/refs/heads/main/openapi/granular-crops-api-openapi.yml
+  url: https://artifacts.apis.io/granular/openapi/granular-crops-api-openapi.yml
 - filename: granular-farms-api-openapi.yml
   format: yaml
   label: Granular (Corteva Agriscience) Farms API
   slug: granular-farms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/granular/refs/heads/main/openapi/granular-farms-api-openapi.yml
+  url: https://artifacts.apis.io/granular/openapi/granular-farms-api-openapi.yml
 - filename: granular-fields-api-openapi.yml
   format: yaml
   label: Granular (Corteva Agriscience) Fields API
   slug: granular-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/granular/refs/heads/main/openapi/granular-fields-api-openapi.yml
+  url: https://artifacts.apis.io/granular/openapi/granular-fields-api-openapi.yml
 - filename: granular-financials-api-openapi.yml
   format: yaml
   label: Granular (Corteva Agriscience) Financials API
   slug: granular-financials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/granular/refs/heads/main/openapi/granular-financials-api-openapi.yml
+  url: https://artifacts.apis.io/granular/openapi/granular-financials-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: granular-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: us.app.granular.ag\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 20 23:59:59 2026 GMT\n  hsts: false\n- host: api.granular.ag\n  https: false\n- host: granular.ag\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar 19 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: granular.ag\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/granular/refs/heads/main/security/granular-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/granular/security/granular-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Agriculture

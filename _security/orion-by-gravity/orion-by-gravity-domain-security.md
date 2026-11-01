@@ -45,7 +45,7 @@ source_filename: orion-by-gravity-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bygravity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 11:55:32 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.runorion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 19:59:31 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: g.runorion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 03:09:54 2026 GMT\n  hsts: null\ndomains:\n- domain: bygravity.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: runorion.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orion-by-gravity/refs/heads/main/security/orion-by-gravity-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/orion-by-gravity/security/orion-by-gravity-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

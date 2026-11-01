@@ -7,67 +7,67 @@ api_specs:
   label: FinditParts Addresses API
   slug: finditparts-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/finditparts/openapi/finditparts-addresses-api-openapi.yml
 - filename: finditparts-carts-api-openapi.yml
   format: yaml
   label: FinditParts Carts API
   slug: finditparts-carts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-carts-api-openapi.yml
+  url: https://artifacts.apis.io/finditparts/openapi/finditparts-carts-api-openapi.yml
 - filename: finditparts-orders-api-openapi.yml
   format: yaml
   label: FinditParts Orders API
   slug: finditparts-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-orders-api-openapi.yml
+  url: https://artifacts.apis.io/finditparts/openapi/finditparts-orders-api-openapi.yml
 - filename: finditparts-partners-api-openapi.yml
   format: yaml
   label: FinditParts Partners API
   slug: finditparts-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-partners-api-openapi.yml
+  url: https://artifacts.apis.io/finditparts/openapi/finditparts-partners-api-openapi.yml
 - filename: finditparts-products-api-openapi.yml
   format: yaml
   label: FinditParts Products API
   slug: finditparts-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-products-api-openapi.yml
+  url: https://artifacts.apis.io/finditparts/openapi/finditparts-products-api-openapi.yml
 - filename: finditparts-reseller-customer-sessions-api-openapi.yml
   format: yaml
   label: FinditParts Reseller Customer Sessions API
   slug: finditparts-reseller-customer-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-reseller-customer-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/finditparts/openapi/finditparts-reseller-customer-sessions-api-openapi.yml
 - filename: finditparts-reseller-customers-api-openapi.yml
   format: yaml
   label: FinditParts Reseller Customers API
   slug: finditparts-reseller-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-reseller-customers-api-openapi.yml
+  url: https://artifacts.apis.io/finditparts/openapi/finditparts-reseller-customers-api-openapi.yml
 - filename: finditparts-sessions-api-openapi.yml
   format: yaml
   label: FinditParts Sessions API
   slug: finditparts-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/finditparts/openapi/finditparts-sessions-api-openapi.yml
 - filename: finditparts-shipping-api-openapi.yml
   format: yaml
   label: FinditParts Shipping API
   slug: finditparts-shipping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-shipping-api-openapi.yml
+  url: https://artifacts.apis.io/finditparts/openapi/finditparts-shipping-api-openapi.yml
 - filename: finditparts-users-api-openapi.yml
   format: yaml
   label: FinditParts Users API
   slug: finditparts-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-users-api-openapi.yml
+  url: https://artifacts.apis.io/finditparts/openapi/finditparts-users-api-openapi.yml
 - filename: finditparts-variants-api-openapi.yml
   format: yaml
   label: FinditParts Variants API
   slug: finditparts-variants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-variants-api-openapi.yml
+  url: https://artifacts.apis.io/finditparts/openapi/finditparts-variants-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -135,7 +135,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: https://api-doc
   \ and productSearch\n      when account-specific pricing is wanted). Omitting sub returns generic list pricing\n      rather than account pricing.\n  - claim: data.intent\n    required: conditional\n    description: Declares the purpose of the call. Documented values are PRODUCT_SEARCH,\n      SHIPPING_METHODS, USER_SETUP and NEW_ORDER.\n  - claim: data\n    required: conditional\n    description: On shippingMethods the JWT may carry the line_items/address payload\n      inside data as an alternative to sending them as query parameters.\n  sources:\n  - https://api-docs.finditparts.com/\n  - openapi/finditparts-reseller-api-openapi.yml\n- name: apiKey\n  type: http\n  scheme: bearer\n  bearerFormat: opaque-api-key\n  key_prefix: api-\n  key_shape: api-XYZ123\n  header: 'Authorization: Bearer api-XYZ123'\n  description: >-\n    An issued API key, for client-side apps that cannot hold a JWT signing secret —\n    FinditParts names mobile apps and single-buyer partner applications. Issued\
   \ to\n    reseller clients alongside the JWT credentials.\n  grants:\n  - Non-user-specific endpoints — product search, create session, create user\n  - The Partner surface (partnersShippingMethods, partnersPlaceOrder) requires a Partner API key\n  - The Master Account surface (listResellerCustomers) requires a Master Account API key\n  restrictions: >-\n    User-specific calls (user-specific pricing in product search, cart operations,\n    order creation and order history) are not reachable with the API key alone. An\n    API-key client must first exchange a user's credentials for a user-specific JWT\n    via createSession (that call itself still requires the API key), then present\n    the returned user JWT as Authorization: Bearer USER.JWT.TOKEN.\n  sources:\n  - https://api-docs.finditparts.com/\ntoken_lifecycle:\n- token: reseller request JWT\n  ttl: per-request, issuer-chosen (docs instruct \"as short as reasonable\")\n  refresh: regenerate and sign a new token for every request\n\
   - token: user-specific session JWT\n  ttl: 1 month (default, per the createSession and refreshSession documentation)\n  refresh: refreshSession returns a new user-specific JWT; call it prior to expiration\n  revocation: destroySessions destroys the current sessions for the user\nalternate_credentials:\n- name: cart token\n  description: >-\n    Every cart operation documents \"Requires a user specific JWT in the Authorization\n    header or a cart token parameter\" — an anonymous cart-scoped credential passed as\n    a request parameter. FinditParts does not document the parameter name or issuance\n    in the public collection.\n  documented: partial\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/authentication/finditparts-authentication.yml
+source_yaml_url: https://artifacts.apis.io/finditparts/authentication/finditparts-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Company
@@ -144,7 +144,7 @@ tags:
 - Automotive
 - Parts
 - Heavy Duty Trucking
-- Fleet
+- Fleet Management
 - Logistics
 - Commerce
 - Catalog

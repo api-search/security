@@ -7,19 +7,19 @@ api_specs:
   label: Google Cloud Data Fusion Instances API
   slug: google-cloud-data-fusion-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-fusion/refs/heads/main/openapi/google-cloud-data-fusion-instances-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-data-fusion/openapi/google-cloud-data-fusion-instances-api-openapi.yml
 - filename: google-cloud-data-fusion-locations-api-openapi.yml
   format: yaml
   label: Google Cloud Data Fusion Locations API
   slug: google-cloud-data-fusion-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-fusion/refs/heads/main/openapi/google-cloud-data-fusion-locations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-data-fusion/openapi/google-cloud-data-fusion-locations-api-openapi.yml
 - filename: google-cloud-data-fusion-operations-api-openapi.yml
   format: yaml
   label: Google Cloud Data Fusion Operations API
   slug: google-cloud-data-fusion-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-fusion/refs/heads/main/openapi/google-cloud-data-fusion-operations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-data-fusion/openapi/google-cloud-data-fusion-operations-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -50,7 +50,7 @@ source_filename: google-cloud-data-fusion-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/google-cloud-data-fusion-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 1\n  sources:\n  - openapi/google-cloud-data-fusion-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-fusion/refs/heads/main/authentication/google-cloud-data-fusion-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-data-fusion/authentication/google-cloud-data-fusion-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Data Integration

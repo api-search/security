@@ -34,7 +34,7 @@ source_filename: co-legal-be-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: co-legal.be\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 24 12:29:50 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: agent.co-legal.be\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  7 14:24:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: co-legal.be\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/co-legal-be/refs/heads/main/security/co-legal-be-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/co-legal-be/security/co-legal-be-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Legal

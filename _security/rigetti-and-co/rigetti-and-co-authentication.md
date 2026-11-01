@@ -7,55 +7,55 @@ api_specs:
   label: Rigetti & Co Account API
   slug: rigetti-and-co-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti-and-co/refs/heads/main/openapi/rigetti-and-co-account-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti-and-co/openapi/rigetti-and-co-account-api-openapi.yml
 - filename: rigetti-and-co-authentication-api-openapi.yml
   format: yaml
   label: Rigetti & Co Authentication API
   slug: rigetti-and-co-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti-and-co/refs/heads/main/openapi/rigetti-and-co-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti-and-co/openapi/rigetti-and-co-authentication-api-openapi.yml
 - filename: rigetti-and-co-clientapplications-api-openapi.yml
   format: yaml
   label: Rigetti & Co Client Applications API
   slug: rigetti-and-co-clientapplications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti-and-co/refs/heads/main/openapi/rigetti-and-co-clientapplications-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti-and-co/openapi/rigetti-and-co-clientapplications-api-openapi.yml
 - filename: rigetti-and-co-endpoints-api-openapi.yml
   format: yaml
   label: Rigetti & Co Endpoints API
   slug: rigetti-and-co-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti-and-co/refs/heads/main/openapi/rigetti-and-co-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti-and-co/openapi/rigetti-and-co-endpoints-api-openapi.yml
 - filename: rigetti-and-co-engagements-api-openapi.yml
   format: yaml
   label: Rigetti & Co Engagements API
   slug: rigetti-and-co-engagements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti-and-co/refs/heads/main/openapi/rigetti-and-co-engagements-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti-and-co/openapi/rigetti-and-co-engagements-api-openapi.yml
 - filename: rigetti-and-co-quantumprocessors-api-openapi.yml
   format: yaml
   label: Rigetti & Co Quantum Processors API
   slug: rigetti-and-co-quantumprocessors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti-and-co/refs/heads/main/openapi/rigetti-and-co-quantumprocessors-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti-and-co/openapi/rigetti-and-co-quantumprocessors-api-openapi.yml
 - filename: rigetti-and-co-reservations-api-openapi.yml
   format: yaml
   label: Rigetti & Co Reservations API
   slug: rigetti-and-co-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti-and-co/refs/heads/main/openapi/rigetti-and-co-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti-and-co/openapi/rigetti-and-co-reservations-api-openapi.yml
 - filename: rigetti-and-co-rigetti-qcs-api-api-openapi.yml
   format: yaml
   label: Rigetti & Co Rigetti QCS API
   slug: rigetti-and-co-rigetti-qcs-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti-and-co/refs/heads/main/openapi/rigetti-and-co-rigetti-qcs-api-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti-and-co/openapi/rigetti-and-co-rigetti-qcs-api-api-openapi.yml
 - filename: rigetti-and-co-health-check-api-openapi.yml
   format: yaml
   label: Rigetti & Co Health Check API
   slug: rigetti-and-co-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti-and-co/refs/heads/main/openapi/rigetti-and-co-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti-and-co/openapi/rigetti-and-co-health-check-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -83,7 +83,7 @@ source_filename: rigetti-and-co-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/rigetti-and-co-qcs-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: JWTBearer\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: A JSON web token with `sub` or `uid` claim, as well as `groups` claim. If the\n    token is absent, invalid or expired, the client will receive a 401 response. If the token\n    is valid, the server uses the claims to authorize the request, which may result in a 403\n    response.\n  sources:\n  - openapi/rigetti-and-co-qcs-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rigetti-and-co/refs/heads/main/authentication/rigetti-and-co-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rigetti-and-co/authentication/rigetti-and-co-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

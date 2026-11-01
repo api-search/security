@@ -5,37 +5,37 @@ api_specs:
   label: SendHub Authentication API
   slug: sendhub-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/openapi/sendhub-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sendhub/openapi/sendhub-authentication-api-openapi.yml
 - filename: sendhub-contact-api-openapi.yml
   format: yaml
   label: SendHub Contact API
   slug: sendhub-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/openapi/sendhub-contact-api-openapi.yml
+  url: https://artifacts.apis.io/sendhub/openapi/sendhub-contact-api-openapi.yml
 - filename: sendhub-group-api-openapi.yml
   format: yaml
   label: SendHub Group API
   slug: sendhub-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/openapi/sendhub-group-api-openapi.yml
+  url: https://artifacts.apis.io/sendhub/openapi/sendhub-group-api-openapi.yml
 - filename: sendhub-message-api-openapi.yml
   format: yaml
   label: SendHub Message API
   slug: sendhub-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/openapi/sendhub-message-api-openapi.yml
+  url: https://artifacts.apis.io/sendhub/openapi/sendhub-message-api-openapi.yml
 - filename: sendhub-profile-api-openapi.yml
   format: yaml
   label: SendHub Profile API
   slug: sendhub-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/openapi/sendhub-profile-api-openapi.yml
+  url: https://artifacts.apis.io/sendhub/openapi/sendhub-profile-api-openapi.yml
 - filename: sendhub-thread-api-openapi.yml
   format: yaml
   label: SendHub Thread API
   slug: sendhub-thread-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/openapi/sendhub-thread-api-openapi.yml
+  url: https://artifacts.apis.io/sendhub/openapi/sendhub-thread-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: sendhub-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sendhub.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  1 20:02:53 2026 GMT\n  hsts: false\n- host: api.sendhub.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 15 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: sendhub.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/security/sendhub-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sendhub/security/sendhub-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

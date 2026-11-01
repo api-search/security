@@ -5,151 +5,151 @@ api_specs:
   label: BudgetPixel Account API
   slug: budgetpixel-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/openapi/budgetpixel-account-api-openapi.yml
+  url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-account-api-openapi.yml
 - filename: budgetpixel-alibaba-api-openapi.yml
   format: yaml
   label: BudgetPixel Alibaba API
   slug: budgetpixel-alibaba-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/openapi/budgetpixel-alibaba-api-openapi.yml
+  url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-alibaba-api-openapi.yml
 - filename: budgetpixel-audios-api-openapi.yml
   format: yaml
   label: BudgetPixel Audios API
   slug: budgetpixel-audios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/openapi/budgetpixel-audios-api-openapi.yml
+  url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-audios-api-openapi.yml
 - filename: budgetpixel-black-forest-labs-api-openapi.yml
   format: yaml
   label: BudgetPixel Black Forest Labs API
   slug: budgetpixel-black-forest-labs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/openapi/budgetpixel-black-forest-labs-api-openapi.yml
+  url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-black-forest-labs-api-openapi.yml
 - filename: budgetpixel-bytedance-api-openapi.yml
   format: yaml
   label: BudgetPixel Bytedance API
   slug: budgetpixel-bytedance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/openapi/budgetpixel-bytedance-api-openapi.yml
+  url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-bytedance-api-openapi.yml
 - filename: budgetpixel-bytedance-seedance-api-openapi.yml
   format: yaml
   label: BudgetPixel ByteDance (SeeDance) API
   slug: budgetpixel-bytedance-seedance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/openapi/budgetpixel-bytedance-seedance-api-openapi.yml
+  url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-bytedance-seedance-api-openapi.yml
 - filename: budgetpixel-classification-api-openapi.yml
   format: yaml
   label: BudgetPixel Classification API
   slug: budgetpixel-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/openapi/budgetpixel-classification-api-openapi.yml
+  url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-classification-api-openapi.yml
 - filename: budgetpixel-conversions-api-openapi.yml
   format: yaml
   label: BudgetPixel Conversions API
   slug: budgetpixel-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/openapi/budgetpixel-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-conversions-api-openapi.yml
 - filename: budgetpixel-google-api-openapi.yml
   format: yaml
   label: BudgetPixel Google API
   slug: budgetpixel-google-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/openapi/budgetpixel-google-api-openapi.yml
+  url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-google-api-openapi.yml
 - filename: budgetpixel-images-api-openapi.yml
   format: yaml
   label: BudgetPixel Images API
   slug: budgetpixel-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/openapi/budgetpixel-images-api-openapi.yml
+  url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-images-api-openapi.yml
 - filename: budgetpixel-kling-api-openapi.yml
   format: yaml
   label: BudgetPixel Kling API
   slug: budgetpixel-kling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/openapi/budgetpixel-kling-api-openapi.yml
+  url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-kling-api-openapi.yml
 - filename: budgetpixel-lip-sync-api-openapi.yml
   format: yaml
   label: BudgetPixel Lip Sync API
   slug: budgetpixel-lip-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/openapi/budgetpixel-lip-sync-api-openapi.yml
+  url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-lip-sync-api-openapi.yml
 - filename: budgetpixel-models-api-openapi.yml
   format: yaml
   label: BudgetPixel Models API
   slug: budgetpixel-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/openapi/budgetpixel-models-api-openapi.yml
+  url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-models-api-openapi.yml
 - filename: budgetpixel-moderation-api-openapi.yml
   format: yaml
   label: BudgetPixel Moderation API
   slug: budgetpixel-moderation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/openapi/budgetpixel-moderation-api-openapi.yml
+  url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-moderation-api-openapi.yml
 - filename: budgetpixel-motion-control-api-openapi.yml
   format: yaml
   label: BudgetPixel Motion Control API
   slug: budgetpixel-motion-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/openapi/budgetpixel-motion-control-api-openapi.yml
+  url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-motion-control-api-openapi.yml
 - filename: budgetpixel-music-api-openapi.yml
   format: yaml
   label: BudgetPixel Music API
   slug: budgetpixel-music-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/openapi/budgetpixel-music-api-openapi.yml
+  url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-music-api-openapi.yml
 - filename: budgetpixel-openai-api-openapi.yml
   format: yaml
   label: BudgetPixel Open AI API
   slug: budgetpixel-openai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/openapi/budgetpixel-openai-api-openapi.yml
+  url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-openai-api-openapi.yml
 - filename: budgetpixel-pruna-ai-api-openapi.yml
   format: yaml
   label: BudgetPixel Pruna AI API
   slug: budgetpixel-pruna-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/openapi/budgetpixel-pruna-ai-api-openapi.yml
+  url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-pruna-ai-api-openapi.yml
 - filename: budgetpixel-social-api-openapi.yml
   format: yaml
   label: BudgetPixel Social API
   slug: budgetpixel-social-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/openapi/budgetpixel-social-api-openapi.yml
+  url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-social-api-openapi.yml
 - filename: budgetpixel-sound-effects-api-openapi.yml
   format: yaml
   label: BudgetPixel Sound Effects API
   slug: budgetpixel-sound-effects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/openapi/budgetpixel-sound-effects-api-openapi.yml
+  url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-sound-effects-api-openapi.yml
 - filename: budgetpixel-uploads-api-openapi.yml
   format: yaml
   label: BudgetPixel Uploads API
   slug: budgetpixel-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/openapi/budgetpixel-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-uploads-api-openapi.yml
 - filename: budgetpixel-upscaling-api-openapi.yml
   format: yaml
   label: BudgetPixel Upscaling API
   slug: budgetpixel-upscaling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/openapi/budgetpixel-upscaling-api-openapi.yml
+  url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-upscaling-api-openapi.yml
 - filename: budgetpixel-videos-api-openapi.yml
   format: yaml
   label: BudgetPixel Videos API
   slug: budgetpixel-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/openapi/budgetpixel-videos-api-openapi.yml
+  url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-videos-api-openapi.yml
 - filename: budgetpixel-xai-api-openapi.yml
   format: yaml
   label: BudgetPixel X AI API
   slug: budgetpixel-xai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/openapi/budgetpixel-xai-api-openapi.yml
+  url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-xai-api-openapi.yml
 - filename: budgetpixel-mini-max-api-openapi.yml
   format: yaml
   label: BudgetPixel Mini Max API
   slug: budgetpixel-mini-max-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/openapi/budgetpixel-mini-max-api-openapi.yml
+  url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-mini-max-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -189,7 +189,7 @@ source_filename: budgetpixel-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: budgetpixel.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  6 23:59:59 2027 GMT\n  hsts: false\n- host: api.budgetpixel.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  6 23:59:59 2027 GMT\n  hsts: null\n- host: docs.budgetpixel.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 17 05:15:37 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: budgetpixel.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/security/budgetpixel-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/budgetpixel/security/budgetpixel-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Generative AI

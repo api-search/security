@@ -26,7 +26,7 @@ source_filename: service-corp-international-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sci-corp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 06:37:05 2026 GMT\n  hsts: null\ndomains:\n- domain: sci-corp.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\nnote: sci-corp.com publishes no MX, SPF, DMARC or CAA record and does not set HSTS; the absence of MX\n  means corporate mail is not delivered on this domain, so the SPF/DMARC gaps are a missing spoofing guard\n  on a web-only domain rather than a mail-authentication failure. TLS 1.3 is served. www.sci-corp.com\n  and the Dignity Memorial brand hosts sit behind a Cloudflare bot challenge that answers 403 to non-browser\n  clients.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/service-corp-international/refs/heads/main/security/service-corp-international-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/service-corp-international/security/service-corp-international-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Fortune 1000

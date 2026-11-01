@@ -5,7 +5,7 @@ api_specs:
   label: Optimism Etherscan Accounts API
   slug: optimistic-etherscan-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimistic-etherscan/refs/heads/main/openapi/optimistic-etherscan-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/optimistic-etherscan/openapi/optimistic-etherscan-accounts-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,7 +41,7 @@ source_filename: optimistic-etherscan-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: optimistic.etherscan.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 03:43:38 2026 GMT\n  hsts: false\n- host: docs.optimism.etherscan.io\n  https: false\n- host: api-optimistic.etherscan.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 03:43:38 2026 GMT\n  hsts: false\ndomains:\n- domain: etherscan.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/optimistic-etherscan/refs/heads/main/security/optimistic-etherscan-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/optimistic-etherscan/security/optimistic-etherscan-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Blockchain

@@ -7,13 +7,13 @@ api_specs:
   label: Zhejiang University Catalog API
   slug: zhejiang-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/openapi/zhejiang-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/zhejiang/openapi/zhejiang-catalog-api-openapi.yml
 - filename: zhejiang-repositories-api-openapi.yml
   format: yaml
   label: Zhejiang University Repositories API
   slug: zhejiang-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/openapi/zhejiang-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/zhejiang/openapi/zhejiang-repositories-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -37,7 +37,7 @@ source_yaml: "# Zhejiang University — authentication posture across institutio
   \        - binding: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST\n          location: https://idp.zju.edu.cn/idp/profile/SAML2/POST/SSO\n        - binding: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign\n          location: https://idp.zju.edu.cn/idp/profile/SAML2/POST-SimpleSign/SSO\n        - binding: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect\n          location: https://idp.zju.edu.cn/idp/profile/SAML2/Redirect/SSO\n      single_logout:\n        - binding: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect\n          location: https://idp.zju.edu.cn/idp/profile/SAML2/Redirect/SLO\n        - binding: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST\n          location: https://idp.zju.edu.cn/idp/profile/SAML2/POST/SLO\n        - binding: urn:oasis:names:tc:SAML:2.0:bindings:SOAP\n          location: https://idp.zju.edu.cn:8443/idp/profile/SAML2/SOAP/SLO\n      artifact_resolution:\n        - binding: urn:oasis:names:tc:SAML:2.0:bindings:SOAP\n          location: https://idp.zju.edu.cn:8443/idp/profile/SAML2/SOAP/ArtifactResolution\n\
   \        - binding: urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding\n          location: https://idp.zju.edu.cn:8443/idp/profile/SAML1/SOAP/ArtifactResolution\n      attribute_query:\n        - binding: urn:oasis:names:tc:SAML:2.0:bindings:SOAP\n          location: https://idp.zju.edu.cn:8443/idp/profile/SAML2/SOAP/AttributeQuery\n        - binding: urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding\n          location: https://idp.zju.edu.cn:8443/idp/profile/SAML1/SOAP/AttributeQuery\n    caveat: >-\n      The served metadata carries the stock Shibboleth \"This is example metadata only\"\n      banner, which the distribution ships and many production IdPs never strip. The\n      endpoints it advertises resolve to the live IdP, so the document is treated as\n      the operating entity descriptor while the banner is recorded as-is rather than\n      edited away.\n  - name: Open Source Software Mirror\n    x-operator: institution\n    host: mirrors.zju.edu.cn\n    type: none\n    public_registration:\
   \ not_applicable\n    evidence:\n      - url: https://mirrors.zju.edu.cn/mirrorz.json\n        status: 200\n        detail: >-\n          Anonymous read. No Authorization header required, no WWW-Authenticate on the\n          response, no API key parameter. Response headers observed: server, date,\n          content-type, content-length, last-modified, etag, x-storage, accept-ranges.\n          No CORS header (Access-Control-Allow-Origin absent) — browser-side\n          cross-origin consumption is therefore blocked.\nnot_found:\n  - oauth2_authorization_server\n  - openid_connect_discovery\n  - api_key_issuance\n  - developer_self_service_portal\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/authentication/zhejiang-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zhejiang/authentication/zhejiang-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

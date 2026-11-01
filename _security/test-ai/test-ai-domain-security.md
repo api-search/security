@@ -5,31 +5,31 @@ api_specs:
   label: test.ai Data API
   slug: test-ai-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/test-ai/refs/heads/main/openapi/test-ai-data-api-openapi.yml
+  url: https://artifacts.apis.io/test-ai/openapi/test-ai-data-api-openapi.yml
 - filename: test-ai-ping-api-openapi.yml
   format: yaml
   label: test.ai Ping API
   slug: test-ai-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/test-ai/refs/heads/main/openapi/test-ai-ping-api-openapi.yml
+  url: https://artifacts.apis.io/test-ai/openapi/test-ai-ping-api-openapi.yml
 - filename: test-ai-search-api-openapi.yml
   format: yaml
   label: test.ai Search API
   slug: test-ai-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/test-ai/refs/heads/main/openapi/test-ai-search-api-openapi.yml
+  url: https://artifacts.apis.io/test-ai/openapi/test-ai-search-api-openapi.yml
 - filename: test-ai-tests-api-openapi.yml
   format: yaml
   label: test.ai Tests API
   slug: test-ai-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/test-ai/refs/heads/main/openapi/test-ai-tests-api-openapi.yml
+  url: https://artifacts.apis.io/test-ai/openapi/test-ai-tests-api-openapi.yml
 - filename: test-ai-users-api-openapi.yml
   format: yaml
   label: test.ai Users API
   slug: test-ai-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/test-ai/refs/heads/main/openapi/test-ai-users-api-openapi.yml
+  url: https://artifacts.apis.io/test-ai/openapi/test-ai-users-api-openapi.yml
 description: ''
 domains: []
 hosts:
@@ -90,7 +90,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-30'\nmethod: probed\nsource: 'probed 2026-08-30: TCP/TLS to test.ai:443, DNS (A/MX/TXT/CAA/DS), whois.nic.ai'\nnote: >-\n  0-working/probe-domain-security.py returned `unreachable` and wrote nothing, so this file was\n  written by hand from the raw probes. The unreachability IS the finding: test.ai has no HTTPS\n  service at all. Every negative below is a real observation, not an unattempted check.\nhosts:\n- host: test.ai\n  ip: 192.64.119.35\n  tls:\n    available: false\n    port_443: filtered\n    evidence: >-\n      curl and a raw TCP connect to 192.64.119.35:443 both time out after 10s; port 80 accepts\n      immediately from the same client, so this is a filtered/absent listener rather than a\n      network fault at our end.\n    certificate: null\n  hsts:\n    present: false\n    evidence: >-\n      No Strict-Transport-Security header on the port-80 response, whose Server header is\n      namecheap-nginx.\n  http:\n    port_80: open\n    behaviour:\
   \ >-\n      Blanket catch-all 302 to https://icebergqa.com/?utm_source=testai&utm_medium=redir for every\n      path probed, including /robots.txt. No path serves origin content.\n  dnssec:\n    enabled: false\n    evidence: 'No DS record; registry whois reports \"DNSSEC: unsigned\".'\n  caa:\n    present: false\n    records: []\n  spf:\n    present: false\n    records: []\n  dmarc:\n    present: false\n    records: []\n  mx:\n    present: false\n    records: []\n    note: No MX records — the domain cannot receive mail.\n  registrar:\n    name: NameCheap, Inc.\n    nameservers:\n    - dns1.registrar-servers.com\n    - dns2.registrar-servers.com\n    updated: '2026-08-12'\n    expires: '2027-01-19'\n    status:\n    - clientTransferProhibited\n- host: api.opentestdata.org\n  resolves: false\n  evidence: NXDOMAIN — no A, AAAA or CNAME. No TLS, DNS or HTTP posture can be measured.\nsubdomains_probed:\n  result: none resolve\n  hosts:\n  - api.test.ai\n  - docs.test.ai\n  - app.test.ai\n \
   \ - developer.test.ai\n  - dev.test.ai\n  - status.test.ai\n  - blog.test.ai\n  - mcp.test.ai\n  - sdk.test.ai\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/test-ai/refs/heads/main/security/test-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/test-ai/security/test-ai-domain-security.yml
 summary_line: HSTS
 tags:
 - Company

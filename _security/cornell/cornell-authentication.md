@@ -7,25 +7,25 @@ api_specs:
   label: Cornell University Library Catalog Search API
   slug: library-catalog
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-library-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/cornell/openapi/cornell-library-catalog-api-openapi.yml
 - filename: cornell-cugir-api-openapi.yml
   format: yaml
   label: Cornell University Cugir API
   slug: cornell-cugir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-cugir-api-openapi.yml
+  url: https://artifacts.apis.io/cornell/openapi/cornell-cugir-api-openapi.yml
 - filename: cornell-config-api-openapi.yml
   format: yaml
   label: Cornell University Config API
   slug: cornell-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-config-api-openapi.yml
+  url: https://artifacts.apis.io/cornell/openapi/cornell-config-api-openapi.yml
 - filename: cornell-search-api-openapi.yml
   format: yaml
   label: Cornell University Search API
   slug: cornell-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-search-api-openapi.yml
+  url: https://artifacts.apis.io/cornell/openapi/cornell-search-api-openapi.yml
 auth_types:
 - none
 - apiKey
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-08-19'\nmethod: probed\nsource: >-\n  Live probes
   \    url: https://classes.cornell.edu/api/2.0/config/rosters.json\n    status: 200\n- name: LibraryCatalogPublic\n  type: none\n  operator: institution\n  applies_to: https://catalog.library.cornell.edu\n  description: >-\n    Cornell University Library's Blacklight catalog serves JSON with no credential. The HTML root\n    answers HTTP 202 with an empty body to non-browser clients (a bot challenge); the .json routes\n    are unaffected.\n  evidence:\n    url: https://catalog.library.cornell.edu/catalog.json?q=cornell&search_field=all_fields\n    status: 200\n- name: CugirPublic\n  type: none\n  operator: institution\n  applies_to: https://cugir.library.cornell.edu\n  description: CUGIR's GeoBlacklight JSON routes are open, unauthenticated reads.\n  evidence:\n    url: https://cugir.library.cornell.edu/catalog.json?q=ithaca\n    status: 200\n- name: eBirdApiToken\n  type: apiKey\n  in: header\n  parameter: X-eBirdApiToken\n  operator: institution\n  applies_to: https://api.ebird.org/v2\n\
   \  description: >-\n    The eBird API 2.0, run by the Cornell Lab of Ornithology, requires a free API token requested\n    at https://ebird.org/api/keygen. Probed 2026-08-19: an unauthenticated call and a call with an\n    invalid token both return HTTP 403 with an empty body — the surface is gated, not dead.\n  evidence:\n    url: https://api.ebird.org/v2/ref/region/list/subnational1/US\n    status: 403\n- name: eCommonsDSpacePublicRead\n  type: none\n  operator: tenant\n  applies_to: https://ecommons.cornell.edu/server/api\n  description: >-\n    eCommons serves DSpace 8.2 REST and OAI-PMH reads without authentication. Deposit and\n    administration authenticate against the DSpace platform, whose auth model is 4Science/DSpace's,\n    not Cornell's.\n  evidence:\n    url: https://ecommons.cornell.edu/server/api\n    status: 200\n- name: ShibbolethSAML\n  type: saml\n  operator: institution\n  applies_to: https://shibidp.cit.cornell.edu/idp/shibboleth\n  description: >-\n    Cornell's\
   \ institutional systems federate through its own Shibboleth IdP, published as SAML 2.0\n    metadata and registered with InCommon/eduGAIN. This is Cornell's own identity surface and the\n    only machine-readable authentication contract the institution itself publishes.\n  evidence:\n    url: https://shibidp.cit.cornell.edu/idp/shibboleth\n    status: 200\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/authentication/cornell-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cornell/authentication/cornell-authentication.yml
 summary_line: none/apiKey/saml · 6 schemes
 tags:
 - University

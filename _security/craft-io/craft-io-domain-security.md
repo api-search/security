@@ -23,37 +23,43 @@ api_specs:
   label: Craft.io Feedback items API
   slug: craft-io-feedback-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/openapi/craft-io-feedback-items-api-openapi.yml
+  url: https://artifacts.apis.io/craft-io/openapi/craft-io-feedback-items-api-openapi.yml
 - filename: craft-io-feedback-portals-api-openapi.yml
   format: yaml
   label: Craft.io Feedback Portals API
   slug: craft-io-feedback-portals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/openapi/craft-io-feedback-portals-api-openapi.yml
+  url: https://artifacts.apis.io/craft-io/openapi/craft-io-feedback-portals-api-openapi.yml
 - filename: craft-io-introspection-api-openapi.yml
   format: yaml
   label: Craft.io Introspection API
   slug: craft-io-introspection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/openapi/craft-io-introspection-api-openapi.yml
+  url: https://artifacts.apis.io/craft-io/openapi/craft-io-introspection-api-openapi.yml
 - filename: craft-io-portfolios-api-openapi.yml
   format: yaml
   label: Craft.io Portfolios API
   slug: craft-io-portfolios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/openapi/craft-io-portfolios-api-openapi.yml
+  url: https://artifacts.apis.io/craft-io/openapi/craft-io-portfolios-api-openapi.yml
 - filename: craft-io-work-items-and-okrs-api-openapi.yml
   format: yaml
   label: Craft.io Work Items and OKRs API
   slug: craft-io-work-items-and-okrs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/openapi/craft-io-work-items-and-okrs-api-openapi.yml
+  url: https://artifacts.apis.io/craft-io/openapi/craft-io-work-items-and-okrs-api-openapi.yml
 - filename: craft-io-workspaces-api-openapi.yml
   format: yaml
   label: Craft.io Workspaces API
   slug: craft-io-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/openapi/craft-io-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/craft-io/openapi/craft-io-workspaces-api-openapi.yml
+- filename: craft-io-views-api-openapi.yml
+  format: yaml
+  label: Craft.io Views API
+  slug: craft-io-views-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/craft-io/openapi/craft-io-views-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -98,7 +104,7 @@ source_filename: craft-io-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: craft.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 23:52:00 2026 GMT\n  hsts: false\n- host: help.craft.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 06:54:20 2026 GMT\n  hsts: false\n- host: api.craft.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 06:54:20 2026 GMT\n  hsts: null\ndomains:\n- domain: craft.io\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"awstrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/security/craft-io-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/craft-io/security/craft-io-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Product Management

@@ -5,37 +5,37 @@ api_specs:
   label: Sunny Yuen Availability API
   slug: yuens-me-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yuens-me/refs/heads/main/openapi/yuens-me-availability-api-openapi.yml
+  url: https://artifacts.apis.io/yuens-me/openapi/yuens-me-availability-api-openapi.yml
 - filename: yuens-me-info-api-openapi.yml
   format: yaml
   label: Sunny Yuen Info API
   slug: yuens-me-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yuens-me/refs/heads/main/openapi/yuens-me-info-api-openapi.yml
+  url: https://artifacts.apis.io/yuens-me/openapi/yuens-me-info-api-openapi.yml
 - filename: yuens-me-match-api-openapi.yml
   format: yaml
   label: Sunny Yuen Match API
   slug: yuens-me-match-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yuens-me/refs/heads/main/openapi/yuens-me-match-api-openapi.yml
+  url: https://artifacts.apis.io/yuens-me/openapi/yuens-me-match-api-openapi.yml
 - filename: yuens-me-observations-api-openapi.yml
   format: yaml
   label: Sunny Yuen Observations API
   slug: yuens-me-observations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yuens-me/refs/heads/main/openapi/yuens-me-observations-api-openapi.yml
+  url: https://artifacts.apis.io/yuens-me/openapi/yuens-me-observations-api-openapi.yml
 - filename: yuens-me-projects-api-openapi.yml
   format: yaml
   label: Sunny Yuen Projects API
   slug: yuens-me-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yuens-me/refs/heads/main/openapi/yuens-me-projects-api-openapi.yml
+  url: https://artifacts.apis.io/yuens-me/openapi/yuens-me-projects-api-openapi.yml
 - filename: yuens-me-query-api-openapi.yml
   format: yaml
   label: Sunny Yuen Query API
   slug: yuens-me-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yuens-me/refs/heads/main/openapi/yuens-me-query-api-openapi.yml
+  url: https://artifacts.apis.io/yuens-me/openapi/yuens-me-query-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -68,7 +68,7 @@ source_filename: yuens-me-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: yuens.me\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 13 18:49:20 2026 GMT\n  hsts: null\n- host: agent.yuens.me\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 22:10:15 2026 GMT\n  hsts: false\ndomains:\n- domain: yuens.me\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yuens-me/refs/heads/main/security/yuens-me-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/yuens-me/security/yuens-me-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

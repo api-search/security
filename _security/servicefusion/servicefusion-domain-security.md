@@ -5,55 +5,55 @@ api_specs:
   label: Service Fusion Calendar Tasks API
   slug: servicefusion-calendar-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-calendar-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/servicefusion/openapi/servicefusion-calendar-tasks-api-openapi.yml
 - filename: servicefusion-contacts-api-openapi.yml
   format: yaml
   label: Service Fusion Contacts API
   slug: servicefusion-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/servicefusion/openapi/servicefusion-contacts-api-openapi.yml
 - filename: servicefusion-customers-api-openapi.yml
   format: yaml
   label: Service Fusion Customers API
   slug: servicefusion-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-customers-api-openapi.yml
+  url: https://artifacts.apis.io/servicefusion/openapi/servicefusion-customers-api-openapi.yml
 - filename: servicefusion-estimates-api-openapi.yml
   format: yaml
   label: Service Fusion Estimates API
   slug: servicefusion-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/servicefusion/openapi/servicefusion-estimates-api-openapi.yml
 - filename: servicefusion-invoices-api-openapi.yml
   format: yaml
   label: Service Fusion Invoices API
   slug: servicefusion-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/servicefusion/openapi/servicefusion-invoices-api-openapi.yml
 - filename: servicefusion-jobs-api-openapi.yml
   format: yaml
   label: Service Fusion Jobs API
   slug: servicefusion-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/servicefusion/openapi/servicefusion-jobs-api-openapi.yml
 - filename: servicefusion-payments-api-openapi.yml
   format: yaml
   label: Service Fusion Payments API
   slug: servicefusion-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-payments-api-openapi.yml
+  url: https://artifacts.apis.io/servicefusion/openapi/servicefusion-payments-api-openapi.yml
 - filename: servicefusion-products-and-services-api-openapi.yml
   format: yaml
   label: Service Fusion Products and Services API
   slug: servicefusion-products-and-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-products-and-services-api-openapi.yml
+  url: https://artifacts.apis.io/servicefusion/openapi/servicefusion-products-and-services-api-openapi.yml
 - filename: servicefusion-techs-and-users-api-openapi.yml
   format: yaml
   label: Service Fusion Techs and Users API
   slug: servicefusion-techs-and-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-techs-and-users-api-openapi.yml
+  url: https://artifacts.apis.io/servicefusion/openapi/servicefusion-techs-and-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -92,10 +92,10 @@ source_filename: servicefusion-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.servicefusion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 22:39:47 2026 GMT\n  hsts: false\n- host: docs.servicefusion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 23:59:59 2026 GMT\n  hsts: false\n- host: api.servicefusion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: servicefusion.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/security/servicefusion-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/servicefusion/security/servicefusion-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Field Service
+- Field Service Management
 - Home Services
 - Contractors
 - Scheduling

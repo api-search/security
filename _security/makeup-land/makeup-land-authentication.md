@@ -8,55 +8,55 @@ api_specs:
   label: makeup.land Brands API
   slug: makeup-land-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-brands-api-openapi.yml
+  url: https://artifacts.apis.io/makeup-land/openapi/makeup-land-brands-api-openapi.yml
 - filename: makeup-land-cart-api-openapi.yml
   format: yaml
   label: makeup.land Cart API
   slug: makeup-land-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-cart-api-openapi.yml
+  url: https://artifacts.apis.io/makeup-land/openapi/makeup-land-cart-api-openapi.yml
 - filename: makeup-land-customers-api-openapi.yml
   format: yaml
   label: makeup.land Customers API
   slug: makeup-land-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-customers-api-openapi.yml
+  url: https://artifacts.apis.io/makeup-land/openapi/makeup-land-customers-api-openapi.yml
 - filename: makeup-land-gift-cards-api-openapi.yml
   format: yaml
   label: makeup.land Gift Cards API
   slug: makeup-land-gift-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-gift-cards-api-openapi.yml
+  url: https://artifacts.apis.io/makeup-land/openapi/makeup-land-gift-cards-api-openapi.yml
 - filename: makeup-land-orders-api-openapi.yml
   format: yaml
   label: makeup.land Orders API
   slug: makeup-land-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-orders-api-openapi.yml
+  url: https://artifacts.apis.io/makeup-land/openapi/makeup-land-orders-api-openapi.yml
 - filename: makeup-land-payment-links-api-openapi.yml
   format: yaml
   label: makeup.land Payment Links API
   slug: makeup-land-payment-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-payment-links-api-openapi.yml
+  url: https://artifacts.apis.io/makeup-land/openapi/makeup-land-payment-links-api-openapi.yml
 - filename: makeup-land-products-api-openapi.yml
   format: yaml
   label: makeup.land Products API
   slug: makeup-land-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-products-api-openapi.yml
+  url: https://artifacts.apis.io/makeup-land/openapi/makeup-land-products-api-openapi.yml
 - filename: makeup-land-proposals-api-openapi.yml
   format: yaml
   label: makeup.land Proposals API
   slug: makeup-land-proposals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-proposals-api-openapi.yml
+  url: https://artifacts.apis.io/makeup-land/openapi/makeup-land-proposals-api-openapi.yml
 - filename: makeup-land-register-api-openapi.yml
   format: yaml
   label: makeup.land Register API
   slug: makeup-land-register-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-register-api-openapi.yml
+  url: https://artifacts.apis.io/makeup-land/openapi/makeup-land-register-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -114,7 +114,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/makeup-
   \ (llms-api.txt, MCP README) with operator identity,\n    use case, desired scope and read_only preference; an admin issues the token from the api_tokens table. \"Median\n    turnaround: a few business hours during Israel working hours. There is no SLA today.\"'\n  scopes:\n  - full\n  - register\n  - giftcards\n  - proposals\n  flags:\n  - read_only\n  expiry: Tokens do not expire automatically.\n  revocation: Manual by email with the token prefix; no self-service revocation endpoint. Revoked tokens return\n    401 unauthorized.\n  rotation: None in-band — on a 401 treat the credential as invalid, do not auto-retry, request a new token by email.\n  discovery:\n  - https://makeup.land/.well-known/oauth-protected-resource\n  - https://makeup.land/.well-known/oauth-authorization-server\n  agent_auth: RFC 8414 metadata carries agent_auth {register_uri mailto:info@makeup.land, identity_types_supported\n    [identity_assertion], identity_assertion.methods [email_manual], credentials_issued\
   \ [api_key]} — the WorkOS\n    auth.md pattern; the skill file is saved verbatim at skills/makeup-land-auth.md.\n  observed: GET /api/v1/brands without a token -> 401 {\"error\":\"Unauthorized\"} (2026-09-19)\n- name: phoneIdentifier\n  type: apiKey\n  in: query\n  parameter: phone\n  description: Phone number in E.164 format (e.g. `+972501234567`) that selects which customer's resources to return.\n    **NOT a credential** — endpoints that accept this also REQUIRE `bearerAuth`. The bearer authenticates the calling\n    partner; the phone selects the customer. For POST/PATCH cart-mutation endpoints, the phone goes in the JSON\n    body instead of the query string.\n  sources:\n  - openapi/makeup-land-openapi.yml\n  selector_not_credential: true\n  location_rule: ?phone= query for GET/DELETE; phone in the JSON body for POST/PATCH cart mutations\n  observed: 'The provider: \"A bearer without phone is rejected with 400 phone parameter required; a phone without\n    bearer is rejected with\
   \ 401 Unauthorized.\"'\ndocs: https://makeup.land/auth.md\nerror_codes:\n  '401': unauthorized\n  '403':\n  - scope_mismatch\n  - read_only_token\n  detail: errors/makeup-land-problem-types.yml\nscopes_detail: scopes/makeup-land-scopes.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/authentication/makeup-land-authentication.yml
+source_yaml_url: https://artifacts.apis.io/makeup-land/authentication/makeup-land-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Cosmetics

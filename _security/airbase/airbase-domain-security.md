@@ -39,7 +39,7 @@ source_filename: airbase-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.airbase.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 11 19:42:47 2026 GMT\n  hsts: false\n- host: developer.airbase.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 20:03:53 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: airbase.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: airbase.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airbase/refs/heads/main/security/airbase-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/airbase/security/airbase-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Spend Management

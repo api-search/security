@@ -8,19 +8,31 @@ api_specs:
   label: Amazon Translate Batch Translation API
   slug: amazon-translate-batch-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-translate/refs/heads/main/openapi/amazon-translate-batch-translation-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-translate/openapi/amazon-translate-batch-translation-api-openapi.yml
 - filename: amazon-translate-terminology-api-openapi.yml
   format: yaml
   label: Amazon Translate Terminology API
   slug: amazon-translate-terminology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-translate/refs/heads/main/openapi/amazon-translate-terminology-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-translate/openapi/amazon-translate-terminology-api-openapi.yml
 - filename: amazon-translate-translation-api-openapi.yml
   format: yaml
   label: Amazon Translate Translation API
   slug: amazon-translate-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-translate/refs/heads/main/openapi/amazon-translate-translation-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-translate/openapi/amazon-translate-translation-api-openapi.yml
+- filename: amazon-translate-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Translate Translate Operations API
+  slug: amazon-translate-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-translate/openapi/amazon-translate-operations-api-openapi.yml
+- filename: amazon-translate-parallel-data-api-openapi.yml
+  format: yaml
+  label: Amazon Translate Translate Parallel Data API
+  slug: amazon-translate-parallel-data-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-translate/openapi/amazon-translate-parallel-data-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +60,7 @@ source_filename: amazon-translate-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-translate-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: aws_sig_v4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4 authentication.\n  sources:\n  - openapi/amazon-translate-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-translate/refs/heads/main/authentication/amazon-translate-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-translate/authentication/amazon-translate-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Language Processing

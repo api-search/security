@@ -26,7 +26,7 @@ source_filename: aer-therapeutics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aertherapeutics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 15:47:38 2026 GMT\n  hsts: false\ndomains:\n- domain: aertherapeutics.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aer-therapeutics/refs/heads/main/security/aer-therapeutics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aer-therapeutics/security/aer-therapeutics-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

@@ -8,85 +8,85 @@ api_specs:
   label: Coinflow Authentication API
   slug: coinflow-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/coinflow/openapi/coinflow-authentication-api-openapi.yml
 - filename: coinflow-checkout-api-openapi.yml
   format: yaml
   label: Coinflow Checkout API
   slug: coinflow-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/coinflow/openapi/coinflow-checkout-api-openapi.yml
 - filename: coinflow-customers-api-openapi.yml
   format: yaml
   label: Coinflow Customers API
   slug: coinflow-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-customers-api-openapi.yml
+  url: https://artifacts.apis.io/coinflow/openapi/coinflow-customers-api-openapi.yml
 - filename: coinflow-events-api-openapi.yml
   format: yaml
   label: Coinflow Events API
   slug: coinflow-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-events-api-openapi.yml
+  url: https://artifacts.apis.io/coinflow/openapi/coinflow-events-api-openapi.yml
 - filename: coinflow-marketplace-api-openapi.yml
   format: yaml
   label: Coinflow Marketplace API
   slug: coinflow-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/coinflow/openapi/coinflow-marketplace-api-openapi.yml
 - filename: coinflow-merchant-api-openapi.yml
   format: yaml
   label: Coinflow Merchant API
   slug: coinflow-merchant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-merchant-api-openapi.yml
+  url: https://artifacts.apis.io/coinflow/openapi/coinflow-merchant-api-openapi.yml
 - filename: coinflow-merchantsubscription-api-openapi.yml
   format: yaml
   label: Coinflow Merchant Subscription API
   slug: coinflow-merchantsubscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-merchantsubscription-api-openapi.yml
+  url: https://artifacts.apis.io/coinflow/openapi/coinflow-merchantsubscription-api-openapi.yml
 - filename: coinflow-redeem-api-openapi.yml
   format: yaml
   label: Coinflow Redeem API
   slug: coinflow-redeem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-redeem-api-openapi.yml
+  url: https://artifacts.apis.io/coinflow/openapi/coinflow-redeem-api-openapi.yml
 - filename: coinflow-refund-api-openapi.yml
   format: yaml
   label: Coinflow Refund API
   slug: coinflow-refund-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-refund-api-openapi.yml
+  url: https://artifacts.apis.io/coinflow/openapi/coinflow-refund-api-openapi.yml
 - filename: coinflow-submerchant-api-openapi.yml
   format: yaml
   label: Coinflow Sub Merchant API
   slug: coinflow-submerchant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-submerchant-api-openapi.yml
+  url: https://artifacts.apis.io/coinflow/openapi/coinflow-submerchant-api-openapi.yml
 - filename: coinflow-subscription-api-openapi.yml
   format: yaml
   label: Coinflow Subscription API
   slug: coinflow-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/coinflow/openapi/coinflow-subscription-api-openapi.yml
 - filename: coinflow-utilities-api-openapi.yml
   format: yaml
   label: Coinflow Utilities API
   slug: coinflow-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/coinflow/openapi/coinflow-utilities-api-openapi.yml
 - filename: coinflow-withdraw-api-openapi.yml
   format: yaml
   label: Coinflow Withdraw API
   slug: coinflow-withdraw-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-withdraw-api-openapi.yml
+  url: https://artifacts.apis.io/coinflow/openapi/coinflow-withdraw-api-openapi.yml
 - filename: coinflow-card-tokenization-api-openapi.yml
   format: yaml
   label: Coinflow Card Tokenization API
   slug: coinflow-card-tokenization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-card-tokenization-api-openapi.yml
+  url: https://artifacts.apis.io/coinflow/openapi/coinflow-card-tokenization-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -158,7 +158,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/coinflow-openapi-original.json\ndocs: https://docs.coinflow.cash/api-reference/api-reference/authentication/get-session-key\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  model: >-\n    Multi-layered header auth. Server-to-server requests carry the merchant API\n    key in the Authorization header. End-user context is established either by a\n    session key (call get-session-key with x-coinflow-auth-user-id, then pass\n    x-coinflow-auth-session-key; session keys last 24 hours) or by web3 wallet\n    verification (x-coinflow-auth-wallet + x-coinflow-auth-blockchain, proven with\n    a signature in x-coinflow-auth-signed-message and confirmed via verify-token).\n    No OAuth2/OIDC.\n  session_ttl: 24 hours\nschemes:\n- name: wallet\n  type: apiKey\n  in: header\n  parameter: x-coinflow-auth-wallet\n  description: The web3 wallet of the end user - see https://docs.coinflow.cash/api-reference/api-reference/authentication/get-session-key\n\
   \  sources:\n  - openapi/coinflow-openapi-original.json\n- name: blockchain\n  type: apiKey\n  in: header\n  parameter: x-coinflow-auth-blockchain\n  description: The blockchain associated with the end user - see https://docs.coinflow.cash/api-reference/api-reference/authentication/get-session-key\n  sources:\n  - openapi/coinflow-openapi-original.json\n- name: userId\n  type: apiKey\n  in: header\n  parameter: x-coinflow-auth-user-id\n  description: The external identifier of the end user - see https://docs.coinflow.cash/api-reference/api-reference/authentication/get-session-key\n  sources:\n  - openapi/coinflow-openapi-original.json\n- name: merchant\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: The API key of the merchant - see https://docs.coinflow.cash/api-reference/api-reference/authentication/get-session-key\n  sources:\n  - openapi/coinflow-openapi-original.json\n- name: signedMessage\n  type: apiKey\n  in: header\n  parameter: x-coinflow-auth-signed-message\n\
   \  description: The message signed by the users wallet\n  sources:\n  - openapi/coinflow-openapi-original.json\n- name: merchantId\n  type: apiKey\n  in: header\n  parameter: x-coinflow-auth-merchant-id\n  description: The merchant ID the session should be generated for\n  sources:\n  - openapi/coinflow-openapi-original.json\n- name: sessionKey\n  type: apiKey\n  in: header\n  parameter: x-coinflow-auth-session-key\n  description: The session key generated for the end user - see https://docs.coinflow.cash/api-reference/api-reference/authentication/get-session-key\n  sources:\n  - openapi/coinflow-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/authentication/coinflow-authentication.yml
+source_yaml_url: https://artifacts.apis.io/coinflow/authentication/coinflow-authentication.yml
 summary_line: apiKey · 7 schemes
 tags:
 - Company

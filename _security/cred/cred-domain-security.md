@@ -28,7 +28,7 @@ source_filename: cred-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cred.club\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 23 12:08:43 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: cred.club\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cred/refs/heads/main/security/cred-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cred/security/cred-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Consumer Fintech

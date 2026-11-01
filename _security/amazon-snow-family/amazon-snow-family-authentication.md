@@ -8,7 +8,7 @@ api_specs:
   label: Amazon Snow Family Amazon Import/Export Snowball API
   slug: amazon-snow-family-amazon-import-export-snowball-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-snow-family/refs/heads/main/openapi/amazon-snow-family-amazon-import-export-snowball-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-snow-family/openapi/amazon-snow-family-amazon-import-export-snowball-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: amazon-snow-family-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-snow-family.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-snow-family.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-snow-family/refs/heads/main/authentication/amazon-snow-family-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-snow-family/authentication/amazon-snow-family-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Data Migration

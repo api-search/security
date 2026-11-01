@@ -8,7 +8,7 @@ api_specs:
   label: Nansen Smart Money API
   slug: nansen-smart-money-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nansen/refs/heads/main/openapi/nansen-smart-money-api-openapi.yml
+  url: https://artifacts.apis.io/nansen/openapi/nansen-smart-money-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: nansen-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/nansen-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: apiKey\n  description: Nansen API key issued to subscribed customers.\n  sources:\n  - openapi/nansen-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nansen/refs/heads/main/authentication/nansen-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nansen/authentication/nansen-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Web3

@@ -15,7 +15,7 @@ source_filename: cabinet-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nprobe: true\nsource: https://trust.joincabinet.com/\nurl: https://trust.joincabinet.com/\ncertifications:\n- SOC 2\nevidence:\n- source: https://trust.joincabinet.com/\n  keywords:\n  - soc 2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cabinet/refs/heads/main/security/cabinet-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/cabinet/security/cabinet-trust-center.yml
 summary_line: SOC 2
 tags:
 - Company

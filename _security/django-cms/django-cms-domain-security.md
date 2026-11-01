@@ -5,43 +5,43 @@ api_specs:
   label: Django CMS Breadcrumbs API
   slug: django-cms-breadcrumbs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/django-cms/refs/heads/main/openapi/django-cms-breadcrumbs-api-openapi.yml
+  url: https://artifacts.apis.io/django-cms/openapi/django-cms-breadcrumbs-api-openapi.yml
 - filename: django-cms-health-api-openapi.yml
   format: yaml
   label: Django CMS Health API
   slug: django-cms-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/django-cms/refs/heads/main/openapi/django-cms-health-api-openapi.yml
+  url: https://artifacts.apis.io/django-cms/openapi/django-cms-health-api-openapi.yml
 - filename: django-cms-languages-api-openapi.yml
   format: yaml
   label: Django CMS Languages API
   slug: django-cms-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/django-cms/refs/heads/main/openapi/django-cms-languages-api-openapi.yml
+  url: https://artifacts.apis.io/django-cms/openapi/django-cms-languages-api-openapi.yml
 - filename: django-cms-menus-api-openapi.yml
   format: yaml
   label: Django CMS Menus API
   slug: django-cms-menus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/django-cms/refs/heads/main/openapi/django-cms-menus-api-openapi.yml
+  url: https://artifacts.apis.io/django-cms/openapi/django-cms-menus-api-openapi.yml
 - filename: django-cms-pages-api-openapi.yml
   format: yaml
   label: Django CMS Pages API
   slug: django-cms-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/django-cms/refs/heads/main/openapi/django-cms-pages-api-openapi.yml
+  url: https://artifacts.apis.io/django-cms/openapi/django-cms-pages-api-openapi.yml
 - filename: django-cms-placeholders-api-openapi.yml
   format: yaml
   label: Django CMS Placeholders API
   slug: django-cms-placeholders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/django-cms/refs/heads/main/openapi/django-cms-placeholders-api-openapi.yml
+  url: https://artifacts.apis.io/django-cms/openapi/django-cms-placeholders-api-openapi.yml
 - filename: django-cms-plugins-api-openapi.yml
   format: yaml
   label: Django CMS Plugins API
   slug: django-cms-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/django-cms/refs/heads/main/openapi/django-cms-plugins-api-openapi.yml
+  url: https://artifacts.apis.io/django-cms/openapi/django-cms-plugins-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ source_filename: django-cms-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.django-cms.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 14:02:44 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: djangocms-rest.readthedocs.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 13:13:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: django-cms.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: readthedocs.io\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issuewild \"comodoca.com\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/django-cms/refs/heads/main/security/django-cms-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/django-cms/security/django-cms-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - CMS

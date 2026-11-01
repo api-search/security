@@ -5,19 +5,19 @@ api_specs:
   label: StayingAPI Account API
   slug: stayingapi-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/openapi/stayingapi-account-api-openapi.yml
+  url: https://artifacts.apis.io/stayingapi/openapi/stayingapi-account-api-openapi.yml
 - filename: stayingapi-data-api-openapi.yml
   format: yaml
   label: StayingAPI Data API
   slug: stayingapi-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/openapi/stayingapi-data-api-openapi.yml
+  url: https://artifacts.apis.io/stayingapi/openapi/stayingapi-data-api-openapi.yml
 - filename: stayingapi-jobs-api-openapi.yml
   format: yaml
   label: StayingAPI Jobs API
   slug: stayingapi-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/openapi/stayingapi-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/stayingapi/openapi/stayingapi-jobs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -56,7 +56,7 @@ source_filename: stayingapi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: stayingapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 12:53:44 2026 GMT\n  hsts: false\n- host: api.stayingapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 12:53:44 2026 GMT\n  hsts: null\n- host: mcp.stayingapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 12:53:44 2026 GMT\n  hsts: null\ndomains:\n- domain: stayingapi.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/security/stayingapi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/stayingapi/security/stayingapi-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Travel

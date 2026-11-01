@@ -8,13 +8,13 @@ api_specs:
   label: CallRail Accounts API
   slug: callrail-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callrail/refs/heads/main/openapi/callrail-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/callrail/openapi/callrail-accounts-api-openapi.yml
 - filename: callrail-calls-api-openapi.yml
   format: yaml
   label: CallRail Calls API
   slug: callrail-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callrail/refs/heads/main/openapi/callrail-calls-api-openapi.yml
+  url: https://artifacts.apis.io/callrail/openapi/callrail-calls-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: openapi/callrai
   \n  - name: MCP OAuth\n    type: oauth2\n    surface: hosted MCP server\n    description: >-\n      The MCP server authenticates the end user with OAuth 2.0 against CallRail — the assistant\n      redirects to CallRail's login page for authorization. No API keys are involved; the session\n      is scoped to the CallRail user account and respects existing account/company permissions.\n    flows: []\n    flows_note: >-\n      Grant type, authorization URL, token URL and scopes are all unpublished. No\n      /.well-known/oauth-authorization-server (RFC 8414) or /.well-known/oauth-protected-resource\n      (RFC 9728) document is reachable, and the MCP endpoint host itself is issued per account, so\n      the flow cannot be discovered programmatically.\n    sources:\n      - https://apidocs.callrail.com/#mcp\n    detail: mcp/callrail-mcp.yml\nrequest_identification:\n  header: Request-From\n  required: false\n  description: >-\n    Not authentication, but CallRail asks third-party platforms\
   \ building integrations to identify\n    themselves with a `Request-From` header carrying their lowercased software name with\n    underscores for spaces (e.g. `Request-From: hanks_hotdogs`). Customers calling the API for\n    their own data do not need it.\n  source: https://apidocs.callrail.com/#identifying-your-integration\nscopes:\n  published: false\n  note: >-\n    No OAuth scopes, permission strings, or scoped-key types are documented for either surface, so\n    no scopes/ artifact is written. Authorization is entirely inherited from the underlying user.\ntransport_security:\n  https_required: true\n  tls: >-\n    api.callrail.com negotiates TLS 1.2 and does not send HSTS; see\n    security/callrail-domain-security.yml.\ngaps:\n  - No scoped or least-privilege API keys — a key inherits its user's full access.\n  - No OAuth for the REST API, so third-party integrations must ask customers to paste a key.\n  - No published OAuth metadata for the MCP server despite it being an OAuth\
   \ surface.\n  - No key rotation, expiry, or last-used visibility documented through the API.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/callrail/refs/heads/main/authentication/callrail-authentication.yml
+source_yaml_url: https://artifacts.apis.io/callrail/authentication/callrail-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Call Tracking

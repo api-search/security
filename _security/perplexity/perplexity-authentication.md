@@ -19,49 +19,49 @@ api_specs:
   label: Perplexity Agent API
   slug: perplexity-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perplexity/refs/heads/main/openapi/perplexity-agent-api-openapi.yml
+  url: https://artifacts.apis.io/perplexity/openapi/perplexity-agent-api-openapi.yml
 - filename: perplexity-async-api-openapi.yml
   format: yaml
   label: Perplexity Async API
   slug: perplexity-async-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perplexity/refs/heads/main/openapi/perplexity-async-api-openapi.yml
+  url: https://artifacts.apis.io/perplexity/openapi/perplexity-async-api-openapi.yml
 - filename: perplexity-contextualizedembeddings-api-openapi.yml
   format: yaml
   label: Perplexity Contextualizedembeddings API
   slug: perplexity-contextualizedembeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perplexity/refs/heads/main/openapi/perplexity-contextualizedembeddings-api-openapi.yml
+  url: https://artifacts.apis.io/perplexity/openapi/perplexity-contextualizedembeddings-api-openapi.yml
 - filename: perplexity-embeddings-api-openapi.yml
   format: yaml
   label: Perplexity Embeddings API
   slug: perplexity-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perplexity/refs/heads/main/openapi/perplexity-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/perplexity/openapi/perplexity-embeddings-api-openapi.yml
 - filename: perplexity-models-api-openapi.yml
   format: yaml
   label: Perplexity Models API
   slug: perplexity-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perplexity/refs/heads/main/openapi/perplexity-models-api-openapi.yml
+  url: https://artifacts.apis.io/perplexity/openapi/perplexity-models-api-openapi.yml
 - filename: perplexity-search-api-openapi.yml
   format: yaml
   label: Perplexity Search API
   slug: perplexity-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perplexity/refs/heads/main/openapi/perplexity-search-api-openapi.yml
+  url: https://artifacts.apis.io/perplexity/openapi/perplexity-search-api-openapi.yml
 - filename: perplexity-decisions-api-openapi.yml
   format: yaml
   label: Perplexity Decisions API
   slug: perplexity-decisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perplexity/refs/heads/main/openapi/perplexity-decisions-api-openapi.yml
+  url: https://artifacts.apis.io/perplexity/openapi/perplexity-decisions-api-openapi.yml
 - filename: perplexity-sonar-api-openapi.yml
   format: yaml
   label: Perplexity Sonar API
   slug: perplexity-sonar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perplexity/refs/heads/main/openapi/perplexity-sonar-api-openapi.yml
+  url: https://artifacts.apis.io/perplexity/openapi/perplexity-sonar-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -87,7 +87,7 @@ source_filename: perplexity-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/perplexity-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: HTTPBearer\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/perplexity-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/perplexity/refs/heads/main/authentication/perplexity-authentication.yml
+source_yaml_url: https://artifacts.apis.io/perplexity/authentication/perplexity-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

@@ -8,31 +8,31 @@ api_specs:
   label: Theneo Import API
   slug: theneo-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theneo/refs/heads/main/openapi/theneo-import-api-openapi.yml
+  url: https://artifacts.apis.io/theneo/openapi/theneo-import-api-openapi.yml
 - filename: theneo-projects-api-openapi.yml
   format: yaml
   label: Theneo Projects API
   slug: theneo-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theneo/refs/heads/main/openapi/theneo-projects-api-openapi.yml
+  url: https://artifacts.apis.io/theneo/openapi/theneo-projects-api-openapi.yml
 - filename: theneo-publishing-api-openapi.yml
   format: yaml
   label: Theneo Publishing API
   slug: theneo-publishing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theneo/refs/heads/main/openapi/theneo-publishing-api-openapi.yml
+  url: https://artifacts.apis.io/theneo/openapi/theneo-publishing-api-openapi.yml
 - filename: theneo-users-api-openapi.yml
   format: yaml
   label: Theneo Users API
   slug: theneo-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theneo/refs/heads/main/openapi/theneo-users-api-openapi.yml
+  url: https://artifacts.apis.io/theneo/openapi/theneo-users-api-openapi.yml
 - filename: theneo-workspaces-api-openapi.yml
   format: yaml
   label: Theneo Workspaces API
   slug: theneo-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theneo/refs/heads/main/openapi/theneo-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/theneo/openapi/theneo-workspaces-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: theneo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/theneo-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: API key for authentication. Generate from the Theneo dashboard. Can also be set\n    via the THENEO_API_KEY environment variable when using the CLI or SDK.\n  sources:\n  - openapi/theneo-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/theneo/refs/heads/main/authentication/theneo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/theneo/authentication/theneo-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - API Documentation

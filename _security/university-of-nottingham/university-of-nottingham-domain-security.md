@@ -43,7 +43,7 @@ source_filename: university-of-nottingham-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nottingham.ac.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  2 23:59:59 2027 GMT\n  hsts: false\n- host: nottingham-repository.worktribe.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 18:41:19 2026 GMT\n  hsts: null\n- host: eprints.nottingham.ac.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: nottingham.ac.uk\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: worktribe.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-nottingham/refs/heads/main/security/university-of-nottingham-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/university-of-nottingham/security/university-of-nottingham-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Education

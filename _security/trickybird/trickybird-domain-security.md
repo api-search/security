@@ -34,7 +34,7 @@ source_filename: trickybird-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: trickybird.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 12:25:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  hsts_preload: true\n  hsts_header: max-age=31536000; includeSubDomains; preload\ndomains:\n- domain: trickybird.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n  dmarc_subdomain_policy: reject\n  dmarc_record: v=DMARC1; p=quarantine; np=reject; rua=mailto:dmarc@trickybird.com; fo=1\n  x-reprobed: '2026-10-05 (dig TXT _dmarc.trickybird.com; provider request api-evangelist/trickybird#1)'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trickybird/refs/heads/main/security/trickybird-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trickybird/security/trickybird-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - web proxy

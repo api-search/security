@@ -8,19 +8,19 @@ api_specs:
   label: ipify Account API
   slug: ipify-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipify/refs/heads/main/openapi/ipify-account-api-openapi.yml
+  url: https://artifacts.apis.io/ipify/openapi/ipify-account-api-openapi.yml
 - filename: ipify-geolocation-api-openapi.yml
   format: yaml
   label: ipify Geolocation API
   slug: ipify-geolocation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipify/refs/heads/main/openapi/ipify-geolocation-api-openapi.yml
+  url: https://artifacts.apis.io/ipify/openapi/ipify-geolocation-api-openapi.yml
 - filename: ipify-ip-address-api-openapi.yml
   format: yaml
   label: ipify IP Address API
   slug: ipify-ip-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipify/refs/heads/main/openapi/ipify-ip-address-api-openapi.yml
+  url: https://artifacts.apis.io/ipify/openapi/ipify-ip-address-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: ipify-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ipify-geolocation-api.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyQuery\n  type: apiKey\n  in: query\n  parameter: apiKey\n  description: Personal API key issued by WhoisXML API for the ipify Geolocation product. Passed\n    as the `apiKey` query parameter on every request.\n  sources:\n  - openapi/ipify-geolocation-api.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ipify/refs/heads/main/authentication/ipify-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ipify/authentication/ipify-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Development

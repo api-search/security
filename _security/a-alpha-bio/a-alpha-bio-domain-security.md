@@ -5,7 +5,7 @@ api_specs:
   label: A-Alpha Bio Datasets API
   slug: a-alpha-bio-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a-alpha-bio/refs/heads/main/openapi/a-alpha-bio-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/a-alpha-bio/openapi/a-alpha-bio-datasets-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: a-alpha-bio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.aalphabio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 05:03:46 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: atlas.aalphabio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 15 23:59:59 2027 GMT\n  hsts: false\n- host: api.atlas.aalphabio.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar 15 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: aalphabio.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/a-alpha-bio/refs/heads/main/security/a-alpha-bio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/a-alpha-bio/security/a-alpha-bio-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - protein-interactions

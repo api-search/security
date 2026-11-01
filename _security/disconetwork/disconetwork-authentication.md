@@ -8,19 +8,19 @@ api_specs:
   label: Disconetwork Discobeat API
   slug: disconetwork-discobeat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/openapi/disconetwork-discobeat-api-openapi.yml
+  url: https://artifacts.apis.io/disconetwork/openapi/disconetwork-discobeat-api-openapi.yml
 - filename: disconetwork-events-api-openapi.yml
   format: yaml
   label: Disconetwork Events API
   slug: disconetwork-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/openapi/disconetwork-events-api-openapi.yml
+  url: https://artifacts.apis.io/disconetwork/openapi/disconetwork-events-api-openapi.yml
 - filename: disconetwork-recommendations-api-openapi.yml
   format: yaml
   label: Disconetwork Recommendations API
   slug: disconetwork-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/openapi/disconetwork-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/disconetwork/openapi/disconetwork-recommendations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: https://discone
   - name: ManagementApiKey\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: The DiscoBeat management API key. The same key authenticates the DiscoBeat\n    Channel API and both versions of the Reporting API.\n  applies_to:\n  - DiscoBeat Channel API (api.disconetwork.com)\n  - Disco Reporting API V1 (api.disconetwork.com)\n  - Disco Reporting API V2 (api.disconetwork.com)\n  sources:\n  - openapi/disconetwork-reporting-api-v1.yml\n  - openapi/disconetwork-reporting-api-v2.yml\n  - https://disconetwork.com/developers/discobeat\nkey_classes:\n- class: secret / management key\n  usage: Server-to-server. Authenticates the DiscoBeat Channel API and the Reporting\n    API.\n  transport: x-api-key header\n- class: publishable key\n  usage: Referenced in the DiscoBeat docs alongside the secret key; the docs draw a\n    secret-vs-publishable distinction but do not publish the publishable key's own\n    call surface.\n  transport: not documented publicly\n  observed_prefix_example:\
   \ disco_pk_live_ (shown in a DiscoBeat publisher-detail response\n    example on https://disconetwork.com/developers/discobeat)\nenvironment_binding:\n  documented: true\n  rule: Keys are environment-specific. A staging key works only against the staging\n    base URL and a production key only against production.\n  mismatch_behavior: HTTP 401 with the message \"API key environment does not match\n    service environment.\"\n  source: https://disconetwork.com/developers/discobeat\nfailure_modes:\n- status: 401\n  body: '{\"detail\": \"Invalid or expired API key.\"}'\n  cause: invalid, expired or missing key\n  source: https://disconetwork.com/developers/discobeat\n- status: 401\n  cause: missing or invalid management API key on a Reporting API request\n  source: openapi/disconetwork-reporting-api-v1.yml\nprovisioning:\n  self_service: false\n  how: A Disco representative issues the management API key; partners request one via\n    https://disconetwork.com/book-a-demo.\n  rotation_policy_published:\
   \ false\nnotes:\n- The Disco Event API (https://consumer.disconetwork.com/api/events) is documented\n  without an authentication header; identity is carried in the payload as a raw email,\n  a SHA-256 email hash, or a click identifier, plus the publisher account_id.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/authentication/disconetwork-authentication.yml
+source_yaml_url: https://artifacts.apis.io/disconetwork/authentication/disconetwork-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company

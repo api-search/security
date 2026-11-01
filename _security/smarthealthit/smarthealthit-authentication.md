@@ -7,31 +7,31 @@ api_specs:
   label: SMART Health IT Bulk Data API
   slug: smarthealthit-bulk-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthealthit/refs/heads/main/openapi/smarthealthit-bulk-data-api-openapi.yml
+  url: https://artifacts.apis.io/smarthealthit/openapi/smarthealthit-bulk-data-api-openapi.yml
 - filename: smarthealthit-clinical-records-api-openapi.yml
   format: yaml
   label: SMART Health IT Clinical Records API
   slug: smarthealthit-clinical-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthealthit/refs/heads/main/openapi/smarthealthit-clinical-records-api-openapi.yml
+  url: https://artifacts.apis.io/smarthealthit/openapi/smarthealthit-clinical-records-api-openapi.yml
 - filename: smarthealthit-conformance-api-openapi.yml
   format: yaml
   label: SMART Health IT Conformance API
   slug: smarthealthit-conformance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthealthit/refs/heads/main/openapi/smarthealthit-conformance-api-openapi.yml
+  url: https://artifacts.apis.io/smarthealthit/openapi/smarthealthit-conformance-api-openapi.yml
 - filename: smarthealthit-patients-api-openapi.yml
   format: yaml
   label: SMART Health IT Patients API
   slug: smarthealthit-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthealthit/refs/heads/main/openapi/smarthealthit-patients-api-openapi.yml
+  url: https://artifacts.apis.io/smarthealthit/openapi/smarthealthit-patients-api-openapi.yml
 - filename: smarthealthit-smart-app-launch-api-openapi.yml
   format: yaml
   label: SMART Health IT SMART App Launch API
   slug: smarthealthit-smart-app-launch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthealthit/refs/heads/main/openapi/smarthealthit-smart-app-launch-api-openapi.yml
+  url: https://artifacts.apis.io/smarthealthit/openapi/smarthealthit-smart-app-launch-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -67,7 +67,7 @@ source_filename: smarthealthit-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/smarthealthit-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: smartOnFhir\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://launch.smarthealthit.org/v/r4/auth/authorize\n    tokenUrl: https://launch.smarthealthit.org/v/r4/auth/token\n    scopes: 6\n  - flow: clientCredentials\n    tokenUrl: https://launch.smarthealthit.org/v/r4/auth/token\n    scopes: 1\n  description: HL7 SMART App Launch OAuth 2.0 profile, used by the launcher's protected FHIR\n    proxy. The open r4.smarthealthit.org sandbox requires no authentication; the Bulk Data server\n    uses SMART Backend Services (client_credentials with a signed JWT assertion).\n  sources:\n  - openapi/smarthealthit-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smarthealthit/refs/heads/main/authentication/smarthealthit-authentication.yml
+source_yaml_url: https://artifacts.apis.io/smarthealthit/authentication/smarthealthit-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - SMART on FHIR

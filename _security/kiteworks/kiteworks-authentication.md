@@ -7,247 +7,247 @@ api_specs:
   label: Kiteworks Activities API
   slug: kiteworks-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-activities-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-activities-api-openapi.yml
 - filename: kiteworks-admin-api-openapi.yml
   format: yaml
   label: Kiteworks Admin API
   slug: kiteworks-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-admin-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-admin-api-openapi.yml
 - filename: kiteworks-advancedforms-api-openapi.yml
   format: yaml
   label: Kiteworks Advanced Forms API
   slug: kiteworks-advancedforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-advancedforms-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-advancedforms-api-openapi.yml
 - filename: kiteworks-cards-api-openapi.yml
   format: yaml
   label: Kiteworks Cards API
   slug: kiteworks-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-cards-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-cards-api-openapi.yml
 - filename: kiteworks-clienteventlogs-api-openapi.yml
   format: yaml
   label: Kiteworks Client Event Logs API
   slug: kiteworks-clienteventlogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-clienteventlogs-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-clienteventlogs-api-openapi.yml
 - filename: kiteworks-clients-api-openapi.yml
   format: yaml
   label: Kiteworks Clients API
   slug: kiteworks-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-clients-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-clients-api-openapi.yml
 - filename: kiteworks-comments-api-openapi.yml
   format: yaml
   label: Kiteworks Comments API
   slug: kiteworks-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-comments-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-comments-api-openapi.yml
 - filename: kiteworks-contacts-api-openapi.yml
   format: yaml
   label: Kiteworks Contacts API
   slug: kiteworks-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-contacts-api-openapi.yml
 - filename: kiteworks-devices-api-openapi.yml
   format: yaml
   label: Kiteworks Devices API
   slug: kiteworks-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-devices-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-devices-api-openapi.yml
 - filename: kiteworks-dli-api-openapi.yml
   format: yaml
   label: Kiteworks Dli API
   slug: kiteworks-dli-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-dli-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-dli-api-openapi.yml
 - filename: kiteworks-externaldl-api-openapi.yml
   format: yaml
   label: Kiteworks External DL API
   slug: kiteworks-externaldl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-externaldl-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-externaldl-api-openapi.yml
 - filename: kiteworks-favorites-api-openapi.yml
   format: yaml
   label: Kiteworks Favorites API
   slug: kiteworks-favorites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-favorites-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-favorites-api-openapi.yml
 - filename: kiteworks-files-api-openapi.yml
   format: yaml
   label: Kiteworks Files API
   slug: kiteworks-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-files-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-files-api-openapi.yml
 - filename: kiteworks-folders-api-openapi.yml
   format: yaml
   label: Kiteworks Folders API
   slug: kiteworks-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-folders-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-folders-api-openapi.yml
 - filename: kiteworks-groups-api-openapi.yml
   format: yaml
   label: Kiteworks Groups API
   slug: kiteworks-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-groups-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-groups-api-openapi.yml
 - filename: kiteworks-internal-api-openapi.yml
   format: yaml
   label: Kiteworks Internal API
   slug: kiteworks-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-internal-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-internal-api-openapi.yml
 - filename: kiteworks-languages-api-openapi.yml
   format: yaml
   label: Kiteworks Languages API
   slug: kiteworks-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-languages-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-languages-api-openapi.yml
 - filename: kiteworks-ldapgroups-api-openapi.yml
   format: yaml
   label: Kiteworks Ldap Groups API
   slug: kiteworks-ldapgroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-ldapgroups-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-ldapgroups-api-openapi.yml
 - filename: kiteworks-locations-api-openapi.yml
   format: yaml
   label: Kiteworks Locations API
   slug: kiteworks-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-locations-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-locations-api-openapi.yml
 - filename: kiteworks-mail-api-openapi.yml
   format: yaml
   label: Kiteworks Mail API
   slug: kiteworks-mail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-mail-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-mail-api-openapi.yml
 - filename: kiteworks-mobilesync-api-openapi.yml
   format: yaml
   label: Kiteworks Mobile Sync API
   slug: kiteworks-mobilesync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-mobilesync-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-mobilesync-api-openapi.yml
 - filename: kiteworks-notifications-api-openapi.yml
   format: yaml
   label: Kiteworks Notifications API
   slug: kiteworks-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-notifications-api-openapi.yml
 - filename: kiteworks-permissions-api-openapi.yml
   format: yaml
   label: Kiteworks Permissions API
   slug: kiteworks-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-permissions-api-openapi.yml
 - filename: kiteworks-profiles-api-openapi.yml
   format: yaml
   label: Kiteworks Profiles API
   slug: kiteworks-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-profiles-api-openapi.yml
 - filename: kiteworks-requestfile-api-openapi.yml
   format: yaml
   label: Kiteworks Request File API
   slug: kiteworks-requestfile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-requestfile-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-requestfile-api-openapi.yml
 - filename: kiteworks-roles-api-openapi.yml
   format: yaml
   label: Kiteworks Roles API
   slug: kiteworks-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-roles-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-roles-api-openapi.yml
 - filename: kiteworks-scim-api-openapi.yml
   format: yaml
   label: Kiteworks SCIM API
   slug: kiteworks-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-scim-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-scim-api-openapi.yml
 - filename: kiteworks-search-api-openapi.yml
   format: yaml
   label: Kiteworks Search API
   slug: kiteworks-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-search-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-search-api-openapi.yml
 - filename: kiteworks-settings-api-openapi.yml
   format: yaml
   label: Kiteworks Settings API
   slug: kiteworks-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-settings-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-settings-api-openapi.yml
 - filename: kiteworks-sharedmailbox-api-openapi.yml
   format: yaml
   label: Kiteworks Shared Mailbox API
   slug: kiteworks-sharedmailbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-sharedmailbox-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-sharedmailbox-api-openapi.yml
 - filename: kiteworks-sources-api-openapi.yml
   format: yaml
   label: Kiteworks Sources API
   slug: kiteworks-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-sources-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-sources-api-openapi.yml
 - filename: kiteworks-system-api-openapi.yml
   format: yaml
   label: Kiteworks System API
   slug: kiteworks-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-system-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-system-api-openapi.yml
 - filename: kiteworks-tasks-api-openapi.yml
   format: yaml
   label: Kiteworks Tasks API
   slug: kiteworks-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-tasks-api-openapi.yml
 - filename: kiteworks-uploads-api-openapi.yml
   format: yaml
   label: Kiteworks Uploads API
   slug: kiteworks-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-uploads-api-openapi.yml
 - filename: kiteworks-users-api-openapi.yml
   format: yaml
   label: Kiteworks Users API
   slug: kiteworks-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-users-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-users-api-openapi.yml
 - filename: kiteworks-usersshpublickeys-api-openapi.yml
   format: yaml
   label: Kiteworks User Ssh Public Keys API
   slug: kiteworks-usersshpublickeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-usersshpublickeys-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-usersshpublickeys-api-openapi.yml
 - filename: kiteworks-webforms-api-openapi.yml
   format: yaml
   label: Kiteworks Web Forms API
   slug: kiteworks-webforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-webforms-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-webforms-api-openapi.yml
 - filename: kiteworks-webhook-api-openapi.yml
   format: yaml
   label: Kiteworks Webhook API
   slug: kiteworks-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-webhook-api-openapi.yml
 - filename: kiteworks-admin-roles-api-openapi.yml
   format: yaml
   label: Kiteworks Admin Roles API
   slug: kiteworks-admin-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-admin-roles-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-admin-roles-api-openapi.yml
 - filename: kiteworks-short-links-api-openapi.yml
   format: yaml
   label: Kiteworks Short Links API
   slug: kiteworks-short-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-short-links-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-short-links-api-openapi.yml
 - filename: kiteworks-source-types-api-openapi.yml
   format: yaml
   label: Kiteworks Source Types API
   slug: kiteworks-source-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-source-types-api-openapi.yml
+  url: https://artifacts.apis.io/kiteworks/openapi/kiteworks-source-types-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -315,7 +315,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://developer.kiteworks.com/authentication.html\ndocs: https://developer.kiteworks.com/authentication.html\nnote: The published v28 OpenAPI declares no components.securitySchemes, so this profile is taken from\n  the developer portal authentication guide rather than derived from the spec. Endpoints are per-tenant\n  against the customer Kiteworks appliance.\nsummary:\n  types:\n  - oauth2\n  api_key_in: []\n  oauth2_flows:\n  - authorizationCode\n  - jwt-bearer\n  token_header: 'Authorization: Bearer <access_token>'\nprerequisites:\n- 'Enterprise package with the Developer Suite add-on enabled (Admin console: Application Setup -> Licenses,\n  API row must show \"Enabled\")'\n- A registered custom application providing client_id, client_secret, permitted scopes, redirect URIs\n  and token lifetimes\nschemes:\n- name: OAuth2AuthorizationCode\n  type: oauth2\n  flow: authorizationCode\n  authorizationUrl: https://{kiteworks_server}/oauth/authorize\n\
   \  tokenUrl: https://{kiteworks_server}/oauth/token\n  grant_type: authorization_code\n  pkce: Strongly recommended; required for public clients (mobile apps, SPAs)\n  purpose: Interactive user sign-in for web, desktop and mobile applications.\n  request_params:\n  - client_id\n  - client_secret\n  - redirect_uri\n  - scope\n  - response_type=code\n  - state (optional)\n  - m=1 (optional, mobile-friendly UI)\n  response_fields:\n  - access_token\n  - expires_in\n  - token_type (always \"bearer\")\n  - scope\n  - refresh_token (when configured)\n- name: OAuth2JWTBearer\n  type: oauth2\n  flow: jwt-bearer\n  tokenUrl: https://{kiteworks_server}/oauth/token\n  grant_type: urn:ietf:params:oauth:grant-type:jwt-bearer\n  purpose: Backend automation, scheduled jobs and unattended scripts; server-side user impersonation.\n  signing: RS256 by default (RSA key pair generated with OpenSSL; public key registered in the Admin console)\n  jwt_claims:\n  - iss (issuer)\n  - sub (Kiteworks user email)\n\
   \  - aud (audience)\n  - iat\n  - nbf\n  - exp (typically 5 minutes)\n  - jti (unique id, replay prevention)\n  response_fields:\n  - access_token\n  - expires_in\n  - token_type\n  - scope\n  refresh_token: false\napi_keys:\n  supported: false\n  evidence: The authentication guide documents OAuth 2.0 only; no API key scheme is offered.\nmcp_auth:\n  protocol: OAuth 2.1\n  dynamic_client_registration: true\n  pkce: true\n  note: The Kiteworks MCP Server (remote HTTPS mode) authenticates with OAuth 2.1 including Dynamic Client\n    Registration; see mcp/kiteworks-mcp.yml.\nsee:\n- scopes/kiteworks-scopes.yml\n- conventions/kiteworks-conventions.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/authentication/kiteworks-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kiteworks/authentication/kiteworks-authentication.yml
 summary_line: oauth2 · 2 schemes
 tags:
 - Company

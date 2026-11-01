@@ -27,7 +27,7 @@ source_filename: prysm-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.prysm.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 13:03:44 2026 GMT\n  hsts: false\ndomains:\n- domain: prysm.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prysm/refs/heads/main/security/prysm-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/prysm/security/prysm-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

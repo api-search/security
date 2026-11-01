@@ -5,31 +5,31 @@ api_specs:
   label: CivicPlus Request API
   slug: civicplus-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civicplus/refs/heads/main/openapi/civicplus-request-api-openapi.yml
+  url: https://artifacts.apis.io/civicplus/openapi/civicplus-request-api-openapi.yml
 - filename: civicplus-requests-response-format-api-openapi.yml
   format: yaml
   label: CivicPlus Requests.{response Format} API
   slug: civicplus-requests-response-format-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civicplus/refs/heads/main/openapi/civicplus-requests-response-format-api-openapi.yml
+  url: https://artifacts.apis.io/civicplus/openapi/civicplus-requests-response-format-api-openapi.yml
 - filename: civicplus-services-api-openapi.yml
   format: yaml
   label: CivicPlus Services API
   slug: civicplus-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civicplus/refs/heads/main/openapi/civicplus-services-api-openapi.yml
+  url: https://artifacts.apis.io/civicplus/openapi/civicplus-services-api-openapi.yml
 - filename: civicplus-services-response-format-api-openapi.yml
   format: yaml
   label: CivicPlus Services.{response Format} API
   slug: civicplus-services-response-format-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civicplus/refs/heads/main/openapi/civicplus-services-response-format-api-openapi.yml
+  url: https://artifacts.apis.io/civicplus/openapi/civicplus-services-response-format-api-openapi.yml
 - filename: civicplus-tokens-api-openapi.yml
   format: yaml
   label: CivicPlus Tokens API
   slug: civicplus-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civicplus/refs/heads/main/openapi/civicplus-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/civicplus/openapi/civicplus-tokens-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: civicplus-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.civicplus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 16:47:13 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: civicplus.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/civicplus/refs/heads/main/security/civicplus-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/civicplus/security/civicplus-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

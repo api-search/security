@@ -26,7 +26,7 @@ source_filename: pose-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pose.vn\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 21:15:06 2026 GMT\n  hsts: null\ndomains:\n- domain: pose.vn\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pose/refs/heads/main/security/pose-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pose/security/pose-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

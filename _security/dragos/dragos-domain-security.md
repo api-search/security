@@ -5,19 +5,19 @@ api_specs:
   label: Dragos Indicators API
   slug: dragos-indicators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/openapi/dragos-indicators-api-openapi.yml
+  url: https://artifacts.apis.io/dragos/openapi/dragos-indicators-api-openapi.yml
 - filename: dragos-products-api-openapi.yml
   format: yaml
   label: Dragos Products API
   slug: dragos-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/openapi/dragos-products-api-openapi.yml
+  url: https://artifacts.apis.io/dragos/openapi/dragos-products-api-openapi.yml
 - filename: dragos-tags-api-openapi.yml
   format: yaml
   label: Dragos Tags API
   slug: dragos-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/openapi/dragos-tags-api-openapi.yml
+  url: https://artifacts.apis.io/dragos/openapi/dragos-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -61,7 +61,7 @@ source_filename: dragos-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: portal.dragos.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec  5 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: www.dragos.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 17 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: platform.dragos.cloud\n  https: false\ndomains:\n- domain: dragos.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: dragos.cloud\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/security/dragos-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dragos/security/dragos-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company

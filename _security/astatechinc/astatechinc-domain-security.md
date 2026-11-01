@@ -26,7 +26,7 @@ source_filename: astatechinc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.astatechinc.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 18 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: astatechinc.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/astatechinc/refs/heads/main/security/astatechinc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/astatechinc/security/astatechinc-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Contract Research Organization

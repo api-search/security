@@ -5,67 +5,67 @@ api_specs:
   label: SEC EDGAR Company Concept API
   slug: sec-company-concept-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-company-concept-api-openapi.yml
+  url: https://artifacts.apis.io/sec/openapi/sec-company-concept-api-openapi.yml
 - filename: sec-company-facts-api-openapi.yml
   format: yaml
   label: SEC EDGAR Company Facts API
   slug: sec-company-facts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-company-facts-api-openapi.yml
+  url: https://artifacts.apis.io/sec/openapi/sec-company-facts-api-openapi.yml
 - filename: sec-edgar-operational-status-api-api-openapi.yml
   format: yaml
   label: SEC EDGAR Operational Status API
   slug: sec-edgar-operational-status-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-edgar-operational-status-api-api-openapi.yml
+  url: https://artifacts.apis.io/sec/openapi/sec-edgar-operational-status-api-api-openapi.yml
 - filename: sec-filer-management-api-api-openapi.yml
   format: yaml
   label: SEC EDGAR Filer Management API
   slug: sec-filer-management-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-filer-management-api-api-openapi.yml
+  url: https://artifacts.apis.io/sec/openapi/sec-filer-management-api-api-openapi.yml
 - filename: sec-frames-api-openapi.yml
   format: yaml
   label: SEC EDGAR Frames API
   slug: sec-frames-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-frames-api-openapi.yml
+  url: https://artifacts.apis.io/sec/openapi/sec-frames-api-openapi.yml
 - filename: sec-search-api-openapi.yml
   format: yaml
   label: SEC EDGAR Search API
   slug: sec-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-search-api-openapi.yml
+  url: https://artifacts.apis.io/sec/openapi/sec-search-api-openapi.yml
 - filename: sec-submission-api-api-openapi.yml
   format: yaml
   label: SEC EDGAR Submission API
   slug: sec-submission-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-submission-api-api-openapi.yml
+  url: https://artifacts.apis.io/sec/openapi/sec-submission-api-api-openapi.yml
 - filename: sec-submission-status-api-api-openapi.yml
   format: yaml
   label: SEC EDGAR Submission Status API
   slug: sec-submission-status-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-submission-status-api-api-openapi.yml
+  url: https://artifacts.apis.io/sec/openapi/sec-submission-status-api-api-openapi.yml
 - filename: sec-submissions-api-openapi.yml
   format: yaml
   label: SEC EDGAR Submissions API
   slug: sec-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/sec/openapi/sec-submissions-api-openapi.yml
 - filename: sec-full-text-search-api-openapi.yml
   format: yaml
   label: SEC EDGAR Full-Text Search API
   slug: sec-full-text-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-full-text-search-api-openapi.yml
+  url: https://artifacts.apis.io/sec/openapi/sec-full-text-search-api-openapi.yml
 - filename: sec-xbrl-api-openapi.yml
   format: yaml
   label: SEC EDGAR XBRL API
   slug: sec-xbrl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-xbrl-api-openapi.yml
+  url: https://artifacts.apis.io/sec/openapi/sec-xbrl-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -109,7 +109,7 @@ source_filename: sec-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sec.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 23:59:59 2026 GMT\n  hsts: null\n- host: data.sec.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 23:59:59 2026 GMT\n  hsts: null\n- host: efts.sec.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: sec.gov\n  dnssec: true\n  caa:\n  - 0 iodef \"mailto:CAIssues@sec.gov\"\n  - 0 issuewild \";\"\n  - 0 issue \"entrust.net\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/security/sec-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sec/security/sec-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Financial Data

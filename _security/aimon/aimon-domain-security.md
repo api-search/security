@@ -34,7 +34,7 @@ source_filename: aimon-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.aimon.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 19:51:35 2026 GMT\n  hsts: false\n- host: docs.aimon.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 03:21:02 2026 GMT\n  hsts: false\n- host: sdkbe-production.aimon.ai\n  https: false\ndomains:\n- domain: aimon.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aimon/refs/heads/main/security/aimon-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aimon/security/aimon-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

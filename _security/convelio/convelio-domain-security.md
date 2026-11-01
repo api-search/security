@@ -5,13 +5,13 @@ api_specs:
   label: Convelio Shipping API
   slug: convelio-shipping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convelio/refs/heads/main/openapi/convelio-shipping-api-openapi.yml
+  url: https://artifacts.apis.io/convelio/openapi/convelio-shipping-api-openapi.yml
 - filename: convelio-webhook-api-openapi.yml
   format: yaml
   label: Convelio Webhook API
   slug: convelio-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convelio/refs/heads/main/openapi/convelio-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/convelio/openapi/convelio-webhook-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,7 +50,7 @@ source_filename: convelio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.convelio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 07:53:19 2026 GMT\n  hsts: false\n- host: developers.convelio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 00:13:09 2026 GMT\n  hsts: false\n- host: api.convelio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 11:33:33 2026 GMT\n  hsts: null\ndomains:\n- domain: convelio.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/convelio/refs/heads/main/security/convelio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/convelio/security/convelio-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

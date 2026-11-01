@@ -30,7 +30,7 @@ source_filename: gro-intelligence-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gro-intelligence.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 30 17:34:14 2026 GMT\n  hsts: null\n- host: api.gro-intelligence.com\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''api.gro-int'\n  hsts: null\ndomains:\n- domain: gro-intelligence.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gro-intelligence/refs/heads/main/security/gro-intelligence-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gro-intelligence/security/gro-intelligence-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

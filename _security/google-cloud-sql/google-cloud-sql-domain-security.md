@@ -5,25 +5,25 @@ api_specs:
   label: Google Cloud SQL BackupRuns API
   slug: google-cloud-sql-backupruns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/openapi/google-cloud-sql-backupruns-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-sql/openapi/google-cloud-sql-backupruns-api-openapi.yml
 - filename: google-cloud-sql-databases-api-openapi.yml
   format: yaml
   label: Google Cloud SQL Databases API
   slug: google-cloud-sql-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/openapi/google-cloud-sql-databases-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-sql/openapi/google-cloud-sql-databases-api-openapi.yml
 - filename: google-cloud-sql-instances-api-openapi.yml
   format: yaml
   label: Google Cloud SQL Instances API
   slug: google-cloud-sql-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/openapi/google-cloud-sql-instances-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-sql/openapi/google-cloud-sql-instances-api-openapi.yml
 - filename: google-cloud-sql-users-api-openapi.yml
   format: yaml
   label: Google Cloud SQL Users API
   slug: google-cloud-sql-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/openapi/google-cloud-sql-users-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-sql/openapi/google-cloud-sql-users-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -66,7 +66,7 @@ source_filename: google-cloud-sql-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cloud.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: sqladmin.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:17 2026 GMT\n  hsts: null\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/security/google-cloud-sql-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-sql/security/google-cloud-sql-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Database

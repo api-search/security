@@ -38,7 +38,7 @@ source_filename: easysize-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: easysize.me\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 14:44:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.easysize.me\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 01:56:17 2026 GMT\n  hsts: false\n- host: webapp.easysize.me\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: easysize.me\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/easysize/refs/heads/main/security/easysize-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/easysize/security/easysize-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

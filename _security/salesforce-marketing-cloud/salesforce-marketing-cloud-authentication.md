@@ -7,19 +7,19 @@ api_specs:
   label: Salesforce Marketing Cloud Assets API
   slug: salesforce-marketing-cloud-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/openapi/salesforce-marketing-cloud-assets-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-marketing-cloud/openapi/salesforce-marketing-cloud-assets-api-openapi.yml
 - filename: salesforce-marketing-cloud-contacts-api-openapi.yml
   format: yaml
   label: Salesforce Marketing Cloud Contacts API
   slug: salesforce-marketing-cloud-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/openapi/salesforce-marketing-cloud-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-marketing-cloud/openapi/salesforce-marketing-cloud-contacts-api-openapi.yml
 - filename: salesforce-marketing-cloud-journeys-api-openapi.yml
   format: yaml
   label: Salesforce Marketing Cloud Journeys API
   slug: salesforce-marketing-cloud-journeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/openapi/salesforce-marketing-cloud-journeys-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-marketing-cloud/openapi/salesforce-marketing-cloud-journeys-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/salesfo
   \ lifetime is 20 minutes; expires_in is deliberately reported short so a client refreshes before\n      expiry.'\n  - name: rest_instance_url\n    description: The REST API base URL for this tenant. Use this rather than constructing the host.\n  - name: soap_instance_url\n    description: The SOAP API base URL for this tenant.\n  - name: scope\n    description: The permission values actually assigned to the token.\nrequest_header: 'Authorization: Bearer <access_token>'\ntenancy:\n  subdomain_required: true\n  subdomain_source: Marketing Cloud Setup > Apps > Installed Packages\n  note: Auth, REST and SOAP each live on a different tenant host ({subdomain}.auth / .rest / .soap .marketingcloudapis.com). There is no global host.\nauthorization_model:\n  scope_grant: installed-package\n  runtime_scope_request: false\n  note: Scopes are assigned to the Installed Package by an administrator and are fixed for that integration. The scope parameter on the token request can only narrow what the package\
   \ already holds; it cannot\n    request anything new. A 403 with an errorcode in the 20000 class is therefore an administrative problem, not a client one — it cannot be resolved in code.\n  artifact: scopes/salesforce-marketing-cloud-scopes.yml\nmcp_authentication:\n  differs: true\n  model: OAuth 2.0 authorization code with PKCE (S256), dynamic client registration\n  note: The MCE MCP server does NOT use the marketingcloudapis.com auth host. It runs its own authorization server with RFC 8414 metadata, an RFC 7591 registration endpoint and PKCE. See mcp/salesforce-marketing-cloud-mcp.yml\n    and well-known/salesforce-marketing-cloud-oauth-authorization-server.json.\nlegacy:\n  v1_endpoint: https://{subdomain}.auth.marketingcloudapis.com/v1/requestToken\n  status: superseded\n  note: The legacy ExactTarget token service. New integrations use v2.\ndocs_pages:\n  overview: https://developer.salesforce.com/docs/marketing/marketing-cloud/guide/authentication.html\n  integration_types: https://developer.salesforce.com/docs/marketing/marketing-cloud/guide/integration-considerations.html\n\
   \  server_to_server: https://developer.salesforce.com/docs/marketing/marketing-cloud/guide/access-token-s2s.html\n  scopes: https://developer.salesforce.com/docs/marketing/marketing-cloud/references/mc_rest_rest_permission_scopes/rest-permissions-and-scopes.html\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/authentication/salesforce-marketing-cloud-authentication.yml
+source_yaml_url: https://artifacts.apis.io/salesforce-marketing-cloud/authentication/salesforce-marketing-cloud-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Automation

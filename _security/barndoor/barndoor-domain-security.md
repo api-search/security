@@ -5,37 +5,37 @@ api_specs:
   label: Barndoor Agents API
   slug: barndoor-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barndoor/refs/heads/main/openapi/barndoor-agents-api-openapi.yml
+  url: https://artifacts.apis.io/barndoor/openapi/barndoor-agents-api-openapi.yml
 - filename: barndoor-connections-api-openapi.yml
   format: yaml
   label: Barndoor Connections API
   slug: barndoor-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barndoor/refs/heads/main/openapi/barndoor-connections-api-openapi.yml
+  url: https://artifacts.apis.io/barndoor/openapi/barndoor-connections-api-openapi.yml
 - filename: barndoor-mcp-proxy-api-openapi.yml
   format: yaml
   label: Barndoor MCP Proxy API
   slug: barndoor-mcp-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barndoor/refs/heads/main/openapi/barndoor-mcp-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/barndoor/openapi/barndoor-mcp-proxy-api-openapi.yml
 - filename: barndoor-policies-api-openapi.yml
   format: yaml
   label: Barndoor Policies API
   slug: barndoor-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barndoor/refs/heads/main/openapi/barndoor-policies-api-openapi.yml
+  url: https://artifacts.apis.io/barndoor/openapi/barndoor-policies-api-openapi.yml
 - filename: barndoor-policy-api-openapi.yml
   format: yaml
   label: Barndoor Policy API
   slug: barndoor-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barndoor/refs/heads/main/openapi/barndoor-policy-api-openapi.yml
+  url: https://artifacts.apis.io/barndoor/openapi/barndoor-policy-api-openapi.yml
 - filename: barndoor-servers-api-openapi.yml
   format: yaml
   label: Barndoor Servers API
   slug: barndoor-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barndoor/refs/heads/main/openapi/barndoor-servers-api-openapi.yml
+  url: https://artifacts.apis.io/barndoor/openapi/barndoor-servers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: barndoor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: barndoor.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 21:28:49 2026 GMT\n  hsts: false\n- host: app.barndoor.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 17:21:36 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: docs.barndoor.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 17:21:36 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: barndoor.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/barndoor/refs/heads/main/security/barndoor-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/barndoor/security/barndoor-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI Agents

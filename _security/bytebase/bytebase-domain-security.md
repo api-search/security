@@ -1,77 +1,203 @@
 ---
 api_specs:
-- filename: bytebase-auth-api-openapi.yml
+- filename: bytebase-accessgrantservice-api-openapi.yml
   format: yaml
-  label: Bytebase Auth API
-  slug: bytebase-auth-api
+  label: Bytebase Access Grant Service API
+  slug: bytebase-accessgrantservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytebase/refs/heads/main/openapi/bytebase-auth-api-openapi.yml
-- filename: bytebase-databases-api-openapi.yml
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-accessgrantservice-api-openapi.yml
+- filename: bytebase-actuatorservice-api-openapi.yml
   format: yaml
-  label: Bytebase Databases API
-  slug: bytebase-databases-api
+  label: Bytebase Actuator Service API
+  slug: bytebase-actuatorservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytebase/refs/heads/main/openapi/bytebase-databases-api-openapi.yml
-- filename: bytebase-groups-api-openapi.yml
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-actuatorservice-api-openapi.yml
+- filename: bytebase-aiservice-api-openapi.yml
   format: yaml
-  label: Bytebase Groups API
-  slug: bytebase-groups-api
+  label: Bytebase AI Service API
+  slug: bytebase-aiservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytebase/refs/heads/main/openapi/bytebase-groups-api-openapi.yml
-- filename: bytebase-instances-api-openapi.yml
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-aiservice-api-openapi.yml
+- filename: bytebase-auditlogservice-api-openapi.yml
   format: yaml
-  label: Bytebase Instances API
-  slug: bytebase-instances-api
+  label: Bytebase Audit Log Service API
+  slug: bytebase-auditlogservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytebase/refs/heads/main/openapi/bytebase-instances-api-openapi.yml
-- filename: bytebase-issues-api-openapi.yml
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-auditlogservice-api-openapi.yml
+- filename: bytebase-celservice-api-openapi.yml
   format: yaml
-  label: Bytebase Issues API
-  slug: bytebase-issues-api
+  label: Bytebase Cel Service API
+  slug: bytebase-celservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytebase/refs/heads/main/openapi/bytebase-issues-api-openapi.yml
-- filename: bytebase-plans-api-openapi.yml
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-celservice-api-openapi.yml
+- filename: bytebase-changelogservice-api-openapi.yml
   format: yaml
-  label: Bytebase Plans API
-  slug: bytebase-plans-api
+  label: Bytebase Changelog Service API
+  slug: bytebase-changelogservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytebase/refs/heads/main/openapi/bytebase-plans-api-openapi.yml
-- filename: bytebase-projects-api-openapi.yml
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-changelogservice-api-openapi.yml
+- filename: bytebase-databasecatalogservice-api-openapi.yml
   format: yaml
-  label: Bytebase Projects API
-  slug: bytebase-projects-api
+  label: Bytebase Database Catalog Service API
+  slug: bytebase-databasecatalogservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytebase/refs/heads/main/openapi/bytebase-projects-api-openapi.yml
-- filename: bytebase-roles-api-openapi.yml
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-databasecatalogservice-api-openapi.yml
+- filename: bytebase-databasegroupservice-api-openapi.yml
   format: yaml
-  label: Bytebase Roles API
-  slug: bytebase-roles-api
+  label: Bytebase Database Group Service API
+  slug: bytebase-databasegroupservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytebase/refs/heads/main/openapi/bytebase-roles-api-openapi.yml
-- filename: bytebase-rollouts-api-openapi.yml
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-databasegroupservice-api-openapi.yml
+- filename: bytebase-databaseservice-api-openapi.yml
   format: yaml
-  label: Bytebase Rollouts API
-  slug: bytebase-rollouts-api
+  label: Bytebase Database Service API
+  slug: bytebase-databaseservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytebase/refs/heads/main/openapi/bytebase-rollouts-api-openapi.yml
-- filename: bytebase-sheets-api-openapi.yml
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-databaseservice-api-openapi.yml
+- filename: bytebase-groupservice-api-openapi.yml
   format: yaml
-  label: Bytebase Sheets API
-  slug: bytebase-sheets-api
+  label: Bytebase Group Service API
+  slug: bytebase-groupservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytebase/refs/heads/main/openapi/bytebase-sheets-api-openapi.yml
-- filename: bytebase-users-api-openapi.yml
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-groupservice-api-openapi.yml
+- filename: bytebase-identityproviderservice-api-openapi.yml
   format: yaml
-  label: Bytebase Users API
-  slug: bytebase-users-api
+  label: Bytebase Identity Provider Service API
+  slug: bytebase-identityproviderservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytebase/refs/heads/main/openapi/bytebase-users-api-openapi.yml
-- filename: bytebase-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-identityproviderservice-api-openapi.yml
+- filename: bytebase-instanceroleservice-api-openapi.yml
   format: yaml
-  label: Bytebase Webhooks API
-  slug: bytebase-webhooks-api
+  label: Bytebase Instance Role Service API
+  slug: bytebase-instanceroleservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytebase/refs/heads/main/openapi/bytebase-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-instanceroleservice-api-openapi.yml
+- filename: bytebase-instanceservice-api-openapi.yml
+  format: yaml
+  label: Bytebase Instance Service API
+  slug: bytebase-instanceservice-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-instanceservice-api-openapi.yml
+- filename: bytebase-issueservice-api-openapi.yml
+  format: yaml
+  label: Bytebase Issue Service API
+  slug: bytebase-issueservice-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-issueservice-api-openapi.yml
+- filename: bytebase-orgpolicyservice-api-openapi.yml
+  format: yaml
+  label: Bytebase Org Policy Service API
+  slug: bytebase-orgpolicyservice-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-orgpolicyservice-api-openapi.yml
+- filename: bytebase-planservice-api-openapi.yml
+  format: yaml
+  label: Bytebase Plan Service API
+  slug: bytebase-planservice-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-planservice-api-openapi.yml
+- filename: bytebase-projectservice-api-openapi.yml
+  format: yaml
+  label: Bytebase Project Service API
+  slug: bytebase-projectservice-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-projectservice-api-openapi.yml
+- filename: bytebase-queryhistoryservice-api-openapi.yml
+  format: yaml
+  label: Bytebase Query History Service API
+  slug: bytebase-queryhistoryservice-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-queryhistoryservice-api-openapi.yml
+- filename: bytebase-releaseservice-api-openapi.yml
+  format: yaml
+  label: Bytebase Release Service API
+  slug: bytebase-releaseservice-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-releaseservice-api-openapi.yml
+- filename: bytebase-reviewconfigservice-api-openapi.yml
+  format: yaml
+  label: Bytebase Review Config Service API
+  slug: bytebase-reviewconfigservice-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-reviewconfigservice-api-openapi.yml
+- filename: bytebase-revisionservice-api-openapi.yml
+  format: yaml
+  label: Bytebase Revision Service API
+  slug: bytebase-revisionservice-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-revisionservice-api-openapi.yml
+- filename: bytebase-roleservice-api-openapi.yml
+  format: yaml
+  label: Bytebase Role Service API
+  slug: bytebase-roleservice-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-roleservice-api-openapi.yml
+- filename: bytebase-rolloutservice-api-openapi.yml
+  format: yaml
+  label: Bytebase Rollout Service API
+  slug: bytebase-rolloutservice-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-rolloutservice-api-openapi.yml
+- filename: bytebase-savedqueryservice-api-openapi.yml
+  format: yaml
+  label: Bytebase Saved Query Service API
+  slug: bytebase-savedqueryservice-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-savedqueryservice-api-openapi.yml
+- filename: bytebase-serviceaccountservice-api-openapi.yml
+  format: yaml
+  label: Bytebase Service Account Service API
+  slug: bytebase-serviceaccountservice-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-serviceaccountservice-api-openapi.yml
+- filename: bytebase-settingservice-api-openapi.yml
+  format: yaml
+  label: Bytebase Setting Service API
+  slug: bytebase-settingservice-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-settingservice-api-openapi.yml
+- filename: bytebase-sheetservice-api-openapi.yml
+  format: yaml
+  label: Bytebase Sheet Service API
+  slug: bytebase-sheetservice-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-sheetservice-api-openapi.yml
+- filename: bytebase-sqlservice-api-openapi.yml
+  format: yaml
+  label: Bytebase SQL Service API
+  slug: bytebase-sqlservice-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-sqlservice-api-openapi.yml
+- filename: bytebase-subscriptionservice-api-openapi.yml
+  format: yaml
+  label: Bytebase Subscription Service API
+  slug: bytebase-subscriptionservice-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-subscriptionservice-api-openapi.yml
+- filename: bytebase-userservice-api-openapi.yml
+  format: yaml
+  label: Bytebase User Service API
+  slug: bytebase-userservice-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-userservice-api-openapi.yml
+- filename: bytebase-workloadidentityservice-api-openapi.yml
+  format: yaml
+  label: Bytebase Workload Identity Service API
+  slug: bytebase-workloadidentityservice-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-workloadidentityservice-api-openapi.yml
+- filename: bytebase-workspaceservice-api-openapi.yml
+  format: yaml
+  label: Bytebase Workspace Service API
+  slug: bytebase-workspaceservice-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-workspaceservice-api-openapi.yml
+- filename: bytebase-auth-service-api-openapi.yml
+  format: yaml
+  label: Bytebase Auth Service API
+  slug: bytebase-auth-service-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bytebase/openapi/bytebase-auth-service-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -108,7 +234,7 @@ source_filename: bytebase-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bytebase.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 13:15:27 2026 GMT\n  hsts: false\n- host: docs.bytebase.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 14:56:34 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: demo.bytebase.com\n  https: false\ndomains:\n- domain: bytebase.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bytebase/refs/heads/main/security/bytebase-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bytebase/security/bytebase-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Database

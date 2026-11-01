@@ -5,43 +5,43 @@ api_specs:
   label: Routable Companies API
   slug: routable-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routable/refs/heads/main/openapi/routable-companies-api-openapi.yml
+  url: https://artifacts.apis.io/routable/openapi/routable-companies-api-openapi.yml
 - filename: routable-contacts-api-openapi.yml
   format: yaml
   label: Routable Contacts API
   slug: routable-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routable/refs/heads/main/openapi/routable-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/routable/openapi/routable-contacts-api-openapi.yml
 - filename: routable-funding-sources-api-openapi.yml
   format: yaml
   label: Routable Funding Sources API
   slug: routable-funding-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routable/refs/heads/main/openapi/routable-funding-sources-api-openapi.yml
+  url: https://artifacts.apis.io/routable/openapi/routable-funding-sources-api-openapi.yml
 - filename: routable-payables-api-openapi.yml
   format: yaml
   label: Routable Payables API
   slug: routable-payables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routable/refs/heads/main/openapi/routable-payables-api-openapi.yml
+  url: https://artifacts.apis.io/routable/openapi/routable-payables-api-openapi.yml
 - filename: routable-payment-methods-api-openapi.yml
   format: yaml
   label: Routable Payment Methods API
   slug: routable-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routable/refs/heads/main/openapi/routable-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/routable/openapi/routable-payment-methods-api-openapi.yml
 - filename: routable-receivables-api-openapi.yml
   format: yaml
   label: Routable Receivables API
   slug: routable-receivables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routable/refs/heads/main/openapi/routable-receivables-api-openapi.yml
+  url: https://artifacts.apis.io/routable/openapi/routable-receivables-api-openapi.yml
 - filename: routable-webhooks-api-openapi.yml
   format: yaml
   label: Routable Webhooks API
   slug: routable-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routable/refs/heads/main/openapi/routable-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/routable/openapi/routable-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -88,7 +88,7 @@ source_filename: routable-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.routable.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 06:03:01 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developers.routable.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 12:29:25 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.routable.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec  6 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: routable.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 iodef \"mailto:security@routable.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/routable/refs/heads/main/security/routable-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/routable/security/routable-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments

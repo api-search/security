@@ -5,13 +5,13 @@ api_specs:
   label: Tako Agent API
   slug: tako-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/openapi/tako-agent-api-openapi.yml
+  url: https://artifacts.apis.io/tako/openapi/tako-agent-api-openapi.yml
 - filename: tako-tako-api-openapi.yml
   format: yaml
   label: Tako API
   slug: tako-tako-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/openapi/tako-tako-api-openapi.yml
+  url: https://artifacts.apis.io/tako/openapi/tako-tako-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: tako-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.tako.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 08:22:25 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: tako.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 17:45:46 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: tako.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/security/tako-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tako/security/tako-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -5,25 +5,25 @@ api_specs:
   label: TeamOhana Discovery API
   slug: teamohana-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/openapi/teamohana-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/teamohana/openapi/teamohana-discovery-api-openapi.yml
 - filename: teamohana-headcount-api-openapi.yml
   format: yaml
   label: TeamOhana Headcount API
   slug: teamohana-headcount-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/openapi/teamohana-headcount-api-openapi.yml
+  url: https://artifacts.apis.io/teamohana/openapi/teamohana-headcount-api-openapi.yml
 - filename: teamohana-scenario-api-openapi.yml
   format: yaml
   label: TeamOhana Scenario API
   slug: teamohana-scenario-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/openapi/teamohana-scenario-api-openapi.yml
+  url: https://artifacts.apis.io/teamohana/openapi/teamohana-scenario-api-openapi.yml
 - filename: teamohana-scim-api-openapi.yml
   format: yaml
   label: TeamOhana SCIM API
   slug: teamohana-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/openapi/teamohana-scim-api-openapi.yml
+  url: https://artifacts.apis.io/teamohana/openapi/teamohana-scim-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -41,7 +41,7 @@ source_filename: teamohana-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nsource: https://trust.teamohana.com/\nurl: https://trust.teamohana.com/\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://trust.teamohana.com/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - trust center\n  - trust centre\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/security/teamohana-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/teamohana/security/teamohana-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Company

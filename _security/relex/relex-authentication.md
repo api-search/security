@@ -7,43 +7,43 @@ api_specs:
   label: RELEX Solutions Environments API
   slug: relex-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-environments-api-openapi.yml
+  url: https://artifacts.apis.io/relex/openapi/relex-environments-api-openapi.yml
 - filename: relex-events-api-openapi.yml
   format: yaml
   label: RELEX Solutions Events API
   slug: relex-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-events-api-openapi.yml
+  url: https://artifacts.apis.io/relex/openapi/relex-events-api-openapi.yml
 - filename: relex-health-api-openapi.yml
   format: yaml
   label: RELEX Solutions Health API
   slug: relex-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-health-api-openapi.yml
+  url: https://artifacts.apis.io/relex/openapi/relex-health-api-openapi.yml
 - filename: relex-master-data-api-openapi.yml
   format: yaml
   label: RELEX Solutions Master data API
   slug: relex-master-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-master-data-api-openapi.yml
+  url: https://artifacts.apis.io/relex/openapi/relex-master-data-api-openapi.yml
 - filename: relex-metadata-api-openapi.yml
   format: yaml
   label: RELEX Solutions Metadata API
   slug: relex-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/relex/openapi/relex-metadata-api-openapi.yml
 - filename: relex-metrics-api-openapi.yml
   format: yaml
   label: RELEX Solutions Metrics API
   slug: relex-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/relex/openapi/relex-metrics-api-openapi.yml
 - filename: relex-transactions-api-openapi.yml
   format: yaml
   label: RELEX Solutions Transactions API
   slug: relex-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/relex/openapi/relex-transactions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-08-26'\nmethod: searched\nsource: https://www.rel
   expiry:\n  refresh_tokens: false\n  refresh_note: >-\n    RELEX cites RFC 6749 §4.4.3 directly — the Client Credentials grant is not compatible with\n    refresh tokens. On expiry the API returns 401.\n  client_strategies:\n  - React to 401 by re-running the Client Credentials grant.\n  - Track expires_in and pre-emptively re-issue before it elapses.\ncredential_issuance:\n  self_service: false\n  issued_by: RELEX, during the implementation project\n  required_inputs:\n  - Client ID\n  - Client Secret\n  - RELEX Identity token endpoint URL\n  quote: >-\n    \"To authenticate with RELEX Identity, the client needs a Client ID, a Client Secret and a RELEX\n    Identity token endpoint URL. These are provided by RELEX during the implementation process.\"\n  rotation_policy: not published\ntransport_and_network:\n  https_required: true\n  http_behaviour: plain HTTP requests fail with 400 Bad Request\n  ip_allowlist:\n    supported: true\n    recommended_by_provider: true\n    quote: 'The recommendation\
   \ is to always have an IP allowlist in place.'\n    blocklist_supported: false\n  typical_403_cause: caller's egress IP is not on the allowlist for that environment\nidentity_provider:\n  name: RELEX Identity\n  family: IdentityServer / Duende (OpenID Connect)\n  discovery_documents:\n  - well-known/relex-identity-eu-openid-configuration.json\n  - well-known/relex-identity-eu-restapi-prod-openid-configuration.json\n  - well-known/relex-identity-eu-monitoring-api-prod-openid-configuration.json\n  - well-known/relex-identity-us-openid-configuration.json\n  - well-known/relex-identity-us-restapi-prod-openid-configuration.json\n  - well-known/relex-identity-us-monitoring-api-prod-openid-configuration.json\n  regions:\n  - eu\n  - us\n  authorities_per_region: 3\n  see: scopes/relex-scopes.yml\ndeveloper_portal_auth:\n  url: https://docs.relexsolutions.com/\n  gate: Auth0 via Azure Static Web Apps\n  observed: GET / 302s to /.auth/login/auth0?post_login_redirect_uri=/.auth/complete\n  note:\
   \ >-\n    The full RELEX Developer Portal — which RELEX says carries documentation for every integration\n    method, data formats, authentication, monitoring and the SAP Connector specs — requires a\n    registered account. Everything captured in this repo came from the parts RELEX publishes\n    outside that wall.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/authentication/relex-authentication.yml
+source_yaml_url: https://artifacts.apis.io/relex/authentication/relex-authentication.yml
 summary_line: oauth2 · 2 schemes
 tags:
 - Supply Chain

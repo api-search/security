@@ -26,12 +26,12 @@ source_filename: colorchip-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.color-chip.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec  6 02:45:31 2026 GMT\n  hsts: false\ndomains:\n- domain: color-chip.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/colorchip/refs/heads/main/security/colorchip-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/colorchip/security/colorchip-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Company
 - Optical
-- DataCenter
+- Data Center
 - Networking
 - Hardware
 ---

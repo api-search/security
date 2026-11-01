@@ -40,7 +40,7 @@ source_filename: leaner-technologies-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml hosts\nhosts:\n- host: leaner.co.jp\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 10:19:30 2026 GMT\n  hsts: false\n- host: leaner.jp\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 07:35:46 2026 GMT\n  hsts: false\ndomains:\n- domain: leaner.co.jp\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: leaner.jp\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: v=spf1 include:spf.mta.hdems.com include:_spf.google.com ~all\n  dmarc: true\n  dmarc_policy: none\n  dmarc_delegated: hosteddmarc.dmarc-dns.com (PowerDMARC)\nnotes:\n- Neither corporate (leaner.co.jp) nor product (leaner.jp) host sets HSTS.\n- No CAA records and no DNSSEC on either registrable domain.\n- DMARC is published on both domains but at p=none (monitor only, not enforcing).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leaner-technologies/refs/heads/main/security/leaner-technologies-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/leaner-technologies/security/leaner-technologies-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

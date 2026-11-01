@@ -7,67 +7,67 @@ api_specs:
   label: Snov.io Authentication API
   slug: snov-io-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-authentication-api-openapi.yml
 - filename: snov-io-campaigns-api-openapi.yml
   format: yaml
   label: Snov.io Campaigns API
   slug: snov-io-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-campaigns-api-openapi.yml
 - filename: snov-io-crm-pipeline-api-openapi.yml
   format: yaml
   label: Snov.io CRM Pipeline API
   slug: snov-io-crm-pipeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-crm-pipeline-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-crm-pipeline-api-openapi.yml
 - filename: snov-io-domain-search-api-openapi.yml
   format: yaml
   label: Snov.io Domain Search API
   slug: snov-io-domain-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-domain-search-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-domain-search-api-openapi.yml
 - filename: snov-io-email-accounts-api-openapi.yml
   format: yaml
   label: Snov.io Email Accounts API
   slug: snov-io-email-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-email-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-email-accounts-api-openapi.yml
 - filename: snov-io-email-finder-api-openapi.yml
   format: yaml
   label: Snov.io Email Finder API
   slug: snov-io-email-finder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-email-finder-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-email-finder-api-openapi.yml
 - filename: snov-io-email-verification-api-openapi.yml
   format: yaml
   label: Snov.io Email Verification API
   slug: snov-io-email-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-email-verification-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-email-verification-api-openapi.yml
 - filename: snov-io-email-warm-up-api-openapi.yml
   format: yaml
   label: Snov.io Email Warm-up API
   slug: snov-io-email-warm-up-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-email-warm-up-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-email-warm-up-api-openapi.yml
 - filename: snov-io-prospects-api-openapi.yml
   format: yaml
   label: Snov.io Prospects API
   slug: snov-io-prospects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-prospects-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-prospects-api-openapi.yml
 - filename: snov-io-user-api-openapi.yml
   format: yaml
   label: Snov.io User API
   slug: snov-io-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-user-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-user-api-openapi.yml
 - filename: snov-io-webhooks-api-openapi.yml
   format: yaml
   label: Snov.io Webhooks API
   slug: snov-io-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-webhooks-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -155,7 +155,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://snov.io
   \      - header\n    scopes:\n      - name: mcp\n        description: >-\n          The only scope Snov.io issues. Grants an MCP client the full published action surface\n          — prospecting, email verification, Sales CRM and LinkedIn outreach — with no\n          finer-grained separation between read and write.\n    note: >-\n      Public-client OAuth: no client secret, PKCE required, and open RFC 7591 dynamic\n      registration so an MCP client can self-register. The user approves the connection inside\n      their Snov.io account, which is why Snov.io can say \"you never share raw API keys\" with\n      an AI assistant. Unlike the REST surface, this flow DOES issue refresh tokens.\n    sources:\n      - https://mcp.snov.io/.well-known/oauth-protected-resource\n      - https://app.snov.io/.well-known/oauth-authorization-server\n      - https://snov.io/knowledgebase/how-to-use-snov-io-mcp-with-your-ai-assistant/\n\ncredential_management:\n  console: https://app.snov.io/account/api\n\
   \  rotation_policy: none published\n  key_prefixes: none\n  expiry: >-\n    The API User ID and Secret do not expire and there is no documented rotation or revocation\n    procedure. Only the derived access token is short-lived (3600s).\n  scoped_keys: false\n  ip_allowlisting: false\n  note: >-\n    There is no way to issue a restricted credential — no read-only key, no per-integration key,\n    no IP binding. A single compromised API secret grants the full account surface, including\n    the ability to send email from every connected sender mailbox.\n\ntrial_access:\n  note: >-\n    Snov.io states in its API reference that free-plan users must \"request test access by\n    booking a personal demo\". The REST API is a paid-tier feature; the MCP server, by contrast,\n    is documented as available on all plans including the free Trial.\n\nx-evidence:\n  - fetched: '2026-08-13'\n    url: https://snov.io/api\n    http_status: 200\n  - fetched: '2026-08-13'\n    url: https://mcp.snov.io/.well-known/oauth-protected-resource\n\
   \    http_status: 200\n  - fetched: '2026-08-13'\n    url: https://app.snov.io/.well-known/oauth-authorization-server\n    http_status: 200\n  - fetched: '2026-08-13'\n    url: https://mcp.snov.io/mcp\n    http_status: 401\n    detail: 'www-authenticate: Bearer resource_metadata=\"...\", scope=\"mcp\"'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/authentication/snov-io-authentication.yml
+source_yaml_url: https://artifacts.apis.io/snov-io/authentication/snov-io-authentication.yml
 summary_line: oauth2/http · 3 schemes
 tags:
 - Sales Automation

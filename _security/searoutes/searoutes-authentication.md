@@ -8,37 +8,37 @@ api_specs:
   label: Searoutes CO2 Emissions API
   slug: searoutes-co2-emissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searoutes/refs/heads/main/openapi/searoutes-co2-emissions-api-openapi.yml
+  url: https://artifacts.apis.io/searoutes/openapi/searoutes-co2-emissions-api-openapi.yml
 - filename: searoutes-geocoding-api-openapi.yml
   format: yaml
   label: Searoutes Geocoding API
   slug: searoutes-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searoutes/refs/heads/main/openapi/searoutes-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/searoutes/openapi/searoutes-geocoding-api-openapi.yml
 - filename: searoutes-ocean-routing-api-openapi.yml
   format: yaml
   label: Searoutes Ocean Routing API
   slug: searoutes-ocean-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searoutes/refs/heads/main/openapi/searoutes-ocean-routing-api-openapi.yml
+  url: https://artifacts.apis.io/searoutes/openapi/searoutes-ocean-routing-api-openapi.yml
 - filename: searoutes-search-api-openapi.yml
   format: yaml
   label: Searoutes Search API
   slug: searoutes-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searoutes/refs/heads/main/openapi/searoutes-search-api-openapi.yml
+  url: https://artifacts.apis.io/searoutes/openapi/searoutes-search-api-openapi.yml
 - filename: searoutes-vessel-api-openapi.yml
   format: yaml
   label: Searoutes Vessel API
   slug: searoutes-vessel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searoutes/refs/heads/main/openapi/searoutes-vessel-api-openapi.yml
+  url: https://artifacts.apis.io/searoutes/openapi/searoutes-vessel-api-openapi.yml
 - filename: searoutes-weather-api-openapi.yml
   format: yaml
   label: Searoutes Weather API
   slug: searoutes-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searoutes/refs/heads/main/openapi/searoutes-weather-api-openapi.yml
+  url: https://artifacts.apis.io/searoutes/openapi/searoutes-weather-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: searoutes-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/searoutes-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: API key issued on signup and shown on the developer documentation authentication\n    page. Pass it in the x-api-key request header.\n  sources:\n  - openapi/searoutes-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/searoutes/refs/heads/main/authentication/searoutes-authentication.yml
+source_yaml_url: https://artifacts.apis.io/searoutes/authentication/searoutes-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Maritime

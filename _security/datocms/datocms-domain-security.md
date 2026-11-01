@@ -5,43 +5,43 @@ api_specs:
   label: DatoCMS Environments API
   slug: datocms-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/openapi/datocms-environments-api-openapi.yml
+  url: https://artifacts.apis.io/datocms/openapi/datocms-environments-api-openapi.yml
 - filename: datocms-fields-api-openapi.yml
   format: yaml
   label: DatoCMS Fields API
   slug: datocms-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/openapi/datocms-fields-api-openapi.yml
+  url: https://artifacts.apis.io/datocms/openapi/datocms-fields-api-openapi.yml
 - filename: datocms-item-types-api-openapi.yml
   format: yaml
   label: DatoCMS Item Types API
   slug: datocms-item-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/openapi/datocms-item-types-api-openapi.yml
+  url: https://artifacts.apis.io/datocms/openapi/datocms-item-types-api-openapi.yml
 - filename: datocms-items-api-openapi.yml
   format: yaml
   label: DatoCMS Items API
   slug: datocms-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/openapi/datocms-items-api-openapi.yml
+  url: https://artifacts.apis.io/datocms/openapi/datocms-items-api-openapi.yml
 - filename: datocms-site-api-openapi.yml
   format: yaml
   label: DatoCMS Site API
   slug: datocms-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/openapi/datocms-site-api-openapi.yml
+  url: https://artifacts.apis.io/datocms/openapi/datocms-site-api-openapi.yml
 - filename: datocms-uploads-api-openapi.yml
   format: yaml
   label: DatoCMS Uploads API
   slug: datocms-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/openapi/datocms-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/datocms/openapi/datocms-uploads-api-openapi.yml
 - filename: datocms-webhooks-api-openapi.yml
   format: yaml
   label: DatoCMS Webhooks API
   slug: datocms-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/openapi/datocms-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/datocms/openapi/datocms-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,7 +81,7 @@ source_filename: datocms-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.datocms.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 02:02:41 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: site-api.datocms.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 07:29:44 2026 GMT\n  hsts: null\n- host: graphql.datocms.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 07:29:44 2026 GMT\n  hsts: null\ndomains:\n- domain: datocms.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/security/datocms-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/datocms/security/datocms-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - CMS

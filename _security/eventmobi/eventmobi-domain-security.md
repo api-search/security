@@ -38,7 +38,7 @@ source_filename: eventmobi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.eventmobi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 14:26:53 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.eventmobi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 16 23:59:59 2027 GMT\n  hsts: false\n- host: uapi.eventmobi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: eventmobi.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eventmobi/refs/heads/main/security/eventmobi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/eventmobi/security/eventmobi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Event

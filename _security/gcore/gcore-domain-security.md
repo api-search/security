@@ -5,49 +5,49 @@ api_specs:
   label: Gcore CDN API
   slug: gcore-cdn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-cdn-api-openapi.yml
+  url: https://artifacts.apis.io/gcore/openapi/gcore-cdn-api-openapi.yml
 - filename: gcore-cloud-api-openapi.yml
   format: yaml
   label: Gcore Cloud API
   slug: gcore-cloud-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-cloud-api-openapi.yml
+  url: https://artifacts.apis.io/gcore/openapi/gcore-cloud-api-openapi.yml
 - filename: gcore-dns-api-openapi.yml
   format: yaml
   label: Gcore DNS API
   slug: gcore-dns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-dns-api-openapi.yml
+  url: https://artifacts.apis.io/gcore/openapi/gcore-dns-api-openapi.yml
 - filename: gcore-fastedge-api-openapi.yml
   format: yaml
   label: Gcore FastEdge API
   slug: gcore-fastedge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-fastedge-api-openapi.yml
+  url: https://artifacts.apis.io/gcore/openapi/gcore-fastedge-api-openapi.yml
 - filename: gcore-inference-api-openapi.yml
   format: yaml
   label: Gcore Inference API
   slug: gcore-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-inference-api-openapi.yml
+  url: https://artifacts.apis.io/gcore/openapi/gcore-inference-api-openapi.yml
 - filename: gcore-storage-api-openapi.yml
   format: yaml
   label: Gcore Storage API
   slug: gcore-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-storage-api-openapi.yml
+  url: https://artifacts.apis.io/gcore/openapi/gcore-storage-api-openapi.yml
 - filename: gcore-streaming-api-openapi.yml
   format: yaml
   label: Gcore Streaming API
   slug: gcore-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/gcore/openapi/gcore-streaming-api-openapi.yml
 - filename: gcore-waap-api-openapi.yml
   format: yaml
   label: Gcore WAAP API
   slug: gcore-waap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-waap-api-openapi.yml
+  url: https://artifacts.apis.io/gcore/openapi/gcore-waap-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -88,7 +88,7 @@ source_filename: gcore-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gcore.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 23:59:59 2026 GMT\n  hsts: false\n- host: api.gcore.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: gcore.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"sectigo.com \"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"digicert.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 iodef \"admins@gcore.lu\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/security/gcore-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gcore/security/gcore-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Edge Cloud

@@ -7,85 +7,85 @@ api_specs:
   label: Propel Software (Propel PLM) assets API
   slug: propelplm-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-assets-api-openapi.yml
+  url: https://artifacts.apis.io/propelplm/openapi/propelplm-assets-api-openapi.yml
 - filename: propelplm-attachment-api-openapi.yml
   format: yaml
   label: Propel Software (Propel PLM) Attachment API
   slug: propelplm-attachment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-attachment-api-openapi.yml
+  url: https://artifacts.apis.io/propelplm/openapi/propelplm-attachment-api-openapi.yml
 - filename: propelplm-bill-of-material-api-openapi.yml
   format: yaml
   label: Propel Software (Propel PLM) Bill of Material API
   slug: propelplm-bill-of-material-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-bill-of-material-api-openapi.yml
+  url: https://artifacts.apis.io/propelplm/openapi/propelplm-bill-of-material-api-openapi.yml
 - filename: propelplm-bom-api-openapi.yml
   format: yaml
   label: Propel Software (Propel PLM) BOM API
   slug: propelplm-bom-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-bom-api-openapi.yml
+  url: https://artifacts.apis.io/propelplm/openapi/propelplm-bom-api-openapi.yml
 - filename: propelplm-categories-api-openapi.yml
   format: yaml
   label: Propel Software (Propel PLM) categories API
   slug: propelplm-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-categories-api-openapi.yml
+  url: https://artifacts.apis.io/propelplm/openapi/propelplm-categories-api-openapi.yml
 - filename: propelplm-change-api-openapi.yml
   format: yaml
   label: Propel Software (Propel PLM) Change API
   slug: propelplm-change-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-change-api-openapi.yml
+  url: https://artifacts.apis.io/propelplm/openapi/propelplm-change-api-openapi.yml
 - filename: propelplm-channels-api-openapi.yml
   format: yaml
   label: Propel Software (Propel PLM) Channels API
   slug: propelplm-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-channels-api-openapi.yml
+  url: https://artifacts.apis.io/propelplm/openapi/propelplm-channels-api-openapi.yml
 - filename: propelplm-configuration-api-openapi.yml
   format: yaml
   label: Propel Software (Propel PLM) Configuration API
   slug: propelplm-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/propelplm/openapi/propelplm-configuration-api-openapi.yml
 - filename: propelplm-item-api-openapi.yml
   format: yaml
   label: Propel Software (Propel PLM) Item API
   slug: propelplm-item-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-item-api-openapi.yml
+  url: https://artifacts.apis.io/propelplm/openapi/propelplm-item-api-openapi.yml
 - filename: propelplm-manufactureritem-api-openapi.yml
   format: yaml
   label: Propel Software (Propel PLM) ManufacturerItem API
   slug: propelplm-manufactureritem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-manufactureritem-api-openapi.yml
+  url: https://artifacts.apis.io/propelplm/openapi/propelplm-manufactureritem-api-openapi.yml
 - filename: propelplm-manufacturerpart-api-openapi.yml
   format: yaml
   label: Propel Software (Propel PLM) ManufacturerPart API
   slug: propelplm-manufacturerpart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-manufacturerpart-api-openapi.yml
+  url: https://artifacts.apis.io/propelplm/openapi/propelplm-manufacturerpart-api-openapi.yml
 - filename: propelplm-markup-api-openapi.yml
   format: yaml
   label: Propel Software (Propel PLM) Markup API
   slug: propelplm-markup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-markup-api-openapi.yml
+  url: https://artifacts.apis.io/propelplm/openapi/propelplm-markup-api-openapi.yml
 - filename: propelplm-products-api-openapi.yml
   format: yaml
   label: Propel Software (Propel PLM) Products API
   slug: propelplm-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-products-api-openapi.yml
+  url: https://artifacts.apis.io/propelplm/openapi/propelplm-products-api-openapi.yml
 - filename: propelplm-variants-api-openapi.yml
   format: yaml
   label: Propel Software (Propel PLM) Variants API
   slug: propelplm-variants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-variants-api-openapi.yml
+  url: https://artifacts.apis.io/propelplm/openapi/propelplm-variants-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -131,13 +131,12 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/propelplm-configuration-openapi.yml, openapi/propelplm-core-openapi.yml, openapi/propelplm-manufacturer-item-openapi.yml,\n  openapi/propelplm-manufacturer-part-openapi.yml, openapi/propelplm-pim-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - implicit\nschemes:\n- name: oAuth2Implicit\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: '{{url}}{{site}}/services/oauth2/authorize'\n    scopes: 1\n  description: This API uses OAuth 2 with the implicit grant flow.\n  sources:\n  - openapi/propelplm-configuration-openapi.yml\n  - openapi/propelplm-manufacturer-item-openapi.yml\n  - openapi/propelplm-manufacturer-part-openapi.yml\n- name: salesforceOAuth\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.salesforce.com/services/oauth2/authorize\n    tokenUrl: https://login.salesforce.com/services/oauth2/token\n    scopes: 4\n\
   \  description: Salesforce OAuth 2.0 (Connected App). Server-side (authorization code) flow.\n  sources:\n  - openapi/propelplm-core-openapi.yml\n  - openapi/propelplm-pim-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/authentication/propelplm-authentication.yml
+source_yaml_url: https://artifacts.apis.io/propelplm/authentication/propelplm-authentication.yml
 summary_line: oauth2 · 2 schemes
 tags:
 - Company
 - PLM
 - Quality Management
-- QMS
 - Product Information Management
 - Manufacturing
 - Salesforce

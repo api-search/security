@@ -5,25 +5,25 @@ api_specs:
   label: Apache CloudStack Networks API
   slug: apache-cloudstack-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-cloudstack/refs/heads/main/openapi/apache-cloudstack-networks-api-openapi.yml
+  url: https://artifacts.apis.io/apache-cloudstack/openapi/apache-cloudstack-networks-api-openapi.yml
 - filename: apache-cloudstack-virtual-machines-api-openapi.yml
   format: yaml
   label: Apache CloudStack Virtual Machines API
   slug: apache-cloudstack-virtual-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-cloudstack/refs/heads/main/openapi/apache-cloudstack-virtual-machines-api-openapi.yml
+  url: https://artifacts.apis.io/apache-cloudstack/openapi/apache-cloudstack-virtual-machines-api-openapi.yml
 - filename: apache-cloudstack-volumes-api-openapi.yml
   format: yaml
   label: Apache CloudStack Volumes API
   slug: apache-cloudstack-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-cloudstack/refs/heads/main/openapi/apache-cloudstack-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/apache-cloudstack/openapi/apache-cloudstack-volumes-api-openapi.yml
 - filename: apache-cloudstack-zones-api-openapi.yml
   format: yaml
   label: Apache CloudStack Zones API
   slug: apache-cloudstack-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-cloudstack/refs/heads/main/openapi/apache-cloudstack-zones-api-openapi.yml
+  url: https://artifacts.apis.io/apache-cloudstack/openapi/apache-cloudstack-zones-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -57,7 +57,7 @@ source_filename: apache-cloudstack-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cloudstack.apache.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 23:33:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: apache.org\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:root@apache.org\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-cloudstack/refs/heads/main/security/apache-cloudstack-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apache-cloudstack/security/apache-cloudstack-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Apache

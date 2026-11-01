@@ -5,25 +5,25 @@ api_specs:
   label: project44 Shipments API
   slug: project44-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/project44/refs/heads/main/openapi/project44-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/project44/openapi/project44-shipments-api-openapi.yml
 - filename: project44-status-api-openapi.yml
   format: yaml
   label: project44 Status API
   slug: project44-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/project44/refs/heads/main/openapi/project44-status-api-openapi.yml
+  url: https://artifacts.apis.io/project44/openapi/project44-status-api-openapi.yml
 - filename: project44-tracking-api-openapi.yml
   format: yaml
   label: project44 Tracking API
   slug: project44-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/project44/refs/heads/main/openapi/project44-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/project44/openapi/project44-tracking-api-openapi.yml
 - filename: project44-webhooks-api-openapi.yml
   format: yaml
   label: project44 Webhooks API
   slug: project44-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/project44/refs/heads/main/openapi/project44-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/project44/openapi/project44-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: project44-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.project44.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developers.project44.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 19:25:38 2026 GMT\n  hsts: false\n- host: na12.api.project44.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 29 11:00:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: project44.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/project44/refs/heads/main/security/project44-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/project44/security/project44-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Logistics

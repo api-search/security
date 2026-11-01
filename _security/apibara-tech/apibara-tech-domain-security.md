@@ -5,55 +5,67 @@ api_specs:
   label: Apibara.tech Filters API
   slug: apibara-tech-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apibara-tech/refs/heads/main/openapi/apibara-tech-filters-api-openapi.yml
+  url: https://artifacts.apis.io/apibara-tech/openapi/apibara-tech-filters-api-openapi.yml
 - filename: apibara-tech-image-proxy-api-openapi.yml
   format: yaml
   label: Apibara.tech Image Proxy API
   slug: apibara-tech-image-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apibara-tech/refs/heads/main/openapi/apibara-tech-image-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/apibara-tech/openapi/apibara-tech-image-proxy-api-openapi.yml
 - filename: apibara-tech-locations-api-openapi.yml
   format: yaml
   label: Apibara.tech Locations API
   slug: apibara-tech-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apibara-tech/refs/heads/main/openapi/apibara-tech-locations-api-openapi.yml
+  url: https://artifacts.apis.io/apibara-tech/openapi/apibara-tech-locations-api-openapi.yml
 - filename: apibara-tech-related-vehicles-api-openapi.yml
   format: yaml
   label: Apibara.tech Related Vehicles API
   slug: apibara-tech-related-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apibara-tech/refs/heads/main/openapi/apibara-tech-related-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/apibara-tech/openapi/apibara-tech-related-vehicles-api-openapi.yml
 - filename: apibara-tech-shipping-api-openapi.yml
   format: yaml
   label: Apibara.tech Shipping API
   slug: apibara-tech-shipping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apibara-tech/refs/heads/main/openapi/apibara-tech-shipping-api-openapi.yml
+  url: https://artifacts.apis.io/apibara-tech/openapi/apibara-tech-shipping-api-openapi.yml
 - filename: apibara-tech-url-tools-api-openapi.yml
   format: yaml
   label: Apibara.tech URL Tools API
   slug: apibara-tech-url-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apibara-tech/refs/heads/main/openapi/apibara-tech-url-tools-api-openapi.yml
+  url: https://artifacts.apis.io/apibara-tech/openapi/apibara-tech-url-tools-api-openapi.yml
 - filename: apibara-tech-usage-api-openapi.yml
   format: yaml
   label: Apibara.tech Usage API
   slug: apibara-tech-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apibara-tech/refs/heads/main/openapi/apibara-tech-usage-api-openapi.yml
+  url: https://artifacts.apis.io/apibara-tech/openapi/apibara-tech-usage-api-openapi.yml
 - filename: apibara-tech-vehicle-history-api-openapi.yml
   format: yaml
   label: Apibara.tech Vehicle History API
   slug: apibara-tech-vehicle-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apibara-tech/refs/heads/main/openapi/apibara-tech-vehicle-history-api-openapi.yml
+  url: https://artifacts.apis.io/apibara-tech/openapi/apibara-tech-vehicle-history-api-openapi.yml
 - filename: apibara-tech-vehicles-api-openapi.yml
   format: yaml
   label: Apibara.tech Vehicles API
   slug: apibara-tech-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apibara-tech/refs/heads/main/openapi/apibara-tech-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/apibara-tech/openapi/apibara-tech-vehicles-api-openapi.yml
+- filename: apibara-tech-change-stream-api-openapi.yml
+  format: yaml
+  label: Apibara.tech Change Stream API
+  slug: apibara-tech-change-stream-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apibara-tech/openapi/apibara-tech-change-stream-api-openapi.yml
+- filename: apibara-tech-market-api-openapi.yml
+  format: yaml
+  label: Apibara.tech Market API
+  slug: apibara-tech-market-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apibara-tech/openapi/apibara-tech-market-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,10 +75,9 @@ domains:
   domain: apibara.tech
   spf: true
 hosts:
-- cert_expires: Nov 22 10:00:33 2026 GMT
+- cert_expires: Jan 20 17:30:12 2027 GMT
   host: apibara.tech
-  hsts: true
-  hsts_max_age: 31536000
+  hsts: false
   https: true
   tls_version: TLSv1.3
 hosts_probed: 1
@@ -75,16 +86,16 @@ layout: security
 method: probed
 name: Apibara Tech Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Apibara.tech, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+overview: 'Domain security posture for Apibara.tech, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Apibara.tech
 provider_slug: apibara-tech
 slug: apibara-tech-domain-security
 source_filename: apibara-tech-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-09-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: apibara.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 22 10:00:33 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: apibara.tech\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apibara-tech/refs/heads/main/security/apibara-tech-domain-security.yml
-summary_line: TLSv1.3 · HSTS · DMARC
+source_yaml: "generated: '2026-10-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: apibara.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 20 17:30:12 2027 GMT\n  hsts: false\ndomains:\n- domain: apibara.tech\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml_url: https://artifacts.apis.io/apibara-tech/security/apibara-tech-domain-security.yml
+summary_line: TLSv1.3 · DMARC
 tags:
 - Automotive
 - vehicle-auction-data

@@ -7,13 +7,13 @@ api_specs:
   label: P0 Security Command API
   slug: p0-security-command-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/p0-security/refs/heads/main/openapi/p0-security-command-api-openapi.yml
+  url: https://artifacts.apis.io/p0-security/openapi/p0-security-command-api-openapi.yml
 - filename: p0-security-permission-requests-api-openapi.yml
   format: yaml
   label: P0 Security Permission Requests API
   slug: p0-security-permission-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/p0-security/refs/heads/main/openapi/p0-security-permission-requests-api-openapi.yml
+  url: https://artifacts.apis.io/p0-security/openapi/p0-security-permission-requests-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: p0-security-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/p0-security-jit-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/p0-security-jit-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/p0-security/refs/heads/main/authentication/p0-security-authentication.yml
+source_yaml_url: https://artifacts.apis.io/p0-security/authentication/p0-security-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

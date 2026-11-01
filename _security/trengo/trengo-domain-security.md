@@ -5,49 +5,49 @@ api_specs:
   label: Trengo Channels API
   slug: trengo-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-channels-api-openapi.yml
+  url: https://artifacts.apis.io/trengo/openapi/trengo-channels-api-openapi.yml
 - filename: trengo-contacts-api-openapi.yml
   format: yaml
   label: Trengo Contacts API
   slug: trengo-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/trengo/openapi/trengo-contacts-api-openapi.yml
 - filename: trengo-labels-and-custom-fields-api-openapi.yml
   format: yaml
   label: Trengo Labels and Custom Fields API
   slug: trengo-labels-and-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-labels-and-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/trengo/openapi/trengo-labels-and-custom-fields-api-openapi.yml
 - filename: trengo-messages-api-openapi.yml
   format: yaml
   label: Trengo Messages API
   slug: trengo-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-messages-api-openapi.yml
+  url: https://artifacts.apis.io/trengo/openapi/trengo-messages-api-openapi.yml
 - filename: trengo-teams-and-users-api-openapi.yml
   format: yaml
   label: Trengo Teams and Users API
   slug: trengo-teams-and-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-teams-and-users-api-openapi.yml
+  url: https://artifacts.apis.io/trengo/openapi/trengo-teams-and-users-api-openapi.yml
 - filename: trengo-tickets-api-openapi.yml
   format: yaml
   label: Trengo Tickets API
   slug: trengo-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/trengo/openapi/trengo-tickets-api-openapi.yml
 - filename: trengo-webhooks-api-openapi.yml
   format: yaml
   label: Trengo Webhooks API
   slug: trengo-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/trengo/openapi/trengo-webhooks-api-openapi.yml
 - filename: trengo-whats-app-api-openapi.yml
   format: yaml
   label: Trengo Whats App API
   slug: trengo-whats-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-whats-app-api-openapi.yml
+  url: https://artifacts.apis.io/trengo/openapi/trengo-whats-app-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -95,7 +95,7 @@ source_filename: trengo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: trengo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:38:30 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: developers.trengo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 09:58:34 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.trengo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 07:26:29 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: trengo.com\n  dnssec: true\n  caa:\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/security/trengo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trengo/security/trengo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Customer Engagement

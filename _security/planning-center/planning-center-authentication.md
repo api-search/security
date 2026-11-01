@@ -7,55 +7,55 @@ api_specs:
   label: Planning Center Calendar API
   slug: planning-center-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-calendar-api-openapi.yml
 - filename: planning-center-check-ins-api-openapi.yml
   format: yaml
   label: Planning Center Check-Ins API
   slug: planning-center-check-ins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-check-ins-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-check-ins-api-openapi.yml
 - filename: planning-center-giving-api-openapi.yml
   format: yaml
   label: Planning Center Giving API
   slug: planning-center-giving-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-giving-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-giving-api-openapi.yml
 - filename: planning-center-groups-api-openapi.yml
   format: yaml
   label: Planning Center Groups API
   slug: planning-center-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-groups-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-groups-api-openapi.yml
 - filename: planning-center-people-api-openapi.yml
   format: yaml
   label: Planning Center People API
   slug: planning-center-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-people-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-people-api-openapi.yml
 - filename: planning-center-publishing-api-openapi.yml
   format: yaml
   label: Planning Center Publishing API
   slug: planning-center-publishing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-publishing-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-publishing-api-openapi.yml
 - filename: planning-center-registrations-api-openapi.yml
   format: yaml
   label: Planning Center Registrations API
   slug: planning-center-registrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-registrations-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-registrations-api-openapi.yml
 - filename: planning-center-services-api-openapi.yml
   format: yaml
   label: Planning Center Services API
   slug: planning-center-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-services-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-services-api-openapi.yml
 - filename: planning-center-webhooks-api-openapi.yml
   format: yaml
   label: Planning Center Webhooks API
   slug: planning-center-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-webhooks-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -93,7 +93,7 @@ source_filename: planning-center-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/planning-center-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic auth using a Personal Access Token - application id as the username\n    and secret as the password.\n  sources:\n  - openapi/planning-center-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.planningcenteronline.com/oauth/authorize\n    tokenUrl: https://api.planningcenteronline.com/oauth/token\n    scopes: 8\n  sources:\n  - openapi/planning-center-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/authentication/planning-center-authentication.yml
+source_yaml_url: https://artifacts.apis.io/planning-center/authentication/planning-center-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Church Management

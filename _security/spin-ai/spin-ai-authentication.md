@@ -8,7 +8,7 @@ api_specs:
   label: Spin.AI Entities API
   slug: spin-ai-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spin-ai/refs/heads/main/openapi/spin-ai-entities-api-openapi.yml
+  url: https://artifacts.apis.io/spin-ai/openapi/spin-ai-entities-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: spin-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/spin-ai-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: spinApiKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Spin.AI API authentication using the format: SPIN_API X-APP-ID={appIdValue},X-API-KEY={apiKeyValue}\n    Both the Application ID and API Key are generated in the SpinOne administration console\n    under Settings > Integrations > Public API.'\n  sources:\n  - openapi/spin-ai-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spin-ai/refs/heads/main/authentication/spin-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/spin-ai/authentication/spin-ai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Backup

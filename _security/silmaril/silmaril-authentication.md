@@ -36,7 +36,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://silmaril.dev/docs\ndocs: https://silmaril.dev/docs\nsummary:\n  types: [apiKey, oauth2]\n  api_key_in: [header]\n  oauth2_flows: [authorizationCode]\nschemes:\n- name: FirewallApiKey\n  type: apiKey\n  in: header\n  applies_to: Firewall classify API (SDKs) and LiteLLM guardrail endpoint\n  detail: >-\n    A Silmaril-issued API key is supplied to the Firewall client (SDK apiKey /\n    api_key + tenant classify apiUrl) and passed as the `x-api-key` header when\n    configuring the LiteLLM guardrail (SILMARIL_API_KEY + SILMARIL_GUARDRAIL_URL).\n    Credentials are provisioned by Silmaril; the product is not self-serve yet.\n- name: McpOAuth\n  type: oauth2\n  flow: authorizationCode\n  provider: Auth0\n  applies_to: Silmaril Firewall MCP evidence server (firewall-mcp.silmaril.dev)\n  detail: >-\n    The hosted MCP server uses OAuth via the customer's Auth0 organization with\n    hosted OAuth discovery; the signed-in user's\
   \ access is forwarded to the\n    read-only evidence API. Access is scope-gated (aggregate/search tools need\n    less access than full payload/trace tools).\nnotes: >-\n  No OpenAPI is published, so this profile is searched from the developer docs\n  and the MCP server repo rather than derived from a spec.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/silmaril/refs/heads/main/authentication/silmaril-authentication.yml
+source_yaml_url: https://artifacts.apis.io/silmaril/authentication/silmaril-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company

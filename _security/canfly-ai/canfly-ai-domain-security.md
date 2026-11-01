@@ -5,19 +5,19 @@ api_specs:
   label: CanFly Agents API
   slug: canfly-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canfly-ai/refs/heads/main/openapi/canfly-ai-agents-api-openapi.yml
+  url: https://artifacts.apis.io/canfly-ai/openapi/canfly-ai-agents-api-openapi.yml
 - filename: canfly-ai-discovery-api-openapi.yml
   format: yaml
   label: CanFly Discovery API
   slug: canfly-ai-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canfly-ai/refs/heads/main/openapi/canfly-ai-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/canfly-ai/openapi/canfly-ai-discovery-api-openapi.yml
 - filename: canfly-ai-skills-api-openapi.yml
   format: yaml
   label: CanFly Skills API
   slug: canfly-ai-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canfly-ai/refs/heads/main/openapi/canfly-ai-skills-api-openapi.yml
+  url: https://artifacts.apis.io/canfly-ai/openapi/canfly-ai-skills-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: canfly-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: canfly.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 29 07:53:37 2026 GMT\n  hsts: false\ndomains:\n- domain: canfly.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canfly-ai/refs/heads/main/security/canfly-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/canfly-ai/security/canfly-ai-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Agents

@@ -5,13 +5,13 @@ api_specs:
   label: Dashlane Teams API
   slug: dashlane-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dashlane/refs/heads/main/openapi/dashlane-teams-api-openapi.yml
+  url: https://artifacts.apis.io/dashlane/openapi/dashlane-teams-api-openapi.yml
 - filename: dashlane-time-api-openapi.yml
   format: yaml
   label: Dashlane Time API
   slug: dashlane-time-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dashlane/refs/heads/main/openapi/dashlane-time-api-openapi.yml
+  url: https://artifacts.apis.io/dashlane/openapi/dashlane-time-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,7 +41,7 @@ source_filename: dashlane-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dashlane.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 12:21:18 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: dashlane.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dashlane/refs/heads/main/security/dashlane-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dashlane/security/dashlane-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

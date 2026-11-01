@@ -5,49 +5,49 @@ api_specs:
   label: Verdaccio Dist Tags API
   slug: verdaccio-dist-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-dist-tags-api-openapi.yml
+  url: https://artifacts.apis.io/verdaccio/openapi/verdaccio-dist-tags-api-openapi.yml
 - filename: verdaccio-packages-api-openapi.yml
   format: yaml
   label: Verdaccio Packages API
   slug: verdaccio-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-packages-api-openapi.yml
+  url: https://artifacts.apis.io/verdaccio/openapi/verdaccio-packages-api-openapi.yml
 - filename: verdaccio-profile-api-openapi.yml
   format: yaml
   label: Verdaccio Profile API
   slug: verdaccio-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-profile-api-openapi.yml
+  url: https://artifacts.apis.io/verdaccio/openapi/verdaccio-profile-api-openapi.yml
 - filename: verdaccio-publish-api-openapi.yml
   format: yaml
   label: Verdaccio Publish API
   slug: verdaccio-publish-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-publish-api-openapi.yml
+  url: https://artifacts.apis.io/verdaccio/openapi/verdaccio-publish-api-openapi.yml
 - filename: verdaccio-search-api-openapi.yml
   format: yaml
   label: Verdaccio Search API
   slug: verdaccio-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-search-api-openapi.yml
+  url: https://artifacts.apis.io/verdaccio/openapi/verdaccio-search-api-openapi.yml
 - filename: verdaccio-tokens-api-openapi.yml
   format: yaml
   label: Verdaccio Tokens API
   slug: verdaccio-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/verdaccio/openapi/verdaccio-tokens-api-openapi.yml
 - filename: verdaccio-user-api-openapi.yml
   format: yaml
   label: Verdaccio User API
   slug: verdaccio-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-user-api-openapi.yml
+  url: https://artifacts.apis.io/verdaccio/openapi/verdaccio-user-api-openapi.yml
 - filename: verdaccio-utility-api-openapi.yml
   format: yaml
   label: Verdaccio Utility API
   slug: verdaccio-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-utility-api-openapi.yml
+  url: https://artifacts.apis.io/verdaccio/openapi/verdaccio-utility-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -77,7 +77,7 @@ source_filename: verdaccio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.verdaccio.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 08:05:21 2026 GMT\n  hsts: false\ndomains:\n- domain: verdaccio.org\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/security/verdaccio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/verdaccio/security/verdaccio-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - npm

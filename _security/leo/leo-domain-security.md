@@ -5,13 +5,13 @@ api_specs:
   label: LeO Public API
   slug: leo-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leo/refs/heads/main/openapi/leo-prospects-api-openapi.yml
+  url: https://artifacts.apis.io/leo/openapi/leo-prospects-api-openapi.yml
 - filename: leo-health-api-openapi.yml
   format: yaml
   label: LeO Health API
   slug: leo-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leo/refs/heads/main/openapi/leo-health-api-openapi.yml
+  url: https://artifacts.apis.io/leo/openapi/leo-health-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: leo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.meetleo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  4 09:12:31 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.meetleo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  2 23:59:59 2027 GMT\n  hsts: null\n- host: mcp.meetleo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  2 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: meetleo.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leo/refs/heads/main/security/leo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/leo/security/leo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

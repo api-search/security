@@ -30,7 +30,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://registry.npmjs.org/@pantomath/sdk-javascript\ndocs: https://www.npmjs.com/package/@pantomath/sdk-javascript\nnotes: >-\n  Pantomath does not publish a public OpenAPI definition or developer\n  documentation portal (docs./api./developer. subdomains do not resolve), so this\n  profile is derived from the published first-party JavaScript SDK rather than a\n  machine-readable spec. The SDK configures the ingestion API with a base URL and\n  an API key (environment variables PANTOMATH_API_BASE_URL and PANTOMATH_API_KEY;\n  SDK constructor accepts { apiKey }), indicating API-key authentication over a\n  per-tenant base URL.\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - env/config\nschemes:\n- name: apiKey\n  type: apiKey\n  in: config\n  parameter: PANTOMATH_API_KEY\n  description: >-\n    API key supplied to the Pantomath SDK (apiKey constructor option / the\n    PANTOMATH_API_KEY environment variable) and sent against\
   \ the tenant's\n    PANTOMATH_API_BASE_URL ingestion endpoint.\n  sources:\n  - https://registry.npmjs.org/@pantomath/sdk-javascript\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pantomath/refs/heads/main/authentication/pantomath-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pantomath/authentication/pantomath-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

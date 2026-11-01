@@ -5,31 +5,31 @@ api_specs:
   label: Featherless AI Completions API
   slug: featherless-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/featherless/refs/heads/main/openapi/featherless-completions-api-openapi.yml
+  url: https://artifacts.apis.io/featherless/openapi/featherless-completions-api-openapi.yml
 - filename: featherless-embeddings-api-openapi.yml
   format: yaml
   label: Featherless AI Embeddings API
   slug: featherless-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/featherless/refs/heads/main/openapi/featherless-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/featherless/openapi/featherless-embeddings-api-openapi.yml
 - filename: featherless-models-api-openapi.yml
   format: yaml
   label: Featherless AI Models API
   slug: featherless-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/featherless/refs/heads/main/openapi/featherless-models-api-openapi.yml
+  url: https://artifacts.apis.io/featherless/openapi/featherless-models-api-openapi.yml
 - filename: featherless-account-api-openapi.yml
   format: yaml
   label: Featherless AI Account API
   slug: featherless-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/featherless/refs/heads/main/openapi/featherless-account-api-openapi.yml
+  url: https://artifacts.apis.io/featherless/openapi/featherless-account-api-openapi.yml
 - filename: featherless-chat-completions-api-openapi.yml
   format: yaml
   label: Featherless AI Chat Completions API
   slug: featherless-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/featherless/refs/heads/main/openapi/featherless-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/featherless/openapi/featherless-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: featherless-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: featherless.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 19:34:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.featherless.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 21:26:51 2026 GMT\n  hsts: true\n  hsts_max_age: 15724800\ndomains:\n- domain: featherless.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/featherless/refs/heads/main/security/featherless-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/featherless/security/featherless-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

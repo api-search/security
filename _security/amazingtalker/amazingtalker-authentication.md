@@ -7,7 +7,7 @@ api_specs:
   label: AmazingTalker Pages API
   slug: amazingtalker-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazingtalker/refs/heads/main/openapi/amazingtalker-pages-api-openapi.yml
+  url: https://artifacts.apis.io/amazingtalker/openapi/amazingtalker-pages-api-openapi.yml
 auth_types:
 - none
 description: ''
@@ -28,7 +28,7 @@ source_filename: amazingtalker-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://en.amazingtalker.com/.well-known/ai-plugin.json\nsummary:\n  types: [none]\n  note: >-\n    Public API. The ai-plugin manifest declares auth type \"none\" and the\n    OpenAPI defines no securitySchemes; findTeachers requires no credentials.\nschemes: []\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazingtalker/refs/heads/main/authentication/amazingtalker-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazingtalker/authentication/amazingtalker-authentication.yml
 summary_line: none · 0 schemes
 tags:
 - Company

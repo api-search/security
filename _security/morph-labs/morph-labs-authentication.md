@@ -7,19 +7,19 @@ api_specs:
   label: Morph Apply API
   slug: morph-labs-apply-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morph-labs/refs/heads/main/openapi/morph-labs-apply-api-openapi.yml
+  url: https://artifacts.apis.io/morph-labs/openapi/morph-labs-apply-api-openapi.yml
 - filename: morph-labs-embeddings-api-openapi.yml
   format: yaml
   label: Morph Embeddings API
   slug: morph-labs-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morph-labs/refs/heads/main/openapi/morph-labs-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/morph-labs/openapi/morph-labs-embeddings-api-openapi.yml
 - filename: morph-labs-rerank-api-openapi.yml
   format: yaml
   label: Morph Rerank API
   slug: morph-labs-rerank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morph-labs/refs/heads/main/openapi/morph-labs-rerank-api-openapi.yml
+  url: https://artifacts.apis.io/morph-labs/openapi/morph-labs-rerank-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: morph-labs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/morph-labs-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Morph API key supplied as a Bearer token in the Authorization header.\n  sources:\n  - openapi/morph-labs-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/morph-labs/refs/heads/main/authentication/morph-labs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/morph-labs/authentication/morph-labs-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

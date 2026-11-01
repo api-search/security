@@ -7,43 +7,43 @@ api_specs:
   label: Extensiv Authentication API
   slug: extensiv-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/extensiv/openapi/extensiv-authentication-api-openapi.yml
 - filename: extensiv-customers-api-openapi.yml
   format: yaml
   label: Extensiv Customers API
   slug: extensiv-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-customers-api-openapi.yml
+  url: https://artifacts.apis.io/extensiv/openapi/extensiv-customers-api-openapi.yml
 - filename: extensiv-inventory-api-openapi.yml
   format: yaml
   label: Extensiv Inventory API
   slug: extensiv-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/extensiv/openapi/extensiv-inventory-api-openapi.yml
 - filename: extensiv-items-api-openapi.yml
   format: yaml
   label: Extensiv Items API
   slug: extensiv-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-items-api-openapi.yml
+  url: https://artifacts.apis.io/extensiv/openapi/extensiv-items-api-openapi.yml
 - filename: extensiv-orders-api-openapi.yml
   format: yaml
   label: Extensiv Orders API
   slug: extensiv-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-orders-api-openapi.yml
+  url: https://artifacts.apis.io/extensiv/openapi/extensiv-orders-api-openapi.yml
 - filename: extensiv-receivers-api-openapi.yml
   format: yaml
   label: Extensiv Receivers API
   slug: extensiv-receivers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-receivers-api-openapi.yml
+  url: https://artifacts.apis.io/extensiv/openapi/extensiv-receivers-api-openapi.yml
 - filename: extensiv-warehouses-api-openapi.yml
   format: yaml
   label: Extensiv Warehouses API
   slug: extensiv-warehouses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-warehouses-api-openapi.yml
+  url: https://artifacts.apis.io/extensiv/openapi/extensiv-warehouses-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -77,7 +77,7 @@ source_filename: extensiv-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/extensiv-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicClientCredentials\n  type: http\n  scheme: basic\n  description: Base64-encoded \"Client ID:Client Secret\" used only against /AuthServer/api/Token.\n  sources:\n  - openapi/extensiv-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Short-lived bearer access token minted by the auth server.\n  sources:\n  - openapi/extensiv-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/authentication/extensiv-authentication.yml
+source_yaml_url: https://artifacts.apis.io/extensiv/authentication/extensiv-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - 3PL

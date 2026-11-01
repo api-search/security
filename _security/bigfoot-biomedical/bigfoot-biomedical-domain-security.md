@@ -35,7 +35,7 @@ source_filename: bigfoot-biomedical-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bigfootbiomedical.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 23 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: clinichub.bigfootbiomedical.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 20 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  note: Bigfoot Clinic Hub healthcare-professional portal, served from Salesforce\n    Experience Cloud (siteforce.com). Added by hand; not discovered by the mechanical\n    probe because no apis[] entry points at this host.\ndomains:\n- domain: bigfootbiomedical.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bigfoot-biomedical/refs/heads/main/security/bigfoot-biomedical-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bigfoot-biomedical/security/bigfoot-biomedical-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

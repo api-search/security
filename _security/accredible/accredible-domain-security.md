@@ -5,61 +5,85 @@ api_specs:
   label: Accredible Analytics API
   slug: accredible-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/accredible/openapi/accredible-analytics-api-openapi.yml
 - filename: accredible-credentials-api-openapi.yml
   format: yaml
   label: Accredible Credentials API
   slug: accredible-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/accredible/openapi/accredible-credentials-api-openapi.yml
 - filename: accredible-departments-api-openapi.yml
   format: yaml
   label: Accredible Departments API
   slug: accredible-departments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-departments-api-openapi.yml
+  url: https://artifacts.apis.io/accredible/openapi/accredible-departments-api-openapi.yml
 - filename: accredible-designs-api-openapi.yml
   format: yaml
   label: Accredible Designs API
   slug: accredible-designs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-designs-api-openapi.yml
+  url: https://artifacts.apis.io/accredible/openapi/accredible-designs-api-openapi.yml
 - filename: accredible-evidence-items-api-openapi.yml
   format: yaml
   label: Accredible Evidence Items API
   slug: accredible-evidence-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-evidence-items-api-openapi.yml
+  url: https://artifacts.apis.io/accredible/openapi/accredible-evidence-items-api-openapi.yml
 - filename: accredible-groups-api-openapi.yml
   format: yaml
   label: Accredible Groups API
   slug: accredible-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-groups-api-openapi.yml
-- filename: accredible-issuer-api-openapi.yml
-  format: yaml
-  label: Accredible Issuer API
-  slug: accredible-issuer-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-issuer-api-openapi.yml
+  url: https://artifacts.apis.io/accredible/openapi/accredible-groups-api-openapi.yml
 - filename: accredible-references-api-openapi.yml
   format: yaml
   label: Accredible References API
   slug: accredible-references-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-references-api-openapi.yml
+  url: https://artifacts.apis.io/accredible/openapi/accredible-references-api-openapi.yml
 - filename: accredible-sso-api-openapi.yml
   format: yaml
   label: Accredible SSO API
   slug: accredible-sso-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-sso-api-openapi.yml
+  url: https://artifacts.apis.io/accredible/openapi/accredible-sso-api-openapi.yml
 - filename: accredible-team-members-api-openapi.yml
   format: yaml
   label: Accredible Team Members API
   slug: accredible-team-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-team-members-api-openapi.yml
+  url: https://artifacts.apis.io/accredible/openapi/accredible-team-members-api-openapi.yml
+- filename: accredible-attributes-api-openapi.yml
+  format: yaml
+  label: Accredible Attributes API
+  slug: accredible-attributes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/accredible/openapi/accredible-attributes-api-openapi.yml
+- filename: accredible-collections-api-openapi.yml
+  format: yaml
+  label: Accredible Collections API
+  slug: accredible-collections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/accredible/openapi/accredible-collections-api-openapi.yml
+- filename: accredible-data-exports-api-openapi.yml
+  format: yaml
+  label: Accredible Data Exports API
+  slug: accredible-data-exports-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/accredible/openapi/accredible-data-exports-api-openapi.yml
+- filename: accredible-issuers-api-openapi.yml
+  format: yaml
+  label: Accredible Issuers API
+  slug: accredible-issuers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/accredible/openapi/accredible-issuers-api-openapi.yml
+- filename: accredible-skills-frameworks-api-openapi.yml
+  format: yaml
+  label: Accredible Skills Frameworks API
+  slug: accredible-skills-frameworks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/accredible/openapi/accredible-skills-frameworks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -105,7 +129,7 @@ source_filename: accredible-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.accredible.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 11:14:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.api.accredible.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 18:24:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.accredible.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: accredible.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/security/accredible-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/accredible/security/accredible-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Digital Credentials

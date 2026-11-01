@@ -5,37 +5,37 @@ api_specs:
   label: Bonusly Analytics API
   slug: bonusly-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonusly/refs/heads/main/openapi/bonusly-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/bonusly/openapi/bonusly-analytics-api-openapi.yml
 - filename: bonusly-bonuses-api-openapi.yml
   format: yaml
   label: Bonusly Bonuses API
   slug: bonusly-bonuses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonusly/refs/heads/main/openapi/bonusly-bonuses-api-openapi.yml
+  url: https://artifacts.apis.io/bonusly/openapi/bonusly-bonuses-api-openapi.yml
 - filename: bonusly-company-api-openapi.yml
   format: yaml
   label: Bonusly Company API
   slug: bonusly-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonusly/refs/heads/main/openapi/bonusly-company-api-openapi.yml
+  url: https://artifacts.apis.io/bonusly/openapi/bonusly-company-api-openapi.yml
 - filename: bonusly-redemptions-api-openapi.yml
   format: yaml
   label: Bonusly Redemptions API
   slug: bonusly-redemptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonusly/refs/heads/main/openapi/bonusly-redemptions-api-openapi.yml
+  url: https://artifacts.apis.io/bonusly/openapi/bonusly-redemptions-api-openapi.yml
 - filename: bonusly-rewards-api-openapi.yml
   format: yaml
   label: Bonusly Rewards API
   slug: bonusly-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonusly/refs/heads/main/openapi/bonusly-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/bonusly/openapi/bonusly-rewards-api-openapi.yml
 - filename: bonusly-users-api-openapi.yml
   format: yaml
   label: Bonusly Users API
   slug: bonusly-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonusly/refs/heads/main/openapi/bonusly-users-api-openapi.yml
+  url: https://artifacts.apis.io/bonusly/openapi/bonusly-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -89,7 +89,7 @@ source_filename: bonusly-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bonusly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 09:38:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.bonus.ly\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 06:54:27 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: bonus.ly\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 12:32:11 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: bonusly.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: bonus.ly\n  dnssec: false\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bonusly/refs/heads/main/security/bonusly-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bonusly/security/bonusly-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Employee Recognition

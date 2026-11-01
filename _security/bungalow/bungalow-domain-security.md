@@ -5,25 +5,25 @@ api_specs:
   label: Bungalow Applications API
   slug: bungalow-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bungalow/refs/heads/main/openapi/bungalow-applications-api-openapi.yml
+  url: https://artifacts.apis.io/bungalow/openapi/bungalow-applications-api-openapi.yml
 - filename: bungalow-listings-api-openapi.yml
   format: yaml
   label: Bungalow Listings API
   slug: bungalow-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bungalow/refs/heads/main/openapi/bungalow-listings-api-openapi.yml
+  url: https://artifacts.apis.io/bungalow/openapi/bungalow-listings-api-openapi.yml
 - filename: bungalow-markets-api-openapi.yml
   format: yaml
   label: Bungalow Markets API
   slug: bungalow-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bungalow/refs/heads/main/openapi/bungalow-markets-api-openapi.yml
+  url: https://artifacts.apis.io/bungalow/openapi/bungalow-markets-api-openapi.yml
 - filename: bungalow-showings-api-openapi.yml
   format: yaml
   label: Bungalow Showings API
   slug: bungalow-showings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bungalow/refs/heads/main/openapi/bungalow-showings-api-openapi.yml
+  url: https://artifacts.apis.io/bungalow/openapi/bungalow-showings-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: bungalow-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-01'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bungalow.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 05:05:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: fieldstone.bungalow.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  1 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: bungalow.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bungalow/refs/heads/main/security/bungalow-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bungalow/security/bungalow-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -46,7 +46,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of faxsav.com (2026-07-20)\nnotes: >-\n  FaxSav is a defunct company (merged into Mail.com in 2000; lineage now inside\n  OpenText). faxsav.com is still registered and DNS-delegated to OpenText\n  nameservers (opntxtdns.com) with MX pointing at easylink.com, but no web\n  server answers on port 80 or 443 — connections time out. Absence of records\n  below is measured, not assumed.\nhosts:\n- host: faxsav.com\n  https: false\n  http_status: null\n  probe_result: connection timed out (ports 80 and 443 filtered/closed)\n- host: www.faxsav.com\n  https: false\n  http_status: null\n  probe_result: connection timed out\ndomains:\n- domain: faxsav.com\n  registered: true\n  registrar: SafeNames Ltd.\n  created: '1995-06-29'\n  registry_expiry: '2026-12-02'\n  nameservers:\n  - ns1.opntxtdns.com\n  - ns2.opntxtdns.com\n  - ns4.opntxtdns.com\n  - ns5.opntxtdns.com\n  a_records:\n  - 150.105.185.81\n  - 150.105.219.25\n\
   \  mx:\n  - ev3-bigip-lt.lt.easylink.com\n  - ev3-bigip-al.al.easylink.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n  dmarc_policy: null\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/faxsav/refs/heads/main/security/faxsav-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/faxsav/security/faxsav-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

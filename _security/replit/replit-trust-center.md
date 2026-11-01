@@ -5,19 +5,19 @@ api_specs:
   label: Replit Deployments API
   slug: replit-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replit/refs/heads/main/openapi/replit-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/replit/openapi/replit-deployments-api-openapi.yml
 - filename: replit-repls-api-openapi.yml
   format: yaml
   label: Replit Repls API
   slug: replit-repls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replit/refs/heads/main/openapi/replit-repls-api-openapi.yml
+  url: https://artifacts.apis.io/replit/openapi/replit-repls-api-openapi.yml
 - filename: replit-users-api-openapi.yml
   format: yaml
   label: Replit Users API
   slug: replit-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replit/refs/heads/main/openapi/replit-users-api-openapi.yml
+  url: https://artifacts.apis.io/replit/openapi/replit-users-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2
@@ -34,7 +34,7 @@ source_filename: replit-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.replit.com/\nurl: https://trust.replit.com/\ncertifications:\n- SOC 2\nevidence:\n- source: https://trust.replit.com/\n  keywords:\n  - soc 2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/replit/refs/heads/main/security/replit-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/replit/security/replit-trust-center.yml
 summary_line: SOC 2
 tags:
 - Code

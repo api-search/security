@@ -38,7 +38,7 @@ source_filename: regular-expressions-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.regular-expressions.info\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 17:22:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: regex101.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 23:35:38 2026 GMT\n  hsts: false\ndomains:\n- domain: regular-expressions.info\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: false\n- domain: regex101.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/regular-expressions/refs/heads/main/security/regular-expressions-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/regular-expressions/security/regular-expressions-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Pattern Matching

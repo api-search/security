@@ -15,25 +15,25 @@ api_specs:
   label: Neuphonic Agents API
   slug: neuphonic-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neuphonic/refs/heads/main/openapi/neuphonic-agents-api-openapi.yml
+  url: https://artifacts.apis.io/neuphonic/openapi/neuphonic-agents-api-openapi.yml
 - filename: neuphonic-ping-api-openapi.yml
   format: yaml
   label: Neuphonic Ping API
   slug: neuphonic-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neuphonic/refs/heads/main/openapi/neuphonic-ping-api-openapi.yml
+  url: https://artifacts.apis.io/neuphonic/openapi/neuphonic-ping-api-openapi.yml
 - filename: neuphonic-sse-api-openapi.yml
   format: yaml
   label: Neuphonic Sse API
   slug: neuphonic-sse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neuphonic/refs/heads/main/openapi/neuphonic-sse-api-openapi.yml
+  url: https://artifacts.apis.io/neuphonic/openapi/neuphonic-sse-api-openapi.yml
 - filename: neuphonic-voices-api-openapi.yml
   format: yaml
   label: Neuphonic Voices API
   slug: neuphonic-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neuphonic/refs/heads/main/openapi/neuphonic-voices-api-openapi.yml
+  url: https://artifacts.apis.io/neuphonic/openapi/neuphonic-voices-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -68,7 +68,7 @@ source_filename: neuphonic-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/neuphonic-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: ApiKeyHeader\n  type: apiKey\n  in: header\n  parameter: X-API-KEY\n  description: API key passed via the X-API-KEY request header.\n  sources:\n  - openapi/neuphonic-openapi.yml\n- name: ApiKeyQuery\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: API key passed as a query parameter (used for WebSocket connections).\n  sources:\n  - openapi/neuphonic-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neuphonic/refs/heads/main/authentication/neuphonic-authentication.yml
+source_yaml_url: https://artifacts.apis.io/neuphonic/authentication/neuphonic-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Text-to-Speech

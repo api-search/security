@@ -5,31 +5,31 @@ api_specs:
   label: Confluent Schema Registry Compatibility API
   slug: confluent-schema-registry-compatibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confluent-schema-registry/refs/heads/main/openapi/confluent-schema-registry-compatibility-api-openapi.yml
+  url: https://artifacts.apis.io/confluent-schema-registry/openapi/confluent-schema-registry-compatibility-api-openapi.yml
 - filename: confluent-schema-registry-mode-api-openapi.yml
   format: yaml
   label: Confluent Schema Registry Mode API
   slug: confluent-schema-registry-mode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confluent-schema-registry/refs/heads/main/openapi/confluent-schema-registry-mode-api-openapi.yml
+  url: https://artifacts.apis.io/confluent-schema-registry/openapi/confluent-schema-registry-mode-api-openapi.yml
 - filename: confluent-schema-registry-schemas-api-openapi.yml
   format: yaml
   label: Confluent Schema Registry Schemas API
   slug: confluent-schema-registry-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confluent-schema-registry/refs/heads/main/openapi/confluent-schema-registry-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/confluent-schema-registry/openapi/confluent-schema-registry-schemas-api-openapi.yml
 - filename: confluent-schema-registry-server-api-openapi.yml
   format: yaml
   label: Confluent Schema Registry Server API
   slug: confluent-schema-registry-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confluent-schema-registry/refs/heads/main/openapi/confluent-schema-registry-server-api-openapi.yml
+  url: https://artifacts.apis.io/confluent-schema-registry/openapi/confluent-schema-registry-server-api-openapi.yml
 - filename: confluent-schema-registry-subjects-api-openapi.yml
   format: yaml
   label: Confluent Schema Registry Subjects API
   slug: confluent-schema-registry-subjects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confluent-schema-registry/refs/heads/main/openapi/confluent-schema-registry-subjects-api-openapi.yml
+  url: https://artifacts.apis.io/confluent-schema-registry/openapi/confluent-schema-registry-subjects-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: confluent-schema-registry-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.confluent.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 09:44:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.confluent.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  4 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: confluent.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/confluent-schema-registry/refs/heads/main/security/confluent-schema-registry-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/confluent-schema-registry/security/confluent-schema-registry-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Apache Kafka

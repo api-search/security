@@ -5,7 +5,7 @@ api_specs:
   label: Crawl4AI Crawl API
   slug: crawl4ai-crawl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/openapi/crawl4ai-crawl-api-openapi.yml
+  url: https://artifacts.apis.io/crawl4ai/openapi/crawl4ai-crawl-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -44,7 +44,7 @@ source_filename: crawl4ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: crawl4ai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  5 09:42:37 2026 GMT\n  hsts: false\n- host: gate.crawl4ai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 08:50:28 2026 GMT\n  hsts: false\n- host: api.crawl4ai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 08:50:28 2026 GMT\n  hsts: false\ndomains:\n- domain: crawl4ai.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/security/crawl4ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/crawl4ai/security/crawl4ai-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - AI Automation

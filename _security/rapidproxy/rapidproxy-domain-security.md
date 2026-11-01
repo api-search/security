@@ -5,7 +5,7 @@ api_specs:
   label: RapidProxy (RAPID TERMINAL UK NETWORK LIMITED) RapidProxy (RAPID TERMINAL UK NETWORK LIMITED) API
   slug: rapidproxy-rapidproxy-rapid-terminal-uk-network-limited-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rapidproxy/refs/heads/main/openapi/rapidproxy-rapidproxy-rapid-terminal-uk-network-limited-api-api-openapi.yml
+  url: https://artifacts.apis.io/rapidproxy/openapi/rapidproxy-rapidproxy-rapid-terminal-uk-network-limited-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -33,7 +33,7 @@ source_filename: rapidproxy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.rapidproxy.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  5 13:05:17 2026 GMT\n  hsts: false\ndomains:\n- domain: rapidproxy.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rapidproxy/refs/heads/main/security/rapidproxy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rapidproxy/security/rapidproxy-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Proxy

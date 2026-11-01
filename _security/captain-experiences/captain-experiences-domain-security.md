@@ -28,7 +28,7 @@ source_filename: captain-experiences-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: captainexperiences.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 23 15:15:37 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: captainexperiences.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/captain-experiences/refs/heads/main/security/captain-experiences-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/captain-experiences/security/captain-experiences-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

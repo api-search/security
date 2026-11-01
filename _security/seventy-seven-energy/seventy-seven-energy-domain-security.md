@@ -27,7 +27,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nattribution_warning: >-\n  THE HOST BELOW IS NOT THIS COMPANY'S. seventy-seven-energy.com is a Wix-registered domain\n  created 2024-01-12, nearly seven years after Seventy Seven Energy was merged into\n  Patterson-UTI Energy (20 April 2017), and it has never been deployed — it answers every\n  path with a Wix \"ConnectYourDomain Error\" 404 and has a single Wayback capture\n  (2024-05-11) that is itself a 404. The TLSv1.3 handshake and the SPF record recorded here\n  therefore belong to Wix and to an unrelated 2024 registrant, NOT to Seventy Seven Energy,\n  and must not be read as this company's security posture. The company's real historic\n  domain was seventysevenenergy.com, which is now NXDOMAIN. The Website pointer to this host\n  has been removed from apis.yml; this file is retained only as the record of what was\n  probed and why it does not count. See well-known/seventy-seven-energy-well-known.yml.\n\
   hosts:\n- host: www.seventy-seven-energy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  1 10:25:52 2026 GMT\n  hsts: null\ndomains:\n- domain: seventy-seven-energy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seventy-seven-energy/refs/heads/main/security/seventy-seven-energy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/seventy-seven-energy/security/seventy-seven-energy-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

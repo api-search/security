@@ -5,67 +5,67 @@ api_specs:
   label: Terminal Address API
   slug: terminal-shop-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/openapi/terminal-shop-address-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-shop/openapi/terminal-shop-address-api-openapi.yml
 - filename: terminal-shop-app-api-openapi.yml
   format: yaml
   label: Terminal App API
   slug: terminal-shop-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/openapi/terminal-shop-app-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-shop/openapi/terminal-shop-app-api-openapi.yml
 - filename: terminal-shop-card-api-openapi.yml
   format: yaml
   label: Terminal Card API
   slug: terminal-shop-card-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/openapi/terminal-shop-card-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-shop/openapi/terminal-shop-card-api-openapi.yml
 - filename: terminal-shop-cart-api-openapi.yml
   format: yaml
   label: Terminal Cart API
   slug: terminal-shop-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/openapi/terminal-shop-cart-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-shop/openapi/terminal-shop-cart-api-openapi.yml
 - filename: terminal-shop-email-api-openapi.yml
   format: yaml
   label: Terminal Email API
   slug: terminal-shop-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/openapi/terminal-shop-email-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-shop/openapi/terminal-shop-email-api-openapi.yml
 - filename: terminal-shop-order-api-openapi.yml
   format: yaml
   label: Terminal Order API
   slug: terminal-shop-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/openapi/terminal-shop-order-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-shop/openapi/terminal-shop-order-api-openapi.yml
 - filename: terminal-shop-product-api-openapi.yml
   format: yaml
   label: Terminal Product API
   slug: terminal-shop-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/openapi/terminal-shop-product-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-shop/openapi/terminal-shop-product-api-openapi.yml
 - filename: terminal-shop-profile-api-openapi.yml
   format: yaml
   label: Terminal Profile API
   slug: terminal-shop-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/openapi/terminal-shop-profile-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-shop/openapi/terminal-shop-profile-api-openapi.yml
 - filename: terminal-shop-subscription-api-openapi.yml
   format: yaml
   label: Terminal Subscription API
   slug: terminal-shop-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/openapi/terminal-shop-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-shop/openapi/terminal-shop-subscription-api-openapi.yml
 - filename: terminal-shop-token-api-openapi.yml
   format: yaml
   label: Terminal Token API
   slug: terminal-shop-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/openapi/terminal-shop-token-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-shop/openapi/terminal-shop-token-api-openapi.yml
 - filename: terminal-shop-view-api-openapi.yml
   format: yaml
   label: Terminal View API
   slug: terminal-shop-view-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/openapi/terminal-shop-view-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-shop/openapi/terminal-shop-view-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -110,7 +110,7 @@ source_filename: terminal-shop-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.terminal.shop\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 23:59:59 2026 GMT\n  hsts: false\n- host: api.terminal.shop\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 23:59:59 2026 GMT\n  hsts: null\n- host: api.dev.terminal.shop\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: terminal.shop\n  dnssec: true\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/security/terminal-shop-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/terminal-shop/security/terminal-shop-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Coffee

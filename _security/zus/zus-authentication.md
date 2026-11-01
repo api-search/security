@@ -7,31 +7,31 @@ api_specs:
   label: Zus Health Auth API
   slug: zus-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/openapi/zus-auth-api-openapi.yml
+  url: https://artifacts.apis.io/zus/openapi/zus-auth-api-openapi.yml
 - filename: zus-documents-api-openapi.yml
   format: yaml
   label: Zus Health Documents API
   slug: zus-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/openapi/zus-documents-api-openapi.yml
+  url: https://artifacts.apis.io/zus/openapi/zus-documents-api-openapi.yml
 - filename: zus-fhir-api-openapi.yml
   format: yaml
   label: Zus Health FHIR API
   slug: zus-fhir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/openapi/zus-fhir-api-openapi.yml
+  url: https://artifacts.apis.io/zus/openapi/zus-fhir-api-openapi.yml
 - filename: zus-patient-api-openapi.yml
   format: yaml
   label: Zus Health Patient API
   slug: zus-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/openapi/zus-patient-api-openapi.yml
+  url: https://artifacts.apis.io/zus/openapi/zus-patient-api-openapi.yml
 - filename: zus-patient-history-api-openapi.yml
   format: yaml
   label: Zus Health Patient History API
   slug: zus-patient-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/openapi/zus-patient-history-api-openapi.yml
+  url: https://artifacts.apis.io/zus/openapi/zus-patient-history-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -59,7 +59,7 @@ source_filename: zus-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/zus-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: 'OAuth2 Bearer access token obtained from the Zus token endpoint (auth.zusapi.com/oauth/token).\n    Sent as Authorization: Bearer <ACCESS_TOKEN>.'\n  sources:\n  - openapi/zus-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/authentication/zus-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zus/authentication/zus-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Health

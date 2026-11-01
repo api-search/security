@@ -5,61 +5,61 @@ api_specs:
   label: Health Gorilla Binary API
   slug: health-gorilla-binary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-binary-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-binary-api-openapi.yml
 - filename: health-gorilla-coverage-api-openapi.yml
   format: yaml
   label: Health Gorilla Coverage API
   slug: health-gorilla-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-coverage-api-openapi.yml
 - filename: health-gorilla-diagnosticreport-api-openapi.yml
   format: yaml
   label: Health Gorilla DiagnosticReport API
   slug: health-gorilla-diagnosticreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-diagnosticreport-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-diagnosticreport-api-openapi.yml
 - filename: health-gorilla-observation-api-openapi.yml
   format: yaml
   label: Health Gorilla Observation API
   slug: health-gorilla-observation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-observation-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-observation-api-openapi.yml
 - filename: health-gorilla-patient-api-openapi.yml
   format: yaml
   label: Health Gorilla Patient API
   slug: health-gorilla-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-patient-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-patient-api-openapi.yml
 - filename: health-gorilla-practitioner-api-openapi.yml
   format: yaml
   label: Health Gorilla Practitioner API
   slug: health-gorilla-practitioner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-practitioner-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-practitioner-api-openapi.yml
 - filename: health-gorilla-requestgroup-api-openapi.yml
   format: yaml
   label: Health Gorilla RequestGroup API
   slug: health-gorilla-requestgroup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-requestgroup-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-requestgroup-api-openapi.yml
 - filename: health-gorilla-servicerequest-api-openapi.yml
   format: yaml
   label: Health Gorilla ServiceRequest API
   slug: health-gorilla-servicerequest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-servicerequest-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-servicerequest-api-openapi.yml
 - filename: health-gorilla-capability-statement-api-openapi.yml
   format: yaml
   label: Health Gorilla Capability Statement API
   slug: health-gorilla-capability-statement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-capability-statement-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-capability-statement-api-openapi.yml
 - filename: health-gorilla-document-reference-api-openapi.yml
   format: yaml
   label: Health Gorilla Document Reference API
   slug: health-gorilla-document-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-document-reference-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-document-reference-api-openapi.yml
 certification_count: 3
 certifications:
 - HITRUST r2
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nprobe: true\nsource: ht
   \ DNS does not resolve (curl exit 6)\n  document_request_flow: none published\n  subprocessor_list: none found\n  pentest_report: none published\n  iso_27001: not claimed\n  fedramp: not claimed\n  soft_404_warning: www.healthgorilla.com is a Webflow catch-all that answers HTTP 200 with the same 70,722-byte site shell\n    for every unknown path — /security, /compliance, /trust-center and /legal/privacy-policy all returned that shell and are\n    NOT real pages. Only the /home/* paths listed in the sitemap are genuine.\nrelated:\n- conformance/health-gorilla-conformance.yml\n- security/health-gorilla-vulnerability-disclosure.yml\n- security/health-gorilla-domain-security.yml\nevidence:\n- source: https://www.healthgorilla.com/home/company/health-data-security\n  http_status: 200\n  keywords:\n  - HITRUST R2\n  - SOC 2 Type 2\n  - HIPAA\n  - NIST 800-63A\n  - IAL2\n  - end-to-end encryption\n- source: https://www.healthgorilla.com/sitemap.xml\n  http_status: 200\n  note: used to distinguish\
   \ real pages from the Webflow soft-404 shell\nx-evidence:\n- url: https://www.healthgorilla.com/home/company/health-data-security\n  http_status: 200\n  fetched: '2026-08-14'\n- url: https://www.healthgorilla.com/trust-center\n  http_status: 200\n  fetched: '2026-08-14'\n  note: soft-404 shell — rejected\n- url: https://trust.healthgorilla.com\n  http_status: 0\n  fetched: '2026-08-14'\n  note: DNS does not resolve\ncertifications_detail:\n- name: HITRUST r2\n  full_name: HITRUST Risk-based, 2-year Certification\n  status: certified\n  evidence: '\"We''re HITRUST R2 certified, which means that we successfully manage cybersecurity risks by exceeding industry-defined\n    information security requirements.\"'\n  announcement: https://www.healthgorilla.com/blog/strengthening-our-security-canopy-health-gorilla-earns-hitrust-r2-recertification\n- name: SOC 2 Type 2\n  status: certified\n  trust_service_criteria:\n  - security\n  - availability\n  - processing integrity\n  - confidentiality\n\
   \  - privacy\n  evidence: '\"SOC 2 Type 2 is a stamp of approval on our controls relevant to data security, availability, processing, integrity,\n    confidentiality, and privacy.\"'\n  announcement: https://www.healthgorilla.com/blog/health-gorilla-is-now-soc-2-type-2-certified\n- name: HIPAA\n  status: compliance program\n  evidence: '\"Complying with applicable health data laws, including HIPAA, is ingrained in our culture, processes, and staff\n    training.\"'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/security/health-gorilla-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/health-gorilla/security/health-gorilla-trust-center.yml
 summary_line: HITRUST r2, SOC 2 Type 2, HIPAA
 tags:
 - Health

@@ -5,79 +5,79 @@ api_specs:
   label: Argo CD AccountService API
   slug: argocd-accountservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-accountservice-api-openapi.yml
+  url: https://artifacts.apis.io/argocd/openapi/argocd-accountservice-api-openapi.yml
 - filename: argocd-applicationservice-api-openapi.yml
   format: yaml
   label: Argo CD ApplicationService API
   slug: argocd-applicationservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-applicationservice-api-openapi.yml
+  url: https://artifacts.apis.io/argocd/openapi/argocd-applicationservice-api-openapi.yml
 - filename: argocd-applicationsetservice-api-openapi.yml
   format: yaml
   label: Argo CD ApplicationSetService API
   slug: argocd-applicationsetservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-applicationsetservice-api-openapi.yml
+  url: https://artifacts.apis.io/argocd/openapi/argocd-applicationsetservice-api-openapi.yml
 - filename: argocd-certificateservice-api-openapi.yml
   format: yaml
   label: Argo CD CertificateService API
   slug: argocd-certificateservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-certificateservice-api-openapi.yml
+  url: https://artifacts.apis.io/argocd/openapi/argocd-certificateservice-api-openapi.yml
 - filename: argocd-clusterservice-api-openapi.yml
   format: yaml
   label: Argo CD ClusterService API
   slug: argocd-clusterservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-clusterservice-api-openapi.yml
+  url: https://artifacts.apis.io/argocd/openapi/argocd-clusterservice-api-openapi.yml
 - filename: argocd-gpgkeyservice-api-openapi.yml
   format: yaml
   label: Argo CD GPGKeyService API
   slug: argocd-gpgkeyservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-gpgkeyservice-api-openapi.yml
+  url: https://artifacts.apis.io/argocd/openapi/argocd-gpgkeyservice-api-openapi.yml
 - filename: argocd-projectservice-api-openapi.yml
   format: yaml
   label: Argo CD ProjectService API
   slug: argocd-projectservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-projectservice-api-openapi.yml
+  url: https://artifacts.apis.io/argocd/openapi/argocd-projectservice-api-openapi.yml
 - filename: argocd-repocredsservice-api-openapi.yml
   format: yaml
   label: Argo CD RepoCredsService API
   slug: argocd-repocredsservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-repocredsservice-api-openapi.yml
+  url: https://artifacts.apis.io/argocd/openapi/argocd-repocredsservice-api-openapi.yml
 - filename: argocd-repositoryservice-api-openapi.yml
   format: yaml
   label: Argo CD RepositoryService API
   slug: argocd-repositoryservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-repositoryservice-api-openapi.yml
+  url: https://artifacts.apis.io/argocd/openapi/argocd-repositoryservice-api-openapi.yml
 - filename: argocd-sessionservice-api-openapi.yml
   format: yaml
   label: Argo CD SessionService API
   slug: argocd-sessionservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-sessionservice-api-openapi.yml
+  url: https://artifacts.apis.io/argocd/openapi/argocd-sessionservice-api-openapi.yml
 - filename: argocd-settingsservice-api-openapi.yml
   format: yaml
   label: Argo CD SettingsService API
   slug: argocd-settingsservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-settingsservice-api-openapi.yml
+  url: https://artifacts.apis.io/argocd/openapi/argocd-settingsservice-api-openapi.yml
 - filename: argocd-versionservice-api-openapi.yml
   format: yaml
   label: Argo CD VersionService API
   slug: argocd-versionservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-versionservice-api-openapi.yml
+  url: https://artifacts.apis.io/argocd/openapi/argocd-versionservice-api-openapi.yml
 - filename: argocd-notification-service-api-openapi.yml
   format: yaml
   label: Argo CD Notification Service API
   slug: argocd-notification-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-notification-service-api-openapi.yml
+  url: https://artifacts.apis.io/argocd/openapi/argocd-notification-service-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -112,7 +112,7 @@ source_filename: argocd-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: argo-cd.readthedocs.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 13:13:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: readthedocs.io\n  dnssec: false\n  caa:\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \" amazontrust.com\"\n  - 0 issue \"comodoca.com\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/security/argocd-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/argocd/security/argocd-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - ArgoCD

@@ -27,7 +27,7 @@ source_filename: apogee-interactive-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.apogeeent.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 29 07:10:10 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: apogeeent.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apogee-interactive/refs/heads/main/security/apogee-interactive-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apogee-interactive/security/apogee-interactive-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Indie Publishing

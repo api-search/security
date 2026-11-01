@@ -5,25 +5,25 @@ api_specs:
   label: Amazon MediaPackage Channels API
   slug: amazon-mediapackage-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/openapi/amazon-mediapackage-channels-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediapackage/openapi/amazon-mediapackage-channels-api-openapi.yml
 - filename: amazon-mediapackage-harvest-jobs-api-openapi.yml
   format: yaml
   label: Amazon MediaPackage Harvest Jobs API
   slug: amazon-mediapackage-harvest-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/openapi/amazon-mediapackage-harvest-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediapackage/openapi/amazon-mediapackage-harvest-jobs-api-openapi.yml
 - filename: amazon-mediapackage-origin-endpoints-api-openapi.yml
   format: yaml
   label: Amazon MediaPackage Origin Endpoints API
   slug: amazon-mediapackage-origin-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/openapi/amazon-mediapackage-origin-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediapackage/openapi/amazon-mediapackage-origin-endpoints-api-openapi.yml
 - filename: amazon-mediapackage-tags-api-openapi.yml
   format: yaml
   label: Amazon MediaPackage Tags API
   slug: amazon-mediapackage-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/openapi/amazon-mediapackage-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediapackage/openapi/amazon-mediapackage-tags-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -44,7 +44,7 @@ source_filename: amazon-mediapackage-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://aws.amazon.com/compliance/\nurl: https://aws.amazon.com/compliance/\ncertifications:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://aws.amazon.com/compliance/\n  keywords:\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/security/amazon-mediapackage-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/amazon-mediapackage/security/amazon-mediapackage-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Broadcasting

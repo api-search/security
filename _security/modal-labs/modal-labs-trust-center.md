@@ -5,7 +5,7 @@ api_specs:
   label: Modal Web Endpoints (Representative) API
   slug: modal-labs-modal-web-endpoints-representative-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modal-labs/refs/heads/main/openapi/modal-labs-modal-web-endpoints-representative-api-openapi.yml
+  url: https://artifacts.apis.io/modal-labs/openapi/modal-labs-modal-web-endpoints-representative-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2 Type 2
@@ -27,7 +27,7 @@ source_yaml: "generated: '2026-09-18'\nmethod: searched\nsource: https://modal.c
   \ 2 audit.\"\n  report_url: https://trust.modal.com/\n  announcement: https://modal.com/blog/soc2type2\n  public_report: false\n- name: HIPAA\n  status: supported-via-BAA\n  evidence: >-\n    \"Modal's services can be used in a HIPAA compliant manner... To use Modal\n    services for HIPAA-compliant workloads, a Business Associate Agreement (BAA)\n    should be established with us prior to submission of any PHI. This is\n    available on our Enterprise plan.\"\n  note: >-\n    Modal is explicit that there is no official HIPAA certification and that\n    scope is partial: Volumes v1, Images (excluding Filesystem and Directory\n    Snapshots), Memory Snapshots and user code are OUT of BAA scope. Volumes v2\n    are in scope.\n  url: https://modal.com/docs/guide/security\n- name: PCI DSS\n  status: not-applicable\n  evidence: >-\n    Modal does not store or process credit card information; card handling is\n    delegated to Stripe, which is certified as a PCI Level 1 Service Provider.\n \
   \ url: https://modal.com/docs/guide/security\nprograms:\n- name: Audit logs\n  url: https://modal.com/docs/guide/audit-logs\n  note: Workspace audit logs, Enterprise plan.\n- name: Data residency\n  url: https://modal.com/docs/guide/data-residency\n- name: Customer-supplied encryption keys\n  url: https://modal.com/docs/guide/customer-supplied-encryption-keys\n  status: Alpha\n- name: Role-Based Access Control\n  url: https://modal.com/docs/guide/rbac\n- name: SSO\n  url: https://modal.com/docs/guide/okta-sso\n  note: Okta, Microsoft Entra and custom SAML SSO are documented separately.\ndata_handling:\n  zero_data_retention_surface: >-\n    Modal Inference endpoints are documented as zero data retention — request and\n    response payloads are never written to disk.\n  function_io_retention: Up to 7 days, encrypted at rest, then deleted.\n  log_retention: 1 day (Starter), 30 days (Team), configurable (Enterprise).\n  commitment: >-\n    \"Modal will never access or use: your source code;\
   \ the inputs or outputs to\n    your Modal Functions; any data you store in Modal, such as in Images or\n    Volumes.\"\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/modal-labs/refs/heads/main/security/modal-labs-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/modal-labs/security/modal-labs-trust-center.yml
 summary_line: SOC 2 Type 2, HIPAA, PCI DSS
 tags:
 - Serverless

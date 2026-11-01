@@ -7,19 +7,19 @@ api_specs:
   label: Google Cloud Interconnect InterconnectAttachments API
   slug: google-cloud-interconnect-interconnectattachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-interconnect/refs/heads/main/openapi/google-cloud-interconnect-interconnectattachments-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-interconnect/openapi/google-cloud-interconnect-interconnectattachments-api-openapi.yml
 - filename: google-cloud-interconnect-interconnectlocations-api-openapi.yml
   format: yaml
   label: Google Cloud Interconnect InterconnectLocations API
   slug: google-cloud-interconnect-interconnectlocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-interconnect/refs/heads/main/openapi/google-cloud-interconnect-interconnectlocations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-interconnect/openapi/google-cloud-interconnect-interconnectlocations-api-openapi.yml
 - filename: google-cloud-interconnect-interconnects-api-openapi.yml
   format: yaml
   label: Google Cloud Interconnect Interconnects API
   slug: google-cloud-interconnect-interconnects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-interconnect/refs/heads/main/openapi/google-cloud-interconnect-interconnects-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-interconnect/openapi/google-cloud-interconnect-interconnects-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -50,7 +50,7 @@ source_filename: google-cloud-interconnect-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 2\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-interconnect/refs/heads/main/authentication/google-cloud-interconnect-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-interconnect/authentication/google-cloud-interconnect-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Dedicated Connectivity

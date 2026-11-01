@@ -5,31 +5,31 @@ api_specs:
   label: Veritus Calls API
   slug: veritus-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritus/refs/heads/main/openapi/veritus-calls-api-openapi.yml
+  url: https://artifacts.apis.io/veritus/openapi/veritus-calls-api-openapi.yml
 - filename: veritus-clients-api-openapi.yml
   format: yaml
   label: Veritus Clients API
   slug: veritus-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritus/refs/heads/main/openapi/veritus-clients-api-openapi.yml
+  url: https://artifacts.apis.io/veritus/openapi/veritus-clients-api-openapi.yml
 - filename: veritus-customers-api-openapi.yml
   format: yaml
   label: Veritus Customers API
   slug: veritus-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritus/refs/heads/main/openapi/veritus-customers-api-openapi.yml
+  url: https://artifacts.apis.io/veritus/openapi/veritus-customers-api-openapi.yml
 - filename: veritus-interactions-api-openapi.yml
   format: yaml
   label: Veritus Interactions API
   slug: veritus-interactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritus/refs/heads/main/openapi/veritus-interactions-api-openapi.yml
+  url: https://artifacts.apis.io/veritus/openapi/veritus-interactions-api-openapi.yml
 - filename: veritus-veritus-api-api-openapi.yml
   format: yaml
   label: Veritus API
   slug: veritus-veritus-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritus/refs/heads/main/openapi/veritus-veritus-api-api-openapi.yml
+  url: https://artifacts.apis.io/veritus/openapi/veritus-veritus-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: veritus-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: veritus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 14:53:00 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: sandbox.veritus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 06:17:58 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: veritus.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veritus/refs/heads/main/security/veritus-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/veritus/security/veritus-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

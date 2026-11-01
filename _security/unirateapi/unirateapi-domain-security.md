@@ -5,25 +5,25 @@ api_specs:
   label: UniRate API Commodity API
   slug: unirateapi-commodity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unirateapi/refs/heads/main/openapi/unirateapi-commodity-api-openapi.yml
+  url: https://artifacts.apis.io/unirateapi/openapi/unirateapi-commodity-api-openapi.yml
 - filename: unirateapi-currency-api-openapi.yml
   format: yaml
   label: UniRate API Currency API
   slug: unirateapi-currency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unirateapi/refs/heads/main/openapi/unirateapi-currency-api-openapi.yml
+  url: https://artifacts.apis.io/unirateapi/openapi/unirateapi-currency-api-openapi.yml
 - filename: unirateapi-historical-currency-api-openapi.yml
   format: yaml
   label: UniRate API Historical Currency API
   slug: unirateapi-historical-currency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unirateapi/refs/heads/main/openapi/unirateapi-historical-currency-api-openapi.yml
+  url: https://artifacts.apis.io/unirateapi/openapi/unirateapi-historical-currency-api-openapi.yml
 - filename: unirateapi-vat-rates-api-openapi.yml
   format: yaml
   label: UniRate API VAT Rates API
   slug: unirateapi-vat-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unirateapi/refs/heads/main/openapi/unirateapi-vat-rates-api-openapi.yml
+  url: https://artifacts.apis.io/unirateapi/openapi/unirateapi-vat-rates-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: unirateapi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-16'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: unirateapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 05:28:46 2026 GMT\n  hsts: false\n- host: api.unirateapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 05:28:46 2026 GMT\n  hsts: false\ndomains:\n- domain: unirateapi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unirateapi/refs/heads/main/security/unirateapi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/unirateapi/security/unirateapi-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Currency

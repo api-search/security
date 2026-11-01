@@ -7,25 +7,25 @@ api_specs:
   label: Shipday Assignment API
   slug: shipday-assignment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipday/refs/heads/main/openapi/shipday-assignment-api-openapi.yml
+  url: https://artifacts.apis.io/shipday/openapi/shipday-assignment-api-openapi.yml
 - filename: shipday-drivers-api-openapi.yml
   format: yaml
   label: Shipday Drivers API
   slug: shipday-drivers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipday/refs/heads/main/openapi/shipday-drivers-api-openapi.yml
+  url: https://artifacts.apis.io/shipday/openapi/shipday-drivers-api-openapi.yml
 - filename: shipday-on-demand-delivery-api-openapi.yml
   format: yaml
   label: Shipday On-Demand Delivery API
   slug: shipday-on-demand-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipday/refs/heads/main/openapi/shipday-on-demand-delivery-api-openapi.yml
+  url: https://artifacts.apis.io/shipday/openapi/shipday-on-demand-delivery-api-openapi.yml
 - filename: shipday-orders-api-openapi.yml
   format: yaml
   label: Shipday Orders API
   slug: shipday-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipday/refs/heads/main/openapi/shipday-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shipday/openapi/shipday-orders-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: shipday-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/shipday-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: 'HTTP Basic authentication. Send your API key as the credential in the Authorization\n    header, e.g. `Authorization: Basic {API_KEY}`.'\n  sources:\n  - openapi/shipday-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shipday/refs/heads/main/authentication/shipday-authentication.yml
+source_yaml_url: https://artifacts.apis.io/shipday/authentication/shipday-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Delivery

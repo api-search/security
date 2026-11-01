@@ -5,25 +5,25 @@ api_specs:
   label: Make AI Agents API
   slug: make-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/openapi/make-ai-agents-api-openapi.yml
+  url: https://artifacts.apis.io/make/openapi/make-ai-agents-api-openapi.yml
 - filename: make-scenario-execution-api-openapi.yml
   format: yaml
   label: Make Scenario Execution API
   slug: make-scenario-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/openapi/make-scenario-execution-api-openapi.yml
+  url: https://artifacts.apis.io/make/openapi/make-scenario-execution-api-openapi.yml
 - filename: make-scenario-variables-api-openapi.yml
   format: yaml
   label: Make Scenario Variables API
   slug: make-scenario-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/openapi/make-scenario-variables-api-openapi.yml
+  url: https://artifacts.apis.io/make/openapi/make-scenario-variables-api-openapi.yml
 - filename: make-scenarios-api-openapi.yml
   format: yaml
   label: Make Scenarios API
   slug: make-scenarios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/openapi/make-scenarios-api-openapi.yml
+  url: https://artifacts.apis.io/make/openapi/make-scenarios-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -69,7 +69,7 @@ source_filename: make-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.make.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 11:23:17 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: us1.make.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 12:14:34 2026 GMT\n  hsts: null\n- host: us2.make.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 12:14:38 2026 GMT\n  hsts: null\ndomains:\n- domain: make.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"trust-provider.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/security/make-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/make/security/make-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Automation

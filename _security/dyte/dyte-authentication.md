@@ -7,37 +7,37 @@ api_specs:
   label: Dyte Meetings API
   slug: dyte-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyte/refs/heads/main/openapi/dyte-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/dyte/openapi/dyte-meetings-api-openapi.yml
 - filename: dyte-participants-api-openapi.yml
   format: yaml
   label: Dyte Participants API
   slug: dyte-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyte/refs/heads/main/openapi/dyte-participants-api-openapi.yml
+  url: https://artifacts.apis.io/dyte/openapi/dyte-participants-api-openapi.yml
 - filename: dyte-recordings-api-openapi.yml
   format: yaml
   label: Dyte Recordings API
   slug: dyte-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyte/refs/heads/main/openapi/dyte-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/dyte/openapi/dyte-recordings-api-openapi.yml
 - filename: dyte-sessions-api-openapi.yml
   format: yaml
   label: Dyte Sessions API
   slug: dyte-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyte/refs/heads/main/openapi/dyte-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/dyte/openapi/dyte-sessions-api-openapi.yml
 - filename: dyte-webhooks-api-openapi.yml
   format: yaml
   label: Dyte Webhooks API
   slug: dyte-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyte/refs/heads/main/openapi/dyte-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/dyte/openapi/dyte-webhooks-api-openapi.yml
 - filename: dyte-live-streams-api-openapi.yml
   format: yaml
   label: Dyte Live Streams API
   slug: dyte-live-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyte/refs/heads/main/openapi/dyte-live-streams-api-openapi.yml
+  url: https://artifacts.apis.io/dyte/openapi/dyte-live-streams-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +64,7 @@ source_filename: dyte-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/dyte-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic auth using the base64-encoded string organizationId:apiKey (organizationId\n    as the username, apiKey as the password).\n  sources:\n  - openapi/dyte-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dyte/refs/heads/main/authentication/dyte-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dyte/authentication/dyte-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Video

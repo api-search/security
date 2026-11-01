@@ -5,61 +5,61 @@ api_specs:
   label: Datto /v2/account API
   slug: datto-v2-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/openapi/datto-v2-account-api-openapi.yml
+  url: https://artifacts.apis.io/datto/openapi/datto-v2-account-api-openapi.yml
 - filename: datto-v2-activity-logs-api-openapi.yml
   format: yaml
   label: Datto /v2/activity-logs API
   slug: datto-v2-activity-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/openapi/datto-v2-activity-logs-api-openapi.yml
+  url: https://artifacts.apis.io/datto/openapi/datto-v2-activity-logs-api-openapi.yml
 - filename: datto-v2-alert-api-openapi.yml
   format: yaml
   label: Datto /v2/alert API
   slug: datto-v2-alert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/openapi/datto-v2-alert-api-openapi.yml
+  url: https://artifacts.apis.io/datto/openapi/datto-v2-alert-api-openapi.yml
 - filename: datto-v2-audit-api-openapi.yml
   format: yaml
   label: Datto /v2/audit API
   slug: datto-v2-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/openapi/datto-v2-audit-api-openapi.yml
+  url: https://artifacts.apis.io/datto/openapi/datto-v2-audit-api-openapi.yml
 - filename: datto-v2-device-api-openapi.yml
   format: yaml
   label: Datto /v2/device API
   slug: datto-v2-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/openapi/datto-v2-device-api-openapi.yml
+  url: https://artifacts.apis.io/datto/openapi/datto-v2-device-api-openapi.yml
 - filename: datto-v2-filter-api-openapi.yml
   format: yaml
   label: Datto /v2/filter API
   slug: datto-v2-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/openapi/datto-v2-filter-api-openapi.yml
+  url: https://artifacts.apis.io/datto/openapi/datto-v2-filter-api-openapi.yml
 - filename: datto-v2-job-api-openapi.yml
   format: yaml
   label: Datto /v2/job API
   slug: datto-v2-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/openapi/datto-v2-job-api-openapi.yml
+  url: https://artifacts.apis.io/datto/openapi/datto-v2-job-api-openapi.yml
 - filename: datto-v2-site-api-openapi.yml
   format: yaml
   label: Datto /v2/site API
   slug: datto-v2-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/openapi/datto-v2-site-api-openapi.yml
+  url: https://artifacts.apis.io/datto/openapi/datto-v2-site-api-openapi.yml
 - filename: datto-v2-system-api-openapi.yml
   format: yaml
   label: Datto /v2/system API
   slug: datto-v2-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/openapi/datto-v2-system-api-openapi.yml
+  url: https://artifacts.apis.io/datto/openapi/datto-v2-system-api-openapi.yml
 - filename: datto-v2-user-api-openapi.yml
   format: yaml
   label: Datto /v2/user API
   slug: datto-v2-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/openapi/datto-v2-user-api-openapi.yml
+  url: https://artifacts.apis.io/datto/openapi/datto-v2-user-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -105,7 +105,7 @@ source_filename: datto-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: rmm.datto.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 23:59:59 2026 GMT\n  hsts: false\n- host: concord-api.centrastage.net\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 14 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: datto.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"Digicert.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: centrastage.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/security/datto-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/datto/security/datto-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
@@ -113,7 +113,7 @@ tags:
 - Backup
 - Disaster Recovery
 - Managed Service Providers
-- Remote Monitoring and Management
+- RMM
 - Endpoint Management
 - Cybersecurity
 - IT Operations

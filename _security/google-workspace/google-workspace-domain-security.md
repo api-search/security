@@ -5,37 +5,37 @@ api_specs:
   label: Google Workspace Groups API
   slug: google-workspace-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/openapi/google-workspace-groups-api-openapi.yml
+  url: https://artifacts.apis.io/google-workspace/openapi/google-workspace-groups-api-openapi.yml
 - filename: google-workspace-users-api-openapi.yml
   format: yaml
   label: Google Workspace Users API
   slug: google-workspace-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/openapi/google-workspace-users-api-openapi.yml
+  url: https://artifacts.apis.io/google-workspace/openapi/google-workspace-users-api-openapi.yml
 - filename: google-workspace-calendar-api-openapi.yml
   format: yaml
   label: Google Workspace APIs Calendar API
   slug: google-suites-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/openapi/google-workspace-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/google-workspace/openapi/google-workspace-calendar-api-openapi.yml
 - filename: google-workspace-drive-api-openapi.yml
   format: yaml
   label: Google Workspace APIs Drive API
   slug: google-suites-drive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/openapi/google-workspace-drive-api-openapi.yml
+  url: https://artifacts.apis.io/google-workspace/openapi/google-workspace-drive-api-openapi.yml
 - filename: google-workspace-gmail-api-openapi.yml
   format: yaml
   label: Google Workspace APIs Gmail API
   slug: google-suites-gmail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/openapi/google-workspace-gmail-api-openapi.yml
+  url: https://artifacts.apis.io/google-workspace/openapi/google-workspace-gmail-api-openapi.yml
 - filename: google-workspace-org-units-api-openapi.yml
   format: yaml
   label: Google Workspace Org Units API
   slug: google-workspace-org-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/openapi/google-workspace-org-units-api-openapi.yml
+  url: https://artifacts.apis.io/google-workspace/openapi/google-workspace-org-units-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -83,7 +83,7 @@ source_filename: google-workspace-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: gmail.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:17 2026 GMT\n  hsts: null\n- host: www.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:17 2026 GMT\n  hsts: null\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/security/google-workspace-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/google-workspace/security/google-workspace-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Calendar

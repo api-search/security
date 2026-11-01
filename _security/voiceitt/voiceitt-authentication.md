@@ -7,19 +7,19 @@ api_specs:
   label: Voiceitt WebSockets API
   slug: voiceitt-websockets-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voiceitt/refs/heads/main/asyncapi/voiceitt-websockets-asyncapi.yml
+  url: https://artifacts.apis.io/voiceitt/asyncapi/voiceitt-websockets-asyncapi.yml
 - filename: voiceitt-auth-api-openapi.yml
   format: yaml
   label: Voiceitt Auth API
   slug: voiceitt-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voiceitt/refs/heads/main/openapi/voiceitt-auth-api-openapi.yml
+  url: https://artifacts.apis.io/voiceitt/openapi/voiceitt-auth-api-openapi.yml
 - filename: voiceitt-rec-api-openapi.yml
   format: yaml
   label: Voiceitt Rec API
   slug: voiceitt-rec-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voiceitt/refs/heads/main/openapi/voiceitt-rec-api-openapi.yml
+  url: https://artifacts.apis.io/voiceitt/openapi/voiceitt-rec-api-openapi.yml
 auth_types:
 - http
 description: Voiceitt uses JSON Web Tokens (JWT) for authenticated sessions. Apps obtain tokens by POSTing an App ID and API key to /v1/auth/login/user_id (speaker-independent mode, optionally scoped to a user_id) or App ID, API key, email and password to /v1/auth/login/email (personalized mode — the end user must first enroll and train at https://web.voiceitt.com/). The returned JWT is passed as a Bearer token in the HTTP header of each call to the transcribe endpoint, or in the auth option (token + refresh_token) when initializing a WebSockets (Socket.IO) connection. Tokens carry token_expires_at / refresh_token_expires_at timestamps and are renewed by POSTing the refresh_token to /v1/auth/refresh_token (HTTP) or emitting the refresh_token event (WebSockets).
@@ -51,7 +51,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/voiceitt-rest-api-openapi-original.json\ndocs: https://voiceitt-si-api.readme.io/reference/getting-started-with-the-voiceitt-rest-api-copy\nsummary:\n  types:\n  - http\n  http_schemes:\n  - bearer\n  credential_issuance: App ID + API key issued via the Voiceitt developer portal (developer.voiceitt.com)\ndescription: >-\n  Voiceitt uses JSON Web Tokens (JWT) for authenticated sessions. Apps obtain\n  tokens by POSTing an App ID and API key to /v1/auth/login/user_id\n  (speaker-independent mode, optionally scoped to a user_id) or App ID, API\n  key, email and password to /v1/auth/login/email (personalized mode — the\n  end user must first enroll and train at https://web.voiceitt.com/). The\n  returned JWT is passed as a Bearer token in the HTTP header of each call to\n  the transcribe endpoint, or in the auth option (token + refresh_token) when\n  initializing a WebSockets (Socket.IO) connection. Tokens carry\n  token_expires_at\
   \ / refresh_token_expires_at timestamps and are renewed by\n  POSTing the refresh_token to /v1/auth/refresh_token (HTTP) or emitting the\n  refresh_token event (WebSockets).\nschemes:\n- name: bearer\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  token_endpoints:\n  - /v1/auth/login/user_id\n  - /v1/auth/login/email\n  - /v1/auth/refresh_token\n  sources:\n  - openapi/voiceitt-rest-api-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voiceitt/refs/heads/main/authentication/voiceitt-authentication.yml
+source_yaml_url: https://artifacts.apis.io/voiceitt/authentication/voiceitt-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Speech Recognition

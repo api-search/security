@@ -5,37 +5,37 @@ api_specs:
   label: Azure Blob Storage Append Blobs API
   slug: microsoft-azure-blob-storage-append-blobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/openapi/microsoft-azure-blob-storage-append-blobs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-blob-storage/openapi/microsoft-azure-blob-storage-append-blobs-api-openapi.yml
 - filename: microsoft-azure-blob-storage-azure-blob-storage-rest-api-api-openapi.yml
   format: yaml
   label: Azure Blob Storage Azure Blob Storage REST API
   slug: microsoft-azure-blob-storage-azure-blob-storage-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/openapi/microsoft-azure-blob-storage-azure-blob-storage-rest-api-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-blob-storage/openapi/microsoft-azure-blob-storage-azure-blob-storage-rest-api-api-openapi.yml
 - filename: microsoft-azure-blob-storage-blobs-api-openapi.yml
   format: yaml
   label: Azure Blob Storage Blobs API
   slug: microsoft-azure-blob-storage-blobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/openapi/microsoft-azure-blob-storage-blobs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-blob-storage/openapi/microsoft-azure-blob-storage-blobs-api-openapi.yml
 - filename: microsoft-azure-blob-storage-block-blobs-api-openapi.yml
   format: yaml
   label: Azure Blob Storage Block Blobs API
   slug: microsoft-azure-blob-storage-block-blobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/openapi/microsoft-azure-blob-storage-block-blobs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-blob-storage/openapi/microsoft-azure-blob-storage-block-blobs-api-openapi.yml
 - filename: microsoft-azure-blob-storage-containers-api-openapi.yml
   format: yaml
   label: Azure Blob Storage Containers API
   slug: microsoft-azure-blob-storage-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/openapi/microsoft-azure-blob-storage-containers-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-blob-storage/openapi/microsoft-azure-blob-storage-containers-api-openapi.yml
 - filename: microsoft-azure-blob-storage-page-blobs-api-openapi.yml
   format: yaml
   label: Azure Blob Storage Page Blobs API
   slug: microsoft-azure-blob-storage-page-blobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/openapi/microsoft-azure-blob-storage-page-blobs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-blob-storage/openapi/microsoft-azure-blob-storage-page-blobs-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -84,7 +84,7 @@ source_filename: microsoft-azure-blob-storage-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: portal.azure.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 19:53:18 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: azure.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 22:04:48 2026 GMT\n  hsts: null\n- host: learn.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 02:26:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: azure.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/security/microsoft-azure-blob-storage-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-blob-storage/security/microsoft-azure-blob-storage-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Microsoft Azure

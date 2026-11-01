@@ -16,7 +16,7 @@ source_filename: wexler-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nsource: https://trust.wexler.ai/\nurl: https://trust.wexler.ai/\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://trust.wexler.ai/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wexler/refs/heads/main/security/wexler-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/wexler/security/wexler-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Company

@@ -5,43 +5,43 @@ api_specs:
   label: Toolhouse Agent Runs API
   slug: toolhouse-agent-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs/heads/main/openapi/toolhouse-agent-runs-api-openapi.yml
+  url: https://artifacts.apis.io/toolhouse/openapi/toolhouse-agent-runs-api-openapi.yml
 - filename: toolhouse-api-keys-api-openapi.yml
   format: yaml
   label: Toolhouse API Keys API
   slug: toolhouse-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs/heads/main/openapi/toolhouse-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/toolhouse/openapi/toolhouse-api-keys-api-openapi.yml
 - filename: toolhouse-backoffice-api-openapi.yml
   format: yaml
   label: Toolhouse Backoffice API
   slug: toolhouse-backoffice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs/heads/main/openapi/toolhouse-backoffice-api-openapi.yml
+  url: https://artifacts.apis.io/toolhouse/openapi/toolhouse-backoffice-api-openapi.yml
 - filename: toolhouse-logs-api-openapi.yml
   format: yaml
   label: Toolhouse Logs API
   slug: toolhouse-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs/heads/main/openapi/toolhouse-logs-api-openapi.yml
+  url: https://artifacts.apis.io/toolhouse/openapi/toolhouse-logs-api-openapi.yml
 - filename: toolhouse-metrics-api-openapi.yml
   format: yaml
   label: Toolhouse Metrics API
   slug: toolhouse-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs/heads/main/openapi/toolhouse-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/toolhouse/openapi/toolhouse-metrics-api-openapi.yml
 - filename: toolhouse-sdk-api-api-openapi.yml
   format: yaml
   label: Toolhouse SDK API
   slug: toolhouse-sdk-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs/heads/main/openapi/toolhouse-sdk-api-api-openapi.yml
+  url: https://artifacts.apis.io/toolhouse/openapi/toolhouse-sdk-api-api-openapi.yml
 - filename: toolhouse-user-api-api-openapi.yml
   format: yaml
   label: Toolhouse User API
   slug: toolhouse-user-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs/heads/main/openapi/toolhouse-user-api-api-openapi.yml
+  url: https://artifacts.apis.io/toolhouse/openapi/toolhouse-user-api-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -87,7 +87,7 @@ source_filename: toolhouse-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: toolhouse.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 22:59:59 2026 GMT\n  hsts: false\n- host: docs.toolhouse.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 04:23:34 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: agents.toolhouse.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 21:53:14 2026 GMT\n  hsts: false\ndomains:\n- domain: toolhouse.ai\n  dnssec: false\n  caa:\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs/heads/main/security/toolhouse-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/toolhouse/security/toolhouse-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Agent Infrastructure

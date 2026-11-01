@@ -7,37 +7,37 @@ api_specs:
   label: Anchore Images API
   slug: anchore-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/openapi/anchore-images-api-openapi.yml
+  url: https://artifacts.apis.io/anchore/openapi/anchore-images-api-openapi.yml
 - filename: anchore-policies-api-openapi.yml
   format: yaml
   label: Anchore Policies API
   slug: anchore-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/openapi/anchore-policies-api-openapi.yml
+  url: https://artifacts.apis.io/anchore/openapi/anchore-policies-api-openapi.yml
 - filename: anchore-registries-api-openapi.yml
   format: yaml
   label: Anchore Registries API
   slug: anchore-registries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/openapi/anchore-registries-api-openapi.yml
+  url: https://artifacts.apis.io/anchore/openapi/anchore-registries-api-openapi.yml
 - filename: anchore-sbom-api-openapi.yml
   format: yaml
   label: Anchore SBOM API
   slug: anchore-sbom-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/openapi/anchore-sbom-api-openapi.yml
+  url: https://artifacts.apis.io/anchore/openapi/anchore-sbom-api-openapi.yml
 - filename: anchore-subscriptions-api-openapi.yml
   format: yaml
   label: Anchore Subscriptions API
   slug: anchore-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/openapi/anchore-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/anchore/openapi/anchore-subscriptions-api-openapi.yml
 - filename: anchore-vulnerabilities-api-openapi.yml
   format: yaml
   label: Anchore Vulnerabilities API
   slug: anchore-vulnerabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/openapi/anchore-vulnerabilities-api-openapi.yml
+  url: https://artifacts.apis.io/anchore/openapi/anchore-vulnerabilities-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -68,7 +68,7 @@ source_filename: anchore-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/anchore-enterprise-api.yaml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/anchore-enterprise-api.yaml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/anchore-enterprise-api.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/authentication/anchore-authentication.yml
+source_yaml_url: https://artifacts.apis.io/anchore/authentication/anchore-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Container Security

@@ -26,7 +26,7 @@ source_filename: wave-capital-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: wave.capital\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 08:33:01 2026 GMT\n  hsts: false\ndomains:\n- domain: wave.capital\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wave-capital/refs/heads/main/security/wave-capital-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wave-capital/security/wave-capital-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

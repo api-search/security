@@ -8,37 +8,37 @@ api_specs:
   label: Instabase Audit API
   slug: instabase-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/openapi/instabase-audit-api-openapi.yml
+  url: https://artifacts.apis.io/instabase/openapi/instabase-audit-api-openapi.yml
 - filename: instabase-batches-api-openapi.yml
   format: yaml
   label: Instabase Batches API
   slug: instabase-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/openapi/instabase-batches-api-openapi.yml
+  url: https://artifacts.apis.io/instabase/openapi/instabase-batches-api-openapi.yml
 - filename: instabase-files-api-openapi.yml
   format: yaml
   label: Instabase Files API
   slug: instabase-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/openapi/instabase-files-api-openapi.yml
+  url: https://artifacts.apis.io/instabase/openapi/instabase-files-api-openapi.yml
 - filename: instabase-jobs-api-openapi.yml
   format: yaml
   label: Instabase Jobs API
   slug: instabase-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/openapi/instabase-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/instabase/openapi/instabase-jobs-api-openapi.yml
 - filename: instabase-runs-api-openapi.yml
   format: yaml
   label: Instabase Runs API
   slug: instabase-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/openapi/instabase-runs-api-openapi.yml
+  url: https://artifacts.apis.io/instabase/openapi/instabase-runs-api-openapi.yml
 - filename: instabase-secrets-api-openapi.yml
   format: yaml
   label: Instabase Secrets API
   slug: instabase-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/openapi/instabase-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/instabase/openapi/instabase-secrets-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -67,7 +67,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/instabase-aihub-openapi.yaml\ndocs: https://docs.instabase.com/api-sdk/authorization.md\nsummary:\n  types:\n  - http\n  api_key_in: [header]\n  bearer: true\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: auth-scheme\n  description: >-\n    Bearer HTTP authentication. Users create AI Hub API tokens under\n    Settings > APIs > AI Hub tokens (named, with an expiration); the token\n    value is shown once. Passed as `Authorization: Bearer ${API_TOKEN}`.\n    A token grants the same access/permissions as its creating user or\n    service account.\n  sources:\n  - openapi/instabase-aihub-openapi.yaml\ncontext_header:\n  name: IB-Context\n  required: true\n  values: >-\n    Organization ID (organization and service accounts) or User ID\n    (community accounts, deprecated). Identifies the request context and\n    where files are accessed.\nexternal_oauth:\n  supported: true\n  tier: enterprise\n\
   \  note: >-\n    External IdP/OIDC tokens can be used for API access\n    (ENABLE_EXTERNAL_IDP_TOKENS_FOR_API_ACCESS); if the token carries a\n    valid scope claim, AI Hub authorizes based on the roles in that scope.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/authentication/instabase-authentication.yml
+source_yaml_url: https://artifacts.apis.io/instabase/authentication/instabase-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

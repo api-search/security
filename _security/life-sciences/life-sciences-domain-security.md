@@ -5,19 +5,19 @@ api_specs:
   label: Life Sciences Stats API
   slug: life-sciences-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/life-sciences/refs/heads/main/openapi/life-sciences-stats-api-openapi.yml
+  url: https://artifacts.apis.io/life-sciences/openapi/life-sciences-stats-api-openapi.yml
 - filename: life-sciences-studies-api-openapi.yml
   format: yaml
   label: Life Sciences Studies API
   slug: life-sciences-studies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/life-sciences/refs/heads/main/openapi/life-sciences-studies-api-openapi.yml
+  url: https://artifacts.apis.io/life-sciences/openapi/life-sciences-studies-api-openapi.yml
 - filename: life-sciences-version-api-openapi.yml
   format: yaml
   label: Life Sciences Version API
   slug: life-sciences-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/life-sciences/refs/heads/main/openapi/life-sciences-version-api-openapi.yml
+  url: https://artifacts.apis.io/life-sciences/openapi/life-sciences-version-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -68,7 +68,7 @@ source_filename: life-sciences-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: clinicaltrials.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 14:32:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: euclinicaltrials.eu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 23 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: open.fda.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 18:57:13 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: clinicaltrials.gov\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"godaddy.com\"\n  - 0 issue \"godaddy.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: euclinicaltrials.eu\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/life-sciences/refs/heads/main/security/life-sciences-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/life-sciences/security/life-sciences-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Life Sciences

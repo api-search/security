@@ -9,97 +9,97 @@ api_specs:
   label: ClickHouse HTTP Interface API
   slug: clickhouse-clickhouse-http-interface-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-clickhouse-http-interface-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-clickhouse-http-interface-api-openapi.yml
 - filename: clickhouse-ping-api-openapi.yml
   format: yaml
   label: ClickHouse Ping API
   slug: clickhouse-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-ping-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-ping-api-openapi.yml
 - filename: clickhouse-play-api-openapi.yml
   format: yaml
   label: ClickHouse Play API
   slug: clickhouse-play-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-play-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-play-api-openapi.yml
 - filename: clickhouse-replicas-status-api-openapi.yml
   format: yaml
   label: ClickHouse Replicas Status API
   slug: clickhouse-replicas-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-replicas-status-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-replicas-status-api-openapi.yml
 - filename: clickhouse-api-keys-api-openapi.yml
   format: yaml
   label: ClickHouse API keys API
   slug: clickhouse-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-api-keys-api-openapi.yml
 - filename: clickhouse-backup-api-openapi.yml
   format: yaml
   label: ClickHouse Backup API
   slug: clickhouse-backup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-backup-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-backup-api-openapi.yml
 - filename: clickhouse-billing-api-openapi.yml
   format: yaml
   label: ClickHouse Billing API
   slug: clickhouse-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-billing-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-billing-api-openapi.yml
 - filename: clickhouse-clickpipes-api-openapi.yml
   format: yaml
   label: ClickHouse Click Pipes API
   slug: clickhouse-clickpipes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-clickpipes-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-clickpipes-api-openapi.yml
 - filename: clickhouse-clickstack-api-openapi.yml
   format: yaml
   label: ClickHouse Click Stack API
   slug: clickhouse-clickstack-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-clickstack-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-clickstack-api-openapi.yml
 - filename: clickhouse-organization-api-openapi.yml
   format: yaml
   label: ClickHouse Organization API
   slug: clickhouse-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-organization-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-organization-api-openapi.yml
 - filename: clickhouse-postgres-api-openapi.yml
   format: yaml
   label: ClickHouse Postgres API
   slug: clickhouse-postgres-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-postgres-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-postgres-api-openapi.yml
 - filename: clickhouse-prometheus-api-openapi.yml
   format: yaml
   label: ClickHouse Prometheus API
   slug: clickhouse-prometheus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-prometheus-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-prometheus-api-openapi.yml
 - filename: clickhouse-role-management-api-openapi.yml
   format: yaml
   label: ClickHouse Role Management API
   slug: clickhouse-role-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-role-management-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-role-management-api-openapi.yml
 - filename: clickhouse-service-api-openapi.yml
   format: yaml
   label: ClickHouse Service API
   slug: clickhouse-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-service-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-service-api-openapi.yml
 - filename: clickhouse-udf-api-openapi.yml
   format: yaml
   label: ClickHouse UDF API
   slug: clickhouse-udf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-udf-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-udf-api-openapi.yml
 - filename: clickhouse-user-management-api-openapi.yml
   format: yaml
   label: ClickHouse User management API
   slug: clickhouse-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-user-management-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -125,7 +125,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: >-\n  https://c
   \    key_management:\n      issue: ClickHouse Cloud console -> API Keys -> New API Key\n      roles:\n        - name: developer\n          grants: read-only permissions for assigned services\n        - name: admin\n          grants: full read and write permissions\n      expiration: configurable per key\n      ip_allowlist: optional per key — a single IP or a CIDR range such as 203.0.113.0/24\n      keys_per_organization: 100\n      secret_display: >-\n        Key ID and key secret are shown once at creation and never again; ClickHouse tells you to store them\n        in a vault.\n      revocation: >-\n        Keys can be disabled or deleted from the API Keys page. Deletion is permanent and immediately cuts\n        off any service using the key.\n  - name: ClickHouse HTTP interface\n    base: 'http(s)://<host>:8123 (HTTPS 8443)'\n    schemes:\n      - name: basicAuth\n        type: http\n        scheme: basic\n        sources:\n          - openapi/_original/clickhouse-openapi.yml\n  \
   \    - name: clickhouseHeaders\n        type: apiKey\n        in: header\n        parameter: X-ClickHouse-User\n        companion: X-ClickHouse-Key\n        sources:\n          - openapi/_original/clickhouse-openapi.yml\n      - name: urlParameters\n        type: apiKey\n        in: query\n        parameter: user\n        companion: password\n        note: Credentials may also be passed as URL parameters — documented, but the weakest of the three.\n    docs: https://clickhouse.com/docs/en/interfaces/http\n  - name: ClickHouse Cloud remote MCP server\n    base: https://mcp.clickhouse.cloud/mcp\n    schemes:\n      - name: oauth2\n        type: oauth2\n        flow: authorization_code with PKCE (S256)\n        issuer: https://mcp.clickhouse.cloud\n        dynamic_registration: https://mcp.clickhouse.cloud/register\n        scopes:\n          - 'mcp:access'\n          - 'clickstack:access'\n          - openid\n          - profile\n          - email\n        sources:\n          - well-known/clickhouse-mcp-oauth-authorization-server.json\n\
   \          - well-known/clickhouse-mcp-oauth-protected-resource.json\n    detail: scopes/clickhouse-scopes.yml\nsso:\n  google: all plans\n  microsoft: all plans\n  saml: Enterprise plan only\n  mfa: all plans\n  source: https://clickhouse.com/pricing.md\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/authentication/clickhouse-authentication.yml
+source_yaml_url: https://artifacts.apis.io/clickhouse/authentication/clickhouse-authentication.yml
 summary_line: http/apiKey/oauth2 · 0 schemes
 tags:
 - ClickHouse

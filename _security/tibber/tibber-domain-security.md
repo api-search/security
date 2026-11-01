@@ -5,25 +5,25 @@ api_specs:
   label: Tibber Devices API
   slug: tibber-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/openapi/tibber-devices-api-openapi.yml
+  url: https://artifacts.apis.io/tibber/openapi/tibber-devices-api-openapi.yml
 - filename: tibber-history-api-openapi.yml
   format: yaml
   label: Tibber History API
   slug: tibber-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/openapi/tibber-history-api-openapi.yml
+  url: https://artifacts.apis.io/tibber/openapi/tibber-history-api-openapi.yml
 - filename: tibber-homes-api-openapi.yml
   format: yaml
   label: Tibber Homes API
   slug: tibber-homes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/openapi/tibber-homes-api-openapi.yml
+  url: https://artifacts.apis.io/tibber/openapi/tibber-homes-api-openapi.yml
 - filename: tibber-graph-ql-api-openapi.yml
   format: yaml
   label: Tibber Graph QL API
   slug: tibber-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/openapi/tibber-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/tibber/openapi/tibber-graph-ql-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: tibber-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tibber.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.tibber.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 10 23:59:59 2027 GMT\n  hsts: false\n- host: api.tibber.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 10 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: tibber.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/security/tibber-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tibber/security/tibber-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Energy

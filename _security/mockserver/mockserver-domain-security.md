@@ -5,19 +5,19 @@ api_specs:
   label: MockServer Control API
   slug: mockserver-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mockserver/refs/heads/main/openapi/mockserver-control-api-openapi.yml
+  url: https://artifacts.apis.io/mockserver/openapi/mockserver-control-api-openapi.yml
 - filename: mockserver-expectation-api-openapi.yml
   format: yaml
   label: MockServer Expectation API
   slug: mockserver-expectation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mockserver/refs/heads/main/openapi/mockserver-expectation-api-openapi.yml
+  url: https://artifacts.apis.io/mockserver/openapi/mockserver-expectation-api-openapi.yml
 - filename: mockserver-verify-api-openapi.yml
   format: yaml
   label: MockServer Verify API
   slug: mockserver-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mockserver/refs/heads/main/openapi/mockserver-verify-api-openapi.yml
+  url: https://artifacts.apis.io/mockserver/openapi/mockserver-verify-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -49,7 +49,7 @@ source_filename: mockserver-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mock-server.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: mock-server.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"amazon.com\"\n  - 0 issue \"amazon.com\"\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mockserver/refs/heads/main/security/mockserver-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mockserver/security/mockserver-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Mocking

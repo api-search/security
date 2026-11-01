@@ -5,37 +5,37 @@ api_specs:
   label: Tally Forms API
   slug: tally-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tally/refs/heads/main/openapi/tally-forms-api-openapi.yml
+  url: https://artifacts.apis.io/tally/openapi/tally-forms-api-openapi.yml
 - filename: tally-organization-api-openapi.yml
   format: yaml
   label: Tally Organization API
   slug: tally-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tally/refs/heads/main/openapi/tally-organization-api-openapi.yml
+  url: https://artifacts.apis.io/tally/openapi/tally-organization-api-openapi.yml
 - filename: tally-submissions-api-openapi.yml
   format: yaml
   label: Tally Submissions API
   slug: tally-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tally/refs/heads/main/openapi/tally-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/tally/openapi/tally-submissions-api-openapi.yml
 - filename: tally-users-api-openapi.yml
   format: yaml
   label: Tally Users API
   slug: tally-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tally/refs/heads/main/openapi/tally-users-api-openapi.yml
+  url: https://artifacts.apis.io/tally/openapi/tally-users-api-openapi.yml
 - filename: tally-webhooks-api-openapi.yml
   format: yaml
   label: Tally Webhooks API
   slug: tally-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tally/refs/heads/main/openapi/tally-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/tally/openapi/tally-webhooks-api-openapi.yml
 - filename: tally-workspaces-api-openapi.yml
   format: yaml
   label: Tally Workspaces API
   slug: tally-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tally/refs/heads/main/openapi/tally-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/tally/openapi/tally-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: tally-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tally.so\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 20:56:57 2026 GMT\n  hsts: false\n- host: developers.tally.so\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 04:25:35 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.tally.so\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 20:56:57 2026 GMT\n  hsts: null\ndomains:\n- domain: tally.so\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tally/refs/heads/main/security/tally-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tally/security/tally-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Forms

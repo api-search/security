@@ -8,19 +8,19 @@ api_specs:
   label: CharityAPI Autocomplete API
   slug: charityapi-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charityapi/refs/heads/main/openapi/charityapi-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/charityapi/openapi/charityapi-autocomplete-api-openapi.yml
 - filename: charityapi-organizations-api-openapi.yml
   format: yaml
   label: CharityAPI Organizations API
   slug: charityapi-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charityapi/refs/heads/main/openapi/charityapi-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/charityapi/openapi/charityapi-organizations-api-openapi.yml
 - filename: charityapi-public-charity-check-api-openapi.yml
   format: yaml
   label: CharityAPI Public Charity Check API
   slug: charityapi-public-charity-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charityapi/refs/heads/main/openapi/charityapi-public-charity-check-api-openapi.yml
+  url: https://artifacts.apis.io/charityapi/openapi/charityapi-public-charity-check-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: charityapi-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/charityapi-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: apikey\n  description: API key issued by CharityAPI, sent in the apikey request header.\n  sources:\n  - openapi/charityapi-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/charityapi/refs/heads/main/authentication/charityapi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/charityapi/authentication/charityapi-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - 501c3

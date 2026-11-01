@@ -11,55 +11,55 @@ api_specs:
   label: Groove Agents API
   slug: groove-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-agents-api-openapi.yml
+  url: https://artifacts.apis.io/groove/openapi/groove-agents-api-openapi.yml
 - filename: groove-attachments-api-openapi.yml
   format: yaml
   label: Groove Attachments API
   slug: groove-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/groove/openapi/groove-attachments-api-openapi.yml
 - filename: groove-customers-api-openapi.yml
   format: yaml
   label: Groove Customers API
   slug: groove-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-customers-api-openapi.yml
+  url: https://artifacts.apis.io/groove/openapi/groove-customers-api-openapi.yml
 - filename: groove-folders-api-openapi.yml
   format: yaml
   label: Groove Folders API
   slug: groove-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-folders-api-openapi.yml
+  url: https://artifacts.apis.io/groove/openapi/groove-folders-api-openapi.yml
 - filename: groove-groups-api-openapi.yml
   format: yaml
   label: Groove Groups API
   slug: groove-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-groups-api-openapi.yml
+  url: https://artifacts.apis.io/groove/openapi/groove-groups-api-openapi.yml
 - filename: groove-mailboxes-api-openapi.yml
   format: yaml
   label: Groove Mailboxes API
   slug: groove-mailboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-mailboxes-api-openapi.yml
+  url: https://artifacts.apis.io/groove/openapi/groove-mailboxes-api-openapi.yml
 - filename: groove-messages-api-openapi.yml
   format: yaml
   label: Groove Messages API
   slug: groove-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-messages-api-openapi.yml
+  url: https://artifacts.apis.io/groove/openapi/groove-messages-api-openapi.yml
 - filename: groove-tickets-api-openapi.yml
   format: yaml
   label: Groove Tickets API
   slug: groove-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/groove/openapi/groove-tickets-api-openapi.yml
 - filename: groove-webhooks-api-openapi.yml
   format: yaml
   label: Groove Webhooks API
   slug: groove-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/groove/openapi/groove-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -99,7 +99,7 @@ source_filename: groove-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.groovehq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 01:25:20 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.groovehq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 23:59:59 2026 GMT\n  hsts: false\n- host: api.groovehq.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 10 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: groovehq.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/security/groove-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/groove/security/groove-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Customer Service

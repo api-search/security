@@ -7,13 +7,13 @@ api_specs:
   label: Templated Renders API
   slug: templated-renders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/templated/refs/heads/main/openapi/templated-renders-api-openapi.yml
+  url: https://artifacts.apis.io/templated/openapi/templated-renders-api-openapi.yml
 - filename: templated-templates-api-openapi.yml
   format: yaml
   label: Templated Templates API
   slug: templated-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/templated/refs/heads/main/openapi/templated-templates-api-openapi.yml
+  url: https://artifacts.apis.io/templated/openapi/templated-templates-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: templated-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/templated-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: The API key must be included in all requests in the Authorization header as a\n    Bearer token. Obtain an API key from the account dashboard at app.templated.io.\n  sources:\n  - openapi/templated-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/templated/refs/heads/main/authentication/templated-authentication.yml
+source_yaml_url: https://artifacts.apis.io/templated/authentication/templated-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Image Generation

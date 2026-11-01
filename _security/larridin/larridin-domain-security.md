@@ -5,31 +5,31 @@ api_specs:
   label: Larridin Adoption API
   slug: larridin-adoption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/larridin/refs/heads/main/openapi/larridin-adoption-api-openapi.yml
+  url: https://artifacts.apis.io/larridin/openapi/larridin-adoption-api-openapi.yml
 - filename: larridin-proficiency-api-openapi.yml
   format: yaml
   label: Larridin Proficiency API
   slug: larridin-proficiency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/larridin/refs/heads/main/openapi/larridin-proficiency-api-openapi.yml
+  url: https://artifacts.apis.io/larridin/openapi/larridin-proficiency-api-openapi.yml
 - filename: larridin-surveys-api-openapi.yml
   format: yaml
   label: Larridin Surveys API
   slug: larridin-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/larridin/refs/heads/main/openapi/larridin-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/larridin/openapi/larridin-surveys-api-openapi.yml
 - filename: larridin-tools-api-openapi.yml
   format: yaml
   label: Larridin Tools API
   slug: larridin-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/larridin/refs/heads/main/openapi/larridin-tools-api-openapi.yml
+  url: https://artifacts.apis.io/larridin/openapi/larridin-tools-api-openapi.yml
 - filename: larridin-workflow-intelligence-api-openapi.yml
   format: yaml
   label: Larridin Workflow Intelligence API
   slug: larridin-workflow-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/larridin/refs/heads/main/openapi/larridin-workflow-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/larridin/openapi/larridin-workflow-intelligence-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: larridin-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: larridin.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 21:03:03 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.larridin.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 13:46:16 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: scout-api.larridin.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 16:58:45 2026 GMT\n  hsts: null\ndomains:\n- domain: larridin.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/larridin/refs/heads/main/security/larridin-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/larridin/security/larridin-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

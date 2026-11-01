@@ -26,7 +26,7 @@ source_filename: avicena-tech-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: avicena.tech\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 22 10:38:48 2027 GMT\n  hsts: false\ndomains:\n- domain: avicena.tech\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avicena-tech/refs/heads/main/security/avicena-tech-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/avicena-tech/security/avicena-tech-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Company

@@ -31,7 +31,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://docs.aleph-alpha.com/products/apis/pharia-inference/\ndocs: https://docs.aleph-alpha.com/products/apis/pharia-inference/\nnote: >-\n  Aleph Alpha does not publish a public OpenAPI document — the PhariaInference\n  API host (https://api.aleph-alpha.com) returns HTTP 401 on all unauthenticated\n  requests, including /.well-known/* and /openapi.json. This profile is derived\n  from the public documentation and the official aleph-alpha-client library.\nsummary:\n  types:\n  - http\n  api_key_in: []\n  oauth2_flows: []\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: token\n  description: >-\n    API requests are authenticated with a bearer token supplied in the\n    Authorization header (Authorization: Bearer <token>). Tokens are created in\n    the Aleph Alpha account portal at https://app.aleph-alpha.com and passed to\n    the official client via the `token` constructor parameter.\n  token_issuer:\
   \ https://app.aleph-alpha.com\n  sources:\n  - https://docs.aleph-alpha.com/products/apis/pharia-inference/\n  - https://github.com/Aleph-Alpha/aleph-alpha-client\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aleph-alpha2/refs/heads/main/authentication/aleph-alpha2-authentication.yml
+source_yaml_url: https://artifacts.apis.io/aleph-alpha2/authentication/aleph-alpha2-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

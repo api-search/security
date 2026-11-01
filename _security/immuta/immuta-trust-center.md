@@ -5,67 +5,67 @@ api_specs:
   label: Immuta Access Request API
   slug: immuta-access-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-access-request-api-openapi.yml
+  url: https://artifacts.apis.io/immuta/openapi/immuta-access-request-api-openapi.yml
 - filename: immuta-asset-api-openapi.yml
   format: yaml
   label: Immuta Asset API
   slug: immuta-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-asset-api-openapi.yml
+  url: https://artifacts.apis.io/immuta/openapi/immuta-asset-api-openapi.yml
 - filename: immuta-auth-api-openapi.yml
   format: yaml
   label: Immuta Auth API
   slug: immuta-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-auth-api-openapi.yml
+  url: https://artifacts.apis.io/immuta/openapi/immuta-auth-api-openapi.yml
 - filename: immuta-data-product-api-openapi.yml
   format: yaml
   label: Immuta Data Product API
   slug: immuta-data-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-data-product-api-openapi.yml
+  url: https://artifacts.apis.io/immuta/openapi/immuta-data-product-api-openapi.yml
 - filename: immuta-data-source-api-openapi.yml
   format: yaml
   label: Immuta Data Source API
   slug: immuta-data-source-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-data-source-api-openapi.yml
+  url: https://artifacts.apis.io/immuta/openapi/immuta-data-source-api-openapi.yml
 - filename: immuta-data-use-agreement-api-openapi.yml
   format: yaml
   label: Immuta Data Use Agreement API
   slug: immuta-data-use-agreement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-data-use-agreement-api-openapi.yml
+  url: https://artifacts.apis.io/immuta/openapi/immuta-data-use-agreement-api-openapi.yml
 - filename: immuta-health-api-openapi.yml
   format: yaml
   label: Immuta Health API
   slug: immuta-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-health-api-openapi.yml
+  url: https://artifacts.apis.io/immuta/openapi/immuta-health-api-openapi.yml
 - filename: immuta-metadata-api-openapi.yml
   format: yaml
   label: Immuta Metadata API
   slug: immuta-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/immuta/openapi/immuta-metadata-api-openapi.yml
 - filename: immuta-notification-api-openapi.yml
   format: yaml
   label: Immuta Notification API
   slug: immuta-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-notification-api-openapi.yml
+  url: https://artifacts.apis.io/immuta/openapi/immuta-notification-api-openapi.yml
 - filename: immuta-request-form-api-openapi.yml
   format: yaml
   label: Immuta Request Form API
   slug: immuta-request-form-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-request-form-api-openapi.yml
+  url: https://artifacts.apis.io/immuta/openapi/immuta-request-form-api-openapi.yml
 - filename: immuta-settings-api-openapi.yml
   format: yaml
   label: Immuta Settings API
   slug: immuta-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-settings-api-openapi.yml
+  url: https://artifacts.apis.io/immuta/openapi/immuta-settings-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -85,7 +85,7 @@ source_filename: immuta-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-01'\nmethod: searched\nprobe: true\nsource: https://www.immuta.com/trust/\nurl: https://www.immuta.com/trust/\ncertifications:\n- SOC 2\n- ISO 27001\n- PCI DSS\n- GDPR\nevidence:\n- source: https://www.immuta.com/trust/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - pci dss\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/security/immuta-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/immuta/security/immuta-trust-center.yml
 summary_line: SOC 2, ISO 27001, PCI DSS, GDPR
 tags:
 - Company

@@ -7,43 +7,43 @@ api_specs:
   label: Bank of Sydney Banking Account Balances API
   slug: bank-of-sydney-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/openapi/bank-of-sydney-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-sydney/openapi/bank-of-sydney-banking-account-balances-api-openapi.yml
 - filename: bank-of-sydney-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Bank of Sydney Banking Account Direct Debits API
   slug: bank-of-sydney-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/openapi/bank-of-sydney-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-sydney/openapi/bank-of-sydney-banking-account-direct-debits-api-openapi.yml
 - filename: bank-of-sydney-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Bank of Sydney Banking Account Scheduled Payments API
   slug: bank-of-sydney-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/openapi/bank-of-sydney-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-sydney/openapi/bank-of-sydney-banking-account-scheduled-payments-api-openapi.yml
 - filename: bank-of-sydney-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Bank of Sydney Banking Account Transactions API
   slug: bank-of-sydney-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/openapi/bank-of-sydney-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-sydney/openapi/bank-of-sydney-banking-account-transactions-api-openapi.yml
 - filename: bank-of-sydney-banking-accounts-api-openapi.yml
   format: yaml
   label: Bank of Sydney Banking Accounts API
   slug: bank-of-sydney-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/openapi/bank-of-sydney-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-sydney/openapi/bank-of-sydney-banking-accounts-api-openapi.yml
 - filename: bank-of-sydney-banking-payees-api-openapi.yml
   format: yaml
   label: Bank of Sydney Banking Payees API
   slug: bank-of-sydney-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/openapi/bank-of-sydney-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-sydney/openapi/bank-of-sydney-banking-payees-api-openapi.yml
 - filename: bank-of-sydney-banking-products-api-openapi.yml
   format: yaml
   label: Bank of Sydney Banking Products API
   slug: bank-of-sydney-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/openapi/bank-of-sydney-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-sydney/openapi/bank-of-sydney-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -100,7 +100,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: >-\n  Consumer Data Standards (DSB) CDR security profile + Bank of Sydney Open Banking\n  page (https://www.banksyd.com.au/tools-support/open-banking/); the harvested CDS\n  banking spec expresses scopes via the x-scopes extension rather than an OpenAPI\n  securitySchemes block, so this profile is captured from the CDR regime it implements.\nsummary:\n  types: [none, oauth2, openIdConnect, mutualTLS]\n  public_surface: >-\n    Product Reference Data (Get Products / Get Product Detail) is public and\n    unauthenticated per the Consumer Data Standards - no API key or token required.\n  authenticated_surface: >-\n    All consumer account/transaction/payee/payment endpoints require CDR\n    authorisation: an Accredited Data Recipient (ADR) acting under active consumer\n    consent, using OAuth2 authorization-code + OpenID Connect hardened by the\n    FAPI-based CDR security profile, with mutual-TLS holder-of-key sender-constrained\n\
   \    tokens. No self-serve public developer credentials are issued outside the ADR\n    ecosystem.\n  oauth2_flows: [authorizationCode]\n  api_key_in: []\nschemes:\n  - name: publicProductReferenceData\n    type: none\n    description: >-\n      Public, unauthenticated Product Reference Data endpoints (listBankingProducts,\n      getBankingProductDetail). No credential required; only the x-v version header.\n    applies_to: [listBankingProducts, getBankingProductDetail]\n    sources: [openapi/bank-of-sydney-cds-banking-products-openapi.yml]\n  - name: cdrOAuth2\n    type: oauth2\n    scheme: authorizationCode\n    description: >-\n      CDR authorisation via OAuth2 authorization-code flow. Authorization/token\n      endpoints are published on the data holder's CDR authorization server (OIDC\n      discovery), not on the resource host. Tokens are FAPI sender-constrained.\n    scopes:\n      - bank:accounts.basic:read\n      - bank:accounts.detail:read\n      - bank:transactions:read\n \
   \     - bank:payees:read\n      - bank:regular_payments:read\n    sources: [openapi/bank-of-sydney-cds-banking-products-openapi.yml]\n  - name: cdrOIDC\n    type: openIdConnect\n    description: >-\n      OpenID Connect (CDR profile) for authenticating the consumer and issuing the\n      ID token during the CDR consent/authorisation flow.\n    sources: [Consumer Data Standards CDR security profile]\n  - name: cdrMutualTLS\n    type: mutualTLS\n    description: >-\n      Mutual-TLS (FAPI holder-of-key). Accredited Data Recipients present a client\n      certificate; access tokens are bound to the presented certificate. The CDS\n      spec servers[] advertise mtls.dh.example.com / tls.dh.example.com placeholder\n      hosts for the MTLS and TLS variants.\n    sources: [Consumer Data Standards CDR security profile]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/authentication/bank-of-sydney-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bank-of-sydney/authentication/bank-of-sydney-authentication.yml
 summary_line: none/oauth2/openIdConnect/mutualTLS · 4 schemes
 tags:
 - Finance

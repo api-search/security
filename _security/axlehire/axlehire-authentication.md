@@ -8,31 +8,31 @@ api_specs:
   label: AxleHire (Jitsu) Assignment Information API
   slug: axlehire-assignment-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axlehire/refs/heads/main/openapi/axlehire-assignment-information-api-openapi.yml
+  url: https://artifacts.apis.io/axlehire/openapi/axlehire-assignment-information-api-openapi.yml
 - filename: axlehire-driver-information-api-openapi.yml
   format: yaml
   label: AxleHire (Jitsu) Driver Information API
   slug: axlehire-driver-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axlehire/refs/heads/main/openapi/axlehire-driver-information-api-openapi.yml
+  url: https://artifacts.apis.io/axlehire/openapi/axlehire-driver-information-api-openapi.yml
 - filename: axlehire-partner-information-api-openapi.yml
   format: yaml
   label: AxleHire (Jitsu) Partner Information API
   slug: axlehire-partner-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axlehire/refs/heads/main/openapi/axlehire-partner-information-api-openapi.yml
+  url: https://artifacts.apis.io/axlehire/openapi/axlehire-partner-information-api-openapi.yml
 - filename: axlehire-shipping-information-api-openapi.yml
   format: yaml
   label: AxleHire (Jitsu) Shipping Information API
   slug: axlehire-shipping-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axlehire/refs/heads/main/openapi/axlehire-shipping-information-api-openapi.yml
+  url: https://artifacts.apis.io/axlehire/openapi/axlehire-shipping-information-api-openapi.yml
 - filename: axlehire-tracking-information-api-openapi.yml
   format: yaml
   label: AxleHire (Jitsu) Tracking Information API
   slug: axlehire-tracking-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axlehire/refs/heads/main/openapi/axlehire-tracking-information-api-openapi.yml
+  url: https://artifacts.apis.io/axlehire/openapi/axlehire-tracking-information-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: axlehire-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-06'\nmethod: derived\nsource: openapi/axlehire-jitsu-rest-api.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: Authorization\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: '**Authorization header for all calls in format: ''Authorization : Token {YOUR_TOKEN}''**'\n  sources:\n  - openapi/axlehire-jitsu-rest-api.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/axlehire/refs/heads/main/authentication/axlehire-authentication.yml
+source_yaml_url: https://artifacts.apis.io/axlehire/authentication/axlehire-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

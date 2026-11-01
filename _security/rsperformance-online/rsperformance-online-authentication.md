@@ -7,13 +7,13 @@ api_specs:
   label: RS Performance Search API
   slug: rsperformance-online-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rsperformance-online/refs/heads/main/openapi/rsperformance-online-search-api-openapi.yml
+  url: https://artifacts.apis.io/rsperformance-online/openapi/rsperformance-online-search-api-openapi.yml
 - filename: rsperformance-online-well-known-api-openapi.yml
   format: yaml
   label: RS Performance .well Known API
   slug: rsperformance-online-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rsperformance-online/refs/heads/main/openapi/rsperformance-online-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/rsperformance-online/openapi/rsperformance-online-well-known-api-openapi.yml
 auth_types:
 - none
 description: ''
@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nprobe: true\nsource: >-
   \ and\n    publishes no RFC 9728 protected-resource metadata. Access control is fair-use rate limiting\n    (rate-limits/rsperformance-online-rate-limits.yml) and a documented bot allowlist in robots.txt.\n    The provider's own customer (/klient/login) and fleet (/flota/login) portals are session-login\n    web apps, disallowed in robots.txt, and are not API authentication.\nschemes:\n  - name: none\n    type: none\n    surfaces:\n      - surface: A2A JSON-RPC 2.0 — POST https://rsperformance.online/\n        declared_in: a2a/rsperformance-online-agent-card.json (securitySchemes {})\n        verified: tasks/list and an unknown-method probe answered 200 with no credential\n      - surface: A2A HTTP+JSON — https://rsperformance.online/message:send, /message:stream, /tasks\n        declared_in: well-known/rsperformance-online-legacy-agent.json (authentication.schemes [\"none\"])\n        verified: GET /tasks answered 200 application/json with no credential\n      - surface: REST gateway\
   \ — https://ai.rsperformance.online/api/search\n        declared_in: openapi/rsperformance-online-ai-gateway-openapi.yml (no securitySchemes, no security[])\n        verified: POST returned 200 with hits for {\"query\":\"P0299\",\"limit\":2}\n      - surface: REST apex — GET https://rsperformance.online/api/knowledge/search\n        declared_in: llms.txt (\"Public semantic knowledge search\")\n        verified: 200 with X-RateLimit-Limit 30\n      - surface: MCP — https://mcp.rs3d.pl/\n        declared_in: well-known/rsperformance-online-ai-plugin.json (auth.type none, has_user_authentication false)\n        verified: initialize, tools/list, resources/list, prompts/list all 200 with no credential; /.well-known/oauth-protected-resource 404\n    sources: [openapi/rsperformance-online-ai-gateway-openapi.yml, a2a/rsperformance-online-agent-card.json, well-known/rsperformance-online-agents.json, well-known/rsperformance-online-ai-plugin.json]\ncrawler_identity:\n  robots_txt: https://rsperformance.online/robots.txt\n\
   \  note: >-\n    robots.txt enumerates named AI/search user agents (Applebot, Claude-SearchBot, DuckAssistBot,\n    Firecrawl, ...) with Allow: / and a shared Disallow set (/admin, /klient, /flota, /livewire,\n    /storage, /vendor); the gateway agent.json names ClaudeBot as a blocked family on canonical hosting\n    and offers ai.rsperformance.online as the rescue lane. Identification is by User-Agent string only —\n    no Web Bot Auth / HTTP Message Signatures.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rsperformance-online/refs/heads/main/authentication/rsperformance-online-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rsperformance-online/authentication/rsperformance-online-authentication.yml
 summary_line: none · 1 scheme
 tags:
 - Automotive

@@ -14,61 +14,61 @@ api_specs:
   label: Storyblok Assets API
   slug: storyblok-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-assets-api-openapi.yml
+  url: https://artifacts.apis.io/storyblok/openapi/storyblok-assets-api-openapi.yml
 - filename: storyblok-collaborators-api-openapi.yml
   format: yaml
   label: Storyblok Collaborators API
   slug: storyblok-collaborators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-collaborators-api-openapi.yml
+  url: https://artifacts.apis.io/storyblok/openapi/storyblok-collaborators-api-openapi.yml
 - filename: storyblok-components-api-openapi.yml
   format: yaml
   label: Storyblok Components API
   slug: storyblok-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-components-api-openapi.yml
+  url: https://artifacts.apis.io/storyblok/openapi/storyblok-components-api-openapi.yml
 - filename: storyblok-image-transformation-api-openapi.yml
   format: yaml
   label: Storyblok Image Transformation API
   slug: storyblok-image-transformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-image-transformation-api-openapi.yml
+  url: https://artifacts.apis.io/storyblok/openapi/storyblok-image-transformation-api-openapi.yml
 - filename: storyblok-links-api-openapi.yml
   format: yaml
   label: Storyblok Links API
   slug: storyblok-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-links-api-openapi.yml
+  url: https://artifacts.apis.io/storyblok/openapi/storyblok-links-api-openapi.yml
 - filename: storyblok-spaces-api-openapi.yml
   format: yaml
   label: Storyblok Spaces API
   slug: storyblok-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/storyblok/openapi/storyblok-spaces-api-openapi.yml
 - filename: storyblok-stories-api-openapi.yml
   format: yaml
   label: Storyblok Stories API
   slug: storyblok-stories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-stories-api-openapi.yml
+  url: https://artifacts.apis.io/storyblok/openapi/storyblok-stories-api-openapi.yml
 - filename: storyblok-tags-api-openapi.yml
   format: yaml
   label: Storyblok Tags API
   slug: storyblok-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-tags-api-openapi.yml
+  url: https://artifacts.apis.io/storyblok/openapi/storyblok-tags-api-openapi.yml
 - filename: storyblok-webhooks-api-openapi.yml
   format: yaml
   label: Storyblok Webhooks API
   slug: storyblok-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/storyblok/openapi/storyblok-webhooks-api-openapi.yml
 - filename: storyblok-data-sources-api-openapi.yml
   format: yaml
   label: Storyblok Data Sources API
   slug: storyblok-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/storyblok/openapi/storyblok-data-sources-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -103,7 +103,7 @@ source_filename: storyblok-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/storyblok-content-delivery-api-v2-openapi.yml, openapi/storyblok-management-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - query\nschemes:\n- name: apiToken\n  type: apiKey\n  in: query\n  parameter: token\n  description: Public API token for accessing published content, or Preview API token for accessing\n    draft and published content. Tokens are scoped to a specific Storyblok space.\n  sources:\n  - openapi/storyblok-content-delivery-api-v2-openapi.yml\n- name: personalAccessToken\n  type: http\n  scheme: bearer\n  description: Personal access token generated in the Storyblok account settings. Provides access\n    to all spaces the account has permissions for.\n  sources:\n  - openapi/storyblok-management-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/authentication/storyblok-authentication.yml
+source_yaml_url: https://artifacts.apis.io/storyblok/authentication/storyblok-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - CMS

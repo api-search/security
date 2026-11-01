@@ -9,37 +9,37 @@ api_specs:
   label: Geoloods Agent API
   slug: geoloods-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoloods/refs/heads/main/openapi/geoloods-agent-api-openapi.yml
+  url: https://artifacts.apis.io/geoloods/openapi/geoloods-agent-api-openapi.yml
 - filename: geoloods-bbox-api-openapi.yml
   format: yaml
   label: Geoloods Bbox API
   slug: geoloods-bbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoloods/refs/heads/main/openapi/geoloods-bbox-api-openapi.yml
+  url: https://artifacts.apis.io/geoloods/openapi/geoloods-bbox-api-openapi.yml
 - filename: geoloods-countries-api-openapi.yml
   format: yaml
   label: Geoloods Countries API
   slug: geoloods-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoloods/refs/heads/main/openapi/geoloods-countries-api-openapi.yml
+  url: https://artifacts.apis.io/geoloods/openapi/geoloods-countries-api-openapi.yml
 - filename: geoloods-geocode-api-openapi.yml
   format: yaml
   label: Geoloods Geocode API
   slug: geoloods-geocode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoloods/refs/heads/main/openapi/geoloods-geocode-api-openapi.yml
+  url: https://artifacts.apis.io/geoloods/openapi/geoloods-geocode-api-openapi.yml
 - filename: geoloods-nearby-api-openapi.yml
   format: yaml
   label: Geoloods Nearby API
   slug: geoloods-nearby-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoloods/refs/heads/main/openapi/geoloods-nearby-api-openapi.yml
+  url: https://artifacts.apis.io/geoloods/openapi/geoloods-nearby-api-openapi.yml
 - filename: geoloods-search-api-openapi.yml
   format: yaml
   label: Geoloods Search API
   slug: geoloods-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoloods/refs/heads/main/openapi/geoloods-search-api-openapi.yml
+  url: https://artifacts.apis.io/geoloods/openapi/geoloods-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -74,7 +74,7 @@ source_filename: geoloods-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-20'\nmethod: derived\nsource: openapi/geoloods-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: ApiKeyHeader\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: Live API key header. Preferred form.\n  sources:\n  - openapi/geoloods-openapi.json\n- name: ApiKeyQuery\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: Live API key query parameter. Alternative to X-API-Key.\n  sources:\n  - openapi/geoloods-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/geoloods/refs/heads/main/authentication/geoloods-authentication.yml
+source_yaml_url: https://artifacts.apis.io/geoloods/authentication/geoloods-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Geocoding

@@ -8,19 +8,19 @@ api_specs:
   label: KVdb Buckets API
   slug: kvdb-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kvdb/refs/heads/main/openapi/kvdb-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/kvdb/openapi/kvdb-buckets-api-openapi.yml
 - filename: kvdb-keys-api-openapi.yml
   format: yaml
   label: KVdb Keys API
   slug: kvdb-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kvdb/refs/heads/main/openapi/kvdb-keys-api-openapi.yml
+  url: https://artifacts.apis.io/kvdb/openapi/kvdb-keys-api-openapi.yml
 - filename: kvdb-scripts-api-openapi.yml
   format: yaml
   label: KVdb Scripts API
   slug: kvdb-scripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kvdb/refs/heads/main/openapi/kvdb-scripts-api-openapi.yml
+  url: https://artifacts.apis.io/kvdb/openapi/kvdb-scripts-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -54,7 +54,7 @@ source_filename: kvdb-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/kvdb-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - query\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: Bucket secret key passed via HTTP Basic auth\n  sources:\n  - openapi/kvdb-openapi.yml\n- name: secretKeyQuery\n  type: apiKey\n  in: query\n  parameter: secret_key\n  sources:\n  - openapi/kvdb-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kvdb/refs/heads/main/authentication/kvdb-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kvdb/authentication/kvdb-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Database

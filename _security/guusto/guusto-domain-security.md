@@ -5,19 +5,19 @@ api_specs:
   label: Guusto Account Budget API
   slug: guusto-account-budget-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guusto/refs/heads/main/openapi/guusto-account-budget-api-openapi.yml
+  url: https://artifacts.apis.io/guusto/openapi/guusto-account-budget-api-openapi.yml
 - filename: guusto-order-gift-api-openapi.yml
   format: yaml
   label: Guusto Order Gift API
   slug: guusto-order-gift-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guusto/refs/heads/main/openapi/guusto-order-gift-api-openapi.yml
+  url: https://artifacts.apis.io/guusto/openapi/guusto-order-gift-api-openapi.yml
 - filename: guusto-reports-api-openapi.yml
   format: yaml
   label: Guusto Reports API
   slug: guusto-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guusto/refs/heads/main/openapi/guusto-reports-api-openapi.yml
+  url: https://artifacts.apis.io/guusto/openapi/guusto-reports-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: guusto-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: guusto.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 01:31:54 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.guusto.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 12:13:49 2026 GMT\n  hsts: null\n- host: api.guusto.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 18:36:16 2026 GMT\n  hsts: null\ndomains:\n- domain: guusto.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/guusto/refs/heads/main/security/guusto-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/guusto/security/guusto-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Employee Recognition

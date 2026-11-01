@@ -5,13 +5,13 @@ api_specs:
   label: CopThis Orders API
   slug: copthis-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/copthis/refs/heads/main/openapi/copthis-orders-api-openapi.yml
+  url: https://artifacts.apis.io/copthis/openapi/copthis-orders-api-openapi.yml
 - filename: copthis-stores-api-openapi.yml
   format: yaml
   label: CopThis Stores API
   slug: copthis-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/copthis/refs/heads/main/openapi/copthis-stores-api-openapi.yml
+  url: https://artifacts.apis.io/copthis/openapi/copthis-stores-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +40,7 @@ source_filename: copthis-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: merchbar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 04:39:27 2026 GMT\n  hsts: false\ndomains:\n- domain: merchbar.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/copthis/refs/heads/main/security/copthis-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/copthis/security/copthis-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

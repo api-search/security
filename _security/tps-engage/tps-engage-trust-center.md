@@ -5,13 +5,13 @@ api_specs:
   label: TPS Engage Play API
   slug: tps-engage-play-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tps-engage/refs/heads/main/openapi/tps-engage-play-api-openapi.yml
+  url: https://artifacts.apis.io/tps-engage/openapi/tps-engage-play-api-openapi.yml
 - filename: tps-engage-prefetch-api-openapi.yml
   format: yaml
   label: TPS Engage Prefetch API
   slug: tps-engage-prefetch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tps-engage/refs/heads/main/openapi/tps-engage-prefetch-api-openapi.yml
+  url: https://artifacts.apis.io/tps-engage/openapi/tps-engage-prefetch-api-openapi.yml
 certification_count: 0
 certifications: []
 description: ''
@@ -33,7 +33,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://seeblin
   \  notice_period: 30 days\n  count: 13\n  vendors:\n  - {name: DoiT International / AWS, service: Cloud hosting, location: EU and US}\n  - {name: Pipedrive, service: CRM, location: EU / US}\n  - {name: Cookiebot (Usercentrics), service: Cookie consent, location: EU}\n  - {name: SendGrid (Twilio), service: Transactional email, location: US / EU}\n  - {name: MailerLite, service: Marketing email, location: EU}\n  - {name: PostHog, service: Product analytics, location: EU / US}\n  - {name: Google Analytics, service: Analytics, location: US / EU}\n  - {name: LogRocket, service: Session analytics, location: US}\n  - {name: Mapbox, service: Maps, location: US}\n  - {name: Gleap, service: Support widget, location: EU / US}\n  - {name: Usermaven, service: Analytics, location: EU / US}\n  - {name: Narrative, service: Audience/attribution data, location: US}\n  - {name: Accretive, service: Measurement, location: US}\ncontacts:\n  security: security@seeblindspot.com\n  privacy: dpo@seeblindspot.com\n\
   \  support: support@seeblindspot.com\n  billing: billing@seeblindspot.com\nlegal_documents:\n  url: https://seeblindspot.com/legal/\n  documents:\n  - {name: Terms of Service, url: https://seeblindspot.com/terms-of-service/}\n  - {name: Privacy Policy, url: https://seeblindspot.com/privacy-policy/}\n  - {name: Cookie Policy, url: https://seeblindspot.com/cookie-policy/}\n  - {name: Your Privacy Choices, url: https://seeblindspot.com/your-privacy-choices/}\n  - {name: Accessibility Statement, url: https://seeblindspot.com/accessibility-statement/}\n  - {name: Advertising Policy, url: https://seeblindspot.com/advertising-policy/}\n  - {name: Refund & Credits Policy, url: https://seeblindspot.com/refund-and-credits-policy/}\n  - {name: Support & Disputes Policy, url: https://seeblindspot.com/support-and-disputes-policy/}\n  - {name: Acceptable Use & Enforcement Policy, url: https://seeblindspot.com/acceptable-use-policy/}\n  - {name: Subprocessors, url: https://seeblindspot.com/subprocessors/}\n\
   \  - {name: Trust & Security, url: https://seeblindspot.com/trust-and-security/}\n  - {name: Agency Addendum, url: https://seeblindspot.com/agency-addendum/}\nobserved:\n- url: https://seeblindspot.com/trust-and-security/\n  status: 200\n  checked: '2026-08-13'\n- url: https://seeblindspot.com/legal/\n  status: 200\n  checked: '2026-08-13'\n- url: https://seeblindspot.com/subprocessors/\n  status: 200\n  checked: '2026-08-13'\n- url: https://seeblindspot.com/trust/\n  status: 404\n  checked: '2026-08-13'\ngaps:\n- No third-party audit or certification of any kind.\n- No published penetration-test cadence or summary letter.\n- No published data-retention schedule.\n- No machine-readable security.txt pointing at the trust page (see security/tps-engage-vulnerability-disclosure.yml).\n- No uptime/availability commitment (see lifecycle/tps-engage-lifecycle.yml).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tps-engage/refs/heads/main/security/tps-engage-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/tps-engage/security/tps-engage-trust-center.yml
 summary_line: trust center published
 tags:
 - Company

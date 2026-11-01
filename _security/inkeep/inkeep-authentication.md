@@ -7,13 +7,13 @@ api_specs:
   label: Inkeep Analytics API
   slug: inkeep-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inkeep/refs/heads/main/openapi/inkeep-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/inkeep/openapi/inkeep-analytics-api-openapi.yml
 - filename: inkeep-chat-completions-api-openapi.yml
   format: yaml
   label: Inkeep Chat Completions API
   slug: inkeep-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inkeep/refs/heads/main/openapi/inkeep-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/inkeep/openapi/inkeep-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -41,7 +41,7 @@ source_filename: inkeep-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/inkeep-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: Inkeep API key\n  description: 'Bearer token using an API key created in the Inkeep dashboard under Projects\n    > Assistants > Create assistant > API. Set the header `Authorization: Bearer <INKEEP_API_KEY>`.'\n  sources:\n  - openapi/inkeep-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inkeep/refs/heads/main/authentication/inkeep-authentication.yml
+source_yaml_url: https://artifacts.apis.io/inkeep/authentication/inkeep-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

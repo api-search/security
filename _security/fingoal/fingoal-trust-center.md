@@ -5,43 +5,43 @@ api_specs:
   label: FinGoal Enrichment API
   slug: fingoal-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/openapi/fingoal-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/fingoal/openapi/fingoal-enrichment-api-openapi.yml
 - filename: fingoal-user-tagging-api-openapi.yml
   format: yaml
   label: FinGoal User Tagging API
   slug: fingoal-user-tagging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/openapi/fingoal-user-tagging-api-openapi.yml
+  url: https://artifacts.apis.io/fingoal/openapi/fingoal-user-tagging-api-openapi.yml
 - filename: fingoal-webhook-configurations-api-openapi.yml
   format: yaml
   label: FinGoal Webhook Configurations API
   slug: fingoal-webhook-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/openapi/fingoal-webhook-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/fingoal/openapi/fingoal-webhook-configurations-api-openapi.yml
 - filename: fingoal-client-management-api-openapi.yml
   format: yaml
   label: FinGoal Client Management API
   slug: fingoal-client-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/openapi/fingoal-client-management-api-openapi.yml
+  url: https://artifacts.apis.io/fingoal/openapi/fingoal-client-management-api-openapi.yml
 - filename: fingoal-fastlink-api-openapi.yml
   format: yaml
   label: FinGoal Fastlink API
   slug: fingoal-fastlink-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/openapi/fingoal-fastlink-api-openapi.yml
+  url: https://artifacts.apis.io/fingoal/openapi/fingoal-fastlink-api-openapi.yml
 - filename: fingoal-webhooks-api-openapi.yml
   format: yaml
   label: FinGoal Webhooks API
   slug: fingoal-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/openapi/fingoal-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/fingoal/openapi/fingoal-webhooks-api-openapi.yml
 - filename: fingoal-oauth-api-openapi.yml
   format: yaml
   label: FinGoal OAUTH API
   slug: fingoal-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/openapi/fingoal-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/fingoal/openapi/fingoal-oauth-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2 Type II
@@ -59,7 +59,7 @@ source_filename: fingoal-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://fingoal.com/fingoal-privacy-security\nurl: https://fingoal.com/fingoal-privacy-security\ncertifications:\n- SOC 2 Type II\n- GDPR\nprograms:\n- Information Security Policy (published PDF)\n- access controls\n- incident management\n- vendor management\n- vulnerability management\n- privacy impact assessments\ndata_handling: >-\n  FinGoal states it never transmits or holds a customer's account numbers or\n  passwords, does not hold money for customers, and does not retain highly\n  sensitive data such as SSNs or card numbers; it processes transaction data\n  from authorized consumer accounts.\nevidence:\n- source: https://fingoal.com/fingoal-privacy-security\n  keywords:\n  - soc 2 type ii\n  - gdpr\n  - information security policy\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/security/fingoal-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/fingoal/security/fingoal-trust-center.yml
 summary_line: SOC 2 Type II, GDPR
 tags:
 - Financial Services

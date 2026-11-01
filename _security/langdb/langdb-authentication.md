@@ -7,37 +7,37 @@ api_specs:
   label: LangDB Analytics API
   slug: langdb-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/openapi/langdb-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/langdb/openapi/langdb-analytics-api-openapi.yml
 - filename: langdb-embeddings-api-openapi.yml
   format: yaml
   label: LangDB Embeddings API
   slug: langdb-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/openapi/langdb-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/langdb/openapi/langdb-embeddings-api-openapi.yml
 - filename: langdb-images-api-openapi.yml
   format: yaml
   label: LangDB Images API
   slug: langdb-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/openapi/langdb-images-api-openapi.yml
+  url: https://artifacts.apis.io/langdb/openapi/langdb-images-api-openapi.yml
 - filename: langdb-models-api-openapi.yml
   format: yaml
   label: LangDB Models API
   slug: langdb-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/openapi/langdb-models-api-openapi.yml
+  url: https://artifacts.apis.io/langdb/openapi/langdb-models-api-openapi.yml
 - filename: langdb-threads-api-openapi.yml
   format: yaml
   label: LangDB Threads API
   slug: langdb-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/openapi/langdb-threads-api-openapi.yml
+  url: https://artifacts.apis.io/langdb/openapi/langdb-threads-api-openapi.yml
 - filename: langdb-chat-completions-api-openapi.yml
   format: yaml
   label: LangDB Chat Completions API
   slug: langdb-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/openapi/langdb-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/langdb/openapi/langdb-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -65,7 +65,7 @@ source_filename: langdb-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/langdb-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: 'LangDB API key (project access token) sent as `Authorization: Bearer <token>`.'\n  sources:\n  - openapi/langdb-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/authentication/langdb-authentication.yml
+source_yaml_url: https://artifacts.apis.io/langdb/authentication/langdb-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

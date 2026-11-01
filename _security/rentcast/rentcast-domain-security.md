@@ -5,25 +5,25 @@ api_specs:
   label: RentCast Avm API
   slug: rentcast-avm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentcast/refs/heads/main/openapi/rentcast-avm-api-openapi.yml
+  url: https://artifacts.apis.io/rentcast/openapi/rentcast-avm-api-openapi.yml
 - filename: rentcast-listings-api-openapi.yml
   format: yaml
   label: RentCast Listings API
   slug: rentcast-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentcast/refs/heads/main/openapi/rentcast-listings-api-openapi.yml
+  url: https://artifacts.apis.io/rentcast/openapi/rentcast-listings-api-openapi.yml
 - filename: rentcast-markets-api-openapi.yml
   format: yaml
   label: RentCast Markets API
   slug: rentcast-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentcast/refs/heads/main/openapi/rentcast-markets-api-openapi.yml
+  url: https://artifacts.apis.io/rentcast/openapi/rentcast-markets-api-openapi.yml
 - filename: rentcast-properties-api-openapi.yml
   format: yaml
   label: RentCast Properties API
   slug: rentcast-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentcast/refs/heads/main/openapi/rentcast-properties-api-openapi.yml
+  url: https://artifacts.apis.io/rentcast/openapi/rentcast-properties-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: rentcast-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.rentcast.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 23:21:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.rentcast.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 17:48:02 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.rentcast.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 11:25:02 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\ndomains:\n- domain: rentcast.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rentcast/refs/heads/main/security/rentcast-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rentcast/security/rentcast-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Real Estate

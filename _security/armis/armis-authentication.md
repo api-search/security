@@ -7,67 +7,67 @@ api_specs:
   label: Armis Alerts API
   slug: armis-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-alerts-api-openapi.yml
 - filename: armis-arp-api-openapi.yml
   format: yaml
   label: Armis ARP API
   slug: armis-arp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-arp-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-arp-api-openapi.yml
 - filename: armis-assets-api-openapi.yml
   format: yaml
   label: Armis Assets API
   slug: armis-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-assets-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-assets-api-openapi.yml
 - filename: armis-authentication-api-openapi.yml
   format: yaml
   label: Armis Authentication API
   slug: armis-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-authentication-api-openapi.yml
 - filename: armis-boundaries-api-openapi.yml
   format: yaml
   label: Armis Boundaries API
   slug: armis-boundaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-boundaries-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-boundaries-api-openapi.yml
 - filename: armis-collectors-api-openapi.yml
   format: yaml
   label: Armis Collectors API
   slug: armis-collectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-collectors-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-collectors-api-openapi.yml
 - filename: armis-data-export-api-openapi.yml
   format: yaml
   label: Armis Data Export API
   slug: armis-data-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-data-export-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-data-export-api-openapi.yml
 - filename: armis-device-custom-properties-api-openapi.yml
   format: yaml
   label: Armis Device Custom Properties API
   slug: armis-device-custom-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-device-custom-properties-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-device-custom-properties-api-openapi.yml
 - filename: armis-integrations-api-openapi.yml
   format: yaml
   label: Armis Integrations API
   slug: armis-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-integrations-api-openapi.yml
 - filename: armis-policies-api-openapi.yml
   format: yaml
   label: Armis Policies API
   slug: armis-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-policies-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-policies-api-openapi.yml
 - filename: armis-sites-api-openapi.yml
   format: yaml
   label: Armis Sites API
   slug: armis-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-sites-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-sites-api-openapi.yml
 auth_types:
 - oauth2
 - apiKey
@@ -123,7 +123,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://github.com/ArmisSecurity/armis-sdk-python\ndocs: https://developers.armis.com/\nsummary:\n  types: [oauth2, apiKey]\n  oauth2_flows: [clientCredentials]\n  primary: OAuth2 client-credentials -> short-lived JWT bearer, tenant-scoped audience\nschemes:\n  - name: clientCredentials\n    type: oauth2\n    flow: clientCredentials\n    token_endpoint: /api/v1/auth/token\n    parameters:\n      audience: Tenant URL including trailing slash (e.g. https://acme.armis.com/)\n      client_id: Client ID (email of the account that generated the client secret)\n      client_secret: Confidential credential generated within the Armis tenant\n      vendor_id: Identifier for the developer account / integration, obtained on the developer portal\n      scopes: Specific permissions the access token needs for the desired API endpoints\n    env: [ARMIS_AUDIENCE, ARMIS_CLIENT_ID, ARMIS_CLIENT_SECRET, ARMIS_VENDOR_ID]\n    token_lifetime: short-lived\
   \ JWT (~55 min cache observed in official clients)\n    sources: [https://github.com/ArmisSecurity/armis-sdk-python, https://github.com/ArmisSecurity/armis-knowledge-mcp]\n  - name: apiToken\n    type: apiKey\n    in: header\n    status: legacy\n    parameters:\n      token: API token\n      tenant_id: Tenant identifier\n    env: [ARMIS_API_TOKEN, ARMIS_TENANT_ID]\n    note: Legacy Basic/token auth path retained by armis-cli (--token/--tenant-id).\n    sources: [https://github.com/ArmisSecurity/armis-cli]\nnotes:\n  - Access tokens are OAuth scope-gated (permissions per endpoint); the scope enumeration is issued per developer registration and is not published as a flat catalog, so no scopes/ artifact is derived.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/authentication/armis-authentication.yml
+source_yaml_url: https://artifacts.apis.io/armis/authentication/armis-authentication.yml
 summary_line: oauth2/apiKey · 2 schemes
 tags:
 - Company

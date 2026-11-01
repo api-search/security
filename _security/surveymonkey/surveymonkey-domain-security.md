@@ -5,49 +5,49 @@ api_specs:
   label: SurveyMonkey Collectors API
   slug: surveymonkey-collectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/openapi/surveymonkey-collectors-api-openapi.yml
+  url: https://artifacts.apis.io/surveymonkey/openapi/surveymonkey-collectors-api-openapi.yml
 - filename: surveymonkey-contacts-api-openapi.yml
   format: yaml
   label: SurveyMonkey Contacts API
   slug: surveymonkey-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/openapi/surveymonkey-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/surveymonkey/openapi/surveymonkey-contacts-api-openapi.yml
 - filename: surveymonkey-groups-api-openapi.yml
   format: yaml
   label: SurveyMonkey Groups API
   slug: surveymonkey-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/openapi/surveymonkey-groups-api-openapi.yml
+  url: https://artifacts.apis.io/surveymonkey/openapi/surveymonkey-groups-api-openapi.yml
 - filename: surveymonkey-responses-api-openapi.yml
   format: yaml
   label: SurveyMonkey Responses API
   slug: surveymonkey-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/openapi/surveymonkey-responses-api-openapi.yml
+  url: https://artifacts.apis.io/surveymonkey/openapi/surveymonkey-responses-api-openapi.yml
 - filename: surveymonkey-survey-structure-api-openapi.yml
   format: yaml
   label: SurveyMonkey Survey Structure API
   slug: surveymonkey-survey-structure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/openapi/surveymonkey-survey-structure-api-openapi.yml
+  url: https://artifacts.apis.io/surveymonkey/openapi/surveymonkey-survey-structure-api-openapi.yml
 - filename: surveymonkey-surveys-api-openapi.yml
   format: yaml
   label: SurveyMonkey Surveys API
   slug: surveymonkey-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/openapi/surveymonkey-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/surveymonkey/openapi/surveymonkey-surveys-api-openapi.yml
 - filename: surveymonkey-users-api-openapi.yml
   format: yaml
   label: SurveyMonkey Users API
   slug: surveymonkey-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/openapi/surveymonkey-users-api-openapi.yml
+  url: https://artifacts.apis.io/surveymonkey/openapi/surveymonkey-users-api-openapi.yml
 - filename: surveymonkey-work-groups-api-openapi.yml
   format: yaml
   label: SurveyMonkey Work Groups API
   slug: surveymonkey-work-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/openapi/surveymonkey-work-groups-api-openapi.yml
+  url: https://artifacts.apis.io/surveymonkey/openapi/surveymonkey-work-groups-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: surveymonkey-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.surveymonkey.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: surveymonkey.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/security/surveymonkey-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/surveymonkey/security/surveymonkey-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Surveys

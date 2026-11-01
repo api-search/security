@@ -28,7 +28,7 @@ source_filename: txvia-google-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.txvia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 08:38:00 2026 GMT\n  hsts: false\ndomains:\n- domain: txvia.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/txvia-google/refs/heads/main/security/txvia-google-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/txvia-google/security/txvia-google-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

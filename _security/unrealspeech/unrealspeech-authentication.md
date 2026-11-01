@@ -7,19 +7,19 @@ api_specs:
   label: Unreal Speech API
   slug: unrealspeech-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unrealspeech/refs/heads/main/openapi/unrealspeech-speech-api-openapi.yml
+  url: https://artifacts.apis.io/unrealspeech/openapi/unrealspeech-speech-api-openapi.yml
 - filename: unrealspeech-stream-api-openapi.yml
   format: yaml
   label: Unreal Speech Stream API
   slug: unrealspeech-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unrealspeech/refs/heads/main/openapi/unrealspeech-stream-api-openapi.yml
+  url: https://artifacts.apis.io/unrealspeech/openapi/unrealspeech-stream-api-openapi.yml
 - filename: unrealspeech-synthesis-tasks-api-openapi.yml
   format: yaml
   label: Unreal Speech Synthesis Tasks API
   slug: unrealspeech-synthesis-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unrealspeech/refs/heads/main/openapi/unrealspeech-synthesis-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/unrealspeech/openapi/unrealspeech-synthesis-tasks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,11 +46,10 @@ source_filename: unrealspeech-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/unrealspeech-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'API key issued from the Unreal Speech dashboard, sent as Authorization: Bearer\n    <API_KEY>.'\n  sources:\n  - openapi/unrealspeech-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unrealspeech/refs/heads/main/authentication/unrealspeech-authentication.yml
+source_yaml_url: https://artifacts.apis.io/unrealspeech/authentication/unrealspeech-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Text-to-Speech
-- TTS
 - Speech Synthesis
 - Audio
 - Voice

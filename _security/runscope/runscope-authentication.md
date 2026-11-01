@@ -39,7 +39,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://help.blazemeter.com/apidocs/api-monitoring/index.htm\nsummary:\n  types:\n  - oauth2\n  - http\n  api_key_in: []\n  oauth2_flows:\n  - authorizationCode\nnotes: >-\n  The Runscope (now BlazeMeter API Monitoring) REST API authenticates requests\n  with a bearer token supplied in the Authorization header. Tokens are obtained\n  either through the OAuth2 authorization-code flow for third-party\n  applications, or as a Personal Access Token generated from the account's\n  Applications settings for personal/first-party use. Derived from the\n  published API reference docs; no OpenAPI is available in this repo to derive\n  a mechanical profile from.\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    Authorization header bearer token. Accepts an OAuth2 access token or a\n    Personal Access Token.\n  sources:\n  - https://help.blazemeter.com/apidocs/api-monitoring/index.htm\n- name: oauth2\n\
   \  type: oauth2\n  description: >-\n    OAuth2 authorization-code flow for applications acting on behalf of a\n    Runscope/BlazeMeter user.\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.runscope.com/signin/oauth/authorize\n    tokenUrl: https://www.runscope.com/signin/oauth/access_token\n  sources:\n  - https://help.blazemeter.com/apidocs/api-monitoring/index.htm\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/runscope/refs/heads/main/authentication/runscope-authentication.yml
+source_yaml_url: https://artifacts.apis.io/runscope/authentication/runscope-authentication.yml
 summary_line: oauth2/http · 2 schemes
 tags:
 - Company

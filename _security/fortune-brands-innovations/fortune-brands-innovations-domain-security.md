@@ -34,7 +34,7 @@ source_filename: fortune-brands-innovations-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fbin.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 18 23:59:59 2026 GMT\n  hsts: false\n- host: developer.fbin.com\n  https: false\n- host: api.fbin.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 16 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: fbin.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fortune-brands-innovations/refs/heads/main/security/fortune-brands-innovations-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fortune-brands-innovations/security/fortune-brands-innovations-domain-security.yml
 summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
 - Home Products

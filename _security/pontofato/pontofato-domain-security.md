@@ -5,97 +5,97 @@ api_specs:
   label: PontoFato Apis.json API
   slug: pontofato-apis-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pontofato/refs/heads/main/openapi/pontofato-apis-json-api-openapi.yml
+  url: https://artifacts.apis.io/pontofato/openapi/pontofato-apis-json-api-openapi.yml
 - filename: pontofato-buscar-api-openapi.yml
   format: yaml
   label: PontoFato Buscar API
   slug: pontofato-buscar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pontofato/refs/heads/main/openapi/pontofato-buscar-api-openapi.yml
+  url: https://artifacts.apis.io/pontofato/openapi/pontofato-buscar-api-openapi.yml
 - filename: pontofato-cep-api-openapi.yml
   format: yaml
   label: PontoFato Cep API
   slug: pontofato-cep-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pontofato/refs/heads/main/openapi/pontofato-cep-api-openapi.yml
+  url: https://artifacts.apis.io/pontofato/openapi/pontofato-cep-api-openapi.yml
 - filename: pontofato-contact-api-openapi.yml
   format: yaml
   label: PontoFato Contact API
   slug: pontofato-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pontofato/refs/heads/main/openapi/pontofato-contact-api-openapi.yml
+  url: https://artifacts.apis.io/pontofato/openapi/pontofato-contact-api-openapi.yml
 - filename: pontofato-credito-api-openapi.yml
   format: yaml
   label: PontoFato Credito API
   slug: pontofato-credito-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pontofato/refs/heads/main/openapi/pontofato-credito-api-openapi.yml
+  url: https://artifacts.apis.io/pontofato/openapi/pontofato-credito-api-openapi.yml
 - filename: pontofato-empresas-api-openapi.yml
   format: yaml
   label: PontoFato Empresas API
   slug: pontofato-empresas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pontofato/refs/heads/main/openapi/pontofato-empresas-api-openapi.yml
+  url: https://artifacts.apis.io/pontofato/openapi/pontofato-empresas-api-openapi.yml
 - filename: pontofato-health-api-openapi.yml
   format: yaml
   label: PontoFato Health API
   slug: pontofato-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pontofato/refs/heads/main/openapi/pontofato-health-api-openapi.yml
+  url: https://artifacts.apis.io/pontofato/openapi/pontofato-health-api-openapi.yml
 - filename: pontofato-local-api-openapi.yml
   format: yaml
   label: PontoFato Local API
   slug: pontofato-local-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pontofato/refs/heads/main/openapi/pontofato-local-api-openapi.yml
+  url: https://artifacts.apis.io/pontofato/openapi/pontofato-local-api-openapi.yml
 - filename: pontofato-mcp-api-openapi.yml
   format: yaml
   label: PontoFato MCP API
   slug: pontofato-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pontofato/refs/heads/main/openapi/pontofato-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/pontofato/openapi/pontofato-mcp-api-openapi.yml
 - filename: pontofato-metrics-api-openapi.yml
   format: yaml
   label: PontoFato Metrics API
   slug: pontofato-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pontofato/refs/heads/main/openapi/pontofato-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/pontofato/openapi/pontofato-metrics-api-openapi.yml
 - filename: pontofato-okf-api-openapi.yml
   format: yaml
   label: PontoFato Okf API
   slug: pontofato-okf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pontofato/refs/heads/main/openapi/pontofato-okf-api-openapi.yml
+  url: https://artifacts.apis.io/pontofato/openapi/pontofato-okf-api-openapi.yml
 - filename: pontofato-pontofato-api-openapi.yml
   format: yaml
   label: PontoFato Ponto Fato API
   slug: pontofato-pontofato-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pontofato/refs/heads/main/openapi/pontofato-pontofato-api-openapi.yml
+  url: https://artifacts.apis.io/pontofato/openapi/pontofato-pontofato-api-openapi.yml
 - filename: pontofato-proximo-api-openapi.yml
   format: yaml
   label: PontoFato Proximo API
   slug: pontofato-proximo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pontofato/refs/heads/main/openapi/pontofato-proximo-api-openapi.yml
+  url: https://artifacts.apis.io/pontofato/openapi/pontofato-proximo-api-openapi.yml
 - filename: pontofato-raio-api-openapi.yml
   format: yaml
   label: PontoFato Raio API
   slug: pontofato-raio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pontofato/refs/heads/main/openapi/pontofato-raio-api-openapi.yml
+  url: https://artifacts.apis.io/pontofato/openapi/pontofato-raio-api-openapi.yml
 - filename: pontofato-vizinhanca-api-openapi.yml
   format: yaml
   label: PontoFato Vizinhanca API
   slug: pontofato-vizinhanca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pontofato/refs/heads/main/openapi/pontofato-vizinhanca-api-openapi.yml
+  url: https://artifacts.apis.io/pontofato/openapi/pontofato-vizinhanca-api-openapi.yml
 - filename: pontofato-well-known-api-openapi.yml
   format: yaml
   label: PontoFato .well Known API
   slug: pontofato-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pontofato/refs/heads/main/openapi/pontofato-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/pontofato/openapi/pontofato-well-known-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -124,7 +124,7 @@ source_filename: pontofato-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pontofato.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 29 14:41:36 2026 GMT\n  hsts: false\ndomains:\n- domain: pontofato.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pontofato/refs/heads/main/security/pontofato-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pontofato/security/pontofato-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Brazilian CEP

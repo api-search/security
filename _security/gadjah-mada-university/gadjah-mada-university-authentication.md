@@ -7,43 +7,43 @@ api_specs:
   label: Gadjah Mada University Discovery API
   slug: gadjah-mada-university-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/openapi/gadjah-mada-university-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/gadjah-mada-university/openapi/gadjah-mada-university-discovery-api-openapi.yml
 - filename: gadjah-mada-university-infra-api-openapi.yml
   format: yaml
   label: Gadjah Mada University Infra API
   slug: gadjah-mada-university-infra-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/openapi/gadjah-mada-university-infra-api-openapi.yml
+  url: https://artifacts.apis.io/gadjah-mada-university/openapi/gadjah-mada-university-infra-api-openapi.yml
 - filename: gadjah-mada-university-oai-pmh-api-openapi.yml
   format: yaml
   label: Gadjah Mada University OAI PMH API
   slug: gadjah-mada-university-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/openapi/gadjah-mada-university-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/gadjah-mada-university/openapi/gadjah-mada-university-oai-pmh-api-openapi.yml
 - filename: gadjah-mada-university-social-login-api-openapi.yml
   format: yaml
   label: Gadjah Mada University Social Login API
   slug: gadjah-mada-university-social-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/openapi/gadjah-mada-university-social-login-api-openapi.yml
+  url: https://artifacts.apis.io/gadjah-mada-university/openapi/gadjah-mada-university-social-login-api-openapi.yml
 - filename: gadjah-mada-university-oauth2-api-openapi.yml
   format: yaml
   label: Gadjah Mada University O Auth2 API
   slug: gadjah-mada-university-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/openapi/gadjah-mada-university-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/gadjah-mada-university/openapi/gadjah-mada-university-oauth2-api-openapi.yml
 - filename: gadjah-mada-university-me-api-openapi.yml
   format: yaml
   label: Gadjah Mada University Me API
   slug: gadjah-mada-university-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/openapi/gadjah-mada-university-me-api-openapi.yml
+  url: https://artifacts.apis.io/gadjah-mada-university/openapi/gadjah-mada-university-me-api-openapi.yml
 - filename: gadjah-mada-university-user-api-openapi.yml
   format: yaml
   label: Gadjah Mada University User API
   slug: gadjah-mada-university-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/openapi/gadjah-mada-university-user-api-openapi.yml
+  url: https://artifacts.apis.io/gadjah-mada-university/openapi/gadjah-mada-university-user-api-openapi.yml
 auth_types:
 - oauth2
 - oidc
@@ -209,7 +209,7 @@ source_yaml: "---\ngenerated: '2026-09-01'\nmethod: probed\nsource: >-\n  Live p
   \    location: https://sso.ugm.ac.id/idp/profile/SAML2/POST/SSO\n  - binding: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign\n    location: https://sso.ugm.ac.id/idp/profile/SAML2/POST-SimpleSign/SSO\n  - binding: urn:mace:shibboleth:1.0:profiles:AuthnRequest\n    location: https://sso.ugm.ac.id/idp/profile/Shibboleth/SSO\n  - binding: urn:oasis:names:tc:SAML:2.0:bindings:SOAP\n    location: https://sso.ugm.ac.id/idp/profile/SAML2/SOAP/AttributeQuery\n    role: AttributeAuthority\n  name_id_formats:\n  - urn:mace:shibboleth:1.0:nameIdentifier\n  - urn:oasis:names:tc:SAML:2.0:nameid-format:transient\n  single_logout:\n  - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect\n  - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST\n  - urn:oasis:names:tc:SAML:2.0:bindings:SOAP\n  defects_observed:\n  - defect: >-\n      shibmd:Scope is declared as \"ac.id\" — the whole Indonesian academic second-level domain —\n      rather than \"ugm.ac.id\". A scope that broad asserts authority over\
   \ every Indonesian\n      institution's namespace and would be rejected by a federation operator on registration.\n    probed: '2026-09-01'\n    location: https://sso.ugm.ac.id/idp/shibboleth\n    status: 200\n  - defect: >-\n      The signing certificate in the descriptor was issued 2014-12-16 (valid to 2034-12-16), an\n      11-year-old key still in production use.\n    probed: '2026-09-01'\n    location: authentication/gadjah-mada-university-saml-idp-metadata.xml\n    status: local\n  - defect: >-\n      The entity is NOT present in the eduGAIN metadata aggregate. The full eduGAIN entity list\n      (10,616 entities, retrieved 2026-09-01) contains no ugm.ac.id entity, so the IdP is\n      self-published only and not inter-federated.\n    probed: '2026-09-01'\n    location: https://technical.edugain.org/api.php?action=list_entities&format=json\n    status: 200\n\n- name: ugm-cas\n  type: cas\n  x-operator: institution\n  description: >-\n    Central Authentication Service at sso.ugm.ac.id/cas,\
   \ the login surface UGM systems redirect to.\n    A bare GET redirects to /cas/login and returns the login form. CAS is a ticket protocol with a\n    machine-readable /serviceValidate response, but UGM publishes no service registration route and\n    no protocol documentation, so it is recorded as an authentication surface rather than an API.\n  endpoints:\n    login: https://sso.ugm.ac.id/cas/login\n  probed: '2026-09-01'\n  status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/authentication/gadjah-mada-university-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gadjah-mada-university/authentication/gadjah-mada-university-authentication.yml
 summary_line: oauth2/oidc/saml2/cas · 3 schemes
 tags:
 - University

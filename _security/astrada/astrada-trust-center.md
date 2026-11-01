@@ -5,91 +5,91 @@ api_specs:
   label: Astrada Bank Accounts API
   slug: astrada-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-bank-accounts-api-openapi.yml
 - filename: astrada-bank-links-api-openapi.yml
   format: yaml
   label: Astrada Bank Links API
   slug: astrada-bank-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-bank-links-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-bank-links-api-openapi.yml
 - filename: astrada-bank-subscriptions-api-openapi.yml
   format: yaml
   label: Astrada Bank Subscriptions API
   slug: astrada-bank-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-bank-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-bank-subscriptions-api-openapi.yml
 - filename: astrada-bank-transactions-api-openapi.yml
   format: yaml
   label: Astrada Bank Transactions API
   slug: astrada-bank-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-bank-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-bank-transactions-api-openapi.yml
 - filename: astrada-bin-lookup-api-openapi.yml
   format: yaml
   label: Astrada Bin Lookup API
   slug: astrada-bin-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-bin-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-bin-lookup-api-openapi.yml
 - filename: astrada-card-api-openapi.yml
   format: yaml
   label: Astrada Card API
   slug: astrada-card-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-card-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-card-api-openapi.yml
 - filename: astrada-card-subscription-api-openapi.yml
   format: yaml
   label: Astrada Card Subscription API
   slug: astrada-card-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-card-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-card-subscription-api-openapi.yml
 - filename: astrada-card-verification-api-openapi.yml
   format: yaml
   label: Astrada Card Verification API
   slug: astrada-card-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-card-verification-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-card-verification-api-openapi.yml
 - filename: astrada-enrollment-methods-api-openapi.yml
   format: yaml
   label: Astrada Enrollment Methods API
   slug: astrada-enrollment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-enrollment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-enrollment-methods-api-openapi.yml
 - filename: astrada-network-bulk-feeds-api-openapi.yml
   format: yaml
   label: Astrada Network Bulk Feeds API
   slug: astrada-network-bulk-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-network-bulk-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-network-bulk-feeds-api-openapi.yml
 - filename: astrada-subaccounts-api-openapi.yml
   format: yaml
   label: Astrada Subaccounts API
   slug: astrada-subaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-subaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-subaccounts-api-openapi.yml
 - filename: astrada-transaction-matches-api-openapi.yml
   format: yaml
   label: Astrada Transaction Matches API
   slug: astrada-transaction-matches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-transaction-matches-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-transaction-matches-api-openapi.yml
 - filename: astrada-transaction-messages-api-openapi.yml
   format: yaml
   label: Astrada Transaction Messages API
   slug: astrada-transaction-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-transaction-messages-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-transaction-messages-api-openapi.yml
 - filename: astrada-transactions-api-openapi.yml
   format: yaml
   label: Astrada Transactions API
   slug: astrada-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-transactions-api-openapi.yml
 - filename: astrada-webhooks-api-openapi.yml
   format: yaml
   label: Astrada Webhooks API
   slug: astrada-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-webhooks-api-openapi.yml
 certification_count: 3
 certifications:
 - PCI DSS v4 Level 1 Service Provider
@@ -108,7 +108,7 @@ source_filename: astrada-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nprobe: true\nsource: https://astrada.co/security\nurl: https://astrada.co/security\ncertifications:\n- PCI DSS v4 Level 1 Service Provider\n- GDPR\n- CCPA\npractices:\n- TLS 1.2 / 1.3 encryption for all communications\n- Data encrypted at rest\n- OAuth2 authentication with scoped access tokens and automatic token rotation\n- Regular third-party security penetration testing\n- Approved Scanning Vendor (ASV) scans\ncompliance_documents:\n  attestation_of_compliance: Available on request via security@astrada.co (AOC)\nevidence:\n- source: https://astrada.co/security\n  keywords:\n  - pci dss v4\n  - level 1 service provider\n  - gdpr\n  - ccpa\n  - tls 1.2 / 1.3\n  - penetration testing\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/security/astrada-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/astrada/security/astrada-trust-center.yml
 summary_line: PCI DSS v4 Level 1 Service Provider, GDPR, CCPA
 tags:
 - Company

@@ -5,31 +5,31 @@ api_specs:
   label: Testerarmy Groups API
   slug: testerarmy-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/openapi/testerarmy-groups-api-openapi.yml
+  url: https://artifacts.apis.io/testerarmy/openapi/testerarmy-groups-api-openapi.yml
 - filename: testerarmy-projects-api-openapi.yml
   format: yaml
   label: Testerarmy Projects API
   slug: testerarmy-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/openapi/testerarmy-projects-api-openapi.yml
+  url: https://artifacts.apis.io/testerarmy/openapi/testerarmy-projects-api-openapi.yml
 - filename: testerarmy-test-runs-api-openapi.yml
   format: yaml
   label: Testerarmy Test Runs API
   slug: testerarmy-test-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/openapi/testerarmy-test-runs-api-openapi.yml
+  url: https://artifacts.apis.io/testerarmy/openapi/testerarmy-test-runs-api-openapi.yml
 - filename: testerarmy-tests-api-openapi.yml
   format: yaml
   label: Testerarmy Tests API
   slug: testerarmy-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/openapi/testerarmy-tests-api-openapi.yml
+  url: https://artifacts.apis.io/testerarmy/openapi/testerarmy-tests-api-openapi.yml
 - filename: testerarmy-webhooks-api-openapi.yml
   format: yaml
   label: Testerarmy Webhooks API
   slug: testerarmy-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/openapi/testerarmy-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/testerarmy/openapi/testerarmy-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -65,7 +65,7 @@ source_filename: testerarmy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tester.army\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 14:11:15 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: tester.army\n  dnssec: false\n  caa:\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/security/testerarmy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/testerarmy/security/testerarmy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

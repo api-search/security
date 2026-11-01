@@ -5,19 +5,19 @@ api_specs:
   label: Rainbird Technologies Decisions API
   slug: rainbird-technologies-decisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainbird-technologies/refs/heads/main/openapi/rainbird-technologies-decisions-api-openapi.yml
+  url: https://artifacts.apis.io/rainbird-technologies/openapi/rainbird-technologies-decisions-api-openapi.yml
 - filename: rainbird-technologies-evidence-api-openapi.yml
   format: yaml
   label: Rainbird Technologies Evidence API
   slug: rainbird-technologies-evidence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainbird-technologies/refs/heads/main/openapi/rainbird-technologies-evidence-api-openapi.yml
+  url: https://artifacts.apis.io/rainbird-technologies/openapi/rainbird-technologies-evidence-api-openapi.yml
 - filename: rainbird-technologies-platform-api-openapi.yml
   format: yaml
   label: Rainbird Technologies Platform API
   slug: rainbird-technologies-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainbird-technologies/refs/heads/main/openapi/rainbird-technologies-platform-api-openapi.yml
+  url: https://artifacts.apis.io/rainbird-technologies/openapi/rainbird-technologies-platform-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -56,7 +56,7 @@ source_filename: rainbird-technologies-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: rainbird.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 14:26:50 2026 GMT\n  hsts: false\n- host: api.rainbird.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 23:04:44 2026 GMT\n  hsts: null\n- host: enterprise-api.rainbird.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 23:23:28 2026 GMT\n  hsts: null\ndomains:\n- domain: rainbird.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rainbird-technologies/refs/heads/main/security/rainbird-technologies-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rainbird-technologies/security/rainbird-technologies-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

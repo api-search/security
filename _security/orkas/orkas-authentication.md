@@ -7,37 +7,37 @@ api_specs:
   label: Orkas Audio API
   slug: orkas-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orkas/refs/heads/main/openapi/orkas-audio-api-openapi.yml
+  url: https://artifacts.apis.io/orkas/openapi/orkas-audio-api-openapi.yml
 - filename: orkas-images-api-openapi.yml
   format: yaml
   label: Orkas Images API
   slug: orkas-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orkas/refs/heads/main/openapi/orkas-images-api-openapi.yml
+  url: https://artifacts.apis.io/orkas/openapi/orkas-images-api-openapi.yml
 - filename: orkas-openapi-json-api-openapi.yml
   format: yaml
   label: Orkas Openapi.json API
   slug: orkas-openapi-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orkas/refs/heads/main/openapi/orkas-openapi-json-api-openapi.yml
+  url: https://artifacts.apis.io/orkas/openapi/orkas-openapi-json-api-openapi.yml
 - filename: orkas-search-api-openapi.yml
   format: yaml
   label: Orkas Search API
   slug: orkas-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orkas/refs/heads/main/openapi/orkas-search-api-openapi.yml
+  url: https://artifacts.apis.io/orkas/openapi/orkas-search-api-openapi.yml
 - filename: orkas-videos-api-openapi.yml
   format: yaml
   label: Orkas Videos API
   slug: orkas-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orkas/refs/heads/main/openapi/orkas-videos-api-openapi.yml
+  url: https://artifacts.apis.io/orkas/openapi/orkas-videos-api-openapi.yml
 - filename: orkas-chat-completions-api-openapi.yml
   format: yaml
   label: Orkas Chat Completions API
   slug: orkas-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orkas/refs/heads/main/openapi/orkas-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/orkas/openapi/orkas-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +64,7 @@ source_filename: orkas-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-11'\nmethod: derived\nsource: openapi/orkas-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: ApiKeyAuth\n  type: http\n  scheme: bearer\n  description: 'Orkas API key, sent as `Authorization: Bearer <key>`. Create one in the Orkas\n    account settings.'\n  sources:\n  - openapi/orkas-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orkas/refs/heads/main/authentication/orkas-authentication.yml
+source_yaml_url: https://artifacts.apis.io/orkas/authentication/orkas-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

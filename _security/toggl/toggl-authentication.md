@@ -7,19 +7,19 @@ api_specs:
   label: Toggl Track Me API
   slug: toggl-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toggl/refs/heads/main/openapi/toggl-me-api-openapi.yml
+  url: https://artifacts.apis.io/toggl/openapi/toggl-me-api-openapi.yml
 - filename: toggl-reports-api-openapi.yml
   format: yaml
   label: Toggl Track Reports API
   slug: toggl-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toggl/refs/heads/main/openapi/toggl-reports-api-openapi.yml
+  url: https://artifacts.apis.io/toggl/openapi/toggl-reports-api-openapi.yml
 - filename: toggl-time-entries-api-openapi.yml
   format: yaml
   label: Toggl Track Time Entries API
   slug: toggl-time-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toggl/refs/heads/main/openapi/toggl-time-entries-api-openapi.yml
+  url: https://artifacts.apis.io/toggl/openapi/toggl-time-entries-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -48,7 +48,7 @@ source_filename: toggl-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/toggl-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: |-\n    HTTP Basic auth. Username is the API token from Toggl profile,\n    password is the literal string `api_token`.\n  sources:\n  - openapi/toggl-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toggl/refs/heads/main/authentication/toggl-authentication.yml
+source_yaml_url: https://artifacts.apis.io/toggl/authentication/toggl-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Time Tracking

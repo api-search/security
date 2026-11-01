@@ -5,103 +5,103 @@ api_specs:
   label: Respeecher Space Real-Time TTS API
   slug: respeecher-space-realtime-tts-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/asyncapi/respeecher-asyncapi.yml
+  url: https://artifacts.apis.io/respeecher/asyncapi/respeecher-asyncapi.yml
 - filename: respeecher-accents-api-openapi.yml
   format: yaml
   label: Respeecher Accents API
   slug: respeecher-accents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-accents-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-accents-api-openapi.yml
 - filename: respeecher-auth-api-openapi.yml
   format: yaml
   label: Respeecher Auth API
   slug: respeecher-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-auth-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-auth-api-openapi.yml
 - filename: respeecher-calibration-api-openapi.yml
   format: yaml
   label: Respeecher Calibration API
   slug: respeecher-calibration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-calibration-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-calibration-api-openapi.yml
 - filename: respeecher-credits-api-openapi.yml
   format: yaml
   label: Respeecher Credits API
   slug: respeecher-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-credits-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-credits-api-openapi.yml
 - filename: respeecher-folders-api-openapi.yml
   format: yaml
   label: Respeecher Folders API
   slug: respeecher-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-folders-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-folders-api-openapi.yml
 - filename: respeecher-healtz-api-openapi.yml
   format: yaml
   label: Respeecher Healtz API
   slug: respeecher-healtz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-healtz-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-healtz-api-openapi.yml
 - filename: respeecher-models-api-openapi.yml
   format: yaml
   label: Respeecher Models API
   slug: respeecher-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-models-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-models-api-openapi.yml
 - filename: respeecher-narration-styles-api-openapi.yml
   format: yaml
   label: Respeecher Narration Styles API
   slug: respeecher-narration-styles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-narration-styles-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-narration-styles-api-openapi.yml
 - filename: respeecher-notes-api-openapi.yml
   format: yaml
   label: Respeecher Notes API
   slug: respeecher-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-notes-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-notes-api-openapi.yml
 - filename: respeecher-orders-api-openapi.yml
   format: yaml
   label: Respeecher Orders API
   slug: respeecher-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-orders-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-orders-api-openapi.yml
 - filename: respeecher-projects-api-openapi.yml
   format: yaml
   label: Respeecher Projects API
   slug: respeecher-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-projects-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-projects-api-openapi.yml
 - filename: respeecher-recordings-api-openapi.yml
   format: yaml
   label: Respeecher Recordings API
   slug: respeecher-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-recordings-api-openapi.yml
 - filename: respeecher-stats-api-openapi.yml
   format: yaml
   label: Respeecher Stats API
   slug: respeecher-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-stats-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-stats-api-openapi.yml
 - filename: respeecher-storage-api-openapi.yml
   format: yaml
   label: Respeecher Storage API
   slug: respeecher-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-storage-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-storage-api-openapi.yml
 - filename: respeecher-tts-api-openapi.yml
   format: yaml
   label: Respeecher Tts API
   slug: respeecher-tts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-tts-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-tts-api-openapi.yml
 - filename: respeecher-voices-api-openapi.yml
   format: yaml
   label: Respeecher Voices API
   slug: respeecher-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-voices-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-voices-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -148,7 +148,7 @@ source_filename: respeecher-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.respeecher.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 14:00:13 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.respeecher.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 07:55:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: gateway.respeecher.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 03:30:01 2026 GMT\n  hsts: null\ndomains:\n- domain: respeecher.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 iodef \"mailto:gr@respeecher.com\"\n  - 0 issue \"amazontrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/security/respeecher-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/respeecher/security/respeecher-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Voice AI

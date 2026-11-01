@@ -9,25 +9,25 @@ api_specs:
   label: Metrilo Category API
   slug: metrilo-category-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metrilo/refs/heads/main/openapi/metrilo-category-api-openapi.yml
+  url: https://artifacts.apis.io/metrilo/openapi/metrilo-category-api-openapi.yml
 - filename: metrilo-customer-api-openapi.yml
   format: yaml
   label: Metrilo Customer API
   slug: metrilo-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metrilo/refs/heads/main/openapi/metrilo-customer-api-openapi.yml
+  url: https://artifacts.apis.io/metrilo/openapi/metrilo-customer-api-openapi.yml
 - filename: metrilo-order-api-openapi.yml
   format: yaml
   label: Metrilo Order API
   slug: metrilo-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metrilo/refs/heads/main/openapi/metrilo-order-api-openapi.yml
+  url: https://artifacts.apis.io/metrilo/openapi/metrilo-order-api-openapi.yml
 - filename: metrilo-product-api-openapi.yml
   format: yaml
   label: Metrilo Product API
   slug: metrilo-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metrilo/refs/heads/main/openapi/metrilo-product-api-openapi.yml
+  url: https://artifacts.apis.io/metrilo/openapi/metrilo-product-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://github.com/Metrilo/custom-integration\ndocs: https://github.com/Metrilo/custom-integration\nsummary:\n  types: [apiKey]\n  api_key_in: [header, body]\n  oauth2_flows: []\n  note: >-\n    Metrilo uses project-scoped credentials (API Token + API Secret) obtained\n    from Settings -> Installation. Requests carry the API Token in the JSON\n    body; every backend endpoint except POST /customer additionally requires an\n    X-Digest header holding an HMAC-SHA256 of the raw request body keyed with\n    the API Secret. There is no OAuth surface.\ncredentials:\n  - name: API Token\n    where: request body field `token`\n    obtained_from: Settings -> Installation (per project)\n  - name: API Secret\n    where: HMAC key for the X-Digest header (never transmitted)\n    obtained_from: Settings -> Installation (per project)\nschemes:\n  - name: xDigest\n    type: apiKey\n    in: header\n    parameter: X-Digest\n    algorithm:\
   \ HMAC-SHA256\n    message: raw JSON request body\n    key: API Secret\n    required_for: all backend endpoints except POST /customer\n    sources: [openapi/metrilo-tracking-openapi.yml]\n  - name: token\n    type: apiKey\n    in: body\n    parameter: token\n    required_for: all requests\n    sources: [openapi/metrilo-tracking-openapi.yml]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metrilo/refs/heads/main/authentication/metrilo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/metrilo/authentication/metrilo-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company

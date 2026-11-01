@@ -7,43 +7,43 @@ api_specs:
   label: MyCase Case Stages API
   slug: mycase-case-stages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/openapi/mycase-case-stages-api-openapi.yml
+  url: https://artifacts.apis.io/mycase/openapi/mycase-case-stages-api-openapi.yml
 - filename: mycase-cases-api-openapi.yml
   format: yaml
   label: MyCase Cases API
   slug: mycase-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/openapi/mycase-cases-api-openapi.yml
+  url: https://artifacts.apis.io/mycase/openapi/mycase-cases-api-openapi.yml
 - filename: mycase-companies-api-openapi.yml
   format: yaml
   label: MyCase Companies API
   slug: mycase-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/openapi/mycase-companies-api-openapi.yml
+  url: https://artifacts.apis.io/mycase/openapi/mycase-companies-api-openapi.yml
 - filename: mycase-contacts-api-openapi.yml
   format: yaml
   label: MyCase Contacts API
   slug: mycase-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/openapi/mycase-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/mycase/openapi/mycase-contacts-api-openapi.yml
 - filename: mycase-documents-api-openapi.yml
   format: yaml
   label: MyCase Documents API
   slug: mycase-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/openapi/mycase-documents-api-openapi.yml
+  url: https://artifacts.apis.io/mycase/openapi/mycase-documents-api-openapi.yml
 - filename: mycase-events-api-openapi.yml
   format: yaml
   label: MyCase Events API
   slug: mycase-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/openapi/mycase-events-api-openapi.yml
+  url: https://artifacts.apis.io/mycase/openapi/mycase-events-api-openapi.yml
 - filename: mycase-firm-api-openapi.yml
   format: yaml
   label: MyCase Firm API
   slug: mycase-firm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/openapi/mycase-firm-api-openapi.yml
+  url: https://artifacts.apis.io/mycase/openapi/mycase-firm-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -71,7 +71,7 @@ source_filename: mycase-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/mycase-open-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Bearer token issued through the MyCase Open API onboarding flow. The exact authorization\n    endpoint is documented inside the authenticated Stoplight reference.\n  sources:\n  - openapi/mycase-open-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/authentication/mycase-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mycase/authentication/mycase-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Billing

@@ -5,31 +5,31 @@ api_specs:
   label: gRPC Health Checking Service
   slug: grpc-health-checking
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grpc/refs/heads/main/asyncapi.yml
+  url: https://artifacts.apis.io/grpc/asyncapi.yml
 - filename: asyncapi.yml
   format: yaml
   label: gRPC Server Reflection
   slug: grpc-server-reflection
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grpc/refs/heads/main/asyncapi.yml
+  url: https://artifacts.apis.io/grpc/asyncapi.yml
 - filename: grpc-channelz-api-openapi.yml
   format: yaml
   label: gRPC Channelz API
   slug: grpc-channelz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grpc/refs/heads/main/openapi/grpc-channelz-api-openapi.yml
+  url: https://artifacts.apis.io/grpc/openapi/grpc-channelz-api-openapi.yml
 - filename: grpc-health-checking-api-openapi.yml
   format: yaml
   label: gRPC Health Checking API
   slug: grpc-health-checking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grpc/refs/heads/main/openapi/grpc-health-checking-api-openapi.yml
+  url: https://artifacts.apis.io/grpc/openapi/grpc-health-checking-api-openapi.yml
 - filename: grpc-reflection-api-openapi.yml
   format: yaml
   label: gRPC Reflection API
   slug: grpc-reflection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grpc/refs/heads/main/openapi/grpc-reflection-api-openapi.yml
+  url: https://artifacts.apis.io/grpc/openapi/grpc-reflection-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +71,7 @@ source_filename: grpc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: grpc.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 10:25:02 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: protobuf.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 19:13:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\ndomains:\n- domain: grpc.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: protobuf.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/grpc/refs/heads/main/security/grpc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/grpc/security/grpc-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - CNCF

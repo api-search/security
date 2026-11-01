@@ -7,43 +7,43 @@ api_specs:
   label: Bank Australia Banking Account Balances API
   slug: bank-australia-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-australia/refs/heads/main/openapi/bank-australia-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/bank-australia/openapi/bank-australia-banking-account-balances-api-openapi.yml
 - filename: bank-australia-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Bank Australia Banking Account Direct Debits API
   slug: bank-australia-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-australia/refs/heads/main/openapi/bank-australia-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/bank-australia/openapi/bank-australia-banking-account-direct-debits-api-openapi.yml
 - filename: bank-australia-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Bank Australia Banking Account Scheduled Payments API
   slug: bank-australia-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-australia/refs/heads/main/openapi/bank-australia-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/bank-australia/openapi/bank-australia-banking-account-scheduled-payments-api-openapi.yml
 - filename: bank-australia-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Bank Australia Banking Account Transactions API
   slug: bank-australia-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-australia/refs/heads/main/openapi/bank-australia-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bank-australia/openapi/bank-australia-banking-account-transactions-api-openapi.yml
 - filename: bank-australia-banking-accounts-api-openapi.yml
   format: yaml
   label: Bank Australia Banking Accounts API
   slug: bank-australia-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-australia/refs/heads/main/openapi/bank-australia-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bank-australia/openapi/bank-australia-banking-accounts-api-openapi.yml
 - filename: bank-australia-banking-payees-api-openapi.yml
   format: yaml
   label: Bank Australia Banking Payees API
   slug: bank-australia-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-australia/refs/heads/main/openapi/bank-australia-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/bank-australia/openapi/bank-australia-banking-payees-api-openapi.yml
 - filename: bank-australia-banking-products-api-openapi.yml
   format: yaml
   label: Bank Australia Banking Products API
   slug: bank-australia-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-australia/refs/heads/main/openapi/bank-australia-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/bank-australia/openapi/bank-australia-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -85,7 +85,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: >-\n  https://www.bankaust.com.au/support/open-banking/developer/ +\n  Consumer Data Standards (Consumer Data Right) security profile\nsummary:\n  types: [none, oauth2, openIdConnect]\n  api_key_in: []\n  oauth2_flows: [authorizationCode]\n  note: >-\n    Two distinct surfaces. The public Product Reference Data (PRD) API requires\n    NO authentication and NO API key - only the mandatory CDS `x-v` version\n    header. The authenticated Consumer Data Sharing surface (account and\n    transaction data for consenting customers) is governed by the CDR security\n    profile: OAuth2 authorization-code flow with OpenID Connect, mutual-TLS\n    sender-constrained tokens, PKCE, and the Financial-grade API (FAPI 1.0\n    Advanced) profile, brokered through the ACCC CDR Register rather than a\n    bank-proprietary authorization server.\nschemes:\n- name: public-no-auth\n  type: none\n  applies_to: Product Reference Data API (GET /banking/products,\
   \ /banking/products/{productId})\n  description: >-\n    Unauthenticated public endpoints. No credential is issued or required; the\n    only mandatory request header is `x-v` (CDS API version).\n  sources: [apis.yml]\n- name: cdr-oauth2-fapi\n  type: oauth2\n  scheme: authorizationCode\n  fapi_profile: FAPI 1.0 Advanced\n  mtls: true\n  pkce: true\n  applies_to: Consumer Data Sharing (accredited data recipients, consenting customers)\n  description: >-\n    OAuth2 authorization-code + OIDC with mutual-TLS-bound tokens under the CDR\n    security profile. Accreditation and dynamic client registration are handled\n    via the CDR Register; not exercised by the public PRD API captured here.\n  docs: https://consumerdatastandardsaustralia.github.io/standards/#security-profile\n  sources: [Consumer Data Standards security profile]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bank-australia/refs/heads/main/authentication/bank-australia-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bank-australia/authentication/bank-australia-authentication.yml
 summary_line: none/oauth2/openIdConnect · 2 schemes
 tags:
 - Finance

@@ -7,7 +7,7 @@ api_specs:
   label: Google Docs Documents API
   slug: google-docs-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-docs/refs/heads/main/openapi/google-docs-documents-api-openapi.yml
+  url: https://artifacts.apis.io/google-docs/openapi/google-docs-documents-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -39,7 +39,7 @@ source_filename: google-docs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/google-docs-api-v1-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 5\n  description: OAuth 2.0 authentication for Google APIs.\n  sources:\n  - openapi/google-docs-api-v1-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-docs/refs/heads/main/authentication/google-docs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-docs/authentication/google-docs-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Collaboration

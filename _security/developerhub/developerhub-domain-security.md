@@ -5,43 +5,43 @@ api_specs:
   label: DeveloperHub Documentation API
   slug: developerhub-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/developerhub/openapi/developerhub-documentation-api-openapi.yml
 - filename: developerhub-project-api-openapi.yml
   format: yaml
   label: DeveloperHub Project API
   slug: developerhub-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-project-api-openapi.yml
+  url: https://artifacts.apis.io/developerhub/openapi/developerhub-project-api-openapi.yml
 - filename: developerhub-reader-access-api-openapi.yml
   format: yaml
   label: DeveloperHub Reader Access API
   slug: developerhub-reader-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-reader-access-api-openapi.yml
+  url: https://artifacts.apis.io/developerhub/openapi/developerhub-reader-access-api-openapi.yml
 - filename: developerhub-changelog-api-openapi.yml
   format: yaml
   label: DeveloperHub Changelog API
   slug: developerhub-changelog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-changelog-api-openapi.yml
+  url: https://artifacts.apis.io/developerhub/openapi/developerhub-changelog-api-openapi.yml
 - filename: developerhub-page-api-openapi.yml
   format: yaml
   label: DeveloperHub Page API
   slug: developerhub-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-page-api-openapi.yml
+  url: https://artifacts.apis.io/developerhub/openapi/developerhub-page-api-openapi.yml
 - filename: developerhub-reference-api-openapi.yml
   format: yaml
   label: DeveloperHub Reference API
   slug: developerhub-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-reference-api-openapi.yml
+  url: https://artifacts.apis.io/developerhub/openapi/developerhub-reference-api-openapi.yml
 - filename: developerhub-version-api-openapi.yml
   format: yaml
   label: DeveloperHub Version API
   slug: developerhub-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-version-api-openapi.yml
+  url: https://artifacts.apis.io/developerhub/openapi/developerhub-version-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: developerhub-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developerhub.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 18 23:59:59 2027 GMT\n  hsts: false\n- host: api.developerhub.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 17:33:57 2026 GMT\n  hsts: false\ndomains:\n- domain: developerhub.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/security/developerhub-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/developerhub/security/developerhub-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - API Reference

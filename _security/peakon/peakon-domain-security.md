@@ -5,49 +5,49 @@ api_specs:
   label: Peakon Actions API
   slug: peakon-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/openapi/peakon-actions-api-openapi.yml
+  url: https://artifacts.apis.io/peakon/openapi/peakon-actions-api-openapi.yml
 - filename: peakon-answers-api-openapi.yml
   format: yaml
   label: Peakon Answers API
   slug: peakon-answers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/openapi/peakon-answers-api-openapi.yml
+  url: https://artifacts.apis.io/peakon/openapi/peakon-answers-api-openapi.yml
 - filename: peakon-audits-api-openapi.yml
   format: yaml
   label: Peakon Audits API
   slug: peakon-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/openapi/peakon-audits-api-openapi.yml
+  url: https://artifacts.apis.io/peakon/openapi/peakon-audits-api-openapi.yml
 - filename: peakon-authentication-api-openapi.yml
   format: yaml
   label: Peakon Authentication API
   slug: peakon-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/openapi/peakon-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/peakon/openapi/peakon-authentication-api-openapi.yml
 - filename: peakon-employees-api-openapi.yml
   format: yaml
   label: Peakon Employees API
   slug: peakon-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/openapi/peakon-employees-api-openapi.yml
+  url: https://artifacts.apis.io/peakon/openapi/peakon-employees-api-openapi.yml
 - filename: peakon-engagement-api-openapi.yml
   format: yaml
   label: Peakon Engagement API
   slug: peakon-engagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/openapi/peakon-engagement-api-openapi.yml
+  url: https://artifacts.apis.io/peakon/openapi/peakon-engagement-api-openapi.yml
 - filename: peakon-scores-api-openapi.yml
   format: yaml
   label: Peakon Scores API
   slug: peakon-scores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/openapi/peakon-scores-api-openapi.yml
+  url: https://artifacts.apis.io/peakon/openapi/peakon-scores-api-openapi.yml
 - filename: peakon-segments-api-openapi.yml
   format: yaml
   label: Peakon Segments API
   slug: peakon-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/openapi/peakon-segments-api-openapi.yml
+  url: https://artifacts.apis.io/peakon/openapi/peakon-segments-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -83,7 +83,7 @@ source_filename: peakon-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.peakon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 04:34:11 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: peakon.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/security/peakon-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/peakon/security/peakon-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

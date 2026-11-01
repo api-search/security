@@ -40,7 +40,7 @@ source_yaml: "generated: '2026-08-04'\nmethod: searched\nsource: >-\n  https://d
   \ the same\n  API, they should follow the traditional token-based authentication mechanism.\"\nother_auth_surfaces:\n- name: Token-based application authentication\n  applies_to: Innovapptive web and mobile clients (iMaintenance, iPermits, mRounds)\n  docs: https://docs.innovapptive.com/2607/imaintenance_configuration_guide/html/imaintenance_configuration_guide/topics/token_based_app_api_flow.html\n  note: Customer-configured; not an externally callable credential.\n- name: SAP BTP API Management OAuth 2.0\n  applies_to: >-\n    Customer-deployed SAP integration layer (OAuth token proxy, OAuth v2.0 policies\n    to generate and verify access tokens between an external consumer and BTP API\n    Management)\n  docs: https://docs.innovapptive.com/2607/imaintenance_deployment_setup_guide/html/imaintenance_deployment_setup_guide/topics/sap_oauth_api_proxy.html\n  note: >-\n    OAuth2 exists in Innovapptive's reference architecture, but it is configured in\n    the CUSTOMER's SAP BTP tenant.\
   \ Innovapptive does not operate a public\n    authorization server, and no /.well-known/oauth-authorization-server or\n    /.well-known/openid-configuration was found on any Innovapptive host.\nspec_discovery:\n  openapi: not-published-anonymously\n  probes:\n  - url: https://cbo.innovapptive.com/operatorroundsapi/external/api-docs/\n    status: 200\n    result: Swagger UI HTML shell (3106 bytes)\n  - url: https://cbo.innovapptive.com/operatorroundsapi/external/api-docs-json\n    status: 404\n  - url: https://cbo.innovapptive.com/operatorroundsapi/external/v3/api-docs\n    status: 404\n  - url: https://cbo.innovapptive.com/operatorroundsapi/external/api-docs/swagger-ui-init.js\n    status: 404\n    note: >-\n      The Swagger UI shell references ./swagger-ui-bundle.js,\n      ./swagger-ui-standalone-preset.js and ./swagger-ui-init.js, but the edge\n      returns nginx 404 for all three, so the console does not render for an\n      anonymous visitor and the embedded document cannot be read.\n\
   \  - url: https://cwpuat2.innovapptive.com/operatorroundsapi/external/api-docs/\n    status: 200\n    result: same Swagger UI HTML shell (the Request URL named in the docs)\nx-evidence:\n  fetched: '2026-08-04'\n  http_status: 200\n  urls:\n  - https://docs.innovapptive.com/2605/mRounds_configuration_guide/html/topics/api_using_overview.html\n  - https://docs.innovapptive.com/2605/mRounds_configuration_guide/html/topics/api_generate_key.html\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/innovapptive/refs/heads/main/authentication/innovapptive-authentication.yml
+source_yaml_url: https://artifacts.apis.io/innovapptive/authentication/innovapptive-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company
@@ -55,5 +55,5 @@ tags:
 - Mobile
 - Manufacturing
 - Oil and Gas
-- Field Service
+- Field Service Management
 ---

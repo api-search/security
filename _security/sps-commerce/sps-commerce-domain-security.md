@@ -5,19 +5,19 @@ api_specs:
   label: SPS Commerce Trading Partner Submission API
   slug: sps-commerce-trading-partner-submission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sps-commerce/refs/heads/main/openapi/sps-commerce-submission-api-openapi.yml
+  url: https://artifacts.apis.io/sps-commerce/openapi/sps-commerce-submission-api-openapi.yml
 - filename: sps-commerce-inventory-api-openapi.yml
   format: yaml
   label: SPS Commerce Inventory API
   slug: sps-commerce-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sps-commerce/refs/heads/main/openapi/sps-commerce-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/sps-commerce/openapi/sps-commerce-inventory-api-openapi.yml
 - filename: sps-commerce-import-api-openapi.yml
   format: yaml
   label: SPS Commerce Import API
   slug: sps-commerce-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sps-commerce/refs/heads/main/openapi/sps-commerce-import-api-openapi.yml
+  url: https://artifacts.apis.io/sps-commerce/openapi/sps-commerce-import-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: sps-commerce-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.spscommerce.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 31 16:23:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31622400\ndomains:\n- domain: spscommerce.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sps-commerce/refs/heads/main/security/sps-commerce-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sps-commerce/security/sps-commerce-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company

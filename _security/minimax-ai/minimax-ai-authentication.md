@@ -7,43 +7,43 @@ api_specs:
   label: MiniMax Files API
   slug: minimax-ai-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/openapi/minimax-ai-files-api-openapi.yml
+  url: https://artifacts.apis.io/minimax-ai/openapi/minimax-ai-files-api-openapi.yml
 - filename: minimax-ai-image-api-openapi.yml
   format: yaml
   label: MiniMax Image API
   slug: minimax-ai-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/openapi/minimax-ai-image-api-openapi.yml
+  url: https://artifacts.apis.io/minimax-ai/openapi/minimax-ai-image-api-openapi.yml
 - filename: minimax-ai-music-api-openapi.yml
   format: yaml
   label: MiniMax Music API
   slug: minimax-ai-music-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/openapi/minimax-ai-music-api-openapi.yml
+  url: https://artifacts.apis.io/minimax-ai/openapi/minimax-ai-music-api-openapi.yml
 - filename: minimax-ai-text-generation-api-openapi.yml
   format: yaml
   label: MiniMax Text Generation API
   slug: minimax-ai-text-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/openapi/minimax-ai-text-generation-api-openapi.yml
+  url: https://artifacts.apis.io/minimax-ai/openapi/minimax-ai-text-generation-api-openapi.yml
 - filename: minimax-ai-text-to-audio-api-openapi.yml
   format: yaml
   label: MiniMax Text to Audio API
   slug: minimax-ai-text-to-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/openapi/minimax-ai-text-to-audio-api-openapi.yml
+  url: https://artifacts.apis.io/minimax-ai/openapi/minimax-ai-text-to-audio-api-openapi.yml
 - filename: minimax-ai-video-api-openapi.yml
   format: yaml
   label: MiniMax Video API
   slug: minimax-ai-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/openapi/minimax-ai-video-api-openapi.yml
+  url: https://artifacts.apis.io/minimax-ai/openapi/minimax-ai-video-api-openapi.yml
 - filename: minimax-ai-voice-api-openapi.yml
   format: yaml
   label: MiniMax Voice API
   slug: minimax-ai-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/openapi/minimax-ai-voice-api-openapi.yml
+  url: https://artifacts.apis.io/minimax-ai/openapi/minimax-ai-voice-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -70,7 +70,7 @@ source_filename: minimax-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/minimax-ai-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/minimax-ai-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/authentication/minimax-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/minimax-ai/authentication/minimax-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

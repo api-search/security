@@ -7,25 +7,25 @@ api_specs:
   label: ACORD Claims API
   slug: acord-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/openapi/acord-claims-api-openapi.yml
+  url: https://artifacts.apis.io/acord/openapi/acord-claims-api-openapi.yml
 - filename: acord-party-api-openapi.yml
   format: yaml
   label: ACORD Party API
   slug: acord-party-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/openapi/acord-party-api-openapi.yml
+  url: https://artifacts.apis.io/acord/openapi/acord-party-api-openapi.yml
 - filename: acord-policy-api-openapi.yml
   format: yaml
   label: ACORD Policy API
   slug: acord-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/openapi/acord-policy-api-openapi.yml
+  url: https://artifacts.apis.io/acord/openapi/acord-policy-api-openapi.yml
 - filename: acord-underwriting-api-openapi.yml
   format: yaml
   label: ACORD Underwriting API
   slug: acord-underwriting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/openapi/acord-underwriting-api-openapi.yml
+  url: https://artifacts.apis.io/acord/openapi/acord-underwriting-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -68,7 +68,7 @@ source_filename: acord-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-30'\nmethod: derived\nsource: openapi/acord-claims-api-openapi.yml, openapi/acord-party-api-openapi.yml, openapi/acord-policy-api-openapi.yml,\n  openapi/acord-underwriting-api-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.insurer-internal.example.com/oauth/token\n    scopes: 4\n  sources:\n  - openapi/acord-claims-api-openapi.yml\n  - openapi/acord-party-api-openapi.yml\n  - openapi/acord-policy-api-openapi.yml\n  - openapi/acord-underwriting-api-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/acord-claims-api-openapi.yml\n  - openapi/acord-party-api-openapi.yml\n  - openapi/acord-policy-api-openapi.yml\n  - openapi/acord-underwriting-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/authentication/acord-authentication.yml
+source_yaml_url: https://artifacts.apis.io/acord/authentication/acord-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Claims

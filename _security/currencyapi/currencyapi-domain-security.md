@@ -5,37 +5,37 @@ api_specs:
   label: CurrencyAPI Convert API
   slug: currencyapi-convert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencyapi/refs/heads/main/openapi/currencyapi-convert-api-openapi.yml
+  url: https://artifacts.apis.io/currencyapi/openapi/currencyapi-convert-api-openapi.yml
 - filename: currencyapi-currencies-api-openapi.yml
   format: yaml
   label: CurrencyAPI Currencies API
   slug: currencyapi-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencyapi/refs/heads/main/openapi/currencyapi-currencies-api-openapi.yml
+  url: https://artifacts.apis.io/currencyapi/openapi/currencyapi-currencies-api-openapi.yml
 - filename: currencyapi-historical-api-openapi.yml
   format: yaml
   label: CurrencyAPI Historical API
   slug: currencyapi-historical-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencyapi/refs/heads/main/openapi/currencyapi-historical-api-openapi.yml
+  url: https://artifacts.apis.io/currencyapi/openapi/currencyapi-historical-api-openapi.yml
 - filename: currencyapi-latest-api-openapi.yml
   format: yaml
   label: CurrencyAPI Latest API
   slug: currencyapi-latest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencyapi/refs/heads/main/openapi/currencyapi-latest-api-openapi.yml
+  url: https://artifacts.apis.io/currencyapi/openapi/currencyapi-latest-api-openapi.yml
 - filename: currencyapi-range-api-openapi.yml
   format: yaml
   label: CurrencyAPI Range API
   slug: currencyapi-range-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencyapi/refs/heads/main/openapi/currencyapi-range-api-openapi.yml
+  url: https://artifacts.apis.io/currencyapi/openapi/currencyapi-range-api-openapi.yml
 - filename: currencyapi-status-api-openapi.yml
   format: yaml
   label: CurrencyAPI Status API
   slug: currencyapi-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencyapi/refs/heads/main/openapi/currencyapi-status-api-openapi.yml
+  url: https://artifacts.apis.io/currencyapi/openapi/currencyapi-status-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: currencyapi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: currencyapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 06:54:35 2026 GMT\n  hsts: false\n- host: api.currencyapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 06:54:35 2026 GMT\n  hsts: null\ndomains:\n- domain: currencyapi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/currencyapi/refs/heads/main/security/currencyapi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/currencyapi/security/currencyapi-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Foreign Exchange

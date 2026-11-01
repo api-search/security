@@ -7,55 +7,55 @@ api_specs:
   label: frp Clients API
   slug: frp-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-clients-api-openapi.yml
+  url: https://artifacts.apis.io/frp/openapi/frp-clients-api-openapi.yml
 - filename: frp-configuration-api-openapi.yml
   format: yaml
   label: frp Configuration API
   slug: frp-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/frp/openapi/frp-configuration-api-openapi.yml
 - filename: frp-health-api-openapi.yml
   format: yaml
   label: frp Health API
   slug: frp-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-health-api-openapi.yml
+  url: https://artifacts.apis.io/frp/openapi/frp-health-api-openapi.yml
 - filename: frp-lifecycle-api-openapi.yml
   format: yaml
   label: frp Lifecycle API
   slug: frp-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/frp/openapi/frp-lifecycle-api-openapi.yml
 - filename: frp-metrics-api-openapi.yml
   format: yaml
   label: frp Metrics API
   slug: frp-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/frp/openapi/frp-metrics-api-openapi.yml
 - filename: frp-proxies-api-openapi.yml
   format: yaml
   label: frp Proxies API
   slug: frp-proxies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-proxies-api-openapi.yml
+  url: https://artifacts.apis.io/frp/openapi/frp-proxies-api-openapi.yml
 - filename: frp-server-api-openapi.yml
   format: yaml
   label: frp Server API
   slug: frp-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-server-api-openapi.yml
+  url: https://artifacts.apis.io/frp/openapi/frp-server-api-openapi.yml
 - filename: frp-status-api-openapi.yml
   format: yaml
   label: frp Status API
   slug: frp-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-status-api-openapi.yml
+  url: https://artifacts.apis.io/frp/openapi/frp-status-api-openapi.yml
 - filename: frp-store-api-openapi.yml
   format: yaml
   label: frp Store API
   slug: frp-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-store-api-openapi.yml
+  url: https://artifacts.apis.io/frp/openapi/frp-store-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -83,7 +83,7 @@ source_filename: frp-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/frp-client-admin-api-openapi.yml, openapi/frp-server-admin-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic auth using webServer.user and webServer.password\n  sources:\n  - openapi/frp-client-admin-api-openapi.yml\n  - openapi/frp-server-admin-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/authentication/frp-authentication.yml
+source_yaml_url: https://artifacts.apis.io/frp/authentication/frp-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - NAT Traversal

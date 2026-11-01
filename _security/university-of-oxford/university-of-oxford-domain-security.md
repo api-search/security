@@ -5,13 +5,13 @@ api_specs:
   label: University of Oxford IIIF API
   slug: university-of-oxford-iiif-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/university-of-oxford-iiif-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-oxford/openapi/university-of-oxford-iiif-api-openapi.yml
 - filename: university-of-oxford-repository-api-openapi.yml
   format: yaml
   label: University of Oxford Repository API
   slug: university-of-oxford-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/university-of-oxford-repository-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-oxford/openapi/university-of-oxford-repository-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: university-of-oxford-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ox.ac.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 19:58:48 2026 GMT\n  hsts: null\n- host: ora.ox.ac.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 00:58:37 2026 GMT\n  hsts: true\n  hsts_max_age: 15768000\ndomains:\n- domain: ox.ac.uk\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/security/university-of-oxford-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/university-of-oxford/security/university-of-oxford-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - University

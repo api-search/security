@@ -5,73 +5,73 @@ api_specs:
   label: Vers Commit Tags API
   slug: vers-commit-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/openapi/vers-commit-tags-api-openapi.yml
+  url: https://artifacts.apis.io/vers/openapi/vers-commit-tags-api-openapi.yml
 - filename: vers-commits-api-openapi.yml
   format: yaml
   label: Vers Commits API
   slug: vers-commits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/openapi/vers-commits-api-openapi.yml
+  url: https://artifacts.apis.io/vers/openapi/vers-commits-api-openapi.yml
 - filename: vers-deploy-api-openapi.yml
   format: yaml
   label: Vers Deploy API
   slug: vers-deploy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/openapi/vers-deploy-api-openapi.yml
+  url: https://artifacts.apis.io/vers/openapi/vers-deploy-api-openapi.yml
 - filename: vers-domains-api-openapi.yml
   format: yaml
   label: Vers Domains API
   slug: vers-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/openapi/vers-domains-api-openapi.yml
+  url: https://artifacts.apis.io/vers/openapi/vers-domains-api-openapi.yml
 - filename: vers-env-vars-api-openapi.yml
   format: yaml
   label: Vers Env Vars API
   slug: vers-env-vars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/openapi/vers-env-vars-api-openapi.yml
+  url: https://artifacts.apis.io/vers/openapi/vers-env-vars-api-openapi.yml
 - filename: vers-images-api-openapi.yml
   format: yaml
   label: Vers Images API
   slug: vers-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/openapi/vers-images-api-openapi.yml
+  url: https://artifacts.apis.io/vers/openapi/vers-images-api-openapi.yml
 - filename: vers-keys-api-openapi.yml
   format: yaml
   label: Vers Keys API
   slug: vers-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/openapi/vers-keys-api-openapi.yml
+  url: https://artifacts.apis.io/vers/openapi/vers-keys-api-openapi.yml
 - filename: vers-public-repositories-api-openapi.yml
   format: yaml
   label: Vers Public Repositories API
   slug: vers-public-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/openapi/vers-public-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/vers/openapi/vers-public-repositories-api-openapi.yml
 - filename: vers-repositories-api-openapi.yml
   format: yaml
   label: Vers Repositories API
   slug: vers-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/openapi/vers-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/vers/openapi/vers-repositories-api-openapi.yml
 - filename: vers-system-api-openapi.yml
   format: yaml
   label: Vers System API
   slug: vers-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/openapi/vers-system-api-openapi.yml
+  url: https://artifacts.apis.io/vers/openapi/vers-system-api-openapi.yml
 - filename: vers-vm-api-openapi.yml
   format: yaml
   label: Vers Vm API
   slug: vers-vm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/openapi/vers-vm-api-openapi.yml
+  url: https://artifacts.apis.io/vers/openapi/vers-vm-api-openapi.yml
 - filename: vers-vms-api-openapi.yml
   format: yaml
   label: Vers Vms API
   slug: vers-vms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/openapi/vers-vms-api-openapi.yml
+  url: https://artifacts.apis.io/vers/openapi/vers-vms-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -111,7 +111,7 @@ source_filename: vers-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: vers.sh\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 16:26:08 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.vers.sh\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 16:19:43 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.vers.sh\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 21:07:28 2026 GMT\n  hsts: false\ndomains:\n- domain: vers.sh\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/security/vers-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vers/security/vers-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

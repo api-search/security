@@ -7,31 +7,31 @@ api_specs:
   label: OneSignal Apps API
   slug: onesignal-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/openapi/onesignal-apps-api-openapi.yml
+  url: https://artifacts.apis.io/onesignal/openapi/onesignal-apps-api-openapi.yml
 - filename: onesignal-notifications-api-openapi.yml
   format: yaml
   label: OneSignal Notifications API
   slug: onesignal-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/openapi/onesignal-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/onesignal/openapi/onesignal-notifications-api-openapi.yml
 - filename: onesignal-players-api-openapi.yml
   format: yaml
   label: OneSignal Players API
   slug: onesignal-players-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/openapi/onesignal-players-api-openapi.yml
+  url: https://artifacts.apis.io/onesignal/openapi/onesignal-players-api-openapi.yml
 - filename: onesignal-templates-api-openapi.yml
   format: yaml
   label: OneSignal Templates API
   slug: onesignal-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/openapi/onesignal-templates-api-openapi.yml
+  url: https://artifacts.apis.io/onesignal/openapi/onesignal-templates-api-openapi.yml
 - filename: onesignal-organizations-api-openapi.yml
   format: yaml
   label: OneSignal Organizations API
   slug: onesignal-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/openapi/onesignal-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/onesignal/openapi/onesignal-organizations-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://documen
   \  - openapi/_original/onesignal-openapi.yml\n- name: onesignal_oauth\n  type: oauth2\n  flow: authorization_code\n  pkce: required\n  pkce_methods:\n  - S256\n  issuer: https://api.onesignal.com\n  authorization_endpoint: https://dashboard.onesignal.com/oauth/authorize\n  token_endpoint: https://api.onesignal.com/oauth/token\n  revocation_endpoint: https://api.onesignal.com/oauth/revoke\n  registration_endpoint: https://api.onesignal.com/oauth/register\n  grant_types:\n  - authorization_code\n  - refresh_token\n  response_types:\n  - code\n  token_endpoint_auth_methods:\n  - client_secret_post\n  - none\n  scopes_published: false\n  scopes_note: >-\n    The authorization-server metadata publishes no scopes_supported field and\n    the docs document no scope vocabulary, so there is nothing to record in a\n    scopes artifact. Access appears to be granted per authenticating user across\n    every OneSignal app that user can reach.\n  used_by: https://api.onesignal.com/mcp/oauth\n  description:\
   \ >-\n    OAuth 2.1 server backing the hosted MCP endpoint. Added 2026-07-31 so\n    MCP-compatible clients (Claude, Cursor, Copilot, ChatGPT) can connect\n    without a customer pasting an API key. Connected clients are listed in\n    account settings and can be revoked.\n  sources:\n  - https://api.onesignal.com/.well-known/oauth-authorization-server\n  - https://api.onesignal.com/.well-known/oauth-protected-resource\n  - https://documentation.onesignal.com/release-notes/changelog\nprotected_resource:\n  resource: https://api.onesignal.com\n  authorization_servers:\n  - https://api.onesignal.com\n  bearer_methods_supported:\n  - header\n  source: https://api.onesignal.com/.well-known/oauth-protected-resource\ncontrols:\n- name: IP allowlist\n  detail: Optional per-key IP allowlist so a leaked key cannot be used from another\n    address. Settable at creation and editable afterwards.\n- name: Key rotation\n  detail: Rotation issues a new secret while keeping the same Key ID, name and\
   \ IP allowlist.\n    The old secret stops working immediately.\n- name: Two-step authentication\n  detail: Organization administrators can enforce 2FA for all team members.\n- name: Single sign-on\n  detail: SSO through WorkOS, integrating major identity providers.\n- name: Identity Verification\n  detail: Optional subscription-level identity verification to prevent impersonation\n    using an exposed subscription_id.\nlegacy:\n  detail: >-\n    App and Organization API keys were introduced November 2024. The legacy User\n    Auth key and original REST API key are still accepted, but their management\n    UI has been removed and new legacy keys cannot be created.\n  source: https://documentation.onesignal.com/docs/en/keys-and-ids\npublic_identifiers:\n- name: App ID\n  secret: false\n  note: Public and safe to share; can only create new user records.\n- name: Organization ID\n  secret: false\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/authentication/onesignal-authentication.yml
+source_yaml_url: https://artifacts.apis.io/onesignal/authentication/onesignal-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Notification

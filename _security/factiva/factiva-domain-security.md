@@ -41,31 +41,31 @@ api_specs:
   label: Factiva Content API
   slug: factiva-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-content-api-openapi.yml
+  url: https://artifacts.apis.io/factiva/openapi/factiva-content-api-openapi.yml
 - filename: factiva-content-search-api-openapi.yml
   format: yaml
   label: Factiva Content Search API
   slug: factiva-content-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-content-search-api-openapi.yml
+  url: https://artifacts.apis.io/factiva/openapi/factiva-content-search-api-openapi.yml
 - filename: factiva-default-api-openapi.yml
   format: yaml
   label: Factiva Default API
   slug: factiva-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-default-api-openapi.yml
+  url: https://artifacts.apis.io/factiva/openapi/factiva-default-api-openapi.yml
 - filename: factiva-editions-api-openapi.yml
   format: yaml
   label: Factiva Editions API
   slug: factiva-editions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-editions-api-openapi.yml
+  url: https://artifacts.apis.io/factiva/openapi/factiva-editions-api-openapi.yml
 - filename: factiva-newsletters-api-openapi.yml
   format: yaml
   label: Factiva Newsletters API
   slug: factiva-newsletters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-newsletters-api-openapi.yml
+  url: https://artifacts.apis.io/factiva/openapi/factiva-newsletters-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -104,7 +104,7 @@ source_filename: factiva-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.dowjones.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 14 23:59:59 2027 GMT\n  hsts: false\n- host: www.dowjones.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 29 23:59:59 2026 GMT\n  hsts: false\n- host: api.dowjones.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 14 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: dowjones.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/security/factiva-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/factiva/security/factiva-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Artificial Intelligence

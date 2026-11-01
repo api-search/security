@@ -7,25 +7,25 @@ api_specs:
   label: Quiltt Connections API
   slug: quiltt-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quiltt/refs/heads/main/openapi/quiltt-connections-api-openapi.yml
+  url: https://artifacts.apis.io/quiltt/openapi/quiltt-connections-api-openapi.yml
 - filename: quiltt-profiles-api-openapi.yml
   format: yaml
   label: Quiltt Profiles API
   slug: quiltt-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quiltt/refs/heads/main/openapi/quiltt-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/quiltt/openapi/quiltt-profiles-api-openapi.yml
 - filename: quiltt-session-tokens-api-openapi.yml
   format: yaml
   label: Quiltt Session Tokens API
   slug: quiltt-session-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quiltt/refs/heads/main/openapi/quiltt-session-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/quiltt/openapi/quiltt-session-tokens-api-openapi.yml
 - filename: quiltt-webhooks-api-openapi.yml
   format: yaml
   label: Quiltt Webhooks API
   slug: quiltt-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quiltt/refs/heads/main/openapi/quiltt-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/quiltt/openapi/quiltt-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: quiltt-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/quiltt-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: apiSecretKey\n  type: http\n  scheme: bearer\n  description: Your Quiltt API Secret Key used for Admin and token-issuance calls.\n  sources:\n  - openapi/quiltt-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quiltt/refs/heads/main/authentication/quiltt-authentication.yml
+source_yaml_url: https://artifacts.apis.io/quiltt/authentication/quiltt-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Fintech

@@ -5,37 +5,37 @@ api_specs:
   label: DAT Freight & Analytics BookNow API
   slug: dat-freight-booknow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dat-freight/refs/heads/main/openapi/dat-freight-booknow-api-openapi.yml
+  url: https://artifacts.apis.io/dat-freight/openapi/dat-freight-booknow-api-openapi.yml
 - filename: dat-freight-freight-posting-api-openapi.yml
   format: yaml
   label: DAT Freight & Analytics Freight Posting API
   slug: dat-freight-freight-posting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dat-freight/refs/heads/main/openapi/dat-freight-freight-posting-api-openapi.yml
+  url: https://artifacts.apis.io/dat-freight/openapi/dat-freight-freight-posting-api-openapi.yml
 - filename: dat-freight-identity-api-openapi.yml
   format: yaml
   label: DAT Freight & Analytics Identity API
   slug: dat-freight-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dat-freight/refs/heads/main/openapi/dat-freight-identity-api-openapi.yml
+  url: https://artifacts.apis.io/dat-freight/openapi/dat-freight-identity-api-openapi.yml
 - filename: dat-freight-load-board-search-api-openapi.yml
   format: yaml
   label: DAT Freight & Analytics Load Board Search API
   slug: dat-freight-load-board-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dat-freight/refs/heads/main/openapi/dat-freight-load-board-search-api-openapi.yml
+  url: https://artifacts.apis.io/dat-freight/openapi/dat-freight-load-board-search-api-openapi.yml
 - filename: dat-freight-rateview-api-openapi.yml
   format: yaml
   label: DAT Freight & Analytics RateView API
   slug: dat-freight-rateview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dat-freight/refs/heads/main/openapi/dat-freight-rateview-api-openapi.yml
+  url: https://artifacts.apis.io/dat-freight/openapi/dat-freight-rateview-api-openapi.yml
 - filename: dat-freight-tracking-api-openapi.yml
   format: yaml
   label: DAT Freight & Analytics Tracking API
   slug: dat-freight-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dat-freight/refs/heads/main/openapi/dat-freight-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/dat-freight/openapi/dat-freight-tracking-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: dat-freight-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dat.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 16:01:46 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: developer.dat.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 10:07:55 2026 GMT\n  hsts: null\n- host: identity.api.dat.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 23:55:59 2026 GMT\n  hsts: null\ndomains:\n- domain: dat.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dat-freight/refs/heads/main/security/dat-freight-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dat-freight/security/dat-freight-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Freight

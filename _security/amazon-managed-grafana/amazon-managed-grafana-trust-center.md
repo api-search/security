@@ -5,19 +5,31 @@ api_specs:
   label: Amazon Managed Grafana Tags API
   slug: amazon-managed-grafana-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/openapi/amazon-managed-grafana-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-managed-grafana/openapi/amazon-managed-grafana-tags-api-openapi.yml
 - filename: amazon-managed-grafana-versions-api-openapi.yml
   format: yaml
   label: Amazon Managed Grafana Versions API
   slug: amazon-managed-grafana-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/openapi/amazon-managed-grafana-versions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-managed-grafana/openapi/amazon-managed-grafana-versions-api-openapi.yml
 - filename: amazon-managed-grafana-workspaces-api-openapi.yml
   format: yaml
   label: Amazon Managed Grafana Workspaces API
   slug: amazon-managed-grafana-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/openapi/amazon-managed-grafana-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-managed-grafana/openapi/amazon-managed-grafana-workspaces-api-openapi.yml
+- filename: amazon-managed-grafana-serviceaccounts-api-openapi.yml
+  format: yaml
+  label: Amazon Managed Grafana Managed Grafana Serviceaccounts API
+  slug: amazon-managed-grafana-serviceaccounts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-managed-grafana/openapi/amazon-managed-grafana-serviceaccounts-api-openapi.yml
+- filename: amazon-managed-grafana-tokens-api-openapi.yml
+  format: yaml
+  label: Amazon Managed Grafana Managed Grafana Tokens API
+  slug: amazon-managed-grafana-tokens-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-managed-grafana/openapi/amazon-managed-grafana-tokens-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -38,7 +50,7 @@ source_filename: amazon-managed-grafana-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://aws.amazon.com/compliance/\nurl: https://aws.amazon.com/compliance/\ncertifications:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://aws.amazon.com/compliance/\n  keywords:\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/security/amazon-managed-grafana-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/amazon-managed-grafana/security/amazon-managed-grafana-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Dashboards

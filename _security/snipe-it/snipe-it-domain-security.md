@@ -5,31 +5,31 @@ api_specs:
   label: Snipe-IT File API
   slug: snipe-it-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipe-it/refs/heads/main/openapi/snipe-it-file-api-openapi.yml
+  url: https://artifacts.apis.io/snipe-it/openapi/snipe-it-file-api-openapi.yml
 - filename: snipe-it-files-api-openapi.yml
   format: yaml
   label: Snipe-IT Files API
   slug: snipe-it-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipe-it/refs/heads/main/openapi/snipe-it-files-api-openapi.yml
+  url: https://artifacts.apis.io/snipe-it/openapi/snipe-it-files-api-openapi.yml
 - filename: snipe-it-hardware-api-openapi.yml
   format: yaml
   label: Snipe-IT Hardware API
   slug: snipe-it-hardware-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipe-it/refs/heads/main/openapi/snipe-it-hardware-api-openapi.yml
+  url: https://artifacts.apis.io/snipe-it/openapi/snipe-it-hardware-api-openapi.yml
 - filename: snipe-it-models-api-openapi.yml
   format: yaml
   label: Snipe-IT Models API
   slug: snipe-it-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipe-it/refs/heads/main/openapi/snipe-it-models-api-openapi.yml
+  url: https://artifacts.apis.io/snipe-it/openapi/snipe-it-models-api-openapi.yml
 - filename: snipe-it-snipe-it-api-api-openapi.yml
   format: yaml
   label: Snipe-IT Snipe IT API
   slug: snipe-it-snipe-it-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipe-it/refs/heads/main/openapi/snipe-it-snipe-it-api-api-openapi.yml
+  url: https://artifacts.apis.io/snipe-it/openapi/snipe-it-snipe-it-api-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -65,7 +65,7 @@ source_filename: snipe-it-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: snipeitapp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  4 14:04:05 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: snipeitapp.com\n  dnssec: false\n  caa:\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"cloudflare.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snipe-it/refs/heads/main/security/snipe-it-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/snipe-it/security/snipe-it-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - IT Asset Management

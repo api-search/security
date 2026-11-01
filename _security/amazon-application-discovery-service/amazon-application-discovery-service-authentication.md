@@ -8,37 +8,43 @@ api_specs:
   label: Amazon Application Discovery Service Agents API
   slug: amazon-application-discovery-service-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/openapi/amazon-application-discovery-service-agents-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-application-discovery-service/openapi/amazon-application-discovery-service-agents-api-openapi.yml
 - filename: amazon-application-discovery-service-applications-api-openapi.yml
   format: yaml
   label: Amazon Application Discovery Service Applications API
   slug: amazon-application-discovery-service-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/openapi/amazon-application-discovery-service-applications-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-application-discovery-service/openapi/amazon-application-discovery-service-applications-api-openapi.yml
 - filename: amazon-application-discovery-service-configurations-api-openapi.yml
   format: yaml
   label: Amazon Application Discovery Service Configurations API
   slug: amazon-application-discovery-service-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/openapi/amazon-application-discovery-service-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-application-discovery-service/openapi/amazon-application-discovery-service-configurations-api-openapi.yml
 - filename: amazon-application-discovery-service-exports-api-openapi.yml
   format: yaml
   label: Amazon Application Discovery Service Exports API
   slug: amazon-application-discovery-service-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/openapi/amazon-application-discovery-service-exports-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-application-discovery-service/openapi/amazon-application-discovery-service-exports-api-openapi.yml
 - filename: amazon-application-discovery-service-imports-api-openapi.yml
   format: yaml
   label: Amazon Application Discovery Service Imports API
   slug: amazon-application-discovery-service-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/openapi/amazon-application-discovery-service-imports-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-application-discovery-service/openapi/amazon-application-discovery-service-imports-api-openapi.yml
 - filename: amazon-application-discovery-service-tags-api-openapi.yml
   format: yaml
   label: Amazon Application Discovery Service Tags API
   slug: amazon-application-discovery-service-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/openapi/amazon-application-discovery-service-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-application-discovery-service/openapi/amazon-application-discovery-service-tags-api-openapi.yml
+- filename: amazon-application-discovery-service-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Application Discovery Service Application Discovery Service Operations API
+  slug: amazon-application-discovery-service-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-application-discovery-service/openapi/amazon-application-discovery-service-operations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +72,7 @@ source_filename: amazon-application-discovery-service-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-application-discovery-service-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: sigv4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4 authentication\n  sources:\n  - openapi/amazon-application-discovery-service-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/authentication/amazon-application-discovery-service-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-application-discovery-service/authentication/amazon-application-discovery-service-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Amazon Application Discovery Service

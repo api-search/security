@@ -5,55 +5,55 @@ api_specs:
   label: IBANforge API Keys API
   slug: ibanforge-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/ibanforge/openapi/ibanforge-api-keys-api-openapi.yml
 - filename: ibanforge-bic-api-openapi.yml
   format: yaml
   label: IBANforge BIC API
   slug: ibanforge-bic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-bic-api-openapi.yml
+  url: https://artifacts.apis.io/ibanforge/openapi/ibanforge-bic-api-openapi.yml
 - filename: ibanforge-compliance-api-openapi.yml
   format: yaml
   label: IBANforge Compliance API
   slug: ibanforge-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/ibanforge/openapi/ibanforge-compliance-api-openapi.yml
 - filename: ibanforge-credits-api-openapi.yml
   format: yaml
   label: IBANforge Credits API
   slug: ibanforge-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-credits-api-openapi.yml
+  url: https://artifacts.apis.io/ibanforge/openapi/ibanforge-credits-api-openapi.yml
 - filename: ibanforge-free-api-openapi.yml
   format: yaml
   label: IBANforge Free API
   slug: ibanforge-free-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-free-api-openapi.yml
+  url: https://artifacts.apis.io/ibanforge/openapi/ibanforge-free-api-openapi.yml
 - filename: ibanforge-iban-api-openapi.yml
   format: yaml
   label: IBANforge IBAN API
   slug: ibanforge-iban-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-iban-api-openapi.yml
+  url: https://artifacts.apis.io/ibanforge/openapi/ibanforge-iban-api-openapi.yml
 - filename: ibanforge-mcp-api-openapi.yml
   format: yaml
   label: IBANforge MCP API
   slug: ibanforge-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/ibanforge/openapi/ibanforge-mcp-api-openapi.yml
 - filename: ibanforge-swiss-clearing-api-openapi.yml
   format: yaml
   label: IBANforge Swiss Clearing API
   slug: ibanforge-swiss-clearing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-swiss-clearing-api-openapi.yml
+  url: https://artifacts.apis.io/ibanforge/openapi/ibanforge-swiss-clearing-api-openapi.yml
 - filename: ibanforge-account-api-openapi.yml
   format: yaml
   label: IBANforge Account API
   slug: ibanforge-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-account-api-openapi.yml
+  url: https://artifacts.apis.io/ibanforge/openapi/ibanforge-account-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -90,7 +90,7 @@ source_filename: ibanforge-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ibanforge.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  1 18:45:25 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.ibanforge.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 09:12:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: ibanforge.com\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/security/ibanforge-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ibanforge/security/ibanforge-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Finance

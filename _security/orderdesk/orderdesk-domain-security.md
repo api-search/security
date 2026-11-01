@@ -5,31 +5,31 @@ api_specs:
   label: Order Desk Inventory Items API
   slug: orderdesk-inventory-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderdesk/refs/heads/main/openapi/orderdesk-inventory-items-api-openapi.yml
+  url: https://artifacts.apis.io/orderdesk/openapi/orderdesk-inventory-items-api-openapi.yml
 - filename: orderdesk-order-items-api-openapi.yml
   format: yaml
   label: Order Desk Order Items API
   slug: orderdesk-order-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderdesk/refs/heads/main/openapi/orderdesk-order-items-api-openapi.yml
+  url: https://artifacts.apis.io/orderdesk/openapi/orderdesk-order-items-api-openapi.yml
 - filename: orderdesk-orders-api-openapi.yml
   format: yaml
   label: Order Desk Orders API
   slug: orderdesk-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderdesk/refs/heads/main/openapi/orderdesk-orders-api-openapi.yml
+  url: https://artifacts.apis.io/orderdesk/openapi/orderdesk-orders-api-openapi.yml
 - filename: orderdesk-shipments-api-openapi.yml
   format: yaml
   label: Order Desk Shipments API
   slug: orderdesk-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderdesk/refs/heads/main/openapi/orderdesk-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/orderdesk/openapi/orderdesk-shipments-api-openapi.yml
 - filename: orderdesk-store-api-openapi.yml
   format: yaml
   label: Order Desk Store API
   slug: orderdesk-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderdesk/refs/heads/main/openapi/orderdesk-store-api-openapi.yml
+  url: https://artifacts.apis.io/orderdesk/openapi/orderdesk-store-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -74,7 +74,7 @@ source_filename: orderdesk-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.orderdesk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 04:16:56 2026 GMT\n  hsts: false\n- host: apidocs.orderdesk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 04:16:44 2026 GMT\n  hsts: false\n- host: app.orderdesk.me\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: orderdesk.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: orderdesk.me\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orderdesk/refs/heads/main/security/orderdesk-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/orderdesk/security/orderdesk-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - E-Commerce

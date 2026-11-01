@@ -5,43 +5,43 @@ api_specs:
   label: Duo Security Bulk API
   slug: duo-security-bulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/openapi/duo-security-bulk-api-openapi.yml
+  url: https://artifacts.apis.io/duo-security/openapi/duo-security-bulk-api-openapi.yml
 - filename: duo-security-bypass-codes-api-openapi.yml
   format: yaml
   label: Duo Security Bypass Codes API
   slug: duo-security-bypass-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/openapi/duo-security-bypass-codes-api-openapi.yml
+  url: https://artifacts.apis.io/duo-security/openapi/duo-security-bypass-codes-api-openapi.yml
 - filename: duo-security-groups-api-openapi.yml
   format: yaml
   label: Duo Security Groups API
   slug: duo-security-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/openapi/duo-security-groups-api-openapi.yml
+  url: https://artifacts.apis.io/duo-security/openapi/duo-security-groups-api-openapi.yml
 - filename: duo-security-phones-api-openapi.yml
   format: yaml
   label: Duo Security Phones API
   slug: duo-security-phones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/openapi/duo-security-phones-api-openapi.yml
+  url: https://artifacts.apis.io/duo-security/openapi/duo-security-phones-api-openapi.yml
 - filename: duo-security-tokens-api-openapi.yml
   format: yaml
   label: Duo Security Tokens API
   slug: duo-security-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/openapi/duo-security-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/duo-security/openapi/duo-security-tokens-api-openapi.yml
 - filename: duo-security-users-api-openapi.yml
   format: yaml
   label: Duo Security Users API
   slug: duo-security-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/openapi/duo-security-users-api-openapi.yml
+  url: https://artifacts.apis.io/duo-security/openapi/duo-security-users-api-openapi.yml
 - filename: duo-security-webauthn-api-openapi.yml
   format: yaml
   label: Duo Security WebAuthn API
   slug: duo-security-webauthn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/openapi/duo-security-webauthn-api-openapi.yml
+  url: https://artifacts.apis.io/duo-security/openapi/duo-security-webauthn-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -95,7 +95,7 @@ source_filename: duo-security-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: duo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  5 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api-xxxxxxxx.duosecurity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: duo.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"identrust.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"starfieldtech.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: duosecurity.com\n  dnssec: false\n  caa:\n  - 0 issue \"identrust.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"starfieldtech.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/security/duo-security-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/duo-security/security/duo-security-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Authentication

@@ -5,13 +5,13 @@ api_specs:
   label: Blockade Games Skybox Exports API
   slug: blockade-games-skybox-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockade-games/refs/heads/main/openapi/blockade-games-skybox-exports-api-openapi.yml
+  url: https://artifacts.apis.io/blockade-games/openapi/blockade-games-skybox-exports-api-openapi.yml
 - filename: blockade-games-skyboxes-api-openapi.yml
   format: yaml
   label: Blockade Games Skyboxes API
   slug: blockade-games-skyboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockade-games/refs/heads/main/openapi/blockade-games-skyboxes-api-openapi.yml
+  url: https://artifacts.apis.io/blockade-games/openapi/blockade-games-skyboxes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: blockade-games-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: blockade.games\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 18:47:53 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n- host: backend.blockadelabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 17 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: blockade.games\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: blockadelabs.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blockade-games/refs/heads/main/security/blockade-games-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/blockade-games/security/blockade-games-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

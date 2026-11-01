@@ -5,49 +5,49 @@ api_specs:
   label: Akuity Argo CD Service API
   slug: akuity-argocdservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/openapi/akuity-argocdservice-api-openapi.yml
+  url: https://artifacts.apis.io/akuity/openapi/akuity-argocdservice-api-openapi.yml
 - filename: akuity-customroleservice-api-openapi.yml
   format: yaml
   label: Akuity Custom Role Service API
   slug: akuity-customroleservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/openapi/akuity-customroleservice-api-openapi.yml
+  url: https://artifacts.apis.io/akuity/openapi/akuity-customroleservice-api-openapi.yml
 - filename: akuity-extensionservice-api-openapi.yml
   format: yaml
   label: Akuity Extension Service API
   slug: akuity-extensionservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/openapi/akuity-extensionservice-api-openapi.yml
+  url: https://artifacts.apis.io/akuity/openapi/akuity-extensionservice-api-openapi.yml
 - filename: akuity-kargoservice-api-openapi.yml
   format: yaml
   label: Akuity Kargo Service API
   slug: akuity-kargoservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/openapi/akuity-kargoservice-api-openapi.yml
+  url: https://artifacts.apis.io/akuity/openapi/akuity-kargoservice-api-openapi.yml
 - filename: akuity-organizationservice-api-openapi.yml
   format: yaml
   label: Akuity Organization Service API
   slug: akuity-organizationservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/openapi/akuity-organizationservice-api-openapi.yml
+  url: https://artifacts.apis.io/akuity/openapi/akuity-organizationservice-api-openapi.yml
 - filename: akuity-systemservice-api-openapi.yml
   format: yaml
   label: Akuity System Service API
   slug: akuity-systemservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/openapi/akuity-systemservice-api-openapi.yml
+  url: https://artifacts.apis.io/akuity/openapi/akuity-systemservice-api-openapi.yml
 - filename: akuity-api-key-service-api-openapi.yml
   format: yaml
   label: Akuity Api Key Service API
   slug: akuity-api-key-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/openapi/akuity-api-key-service-api-openapi.yml
+  url: https://artifacts.apis.io/akuity/openapi/akuity-api-key-service-api-openapi.yml
 - filename: akuity-auth-service-api-openapi.yml
   format: yaml
   label: Akuity Auth Service API
   slug: akuity-auth-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/openapi/akuity-auth-service-api-openapi.yml
+  url: https://artifacts.apis.io/akuity/openapi/akuity-auth-service-api-openapi.yml
 certification_count: 6
 certifications:
 - SOC 2 Type II
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-08-06'\nmethod: searched\nsource: https://akuity.
   \    without explicit customer consent.\" Akuity Intelligence uses live platform\n    context (logs, events, manifests, deployment history) at inference time.\n  support_access: limited, approved, time-bound, logged, revoked on completion\n  deletion: >-\n    Documented retention and deletion policies; customer data securely deleted\n    within defined timeframes on termination or request, with confirmation of\n    deletion available on request.\n\noperational_controls:\n  secure_sdlc:\n    - Mandatory peer review for all code changes\n    - Version-controlled change management\n    - Automated testing and security checks in CI/CD\n    - Dependency scanning and vulnerability detection\n    - Separation of duties between development and production access\n  monitoring:\n    - Centralized logging across infrastructure and applications\n    - Audit logging for administrative and access activities\n    - Continuous monitoring for anomalous behaviour\n  business_continuity:\n    - Continuous\
   \ backups of customer data\n    - Backups stored in a secondary region\n    - Documented and regularly tested disaster recovery procedures\n  employee_security:\n    - Background checks prior to access\n    - Mandatory security and privacy training\n    - Additional secure coding training for engineers\n  third_party_risk:\n    - Risk-based vendor assessment\n    - Review of third-party security attestations\n    - Least-privilege vendor access\n\ninfrastructure:\n  cloud: Amazon Web Services\n  network:\n    - WAF and DDoS protection\n    - Strictly controlled network access\n    - Segmented networks and access boundaries\n    - Logical isolation between customer environments\n  private_link: https://docs.akuity.io/akuity-portal/security/private-link\n  networking_requirements: https://docs.akuity.io/akuity-portal/security/akp-networking-requirements\n\nsecurity_contact: security@akuity.io\nsee_also:\n  - security/akuity-vulnerability-disclosure.yml\n  - security/akuity-domain-security.yml\n\
   \  - conformance/akuity-conformance.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/security/akuity-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/akuity/security/akuity-trust-center.yml
 summary_line: SOC 2 Type II, ISO/IEC 27001:2022, PCI DSS v4.0.1, HIPAA, CSA STAR Level 1, GDPR
 tags:
 - GitOps

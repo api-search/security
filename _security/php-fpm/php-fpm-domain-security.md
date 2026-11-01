@@ -5,13 +5,13 @@ api_specs:
   label: PHP-FPM Ping API
   slug: php-fpm-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/php-fpm/refs/heads/main/openapi/php-fpm-ping-api-openapi.yml
+  url: https://artifacts.apis.io/php-fpm/openapi/php-fpm-ping-api-openapi.yml
 - filename: php-fpm-status-api-openapi.yml
   format: yaml
   label: PHP-FPM Status API
   slug: php-fpm-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/php-fpm/refs/heads/main/openapi/php-fpm-status-api-openapi.yml
+  url: https://artifacts.apis.io/php-fpm/openapi/php-fpm-status-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,12 +41,12 @@ source_filename: php-fpm-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.php.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 09:13:57 2026 GMT\n  hsts: true\n  hsts_max_age: 15768000\ndomains:\n- domain: php.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/php-fpm/refs/heads/main/security/php-fpm-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/php-fpm/security/php-fpm-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - PHP
 - FastCGI
-- Process Manager
+- Process-Manager
 - Web Server
 - Application Server
 - Open Source

@@ -5,25 +5,25 @@ api_specs:
   label: Better Stack Heartbeats API
   slug: betterstack-heartbeats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/openapi/betterstack-heartbeats-api-openapi.yml
+  url: https://artifacts.apis.io/betterstack/openapi/betterstack-heartbeats-api-openapi.yml
 - filename: betterstack-incidents-api-openapi.yml
   format: yaml
   label: Better Stack Incidents API
   slug: betterstack-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/openapi/betterstack-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/betterstack/openapi/betterstack-incidents-api-openapi.yml
 - filename: betterstack-monitors-api-openapi.yml
   format: yaml
   label: Better Stack Monitors API
   slug: betterstack-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/openapi/betterstack-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/betterstack/openapi/betterstack-monitors-api-openapi.yml
 - filename: betterstack-status-pages-api-openapi.yml
   format: yaml
   label: Better Stack Status Pages API
   slug: betterstack-status-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/openapi/betterstack-status-pages-api-openapi.yml
+  url: https://artifacts.apis.io/betterstack/openapi/betterstack-status-pages-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: betterstack-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: betterstack.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  3 14:32:09 2026 GMT\n  hsts: true\n  hsts_max_age: 63113904\n- host: uptime.betterstack.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 21:33:24 2026 GMT\n  hsts: true\n  hsts_max_age: 63113904\ndomains:\n- domain: betterstack.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/security/betterstack-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/betterstack/security/betterstack-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Observability

@@ -7,19 +7,19 @@ api_specs:
   label: Jeeng Management API
   slug: jeeng-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/openapi/jeeng-management-api-openapi.yml
+  url: https://artifacts.apis.io/jeeng/openapi/jeeng-management-api-openapi.yml
 - filename: jeeng-reporting-api-openapi.yml
   format: yaml
   label: Jeeng Reporting API
   slug: jeeng-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/openapi/jeeng-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/jeeng/openapi/jeeng-reporting-api-openapi.yml
 - filename: jeeng-revenuestripe-onmicrosoft-com-api-openapi.yml
   format: yaml
   label: Jeeng Revenuestripe.onmicrosoft.com API
   slug: jeeng-revenuestripe-onmicrosoft-com-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/openapi/jeeng-revenuestripe-onmicrosoft-com-api-openapi.yml
+  url: https://artifacts.apis.io/jeeng/openapi/jeeng-revenuestripe-onmicrosoft-com-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: https://develop
   \ 0d82cfa7-eb30-4eb7-83e2-574580d8fb08\n  discovery: https://login.microsoftonline.com/revenuestripe.onmicrosoft.com/v2.0/.well-known/openid-configuration\n  sources:\n  - openapi/jeeng-authentication-openapi.yml\n  - openapi/jeeng-advertisers-openapi.yml\n  - openapi/jeeng-publishers-openapi.yml\nrequest:\n  method: POST\n  content_type: application/x-www-form-urlencoded\n  required_fields:\n  - client_id\n  - client_secret\n  - grant_type\n  - scope\n  grant_type: client_credentials\n  scope: api://revenuestripe.onmicrosoft.com/partners/.default\nresponse:\n  token_type: Bearer\n  expires_in: 3599\n  fields:\n  - token_type\n  - expires_in\n  - ext_expires_in\n  - access_token\nusage:\n  header: 'Authorization: Bearer <access_token>'\n  applies_to:\n  - https://powerinbox.azure-api.net/\nnotes:\n- >-\n  The OpenAPI securityScheme Jeeng publishes for the advertiser and publisher APIs declares\n  `type: oauth2` with an empty `flows` object; the flow, token URL and scope below are read\
   \ from the\n  provider's own authentication reference page rather than from the spec.\n- 'Documented failure mode: requesting a token with any scope other than the partners scope returns\n  HTTP 401 with the message \"Not authorized to this endpoint.\" — and because a wrong-scope token can\n  still succeed on some endpoints, it often surfaces only on the performance report endpoints.'\n- The tenant discovery document at login.microsoftonline.com was probed anonymously on 2026-08-12\n  (HTTP 200) and confirms the issuer and token endpoint above.\nx-evidence:\n- url: https://developers.jeeng.com/reference/getting-an-access-token.md\n  http_status: 200\n  fetched: '2026-08-12'\n- url: https://login.microsoftonline.com/revenuestripe.onmicrosoft.com/v2.0/.well-known/openid-configuration\n  http_status: 200\n  fetched: '2026-08-12'\n- url: https://powerinbox.azure-api.net/reporting/containers?api-version=1.0\n  http_status: 401\n  fetched: '2026-08-12'\n  note: unauthenticated call returns {\"\
   statusCode\":401,\"message\":\"Unauthorized\"}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/authentication/jeeng-authentication.yml
+source_yaml_url: https://artifacts.apis.io/jeeng/authentication/jeeng-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

@@ -26,12 +26,12 @@ source_filename: meecrogate-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: meecrogate.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 29 13:09:51 2026 GMT\n  hsts: false\ndomains:\n- domain: meecrogate.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meecrogate/refs/heads/main/security/meecrogate-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/meecrogate/security/meecrogate-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company
 - API Platform
-- Low-code
+- Low-Code
 - Sovereign Cloud
 - European
 ---

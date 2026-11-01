@@ -7,37 +7,37 @@ api_specs:
   label: Bloomberg EMSX Brokers API
   slug: bloomberg-emsx-brokers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/openapi/bloomberg-emsx-brokers-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-emsx/openapi/bloomberg-emsx-brokers-api-openapi.yml
 - filename: bloomberg-emsx-field-lists-api-openapi.yml
   format: yaml
   label: Bloomberg EMSX Field Lists API
   slug: bloomberg-emsx-field-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/openapi/bloomberg-emsx-field-lists-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-emsx/openapi/bloomberg-emsx-field-lists-api-openapi.yml
 - filename: bloomberg-emsx-fills-api-openapi.yml
   format: yaml
   label: Bloomberg EMSX Fills API
   slug: bloomberg-emsx-fills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/openapi/bloomberg-emsx-fills-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-emsx/openapi/bloomberg-emsx-fills-api-openapi.yml
 - filename: bloomberg-emsx-orders-api-openapi.yml
   format: yaml
   label: Bloomberg EMSX Orders API
   slug: bloomberg-emsx-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/openapi/bloomberg-emsx-orders-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-emsx/openapi/bloomberg-emsx-orders-api-openapi.yml
 - filename: bloomberg-emsx-routes-api-openapi.yml
   format: yaml
   label: Bloomberg EMSX Routes API
   slug: bloomberg-emsx-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/openapi/bloomberg-emsx-routes-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-emsx/openapi/bloomberg-emsx-routes-api-openapi.yml
 - filename: bloomberg-emsx-teams-api-openapi.yml
   format: yaml
   label: Bloomberg EMSX Teams API
   slug: bloomberg-emsx-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/openapi/bloomberg-emsx-teams-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-emsx/openapi/bloomberg-emsx-teams-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -65,7 +65,7 @@ source_filename: bloomberg-emsx-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bloomberg-emsx-trading-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Bloomberg API authentication token obtained via Bloomberg B-PIPE or Bloomberg\n    Terminal authentication\n  sources:\n  - openapi/bloomberg-emsx-trading-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/authentication/bloomberg-emsx-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bloomberg-emsx/authentication/bloomberg-emsx-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Bloomberg

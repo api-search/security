@@ -7,49 +7,49 @@ api_specs:
   label: Ticket Tailor Check-ins API
   slug: tickettailor-check-ins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tickettailor/refs/heads/main/openapi/tickettailor-check-ins-api-openapi.yml
+  url: https://artifacts.apis.io/tickettailor/openapi/tickettailor-check-ins-api-openapi.yml
 - filename: tickettailor-event-series-api-openapi.yml
   format: yaml
   label: Ticket Tailor Event Series API
   slug: tickettailor-event-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tickettailor/refs/heads/main/openapi/tickettailor-event-series-api-openapi.yml
+  url: https://artifacts.apis.io/tickettailor/openapi/tickettailor-event-series-api-openapi.yml
 - filename: tickettailor-events-api-openapi.yml
   format: yaml
   label: Ticket Tailor Events API
   slug: tickettailor-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tickettailor/refs/heads/main/openapi/tickettailor-events-api-openapi.yml
+  url: https://artifacts.apis.io/tickettailor/openapi/tickettailor-events-api-openapi.yml
 - filename: tickettailor-issued-tickets-api-openapi.yml
   format: yaml
   label: Ticket Tailor Issued Tickets API
   slug: tickettailor-issued-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tickettailor/refs/heads/main/openapi/tickettailor-issued-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/tickettailor/openapi/tickettailor-issued-tickets-api-openapi.yml
 - filename: tickettailor-orders-api-openapi.yml
   format: yaml
   label: Ticket Tailor Orders API
   slug: tickettailor-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tickettailor/refs/heads/main/openapi/tickettailor-orders-api-openapi.yml
+  url: https://artifacts.apis.io/tickettailor/openapi/tickettailor-orders-api-openapi.yml
 - filename: tickettailor-ticket-types-api-openapi.yml
   format: yaml
   label: Ticket Tailor Ticket Types API
   slug: tickettailor-ticket-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tickettailor/refs/heads/main/openapi/tickettailor-ticket-types-api-openapi.yml
+  url: https://artifacts.apis.io/tickettailor/openapi/tickettailor-ticket-types-api-openapi.yml
 - filename: tickettailor-utility-api-openapi.yml
   format: yaml
   label: Ticket Tailor Utility API
   slug: tickettailor-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tickettailor/refs/heads/main/openapi/tickettailor-utility-api-openapi.yml
+  url: https://artifacts.apis.io/tickettailor/openapi/tickettailor-utility-api-openapi.yml
 - filename: tickettailor-vouchers-api-openapi.yml
   format: yaml
   label: Ticket Tailor Vouchers API
   slug: tickettailor-vouchers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tickettailor/refs/heads/main/openapi/tickettailor-vouchers-api-openapi.yml
+  url: https://artifacts.apis.io/tickettailor/openapi/tickettailor-vouchers-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -76,7 +76,7 @@ source_filename: tickettailor-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tickettailor-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic Auth. Supply your Ticket Tailor API key as the username and leave\n    the password blank. Keys are managed in box office settings and are scoped to the issuing\n    box office.\n  sources:\n  - openapi/tickettailor-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tickettailor/refs/heads/main/authentication/tickettailor-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tickettailor/authentication/tickettailor-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Event Ticketing

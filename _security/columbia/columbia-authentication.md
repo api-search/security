@@ -7,7 +7,7 @@ api_specs:
   label: Columbia University Locations API
   slug: columbia-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/openapi/columbia-locations-api-openapi.yml
+  url: https://artifacts.apis.io/columbia/openapi/columbia-locations-api-openapi.yml
 auth_types: []
 description: 'How authentication works across the surfaces Columbia University operates. The shape of this file is the shape of the institution: one small API that needs no credential at all, and an otherwise complete estate that is reachable only with a Columbia UNI. There is no API key, no OAuth client registration, no developer account and no self-service path to any Columbia surface for a caller who is not affiliated with the university.'
 kind: authentication
@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-08-19'\nmethod: probed\nsource: >-\n  Live probes
   \    JSON and XML feeds for the course directory, the CLIO catalogue and building access — states\n    that any member of the University community may log in with their UNI to consume the feeds.\n    That is the whole access model: affiliation is the credential. There is no external tier, no\n    partner tier and no application process for a non-Columbia caller.\n  method: searched\n  evidence: https://opendataservice.columbia.edu/about\n  status_code: 403\n  note: >-\n    The Open Data Service is behind a Cloudflare managed challenge and its documentation could not\n    be read directly on this run. The access model above is carried forward from the prior profile\n    and is not re-verified; it is not upgraded to `probed`.\n- id: oidc-absent\n  name: OpenID Connect\n  status: not_published\n  x-operator: institution\n  description: >-\n    Columbia's Shibboleth IdP does not publish an OIDC discovery document.\n    shibboleth.columbia.edu/.well-known/openid-configuration returns 404 and\n\
   \    /idp/profile/oidc/keyset returns HTTP 500. The identity estate is SAML-only in everything it\n    publishes.\n  method: probed\n  evidence: https://shibboleth.columbia.edu/.well-known/openid-configuration\n  status_code: 404\n- id: canvas-token\n  name: Instructure Canvas bearer token (CourseWorks)\n  type: bearer\n  x-operator: tenant\n  description: >-\n    CourseWorks, Columbia's learning management system, is Instructure's Canvas. Its REST API\n    accepts Canvas access tokens issued to Columbia accounts and returns a structured JSON 401\n    otherwise. The credential, the token lifecycle and the documentation are Instructure's;\n    Columbia supplies the users.\n  method: probed\n  evidence: https://courseworks2.columbia.edu/api/v1/accounts\n  status_code: 401\nsummary:\n  public_no_auth_surfaces: 4\n  affiliation_gated_surfaces: 2\n  self_service_registration: false\n  api_keys_issued: false\n  oauth_client_registration: false\nnotes: >-\n  The honest headline is that Columbia\
   \ issues no API credential to anyone outside the university.\n  What saves the profile from being entirely gated is that the four surfaces which are open —\n  the Hours API, the IdP metadata, the CC0 MARCXML bulk extracts and the class directory — are\n  open completely, with no key, no quota and no click-through.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/authentication/columbia-authentication.yml
+source_yaml_url: https://artifacts.apis.io/columbia/authentication/columbia-authentication.yml
 summary_line: 6 schemes
 tags:
 - University

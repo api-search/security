@@ -1,35 +1,41 @@
 ---
 api_specs:
+- filename: clyde-openapi-generated.yml
+  format: yaml
+  label: Clyde API
+  slug: clyde-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clyde/openapi/_ae-authored/clyde-openapi-generated.yml
 - filename: clyde-contract-sales-api-openapi.yml
   format: yaml
   label: Clyde Contract Sales API
   slug: clyde-contract-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clyde/refs/heads/main/openapi/clyde-contract-sales-api-openapi.yml
+  url: https://artifacts.apis.io/clyde/openapi/clyde-contract-sales-api-openapi.yml
 - filename: clyde-orders-api-openapi.yml
   format: yaml
   label: Clyde Orders API
   slug: clyde-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clyde/refs/heads/main/openapi/clyde-orders-api-openapi.yml
+  url: https://artifacts.apis.io/clyde/openapi/clyde-orders-api-openapi.yml
 - filename: clyde-products-api-openapi.yml
   format: yaml
   label: Clyde Products API
   slug: clyde-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clyde/refs/heads/main/openapi/clyde-products-api-openapi.yml
+  url: https://artifacts.apis.io/clyde/openapi/clyde-products-api-openapi.yml
 - filename: clyde-taxonomies-api-openapi.yml
   format: yaml
   label: Clyde Taxonomies API
   slug: clyde-taxonomies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clyde/refs/heads/main/openapi/clyde-taxonomies-api-openapi.yml
+  url: https://artifacts.apis.io/clyde/openapi/clyde-taxonomies-api-openapi.yml
 - filename: clyde-vouchers-api-openapi.yml
   format: yaml
   label: Clyde Vouchers API
   slug: clyde-vouchers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clyde/refs/heads/main/openapi/clyde-vouchers-api-openapi.yml
+  url: https://artifacts.apis.io/clyde/openapi/clyde-vouchers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +65,7 @@ source_filename: clyde-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: joinclyde.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 12 14:35:30 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: joinclyde.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clyde/refs/heads/main/security/clyde-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/clyde/security/clyde-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Extended Warranty

@@ -39,7 +39,7 @@ source_filename: j-hilburn-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-23'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml hosts, plus hand-probed api.jhilburn.com and stylist.jhilburn.com\n  (2026-08-23)\nhosts:\n- host: jhilburn.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 09:06:15 2026 GMT\n  hsts: null\n- host: api.jhilburn.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 29 13:24:54 2026 GMT\n  hsts: null\n  note: Live dedicated origin (Microsoft-IIS/8.5, X-Powered-By ASP.NET) that answers 403 at / and 404\n    on every documentation path probed. No HSTS header. Not fronted by the CDN that fronts jhilburn.com.\n- host: stylist.jhilburn.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  7 14:32:28 2026 GMT\n  hsts: max-age=15552000\n  note: Stylist recruiting/training site. HSTS present without includeSubDomains or preload.\ndomains:\n- domain: jhilburn.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/j-hilburn/refs/heads/main/security/j-hilburn-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/j-hilburn/security/j-hilburn-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -7,31 +7,31 @@ api_specs:
   label: Starbridge Bridges API
   slug: starbridge-bridges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/openapi/starbridge-bridges-api-openapi.yml
+  url: https://artifacts.apis.io/starbridge/openapi/starbridge-bridges-api-openapi.yml
 - filename: starbridge-buyer-api-openapi.yml
   format: yaml
   label: Starbridge Buyer API
   slug: starbridge-buyer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/openapi/starbridge-buyer-api-openapi.yml
+  url: https://artifacts.apis.io/starbridge/openapi/starbridge-buyer-api-openapi.yml
 - filename: starbridge-columns-api-openapi.yml
   format: yaml
   label: Starbridge Columns API
   slug: starbridge-columns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/openapi/starbridge-columns-api-openapi.yml
+  url: https://artifacts.apis.io/starbridge/openapi/starbridge-columns-api-openapi.yml
 - filename: starbridge-external-mcp-api-openapi.yml
   format: yaml
   label: Starbridge External MCP API
   slug: starbridge-external-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/openapi/starbridge-external-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/starbridge/openapi/starbridge-external-mcp-api-openapi.yml
 - filename: starbridge-signal-api-openapi.yml
   format: yaml
   label: Starbridge Signal API
   slug: starbridge-signal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/openapi/starbridge-signal-api-openapi.yml
+  url: https://artifacts.apis.io/starbridge/openapi/starbridge-signal-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -60,7 +60,7 @@ source_filename: starbridge-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: >-\n  https://hc.starbridge.ai/api-reference/rest/generating-an-api-key +\n  openapi/starbridge-openapi.json\ndocs: https://hc.starbridge.ai/api-reference/rest/generating-an-api-key\nsummary:\n  types:\n  - http\nschemes:\n- name: apiKey\n  type: http\n  scheme: bearer\n  description: >-\n    HTTP Bearer authentication. Create an API key in the Starbridge dashboard\n    (Settings -> API Keys, https://dashboard.starbridge.ai/settings/api-keys) and\n    send it as 'Authorization: Bearer <api_key>'. Keys are named per service/integration.\n  issuance_url: https://dashboard.starbridge.ai/settings/api-keys\n  sources:\n  - openapi/starbridge-openapi.json\n  - https://hc.starbridge.ai/api-reference/rest/generating-an-api-key\n# MCP access uses a separate OAuth 2.0 flow (auth.starbridge.ai); see mcp/starbridge-mcp.yml.\nmcp_auth:\n  type: oauth2\n  authorization_server: https://auth.starbridge.ai\n  scopes: [mcp:tools]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/authentication/starbridge-authentication.yml
+source_yaml_url: https://artifacts.apis.io/starbridge/authentication/starbridge-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

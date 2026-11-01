@@ -27,7 +27,7 @@ source_filename: atlantic-industrial-group-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: atlanticindustrialgroup.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 12 01:55:09 2026 GMT\n  hsts: false\ndomains:\n- domain: atlanticindustrialgroup.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atlantic-industrial-group/refs/heads/main/security/atlantic-industrial-group-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/atlantic-industrial-group/security/atlantic-industrial-group-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

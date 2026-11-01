@@ -38,7 +38,7 @@ source_filename: accelerant-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: accelerant.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 02:31:02 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.accelerant.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 18:13:15 2026 GMT\n  hsts: false\n- host: api.accelerant.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 02:31:02 2026 GMT\n  hsts: null\ndomains:\n- domain: accelerant.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/accelerant/refs/heads/main/security/accelerant-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/accelerant/security/accelerant-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance

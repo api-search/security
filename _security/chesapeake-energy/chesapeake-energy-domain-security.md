@@ -32,7 +32,7 @@ source_filename: chesapeake-energy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.chk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: chk.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issuewild \"globalsign.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 iodef \"mailto:itsecmon@expandenergy.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chesapeake-energy/refs/heads/main/security/chesapeake-energy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/chesapeake-energy/security/chesapeake-energy-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Energy

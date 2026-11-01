@@ -5,61 +5,61 @@ api_specs:
   label: Paylocity Background Check API
   slug: paylocity-background-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/openapi/paylocity-background-check-api-openapi.yml
+  url: https://artifacts.apis.io/paylocity/openapi/paylocity-background-check-api-openapi.yml
 - filename: paylocity-company-api-openapi.yml
   format: yaml
   label: Paylocity Company API
   slug: paylocity-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/openapi/paylocity-company-api-openapi.yml
+  url: https://artifacts.apis.io/paylocity/openapi/paylocity-company-api-openapi.yml
 - filename: paylocity-deductions-api-openapi.yml
   format: yaml
   label: Paylocity Deductions API
   slug: paylocity-deductions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/openapi/paylocity-deductions-api-openapi.yml
+  url: https://artifacts.apis.io/paylocity/openapi/paylocity-deductions-api-openapi.yml
 - filename: paylocity-earnings-api-openapi.yml
   format: yaml
   label: Paylocity Earnings API
   slug: paylocity-earnings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/openapi/paylocity-earnings-api-openapi.yml
+  url: https://artifacts.apis.io/paylocity/openapi/paylocity-earnings-api-openapi.yml
 - filename: paylocity-employees-api-openapi.yml
   format: yaml
   label: Paylocity Employees API
   slug: paylocity-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/openapi/paylocity-employees-api-openapi.yml
+  url: https://artifacts.apis.io/paylocity/openapi/paylocity-employees-api-openapi.yml
 - filename: paylocity-lms-api-openapi.yml
   format: yaml
   label: Paylocity LMS API
   slug: paylocity-lms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/openapi/paylocity-lms-api-openapi.yml
+  url: https://artifacts.apis.io/paylocity/openapi/paylocity-lms-api-openapi.yml
 - filename: paylocity-payroll-api-openapi.yml
   format: yaml
   label: Paylocity Payroll API
   slug: paylocity-payroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/openapi/paylocity-payroll-api-openapi.yml
+  url: https://artifacts.apis.io/paylocity/openapi/paylocity-payroll-api-openapi.yml
 - filename: paylocity-scheduling-api-openapi.yml
   format: yaml
   label: Paylocity Scheduling API
   slug: paylocity-scheduling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/openapi/paylocity-scheduling-api-openapi.yml
+  url: https://artifacts.apis.io/paylocity/openapi/paylocity-scheduling-api-openapi.yml
 - filename: paylocity-taxes-api-openapi.yml
   format: yaml
   label: Paylocity Taxes API
   slug: paylocity-taxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/openapi/paylocity-taxes-api-openapi.yml
+  url: https://artifacts.apis.io/paylocity/openapi/paylocity-taxes-api-openapi.yml
 - filename: paylocity-time-api-openapi.yml
   format: yaml
   label: Paylocity Time API
   slug: paylocity-time-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/openapi/paylocity-time-api-openapi.yml
+  url: https://artifacts.apis.io/paylocity/openapi/paylocity-time-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -105,7 +105,7 @@ source_filename: paylocity-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.paylocity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 27 01:02:51 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.paylocity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 02:15:14 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.paylocity.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  2 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: paylocity.com\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/security/paylocity-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/paylocity/security/paylocity-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Human Resources

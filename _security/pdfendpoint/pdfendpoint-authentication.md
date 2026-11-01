@@ -7,19 +7,19 @@ api_specs:
   label: PDFEndpoint Account API
   slug: pdfendpoint-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfendpoint/refs/heads/main/openapi/pdfendpoint-account-api-openapi.yml
+  url: https://artifacts.apis.io/pdfendpoint/openapi/pdfendpoint-account-api-openapi.yml
 - filename: pdfendpoint-convert-api-openapi.yml
   format: yaml
   label: PDFEndpoint Convert API
   slug: pdfendpoint-convert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfendpoint/refs/heads/main/openapi/pdfendpoint-convert-api-openapi.yml
+  url: https://artifacts.apis.io/pdfendpoint/openapi/pdfendpoint-convert-api-openapi.yml
 - filename: pdfendpoint-renders-api-openapi.yml
   format: yaml
   label: PDFEndpoint Renders API
   slug: pdfendpoint-renders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfendpoint/refs/heads/main/openapi/pdfendpoint-renders-api-openapi.yml
+  url: https://artifacts.apis.io/pdfendpoint/openapi/pdfendpoint-renders-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: pdfendpoint-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pdfendpoint-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: API key passed as a Bearer token in the Authorization header. Manage keys at\n    https://pdfendpoint.com/app/tokens.\n  sources:\n  - openapi/pdfendpoint-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pdfendpoint/refs/heads/main/authentication/pdfendpoint-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pdfendpoint/authentication/pdfendpoint-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - PDF

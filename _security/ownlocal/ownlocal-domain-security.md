@@ -5,25 +5,25 @@ api_specs:
   label: OwnLocal Ads API
   slug: ownlocal-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/openapi/ownlocal-ads-api-openapi.yml
+  url: https://artifacts.apis.io/ownlocal/openapi/ownlocal-ads-api-openapi.yml
 - filename: ownlocal-businesses-api-openapi.yml
   format: yaml
   label: OwnLocal Businesses API
   slug: ownlocal-businesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/openapi/ownlocal-businesses-api-openapi.yml
+  url: https://artifacts.apis.io/ownlocal/openapi/ownlocal-businesses-api-openapi.yml
 - filename: ownlocal-categories-api-openapi.yml
   format: yaml
   label: OwnLocal Categories API
   slug: ownlocal-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/openapi/ownlocal-categories-api-openapi.yml
+  url: https://artifacts.apis.io/ownlocal/openapi/ownlocal-categories-api-openapi.yml
 - filename: ownlocal-reports-data-api-api-openapi.yml
   format: yaml
   label: OwnLocal Reports Data API
   slug: ownlocal-reports-data-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/openapi/ownlocal-reports-data-api-api-openapi.yml
+  url: https://artifacts.apis.io/ownlocal/openapi/ownlocal-reports-data-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,7 +62,7 @@ source_filename: ownlocal-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ownlocal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 18:26:48 2026 GMT\n  hsts: false\n- host: api.docs.ownlocal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 11:55:50 2026 GMT\n  hsts: false\n- host: admin.austin.ownlocal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 01:07:12 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: ownlocal.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/security/ownlocal-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ownlocal/security/ownlocal-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

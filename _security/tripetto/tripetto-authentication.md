@@ -7,19 +7,19 @@ api_specs:
   label: Tripetto Forms API
   slug: tripetto-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/openapi/tripetto-forms-api-openapi.yml
+  url: https://artifacts.apis.io/tripetto/openapi/tripetto-forms-api-openapi.yml
 - filename: tripetto-responses-api-openapi.yml
   format: yaml
   label: Tripetto Responses API
   slug: tripetto-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/openapi/tripetto-responses-api-openapi.yml
+  url: https://artifacts.apis.io/tripetto/openapi/tripetto-responses-api-openapi.yml
 - filename: tripetto-webhooks-api-openapi.yml
   format: yaml
   label: Tripetto Webhooks API
   slug: tripetto-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/openapi/tripetto-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/tripetto/openapi/tripetto-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: tripetto-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tripetto-form-builder-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token for API authentication\n  sources:\n  - openapi/tripetto-form-builder-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/authentication/tripetto-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tripetto/authentication/tripetto-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Forms

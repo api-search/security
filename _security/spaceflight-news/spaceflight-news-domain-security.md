@@ -5,25 +5,25 @@ api_specs:
   label: Spaceflight News Articles API
   slug: spaceflight-news-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaceflight-news/refs/heads/main/openapi/spaceflight-news-articles-api-openapi.yml
+  url: https://artifacts.apis.io/spaceflight-news/openapi/spaceflight-news-articles-api-openapi.yml
 - filename: spaceflight-news-blogs-api-openapi.yml
   format: yaml
   label: Spaceflight News Blogs API
   slug: spaceflight-news-blogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaceflight-news/refs/heads/main/openapi/spaceflight-news-blogs-api-openapi.yml
+  url: https://artifacts.apis.io/spaceflight-news/openapi/spaceflight-news-blogs-api-openapi.yml
 - filename: spaceflight-news-info-api-openapi.yml
   format: yaml
   label: Spaceflight News Info API
   slug: spaceflight-news-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaceflight-news/refs/heads/main/openapi/spaceflight-news-info-api-openapi.yml
+  url: https://artifacts.apis.io/spaceflight-news/openapi/spaceflight-news-info-api-openapi.yml
 - filename: spaceflight-news-reports-api-openapi.yml
   format: yaml
   label: Spaceflight News Reports API
   slug: spaceflight-news-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaceflight-news/refs/heads/main/openapi/spaceflight-news-reports-api-openapi.yml
+  url: https://artifacts.apis.io/spaceflight-news/openapi/spaceflight-news-reports-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -67,7 +67,7 @@ source_filename: spaceflight-news-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: spaceflightnewsapi.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 09:23:58 2026 GMT\n  hsts: false\n- host: api.spaceflightnewsapi.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 20:28:37 2026 GMT\n  hsts: null\n- host: thespacedevs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 05:16:03 2026 GMT\n  hsts: false\ndomains:\n- domain: spaceflightnewsapi.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: thespacedevs.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spaceflight-news/refs/heads/main/security/spaceflight-news-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/spaceflight-news/security/spaceflight-news-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - News

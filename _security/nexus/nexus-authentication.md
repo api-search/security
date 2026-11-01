@@ -7,49 +7,49 @@ api_specs:
   label: Nexus Repository Manager Assets API
   slug: nexus-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexus/refs/heads/main/openapi/nexus-assets-api-openapi.yml
+  url: https://artifacts.apis.io/nexus/openapi/nexus-assets-api-openapi.yml
 - filename: nexus-blobstores-api-openapi.yml
   format: yaml
   label: Nexus Repository Manager BlobStores API
   slug: nexus-blobstores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexus/refs/heads/main/openapi/nexus-blobstores-api-openapi.yml
+  url: https://artifacts.apis.io/nexus/openapi/nexus-blobstores-api-openapi.yml
 - filename: nexus-components-api-openapi.yml
   format: yaml
   label: Nexus Repository Manager Components API
   slug: nexus-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexus/refs/heads/main/openapi/nexus-components-api-openapi.yml
+  url: https://artifacts.apis.io/nexus/openapi/nexus-components-api-openapi.yml
 - filename: nexus-repositories-api-openapi.yml
   format: yaml
   label: Nexus Repository Manager Repositories API
   slug: nexus-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexus/refs/heads/main/openapi/nexus-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/nexus/openapi/nexus-repositories-api-openapi.yml
 - filename: nexus-search-api-openapi.yml
   format: yaml
   label: Nexus Repository Manager Search API
   slug: nexus-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexus/refs/heads/main/openapi/nexus-search-api-openapi.yml
+  url: https://artifacts.apis.io/nexus/openapi/nexus-search-api-openapi.yml
 - filename: nexus-security-api-openapi.yml
   format: yaml
   label: Nexus Repository Manager Security API
   slug: nexus-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexus/refs/heads/main/openapi/nexus-security-api-openapi.yml
+  url: https://artifacts.apis.io/nexus/openapi/nexus-security-api-openapi.yml
 - filename: nexus-status-api-openapi.yml
   format: yaml
   label: Nexus Repository Manager Status API
   slug: nexus-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexus/refs/heads/main/openapi/nexus-status-api-openapi.yml
+  url: https://artifacts.apis.io/nexus/openapi/nexus-status-api-openapi.yml
 - filename: nexus-tasks-api-openapi.yml
   format: yaml
   label: Nexus Repository Manager Tasks API
   slug: nexus-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexus/refs/heads/main/openapi/nexus-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/nexus/openapi/nexus-tasks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -84,7 +84,7 @@ source_filename: nexus-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/nexus-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication with a Nexus user account.\n  sources:\n  - openapi/nexus-openapi.yml\n- name: userToken\n  type: http\n  scheme: bearer\n  description: |-\n    Nexus user token authentication. Tokens can be generated\n    per user when User Tokens are enabled on the instance.\n  sources:\n  - openapi/nexus-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nexus/refs/heads/main/authentication/nexus-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nexus/authentication/nexus-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Artifact Management

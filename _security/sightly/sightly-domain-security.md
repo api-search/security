@@ -27,7 +27,7 @@ source_filename: sightly-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sightly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 21:24:07 2026 GMT\n  hsts: false\ndomains:\n- domain: sightly.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sightly/refs/heads/main/security/sightly-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sightly/security/sightly-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

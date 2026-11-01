@@ -5,31 +5,31 @@ api_specs:
   label: OpenLaws Courts API
   slug: openlaws-courts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openlaws/refs/heads/main/openapi/openlaws-courts-api-openapi.yml
+  url: https://artifacts.apis.io/openlaws/openapi/openlaws-courts-api-openapi.yml
 - filename: openlaws-jurisdictions-api-openapi.yml
   format: yaml
   label: OpenLaws Jurisdictions API
   slug: openlaws-jurisdictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openlaws/refs/heads/main/openapi/openlaws-jurisdictions-api-openapi.yml
+  url: https://artifacts.apis.io/openlaws/openapi/openlaws-jurisdictions-api-openapi.yml
 - filename: openlaws-law-divisions-api-openapi.yml
   format: yaml
   label: OpenLaws Law Divisions API
   slug: openlaws-law-divisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openlaws/refs/heads/main/openapi/openlaws-law-divisions-api-openapi.yml
+  url: https://artifacts.apis.io/openlaws/openapi/openlaws-law-divisions-api-openapi.yml
 - filename: openlaws-laws-api-openapi.yml
   format: yaml
   label: OpenLaws Laws API
   slug: openlaws-laws-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openlaws/refs/heads/main/openapi/openlaws-laws-api-openapi.yml
+  url: https://artifacts.apis.io/openlaws/openapi/openlaws-laws-api-openapi.yml
 - filename: openlaws-opinions-api-openapi.yml
   format: yaml
   label: OpenLaws Opinions API
   slug: openlaws-opinions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openlaws/refs/heads/main/openapi/openlaws-opinions-api-openapi.yml
+  url: https://artifacts.apis.io/openlaws/openapi/openlaws-opinions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: openlaws-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: openlaws.us\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 05:46:33 2026 GMT\n  hsts: false\n- host: api.openlaws.us\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 23:24:17 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: openlaws.us\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openlaws/refs/heads/main/security/openlaws-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/openlaws/security/openlaws-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Legal

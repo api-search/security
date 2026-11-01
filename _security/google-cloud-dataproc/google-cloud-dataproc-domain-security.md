@@ -5,19 +5,19 @@ api_specs:
   label: Google Cloud Dataproc Clusters API
   slug: google-cloud-dataproc-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataproc/refs/heads/main/openapi/google-cloud-dataproc-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dataproc/openapi/google-cloud-dataproc-clusters-api-openapi.yml
 - filename: google-cloud-dataproc-jobs-api-openapi.yml
   format: yaml
   label: Google Cloud Dataproc Jobs API
   slug: google-cloud-dataproc-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataproc/refs/heads/main/openapi/google-cloud-dataproc-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dataproc/openapi/google-cloud-dataproc-jobs-api-openapi.yml
 - filename: google-cloud-dataproc-workflow-templates-api-openapi.yml
   format: yaml
   label: Google Cloud Dataproc Workflow Templates API
   slug: google-cloud-dataproc-workflow-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataproc/refs/heads/main/openapi/google-cloud-dataproc-workflow-templates-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dataproc/openapi/google-cloud-dataproc-workflow-templates-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -60,7 +60,7 @@ source_filename: google-cloud-dataproc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cloud.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: dataproc.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:17 2026 GMT\n  hsts: null\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataproc/refs/heads/main/security/google-cloud-dataproc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-dataproc/security/google-cloud-dataproc-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Big Data

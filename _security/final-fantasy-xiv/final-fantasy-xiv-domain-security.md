@@ -27,7 +27,7 @@ source_filename: final-fantasy-xiv-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: xivapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 21:57:20 2026 GMT\n  hsts: false\ndomains:\n- domain: xivapi.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/final-fantasy-xiv/refs/heads/main/security/final-fantasy-xiv-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/final-fantasy-xiv/security/final-fantasy-xiv-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Public APIs

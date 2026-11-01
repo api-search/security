@@ -5,13 +5,13 @@ api_specs:
   label: Kustomer Conversations API
   slug: kustomer-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kustomer/refs/heads/main/openapi/kustomer-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/kustomer/openapi/kustomer-conversations-api-openapi.yml
 - filename: kustomer-customers-api-openapi.yml
   format: yaml
   label: Kustomer Customers API
   slug: kustomer-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kustomer/refs/heads/main/openapi/kustomer-customers-api-openapi.yml
+  url: https://artifacts.apis.io/kustomer/openapi/kustomer-customers-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -65,7 +65,7 @@ source_filename: kustomer-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.kustomer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 01:18:02 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.kustomer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 12:09:06 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.kustomerapp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 27 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: kustomer.com\n  dnssec: true\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"sectigo.com\"\n  - 0 iodef \"mailto:devops+caa@kustomer.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: kustomerapp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kustomer/refs/heads/main/security/kustomer-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kustomer/security/kustomer-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Customer Service

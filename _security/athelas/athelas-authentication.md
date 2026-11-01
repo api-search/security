@@ -7,31 +7,31 @@ api_specs:
   label: Athelas Auth API
   slug: athelas-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/openapi/athelas-auth-api-openapi.yml
+  url: https://artifacts.apis.io/athelas/openapi/athelas-auth-api-openapi.yml
 - filename: athelas-patients-api-openapi.yml
   format: yaml
   label: Athelas Patients API
   slug: athelas-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/openapi/athelas-patients-api-openapi.yml
+  url: https://artifacts.apis.io/athelas/openapi/athelas-patients-api-openapi.yml
 - filename: athelas-prescribers-api-openapi.yml
   format: yaml
   label: Athelas Prescribers API
   slug: athelas-prescribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/openapi/athelas-prescribers-api-openapi.yml
+  url: https://artifacts.apis.io/athelas/openapi/athelas-prescribers-api-openapi.yml
 - filename: athelas-sites-api-openapi.yml
   format: yaml
   label: Athelas Sites API
   slug: athelas-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/openapi/athelas-sites-api-openapi.yml
+  url: https://artifacts.apis.io/athelas/openapi/athelas-sites-api-openapi.yml
 - filename: athelas-test-types-api-openapi.yml
   format: yaml
   label: Athelas Test Types API
   slug: athelas-test-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/openapi/athelas-test-types-api-openapi.yml
+  url: https://artifacts.apis.io/athelas/openapi/athelas-test-types-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -88,7 +88,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/athelas-enterprise-openapi.yml\ndocs:\n- https://athelas.readme.io/docs/authentication\n- https://docs.athelas.com/air_developer/fhir_api/commure_ehr_fhir_api\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\n  - refreshToken\nschemes:\n- name: bearerAuth\n  api: Athelas Enterprise API\n  type: http\n  scheme: bearer\n  description: >-\n    Bearer token for the Athelas Enterprise RPM API. Obtain a token by POSTing email\n    and password to /auth/login (production https://api.athelas.com/enterprise/v1,\n    staging https://staging-api.athelas.com/enterprise/v1). Tokens expire after 60\n    minutes and must be renewed by repeating the login. Sent as\n    Authorization: Bearer <token>.\n  sources:\n  - openapi/athelas-enterprise-openapi.yml\n  docs: https://athelas.readme.io/docs/authentication\n- name: smartOnFhir\n  api: Commure EHR FHIR API\n  type: oauth2\n \
   \ description: >-\n    SMART on FHIR v2 (ONC §170.215(a)(3)) using AWS Cognito as the identity provider.\n    Access tokens are sent as Authorization: Bearer <token> on all FHIR requests.\n    Supports standalone launch, EHR launch, and Backend Services (bulk data)\n    authorization. Token endpoint auth methods: none (PKCE), client_secret_post,\n    client_secret_basic, private_key_jwt. PKCE S256 required for public clients.\n    Refresh tokens issued only with offline_access scope; confidential-client tokens\n    valid a minimum of 3 months.\n  issuer: https://cognito-idp.us-east-2.amazonaws.com/us-east-2_KudjXF579\n  jwks_uri: https://cognito-idp.us-east-2.amazonaws.com/us-east-2_KudjXF579/.well-known/jwks.json\n  well_known: https://onc.api.staging-ehr.athelas.com/.well-known/smart-configuration\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://onc.api.staging-ehr.athelas.com/authorize\n    tokenUrl: https://onc.api.staging-ehr.athelas.com/token\n    pkce: S256\n\
   \  - flow: clientCredentials\n    tokenUrl: https://onc.api.staging-ehr.athelas.com/token\n    client_assertion: private_key_jwt\n    note: Backend Services Authorization (bulk data / system-level)\n  - flow: refreshToken\n    tokenUrl: https://onc.api.staging-ehr.athelas.com/token\n  introspection_endpoint: https://onc.api.staging-ehr.athelas.com/introspect\n  revocation_endpoint: https://onc.api.staging-ehr.athelas.com/revoke\n  scopes_ref: scopes/athelas-scopes.yml\n  docs: https://docs.athelas.com/air_developer/fhir_api/commure_ehr_fhir_api\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/authentication/athelas-authentication.yml
+source_yaml_url: https://artifacts.apis.io/athelas/authentication/athelas-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

@@ -8,25 +8,25 @@ api_specs:
   label: Verisk Catastrophe API
   slug: verisk-catastrophe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/openapi/verisk-catastrophe-api-openapi.yml
+  url: https://artifacts.apis.io/verisk/openapi/verisk-catastrophe-api-openapi.yml
 - filename: verisk-claims-api-openapi.yml
   format: yaml
   label: Verisk Claims API
   slug: verisk-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/openapi/verisk-claims-api-openapi.yml
+  url: https://artifacts.apis.io/verisk/openapi/verisk-claims-api-openapi.yml
 - filename: verisk-property-api-openapi.yml
   format: yaml
   label: Verisk Property API
   slug: verisk-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/openapi/verisk-property-api-openapi.yml
+  url: https://artifacts.apis.io/verisk/openapi/verisk-property-api-openapi.yml
 - filename: verisk-risk-scoring-api-openapi.yml
   format: yaml
   label: Verisk Risk Scoring API
   slug: verisk-risk-scoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/openapi/verisk-risk-scoring-api-openapi.yml
+  url: https://artifacts.apis.io/verisk/openapi/verisk-risk-scoring-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -60,7 +60,7 @@ source_filename: verisk-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/verisk-insurance-analytics-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/verisk-insurance-analytics-openapi.yml\n- name: ApiKeyHeader\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  sources:\n  - openapi/verisk-insurance-analytics-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/authentication/verisk-authentication.yml
+source_yaml_url: https://artifacts.apis.io/verisk/authentication/verisk-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Insurance

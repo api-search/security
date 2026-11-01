@@ -5,13 +5,13 @@ api_specs:
   label: Preciser Chart Data API
   slug: preciser-chart-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/preciser/refs/heads/main/openapi/preciser-chart-data-api-openapi.yml
+  url: https://artifacts.apis.io/preciser/openapi/preciser-chart-data-api-openapi.yml
 - filename: preciser-opp-team-data-api-openapi.yml
   format: yaml
   label: Preciser Opp Team Data API
   slug: preciser-opp-team-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/preciser/refs/heads/main/openapi/preciser-opp-team-data-api-openapi.yml
+  url: https://artifacts.apis.io/preciser/openapi/preciser-opp-team-data-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -43,7 +43,7 @@ source_filename: preciser-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: preciser.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 08:11:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: plg-api.preciser.io\n  https: false\ndomains:\n- domain: preciser.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/preciser/refs/heads/main/security/preciser-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/preciser/security/preciser-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

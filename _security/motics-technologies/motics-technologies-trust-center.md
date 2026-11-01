@@ -16,7 +16,7 @@ source_filename: motics-technologies-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nprobe: true\nsource: https://www.motics.ai/security/\nurl: https://www.motics.ai/security/\ncertifications:\n- ISO 27001\n- GDPR\nevidence:\n- source: https://www.motics.ai/security/\n  keywords:\n  - iso 27001\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/motics-technologies/refs/heads/main/security/motics-technologies-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/motics-technologies/security/motics-technologies-trust-center.yml
 summary_line: ISO 27001, GDPR
 tags:
 - Company

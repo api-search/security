@@ -27,7 +27,7 @@ source_filename: meritor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.meritor.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 03:58:45 2026 GMT\n  hsts: false\ndomains:\n- domain: meritor.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meritor/refs/heads/main/security/meritor-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/meritor/security/meritor-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Fortune 1000

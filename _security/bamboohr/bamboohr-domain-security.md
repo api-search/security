@@ -11,37 +11,37 @@ api_specs:
   label: BambooHR Directory API
   slug: bamboohr-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/openapi/bamboohr-directory-api-openapi.yml
+  url: https://artifacts.apis.io/bamboohr/openapi/bamboohr-directory-api-openapi.yml
 - filename: bamboohr-employees-api-openapi.yml
   format: yaml
   label: BambooHR Employees API
   slug: bamboohr-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/openapi/bamboohr-employees-api-openapi.yml
+  url: https://artifacts.apis.io/bamboohr/openapi/bamboohr-employees-api-openapi.yml
 - filename: bamboohr-files-api-openapi.yml
   format: yaml
   label: BambooHR Files API
   slug: bamboohr-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/openapi/bamboohr-files-api-openapi.yml
+  url: https://artifacts.apis.io/bamboohr/openapi/bamboohr-files-api-openapi.yml
 - filename: bamboohr-meta-api-openapi.yml
   format: yaml
   label: BambooHR Meta API
   slug: bamboohr-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/openapi/bamboohr-meta-api-openapi.yml
+  url: https://artifacts.apis.io/bamboohr/openapi/bamboohr-meta-api-openapi.yml
 - filename: bamboohr-reports-api-openapi.yml
   format: yaml
   label: BambooHR Reports API
   slug: bamboohr-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/openapi/bamboohr-reports-api-openapi.yml
+  url: https://artifacts.apis.io/bamboohr/openapi/bamboohr-reports-api-openapi.yml
 - filename: bamboohr-time-off-api-openapi.yml
   format: yaml
   label: BambooHR Time Off API
   slug: bamboohr-time-off-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/openapi/bamboohr-time-off-api-openapi.yml
+  url: https://artifacts.apis.io/bamboohr/openapi/bamboohr-time-off-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -83,7 +83,7 @@ source_filename: bamboohr-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bamboohr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 01:43:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: documentation.bamboohr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 02:39:04 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.bamboohr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 18:32:46 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: bamboohr.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/security/bamboohr-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bamboohr/security/bamboohr-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Human Resources

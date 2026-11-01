@@ -8,91 +8,91 @@ api_specs:
   label: EDF Energy Account Import API
   slug: edf-energy-account-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-account-import-api-openapi.yml
+  url: https://artifacts.apis.io/edf-energy/openapi/edf-energy-account-import-api-openapi.yml
 - filename: edf-energy-data-import-api-openapi.yml
   format: yaml
   label: EDF Energy Data Import API
   slug: edf-energy-data-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-data-import-api-openapi.yml
+  url: https://artifacts.apis.io/edf-energy/openapi/edf-energy-data-import-api-openapi.yml
 - filename: edf-energy-external-client-healthcheck-api-openapi.yml
   format: yaml
   label: EDF Energy External Client Healthcheck API
   slug: edf-energy-external-client-healthcheck-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-external-client-healthcheck-api-openapi.yml
+  url: https://artifacts.apis.io/edf-energy/openapi/edf-energy-external-client-healthcheck-api-openapi.yml
 - filename: edf-energy-external-events-api-openapi.yml
   format: yaml
   label: EDF Energy External Events API
   slug: edf-energy-external-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-external-events-api-openapi.yml
+  url: https://artifacts.apis.io/edf-energy/openapi/edf-energy-external-events-api-openapi.yml
 - filename: edf-energy-post-account-import-api-openapi.yml
   format: yaml
   label: EDF Energy Post Account Import API
   slug: edf-energy-post-account-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-post-account-import-api-openapi.yml
+  url: https://artifacts.apis.io/edf-energy/openapi/edf-energy-post-account-import-api-openapi.yml
 - filename: edf-energy-query-api-openapi.yml
   format: yaml
   label: EDF Energy Query API
   slug: edf-energy-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-query-api-openapi.yml
+  url: https://artifacts.apis.io/edf-energy/openapi/edf-energy-query-api-openapi.yml
 - filename: edf-energy-accounts-api-openapi.yml
   format: yaml
   label: EDF Energy Accounts API
   slug: edf-energy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/edf-energy/openapi/edf-energy-accounts-api-openapi.yml
 - filename: edf-energy-electricity-meter-points-api-openapi.yml
   format: yaml
   label: EDF Energy Electricity Meter Points API
   slug: edf-energy-electricity-meter-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-electricity-meter-points-api-openapi.yml
+  url: https://artifacts.apis.io/edf-energy/openapi/edf-energy-electricity-meter-points-api-openapi.yml
 - filename: edf-energy-gas-meter-points-api-openapi.yml
   format: yaml
   label: EDF Energy Gas Meter Points API
   slug: edf-energy-gas-meter-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-gas-meter-points-api-openapi.yml
+  url: https://artifacts.apis.io/edf-energy/openapi/edf-energy-gas-meter-points-api-openapi.yml
 - filename: edf-energy-industry-api-openapi.yml
   format: yaml
   label: EDF Energy Industry API
   slug: edf-energy-industry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-industry-api-openapi.yml
+  url: https://artifacts.apis.io/edf-energy/openapi/edf-energy-industry-api-openapi.yml
 - filename: edf-energy-orders-api-openapi.yml
   format: yaml
   label: EDF Energy Orders API
   slug: edf-energy-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-orders-api-openapi.yml
+  url: https://artifacts.apis.io/edf-energy/openapi/edf-energy-orders-api-openapi.yml
 - filename: edf-energy-payment-intents-api-openapi.yml
   format: yaml
   label: EDF Energy Payment Intents API
   slug: edf-energy-payment-intents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-payment-intents-api-openapi.yml
+  url: https://artifacts.apis.io/edf-energy/openapi/edf-energy-payment-intents-api-openapi.yml
 - filename: edf-energy-products-api-openapi.yml
   format: yaml
   label: EDF Energy Products API
   slug: edf-energy-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-products-api-openapi.yml
+  url: https://artifacts.apis.io/edf-energy/openapi/edf-energy-products-api-openapi.yml
 - filename: edf-energy-quotes-api-openapi.yml
   format: yaml
   label: EDF Energy Quotes API
   slug: edf-energy-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/edf-energy/openapi/edf-energy-quotes-api-openapi.yml
 - filename: edf-energy-voice-api-openapi.yml
   format: yaml
   label: EDF Energy Voice API
   slug: edf-energy-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-voice-api-openapi.yml
+  url: https://artifacts.apis.io/edf-energy/openapi/edf-energy-voice-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -212,7 +212,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: >-\n  https://a
   \ - flow: clientCredentials\n    tokenUrl: https://auth.edfgb-kraken.energy/token/\n    client_auth: HTTP Basic (base64 client_id:client_secret)\n  - flow: deviceCode\n    rfc: RFC 8628\n    deviceAuthorizationUrl: https://auth.edfgb-kraken.energy/device-authorization/\n    tokenUrl: https://auth.edfgb-kraken.energy/token/\n  - flow: tokenExchange\n    rfc: RFC 8693\n    tokenUrl: https://auth.edfgb-kraken.energy/token/\n  scopes: scopes/edf-energy-scopes.yml\n  sources: [https://auth.edfgb-kraken.energy/]\n- name: KrakenOpenIDConnect\n  type: openIdConnect\n  openIdConnectUrl: https://auth.edfgb-kraken.energy/.well-known/openid-configuration\n  issuer: https://auth.edfgb-kraken.energy/token/\n  jwks_uri: https://auth.edfgb-kraken.energy/.well-known/jwks.json\n  id_token_signing_alg_values_supported: [HS256, RS256]\n  token_endpoint_auth_methods_supported: [client_secret_post, client_secret_basic]\n  subject_types_supported: [public]\n  claims_supported: [sub]\n  userinfo_endpoint: https://auth.edfgb-kraken.energy/userinfo/\n\
   \  revocation_endpoint: https://auth.edfgb-kraken.energy/revoke-token/\n  end_session_endpoint: https://auth.edfgb-kraken.energy/logout/\n  sources: [well-known/edf-energy-openid-configuration.json]\nanonymous_operations:\n- operation: List Products\n  path: GET /v1/products/\n  source: openapi/edf-energy-kraken-openapi.yml\n  evidence: security includes an empty option; returned HTTP 200 with 21 live products anonymously\n- operation: List Industry Grid Supply Points\n  path: GET /v1/industry/grid-supply-points/\n  source: openapi/edf-energy-kraken-openapi.yml\n  evidence: resolved postcode SW1A1AA to GSP group _C anonymously (HTTP 200)\n- operation: energyProducts\n  path: POST /v1/graphql/\n  source: graphql/edf-energy-schema.graphql\n  evidence: returned live EDF tariffs anonymously with brand \"EDF\" (HTTP 200)\n- operation: IntrospectionQuery\n  path: POST /v1/graphql/\n  source: graphql/edf-energy-schema.graphql\n  evidence: full GraphQL introspection returned HTTP 200 with no credential\n\
   errors:\n  missing_header: KT-CT-1112 — 'Authorization' header not provided\n  unauthorized: KT-CT-1111 / KT-CT-1132 — the viewer is not authorized to execute the query/mutation\n  expired_token: KT-CT-1120 — the Kraken Token has expired\n  catalog: errors/edf-energy-error-codes.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/authentication/edf-energy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/edf-energy/authentication/edf-energy-authentication.yml
 summary_line: apiKey/http/oauth2/openIdConnect · 8 schemes
 tags:
 - Energy

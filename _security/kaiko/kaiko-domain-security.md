@@ -5,25 +5,25 @@ api_specs:
   label: Kaiko Canton Oracle API
   slug: kaiko-canton-oracle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/openapi/kaiko-canton-oracle-api-openapi.yml
+  url: https://artifacts.apis.io/kaiko/openapi/kaiko-canton-oracle-api-openapi.yml
 - filename: kaiko-index-reference-data-api-openapi.yml
   format: yaml
   label: Kaiko Index Reference Data API
   slug: kaiko-index-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/openapi/kaiko-index-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/kaiko/openapi/kaiko-index-reference-data-api-openapi.yml
 - filename: kaiko-indices-api-openapi.yml
   format: yaml
   label: Kaiko Indices API
   slug: kaiko-indices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/openapi/kaiko-indices-api-openapi.yml
+  url: https://artifacts.apis.io/kaiko/openapi/kaiko-indices-api-openapi.yml
 - filename: kaiko-supply-api-openapi.yml
   format: yaml
   label: Kaiko Supply API
   slug: kaiko-supply-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/openapi/kaiko-supply-api-openapi.yml
+  url: https://artifacts.apis.io/kaiko/openapi/kaiko-supply-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: kaiko-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.kaiko.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 10:53:54 2026 GMT\n  hsts: true\n  hsts_max_age: 0\n- host: docs.kaiko.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 15:40:31 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: us.market-api.kaiko.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 02:27:14 2026 GMT\n  hsts: null\ndomains:\n- domain: kaiko.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: kaiko.io\n  dnssec: false\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/security/kaiko-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kaiko/security/kaiko-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Web3

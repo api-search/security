@@ -13,25 +13,25 @@ api_specs:
   label: Vimeo Albums API
   slug: vimeo-albums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vimeo/refs/heads/main/openapi/vimeo-albums-api-openapi.yml
+  url: https://artifacts.apis.io/vimeo/openapi/vimeo-albums-api-openapi.yml
 - filename: vimeo-channels-api-openapi.yml
   format: yaml
   label: Vimeo Channels API
   slug: vimeo-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vimeo/refs/heads/main/openapi/vimeo-channels-api-openapi.yml
+  url: https://artifacts.apis.io/vimeo/openapi/vimeo-channels-api-openapi.yml
 - filename: vimeo-users-api-openapi.yml
   format: yaml
   label: Vimeo Users API
   slug: vimeo-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vimeo/refs/heads/main/openapi/vimeo-users-api-openapi.yml
+  url: https://artifacts.apis.io/vimeo/openapi/vimeo-users-api-openapi.yml
 - filename: vimeo-videos-api-openapi.yml
   format: yaml
   label: Vimeo Videos API
   slug: vimeo-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vimeo/refs/heads/main/openapi/vimeo-videos-api-openapi.yml
+  url: https://artifacts.apis.io/vimeo/openapi/vimeo-videos-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -73,7 +73,7 @@ source_filename: vimeo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/vimeo-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth 2.0 Bearer token\n  sources:\n  - openapi/vimeo-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.vimeo.com/oauth/authorize\n    tokenUrl: https://api.vimeo.com/oauth/access_token\n    scopes: 6\n  - flow: clientCredentials\n    tokenUrl: https://api.vimeo.com/oauth/authorize/client\n    scopes: 1\n  sources:\n  - openapi/vimeo-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vimeo/refs/heads/main/authentication/vimeo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vimeo/authentication/vimeo-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Video

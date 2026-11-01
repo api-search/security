@@ -32,7 +32,7 @@ source_filename: kitura-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.kitura.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 13:01:22 2026 GMT\n  hsts: false\ndomains:\n- domain: kitura.dev\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kitura/refs/heads/main/security/kitura-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kitura/security/kitura-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Archived

@@ -8,13 +8,13 @@ api_specs:
   label: Mailboxlayer Bulk Check API
   slug: mailboxlayer-bulk-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailboxlayer/refs/heads/main/openapi/mailboxlayer-bulk-check-api-openapi.yml
+  url: https://artifacts.apis.io/mailboxlayer/openapi/mailboxlayer-bulk-check-api-openapi.yml
 - filename: mailboxlayer-check-api-openapi.yml
   format: yaml
   label: Mailboxlayer Check API
   slug: mailboxlayer-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailboxlayer/refs/heads/main/openapi/mailboxlayer-check-api-openapi.yml
+  url: https://artifacts.apis.io/mailboxlayer/openapi/mailboxlayer-check-api-openapi.yml
 auth_types:
 - apiKey
 description: Authentication profile for the mailboxlayer Verification API. Derived from the OpenAPI security schemes and upgraded to searched on 2026-08-14 against the provider's own "API Access Key & Authentication" documentation.
@@ -54,7 +54,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: https://docs.ap
   \ false\n    note: No key-rotation procedure, expiry, or revocation policy is documented publicly.\n  multiple_keys:\n    supported: false\n    note: >-\n      No per-environment or per-application key issuance is documented. finops/ recommends\n      one key per environment for cost allocation, but the provider does not document a\n      mechanism for issuing more than one.\n\nusage:\n  example: 'https://apilayer.net/api/check?access_key=YOUR_ACCESS_KEY&email=support@apilayer.com'\n  quote: >-\n    \"After signing up, every user is assigned a personal API Access Key — a unique\n    'password' used to access the API's data and features. To authenticate with the\n    Mailboxlayer API, simply attach your access_key to the base endpoint URL.\"\n  transport:\n    https: true\n    note: >-\n      256-bit HTTPS is listed as available on all plans including Free on both the pricing\n      page and the Getting Started docs (checked 2026-08-14). Error 105\n      (https_access_restricted) nonetheless\
   \ remains in the published error catalog. The\n      documentation's own worked examples still use http:// URLs.\n\nhazards:\n  - id: key-in-query-string\n    severity: high\n    description: >-\n      The credential is a query parameter, so it is recorded wherever URLs are recorded:\n      proxy and CDN logs, browser history, Referer headers, error trackers, and any agent\n      trace that logs request URLs. There is no header-based alternative.\n    mitigation: >-\n      Call server-side, never from a browser with a production key, and redact `access_key`\n      from every log sink and agent transcript.\n  - id: no-scoping\n    severity: medium\n    description: >-\n      A single key authorizes every APILayer product on the account. A leaked mailboxlayer\n      key is a leaked marketstack / ipstack / scrapestack key.\n  - id: auth-failure-returns-200\n    severity: high\n    description: >-\n      Authentication failure has historically been returned with HTTP 200 and a\n      `success:false`\
   \ body (code 101). The current published spec also declares a real 401.\n      Handle both — a 200 is not evidence the call was authorized.\n    reference: errors/mailboxlayer-problem-types.yml\n  - id: no-oauth-no-scopes\n    severity: informational\n    description: >-\n      No OAuth 2.0, no OpenID Connect, no scopes, no token exchange. There is no\n      delegation model, so an agent acting for a user necessarily holds the account's full\n      credential. No scopes/ artifact is emitted — there is no scope surface to record.\n\nrelated:\n  conventions: conventions/mailboxlayer-conventions.yml\n  errors: errors/mailboxlayer-problem-types.yml\n  domain_security: security/mailboxlayer-domain-security.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mailboxlayer/refs/heads/main/authentication/mailboxlayer-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mailboxlayer/authentication/mailboxlayer-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Email

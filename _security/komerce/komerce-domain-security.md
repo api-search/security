@@ -5,43 +5,43 @@ api_specs:
   label: Komerce Cost API
   slug: komerce-cost-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-cost-api-openapi.yml
+  url: https://artifacts.apis.io/komerce/openapi/komerce-cost-api-openapi.yml
 - filename: komerce-destinations-api-openapi.yml
   format: yaml
   label: Komerce Destinations API
   slug: komerce-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/komerce/openapi/komerce-destinations-api-openapi.yml
 - filename: komerce-orders-api-openapi.yml
   format: yaml
   label: Komerce Orders API
   slug: komerce-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-orders-api-openapi.yml
+  url: https://artifacts.apis.io/komerce/openapi/komerce-orders-api-openapi.yml
 - filename: komerce-payments-api-openapi.yml
   format: yaml
   label: Komerce Payments API
   slug: komerce-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-payments-api-openapi.yml
+  url: https://artifacts.apis.io/komerce/openapi/komerce-payments-api-openapi.yml
 - filename: komerce-pickup-api-openapi.yml
   format: yaml
   label: Komerce Pickup API
   slug: komerce-pickup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-pickup-api-openapi.yml
+  url: https://artifacts.apis.io/komerce/openapi/komerce-pickup-api-openapi.yml
 - filename: komerce-qris-api-openapi.yml
   format: yaml
   label: Komerce QRIS API
   slug: komerce-qris-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-qris-api-openapi.yml
+  url: https://artifacts.apis.io/komerce/openapi/komerce-qris-api-openapi.yml
 - filename: komerce-tracking-api-openapi.yml
   format: yaml
   label: Komerce Tracking API
   slug: komerce-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/komerce/openapi/komerce-tracking-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -86,7 +86,7 @@ source_filename: komerce-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: komerce.id\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 00:03:29 2026 GMT\n  hsts: false\n- host: rajaongkir.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 08:22:57 2026 GMT\n  hsts: false\n- host: rajaongkir.komerce.id\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 00:03:29 2026 GMT\n  hsts: null\ndomains:\n- domain: komerce.id\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: rajaongkir.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/security/komerce-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/komerce/security/komerce-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

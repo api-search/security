@@ -5,31 +5,31 @@ api_specs:
   label: TalkJS Conversations API
   slug: talkjs-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/openapi/talkjs-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/talkjs/openapi/talkjs-conversations-api-openapi.yml
 - filename: talkjs-import-api-openapi.yml
   format: yaml
   label: TalkJS Import API
   slug: talkjs-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/openapi/talkjs-import-api-openapi.yml
+  url: https://artifacts.apis.io/talkjs/openapi/talkjs-import-api-openapi.yml
 - filename: talkjs-messages-api-openapi.yml
   format: yaml
   label: TalkJS Messages API
   slug: talkjs-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/openapi/talkjs-messages-api-openapi.yml
+  url: https://artifacts.apis.io/talkjs/openapi/talkjs-messages-api-openapi.yml
 - filename: talkjs-participants-api-openapi.yml
   format: yaml
   label: TalkJS Participants API
   slug: talkjs-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/openapi/talkjs-participants-api-openapi.yml
+  url: https://artifacts.apis.io/talkjs/openapi/talkjs-participants-api-openapi.yml
 - filename: talkjs-users-api-openapi.yml
   format: yaml
   label: TalkJS Users API
   slug: talkjs-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/openapi/talkjs-users-api-openapi.yml
+  url: https://artifacts.apis.io/talkjs/openapi/talkjs-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: talkjs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: talkjs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 16:49:02 2026 GMT\n  hsts: true\n  hsts_max_age: 631138519\ndomains:\n- domain: talkjs.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/security/talkjs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/talkjs/security/talkjs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Chat

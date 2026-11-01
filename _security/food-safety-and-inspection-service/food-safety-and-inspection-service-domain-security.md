@@ -5,7 +5,7 @@ api_specs:
   label: Food Safety and Inspection Service Recalls API
   slug: food-safety-and-inspection-service-recalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/food-safety-and-inspection-service/refs/heads/main/openapi/food-safety-and-inspection-service-recalls-api-openapi.yml
+  url: https://artifacts.apis.io/food-safety-and-inspection-service/openapi/food-safety-and-inspection-service-recalls-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -38,7 +38,7 @@ source_filename: food-safety-and-inspection-service-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fsis.usda.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: usda.gov\n  dnssec: true\n  caa:\n  - 0 iodef \"mailto:icam_as_notify@ocio.usda.gov\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/food-safety-and-inspection-service/refs/heads/main/security/food-safety-and-inspection-service-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/food-safety-and-inspection-service/security/food-safety-and-inspection-service-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Federal Government

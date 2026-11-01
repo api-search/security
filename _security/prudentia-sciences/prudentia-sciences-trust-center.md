@@ -15,7 +15,7 @@ source_filename: prudentia-sciences-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nprobe: true\nurl: https://trust.prudentiasciences.com/\nplatform: Vanta\ncertifications:\n- SOC 2\ncompliance_posture:\n- SOC II alignment\n- AWS-hosted infrastructure\n- single-tenant deployment\n- data encryption\nevidence:\n- source: https://trust.prudentiasciences.com/\n  keywords: [trust center, vanta]\n  note: Vanta-hosted trust center (og:image references app.vanta.com/doc)\n- source: https://www.prudentiasciences.com\n  keywords: [soc ii alignment, aws hosting, single-tenant deployment, data encryption]\n  note: security posture published on the company homepage\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prudentia-sciences/refs/heads/main/security/prudentia-sciences-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/prudentia-sciences/security/prudentia-sciences-trust-center.yml
 summary_line: SOC 2
 tags:
 - Company

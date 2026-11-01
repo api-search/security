@@ -8,13 +8,13 @@ api_specs:
   label: OneBusAway Default API
   slug: onebusaway-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onebusaway/refs/heads/main/openapi/onebusaway-default-api-openapi.yml
+  url: https://artifacts.apis.io/onebusaway/openapi/onebusaway-default-api-openapi.yml
 - filename: onebusaway-where-api-openapi.yml
   format: yaml
   label: OneBusAway Where API
   slug: onebusaway-where-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onebusaway/refs/heads/main/openapi/onebusaway-where-api-openapi.yml
+  url: https://artifacts.apis.io/onebusaway/openapi/onebusaway-where-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -41,7 +41,7 @@ source_filename: onebusaway-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: query\n  parameter: key\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onebusaway/refs/heads/main/authentication/onebusaway-authentication.yml
+source_yaml_url: https://artifacts.apis.io/onebusaway/authentication/onebusaway-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Transit

@@ -5,61 +5,61 @@ api_specs:
   label: Quasar Cluster API
   slug: quasar-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/quasar/openapi/quasar-cluster-api-openapi.yml
 - filename: quasar-login-api-openapi.yml
   format: yaml
   label: Quasar Login API
   slug: quasar-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-login-api-openapi.yml
+  url: https://artifacts.apis.io/quasar/openapi/quasar-login-api-openapi.yml
 - filename: quasar-max-in-buffer-size-api-openapi.yml
   format: yaml
   label: Quasar Max In Buffer Size API
   slug: quasar-max-in-buffer-size-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-max-in-buffer-size-api-openapi.yml
+  url: https://artifacts.apis.io/quasar/openapi/quasar-max-in-buffer-size-api-openapi.yml
 - filename: quasar-option-api-openapi.yml
   format: yaml
   label: Quasar Option API
   slug: quasar-option-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-option-api-openapi.yml
+  url: https://artifacts.apis.io/quasar/openapi/quasar-option-api-openapi.yml
 - filename: quasar-parallelism-api-openapi.yml
   format: yaml
   label: Quasar Parallelism API
   slug: quasar-parallelism-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-parallelism-api-openapi.yml
+  url: https://artifacts.apis.io/quasar/openapi/quasar-parallelism-api-openapi.yml
 - filename: quasar-prometheus-api-openapi.yml
   format: yaml
   label: Quasar Prometheus API
   slug: quasar-prometheus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-prometheus-api-openapi.yml
+  url: https://artifacts.apis.io/quasar/openapi/quasar-prometheus-api-openapi.yml
 - filename: quasar-query-api-openapi.yml
   format: yaml
   label: Quasar Query API
   slug: quasar-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-query-api-openapi.yml
+  url: https://artifacts.apis.io/quasar/openapi/quasar-query-api-openapi.yml
 - filename: quasar-status-api-openapi.yml
   format: yaml
   label: Quasar Status API
   slug: quasar-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-status-api-openapi.yml
+  url: https://artifacts.apis.io/quasar/openapi/quasar-status-api-openapi.yml
 - filename: quasar-tables-api-openapi.yml
   format: yaml
   label: Quasar Tables API
   slug: quasar-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-tables-api-openapi.yml
+  url: https://artifacts.apis.io/quasar/openapi/quasar-tables-api-openapi.yml
 - filename: quasar-tags-api-openapi.yml
   format: yaml
   label: Quasar Tags API
   slug: quasar-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-tags-api-openapi.yml
+  url: https://artifacts.apis.io/quasar/openapi/quasar-tags-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2
@@ -76,7 +76,7 @@ source_filename: quasar-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nprobe: true\nsource: https://trust.quasar.ai/\nurl: https://trust.quasar.ai/\ncertifications:\n- SOC 2\nevidence:\n- source: https://trust.quasar.ai/\n  keywords:\n  - soc 2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/security/quasar-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/quasar/security/quasar-trust-center.yml
 summary_line: SOC 2
 tags:
 - Company

@@ -8,31 +8,31 @@ api_specs:
   label: IronCore Labs Configuration Assignment API
   slug: ironcore-labs-configuration-assignment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/openapi/ironcore-labs-configuration-assignment-api-openapi.yml
+  url: https://artifacts.apis.io/ironcore-labs/openapi/ironcore-labs-configuration-assignment-api-openapi.yml
 - filename: ironcore-labs-kms-configuration-api-openapi.yml
   format: yaml
   label: IronCore Labs KMS Configuration API
   slug: ironcore-labs-kms-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/openapi/ironcore-labs-kms-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/ironcore-labs/openapi/ironcore-labs-kms-configuration-api-openapi.yml
 - filename: ironcore-labs-tag-api-openapi.yml
   format: yaml
   label: IronCore Labs Tag API
   slug: ironcore-labs-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/openapi/ironcore-labs-tag-api-openapi.yml
+  url: https://artifacts.apis.io/ironcore-labs/openapi/ironcore-labs-tag-api-openapi.yml
 - filename: ironcore-labs-tenant-api-openapi.yml
   format: yaml
   label: IronCore Labs Tenant API
   slug: ironcore-labs-tenant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/openapi/ironcore-labs-tenant-api-openapi.yml
+  url: https://artifacts.apis.io/ironcore-labs/openapi/ironcore-labs-tenant-api-openapi.yml
 - filename: ironcore-labs-tenant-secret-api-openapi.yml
   format: yaml
   label: IronCore Labs Tenant Secret API
   slug: ironcore-labs-tenant-secret-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/openapi/ironcore-labs-tenant-secret-api-openapi.yml
+  url: https://artifacts.apis.io/ironcore-labs/openapi/ironcore-labs-tenant-secret-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: ironcore-labs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/ironcore-labs-vendor-bridge-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: Authorization\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'VAB authorization header. Form: `vab:1:<API_KEY>`'\n  sources:\n  - openapi/ironcore-labs-vendor-bridge-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/authentication/ironcore-labs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ironcore-labs/authentication/ironcore-labs-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

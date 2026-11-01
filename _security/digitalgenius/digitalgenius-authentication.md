@@ -28,7 +28,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://docs.digitalgenius.com/docs/create-basic-token\ndocs: https://docs.digitalgenius.com/docs/create-basic-token\nsummary:\n  types: [http]\n  http_schemes: [basic]\n  identity_provider: Auth0\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: >-\n    HTTP Basic authentication using an encoded token built from an API key and\n    secret created in the DigitalGenius Dashboard. For the MCP server and HTTP API,\n    the encoded token is passed as `Authorization: Basic {{AUTH_TOKEN}}`. API keys\n    are created in the Dashboard with a selectable Access Type (e.g. \"All\").\n  header: 'Authorization: Basic {{AUTH_TOKEN}}'\n  token_creation: >-\n    Dashboard -> create API key (name + Access Type) -> \"Copy Encoded Token\".\nplatform_identity:\n  provider: Auth0\n  evidence: https://status.digitalgenius.com/\n  components:\n  - User Authentication\n  - Machine-to-Machine Authentication\n  - Multi-factor\
   \ Authentication\n  - Management API\n  note: >-\n    The DigitalGenius platform (Dashboard, M2M) is fronted by Auth0 per the public\n    status page. Programmatic API/MCP access uses the Basic encoded token above.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/digitalgenius/refs/heads/main/authentication/digitalgenius-authentication.yml
+source_yaml_url: https://artifacts.apis.io/digitalgenius/authentication/digitalgenius-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

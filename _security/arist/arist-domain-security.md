@@ -45,7 +45,7 @@ source_filename: arist-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: arist.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 24 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: help.arist.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 22:44:36 2026 GMT\n  hsts: false\n- host: auth.arist.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 13:56:33 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: arist.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: arist.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arist/refs/heads/main/security/arist-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/arist/security/arist-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

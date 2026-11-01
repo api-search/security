@@ -5,67 +5,67 @@ api_specs:
   label: Trimble BCF Topics API
   slug: trimble-bcf-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-bcf-topics-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-bcf-topics-api-openapi.yml
 - filename: trimble-files-api-openapi.yml
   format: yaml
   label: Trimble Files API
   slug: trimble-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-files-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-files-api-openapi.yml
 - filename: trimble-geocoding-api-openapi.yml
   format: yaml
   label: Trimble Geocoding API
   slug: trimble-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-geocoding-api-openapi.yml
 - filename: trimble-projects-api-openapi.yml
   format: yaml
   label: Trimble Projects API
   slug: trimble-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-projects-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-projects-api-openapi.yml
 - filename: trimble-routing-api-openapi.yml
   format: yaml
   label: Trimble Routing API
   slug: trimble-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-routing-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-routing-api-openapi.yml
 - filename: trimble-users-api-openapi.yml
   format: yaml
   label: Trimble Users API
   slug: trimble-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-users-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-users-api-openapi.yml
 - filename: trimble-catalyst-api-openapi.yml
   format: yaml
   label: Trimble Catalyst API
   slug: trimble-catalyst-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-catalyst-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-catalyst-api-openapi.yml
 - filename: trimble-corrections-api-openapi.yml
   format: yaml
   label: Trimble Corrections API
   slug: trimble-corrections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-corrections-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-corrections-api-openapi.yml
 - filename: trimble-positioning-api-openapi.yml
   format: yaml
   label: Trimble Positioning API
   slug: trimble-positioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-positioning-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-positioning-api-openapi.yml
 - filename: trimble-receiver-api-openapi.yml
   format: yaml
   label: Trimble Receiver API
   slug: trimble-receiver-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-receiver-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-receiver-api-openapi.yml
 - filename: trimble-system-api-openapi.yml
   format: yaml
   label: Trimble System API
   slug: trimble-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-system-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-system-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -112,7 +112,7 @@ source_filename: trimble-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.trimble.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 18:53:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.trimble.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 06:03:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.tekla.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: trimble.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: tekla.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/security/trimble-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trimble/security/trimble-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Construction

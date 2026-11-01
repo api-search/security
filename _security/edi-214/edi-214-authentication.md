@@ -3,24 +3,54 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: edi-214-edi-processing-api-openapi.yml
+- filename: edi-214-claim-acknowledgments-api-openapi.yml
   format: yaml
-  label: edi-214 EDI Processing API
-  slug: edi-214-edi-processing-api
+  label: Edi 214 Claim acknowledgments API
+  slug: edi-214-claim-acknowledgments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edi-214/refs/heads/main/openapi/edi-214-edi-processing-api-openapi.yml
-- filename: edi-214-shipment-status-api-openapi.yml
+  url: https://artifacts.apis.io/edi-214/openapi/edi-214-claim-acknowledgments-api-openapi.yml
+- filename: edi-214-claim-submission-api-openapi.yml
   format: yaml
-  label: edi-214 Shipment Status API
-  slug: edi-214-shipment-status-api
+  label: Edi 214 Claim submission API
+  slug: edi-214-claim-submission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edi-214/refs/heads/main/openapi/edi-214-shipment-status-api-openapi.yml
-- filename: edi-214-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/edi-214/openapi/edi-214-claim-submission-api-openapi.yml
+- filename: edi-214-coordination-of-benefits-api-openapi.yml
   format: yaml
-  label: edi-214 Transactions API
-  slug: edi-214-transactions-api
+  label: Edi 214 Coordination of benefits API
+  slug: edi-214-coordination-of-benefits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edi-214/refs/heads/main/openapi/edi-214-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/edi-214/openapi/edi-214-coordination-of-benefits-api-openapi.yml
+- filename: edi-214-insurance-discovery-api-openapi.yml
+  format: yaml
+  label: Edi 214 Insurance discovery API
+  slug: edi-214-insurance-discovery-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/edi-214/openapi/edi-214-insurance-discovery-api-openapi.yml
+- filename: edi-214-payers-api-openapi.yml
+  format: yaml
+  label: Edi 214 Payers API
+  slug: edi-214-payers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/edi-214/openapi/edi-214-payers-api-openapi.yml
+- filename: edi-214-real-time-claim-status-api-openapi.yml
+  format: yaml
+  label: Edi 214 Real-time claim status API
+  slug: edi-214-real-time-claim-status-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/edi-214/openapi/edi-214-real-time-claim-status-api-openapi.yml
+- filename: edi-214-real-time-eligibility-check-api-openapi.yml
+  format: yaml
+  label: Edi 214 Real-time eligibility check API
+  slug: edi-214-real-time-eligibility-check-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/edi-214/openapi/edi-214-real-time-eligibility-check-api-openapi.yml
+- filename: edi-214-remittances-api-openapi.yml
+  format: yaml
+  label: Edi 214 Remittances API
+  slug: edi-214-remittances-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/edi-214/openapi/edi-214-remittances-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +78,7 @@ source_filename: edi-214-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/stedi-edi214-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: API key in format \"Key {your_api_key}\" for Stedi platform access\n  sources:\n  - openapi/stedi-edi214-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edi-214/refs/heads/main/authentication/edi-214-authentication.yml
+source_yaml_url: https://artifacts.apis.io/edi-214/authentication/edi-214-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - EDI

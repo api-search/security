@@ -26,7 +26,7 @@ source_filename: amberkinetics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: amberkinetics.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov  1 10:36:45 2026 GMT\n  hsts: false\ndomains:\n- domain: amberkinetics.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amberkinetics/refs/heads/main/security/amberkinetics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amberkinetics/security/amberkinetics-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Company

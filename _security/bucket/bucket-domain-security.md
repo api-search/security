@@ -5,7 +5,7 @@ api_specs:
   label: Bucket Apps API
   slug: bucket-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bucket/refs/heads/main/openapi/bucket-apps-api-openapi.yml
+  url: https://artifacts.apis.io/bucket/openapi/bucket-apps-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: bucket-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: reflag.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 19:07:13 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.reflag.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 03:01:27 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.reflag.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 15:16:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: reflag.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bucket/refs/heads/main/security/bucket-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bucket/security/bucket-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

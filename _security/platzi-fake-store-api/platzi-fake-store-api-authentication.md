@@ -7,31 +7,31 @@ api_specs:
   label: Platzi Fake Store API Auth API
   slug: platzi-fake-store-api-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/platzi-fake-store-api/refs/heads/main/openapi/platzi-fake-store-api-auth-api-openapi.yml
+  url: https://artifacts.apis.io/platzi-fake-store-api/openapi/platzi-fake-store-api-auth-api-openapi.yml
 - filename: platzi-fake-store-api-categories-api-openapi.yml
   format: yaml
   label: Platzi Fake Store API Categories API
   slug: platzi-fake-store-api-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/platzi-fake-store-api/refs/heads/main/openapi/platzi-fake-store-api-categories-api-openapi.yml
+  url: https://artifacts.apis.io/platzi-fake-store-api/openapi/platzi-fake-store-api-categories-api-openapi.yml
 - filename: platzi-fake-store-api-files-api-openapi.yml
   format: yaml
   label: Platzi Fake Store API Files API
   slug: platzi-fake-store-api-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/platzi-fake-store-api/refs/heads/main/openapi/platzi-fake-store-api-files-api-openapi.yml
+  url: https://artifacts.apis.io/platzi-fake-store-api/openapi/platzi-fake-store-api-files-api-openapi.yml
 - filename: platzi-fake-store-api-products-api-openapi.yml
   format: yaml
   label: Platzi Fake Store API Products API
   slug: platzi-fake-store-api-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/platzi-fake-store-api/refs/heads/main/openapi/platzi-fake-store-api-products-api-openapi.yml
+  url: https://artifacts.apis.io/platzi-fake-store-api/openapi/platzi-fake-store-api-products-api-openapi.yml
 - filename: platzi-fake-store-api-users-api-openapi.yml
   format: yaml
   label: Platzi Fake Store API Users API
   slug: platzi-fake-store-api-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/platzi-fake-store-api/refs/heads/main/openapi/platzi-fake-store-api-users-api-openapi.yml
+  url: https://artifacts.apis.io/platzi-fake-store-api/openapi/platzi-fake-store-api-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: platzi-fake-store-api-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/platzi-fake-store-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/platzi-fake-store-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/platzi-fake-store-api/refs/heads/main/authentication/platzi-fake-store-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/platzi-fake-store-api/authentication/platzi-fake-store-api-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - E-Commerce

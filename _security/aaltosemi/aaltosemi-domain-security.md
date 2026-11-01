@@ -26,7 +26,7 @@ source_filename: aaltosemi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.aaltosemi.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 21 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: aaltosemi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aaltosemi/refs/heads/main/security/aaltosemi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aaltosemi/security/aaltosemi-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Company

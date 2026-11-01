@@ -28,7 +28,7 @@ source_filename: murphy-usa-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.murphyusa.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 15:18:27 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: murphyusa.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/murphy-usa/refs/heads/main/security/murphy-usa-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/murphy-usa/security/murphy-usa-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Fortune 500

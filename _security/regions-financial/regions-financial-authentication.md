@@ -7,31 +7,31 @@ api_specs:
   label: regions-financial Account Information API
   slug: regions-financial-account-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/openapi/regions-financial-account-information-api-openapi.yml
+  url: https://artifacts.apis.io/regions-financial/openapi/regions-financial-account-information-api-openapi.yml
 - filename: regions-financial-consent-api-openapi.yml
   format: yaml
   label: regions-financial Consent API
   slug: regions-financial-consent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/openapi/regions-financial-consent-api-openapi.yml
+  url: https://artifacts.apis.io/regions-financial/openapi/regions-financial-consent-api-openapi.yml
 - filename: regions-financial-customer-api-openapi.yml
   format: yaml
   label: regions-financial Customer API
   slug: regions-financial-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/openapi/regions-financial-customer-api-openapi.yml
+  url: https://artifacts.apis.io/regions-financial/openapi/regions-financial-customer-api-openapi.yml
 - filename: regions-financial-payments-api-openapi.yml
   format: yaml
   label: regions-financial Payments API
   slug: regions-financial-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/openapi/regions-financial-payments-api-openapi.yml
+  url: https://artifacts.apis.io/regions-financial/openapi/regions-financial-payments-api-openapi.yml
 - filename: regions-financial-transactions-api-openapi.yml
   format: yaml
   label: regions-financial Transactions API
   slug: regions-financial-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/openapi/regions-financial-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/regions-financial/openapi/regions-financial-transactions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -63,7 +63,7 @@ source_filename: regions-financial-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/regions-open-banking-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.regions.com/oauth/authorize\n    tokenUrl: https://auth.regions.com/oauth/token\n    scopes: 4\n  description: OAuth 2.0 with customer consent (FDX standard)\n  sources:\n  - openapi/regions-open-banking-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/authentication/regions-financial-authentication.yml
+source_yaml_url: https://artifacts.apis.io/regions-financial/authentication/regions-financial-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Banking

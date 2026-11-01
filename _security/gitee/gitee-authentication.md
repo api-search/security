@@ -7,55 +7,55 @@ api_specs:
   label: Gitee Enterprises API
   slug: gitee-enterprises-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-enterprises-api-openapi.yml
+  url: https://artifacts.apis.io/gitee/openapi/gitee-enterprises-api-openapi.yml
 - filename: gitee-gists-api-openapi.yml
   format: yaml
   label: Gitee Gists API
   slug: gitee-gists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-gists-api-openapi.yml
+  url: https://artifacts.apis.io/gitee/openapi/gitee-gists-api-openapi.yml
 - filename: gitee-issues-api-openapi.yml
   format: yaml
   label: Gitee Issues API
   slug: gitee-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-issues-api-openapi.yml
+  url: https://artifacts.apis.io/gitee/openapi/gitee-issues-api-openapi.yml
 - filename: gitee-organizations-api-openapi.yml
   format: yaml
   label: Gitee Organizations API
   slug: gitee-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/gitee/openapi/gitee-organizations-api-openapi.yml
 - filename: gitee-pull-requests-api-openapi.yml
   format: yaml
   label: Gitee Pull Requests API
   slug: gitee-pull-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-pull-requests-api-openapi.yml
+  url: https://artifacts.apis.io/gitee/openapi/gitee-pull-requests-api-openapi.yml
 - filename: gitee-repositories-api-openapi.yml
   format: yaml
   label: Gitee Repositories API
   slug: gitee-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/gitee/openapi/gitee-repositories-api-openapi.yml
 - filename: gitee-search-api-openapi.yml
   format: yaml
   label: Gitee Search API
   slug: gitee-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-search-api-openapi.yml
+  url: https://artifacts.apis.io/gitee/openapi/gitee-search-api-openapi.yml
 - filename: gitee-users-api-openapi.yml
   format: yaml
   label: Gitee Users API
   slug: gitee-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-users-api-openapi.yml
+  url: https://artifacts.apis.io/gitee/openapi/gitee-users-api-openapi.yml
 - filename: gitee-webhooks-api-openapi.yml
   format: yaml
   label: Gitee Webhooks API
   slug: gitee-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/gitee/openapi/gitee-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -113,13 +113,12 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live Swagger swagger_doc.json + Gitee OAuth documentation\nsummary:\n  types:\n  - apiKey\n  - http\n  - oauth2\nschemes:\n- name: accessTokenQuery\n  type: apiKey\n  in: query\n  parameterName: access_token\n  description: >-\n    Personal access token supplied as the `access_token` query parameter. This\n    is the predominant auth style in the Gitee Open API v5 - it is present on\n    236 of 264 operations in the live Swagger definition. Create a token under\n    Gitee account Settings > Private tokens.\n  sources:\n  - https://gitee.com/api/v5/swagger_doc.json\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    The same personal access token may be sent as an\n    `Authorization: Bearer <token>` request header instead of a query\n    parameter.\n  sources:\n  - https://gitee.com/api/v5/swagger\n- name: oauth2\n  type: oauth2\n  flow: authorizationCode\n  authorizationUrl: https://gitee.com/oauth/authorize\n\
   \  tokenUrl: https://gitee.com/oauth/token\n  refreshUrl: https://gitee.com/oauth/token\n  scopes:\n  - user_info\n  - projects\n  - pull_requests\n  - issues\n  - notes\n  - keys\n  - hook\n  - groups\n  - gists\n  - enterprises\n  - emails\n  description: >-\n    Gitee OAuth2 for third-party applications. Register an application to obtain\n    a client id and secret, direct users to the authorize endpoint, and exchange\n    the returned code at the token endpoint (refresh tokens are issued).\n    The authorize endpoint was confirmed live (HTTP 302) on 2026-07-12. The\n    scope list is drawn from Gitee's OAuth documentation; the Swagger definition\n    itself carries no securityDefinitions.\n  sources:\n  - https://gitee.com/api/v5/oauth_doc\nnotes: >-\n  Unauthenticated requests are allowed for public reads at a reduced rate limit\n  (60 requests/minute, confirmed via live X-RateLimit-Limit response header).\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/authentication/gitee-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gitee/authentication/gitee-authentication.yml
 summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Code Hosting
-- Git
-- Git Hosting
 - Version Control
+- Git Hosting
 - Repositories
 - Pull Requests
 - Issue Tracking

@@ -7,37 +7,37 @@ api_specs:
   label: Tint Claims API
   slug: tint-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tint/refs/heads/main/openapi/tint-claims-api-openapi.yml
+  url: https://artifacts.apis.io/tint/openapi/tint-claims-api-openapi.yml
 - filename: tint-decisions-api-openapi.yml
   format: yaml
   label: Tint Decisions API
   slug: tint-decisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tint/refs/heads/main/openapi/tint-decisions-api-openapi.yml
+  url: https://artifacts.apis.io/tint/openapi/tint-decisions-api-openapi.yml
 - filename: tint-policies-api-openapi.yml
   format: yaml
   label: Tint Policies API
   slug: tint-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tint/refs/heads/main/openapi/tint-policies-api-openapi.yml
+  url: https://artifacts.apis.io/tint/openapi/tint-policies-api-openapi.yml
 - filename: tint-programs-api-openapi.yml
   format: yaml
   label: Tint Programs API
   slug: tint-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tint/refs/heads/main/openapi/tint-programs-api-openapi.yml
+  url: https://artifacts.apis.io/tint/openapi/tint-programs-api-openapi.yml
 - filename: tint-questionnaires-api-openapi.yml
   format: yaml
   label: Tint Questionnaires API
   slug: tint-questionnaires-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tint/refs/heads/main/openapi/tint-questionnaires-api-openapi.yml
+  url: https://artifacts.apis.io/tint/openapi/tint-questionnaires-api-openapi.yml
 - filename: tint-quotes-api-openapi.yml
   format: yaml
   label: Tint Quotes API
   slug: tint-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tint/refs/heads/main/openapi/tint-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/tint/openapi/tint-quotes-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +64,7 @@ source_filename: tint-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tint-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'API token passed as \"Authorization: Bearer ${API_TOKEN}\". The token determines\n    whether the request is routed to the sandbox or production environment.'\n  sources:\n  - openapi/tint-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tint/refs/heads/main/authentication/tint-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tint/authentication/tint-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Insurance

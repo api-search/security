@@ -8,43 +8,43 @@ api_specs:
   label: Sprift Home API
   slug: sprift-home-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-home-api-openapi.yml
+  url: https://artifacts.apis.io/sprift/openapi/sprift-home-api-openapi.yml
 - filename: sprift-insider-api-openapi.yml
   format: yaml
   label: Sprift Insider API
   slug: sprift-insider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-insider-api-openapi.yml
+  url: https://artifacts.apis.io/sprift/openapi/sprift-insider-api-openapi.yml
 - filename: sprift-property-api-openapi.yml
   format: yaml
   label: Sprift Property API
   slug: sprift-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-property-api-openapi.yml
+  url: https://artifacts.apis.io/sprift/openapi/sprift-property-api-openapi.yml
 - filename: sprift-property-v2-api-openapi.yml
   format: yaml
   label: Sprift Property V2 API
   slug: sprift-property-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-property-v2-api-openapi.yml
+  url: https://artifacts.apis.io/sprift/openapi/sprift-property-v2-api-openapi.yml
 - filename: sprift-search-api-openapi.yml
   format: yaml
   label: Sprift Search API
   slug: sprift-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-search-api-openapi.yml
+  url: https://artifacts.apis.io/sprift/openapi/sprift-search-api-openapi.yml
 - filename: sprift-share-api-openapi.yml
   format: yaml
   label: Sprift Share API
   slug: sprift-share-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-share-api-openapi.yml
+  url: https://artifacts.apis.io/sprift/openapi/sprift-share-api-openapi.yml
 - filename: sprift-user-api-openapi.yml
   format: yaml
   label: Sprift User API
   slug: sprift-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-user-api-openapi.yml
+  url: https://artifacts.apis.io/sprift/openapi/sprift-user-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: openapi/sprift-
   \ \"Generate new\n    key\". Include your key as a Bearer token in every request. All endpoints are\n    HTTPS only.\n  key_format_shown: sk_live_sprift_ prefix, remainder masked on the page\n  verified: false\n  note: >-\n    Could not be verified — the Settings > Developer > API Keys screen sits behind\n    https://sprift.com/dashboard/login. This describes the advertised, uncontracted\n    /api/v2 family, not the published v1 contract.\ncredential_issuance:\n  self_serve_signup: false\n  process: >-\n    Become a Sprift subscriber first (book a demo — pricing is quoted per branch and\n    is not published), then email customer.success@sprift.com with your full name and\n    company, a description of the intended use case, and the systems you plan to\n    integrate with. Sprift reviews the request, and API access \"may require an\n    additional agreement depending on your subscription.\"\n  contact: customer.success@sprift.com\n  docs: https://sprift.com/en/livechatacademy/api-key\n\
   \  register_endpoints_checked:\n  - url: https://sprift.com/dashboard/register\n    status: 404\n  - url: https://sprift.com/dashboard/signup\n    status: 404\nend_user_login:\n  operations:\n  - Login\n  - Logout\n  path: POST /user/login, GET /user/logout\n  purpose: >-\n    Not the API authentication path. The contract states: \"You do not need to call\n    this Endpoint with your API username and password in order to use the API. This\n    Endpoint is intended to those who want to add Sprift platform into their\n    platforms using an iFrame and let Sprift users to login to Sprift.\" A partner\n    platform authenticates a Sprift end user on the partner's behalf; the call itself\n    still requires the SPRIFT-API-KEY header.\n  returns: status, token, expires, url, telephone, email (inline_response_200_1)\nopenid_connect:\n  present: false\n  evidence: https://sprift.com/.well-known/openid-configuration returns HTTP 404\noauth2:\n  present: false\n  evidence: >-\n    no oauth2 securityScheme\
   \ in the contract; no OAuth documentation on any Sprift\n    surface; scopes/ artifact intentionally absent\nmtls:\n  present: false\nanonymous_behaviour:\n- url: https://sprift.com/dashboard/api/v1/\n  status: 401\n  body: '{\"status\":false,\"error\":\"Unauthorized\"}'\n- url: https://sprift.com/dashboard/api/v1/search?phrase=SW1A\n  header: 'SPRIFT-API-KEY: invalid-test-key'\n  status: 401\n  body: '{\"status\":false,\"error\":\"Unauthorized\"}'\n- url: https://api.sprift.com/\n  status: 403\n  body: '{\"message\":\"Missing Authentication Token\"}'\n  note: AWS API Gateway default (x-amzn-errortype MissingAuthenticationTokenException)\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/authentication/sprift-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sprift/authentication/sprift-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Real Estate

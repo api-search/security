@@ -38,7 +38,7 @@ source_filename: scenario-gg-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.scenario.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 17:45:00 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: app.scenario.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 04:18:30 2026 GMT\n  hsts: null\n- host: docs.scenario.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 17:17:08 2026 GMT\n  hsts: false\ndomains:\n- domain: scenario.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scenario-gg/refs/heads/main/security/scenario-gg-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/scenario-gg/security/scenario-gg-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

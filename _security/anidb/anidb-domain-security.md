@@ -33,7 +33,7 @@ source_filename: anidb-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: wiki.anidb.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 21:35:49 2026 GMT\n  hsts: null\ndomains:\n- domain: anidb.net\n  dnssec: false\n  caa:\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anidb/refs/heads/main/security/anidb-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/anidb/security/anidb-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Anime

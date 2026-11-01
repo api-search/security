@@ -5,7 +5,7 @@ api_specs:
   label: SteadyAPI
   slug: steadyapi
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/steadyapi/refs/heads/main/postman/steadyapi-collection.json
+  url: https://artifacts.apis.io/steadyapi/postman/steadyapi-collection.json
 description: ''
 domains:
 - caa: []
@@ -44,7 +44,7 @@ source_filename: steadyapi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: steadyapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  7 11:26:02 2026 GMT\n  hsts: false\n- host: docs.steadyapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  7 11:26:02 2026 GMT\n  hsts: false\n- host: api.steadyapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  7 11:26:02 2026 GMT\n  hsts: false\ndomains:\n- domain: steadyapi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/steadyapi/refs/heads/main/security/steadyapi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/steadyapi/security/steadyapi-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Data

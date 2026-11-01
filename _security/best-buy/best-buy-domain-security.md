@@ -5,19 +5,19 @@ api_specs:
   label: Best Buy Products API
   slug: best-buy-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/openapi/best-buy-products-api-openapi.yml
+  url: https://artifacts.apis.io/best-buy/openapi/best-buy-products-api-openapi.yml
 - filename: best-buy-recommendations-api-openapi.yml
   format: yaml
   label: Best Buy Recommendations API
   slug: best-buy-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/openapi/best-buy-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/best-buy/openapi/best-buy-recommendations-api-openapi.yml
 - filename: best-buy-stores-api-openapi.yml
   format: yaml
   label: Best Buy Stores API
   slug: best-buy-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/openapi/best-buy-stores-api-openapi.yml
+  url: https://artifacts.apis.io/best-buy/openapi/best-buy-stores-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: best-buy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bestbuy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 11 23:59:59 2027 GMT\n  hsts: null\n- host: api.bestbuy.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 26 05:20:03 2027 GMT\n  hsts: null\ndomains:\n- domain: bestbuy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/security/best-buy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/best-buy/security/best-buy-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Fortune 100

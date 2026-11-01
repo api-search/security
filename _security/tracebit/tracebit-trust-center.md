@@ -5,13 +5,13 @@ api_specs:
   label: Tracebit Alerts API
   slug: tracebit-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tracebit/refs/heads/main/openapi/tracebit-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/tracebit/openapi/tracebit-alerts-api-openapi.yml
 - filename: tracebit-canary-credentials-api-openapi.yml
   format: yaml
   label: Tracebit Canary Credentials API
   slug: tracebit-canary-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tracebit/refs/heads/main/openapi/tracebit-canary-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/tracebit/openapi/tracebit-canary-credentials-api-openapi.yml
 certification_count: 0
 certifications: []
 description: ''
@@ -27,7 +27,7 @@ source_filename: tracebit-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nurl: https://trust.tracebit.com/\nplatform: Vanta\ncertifications: []\nnotes: >-\n  Trust center verified live at trust.tracebit.com (page title \"Tracebit Trust\n  Center\", Vanta Trust Center platform detected in page source). The page body\n  is JS-rendered, so named certifications could not be extracted and none are\n  asserted here.\nevidence:\n- source: https://trust.tracebit.com/\n  kind: page-title\n  detail: '\"Tracebit Trust Center\" (HTTP 200)'\n- source: https://trust.tracebit.com/\n  kind: html-keyword\n  detail: vanta (trust-center platform)\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tracebit/refs/heads/main/security/tracebit-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/tracebit/security/tracebit-trust-center.yml
 summary_line: trust center published
 tags:
 - Company

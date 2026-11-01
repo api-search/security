@@ -7,25 +7,25 @@ api_specs:
   label: Textcortex Balance API
   slug: textcortex-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textcortex/refs/heads/main/openapi/textcortex-balance-api-openapi.yml
+  url: https://artifacts.apis.io/textcortex/openapi/textcortex-balance-api-openapi.yml
 - filename: textcortex-chat-completions-api-openapi.yml
   format: yaml
   label: Textcortex Chat Completions API
   slug: textcortex-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textcortex/refs/heads/main/openapi/textcortex-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/textcortex/openapi/textcortex-chat-completions-api-openapi.yml
 - filename: textcortex-models-api-openapi.yml
   format: yaml
   label: Textcortex Models API
   slug: textcortex-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textcortex/refs/heads/main/openapi/textcortex-models-api-openapi.yml
+  url: https://artifacts.apis.io/textcortex/openapi/textcortex-models-api-openapi.yml
 - filename: textcortex-responses-api-openapi.yml
   format: yaml
   label: Textcortex Responses API
   slug: textcortex-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textcortex/refs/heads/main/openapi/textcortex-responses-api-openapi.yml
+  url: https://artifacts.apis.io/textcortex/openapi/textcortex-responses-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -54,7 +54,7 @@ source_filename: textcortex-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/textcortex-openapi.json\ndocs: https://docs.textcortex.com/\nsummary:\n  types:\n  - http\n  http_schemes:\n  - bearer\n  notes: >-\n    Single auth model. The public REST API authenticates with a per-account API key\n    sent as an HTTP Bearer token in the Authorization header. Generate the key from\n    the TextCortex dashboard Settings. There is no OAuth flow for the REST API; a\n    separate OIDC discovery document (well-known/textcortex-openid-configuration.json)\n    covers account/dashboard login only (scopes openid/email/profile).\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: API key\n  description: 'Send `Authorization: Bearer <api_key>`.'\n  how_to_obtain: TextCortex dashboard -> Settings -> API Key\n  sources:\n  - openapi/textcortex-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/textcortex/refs/heads/main/authentication/textcortex-authentication.yml
+source_yaml_url: https://artifacts.apis.io/textcortex/authentication/textcortex-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

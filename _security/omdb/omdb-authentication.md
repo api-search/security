@@ -8,19 +8,19 @@ api_specs:
   label: OMDb ID Parameter API
   slug: omdb-id-parameter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omdb/refs/heads/main/openapi/omdb-id-parameter-api-openapi.yml
+  url: https://artifacts.apis.io/omdb/openapi/omdb-id-parameter-api-openapi.yml
 - filename: omdb-search-parameter-api-openapi.yml
   format: yaml
   label: OMDb Search Parameter API
   slug: omdb-search-parameter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omdb/refs/heads/main/openapi/omdb-search-parameter-api-openapi.yml
+  url: https://artifacts.apis.io/omdb/openapi/omdb-search-parameter-api-openapi.yml
 - filename: omdb-title-parameter-api-openapi.yml
   format: yaml
   label: OMDb Title Parameter API
   slug: omdb-title-parameter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omdb/refs/heads/main/openapi/omdb-title-parameter-api-openapi.yml
+  url: https://artifacts.apis.io/omdb/openapi/omdb-title-parameter-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: omdb-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/omdb-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: APIKeyQueryParam\n  type: apiKey\n  in: query\n  parameter: apikey\n  description: API key obtained from https://www.omdbapi.com/apikey.aspx\n  sources:\n  - openapi/omdb-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/omdb/refs/heads/main/authentication/omdb-authentication.yml
+source_yaml_url: https://artifacts.apis.io/omdb/authentication/omdb-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Movies

@@ -39,7 +39,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://docs.vian.ai/5.0-r2/api-quickstart.html\ndocs: https://docs.vian.ai/5.0-r2/api-quickstart.html\nsummary:\n  types:\n  - http\n  - apiKey\n  http_schemes:\n  - bearer\n  api_key_in:\n  - header\n  notes: >-\n    Most hila REST and SDK calls require an authorization bearer token. A token is\n    obtained by POSTing username/password to /v1/user/login and reading access_token\n    from the response; it is then sent on the Authorization header of subsequent calls.\n    A long-lived API key (x-api-key header) is also issued via /v1/user/api-key and is\n    used to download the SDK/CLI wheel from the deployment.\nschemes:\n- name: bearerToken\n  type: http\n  scheme: bearer\n  description: >-\n    Access token returned by POST /v1/user/login (field access_token). Sent as\n    \"Authorization: <access_token>\" on subsequent REST and SDK requests.\n  token_endpoint: /v1/user/login\n  logout_endpoint: /v1/user/logout\n  sources:\n\
   \  - https://docs.vian.ai/5.0-r2/api-quickstart.html\n- name: apiKey\n  type: apiKey\n  in: header\n  name_param: x-api-key\n  description: >-\n    Per-user API key managed via /v1/user/api-key; used as the x-api-key header (e.g.\n    to fetch the vianops-client SDK/CLI wheel from webservices/<host>/v1/sdk).\n  sources:\n  - https://docs.vian.ai/5.0-r2/vianctl.html\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vianai-systems/refs/heads/main/authentication/vianai-systems-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vianai-systems/authentication/vianai-systems-authentication.yml
 summary_line: http/apiKey · 2 schemes
 tags:
 - Company

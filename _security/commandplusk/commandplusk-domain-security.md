@@ -5,19 +5,19 @@ api_specs:
   label: CMD+K Cmdk API
   slug: commandplusk-cmdk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commandplusk/refs/heads/main/openapi/commandplusk-cmdk-api-openapi.yml
+  url: https://artifacts.apis.io/commandplusk/openapi/commandplusk-cmdk-api-openapi.yml
 - filename: commandplusk-models-api-openapi.yml
   format: yaml
   label: CMD+K Models API
   slug: commandplusk-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commandplusk/refs/heads/main/openapi/commandplusk-models-api-openapi.yml
+  url: https://artifacts.apis.io/commandplusk/openapi/commandplusk-models-api-openapi.yml
 - filename: commandplusk-public-api-openapi.yml
   format: yaml
   label: CMD+K Public API
   slug: commandplusk-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commandplusk/refs/heads/main/openapi/commandplusk-public-api-openapi.yml
+  url: https://artifacts.apis.io/commandplusk/openapi/commandplusk-public-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: commandplusk-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-16'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: commandplusk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 13 16:58:58 2026 GMT\n  hsts: false\ndomains:\n- domain: commandplusk.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/commandplusk/refs/heads/main/security/commandplusk-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/commandplusk/security/commandplusk-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Artificial Intelligence

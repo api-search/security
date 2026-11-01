@@ -5,19 +5,19 @@ api_specs:
   label: Seamless.AI Public API
   slug: seamless-ai-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/openapi/_original/seamless-ai-public-api-openapi-original.json
+  url: https://artifacts.apis.io/seamless-ai/openapi/_original/seamless-ai-public-api-openapi-original.json
 - filename: seamless-ai-mcp-api-openapi.yml
   format: yaml
   label: Seamless.AI MCP API
   slug: seamless-ai-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/openapi/seamless-ai-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/seamless-ai/openapi/seamless-ai-mcp-api-openapi.yml
 - filename: seamless-ai-oauth-api-openapi.yml
   format: yaml
   label: Seamless.AI O Auth API
   slug: seamless-ai-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/openapi/seamless-ai-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/seamless-ai/openapi/seamless-ai-oauth-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -63,7 +63,7 @@ source_filename: seamless-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: seamless.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 23:59:59 2026 GMT\n  hsts: false\n- host: docs.seamless.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 04:55:17 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.seamless.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 08:46:34 2026 GMT\n  hsts: null\ndomains:\n- domain: seamless.ai\n  dnssec: false\n  caa:\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/security/seamless-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/seamless-ai/security/seamless-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - B2B

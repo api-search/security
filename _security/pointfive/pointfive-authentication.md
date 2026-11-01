@@ -45,7 +45,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://mcp.pointfive.co/.well-known/oauth-authorization-server\ndocs: https://www.pointfive.co/mcp\nsummary:\n  types: [oauth2]\n  oauth2_flows: [authorizationCode]\n  notes: >-\n    PointFive's public programmatic surface is its MCP server, which authenticates\n    with OAuth 2.1 (authorization code + PKCE S256, refresh tokens, dynamic client\n    registration). Users only access data they can already see in the PointFive\n    platform. The core web application (app.pointfive.co) is a separate\n    session/SSO-based login; no first-party REST API is publicly documented.\nschemes:\n- name: OAuth2\n  type: oauth2\n  profile: OAuth 2.1\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://mcp.pointfive.co/authorize\n    tokenUrl: https://mcp.pointfive.co/token\n    registrationUrl: https://mcp.pointfive.co/register\n    revocationUrl: https://mcp.pointfive.co/revoke\n    pkce: S256\n    grant_types: [authorization_code,\
   \ refresh_token]\n    token_endpoint_auth_methods: [none]\n    scopes:\n      api:read: Read access to PointFive data (opportunities, resources, anomalies, commitments).\n      api:write: Write access to PointFive data.\n  bearer_methods: [header]\n  sources: [well-known/pointfive-oauth-authorization-server.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pointfive/refs/heads/main/authentication/pointfive-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pointfive/authentication/pointfive-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

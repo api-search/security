@@ -7,25 +7,25 @@ api_specs:
   label: Evidently AI Dashboards API
   slug: evidently-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evidently/refs/heads/main/openapi/evidently-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/evidently/openapi/evidently-dashboards-api-openapi.yml
 - filename: evidently-projects-api-openapi.yml
   format: yaml
   label: Evidently AI Projects API
   slug: evidently-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evidently/refs/heads/main/openapi/evidently-projects-api-openapi.yml
+  url: https://artifacts.apis.io/evidently/openapi/evidently-projects-api-openapi.yml
 - filename: evidently-service-api-openapi.yml
   format: yaml
   label: Evidently AI Service API
   slug: evidently-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evidently/refs/heads/main/openapi/evidently-service-api-openapi.yml
+  url: https://artifacts.apis.io/evidently/openapi/evidently-service-api-openapi.yml
 - filename: evidently-snapshots-api-openapi.yml
   format: yaml
   label: Evidently AI Snapshots API
   slug: evidently-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evidently/refs/heads/main/openapi/evidently-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/evidently/openapi/evidently-snapshots-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -53,7 +53,7 @@ source_filename: evidently-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/evidently-platform-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: API Key\n  description: Bearer token (API key) obtained from the Evidently platform settings. Set via\n    the Authorization header or the EVIDENTLY_API_KEY environment variable.\n  sources:\n  - openapi/evidently-platform-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evidently/refs/heads/main/authentication/evidently-authentication.yml
+source_yaml_url: https://artifacts.apis.io/evidently/authentication/evidently-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - ML Monitoring

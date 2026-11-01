@@ -5,169 +5,169 @@ api_specs:
   label: Together AI Audio API
   slug: together-ai-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-audio-api-openapi.yml
+  url: https://artifacts.apis.io/together-ai/openapi/together-ai-audio-api-openapi.yml
 - filename: together-ai-batches-api-openapi.yml
   format: yaml
   label: Together AI Batches API
   slug: together-ai-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-batches-api-openapi.yml
+  url: https://artifacts.apis.io/together-ai/openapi/together-ai-batches-api-openapi.yml
 - filename: together-ai-code-interpreter-api-openapi.yml
   format: yaml
   label: Together AI Code Interpreter API
   slug: together-ai-code-interpreter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-code-interpreter-api-openapi.yml
+  url: https://artifacts.apis.io/together-ai/openapi/together-ai-code-interpreter-api-openapi.yml
 - filename: together-ai-completion-api-openapi.yml
   format: yaml
   label: Together AI Completion API
   slug: together-ai-completion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-completion-api-openapi.yml
+  url: https://artifacts.apis.io/together-ai/openapi/together-ai-completion-api-openapi.yml
 - filename: together-ai-compute-api-openapi.yml
   format: yaml
   label: Together AI Compute API
   slug: together-ai-compute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-compute-api-openapi.yml
+  url: https://artifacts.apis.io/together-ai/openapi/together-ai-compute-api-openapi.yml
 - filename: together-ai-deployments-api-openapi.yml
   format: yaml
   label: Together AI Deployments API
   slug: together-ai-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/together-ai/openapi/together-ai-deployments-api-openapi.yml
 - filename: together-ai-deploymentsstorage-api-openapi.yml
   format: yaml
   label: Together AI DeploymentsStorage API
   slug: together-ai-deploymentsstorage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-deploymentsstorage-api-openapi.yml
+  url: https://artifacts.apis.io/together-ai/openapi/together-ai-deploymentsstorage-api-openapi.yml
 - filename: together-ai-deploymentsvolumes-api-openapi.yml
   format: yaml
   label: Together AI DeploymentsVolumes API
   slug: together-ai-deploymentsvolumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-deploymentsvolumes-api-openapi.yml
+  url: https://artifacts.apis.io/together-ai/openapi/together-ai-deploymentsvolumes-api-openapi.yml
 - filename: together-ai-embeddings-api-openapi.yml
   format: yaml
   label: Together AI Embeddings API
   slug: together-ai-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/together-ai/openapi/together-ai-embeddings-api-openapi.yml
 - filename: together-ai-endpoints-api-openapi.yml
   format: yaml
   label: Together AI Endpoints API
   slug: together-ai-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/together-ai/openapi/together-ai-endpoints-api-openapi.yml
 - filename: together-ai-evaluation-api-openapi.yml
   format: yaml
   label: Together AI Evaluation API
   slug: together-ai-evaluation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-evaluation-api-openapi.yml
+  url: https://artifacts.apis.io/together-ai/openapi/together-ai-evaluation-api-openapi.yml
 - filename: together-ai-files-api-openapi.yml
   format: yaml
   label: Together AI Files API
   slug: together-ai-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-files-api-openapi.yml
+  url: https://artifacts.apis.io/together-ai/openapi/together-ai-files-api-openapi.yml
 - filename: together-ai-fine-tuning-api-openapi.yml
   format: yaml
   label: Together AI Fine-tuning API
   slug: together-ai-fine-tuning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-fine-tuning-api-openapi.yml
+  url: https://artifacts.apis.io/together-ai/openapi/together-ai-fine-tuning-api-openapi.yml
 - filename: together-ai-gpuclusterservice-api-openapi.yml
   format: yaml
   label: Together AI GPUClusterService API
   slug: together-ai-gpuclusterservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-gpuclusterservice-api-openapi.yml
+  url: https://artifacts.apis.io/together-ai/openapi/together-ai-gpuclusterservice-api-openapi.yml
 - filename: together-ai-hardware-api-openapi.yml
   format: yaml
   label: Together AI Hardware API
   slug: together-ai-hardware-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-hardware-api-openapi.yml
+  url: https://artifacts.apis.io/together-ai/openapi/together-ai-hardware-api-openapi.yml
 - filename: together-ai-images-api-openapi.yml
   format: yaml
   label: Together AI Images API
   slug: together-ai-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-images-api-openapi.yml
+  url: https://artifacts.apis.io/together-ai/openapi/together-ai-images-api-openapi.yml
 - filename: together-ai-jobs-api-openapi.yml
   format: yaml
   label: Together AI Jobs API
   slug: together-ai-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/together-ai/openapi/together-ai-jobs-api-openapi.yml
 - filename: together-ai-models-api-openapi.yml
   format: yaml
   label: Together AI Models API
   slug: together-ai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-models-api-openapi.yml
+  url: https://artifacts.apis.io/together-ai/openapi/together-ai-models-api-openapi.yml
 - filename: together-ai-queue-api-openapi.yml
   format: yaml
   label: Together AI Queue API
   slug: together-ai-queue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-queue-api-openapi.yml
+  url: https://artifacts.apis.io/together-ai/openapi/together-ai-queue-api-openapi.yml
 - filename: together-ai-regionservice-api-openapi.yml
   format: yaml
   label: Together AI RegionService API
   slug: together-ai-regionservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-regionservice-api-openapi.yml
+  url: https://artifacts.apis.io/together-ai/openapi/together-ai-regionservice-api-openapi.yml
 - filename: together-ai-rerank-api-openapi.yml
   format: yaml
   label: Together AI Rerank API
   slug: together-ai-rerank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-rerank-api-openapi.yml
+  url: https://artifacts.apis.io/together-ai/openapi/together-ai-rerank-api-openapi.yml
 - filename: together-ai-rl-api-openapi.yml
   format: yaml
   label: Together AI RL API
   slug: together-ai-rl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-rl-api-openapi.yml
+  url: https://artifacts.apis.io/together-ai/openapi/together-ai-rl-api-openapi.yml
 - filename: together-ai-secrets-api-openapi.yml
   format: yaml
   label: Together AI Secrets API
   slug: together-ai-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/together-ai/openapi/together-ai-secrets-api-openapi.yml
 - filename: together-ai-sharedvolumeservice-api-openapi.yml
   format: yaml
   label: Together AI SharedVolumeService API
   slug: together-ai-sharedvolumeservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-sharedvolumeservice-api-openapi.yml
+  url: https://artifacts.apis.io/together-ai/openapi/together-ai-sharedvolumeservice-api-openapi.yml
 - filename: together-ai-video-api-openapi.yml
   format: yaml
   label: Together AI Video API
   slug: together-ai-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-video-api-openapi.yml
+  url: https://artifacts.apis.io/together-ai/openapi/together-ai-video-api-openapi.yml
 - filename: together-ai-voices-api-openapi.yml
   format: yaml
   label: Together AI Voices API
   slug: together-ai-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-voices-api-openapi.yml
+  url: https://artifacts.apis.io/together-ai/openapi/together-ai-voices-api-openapi.yml
 - filename: together-ai-volumes-api-openapi.yml
   format: yaml
   label: Together AI Volumes API
   slug: together-ai-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/together-ai/openapi/together-ai-volumes-api-openapi.yml
 - filename: together-ai-chat-completions-api-openapi.yml
   format: yaml
   label: Together AI Chat Completions API
   slug: together-ai-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/together-ai/openapi/together-ai-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -214,7 +214,7 @@ source_filename: together-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.together.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 01:45:42 2026 GMT\n  hsts: false\n- host: docs.together.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 21:12:39 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: api.together.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 21:12:39 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\ndomains:\n- domain: together.ai\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/security/together-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/together-ai/security/together-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

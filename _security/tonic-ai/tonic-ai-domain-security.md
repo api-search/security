@@ -5,19 +5,19 @@ api_specs:
   label: Tonic.ai Generate Data API
   slug: tonic-ai-generate-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tonic-ai/refs/heads/main/openapi/tonic-ai-generate-data-api-openapi.yml
+  url: https://artifacts.apis.io/tonic-ai/openapi/tonic-ai-generate-data-api-openapi.yml
 - filename: tonic-ai-table-relationships-api-openapi.yml
   format: yaml
   label: Tonic.ai Table Relationships API
   slug: tonic-ai-table-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tonic-ai/refs/heads/main/openapi/tonic-ai-table-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/tonic-ai/openapi/tonic-ai-table-relationships-api-openapi.yml
 - filename: tonic-ai-workspaces-api-openapi.yml
   format: yaml
   label: Tonic.ai Workspaces API
   slug: tonic-ai-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tonic-ai/refs/heads/main/openapi/tonic-ai-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/tonic-ai/openapi/tonic-ai-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -64,7 +64,7 @@ source_filename: tonic-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tonic.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 01:22:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.tonic.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 08:38:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.tonic.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: tonic.ai\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 iodef \"mailto:security@tonic.ai\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tonic-ai/refs/heads/main/security/tonic-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tonic-ai/security/tonic-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Synthetic Data

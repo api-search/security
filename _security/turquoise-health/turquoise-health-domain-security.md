@@ -5,7 +5,7 @@ api_specs:
   label: Turquoise Health Consumer Pricing API
   slug: turquoise-health-consumer-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/openapi/turquoise-health-consumer-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/turquoise-health/openapi/turquoise-health-consumer-pricing-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +40,7 @@ source_filename: turquoise-health-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: turquoise.health\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 15:54:39 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.turquoise.health\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 13:25:37 2026 GMT\n  hsts: null\ndomains:\n- domain: turquoise.health\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/security/turquoise-health-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/turquoise-health/security/turquoise-health-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Healthcare

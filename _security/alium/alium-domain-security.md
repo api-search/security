@@ -1,17 +1,23 @@
 ---
 api_specs:
+- filename: alium-openapi-generated.yml
+  format: yaml
+  label: Alium API
+  slug: alium-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/alium/openapi/_ae-authored/alium-openapi-generated.yml
 - filename: alium-alium-api-api-openapi.yml
   format: yaml
   label: Alium Alium API
   slug: alium-alium-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alium/refs/heads/main/openapi/alium-alium-api-api-openapi.yml
+  url: https://artifacts.apis.io/alium/openapi/alium-alium-api-api-openapi.yml
 - filename: alium-vendors-api-openapi.yml
   format: yaml
   label: Alium Vendors API
   slug: alium-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alium/refs/heads/main/openapi/alium-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/alium/openapi/alium-vendors-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,11 +47,11 @@ source_filename: alium-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.alium.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 24 06:22:31 2026 GMT\n  hsts: true\n  hsts_max_age: 0\ndomains:\n- domain: alium.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alium/refs/heads/main/security/alium-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/alium/security/alium-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Vendor research
-- Marketing intelligence
+- Marketing Intelligence
 - E-Commerce
 - Enterprise tech
 ---

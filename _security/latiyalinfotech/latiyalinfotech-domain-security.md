@@ -33,7 +33,7 @@ source_filename: latiyalinfotech-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-01'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: latiyalinfotech.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 04:34:26 2026 GMT\n  hsts: false\ndomains:\n- domain: latiyalinfotech.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/latiyalinfotech/refs/heads/main/security/latiyalinfotech-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/latiyalinfotech/security/latiyalinfotech-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Cricket

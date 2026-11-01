@@ -5,7 +5,7 @@ api_specs:
   label: Ron Swanson Quotes API
   slug: ron-swanson-quotes-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ron-swanson-quotes/refs/heads/main/openapi/ron-swanson-quotes-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/ron-swanson-quotes/openapi/ron-swanson-quotes-quotes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -33,7 +33,7 @@ source_filename: ron-swanson-quotes-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ron-swanson-quotes.herokuapp.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 29 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: herokuapp.com\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ron-swanson-quotes/refs/heads/main/security/ron-swanson-quotes-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ron-swanson-quotes/security/ron-swanson-quotes-domain-security.yml
 summary_line: TLSv1.2 · DNSSEC
 tags:
 - Entertainment

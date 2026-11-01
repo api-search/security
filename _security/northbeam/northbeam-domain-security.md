@@ -5,43 +5,43 @@ api_specs:
   label: Northbeam Attribution Models API
   slug: northbeam-attribution-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/openapi/northbeam-attribution-models-api-openapi.yml
+  url: https://artifacts.apis.io/northbeam/openapi/northbeam-attribution-models-api-openapi.yml
 - filename: northbeam-breakdowns-api-openapi.yml
   format: yaml
   label: Northbeam Breakdowns API
   slug: northbeam-breakdowns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/openapi/northbeam-breakdowns-api-openapi.yml
+  url: https://artifacts.apis.io/northbeam/openapi/northbeam-breakdowns-api-openapi.yml
 - filename: northbeam-data-export-api-openapi.yml
   format: yaml
   label: Northbeam Data Export API
   slug: northbeam-data-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/openapi/northbeam-data-export-api-openapi.yml
+  url: https://artifacts.apis.io/northbeam/openapi/northbeam-data-export-api-openapi.yml
 - filename: northbeam-metrics-api-openapi.yml
   format: yaml
   label: Northbeam Metrics API
   slug: northbeam-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/openapi/northbeam-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/northbeam/openapi/northbeam-metrics-api-openapi.yml
 - filename: northbeam-orders-api-openapi.yml
   format: yaml
   label: Northbeam Orders API
   slug: northbeam-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/openapi/northbeam-orders-api-openapi.yml
+  url: https://artifacts.apis.io/northbeam/openapi/northbeam-orders-api-openapi.yml
 - filename: northbeam-spend-api-openapi.yml
   format: yaml
   label: Northbeam Spend API
   slug: northbeam-spend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/openapi/northbeam-spend-api-openapi.yml
+  url: https://artifacts.apis.io/northbeam/openapi/northbeam-spend-api-openapi.yml
 - filename: northbeam-spend-hourly-api-openapi.yml
   format: yaml
   label: Northbeam Spend Hourly API
   slug: northbeam-spend-hourly-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/openapi/northbeam-spend-hourly-api-openapi.yml
+  url: https://artifacts.apis.io/northbeam/openapi/northbeam-spend-hourly-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -103,7 +103,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.northbeam.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 02:03:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.northbeam.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 01:13:38 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.northbeam.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 11:33:49 2026 GMT\n  hsts: null\n- host: mcp.northbeam.io\n  https: true\n  cert_expires: Nov  5 17:34:40 2026 GMT\n  hsts: null\n  note: agent surface; returns 401 with a WWW-Authenticate Bearer challenge on every path\n  added_by: enrichment pass 2026-08-13 (host is not in the OpenAPI servers[] the script reads)\n- host: auth.northbeam.io\n  https: true\n  cert_expires: Sep 27 05:25:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  note: Auth0 identity\
   \ tenant backing the MCP OAuth flow\n  added_by: enrichment pass 2026-08-13 (host is not in the OpenAPI servers[] the script reads)\n- host: api-uat.northbeam.io\n  https: true\n  cert_expires: Oct 29 21:18:18 2026 GMT\n  hsts: null\n  note: UAT sandbox host declared in the Orders and Spend servers[] blocks\n  added_by: enrichment pass 2026-08-13\nx-hsts-gap: >\n  HSTS is served on www.northbeam.io, docs.northbeam.io and auth.northbeam.io but NOT on\n  api.northbeam.io, api-uat.northbeam.io or mcp.northbeam.io — the three hosts that actually\n  carry API credentials.\ndomains:\n- domain: northbeam.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/security/northbeam-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/northbeam/security/northbeam-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Marketing Attribution

@@ -5,73 +5,73 @@ api_specs:
   label: Dialpad Calls API
   slug: dialpad-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-calls-api-openapi.yml
+  url: https://artifacts.apis.io/dialpad/openapi/dialpad-calls-api-openapi.yml
 - filename: dialpad-users-api-openapi.yml
   format: yaml
   label: Dialpad Users API
   slug: dialpad-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-users-api-openapi.yml
+  url: https://artifacts.apis.io/dialpad/openapi/dialpad-users-api-openapi.yml
 - filename: dialpad-asyncapi.yml
   format: yaml
   label: Dialpad Webhooks API
   slug: dialpad-webhooks-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-asyncapi.yml
+  url: https://artifacts.apis.io/dialpad/openapi/dialpad-asyncapi.yml
 - filename: dialpad-calls-api-openapi.yml
   format: yaml
   label: Dialpad Calls API
   slug: dialpad-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-calls-api-openapi.yml
+  url: https://artifacts.apis.io/dialpad/openapi/dialpad-calls-api-openapi.yml
 - filename: dialpad-contacts-api-openapi.yml
   format: yaml
   label: Dialpad Contacts API
   slug: dialpad-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/dialpad/openapi/dialpad-contacts-api-openapi.yml
 - filename: dialpad-offices-api-openapi.yml
   format: yaml
   label: Dialpad Offices API
   slug: dialpad-offices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-offices-api-openapi.yml
+  url: https://artifacts.apis.io/dialpad/openapi/dialpad-offices-api-openapi.yml
 - filename: dialpad-recordings-api-openapi.yml
   format: yaml
   label: Dialpad Recordings API
   slug: dialpad-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/dialpad/openapi/dialpad-recordings-api-openapi.yml
 - filename: dialpad-rooms-api-openapi.yml
   format: yaml
   label: Dialpad Rooms API
   slug: dialpad-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/dialpad/openapi/dialpad-rooms-api-openapi.yml
 - filename: dialpad-subscriptions-api-openapi.yml
   format: yaml
   label: Dialpad Subscriptions API
   slug: dialpad-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/dialpad/openapi/dialpad-subscriptions-api-openapi.yml
 - filename: dialpad-transcripts-api-openapi.yml
   format: yaml
   label: Dialpad Transcripts API
   slug: dialpad-transcripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-transcripts-api-openapi.yml
+  url: https://artifacts.apis.io/dialpad/openapi/dialpad-transcripts-api-openapi.yml
 - filename: dialpad-users-api-openapi.yml
   format: yaml
   label: Dialpad Users API
   slug: dialpad-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-users-api-openapi.yml
+  url: https://artifacts.apis.io/dialpad/openapi/dialpad-users-api-openapi.yml
 - filename: dialpad-webhooks-api-openapi.yml
   format: yaml
   label: Dialpad Webhooks API
   slug: dialpad-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/dialpad/openapi/dialpad-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -117,7 +117,7 @@ source_filename: dialpad-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dialpad.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 18:47:20 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developers.dialpad.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 15:01:06 2026 GMT\n  hsts: null\n- host: dialpad.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: dialpad.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"pki.goog\"\n  - 0 iodef \"mailto:dns-admin@dialpad.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/security/dialpad-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dialpad/security/dialpad-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Communications

@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: buymeacoffee-extras-api-openapi.yml
-  format: yaml
+- filename: buymeacoffee.postman_collection.json
+  format: json
   label: Buy Me a Coffee Extras API
   slug: buymeacoffee-extras-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/openapi/buymeacoffee-extras-api-openapi.yml
-- filename: buymeacoffee-subscriptions-api-openapi.yml
-  format: yaml
+  spec_type: Postman
+  url: https://artifacts.apis.io/buymeacoffee/collections/buymeacoffee.postman_collection.json
+- filename: buymeacoffee.postman_collection.json
+  format: json
   label: Buy Me a Coffee Subscriptions API
   slug: buymeacoffee-subscriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/openapi/buymeacoffee-subscriptions-api-openapi.yml
-- filename: buymeacoffee-supporters-api-openapi.yml
-  format: yaml
+  spec_type: Postman
+  url: https://artifacts.apis.io/buymeacoffee/collections/buymeacoffee.postman_collection.json
+- filename: buymeacoffee.postman_collection.json
+  format: json
   label: Buy Me a Coffee Supporters API
   slug: buymeacoffee-supporters-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/openapi/buymeacoffee-supporters-api-openapi.yml
+  spec_type: Postman
+  url: https://artifacts.apis.io/buymeacoffee/collections/buymeacoffee.postman_collection.json
 description: ''
 domains:
 - caa:
@@ -63,7 +63,7 @@ source_filename: buymeacoffee-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.buymeacoffee.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 22:17:32 2026 GMT\n  hsts: false\n- host: developers.buymeacoffee.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 22:17:32 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: help.buymeacoffee.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 22:17:32 2026 GMT\n  hsts: false\ndomains:\n- domain: buymeacoffee.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/security/buymeacoffee-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/buymeacoffee/security/buymeacoffee-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Creator Economy

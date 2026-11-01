@@ -5,7 +5,7 @@ api_specs:
   label: rtcStats API
   slug: rtcstats-rtcstats-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rtcstats/refs/heads/main/openapi/rtcstats-rtcstats-api-api-openapi.yml
+  url: https://artifacts.apis.io/rtcstats/openapi/rtcstats-rtcstats-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: rtcstats-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.rtcstats.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  6 14:53:03 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: rtcstats.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 04:48:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.rtcstats.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 15:30:38 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: rtcstats.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rtcstats/refs/heads/main/security/rtcstats-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rtcstats/security/rtcstats-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - WebRTC

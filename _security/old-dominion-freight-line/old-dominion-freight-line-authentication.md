@@ -25,7 +25,7 @@ api_specs:
   label: Old Dominion Freight Line Documents API
   slug: old-dominion-freight-line-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/old-dominion-freight-line/refs/heads/main/openapi/old-dominion-freight-line-documents-api-openapi.yml
+  url: https://artifacts.apis.io/old-dominion-freight-line/openapi/old-dominion-freight-line-documents-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -54,7 +54,7 @@ source_filename: old-dominion-freight-line-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/old-dominion-freight-line-bill-of-lading-api-openapi.yml, openapi/old-dominion-freight-line-document-api-openapi.yml,\n  openapi/old-dominion-freight-line-pickup-api-openapi.yml, openapi/old-dominion-freight-line-tracking-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/old-dominion-freight-line-bill-of-lading-api-openapi.yml\n  - openapi/old-dominion-freight-line-document-api-openapi.yml\n  - openapi/old-dominion-freight-line-pickup-api-openapi.yml\n  - openapi/old-dominion-freight-line-tracking-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/old-dominion-freight-line/refs/heads/main/authentication/old-dominion-freight-line-authentication.yml
+source_yaml_url: https://artifacts.apis.io/old-dominion-freight-line/authentication/old-dominion-freight-line-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Freight

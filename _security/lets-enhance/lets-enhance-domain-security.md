@@ -5,19 +5,19 @@ api_specs:
   label: Let's Enhance Image API
   slug: lets-enhance-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/openapi/lets-enhance-image-api-openapi.yml
+  url: https://artifacts.apis.io/lets-enhance/openapi/lets-enhance-image-api-openapi.yml
 - filename: lets-enhance-storage-api-openapi.yml
   format: yaml
   label: Let's Enhance Storage API
   slug: lets-enhance-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/openapi/lets-enhance-storage-api-openapi.yml
+  url: https://artifacts.apis.io/lets-enhance/openapi/lets-enhance-storage-api-openapi.yml
 - filename: lets-enhance-video-api-openapi.yml
   format: yaml
   label: Let's Enhance Video API
   slug: lets-enhance-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/openapi/lets-enhance-video-api-openapi.yml
+  url: https://artifacts.apis.io/lets-enhance/openapi/lets-enhance-video-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: lets-enhance-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: letsenhance.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 14:16:08 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: docs.claid.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 16:47:24 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.claid.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 19:07:36 2026 GMT\n  hsts: null\ndomains:\n- domain: letsenhance.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: claid.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/security/lets-enhance-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lets-enhance/security/lets-enhance-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -5,37 +5,37 @@ api_specs:
   label: Denim Companies API
   slug: denim-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/openapi/denim-companies-api-openapi.yml
+  url: https://artifacts.apis.io/denim/openapi/denim-companies-api-openapi.yml
 - filename: denim-debtors-api-openapi.yml
   format: yaml
   label: Denim Debtors API
   slug: denim-debtors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/openapi/denim-debtors-api-openapi.yml
+  url: https://artifacts.apis.io/denim/openapi/denim-debtors-api-openapi.yml
 - filename: denim-jobs-api-openapi.yml
   format: yaml
   label: Denim Jobs API
   slug: denim-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/openapi/denim-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/denim/openapi/denim-jobs-api-openapi.yml
 - filename: denim-jobs-v2-api-openapi.yml
   format: yaml
   label: Denim Jobs V2 API
   slug: denim-jobs-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/openapi/denim-jobs-v2-api-openapi.yml
+  url: https://artifacts.apis.io/denim/openapi/denim-jobs-v2-api-openapi.yml
 - filename: denim-payees-api-openapi.yml
   format: yaml
   label: Denim Payees API
   slug: denim-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/openapi/denim-payees-api-openapi.yml
+  url: https://artifacts.apis.io/denim/openapi/denim-payees-api-openapi.yml
 - filename: denim-transactions-api-openapi.yml
   format: yaml
   label: Denim Transactions API
   slug: denim-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/openapi/denim-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/denim/openapi/denim-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +71,7 @@ source_filename: denim-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: denim.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 03:22:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: staging.denim.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 01:59:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: denim.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/security/denim-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/denim/security/denim-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

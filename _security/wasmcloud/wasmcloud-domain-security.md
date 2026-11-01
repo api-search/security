@@ -5,13 +5,13 @@ api_specs:
   label: wasmCloud Control Interface API
   slug: wasmcloud-control-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wasmcloud/refs/heads/main/asyncapi/wasmcloud-control-asyncapi.yml
+  url: https://artifacts.apis.io/wasmcloud/asyncapi/wasmcloud-control-asyncapi.yml
 - filename: wasmcloud-wadm-asyncapi.yml
   format: yaml
   label: wasmCloud Application Deployment Manager (wadm) API
   slug: wasmcloud-wadm-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wasmcloud/refs/heads/main/asyncapi/wasmcloud-wadm-asyncapi.yml
+  url: https://artifacts.apis.io/wasmcloud/asyncapi/wasmcloud-wadm-asyncapi.yml
 description: ''
 domains:
 - caa:
@@ -42,7 +42,7 @@ source_filename: wasmcloud-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: wasmcloud.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 04:15:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: wasmcloud.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/54403714\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wasmcloud/refs/heads/main/security/wasmcloud-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wasmcloud/security/wasmcloud-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud-Native

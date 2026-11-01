@@ -5,25 +5,25 @@ api_specs:
   label: AWS App Mesh Meshes API
   slug: aws-app-mesh-meshes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/openapi/aws-app-mesh-meshes-api-openapi.yml
+  url: https://artifacts.apis.io/aws-app-mesh/openapi/aws-app-mesh-meshes-api-openapi.yml
 - filename: aws-app-mesh-tag-api-openapi.yml
   format: yaml
   label: AWS App Mesh Tag API
   slug: aws-app-mesh-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/openapi/aws-app-mesh-tag-api-openapi.yml
+  url: https://artifacts.apis.io/aws-app-mesh/openapi/aws-app-mesh-tag-api-openapi.yml
 - filename: aws-app-mesh-tags-api-openapi.yml
   format: yaml
   label: AWS App Mesh Tags API
   slug: aws-app-mesh-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/openapi/aws-app-mesh-tags-api-openapi.yml
+  url: https://artifacts.apis.io/aws-app-mesh/openapi/aws-app-mesh-tags-api-openapi.yml
 - filename: aws-app-mesh-untag-api-openapi.yml
   format: yaml
   label: AWS App Mesh Untag API
   slug: aws-app-mesh-untag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/openapi/aws-app-mesh-untag-api-openapi.yml
+  url: https://artifacts.apis.io/aws-app-mesh/openapi/aws-app-mesh-untag-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -44,7 +44,7 @@ source_filename: aws-app-mesh-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://aws.amazon.com/compliance/\nurl: https://aws.amazon.com/compliance/\ncertifications:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://aws.amazon.com/compliance/\n  keywords:\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/security/aws-app-mesh-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/aws-app-mesh/security/aws-app-mesh-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Deprecated

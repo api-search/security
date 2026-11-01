@@ -5,43 +5,43 @@ api_specs:
   label: Wikisource Citation API
   slug: wikisource-citation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikisource/refs/heads/main/openapi/wikisource-citation-api-openapi.yml
+  url: https://artifacts.apis.io/wikisource/openapi/wikisource-citation-api-openapi.yml
 - filename: wikisource-math-api-openapi.yml
   format: yaml
   label: Wikisource Math API
   slug: wikisource-math-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikisource/refs/heads/main/openapi/wikisource-math-api-openapi.yml
+  url: https://artifacts.apis.io/wikisource/openapi/wikisource-math-api-openapi.yml
 - filename: wikisource-mobile-api-openapi.yml
   format: yaml
   label: Wikisource Mobile API
   slug: wikisource-mobile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikisource/refs/heads/main/openapi/wikisource-mobile-api-openapi.yml
+  url: https://artifacts.apis.io/wikisource/openapi/wikisource-mobile-api-openapi.yml
 - filename: wikisource-page-content-api-openapi.yml
   format: yaml
   label: Wikisource Page content API
   slug: wikisource-page-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikisource/refs/heads/main/openapi/wikisource-page-content-api-openapi.yml
+  url: https://artifacts.apis.io/wikisource/openapi/wikisource-page-content-api-openapi.yml
 - filename: wikisource-reading-lists-api-openapi.yml
   format: yaml
   label: Wikisource Reading lists API
   slug: wikisource-reading-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikisource/refs/heads/main/openapi/wikisource-reading-lists-api-openapi.yml
+  url: https://artifacts.apis.io/wikisource/openapi/wikisource-reading-lists-api-openapi.yml
 - filename: wikisource-recommendation-api-openapi.yml
   format: yaml
   label: Wikisource Recommendation API
   slug: wikisource-recommendation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikisource/refs/heads/main/openapi/wikisource-recommendation-api-openapi.yml
+  url: https://artifacts.apis.io/wikisource/openapi/wikisource-recommendation-api-openapi.yml
 - filename: wikisource-transforms-api-openapi.yml
   format: yaml
   label: Wikisource Transforms API
   slug: wikisource-transforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikisource/refs/heads/main/openapi/wikisource-transforms-api-openapi.yml
+  url: https://artifacts.apis.io/wikisource/openapi/wikisource-transforms-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -95,7 +95,7 @@ source_filename: wikisource-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: wikisource.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 20:06:43 2026 GMT\n  hsts: true\n  hsts_max_age: 106384710\n- host: en.wikisource.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 20:06:43 2026 GMT\n  hsts: true\n  hsts_max_age: 106384710\n- host: www.mediawiki.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 20:06:43 2026 GMT\n  hsts: true\n  hsts_max_age: 106384710\ndomains:\n- domain: wikisource.org\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 iodef \"mailto:dns-admin@wikimedia.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: mediawiki.org\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 iodef \"mailto:dns-admin@wikimedia.org\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wikisource/refs/heads/main/security/wikisource-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wikisource/security/wikisource-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Open Data

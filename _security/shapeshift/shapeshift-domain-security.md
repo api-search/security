@@ -5,49 +5,49 @@ api_specs:
   label: Shapeshift Account API
   slug: shapeshift-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/openapi/shapeshift-account-api-openapi.yml
+  url: https://artifacts.apis.io/shapeshift/openapi/shapeshift-account-api-openapi.yml
 - filename: shapeshift-fees-api-openapi.yml
   format: yaml
   label: Shapeshift Fees API
   slug: shapeshift-fees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/openapi/shapeshift-fees-api-openapi.yml
+  url: https://artifacts.apis.io/shapeshift/openapi/shapeshift-fees-api-openapi.yml
 - filename: shapeshift-gas-api-openapi.yml
   format: yaml
   label: Shapeshift Gas API
   slug: shapeshift-gas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/openapi/shapeshift-gas-api-openapi.yml
+  url: https://artifacts.apis.io/shapeshift/openapi/shapeshift-gas-api-openapi.yml
 - filename: shapeshift-info-api-openapi.yml
   format: yaml
   label: Shapeshift Info API
   slug: shapeshift-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/openapi/shapeshift-info-api-openapi.yml
+  url: https://artifacts.apis.io/shapeshift/openapi/shapeshift-info-api-openapi.yml
 - filename: shapeshift-jsonrpc-api-openapi.yml
   format: yaml
   label: Shapeshift Jsonrpc API
   slug: shapeshift-jsonrpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/openapi/shapeshift-jsonrpc-api-openapi.yml
+  url: https://artifacts.apis.io/shapeshift/openapi/shapeshift-jsonrpc-api-openapi.yml
 - filename: shapeshift-send-api-openapi.yml
   format: yaml
   label: Shapeshift Send API
   slug: shapeshift-send-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/openapi/shapeshift-send-api-openapi.yml
+  url: https://artifacts.apis.io/shapeshift/openapi/shapeshift-send-api-openapi.yml
 - filename: shapeshift-token-api-openapi.yml
   format: yaml
   label: Shapeshift Token API
   slug: shapeshift-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/openapi/shapeshift-token-api-openapi.yml
+  url: https://artifacts.apis.io/shapeshift/openapi/shapeshift-token-api-openapi.yml
 - filename: shapeshift-tx-api-openapi.yml
   format: yaml
   label: Shapeshift Tx API
   slug: shapeshift-tx-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/openapi/shapeshift-tx-api-openapi.yml
+  url: https://artifacts.apis.io/shapeshift/openapi/shapeshift-tx-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -86,7 +86,7 @@ source_filename: shapeshift-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: shapeshift.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 17:34:04 2026 GMT\n  hsts: false\n- host: api.ethereum.shapeshift.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 21:43:42 2026 GMT\n  hsts: false\n- host: api.bitcoin.shapeshift.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 21:43:42 2026 GMT\n  hsts: false\ndomains:\n- domain: shapeshift.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/security/shapeshift-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/shapeshift/security/shapeshift-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

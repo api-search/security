@@ -13,7 +13,7 @@ api_specs:
   label: FDC3 Application API
   slug: fdc3-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdc3/refs/heads/main/openapi/fdc3-application-api-openapi.yml
+  url: https://artifacts.apis.io/fdc3/openapi/fdc3-application-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -44,7 +44,7 @@ source_filename: fdc3-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/app-directory-1.1.yaml, openapi/app-directory-1.2.yaml, openapi/app-directory-2.0.yaml,\n  openapi/app-directory-2.1.json, openapi/app-directory-2.2.json\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/app-directory-1.1.yaml\n  - openapi/app-directory-1.2.yaml\n  - openapi/app-directory-2.0.yaml\n  - openapi/app-directory-2.1.json\n  - openapi/app-directory-2.2.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fdc3/refs/heads/main/authentication/fdc3-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fdc3/authentication/fdc3-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Financial Services

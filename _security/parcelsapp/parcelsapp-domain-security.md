@@ -5,19 +5,19 @@ api_specs:
   label: Parcels App Account API
   slug: parcelsapp-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcelsapp/refs/heads/main/openapi/parcelsapp-account-api-openapi.yml
+  url: https://artifacts.apis.io/parcelsapp/openapi/parcelsapp-account-api-openapi.yml
 - filename: parcelsapp-tracking-api-openapi.yml
   format: yaml
   label: Parcels App Tracking API
   slug: parcelsapp-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcelsapp/refs/heads/main/openapi/parcelsapp-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/parcelsapp/openapi/parcelsapp-tracking-api-openapi.yml
 - filename: parcelsapp-webhooks-api-openapi.yml
   format: yaml
   label: Parcels App Webhooks API
   slug: parcelsapp-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcelsapp/refs/heads/main/openapi/parcelsapp-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/parcelsapp/openapi/parcelsapp-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -47,7 +47,7 @@ source_filename: parcelsapp-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: parcelsapp.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jul 24 07:48:52 2026 GMT\n  hsts: false\ndomains:\n- domain: parcelsapp.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parcelsapp/refs/heads/main/security/parcelsapp-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/parcelsapp/security/parcelsapp-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Parcel Tracking

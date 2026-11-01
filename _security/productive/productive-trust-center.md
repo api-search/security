@@ -15,7 +15,7 @@ source_filename: productive-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: searched\nprobe: true\nsource: https://productive.io/trust/\nurl: https://productive.io/trust/\ncertifications:\n- GDPR\nevidence:\n- source: https://productive.io/trust/\n  keywords:\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/productive/refs/heads/main/security/productive-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/productive/security/productive-trust-center.yml
 summary_line: GDPR
 tags:
 - Company

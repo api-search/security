@@ -7,19 +7,19 @@ api_specs:
   label: Azure Key Vault Certificates API
   slug: microsoft-azure-key-vault-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-key-vault/refs/heads/main/openapi/microsoft-azure-key-vault-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-key-vault/openapi/microsoft-azure-key-vault-certificates-api-openapi.yml
 - filename: microsoft-azure-key-vault-keys-api-openapi.yml
   format: yaml
   label: Azure Key Vault Keys API
   slug: microsoft-azure-key-vault-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-key-vault/refs/heads/main/openapi/microsoft-azure-key-vault-keys-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-key-vault/openapi/microsoft-azure-key-vault-keys-api-openapi.yml
 - filename: microsoft-azure-key-vault-secrets-api-openapi.yml
   format: yaml
   label: Azure Key Vault Secrets API
   slug: microsoft-azure-key-vault-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-key-vault/refs/heads/main/openapi/microsoft-azure-key-vault-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-key-vault/openapi/microsoft-azure-key-vault-secrets-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -50,7 +50,7 @@ source_filename: microsoft-azure-key-vault-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-key-vault-data-plane-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - implicit\nschemes:\n- name: OAuth2Auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  description: Azure Active Directory OAuth2 authentication. Requires an access token scoped\n    to the Key Vault resource.\n  sources:\n  - openapi/azure-key-vault-data-plane-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-key-vault/refs/heads/main/authentication/microsoft-azure-key-vault-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-key-vault/authentication/microsoft-azure-key-vault-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Certificates

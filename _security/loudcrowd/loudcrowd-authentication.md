@@ -8,49 +8,49 @@ api_specs:
   label: LoudCrowd Attribution Events API
   slug: loudcrowd-attribution-events-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/openapi/loudcrowd-attribution-events-api-api-openapi.yml
+  url: https://artifacts.apis.io/loudcrowd/openapi/loudcrowd-attribution-events-api-api-openapi.yml
 - filename: loudcrowd-brand-api-api-openapi.yml
   format: yaml
   label: LoudCrowd Brand API
   slug: loudcrowd-brand-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/openapi/loudcrowd-brand-api-api-openapi.yml
+  url: https://artifacts.apis.io/loudcrowd/openapi/loudcrowd-brand-api-api-openapi.yml
 - filename: loudcrowd-product-data-api-openapi.yml
   format: yaml
   label: LoudCrowd Product Data API
   slug: loudcrowd-product-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/openapi/loudcrowd-product-data-api-openapi.yml
+  url: https://artifacts.apis.io/loudcrowd/openapi/loudcrowd-product-data-api-openapi.yml
 - filename: loudcrowd-storefrontambassador-api-openapi.yml
   format: yaml
   label: LoudCrowd Storefront Ambassador API
   slug: loudcrowd-storefrontambassador-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/openapi/loudcrowd-storefrontambassador-api-openapi.yml
+  url: https://artifacts.apis.io/loudcrowd/openapi/loudcrowd-storefrontambassador-api-openapi.yml
 - filename: loudcrowd-storefrontfeeditems-api-openapi.yml
   format: yaml
   label: LoudCrowd Storefront Feed Items API
   slug: loudcrowd-storefrontfeeditems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/openapi/loudcrowd-storefrontfeeditems-api-openapi.yml
+  url: https://artifacts.apis.io/loudcrowd/openapi/loudcrowd-storefrontfeeditems-api-openapi.yml
 - filename: loudcrowd-storefrontmediadetails-api-openapi.yml
   format: yaml
   label: LoudCrowd Storefront Media Details API
   slug: loudcrowd-storefrontmediadetails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/openapi/loudcrowd-storefrontmediadetails-api-openapi.yml
+  url: https://artifacts.apis.io/loudcrowd/openapi/loudcrowd-storefrontmediadetails-api-openapi.yml
 - filename: loudcrowd-storefrontproductdetails-api-openapi.yml
   format: yaml
   label: LoudCrowd Storefront Product Details API
   slug: loudcrowd-storefrontproductdetails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/openapi/loudcrowd-storefrontproductdetails-api-openapi.yml
+  url: https://artifacts.apis.io/loudcrowd/openapi/loudcrowd-storefrontproductdetails-api-openapi.yml
 - filename: loudcrowd-storefront-collections-api-openapi.yml
   format: yaml
   label: LoudCrowd Storefront Collections API
   slug: loudcrowd-storefront-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/openapi/loudcrowd-storefront-collections-api-openapi.yml
+  url: https://artifacts.apis.io/loudcrowd/openapi/loudcrowd-storefront-collections-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -86,7 +86,7 @@ source_filename: loudcrowd-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-25'\nmethod: derived\nsource: openapi/loudcrowd-creator-storefronts-openapi.yml, openapi/loudcrowd-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Authorization header using the Bearer scheme. Example: \"Authorization: Bearer\n    {token}\"'\n  sources:\n  - openapi/loudcrowd-creator-storefronts-openapi.yml\n  - openapi/loudcrowd-openapi.yml\n- name: accountKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-LC-Account-Key\n  description: API token created in LoudCrowd.\n  sources:\n  - openapi/loudcrowd-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/authentication/loudcrowd-authentication.yml
+source_yaml_url: https://artifacts.apis.io/loudcrowd/authentication/loudcrowd-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Creator Marketing

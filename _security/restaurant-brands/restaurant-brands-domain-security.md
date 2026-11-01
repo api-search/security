@@ -5,25 +5,25 @@ api_specs:
   label: Restaurant Brands International Loyalty API
   slug: restaurant-brands-loyalty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restaurant-brands/refs/heads/main/openapi/restaurant-brands-loyalty-api-openapi.yml
+  url: https://artifacts.apis.io/restaurant-brands/openapi/restaurant-brands-loyalty-api-openapi.yml
 - filename: restaurant-brands-menus-api-openapi.yml
   format: yaml
   label: Restaurant Brands International Menus API
   slug: restaurant-brands-menus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restaurant-brands/refs/heads/main/openapi/restaurant-brands-menus-api-openapi.yml
+  url: https://artifacts.apis.io/restaurant-brands/openapi/restaurant-brands-menus-api-openapi.yml
 - filename: restaurant-brands-orders-api-openapi.yml
   format: yaml
   label: Restaurant Brands International Orders API
   slug: restaurant-brands-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restaurant-brands/refs/heads/main/openapi/restaurant-brands-orders-api-openapi.yml
+  url: https://artifacts.apis.io/restaurant-brands/openapi/restaurant-brands-orders-api-openapi.yml
 - filename: restaurant-brands-stores-api-openapi.yml
   format: yaml
   label: Restaurant Brands International Stores API
   slug: restaurant-brands-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restaurant-brands/refs/heads/main/openapi/restaurant-brands-stores-api-openapi.yml
+  url: https://artifacts.apis.io/restaurant-brands/openapi/restaurant-brands-stores-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -68,7 +68,7 @@ source_filename: restaurant-brands-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.rbi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 02:30:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: bk-partners.rbictg.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 23:59:59 2026 GMT\n  hsts: false\n- host: sandbox-bk-partners.rbictg.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 15 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: rbi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: rbictg.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/restaurant-brands/refs/heads/main/security/restaurant-brands-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/restaurant-brands/security/restaurant-brands-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fortune 500

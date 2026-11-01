@@ -5,67 +5,67 @@ api_specs:
   label: Caliza Beneficiary V1 API
   slug: caliza-beneficiary-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-beneficiary-v1-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-beneficiary-v1-api-openapi.yml
 - filename: caliza-integrator-capabilities-v1-api-openapi.yml
   format: yaml
   label: Caliza Integrator Capabilities V1 API
   slug: caliza-integrator-capabilities-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-integrator-capabilities-v1-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-integrator-capabilities-v1-api-openapi.yml
 - filename: caliza-integrator-v1-api-openapi.yml
   format: yaml
   label: Caliza Integrator V1 API
   slug: caliza-integrator-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-integrator-v1-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-integrator-v1-api-openapi.yml
 - filename: caliza-kyc-kyb-v1-api-openapi.yml
   format: yaml
   label: Caliza KYC/KYB V1 API
   slug: caliza-kyc-kyb-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-kyc-kyb-v1-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-kyc-kyb-v1-api-openapi.yml
 - filename: caliza-payment-v1-api-openapi.yml
   format: yaml
   label: Caliza Payment V1 API
   slug: caliza-payment-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-payment-v1-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-payment-v1-api-openapi.yml
 - filename: caliza-recipient-v1-api-openapi.yml
   format: yaml
   label: Caliza Recipient V1 API
   slug: caliza-recipient-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-recipient-v1-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-recipient-v1-api-openapi.yml
 - filename: caliza-related-person-api-openapi.yml
   format: yaml
   label: Caliza Related Person API
   slug: caliza-related-person-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-related-person-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-related-person-api-openapi.yml
 - filename: caliza-terms-and-conditions-v1-api-openapi.yml
   format: yaml
   label: Caliza Terms and Conditions V1 API
   slug: caliza-terms-and-conditions-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-terms-and-conditions-v1-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-terms-and-conditions-v1-api-openapi.yml
 - filename: caliza-transaction-v1-api-openapi.yml
   format: yaml
   label: Caliza Transaction V1 API
   slug: caliza-transaction-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-transaction-v1-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-transaction-v1-api-openapi.yml
 - filename: caliza-transaction-v1-sandbox-api-openapi.yml
   format: yaml
   label: Caliza Transaction V1 Sandbox API
   slug: caliza-transaction-v1-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-transaction-v1-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-transaction-v1-sandbox-api-openapi.yml
 - filename: caliza-travel-rule-v1-api-openapi.yml
   format: yaml
   label: Caliza Travel Rule V1 API
   slug: caliza-travel-rule-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-travel-rule-v1-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-travel-rule-v1-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -106,7 +106,7 @@ source_filename: caliza-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.caliza.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 06:56:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.caliza.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 03:19:25 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.caliza.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 14 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: caliza.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/security/caliza-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/caliza/security/caliza-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

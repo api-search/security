@@ -26,12 +26,12 @@ source_filename: culinary-sciences-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.culinarysciencescsi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 08:46:17 2026 GMT\n  hsts: false\ndomains:\n- domain: culinarysciencescsi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/culinary-sciences/refs/heads/main/security/culinary-sciences-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/culinary-sciences/security/culinary-sciences-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Food Tech
 - RapidChill
-- FoodProcessing
+- Food Processing
 - USA
 - Startups
 ---

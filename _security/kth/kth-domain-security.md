@@ -5,13 +5,13 @@ api_specs:
   label: KTH Royal Institute of Technology Data API
   slug: kth-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kth/refs/heads/main/openapi/kth-data-api-openapi.yml
+  url: https://artifacts.apis.io/kth/openapi/kth-data-api-openapi.yml
 - filename: kth-system-api-openapi.yml
   format: yaml
   label: KTH Royal Institute of Technology System API
   slug: kth-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kth/refs/heads/main/openapi/kth-system-api-openapi.yml
+  url: https://artifacts.apis.io/kth/openapi/kth-system-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -45,7 +45,7 @@ source_filename: kth-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: kth.se\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 27 07:45:29 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: kth.se\n  dnssec: true\n  caa:\n  - 0 issue \"harica.gr\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kth/refs/heads/main/security/kth-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kth/security/kth-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

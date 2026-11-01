@@ -57,7 +57,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.agilix.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 27 05:51:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.agilixbuzz.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 19:02:07 2026 GMT\n  hsts: null\n- host: backgroundapi.agilixbuzz.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 13 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: agilix.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"cloudflare.com\"\n  - 0 iodef \"mailto:it@agilix.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"cloudflare.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: agilixbuzz.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"cloudflare.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"\
   cloudflare.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazontrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/security/agilix-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/agilix/security/agilix-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

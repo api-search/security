@@ -5,31 +5,31 @@ api_specs:
   label: 3-shake Accounts API
   slug: 3shake-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3shake/refs/heads/main/openapi/3shake-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/3shake/openapi/3shake-accounts-api-openapi.yml
 - filename: 3shake-auth-api-openapi.yml
   format: yaml
   label: 3-shake Auth API
   slug: 3shake-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3shake/refs/heads/main/openapi/3shake-auth-api-openapi.yml
+  url: https://artifacts.apis.io/3shake/openapi/3shake-auth-api-openapi.yml
 - filename: 3shake-integrations-api-openapi.yml
   format: yaml
   label: 3-shake Integrations API
   slug: 3shake-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3shake/refs/heads/main/openapi/3shake-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/3shake/openapi/3shake-integrations-api-openapi.yml
 - filename: 3shake-projects-api-openapi.yml
   format: yaml
   label: 3-shake Projects API
   slug: 3shake-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3shake/refs/heads/main/openapi/3shake-projects-api-openapi.yml
+  url: https://artifacts.apis.io/3shake/openapi/3shake-projects-api-openapi.yml
 - filename: 3shake-workflows-api-openapi.yml
   format: yaml
   label: 3-shake Workflows API
   slug: 3shake-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3shake/refs/heads/main/openapi/3shake-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/3shake/openapi/3shake-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -73,7 +73,7 @@ source_filename: 3shake-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: 3-shake.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 13 23:59:59 2027 GMT\n  hsts: false\n- host: developers.reckoner-api.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 22:43:30 2026 GMT\n  hsts: false\n- host: cdp-server.reckoner-api.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 17 20:41:52 2026 GMT\n  hsts: null\ndomains:\n- domain: 3-shake.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: reckoner-api.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/3shake/refs/heads/main/security/3shake-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/3shake/security/3shake-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -5,13 +5,13 @@ api_specs:
   label: NTHU Data API
   slug: nthu-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/openapi/_original/nthu-data-api.yaml
+  url: https://artifacts.apis.io/nthu/openapi/_original/nthu-data-api.yaml
 - filename: nthu-oauth-api-openapi.yml
   format: yaml
   label: National Tsing Hua University O Auth API
   slug: nthu-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/openapi/nthu-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/nthu/openapi/nthu-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -56,7 +56,7 @@ source_filename: nthu-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nthu.edu.tw\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Apr 30 15:59:59 2027 GMT\n  hsts: false\n- host: nthu-en.site.nthu.edu.tw\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 12 15:59:59 2026 GMT\n  hsts: null\n- host: api.nthusa.tw\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  9 12:41:44 2026 GMT\n  hsts: null\ndomains:\n- domain: nthu.edu.tw\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: nthusa.tw\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/security/nthu-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nthu/security/nthu-domain-security.yml
 summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
 - Education

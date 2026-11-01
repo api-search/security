@@ -5,43 +5,43 @@ api_specs:
   label: Nominatim Deletable API
   slug: nominatim-deletable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nominatim/refs/heads/main/openapi/nominatim-deletable-api-openapi.yml
+  url: https://artifacts.apis.io/nominatim/openapi/nominatim-deletable-api-openapi.yml
 - filename: nominatim-details-api-openapi.yml
   format: yaml
   label: Nominatim Details API
   slug: nominatim-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nominatim/refs/heads/main/openapi/nominatim-details-api-openapi.yml
+  url: https://artifacts.apis.io/nominatim/openapi/nominatim-details-api-openapi.yml
 - filename: nominatim-lookup-api-openapi.yml
   format: yaml
   label: Nominatim Lookup API
   slug: nominatim-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nominatim/refs/heads/main/openapi/nominatim-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/nominatim/openapi/nominatim-lookup-api-openapi.yml
 - filename: nominatim-polygons-api-openapi.yml
   format: yaml
   label: Nominatim Polygons API
   slug: nominatim-polygons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nominatim/refs/heads/main/openapi/nominatim-polygons-api-openapi.yml
+  url: https://artifacts.apis.io/nominatim/openapi/nominatim-polygons-api-openapi.yml
 - filename: nominatim-reverse-api-openapi.yml
   format: yaml
   label: Nominatim Reverse API
   slug: nominatim-reverse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nominatim/refs/heads/main/openapi/nominatim-reverse-api-openapi.yml
+  url: https://artifacts.apis.io/nominatim/openapi/nominatim-reverse-api-openapi.yml
 - filename: nominatim-search-api-openapi.yml
   format: yaml
   label: Nominatim Search API
   slug: nominatim-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nominatim/refs/heads/main/openapi/nominatim-search-api-openapi.yml
+  url: https://artifacts.apis.io/nominatim/openapi/nominatim-search-api-openapi.yml
 - filename: nominatim-status-api-openapi.yml
   format: yaml
   label: Nominatim Status API
   slug: nominatim-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nominatim/refs/heads/main/openapi/nominatim-status-api-openapi.yml
+  url: https://artifacts.apis.io/nominatim/openapi/nominatim-status-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ source_filename: nominatim-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: nominatim.org\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 28 08:10:35 2026 GMT\n  hsts: false\n- host: nominatim.openstreetmap.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 06:40:06 2026 GMT\n  hsts: true\n  hsts_max_age: 300\ndomains:\n- domain: nominatim.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: openstreetmap.org\n  dnssec: true\n  caa:\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"globalsign.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 iodef \"mailto:hostmaster@openstreetmap.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nominatim/refs/heads/main/security/nominatim-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nominatim/security/nominatim-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Geocoding

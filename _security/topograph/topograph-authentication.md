@@ -8,43 +8,43 @@ api_specs:
   label: Topograph Billing API
   slug: topograph-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/openapi/topograph-billing-api-openapi.yml
+  url: https://artifacts.apis.io/topograph/openapi/topograph-billing-api-openapi.yml
 - filename: topograph-billing-notifications-api-openapi.yml
   format: yaml
   label: Topograph Billing Notifications API
   slug: topograph-billing-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/openapi/topograph-billing-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/topograph/openapi/topograph-billing-notifications-api-openapi.yml
 - filename: topograph-data-api-openapi.yml
   format: yaml
   label: Topograph Data API
   slug: topograph-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/openapi/topograph-data-api-openapi.yml
+  url: https://artifacts.apis.io/topograph/openapi/topograph-data-api-openapi.yml
 - filename: topograph-monitors-api-openapi.yml
   format: yaml
   label: Topograph Monitors API
   slug: topograph-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/openapi/topograph-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/topograph/openapi/topograph-monitors-api-openapi.yml
 - filename: topograph-pricing-api-openapi.yml
   format: yaml
   label: Topograph Pricing API
   slug: topograph-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/openapi/topograph-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/topograph/openapi/topograph-pricing-api-openapi.yml
 - filename: topograph-search-api-openapi.yml
   format: yaml
   label: Topograph Search API
   slug: topograph-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/openapi/topograph-search-api-openapi.yml
+  url: https://artifacts.apis.io/topograph/openapi/topograph-search-api-openapi.yml
 - filename: topograph-workspaces-api-openapi.yml
   format: yaml
   label: Topograph Workspaces API
   slug: topograph-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/openapi/topograph-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/topograph/openapi/topograph-workspaces-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -92,7 +92,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/topograph-openapi-original.json + https://topograph.co/developers/mcp + https://api.topograph.co/.well-known/oauth-authorization-server\ndocs: https://docs.topograph.co\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\n  - refreshToken\n  note: >-\n    The REST API authenticates with an x-api-key header (workspace key). The designer / MCP surface\n    authenticates with OAuth 2.1 via Clerk (clerk.topograph.co); production API keys are never used\n    by the MCP client.\nschemes:\n- name: x-api-key\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  applies_to: REST API (https://api.topograph.co/v2/*)\n  sources:\n  - openapi/topograph-openapi-original.json\n- name: OAuth2.1\n  type: oauth2\n  applies_to: designer / MCP (https://api.topograph.co/designer-mcp)\n  issuer: https://clerk.topograph.co\n  authorizationUrl: https://clerk.topograph.co/oauth/authorize\n\
   \  tokenUrl: https://clerk.topograph.co/oauth/token\n  revocationUrl: https://clerk.topograph.co/oauth/token/revoke\n  jwksUri: https://clerk.topograph.co/.well-known/jwks.json\n  registrationUrl: https://clerk.topograph.co/oauth/register\n  pkce: S256\n  flows: [authorizationCode, refreshToken]\n  scopes_ref: scopes/topograph-scopes.yml\n  sources:\n  - https://api.topograph.co/.well-known/oauth-authorization-server\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/authentication/topograph-authentication.yml
+source_yaml_url: https://artifacts.apis.io/topograph/authentication/topograph-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company

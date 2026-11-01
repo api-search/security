@@ -8,19 +8,19 @@ api_specs:
   label: Gridspace Conversations API
   slug: gridspace-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/openapi/gridspace-conversations-api-openapi.yml
-- filename: gridspace-messages-api-openapi.yml
+  url: https://artifacts.apis.io/gridspace/openapi/gridspace-conversations-api-openapi.yml
+- filename: gridspace-check-deprecation-api-openapi.yml
   format: yaml
-  label: Gridspace Messages API
-  slug: gridspace-messages-api
+  label: Gridspace Check Deprecation API
+  slug: gridspace-check-deprecation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/openapi/gridspace-messages-api-openapi.yml
-- filename: gridspace-sdk-api-openapi.yml
+  url: https://artifacts.apis.io/gridspace/openapi/gridspace-check-deprecation-api-openapi.yml
+- filename: gridspace-sms-api-openapi.yml
   format: yaml
-  label: Gridspace SDK API
-  slug: gridspace-sdk-api
+  label: Gridspace SMS API
+  slug: gridspace-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/openapi/gridspace-sdk-api-openapi.yml
+  url: https://artifacts.apis.io/gridspace/openapi/gridspace-sms-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -62,7 +62,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://goguava.ai/docs/api-overview\ndocs: https://goguava.ai/docs/sdk-installation\nsummary:\n  types: [http]\n  http_schemes: [bearer]\n  api_key_in: [header]\n  oauth2_flows: []\n  notes: >-\n    The Guava REST API and SDKs authenticate with a bearer API key. The CLI uses\n    a separate browser-based OAuth login (guava login) that stores credentials\n    locally; the TypeScript and Python SDKs can reuse those CLI credentials.\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  in: header\n  header: Authorization\n  format: 'Bearer [example key]'\n  key_prefix: 'gva-'\n  env_var: GUAVA_API_KEY\n  provisioning: https://app.goguava.ai/dashboard/api-keys\n  applies_to: REST API, Python SDK, TypeScript SDK\n  sources: [openapi/gridspace-guava-openapi.yml]\n- name: cliOAuth\n  type: oauth2\n  flow: browser-login\n  command: guava login\n  headless_flag: --no-launch-browser\n  description: >-\n    Browser-based OAuth\
   \ used by the guava CLI to authenticate the developer;\n    credentials are stored locally and can be reused by the SDKs. No public\n    OAuth scope catalog is documented.\n  sources: [https://goguava.ai/docs/cli-reference]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/authentication/gridspace-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gridspace/authentication/gridspace-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Company

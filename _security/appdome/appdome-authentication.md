@@ -7,43 +7,43 @@ api_specs:
   label: Appdome API Account Maintenance API
   slug: appdome-api-account-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/openapi/appdome-api-account-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/appdome/openapi/appdome-api-account-maintenance-api-openapi.yml
 - filename: appdome-api-team-management-api-openapi.yml
   format: yaml
   label: Appdome API Team Management API
   slug: appdome-api-team-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/openapi/appdome-api-team-management-api-openapi.yml
+  url: https://artifacts.apis.io/appdome/openapi/appdome-api-team-management-api-openapi.yml
 - filename: appdome-api-user-management-api-openapi.yml
   format: yaml
   label: Appdome API User Management API
   slug: appdome-api-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/openapi/appdome-api-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/appdome/openapi/appdome-api-user-management-api-openapi.yml
 - filename: appdome-app-validation-api-openapi.yml
   format: yaml
   label: Appdome App Validation API
   slug: appdome-app-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/openapi/appdome-app-validation-api-openapi.yml
+  url: https://artifacts.apis.io/appdome/openapi/appdome-app-validation-api-openapi.yml
 - filename: appdome-device-match-api-openapi.yml
   format: yaml
   label: Appdome Device Match API
   slug: appdome-device-match-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/openapi/appdome-device-match-api-openapi.yml
+  url: https://artifacts.apis.io/appdome/openapi/appdome-device-match-api-openapi.yml
 - filename: appdome-secure-certificate-api-openapi.yml
   format: yaml
   label: Appdome Secure Certificate API
   slug: appdome-secure-certificate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/openapi/appdome-secure-certificate-api-openapi.yml
+  url: https://artifacts.apis.io/appdome/openapi/appdome-secure-certificate-api-openapi.yml
 - filename: appdome-tasks-api-openapi.yml
   format: yaml
   label: Appdome Tasks API
   slug: appdome-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/openapi/appdome-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/appdome/openapi/appdome-tasks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -72,7 +72,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://apis.appdome.com/docs/getting-started\ndocs: https://apis.appdome.com/reference/get_upload-link\nsummary:\n  types: [http]\n  http_schemes: [bearer]\n  api_key_in: []\n  oauth2_flows: []\nschemes:\n- name: build2secureToken\n  type: http\n  scheme: bearer\n  bearer_format: opaque\n  description: >-\n    Appdome's Build2Secure API Token, passed in the Authorization header as a bearer\n    token (Authorization: Bearer <token>). The token is obtained from the Appdome\n    account under the 'Account and API' section of the User/API menu.\n  location: header\n  header: Authorization\ntoken_management:\n  obtain: https://fusion.appdome.com/ -> User Menu -> Account and API\n  refresh_endpoint: POST https://fusion.appdome.com/api/v1/refreshApiToken\n  company_user_refresh: POST /mycompany/users/{userId}/refreshtoken\nidentity_context:\n  - team_id: required when operating within a team\n  - fusion_set_id: identifies the security\
   \ configuration used to build\nnotes: >-\n  Single bearer-token model (no OAuth2 / OIDC on the public API). SSO options\n  (Azure, Okta, Ping, Passkey) exist for console login and are recorded as DEV-Logs\n  login events, but the REST API authenticates exclusively with the Build2Secure\n  bearer token.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/authentication/appdome-authentication.yml
+source_yaml_url: https://artifacts.apis.io/appdome/authentication/appdome-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

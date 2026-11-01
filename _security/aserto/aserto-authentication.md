@@ -8,43 +8,43 @@ api_specs:
   label: Aserto Decision Logs API
   slug: aserto-decision-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/openapi/aserto-decision-logs-api-openapi.yml
+  url: https://artifacts.apis.io/aserto/openapi/aserto-decision-logs-api-openapi.yml
 - filename: aserto-authorizer-api-openapi.yml
   format: yaml
   label: Aserto Authorizer API
   slug: aserto-authorizer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/openapi/aserto-authorizer-api-openapi.yml
+  url: https://artifacts.apis.io/aserto/openapi/aserto-authorizer-api-openapi.yml
 - filename: aserto-decision-logs-api-openapi.yml
   format: yaml
   label: Aserto Decision Logs API
   slug: aserto-decision-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/openapi/aserto-decision-logs-api-openapi.yml
+  url: https://artifacts.apis.io/aserto/openapi/aserto-decision-logs-api-openapi.yml
 - filename: aserto-directory-api-openapi.yml
   format: yaml
   label: Aserto Directory API
   slug: aserto-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/openapi/aserto-directory-api-openapi.yml
+  url: https://artifacts.apis.io/aserto/openapi/aserto-directory-api-openapi.yml
 - filename: aserto-info-api-openapi.yml
   format: yaml
   label: Aserto Info API
   slug: aserto-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/openapi/aserto-info-api-openapi.yml
+  url: https://artifacts.apis.io/aserto/openapi/aserto-info-api-openapi.yml
 - filename: aserto-policy-api-openapi.yml
   format: yaml
   label: Aserto Policy API
   slug: aserto-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/openapi/aserto-policy-api-openapi.yml
+  url: https://artifacts.apis.io/aserto/openapi/aserto-policy-api-openapi.yml
 - filename: aserto-auth-zen-api-openapi.yml
   format: yaml
   label: Aserto Auth ZEN API
   slug: aserto-auth-zen-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/openapi/aserto-auth-zen-api-openapi.yml
+  url: https://artifacts.apis.io/aserto/openapi/aserto-auth-zen-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -81,7 +81,7 @@ source_filename: aserto-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/aserto-authorizer-openapi.yml, openapi/aserto-decision-logs-openapi.yml, openapi/aserto-directory-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: AuthorizerAPIKey\n  type: apiKey\n  in: header\n  parameter: authorization\n  sources:\n  - openapi/aserto-authorizer-openapi.yml\n  - openapi/aserto-decision-logs-openapi.yml\n  - openapi/aserto-directory-openapi.yml\n- name: TenantID\n  type: apiKey\n  in: header\n  parameter: aserto-tenant-id\n  sources:\n  - openapi/aserto-authorizer-openapi.yml\n  - openapi/aserto-decision-logs-openapi.yml\n  - openapi/aserto-directory-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/authentication/aserto-authentication.yml
+source_yaml_url: https://artifacts.apis.io/aserto/authentication/aserto-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Authorization
@@ -90,7 +90,6 @@ tags:
 - ABAC
 - ReBAC
 - Policy
-- Open Policy Agent
 - OPA
 - Cloud-Native
 - Security

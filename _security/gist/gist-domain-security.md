@@ -5,43 +5,43 @@ api_specs:
   label: Gist Chat API
   slug: gist-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/openapi/gist-chat-api-openapi.yml
+  url: https://artifacts.apis.io/gist/openapi/gist-chat-api-openapi.yml
 - filename: gist-health-api-openapi.yml
   format: yaml
   label: Gist Health API
   slug: gist-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/openapi/gist-health-api-openapi.yml
+  url: https://artifacts.apis.io/gist/openapi/gist-health-api-openapi.yml
 - filename: gist-publishers-api-openapi.yml
   format: yaml
   label: Gist Publishers API
   slug: gist-publishers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/openapi/gist-publishers-api-openapi.yml
+  url: https://artifacts.apis.io/gist/openapi/gist-publishers-api-openapi.yml
 - filename: gist-questions-api-openapi.yml
   format: yaml
   label: Gist Questions API
   slug: gist-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/openapi/gist-questions-api-openapi.yml
+  url: https://artifacts.apis.io/gist/openapi/gist-questions-api-openapi.yml
 - filename: gist-root-api-openapi.yml
   format: yaml
   label: Gist Root API
   slug: gist-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/openapi/gist-root-api-openapi.yml
+  url: https://artifacts.apis.io/gist/openapi/gist-root-api-openapi.yml
 - filename: gist-summaries-api-openapi.yml
   format: yaml
   label: Gist Summaries API
   slug: gist-summaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/openapi/gist-summaries-api-openapi.yml
+  url: https://artifacts.apis.io/gist/openapi/gist-summaries-api-openapi.yml
 - filename: gist-threads-api-openapi.yml
   format: yaml
   label: Gist Threads API
   slug: gist-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/openapi/gist-threads-api-openapi.yml
+  url: https://artifacts.apis.io/gist/openapi/gist-threads-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: gist-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gist.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 02:33:31 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: platform.gist.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 12:31:12 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.gist.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 10:40:20 2026 GMT\n  hsts: null\ndomains:\n- domain: gist.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/security/gist-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gist/security/gist-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

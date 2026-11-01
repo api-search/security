@@ -5,49 +5,49 @@ api_specs:
   label: Haystack / deepset Files API
   slug: haystack-ai-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/openapi/haystack-ai-files-api-openapi.yml
+  url: https://artifacts.apis.io/haystack-ai/openapi/haystack-ai-files-api-openapi.yml
 - filename: haystack-ai-pipelines-api-openapi.yml
   format: yaml
   label: Haystack / deepset Pipelines API
   slug: haystack-ai-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/openapi/haystack-ai-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/haystack-ai/openapi/haystack-ai-pipelines-api-openapi.yml
 - filename: haystack-ai-search-api-openapi.yml
   format: yaml
   label: Haystack / deepset Search API
   slug: haystack-ai-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/openapi/haystack-ai-search-api-openapi.yml
+  url: https://artifacts.apis.io/haystack-ai/openapi/haystack-ai-search-api-openapi.yml
 - filename: haystack-ai-workspaces-api-openapi.yml
   format: yaml
   label: Haystack / deepset Workspaces API
   slug: haystack-ai-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/openapi/haystack-ai-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/haystack-ai/openapi/haystack-ai-workspaces-api-openapi.yml
 - filename: haystack-ai-config-api-openapi.yml
   format: yaml
   label: Haystack / deepset Config API
   slug: haystack-ai-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/openapi/haystack-ai-config-api-openapi.yml
+  url: https://artifacts.apis.io/haystack-ai/openapi/haystack-ai-config-api-openapi.yml
 - filename: haystack-ai-dashboard-api-openapi.yml
   format: yaml
   label: Haystack / deepset Dashboard API
   slug: haystack-ai-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/openapi/haystack-ai-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/haystack-ai/openapi/haystack-ai-dashboard-api-openapi.yml
 - filename: haystack-ai-openai-api-openapi.yml
   format: yaml
   label: Haystack / deepset Openai API
   slug: haystack-ai-openai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/openapi/haystack-ai-openai-api-openapi.yml
+  url: https://artifacts.apis.io/haystack-ai/openapi/haystack-ai-openai-api-openapi.yml
 - filename: haystack-ai-status-api-openapi.yml
   format: yaml
   label: Haystack / deepset Status API
   slug: haystack-ai-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/openapi/haystack-ai-status-api-openapi.yml
+  url: https://artifacts.apis.io/haystack-ai/openapi/haystack-ai-status-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -95,7 +95,7 @@ source_filename: haystack-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: haystack.deepset.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 07:13:51 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.haystack.deepset.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 11:23:42 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.cloud.deepset.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 18:39:14 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: deepset.ai\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"sectigo.com\"\n  - 0 iodef \"mailto:domains@deepset.ai\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/security/haystack-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/haystack-ai/security/haystack-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

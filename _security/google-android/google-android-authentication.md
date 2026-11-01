@@ -7,49 +7,49 @@ api_specs:
   label: Google Android Management API
   slug: google-android-android-management-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/openapi/google-android-android-management-api-api-openapi.yml
+  url: https://artifacts.apis.io/google-android/openapi/google-android-android-management-api-api-openapi.yml
 - filename: google-android-device-api-openapi.yml
   format: yaml
   label: Google Android Device API
   slug: google-android-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/openapi/google-android-device-api-openapi.yml
+  url: https://artifacts.apis.io/google-android/openapi/google-android-device-api-openapi.yml
 - filename: google-android-devices-api-openapi.yml
   format: yaml
   label: Google Android Devices API
   slug: google-android-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/openapi/google-android-devices-api-openapi.yml
+  url: https://artifacts.apis.io/google-android/openapi/google-android-devices-api-openapi.yml
 - filename: google-android-enrollmenttokens-api-openapi.yml
   format: yaml
   label: Google Android EnrollmentTokens API
   slug: google-android-enrollmenttokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/openapi/google-android-enrollmenttokens-api-openapi.yml
+  url: https://artifacts.apis.io/google-android/openapi/google-android-enrollmenttokens-api-openapi.yml
 - filename: google-android-enterprises-api-openapi.yml
   format: yaml
   label: Google Android Enterprises API
   slug: google-android-enterprises-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/openapi/google-android-enterprises-api-openapi.yml
+  url: https://artifacts.apis.io/google-android/openapi/google-android-enterprises-api-openapi.yml
 - filename: google-android-policies-api-openapi.yml
   format: yaml
   label: Google Android Policies API
   slug: google-android-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/openapi/google-android-policies-api-openapi.yml
+  url: https://artifacts.apis.io/google-android/openapi/google-android-policies-api-openapi.yml
 - filename: google-android-policy-api-openapi.yml
   format: yaml
   label: Google Android Policy API
   slug: google-android-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/openapi/google-android-policy-api-openapi.yml
+  url: https://artifacts.apis.io/google-android/openapi/google-android-policy-api-openapi.yml
 - filename: google-android-web-apps-api-openapi.yml
   format: yaml
   label: Google Android Web Apps API
   slug: google-android-web-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/openapi/google-android-web-apps-api-openapi.yml
+  url: https://artifacts.apis.io/google-android/openapi/google-android-web-apps-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -86,7 +86,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: Google Discovery documents + https://developers.google.com/android/management/authentication\ndocs:\n  - https://developers.google.com/android/management/authentication\n  - https://developers.google.com/identity/protocols/oauth2\n  - https://developers.google.com/identity/protocols/oauth2/service-account\nsummary:\n  types:\n    - oauth2\n  oauth2_flows:\n    - authorizationCode\n    - jwtBearer (service account)\n  identity_host: https://accounts.google.com\nschemes:\n  - name: OAuth2\n    type: oauth2\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n        tokenUrl: https://oauth2.googleapis.com/token\n        use: interactive user consent\n      - flow: serviceAccount\n        mechanism: JWT bearer (RFC 7523) exchanged at token endpoint; optional domain-wide delegation\n        tokenUrl: https://oauth2.googleapis.com/token\n        use: server-to-server\
   \ (recommended for enterprise/EMM automation)\n    sources:\n      - openapi/google-android-openapi.yml\nnotes: >-\n  Every API in this repo authenticates with Google OAuth 2.0 access tokens (Bearer)\n  scoped per Discovery document (see scopes/). Server integrations use Google service\n  accounts (JWT bearer). Firebase Cloud Messaging additionally supports the Firebase\n  Admin SDK credential flow. Play Integrity verdicts are additionally protected by\n  Google-managed keys. No API keys or basic auth are used for these management APIs.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/authentication/google-android-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-android/authentication/google-android-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Android

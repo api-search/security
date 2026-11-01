@@ -8,37 +8,37 @@ api_specs:
   label: Unbabel Account API
   slug: unbabel-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbabel/refs/heads/main/openapi/unbabel-account-api-openapi.yml
+  url: https://artifacts.apis.io/unbabel/openapi/unbabel-account-api-openapi.yml
 - filename: unbabel-language-pairs-api-openapi.yml
   format: yaml
   label: Unbabel Language Pairs API
   slug: unbabel-language-pairs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbabel/refs/heads/main/openapi/unbabel-language-pairs-api-openapi.yml
+  url: https://artifacts.apis.io/unbabel/openapi/unbabel-language-pairs-api-openapi.yml
 - filename: unbabel-machine-translation-api-openapi.yml
   format: yaml
   label: Unbabel Machine Translation API
   slug: unbabel-machine-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbabel/refs/heads/main/openapi/unbabel-machine-translation-api-openapi.yml
+  url: https://artifacts.apis.io/unbabel/openapi/unbabel-machine-translation-api-openapi.yml
 - filename: unbabel-tone-and-topic-api-openapi.yml
   format: yaml
   label: Unbabel Tone and Topic API
   slug: unbabel-tone-and-topic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbabel/refs/heads/main/openapi/unbabel-tone-and-topic-api-openapi.yml
+  url: https://artifacts.apis.io/unbabel/openapi/unbabel-tone-and-topic-api-openapi.yml
 - filename: unbabel-translation-api-openapi.yml
   format: yaml
   label: Unbabel Translation API
   slug: unbabel-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbabel/refs/heads/main/openapi/unbabel-translation-api-openapi.yml
+  url: https://artifacts.apis.io/unbabel/openapi/unbabel-translation-api-openapi.yml
 - filename: unbabel-word-count-api-openapi.yml
   format: yaml
   label: Unbabel Word Count API
   slug: unbabel-word-count-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbabel/refs/heads/main/openapi/unbabel-word-count-api-openapi.yml
+  url: https://artifacts.apis.io/unbabel/openapi/unbabel-word-count-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: unbabel-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/unbabel-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Token authentication of the form `Authorization: ApiKey <username>:<api_key>`.'\n  sources:\n  - openapi/unbabel-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unbabel/refs/heads/main/authentication/unbabel-authentication.yml
+source_yaml_url: https://artifacts.apis.io/unbabel/authentication/unbabel-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Translation

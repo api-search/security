@@ -5,55 +5,55 @@ api_specs:
   label: Sybilion Alerts API
   slug: sybilion-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/sybilion/openapi/sybilion-alerts-api-openapi.yml
 - filename: sybilion-categories-api-openapi.yml
   format: yaml
   label: Sybilion Categories API
   slug: sybilion-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-categories-api-openapi.yml
+  url: https://artifacts.apis.io/sybilion/openapi/sybilion-categories-api-openapi.yml
 - filename: sybilion-drivers-api-openapi.yml
   format: yaml
   label: Sybilion Drivers API
   slug: sybilion-drivers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-drivers-api-openapi.yml
+  url: https://artifacts.apis.io/sybilion/openapi/sybilion-drivers-api-openapi.yml
 - filename: sybilion-forecasts-api-openapi.yml
   format: yaml
   label: Sybilion Forecasts API
   slug: sybilion-forecasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-forecasts-api-openapi.yml
+  url: https://artifacts.apis.io/sybilion/openapi/sybilion-forecasts-api-openapi.yml
 - filename: sybilion-health-api-openapi.yml
   format: yaml
   label: Sybilion Health API
   slug: sybilion-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-health-api-openapi.yml
+  url: https://artifacts.apis.io/sybilion/openapi/sybilion-health-api-openapi.yml
 - filename: sybilion-jobs-api-openapi.yml
   format: yaml
   label: Sybilion Jobs API
   slug: sybilion-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/sybilion/openapi/sybilion-jobs-api-openapi.yml
 - filename: sybilion-me-api-openapi.yml
   format: yaml
   label: Sybilion Me API
   slug: sybilion-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-me-api-openapi.yml
+  url: https://artifacts.apis.io/sybilion/openapi/sybilion-me-api-openapi.yml
 - filename: sybilion-regions-api-openapi.yml
   format: yaml
   label: Sybilion Regions API
   slug: sybilion-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-regions-api-openapi.yml
+  url: https://artifacts.apis.io/sybilion/openapi/sybilion-regions-api-openapi.yml
 - filename: sybilion-usage-api-openapi.yml
   format: yaml
   label: Sybilion Usage API
   slug: sybilion-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-usage-api-openapi.yml
+  url: https://artifacts.apis.io/sybilion/openapi/sybilion-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -134,7 +134,7 @@ source_yaml: "generated: '2026-08-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
   \ 2026 GMT\n  hsts: false\n  hsts_observed: 'no strict-transport-security header on 401 /api/v1/me or 405 /health, 2026-08-11'\n- host: mcp.sybilion.dev\n  role: hosted MCP server\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 11:00:55 2026 GMT\n  hsts: false\n  hsts_observed: 'no strict-transport-security header on the 401 tools/list challenge, 2026-08-11'\n- host: www.sybilion.com\n  role: corporate / marketing site (Webflow behind Cloudflare)\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 13:09:26 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: false\n  note: 'https://sybilion.com/ redirects to https://www.sybilion.com/ (200)'\n- host: auth0.sybilion.com\n  role: Auth0 custom domain — portal login and MCP OAuth issuer\n  https: true\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\ndomains:\n- domain: sybilion.dev\n  role: product domain (API, MCP, docs, portal)\n  dnssec: false\n  ds_record: false\n\
   \  caa: []\n  spf: false\n  dmarc: false\n  dmarc_policy: null\n  txt_records_present: [google-site-verification]\n- domain: sybilion.com\n  role: corporate domain (website, email, Auth0 custom domain)\n  dnssec: false\n  ds_record: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n  dmarc_record: 'v=DMARC1; p=quarantine; rua=mailto:<redacted>@dmarc-reports.cloudflare.net;'\n  txt_records_present: [MS=, google-site-verification x2, anthropic-domain-verification, kok6w5nrvl]\n  note: >-\n    DMARC is at p=quarantine with Cloudflare aggregate reporting, but there is NO v=spf1 record on\n    the apex, so DMARC can only pass via DKIM alignment. support@sybilion.com is the published\n    support and security-report address, which makes the missing SPF record worth flagging.\nfindings:\n  - { severity: low, item: 'no CAA records on either domain — any CA may issue' }\n  - { severity: low, item: 'no DNSSEC on either domain' }\n  - { severity: medium, item: 'no HSTS on\
   \ api.sybilion.dev or mcp.sybilion.dev, the two credential-bearing hosts' }\n  - { severity: medium, item: 'no SPF on sybilion.com despite DMARC p=quarantine' }\n  - { severity: medium, item: 'no DMARC at all on sybilion.dev' }\n  - { severity: info, item: 'TLS 1.3 on every host; certificates valid through Oct/Nov 2026' }\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/security/sybilion-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sybilion/security/sybilion-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Industrial market intelligence

@@ -5,25 +5,25 @@ api_specs:
   label: Lexion Contract Repository
   slug: contract-repository
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexion/refs/heads/main/openapi/_original/lexion-openapi.yml
+  url: https://artifacts.apis.io/lexion/openapi/_original/lexion-openapi.yml
 - filename: lexion-openapi.yml
   format: yaml
   label: Lexion Extraction & Insights
   slug: extraction-insights
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexion/refs/heads/main/openapi/_original/lexion-openapi.yml
+  url: https://artifacts.apis.io/lexion/openapi/_original/lexion-openapi.yml
 - filename: lexion-openapi.yml
   format: yaml
   label: Lexion Workflows
   slug: workflows
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexion/refs/heads/main/openapi/_original/lexion-openapi.yml
+  url: https://artifacts.apis.io/lexion/openapi/_original/lexion-openapi.yml
 - filename: lexion-openapi.yml
   format: yaml
   label: Lexion Integrations
   slug: integrations
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexion/refs/heads/main/openapi/_original/lexion-openapi.yml
+  url: https://artifacts.apis.io/lexion/openapi/_original/lexion-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: lexion-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.lexion.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 00:23:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: lexion.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lexion/refs/heads/main/security/lexion-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lexion/security/lexion-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Contract Management

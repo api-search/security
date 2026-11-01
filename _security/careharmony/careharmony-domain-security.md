@@ -27,13 +27,13 @@ source_filename: careharmony-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: care-harmony.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  1 07:14:25 2026 GMT\n  hsts: false\ndomains:\n- domain: care-harmony.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/careharmony/refs/heads/main/security/careharmony-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/careharmony/security/careharmony-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Healthcare
-- ChronicCare
+- Chronic Care
 - Remote Monitoring
-- ValueBased
+- Value-Based
 - Software-as-a-Service
 ---

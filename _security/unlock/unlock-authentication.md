@@ -28,7 +28,7 @@ source_filename: unlock-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-02'\nmethod: derived\nsource: openapi/unlock-editorial-api-openapi.yml, openapi/unlock-site-content-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: applicationPassword\n  type: http\n  scheme: basic\n  description: WordPress application password (HTTP Basic). Advertised by this deployment at\n    https://www.unlock.com/wp/wp-admin/authorize-application.php in the `authentication` block\n    of the route index. It gates the write methods on these routes; every operation documented\n    here is anonymous read and requires no credential.\n  sources:\n  - openapi/unlock-editorial-api-openapi.yml\n  - openapi/unlock-site-content-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unlock/refs/heads/main/authentication/unlock-authentication.yml
+source_yaml_url: https://artifacts.apis.io/unlock/authentication/unlock-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

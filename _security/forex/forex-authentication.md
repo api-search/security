@@ -8,19 +8,19 @@ api_specs:
   label: Forex Account API
   slug: forex-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forex/refs/heads/main/openapi/forex-account-api-openapi.yml
+  url: https://artifacts.apis.io/forex/openapi/forex-account-api-openapi.yml
 - filename: forex-rates-api-openapi.yml
   format: yaml
   label: Forex Rates API
   slug: forex-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forex/refs/heads/main/openapi/forex-rates-api-openapi.yml
+  url: https://artifacts.apis.io/forex/openapi/forex-rates-api-openapi.yml
 - filename: forex-reference-api-openapi.yml
   format: yaml
   label: Forex Reference API
   slug: forex-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forex/refs/heads/main/openapi/forex-reference-api-openapi.yml
+  url: https://artifacts.apis.io/forex/openapi/forex-reference-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -47,7 +47,7 @@ source_filename: forex-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/forex-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: appIdQuery\n  type: apiKey\n  in: query\n  parameter: app_id\n  sources:\n  - openapi/forex-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forex/refs/heads/main/authentication/forex-authentication.yml
+source_yaml_url: https://artifacts.apis.io/forex/authentication/forex-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Currency

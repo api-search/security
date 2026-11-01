@@ -5,25 +5,25 @@ api_specs:
   label: Foxit eSign Document Generation API
   slug: foxit-document-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/foxit/refs/heads/main/openapi/foxit-document-generation-api-openapi.yml
+  url: https://artifacts.apis.io/foxit/openapi/foxit-document-generation-api-openapi.yml
 - filename: foxit-documents-api-openapi.yml
   format: yaml
   label: Foxit eSign Documents API
   slug: foxit-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/foxit/refs/heads/main/openapi/foxit-documents-api-openapi.yml
+  url: https://artifacts.apis.io/foxit/openapi/foxit-documents-api-openapi.yml
 - filename: foxit-foxit-esign-api-api-openapi.yml
   format: yaml
   label: Foxit eSign Foxit ESign API
   slug: foxit-foxit-esign-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/foxit/refs/heads/main/openapi/foxit-foxit-esign-api-api-openapi.yml
+  url: https://artifacts.apis.io/foxit/openapi/foxit-foxit-esign-api-api-openapi.yml
 - filename: foxit-pdf-services-api-openapi.yml
   format: yaml
   label: Foxit eSign Pdf Services API
   slug: foxit-pdf-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/foxit/refs/heads/main/openapi/foxit-pdf-services-api-openapi.yml
+  url: https://artifacts.apis.io/foxit/openapi/foxit-pdf-services-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: foxit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-16'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: foxit.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  2 12:33:51 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: foxit.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/foxit/refs/heads/main/security/foxit-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/foxit/security/foxit-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - E-Signature

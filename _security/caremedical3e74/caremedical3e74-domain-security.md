@@ -27,7 +27,7 @@ source_filename: caremedical3e74-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: caremedga.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 20 03:07:06 2026 GMT\n  hsts: false\ndomains:\n- domain: caremedga.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/caremedical3e74/refs/heads/main/security/caremedical3e74-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/caremedical3e74/security/caremedical3e74-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -26,7 +26,7 @@ source_filename: ooda-health-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ooda-health.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 22:39:17 2026 GMT\n  hsts: false\ndomains:\n- domain: ooda-health.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ooda-health/refs/heads/main/security/ooda-health-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ooda-health/security/ooda-health-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

@@ -5,13 +5,13 @@ api_specs:
   label: LeoLabs Catalog API
   slug: leo-labs-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leo-labs/refs/heads/main/openapi/leo-labs-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/leo-labs/openapi/leo-labs-catalog-api-openapi.yml
 - filename: leo-labs-instruments-api-openapi.yml
   format: yaml
   label: LeoLabs Instruments API
   slug: leo-labs-instruments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leo-labs/refs/heads/main/openapi/leo-labs-instruments-api-openapi.yml
+  url: https://artifacts.apis.io/leo-labs/openapi/leo-labs-instruments-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: leo-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.leolabs.space\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 14:23:41 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.leolabs.space\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 17 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 315360000\ndomains:\n- domain: leolabs.space\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leo-labs/refs/heads/main/security/leo-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/leo-labs/security/leo-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

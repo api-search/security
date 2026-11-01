@@ -5,19 +5,19 @@ api_specs:
   label: Calendarific Countries API
   slug: calendarific-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendarific/refs/heads/main/openapi/calendarific-countries-api-openapi.yml
+  url: https://artifacts.apis.io/calendarific/openapi/calendarific-countries-api-openapi.yml
 - filename: calendarific-holidays-api-openapi.yml
   format: yaml
   label: Calendarific Holidays API
   slug: calendarific-holidays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendarific/refs/heads/main/openapi/calendarific-holidays-api-openapi.yml
+  url: https://artifacts.apis.io/calendarific/openapi/calendarific-holidays-api-openapi.yml
 - filename: calendarific-languages-api-openapi.yml
   format: yaml
   label: Calendarific Languages API
   slug: calendarific-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendarific/refs/heads/main/openapi/calendarific-languages-api-openapi.yml
+  url: https://artifacts.apis.io/calendarific/openapi/calendarific-languages-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: calendarific-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: calendarific.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 12:24:23 2026 GMT\n  hsts: false\ndomains:\n- domain: calendarific.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/calendarific/refs/heads/main/security/calendarific-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/calendarific/security/calendarific-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Calendar

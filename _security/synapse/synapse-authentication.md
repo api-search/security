@@ -7,49 +7,49 @@ api_specs:
   label: Synapse Federation API
   slug: synapse-federation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/openapi/synapse-federation-api-openapi.yml
+  url: https://artifacts.apis.io/synapse/openapi/synapse-federation-api-openapi.yml
 - filename: synapse-media-api-openapi.yml
   format: yaml
   label: Synapse Media API
   slug: synapse-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/openapi/synapse-media-api-openapi.yml
+  url: https://artifacts.apis.io/synapse/openapi/synapse-media-api-openapi.yml
 - filename: synapse-registration-api-openapi.yml
   format: yaml
   label: Synapse Registration API
   slug: synapse-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/openapi/synapse-registration-api-openapi.yml
+  url: https://artifacts.apis.io/synapse/openapi/synapse-registration-api-openapi.yml
 - filename: synapse-reports-api-openapi.yml
   format: yaml
   label: Synapse Reports API
   slug: synapse-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/openapi/synapse-reports-api-openapi.yml
+  url: https://artifacts.apis.io/synapse/openapi/synapse-reports-api-openapi.yml
 - filename: synapse-rooms-api-openapi.yml
   format: yaml
   label: Synapse Rooms API
   slug: synapse-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/openapi/synapse-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/synapse/openapi/synapse-rooms-api-openapi.yml
 - filename: synapse-server-api-openapi.yml
   format: yaml
   label: Synapse Server API
   slug: synapse-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/openapi/synapse-server-api-openapi.yml
+  url: https://artifacts.apis.io/synapse/openapi/synapse-server-api-openapi.yml
 - filename: synapse-statistics-api-openapi.yml
   format: yaml
   label: Synapse Statistics API
   slug: synapse-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/openapi/synapse-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/synapse/openapi/synapse-statistics-api-openapi.yml
 - filename: synapse-users-api-openapi.yml
   format: yaml
   label: Synapse Users API
   slug: synapse-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/openapi/synapse-users-api-openapi.yml
+  url: https://artifacts.apis.io/synapse/openapi/synapse-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -76,7 +76,7 @@ source_filename: synapse-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/synapse-admin-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Admin access token obtained from the Synapse homeserver\n  sources:\n  - openapi/synapse-admin-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/authentication/synapse-authentication.yml
+source_yaml_url: https://artifacts.apis.io/synapse/authentication/synapse-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Chat

@@ -5,43 +5,43 @@ api_specs:
   label: Terna Fees API
   slug: terna-fees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terna/refs/heads/main/openapi/terna-fees-api-openapi.yml
+  url: https://artifacts.apis.io/terna/openapi/terna-fees-api-openapi.yml
 - filename: terna-generation-api-openapi.yml
   format: yaml
   label: Terna Generation API
   slug: terna-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terna/refs/heads/main/openapi/terna-generation-api-openapi.yml
+  url: https://artifacts.apis.io/terna/openapi/terna-generation-api-openapi.yml
 - filename: terna-ifees-api-openapi.yml
   format: yaml
   label: Terna Ifees API
   slug: terna-ifees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terna/refs/heads/main/openapi/terna-ifees-api-openapi.yml
+  url: https://artifacts.apis.io/terna/openapi/terna-ifees-api-openapi.yml
 - filename: terna-load-api-openapi.yml
   format: yaml
   label: Terna Load API
   slug: terna-load-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terna/refs/heads/main/openapi/terna-load-api-openapi.yml
+  url: https://artifacts.apis.io/terna/openapi/terna-load-api-openapi.yml
 - filename: terna-market-api-openapi.yml
   format: yaml
   label: Terna Market API
   slug: terna-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terna/refs/heads/main/openapi/terna-market-api-openapi.yml
+  url: https://artifacts.apis.io/terna/openapi/terna-market-api-openapi.yml
 - filename: terna-public-api-api-openapi.yml
   format: yaml
   label: Terna Public API
   slug: terna-public-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terna/refs/heads/main/openapi/terna-public-api-api-openapi.yml
+  url: https://artifacts.apis.io/terna/openapi/terna-public-api-api-openapi.yml
 - filename: terna-transparency-api-openapi.yml
   format: yaml
   label: Terna Transparency API
   slug: terna-transparency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terna/refs/heads/main/openapi/terna-transparency-api-openapi.yml
+  url: https://artifacts.apis.io/terna/openapi/terna-transparency-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +71,7 @@ source_filename: terna-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.terna.it\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 11 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: terna.it\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/terna/refs/heads/main/security/terna-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/terna/security/terna-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Energy

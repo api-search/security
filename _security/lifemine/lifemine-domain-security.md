@@ -5,37 +5,37 @@ api_specs:
   label: LifeMine Board API
   slug: lifemine-board-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lifemine/refs/heads/main/openapi/lifemine-board-api-openapi.yml
+  url: https://artifacts.apis.io/lifemine/openapi/lifemine-board-api-openapi.yml
 - filename: lifemine-departments-api-openapi.yml
   format: yaml
   label: LifeMine Departments API
   slug: lifemine-departments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lifemine/refs/heads/main/openapi/lifemine-departments-api-openapi.yml
+  url: https://artifacts.apis.io/lifemine/openapi/lifemine-departments-api-openapi.yml
 - filename: lifemine-education-api-openapi.yml
   format: yaml
   label: LifeMine Education API
   slug: lifemine-education-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lifemine/refs/heads/main/openapi/lifemine-education-api-openapi.yml
+  url: https://artifacts.apis.io/lifemine/openapi/lifemine-education-api-openapi.yml
 - filename: lifemine-jobs-api-openapi.yml
   format: yaml
   label: LifeMine Jobs API
   slug: lifemine-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lifemine/refs/heads/main/openapi/lifemine-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/lifemine/openapi/lifemine-jobs-api-openapi.yml
 - filename: lifemine-offices-api-openapi.yml
   format: yaml
   label: LifeMine Offices API
   slug: lifemine-offices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lifemine/refs/heads/main/openapi/lifemine-offices-api-openapi.yml
+  url: https://artifacts.apis.io/lifemine/openapi/lifemine-offices-api-openapi.yml
 - filename: lifemine-sections-api-openapi.yml
   format: yaml
   label: LifeMine Sections API
   slug: lifemine-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lifemine/refs/heads/main/openapi/lifemine-sections-api-openapi.yml
+  url: https://artifacts.apis.io/lifemine/openapi/lifemine-sections-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -74,7 +74,7 @@ source_filename: lifemine-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: forgeglobal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 20:15:48 2026 GMT\n  hsts: null\n- host: lifeminetx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 22:17:19 2026 GMT\n  hsts: false\ndomains:\n- domain: forgeglobal.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: lifeminetx.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lifemine/refs/heads/main/security/lifemine-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lifemine/security/lifemine-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

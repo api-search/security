@@ -5,67 +5,67 @@ api_specs:
   label: Messari AI API
   slug: messari-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/openapi/messari-ai-api-openapi.yml
+  url: https://artifacts.apis.io/messari/openapi/messari-ai-api-openapi.yml
 - filename: messari-assets-api-openapi.yml
   format: yaml
   label: Messari Assets API
   slug: messari-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/openapi/messari-assets-api-openapi.yml
+  url: https://artifacts.apis.io/messari/openapi/messari-assets-api-openapi.yml
 - filename: messari-datasets-api-openapi.yml
   format: yaml
   label: Messari Datasets API
   slug: messari-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/openapi/messari-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/messari/openapi/messari-datasets-api-openapi.yml
 - filename: messari-exchanges-api-openapi.yml
   format: yaml
   label: Messari Exchanges API
   slug: messari-exchanges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/openapi/messari-exchanges-api-openapi.yml
+  url: https://artifacts.apis.io/messari/openapi/messari-exchanges-api-openapi.yml
 - filename: messari-markets-api-openapi.yml
   format: yaml
   label: Messari Markets API
   slug: messari-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/openapi/messari-markets-api-openapi.yml
+  url: https://artifacts.apis.io/messari/openapi/messari-markets-api-openapi.yml
 - filename: messari-monitoring-api-openapi.yml
   format: yaml
   label: Messari Monitoring API
   slug: messari-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/openapi/messari-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/messari/openapi/messari-monitoring-api-openapi.yml
 - filename: messari-networks-api-openapi.yml
   format: yaml
   label: Messari Networks API
   slug: messari-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/openapi/messari-networks-api-openapi.yml
+  url: https://artifacts.apis.io/messari/openapi/messari-networks-api-openapi.yml
 - filename: messari-news-api-openapi.yml
   format: yaml
   label: Messari News API
   slug: messari-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/openapi/messari-news-api-openapi.yml
+  url: https://artifacts.apis.io/messari/openapi/messari-news-api-openapi.yml
 - filename: messari-protocols-api-openapi.yml
   format: yaml
   label: Messari Protocols API
   slug: messari-protocols-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/openapi/messari-protocols-api-openapi.yml
+  url: https://artifacts.apis.io/messari/openapi/messari-protocols-api-openapi.yml
 - filename: messari-research-api-openapi.yml
   format: yaml
   label: Messari Research API
   slug: messari-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/openapi/messari-research-api-openapi.yml
+  url: https://artifacts.apis.io/messari/openapi/messari-research-api-openapi.yml
 - filename: messari-token-unlocks-api-openapi.yml
   format: yaml
   label: Messari Token Unlocks API
   slug: messari-token-unlocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/openapi/messari-token-unlocks-api-openapi.yml
+  url: https://artifacts.apis.io/messari/openapi/messari-token-unlocks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -99,7 +99,7 @@ source_filename: messari-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: messari.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 09:01:39 2026 GMT\n  hsts: null\n- host: data.messari.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 26 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: messari.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/security/messari-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/messari/security/messari-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Web3

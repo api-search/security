@@ -7,19 +7,19 @@ api_specs:
   label: RTX Analytics API
   slug: rtx-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rtx/refs/heads/main/openapi/rtx-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/rtx/openapi/rtx-analytics-api-openapi.yml
 - filename: rtx-data-sources-api-openapi.yml
   format: yaml
   label: RTX Data Sources API
   slug: rtx-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rtx/refs/heads/main/openapi/rtx-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/rtx/openapi/rtx-data-sources-api-openapi.yml
 - filename: rtx-reports-api-openapi.yml
   format: yaml
   label: RTX Reports API
   slug: rtx-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rtx/refs/heads/main/openapi/rtx-reports-api-openapi.yml
+  url: https://artifacts.apis.io/rtx/openapi/rtx-reports-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -45,7 +45,7 @@ source_filename: rtx-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/rtx-eagle-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/rtx-eagle-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rtx/refs/heads/main/authentication/rtx-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rtx/authentication/rtx-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Defense

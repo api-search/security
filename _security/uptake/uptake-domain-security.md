@@ -32,7 +32,7 @@ source_filename: uptake-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: uptake.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 10 12:17:57 2027 GMT\n  hsts: false\n- host: api.uptake.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 21:49:19 2026 GMT\n  hsts: null\ndomains:\n- domain: uptake.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uptake/refs/heads/main/security/uptake-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/uptake/security/uptake-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -8,25 +8,25 @@ api_specs:
   label: Unify Analytics Events API
   slug: unify-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/openapi/unify-events-api-openapi.yml
+  url: https://artifacts.apis.io/unify/openapi/unify-events-api-openapi.yml
 - filename: unify-sequences-api-openapi.yml
   format: yaml
   label: Unify Sequences API
   slug: unify-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/openapi/unify-sequences-api-openapi.yml
+  url: https://artifacts.apis.io/unify/openapi/unify-sequences-api-openapi.yml
 - filename: unify-tasks-api-openapi.yml
   format: yaml
   label: Unify Tasks API
   slug: unify-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/openapi/unify-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/unify/openapi/unify-tasks-api-openapi.yml
 - filename: unify-data-api-openapi.yml
   format: yaml
   label: Unify Data API
   slug: unify-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/openapi/unify-data-api-openapi.yml
+  url: https://artifacts.apis.io/unify/openapi/unify-data-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  openapi/_
   \    discovery:\n      protected_resource: https://mcp.unifygtm.com/.well-known/oauth-protected-resource/mcp\n      authorization_server: https://auth.unifygtm.com/\n      spec: [RFC 9728, RFC 8414, OpenID Connect Discovery 1.0]\n    issuer: https://auth.unifygtm.com/\n    platform: Auth0 on a Unify custom domain\n    bearer_methods: [header]\n    pkce: [S256, plain]\n    dynamic_client_registration: true\n    scopes: identity only (openid, profile, email, offline_access, ...) - no product scopes\n    alternative: >-\n      An x-api-key header may be sent to the MCP endpoint instead of an OAuth\n      bearer token, for clients that cannot run the browser login.\n    cross_link: scopes/unify-scopes.yml\n    evidence:\n      probe: POST tools/list to https://mcp.unifygtm.com/mcp\n      http_status: 401\n      www_authenticate: >-\n        Bearer resource_metadata=\"https://mcp.unifygtm.com/.well-known/oauth-protected-resource/mcp\",\n        error=\"invalid_request\", error_description=\"\
   No authentication token provided.\"\n      checked: '2026-08-13'\nposture:\n  transport: HTTPS only across all hosts (see security/unify-domain-security.yml).\n  mtls: false\n  signed_requests: false\n  key_rotation_policy_published: false\n  sso: >-\n    SSO is offered for the Unify application as a Business-plan add-on; it governs\n    app login, not API authentication.\ngaps:\n  - id: no-least-privilege\n    detail: >-\n      Neither authentication path can express less than full user authority. There\n      are no API-key scopes and no product OAuth scopes, so delegating a\n      narrow capability to an agent is not possible - a key or token that can read\n      a record can also delete a sequence.\n  - id: no-key-lifecycle\n    detail: >-\n      No documented key expiry, rotation guidance, or last-used visibility.\nnotes: >-\n  Three of the four APIs authenticate with a single x-api-key header; the fourth\n  (Analytics) uses HTTP Basic with a publishable write key because it is a\n\
   \  browser-side ingest path. OAuth exists only on the MCP surface, where the\n  authorization server is a full Auth0 tenant on Unify's own domain with RFC 9728\n  protected-resource discovery - a notably more modern posture than the REST APIs\n  it fronts.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/authentication/unify-authentication.yml
+source_yaml_url: https://artifacts.apis.io/unify/authentication/unify-authentication.yml
 summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Sales

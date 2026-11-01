@@ -5,37 +5,37 @@ api_specs:
   label: Inworld AI Models API
   slug: inworld-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inworld/refs/heads/main/openapi/inworld-models-api-openapi.yml
+  url: https://artifacts.apis.io/inworld/openapi/inworld-models-api-openapi.yml
 - filename: inworld-realtime-api-openapi.yml
   format: yaml
   label: Inworld AI Realtime API
   slug: inworld-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inworld/refs/heads/main/openapi/inworld-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/inworld/openapi/inworld-realtime-api-openapi.yml
 - filename: inworld-router-api-openapi.yml
   format: yaml
   label: Inworld AI Router API
   slug: inworld-router-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inworld/refs/heads/main/openapi/inworld-router-api-openapi.yml
+  url: https://artifacts.apis.io/inworld/openapi/inworld-router-api-openapi.yml
 - filename: inworld-stt-api-openapi.yml
   format: yaml
   label: Inworld AI STT API
   slug: inworld-stt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inworld/refs/heads/main/openapi/inworld-stt-api-openapi.yml
+  url: https://artifacts.apis.io/inworld/openapi/inworld-stt-api-openapi.yml
 - filename: inworld-tts-api-openapi.yml
   format: yaml
   label: Inworld AI TTS API
   slug: inworld-tts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inworld/refs/heads/main/openapi/inworld-tts-api-openapi.yml
+  url: https://artifacts.apis.io/inworld/openapi/inworld-tts-api-openapi.yml
 - filename: inworld-voices-api-openapi.yml
   format: yaml
   label: Inworld AI Voices API
   slug: inworld-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inworld/refs/heads/main/openapi/inworld-voices-api-openapi.yml
+  url: https://artifacts.apis.io/inworld/openapi/inworld-voices-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: inworld-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: inworld.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 17:52:28 2026 GMT\n  hsts: false\n- host: docs.inworld.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 05:53:44 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.inworld.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 18:31:09 2026 GMT\n  hsts: false\ndomains:\n- domain: inworld.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inworld/refs/heads/main/security/inworld-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/inworld/security/inworld-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

@@ -8,31 +8,31 @@ api_specs:
   label: WebsitePros Domains API
   slug: websitepros-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/openapi/websitepros-domains-api-openapi.yml
+  url: https://artifacts.apis.io/websitepros/openapi/websitepros-domains-api-openapi.yml
 - filename: websitepros-health-api-openapi.yml
   format: yaml
   label: WebsitePros Health API
   slug: websitepros-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/openapi/websitepros-health-api-openapi.yml
+  url: https://artifacts.apis.io/websitepros/openapi/websitepros-health-api-openapi.yml
 - filename: websitepros-sales-orders-api-openapi.yml
   format: yaml
   label: WebsitePros Sales Orders API
   slug: websitepros-sales-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/openapi/websitepros-sales-orders-api-openapi.yml
+  url: https://artifacts.apis.io/websitepros/openapi/websitepros-sales-orders-api-openapi.yml
 - filename: websitepros-service-orders-api-openapi.yml
   format: yaml
   label: WebsitePros Service Orders API
   slug: websitepros-service-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/openapi/websitepros-service-orders-api-openapi.yml
+  url: https://artifacts.apis.io/websitepros/openapi/websitepros-service-orders-api-openapi.yml
 - filename: websitepros-sso-api-openapi.yml
   format: yaml
   label: WebsitePros SSO API
   slug: websitepros-sso-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/openapi/websitepros-sso-api-openapi.yml
+  url: https://artifacts.apis.io/websitepros/openapi/websitepros-sso-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -119,7 +119,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://api-doc
   \    Required on the sales-order operations.\n    required: true\n    applies_to: [createSalesOrder, listSalesOrders, getSalesOrderById, updateSalesOrder, deleteSalesOrder]\n  - name: tenantName\n    type: apiKey\n    in: header\n    parameter: tenant-name\n    description: >-\n      Your tenant's name, used in place of x-nts-tenant-id on the domain, SSO and service-order\n      operations.\n    required: true\n    applies_to: [checkDomainAvailability, spinDomainSuggestions, getCustomerSsoUrl, createServiceOrders]\n  - name: oauth2ClientCredentials\n    type: oauth2\n    flows:\n      - flow: clientCredentials\n        tokenUrl: https://login.microsoftonline.com/03fbebc8-de8a-4428-b573-4c4903610dac/oauth2/token\n        audience: api://intl.web.com\n        parameters: [grant_type, client_id, client_secret, resource]\n        content_type: application/x-www-form-urlencoded\n        scopes: {}\n        scopes_note: >-\n          Web.com publishes no scope list. The v1 Entra endpoint in\
   \ the published collection takes a\n          `resource` audience (api://intl.web.com) rather than scopes, so there is no scope surface\n          to record and no scopes/ artifact in this repository.\n    identity_provider:\n      name: Microsoft Entra ID (Azure AD)\n      tenant_id: 03fbebc8-de8a-4428-b573-4c4903610dac\n      discovery: https://login.microsoftonline.com/03fbebc8-de8a-4428-b573-4c4903610dac/v2.0/.well-known/openid-configuration\n      discovery_status: 200\n      issuer: https://login.microsoftonline.com/03fbebc8-de8a-4428-b573-4c4903610dac/v2.0\n      note: >-\n        The OIDC discovery document is served by Microsoft, not by Web.com. It is recorded here as\n        the token authority for this API; it is NOT counted as a Web.com-served /.well-known\n        surface, and no WellKnown pointer is emitted for it.\nonboarding:\n  model: request-access\n  steps:\n    - Register at the developer portal for the environment you want (production and development are separate\
   \ registrations).\n    - Verify your email address from the link Web.com sends.\n    - Wait for Web.com International to review and activate your subscription; they also issue your Tenant Id.\n    - Retrieve your subscription keys from the developer portal.\n    - Call the healthcheck operation to confirm connectivity.\n  portals:\n    - environment: production\n      portal: https://nts.developer.azure-api.net\n      gateway: https://api.nts.web.com\n      portal_status: 200\n    - environment: development\n      portal: https://ntsdev.developer.azure-api.net\n      gateway: https://api-dev.nts.web.com\n      portal_status: 200\ngaps:\n  - >-\n    The developer portal's anonymous API list is empty (GET\n    https://nts.developer.azure-api.net/developer/apis?api-version=2022-04-01-preview returned\n    200 with {\"value\":[],\"nextLink\":null}), so the Azure API Management OpenAPI export that would\n    normally back this API is visible only to approved, signed-in subscribers.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/authentication/websitepros-authentication.yml
+source_yaml_url: https://artifacts.apis.io/websitepros/authentication/websitepros-authentication.yml
 summary_line: apiKey/http/oauth2 · 5 schemes
 tags:
 - Company

@@ -26,7 +26,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://developer.andpad.jp/\napi: ANDPAD API\nbase_url: https://api.andpad.jp/v1\nsummary: >-\n  ANDPAD exposes its REST API to partners through the ANDPAD App Market (アプリマーケット). Partner\n  applications are authorized via OAuth and call api.andpad.jp with a bearer access token. The\n  full OAuth authorization/token endpoints, client-registration flow, and scope catalog are\n  gated behind the developer/partner program and are not published on the public site, so they\n  are not enumerated here (no fabrication).\nschemes:\n  - type: oauth2\n    name: andpad_app_market\n    detail: >-\n      OAuth2 partner-app authorization brokered through the ANDPAD App Market; access tokens are\n      presented as bearer credentials to api.andpad.jp/v1.\n    scopes_documented: false\n    endpoints_public: false\nevidence:\n  - source: https://developer.andpad.jp/\n    kind: developer portal (ANDPAD API / App Market integration program)\n\
   \  - source: https://api.andpad.jp/v1/self\n    kind: protected resource returns 404/JSON to unauthenticated callers\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/andpad/refs/heads/main/authentication/andpad-authentication.yml
+source_yaml_url: https://artifacts.apis.io/andpad/authentication/andpad-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company

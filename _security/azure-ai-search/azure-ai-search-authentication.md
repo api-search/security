@@ -2,42 +2,48 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
+- filename: azure-ai-search-openapi-generated.yml
+  format: yaml
+  label: Azure AI Search API
+  slug: azure-ai-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-ai-search/openapi/_ae-authored/azure-ai-search-openapi-generated.yml
 - filename: azure-ai-search-azure-ai-search-api-api-openapi.yml
   format: yaml
   label: Azure AI Search Azure AI Search API
   slug: azure-ai-search-azure-ai-search-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-search/refs/heads/main/openapi/azure-ai-search-azure-ai-search-api-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-azure-ai-search-api-api-openapi.yml
 - filename: azure-ai-search-indexes-api-openapi.yml
   format: yaml
   label: Azure AI Search Indexes API
   slug: azure-ai-search-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-search/refs/heads/main/openapi/azure-ai-search-indexes-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-indexes-api-openapi.yml
 - filename: azure-ai-search-subscriptions-api-openapi.yml
   format: yaml
   label: Azure AI Search Subscriptions API
   slug: azure-ai-search-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-search/refs/heads/main/openapi/azure-ai-search-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-subscriptions-api-openapi.yml
 - filename: azure-ai-search-swagger-api-openapi.yml
   format: yaml
   label: Azure AI Search Swagger API
   slug: azure-ai-search-swagger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-search/refs/heads/main/openapi/azure-ai-search-swagger-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-swagger-api-openapi.yml
 - filename: azure-ai-search-todoitems-api-openapi.yml
   format: yaml
   label: Azure AI Search Todoitems API
   slug: azure-ai-search-todoitems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-search/refs/heads/main/openapi/azure-ai-search-todoitems-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-todoitems-api-openapi.yml
 - filename: azure-ai-search-weatherforecast-api-openapi.yml
   format: yaml
   label: Azure AI Search Weatherforecast API
   slug: azure-ai-search-weatherforecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-search/refs/heads/main/openapi/azure-ai-search-weatherforecast-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-weatherforecast-api-openapi.yml
 auth_types: []
 description: Authentication methods for Azure AI Search as documented.
 kind: authentication
@@ -74,7 +80,7 @@ source_heading: Authentication Profile
 source_url: https://learn.microsoft.com/en-us/previous-versions/azure/developer/mobile-apps/azure-mobile-apps/quickstarts/maui/authentication
 source_yaml: "generated: '2026-10-13'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://learn.microsoft.com/en-us/previous-versions/azure/developer/mobile-apps/azure-mobile-apps/quickstarts/maui/authentication\nsources:\n- https://learn.microsoft.com/en-us/previous-versions/azure/developer/mobile-apps/azure-mobile-apps/quickstarts/maui/authentication\n- https://learn.microsoft.com/en-us/aspnet/core/security/authentication/?view=aspnetcore-10.0\n- https://learn.microsoft.com/en-us/azure/search/search-security-api-keys\n- https://learn.microsoft.com/en-us/azure/search/search-security-rbac\ndescription: Authentication methods for Azure AI Search as documented.\nschemes:\n- type: apiKey\n  name: API key\n  evidence: Set an admin key in the request header. You can't pass admin keys on the URI or in the body of the request.\n  location: header\n  header: api-key\n  how_to_obtain: Admin and query keys are generated when the search service is created and can be retrieved\
   \ via the Azure portal, REST API, Azure\n    CLI, PowerShell, or SDKs.\n- type: oauth2\n  name: Azure AD (Microsoft Entra ID) JWT bearer\n  evidence: builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddMicrosoftIdentityWebApi(builder.Configuration);\n  location: header\n  header: Authorization\n  token_url: https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token\n  authorize_url: https://login.microsoftonline.com/{tenant}/oauth2/v2.0/authorize\n  scopes:\n  - api://<client-id>/access_as_user\n  how_to_obtain: Register an application in Azure AD, define a scope (e.g., access_as_user), and acquire a JWT via the OAuth 2.0 client credentials\n    or authorization code flow using MSAL.\ndocs: https://learn.microsoft.com/en-us/previous-versions/azure/developer/mobile-apps/azure-mobile-apps/quickstarts/maui/authentication\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-ai-search/refs/heads/main/authentication/azure-ai-search-authentication.yml
+source_yaml_url: https://artifacts.apis.io/azure-ai-search/authentication/azure-ai-search-authentication.yml
 summary_line: 2 schemes
 tags:
 - Artificial Intelligence

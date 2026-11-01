@@ -8,25 +8,25 @@ api_specs:
   label: OwnLocal Ads API
   slug: ownlocal-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/openapi/ownlocal-ads-api-openapi.yml
+  url: https://artifacts.apis.io/ownlocal/openapi/ownlocal-ads-api-openapi.yml
 - filename: ownlocal-businesses-api-openapi.yml
   format: yaml
   label: OwnLocal Businesses API
   slug: ownlocal-businesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/openapi/ownlocal-businesses-api-openapi.yml
+  url: https://artifacts.apis.io/ownlocal/openapi/ownlocal-businesses-api-openapi.yml
 - filename: ownlocal-categories-api-openapi.yml
   format: yaml
   label: OwnLocal Categories API
   slug: ownlocal-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/openapi/ownlocal-categories-api-openapi.yml
+  url: https://artifacts.apis.io/ownlocal/openapi/ownlocal-categories-api-openapi.yml
 - filename: ownlocal-reports-data-api-api-openapi.yml
   format: yaml
   label: OwnLocal Reports Data API
   slug: ownlocal-reports-data-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/openapi/ownlocal-reports-data-api-api-openapi.yml
+  url: https://artifacts.apis.io/ownlocal/openapi/ownlocal-reports-data-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -57,7 +57,7 @@ source_filename: ownlocal-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: derived\nsource: openapi/ownlocal-ads-openapi.yml, openapi/ownlocal-businesses-openapi.yml, openapi/ownlocal-categories-openapi.yml,\n  openapi/ownlocal-reports-data-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Organization API key sent raw (no scheme prefix) in the Authorization header.\n    Keys are issued by OwnLocal support; there is no self-serve key provisioning.\n  sources:\n  - openapi/ownlocal-ads-openapi.yml\n  - openapi/ownlocal-businesses-openapi.yml\n  - openapi/ownlocal-categories-openapi.yml\n  - openapi/ownlocal-reports-data-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/authentication/ownlocal-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ownlocal/authentication/ownlocal-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

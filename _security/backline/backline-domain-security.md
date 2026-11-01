@@ -27,7 +27,7 @@ source_filename: backline-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.backline.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 16 01:23:42 2026 GMT\n  hsts: false\ndomains:\n- domain: backline.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/backline/refs/heads/main/security/backline-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/backline/security/backline-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

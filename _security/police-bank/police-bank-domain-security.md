@@ -5,43 +5,43 @@ api_specs:
   label: Police Bank Banking Account Balances API
   slug: police-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/openapi/police-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/police-bank/openapi/police-bank-banking-account-balances-api-openapi.yml
 - filename: police-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Police Bank Banking Account Direct Debits API
   slug: police-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/openapi/police-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/police-bank/openapi/police-bank-banking-account-direct-debits-api-openapi.yml
 - filename: police-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Police Bank Banking Account Scheduled Payments API
   slug: police-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/openapi/police-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/police-bank/openapi/police-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: police-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Police Bank Banking Account Transactions API
   slug: police-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/openapi/police-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/police-bank/openapi/police-bank-banking-account-transactions-api-openapi.yml
 - filename: police-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Police Bank Banking Accounts API
   slug: police-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/openapi/police-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/police-bank/openapi/police-bank-banking-accounts-api-openapi.yml
 - filename: police-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Police Bank Banking Payees API
   slug: police-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/openapi/police-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/police-bank/openapi/police-bank-banking-payees-api-openapi.yml
 - filename: police-bank-banking-products-api-openapi.yml
   format: yaml
   label: Police Bank Banking Products API
   slug: police-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/openapi/police-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/police-bank/openapi/police-bank-banking-products-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: police-bank-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.policebank.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: public.cdr.prd.policebank.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 29 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: policebank.com.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/security/police-bank-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/police-bank/security/police-bank-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Finance

@@ -7,7 +7,7 @@ api_specs:
   label: Formspree Forms API
   slug: formspree-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formspree/refs/heads/main/openapi/formspree-forms-api-openapi.yml
+  url: https://artifacts.apis.io/formspree/openapi/formspree-forms-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -36,7 +36,7 @@ source_filename: formspree-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/formspree-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: apiKeyBasic\n  type: http\n  scheme: basic\n  description: |-\n    Basic auth with empty username and the form API key as password\n    (e.g. `curl -u :API_KEY https://formspree.io/api/0/forms/{hashid}/submissions`).\n  sources:\n  - openapi/formspree-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/formspree/refs/heads/main/authentication/formspree-authentication.yml
+source_yaml_url: https://artifacts.apis.io/formspree/authentication/formspree-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Forms

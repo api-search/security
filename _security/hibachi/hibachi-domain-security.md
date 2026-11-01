@@ -5,19 +5,19 @@ api_specs:
   label: Hibachi Capital API
   slug: hibachi-capital-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hibachi/refs/heads/main/openapi/hibachi-capital-api-openapi.yml
+  url: https://artifacts.apis.io/hibachi/openapi/hibachi-capital-api-openapi.yml
 - filename: hibachi-market-api-openapi.yml
   format: yaml
   label: Hibachi Market API
   slug: hibachi-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hibachi/refs/heads/main/openapi/hibachi-market-api-openapi.yml
+  url: https://artifacts.apis.io/hibachi/openapi/hibachi-market-api-openapi.yml
 - filename: hibachi-trade-api-openapi.yml
   format: yaml
   label: Hibachi Trade API
   slug: hibachi-trade-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hibachi/refs/heads/main/openapi/hibachi-trade-api-openapi.yml
+  url: https://artifacts.apis.io/hibachi/openapi/hibachi-trade-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: hibachi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: hibachi.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 22:08:54 2026 GMT\n  hsts: null\n- host: api.hibachi.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 22:08:54 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: data-api.hibachi.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 22:08:54 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: hibachi.xyz\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hibachi/refs/heads/main/security/hibachi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hibachi/security/hibachi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

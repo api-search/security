@@ -5,37 +5,37 @@ api_specs:
   label: Pacific Gas and Electric Application Information API
   slug: pge-applicationinformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-applicationinformation-api-openapi.yml
+  url: https://artifacts.apis.io/pge/openapi/pge-applicationinformation-api-openapi.yml
 - filename: pge-authorization-api-openapi.yml
   format: yaml
   label: Pacific Gas and Electric Authorization API
   slug: pge-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/pge/openapi/pge-authorization-api-openapi.yml
 - filename: pge-batch-api-openapi.yml
   format: yaml
   label: Pacific Gas and Electric Batch API
   slug: pge-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-batch-api-openapi.yml
+  url: https://artifacts.apis.io/pge/openapi/pge-batch-api-openapi.yml
 - filename: pge-usagepoint-api-openapi.yml
   format: yaml
   label: Pacific Gas and Electric Usage Point API
   slug: pge-usagepoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-usagepoint-api-openapi.yml
+  url: https://artifacts.apis.io/pge/openapi/pge-usagepoint-api-openapi.yml
 - filename: pge-subscriptions-api-openapi.yml
   format: yaml
   label: Pacific Gas and Electric Subscriptions API
   slug: pge-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/pge/openapi/pge-subscriptions-api-openapi.yml
 - filename: pge-usage-api-openapi.yml
   format: yaml
   label: Pacific Gas and Electric Usage API
   slug: pge-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-usage-api-openapi.yml
+  url: https://artifacts.apis.io/pge/openapi/pge-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,7 +81,7 @@ source_filename: pge-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.pge.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 14 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 2628000\n- host: api.pge.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 12 23:59:59 2027 GMT\n  hsts: null\n- host: sandbox.greenbuttonalliance.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 20:26:53 2026 GMT\n  hsts: null\ndomains:\n- domain: pge.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: greenbuttonalliance.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/security/pge-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pge/security/pge-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Energy

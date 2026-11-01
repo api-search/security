@@ -8,55 +8,55 @@ api_specs:
   label: Skimmer Bodies of Water API
   slug: skimmer-pool-bodies-of-water-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-bodies-of-water-api-openapi.yml
+  url: https://artifacts.apis.io/skimmer-pool/openapi/skimmer-pool-bodies-of-water-api-openapi.yml
 - filename: skimmer-pool-customers-api-openapi.yml
   format: yaml
   label: Skimmer Customers API
   slug: skimmer-pool-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-customers-api-openapi.yml
+  url: https://artifacts.apis.io/skimmer-pool/openapi/skimmer-pool-customers-api-openapi.yml
 - filename: skimmer-pool-invoices-api-openapi.yml
   format: yaml
   label: Skimmer Invoices API
   slug: skimmer-pool-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/skimmer-pool/openapi/skimmer-pool-invoices-api-openapi.yml
 - filename: skimmer-pool-products-api-openapi.yml
   format: yaml
   label: Skimmer Products API
   slug: skimmer-pool-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-products-api-openapi.yml
+  url: https://artifacts.apis.io/skimmer-pool/openapi/skimmer-pool-products-api-openapi.yml
 - filename: skimmer-pool-quotes-api-openapi.yml
   format: yaml
   label: Skimmer Quotes API
   slug: skimmer-pool-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/skimmer-pool/openapi/skimmer-pool-quotes-api-openapi.yml
 - filename: skimmer-pool-routes-api-openapi.yml
   format: yaml
   label: Skimmer Routes API
   slug: skimmer-pool-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-routes-api-openapi.yml
+  url: https://artifacts.apis.io/skimmer-pool/openapi/skimmer-pool-routes-api-openapi.yml
 - filename: skimmer-pool-service-locations-api-openapi.yml
   format: yaml
   label: Skimmer Service Locations API
   slug: skimmer-pool-service-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-service-locations-api-openapi.yml
+  url: https://artifacts.apis.io/skimmer-pool/openapi/skimmer-pool-service-locations-api-openapi.yml
 - filename: skimmer-pool-users-api-openapi.yml
   format: yaml
   label: Skimmer Users API
   slug: skimmer-pool-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-users-api-openapi.yml
+  url: https://artifacts.apis.io/skimmer-pool/openapi/skimmer-pool-users-api-openapi.yml
 - filename: skimmer-pool-work-orders-api-openapi.yml
   format: yaml
   label: Skimmer Work Orders API
   slug: skimmer-pool-work-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-work-orders-api-openapi.yml
+  url: https://artifacts.apis.io/skimmer-pool/openapi/skimmer-pool-work-orders-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -84,11 +84,11 @@ source_filename: skimmer-pool-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/skimmer-pool-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: skimmerApiKey\n  type: apiKey\n  in: header\n  parameter: skimmer-api-key\n  description: Per-account Skimmer Public API key, issued via sales-led onboarding.\n  sources:\n  - openapi/skimmer-pool-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/authentication/skimmer-pool-authentication.yml
+source_yaml_url: https://artifacts.apis.io/skimmer-pool/authentication/skimmer-pool-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Pool Service
-- Field Service
+- Field Service Management
 - Pool Maintenance
 - Scheduling
 - Routes

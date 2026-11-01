@@ -5,25 +5,25 @@ api_specs:
   label: Not Diamond Custom Routers API
   slug: notdiamond-custom-routers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notdiamond/refs/heads/main/openapi/notdiamond-custom-routers-api-openapi.yml
+  url: https://artifacts.apis.io/notdiamond/openapi/notdiamond-custom-routers-api-openapi.yml
 - filename: notdiamond-feedback-api-openapi.yml
   format: yaml
   label: Not Diamond Feedback API
   slug: notdiamond-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notdiamond/refs/heads/main/openapi/notdiamond-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/notdiamond/openapi/notdiamond-feedback-api-openapi.yml
 - filename: notdiamond-model-routing-api-openapi.yml
   format: yaml
   label: Not Diamond Model Routing API
   slug: notdiamond-model-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notdiamond/refs/heads/main/openapi/notdiamond-model-routing-api-openapi.yml
+  url: https://artifacts.apis.io/notdiamond/openapi/notdiamond-model-routing-api-openapi.yml
 - filename: notdiamond-models-api-openapi.yml
   format: yaml
   label: Not Diamond Models API
   slug: notdiamond-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notdiamond/refs/heads/main/openapi/notdiamond-models-api-openapi.yml
+  url: https://artifacts.apis.io/notdiamond/openapi/notdiamond-models-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -69,7 +69,7 @@ source_filename: notdiamond-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.notdiamond.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 11:21:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.notdiamond.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 13:59:41 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.notdiamond.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 03:37:42 2026 GMT\n  hsts: null\ndomains:\n- domain: notdiamond.ai\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/notdiamond/refs/heads/main/security/notdiamond-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/notdiamond/security/notdiamond-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Artificial Intelligence

@@ -7,25 +7,25 @@ api_specs:
   label: Cataas Admin API
   slug: cataas-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cataas/refs/heads/main/openapi/cataas-admin-api-openapi.yml
+  url: https://artifacts.apis.io/cataas/openapi/cataas-admin-api-openapi.yml
 - filename: cataas-catalog-api-openapi.yml
   format: yaml
   label: Cataas Catalog API
   slug: cataas-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cataas/refs/heads/main/openapi/cataas-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/cataas/openapi/cataas-catalog-api-openapi.yml
 - filename: cataas-cats-api-openapi.yml
   format: yaml
   label: Cataas Cats API
   slug: cataas-cats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cataas/refs/heads/main/openapi/cataas-cats-api-openapi.yml
+  url: https://artifacts.apis.io/cataas/openapi/cataas-cats-api-openapi.yml
 - filename: cataas-upload-api-openapi.yml
   format: yaml
   label: Cataas Upload API
   slug: cataas-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cataas/refs/heads/main/openapi/cataas-upload-api-openapi.yml
+  url: https://artifacts.apis.io/cataas/openapi/cataas-upload-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -53,7 +53,7 @@ source_filename: cataas-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cataas-openapi-original.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Admin-only bearer token for moderation and catalog management.\n  sources:\n  - openapi/cataas-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cataas/refs/heads/main/authentication/cataas-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cataas/authentication/cataas-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Animals

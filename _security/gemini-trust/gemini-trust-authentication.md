@@ -8,115 +8,115 @@ api_specs:
   label: Gemini WebSocket API
   slug: gemini-websocket-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemini-trust/refs/heads/main/asyncapi/gemini-trust-websocket-asyncapi.yml
+  url: https://artifacts.apis.io/gemini-trust/asyncapi/gemini-trust-websocket-asyncapi.yml
 - filename: gemini-trust-account-administration-api-openapi.yml
   format: yaml
   label: Gemini Trust Company Account Administration API
   slug: gemini-trust-account-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemini-trust/refs/heads/main/openapi/gemini-trust-account-administration-api-openapi.yml
+  url: https://artifacts.apis.io/gemini-trust/openapi/gemini-trust-account-administration-api-openapi.yml
 - filename: gemini-trust-clearing-api-openapi.yml
   format: yaml
   label: Gemini Trust Company Clearing API
   slug: gemini-trust-clearing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemini-trust/refs/heads/main/openapi/gemini-trust-clearing-api-openapi.yml
+  url: https://artifacts.apis.io/gemini-trust/openapi/gemini-trust-clearing-api-openapi.yml
 - filename: gemini-trust-combos-api-openapi.yml
   format: yaml
   label: Gemini Trust Company Combos API
   slug: gemini-trust-combos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemini-trust/refs/heads/main/openapi/gemini-trust-combos-api-openapi.yml
+  url: https://artifacts.apis.io/gemini-trust/openapi/gemini-trust-combos-api-openapi.yml
 - filename: gemini-trust-derivatives-api-openapi.yml
   format: yaml
   label: Gemini Trust Company Derivatives API
   slug: gemini-trust-derivatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemini-trust/refs/heads/main/openapi/gemini-trust-derivatives-api-openapi.yml
+  url: https://artifacts.apis.io/gemini-trust/openapi/gemini-trust-derivatives-api-openapi.yml
 - filename: gemini-trust-fund-management-api-openapi.yml
   format: yaml
   label: Gemini Trust Company Fund Management API
   slug: gemini-trust-fund-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemini-trust/refs/heads/main/openapi/gemini-trust-fund-management-api-openapi.yml
+  url: https://artifacts.apis.io/gemini-trust/openapi/gemini-trust-fund-management-api-openapi.yml
 - filename: gemini-trust-instant-api-openapi.yml
   format: yaml
   label: Gemini Trust Company Instant API
   slug: gemini-trust-instant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemini-trust/refs/heads/main/openapi/gemini-trust-instant-api-openapi.yml
+  url: https://artifacts.apis.io/gemini-trust/openapi/gemini-trust-instant-api-openapi.yml
 - filename: gemini-trust-margin-trading-api-openapi.yml
   format: yaml
   label: Gemini Trust Company Margin Trading API
   slug: gemini-trust-margin-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemini-trust/refs/heads/main/openapi/gemini-trust-margin-trading-api-openapi.yml
+  url: https://artifacts.apis.io/gemini-trust/openapi/gemini-trust-margin-trading-api-openapi.yml
 - filename: gemini-trust-market-data-api-openapi.yml
   format: yaml
   label: Gemini Trust Company Market Data API
   slug: gemini-trust-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemini-trust/refs/heads/main/openapi/gemini-trust-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/gemini-trust/openapi/gemini-trust-market-data-api-openapi.yml
 - filename: gemini-trust-markets-api-openapi.yml
   format: yaml
   label: Gemini Trust Company Markets API
   slug: gemini-trust-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemini-trust/refs/heads/main/openapi/gemini-trust-markets-api-openapi.yml
+  url: https://artifacts.apis.io/gemini-trust/openapi/gemini-trust-markets-api-openapi.yml
 - filename: gemini-trust-oauth-api-openapi.yml
   format: yaml
   label: Gemini Trust Company OAuth API
   slug: gemini-trust-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemini-trust/refs/heads/main/openapi/gemini-trust-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/gemini-trust/openapi/gemini-trust-oauth-api-openapi.yml
 - filename: gemini-trust-orders-api-openapi.yml
   format: yaml
   label: Gemini Trust Company Orders API
   slug: gemini-trust-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemini-trust/refs/heads/main/openapi/gemini-trust-orders-api-openapi.yml
+  url: https://artifacts.apis.io/gemini-trust/openapi/gemini-trust-orders-api-openapi.yml
 - filename: gemini-trust-positions-api-openapi.yml
   format: yaml
   label: Gemini Trust Company Positions API
   slug: gemini-trust-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemini-trust/refs/heads/main/openapi/gemini-trust-positions-api-openapi.yml
+  url: https://artifacts.apis.io/gemini-trust/openapi/gemini-trust-positions-api-openapi.yml
 - filename: gemini-trust-rewards-api-openapi.yml
   format: yaml
   label: Gemini Trust Company Rewards API
   slug: gemini-trust-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemini-trust/refs/heads/main/openapi/gemini-trust-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/gemini-trust/openapi/gemini-trust-rewards-api-openapi.yml
 - filename: gemini-trust-session-api-openapi.yml
   format: yaml
   label: Gemini Trust Company Session API
   slug: gemini-trust-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemini-trust/refs/heads/main/openapi/gemini-trust-session-api-openapi.yml
+  url: https://artifacts.apis.io/gemini-trust/openapi/gemini-trust-session-api-openapi.yml
 - filename: gemini-trust-staking-api-openapi.yml
   format: yaml
   label: Gemini Trust Company Staking API
   slug: gemini-trust-staking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemini-trust/refs/heads/main/openapi/gemini-trust-staking-api-openapi.yml
+  url: https://artifacts.apis.io/gemini-trust/openapi/gemini-trust-staking-api-openapi.yml
 - filename: gemini-trust-terms-api-openapi.yml
   format: yaml
   label: Gemini Trust Company Terms API
   slug: gemini-trust-terms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemini-trust/refs/heads/main/openapi/gemini-trust-terms-api-openapi.yml
+  url: https://artifacts.apis.io/gemini-trust/openapi/gemini-trust-terms-api-openapi.yml
 - filename: gemini-trust-trading-api-openapi.yml
   format: yaml
   label: Gemini Trust Company Trading API
   slug: gemini-trust-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemini-trust/refs/heads/main/openapi/gemini-trust-trading-api-openapi.yml
+  url: https://artifacts.apis.io/gemini-trust/openapi/gemini-trust-trading-api-openapi.yml
 - filename: gemini-trust-volume-api-openapi.yml
   format: yaml
   label: Gemini Trust Company Volume API
   slug: gemini-trust-volume-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemini-trust/refs/heads/main/openapi/gemini-trust-volume-api-openapi.yml
+  url: https://artifacts.apis.io/gemini-trust/openapi/gemini-trust-volume-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -167,7 +167,7 @@ source_yaml: "generated: '2026-09-18'\nmethod: searched\nsource: https://develop
   \ requests send an EMPTY HTTP body. The JSON payload\n    is base64-encoded into X-GEMINI-PAYLOAD, and X-GEMINI-SIGNATURE is hex(HMAC_SHA384(base64(payload), key=api_secret)).\n    Gemini warns explicitly that generic OpenAPI-generated clients do not implement this signing transport.'\n  key_prefixes:\n    account-: account-scoped key\n    master-: master key spanning sub-accounts; requires an account parameter\n  replay_protection:\n    field: nonce\n    modes:\n    - name: time-based (recommended)\n      rule: Unix epoch seconds, validated within +/- 30 seconds of server time\n    - name: incremental\n      rule: strictly increasing per API session key\n    error: InvalidNonce\n  sessions: Each API key is an independent session with its own nonce sequence; Cancel-on-Disconnect ties open orders\n    to a session heartbeat.\n  provision: https://exchange.gemini.com/settings/api\n- name: OAuth 2.0 authorization code\n  primary: false\n  in_spec: false\n  grants:\n  - authorization_code\n\
   \  - refresh_token\n  pkce: S256; REQUIRED for public clients (SPA, mobile, desktop). Client type is permanent at app creation.\n  client_types:\n  - confidential (client_id + client_secret)\n  - public (client_id only, PKCE)\n  token_lifetime:\n    access_token: 24 hours\n    refresh_token: non-expiring\n  review: Gemini reviews registered applications before production activation; sandbox registration is immediate.\n  scopes: 33 published - see scopes/gemini-trust-scopes.yml\n  revocation:\n  - https://exchange.gemini.com/auth/token/revoke\n  - REST operation revokeOAuthToken (POST /v1/oauth/revokeByToken)\n  metadata: https://api.gemini.com/.well-known/oauth-authorization-server (RFC 8414)\n- name: OpenID Connect (SSO)\n  primary: false\n  in_spec: false\n  scope: Exchange SSO only, not the trading API\n  issuer: https://exchange.gemini.com\n  signing: RS256\n  client_auth: private_key_jwt\n  scopes:\n  - openid\n  - email\n  metadata: https://api.gemini.com/.well-known/openid-configuration\n\
   - name: WebSocket authentication\n  primary: false\n  in_spec: asyncapi\n  methods:\n  - X-GEMINI-APIKEY + X-GEMINI-NONCE + X-GEMINI-PAYLOAD + X-GEMINI-SIGNATURE on the connection upgrade\n  - 'Authorization: Bearer <OAuth token>'\n  docs: https://developer.gemini.com/websocket/authentication\nauthorization:\n  model: role-based access control per API key\n  roles:\n  - Administrator (Master keys only - create and view accounts in the Master Group)\n  - Trader (assigned by default)\n  - Fund Manager\n  - Auditor\n  failure: HTTP 403 with reason MissingRole\n  docs: https://developer.gemini.com/roles\n  ip_allowlist: Group-level IP allowlisting is enforced; a request from an off-list address returns reason RemoteAddressForbidden.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gemini-trust/refs/heads/main/authentication/gemini-trust-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gemini-trust/authentication/gemini-trust-authentication.yml
 summary_line: apiKey/oauth2/openIdConnect · 3 schemes
 tags:
 - Company

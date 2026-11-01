@@ -5,43 +5,43 @@ api_specs:
   label: Toss Payments Billing API
   slug: toss-payments-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/openapi/toss-payments-billing-api-openapi.yml
+  url: https://artifacts.apis.io/toss-payments/openapi/toss-payments-billing-api-openapi.yml
 - filename: toss-payments-cash-receipts-api-openapi.yml
   format: yaml
   label: Toss Payments Cash Receipts API
   slug: toss-payments-cash-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/openapi/toss-payments-cash-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/toss-payments/openapi/toss-payments-cash-receipts-api-openapi.yml
 - filename: toss-payments-payments-api-openapi.yml
   format: yaml
   label: Toss Payments API
   slug: toss-payments-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/openapi/toss-payments-payments-api-openapi.yml
+  url: https://artifacts.apis.io/toss-payments/openapi/toss-payments-payments-api-openapi.yml
 - filename: toss-payments-payouts-api-openapi.yml
   format: yaml
   label: Toss Payments Payouts API
   slug: toss-payments-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/openapi/toss-payments-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/toss-payments/openapi/toss-payments-payouts-api-openapi.yml
 - filename: toss-payments-settlements-api-openapi.yml
   format: yaml
   label: Toss Payments Settlements API
   slug: toss-payments-settlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/openapi/toss-payments-settlements-api-openapi.yml
+  url: https://artifacts.apis.io/toss-payments/openapi/toss-payments-settlements-api-openapi.yml
 - filename: toss-payments-transactions-api-openapi.yml
   format: yaml
   label: Toss Payments Transactions API
   slug: toss-payments-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/openapi/toss-payments-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/toss-payments/openapi/toss-payments-transactions-api-openapi.yml
 - filename: toss-payments-virtual-accounts-api-openapi.yml
   format: yaml
   label: Toss Payments Virtual Accounts API
   slug: toss-payments-virtual-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/openapi/toss-payments-virtual-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/toss-payments/openapi/toss-payments-virtual-accounts-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -85,7 +85,7 @@ source_filename: toss-payments-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tosspayments.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 23:59:59 2026 GMT\n  hsts: false\n  http_status: 301\n- host: api.tosspayments.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  9 23:59:59 2027 GMT\n  hsts: false\n  http_status: 401\n  note: A bare request to /v1/payments returns HTTP 401 (auth required), confirming the live authenticated REST surface.\n- host: docs.tosspayments.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 23:59:59 2026 GMT\n  hsts: false\n  http_status: 308\ndomains:\n- domain: tosspayments.com\n  dnssec: false\n  caa: []\n  spf: true\n  spf_policy: '~all'\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/security/toss-payments-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/toss-payments/security/toss-payments-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Payments

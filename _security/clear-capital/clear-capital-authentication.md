@@ -7,25 +7,25 @@ api_specs:
   label: Clear Capital ClearAVM / Valuation API
   slug: clearavm-valuation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear-capital/refs/heads/main/openapi/_original/clear-capital-openapi.yml
+  url: https://artifacts.apis.io/clear-capital/openapi/_original/clear-capital-openapi.yml
 - filename: clear-capital-openapi.yml
   format: yaml
   label: Clear Capital Property Data API
   slug: property-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear-capital/refs/heads/main/openapi/_original/clear-capital-openapi.yml
+  url: https://artifacts.apis.io/clear-capital/openapi/_original/clear-capital-openapi.yml
 - filename: clear-capital-openapi.yml
   format: yaml
   label: Clear Capital Comparables (Comps) API
   slug: comps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear-capital/refs/heads/main/openapi/_original/clear-capital-openapi.yml
+  url: https://artifacts.apis.io/clear-capital/openapi/_original/clear-capital-openapi.yml
 - filename: clear-capital-openapi.yml
   format: yaml
   label: Clear Capital Appraisal & Orders API
   slug: appraisal-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear-capital/refs/heads/main/openapi/_original/clear-capital-openapi.yml
+  url: https://artifacts.apis.io/clear-capital/openapi/_original/clear-capital-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: clear-capital-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/clear-capital-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: System-to-system authentication over encrypted transport, as described in Clear\n    Capital's product documentation. Exact token issuance and header details are documented\n    in the gated developer portal and are not reproduced here.\n  sources:\n  - openapi/clear-capital-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clear-capital/refs/heads/main/authentication/clear-capital-authentication.yml
+source_yaml_url: https://artifacts.apis.io/clear-capital/authentication/clear-capital-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Real Estate

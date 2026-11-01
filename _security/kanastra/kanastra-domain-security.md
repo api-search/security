@@ -5,121 +5,121 @@ api_specs:
   label: Kanastra Accounts API
   slug: kanastra-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/openapi/kanastra-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/kanastra/openapi/kanastra-accounts-api-openapi.yml
 - filename: kanastra-amendment-api-openapi.yml
   format: yaml
   label: Kanastra Amendment API
   slug: kanastra-amendment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/openapi/kanastra-amendment-api-openapi.yml
+  url: https://artifacts.apis.io/kanastra/openapi/kanastra-amendment-api-openapi.yml
 - filename: kanastra-authentication-api-openapi.yml
   format: yaml
   label: Kanastra Authentication API
   slug: kanastra-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/openapi/kanastra-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/kanastra/openapi/kanastra-authentication-api-openapi.yml
 - filename: kanastra-balance-api-openapi.yml
   format: yaml
   label: Kanastra Balance API
   slug: kanastra-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/openapi/kanastra-balance-api-openapi.yml
+  url: https://artifacts.apis.io/kanastra/openapi/kanastra-balance-api-openapi.yml
 - filename: kanastra-bank-account-beneficiary-api-openapi.yml
   format: yaml
   label: Kanastra Bank Account Beneficiary API
   slug: kanastra-bank-account-beneficiary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/openapi/kanastra-bank-account-beneficiary-api-openapi.yml
+  url: https://artifacts.apis.io/kanastra/openapi/kanastra-bank-account-beneficiary-api-openapi.yml
 - filename: kanastra-bank-slip-boleto-api-openapi.yml
   format: yaml
   label: Kanastra Bank Slip (Boleto) API
   slug: kanastra-bank-slip-boleto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/openapi/kanastra-bank-slip-boleto-api-openapi.yml
+  url: https://artifacts.apis.io/kanastra/openapi/kanastra-bank-slip-boleto-api-openapi.yml
 - filename: kanastra-cnab-api-openapi.yml
   format: yaml
   label: Kanastra CNAB API
   slug: kanastra-cnab-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/openapi/kanastra-cnab-api-openapi.yml
+  url: https://artifacts.apis.io/kanastra/openapi/kanastra-cnab-api-openapi.yml
 - filename: kanastra-commercial-note-api-openapi.yml
   format: yaml
   label: Kanastra Commercial Note API
   slug: kanastra-commercial-note-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/openapi/kanastra-commercial-note-api-openapi.yml
+  url: https://artifacts.apis.io/kanastra/openapi/kanastra-commercial-note-api-openapi.yml
 - filename: kanastra-create-api-openapi.yml
   format: yaml
   label: Kanastra Create API
   slug: kanastra-create-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/openapi/kanastra-create-api-openapi.yml
+  url: https://artifacts.apis.io/kanastra/openapi/kanastra-create-api-openapi.yml
 - filename: kanastra-file-return-api-openapi.yml
   format: yaml
   label: Kanastra File Return API
   slug: kanastra-file-return-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/openapi/kanastra-file-return-api-openapi.yml
+  url: https://artifacts.apis.io/kanastra/openapi/kanastra-file-return-api-openapi.yml
 - filename: kanastra-guarantees-api-openapi.yml
   format: yaml
   label: Kanastra Guarantees API
   slug: kanastra-guarantees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/openapi/kanastra-guarantees-api-openapi.yml
+  url: https://artifacts.apis.io/kanastra/openapi/kanastra-guarantees-api-openapi.yml
 - filename: kanastra-issuers-api-openapi.yml
   format: yaml
   label: Kanastra Issuers API
   slug: kanastra-issuers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/openapi/kanastra-issuers-api-openapi.yml
+  url: https://artifacts.apis.io/kanastra/openapi/kanastra-issuers-api-openapi.yml
 - filename: kanastra-pagamentos-api-openapi.yml
   format: yaml
   label: Kanastra Pagamentos API
   slug: kanastra-pagamentos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/openapi/kanastra-pagamentos-api-openapi.yml
+  url: https://artifacts.apis.io/kanastra/openapi/kanastra-pagamentos-api-openapi.yml
 - filename: kanastra-pix-deposit-api-openapi.yml
   format: yaml
   label: Kanastra PIX Deposit API
   slug: kanastra-pix-deposit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/openapi/kanastra-pix-deposit-api-openapi.yml
+  url: https://artifacts.apis.io/kanastra/openapi/kanastra-pix-deposit-api-openapi.yml
 - filename: kanastra-pix-keys-api-openapi.yml
   format: yaml
   label: Kanastra PIX Keys API
   slug: kanastra-pix-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/openapi/kanastra-pix-keys-api-openapi.yml
+  url: https://artifacts.apis.io/kanastra/openapi/kanastra-pix-keys-api-openapi.yml
 - filename: kanastra-pix-transfer-api-openapi.yml
   format: yaml
   label: Kanastra PIX Transfer API
   slug: kanastra-pix-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/openapi/kanastra-pix-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/kanastra/openapi/kanastra-pix-transfer-api-openapi.yml
 - filename: kanastra-ted-transfer-api-openapi.yml
   format: yaml
   label: Kanastra TED Transfer API
   slug: kanastra-ted-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/openapi/kanastra-ted-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/kanastra/openapi/kanastra-ted-transfer-api-openapi.yml
 - filename: kanastra-transactions-api-openapi.yml
   format: yaml
   label: Kanastra Transactions API
   slug: kanastra-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/openapi/kanastra-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/kanastra/openapi/kanastra-transactions-api-openapi.yml
 - filename: kanastra-wallet-api-openapi.yml
   format: yaml
   label: Kanastra Wallet API
   slug: kanastra-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/openapi/kanastra-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/kanastra/openapi/kanastra-wallet-api-openapi.yml
 - filename: kanastra-qr-codes-api-openapi.yml
   format: yaml
   label: Kanastra QR Codes API
   slug: kanastra-qr-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/openapi/kanastra-qr-codes-api-openapi.yml
+  url: https://artifacts.apis.io/kanastra/openapi/kanastra-qr-codes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -158,7 +158,7 @@ source_filename: kanastra-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: kanastra.com.br\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 07:22:05 2026 GMT\n  hsts: null\n- host: banking.kanastra.com.br\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 12:02:09 2026 GMT\n  hsts: null\n- host: banking-sandbox.kanastra.com.br\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 12:27:51 2026 GMT\n  hsts: null\ndomains:\n- domain: kanastra.com.br\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/security/kanastra-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kanastra/security/kanastra-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

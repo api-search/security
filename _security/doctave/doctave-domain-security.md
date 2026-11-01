@@ -5,25 +5,25 @@ api_specs:
   label: Doctave Deployments API
   slug: doctave-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doctave/refs/heads/main/openapi/doctave-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/doctave/openapi/doctave-deployments-api-openapi.yml
 - filename: doctave-pages-api-openapi.yml
   format: yaml
   label: Doctave Pages API
   slug: doctave-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doctave/refs/heads/main/openapi/doctave-pages-api-openapi.yml
+  url: https://artifacts.apis.io/doctave/openapi/doctave-pages-api-openapi.yml
 - filename: doctave-search-api-openapi.yml
   format: yaml
   label: Doctave Search API
   slug: doctave-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doctave/refs/heads/main/openapi/doctave-search-api-openapi.yml
+  url: https://artifacts.apis.io/doctave/openapi/doctave-search-api-openapi.yml
 - filename: doctave-sites-api-openapi.yml
   format: yaml
   label: Doctave Sites API
   slug: doctave-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doctave/refs/heads/main/openapi/doctave-sites-api-openapi.yml
+  url: https://artifacts.apis.io/doctave/openapi/doctave-sites-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -54,7 +54,7 @@ source_filename: doctave-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.doctave.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 11:16:24 2026 GMT\n  hsts: false\n- host: api.doctave.com\n  https: false\ndomains:\n- domain: doctave.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doctave/refs/heads/main/security/doctave-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/doctave/security/doctave-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Documentation

@@ -5,13 +5,13 @@ api_specs:
   label: Art Blocks Generator API
   slug: art-blocks-generator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-blocks/refs/heads/main/openapi/art-blocks-generator-api-openapi.yml
+  url: https://artifacts.apis.io/art-blocks/openapi/art-blocks-generator-api-openapi.yml
 - filename: art-blocks-media-api-openapi.yml
   format: yaml
   label: Art Blocks Media API
   slug: art-blocks-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-blocks/refs/heads/main/openapi/art-blocks-media-api-openapi.yml
+  url: https://artifacts.apis.io/art-blocks/openapi/art-blocks-media-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: art-blocks-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.artblocks.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 16:59:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.artblocks.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 22:33:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n- host: token.artblocks.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 22:57:07 2026 GMT\n  hsts: null\ndomains:\n- domain: artblocks.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/art-blocks/refs/heads/main/security/art-blocks-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/art-blocks/security/art-blocks-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Generative Art

@@ -15,7 +15,7 @@ source_filename: brightai-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-08'\nmethod: searched\nprobe: true\nsource: https://trust.bright.ai/\nurl: https://trust.bright.ai/\ncertifications:\n- SOC 2\nevidence:\n- source: https://trust.bright.ai/\n  keywords:\n  - soc 2\n  - soc2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brightai/refs/heads/main/security/brightai-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/brightai/security/brightai-trust-center.yml
 summary_line: SOC 2
 tags:
 - Company

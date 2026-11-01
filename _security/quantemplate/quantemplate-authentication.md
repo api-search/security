@@ -7,7 +7,7 @@ api_specs:
   label: QuanTemplate FabricAPI API
   slug: quantemplate-fabricapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quantemplate/refs/heads/main/openapi/quantemplate-fabricapi-api-openapi.yml
+  url: https://artifacts.apis.io/quantemplate/openapi/quantemplate-fabricapi-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -34,7 +34,7 @@ source_filename: quantemplate-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/quantemplate-fabric-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/quantemplate-fabric-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quantemplate/refs/heads/main/authentication/quantemplate-authentication.yml
+source_yaml_url: https://artifacts.apis.io/quantemplate/authentication/quantemplate-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

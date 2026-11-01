@@ -5,37 +5,37 @@ api_specs:
   label: 1Forge Forex Stream
   slug: 1forge-forex-stream
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/asyncapi/1forge-forex-stream-asyncapi.yml
+  url: https://artifacts.apis.io/1forge/asyncapi/1forge-forex-stream-asyncapi.yml
 - filename: 1forge-convert-api-openapi.yml
   format: yaml
   label: 1Forge Convert API
   slug: 1forge-convert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/openapi/1forge-convert-api-openapi.yml
+  url: https://artifacts.apis.io/1forge/openapi/1forge-convert-api-openapi.yml
 - filename: 1forge-market-status-api-openapi.yml
   format: yaml
   label: 1Forge Market Status API
   slug: 1forge-market-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/openapi/1forge-market-status-api-openapi.yml
+  url: https://artifacts.apis.io/1forge/openapi/1forge-market-status-api-openapi.yml
 - filename: 1forge-quota-api-openapi.yml
   format: yaml
   label: 1Forge Quota API
   slug: 1forge-quota-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/openapi/1forge-quota-api-openapi.yml
+  url: https://artifacts.apis.io/1forge/openapi/1forge-quota-api-openapi.yml
 - filename: 1forge-quotes-api-openapi.yml
   format: yaml
   label: 1Forge Quotes API
   slug: 1forge-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/openapi/1forge-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/1forge/openapi/1forge-quotes-api-openapi.yml
 - filename: 1forge-symbols-api-openapi.yml
   format: yaml
   label: 1Forge Symbols API
   slug: 1forge-symbols-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/openapi/1forge-symbols-api-openapi.yml
+  url: https://artifacts.apis.io/1forge/openapi/1forge-symbols-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -74,7 +74,7 @@ source_filename: 1forge-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: 1forge.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 23:45:27 2026 GMT\n  hsts: false\n- host: api.1forge.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 17 23:59:59 2026 GMT\n  hsts: false\n- host: sockets.1forge.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 23 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: 1forge.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/security/1forge-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/1forge/security/1forge-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Foreign Exchange

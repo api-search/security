@@ -5,55 +5,55 @@ api_specs:
   label: Validic Devices API
   slug: validic-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-devices-api-openapi.yml
+  url: https://artifacts.apis.io/validic/openapi/validic-devices-api-openapi.yml
 - filename: validic-marketplace-connections-api-openapi.yml
   format: yaml
   label: Validic Marketplace & Connections API
   slug: validic-marketplace-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-marketplace-connections-api-openapi.yml
+  url: https://artifacts.apis.io/validic/openapi/validic-marketplace-connections-api-openapi.yml
 - filename: validic-observations-data-api-openapi.yml
   format: yaml
   label: Validic Observations & Data API
   slug: validic-observations-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-observations-data-api-openapi.yml
+  url: https://artifacts.apis.io/validic/openapi/validic-observations-data-api-openapi.yml
 - filename: validic-push-service-api-openapi.yml
   format: yaml
   label: Validic Push Service API
   slug: validic-push-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-push-service-api-openapi.yml
+  url: https://artifacts.apis.io/validic/openapi/validic-push-service-api-openapi.yml
 - filename: validic-streaming-api-openapi.yml
   format: yaml
   label: Validic Streaming API
   slug: validic-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/validic/openapi/validic-streaming-api-openapi.yml
 - filename: validic-users-api-openapi.yml
   format: yaml
   label: Validic Users API
   slug: validic-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-users-api-openapi.yml
+  url: https://artifacts.apis.io/validic/openapi/validic-users-api-openapi.yml
 - filename: validic-measurements-api-openapi.yml
   format: yaml
   label: Validic Measurements API
   slug: validic-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-measurements-api-openapi.yml
+  url: https://artifacts.apis.io/validic/openapi/validic-measurements-api-openapi.yml
 - filename: validic-organizations-api-openapi.yml
   format: yaml
   label: Validic Organizations API
   slug: validic-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/validic/openapi/validic-organizations-api-openapi.yml
 - filename: validic-streams-api-openapi.yml
   format: yaml
   label: Validic Streams API
   slug: validic-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-streams-api-openapi.yml
+  url: https://artifacts.apis.io/validic/openapi/validic-streams-api-openapi.yml
 certification_count: 3
 certifications:
 - HITRUST CSF
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-08-15'\nmethod: searched\nsource: >-\n  https://v
   \ false\n  audit_date_published: false\n  assessor_published: false\n- name: ISO/IEC 27001\n  status: certified (asserted)\n  evidence:\n  - source: https://validic.com/how-we-help/arpa-h-advocate/\n    http_status: 200\n  - source: https://dashboard.validic.com/validic-developer-signup.txt\n    http_status: 200\n  certificate_published: false\n  audit_date_published: false\n  assessor_published: false\n- name: HIPAA\n  status: compliant (asserted, and reflected in API design)\n  evidence:\n  - source: https://validic.com/how-we-help/arpa-h-advocate/\n    http_status: 200\n  - source: https://developer.validic.com/docs/inform-rest-api\n    http_status: 200\n    detail: >-\n      HIPAA drives documented API behaviour, not just a claim - the ban on\n      identifying data in `uid`, and the 1-year-over-API / 7-year-retained\n      split on health records.\ncorrections:\n- date: '2026-08-15'\n  removed:\n  - SOC 2\n  reason: >-\n    A previous pass recorded SOC 2 and ISO 27001 for Validic\
   \ from a keyword\n    match on https://trust.validic.com/ and treated that host as a trust\n    centre. Both parts of that were wrong. (1) trust.validic.com is an ATLASSIAN\n    STATUSPAGE, not a trust centre - DNS CNAME\n    trust.validic.com -> qtyl0stcbvvr.stspg-customer.com, page title \"Validic\n    Inform Status\", live component and incident APIs at /api/v2/*. It is now\n    recorded correctly in lifecycle/validic-lifecycle.yml as the status page.\n    (2) The strings \"SOC 2\" and \"ISO 27001\" appear on that page exactly once\n    each, inside an incident notice about Google Health API CASA requirements\n    which advises CUSTOMERS to \"gather existing certifications - SOC 2 or ISO\n    27002 documentation\". That is guidance to Validic's customers about THEIR\n    own audits; it is not a Validic certification claim. No first-party SOC 2\n    assertion exists anywhere on Validic's public surface.\n  kept:\n  - ISO 27001\n  kept_reason: >-\n    ISO 27001 survives the correction,\
   \ but on completely different evidence -\n    Validic asserts it directly on validic.com and in its own\n    provider-published developer guide.\nprobe:\n- url: https://trust.validic.com/\n  status: 200\n  finding: Atlassian Statuspage titled \"Validic Inform Status\" - not a trust centre\n- url: https://validic.com/security/\n  status: 200\n  finding: >-\n    soft-404 - validic.com 200-redirects unknown paths to `/`. Effective URL\n    was https://validic.com/. No security page exists.\n- url: https://validic.com/compliance/\n  status: 200\n  finding: soft-404 to `/`. No compliance page exists.\n- url: https://validic.com/privacy-policy/\n  status: 200\n  finding: real page - the only published policy document found\nsubprocessors_published: false\npen_test_published: false\nsoc2_report_available_on_request: unknown\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/security/validic-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/validic/security/validic-trust-center.yml
 summary_line: HITRUST CSF, ISO/IEC 27001, HIPAA
 tags:
 - Health Data

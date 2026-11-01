@@ -27,7 +27,7 @@ source_filename: figs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: wearfigs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 25 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: wearfigs.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/figs/refs/heads/main/security/figs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/figs/security/figs-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -8,7 +8,7 @@ api_specs:
   label: Parea AI Parea API
   slug: parea-parea-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parea/refs/heads/main/openapi/parea-parea-api-openapi.yml
+  url: https://artifacts.apis.io/parea/openapi/parea-parea-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -45,7 +45,7 @@ source_filename: parea-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/parea-rest-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - password\nschemes:\n- name: OAuth2PasswordBearer\n  type: oauth2\n  flows:\n  - flow: password\n    tokenUrl: token\n    scopes: 0\n  sources:\n  - openapi/parea-rest-api-openapi.yml\n- name: APIKeyHeader\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/parea-rest-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parea/refs/heads/main/authentication/parea-authentication.yml
+source_yaml_url: https://artifacts.apis.io/parea/authentication/parea-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - LLM

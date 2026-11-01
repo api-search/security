@@ -5,7 +5,7 @@ api_specs:
   label: Fleet API
   slug: fleet-fleet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleet/refs/heads/main/openapi/fleet-fleet-api-openapi.yml
+  url: https://artifacts.apis.io/fleet/openapi/fleet-fleet-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2 Type 2
@@ -23,7 +23,7 @@ source_filename: fleet-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://trust.fleetdm.com/\nprobe: false\nurl: https://trust.fleetdm.com/\ncertifications:\n  - name: SOC 2 Type 2\n    status: certified\n  - name: ISO 27001\n    status: coming-soon\nevidence:\n  - {source: 'https://trust.fleetdm.com/', keywords: [trust center]}\n  - {source: 'https://fleetdm.com/better', keywords: [soc2 type 2, iso 27001]}\n  - {source: 'https://github.com/fleetdm/fleet/blob/main/SECURITY.md', keywords: [soc2 compliance]}\nnotes: >-\n  Fleet's trust center is hosted at trust.fleetdm.com (SafeBase-style portal).\n  SOC 2 Type 2 is attested; ISO 27001 is listed as coming soon. Security-labeled\n  GitHub issues are maintained to support SOC 2 compliance.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fleet/refs/heads/main/security/fleet-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/fleet/security/fleet-trust-center.yml
 summary_line: SOC 2 Type 2, ISO 27001
 tags:
 - Company

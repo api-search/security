@@ -5,13 +5,13 @@ api_specs:
   label: Aviation Weather Center Navigational Data API
   slug: aviationweather-navigational-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aviationweather/refs/heads/main/openapi/aviationweather-navigational-data-api-openapi.yml
+  url: https://artifacts.apis.io/aviationweather/openapi/aviationweather-navigational-data-api-openapi.yml
 - filename: aviationweather-weather-data-api-openapi.yml
   format: yaml
   label: Aviation Weather Center Weather Data API
   slug: aviationweather-weather-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aviationweather/refs/heads/main/openapi/aviationweather-weather-data-api-openapi.yml
+  url: https://artifacts.apis.io/aviationweather/openapi/aviationweather-weather-data-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +40,7 @@ source_filename: aviationweather-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aviationweather.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: aviationweather.gov\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aviationweather/refs/heads/main/security/aviationweather-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aviationweather/security/aviationweather-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Aviation

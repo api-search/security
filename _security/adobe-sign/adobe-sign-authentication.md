@@ -7,7 +7,7 @@ api_specs:
   label: Adobe Acrobat Sign Base URIs API
   slug: adobe-sign-base-uris-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-sign/refs/heads/main/openapi/adobe-sign-base-uris-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-sign/openapi/adobe-sign-base-uris-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -39,7 +39,7 @@ source_filename: adobe-sign-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/adobe-sign-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://secure.adobesign.com/public/oauth/v2\n    tokenUrl: https://secure.adobesign.com/oauth/v2/token\n    scopes: 12\n  description: OAuth 2.0 authorization-code flow. The authorization code is exchanged at POST\n    /oauth/v2/token for an access token (~3600s) and a refresh token. Scope modifiers :self,\n    :group, and :account determine the authorization level.\n  sources:\n  - openapi/adobe-sign-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-sign/refs/heads/main/authentication/adobe-sign-authentication.yml
+source_yaml_url: https://artifacts.apis.io/adobe-sign/authentication/adobe-sign-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - E-Signature

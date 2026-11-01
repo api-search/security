@@ -5,13 +5,13 @@ api_specs:
   label: Wayfair Authentication API
   slug: wayfair-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wayfair/refs/heads/main/openapi/wayfair-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/wayfair/openapi/wayfair-authentication-api-openapi.yml
 - filename: wayfair-graph-ql-api-openapi.yml
   format: yaml
   label: Wayfair Graph QL API
   slug: wayfair-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wayfair/refs/heads/main/openapi/wayfair-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/wayfair/openapi/wayfair-graph-ql-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: wayfair-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.wayfair.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 05:31:29 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: developer.wayfair.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 17:17:54 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: www.wayfair.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 09:10:37 2026 GMT\n  hsts: null\ndomains:\n- domain: wayfair.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: wayfair.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wayfair/refs/heads/main/security/wayfair-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wayfair/security/wayfair-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - E-Commerce

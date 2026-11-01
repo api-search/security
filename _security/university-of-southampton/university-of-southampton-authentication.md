@@ -7,31 +7,31 @@ api_specs:
   label: University of Southampton Catalogue API
   slug: university-of-southampton-catalogue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/openapi/university-of-southampton-catalogue-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-southampton/openapi/university-of-southampton-catalogue-api-openapi.yml
 - filename: university-of-southampton-datasets-api-openapi.yml
   format: yaml
   label: University of Southampton Datasets API
   slug: university-of-southampton-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/openapi/university-of-southampton-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-southampton/openapi/university-of-southampton-datasets-api-openapi.yml
 - filename: university-of-southampton-eprints-api-openapi.yml
   format: yaml
   label: University of Southampton Eprints API
   slug: university-of-southampton-eprints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/openapi/university-of-southampton-eprints-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-southampton/openapi/university-of-southampton-eprints-api-openapi.yml
 - filename: university-of-southampton-oai-pmh-api-openapi.yml
   format: yaml
   label: University of Southampton OAI PMH API
   slug: university-of-southampton-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/openapi/university-of-southampton-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-southampton/openapi/university-of-southampton-oai-pmh-api-openapi.yml
 - filename: university-of-southampton-resources-api-openapi.yml
   format: yaml
   label: University of Southampton Resources API
   slug: university-of-southampton-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/openapi/university-of-southampton-resources-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-southampton/openapi/university-of-southampton-resources-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -57,7 +57,7 @@ source_yaml: "---\ngenerated: '2026-08-30'\nmethod: probed\nsource: >-\n  Live r
   \  - binding: HTTP-POST\n    purpose: SingleSignOn\n    location: https://webauth.soton.ac.uk/idp/profile/SAML2/POST/SSO\n  - binding: HTTP-POST-SimpleSign\n    purpose: SingleSignOn\n    location: https://webauth.soton.ac.uk/idp/profile/SAML2/POST-SimpleSign/SSO\n  - binding: Shibboleth authn request\n    purpose: SingleSignOn\n    location: https://webauth.soton.ac.uk/idp/profile/Shibboleth/SSO\n  - binding: HTTP-Redirect\n    purpose: SingleLogout\n    location: https://webauth.soton.ac.uk/idp/profile/SAML2/Redirect/SLO\n  - binding: SOAP\n    purpose: AttributeQuery\n    location: https://webauth.soton.ac.uk:8443/idp/profile/SAML2/SOAP/AttributeQuery\n  - binding: SOAP\n    purpose: ArtifactResolution\n    location: https://webauth.soton.ac.uk:8443/idp/profile/SAML2/SOAP/ArtifactResolution\n  evidence:\n  - location: https://webauth.soton.ac.uk/idp/shibboleth\n    status: 200\n    detail: >-\n      Unsigned EntityDescriptor published by the IdP itself, application/xml, 16951 bytes.\n\
   \  - location: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fwebauth.soton.ac.uk%2Fshibboleth\n    status: 200\n    detail: >-\n      Signed EntityDescriptor from the UK federation MDQ service,\n      application/samlmetadata+xml, 19396 bytes. Saved to this repo.\n  - location: https://webauth.soton.ac.uk/idp/status\n    status: 403\n    detail: IdP status handler is access-controlled, as expected for a production deployment.\n\n- surface: Elsevier Pure CRIS tenancy (pure.soton.ac.uk)\n  x-operator: tenant\n  scheme: saml\n  detail: >-\n    Fronted by Microsoft Entra ID for the University's own tenant\n    (4a5378f9-29f4-4d3e-be89-669d03ada9d8). The Pure web services are not publicly reachable:\n    /ws/oai and /ws/api both return HTTP 403 from Elsevier's own error page. Southampton exposes no\n    public Pure API, unlike several peers in this cohort.\n  evidence:\n  - location: https://pure.soton.ac.uk/\n    status: 200\n    detail: Redirects to login.microsoftonline.com SAML2\
   \ sign-in for the University's Entra tenant.\n  - location: https://pure.soton.ac.uk/ws/oai?verb=Identify\n    status: 403\n    detail: Elsevier-branded 403 page. No public OAI-PMH on the Pure tenancy.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/authentication/university-of-southampton-authentication.yml
+source_yaml_url: https://artifacts.apis.io/university-of-southampton/authentication/university-of-southampton-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

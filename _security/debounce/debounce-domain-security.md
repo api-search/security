@@ -5,43 +5,43 @@ api_specs:
   label: DeBounce Account Management API
   slug: debounce-account-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-account-management-api-openapi.yml
+  url: https://artifacts.apis.io/debounce/openapi/debounce-account-management-api-openapi.yml
 - filename: debounce-debounce-disposable-email-detector-api-api-openapi.yml
   format: yaml
   label: DeBounce Disposable Email Detector API
   slug: debounce-debounce-disposable-email-detector-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-debounce-disposable-email-detector-api-api-openapi.yml
+  url: https://artifacts.apis.io/debounce/openapi/debounce-debounce-disposable-email-detector-api-api-openapi.yml
 - filename: debounce-debounce-email-validation-api-api-openapi.yml
   format: yaml
   label: DeBounce Email Validation API
   slug: debounce-debounce-email-validation-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-debounce-email-validation-api-api-openapi.yml
+  url: https://artifacts.apis.io/debounce/openapi/debounce-debounce-email-validation-api-api-openapi.yml
 - filename: debounce-reverse-api-openapi.yml
   format: yaml
   label: DeBounce Reverse API
   slug: debounce-reverse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-reverse-api-openapi.yml
+  url: https://artifacts.apis.io/debounce/openapi/debounce-reverse-api-openapi.yml
 - filename: debounce-status-api-openapi.yml
   format: yaml
   label: DeBounce Status API
   slug: debounce-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-status-api-openapi.yml
+  url: https://artifacts.apis.io/debounce/openapi/debounce-status-api-openapi.yml
 - filename: debounce-upload-api-openapi.yml
   format: yaml
   label: DeBounce Upload API
   slug: debounce-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-upload-api-openapi.yml
+  url: https://artifacts.apis.io/debounce/openapi/debounce-upload-api-openapi.yml
 - filename: debounce-usage-api-openapi.yml
   format: yaml
   label: DeBounce Usage API
   slug: debounce-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-usage-api-openapi.yml
+  url: https://artifacts.apis.io/debounce/openapi/debounce-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -121,7 +121,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: debounce.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 22:47:55 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.debounce.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 19:29:30 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.debounce.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 16:00:41 2026 GMT\n  hsts: null\n- host: bulk.debounce.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 16:00:41 2026 GMT\n  hsts: null\n  source: manual probe — added 2026-08-14 for the bulk.debounce.io servers[] host\n- host: disposable.debounce.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 16:00:41 2026 GMT\n  hsts: null\n  source: manual probe — added 2026-08-14 for the disposable.debounce.io servers[] host\n- host: logo.debounce.com\n  https: true\n\
   \  tls_version: TLSv1.3\n  cert_expires: Oct 15 22:47:55 2026 GMT\n  hsts: null\n  source: manual probe — added 2026-08-14 for the Logo API host\n- host: app.debounce.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 16:00:41 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  source: manual probe — added 2026-08-14 for the signup/dashboard host\nfindings:\n- >-\n  HSTS is set on the marketing site (debounce.com), the developer portal\n  (developers.debounce.com, max-age 63072000 — the longest in the profile) and\n  the dashboard (app.debounce.io), but on NONE of the four API hosts:\n  api.debounce.io, bulk.debounce.io, disposable.debounce.io and\n  logo.debounce.com all answer without a Strict-Transport-Security header. Since\n  the API key travels in the query string, an API host without HSTS is the\n  weakest link in this profile.\n- >-\n  Neither registrable domain has DNSSEC enabled. debounce.com publishes no CAA\n  record at all; debounce.io does.\n- >-\n  Both domains\
   \ publish SPF and a DMARC policy of p=reject, which is the strong\n  posture expected of an email-deliverability vendor.\n- >-\n  No RFC 9116 security.txt is served on any host, and no vulnerability\n  disclosure program or trust center was found — see\n  well-known/debounce-well-known.yml.\ndomains:\n- domain: debounce.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: debounce.io\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/security/debounce-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/debounce/security/debounce-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Email Verification

@@ -27,7 +27,7 @@ source_filename: spirit-aerosystems-holdings-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.spiritaero.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 20 14:54:14 2026 GMT\n  hsts: false\ndomains:\n- domain: spiritaero.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spirit-aerosystems-holdings/refs/heads/main/security/spirit-aerosystems-holdings-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/spirit-aerosystems-holdings/security/spirit-aerosystems-holdings-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Aerospace

@@ -5,37 +5,37 @@ api_specs:
   label: IntakeQ Appointments API
   slug: intakeq-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/openapi/intakeq-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/intakeq/openapi/intakeq-appointments-api-openapi.yml
 - filename: intakeq-clients-api-openapi.yml
   format: yaml
   label: IntakeQ Clients API
   slug: intakeq-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/openapi/intakeq-clients-api-openapi.yml
+  url: https://artifacts.apis.io/intakeq/openapi/intakeq-clients-api-openapi.yml
 - filename: intakeq-files-api-openapi.yml
   format: yaml
   label: IntakeQ Files API
   slug: intakeq-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/openapi/intakeq-files-api-openapi.yml
+  url: https://artifacts.apis.io/intakeq/openapi/intakeq-files-api-openapi.yml
 - filename: intakeq-intake-forms-api-openapi.yml
   format: yaml
   label: IntakeQ Intake Forms API
   slug: intakeq-intake-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/openapi/intakeq-intake-forms-api-openapi.yml
+  url: https://artifacts.apis.io/intakeq/openapi/intakeq-intake-forms-api-openapi.yml
 - filename: intakeq-invoices-api-openapi.yml
   format: yaml
   label: IntakeQ Invoices API
   slug: intakeq-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/openapi/intakeq-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/intakeq/openapi/intakeq-invoices-api-openapi.yml
 - filename: intakeq-treatment-notes-api-openapi.yml
   format: yaml
   label: IntakeQ Treatment Notes API
   slug: intakeq-treatment-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/openapi/intakeq-treatment-notes-api-openapi.yml
+  url: https://artifacts.apis.io/intakeq/openapi/intakeq-treatment-notes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: intakeq-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: intakeq.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 20 23:59:59 2027 GMT\n  hsts: false\n- host: support.intakeq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 06:22:06 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: intakeq.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/security/intakeq-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/intakeq/security/intakeq-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Practice Management

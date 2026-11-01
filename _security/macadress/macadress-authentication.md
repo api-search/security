@@ -10,19 +10,25 @@ api_specs:
   label: 'MAC Address Lookup: Find Vendor, OUI & Device Type Healthz API'
   slug: macadress-healthz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macadress/refs/heads/main/openapi/macadress-healthz-api-openapi.yml
+  url: https://artifacts.apis.io/macadress/openapi/macadress-healthz-api-openapi.yml
 - filename: macadress-mac-api-openapi.yml
   format: yaml
   label: 'MAC Address Lookup: Find Vendor, OUI & Device Type Mac API'
   slug: macadress-mac-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macadress/refs/heads/main/openapi/macadress-mac-api-openapi.yml
+  url: https://artifacts.apis.io/macadress/openapi/macadress-mac-api-openapi.yml
 - filename: macadress-vendors-api-openapi.yml
   format: yaml
   label: 'MAC Address Lookup: Find Vendor, OUI & Device Type Vendors API'
   slug: macadress-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macadress/refs/heads/main/openapi/macadress-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/macadress/openapi/macadress-vendors-api-openapi.yml
+- filename: macadress-vendor-api-openapi.yml
+  format: yaml
+  label: 'MAC Address Lookup: Find Vendor, OUI & Device Type Vendor API'
+  slug: macadress-vendor-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/macadress/openapi/macadress-vendor-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -85,7 +91,7 @@ source_yaml: "generated: '2026-08-28'\nmethod: searched\nsource: https://macadre
   - name: apiKeyQuery\n  type: apiKey\n  in: query\n  parameter: api_key\n  format: '?api_key=mk_...'\n  applies_to: all operations\n  preferred: false\n  caution: >\n    A key in the query string is written into proxy logs, server access logs, browser\n    history and Referer headers. Documented as a convenience, not the recommended transport.\n  sources:\n  - openapi/macadress-openapi.yaml\n  - https://macadress.com/docs\n- name: apiKeyBody\n  type: apiKey\n  in: body\n  parameter: api_key\n  applies_to: [lookupMACBatch]\n  format: 'an \"api_key\" field alongside \"macs\" in the JSON body'\n  declared_in_openapi: true\n  openapi_location: paths./v1/mac/batch.post.requestBody.content.application/json.schema.properties.api_key\n  note: >\n    Documented as a third transport and present as a request-body property, but not modelled\n    as a securityScheme (OpenAPI cannot express a body-borne credential as one). A strict\n    spec-driven client will not know it exists.\n  sources:\n  - https://macadress.com/docs\n\
   anonymous_operations:\n- operationId: healthz\n  path: /v1/healthz\n  openapi_declaration: 'security: []'\n  note: Liveness only. Not counted against any quota.\nunauthenticated_behaviour:\n  status: 401\n  body: '{\"error\": \"missing API key: pass it as \\\"api_key\\\" (query param or POST body) or an Authorization: Bearer header\"}'\n  www_authenticate_header: false\n  observed_live: '2026-08-28'\n  note: >\n    The 401 body names all three accepted transports, which is unusually helpful. No\n    WWW-Authenticate challenge is emitted, so a client cannot negotiate the scheme from the\n    response alone.\nmcp_authentication:\n  endpoint: https://mcp.macadress.com/mcp\n  scheme: http bearer, same mk_ key as REST\n  oauth: false\n  probed: '2026-08-28 POST tools/list -> 401 \"no bearer token\"'\n  provider_rationale: >\n    Stated on https://macadress.com/mcp: MCP's authorization spec is optional for HTTP\n    transports, and the provider chose a spec-legal bearer token over standing up\
   \ a full\n    OAuth 2.1 authorization server with PKCE and dynamic client registration. Consequence\n    for agents: no one-click \"connect your account\" flow, and no\n    /.well-known/oauth-protected-resource to discover.\nkey_management:\n  rotation_policy: not published\n  scopes: none\n  multiple_keys: not published\n  revocation: not published\n  gap: >\n    No published guidance on rotating, revoking or issuing multiple keys, and no scope or\n    permission model — one key carries the account's full read surface and its whole\n    billing quota. For an agent deployment that is the practical blast radius: a leaked key\n    cannot be narrowed, only replaced.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/macadress/refs/heads/main/authentication/macadress-authentication.yml
+source_yaml_url: https://artifacts.apis.io/macadress/authentication/macadress-authentication.yml
 summary_line: http/apiKey · 3 schemes
 tags:
 - Networking

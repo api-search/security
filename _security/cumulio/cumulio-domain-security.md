@@ -5,25 +5,25 @@ api_specs:
   label: Cumulio Authorize API
   slug: cumulio-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cumulio/refs/heads/main/openapi/cumulio-authorize-api-openapi.yml
+  url: https://artifacts.apis.io/cumulio/openapi/cumulio-authorize-api-openapi.yml
 - filename: cumulio-datasets-api-openapi.yml
   format: yaml
   label: Cumulio Datasets API
   slug: cumulio-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cumulio/refs/heads/main/openapi/cumulio-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/cumulio/openapi/cumulio-datasets-api-openapi.yml
 - filename: cumulio-exchange-api-openapi.yml
   format: yaml
   label: Cumulio Exchange API
   slug: cumulio-exchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cumulio/refs/heads/main/openapi/cumulio-exchange-api-openapi.yml
+  url: https://artifacts.apis.io/cumulio/openapi/cumulio-exchange-api-openapi.yml
 - filename: cumulio-query-api-openapi.yml
   format: yaml
   label: Cumulio Query API
   slug: cumulio-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cumulio/refs/heads/main/openapi/cumulio-query-api-openapi.yml
+  url: https://artifacts.apis.io/cumulio/openapi/cumulio-query-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -56,7 +56,7 @@ source_filename: cumulio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.luzmo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  1 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: luzmo.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cumulio/refs/heads/main/security/cumulio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cumulio/security/cumulio-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

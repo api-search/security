@@ -5,19 +5,19 @@ api_specs:
   label: Autopass Locations API
   slug: autopass-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/openapi/autopass-locations-api-openapi.yml
+  url: https://artifacts.apis.io/autopass/openapi/autopass-locations-api-openapi.yml
 - filename: autopass-orders-api-openapi.yml
   format: yaml
   label: Autopass Orders API
   slug: autopass-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/openapi/autopass-orders-api-openapi.yml
+  url: https://artifacts.apis.io/autopass/openapi/autopass-orders-api-openapi.yml
 - filename: autopass-sessions-api-openapi.yml
   format: yaml
   label: Autopass Sessions API
   slug: autopass-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/openapi/autopass-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/autopass/openapi/autopass-sessions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: autopass-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: en.autopass.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 02:01:11 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.autopass.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 23:26:55 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.autopass.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  7 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: autopass.xyz\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/security/autopass-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/autopass/security/autopass-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

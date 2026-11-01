@@ -13,49 +13,49 @@ api_specs:
   label: SIX Debi X API
   slug: debix-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/openapi/six-group-card-management-api-openapi.yml
+  url: https://artifacts.apis.io/six-group/openapi/six-group-card-management-api-openapi.yml
 - filename: six-group-3ds-authentication-api-openapi.yml
   format: yaml
   label: SIX debiX Auth Provider API
   slug: debix-auth-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/openapi/six-group-3ds-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/six-group/openapi/six-group-3ds-authentication-api-openapi.yml
 - filename: six-group-iban-api-openapi.yml
   format: yaml
   label: Swiss Bank Master API
   slug: swiss-bank-master-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/openapi/six-group-iban-api-openapi.yml
+  url: https://artifacts.apis.io/six-group/openapi/six-group-iban-api-openapi.yml
 - filename: six-group-status-api-openapi.yml
   format: yaml
   label: SIC Service Status API
   slug: sic-service-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/openapi/six-group-status-api-openapi.yml
+  url: https://artifacts.apis.io/six-group/openapi/six-group-status-api-openapi.yml
 - filename: six-group-calendar-api-openapi.yml
   format: yaml
   label: SIC Clearing Day Calendar API
   slug: sic-clearing-day-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/openapi/six-group-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/six-group/openapi/six-group-calendar-api-openapi.yml
 - filename: six-group-detailedsettlementinformation-api-openapi.yml
   format: yaml
   label: Settlement Info Reporting API
   slug: settlement-info-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/openapi/six-group-detailedsettlementinformation-api-openapi.yml
+  url: https://artifacts.apis.io/six-group/openapi/six-group-detailedsettlementinformation-api-openapi.yml
 - filename: six-group-3-ds-api-openapi.yml
   format: yaml
   label: SIX 3 DS API
   slug: six-group-3-ds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/openapi/six-group-3-ds-api-openapi.yml
+  url: https://artifacts.apis.io/six-group/openapi/six-group-3-ds-api-openapi.yml
 - filename: six-group-bank-master-api-openapi.yml
   format: yaml
   label: SIX Bank Master API
   slug: six-group-bank-master-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/openapi/six-group-bank-master-api-openapi.yml
+  url: https://artifacts.apis.io/six-group/openapi/six-group-bank-master-api-openapi.yml
 auth_types:
 - mutualTLS
 - oauth2
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: searched\nsource: https://docs.bl
   \ certificates (bLink)\n  type: mutualTLS\n  description: All bLink connections are mutually authenticated with X.509 client\n    certificates over TLS 1.2+. Certificates must be OV or EV, RSA >= 3072 bits,\n    sha224-512RSA signature, ~1 year validity, issued by an accepted CA (DigiCert,\n    QuoVadis, SwissSign) and registered with SIX; the platform maps the certificate\n    to a client_id used to match access tokens.\n  docs: https://docs.blink.six-group.com/api-reference/authentication/tls-certificates\n- name: OAuth 2.0 consent flows (bLink)\n  type: oauth2\n  description: bLink consent management uses standard OAuth 2.0 authorization-code\n    consent flows (including App2App/Web2App inter-app flows), with token issuance,\n    revocation, and username validation endpoints in the consent-flow base module;\n    Consent 2.0 (permissions) and Consent 3.0 (grant management) blueprints are\n    documented. Access tokens are bound to the mTLS-registered client_id.\n  docs: https://docs.blink.six-group.com/api-reference/authentication/consent-management\n\
   - name: mTLS client certificates (debiX)\n  type: mutualTLS\n  description: debiX issuers provide separate client certificates for the test and\n    production environments; SIX registers the certificate DN in the debiX Portal\n    and issuers verify access via the /healthcheck endpoint across all verbs.\n  docs: https://docs.debix.six-group.com/getting-started\n- name: mTLS client certificates (SIX Web API / Bulk API)\n  type: mutualTLS\n  description: The sales-gated SIX Web API and Bulk API for financial information\n    use MTLS certificate authentication; onboarding and certificates are handled\n    through the SIX API Portal after a demo-access request.\n  docs: https://www.six-group.com/en/products-services/financial-information/delivery-methods/api/web.html\n- name: Unauthenticated public endpoints\n  type: none\n  description: Documented production endpoints of the Swiss Bank Master API and SIC\n    Service Status API answered HTTP 200 without authentication (probed 2026-07-21/22).\n\
   - name: Developer-portal login OAuth (apiportal.six-group.com)\n  type: oauth2\n  description: The Kong developer portal itself publishes RFC 8414 metadata\n    (authorization_code + PKCE S256) for portal login - captured in\n    well-known/six-group-oauth-authorization-server.json; this governs portal\n    access, not product API calls.\n  docs: https://apiportal.six-group.com/.well-known/oauth-authorization-server\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/authentication/six-group-authentication.yml
+source_yaml_url: https://artifacts.apis.io/six-group/authentication/six-group-authentication.yml
 summary_line: mutualTLS/oauth2/none · 6 schemes
 tags:
 - Finance

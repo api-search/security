@@ -5,25 +5,55 @@ api_specs:
   label: Energy Charts API Import Export API
   slug: energy-charts-api-import-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-import-export-api-openapi.yml
+  url: https://artifacts.apis.io/energy-charts-api/openapi/energy-charts-api-import-export-api-openapi.yml
 - filename: energy-charts-api-power-api-openapi.yml
   format: yaml
   label: Energy Charts API Power API
   slug: energy-charts-api-power-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-power-api-openapi.yml
+  url: https://artifacts.apis.io/energy-charts-api/openapi/energy-charts-api-power-api-openapi.yml
 - filename: energy-charts-api-prices-api-openapi.yml
   format: yaml
   label: Energy Charts API Prices API
   slug: energy-charts-api-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-prices-api-openapi.yml
+  url: https://artifacts.apis.io/energy-charts-api/openapi/energy-charts-api-prices-api-openapi.yml
 - filename: energy-charts-api-ren-share-api-openapi.yml
   format: yaml
   label: Energy Charts API Ren Share API
   slug: energy-charts-api-ren-share-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-ren-share-api-openapi.yml
+  url: https://artifacts.apis.io/energy-charts-api/openapi/energy-charts-api-ren-share-api-openapi.yml
+- filename: energy-charts-api-energy-charts-api-api-openapi.yml
+  format: yaml
+  label: Energy Charts API Energy Charts API
+  slug: energy-charts-api-energy-charts-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/energy-charts-api/openapi/energy-charts-api-energy-charts-api-api-openapi.yml
+- filename: energy-charts-api-import-export-v2-api-openapi.yml
+  format: yaml
+  label: Energy Charts API import_export v2 API
+  slug: energy-charts-api-import-export-v2-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/energy-charts-api/openapi/energy-charts-api-import-export-v2-api-openapi.yml
+- filename: energy-charts-api-power-v2-api-openapi.yml
+  format: yaml
+  label: Energy Charts API power v2 API
+  slug: energy-charts-api-power-v2-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/energy-charts-api/openapi/energy-charts-api-power-v2-api-openapi.yml
+- filename: energy-charts-api-prices-v2-api-openapi.yml
+  format: yaml
+  label: Energy Charts API prices v2 API
+  slug: energy-charts-api-prices-v2-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/energy-charts-api/openapi/energy-charts-api-prices-v2-api-openapi.yml
+- filename: energy-charts-api-ren-share-v2-api-openapi.yml
+  format: yaml
+  label: Energy Charts API ren_share v2 API
+  slug: energy-charts-api-ren-share-v2-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/energy-charts-api/openapi/energy-charts-api-ren-share-v2-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +88,7 @@ source_filename: energy-charts-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.energy-charts.info\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  5 21:50:37 2026 GMT\n  hsts: true\n  hsts_max_age: 16000000\n- host: api.energy-charts.info\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  5 21:23:02 2026 GMT\n  hsts: null\ndomains:\n- domain: energy-charts.info\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/security/energy-charts-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/energy-charts-api/security/energy-charts-api-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Energy

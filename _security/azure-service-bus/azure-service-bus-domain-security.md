@@ -5,31 +5,31 @@ api_specs:
   label: Azure Service Bus Namespaces API
   slug: azure-service-bus-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/openapi/azure-service-bus-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/azure-service-bus/openapi/azure-service-bus-namespaces-api-openapi.yml
 - filename: azure-service-bus-queues-api-openapi.yml
   format: yaml
   label: Azure Service Bus Queues API
   slug: azure-service-bus-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/openapi/azure-service-bus-queues-api-openapi.yml
+  url: https://artifacts.apis.io/azure-service-bus/openapi/azure-service-bus-queues-api-openapi.yml
 - filename: azure-service-bus-subscriptions-api-openapi.yml
   format: yaml
   label: Azure Service Bus Subscriptions API
   slug: azure-service-bus-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/openapi/azure-service-bus-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/azure-service-bus/openapi/azure-service-bus-subscriptions-api-openapi.yml
 - filename: azure-service-bus-topics-api-openapi.yml
   format: yaml
   label: Azure Service Bus Topics API
   slug: azure-service-bus-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/openapi/azure-service-bus-topics-api-openapi.yml
+  url: https://artifacts.apis.io/azure-service-bus/openapi/azure-service-bus-topics-api-openapi.yml
 - filename: azure-service-bus-messages-api-openapi.yml
   format: yaml
   label: Azure Service Bus Messages API
   slug: microsoft-azure-service-bus-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/openapi/azure-service-bus-messages-api-openapi.yml
+  url: https://artifacts.apis.io/azure-service-bus/openapi/azure-service-bus-messages-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -71,7 +71,7 @@ source_filename: azure-service-bus-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: azure.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 22:04:48 2026 GMT\n  hsts: null\n- host: management.azure.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 23:36:21 2026 GMT\n  hsts: null\ndomains:\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: azure.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/security/azure-service-bus-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/azure-service-bus/security/azure-service-bus-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Microsoft Azure

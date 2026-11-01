@@ -8,31 +8,31 @@ api_specs:
   label: Dynamic Yield API only API
   slug: dynamic-yield-api-only-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynamic-yield/refs/heads/main/openapi/dynamic-yield-api-only-api-openapi.yml
+  url: https://artifacts.apis.io/dynamic-yield/openapi/dynamic-yield-api-only-api-openapi.yml
 - filename: dynamic-yield-experience-apis-api-openapi.yml
   format: yaml
   label: Dynamic Yield Experience APIs API
   slug: dynamic-yield-experience-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynamic-yield/refs/heads/main/openapi/dynamic-yield-experience-apis-api-openapi.yml
+  url: https://artifacts.apis.io/dynamic-yield/openapi/dynamic-yield-experience-apis-api-openapi.yml
 - filename: dynamic-yield-product-data-api-openapi.yml
   format: yaml
   label: Dynamic Yield Product Data API
   slug: dynamic-yield-product-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynamic-yield/refs/heads/main/openapi/dynamic-yield-product-data-api-openapi.yml
+  url: https://artifacts.apis.io/dynamic-yield/openapi/dynamic-yield-product-data-api-openapi.yml
 - filename: dynamic-yield-profile-anywhere-api-openapi.yml
   format: yaml
   label: Dynamic Yield Profile Anywhere API
   slug: dynamic-yield-profile-anywhere-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynamic-yield/refs/heads/main/openapi/dynamic-yield-profile-anywhere-api-openapi.yml
+  url: https://artifacts.apis.io/dynamic-yield/openapi/dynamic-yield-profile-anywhere-api-openapi.yml
 - filename: dynamic-yield-user-data-api-api-openapi.yml
   format: yaml
   label: Dynamic Yield User Data API
   slug: dynamic-yield-user-data-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynamic-yield/refs/heads/main/openapi/dynamic-yield-user-data-api-api-openapi.yml
+  url: https://artifacts.apis.io/dynamic-yield/openapi/dynamic-yield-user-data-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -59,7 +59,7 @@ source_filename: dynamic-yield-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://dy.dev/docs (Getting Started / API Keys) + https://dy.dev/reference\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  oauth2_flows: []\nschemes:\n- name: DY-API-Key\n  type: apiKey\n  in: header\n  parameter: DY-API-Key\n  description: >-\n    Server-side Experience APIs authenticate with a Dynamic Yield API key passed\n    in the DY-API-Key request header. API keys are section-scoped and generated\n    in the Dynamic Yield admin console (Sections > API Keys). Distinct key types\n    exist for server-side (Experience API) and other integration surfaces.\n  docs: https://dy.dev/docs\nnotes: >-\n  Client-side / script-based implementations are keyed by the section's public\n  data-dy-token snippet rather than the server-side DY-API-Key. No OpenAPI spec\n  was captured for this provider, so scheme details are sourced from the published\n  developer documentation rather than derived from a spec.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dynamic-yield/refs/heads/main/authentication/dynamic-yield-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dynamic-yield/authentication/dynamic-yield-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

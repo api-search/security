@@ -5,7 +5,7 @@ api_specs:
   label: Jumio Callback / Webhook
   slug: callback
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jumio/refs/heads/main/asyncapi/jumio-callback-asyncapi.yml
+  url: https://artifacts.apis.io/jumio/asyncapi/jumio-callback-asyncapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,7 +50,7 @@ source_filename: jumio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.jumio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 15:59:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: documentation.jumio.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  1 23:59:59 2026 GMT\n  hsts: false\n- host: account.amer-1.jumio.ai\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 26 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: jumio.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: jumio.ai\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jumio/refs/heads/main/security/jumio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/jumio/security/jumio-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - KYC

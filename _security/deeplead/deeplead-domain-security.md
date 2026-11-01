@@ -5,37 +5,37 @@ api_specs:
   label: Deeplead Account API
   slug: deeplead-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deeplead/refs/heads/main/openapi/deeplead-account-api-openapi.yml
+  url: https://artifacts.apis.io/deeplead/openapi/deeplead-account-api-openapi.yml
 - filename: deeplead-businesses-api-openapi.yml
   format: yaml
   label: Deeplead Businesses API
   slug: deeplead-businesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deeplead/refs/heads/main/openapi/deeplead-businesses-api-openapi.yml
+  url: https://artifacts.apis.io/deeplead/openapi/deeplead-businesses-api-openapi.yml
 - filename: deeplead-contacts-api-openapi.yml
   format: yaml
   label: Deeplead Contacts API
   slug: deeplead-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deeplead/refs/heads/main/openapi/deeplead-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/deeplead/openapi/deeplead-contacts-api-openapi.yml
 - filename: deeplead-deliverability-api-openapi.yml
   format: yaml
   label: Deeplead Deliverability API
   slug: deeplead-deliverability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deeplead/refs/heads/main/openapi/deeplead-deliverability-api-openapi.yml
+  url: https://artifacts.apis.io/deeplead/openapi/deeplead-deliverability-api-openapi.yml
 - filename: deeplead-organizations-api-openapi.yml
   format: yaml
   label: Deeplead Organizations API
   slug: deeplead-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deeplead/refs/heads/main/openapi/deeplead-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/deeplead/openapi/deeplead-organizations-api-openapi.yml
 - filename: deeplead-persons-api-openapi.yml
   format: yaml
   label: Deeplead Persons API
   slug: deeplead-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deeplead/refs/heads/main/openapi/deeplead-persons-api-openapi.yml
+  url: https://artifacts.apis.io/deeplead/openapi/deeplead-persons-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: deeplead-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.deeplead.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 03:40:39 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: deeplead.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deeplead/refs/heads/main/security/deeplead-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/deeplead/security/deeplead-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

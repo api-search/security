@@ -26,7 +26,7 @@ source_filename: dati-emilia-romagna-it-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dati.emilia-romagna.it\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 24 16:57:54 2026 GMT\n  hsts: null\ndomains:\n- domain: emilia-romagna.it\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dati-emilia-romagna-it/refs/heads/main/security/dati-emilia-romagna-it-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dati-emilia-romagna-it/security/dati-emilia-romagna-it-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Open Data

@@ -5,25 +5,25 @@ api_specs:
   label: Cogny Reports API
   slug: cogny-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/openapi/cogny-reports-api-openapi.yml
+  url: https://artifacts.apis.io/cogny/openapi/cogny-reports-api-openapi.yml
 - filename: cogny-tickets-api-openapi.yml
   format: yaml
   label: Cogny Tickets API
   slug: cogny-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/openapi/cogny-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/cogny/openapi/cogny-tickets-api-openapi.yml
 - filename: cogny-warehouses-api-openapi.yml
   format: yaml
   label: Cogny Warehouses API
   slug: cogny-warehouses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/openapi/cogny-warehouses-api-openapi.yml
+  url: https://artifacts.apis.io/cogny/openapi/cogny-warehouses-api-openapi.yml
 - filename: cogny-webhooks-api-openapi.yml
   format: yaml
   label: Cogny Webhooks API
   slug: cogny-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/openapi/cogny-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cogny/openapi/cogny-webhooks-api-openapi.yml
 certification_count: 0
 certifications: []
 description: ''
@@ -46,7 +46,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://cogny.c
   \    location: europe-west1 (Belgium); hosted sites in customer-selected region\n  - name: Supabase, Inc.\n    purpose: Managed PostgreSQL, authentication, encrypted secret vault, point-in-time recovery\n    location: AWS eu-north-1 (Stockholm)\n  - name: Cloudflare, Inc.\n    purpose: Edge CDN, WAF, DDoS mitigation, TLS termination\n    location: Global edge\n    note: No personal data persisted at the edge\n  - name: Anthropic PBC\n    purpose: LLM inference (Claude) for AI reports and chat\n    location: Global routing\n  - name: OpenAI, L.L.C.\n    purpose: LLM inference (GPT models) for AI reports and chat\n    location: US + SCCs\n  - name: Berget AI\n    purpose: EU-hosted AI model inference\n    location: EU (Sweden)\n  - name: Hugging Face, Inc.\n    purpose: Inference routing for open-weights LLMs\n    location: US + SCCs\n  - name: DeepInfra, Inc.\n    purpose: LLM inference (DeepSeek open-weights) via Hugging Face routing\n    location: US + SCCs\n    third_party_certifications:\n\
   \    - SOC 2\n    - ISO 27001\n    note: >-\n      These certifications belong to DeepInfra, the sub-processor — NOT to Cogny.\n      See attestation_correction above.\n  - name: Brave Software, Inc. (Brave Search)\n    purpose: Web search, news, and rank-check data for AI research tools\n    location: US + SCCs\n  - name: Stripe Payments Europe, Ltd.\n    purpose: Subscription billing and payment processing\n    location: EU + SCCs\n  - name: Resend, Inc.\n    purpose: Transactional email (report and auth emails)\n    location: SCCs\n  - name: Slack Technologies, LLC\n    purpose: Internal alerting and optional customer notifications\n    location: SCCs\n  - name: ElevenLabs Inc.\n    purpose: Optional text-to-speech, invoked only when audio features are used\n    location: SCCs\nlegal_entity:\n  name: Cogny AB\n  address: Peter Myndes Backe 16, 118 46 Stockholm, Sweden\n  jurisdiction: SE\nrelated:\n- https://cogny.com/privacy\n- https://cogny.com/terms\n- https://cogny.com/terms/dpa\n\
   - https://cogny.com/terms/dora\n- https://cogny.com/cookies\nlast_updated_by_provider: 'March, 2026'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/security/cogny-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/cogny/security/cogny-trust-center.yml
 summary_line: trust center published
 tags:
 - Company

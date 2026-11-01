@@ -5,7 +5,7 @@ api_specs:
   label: SMA Solar Technology Oauth2 API
   slug: sma-solar-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sma-solar/refs/heads/main/openapi/sma-solar-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/sma-solar/openapi/sma-solar-oauth2-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -35,7 +35,7 @@ source_filename: sma-solar-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sma.de\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 25 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: sma.de\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sma-solar/refs/heads/main/security/sma-solar-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sma-solar/security/sma-solar-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

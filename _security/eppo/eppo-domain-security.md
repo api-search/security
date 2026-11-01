@@ -5,31 +5,31 @@ api_specs:
   label: Eppo Allocations API
   slug: eppo-allocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eppo/refs/heads/main/openapi/eppo-allocations-api-openapi.yml
+  url: https://artifacts.apis.io/eppo/openapi/eppo-allocations-api-openapi.yml
 - filename: eppo-assignments-api-openapi.yml
   format: yaml
   label: Eppo Assignments API
   slug: eppo-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eppo/refs/heads/main/openapi/eppo-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/eppo/openapi/eppo-assignments-api-openapi.yml
 - filename: eppo-experiments-api-openapi.yml
   format: yaml
   label: Eppo Experiments API
   slug: eppo-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eppo/refs/heads/main/openapi/eppo-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/eppo/openapi/eppo-experiments-api-openapi.yml
 - filename: eppo-flags-api-openapi.yml
   format: yaml
   label: Eppo Flags API
   slug: eppo-flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eppo/refs/heads/main/openapi/eppo-flags-api-openapi.yml
+  url: https://artifacts.apis.io/eppo/openapi/eppo-flags-api-openapi.yml
 - filename: eppo-metrics-api-openapi.yml
   format: yaml
   label: Eppo Metrics API
   slug: eppo-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eppo/refs/heads/main/openapi/eppo-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/eppo/openapi/eppo-metrics-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: eppo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.geteppo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 07:33:18 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: eppo.cloud\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 17:42:40 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\ndomains:\n- domain: geteppo.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: eppo.cloud\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eppo/refs/heads/main/security/eppo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/eppo/security/eppo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Experimentation

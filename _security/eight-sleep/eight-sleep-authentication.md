@@ -7,43 +7,43 @@ api_specs:
   label: Eight Sleep Alarms API
   slug: eight-sleep-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/eight-sleep/openapi/eight-sleep-alarms-api-openapi.yml
 - filename: eight-sleep-authentication-api-openapi.yml
   format: yaml
   label: Eight Sleep Authentication API
   slug: eight-sleep-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/eight-sleep/openapi/eight-sleep-authentication-api-openapi.yml
 - filename: eight-sleep-base-api-openapi.yml
   format: yaml
   label: Eight Sleep Base API
   slug: eight-sleep-base-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-base-api-openapi.yml
+  url: https://artifacts.apis.io/eight-sleep/openapi/eight-sleep-base-api-openapi.yml
 - filename: eight-sleep-device-api-openapi.yml
   format: yaml
   label: Eight Sleep Device API
   slug: eight-sleep-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-device-api-openapi.yml
+  url: https://artifacts.apis.io/eight-sleep/openapi/eight-sleep-device-api-openapi.yml
 - filename: eight-sleep-temperature-api-openapi.yml
   format: yaml
   label: Eight Sleep Temperature API
   slug: eight-sleep-temperature-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-temperature-api-openapi.yml
+  url: https://artifacts.apis.io/eight-sleep/openapi/eight-sleep-temperature-api-openapi.yml
 - filename: eight-sleep-trends-api-openapi.yml
   format: yaml
   label: Eight Sleep Trends API
   slug: eight-sleep-trends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-trends-api-openapi.yml
+  url: https://artifacts.apis.io/eight-sleep/openapi/eight-sleep-trends-api-openapi.yml
 - filename: eight-sleep-user-api-openapi.yml
   format: yaml
   label: Eight Sleep User API
   slug: eight-sleep-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-user-api-openapi.yml
+  url: https://artifacts.apis.io/eight-sleep/openapi/eight-sleep-user-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -71,7 +71,7 @@ source_filename: eight-sleep-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/eight-sleep-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Bearer access token issued by POST /v1/tokens on auth-api.8slp.net. Unofficial.\n  sources:\n  - openapi/eight-sleep-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/authentication/eight-sleep-authentication.yml
+source_yaml_url: https://artifacts.apis.io/eight-sleep/authentication/eight-sleep-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Sleep

@@ -7,43 +7,43 @@ api_specs:
   label: Curios Collections API
   slug: curios-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curios/refs/heads/main/openapi/curios-collections-api-openapi.yml
+  url: https://artifacts.apis.io/curios/openapi/curios-collections-api-openapi.yml
 - filename: curios-contracts-api-openapi.yml
   format: yaml
   label: Curios Contracts API
   slug: curios-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curios/refs/heads/main/openapi/curios-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/curios/openapi/curios-contracts-api-openapi.yml
 - filename: curios-customers-api-openapi.yml
   format: yaml
   label: Curios Customers API
   slug: curios-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curios/refs/heads/main/openapi/curios-customers-api-openapi.yml
+  url: https://artifacts.apis.io/curios/openapi/curios-customers-api-openapi.yml
 - filename: curios-listings-api-openapi.yml
   format: yaml
   label: Curios Listings API
   slug: curios-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curios/refs/heads/main/openapi/curios-listings-api-openapi.yml
+  url: https://artifacts.apis.io/curios/openapi/curios-listings-api-openapi.yml
 - filename: curios-orders-api-openapi.yml
   format: yaml
   label: Curios Orders API
   slug: curios-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curios/refs/heads/main/openapi/curios-orders-api-openapi.yml
+  url: https://artifacts.apis.io/curios/openapi/curios-orders-api-openapi.yml
 - filename: curios-projects-api-openapi.yml
   format: yaml
   label: Curios Projects API
   slug: curios-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curios/refs/heads/main/openapi/curios-projects-api-openapi.yml
+  url: https://artifacts.apis.io/curios/openapi/curios-projects-api-openapi.yml
 - filename: curios-tokens-api-openapi.yml
   format: yaml
   label: Curios Tokens API
   slug: curios-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curios/refs/heads/main/openapi/curios-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/curios/openapi/curios-tokens-api-openapi.yml
 auth_types: []
 description: Authentication methods for Curios APIs
 kind: authentication
@@ -81,7 +81,7 @@ source_heading: Authentication Profile
 source_url: https://content.curios.com/docs/admin-tokens
 source_yaml: "generated: '2026-10-12'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://content.curios.com/docs/admin-tokens\nsources:\n- https://content.curios.com/docs/admin-tokens\n- https://content.curios.com/docs/casper\n- https://content.curios.com/docs/\n- https://content.curios.com/docs/admin\ndescription: Authentication methods for Curios APIs\nschemes:\n- type: apiKey\n  name: curios-api-key\n  evidence: '-H '' curios-api-key: {API Key} '''\n  location: header\n  header: curios-api-key\n- type: http-bearer\n  name: Bearer JWT\n  evidence: Authorization Bearer {JWT} The JWT session token issued upon succesful customer login and verification.\n  location: header\n  header: Authorization\n  how_to_obtain: Use customers/login and customers/verify endpoints to retrieve a JSON Web Token (JWT).\n- type: hmac\n  name: curios-signature\n  evidence: Every request must include a signature in the curios-signature header value.\n  location: header\n  header: curios-signature\n\
   \  how_to_obtain: Create signature using HMAC SHA256 with your API Secret as the encryption key.\ndocs: https://content.curios.com/docs/admin-tokens\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/curios/refs/heads/main/authentication/curios-authentication.yml
+source_yaml_url: https://artifacts.apis.io/curios/authentication/curios-authentication.yml
 summary_line: 3 schemes
 tags:
 - Company

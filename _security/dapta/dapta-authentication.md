@@ -36,7 +36,7 @@ source_filename: dapta-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://docs.dapta.ai/dapta-mcp/setup/mint-your-api-key\ndocs: https://docs.dapta.ai/dapta-mcp/key-concepts\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  oauth2_flows: []\nschemes:\n  - name: workspaceApiKey\n    type: apiKey\n    in: header\n    parameter_name: x-api-key\n    scope: workspace\n    lifecycle:\n      one_active_key_per_workspace: true\n      owner_only: true\n      shown_once: true\n      recoverable: false\n      rotation: revoke current key then mint a new one on the MCP Access tab\n    notes: >-\n      Dapta authenticates AI clients to a single workspace with a workspace-scoped\n      API key passed in the x-api-key header. The same key authorizes the hosted\n      MCP server at https://mcp.dapta.ai/mcp. No OpenAPI is published, so this\n      profile is sourced from the developer documentation rather than derived.\n    sources:\n      - https://docs.dapta.ai/dapta-mcp/setup/connect-codex\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dapta/refs/heads/main/authentication/dapta-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dapta/authentication/dapta-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

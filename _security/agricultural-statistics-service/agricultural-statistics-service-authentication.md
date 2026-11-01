@@ -8,13 +8,13 @@ api_specs:
   label: Agricultural Statistics Service Parameters API
   slug: agricultural-statistics-service-parameters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agricultural-statistics-service/refs/heads/main/openapi/agricultural-statistics-service-parameters-api-openapi.yml
+  url: https://artifacts.apis.io/agricultural-statistics-service/openapi/agricultural-statistics-service-parameters-api-openapi.yml
 - filename: agricultural-statistics-service-statistics-api-openapi.yml
   format: yaml
   label: Agricultural Statistics Service Statistics API
   slug: agricultural-statistics-service-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agricultural-statistics-service/refs/heads/main/openapi/agricultural-statistics-service-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/agricultural-statistics-service/openapi/agricultural-statistics-service-statistics-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: agricultural-statistics-service-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/agricultural-statistics-service-quickstats-api.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyQuery\n  type: apiKey\n  in: query\n  parameter: key\n  description: API key obtained by registering at https://quickstats.nass.usda.gov/api and agreeing\n    to NASS Terms of Service.\n  sources:\n  - openapi/agricultural-statistics-service-quickstats-api.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agricultural-statistics-service/refs/heads/main/authentication/agricultural-statistics-service-authentication.yml
+source_yaml_url: https://artifacts.apis.io/agricultural-statistics-service/authentication/agricultural-statistics-service-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Agriculture

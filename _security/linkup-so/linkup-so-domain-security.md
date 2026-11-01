@@ -5,25 +5,25 @@ api_specs:
   label: Linkup Credits API
   slug: linkup-so-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkup-so/refs/heads/main/openapi/linkup-so-credits-api-openapi.yml
+  url: https://artifacts.apis.io/linkup-so/openapi/linkup-so-credits-api-openapi.yml
 - filename: linkup-so-fetch-api-openapi.yml
   format: yaml
   label: Linkup Fetch API
   slug: linkup-so-fetch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkup-so/refs/heads/main/openapi/linkup-so-fetch-api-openapi.yml
+  url: https://artifacts.apis.io/linkup-so/openapi/linkup-so-fetch-api-openapi.yml
 - filename: linkup-so-research-api-openapi.yml
   format: yaml
   label: Linkup Research API
   slug: linkup-so-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkup-so/refs/heads/main/openapi/linkup-so-research-api-openapi.yml
+  url: https://artifacts.apis.io/linkup-so/openapi/linkup-so-research-api-openapi.yml
 - filename: linkup-so-search-api-openapi.yml
   format: yaml
   label: Linkup Search API
   slug: linkup-so-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkup-so/refs/heads/main/openapi/linkup-so-search-api-openapi.yml
+  url: https://artifacts.apis.io/linkup-so/openapi/linkup-so-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: linkup-so-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.linkup.so\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 00:34:48 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.linkup.so\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 16:01:00 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.linkup.so\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 11:33:11 2026 GMT\n  hsts: null\ndomains:\n- domain: linkup.so\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linkup-so/refs/heads/main/security/linkup-so-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/linkup-so/security/linkup-so-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

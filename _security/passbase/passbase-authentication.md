@@ -8,13 +8,13 @@ api_specs:
   label: Passbase Identity API
   slug: passbase-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passbase/refs/heads/main/openapi/passbase-identity-api-openapi.yml
+  url: https://artifacts.apis.io/passbase/openapi/passbase-identity-api-openapi.yml
 - filename: passbase-project-api-openapi.yml
   format: yaml
   label: Passbase Project API
   slug: passbase-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passbase/refs/heads/main/openapi/passbase-project-api-openapi.yml
+  url: https://artifacts.apis.io/passbase/openapi/passbase-project-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: passbase-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/passbase-verification-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: SecuredKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-KEY\n  description: Secret API key sent in the X-API-KEY header. A Bearer JWT (identity_access_token)\n    may also be supplied by prefixing the header value with \"Bearer \".\n  sources:\n  - openapi/passbase-verification-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/passbase/refs/heads/main/authentication/passbase-authentication.yml
+source_yaml_url: https://artifacts.apis.io/passbase/authentication/passbase-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

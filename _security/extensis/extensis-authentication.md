@@ -8,19 +8,19 @@ api_specs:
   label: Extensis Assets API
   slug: extensis-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensis/refs/heads/main/openapi/extensis-assets-api-openapi.yml
+  url: https://artifacts.apis.io/extensis/openapi/extensis-assets-api-openapi.yml
 - filename: extensis-catalogs-api-openapi.yml
   format: yaml
   label: Extensis Catalogs API
   slug: extensis-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensis/refs/heads/main/openapi/extensis-catalogs-api-openapi.yml
+  url: https://artifacts.apis.io/extensis/openapi/extensis-catalogs-api-openapi.yml
 - filename: extensis-search-api-openapi.yml
   format: yaml
   label: Extensis Search API
   slug: extensis-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensis/refs/heads/main/openapi/extensis-search-api-openapi.yml
+  url: https://artifacts.apis.io/extensis/openapi/extensis-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -47,7 +47,7 @@ source_filename: extensis-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/extensis-portfolio-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/extensis-portfolio-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/extensis/refs/heads/main/authentication/extensis-authentication.yml
+source_yaml_url: https://artifacts.apis.io/extensis/authentication/extensis-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Digital Asset Management

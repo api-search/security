@@ -5,43 +5,43 @@ api_specs:
   label: Sezzle Bearer Authentication API
   slug: sezzle-bearer-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sezzle/refs/heads/main/openapi/sezzle-bearer-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sezzle/openapi/sezzle-bearer-authentication-api-openapi.yml
 - filename: sezzle-customer-api-openapi.yml
   format: yaml
   label: Sezzle Customer API
   slug: sezzle-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sezzle/refs/heads/main/openapi/sezzle-customer-api-openapi.yml
+  url: https://artifacts.apis.io/sezzle/openapi/sezzle-customer-api-openapi.yml
 - filename: sezzle-order-api-openapi.yml
   format: yaml
   label: Sezzle Order API
   slug: sezzle-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sezzle/refs/heads/main/openapi/sezzle-order-api-openapi.yml
+  url: https://artifacts.apis.io/sezzle/openapi/sezzle-order-api-openapi.yml
 - filename: sezzle-reports-api-openapi.yml
   format: yaml
   label: Sezzle Reports API
   slug: sezzle-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sezzle/refs/heads/main/openapi/sezzle-reports-api-openapi.yml
+  url: https://artifacts.apis.io/sezzle/openapi/sezzle-reports-api-openapi.yml
 - filename: sezzle-session-api-openapi.yml
   format: yaml
   label: Sezzle Session API
   slug: sezzle-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sezzle/refs/heads/main/openapi/sezzle-session-api-openapi.yml
+  url: https://artifacts.apis.io/sezzle/openapi/sezzle-session-api-openapi.yml
 - filename: sezzle-token-api-openapi.yml
   format: yaml
   label: Sezzle Token API
   slug: sezzle-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sezzle/refs/heads/main/openapi/sezzle-token-api-openapi.yml
+  url: https://artifacts.apis.io/sezzle/openapi/sezzle-token-api-openapi.yml
 - filename: sezzle-webhooks-api-openapi.yml
   format: yaml
   label: Sezzle Webhooks API
   slug: sezzle-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sezzle/refs/heads/main/openapi/sezzle-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/sezzle/openapi/sezzle-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,7 +81,7 @@ source_filename: sezzle-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.sezzle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 14:10:33 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: gateway.sezzle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 02:00:11 2026 GMT\n  hsts: null\n- host: sandbox.gateway.sezzle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 10:00:13 2026 GMT\n  hsts: null\ndomains:\n- domain: sezzle.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sezzle/refs/heads/main/security/sezzle-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sezzle/security/sezzle-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Buy Now Pay Later

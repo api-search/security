@@ -5,61 +5,61 @@ api_specs:
   label: Financial Modeling Prep Balance Sheet Statement API
   slug: financial-modeling-prep-balance-sheet-statement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/financial-modeling-prep/refs/heads/main/openapi/financial-modeling-prep-balance-sheet-statement-api-openapi.yml
+  url: https://artifacts.apis.io/financial-modeling-prep/openapi/financial-modeling-prep-balance-sheet-statement-api-openapi.yml
 - filename: financial-modeling-prep-cash-flow-statement-api-openapi.yml
   format: yaml
   label: Financial Modeling Prep Cash Flow Statement API
   slug: financial-modeling-prep-cash-flow-statement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/financial-modeling-prep/refs/heads/main/openapi/financial-modeling-prep-cash-flow-statement-api-openapi.yml
+  url: https://artifacts.apis.io/financial-modeling-prep/openapi/financial-modeling-prep-cash-flow-statement-api-openapi.yml
 - filename: financial-modeling-prep-historical-price-full-api-openapi.yml
   format: yaml
   label: Financial Modeling Prep Historical Price Full API
   slug: financial-modeling-prep-historical-price-full-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/financial-modeling-prep/refs/heads/main/openapi/financial-modeling-prep-historical-price-full-api-openapi.yml
+  url: https://artifacts.apis.io/financial-modeling-prep/openapi/financial-modeling-prep-historical-price-full-api-openapi.yml
 - filename: financial-modeling-prep-income-statement-api-openapi.yml
   format: yaml
   label: Financial Modeling Prep Income Statement API
   slug: financial-modeling-prep-income-statement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/financial-modeling-prep/refs/heads/main/openapi/financial-modeling-prep-income-statement-api-openapi.yml
+  url: https://artifacts.apis.io/financial-modeling-prep/openapi/financial-modeling-prep-income-statement-api-openapi.yml
 - filename: financial-modeling-prep-insider-trading-api-openapi.yml
   format: yaml
   label: Financial Modeling Prep Insider Trading API
   slug: financial-modeling-prep-insider-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/financial-modeling-prep/refs/heads/main/openapi/financial-modeling-prep-insider-trading-api-openapi.yml
+  url: https://artifacts.apis.io/financial-modeling-prep/openapi/financial-modeling-prep-insider-trading-api-openapi.yml
 - filename: financial-modeling-prep-profile-api-openapi.yml
   format: yaml
   label: Financial Modeling Prep Profile API
   slug: financial-modeling-prep-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/financial-modeling-prep/refs/heads/main/openapi/financial-modeling-prep-profile-api-openapi.yml
+  url: https://artifacts.apis.io/financial-modeling-prep/openapi/financial-modeling-prep-profile-api-openapi.yml
 - filename: financial-modeling-prep-quote-api-openapi.yml
   format: yaml
   label: Financial Modeling Prep Quote API
   slug: financial-modeling-prep-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/financial-modeling-prep/refs/heads/main/openapi/financial-modeling-prep-quote-api-openapi.yml
+  url: https://artifacts.apis.io/financial-modeling-prep/openapi/financial-modeling-prep-quote-api-openapi.yml
 - filename: financial-modeling-prep-ratios-api-openapi.yml
   format: yaml
   label: Financial Modeling Prep Ratios API
   slug: financial-modeling-prep-ratios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/financial-modeling-prep/refs/heads/main/openapi/financial-modeling-prep-ratios-api-openapi.yml
+  url: https://artifacts.apis.io/financial-modeling-prep/openapi/financial-modeling-prep-ratios-api-openapi.yml
 - filename: financial-modeling-prep-search-api-openapi.yml
   format: yaml
   label: Financial Modeling Prep Search API
   slug: financial-modeling-prep-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/financial-modeling-prep/refs/heads/main/openapi/financial-modeling-prep-search-api-openapi.yml
+  url: https://artifacts.apis.io/financial-modeling-prep/openapi/financial-modeling-prep-search-api-openapi.yml
 - filename: financial-modeling-prep-stock-api-openapi.yml
   format: yaml
   label: Financial Modeling Prep Stock API
   slug: financial-modeling-prep-stock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/financial-modeling-prep/refs/heads/main/openapi/financial-modeling-prep-stock-api-openapi.yml
+  url: https://artifacts.apis.io/financial-modeling-prep/openapi/financial-modeling-prep-stock-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2
@@ -76,7 +76,7 @@ source_filename: financial-modeling-prep-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-22'\nmethod: searched\nprobe: true\nsource: https://site.financialmodelingprep.com/trust\nurl: https://site.financialmodelingprep.com/trust\ncertifications:\n- SOC 2\nevidence:\n- source: https://site.financialmodelingprep.com/trust\n  keywords:\n  - soc 2\n  - soc2\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/financial-modeling-prep/refs/heads/main/security/financial-modeling-prep-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/financial-modeling-prep/security/financial-modeling-prep-trust-center.yml
 summary_line: SOC 2
 tags:
 - Financial Data

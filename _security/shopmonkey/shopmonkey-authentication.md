@@ -7,55 +7,55 @@ api_specs:
   label: Shopmonkey Appointments API
   slug: shopmonkey-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/openapi/shopmonkey-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/shopmonkey/openapi/shopmonkey-appointments-api-openapi.yml
 - filename: shopmonkey-customers-api-openapi.yml
   format: yaml
   label: Shopmonkey Customers API
   slug: shopmonkey-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/openapi/shopmonkey-customers-api-openapi.yml
+  url: https://artifacts.apis.io/shopmonkey/openapi/shopmonkey-customers-api-openapi.yml
 - filename: shopmonkey-employees-api-openapi.yml
   format: yaml
   label: Shopmonkey Employees API
   slug: shopmonkey-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/openapi/shopmonkey-employees-api-openapi.yml
+  url: https://artifacts.apis.io/shopmonkey/openapi/shopmonkey-employees-api-openapi.yml
 - filename: shopmonkey-inventory-parts-api-openapi.yml
   format: yaml
   label: Shopmonkey Inventory & Parts API
   slug: shopmonkey-inventory-parts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/openapi/shopmonkey-inventory-parts-api-openapi.yml
+  url: https://artifacts.apis.io/shopmonkey/openapi/shopmonkey-inventory-parts-api-openapi.yml
 - filename: shopmonkey-invoices-payments-api-openapi.yml
   format: yaml
   label: Shopmonkey Invoices & Payments API
   slug: shopmonkey-invoices-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/openapi/shopmonkey-invoices-payments-api-openapi.yml
+  url: https://artifacts.apis.io/shopmonkey/openapi/shopmonkey-invoices-payments-api-openapi.yml
 - filename: shopmonkey-locations-api-openapi.yml
   format: yaml
   label: Shopmonkey Locations API
   slug: shopmonkey-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/openapi/shopmonkey-locations-api-openapi.yml
+  url: https://artifacts.apis.io/shopmonkey/openapi/shopmonkey-locations-api-openapi.yml
 - filename: shopmonkey-vehicles-api-openapi.yml
   format: yaml
   label: Shopmonkey Vehicles API
   slug: shopmonkey-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/openapi/shopmonkey-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/shopmonkey/openapi/shopmonkey-vehicles-api-openapi.yml
 - filename: shopmonkey-webhooks-api-openapi.yml
   format: yaml
   label: Shopmonkey Webhooks API
   slug: shopmonkey-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/openapi/shopmonkey-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/shopmonkey/openapi/shopmonkey-webhooks-api-openapi.yml
 - filename: shopmonkey-work-orders-api-openapi.yml
   format: yaml
   label: Shopmonkey Work Orders API
   slug: shopmonkey-work-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/openapi/shopmonkey-work-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shopmonkey/openapi/shopmonkey-work-orders-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -82,12 +82,12 @@ source_filename: shopmonkey-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/shopmonkey-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'API key generated in the Shopmonkey web app under Settings > Integration > API\n    Keys, sent as `Authorization: Bearer <token>`.'\n  sources:\n  - openapi/shopmonkey-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/authentication/shopmonkey-authentication.yml
+source_yaml_url: https://artifacts.apis.io/shopmonkey/authentication/shopmonkey-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Auto Repair
 - Shop Management
-- Field Service
+- Field Service Management
 - REST
 - Not GraphQL
 ---

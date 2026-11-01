@@ -39,7 +39,7 @@ source_filename: aecom-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-30'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.aecom.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 25 19:31:41 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: digital.aecom.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  6 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: investors.aecom.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 20:19:13 2026 GMT\n  hsts: null\ndomains:\n- domain: aecom.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aecom/refs/heads/main/security/aecom-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aecom/security/aecom-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Engineering

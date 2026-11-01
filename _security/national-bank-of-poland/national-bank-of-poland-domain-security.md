@@ -29,7 +29,7 @@ source_filename: national-bank-of-poland-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.nbp.pl\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 12:56:39 2026 GMT\n  hsts: false\ndomains:\n- domain: nbp.pl\n  dnssec: false\n  caa:\n  - 0 issue \"certum.pl\"\n  - 0 issueewild \"certum.pl\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-bank-of-poland/refs/heads/main/security/national-bank-of-poland-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/national-bank-of-poland/security/national-bank-of-poland-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Foreign Exchange

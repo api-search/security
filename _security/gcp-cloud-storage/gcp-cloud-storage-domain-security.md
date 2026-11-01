@@ -5,31 +5,31 @@ api_specs:
   label: Google Cloud Storage BucketAccessControls API
   slug: gcp-cloud-storage-bucketaccesscontrols-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/openapi/gcp-cloud-storage-bucketaccesscontrols-api-openapi.yml
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-bucketaccesscontrols-api-openapi.yml
 - filename: gcp-cloud-storage-buckets-api-openapi.yml
   format: yaml
   label: Google Cloud Storage Buckets API
   slug: gcp-cloud-storage-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/openapi/gcp-cloud-storage-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-buckets-api-openapi.yml
 - filename: gcp-cloud-storage-defaultobjectaccesscontrols-api-openapi.yml
   format: yaml
   label: Google Cloud Storage DefaultObjectAccessControls API
   slug: gcp-cloud-storage-defaultobjectaccesscontrols-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/openapi/gcp-cloud-storage-defaultobjectaccesscontrols-api-openapi.yml
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-defaultobjectaccesscontrols-api-openapi.yml
 - filename: gcp-cloud-storage-objectaccesscontrols-api-openapi.yml
   format: yaml
   label: Google Cloud Storage ObjectAccessControls API
   slug: gcp-cloud-storage-objectaccesscontrols-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/openapi/gcp-cloud-storage-objectaccesscontrols-api-openapi.yml
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-objectaccesscontrols-api-openapi.yml
 - filename: gcp-cloud-storage-objects-api-openapi.yml
   format: yaml
   label: Google Cloud Storage Objects API
   slug: gcp-cloud-storage-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/openapi/gcp-cloud-storage-objects-api-openapi.yml
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-objects-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -72,7 +72,7 @@ source_filename: gcp-cloud-storage-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cloud.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: storage.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:41:23 2026 GMT\n  hsts: null\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/security/gcp-cloud-storage-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gcp-cloud-storage/security/gcp-cloud-storage-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Archival

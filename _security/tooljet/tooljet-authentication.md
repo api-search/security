@@ -7,25 +7,25 @@ api_specs:
   label: ToolJet Applications API
   slug: tooljet-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/openapi/tooljet-applications-api-openapi.yml
+  url: https://artifacts.apis.io/tooljet/openapi/tooljet-applications-api-openapi.yml
 - filename: tooljet-groups-api-openapi.yml
   format: yaml
   label: ToolJet Groups API
   slug: tooljet-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/openapi/tooljet-groups-api-openapi.yml
+  url: https://artifacts.apis.io/tooljet/openapi/tooljet-groups-api-openapi.yml
 - filename: tooljet-users-api-openapi.yml
   format: yaml
   label: ToolJet Users API
   slug: tooljet-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/openapi/tooljet-users-api-openapi.yml
+  url: https://artifacts.apis.io/tooljet/openapi/tooljet-users-api-openapi.yml
 - filename: tooljet-workspaces-api-openapi.yml
   format: yaml
   label: ToolJet Workspaces API
   slug: tooljet-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/openapi/tooljet-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/tooljet/openapi/tooljet-workspaces-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: tooljet-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tooljet-tooljet-external-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  description: Static access token configured via the TOOLJET_SERVICE_TOKEN environment variable.\n    Pass the token as the username with an empty password, encoded as Base64 in the Authorization\n    header.\n  sources:\n  - openapi/tooljet-tooljet-external-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/authentication/tooljet-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tooljet/authentication/tooljet-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Low-Code

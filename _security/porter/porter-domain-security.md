@@ -5,31 +5,31 @@ api_specs:
   label: Porter Bundles API
   slug: porter-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/openapi/porter-bundles-api-openapi.yml
+  url: https://artifacts.apis.io/porter/openapi/porter-bundles-api-openapi.yml
 - filename: porter-credentialsets-api-openapi.yml
   format: yaml
   label: Porter CredentialSets API
   slug: porter-credentialsets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/openapi/porter-credentialsets-api-openapi.yml
+  url: https://artifacts.apis.io/porter/openapi/porter-credentialsets-api-openapi.yml
 - filename: porter-installations-api-openapi.yml
   format: yaml
   label: Porter Installations API
   slug: porter-installations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/openapi/porter-installations-api-openapi.yml
+  url: https://artifacts.apis.io/porter/openapi/porter-installations-api-openapi.yml
 - filename: porter-parametersets-api-openapi.yml
   format: yaml
   label: Porter ParameterSets API
   slug: porter-parametersets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/openapi/porter-parametersets-api-openapi.yml
+  url: https://artifacts.apis.io/porter/openapi/porter-parametersets-api-openapi.yml
 - filename: porter-runs-api-openapi.yml
   format: yaml
   label: Porter Runs API
   slug: porter-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/openapi/porter-runs-api-openapi.yml
+  url: https://artifacts.apis.io/porter/openapi/porter-runs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: porter-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: porter.sh\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 19:17:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: porter.sh\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/security/porter-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/porter/security/porter-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Cloud-Native

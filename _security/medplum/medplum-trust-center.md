@@ -5,7 +5,7 @@ api_specs:
   label: Medplum Fhir API
   slug: medplum-fhir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/openapi/medplum-fhir-api-openapi.yml
+  url: https://artifacts.apis.io/medplum/openapi/medplum-fhir-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -25,7 +25,7 @@ source_filename: medplum-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: searched\nprobe: true\nsource: https://www.medplum.com/security\nurl: https://www.medplum.com/security\ncertifications:\n- SOC 2\n- HIPAA\n- GDPR\n- CSA STAR\nevidence:\n- source: https://www.medplum.com/security\n  keywords:\n  - soc 2\n  - hipaa\n  - compliance certification\n  - gdpr\n  - csa star\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/security/medplum-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/medplum/security/medplum-trust-center.yml
 summary_line: SOC 2, HIPAA, GDPR, CSA STAR
 tags:
 - Healthcare

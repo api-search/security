@@ -7,73 +7,73 @@ api_specs:
   label: Stream.Security Attack Paths API
   slug: stream-security-attack-paths-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stream-security/refs/heads/main/openapi/stream-security-attack-paths-api-openapi.yml
+  url: https://artifacts.apis.io/stream-security/openapi/stream-security-attack-paths-api-openapi.yml
 - filename: stream-security-canaries-api-openapi.yml
   format: yaml
   label: Stream.Security Canaries API
   slug: stream-security-canaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stream-security/refs/heads/main/openapi/stream-security-canaries-api-openapi.yml
+  url: https://artifacts.apis.io/stream-security/openapi/stream-security-canaries-api-openapi.yml
 - filename: stream-security-config-changes-api-openapi.yml
   format: yaml
   label: Stream.Security Config Changes API
   slug: stream-security-config-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stream-security/refs/heads/main/openapi/stream-security-config-changes-api-openapi.yml
+  url: https://artifacts.apis.io/stream-security/openapi/stream-security-config-changes-api-openapi.yml
 - filename: stream-security-detection-rules-api-openapi.yml
   format: yaml
   label: Stream.Security Detection Rules API
   slug: stream-security-detection-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stream-security/refs/heads/main/openapi/stream-security-detection-rules-api-openapi.yml
+  url: https://artifacts.apis.io/stream-security/openapi/stream-security-detection-rules-api-openapi.yml
 - filename: stream-security-integrations-api-openapi.yml
   format: yaml
   label: Stream.Security Integrations API
   slug: stream-security-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stream-security/refs/heads/main/openapi/stream-security-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/stream-security/openapi/stream-security-integrations-api-openapi.yml
 - filename: stream-security-inventory-api-openapi.yml
   format: yaml
   label: Stream.Security Inventory API
   slug: stream-security-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stream-security/refs/heads/main/openapi/stream-security-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/stream-security/openapi/stream-security-inventory-api-openapi.yml
 - filename: stream-security-network-identity-logs-api-openapi.yml
   format: yaml
   label: Stream.Security Network & Identity Logs API
   slug: stream-security-network-identity-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stream-security/refs/heads/main/openapi/stream-security-network-identity-logs-api-openapi.yml
+  url: https://artifacts.apis.io/stream-security/openapi/stream-security-network-identity-logs-api-openapi.yml
 - filename: stream-security-notifications-api-openapi.yml
   format: yaml
   label: Stream.Security Notifications API
   slug: stream-security-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stream-security/refs/heads/main/openapi/stream-security-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/stream-security/openapi/stream-security-notifications-api-openapi.yml
 - filename: stream-security-posture-security-api-openapi.yml
   format: yaml
   label: Stream.Security Posture Security API
   slug: stream-security-posture-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stream-security/refs/heads/main/openapi/stream-security-posture-security-api-openapi.yml
+  url: https://artifacts.apis.io/stream-security/openapi/stream-security-posture-security-api-openapi.yml
 - filename: stream-security-threat-detection-api-openapi.yml
   format: yaml
   label: Stream.Security Threat Detection API
   slug: stream-security-threat-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stream-security/refs/heads/main/openapi/stream-security-threat-detection-api-openapi.yml
+  url: https://artifacts.apis.io/stream-security/openapi/stream-security-threat-detection-api-openapi.yml
 - filename: stream-security-vulnerabilities-api-openapi.yml
   format: yaml
   label: Stream.Security Vulnerabilities API
   slug: stream-security-vulnerabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stream-security/refs/heads/main/openapi/stream-security-vulnerabilities-api-openapi.yml
+  url: https://artifacts.apis.io/stream-security/openapi/stream-security-vulnerabilities-api-openapi.yml
 - filename: stream-security-workspaces-api-openapi.yml
   format: yaml
   label: Stream.Security Workspaces API
   slug: stream-security-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stream-security/refs/heads/main/openapi/stream-security-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/stream-security/openapi/stream-security-workspaces-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -122,7 +122,7 @@ source_yaml: "generated: '2026-08-29'\nmethod: searched\nsource: openapi/stream-
   \ tokens, all workspaces) and Workspace Admins (their workspace only)\n    fields:\n    - name (required)\n    - description (optional)\n    - permission (Read & Write / Read Only - Read Only documented as \"supported soon\")\n    - scope (organization-wide or selected workspaces; Workspace Admins are limited to their own)\n    - expiration (1 day, 7 days, 30 days, 90 days, 1 year, or never)\n    disclosure: >-\n      The full token is displayed exactly once at creation and must be copied and stored securely.\n  lifecycle:\n    rotation: manual - no programmatic token-issuance or rotation endpoint exists in the API\n    revocation: >-\n      Immediate on admin action. Revoked tokens remain visible in the management view for 90 days.\n    automatic_revocation:\n    - When a user account is deactivated, all tokens they created are revoked and labelled as such.\n    - When a user is assigned a lower role, tokens exceeding the new role's permissions are revoked.\n    - When a user is assigned\
   \ a higher role, existing tokens remain active; new tokens reflect the\n      updated role.\ntenancy:\n  header: workspace\n  required: false\n  behaviour: >-\n    Requests default to the workspace bound to the token. A token with multi-workspace access\n    targets one by sending its ID in the `workspace` header.\n  discovery: GET /workspaces\n  docs: https://docs.streamsec.io/docs/how-to-get-your-workspace-id\n  mcp_divergence: >-\n    The MCP server uses the header name `customer` for the same workspace ID, and supports only one\n    workspace per token.\nscopes:\n  model: none\n  note: >-\n    No OAuth scopes. Authorization is a two-axis model - a coarse permission level (Read & Write /\n    Read Only) crossed with a workspace scope. Consequently no scopes/ artifact is emitted:\n    derive-oauth-scopes.py found no oauth2 securityScheme, which is the correct result rather than\n    a gap in the pass.\nerrors:\n  '401': Authorization not provided - missing, malformed or expired token.\n\
   \  '403': Insufficient access - authenticated but outside the token's permission level or workspace scope.\n  see: errors/stream-security-problem-types.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stream-security/refs/heads/main/authentication/stream-security-authentication.yml
+source_yaml_url: https://artifacts.apis.io/stream-security/authentication/stream-security-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

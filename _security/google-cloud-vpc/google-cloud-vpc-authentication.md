@@ -7,25 +7,25 @@ api_specs:
   label: Google Cloud VPC Firewalls API
   slug: google-cloud-vpc-firewalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vpc/refs/heads/main/openapi/google-cloud-vpc-firewalls-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-vpc/openapi/google-cloud-vpc-firewalls-api-openapi.yml
 - filename: google-cloud-vpc-networks-api-openapi.yml
   format: yaml
   label: Google Cloud VPC Networks API
   slug: google-cloud-vpc-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vpc/refs/heads/main/openapi/google-cloud-vpc-networks-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-vpc/openapi/google-cloud-vpc-networks-api-openapi.yml
 - filename: google-cloud-vpc-routes-api-openapi.yml
   format: yaml
   label: Google Cloud VPC Routes API
   slug: google-cloud-vpc-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vpc/refs/heads/main/openapi/google-cloud-vpc-routes-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-vpc/openapi/google-cloud-vpc-routes-api-openapi.yml
 - filename: google-cloud-vpc-subnetworks-api-openapi.yml
   format: yaml
   label: Google Cloud VPC Subnetworks API
   slug: google-cloud-vpc-subnetworks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vpc/refs/heads/main/openapi/google-cloud-vpc-subnetworks-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-vpc/openapi/google-cloud-vpc-subnetworks-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -56,7 +56,7 @@ source_filename: google-cloud-vpc-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 2\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vpc/refs/heads/main/authentication/google-cloud-vpc-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-vpc/authentication/google-cloud-vpc-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Firewall

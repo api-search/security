@@ -27,7 +27,7 @@ source_filename: mango-insurance-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: papaya.asia\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  8 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: papaya.asia\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mango-insurance/refs/heads/main/security/mango-insurance-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mango-insurance/security/mango-insurance-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

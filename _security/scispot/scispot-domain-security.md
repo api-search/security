@@ -5,31 +5,31 @@ api_specs:
   label: Scispot ELN API
   slug: scispot-eln-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/openapi/scispot-eln-api-openapi.yml
+  url: https://artifacts.apis.io/scispot/openapi/scispot-eln-api-openapi.yml
 - filename: scispot-labsheets-api-openapi.yml
   format: yaml
   label: Scispot Labsheets API
   slug: scispot-labsheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/openapi/scispot-labsheets-api-openapi.yml
+  url: https://artifacts.apis.io/scispot/openapi/scispot-labsheets-api-openapi.yml
 - filename: scispot-manifests-api-openapi.yml
   format: yaml
   label: Scispot Manifests API
   slug: scispot-manifests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/openapi/scispot-manifests-api-openapi.yml
+  url: https://artifacts.apis.io/scispot/openapi/scispot-manifests-api-openapi.yml
 - filename: scispot-samples-api-openapi.yml
   format: yaml
   label: Scispot Samples API
   slug: scispot-samples-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/openapi/scispot-samples-api-openapi.yml
+  url: https://artifacts.apis.io/scispot/openapi/scispot-samples-api-openapi.yml
 - filename: scispot-sequences-api-openapi.yml
   format: yaml
   label: Scispot Sequences API
   slug: scispot-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/openapi/scispot-sequences-api-openapi.yml
+  url: https://artifacts.apis.io/scispot/openapi/scispot-sequences-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -61,7 +61,7 @@ source_filename: scispot-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.scispot.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 10:52:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.scispot.com\n  https: false\ndomains:\n- domain: scispot.com\n  dnssec: true\n  caa:\n  - cdn.webflow.com.\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/security/scispot-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/scispot/security/scispot-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Laboratory

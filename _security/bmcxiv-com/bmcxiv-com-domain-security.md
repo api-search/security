@@ -5,19 +5,19 @@ api_specs:
   label: BMC XIV Discovery API
   slug: bmcxiv-com-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmcxiv-com/refs/heads/main/openapi/bmcxiv-com-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/bmcxiv-com/openapi/bmcxiv-com-discovery-api-openapi.yml
 - filename: bmcxiv-com-owner-verification-api-openapi.yml
   format: yaml
   label: BMC XIV Owner Verification API
   slug: bmcxiv-com-owner-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmcxiv-com/refs/heads/main/openapi/bmcxiv-com-owner-verification-api-openapi.yml
+  url: https://artifacts.apis.io/bmcxiv-com/openapi/bmcxiv-com-owner-verification-api-openapi.yml
 - filename: bmcxiv-com-paid-check-api-openapi.yml
   format: yaml
   label: BMC XIV Paid Check API
   slug: bmcxiv-com-paid-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmcxiv-com/refs/heads/main/openapi/bmcxiv-com-paid-check-api-openapi.yml
+  url: https://artifacts.apis.io/bmcxiv-com/openapi/bmcxiv-com-paid-check-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: bmcxiv-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bmcxiv.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 08:59:57 2026 GMT\n  hsts: null\n- host: breach402.bmcxiv.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 08:59:57 2026 GMT\n  hsts: false\ndomains:\n- domain: bmcxiv.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bmcxiv-com/refs/heads/main/security/bmcxiv-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bmcxiv-com/security/bmcxiv-com-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

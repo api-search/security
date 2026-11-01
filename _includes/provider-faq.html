@@ -1,0 +1,111 @@
+{%- comment -%}
+  PROVIDER FAQ + KIN SCORE REVIEW (2026-10-27). Search Console showed what people ask
+  Google about providers — "oxylabs login", "openstreetmap api pricing", "booksy api" — and
+  provider pages answered none of it in words. Each question renders ONLY when the page
+  holds the fact that answers it, and every answer is built from front matter: nothing is
+  inferred, and a provider with no data simply gets fewer questions (never a "no").
+
+  The visible <section> is what can rank; the FAQPage JSON-LD mirrors it exactly (Google
+  requires the marked-up Q&A to be visible on the page). Since 2023 Google only shows FAQ
+  rich results for authoritative government/health sites, so the markup is for AI answer
+  engines and page understanding, not a SERP accordion.
+
+  The Review block rates "<name> API" (a SoftwareApplication) with the Kin Score, authored
+  by API Evangelist — a third-party editorial review, which Google allows for software.
+  Skipped for apis-io and api-evangelist themselves (self-serving reviews are not allowed).
+  Never rendered for restricted companies: the include sits inside the restricted
+  short-circuit in provider.html.
+{%- endcomment -%}
+{%- assign _n = page.name -%}
+{%- assign _nd = _n | downcase -%}
+{%- capture _api_name -%}{{ _n }}{% unless _nd contains 'api' %} API{% endunless %}{%- endcapture -%}
+{%- assign _qs = "" | split: "" -%}
+{%- assign _as = "" | split: "" -%}
+
+{%- if page.apis.size > 0 -%}
+  {%- capture _q -%}Does {{ _n }} have an API?{%- endcapture -%}
+  {%- capture _a -%}Yes. APIs.io lists {{ page.apis.size }} API{% if page.apis.size != 1 %}s{% endif %} from {{ _n }}{% assign _f = page.apis | slice: 0, 3 %}, including {% for x in _f %}{{ x.name }}{% unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endunless %}{% endfor %}{% if page.apis.size > 3 %}, and {{ page.apis.size | minus: 3 }} more{% endif %}.{%- endcapture -%}
+  {%- assign _qs = _qs | push: _q -%}{%- assign _as = _as | push: _a -%}
+{%- endif -%}
+
+{%- assign _oas = page.api_specs | where: "spec_type", "OpenAPI" -%}
+{%- if _oas.size > 0 -%}
+  {%- capture _q -%}Is there an OpenAPI specification for the {{ _api_name }}?{%- endcapture -%}
+  {%- capture _a -%}Yes. APIs.io indexes {{ _oas.size }} OpenAPI specification{% if _oas.size != 1 %}s{% endif %} for {{ _n }}, each linked for download from this page.{%- endcapture -%}
+  {%- assign _qs = _qs | push: _q -%}{%- assign _as = _as | push: _a -%}
+{%- endif -%}
+
+{%- assign _auth = page.security | where: "kind", "authentication" | first -%}
+{%- assign _ac = page.agent_readiness.dimensions.auth_clarity -%}
+{%- if _auth or _ac == "bearer" -%}
+  {%- capture _q -%}How do I authenticate with the {{ _api_name }}?{%- endcapture -%}
+  {%- capture _a -%}{% if _ac == "bearer" %}{{ _n }} uses bearer-token authentication{% else %}{{ _n }} documents its authentication{% endif %}{% if _auth.summary_line %} ({{ _auth.summary_line }}){% endif %}. {% if _auth %}The details are profiled on APIs.io as {{ _auth.name }}.{% endif %}{%- endcapture -%}
+  {%- assign _qs = _qs | push: _q -%}{%- assign _as = _as | push: _a -%}
+{%- endif -%}
+
+{%- comment -%} Plan COUNT only. access_model.label is not stated: it called OpenStreetMap
+  "Paid" and Wikidata "Freemium" at confidence high (2026-10-27) — an FAQ answer would hand
+  that error to Google verbatim. {%- endcomment -%}
+{%- assign _pc = 0 -%}{%- for p in page.plans -%}{%- assign _pc = _pc | plus: p.plan_count -%}{%- endfor -%}
+{%- if _pc > 0 -%}
+  {%- capture _q -%}How much does the {{ _api_name }} cost?{%- endcapture -%}
+  {%- capture _a -%}APIs.io lists {{ _pc }} pricing plan{% if _pc != 1 %}s{% endif %} for {{ _n }}, with each plan's price, limits and inclusions under Pricing Plans on this page.{%- endcapture -%}
+  {%- assign _qs = _qs | push: _q -%}{%- assign _as = _as | push: _a -%}
+{%- endif -%}
+
+{%- if page.mcp_servers.size > 0 -%}
+  {%- assign _md = page.mcp_servers | map: "description" | compact | where_exp: "d", "d != ''" | first -%}
+  {%- capture _q -%}Does {{ _n }} have an MCP server?{%- endcapture -%}
+  {%- capture _a -%}Yes. APIs.io lists {{ page.mcp_servers.size }} MCP server{% if page.mcp_servers.size != 1 %}s{% endif %} for {{ _n }}{% if _md %}: {{ _md }}{% else %}.{% endif %}{%- endcapture -%}
+  {%- assign _qs = _qs | push: _q -%}{%- assign _as = _as | push: _a -%}
+{%- endif -%}
+
+{%- if page.score.composite -%}
+  {%- capture _q -%}Is the {{ _api_name }} ready for AI agents?{%- endcapture -%}
+  {%- capture _a -%}{{ _n }} has a Kin Score of {{ page.score.composite }} out of 100 ({{ page.score.band }}){% if page.agent_readiness.score %} and an Agent Readiness score of {{ page.agent_readiness.score }} ({{ page.agent_readiness.band }}){% endif %}, scored by API Evangelist on {{ page.score.scored_at }}.{%- endcapture -%}
+  {%- assign _qs = _qs | push: _q -%}{%- assign _as = _as | push: _a -%}
+{%- endif -%}
+
+{%- if _qs.size > 1 -%}
+<section class="provider-faq" id="faq" style="margin:2rem 0">
+  <h2>{{ _api_name }} — frequently asked questions</h2>
+  {%- for q in _qs %}
+  <h3 style="font-size:1.05rem;margin:1.1rem 0 .3rem">{{ q }}</h3>
+  <p style="margin:0">{{ _as[forloop.index0] }}</p>
+  {%- endfor %}
+</section>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {%- for q in _qs %}
+    {"@type": "Question", "name": {{ q | jsonify }}, "acceptedAnswer": {"@type": "Answer", "text": {{ _as[forloop.index0] | jsonify }}}}{% unless forloop.last %},{% endunless %}
+    {%- endfor %}
+  ]
+}
+</script>
+{%- endif -%}
+
+{%- if page.score.composite and page.slug != "apis-io" and page.slug != "api-evangelist" -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": {{ _api_name | jsonify }},
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Web",
+  "url": {{ page.url | prepend: "https://apis.io" | jsonify }}
+  {%- if page.website %}, "sameAs": {{ page.website | jsonify }}{% endif %},
+  "publisher": {"@type": "Organization", "name": {{ _n | jsonify }}},
+  "review": {
+    "@type": "Review",
+    "name": {{ _n | append: " Kin Score" | jsonify }},
+    "author": {"@type": "Organization", "name": "API Evangelist", "url": "https://apievangelist.com"},
+    {%- if page.score.scored_at %}"datePublished": {{ page.score.scored_at | jsonify }},{% endif %}
+    "reviewBody": {{ _n | append: " scores " | append: page.score.composite | append: " of 100 (" | append: page.score.band | append: ") on the Kin Score, API Evangelist's rubric for API discoverability, contract quality, governance, operational transparency, developer ergonomics and access clarity." | jsonify }},
+    "reviewRating": {"@type": "Rating", "ratingValue": {{ page.score.composite | jsonify }}, "bestRating": 100, "worstRating": 0}
+  }
+}
+</script>
+{%- endif -%}

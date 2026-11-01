@@ -7,13 +7,13 @@ api_specs:
   label: ATCO Query API
   slug: atco-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atco/refs/heads/main/openapi/atco-query-api-openapi.yml
+  url: https://artifacts.apis.io/atco/openapi/atco-query-api-openapi.yml
 - filename: atco-service-api-openapi.yml
   format: yaml
   label: ATCO Service API
   slug: atco-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atco/refs/heads/main/openapi/atco-service-api-openapi.yml
+  url: https://artifacts.apis.io/atco/openapi/atco-service-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -36,7 +36,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: >-\n  Live anon
   \ for an unauthenticated request. A GET against\n    /FeatureServer/0/query?where=1=1&returnCountOnly=true&f=json returned {\"count\":880623} with\n    no credential of any kind on 2026-07-27.\n  signup_required: false\n  api_key_required: false\n  oauth2: false\n  openid_connect: false\n  mutual_tls: false\n  referer_check: false\n  licence_click_through: false\n  cors:\n    access_control_allow_origin: '*'\n    note: >-\n      The service returns a wildcard CORS header, so it is directly callable from browser\n      JavaScript with no proxy.\nupstream_token_service:\n  note: >-\n    The ArcGIS platform underneath does support token-based security — /arcgis/rest/info reports\n    isTokenBasedSecurity true with tokenServicesUrl https://www.arcgis.com/sharing/generateToken.\n    That is the Esri ArcGIS Online platform capability, not something ATCO has enabled on this\n    service. The AGO_HostingCapacity service item is shared publicly (access \"public\"), so no\n    token is used.\n \
   \ rest_info: https://services7.arcgis.com/cw2emabghNLkoYlB/arcgis/rest/info?f=json\n  token_services_url: https://www.arcgis.com/sharing/generateToken\nconsumer_data_auth:\n  available: false\n  note: >-\n    There is no machine authentication path to a customer's own energy usage or billing data.\n    ATCO Energy routes My Account (https://myaccount.atcoenergy.com, HTTP 301) to\n    https://store.atco.com/ccrz__CCSiteLogin, a Salesforce CloudCraze human commerce login. No\n    OAuth authorization server, no consent flow, no third-party onboarding and no client\n    registration exists. /.well-known/openid-configuration returns 404 on every ATCO host.\ndiscovery_probes:\n- url: https://www.atco.com/.well-known/openid-configuration\n  status: 404\n- url: https://www.atcoenergy.com/.well-known/openid-configuration\n  status: 404\n- url: https://electric.atco.com/.well-known/openid-configuration\n  status: 404\n- url: https://gas.atco.com/.well-known/openid-configuration\n  status: 404\n\
   - url: https://services7.arcgis.com/.well-known/oauth-authorization-server\n  status: 403\nrelated:\n- scopes/: not applicable — no OAuth surface exists, so no scope artifact is emitted\n- conventions/atco-conventions.yml\n- security/atco-domain-security.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atco/refs/heads/main/authentication/atco-authentication.yml
+source_yaml_url: https://artifacts.apis.io/atco/authentication/atco-authentication.yml
 summary_line: 0 schemes
 tags:
 - Energy

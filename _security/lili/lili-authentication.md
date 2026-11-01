@@ -8,7 +8,7 @@ api_specs:
   label: Lili API
   slug: lili-lili-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/openapi/lili-lili-api-openapi.yml
+  url: https://artifacts.apis.io/lili/openapi/lili-lili-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-08-25'\nmethod: searched\nsource: https://dev.lil
   \    Authorization: Lili accessKey:secretKey\n  example_from_docs: 'curl -X GET https://prod.lili.co/lili/api/v1/webhooks -H \"Authorization: Lili accessKey:secretKey\"'\n  issuance:\n    self_serve: false\n    process: Contact dev-resources@lili.co. Lili issues an access/secret key pair per environment on account creation.\n    environments: [sandbox, production]\n    key_prefix_convention: none\n    key_prefix_note: >-\n      There is no test/live prefix. A sandbox key and a production key are indistinguishable by\n      inspection, so environment binding has to be enforced by the integrator's own configuration.\n  rotation_policy: not published\n  applies_to:\n  - openapi/lili-application-api-openapi.yml\n  - openapi/lili-customer-management-api-openapi.yml\n  - openapi/lili-webhooks-api-openapi.yml\n  operations: all\n  scopes: none\n- name: mcp-oauth2\n  surface: MCP\n  type: oauth2\n  flow: authorization_code\n  pkce: S256\n  issuer: https://mcp.lili.co\n  authorization_endpoint:\
   \ https://mcp.lili.co/oauth/authorize\n  token_endpoint: https://mcp.lili.co/oauth/token\n  revocation_endpoint: https://mcp.lili.co/oauth/revoke\n  registration_endpoint: https://mcp.lili.co/oauth/register\n  dynamic_client_registration: true\n  token_endpoint_auth_methods_supported: [none]\n  bearer_methods_supported: [header]\n  grant_types: [authorization_code, refresh_token]\n  refresh_tokens: true\n  scopes: none\n  scopes_note: The authorization-server metadata declares no scopes_supported. See scopes/lili-scopes.yml.\n  subject: >-\n    Tokens are scoped to the authenticated Lili user. Differentiation is by USER TYPE (business\n    owner vs accountant), enforced server-side, not by scope.\n  discovery:\n  - well-known/lili-mcp-oauth-authorization-server.json\n  - well-known/lili-mcp-oauth-protected-resource.json\n  applies_to:\n  - https://mcp.lili.co/mcp\nwebhook_authentication:\n  direction: inbound-to-partner\n  v2: 'Authorization: Bearer <token issued at webhook creation>'\n\
   \  v1: 'lili-secret: <token issued at webhook creation>  (deprecated)'\n  ip_allowlist_published: true\n  signature: none\n  detail: asyncapi/lili-webhooks.yml\nembedded_authentication:\n  mechanism: JWT\n  detail: >-\n    The Create Application response returns a `token` (JWT) that is passed to the embedded\n    onboarding loader as `data-token`. It authorises exactly one applicant's onboarding session.\n  detail_file: components/lili-components.yml\nmfa: not applicable to the API surfaces\nmtls: false\nopenid_connect: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/authentication/lili-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lili/authentication/lili-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Banking

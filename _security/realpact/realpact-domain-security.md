@@ -27,7 +27,7 @@ source_filename: realpact-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: realpact.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 16:23:21 2026 GMT\n  hsts: false\ndomains:\n- domain: realpact.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/realpact/refs/heads/main/security/realpact-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/realpact/security/realpact-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

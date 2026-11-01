@@ -5,49 +5,49 @@ api_specs:
   label: AI Squared Catalogs API
   slug: ai-squared-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/openapi/ai-squared-catalogs-api-openapi.yml
+  url: https://artifacts.apis.io/ai-squared/openapi/ai-squared-catalogs-api-openapi.yml
 - filename: ai-squared-connector-definitions-api-openapi.yml
   format: yaml
   label: AI Squared Connector Definitions API
   slug: ai-squared-connector-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/openapi/ai-squared-connector-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/ai-squared/openapi/ai-squared-connector-definitions-api-openapi.yml
 - filename: ai-squared-connectors-api-openapi.yml
   format: yaml
   label: AI Squared Connectors API
   slug: ai-squared-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/openapi/ai-squared-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/ai-squared/openapi/ai-squared-connectors-api-openapi.yml
 - filename: ai-squared-models-api-openapi.yml
   format: yaml
   label: AI Squared Models API
   slug: ai-squared-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/openapi/ai-squared-models-api-openapi.yml
+  url: https://artifacts.apis.io/ai-squared/openapi/ai-squared-models-api-openapi.yml
 - filename: ai-squared-syncrecords-api-openapi.yml
   format: yaml
   label: AI Squared Sync Records API
   slug: ai-squared-syncrecords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/openapi/ai-squared-syncrecords-api-openapi.yml
+  url: https://artifacts.apis.io/ai-squared/openapi/ai-squared-syncrecords-api-openapi.yml
 - filename: ai-squared-syncrun-api-openapi.yml
   format: yaml
   label: AI Squared Sync Run API
   slug: ai-squared-syncrun-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/openapi/ai-squared-syncrun-api-openapi.yml
+  url: https://artifacts.apis.io/ai-squared/openapi/ai-squared-syncrun-api-openapi.yml
 - filename: ai-squared-syncruns-api-openapi.yml
   format: yaml
   label: AI Squared Sync Runs API
   slug: ai-squared-syncruns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/openapi/ai-squared-syncruns-api-openapi.yml
+  url: https://artifacts.apis.io/ai-squared/openapi/ai-squared-syncruns-api-openapi.yml
 - filename: ai-squared-syncs-api-openapi.yml
   format: yaml
   label: AI Squared Syncs API
   slug: ai-squared-syncs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/openapi/ai-squared-syncs-api-openapi.yml
+  url: https://artifacts.apis.io/ai-squared/openapi/ai-squared-syncs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -99,7 +99,7 @@ source_filename: ai-squared-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aisquared.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 17:24:43 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.squared.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 14:44:42 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.squared.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 18:37:38 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: aisquared.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: squared.ai\n  dnssec: false\n  caa:\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/security/ai-squared-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ai-squared/security/ai-squared-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data Integration

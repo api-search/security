@@ -37,7 +37,7 @@ source_filename: petco-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.petco.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 09:05:35 2026 GMT\n  hsts: null\n- host: developer.petco.com\n  https: false\n- host: api.petco.com\n  https: false\ndomains:\n- domain: petco.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/petco/refs/heads/main/security/petco-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/petco/security/petco-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Pet Care

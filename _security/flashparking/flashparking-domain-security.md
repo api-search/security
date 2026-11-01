@@ -40,7 +40,7 @@ source_filename: flashparking-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-16'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.flashparking.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  5 23:11:43 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: help.flashos.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 18:55:16 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: flashparking.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: flashos.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flashparking/refs/heads/main/security/flashparking-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/flashparking/security/flashparking-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

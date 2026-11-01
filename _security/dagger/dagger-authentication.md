@@ -7,7 +7,7 @@ api_specs:
   label: Dagger Graph QL API
   slug: dagger-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/openapi/dagger-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/dagger/openapi/dagger-graph-ql-api-openapi.yml
 auth_types:
 - http
 - oidc
@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-09-07'\nmethod: searched\nsource: >-\n  https://d
   \  lifetime: single session\n  rotation: automatic — a new token is minted for every session\n  docs_quote: >-\n    \"Dagger protects the exposed API with an HTTP Basic authentication token which\n    can be retrieved from the DAGGER_SESSION_TOKEN variable. Treat the\n    DAGGER_SESSION_TOKEN value as you would any other sensitive credential.\"\n  example: |-\n    curl -s \\\n      -u $DAGGER_SESSION_TOKEN: \\\n      -H \"content-type:application/json\" \\\n      -d @- \\\n      http://127.0.0.1:$DAGGER_SESSION_PORT/query\n  sources:\n  - openapi/dagger-graphql-api-openapi.yml\n  - https://docs.dagger.io/0.21/getting-started/api/http/\n- name: DaggerCloudToken\n  type: apiKey\n  in: environment\n  surface: Dagger Cloud\n  description: >-\n    Dagger Cloud telemetry upload is authenticated with a token supplied in the\n    DAGGER_CLOUD_TOKEN environment variable. Documented for Kubernetes as a\n    secret named `dagger-cloud` holding that value.\n  credential_source: DAGGER_CLOUD_TOKEN\
   \ environment variable\n  sources:\n  - https://docs.dagger.io/configuration/cloud/\n- name: DaggerCloudOIDC\n  type: openIdConnect\n  surface: Dagger Cloud (api.dagger.cloud)\n  description: >-\n    api.dagger.cloud publishes an OIDC discovery document. It advertises id_token\n    issuance only — issuer https://api.dagger.cloud, jwks_uri\n    https://api.dagger.cloud/jwks (200, one RS256 RSA key),\n    response_types_supported [id_token], subject_types_supported [public] — with\n    no authorization_endpoint, token_endpoint or scopes_supported. It is an\n    identity-token issuer for verifying Dagger Cloud workload identity, not an\n    OP an application runs an authorization code flow against.\n  discovery: https://api.dagger.cloud/.well-known/openid-configuration\n  probed: '2026-09-07'\n  http_status: 200\n  artifact: well-known/dagger-openid-configuration.json\nscopes:\n  published: false\n  note: >-\n    No OAuth 2.0 scopes exist. There is no oauth2 securityScheme in the contract\n\
   \    and /.well-known/oauth-authorization-server returns 404 on every Dagger host\n    probed. Authorization on the engine is all-or-nothing per session; the real\n    access control is the sandbox — a function reaches only the Directory,\n    Socket, Service and Secret values explicitly passed to it\n    (https://docs.dagger.io/features/security/).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/authentication/dagger-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dagger/authentication/dagger-authentication.yml
 summary_line: http/oidc · 3 schemes
 tags:
 - Build Automation

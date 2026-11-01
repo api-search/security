@@ -5,7 +5,7 @@ api_specs:
   label: PortX ORCA (Open Reusable Core API)
   slug: portx-orca-open-reusable-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modusbox/refs/heads/main/openapi/modusbox-orca-contract-notice.yml
+  url: https://artifacts.apis.io/modusbox/openapi/modusbox-orca-contract-notice.yml
 description: ''
 domains:
 - caa: []
@@ -43,7 +43,7 @@ source_filename: modusbox-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: portx.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 15:04:00 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: orca-docs.portx.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 06:25:18 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n- host: api.portx.io\n  https: false\ndomains:\n- domain: portx.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/modusbox/refs/heads/main/security/modusbox-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/modusbox/security/modusbox-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

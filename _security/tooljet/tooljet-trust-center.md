@@ -5,25 +5,25 @@ api_specs:
   label: ToolJet Applications API
   slug: tooljet-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/openapi/tooljet-applications-api-openapi.yml
+  url: https://artifacts.apis.io/tooljet/openapi/tooljet-applications-api-openapi.yml
 - filename: tooljet-groups-api-openapi.yml
   format: yaml
   label: ToolJet Groups API
   slug: tooljet-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/openapi/tooljet-groups-api-openapi.yml
+  url: https://artifacts.apis.io/tooljet/openapi/tooljet-groups-api-openapi.yml
 - filename: tooljet-users-api-openapi.yml
   format: yaml
   label: ToolJet Users API
   slug: tooljet-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/openapi/tooljet-users-api-openapi.yml
+  url: https://artifacts.apis.io/tooljet/openapi/tooljet-users-api-openapi.yml
 - filename: tooljet-workspaces-api-openapi.yml
   format: yaml
   label: ToolJet Workspaces API
   slug: tooljet-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/openapi/tooljet-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/tooljet/openapi/tooljet-workspaces-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -42,7 +42,7 @@ source_filename: tooljet-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.tooljet.com/\nurl: https://trust.tooljet.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://trust.tooljet.com/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/security/tooljet-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/tooljet/security/tooljet-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Low-Code

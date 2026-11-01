@@ -7,7 +7,7 @@ api_specs:
   label: Turntide Technologies Website (WordPress REST)
   slug: turntide-com-website-wordpress-rest
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/openapi/turntide-technologies-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/turntide-technologies/openapi/turntide-technologies-mcp-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -48,7 +48,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: searched\nsource: openapi/turntide-technologies-wordpress-rest-openapi.yml\ndocs: https://turntide.com/.well-known/oauth-authorization-server\nx-evidence:\n  fetched: '2026-08-02'\n  application_passwords: >-\n    advertised at https://turntide.com/wp-json/ under authentication.application-passwords\n    (HTTP 200); authorize endpoint https://turntide.com/wp-admin/authorize-application.php\n  oauth2: >-\n    RFC 8414 metadata at https://turntide.com/.well-known/oauth-authorization-server (HTTP 200):\n    authorization code + refresh_token grants, PKCE S256 required, public clients\n    (token_endpoint_auth_methods_supported [\"none\"]), client_id_metadata_document_supported true,\n    revocation endpoint https://turntide.com/oauth/revoke\n  observed_401s:\n  - {url: 'https://turntide.com/wp-json/wp-abilities/v1/abilities', code: rest_forbidden, status: 401}\n  - {url: 'https://turntide.com/wp-json/mcp/mcp-oauth-server', code: mcp_unauthorized,\
   \ status: 401}\n  anonymous_read: 'wp/v2 published content collections read without credentials (HTTP 200)'\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: applicationPassword\n  type: http\n  scheme: basic\n  description: WordPress Application Passwords, advertised by the route index at https://turntide.com/wp-json/\n    under authentication.application-passwords; authorization endpoint https://turntide.com/wp-admin/authorize-application.php\n  sources:\n  - openapi/turntide-technologies-wordpress-rest-openapi.yml\n- name: mcpOAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://turntide.com/oauth/authorize\n    tokenUrl: https://turntide.com/oauth/token\n    scopes: 1\n  description: OAuth 2.1 authorization server advertised at https://turntide.com/.well-known/oauth-authorization-server\n    (PKCE S256, scope 'mcp'); protects the MCP endpoint declared at https://turntide.com/.well-known/oauth-protected-resource\n\
   \  sources:\n  - openapi/turntide-technologies-wordpress-rest-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/authentication/turntide-technologies-authentication.yml
+source_yaml_url: https://artifacts.apis.io/turntide-technologies/authentication/turntide-technologies-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

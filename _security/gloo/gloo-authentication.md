@@ -8,49 +8,49 @@ api_specs:
   label: Gloo API Products API
   slug: gloo-api-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gloo/refs/heads/main/openapi/gloo-api-products-api-openapi.yml
+  url: https://artifacts.apis.io/gloo/openapi/gloo-api-products-api-openapi.yml
 - filename: gloo-applications-api-openapi.yml
   format: yaml
   label: Gloo Applications API
   slug: gloo-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gloo/refs/heads/main/openapi/gloo-applications-api-openapi.yml
+  url: https://artifacts.apis.io/gloo/openapi/gloo-applications-api-openapi.yml
 - filename: gloo-me-api-openapi.yml
   format: yaml
   label: Gloo Me API
   slug: gloo-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gloo/refs/heads/main/openapi/gloo-me-api-openapi.yml
+  url: https://artifacts.apis.io/gloo/openapi/gloo-me-api-openapi.yml
 - filename: gloo-subscriptions-api-openapi.yml
   format: yaml
   label: Gloo Subscriptions API
   slug: gloo-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gloo/refs/heads/main/openapi/gloo-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/gloo/openapi/gloo-subscriptions-api-openapi.yml
 - filename: gloo-teams-api-openapi.yml
   format: yaml
   label: Gloo Teams API
   slug: gloo-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gloo/refs/heads/main/openapi/gloo-teams-api-openapi.yml
+  url: https://artifacts.apis.io/gloo/openapi/gloo-teams-api-openapi.yml
 - filename: gloo-user-api-openapi.yml
   format: yaml
   label: Gloo User API
   slug: gloo-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gloo/refs/heads/main/openapi/gloo-user-api-openapi.yml
+  url: https://artifacts.apis.io/gloo/openapi/gloo-user-api-openapi.yml
 - filename: gloo-webhooks-api-openapi.yml
   format: yaml
   label: Gloo Webhooks API
   slug: gloo-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gloo/refs/heads/main/openapi/gloo-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/gloo/openapi/gloo-webhooks-api-openapi.yml
 - filename: gloo-apis-api-openapi.yml
   format: yaml
   label: Gloo APIs API
   slug: gloo-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gloo/refs/heads/main/openapi/gloo-apis-api-openapi.yml
+  url: https://artifacts.apis.io/gloo/openapi/gloo-apis-api-openapi.yml
 auth_types:
 - apiKey
 description: 'Gloo''s callable HTTP surface is the Gloo Portal server API (and its Gloo Platform predecessor). Both authenticate the CALLER as a developer-portal end user with an OIDC id token carried in a cookie — they do NOT use a bearer API key of their own. The API keys and OAuth client credentials these endpoints mint are credentials for the APIs the portal fronts, not for the portal API itself. The Gloo Portal IdP Connect API and the AI Gateway guardrail webhook publish no securityScheme at all: IdP Connect takes an optional `token` header naming the originating user and is expected to run inside the cluster, and the guardrail webhook is an endpoint the operator implements and protects themselves.'
@@ -107,7 +107,7 @@ source_yaml: "generated: '2026-09-12'\nmethod: searched\nsource: >-\n  Derived f
   \    parameter: id_token\n    description: id token cookie from the identity provider used to authenticate the user\n    sources:\n      - openapi/gloo-portal-server-openapi.yaml\n      - openapi/gloo-platform-portal-openapi.yaml\n    applies_to:\n      - gloo:gloo-portal\n      - gloo:gloo-mesh\n    failure_modes:\n      - status: 401\n        meaning: The user's identity token is invalid.\n      - status: 403\n        meaning: The identity token is valid but the user is missing claims or permission for this operation.\n  - name: token\n    type: header\n    in: header\n    parameter: token\n    description: >-\n      Token of origin user invoking the request. Declared as an optional header parameter on\n      both Gloo Portal IdP Connect operations rather than as a securityScheme.\n    sources:\n      - openapi/gloo-portal-idp-connect-openapi.yaml\n    applies_to:\n      - gloo:gloo-portal\n  - name: none\n    type: none\n    description: >-\n      The AI Gateway guardrail webhook contract\
   \ declares no security scheme. It describes an\n      endpoint the OPERATOR stands up and that kgateway / agentgateway / Gloo Gateway calls;\n      protecting it is the operator's responsibility.\n    sources:\n      - openapi/gloo-ai-gateway-guardrail-webhook-openapi.yaml\n    applies_to:\n      - gloo:gloo-gateway\ncredentials_minted_by_the_api:\n  - kind: API key\n    operations:\n      - CreateApplicationAPIKey\n      - ListApplicationAPIKeys\n      - DeleteAPIKey\n    note: >-\n      The plaintext key is returned only once, at creation. The APIKey schema says so\n      explicitly (\"Is returned only once when the API key is created\"). There is no\n      retrieve-key-again operation; a lost key must be deleted and re-issued.\n  - kind: OAuth2 client credentials\n    operations:\n      - GenerateApplicationOAuthCredential\n      - GetApplicationOAuthCredential\n      - DeleteOAuthCredential\n      - CreateOAuthApplication\n      - DeleteOAuthApplication\n    note: >-\n      Client\
   \ secrets are shown once at creation and are NOT stored in the Portal database —\n      Solo's own spec says an administrator must retrieve a lost secret from the OIDC provider.\n      CreateOAuthApplication / DeleteOAuthApplication live in the separate IdP Connect service.\ndocs_pages:\n  - url: https://docs.solo.io/gateway/latest/portal/guides/frontend-portal/credential-management/\n    status: 200\n    covers: API key and OAuth credential management for portal consumers\n  - url: https://docs.solo.io/gateway/latest/portal/guides/frontend-portal/credential-management/oauth/\n    status: 200\n    covers: OAuth credential provisioning through Gloo Portal IdP Connect\n  - url: https://docs.solo.io/gateway/latest/security/\n    status: 200\n    covers: Gateway-level authentication and authorization policy (OIDC, JWT, ext-auth, API key)\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gloo/refs/heads/main/authentication/gloo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gloo/authentication/gloo-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - API Gateway

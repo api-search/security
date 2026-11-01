@@ -5,31 +5,31 @@ api_specs:
   label: Solscan Account API
   slug: solscan-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solscan/refs/heads/main/openapi/solscan-account-api-openapi.yml
+  url: https://artifacts.apis.io/solscan/openapi/solscan-account-api-openapi.yml
 - filename: solscan-block-api-openapi.yml
   format: yaml
   label: Solscan Block API
   slug: solscan-block-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solscan/refs/heads/main/openapi/solscan-block-api-openapi.yml
+  url: https://artifacts.apis.io/solscan/openapi/solscan-block-api-openapi.yml
 - filename: solscan-nft-api-openapi.yml
   format: yaml
   label: Solscan NFT API
   slug: solscan-nft-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solscan/refs/heads/main/openapi/solscan-nft-api-openapi.yml
+  url: https://artifacts.apis.io/solscan/openapi/solscan-nft-api-openapi.yml
 - filename: solscan-token-api-openapi.yml
   format: yaml
   label: Solscan Token API
   slug: solscan-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solscan/refs/heads/main/openapi/solscan-token-api-openapi.yml
+  url: https://artifacts.apis.io/solscan/openapi/solscan-token-api-openapi.yml
 - filename: solscan-transaction-api-openapi.yml
   format: yaml
   label: Solscan Transaction API
   slug: solscan-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solscan/refs/heads/main/openapi/solscan-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/solscan/openapi/solscan-transaction-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: solscan-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: solscan.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 01:57:11 2026 GMT\n  hsts: null\n- host: docs.solscan.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 06:41:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: public-api.solscan.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 01:57:11 2026 GMT\n  hsts: false\ndomains:\n- domain: solscan.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/solscan/refs/heads/main/security/solscan-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/solscan/security/solscan-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Web3

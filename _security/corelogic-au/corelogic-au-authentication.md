@@ -7,61 +7,61 @@ api_specs:
   label: CoreLogic Australia Access API
   slug: corelogic-au-access-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/corelogic-au/refs/heads/main/collections/corelogic-au-rp-inside-auth-example.postman_collection.json
+  url: https://artifacts.apis.io/corelogic-au/collections/corelogic-au-rp-inside-auth-example.postman_collection.json
 - filename: corelogic-au-sample-sandbox.postman_collection.json
   format: json
   label: CoreLogic Australia Property Details API
   slug: corelogic-au-property-details-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/corelogic-au/refs/heads/main/collections/corelogic-au-sample-sandbox.postman_collection.json
+  url: https://artifacts.apis.io/corelogic-au/collections/corelogic-au-sample-sandbox.postman_collection.json
 - filename: corelogic-au-sample-sandbox.postman_collection.json
   format: json
   label: CoreLogic Australia Property Services API
   slug: corelogic-au-property-services-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/corelogic-au/refs/heads/main/collections/corelogic-au-sample-sandbox.postman_collection.json
+  url: https://artifacts.apis.io/corelogic-au/collections/corelogic-au-sample-sandbox.postman_collection.json
 - filename: corelogic-au-sample-sandbox.postman_collection.json
   format: json
   label: CoreLogic Australia Search API
   slug: corelogic-au-search-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/corelogic-au/refs/heads/main/collections/corelogic-au-sample-sandbox.postman_collection.json
+  url: https://artifacts.apis.io/corelogic-au/collections/corelogic-au-sample-sandbox.postman_collection.json
 - filename: corelogic-au-sample-sandbox.postman_collection.json
   format: json
   label: CoreLogic Australia AVM API
   slug: corelogic-au-avm-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/corelogic-au/refs/heads/main/collections/corelogic-au-sample-sandbox.postman_collection.json
+  url: https://artifacts.apis.io/corelogic-au/collections/corelogic-au-sample-sandbox.postman_collection.json
 - filename: corelogic-au-sample-sandbox.postman_collection.json
   format: json
   label: CoreLogic Australia Auction API
   slug: corelogic-au-auction-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/corelogic-au/refs/heads/main/collections/corelogic-au-sample-sandbox.postman_collection.json
+  url: https://artifacts.apis.io/corelogic-au/collections/corelogic-au-sample-sandbox.postman_collection.json
 - filename: corelogic-au-sample-sandbox.postman_collection.json
   format: json
   label: CoreLogic Australia Statistics API
   slug: corelogic-au-statistics-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/corelogic-au/refs/heads/main/collections/corelogic-au-sample-sandbox.postman_collection.json
+  url: https://artifacts.apis.io/corelogic-au/collections/corelogic-au-sample-sandbox.postman_collection.json
 - filename: corelogic-au-sample-sandbox.postman_collection.json
   format: json
   label: CoreLogic Australia Charts API
   slug: corelogic-au-charts-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/corelogic-au/refs/heads/main/collections/corelogic-au-sample-sandbox.postman_collection.json
+  url: https://artifacts.apis.io/corelogic-au/collections/corelogic-au-sample-sandbox.postman_collection.json
 - filename: corelogic-au-sample-sandbox.postman_collection.json
   format: json
   label: CoreLogic Australia Property Timeline API
   slug: corelogic-au-property-timeline-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/corelogic-au/refs/heads/main/collections/corelogic-au-sample-sandbox.postman_collection.json
+  url: https://artifacts.apis.io/corelogic-au/collections/corelogic-au-sample-sandbox.postman_collection.json
 - filename: corelogic-au-sample-sandbox.postman_collection.json
   format: json
   label: CoreLogic Australia Content API
   slug: corelogic-au-content-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/corelogic-au/refs/heads/main/collections/corelogic-au-sample-sandbox.postman_collection.json
+  url: https://artifacts.apis.io/corelogic-au/collections/corelogic-au-sample-sandbox.postman_collection.json
 auth_types:
 - oauth2
 - openIdConnect
@@ -175,7 +175,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: >-\n  https://d
   \ here are\n    portal identity scopes only.\n  endpoints:\n    authorization: https://auth.corelogic.asia/as/authorization.oauth2\n    token: https://auth.corelogic.asia/as/token.oauth2\n    userinfo: https://auth.corelogic.asia/idp/userinfo.openid\n    jwks: https://auth.corelogic.asia/pf/JWKS\n    registration: https://auth.corelogic.asia/as/clients.oauth2\n    revocation: https://auth.corelogic.asia/as/revoke_token.oauth2\n    introspection: https://auth.corelogic.asia/as/introspect.oauth2\n    end_session: https://auth.corelogic.asia/idp/init_logout.openid\n    device_authorization: https://auth.corelogic.asia/as/device_authz.oauth2\n    backchannel_authentication: https://auth.corelogic.asia/as/bc-auth.ciba\n  pkce_methods: [plain, S256]\n  token_endpoint_auth_methods:\n  - client_secret_basic\n  - client_secret_post\n  - client_secret_jwt\n  - private_key_jwt\n  - tls_client_auth\n  - none\n  claims_supported:\n  - email\n  - family_name\n  - fax_number\n  - given_name\n  - mobile_number\n\
   \  - personal_email\n  - phone_number\n  - sub\n  - title\n  - user_roles\n  - username\n  sources: [well-known/corelogic-au-openid-configuration.json]\n- name: SSO (SAML)\n  type: saml2\n  purpose: >-\n    Application single sign-on for Cotality end-user products. The portal states plainly: \"SSO is\n    not an authentication method for APIs. It is intended for user login flows and session\n    management.\" Not all applications support it yet.\n  sources: [https://developer.corelogic.asia/guides/application-silent-login]\ncredential_lifecycle:\n  self_serve_sandbox_client: https://developer.corelogic.asia/apps/create\n  rotate_secret: Portal \"Reset Client Secret\" action on the sandbox client\n  revoke_client: Portal \"Remove Client\" action\n  support: api.support@corelogic.com\n  production_credentials: >-\n    Not self-serve. Production and UAT credentials are provisioned only after a Cotality commercial\n    data licence is signed; the portal FAQ says an integration representative\
   \ contacts the signup\n    to discuss pricing and provisioning a full-access paid service plan.\nenvironment_binding: >-\n  Tokens are environment-bound. The portal FAQ documents the error \"Invalid token provided.\" with\n  the explanation that a token generated in UAT can only be used to make subsequent calls in UAT.\n  A sandbox client calling UAT or production returns 401 \"Restricted environment access denied.\"\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/corelogic-au/refs/heads/main/authentication/corelogic-au-authentication.yml
+source_yaml_url: https://artifacts.apis.io/corelogic-au/authentication/corelogic-au-authentication.yml
 summary_line: oauth2/openIdConnect/http · 5 schemes
 tags:
 - Real Estate

@@ -8,55 +8,55 @@ api_specs:
   label: Mention Accounts API
   slug: mention-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/openapi/mention-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/mention/openapi/mention-accounts-api-openapi.yml
 - filename: mention-alerts-api-openapi.yml
   format: yaml
   label: Mention Alerts API
   slug: mention-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/openapi/mention-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/mention/openapi/mention-alerts-api-openapi.yml
 - filename: mention-authors-api-openapi.yml
   format: yaml
   label: Mention Authors API
   slug: mention-authors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/openapi/mention-authors-api-openapi.yml
+  url: https://artifacts.apis.io/mention/openapi/mention-authors-api-openapi.yml
 - filename: mention-mentions-api-openapi.yml
   format: yaml
   label: Mention Mentions API
   slug: mention-mentions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/openapi/mention-mentions-api-openapi.yml
+  url: https://artifacts.apis.io/mention/openapi/mention-mentions-api-openapi.yml
 - filename: mention-shares-api-openapi.yml
   format: yaml
   label: Mention Shares API
   slug: mention-shares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/openapi/mention-shares-api-openapi.yml
+  url: https://artifacts.apis.io/mention/openapi/mention-shares-api-openapi.yml
 - filename: mention-stats-api-openapi.yml
   format: yaml
   label: Mention Stats API
   slug: mention-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/openapi/mention-stats-api-openapi.yml
+  url: https://artifacts.apis.io/mention/openapi/mention-stats-api-openapi.yml
 - filename: mention-tags-api-openapi.yml
   format: yaml
   label: Mention Tags API
   slug: mention-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/openapi/mention-tags-api-openapi.yml
+  url: https://artifacts.apis.io/mention/openapi/mention-tags-api-openapi.yml
 - filename: mention-tasks-api-openapi.yml
   format: yaml
   label: Mention Tasks API
   slug: mention-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/openapi/mention-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/mention/openapi/mention-tasks-api-openapi.yml
 - filename: mention-app-api-openapi.yml
   format: yaml
   label: Mention App API
   slug: mention-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/openapi/mention-app-api-openapi.yml
+  url: https://artifacts.apis.io/mention/openapi/mention-app-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -147,7 +147,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://d
   : \"bearer\"}'\n      expires_in: not returned\n      refresh_token: not returned\n    sources:\n      - openapi/_original/mention-openapi.yml\n\ntoken_lifecycle:\n  expiry: not documented\n  refresh: not documented\n  revocation: not documented\n  rotation: not documented\n  introspection: not documented\n  note: >-\n    No expires_in, no refresh_token grant, no revocation endpoint and no introspection endpoint\n    appear anywhere in the reference. The only documented recovery from a rejected token is to\n    re-read it from the app settings page or re-run the authorization flow.\n\ndiscovery:\n  rfc8414_metadata: false\n  openid_configuration: false\n  note: >-\n    /.well-known/oauth-authorization-server and /.well-known/openid-configuration both return 404 on\n    mention.com and api.mention.com. The endpoints are discoverable only by reading the prose docs.\n\nfailure_modes:\n  - status: 401\n    body: '{\"error\":\"access_denied\",\"error_description\":\"OAuth2 authentication required\"\
   }'\n    observed:\n      url: https://api.mention.net/api/accounts/me\n      fetched: '2026-08-13'\n    meaning: No token, malformed token, or token no longer valid.\n  - status: 403\n    meaning: >-\n      Valid token, wrong subject. The reference repeats this rule for accounts and shares — a token\n      cannot act on another person's account even when the app created it, and deleting someone\n      else's share needs team-admin rights.\n  - status: 402\n    meaning: Valid token, but the account's plan does not cover the request or the parameter used.\n\nagent_notes:\n  - >-\n    A Mention token is all-or-nothing. There is no read-only credential, so an agent holding one can\n    delete accounts and delete shares — which destroys alerts and their collected mentions.\n  - >-\n    Constrain at the agent layer: see agentic-access/mention-agentic-access.yml for per-operation\n    action-class, consequence and human-in-the-loop contracts.\n  - Never use the access_token query parameter in\
   \ an agent; it leaks a full-authority credential into logs.\n\ncross_references:\n  scopes: scopes/mention-scopes.yml\n  conventions: conventions/mention-conventions.yml\n  errors: errors/mention-problem-types.yml\n  well_known: well-known/mention-well-known.yml\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/authentication/mention-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mention/authentication/mention-authentication.yml
 summary_line: http/apiKey/oauth2 · 3 schemes
 tags:
 - Alerts

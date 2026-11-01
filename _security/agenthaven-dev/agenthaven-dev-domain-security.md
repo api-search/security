@@ -33,7 +33,7 @@ source_filename: agenthaven-dev-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: agenthaven.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  5 12:20:26 2026 GMT\n  hsts: false\ndomains:\n- domain: agenthaven.dev\n  dnssec: true\n  caa:\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agenthaven-dev/refs/heads/main/security/agenthaven-dev-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/agenthaven-dev/security/agenthaven-dev-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Agents

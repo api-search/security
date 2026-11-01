@@ -5,19 +5,19 @@ api_specs:
   label: Power Query Items API
   slug: power-query-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/openapi/power-query-items-api-openapi.yml
+  url: https://artifacts.apis.io/power-query/openapi/power-query-items-api-openapi.yml
 - filename: power-query-background-jobs-api-openapi.yml
   format: yaml
   label: Power Query Background Jobs API
   slug: power-query-background-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/openapi/power-query-background-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/power-query/openapi/power-query-background-jobs-api-openapi.yml
 - filename: power-query-query-execution-api-openapi.yml
   format: yaml
   label: Power Query Query Execution API
   slug: power-query-query-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/openapi/power-query-query-execution-api-openapi.yml
+  url: https://artifacts.apis.io/power-query/openapi/power-query-query-execution-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -63,7 +63,7 @@ source_filename: power-query-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: app.powerbi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 24 18:43:02 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 06:59:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.powerquery.microsoft.com\n  https: false\ndomains:\n- domain: powerbi.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/security/power-query-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/power-query/security/power-query-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Business Intelligence

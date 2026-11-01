@@ -5,37 +5,37 @@ api_specs:
   label: UrbanFox Cases API
   slug: urbanfox-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-cases-api-openapi.yml
+  url: https://artifacts.apis.io/urbanfox/openapi/urbanfox-cases-api-openapi.yml
 - filename: urbanfox-end-user-accounts-api-openapi.yml
   format: yaml
   label: UrbanFox End User Accounts API
   slug: urbanfox-end-user-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-end-user-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/urbanfox/openapi/urbanfox-end-user-accounts-api-openapi.yml
 - filename: urbanfox-metrics-api-openapi.yml
   format: yaml
   label: UrbanFox Metrics API
   slug: urbanfox-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/urbanfox/openapi/urbanfox-metrics-api-openapi.yml
 - filename: urbanfox-snippet-api-openapi.yml
   format: yaml
   label: UrbanFox Snippet API
   slug: urbanfox-snippet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-snippet-api-openapi.yml
+  url: https://artifacts.apis.io/urbanfox/openapi/urbanfox-snippet-api-openapi.yml
 - filename: urbanfox-tenants-api-openapi.yml
   format: yaml
   label: UrbanFox Tenants API
   slug: urbanfox-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/urbanfox/openapi/urbanfox-tenants-api-openapi.yml
 - filename: urbanfox-oauth-api-openapi.yml
   format: yaml
   label: UrbanFox O Auth API
   slug: urbanfox-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/urbanfox/openapi/urbanfox-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: urbanfox-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: urbanfox.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 23:49:03 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: urbanfox.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/security/urbanfox-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/urbanfox/security/urbanfox-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fraud Prevention

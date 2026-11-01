@@ -5,25 +5,25 @@ api_specs:
   label: Dog CEO Breed API
   slug: dog-ceo-breed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dog-ceo/refs/heads/main/openapi/dog-ceo-breed-api-openapi.yml
+  url: https://artifacts.apis.io/dog-ceo/openapi/dog-ceo-breed-api-openapi.yml
 - filename: dog-ceo-breeds-api-openapi.yml
   format: yaml
   label: Dog CEO Breeds API
   slug: dog-ceo-breeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dog-ceo/refs/heads/main/openapi/dog-ceo-breeds-api-openapi.yml
+  url: https://artifacts.apis.io/dog-ceo/openapi/dog-ceo-breeds-api-openapi.yml
 - filename: dog-ceo-random-api-openapi.yml
   format: yaml
   label: Dog CEO Random API
   slug: dog-ceo-random-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dog-ceo/refs/heads/main/openapi/dog-ceo-random-api-openapi.yml
+  url: https://artifacts.apis.io/dog-ceo/openapi/dog-ceo-random-api-openapi.yml
 - filename: dog-ceo-sub-breed-api-openapi.yml
   format: yaml
   label: Dog CEO Sub-Breed API
   slug: dog-ceo-sub-breed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dog-ceo/refs/heads/main/openapi/dog-ceo-sub-breed-api-openapi.yml
+  url: https://artifacts.apis.io/dog-ceo/openapi/dog-ceo-sub-breed-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: dog-ceo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dog.ceo\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 23:14:51 2026 GMT\n  hsts: false\ndomains:\n- domain: dog.ceo\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dog-ceo/refs/heads/main/security/dog-ceo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dog-ceo/security/dog-ceo-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Dogs

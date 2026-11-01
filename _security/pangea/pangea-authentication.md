@@ -7,49 +7,49 @@ api_specs:
   label: Pangea AI Guard API
   slug: pangea-ai-guard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-ai-guard-api-openapi.yml
+  url: https://artifacts.apis.io/pangea/openapi/pangea-ai-guard-api-openapi.yml
 - filename: pangea-authn-api-openapi.yml
   format: yaml
   label: Pangea AuthN API
   slug: pangea-authn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-authn-api-openapi.yml
+  url: https://artifacts.apis.io/pangea/openapi/pangea-authn-api-openapi.yml
 - filename: pangea-domain-intel-api-openapi.yml
   format: yaml
   label: Pangea Domain Intel API
   slug: pangea-domain-intel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-domain-intel-api-openapi.yml
+  url: https://artifacts.apis.io/pangea/openapi/pangea-domain-intel-api-openapi.yml
 - filename: pangea-file-scan-api-openapi.yml
   format: yaml
   label: Pangea File Scan API
   slug: pangea-file-scan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-file-scan-api-openapi.yml
+  url: https://artifacts.apis.io/pangea/openapi/pangea-file-scan-api-openapi.yml
 - filename: pangea-ip-intel-api-openapi.yml
   format: yaml
   label: Pangea IP Intel API
   slug: pangea-ip-intel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-ip-intel-api-openapi.yml
+  url: https://artifacts.apis.io/pangea/openapi/pangea-ip-intel-api-openapi.yml
 - filename: pangea-redact-api-openapi.yml
   format: yaml
   label: Pangea Redact API
   slug: pangea-redact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-redact-api-openapi.yml
+  url: https://artifacts.apis.io/pangea/openapi/pangea-redact-api-openapi.yml
 - filename: pangea-secure-audit-log-api-openapi.yml
   format: yaml
   label: Pangea Secure Audit Log API
   slug: pangea-secure-audit-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-secure-audit-log-api-openapi.yml
+  url: https://artifacts.apis.io/pangea/openapi/pangea-secure-audit-log-api-openapi.yml
 - filename: pangea-vault-api-openapi.yml
   format: yaml
   label: Pangea Vault API
   slug: pangea-vault-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-vault-api-openapi.yml
+  url: https://artifacts.apis.io/pangea/openapi/pangea-vault-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -76,7 +76,7 @@ source_filename: pangea-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pangea-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Pangea service token or OAuth 2 access token passed as a Bearer token.\n  sources:\n  - openapi/pangea-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/authentication/pangea-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pangea/authentication/pangea-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Security

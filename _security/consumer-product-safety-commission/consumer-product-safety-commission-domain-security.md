@@ -5,7 +5,7 @@ api_specs:
   label: Consumer Product Safety Commission Recalls API
   slug: consumer-product-safety-commission-recalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consumer-product-safety-commission/refs/heads/main/openapi/consumer-product-safety-commission-recalls-api-openapi.yml
+  url: https://artifacts.apis.io/consumer-product-safety-commission/openapi/consumer-product-safety-commission-recalls-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: consumer-product-safety-commission-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cpsc.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 23:59:59 2027 GMT\n  hsts: null\n- host: www.saferproducts.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: cpsc.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: saferproducts.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/consumer-product-safety-commission/refs/heads/main/security/consumer-product-safety-commission-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/consumer-product-safety-commission/security/consumer-product-safety-commission-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Consumer Protection

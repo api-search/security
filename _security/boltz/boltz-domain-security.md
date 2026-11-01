@@ -5,43 +5,43 @@ api_specs:
   label: Boltz Admin API
   slug: boltz-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltz/refs/heads/main/openapi/boltz-admin-api-openapi.yml
+  url: https://artifacts.apis.io/boltz/openapi/boltz-admin-api-openapi.yml
 - filename: boltz-auth-api-openapi.yml
   format: yaml
   label: Boltz Auth API
   slug: boltz-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltz/refs/heads/main/openapi/boltz-auth-api-openapi.yml
+  url: https://artifacts.apis.io/boltz/openapi/boltz-auth-api-openapi.yml
 - filename: boltz-cli-api-openapi.yml
   format: yaml
   label: Boltz CLI API
   slug: boltz-cli-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltz/refs/heads/main/openapi/boltz-cli-api-openapi.yml
+  url: https://artifacts.apis.io/boltz/openapi/boltz-cli-api-openapi.yml
 - filename: boltz-predictions-api-openapi.yml
   format: yaml
   label: Boltz Predictions API
   slug: boltz-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltz/refs/heads/main/openapi/boltz-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/boltz/openapi/boltz-predictions-api-openapi.yml
 - filename: boltz-protein-api-openapi.yml
   format: yaml
   label: Boltz Protein API
   slug: boltz-protein-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltz/refs/heads/main/openapi/boltz-protein-api-openapi.yml
+  url: https://artifacts.apis.io/boltz/openapi/boltz-protein-api-openapi.yml
 - filename: boltz-share-links-api-openapi.yml
   format: yaml
   label: Boltz Share Links API
   slug: boltz-share-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltz/refs/heads/main/openapi/boltz-share-links-api-openapi.yml
+  url: https://artifacts.apis.io/boltz/openapi/boltz-share-links-api-openapi.yml
 - filename: boltz-small-molecule-api-openapi.yml
   format: yaml
   label: Boltz Small Molecule API
   slug: boltz-small-molecule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltz/refs/heads/main/openapi/boltz-small-molecule-api-openapi.yml
+  url: https://artifacts.apis.io/boltz/openapi/boltz-small-molecule-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: boltz-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: boltz.bio\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 10:49:30 2026 GMT\n  hsts: false\ndomains:\n- domain: boltz.bio\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boltz/refs/heads/main/security/boltz-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/boltz/security/boltz-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

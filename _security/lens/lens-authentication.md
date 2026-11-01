@@ -7,13 +7,25 @@ api_specs:
   label: Lens Patents API
   slug: lens-patents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lens/refs/heads/main/openapi/lens-patents-api-openapi.yml
+  url: https://artifacts.apis.io/lens/openapi/lens-patents-api-openapi.yml
 - filename: lens-scholarly-api-openapi.yml
   format: yaml
   label: Lens Scholarly API
   slug: lens-scholarly-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lens/refs/heads/main/openapi/lens-scholarly-api-openapi.yml
+  url: https://artifacts.apis.io/lens/openapi/lens-scholarly-api-openapi.yml
+- filename: lens-bulk-api-openapi.yml
+  format: yaml
+  label: Lens Bulk API
+  slug: lens-bulk-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lens/openapi/lens-bulk-api-openapi.yml
+- filename: lens-collections-api-openapi.yml
+  format: yaml
+  label: Lens Collections API
+  slug: lens-collections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lens/openapi/lens-collections-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -41,7 +53,7 @@ source_filename: lens-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/lens-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: API token issued from the Lens user profile (Plans & Tokens).\n  sources:\n  - openapi/lens-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lens/refs/heads/main/authentication/lens-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lens/authentication/lens-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Scholarly

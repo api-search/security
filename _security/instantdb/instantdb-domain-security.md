@@ -5,37 +5,37 @@ api_specs:
   label: InstantDB Realtime Sync API
   slug: instantdb-realtime-sync-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantdb/refs/heads/main/asyncapi/instantdb-asyncapi.yml
+  url: https://artifacts.apis.io/instantdb/asyncapi/instantdb-asyncapi.yml
 - filename: instantdb-auth-api-openapi.yml
   format: yaml
   label: InstantDB Auth API
   slug: instantdb-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantdb/refs/heads/main/openapi/instantdb-auth-api-openapi.yml
+  url: https://artifacts.apis.io/instantdb/openapi/instantdb-auth-api-openapi.yml
 - filename: instantdb-presence-api-openapi.yml
   format: yaml
   label: InstantDB Presence API
   slug: instantdb-presence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantdb/refs/heads/main/openapi/instantdb-presence-api-openapi.yml
+  url: https://artifacts.apis.io/instantdb/openapi/instantdb-presence-api-openapi.yml
 - filename: instantdb-query-api-openapi.yml
   format: yaml
   label: InstantDB Query API
   slug: instantdb-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantdb/refs/heads/main/openapi/instantdb-query-api-openapi.yml
+  url: https://artifacts.apis.io/instantdb/openapi/instantdb-query-api-openapi.yml
 - filename: instantdb-storage-api-openapi.yml
   format: yaml
   label: InstantDB Storage API
   slug: instantdb-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantdb/refs/heads/main/openapi/instantdb-storage-api-openapi.yml
+  url: https://artifacts.apis.io/instantdb/openapi/instantdb-storage-api-openapi.yml
 - filename: instantdb-transactions-api-openapi.yml
   format: yaml
   label: InstantDB Transactions API
   slug: instantdb-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantdb/refs/heads/main/openapi/instantdb-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/instantdb/openapi/instantdb-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: instantdb-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.instantdb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 09:53:00 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.instantdb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: instantdb.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instantdb/refs/heads/main/security/instantdb-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/instantdb/security/instantdb-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Database

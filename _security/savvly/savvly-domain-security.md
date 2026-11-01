@@ -5,19 +5,19 @@ api_specs:
   label: Savvly Comparisons API
   slug: savvly-comparisons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/savvly/refs/heads/main/openapi/savvly-comparisons-api-openapi.yml
+  url: https://artifacts.apis.io/savvly/openapi/savvly-comparisons-api-openapi.yml
 - filename: savvly-product-api-openapi.yml
   format: yaml
   label: Savvly Product API
   slug: savvly-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/savvly/refs/heads/main/openapi/savvly-product-api-openapi.yml
+  url: https://artifacts.apis.io/savvly/openapi/savvly-product-api-openapi.yml
 - filename: savvly-projections-api-openapi.yml
   format: yaml
   label: Savvly Projections API
   slug: savvly-projections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/savvly/refs/heads/main/openapi/savvly-projections-api-openapi.yml
+  url: https://artifacts.apis.io/savvly/openapi/savvly-projections-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: savvly-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: savvly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 00:42:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.savvly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: savvly.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/savvly/refs/heads/main/security/savvly-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/savvly/security/savvly-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

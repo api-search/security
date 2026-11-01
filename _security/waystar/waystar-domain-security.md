@@ -51,12 +51,11 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.waystar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  8 23:59:59 2027 GMT\n  hsts: false\n- host: eligibilityapi.zirmed.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 12 23:59:59 2026 GMT\n  hsts: null\n- host: priorauthorizationapi.waystar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: waystar.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: false\n- domain: zirmed.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"thawte.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy:\
   \ none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/waystar/refs/heads/main/security/waystar-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/waystar/security/waystar-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Healthcare
 - Revenue Cycle Management
-- RCM
 - Clearinghouse
 - Healthcare Payments
 - Medical Billing

@@ -27,7 +27,7 @@ source_filename: gameto-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.gametogen.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 16:39:15 2026 GMT\n  hsts: true\n  hsts_max_age: 300\ndomains:\n- domain: gametogen.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gameto/refs/heads/main/security/gameto-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gameto/security/gameto-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

@@ -17,7 +17,7 @@ source_filename: detectify-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nprobe: true\nsource: https://detectify.com/\nurl: https://detectify.com/\ncertifications:\n- ISO 27001\n- PCI DSS\n- GDPR\nevidence:\n- source: https://detectify.com/\n  keywords:\n  - pci dss\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/detectify/refs/heads/main/security/detectify-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/detectify/security/detectify-trust-center.yml
 summary_line: ISO 27001, PCI DSS, GDPR
 tags:
 - Company

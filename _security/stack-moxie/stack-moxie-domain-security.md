@@ -5,31 +5,31 @@ api_specs:
   label: 'Stack Moxie How To: Administer API'
   slug: stack-moxie-how-to-administer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/openapi/stack-moxie-how-to-administer-api-openapi.yml
+  url: https://artifacts.apis.io/stack-moxie/openapi/stack-moxie-how-to-administer-api-openapi.yml
 - filename: stack-moxie-how-to-automate-api-openapi.yml
   format: yaml
   label: 'Stack Moxie How To: Automate API'
   slug: stack-moxie-how-to-automate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/openapi/stack-moxie-how-to-automate-api-openapi.yml
+  url: https://artifacts.apis.io/stack-moxie/openapi/stack-moxie-how-to-automate-api-openapi.yml
 - filename: stack-moxie-how-to-integrate-api-openapi.yml
   format: yaml
   label: 'Stack Moxie How To: Integrate API'
   slug: stack-moxie-how-to-integrate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/openapi/stack-moxie-how-to-integrate-api-openapi.yml
+  url: https://artifacts.apis.io/stack-moxie/openapi/stack-moxie-how-to-integrate-api-openapi.yml
 - filename: stack-moxie-how-to-organize-api-openapi.yml
   format: yaml
   label: 'Stack Moxie How To: Organize API'
   slug: stack-moxie-how-to-organize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/openapi/stack-moxie-how-to-organize-api-openapi.yml
+  url: https://artifacts.apis.io/stack-moxie/openapi/stack-moxie-how-to-organize-api-openapi.yml
 - filename: stack-moxie-how-to-test-api-openapi.yml
   format: yaml
   label: 'Stack Moxie How To: Test API'
   slug: stack-moxie-how-to-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/openapi/stack-moxie-how-to-test-api-openapi.yml
+  url: https://artifacts.apis.io/stack-moxie/openapi/stack-moxie-how-to-test-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: stack-moxie-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: stackmoxie.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 02:09:04 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: stackmoxie.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/security/stack-moxie-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/stack-moxie/security/stack-moxie-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -5,31 +5,31 @@ api_specs:
   label: ShortKit Ad Configuration API
   slug: shortkit-ad-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shortkit/refs/heads/main/openapi/shortkit-ad-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/shortkit/openapi/shortkit-ad-configuration-api-openapi.yml
 - filename: shortkit-analytics-api-openapi.yml
   format: yaml
   label: ShortKit Analytics API
   slug: shortkit-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shortkit/refs/heads/main/openapi/shortkit-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/shortkit/openapi/shortkit-analytics-api-openapi.yml
 - filename: shortkit-content-api-openapi.yml
   format: yaml
   label: ShortKit Content API
   slug: shortkit-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shortkit/refs/heads/main/openapi/shortkit-content-api-openapi.yml
+  url: https://artifacts.apis.io/shortkit/openapi/shortkit-content-api-openapi.yml
 - filename: shortkit-live-streams-api-openapi.yml
   format: yaml
   label: ShortKit Live Streams API
   slug: shortkit-live-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shortkit/refs/heads/main/openapi/shortkit-live-streams-api-openapi.yml
+  url: https://artifacts.apis.io/shortkit/openapi/shortkit-live-streams-api-openapi.yml
 - filename: shortkit-surveys-api-openapi.yml
   format: yaml
   label: ShortKit Surveys API
   slug: shortkit-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shortkit/refs/heads/main/openapi/shortkit-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/shortkit/openapi/shortkit-surveys-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: shortkit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.shortkit.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 06:06:57 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.shortkit.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 06:06:57 2026 GMT\n  hsts: null\ndomains:\n- domain: shortkit.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shortkit/refs/heads/main/security/shortkit-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/shortkit/security/shortkit-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

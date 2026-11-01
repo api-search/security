@@ -26,7 +26,7 @@ source_filename: pinetree-therapeutics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.pinetreetx.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 17 03:15:30 2026 GMT\n  hsts: false\ndomains:\n- domain: pinetreetx.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pinetree-therapeutics/refs/heads/main/security/pinetree-therapeutics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pinetree-therapeutics/security/pinetree-therapeutics-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Company

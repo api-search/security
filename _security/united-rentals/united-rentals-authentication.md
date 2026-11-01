@@ -8,31 +8,31 @@ api_specs:
   label: United Rentals Equipment API
   slug: united-rentals-equipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/openapi/united-rentals-equipment-api-openapi.yml
+  url: https://artifacts.apis.io/united-rentals/openapi/united-rentals-equipment-api-openapi.yml
 - filename: united-rentals-fleet-api-openapi.yml
   format: yaml
   label: United Rentals Fleet API
   slug: united-rentals-fleet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/openapi/united-rentals-fleet-api-openapi.yml
+  url: https://artifacts.apis.io/united-rentals/openapi/united-rentals-fleet-api-openapi.yml
 - filename: united-rentals-invoices-api-openapi.yml
   format: yaml
   label: United Rentals Invoices API
   slug: united-rentals-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/openapi/united-rentals-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/united-rentals/openapi/united-rentals-invoices-api-openapi.yml
 - filename: united-rentals-locations-api-openapi.yml
   format: yaml
   label: United Rentals Locations API
   slug: united-rentals-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/openapi/united-rentals-locations-api-openapi.yml
+  url: https://artifacts.apis.io/united-rentals/openapi/united-rentals-locations-api-openapi.yml
 - filename: united-rentals-rentals-api-openapi.yml
   format: yaml
   label: United Rentals API
   slug: united-rentals-rentals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/openapi/united-rentals-rentals-api-openapi.yml
+  url: https://artifacts.apis.io/united-rentals/openapi/united-rentals-rentals-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: united-rentals-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/united-rentals-total-control-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: United Rentals API key from Total Control portal\n  sources:\n  - openapi/united-rentals-total-control-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/authentication/united-rentals-authentication.yml
+source_yaml_url: https://artifacts.apis.io/united-rentals/authentication/united-rentals-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Equipment Rental

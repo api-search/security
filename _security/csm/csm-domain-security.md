@@ -30,7 +30,7 @@ source_filename: csm-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.csm.ai\n  https: false\n- host: docs.csm.ai\n  https: false\n- host: api.csm.ai\n  https: false\ndomains:\n- domain: csm.ai\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 iodef \"mailto:eng@csm.ai\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/csm/refs/heads/main/security/csm-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/csm/security/csm-domain-security.yml
 summary_line: DMARC
 tags:
 - Artificial Intelligence

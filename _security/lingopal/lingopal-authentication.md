@@ -8,25 +8,43 @@ api_specs:
   label: Lingopal Jobs API
   slug: lingopal-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/openapi/lingopal-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/lingopal/openapi/lingopal-jobs-api-openapi.yml
 - filename: lingopal-languages-api-openapi.yml
   format: yaml
   label: Lingopal Languages API
   slug: lingopal-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/openapi/lingopal-languages-api-openapi.yml
-- filename: lingopal-translate-api-openapi.yml
+  url: https://artifacts.apis.io/lingopal/openapi/lingopal-languages-api-openapi.yml
+- filename: lingopal-job-outputs-api-openapi.yml
   format: yaml
-  label: Lingopal Translate API
-  slug: lingopal-translate-api
+  label: Lingopal Job Outputs API
+  slug: lingopal-job-outputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/openapi/lingopal-translate-api-openapi.yml
-- filename: lingopal-upload-api-openapi.yml
+  url: https://artifacts.apis.io/lingopal/openapi/lingopal-job-outputs-api-openapi.yml
+- filename: lingopal-job-registration-api-openapi.yml
   format: yaml
-  label: Lingopal Upload API
-  slug: lingopal-upload-api
+  label: Lingopal Job Registration API
+  slug: lingopal-job-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/openapi/lingopal-upload-api-openapi.yml
+  url: https://artifacts.apis.io/lingopal/openapi/lingopal-job-registration-api-openapi.yml
+- filename: lingopal-job-workflows-api-openapi.yml
+  format: yaml
+  label: Lingopal Job Workflows API
+  slug: lingopal-job-workflows-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lingopal/openapi/lingopal-job-workflows-api-openapi.yml
+- filename: lingopal-storage-api-openapi.yml
+  format: yaml
+  label: Lingopal Storage API
+  slug: lingopal-storage-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lingopal/openapi/lingopal-storage-api-openapi.yml
+- filename: lingopal-text-translation-api-openapi.yml
+  format: yaml
+  label: Lingopal Text Translation API
+  slug: lingopal-text-translation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lingopal/openapi/lingopal-text-translation-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -56,7 +74,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/lingopal-openapi-original.json\ndocs: https://docs.lingopal.ai/guides/authentication\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  oauth2_flows: []\n  bearer_tokens: false\nschemes:\n- name: APIKeyHeader\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  applied: global\n  sources:\n  - openapi/lingopal-openapi-original.json\n  docs: https://docs.lingopal.ai/guides/authentication\nkey_management:\n  issue: Lingopal dashboard (https://app.lingopal.ai/login) or account contact\n  rotate: Lingopal dashboard or account contact\n  revoke: Lingopal dashboard or account contact\n  environment_separation: >-\n    The docs recommend separate keys for development and production \"when available\";\n    no test-vs-live key prefix or sandbox mode is published.\nguidance:\n- Store the key server-side in an environment variable (documented as LINGOPAL_API_KEY).\n- Never commit a key or place it in browser-side\
   \ code.\n- Keep .env files out of version control.\n- Rotate a key immediately if it is exposed.\n- Do not attach X-API-Key to presigned storage upload URLs returned by createStorageUpload.\nfailure_mode:\n  status: 401\n  meaning: >-\n    Header missing or key invalid. Confirm the header name is exactly X-API-Key, that\n    the environment variable is populated, and that the key has not been revoked.\nnotes: >-\n  There is no OAuth, OIDC, mTLS, or scope surface on this API, so no scopes/ artifact\n  is emitted. Key auth with no scopes is the whole authorization model.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/authentication/lingopal-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lingopal/authentication/lingopal-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

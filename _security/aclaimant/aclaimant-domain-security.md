@@ -5,43 +5,43 @@ api_specs:
   label: Aclaimant Answers API
   slug: aclaimant-answers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aclaimant/refs/heads/main/openapi/aclaimant-answers-api-openapi.yml
+  url: https://artifacts.apis.io/aclaimant/openapi/aclaimant-answers-api-openapi.yml
 - filename: aclaimant-bulk-api-openapi.yml
   format: yaml
   label: Aclaimant Bulk API
   slug: aclaimant-bulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aclaimant/refs/heads/main/openapi/aclaimant-bulk-api-openapi.yml
+  url: https://artifacts.apis.io/aclaimant/openapi/aclaimant-bulk-api-openapi.yml
 - filename: aclaimant-companies-api-openapi.yml
   format: yaml
   label: Aclaimant Companies API
   slug: aclaimant-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aclaimant/refs/heads/main/openapi/aclaimant-companies-api-openapi.yml
+  url: https://artifacts.apis.io/aclaimant/openapi/aclaimant-companies-api-openapi.yml
 - filename: aclaimant-exposures-api-openapi.yml
   format: yaml
   label: Aclaimant Exposures API
   slug: aclaimant-exposures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aclaimant/refs/heads/main/openapi/aclaimant-exposures-api-openapi.yml
+  url: https://artifacts.apis.io/aclaimant/openapi/aclaimant-exposures-api-openapi.yml
 - filename: aclaimant-incidents-api-openapi.yml
   format: yaml
   label: Aclaimant Incidents API
   slug: aclaimant-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aclaimant/refs/heads/main/openapi/aclaimant-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/aclaimant/openapi/aclaimant-incidents-api-openapi.yml
 - filename: aclaimant-policies-api-openapi.yml
   format: yaml
   label: Aclaimant Policies API
   slug: aclaimant-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aclaimant/refs/heads/main/openapi/aclaimant-policies-api-openapi.yml
+  url: https://artifacts.apis.io/aclaimant/openapi/aclaimant-policies-api-openapi.yml
 - filename: aclaimant-policy-programs-api-openapi.yml
   format: yaml
   label: Aclaimant Policy Programs API
   slug: aclaimant-policy-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aclaimant/refs/heads/main/openapi/aclaimant-policy-programs-api-openapi.yml
+  url: https://artifacts.apis.io/aclaimant/openapi/aclaimant-policy-programs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: aclaimant-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.aclaimant.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 24 13:48:54 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.aclaimant.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 15:39:07 2026 GMT\n  hsts: false\n- host: developer.aclaimant.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 15:39:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: aclaimant.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aclaimant/refs/heads/main/security/aclaimant-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aclaimant/security/aclaimant-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Risk Management

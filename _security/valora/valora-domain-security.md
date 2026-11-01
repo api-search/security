@@ -5,31 +5,31 @@ api_specs:
   label: Valora Hooks API
   slug: valora-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valora/refs/heads/main/openapi/valora-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/valora/openapi/valora-hooks-api-openapi.yml
 - filename: valora-swaps-api-openapi.yml
   format: yaml
   label: Valora Swaps API
   slug: valora-swaps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valora/refs/heads/main/openapi/valora-swaps-api-openapi.yml
+  url: https://artifacts.apis.io/valora/openapi/valora-swaps-api-openapi.yml
 - filename: valora-tokens-api-openapi.yml
   format: yaml
   label: Valora Tokens API
   slug: valora-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valora/refs/heads/main/openapi/valora-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/valora/openapi/valora-tokens-api-openapi.yml
 - filename: valora-transactions-api-openapi.yml
   format: yaml
   label: Valora Transactions API
   slug: valora-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valora/refs/heads/main/openapi/valora-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/valora/openapi/valora-transactions-api-openapi.yml
 - filename: valora-nfts-api-openapi.yml
   format: yaml
   label: Valora Nfts API
   slug: valora-nfts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valora/refs/heads/main/openapi/valora-nfts-api-openapi.yml
+  url: https://artifacts.apis.io/valora/openapi/valora-nfts-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: valora-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: valora.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 04:02:08 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.mainnet.valora.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 17:04:00 2026 GMT\n  hsts: null\n- host: api.alfajores.valora.xyz\n  https: false\ndomains:\n- domain: valora.xyz\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/valora/refs/heads/main/security/valora-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/valora/security/valora-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company

@@ -8,19 +8,19 @@ api_specs:
   label: DVIDS API Asset API
   slug: dvids-api-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dvids-api/refs/heads/main/openapi/dvids-api-asset-api-openapi.yml
+  url: https://artifacts.apis.io/dvids-api/openapi/dvids-api-asset-api-openapi.yml
 - filename: dvids-api-search-api-openapi.yml
   format: yaml
   label: DVIDS API Search API
   slug: dvids-api-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dvids-api/refs/heads/main/openapi/dvids-api-search-api-openapi.yml
+  url: https://artifacts.apis.io/dvids-api/openapi/dvids-api-search-api-openapi.yml
 - filename: dvids-api-unit-api-openapi.yml
   format: yaml
   label: DVIDS API Unit API
   slug: dvids-api-unit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dvids-api/refs/heads/main/openapi/dvids-api-unit-api-openapi.yml
+  url: https://artifacts.apis.io/dvids-api/openapi/dvids-api-unit-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -47,7 +47,7 @@ source_filename: dvids-api-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/dvids-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: api_key\n  sources:\n  - openapi/dvids-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dvids-api/refs/heads/main/authentication/dvids-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dvids-api/authentication/dvids-api-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Media

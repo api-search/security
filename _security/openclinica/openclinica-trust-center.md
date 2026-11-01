@@ -5,37 +5,37 @@ api_specs:
   label: OpenClinica Authentication API
   slug: openclinica-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openclinica/refs/heads/main/openapi/openclinica-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/openclinica/openapi/openclinica-authentication-api-openapi.yml
 - filename: openclinica-bulk-operations-api-openapi.yml
   format: yaml
   label: OpenClinica Bulk Operations API
   slug: openclinica-bulk-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openclinica/refs/heads/main/openapi/openclinica-bulk-operations-api-openapi.yml
+  url: https://artifacts.apis.io/openclinica/openapi/openclinica-bulk-operations-api-openapi.yml
 - filename: openclinica-clinical-data-api-openapi.yml
   format: yaml
   label: OpenClinica Clinical Data API
   slug: openclinica-clinical-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openclinica/refs/heads/main/openapi/openclinica-clinical-data-api-openapi.yml
+  url: https://artifacts.apis.io/openclinica/openapi/openclinica-clinical-data-api-openapi.yml
 - filename: openclinica-metadata-api-openapi.yml
   format: yaml
   label: OpenClinica Metadata API
   slug: openclinica-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openclinica/refs/heads/main/openapi/openclinica-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/openclinica/openapi/openclinica-metadata-api-openapi.yml
 - filename: openclinica-participants-api-openapi.yml
   format: yaml
   label: OpenClinica Participants API
   slug: openclinica-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openclinica/refs/heads/main/openapi/openclinica-participants-api-openapi.yml
+  url: https://artifacts.apis.io/openclinica/openapi/openclinica-participants-api-openapi.yml
 - filename: openclinica-study-events-api-openapi.yml
   format: yaml
   label: OpenClinica Study Events API
   slug: openclinica-study-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openclinica/refs/heads/main/openapi/openclinica-study-events-api-openapi.yml
+  url: https://artifacts.apis.io/openclinica/openapi/openclinica-study-events-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -53,7 +53,7 @@ source_filename: openclinica-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.openclinica.com/\nurl: https://trust.openclinica.com/\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://trust.openclinica.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openclinica/refs/heads/main/security/openclinica-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/openclinica/security/openclinica-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Clinical Trials

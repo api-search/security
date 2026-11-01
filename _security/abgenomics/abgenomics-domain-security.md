@@ -41,7 +41,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.altrubio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 25 10:13:57 2026 GMT\n  hsts: false\n- host: abgenomics.com\n  https: true\n  tls_version: null\n  cert_expires: null\n  hsts: false\n  note: >-\n    The company's original registrable domain. HTTPS answered 200 on the first probes of this\n    pass (abovedomains.com parking page, 1,005 bytes), then the origin began timing out\n    connections on repeat requests, so TLS version and certificate expiry could not be read.\n    This is the parking service's posture, not the company's — abgenomics.com is delegated to\n    ns1/ns2.abovedomains.com and advertises \"This domain may be for sale\".\ndomains:\n- domain: altrubio.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: abgenomics.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n\
   \  dmarc_policy: null\n  note: >-\n    SPF present but is the parking service's null-route record (\"v=spf1 ip6:fdcf:abda:4154::/48\n    -all\"), not a mail configuration the company operates. No DNSKEY, no CAA, no _dmarc record.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abgenomics/refs/heads/main/security/abgenomics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/abgenomics/security/abgenomics-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

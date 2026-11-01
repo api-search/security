@@ -31,7 +31,7 @@ source_filename: testsigma-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://testsigma.com/docs/api/overview/\nsummary:\n  types: [http]\n  http_schemes: [bearer]\n  api_key_in: [header]\n  notes: >-\n    All Testsigma REST API endpoints require a Bearer token which is the user's\n    personal API Key, generated from the Testsigma app configuration/settings.\n    There is no OAuth2 authorization-code flow and no documented scope surface\n    for the public REST API; the API key carries the user's own permissions.\nschemes:\n  - name: bearerToken\n    type: http\n    scheme: bearer\n    bearerFormat: api-key\n    in: header\n    header: Authorization\n    description: >-\n      Send the user's API Key as a Bearer token. The docs show the header as\n      `Authorization: Bearer <API_Key>`. The API Key is generated per-user in\n      the Testsigma app settings.\n    sources: [https://testsigma.com/docs/api/overview/]\ndocs: https://testsigma.com/docs/api/overview/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/testsigma/refs/heads/main/authentication/testsigma-authentication.yml
+source_yaml_url: https://artifacts.apis.io/testsigma/authentication/testsigma-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

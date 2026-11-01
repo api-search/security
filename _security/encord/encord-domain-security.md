@@ -39,7 +39,7 @@ source_filename: encord-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: encord.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 13:41:02 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\n- host: docs.encord.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 14:55:14 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.encord.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 13:50:26 2026 GMT\n  hsts: null\ndomains:\n- domain: encord.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/encord/refs/heads/main/security/encord-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/encord/security/encord-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Computer Vision

@@ -5,31 +5,31 @@ api_specs:
   label: Crescendo MCP API
   slug: crescendo-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crescendo/refs/heads/main/openapi/crescendo-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/crescendo/openapi/crescendo-mcp-api-openapi.yml
 - filename: crescendo-provisioning-api-openapi.yml
   format: yaml
   label: Crescendo Provisioning API
   slug: crescendo-provisioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crescendo/refs/heads/main/openapi/crescendo-provisioning-api-openapi.yml
+  url: https://artifacts.apis.io/crescendo/openapi/crescendo-provisioning-api-openapi.yml
 - filename: crescendo-reporting-api-openapi.yml
   format: yaml
   label: Crescendo Reporting API
   slug: crescendo-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crescendo/refs/heads/main/openapi/crescendo-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/crescendo/openapi/crescendo-reporting-api-openapi.yml
 - filename: crescendo-service-api-openapi.yml
   format: yaml
   label: Crescendo Service API
   slug: crescendo-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crescendo/refs/heads/main/openapi/crescendo-service-api-openapi.yml
+  url: https://artifacts.apis.io/crescendo/openapi/crescendo-service-api-openapi.yml
 - filename: crescendo-voc-api-openapi.yml
   format: yaml
   label: Crescendo VOC API
   slug: crescendo-voc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crescendo/refs/heads/main/openapi/crescendo-voc-api-openapi.yml
+  url: https://artifacts.apis.io/crescendo/openapi/crescendo-voc-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: crescendo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: platform.crescendo.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 12:40:35 2026 GMT\n  hsts: false\ndomains:\n- domain: crescendo.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crescendo/refs/heads/main/security/crescendo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/crescendo/security/crescendo-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

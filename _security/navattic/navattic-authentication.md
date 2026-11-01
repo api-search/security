@@ -7,7 +7,7 @@ api_specs:
   label: Navattic Health API
   slug: navattic-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/openapi/navattic-health-api-openapi.yml
+  url: https://artifacts.apis.io/navattic/openapi/navattic-health-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://docs.na
   \  - name: NavatticPersonalAccessToken\n    type: http\n    scheme: bearer\n    applies_to: https://app.navattic.com/api/mcp\n    sources: [https://docs.navattic.com/workspace/mcp-server]\n    credential: Personal Access Token\n    header: 'Authorization: Bearer <token>'\n    creation:\n      location: Settings > Workspace > Access Tokens\n      who_can_create: Workspace Admins only\n      who_can_view: Builders can view existing tokens but cannot create or revoke them\n      max_active_per_user: 25\n      shown_once: true\n    expiration_days: [7, 30, 60, 90, 180]\n    scope_selection: Scopes are chosen per token at creation time\n    clients_documented: [Cursor, VS Code, Windsurf, Codex, IBM Bob, Microsoft Copilot Studio]\nworkspace_identity:\n  sso:\n    supported: true\n    docs: https://docs.navattic.com/workspace/sso\n    note: Members can be required to authenticate through an identity provider such as Okta or Azure AD.\n  directory_sync:\n    supported: true\n    protocol: SCIM\n\
   \    docs: https://docs.navattic.com/workspace/directory-sync\n    note: Automatic user provisioning and deprovisioning.\n  roles: [Admin, Builder, Rep]\n  note: >\n    Workspace SSO/SCIM govern human members of the Navattic app, not API\n    credentials. No customer-facing OIDC discovery document is served on any\n    Navattic host (/.well-known/openid-configuration is 404 on www, app, and\n    api). The 200 at academy.navattic.com/.well-known/openid-configuration\n    belongs to Thinkific, not Navattic.\nwebhook_authentication:\n  outbound: true\n  docs: https://docs.navattic.com/integrations/webhook\n  note: >\n    Navattic signs nothing, but it will send an Authorization header on outbound\n    webhook deliveries when one is configured on the webhook —\n    \"Basic <credentials>\" or \"Bearer <token>\". There is no HMAC signature\n    header documented.\nx-evidence:\n  - {url: 'https://app.navattic.com/api/mcp', status: 401, note: 'anonymous POST returns \"Provide a valid access token\
   \ as a Bearer token in the Authorization header.\"'}\n  - {url: 'https://app.navattic.com/.well-known/oauth-authorization-server', status: 200}\n  - {url: 'https://app.navattic.com/.well-known/oauth-protected-resource', status: 200}\n  - {url: 'https://app.navattic.com/.well-known/openid-configuration', status: 404}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/authentication/navattic-authentication.yml
+source_yaml_url: https://artifacts.apis.io/navattic/authentication/navattic-authentication.yml
 summary_line: oauth2/http · 2 schemes
 tags:
 - Interactive Demos

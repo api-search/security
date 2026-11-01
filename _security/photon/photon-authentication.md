@@ -7,19 +7,19 @@ api_specs:
   label: Photon Agent discovery API
   slug: photon-agent-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/openapi/photon-agent-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/photon/openapi/photon-agent-discovery-api-openapi.yml
 - filename: photon-newsletter-api-openapi.yml
   format: yaml
   label: Photon Newsletter API
   slug: photon-newsletter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/openapi/photon-newsletter-api-openapi.yml
+  url: https://artifacts.apis.io/photon/openapi/photon-newsletter-api-openapi.yml
 - filename: photon-onboarding-api-openapi.yml
   format: yaml
   label: Photon Onboarding API
   slug: photon-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/openapi/photon-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/photon/openapi/photon-onboarding-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -72,7 +72,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-24'\nmethod: searched\nsource: https://docs.photon.health/docs/authentication\ndocs: https://docs.photon.health/docs/authentication\nsummary:\n  types: [oauth2, http]\n  http_scheme: bearer\n  oauth2_flows: [clientCredentials]\n  provider: Auth0\n  notes: >-\n    Photon secures its single GraphQL endpoint with OAuth2 client-credentials\n    access tokens issued by Auth0. Tokens are presented as a Bearer token in the\n    Authorization header. Two token shapes: machine-to-machine (backend, all\n    actions except write:prescription) and user access tokens (frontend via\n    Elements; only authorized providers receive write:prescription).\nschemes:\n- name: OAuth2ClientCredentials\n  type: oauth2\n  flow: clientCredentials\n  provider: Auth0\n  production:\n    token_url: https://auth.photon.health/oauth/token\n    audience: https://api.photon.health\n    issuer: https://auth.photon.health/\n    jwks_uri: https://auth.photon.health/.well-known/jwks.json\n\
   \  sandbox:\n    token_url: https://auth.neutron.health/oauth/token\n    audience: https://api.neutron.health\n  token_type: Bearer\n  expires_in: 86400\n  request_params: [client_id, client_secret, audience, grant_type]\n  sources: [well-known/photon-openid-configuration.json, review.yml]\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  in: header\n  parameter: Authorization\n  sources: [https://docs.photon.health/docs/authentication]\ntoken_shapes:\n- name: Machine-to-Machine (M2M)\n  audience: backend\n  note: Obtained from the Photon app settings; can perform all actions except write:prescription.\n- name: User Access Token\n  audience: frontend\n  note: Generated from logged-in user roles (via Elements); only authorized providers get write:prescription.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/authentication/photon-authentication.yml
+source_yaml_url: https://artifacts.apis.io/photon/authentication/photon-authentication.yml
 summary_line: oauth2/http · 2 schemes
 tags:
 - Healthcare

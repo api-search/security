@@ -5,61 +5,61 @@ api_specs:
   label: Microsoft Dynamics 365 Sales Accounts API
   slug: microsoft-dynamics-365-sales-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-sales/openapi/microsoft-dynamics-365-sales-accounts-api-openapi.yml
 - filename: microsoft-dynamics-365-sales-batch-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Sales $batch API
   slug: microsoft-dynamics-365-sales-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-batch-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-sales/openapi/microsoft-dynamics-365-sales-batch-api-openapi.yml
 - filename: microsoft-dynamics-365-sales-contacts-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Sales Contacts API
   slug: microsoft-dynamics-365-sales-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-sales/openapi/microsoft-dynamics-365-sales-contacts-api-openapi.yml
 - filename: microsoft-dynamics-365-sales-invoices-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Sales Invoices API
   slug: microsoft-dynamics-365-sales-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-sales/openapi/microsoft-dynamics-365-sales-invoices-api-openapi.yml
 - filename: microsoft-dynamics-365-sales-leads-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Sales Leads API
   slug: microsoft-dynamics-365-sales-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-leads-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-sales/openapi/microsoft-dynamics-365-sales-leads-api-openapi.yml
 - filename: microsoft-dynamics-365-sales-opportunities-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Sales Opportunities API
   slug: microsoft-dynamics-365-sales-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-sales/openapi/microsoft-dynamics-365-sales-opportunities-api-openapi.yml
 - filename: microsoft-dynamics-365-sales-products-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Sales Products API
   slug: microsoft-dynamics-365-sales-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-products-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-sales/openapi/microsoft-dynamics-365-sales-products-api-openapi.yml
 - filename: microsoft-dynamics-365-sales-quotes-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Sales Quotes API
   slug: microsoft-dynamics-365-sales-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-sales/openapi/microsoft-dynamics-365-sales-quotes-api-openapi.yml
 - filename: microsoft-dynamics-365-sales-tasks-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Sales Tasks API
   slug: microsoft-dynamics-365-sales-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-sales/openapi/microsoft-dynamics-365-sales-tasks-api-openapi.yml
 - filename: microsoft-dynamics-365-sales-sales-orders-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Sales Sales Orders API
   slug: microsoft-dynamics-365-sales-sales-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-sales-orders-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-sales/openapi/microsoft-dynamics-365-sales-sales-orders-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -95,7 +95,7 @@ source_filename: microsoft-dynamics-365-sales-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 17 19:55:21 2027 GMT\n  hsts: false\n- host: learn.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 02:26:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/security/microsoft-dynamics-365-sales-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-dynamics-365-sales/security/microsoft-dynamics-365-sales-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - CRM

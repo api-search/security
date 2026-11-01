@@ -5,7 +5,7 @@ api_specs:
   label: Lund University Publications Search API
   slug: lund-publication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lund/refs/heads/main/openapi/lund-publication-api-openapi.yml
+  url: https://artifacts.apis.io/lund/openapi/lund-publication-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: lund-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.lunduniversity.lu.se\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 18 07:07:01 2026 GMT\n  hsts: false\n- host: lup.lub.lu.se\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 11:48:25 2026 GMT\n  hsts: false\n- host: portal.research.lu.se\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 08:42:15 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\ndomains:\n- domain: lu.se\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lund/refs/heads/main/security/lund-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lund/security/lund-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - University

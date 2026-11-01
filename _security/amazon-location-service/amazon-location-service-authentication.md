@@ -8,7 +8,55 @@ api_specs:
   label: Amazon Location Service Maps API
   slug: amazon-location-service-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-location-service/refs/heads/main/openapi/amazon-location-service-maps-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-location-service/openapi/amazon-location-service-maps-api-openapi.yml
+- filename: amazon-location-service-geofencing-api-openapi.yml
+  format: yaml
+  label: Amazon Location Service Location Service Geofencing API
+  slug: amazon-location-service-geofencing-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-location-service/openapi/amazon-location-service-geofencing-api-openapi.yml
+- filename: amazon-location-service-metadata-api-openapi.yml
+  format: yaml
+  label: Amazon Location Service Location Service Metadata API
+  slug: amazon-location-service-metadata-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-location-service/openapi/amazon-location-service-metadata-api-openapi.yml
+- filename: amazon-location-service-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Location Service Location Service Operations API
+  slug: amazon-location-service-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-location-service/openapi/amazon-location-service-operations-api-openapi.yml
+- filename: amazon-location-service-places-api-openapi.yml
+  format: yaml
+  label: Amazon Location Service Location Service Places API
+  slug: amazon-location-service-places-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-location-service/openapi/amazon-location-service-places-api-openapi.yml
+- filename: amazon-location-service-positions-api-openapi.yml
+  format: yaml
+  label: Amazon Location Service Location Service Positions API
+  slug: amazon-location-service-positions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-location-service/openapi/amazon-location-service-positions-api-openapi.yml
+- filename: amazon-location-service-routes-api-openapi.yml
+  format: yaml
+  label: Amazon Location Service Location Service Routes API
+  slug: amazon-location-service-routes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-location-service/openapi/amazon-location-service-routes-api-openapi.yml
+- filename: amazon-location-service-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Location Service Location Service Tags API
+  slug: amazon-location-service-tags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-location-service/openapi/amazon-location-service-tags-api-openapi.yml
+- filename: amazon-location-service-tracking-api-openapi.yml
+  format: yaml
+  label: Amazon Location Service Location Service Tracking API
+  slug: amazon-location-service-tracking-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-location-service/openapi/amazon-location-service-tracking-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +84,7 @@ source_filename: amazon-location-service-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-location-service-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: sigv4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4 authentication\n  sources:\n  - openapi/amazon-location-service-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-location-service/refs/heads/main/authentication/amazon-location-service-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-location-service/authentication/amazon-location-service-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Geocoding

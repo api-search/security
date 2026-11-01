@@ -8,67 +8,67 @@ api_specs:
   label: Nhost Authentication API
   slug: nhost-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-authentication-api-openapi.yml
 - filename: nhost-documentation-api-openapi.yml
   format: yaml
   label: Nhost Documentation API
   slug: nhost-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-documentation-api-openapi.yml
 - filename: nhost-excludeme-api-openapi.yml
   format: yaml
   label: Nhost Excludeme API
   slug: nhost-excludeme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-excludeme-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-excludeme-api-openapi.yml
 - filename: nhost-files-api-openapi.yml
   format: yaml
   label: Nhost Files API
   slug: nhost-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-files-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-files-api-openapi.yml
 - filename: nhost-operations-api-openapi.yml
   format: yaml
   label: Nhost Operations API
   slug: nhost-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-operations-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-operations-api-openapi.yml
 - filename: nhost-security-api-openapi.yml
   format: yaml
   label: Nhost Security API
   slug: nhost-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-security-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-security-api-openapi.yml
 - filename: nhost-session-api-openapi.yml
   format: yaml
   label: Nhost Session API
   slug: nhost-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-session-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-session-api-openapi.yml
 - filename: nhost-storage-api-openapi.yml
   format: yaml
   label: Nhost Storage API
   slug: nhost-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-storage-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-storage-api-openapi.yml
 - filename: nhost-system-api-openapi.yml
   format: yaml
   label: Nhost System API
   slug: nhost-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-system-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-system-api-openapi.yml
 - filename: nhost-user-api-openapi.yml
   format: yaml
   label: Nhost User API
   slug: nhost-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-user-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-user-api-openapi.yml
 - filename: nhost-verification-api-openapi.yml
   format: yaml
   label: Nhost Verification API
   slug: nhost-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-verification-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-verification-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -104,7 +104,7 @@ source_filename: nhost-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/nhost-authentication-openapi.yml, openapi/nhost-storage-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer authentication with JWT access token. Used to authenticate requests to\n    protected endpoints.\n  sources:\n  - openapi/nhost-authentication-openapi.yml\n  - openapi/nhost-storage-openapi.yml\n- name: X-Hasura-Admin-Secret\n  type: apiKey\n  in: header\n  parameter: X-Hasura-Admin-Secret\n  description: Hasura admin secret key for backend/administrative operations.\n  sources:\n  - openapi/nhost-storage-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/authentication/nhost-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nhost/authentication/nhost-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - GraphQL

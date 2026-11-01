@@ -8,19 +8,19 @@ api_specs:
   label: Modo Energy ERCOT API
   slug: modo-energy-ercot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modo-energy/refs/heads/main/openapi/modo-energy-ercot-api-openapi.yml
+  url: https://artifacts.apis.io/modo-energy/openapi/modo-energy-ercot-api-openapi.yml
 - filename: modo-energy-gb-api-openapi.yml
   format: yaml
   label: Modo Energy GB API
   slug: modo-energy-gb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modo-energy/refs/heads/main/openapi/modo-energy-gb-api-openapi.yml
+  url: https://artifacts.apis.io/modo-energy/openapi/modo-energy-gb-api-openapi.yml
 - filename: modo-energy-nem-api-openapi.yml
   format: yaml
   label: Modo Energy NEM API
   slug: modo-energy-nem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modo-energy/refs/heads/main/openapi/modo-energy-nem-api-openapi.yml
+  url: https://artifacts.apis.io/modo-energy/openapi/modo-energy-nem-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: modo-energy-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/modo-energy-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-Token\n  description: Public API token obtained from your Modo Energy account.\n  sources:\n  - openapi/modo-energy-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/modo-energy/refs/heads/main/authentication/modo-energy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/modo-energy/authentication/modo-energy-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Energy

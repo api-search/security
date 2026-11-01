@@ -26,7 +26,7 @@ source_filename: tuas-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tuas.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  1 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: tuas.com.au\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tuas/refs/heads/main/security/tuas-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tuas/security/tuas-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

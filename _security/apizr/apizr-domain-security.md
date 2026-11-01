@@ -5,43 +5,43 @@ api_specs:
   label: APIZR APIZR API
   slug: apizr-apizr-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apizr/refs/heads/main/openapi/apizr-apizr-api-api-openapi.yml
+  url: https://artifacts.apis.io/apizr/openapi/apizr-apizr-api-api-openapi.yml
 - filename: apizr-events-api-openapi.yml
   format: yaml
   label: APIZR Events API
   slug: apizr-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apizr/refs/heads/main/openapi/apizr-events-api-openapi.yml
+  url: https://artifacts.apis.io/apizr/openapi/apizr-events-api-openapi.yml
 - filename: apizr-flux-test-api-openapi.yml
   format: yaml
   label: APIZR Flux Test API
   slug: apizr-flux-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apizr/refs/heads/main/openapi/apizr-flux-test-api-openapi.yml
+  url: https://artifacts.apis.io/apizr/openapi/apizr-flux-test-api-openapi.yml
 - filename: apizr-oauth-api-openapi.yml
   format: yaml
   label: APIZR OAuth API
   slug: apizr-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apizr/refs/heads/main/openapi/apizr-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/apizr/openapi/apizr-oauth-api-openapi.yml
 - filename: apizr-order-api-openapi.yml
   format: yaml
   label: APIZR Order API
   slug: apizr-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apizr/refs/heads/main/openapi/apizr-order-api-openapi.yml
+  url: https://artifacts.apis.io/apizr/openapi/apizr-order-api-openapi.yml
 - filename: apizr-orders-api-openapi.yml
   format: yaml
   label: APIZR Orders API
   slug: apizr-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apizr/refs/heads/main/openapi/apizr-orders-api-openapi.yml
+  url: https://artifacts.apis.io/apizr/openapi/apizr-orders-api-openapi.yml
 - filename: apizr-webhooks-api-openapi.yml
   format: yaml
   label: APIZR Webhooks API
   slug: apizr-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apizr/refs/heads/main/openapi/apizr-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/apizr/openapi/apizr-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +71,7 @@ source_filename: apizr-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-16'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: apizr.fr\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 20:07:03 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: apizr.fr\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apizr/refs/heads/main/security/apizr-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apizr/security/apizr-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - iPaaS

@@ -5,43 +5,43 @@ api_specs:
   label: FOREX.com Account API
   slug: forex-com-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/openapi/forex-com-account-api-openapi.yml
+  url: https://artifacts.apis.io/forex-com/openapi/forex-com-account-api-openapi.yml
 - filename: forex-com-margin-api-openapi.yml
   format: yaml
   label: FOREX.com Margin API
   slug: forex-com-margin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/openapi/forex-com-margin-api-openapi.yml
+  url: https://artifacts.apis.io/forex-com/openapi/forex-com-margin-api-openapi.yml
 - filename: forex-com-market-api-openapi.yml
   format: yaml
   label: FOREX.com Market API
   slug: forex-com-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/openapi/forex-com-market-api-openapi.yml
+  url: https://artifacts.apis.io/forex-com/openapi/forex-com-market-api-openapi.yml
 - filename: forex-com-orders-api-openapi.yml
   format: yaml
   label: FOREX.com Orders API
   slug: forex-com-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/openapi/forex-com-orders-api-openapi.yml
+  url: https://artifacts.apis.io/forex-com/openapi/forex-com-orders-api-openapi.yml
 - filename: forex-com-positions-api-openapi.yml
   format: yaml
   label: FOREX.com Positions API
   slug: forex-com-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/openapi/forex-com-positions-api-openapi.yml
+  url: https://artifacts.apis.io/forex-com/openapi/forex-com-positions-api-openapi.yml
 - filename: forex-com-pricing-api-openapi.yml
   format: yaml
   label: FOREX.com Pricing API
   slug: forex-com-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/openapi/forex-com-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/forex-com/openapi/forex-com-pricing-api-openapi.yml
 - filename: forex-com-session-api-openapi.yml
   format: yaml
   label: FOREX.com Session API
   slug: forex-com-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/openapi/forex-com-session-api-openapi.yml
+  url: https://artifacts.apis.io/forex-com/openapi/forex-com-session-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,7 +81,7 @@ source_filename: forex-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.forex.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 19:42:06 2026 GMT\n  hsts: null\n- host: ciapi.cityindex.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 00:15:21 2026 GMT\n  hsts: null\ndomains:\n- domain: forex.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: cityindex.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/security/forex-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/forex-com/security/forex-com-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Foreign Exchange

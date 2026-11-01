@@ -5,25 +5,25 @@ api_specs:
   label: Assurant Claims API
   slug: assurant-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assurant/refs/heads/main/openapi/assurant-claims-api-openapi.yml
+  url: https://artifacts.apis.io/assurant/openapi/assurant-claims-api-openapi.yml
 - filename: assurant-enrollments-api-openapi.yml
   format: yaml
   label: Assurant Enrollments API
   slug: assurant-enrollments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assurant/refs/heads/main/openapi/assurant-enrollments-api-openapi.yml
+  url: https://artifacts.apis.io/assurant/openapi/assurant-enrollments-api-openapi.yml
 - filename: assurant-policies-api-openapi.yml
   format: yaml
   label: Assurant Policies API
   slug: assurant-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assurant/refs/heads/main/openapi/assurant-policies-api-openapi.yml
+  url: https://artifacts.apis.io/assurant/openapi/assurant-policies-api-openapi.yml
 - filename: assurant-products-api-openapi.yml
   format: yaml
   label: Assurant Products API
   slug: assurant-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assurant/refs/heads/main/openapi/assurant-products-api-openapi.yml
+  url: https://artifacts.apis.io/assurant/openapi/assurant-products-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -60,7 +60,7 @@ source_filename: assurant-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.assurant.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api-prod.portal.assurant.com\n  https: false\n- host: housing-apis.developer.assurant.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 17 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: assurant.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/assurant/refs/heads/main/security/assurant-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/assurant/security/assurant-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance

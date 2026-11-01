@@ -5,13 +5,13 @@ api_specs:
   label: Food Info Recipes API
   slug: food-info-recipesapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/food-info/refs/heads/main/openapi/food-info-recipesapi-api-openapi.yml
+  url: https://artifacts.apis.io/food-info/openapi/food-info-recipesapi-api-openapi.yml
 - filename: food-info-api-v1-api-openapi.yml
   format: yaml
   label: Food Info api v1 API
   slug: food-info-api-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/food-info/refs/heads/main/openapi/food-info-api-v1-api-openapi.yml
+  url: https://artifacts.apis.io/food-info/openapi/food-info-api-v1-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: food-info.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 14:04:23 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n  security_headers:\n    x-content-type-options: nosniff\n    x-frame-options: SAMEORIGIN\n    referrer-policy: no-referrer\n    permissions-policy: camera=(), microphone=(), geolocation=(), interest-cohort=()\n- host: api.food-info.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 14:04:23 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n  security_headers:\n    x-content-type-options: nosniff\n    x-frame-options: DENY\n    referrer-policy: strict-origin-when-cross-origin\n    permissions-policy: camera=(), microphone=(), geolocation=()\n    cross-origin-resource-policy: same-site\ndomains:\n- domain: food-info.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\nx-evidence:\n\
   \  fetched: '2026-08-04'\n  note: >-\n    HSTS and the response security headers were re-observed directly on 2026-08-04 with a live GET\n    (https://food-info.org/robots.txt and https://api.food-info.org/api/v1/nutrients). The scripted\n    HEAD probe recorded hsts: null because both hosts sit behind a Cloudflare managed challenge that\n    rejects non-browser HEAD requests; the values above supersede it.\n  hosts_edge: cloudflare in front of fly.io\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/food-info/refs/heads/main/security/food-info-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/food-info/security/food-info-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Nutrition

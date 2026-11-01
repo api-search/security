@@ -7,43 +7,43 @@ api_specs:
   label: Ostrom Auth API
   slug: ostrom-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/openapi/ostrom-auth-api-openapi.yml
+  url: https://artifacts.apis.io/ostrom/openapi/ostrom-auth-api-openapi.yml
 - filename: ostrom-contracts-api-openapi.yml
   format: yaml
   label: Ostrom Contracts API
   slug: ostrom-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/openapi/ostrom-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/ostrom/openapi/ostrom-contracts-api-openapi.yml
 - filename: ostrom-orders-api-openapi.yml
   format: yaml
   label: Ostrom Orders API
   slug: ostrom-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/openapi/ostrom-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ostrom/openapi/ostrom-orders-api-openapi.yml
 - filename: ostrom-prices-api-openapi.yml
   format: yaml
   label: Ostrom Prices API
   slug: ostrom-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/openapi/ostrom-prices-api-openapi.yml
+  url: https://artifacts.apis.io/ostrom/openapi/ostrom-prices-api-openapi.yml
 - filename: ostrom-products-api-openapi.yml
   format: yaml
   label: Ostrom Products API
   slug: ostrom-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/openapi/ostrom-products-api-openapi.yml
+  url: https://artifacts.apis.io/ostrom/openapi/ostrom-products-api-openapi.yml
 - filename: ostrom-users-api-openapi.yml
   format: yaml
   label: Ostrom Users API
   slug: ostrom-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/openapi/ostrom-users-api-openapi.yml
+  url: https://artifacts.apis.io/ostrom/openapi/ostrom-users-api-openapi.yml
 - filename: ostrom-webhooks-api-openapi.yml
   format: yaml
   label: Ostrom Webhooks API
   slug: ostrom-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/openapi/ostrom-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/ostrom/openapi/ostrom-webhooks-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -81,7 +81,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/ostrom-openapi-original.json\ndocs: https://docs.ostrom-api.io/reference/authentication\nnotes: >-\n  OAuth2 client-credentials grant. Client registers in the Developer Portal\n  (https://developer.ostrom-api.io/) to obtain a client_id/client_secret per\n  environment. Token request uses HTTP Basic auth (base64 client_id:client_secret)\n  with grant_type=client_credentials against the environment token endpoint\n  (auth.sandbox / auth.production). The returned access_token (Bearer, expires_in\n  ~3599s) authorizes calls. Roles USER (own data) and PARTNER (multi-user with consent).\ntoken_endpoints:\n  sandbox: https://auth.sandbox.ostrom-api.io/oauth2/token\n  production: https://auth.production.ostrom-api.io/oauth2/token\nroles:\n- USER\n- PARTNER\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: ClientAccessToken\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n\
   \    tokenUrl: https://auth.sandbox.ostrom-api.io/oauth2/token\n    scopes: 0\n  description: A `ClientAccessToken` is obtained via the [OAuth 2.0 Client Credentials grant](https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/)\n    and carries authorization to access all functionalities and data in your Ostrom account.\n    Full details at [The ClientAccessToken](/api/reference#getting-an-access-token)\n  sources:\n  - openapi/ostrom-openapi-original.json\n- name: OAuth2BasicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/ostrom-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/authentication/ostrom-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ostrom/authentication/ostrom-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

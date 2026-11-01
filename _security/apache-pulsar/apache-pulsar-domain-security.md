@@ -5,49 +5,49 @@ api_specs:
   label: Apache Pulsar Messaging API
   slug: apache-pulsar-messaging-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/asyncapi/pulsar-messaging.yml
+  url: https://artifacts.apis.io/apache-pulsar/asyncapi/pulsar-messaging.yml
 - filename: apache-pulsar-brokers-api-openapi.yml
   format: yaml
   label: Apache Pulsar Brokers API
   slug: apache-pulsar-brokers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/openapi/apache-pulsar-brokers-api-openapi.yml
+  url: https://artifacts.apis.io/apache-pulsar/openapi/apache-pulsar-brokers-api-openapi.yml
 - filename: apache-pulsar-clusters-api-openapi.yml
   format: yaml
   label: Apache Pulsar Clusters API
   slug: apache-pulsar-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/openapi/apache-pulsar-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/apache-pulsar/openapi/apache-pulsar-clusters-api-openapi.yml
 - filename: apache-pulsar-functions-api-openapi.yml
   format: yaml
   label: Apache Pulsar Functions API
   slug: apache-pulsar-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/openapi/apache-pulsar-functions-api-openapi.yml
+  url: https://artifacts.apis.io/apache-pulsar/openapi/apache-pulsar-functions-api-openapi.yml
 - filename: apache-pulsar-namespaces-api-openapi.yml
   format: yaml
   label: Apache Pulsar Namespaces API
   slug: apache-pulsar-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/openapi/apache-pulsar-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/apache-pulsar/openapi/apache-pulsar-namespaces-api-openapi.yml
 - filename: apache-pulsar-subscriptions-api-openapi.yml
   format: yaml
   label: Apache Pulsar Subscriptions API
   slug: apache-pulsar-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/openapi/apache-pulsar-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/apache-pulsar/openapi/apache-pulsar-subscriptions-api-openapi.yml
 - filename: apache-pulsar-tenants-api-openapi.yml
   format: yaml
   label: Apache Pulsar Tenants API
   slug: apache-pulsar-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/openapi/apache-pulsar-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/apache-pulsar/openapi/apache-pulsar-tenants-api-openapi.yml
 - filename: apache-pulsar-topics-api-openapi.yml
   format: yaml
   label: Apache Pulsar Topics API
   slug: apache-pulsar-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/openapi/apache-pulsar-topics-api-openapi.yml
+  url: https://artifacts.apis.io/apache-pulsar/openapi/apache-pulsar-topics-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -81,7 +81,7 @@ source_filename: apache-pulsar-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pulsar.apache.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 23:33:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: apache.org\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 iodef \"mailto:root@apache.org\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/security/apache-pulsar-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apache-pulsar/security/apache-pulsar-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud-Native

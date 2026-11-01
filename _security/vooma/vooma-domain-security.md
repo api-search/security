@@ -5,61 +5,61 @@ api_specs:
   label: Vooma Carriers API
   slug: vooma-carriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-carriers-api-openapi.yml
+  url: https://artifacts.apis.io/vooma/openapi/vooma-carriers-api-openapi.yml
 - filename: vooma-contacts-api-openapi.yml
   format: yaml
   label: Vooma Contacts API
   slug: vooma-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/vooma/openapi/vooma-contacts-api-openapi.yml
 - filename: vooma-customers-api-openapi.yml
   format: yaml
   label: Vooma Customers API
   slug: vooma-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-customers-api-openapi.yml
+  url: https://artifacts.apis.io/vooma/openapi/vooma-customers-api-openapi.yml
 - filename: vooma-locations-api-openapi.yml
   format: yaml
   label: Vooma Locations API
   slug: vooma-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-locations-api-openapi.yml
+  url: https://artifacts.apis.io/vooma/openapi/vooma-locations-api-openapi.yml
 - filename: vooma-movements-api-openapi.yml
   format: yaml
   label: Vooma Movements API
   slug: vooma-movements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-movements-api-openapi.yml
+  url: https://artifacts.apis.io/vooma/openapi/vooma-movements-api-openapi.yml
 - filename: vooma-quotes-api-openapi.yml
   format: yaml
   label: Vooma Quotes API
   slug: vooma-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/vooma/openapi/vooma-quotes-api-openapi.yml
 - filename: vooma-shipments-api-openapi.yml
   format: yaml
   label: Vooma Shipments API
   slug: vooma-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/vooma/openapi/vooma-shipments-api-openapi.yml
 - filename: vooma-tracking-status-api-openapi.yml
   format: yaml
   label: Vooma Tracking Status API
   slug: vooma-tracking-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-tracking-status-api-openapi.yml
+  url: https://artifacts.apis.io/vooma/openapi/vooma-tracking-status-api-openapi.yml
 - filename: vooma-webhooks-api-openapi.yml
   format: yaml
   label: Vooma Webhooks API
   slug: vooma-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/vooma/openapi/vooma-webhooks-api-openapi.yml
 - filename: vooma-api-api-openapi.yml
   format: yaml
   label: Vooma API
   slug: vooma-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-api-api-openapi.yml
+  url: https://artifacts.apis.io/vooma/openapi/vooma-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -106,7 +106,7 @@ source_filename: vooma-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.vooma.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 23:02:05 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.vooma.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 07:55:03 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.vooma.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: vooma.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: vooma.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/security/vooma-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vooma/security/vooma-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

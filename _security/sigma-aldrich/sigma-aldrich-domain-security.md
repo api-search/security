@@ -5,25 +5,25 @@ api_specs:
   label: Sigma-Aldrich Pricing and Availability API
   slug: sigma-aldrich-pricing-and-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/openapi/sigma-aldrich-pricing-and-availability-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-aldrich/openapi/sigma-aldrich-pricing-and-availability-api-openapi.yml
 - filename: sigma-aldrich-products-api-openapi.yml
   format: yaml
   label: Sigma-Aldrich Products API
   slug: sigma-aldrich-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/openapi/sigma-aldrich-products-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-aldrich/openapi/sigma-aldrich-products-api-openapi.yml
 - filename: sigma-aldrich-safety-data-sheets-api-openapi.yml
   format: yaml
   label: Sigma-Aldrich Safety Data Sheets API
   slug: sigma-aldrich-safety-data-sheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/openapi/sigma-aldrich-safety-data-sheets-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-aldrich/openapi/sigma-aldrich-safety-data-sheets-api-openapi.yml
 - filename: sigma-aldrich-structures-api-openapi.yml
   format: yaml
   label: Sigma-Aldrich Structures API
   slug: sigma-aldrich-structures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/openapi/sigma-aldrich-structures-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-aldrich/openapi/sigma-aldrich-structures-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: sigma-aldrich-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sigmaaldrich.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 23:59:59 2026 GMT\n  hsts: null\n- host: api.sigmaaldrich.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: sigmaaldrich.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/security/sigma-aldrich-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sigma-aldrich/security/sigma-aldrich-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Life Sciences

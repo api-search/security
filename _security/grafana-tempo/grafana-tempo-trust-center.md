@@ -5,37 +5,37 @@ api_specs:
   label: Grafana Tempo Echo API
   slug: grafana-tempo-echo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/openapi/grafana-tempo-echo-api-openapi.yml
+  url: https://artifacts.apis.io/grafana-tempo/openapi/grafana-tempo-echo-api-openapi.yml
 - filename: grafana-tempo-metrics-api-openapi.yml
   format: yaml
   label: Grafana Tempo Metrics API
   slug: grafana-tempo-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/openapi/grafana-tempo-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/grafana-tempo/openapi/grafana-tempo-metrics-api-openapi.yml
 - filename: grafana-tempo-ready-api-openapi.yml
   format: yaml
   label: Grafana Tempo Ready API
   slug: grafana-tempo-ready-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/openapi/grafana-tempo-ready-api-openapi.yml
+  url: https://artifacts.apis.io/grafana-tempo/openapi/grafana-tempo-ready-api-openapi.yml
 - filename: grafana-tempo-search-api-openapi.yml
   format: yaml
   label: Grafana Tempo Search API
   slug: grafana-tempo-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/openapi/grafana-tempo-search-api-openapi.yml
+  url: https://artifacts.apis.io/grafana-tempo/openapi/grafana-tempo-search-api-openapi.yml
 - filename: grafana-tempo-status-api-openapi.yml
   format: yaml
   label: Grafana Tempo Status API
   slug: grafana-tempo-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/openapi/grafana-tempo-status-api-openapi.yml
+  url: https://artifacts.apis.io/grafana-tempo/openapi/grafana-tempo-status-api-openapi.yml
 - filename: grafana-tempo-traces-api-openapi.yml
   format: yaml
   label: Grafana Tempo Traces API
   slug: grafana-tempo-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/openapi/grafana-tempo-traces-api-openapi.yml
+  url: https://artifacts.apis.io/grafana-tempo/openapi/grafana-tempo-traces-api-openapi.yml
 certification_count: 6
 certifications:
 - SOC 2
@@ -57,7 +57,7 @@ source_filename: grafana-tempo-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.grafana.com/\nurl: https://trust.grafana.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- PCI DSS\n- FedRAMP\n- GDPR\n- CSA STAR\nevidence:\n- source: https://trust.grafana.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - pci dss\n  - pci-dss\n  - fedramp\n  - trust center\n  - gdpr\n  - csa star\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/security/grafana-tempo-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/grafana-tempo/security/grafana-tempo-trust-center.yml
 summary_line: SOC 2, ISO 27001, PCI DSS, FedRAMP, GDPR, CSA STAR
 tags:
 - Distributed Tracing

@@ -37,7 +37,7 @@ source_filename: glife-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: glife.com.sg\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 07:12:11 2026 GMT\n  hsts: false\n- host: api-sg.glifeware.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 22:16:41 2026 GMT\n  hsts: false\ndomains:\n- domain: glife.com.sg\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: glifeware.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/glife/refs/heads/main/security/glife-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/glife/security/glife-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

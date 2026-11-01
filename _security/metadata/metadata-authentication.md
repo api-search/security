@@ -7,13 +7,13 @@ api_specs:
   label: Metadata Health API
   slug: metadata-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metadata/refs/heads/main/openapi/metadata-health-api-openapi.yml
+  url: https://artifacts.apis.io/metadata/openapi/metadata-health-api-openapi.yml
 - filename: metadata-mcp-api-openapi.yml
   format: yaml
   label: Metadata MCP API
   slug: metadata-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metadata/refs/heads/main/openapi/metadata-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/metadata/openapi/metadata-mcp-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: https://metadat
   \ S256\n  issuer: https://mcp-server.metadata.io/\n  authorization_endpoint: https://mcp-server.metadata.io/authorize\n  token_endpoint: https://mcp-server.metadata.io/token\n  registration_endpoint: https://mcp-server.metadata.io/register\n  revocation_endpoint: https://mcp-server.metadata.io/revoke\n  grant_types:\n  - authorization_code\n  - refresh_token\n  token_endpoint_auth_methods:\n  - client_secret_post\n  - client_secret_basic\n  - private_key_jwt\n  - none\n  scopes_supported:\n  - openid\n  - offline_access\n  dynamic_client_registration: true\n  client_id_metadata_document_supported: true\n  method: probed\n  source: https://mcp-server.metadata.io/.well-known/oauth-authorization-server\n  note: RFC 8414 authorization-server metadata and RFC 9728 protected-resource metadata are both served\n    anonymously. The OAuth scopes_supported (openid, offline_access) are the transport-level scopes and\n    are DISTINCT from the seven product permission scopes documented for API keys\
   \ — see scopes/metadata-scopes.yml.\nheaders:\n- name: Authorization\n  value: Bearer <METADATA_API_KEY>\n  required: true\n- name: X-Account-ID\n  required: conditional\n  note: Required on every call for users with access to multiple Metadata accounts (agencies, holding\n    companies). Call list_user_accounts first to enumerate them.\nrotation:\n  cadence_recommended: quarterly\n  triggers:\n  - employee or contractor offboarding\n  - suspected key leak (logs, shared screen, repo commit)\n  - scope expansion or reduction for the agent\n  atomic: true\n  grace_window: the old key stays valid for 15 minutes after a new one is issued; older keys are hard-revoked\n    after the grace window\n  self_service: true\n  note: Docs state to rotate rather than contact support when a key is lost.\nguidance:\n- treat tokens like passwords\n- never commit to git\n- never log them\n- never paste into chat\n- name each key after the agent that will use it (claude-code-gil, hermes-prod, paperclip-sandbox)\n\
   - scope keys to limit blast radius — an analytics-only key should not carry launch permissions\ninconsistency_note: The quickstart says to mint keys at app.metadataone.com; the authentication page says\n  platform.metadata.io. Both hosts are live and both are linked from the metadata.io nav (\"AI agency\"\n  and \"Classic view\" respectively). Recorded as published; not reconciled by API Evangelist.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metadata/refs/heads/main/authentication/metadata-authentication.yml
+source_yaml_url: https://artifacts.apis.io/metadata/authentication/metadata-authentication.yml
 summary_line: 2 schemes
 tags:
 - Company

@@ -5,49 +5,49 @@ api_specs:
   label: PDFShift Account API
   slug: pdfshift-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-account-api-openapi.yml
+  url: https://artifacts.apis.io/pdfshift/openapi/pdfshift-account-api-openapi.yml
 - filename: pdfshift-convert-api-openapi.yml
   format: yaml
   label: PDFShift Convert API
   slug: pdfshift-convert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-convert-api-openapi.yml
+  url: https://artifacts.apis.io/pdfshift/openapi/pdfshift-convert-api-openapi.yml
 - filename: pdfshift-credits-api-openapi.yml
   format: yaml
   label: PDFShift Credits API
   slug: pdfshift-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-credits-api-openapi.yml
+  url: https://artifacts.apis.io/pdfshift/openapi/pdfshift-credits-api-openapi.yml
 - filename: pdfshift-details-api-openapi.yml
   format: yaml
   label: PDFShift Details API
   slug: pdfshift-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-details-api-openapi.yml
+  url: https://artifacts.apis.io/pdfshift/openapi/pdfshift-details-api-openapi.yml
 - filename: pdfshift-invoices-api-openapi.yml
   format: yaml
   label: PDFShift Invoices API
   slug: pdfshift-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/pdfshift/openapi/pdfshift-invoices-api-openapi.yml
 - filename: pdfshift-logs-api-openapi.yml
   format: yaml
   label: PDFShift Logs API
   slug: pdfshift-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-logs-api-openapi.yml
+  url: https://artifacts.apis.io/pdfshift/openapi/pdfshift-logs-api-openapi.yml
 - filename: pdfshift-templates-api-openapi.yml
   format: yaml
   label: PDFShift Templates API
   slug: pdfshift-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-templates-api-openapi.yml
+  url: https://artifacts.apis.io/pdfshift/openapi/pdfshift-templates-api-openapi.yml
 - filename: pdfshift-usage-api-openapi.yml
   format: yaml
   label: PDFShift Usage API
   slug: pdfshift-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-usage-api-openapi.yml
+  url: https://artifacts.apis.io/pdfshift/openapi/pdfshift-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -87,7 +87,7 @@ source_filename: pdfshift-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pdfshift.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 01:21:03 2026 GMT\n  hsts: false\n- host: docs.pdfshift.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 06:43:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.pdfshift.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 23:10:06 2026 GMT\n  hsts: false\ndomains:\n- domain: pdfshift.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/security/pdfshift-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pdfshift/security/pdfshift-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - PDF

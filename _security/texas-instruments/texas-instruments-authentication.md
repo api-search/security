@@ -7,37 +7,37 @@ api_specs:
   label: Texas Instruments Financial API
   slug: texas-instruments-financial-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/texas-instruments/refs/heads/main/openapi/texas-instruments-financial-api-openapi.yml
+  url: https://artifacts.apis.io/texas-instruments/openapi/texas-instruments-financial-api-openapi.yml
 - filename: texas-instruments-orders-api-openapi.yml
   format: yaml
   label: Texas Instruments Orders API
   slug: texas-instruments-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/texas-instruments/refs/heads/main/openapi/texas-instruments-orders-api-openapi.yml
+  url: https://artifacts.apis.io/texas-instruments/openapi/texas-instruments-orders-api-openapi.yml
 - filename: texas-instruments-product-information-api-openapi.yml
   format: yaml
   label: Texas Instruments Product Information API
   slug: texas-instruments-product-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/texas-instruments/refs/heads/main/openapi/texas-instruments-product-information-api-openapi.yml
+  url: https://artifacts.apis.io/texas-instruments/openapi/texas-instruments-product-information-api-openapi.yml
 - filename: texas-instruments-product-information-orchestrated-api-openapi.yml
   format: yaml
   label: Texas Instruments Product Information Orchestrated API
   slug: texas-instruments-product-information-orchestrated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/texas-instruments/refs/heads/main/openapi/texas-instruments-product-information-orchestrated-api-openapi.yml
+  url: https://artifacts.apis.io/texas-instruments/openapi/texas-instruments-product-information-orchestrated-api-openapi.yml
 - filename: texas-instruments-products-api-openapi.yml
   format: yaml
   label: Texas Instruments Products API
   slug: texas-instruments-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/texas-instruments/refs/heads/main/openapi/texas-instruments-products-api-openapi.yml
+  url: https://artifacts.apis.io/texas-instruments/openapi/texas-instruments-products-api-openapi.yml
 - filename: texas-instruments-shipments-api-openapi.yml
   format: yaml
   label: Texas Instruments Shipments API
   slug: texas-instruments-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/texas-instruments/refs/heads/main/openapi/texas-instruments-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/texas-instruments/openapi/texas-instruments-shipments-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -69,7 +69,7 @@ source_filename: texas-instruments-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/texas-instruments-product-information-openapi.yml, openapi/texas-instruments-store-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://transact.ti.com/v1/oauth/accesstoken\n    scopes: 0\n  description: OAuth 2.0 client credentials flow. Obtain access token using client_id and client_secret\n    from your myTI developer account.\n  sources:\n  - openapi/texas-instruments-product-information-openapi.yml\n  - openapi/texas-instruments-store-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/texas-instruments/refs/heads/main/authentication/texas-instruments-authentication.yml
+source_yaml_url: https://artifacts.apis.io/texas-instruments/authentication/texas-instruments-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Electronics

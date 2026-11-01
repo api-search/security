@@ -5,13 +5,13 @@ api_specs:
   label: LI-COR Intermediate Data API
   slug: li-cor-intermediate-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/openapi/li-cor-intermediate-data-api-openapi.yml
+  url: https://artifacts.apis.io/li-cor-intermediate/openapi/li-cor-intermediate-data-api-openapi.yml
 - filename: li-cor-intermediate-newa-api-openapi.yml
   format: yaml
   label: LI-COR Intermediate Newa API
   slug: li-cor-intermediate-newa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/openapi/li-cor-intermediate-newa-api-openapi.yml
+  url: https://artifacts.apis.io/li-cor-intermediate/openapi/li-cor-intermediate-newa-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -54,7 +54,7 @@ source_filename: li-cor-intermediate-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.licor.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 04:13:29 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.licor.cloud\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: licor.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: licor.cloud\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/security/li-cor-intermediate-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/li-cor-intermediate/security/li-cor-intermediate-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

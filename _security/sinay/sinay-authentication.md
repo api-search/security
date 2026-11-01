@@ -7,37 +7,37 @@ api_specs:
   label: Sinay CO2 Emission API
   slug: sinay-co2-emission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/openapi/sinay-co2-emission-api-openapi.yml
+  url: https://artifacts.apis.io/sinay/openapi/sinay-co2-emission-api-openapi.yml
 - filename: sinay-eta-api-openapi.yml
   format: yaml
   label: Sinay ETA API
   slug: sinay-eta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/openapi/sinay-eta-api-openapi.yml
+  url: https://artifacts.apis.io/sinay/openapi/sinay-eta-api-openapi.yml
 - filename: sinay-metocean-api-openapi.yml
   format: yaml
   label: Sinay Metocean API
   slug: sinay-metocean-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/openapi/sinay-metocean-api-openapi.yml
+  url: https://artifacts.apis.io/sinay/openapi/sinay-metocean-api-openapi.yml
 - filename: sinay-port-congestion-api-openapi.yml
   format: yaml
   label: Sinay Port Congestion API
   slug: sinay-port-congestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/openapi/sinay-port-congestion-api-openapi.yml
+  url: https://artifacts.apis.io/sinay/openapi/sinay-port-congestion-api-openapi.yml
 - filename: sinay-ports-and-vessels-api-openapi.yml
   format: yaml
   label: Sinay Ports and Vessels API
   slug: sinay-ports-and-vessels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/openapi/sinay-ports-and-vessels-api-openapi.yml
+  url: https://artifacts.apis.io/sinay/openapi/sinay-ports-and-vessels-api-openapi.yml
 - filename: sinay-usage-api-openapi.yml
   format: yaml
   label: Sinay Usage API
   slug: sinay-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/openapi/sinay-usage-api-openapi.yml
+  url: https://artifacts.apis.io/sinay/openapi/sinay-usage-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -67,7 +67,7 @@ source_filename: sinay-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: derived\nsource: openapi/sinay-openapi.yml\nsummary:\n  types:\n  - apiKey\nschemes:\n- name: ApiKey\n  type: apiKey\n  in: header\n  keyName: API_KEY\n  description: >-\n    Every Sinay API endpoint requires authentication with an API key. The key is\n    sent in a request header named API_KEY (for example `API_KEY: your-api-key`).\n    The same scheme applies across all Sinay products (Ports & Vessels, Metocean,\n    CO2 Emission, ETA, Port Congestion). Create a free key on the Sinay Developers\n    Platform at https://developers.sinay.ai/. Confirmed from the live per-product\n    Swagger securitySchemes (apiKey / header / API_KEY) on 2026-07-12.\n  sources:\n  - openapi/sinay-openapi.yml\n  - https://api.sinay.ai/co2/api/v2/swagger.yaml\n  - https://developers.sinay.ai/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/authentication/sinay-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sinay/authentication/sinay-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Vessel Tracking

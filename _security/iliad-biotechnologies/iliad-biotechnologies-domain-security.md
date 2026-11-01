@@ -40,7 +40,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml hosts (2026-08-22)\nnote: >-\n  ILiAD runs two domains — iliadbio.com serves the public website, iliadbiotech.com carries\n  corporate mail (info@iliadbiotech.com) and 301s web traffic to iliadbio.com. Both were probed.\n  Neither publishes CAA records and neither is DNSSEC-signed; iliadbio.com sends no HSTS header\n  and has no SPF record, while iliadbiotech.com publishes SPF (Barracuda + Microsoft 365) and a\n  DMARC policy of quarantine. Absence of a record is recorded as measured, not inferred.\nhosts:\n- host: iliadbio.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 23 10:35:22 2026 GMT\n  hsts: false\n- host: iliadbiotech.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  9 18:18:09 2027 GMT\n  cert_issuer: GoDaddy TLS Intermediate CA DV - R1v1\n  hsts: false\ndomains:\n- domain: iliadbio.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy:\
   \ none\n- domain: iliadbiotech.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iliad-biotechnologies/refs/heads/main/security/iliad-biotechnologies-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/iliad-biotechnologies/security/iliad-biotechnologies-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

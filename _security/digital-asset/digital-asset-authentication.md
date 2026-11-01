@@ -7,25 +7,25 @@ api_specs:
   label: Digital Asset Common API
   slug: digital-asset-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digital-asset/refs/heads/main/openapi/digital-asset-common-api-openapi.yml
+  url: https://artifacts.apis.io/digital-asset/openapi/digital-asset-common-api-openapi.yml
 - filename: digital-asset-operator-api-openapi.yml
   format: yaml
   label: Digital Asset Operator API
   slug: digital-asset-operator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digital-asset/refs/heads/main/openapi/digital-asset-operator-api-openapi.yml
+  url: https://artifacts.apis.io/digital-asset/openapi/digital-asset-operator-api-openapi.yml
 - filename: digital-asset-public-api-openapi.yml
   format: yaml
   label: Digital Asset Public API
   slug: digital-asset-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digital-asset/refs/heads/main/openapi/digital-asset-public-api-openapi.yml
+  url: https://artifacts.apis.io/digital-asset/openapi/digital-asset-public-api-openapi.yml
 - filename: digital-asset-registry-api-openapi.yml
   format: yaml
   label: Digital Asset Registry API
   slug: digital-asset-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digital-asset/refs/heads/main/openapi/digital-asset-registry-api-openapi.yml
+  url: https://artifacts.apis.io/digital-asset/openapi/digital-asset-registry-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: digital-asset-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: derived\nsource: openapi/digital-asset-utilities-openapi.yml, openapi/digital-asset-utilities-runtime-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/digital-asset-utilities-openapi.yml\n  - openapi/digital-asset-utilities-runtime-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/digital-asset/refs/heads/main/authentication/digital-asset-authentication.yml
+source_yaml_url: https://artifacts.apis.io/digital-asset/authentication/digital-asset-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Blockchain

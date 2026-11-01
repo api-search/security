@@ -8,13 +8,13 @@ api_specs:
   label: Futureverse Campaigns API
   slug: futureverse-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/futureverse/refs/heads/main/openapi/futureverse-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/futureverse/openapi/futureverse-campaigns-api-openapi.yml
 - filename: futureverse-quests-api-openapi.yml
   format: yaml
   label: Futureverse Quests API
   slug: futureverse-quests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/futureverse/refs/heads/main/openapi/futureverse-quests-api-openapi.yml
+  url: https://artifacts.apis.io/futureverse/openapi/futureverse-quests-api-openapi.yml
 auth_types:
 - openIdConnect
 - oauth2
@@ -170,7 +170,7 @@ source_yaml: "generated: '2026-08-16'\nmethod: searched\nsource: >-\n  https://d
   \ by the asset owner's wallet and submitted via\n      the submitTransaction / assetMutation mutations. Replay protection is a per-address nonce\n      fetched with the getNonceForChainAddress query.\n    nonce_query: getNonceForChainAddress\n    message_format: ARTM (Asset Rights Token Metadata)\n    library: '@futureverse/artm'\n    docs: https://docs.therootnetwork.com/asset-register/guides/asset-register-transaction\n\n  - name: questApiKey\n    type: apiKey\n    api: RootRewards Quest API\n    in: header\n    parameter: x-api-key\n    key_prefix: sk_\n    description: >-\n      Quest API key, prefixed `sk_`, bound to the quest owner account. Required on GET\n      /quests/{questId} and POST /quests/{questId}; NOT required on GET /quests or GET\n      /campaigns/{id}. Issued privately on Quest-application approval.\n    sources:\n      - openapi/futureverse-rootrewards-quest-api-openapi.yml\n      - https://docs.therootnetwork.com/rootrewards/api-reference\n\n  - name: webhookDeliveryApiKey\n\
   \    type: apiKey\n    api: Futureverse Asset Register API\n    in: header\n    parameter: API_KEY\n    direction: inbound-to-subscriber\n    description: >-\n      When the Asset Register Subscription Service POSTs an event to a subscriber's webhook\n      endpoint, it sets an API_KEY header so the subscriber can verify the request origin. The key\n      is minted by createWebhookEndpoint and returned as the `apiKey` field.\n    note: >-\n      This is a shared-secret header, not a signed payload — there is no HMAC signature scheme\n      (no Stripe-style `t=…,v1=…` header and no timestamp), so a subscriber cannot detect replay.\n    docs: https://docs.therootnetwork.com/asset-register/guides/subscriptions\n\n  - name: nodeRpcAnonymous\n    type: none\n    api: The Root Network Node RPC\n    description: >-\n      The public archive nodes at root.rootnet.live and porcini.rootnet.app accept anonymous\n      JSON-RPC POSTs. The documentation warns they are \"not for sustained or business\
   \ use\" and\n      recommends running a node or using a third-party RPC service.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/futureverse/refs/heads/main/authentication/futureverse-authentication.yml
+source_yaml_url: https://artifacts.apis.io/futureverse/authentication/futureverse-authentication.yml
 summary_line: openIdConnect/oauth2/apiKey/http · 6 schemes
 tags:
 - Blockchain

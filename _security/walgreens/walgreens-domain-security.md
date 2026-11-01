@@ -5,37 +5,37 @@ api_specs:
   label: Walgreens Appointments API
   slug: walgreens-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walgreens/refs/heads/main/openapi/walgreens-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/walgreens/openapi/walgreens-appointments-api-openapi.yml
 - filename: walgreens-eligibility-api-openapi.yml
   format: yaml
   label: Walgreens Eligibility API
   slug: walgreens-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walgreens/refs/heads/main/openapi/walgreens-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/walgreens/openapi/walgreens-eligibility-api-openapi.yml
 - filename: walgreens-patients-api-openapi.yml
   format: yaml
   label: Walgreens Patients API
   slug: walgreens-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walgreens/refs/heads/main/openapi/walgreens-patients-api-openapi.yml
+  url: https://artifacts.apis.io/walgreens/openapi/walgreens-patients-api-openapi.yml
 - filename: walgreens-refills-api-openapi.yml
   format: yaml
   label: Walgreens Refills API
   slug: walgreens-refills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walgreens/refs/heads/main/openapi/walgreens-refills-api-openapi.yml
+  url: https://artifacts.apis.io/walgreens/openapi/walgreens-refills-api-openapi.yml
 - filename: walgreens-stores-api-openapi.yml
   format: yaml
   label: Walgreens Stores API
   slug: walgreens-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walgreens/refs/heads/main/openapi/walgreens-stores-api-openapi.yml
+  url: https://artifacts.apis.io/walgreens/openapi/walgreens-stores-api-openapi.yml
 - filename: walgreens-transfers-api-openapi.yml
   format: yaml
   label: Walgreens Transfers API
   slug: walgreens-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walgreens/refs/heads/main/openapi/walgreens-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/walgreens/openapi/walgreens-transfers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: walgreens-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.walgreens.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 27 23:59:59 2026 GMT\n  hsts: false\n- host: developer.walgreens.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 27 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 86400\n- host: services.walgreens.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 27 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: walgreens.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/walgreens/refs/heads/main/security/walgreens-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/walgreens/security/walgreens-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Pharmacy

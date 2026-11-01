@@ -5,13 +5,13 @@ api_specs:
   label: LibreTranslate Misc API
   slug: libre-translate-misc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/libre-translate/refs/heads/main/openapi/libre-translate-misc-api-openapi.yml
+  url: https://artifacts.apis.io/libre-translate/openapi/libre-translate-misc-api-openapi.yml
 - filename: libre-translate-translate-api-openapi.yml
   format: yaml
   label: LibreTranslate Translate API
   slug: libre-translate-translate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/libre-translate/refs/heads/main/openapi/libre-translate-translate-api-openapi.yml
+  url: https://artifacts.apis.io/libre-translate/openapi/libre-translate-translate-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +40,7 @@ source_filename: libre-translate-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: libretranslate.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 12:07:55 2026 GMT\n  hsts: false\ndomains:\n- domain: libretranslate.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/libre-translate/refs/heads/main/security/libre-translate-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/libre-translate/security/libre-translate-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Translation

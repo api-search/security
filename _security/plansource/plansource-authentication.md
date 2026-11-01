@@ -8,55 +8,55 @@ api_specs:
   label: PlanSource ACA API
   slug: plansource-aca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-aca-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-aca-api-openapi.yml
 - filename: plansource-administrators-api-openapi.yml
   format: yaml
   label: PlanSource Administrators API
   slug: plansource-administrators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-administrators-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-administrators-api-openapi.yml
 - filename: plansource-collections-api-openapi.yml
   format: yaml
   label: PlanSource Collections API
   slug: plansource-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-collections-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-collections-api-openapi.yml
 - filename: plansource-coverage-api-openapi.yml
   format: yaml
   label: PlanSource Coverage API
   slug: plansource-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-coverage-api-openapi.yml
 - filename: plansource-demographic-api-openapi.yml
   format: yaml
   label: PlanSource Demographic API
   slug: plansource-demographic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-demographic-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-demographic-api-openapi.yml
 - filename: plansource-eoi-api-openapi.yml
   format: yaml
   label: PlanSource EOI API
   slug: plansource-eoi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-eoi-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-eoi-api-openapi.yml
 - filename: plansource-page-content-api-openapi.yml
   format: yaml
   label: PlanSource Page Content API
   slug: plansource-page-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-page-content-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-page-content-api-openapi.yml
 - filename: plansource-payroll-api-openapi.yml
   format: yaml
   label: PlanSource Payroll API
   slug: plansource-payroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-payroll-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-payroll-api-openapi.yml
 - filename: plansource-security-api-openapi.yml
   format: yaml
   label: PlanSource Security API
   slug: plansource-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-security-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-security-api-openapi.yml
 auth_types:
 - oauth2
 - apiKey
@@ -141,7 +141,7 @@ source_yaml: "generated: '2026-08-06'\nmethod: searched\nsource:\n- openapi/plan
   \    scopes: 1\n  sources:\n  - openapi/plansource-admin-api-openapi-original.json\n- name: authString\n  type: apiKey\n  in: header\n  parameter: AuthenticationString\n  surface: Admin API\n  note: Legacy scheme. Required together with the Signature header - the spec's second security requirement\n    lists both, so neither header authenticates on its own.\n  sources:\n  - openapi/plansource-admin-api-openapi-original.json\n- name: signature\n  type: apiKey\n  in: header\n  parameter: Signature\n  surface: Admin API\n  note: Request-signature companion to AuthenticationString.\n  sources:\n  - openapi/plansource-admin-api-openapi-original.json\n- name: plansource-sso-oidc\n  type: openIdConnect\n  surface: end-user SSO\n  discovery: https://api.plansource.com/.well-known/openid-configuration\n  authorization_endpoint: https://api.plansource.com/sso/oauth2/authorize\n  token_endpoint: https://api.plansource.com/sso/oauth2/token\n  userinfo_endpoint: https://api.plansource.com/sso/oauth2/user_info\n\
   \  token_endpoint_auth_methods_supported:\n  - private_key_jwt\n  id_token_signing_alg_values_supported:\n  - RS256\n  grant_types_supported:\n  - code\n  response_types_supported:\n  - token id_token\n  sources:\n  - well-known/plansource-openid-configuration.json\n  deviations:\n  - issuer is \".plansource.com\", not an https URL\n  - jwks_uri holds an inline JWK object instead of a URI\n  - claim_types_supported is a string, not an array\n- name: plansource-sso-saml2\n  type: saml2\n  surface: end-user SSO\n  docs: https://developer.plansource.com/docs/saml-20-sso-implementation\n  note: SAMLResponse / RelayState / Cookie appear as explicit header parameters on the SSO operations\n    in the spec.\n  sources:\n  - openapi/plansource-admin-api-openapi-original.json\n  - https://developer.plansource.com/docs/saml-20-sso-implementation\ncredential_issuance:\n  self_serve: false\n  note: API credentials (lookup_code, plansource_admin, secret) are provisioned by PlanSource, not self-issued.\n\
   \    Partners request them through their PlanSource administrator contact or dev.support@plansource.com.\n  contact: dev.support@plansource.com\nmcp:\n  url: https://developer.plansource.com/mcp\n  scheme: OAuth 2.0\n  protected_resource_metadata: https://developer.plansource.com/.well-known/oauth-protected-resource/mcp\n  authorization_servers:\n  - https://dash.readme.com/oidc\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/authentication/plansource-authentication.yml
+source_yaml_url: https://artifacts.apis.io/plansource/authentication/plansource-authentication.yml
 summary_line: oauth2/apiKey/openIdConnect/saml2 · 5 schemes
 tags:
 - Employee Benefits

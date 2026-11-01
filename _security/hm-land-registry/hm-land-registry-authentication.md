@@ -8,85 +8,85 @@ api_specs:
   label: HM Land Registry Application information API
   slug: hm-land-registry-application-information-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-application-information-api-api-openapi.yml
+  url: https://artifacts.apis.io/hm-land-registry/openapi/hm-land-registry-application-information-api-api-openapi.yml
 - filename: hm-land-registry-attach-a-document-api-openapi.yml
   format: yaml
   label: HM Land Registry Attach a document API
   slug: hm-land-registry-attach-a-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-attach-a-document-api-openapi.yml
+  url: https://artifacts.apis.io/hm-land-registry/openapi/hm-land-registry-attach-a-document-api-openapi.yml
 - filename: hm-land-registry-attach-a-message-api-openapi.yml
   format: yaml
   label: HM Land Registry Attach a message API
   slug: hm-land-registry-attach-a-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-attach-a-message-api-openapi.yml
+  url: https://artifacts.apis.io/hm-land-registry/openapi/hm-land-registry-attach-a-message-api-openapi.yml
 - filename: hm-land-registry-datasets-api-openapi.yml
   format: yaml
   label: HM Land Registry Datasets API
   slug: hm-land-registry-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/hm-land-registry/openapi/hm-land-registry-datasets-api-openapi.yml
 - filename: hm-land-registry-download-a-document-api-api-openapi.yml
   format: yaml
   label: HM Land Registry Download a document API
   slug: hm-land-registry-download-a-document-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-download-a-document-api-api-openapi.yml
+  url: https://artifacts.apis.io/hm-land-registry/openapi/hm-land-registry-download-a-document-api-api-openapi.yml
 - filename: hm-land-registry-draft-titles-api-openapi.yml
   format: yaml
   label: HM Land Registry Draft Titles API
   slug: hm-land-registry-draft-titles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-draft-titles-api-openapi.yml
+  url: https://artifacts.apis.io/hm-land-registry/openapi/hm-land-registry-draft-titles-api-openapi.yml
 - filename: hm-land-registry-ecd-api-openapi.yml
   format: yaml
   label: HM Land Registry ECD API
   slug: hm-land-registry-ecd-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-ecd-api-openapi.yml
+  url: https://artifacts.apis.io/hm-land-registry/openapi/hm-land-registry-ecd-api-openapi.yml
 - filename: hm-land-registry-notifications-api-api-openapi.yml
   format: yaml
   label: HM Land Registry Notifications API
   slug: hm-land-registry-notifications-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-notifications-api-api-openapi.yml
+  url: https://artifacts.apis.io/hm-land-registry/openapi/hm-land-registry-notifications-api-api-openapi.yml
 - filename: hm-land-registry-official-search-of-whole-with-data-api-openapi.yml
   format: yaml
   label: HM Land Registry Official Search of Whole with Data API
   slug: hm-land-registry-official-search-of-whole-with-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-official-search-of-whole-with-data-api-openapi.yml
+  url: https://artifacts.apis.io/hm-land-registry/openapi/hm-land-registry-official-search-of-whole-with-data-api-openapi.yml
 - filename: hm-land-registry-registered-proprietor-names-api-openapi.yml
   format: yaml
   label: HM Land Registry Registered Proprietor Names API
   slug: hm-land-registry-registered-proprietor-names-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-registered-proprietor-names-api-openapi.yml
+  url: https://artifacts.apis.io/hm-land-registry/openapi/hm-land-registry-registered-proprietor-names-api-openapi.yml
 - filename: hm-land-registry-send-a-document-api-api-openapi.yml
   format: yaml
   label: HM Land Registry Send a document API
   slug: hm-land-registry-send-a-document-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-send-a-document-api-api-openapi.yml
+  url: https://artifacts.apis.io/hm-land-registry/openapi/hm-land-registry-send-a-document-api-api-openapi.yml
 - filename: hm-land-registry-submit-an-application-api-api-openapi.yml
   format: yaml
   label: HM Land Registry Submit an application API
   slug: hm-land-registry-submit-an-application-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-submit-an-application-api-api-openapi.yml
+  url: https://artifacts.apis.io/hm-land-registry/openapi/hm-land-registry-submit-an-application-api-api-openapi.yml
 - filename: hm-land-registry-title-api-openapi.yml
   format: yaml
   label: HM Land Registry Title API
   slug: hm-land-registry-title-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-title-api-openapi.yml
+  url: https://artifacts.apis.io/hm-land-registry/openapi/hm-land-registry-title-api-openapi.yml
 - filename: hm-land-registry-titles-api-openapi.yml
   format: yaml
   label: HM Land Registry Titles API
   slug: hm-land-registry-titles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-titles-api-openapi.yml
+  url: https://artifacts.apis.io/hm-land-registry/openapi/hm-land-registry-titles-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -153,7 +153,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: openapi/hm-land
   \ every request; Accept: application/json is advised. Verified\n    2026-07-26: calling without it returns HTTP 403 \"Access denied: You need to provide your API Key to\n    perform this operation\".'\n- name: mutualTLS\n  type: mutualTLS\n  sources:\n  - documented, not declared in any OpenAPI\n  docs: https://landregistry.github.io/bgtechdoc/rest/get_started/developer_guide/index.html\n  note: 'A valid client digital certificate issued by Business Gateway must be installed in the client\n    key store, and HMLR-issued certificates trusted as root. Probed 2026-07-26: businessgateway.landregistry.gov.uk\n    and bgtest.landregistry.gov.uk refuse the TLS handshake without it. This control is invisible to any\n    client generated from the published contracts.'\n- name: none\n  type: none\n  sources:\n  - apis.yml open-data APIs\n  note: The SPARQL 1.1 endpoint and the Price Paid / UK House Price Index Linked Data APIs are anonymous.\n    Verified HTTP 200 without credentials on 2026-07-26.\n\
   docs:\n- https://landregistry.github.io/bgtechdoc/rest/get_started/developer_guide/index.html\n- https://landregistry.github.io/bg-dev-pack-redesign/how-to-access-business-gateway\n- https://use-land-property-data.service.gov.uk/api-documentation\nonboarding:\n  business_gateway:\n    self_serve: false\n    steps:\n    - Sign the development licence (request from channelpartners@landregistry.gov.uk).\n    - HMLR sends a test SSL certificate to the named technical contact.\n    - Build with support from the integration support team.\n    - Hold a business e-services account, then contact HMLR for live access.\n    docs: https://landregistry.github.io/bg-dev-pack-redesign/how-to-access-business-gateway\n  use_land_and_property_data:\n    self_serve: true\n    steps:\n    - Create an account; an API key is issued automatically.\n    - Sign the licence for each dataset you want.\n    - Pay where the dataset is chargeable.\n    docs: https://use-land-property-data.service.gov.uk/registration\n\
   \  open_data:\n    self_serve: true\n    steps:\n    - None. Call the endpoint.\noauth:\n  supported: false\n  detail: No oauth2 or openIdConnect scheme anywhere in the estate; no /.well-known/oauth-authorization-server\n    or /.well-known/openid-configuration on any host (probed 2026-07-26). scopes/ is therefore intentionally\n    absent.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/authentication/hm-land-registry-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hm-land-registry/authentication/hm-land-registry-authentication.yml
 summary_line: http/apiKey/none · 5 schemes
 tags:
 - Real Estate

@@ -5,7 +5,7 @@ api_specs:
   label: Nuvemshop Tiendanube API
   slug: nuvemshop-tiendanube-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop-tiendanube/refs/heads/main/asyncapi/nuvemshop-tiendanube-events-asyncapi.yml
+  url: https://artifacts.apis.io/nuvemshop-tiendanube/asyncapi/nuvemshop-tiendanube-events-asyncapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: nuvemshop-tiendanube-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nuvemshop.com.br\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 18:30:15 2026 GMT\n  hsts: false\n- host: api.tiendanube.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 08:15:08 2026 GMT\n  hsts: null\ndomains:\n- domain: nuvemshop.com.br\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: tiendanube.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nuvemshop-tiendanube/refs/heads/main/security/nuvemshop-tiendanube-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nuvemshop-tiendanube/security/nuvemshop-tiendanube-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

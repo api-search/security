@@ -27,7 +27,7 @@ source_filename: claripi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: claripi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 03:23:39 2026 GMT\n  hsts: false\ndomains:\n- domain: claripi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/claripi/refs/heads/main/security/claripi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/claripi/security/claripi-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

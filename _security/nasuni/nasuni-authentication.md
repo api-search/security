@@ -9,169 +9,169 @@ api_specs:
   label: Nasuni Data API
   slug: nasuni-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-data-api-openapi.yml
+  url: https://artifacts.apis.io/nasuni/openapi/nasuni-data-api-openapi.yml
 - filename: nasuni-account-api-openapi.yml
   format: yaml
   label: Nasuni Account API
   slug: nasuni-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-account-api-openapi.yml
+  url: https://artifacts.apis.io/nasuni/openapi/nasuni-account-api-openapi.yml
 - filename: nasuni-account-management-api-openapi.yml
   format: yaml
   label: Nasuni Account Management API
   slug: nasuni-account-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-account-management-api-openapi.yml
+  url: https://artifacts.apis.io/nasuni/openapi/nasuni-account-management-api-openapi.yml
 - filename: nasuni-activity-logs-api-openapi.yml
   format: yaml
   label: Nasuni Activity Logs API
   slug: nasuni-activity-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-activity-logs-api-openapi.yml
+  url: https://artifacts.apis.io/nasuni/openapi/nasuni-activity-logs-api-openapi.yml
 - filename: nasuni-ai-activate-api-openapi.yml
   format: yaml
   label: Nasuni AI Activate API
   slug: nasuni-ai-activate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-ai-activate-api-openapi.yml
+  url: https://artifacts.apis.io/nasuni/openapi/nasuni-ai-activate-api-openapi.yml
 - filename: nasuni-auth-api-openapi.yml
   format: yaml
   label: Nasuni Auth API
   slug: nasuni-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-auth-api-openapi.yml
+  url: https://artifacts.apis.io/nasuni/openapi/nasuni-auth-api-openapi.yml
 - filename: nasuni-cloud-credentials-api-openapi.yml
   format: yaml
   label: Nasuni Cloud Credentials API
   slug: nasuni-cloud-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-cloud-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/nasuni/openapi/nasuni-cloud-credentials-api-openapi.yml
 - filename: nasuni-configuration-api-openapi.yml
   format: yaml
   label: Nasuni Configuration API
   slug: nasuni-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/nasuni/openapi/nasuni-configuration-api-openapi.yml
 - filename: nasuni-data-api-openapi.yml
   format: yaml
   label: Nasuni Data API
   slug: nasuni-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-data-api-openapi.yml
+  url: https://artifacts.apis.io/nasuni/openapi/nasuni-data-api-openapi.yml
 - filename: nasuni-edge-appliances-edge-api-openapi.yml
   format: yaml
   label: Nasuni Edge Appliances (Edge) API
   slug: nasuni-edge-appliances-edge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-edge-appliances-edge-api-openapi.yml
+  url: https://artifacts.apis.io/nasuni/openapi/nasuni-edge-appliances-edge-api-openapi.yml
 - filename: nasuni-file-iq-appliances-file-iq-api-openapi.yml
   format: yaml
   label: Nasuni File IQ Appliances (File IQ) API
   slug: nasuni-file-iq-appliances-file-iq-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-file-iq-appliances-file-iq-api-openapi.yml
+  url: https://artifacts.apis.io/nasuni/openapi/nasuni-file-iq-appliances-file-iq-api-openapi.yml
 - filename: nasuni-filers-api-openapi.yml
   format: yaml
   label: Nasuni Filers API
   slug: nasuni-filers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-filers-api-openapi.yml
+  url: https://artifacts.apis.io/nasuni/openapi/nasuni-filers-api-openapi.yml
 - filename: nasuni-global-file-accelerator-gfa-api-openapi.yml
   format: yaml
   label: Nasuni Global File Accelerator (GFA) API
   slug: nasuni-global-file-accelerator-gfa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-global-file-accelerator-gfa-api-openapi.yml
+  url: https://artifacts.apis.io/nasuni/openapi/nasuni-global-file-accelerator-gfa-api-openapi.yml
 - filename: nasuni-health-api-openapi.yml
   format: yaml
   label: Nasuni Health API
   slug: nasuni-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-health-api-openapi.yml
+  url: https://artifacts.apis.io/nasuni/openapi/nasuni-health-api-openapi.yml
 - filename: nasuni-iam-api-openapi.yml
   format: yaml
   label: Nasuni IAM API
   slug: nasuni-iam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-iam-api-openapi.yml
+  url: https://artifacts.apis.io/nasuni/openapi/nasuni-iam-api-openapi.yml
 - filename: nasuni-index-api-openapi.yml
   format: yaml
   label: Nasuni Index API
   slug: nasuni-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-index-api-openapi.yml
+  url: https://artifacts.apis.io/nasuni/openapi/nasuni-index-api-openapi.yml
 - filename: nasuni-jobs-api-openapi.yml
   format: yaml
   label: Nasuni Jobs API
   slug: nasuni-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/nasuni/openapi/nasuni-jobs-api-openapi.yml
 - filename: nasuni-messages-api-openapi.yml
   format: yaml
   label: Nasuni Messages API
   slug: nasuni-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-messages-api-openapi.yml
+  url: https://artifacts.apis.io/nasuni/openapi/nasuni-messages-api-openapi.yml
 - filename: nasuni-nasuni-data-service-nds-api-api-openapi.yml
   format: yaml
   label: Nasuni Data Service (NDS) API
   slug: nasuni-nasuni-data-service-nds-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-nasuni-data-service-nds-api-api-openapi.yml
+  url: https://artifacts.apis.io/nasuni/openapi/nasuni-nasuni-data-service-nds-api-api-openapi.yml
 - filename: nasuni-nasuni-data-service-nds-aws-api-api-openapi.yml
   format: yaml
   label: Nasuni Data Service (NDS) AWS API
   slug: nasuni-nasuni-data-service-nds-aws-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-nasuni-data-service-nds-aws-api-api-openapi.yml
+  url: https://artifacts.apis.io/nasuni/openapi/nasuni-nasuni-data-service-nds-aws-api-api-openapi.yml
 - filename: nasuni-notifications-api-openapi.yml
   format: yaml
   label: Nasuni Notifications API
   slug: nasuni-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/nasuni/openapi/nasuni-notifications-api-openapi.yml
 - filename: nasuni-ops-iq-api-openapi.yml
   format: yaml
   label: Nasuni Ops IQ API
   slug: nasuni-ops-iq-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-ops-iq-api-openapi.yml
+  url: https://artifacts.apis.io/nasuni/openapi/nasuni-ops-iq-api-openapi.yml
 - filename: nasuni-portal-api-api-openapi.yml
   format: yaml
   label: Nasuni Portal API
   slug: nasuni-portal-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-portal-api-api-openapi.yml
+  url: https://artifacts.apis.io/nasuni/openapi/nasuni-portal-api-api-openapi.yml
 - filename: nasuni-serials-api-openapi.yml
   format: yaml
   label: Nasuni Serials API
   slug: nasuni-serials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-serials-api-openapi.yml
+  url: https://artifacts.apis.io/nasuni/openapi/nasuni-serials-api-openapi.yml
 - filename: nasuni-software-api-openapi.yml
   format: yaml
   label: Nasuni Software API
   slug: nasuni-software-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-software-api-openapi.yml
+  url: https://artifacts.apis.io/nasuni/openapi/nasuni-software-api-openapi.yml
 - filename: nasuni-unifs-as-a-service-uaas-api-openapi.yml
   format: yaml
   label: Nasuni UniFS As A Service (UaaS) API
   slug: nasuni-unifs-as-a-service-uaas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-unifs-as-a-service-uaas-api-openapi.yml
+  url: https://artifacts.apis.io/nasuni/openapi/nasuni-unifs-as-a-service-uaas-api-openapi.yml
 - filename: nasuni-volume-connections-api-openapi.yml
   format: yaml
   label: Nasuni Volume Connections API
   slug: nasuni-volume-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-volume-connections-api-openapi.yml
+  url: https://artifacts.apis.io/nasuni/openapi/nasuni-volume-connections-api-openapi.yml
 - filename: nasuni-volumes-api-openapi.yml
   format: yaml
   label: Nasuni Volumes API
   slug: nasuni-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/nasuni/openapi/nasuni-volumes-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -379,7 +379,7 @@ source_yaml: "generated: '2026-08-26'\nmethod: searched\nsource: 'Docs: https://
   \  token_refresh: automatic\n  authorization: Inherits the caller's Portal RBAC; no privilege elevation possible through the server.\n  source: https://docs.nasuni.com/docs/portal-mcp-server\n- api: Nasuni Data Service (NDS) for AWS\n  scheme: AWS Signature Version 4, or presigned URLs\n  headers:\n  - 'Authorization: AWS4-HMAC-SHA256 ...'\n  - X-Amz-Date\n  - X-Amz-Content-Sha256\n  - X-Amz-Security-Token\n  source: openapi/_original/nasuni-nasuni-data-service-aws-openapi.json\n- api: Nasuni Data Service (NDS) for Azure\n  scheme: Azure Shared Key header, or SAS query parameters (sv, ss, srt, sp, se, st, sig)\n  note: Shared Key and SAS must not be combined.\n  key_management: Keys generated at NDS deployment; listed/rotated via the Portal API /uaas/stacks/{stack_id}/nds/blob-keys\n    and /nds/sas-token.\n  source: openapi/_original/nasuni-nasuni-data-service-azure-openapi.json\n- api: Global File Acceleration (GFA) Telemetry API\n  scheme: API token in the Authorization header\n  key_management:\
   \ GFA API keys are issued and revoked through the Portal API (/gfa/api_keys).\n  source: openapi/_original/nasuni-global-file-acceleration-telemetry-openapi.json\n- api: Nasuni Data API (mobileapi)\n  scheme: secret-key token presented as HTTP Basic\n  token_endpoint: 'POST /mobileapi/1/auth/login (multipart form: username, password, device_id, device_type) ->\n    x-secret-key response header'\n  usage: Subsequent calls send HTTP Basic with username=device_id and password=the x-secret-key value.\n  prerequisite: Mobile Access must be enabled on the share (Sync and Mobile Access on the NMC Shares page).\n  note: As of Nasuni 10.1 most response headers are lowercase; earlier versions returned X-Secret-Key.\n  source: https://docs.nasuni.com/docs/nasuni-data-api\nnote: Seven contracts, six distinct authentication models, none of them shared. The NMC API and the Portal API do\n  not accept each other's credentials, and the two NDS surfaces deliberately adopt the native auth of the cloud\n\
   \  they emulate. Only the Portal API and the Portal MCP Server use OAuth 2.0.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/authentication/nasuni-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nasuni/authentication/nasuni-authentication.yml
 summary_line: apiKey/http/oauth2 · 24 schemes
 tags:
 - Company

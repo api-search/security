@@ -7,85 +7,85 @@ api_specs:
   label: Slope Software Arrays API
   slug: slope-software-arrays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope-software/refs/heads/main/openapi/slope-software-arrays-api-openapi.yml
+  url: https://artifacts.apis.io/slope-software/openapi/slope-software-arrays-api-openapi.yml
 - filename: slope-software-authorize-api-openapi.yml
   format: yaml
   label: Slope Software Authorize API
   slug: slope-software-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope-software/refs/heads/main/openapi/slope-software-authorize-api-openapi.yml
+  url: https://artifacts.apis.io/slope-software/openapi/slope-software-authorize-api-openapi.yml
 - filename: slope-software-decrementtables-api-openapi.yml
   format: yaml
   label: Slope Software DecrementTables API
   slug: slope-software-decrementtables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope-software/refs/heads/main/openapi/slope-software-decrementtables-api-openapi.yml
+  url: https://artifacts.apis.io/slope-software/openapi/slope-software-decrementtables-api-openapi.yml
 - filename: slope-software-files-api-openapi.yml
   format: yaml
   label: Slope Software Files API
   slug: slope-software-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope-software/refs/heads/main/openapi/slope-software-files-api-openapi.yml
+  url: https://artifacts.apis.io/slope-software/openapi/slope-software-files-api-openapi.yml
 - filename: slope-software-improvementscales-api-openapi.yml
   format: yaml
   label: Slope Software ImprovementScales API
   slug: slope-software-improvementscales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope-software/refs/heads/main/openapi/slope-software-improvementscales-api-openapi.yml
+  url: https://artifacts.apis.io/slope-software/openapi/slope-software-improvementscales-api-openapi.yml
 - filename: slope-software-modelpointfields-api-openapi.yml
   format: yaml
   label: Slope Software ModelPointFields API
   slug: slope-software-modelpointfields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope-software/refs/heads/main/openapi/slope-software-modelpointfields-api-openapi.yml
+  url: https://artifacts.apis.io/slope-software/openapi/slope-software-modelpointfields-api-openapi.yml
 - filename: slope-software-models-api-openapi.yml
   format: yaml
   label: Slope Software Models API
   slug: slope-software-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope-software/refs/heads/main/openapi/slope-software-models-api-openapi.yml
+  url: https://artifacts.apis.io/slope-software/openapi/slope-software-models-api-openapi.yml
 - filename: slope-software-products-api-openapi.yml
   format: yaml
   label: Slope Software Products API
   slug: slope-software-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope-software/refs/heads/main/openapi/slope-software-products-api-openapi.yml
+  url: https://artifacts.apis.io/slope-software/openapi/slope-software-products-api-openapi.yml
 - filename: slope-software-projections-api-openapi.yml
   format: yaml
   label: Slope Software Projections API
   slug: slope-software-projections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope-software/refs/heads/main/openapi/slope-software-projections-api-openapi.yml
+  url: https://artifacts.apis.io/slope-software/openapi/slope-software-projections-api-openapi.yml
 - filename: slope-software-reports-api-openapi.yml
   format: yaml
   label: Slope Software Reports API
   slug: slope-software-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope-software/refs/heads/main/openapi/slope-software-reports-api-openapi.yml
+  url: https://artifacts.apis.io/slope-software/openapi/slope-software-reports-api-openapi.yml
 - filename: slope-software-scenariotables-api-openapi.yml
   format: yaml
   label: Slope Software ScenarioTables API
   slug: slope-software-scenariotables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope-software/refs/heads/main/openapi/slope-software-scenariotables-api-openapi.yml
+  url: https://artifacts.apis.io/slope-software/openapi/slope-software-scenariotables-api-openapi.yml
 - filename: slope-software-tablestructures-api-openapi.yml
   format: yaml
   label: Slope Software TableStructures API
   slug: slope-software-tablestructures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope-software/refs/heads/main/openapi/slope-software-tablestructures-api-openapi.yml
+  url: https://artifacts.apis.io/slope-software/openapi/slope-software-tablestructures-api-openapi.yml
 - filename: slope-software-users-api-openapi.yml
   format: yaml
   label: Slope Software Users API
   slug: slope-software-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope-software/refs/heads/main/openapi/slope-software-users-api-openapi.yml
+  url: https://artifacts.apis.io/slope-software/openapi/slope-software-users-api-openapi.yml
 - filename: slope-software-data-tables-api-openapi.yml
   format: yaml
   label: Slope Software Data Tables API
   slug: slope-software-data-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope-software/refs/heads/main/openapi/slope-software-data-tables-api-openapi.yml
+  url: https://artifacts.apis.io/slope-software/openapi/slope-software-data-tables-api-openapi.yml
 auth_types:
 - http-bearer
 description: ''
@@ -114,7 +114,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/slope-software-openapi-original.json\ndocs: https://api.slopesoftware.com/\nsummary:\n  types:\n  - http-bearer\n  bearer_format: JWT\n  token_endpoint: /api/v1/Authorize\n  refresh_endpoint: /api/v1/Authorize/Refresh\n  console_sso: OpenID Connect via Frontegg (auth.slopesoftware.com)\nschemes:\n- name: API Token\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: 'JWT bearer access token. Exchange API credentials at POST /api/v1/Authorize to receive\n    an ApiTokenDto, send it as `Authorization: Bearer <token>` on every call, and renew it via POST /api/v1/Authorize/Refresh.\n    Documented in the SLOPE API overview (slopesoftware.com/wp-content/uploads/2022/02/SLOPE-API.pdf).'\n  sources:\n  - openapi/slope-software-openapi-original.json\nplatform_auth:\n  name: Frontegg OpenID Connect\n  type: openIdConnect\n  issuer: https://auth.slopesoftware.com\n  discovery: https://auth.slopesoftware.com/.well-known/openid-configuration\n\
   \  grant_types:\n  - authorization_code\n  - refresh_token\n  - client_credentials\n  - urn:ietf:params:oauth:grant-type:token-exchange\n  - urn:ietf:params:oauth:grant-type:device_code\n  scopes:\n  - openid\n  - profile\n  - email\n  note: Console/SSO login for the SLOPE web application (app.slopesoftware.com); distinct from the API\n    Token used by the REST API.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/slope-software/refs/heads/main/authentication/slope-software-authentication.yml
+source_yaml_url: https://artifacts.apis.io/slope-software/authentication/slope-software-authentication.yml
 summary_line: http-bearer · 1 scheme
 tags:
 - Company

@@ -5,7 +5,7 @@ api_specs:
   label: Magier AI API
   slug: magier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magier/refs/heads/main/openapi/_ae-authored/magier-openapi-generated.yml
+  url: https://artifacts.apis.io/magier/openapi/_ae-authored/magier-openapi-generated.yml
 description: ''
 domains:
 - caa: []
@@ -34,11 +34,11 @@ source_filename: magier-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: magier.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 12 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: magier.ai\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/magier/refs/heads/main/security/magier-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/magier/security/magier-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Cybersecurity
 - Compliance
 - Governance

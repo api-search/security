@@ -16,7 +16,7 @@ source_filename: liveflow-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nprobe: true\nsource: https://trust.liveflow.com/\nurl: https://trust.liveflow.com/\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://trust.liveflow.com/\n  keywords:\n  - soc 2\n  - trust center\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liveflow/refs/heads/main/security/liveflow-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/liveflow/security/liveflow-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - Company

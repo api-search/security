@@ -5,7 +5,19 @@ api_specs:
   label: Amazon Migration Hub AWS Migration Hub API
   slug: amazon-migration-hub-aws-migration-hub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-migration-hub/refs/heads/main/openapi/amazon-migration-hub-aws-migration-hub-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-migration-hub/openapi/amazon-migration-hub-aws-migration-hub-api-openapi.yml
+- filename: amazon-migration-hub-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Migration Hub Migration Hub Operations API
+  slug: amazon-migration-hub-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-migration-hub/openapi/amazon-migration-hub-operations-api-openapi.yml
+- filename: amazon-migration-hub-source-resource-api-openapi.yml
+  format: yaml
+  label: Amazon Migration Hub Migration Hub Source Resource API
+  slug: amazon-migration-hub-source-resource-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-migration-hub/openapi/amazon-migration-hub-source-resource-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -26,7 +38,7 @@ source_filename: amazon-migration-hub-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://aws.amazon.com/compliance/\nurl: https://aws.amazon.com/compliance/\ncertifications:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://aws.amazon.com/compliance/\n  keywords:\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-migration-hub/refs/heads/main/security/amazon-migration-hub-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/amazon-migration-hub/security/amazon-migration-hub-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Migration

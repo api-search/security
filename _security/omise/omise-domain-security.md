@@ -5,79 +5,79 @@ api_specs:
   label: Omise Account API
   slug: omise-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omise/refs/heads/main/openapi/omise-account-api-openapi.yml
+  url: https://artifacts.apis.io/omise/openapi/omise-account-api-openapi.yml
 - filename: omise-cards-api-openapi.yml
   format: yaml
   label: Omise Cards API
   slug: omise-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omise/refs/heads/main/openapi/omise-cards-api-openapi.yml
+  url: https://artifacts.apis.io/omise/openapi/omise-cards-api-openapi.yml
 - filename: omise-charges-api-openapi.yml
   format: yaml
   label: Omise Charges API
   slug: omise-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omise/refs/heads/main/openapi/omise-charges-api-openapi.yml
+  url: https://artifacts.apis.io/omise/openapi/omise-charges-api-openapi.yml
 - filename: omise-customers-api-openapi.yml
   format: yaml
   label: Omise Customers API
   slug: omise-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omise/refs/heads/main/openapi/omise-customers-api-openapi.yml
+  url: https://artifacts.apis.io/omise/openapi/omise-customers-api-openapi.yml
 - filename: omise-disputes-api-openapi.yml
   format: yaml
   label: Omise Disputes API
   slug: omise-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omise/refs/heads/main/openapi/omise-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/omise/openapi/omise-disputes-api-openapi.yml
 - filename: omise-events-api-openapi.yml
   format: yaml
   label: Omise Events API
   slug: omise-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omise/refs/heads/main/openapi/omise-events-api-openapi.yml
+  url: https://artifacts.apis.io/omise/openapi/omise-events-api-openapi.yml
 - filename: omise-links-api-openapi.yml
   format: yaml
   label: Omise Links API
   slug: omise-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omise/refs/heads/main/openapi/omise-links-api-openapi.yml
+  url: https://artifacts.apis.io/omise/openapi/omise-links-api-openapi.yml
 - filename: omise-recipients-api-openapi.yml
   format: yaml
   label: Omise Recipients API
   slug: omise-recipients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omise/refs/heads/main/openapi/omise-recipients-api-openapi.yml
+  url: https://artifacts.apis.io/omise/openapi/omise-recipients-api-openapi.yml
 - filename: omise-refunds-api-openapi.yml
   format: yaml
   label: Omise Refunds API
   slug: omise-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omise/refs/heads/main/openapi/omise-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/omise/openapi/omise-refunds-api-openapi.yml
 - filename: omise-schedules-api-openapi.yml
   format: yaml
   label: Omise Schedules API
   slug: omise-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omise/refs/heads/main/openapi/omise-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/omise/openapi/omise-schedules-api-openapi.yml
 - filename: omise-sources-api-openapi.yml
   format: yaml
   label: Omise Sources API
   slug: omise-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omise/refs/heads/main/openapi/omise-sources-api-openapi.yml
+  url: https://artifacts.apis.io/omise/openapi/omise-sources-api-openapi.yml
 - filename: omise-tokens-api-openapi.yml
   format: yaml
   label: Omise Tokens API
   slug: omise-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omise/refs/heads/main/openapi/omise-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/omise/openapi/omise-tokens-api-openapi.yml
 - filename: omise-transfers-api-openapi.yml
   format: yaml
   label: Omise Transfers API
   slug: omise-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omise/refs/heads/main/openapi/omise-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/omise/openapi/omise-transfers-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -142,7 +142,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.omise.co\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: Thawte TLS RSA CA G1 (DigiCert)\n  cert_not_before: Sep 18 00:00:00 2025 GMT\n  cert_expires: Oct  9 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  hsts_include_subdomains: true\n  note: Returns HTTP 401 without credentials (HTTP Basic secret key required).\n- host: vault.omise.co\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: Thawte TLS RSA CA G1 (DigiCert)\n  cert_not_before: Sep 18 00:00:00 2025 GMT\n  cert_expires: Oct  9 23:59:59 2026 GMT\n  hsts: false\n  note: PCI-scoped tokenization host; public key required. HSTS header not observed on probe.\n- host: www.omise.co\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: Google Trust Services WE1\n  cert_not_before: May 19 14:37:17 2026 GMT\n  cert_expires: Aug 17 15:37:16 2026 GMT\n  hsts: true\n  hsts_max_age:\
   \ 31536000\n  server: cloudflare\ndomains:\n- domain: omise.co\n  dnssec: false\n  caa:\n  - '0 issue \"digicert.com\"'\n  - '0 issue \"amazon.com\"'\n  - '0 issue \"amazonaws.com\"'\n  - '0 issue \"amazontrust.com\"'\n  - '0 issue \"letsencrypt.org\"'\n  - '0 issue \"pki.goog; cansignhttpexchanges=yes\"'\n  - '0 issue \"sectigo.com\"'\n  - '0 issue \"geotrust.com\"'\n  - '0 issue \"visa.com\"'\n  - '0 issuewild \"thawte.com\"'\n  - '0 iodef \"mailto:security@omise.co\"'\n  spf: true\n  spf_record: v=spf1 include:mailgun.org include:_spf.google.com ~all\n  dmarc: true\n  dmarc_policy: reject\nnotes: >-\n  Probed 2026-07-12. api.omise.co and vault.omise.co are the two API hosts. The\n  core API host enforces HTTPS with a two-year HSTS max-age and includeSubDomains,\n  and rejects unauthenticated requests with 401. CAA records restrict issuance to\n  a defined set of CAs and publish a security iodef contact (security@omise.co).\n  DMARC is set to p=reject. DNSSEC was not observed on omise.co\
   \ at probe time.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/omise/refs/heads/main/security/omise-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/omise/security/omise-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments

@@ -7,31 +7,31 @@ api_specs:
   label: Quorum Software Leases API
   slug: quorum-leases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/openapi/quorum-leases-api-openapi.yml
+  url: https://artifacts.apis.io/quorum/openapi/quorum-leases-api-openapi.yml
 - filename: quorum-owners-api-openapi.yml
   format: yaml
   label: Quorum Software Owners API
   slug: quorum-owners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/openapi/quorum-owners-api-openapi.yml
+  url: https://artifacts.apis.io/quorum/openapi/quorum-owners-api-openapi.yml
 - filename: quorum-tracts-api-openapi.yml
   format: yaml
   label: Quorum Software Tracts API
   slug: quorum-tracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/openapi/quorum-tracts-api-openapi.yml
+  url: https://artifacts.apis.io/quorum/openapi/quorum-tracts-api-openapi.yml
 - filename: quorum-wells-api-openapi.yml
   format: yaml
   label: Quorum Software Wells API
   slug: quorum-wells-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/openapi/quorum-wells-api-openapi.yml
+  url: https://artifacts.apis.io/quorum/openapi/quorum-wells-api-openapi.yml
 - filename: quorum-division-orders-api-openapi.yml
   format: yaml
   label: Quorum Software Division Orders API
   slug: quorum-division-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/openapi/quorum-division-orders-api-openapi.yml
+  url: https://artifacts.apis.io/quorum/openapi/quorum-division-orders-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -61,7 +61,7 @@ source_filename: quorum-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/quorum-land-management-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.quorumsoftware.com/oauth2/token\n    scopes: 2\n  sources:\n  - openapi/quorum-land-management-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/authentication/quorum-authentication.yml
+source_yaml_url: https://artifacts.apis.io/quorum/authentication/quorum-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Energy

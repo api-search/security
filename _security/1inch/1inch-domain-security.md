@@ -43,7 +43,7 @@ source_filename: 1inch-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: 1inch.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 09:28:31 2026 GMT\n  hsts: false\n- host: portal.1inch.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 00:36:27 2026 GMT\n  hsts: false\n- host: business.1inch.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 19:25:58 2026 GMT\n  hsts: false\ndomains:\n- domain: 1inch.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: 1inch.dev\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1inch/refs/heads/main/security/1inch-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/1inch/security/1inch-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - DeFi

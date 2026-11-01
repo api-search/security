@@ -5,55 +5,55 @@ api_specs:
   label: ArcBest Pickups API
   slug: arcbest-pickups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-pickups-api-openapi.yml
+  url: https://artifacts.apis.io/arcbest/openapi/arcbest-pickups-api-openapi.yml
 - filename: arcbest-rates-api-openapi.yml
   format: yaml
   label: ArcBest Rates API
   slug: arcbest-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-rates-api-openapi.yml
+  url: https://artifacts.apis.io/arcbest/openapi/arcbest-rates-api-openapi.yml
 - filename: arcbest-shipments-api-openapi.yml
   format: yaml
   label: ArcBest Shipments API
   slug: arcbest-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/arcbest/openapi/arcbest-shipments-api-openapi.yml
 - filename: arcbest-tracking-api-openapi.yml
   format: yaml
   label: ArcBest Tracking API
   slug: arcbest-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/arcbest/openapi/arcbest-tracking-api-openapi.yml
 - filename: arcbest-authorize-api-openapi.yml
   format: yaml
   label: ArcBest Authorize API
   slug: arcbest-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-authorize-api-openapi.yml
+  url: https://artifacts.apis.io/arcbest/openapi/arcbest-authorize-api-openapi.yml
 - filename: arcbest-booking-api-openapi.yml
   format: yaml
   label: ArcBest Booking API
   slug: arcbest-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-booking-api-openapi.yml
+  url: https://artifacts.apis.io/arcbest/openapi/arcbest-booking-api-openapi.yml
 - filename: arcbest-order-api-openapi.yml
   format: yaml
   label: ArcBest Order API
   slug: arcbest-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-order-api-openapi.yml
+  url: https://artifacts.apis.io/arcbest/openapi/arcbest-order-api-openapi.yml
 - filename: arcbest-quote-api-openapi.yml
   format: yaml
   label: ArcBest Quote API
   slug: arcbest-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-quote-api-openapi.yml
+  url: https://artifacts.apis.io/arcbest/openapi/arcbest-quote-api-openapi.yml
 - filename: arcbest-quotes-api-openapi.yml
   format: yaml
   label: ArcBest Quotes API
   slug: arcbest-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/arcbest/openapi/arcbest-quotes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -98,7 +98,7 @@ source_filename: arcbest-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.arcbest.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 09:36:12 2026 GMT\n  hsts: false\n- host: arcb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 18:58:58 2026 GMT\n  hsts: false\n- host: api.arcb.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 11 16:09:16 2026 GMT\n  hsts: null\ndomains:\n- domain: arcbest.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: arcb.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/security/arcbest-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/arcbest/security/arcbest-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Logistics

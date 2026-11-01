@@ -5,31 +5,31 @@ api_specs:
   label: WattTime Account API
   slug: watttime-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/openapi/watttime-account-api-openapi.yml
+  url: https://artifacts.apis.io/watttime/openapi/watttime-account-api-openapi.yml
 - filename: watttime-authentication-api-openapi.yml
   format: yaml
   label: WattTime Authentication API
   slug: watttime-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/openapi/watttime-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/watttime/openapi/watttime-authentication-api-openapi.yml
 - filename: watttime-emissions-data-api-openapi.yml
   format: yaml
   label: WattTime Emissions Data API
   slug: watttime-emissions-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/openapi/watttime-emissions-data-api-openapi.yml
+  url: https://artifacts.apis.io/watttime/openapi/watttime-emissions-data-api-openapi.yml
 - filename: watttime-forecasts-api-openapi.yml
   format: yaml
   label: WattTime Forecasts API
   slug: watttime-forecasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/openapi/watttime-forecasts-api-openapi.yml
+  url: https://artifacts.apis.io/watttime/openapi/watttime-forecasts-api-openapi.yml
 - filename: watttime-grid-regions-api-openapi.yml
   format: yaml
   label: WattTime Grid Regions API
   slug: watttime-grid-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/openapi/watttime-grid-regions-api-openapi.yml
+  url: https://artifacts.apis.io/watttime/openapi/watttime-grid-regions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -67,14 +67,14 @@ source_filename: watttime-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: watttime.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 02:00:55 2026 GMT\n  hsts: false\n- host: docs.watttime.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  6 23:59:59 2026 GMT\n  hsts: false\n- host: api.watttime.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 11 13:14:00 2026 GMT\n  hsts: false\ndomains:\n- domain: watttime.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/security/watttime-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/watttime/security/watttime-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Emissions
 - Climate
 - Carbon
 - Energy
-- Electricity Grid
+- Electric Grid
 - Sustainability
 - Clean Energy
 ---

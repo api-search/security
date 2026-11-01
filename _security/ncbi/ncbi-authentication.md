@@ -9,79 +9,79 @@ api_specs:
   label: National Center for Biotechnology Information (NCBI) BioSample API
   slug: ncbi-biosample-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-biosample-api-openapi.yml
+  url: https://artifacts.apis.io/ncbi/openapi/ncbi-biosample-api-openapi.yml
 - filename: ncbi-gene-api-openapi.yml
   format: yaml
   label: National Center for Biotechnology Information (NCBI) Gene API
   slug: ncbi-gene-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-gene-api-openapi.yml
+  url: https://artifacts.apis.io/ncbi/openapi/ncbi-gene-api-openapi.yml
 - filename: ncbi-genome-api-openapi.yml
   format: yaml
   label: National Center for Biotechnology Information (NCBI) Genome API
   slug: ncbi-genome-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-genome-api-openapi.yml
+  url: https://artifacts.apis.io/ncbi/openapi/ncbi-genome-api-openapi.yml
 - filename: ncbi-organelle-api-openapi.yml
   format: yaml
   label: National Center for Biotechnology Information (NCBI) Organelle API
   slug: ncbi-organelle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-organelle-api-openapi.yml
+  url: https://artifacts.apis.io/ncbi/openapi/ncbi-organelle-api-openapi.yml
 - filename: ncbi-prokaryote-api-openapi.yml
   format: yaml
   label: National Center for Biotechnology Information (NCBI) Prokaryote API
   slug: ncbi-prokaryote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-prokaryote-api-openapi.yml
+  url: https://artifacts.apis.io/ncbi/openapi/ncbi-prokaryote-api-openapi.yml
 - filename: ncbi-taxonomy-api-openapi.yml
   format: yaml
   label: National Center for Biotechnology Information (NCBI) Taxonomy API
   slug: ncbi-taxonomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-taxonomy-api-openapi.yml
+  url: https://artifacts.apis.io/ncbi/openapi/ncbi-taxonomy-api-openapi.yml
 - filename: ncbi-version-api-openapi.yml
   format: yaml
   label: National Center for Biotechnology Information (NCBI) Version API
   slug: ncbi-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-version-api-openapi.yml
+  url: https://artifacts.apis.io/ncbi/openapi/ncbi-version-api-openapi.yml
 - filename: ncbi-virus-api-openapi.yml
   format: yaml
   label: National Center for Biotechnology Information (NCBI) Virus API
   slug: ncbi-virus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-virus-api-openapi.yml
+  url: https://artifacts.apis.io/ncbi/openapi/ncbi-virus-api-openapi.yml
 - filename: ncbi-blast-api-openapi.yml
   format: yaml
   label: National Center for Biotechnology Information (NCBI) BLAST API
   slug: ncbi-blast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-blast-api-openapi.yml
+  url: https://artifacts.apis.io/ncbi/openapi/ncbi-blast-api-openapi.yml
 - filename: ncbi-fetch-api-openapi.yml
   format: yaml
   label: National Center for Biotechnology Information (NCBI) Fetch API
   slug: ncbi-fetch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-fetch-api-openapi.yml
+  url: https://artifacts.apis.io/ncbi/openapi/ncbi-fetch-api-openapi.yml
 - filename: ncbi-info-api-openapi.yml
   format: yaml
   label: National Center for Biotechnology Information (NCBI) Info API
   slug: ncbi-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-info-api-openapi.yml
+  url: https://artifacts.apis.io/ncbi/openapi/ncbi-info-api-openapi.yml
 - filename: ncbi-link-api-openapi.yml
   format: yaml
   label: National Center for Biotechnology Information (NCBI) Link API
   slug: ncbi-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-link-api-openapi.yml
+  url: https://artifacts.apis.io/ncbi/openapi/ncbi-link-api-openapi.yml
 - filename: ncbi-search-api-openapi.yml
   format: yaml
   label: National Center for Biotechnology Information (NCBI) Search API
   slug: ncbi-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-search-api-openapi.yml
+  url: https://artifacts.apis.io/ncbi/openapi/ncbi-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -114,7 +114,7 @@ source_filename: ncbi-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ncbi-datasets-api.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: query\n  parameter: api_key\n  sources:\n  - openapi/ncbi-datasets-api.yaml\n- name: ApiKeyAuthHeader\n  type: apiKey\n  in: header\n  parameter: api-key\n  sources:\n  - openapi/ncbi-datasets-api.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/authentication/ncbi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ncbi/authentication/ncbi-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Bioinformatics

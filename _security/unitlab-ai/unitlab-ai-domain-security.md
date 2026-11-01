@@ -5,13 +5,13 @@ api_specs:
   label: Unitlab AI Datasets API
   slug: unitlab-ai-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitlab-ai/refs/heads/main/openapi/unitlab-ai-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/unitlab-ai/openapi/unitlab-ai-datasets-api-openapi.yml
 - filename: unitlab-ai-projects-api-openapi.yml
   format: yaml
   label: Unitlab AI Projects API
   slug: unitlab-ai-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitlab-ai/refs/heads/main/openapi/unitlab-ai-projects-api-openapi.yml
+  url: https://artifacts.apis.io/unitlab-ai/openapi/unitlab-ai-projects-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,7 +41,7 @@ source_filename: unitlab-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: unitlab.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  7 09:11:51 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: unitlab.ai\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unitlab-ai/refs/heads/main/security/unitlab-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/unitlab-ai/security/unitlab-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

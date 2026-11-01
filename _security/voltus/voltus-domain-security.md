@@ -5,25 +5,25 @@ api_specs:
   label: Voltus Dispatches API
   slug: voltus-dispatches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/openapi/voltus-dispatches-api-openapi.yml
+  url: https://artifacts.apis.io/voltus/openapi/voltus-dispatches-api-openapi.yml
 - filename: voltus-sites-api-openapi.yml
   format: yaml
   label: Voltus Sites API
   slug: voltus-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/openapi/voltus-sites-api-openapi.yml
+  url: https://artifacts.apis.io/voltus/openapi/voltus-sites-api-openapi.yml
 - filename: voltus-telemetry-api-openapi.yml
   format: yaml
   label: Voltus Telemetry API
   slug: voltus-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/openapi/voltus-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/voltus/openapi/voltus-telemetry-api-openapi.yml
 - filename: voltus-webhooks-api-openapi.yml
   format: yaml
   label: Voltus Webhooks API
   slug: voltus-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/openapi/voltus-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/voltus/openapi/voltus-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: voltus-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.voltus.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 08:19:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.voltus.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 23:59:59 2026 GMT\n  hsts: false\n- host: openadr.voltus.co\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 29 03:05:05 2026 GMT\n  hsts: null\ndomains:\n- domain: voltus.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/security/voltus-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/voltus/security/voltus-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Energy

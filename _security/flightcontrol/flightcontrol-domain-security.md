@@ -5,37 +5,37 @@ api_specs:
   label: Flightcontrol CloudFront API
   slug: flightcontrol-cloudfront-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightcontrol/refs/heads/main/openapi/flightcontrol-cloudfront-api-openapi.yml
+  url: https://artifacts.apis.io/flightcontrol/openapi/flightcontrol-cloudfront-api-openapi.yml
 - filename: flightcontrol-deploy-hooks-api-openapi.yml
   format: yaml
   label: Flightcontrol Deploy Hooks API
   slug: flightcontrol-deploy-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightcontrol/refs/heads/main/openapi/flightcontrol-deploy-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/flightcontrol/openapi/flightcontrol-deploy-hooks-api-openapi.yml
 - filename: flightcontrol-deployments-api-openapi.yml
   format: yaml
   label: Flightcontrol Deployments API
   slug: flightcontrol-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightcontrol/refs/heads/main/openapi/flightcontrol-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/flightcontrol/openapi/flightcontrol-deployments-api-openapi.yml
 - filename: flightcontrol-environment-variables-api-openapi.yml
   format: yaml
   label: Flightcontrol Environment Variables API
   slug: flightcontrol-environment-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightcontrol/refs/heads/main/openapi/flightcontrol-environment-variables-api-openapi.yml
+  url: https://artifacts.apis.io/flightcontrol/openapi/flightcontrol-environment-variables-api-openapi.yml
 - filename: flightcontrol-environments-api-openapi.yml
   format: yaml
   label: Flightcontrol Environments API
   slug: flightcontrol-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightcontrol/refs/heads/main/openapi/flightcontrol-environments-api-openapi.yml
+  url: https://artifacts.apis.io/flightcontrol/openapi/flightcontrol-environments-api-openapi.yml
 - filename: flightcontrol-services-api-openapi.yml
   format: yaml
   label: Flightcontrol Services API
   slug: flightcontrol-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightcontrol/refs/heads/main/openapi/flightcontrol-services-api-openapi.yml
+  url: https://artifacts.apis.io/flightcontrol/openapi/flightcontrol-services-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: flightcontrol-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.flightcontrol.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.flightcontrol.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 23:59:59 2026 GMT\n  hsts: null\n- host: app.flightcontrol.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 631138519\ndomains:\n- domain: flightcontrol.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flightcontrol/refs/heads/main/security/flightcontrol-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/flightcontrol/security/flightcontrol-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Deployment

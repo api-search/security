@@ -45,7 +45,7 @@ source_filename: shipyard-software-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.shipyardsoftware.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 15:23:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.clipper.exchange\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 13:47:27 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: blade-api.sushi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 20 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: shipyardsoftware.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: clipper.exchange\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shipyard-software/refs/heads/main/security/shipyard-software-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/shipyard-software/security/shipyard-software-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

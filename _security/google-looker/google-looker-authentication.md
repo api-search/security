@@ -7,19 +7,19 @@ api_specs:
   label: Google Looker Authentication API
   slug: google-looker-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-looker/refs/heads/main/openapi/google-looker-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/google-looker/openapi/google-looker-authentication-api-openapi.yml
 - filename: google-looker-looks-api-openapi.yml
   format: yaml
   label: Google Looker Looks API
   slug: google-looker-looks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-looker/refs/heads/main/openapi/google-looker-looks-api-openapi.yml
+  url: https://artifacts.apis.io/google-looker/openapi/google-looker-looks-api-openapi.yml
 - filename: google-looker-users-api-openapi.yml
   format: yaml
   label: Google Looker Users API
   slug: google-looker-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-looker/refs/heads/main/openapi/google-looker-users-api-openapi.yml
+  url: https://artifacts.apis.io/google-looker/openapi/google-looker-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -45,7 +45,7 @@ source_filename: google-looker-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-looker/refs/heads/main/authentication/google-looker-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-looker/authentication/google-looker-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Analytics

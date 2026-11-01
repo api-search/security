@@ -32,7 +32,7 @@ source_filename: covid-19-jhu-csse-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: nuttaphat.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 08:14:24 2026 GMT\n  hsts: false\ndomains:\n- domain: nuttaphat.com\n  dnssec: true\n  caa:\n  - nat236919.github.io.\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"sectigo.com\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/covid-19-jhu-csse/refs/heads/main/security/covid-19-jhu-csse-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/covid-19-jhu-csse/security/covid-19-jhu-csse-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Health

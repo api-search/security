@@ -5,121 +5,121 @@ api_specs:
   label: ProjectDiscovery Asset API
   slug: projectdiscovery-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-asset-api-openapi.yml
+  url: https://artifacts.apis.io/projectdiscovery/openapi/projectdiscovery-asset-api-openapi.yml
 - filename: projectdiscovery-assets-api-openapi.yml
   format: yaml
   label: ProjectDiscovery Assets API
   slug: projectdiscovery-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-assets-api-openapi.yml
+  url: https://artifacts.apis.io/projectdiscovery/openapi/projectdiscovery-assets-api-openapi.yml
 - filename: projectdiscovery-chaos-api-openapi.yml
   format: yaml
   label: ProjectDiscovery Chaos API
   slug: projectdiscovery-chaos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-chaos-api-openapi.yml
+  url: https://artifacts.apis.io/projectdiscovery/openapi/projectdiscovery-chaos-api-openapi.yml
 - filename: projectdiscovery-configurations-api-openapi.yml
   format: yaml
   label: ProjectDiscovery Configurations API
   slug: projectdiscovery-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/projectdiscovery/openapi/projectdiscovery-configurations-api-openapi.yml
 - filename: projectdiscovery-enumerations-api-openapi.yml
   format: yaml
   label: ProjectDiscovery Enumerations API
   slug: projectdiscovery-enumerations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-enumerations-api-openapi.yml
+  url: https://artifacts.apis.io/projectdiscovery/openapi/projectdiscovery-enumerations-api-openapi.yml
 - filename: projectdiscovery-export-api-openapi.yml
   format: yaml
   label: ProjectDiscovery Export API
   slug: projectdiscovery-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-export-api-openapi.yml
+  url: https://artifacts.apis.io/projectdiscovery/openapi/projectdiscovery-export-api-openapi.yml
 - filename: projectdiscovery-history-api-openapi.yml
   format: yaml
   label: ProjectDiscovery History API
   slug: projectdiscovery-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-history-api-openapi.yml
+  url: https://artifacts.apis.io/projectdiscovery/openapi/projectdiscovery-history-api-openapi.yml
 - filename: projectdiscovery-internal-api-openapi.yml
   format: yaml
   label: ProjectDiscovery Internal API
   slug: projectdiscovery-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-internal-api-openapi.yml
+  url: https://artifacts.apis.io/projectdiscovery/openapi/projectdiscovery-internal-api-openapi.yml
 - filename: projectdiscovery-leaks-api-openapi.yml
   format: yaml
   label: ProjectDiscovery Leaks API
   slug: projectdiscovery-leaks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-leaks-api-openapi.yml
+  url: https://artifacts.apis.io/projectdiscovery/openapi/projectdiscovery-leaks-api-openapi.yml
 - filename: projectdiscovery-results-api-openapi.yml
   format: yaml
   label: ProjectDiscovery Results API
   slug: projectdiscovery-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-results-api-openapi.yml
+  url: https://artifacts.apis.io/projectdiscovery/openapi/projectdiscovery-results-api-openapi.yml
 - filename: projectdiscovery-retests-api-openapi.yml
   format: yaml
   label: ProjectDiscovery Retests API
   slug: projectdiscovery-retests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-retests-api-openapi.yml
+  url: https://artifacts.apis.io/projectdiscovery/openapi/projectdiscovery-retests-api-openapi.yml
 - filename: projectdiscovery-scan-log-api-openapi.yml
   format: yaml
   label: ProjectDiscovery Scan Log API
   slug: projectdiscovery-scan-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-scan-log-api-openapi.yml
+  url: https://artifacts.apis.io/projectdiscovery/openapi/projectdiscovery-scan-log-api-openapi.yml
 - filename: projectdiscovery-scans-api-openapi.yml
   format: yaml
   label: ProjectDiscovery Scans API
   slug: projectdiscovery-scans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-scans-api-openapi.yml
+  url: https://artifacts.apis.io/projectdiscovery/openapi/projectdiscovery-scans-api-openapi.yml
 - filename: projectdiscovery-team-api-openapi.yml
   format: yaml
   label: ProjectDiscovery Team API
   slug: projectdiscovery-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-team-api-openapi.yml
+  url: https://artifacts.apis.io/projectdiscovery/openapi/projectdiscovery-team-api-openapi.yml
 - filename: projectdiscovery-template-api-openapi.yml
   format: yaml
   label: ProjectDiscovery Template API
   slug: projectdiscovery-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-template-api-openapi.yml
+  url: https://artifacts.apis.io/projectdiscovery/openapi/projectdiscovery-template-api-openapi.yml
 - filename: projectdiscovery-template-v2-api-openapi.yml
   format: yaml
   label: ProjectDiscovery Template/v2 API
   slug: projectdiscovery-template-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-template-v2-api-openapi.yml
+  url: https://artifacts.apis.io/projectdiscovery/openapi/projectdiscovery-template-v2-api-openapi.yml
 - filename: projectdiscovery-templates-api-openapi.yml
   format: yaml
   label: ProjectDiscovery Templates API
   slug: projectdiscovery-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-templates-api-openapi.yml
+  url: https://artifacts.apis.io/projectdiscovery/openapi/projectdiscovery-templates-api-openapi.yml
 - filename: projectdiscovery-users-api-openapi.yml
   format: yaml
   label: ProjectDiscovery Users API
   slug: projectdiscovery-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-users-api-openapi.yml
+  url: https://artifacts.apis.io/projectdiscovery/openapi/projectdiscovery-users-api-openapi.yml
 - filename: projectdiscovery-vuln-api-openapi.yml
   format: yaml
   label: ProjectDiscovery Vuln API
   slug: projectdiscovery-vuln-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-vuln-api-openapi.yml
+  url: https://artifacts.apis.io/projectdiscovery/openapi/projectdiscovery-vuln-api-openapi.yml
 - filename: projectdiscovery-vulnerability-api-openapi.yml
   format: yaml
   label: ProjectDiscovery Vulnerability API
   slug: projectdiscovery-vulnerability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-vulnerability-api-openapi.yml
+  url: https://artifacts.apis.io/projectdiscovery/openapi/projectdiscovery-vulnerability-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -159,7 +159,7 @@ source_filename: projectdiscovery-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: projectdiscovery.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 01:53:40 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.projectdiscovery.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 23:22:58 2026 GMT\n  hsts: null\n- host: api.dev.projectdiscovery.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 13:42:35 2026 GMT\n  hsts: null\ndomains:\n- domain: projectdiscovery.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/security/projectdiscovery-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/projectdiscovery/security/projectdiscovery-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

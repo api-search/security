@@ -7,55 +7,55 @@ api_specs:
   label: EnergyAustralia Data Holder Customers API
   slug: energyaustralia-data-holder-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-data-holder-customers-api-openapi.yml
+  url: https://artifacts.apis.io/energyaustralia/openapi/energyaustralia-data-holder-customers-api-openapi.yml
 - filename: energyaustralia-data-holder-operations-api-openapi.yml
   format: yaml
   label: EnergyAustralia Data Holder Operations API
   slug: energyaustralia-data-holder-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-data-holder-operations-api-openapi.yml
+  url: https://artifacts.apis.io/energyaustralia/openapi/energyaustralia-data-holder-operations-api-openapi.yml
 - filename: energyaustralia-distributed-energy-resources-api-openapi.yml
   format: yaml
   label: EnergyAustralia Distributed Energy Resources API
   slug: energyaustralia-distributed-energy-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-distributed-energy-resources-api-openapi.yml
+  url: https://artifacts.apis.io/energyaustralia/openapi/energyaustralia-distributed-energy-resources-api-openapi.yml
 - filename: energyaustralia-electricity-service-points-api-openapi.yml
   format: yaml
   label: EnergyAustralia Electricity Service Points API
   slug: energyaustralia-electricity-service-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-electricity-service-points-api-openapi.yml
+  url: https://artifacts.apis.io/energyaustralia/openapi/energyaustralia-electricity-service-points-api-openapi.yml
 - filename: energyaustralia-electricity-usage-api-openapi.yml
   format: yaml
   label: EnergyAustralia Electricity Usage API
   slug: energyaustralia-electricity-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-electricity-usage-api-openapi.yml
+  url: https://artifacts.apis.io/energyaustralia/openapi/energyaustralia-electricity-usage-api-openapi.yml
 - filename: energyaustralia-energy-account-balances-api-openapi.yml
   format: yaml
   label: EnergyAustralia Energy Account Balances API
   slug: energyaustralia-energy-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-energy-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/energyaustralia/openapi/energyaustralia-energy-account-balances-api-openapi.yml
 - filename: energyaustralia-energy-account-billing-api-openapi.yml
   format: yaml
   label: EnergyAustralia Energy Account Billing API
   slug: energyaustralia-energy-account-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-energy-account-billing-api-openapi.yml
+  url: https://artifacts.apis.io/energyaustralia/openapi/energyaustralia-energy-account-billing-api-openapi.yml
 - filename: energyaustralia-energy-accounts-api-openapi.yml
   format: yaml
   label: EnergyAustralia Energy Accounts API
   slug: energyaustralia-energy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-energy-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/energyaustralia/openapi/energyaustralia-energy-accounts-api-openapi.yml
 - filename: energyaustralia-energy-plans-api-openapi.yml
   format: yaml
   label: EnergyAustralia Energy Plans API
   slug: energyaustralia-energy-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-energy-plans-api-openapi.yml
+  url: https://artifacts.apis.io/energyaustralia/openapi/energyaustralia-energy-plans-api-openapi.yml
 auth_types:
 - none
 - mutualTLS
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: >-\n  Consumer 
   \  - listElectricityDERForSpecificServicePoints\n  evidence: >-\n    ACCC CDR Register GET /cdr-register/v1/energy/data-holders/brands/summary returned\n    HTTP 200 listing EnergyAustralia (dataHolderBrandId\n    1cc7833a-b834-ed11-a832-000d3a8830d6, ABN 99086014968) with publicBaseUri\n    https://authncdr.energyaustralia.com.au. Anonymous GET of\n    https://authncdr.energyaustralia.com.au/.well-known/openid-configuration returned\n    HTTP 404 (re-verified 2026-07-27), so the live OIDC metadata is not readable without\n    accreditation.\nschemes:\n- name: CDR mutual TLS\n  type: mutualTLS\n  description: >-\n    All resource and token requests are made over mutual TLS using client transport\n    certificates issued through the ACCC CDR Register PKI. Holder-of-key is bound to the\n    access token per FAPI 1.0 Advanced.\n  sources: [https://consumerdatastandardsaustralia.github.io/standards/#security-profile]\n- name: CDR OpenID Connect\n  type: openIdConnect\n  description: >-\n \
   \   OpenID Connect identity layer. The data holder's discovery document is published at\n    {publicBaseUri}/.well-known/openid-configuration but is reachable only over mTLS\n    with a CDR Register-issued certificate.\n  openIdConnectUrl: https://authncdr.energyaustralia.com.au/.well-known/openid-configuration\n  reachable_anonymously: false\n  sources: [https://consumerdatastandardsaustralia.github.io/standards/#security-profile]\n- name: CDR OAuth2 (FAPI 1.0 Advanced)\n  type: oauth2\n  description: >-\n    Authorization code flow with PKCE, Pushed Authorization Requests (PAR), request\n    object signing and private_key_jwt client authentication, per the CDR Information\n    Security profile. Access tokens are consent-scoped and sharing-duration bound.\n  flows:\n  - flow: authorizationCode\n    scopes_ref: scopes/energyaustralia-scopes.yml\n  sources: [https://consumerdatastandardsaustralia.github.io/standards/#security-profile]\nonboarding:\n  self_serve: false\n  path: >-\n    There\
   \ is no developer signup. To read any EnergyAustralia consumer data a party must\n    be accredited by the ACCC as a Data Recipient (or operate as a CDR representative /\n    sponsored ADR under an accredited intermediary), onboard to the CDR Register, obtain\n    transport and signing certificates, register a software product, and then obtain\n    per-consumer consent through the authorisation flow.\n  docs: https://www.cdr.gov.au/\n  provider_faq: https://www.energyaustralia.com.au/home/help-support/faqs/consumer-data-right\nsecondary_data_holder:\n  name: AEMO\n  role: >-\n    Australian Energy Market Operator acts as secondary data holder for NMI standing\n    data, metering data and the DER register; the retailer proxies those requests.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/authentication/energyaustralia-authentication.yml
+source_yaml_url: https://artifacts.apis.io/energyaustralia/authentication/energyaustralia-authentication.yml
 summary_line: none/mutualTLS/oauth2/openIdConnect · 3 schemes
 tags:
 - Energy

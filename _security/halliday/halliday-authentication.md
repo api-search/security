@@ -7,25 +7,25 @@ api_specs:
   label: Halliday Assets API
   slug: halliday-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/openapi/halliday-assets-api-openapi.yml
+  url: https://artifacts.apis.io/halliday/openapi/halliday-assets-api-openapi.yml
 - filename: halliday-chains-api-openapi.yml
   format: yaml
   label: Halliday Chains API
   slug: halliday-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/openapi/halliday-chains-api-openapi.yml
+  url: https://artifacts.apis.io/halliday/openapi/halliday-chains-api-openapi.yml
 - filename: halliday-payments-api-openapi.yml
   format: yaml
   label: Halliday Payments API
   slug: halliday-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/openapi/halliday-payments-api-openapi.yml
+  url: https://artifacts.apis.io/halliday/openapi/halliday-payments-api-openapi.yml
 - filename: halliday-webhooks-api-openapi.yml
   format: yaml
   label: Halliday Webhooks API
   slug: halliday-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/openapi/halliday-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/halliday/openapi/halliday-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: halliday-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/halliday-openapi-original.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: ApiKeyAuth\n  type: http\n  scheme: bearer\n  bearerFormat: API_KEY\n  sources:\n  - openapi/halliday-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/authentication/halliday-authentication.yml
+source_yaml_url: https://artifacts.apis.io/halliday/authentication/halliday-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

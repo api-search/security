@@ -7,25 +7,25 @@ api_specs:
   label: University of New South Wales Core API
   slug: unsw-sydney-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/openapi/unsw-sydney-core-api-openapi.yml
+  url: https://artifacts.apis.io/unsw-sydney/openapi/unsw-sydney-core-api-openapi.yml
 - filename: unsw-sydney-discover-api-openapi.yml
   format: yaml
   label: University of New South Wales Discover API
   slug: unsw-sydney-discover-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/openapi/unsw-sydney-discover-api-openapi.yml
+  url: https://artifacts.apis.io/unsw-sydney/openapi/unsw-sydney-discover-api-openapi.yml
 - filename: unsw-sydney-oai-pmh-api-openapi.yml
   format: yaml
   label: University of New South Wales Oai Pmh API
   slug: unsw-sydney-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/openapi/unsw-sydney-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/unsw-sydney/openapi/unsw-sydney-oai-pmh-api-openapi.yml
 - filename: unsw-sydney-root-api-openapi.yml
   format: yaml
   label: University of New South Wales Root API
   slug: unsw-sydney-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/openapi/unsw-sydney-root-api-openapi.yml
+  url: https://artifacts.apis.io/unsw-sydney/openapi/unsw-sydney-root-api-openapi.yml
 auth_types: []
 description: How each UNSW surface authenticates, established by probing rather than by reading marketing copy. The institution's most substantial API platform is fully gated; its readable surfaces are anonymous; and its own identity plane is a federated SAML IdP rather than an API key system.
 kind: authentication
@@ -50,7 +50,7 @@ source_yaml: "---\nname: UNSW Sydney — authentication posture by surface\naid:
   \        status: 200\n      - url: https://unsworks.unsw.edu.au/server/api/core/collections?size=1\n        status: 200\n      - url: https://unsworks.unsw.edu.au/server/api/core/items?size=1\n        status: 401\n        detail: >-\n          Unbounded item browse is gated. This is an access-clarity finding, not a failure: the\n          repository is publicly harvestable via discovery search and OAI-PMH, but the item\n          browse endpoint is not open.\n      - url: https://unsworks.unsw.edu.au/server/api/core/bitstreams?size=1\n        status: 401\n    notes: >-\n      DSpace exposes an authn endpoint at /server/api/authn; no credential issuance process for\n      external developers is documented publicly.\n  - surface: UNSWorks OAI-PMH\n    host: unsworks.unsw.edu.au\n    x-operator: institution\n    scheme: none — fully anonymous\n    evidence:\n      - url: https://unsworks.unsw.edu.au/oai/request?verb=Identify\n        status: 200\n        detail: All six OAI-PMH verbs answered\
   \ anonymously; no key, token or referrer required.\n  - surface: UNSW Shibboleth Identity Provider (AAF / eduGAIN)\n    host: aaf.unsw.edu.au\n    x-operator: institution\n    scheme: SAML 2.0 federated single sign-on (Shibboleth IdP)\n    evidence:\n      - url: https://aaf.unsw.edu.au/idp/shibboleth\n        status: 200\n        detail: >-\n          Entity metadata is served anonymously and is itself the machine-readable contract.\n          SSO endpoints require a valid SAML AuthnRequest from a federated service provider;\n          they are not an open API and were not exercised.\n    notes: >-\n      This is the institution's own identity plane and the reason a university's most reliable\n      programmable surface is often federation metadata rather than a REST API.\n  - surface: Moodle @ UNSW (TELT) LTI 1.3 platform\n    host: moodle.telt.unsw.edu.au\n    x-operator: tenant\n    scheme: OAuth 2.0 client credentials over LTI 1.3 (JWKS-published RS256 keys)\n    evidence:\n     \
   \ - url: https://moodle.telt.unsw.edu.au/mod/lti/certs.php\n        status: 200\n        detail: Public keyset served anonymously.\n      - url: https://moodle.telt.unsw.edu.au/mod/lti/token.php\n        status: 400\n        detail: Token endpoint present; rejects a request with no grant, which confirms it is live.\n      - url: https://moodle.telt.unsw.edu.au/webservice/rest/server.php\n        status: 200\n        detail: >-\n          Moodle web-service endpoint returns an in-band invalidtoken exception; token issuance is\n          internal to UNSW and not available to external developers.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/authentication/unsw-sydney-authentication.yml
+source_yaml_url: https://artifacts.apis.io/unsw-sydney/authentication/unsw-sydney-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

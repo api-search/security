@@ -5,49 +5,49 @@ api_specs:
   label: PayJoy Carts API
   slug: payjoy-carts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/openapi/payjoy-carts-api-openapi.yml
+  url: https://artifacts.apis.io/payjoy/openapi/payjoy-carts-api-openapi.yml
 - filename: payjoy-down-payments-api-openapi.yml
   format: yaml
   label: PayJoy Down Payments API
   slug: payjoy-down-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/openapi/payjoy-down-payments-api-openapi.yml
+  url: https://artifacts.apis.io/payjoy/openapi/payjoy-down-payments-api-openapi.yml
 - filename: payjoy-merchants-api-openapi.yml
   format: yaml
   label: PayJoy Merchants API
   slug: payjoy-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/openapi/payjoy-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/payjoy/openapi/payjoy-merchants-api-openapi.yml
 - filename: payjoy-reconciliation-api-openapi.yml
   format: yaml
   label: PayJoy Reconciliation API
   slug: payjoy-reconciliation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/openapi/payjoy-reconciliation-api-openapi.yml
+  url: https://artifacts.apis.io/payjoy/openapi/payjoy-reconciliation-api-openapi.yml
 - filename: payjoy-repayments-api-openapi.yml
   format: yaml
   label: PayJoy Repayments API
   slug: payjoy-repayments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/openapi/payjoy-repayments-api-openapi.yml
+  url: https://artifacts.apis.io/payjoy/openapi/payjoy-repayments-api-openapi.yml
 - filename: payjoy-salesclerks-api-openapi.yml
   format: yaml
   label: PayJoy SalesClerks API
   slug: payjoy-salesclerks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/openapi/payjoy-salesclerks-api-openapi.yml
+  url: https://artifacts.apis.io/payjoy/openapi/payjoy-salesclerks-api-openapi.yml
 - filename: payjoy-status-api-openapi.yml
   format: yaml
   label: PayJoy Status API
   slug: payjoy-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/openapi/payjoy-status-api-openapi.yml
+  url: https://artifacts.apis.io/payjoy/openapi/payjoy-status-api-openapi.yml
 - filename: payjoy-vouchers-api-openapi.yml
   format: yaml
   label: PayJoy Vouchers API
   slug: payjoy-vouchers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/openapi/payjoy-vouchers-api-openapi.yml
+  url: https://artifacts.apis.io/payjoy/openapi/payjoy-vouchers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -87,7 +87,7 @@ source_filename: payjoy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.payjoy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 23:59:59 2026 GMT\n  hsts: false\n- host: developers.payjoy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 01:58:03 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: partner-integration.sandbox.payjoy.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 17 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: payjoy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/security/payjoy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/payjoy/security/payjoy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

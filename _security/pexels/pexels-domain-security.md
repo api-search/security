@@ -5,19 +5,19 @@ api_specs:
   label: Pexels Collections API
   slug: pexels-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexels/refs/heads/main/openapi/pexels-collections-api-openapi.yml
+  url: https://artifacts.apis.io/pexels/openapi/pexels-collections-api-openapi.yml
 - filename: pexels-photos-api-openapi.yml
   format: yaml
   label: Pexels Photos API
   slug: pexels-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexels/refs/heads/main/openapi/pexels-photos-api-openapi.yml
+  url: https://artifacts.apis.io/pexels/openapi/pexels-photos-api-openapi.yml
 - filename: pexels-videos-api-openapi.yml
   format: yaml
   label: Pexels Videos API
   slug: pexels-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexels/refs/heads/main/openapi/pexels-videos-api-openapi.yml
+  url: https://artifacts.apis.io/pexels/openapi/pexels-videos-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: pexels-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.pexels.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 15:38:41 2026 GMT\n  hsts: null\n- host: api.pexels.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 11:17:20 2026 GMT\n  hsts: false\ndomains:\n- domain: pexels.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pexels/refs/heads/main/security/pexels-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pexels/security/pexels-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Photos

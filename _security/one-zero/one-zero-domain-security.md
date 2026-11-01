@@ -30,7 +30,7 @@ source_filename: one-zero-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.onezerobank.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 01:59:20 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n  hsts_header: max-age=15552000; includeSubDomains; preload\n  note: 'Origin is behind a Cloudflare managed challenge (HTTP 403, cf-mitigated: challenge) for non-browser\n    clients; the HSTS header was read from that challenge response, which is served by the same edge.'\ndomains:\n- domain: onezerobank.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\nnote: 'Every HTTP probe against www.onezerobank.com answers 403 with cf-mitigated: challenge. TLS, DNSSEC,\n  CAA, SPF and DMARC results are unaffected by that challenge; HTTP-body-dependent checks are not observable\n  from this vantage point.'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/one-zero/refs/heads/main/security/one-zero-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/one-zero/security/one-zero-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Banking

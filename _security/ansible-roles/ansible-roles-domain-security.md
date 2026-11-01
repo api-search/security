@@ -5,43 +5,43 @@ api_specs:
   label: Ansible Roles Ansible Galaxy Roles & Collections API
   slug: ansible-roles-ansible-galaxy-roles-collections-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/openapi/ansible-roles-ansible-galaxy-roles-collections-api-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-roles/openapi/ansible-roles-ansible-galaxy-roles-collections-api-api-openapi.yml
 - filename: ansible-roles-collections-api-openapi.yml
   format: yaml
   label: Ansible Roles Collections API
   slug: ansible-roles-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/openapi/ansible-roles-collections-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-roles/openapi/ansible-roles-collections-api-openapi.yml
 - filename: ansible-roles-imports-api-openapi.yml
   format: yaml
   label: Ansible Roles Imports API
   slug: ansible-roles-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/openapi/ansible-roles-imports-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-roles/openapi/ansible-roles-imports-api-openapi.yml
 - filename: ansible-roles-namespaces-api-openapi.yml
   format: yaml
   label: Ansible Roles Namespaces API
   slug: ansible-roles-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/openapi/ansible-roles-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-roles/openapi/ansible-roles-namespaces-api-openapi.yml
 - filename: ansible-roles-roles-api-openapi.yml
   format: yaml
   label: Ansible Roles API
   slug: ansible-roles-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/openapi/ansible-roles-roles-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-roles/openapi/ansible-roles-roles-api-openapi.yml
 - filename: ansible-roles-sync-api-openapi.yml
   format: yaml
   label: Ansible Roles Sync API
   slug: ansible-roles-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/openapi/ansible-roles-sync-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-roles/openapi/ansible-roles-sync-api-openapi.yml
 - filename: ansible-roles-users-api-openapi.yml
   format: yaml
   label: Ansible Roles Users API
   slug: ansible-roles-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/openapi/ansible-roles-users-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-roles/openapi/ansible-roles-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -85,7 +85,7 @@ source_filename: ansible-roles-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: galaxy.ansible.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 12:14:32 2026 GMT\n  hsts: false\n- host: console.redhat.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 13 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: ansible.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: redhat.com\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:it-cert-admin@redhat.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/security/ansible-roles-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ansible-roles/security/ansible-roles-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Ansible

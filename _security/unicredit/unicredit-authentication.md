@@ -2,12 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
+- filename: unicredit-openapi-generated.yml
+  format: yaml
+  label: UniCredit API
+  slug: unicredit-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/unicredit/openapi/_ae-authored/unicredit-openapi-generated.yml
 - filename: unicredit-hydrogen-api-openapi.yml
   format: yaml
   label: UniCredit Hydrogen API
   slug: unicredit-hydrogen-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unicredit/refs/heads/main/openapi/unicredit-hydrogen-api-openapi.yml
+  url: https://artifacts.apis.io/unicredit/openapi/unicredit-hydrogen-api-openapi.yml
 auth_types: []
 description: Authentication schemes for UniCredit APIs as described on the Getting Started page.
 kind: authentication
@@ -30,7 +36,7 @@ source_filename: unicredit-authentication.yml
 source_heading: Authentication Profile
 source_url: https://developer.unicredit.eu/support/getting-started-public
 source_yaml: "generated: '2026-10-15'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://developer.unicredit.eu/support/getting-started-public\nsources:\n- https://developer.unicredit.eu/support/getting-started-public\ndescription: Authentication schemes for UniCredit APIs as described on the Getting Started page.\nschemes:\n- type: mtls\n  name: QWAC certificate\n  evidence: A TPP can interact with UniCredit APIs by presenting a valid QWAC (Qualified Web Authentication Certificate) certificate, according\n    to the eIDAS Regulation.\ndocs: https://developer.unicredit.eu/support/getting-started-public\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unicredit/refs/heads/main/authentication/unicredit-authentication.yml
+source_yaml_url: https://artifacts.apis.io/unicredit/authentication/unicredit-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company

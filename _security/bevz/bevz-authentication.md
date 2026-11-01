@@ -7,55 +7,55 @@ api_specs:
   label: Bevz Integrator Users API
   slug: bevz-integrator-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/openapi/bevz-integrator-users-api-openapi.yml
+  url: https://artifacts.apis.io/bevz/openapi/bevz-integrator-users-api-openapi.yml
 - filename: bevz-integrators-api-openapi.yml
   format: yaml
   label: Bevz Integrators API
   slug: bevz-integrators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/openapi/bevz-integrators-api-openapi.yml
+  url: https://artifacts.apis.io/bevz/openapi/bevz-integrators-api-openapi.yml
 - filename: bevz-lotto-scratcher-games-api-openapi.yml
   format: yaml
   label: Bevz Lotto Scratcher Games API
   slug: bevz-lotto-scratcher-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/openapi/bevz-lotto-scratcher-games-api-openapi.yml
+  url: https://artifacts.apis.io/bevz/openapi/bevz-lotto-scratcher-games-api-openapi.yml
 - filename: bevz-order-api-openapi.yml
   format: yaml
   label: Bevz Order API
   slug: bevz-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/openapi/bevz-order-api-openapi.yml
+  url: https://artifacts.apis.io/bevz/openapi/bevz-order-api-openapi.yml
 - filename: bevz-pick-a-delivery-service-for-onboarding-api-api-openapi.yml
   format: yaml
   label: Bevz Pick a Delivery Service for Onboarding API
   slug: bevz-pick-a-delivery-service-for-onboarding-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/openapi/bevz-pick-a-delivery-service-for-onboarding-api-api-openapi.yml
+  url: https://artifacts.apis.io/bevz/openapi/bevz-pick-a-delivery-service-for-onboarding-api-api-openapi.yml
 - filename: bevz-store-products-api-openapi.yml
   format: yaml
   label: Bevz Store Products API
   slug: bevz-store-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/openapi/bevz-store-products-api-openapi.yml
+  url: https://artifacts.apis.io/bevz/openapi/bevz-store-products-api-openapi.yml
 - filename: bevz-stores-api-openapi.yml
   format: yaml
   label: Bevz Stores API
   slug: bevz-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/openapi/bevz-stores-api-openapi.yml
+  url: https://artifacts.apis.io/bevz/openapi/bevz-stores-api-openapi.yml
 - filename: bevz-uber-eats-onboarding-api-workflow-api-openapi.yml
   format: yaml
   label: Bevz Uber Eats Onboarding API Workflow API
   slug: bevz-uber-eats-onboarding-api-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/openapi/bevz-uber-eats-onboarding-api-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/bevz/openapi/bevz-uber-eats-onboarding-api-workflow-api-openapi.yml
 - filename: bevz-webhooks-api-openapi.yml
   format: yaml
   label: Bevz Webhooks API
   slug: bevz-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/openapi/bevz-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/bevz/openapi/bevz-webhooks-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://docs.be
   \      - {name: exp, description: Expiry, consistent with the documented 30-day lifetime.}\n    algorithm_note: The published sample token header declares HS256, but Bevz does not document the signing algorithm as a contract, and no JWKS endpoint is published.\noauth2:\n  applies_to_bevz_api: false\n  note: >-\n    Bevz itself does not expose OAuth. OAuth 2.0 appears only as a THIRD-PARTY flow the API brokers:\n    generateOAuth / exchangeCode / provisionStore drive the Uber Eats merchant authorization\n    handshake on the store's behalf, and their 400 responses surface Uber Eats OAuth errors\n    (invalid_client, invalid_grant, invalid_request, invalid_scope, access_denied).\nonboarding:\n  self_serve: false\n  process: >-\n    Email support@bevz.com to request an Integrator account; an Integrator Account Manager runs\n    onboarding. Bevz then provides sandbox credentials plus a required-API checklist, and issues\n    production credentials only after collaborative testing and sign-off.\n\
   \  source: https://docs.bevz.com/#tag/faq\nauthorization:\n  model: tenant-scoped\n  description: >-\n    Authorization is enforced by integrator tenancy, not by scopes. Every path is nested under\n    /integrators/{integrator_id}, and the published errors confirm the boundary is checked:\n    \"Integrator unauthorized to perform this action!\" (401) and \"Unable to access store, can only\n    update store within the Integrator's umbrella\" (400).\n  scopes_published: false\n  roles_published: false\n  edge: >-\n    The API is fronted by AWS API Gateway. Unauthenticated requests to the host return\n    {\"message\":\"Forbidden\"} or {\"message\":\"Missing Authentication Token\"} with HTTP 403, and the\n    spec's shared 403 body is \"User is not authorized to access this resource with an explicit deny\"\n    — the API Gateway authorizer's own wording.\nerrors:\n  - {status: 401, meaning: JWT missing, expired or invalid., remediation: Re-authenticate at POST /integrators/login. Tokens older\
   \ than 30 days are rejected.}\n  - {status: 403, meaning: Gateway authorizer explicit deny., remediation: Confirm the integrator identity is entitled to the resource; contact tech@bevz.com.}\ngaps:\n  - >-\n    The OpenAPI declares NO components.securitySchemes and no security requirement on any of its 30\n    operations. Authentication is modeled as a required `Authorization` header PARAMETER on each\n    operation instead, so generated clients and scanners will read this contract as unauthenticated\n    even though every call needs a bearer token. This is the single highest-value fix available on\n    this contract.\n  - The token-minting endpoint (POST /integrators/login) is absent from paths[].\n  - No JWKS / OIDC discovery document, no /.well-known/openid-configuration, and no published signing algorithm contract.\n  - No scope vocabulary, despite the JWT carrying a scope claim.\n  - No token revocation endpoint and no refresh flow are published.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/authentication/bevz-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bevz/authentication/bevz-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company

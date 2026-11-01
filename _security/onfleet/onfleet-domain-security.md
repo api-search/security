@@ -5,55 +5,55 @@ api_specs:
   label: Onfleet Tasks API
   slug: onfleet-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/openapi/onfleet-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/onfleet/openapi/onfleet-tasks-api-openapi.yml
 - filename: onfleet-workers-api-openapi.yml
   format: yaml
   label: Onfleet Workers API
   slug: onfleet-workers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/openapi/onfleet-workers-api-openapi.yml
+  url: https://artifacts.apis.io/onfleet/openapi/onfleet-workers-api-openapi.yml
 - filename: onfleet-route-plans-api-openapi.yml
   format: yaml
   label: Onfleet Route Plans API
   slug: onfleet-route-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/openapi/onfleet-route-plans-api-openapi.yml
+  url: https://artifacts.apis.io/onfleet/openapi/onfleet-route-plans-api-openapi.yml
 - filename: onfleet-orders-api-openapi.yml
   format: yaml
   label: Onfleet Orders API
   slug: onfleet-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/openapi/onfleet-orders-api-openapi.yml
+  url: https://artifacts.apis.io/onfleet/openapi/onfleet-orders-api-openapi.yml
 - filename: onfleet-organizations-api-openapi.yml
   format: yaml
   label: Onfleet Organizations & Teams API
   slug: onfleet-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/openapi/onfleet-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/onfleet/openapi/onfleet-organizations-api-openapi.yml
 - filename: onfleet-recipients-api-openapi.yml
   format: yaml
   label: Onfleet Recipients API
   slug: onfleet-recipients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/openapi/onfleet-recipients-api-openapi.yml
+  url: https://artifacts.apis.io/onfleet/openapi/onfleet-recipients-api-openapi.yml
 - filename: onfleet-destinations-api-openapi.yml
   format: yaml
   label: Onfleet Destinations API
   slug: onfleet-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/openapi/onfleet-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/onfleet/openapi/onfleet-destinations-api-openapi.yml
 - filename: onfleet-webhooks-api-openapi.yml
   format: yaml
   label: Onfleet Webhooks API
   slug: onfleet-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/openapi/onfleet-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/onfleet/openapi/onfleet-webhooks-api-openapi.yml
 - filename: onfleet-route-optimization-api-openapi.yml
   format: yaml
   label: Onfleet Route Optimization API
   slug: onfleet-route-optimization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/openapi/onfleet-route-optimization-api-openapi.yml
+  url: https://artifacts.apis.io/onfleet/openapi/onfleet-route-optimization-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -94,7 +94,7 @@ source_filename: onfleet-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: onfleet.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  7 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.onfleet.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 15:15:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: onfleet.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 iodef \"mailto:devops+caa@onfleet.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/security/onfleet-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/onfleet/security/onfleet-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Last Mile Delivery

@@ -5,43 +5,43 @@ api_specs:
   label: VINaudit Getownershipcost.php API
   slug: vinaudit-getownershipcost-php-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/openapi/vinaudit-getownershipcost-php-api-openapi.yml
+  url: https://artifacts.apis.io/vinaudit/openapi/vinaudit-getownershipcost-php-api-openapi.yml
 - filename: vinaudit-pullreport-api-openapi.yml
   format: yaml
   label: VINaudit Pullreport API
   slug: vinaudit-pullreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/openapi/vinaudit-pullreport-api-openapi.yml
+  url: https://artifacts.apis.io/vinaudit/openapi/vinaudit-pullreport-api-openapi.yml
 - filename: vinaudit-query-api-openapi.yml
   format: yaml
   label: VINaudit Query API
   slug: vinaudit-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/openapi/vinaudit-query-api-openapi.yml
+  url: https://artifacts.apis.io/vinaudit/openapi/vinaudit-query-api-openapi.yml
 - filename: vinaudit-report-api-openapi.yml
   format: yaml
   label: VINaudit Report API
   slug: vinaudit-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/openapi/vinaudit-report-api-openapi.yml
+  url: https://artifacts.apis.io/vinaudit/openapi/vinaudit-report-api-openapi.yml
 - filename: vinaudit-selections-api-openapi.yml
   format: yaml
   label: VINaudit Selections API
   slug: vinaudit-selections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/openapi/vinaudit-selections-api-openapi.yml
+  url: https://artifacts.apis.io/vinaudit/openapi/vinaudit-selections-api-openapi.yml
 - filename: vinaudit-specifications-api-openapi.yml
   format: yaml
   label: VINaudit Specifications API
   slug: vinaudit-specifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/openapi/vinaudit-specifications-api-openapi.yml
+  url: https://artifacts.apis.io/vinaudit/openapi/vinaudit-specifications-api-openapi.yml
 - filename: vinaudit-market-value-api-openapi.yml
   format: yaml
   label: VINaudit Market Value API
   slug: vinaudit-market-value-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/openapi/vinaudit-market-value-api-openapi.yml
+  url: https://artifacts.apis.io/vinaudit/openapi/vinaudit-market-value-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -86,7 +86,7 @@ source_filename: vinaudit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.vinaudit.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 00:02:35 2026 GMT\n  hsts: false\n- host: api.vinaudit.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 00:02:35 2026 GMT\n  hsts: false\n- host: specifications.vinaudit.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 00:02:35 2026 GMT\n  hsts: false\ndomains:\n- domain: vinaudit.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/security/vinaudit-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vinaudit/security/vinaudit-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Vehicle History

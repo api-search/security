@@ -5,25 +5,25 @@ api_specs:
   label: Engine Catalog Service API
   slug: hotel-engine-catalogservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/openapi/hotel-engine-catalogservice-api-openapi.yml
+  url: https://artifacts.apis.io/hotel-engine/openapi/hotel-engine-catalogservice-api-openapi.yml
 - filename: hotel-engine-lodgingbookingservice-api-openapi.yml
   format: yaml
   label: Engine Lodging Booking Service API
   slug: hotel-engine-lodgingbookingservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/openapi/hotel-engine-lodgingbookingservice-api-openapi.yml
+  url: https://artifacts.apis.io/hotel-engine/openapi/hotel-engine-lodgingbookingservice-api-openapi.yml
 - filename: hotel-engine-lodgingshoppingservice-api-openapi.yml
   format: yaml
   label: Engine Lodging Shopping Service API
   slug: hotel-engine-lodgingshoppingservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/openapi/hotel-engine-lodgingshoppingservice-api-openapi.yml
+  url: https://artifacts.apis.io/hotel-engine/openapi/hotel-engine-lodgingshoppingservice-api-openapi.yml
 - filename: hotel-engine-content-service-api-openapi.yml
   format: yaml
   label: Engine Content Service API
   slug: hotel-engine-content-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/openapi/hotel-engine-content-service-api-openapi.yml
+  url: https://artifacts.apis.io/hotel-engine/openapi/hotel-engine-content-service-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: hotel-engine-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: forgeglobal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 20:15:48 2026 GMT\n  hsts: null\n- host: partner-api.engine.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 18 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: forgeglobal.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: engine.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issuewild \"ssl.com\"\n  - 0 iodef \"mailto:security@engine.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/security/hotel-engine-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hotel-engine/security/hotel-engine-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

@@ -7,43 +7,43 @@ api_specs:
   label: Regional Australia Bank Banking Account Balances API
   slug: regional-australia-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/openapi/regional-australia-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/regional-australia-bank/openapi/regional-australia-bank-banking-account-balances-api-openapi.yml
 - filename: regional-australia-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Regional Australia Bank Banking Account Direct Debits API
   slug: regional-australia-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/openapi/regional-australia-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/regional-australia-bank/openapi/regional-australia-bank-banking-account-direct-debits-api-openapi.yml
 - filename: regional-australia-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Regional Australia Bank Banking Account Scheduled Payments API
   slug: regional-australia-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/openapi/regional-australia-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/regional-australia-bank/openapi/regional-australia-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: regional-australia-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Regional Australia Bank Banking Account Transactions API
   slug: regional-australia-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/openapi/regional-australia-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/regional-australia-bank/openapi/regional-australia-bank-banking-account-transactions-api-openapi.yml
 - filename: regional-australia-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Regional Australia Bank Banking Accounts API
   slug: regional-australia-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/openapi/regional-australia-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/regional-australia-bank/openapi/regional-australia-bank-banking-accounts-api-openapi.yml
 - filename: regional-australia-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Regional Australia Bank Banking Payees API
   slug: regional-australia-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/openapi/regional-australia-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/regional-australia-bank/openapi/regional-australia-bank-banking-payees-api-openapi.yml
 - filename: regional-australia-bank-banking-products-api-openapi.yml
   format: yaml
   label: Regional Australia Bank Banking Products API
   slug: regional-australia-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/openapi/regional-australia-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/regional-australia-bank/openapi/regional-australia-bank-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -86,7 +86,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/regional-australia-bank-cds-banking-products-openapi.yml\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#security-profile\nnote: >-\n  Two distinct surfaces. (1) The public Product Reference Data (PRD) API\n  (Get Products / Get Product Detail) is PUBLIC and UNAUTHENTICATED - no API key,\n  no token; only the required `x-v` version header. (2) The authenticated CDR\n  consumer data sharing operations use the CDR security profile: OAuth2\n  Authorization Code with PKCE, OpenID Connect, and FAPI-aligned protections\n  (mutual-TLS sender-constrained tokens, request objects, PAR). Access is limited\n  to accredited data recipients on the CDR Register. The harvested CDS spec does\n  not declare formal `components.securitySchemes`; it carries the required scopes\n  as `x-scopes` extensions per operation.\nsummary:\n  types: [none, oauth2, openIdConnect]\n  public_surface: unauthenticated\n  oauth2_flows:\
   \ [authorizationCode]\n  oauth2_profile: CDR security profile (FAPI 1.0 Advanced-aligned)\nschemes:\n  - name: PublicPRD\n    type: none\n    description: >-\n      Public Product Reference Data endpoints require no authentication. The only\n      mandatory request header is `x-v` (endpoint version). Applies to\n      listBankingProducts and getBankingProductDetail.\n    sources: [openapi/regional-australia-bank-cds-banking-products-openapi.yml]\n  - name: CDR-OAuth2\n    type: oauth2\n    scheme: authorizationCode\n    description: >-\n      OAuth2 Authorization Code with PKCE for consumer data sharing; scopes are\n      the CDR banking scopes (bank:accounts.basic:read, bank:accounts.detail:read,\n      bank:transactions:read, bank:regular_payments:read, bank:payees:read).\n    scopes_artifact: scopes/regional-australia-bank-scopes.yml\n    sources: [openapi/regional-australia-bank-cds-banking-products-openapi.yml]\n  - name: CDR-OIDC\n    type: openIdConnect\n    description: >-\n  \
   \    OpenID Connect identity layer required by the CDR security profile; issuer\n      and discovery are published per data holder at the CDR InfoSec baseURI.\n    sources: [openapi/regional-australia-bank-cds-banking-products-openapi.yml]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/authentication/regional-australia-bank-authentication.yml
+source_yaml_url: https://artifacts.apis.io/regional-australia-bank/authentication/regional-australia-bank-authentication.yml
 summary_line: none/oauth2/openIdConnect · 3 schemes
 tags:
 - Finance

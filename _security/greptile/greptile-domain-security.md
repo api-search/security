@@ -5,19 +5,19 @@ api_specs:
   label: Greptile Query API
   slug: greptile-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greptile/refs/heads/main/openapi/greptile-query-api-openapi.yml
+  url: https://artifacts.apis.io/greptile/openapi/greptile-query-api-openapi.yml
 - filename: greptile-repositories-api-openapi.yml
   format: yaml
   label: Greptile Repositories API
   slug: greptile-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greptile/refs/heads/main/openapi/greptile-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/greptile/openapi/greptile-repositories-api-openapi.yml
 - filename: greptile-search-api-openapi.yml
   format: yaml
   label: Greptile Search API
   slug: greptile-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greptile/refs/heads/main/openapi/greptile-search-api-openapi.yml
+  url: https://artifacts.apis.io/greptile/openapi/greptile-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -54,7 +54,7 @@ source_filename: greptile-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.greptile.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 11:06:56 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.greptile.com\n  https: false\n- host: api.greptile.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 28 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: greptile.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/greptile/refs/heads/main/security/greptile-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/greptile/security/greptile-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

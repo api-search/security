@@ -7,7 +7,7 @@ api_specs:
   label: Adonmo Private Limited Acumen API
   slug: adonmoprivatelimited-acumen-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adonmoprivatelimited/refs/heads/main/openapi/adonmoprivatelimited-acumen-api-openapi.yml
+  url: https://artifacts.apis.io/adonmoprivatelimited/openapi/adonmoprivatelimited-acumen-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -46,7 +46,7 @@ source_yaml: "generated: '2026-09-07'\nmethod: probed\nsource: 'openapi/adonmopr
   \ in its error envelope. Not declared in the\n    OpenAPI document; inferred from live response behaviour.'\n  evidence:\n    no_credential:\n      request: 'GET https://api.adonmo.com/ops_portal/api/spots?page=1&page_size=1'\n      status: 400\n      body: '{\"errors\":[\"access_token is required.\"]}'\n    bad_credential:\n      request: 'GET https://api.adonmo.com/ops_portal/api/spots?page=1&page_size=1 with\n        header Authorization: Bearer <invalid>'\n      status: 401\n      body: 'HTML \"401 Unauthorized\" (Werkzeug/Flask default error page)'\nplacements_ruled_out:\n  note: 'Each of these was probed and still returned the 400 \"access_token is required\"\n    envelope, so none of them is the credential channel.'\n  placements:\n  - placement: query parameter access_token\n    status: 400\n  - placement: request header access_token\n    status: 400\n  - placement: request header X-Access-Token\n    status: 400\n  - placement: cookie access_token\n    status: 400\noauth2: false\n\
   oauth_scopes: false\nscopes_artifact: 'not applicable — no oauth2 securityScheme is declared and no OAuth\n  documentation was found, so scopes/ is deliberately absent rather than empty'\nmtls: false\nopenid_connect: false\ntoken_acquisition:\n  documented: false\n  note: 'No public documentation was found describing how a developer obtains an access\n    token. There is no developer signup, no key-issuance page, and no self-service\n    credential surface on any Adonmo host. The Swagger UI at https://api.adonmo.com/apidocs/\n    renders with auth_config unset, so it offers no Authorize control either. Access\n    appears to be provisioned internally or to contracted partners.'\nerror_envelope:\n  shape: '{\"errors\": [\"<message>\", ...]}'\n  content_type: application/json\n  note: 'A non-RFC-9457 array-of-strings envelope. See errors/adonmoprivatelimited-problem-types.yml.'\ndocs: https://api.adonmo.com/apidocs/\ngaps:\n- 'securitySchemes are absent from the OpenAPI document even though\
   \ the API enforces\n  authentication on every operation.'\n- 'No documented token-acquisition flow, so an integrator cannot self-serve.'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adonmoprivatelimited/refs/heads/main/authentication/adonmoprivatelimited-authentication.yml
+source_yaml_url: https://artifacts.apis.io/adonmoprivatelimited/authentication/adonmoprivatelimited-authentication.yml
 summary_line: 1 scheme
 tags:
 - Advertising

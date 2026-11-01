@@ -27,7 +27,7 @@ source_filename: sooth-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: soothlabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 12:43:46 2026 GMT\n  hsts: false\ndomains:\n- domain: soothlabs.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sooth/refs/heads/main/security/sooth-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sooth/security/sooth-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

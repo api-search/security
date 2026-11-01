@@ -7,19 +7,19 @@ api_specs:
   label: Hewlett Packard Enterprise Authorization API
   slug: hpe-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hpe/refs/heads/main/openapi/hpe-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/hpe/openapi/hpe-authorization-api-openapi.yml
 - filename: hpe-identity-api-openapi.yml
   format: yaml
   label: Hewlett Packard Enterprise Identity API
   slug: hpe-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hpe/refs/heads/main/openapi/hpe-identity-api-openapi.yml
+  url: https://artifacts.apis.io/hpe/openapi/hpe-identity-api-openapi.yml
 - filename: hpe-workspaces-api-openapi.yml
   format: yaml
   label: Hewlett Packard Enterprise Workspaces API
   slug: hpe-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hpe/refs/heads/main/openapi/hpe-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/hpe/openapi/hpe-workspaces-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -49,7 +49,7 @@ source_filename: hpe-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/hpe-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: |-\n    OAuth 2.0 client-credentials access token. Use the token as\n    `Authorization: Bearer <token>` on every request.\n  sources:\n  - openapi/hpe-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hpe/refs/heads/main/authentication/hpe-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hpe/authentication/hpe-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Cloud

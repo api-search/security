@@ -7,85 +7,85 @@ api_specs:
   label: Samsung SmartThings Apps API
   slug: smartthings-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-apps-api-openapi.yml
+  url: https://artifacts.apis.io/smartthings/openapi/smartthings-apps-api-openapi.yml
 - filename: smartthings-capabilities-api-openapi.yml
   format: yaml
   label: Samsung SmartThings Capabilities API
   slug: smartthings-capabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-capabilities-api-openapi.yml
+  url: https://artifacts.apis.io/smartthings/openapi/smartthings-capabilities-api-openapi.yml
 - filename: smartthings-device-commands-status-api-openapi.yml
   format: yaml
   label: Samsung SmartThings Device Commands & Status API
   slug: smartthings-device-commands-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-device-commands-status-api-openapi.yml
+  url: https://artifacts.apis.io/smartthings/openapi/smartthings-device-commands-status-api-openapi.yml
 - filename: smartthings-devices-api-openapi.yml
   format: yaml
   label: Samsung SmartThings Devices API
   slug: smartthings-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-devices-api-openapi.yml
+  url: https://artifacts.apis.io/smartthings/openapi/smartthings-devices-api-openapi.yml
 - filename: smartthings-history-api-openapi.yml
   format: yaml
   label: Samsung SmartThings History API
   slug: smartthings-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-history-api-openapi.yml
+  url: https://artifacts.apis.io/smartthings/openapi/smartthings-history-api-openapi.yml
 - filename: smartthings-installed-apps-api-openapi.yml
   format: yaml
   label: Samsung SmartThings Installed Apps API
   slug: smartthings-installed-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-installed-apps-api-openapi.yml
+  url: https://artifacts.apis.io/smartthings/openapi/smartthings-installed-apps-api-openapi.yml
 - filename: smartthings-locations-api-openapi.yml
   format: yaml
   label: Samsung SmartThings Locations API
   slug: smartthings-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-locations-api-openapi.yml
+  url: https://artifacts.apis.io/smartthings/openapi/smartthings-locations-api-openapi.yml
 - filename: smartthings-presentations-api-openapi.yml
   format: yaml
   label: Samsung SmartThings Presentations API
   slug: smartthings-presentations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-presentations-api-openapi.yml
+  url: https://artifacts.apis.io/smartthings/openapi/smartthings-presentations-api-openapi.yml
 - filename: smartthings-rooms-api-openapi.yml
   format: yaml
   label: Samsung SmartThings Rooms API
   slug: smartthings-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/smartthings/openapi/smartthings-rooms-api-openapi.yml
 - filename: smartthings-rules-api-openapi.yml
   format: yaml
   label: Samsung SmartThings Rules API
   slug: smartthings-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-rules-api-openapi.yml
+  url: https://artifacts.apis.io/smartthings/openapi/smartthings-rules-api-openapi.yml
 - filename: smartthings-scenes-api-openapi.yml
   format: yaml
   label: Samsung SmartThings Scenes API
   slug: smartthings-scenes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-scenes-api-openapi.yml
+  url: https://artifacts.apis.io/smartthings/openapi/smartthings-scenes-api-openapi.yml
 - filename: smartthings-schedules-api-openapi.yml
   format: yaml
   label: Samsung SmartThings Schedules API
   slug: smartthings-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/smartthings/openapi/smartthings-schedules-api-openapi.yml
 - filename: smartthings-subscriptions-api-openapi.yml
   format: yaml
   label: Samsung SmartThings Subscriptions API
   slug: smartthings-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/smartthings/openapi/smartthings-subscriptions-api-openapi.yml
 - filename: smartthings-virtual-devices-api-openapi.yml
   format: yaml
   label: Samsung SmartThings Virtual Devices API
   slug: smartthings-virtual-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-virtual-devices-api-openapi.yml
+  url: https://artifacts.apis.io/smartthings/openapi/smartthings-virtual-devices-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -124,7 +124,7 @@ source_filename: smartthings-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/smartthings-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'A Personal Access Token (PAT) from https://account.smartthings.com/tokens or\n    an OAuth 2.0 access token, passed as `Authorization: Bearer {token}`.'\n  sources:\n  - openapi/smartthings-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.smartthings.com/oauth/authorize\n    tokenUrl: https://api.smartthings.com/oauth/token\n    scopes: 8\n  description: OAuth 2.0 authorization code flow for production integrations.\n  sources:\n  - openapi/smartthings-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/authentication/smartthings-authentication.yml
+source_yaml_url: https://artifacts.apis.io/smartthings/authentication/smartthings-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Smart Home

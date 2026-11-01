@@ -8,25 +8,25 @@ api_specs:
   label: Celsius Network KYC API
   slug: celsius-network-kyc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/openapi/celsius-network-kyc-api-openapi.yml
+  url: https://artifacts.apis.io/celsius-network/openapi/celsius-network-kyc-api-openapi.yml
 - filename: celsius-network-users-api-openapi.yml
   format: yaml
   label: Celsius Network Users API
   slug: celsius-network-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/openapi/celsius-network-users-api-openapi.yml
+  url: https://artifacts.apis.io/celsius-network/openapi/celsius-network-users-api-openapi.yml
 - filename: celsius-network-utility-api-openapi.yml
   format: yaml
   label: Celsius Network Utility API
   slug: celsius-network-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/openapi/celsius-network-utility-api-openapi.yml
+  url: https://artifacts.apis.io/celsius-network/openapi/celsius-network-utility-api-openapi.yml
 - filename: celsius-network-wallet-api-openapi.yml
   format: yaml
   label: Celsius Network Wallet API
   slug: celsius-network-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/openapi/celsius-network-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/celsius-network/openapi/celsius-network-wallet-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -68,7 +68,7 @@ source_filename: celsius-network-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: derived\nsource: openapi/celsius-network-partner-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: partnerToken\n  type: apiKey\n  in: header\n  parameter: X-Cel-Partner-Token\n  description: Partner key issued by Celsius and securely provided to the partner. Required\n    on every authenticated request, for every partnership type.\n  sources:\n  - openapi/celsius-network-partner-api-openapi.yml\n- name: userToken\n  type: apiKey\n  in: header\n  parameter: X-Cel-User-Token\n  description: User token created by the partner for each of its users. Used by Segmented Integration\n    partners.\n  sources:\n  - openapi/celsius-network-partner-api-openapi.yml\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-Cel-Api-Key\n  description: API key issued by Celsius and securely provided to the partner. Used by Omnibus\n    and Omnibus Treasury partners.\n  sources:\n  - openapi/celsius-network-partner-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/authentication/celsius-network-authentication.yml
+source_yaml_url: https://artifacts.apis.io/celsius-network/authentication/celsius-network-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - Company

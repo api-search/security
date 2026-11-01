@@ -5,25 +5,25 @@ api_specs:
   label: Universität Hamburg Communities API
   slug: universitat-hamburg-communities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/universitat-hamburg/refs/heads/main/openapi/universitat-hamburg-communities-api-openapi.yml
+  url: https://artifacts.apis.io/universitat-hamburg/openapi/universitat-hamburg-communities-api-openapi.yml
 - filename: universitat-hamburg-files-api-openapi.yml
   format: yaml
   label: Universität Hamburg Files API
   slug: universitat-hamburg-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/universitat-hamburg/refs/heads/main/openapi/universitat-hamburg-files-api-openapi.yml
+  url: https://artifacts.apis.io/universitat-hamburg/openapi/universitat-hamburg-files-api-openapi.yml
 - filename: universitat-hamburg-licenses-api-openapi.yml
   format: yaml
   label: Universität Hamburg Licenses API
   slug: universitat-hamburg-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/universitat-hamburg/refs/heads/main/openapi/universitat-hamburg-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/universitat-hamburg/openapi/universitat-hamburg-licenses-api-openapi.yml
 - filename: universitat-hamburg-records-api-openapi.yml
   format: yaml
   label: Universität Hamburg Records API
   slug: universitat-hamburg-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/universitat-hamburg/refs/heads/main/openapi/universitat-hamburg-records-api-openapi.yml
+  url: https://artifacts.apis.io/universitat-hamburg/openapi/universitat-hamburg-records-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: universitat-hamburg-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.uni-hamburg.de\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 02:56:55 2026 GMT\n  hsts: false\n- host: www.sub.uni-hamburg.de\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 07:57:40 2026 GMT\n  hsts: null\n- host: ediss.sub.uni-hamburg.de\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 06:23:43 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: uni-hamburg.de\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/universitat-hamburg/refs/heads/main/security/universitat-hamburg-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/universitat-hamburg/security/universitat-hamburg-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Education

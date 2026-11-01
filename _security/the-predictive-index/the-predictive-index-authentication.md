@@ -8,25 +8,25 @@ api_specs:
   label: The Predictive Index Behavioral Assessments API
   slug: the-predictive-index-behavioral-assessments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/openapi/the-predictive-index-behavioral-assessments-api-openapi.yml
+  url: https://artifacts.apis.io/the-predictive-index/openapi/the-predictive-index-behavioral-assessments-api-openapi.yml
 - filename: the-predictive-index-candidates-api-openapi.yml
   format: yaml
   label: The Predictive Index Candidates API
   slug: the-predictive-index-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/openapi/the-predictive-index-candidates-api-openapi.yml
+  url: https://artifacts.apis.io/the-predictive-index/openapi/the-predictive-index-candidates-api-openapi.yml
 - filename: the-predictive-index-employees-api-openapi.yml
   format: yaml
   label: The Predictive Index Employees API
   slug: the-predictive-index-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/openapi/the-predictive-index-employees-api-openapi.yml
+  url: https://artifacts.apis.io/the-predictive-index/openapi/the-predictive-index-employees-api-openapi.yml
 - filename: the-predictive-index-jobs-api-openapi.yml
   format: yaml
   label: The Predictive Index Jobs API
   slug: the-predictive-index-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/openapi/the-predictive-index-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/the-predictive-index/openapi/the-predictive-index-jobs-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -55,7 +55,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://developers.predictiveindex.com/getting-started\ndocs: https://developers.predictiveindex.com/getting-started\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  oauth2_flows: []\nschemes:\n  - name: apiKeyAuth\n    type: apiKey\n    in: header\n    parameter: api-key\n    description: >-\n      API key sent in the api-key request header (api-key: YOUR_APIKEY_GOES_HERE).\n      The key is generated in the PI Software under a user with organization-admin\n      permissions and cognitive access enabled. If that user is disabled, a new\n      API key must be generated under a different active user. A key generated\n      under a user lacking org-admin permissions yields \"Authorization has been\n      denied for this request.\"\n    sources: [openapi/the-predictive-index-integrations-openapi.yml]\nnotes: >-\n  Key-based auth only; no OAuth 2.0 / OpenID Connect scope surface is documented,\n  so no scopes/ artifact is\
   \ produced. Webhook listeners (outbound) authenticate\n  the reverse direction with HTTP Basic credentials embedded in the webhook URL —\n  see asyncapi/the-predictive-index-webhooks.yml.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/authentication/the-predictive-index-authentication.yml
+source_yaml_url: https://artifacts.apis.io/the-predictive-index/authentication/the-predictive-index-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

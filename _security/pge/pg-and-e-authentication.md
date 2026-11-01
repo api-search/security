@@ -7,37 +7,37 @@ api_specs:
   label: Pacific Gas and Electric Application Information API
   slug: pge-applicationinformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-applicationinformation-api-openapi.yml
+  url: https://artifacts.apis.io/pge/openapi/pge-applicationinformation-api-openapi.yml
 - filename: pge-authorization-api-openapi.yml
   format: yaml
   label: Pacific Gas and Electric Authorization API
   slug: pge-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/pge/openapi/pge-authorization-api-openapi.yml
 - filename: pge-batch-api-openapi.yml
   format: yaml
   label: Pacific Gas and Electric Batch API
   slug: pge-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-batch-api-openapi.yml
+  url: https://artifacts.apis.io/pge/openapi/pge-batch-api-openapi.yml
 - filename: pge-usagepoint-api-openapi.yml
   format: yaml
   label: Pacific Gas and Electric Usage Point API
   slug: pge-usagepoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-usagepoint-api-openapi.yml
+  url: https://artifacts.apis.io/pge/openapi/pge-usagepoint-api-openapi.yml
 - filename: pge-subscriptions-api-openapi.yml
   format: yaml
   label: Pacific Gas and Electric Subscriptions API
   slug: pge-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/pge/openapi/pge-subscriptions-api-openapi.yml
 - filename: pge-usage-api-openapi.yml
   format: yaml
   label: Pacific Gas and Electric Usage API
   slug: pge-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-usage-api-openapi.yml
+  url: https://artifacts.apis.io/pge/openapi/pge-usage-api-openapi.yml
 auth_types:
 - oauth2
 - mutualTLS
@@ -121,7 +121,7 @@ source_yaml: "specification: API Commons Authentication\nspecificationVersion: '
   \ authenticates on PG&E's own site and\n          chooses what to share. Used for every customer-scoped resource under\n          Subscription/{SubscriptionID}/... . Paired with a refresh token.\n      - flow: refresh_token\n        tokenUrl: https://api.pge.com/datacustodian/oauth/v2/token\n        description: Refreshes the per-customer access token.\n    scope_format: ESPI function-block string — see scopes/pg-and-e-scopes.yml\n    revocation:\n      operation: DELETE /GreenButtonConnect/espi/1_1/resource/Authorization/{AuthorizationID}\n      token: client_access_token\n      description: Cancels an individual customer authorization.\n    evidence:\n      - url: https://api.pge.com/datacustodian/oauth/v2/token\n        method: GET\n        status: 405\n        body: '{\"error\":\"invalid_request\",\"error_description\":\"GET not permitted\"}'\n        fetched: '2026-09-17'\n      - url: https://api.pge.com/datacustodian/test/oauth/v2/token\n        method: GET\n        status: 400\n\
   \        body: '{\"error\":\"invalid_request\",\"error_description\":\"Missing grant_type\"}'\n        fetched: '2026-09-17'\n      - url: https://api.pge.com/datacustodian/test/oauth/v2/authorize\n        method: GET\n        status: 400\n        body: '{\"error\":\"invalid_request\",\"error_description\":\"client_id is empty\"}'\n        fetched: '2026-09-17'\n    sources:\n      - https://www.pge.com/assets/pge/docs/save-energy-and-money/energy-savings-programs/OAuth_Authorization_ESPI.pdf\n      - https://www.pge.com/assets/pge/docs/save-energy-and-money/energy-savings-programs/Supported-APIs.pdf\nonboarding:\n  self_serve: false\n  gate: application approval by PG&E under the CPUC framework\n  registration_url: https://sharemydata.pge.com/\n  prerequisites:\n    - A 9-digit U.S. Employer Identification Number (EIN)\n    - Business and technical contacts\n    - A third-party notification URI for the ESPI push (FB 39) model\n    - A CA-issued TLS 1.2 X.509 certificate (self-signed rejected)\n\
   \  source: https://www.pge.com/en/save-energy-and-money/energy-saving-programs/smartmeter/third-party-companies.html\nsupport: mailto:ShareMyData@pge.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/authentication/pg-and-e-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pge/authentication/pg-and-e-authentication.yml
 summary_line: oauth2/mutualTLS · 2 schemes
 tags:
 - Energy

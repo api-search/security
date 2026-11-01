@@ -25,7 +25,7 @@ source_filename: finern-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: finern.com\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''finern.com'''\n  hsts: null\ndomains:\n- domain: finern.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/finern/refs/heads/main/security/finern-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/finern/security/finern-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

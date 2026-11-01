@@ -5,13 +5,13 @@ api_specs:
   label: Otonomo EU API
   slug: otonomo-eu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/otonomo/refs/heads/main/openapi/otonomo-eu-api-openapi.yml
+  url: https://artifacts.apis.io/otonomo/openapi/otonomo-eu-api-openapi.yml
 - filename: otonomo-us-api-openapi.yml
   format: yaml
   label: Otonomo US API
   slug: otonomo-us-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/otonomo/refs/heads/main/openapi/otonomo-us-api-openapi.yml
+  url: https://artifacts.apis.io/otonomo/openapi/otonomo-us-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: otonomo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: otonomo.io\n  https: false\n- host: docs.otonomo.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 17:45:00 2026 GMT\n  hsts: null\n- host: api.otonomo.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep  7 15:44:35 2026 GMT\n  hsts: null\ndomains:\n- domain: otonomo.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/otonomo/refs/heads/main/security/otonomo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/otonomo/security/otonomo-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

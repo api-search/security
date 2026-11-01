@@ -27,7 +27,7 @@ source_filename: mycelnet-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mycelnet.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 20 05:16:19 2026 GMT\n  hsts: false\ndomains:\n- domain: mycelnet.ai\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mycelnet-ai/refs/heads/main/security/mycelnet-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mycelnet-ai/security/mycelnet-ai-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - A2A

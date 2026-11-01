@@ -5,13 +5,13 @@ api_specs:
   label: Poolside Chat API
   slug: poolside-ai-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/poolside-ai/refs/heads/main/openapi/poolside-ai-chat-api-openapi.yml
+  url: https://artifacts.apis.io/poolside-ai/openapi/poolside-ai-chat-api-openapi.yml
 - filename: poolside-ai-models-api-openapi.yml
   format: yaml
   label: Poolside Models API
   slug: poolside-ai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/poolside-ai/refs/heads/main/openapi/poolside-ai-models-api-openapi.yml
+  url: https://artifacts.apis.io/poolside-ai/openapi/poolside-ai-models-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -29,7 +29,7 @@ source_filename: poolside-ai-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.poolside.ai/\nurl: https://trust.poolside.ai/\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://trust.poolside.ai/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/poolside-ai/refs/heads/main/security/poolside-ai-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/poolside-ai/security/poolside-ai-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Artificial Intelligence

@@ -43,7 +43,7 @@ source_filename: jenfi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-23'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: jenfi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 22:41:04 2026 GMT\n  hsts: false\n- host: partners.jenfi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 23:59:59 2026 GMT\n  hsts: true\n  hsts_header: max-age=60; includeSubDomains; preload\n- host: paidfi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 16:22:58 2026 GMT\n  hsts: false\ndomains:\n- domain: jenfi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: paidfi.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\nnote: 'Extended by hand from live TLS/DNS probes of the two hosts the automated pass\n  did not collect: partners.jenfi.com (the b2b BNPL partner console) and paidfi.com\n  (the PaidFi marketing site). Same method, same date.'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jenfi/refs/heads/main/security/jenfi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/jenfi/security/jenfi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

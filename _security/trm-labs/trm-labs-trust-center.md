@@ -5,19 +5,19 @@ api_specs:
   label: TRM Labs Reports API
   slug: trm-labs-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/heads/main/openapi/trm-labs-reports-api-openapi.yml
+  url: https://artifacts.apis.io/trm-labs/openapi/trm-labs-reports-api-openapi.yml
 - filename: trm-labs-sanctions-api-openapi.yml
   format: yaml
   label: TRM Labs Sanctions API
   slug: trm-labs-sanctions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/heads/main/openapi/trm-labs-sanctions-api-openapi.yml
+  url: https://artifacts.apis.io/trm-labs/openapi/trm-labs-sanctions-api-openapi.yml
 - filename: trm-labs-sanctions-screening-api-openapi.yml
   format: yaml
   label: TRM Labs Sanctions Screening API
   slug: trm-labs-sanctions-screening-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/heads/main/openapi/trm-labs-sanctions-screening-api-openapi.yml
+  url: https://artifacts.apis.io/trm-labs/openapi/trm-labs-sanctions-screening-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -36,7 +36,7 @@ source_filename: trm-labs-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nsource: https://trust.trmlabs.com/\nurl: https://trust.trmlabs.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- FedRAMP\nevidence:\n- source: https://trust.trmlabs.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - fedramp\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/heads/main/security/trm-labs-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/trm-labs/security/trm-labs-trust-center.yml
 summary_line: SOC 2, ISO 27001, FedRAMP
 tags:
 - Company

@@ -7,55 +7,55 @@ api_specs:
   label: Emerge Authentication API
   slug: emerge-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/openapi/emerge-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/emerge/openapi/emerge-authentication-api-openapi.yml
 - filename: emerge-awards-api-openapi.yml
   format: yaml
   label: Emerge Awards API
   slug: emerge-awards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/openapi/emerge-awards-api-openapi.yml
+  url: https://artifacts.apis.io/emerge/openapi/emerge-awards-api-openapi.yml
 - filename: emerge-network-partners-api-openapi.yml
   format: yaml
   label: Emerge Network Partners API
   slug: emerge-network-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/openapi/emerge-network-partners-api-openapi.yml
+  url: https://artifacts.apis.io/emerge/openapi/emerge-network-partners-api-openapi.yml
 - filename: emerge-opportunities-api-openapi.yml
   format: yaml
   label: Emerge Opportunities API
   slug: emerge-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/openapi/emerge-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/emerge/openapi/emerge-opportunities-api-openapi.yml
 - filename: emerge-options-api-openapi.yml
   format: yaml
   label: Emerge Options API
   slug: emerge-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/openapi/emerge-options-api-openapi.yml
+  url: https://artifacts.apis.io/emerge/openapi/emerge-options-api-openapi.yml
 - filename: emerge-shipments-api-openapi.yml
   format: yaml
   label: Emerge Shipments API
   slug: emerge-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/openapi/emerge-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/emerge/openapi/emerge-shipments-api-openapi.yml
 - filename: emerge-tender-api-openapi.yml
   format: yaml
   label: Emerge Tender API
   slug: emerge-tender-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/openapi/emerge-tender-api-openapi.yml
+  url: https://artifacts.apis.io/emerge/openapi/emerge-tender-api-openapi.yml
 - filename: emerge-tenders-api-openapi.yml
   format: yaml
   label: Emerge Tenders API
   slug: emerge-tenders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/openapi/emerge-tenders-api-openapi.yml
+  url: https://artifacts.apis.io/emerge/openapi/emerge-tenders-api-openapi.yml
 - filename: emerge-webhooks-api-openapi.yml
   format: yaml
   label: Emerge Webhooks API
   slug: emerge-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/openapi/emerge-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/emerge/openapi/emerge-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: openapi/emerge-
   \ \"none (the operation declares `security: []`)\"\n  credentials:\n    kind: resource-owner password\n    fields: [user_name, password]\n    required: [user_name, password]\n    note: >-\n      The caller supplies an Emerge shipper user's own platform username and password. There is no\n      machine identity for the Shipper API — an integration authenticates as a human user account.\n  response_schema: 200_authentication_response\n  rate_limit: up to 20 requests per second, and lower during high-volume periods\n  errors: [403, 429, 500]\n- api: Emerge Public API (Shipper API)\n  operation: POST /auth/refresh\n  purpose: refresh an existing shipper access token without resending the password\n  errors: [400, 403]\n- api: Emerge Carrier API\n  operation: POST /auth/login/client_credentials\n  security: \"none (the operation declares `security: []`)\"\n  credentials:\n    kind: client credentials\n    fields: [client id, client secret]\n    note: >-\n      Issued to a Capacity/Integration\
   \ Provider during Capacity Link onboarding, alongside the\n      `relationship_identifiers` values that appear on rate_request events. Request access via\n      https://emergetech.zendesk.com/hc/en-us/requests/new?ticket_form_id=11470751569179\n  response_schema: 200_client_credential_authentication_response\n  errors: [400, 403]\ntoken_properties:\n  scopes: none\n  expiry: not documented in the OpenAPI response description\n  refresh: shipper only (POST /auth/refresh); no refresh path documented for carrier tokens\n  revocation: not documented\n  introspection: not documented\n  environment_binding:\n    mechanism: separate base host (api.emergemarket.io vs demo-api.emergemarket.dev)\n    key_prefix: none\n    note: >-\n      A token carries no visible marker of which environment it belongs to. Callers must track that\n      themselves — see sandbox/emerge-sandbox.yml.\ncallback_authentication:\n  surface: webhooks\n  mechanism: HTTP Basic on the subscriber's own endpoint\n  fields:\
   \ [authentication.is_enabled, authentication.username, authentication.password]\n  signature: none\n  note: >-\n    Emerge presents subscriber-supplied Basic credentials when delivering events. There is no HMAC\n    signature header, so TLS plus Basic is the entire verification story for inbound events. The\n    credentials are carried in cleartext in the webhook_object request/response shape.\n  detail: asyncapi/emerge-webhooks.yml\ndiscovery:\n  openid_configuration: absent (404 on every host)\n  oauth_authorization_server: absent (404 on every host)\n  oauth_protected_resource: absent (404 on every host)\n  detail: well-known/emerge-well-known.yml\ngaps:\n- Shipper API integrations authenticate as a named human user, not a service principal.\n- No scopes or least-privilege boundary between read and write operations.\n- Token lifetime, revocation and introspection are undocumented.\n- Webhook deliveries are not signed.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/authentication/emerge-authentication.yml
+source_yaml_url: https://artifacts.apis.io/emerge/authentication/emerge-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Freight

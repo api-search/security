@@ -8,49 +8,49 @@ api_specs:
   label: Getir Auth API
   slug: getir-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/openapi/getir-auth-api-openapi.yml
+  url: https://artifacts.apis.io/getir/openapi/getir-auth-api-openapi.yml
 - filename: getir-chain-menus-api-openapi.yml
   format: yaml
   label: Getir Chain Menus API
   slug: getir-chain-menus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/openapi/getir-chain-menus-api-openapi.yml
+  url: https://artifacts.apis.io/getir/openapi/getir-chain-menus-api-openapi.yml
 - filename: getir-changelog-api-openapi.yml
   format: yaml
   label: Getir Changelog API
   slug: getir-changelog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/openapi/getir-changelog-api-openapi.yml
+  url: https://artifacts.apis.io/getir/openapi/getir-changelog-api-openapi.yml
 - filename: getir-food-orders-api-openapi.yml
   format: yaml
   label: Getir Food Orders API
   slug: getir-food-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/openapi/getir-food-orders-api-openapi.yml
+  url: https://artifacts.apis.io/getir/openapi/getir-food-orders-api-openapi.yml
 - filename: getir-health-api-openapi.yml
   format: yaml
   label: Getir Health API
   slug: getir-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/openapi/getir-health-api-openapi.yml
+  url: https://artifacts.apis.io/getir/openapi/getir-health-api-openapi.yml
 - filename: getir-payment-methods-api-openapi.yml
   format: yaml
   label: Getir Payment Methods API
   slug: getir-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/openapi/getir-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/getir/openapi/getir-payment-methods-api-openapi.yml
 - filename: getir-products-api-openapi.yml
   format: yaml
   label: Getir Products API
   slug: getir-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/openapi/getir-products-api-openapi.yml
+  url: https://artifacts.apis.io/getir/openapi/getir-products-api-openapi.yml
 - filename: getir-restaurants-api-openapi.yml
   format: yaml
   label: Getir Restaurants API
   slug: getir-restaurants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/openapi/getir-restaurants-api-openapi.yml
+  url: https://artifacts.apis.io/getir/openapi/getir-restaurants-api-openapi.yml
 auth_types:
 - custom-token
 description: 'GetirFood does not declare securityDefinitions in its Swagger 2.0 document. Authentication is a two-step, documented-only model: POST /auth/login exchanges the company/restaurant secret keys for a bearer-style opaque token, which is then supplied as a REQUIRED `token` request HEADER on every other operation (57 of 62 operations carry it as an explicit header parameter). There is no OAuth 2.0, no OpenID Connect and no scope surface, so scopes/ is intentionally absent for this provider.'
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-07-31'\nmethod: searched\nsource: https://develop
   \ apiKey\n  in: header\n  parameter: token\n  required: true\n  applies_to_operations: 57\n  description: >-\n    Opaque session token returned by POST /auth/login. Sent on every authenticated request as\n    the `token` HTTP header. The Swagger document models it as an individual header parameter\n    on each operation rather than as a global security scheme.\n  sources:\n  - openapi/getir-food-openapi.yml\n  - https://developers.getir.com/food/documentation/giris\nlogin:\n  operation_id: postAuthLogin\n  method: POST\n  path: /auth/login\n  request_schema: '#/definitions/Login Schema'\n  response_schema: '#/definitions/Login Response Schema'\n  credentials:\n  - name: appSecretKey\n    description: Secret key issued to the integrating company (POS / integrator).\n  - name: restaurantSecretKey\n    description: Secret key issued per restaurant being managed.\n  spec_description: >-\n    \"Authentication is performed via HTTP Basic Auth. Use your appSecretKey and\n    restaurantSecretKey\
   \ taking new token for reaching all routes.\" (verbatim from the\n    operation description in the Swagger document)\n  note: >-\n    The operation description says \"HTTP Basic Auth\" while the request is modelled as a JSON\n    body carrying the two secret keys; the docs describe it as a secret-key login. Recorded as\n    published — not reconciled by us.\ntoken:\n  ttl: 3600\n  ttl_human: 1 hour\n  refresh: Call POST /auth/login again to obtain a new token; there is no refresh-token flow.\n  docs_quote: >-\n    \"The validity period of the token is 1 hour. As the token will expire at the end of this\n    period, you need to login again and get a new one.\"\ncredential_issuance:\n  process: >-\n    Credentials are not self-service. A restaurant asks its POS/integrator company to request\n    an account from Getir; both test and live credentials are issued by Getir.\n  contact: getiryemekapi@getir.com\n  docs: https://developers.getir.com/food/documentation/giris\nwebhook_authentication:\n\
   \  mechanism: x-api-key\n  direction: Getir -> partner (outbound order push)\n  description: >-\n    Partners register a new-order URL and a cancel-order URL plus a single `x-api-key` value\n    that Getir sends on both callbacks. The same x-api-key value must be used for both URLs.\n  detail: asyncapi/getir-food-webhooks.yml\ntransport_security:\n  tls_minimum: TLSv1.2_2019\n  docs_quote: 'TLS Versiyon: TLSv1.2_2019 and above'\n  source: https://developers.getir.com/food/documentation/giris\nx-evidence:\n  fetched: '2026-07-31'\n  spec: https://food-external-api-gateway.getirapi.com/swagger.json\n  docs_api: https://food-pos-api-gateway.getirapi.com/v1/documentations/contents?title=4&language=en\n  http_status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/authentication/getir-authentication.yml
+source_yaml_url: https://artifacts.apis.io/getir/authentication/getir-authentication.yml
 summary_line: custom-token · 1 scheme
 tags:
 - Company

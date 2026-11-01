@@ -7,7 +7,7 @@ api_specs:
   label: OVH Cloud API
   slug: ovh-cloud-cloud-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ovh-cloud/refs/heads/main/openapi/ovh-cloud-cloud-api-openapi.yml
+  url: https://artifacts.apis.io/ovh-cloud/openapi/ovh-cloud-cloud-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -39,7 +39,7 @@ source_filename: ovh-cloud-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ovh-cloud-openapi-original.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oAuth2AuthCode\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://us.ovhcloud.com/auth/oauth2/authorize\n    tokenUrl: https://us.ovhcloud.com/auth/oauth2/token\n    scopes: 3\n  description: Oauth2\n  sources:\n  - openapi/ovh-cloud-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ovh-cloud/refs/heads/main/authentication/ovh-cloud-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ovh-cloud/authentication/ovh-cloud-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Cloud

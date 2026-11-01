@@ -8,25 +8,25 @@ api_specs:
   label: AWS App Mesh Meshes API
   slug: aws-app-mesh-meshes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/openapi/aws-app-mesh-meshes-api-openapi.yml
+  url: https://artifacts.apis.io/aws-app-mesh/openapi/aws-app-mesh-meshes-api-openapi.yml
 - filename: aws-app-mesh-tag-api-openapi.yml
   format: yaml
   label: AWS App Mesh Tag API
   slug: aws-app-mesh-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/openapi/aws-app-mesh-tag-api-openapi.yml
+  url: https://artifacts.apis.io/aws-app-mesh/openapi/aws-app-mesh-tag-api-openapi.yml
 - filename: aws-app-mesh-tags-api-openapi.yml
   format: yaml
   label: AWS App Mesh Tags API
   slug: aws-app-mesh-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/openapi/aws-app-mesh-tags-api-openapi.yml
+  url: https://artifacts.apis.io/aws-app-mesh/openapi/aws-app-mesh-tags-api-openapi.yml
 - filename: aws-app-mesh-untag-api-openapi.yml
   format: yaml
   label: AWS App Mesh Untag API
   slug: aws-app-mesh-untag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/openapi/aws-app-mesh-untag-api-openapi.yml
+  url: https://artifacts.apis.io/aws-app-mesh/openapi/aws-app-mesh-untag-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: aws-app-mesh-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/aws-app-mesh-openapi.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/aws-app-mesh-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/authentication/aws-app-mesh-authentication.yml
+source_yaml_url: https://artifacts.apis.io/aws-app-mesh/authentication/aws-app-mesh-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Deprecated

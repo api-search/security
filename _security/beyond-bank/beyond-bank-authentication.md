@@ -7,43 +7,43 @@ api_specs:
   label: Beyond Bank Australia Banking Account Balances API
   slug: beyond-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-bank/openapi/beyond-bank-banking-account-balances-api-openapi.yml
 - filename: beyond-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Beyond Bank Australia Banking Account Direct Debits API
   slug: beyond-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-bank/openapi/beyond-bank-banking-account-direct-debits-api-openapi.yml
 - filename: beyond-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Beyond Bank Australia Banking Account Scheduled Payments API
   slug: beyond-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-bank/openapi/beyond-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: beyond-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Beyond Bank Australia Banking Account Transactions API
   slug: beyond-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-bank/openapi/beyond-bank-banking-account-transactions-api-openapi.yml
 - filename: beyond-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Beyond Bank Australia Banking Accounts API
   slug: beyond-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-bank/openapi/beyond-bank-banking-accounts-api-openapi.yml
 - filename: beyond-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Beyond Bank Australia Banking Payees API
   slug: beyond-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-bank/openapi/beyond-bank-banking-payees-api-openapi.yml
 - filename: beyond-bank-banking-products-api-openapi.yml
   format: yaml
   label: Beyond Bank Australia Banking Products API
   slug: beyond-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-bank/openapi/beyond-bank-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -102,7 +102,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://www.beyondbank.com.au/open-banking/beyond-bank-product-apis/\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#security-profile\nnotes: >-\n  Authentication profile for Beyond Bank Australia's CDR Banking surface. The harvested\n  DSB Consumer Data Standards contract declares no formal OpenAPI securitySchemes, so this\n  profile is documented from Beyond Bank's public open-banking pages and the published DSB\n  Consumer Data Standards security profile rather than mechanically derived. There are two\n  distinct tiers: an OPEN, unauthenticated Product Reference Data (PRD) surface, and a\n  consumer-authorised data-sharing surface secured by the CDR OAuth2/OIDC FAPI model.\nsummary:\n  types: [none, oauth2, openIdConnect, mutualTLS]\n  tiers: [public-prd, consumer-data]\n  oauth2_flows: [authorizationCode]\nschemes:\n  - name: public-prd-none\n    tier: public-prd\n    type: none\n    description: >-\n\
   \      The Product Reference Data endpoints (listBankingProducts, getBankingProductDetail)\n      are public and unauthenticated — no API key, no OAuth token. Only the CDS versioning\n      header (x-v) is required. Confirmed live returning HTTP 200 with x-v 5.\n    operations: [listBankingProducts, getBankingProductDetail]\n    sources: [openapi/beyond-bank-cds-banking-products-openapi.yml]\n  - name: cdr-oauth2-fapi\n    tier: consumer-data\n    type: oauth2\n    scheme: authorizationCode\n    profile: FAPI 1.0 Advanced (CDR security profile)\n    features:\n      - Pushed Authorization Requests (PAR)\n      - request object signing (private_key_jwt client authentication)\n      - mTLS sender-constrained access tokens\n      - OIDC hybrid / authorization-code flow with consumer consent\n      - Accredited Data Recipient registration via the CDR Register\n    scopes_ref: scopes/beyond-bank-scopes.yml\n    description: >-\n      Consumer data sharing (accounts, balances, transactions,\
   \ direct debits, scheduled\n      payments, payees) requires accredited Data Recipient status and explicit consumer\n      consent through the CDR authorization flow. Access is over the mutually authenticated\n      (mTLS) FAPI channel, not the public PRD host.\n    sources: [openapi/beyond-bank-cds-banking-products-openapi.yml]\n  - name: cdr-oidc\n    tier: consumer-data\n    type: openIdConnect\n    description: >-\n      Identity layer for the CDR authorization — OpenID Connect discovery, ID tokens, and\n      consent are provided by Beyond Bank's CDR identity server, advertised via the CDR\n      Register and the holder's OIDC discovery document.\n  - name: cdr-mtls\n    tier: consumer-data\n    type: mutualTLS\n    description: >-\n      Mutual TLS is mandatory on the CDR data-sharing channel; access tokens are bound to\n      the client's mTLS certificate (sender-constrained) per FAPI. The public PRD host does\n      not require client certificates.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/authentication/beyond-bank-authentication.yml
+source_yaml_url: https://artifacts.apis.io/beyond-bank/authentication/beyond-bank-authentication.yml
 summary_line: none/oauth2/openIdConnect/mutualTLS · 4 schemes
 tags:
 - Finance

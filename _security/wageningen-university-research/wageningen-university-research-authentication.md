@@ -8,37 +8,37 @@ api_specs:
   label: Wageningen University & Research Altitude API
   slug: wageningen-university-research-altitude-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/openapi/wageningen-university-research-altitude-api-openapi.yml
+  url: https://artifacts.apis.io/wageningen-university-research/openapi/wageningen-university-research-altitude-api-openapi.yml
 - filename: wageningen-university-research-kpi-api-openapi.yml
   format: yaml
   label: Wageningen University & Research KPI API
   slug: wageningen-university-research-kpi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/openapi/wageningen-university-research-kpi-api-openapi.yml
+  url: https://artifacts.apis.io/wageningen-university-research/openapi/wageningen-university-research-kpi-api-openapi.yml
 - filename: wageningen-university-research-raster-api-openapi.yml
   format: yaml
   label: Wageningen University & Research Raster API
   slug: wageningen-university-research-raster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/openapi/wageningen-university-research-raster-api-openapi.yml
+  url: https://artifacts.apis.io/wageningen-university-research/openapi/wageningen-university-research-raster-api-openapi.yml
 - filename: wageningen-university-research-retrieve-api-openapi.yml
   format: yaml
   label: Wageningen University & Research Retrieve API
   slug: wageningen-university-research-retrieve-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/openapi/wageningen-university-research-retrieve-api-openapi.yml
+  url: https://artifacts.apis.io/wageningen-university-research/openapi/wageningen-university-research-retrieve-api-openapi.yml
 - filename: wageningen-university-research-return-api-openapi.yml
   format: yaml
   label: Wageningen University & Research Return API
   slug: wageningen-university-research-return-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/openapi/wageningen-university-research-return-api-openapi.yml
+  url: https://artifacts.apis.io/wageningen-university-research/openapi/wageningen-university-research-return-api-openapi.yml
 - filename: wageningen-university-research-oai-pmh-api-openapi.yml
   format: yaml
   label: Wageningen University & Research OAI PMH API
   slug: wageningen-university-research-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/openapi/wageningen-university-research-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/wageningen-university-research/openapi/wageningen-university-research-oai-pmh-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -67,7 +67,7 @@ source_filename: wageningen-university-research-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/wageningen-university-research-agrodatacube-v1.yaml, openapi/wageningen-university-research-agrodatacube-v2.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: tokenHeader\n  type: apiKey\n  in: header\n  parameter: token\n  description: Access token obtained via https://agrodatacube.wur.nl/api/register.jsp\n  sources:\n  - openapi/wageningen-university-research-agrodatacube-v1.yaml\n  - openapi/wageningen-university-research-agrodatacube-v2.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/authentication/wageningen-university-research-authentication.yml
+source_yaml_url: https://artifacts.apis.io/wageningen-university-research/authentication/wageningen-university-research-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Education

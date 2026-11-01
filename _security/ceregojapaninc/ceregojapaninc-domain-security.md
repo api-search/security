@@ -28,11 +28,11 @@ source_filename: ceregojapaninc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: jp.cerego.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 14 20:27:29 2026 GMT\n  hsts: true\n  hsts_max_age: 15552001\ndomains:\n- domain: cerego.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ceregojapaninc/refs/heads/main/security/ceregojapaninc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ceregojapaninc/security/ceregojapaninc-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - EdTech
-- AdaptiveLearning
+- Adaptive Learning
 - Artificial Intelligence
 - Japan
 - Education

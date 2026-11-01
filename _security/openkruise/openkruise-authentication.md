@@ -7,7 +7,7 @@ api_specs:
   label: OpenKruise APIS API
   slug: openkruise-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openkruise/refs/heads/main/openapi/openkruise-apis-api-openapi.yml
+  url: https://artifacts.apis.io/openkruise/openapi/openkruise-apis-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -34,7 +34,7 @@ source_filename: openkruise-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openkruise-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerToken\n  type: http\n  scheme: bearer\n  description: Kubernetes service account or user bearer token presented to the API server.\n  sources:\n  - openapi/openkruise-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openkruise/refs/heads/main/authentication/openkruise-authentication.yml
+source_yaml_url: https://artifacts.apis.io/openkruise/authentication/openkruise-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Cloud-Native

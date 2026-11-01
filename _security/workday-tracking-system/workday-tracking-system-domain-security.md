@@ -5,79 +5,79 @@ api_specs:
   label: Workday Tracking System Accruals API
   slug: workday-tracking-system-accruals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/openapi/workday-tracking-system-accruals-api-openapi.yml
+  url: https://artifacts.apis.io/workday-tracking-system/openapi/workday-tracking-system-accruals-api-openapi.yml
 - filename: workday-tracking-system-balances-api-openapi.yml
   format: yaml
   label: Workday Tracking System Balances API
   slug: workday-tracking-system-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/openapi/workday-tracking-system-balances-api-openapi.yml
+  url: https://artifacts.apis.io/workday-tracking-system/openapi/workday-tracking-system-balances-api-openapi.yml
 - filename: workday-tracking-system-labor-demand-api-openapi.yml
   format: yaml
   label: Workday Tracking System Labor Demand API
   slug: workday-tracking-system-labor-demand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/openapi/workday-tracking-system-labor-demand-api-openapi.yml
+  url: https://artifacts.apis.io/workday-tracking-system/openapi/workday-tracking-system-labor-demand-api-openapi.yml
 - filename: workday-tracking-system-leave-of-absence-api-openapi.yml
   format: yaml
   label: Workday Tracking System Leave of Absence API
   slug: workday-tracking-system-leave-of-absence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/openapi/workday-tracking-system-leave-of-absence-api-openapi.yml
+  url: https://artifacts.apis.io/workday-tracking-system/openapi/workday-tracking-system-leave-of-absence-api-openapi.yml
 - filename: workday-tracking-system-scheduling-organizations-api-openapi.yml
   format: yaml
   label: Workday Tracking System Scheduling Organizations API
   slug: workday-tracking-system-scheduling-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/openapi/workday-tracking-system-scheduling-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/workday-tracking-system/openapi/workday-tracking-system-scheduling-organizations-api-openapi.yml
 - filename: workday-tracking-system-shifts-api-openapi.yml
   format: yaml
   label: Workday Tracking System Shifts API
   slug: workday-tracking-system-shifts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/openapi/workday-tracking-system-shifts-api-openapi.yml
+  url: https://artifacts.apis.io/workday-tracking-system/openapi/workday-tracking-system-shifts-api-openapi.yml
 - filename: workday-tracking-system-time-blocks-api-openapi.yml
   format: yaml
   label: Workday Tracking System Time Blocks API
   slug: workday-tracking-system-time-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/openapi/workday-tracking-system-time-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/workday-tracking-system/openapi/workday-tracking-system-time-blocks-api-openapi.yml
 - filename: workday-tracking-system-time-clock-events-api-openapi.yml
   format: yaml
   label: Workday Tracking System Time Clock Events API
   slug: workday-tracking-system-time-clock-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/openapi/workday-tracking-system-time-clock-events-api-openapi.yml
+  url: https://artifacts.apis.io/workday-tracking-system/openapi/workday-tracking-system-time-clock-events-api-openapi.yml
 - filename: workday-tracking-system-time-off-api-openapi.yml
   format: yaml
   label: Workday Tracking System Time Off API
   slug: workday-tracking-system-time-off-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/openapi/workday-tracking-system-time-off-api-openapi.yml
+  url: https://artifacts.apis.io/workday-tracking-system/openapi/workday-tracking-system-time-off-api-openapi.yml
 - filename: workday-tracking-system-time-requests-api-openapi.yml
   format: yaml
   label: Workday Tracking System Time Requests API
   slug: workday-tracking-system-time-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/openapi/workday-tracking-system-time-requests-api-openapi.yml
+  url: https://artifacts.apis.io/workday-tracking-system/openapi/workday-tracking-system-time-requests-api-openapi.yml
 - filename: workday-tracking-system-timesheets-api-openapi.yml
   format: yaml
   label: Workday Tracking System Timesheets API
   slug: workday-tracking-system-timesheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/openapi/workday-tracking-system-timesheets-api-openapi.yml
+  url: https://artifacts.apis.io/workday-tracking-system/openapi/workday-tracking-system-timesheets-api-openapi.yml
 - filename: workday-tracking-system-work-schedules-api-openapi.yml
   format: yaml
   label: Workday Tracking System Work Schedules API
   slug: workday-tracking-system-work-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/openapi/workday-tracking-system-work-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/workday-tracking-system/openapi/workday-tracking-system-work-schedules-api-openapi.yml
 - filename: workday-tracking-system-worker-preferences-api-openapi.yml
   format: yaml
   label: Workday Tracking System Worker Preferences API
   slug: workday-tracking-system-worker-preferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/openapi/workday-tracking-system-worker-preferences-api-openapi.yml
+  url: https://artifacts.apis.io/workday-tracking-system/openapi/workday-tracking-system-worker-preferences-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -113,7 +113,7 @@ source_filename: workday-tracking-system-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.workday.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 03:09:01 2026 GMT\n  hsts: true\n  hsts_max_age: 15638400\n- host: www.workday.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: workday.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/security/workday-tracking-system-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/workday-tracking-system/security/workday-tracking-system-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Absence Management

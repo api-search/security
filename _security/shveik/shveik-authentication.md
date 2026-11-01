@@ -8,13 +8,13 @@ api_specs:
   label: shveik Discovery API
   slug: shveik-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shveik/refs/heads/main/openapi/shveik-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/shveik/openapi/shveik-discovery-api-openapi.yml
 - filename: shveik-scraping-api-openapi.yml
   format: yaml
   label: shveik Scraping API
   slug: shveik-scraping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shveik/refs/heads/main/openapi/shveik-scraping-api-openapi.yml
+  url: https://artifacts.apis.io/shveik/openapi/shveik-scraping-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -58,7 +58,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-09'\nmethod: derived\nsource: openapi/shveik-agdata-openapi.yml, openapi/shveik-agmail-openapi.yml, openapi/shveik-agpay-openapi.yml,\n  openapi/shveik-agproxy-openapi.yml, openapi/shveik-agvps-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: mpp\n  type: http\n  scheme: Payment\n  description: MPP evm/authorization credential in Authorization header. First request without\n    payment returns WWW-Authenticate challenge.\n  sources:\n  - openapi/shveik-agdata-openapi.yml\n  - openapi/shveik-agmail-openapi.yml\n  - openapi/shveik-agpay-openapi.yml\n  - openapi/shveik-agproxy-openapi.yml\n  - openapi/shveik-agvps-openapi.yml\n- name: x402\n  type: apiKey\n  in: header\n  parameter: PAYMENT-SIGNATURE\n  description: x402 exact payment credential. First request without payment returns PAYMENT-REQUIRED\n    quote.\n  sources:\n  - openapi/shveik-agdata-openapi.yml\n  - openapi/shveik-agmail-openapi.yml\n  - openapi/shveik-agpay-openapi.yml\n\
   \  - openapi/shveik-agproxy-openapi.yml\n  - openapi/shveik-agvps-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shveik/refs/heads/main/authentication/shveik-authentication.yml
+source_yaml_url: https://artifacts.apis.io/shveik/authentication/shveik-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

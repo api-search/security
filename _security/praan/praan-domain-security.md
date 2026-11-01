@@ -27,7 +27,7 @@ source_filename: praan-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: praan.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 09:59:10 2026 GMT\n  hsts: false\ndomains:\n- domain: praan.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/praan/refs/heads/main/security/praan-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/praan/security/praan-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

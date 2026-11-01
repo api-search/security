@@ -5,31 +5,31 @@ api_specs:
   label: ThingSpeak Channels API
   slug: thingspeak-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/openapi/thingspeak-channels-api-openapi.yml
+  url: https://artifacts.apis.io/thingspeak/openapi/thingspeak-channels-api-openapi.yml
 - filename: thingspeak-update-api-openapi.yml
   format: yaml
   label: ThingSpeak Update API
   slug: thingspeak-update-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/openapi/thingspeak-update-api-openapi.yml
+  url: https://artifacts.apis.io/thingspeak/openapi/thingspeak-update-api-openapi.yml
 - filename: thingspeak-mqtt-asyncapi.yml
   format: yaml
   label: ThingSpeak MQTT API
   slug: thingspeak-mqtt-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/asyncapi/thingspeak-mqtt-asyncapi.yml
+  url: https://artifacts.apis.io/thingspeak/asyncapi/thingspeak-mqtt-asyncapi.yml
 - filename: thingspeak-channels-json-api-openapi.yml
   format: yaml
   label: ThingSpeak Channels.json API
   slug: thingspeak-channels-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/openapi/thingspeak-channels-json-api-openapi.yml
+  url: https://artifacts.apis.io/thingspeak/openapi/thingspeak-channels-json-api-openapi.yml
 - filename: thingspeak-talkbacks-api-openapi.yml
   format: yaml
   label: ThingSpeak Talkbacks API
   slug: thingspeak-talkbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/openapi/thingspeak-talkbacks-api-openapi.yml
+  url: https://artifacts.apis.io/thingspeak/openapi/thingspeak-talkbacks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: thingspeak-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: thingspeak.mathworks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.mathworks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 23:59:59 2026 GMT\n  hsts: null\n- host: api.thingspeak.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  4 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: mathworks.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: thingspeak.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/security/thingspeak-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/thingspeak/security/thingspeak-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - IoT

@@ -5,7 +5,7 @@ api_specs:
   label: Silent Push API
   slug: silent-push-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/silent-push/refs/heads/main/postman/silent-push-web-scanner.postman_collection.json
+  url: https://artifacts.apis.io/silent-push/postman/silent-push-web-scanner.postman_collection.json
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.silentpush.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 18:14:58 2026 GMT\n  hsts: false\n- host: help.silentpush.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 22 23:36:25 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.silentpush.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 11 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: mcp.silentpush.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 11 23:59:59 2027 GMT\n  hsts: false\n  note: MCP endpoint host; probed 2026-08-27, no Strict-Transport-Security header on the 401 challenge\n- host: explore.silentpush.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 11 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 15768000\ndomains:\n- domain: silentpush.com\n  dnssec: false\n  caa: []\n  spf: true\n\
   \  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/silent-push/refs/heads/main/security/silent-push-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/silent-push/security/silent-push-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

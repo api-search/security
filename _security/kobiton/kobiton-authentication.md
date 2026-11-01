@@ -7,37 +7,37 @@ api_specs:
   label: Kobiton Apps API
   slug: kobiton-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/openapi/kobiton-apps-api-openapi.yml
+  url: https://artifacts.apis.io/kobiton/openapi/kobiton-apps-api-openapi.yml
 - filename: kobiton-devices-api-openapi.yml
   format: yaml
   label: Kobiton Devices API
   slug: kobiton-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/openapi/kobiton-devices-api-openapi.yml
+  url: https://artifacts.apis.io/kobiton/openapi/kobiton-devices-api-openapi.yml
 - filename: kobiton-organization-api-openapi.yml
   format: yaml
   label: Kobiton Organization API
   slug: kobiton-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/openapi/kobiton-organization-api-openapi.yml
+  url: https://artifacts.apis.io/kobiton/openapi/kobiton-organization-api-openapi.yml
 - filename: kobiton-scriptless-automation-api-openapi.yml
   format: yaml
   label: Kobiton Scriptless Automation API
   slug: kobiton-scriptless-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/openapi/kobiton-scriptless-automation-api-openapi.yml
+  url: https://artifacts.apis.io/kobiton/openapi/kobiton-scriptless-automation-api-openapi.yml
 - filename: kobiton-sessions-api-openapi.yml
   format: yaml
   label: Kobiton Sessions API
   slug: kobiton-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/openapi/kobiton-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/kobiton/openapi/kobiton-sessions-api-openapi.yml
 - filename: kobiton-datasets-api-openapi.yml
   format: yaml
   label: Kobiton Datasets API
   slug: kobiton-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/openapi/kobiton-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/kobiton/openapi/kobiton-datasets-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -66,7 +66,7 @@ source_filename: kobiton-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/kobiton-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: >-\n    HTTP Basic authentication over HTTPS. Use your Kobiton username (or email)\n    as the username and your Kobiton API key as the password. The pair is\n    base64-encoded and sent in the `Authorization: Basic <encoded>` header (for\n    example, `curl -u <USERNAME>:<API_KEY>`). API keys are created and managed\n    in the Kobiton portal under API Keys settings. The Appium/WebDriver hub at\n    https://api.kobiton.com/wd/hub instead takes the username and API key via\n    Kobiton desired capabilities.\n  sources:\n  - openapi/kobiton-openapi.yml\n  - https://api.kobiton.com/docs\n  - https://github.com/kobiton/samples/tree/master/kobiton-rest-api/get-devices-info\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/authentication/kobiton-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kobiton/authentication/kobiton-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Mobile Testing

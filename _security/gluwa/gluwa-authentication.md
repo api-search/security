@@ -36,7 +36,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://docs.gluwa.com/api/authentication.md\ndocs: https://docs.gluwa.com/api/authentication.md\nnotes: >-\n  No OpenAPI is published for the Gluwa REST API; this profile is captured from the\n  provider's documentation. Gluwa uses two request-authorization mechanisms depending\n  on the endpoint.\nsummary:\n  types: [apiKey, http-signature]\n  api_key_in: [header]\nschemes:\n  - name: Authorization\n    type: apiKey\n    in: header\n    parameter: Authorization\n    description: >-\n      API Key + Secret credential pair obtained from the Gluwa Dashboard\n      (dashboard.gluwa.com/ApiKey). Used to authorize account-scoped requests\n      such as creating payment requests. Sandbox and production keys are distinct.\n    credential_source: https://docs.gluwa.com/get-started/dashboard/api-keys.md\n  - name: X-REQUEST-SIGNATURE\n    type: apiKey\n    in: header\n    parameter: X-REQUEST-SIGNATURE\n    description: >-\n      Proof-of-ownership\
   \ header used mainly on GET requests. Value is\n      Base64Encode(\"<unix timestamp>.<Address Signature>\"), where the address\n      signature is produced with the wallet's private key.\n    signing_docs: https://docs.gluwa.com/development/creating-transaction-signatures.md\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gluwa/refs/heads/main/authentication/gluwa-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gluwa/authentication/gluwa-authentication.yml
 summary_line: apiKey/http-signature · 2 schemes
 tags:
 - Company

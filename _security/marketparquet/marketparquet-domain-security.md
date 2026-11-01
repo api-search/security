@@ -5,7 +5,7 @@ api_specs:
   label: MarketParquet API V1 API
   slug: marketparquet-api-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketparquet/refs/heads/main/openapi/marketparquet-api-v1-api-openapi.yml
+  url: https://artifacts.apis.io/marketparquet/openapi/marketparquet-api-v1-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -35,12 +35,11 @@ source_filename: marketparquet-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: marketparquet.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  5 18:55:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: marketparquet.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/marketparquet/refs/heads/main/security/marketparquet-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/marketparquet/security/marketparquet-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Finance
 - Data
-- MarketData
-- APIs
+- Market Data
 ---

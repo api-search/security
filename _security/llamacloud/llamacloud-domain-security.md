@@ -5,31 +5,31 @@ api_specs:
   label: LlamaCloud Documents API
   slug: llamacloud-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamacloud/refs/heads/main/openapi/llamacloud-documents-api-openapi.yml
+  url: https://artifacts.apis.io/llamacloud/openapi/llamacloud-documents-api-openapi.yml
 - filename: llamacloud-extraction-api-openapi.yml
   format: yaml
   label: LlamaCloud Extraction API
   slug: llamacloud-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamacloud/refs/heads/main/openapi/llamacloud-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/llamacloud/openapi/llamacloud-extraction-api-openapi.yml
 - filename: llamacloud-parsing-api-openapi.yml
   format: yaml
   label: LlamaCloud Parsing API
   slug: llamacloud-parsing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamacloud/refs/heads/main/openapi/llamacloud-parsing-api-openapi.yml
+  url: https://artifacts.apis.io/llamacloud/openapi/llamacloud-parsing-api-openapi.yml
 - filename: llamacloud-pipelines-api-openapi.yml
   format: yaml
   label: LlamaCloud Pipelines API
   slug: llamacloud-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamacloud/refs/heads/main/openapi/llamacloud-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/llamacloud/openapi/llamacloud-pipelines-api-openapi.yml
 - filename: llamacloud-retrieval-api-openapi.yml
   format: yaml
   label: LlamaCloud Retrieval API
   slug: llamacloud-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamacloud/refs/heads/main/openapi/llamacloud-retrieval-api-openapi.yml
+  url: https://artifacts.apis.io/llamacloud/openapi/llamacloud-retrieval-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: llamacloud-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cloud.llamaindex.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 17:32:28 2026 GMT\n  hsts: null\n- host: developers.llamaindex.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 06:16:36 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.cloud.llamaindex.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: llamaindex.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/llamacloud/refs/heads/main/security/llamacloud-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/llamacloud/security/llamacloud-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

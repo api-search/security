@@ -1,47 +1,11 @@
 ---
 api_specs:
-- filename: donorbox-campaigns-api-openapi.yml
+- filename: donorbox-agent-api-openapi.yml
   format: yaml
-  label: Donorbox Campaigns API
-  slug: donorbox-campaigns-api
+  label: Donorbox Agent API
+  slug: donorbox-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donorbox/refs/heads/main/openapi/donorbox-campaigns-api-openapi.yml
-- filename: donorbox-donations-api-openapi.yml
-  format: yaml
-  label: Donorbox Donations API
-  slug: donorbox-donations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donorbox/refs/heads/main/openapi/donorbox-donations-api-openapi.yml
-- filename: donorbox-donors-api-openapi.yml
-  format: yaml
-  label: Donorbox Donors API
-  slug: donorbox-donors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donorbox/refs/heads/main/openapi/donorbox-donors-api-openapi.yml
-- filename: donorbox-events-api-openapi.yml
-  format: yaml
-  label: Donorbox Events API
-  slug: donorbox-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donorbox/refs/heads/main/openapi/donorbox-events-api-openapi.yml
-- filename: donorbox-plans-api-openapi.yml
-  format: yaml
-  label: Donorbox Plans API
-  slug: donorbox-plans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donorbox/refs/heads/main/openapi/donorbox-plans-api-openapi.yml
-- filename: donorbox-purchases-api-openapi.yml
-  format: yaml
-  label: Donorbox Purchases API
-  slug: donorbox-purchases-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donorbox/refs/heads/main/openapi/donorbox-purchases-api-openapi.yml
-- filename: donorbox-tickets-api-openapi.yml
-  format: yaml
-  label: Donorbox Tickets API
-  slug: donorbox-tickets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donorbox/refs/heads/main/openapi/donorbox-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/donorbox/openapi/donorbox-agent-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +34,7 @@ source_filename: donorbox-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: donorbox.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 09:46:14 2026 GMT\n  hsts: false\ndomains:\n- domain: donorbox.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/donorbox/refs/heads/main/security/donorbox-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/donorbox/security/donorbox-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Non-Profit

@@ -7,43 +7,43 @@ api_specs:
   label: BCU Bank Banking Account Balances API
   slug: bcu-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcu-bank/refs/heads/main/openapi/bcu-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/bcu-bank/openapi/bcu-bank-banking-account-balances-api-openapi.yml
 - filename: bcu-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: BCU Bank Banking Account Direct Debits API
   slug: bcu-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcu-bank/refs/heads/main/openapi/bcu-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/bcu-bank/openapi/bcu-bank-banking-account-direct-debits-api-openapi.yml
 - filename: bcu-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: BCU Bank Banking Account Scheduled Payments API
   slug: bcu-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcu-bank/refs/heads/main/openapi/bcu-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/bcu-bank/openapi/bcu-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: bcu-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: BCU Bank Banking Account Transactions API
   slug: bcu-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcu-bank/refs/heads/main/openapi/bcu-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bcu-bank/openapi/bcu-bank-banking-account-transactions-api-openapi.yml
 - filename: bcu-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: BCU Bank Banking Accounts API
   slug: bcu-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcu-bank/refs/heads/main/openapi/bcu-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bcu-bank/openapi/bcu-bank-banking-accounts-api-openapi.yml
 - filename: bcu-bank-banking-payees-api-openapi.yml
   format: yaml
   label: BCU Bank Banking Payees API
   slug: bcu-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcu-bank/refs/heads/main/openapi/bcu-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/bcu-bank/openapi/bcu-bank-banking-payees-api-openapi.yml
 - filename: bcu-bank-banking-products-api-openapi.yml
   format: yaml
   label: BCU Bank Banking Products API
   slug: bcu-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcu-bank/refs/heads/main/openapi/bcu-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/bcu-bank/openapi/bcu-bank-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -70,7 +70,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/bcu-bank-cds-banking-products-openapi.yml + DSB Consumer Data Standards (FAPI/OIDC security profile)\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#security-profile\nsummary:\n  types:\n  - none\n  - oauth2\n  - openIdConnect\n  - mutualTLS\n  oauth2_flows:\n  - authorizationCode\n  notes: >-\n    The CDS Banking OpenAPI does not declare formal components.securitySchemes;\n    the CDR security model is defined normatively by the DSB Consumer Data\n    Standards Security Profile rather than inline in each Data Holder spec.\n    Authentication is captured here from the standard plus the per-operation\n    x-scopes present in the spec.\nsurfaces:\n- surface: Product Reference Data (PRD)\n  authenticated: false\n  scheme: none\n  detail: >-\n    GET /banking/products and /banking/products/{productId} are public and\n    unauthenticated. Callers still send CDS protocol headers (x-v version\n    negotiation,\
   \ optional x-min-v). Confirmed live and public at\n    https://public.cdr-api.bcu.com.au/cds-au/v1/banking/products (HTTP 200).\n- surface: Consumer data sharing (authenticated banking resources)\n  authenticated: true\n  schemes:\n  - type: oauth2\n    flow: authorizationCode\n    detail: >-\n      CDR authorization-code flow with PKCE (S256) under the OIDC Hybrid/\n      authorization-code profile; access tokens are bearer tokens scoped to the\n      CDR banking scopes below. Consent is captured through the CDR consent\n      (Authorisation) flow; access is restricted to Accredited Data Recipients.\n  - type: openIdConnect\n    detail: >-\n      OpenID Connect for identity and consent, per the CDR/FAPI profile\n      (request objects, ID tokens).\n  - type: mutualTLS\n    detail: >-\n      Mutual TLS is required on the resource server (the spec's only declared\n      server is described \"MTLS\": https://mtls.dh.example.com/cds-au/v1) and for\n      client authentication (tls_client_auth\
   \ / private_key_jwt) per FAPI 1.0\n      Advanced.\n  fapi: FAPI 1.0 Advanced\n  request_headers:\n  - x-fapi-interaction-id\n  - x-fapi-auth-date\n  - x-fapi-customer-ip-address\n  - x-cds-client-headers\nscopes_ref: scopes/bcu-bank-scopes.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bcu-bank/refs/heads/main/authentication/bcu-bank-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bcu-bank/authentication/bcu-bank-authentication.yml
 summary_line: none/oauth2/openIdConnect/mutualTLS · 0 schemes
 tags:
 - Finance

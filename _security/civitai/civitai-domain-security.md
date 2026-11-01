@@ -5,67 +5,67 @@ api_specs:
   label: Civitai Blobs API
   slug: civitai-blobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/openapi/civitai-blobs-api-openapi.yml
+  url: https://artifacts.apis.io/civitai/openapi/civitai-blobs-api-openapi.yml
 - filename: civitai-creators-api-openapi.yml
   format: yaml
   label: Civitai Creators API
   slug: civitai-creators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/openapi/civitai-creators-api-openapi.yml
+  url: https://artifacts.apis.io/civitai/openapi/civitai-creators-api-openapi.yml
 - filename: civitai-enums-api-openapi.yml
   format: yaml
   label: Civitai Enums API
   slug: civitai-enums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/openapi/civitai-enums-api-openapi.yml
+  url: https://artifacts.apis.io/civitai/openapi/civitai-enums-api-openapi.yml
 - filename: civitai-images-api-openapi.yml
   format: yaml
   label: Civitai Images API
   slug: civitai-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/openapi/civitai-images-api-openapi.yml
+  url: https://artifacts.apis.io/civitai/openapi/civitai-images-api-openapi.yml
 - filename: civitai-models-api-openapi.yml
   format: yaml
   label: Civitai Models API
   slug: civitai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/openapi/civitai-models-api-openapi.yml
+  url: https://artifacts.apis.io/civitai/openapi/civitai-models-api-openapi.yml
 - filename: civitai-permissions-api-openapi.yml
   format: yaml
   label: Civitai Permissions API
   slug: civitai-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/openapi/civitai-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/civitai/openapi/civitai-permissions-api-openapi.yml
 - filename: civitai-tags-api-openapi.yml
   format: yaml
   label: Civitai Tags API
   slug: civitai-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/openapi/civitai-tags-api-openapi.yml
+  url: https://artifacts.apis.io/civitai/openapi/civitai-tags-api-openapi.yml
 - filename: civitai-users-api-openapi.yml
   format: yaml
   label: Civitai Users API
   slug: civitai-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/openapi/civitai-users-api-openapi.yml
+  url: https://artifacts.apis.io/civitai/openapi/civitai-users-api-openapi.yml
 - filename: civitai-vault-api-openapi.yml
   format: yaml
   label: Civitai Vault API
   slug: civitai-vault-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/openapi/civitai-vault-api-openapi.yml
+  url: https://artifacts.apis.io/civitai/openapi/civitai-vault-api-openapi.yml
 - filename: civitai-workflows-api-openapi.yml
   format: yaml
   label: Civitai Workflows API
   slug: civitai-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/openapi/civitai-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/civitai/openapi/civitai-workflows-api-openapi.yml
 - filename: civitai-model-versions-api-openapi.yml
   format: yaml
   label: Civitai Model Versions API
   slug: civitai-model-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/openapi/civitai-model-versions-api-openapi.yml
+  url: https://artifacts.apis.io/civitai/openapi/civitai-model-versions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -104,7 +104,7 @@ source_filename: civitai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: civitai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 12:15:38 2026 GMT\n  hsts: false\n- host: developer.civitai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 08:35:56 2026 GMT\n  hsts: false\n- host: orchestration.civitai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 21:36:04 2026 GMT\n  hsts: null\ndomains:\n- domain: civitai.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/security/civitai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/civitai/security/civitai-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Artificial Intelligence

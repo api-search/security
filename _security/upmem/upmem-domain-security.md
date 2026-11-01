@@ -24,7 +24,7 @@ source_filename: upmem-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.upmem.com\n  https: false\ndomains:\n- domain: upmem.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upmem/refs/heads/main/security/upmem-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/upmem/security/upmem-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

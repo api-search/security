@@ -26,7 +26,7 @@ source_filename: solactron-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: solactron.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 20:12:17 2026 GMT\n  hsts: false\ndomains:\n- domain: solactron.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/solactron/refs/heads/main/security/solactron-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/solactron/security/solactron-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

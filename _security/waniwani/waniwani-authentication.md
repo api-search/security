@@ -47,7 +47,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://docs.waniwani.ai/mcp-server/connect\ndocs: https://docs.waniwani.ai/sdk/configuration/environment-variables\nsummary:\n  types: [oauth2, apiKey]\n  oauth2_flows: [authorizationCode]\n  oauth2_version: \"2.1\"\n  api_key_in: [env, header]\nschemes:\n  - name: OAuth2.1\n    type: oauth2\n    version: \"2.1\"\n    pkce: true\n    applies_to:\n      - \"@waniwani/cli (waniwani login browser OAuth2 PKCE)\"\n      - \"hosted MCP server (mcp.waniwani.ai, eu.mcp.waniwani.ai)\"\n    authorization_servers: [https://app.waniwani.ai]\n    bearer_methods: [header]\n    scopes_ref: scopes/waniwani-scopes.yml\n    notes: \"CLI stores access/refresh tokens in .waniwani/settings.json and auto-refreshes on 401.\"\n  - name: ApiKey\n    type: apiKey\n    key_prefix: \"wwk_\"\n    env: WANIWANI_API_KEY\n    applies_to:\n      - \"@waniwani/sdk hosted tier (hosted flow state, tracking, KB, chat widget)\"\n      - \"CI / long-lived programmatic\
   \ access as an alternative to OAuth tokens\"\n    notes: \"Optional. OSS flow engine runs with no key; WANIWANI_API_KEY opts into the hosted Platform.\"\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/waniwani/refs/heads/main/authentication/waniwani-authentication.yml
+source_yaml_url: https://artifacts.apis.io/waniwani/authentication/waniwani-authentication.yml
 summary_line: oauth2/apiKey · 2 schemes
 tags:
 - Company

@@ -27,7 +27,7 @@ source_filename: sensefinity-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sensefinity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 19:14:43 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: sensefinity.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sensefinity/refs/heads/main/security/sensefinity-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sensefinity/security/sensefinity-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

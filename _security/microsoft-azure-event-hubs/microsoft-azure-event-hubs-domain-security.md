@@ -5,55 +5,55 @@ api_specs:
   label: Azure Event Hubs Messaging API
   slug: azure-event-hubs-messaging-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/asyncapi/azure-event-hubs-messaging-asyncapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-event-hubs/asyncapi/azure-event-hubs-messaging-asyncapi.yml
 - filename: microsoft-azure-event-hubs-authorization-rules-api-openapi.yml
   format: yaml
   label: Azure Event Hubs Authorization Rules API
   slug: microsoft-azure-event-hubs-authorization-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/openapi/microsoft-azure-event-hubs-authorization-rules-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-event-hubs/openapi/microsoft-azure-event-hubs-authorization-rules-api-openapi.yml
 - filename: microsoft-azure-event-hubs-consumer-groups-api-openapi.yml
   format: yaml
   label: Azure Event Hubs Consumer Groups API
   slug: microsoft-azure-event-hubs-consumer-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/openapi/microsoft-azure-event-hubs-consumer-groups-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-event-hubs/openapi/microsoft-azure-event-hubs-consumer-groups-api-openapi.yml
 - filename: microsoft-azure-event-hubs-disaster-recovery-configs-api-openapi.yml
   format: yaml
   label: Azure Event Hubs Disaster Recovery Configs API
   slug: microsoft-azure-event-hubs-disaster-recovery-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/openapi/microsoft-azure-event-hubs-disaster-recovery-configs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-event-hubs/openapi/microsoft-azure-event-hubs-disaster-recovery-configs-api-openapi.yml
 - filename: microsoft-azure-event-hubs-event-hubs-api-openapi.yml
   format: yaml
   label: Azure Event Hubs Event Hubs API
   slug: microsoft-azure-event-hubs-event-hubs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/openapi/microsoft-azure-event-hubs-event-hubs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-event-hubs/openapi/microsoft-azure-event-hubs-event-hubs-api-openapi.yml
 - filename: microsoft-azure-event-hubs-events-api-openapi.yml
   format: yaml
   label: Azure Event Hubs Events API
   slug: microsoft-azure-event-hubs-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/openapi/microsoft-azure-event-hubs-events-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-event-hubs/openapi/microsoft-azure-event-hubs-events-api-openapi.yml
 - filename: microsoft-azure-event-hubs-namespaces-api-openapi.yml
   format: yaml
   label: Azure Event Hubs Namespaces API
   slug: microsoft-azure-event-hubs-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/openapi/microsoft-azure-event-hubs-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-event-hubs/openapi/microsoft-azure-event-hubs-namespaces-api-openapi.yml
 - filename: microsoft-azure-event-hubs-operations-api-openapi.yml
   format: yaml
   label: Azure Event Hubs Operations API
   slug: microsoft-azure-event-hubs-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/openapi/microsoft-azure-event-hubs-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-event-hubs/openapi/microsoft-azure-event-hubs-operations-api-openapi.yml
 - filename: microsoft-azure-event-hubs-schema-registry-api-openapi.yml
   format: yaml
   label: Azure Event Hubs Schema Registry API
   slug: microsoft-azure-event-hubs-schema-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/openapi/microsoft-azure-event-hubs-schema-registry-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-event-hubs/openapi/microsoft-azure-event-hubs-schema-registry-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -102,7 +102,7 @@ source_filename: microsoft-azure-event-hubs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: portal.azure.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 19:53:18 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: azure.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 22:04:48 2026 GMT\n  hsts: null\n- host: learn.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 02:26:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: azure.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/security/microsoft-azure-event-hubs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-event-hubs/security/microsoft-azure-event-hubs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Big Data

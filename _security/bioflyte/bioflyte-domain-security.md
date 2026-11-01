@@ -5,55 +5,55 @@ api_specs:
   label: BioFlyte Alert API
   slug: bioflyte-alert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-alert-api-openapi.yml
+  url: https://artifacts.apis.io/bioflyte/openapi/bioflyte-alert-api-openapi.yml
 - filename: bioflyte-client-api-openapi.yml
   format: yaml
   label: BioFlyte Client API
   slug: bioflyte-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-client-api-openapi.yml
+  url: https://artifacts.apis.io/bioflyte/openapi/bioflyte-client-api-openapi.yml
 - filename: bioflyte-files-api-openapi.yml
   format: yaml
   label: BioFlyte Files API
   slug: bioflyte-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-files-api-openapi.yml
+  url: https://artifacts.apis.io/bioflyte/openapi/bioflyte-files-api-openapi.yml
 - filename: bioflyte-filters-api-openapi.yml
   format: yaml
   label: BioFlyte Filters API
   slug: bioflyte-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-filters-api-openapi.yml
+  url: https://artifacts.apis.io/bioflyte/openapi/bioflyte-filters-api-openapi.yml
 - filename: bioflyte-locations-api-openapi.yml
   format: yaml
   label: BioFlyte Locations API
   slug: bioflyte-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-locations-api-openapi.yml
+  url: https://artifacts.apis.io/bioflyte/openapi/bioflyte-locations-api-openapi.yml
 - filename: bioflyte-organization-api-openapi.yml
   format: yaml
   label: BioFlyte Organization API
   slug: bioflyte-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-organization-api-openapi.yml
+  url: https://artifacts.apis.io/bioflyte/openapi/bioflyte-organization-api-openapi.yml
 - filename: bioflyte-permissions-api-openapi.yml
   format: yaml
   label: BioFlyte Permissions API
   slug: bioflyte-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/bioflyte/openapi/bioflyte-permissions-api-openapi.yml
 - filename: bioflyte-requesthelp-api-openapi.yml
   format: yaml
   label: BioFlyte Request Help API
   slug: bioflyte-requesthelp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-requesthelp-api-openapi.yml
+  url: https://artifacts.apis.io/bioflyte/openapi/bioflyte-requesthelp-api-openapi.yml
 - filename: bioflyte-test-api-openapi.yml
   format: yaml
   label: BioFlyte Test API
   slug: bioflyte-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-test-api-openapi.yml
+  url: https://artifacts.apis.io/bioflyte/openapi/bioflyte-test-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -89,7 +89,7 @@ source_filename: bioflyte-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bioflyte.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 07:18:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: portal.bioflyte.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 01:51:34 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\ndomains:\n- domain: bioflyte.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/security/bioflyte-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bioflyte/security/bioflyte-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

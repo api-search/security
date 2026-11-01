@@ -5,25 +5,25 @@ api_specs:
   label: Riiid Adaptive Learning
   slug: adaptive-learning
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riiid/refs/heads/main/openapi/_original/riiid-openapi.yml
+  url: https://artifacts.apis.io/riiid/openapi/_original/riiid-openapi.yml
 - filename: riiid-openapi.yml
   format: yaml
   label: Riiid Knowledge Tracing
   slug: knowledge-tracing
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riiid/refs/heads/main/openapi/_original/riiid-openapi.yml
+  url: https://artifacts.apis.io/riiid/openapi/_original/riiid-openapi.yml
 - filename: riiid-openapi.yml
   format: yaml
   label: Riiid Santa
   slug: santa
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riiid/refs/heads/main/openapi/_original/riiid-openapi.yml
+  url: https://artifacts.apis.io/riiid/openapi/_original/riiid-openapi.yml
 - filename: riiid-openapi.yml
   format: yaml
   label: Riiid Partner Solutions
   slug: partner-solutions
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riiid/refs/heads/main/openapi/_original/riiid-openapi.yml
+  url: https://artifacts.apis.io/riiid/openapi/_original/riiid-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: riiid-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.riiid.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: corp.socra.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 08:12:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apps.apple.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  7 19:46:05 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: riiid.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: socra.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/riiid/refs/heads/main/security/riiid-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/riiid/security/riiid-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

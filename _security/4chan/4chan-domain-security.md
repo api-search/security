@@ -5,37 +5,37 @@ api_specs:
   label: 4chan Archive API
   slug: 4chan-archive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/openapi/4chan-archive-api-openapi.yml
+  url: https://artifacts.apis.io/4chan/openapi/4chan-archive-api-openapi.yml
 - filename: 4chan-boards-api-openapi.yml
   format: yaml
   label: 4chan Boards API
   slug: 4chan-boards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/openapi/4chan-boards-api-openapi.yml
+  url: https://artifacts.apis.io/4chan/openapi/4chan-boards-api-openapi.yml
 - filename: 4chan-catalog-api-openapi.yml
   format: yaml
   label: 4chan Catalog API
   slug: 4chan-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/openapi/4chan-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/4chan/openapi/4chan-catalog-api-openapi.yml
 - filename: 4chan-indexes-api-openapi.yml
   format: yaml
   label: 4chan Indexes API
   slug: 4chan-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/openapi/4chan-indexes-api-openapi.yml
+  url: https://artifacts.apis.io/4chan/openapi/4chan-indexes-api-openapi.yml
 - filename: 4chan-threadlist-api-openapi.yml
   format: yaml
   label: 4chan Threadlist API
   slug: 4chan-threadlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/openapi/4chan-threadlist-api-openapi.yml
+  url: https://artifacts.apis.io/4chan/openapi/4chan-threadlist-api-openapi.yml
 - filename: 4chan-threads-api-openapi.yml
   format: yaml
   label: 4chan Threads API
   slug: 4chan-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/openapi/4chan-threads-api-openapi.yml
+  url: https://artifacts.apis.io/4chan/openapi/4chan-threads-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: 4chan-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.4chan.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 13:22:49 2026 GMT\n  hsts: null\n- host: a.4cdn.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 03:56:17 2026 GMT\n  hsts: null\ndomains:\n- domain: 4chan.org\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: 4cdn.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/security/4chan-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/4chan/security/4chan-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Social

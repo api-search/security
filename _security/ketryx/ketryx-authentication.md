@@ -7,13 +7,13 @@ api_specs:
   label: Ketryx Artifacts API
   slug: ketryx-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/openapi/ketryx-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/ketryx/openapi/ketryx-artifacts-api-openapi.yml
 - filename: ketryx-builds-api-openapi.yml
   format: yaml
   label: Ketryx Builds API
   slug: ketryx-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/openapi/ketryx-builds-api-openapi.yml
+  url: https://artifacts.apis.io/ketryx/openapi/ketryx-builds-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: ketryx-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/ketryx-build-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'A Ketryx API key passed as an HTTP Bearer token in the Authorization header\n    (\"Authorization: Bearer <api-key>\"). API keys are issued per project in the Ketryx application.'\n  sources:\n  - openapi/ketryx-build-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/authentication/ketryx-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ketryx/authentication/ketryx-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

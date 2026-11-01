@@ -7,37 +7,37 @@ api_specs:
   label: Halifax ATM API
   slug: halifax-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/openapi/halifax-atm-api-openapi.yml
+  url: https://artifacts.apis.io/halifax/openapi/halifax-atm-api-openapi.yml
 - filename: halifax-bca-api-openapi.yml
   format: yaml
   label: Halifax BCA API
   slug: halifax-bca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/openapi/halifax-bca-api-openapi.yml
+  url: https://artifacts.apis.io/halifax/openapi/halifax-bca-api-openapi.yml
 - filename: halifax-branch-api-openapi.yml
   format: yaml
   label: Halifax Branch API
   slug: halifax-branch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/openapi/halifax-branch-api-openapi.yml
+  url: https://artifacts.apis.io/halifax/openapi/halifax-branch-api-openapi.yml
 - filename: halifax-ccc-api-openapi.yml
   format: yaml
   label: Halifax CCC API
   slug: halifax-ccc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/openapi/halifax-ccc-api-openapi.yml
+  url: https://artifacts.apis.io/halifax/openapi/halifax-ccc-api-openapi.yml
 - filename: halifax-pca-api-openapi.yml
   format: yaml
   label: Halifax PCA API
   slug: halifax-pca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/openapi/halifax-pca-api-openapi.yml
+  url: https://artifacts.apis.io/halifax/openapi/halifax-pca-api-openapi.yml
 - filename: halifax-sme-api-openapi.yml
   format: yaml
   label: Halifax SME API
   slug: halifax-sme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/openapi/halifax-sme-api-openapi.yml
+  url: https://artifacts.apis.io/halifax/openapi/halifax-sme-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://develop
   \      - halifax-open-data-business-current-accounts-api\n      - halifax-open-data-unsecured-sme-loans-api\n      - halifax-open-data-commercial-credit-cards-api\n    auth: none\n    detail: Public, unauthenticated; TLS 1.2+ only. No credentials required.\n  - name: OBIE Read/Write APIs\n    apis:\n      - halifax-account-transaction-information-api\n      - halifax-payment-initiation-api\n      - halifax-confirmation-of-funds-api\n    auth: fapi\n    detail: >-\n      FAPI 1.0 Advanced. OAuth2/OIDC over mutual-TLS. TPPs onboard via the\n      Open Banking Directory and the Lloyds Banking Group Developer Portal\n      using OBIE/eIDAS (QWAC + QSeal) certificates.\nschemes:\n  - name: OAuth2 (client_credentials)\n    type: oauth2\n    flow: clientCredentials\n    used_for: Creating account-access-consent / payment-consent / funds-confirmation-consent resources.\n    scopes: [accounts, payments, fundsconfirmation]\n    sources: [OBIE Read/Write standard, developer.lloydsbanking.com]\n \
   \ - name: OAuth2 (authorization_code)\n    type: oauth2\n    flow: authorizationCode\n    used_for: PSU authorises the consent; grants access + refresh token for data access / payment submission.\n    scopes: [openid, accounts, payments, fundsconfirmation]\n    refresh_tokens: true\n    ciba_decoupled: true\n    sources: [OBIE Read/Write standard, developer.lloydsbanking.com]\n  - name: Mutual TLS\n    type: mutualTLS\n    detail: >-\n      All Read/Write connections require mutual-TLS with an OBIE/eIDAS transport\n      (QWAC) certificate. Lloyds supports tls_client_auth (mTLS client\n      authentication) as an alternative to private_key_jwt client assertion.\n    sources: [developer.lloydsbanking.com]\n  - name: private_key_jwt\n    type: oauth2-client-auth\n    detail: Supported client authentication method (JWS client assertion) alongside tls_client_auth.\nrequest_signing:\n  header: x-jws-signature\n  detail: Detached JWS signature over the request/response body for payment and consent\
   \ messages (OBIE message signing).\nrequired_headers:\n  - x-fapi-interaction-id\n  - x-fapi-auth-date\n  - x-fapi-customer-ip-address\n  - x-idempotency-key\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/authentication/halifax-authentication.yml
+source_yaml_url: https://artifacts.apis.io/halifax/authentication/halifax-authentication.yml
 summary_line: none/oauth2/mutualTLS · 4 schemes
 tags:
 - Financial Services

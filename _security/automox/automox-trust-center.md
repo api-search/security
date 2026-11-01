@@ -18,7 +18,7 @@ source_filename: automox-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://security.automox.com/\nurl: https://security.automox.com/\ncertifications:\n- SOC 2\n- PCI DSS\n- GDPR\n- CSA STAR\nevidence:\n- source: https://security.automox.com/\n  keywords:\n  - soc 2\n  - pci dss\n  - pci-dss\n  - trust center\n  - gdpr\n  - csa star\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/automox/refs/heads/main/security/automox-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/automox/security/automox-trust-center.yml
 summary_line: SOC 2, PCI DSS, GDPR, CSA STAR
 tags:
 - Endpoint Management

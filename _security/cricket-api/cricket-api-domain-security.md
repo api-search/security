@@ -27,7 +27,7 @@ source_filename: cricket-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cricket-api.net\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 28 16:40:11 2026 GMT\n  hsts: false\ndomains:\n- domain: cricket-api.net\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cricket-api/refs/heads/main/security/cricket-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cricket-api/security/cricket-api-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Cricket

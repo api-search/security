@@ -5,25 +5,25 @@ api_specs:
   label: Apptentive Experimental API
   slug: apptentive-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/openapi/apptentive-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/apptentive/openapi/apptentive-experimental-api-openapi.yml
 - filename: apptentive-info-api-openapi.yml
   format: yaml
   label: Apptentive Info API
   slug: apptentive-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/openapi/apptentive-info-api-openapi.yml
+  url: https://artifacts.apis.io/apptentive/openapi/apptentive-info-api-openapi.yml
 - filename: apptentive-metrics-api-openapi.yml
   format: yaml
   label: Apptentive Metrics API
   slug: apptentive-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/openapi/apptentive-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/apptentive/openapi/apptentive-metrics-api-openapi.yml
 - filename: apptentive-raw-api-openapi.yml
   format: yaml
   label: Apptentive Raw API
   slug: apptentive-raw-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/openapi/apptentive-raw-api-openapi.yml
+  url: https://artifacts.apis.io/apptentive/openapi/apptentive-raw-api-openapi.yml
 certification_count: 6
 certifications:
 - AICPA SOC 2 Type 2
@@ -45,7 +45,7 @@ source_filename: apptentive-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://www.alchemer.com/security/\nurl: https://www.alchemer.com/security/\ncertifications:\n  - AICPA SOC 2 Type 2\n  - ISO 27001\n  - GDPR\n  - CCPA\n  - HIPAA\n  - FERPA\nresources:\n  - Security Whitepaper (PDF)\n  - ISO 27001 Certificate (PDF)\n  - Security and Privacy Glossary\nevidence:\n  - source: https://www.alchemer.com/security/\n    keywords: [soc 2 type 2, iso 27001, hipaa, gdpr, ccpa, ferpa]\n  - source: https://www.alchemer.com/resources/blog/soc-2-type-2-press-release/\n    keywords: [soc 2 type 2]\nnote: >-\n  Apptentive is now Alchemer Mobile / Alchemer Digital; security posture is published on the\n  Alchemer security page rather than a dedicated trust.* subdomain.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/security/apptentive-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/apptentive/security/apptentive-trust-center.yml
 summary_line: AICPA SOC 2 Type 2, ISO 27001, GDPR, CCPA, HIPAA, FERPA
 tags:
 - Company

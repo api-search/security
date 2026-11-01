@@ -8,25 +8,25 @@ api_specs:
   label: Cogny Reports API
   slug: cogny-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/openapi/cogny-reports-api-openapi.yml
+  url: https://artifacts.apis.io/cogny/openapi/cogny-reports-api-openapi.yml
 - filename: cogny-tickets-api-openapi.yml
   format: yaml
   label: Cogny Tickets API
   slug: cogny-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/openapi/cogny-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/cogny/openapi/cogny-tickets-api-openapi.yml
 - filename: cogny-warehouses-api-openapi.yml
   format: yaml
   label: Cogny Warehouses API
   slug: cogny-warehouses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/openapi/cogny-warehouses-api-openapi.yml
+  url: https://artifacts.apis.io/cogny/openapi/cogny-warehouses-api-openapi.yml
 - filename: cogny-webhooks-api-openapi.yml
   format: yaml
   label: Cogny Webhooks API
   slug: cogny-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/openapi/cogny-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cogny/openapi/cogny-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -74,7 +74,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/cogny-openapi.yml\ndocs: https://cogny.com/docs/api-overview-authentication\nkey_prefixes:\n  live: sk_live_\n  test: sk_test_\n  mcp_anonymous: cogny_lite_\nagent_registration:\n  protocol: auth.md\n  register_uri: https://app.cogny.com/api/agent/auth\n  skill: https://cogny.com/auth.md\n  note: Anonymous registration returns a cogny_lite_* Bearer key in one round trip (no browser).\nsummary:\n  types:\n  - apiKey\n  - http\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer API key. Production keys are prefixed sk_live_, test keys sk_test_. MCP-issued\n    anonymous keys are prefixed cogny_lite_.\n  sources:\n  - openapi/cogny-openapi.yml\n- name: apiKeyHeader\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: Legacy API-key header (equivalent to Bearer).\n  sources:\n  - openapi/cogny-openapi.yml\n\
   - name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://cogny.com/api/mcp/oauth/authorize\n    tokenUrl: https://cogny.com/api/mcp/oauth/token\n    scopes: 4\n  description: OAuth 2.1 (DCR + PKCE) for MCP clients.\n  sources:\n  - openapi/cogny-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/authentication/cogny-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cogny/authentication/cogny-authentication.yml
 summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Company

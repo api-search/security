@@ -5,25 +5,25 @@ api_specs:
   label: MetaDAO Meta API
   slug: metadao-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/openapi/metadao-meta-api-openapi.yml
+  url: https://artifacts.apis.io/metadao/openapi/metadao-meta-api-openapi.yml
 - filename: metadao-supply-api-openapi.yml
   format: yaml
   label: MetaDAO Supply API
   slug: metadao-supply-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/openapi/metadao-supply-api-openapi.yml
+  url: https://artifacts.apis.io/metadao/openapi/metadao-supply-api-openapi.yml
 - filename: metadao-tickers-api-openapi.yml
   format: yaml
   label: MetaDAO Tickers API
   slug: metadao-tickers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/openapi/metadao-tickers-api-openapi.yml
+  url: https://artifacts.apis.io/metadao/openapi/metadao-tickers-api-openapi.yml
 - filename: metadao-volume-api-openapi.yml
   format: yaml
   label: MetaDAO Volume API
   slug: metadao-volume-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/openapi/metadao-volume-api-openapi.yml
+  url: https://artifacts.apis.io/metadao/openapi/metadao-volume-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,7 +62,7 @@ source_filename: metadao-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: 'dig + openssl s_client + curl HEAD (manual probe)'\nhosts:\n  - host: metadao.fi\n    https: true\n    tls_issuer: \"Let's Encrypt\"\n    tls_not_after: '2026-09-20'\n    hsts: false\n    hsts_max_age: null\n    note: Behind rate limiting (HTTP 429 observed on automated GET); TLS handshake succeeded.\n  - host: market-api.metadao.fi\n    https: true\n    hsts: null\n    note: >-\n      Live public API host (GET /health returned 200 with a browser User-Agent).\n      Cloudflare-fronted; returns 403 to non-browser clients. TLS reachable.\n  - host: api-docs.metadao.fi\n    https: true\n    note: Documentation host (Mintlify); reachable over HTTPS.\ndomains:\n  - domain: metadao.fi\n    dnssec: true\n    caa: []\n    spf: true\n    spf_record: 'v=spf1 include:_spf.google.com ~all'\n    dmarc: true\n    dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/security/metadao-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/metadao/security/metadao-domain-security.yml
 summary_line: DNSSEC · DMARC
 tags:
 - Company

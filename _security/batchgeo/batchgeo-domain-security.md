@@ -27,7 +27,7 @@ source_filename: batchgeo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: batchgeo.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 22 13:46:32 2026 GMT\n  hsts: null\ndomains:\n- domain: batchgeo.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/batchgeo/refs/heads/main/security/batchgeo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/batchgeo/security/batchgeo-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Mapping

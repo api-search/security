@@ -5,37 +5,37 @@ api_specs:
   label: AdPlug Health API
   slug: adplug-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/openapi/adplug-health-api-openapi.yml
+  url: https://artifacts.apis.io/adplug/openapi/adplug-health-api-openapi.yml
 - filename: adplug-mcp-api-openapi.yml
   format: yaml
   label: AdPlug MCP API
   slug: adplug-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/openapi/adplug-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/adplug/openapi/adplug-mcp-api-openapi.yml
 - filename: adplug-oauth-api-openapi.yml
   format: yaml
   label: AdPlug OAuth API
   slug: adplug-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/openapi/adplug-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/adplug/openapi/adplug-oauth-api-openapi.yml
 - filename: adplug-oauth-legacy-compat-api-openapi.yml
   format: yaml
   label: AdPlug OAUTH Legacy Compat API
   slug: adplug-oauth-legacy-compat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/openapi/adplug-oauth-legacy-compat-api-openapi.yml
+  url: https://artifacts.apis.io/adplug/openapi/adplug-oauth-legacy-compat-api-openapi.yml
 - filename: adplug-users-api-openapi.yml
   format: yaml
   label: AdPlug Users API
   slug: adplug-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/openapi/adplug-users-api-openapi.yml
+  url: https://artifacts.apis.io/adplug/openapi/adplug-users-api-openapi.yml
 - filename: adplug-webhooks-api-openapi.yml
   format: yaml
   label: AdPlug Webhooks API
   slug: adplug-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/openapi/adplug-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/adplug/openapi/adplug-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: adplug-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: adplug.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 17:56:02 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: adplug.app\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/security/adplug-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/adplug/security/adplug-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - PPC

@@ -7,13 +7,25 @@ api_specs:
   label: LoadOptimizer.ai Health API
   slug: loadoptimizer-ai-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loadoptimizer-ai/refs/heads/main/openapi/loadoptimizer-ai-health-api-openapi.yml
+  url: https://artifacts.apis.io/loadoptimizer-ai/openapi/loadoptimizer-ai-health-api-openapi.yml
 - filename: loadoptimizer-ai-jobs-api-openapi.yml
   format: yaml
   label: LoadOptimizer.ai Jobs API
   slug: loadoptimizer-ai-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loadoptimizer-ai/refs/heads/main/openapi/loadoptimizer-ai-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/loadoptimizer-ai/openapi/loadoptimizer-ai-jobs-api-openapi.yml
+- filename: loadoptimizer-ai-libraries-api-openapi.yml
+  format: yaml
+  label: LoadOptimizer.ai Libraries API
+  slug: loadoptimizer-ai-libraries-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/loadoptimizer-ai/openapi/loadoptimizer-ai-libraries-api-openapi.yml
+- filename: loadoptimizer-ai-saved-loads-api-openapi.yml
+  format: yaml
+  label: LoadOptimizer.ai Saved loads API
+  slug: loadoptimizer-ai-saved-loads-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/loadoptimizer-ai/openapi/loadoptimizer-ai-saved-loads-api-openapi.yml
 auth_types: []
 description: LoadOptimizer.ai uses a simple API key authentication scheme.
 kind: authentication
@@ -39,7 +51,7 @@ source_filename: loadoptimizer-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: https://www.loadoptimizer.ai/docs/authentication.html
 source_yaml: "generated: '2026-10-02'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://www.loadoptimizer.ai/docs/authentication.html\nsources:\n- https://www.loadoptimizer.ai/docs/authentication.html\n- https://www.loadoptimizer.ai/docs/quickstart.html\ndescription: LoadOptimizer.ai uses a simple API key authentication scheme.\nschemes:\n- type: apiKey\n  name: X-Api-Key\n  evidence: 'Send the key on every request as the X-Api-Key header:'\n  location: header\n  header: X-Api-Key\n  how_to_obtain: Create the key in the web app; the full key is shown once immediately after creation.\nnote: No OAuth2, HTTP Bearer, HTTP Basic, JWT, HMAC, mTLS, or other authentication methods are documented.\ndocs: https://www.loadoptimizer.ai/docs/authentication.html\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loadoptimizer-ai/refs/heads/main/authentication/loadoptimizer-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/loadoptimizer-ai/authentication/loadoptimizer-ai-authentication.yml
 summary_line: 1 scheme
 tags:
 - Logistics

@@ -5,43 +5,43 @@ api_specs:
   label: engageSPARK Balance API
   slug: engagespark-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/openapi/engagespark-balance-api-openapi.yml
+  url: https://artifacts.apis.io/engagespark/openapi/engagespark-balance-api-openapi.yml
 - filename: engagespark-campaigns-api-openapi.yml
   format: yaml
   label: engageSPARK Campaigns API
   slug: engagespark-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/openapi/engagespark-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/engagespark/openapi/engagespark-campaigns-api-openapi.yml
 - filename: engagespark-contacts-api-openapi.yml
   format: yaml
   label: engageSPARK Contacts API
   slug: engagespark-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/openapi/engagespark-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/engagespark/openapi/engagespark-contacts-api-openapi.yml
 - filename: engagespark-files-api-openapi.yml
   format: yaml
   label: engageSPARK Files API
   slug: engagespark-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/openapi/engagespark-files-api-openapi.yml
+  url: https://artifacts.apis.io/engagespark/openapi/engagespark-files-api-openapi.yml
 - filename: engagespark-sms-api-openapi.yml
   format: yaml
   label: engageSPARK SMS API
   slug: engagespark-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/openapi/engagespark-sms-api-openapi.yml
+  url: https://artifacts.apis.io/engagespark/openapi/engagespark-sms-api-openapi.yml
 - filename: engagespark-top-up-api-openapi.yml
   format: yaml
   label: engageSPARK Top-Up API
   slug: engagespark-top-up-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/openapi/engagespark-top-up-api-openapi.yml
+  url: https://artifacts.apis.io/engagespark/openapi/engagespark-top-up-api-openapi.yml
 - filename: engagespark-whats-app-api-openapi.yml
   format: yaml
   label: engageSPARK Whats App API
   slug: engagespark-whats-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/openapi/engagespark-whats-app-api-openapi.yml
+  url: https://artifacts.apis.io/engagespark/openapi/engagespark-whats-app-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: engagespark-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: engagespark.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 19:56:28 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: openapi.engagespark.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 06:41:05 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.engagespark.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 04:09:15 2026 GMT\n  hsts: null\ndomains:\n- domain: engagespark.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/security/engagespark-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/engagespark/security/engagespark-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

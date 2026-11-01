@@ -5,55 +5,55 @@ api_specs:
   label: Opus Brand Templates API
   slug: opus-brand-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-brand-templates-api-openapi.yml
+  url: https://artifacts.apis.io/opus/openapi/opus-brand-templates-api-openapi.yml
 - filename: opus-censor-jobs-api-openapi.yml
   format: yaml
   label: Opus Censor Jobs API
   slug: opus-censor-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-censor-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/opus/openapi/opus-censor-jobs-api-openapi.yml
 - filename: opus-clip-project-api-openapi.yml
   format: yaml
   label: Opus Clip Project API
   slug: opus-clip-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-clip-project-api-openapi.yml
+  url: https://artifacts.apis.io/opus/openapi/opus-clip-project-api-openapi.yml
 - filename: opus-collection-api-openapi.yml
   format: yaml
   label: Opus Collection API
   slug: opus-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-collection-api-openapi.yml
+  url: https://artifacts.apis.io/opus/openapi/opus-collection-api-openapi.yml
 - filename: opus-collection-content-api-openapi.yml
   format: yaml
   label: Opus Collection Content API
   slug: opus-collection-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-collection-content-api-openapi.yml
+  url: https://artifacts.apis.io/opus/openapi/opus-collection-content-api-openapi.yml
 - filename: opus-exportableclip-api-openapi.yml
   format: yaml
   label: Opus ExportableClip API
   slug: opus-exportableclip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-exportableclip-api-openapi.yml
+  url: https://artifacts.apis.io/opus/openapi/opus-exportableclip-api-openapi.yml
 - filename: opus-generative-jobs-api-openapi.yml
   format: yaml
   label: Opus Generative Jobs API
   slug: opus-generative-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-generative-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/opus/openapi/opus-generative-jobs-api-openapi.yml
 - filename: opus-social-posting-api-openapi.yml
   format: yaml
   label: Opus Social Posting API
   slug: opus-social-posting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-social-posting-api-openapi.yml
+  url: https://artifacts.apis.io/opus/openapi/opus-social-posting-api-openapi.yml
 - filename: opus-transcripts-api-openapi.yml
   format: yaml
   label: Opus Transcripts API
   slug: opus-transcripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-transcripts-api-openapi.yml
+  url: https://artifacts.apis.io/opus/openapi/opus-transcripts-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -99,7 +99,7 @@ source_filename: opus-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.opus.pro\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 15:03:12 2026 GMT\n  hsts: false\n- host: help.opus.pro\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 17:58:13 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.opus.pro\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 18:01:23 2026 GMT\n  hsts: false\ndomains:\n- domain: opus.pro\n  dnssec: true\n  caa:\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/security/opus-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/opus/security/opus-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

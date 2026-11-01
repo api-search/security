@@ -32,7 +32,7 @@ source_filename: curana-health-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: curanahealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 06:48:57 2026 GMT\n  hsts: false\n- host: fhir.curanahealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 17:21:25 2026 GMT\n  hsts: null\ndomains:\n- domain: curanahealth.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/curana-health/refs/heads/main/security/curana-health-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/curana-health/security/curana-health-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -1,101 +1,107 @@
 ---
 api_specs:
+- filename: payer-openapi-generated.yml
+  format: yaml
+  label: Payer API
+  slug: payer-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/payer/openapi/_ae-authored/payer-openapi-generated.yml
 - filename: payer-all-api-openapi.yml
   format: yaml
   label: Payer All API
   slug: payer-all-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payer/refs/heads/main/openapi/payer-all-api-openapi.yml
+  url: https://artifacts.apis.io/payer/openapi/payer-all-api-openapi.yml
 - filename: payer-audit-api-openapi.yml
   format: yaml
   label: Payer Audit API
   slug: payer-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payer/refs/heads/main/openapi/payer-audit-api-openapi.yml
+  url: https://artifacts.apis.io/payer/openapi/payer-audit-api-openapi.yml
 - filename: payer-changelog-api-openapi.yml
   format: yaml
   label: Payer Changelog API
   slug: payer-changelog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payer/refs/heads/main/openapi/payer-changelog-api-openapi.yml
+  url: https://artifacts.apis.io/payer/openapi/payer-changelog-api-openapi.yml
 - filename: payer-documentation-api-openapi.yml
   format: yaml
   label: Payer Documentation API
   slug: payer-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payer/refs/heads/main/openapi/payer-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/payer/openapi/payer-documentation-api-openapi.yml
 - filename: payer-events-api-openapi.yml
   format: yaml
   label: Payer Events API
   slug: payer-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payer/refs/heads/main/openapi/payer-events-api-openapi.yml
+  url: https://artifacts.apis.io/payer/openapi/payer-events-api-openapi.yml
 - filename: payer-export-api-openapi.yml
   format: yaml
   label: Payer Export API
   slug: payer-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payer/refs/heads/main/openapi/payer-export-api-openapi.yml
+  url: https://artifacts.apis.io/payer/openapi/payer-export-api-openapi.yml
 - filename: payer-invoices-api-openapi.yml
   format: yaml
   label: Payer Invoices API
   slug: payer-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payer/refs/heads/main/openapi/payer-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/payer/openapi/payer-invoices-api-openapi.yml
 - filename: payer-oauth2-api-openapi.yml
   format: yaml
   label: Payer Oauth2 API
   slug: payer-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payer/refs/heads/main/openapi/payer-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/payer/openapi/payer-oauth2-api-openapi.yml
 - filename: payer-orders-api-openapi.yml
   format: yaml
   label: Payer Orders API
   slug: payer-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payer/refs/heads/main/openapi/payer-orders-api-openapi.yml
+  url: https://artifacts.apis.io/payer/openapi/payer-orders-api-openapi.yml
 - filename: payer-page-api-openapi.yml
   format: yaml
   label: Payer Page API
   slug: payer-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payer/refs/heads/main/openapi/payer-page-api-openapi.yml
+  url: https://artifacts.apis.io/payer/openapi/payer-page-api-openapi.yml
 - filename: payer-payer-api-api-openapi.yml
   format: yaml
   label: Payer Payer API
   slug: payer-payer-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payer/refs/heads/main/openapi/payer-payer-api-api-openapi.yml
+  url: https://artifacts.apis.io/payer/openapi/payer-payer-api-api-openapi.yml
 - filename: payer-reader-access-api-openapi.yml
   format: yaml
   label: Payer Reader Access API
   slug: payer-reader-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payer/refs/heads/main/openapi/payer-reader-access-api-openapi.yml
+  url: https://artifacts.apis.io/payer/openapi/payer-reader-access-api-openapi.yml
 - filename: payer-reference-api-openapi.yml
   format: yaml
   label: Payer Reference API
   slug: payer-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payer/refs/heads/main/openapi/payer-reference-api-openapi.yml
+  url: https://artifacts.apis.io/payer/openapi/payer-reference-api-openapi.yml
 - filename: payer-search-api-openapi.yml
   format: yaml
   label: Payer Search API
   slug: payer-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payer/refs/heads/main/openapi/payer-search-api-openapi.yml
+  url: https://artifacts.apis.io/payer/openapi/payer-search-api-openapi.yml
 - filename: payer-users-api-openapi.yml
   format: yaml
   label: Payer Users API
   slug: payer-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payer/refs/heads/main/openapi/payer-users-api-openapi.yml
+  url: https://artifacts.apis.io/payer/openapi/payer-users-api-openapi.yml
 - filename: payer-version-api-openapi.yml
   format: yaml
   label: Payer Version API
   slug: payer-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payer/refs/heads/main/openapi/payer-version-api-openapi.yml
+  url: https://artifacts.apis.io/payer/openapi/payer-version-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -124,7 +130,7 @@ source_filename: payer-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: payer.eu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 22:06:43 2026 GMT\n  hsts: false\ndomains:\n- domain: payer.eu\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payer/refs/heads/main/security/payer-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/payer/security/payer-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

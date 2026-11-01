@@ -8,31 +8,37 @@ api_specs:
   label: Hivemapper Account API
   slug: hivemapper-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/openapi/hivemapper-account-api-openapi.yml
+  url: https://artifacts.apis.io/hivemapper/openapi/hivemapper-account-api-openapi.yml
 - filename: hivemapper-ai-events-api-openapi.yml
   format: yaml
   label: Hivemapper AI Events API
   slug: hivemapper-ai-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/openapi/hivemapper-ai-events-api-openapi.yml
+  url: https://artifacts.apis.io/hivemapper/openapi/hivemapper-ai-events-api-openapi.yml
 - filename: hivemapper-bursts-api-openapi.yml
   format: yaml
   label: Hivemapper Bursts API
   slug: hivemapper-bursts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/openapi/hivemapper-bursts-api-openapi.yml
+  url: https://artifacts.apis.io/hivemapper/openapi/hivemapper-bursts-api-openapi.yml
 - filename: hivemapper-imagery-api-openapi.yml
   format: yaml
   label: Hivemapper Imagery API
   slug: hivemapper-imagery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/openapi/hivemapper-imagery-api-openapi.yml
+  url: https://artifacts.apis.io/hivemapper/openapi/hivemapper-imagery-api-openapi.yml
 - filename: hivemapper-map-features-api-openapi.yml
   format: yaml
   label: Hivemapper Map Features API
   slug: hivemapper-map-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/openapi/hivemapper-map-features-api-openapi.yml
+  url: https://artifacts.apis.io/hivemapper/openapi/hivemapper-map-features-api-openapi.yml
+- filename: hivemapper-devices-api-openapi.yml
+  format: yaml
+  label: Hivemapper Devices API
+  slug: hivemapper-devices-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hivemapper/openapi/hivemapper-devices-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -69,7 +75,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://docs.beemaps.com/api-reference\ndocs: https://docs.beemaps.com/api-reference\nsummary:\n  types: [http, apiKey]\n  http_schemes: [basic]\n  api_key_in: [query]\nschemes:\n  - name: basicAuth\n    type: http\n    scheme: basic\n    description: >-\n      HTTP Basic authentication. Send Authorization: Basic <base64(username:api-key)>.\n      The hive-py SDK expects a base64-encoded \"username:api-key\" string as the\n      Basic credential.\n    sources: [openapi/hivemapper-beemaps-openapi.yml, https://github.com/Hivemapper/hive-py]\n  - name: apiKeyQuery\n    type: apiKey\n    in: query\n    param: apiKey\n    description: >-\n      API key passed as the apiKey query parameter. Also used to authenticate the\n      MCP endpoint (POST /api/developer/mcp).\n    sources: [https://docs.beemaps.com/api-reference]\nnotes: >-\n  API keys are issued from the Bee Maps developer dashboard\n  (https://beemaps.com/developers). No\
   \ OAuth2 / OpenID Connect surface is\n  documented, so no scopes/ artifact applies.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/authentication/hivemapper-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hivemapper/authentication/hivemapper-authentication.yml
 summary_line: http/apiKey · 2 schemes
 tags:
 - Company

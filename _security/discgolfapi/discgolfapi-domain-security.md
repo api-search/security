@@ -5,31 +5,31 @@ api_specs:
   label: DiscGolfAPI Countries API
   slug: discgolfapi-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discgolfapi/refs/heads/main/openapi/discgolfapi-countries-api-openapi.yml
+  url: https://artifacts.apis.io/discgolfapi/openapi/discgolfapi-countries-api-openapi.yml
 - filename: discgolfapi-courses-api-openapi.yml
   format: yaml
   label: DiscGolfAPI Courses API
   slug: discgolfapi-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discgolfapi/refs/heads/main/openapi/discgolfapi-courses-api-openapi.yml
+  url: https://artifacts.apis.io/discgolfapi/openapi/discgolfapi-courses-api-openapi.yml
 - filename: discgolfapi-metadata-api-openapi.yml
   format: yaml
   label: DiscGolfAPI Metadata API
   slug: discgolfapi-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discgolfapi/refs/heads/main/openapi/discgolfapi-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/discgolfapi/openapi/discgolfapi-metadata-api-openapi.yml
 - filename: discgolfapi-regions-api-openapi.yml
   format: yaml
   label: DiscGolfAPI Regions API
   slug: discgolfapi-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discgolfapi/refs/heads/main/openapi/discgolfapi-regions-api-openapi.yml
+  url: https://artifacts.apis.io/discgolfapi/openapi/discgolfapi-regions-api-openapi.yml
 - filename: discgolfapi-updates-api-openapi.yml
   format: yaml
   label: DiscGolfAPI Updates API
   slug: discgolfapi-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discgolfapi/refs/heads/main/openapi/discgolfapi-updates-api-openapi.yml
+  url: https://artifacts.apis.io/discgolfapi/openapi/discgolfapi-updates-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: discgolfapi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: discgolfapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 03:23:34 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: io.discgolfapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 03:23:34 2026 GMT\n  hsts: false\ndomains:\n- domain: discgolfapi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/discgolfapi/refs/heads/main/security/discgolfapi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/discgolfapi/security/discgolfapi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Disc Golf

@@ -7,25 +7,25 @@ api_specs:
   label: Payflex Authentication API
   slug: payflex-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payflex/refs/heads/main/openapi/payflex-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/payflex/openapi/payflex-authentication-api-openapi.yml
 - filename: payflex-configuration-api-openapi.yml
   format: yaml
   label: Payflex Configuration API
   slug: payflex-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payflex/refs/heads/main/openapi/payflex-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/payflex/openapi/payflex-configuration-api-openapi.yml
 - filename: payflex-orders-api-openapi.yml
   format: yaml
   label: Payflex Orders API
   slug: payflex-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payflex/refs/heads/main/openapi/payflex-orders-api-openapi.yml
+  url: https://artifacts.apis.io/payflex/openapi/payflex-orders-api-openapi.yml
 - filename: payflex-refunds-api-openapi.yml
   format: yaml
   label: Payflex Refunds API
   slug: payflex-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payflex/refs/heads/main/openapi/payflex-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/payflex/openapi/payflex-refunds-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -53,7 +53,7 @@ source_filename: payflex-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: OAuth2 Bearer token obtained from the /auth/merchant endpoint using the client_credentials\n    grant. Tokens expire and should be refreshed automatically before expiry.\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payflex/refs/heads/main/authentication/payflex-authentication.yml
+source_yaml_url: https://artifacts.apis.io/payflex/authentication/payflex-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Buy Now Pay Later

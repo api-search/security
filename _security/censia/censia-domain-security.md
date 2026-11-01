@@ -33,7 +33,7 @@ source_filename: censia-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.censia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 29 20:29:22 2026 GMT\n  hsts: false\ndomains:\n- domain: censia.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"starfieldtech.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/censia/refs/heads/main/security/censia-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/censia/security/censia-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Artificial Intelligence

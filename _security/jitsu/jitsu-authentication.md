@@ -8,13 +8,13 @@ api_specs:
   label: Jitsu Batch API
   slug: jitsu-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jitsu/refs/heads/main/openapi/jitsu-batch-api-openapi.yml
+  url: https://artifacts.apis.io/jitsu/openapi/jitsu-batch-api-openapi.yml
 - filename: jitsu-ingestion-api-openapi.yml
   format: yaml
   label: Jitsu Ingestion API
   slug: jitsu-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jitsu/refs/heads/main/openapi/jitsu-ingestion-api-openapi.yml
+  url: https://artifacts.apis.io/jitsu/openapi/jitsu-ingestion-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -49,7 +49,7 @@ source_filename: jitsu-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/jitsu-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: WriteKeyHeader\n  type: apiKey\n  in: header\n  parameter: X-Write-Key\n  description: Write Key in the form keyId:keySecret.\n  sources:\n  - openapi/jitsu-openapi.yml\n- name: WriteKeyBasic\n  type: http\n  scheme: basic\n  description: HTTP Basic auth with the Write Key as the username (password empty).\n  sources:\n  - openapi/jitsu-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jitsu/refs/heads/main/authentication/jitsu-authentication.yml
+source_yaml_url: https://artifacts.apis.io/jitsu/authentication/jitsu-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Event Data

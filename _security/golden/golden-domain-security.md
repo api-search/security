@@ -5,19 +5,19 @@ api_specs:
   label: Golden Entity API
   slug: golden-entity-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golden/refs/heads/main/openapi/golden-entity-api-api-openapi.yml
+  url: https://artifacts.apis.io/golden/openapi/golden-entity-api-api-openapi.yml
 - filename: golden-query-api-api-openapi.yml
   format: yaml
   label: Golden Query API
   slug: golden-query-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golden/refs/heads/main/openapi/golden-query-api-api-openapi.yml
+  url: https://artifacts.apis.io/golden/openapi/golden-query-api-api-openapi.yml
 - filename: golden-schema-api-api-openapi.yml
   format: yaml
   label: Golden Schema API
   slug: golden-schema-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golden/refs/heads/main/openapi/golden-schema-api-api-openapi.yml
+  url: https://artifacts.apis.io/golden/openapi/golden-schema-api-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -57,7 +57,7 @@ source_filename: golden-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.golden.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 10:58:48 2026 GMT\n  hsts: false\n- host: golden.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 11:52:29 2026 GMT\n  hsts: false\ndomains:\n- domain: golden.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/golden/refs/heads/main/security/golden-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/golden/security/golden-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

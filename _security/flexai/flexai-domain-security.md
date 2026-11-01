@@ -5,43 +5,43 @@ api_specs:
   label: FlexAI Audio API
   slug: flexai-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-audio-api-openapi.yml
+  url: https://artifacts.apis.io/flexai/openapi/flexai-audio-api-openapi.yml
 - filename: flexai-completions-api-openapi.yml
   format: yaml
   label: FlexAI Completions API
   slug: flexai-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-completions-api-openapi.yml
+  url: https://artifacts.apis.io/flexai/openapi/flexai-completions-api-openapi.yml
 - filename: flexai-embeddings-api-openapi.yml
   format: yaml
   label: FlexAI Embeddings API
   slug: flexai-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/flexai/openapi/flexai-embeddings-api-openapi.yml
 - filename: flexai-images-api-openapi.yml
   format: yaml
   label: FlexAI Images API
   slug: flexai-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-images-api-openapi.yml
+  url: https://artifacts.apis.io/flexai/openapi/flexai-images-api-openapi.yml
 - filename: flexai-models-api-openapi.yml
   format: yaml
   label: FlexAI Models API
   slug: flexai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-models-api-openapi.yml
+  url: https://artifacts.apis.io/flexai/openapi/flexai-models-api-openapi.yml
 - filename: flexai-video-api-openapi.yml
   format: yaml
   label: FlexAI Video API
   slug: flexai-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-video-api-openapi.yml
+  url: https://artifacts.apis.io/flexai/openapi/flexai-video-api-openapi.yml
 - filename: flexai-chat-completions-api-openapi.yml
   format: yaml
   label: FlexAI Chat Completions API
   slug: flexai-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/flexai/openapi/flexai-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -83,7 +83,7 @@ source_filename: flexai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.flex.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 15:20:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.flex.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 20:15:52 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: tokens.flex.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 18:58:39 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: flex.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/security/flexai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/flexai/security/flexai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -8,55 +8,85 @@ api_specs:
   label: Astrology API Astrocartography API
   slug: astrology-api-astrocartography-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-astrocartography-api-openapi.yml
+  url: https://artifacts.apis.io/astrology-api/openapi/astrology-api-astrocartography-api-openapi.yml
 - filename: astrology-api-face-reading-api-openapi.yml
   format: yaml
   label: Astrology API Face Reading API
   slug: astrology-api-face-reading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-face-reading-api-openapi.yml
+  url: https://artifacts.apis.io/astrology-api/openapi/astrology-api-face-reading-api-openapi.yml
 - filename: astrology-api-human-design-api-openapi.yml
   format: yaml
   label: Astrology API Human Design API
   slug: astrology-api-human-design-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-human-design-api-openapi.yml
+  url: https://artifacts.apis.io/astrology-api/openapi/astrology-api-human-design-api-openapi.yml
 - filename: astrology-api-palm-reading-api-openapi.yml
   format: yaml
   label: Astrology API Palm Reading API
   slug: astrology-api-palm-reading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-palm-reading-api-openapi.yml
+  url: https://artifacts.apis.io/astrology-api/openapi/astrology-api-palm-reading-api-openapi.yml
 - filename: astrology-api-palmistry-service-api-api-openapi.yml
   format: yaml
   label: Astrology API Palmistry Service API
   slug: astrology-api-palmistry-service-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-palmistry-service-api-api-openapi.yml
+  url: https://artifacts.apis.io/astrology-api/openapi/astrology-api-palmistry-service-api-api-openapi.yml
 - filename: astrology-api-pdf-reports-api-openapi.yml
   format: yaml
   label: Astrology API PDF Reports API
   slug: astrology-api-pdf-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-pdf-reports-api-openapi.yml
+  url: https://artifacts.apis.io/astrology-api/openapi/astrology-api-pdf-reports-api-openapi.yml
 - filename: astrology-api-prediction-api-openapi.yml
   format: yaml
   label: Astrology API Prediction API
   slug: astrology-api-prediction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-prediction-api-openapi.yml
+  url: https://artifacts.apis.io/astrology-api/openapi/astrology-api-prediction-api-openapi.yml
 - filename: astrology-api-vedic-astrology-api-openapi.yml
   format: yaml
   label: Astrology API Vedic Astrology API
   slug: astrology-api-vedic-astrology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-vedic-astrology-api-openapi.yml
+  url: https://artifacts.apis.io/astrology-api/openapi/astrology-api-vedic-astrology-api-openapi.yml
 - filename: astrology-api-western-astrology-api-openapi.yml
   format: yaml
   label: Astrology API Western Astrology API
   slug: astrology-api-western-astrology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-western-astrology-api-openapi.yml
+  url: https://artifacts.apis.io/astrology-api/openapi/astrology-api-western-astrology-api-openapi.yml
+- filename: astrology-api-compatibility-api-openapi.yml
+  format: yaml
+  label: Astrology API Compatibility API
+  slug: astrology-api-compatibility-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/astrology-api/openapi/astrology-api-compatibility-api-openapi.yml
+- filename: astrology-api-compatibility-report-api-openapi.yml
+  format: yaml
+  label: Astrology API Compatibility Report API
+  slug: astrology-api-compatibility-report-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/astrology-api/openapi/astrology-api-compatibility-report-api-openapi.yml
+- filename: astrology-api-palm-query-api-openapi.yml
+  format: yaml
+  label: Astrology API Palm Query API
+  slug: astrology-api-palm-query-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/astrology-api/openapi/astrology-api-palm-query-api-openapi.yml
+- filename: astrology-api-palm-report-api-openapi.yml
+  format: yaml
+  label: Astrology API Palm Report API
+  slug: astrology-api-palm-report-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/astrology-api/openapi/astrology-api-palm-report-api-openapi.yml
+- filename: astrology-api-report-status-api-openapi.yml
+  format: yaml
+  label: Astrology API Report Status API
+  slug: astrology-api-report-status-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/astrology-api/openapi/astrology-api-report-status-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -95,7 +125,7 @@ source_filename: astrology-api-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-07'\nmethod: derived\nsource: openapi/astrology-api-json-openapi.yml, openapi/astrology-api-pdf-openapi.yml, openapi/astrology-api-vision-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication. Username is your AstrologyAPI User ID, password is\n    your API key. Used with form-encoded request bodies on subscription endpoints.\n  sources:\n  - openapi/astrology-api-json-openapi.yml\n  - openapi/astrology-api-pdf-openapi.yml\n  - openapi/astrology-api-vision-openapi.yml\n- name: accessToken\n  type: apiKey\n  in: header\n  parameter: x-astrologyapi-key\n  description: Wallet Access Token sent in the x-astrologyapi-key header, used with JSON request\n    bodies on wallet-billed and Chat endpoints.\n  sources:\n  - openapi/astrology-api-json-openapi.yml\n  - openapi/astrology-api-pdf-openapi.yml\n  - openapi/astrology-api-vision-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/authentication/astrology-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/astrology-api/authentication/astrology-api-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Astrology

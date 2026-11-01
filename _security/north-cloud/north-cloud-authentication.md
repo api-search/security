@@ -8,7 +8,7 @@ api_specs:
   label: North.Cloud Cost Units API
   slug: north-cloud-cost-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/north-cloud/refs/heads/main/openapi/north-cloud-cost-units-api-openapi.yml
+  url: https://artifacts.apis.io/north-cloud/openapi/north-cloud-cost-units-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: north-cloud-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/north-cloud-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Provide the API key as `ApiKey north_api_{your_key}`. Keys are created in Streams\n    -> API Keys within the North.Cloud application.\n  sources:\n  - openapi/north-cloud-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/north-cloud/refs/heads/main/authentication/north-cloud-authentication.yml
+source_yaml_url: https://artifacts.apis.io/north-cloud/authentication/north-cloud-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - FinOps

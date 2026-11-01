@@ -7,67 +7,67 @@ api_specs:
   label: Teradata API Info API
   slug: teradata-api-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-api-info-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-api-info-api-openapi.yml
 - filename: teradata-configuration-api-openapi.yml
   format: yaml
   label: Teradata Configuration API
   slug: teradata-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-configuration-api-openapi.yml
 - filename: teradata-issues-api-openapi.yml
   format: yaml
   label: Teradata Issues API
   slug: teradata-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-issues-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-issues-api-openapi.yml
 - filename: teradata-managers-api-openapi.yml
   format: yaml
   label: Teradata Managers API
   slug: teradata-managers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-managers-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-managers-api-openapi.yml
 - filename: teradata-nodes-api-openapi.yml
   format: yaml
   label: Teradata Nodes API
   slug: teradata-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-nodes-api-openapi.yml
 - filename: teradata-operations-api-openapi.yml
   format: yaml
   label: Teradata Operations API
   slug: teradata-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-operations-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-operations-api-openapi.yml
 - filename: teradata-queries-api-openapi.yml
   format: yaml
   label: Teradata Queries API
   slug: teradata-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-queries-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-queries-api-openapi.yml
 - filename: teradata-sessions-api-openapi.yml
   format: yaml
   label: Teradata Sessions API
   slug: teradata-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-sessions-api-openapi.yml
 - filename: teradata-software-api-openapi.yml
   format: yaml
   label: Teradata Software API
   slug: teradata-software-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-software-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-software-api-openapi.yml
 - filename: teradata-systems-api-openapi.yml
   format: yaml
   label: Teradata Systems API
   slug: teradata-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-systems-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-systems-api-openapi.yml
 - filename: teradata-users-api-openapi.yml
   format: yaml
   label: Teradata Users API
   slug: teradata-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-users-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -95,7 +95,7 @@ source_filename: teradata-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/teradata-query-service-api.yaml, openapi/teradata-querygrid-manager-api.yaml\nsummary:\n  types:\n  - http\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication with Vantage credentials.\n  sources:\n  - openapi/teradata-query-service-api.yaml\n  - openapi/teradata-querygrid-manager-api.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/authentication/teradata-authentication.yml
+source_yaml_url: https://artifacts.apis.io/teradata/authentication/teradata-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Analytics

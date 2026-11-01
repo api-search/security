@@ -8,37 +8,37 @@ api_specs:
   label: Web of Science APIs Citations API
   slug: web-of-science-apis-citations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/openapi/web-of-science-apis-citations-api-openapi.yml
+  url: https://artifacts.apis.io/web-of-science-apis/openapi/web-of-science-apis-citations-api-openapi.yml
 - filename: web-of-science-apis-documents-api-openapi.yml
   format: yaml
   label: Web of Science APIs Documents API
   slug: web-of-science-apis-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/openapi/web-of-science-apis-documents-api-openapi.yml
+  url: https://artifacts.apis.io/web-of-science-apis/openapi/web-of-science-apis-documents-api-openapi.yml
 - filename: web-of-science-apis-journals-api-openapi.yml
   format: yaml
   label: Web of Science APIs Journals API
   slug: web-of-science-apis-journals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/openapi/web-of-science-apis-journals-api-openapi.yml
+  url: https://artifacts.apis.io/web-of-science-apis/openapi/web-of-science-apis-journals-api-openapi.yml
 - filename: web-of-science-apis-records-api-openapi.yml
   format: yaml
   label: Web of Science APIs Records API
   slug: web-of-science-apis-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/openapi/web-of-science-apis-records-api-openapi.yml
+  url: https://artifacts.apis.io/web-of-science-apis/openapi/web-of-science-apis-records-api-openapi.yml
 - filename: web-of-science-apis-reports-api-openapi.yml
   format: yaml
   label: Web of Science APIs Reports API
   slug: web-of-science-apis-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/openapi/web-of-science-apis-reports-api-openapi.yml
+  url: https://artifacts.apis.io/web-of-science-apis/openapi/web-of-science-apis-reports-api-openapi.yml
 - filename: web-of-science-apis-search-api-openapi.yml
   format: yaml
   label: Web of Science APIs Search API
   slug: web-of-science-apis-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/openapi/web-of-science-apis-search-api-openapi.yml
+  url: https://artifacts.apis.io/web-of-science-apis/openapi/web-of-science-apis-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -67,7 +67,7 @@ source_filename: web-of-science-apis-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/web-of-science-expanded-openapi.yml, openapi/web-of-science-starter-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-ApiKey\n  description: Clarivate API key for Web of Science API Expanded\n  sources:\n  - openapi/web-of-science-expanded-openapi.yml\n  - openapi/web-of-science-starter-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/authentication/web-of-science-apis-authentication.yml
+source_yaml_url: https://artifacts.apis.io/web-of-science-apis/authentication/web-of-science-apis-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Research

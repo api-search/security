@@ -5,19 +5,19 @@ api_specs:
   label: Swagger Codegen Clients API
   slug: swagger-codegen-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/openapi/swagger-codegen-clients-api-openapi.yml
+  url: https://artifacts.apis.io/swagger-codegen/openapi/swagger-codegen-clients-api-openapi.yml
 - filename: swagger-codegen-documentation-api-openapi.yml
   format: yaml
   label: Swagger Codegen Documentation API
   slug: swagger-codegen-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/openapi/swagger-codegen-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/swagger-codegen/openapi/swagger-codegen-documentation-api-openapi.yml
 - filename: swagger-codegen-servers-api-openapi.yml
   format: yaml
   label: Swagger Codegen Servers API
   slug: swagger-codegen-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/openapi/swagger-codegen-servers-api-openapi.yml
+  url: https://artifacts.apis.io/swagger-codegen/openapi/swagger-codegen-servers-api-openapi.yml
 certification_count: 5
 certifications:
 - SOC 2
@@ -39,10 +39,10 @@ source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-06'\nmethod: searched\nprobe: true\nurl: https://trust.smartbear.com/\npublisher: SmartBear Software\ncertifications:\n  - SOC 2\n  - ISO/IEC 27001\n  - GDPR\n  - CCPA\n  - NIST CSF\nframeworks_detail:\n  - {name: SOC 2, label: Service Organization Control}\n  - {name: ISO/IEC 27001, label: Information Security Management}\n  - {name: 'GDPR & CCPA', label: Global Privacy Regulations}\n  - {name: NIST CSF, label: Cybersecurity Framework}\nrelated:\n  security_page: https://smartbear.com/security/\n  privacy: https://smartbear.com/privacy/\n  terms: https://smartbear.com/terms-of-use/\nscope_caveat: >-\n  The trust center covers SmartBear the vendor and its commercial products.\n  Swagger Codegen is Apache-2.0 open source and generator3.swagger.io is a free\n  unauthenticated convenience service with no SLA — the corporate attestations\n  should not be read as covering that endpoint.\nevidence:\n  - {source: 'https://trust.smartbear.com/', http_status: 200,\
   \ keywords: ['soc 2', 'iso/iec 27001', gdpr, ccpa, nist], fetched: '2026-08-06'}\n  - {source: 'https://smartbear.com/security/', http_status: 200, keywords: ['soc 2', 'iso/iec 27001', gdpr, 'trust center'], fetched: '2026-08-06'}\n  - {source: 'https://smartbear.com/trust-center/', http_status: 404, note: 'canonical host is trust.smartbear.com, not a path on the main site', fetched: '2026-08-06'}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/security/swagger-codegen-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/swagger-codegen/security/swagger-codegen-trust-center.yml
 summary_line: SOC 2, ISO/IEC 27001, GDPR, CCPA, NIST CSF
 tags:
-- Client Libraries
+- Client Library
 - Code Generation
 - Open Source
 - OpenAPI

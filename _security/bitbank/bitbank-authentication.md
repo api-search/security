@@ -7,43 +7,43 @@ api_specs:
   label: bitbank Applications API
   slug: bitbank-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbank/refs/heads/main/openapi/bitbank-applications-api-openapi.yml
+  url: https://artifacts.apis.io/bitbank/openapi/bitbank-applications-api-openapi.yml
 - filename: bitbank-bitbank-api-api-openapi.yml
   format: yaml
   label: bitbank Bitbank API
   slug: bitbank-bitbank-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbank/refs/heads/main/openapi/bitbank-bitbank-api-api-openapi.yml
+  url: https://artifacts.apis.io/bitbank/openapi/bitbank-bitbank-api-api-openapi.yml
 - filename: bitbank-copilot-install-api-openapi.yml
   format: yaml
   label: bitbank Copilot Install API
   slug: bitbank-copilot-install-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbank/refs/heads/main/openapi/bitbank-copilot-install-api-openapi.yml
+  url: https://artifacts.apis.io/bitbank/openapi/bitbank-copilot-install-api-openapi.yml
 - filename: bitbank-octocat-api-openapi.yml
   format: yaml
   label: bitbank Octocat API
   slug: bitbank-octocat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbank/refs/heads/main/openapi/bitbank-octocat-api-openapi.yml
+  url: https://artifacts.apis.io/bitbank/openapi/bitbank-octocat-api-openapi.yml
 - filename: bitbank-organizations-api-openapi.yml
   format: yaml
   label: bitbank Organizations API
   slug: bitbank-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbank/refs/heads/main/openapi/bitbank-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/bitbank/openapi/bitbank-organizations-api-openapi.yml
 - filename: bitbank-orgs-api-openapi.yml
   format: yaml
   label: bitbank Orgs API
   slug: bitbank-orgs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbank/refs/heads/main/openapi/bitbank-orgs-api-openapi.yml
+  url: https://artifacts.apis.io/bitbank/openapi/bitbank-orgs-api-openapi.yml
 - filename: bitbank-path-api-openapi.yml
   format: yaml
   label: bitbank Path API
   slug: bitbank-path-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbank/refs/heads/main/openapi/bitbank-path-api-openapi.yml
+  url: https://artifacts.apis.io/bitbank/openapi/bitbank-path-api-openapi.yml
 auth_types: []
 description: Authentication methods for GitHub via SSH as described in the provided documentation.
 kind: authentication
@@ -68,7 +68,7 @@ source_filename: bitbank-authentication.yml
 source_heading: Authentication Profile
 source_url: https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 source_yaml: "generated: '2026-09-28'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://docs.github.com/en/authentication/connecting-to-github-with-ssh\nsources:\n- https://docs.github.com/en/authentication/connecting-to-github-with-ssh\n- https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account\n- https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys\n- https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent\ndescription: Authentication methods for GitHub via SSH as described in the provided documentation.\nschemes:\n- type: other\n  name: SSH\n  evidence: When you connect via SSH, you authenticate using a private key file on your local machine.\n  location: ssh\n  how_to_obtain: Add the public key to your GitHub account.\ndocs: https://docs.github.com/en/authentication/connecting-to-github-with-ssh\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitbank/refs/heads/main/authentication/bitbank-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bitbank/authentication/bitbank-authentication.yml
 summary_line: 1 scheme
 tags:
 - Cryptocurrency

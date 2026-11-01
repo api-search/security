@@ -27,7 +27,7 @@ source_filename: nickel-industries-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: nickelindustries.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 17 18:07:38 2027 GMT\n  hsts: false\ndomains:\n- domain: nickelindustries.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nickel-industries/refs/heads/main/security/nickel-industries-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nickel-industries/security/nickel-industries-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

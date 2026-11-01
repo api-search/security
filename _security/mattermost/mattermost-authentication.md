@@ -13,25 +13,25 @@ api_specs:
   label: Mattermost Channels API
   slug: mattermost-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mattermost/refs/heads/main/openapi/mattermost-channels-api-openapi.yml
+  url: https://artifacts.apis.io/mattermost/openapi/mattermost-channels-api-openapi.yml
 - filename: mattermost-posts-api-openapi.yml
   format: yaml
   label: Mattermost Posts API
   slug: mattermost-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mattermost/refs/heads/main/openapi/mattermost-posts-api-openapi.yml
+  url: https://artifacts.apis.io/mattermost/openapi/mattermost-posts-api-openapi.yml
 - filename: mattermost-teams-api-openapi.yml
   format: yaml
   label: Mattermost Teams API
   slug: mattermost-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mattermost/refs/heads/main/openapi/mattermost-teams-api-openapi.yml
+  url: https://artifacts.apis.io/mattermost/openapi/mattermost-teams-api-openapi.yml
 - filename: mattermost-users-api-openapi.yml
   format: yaml
   label: Mattermost Users API
   slug: mattermost-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mattermost/refs/heads/main/openapi/mattermost-users-api-openapi.yml
+  url: https://artifacts.apis.io/mattermost/openapi/mattermost-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: mattermost-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/mattermost-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Personal Access Token or session token issued by /users/login.\n  sources:\n  - openapi/mattermost-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mattermost/refs/heads/main/authentication/mattermost-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mattermost/authentication/mattermost-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Messaging

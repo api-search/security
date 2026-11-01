@@ -8,31 +8,31 @@ api_specs:
   label: LayerZero Discovery API
   slug: layerzero-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/layerzero/refs/heads/main/openapi/layerzero-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/layerzero/openapi/layerzero-discovery-api-openapi.yml
 - filename: layerzero-messages-api-openapi.yml
   format: yaml
   label: LayerZero Messages API
   slug: layerzero-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/layerzero/refs/heads/main/openapi/layerzero-messages-api-openapi.yml
+  url: https://artifacts.apis.io/layerzero/openapi/layerzero-messages-api-openapi.yml
 - filename: layerzero-ofts-api-openapi.yml
   format: yaml
   label: LayerZero Ofts API
   slug: layerzero-ofts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/layerzero/refs/heads/main/openapi/layerzero-ofts-api-openapi.yml
+  url: https://artifacts.apis.io/layerzero/openapi/layerzero-ofts-api-openapi.yml
 - filename: layerzero-transfer-api-openapi.yml
   format: yaml
   label: LayerZero Transfer API
   slug: layerzero-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/layerzero/refs/heads/main/openapi/layerzero-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/layerzero/openapi/layerzero-transfer-api-openapi.yml
 - filename: layerzero-open-api-api-openapi.yml
   format: yaml
   label: LayerZero Open API
   slug: layerzero-open-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/layerzero/refs/heads/main/openapi/layerzero-open-api-api-openapi.yml
+  url: https://artifacts.apis.io/layerzero/openapi/layerzero-open-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: layerzero-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/vt-api.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: API key for authenticating requests. Required for /quotes, /build-user-steps,\n    /submit-signature, and /status endpoints.\n  sources:\n  - openapi/vt-api.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/layerzero/refs/heads/main/authentication/layerzero-authentication.yml
+source_yaml_url: https://artifacts.apis.io/layerzero/authentication/layerzero-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Blockchain

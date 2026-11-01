@@ -7,127 +7,127 @@ api_specs:
   label: Blueshift Adapters API
   slug: blueshift-adapters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/openapi/blueshift-adapters-api-openapi.yml
+  url: https://artifacts.apis.io/blueshift/openapi/blueshift-adapters-api-openapi.yml
 - filename: blueshift-campaigns-api-openapi.yml
   format: yaml
   label: Blueshift Campaigns API
   slug: blueshift-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/openapi/blueshift-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/blueshift/openapi/blueshift-campaigns-api-openapi.yml
 - filename: blueshift-catalog-api-openapi.yml
   format: yaml
   label: Blueshift Catalog API
   slug: blueshift-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/openapi/blueshift-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/blueshift/openapi/blueshift-catalog-api-openapi.yml
 - filename: blueshift-custom-user-lists-api-openapi.yml
   format: yaml
   label: Blueshift Custom user lists API
   slug: blueshift-custom-user-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/openapi/blueshift-custom-user-lists-api-openapi.yml
+  url: https://artifacts.apis.io/blueshift/openapi/blueshift-custom-user-lists-api-openapi.yml
 - filename: blueshift-customer-api-openapi.yml
   format: yaml
   label: Blueshift Customer API
   slug: blueshift-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/openapi/blueshift-customer-api-openapi.yml
+  url: https://artifacts.apis.io/blueshift/openapi/blueshift-customer-api-openapi.yml
 - filename: blueshift-customer-groups-api-openapi.yml
   format: yaml
   label: Blueshift Customer groups API
   slug: blueshift-customer-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/openapi/blueshift-customer-groups-api-openapi.yml
+  url: https://artifacts.apis.io/blueshift/openapi/blueshift-customer-groups-api-openapi.yml
 - filename: blueshift-email-template-api-openapi.yml
   format: yaml
   label: Blueshift Email template API
   slug: blueshift-email-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/openapi/blueshift-email-template-api-openapi.yml
+  url: https://artifacts.apis.io/blueshift/openapi/blueshift-email-template-api-openapi.yml
 - filename: blueshift-email-validation-api-openapi.yml
   format: yaml
   label: Blueshift Email validation API
   slug: blueshift-email-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/openapi/blueshift-email-validation-api-openapi.yml
+  url: https://artifacts.apis.io/blueshift/openapi/blueshift-email-validation-api-openapi.yml
 - filename: blueshift-event-api-openapi.yml
   format: yaml
   label: Blueshift Event API
   slug: blueshift-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/openapi/blueshift-event-api-openapi.yml
+  url: https://artifacts.apis.io/blueshift/openapi/blueshift-event-api-openapi.yml
 - filename: blueshift-external-fetch-api-openapi.yml
   format: yaml
   label: Blueshift External fetch API
   slug: blueshift-external-fetch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/openapi/blueshift-external-fetch-api-openapi.yml
+  url: https://artifacts.apis.io/blueshift/openapi/blueshift-external-fetch-api-openapi.yml
 - filename: blueshift-interest-alerts-api-openapi.yml
   format: yaml
   label: Blueshift Interest alerts API
   slug: blueshift-interest-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/openapi/blueshift-interest-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/blueshift/openapi/blueshift-interest-alerts-api-openapi.yml
 - filename: blueshift-live-activities-api-openapi.yml
   format: yaml
   label: Blueshift Live Activities API
   slug: blueshift-live-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/openapi/blueshift-live-activities-api-openapi.yml
+  url: https://artifacts.apis.io/blueshift/openapi/blueshift-live-activities-api-openapi.yml
 - filename: blueshift-live-content-api-openapi.yml
   format: yaml
   label: Blueshift Live content API
   slug: blueshift-live-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/openapi/blueshift-live-content-api-openapi.yml
+  url: https://artifacts.apis.io/blueshift/openapi/blueshift-live-content-api-openapi.yml
 - filename: blueshift-promotions-api-openapi.yml
   format: yaml
   label: Blueshift Promotions API
   slug: blueshift-promotions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/openapi/blueshift-promotions-api-openapi.yml
+  url: https://artifacts.apis.io/blueshift/openapi/blueshift-promotions-api-openapi.yml
 - filename: blueshift-push-template-api-openapi.yml
   format: yaml
   label: Blueshift Push template API
   slug: blueshift-push-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/openapi/blueshift-push-template-api-openapi.yml
+  url: https://artifacts.apis.io/blueshift/openapi/blueshift-push-template-api-openapi.yml
 - filename: blueshift-search-api-openapi.yml
   format: yaml
   label: Blueshift Search API
   slug: blueshift-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/openapi/blueshift-search-api-openapi.yml
+  url: https://artifacts.apis.io/blueshift/openapi/blueshift-search-api-openapi.yml
 - filename: blueshift-segments-api-openapi.yml
   format: yaml
   label: Blueshift Segments API
   slug: blueshift-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/openapi/blueshift-segments-api-openapi.yml
+  url: https://artifacts.apis.io/blueshift/openapi/blueshift-segments-api-openapi.yml
 - filename: blueshift-shared-assets-api-openapi.yml
   format: yaml
   label: Blueshift Shared assets API
   slug: blueshift-shared-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/openapi/blueshift-shared-assets-api-openapi.yml
+  url: https://artifacts.apis.io/blueshift/openapi/blueshift-shared-assets-api-openapi.yml
 - filename: blueshift-sms-template-api-openapi.yml
   format: yaml
   label: Blueshift SMS template API
   slug: blueshift-sms-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/openapi/blueshift-sms-template-api-openapi.yml
+  url: https://artifacts.apis.io/blueshift/openapi/blueshift-sms-template-api-openapi.yml
 - filename: blueshift-subscription-groups-api-openapi.yml
   format: yaml
   label: Blueshift Subscription groups API
   slug: blueshift-subscription-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/openapi/blueshift-subscription-groups-api-openapi.yml
+  url: https://artifacts.apis.io/blueshift/openapi/blueshift-subscription-groups-api-openapi.yml
 - filename: blueshift-tags-api-openapi.yml
   format: yaml
   label: Blueshift Tags API
   slug: blueshift-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/openapi/blueshift-tags-api-openapi.yml
+  url: https://artifacts.apis.io/blueshift/openapi/blueshift-tags-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -204,7 +204,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: >-\n  https://d
   \      refresh_token:\n        token_url: https://app.getblueshift.com/oauth/token\n    pkce: S256\n    dynamic_client_registration: https://app.getblueshift.com/oauth/register\n    token_endpoint_auth_methods:\n      - none\n      - client_secret_basic\n      - client_secret_post\n    sources:\n      - well-known/blueshift-app-oauth-authorization-server.json\n      - well-known/blueshift-app-oauth-protected-resource.json\n      - https://help.blueshift.com/hc/en-us/articles/49713147943187-The-Blueshift-MCP-Server-Beta\n    note: >-\n      Discovered by probe, not from the API reference. The 401 challenge on\n      tools/list carries a correct RFC 9728 resource_metadata pointer, so a\n      compliant MCP client can bootstrap the whole flow with no configuration\n      beyond the server URL.\n\nkey_management:\n  where: Blueshift app > Account Settings > API keys tab\n  docs: https://developer.blueshift.com/docs/generate-api-keys\n  rotation: >-\n    Documented as an operator responsibility\
   \ — \"rotate keys periodically and\n    revoke compromised keys immediately\". No published rotation API, no key\n    expiry, and no scoping or restriction of a User API key below full admin\n    reach.\n  guidance: >-\n    Blueshift's own docs warn against committing keys to source control,\n    embedding them in client-side code, or sharing them outside trusted systems.\n\nregions:\n  - region: US and rest of world\n    rest_base_url: https://api.getblueshift.com\n    mcp_url: https://app.getblueshift.com/mcp\n  - region: EU\n    rest_base_url: https://api.eu.getblueshift.com\n    mcp_url: https://app.eu.getblueshift.com/mcp\n\nregions_note: >-\n  The base URL must match the region the account is provisioned in or requests\n  fail. This is a common first-integration failure and is called out in the\n  authorization docs.\n\ngaps:\n  - >-\n    Only two key classes exist for the whole REST API, and the User API key is\n    all-or-nothing. There are no restricted or scoped REST keys, so\
   \ any\n    integration that needs to read a campaign report also holds the credential\n    that can delete customer records.\n  - >-\n    The REST API has no OAuth and no bearer-token option, so there is no\n    delegated or per-user authorization path for server-side integrations —\n    only the MCP server offers that.\n  - >-\n    Basic auth with an empty password means the credential travels in an\n    unsalted Base64 header on every request; there is no request signing and no\n    replay protection.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/authentication/blueshift-authentication.yml
+source_yaml_url: https://artifacts.apis.io/blueshift/authentication/blueshift-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Customer Data Platform

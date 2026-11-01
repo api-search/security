@@ -5,37 +5,37 @@ api_specs:
   label: RevenueBase Account API
   slug: revenuebase-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/openapi/revenuebase-account-api-openapi.yml
+  url: https://artifacts.apis.io/revenuebase/openapi/revenuebase-account-api-openapi.yml
 - filename: revenuebase-email-api-openapi.yml
   format: yaml
   label: RevenueBase Email API
   slug: revenuebase-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/openapi/revenuebase-email-api-openapi.yml
+  url: https://artifacts.apis.io/revenuebase/openapi/revenuebase-email-api-openapi.yml
 - filename: revenuebase-jobs-api-openapi.yml
   format: yaml
   label: RevenueBase Jobs API
   slug: revenuebase-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/openapi/revenuebase-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/revenuebase/openapi/revenuebase-jobs-api-openapi.yml
 - filename: revenuebase-organization-api-openapi.yml
   format: yaml
   label: RevenueBase Organization API
   slug: revenuebase-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/openapi/revenuebase-organization-api-openapi.yml
+  url: https://artifacts.apis.io/revenuebase/openapi/revenuebase-organization-api-openapi.yml
 - filename: revenuebase-health-api-openapi.yml
   format: yaml
   label: RevenueBase Health API
   slug: revenuebase-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/openapi/revenuebase-health-api-openapi.yml
+  url: https://artifacts.apis.io/revenuebase/openapi/revenuebase-health-api-openapi.yml
 - filename: revenuebase-contact-api-openapi.yml
   format: yaml
   label: RevenueBase Contact API
   slug: revenuebase-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/openapi/revenuebase-contact-api-openapi.yml
+  url: https://artifacts.apis.io/revenuebase/openapi/revenuebase-contact-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: revenuebase-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: revenuebase.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 16:45:33 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.revenuebase.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: revenuebase.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/security/revenuebase-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/revenuebase/security/revenuebase-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -5,49 +5,49 @@ api_specs:
   label: Pismo Accounts API
   slug: pismo-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-accounts-api-openapi.yml
 - filename: pismo-authorizations-api-openapi.yml
   format: yaml
   label: Pismo Authorizations API
   slug: pismo-authorizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-authorizations-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-authorizations-api-openapi.yml
 - filename: pismo-cards-api-openapi.yml
   format: yaml
   label: Pismo Cards API
   slug: pismo-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-cards-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-cards-api-openapi.yml
 - filename: pismo-customers-api-openapi.yml
   format: yaml
   label: Pismo Customers API
   slug: pismo-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-customers-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-customers-api-openapi.yml
 - filename: pismo-events-api-openapi.yml
   format: yaml
   label: Pismo Events API
   slug: pismo-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-events-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-events-api-openapi.yml
 - filename: pismo-programs-api-openapi.yml
   format: yaml
   label: Pismo Programs API
   slug: pismo-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-programs-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-programs-api-openapi.yml
 - filename: pismo-statements-api-openapi.yml
   format: yaml
   label: Pismo Statements API
   slug: pismo-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-statements-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-statements-api-openapi.yml
 - filename: pismo-transactions-api-openapi.yml
   format: yaml
   label: Pismo Transactions API
   slug: pismo-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-transactions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -93,7 +93,7 @@ source_filename: pismo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.pismo.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 00:41:29 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.pismo.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 16:57:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.pismo.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 14:30:14 2026 GMT\n  hsts: null\ndomains:\n- domain: pismo.io\n  dnssec: false\n  caa:\n  - 0 issue \"ssl.com\"\n  - 0 iodef \"mailto:psm-csirt@pismo.io\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/security/pismo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pismo/security/pismo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Banking

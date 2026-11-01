@@ -7,25 +7,25 @@ api_specs:
   label: ELM — Edinburgh Language Models API
   slug: elm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-elm-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-edinburgh/openapi/university-of-edinburgh-elm-api-openapi.yml
 - filename: university-of-edinburgh-catalogue-api-openapi.yml
   format: yaml
   label: University of Edinburgh Catalogue API
   slug: university-of-edinburgh-catalogue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-catalogue-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-edinburgh/openapi/university-of-edinburgh-catalogue-api-openapi.yml
 - filename: university-of-edinburgh-oai-pmh-api-openapi.yml
   format: yaml
   label: University of Edinburgh OAI PMH API
   slug: university-of-edinburgh-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-edinburgh/openapi/university-of-edinburgh-oai-pmh-api-openapi.yml
 - filename: university-of-edinburgh-repository-api-openapi.yml
   format: yaml
   label: University of Edinburgh Repository API
   slug: university-of-edinburgh-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-repository-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-edinburgh/openapi/university-of-edinburgh-repository-api-openapi.yml
 auth_types: []
 description: How authentication works across the institution-operated University of Edinburgh surfaces. Every statement below was observed by probing on 2026-08-19.
 kind: authentication
@@ -49,7 +49,7 @@ source_yaml: "name: University of Edinburgh — Authentication\ndescription: >-\
   \ use.\n  evidence:\n  - url: https://datashare.ed.ac.uk/oai/request?verb=Identify\n    status: 200\n  - url: https://era.ed.ac.uk/oai/request?verb=Identify\n    status: 200\n\n- surface: EIDF Data Catalogue (CKAN)\n  operator: institution\n  baseURL: https://catalogue.eidf.ac.uk/api/3/action\n  anonymous_access: full\n  detail: >-\n    Read actions require no API key. The deployment carries a custom `eidf_oidc_auth`\n    CKAN extension, so authenticated write access is OIDC-based and tied to EIDF\n    project accounts rather than to a public developer signup.\n  evidence:\n  - url: https://catalogue.eidf.ac.uk/api/3/action/status_show\n    status: 200\n    observed: 'extensions include eidf_oidc_auth'\n  - url: https://catalogue.eidf.ac.uk/api/3/action/package_search?rows=1\n    status: 200\n\n- surface: Enterprise API gateway\n  operator: institution\n  baseURL: https://api.ed.ac.uk\n  anonymous_access: none\n  detail: >-\n    api.ed.ac.uk is live and resolves to a WSO2 Choreo tenant\
   \ named `uoe`\n    (f5aad5f4-...-prod.prod.uoe.choreoapis.dev via an eu-west-2 ELB). Every path\n    probed returned the gateway's own JSON 404 envelope, including /openapi,\n    /api-docs, /services and /.well-known/openid-configuration. The gateway exists\n    and is Edinburgh-operated, but no route, catalogue or developer portal is\n    exposed to unauthenticated callers. This is a gated surface, not an absent one.\n  evidence:\n  - url: https://api.ed.ac.uk/\n    status: 404\n    observed: '{\"message\":\"Not Found\",\"description\":\"The requested resource is not available.\",\"code\":\"404\"}'\n  - url: https://api.ed.ac.uk/openapi\n    status: 404\n  - url: https://api.ed.ac.uk/.well-known/openid-configuration\n    status: 404\n\nidentity_federation:\n  operator: institution\n  entityID: https://idp.ed.ac.uk/shibboleth\n  metadata: https://idp.ed.ac.uk/idp/shibboleth\n  detail: >-\n    Shibboleth IdP, SAML 2.0 metadata published unauthenticated. Note that the IdP\n    web root (https://idp.ed.ac.uk/)\
   \ returns 403 by design — the metadata path is the\n    machine-readable surface and it answers 200.\n  evidence:\n  - url: https://idp.ed.ac.uk/idp/shibboleth\n    status: 200\n  - url: https://idp.ed.ac.uk/\n    status: 403\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/authentication/university-of-edinburgh-authentication.yml
+source_yaml_url: https://artifacts.apis.io/university-of-edinburgh/authentication/university-of-edinburgh-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

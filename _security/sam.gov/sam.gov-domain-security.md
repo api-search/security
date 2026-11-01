@@ -5,19 +5,19 @@ api_specs:
   label: SAM.gov Cities API
   slug: sam.gov-cities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sam.gov/refs/heads/main/openapi/sam.gov-cities-api-openapi.yml
+  url: https://artifacts.apis.io/sam.gov/openapi/sam.gov-cities-api-openapi.yml
 - filename: sam.gov-states-api-openapi.yml
   format: yaml
   label: SAM.gov States API
   slug: sam.gov-states-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sam.gov/refs/heads/main/openapi/sam.gov-states-api-openapi.yml
+  url: https://artifacts.apis.io/sam.gov/openapi/sam.gov-states-api-openapi.yml
 - filename: sam.gov-zip-codes-api-openapi.yml
   format: yaml
   label: SAM.gov ZIP Codes API
   slug: sam.gov-zip-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sam.gov/refs/heads/main/openapi/sam.gov-zip-codes-api-openapi.yml
+  url: https://artifacts.apis.io/sam.gov/openapi/sam.gov-zip-codes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: sam.gov-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sam.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: open.gsa.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 10:21:32 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.sam.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: sam.gov\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: gsa.gov\n  dnssec: true\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"entrust.net\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sam.gov/refs/heads/main/security/sam.gov-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sam.gov/security/sam.gov-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Federal Government

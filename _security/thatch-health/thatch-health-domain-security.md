@@ -5,43 +5,43 @@ api_specs:
   label: Thatch Health Deductions API
   slug: thatch-health-deductions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/openapi/thatch-health-deductions-api-openapi.yml
+  url: https://artifacts.apis.io/thatch-health/openapi/thatch-health-deductions-api-openapi.yml
 - filename: thatch-health-employees-api-openapi.yml
   format: yaml
   label: Thatch Health Employees API
   slug: thatch-health-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/openapi/thatch-health-employees-api-openapi.yml
+  url: https://artifacts.apis.io/thatch-health/openapi/thatch-health-employees-api-openapi.yml
 - filename: thatch-health-employer-onboarding-sessions-api-openapi.yml
   format: yaml
   label: Thatch Health Employer onboarding sessions API
   slug: thatch-health-employer-onboarding-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/openapi/thatch-health-employer-onboarding-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/thatch-health/openapi/thatch-health-employer-onboarding-sessions-api-openapi.yml
 - filename: thatch-health-employers-api-openapi.yml
   format: yaml
   label: Thatch Health Employers API
   slug: thatch-health-employers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/openapi/thatch-health-employers-api-openapi.yml
+  url: https://artifacts.apis.io/thatch-health/openapi/thatch-health-employers-api-openapi.yml
 - filename: thatch-health-enrollments-api-openapi.yml
   format: yaml
   label: Thatch Health Enrollments API
   slug: thatch-health-enrollments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/openapi/thatch-health-enrollments-api-openapi.yml
+  url: https://artifacts.apis.io/thatch-health/openapi/thatch-health-enrollments-api-openapi.yml
 - filename: thatch-health-members-api-openapi.yml
   format: yaml
   label: Thatch Health Members API
   slug: thatch-health-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/openapi/thatch-health-members-api-openapi.yml
+  url: https://artifacts.apis.io/thatch-health/openapi/thatch-health-members-api-openapi.yml
 - filename: thatch-health-pay-schedules-api-openapi.yml
   format: yaml
   label: Thatch Health Pay Schedules API
   slug: thatch-health-pay-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/openapi/thatch-health-pay-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/thatch-health/openapi/thatch-health-pay-schedules-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -89,7 +89,7 @@ source_filename: thatch-health-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: thatch.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 16:45:17 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.thatch.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 02:39:10 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: partners.thatchcloud.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 08:08:28 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: thatch.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: thatchcloud.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/security/thatch-health-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/thatch-health/security/thatch-health-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

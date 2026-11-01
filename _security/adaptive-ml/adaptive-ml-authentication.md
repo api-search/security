@@ -8,55 +8,55 @@ api_specs:
   label: Adaptive ML artifacts::rest API
   slug: adaptive-ml-artifacts-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-artifacts-rest-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-ml/openapi/adaptive-ml-artifacts-rest-api-openapi.yml
 - filename: adaptive-ml-chunked-upload-api-openapi.yml
   format: yaml
   label: Adaptive ML Chunked Upload API
   slug: adaptive-ml-chunked-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-chunked-upload-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-ml/openapi/adaptive-ml-chunked-upload-api-openapi.yml
 - filename: adaptive-ml-completions-api-openapi.yml
   format: yaml
   label: Adaptive ML Completions API
   slug: adaptive-ml-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-completions-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-ml/openapi/adaptive-ml-completions-api-openapi.yml
 - filename: adaptive-ml-datasets-api-openapi.yml
   format: yaml
   label: Adaptive ML Datasets API
   slug: adaptive-ml-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-ml/openapi/adaptive-ml-datasets-api-openapi.yml
 - filename: adaptive-ml-embeddings-api-openapi.yml
   format: yaml
   label: Adaptive ML Embeddings API
   slug: adaptive-ml-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-ml/openapi/adaptive-ml-embeddings-api-openapi.yml
 - filename: adaptive-ml-feedback-api-openapi.yml
   format: yaml
   label: Adaptive ML Feedback API
   slug: adaptive-ml-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-ml/openapi/adaptive-ml-feedback-api-openapi.yml
 - filename: adaptive-ml-image-rest-api-openapi.yml
   format: yaml
   label: Adaptive ML image::rest API
   slug: adaptive-ml-image-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-image-rest-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-ml/openapi/adaptive-ml-image-rest-api-openapi.yml
 - filename: adaptive-ml-interactions-api-openapi.yml
   format: yaml
   label: Adaptive ML Interactions API
   slug: adaptive-ml-interactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-interactions-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-ml/openapi/adaptive-ml-interactions-api-openapi.yml
 - filename: adaptive-ml-recipes-api-openapi.yml
   format: yaml
   label: Adaptive ML Recipes API
   slug: adaptive-ml-recipes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-recipes-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-ml/openapi/adaptive-ml-recipes-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -90,7 +90,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://docs.adaptive-ml.com/v0.14/advanced/authentication\ndocs: https://docs.adaptive-ml.com/v0.14/advanced/authentication\nsummary:\n  types: [http]\n  http_scheme: bearer\n  api_key_in: [header]\n  oauth2_flows: []\n  note: >-\n    Adaptive Engine is self-hosted; each deployment issues personal and\n    service-account API keys. Requests authenticate with a Bearer API key\n    against the deployment base URL (ADAPTIVE_URL). SSO/OIDC is available for\n    human user login to the console (not for API request auth).\nschemes:\n- name: bearerApiKey\n  type: http\n  scheme: bearer\n  in: header\n  header: Authorization\n  format: 'Authorization: Bearer <ADAPTIVE_API_KEY>'\n  env:\n  - ADAPTIVE_URL\n  - ADAPTIVE_API_KEY\n  sources: [docs]\n  description: >-\n    Personal or service-account API key. Generate a personal key from the\n    project switcher (Generate new API key); create service accounts via\n    adaptive.users.create_service_account\
   \ for CI/CD and automation. The key is\n    shown once at creation and cannot be retrieved later. Because the API is\n    OpenAI-compatible, the OpenAI client authenticates the same way\n    (api_key=ADAPTIVE_API_KEY, base_url=ADAPTIVE_URL/api/v1).\nsso:\n  protocol: oidc\n  scope: console-user-login-only\n  docs: https://docs.adaptive-ml.com/v0.14/advanced/sso\n  note: OIDC identity providers configure human login to the Adaptive console; not an API auth surface.\nnote: >-\n  The published OpenAPI (concorde) declares no components.securitySchemes; this\n  profile is searched from the docs auth page rather than derived from the spec.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/authentication/adaptive-ml-authentication.yml
+source_yaml_url: https://artifacts.apis.io/adaptive-ml/authentication/adaptive-ml-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

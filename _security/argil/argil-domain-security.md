@@ -5,31 +5,31 @@ api_specs:
   label: Argil Assets API
   slug: argil-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argil/refs/heads/main/openapi/argil-assets-api-openapi.yml
+  url: https://artifacts.apis.io/argil/openapi/argil-assets-api-openapi.yml
 - filename: argil-avatars-api-openapi.yml
   format: yaml
   label: Argil Avatars API
   slug: argil-avatars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argil/refs/heads/main/openapi/argil-avatars-api-openapi.yml
+  url: https://artifacts.apis.io/argil/openapi/argil-avatars-api-openapi.yml
 - filename: argil-videos-api-openapi.yml
   format: yaml
   label: Argil Videos API
   slug: argil-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argil/refs/heads/main/openapi/argil-videos-api-openapi.yml
+  url: https://artifacts.apis.io/argil/openapi/argil-videos-api-openapi.yml
 - filename: argil-voices-api-openapi.yml
   format: yaml
   label: Argil Voices API
   slug: argil-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argil/refs/heads/main/openapi/argil-voices-api-openapi.yml
+  url: https://artifacts.apis.io/argil/openapi/argil-voices-api-openapi.yml
 - filename: argil-webhooks-api-openapi.yml
   format: yaml
   label: Argil Webhooks API
   slug: argil-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argil/refs/heads/main/openapi/argil-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/argil/openapi/argil-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: argil-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.argil.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 04:11:26 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.argil.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 18:06:10 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.argil.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 10:13:36 2026 GMT\n  hsts: null\ndomains:\n- domain: argil.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/argil/refs/heads/main/security/argil-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/argil/security/argil-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

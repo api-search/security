@@ -5,25 +5,25 @@ api_specs:
   label: Documo Account API
   slug: documo-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/documo/refs/heads/main/openapi/documo-account-api-openapi.yml
+  url: https://artifacts.apis.io/documo/openapi/documo-account-api-openapi.yml
 - filename: documo-fax-api-openapi.yml
   format: yaml
   label: Documo Fax API
   slug: documo-fax-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/documo/refs/heads/main/openapi/documo-fax-api-openapi.yml
+  url: https://artifacts.apis.io/documo/openapi/documo-fax-api-openapi.yml
 - filename: documo-numbers-api-openapi.yml
   format: yaml
   label: Documo Numbers API
   slug: documo-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/documo/refs/heads/main/openapi/documo-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/documo/openapi/documo-numbers-api-openapi.yml
 - filename: documo-webhooks-api-openapi.yml
   format: yaml
   label: Documo Webhooks API
   slug: documo-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/documo/refs/heads/main/openapi/documo-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/documo/openapi/documo-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: documo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.documo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 12:15:27 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.documo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 00:23:51 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.documo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 15:38:20 2026 GMT\n  hsts: null\ndomains:\n- domain: documo.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/documo/refs/heads/main/security/documo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/documo/security/documo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fax

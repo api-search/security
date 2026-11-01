@@ -5,13 +5,13 @@ api_specs:
   label: Netdata Alerts API
   slug: netdata-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netdata/refs/heads/main/openapi/netdata-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/netdata/openapi/netdata-alerts-api-openapi.yml
 - filename: netdata-charts-api-openapi.yml
   format: yaml
   label: Netdata Charts API
   slug: netdata-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netdata/refs/heads/main/openapi/netdata-charts-api-openapi.yml
+  url: https://artifacts.apis.io/netdata/openapi/netdata-charts-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -29,7 +29,7 @@ source_filename: netdata-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.netdata.cloud/\nurl: https://trust.netdata.cloud/\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://trust.netdata.cloud/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/netdata/refs/heads/main/security/netdata-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/netdata/security/netdata-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Monitoring

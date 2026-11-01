@@ -5,223 +5,223 @@ api_specs:
   label: Edge Impulse Admin API
   slug: edge-impulse-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-admin-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-admin-api-openapi.yml
 - filename: edge-impulse-auth-api-openapi.yml
   format: yaml
   label: Edge Impulse Auth API
   slug: edge-impulse-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-auth-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-auth-api-openapi.yml
 - filename: edge-impulse-canary-api-openapi.yml
   format: yaml
   label: Edge Impulse Canary API
   slug: edge-impulse-canary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-canary-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-canary-api-openapi.yml
 - filename: edge-impulse-cdn-api-openapi.yml
   format: yaml
   label: Edge Impulse CDN API
   slug: edge-impulse-cdn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-cdn-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-cdn-api-openapi.yml
 - filename: edge-impulse-classify-api-openapi.yml
   format: yaml
   label: Edge Impulse Classify API
   slug: edge-impulse-classify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-classify-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-classify-api-openapi.yml
 - filename: edge-impulse-deployment-api-openapi.yml
   format: yaml
   label: Edge Impulse Deployment API
   slug: edge-impulse-deployment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-deployment-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-deployment-api-openapi.yml
 - filename: edge-impulse-devices-api-openapi.yml
   format: yaml
   label: Edge Impulse Devices API
   slug: edge-impulse-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-devices-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-devices-api-openapi.yml
 - filename: edge-impulse-dsp-api-openapi.yml
   format: yaml
   label: Edge Impulse DSP API
   slug: edge-impulse-dsp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-dsp-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-dsp-api-openapi.yml
 - filename: edge-impulse-export-api-openapi.yml
   format: yaml
   label: Edge Impulse Export API
   slug: edge-impulse-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-export-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-export-api-openapi.yml
 - filename: edge-impulse-health-api-openapi.yml
   format: yaml
   label: Edge Impulse Health API
   slug: edge-impulse-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-health-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-health-api-openapi.yml
 - filename: edge-impulse-impulse-api-openapi.yml
   format: yaml
   label: Edge Impulse API
   slug: edge-impulse-impulse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-impulse-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-impulse-api-openapi.yml
 - filename: edge-impulse-jobs-api-openapi.yml
   format: yaml
   label: Edge Impulse Jobs API
   slug: edge-impulse-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-jobs-api-openapi.yml
 - filename: edge-impulse-learn-api-openapi.yml
   format: yaml
   label: Edge Impulse Learn API
   slug: edge-impulse-learn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-learn-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-learn-api-openapi.yml
 - filename: edge-impulse-login-api-openapi.yml
   format: yaml
   label: Edge Impulse Login API
   slug: edge-impulse-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-login-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-login-api-openapi.yml
 - filename: edge-impulse-metrics-api-openapi.yml
   format: yaml
   label: Edge Impulse Metrics API
   slug: edge-impulse-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-metrics-api-openapi.yml
 - filename: edge-impulse-optimization-api-openapi.yml
   format: yaml
   label: Edge Impulse Optimization API
   slug: edge-impulse-optimization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-optimization-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-optimization-api-openapi.yml
 - filename: edge-impulse-organizationblocks-api-openapi.yml
   format: yaml
   label: Edge Impulse OrganizationBlocks API
   slug: edge-impulse-organizationblocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-organizationblocks-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-organizationblocks-api-openapi.yml
 - filename: edge-impulse-organizationcreateproject-api-openapi.yml
   format: yaml
   label: Edge Impulse OrganizationCreateProject API
   slug: edge-impulse-organizationcreateproject-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-organizationcreateproject-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-organizationcreateproject-api-openapi.yml
 - filename: edge-impulse-organizationdata-api-openapi.yml
   format: yaml
   label: Edge Impulse OrganizationData API
   slug: edge-impulse-organizationdata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-organizationdata-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-organizationdata-api-openapi.yml
 - filename: edge-impulse-organizationdatacampaigns-api-openapi.yml
   format: yaml
   label: Edge Impulse OrganizationDataCampaigns API
   slug: edge-impulse-organizationdatacampaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-organizationdatacampaigns-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-organizationdatacampaigns-api-openapi.yml
 - filename: edge-impulse-organizationpipelines-api-openapi.yml
   format: yaml
   label: Edge Impulse OrganizationPipelines API
   slug: edge-impulse-organizationpipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-organizationpipelines-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-organizationpipelines-api-openapi.yml
 - filename: edge-impulse-organizationportals-api-openapi.yml
   format: yaml
   label: Edge Impulse OrganizationPortals API
   slug: edge-impulse-organizationportals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-organizationportals-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-organizationportals-api-openapi.yml
 - filename: edge-impulse-organizations-api-openapi.yml
   format: yaml
   label: Edge Impulse Organizations API
   slug: edge-impulse-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-organizations-api-openapi.yml
 - filename: edge-impulse-performancecalibration-api-openapi.yml
   format: yaml
   label: Edge Impulse PerformanceCalibration API
   slug: edge-impulse-performancecalibration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-performancecalibration-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-performancecalibration-api-openapi.yml
 - filename: edge-impulse-projects-api-openapi.yml
   format: yaml
   label: Edge Impulse Projects API
   slug: edge-impulse-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-projects-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-projects-api-openapi.yml
 - filename: edge-impulse-raw-data-api-openapi.yml
   format: yaml
   label: Edge Impulse Raw data API
   slug: edge-impulse-raw-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-raw-data-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-raw-data-api-openapi.yml
 - filename: edge-impulse-themes-api-openapi.yml
   format: yaml
   label: Edge Impulse Themes API
   slug: edge-impulse-themes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-themes-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-themes-api-openapi.yml
 - filename: edge-impulse-uploadportal-api-openapi.yml
   format: yaml
   label: Edge Impulse UploadPortal API
   slug: edge-impulse-uploadportal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-uploadportal-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-uploadportal-api-openapi.yml
 - filename: edge-impulse-user-api-openapi.yml
   format: yaml
   label: Edge Impulse User API
   slug: edge-impulse-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-user-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-user-api-openapi.yml
 - filename: edge-impulse-remote-management-asyncapi.yml
   format: yaml
   label: Edge Impulse Remote Management API
   slug: edge-impulse-remote-management-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/asyncapi/edge-impulse-remote-management-asyncapi.yml
+  url: https://artifacts.apis.io/edge-impulse/asyncapi/edge-impulse-remote-management-asyncapi.yml
 - filename: edge-impulse-integrations-api-openapi.yml
   format: yaml
   label: Edge Impulse Integrations API
   slug: edge-impulse-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-integrations-api-openapi.yml
 - filename: edge-impulse-postprocessing-api-openapi.yml
   format: yaml
   label: Edge Impulse Post Processing API
   slug: edge-impulse-postprocessing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-postprocessing-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-postprocessing-api-openapi.yml
 - filename: edge-impulse-email-verification-api-openapi.yml
   format: yaml
   label: Edge Impulse Email Verification API
   slug: edge-impulse-email-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-email-verification-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-email-verification-api-openapi.yml
 - filename: edge-impulse-feature-flags-api-openapi.yml
   format: yaml
   label: Edge Impulse Feature Flags API
   slug: edge-impulse-feature-flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-feature-flags-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-feature-flags-api-openapi.yml
 - filename: edge-impulse-organization-jobs-api-openapi.yml
   format: yaml
   label: Edge Impulse Organization Jobs API
   slug: edge-impulse-organization-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-organization-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-organization-jobs-api-openapi.yml
 - filename: edge-impulse-third-party-auth-api-openapi.yml
   format: yaml
   label: Edge Impulse Third Party Auth API
   slug: edge-impulse-third-party-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-third-party-auth-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-third-party-auth-api-openapi.yml
 - filename: edge-impulse-white-labels-api-openapi.yml
   format: yaml
   label: Edge Impulse White Labels API
   slug: edge-impulse-white-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-white-labels-api-openapi.yml
+  url: https://artifacts.apis.io/edge-impulse/openapi/edge-impulse-white-labels-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2 Type II
@@ -240,7 +240,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: searched\nprobe: true\nsource: https://www.edgeimpulse.com/security\nurl: https://www.edgeimpulse.com/security\ncertifications:\n- SOC 2 Type II\nevidence:\n- source: https://www.edgeimpulse.com/security\n  http_status: 200\n  keywords:\n  - SOC 2\n  - SOC 2 Type 2\n  - AICPA\n  - annual audit\n  - Vanta trust portal\n- source: https://app.vanta.com/edgeimpulse.com/trust/o9w8o0cckunmysbv6hv507\n  http_status: 200\n  note: JavaScript-rendered Vanta trust page; linked directly from the Edge Impulse security page.\n- source: https://edgeimpulse.com/llms.txt\n  http_status: 200\n  keywords:\n  - SOC 2 Type II compliant\n  - GDPR\n  - CCPA\nprovider: Edge Impulse\nproviderId: edge-impulse\ntrust_portal: https://app.vanta.com/edgeimpulse.com/trust/o9w8o0cckunmysbv6hv507\ntrust_portal_platform: Vanta\ntrust_portal_status: 200\ncompliance:\n- SOC 2 Type II\n- GDPR\n- CCPA\ndescription: Edge Impulse runs a hosted trust portal on Vanta from which customers\
   \ request the SOC 2 Type\n  II report, and a public security page describing the programme. SOC 2 Type II is the only named certification\n  — ISO 27001, HIPAA, PCI DSS and FedRAMP are not claimed. GDPR and CCPA adherence are stated on the company\n  llms.txt and backed by a published privacy policy and a Do Not Sell control.\nreport_access: On request through the Vanta trust portal (\"Access our portal to download our SOC reports\").\n  Reports are not public.\nlegal:\n  privacy_policy: https://www.edgeimpulse.com/legal/privacy-policy\n  terms_of_service: https://www.edgeimpulse.com/legal/terms-of-service\n  enterprise_terms: https://www.edgeimpulse.com/legal/enterprise-terms-of-service\n  responsible_ai_license: https://www.edgeimpulse.com/legal/responsible-ai-license\n  dmca: https://www.edgeimpulse.com/legal/dmca-digital-millennium-copyright-act-policy\n  accessibility: https://www.edgeimpulse.com/legal/accessibility-statement-for-edge-impulse\nparent_company: Qualcomm Technologies,\
   \ Inc. (acquired March 2025)\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/security/edge-impulse-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/edge-impulse/security/edge-impulse-trust-center.yml
 summary_line: SOC 2 Type II
 tags:
 - Artificial Intelligence

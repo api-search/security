@@ -7,7 +7,7 @@ api_specs:
   label: Basis Analytics API
   slug: basis-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/openapi/basis-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/basis/openapi/basis-analytics-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  Authentic
   \        audience: https://api.basis.net\n        note: >-\n          Machine-to-machine. The application must have an associated owner\n          (agency) ID or the token endpoint returns 401. The resulting token\n          covers all clients for that agency, so Basis recommends the\n          authorization-code flow where restricted clients exist. User-scoped\n          endpoints (e.g. GET /v1/me) return 404 under this flow because the token\n          represents an organization, not a user.\n        quota:\n          tokens_per_hour: 10\n          tokens_per_day: 25\n          exhausted_status: 429\n      - grant: refresh_token\n        token_endpoint: https://auth.basis.net/oauth/token\n        note: Returns a new access token and a new refresh token.\n  - name: Bearer\n    type: http\n    scheme: bearer\n    sources:\n      - openapi/basis-analytics-api-openapi.yml\n    header: 'Authorization: Bearer <access_token>'\n    example: 'curl -X GET \"https://api.basis.net/v1/agency\" -H\
   \ \"Authorization: Bearer <access_token>\"'\ndeprecated:\n  - grant: password\n    status: deprecated\n    evidence: >-\n      \"The password grant flow has now been deprecated. Please update your\n      applications to use one of the above two flows.\" — Basis Platform API\n      description, https://api.basis.net/swagger.json\n    note: >-\n      The authorization server still advertises `password` and\n      `http://auth0.com/oauth/grant-type/password-realm` in\n      grant_types_supported, but Basis's own documentation deprecates it for this\n      API.\ntoken_endpoint_auth_methods_supported:\n  - client_secret_basic\n  - client_secret_post\n  - private_key_jwt\n  - none\nid_token_signing_alg_values_supported: [HS256, RS256, PS256]\ndpop_signing_alg_values_supported: [ES256]\nunauthenticated_behavior:\n  status: 401\n  body: '{\"message\":\"missing authorization header\"}'\n  evidence: probed https://api.basis.net/v1/me on 2026-08-13 (HTTP 401)\nrelated:\n  - scopes/basis-scopes.yml\n\
   \  - well-known/basis-openid-configuration.json\n  - conventions/basis-conventions.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/authentication/basis-authentication.yml
+source_yaml_url: https://artifacts.apis.io/basis/authentication/basis-authentication.yml
 summary_line: oauth2/http · 2 schemes
 tags:
 - Programmatic Advertising

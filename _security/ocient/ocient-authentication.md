@@ -7,13 +7,13 @@ api_specs:
   label: Ocient HTTP Query API
   slug: ocient-ocient-http-query-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/openapi/ocient-ocient-http-query-api-api-openapi.yml
+  url: https://artifacts.apis.io/ocient/openapi/ocient-ocient-http-query-api-api-openapi.yml
 - filename: ocient-system-information-rest-endpoints-api-openapi.yml
   format: yaml
   label: Ocient System Information REST Endpoints API
   slug: ocient-system-information-rest-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/openapi/ocient-system-information-rest-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/ocient/openapi/ocient-system-information-rest-endpoints-api-openapi.yml
 auth_types:
 - http
 - openIdConnect
@@ -42,7 +42,7 @@ source_yaml: "generated: '2026-08-02'\nmethod: searched\nsource: https://docs.oc
   \ 0 or 1 SSO integrations. The presence of an SSO\n    integration has no effect on users authenticating with a password.\n  identity_providers: any OIDC provider (Okta documented as example)\n  flows:\n  - id: authorizationCode\n    description: Browser redirect flow — initiate at sso_authentication, the\n      authorization server redirects to the callback path which yields the token.\n    operations: [postOcientHttpQueryApiSsoAuthentication, getOcientHttpQueryApiCallback]\n  - id: deviceCode\n    description: Device grant flow for headless clients — retrieve a device grant\n      code, have the user approve it, then verify to receive an authorization token.\n    operations: [postOcientHttpQueryApiSsoDeviceGrant, postOcientHttpQueryApiSsoDeviceGrantVerify]\n  - id: tokenExchange\n    description: Exchange an OpenID Connect identifier token or access token for an\n      Ocient access token.\n    operations: [postOcientHttpQueryApiSsoToken]\n  mfa: Ocient recommends multi-factor authentication\
   \ for all accounts accessing an\n    Ocient System, and limiting local accounts to emergency SSO-recovery access.\ntoken_handling:\n  transport: Authorization header, Bearer scheme\n  session_cookie: The login operation also sets a session cookie.\n  refresh:\n    operation: postOcientHttpQueryApiTokenRefresh\n    guidance: Call before the current token expires to maintain uninterrupted access.\n  revocation:\n    logout_invalidates_tokens: false\n    note: Logout clears associated cookies but does not invalidate access tokens.\nauthorization:\n  model: role-based access control\n  docs: https://docs.ocient.com/manage-users-groups-and-roles\n  features:\n  - Default System and Database Roles\n  - Administrator-defined access groups scoped to tables, rows, or views\n  - Object-type level privileges management\n  guidance: Ocient recommends assigning roles on least privilege, separation of duties,\n    and need-to-know.\ntransport_security:\n  tls: The SQL service always has TLS functionality\
   \ enabled and active.\n  docs: https://docs.ocient.com/secure-connections-using-tls\n  note: By default the database allows both encrypted and unencrypted JDBC connections\n    even when server certificates are present; enforcing TLS-only is a deployment\n    hardening step.\ndriver_authentication:\n  jdbc: 'connect to jdbc:ocient://<host>:<port>/<database>;user=<fqun>;password=****;'\n  pyocient: Same FQUN and password model via the Python DB-API 2.0 driver.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/authentication/ocient-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ocient/authentication/ocient-authentication.yml
 summary_line: http/openIdConnect · 0 schemes
 tags:
 - Company

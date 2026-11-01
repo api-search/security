@@ -5,31 +5,31 @@ api_specs:
   label: Tensorlake Datasets API
   slug: tensorlake-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensorlake/refs/heads/main/openapi/tensorlake-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/tensorlake/openapi/tensorlake-datasets-api-openapi.yml
 - filename: tensorlake-files-api-openapi.yml
   format: yaml
   label: Tensorlake Files API
   slug: tensorlake-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensorlake/refs/heads/main/openapi/tensorlake-files-api-openapi.yml
+  url: https://artifacts.apis.io/tensorlake/openapi/tensorlake-files-api-openapi.yml
 - filename: tensorlake-parse-api-openapi.yml
   format: yaml
   label: Tensorlake Parse API
   slug: tensorlake-parse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensorlake/refs/heads/main/openapi/tensorlake-parse-api-openapi.yml
+  url: https://artifacts.apis.io/tensorlake/openapi/tensorlake-parse-api-openapi.yml
 - filename: tensorlake-sandboxes-api-openapi.yml
   format: yaml
   label: Tensorlake Sandboxes API
   slug: tensorlake-sandboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensorlake/refs/heads/main/openapi/tensorlake-sandboxes-api-openapi.yml
+  url: https://artifacts.apis.io/tensorlake/openapi/tensorlake-sandboxes-api-openapi.yml
 - filename: tensorlake-structured-extraction-api-openapi.yml
   format: yaml
   label: Tensorlake Structured Extraction API
   slug: tensorlake-structured-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensorlake/refs/heads/main/openapi/tensorlake-structured-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/tensorlake/openapi/tensorlake-structured-extraction-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -84,7 +84,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tensorlake.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: Let's Encrypt\n  cert_expires: Sep 16 22:25:50 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  notes: 307 redirect to https://www.tensorlake.ai/ (Vercel).\n- host: api.tensorlake.ai\n  https: true\n  cert_issuer: Amazon RSA 2048 M04\n  cert_expires: Dec  8 23:59:59 2026 GMT\n  hsts: null\n  notes: AWS ELB origin. Unauthenticated request returns HTTP 401 (Bearer enforced). No HSTS header observed on the 401 response.\n- host: docs.tensorlake.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: Let's Encrypt\n  cert_expires: Sep 25 06:23:25 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  notes: 308 redirect to /sandboxes/introduction (Vercel).\n- host: cloud.tensorlake.ai\n  https: true\n  cert_issuer: Let's Encrypt\n  cert_expires: Aug 18 21:56:56 2026 GMT\n  hsts: true\n  hsts_max_age:\
   \ 63072000\n  notes: 307 redirect to /login (Vercel).\ndomains:\n- domain: tensorlake.ai\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: 'v=spf1 include:_spf.google.com ~all'\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tensorlake/refs/heads/main/security/tensorlake-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tensorlake/security/tensorlake-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Document Extraction

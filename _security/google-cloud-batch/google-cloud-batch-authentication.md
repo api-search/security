@@ -7,13 +7,13 @@ api_specs:
   label: Google Cloud Batch Jobs API
   slug: google-cloud-batch-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-batch/refs/heads/main/openapi/google-cloud-batch-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-batch/openapi/google-cloud-batch-jobs-api-openapi.yml
 - filename: google-cloud-batch-tasks-api-openapi.yml
   format: yaml
   label: Google Cloud Batch Tasks API
   slug: google-cloud-batch-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-batch/refs/heads/main/openapi/google-cloud-batch-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-batch/openapi/google-cloud-batch-tasks-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -44,7 +44,7 @@ source_filename: google-cloud-batch-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/batch-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 1\n  sources:\n  - openapi/batch-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-batch/refs/heads/main/authentication/google-cloud-batch-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-batch/authentication/google-cloud-batch-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Batch Processing

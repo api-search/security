@@ -7,43 +7,43 @@ api_specs:
   label: Ziina Account API
   slug: ziina-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-account-api-openapi.yml
+  url: https://artifacts.apis.io/ziina/openapi/ziina-account-api-openapi.yml
 - filename: ziina-log-api-openapi.yml
   format: yaml
   label: Ziina Log API
   slug: ziina-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-log-api-openapi.yml
+  url: https://artifacts.apis.io/ziina/openapi/ziina-log-api-openapi.yml
 - filename: ziina-paymentintent-api-openapi.yml
   format: yaml
   label: Ziina PaymentIntent API
   slug: ziina-paymentintent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-paymentintent-api-openapi.yml
+  url: https://artifacts.apis.io/ziina/openapi/ziina-paymentintent-api-openapi.yml
 - filename: ziina-refund-api-openapi.yml
   format: yaml
   label: Ziina Refund API
   slug: ziina-refund-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-refund-api-openapi.yml
+  url: https://artifacts.apis.io/ziina/openapi/ziina-refund-api-openapi.yml
 - filename: ziina-transfer-api-openapi.yml
   format: yaml
   label: Ziina Transfer API
   slug: ziina-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/ziina/openapi/ziina-transfer-api-openapi.yml
 - filename: ziina-webhook-api-openapi.yml
   format: yaml
   label: Ziina Webhook API
   slug: ziina-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/ziina/openapi/ziina-webhook-api-openapi.yml
 - filename: ziina-health-check-api-openapi.yml
   format: yaml
   label: Ziina Health Check API
   slug: ziina-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/ziina/openapi/ziina-health-check-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -92,7 +92,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: derived\nsource: openapi/ziina-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\nschemes:\n- name: bearer\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/ziina-openapi.yml\n  notes: >-\n    All Ziina API calls authenticate with an HTTP bearer token in the\n    Authorization header (Authorization: Bearer <token>). The token is a JWT\n    access token issued by Ziina's OAuth 2.0 authorization server.\n- name: oauth2\n  type: oauth2\n  flow: authorization_code\n  authorizationUrl: https://auth.ziina.com/oidc/auth\n  tokenUrl: https://auth.ziina.com/oidc/token\n  grantTypes:\n  - authorization_code\n  - refresh_token\n  scopes:\n    read_account: Read the connected account profile (GET /account).\n    write_payment_intents: Create payment intents and accept payments on the account's behalf.\n    write_refunds: Issue refunds against payment intents.\n    write_transfers: Initiate transfers between Ziina accounts.\n\
   \    write_webhooks: Register and delete webhook endpoints.\n    offline_access: Receive a refresh_token for long-lived access.\n  sources:\n  - https://docs.ziina.com/developers/oauth-2.0\n  - https://docs.ziina.com/business/oauth-2.0\n  notes: >-\n    Ziina uses an OIDC-based OAuth 2.0 flow (auth.ziina.com/oidc). Business\n    integration credentials (client_id, username, password) and allowed redirect\n    URIs are provisioned by contacting Ziina support. A personal access token\n    obtained on the Ziina business connect page carries all available scopes for\n    self-integration.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/authentication/ziina-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ziina/authentication/ziina-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Payments

@@ -9,19 +9,19 @@ api_specs:
   label: Rybbit Analytics API
   slug: rybbit-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/openapi/rybbit-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/rybbit/openapi/rybbit-analytics-api-openapi.yml
 - filename: rybbit-event-tracking-api-openapi.yml
   format: yaml
   label: Rybbit Event Tracking API
   slug: rybbit-event-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/openapi/rybbit-event-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/rybbit/openapi/rybbit-event-tracking-api-openapi.yml
 - filename: rybbit-sessions-api-openapi.yml
   format: yaml
   label: Rybbit Sessions API
   slug: rybbit-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/openapi/rybbit-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/rybbit/openapi/rybbit-sessions-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/rybbit-
   \ every\n      site in it, and survive staff turnover; only organization admins/owners can\n      create them (Settings > Organization > Organization API Keys). Personal keys\n      act as the individual user with exactly their access across every\n      organization they belong to (Settings > Account > Personal API Keys) and are\n      the recommended credential for MCP clients. Either kind can be created with\n      a `permissions` object restricting it to `resource:action` scopes; leave\n      restrictions off for a full-access key. Keys are shown once at creation.\n    sources:\n      - openapi/rybbit-openapi.yml\n      - https://rybbit.com/docs/api/getting-started\n      - https://rybbit.com/docs/account-settings\n  - name: apiKeyQuery\n    type: apiKey\n    in: query\n    parameter: api_key\n    description: >-\n      `?api_key=<key>` is accepted on the Stats API for quick testing ONLY —\n      Rybbit's own docs warn it leaks the key into server logs and browser\n      history. It\
   \ is NOT accepted on the MCP endpoint.\n    deprecated_for_production: true\n    sources:\n      - https://rybbit.com/docs/api/getting-started\n  - name: RybbitMCP\n    type: oauth2\n    description: >-\n      OAuth 2.1 authorization code + PKCE (S256) with RFC 7591 dynamic client\n      registration, used by MCP clients that support the MCP authorization flow\n      (Claude Code, Codex, Claude Desktop, opencode). Discovered from\n      /.well-known/oauth-protected-resource on the API host. Tokens act with the\n      granting user's role and share that user's rate-limit budget.\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://app.rybbit.io/api/auth/mcp/authorize\n        tokenUrl: https://app.rybbit.io/api/auth/mcp/token\n        scopes: 29\n    detail: scopes/rybbit-scopes.yml\n    sources:\n      - well-known/rybbit-oauth-authorization-server.json\n      - well-known/rybbit-oauth-protected-resource.json\n      - https://rybbit.com/docs/mcp\ningestion:\n\
   \  endpoint: POST /api/track\n  auth: optional\n  note: >-\n    The public ingestion endpoint accepts unauthenticated writes from the\n    tracking script (the site is resolved from `site_id`). An API key is\n    optional but recommended for server-side tracking because it bypasses bot\n    detection and domain validation.\nauthorization:\n  model: role + scope\n  roles: [member, admin, owner]\n  note: >-\n    Scopes filter what a credential MAY attempt; the organization role still\n    decides what it MAY DO. Admin/owner-only operations refuse a member-role\n    credential with 403 regardless of scope.\nself_hosted:\n  note: >-\n    Self-hosted (AGPL-3.0) instances run the same auth stack on the operator's\n    own BASE_URL, including the MCP authorization server at\n    /api/auth/mcp/* and the well-known documents.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/authentication/rybbit-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rybbit/authentication/rybbit-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Analytics

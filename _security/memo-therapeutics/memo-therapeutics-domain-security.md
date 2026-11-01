@@ -28,7 +28,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nnote: >-\n  Scoped to the host Memo Therapeutics controls. The probe also walked\n  developer.wordpress.org and wordpress.org because the apis[].humanURL points at the\n  upstream WordPress REST handbook that defines the wp/v2 contract; those results\n  describe the WordPress Foundation's posture, not Memo Therapeutics', and have been\n  removed so they are not read as this company's.\nfindings:\n  - memo-therapeutics.com serves TLS 1.3 with a certificate valid to 2027-02-27 but sends\n    no Strict-Transport-Security header.\n  - No DNSSEC and no CAA record on memo-therapeutics.com.\n  - SPF and DMARC are both published; the DMARC policy is p=reject. Mail is on Microsoft 365\n    (MX memotherapeutics-com01b.mail.protection.outlook.com).\nhosts:\n- host: memo-therapeutics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 27 23:59:59 2027 GMT\n  hsts: false\n\
   domains:\n- domain: memo-therapeutics.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/memo-therapeutics/refs/heads/main/security/memo-therapeutics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/memo-therapeutics/security/memo-therapeutics-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

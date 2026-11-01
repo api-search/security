@@ -5,19 +5,19 @@ api_specs:
   label: Diamond Search Fullfeed API
   slug: diamond-search-fullfeed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diamond-search/refs/heads/main/openapi/diamond-search-fullfeed-api-openapi.yml
+  url: https://artifacts.apis.io/diamond-search/openapi/diamond-search-fullfeed-api-openapi.yml
 - filename: diamond-search-getreport3-api-openapi.yml
   format: yaml
   label: Diamond Search Getreport3 API
   slug: diamond-search-getreport3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diamond-search/refs/heads/main/openapi/diamond-search-getreport3-api-openapi.yml
+  url: https://artifacts.apis.io/diamond-search/openapi/diamond-search-getreport3-api-openapi.yml
 - filename: diamond-search-labgrownfullfile-api-openapi.yml
   format: yaml
   label: Diamond Search Labgrownfullfile API
   slug: diamond-search-labgrownfullfile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diamond-search/refs/heads/main/openapi/diamond-search-labgrownfullfile-api-openapi.yml
+  url: https://artifacts.apis.io/diamond-search/openapi/diamond-search-labgrownfullfile-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: diamond-search-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.idexonline.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 22 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: idexonline.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/diamond-search/refs/heads/main/security/diamond-search-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/diamond-search/security/diamond-search-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Diamonds

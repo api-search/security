@@ -5,13 +5,13 @@ api_specs:
   label: Fluentd Forward Protocol
   slug: fluentd-forward-protocol
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluentd/refs/heads/main/asyncapi/fluentd-forward-protocol-asyncapi.yml
+  url: https://artifacts.apis.io/fluentd/asyncapi/fluentd-forward-protocol-asyncapi.yml
 - filename: fluentd-events-api-openapi.yml
   format: yaml
   label: Fluentd Events API
   slug: fluentd-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluentd/refs/heads/main/openapi/fluentd-events-api-openapi.yml
+  url: https://artifacts.apis.io/fluentd/openapi/fluentd-events-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: fluentd-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fluentd.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 23:08:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.fluentd.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 02:25:55 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: fluentd.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fluentd/refs/heads/main/security/fluentd-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fluentd/security/fluentd-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Data Collection

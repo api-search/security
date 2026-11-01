@@ -28,7 +28,7 @@ source_filename: artlycoffee-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: artly.coffee\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 12:51:32 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\ndomains:\n- domain: artly.coffee\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/artlycoffee/refs/heads/main/security/artlycoffee-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/artlycoffee/security/artlycoffee-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

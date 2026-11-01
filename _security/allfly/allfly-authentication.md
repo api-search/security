@@ -7,13 +7,13 @@ api_specs:
   label: AllFly Connect API
   slug: allfly-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allfly/refs/heads/main/openapi/allfly-connect-api-openapi.yml
+  url: https://artifacts.apis.io/allfly/openapi/allfly-connect-api-openapi.yml
 - filename: allfly-events-api-openapi.yml
   format: yaml
   label: AllFly Events API
   slug: allfly-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allfly/refs/heads/main/openapi/allfly-events-api-openapi.yml
+  url: https://artifacts.apis.io/allfly/openapi/allfly-events-api-openapi.yml
 auth_types: []
 description: Allfly Connect API uses API keys for authentication.
 kind: authentication
@@ -37,11 +37,11 @@ source_filename: allfly-authentication.yml
 source_heading: Authentication Profile
 source_url: https://docs.allfly.io/api-key-management/
 source_yaml: "generated: '2026-10-05'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://docs.allfly.io/api-key-management/\nsources:\n- https://docs.allfly.io/api-key-management/\n- https://docs.allfly.io/api-key-management/\ndescription: Allfly Connect API uses API keys for authentication.\nschemes:\n- type: apiKey\n  name: API Key\n  evidence: API keys are required to authenticate requests to the Allfly Connect API.\n  how_to_obtain: Create a new API key in the Integrations settings of your Allfly Quest account.\ndocs: https://docs.allfly.io/api-key-management/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allfly/refs/heads/main/authentication/allfly-authentication.yml
+source_yaml_url: https://artifacts.apis.io/allfly/authentication/allfly-authentication.yml
 summary_line: 1 scheme
 tags:
 - Travel
-- CorporateTravel
+- Corporate Travel
 - Marketplace
 - Booking
 - Software-as-a-Service

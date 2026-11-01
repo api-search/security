@@ -8,49 +8,49 @@ api_specs:
   label: HackNotice Alerts API
   slug: hacknotice-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/openapi/hacknotice-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/hacknotice/openapi/hacknotice-alerts-api-openapi.yml
 - filename: hacknotice-all-business-accounts-api-openapi.yml
   format: yaml
   label: HackNotice All Business Accounts API
   slug: hacknotice-all-business-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/openapi/hacknotice-all-business-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/hacknotice/openapi/hacknotice-all-business-accounts-api-openapi.yml
 - filename: hacknotice-calc-endpoints-api-openapi.yml
   format: yaml
   label: HackNotice Calc endpoints API
   slug: hacknotice-calc-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/openapi/hacknotice-calc-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/hacknotice/openapi/hacknotice-calc-endpoints-api-openapi.yml
 - filename: hacknotice-deprecated-api-openapi.yml
   format: yaml
   label: HackNotice Deprecated API
   slug: hacknotice-deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/openapi/hacknotice-deprecated-api-openapi.yml
+  url: https://artifacts.apis.io/hacknotice/openapi/hacknotice-deprecated-api-openapi.yml
 - filename: hacknotice-domain-business-accounts-api-openapi.yml
   format: yaml
   label: HackNotice Domain Business Accounts API
   slug: hacknotice-domain-business-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/openapi/hacknotice-domain-business-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/hacknotice/openapi/hacknotice-domain-business-accounts-api-openapi.yml
 - filename: hacknotice-enduser-business-accounts-api-openapi.yml
   format: yaml
   label: HackNotice Enduser Business Accounts API
   slug: hacknotice-enduser-business-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/openapi/hacknotice-enduser-business-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/hacknotice/openapi/hacknotice-enduser-business-accounts-api-openapi.yml
 - filename: hacknotice-research-service-accounts-api-openapi.yml
   format: yaml
   label: HackNotice Research Service Accounts API
   slug: hacknotice-research-service-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/openapi/hacknotice-research-service-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/hacknotice/openapi/hacknotice-research-service-accounts-api-openapi.yml
 - filename: hacknotice-third-party-accounts-api-openapi.yml
   format: yaml
   label: HackNotice Third Party Accounts API
   slug: hacknotice-third-party-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/openapi/hacknotice-third-party-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/hacknotice/openapi/hacknotice-third-party-accounts-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-08-22'\nmethod: searched\nsource:\n- https://api-
   \ \"JWT \" followed by the token —\n    e.g. Authorization: JWT <token>. Note this is HackNotice''s own scheme, not RFC 6750 Bearer.'\n  sources:\n  - openapi/hacknotice-openapi.yml\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: apikey\n  description: Per-account API key issued by HackNotice, sent in the lower-case \"apikey\" header alongside the JWT\n    on most operations.\n  sources:\n  - openapi/hacknotice-openapi.yml\n- name: integrationKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-HackNotice-Integration-Key\n  description: Per-user HackNotice integration secret (hn_ik_ prefix). Single-header alternative to apikey + email\n    + password; also the credential used by the HackNotice MCP server.\n  sources:\n  - openapi/hacknotice-openapi.yml\ndocs: https://api-docs.hacknotice.com\nflows:\n- name: apiKey + email + password\n  steps:\n  - POST /auth/sign_in with form fields email and password, sending the apikey header\n  - POST /auth/twofa_sign_in instead when\
   \ the account has 2FA enabled\n  - 'Send the returned token on every subsequent call as Authorization: JWT <token>'\n  - GET /auth/sign_out or /auth/sign_out_all to end sessions\n  token: JWT (RFC 7519) carrying email, customer_id, _id, iat and exp claims. Tenant scoping is inside the token\n    — customer_id is never passed as a parameter.\n  gotcha: The literal prefix is \"JWT \", not \"Bearer \". HackNotice calls this out explicitly in its own documentation.\n    A standard RFC 6750 Bearer client fails with 401 and no explanation.\n- name: integration key\n  steps:\n  - 'Send X-HackNotice-Integration-Key: hn_ik_... on every request. No sign-in round trip.'\n  token: Opaque per-user secret, hn_ik_ prefix.\n  note: Same credential the HackNotice MCP server validates on every tools/call.\ntwo_factor:\n  supported: true\n  operation: post2FaSignIn (POST /auth/twofa_sign_in)\nsso:\n  saml2: true\n  providers:\n  - Microsoft Entra ID (Azure AD)\n  - Okta\n  docs:\n  - https://hacknotice.zendesk.com/hc/en-us/articles/16860907619860-Microsoft-Azure-AD-EntraID-SAML-SSO-Integration\n\
   \  - https://hacknotice.zendesk.com/hc/en-us/articles/16860841528724-OKTA-SAML-Integration\n  note: Platform sign-in only. SAML does not mint an API credential.\naccess_gate:\n  approved_accounts_only: true\n  consultation_required: 30 minutes, before API usage\n  source: https://hacknotice.zendesk.com/hc/en-us/articles/13540425661844-API\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/authentication/hacknotice-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hacknotice/authentication/hacknotice-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - Company

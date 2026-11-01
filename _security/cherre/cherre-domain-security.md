@@ -5,13 +5,13 @@ api_specs:
   label: Cherre Auth API
   slug: cherre-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cherre/refs/heads/main/openapi/cherre-auth-api-openapi.yml
+  url: https://artifacts.apis.io/cherre/openapi/cherre-auth-api-openapi.yml
 - filename: cherre-graph-ql-api-openapi.yml
   format: yaml
   label: Cherre Graph QL API
   slug: cherre-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cherre/refs/heads/main/openapi/cherre-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/cherre/openapi/cherre-graph-ql-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -49,7 +49,7 @@ source_filename: cherre-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cherre.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 12:10:46 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\n- host: cherre.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 01:12:53 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\n- host: api.cherre.com\n  https: false\ndomains:\n- domain: cherre.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cherre/refs/heads/main/security/cherre-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cherre/security/cherre-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Real Estate

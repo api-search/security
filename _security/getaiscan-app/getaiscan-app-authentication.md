@@ -8,13 +8,13 @@ api_specs:
   label: AIScan Agent API
   slug: getaiscan-app-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getaiscan-app/refs/heads/main/openapi/getaiscan-app-agent-api-openapi.yml
+  url: https://artifacts.apis.io/getaiscan-app/openapi/getaiscan-app-agent-api-openapi.yml
 - filename: getaiscan-app-ai-visibility-api-openapi.yml
   format: yaml
   label: AIScan AI Visibility API
   slug: getaiscan-app-ai-visibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getaiscan-app/refs/heads/main/openapi/getaiscan-app-ai-visibility-api-openapi.yml
+  url: https://artifacts.apis.io/getaiscan-app/openapi/getaiscan-app-ai-visibility-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/getaisc
   \ https://api.getaiscan.app/api/agent/check_health {\"url\":\"https://example.com\"} with no payment header, 2026-09-19'\n    status: 402\n    headers:\n      payment-required: base64 JSON — {x402Version 2, error \"PAYMENT-SIGNATURE header is required\", resource {url, description, mimeType}, accepts [{scheme exact, network eip155:8453, amount 60000, asset, payTo, maxTimeoutSeconds 300, extra {name USD Coin, version 2}}], extensions {}}\n      x-payment-required: 'true'\n      x-payment-version: '2'\n      x-payment-amount: '0.06'\n      x-payment-currency: USDC\n      x-payment-network: eip155:8453\n      x-payment-recipient: '0x0a28ace35b9687a9334cd503b3c7d4b23734a1c7'\n      x-payment-asset: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913'\n    body_fields: [x402Version, error, resource, accepts, extensions, price, currency, recipient, instructions, capability, index]\n    instructions_verbatim: >-\n      Pay 0.06 USDC: x402 V2 'exact' scheme (PAYMENT-SIGNATURE header, settled via Coinbase\
   \ CDP facilitator),\n      or direct-transfer: send 0.06 USDC on Base (eip155:8453) to 0x0a28ace35b9687a9334cd503b3c7d4b23734a1c7\n      and retry with PAYMENT-SIGNATURE: <tx_hash>\n    note: The body's accepts[0].network says \"base\" while the header and the PAYMENT-REQUIRED payload say \"eip155:8453\"; the amount is in USDC base units (60000 = 0.06 USDC, 6 decimals).\n  header_aliases:\n    accepted_by_cors: [PAYMENT-SIGNATURE, Payment-Signature, X-Payment, X-PAYMENT]\n    note: The legacy agent.json descriptor and the mcp.json descriptor name X-Payment; the OpenAPI, the agent card and the live challenge name PAYMENT-SIGNATURE. Use PAYMENT-SIGNATURE.\n  applied_to: every POST /api/agent/{capability} operation (19 of 20 operations); the operations declare no per-operation security[] and the document declares no top-level security, so the requirement is expressed by the 402 response each operation declares rather than by a security requirement object\n  exempt: [index]\n  sources:\n \
   \ - openapi/getaiscan-app-openapi.json\ngaps:\n- The OpenAPI declares the x402 scheme in components.securitySchemes but applies it nowhere (no top-level or per-operation security[] except index's empty list); a client generator will treat every operation as anonymous.\n- No OAuth/OIDC, no RFC 9728 protected-resource metadata, no RFC 8414 metadata on either host; there is nothing to discover beyond the 402 itself.\n- No testnet or sandbox payment path is documented; every call is a real mainnet USDC payment.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/getaiscan-app/refs/heads/main/authentication/getaiscan-app-authentication.yml
+source_yaml_url: https://artifacts.apis.io/getaiscan-app/authentication/getaiscan-app-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - AI Visibility

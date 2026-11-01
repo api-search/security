@@ -9,19 +9,19 @@ api_specs:
   label: ScreenshotOne Account API
   slug: screenshotone-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/screenshotone/refs/heads/main/openapi/screenshotone-account-api-openapi.yml
+  url: https://artifacts.apis.io/screenshotone/openapi/screenshotone-account-api-openapi.yml
 - filename: screenshotone-animations-api-openapi.yml
   format: yaml
   label: ScreenshotOne Animations API
   slug: screenshotone-animations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/screenshotone/refs/heads/main/openapi/screenshotone-animations-api-openapi.yml
+  url: https://artifacts.apis.io/screenshotone/openapi/screenshotone-animations-api-openapi.yml
 - filename: screenshotone-screenshots-api-openapi.yml
   format: yaml
   label: ScreenshotOne Screenshots API
   slug: screenshotone-screenshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/screenshotone/refs/heads/main/openapi/screenshotone-screenshots-api-openapi.yml
+  url: https://artifacts.apis.io/screenshotone/openapi/screenshotone-screenshots-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -56,7 +56,7 @@ source_filename: screenshotone-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/screenshotone-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: accessKeyQuery\n  type: apiKey\n  in: query\n  parameter: access_key\n  description: API access key passed as a query string parameter.\n  sources:\n  - openapi/screenshotone-openapi.yml\n- name: accessKeyHeader\n  type: apiKey\n  in: header\n  parameter: X-Access-Key\n  description: API access key passed via the X-Access-Key request header.\n  sources:\n  - openapi/screenshotone-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/screenshotone/refs/heads/main/authentication/screenshotone-authentication.yml
+source_yaml_url: https://artifacts.apis.io/screenshotone/authentication/screenshotone-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Image

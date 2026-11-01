@@ -8,25 +8,25 @@ api_specs:
   label: Traceloop Auto Monitor Setups API
   slug: traceloop-auto-monitor-setups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traceloop/refs/heads/main/openapi/traceloop-auto-monitor-setups-api-openapi.yml
+  url: https://artifacts.apis.io/traceloop/openapi/traceloop-auto-monitor-setups-api-openapi.yml
 - filename: traceloop-evaluators-api-openapi.yml
   format: yaml
   label: Traceloop Evaluators API
   slug: traceloop-evaluators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traceloop/refs/heads/main/openapi/traceloop-evaluators-api-openapi.yml
+  url: https://artifacts.apis.io/traceloop/openapi/traceloop-evaluators-api-openapi.yml
 - filename: traceloop-metrics-api-openapi.yml
   format: yaml
   label: Traceloop Metrics API
   slug: traceloop-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traceloop/refs/heads/main/openapi/traceloop-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/traceloop/openapi/traceloop-metrics-api-openapi.yml
 - filename: traceloop-organizations-api-openapi.yml
   format: yaml
   label: Traceloop Organizations API
   slug: traceloop-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traceloop/refs/heads/main/openapi/traceloop-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/traceloop/openapi/traceloop-organizations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: traceloop-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/traceloop-rest-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: BearerAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Type \"Bearer\" followed by a space and JWT token.\n  sources:\n  - openapi/traceloop-rest-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/traceloop/refs/heads/main/authentication/traceloop-authentication.yml
+source_yaml_url: https://artifacts.apis.io/traceloop/authentication/traceloop-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - LLM Observability

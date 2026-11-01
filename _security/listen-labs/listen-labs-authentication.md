@@ -8,7 +8,7 @@ api_specs:
   label: Listen Labs Public API
   slug: listen-labs-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listen-labs/refs/heads/main/openapi/listen-labs-public-api-openapi.yml
+  url: https://artifacts.apis.io/listen-labs/openapi/listen-labs-public-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -37,7 +37,7 @@ source_filename: listen-labs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/listen-labs-study-data-openapi.json, openapi/listen-labs-v2-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: API key scoped to a single organization. Contact support@listenlabs.ai to request\n    one.\n  sources:\n  - openapi/listen-labs-study-data-openapi.json\n  - openapi/listen-labs-v2-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/listen-labs/refs/heads/main/authentication/listen-labs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/listen-labs/authentication/listen-labs-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

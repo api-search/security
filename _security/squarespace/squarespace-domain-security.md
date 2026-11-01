@@ -5,67 +5,67 @@ api_specs:
   label: Squarespace Orders API
   slug: squarespace-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-orders-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-orders-api-openapi.yml
 - filename: squarespace-products-api-openapi.yml
   format: yaml
   label: Squarespace Products API
   slug: squarespace-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-products-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-products-api-openapi.yml
 - filename: squarespace-inventory-api-openapi.yml
   format: yaml
   label: Squarespace Inventory API
   slug: squarespace-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-inventory-api-openapi.yml
 - filename: squarespace-profiles-api-openapi.yml
   format: yaml
   label: Squarespace Profiles API
   slug: squarespace-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-profiles-api-openapi.yml
 - filename: squarespace-transactions-api-openapi.yml
   format: yaml
   label: Squarespace Transactions API
   slug: squarespace-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-transactions-api-openapi.yml
 - filename: squarespace-webhook-subscriptions-api-openapi.yml
   format: yaml
   label: Squarespace Webhook Subscriptions API
   slug: squarespace-webhook-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-webhook-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-webhook-subscriptions-api-openapi.yml
 - filename: squarespace-site-api-openapi.yml
   format: yaml
   label: Squarespace Site API
   slug: squarespace-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-site-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-site-api-openapi.yml
 - filename: squarespace-analytics-api-openapi.yml
   format: yaml
   label: Squarespace Analytics API
   slug: squarespace-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-analytics-api-openapi.yml
 - filename: squarespace-contacts-api-openapi.yml
   format: yaml
   label: Squarespace Contacts API
   slug: squarespace-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-contacts-api-openapi.yml
 - filename: squarespace-discounts-api-openapi.yml
   format: yaml
   label: Squarespace Discounts API
   slug: squarespace-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-discounts-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-discounts-api-openapi.yml
 - filename: squarespace-websites-api-openapi.yml
   format: yaml
   label: Squarespace Websites API
   slug: squarespace-websites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-websites-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-websites-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -100,7 +100,7 @@ source_filename: squarespace-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.squarespace.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  3 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.squarespace.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  3 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: squarespace.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/security/squarespace-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/squarespace/security/squarespace-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Commerce

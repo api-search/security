@@ -7,43 +7,43 @@ api_specs:
   label: Hospitable Calendar API
   slug: hospitable-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/openapi/hospitable-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/hospitable/openapi/hospitable-calendar-api-openapi.yml
 - filename: hospitable-listings-api-openapi.yml
   format: yaml
   label: Hospitable Listings API
   slug: hospitable-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/openapi/hospitable-listings-api-openapi.yml
+  url: https://artifacts.apis.io/hospitable/openapi/hospitable-listings-api-openapi.yml
 - filename: hospitable-messages-api-openapi.yml
   format: yaml
   label: Hospitable Messages API
   slug: hospitable-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/openapi/hospitable-messages-api-openapi.yml
+  url: https://artifacts.apis.io/hospitable/openapi/hospitable-messages-api-openapi.yml
 - filename: hospitable-properties-api-openapi.yml
   format: yaml
   label: Hospitable Properties API
   slug: hospitable-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/openapi/hospitable-properties-api-openapi.yml
+  url: https://artifacts.apis.io/hospitable/openapi/hospitable-properties-api-openapi.yml
 - filename: hospitable-reservations-api-openapi.yml
   format: yaml
   label: Hospitable Reservations API
   slug: hospitable-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/openapi/hospitable-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/hospitable/openapi/hospitable-reservations-api-openapi.yml
 - filename: hospitable-reviews-api-openapi.yml
   format: yaml
   label: Hospitable Reviews API
   slug: hospitable-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/openapi/hospitable-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/hospitable/openapi/hospitable-reviews-api-openapi.yml
 - filename: hospitable-user-api-openapi.yml
   format: yaml
   label: Hospitable User API
   slug: hospitable-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/openapi/hospitable-user-api-openapi.yml
+  url: https://artifacts.apis.io/hospitable/openapi/hospitable-user-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -70,7 +70,7 @@ source_filename: hospitable-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/hospitable-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'A Personal Access Token (PAT) or OAuth 2.0 access token supplied as `Authorization:\n    Bearer <token>`. OAuth 2.0 authorization-code flow is used for vendor integrations; PATs\n    are scoped to a single Hospitable account for personal use.'\n  sources:\n  - openapi/hospitable-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/authentication/hospitable-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hospitable/authentication/hospitable-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Vacation Rentals

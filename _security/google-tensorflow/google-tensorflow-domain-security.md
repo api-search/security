@@ -5,13 +5,13 @@ api_specs:
   label: Google TensorFlow Model Status API
   slug: google-tensorflow-model-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tensorflow/refs/heads/main/openapi/google-tensorflow-model-status-api-openapi.yml
+  url: https://artifacts.apis.io/google-tensorflow/openapi/google-tensorflow-model-status-api-openapi.yml
 - filename: google-tensorflow-prediction-api-openapi.yml
   format: yaml
   label: Google TensorFlow Prediction API
   slug: google-tensorflow-prediction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tensorflow/refs/heads/main/openapi/google-tensorflow-prediction-api-openapi.yml
+  url: https://artifacts.apis.io/google-tensorflow/openapi/google-tensorflow-prediction-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: google-tensorflow-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tensorflow.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: tfhub.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 14:16:37 2026 GMT\n  hsts: null\ndomains:\n- domain: tensorflow.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: tfhub.dev\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-tensorflow/refs/heads/main/security/google-tensorflow-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/google-tensorflow/security/google-tensorflow-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

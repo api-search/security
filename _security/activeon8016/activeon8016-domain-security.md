@@ -37,7 +37,7 @@ source_filename: activeon8016-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.activon-global.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 17:50:21 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n- host: www.activon.kr\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  2 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: activon-global.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: activon.kr\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/activeon8016/refs/heads/main/security/activeon8016-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/activeon8016/security/activeon8016-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

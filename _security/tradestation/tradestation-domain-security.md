@@ -5,37 +5,37 @@ api_specs:
   label: TradeStation Streaming API
   slug: tradestation-streaming
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/asyncapi/tradestation-streaming-asyncapi.yml
+  url: https://artifacts.apis.io/tradestation/asyncapi/tradestation-streaming-asyncapi.yml
 - filename: tradestation-accounts-api-openapi.yml
   format: yaml
   label: TradeStation Accounts API
   slug: tradestation-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/openapi/tradestation-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/tradestation/openapi/tradestation-accounts-api-openapi.yml
 - filename: tradestation-market-data-api-openapi.yml
   format: yaml
   label: TradeStation Market Data API
   slug: tradestation-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/openapi/tradestation-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/tradestation/openapi/tradestation-market-data-api-openapi.yml
 - filename: tradestation-options-api-openapi.yml
   format: yaml
   label: TradeStation Options API
   slug: tradestation-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/openapi/tradestation-options-api-openapi.yml
+  url: https://artifacts.apis.io/tradestation/openapi/tradestation-options-api-openapi.yml
 - filename: tradestation-order-execution-api-openapi.yml
   format: yaml
   label: TradeStation Order Execution API
   slug: tradestation-order-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/openapi/tradestation-order-execution-api-openapi.yml
+  url: https://artifacts.apis.io/tradestation/openapi/tradestation-order-execution-api-openapi.yml
 - filename: tradestation-reference-data-api-openapi.yml
   format: yaml
   label: TradeStation Reference Data API
   slug: tradestation-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/openapi/tradestation-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/tradestation/openapi/tradestation-reference-data-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -77,7 +77,7 @@ source_filename: tradestation-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tradestation.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 20 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.tradestation.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov  5 23:59:59 2026 GMT\n  hsts: null\n- host: sim-api.tradestation.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 16 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: tradestation.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/security/tradestation-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tradestation/security/tradestation-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Brokerage

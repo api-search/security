@@ -5,25 +5,25 @@ api_specs:
   label: Contrast Security Applications API
   slug: contrast-security-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/openapi/contrast-security-applications-api-openapi.yml
+  url: https://artifacts.apis.io/contrast-security/openapi/contrast-security-applications-api-openapi.yml
 - filename: contrast-security-organizations-api-openapi.yml
   format: yaml
   label: Contrast Security Organizations API
   slug: contrast-security-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/openapi/contrast-security-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/contrast-security/openapi/contrast-security-organizations-api-openapi.yml
 - filename: contrast-security-rules-api-openapi.yml
   format: yaml
   label: Contrast Security Rules API
   slug: contrast-security-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/openapi/contrast-security-rules-api-openapi.yml
+  url: https://artifacts.apis.io/contrast-security/openapi/contrast-security-rules-api-openapi.yml
 - filename: contrast-security-vulnerabilities-api-openapi.yml
   format: yaml
   label: Contrast Security Vulnerabilities API
   slug: contrast-security-vulnerabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/openapi/contrast-security-vulnerabilities-api-openapi.yml
+  url: https://artifacts.apis.io/contrast-security/openapi/contrast-security-vulnerabilities-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: contrast-security-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.contrastsecurity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 19 23:37:48 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.contrastsecurity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 17:00:26 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.contrastsecurity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 17:00:26 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: contrastsecurity.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/security/contrast-security-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/contrast-security/security/contrast-security-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Application Security

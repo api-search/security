@@ -7,61 +7,61 @@ api_specs:
   label: FlightFinder Aircraft API
   slug: flightfinder-aircraft-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightfinder/refs/heads/main/openapi/flightfinder-aircraft-api-openapi.yml
+  url: https://artifacts.apis.io/flightfinder/openapi/flightfinder-aircraft-api-openapi.yml
 - filename: flightfinder-airports-api-openapi.yml
   format: yaml
   label: FlightFinder Airports API
   slug: flightfinder-airports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightfinder/refs/heads/main/openapi/flightfinder-airports-api-openapi.yml
+  url: https://artifacts.apis.io/flightfinder/openapi/flightfinder-airports-api-openapi.yml
 - filename: flightfinder-drone-sightings-api-openapi.yml
   format: yaml
   label: FlightFinder Drone Sightings API
   slug: flightfinder-drone-sightings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightfinder/refs/heads/main/openapi/flightfinder-drone-sightings-api-openapi.yml
+  url: https://artifacts.apis.io/flightfinder/openapi/flightfinder-drone-sightings-api-openapi.yml
 - filename: flightfinder-events-api-openapi.yml
   format: yaml
   label: FlightFinder Events API
   slug: flightfinder-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightfinder/refs/heads/main/openapi/flightfinder-events-api-openapi.yml
+  url: https://artifacts.apis.io/flightfinder/openapi/flightfinder-events-api-openapi.yml
 - filename: flightfinder-keys-api-openapi.yml
   format: yaml
   label: FlightFinder Keys API
   slug: flightfinder-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightfinder/refs/heads/main/openapi/flightfinder-keys-api-openapi.yml
+  url: https://artifacts.apis.io/flightfinder/openapi/flightfinder-keys-api-openapi.yml
 - filename: flightfinder-laser-strikes-api-openapi.yml
   format: yaml
   label: FlightFinder Laser Strikes API
   slug: flightfinder-laser-strikes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightfinder/refs/heads/main/openapi/flightfinder-laser-strikes-api-openapi.yml
+  url: https://artifacts.apis.io/flightfinder/openapi/flightfinder-laser-strikes-api-openapi.yml
 - filename: flightfinder-narratives-api-openapi.yml
   format: yaml
   label: FlightFinder Narratives API
   slug: flightfinder-narratives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightfinder/refs/heads/main/openapi/flightfinder-narratives-api-openapi.yml
+  url: https://artifacts.apis.io/flightfinder/openapi/flightfinder-narratives-api-openapi.yml
 - filename: flightfinder-ping-api-openapi.yml
   format: yaml
   label: FlightFinder Ping API
   slug: flightfinder-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightfinder/refs/heads/main/openapi/flightfinder-ping-api-openapi.yml
+  url: https://artifacts.apis.io/flightfinder/openapi/flightfinder-ping-api-openapi.yml
 - filename: flightfinder-sources-api-openapi.yml
   format: yaml
   label: FlightFinder Sources API
   slug: flightfinder-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightfinder/refs/heads/main/openapi/flightfinder-sources-api-openapi.yml
+  url: https://artifacts.apis.io/flightfinder/openapi/flightfinder-sources-api-openapi.yml
 - filename: flightfinder-wildlife-strikes-api-openapi.yml
   format: yaml
   label: FlightFinder Wildlife Strikes API
   slug: flightfinder-wildlife-strikes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightfinder/refs/heads/main/openapi/flightfinder-wildlife-strikes-api-openapi.yml
+  url: https://artifacts.apis.io/flightfinder/openapi/flightfinder-wildlife-strikes-api-openapi.yml
 auth_types:
 - http
 - none
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-09-03'\nmethod: searched\nsource: >-\n  https://h
   \ management routes this is the account\n    JWT instead — the API key itself cannot create or revoke keys.\n  applies_to: all operations (declared as the top-level security requirement)\n  sources:\n  - openapi/flightfinder-aviation-safety-data-openapi.json\n  - https://himaxym.com/developers\n- name: keyless\n  type: none\n  description: >-\n    Documented anonymous tier. Every GET data endpoint answers with no Authorization\n    header at 100 requests/day/IP. Confirmed live 2026-09-03:\n    `curl 'https://himaxym.com/api/v1/data/events?limit=1'` returned HTTP 200 with\n    real records and no credential.\n  applies_to: all GET data endpoints\n  sources:\n  - https://himaxym.com/developers\ntoken_types:\n- name: API key\n  format: opaque bearer token\n  issued_by: POST /keys\n  issued_to: a himaxym.com account\n  shown: once — only a hash is stored server-side\n  max_active: 5 per account\n  revoke: DELETE /keys/{id}\n  propagation: a new key or a pro upgrade can take up to 5 minutes\
   \ to reach every worker\n- name: account JWT\n  format: JWT\n  used_for: the /keys management routes only (POST /keys, GET /keys, DELETE /keys/{id})\n  note: >-\n    An API key cannot create or revoke keys — the /keys routes require the account\n    token, and they return a different error envelope\n    ({\"success\":false,\"message\":\"Unauthorized\"}) than the data routes.\nprohibited:\n  query_string_key:\n    supported: false\n    status: 401\n    code: query_key_unsupported\n    reason_published: >-\n      \"query strings end up in access logs and browser history\" (OpenAPI\n      info.description and the /developers Authentication note)\n    observed: >-\n      GET https://himaxym.com/api/v1/data/events?limit=1&api_key=foo returned 401\n      {\"error\":{\"code\":\"query_key_unsupported\", ...}} on 2026-09-03\noauth2: false\nopenid_connect: false\nmutual_tls: false\nscopes:\n  supported: false\n  note: >-\n    No scope surface exists. Access is tiered by plan (keyless / free key\
   \ / pro key),\n    not by scope, so scopes/ is intentionally absent rather than empty.\nerrors:\n- code: bad_key\n  status: 401\n  message: unknown or revoked API key\n  observed: true\n- code: query_key_unsupported\n  status: 401\n  message: 'passing the key as ?api_key= is no longer supported — send it as an Authorization: Bearer header'\n  observed: true\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flightfinder/refs/heads/main/authentication/flightfinder-authentication.yml
+source_yaml_url: https://artifacts.apis.io/flightfinder/authentication/flightfinder-authentication.yml
 summary_line: http/none · 2 schemes
 tags:
 - Aviation

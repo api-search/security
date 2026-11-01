@@ -5,19 +5,19 @@ api_specs:
   label: Rook Buckets API
   slug: rook-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rook/refs/heads/main/openapi/rook-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/rook/openapi/rook-buckets-api-openapi.yml
 - filename: rook-multipart-uploads-api-openapi.yml
   format: yaml
   label: Rook Multipart Uploads API
   slug: rook-multipart-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rook/refs/heads/main/openapi/rook-multipart-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/rook/openapi/rook-multipart-uploads-api-openapi.yml
 - filename: rook-objects-api-openapi.yml
   format: yaml
   label: Rook Objects API
   slug: rook-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rook/refs/heads/main/openapi/rook-objects-api-openapi.yml
+  url: https://artifacts.apis.io/rook/openapi/rook-objects-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: rook-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: rook.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\ndomains:\n- domain: rook.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rook/refs/heads/main/security/rook-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rook/security/rook-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Block Storage

@@ -5,37 +5,37 @@ api_specs:
   label: Swoogo Authentication API
   slug: swoogo-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swoogo/refs/heads/main/openapi/swoogo-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/swoogo/openapi/swoogo-authentication-api-openapi.yml
 - filename: swoogo-contacts-api-openapi.yml
   format: yaml
   label: Swoogo Contacts API
   slug: swoogo-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swoogo/refs/heads/main/openapi/swoogo-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/swoogo/openapi/swoogo-contacts-api-openapi.yml
 - filename: swoogo-events-api-openapi.yml
   format: yaml
   label: Swoogo Events API
   slug: swoogo-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swoogo/refs/heads/main/openapi/swoogo-events-api-openapi.yml
+  url: https://artifacts.apis.io/swoogo/openapi/swoogo-events-api-openapi.yml
 - filename: swoogo-registrants-api-openapi.yml
   format: yaml
   label: Swoogo Registrants API
   slug: swoogo-registrants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swoogo/refs/heads/main/openapi/swoogo-registrants-api-openapi.yml
+  url: https://artifacts.apis.io/swoogo/openapi/swoogo-registrants-api-openapi.yml
 - filename: swoogo-sessions-api-openapi.yml
   format: yaml
   label: Swoogo Sessions API
   slug: swoogo-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swoogo/refs/heads/main/openapi/swoogo-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/swoogo/openapi/swoogo-sessions-api-openapi.yml
 - filename: swoogo-speakers-api-openapi.yml
   format: yaml
   label: Swoogo Speakers API
   slug: swoogo-speakers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swoogo/refs/heads/main/openapi/swoogo-speakers-api-openapi.yml
+  url: https://artifacts.apis.io/swoogo/openapi/swoogo-speakers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -80,7 +80,7 @@ source_filename: swoogo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: swoogo.events\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 05:33:04 2026 GMT\n  hsts: false\n- host: swoogo.readme.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 13:12:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.swoogo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 12 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: swoogo.events\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n- domain: readme.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swoogo/refs/heads/main/security/swoogo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/swoogo/security/swoogo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Event Management

@@ -5,127 +5,127 @@ api_specs:
   label: Shift4 3D Secure API
   slug: shift4-3d-secure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-3d-secure-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-3d-secure-api-openapi.yml
 - filename: shift4-ach-api-openapi.yml
   format: yaml
   label: Shift4 ACH API
   slug: shift4-ach-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-ach-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-ach-api-openapi.yml
 - filename: shift4-batches-api-openapi.yml
   format: yaml
   label: Shift4 Batches API
   slug: shift4-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-batches-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-batches-api-openapi.yml
 - filename: shift4-cards-api-openapi.yml
   format: yaml
   label: Shift4 Cards API
   slug: shift4-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-cards-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-cards-api-openapi.yml
 - filename: shift4-checkout-sessions-api-openapi.yml
   format: yaml
   label: Shift4 Checkout Sessions API
   slug: shift4-checkout-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-checkout-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-checkout-sessions-api-openapi.yml
 - filename: shift4-credentials-api-openapi.yml
   format: yaml
   label: Shift4 Credentials API
   slug: shift4-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-credentials-api-openapi.yml
 - filename: shift4-dcc-api-openapi.yml
   format: yaml
   label: Shift4 DCC API
   slug: shift4-dcc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-dcc-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-dcc-api-openapi.yml
 - filename: shift4-devices-api-openapi.yml
   format: yaml
   label: Shift4 Devices API
   slug: shift4-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-devices-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-devices-api-openapi.yml
 - filename: shift4-gift-cards-api-openapi.yml
   format: yaml
   label: Shift4 Gift Cards API
   slug: shift4-gift-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-gift-cards-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-gift-cards-api-openapi.yml
 - filename: shift4-merchants-api-openapi.yml
   format: yaml
   label: Shift4 Merchants API
   slug: shift4-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-merchants-api-openapi.yml
 - filename: shift4-mode-api-openapi.yml
   format: yaml
   label: Shift4 Mode API
   slug: shift4-mode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-mode-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-mode-api-openapi.yml
 - filename: shift4-oct-api-openapi.yml
   format: yaml
   label: Shift4 OCT API
   slug: shift4-oct-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-oct-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-oct-api-openapi.yml
 - filename: shift4-payment-links-api-openapi.yml
   format: yaml
   label: Shift4 Payment Links API
   slug: shift4-payment-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-payment-links-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-payment-links-api-openapi.yml
 - filename: shift4-qr-payments-api-openapi.yml
   format: yaml
   label: Shift4 QR Payments API
   slug: shift4-qr-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-qr-payments-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-qr-payments-api-openapi.yml
 - filename: shift4-reports-api-openapi.yml
   format: yaml
   label: Shift4 Reports API
   slug: shift4-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-reports-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-reports-api-openapi.yml
 - filename: shift4-risk-api-openapi.yml
   format: yaml
   label: Shift4 Risk API
   slug: shift4-risk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-risk-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-risk-api-openapi.yml
 - filename: shift4-rule-api-openapi.yml
   format: yaml
   label: Shift4 Rule API
   slug: shift4-rule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-rule-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-rule-api-openapi.yml
 - filename: shift4-tokens-api-openapi.yml
   format: yaml
   label: Shift4 Tokens API
   slug: shift4-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-tokens-api-openapi.yml
 - filename: shift4-transactions-api-openapi.yml
   format: yaml
   label: Shift4 Transactions API
   slug: shift4-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-transactions-api-openapi.yml
 - filename: shift4-updater-api-openapi.yml
   format: yaml
   label: Shift4 Updater API
   slug: shift4-updater-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-updater-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-updater-api-openapi.yml
 - filename: shift4-pay-pal-api-openapi.yml
   format: yaml
   label: Shift4 Pay Pal API
   slug: shift4-pay-pal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-pay-pal-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-pay-pal-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -169,7 +169,7 @@ source_filename: shift4-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-24'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.shift4.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 06:56:58 2026 GMT\n  hsts: null\n- host: docs.shift4.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 19:50:59 2026 GMT\n  hsts: false\n- host: api.shift4api.net\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  7 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: shift4.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: shift4api.net\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/security/shift4-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/shift4/security/shift4-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Payments

@@ -7,19 +7,19 @@ api_specs:
   label: Ultrahuman Metrics API
   slug: ultrahuman-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/openapi/ultrahuman-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/ultrahuman/openapi/ultrahuman-metrics-api-openapi.yml
 - filename: ultrahuman-user-api-openapi.yml
   format: yaml
   label: Ultrahuman User API
   slug: ultrahuman-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/openapi/ultrahuman-user-api-openapi.yml
+  url: https://artifacts.apis.io/ultrahuman/openapi/ultrahuman-user-api-openapi.yml
 - filename: ultrahuman-oauth-api-openapi.yml
   format: yaml
   label: Ultrahuman O Auth API
   slug: ultrahuman-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/openapi/ultrahuman-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/ultrahuman/openapi/ultrahuman-oauth-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: ultrahuman-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ultrahuman-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth 2.0 access token in the Authorization header.\n  sources:\n  - openapi/ultrahuman-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/authentication/ultrahuman-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ultrahuman/authentication/ultrahuman-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Wearables

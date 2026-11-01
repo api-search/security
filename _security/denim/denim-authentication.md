@@ -8,37 +8,37 @@ api_specs:
   label: Denim Companies API
   slug: denim-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/openapi/denim-companies-api-openapi.yml
+  url: https://artifacts.apis.io/denim/openapi/denim-companies-api-openapi.yml
 - filename: denim-debtors-api-openapi.yml
   format: yaml
   label: Denim Debtors API
   slug: denim-debtors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/openapi/denim-debtors-api-openapi.yml
+  url: https://artifacts.apis.io/denim/openapi/denim-debtors-api-openapi.yml
 - filename: denim-jobs-api-openapi.yml
   format: yaml
   label: Denim Jobs API
   slug: denim-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/openapi/denim-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/denim/openapi/denim-jobs-api-openapi.yml
 - filename: denim-jobs-v2-api-openapi.yml
   format: yaml
   label: Denim Jobs V2 API
   slug: denim-jobs-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/openapi/denim-jobs-v2-api-openapi.yml
+  url: https://artifacts.apis.io/denim/openapi/denim-jobs-v2-api-openapi.yml
 - filename: denim-payees-api-openapi.yml
   format: yaml
   label: Denim Payees API
   slug: denim-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/openapi/denim-payees-api-openapi.yml
+  url: https://artifacts.apis.io/denim/openapi/denim-payees-api-openapi.yml
 - filename: denim-transactions-api-openapi.yml
   format: yaml
   label: Denim Transactions API
   slug: denim-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/openapi/denim-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/denim/openapi/denim-transactions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -65,7 +65,7 @@ source_filename: denim-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/denim-openapi-original.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: api_key\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/denim-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/authentication/denim-authentication.yml
+source_yaml_url: https://artifacts.apis.io/denim/authentication/denim-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

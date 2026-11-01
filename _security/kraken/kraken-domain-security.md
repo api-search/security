@@ -5,85 +5,97 @@ api_specs:
   label: Kraken Spot WebSocket API v2
   slug: kraken-spot-websocket-api-v2
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/asyncapi/kraken-asyncapi.yml
+  url: https://artifacts.apis.io/kraken/asyncapi/kraken-asyncapi.yml
 - filename: kraken-earn-api-openapi.yml
   format: yaml
   label: Kraken Earn API
   slug: kraken-earn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-earn-api-openapi.yml
+  url: https://artifacts.apis.io/kraken/openapi/kraken-earn-api-openapi.yml
 - filename: kraken-account-api-openapi.yml
   format: yaml
   label: Kraken Account API
   slug: kraken-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-account-api-openapi.yml
+  url: https://artifacts.apis.io/kraken/openapi/kraken-account-api-openapi.yml
 - filename: kraken-account-data-api-openapi.yml
   format: yaml
   label: Kraken Account Data API
   slug: kraken-account-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-account-data-api-openapi.yml
+  url: https://artifacts.apis.io/kraken/openapi/kraken-account-data-api-openapi.yml
 - filename: kraken-auth-api-openapi.yml
   format: yaml
   label: Kraken Auth API
   slug: kraken-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-auth-api-openapi.yml
+  url: https://artifacts.apis.io/kraken/openapi/kraken-auth-api-openapi.yml
 - filename: kraken-charts-api-openapi.yml
   format: yaml
   label: Kraken Charts API
   slug: kraken-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-charts-api-openapi.yml
+  url: https://artifacts.apis.io/kraken/openapi/kraken-charts-api-openapi.yml
 - filename: kraken-earn-api-openapi.yml
   format: yaml
   label: Kraken Earn API
   slug: kraken-earn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-earn-api-openapi.yml
+  url: https://artifacts.apis.io/kraken/openapi/kraken-earn-api-openapi.yml
 - filename: kraken-funding-api-openapi.yml
   format: yaml
   label: Kraken Funding API
   slug: kraken-funding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-funding-api-openapi.yml
+  url: https://artifacts.apis.io/kraken/openapi/kraken-funding-api-openapi.yml
 - filename: kraken-history-api-openapi.yml
   format: yaml
   label: Kraken History API
   slug: kraken-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-history-api-openapi.yml
+  url: https://artifacts.apis.io/kraken/openapi/kraken-history-api-openapi.yml
 - filename: kraken-market-data-api-openapi.yml
   format: yaml
   label: Kraken Market Data API
   slug: kraken-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/kraken/openapi/kraken-market-data-api-openapi.yml
 - filename: kraken-subaccounts-api-openapi.yml
   format: yaml
   label: Kraken Subaccounts API
   slug: kraken-subaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-subaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/kraken/openapi/kraken-subaccounts-api-openapi.yml
 - filename: kraken-trading-api-openapi.yml
   format: yaml
   label: Kraken Trading API
   slug: kraken-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-trading-api-openapi.yml
+  url: https://artifacts.apis.io/kraken/openapi/kraken-trading-api-openapi.yml
 - filename: kraken-transfers-api-openapi.yml
   format: yaml
   label: Kraken Transfers API
   slug: kraken-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/kraken/openapi/kraken-transfers-api-openapi.yml
 - filename: kraken-websocket-api-openapi.yml
   format: yaml
   label: Kraken WebSocket API
   slug: kraken-websocket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-websocket-api-openapi.yml
+  url: https://artifacts.apis.io/kraken/openapi/kraken-websocket-api-openapi.yml
+- filename: kraken-funding-beta-api-openapi.yml
+  format: yaml
+  label: Kraken Funding Beta API
+  slug: kraken-funding-beta-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kraken/openapi/kraken-funding-beta-api-openapi.yml
+- filename: kraken-transparency-api-openapi.yml
+  format: yaml
+  label: Kraken Transparency API
+  slug: kraken-transparency-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kraken/openapi/kraken-transparency-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -128,7 +140,7 @@ source_filename: kraken-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.kraken.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 00:33:58 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.kraken.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 08:05:46 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.kraken.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 10:41:00 2026 GMT\n  hsts: null\ndomains:\n- domain: kraken.com\n  dnssec: true\n  caa:\n  - 0 iodef \"mailto:certificate-abuse@kraken.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/security/kraken-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kraken/security/kraken-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Kraken

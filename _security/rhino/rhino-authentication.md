@@ -7,31 +7,31 @@ api_specs:
   label: Rhino Authentication API
   slug: rhino-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhino/refs/heads/main/openapi/rhino-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/rhino/openapi/rhino-authentication-api-openapi.yml
 - filename: rhino-partnerapi-v2-test-resident-api-openapi.yml
   format: yaml
   label: Rhino Partner Api::V2::Test::Resident API
   slug: rhino-partnerapi-v2-test-resident-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhino/refs/heads/main/openapi/rhino-partnerapi-v2-test-resident-api-openapi.yml
+  url: https://artifacts.apis.io/rhino/openapi/rhino-partnerapi-v2-test-resident-api-openapi.yml
 - filename: rhino-partnerapi-v2-test-sayrhinouser-api-openapi.yml
   format: yaml
   label: Rhino Partner Api::V2::Test::Sayrhino User API
   slug: rhino-partnerapi-v2-test-sayrhinouser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhino/refs/heads/main/openapi/rhino-partnerapi-v2-test-sayrhinouser-api-openapi.yml
+  url: https://artifacts.apis.io/rhino/openapi/rhino-partnerapi-v2-test-sayrhinouser-api-openapi.yml
 - filename: rhino-prospects-api-openapi.yml
   format: yaml
   label: Rhino Prospects API
   slug: rhino-prospects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhino/refs/heads/main/openapi/rhino-prospects-api-openapi.yml
+  url: https://artifacts.apis.io/rhino/openapi/rhino-prospects-api-openapi.yml
 - filename: rhino-webhooks-api-openapi.yml
   format: yaml
   label: Rhino Webhooks API
   slug: rhino-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhino/refs/heads/main/openapi/rhino-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/rhino/openapi/rhino-webhooks-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -84,7 +84,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: searched\nsource: openapi/rhino-partner-api-openapi.json\ndocs: https://api.prod.sayrhino.com/docs\nsummary:\n  types:\n  - http\n  - oauth2\n  api_key_in: []\n  oauth2_flows:\n  - clientCredentials\n  notes: >-\n    The OpenAPI declares a single securityScheme (http bearer, JWT) applied globally,\n    but the token is minted by a first-class OAuth 2.0 client-credentials endpoint\n    documented in the same spec (POST /token). The spec does not model that endpoint\n    as an oauth2 securityScheme, so the mechanical derive saw only the bearer half —\n    this file records both halves of the real contract.\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  applied: global\n  sources:\n  - openapi/rhino-partner-api-openapi.json\n- name: partnerTokenEndpoint\n  type: oauth2\n  flow: clientCredentials\n  token_url: https://api.prod.sayrhino.com/token\n  security: []\n  request:\n    content_type: application/json\n\
   \    grant_type: client_credentials\n    required:\n    - client_id\n    - client_secret\n    - grant_type\n    - audience\n    audience: API identifier provided during partner onboarding\n  response:\n    access_token: string\n    token_type: Bearer\n    expires_in: integer (token lifetime in seconds)\n    scope: string\n  sources:\n  - openapi/rhino-partner-api-openapi.json#/paths/~1token/post\nonboarding:\n  self_service: false\n  notes: >-\n    Credentials (client_id, client_secret, audience, and the partner owner_slug that\n    appears in every resource path) are issued by Rhino during partner onboarding via a\n    Partner Success representative. There is no public developer sign-up for the\n    Partner API.\n  portal: https://portal.sayrhino.com/users/sign_in\nobserved:\n- request: POST https://api.prod.sayrhino.com/token (empty body, unauthenticated)\n  http_status: 401\n  body: '{\"error\":\"access_denied\",\"error_description\":\"Unauthorized\"}'\n- request: GET https://api.prod.sayrhino.com/partners/{owner_slug}/prospects/{source}/{id}\n\
   \    (unauthenticated)\n  http_status: 401\n  body: '{\"message\":\"Unauthorized\"}'\nx-evidence:\n  fetched: '2026-08-02'\n  url: https://api.prod.sayrhino.com/openapi.json\n  http_status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rhino/refs/heads/main/authentication/rhino-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rhino/authentication/rhino-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Insurance

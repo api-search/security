@@ -15,7 +15,7 @@ source_filename: replay-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nprobe: true\nurl: https://www.replay.io/blog/replay-achieves-soc2\ncertifications: [SOC 2 Type 2]\nevidence:\n  - {source: https://www.replay.io/blog/replay-achieves-soc2, keywords: [soc 2, soc2 type 2, security controls, auditors]}\n  - {source: https://www.replay.io/privacy-policy, keywords: [security, security@replay.io, security patches]}\nnotes: >\n  Replay achieved SOC 2 Type 2 (announced on the Replay blog). Security posture and the\n  security@replay.io contact are documented on the Security & Privacy page; no dedicated\n  trust.replay.io portal was found.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/replay/refs/heads/main/security/replay-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/replay/security/replay-trust-center.yml
 summary_line: SOC 2 Type 2
 tags:
 - Company

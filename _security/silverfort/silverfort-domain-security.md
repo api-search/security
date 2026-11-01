@@ -43,7 +43,7 @@ source_filename: silverfort-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.silverfort.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 01:44:57 2026 GMT\n  hsts: false\n- host: docs.silverfort.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 10:31:31 2026 GMT\n  hsts: null\n- host: raven.silverfort.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov  6 09:02:53 2026 GMT\n  hsts: false\ndomains:\n- domain: silverfort.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: silverfort.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/silverfort/refs/heads/main/security/silverfort-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/silverfort/security/silverfort-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

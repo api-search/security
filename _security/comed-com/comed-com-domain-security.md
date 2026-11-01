@@ -28,7 +28,7 @@ source_filename: comed-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.comed.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 10886400\ndomains:\n- domain: comed.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/comed-com/refs/heads/main/security/comed-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/comed-com/security/comed-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

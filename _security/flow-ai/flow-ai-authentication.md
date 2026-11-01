@@ -41,7 +41,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://flow-ai.com/docs\nsummary:\n  model: bring-your-own-keys\n  types:\n  - provider-api-key\n  - sso\n  notes: >-\n    flowai-harness runs inside the host's own infrastructure, so there is no\n    Flow-AI-issued end-user API credential. Agents authenticate to model providers\n    with the host's own keys (e.g. ANTHROPIC_API_KEY, OpenAI, Bedrock, Azure,\n    Vertex) supplied via environment/config, and to warehouses with the host's own\n    connection credentials. The Production tier adds multi-user Studio with SSO/RBAC\n    and a credential vault for managing those secrets.\nschemes:\n- name: model-provider-keys\n  type: apiKey\n  in: env\n  location: environment variables / runtime config\n  example_names:\n  - ANTHROPIC_API_KEY\n  scope: model provider access for live runs\n  sources:\n  - https://flow-ai.com/docs\n- name: studio-sso\n  type: sso\n  tier: production\n  capabilities:\n  - SSO\n  - RBAC\n  - credential-vault\n\
   \  sources:\n  - https://flow-ai.com/pricing\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flow-ai/refs/heads/main/authentication/flow-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/flow-ai/authentication/flow-ai-authentication.yml
 summary_line: provider-api-key/sso · 2 schemes
 tags:
 - Company

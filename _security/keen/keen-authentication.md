@@ -8,37 +8,37 @@ api_specs:
   label: Keen Cached Queries API
   slug: cached-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/openapi/keen-cached-queries-api-openapi.yml
+  url: https://artifacts.apis.io/keen/openapi/keen-cached-queries-api-openapi.yml
 - filename: keen-saved-queries-api-openapi.yml
   format: yaml
   label: Keen Saved Queries API
   slug: saved-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/openapi/keen-saved-queries-api-openapi.yml
+  url: https://artifacts.apis.io/keen/openapi/keen-saved-queries-api-openapi.yml
 - filename: keen-collections-api-openapi.yml
   format: yaml
   label: Keen Collections API
   slug: keen-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/openapi/keen-collections-api-openapi.yml
+  url: https://artifacts.apis.io/keen/openapi/keen-collections-api-openapi.yml
 - filename: keen-events-api-openapi.yml
   format: yaml
   label: Keen Events API
   slug: keen-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/openapi/keen-events-api-openapi.yml
+  url: https://artifacts.apis.io/keen/openapi/keen-events-api-openapi.yml
 - filename: keen-extractions-api-openapi.yml
   format: yaml
   label: Keen Extractions API
   slug: keen-extractions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/openapi/keen-extractions-api-openapi.yml
+  url: https://artifacts.apis.io/keen/openapi/keen-extractions-api-openapi.yml
 - filename: keen-queries-api-openapi.yml
   format: yaml
   label: Keen Queries API
   slug: keen-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/openapi/keen-queries-api-openapi.yml
+  url: https://artifacts.apis.io/keen/openapi/keen-queries-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -70,7 +70,7 @@ source_filename: keen-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/keen-cached-queries-api-openapi.yml, openapi/keen-data-extraction-api-openapi.yml,\n  openapi/keen-event-collection-api-openapi.yml, openapi/keen-query-api-openapi.yml, openapi/keen-saved-queries-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: masterKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Keen Master Key for management endpoints.\n  sources:\n  - openapi/keen-cached-queries-api-openapi.yml\n  - openapi/keen-data-extraction-api-openapi.yml\n  - openapi/keen-event-collection-api-openapi.yml\n  - openapi/keen-query-api-openapi.yml\n  - openapi/keen-saved-queries-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/authentication/keen-authentication.yml
+source_yaml_url: https://artifacts.apis.io/keen/authentication/keen-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Analytics

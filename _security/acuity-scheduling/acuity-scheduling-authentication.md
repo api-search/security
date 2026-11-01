@@ -13,19 +13,19 @@ api_specs:
   label: Acuity Scheduling Appointments API
   slug: acuity-scheduling-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuity-scheduling/refs/heads/main/openapi/acuity-scheduling-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/acuity-scheduling/openapi/acuity-scheduling-appointments-api-openapi.yml
 - filename: acuity-scheduling-meta-api-openapi.yml
   format: yaml
   label: Acuity Scheduling Meta API
   slug: acuity-scheduling-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuity-scheduling/refs/heads/main/openapi/acuity-scheduling-meta-api-openapi.yml
+  url: https://artifacts.apis.io/acuity-scheduling/openapi/acuity-scheduling-meta-api-openapi.yml
 - filename: acuity-scheduling-payments-api-openapi.yml
   format: yaml
   label: Acuity Scheduling Payments API
   slug: acuity-scheduling-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuity-scheduling/refs/heads/main/openapi/acuity-scheduling-payments-api-openapi.yml
+  url: https://artifacts.apis.io/acuity-scheduling/openapi/acuity-scheduling-payments-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: acuity-scheduling-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/acuity-scheduling-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic auth using your User ID as username and API Key as password\n  sources:\n  - openapi/acuity-scheduling-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acuity-scheduling/refs/heads/main/authentication/acuity-scheduling-authentication.yml
+source_yaml_url: https://artifacts.apis.io/acuity-scheduling/authentication/acuity-scheduling-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Appointment Scheduling

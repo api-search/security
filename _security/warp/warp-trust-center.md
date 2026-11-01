@@ -5,19 +5,19 @@ api_specs:
   label: Warp Agent API
   slug: warp-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warp/refs/heads/main/openapi/warp-agent-api-openapi.yml
+  url: https://artifacts.apis.io/warp/openapi/warp-agent-api-openapi.yml
 - filename: warp-harness-support-api-openapi.yml
   format: yaml
   label: Warp Harness Support API
   slug: warp-harness-support-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warp/refs/heads/main/openapi/warp-harness-support-api-openapi.yml
+  url: https://artifacts.apis.io/warp/openapi/warp-harness-support-api-openapi.yml
 - filename: warp-schedules-api-openapi.yml
   format: yaml
   label: Warp Schedules API
   slug: warp-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warp/refs/heads/main/openapi/warp-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/warp/openapi/warp-schedules-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2
@@ -34,7 +34,7 @@ source_filename: warp-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.warp.dev/legal/security\nurl: https://www.warp.dev/legal/security\ncertifications:\n- SOC 2\nevidence:\n- source: https://www.warp.dev/legal/security\n  keywords:\n  - soc 2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/warp/refs/heads/main/security/warp-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/warp/security/warp-trust-center.yml
 summary_line: SOC 2
 tags:
 - Developer Tools

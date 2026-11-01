@@ -14,13 +14,13 @@ source_filename: darktrace-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.darktrace.com/trust\nurl: https://www.darktrace.com/trust\nevidence:\n- source: https://www.darktrace.com/trust\n  keywords:\n  - trust center\n  - trust centre\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/darktrace/refs/heads/main/security/darktrace-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/darktrace/security/darktrace-trust-center.yml
 summary_line: trust center published
 tags:
 - Cybersecurity
 - Self-Learning AI
 - ActiveAI
-- NDR
+- Network Detection and Response
 - Email Security
 - Cloud Security
 - OT Security

@@ -7,37 +7,37 @@ api_specs:
   label: Forto Bookings API
   slug: forto-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forto/refs/heads/main/openapi/forto-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/forto/openapi/forto-bookings-api-openapi.yml
 - filename: forto-documents-api-openapi.yml
   format: yaml
   label: Forto Documents API
   slug: forto-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forto/refs/heads/main/openapi/forto-documents-api-openapi.yml
+  url: https://artifacts.apis.io/forto/openapi/forto-documents-api-openapi.yml
 - filename: forto-shipments-api-openapi.yml
   format: yaml
   label: Forto Shipments API
   slug: forto-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forto/refs/heads/main/openapi/forto-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/forto/openapi/forto-shipments-api-openapi.yml
 - filename: forto-subscriptions-api-openapi.yml
   format: yaml
   label: Forto Subscriptions API
   slug: forto-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forto/refs/heads/main/openapi/forto-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/forto/openapi/forto-subscriptions-api-openapi.yml
 - filename: forto-tokens-api-openapi.yml
   format: yaml
   label: Forto Tokens API
   slug: forto-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forto/refs/heads/main/openapi/forto-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/forto/openapi/forto-tokens-api-openapi.yml
 - filename: forto-transportplans-api-openapi.yml
   format: yaml
   label: Forto TransportPlans API
   slug: forto-transportplans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forto/refs/heads/main/openapi/forto-transportplans-api-openapi.yml
+  url: https://artifacts.apis.io/forto/openapi/forto-transportplans-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +64,7 @@ source_filename: forto-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/forto-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerToken\n  type: http\n  scheme: bearer\n  description: Bearer token issued via the /tokens endpoint.\n  sources:\n  - openapi/forto-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forto/refs/heads/main/authentication/forto-authentication.yml
+source_yaml_url: https://artifacts.apis.io/forto/authentication/forto-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Freight

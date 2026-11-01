@@ -44,7 +44,7 @@ source_filename: open-mainframe-project-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.openmainframeproject.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 05:33:38 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: www.zowe.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 19:23:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: galasa.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 12:30:23 2026 GMT\n  hsts: false\ndomains:\n- domain: openmainframeproject.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: zowe.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-mainframe-project/refs/heads/main/security/open-mainframe-project-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/open-mainframe-project/security/open-mainframe-project-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud-Native

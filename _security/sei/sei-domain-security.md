@@ -5,55 +5,55 @@ api_specs:
   label: Sei ABCI API
   slug: sei-abci-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/openapi/sei-abci-api-openapi.yml
+  url: https://artifacts.apis.io/sei/openapi/sei-abci-api-openapi.yml
 - filename: sei-events-api-openapi.yml
   format: yaml
   label: Sei Events API
   slug: sei-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/openapi/sei-events-api-openapi.yml
+  url: https://artifacts.apis.io/sei/openapi/sei-events-api-openapi.yml
 - filename: sei-evidence-api-openapi.yml
   format: yaml
   label: Sei Evidence API
   slug: sei-evidence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/openapi/sei-evidence-api-openapi.yml
+  url: https://artifacts.apis.io/sei/openapi/sei-evidence-api-openapi.yml
 - filename: sei-info-api-openapi.yml
   format: yaml
   label: Sei Info API
   slug: sei-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/openapi/sei-info-api-openapi.yml
+  url: https://artifacts.apis.io/sei/openapi/sei-info-api-openapi.yml
 - filename: sei-query-api-openapi.yml
   format: yaml
   label: Sei Query API
   slug: sei-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/openapi/sei-query-api-openapi.yml
+  url: https://artifacts.apis.io/sei/openapi/sei-query-api-openapi.yml
 - filename: sei-service-api-openapi.yml
   format: yaml
   label: Sei Service API
   slug: sei-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/openapi/sei-service-api-openapi.yml
+  url: https://artifacts.apis.io/sei/openapi/sei-service-api-openapi.yml
 - filename: sei-tx-api-openapi.yml
   format: yaml
   label: Sei Tx API
   slug: sei-tx-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/openapi/sei-tx-api-openapi.yml
+  url: https://artifacts.apis.io/sei/openapi/sei-tx-api-openapi.yml
 - filename: sei-unsafe-api-openapi.yml
   format: yaml
   label: Sei Unsafe API
   slug: sei-unsafe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/openapi/sei-unsafe-api-openapi.yml
+  url: https://artifacts.apis.io/sei/openapi/sei-unsafe-api-openapi.yml
 - filename: sei-websocket-api-openapi.yml
   format: yaml
   label: Sei Websocket API
   slug: sei-websocket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/openapi/sei-websocket-api-openapi.yml
+  url: https://artifacts.apis.io/sei/openapi/sei-websocket-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -99,7 +99,7 @@ source_filename: sei-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sei.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 01:36:58 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.sei.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 12:10:05 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: evm-rpc.sei-apis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 17:30:59 2026 GMT\n  hsts: null\ndomains:\n- domain: sei.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: sei-apis.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/security/sei-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sei/security/sei-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Blockchain

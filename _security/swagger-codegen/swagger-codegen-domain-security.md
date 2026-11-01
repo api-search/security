@@ -5,19 +5,19 @@ api_specs:
   label: Swagger Codegen Clients API
   slug: swagger-codegen-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/openapi/swagger-codegen-clients-api-openapi.yml
+  url: https://artifacts.apis.io/swagger-codegen/openapi/swagger-codegen-clients-api-openapi.yml
 - filename: swagger-codegen-documentation-api-openapi.yml
   format: yaml
   label: Swagger Codegen Documentation API
   slug: swagger-codegen-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/openapi/swagger-codegen-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/swagger-codegen/openapi/swagger-codegen-documentation-api-openapi.yml
 - filename: swagger-codegen-servers-api-openapi.yml
   format: yaml
   label: Swagger Codegen Servers API
   slug: swagger-codegen-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/openapi/swagger-codegen-servers-api-openapi.yml
+  url: https://artifacts.apis.io/swagger-codegen/openapi/swagger-codegen-servers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,10 +51,10 @@ source_filename: swagger-codegen-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: swagger.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 16:46:01 2026 GMT\n  hsts: false\n- host: generator3.swagger.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 27 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: swagger.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/security/swagger-codegen-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/swagger-codegen/security/swagger-codegen-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Client Libraries
+- Client Library
 - Code Generation
 - Open Source
 - OpenAPI

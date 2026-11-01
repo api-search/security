@@ -27,7 +27,7 @@ source_filename: calyxo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: calyxoinc.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 21:59:08 2026 GMT\n  hsts: false\ndomains:\n- domain: calyxoinc.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/calyxo/refs/heads/main/security/calyxo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/calyxo/security/calyxo-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Medical Devices

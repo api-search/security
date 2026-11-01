@@ -8,61 +8,61 @@ api_specs:
   label: Nile Auth API
   slug: thenile-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thenile/refs/heads/main/openapi/thenile-auth-api-openapi.yml
+  url: https://artifacts.apis.io/thenile/openapi/thenile-auth-api-openapi.yml
 - filename: thenile-authentication-api-openapi.yml
   format: yaml
   label: Nile Authentication API
   slug: thenile-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thenile/refs/heads/main/openapi/thenile-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/thenile/openapi/thenile-authentication-api-openapi.yml
 - filename: thenile-compute-api-openapi.yml
   format: yaml
   label: Nile Compute API
   slug: thenile-compute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thenile/refs/heads/main/openapi/thenile-compute-api-openapi.yml
+  url: https://artifacts.apis.io/thenile/openapi/thenile-compute-api-openapi.yml
 - filename: thenile-credentials-api-openapi.yml
   format: yaml
   label: Nile Credentials API
   slug: thenile-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thenile/refs/heads/main/openapi/thenile-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/thenile/openapi/thenile-credentials-api-openapi.yml
 - filename: thenile-databases-api-openapi.yml
   format: yaml
   label: Nile Databases API
   slug: thenile-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thenile/refs/heads/main/openapi/thenile-databases-api-openapi.yml
+  url: https://artifacts.apis.io/thenile/openapi/thenile-databases-api-openapi.yml
 - filename: thenile-developers-api-openapi.yml
   format: yaml
   label: Nile Developers API
   slug: thenile-developers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thenile/refs/heads/main/openapi/thenile-developers-api-openapi.yml
+  url: https://artifacts.apis.io/thenile/openapi/thenile-developers-api-openapi.yml
 - filename: thenile-internal-api-openapi.yml
   format: yaml
   label: Nile Internal API
   slug: thenile-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thenile/refs/heads/main/openapi/thenile-internal-api-openapi.yml
+  url: https://artifacts.apis.io/thenile/openapi/thenile-internal-api-openapi.yml
 - filename: thenile-tenants-api-openapi.yml
   format: yaml
   label: Nile Tenants API
   slug: thenile-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thenile/refs/heads/main/openapi/thenile-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/thenile/openapi/thenile-tenants-api-openapi.yml
 - filename: thenile-users-api-openapi.yml
   format: yaml
   label: Nile Users API
   slug: thenile-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thenile/refs/heads/main/openapi/thenile-users-api-openapi.yml
+  url: https://artifacts.apis.io/thenile/openapi/thenile-users-api-openapi.yml
 - filename: thenile-workspaces-api-openapi.yml
   format: yaml
   label: Nile Workspaces API
   slug: thenile-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thenile/refs/heads/main/openapi/thenile-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/thenile/openapi/thenile-workspaces-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -98,7 +98,7 @@ source_filename: thenile-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: derived\nsource: openapi/thenile-auth-openapi.yml, openapi/thenile-database-openapi.yml, openapi/thenile-global-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - cookie\nschemes:\n- name: sessionCookie\n  type: apiKey\n  in: cookie\n  parameter: nile-auth.session-token\n  description: Session token stored in a cookie after user signs in, prefixed with __Secure\n    if on https\n  sources:\n  - openapi/thenile-auth-openapi.yml\n- name: jwtBearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/thenile-database-openapi.yml\n  - openapi/thenile-global-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thenile/refs/heads/main/authentication/thenile-authentication.yml
+source_yaml_url: https://artifacts.apis.io/thenile/authentication/thenile-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

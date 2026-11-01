@@ -8,175 +8,175 @@ api_specs:
   label: Prisma Aggregation API
   slug: prisma-aggregation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-aggregation-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-aggregation-api-openapi.yml
 - filename: prisma-api-keys-api-openapi.yml
   format: yaml
   label: Prisma API Keys API
   slug: prisma-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-api-keys-api-openapi.yml
 - filename: prisma-batch-api-openapi.yml
   format: yaml
   label: Prisma Batch API
   slug: prisma-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-batch-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-batch-api-openapi.yml
 - filename: prisma-cache-api-openapi.yml
   format: yaml
   label: Prisma Cache API
   slug: prisma-cache-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-cache-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-cache-api-openapi.yml
 - filename: prisma-connections-api-openapi.yml
   format: yaml
   label: Prisma Connections API
   slug: prisma-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-connections-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-connections-api-openapi.yml
 - filename: prisma-crud-api-openapi.yml
   format: yaml
   label: Prisma CRUD API
   slug: prisma-crud-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-crud-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-crud-api-openapi.yml
 - filename: prisma-database-backups-api-openapi.yml
   format: yaml
   label: Prisma Database Backups API
   slug: prisma-database-backups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-database-backups-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-database-backups-api-openapi.yml
 - filename: prisma-database-usage-api-openapi.yml
   format: yaml
   label: Prisma Database Usage API
   slug: prisma-database-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-database-usage-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-database-usage-api-openapi.yml
 - filename: prisma-databases-api-openapi.yml
   format: yaml
   label: Prisma Databases API
   slug: prisma-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-databases-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-databases-api-openapi.yml
 - filename: prisma-environments-api-openapi.yml
   format: yaml
   label: Prisma Environments API
   slug: prisma-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-environments-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-environments-api-openapi.yml
 - filename: prisma-events-api-openapi.yml
   format: yaml
   label: Prisma Events API
   slug: prisma-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-events-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-events-api-openapi.yml
 - filename: prisma-health-api-openapi.yml
   format: yaml
   label: Prisma Health API
   slug: prisma-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-health-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-health-api-openapi.yml
 - filename: prisma-integrations-api-openapi.yml
   format: yaml
   label: Prisma Integrations API
   slug: prisma-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-integrations-api-openapi.yml
 - filename: prisma-members-api-openapi.yml
   format: yaml
   label: Prisma Members API
   slug: prisma-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-members-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-members-api-openapi.yml
 - filename: prisma-metrics-api-openapi.yml
   format: yaml
   label: Prisma Metrics API
   slug: prisma-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-metrics-api-openapi.yml
 - filename: prisma-projects-api-openapi.yml
   format: yaml
   label: Prisma Projects API
   slug: prisma-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-projects-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-projects-api-openapi.yml
 - filename: prisma-queries-api-openapi.yml
   format: yaml
   label: Prisma Queries API
   slug: prisma-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-queries-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-queries-api-openapi.yml
 - filename: prisma-raw-api-openapi.yml
   format: yaml
   label: Prisma Raw API
   slug: prisma-raw-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-raw-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-raw-api-openapi.yml
 - filename: prisma-recommendations-api-openapi.yml
   format: yaml
   label: Prisma Recommendations API
   slug: prisma-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-recommendations-api-openapi.yml
 - filename: prisma-sessions-api-openapi.yml
   format: yaml
   label: Prisma Sessions API
   slug: prisma-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-sessions-api-openapi.yml
 - filename: prisma-streams-api-openapi.yml
   format: yaml
   label: Prisma Streams API
   slug: prisma-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-streams-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-streams-api-openapi.yml
 - filename: prisma-subscriptions-api-openapi.yml
   format: yaml
   label: Prisma Subscriptions API
   slug: prisma-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-subscriptions-api-openapi.yml
 - filename: prisma-workspaces-api-openapi.yml
   format: yaml
   label: Prisma Workspaces API
   slug: prisma-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-workspaces-api-openapi.yml
 - filename: prisma-buckets-api-openapi.yml
   format: yaml
   label: Prisma Buckets API
   slug: prisma-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-buckets-api-openapi.yml
 - filename: prisma-databases-connections-api-openapi.yml
   format: yaml
   label: Prisma Databases Connections API
   slug: prisma-databases-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-databases-connections-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-databases-connections-api-openapi.yml
 - filename: prisma-experimental-api-openapi.yml
   format: yaml
   label: Prisma [Experimental] API
   slug: prisma-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-experimental-api-openapi.yml
 - filename: prisma-misc-api-openapi.yml
   format: yaml
   label: Prisma Misc API
   slug: prisma-misc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-misc-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-misc-api-openapi.yml
 - filename: prisma-regions-api-openapi.yml
   format: yaml
   label: Prisma Regions API
   slug: prisma-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-regions-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-regions-api-openapi.yml
 - filename: prisma-service-tokens-api-openapi.yml
   format: yaml
   label: Prisma Service Tokens API
   slug: prisma-service-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-service-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-service-tokens-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -246,7 +246,7 @@ source_yaml: "generated: '2026-09-17'\nmethod: searched\nsource: https://www.pri
   \ OAuth2 authentication\n  sources:\n  - openapi/prisma-postgres-management-api-openapi.json\ndocs: https://www.prisma.io/docs/rest-api/authentication\ncredentials:\n- kind: service-token\n  header: 'Authorization: Bearer <token>'\n  issued_from: Prisma Console -> workspace Settings -> Service Tokens\n  expiry: none\n  revocation: DELETE /v1/workspaces/{workspaceId}/service-tokens/{serviceTokenId}\n  management_operations:\n  - getV1WorkspacesByWorkspaceIdService-tokens\n  - postV1WorkspacesByWorkspaceIdService-tokens\n  - deleteV1WorkspacesByWorkspaceIdService-tokensByServiceTokenId\n  note: The docs warn explicitly that service tokens NEVER EXPIRE and a leaked token stays valid until\n    revoked. The token value is returned exactly once at creation and is never stored, so a caller that\n    loses it must mint a new one.\n  prefix: null\n  prefix_note: No documented test/live or environment prefix on the token value.\n- kind: oauth2\n  flow: authorization_code\n  pkce: S256\n  pkce_requirement:\
   \ mandatory for public clients; optional for confidential clients, but a flow started\n    with PKCE must complete with PKCE\n  authorization_url: https://auth.prisma.io/authorize\n  token_url: https://auth.prisma.io/token\n  discovery: https://auth.prisma.io/.well-known/oauth-authorization-server\n  dynamic_client_registration: https://auth.prisma.io/register\n  access_token_ttl: 1 hour\n  refresh: offline_access scope; single-use rotation with replay detection — reusing an invalidated refresh\n    token revokes every token on that authorization\n  scopes:\n  - workspace:admin\n  - offline_access\n  client_registration: Prisma Console -> Integrations -> Published Applications -> New Application\n  dev_redirect_uris:\n  - localhost (any port)\n  - 127.0.0.1 (any port)\n  - '[::1] (any port)'\n  token_endpoint_auth_methods:\n  - client_secret_basic\n  - client_secret_post\n  - none\n- kind: oidc-workload-federation\n  operation: postV1AuthGithub-actionsToken\n  path: /v1/auth/github-actions/token\n\
   \  stability: experimental\n  note: Exchanges a GitHub Actions OIDC token for a workspace service token — keyless CI auth.\ndeprecated_schemes:\n- name: apiKeyAuth\n  note: Carried only by the nine per-tag specs split from the earlier Accelerate/Pulse/Optimize source\n    documents in openapi/_original/. Those products are no longer in the advertised line and this scheme\n    does not appear in the provider-published Management API contract. Kept as history, not asserted as\n    current.\nmtls: false\nopenid_connect: false\nopenid_connect_note: No /.well-known/openid-configuration is served on any Prisma host (all 404).\ncross_reference:\n- scopes/prisma-scopes.yml\n- conventions/prisma-conventions.yml\n- well-known/prisma-well-known.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/authentication/prisma-authentication.yml
+source_yaml_url: https://artifacts.apis.io/prisma/authentication/prisma-authentication.yml
 summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Database

@@ -8,7 +8,7 @@ api_specs:
   label: ImgBB Images API
   slug: imgbb-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imgbb/refs/heads/main/openapi/imgbb-images-api-openapi.yml
+  url: https://artifacts.apis.io/imgbb/openapi/imgbb-images-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: imgbb-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/imgbb-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyQuery\n  type: apiKey\n  in: query\n  parameter: key\n  description: API key obtained from your ImgBB account settings at https://api.imgbb.com/.\n    Pass as a query parameter named `key`.\n  sources:\n  - openapi/imgbb-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imgbb/refs/heads/main/authentication/imgbb-authentication.yml
+source_yaml_url: https://artifacts.apis.io/imgbb/authentication/imgbb-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Image Hosting

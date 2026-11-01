@@ -13,43 +13,43 @@ api_specs:
   label: Census Destinations API
   slug: getcensus-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getcensus/refs/heads/main/openapi/getcensus-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/getcensus/openapi/getcensus-destinations-api-openapi.yml
 - filename: getcensus-models-api-openapi.yml
   format: yaml
   label: Census Models API
   slug: getcensus-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getcensus/refs/heads/main/openapi/getcensus-models-api-openapi.yml
+  url: https://artifacts.apis.io/getcensus/openapi/getcensus-models-api-openapi.yml
 - filename: getcensus-segments-api-openapi.yml
   format: yaml
   label: Census Segments API
   slug: getcensus-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getcensus/refs/heads/main/openapi/getcensus-segments-api-openapi.yml
+  url: https://artifacts.apis.io/getcensus/openapi/getcensus-segments-api-openapi.yml
 - filename: getcensus-sources-api-openapi.yml
   format: yaml
   label: Census Sources API
   slug: getcensus-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getcensus/refs/heads/main/openapi/getcensus-sources-api-openapi.yml
+  url: https://artifacts.apis.io/getcensus/openapi/getcensus-sources-api-openapi.yml
 - filename: getcensus-syncruns-api-openapi.yml
   format: yaml
   label: Census Sync Runs API
   slug: getcensus-syncruns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getcensus/refs/heads/main/openapi/getcensus-syncruns-api-openapi.yml
+  url: https://artifacts.apis.io/getcensus/openapi/getcensus-syncruns-api-openapi.yml
 - filename: getcensus-syncs-api-openapi.yml
   format: yaml
   label: Census Syncs API
   slug: getcensus-syncs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getcensus/refs/heads/main/openapi/getcensus-syncs-api-openapi.yml
+  url: https://artifacts.apis.io/getcensus/openapi/getcensus-syncs-api-openapi.yml
 - filename: getcensus-workspaces-api-openapi.yml
   format: yaml
   label: Census Workspaces API
   slug: getcensus-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getcensus/refs/heads/main/openapi/getcensus-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/getcensus/openapi/getcensus-workspaces-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://fivetra
   \    - personal-access-token\nschemes:\n  - name: workspaceBearerAuth\n    type: http\n    scheme: bearer\n    applies_to: Workspace APIs\n    description: >-\n      Workspace-scoped operations (syncs, sync runs, sources, models, topics, tables, destinations,\n      destination objects, destination types, connect links, webhooks) are authenticated with a\n      workspace API key presented as an HTTP Bearer token.\n    header: 'Authorization: Bearer <workspace-access-token>'\n    provisioning: >-\n      Open the workspace, then Workspace settings -> \"API Access\" to retrieve the workspace API key.\n    sources:\n      - https://fivetran.com/docs/activations/rest-api/api-reference/introduction/authorization.md\n  - name: organizationBearerAuth\n    type: http\n    scheme: bearer\n    applies_to: Organization APIs\n    description: >-\n      Organization-scoped operations (workspaces, workspace users, workspace variables, users,\n      invitations) are authenticated with a Personal Access\
   \ Token presented as an HTTP Bearer token.\n      A PAT carries the same permissions as the user who generated it, so admin operations such as\n      creating and managing workspaces require an admin user.\n    header: 'Authorization: Bearer <personal-access-token>'\n    provisioning: >-\n      User settings page (https://fivetran.com/dashboard/activations/home/user-settings) ->\n      \"Personal Access Tokens\" -> New Token.\n    sources:\n      - https://fivetran.com/docs/activations/rest-api/api-reference/introduction/authorization.md\nregions:\n  - name: US\n    base_url: https://app.getcensus.com\n    example: https://app.getcensus.com/api/v1/syncs\n  - name: EU\n    base_url: https://app-eu.getcensus.com\n    example: https://app-eu.getcensus.com/api/v1/syncs\nguidance:\n  - Tokens must never be embedded in client-side code or committed to a repository.\n  - A compromised token is regenerated or deleted from Fivetran Activations settings.\n  - >-\n    The Terraform provider reads\
   \ the organization Personal Access Token from the\n    CENSUS_PERSONAL_ACCESS_TOKEN environment variable and takes a region argument (us | eu | au).\ntransition:\n  note: >-\n    The Users and Invitations organization endpoints were deprecated on 2026-05-01 and are replaced\n    by Fivetran's own Users endpoints, which use Fivetran's standard auth mechanism rather than the\n    Activations workspace/personal token. Fivetran advises developers to run both key types in\n    parallel during the migration.\n  source: https://whatsnew.getcensus.com/activations-user-list-and-invitation-apis-deprecated-336835\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/getcensus/refs/heads/main/authentication/getcensus-authentication.yml
+source_yaml_url: https://artifacts.apis.io/getcensus/authentication/getcensus-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Sync

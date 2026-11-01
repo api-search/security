@@ -5,13 +5,13 @@ api_specs:
   label: Zenscrape Account API
   slug: zenscrape-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenscrape/refs/heads/main/openapi/zenscrape-account-api-openapi.yml
+  url: https://artifacts.apis.io/zenscrape/openapi/zenscrape-account-api-openapi.yml
 - filename: zenscrape-scrape-api-openapi.yml
   format: yaml
   label: Zenscrape Scrape API
   slug: zenscrape-scrape-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenscrape/refs/heads/main/openapi/zenscrape-scrape-api-openapi.yml
+  url: https://artifacts.apis.io/zenscrape/openapi/zenscrape-scrape-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: zenscrape-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: zenscrape.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 18:28:29 2026 GMT\n  hsts: false\n- host: app.zenscrape.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 18:28:29 2026 GMT\n  hsts: false\ndomains:\n- domain: zenscrape.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zenscrape/refs/heads/main/security/zenscrape-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zenscrape/security/zenscrape-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Web Scraping

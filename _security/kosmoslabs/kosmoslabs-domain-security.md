@@ -38,7 +38,7 @@ source_filename: kosmoslabs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: kosmoslabs.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 01:21:57 2026 GMT\n  hsts: false\n- host: docs.kosmoslabs.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 01:11:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: ingest.kosmoslabs.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 08:06:08 2026 GMT\n  hsts: null\ndomains:\n- domain: kosmoslabs.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kosmoslabs/refs/heads/main/security/kosmoslabs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kosmoslabs/security/kosmoslabs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

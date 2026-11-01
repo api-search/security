@@ -27,7 +27,7 @@ source_filename: weav-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://github.com/weav-ai/weavai-developer-library\ndocs: https://weav-ai.github.io/\nnotes: >-\n  Derived from the first-party weavaidev Python library source (no public\n  OpenAPI is published). Every service client sends\n  `Authorization: Bearer <auth_token>` with `Accept: application/json`. The\n  token is supplied as a workspace/environment secret (SecretStr auth_token)\n  alongside an `env` value that selects the tenant service host.\nsummary:\n  types:\n  - http\n  http_schemes:\n  - bearer\n  api_key_in: []\n  oauth2_flows: []\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    Bearer token passed in the Authorization header for all REST calls\n    (Authorization: Bearer <auth_token>). Tokens are environment/workspace\n    scoped; the SDK Config takes an auth_token (SecretStr) plus an env host.\n  sources:\n  - https://github.com/weav-ai/weavai-developer-library\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weav/refs/heads/main/authentication/weav-authentication.yml
+source_yaml_url: https://artifacts.apis.io/weav/authentication/weav-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

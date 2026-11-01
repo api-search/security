@@ -32,7 +32,7 @@ source_filename: next-trucking-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: nexttrucking.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 20:43:56 2026 GMT\n  hsts: false\n- host: svcs.us-west-2.prod.aws.nexttrucking.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 16 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: nexttrucking.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/next-trucking/refs/heads/main/security/next-trucking-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/next-trucking/security/next-trucking-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

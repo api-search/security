@@ -7,43 +7,43 @@ api_specs:
   label: G&C Mutual Bank Banking Account Balances API
   slug: gc-mutual-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gc-mutual-bank/refs/heads/main/openapi/gc-mutual-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/gc-mutual-bank/openapi/gc-mutual-bank-banking-account-balances-api-openapi.yml
 - filename: gc-mutual-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: G&C Mutual Bank Banking Account Direct Debits API
   slug: gc-mutual-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gc-mutual-bank/refs/heads/main/openapi/gc-mutual-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/gc-mutual-bank/openapi/gc-mutual-bank-banking-account-direct-debits-api-openapi.yml
 - filename: gc-mutual-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: G&C Mutual Bank Banking Account Scheduled Payments API
   slug: gc-mutual-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gc-mutual-bank/refs/heads/main/openapi/gc-mutual-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/gc-mutual-bank/openapi/gc-mutual-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: gc-mutual-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: G&C Mutual Bank Banking Account Transactions API
   slug: gc-mutual-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gc-mutual-bank/refs/heads/main/openapi/gc-mutual-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/gc-mutual-bank/openapi/gc-mutual-bank-banking-account-transactions-api-openapi.yml
 - filename: gc-mutual-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: G&C Mutual Bank Banking Accounts API
   slug: gc-mutual-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gc-mutual-bank/refs/heads/main/openapi/gc-mutual-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/gc-mutual-bank/openapi/gc-mutual-bank-banking-accounts-api-openapi.yml
 - filename: gc-mutual-bank-banking-payees-api-openapi.yml
   format: yaml
   label: G&C Mutual Bank Banking Payees API
   slug: gc-mutual-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gc-mutual-bank/refs/heads/main/openapi/gc-mutual-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/gc-mutual-bank/openapi/gc-mutual-bank-banking-payees-api-openapi.yml
 - filename: gc-mutual-bank-banking-products-api-openapi.yml
   format: yaml
   label: G&C Mutual Bank Banking Products API
   slug: gc-mutual-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gc-mutual-bank/refs/heads/main/openapi/gc-mutual-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/gc-mutual-bank/openapi/gc-mutual-bank-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -93,7 +93,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://consumerdatastandardsaustralia.github.io/standards/#security-profile\ndocs: https://unity.bank/about-us/corporate-information/open-banking/\nnote: >-\n  The harvested OpenAPI (shared DSB CDS CDR Banking API) declares no\n  components.securitySchemes, so no profile could be derived mechanically. This\n  profile is documented from the DSB Consumer Data Standards, which define the\n  auth model G&C Mutual Bank implements as a CDR Data Holder.\nsummary:\n  types: [none, oauth2, openIdConnect, mutualTLS]\n  surfaces:\n    public_product_reference_data: none\n    consumer_data: oauth2 + openIdConnect + mutualTLS (FAPI)\nschemes:\n  - name: PublicProductReferenceData\n    type: none\n    applies_to:\n      - GET /banking/products\n      - GET /banking/products/{productId}\n    description: >-\n      Product Reference Data is public and unauthenticated per CDR rules. No API\n      key, token, or client registration is required.\
   \ Only the x-v version header\n      is mandatory. Confirmed live returning HTTP 200.\n  - name: CDRConsumerDataAccess\n    type: oauth2\n    profile: FAPI 1.0 Advanced\n    flows:\n      - flow: authorizationCode\n        grant: OIDC hybrid (code id_token)\n        features:\n          - PAR (Pushed Authorization Requests)\n          - request object (signed)\n          - private_key_jwt or mutual-TLS client authentication\n          - PKCE\n    applies_to: consumer data (accounts, balances, transactions, direct-debits, scheduled-payments, payees)\n    gating: Restricted to Accredited Data Recipients (ADRs) with active consumer consent under the CDR.\n    description: >-\n      Consumer data is gated to accredited data recipients via the CDR InfoSec\n      profile: OAuth2 authorization-code + OIDC with holder-of-key mutual-TLS\n      tokens and consumer consent. Not exercised on the public PRD surface.\n  - name: MutualTLS\n    type: mutualTLS\n    applies_to: consumer data token and\
   \ resource endpoints\n    description: Holder-of-key sender-constrained access tokens over mutual TLS per CDR InfoSec.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gc-mutual-bank/refs/heads/main/authentication/gc-mutual-bank-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gc-mutual-bank/authentication/gc-mutual-bank-authentication.yml
 summary_line: none/oauth2/openIdConnect/mutualTLS · 3 schemes
 tags:
 - Finance

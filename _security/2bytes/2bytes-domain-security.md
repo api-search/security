@@ -27,7 +27,7 @@ source_filename: 2bytes-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.2bytescorp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 21:53:11 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: 2bytescorp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/2bytes/refs/heads/main/security/2bytes-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/2bytes/security/2bytes-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

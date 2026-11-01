@@ -5,19 +5,19 @@ api_specs:
   label: PDF Monkey Authentication API
   slug: pdf-monkey-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-monkey/refs/heads/main/openapi/pdf-monkey-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-monkey/openapi/pdf-monkey-authentication-api-openapi.yml
 - filename: pdf-monkey-documents-api-openapi.yml
   format: yaml
   label: PDF Monkey Documents API
   slug: pdf-monkey-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-monkey/refs/heads/main/openapi/pdf-monkey-documents-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-monkey/openapi/pdf-monkey-documents-api-openapi.yml
 - filename: pdf-monkey-templates-api-openapi.yml
   format: yaml
   label: PDF Monkey Templates API
   slug: pdf-monkey-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-monkey/refs/heads/main/openapi/pdf-monkey-templates-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-monkey/openapi/pdf-monkey-templates-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: pdf-monkey-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.pdfmonkey.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 20:26:14 2026 GMT\n  hsts: false\n- host: pdfmonkey.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 22:54:23 2026 GMT\n  hsts: false\n- host: api.pdfmonkey.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 09:41:09 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: pdfmonkey.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pdf-monkey/refs/heads/main/security/pdf-monkey-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pdf-monkey/security/pdf-monkey-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - PDF

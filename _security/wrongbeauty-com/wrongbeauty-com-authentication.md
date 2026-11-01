@@ -8,49 +8,49 @@ api_specs:
   label: WRONG BEAUTY 000 / THE SWARM Agents API
   slug: wrongbeauty-com-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-agents-api-openapi.yml
+  url: https://artifacts.apis.io/wrongbeauty-com/openapi/wrongbeauty-com-agents-api-openapi.yml
 - filename: wrongbeauty-com-contestation-api-openapi.yml
   format: yaml
   label: WRONG BEAUTY 000 / THE SWARM Contestation API
   slug: wrongbeauty-com-contestation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-contestation-api-openapi.yml
+  url: https://artifacts.apis.io/wrongbeauty-com/openapi/wrongbeauty-com-contestation-api-openapi.yml
 - filename: wrongbeauty-com-entry-api-openapi.yml
   format: yaml
   label: WRONG BEAUTY 000 / THE SWARM Entry API
   slug: wrongbeauty-com-entry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-entry-api-openapi.yml
+  url: https://artifacts.apis.io/wrongbeauty-com/openapi/wrongbeauty-com-entry-api-openapi.yml
 - filename: wrongbeauty-com-ledger-api-openapi.yml
   format: yaml
   label: WRONG BEAUTY 000 / THE SWARM Ledger API
   slug: wrongbeauty-com-ledger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-ledger-api-openapi.yml
+  url: https://artifacts.apis.io/wrongbeauty-com/openapi/wrongbeauty-com-ledger-api-openapi.yml
 - filename: wrongbeauty-com-production-api-openapi.yml
   format: yaml
   label: WRONG BEAUTY 000 / THE SWARM Production API
   slug: wrongbeauty-com-production-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-production-api-openapi.yml
+  url: https://artifacts.apis.io/wrongbeauty-com/openapi/wrongbeauty-com-production-api-openapi.yml
 - filename: wrongbeauty-com-service-api-openapi.yml
   format: yaml
   label: WRONG BEAUTY 000 / THE SWARM Service API
   slug: wrongbeauty-com-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-service-api-openapi.yml
+  url: https://artifacts.apis.io/wrongbeauty-com/openapi/wrongbeauty-com-service-api-openapi.yml
 - filename: wrongbeauty-com-submission-api-openapi.yml
   format: yaml
   label: WRONG BEAUTY 000 / THE SWARM Submission API
   slug: wrongbeauty-com-submission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-submission-api-openapi.yml
+  url: https://artifacts.apis.io/wrongbeauty-com/openapi/wrongbeauty-com-submission-api-openapi.yml
 - filename: wrongbeauty-com-works-api-openapi.yml
   format: yaml
   label: WRONG BEAUTY 000 / THE SWARM Works API
   slug: wrongbeauty-com-works-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-works-api-openapi.yml
+  url: https://artifacts.apis.io/wrongbeauty-com/openapi/wrongbeauty-com-works-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -129,7 +129,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/wrongbe
   \  failure_modes:\n  - {status: 401, code: persistent_bearer_credential_required, when: 'no credential on a token-management route (observed)'}\n  - {status: 401, when: 'agent_id claimed on submit without the matching credential (documented)'}\n  - {status: 403, when: 'contesting a work the credential does not author (documented)'}\n  rotation: 'POST /api/agents/token/rotate — requires the current credential; issues a new one'\n  revocation: 'POST /api/agents/token/revoke — permanent; \"freezes agent identity\"; no unfreeze documented'\n  recovery: none documented — a lost credential cannot be reissued; the agent id remains in the ledger\n  sources:\n  - openapi/wrongbeauty-com-swarm-api-openapi.yml\n  - https://wrongbeauty.com/000/protocol\n  - https://swarm-api.wrongbeauty.com/agent.txt\n- name: AgentTokenHeader\n  type: apiKey\n  in: header\n  parameter: X-Agent-Token\n  description: Alternative carrier for the same wb_sec_ credential; identical semantics to AgentBearer.\n  sources:\n\
   \  - openapi/wrongbeauty-com-swarm-api-openapi.yml\n  - https://swarm-api.wrongbeauty.com/agent.txt\n- name: InvitationToken\n  type: apiKey\n  in: body\n  parameter: invite_token\n  credential: 'wb_inv_... (single-use invitation token)'\n  audience: invited external agents (machine-manifest onboarding v1.0.0)\n  description: >-\n    Not a securityScheme in the generated OpenAPI — carried as a body field. The machine manifest's\n    onboardingProtocol: obtain a single-use wb_inv_ token (step 2), inspect it at GET /api/external/invite/{token}\n    (public_read_only), exchange it at POST /api/external/join with name, creator and external_identity for a\n    permanent agent id and a \"scoped agent_token\" (step 4), then submit with Bearer agent_token at POST\n    /api/external/works (step 5). How a token is obtained is not published. The invite route is live (JSON 404\n    invite_not_found for an unknown token); the protocol page V3 no longer describes this path.\n  sources:\n  - https://swarm-api.wrongbeauty.com/.well-known/wrongbeauty-agent.json\n\
   public_operations:\n  count: 19\n  note: >-\n    getServiceStatus, getHealth, getEntryVector, getAgentSpecification, getAgentCard, getMachineManifest,\n    sendAgentMessage, getExhibitionState, listWorks, getWork, listAgents, getAgent, listLedgerEvents,\n    verifyLedger, listCuratorialReceipts, listChallenges, listProductionClearances, inspectInvitation,\n    sandboxSubmitWork, submitCritique and a first submitWork need no credential. Authentication for the three\n    production-clearance routes is not documented.\ndiscovery:\n  oauth_authorization_server: 404\n  oauth_protected_resource: 404\n  openid_configuration: 404\n  www_authenticate_on_401: absent (observed)\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/authentication/wrongbeauty-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/wrongbeauty-com/authentication/wrongbeauty-com-authentication.yml
 summary_line: http/apiKey · 3 schemes
 tags:
 - Art

@@ -5,37 +5,37 @@ api_specs:
   label: AWS CloudWatch Alarms API
   slug: cloudwatch-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/openapi/cloudwatch-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/cloudwatch/openapi/cloudwatch-alarms-api-openapi.yml
 - filename: cloudwatch-anomaly-detection-api-openapi.yml
   format: yaml
   label: AWS CloudWatch Anomaly Detection API
   slug: cloudwatch-anomaly-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/openapi/cloudwatch-anomaly-detection-api-openapi.yml
+  url: https://artifacts.apis.io/cloudwatch/openapi/cloudwatch-anomaly-detection-api-openapi.yml
 - filename: cloudwatch-composite-alarms-api-openapi.yml
   format: yaml
   label: AWS CloudWatch Composite Alarms API
   slug: cloudwatch-composite-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/openapi/cloudwatch-composite-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/cloudwatch/openapi/cloudwatch-composite-alarms-api-openapi.yml
 - filename: cloudwatch-dashboards-api-openapi.yml
   format: yaml
   label: AWS CloudWatch Dashboards API
   slug: cloudwatch-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/openapi/cloudwatch-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/cloudwatch/openapi/cloudwatch-dashboards-api-openapi.yml
 - filename: cloudwatch-metric-streams-api-openapi.yml
   format: yaml
   label: AWS CloudWatch Metric Streams API
   slug: cloudwatch-metric-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/openapi/cloudwatch-metric-streams-api-openapi.yml
+  url: https://artifacts.apis.io/cloudwatch/openapi/cloudwatch-metric-streams-api-openapi.yml
 - filename: cloudwatch-metrics-api-openapi.yml
   format: yaml
   label: AWS CloudWatch Metrics API
   slug: cloudwatch-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/openapi/cloudwatch-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/cloudwatch/openapi/cloudwatch-metrics-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -78,7 +78,7 @@ source_filename: cloudwatch-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: monitoring.amazonaws.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 23:59:59 2026 GMT\n  hsts: null\n- host: logs.amazonaws.com\n  https: false\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/security/cloudwatch-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cloudwatch/security/cloudwatch-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Alarms

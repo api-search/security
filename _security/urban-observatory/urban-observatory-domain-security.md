@@ -26,7 +26,7 @@ source_filename: urban-observatory-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: urbanobservatory.ac.uk\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 15 02:02:12 2026 GMT\n  hsts: false\ndomains:\n- domain: urbanobservatory.ac.uk\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/urban-observatory/refs/heads/main/security/urban-observatory-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/urban-observatory/security/urban-observatory-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Open Data

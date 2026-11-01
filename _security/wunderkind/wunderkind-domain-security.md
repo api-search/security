@@ -5,37 +5,37 @@ api_specs:
   label: Wunderkind Email API
   slug: wunderkind-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/openapi/wunderkind-email-api-openapi.yml
+  url: https://artifacts.apis.io/wunderkind/openapi/wunderkind-email-api-openapi.yml
 - filename: wunderkind-id-resolution-api-openapi.yml
   format: yaml
   label: Wunderkind Id Resolution API
   slug: wunderkind-id-resolution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/openapi/wunderkind-id-resolution-api-openapi.yml
+  url: https://artifacts.apis.io/wunderkind/openapi/wunderkind-id-resolution-api-openapi.yml
 - filename: wunderkind-identity-api-openapi.yml
   format: yaml
   label: Wunderkind Identity API
   slug: wunderkind-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/openapi/wunderkind-identity-api-openapi.yml
+  url: https://artifacts.apis.io/wunderkind/openapi/wunderkind-identity-api-openapi.yml
 - filename: wunderkind-send-event-api-openapi.yml
   format: yaml
   label: Wunderkind Send Event API
   slug: wunderkind-send-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/openapi/wunderkind-send-event-api-openapi.yml
+  url: https://artifacts.apis.io/wunderkind/openapi/wunderkind-send-event-api-openapi.yml
 - filename: wunderkind-ucrm-api-openapi.yml
   format: yaml
   label: Wunderkind Ucrm API
   slug: wunderkind-ucrm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/openapi/wunderkind-ucrm-api-openapi.yml
+  url: https://artifacts.apis.io/wunderkind/openapi/wunderkind-ucrm-api-openapi.yml
 - filename: wunderkind-wunderhook-api-openapi.yml
   format: yaml
   label: Wunderkind Wunderhook API
   slug: wunderkind-wunderhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/openapi/wunderkind-wunderhook-api-openapi.yml
+  url: https://artifacts.apis.io/wunderkind/openapi/wunderkind-wunderhook-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -86,7 +86,7 @@ source_filename: wunderkind-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.wunderkind.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 18:11:16 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.wunderkind.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 17:30:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.wunderkind.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 08:01:03 2026 GMT\n  hsts: null\n- host: api.wknd.ai\n  https: true\n  tls_version: null\n  hsts: false\n  note: Serves HTTP/2 over TLS (404 on /); no Strict-Transport-Security header observed.\ndomains:\n- domain: wunderkind.co\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: wknd.ai\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/security/wunderkind-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wunderkind/security/wunderkind-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

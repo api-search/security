@@ -7,25 +7,25 @@ api_specs:
   label: Google Cloud Security Command Center Assets API
   slug: google-cloud-security-command-center-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-security-command-center/refs/heads/main/openapi/google-cloud-security-command-center-assets-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-security-command-center/openapi/google-cloud-security-command-center-assets-api-openapi.yml
 - filename: google-cloud-security-command-center-findings-api-openapi.yml
   format: yaml
   label: Google Cloud Security Command Center Findings API
   slug: google-cloud-security-command-center-findings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-security-command-center/refs/heads/main/openapi/google-cloud-security-command-center-findings-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-security-command-center/openapi/google-cloud-security-command-center-findings-api-openapi.yml
 - filename: google-cloud-security-command-center-notificationconfigs-api-openapi.yml
   format: yaml
   label: Google Cloud Security Command Center NotificationConfigs API
   slug: google-cloud-security-command-center-notificationconfigs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-security-command-center/refs/heads/main/openapi/google-cloud-security-command-center-notificationconfigs-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-security-command-center/openapi/google-cloud-security-command-center-notificationconfigs-api-openapi.yml
 - filename: google-cloud-security-command-center-sources-api-openapi.yml
   format: yaml
   label: Google Cloud Security Command Center Sources API
   slug: google-cloud-security-command-center-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-security-command-center/refs/heads/main/openapi/google-cloud-security-command-center-sources-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-security-command-center/openapi/google-cloud-security-command-center-sources-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -56,7 +56,7 @@ source_filename: google-cloud-security-command-center-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/security-command-center-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 1\n  sources:\n  - openapi/security-command-center-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-security-command-center/refs/heads/main/authentication/google-cloud-security-command-center-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-security-command-center/authentication/google-cloud-security-command-center-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Cloud Security

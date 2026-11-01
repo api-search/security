@@ -7,55 +7,55 @@ api_specs:
   label: Smile.io Activities API
   slug: smile-io-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-activities-api-openapi.yml
+  url: https://artifacts.apis.io/smile-io/openapi/smile-io-activities-api-openapi.yml
 - filename: smile-io-customer-identities-api-openapi.yml
   format: yaml
   label: Smile.io Customer Identities API
   slug: smile-io-customer-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-customer-identities-api-openapi.yml
+  url: https://artifacts.apis.io/smile-io/openapi/smile-io-customer-identities-api-openapi.yml
 - filename: smile-io-customers-api-openapi.yml
   format: yaml
   label: Smile.io Customers API
   slug: smile-io-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-customers-api-openapi.yml
+  url: https://artifacts.apis.io/smile-io/openapi/smile-io-customers-api-openapi.yml
 - filename: smile-io-earning-rules-api-openapi.yml
   format: yaml
   label: Smile.io Earning Rules API
   slug: smile-io-earning-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-earning-rules-api-openapi.yml
+  url: https://artifacts.apis.io/smile-io/openapi/smile-io-earning-rules-api-openapi.yml
 - filename: smile-io-points-products-api-openapi.yml
   format: yaml
   label: Smile.io Points Products API
   slug: smile-io-points-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-points-products-api-openapi.yml
+  url: https://artifacts.apis.io/smile-io/openapi/smile-io-points-products-api-openapi.yml
 - filename: smile-io-points-settings-api-openapi.yml
   format: yaml
   label: Smile.io Points Settings API
   slug: smile-io-points-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-points-settings-api-openapi.yml
+  url: https://artifacts.apis.io/smile-io/openapi/smile-io-points-settings-api-openapi.yml
 - filename: smile-io-points-transactions-api-openapi.yml
   format: yaml
   label: Smile.io Points Transactions API
   slug: smile-io-points-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-points-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/smile-io/openapi/smile-io-points-transactions-api-openapi.yml
 - filename: smile-io-reward-fulfillments-api-openapi.yml
   format: yaml
   label: Smile.io Reward Fulfillments API
   slug: smile-io-reward-fulfillments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-reward-fulfillments-api-openapi.yml
+  url: https://artifacts.apis.io/smile-io/openapi/smile-io-reward-fulfillments-api-openapi.yml
 - filename: smile-io-vip-tiers-api-openapi.yml
   format: yaml
   label: Smile.io VIP Tiers API
   slug: smile-io-vip-tiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-vip-tiers-api-openapi.yml
+  url: https://artifacts.apis.io/smile-io/openapi/smile-io-vip-tiers-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -81,7 +81,7 @@ source_filename: smile-io-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/smile-io-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/smile-io-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/authentication/smile-io-authentication.yml
+source_yaml_url: https://artifacts.apis.io/smile-io/authentication/smile-io-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Loyalty

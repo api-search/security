@@ -8,19 +8,19 @@ api_specs:
   label: EcoFlow Devices API
   slug: ecoflow-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecoflow/refs/heads/main/openapi/ecoflow-devices-api-openapi.yml
+  url: https://artifacts.apis.io/ecoflow/openapi/ecoflow-devices-api-openapi.yml
 - filename: ecoflow-mqtt-api-openapi.yml
   format: yaml
   label: EcoFlow MQTT API
   slug: ecoflow-mqtt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecoflow/refs/heads/main/openapi/ecoflow-mqtt-api-openapi.yml
+  url: https://artifacts.apis.io/ecoflow/openapi/ecoflow-mqtt-api-openapi.yml
 - filename: ecoflow-quota-api-openapi.yml
   format: yaml
   label: EcoFlow Quota API
   slug: ecoflow-quota-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecoflow/refs/heads/main/openapi/ecoflow-quota-api-openapi.yml
+  url: https://artifacts.apis.io/ecoflow/openapi/ecoflow-quota-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -69,7 +69,7 @@ source_filename: ecoflow-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/ecoflow-iot-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: accessKey\n  type: apiKey\n  in: header\n  parameter: accessKey\n  description: Access key issued in the EcoFlow developer console.\n  sources:\n  - openapi/ecoflow-iot-openapi.yml\n- name: nonce\n  type: apiKey\n  in: header\n  parameter: nonce\n  description: Random nonce (typically a 6-digit number) regenerated per request.\n  sources:\n  - openapi/ecoflow-iot-openapi.yml\n- name: timestamp\n  type: apiKey\n  in: header\n  parameter: timestamp\n  description: Unix timestamp in milliseconds at request time.\n  sources:\n  - openapi/ecoflow-iot-openapi.yml\n- name: sign\n  type: apiKey\n  in: header\n  parameter: sign\n  description: HMAC-SHA256 signature (hex) over the ASCII-sorted request parameters concatenated\n    with `accessKey`, `nonce` and `timestamp`, keyed by the secretKey.\n  sources:\n  - openapi/ecoflow-iot-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ecoflow/refs/heads/main/authentication/ecoflow-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ecoflow/authentication/ecoflow-authentication.yml
 summary_line: apiKey · 4 schemes
 tags:
 - Company

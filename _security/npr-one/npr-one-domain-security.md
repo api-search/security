@@ -24,7 +24,7 @@ source_filename: npr-one-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dev.npr.org\n  https: false\ndomains:\n- domain: npr.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/npr-one/refs/heads/main/security/npr-one-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/npr-one/security/npr-one-domain-security.yml
 summary_line: DMARC
 tags:
 - News

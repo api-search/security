@@ -5,31 +5,31 @@ api_specs:
   label: VeraDial Hooks API
   slug: veradial-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veradial/refs/heads/main/openapi/veradial-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/veradial/openapi/veradial-hooks-api-openapi.yml
 - filename: veradial-keys-api-openapi.yml
   format: yaml
   label: VeraDial Keys API
   slug: veradial-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veradial/refs/heads/main/openapi/veradial-keys-api-openapi.yml
+  url: https://artifacts.apis.io/veradial/openapi/veradial-keys-api-openapi.yml
 - filename: veradial-lines-api-openapi.yml
   format: yaml
   label: VeraDial Lines API
   slug: veradial-lines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veradial/refs/heads/main/openapi/veradial-lines-api-openapi.yml
+  url: https://artifacts.apis.io/veradial/openapi/veradial-lines-api-openapi.yml
 - filename: veradial-me-api-openapi.yml
   format: yaml
   label: VeraDial Me API
   slug: veradial-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veradial/refs/heads/main/openapi/veradial-me-api-openapi.yml
+  url: https://artifacts.apis.io/veradial/openapi/veradial-me-api-openapi.yml
 - filename: veradial-samples-api-openapi.yml
   format: yaml
   label: VeraDial Samples API
   slug: veradial-samples-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veradial/refs/heads/main/openapi/veradial-samples-api-openapi.yml
+  url: https://artifacts.apis.io/veradial/openapi/veradial-samples-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: veradial-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: veradial.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 16 04:34:44 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.veradial.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  7 08:52:01 2026 GMT\n  hsts: false\ndomains:\n- domain: veradial.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veradial/refs/heads/main/security/veradial-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/veradial/security/veradial-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI Receptionist

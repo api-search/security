@@ -5,31 +5,31 @@ api_specs:
   label: Global Relay Conversations API
   slug: global-relay-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/openapi/global-relay-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/global-relay/openapi/global-relay-conversations-api-openapi.yml
 - filename: global-relay-email-api-openapi.yml
   format: yaml
   label: Global Relay Email API
   slug: global-relay-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/openapi/global-relay-email-api-openapi.yml
+  url: https://artifacts.apis.io/global-relay/openapi/global-relay-email-api-openapi.yml
 - filename: global-relay-events-api-openapi.yml
   format: yaml
   label: Global Relay Events API
   slug: global-relay-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/openapi/global-relay-events-api-openapi.yml
+  url: https://artifacts.apis.io/global-relay/openapi/global-relay-events-api-openapi.yml
 - filename: global-relay-files-api-openapi.yml
   format: yaml
   label: Global Relay Files API
   slug: global-relay-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/openapi/global-relay-files-api-openapi.yml
+  url: https://artifacts.apis.io/global-relay/openapi/global-relay-files-api-openapi.yml
 - filename: global-relay-voice-api-openapi.yml
   format: yaml
   label: Global Relay Voice API
   slug: global-relay-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/openapi/global-relay-voice-api-openapi.yml
+  url: https://artifacts.apis.io/global-relay/openapi/global-relay-voice-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -68,7 +68,7 @@ source_filename: global-relay-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.globalrelay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 16 23:59:59 2027 GMT\n  hsts: false\n- host: conversations.api.globalrelay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 16 23:59:59 2027 GMT\n  hsts: null\n- host: email.api.globalrelay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 16 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: globalrelay.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/security/global-relay-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/global-relay/security/global-relay-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Archiving

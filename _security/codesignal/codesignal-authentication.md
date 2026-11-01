@@ -7,7 +7,7 @@ api_specs:
   label: Codesignal Organization API
   slug: codesignal-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesignal/refs/heads/main/openapi/codesignal-organization-api-openapi.yml
+  url: https://artifacts.apis.io/codesignal/openapi/codesignal-organization-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -37,7 +37,7 @@ source_filename: codesignal-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/codesignal-learn-openapi.json\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://codesignal.com/learn/api/v1/oauth/token\n    scopes: 1\n  sources:\n  - openapi/codesignal-learn-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codesignal/refs/heads/main/authentication/codesignal-authentication.yml
+source_yaml_url: https://artifacts.apis.io/codesignal/authentication/codesignal-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

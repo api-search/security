@@ -8,7 +8,7 @@ api_specs:
   label: Genki Forest Open Platform — Distributor & Receivables Management
   slug: genki-forest-open-platform-distributor-receivables-management
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genki-forest/refs/heads/main/openapi/genki-forest-open-platform-swagger.json
+  url: https://artifacts.apis.io/genki-forest/openapi/genki-forest-open-platform-swagger.json
 auth_types:
 - apiKey
 description: ''
@@ -41,7 +41,7 @@ source_filename: genki-forest-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-21'\nmethod: derived\nsource: openapi/genki-forest-open-platform-swagger.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: BearerToken\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/genki-forest-open-platform-swagger.json\n- name: tenantNumber\n  type: apiKey\n  in: header\n  parameter: tenantNumber\n  sources:\n  - openapi/genki-forest-open-platform-swagger.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/genki-forest/refs/heads/main/authentication/genki-forest-authentication.yml
+source_yaml_url: https://artifacts.apis.io/genki-forest/authentication/genki-forest-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company

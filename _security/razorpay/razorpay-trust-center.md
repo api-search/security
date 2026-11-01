@@ -17,19 +17,19 @@ api_specs:
   label: Razorpay Orders API
   slug: razorpay-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/razorpay/refs/heads/main/openapi/razorpay-orders-api-openapi.yml
+  url: https://artifacts.apis.io/razorpay/openapi/razorpay-orders-api-openapi.yml
 - filename: razorpay-payments-api-openapi.yml
   format: yaml
   label: Razorpay Payments API
   slug: razorpay-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/razorpay/refs/heads/main/openapi/razorpay-payments-api-openapi.yml
+  url: https://artifacts.apis.io/razorpay/openapi/razorpay-payments-api-openapi.yml
 - filename: razorpay-refunds-api-openapi.yml
   format: yaml
   label: Razorpay Refunds API
   slug: razorpay-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/razorpay/refs/heads/main/openapi/razorpay-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/razorpay/openapi/razorpay-refunds-api-openapi.yml
 certification_count: 3
 certifications:
 - PCI DSS
@@ -49,7 +49,7 @@ source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-14'\nmethod: searched\nprobe: false\nsource: https://razorpay.com/docs/security/\nurl: https://razorpay.com/docs/security/\ndescription: >-\n  Razorpay's security & compliance posture, captured from razorpay.com/docs/security\n  and the published PCI DSS certificate. Razorpay is a PCI-DSS certified payment\n  service provider handling cardholder data, with its cardholder data environment\n  assessed by an external QSA (Ampcus Cyber). Compliance program covers PCI-DSS,\n  ISO 27001, and SOC 2. Certificate copies are provided on request via a Key\n  Account Manager, so the automated trust-center probe (which requires a\n  trust.<domain> subdomain and keyword threshold) does not record it — this is\n  the searched, human-verified fill.\ncertifications:\n  - {name: PCI DSS, scope: Payment service provider — cardholder data environment, assessor: Ampcus Cyber Inc. (QSA), note: Certificate published; copies available on request.}\n  - {name: ISO 27001, note: Information\
   \ security management system compliance.}\n  - {name: SOC 2, note: Part of Razorpay's stated global compliance program.}\ndata_protection:\n  transport: HTTPS/TLS with industry-standard ciphers; EV SSL certificate.\n  encryption_at_rest: AES-128-bit encryption for user data.\n  pii: Field-level encryption for personally identifiable information.\nreport_access:\n  method: Certification copies provided on request via a Key Account Manager.\ndocs:\n  - https://razorpay.com/docs/security/\n  - https://razorpay.com/docs/security/shared-responsibility-model/\n  - https://razorpay.com/docs/build/browser/assets/images/pci-dss-us.pdf\nevidence:\n  - {source: https://razorpay.com/docs/security/, keywords: [pci-dss, tls, aes-128, ev ssl, field-level encryption]}\n  - {source: https://www.ampcuscyber.com/certificate/razorpay-pci-dss-coc.pdf, kind: pci-dss-certificate}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/razorpay/refs/heads/main/security/razorpay-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/razorpay/security/razorpay-trust-center.yml
 summary_line: PCI DSS, ISO 27001, SOC 2
 tags:
 - Payments

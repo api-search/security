@@ -26,7 +26,7 @@ source_filename: mycash-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: inremit.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 08:33:35 2026 GMT\n  hsts: null\ndomains:\n- domain: inremit.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mycash/refs/heads/main/security/mycash-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mycash/security/mycash-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

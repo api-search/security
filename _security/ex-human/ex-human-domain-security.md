@@ -5,25 +5,37 @@ api_specs:
   label: Ex-Human Animations API
   slug: ex-human-animations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/openapi/ex-human-animations-api-openapi.yml
+  url: https://artifacts.apis.io/ex-human/openapi/ex-human-animations-api-openapi.yml
 - filename: ex-human-chatbot-api-openapi.yml
   format: yaml
   label: Ex-Human Chatbot API
   slug: ex-human-chatbot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/openapi/ex-human-chatbot-api-openapi.yml
+  url: https://artifacts.apis.io/ex-human/openapi/ex-human-chatbot-api-openapi.yml
 - filename: ex-human-image-generation-api-openapi.yml
   format: yaml
   label: Ex-Human Image Generation API
   slug: ex-human-image-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/openapi/ex-human-image-generation-api-openapi.yml
+  url: https://artifacts.apis.io/ex-human/openapi/ex-human-image-generation-api-openapi.yml
 - filename: ex-human-text-to-speech-api-openapi.yml
   format: yaml
   label: Ex-Human Text to Speech API
   slug: ex-human-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/openapi/ex-human-text-to-speech-api-openapi.yml
+  url: https://artifacts.apis.io/ex-human/openapi/ex-human-text-to-speech-api-openapi.yml
+- filename: ex-human-admin-api-openapi.yml
+  format: yaml
+  label: Ex-Human Admin API
+  slug: ex-human-admin-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ex-human/openapi/ex-human-admin-api-openapi.yml
+- filename: ex-human-metrics-api-openapi.yml
+  format: yaml
+  label: Ex-Human Metrics API
+  slug: ex-human-metrics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ex-human/openapi/ex-human-metrics-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +70,7 @@ source_filename: ex-human-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.exh.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 18:59:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.exh.ai\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 26 23:59:54 2026 GMT\n  hsts: false\ndomains:\n- domain: exh.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/security/ex-human-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ex-human/security/ex-human-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

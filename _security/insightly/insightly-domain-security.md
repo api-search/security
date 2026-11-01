@@ -5,43 +5,43 @@ api_specs:
   label: Insightly Contacts API
   slug: insightly-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insightly/refs/heads/main/openapi/insightly-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/insightly/openapi/insightly-contacts-api-openapi.yml
 - filename: insightly-leads-api-openapi.yml
   format: yaml
   label: Insightly Leads API
   slug: insightly-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insightly/refs/heads/main/openapi/insightly-leads-api-openapi.yml
+  url: https://artifacts.apis.io/insightly/openapi/insightly-leads-api-openapi.yml
 - filename: insightly-opportunities-api-openapi.yml
   format: yaml
   label: Insightly Opportunities API
   slug: insightly-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insightly/refs/heads/main/openapi/insightly-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/insightly/openapi/insightly-opportunities-api-openapi.yml
 - filename: insightly-organisations-api-openapi.yml
   format: yaml
   label: Insightly Organisations API
   slug: insightly-organisations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insightly/refs/heads/main/openapi/insightly-organisations-api-openapi.yml
+  url: https://artifacts.apis.io/insightly/openapi/insightly-organisations-api-openapi.yml
 - filename: insightly-products-api-openapi.yml
   format: yaml
   label: Insightly Products API
   slug: insightly-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insightly/refs/heads/main/openapi/insightly-products-api-openapi.yml
+  url: https://artifacts.apis.io/insightly/openapi/insightly-products-api-openapi.yml
 - filename: insightly-projects-api-openapi.yml
   format: yaml
   label: Insightly Projects API
   slug: insightly-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insightly/refs/heads/main/openapi/insightly-projects-api-openapi.yml
+  url: https://artifacts.apis.io/insightly/openapi/insightly-projects-api-openapi.yml
 - filename: insightly-quotations-api-openapi.yml
   format: yaml
   label: Insightly Quotations API
   slug: insightly-quotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insightly/refs/heads/main/openapi/insightly-quotations-api-openapi.yml
+  url: https://artifacts.apis.io/insightly/openapi/insightly-quotations-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -81,7 +81,7 @@ source_filename: insightly-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.insightly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 14:53:23 2026 GMT\n  hsts: false\n- host: api.insightly.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 22 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: insightly.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/insightly/refs/heads/main/security/insightly-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/insightly/security/insightly-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - CRM

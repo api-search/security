@@ -5,79 +5,79 @@ api_specs:
   label: Bonneville Power Administration Customers API
   slug: bonneville-power-administration-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-customers-api-openapi.yml
+  url: https://artifacts.apis.io/bonneville-power-administration/openapi/bonneville-power-administration-customers-api-openapi.yml
 - filename: bonneville-power-administration-hydrology-api-openapi.yml
   format: yaml
   label: Bonneville Power Administration Hydrology API
   slug: bonneville-power-administration-hydrology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-hydrology-api-openapi.yml
+  url: https://artifacts.apis.io/bonneville-power-administration/openapi/bonneville-power-administration-hydrology-api-openapi.yml
 - filename: bonneville-power-administration-right-of-way-api-openapi.yml
   format: yaml
   label: Bonneville Power Administration Right of Way API
   slug: bonneville-power-administration-right-of-way-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-right-of-way-api-openapi.yml
+  url: https://artifacts.apis.io/bonneville-power-administration/openapi/bonneville-power-administration-right-of-way-api-openapi.yml
 - filename: bonneville-power-administration-service-area-api-openapi.yml
   format: yaml
   label: Bonneville Power Administration Service Area API
   slug: bonneville-power-administration-service-area-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-service-area-api-openapi.yml
+  url: https://artifacts.apis.io/bonneville-power-administration/openapi/bonneville-power-administration-service-area-api-openapi.yml
 - filename: bonneville-power-administration-transmission-api-openapi.yml
   format: yaml
   label: Bonneville Power Administration Transmission API
   slug: bonneville-power-administration-transmission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-transmission-api-openapi.yml
+  url: https://artifacts.apis.io/bonneville-power-administration/openapi/bonneville-power-administration-transmission-api-openapi.yml
 - filename: bonneville-power-administration-catalog-api-openapi.yml
   format: yaml
   label: Bonneville Power Administration Catalog API
   slug: bonneville-power-administration-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/bonneville-power-administration/openapi/bonneville-power-administration-catalog-api-openapi.yml
 - filename: bonneville-power-administration-collection-api-openapi.yml
   format: yaml
   label: Bonneville Power Administration Collection API
   slug: bonneville-power-administration-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-collection-api-openapi.yml
+  url: https://artifacts.apis.io/bonneville-power-administration/openapi/bonneville-power-administration-collection-api-openapi.yml
 - filename: bonneville-power-administration-geoservice-beta-api-openapi.yml
   format: yaml
   label: Bonneville Power Administration Geoservice Beta API
   slug: bonneville-power-administration-geoservice-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-geoservice-beta-api-openapi.yml
+  url: https://artifacts.apis.io/bonneville-power-administration/openapi/bonneville-power-administration-geoservice-beta-api-openapi.yml
 - filename: bonneville-power-administration-ogcitem-api-openapi.yml
   format: yaml
   label: Bonneville Power Administration Ogc Item API
   slug: bonneville-power-administration-ogcitem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-ogcitem-api-openapi.yml
+  url: https://artifacts.apis.io/bonneville-power-administration/openapi/bonneville-power-administration-ogcitem-api-openapi.yml
 - filename: bonneville-power-administration-ogcitemaggregation-api-openapi.yml
   format: yaml
   label: Bonneville Power Administration Ogc Item Aggregation API
   slug: bonneville-power-administration-ogcitemaggregation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-ogcitemaggregation-api-openapi.yml
+  url: https://artifacts.apis.io/bonneville-power-administration/openapi/bonneville-power-administration-ogcitemaggregation-api-openapi.yml
 - filename: bonneville-power-administration-ogcroot-api-openapi.yml
   format: yaml
   label: Bonneville Power Administration Ogc Root API
   slug: bonneville-power-administration-ogcroot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-ogcroot-api-openapi.yml
+  url: https://artifacts.apis.io/bonneville-power-administration/openapi/bonneville-power-administration-ogcroot-api-openapi.yml
 - filename: bonneville-power-administration-ogcrootconformance-api-openapi.yml
   format: yaml
   label: Bonneville Power Administration Ogc Root Conformance API
   slug: bonneville-power-administration-ogcrootconformance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-ogcrootconformance-api-openapi.yml
+  url: https://artifacts.apis.io/bonneville-power-administration/openapi/bonneville-power-administration-ogcrootconformance-api-openapi.yml
 - filename: bonneville-power-administration-queryable-api-openapi.yml
   format: yaml
   label: Bonneville Power Administration Queryable API
   slug: bonneville-power-administration-queryable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-queryable-api-openapi.yml
+  url: https://artifacts.apis.io/bonneville-power-administration/openapi/bonneville-power-administration-queryable-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -135,7 +135,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bpa.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 21 22:16:52 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: data-bpagis.hub.arcgis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: transmission.bpa.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 13 18:37:22 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: bpa.gov\n  dnssec: true\n  caa:\n  - 0 issue \"identrust.com\"\n  - 0 issue \"entrust.net\"\n  - 0 iodef \"mailto:dns-admin@bpa.gov\"\n  - 0 issue \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: arcgis.com\n  dnssec: true\n  caa:\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazonaws.com\"\
   \n  - 0 issuewild \"amazontrust.com\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/security/bonneville-power-administration-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bonneville-power-administration/security/bonneville-power-administration-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Energy

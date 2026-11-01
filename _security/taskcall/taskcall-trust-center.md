@@ -5,13 +5,13 @@ api_specs:
   label: TaskCall Components API
   slug: taskcall-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskcall/refs/heads/main/openapi/taskcall-components-api-openapi.yml
+  url: https://artifacts.apis.io/taskcall/openapi/taskcall-components-api-openapi.yml
 - filename: taskcall-incidents-api-openapi.yml
   format: yaml
   label: TaskCall Incidents API
   slug: taskcall-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskcall/refs/heads/main/openapi/taskcall-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/taskcall/openapi/taskcall-incidents-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -29,7 +29,7 @@ source_filename: taskcall-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://taskcallapp.com/security\nurl: https://taskcallapp.com/security\ncertifications:\n- SOC 2\n- HIPAA\nevidence:\n- source: https://taskcallapp.com/security\n  keywords:\n  - soc 2\n  - soc2\n  - hipaa\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taskcall/refs/heads/main/security/taskcall-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/taskcall/security/taskcall-trust-center.yml
 summary_line: SOC 2, HIPAA
 tags:
 - Incident Management

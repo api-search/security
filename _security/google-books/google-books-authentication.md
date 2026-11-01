@@ -8,19 +8,19 @@ api_specs:
   label: Google Books Users API
   slug: google-books-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-books/refs/heads/main/openapi/google-books-users-api-openapi.yml
+  url: https://artifacts.apis.io/google-books/openapi/google-books-users-api-openapi.yml
 - filename: google-books-volumes-api-openapi.yml
   format: yaml
   label: Google Books Volumes API
   slug: google-books-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-books/refs/heads/main/openapi/google-books-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/google-books/openapi/google-books-volumes-api-openapi.yml
 - filename: google-books-my-library-api-openapi.yml
   format: yaml
   label: Google Books My Library API
   slug: google-books-my-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-books/refs/heads/main/openapi/google-books-my-library-api-openapi.yml
+  url: https://artifacts.apis.io/google-books/openapi/google-books-my-library-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -58,7 +58,7 @@ source_filename: google-books-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/books.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - query\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 1\n  sources:\n  - openapi/books.yml\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: key\n  sources:\n  - openapi/books.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-books/refs/heads/main/authentication/google-books-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-books/authentication/google-books-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Books

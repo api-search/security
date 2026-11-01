@@ -8,19 +8,19 @@ api_specs:
   label: Dagster Checks API
   slug: dagster-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dagster/refs/heads/main/openapi/dagster-checks-api-openapi.yml
+  url: https://artifacts.apis.io/dagster/openapi/dagster-checks-api-openapi.yml
 - filename: dagster-materializations-api-openapi.yml
   format: yaml
   label: Dagster Materializations API
   slug: dagster-materializations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dagster/refs/heads/main/openapi/dagster-materializations-api-openapi.yml
+  url: https://artifacts.apis.io/dagster/openapi/dagster-materializations-api-openapi.yml
 - filename: dagster-observations-api-openapi.yml
   format: yaml
   label: Dagster Observations API
   slug: dagster-observations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dagster/refs/heads/main/openapi/dagster-observations-api-openapi.yml
+  url: https://artifacts.apis.io/dagster/openapi/dagster-observations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: dagster-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/dagster-external-assets-rest-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: DagsterCloudToken\n  type: apiKey\n  in: header\n  parameter: Dagster-Cloud-Api-Token\n  description: User token used to authenticate against Dagster+ deployments.\n  sources:\n  - openapi/dagster-external-assets-rest-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dagster/refs/heads/main/authentication/dagster-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dagster/authentication/dagster-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Data Engineering

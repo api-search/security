@@ -5,31 +5,31 @@ api_specs:
   label: Dana Availability API
   slug: dana-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dana/refs/heads/main/openapi/dana-availability-api-openapi.yml
+  url: https://artifacts.apis.io/dana/openapi/dana-availability-api-openapi.yml
 - filename: dana-orders-api-openapi.yml
   format: yaml
   label: Dana Orders API
   slug: dana-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dana/refs/heads/main/openapi/dana-orders-api-openapi.yml
+  url: https://artifacts.apis.io/dana/openapi/dana-orders-api-openapi.yml
 - filename: dana-parts-api-openapi.yml
   format: yaml
   label: Dana Parts API
   slug: dana-parts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dana/refs/heads/main/openapi/dana-parts-api-openapi.yml
+  url: https://artifacts.apis.io/dana/openapi/dana-parts-api-openapi.yml
 - filename: dana-pricing-api-openapi.yml
   format: yaml
   label: Dana Pricing API
   slug: dana-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dana/refs/heads/main/openapi/dana-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/dana/openapi/dana-pricing-api-openapi.yml
 - filename: dana-shipping-api-openapi.yml
   format: yaml
   label: Dana Shipping API
   slug: dana-shipping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dana/refs/heads/main/openapi/dana-shipping-api-openapi.yml
+  url: https://artifacts.apis.io/dana/openapi/dana-shipping-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -72,7 +72,7 @@ source_filename: dana-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dana.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 14:17:14 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.danaaftermarket.com\n  https: false\n- host: api.danaaftermarket.com\n  https: false\ndomains:\n- domain: dana.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/2209672455\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: danaaftermarket.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dana/refs/heads/main/security/dana-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dana/security/dana-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Aftermarket

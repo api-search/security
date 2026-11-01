@@ -17,7 +17,7 @@ source_filename: sworkit-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nsource: https://sworkit.com/security\nurl: https://sworkit.com/security\ncertifications:\n- SOC 2 Type 2\n- HIPAA\n- GDPR\nreports_available_on_request:\n- SOC 2 Type 2\n- CAIQ Lite\nsecurity_contact: privacy@sworkit.com\nevidence:\n- source: https://sworkit.com/security\n  keywords:\n  - soc 2 type 2\n  - hipaa\n  - gdpr\n  - caiq lite\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sworkit/refs/heads/main/security/sworkit-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/sworkit/security/sworkit-trust-center.yml
 summary_line: SOC 2 Type 2, HIPAA, GDPR
 tags:
 - Company

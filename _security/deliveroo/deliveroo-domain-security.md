@@ -5,55 +5,55 @@ api_specs:
   label: Deliveroo Catalogue API
   slug: catalogue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-catalogue-api-openapi.yml
+  url: https://artifacts.apis.io/deliveroo/openapi/deliveroo-catalogue-api-openapi.yml
 - filename: deliveroo-picking-api-openapi.yml
   format: yaml
   label: Deliveroo Picking API
   slug: picking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-picking-api-openapi.yml
+  url: https://artifacts.apis.io/deliveroo/openapi/deliveroo-picking-api-openapi.yml
 - filename: deliveroo-deliveries-api-openapi.yml
   format: yaml
   label: Deliveroo Deliveries API
   slug: deliveroo-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/deliveroo/openapi/deliveroo-deliveries-api-openapi.yml
 - filename: deliveroo-menus-api-openapi.yml
   format: yaml
   label: Deliveroo Menus API
   slug: deliveroo-menus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-menus-api-openapi.yml
+  url: https://artifacts.apis.io/deliveroo/openapi/deliveroo-menus-api-openapi.yml
 - filename: deliveroo-opening-hours-api-openapi.yml
   format: yaml
   label: Deliveroo Opening Hours API
   slug: deliveroo-opening-hours-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-opening-hours-api-openapi.yml
+  url: https://artifacts.apis.io/deliveroo/openapi/deliveroo-opening-hours-api-openapi.yml
 - filename: deliveroo-orders-api-openapi.yml
   format: yaml
   label: Deliveroo Orders API
   slug: deliveroo-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-orders-api-openapi.yml
+  url: https://artifacts.apis.io/deliveroo/openapi/deliveroo-orders-api-openapi.yml
 - filename: deliveroo-pricing-api-openapi.yml
   format: yaml
   label: Deliveroo Pricing API
   slug: deliveroo-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/deliveroo/openapi/deliveroo-pricing-api-openapi.yml
 - filename: deliveroo-quotes-api-openapi.yml
   format: yaml
   label: Deliveroo Quotes API
   slug: deliveroo-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/deliveroo/openapi/deliveroo-quotes-api-openapi.yml
 - filename: deliveroo-sync-status-api-openapi.yml
   format: yaml
   label: Deliveroo Sync Status API
   slug: deliveroo-sync-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-sync-status-api-openapi.yml
+  url: https://artifacts.apis.io/deliveroo/openapi/deliveroo-sync-status-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -99,7 +99,7 @@ source_filename: deliveroo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: deliveroo.co.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 18:55:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api-docs.deliveroo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 17:14:58 2026 GMT\n  hsts: null\n- host: api.developers.deliveroo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 09:59:46 2026 GMT\n  hsts: null\ndomains:\n- domain: deliveroo.co.uk\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: deliveroo.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/security/deliveroo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/deliveroo/security/deliveroo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Food Delivery

@@ -7,25 +7,25 @@ api_specs:
   label: Wattwatchers Devices API
   slug: wattwatchers-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/openapi/wattwatchers-devices-api-openapi.yml
+  url: https://artifacts.apis.io/wattwatchers/openapi/wattwatchers-devices-api-openapi.yml
 - filename: wattwatchers-long-energy-api-openapi.yml
   format: yaml
   label: Wattwatchers Long Energy API
   slug: wattwatchers-long-energy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/openapi/wattwatchers-long-energy-api-openapi.yml
+  url: https://artifacts.apis.io/wattwatchers/openapi/wattwatchers-long-energy-api-openapi.yml
 - filename: wattwatchers-modbus-api-openapi.yml
   format: yaml
   label: Wattwatchers Modbus API
   slug: wattwatchers-modbus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/openapi/wattwatchers-modbus-api-openapi.yml
+  url: https://artifacts.apis.io/wattwatchers/openapi/wattwatchers-modbus-api-openapi.yml
 - filename: wattwatchers-short-energy-api-openapi.yml
   format: yaml
   label: Wattwatchers Short Energy API
   slug: wattwatchers-short-energy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/openapi/wattwatchers-short-energy-api-openapi.yml
+  url: https://artifacts.apis.io/wattwatchers/openapi/wattwatchers-short-energy-api-openapi.yml
 auth_types:
 - http
 description: 'Wattwatchers REST API v3 (Mercury) uses a single authentication mechanism: an HTTP Bearer token ("API key") issued by hand by Wattwatchers. There is no OAuth, no OpenID Connect, no mTLS and no scope surface. Authorization is not expressed in the token — it is expressed as the SET OF DEVICES Wattwatchers assigns to that key, plus coarse permission levels (added in v3.5) that control whether the key may change device metadata and/or configuration. Derived from the OpenAPI securityScheme and upgraded from the published auth page.'
@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: openapi/wattwat
   \ the API key to you securely once we have set it up and assigned\n    the correct devices and related permissions.\"\n  console: https://fleet.wattwatchers.com.au\nauthorization_model:\n  mechanism: device-assignment\n  description: >-\n    \"The API key represents a set of permissions to a pre-defined set of devices\n    that the client application is permitted to access (read and modify).\" To\n    restrict access to a subset of devices you must have Wattwatchers create an\n    additional key. There is no runtime scoping, no delegation and no\n    per-request audience selection.\n  permission_levels:\n    introduced: v3.5 (2020-05-25)\n    description: >-\n      \"Additional permission levels to API keys relating to changing device\n      metadata and/or configuration.\" Read, metadata-write and\n      configuration-write are distinguished at key-issuance time, not requested\n      per call. A key lacking the level returns 403 FORBIDDEN.\n  masking: >-\n    A device not assigned to\
   \ the key returns 404 NOT_FOUND, not 403 — existence\n    is masked as well as access.\ntoken_lifecycle:\n  expiry: none-by-default\n  detail: '\"This token lives until it is expired by Wattwatchers.\" There is no client-driven rotation, refresh or revocation endpoint.'\n  forced_rotation: >-\n    If Wattwatchers become aware of a key being disclosed insecurely (e.g. pasted\n    into an email or a support ticket) they automatically retire and refresh it,\n    and notify the technical contacts on file.\n  disclosure_hygiene: >-\n    Docs instruct customers to identify a key by its LAST 5 CHARACTERS only when\n    communicating with support, never the whole value.\nkey_handling_guidance:\n  - Do not hard-code the key into an application or commit it to source control.\n  - Store it as an environment variable server-side.\n  - Never store it in browser cookies or local storage; a browser app should only receive it over HTTPS after the user is authenticated.\n  - Do not send the key by insecure\
   \ email or web-based communication tools.\ndiscovery_probes:\n  - {url: 'https://api-v3.wattwatchers.com.au/.well-known/openid-configuration', status: 404}\n  - {url: 'https://api-v3.wattwatchers.com.au/.well-known/oauth-authorization-server', status: 404}\n  - {url: 'https://api-v3.wattwatchers.com.au/.well-known/oauth-protected-resource', status: 404}\n  - {url: 'https://api-v3.wattwatchers.com.au/devices', status: 401, note: 'anonymous request returns {\"code\":\"UNAUTHORIZED\",...} — the gate is real and enforced'}\nscopes:\n  supported: false\n  note: >-\n    No OAuth scope surface exists, so no scopes/ artifact is emitted for this\n    provider. Permission is a property of the issued key, not of the request.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/authentication/wattwatchers-authentication.yml
+source_yaml_url: https://artifacts.apis.io/wattwatchers/authentication/wattwatchers-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Energy

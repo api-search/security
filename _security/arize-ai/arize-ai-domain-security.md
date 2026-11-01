@@ -5,7 +5,7 @@ api_specs:
   label: Arize AI Traces API
   slug: arize-ai-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arize-ai/refs/heads/main/openapi/arize-ai-traces-api-openapi.yml
+  url: https://artifacts.apis.io/arize-ai/openapi/arize-ai-traces-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -42,7 +42,7 @@ source_filename: arize-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: arize.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 02:12:54 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: phoenix.arize.com\n  https: false\n- host: otlp.arize.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 23:49:01 2026 GMT\n  hsts: false\ndomains:\n- domain: arize.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arize-ai/refs/heads/main/security/arize-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/arize-ai/security/arize-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - LLM Observability

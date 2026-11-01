@@ -5,55 +5,55 @@ api_specs:
   label: Atomic Access Tokens API
   slug: atomic-fi-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-access-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/atomic-fi/openapi/atomic-fi-access-tokens-api-openapi.yml
 - filename: atomic-fi-company-api-openapi.yml
   format: yaml
   label: Atomic Company API
   slug: atomic-fi-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-company-api-openapi.yml
+  url: https://artifacts.apis.io/atomic-fi/openapi/atomic-fi-company-api-openapi.yml
 - filename: atomic-fi-data-api-openapi.yml
   format: yaml
   label: Atomic Data API
   slug: atomic-fi-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-data-api-openapi.yml
+  url: https://artifacts.apis.io/atomic-fi/openapi/atomic-fi-data-api-openapi.yml
 - filename: atomic-fi-linked-accounts-api-openapi.yml
   format: yaml
   label: Atomic Linked Accounts API
   slug: atomic-fi-linked-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-linked-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/atomic-fi/openapi/atomic-fi-linked-accounts-api-openapi.yml
 - filename: atomic-fi-paylink-api-openapi.yml
   format: yaml
   label: Atomic PayLink API
   slug: atomic-fi-paylink-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-paylink-api-openapi.yml
+  url: https://artifacts.apis.io/atomic-fi/openapi/atomic-fi-paylink-api-openapi.yml
 - filename: atomic-fi-secrets-api-openapi.yml
   format: yaml
   label: Atomic Secrets API
   slug: atomic-fi-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/atomic-fi/openapi/atomic-fi-secrets-api-openapi.yml
 - filename: atomic-fi-tasks-api-openapi.yml
   format: yaml
   label: Atomic Tasks API
   slug: atomic-fi-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/atomic-fi/openapi/atomic-fi-tasks-api-openapi.yml
 - filename: atomic-fi-users-api-openapi.yml
   format: yaml
   label: Atomic Users API
   slug: atomic-fi-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-users-api-openapi.yml
+  url: https://artifacts.apis.io/atomic-fi/openapi/atomic-fi-users-api-openapi.yml
 - filename: atomic-fi-webhooks-api-openapi.yml
   format: yaml
   label: Atomic Webhooks API
   slug: atomic-fi-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/atomic-fi/openapi/atomic-fi-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -92,7 +92,7 @@ source_filename: atomic-fi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: atomicfi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  9 23:59:59 2027 GMT\n  hsts: false\n- host: docs.atomicfi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 28 23:59:59 2027 GMT\n  hsts: false\n- host: api.atomicfi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: atomicfi.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/security/atomic-fi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/atomic-fi/security/atomic-fi-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Fintech

@@ -11,19 +11,19 @@ api_specs:
   label: We > Ultrarich Comparison API
   slug: wegtultrarich-comparison-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wegtultrarich/refs/heads/main/openapi/wegtultrarich-comparison-api-openapi.yml
+  url: https://artifacts.apis.io/wegtultrarich/openapi/wegtultrarich-comparison-api-openapi.yml
 - filename: wegtultrarich-discovery-api-openapi.yml
   format: yaml
   label: We > Ultrarich Discovery API
   slug: wegtultrarich-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wegtultrarich/refs/heads/main/openapi/wegtultrarich-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/wegtultrarich/openapi/wegtultrarich-discovery-api-openapi.yml
 - filename: wegtultrarich-wealth-expression-api-openapi.yml
   format: yaml
   label: We > Ultrarich Wealth Expression API
   slug: wegtultrarich-wealth-expression-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wegtultrarich/refs/heads/main/openapi/wegtultrarich-wealth-expression-api-openapi.yml
+  url: https://artifacts.apis.io/wegtultrarich/openapi/wegtultrarich-wealth-expression-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: wegtultrarich-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.wegtultrarich.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 19:37:00 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: wegtultrarich.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wegtultrarich/refs/heads/main/security/wegtultrarich-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wegtultrarich/security/wegtultrarich-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - wealth inequality

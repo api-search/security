@@ -57,7 +57,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: steno.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 10:33:43 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: help.steno.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 11:18:08 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.steno.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 10:33:43 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\n  note: 'automated probe first recorded hsts null; re-probed by hand three times (curl\n    -I and curl -X HEAD) and the header is present on the 403 response as strict-transport-security:\n    max-age=31557600'\n- host: brief.steno.com\n  https: true\n  hsts: true\n  hsts_max_age: 31536000\n- host: status.steno.com\n  https: true\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  hsts_preload: true\n- host: trust.steno.com\n\
   \  https: true\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\ndomains:\n- domain: steno.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\nx-evidence:\n  fetched: '2026-08-05'\n  tool: 0-working/probe-domain-security.py, plus a manual curl re-probe of api.steno.com\n    and the three subdomains the script did not carry\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/steno/refs/heads/main/security/steno-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/steno/security/steno-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

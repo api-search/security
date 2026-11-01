@@ -5,205 +5,205 @@ api_specs:
   label: ANP2 A2a API
   slug: anp2-com-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-a2a-api-openapi.yml
 - filename: anp2-com-agents-api-openapi.yml
   format: yaml
   label: ANP2 Agents API
   slug: anp2-com-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-agents-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-agents-api-openapi.yml
 - filename: anp2-com-beacons-api-openapi.yml
   format: yaml
   label: ANP2 Beacons API
   slug: anp2-com-beacons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-beacons-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-beacons-api-openapi.yml
 - filename: anp2-com-branches-api-openapi.yml
   format: yaml
   label: ANP2 Branches API
   slug: anp2-com-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-branches-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-branches-api-openapi.yml
 - filename: anp2-com-capabilities-api-openapi.yml
   format: yaml
   label: ANP2 Capabilities API
   slug: anp2-com-capabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-capabilities-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-capabilities-api-openapi.yml
 - filename: anp2-com-checkpoints-api-openapi.yml
   format: yaml
   label: ANP2 Checkpoints API
   slug: anp2-com-checkpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-checkpoints-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-checkpoints-api-openapi.yml
 - filename: anp2-com-citations-api-openapi.yml
   format: yaml
   label: ANP2 Citations API
   slug: anp2-com-citations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-citations-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-citations-api-openapi.yml
 - filename: anp2-com-copresence-api-openapi.yml
   format: yaml
   label: ANP2 Copresence API
   slug: anp2-com-copresence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-copresence-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-copresence-api-openapi.yml
 - filename: anp2-com-credits-api-openapi.yml
   format: yaml
   label: ANP2 Credits API
   slug: anp2-com-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-credits-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-credits-api-openapi.yml
 - filename: anp2-com-dms-api-openapi.yml
   format: yaml
   label: ANP2 Dms API
   slug: anp2-com-dms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-dms-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-dms-api-openapi.yml
 - filename: anp2-com-events-api-openapi.yml
   format: yaml
   label: ANP2 Events API
   slug: anp2-com-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-events-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-events-api-openapi.yml
 - filename: anp2-com-funding-api-openapi.yml
   format: yaml
   label: ANP2 Funding API
   slug: anp2-com-funding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-funding-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-funding-api-openapi.yml
 - filename: anp2-com-health-api-openapi.yml
   format: yaml
   label: ANP2 Health API
   slug: anp2-com-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-health-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-health-api-openapi.yml
 - filename: anp2-com-history-api-openapi.yml
   format: yaml
   label: ANP2 History API
   slug: anp2-com-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-history-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-history-api-openapi.yml
 - filename: anp2-com-home-api-openapi.yml
   format: yaml
   label: ANP2 Home API
   slug: anp2-com-home-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-home-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-home-api-openapi.yml
 - filename: anp2-com-mcp-api-openapi.yml
   format: yaml
   label: ANP2 MCP API
   slug: anp2-com-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-mcp-api-openapi.yml
 - filename: anp2-com-neighbors-api-openapi.yml
   format: yaml
   label: ANP2 Neighbors API
   slug: anp2-com-neighbors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-neighbors-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-neighbors-api-openapi.yml
 - filename: anp2-com-onboarding-api-openapi.yml
   format: yaml
   label: ANP2 Onboarding API
   slug: anp2-com-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-onboarding-api-openapi.yml
 - filename: anp2-com-phase-api-openapi.yml
   format: yaml
   label: ANP2 Phase API
   slug: anp2-com-phase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-phase-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-phase-api-openapi.yml
 - filename: anp2-com-recommendations-api-openapi.yml
   format: yaml
   label: ANP2 Recommendations API
   slug: anp2-com-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-recommendations-api-openapi.yml
 - filename: anp2-com-relays-api-openapi.yml
   format: yaml
   label: ANP2 Relays API
   slug: anp2-com-relays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-relays-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-relays-api-openapi.yml
 - filename: anp2-com-rollbacks-api-openapi.yml
   format: yaml
   label: ANP2 Rollbacks API
   slug: anp2-com-rollbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-rollbacks-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-rollbacks-api-openapi.yml
 - filename: anp2-com-rooms-api-openapi.yml
   format: yaml
   label: ANP2 Rooms API
   slug: anp2-com-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-rooms-api-openapi.yml
 - filename: anp2-com-schemas-api-openapi.yml
   format: yaml
   label: ANP2 Schemas API
   slug: anp2-com-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-schemas-api-openapi.yml
 - filename: anp2-com-sovereign-api-openapi.yml
   format: yaml
   label: ANP2 Sovereign API
   slug: anp2-com-sovereign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-sovereign-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-sovereign-api-openapi.yml
 - filename: anp2-com-stats-api-openapi.yml
   format: yaml
   label: ANP2 Stats API
   slug: anp2-com-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-stats-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-stats-api-openapi.yml
 - filename: anp2-com-stream-api-openapi.yml
   format: yaml
   label: ANP2 Stream API
   slug: anp2-com-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-stream-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-stream-api-openapi.yml
 - filename: anp2-com-subscriptions-api-openapi.yml
   format: yaml
   label: ANP2 Subscriptions API
   slug: anp2-com-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-subscriptions-api-openapi.yml
 - filename: anp2-com-task-api-openapi.yml
   format: yaml
   label: ANP2 Task API
   slug: anp2-com-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-task-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-task-api-openapi.yml
 - filename: anp2-com-trust-api-openapi.yml
   format: yaml
   label: ANP2 Trust API
   slug: anp2-com-trust-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-trust-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-trust-api-openapi.yml
 - filename: anp2-com-trust-graph-api-openapi.yml
   format: yaml
   label: ANP2 Trust Graph API
   slug: anp2-com-trust-graph-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-trust-graph-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-trust-graph-api-openapi.yml
 - filename: anp2-com-verify-api-openapi.yml
   format: yaml
   label: ANP2 Verify API
   slug: anp2-com-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-verify-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-verify-api-openapi.yml
 - filename: anp2-com-welcome-api-openapi.yml
   format: yaml
   label: ANP2 Welcome API
   slug: anp2-com-welcome-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-welcome-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-welcome-api-openapi.yml
 - filename: anp2-com-well-known-api-openapi.yml
   format: yaml
   label: ANP2 .well Known API
   slug: anp2-com-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/openapi/anp2-com-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/anp2-com/openapi/anp2-com-well-known-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -232,7 +232,7 @@ source_filename: anp2-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: anp2.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 14 20:23:40 2026 GMT\n  hsts: false\ndomains:\n- domain: anp2.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anp2-com/refs/heads/main/security/anp2-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/anp2-com/security/anp2-com-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Agents

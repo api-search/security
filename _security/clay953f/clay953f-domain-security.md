@@ -5,37 +5,37 @@ api_specs:
   label: Clay953f Credits API
   slug: clay953f-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/openapi/clay953f-credits-api-openapi.yml
+  url: https://artifacts.apis.io/clay953f/openapi/clay953f-credits-api-openapi.yml
 - filename: clay953f-me-api-openapi.yml
   format: yaml
   label: Clay953f Me API
   slug: clay953f-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/openapi/clay953f-me-api-openapi.yml
+  url: https://artifacts.apis.io/clay953f/openapi/clay953f-me-api-openapi.yml
 - filename: clay953f-routines-api-openapi.yml
   format: yaml
   label: Clay953f Routines API
   slug: clay953f-routines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/openapi/clay953f-routines-api-openapi.yml
+  url: https://artifacts.apis.io/clay953f/openapi/clay953f-routines-api-openapi.yml
 - filename: clay953f-search-api-openapi.yml
   format: yaml
   label: Clay953f Search API
   slug: clay953f-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/openapi/clay953f-search-api-openapi.yml
+  url: https://artifacts.apis.io/clay953f/openapi/clay953f-search-api-openapi.yml
 - filename: clay953f-tables-api-openapi.yml
   format: yaml
   label: Clay953f Tables API
   slug: clay953f-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/openapi/clay953f-tables-api-openapi.yml
+  url: https://artifacts.apis.io/clay953f/openapi/clay953f-tables-api-openapi.yml
 - filename: clay953f-workflowsruns-api-openapi.yml
   format: yaml
   label: Clay953f Workflows Runs API
   slug: clay953f-workflowsruns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/openapi/clay953f-workflowsruns-api-openapi.yml
+  url: https://artifacts.apis.io/clay953f/openapi/clay953f-workflowsruns-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: clay953f-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.clay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 14 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: clay.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/security/clay953f-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/clay953f/security/clay953f-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Data Marketplace

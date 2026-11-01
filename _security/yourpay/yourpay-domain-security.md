@@ -27,7 +27,7 @@ source_filename: yourpay-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: yourpay.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 05:00:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: yourpay.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yourpay/refs/heads/main/security/yourpay-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/yourpay/security/yourpay-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

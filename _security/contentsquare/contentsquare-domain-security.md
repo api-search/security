@@ -5,25 +5,25 @@ api_specs:
   label: Contentsquare Authentication API
   slug: contentsquare-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentsquare/refs/heads/main/openapi/contentsquare-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/contentsquare/openapi/contentsquare-authentication-api-openapi.yml
 - filename: contentsquare-exports-api-openapi.yml
   format: yaml
   label: Contentsquare Exports API
   slug: contentsquare-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentsquare/refs/heads/main/openapi/contentsquare-exports-api-openapi.yml
+  url: https://artifacts.apis.io/contentsquare/openapi/contentsquare-exports-api-openapi.yml
 - filename: contentsquare-fields-api-openapi.yml
   format: yaml
   label: Contentsquare Fields API
   slug: contentsquare-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentsquare/refs/heads/main/openapi/contentsquare-fields-api-openapi.yml
+  url: https://artifacts.apis.io/contentsquare/openapi/contentsquare-fields-api-openapi.yml
 - filename: contentsquare-runs-api-openapi.yml
   format: yaml
   label: Contentsquare Runs API
   slug: contentsquare-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentsquare/refs/heads/main/openapi/contentsquare-runs-api-openapi.yml
+  url: https://artifacts.apis.io/contentsquare/openapi/contentsquare-runs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: contentsquare-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: contentsquare.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 24 01:27:03 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.contentsquare.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  5 20:02:46 2026 GMT\n  hsts: false\n- host: api.eu-west-1.production.contentsquare.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 12:39:23 2026 GMT\n  hsts: null\ndomains:\n- domain: contentsquare.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contentsquare/refs/heads/main/security/contentsquare-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/contentsquare/security/contentsquare-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Digital Experience Analytics

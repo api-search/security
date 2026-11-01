@@ -8,31 +8,31 @@ api_specs:
   label: Leadspace Authorization API
   slug: leadspace-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/openapi/leadspace-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/leadspace/openapi/leadspace-authorization-api-openapi.yml
 - filename: leadspace-discovery-api-openapi.yml
   format: yaml
   label: Leadspace Discovery API
   slug: leadspace-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/openapi/leadspace-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/leadspace/openapi/leadspace-discovery-api-openapi.yml
 - filename: leadspace-enrichment-api-openapi.yml
   format: yaml
   label: Leadspace Enrichment API
   slug: leadspace-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/openapi/leadspace-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/leadspace/openapi/leadspace-enrichment-api-openapi.yml
 - filename: leadspace-intent-api-openapi.yml
   format: yaml
   label: Leadspace Intent API
   slug: leadspace-intent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/openapi/leadspace-intent-api-openapi.yml
+  url: https://artifacts.apis.io/leadspace/openapi/leadspace-intent-api-openapi.yml
 - filename: leadspace-results-api-openapi.yml
   format: yaml
   label: Leadspace Results API
   slug: leadspace-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/openapi/leadspace-results-api-openapi.yml
+  url: https://artifacts.apis.io/leadspace/openapi/leadspace-results-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -123,7 +123,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://support
   \ fields blank — then the user signs in with\n      their Leadspace account (the same account as Leadspace Sidekick; a free\n      account can be created self-serve with a work email).\n    authorizationUrl: https://stg-sk.us.auth0.com/authorize\n    tokenUrl: https://stg-sk.us.auth0.com/oauth/token\n    registrationUrl: https://stg-sk.us.auth0.com/oidc/register\n    jwks_uri: https://stg-sk.us.auth0.com/.well-known/jwks.json\n    issuer: https://stg-sk.us.auth0.com/\n    grant_types:\n      - authorization_code\n      - refresh_token\n    token_endpoint_auth_methods:\n      - none\n      - client_secret_post\n    bearer_methods_supported:\n      - header\n    realm: leadspace-builders\n    scopes:\n      - openid\n      - profile\n      - email\n      - offline_access\n    scopes_note: >-\n      Identity scopes only — there is no Leadspace-defined authorization scope.\n      Entitlement (plan tier, credit balance, which reveals are allowed) is\n      enforced server-side against the account,\
   \ not by the token. Detail in\n      scopes/leadspace-scopes.yml.\n    discovery:\n      protected_resource_metadata: https://skprod.leadspace.com/.well-known/oauth-protected-resource\n      authorization_server_metadata: https://skprod.leadspace.com/.well-known/oauth-authorization-server\n      spec:\n        - RFC 9728\n        - RFC 8414\n        - RFC 7591\n    challenge_observed: 'WWW-Authenticate: Bearer realm=\"leadspace-builders\", resource_metadata=\"https://skprod.leadspace.com/mcp/v1/.well-known/oauth-protected-resource\"'\n    sources:\n      - https://www.leadspace.com/solutions/leadspace-mcp/claude\n      - https://www.leadspace.com/solutions/leadspace-mcp/chatgpt\n      - https://skprod.leadspace.com/.well-known/oauth-protected-resource\ntoken_rotation:\n  perpetual_token: true\n  recommended_rotation_months: 6\n  hard_expiry_years: 2\n  process: >-\n    Leadspace recommends rotating the perpetual token every six months from the\n    end of the integration period. An unrotated\
   \ token expires two years after\n    issue. Leadspace generates the replacement, notifies the customer ahead of\n    the end of the token lifecycle (10 working days' notice per the Discovery\n    API docs), and deprecates the old token once migration is confirmed.\nfailure_modes:\n  - status: 401\n    meaning: Wrong credentials, or credentials have expired\n  - status: 403\n    meaning: Program ID is invalid (Discovery API)\n  - status: 427\n    meaning: Insufficient credits, or the program ID is invalid\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/authentication/leadspace-authentication.yml
+source_yaml_url: https://artifacts.apis.io/leadspace/authentication/leadspace-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
 - MCP

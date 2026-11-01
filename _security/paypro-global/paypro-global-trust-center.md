@@ -16,7 +16,7 @@ source_filename: paypro-global-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://payproglobal.com/compliance/\nurl: https://payproglobal.com/compliance/\ncertifications:\n- PCI DSS\n- GDPR\nevidence:\n- source: https://payproglobal.com/compliance/\n  keywords:\n  - pci dss\n  - pci-dss\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paypro-global/refs/heads/main/security/paypro-global-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/paypro-global/security/paypro-global-trust-center.yml
 summary_line: PCI DSS, GDPR
 tags:
 - E-Commerce

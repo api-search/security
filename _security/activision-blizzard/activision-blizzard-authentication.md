@@ -7,31 +7,31 @@ api_specs:
   label: activision-blizzard Account API
   slug: activision-blizzard-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activision-blizzard/refs/heads/main/openapi/activision-blizzard-account-api-openapi.yml
+  url: https://artifacts.apis.io/activision-blizzard/openapi/activision-blizzard-account-api-openapi.yml
 - filename: activision-blizzard-diablo-iii-api-openapi.yml
   format: yaml
   label: activision-blizzard Diablo III API
   slug: activision-blizzard-diablo-iii-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activision-blizzard/refs/heads/main/openapi/activision-blizzard-diablo-iii-api-openapi.yml
+  url: https://artifacts.apis.io/activision-blizzard/openapi/activision-blizzard-diablo-iii-api-openapi.yml
 - filename: activision-blizzard-hearthstone-api-openapi.yml
   format: yaml
   label: activision-blizzard Hearthstone API
   slug: activision-blizzard-hearthstone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activision-blizzard/refs/heads/main/openapi/activision-blizzard-hearthstone-api-openapi.yml
+  url: https://artifacts.apis.io/activision-blizzard/openapi/activision-blizzard-hearthstone-api-openapi.yml
 - filename: activision-blizzard-starcraft-ii-api-openapi.yml
   format: yaml
   label: activision-blizzard StarCraft II API
   slug: activision-blizzard-starcraft-ii-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activision-blizzard/refs/heads/main/openapi/activision-blizzard-starcraft-ii-api-openapi.yml
+  url: https://artifacts.apis.io/activision-blizzard/openapi/activision-blizzard-starcraft-ii-api-openapi.yml
 - filename: activision-blizzard-world-of-warcraft-api-openapi.yml
   format: yaml
   label: activision-blizzard World of Warcraft API
   slug: activision-blizzard-world-of-warcraft-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activision-blizzard/refs/heads/main/openapi/activision-blizzard-world-of-warcraft-api-openapi.yml
+  url: https://artifacts.apis.io/activision-blizzard/openapi/activision-blizzard-world-of-warcraft-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -67,7 +67,7 @@ source_filename: activision-blizzard-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/activision-blizzard-battle-net.json\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: OAuth2ClientCredentials\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://oauth.battle.net/token\n    scopes: 3\n  - flow: authorizationCode\n    authorizationUrl: https://oauth.battle.net/authorize\n    tokenUrl: https://oauth.battle.net/token\n    scopes: 3\n  description: OAuth2 authentication. Create a client at develop.battle.net for client ID and\n    secret.\n  sources:\n  - openapi/activision-blizzard-battle-net.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/activision-blizzard/refs/heads/main/authentication/activision-blizzard-authentication.yml
+source_yaml_url: https://artifacts.apis.io/activision-blizzard/authentication/activision-blizzard-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Fortune 1000

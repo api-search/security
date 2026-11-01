@@ -9,163 +9,163 @@ api_specs:
   label: APIFreaks - API Hub for Developers Commodity APIs API
   slug: apifreaks-api-hub-for-developers-commodity-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/openapi/apifreaks-api-hub-for-developers-commodity-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apifreaks-api-hub-for-developers/openapi/apifreaks-api-hub-for-developers-commodity-apis-api-openapi.yml
 - filename: apifreaks-api-hub-for-developers-currency-apis-api-openapi.yml
   format: yaml
   label: APIFreaks - API Hub for Developers Currency APIs API
   slug: apifreaks-api-hub-for-developers-currency-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/openapi/apifreaks-api-hub-for-developers-currency-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apifreaks-api-hub-for-developers/openapi/apifreaks-api-hub-for-developers-currency-apis-api-openapi.yml
 - filename: apifreaks-api-hub-for-developers-dns-apis-api-openapi.yml
   format: yaml
   label: APIFreaks - API Hub for Developers DNS APIs API
   slug: apifreaks-api-hub-for-developers-dns-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/openapi/apifreaks-api-hub-for-developers-dns-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apifreaks-api-hub-for-developers/openapi/apifreaks-api-hub-for-developers-dns-apis-api-openapi.yml
 - filename: apifreaks-api-hub-for-developers-domain-apis-api-openapi.yml
   format: yaml
   label: APIFreaks - API Hub for Developers Domain APIs API
   slug: apifreaks-api-hub-for-developers-domain-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/openapi/apifreaks-api-hub-for-developers-domain-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apifreaks-api-hub-for-developers/openapi/apifreaks-api-hub-for-developers-domain-apis-api-openapi.yml
 - filename: apifreaks-api-hub-for-developers-email-validation-apis-api-openapi.yml
   format: yaml
   label: APIFreaks - API Hub for Developers Email Validation APIs API
   slug: apifreaks-api-hub-for-developers-email-validation-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/openapi/apifreaks-api-hub-for-developers-email-validation-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apifreaks-api-hub-for-developers/openapi/apifreaks-api-hub-for-developers-email-validation-apis-api-openapi.yml
 - filename: apifreaks-api-hub-for-developers-financial-apis-api-openapi.yml
   format: yaml
   label: APIFreaks - API Hub for Developers Financial APIs API
   slug: apifreaks-api-hub-for-developers-financial-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/openapi/apifreaks-api-hub-for-developers-financial-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apifreaks-api-hub-for-developers/openapi/apifreaks-api-hub-for-developers-financial-apis-api-openapi.yml
 - filename: apifreaks-api-hub-for-developers-flags-apis-api-openapi.yml
   format: yaml
   label: APIFreaks - API Hub for Developers Flags APIs API
   slug: apifreaks-api-hub-for-developers-flags-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/openapi/apifreaks-api-hub-for-developers-flags-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apifreaks-api-hub-for-developers/openapi/apifreaks-api-hub-for-developers-flags-apis-api-openapi.yml
 - filename: apifreaks-api-hub-for-developers-general-apis-api-openapi.yml
   format: yaml
   label: APIFreaks - API Hub for Developers General APIs API
   slug: apifreaks-api-hub-for-developers-general-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/openapi/apifreaks-api-hub-for-developers-general-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apifreaks-api-hub-for-developers/openapi/apifreaks-api-hub-for-developers-general-apis-api-openapi.yml
 - filename: apifreaks-api-hub-for-developers-geocoder-apis-api-openapi.yml
   format: yaml
   label: APIFreaks - API Hub for Developers Geocoder APIs API
   slug: apifreaks-api-hub-for-developers-geocoder-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/openapi/apifreaks-api-hub-for-developers-geocoder-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apifreaks-api-hub-for-developers/openapi/apifreaks-api-hub-for-developers-geocoder-apis-api-openapi.yml
 - filename: apifreaks-api-hub-for-developers-geodb-apis-api-openapi.yml
   format: yaml
   label: APIFreaks - API Hub for Developers GeoDB APIs API
   slug: apifreaks-api-hub-for-developers-geodb-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/openapi/apifreaks-api-hub-for-developers-geodb-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apifreaks-api-hub-for-developers/openapi/apifreaks-api-hub-for-developers-geodb-apis-api-openapi.yml
 - filename: apifreaks-api-hub-for-developers-ip-geolocation-apis-api-openapi.yml
   format: yaml
   label: APIFreaks - API Hub for Developers IP Geolocation APIs API
   slug: apifreaks-api-hub-for-developers-ip-geolocation-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/openapi/apifreaks-api-hub-for-developers-ip-geolocation-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apifreaks-api-hub-for-developers/openapi/apifreaks-api-hub-for-developers-ip-geolocation-apis-api-openapi.yml
 - filename: apifreaks-api-hub-for-developers-other-apis-api-openapi.yml
   format: yaml
   label: APIFreaks - API Hub for Developers Other APIs API
   slug: apifreaks-api-hub-for-developers-other-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/openapi/apifreaks-api-hub-for-developers-other-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apifreaks-api-hub-for-developers/openapi/apifreaks-api-hub-for-developers-other-apis-api-openapi.yml
 - filename: apifreaks-api-hub-for-developers-pdf-operations-apis-api-openapi.yml
   format: yaml
   label: APIFreaks - API Hub for Developers PDF Operations APIs API
   slug: apifreaks-api-hub-for-developers-pdf-operations-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/openapi/apifreaks-api-hub-for-developers-pdf-operations-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apifreaks-api-hub-for-developers/openapi/apifreaks-api-hub-for-developers-pdf-operations-apis-api-openapi.yml
 - filename: apifreaks-api-hub-for-developers-pdf-security-apis-api-openapi.yml
   format: yaml
   label: APIFreaks - API Hub for Developers PDF Security APIs API
   slug: apifreaks-api-hub-for-developers-pdf-security-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/openapi/apifreaks-api-hub-for-developers-pdf-security-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apifreaks-api-hub-for-developers/openapi/apifreaks-api-hub-for-developers-pdf-security-apis-api-openapi.yml
 - filename: apifreaks-api-hub-for-developers-pdf-to-image-apis-api-openapi.yml
   format: yaml
   label: APIFreaks - API Hub for Developers PDF To Image APIs API
   slug: apifreaks-api-hub-for-developers-pdf-to-image-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/openapi/apifreaks-api-hub-for-developers-pdf-to-image-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apifreaks-api-hub-for-developers/openapi/apifreaks-api-hub-for-developers-pdf-to-image-apis-api-openapi.yml
 - filename: apifreaks-api-hub-for-developers-pdf-upload-and-download-apis-api-openapi.yml
   format: yaml
   label: APIFreaks - API Hub for Developers PDF Upload and Download APIs API
   slug: apifreaks-api-hub-for-developers-pdf-upload-and-download-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/openapi/apifreaks-api-hub-for-developers-pdf-upload-and-download-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apifreaks-api-hub-for-developers/openapi/apifreaks-api-hub-for-developers-pdf-upload-and-download-apis-api-openapi.yml
 - filename: apifreaks-api-hub-for-developers-phone-validation-apis-api-openapi.yml
   format: yaml
   label: APIFreaks - API Hub for Developers Phone Validation APIs API
   slug: apifreaks-api-hub-for-developers-phone-validation-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/openapi/apifreaks-api-hub-for-developers-phone-validation-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apifreaks-api-hub-for-developers/openapi/apifreaks-api-hub-for-developers-phone-validation-apis-api-openapi.yml
 - filename: apifreaks-api-hub-for-developers-scraping-apis-api-openapi.yml
   format: yaml
   label: APIFreaks - API Hub for Developers Scraping APIs API
   slug: apifreaks-api-hub-for-developers-scraping-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/openapi/apifreaks-api-hub-for-developers-scraping-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apifreaks-api-hub-for-developers/openapi/apifreaks-api-hub-for-developers-scraping-apis-api-openapi.yml
 - filename: apifreaks-api-hub-for-developers-screenshot-apis-api-openapi.yml
   format: yaml
   label: APIFreaks - API Hub for Developers Screenshot APIs API
   slug: apifreaks-api-hub-for-developers-screenshot-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/openapi/apifreaks-api-hub-for-developers-screenshot-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apifreaks-api-hub-for-developers/openapi/apifreaks-api-hub-for-developers-screenshot-apis-api-openapi.yml
 - filename: apifreaks-api-hub-for-developers-ssl-apis-api-openapi.yml
   format: yaml
   label: APIFreaks - API Hub for Developers SSL APIs API
   slug: apifreaks-api-hub-for-developers-ssl-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/openapi/apifreaks-api-hub-for-developers-ssl-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apifreaks-api-hub-for-developers/openapi/apifreaks-api-hub-for-developers-ssl-apis-api-openapi.yml
 - filename: apifreaks-api-hub-for-developers-task-status-and-file-info-apis-api-openapi.yml
   format: yaml
   label: APIFreaks - API Hub for Developers Task Status and File Info APIs API
   slug: apifreaks-api-hub-for-developers-task-status-and-file-info-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/openapi/apifreaks-api-hub-for-developers-task-status-and-file-info-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apifreaks-api-hub-for-developers/openapi/apifreaks-api-hub-for-developers-task-status-and-file-info-apis-api-openapi.yml
 - filename: apifreaks-api-hub-for-developers-timezone-apis-api-openapi.yml
   format: yaml
   label: APIFreaks - API Hub for Developers Timezone APIs API
   slug: apifreaks-api-hub-for-developers-timezone-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/openapi/apifreaks-api-hub-for-developers-timezone-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apifreaks-api-hub-for-developers/openapi/apifreaks-api-hub-for-developers-timezone-apis-api-openapi.yml
 - filename: apifreaks-api-hub-for-developers-user-agent-apis-api-openapi.yml
   format: yaml
   label: APIFreaks - API Hub for Developers User Agent APIs API
   slug: apifreaks-api-hub-for-developers-user-agent-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/openapi/apifreaks-api-hub-for-developers-user-agent-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apifreaks-api-hub-for-developers/openapi/apifreaks-api-hub-for-developers-user-agent-apis-api-openapi.yml
 - filename: apifreaks-api-hub-for-developers-weather-apis-api-openapi.yml
   format: yaml
   label: APIFreaks - API Hub for Developers Weather APIs API
   slug: apifreaks-api-hub-for-developers-weather-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/openapi/apifreaks-api-hub-for-developers-weather-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apifreaks-api-hub-for-developers/openapi/apifreaks-api-hub-for-developers-weather-apis-api-openapi.yml
 - filename: apifreaks-api-hub-for-developers-whois-apis-api-openapi.yml
   format: yaml
   label: APIFreaks - API Hub for Developers WHOIS APIs API
   slug: apifreaks-api-hub-for-developers-whois-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/openapi/apifreaks-api-hub-for-developers-whois-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apifreaks-api-hub-for-developers/openapi/apifreaks-api-hub-for-developers-whois-apis-api-openapi.yml
 - filename: apifreaks-api-hub-for-developers-zip-code-apis-api-openapi.yml
   format: yaml
   label: APIFreaks - API Hub for Developers ZIP Code APIs API
   slug: apifreaks-api-hub-for-developers-zip-code-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/openapi/apifreaks-api-hub-for-developers-zip-code-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apifreaks-api-hub-for-developers/openapi/apifreaks-api-hub-for-developers-zip-code-apis-api-openapi.yml
 - filename: apifreaks-api-hub-for-developers-pdf-template-apis-api-openapi.yml
   format: yaml
   label: APIFreaks - API Hub for Developers PDF Template APIs API
   slug: apifreaks-api-hub-for-developers-pdf-template-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/openapi/apifreaks-api-hub-for-developers-pdf-template-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apifreaks-api-hub-for-developers/openapi/apifreaks-api-hub-for-developers-pdf-template-apis-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -420,7 +420,7 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: openapi/apifrea
   \  - openapi/apifreaks-api-hub-for-developers-pdf-resource-upload-binary-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-pdf-resource-upload-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-pdf-restrict-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-pdf-split-pages-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-pdf-task-status-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-pdf-to-image-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-pdf-unrestrict-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-phone-number-validation-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-regions-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-reverse-dns-lookup-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-reverse-geocoding-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-reverse-whois-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-rotate-pdf-pages-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-ssl-certificate-chain-lookup-openapi.json\n\
   \  - openapi/apifreaks-api-hub-for-developers-ssl-certificate-lookup-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-subdomain-lookup-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-subregions-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-swift-code-finder-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-swift-code-lookup-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-time-series-weather-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-timezone-converter-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-timezone-lookup-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-usage-credits-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-user-agent-parser-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-vat-number-validation-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-vat-rates-by-ip-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-vat-rates-country-openapi.json\n \
   \ - openapi/apifreaks-api-hub-for-developers-weather-forecast-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-web-scraper-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-website-screenshot-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-whois-domain-lookup-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-whois-ip-lookup-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-zip-code-api-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-zip-code-distance-match-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-zip-code-distance-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-zip-codes-by-city-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-zip-codes-by-region-openapi.json\n  - openapi/apifreaks-api-hub-for-developers-zip-codes-radius-search-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/authentication/apifreaks-api-hub-for-developers-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apifreaks-api-hub-for-developers/authentication/apifreaks-api-hub-for-developers-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - IP Intelligence

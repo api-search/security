@@ -44,7 +44,7 @@ source_filename: momento-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.gomomento.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 01:54:49 2026 GMT\n  hsts: false\n- host: docs.momentohq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 20:11:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n- host: api.cache.cell-1-ap-south-1-1.prod.a.momentohq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 15:35:18 2026 GMT\n  hsts: null\ndomains:\n- domain: gomomento.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: momentohq.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/momento/refs/heads/main/security/momento-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/momento/security/momento-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

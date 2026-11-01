@@ -5,43 +5,91 @@ api_specs:
   label: Context.dev Brand Intelligence API
   slug: contextdev-brand-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-brand-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-brand-intelligence-api-openapi.yml
 - filename: contextdev-monitors-api-openapi.yml
   format: yaml
   label: Context.dev Monitors API
   slug: contextdev-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-monitors-api-openapi.yml
 - filename: contextdev-parsing-api-openapi.yml
   format: yaml
   label: Context.dev Parsing API
   slug: contextdev-parsing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-parsing-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-parsing-api-openapi.yml
 - filename: contextdev-people-api-openapi.yml
   format: yaml
   label: Context.dev People API
   slug: contextdev-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-people-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-people-api-openapi.yml
 - filename: contextdev-utility-api-openapi.yml
   format: yaml
   label: Context.dev Utility API
   slug: contextdev-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-utility-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-utility-api-openapi.yml
 - filename: contextdev-web-extraction-api-openapi.yml
   format: yaml
   label: Context.dev Web Extraction API
   slug: contextdev-web-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-web-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-web-extraction-api-openapi.yml
 - filename: contextdev-web-scraping-api-openapi.yml
   format: yaml
   label: Context.dev Web Scraping API
   slug: contextdev-web-scraping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-web-scraping-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-web-scraping-api-openapi.yml
+- filename: contextdev-agent-feedback-api-openapi.yml
+  format: yaml
+  label: Context.dev Agent Feedback API
+  slug: contextdev-agent-feedback-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-agent-feedback-api-openapi.yml
+- filename: contextdev-answers-api-openapi.yml
+  format: yaml
+  label: Context.dev Answers API
+  slug: contextdev-answers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-answers-api-openapi.yml
+- filename: contextdev-batches-api-openapi.yml
+  format: yaml
+  label: Context.dev Batches API
+  slug: contextdev-batches-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-batches-api-openapi.yml
+- filename: contextdev-browser-profiles-api-openapi.yml
+  format: yaml
+  label: Context.dev Browser Profiles API
+  slug: contextdev-browser-profiles-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-browser-profiles-api-openapi.yml
+- filename: contextdev-logs-api-openapi.yml
+  format: yaml
+  label: Context.dev Logs API
+  slug: contextdev-logs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-logs-api-openapi.yml
+- filename: contextdev-news-api-openapi.yml
+  format: yaml
+  label: Context.dev News API
+  slug: contextdev-news-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-news-api-openapi.yml
+- filename: contextdev-usage-api-openapi.yml
+  format: yaml
+  label: Context.dev Usage API
+  slug: contextdev-usage-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-usage-api-openapi.yml
+- filename: contextdev-webhooks-api-openapi.yml
+  format: yaml
+  label: Context.dev Webhooks API
+  slug: contextdev-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-webhooks-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2 Type 1
@@ -61,7 +109,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: https://trust.context.dev\nx-evidence:\n  fetched: '2026-08-14'\n  url: https://trust.context.dev\n  http_status: 200\nname: Context.dev Trust Center\nurl: https://trust.context.dev\nplatform: Comp AI\nverified_badge: true\nsummary: >-\n  A hosted trust center covering security, compliance, governance and trust\n  documentation, with a security questionnaire available on request.\ncertifications:\n- name: SOC 2 Type 1\n  status: compliant\n  source: https://trust.context.dev\n- name: SOC 2 Type 2\n  status: in-progress\n  source: https://trust.context.dev\nframeworks_active: 2\npolicies_published: 25\npolicy_examples:\n- Sanctions & Disciplinary\n- Background Screening & On/Off-boarding\n- Information Security & Privacy Governance\n- Data Classification & Handling\n- Information Sharing & Transfer\n- Privacy & Data-Subject Rights\n- Retention & Secure Disposal\n- Access Control & Least Privilege\ncontrols_monitored: 47\ncontrol_examples:\n\
   - Acceptable Use\n- Access Rights\n- Asset Inventory\n- Automated Decision-Making Safeguards\n- Change management\n- Configuration & Patch Management\n- Credential Management\n- Data Inventory and Mapping\nsubprocessors_count: 8\nsubprocessors:\n- name: Cloudflare\n  role: CDN, internet security, distributed DNS\n- name: Firebase\n  role: Google platform for mobile and web application development\n- name: Google\n  role: Google Workspace — cloud productivity and collaboration\n- name: Google Cloud\n  role: Cloud compute infrastructure\n- name: Hetzner\n  role: Hosting, dedicated servers and cloud services\ndocuments_public: 0\ndocument_access: >-\n  Policy and control detail plus the security questionnaire are behind a \"Request\n  Access\" gate; the summary counts, framework status, and subprocessor list are\n  public without authentication.\nquestionnaire_available: true\nenterprise_commitments:\n  note: >-\n    The Enterprise plan on https://www.context.dev/pricing separately commits\
   \ to\n    SSO / SAML & SCIM provisioning, a 99.9% uptime SLA, and MSA / DPA contracting.\ncross_ref:\n  domain_security: security/contextdev-domain-security.yml\n  vulnerability_disclosure: security/contextdev-vulnerability-disclosure.yml\n  plans: plans/contextdev-plans-pricing.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/security/contextdev-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/contextdev/security/contextdev-trust-center.yml
 summary_line: SOC 2 Type 1, SOC 2 Type 2
 tags:
 - Web Scraping

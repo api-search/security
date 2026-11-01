@@ -5,13 +5,13 @@ api_specs:
   label: US Citizenship and Immigration Services Case Status API
   slug: us-citizenship-and-immigration-services-case-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-citizenship-and-immigration-services/refs/heads/main/openapi/us-citizenship-and-immigration-services-case-status-api-openapi.yml
+  url: https://artifacts.apis.io/us-citizenship-and-immigration-services/openapi/us-citizenship-and-immigration-services-case-status-api-openapi.yml
 - filename: us-citizenship-and-immigration-services-foia-requests-api-openapi.yml
   format: yaml
   label: US Citizenship and Immigration Services FOIA Requests API
   slug: us-citizenship-and-immigration-services-foia-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-citizenship-and-immigration-services/refs/heads/main/openapi/us-citizenship-and-immigration-services-foia-requests-api-openapi.yml
+  url: https://artifacts.apis.io/us-citizenship-and-immigration-services/openapi/us-citizenship-and-immigration-services-foia-requests-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: us-citizenship-and-immigration-services-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.uscis.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 11 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api-int.uscis.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 12 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: uscis.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-citizenship-and-immigration-services/refs/heads/main/security/us-citizenship-and-immigration-services-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/us-citizenship-and-immigration-services/security/us-citizenship-and-immigration-services-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Federal Government

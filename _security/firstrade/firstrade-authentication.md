@@ -3,36 +3,12 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: firstrade-account-api-openapi.yml
+- filename: firstrade-plaid-api-openapi.yml
   format: yaml
-  label: Firstrade Account API
-  slug: firstrade-account-api
+  label: Firstrade Plaid API
+  slug: firstrade-plaid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/openapi/firstrade-account-api-openapi.yml
-- filename: firstrade-authentication-api-openapi.yml
-  format: yaml
-  label: Firstrade Authentication API
-  slug: firstrade-authentication-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/openapi/firstrade-authentication-api-openapi.yml
-- filename: firstrade-market-data-api-openapi.yml
-  format: yaml
-  label: Firstrade Market Data API
-  slug: firstrade-market-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/openapi/firstrade-market-data-api-openapi.yml
-- filename: firstrade-orders-api-openapi.yml
-  format: yaml
-  label: Firstrade Orders API
-  slug: firstrade-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/openapi/firstrade-orders-api-openapi.yml
-- filename: firstrade-watchlist-api-openapi.yml
-  format: yaml
-  label: Firstrade Watchlist API
-  slug: firstrade-watchlist-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/openapi/firstrade-watchlist-api-openapi.yml
+  url: https://artifacts.apis.io/firstrade/openapi/firstrade-plaid-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +36,7 @@ source_filename: firstrade-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: sessionAuth\n  type: apiKey\n  in: header\n  parameter: ftat\n  description: 'Session token obtained after login. The ftat header must be accompanied by a\n    sid header (session ID) and the static access-token header (value: 833w3XuIFycv18ybi).'\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/authentication/firstrade-authentication.yml
+source_yaml_url: https://artifacts.apis.io/firstrade/authentication/firstrade-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Brokerage

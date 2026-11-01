@@ -46,7 +46,7 @@ source_filename: microsoft-xbox-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 20 02:11:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: learn.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 02:26:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: xbl.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 10:58:20 2026 GMT\n  hsts: false\ndomains:\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: xbl.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-xbox/refs/heads/main/security/microsoft-xbox-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-xbox/security/microsoft-xbox-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Gaming

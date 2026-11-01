@@ -7,7 +7,7 @@ api_specs:
   label: Narvar Orders API
   slug: narvar-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/narvar/refs/heads/main/openapi/narvar-orders-api-openapi.yml
+  url: https://artifacts.apis.io/narvar/openapi/narvar-orders-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -34,7 +34,7 @@ source_filename: narvar-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/narvar-order-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: Account ID and Auth Tokens for Narvar API authentication\n  sources:\n  - openapi/narvar-order-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/narvar/refs/heads/main/authentication/narvar-authentication.yml
+source_yaml_url: https://artifacts.apis.io/narvar/authentication/narvar-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Post-Purchase

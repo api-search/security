@@ -5,67 +5,67 @@ api_specs:
   label: AppLovin Ad Units API
   slug: applovin-ad-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-ad-units-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-ad-units-api-openapi.yml
 - filename: applovin-asset-reporting-api-openapi.yml
   format: yaml
   label: AppLovin Asset Reporting API
   slug: applovin-asset-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-asset-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-asset-reporting-api-openapi.yml
 - filename: applovin-assets-api-openapi.yml
   format: yaml
   label: AppLovin Assets API
   slug: applovin-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-assets-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-assets-api-openapi.yml
 - filename: applovin-campaigns-api-openapi.yml
   format: yaml
   label: AppLovin Campaigns API
   slug: applovin-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-campaigns-api-openapi.yml
 - filename: applovin-conversion-events-api-openapi.yml
   format: yaml
   label: AppLovin Conversion Events API
   slug: applovin-conversion-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-conversion-events-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-conversion-events-api-openapi.yml
 - filename: applovin-creative-sets-api-openapi.yml
   format: yaml
   label: AppLovin Creative Sets API
   slug: applovin-creative-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-creative-sets-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-creative-sets-api-openapi.yml
 - filename: applovin-experiments-api-openapi.yml
   format: yaml
   label: AppLovin Experiments API
   slug: applovin-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-experiments-api-openapi.yml
 - filename: applovin-growth-reporting-api-openapi.yml
   format: yaml
   label: AppLovin Growth Reporting API
   slug: applovin-growth-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-growth-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-growth-reporting-api-openapi.yml
 - filename: applovin-revenue-reporting-api-openapi.yml
   format: yaml
   label: AppLovin Revenue Reporting API
   slug: applovin-revenue-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-revenue-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-revenue-reporting-api-openapi.yml
 - filename: applovin-test-devices-api-openapi.yml
   format: yaml
   label: AppLovin Test Devices API
   slug: applovin-test-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-test-devices-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-test-devices-api-openapi.yml
 - filename: applovin-waterfalls-api-openapi.yml
   format: yaml
   label: AppLovin Waterfalls API
   slug: applovin-waterfalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-waterfalls-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-waterfalls-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -156,7 +156,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP
   \ 'Oct 19 17:17:28 2026 GMT'\n  hsts: false\n- host: max.applovin.com\n  role: Dashboard / SignUp (dash.applovin.com redirects here)\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: 'Sep  1 22:30:27 2026 GMT'\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  root_status: 302\n- host: o.applovin.com\n  role: MAX Ad Unit Management API (baseURL)\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: 'Sep 28 05:29:31 2026 GMT'\n  hsts: false\n- host: r.applovin.com\n  role: Reporting family (baseURL)\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: 'Oct 11 00:50:43 2026 GMT'\n  hsts: false\n  root_status: 400\n  note: >-\n    Returns {\"error\":\"Bad request\"} for any unrouted path, including every /.well-known/\n    probe. This is also the host that accepts the Report Key as a query-string parameter.\n- host: b.applovin.com\n  role: Conversion API (baseURL)\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: 'Oct  5 05:04:46 2026 GMT'\n  hsts:\
   \ false\n  root_status: 403\n- host: api.ads.axon.ai\n  role: Axon Campaign Management API (baseURL / OpenAPI servers[])\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: 'Oct  5 07:03:36 2026 GMT'\n  hsts: false\n  root_status: 404\n  server: nginx\n- host: api-safedk.applovin.com\n  role: Ad Review Rules Management API\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: 'Oct 14 01:17:28 2026 GMT'\n  hsts: false\n  root_status: 200\ndomains:\n- domain: applovin.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: axon.ai\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n  note: >-\n    The axon.ai domain — which serves the Campaign Management API host and, until recently,\n    the documentation — publishes no SPF and no DMARC record, unlike applovin.com which\n    publishes both with p=reject. A brand AppLovin routes production API traffic through\n    has materially weaker DNS-layer hygiene than its primary domain.\nfindings:\n\
   - {severity: info, finding: 'All eight hosts negotiate TLS 1.3 with valid certificates.'}\n- {severity: info, finding: 'applovin.com publishes SPF and DMARC p=reject.'}\n- {severity: low, finding: 'No HSTS on any of the four API hosts (o., r., b., api.ads.axon.ai) or on api-safedk.'}\n- {severity: low, finding: 'No CAA record on applovin.com or axon.ai — any CA may issue for either domain.'}\n- {severity: low, finding: 'DNSSEC not enabled on applovin.com or axon.ai.'}\n- {severity: medium, finding: 'axon.ai publishes neither SPF nor DMARC, while it serves a production API host.'}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/security/applovin-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/applovin/security/applovin-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Advertising

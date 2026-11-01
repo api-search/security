@@ -7,61 +7,61 @@ api_specs:
   label: xMatters Devices API
   slug: xmatters-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-devices-api-openapi.yml
+  url: https://artifacts.apis.io/xmatters/openapi/xmatters-devices-api-openapi.yml
 - filename: xmatters-events-api-openapi.yml
   format: yaml
   label: xMatters Events API
   slug: xmatters-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-events-api-openapi.yml
+  url: https://artifacts.apis.io/xmatters/openapi/xmatters-events-api-openapi.yml
 - filename: xmatters-groups-api-openapi.yml
   format: yaml
   label: xMatters Groups API
   slug: xmatters-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-groups-api-openapi.yml
+  url: https://artifacts.apis.io/xmatters/openapi/xmatters-groups-api-openapi.yml
 - filename: xmatters-integrations-api-openapi.yml
   format: yaml
   label: xMatters Integrations API
   slug: xmatters-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/xmatters/openapi/xmatters-integrations-api-openapi.yml
 - filename: xmatters-people-api-openapi.yml
   format: yaml
   label: xMatters People API
   slug: xmatters-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-people-api-openapi.yml
+  url: https://artifacts.apis.io/xmatters/openapi/xmatters-people-api-openapi.yml
 - filename: xmatters-plans-api-openapi.yml
   format: yaml
   label: xMatters Plans API
   slug: xmatters-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-plans-api-openapi.yml
+  url: https://artifacts.apis.io/xmatters/openapi/xmatters-plans-api-openapi.yml
 - filename: xmatters-scenarios-api-openapi.yml
   format: yaml
   label: xMatters Scenarios API
   slug: xmatters-scenarios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-scenarios-api-openapi.yml
+  url: https://artifacts.apis.io/xmatters/openapi/xmatters-scenarios-api-openapi.yml
 - filename: xmatters-services-api-openapi.yml
   format: yaml
   label: xMatters Services API
   slug: xmatters-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-services-api-openapi.yml
+  url: https://artifacts.apis.io/xmatters/openapi/xmatters-services-api-openapi.yml
 - filename: xmatters-shifts-api-openapi.yml
   format: yaml
   label: xMatters Shifts API
   slug: xmatters-shifts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-shifts-api-openapi.yml
+  url: https://artifacts.apis.io/xmatters/openapi/xmatters-shifts-api-openapi.yml
 - filename: xmatters-on-call-api-openapi.yml
   format: yaml
   label: xMatters On Call API
   slug: xmatters-on-call-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-on-call-api-openapi.yml
+  url: https://artifacts.apis.io/xmatters/openapi/xmatters-on-call-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -98,7 +98,7 @@ source_filename: xmatters-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/xmatters-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - password\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication using a username and password or API key.\n  sources:\n  - openapi/xmatters-openapi.yml\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: password\n    tokenUrl: https://{company}.{deployment}.xmatters.com/api/xm/1/oauth2/token\n    scopes: 0\n  sources:\n  - openapi/xmatters-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/authentication/xmatters-authentication.yml
+source_yaml_url: https://artifacts.apis.io/xmatters/authentication/xmatters-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Incident Management

@@ -7,25 +7,25 @@ api_specs:
   label: Datarails Health API
   slug: datarails-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-health-api-openapi.yml
+  url: https://artifacts.apis.io/datarails/openapi/datarails-health-api-openapi.yml
 - filename: datarails-ready-api-openapi.yml
   format: yaml
   label: Datarails Ready API
   slug: datarails-ready-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-ready-api-openapi.yml
+  url: https://artifacts.apis.io/datarails/openapi/datarails-ready-api-openapi.yml
 - filename: datarails-well-known-api-openapi.yml
   format: yaml
   label: Datarails .well Known API
   slug: datarails-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/datarails/openapi/datarails-well-known-api-openapi.yml
 - filename: datarails-oauth-api-openapi.yml
   format: yaml
   label: Datarails OAUTH API
   slug: datarails-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/datarails/openapi/datarails-oauth-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -117,7 +117,7 @@ source_yaml: "generated: '2026-08-01'\nmethod: searched\nsource: https://mcp.dat
   \ for the same endpoints. Recorded as published; the two documents disagree.\n\n  - name: Data Gateway Service HTTP Basic\n    type: http\n    scheme: basic\n    surface: https://app.datarails.com/api/v1/fileboxes/upload_file\n    sources:\n      - https://support.datarails.com/hc/en-us/articles/14616773038620-Data-Gateway-Service-DGS-API-Documentation\n    credential_form: 'Authorization: basic <base64(username:password)>'\n    notes:\n      - Credential is a real Datarails user account used as a sync user.\n      - Datarails documents that the sync user must NOT have MFA enabled.\n      - No API-key, token or client-credential alternative is documented for this endpoint.\n      - Per-filebox authorisation is a separate control - the target Filebox must have \"Upload via API\" enabled and the caller must supply its UUID.\n    weakness_note: >-\n      Long-lived reusable password credentials over HTTP Basic, with MFA\n      required to be off for the account, is the weakest link in the\
   \ published\n      Datarails auth surface. Recorded as documented, not as a recommendation.\n\n  - name: Application SSO\n    type: saml\n    surface: https://auth.datarails.com/\n    sources:\n      - https://support.datarails.com/hc/en-us/articles/10378530614300-Set-up-SSO-authentication\n      - https://support.datarails.com/hc/en-us/articles/19754261303324-SAML-and-OKTA-SSO-Configuration\n      - https://support.datarails.com/hc/en-us/articles/13816977103772-Microsoft-Azure-SSO-Configuration\n    identity_providers: [Okta, Microsoft Entra ID / Azure AD, generic SAML 2.0]\n    notes:\n      - Human interactive sign-in only; not an API credential.\n      - Datarails notes that an active IdP session is required before the MCP OAuth flow will complete for SSO orgs.\n\nauthorization:\n  model: >-\n    The MCP server enforces the caller's existing Datarails permissions\n    server-side. Per Datarails, a user sees only the data they are authorised\n    to access in the tenant, and the MCP\
   \ connection is read-only.\n  tenant_entitlement: >-\n    FinanceOS AI / MCP access is a paid feature enabled per tenant and per\n    user. Denied callers get \"Authentication Denied: It seems like you are not\n    permitted to use this tool.\"\n  feature_flags:\n    use_semantic_layer_v2: gates the get_business_metric_* data tools (default deny)\n    mcp_use_llm_sql_tool: gates the sql_query tool\n  see: scopes/datarails-scopes.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/authentication/datarails-authentication.yml
+source_yaml_url: https://artifacts.apis.io/datarails/authentication/datarails-authentication.yml
 summary_line: oauth2/http · 3 schemes
 tags:
 - Company

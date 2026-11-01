@@ -5,31 +5,31 @@ api_specs:
   label: Turnkey Organizations API
   slug: turnkey-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/openapi/turnkey-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/turnkey/openapi/turnkey-organizations-api-openapi.yml
 - filename: turnkey-private-keys-api-openapi.yml
   format: yaml
   label: Turnkey Private Keys API
   slug: turnkey-private-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/openapi/turnkey-private-keys-api-openapi.yml
+  url: https://artifacts.apis.io/turnkey/openapi/turnkey-private-keys-api-openapi.yml
 - filename: turnkey-signing-api-openapi.yml
   format: yaml
   label: Turnkey Signing API
   slug: turnkey-signing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/openapi/turnkey-signing-api-openapi.yml
+  url: https://artifacts.apis.io/turnkey/openapi/turnkey-signing-api-openapi.yml
 - filename: turnkey-users-policies-api-openapi.yml
   format: yaml
   label: Turnkey Users & Policies API
   slug: turnkey-users-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/openapi/turnkey-users-policies-api-openapi.yml
+  url: https://artifacts.apis.io/turnkey/openapi/turnkey-users-policies-api-openapi.yml
 - filename: turnkey-wallets-api-openapi.yml
   format: yaml
   label: Turnkey Wallets API
   slug: turnkey-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/openapi/turnkey-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/turnkey/openapi/turnkey-wallets-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: turnkey-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.turnkey.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 00:03:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.turnkey.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 10 12:48:10 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.turnkey.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 17:48:20 2026 GMT\n  hsts: null\ndomains:\n- domain: turnkey.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/security/turnkey-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/turnkey/security/turnkey-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Cryptocurrency

@@ -7,31 +7,31 @@ api_specs:
   label: Ragie Connections API
   slug: ragie-ai-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/openapi/ragie-ai-connections-api-openapi.yml
+  url: https://artifacts.apis.io/ragie-ai/openapi/ragie-ai-connections-api-openapi.yml
 - filename: ragie-ai-documents-api-openapi.yml
   format: yaml
   label: Ragie Documents API
   slug: ragie-ai-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/openapi/ragie-ai-documents-api-openapi.yml
+  url: https://artifacts.apis.io/ragie-ai/openapi/ragie-ai-documents-api-openapi.yml
 - filename: ragie-ai-entities-api-openapi.yml
   format: yaml
   label: Ragie Entities API
   slug: ragie-ai-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/openapi/ragie-ai-entities-api-openapi.yml
+  url: https://artifacts.apis.io/ragie-ai/openapi/ragie-ai-entities-api-openapi.yml
 - filename: ragie-ai-partitions-api-openapi.yml
   format: yaml
   label: Ragie Partitions API
   slug: ragie-ai-partitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/openapi/ragie-ai-partitions-api-openapi.yml
+  url: https://artifacts.apis.io/ragie-ai/openapi/ragie-ai-partitions-api-openapi.yml
 - filename: ragie-ai-retrievals-api-openapi.yml
   format: yaml
   label: Ragie Retrievals API
   slug: ragie-ai-retrievals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/openapi/ragie-ai-retrievals-api-openapi.yml
+  url: https://artifacts.apis.io/ragie-ai/openapi/ragie-ai-retrievals-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: ragie-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ragie-ai-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Ragie API key passed as a Bearer token in the Authorization header.\n  sources:\n  - openapi/ragie-ai-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/authentication/ragie-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ragie-ai/authentication/ragie-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

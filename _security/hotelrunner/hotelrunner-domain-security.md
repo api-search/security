@@ -5,25 +5,25 @@ api_specs:
   label: HotelRunner Channels API
   slug: hotelrunner-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelrunner/refs/heads/main/openapi/hotelrunner-channels-api-openapi.yml
+  url: https://artifacts.apis.io/hotelrunner/openapi/hotelrunner-channels-api-openapi.yml
 - filename: hotelrunner-inventory-api-openapi.yml
   format: yaml
   label: HotelRunner Inventory API
   slug: hotelrunner-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelrunner/refs/heads/main/openapi/hotelrunner-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/hotelrunner/openapi/hotelrunner-inventory-api-openapi.yml
 - filename: hotelrunner-reference-data-api-openapi.yml
   format: yaml
   label: HotelRunner Reference Data API
   slug: hotelrunner-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelrunner/refs/heads/main/openapi/hotelrunner-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/hotelrunner/openapi/hotelrunner-reference-data-api-openapi.yml
 - filename: hotelrunner-reservations-api-openapi.yml
   format: yaml
   label: HotelRunner Reservations API
   slug: hotelrunner-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelrunner/refs/heads/main/openapi/hotelrunner-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/hotelrunner/openapi/hotelrunner-reservations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: hotelrunner-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: hotelrunner.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 12:43:20 2026 GMT\n  hsts: false\n- host: developers.hotelrunner.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 10 12:43:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.hotelrunner.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 12:43:20 2026 GMT\n  hsts: false\ndomains:\n- domain: hotelrunner.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hotelrunner/refs/heads/main/security/hotelrunner-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hotelrunner/security/hotelrunner-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Hospitality

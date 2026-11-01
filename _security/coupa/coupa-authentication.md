@@ -8,25 +8,25 @@ api_specs:
   label: Coupa Invoices API
   slug: coupa-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coupa/refs/heads/main/openapi/coupa-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/coupa/openapi/coupa-invoices-api-openapi.yml
 - filename: coupa-purchase-orders-api-openapi.yml
   format: yaml
   label: Coupa Purchase Orders API
   slug: coupa-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coupa/refs/heads/main/openapi/coupa-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/coupa/openapi/coupa-purchase-orders-api-openapi.yml
 - filename: coupa-requisitions-api-openapi.yml
   format: yaml
   label: Coupa Requisitions API
   slug: coupa-requisitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coupa/refs/heads/main/openapi/coupa-requisitions-api-openapi.yml
+  url: https://artifacts.apis.io/coupa/openapi/coupa-requisitions-api-openapi.yml
 - filename: coupa-suppliers-api-openapi.yml
   format: yaml
   label: Coupa Suppliers API
   slug: coupa-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coupa/refs/heads/main/openapi/coupa-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/coupa/openapi/coupa-suppliers-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -65,7 +65,7 @@ source_filename: coupa-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/coupa-core-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{instance}.coupahost.com/oauth2/token\n    scopes: 8\n  description: OAuth 2.0 authentication. Coupa supports the client_credentials grant type. Obtain\n    client credentials from Coupa instance setup.\n  sources:\n  - openapi/coupa-core-api-openapi.yml\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-COUPA-API-KEY\n  description: Legacy API key authentication. Coupa recommends migrating to OAuth 2.0. API keys\n    are configured per Coupa instance.\n  sources:\n  - openapi/coupa-core-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coupa/refs/heads/main/authentication/coupa-authentication.yml
+source_yaml_url: https://artifacts.apis.io/coupa/authentication/coupa-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - BSM

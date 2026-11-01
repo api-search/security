@@ -5,103 +5,103 @@ api_specs:
   label: Cvent Social Tables Authentication API
   slug: cvent-social-tables-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-social-tables/openapi/cvent-social-tables-authentication-api-openapi.yml
 - filename: cvent-social-tables-diagram-favorites-api-openapi.yml
   format: yaml
   label: Cvent Social Tables Diagram Favorites API
   slug: cvent-social-tables-diagram-favorites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-diagram-favorites-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-social-tables/openapi/cvent-social-tables-diagram-favorites-api-openapi.yml
 - filename: cvent-social-tables-diagram-layouts-api-openapi.yml
   format: yaml
   label: Cvent Social Tables Diagram Layouts API
   slug: cvent-social-tables-diagram-layouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-diagram-layouts-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-social-tables/openapi/cvent-social-tables-diagram-layouts-api-openapi.yml
 - filename: cvent-social-tables-diagram-template-presets-api-openapi.yml
   format: yaml
   label: Cvent Social Tables Diagram Template Presets API
   slug: cvent-social-tables-diagram-template-presets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-diagram-template-presets-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-social-tables/openapi/cvent-social-tables-diagram-template-presets-api-openapi.yml
 - filename: cvent-social-tables-diagrams-api-openapi.yml
   format: yaml
   label: Cvent Social Tables Diagrams API
   slug: cvent-social-tables-diagrams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-diagrams-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-social-tables/openapi/cvent-social-tables-diagrams-api-openapi.yml
 - filename: cvent-social-tables-events-api-openapi.yml
   format: yaml
   label: Cvent Social Tables Events API
   slug: cvent-social-tables-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-events-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-social-tables/openapi/cvent-social-tables-events-api-openapi.yml
 - filename: cvent-social-tables-guest-checkin-api-openapi.yml
   format: yaml
   label: Cvent Social Tables Guest Checkin API
   slug: cvent-social-tables-guest-checkin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-guest-checkin-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-social-tables/openapi/cvent-social-tables-guest-checkin-api-openapi.yml
 - filename: cvent-social-tables-guest-groups-api-openapi.yml
   format: yaml
   label: Cvent Social Tables Guest Groups API
   slug: cvent-social-tables-guest-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-guest-groups-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-social-tables/openapi/cvent-social-tables-guest-groups-api-openapi.yml
 - filename: cvent-social-tables-guest-lists-api-openapi.yml
   format: yaml
   label: Cvent Social Tables Guest Lists API
   slug: cvent-social-tables-guest-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-guest-lists-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-social-tables/openapi/cvent-social-tables-guest-lists-api-openapi.yml
 - filename: cvent-social-tables-guest-meals-api-openapi.yml
   format: yaml
   label: Cvent Social Tables Guest Meals API
   slug: cvent-social-tables-guest-meals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-guest-meals-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-social-tables/openapi/cvent-social-tables-guest-meals-api-openapi.yml
 - filename: cvent-social-tables-guest-tags-api-openapi.yml
   format: yaml
   label: Cvent Social Tables Guest Tags API
   slug: cvent-social-tables-guest-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-guest-tags-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-social-tables/openapi/cvent-social-tables-guest-tags-api-openapi.yml
 - filename: cvent-social-tables-guests-api-openapi.yml
   format: yaml
   label: Cvent Social Tables Guests API
   slug: cvent-social-tables-guests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-guests-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-social-tables/openapi/cvent-social-tables-guests-api-openapi.yml
 - filename: cvent-social-tables-layout-automation-api-openapi.yml
   format: yaml
   label: Cvent Social Tables Layout Automation API
   slug: cvent-social-tables-layout-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-layout-automation-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-social-tables/openapi/cvent-social-tables-layout-automation-api-openapi.yml
 - filename: cvent-social-tables-properties-api-openapi.yml
   format: yaml
   label: Cvent Social Tables Properties API
   slug: cvent-social-tables-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-properties-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-social-tables/openapi/cvent-social-tables-properties-api-openapi.yml
 - filename: cvent-social-tables-rooms-api-openapi.yml
   format: yaml
   label: Cvent Social Tables Rooms API
   slug: cvent-social-tables-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-social-tables/openapi/cvent-social-tables-rooms-api-openapi.yml
 - filename: cvent-social-tables-snc-event-integration-api-openapi.yml
   format: yaml
   label: Cvent Social Tables SNC Event Integration API
   slug: cvent-social-tables-snc-event-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-snc-event-integration-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-social-tables/openapi/cvent-social-tables-snc-event-integration-api-openapi.yml
 - filename: cvent-social-tables-users-api-openapi.yml
   format: yaml
   label: Cvent Social Tables Users API
   slug: cvent-social-tables-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-users-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-social-tables/openapi/cvent-social-tables-users-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -149,7 +149,7 @@ source_filename: cvent-social-tables-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.socialtables.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar  4 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.socialtables.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 18 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.socialtables.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar 15 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: socialtables.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodo.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/security/cvent-social-tables-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cvent-social-tables/security/cvent-social-tables-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - 3D Design

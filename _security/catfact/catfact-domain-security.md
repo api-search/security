@@ -5,19 +5,19 @@ api_specs:
   label: Cat Facts API Breeds API
   slug: catfact-breeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/catfact/refs/heads/main/openapi/catfact-breeds-api-openapi.yml
+  url: https://artifacts.apis.io/catfact/openapi/catfact-breeds-api-openapi.yml
 - filename: catfact-fact-api-openapi.yml
   format: yaml
   label: Cat Facts API Fact API
   slug: catfact-fact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/catfact/refs/heads/main/openapi/catfact-fact-api-openapi.yml
+  url: https://artifacts.apis.io/catfact/openapi/catfact-fact-api-openapi.yml
 - filename: catfact-facts-api-openapi.yml
   format: yaml
   label: Cat Facts API Facts API
   slug: catfact-facts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/catfact/refs/heads/main/openapi/catfact-facts-api-openapi.yml
+  url: https://artifacts.apis.io/catfact/openapi/catfact-facts-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: catfact-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: catfact.ninja\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 15:03:10 2026 GMT\n  hsts: false\ndomains:\n- domain: catfact.ninja\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/catfact/refs/heads/main/security/catfact-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/catfact/security/catfact-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Cat Facts

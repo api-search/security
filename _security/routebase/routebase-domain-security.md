@@ -5,31 +5,31 @@ api_specs:
   label: Routebase API Specs API
   slug: routebase-api-specs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/openapi/routebase-api-specs-api-openapi.yml
+  url: https://artifacts.apis.io/routebase/openapi/routebase-api-specs-api-openapi.yml
 - filename: routebase-ci-test-runs-api-openapi.yml
   format: yaml
   label: Routebase CI & Test Runs API
   slug: routebase-ci-test-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/openapi/routebase-ci-test-runs-api-openapi.yml
+  url: https://artifacts.apis.io/routebase/openapi/routebase-ci-test-runs-api-openapi.yml
 - filename: routebase-docs-as-code-api-openapi.yml
   format: yaml
   label: Routebase Docs as Code API
   slug: routebase-docs-as-code-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/openapi/routebase-docs-as-code-api-openapi.yml
+  url: https://artifacts.apis.io/routebase/openapi/routebase-docs-as-code-api-openapi.yml
 - filename: routebase-scim-api-openapi.yml
   format: yaml
   label: Routebase SCIM API
   slug: routebase-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/openapi/routebase-scim-api-openapi.yml
+  url: https://artifacts.apis.io/routebase/openapi/routebase-scim-api-openapi.yml
 - filename: routebase-security-api-openapi.yml
   format: yaml
   label: Routebase Security API
   slug: routebase-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/openapi/routebase-security-api-openapi.yml
+  url: https://artifacts.apis.io/routebase/openapi/routebase-security-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -75,7 +75,7 @@ source_filename: routebase-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: routebase.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 24 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.routebase.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 30 02:37:55 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: api.routebase.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 30 02:37:55 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\ndomains:\n- domain: routebase.dev\n  dnssec: true\n  caa:\n  - 0 iodef \"mailto:denny.riedl@routebase.dev\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/security/routebase-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/routebase/security/routebase-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - API lifecycle management

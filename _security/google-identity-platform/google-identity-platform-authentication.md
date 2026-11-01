@@ -8,7 +8,7 @@ api_specs:
   label: Google Identity Platform Accounts API
   slug: google-identity-platform-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-identity-platform/refs/heads/main/openapi/google-identity-platform-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/google-identity-platform/openapi/google-identity-platform-accounts-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -35,7 +35,7 @@ source_filename: google-identity-platform-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/identity-toolkit-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: key\n  sources:\n  - openapi/identity-toolkit-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-identity-platform/refs/heads/main/authentication/google-identity-platform-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-identity-platform/authentication/google-identity-platform-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Authentication

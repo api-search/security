@@ -7,31 +7,31 @@ api_specs:
   label: Finn-tannlege A2a API
   slug: finn-tannlege-com-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finn-tannlege-com/refs/heads/main/openapi/finn-tannlege-com-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/finn-tannlege-com/openapi/finn-tannlege-com-a2a-api-openapi.yml
 - filename: finn-tannlege-com-llms-txt-api-openapi.yml
   format: yaml
   label: Finn-tannlege Llms.txt API
   slug: finn-tannlege-com-llms-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finn-tannlege-com/refs/heads/main/openapi/finn-tannlege-com-llms-txt-api-openapi.yml
+  url: https://artifacts.apis.io/finn-tannlege-com/openapi/finn-tannlege-com-llms-txt-api-openapi.yml
 - filename: finn-tannlege-com-mcp-api-openapi.yml
   format: yaml
   label: Finn-tannlege MCP API
   slug: finn-tannlege-com-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finn-tannlege-com/refs/heads/main/openapi/finn-tannlege-com-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/finn-tannlege-com/openapi/finn-tannlege-com-mcp-api-openapi.yml
 - filename: finn-tannlege-com-tannlege-api-openapi.yml
   format: yaml
   label: Finn-tannlege Tannlege API
   slug: finn-tannlege-com-tannlege-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finn-tannlege-com/refs/heads/main/openapi/finn-tannlege-com-tannlege-api-openapi.yml
+  url: https://artifacts.apis.io/finn-tannlege-com/openapi/finn-tannlege-com-tannlege-api-openapi.yml
 - filename: finn-tannlege-com-well-known-api-openapi.yml
   format: yaml
   label: Finn-tannlege .well Known API
   slug: finn-tannlege-com-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finn-tannlege-com/refs/heads/main/openapi/finn-tannlege-com-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/finn-tannlege-com/openapi/finn-tannlege-com-well-known-api-openapi.yml
 auth_types:
 - none
 - apiKey
@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource:\n- https://finn
   \ any REST, A2A or MCP call\n  description: >-\n    \"Frivillig og helt gratis identitetsnøkkel for AI-agenter\" - a voluntary, free identity key. Minted\n    by POST https://finn-tannlege.com/api/keys with an optional JSON body {label, contact_email}; no\n    login or account; the key is returned once and cannot be retrieved again. Sending it as X-API-Key\n    records the call in an aggregated usage ledger (endpoint or tool name and date only - never content or\n    arguments). On this vertical the rate limit is a flat per-IP quota that the key does NOT raise; the\n    provider notes that the higher keyed limit available on some sister verticals is not connected here.\n    The agent card's securitySchemes declares this scheme as consumerApiKey and adds that the same header\n    name denotes a separate producer/write key elsewhere on the platform, but finn-tannlege.com has no\n    write API so here it means only the consumer key. No security requirement in the card or the OpenAPI\n   \
   \ references it.\n  obtain: {method: POST, url: 'https://finn-tannlege.com/api/keys', body: '{\"label\": \"my-agent\", \"contact_email\": \"...\"} (both optional)'}\n  revoke: {method: POST, url: 'https://finn-tannlege.com/api/keys/revoke', body: '{\"key\": \"...\"} or the key as X-API-Key', effect: stops the key; history retained}\n  erase: {method: POST, url: 'https://finn-tannlege.com/api/keys/erase', body: '{\"key\": \"...\"} or the key as X-API-Key', effect: GDPR erasure of label and e-mail}\n  sources: [https://finn-tannlege.com/llms.txt, https://finn-tannlege.com/.well-known/agent-card.json]\n  probe_note: >-\n    Not exercised - minting a key creates a record on the provider's side, and an OPTIONS on /api/keys\n    (204) was the only request made. GET /api/keys returns the site's 404, consistent with a POST-only route.\noauth: false\nopenid_connect: false\napi_keys: true\napi_keys_required: false\nnotes: >-\n  No OAuth 2.0 or OIDC: /.well-known/oauth-authorization-server, /.well-known/oauth-protected-resource\n\
   \  (apex and under /mcp/) and /.well-known/openid-configuration all 404 (well-known/finn-tannlege-com-well-known.yml).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/finn-tannlege-com/refs/heads/main/authentication/finn-tannlege-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/finn-tannlege-com/authentication/finn-tannlege-com-authentication.yml
 summary_line: none/apiKey · 2 schemes
 tags:
 - Dental

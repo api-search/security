@@ -5,19 +5,19 @@ api_specs:
   label: Soothe Health API
   slug: soothe-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soothe/refs/heads/main/openapi/soothe-health-api-openapi.yml
+  url: https://artifacts.apis.io/soothe/openapi/soothe-health-api-openapi.yml
 - filename: soothe-manifest-json-api-openapi.yml
   format: yaml
   label: Soothe Manifest.json API
   slug: soothe-manifest-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soothe/refs/heads/main/openapi/soothe-manifest-json-api-openapi.yml
+  url: https://artifacts.apis.io/soothe/openapi/soothe-manifest-json-api-openapi.yml
 - filename: soothe-soothe-help-center-mirror-api-openapi.yml
   format: yaml
   label: Soothe Soothe Help Center Mirror API
   slug: soothe-soothe-help-center-mirror-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soothe/refs/heads/main/openapi/soothe-soothe-help-center-mirror-api-openapi.yml
+  url: https://artifacts.apis.io/soothe/openapi/soothe-soothe-help-center-mirror-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: soothe-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.soothe.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  7 23:59:59 2026 GMT\n  hsts: false\n- host: help.soothe.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 18:04:31 2026 GMT\n  hsts: null\ndomains:\n- domain: soothe.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/soothe/refs/heads/main/security/soothe-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/soothe/security/soothe-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

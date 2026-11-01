@@ -5,43 +5,43 @@ api_specs:
   label: Caspio Applications API
   slug: caspio-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/openapi/caspio-applications-api-openapi.yml
+  url: https://artifacts.apis.io/caspio/openapi/caspio-applications-api-openapi.yml
 - filename: caspio-authentication-api-openapi.yml
   format: yaml
   label: Caspio Authentication API
   slug: caspio-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/openapi/caspio-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/caspio/openapi/caspio-authentication-api-openapi.yml
 - filename: caspio-files-api-openapi.yml
   format: yaml
   label: Caspio Files API
   slug: caspio-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/openapi/caspio-files-api-openapi.yml
+  url: https://artifacts.apis.io/caspio/openapi/caspio-files-api-openapi.yml
 - filename: caspio-tables-api-openapi.yml
   format: yaml
   label: Caspio Tables API
   slug: caspio-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/openapi/caspio-tables-api-openapi.yml
+  url: https://artifacts.apis.io/caspio/openapi/caspio-tables-api-openapi.yml
 - filename: caspio-tasks-api-openapi.yml
   format: yaml
   label: Caspio Tasks API
   slug: caspio-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/openapi/caspio-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/caspio/openapi/caspio-tasks-api-openapi.yml
 - filename: caspio-users-api-openapi.yml
   format: yaml
   label: Caspio Users API
   slug: caspio-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/openapi/caspio-users-api-openapi.yml
+  url: https://artifacts.apis.io/caspio/openapi/caspio-users-api-openapi.yml
 - filename: caspio-views-api-openapi.yml
   format: yaml
   label: Caspio Views API
   slug: caspio-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/openapi/caspio-views-api-openapi.yml
+  url: https://artifacts.apis.io/caspio/openapi/caspio-views-api-openapi.yml
 certification_count: 5
 certifications:
 - SOC 2
@@ -62,7 +62,7 @@ source_filename: caspio-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: searched\nprobe: true\nsource: https://www.caspio.com/compliance/\nurl: https://www.caspio.com/compliance/\ncertifications:\n- SOC 2\n- PCI DSS\n- HIPAA\n- GDPR\n- FIPS 140\nevidence:\n- source: https://www.caspio.com/compliance/\n  keywords:\n  - soc 2\n  - pci dss\n  - hipaa\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/security/caspio-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/caspio/security/caspio-trust-center.yml
 summary_line: SOC 2, PCI DSS, HIPAA, GDPR, FIPS 140
 tags:
 - Low-Code

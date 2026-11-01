@@ -5,25 +5,25 @@ api_specs:
   label: Express Gateway Apps API
   slug: express-gateway-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/openapi/express-gateway-apps-api-openapi.yml
+  url: https://artifacts.apis.io/express-gateway/openapi/express-gateway-apps-api-openapi.yml
 - filename: express-gateway-credentials-api-openapi.yml
   format: yaml
   label: Express Gateway Credentials API
   slug: express-gateway-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/openapi/express-gateway-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/express-gateway/openapi/express-gateway-credentials-api-openapi.yml
 - filename: express-gateway-scopes-api-openapi.yml
   format: yaml
   label: Express Gateway Scopes API
   slug: express-gateway-scopes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/openapi/express-gateway-scopes-api-openapi.yml
+  url: https://artifacts.apis.io/express-gateway/openapi/express-gateway-scopes-api-openapi.yml
 - filename: express-gateway-users-api-openapi.yml
   format: yaml
   label: Express Gateway Users API
   slug: express-gateway-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/openapi/express-gateway-users-api-openapi.yml
+  url: https://artifacts.apis.io/express-gateway/openapi/express-gateway-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: express-gateway-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.express-gateway.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 13:37:13 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: express-gateway.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/security/express-gateway-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/express-gateway/security/express-gateway-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - API Composition

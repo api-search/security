@@ -7,91 +7,91 @@ api_specs:
   label: Loyverse Categories API
   slug: loyverse-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-categories-api-openapi.yml
+  url: https://artifacts.apis.io/loyverse/openapi/loyverse-categories-api-openapi.yml
 - filename: loyverse-customers-api-openapi.yml
   format: yaml
   label: Loyverse Customers API
   slug: loyverse-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-customers-api-openapi.yml
+  url: https://artifacts.apis.io/loyverse/openapi/loyverse-customers-api-openapi.yml
 - filename: loyverse-discounts-api-openapi.yml
   format: yaml
   label: Loyverse Discounts API
   slug: loyverse-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-discounts-api-openapi.yml
+  url: https://artifacts.apis.io/loyverse/openapi/loyverse-discounts-api-openapi.yml
 - filename: loyverse-employees-api-openapi.yml
   format: yaml
   label: Loyverse Employees API
   slug: loyverse-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-employees-api-openapi.yml
+  url: https://artifacts.apis.io/loyverse/openapi/loyverse-employees-api-openapi.yml
 - filename: loyverse-inventory-api-openapi.yml
   format: yaml
   label: Loyverse Inventory API
   slug: loyverse-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/loyverse/openapi/loyverse-inventory-api-openapi.yml
 - filename: loyverse-items-api-openapi.yml
   format: yaml
   label: Loyverse Items API
   slug: loyverse-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-items-api-openapi.yml
+  url: https://artifacts.apis.io/loyverse/openapi/loyverse-items-api-openapi.yml
 - filename: loyverse-merchants-api-openapi.yml
   format: yaml
   label: Loyverse Merchants API
   slug: loyverse-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/loyverse/openapi/loyverse-merchants-api-openapi.yml
 - filename: loyverse-modifiers-api-openapi.yml
   format: yaml
   label: Loyverse Modifiers API
   slug: loyverse-modifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-modifiers-api-openapi.yml
+  url: https://artifacts.apis.io/loyverse/openapi/loyverse-modifiers-api-openapi.yml
 - filename: loyverse-payment-types-api-openapi.yml
   format: yaml
   label: Loyverse Payment Types API
   slug: loyverse-payment-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-payment-types-api-openapi.yml
+  url: https://artifacts.apis.io/loyverse/openapi/loyverse-payment-types-api-openapi.yml
 - filename: loyverse-pos-devices-api-openapi.yml
   format: yaml
   label: Loyverse POS Devices API
   slug: loyverse-pos-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-pos-devices-api-openapi.yml
+  url: https://artifacts.apis.io/loyverse/openapi/loyverse-pos-devices-api-openapi.yml
 - filename: loyverse-receipts-api-openapi.yml
   format: yaml
   label: Loyverse Receipts API
   slug: loyverse-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/loyverse/openapi/loyverse-receipts-api-openapi.yml
 - filename: loyverse-shifts-api-openapi.yml
   format: yaml
   label: Loyverse Shifts API
   slug: loyverse-shifts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-shifts-api-openapi.yml
+  url: https://artifacts.apis.io/loyverse/openapi/loyverse-shifts-api-openapi.yml
 - filename: loyverse-stores-api-openapi.yml
   format: yaml
   label: Loyverse Stores API
   slug: loyverse-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-stores-api-openapi.yml
+  url: https://artifacts.apis.io/loyverse/openapi/loyverse-stores-api-openapi.yml
 - filename: loyverse-suppliers-api-openapi.yml
   format: yaml
   label: Loyverse Suppliers API
   slug: loyverse-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/loyverse/openapi/loyverse-suppliers-api-openapi.yml
 - filename: loyverse-taxes-api-openapi.yml
   format: yaml
   label: Loyverse Taxes API
   slug: loyverse-taxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-taxes-api-openapi.yml
+  url: https://artifacts.apis.io/loyverse/openapi/loyverse-taxes-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -143,7 +143,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/loyverse-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    Personal access token. Generated in the Loyverse Back Office under Settings,\n    Access Tokens (up to 20 tokens per account, each with an optional expiration).\n    A personal token grants unlimited access to all resources of the account that\n    created it. Passed as `Authorization: Bearer [example key]`.\n  sources:\n  - https://help.loyverse.com/help/loyverse-api\n  - https://developer.loyverse.com/docs/\n- name: oauth2\n  type: oauth2\n  flow: authorizationCode\n  authorizationUrl: https://api.loyverse.com/oauth/authorize\n  tokenUrl: https://api.loyverse.com/oauth/token\n  description: >-\n    OAuth 2.0 authorization-code flow for third-party apps that act on behalf of\n    other Loyverse merchants. Register an app in the Loyverse developer dashboard\n    to obtain\
   \ a client_id and client_secret, then request scoped permissions.\n    Access is granted per scope rather than the unlimited access of a personal\n    token.\n  scopes:\n    CUSTOMERS_READ: Read customers and loyalty data.\n    CUSTOMERS_WRITE: Create and update customers.\n    EMPLOYEES_READ: Read employees.\n    ITEMS_READ: Read items, categories, variants, modifiers, discounts, and taxes.\n    ITEMS_WRITE: Create and update items and related catalog objects.\n    INVENTORY_READ: Read inventory levels.\n    INVENTORY_WRITE: Update inventory levels.\n    MERCHANT_READ: Read merchant and store information.\n    PAYMENT_TYPES_READ: Read payment types.\n    RECEIPTS_READ: Read receipts (sales).\n    RECEIPTS_WRITE: Create receipts.\n    STORES_READ: Read stores.\n  sources:\n  - https://developer.loyverse.com/docs/\n  - https://support.loyverse.com/en/articles/8061203-faqs-about-loyverse-api\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/authentication/loyverse-authentication.yml
+source_yaml_url: https://artifacts.apis.io/loyverse/authentication/loyverse-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Point-of-Sale

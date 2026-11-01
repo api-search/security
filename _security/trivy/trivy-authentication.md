@@ -8,13 +8,13 @@ api_specs:
   label: Trivy Health API
   slug: trivy-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trivy/refs/heads/main/openapi/trivy-health-api-openapi.yml
+  url: https://artifacts.apis.io/trivy/openapi/trivy-health-api-openapi.yml
 - filename: trivy-server-api-openapi.yml
   format: yaml
   label: Trivy Server API
   slug: trivy-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trivy/refs/heads/main/openapi/trivy-server-api-openapi.yml
+  url: https://artifacts.apis.io/trivy/openapi/trivy-server-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: trivy-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/trivy-server-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: TrivyToken\n  type: apiKey\n  in: header\n  parameter: Trivy-Token\n  description: Optional token-based authentication. When the server is started with --token,\n    all requests must include the token in the Trivy-Token header.\n  sources:\n  - openapi/trivy-server-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trivy/refs/heads/main/authentication/trivy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/trivy/authentication/trivy-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Containers

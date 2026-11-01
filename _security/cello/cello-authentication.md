@@ -7,37 +7,31 @@ api_specs:
   label: Cello Events API
   slug: cello-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/openapi/cello-events-api-openapi.yml
+  url: https://artifacts.apis.io/cello/openapi/cello-events-api-openapi.yml
 - filename: cello-new-users-api-openapi.yml
   format: yaml
   label: Cello New Users API
   slug: cello-new-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/openapi/cello-new-users-api-openapi.yml
+  url: https://artifacts.apis.io/cello/openapi/cello-new-users-api-openapi.yml
 - filename: cello-referral-codes-api-openapi.yml
   format: yaml
   label: Cello Referral Codes API
   slug: cello-referral-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/openapi/cello-referral-codes-api-openapi.yml
+  url: https://artifacts.apis.io/cello/openapi/cello-referral-codes-api-openapi.yml
 - filename: cello-referrers-api-openapi.yml
   format: yaml
   label: Cello Referrers API
   slug: cello-referrers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/openapi/cello-referrers-api-openapi.yml
+  url: https://artifacts.apis.io/cello/openapi/cello-referrers-api-openapi.yml
 - filename: cello-token-api-openapi.yml
   format: yaml
   label: Cello Token API
   slug: cello-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/openapi/cello-token-api-openapi.yml
-- filename: cello-events-v2-api-openapi.yml
-  format: yaml
-  label: Cello Events v2 API
-  slug: cello-events-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/openapi/cello-events-v2-api-openapi.yml
+  url: https://artifacts.apis.io/cello/openapi/cello-token-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -126,7 +120,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource:\n- https://docs
   \  - openapi/cello-referrers-api-openapi.yml\n- name: mcp-oauth\n  type: oauth2\n  surface: mcp\n  hosts:\n  - https://mcp.cello.so\n  - https://mcp.sandbox.cello.so\n  authorization_server: https://auth.cello.so\n  flows:\n  - authorization_code\n  - client_credentials\n  - refresh_token\n  - device_code\n  pkce: S256\n  dynamic_client_registration: https://auth.cello.so/oauth2/register\n  scopes:\n  - mcp:read\n  - mcp:write\n  discovery:\n    protected_resource: https://mcp.cello.so/.well-known/oauth-protected-resource\n    authorization_server: https://auth.cello.so/.well-known/oauth-authorization-server\n  ref: ../scopes/cello-scopes.yml\n  note: >-\n    Not declared in any OpenAPI — discovered by probing the MCP endpoint, which answers an\n    unauthenticated tools/list with 401 and a WWW-Authenticate resource_metadata pointer.\n- name: component-jwt\n  type: jwt\n  surface: embedded-components\n  signed_with: Product Secret (Cello Portal -> Integrations -> Access Keys)\n  identifies:\
   \ the end user, via productUserId\n  used_by:\n  - Cello JS (web Referral Component)\n  - iOS / Android / React Native / Flutter SDKs\n  note: >-\n    A product-signed JWT boots the Referral Component for a specific end user. It authenticates a\n    user into the widget, not a server into the API, and is documented at\n    https://docs.cello.so/sdk/client-side/user-authentication rather than in the API reference.\nobservations:\n- id: no-oauth-on-rest\n  detail: >-\n    The REST API publishes no OAuth metadata on api.cello.so — /.well-known/oauth-authorization-server\n    and /.well-known/openid-configuration both 404 — and the mcp:read / mcp:write scopes do not\n    apply to it. There is no scoped, least-privilege credential for the REST surface: an\n    accessToken is all-or-nothing across all six operations, including the destructive\n    POST /referrers/{productUserId}/depersonalize.\n- id: unauthenticated-401-shapes-differ\n  detail: >-\n    The two REST error envelopes disagree.\
   \ An unauthenticated resource call returns\n    {\"message\":\"Unauthorized\"}; a bad credential exchange at POST /token returns\n    {\"statusCode\":401,\"timestamp\":\"...\",\"path\":\"/api/token\",\"message\":\"Invalid API Credentials\"} —\n    a richer NestJS-style envelope, and one that leaks an internal path prefix (/api/token) the\n    public route does not use.\n  evidence:\n  - url: https://api.cello.so/referral-codes/TESTCODE123\n    status: 401\n  - url: https://api.cello.so/token\n    status: 401\nx-evidence:\n  fetched: '2026-08-13'\n  probes:\n  - {url: 'https://docs.cello.so/api-reference/authentication/get-token.md', http_status: 200}\n  - {url: 'https://mcp.cello.so/.well-known/oauth-protected-resource', http_status: 200}\n  - {url: 'https://auth.cello.so/.well-known/oauth-authorization-server', http_status: 200}\n  - {url: 'https://api.cello.so/.well-known/oauth-authorization-server', http_status: 404}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/authentication/cello-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cello/authentication/cello-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Company

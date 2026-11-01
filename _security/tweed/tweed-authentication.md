@@ -7,67 +7,67 @@ api_specs:
   label: Tweed Assets API
   slug: tweed-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/openapi/tweed-assets-api-openapi.yml
+  url: https://artifacts.apis.io/tweed/openapi/tweed-assets-api-openapi.yml
 - filename: tweed-audit-event-mappings-api-openapi.yml
   format: yaml
   label: Tweed Audit Event Mappings API
   slug: tweed-audit-event-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/openapi/tweed-audit-event-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/tweed/openapi/tweed-audit-event-mappings-api-openapi.yml
 - filename: tweed-auth-api-openapi.yml
   format: yaml
   label: Tweed Auth API
   slug: tweed-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/openapi/tweed-auth-api-openapi.yml
+  url: https://artifacts.apis.io/tweed/openapi/tweed-auth-api-openapi.yml
 - filename: tweed-blockchains-api-openapi.yml
   format: yaml
   label: Tweed Blockchains API
   slug: tweed-blockchains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/openapi/tweed-blockchains-api-openapi.yml
+  url: https://artifacts.apis.io/tweed/openapi/tweed-blockchains-api-openapi.yml
 - filename: tweed-checkout-api-openapi.yml
   format: yaml
   label: Tweed Checkout API
   slug: tweed-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/openapi/tweed-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/tweed/openapi/tweed-checkout-api-openapi.yml
 - filename: tweed-contracts-api-openapi.yml
   format: yaml
   label: Tweed Contracts API
   slug: tweed-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/openapi/tweed-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/tweed/openapi/tweed-contracts-api-openapi.yml
 - filename: tweed-items-api-openapi.yml
   format: yaml
   label: Tweed Items API
   slug: tweed-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/openapi/tweed-items-api-openapi.yml
+  url: https://artifacts.apis.io/tweed/openapi/tweed-items-api-openapi.yml
 - filename: tweed-payouts-api-openapi.yml
   format: yaml
   label: Tweed Payouts API
   slug: tweed-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/openapi/tweed-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/tweed/openapi/tweed-payouts-api-openapi.yml
 - filename: tweed-platform-webhooks-api-openapi.yml
   format: yaml
   label: Tweed Platform Webhooks API
   slug: tweed-platform-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/openapi/tweed-platform-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/tweed/openapi/tweed-platform-webhooks-api-openapi.yml
 - filename: tweed-rate-api-openapi.yml
   format: yaml
   label: Tweed Rate API
   slug: tweed-rate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/openapi/tweed-rate-api-openapi.yml
+  url: https://artifacts.apis.io/tweed/openapi/tweed-rate-api-openapi.yml
 - filename: tweed-tickets-api-openapi.yml
   format: yaml
   label: Tweed Tickets API
   slug: tweed-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/openapi/tweed-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/tweed/openapi/tweed-tickets-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -104,7 +104,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/tweed-api-v2-openapi-original.json\ndocs: https://docs.paytweed.com/developer-tools/api/api-v2/authorization\nsummary:\n  types:\n  - http\n  patterns:\n  - bearer user-access-token (API key:secret)\n  - bearer JWT (v1)\nschemes:\n- name: bearer\n  type: http\n  scheme: Bearer\n  bearerFormat: Bearer\n  description: >-\n    API (V2): create a User Access Token (API Key + API Secret) on the\n    Management Dashboard (dashboard.paytweed.com/api-keys) and send it as\n    \"Authorization: Bearer <API_KEY>:<API_SECRET>\" on every request.\n  sources:\n  - openapi/tweed-api-v2-openapi-original.json\n- name: v1-jwt-bearer\n  type: http\n  scheme: Bearer\n  bearerFormat: JWT\n  description: >-\n    API (V1): POST apiKey + apiSecret to\n    https://api-console.paytweed.com/auth/getAccessToken to obtain a JWT, then\n    send \"Authorization: Bearer <JWT>\" on calls to api-console.paytweed.com.\n    Docs advise regenerating the\
   \ JWT only on expiry, not per call.\n  docs: https://docs.paytweed.com/developer-tools/api/api-v1\n  sources:\n  - https://docs.paytweed.com/developer-tools/api/api-v1\nnotes: >-\n  No OAuth2/OIDC surface (no oauth2 securityScheme; openid-configuration\n  absent). API keys are managed in the dashboard; the V2 API also exposes\n  key management operations (AuthController_generateApiToken,\n  AuthController_getApiKeys, AuthController_deleteApiKey). End-user wallet\n  auth in the SDKs is a separate social-login flow (Google) handled by the\n  core SDKs, not an API credential.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/authentication/tweed-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tweed/authentication/tweed-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Company

@@ -8,43 +8,43 @@ api_specs:
   label: Pred Authentication API
   slug: pred-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/openapi/pred-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/pred/openapi/pred-authentication-api-openapi.yml
 - filename: pred-market-discovery-api-openapi.yml
   format: yaml
   label: Pred Market Discovery API
   slug: pred-market-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/openapi/pred-market-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/pred/openapi/pred-market-discovery-api-openapi.yml
 - filename: pred-orders-api-openapi.yml
   format: yaml
   label: Pred Orders API
   slug: pred-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/openapi/pred-orders-api-openapi.yml
+  url: https://artifacts.apis.io/pred/openapi/pred-orders-api-openapi.yml
 - filename: pred-overview-api-openapi.yml
   format: yaml
   label: Pred Overview API
   slug: pred-overview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/openapi/pred-overview-api-openapi.yml
+  url: https://artifacts.apis.io/pred/openapi/pred-overview-api-openapi.yml
 - filename: pred-portfolio-api-openapi.yml
   format: yaml
   label: Pred Portfolio API
   slug: pred-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/openapi/pred-portfolio-api-openapi.yml
+  url: https://artifacts.apis.io/pred/openapi/pred-portfolio-api-openapi.yml
 - filename: pred-user-api-openapi.yml
   format: yaml
   label: Pred User API
   slug: pred-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/openapi/pred-user-api-openapi.yml
+  url: https://artifacts.apis.io/pred/openapi/pred-user-api-openapi.yml
 - filename: pred-websocket-api-openapi.yml
   format: yaml
   label: Pred WebSocket API
   slug: pred-websocket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/openapi/pred-websocket-api-openapi.yml
+  url: https://artifacts.apis.io/pred/openapi/pred-websocket-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -95,7 +95,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/pred-openapi.yml\ndocs: https://pred-1.gitbook.io/pred-docs/api-reference/authentication\nsummary:\n  types:\n  - http\n  - apiKey\n  - signature\n  api_key_in:\n  - header\n  notes: >-\n    Wallet-signature login. A partner-issued X-API-Key gates the\n    login-with-signature endpoint; the login itself is an EIP-712 CreateProxy\n    signature from the user's EOA. Successful login returns a short-lived JWT\n    access token (Bearer) plus a rotating refresh token; authenticated trading\n    endpoints additionally require X-Wallet-Address and X-Proxy-Address headers.\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: 'JWT access token returned by POST /api/v1/auth/login-with-signature; sent as Authorization: Bearer <token>.'\n  sources:\n  - openapi/pred-openapi.yml\n- name: X-API-Key\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: >-\n    Partner API\
   \ key required only for POST /api/v1/auth/login-with-signature.\n    Requested directly from Pred (not self-service).\n  sources:\n  - https://pred-1.gitbook.io/pred-docs/api-reference/authentication\n- name: EIP712-CreateProxy\n  type: signature\n  scheme: eip-712\n  description: >-\n    Login proof. EOA signs an EIP-712 CreateProxy message (domain\n    \"Pred Contract Proxy Factory\", chainId + verifyingContract are env-specific).\n    Signature format 0x<r><s><v>, low-s normalized.\n  sources:\n  - https://pred-1.gitbook.io/pred-docs/api-reference/authentication\n- name: EIP712-Order\n  type: signature\n  scheme: eip-712\n  description: >-\n    Per-order authorization. EOA signs an EIP-712 Order message (domain\n    \"Pred CTF Exchange\" version 1; verifyingContract = the parent market's\n    contract_address from market discovery) for every order placement.\n  sources:\n  - https://pred-1.gitbook.io/pred-docs/api-reference/orders\ncontext_headers:\n- name: X-Wallet-Address\n  usage:\
   \ EOA wallet address; required on order and portfolio endpoints.\n- name: X-Proxy-Address\n  usage: Gnosis Safe proxy wallet address; required on order and portfolio endpoints.\n- name: X-Refresh-Token\n  usage: Refresh token for POST /api/v1/auth/refresh/token (or refresh_token cookie).\ntoken_lifecycle:\n  refresh_endpoint: POST /api/v1/auth/refresh/token\n  rotation: Each refresh rotates the refresh token; reusing an old one returns 401 REFRESH_TOKEN_ALREADY_USED.\n  sdk_refresh_threshold_seconds: 300\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/authentication/pred-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pred/authentication/pred-authentication.yml
 summary_line: http/apiKey/signature · 4 schemes
 tags:
 - Company

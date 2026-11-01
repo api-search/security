@@ -27,7 +27,7 @@ source_filename: genhealthai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://docs.genhealth.ai/docs/getting-started-1\ndocs: https://docs.genhealth.ai/docs/getting-started-1\nsummary:\n  types: [http]\n  http_schemes: [bearer]\n  oauth2_flows: []\n  api_key_in: []\n  notes: >-\n    GenHealth API requests authenticate with an HTTP Bearer token (an API key issued in the developer\n    hub and sent in the Authorization header). The ReadMe developer hub declares a single security\n    scheme \"HTTPBearer\" (type: http, scheme: bearer) and explicitly no OAuth (oauth type: none).\nschemes:\n  - name: HTTPBearer\n    type: http\n    scheme: bearer\n    description: API key passed as a Bearer token in the Authorization request header.\n    sources:\n      - https://docs.genhealth.ai/docs/getting-started-1\noauth:\n  present: false\n  evidence: developer-hub metadata declares oauth type \"none\"\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/genhealthai/refs/heads/main/authentication/genhealthai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/genhealthai/authentication/genhealthai-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

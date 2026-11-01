@@ -37,7 +37,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://flower.ai/docs/intelligence/ + https://flower.ai/docs/framework/ref-api-cli.html\ndescription: >-\n  Authentication across Flower Labs' two surfaces. There is no first-party\n  OpenAPI in the repo, so this profile is derived from the official docs rather\n  than a spec. Flower Intelligence's confidential remote-compute service\n  authenticates with an API key; the Flower framework's hosted control plane\n  (SuperLink / SuperGrid) authenticates via `flwr login`.\nsummary:\n  types: [apiKey]\n  api_key_in: [sdk-attribute]\n  oauth2_flows: []\nschemes:\n  - name: FlowerIntelligenceApiKey\n    type: apiKey\n    in: sdk-attribute\n    detail: >-\n      Remote confidential compute is disabled by default. Callers enable it by\n      setting `remoteHandoff = true` and supplying `apiKey = \"YOUR_API_KEY\"` on\n      the Flower Intelligence singleton. API keys are issued via\n      https://flower.ai/intelligence.\n    docs: https://flower.ai/docs/intelligence/\n\
   \    sources: [docs]\n  - name: SuperLinkLogin\n    type: session\n    in: cli\n    detail: >-\n      The Flower framework control plane is accessed after `flwr login` against\n      a SuperLink / SuperGrid; connections are managed with `flwr config list`.\n    docs: https://flower.ai/docs/framework/ref-api-cli.html\n    sources: [docs]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flower/refs/heads/main/authentication/flower-authentication.yml
+source_yaml_url: https://artifacts.apis.io/flower/authentication/flower-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company

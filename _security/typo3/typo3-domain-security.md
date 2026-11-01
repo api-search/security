@@ -5,25 +5,25 @@ api_specs:
   label: TYPO3 Cache API
   slug: typo3-cache-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typo3/refs/heads/main/openapi/typo3-cache-api-openapi.yml
+  url: https://artifacts.apis.io/typo3/openapi/typo3-cache-api-openapi.yml
 - filename: typo3-major-api-openapi.yml
   format: yaml
   label: TYPO3 Major API
   slug: typo3-major-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typo3/refs/heads/main/openapi/typo3-major-api-openapi.yml
+  url: https://artifacts.apis.io/typo3/openapi/typo3-major-api-openapi.yml
 - filename: typo3-release-api-openapi.yml
   format: yaml
   label: TYPO3 Release API
   slug: typo3-release-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typo3/refs/heads/main/openapi/typo3-release-api-openapi.yml
+  url: https://artifacts.apis.io/typo3/openapi/typo3-release-api-openapi.yml
 - filename: typo3-sitepackage-api-openapi.yml
   format: yaml
   label: TYPO3 Sitepackage API
   slug: typo3-sitepackage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typo3/refs/heads/main/openapi/typo3-sitepackage-api-openapi.yml
+  url: https://artifacts.apis.io/typo3/openapi/typo3-sitepackage-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -63,7 +63,7 @@ source_filename: typo3-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: typo3.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 05:03:04 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.typo3.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 06:28:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: example.typo3.org\n  https: false\ndomains:\n- domain: typo3.org\n  dnssec: true\n  caa:\n  - 0 iodef \"mailto:admin@typo3.org\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/typo3/refs/heads/main/security/typo3-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/typo3/security/typo3-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - CMS

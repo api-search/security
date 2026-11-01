@@ -7,31 +7,31 @@ api_specs:
   label: ELBO AI, INC Audio Uploads API
   slug: elbo-ai-inc-audio-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/openapi/elbo-ai-inc-audio-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/elbo-ai-inc/openapi/elbo-ai-inc-audio-uploads-api-openapi.yml
 - filename: elbo-ai-inc-text-to-speech-api-openapi.yml
   format: yaml
   label: ELBO AI, INC Text to Speech API
   slug: elbo-ai-inc-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/openapi/elbo-ai-inc-text-to-speech-api-openapi.yml
+  url: https://artifacts.apis.io/elbo-ai-inc/openapi/elbo-ai-inc-text-to-speech-api-openapi.yml
 - filename: elbo-ai-inc-usage-api-openapi.yml
   format: yaml
   label: ELBO AI, INC Usage API
   slug: elbo-ai-inc-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/openapi/elbo-ai-inc-usage-api-openapi.yml
+  url: https://artifacts.apis.io/elbo-ai-inc/openapi/elbo-ai-inc-usage-api-openapi.yml
 - filename: elbo-ai-inc-videos-api-openapi.yml
   format: yaml
   label: ELBO AI, INC Videos API
   slug: elbo-ai-inc-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/openapi/elbo-ai-inc-videos-api-openapi.yml
+  url: https://artifacts.apis.io/elbo-ai-inc/openapi/elbo-ai-inc-videos-api-openapi.yml
 - filename: elbo-ai-inc-voices-api-openapi.yml
   format: yaml
   label: ELBO AI, INC Voices API
   slug: elbo-ai-inc-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/openapi/elbo-ai-inc-voices-api-openapi.yml
+  url: https://artifacts.apis.io/elbo-ai-inc/openapi/elbo-ai-inc-voices-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -59,7 +59,7 @@ source_filename: elbo-ai-inc-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/elbo-ai-inc-puppetry-openapi-original.json\nsummary:\n  types:\n  - http\nschemes:\n- name: developerApiKey\n  type: http\n  scheme: bearer\n  bearerFormat: Puppetry API key\n  description: 'Use the Authorization header with a live Puppetry API key: Bearer [example key]'\n  sources:\n  - openapi/elbo-ai-inc-puppetry-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/authentication/elbo-ai-inc-authentication.yml
+source_yaml_url: https://artifacts.apis.io/elbo-ai-inc/authentication/elbo-ai-inc-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

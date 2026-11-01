@@ -5,37 +5,37 @@ api_specs:
   label: Permutive Contextual API
   slug: permutive-contextual-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/openapi/permutive-contextual-api-openapi.yml
+  url: https://artifacts.apis.io/permutive/openapi/permutive-contextual-api-openapi.yml
 - filename: permutive-cohorts-api-openapi.yml
   format: yaml
   label: Permutive Cohorts API
   slug: permutive-cohorts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/openapi/permutive-cohorts-api-openapi.yml
+  url: https://artifacts.apis.io/permutive/openapi/permutive-cohorts-api-openapi.yml
 - filename: permutive-events-api-openapi.yml
   format: yaml
   label: Permutive Events API
   slug: permutive-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/openapi/permutive-events-api-openapi.yml
+  url: https://artifacts.apis.io/permutive/openapi/permutive-events-api-openapi.yml
 - filename: permutive-identity-api-openapi.yml
   format: yaml
   label: Permutive Identity API
   slug: permutive-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/openapi/permutive-identity-api-openapi.yml
+  url: https://artifacts.apis.io/permutive/openapi/permutive-identity-api-openapi.yml
 - filename: permutive-segmentation-api-openapi.yml
   format: yaml
   label: Permutive Segmentation API
   slug: permutive-segmentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/openapi/permutive-segmentation-api-openapi.yml
+  url: https://artifacts.apis.io/permutive/openapi/permutive-segmentation-api-openapi.yml
 - filename: permutive-taxonomy-api-openapi.yml
   format: yaml
   label: Permutive Taxonomy API
   slug: permutive-taxonomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/openapi/permutive-taxonomy-api-openapi.yml
+  url: https://artifacts.apis.io/permutive/openapi/permutive-taxonomy-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2 Type II
@@ -56,7 +56,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nurl: https
   \ testing documentation, security FAQs,\n    subprocessors, live compliance status]\n  privacy_regimes: [GDPR, ePrivacy Directive, CCPA]\n  data_role: >-\n    Permutive operates as a DATA PROCESSOR on behalf of customers (media\n    companies and advertisers) who are the data controllers, governed by a DPA.\nsecurity_posture:\n  encryption_at_rest: AES-256\n  encryption_in_transit: TLS 1.2 or higher\n  key_management: cloud KMS with separation of duties and auditing\n  tenant_isolation: application- and infrastructure-level access controls\n  sso: [SAML, OpenID Connect]\n  mfa: enforced via customer IdP for privileged and administrative access\n  rbac: true\n  just_in_time_privileged_access: true\n  vulnerability_management: continuous scanning across application code, cloud infrastructure and workloads\n  secure_sdlc: automated code analysis and dependency scanning in pipelines\n  penetration_testing: independent third-party, regular cadence\n  bug_bounty: private\nconsent_controls:\n\
   \  mechanisms: [consent-by-token, consent-by-default, opt-out]\n  source: https://docs.permutive.com/governance/consent\n  note: >-\n    Relevant to an advertising-data platform: the SDK can be configured with\n    `consentRequired: true` so no user data is collected until a consent token\n    is supplied. The CCS API has NO server-side consent gate — Permutive\n    documents that the caller is responsible for enforcing consent before\n    sending events.\nevidence:\n- {source: 'https://docs.permutive.com/governance/security', kind: security-practices-page,\n   http_status: 200, keywords: ['SOC 2 Type II', 'SOC 3', 'penetration testing', 'AES-256',\n     'TLS 1.2', 'SAML', 'OpenID Connect'], fetched: '2026-08-13'}\n- {source: 'https://trust.permutive.com/', kind: trust-center, http_status: 200,\n   detail: 'Vanta-hosted; client-rendered, not machine-readable', fetched: '2026-08-13'}\n- {source: 'https://docs.permutive.com/governance/consent', kind: consent-documentation,\n   http_status:\
   \ 200, fetched: '2026-08-13'}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/security/permutive-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/permutive/security/permutive-trust-center.yml
 summary_line: SOC 2 Type II, SOC 3
 tags:
 - Company

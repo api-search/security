@@ -5,37 +5,37 @@ api_specs:
   label: UpTrain Auth API
   slug: uptrain-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptrain/refs/heads/main/openapi/uptrain-auth-api-openapi.yml
+  url: https://artifacts.apis.io/uptrain/openapi/uptrain-auth-api-openapi.yml
 - filename: uptrain-checksets-api-openapi.yml
   format: yaml
   label: UpTrain Checksets API
   slug: uptrain-checksets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptrain/refs/heads/main/openapi/uptrain-checksets-api-openapi.yml
+  url: https://artifacts.apis.io/uptrain/openapi/uptrain-checksets-api-openapi.yml
 - filename: uptrain-datasets-api-openapi.yml
   format: yaml
   label: UpTrain Datasets API
   slug: uptrain-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptrain/refs/heads/main/openapi/uptrain-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/uptrain/openapi/uptrain-datasets-api-openapi.yml
 - filename: uptrain-evaluation-api-openapi.yml
   format: yaml
   label: UpTrain Evaluation API
   slug: uptrain-evaluation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptrain/refs/heads/main/openapi/uptrain-evaluation-api-openapi.yml
+  url: https://artifacts.apis.io/uptrain/openapi/uptrain-evaluation-api-openapi.yml
 - filename: uptrain-root-cause-analysis-api-openapi.yml
   format: yaml
   label: UpTrain Root Cause Analysis API
   slug: uptrain-root-cause-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptrain/refs/heads/main/openapi/uptrain-root-cause-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/uptrain/openapi/uptrain-root-cause-analysis-api-openapi.yml
 - filename: uptrain-runs-api-openapi.yml
   format: yaml
   label: UpTrain Runs API
   slug: uptrain-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptrain/refs/heads/main/openapi/uptrain-runs-api-openapi.yml
+  url: https://artifacts.apis.io/uptrain/openapi/uptrain-runs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -72,7 +72,7 @@ source_filename: uptrain-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: uptrain.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 14:21:17 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.uptrain.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 07:22:30 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: demo.uptrain.ai\n  https: false\ndomains:\n- domain: uptrain.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uptrain/refs/heads/main/security/uptrain-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/uptrain/security/uptrain-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Artificial Intelligence

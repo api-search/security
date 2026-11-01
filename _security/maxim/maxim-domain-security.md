@@ -34,7 +34,7 @@ source_filename: maxim-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.getmaxim.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 12:04:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.getmaxim.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 12:40:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: getmaxim.ai\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maxim/refs/heads/main/security/maxim-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/maxim/security/maxim-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Artificial Intelligence

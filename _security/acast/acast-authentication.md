@@ -8,19 +8,19 @@ api_specs:
   label: Acast Ad Markers API
   slug: acast-ad-markers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acast/refs/heads/main/openapi/acast-ad-markers-api-openapi.yml
+  url: https://artifacts.apis.io/acast/openapi/acast-ad-markers-api-openapi.yml
 - filename: acast-episodes-api-openapi.yml
   format: yaml
   label: Acast Episodes API
   slug: acast-episodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acast/refs/heads/main/openapi/acast-episodes-api-openapi.yml
+  url: https://artifacts.apis.io/acast/openapi/acast-episodes-api-openapi.yml
 - filename: acast-shows-api-openapi.yml
   format: yaml
   label: Acast Shows API
   slug: acast-shows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acast/refs/heads/main/openapi/acast-shows-api-openapi.yml
+  url: https://artifacts.apis.io/acast/openapi/acast-shows-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: acast-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/acast-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: User-scoped API key issued by Acast customer success to Ace plan and Creator\n    Network accounts. Sent on every request in the X-API-Key header.\n  sources:\n  - openapi/acast-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acast/refs/heads/main/authentication/acast-authentication.yml
+source_yaml_url: https://artifacts.apis.io/acast/authentication/acast-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Podcasts

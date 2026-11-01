@@ -5,7 +5,7 @@ api_specs:
   label: 01.AI Chat Completions API
   slug: 01-ai-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/01-ai/refs/heads/main/openapi/01-ai-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/01-ai/openapi/01-ai-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -49,7 +49,7 @@ source_filename: 01-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.01.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  7 23:59:59 2027 GMT\n  hsts: false\n- host: platform.lingyiwanwu.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 13 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 5184000\n- host: api.lingyiwanwu.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 13 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: 01.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: lingyiwanwu.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/01-ai/refs/heads/main/security/01-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/01-ai/security/01-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Artificial Intelligence

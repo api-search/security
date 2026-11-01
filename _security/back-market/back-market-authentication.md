@@ -8,55 +8,55 @@ api_specs:
   label: Back Market Backbox API
   slug: back-market-backbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-backbox-api-openapi.yml
+  url: https://artifacts.apis.io/back-market/openapi/back-market-backbox-api-openapi.yml
 - filename: back-market-backship-api-openapi.yml
   format: yaml
   label: Back Market Backship API
   slug: back-market-backship-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-backship-api-openapi.yml
+  url: https://artifacts.apis.io/back-market/openapi/back-market-backship-api-openapi.yml
 - filename: back-market-care-api-openapi.yml
   format: yaml
   label: Back Market Care API
   slug: back-market-care-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-care-api-openapi.yml
+  url: https://artifacts.apis.io/back-market/openapi/back-market-care-api-openapi.yml
 - filename: back-market-categories-api-openapi.yml
   format: yaml
   label: Back Market Categories API
   slug: back-market-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-categories-api-openapi.yml
+  url: https://artifacts.apis.io/back-market/openapi/back-market-categories-api-openapi.yml
 - filename: back-market-listings-api-openapi.yml
   format: yaml
   label: Back Market Listings API
   slug: back-market-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-listings-api-openapi.yml
+  url: https://artifacts.apis.io/back-market/openapi/back-market-listings-api-openapi.yml
 - filename: back-market-orderline-api-openapi.yml
   format: yaml
   label: Back Market Orderline API
   slug: back-market-orderline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-orderline-api-openapi.yml
+  url: https://artifacts.apis.io/back-market/openapi/back-market-orderline-api-openapi.yml
 - filename: back-market-orders-api-openapi.yml
   format: yaml
   label: Back Market Orders API
   slug: back-market-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-orders-api-openapi.yml
+  url: https://artifacts.apis.io/back-market/openapi/back-market-orders-api-openapi.yml
 - filename: back-market-buy-back-api-openapi.yml
   format: yaml
   label: Back Market Buy Back API
   slug: back-market-buy-back-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-buy-back-api-openapi.yml
+  url: https://artifacts.apis.io/back-market/openapi/back-market-buy-back-api-openapi.yml
 - filename: back-market-task-manager-api-openapi.yml
   format: yaml
   label: Back Market task manager API
   slug: back-market-task-manager-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-task-manager-api-openapi.yml
+  url: https://artifacts.apis.io/back-market/openapi/back-market-task-manager-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-08-02'\nmethod: searched\nsource: openapi/back-ma
   \  parameter: Authorization\n  description: |-\n    Token authentication is done with Basic authentication.\n    Prefix the value with \"Basic\" and use the token you created in the backoffice in the Integrations option page.\n  sources:\n  - openapi/back-market-openapi-original.yml\n- name: BasicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/back-market-openapi-original.yml\napplication:\n  operations_secured: 39\n  operations_total: 39\n  pattern: 'security: [{ApiKeyAuth: []}, {BasicAuth: []}] declared per operation'\ntoken:\n  issuance: seller Back Office → Integrations option page\n  format: opaque; sent verbatim after the literal prefix \"Basic \"\n  expiry: none published\n  rotation: >-\n    Third-party integrator documentation reports that changing the Back Office password\n    invalidates the token and a new one must be issued; Back Market's own API Guidelines do\n    not document a rotation or expiry policy.\n  environment_scope: >-\n    A token is valid only on\
   \ the platform where it was created — production and preprod are\n    separate accounts, and the EU / NA / AP platforms are separate as well.\ncompanion_headers:\n- name: Accept-Language\n  required: true\n  purpose: selects the marketplace country the authenticated call reads or writes\n- name: User-Agent\n  required: true\n  purpose: >-\n    Identifies the integrator as BM-{CompanyName}-{IntegrationName};company@companydomain.com.\n    Mandatory — requests without it may be refused by the platform.\nedge_controls:\n  waf: Cloudflare\n  bot_management: >-\n    Protected endpoints can answer 403 with an ErrorResponseV2 body carrying the code\n    bot-need-challenge and a challengePath; capture cf-ray and escalate.\ngaps:\n- no OAuth 2.0 / OpenID Connect (no /.well-known/openid-configuration on any host)\n- no scopes or least-privilege token model — one token grants the full seller surface\n- no documented token expiry, rotation cadence, or revocation endpoint\n- no mutual TLS or IP allow-listing\
   \ documented\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/authentication/back-market-authentication.yml
+source_yaml_url: https://artifacts.apis.io/back-market/authentication/back-market-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

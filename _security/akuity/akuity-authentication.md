@@ -7,49 +7,49 @@ api_specs:
   label: Akuity Argo CD Service API
   slug: akuity-argocdservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/openapi/akuity-argocdservice-api-openapi.yml
+  url: https://artifacts.apis.io/akuity/openapi/akuity-argocdservice-api-openapi.yml
 - filename: akuity-customroleservice-api-openapi.yml
   format: yaml
   label: Akuity Custom Role Service API
   slug: akuity-customroleservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/openapi/akuity-customroleservice-api-openapi.yml
+  url: https://artifacts.apis.io/akuity/openapi/akuity-customroleservice-api-openapi.yml
 - filename: akuity-extensionservice-api-openapi.yml
   format: yaml
   label: Akuity Extension Service API
   slug: akuity-extensionservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/openapi/akuity-extensionservice-api-openapi.yml
+  url: https://artifacts.apis.io/akuity/openapi/akuity-extensionservice-api-openapi.yml
 - filename: akuity-kargoservice-api-openapi.yml
   format: yaml
   label: Akuity Kargo Service API
   slug: akuity-kargoservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/openapi/akuity-kargoservice-api-openapi.yml
+  url: https://artifacts.apis.io/akuity/openapi/akuity-kargoservice-api-openapi.yml
 - filename: akuity-organizationservice-api-openapi.yml
   format: yaml
   label: Akuity Organization Service API
   slug: akuity-organizationservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/openapi/akuity-organizationservice-api-openapi.yml
+  url: https://artifacts.apis.io/akuity/openapi/akuity-organizationservice-api-openapi.yml
 - filename: akuity-systemservice-api-openapi.yml
   format: yaml
   label: Akuity System Service API
   slug: akuity-systemservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/openapi/akuity-systemservice-api-openapi.yml
+  url: https://artifacts.apis.io/akuity/openapi/akuity-systemservice-api-openapi.yml
 - filename: akuity-api-key-service-api-openapi.yml
   format: yaml
   label: Akuity Api Key Service API
   slug: akuity-api-key-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/openapi/akuity-api-key-service-api-openapi.yml
+  url: https://artifacts.apis.io/akuity/openapi/akuity-api-key-service-api-openapi.yml
 - filename: akuity-auth-service-api-openapi.yml
   format: yaml
   label: Akuity Auth Service API
   slug: akuity-auth-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/openapi/akuity-auth-service-api-openapi.yml
+  url: https://artifacts.apis.io/akuity/openapi/akuity-auth-service-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -83,7 +83,7 @@ source_filename: akuity-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-06'\nmethod: derived\nsource: openapi/akuity-apikey.json, openapi/akuity-argocd.json, openapi/akuity-auth.json, openapi/akuity-customrole.json,\n  openapi/akuity-extension.json, openapi/akuity-kargo.json, openapi/akuity-organization.json,\n  openapi/akuity-system.json\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: 'HTTP Basic auth: username = AKUITY_API_KEY_ID, password = AKUITY_API_KEY_SECRET.'\n  sources:\n  - openapi/akuity-apikey.json\n  - openapi/akuity-argocd.json\n  - openapi/akuity-auth.json\n  - openapi/akuity-customrole.json\n  - openapi/akuity-extension.json\n  - openapi/akuity-kargo.json\n  - openapi/akuity-organization.json\n  - openapi/akuity-system.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/authentication/akuity-authentication.yml
+source_yaml_url: https://artifacts.apis.io/akuity/authentication/akuity-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - GitOps

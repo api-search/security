@@ -7,25 +7,25 @@ api_specs:
   label: Siemens MindSphere Aspect Types API
   slug: siemens-mindsphere-aspect-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/openapi/siemens-mindsphere-aspect-types-api-openapi.yml
+  url: https://artifacts.apis.io/siemens-mindsphere/openapi/siemens-mindsphere-aspect-types-api-openapi.yml
 - filename: siemens-mindsphere-asset-types-api-openapi.yml
   format: yaml
   label: Siemens MindSphere Asset Types API
   slug: siemens-mindsphere-asset-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/openapi/siemens-mindsphere-asset-types-api-openapi.yml
+  url: https://artifacts.apis.io/siemens-mindsphere/openapi/siemens-mindsphere-asset-types-api-openapi.yml
 - filename: siemens-mindsphere-assets-api-openapi.yml
   format: yaml
   label: Siemens MindSphere Assets API
   slug: siemens-mindsphere-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/openapi/siemens-mindsphere-assets-api-openapi.yml
+  url: https://artifacts.apis.io/siemens-mindsphere/openapi/siemens-mindsphere-assets-api-openapi.yml
 - filename: siemens-mindsphere-time-series-api-openapi.yml
   format: yaml
   label: Siemens Insights Hub (MindSphere) Time Series API
   slug: siemens-mindsphere-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/openapi/siemens-mindsphere-time-series-api-openapi.yml
+  url: https://artifacts.apis.io/siemens-mindsphere/openapi/siemens-mindsphere-time-series-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -53,7 +53,7 @@ source_filename: siemens-mindsphere-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/siemens-mindsphere-asset-management-openapi.yml, openapi/siemens-mindsphere-iot-timeseries-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/siemens-mindsphere-asset-management-openapi.yml\n  - openapi/siemens-mindsphere-iot-timeseries-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/authentication/siemens-mindsphere-authentication.yml
+source_yaml_url: https://artifacts.apis.io/siemens-mindsphere/authentication/siemens-mindsphere-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - IoT

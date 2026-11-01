@@ -31,7 +31,7 @@ source_filename: easyar-crs-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: help.easyar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  7 02:47:03 2026 GMT\n  hsts: false\n- host: uac.easyar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  7 02:47:03 2026 GMT\n  hsts: null\ndomains:\n- domain: easyar.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/easyar-crs-api/refs/heads/main/security/easyar-crs-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/easyar-crs-api/security/easyar-crs-api-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Augmented Reality

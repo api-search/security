@@ -5,43 +5,43 @@ api_specs:
   label: Chadwin Companies API
   slug: chadwin-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chadwin/refs/heads/main/openapi/chadwin-companies-api-openapi.yml
+  url: https://artifacts.apis.io/chadwin/openapi/chadwin-companies-api-openapi.yml
 - filename: chadwin-company-kpis-api-openapi.yml
   format: yaml
   label: Chadwin Company KPIs API
   slug: chadwin-company-kpis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chadwin/refs/heads/main/openapi/chadwin-company-kpis-api-openapi.yml
+  url: https://artifacts.apis.io/chadwin/openapi/chadwin-company-kpis-api-openapi.yml
 - filename: chadwin-company-reports-api-openapi.yml
   format: yaml
   label: Chadwin Company reports API
   slug: chadwin-company-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chadwin/refs/heads/main/openapi/chadwin-company-reports-api-openapi.yml
+  url: https://artifacts.apis.io/chadwin/openapi/chadwin-company-reports-api-openapi.yml
 - filename: chadwin-current-reports-api-openapi.yml
   format: yaml
   label: Chadwin Current reports API
   slug: chadwin-current-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chadwin/refs/heads/main/openapi/chadwin-current-reports-api-openapi.yml
+  url: https://artifacts.apis.io/chadwin/openapi/chadwin-current-reports-api-openapi.yml
 - filename: chadwin-insider-activity-api-openapi.yml
   format: yaml
   label: Chadwin Insider activity API
   slug: chadwin-insider-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chadwin/refs/heads/main/openapi/chadwin-insider-activity-api-openapi.yml
+  url: https://artifacts.apis.io/chadwin/openapi/chadwin-insider-activity-api-openapi.yml
 - filename: chadwin-institutional-holdings-api-openapi.yml
   format: yaml
   label: Chadwin Institutional holdings API
   slug: chadwin-institutional-holdings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chadwin/refs/heads/main/openapi/chadwin-institutional-holdings-api-openapi.yml
+  url: https://artifacts.apis.io/chadwin/openapi/chadwin-institutional-holdings-api-openapi.yml
 - filename: chadwin-normalized-financial-statements-api-openapi.yml
   format: yaml
   label: Chadwin Normalized financial statements API
   slug: chadwin-normalized-financial-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chadwin/refs/heads/main/openapi/chadwin-normalized-financial-statements-api-openapi.yml
+  url: https://artifacts.apis.io/chadwin/openapi/chadwin-normalized-financial-statements-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: chadwin-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-16'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: chadwin.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  8 18:43:10 2027 GMT\n  hsts: false\ndomains:\n- domain: chadwin.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chadwin/refs/heads/main/security/chadwin-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/chadwin/security/chadwin-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

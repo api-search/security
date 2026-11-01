@@ -7,55 +7,55 @@ api_specs:
   label: Snipcart Customers API
   slug: snipcart-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-customers-api-openapi.yml
+  url: https://artifacts.apis.io/snipcart/openapi/snipcart-customers-api-openapi.yml
 - filename: snipcart-discounts-api-openapi.yml
   format: yaml
   label: Snipcart Discounts API
   slug: snipcart-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-discounts-api-openapi.yml
+  url: https://artifacts.apis.io/snipcart/openapi/snipcart-discounts-api-openapi.yml
 - filename: snipcart-domains-api-openapi.yml
   format: yaml
   label: Snipcart Domains API
   slug: snipcart-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-domains-api-openapi.yml
+  url: https://artifacts.apis.io/snipcart/openapi/snipcart-domains-api-openapi.yml
 - filename: snipcart-notifications-api-openapi.yml
   format: yaml
   label: Snipcart Notifications API
   slug: snipcart-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/snipcart/openapi/snipcart-notifications-api-openapi.yml
 - filename: snipcart-orders-api-openapi.yml
   format: yaml
   label: Snipcart Orders API
   slug: snipcart-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-orders-api-openapi.yml
+  url: https://artifacts.apis.io/snipcart/openapi/snipcart-orders-api-openapi.yml
 - filename: snipcart-products-api-openapi.yml
   format: yaml
   label: Snipcart Products API
   slug: snipcart-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-products-api-openapi.yml
+  url: https://artifacts.apis.io/snipcart/openapi/snipcart-products-api-openapi.yml
 - filename: snipcart-refunds-api-openapi.yml
   format: yaml
   label: Snipcart Refunds API
   slug: snipcart-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/snipcart/openapi/snipcart-refunds-api-openapi.yml
 - filename: snipcart-abandoned-carts-api-openapi.yml
   format: yaml
   label: Snipcart Abandoned Carts API
   slug: snipcart-abandoned-carts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-abandoned-carts-api-openapi.yml
+  url: https://artifacts.apis.io/snipcart/openapi/snipcart-abandoned-carts-api-openapi.yml
 - filename: snipcart-user-sessions-api-openapi.yml
   format: yaml
   label: Snipcart User Sessions API
   slug: snipcart-user-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-user-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/snipcart/openapi/snipcart-user-sessions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -82,7 +82,7 @@ source_filename: snipcart-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/snipcart-rest-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: 'Use your secret API key as the username with an empty password. Base64-encode\n    as {API_KEY}: and pass as Authorization: Basic {encoded}.'\n  sources:\n  - openapi/snipcart-rest-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/authentication/snipcart-authentication.yml
+source_yaml_url: https://artifacts.apis.io/snipcart/authentication/snipcart-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - E-Commerce

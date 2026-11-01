@@ -5,19 +5,19 @@ api_specs:
   label: Empirical Security CVE Groups API
   slug: empirical-security-cve-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/empirical-security/refs/heads/main/openapi/empirical-security-cve-groups-api-openapi.yml
+  url: https://artifacts.apis.io/empirical-security/openapi/empirical-security-cve-groups-api-openapi.yml
 - filename: empirical-security-search-api-openapi.yml
   format: yaml
   label: Empirical Security Search API
   slug: empirical-security-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/empirical-security/refs/heads/main/openapi/empirical-security-search-api-openapi.yml
+  url: https://artifacts.apis.io/empirical-security/openapi/empirical-security-search-api-openapi.yml
 - filename: empirical-security-cves-api-openapi.yml
   format: yaml
   label: Empirical Security CV Es API
   slug: empirical-security-cves-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/empirical-security/refs/heads/main/openapi/empirical-security-cves-api-openapi.yml
+  url: https://artifacts.apis.io/empirical-security/openapi/empirical-security-cves-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: empirical-security-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.empiricalsecurity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 23:49:15 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: app.empiricalsecurity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  5 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: empiricalsecurity.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/empirical-security/refs/heads/main/security/empirical-security-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/empirical-security/security/empirical-security-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

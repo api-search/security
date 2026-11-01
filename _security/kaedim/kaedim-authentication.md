@@ -8,25 +8,25 @@ api_specs:
   label: Kaedim Assets API
   slug: kaedim-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/openapi/kaedim-assets-api-openapi.yml
+  url: https://artifacts.apis.io/kaedim/openapi/kaedim-assets-api-openapi.yml
 - filename: kaedim-auth-api-openapi.yml
   format: yaml
   label: Kaedim Auth API
   slug: kaedim-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/openapi/kaedim-auth-api-openapi.yml
+  url: https://artifacts.apis.io/kaedim/openapi/kaedim-auth-api-openapi.yml
 - filename: kaedim-generation-api-openapi.yml
   format: yaml
   label: Kaedim Generation API
   slug: kaedim-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/openapi/kaedim-generation-api-openapi.yml
+  url: https://artifacts.apis.io/kaedim/openapi/kaedim-generation-api-openapi.yml
 - filename: kaedim-webhooks-api-openapi.yml
   format: yaml
   label: Kaedim Webhooks API
   slug: kaedim-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/openapi/kaedim-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/kaedim/openapi/kaedim-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -62,7 +62,7 @@ source_filename: kaedim-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/kaedim-web-api-openapi.yml\ndocs: https://docs.kaedim3d.com/enterprise-features/custom-integrations/apis/web-api\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: Enterprise API key from Settings > API Keys in the Kaedim app.\n  sources:\n  - openapi/kaedim-web-api-openapi.yml\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: JWT obtained via /registerHook, refreshed via /refreshJWT every 12 hours.\n  sources:\n  - openapi/kaedim-web-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/authentication/kaedim-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kaedim/authentication/kaedim-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

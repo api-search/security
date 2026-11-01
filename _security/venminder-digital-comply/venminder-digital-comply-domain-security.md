@@ -5,91 +5,91 @@ api_specs:
   label: Venminder (Digital Comply) Contact API
   slug: venminder-digital-comply-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-contact-api-openapi.yml
+  url: https://artifacts.apis.io/venminder-digital-comply/openapi/venminder-digital-comply-contact-api-openapi.yml
 - filename: venminder-digital-comply-contracts-api-openapi.yml
   format: yaml
   label: Venminder (Digital Comply) Contracts API
   slug: venminder-digital-comply-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/venminder-digital-comply/openapi/venminder-digital-comply-contracts-api-openapi.yml
 - filename: venminder-digital-comply-data-api-openapi.yml
   format: yaml
   label: Venminder (Digital Comply) Data API
   slug: venminder-digital-comply-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-data-api-openapi.yml
+  url: https://artifacts.apis.io/venminder-digital-comply/openapi/venminder-digital-comply-data-api-openapi.yml
 - filename: venminder-digital-comply-documents-api-openapi.yml
   format: yaml
   label: Venminder (Digital Comply) Documents API
   slug: venminder-digital-comply-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-documents-api-openapi.yml
+  url: https://artifacts.apis.io/venminder-digital-comply/openapi/venminder-digital-comply-documents-api-openapi.yml
 - filename: venminder-digital-comply-issues-api-openapi.yml
   format: yaml
   label: Venminder (Digital Comply) Issues API
   slug: venminder-digital-comply-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-issues-api-openapi.yml
+  url: https://artifacts.apis.io/venminder-digital-comply/openapi/venminder-digital-comply-issues-api-openapi.yml
 - filename: venminder-digital-comply-oversightrequirement-api-openapi.yml
   format: yaml
   label: Venminder (Digital Comply) OversightRequirement API
   slug: venminder-digital-comply-oversightrequirement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-oversightrequirement-api-openapi.yml
+  url: https://artifacts.apis.io/venminder-digital-comply/openapi/venminder-digital-comply-oversightrequirement-api-openapi.yml
 - filename: venminder-digital-comply-oversighttask-api-openapi.yml
   format: yaml
   label: Venminder (Digital Comply) OversightTask API
   slug: venminder-digital-comply-oversighttask-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-oversighttask-api-openapi.yml
+  url: https://artifacts.apis.io/venminder-digital-comply/openapi/venminder-digital-comply-oversighttask-api-openapi.yml
 - filename: venminder-digital-comply-questionnaire-api-openapi.yml
   format: yaml
   label: Venminder (Digital Comply) Questionnaire API
   slug: venminder-digital-comply-questionnaire-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-questionnaire-api-openapi.yml
+  url: https://artifacts.apis.io/venminder-digital-comply/openapi/venminder-digital-comply-questionnaire-api-openapi.yml
 - filename: venminder-digital-comply-services-api-openapi.yml
   format: yaml
   label: Venminder (Digital Comply) Services API
   slug: venminder-digital-comply-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-services-api-openapi.yml
+  url: https://artifacts.apis.io/venminder-digital-comply/openapi/venminder-digital-comply-services-api-openapi.yml
 - filename: venminder-digital-comply-vendoronboarding-api-openapi.yml
   format: yaml
   label: Venminder (Digital Comply) VendorOnboarding API
   slug: venminder-digital-comply-vendoronboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-vendoronboarding-api-openapi.yml
+  url: https://artifacts.apis.io/venminder-digital-comply/openapi/venminder-digital-comply-vendoronboarding-api-openapi.yml
 - filename: venminder-digital-comply-vendors-api-openapi.yml
   format: yaml
   label: Venminder (Digital Comply) Vendors API
   slug: venminder-digital-comply-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/venminder-digital-comply/openapi/venminder-digital-comply-vendors-api-openapi.yml
 - filename: venminder-digital-comply-vendorspend-api-openapi.yml
   format: yaml
   label: Venminder (Digital Comply) VendorSpend API
   slug: venminder-digital-comply-vendorspend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-vendorspend-api-openapi.yml
+  url: https://artifacts.apis.io/venminder-digital-comply/openapi/venminder-digital-comply-vendorspend-api-openapi.yml
 - filename: venminder-digital-comply-venmonitor-api-openapi.yml
   format: yaml
   label: Venminder (Digital Comply) Venmonitor API
   slug: venminder-digital-comply-venmonitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-venmonitor-api-openapi.yml
+  url: https://artifacts.apis.io/venminder-digital-comply/openapi/venminder-digital-comply-venmonitor-api-openapi.yml
 - filename: venminder-digital-comply-business-unit-api-openapi.yml
   format: yaml
   label: Venminder (Digital Comply) Business Unit API
   slug: venminder-digital-comply-business-unit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-business-unit-api-openapi.yml
+  url: https://artifacts.apis.io/venminder-digital-comply/openapi/venminder-digital-comply-business-unit-api-openapi.yml
 - filename: venminder-digital-comply-client-information-api-openapi.yml
   format: yaml
   label: Venminder (Digital Comply) Client information API
   slug: venminder-digital-comply-client-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-client-information-api-openapi.yml
+  url: https://artifacts.apis.io/venminder-digital-comply/openapi/venminder-digital-comply-client-information-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -130,7 +130,7 @@ source_filename: venminder-digital-comply-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.venminder.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 11:31:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.venminder.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 16:20:12 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: rsd.venminder.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  7 20:42:38 2027 GMT\n  hsts: null\ndomains:\n- domain: venminder.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/security/venminder-digital-comply-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/venminder-digital-comply/security/venminder-digital-comply-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

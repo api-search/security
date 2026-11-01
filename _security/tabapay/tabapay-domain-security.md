@@ -5,97 +5,97 @@ api_specs:
   label: TabaPay 3D Secure API
   slug: tabapay-3d-secure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-3d-secure-api-openapi.yml
+  url: https://artifacts.apis.io/tabapay/openapi/tabapay-3d-secure-api-openapi.yml
 - filename: tabapay-account-api-openapi.yml
   format: yaml
   label: TabaPay Account API
   slug: tabapay-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-account-api-openapi.yml
+  url: https://artifacts.apis.io/tabapay/openapi/tabapay-account-api-openapi.yml
 - filename: tabapay-bank-api-openapi.yml
   format: yaml
   label: TabaPay Bank API
   slug: tabapay-bank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-bank-api-openapi.yml
+  url: https://artifacts.apis.io/tabapay/openapi/tabapay-bank-api-openapi.yml
 - filename: tabapay-card-api-openapi.yml
   format: yaml
   label: TabaPay Card API
   slug: tabapay-card-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-card-api-openapi.yml
+  url: https://artifacts.apis.io/tabapay/openapi/tabapay-card-api-openapi.yml
 - filename: tabapay-client-api-openapi.yml
   format: yaml
   label: TabaPay Client API
   slug: tabapay-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-client-api-openapi.yml
+  url: https://artifacts.apis.io/tabapay/openapi/tabapay-client-api-openapi.yml
 - filename: tabapay-fxrate-api-openapi.yml
   format: yaml
   label: TabaPay FXRate API
   slug: tabapay-fxrate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-fxrate-api-openapi.yml
+  url: https://artifacts.apis.io/tabapay/openapi/tabapay-fxrate-api-openapi.yml
 - filename: tabapay-health-api-openapi.yml
   format: yaml
   label: TabaPay Health API
   slug: tabapay-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-health-api-openapi.yml
+  url: https://artifacts.apis.io/tabapay/openapi/tabapay-health-api-openapi.yml
 - filename: tabapay-key-api-openapi.yml
   format: yaml
   label: TabaPay Key API
   slug: tabapay-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-key-api-openapi.yml
+  url: https://artifacts.apis.io/tabapay/openapi/tabapay-key-api-openapi.yml
 - filename: tabapay-ledger-api-openapi.yml
   format: yaml
   label: TabaPay Ledger API
   slug: tabapay-ledger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-ledger-api-openapi.yml
+  url: https://artifacts.apis.io/tabapay/openapi/tabapay-ledger-api-openapi.yml
 - filename: tabapay-ofac-api-openapi.yml
   format: yaml
   label: TabaPay OFAC API
   slug: tabapay-ofac-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-ofac-api-openapi.yml
+  url: https://artifacts.apis.io/tabapay/openapi/tabapay-ofac-api-openapi.yml
 - filename: tabapay-subclient-api-openapi.yml
   format: yaml
   label: TabaPay SubClient API
   slug: tabapay-subclient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-subclient-api-openapi.yml
+  url: https://artifacts.apis.io/tabapay/openapi/tabapay-subclient-api-openapi.yml
 - filename: tabapay-tag-api-openapi.yml
   format: yaml
   label: TabaPay Tag API
   slug: tabapay-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-tag-api-openapi.yml
+  url: https://artifacts.apis.io/tabapay/openapi/tabapay-tag-api-openapi.yml
 - filename: tabapay-transaction-api-openapi.yml
   format: yaml
   label: TabaPay Transaction API
   slug: tabapay-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/tabapay/openapi/tabapay-transaction-api-openapi.yml
 - filename: tabapay-user-api-openapi.yml
   format: yaml
   label: TabaPay User API
   slug: tabapay-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-user-api-openapi.yml
+  url: https://artifacts.apis.io/tabapay/openapi/tabapay-user-api-openapi.yml
 - filename: tabapay-verification-api-openapi.yml
   format: yaml
   label: TabaPay Verification API
   slug: tabapay-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-verification-api-openapi.yml
+  url: https://artifacts.apis.io/tabapay/openapi/tabapay-verification-api-openapi.yml
 - filename: tabapay-transaction-request-api-openapi.yml
   format: yaml
   label: TabaPay Transaction Request API
   slug: tabapay-transaction-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-transaction-request-api-openapi.yml
+  url: https://artifacts.apis.io/tabapay/openapi/tabapay-transaction-request-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -133,7 +133,7 @@ source_filename: tabapay-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tabapay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 22:43:30 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.tabapay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 08:46:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.tabapay.com\n  https: false\ndomains:\n- domain: tabapay.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/security/tabapay-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tabapay/security/tabapay-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -5,7 +5,25 @@ api_specs:
   label: Amazon GameLift Amazon GameLift API
   slug: amazon-gamelift-amazon-gamelift-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/openapi/amazon-gamelift-amazon-gamelift-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-gamelift/openapi/amazon-gamelift-amazon-gamelift-api-openapi.yml
+- filename: amazon-gamelift-container-fleet-api-openapi.yml
+  format: yaml
+  label: Amazon GameLift Gamelift Container Fleet API
+  slug: amazon-gamelift-container-fleet-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-gamelift/openapi/amazon-gamelift-container-fleet-api-openapi.yml
+- filename: amazon-gamelift-container-group-definition-api-openapi.yml
+  format: yaml
+  label: Amazon GameLift Gamelift Container Group Definition API
+  slug: amazon-gamelift-container-group-definition-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-gamelift/openapi/amazon-gamelift-container-group-definition-api-openapi.yml
+- filename: amazon-gamelift-operations-api-openapi.yml
+  format: yaml
+  label: Amazon GameLift Gamelift Operations API
+  slug: amazon-gamelift-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-gamelift/openapi/amazon-gamelift-operations-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -26,7 +44,7 @@ source_filename: amazon-gamelift-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://aws.amazon.com/compliance/\nurl: https://aws.amazon.com/compliance/\ncertifications:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://aws.amazon.com/compliance/\n  keywords:\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/security/amazon-gamelift-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/amazon-gamelift/security/amazon-gamelift-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Cloud Computing

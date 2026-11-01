@@ -5,103 +5,103 @@ api_specs:
   label: Arize Phoenix Annotation Configs API
   slug: phoenix-annotation-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-annotation-configs-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-annotation-configs-api-openapi.yml
 - filename: phoenix-annotations-api-openapi.yml
   format: yaml
   label: Arize Phoenix Annotations API
   slug: phoenix-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-annotations-api-openapi.yml
 - filename: phoenix-arize-phoenix-version-api-openapi.yml
   format: yaml
   label: Arize Phoenix Arize Phoenix Version API
   slug: phoenix-arize-phoenix-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-arize-phoenix-version-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-arize-phoenix-version-api-openapi.yml
 - filename: phoenix-auth-api-openapi.yml
   format: yaml
   label: Arize Phoenix Auth API
   slug: phoenix-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-auth-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-auth-api-openapi.yml
 - filename: phoenix-chat-api-openapi.yml
   format: yaml
   label: Arize Phoenix Chat API
   slug: phoenix-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-chat-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-chat-api-openapi.yml
 - filename: phoenix-datasets-api-openapi.yml
   format: yaml
   label: Arize Phoenix Datasets API
   slug: phoenix-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-datasets-api-openapi.yml
 - filename: phoenix-experiments-api-openapi.yml
   format: yaml
   label: Arize Phoenix Experiments API
   slug: phoenix-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-experiments-api-openapi.yml
 - filename: phoenix-healthz-api-openapi.yml
   format: yaml
   label: Arize Phoenix Healthz API
   slug: phoenix-healthz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-healthz-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-healthz-api-openapi.yml
 - filename: phoenix-projects-api-openapi.yml
   format: yaml
   label: Arize Phoenix Projects API
   slug: phoenix-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-projects-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-projects-api-openapi.yml
 - filename: phoenix-prompts-api-openapi.yml
   format: yaml
   label: Arize Phoenix Prompts API
   slug: phoenix-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-prompts-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-prompts-api-openapi.yml
 - filename: phoenix-readyz-api-openapi.yml
   format: yaml
   label: Arize Phoenix Readyz API
   slug: phoenix-readyz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-readyz-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-readyz-api-openapi.yml
 - filename: phoenix-secrets-api-openapi.yml
   format: yaml
   label: Arize Phoenix Secrets API
   slug: phoenix-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-secrets-api-openapi.yml
 - filename: phoenix-sessions-api-openapi.yml
   format: yaml
   label: Arize Phoenix Sessions API
   slug: phoenix-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-sessions-api-openapi.yml
 - filename: phoenix-spans-api-openapi.yml
   format: yaml
   label: Arize Phoenix Spans API
   slug: phoenix-spans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-spans-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-spans-api-openapi.yml
 - filename: phoenix-traces-api-openapi.yml
   format: yaml
   label: Arize Phoenix Traces API
   slug: phoenix-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-traces-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-traces-api-openapi.yml
 - filename: phoenix-users-api-openapi.yml
   format: yaml
   label: Arize Phoenix Users API
   slug: phoenix-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-users-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-users-api-openapi.yml
 - filename: phoenix-oauth2-api-openapi.yml
   format: yaml
   label: Arize Phoenix Oauth2 API
   slug: phoenix-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-oauth2-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -137,7 +137,7 @@ source_filename: phoenix-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: arize.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 02:12:54 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.phoenix.arize.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 12:54:56 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: arize.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/security/phoenix-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/phoenix/security/phoenix-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - LLM Observability

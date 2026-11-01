@@ -16,7 +16,7 @@ source_filename: magic-leap-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://www.magicleap.com/\ndescription: >-\n  Magic Leap publishes named security/compliance attestations on its corporate\n  site and third-party integration security requirements. No standalone hosted\n  trust-center portal (e.g. trust.magicleap.com) was found; certifications are\n  stated on magicleap.com.\ntrust_center_url: null\ncertifications:\n- name: ISO/IEC 27001:2022\n  status: certified\n  source: https://www.magicleap.com/\n- name: SOC 2 Type II\n  type: attestation\n  status: attested\n  source: https://www.magicleap.com/\nprograms:\n- name: Third-party integration security requirements\n  source: https://www.magicleap.com/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/magic-leap/refs/heads/main/security/magic-leap-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/magic-leap/security/magic-leap-trust-center.yml
 summary_line: ISO/IEC 27001:2022, SOC 2 Type II
 tags:
 - Company

@@ -7,25 +7,25 @@ api_specs:
   label: Forter Accounts API
   slug: forter-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forter/refs/heads/main/openapi/forter-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/forter/openapi/forter-accounts-api-openapi.yml
 - filename: forter-data-privacy-api-openapi.yml
   format: yaml
   label: Forter Data Privacy API
   slug: forter-data-privacy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forter/refs/heads/main/openapi/forter-data-privacy-api-openapi.yml
+  url: https://artifacts.apis.io/forter/openapi/forter-data-privacy-api-openapi.yml
 - filename: forter-disputes-api-openapi.yml
   format: yaml
   label: Forter Disputes API
   slug: forter-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forter/refs/heads/main/openapi/forter-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/forter/openapi/forter-disputes-api-openapi.yml
 - filename: forter-orders-api-openapi.yml
   format: yaml
   label: Forter Orders API
   slug: forter-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forter/refs/heads/main/openapi/forter-orders-api-openapi.yml
+  url: https://artifacts.apis.io/forter/openapi/forter-orders-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -54,7 +54,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: derived\nsource: openapi/forter-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: >-\n    HTTP Basic authentication with your Forter API key as the username (empty\n    password). Requests must also carry the `x-forter-siteid` header (your site\n    ID), an `api-version` header (for example `10.1`), and\n    `Content-Type: application/json`. The site ID and API key are provisioned by\n    Forter during enterprise onboarding and are found in your account\n    credentials. Requests are sent to a per-tenant host by prepending the site\n    ID to the API host (https://{siteId}.api.forter.secure.com).\n  sources:\n  - openapi/forter-openapi.yml\n  - https://docs.forter.com/docs/api-overview\nnotes: >-\n  Forter's Tokenization API additionally supports HMAC request signing (SHA256,\n  SHA512, SHA1, MD5), IP allow-listing, target-URL allow-listing, and mTLS. The\n  Core order/account/decision\
   \ endpoints modeled in this catalog entry use Basic\n  auth plus the site-ID header, per docs.forter.com.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forter/refs/heads/main/authentication/forter-authentication.yml
+source_yaml_url: https://artifacts.apis.io/forter/authentication/forter-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Fraud Prevention

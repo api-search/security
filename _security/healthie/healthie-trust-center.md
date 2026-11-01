@@ -23,7 +23,7 @@ source_filename: healthie-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: searched\nprobe: true\nsource: https://www.gethealthie.com/hipaa-compliant-software\nurl: https://www.gethealthie.com/hipaa-compliant-software\ncertifications:\n- HIPAA\n- GDPR\nevidence:\n- source: https://www.gethealthie.com/hipaa-compliant-software\n  keywords:\n  - hipaa\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/security/healthie-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/healthie/security/healthie-trust-center.yml
 summary_line: HIPAA, GDPR
 tags:
 - API-First

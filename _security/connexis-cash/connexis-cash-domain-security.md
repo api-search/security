@@ -5,37 +5,37 @@ api_specs:
   label: Connexis Cash Accounts API
   slug: connexis-cash-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/openapi/connexis-cash-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/connexis-cash/openapi/connexis-cash-accounts-api-openapi.yml
 - filename: connexis-cash-balances-api-openapi.yml
   format: yaml
   label: Connexis Cash Balances API
   slug: connexis-cash-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/openapi/connexis-cash-balances-api-openapi.yml
+  url: https://artifacts.apis.io/connexis-cash/openapi/connexis-cash-balances-api-openapi.yml
 - filename: connexis-cash-beneficiaries-api-openapi.yml
   format: yaml
   label: Connexis Cash Beneficiaries API
   slug: connexis-cash-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/openapi/connexis-cash-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/connexis-cash/openapi/connexis-cash-beneficiaries-api-openapi.yml
 - filename: connexis-cash-consents-api-openapi.yml
   format: yaml
   label: Connexis Cash Consents API
   slug: connexis-cash-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/openapi/connexis-cash-consents-api-openapi.yml
+  url: https://artifacts.apis.io/connexis-cash/openapi/connexis-cash-consents-api-openapi.yml
 - filename: connexis-cash-transactions-api-openapi.yml
   format: yaml
   label: Connexis Cash Transactions API
   slug: connexis-cash-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/openapi/connexis-cash-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/connexis-cash/openapi/connexis-cash-transactions-api-openapi.yml
 - filename: connexis-cash-aisp-api-openapi.yml
   format: yaml
   label: Connexis Cash AISP API
   slug: connexis-cash-aisp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/openapi/connexis-cash-aisp-api-openapi.yml
+  url: https://artifacts.apis.io/connexis-cash/openapi/connexis-cash-aisp-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -81,7 +81,7 @@ source_filename: connexis-cash-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cashmanagement.bnpparibas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 30 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.cib.bnpparibas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 23:59:59 2026 GMT\n  hsts: false\n- host: psd2.api.cib.bnpparibas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 10 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: bnpparibas.com\n  dnssec: true\n  caa:\n  - 0 iodef \"mailto:report-abuse@globalsign.com\"\n  - 0 issue \"d-trust.net\"\n  - 0 issuewild \";\"\n  - 0 issue \"entrust.net\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/security/connexis-cash-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/connexis-cash/security/connexis-cash-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Account Information

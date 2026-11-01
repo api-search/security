@@ -27,7 +27,7 @@ source_filename: ludlow-ventures-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ludlowventures.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 19:20:38 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: ludlowventures.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ludlow-ventures/refs/heads/main/security/ludlow-ventures-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ludlow-ventures/security/ludlow-ventures-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

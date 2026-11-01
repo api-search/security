@@ -5,25 +5,25 @@ api_specs:
   label: Parsio Documents API
   slug: parsio-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsio/refs/heads/main/openapi/parsio-documents-api-openapi.yml
+  url: https://artifacts.apis.io/parsio/openapi/parsio-documents-api-openapi.yml
 - filename: parsio-mailboxes-api-openapi.yml
   format: yaml
   label: Parsio Mailboxes API
   slug: parsio-mailboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsio/refs/heads/main/openapi/parsio-mailboxes-api-openapi.yml
+  url: https://artifacts.apis.io/parsio/openapi/parsio-mailboxes-api-openapi.yml
 - filename: parsio-templates-api-openapi.yml
   format: yaml
   label: Parsio Templates API
   slug: parsio-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsio/refs/heads/main/openapi/parsio-templates-api-openapi.yml
+  url: https://artifacts.apis.io/parsio/openapi/parsio-templates-api-openapi.yml
 - filename: parsio-webhooks-api-openapi.yml
   format: yaml
   label: Parsio Webhooks API
   slug: parsio-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsio/refs/heads/main/openapi/parsio-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/parsio/openapi/parsio-webhooks-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -43,7 +43,7 @@ source_filename: parsio-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://parsio.io/security/\nurl: https://parsio.io/security/\ncertifications:\n- SOC 2\n- ISO 27001\n- PCI DSS\n- GDPR\nevidence:\n- source: https://parsio.io/security/\n  keywords:\n  - pci-dss\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parsio/refs/heads/main/security/parsio-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/parsio/security/parsio-trust-center.yml
 summary_line: SOC 2, ISO 27001, PCI DSS, GDPR
 tags:
 - Artificial Intelligence

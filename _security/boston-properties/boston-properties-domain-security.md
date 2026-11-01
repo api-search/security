@@ -5,7 +5,7 @@ api_specs:
   label: Boston Properties (BXP) Website (WordPress REST)
   slug: bxp-com-website-wordpress-rest
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boston-properties/refs/heads/main/openapi/boston-properties-wp-json-discovery.json
+  url: https://artifacts.apis.io/boston-properties/openapi/boston-properties-wp-json-discovery.json
 description: ''
 domains:
 - caa: []
@@ -34,7 +34,7 @@ source_filename: boston-properties-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bxp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 01:07:26 2026 GMT\n  hsts: false\ndomains:\n- domain: bxp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boston-properties/refs/heads/main/security/boston-properties-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/boston-properties/security/boston-properties-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Real Estate

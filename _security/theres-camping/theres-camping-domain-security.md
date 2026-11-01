@@ -27,7 +27,7 @@ source_filename: theres-camping-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: theres.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 18 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: theres.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/theres-camping/refs/heads/main/security/theres-camping-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/theres-camping/security/theres-camping-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

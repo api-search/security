@@ -5,19 +5,19 @@ api_specs:
   label: Sinai Technologies Baseline forecasts API
   slug: sinai-technologies-baseline-forecasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinai-technologies/refs/heads/main/openapi/sinai-technologies-baseline-forecasts-api-openapi.yml
+  url: https://artifacts.apis.io/sinai-technologies/openapi/sinai-technologies-baseline-forecasts-api-openapi.yml
 - filename: sinai-technologies-carbon-accounting-api-openapi.yml
   format: yaml
   label: Sinai Technologies Carbon accounting API
   slug: sinai-technologies-carbon-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinai-technologies/refs/heads/main/openapi/sinai-technologies-carbon-accounting-api-openapi.yml
+  url: https://artifacts.apis.io/sinai-technologies/openapi/sinai-technologies-carbon-accounting-api-openapi.yml
 - filename: sinai-technologies-organization-management-api-openapi.yml
   format: yaml
   label: Sinai Technologies Organization management API
   slug: sinai-technologies-organization-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinai-technologies/refs/heads/main/openapi/sinai-technologies-organization-management-api-openapi.yml
+  url: https://artifacts.apis.io/sinai-technologies/openapi/sinai-technologies-organization-management-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2 Type 2
@@ -35,7 +35,7 @@ source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nurl: https://trust.sinai.com/\ncertifications:\n- SOC 2 Type 2\nsecurity_page: https://www.sinai.com/resources/security-practices\npractices:\n- Two-factor authentication for all production server access\n- Full disk encryption and screen locks on company devices\n- System monitoring and logging / network protection\n- Hosted on AWS (inherits AWS ISO 27001 / SOC compliance for infrastructure)\nevidence:\n- source: https://trust.sinai.com/\n  kind: trust-center\n  detail: \"Titled 'SINAI Technologies, Inc Trust Center' (Vanta-hosted).\"\n- source: https://www.sinai.com/resources/security-practices\n  kind: security-page\n  detail: \"'SINAI has completed a SOC 2 Type 2 audit.'\"\nnotes: >-\n  Trust center is a JS-rendered Vanta page so the automated probe could not read\n  its body; certifications confirmed via the public security-practices page. SOC\n  2 Type 2 is SINAI's own certification. ISO 27001 references on the page\
   \ pertain\n  to AWS infrastructure, not SINAI directly.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sinai-technologies/refs/heads/main/security/sinai-technologies-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/sinai-technologies/security/sinai-technologies-trust-center.yml
 summary_line: SOC 2 Type 2
 tags:
 - Company

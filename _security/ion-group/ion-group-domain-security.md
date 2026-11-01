@@ -5,7 +5,7 @@ api_specs:
   label: Ion Group Entities API
   slug: ion-group-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ion-group/refs/heads/main/openapi/ion-group-entities-api-openapi.yml
+  url: https://artifacts.apis.io/ion-group/openapi/ion-group-entities-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: ion-group-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: iongroup.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 12:41:49 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.acuris.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar 14 01:25:15 2027 GMT\n  hsts: false\ndomains:\n- domain: iongroup.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: acuris.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ion-group/refs/heads/main/security/ion-group-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ion-group/security/ion-group-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics

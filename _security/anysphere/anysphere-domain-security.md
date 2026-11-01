@@ -5,31 +5,31 @@ api_specs:
   label: Anysphere Agents API
   slug: anysphere-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anysphere/refs/heads/main/openapi/anysphere-agents-api-openapi.yml
+  url: https://artifacts.apis.io/anysphere/openapi/anysphere-agents-api-openapi.yml
 - filename: anysphere-me-api-openapi.yml
   format: yaml
   label: Anysphere Me API
   slug: anysphere-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anysphere/refs/heads/main/openapi/anysphere-me-api-openapi.yml
+  url: https://artifacts.apis.io/anysphere/openapi/anysphere-me-api-openapi.yml
 - filename: anysphere-models-api-openapi.yml
   format: yaml
   label: Anysphere Models API
   slug: anysphere-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anysphere/refs/heads/main/openapi/anysphere-models-api-openapi.yml
+  url: https://artifacts.apis.io/anysphere/openapi/anysphere-models-api-openapi.yml
 - filename: anysphere-repositories-api-openapi.yml
   format: yaml
   label: Anysphere Repositories API
   slug: anysphere-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anysphere/refs/heads/main/openapi/anysphere-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/anysphere/openapi/anysphere-repositories-api-openapi.yml
 - filename: anysphere-sub-tokens-api-openapi.yml
   format: yaml
   label: Anysphere Sub Tokens API
   slug: anysphere-sub-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anysphere/refs/heads/main/openapi/anysphere-sub-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/anysphere/openapi/anysphere-sub-tokens-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: anysphere-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: anysphere.inc\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 20 02:36:25 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.cursor.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov  2 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: anysphere.inc\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: cursor.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anysphere/refs/heads/main/security/anysphere-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/anysphere/security/anysphere-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company

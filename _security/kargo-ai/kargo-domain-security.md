@@ -5,19 +5,19 @@ api_specs:
   label: Kargo Public GraphQL API
   slug: kargo-public-graphql-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/kargo-ai/refs/heads/main/postman/kargo-public-graphql.postman_collection.json
+  url: https://artifacts.apis.io/kargo-ai/postman/kargo-public-graphql.postman_collection.json
 - filename: kargo-ai-documents-api-openapi.yml
   format: yaml
   label: Kargo Documents API
   slug: kargo-ai-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kargo-ai/refs/heads/main/openapi/kargo-ai-documents-api-openapi.yml
+  url: https://artifacts.apis.io/kargo-ai/openapi/kargo-ai-documents-api-openapi.yml
 - filename: kargo-ai-sku-master-api-openapi.yml
   format: yaml
   label: Kargo SKU Master API
   slug: kargo-ai-sku-master-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kargo-ai/refs/heads/main/openapi/kargo-ai-sku-master-api-openapi.yml
+  url: https://artifacts.apis.io/kargo-ai/openapi/kargo-ai-sku-master-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,7 +62,7 @@ source_filename: kargo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-23'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.kargo.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 17:25:23 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: docs.kargo.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 13:06:01 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.kargo.zone\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: kargo.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: kargo.zone\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kargo-ai/refs/heads/main/security/kargo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kargo-ai/security/kargo-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

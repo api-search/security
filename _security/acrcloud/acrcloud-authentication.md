@@ -8,37 +8,37 @@ api_specs:
   label: ACRCloud Audio Files API
   slug: acrcloud-audio-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/openapi/acrcloud-audio-files-api-openapi.yml
+  url: https://artifacts.apis.io/acrcloud/openapi/acrcloud-audio-files-api-openapi.yml
 - filename: acrcloud-broadcast-monitoring-api-openapi.yml
   format: yaml
   label: ACRCloud Broadcast Monitoring API
   slug: acrcloud-broadcast-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/openapi/acrcloud-broadcast-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/acrcloud/openapi/acrcloud-broadcast-monitoring-api-openapi.yml
 - filename: acrcloud-buckets-api-openapi.yml
   format: yaml
   label: ACRCloud Buckets API
   slug: acrcloud-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/openapi/acrcloud-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/acrcloud/openapi/acrcloud-buckets-api-openapi.yml
 - filename: acrcloud-file-scanning-api-openapi.yml
   format: yaml
   label: ACRCloud File Scanning API
   slug: acrcloud-file-scanning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/openapi/acrcloud-file-scanning-api-openapi.yml
+  url: https://artifacts.apis.io/acrcloud/openapi/acrcloud-file-scanning-api-openapi.yml
 - filename: acrcloud-identification-api-openapi.yml
   format: yaml
   label: ACRCloud Identification API
   slug: acrcloud-identification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/openapi/acrcloud-identification-api-openapi.yml
+  url: https://artifacts.apis.io/acrcloud/openapi/acrcloud-identification-api-openapi.yml
 - filename: acrcloud-metadata-api-openapi.yml
   format: yaml
   label: ACRCloud Metadata API
   slug: acrcloud-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/openapi/acrcloud-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/acrcloud/openapi/acrcloud-metadata-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -73,7 +73,7 @@ source_filename: acrcloud-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/acrcloud-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - query\nschemes:\n- name: acrSignature\n  type: apiKey\n  in: query\n  parameter: signature\n  description: HMAC-SHA1 request signing for the Identification API. The client sends access_key,\n    timestamp, signature_version=1, data_type, and a Base64 signature. The signature is HMAC-SHA1\n    of the string \"POST\\n/v1/identify\\n {access_key}\\n{data_type}\\n1\\n{timestamp}\" keyed with\n    the access_secret.\n  sources:\n  - openapi/acrcloud-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Console API access token created in the ACRCloud console developer settings\n    and sent as \"Authorization: Bearer {token}\".'\n  sources:\n  - openapi/acrcloud-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/authentication/acrcloud-authentication.yml
+source_yaml_url: https://artifacts.apis.io/acrcloud/authentication/acrcloud-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Audio

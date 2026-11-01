@@ -5,61 +5,61 @@ api_specs:
   label: ExchangeRate-API Enriched Data API
   slug: exchangerate-api-enriched-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-enriched-data-api-openapi.yml
+  url: https://artifacts.apis.io/exchangerate-api/openapi/exchangerate-api-enriched-data-api-openapi.yml
 - filename: exchangerate-api-historical-rates-api-openapi.yml
   format: yaml
   label: ExchangeRate-API Historical Rates API
   slug: exchangerate-api-historical-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-historical-rates-api-openapi.yml
+  url: https://artifacts.apis.io/exchangerate-api/openapi/exchangerate-api-historical-rates-api-openapi.yml
 - filename: exchangerate-api-latest-rates-api-openapi.yml
   format: yaml
   label: ExchangeRate-API Latest Rates API
   slug: exchangerate-api-latest-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-latest-rates-api-openapi.yml
+  url: https://artifacts.apis.io/exchangerate-api/openapi/exchangerate-api-latest-rates-api-openapi.yml
 - filename: exchangerate-api-open-access-api-openapi.yml
   format: yaml
   label: ExchangeRate-API Open Access API
   slug: exchangerate-api-open-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-open-access-api-openapi.yml
+  url: https://artifacts.apis.io/exchangerate-api/openapi/exchangerate-api-open-access-api-openapi.yml
 - filename: exchangerate-api-pair-conversion-api-openapi.yml
   format: yaml
   label: ExchangeRate-API Pair Conversion API
   slug: exchangerate-api-pair-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-pair-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/exchangerate-api/openapi/exchangerate-api-pair-conversion-api-openapi.yml
 - filename: exchangerate-api-quota-api-openapi.yml
   format: yaml
   label: ExchangeRate-API Quota API
   slug: exchangerate-api-quota-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-quota-api-openapi.yml
+  url: https://artifacts.apis.io/exchangerate-api/openapi/exchangerate-api-quota-api-openapi.yml
 - filename: exchangerate-api-supported-codes-api-openapi.yml
   format: yaml
   label: ExchangeRate-API Supported Codes API
   slug: exchangerate-api-supported-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-supported-codes-api-openapi.yml
+  url: https://artifacts.apis.io/exchangerate-api/openapi/exchangerate-api-supported-codes-api-openapi.yml
 - filename: exchangerate-api-account-api-openapi.yml
   format: yaml
   label: ExchangeRate-API Account API
   slug: exchangerate-api-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-account-api-openapi.yml
+  url: https://artifacts.apis.io/exchangerate-api/openapi/exchangerate-api-account-api-openapi.yml
 - filename: exchangerate-api-currencies-api-openapi.yml
   format: yaml
   label: ExchangeRate-API Currencies API
   slug: exchangerate-api-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-currencies-api-openapi.yml
+  url: https://artifacts.apis.io/exchangerate-api/openapi/exchangerate-api-currencies-api-openapi.yml
 - filename: exchangerate-api-exchange-rates-api-openapi.yml
   format: yaml
   label: ExchangeRate-API Exchange Rates API
   slug: exchangerate-api-exchange-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-exchange-rates-api-openapi.yml
+  url: https://artifacts.apis.io/exchangerate-api/openapi/exchangerate-api-exchange-rates-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -104,7 +104,7 @@ source_filename: exchangerate-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.exchangerate-api.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 15:00:24 2026 GMT\n  hsts: false\n- host: v6.exchangerate-api.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 15:00:24 2026 GMT\n  hsts: false\n- host: open.er-api.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 03:05:42 2026 GMT\n  hsts: false\ndomains:\n- domain: exchangerate-api.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: er-api.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/security/exchangerate-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/exchangerate-api/security/exchangerate-api-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Foreign Exchange

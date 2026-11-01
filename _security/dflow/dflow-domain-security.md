@@ -5,43 +5,43 @@ api_specs:
   label: DFlow Admin API
   slug: dflow-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-admin-api-openapi.yml
+  url: https://artifacts.apis.io/dflow/openapi/dflow-admin-api-openapi.yml
 - filename: dflow-intent-api-openapi.yml
   format: yaml
   label: DFlow Intent API
   slug: dflow-intent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-intent-api-openapi.yml
+  url: https://artifacts.apis.io/dflow/openapi/dflow-intent-api-openapi.yml
 - filename: dflow-order-api-openapi.yml
   format: yaml
   label: DFlow Order API
   slug: dflow-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-order-api-openapi.yml
+  url: https://artifacts.apis.io/dflow/openapi/dflow-order-api-openapi.yml
 - filename: dflow-prediction-market-api-openapi.yml
   format: yaml
   label: DFlow Prediction Market API
   slug: dflow-prediction-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-prediction-market-api-openapi.yml
+  url: https://artifacts.apis.io/dflow/openapi/dflow-prediction-market-api-openapi.yml
 - filename: dflow-swap-api-openapi.yml
   format: yaml
   label: DFlow Swap API
   slug: dflow-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-swap-api-openapi.yml
+  url: https://artifacts.apis.io/dflow/openapi/dflow-swap-api-openapi.yml
 - filename: dflow-tokens-api-openapi.yml
   format: yaml
   label: DFlow Tokens API
   slug: dflow-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/dflow/openapi/dflow-tokens-api-openapi.yml
 - filename: dflow-venues-api-openapi.yml
   format: yaml
   label: DFlow Venues API
   slug: dflow-venues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-venues-api-openapi.yml
+  url: https://artifacts.apis.io/dflow/openapi/dflow-venues-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -79,7 +79,7 @@ source_filename: dflow-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dflow.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 03:03:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: quote-api.dflow.net\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 29 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: dflow.net\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"letsencrypt.org;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/54403714\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/security/dflow-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dflow/security/dflow-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -38,7 +38,7 @@ source_filename: suggestic-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: suggestic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 12:52:45 2026 GMT\n  hsts: false\n- host: docs.suggestic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 01:26:08 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: production.suggestic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 23:16:44 2026 GMT\n  hsts: null\ndomains:\n- domain: suggestic.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/suggestic/refs/heads/main/security/suggestic-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/suggestic/security/suggestic-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

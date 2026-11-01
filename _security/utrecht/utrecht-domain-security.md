@@ -5,121 +5,121 @@ api_specs:
   label: Utrecht University Admin API
   slug: utrecht-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-admin-api-openapi.yml
+  url: https://artifacts.apis.io/utrecht/openapi/utrecht-admin-api-openapi.yml
 - filename: utrecht-browse-api-openapi.yml
   format: yaml
   label: Utrecht University Browse API
   slug: utrecht-browse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-browse-api-openapi.yml
+  url: https://artifacts.apis.io/utrecht/openapi/utrecht-browse-api-openapi.yml
 - filename: utrecht-data-access-token-api-openapi.yml
   format: yaml
   label: Utrecht University Data Access Token API
   slug: utrecht-data-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-data-access-token-api-openapi.yml
+  url: https://artifacts.apis.io/utrecht/openapi/utrecht-data-access-token-api-openapi.yml
 - filename: utrecht-datarequest-api-openapi.yml
   format: yaml
   label: Utrecht University Datarequest API
   slug: utrecht-datarequest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-datarequest-api-openapi.yml
+  url: https://artifacts.apis.io/utrecht/openapi/utrecht-datarequest-api-openapi.yml
 - filename: utrecht-folder-api-openapi.yml
   format: yaml
   label: Utrecht University Folder API
   slug: utrecht-folder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-folder-api-openapi.yml
+  url: https://artifacts.apis.io/utrecht/openapi/utrecht-folder-api-openapi.yml
 - filename: utrecht-groups-api-openapi.yml
   format: yaml
   label: Utrecht University Groups API
   slug: utrecht-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-groups-api-openapi.yml
+  url: https://artifacts.apis.io/utrecht/openapi/utrecht-groups-api-openapi.yml
 - filename: utrecht-meta-api-openapi.yml
   format: yaml
   label: Utrecht University Meta API
   slug: utrecht-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-meta-api-openapi.yml
+  url: https://artifacts.apis.io/utrecht/openapi/utrecht-meta-api-openapi.yml
 - filename: utrecht-meta-form-api-openapi.yml
   format: yaml
   label: Utrecht University Meta Form API
   slug: utrecht-meta-form-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-meta-form-api-openapi.yml
+  url: https://artifacts.apis.io/utrecht/openapi/utrecht-meta-form-api-openapi.yml
 - filename: utrecht-notifications-api-openapi.yml
   format: yaml
   label: Utrecht University Notifications API
   slug: utrecht-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/utrecht/openapi/utrecht-notifications-api-openapi.yml
 - filename: utrecht-provenance-api-openapi.yml
   format: yaml
   label: Utrecht University Provenance API
   slug: utrecht-provenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-provenance-api-openapi.yml
+  url: https://artifacts.apis.io/utrecht/openapi/utrecht-provenance-api-openapi.yml
 - filename: utrecht-publication-troubleshoot-api-openapi.yml
   format: yaml
   label: Utrecht University Publication Troubleshoot API
   slug: utrecht-publication-troubleshoot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-publication-troubleshoot-api-openapi.yml
+  url: https://artifacts.apis.io/utrecht/openapi/utrecht-publication-troubleshoot-api-openapi.yml
 - filename: utrecht-research-api-openapi.yml
   format: yaml
   label: Utrecht University Research API
   slug: utrecht-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-research-api-openapi.yml
+  url: https://artifacts.apis.io/utrecht/openapi/utrecht-research-api-openapi.yml
 - filename: utrecht-revisions-api-openapi.yml
   format: yaml
   label: Utrecht University Revisions API
   slug: utrecht-revisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-revisions-api-openapi.yml
+  url: https://artifacts.apis.io/utrecht/openapi/utrecht-revisions-api-openapi.yml
 - filename: utrecht-schema-api-openapi.yml
   format: yaml
   label: Utrecht University Schema API
   slug: utrecht-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-schema-api-openapi.yml
+  url: https://artifacts.apis.io/utrecht/openapi/utrecht-schema-api-openapi.yml
 - filename: utrecht-schema-transformation-api-openapi.yml
   format: yaml
   label: Utrecht University Schema Transformation API
   slug: utrecht-schema-transformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-schema-transformation-api-openapi.yml
+  url: https://artifacts.apis.io/utrecht/openapi/utrecht-schema-transformation-api-openapi.yml
 - filename: utrecht-settings-api-openapi.yml
   format: yaml
   label: Utrecht University Settings API
   slug: utrecht-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-settings-api-openapi.yml
+  url: https://artifacts.apis.io/utrecht/openapi/utrecht-settings-api-openapi.yml
 - filename: utrecht-stats-api-openapi.yml
   format: yaml
   label: Utrecht University Stats API
   slug: utrecht-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-stats-api-openapi.yml
+  url: https://artifacts.apis.io/utrecht/openapi/utrecht-stats-api-openapi.yml
 - filename: utrecht-vault-api-openapi.yml
   format: yaml
   label: Utrecht University Vault API
   slug: utrecht-vault-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-vault-api-openapi.yml
+  url: https://artifacts.apis.io/utrecht/openapi/utrecht-vault-api-openapi.yml
 - filename: utrecht-vault-archive-api-openapi.yml
   format: yaml
   label: Utrecht University Vault Archive API
   slug: utrecht-vault-archive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-vault-archive-api-openapi.yml
+  url: https://artifacts.apis.io/utrecht/openapi/utrecht-vault-archive-api-openapi.yml
 - filename: utrecht-vault-deaccession-api-openapi.yml
   format: yaml
   label: Utrecht University Vault Deaccession API
   slug: utrecht-vault-deaccession-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/openapi/utrecht-vault-deaccession-api-openapi.yml
+  url: https://artifacts.apis.io/utrecht/openapi/utrecht-vault-deaccession-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -186,7 +186,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-30'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts. Re-probed 2026-08-30 after the Yoda OpenAPIs \n  were re-based off the RFC 2606 placeholder host portal.yoda.test onto the verified production hosts \n  portal.yoda.uu.nl and i-lab.yoda.uu.nl.\nhosts:\n- host: www.uu.nl\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 19:54:40 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: dspace.library.uu.nl\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 23:09:49 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: portal.yoda.uu.nl\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  4 14:03:46 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: i-lab.yoda.uu.nl\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  1 06:37:54 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: login.uu.nl\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  8 10:17:41 2027\
   \ GMT\n  hsts: false\n- host: research-portal.uu.nl\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 21:35:52 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n  operator: tenant\ndomains:\n- domain: uu.nl\n  dnssec: true\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"harica.gr\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"harica.gr\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/security/utrecht-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/utrecht/security/utrecht-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Education

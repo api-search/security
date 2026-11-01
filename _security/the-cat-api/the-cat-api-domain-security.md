@@ -5,31 +5,31 @@ api_specs:
   label: The Cat API Breeds API
   slug: the-cat-api-breeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-cat-api/refs/heads/main/openapi/the-cat-api-breeds-api-openapi.yml
+  url: https://artifacts.apis.io/the-cat-api/openapi/the-cat-api-breeds-api-openapi.yml
 - filename: the-cat-api-categories-api-openapi.yml
   format: yaml
   label: The Cat API Categories API
   slug: the-cat-api-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-cat-api/refs/heads/main/openapi/the-cat-api-categories-api-openapi.yml
+  url: https://artifacts.apis.io/the-cat-api/openapi/the-cat-api-categories-api-openapi.yml
 - filename: the-cat-api-favourites-api-openapi.yml
   format: yaml
   label: The Cat API Favourites API
   slug: the-cat-api-favourites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-cat-api/refs/heads/main/openapi/the-cat-api-favourites-api-openapi.yml
+  url: https://artifacts.apis.io/the-cat-api/openapi/the-cat-api-favourites-api-openapi.yml
 - filename: the-cat-api-images-api-openapi.yml
   format: yaml
   label: The Cat API Images API
   slug: the-cat-api-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-cat-api/refs/heads/main/openapi/the-cat-api-images-api-openapi.yml
+  url: https://artifacts.apis.io/the-cat-api/openapi/the-cat-api-images-api-openapi.yml
 - filename: the-cat-api-votes-api-openapi.yml
   format: yaml
   label: The Cat API Votes API
   slug: the-cat-api-votes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-cat-api/refs/heads/main/openapi/the-cat-api-votes-api-openapi.yml
+  url: https://artifacts.apis.io/the-cat-api/openapi/the-cat-api-votes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: the-cat-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: thecatapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 11:18:35 2026 GMT\n  hsts: false\n- host: api.thecatapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 11:18:35 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: thecatapi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-cat-api/refs/heads/main/security/the-cat-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/the-cat-api/security/the-cat-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Animals

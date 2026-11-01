@@ -5,25 +5,25 @@ api_specs:
   label: Microsoft Bot Framework Activities API
   slug: microsoft-bot-framework-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bot-framework/refs/heads/main/openapi/microsoft-bot-framework-activities-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bot-framework/openapi/microsoft-bot-framework-activities-api-openapi.yml
 - filename: microsoft-bot-framework-attachments-api-openapi.yml
   format: yaml
   label: Microsoft Bot Framework Attachments API
   slug: microsoft-bot-framework-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bot-framework/refs/heads/main/openapi/microsoft-bot-framework-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bot-framework/openapi/microsoft-bot-framework-attachments-api-openapi.yml
 - filename: microsoft-bot-framework-conversations-api-openapi.yml
   format: yaml
   label: Microsoft Bot Framework Conversations API
   slug: microsoft-bot-framework-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bot-framework/refs/heads/main/openapi/microsoft-bot-framework-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bot-framework/openapi/microsoft-bot-framework-conversations-api-openapi.yml
 - filename: microsoft-bot-framework-members-api-openapi.yml
   format: yaml
   label: Microsoft Bot Framework Members API
   slug: microsoft-bot-framework-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bot-framework/refs/heads/main/openapi/microsoft-bot-framework-members-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bot-framework/openapi/microsoft-bot-framework-members-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -71,7 +71,7 @@ source_filename: microsoft-bot-framework-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dev.botframework.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 23:59:59 2026 GMT\n  hsts: null\n- host: learn.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 02:26:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.botframework.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: botframework.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-bot-framework/refs/heads/main/security/microsoft-bot-framework-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-bot-framework/security/microsoft-bot-framework-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Bots

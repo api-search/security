@@ -5,43 +5,43 @@ api_specs:
   label: Turvo Accounts API
   slug: turvo-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/openapi/turvo-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/turvo/openapi/turvo-accounts-api-openapi.yml
 - filename: turvo-authentication-api-openapi.yml
   format: yaml
   label: Turvo Authentication API
   slug: turvo-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/openapi/turvo-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/turvo/openapi/turvo-authentication-api-openapi.yml
 - filename: turvo-carriers-api-openapi.yml
   format: yaml
   label: Turvo Carriers API
   slug: turvo-carriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/openapi/turvo-carriers-api-openapi.yml
+  url: https://artifacts.apis.io/turvo/openapi/turvo-carriers-api-openapi.yml
 - filename: turvo-locations-api-openapi.yml
   format: yaml
   label: Turvo Locations API
   slug: turvo-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/openapi/turvo-locations-api-openapi.yml
+  url: https://artifacts.apis.io/turvo/openapi/turvo-locations-api-openapi.yml
 - filename: turvo-orders-api-openapi.yml
   format: yaml
   label: Turvo Orders API
   slug: turvo-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/openapi/turvo-orders-api-openapi.yml
+  url: https://artifacts.apis.io/turvo/openapi/turvo-orders-api-openapi.yml
 - filename: turvo-shipments-api-openapi.yml
   format: yaml
   label: Turvo Shipments API
   slug: turvo-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/openapi/turvo-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/turvo/openapi/turvo-shipments-api-openapi.yml
 - filename: turvo-tracking-api-openapi.yml
   format: yaml
   label: Turvo Tracking API
   slug: turvo-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/openapi/turvo-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/turvo/openapi/turvo-tracking-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -83,7 +83,7 @@ source_filename: turvo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: turvo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 10:04:41 2026 GMT\n  hsts: false\n- host: help.turvo.com\n  https: false\n- host: publicapi.turvo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: turvo.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issuewild \"amazontrust.com\"\n  - 0 issuewild \"awstrust.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/security/turvo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/turvo/security/turvo-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Logistics

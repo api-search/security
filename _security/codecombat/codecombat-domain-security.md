@@ -5,31 +5,31 @@ api_specs:
   label: CodeCombat Auth API
   slug: codecombat-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codecombat/refs/heads/main/openapi/codecombat-auth-api-openapi.yml
+  url: https://artifacts.apis.io/codecombat/openapi/codecombat-auth-api-openapi.yml
 - filename: codecombat-clans-api-openapi.yml
   format: yaml
   label: CodeCombat Clans API
   slug: codecombat-clans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codecombat/refs/heads/main/openapi/codecombat-clans-api-openapi.yml
+  url: https://artifacts.apis.io/codecombat/openapi/codecombat-clans-api-openapi.yml
 - filename: codecombat-classrooms-api-openapi.yml
   format: yaml
   label: CodeCombat Classrooms API
   slug: codecombat-classrooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codecombat/refs/heads/main/openapi/codecombat-classrooms-api-openapi.yml
+  url: https://artifacts.apis.io/codecombat/openapi/codecombat-classrooms-api-openapi.yml
 - filename: codecombat-stats-api-openapi.yml
   format: yaml
   label: CodeCombat Stats API
   slug: codecombat-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codecombat/refs/heads/main/openapi/codecombat-stats-api-openapi.yml
+  url: https://artifacts.apis.io/codecombat/openapi/codecombat-stats-api-openapi.yml
 - filename: codecombat-users-api-openapi.yml
   format: yaml
   label: CodeCombat Users API
   slug: codecombat-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codecombat/refs/heads/main/openapi/codecombat-users-api-openapi.yml
+  url: https://artifacts.apis.io/codecombat/openapi/codecombat-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: codecombat-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api-docs.codecombat.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 11:26:25 2026 GMT\n  hsts: false\n- host: codecombat.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 11:26:25 2026 GMT\n  hsts: false\ndomains:\n- domain: codecombat.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codecombat/refs/heads/main/security/codecombat-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/codecombat/security/codecombat-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -5,37 +5,37 @@ api_specs:
   label: Channable Order Attachments API
   slug: channable-order-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channable/refs/heads/main/openapi/channable-order-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/channable/openapi/channable-order-attachments-api-openapi.yml
 - filename: channable-orders-api-openapi.yml
   format: yaml
   label: Channable Orders API
   slug: channable-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channable/refs/heads/main/openapi/channable-orders-api-openapi.yml
+  url: https://artifacts.apis.io/channable/openapi/channable-orders-api-openapi.yml
 - filename: channable-returns-api-openapi.yml
   format: yaml
   label: Channable Returns API
   slug: channable-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channable/refs/heads/main/openapi/channable-returns-api-openapi.yml
+  url: https://artifacts.apis.io/channable/openapi/channable-returns-api-openapi.yml
 - filename: channable-statistics-api-openapi.yml
   format: yaml
   label: Channable Statistics API
   slug: channable-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channable/refs/heads/main/openapi/channable-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/channable/openapi/channable-statistics-api-openapi.yml
 - filename: channable-stock-updates-api-openapi.yml
   format: yaml
   label: Channable Stock Updates API
   slug: channable-stock-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channable/refs/heads/main/openapi/channable-stock-updates-api-openapi.yml
+  url: https://artifacts.apis.io/channable/openapi/channable-stock-updates-api-openapi.yml
 - filename: channable-transporters-api-openapi.yml
   format: yaml
   label: Channable Transporters API
   slug: channable-transporters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channable/refs/heads/main/openapi/channable-transporters-api-openapi.yml
+  url: https://artifacts.apis.io/channable/openapi/channable-transporters-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -80,7 +80,7 @@ source_filename: channable-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.channable.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 16:21:36 2026 GMT\n  hsts: null\n- host: docs.channable.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 16:35:19 2026 GMT\n  hsts: false\n- host: api.channable.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 13:52:26 2026 GMT\n  hsts: false\ndomains:\n- domain: channable.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/channable/refs/heads/main/security/channable-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/channable/security/channable-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

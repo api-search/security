@@ -7,13 +7,13 @@ api_specs:
   label: Carto Jobs API
   slug: carto-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carto/refs/heads/main/openapi/carto-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/carto/openapi/carto-jobs-api-openapi.yml
 - filename: carto-sql-api-openapi.yml
   format: yaml
   label: Carto SQL API
   slug: carto-sql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carto/refs/heads/main/openapi/carto-sql-api-openapi.yml
+  url: https://artifacts.apis.io/carto/openapi/carto-sql-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: carto-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/carto-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: CARTO API Access Token (or OAuth M2M token)\n  sources:\n  - openapi/carto-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carto/refs/heads/main/authentication/carto-authentication.yml
+source_yaml_url: https://artifacts.apis.io/carto/authentication/carto-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Location Intelligence

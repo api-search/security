@@ -5,13 +5,13 @@ api_specs:
   label: SIGNL4 Events API
   slug: signl4-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signl4/refs/heads/main/openapi/signl4-events-api-openapi.yml
+  url: https://artifacts.apis.io/signl4/openapi/signl4-events-api-openapi.yml
 - filename: signl4-webhook-api-openapi.yml
   format: yaml
   label: SIGNL4 Webhook API
   slug: signl4-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signl4/refs/heads/main/openapi/signl4-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/signl4/openapi/signl4-webhook-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,7 +50,7 @@ source_filename: signl4-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.signl4.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 18:42:05 2026 GMT\n  hsts: false\n- host: docs.signl4.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 00:35:18 2026 GMT\n  hsts: false\n- host: connect.signl4.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  4 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: signl4.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signl4/refs/heads/main/security/signl4-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/signl4/security/signl4-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Alerting

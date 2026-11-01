@@ -5,31 +5,31 @@ api_specs:
   label: RTB House Advertisers API
   slug: rtbhouse-advertisers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/openapi/rtbhouse-advertisers-api-openapi.yml
+  url: https://artifacts.apis.io/rtbhouse/openapi/rtbhouse-advertisers-api-openapi.yml
 - filename: rtbhouse-dev-api-openapi.yml
   format: yaml
   label: RTB House Dev API
   slug: rtbhouse-dev-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/openapi/rtbhouse-dev-api-openapi.yml
+  url: https://artifacts.apis.io/rtbhouse/openapi/rtbhouse-dev-api-openapi.yml
 - filename: rtbhouse-statistics-api-openapi.yml
   format: yaml
   label: RTB House Statistics API
   slug: rtbhouse-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/openapi/rtbhouse-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/rtbhouse/openapi/rtbhouse-statistics-api-openapi.yml
 - filename: rtbhouse-tokens-api-openapi.yml
   format: yaml
   label: RTB House Tokens API
   slug: rtbhouse-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/openapi/rtbhouse-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/rtbhouse/openapi/rtbhouse-tokens-api-openapi.yml
 - filename: rtbhouse-user-api-openapi.yml
   format: yaml
   label: RTB House User API
   slug: rtbhouse-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/openapi/rtbhouse-user-api-openapi.yml
+  url: https://artifacts.apis.io/rtbhouse/openapi/rtbhouse-user-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: rtbhouse-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.rtbhouse.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 19:45:38 2026 GMT\n  hsts: false\n- host: api.panel.rtbhouse.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 09:31:34 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  note: 'HSTS confirmed by direct probe on 2026-08-13 — HEAD https://api.panel.rtbhouse.com/v5/healthcheck\n    returned 200 with strict-transport-security: max-age=31536000 (the automated probe\n    recorded null because the host root returns an nginx 404).'\ndomains:\n- domain: rtbhouse.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/security/rtbhouse-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rtbhouse/security/rtbhouse-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Advertising

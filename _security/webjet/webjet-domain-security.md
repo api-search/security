@@ -11,109 +11,109 @@ api_specs:
   label: Webjet Book API
   slug: webjet-book-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-book-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-book-api-openapi.yml
 - filename: webjet-booking-api-openapi.yml
   format: yaml
   label: Webjet Booking API
   slug: webjet-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-booking-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-booking-api-openapi.yml
 - filename: webjet-cancel-api-openapi.yml
   format: yaml
   label: Webjet Cancel API
   slug: webjet-cancel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-cancel-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-cancel-api-openapi.yml
 - filename: webjet-details-api-openapi.yml
   format: yaml
   label: Webjet Details API
   slug: webjet-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-details-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-details-api-openapi.yml
 - filename: webjet-generate-solutions-api-openapi.yml
   format: yaml
   label: Webjet Generate Solutions API
   slug: webjet-generate-solutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-generate-solutions-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-generate-solutions-api-openapi.yml
 - filename: webjet-get-searches-api-openapi.yml
   format: yaml
   label: Webjet Get Searches API
   slug: webjet-get-searches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-get-searches-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-get-searches-api-openapi.yml
 - filename: webjet-msdp-api-openapi.yml
   format: yaml
   label: Webjet Msdp API
   slug: webjet-msdp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-msdp-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-msdp-api-openapi.yml
 - filename: webjet-pre-booking-api-openapi.yml
   format: yaml
   label: Webjet Pre Booking API
   slug: webjet-pre-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-pre-booking-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-pre-booking-api-openapi.yml
 - filename: webjet-price-api-openapi.yml
   format: yaml
   label: Webjet Price API
   slug: webjet-price-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-price-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-price-api-openapi.yml
 - filename: webjet-queue-api-openapi.yml
   format: yaml
   label: Webjet Queue API
   slug: webjet-queue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-queue-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-queue-api-openapi.yml
 - filename: webjet-report-api-openapi.yml
   format: yaml
   label: Webjet Report API
   slug: webjet-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-report-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-report-api-openapi.yml
 - filename: webjet-results-api-openapi.yml
   format: yaml
   label: Webjet Results API
   slug: webjet-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-results-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-results-api-openapi.yml
 - filename: webjet-rules-api-openapi.yml
   format: yaml
   label: Webjet Rules API
   slug: webjet-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-rules-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-rules-api-openapi.yml
 - filename: webjet-search-api-openapi.yml
   format: yaml
   label: Webjet Search API
   slug: webjet-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-search-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-search-api-openapi.yml
 - filename: webjet-super-trip-api-openapi.yml
   format: yaml
   label: Webjet Super Trip API
   slug: webjet-super-trip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-super-trip-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-super-trip-api-openapi.yml
 - filename: webjet-ticket-api-openapi.yml
   format: yaml
   label: Webjet Ticket API
   slug: webjet-ticket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-ticket-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-ticket-api-openapi.yml
 - filename: webjet-ticketing-api-openapi.yml
   format: yaml
   label: Webjet Ticketing API
   slug: webjet-ticketing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-ticketing-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-ticketing-api-openapi.yml
 - filename: webjet-admin-panel-api-openapi.yml
   format: yaml
   label: Webjet Admin panel API
   slug: webjet-admin-panel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-admin-panel-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-admin-panel-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -159,7 +159,7 @@ source_filename: webjet-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.webjetgroup.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 11:46:10 2026 GMT\n  hsts: false\n- host: app.tripninja.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  7 23:59:59 2026 GMT\n  hsts: false\n- host: www.tripninja.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 17:42:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: webjetgroup.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: tripninja.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/security/webjet-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/webjet/security/webjet-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Travel

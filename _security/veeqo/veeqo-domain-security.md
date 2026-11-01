@@ -1,23 +1,29 @@
 ---
 api_specs:
+- filename: veeqo-openapi-generated.yml
+  format: yaml
+  label: Veeqo API
+  slug: veeqo-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/veeqo/openapi/_ae-authored/veeqo-openapi-generated.yml
 - filename: veeqo-current-user-api-openapi.yml
   format: yaml
   label: Veeqo Current User API
   slug: veeqo-current-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeqo/refs/heads/main/openapi/veeqo-current-user-api-openapi.yml
+  url: https://artifacts.apis.io/veeqo/openapi/veeqo-current-user-api-openapi.yml
 - filename: veeqo-oauth-api-openapi.yml
   format: yaml
   label: Veeqo OAuth API
   slug: veeqo-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeqo/refs/heads/main/openapi/veeqo-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/veeqo/openapi/veeqo-oauth-api-openapi.yml
 - filename: veeqo-orders-api-openapi.yml
   format: yaml
   label: Veeqo Orders API
   slug: veeqo-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeqo/refs/heads/main/openapi/veeqo-orders-api-openapi.yml
+  url: https://artifacts.apis.io/veeqo/openapi/veeqo-orders-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -49,13 +55,13 @@ source_filename: veeqo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.veeqo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 15 07:21:34 2027 GMT\n  hsts: false\ndomains:\n- domain: veeqo.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veeqo/refs/heads/main/security/veeqo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/veeqo/security/veeqo-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - E-Commerce
 - Inventory
-- order-fulfillment
-- multi-channel
+- Order Fulfillment
+- Multi-Channel
 - Software-as-a-Service
 ---

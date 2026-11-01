@@ -8,61 +8,61 @@ api_specs:
   label: MetaLend AI Agent Guide API
   slug: metalend-ai-agent-guide-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/openapi/metalend-ai-agent-guide-api-openapi.yml
+  url: https://artifacts.apis.io/metalend/openapi/metalend-ai-agent-guide-api-openapi.yml
 - filename: metalend-auth-api-openapi.yml
   format: yaml
   label: MetaLend Auth API
   slug: metalend-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/openapi/metalend-auth-api-openapi.yml
+  url: https://artifacts.apis.io/metalend/openapi/metalend-auth-api-openapi.yml
 - filename: metalend-balances-api-openapi.yml
   format: yaml
   label: MetaLend Balances API
   slug: metalend-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/openapi/metalend-balances-api-openapi.yml
+  url: https://artifacts.apis.io/metalend/openapi/metalend-balances-api-openapi.yml
 - filename: metalend-deposits-api-openapi.yml
   format: yaml
   label: MetaLend Deposits API
   slug: metalend-deposits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/openapi/metalend-deposits-api-openapi.yml
+  url: https://artifacts.apis.io/metalend/openapi/metalend-deposits-api-openapi.yml
 - filename: metalend-pools-api-openapi.yml
   format: yaml
   label: MetaLend Pools API
   slug: metalend-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/openapi/metalend-pools-api-openapi.yml
+  url: https://artifacts.apis.io/metalend/openapi/metalend-pools-api-openapi.yml
 - filename: metalend-rewards-api-openapi.yml
   format: yaml
   label: MetaLend Rewards API
   slug: metalend-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/openapi/metalend-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/metalend/openapi/metalend-rewards-api-openapi.yml
 - filename: metalend-services-api-openapi.yml
   format: yaml
   label: MetaLend Services API
   slug: metalend-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/openapi/metalend-services-api-openapi.yml
+  url: https://artifacts.apis.io/metalend/openapi/metalend-services-api-openapi.yml
 - filename: metalend-transaction-costs-api-openapi.yml
   format: yaml
   label: MetaLend Transaction Costs API
   slug: metalend-transaction-costs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/openapi/metalend-transaction-costs-api-openapi.yml
+  url: https://artifacts.apis.io/metalend/openapi/metalend-transaction-costs-api-openapi.yml
 - filename: metalend-user-configuration-api-openapi.yml
   format: yaml
   label: MetaLend User Configuration API
   slug: metalend-user-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/openapi/metalend-user-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/metalend/openapi/metalend-user-configuration-api-openapi.yml
 - filename: metalend-withdrawals-api-openapi.yml
   format: yaml
   label: MetaLend Withdrawals API
   slug: metalend-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/openapi/metalend-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/metalend/openapi/metalend-withdrawals-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -108,7 +108,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/metalend-rebalancing-openapi.json\ndocs: https://api.metalend.tech/SKILL.md\nportal: https://developer.metalend.tech\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  model: >-\n    Every endpoint requires X-API-Key + Origin. Deposits, withdrawals, and config\n    updates additionally require a JWT obtained via a SIWE (EIP-4361) challenge/verify\n    flow; the JWT is sent as Authorization: Bearer <jwt> or, for agentic wallets that\n    strip Authorization, as X-MetaLend-JWT: Bearer <jwt>. Value-moving calls also carry\n    wallet signatures (EIP-191/EIP-712/EIP-3009). Get an API key at the developer portal.\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: API key required for all endpoints.\n  sources:\n  - openapi/metalend-rebalancing-openapi.json\n- name: JwtAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: |-\n    JWT issued\
   \ by POST /v1/auth/verify. Pass as Authorization: Bearer <token>.\n\n    x-agent-hint: agentcash and other agentic wallets strip the Authorization header for their own SIWX flow. Use X-MetaLend-JWT: Bearer <token> instead — the backend accepts both headers. Affected endpoints: POST /v1/deposits, POST /v1/withdrawals, PUT /v1/config.\n  sources:\n  - openapi/metalend-rebalancing-openapi.json\n- name: OriginHeader\n  type: apiKey\n  in: header\n  parameter: Origin\n  description: 'Required for CORS requests from browsers. Must match the allowed origins configured\n    for the API key. Example: Origin: https://app.metalend.tech. Localhost is always allowed\n    but must be specified.'\n  sources:\n  - openapi/metalend-rebalancing-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/authentication/metalend-authentication.yml
+source_yaml_url: https://artifacts.apis.io/metalend/authentication/metalend-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - Company

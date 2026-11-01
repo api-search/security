@@ -5,73 +5,73 @@ api_specs:
   label: Apiable Companies API
   slug: apiable-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-companies-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-companies-api-openapi.yml
 - filename: apiable-custom-properties-api-openapi.yml
   format: yaml
   label: Apiable Custom Properties API
   slug: apiable-custom-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-custom-properties-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-custom-properties-api-openapi.yml
 - filename: apiable-docs-api-openapi.yml
   format: yaml
   label: Apiable Docs API
   slug: apiable-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-docs-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-docs-api-openapi.yml
 - filename: apiable-files-api-openapi.yml
   format: yaml
   label: Apiable Files API
   slug: apiable-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-files-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-files-api-openapi.yml
 - filename: apiable-invitations-api-openapi.yml
   format: yaml
   label: Apiable Invitations API
   slug: apiable-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-invitations-api-openapi.yml
 - filename: apiable-plans-api-openapi.yml
   format: yaml
   label: Apiable Plans API
   slug: apiable-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-plans-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-plans-api-openapi.yml
 - filename: apiable-products-api-openapi.yml
   format: yaml
   label: Apiable Products API
   slug: apiable-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-products-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-products-api-openapi.yml
 - filename: apiable-subscriptions-api-openapi.yml
   format: yaml
   label: Apiable Subscriptions API
   slug: apiable-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-subscriptions-api-openapi.yml
 - filename: apiable-teams-api-openapi.yml
   format: yaml
   label: Apiable Teams API
   slug: apiable-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-teams-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-teams-api-openapi.yml
 - filename: apiable-users-api-openapi.yml
   format: yaml
   label: Apiable Users API
   slug: apiable-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-users-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-users-api-openapi.yml
 - filename: apiable-webhooks-api-openapi.yml
   format: yaml
   label: Apiable Webhooks API
   slug: apiable-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-webhooks-api-openapi.yml
 - filename: apiable-server-info-api-openapi.yml
   format: yaml
   label: Apiable Server Info API
   slug: apiable-server-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-server-info-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-server-info-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -105,8 +105,8 @@ slug: apiable-domain-security
 source_filename: apiable-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.apiable.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 12 23:59:59 2027 GMT\n  hsts: false\n- host: developer.apiable.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 16 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: apiable.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/security/apiable-domain-security.yml
+source_yaml: "generated: '2026-10-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.apiable.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 12 23:59:59 2027 GMT\n  hsts: false\n- host: developer.apiable.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 16 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: apiable.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml_url: https://artifacts.apis.io/apiable/security/apiable-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Amazon API Gateway

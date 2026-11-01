@@ -5,19 +5,19 @@ api_specs:
   label: Ozan Soft Gender inference API
   slug: ozan-soft-gender-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ozan-soft/refs/heads/main/openapi/ozan-soft-gender-inference-api-openapi.yml
+  url: https://artifacts.apis.io/ozan-soft/openapi/ozan-soft-gender-inference-api-openapi.yml
 - filename: ozan-soft-phone-api-openapi.yml
   format: yaml
   label: Ozan Soft Phone API
   slug: ozan-soft-phone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ozan-soft/refs/heads/main/openapi/ozan-soft-phone-api-openapi.yml
+  url: https://artifacts.apis.io/ozan-soft/openapi/ozan-soft-phone-api-openapi.yml
 - filename: ozan-soft-quota-api-openapi.yml
   format: yaml
   label: Ozan Soft Quota API
   slug: ozan-soft-quota-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ozan-soft/refs/heads/main/openapi/ozan-soft-quota-api-openapi.yml
+  url: https://artifacts.apis.io/ozan-soft/openapi/ozan-soft-quota-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: ozan-soft-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.genderapi.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 10:54:55 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.genderapi.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 16 16:03:46 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: genderapi.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ozan-soft/refs/heads/main/security/ozan-soft-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ozan-soft/security/ozan-soft-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data Enrichment

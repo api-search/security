@@ -7,13 +7,13 @@ api_specs:
   label: Andel Purchases API
   slug: andel-purchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/andel/refs/heads/main/openapi/andel-purchases-api-openapi.yml
+  url: https://artifacts.apis.io/andel/openapi/andel-purchases-api-openapi.yml
 - filename: andel-webhooks-api-openapi.yml
   format: yaml
   label: Andel Webhooks API
   slug: andel-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/andel/refs/heads/main/openapi/andel-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/andel/openapi/andel-webhooks-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -55,7 +55,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: openapi/andel-data-exchange-openapi.yaml\ndocs: https://build.andel.org/dataexchange/overview/overview\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\n  - authorizationCode\n  token_issuer: Descope\n  token_url: https://api.descope.com/oauth2/v1/apps/token\n  scopes:\n  - purchases:read\n  notes: >-\n    Production is an OAuth 2.0 client-credentials (machine-to-machine) flow with\n    tokens issued by Descope and presented as HTTP bearer tokens. Access tokens\n    carry a `plans` claim used for per-plan authorization enforcement. A\n    developer-exploration authorization-code + PKCE flow (Postman Guided Auth)\n    is also supported. The OpenAPI models both as `http`/`bearer` schemes; the\n    OAuth grant detail is documented in the Data Exchange overview.\nschemes:\n- name: andelDescopeClientCredentials\n  type: http\n  scheme: bearer\n  grant: clientCredentials\n  token_url: https://api.descope.com/oauth2/v1/apps/token\n\
   \  scopes:\n  - purchases:read\n  description: Production machine-to-machine flow. Tokens issued by Descope.\n  sources:\n  - openapi/andel-data-exchange-openapi.yaml\n- name: andelDescopeAuthCode\n  type: http\n  scheme: bearer\n  grant: authorizationCode\n  description: Developer-exploration flow with PKCE. Used by Postman Guided Auth.\n  sources:\n  - openapi/andel-data-exchange-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/andel/refs/heads/main/authentication/andel-authentication.yml
+source_yaml_url: https://artifacts.apis.io/andel/authentication/andel-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

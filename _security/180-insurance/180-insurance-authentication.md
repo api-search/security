@@ -7,43 +7,43 @@ api_specs:
   label: 180 Insurance Cotações API
   slug: 180-insurance-cota-es-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/openapi/180-insurance-cota-es-api-openapi.yml
+  url: https://artifacts.apis.io/180-insurance/openapi/180-insurance-cota-es-api-openapi.yml
 - filename: 180-insurance-produtos-api-openapi.yml
   format: yaml
   label: 180 Insurance Produtos API
   slug: 180-insurance-produtos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/openapi/180-insurance-produtos-api-openapi.yml
+  url: https://artifacts.apis.io/180-insurance/openapi/180-insurance-produtos-api-openapi.yml
 - filename: 180-insurance-propostas-api-openapi.yml
   format: yaml
   label: 180 Insurance Propostas API
   slug: 180-insurance-propostas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/openapi/180-insurance-propostas-api-openapi.yml
+  url: https://artifacts.apis.io/180-insurance/openapi/180-insurance-propostas-api-openapi.yml
 - filename: 180-insurance-renova-es-api-openapi.yml
   format: yaml
   label: 180 Insurance Renovações API
   slug: 180-insurance-renova-es-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/openapi/180-insurance-renova-es-api-openapi.yml
+  url: https://artifacts.apis.io/180-insurance/openapi/180-insurance-renova-es-api-openapi.yml
 - filename: 180-insurance-sinistros-api-openapi.yml
   format: yaml
   label: 180 Insurance Sinistros API
   slug: 180-insurance-sinistros-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/openapi/180-insurance-sinistros-api-openapi.yml
+  url: https://artifacts.apis.io/180-insurance/openapi/180-insurance-sinistros-api-openapi.yml
 - filename: 180-insurance-vendas-api-openapi.yml
   format: yaml
   label: 180 Insurance Vendas API
   slug: 180-insurance-vendas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/openapi/180-insurance-vendas-api-openapi.yml
+  url: https://artifacts.apis.io/180-insurance/openapi/180-insurance-vendas-api-openapi.yml
 - filename: 180-insurance-webhooks-api-openapi.yml
   format: yaml
   label: 180 Insurance Webhooks API
   slug: 180-insurance-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/openapi/180-insurance-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/180-insurance/openapi/180-insurance-webhooks-api-openapi.yml
 auth_types:
 - oauth2
 description: 'The 180 Seguros Sagas API is protected with OAuth2 using the client-credentials (machine-to-machine) grant, brokered by an Auth0 tenant. Clients exchange a client_id + client_secret for a bearer access token (default lifetime 43,200s / 12 hours) and send it on every request as `Authorization: Bearer {access_token}`. The docs advise reusing tokens while valid rather than minting a new one per call.'
@@ -76,7 +76,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://docs.180s.com.br/reference/autenticacao\ndocs: https://docs.180s.com.br/reference/autenticacao\nsummary:\n  types: [oauth2]\n  oauth2_flows: [clientCredentials]\n  token_auth_methods: [client_secret_basic, client_secret_post, private_key_jwt]\n  identity_provider: Auth0\ndescription: >-\n  The 180 Seguros Sagas API is protected with OAuth2 using the client-credentials\n  (machine-to-machine) grant, brokered by an Auth0 tenant. Clients exchange a\n  client_id + client_secret for a bearer access token (default lifetime 43,200s /\n  12 hours) and send it on every request as `Authorization: Bearer {access_token}`.\n  The docs advise reusing tokens while valid rather than minting a new one per call.\nschemes:\n- name: OAuth2ClientCredentials\n  type: oauth2\n  flow: clientCredentials\n  token_url: https://180s-staging.us.auth0.com/oauth/token\n  grant_type: client_credentials\n  token_lifetime_seconds: 43200\n  bearer_header:\
   \ 'Authorization: Bearer {access_token}'\n  sources: [docs.180s.com.br/reference/autenticacao, well-known/180-insurance-oauth-authorization-server.json]\nnotes: >-\n  No granular API scope surface is documented — access is scoped per M2M client /\n  distribution channel at grant time rather than via request scopes, so no\n  scopes/ artifact is emitted. The Auth0 tenant advertises the standard OIDC\n  scopes only (openid/profile/email/...), which apply to interactive flows, not\n  the API's client-credentials grant.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/authentication/180-insurance-authentication.yml
+source_yaml_url: https://artifacts.apis.io/180-insurance/authentication/180-insurance-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

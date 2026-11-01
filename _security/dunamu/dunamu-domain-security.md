@@ -5,13 +5,13 @@ api_specs:
   label: Dunamu Exchange API
   slug: dunamu-exchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dunamu/refs/heads/main/openapi/dunamu-exchange-api-openapi.yml
+  url: https://artifacts.apis.io/dunamu/openapi/dunamu-exchange-api-openapi.yml
 - filename: dunamu-quotation-api-openapi.yml
   format: yaml
   label: Dunamu Quotation API
   slug: dunamu-quotation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dunamu/refs/heads/main/openapi/dunamu-quotation-api-openapi.yml
+  url: https://artifacts.apis.io/dunamu/openapi/dunamu-quotation-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +40,7 @@ source_filename: dunamu-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dunamu.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: dunamu.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dunamu/refs/heads/main/security/dunamu-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dunamu/security/dunamu-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Fintech

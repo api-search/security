@@ -31,7 +31,7 @@ source_filename: kasko-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: kasko.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 08:36:48 2026 GMT\n  hsts: null\ndomains:\n- domain: kasko.io\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"amazon.com\"\n  - 0 iodef \"mailto:sysarch@kasko.io\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kasko/refs/heads/main/security/kasko-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kasko/security/kasko-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

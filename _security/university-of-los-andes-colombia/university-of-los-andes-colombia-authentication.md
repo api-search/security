@@ -7,7 +7,7 @@ api_specs:
   label: University of Los Andes Colombia OAI PMH API
   slug: university-of-los-andes-colombia-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-los-andes-colombia/refs/heads/main/openapi/university-of-los-andes-colombia-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-los-andes-colombia/openapi/university-of-los-andes-colombia-oai-pmh-api-openapi.yml
 auth_types:
 - openIdConnect
 - saml2
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-09-01'\nmethod: probed\nsource:\n- https://login.
   \    status: 200\n    bytes: 28441\n  details:\n    entity_id: https://sts.windows.net/fabd047c-ff48-492a-8bbb-8f98b9fb9cca/\n    metadata_url: https://login.microsoftonline.com/fabd047c-ff48-492a-8bbb-8f98b9fb9cca/federationmetadata/2007-06/federationmetadata.xml\n    single_sign_on_service:\n    - binding: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect\n      location: https://login.microsoftonline.com/fabd047c-ff48-492a-8bbb-8f98b9fb9cca/saml2\n    - binding: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST\n      location: https://login.microsoftonline.com/fabd047c-ff48-492a-8bbb-8f98b9fb9cca/saml2\n  sources:\n  - https://login.microsoftonline.com/fabd047c-ff48-492a-8bbb-8f98b9fb9cca/federationmetadata/2007-06/federationmetadata.xml\n  - https://login.microsoftonline.com/getuserrealm.srf?login=user@uniandes.edu.co&json=1\n- name: none\n  type: none\n  operator: institution\n  description: >-\n    The OAI-PMH endpoint at revistas.uniandes.edu.co takes no credential — all six verbs\
   \ return\n    data to anonymous clients. This is the only Uniandes surface found that serves an automated\n    client without a credential or a challenge.\n  sources:\n  - openapi/university-of-los-andes-colombia-revistas-oai-pmh-openapi.yml\ngated:\n- surface: OJS REST API (revistas.uniandes.edu.co/index.php/{journal}/api/v1)\n  operator: institution\n  status: 403\n  body: '{\"error\":\"api.403.unauthorized\",\"errorMessage\":\"No esta autorizado para acceder al recurso solicitado.\"}'\n  note: >-\n    Present and answering, but every path requires an API token issued by a journal editor. No\n    public token-request path is documented. The contract itself is PKP's, not the university's.\n- surface: api.uniandes.edu.co\n  operator: institution\n  status: 403\n  note: >-\n    Cloudflare WAF (\"Attention Required!\") on every path tried, including /, /docs, /swagger,\n    /openapi.json, /api-docs, /health, /v1 and /.well-known/openapi. The host exists under the\n    institution's own domain\
   \ and is protected rather than unconfigured, but nothing about what it\n    serves is publicly discoverable.\n- surface: repositorio.uniandes.edu.co (DSpace 7 \"Seneca\")\n  operator: institution\n  status: 403\n  note: >-\n    Bot-detection interstitial. A request to /oai/request or /server/api 302s to /challenge and\n    then answers 403 with a \"Bot Detection\" body, under a browser User-Agent as well as curl's.\n    Live and defended, not dead.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-los-andes-colombia/refs/heads/main/authentication/university-of-los-andes-colombia-authentication.yml
+source_yaml_url: https://artifacts.apis.io/university-of-los-andes-colombia/authentication/university-of-los-andes-colombia-authentication.yml
 summary_line: openIdConnect/saml2/none · 3 schemes
 tags:
 - University

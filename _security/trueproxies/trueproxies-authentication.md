@@ -7,31 +7,31 @@ api_specs:
   label: TrueProxies Analytics API
   slug: trueproxies-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trueproxies/refs/heads/main/openapi/trueproxies-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/trueproxies/openapi/trueproxies-analytics-api-openapi.yml
 - filename: trueproxies-catalog-api-openapi.yml
   format: yaml
   label: TrueProxies Catalog API
   slug: trueproxies-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trueproxies/refs/heads/main/openapi/trueproxies-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/trueproxies/openapi/trueproxies-catalog-api-openapi.yml
 - filename: trueproxies-invoices-api-openapi.yml
   format: yaml
   label: TrueProxies Invoices API
   slug: trueproxies-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trueproxies/refs/heads/main/openapi/trueproxies-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/trueproxies/openapi/trueproxies-invoices-api-openapi.yml
 - filename: trueproxies-me-api-openapi.yml
   format: yaml
   label: TrueProxies Me API
   slug: trueproxies-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trueproxies/refs/heads/main/openapi/trueproxies-me-api-openapi.yml
+  url: https://artifacts.apis.io/trueproxies/openapi/trueproxies-me-api-openapi.yml
 - filename: trueproxies-services-api-openapi.yml
   format: yaml
   label: TrueProxies Services API
   slug: trueproxies-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trueproxies/refs/heads/main/openapi/trueproxies-services-api-openapi.yml
+  url: https://artifacts.apis.io/trueproxies/openapi/trueproxies-services-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -59,7 +59,7 @@ source_filename: trueproxies-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: derived\nsource: openapi/trueproxies-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: customerAPIKey\n  type: http\n  scheme: bearer\n  bearerFormat: API key\n  description: 'Send Authorization: Bearer tp_api_… . Create a named, scoped key in the customer\n    dashboard. Keys expire after 30, 90 or 365 days and can be revoked immediately.'\n  sources:\n  - openapi/trueproxies-openapi.yml\nkey_scopes:\n  note: Permission scopes named in the operation descriptions of the provider OpenAPI; they are API-key scopes, not OAuth scopes.\n  scopes: [services:read, proxy:read, proxy:write, billing:read, billing:write, reseller:read, reseller:purchase]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trueproxies/refs/heads/main/authentication/trueproxies-authentication.yml
+source_yaml_url: https://artifacts.apis.io/trueproxies/authentication/trueproxies-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Proxies

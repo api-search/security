@@ -8,193 +8,145 @@ api_specs:
   label: invinoveritas Agents API
   slug: babyblueviper-com-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-agents-api-openapi.yml
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-agents-api-openapi.yml
 - filename: babyblueviper-com-analytics-api-openapi.yml
   format: yaml
   label: invinoveritas Analytics API
   slug: babyblueviper-com-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-analytics-api-openapi.yml
 - filename: babyblueviper-com-billing-api-openapi.yml
   format: yaml
   label: invinoveritas Billing API
   slug: babyblueviper-com-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-billing-api-openapi.yml
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-billing-api-openapi.yml
 - filename: babyblueviper-com-community-api-openapi.yml
   format: yaml
   label: invinoveritas Community API
   slug: babyblueviper-com-community-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-community-api-openapi.yml
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-community-api-openapi.yml
 - filename: babyblueviper-com-corpus-api-openapi.yml
   format: yaml
   label: invinoveritas Corpus API
   slug: babyblueviper-com-corpus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-corpus-api-openapi.yml
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-corpus-api-openapi.yml
 - filename: babyblueviper-com-credit-api-openapi.yml
   format: yaml
   label: invinoveritas Credit API
   slug: babyblueviper-com-credit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-credit-api-openapi.yml
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-credit-api-openapi.yml
 - filename: babyblueviper-com-discovery-api-openapi.yml
   format: yaml
   label: invinoveritas Discovery API
   slug: babyblueviper-com-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-discovery-api-openapi.yml
 - filename: babyblueviper-com-edgeproof-api-openapi.yml
   format: yaml
   label: invinoveritas Edgeproof API
   slug: babyblueviper-com-edgeproof-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-edgeproof-api-openapi.yml
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-edgeproof-api-openapi.yml
 - filename: babyblueviper-com-execution-api-openapi.yml
   format: yaml
   label: invinoveritas Execution API
   slug: babyblueviper-com-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-execution-api-openapi.yml
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-execution-api-openapi.yml
 - filename: babyblueviper-com-inference-api-openapi.yml
   format: yaml
   label: invinoveritas Inference API
   slug: babyblueviper-com-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-inference-api-openapi.yml
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-inference-api-openapi.yml
 - filename: babyblueviper-com-ledger-api-openapi.yml
   format: yaml
   label: invinoveritas Ledger API
   slug: babyblueviper-com-ledger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-ledger-api-openapi.yml
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-ledger-api-openapi.yml
 - filename: babyblueviper-com-llms-txt-api-openapi.yml
   format: yaml
   label: invinoveritas Llms.txt API
   slug: babyblueviper-com-llms-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-llms-txt-api-openapi.yml
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-llms-txt-api-openapi.yml
 - filename: babyblueviper-com-marketplace-api-openapi.yml
   format: yaml
   label: invinoveritas Marketplace API
   slug: babyblueviper-com-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-marketplace-api-openapi.yml
 - filename: babyblueviper-com-markets-api-openapi.yml
   format: yaml
   label: invinoveritas Markets API
   slug: babyblueviper-com-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-markets-api-openapi.yml
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-markets-api-openapi.yml
 - filename: babyblueviper-com-mcp-api-openapi.yml
   format: yaml
   label: invinoveritas MCP API
   slug: babyblueviper-com-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-mcp-api-openapi.yml
 - filename: babyblueviper-com-memory-api-openapi.yml
   format: yaml
   label: invinoveritas Memory API
   slug: babyblueviper-com-memory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-memory-api-openapi.yml
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-memory-api-openapi.yml
 - filename: babyblueviper-com-messageboard-api-openapi.yml
   format: yaml
   label: invinoveritas Messageboard API
   slug: babyblueviper-com-messageboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-messageboard-api-openapi.yml
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-messageboard-api-openapi.yml
 - filename: babyblueviper-com-meta-api-openapi.yml
   format: yaml
   label: invinoveritas Meta API
   slug: babyblueviper-com-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-meta-api-openapi.yml
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-meta-api-openapi.yml
 - filename: babyblueviper-com-relay-health-api-openapi.yml
   format: yaml
   label: invinoveritas Relay Health API
   slug: babyblueviper-com-relay-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-relay-health-api-openapi.yml
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-relay-health-api-openapi.yml
 - filename: babyblueviper-com-residence-api-openapi.yml
   format: yaml
   label: invinoveritas Residence API
   slug: babyblueviper-com-residence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-residence-api-openapi.yml
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-residence-api-openapi.yml
 - filename: babyblueviper-com-tools-api-openapi.yml
   format: yaml
   label: invinoveritas Tools API
   slug: babyblueviper-com-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-tools-api-openapi.yml
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-tools-api-openapi.yml
 - filename: babyblueviper-com-trading-api-openapi.yml
   format: yaml
   label: invinoveritas Trading API
   slug: babyblueviper-com-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-trading-api-openapi.yml
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-trading-api-openapi.yml
 - filename: babyblueviper-com-warden-api-openapi.yml
   format: yaml
   label: invinoveritas Warden API
   slug: babyblueviper-com-warden-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-warden-api-openapi.yml
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-warden-api-openapi.yml
 - filename: babyblueviper-com-waternova-api-openapi.yml
   format: yaml
   label: invinoveritas Waternova API
   slug: babyblueviper-com-waternova-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-waternova-api-openapi.yml
-- filename: babyblueviper-com-admission-chain-api-openapi.yml
-  format: yaml
-  label: invinoveritas Admission Chain API
-  slug: babyblueviper-com-admission-chain-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-admission-chain-api-openapi.yml
-- filename: babyblueviper-com-check-api-openapi.yml
-  format: yaml
-  label: invinoveritas Check API
-  slug: babyblueviper-com-check-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-check-api-openapi.yml
-- filename: babyblueviper-com-embed-api-openapi.yml
-  format: yaml
-  label: invinoveritas Embed API
-  slug: babyblueviper-com-embed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-embed-api-openapi.yml
-- filename: babyblueviper-com-keys-api-openapi.yml
-  format: yaml
-  label: invinoveritas Keys API
-  slug: babyblueviper-com-keys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-keys-api-openapi.yml
-- filename: babyblueviper-com-media-api-openapi.yml
-  format: yaml
-  label: invinoveritas Media API
-  slug: babyblueviper-com-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-media-api-openapi.yml
-- filename: babyblueviper-com-register-media-api-openapi.yml
-  format: yaml
-  label: invinoveritas Register Media API
-  slug: babyblueviper-com-register-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-register-media-api-openapi.yml
-- filename: babyblueviper-com-verify-media-api-openapi.yml
-  format: yaml
-  label: invinoveritas Verify Media API
-  slug: babyblueviper-com-verify-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-verify-media-api-openapi.yml
-- filename: babyblueviper-com-work-acceptance-api-openapi.yml
-  format: yaml
-  label: invinoveritas Work Acceptance API
-  slug: babyblueviper-com-work-acceptance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-work-acceptance-api-openapi.yml
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-waternova-api-openapi.yml
 auth_types:
 - http-bearer
 - l402
@@ -277,13 +229,13 @@ slug: babyblueviper-com-authentication
 source_filename: babyblueviper-com-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-09-19'\nmethod: searched\ndocs: https://api.babyblueviper.com/guide\nsource: 'The OpenAPI (openapi/babyblueviper-com-openapi.yml) declares NO components.securitySchemes — 167 of 187 operations carry security: [] and the paid ones carry an x-payment-info block instead of a scheme — so derive-authentication.py produced nothing. This profile is written from the provider''s payment guide, wallet-onboarding page, llms.txt, the RFC 8414/9728 metadata, the agent card''s securitySchemes block and live 402/401 responses observed on 2026-09-19.'\nsummary:\n  types:\n  - http-bearer\n  - l402\n  - x402\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\n  default: Bearer api_key (free registration; the provider's recommended path for agents)\n  note: 'Four ways in. (1) Bearer: POST /register (no payment, no wallet) returns an api_key prefixed ivv_ ; send Authorization: Bearer <api_key>; the first few paid calls are free (\"first 5 calls FREE\"\
-  \ in the live 402 body; \"free_calls_remaining\" in review responses), after which the balance must be funded via Lightning top-up, x402 USDC or card. (2) L402: an unauthenticated POST to a paid endpoint returns 402 with WWW-Authenticate: L402 token=\"...\", invoice=\"lnbc...\" — pay the bolt11 invoice and retry with Authorization: L402 <payment_hash>:<preimage>. (3) x402: send X-Payment-Scheme: x402 (or hit an x402-priced GET such as /regime) to receive a 402 whose payment-required header carries a base64 x402 v2 challenge (accepts[]: scheme exact, network eip155:8453, USDC asset, payTo, amount) and whose body is the same JSON; retry with an X-PAYMENT header. (4) OAuth 2.1 for the MCP resource: RFC 8414 metadata at /.well-known/oauth-authorization-server (authorization_code + refresh_token, PKCE\n    S256, dynamic client registration, scope mcp). No OpenID Connect (the openid-configuration path says so explicitly).'\nschemes:\n- name: bearer\n  type: http\n  scheme: bearer\n  key_prefix:\
-  \ ivv_\n  obtain: 'POST https://api.babyblueviper.com/register {\"label\": \"my-agent\"} (free, instant, no wallet)'\n  header: 'Authorization: Bearer <api_key>'\n  applies_to: every paid REST endpoint and every paid MCP tool call; also account endpoints (/balance takes api_key as a query parameter instead)\n  sources:\n  - agent card securitySchemes.bearer\n  - https://api.babyblueviper.com/guide\n  - live 402 body \"recommended_path\"\n  observed: 'POST /memory/store without credentials -> 401 {\"detail\":\"Missing or invalid Bearer token (or send X-Payment-Scheme: x402 for USDC payment)\"}'\n- name: l402\n  type: apiKey\n  in: header\n  parameter: Authorization\n  format: L402 <payment_hash>:<preimage>\n  challenge: 'HTTP 402 with WWW-Authenticate: L402 token=\"<hex>\", invoice=\"<bolt11>\" and Retry-After: 15'\n  applies_to: pay-per-call without a registered account (Lightning)\n  sources:\n  - agent card securitySchemes.l402\n  - llms.txt \"Payment methods\"\n  - live POST /reason\
-  \ and POST /review 402 responses\n- name: x402\n  type: apiKey\n  in: header\n  parameter: X-PAYMENT\n  opt_in_header: 'X-Payment-Scheme: x402'\n  challenge: 'HTTP 402 with x-payment-scheme: x402, a base64 payment-required header (x402Version 2, accepts[] on eip155:8453 USDC) and the same JSON in the body'\n  network: eip155:8453 (Base), USDC 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913; XRP Ledger also named in llms.txt/README\n  catalog: https://api.babyblueviper.com/discovery/x402 (x402Version 2, 20 priced resources) and x-payment-info on 20 OpenAPI operations\n  sources:\n  - agent card securitySchemes.x402\n  - OpenAPI info.x-guidance\n  - live GET /regime and GET /signals/full 402 responses\n- name: oauth2\n  type: oauth2\n  resource: https://api.babyblueviper.com/mcp\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.babyblueviper.com/oauth/authorize\n    tokenUrl: https://api.babyblueviper.com/oauth/token\n    refresh: true\n    pkce:\n    - S256\n    scopes:\n\
-  \      mcp: Access the invinoveritas MCP server\n  registration_endpoint: https://api.babyblueviper.com/oauth/register\n  token_endpoint_auth_methods:\n  - none\n  - client_secret_post\n  client_id_metadata_document_supported: true\n  metadata: https://api.babyblueviper.com/.well-known/oauth-authorization-server\n  protected_resource_metadata: https://api.babyblueviper.com/.well-known/oauth-protected-resource\n  sources:\n  - RFC 8414 metadata\n  - RFC 9728 metadata\n  - MCP server card (\"advertises OAuth2.1\" per the provider roadmap)\n  note: No jwks_uri is published and no OIDC. Scopes are documented in scopes/babyblueviper-com-scopes.yml.\nfree_surface:\n  note: Operations marked security [] in the spec that are genuinely free with no credential — /verify-proof, /ledger*, /conformance*, /health, /prices, /stats, /discovery/x402, /signals (teaser), the *-preview GETs, /offers/list, /messages/feed, the well-known documents and the docs pages.\nx-evidence:\n  fetched: '2026-09-19'\n\
-  \  probes:\n  - url: https://api.babyblueviper.com/reason\n    method: POST\n    status: 402\n    www_authenticate: L402\n    retry_after: 15\n  - url: https://api.babyblueviper.com/review\n    method: POST\n    status: 402\n    www_authenticate: L402\n    amount_sats: 260\n  - url: https://api.babyblueviper.com/regime\n    method: GET\n    status: 402\n    x_payment_scheme: x402\n  - url: https://api.babyblueviper.com/memory/store\n    method: POST\n    status: 401\n  - url: https://api.babyblueviper.com/balance\n    method: GET\n    status: 422\n    note: api_key query parameter required\n  - url: https://api.babyblueviper.com/.well-known/oauth-authorization-server\n    status: 200\ndocs_all:\n- https://api.babyblueviper.com/guide\n- https://api.babyblueviper.com/wallet-onboarding\n- https://api.babyblueviper.com/llms.txt\n- https://api.babyblueviper.com/.well-known/oauth-authorization-server\n- https://api.babyblueviper.com/.well-known/agent-card.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/authentication/babyblueviper-com-authentication.yml
+source_yaml: "generated: '2026-09-19'\nmethod: searched\ndocs:\n- https://api.babyblueviper.com/guide\n- https://api.babyblueviper.com/wallet-onboarding\n- https://api.babyblueviper.com/llms.txt\n- https://api.babyblueviper.com/.well-known/oauth-authorization-server\n- https://api.babyblueviper.com/.well-known/agent-card.json\nsource: >-\n  The OpenAPI (openapi/babyblueviper-com-openapi.yml) declares NO components.securitySchemes — 167 of 187\n  operations carry security: [] and the paid ones carry an x-payment-info block instead of a scheme — so\n  derive-authentication.py produced nothing. This profile is written from the provider's payment guide,\n  wallet-onboarding page, llms.txt, the RFC 8414/9728 metadata, the agent card's securitySchemes block and\n  live 402/401 responses observed on 2026-09-19.\nsummary:\n  types: [http-bearer, l402, x402, oauth2]\n  api_key_in: [header]\n  oauth2_flows: [authorizationCode]\n  default: Bearer api_key (free registration; the provider's recommended\
+  \ path for agents)\n  note: >-\n    Four ways in. (1) Bearer: POST /register (no payment, no wallet) returns an api_key prefixed ivv_ ; send\n    Authorization: Bearer <api_key>; the first few paid calls are free (\"first 5 calls FREE\" in the live 402\n    body; \"free_calls_remaining\" in review responses), after which the balance must be funded via Lightning\n    top-up, x402 USDC or card. (2) L402: an unauthenticated POST to a paid endpoint returns 402 with\n    WWW-Authenticate: L402 token=\"...\", invoice=\"lnbc...\" — pay the bolt11 invoice and retry with\n    Authorization: L402 <payment_hash>:<preimage>. (3) x402: send X-Payment-Scheme: x402 (or hit an\n    x402-priced GET such as /regime) to receive a 402 whose payment-required header carries a base64 x402\n    v2 challenge (accepts[]: scheme exact, network eip155:8453, USDC asset, payTo, amount) and whose body is\n    the same JSON; retry with an X-PAYMENT header. (4) OAuth 2.1 for the MCP resource: RFC 8414 metadata at\n  \
+  \  /.well-known/oauth-authorization-server (authorization_code + refresh_token, PKCE S256, dynamic client\n    registration, scope mcp). No OpenID Connect (the openid-configuration path says so explicitly).\nschemes:\n- name: bearer\n  type: http\n  scheme: bearer\n  key_prefix: ivv_\n  obtain: 'POST https://api.babyblueviper.com/register {\"label\": \"my-agent\"} (free, instant, no wallet)'\n  header: 'Authorization: Bearer <api_key>'\n  applies_to: every paid REST endpoint and every paid MCP tool call; also account endpoints (/balance takes api_key as a query parameter instead)\n  sources: [agent card securitySchemes.bearer, https://api.babyblueviper.com/guide, live 402 body \"recommended_path\"]\n  observed: 'POST /memory/store without credentials -> 401 {\"detail\":\"Missing or invalid Bearer token (or send X-Payment-Scheme: x402 for USDC payment)\"}'\n- name: l402\n  type: apiKey\n  in: header\n  parameter: Authorization\n  format: 'L402 <payment_hash>:<preimage>'\n  challenge: 'HTTP\
+  \ 402 with WWW-Authenticate: L402 token=\"<hex>\", invoice=\"<bolt11>\" and Retry-After: 15'\n  applies_to: pay-per-call without a registered account (Lightning)\n  sources: [agent card securitySchemes.l402, llms.txt \"Payment methods\", live POST /reason and POST /review 402 responses]\n- name: x402\n  type: apiKey\n  in: header\n  parameter: X-PAYMENT\n  opt_in_header: 'X-Payment-Scheme: x402'\n  challenge: 'HTTP 402 with x-payment-scheme: x402, a base64 payment-required header (x402Version 2, accepts[] on eip155:8453 USDC) and the same JSON in the body'\n  network: eip155:8453 (Base), USDC 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913; XRP Ledger also named in llms.txt/README\n  catalog: https://api.babyblueviper.com/discovery/x402 (x402Version 2, 20 priced resources) and x-payment-info on 20 OpenAPI operations\n  sources: [agent card securitySchemes.x402, OpenAPI info.x-guidance, live GET /regime and GET /signals/full 402 responses]\n- name: oauth2\n  type: oauth2\n  resource: https://api.babyblueviper.com/mcp\n\
+  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.babyblueviper.com/oauth/authorize\n    tokenUrl: https://api.babyblueviper.com/oauth/token\n    refresh: true\n    pkce: [S256]\n    scopes: {mcp: Access the invinoveritas MCP server}\n  registration_endpoint: https://api.babyblueviper.com/oauth/register\n  token_endpoint_auth_methods: [none, client_secret_post]\n  client_id_metadata_document_supported: true\n  metadata: https://api.babyblueviper.com/.well-known/oauth-authorization-server\n  protected_resource_metadata: https://api.babyblueviper.com/.well-known/oauth-protected-resource\n  sources: [RFC 8414 metadata, RFC 9728 metadata, MCP server card (\"advertises OAuth2.1\" per the provider roadmap)]\n  note: No jwks_uri is published and no OIDC. Scopes are documented in scopes/babyblueviper-com-scopes.yml.\nfree_surface:\n  note: Operations marked security [] in the spec that are genuinely free with no credential — /verify-proof, /ledger*, /conformance*, /health,\
+  \ /prices, /stats, /discovery/x402, /signals (teaser), the *-preview GETs, /offers/list, /messages/feed, the well-known documents and the docs pages.\nx-evidence:\n  fetched: '2026-09-19'\n  probes:\n  - {url: 'https://api.babyblueviper.com/reason', method: POST, status: 402, www_authenticate: L402, retry_after: 15}\n  - {url: 'https://api.babyblueviper.com/review', method: POST, status: 402, www_authenticate: L402, amount_sats: 260}\n  - {url: 'https://api.babyblueviper.com/regime', method: GET, status: 402, x_payment_scheme: x402}\n  - {url: 'https://api.babyblueviper.com/memory/store', method: POST, status: 401}\n  - {url: 'https://api.babyblueviper.com/balance', method: GET, status: 422, note: 'api_key query parameter required'}\n  - {url: 'https://api.babyblueviper.com/.well-known/oauth-authorization-server', status: 200}\n"
+source_yaml_url: https://artifacts.apis.io/babyblueviper-com/authentication/babyblueviper-com-authentication.yml
 summary_line: http-bearer/l402/x402/oauth2 · 4 schemes
 tags:
 - AI Agents

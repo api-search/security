@@ -7,25 +7,25 @@ api_specs:
   label: Mindtickle Assethub API
   slug: mindtickle-assethub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindtickle/refs/heads/main/openapi/mindtickle-assethub-api-openapi.yml
+  url: https://artifacts.apis.io/mindtickle/openapi/mindtickle-assethub-api-openapi.yml
 - filename: mindtickle-public-api-openapi.yml
   format: yaml
   label: Mindtickle Public API
   slug: mindtickle-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindtickle/refs/heads/main/openapi/mindtickle-public-api-openapi.yml
+  url: https://artifacts.apis.io/mindtickle/openapi/mindtickle-public-api-openapi.yml
 - filename: mindtickle-reports-api-openapi.yml
   format: yaml
   label: Mindtickle Reports API
   slug: mindtickle-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindtickle/refs/heads/main/openapi/mindtickle-reports-api-openapi.yml
+  url: https://artifacts.apis.io/mindtickle/openapi/mindtickle-reports-api-openapi.yml
 - filename: mindtickle-services-api-openapi.yml
   format: yaml
   label: Mindtickle Services API
   slug: mindtickle-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindtickle/refs/heads/main/openapi/mindtickle-services-api-openapi.yml
+  url: https://artifacts.apis.io/mindtickle/openapi/mindtickle-services-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: https://app.mindt
   \    tokenUrl: https://app.mindtickle.com/api/users/v1/oauth/token\n  - flow: refreshToken\n    tokenUrl: https://app.mindtickle.com/api/users/v1/oauth/token\n  - flow: deviceCode\n    deviceAuthorizationUrl: https://app.mindtickle.com/api/users/v1/oauth/device/code\n    tokenUrl: https://app.mindtickle.com/api/users/v1/oauth/token\n  response_types_supported: [code]\n  code_challenge_methods_supported: [S256]\n  token_endpoint_auth_methods_supported:\n  - client_secret_post\n  - client_secret_basic\n  - private_key_jwt\n  bearer_methods_supported: [header]\n  scope_count: 7\n  scopes_reference: scopes/mindtickle-scopes.yml\n  sources:\n  - well-known/mindtickle-oauth-authorization-server.json\n  - well-known/mindtickle-oauth-protected-resource.json\n\n- name: callAiOAuth2Bearer\n  type: http\n  scheme: bearer\n  applies_to: https://api-gateway.callai.www.mindtickle.com/public/graphapi\n  description: >-\n    The Call AI public GraphQL API requires an OAuth 2.0 access token passed in\n\
   \    the Authorization header of every GraphQL request. Mindtickle's public docs\n    describe the token as a prerequisite and point at an internal \"Generate\n    OAuth Access Token\" article in the customer help centre, which is behind a\n    tenant login.\n  sources:\n  - https://www.mindtickle.com/call-ai-public-api-mindtickle/\n\nsso:\n  description: >-\n    Platform (end-user) single sign-on, distinct from API authentication.\n  protocols: [SAML 2.0, OpenID Connect, JWT]\n  provisioning: SCIM\n  source: https://www.mindtickle.com/platform/integrations/\n\nnotes:\n- >-\n  No /.well-known/openid-configuration is published on any Mindtickle host; the\n  OAuth 2.0 authorization-server metadata (RFC 8414) is the only discovery\n  document, alongside RFC 9728 protected-resource metadata.\n- >-\n  Dynamic client registration (RFC 7591) is advertised at\n  /api/users/v1/oauth/register. It was NOT exercised - registering a client is a\n  write, and this pipeline only reads.\n- >-\n  The step-by-step\
   \ credential and token-generation guides live in\n  help.mindtickle.com, which 302s to an admin-console login, so the operational\n  auth documentation is customer-only.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mindtickle/refs/heads/main/authentication/mindtickle-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mindtickle/authentication/mindtickle-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Sales Enablement

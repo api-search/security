@@ -7,13 +7,13 @@ api_specs:
   label: Vidu Generation API
   slug: vidu-ai-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vidu-ai/refs/heads/main/openapi/vidu-ai-generation-api-openapi.yml
+  url: https://artifacts.apis.io/vidu-ai/openapi/vidu-ai-generation-api-openapi.yml
 - filename: vidu-ai-tasks-api-openapi.yml
   format: yaml
   label: Vidu Tasks API
   slug: vidu-ai-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vidu-ai/refs/heads/main/openapi/vidu-ai-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/vidu-ai/openapi/vidu-ai-tasks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -44,7 +44,7 @@ source_filename: vidu-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: documented\nsource: https://docs.platform.vidu.com/7207545m0\nsummary:\n  types:\n  - apiKey\nschemes:\n- name: vidu_token\n  type: apiKey\n  in: header\n  headerName: Authorization\n  format: Token {api_key}\n  keyPrefix: vda_\n  note: >-\n    Vidu authenticates every request with an API key sent in the Authorization\n    header using the \"Token\" scheme (Authorization: Token vda_xxx), not standard\n    HTTP Bearer. Keys are created in the Vidu platform account and are prepaid\n    against a credit balance.\n  sources:\n  - https://docs.platform.vidu.com/7207545m0\n  - https://platform.vidu.com/docs/text-to-video\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vidu-ai/refs/heads/main/authentication/vidu-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vidu-ai/authentication/vidu-ai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Video Generation
@@ -53,5 +53,5 @@ tags:
 - Image-to-Video
 - Reference-to-Video
 - U-ViT
-- Diffusion
+- Diffusion Models
 ---

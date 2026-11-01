@@ -7,61 +7,61 @@ api_specs:
   label: Digitised Objects Repository Search and Data API
   slug: digitised-objects
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-digitised-objects-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle/openapi/newcastle-digitised-objects-api-openapi.yml
 - filename: newcastle-entity-api-openapi.yml
   format: yaml
   label: Urban Observatory API (Urban Sciences Building) — Entity
   slug: urban-observatory-entity
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-entity-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle/openapi/newcastle-entity-api-openapi.yml
 - filename: newcastle-feed-api-openapi.yml
   format: yaml
   label: Urban Observatory API (Urban Sciences Building) — Feed
   slug: urban-observatory-feed
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-feed-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle/openapi/newcastle-feed-api-openapi.yml
 - filename: newcastle-summary-api-openapi.yml
   format: yaml
   label: Urban Observatory API (Urban Sciences Building) — Summary
   slug: urban-observatory-summary
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-summary-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle/openapi/newcastle-summary-api-openapi.yml
 - filename: newcastle-api-metadata-information-api-openapi.yml
   format: yaml
   label: Newcastle University API Metadata Information API
   slug: newcastle-api-metadata-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-api-metadata-information-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle/openapi/newcastle-api-metadata-information-api-openapi.yml
 - filename: newcastle-collections-api-openapi.yml
   format: yaml
   label: Newcastle University Collections API
   slug: newcastle-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-collections-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle/openapi/newcastle-collections-api-openapi.yml
 - filename: newcastle-contentdm-api-openapi.yml
   format: yaml
   label: Newcastle University CONTEN Tdm API
   slug: newcastle-contentdm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-contentdm-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle/openapi/newcastle-contentdm-api-openapi.yml
 - filename: newcastle-items-api-openapi.yml
   format: yaml
   label: Newcastle University Items API
   slug: newcastle-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-items-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle/openapi/newcastle-items-api-openapi.yml
 - filename: newcastle-tei-api-openapi.yml
   format: yaml
   label: Newcastle University TEI API
   slug: newcastle-tei-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-tei-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle/openapi/newcastle-tei-api-openapi.yml
 - filename: newcastle-time-series-api-openapi.yml
   format: yaml
   label: Newcastle University Time Series API
   slug: newcastle-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-time-series-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle/openapi/newcastle-time-series-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -84,7 +84,7 @@ source_yaml: "name: Newcastle University — authentication posture\naid: newcas
   \ endpoint accepts unauthenticated POST queries and leaves introspection open.\n    Verified 2026-08-30 with an anonymous query returning real constituency records.\n  verified: '2026-08-30'\n- aid: newcastle:urban-observatory\n  x-operator: institution\n  scheme: none\n  detail: >-\n    No securitySchemes in the Urban Sciences Building OpenAPI. GET\n    /api/v2.0a/sensors/entity returned 200 and 616 entities anonymously on 2026-08-30. Some\n    operations note that results are returned \"provided permissions permit\", which is a\n    server-side data visibility rule rather than a caller credential.\n  verified: '2026-08-30'\n- aid: newcastle:etheses-oai\n  x-operator: institution\n  scheme: none\n  detail: OAI-PMH is an open harvesting protocol; verb=Identify returns 200 with no credential.\n  verified: '2026-08-30'\n- aid: newcastle:data-ncl\n  x-operator: tenant\n  scheme: vendor\n  detail: >-\n    data.ncl.ac.uk is a Figshare tenant (CNAME to figshare.com). Programmatic access runs\
   \ on\n    Figshare's OAuth 2.0 and personal-token scheme, documented and operated by Figshare, not by\n    Newcastle. Not scored here.\nidentity_federation:\n  x-operator: institution\n  protocol: SAML 2.0 / Shibboleth\n  entity_id: https://gateway.ncl.ac.uk/idp/shibboleth\n  metadata_url: https://gateway.ncl.ac.uk/idp/shibboleth\n  scope: ncl.ac.uk\n  federation: UK Access Management Federation (feeds eduGAIN)\n  federation_metadata: http://metadata.ukfederation.org.uk/ukfederation-metadata.xml\n  sso_endpoints:\n  - https://gateway.ncl.ac.uk/idp/profile/SAML2/Redirect/SSO\n  - https://gateway.ncl.ac.uk/idp/profile/SAML2/POST/SSO\n  - https://gateway.ncl.ac.uk/idp/profile/SAML2/POST-SimpleSign/SSO\n  - https://gateway.ncl.ac.uk/idp/profile/Shibboleth/SSO\n  service_providers_registered: 168\n  development_idp: https://dev-gateway.ncl.ac.uk/idp/shibboleth\n  verified: '2026-08-30'\n  detail: >-\n    This is the largest genuinely institution-operated machine-readable surface Newcastle has.\
   \ It is\n    a login federation, not a data API, and it is recorded here rather than as an apis[] contract\n    with request/response semantics.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/authentication/newcastle-authentication.yml
+source_yaml_url: https://artifacts.apis.io/newcastle/authentication/newcastle-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

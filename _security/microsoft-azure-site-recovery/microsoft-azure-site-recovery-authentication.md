@@ -7,13 +7,13 @@ api_specs:
   label: Azure Site Recovery RecoveryPlans API
   slug: microsoft-azure-site-recovery-recoveryplans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-site-recovery/refs/heads/main/openapi/microsoft-azure-site-recovery-recoveryplans-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-recoveryplans-api-openapi.yml
 - filename: microsoft-azure-site-recovery-replicationprotecteditems-api-openapi.yml
   format: yaml
   label: Azure Site Recovery ReplicationProtectedItems API
   slug: microsoft-azure-site-recovery-replicationprotecteditems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-site-recovery/refs/heads/main/openapi/microsoft-azure-site-recovery-replicationprotecteditems-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-replicationprotecteditems-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -44,7 +44,7 @@ source_filename: microsoft-azure-site-recovery-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-azure-site-recovery-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - implicit\nschemes:\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  description: Azure Active Directory OAuth 2.0 bearer token\n  sources:\n  - openapi/microsoft-azure-site-recovery-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-site-recovery/refs/heads/main/authentication/microsoft-azure-site-recovery-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-site-recovery/authentication/microsoft-azure-site-recovery-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Disaster Recovery

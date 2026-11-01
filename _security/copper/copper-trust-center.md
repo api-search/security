@@ -5,43 +5,43 @@ api_specs:
   label: Copper Activities API
   slug: copper-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/openapi/copper-activities-api-openapi.yml
+  url: https://artifacts.apis.io/copper/openapi/copper-activities-api-openapi.yml
 - filename: copper-companies-api-openapi.yml
   format: yaml
   label: Copper Companies API
   slug: copper-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/openapi/copper-companies-api-openapi.yml
+  url: https://artifacts.apis.io/copper/openapi/copper-companies-api-openapi.yml
 - filename: copper-leads-api-openapi.yml
   format: yaml
   label: Copper Leads API
   slug: copper-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/openapi/copper-leads-api-openapi.yml
+  url: https://artifacts.apis.io/copper/openapi/copper-leads-api-openapi.yml
 - filename: copper-opportunities-api-openapi.yml
   format: yaml
   label: Copper Opportunities API
   slug: copper-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/openapi/copper-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/copper/openapi/copper-opportunities-api-openapi.yml
 - filename: copper-people-api-openapi.yml
   format: yaml
   label: Copper People API
   slug: copper-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/openapi/copper-people-api-openapi.yml
+  url: https://artifacts.apis.io/copper/openapi/copper-people-api-openapi.yml
 - filename: copper-tasks-api-openapi.yml
   format: yaml
   label: Copper Tasks API
   slug: copper-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/openapi/copper-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/copper/openapi/copper-tasks-api-openapi.yml
 - filename: copper-webhooks-api-openapi.yml
   format: yaml
   label: Copper Webhooks API
   slug: copper-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/openapi/copper-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/copper/openapi/copper-webhooks-api-openapi.yml
 certification_count: 3
 certifications:
 - HIPAA
@@ -60,7 +60,7 @@ source_filename: copper-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.copper.com/\nurl: https://trust.copper.com/\ncertifications:\n- HIPAA\n- FedRAMP\n- GDPR\nevidence:\n- source: https://trust.copper.com/\n  keywords:\n  - hipaa\n  - fedramp\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/security/copper-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/copper/security/copper-trust-center.yml
 summary_line: HIPAA, FedRAMP, GDPR
 tags:
 - Activities

@@ -44,7 +44,7 @@ source_filename: mqtt-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mqtt.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 20:15:21 2026 GMT\n  hsts: false\n- host: docs.oasis-open.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 09:37:11 2026 GMT\n  hsts: false\ndomains:\n- domain: mqtt.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: oasis-open.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mqtt/refs/heads/main/security/mqtt-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mqtt/security/mqtt-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - MQTT

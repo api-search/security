@@ -5,7 +5,7 @@ api_specs:
   label: Parea AI Parea API
   slug: parea-parea-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parea/refs/heads/main/openapi/parea-parea-api-openapi.yml
+  url: https://artifacts.apis.io/parea/openapi/parea-parea-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: parea-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.parea.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 23:10:09 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.parea.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 14:24:03 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: parea-ai-backend-us-9ac16cdbc7a7b006.onporter.run\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 23:50:06 2026 GMT\n  hsts: null\ndomains:\n- domain: parea.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: onporter.run\n  dnssec: true\n  caa:\n  - k8s-ingressn-ingressn-472382be57-0670a6c5b5c3bb3f.elb.us-east-2.amazonaws.com.\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parea/refs/heads/main/security/parea-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/parea/security/parea-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - LLM

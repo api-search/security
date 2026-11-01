@@ -5,19 +5,19 @@ api_specs:
   label: Apache Hive Databases API
   slug: apache-hive-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-hive/refs/heads/main/openapi/apache-hive-databases-api-openapi.yml
+  url: https://artifacts.apis.io/apache-hive/openapi/apache-hive-databases-api-openapi.yml
 - filename: apache-hive-jobs-api-openapi.yml
   format: yaml
   label: Apache Hive Jobs API
   slug: apache-hive-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-hive/refs/heads/main/openapi/apache-hive-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/apache-hive/openapi/apache-hive-jobs-api-openapi.yml
 - filename: apache-hive-tables-api-openapi.yml
   format: yaml
   label: Apache Hive Tables API
   slug: apache-hive-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-hive/refs/heads/main/openapi/apache-hive-tables-api-openapi.yml
+  url: https://artifacts.apis.io/apache-hive/openapi/apache-hive-tables-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -51,7 +51,7 @@ source_filename: apache-hive-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cwiki.apache.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 04:10:25 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: apache.org\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:root@apache.org\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-hive/refs/heads/main/security/apache-hive-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apache-hive/security/apache-hive-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Apache

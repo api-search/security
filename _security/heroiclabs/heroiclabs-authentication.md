@@ -8,19 +8,19 @@ api_specs:
   label: Nakama API
   slug: nakama-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heroiclabs/refs/heads/main/openapi/heroiclabs-nakama-api-openapi.yml
+  url: https://artifacts.apis.io/heroiclabs/openapi/heroiclabs-nakama-api-openapi.yml
 - filename: heroiclabs-console-api-openapi.yml
   format: yaml
   label: Heroic Labs Console API
   slug: heroiclabs-console-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heroiclabs/refs/heads/main/openapi/heroiclabs-console-api-openapi.yml
+  url: https://artifacts.apis.io/heroiclabs/openapi/heroiclabs-console-api-openapi.yml
 - filename: heroiclabs-rpc-api-openapi.yml
   format: yaml
   label: Heroic Labs Rpc API
   slug: heroiclabs-rpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heroiclabs/refs/heads/main/openapi/heroiclabs-rpc-api-openapi.yml
+  url: https://artifacts.apis.io/heroiclabs/openapi/heroiclabs-rpc-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -67,7 +67,7 @@ source_filename: heroiclabs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/heroiclabs-hiro-rpc-api-openapi.yml, openapi/heroiclabs-nakama-api-openapi.yml,\n  openapi/heroiclabs-nakama-console-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuthNakama\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/heroiclabs-hiro-rpc-api-openapi.yml\n- name: BasicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/heroiclabs-nakama-api-openapi.yml\n  - openapi/heroiclabs-nakama-console-api-openapi.yml\n- name: BearerJwt\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/heroiclabs-nakama-api-openapi.yml\n  - openapi/heroiclabs-nakama-console-api-openapi.yml\n- name: HttpKeyAuth\n  type: apiKey\n  in: header\n  parameter: http_key\n  sources:\n  - openapi/heroiclabs-nakama-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/heroiclabs/refs/heads/main/authentication/heroiclabs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/heroiclabs/authentication/heroiclabs-authentication.yml
 summary_line: apiKey/http · 4 schemes
 tags:
 - Game Backend

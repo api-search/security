@@ -7,19 +7,19 @@ api_specs:
   label: UKG Ready Authentication API
   slug: ukg-ready-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ukg-ready/refs/heads/main/openapi/ukg-ready-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/ukg-ready/openapi/ukg-ready-authentication-api-openapi.yml
 - filename: ukg-ready-content-api-openapi.yml
   format: yaml
   label: UKG Ready Content API
   slug: ukg-ready-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ukg-ready/refs/heads/main/openapi/ukg-ready-content-api-openapi.yml
+  url: https://artifacts.apis.io/ukg-ready/openapi/ukg-ready-content-api-openapi.yml
 - filename: ukg-ready-groups-api-openapi.yml
   format: yaml
   label: UKG Ready Groups API
   slug: ukg-ready-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ukg-ready/refs/heads/main/openapi/ukg-ready-groups-api-openapi.yml
+  url: https://artifacts.apis.io/ukg-ready/openapi/ukg-ready-groups-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: ukg-ready-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ukg-ready-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth 2.0 bearer access token issued via /authentication/access_token.\n  sources:\n  - openapi/ukg-ready-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ukg-ready/refs/heads/main/authentication/ukg-ready-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ukg-ready/authentication/ukg-ready-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - HCM

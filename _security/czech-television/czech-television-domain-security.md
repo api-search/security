@@ -27,7 +27,7 @@ source_filename: czech-television-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ceskatelevize.cz\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 12 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: ceskatelevize.cz\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/czech-television/refs/heads/main/security/czech-television-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/czech-television/security/czech-television-domain-security.yml
 summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
 - Video

@@ -7,25 +7,25 @@ api_specs:
   label: Klaxoon Adventures API
   slug: klaxoon-adventures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klaxoon/refs/heads/main/openapi/klaxoon-adventures-api-openapi.yml
+  url: https://artifacts.apis.io/klaxoon/openapi/klaxoon-adventures-api-openapi.yml
 - filename: klaxoon-missions-api-openapi.yml
   format: yaml
   label: Klaxoon Missions API
   slug: klaxoon-missions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klaxoon/refs/heads/main/openapi/klaxoon-missions-api-openapi.yml
+  url: https://artifacts.apis.io/klaxoon/openapi/klaxoon-missions-api-openapi.yml
 - filename: klaxoon-quizzes-api-openapi.yml
   format: yaml
   label: Klaxoon Quizzes API
   slug: klaxoon-quizzes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klaxoon/refs/heads/main/openapi/klaxoon-quizzes-api-openapi.yml
+  url: https://artifacts.apis.io/klaxoon/openapi/klaxoon-quizzes-api-openapi.yml
 - filename: klaxoon-surveys-api-openapi.yml
   format: yaml
   label: Klaxoon Surveys API
   slug: klaxoon-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klaxoon/refs/heads/main/openapi/klaxoon-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/klaxoon/openapi/klaxoon-surveys-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -57,7 +57,7 @@ source_filename: klaxoon-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/klaxoon-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://access.klaxoon.com/auth\n    tokenUrl: https://access.klaxoon.com/token\n    scopes: 0\n  description: OAuth 2.0 authorization-code flow against Klaxoon. Scopes are issued per integration\n    via the Klaxoon developer portal.\n  sources:\n  - openapi/klaxoon-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/klaxoon/refs/heads/main/authentication/klaxoon-authentication.yml
+source_yaml_url: https://artifacts.apis.io/klaxoon/authentication/klaxoon-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Collaboration

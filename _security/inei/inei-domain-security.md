@@ -23,7 +23,7 @@ source_filename: inei-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: iinei.inei.gob.pe\n  https: false\ndomains:\n- domain: gob.pe\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inei/refs/heads/main/security/inei-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/inei/security/inei-domain-security.yml
 summary_line: DNSSEC
 tags:
 - Government

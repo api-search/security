@@ -8,85 +8,85 @@ api_specs:
   label: Benchmark Minerals Anodes API
   slug: benchmark-minerals-anodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/openapi/benchmark-minerals-anodes-api-openapi.yml
+  url: https://artifacts.apis.io/benchmark-minerals/openapi/benchmark-minerals-anodes-api-openapi.yml
 - filename: benchmark-minerals-black-mass-api-openapi.yml
   format: yaml
   label: Benchmark Minerals Black Mass API
   slug: benchmark-minerals-black-mass-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/openapi/benchmark-minerals-black-mass-api-openapi.yml
+  url: https://artifacts.apis.io/benchmark-minerals/openapi/benchmark-minerals-black-mass-api-openapi.yml
 - filename: benchmark-minerals-cathodes-api-openapi.yml
   format: yaml
   label: Benchmark Minerals Cathodes API
   slug: benchmark-minerals-cathodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/openapi/benchmark-minerals-cathodes-api-openapi.yml
+  url: https://artifacts.apis.io/benchmark-minerals/openapi/benchmark-minerals-cathodes-api-openapi.yml
 - filename: benchmark-minerals-cobalt-api-openapi.yml
   format: yaml
   label: Benchmark Minerals Cobalt API
   slug: benchmark-minerals-cobalt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/openapi/benchmark-minerals-cobalt-api-openapi.yml
+  url: https://artifacts.apis.io/benchmark-minerals/openapi/benchmark-minerals-cobalt-api-openapi.yml
 - filename: benchmark-minerals-electrolyte-api-openapi.yml
   format: yaml
   label: Benchmark Minerals Electrolyte API
   slug: benchmark-minerals-electrolyte-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/openapi/benchmark-minerals-electrolyte-api-openapi.yml
+  url: https://artifacts.apis.io/benchmark-minerals/openapi/benchmark-minerals-electrolyte-api-openapi.yml
 - filename: benchmark-minerals-lithium-api-openapi.yml
   format: yaml
   label: Benchmark Minerals Lithium API
   slug: benchmark-minerals-lithium-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/openapi/benchmark-minerals-lithium-api-openapi.yml
+  url: https://artifacts.apis.io/benchmark-minerals/openapi/benchmark-minerals-lithium-api-openapi.yml
 - filename: benchmark-minerals-lithium-ion-battery-api-openapi.yml
   format: yaml
   label: Benchmark Minerals Lithium ion Battery API
   slug: benchmark-minerals-lithium-ion-battery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/openapi/benchmark-minerals-lithium-ion-battery-api-openapi.yml
+  url: https://artifacts.apis.io/benchmark-minerals/openapi/benchmark-minerals-lithium-ion-battery-api-openapi.yml
 - filename: benchmark-minerals-lithium-ion-battery-raw-material-api-openapi.yml
   format: yaml
   label: Benchmark Minerals Lithium ion Battery Raw Material API
   slug: benchmark-minerals-lithium-ion-battery-raw-material-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/openapi/benchmark-minerals-lithium-ion-battery-raw-material-api-openapi.yml
+  url: https://artifacts.apis.io/benchmark-minerals/openapi/benchmark-minerals-lithium-ion-battery-raw-material-api-openapi.yml
 - filename: benchmark-minerals-manganese-api-openapi.yml
   format: yaml
   label: Benchmark Minerals Manganese API
   slug: benchmark-minerals-manganese-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/openapi/benchmark-minerals-manganese-api-openapi.yml
+  url: https://artifacts.apis.io/benchmark-minerals/openapi/benchmark-minerals-manganese-api-openapi.yml
 - filename: benchmark-minerals-natural-graphite-api-openapi.yml
   format: yaml
   label: Benchmark Minerals Natural Graphite API
   slug: benchmark-minerals-natural-graphite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/openapi/benchmark-minerals-natural-graphite-api-openapi.yml
+  url: https://artifacts.apis.io/benchmark-minerals/openapi/benchmark-minerals-natural-graphite-api-openapi.yml
 - filename: benchmark-minerals-nickel-api-openapi.yml
   format: yaml
   label: Benchmark Minerals Nickel API
   slug: benchmark-minerals-nickel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/openapi/benchmark-minerals-nickel-api-openapi.yml
+  url: https://artifacts.apis.io/benchmark-minerals/openapi/benchmark-minerals-nickel-api-openapi.yml
 - filename: benchmark-minerals-rare-earths-api-openapi.yml
   format: yaml
   label: Benchmark Minerals Rare Earths API
   slug: benchmark-minerals-rare-earths-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/openapi/benchmark-minerals-rare-earths-api-openapi.yml
+  url: https://artifacts.apis.io/benchmark-minerals/openapi/benchmark-minerals-rare-earths-api-openapi.yml
 - filename: benchmark-minerals-spotlight-api-openapi.yml
   format: yaml
   label: Benchmark Minerals Spotlight API
   slug: benchmark-minerals-spotlight-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/openapi/benchmark-minerals-spotlight-api-openapi.yml
+  url: https://artifacts.apis.io/benchmark-minerals/openapi/benchmark-minerals-spotlight-api-openapi.yml
 - filename: benchmark-minerals-synthetic-graphite-api-openapi.yml
   format: yaml
   label: Benchmark Minerals Synthetic Graphite API
   slug: benchmark-minerals-synthetic-graphite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/openapi/benchmark-minerals-synthetic-graphite-api-openapi.yml
+  url: https://artifacts.apis.io/benchmark-minerals/openapi/benchmark-minerals-synthetic-graphite-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -158,7 +158,7 @@ source_yaml: "generated: '2026-09-04'\nmethod: searched\nsource: https://www.ben
   \ key; a Benchmark subscription is a prerequisite.'\n  rotation:\n    documented: false\n  statement: 'info.description: \"Access to our API is secured using an API key. Users must include their\n    unique API key in the request header x-api-key to authenticate their requests.\"'\n  sources:\n  - openapi/benchmark-minerals-prices-api.yml\n  - https://www.benchmarkminerals.com/api\n  observed:\n    url: https://api.benchmarkminerals.com/v2\n    unauthenticated_status: 403\n    body: '{\"message\":\"Forbidden\"}'\n    note: AWS API Gateway rejects an unkeyed request at the edge with no discovery surface behind it.\n- name: mcp_oauth\n  type: oauth2\n  flow: bearer token\n  surface: MCP gateway\n  endpoint: https://mcp.benchmarkminerals.com/mcp\n  issuer: https://cognito-idp.eu-west-2.amazonaws.com/eu-west-2_GuiZRnNNK\n  authorization_endpoint: https://mcp-auth.benchmarkminerals.com/oauth2/authorize\n  token_endpoint: https://mcp-auth.benchmarkminerals.com/oauth2/token\n  revocation_endpoint:\
   \ https://mcp-auth.benchmarkminerals.com/oauth2/revoke\n  userinfo_endpoint: https://mcp-auth.benchmarkminerals.com/oauth2/userInfo\n  jwks_uri: https://cognito-idp.eu-west-2.amazonaws.com/eu-west-2_GuiZRnNNK/.well-known/jwks.json\n  token_endpoint_auth_methods:\n  - client_secret_basic\n  - client_secret_post\n  response_types:\n  - code\n  - token\n  signing_alg:\n  - RS256\n  scopes:\n  - benchmark-tools/sandbox.read\n  - benchmark-tools/production.read\n  provisioning:\n    documented: false\n    note: No public page explains how to obtain an MCP client_id/client_secret; the surface is undocumented.\n  sources:\n  - https://mcp.benchmarkminerals.com/.well-known/oauth-protected-resource\n  - well-known/benchmark-minerals-cognito-openid-configuration.json\ngaps:\n- issue: no auth error schema\n  impact: 401 and 403 are declared with a description only; an agent cannot machine-read whether a failure\n    is a bad key or an unentitled market\n- issue: no documented key rotation or expiry\n\
   \  impact: long-lived agent credentials have no published lifecycle\n- issue: the OAuth surface is undocumented\n  impact: the only way to learn the MCP auth model is to probe the gateway\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/authentication/benchmark-minerals-authentication.yml
+source_yaml_url: https://artifacts.apis.io/benchmark-minerals/authentication/benchmark-minerals-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Batteries

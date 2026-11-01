@@ -34,7 +34,7 @@ source_filename: cloudexmachina-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cloudexmachina.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 17:50:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: cloudexmachina.io\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"google.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"google.com\"\n  - 0 issuewild \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudexmachina/refs/heads/main/security/cloudexmachina-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cloudexmachina/security/cloudexmachina-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

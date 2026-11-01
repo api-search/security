@@ -7,25 +7,25 @@ api_specs:
   label: Microsoft to Do LinkedResources API
   slug: microsoft-to-do-linkedresources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-to-do/refs/heads/main/openapi/microsoft-to-do-linkedresources-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-to-do/openapi/microsoft-to-do-linkedresources-api-openapi.yml
 - filename: microsoft-to-do-tasklists-api-openapi.yml
   format: yaml
   label: Microsoft to Do TaskLists API
   slug: microsoft-to-do-tasklists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-to-do/refs/heads/main/openapi/microsoft-to-do-tasklists-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-to-do/openapi/microsoft-to-do-tasklists-api-openapi.yml
 - filename: microsoft-to-do-tasks-api-openapi.yml
   format: yaml
   label: Microsoft to Do Tasks API
   slug: microsoft-to-do-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-to-do/refs/heads/main/openapi/microsoft-to-do-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-to-do/openapi/microsoft-to-do-tasks-api-openapi.yml
 - filename: microsoft-to-do-checklist-items-api-openapi.yml
   format: yaml
   label: Microsoft to Do Checklist Items API
   slug: microsoft-to-do-checklist-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-to-do/refs/heads/main/openapi/microsoft-to-do-checklist-items-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-to-do/openapi/microsoft-to-do-checklist-items-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: microsoft-to-do-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-to-do-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/microsoft-to-do-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-to-do/refs/heads/main/authentication/microsoft-to-do-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-to-do/authentication/microsoft-to-do-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Microsoft

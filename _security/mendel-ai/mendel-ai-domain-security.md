@@ -24,7 +24,7 @@ source_filename: mendel-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mendel.ai\n  https: false\ndomains:\n- domain: mendel.ai\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mendel-ai/refs/heads/main/security/mendel-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mendel-ai/security/mendel-ai-domain-security.yml
 summary_line: DNSSEC · DMARC
 tags:
 - Clinical AI

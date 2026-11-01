@@ -5,25 +5,25 @@ api_specs:
   label: Fullcast Copilot API
   slug: fullcast-copilot-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/openapi/fullcast-copilot-api-api-openapi.yml
+  url: https://artifacts.apis.io/fullcast/openapi/fullcast-copilot-api-api-openapi.yml
 - filename: fullcast-mcp-info-api-openapi.yml
   format: yaml
   label: Fullcast Mcp Info API
   slug: fullcast-mcp-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/openapi/fullcast-mcp-info-api-openapi.yml
+  url: https://artifacts.apis.io/fullcast/openapi/fullcast-mcp-info-api-openapi.yml
 - filename: fullcast-well-known-api-openapi.yml
   format: yaml
   label: Fullcast .well Known API
   slug: fullcast-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/openapi/fullcast-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/fullcast/openapi/fullcast-well-known-api-openapi.yml
 - filename: fullcast-oauth-api-openapi.yml
   format: yaml
   label: Fullcast OAUTH API
   slug: fullcast-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/openapi/fullcast-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/fullcast/openapi/fullcast-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: fullcast-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fullcast.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  7 03:48:30 2026 GMT\n  hsts: false\n- host: support.fullcast.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 12:03:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: assistant.fullcast.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 20 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: fullcast.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: fullcast.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/security/fullcast-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fullcast/security/fullcast-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

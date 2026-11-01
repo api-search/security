@@ -27,7 +27,7 @@ source_filename: dimeq-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dimeq.no\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 08:49:40 2026 GMT\n  hsts: false\ndomains:\n- domain: dimeq.no\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dimeq/refs/heads/main/security/dimeq-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dimeq/security/dimeq-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

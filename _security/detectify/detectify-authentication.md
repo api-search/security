@@ -29,7 +29,7 @@ source_filename: detectify-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://docs.detectify.com/developer/authentication\ndocs: https://docs.detectify.com/developer/authentication\nreference: https://developer.detectify.com/\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  oauth2_flows: []\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter_name: Authorization\n  format: >-\n    API key (UUID) passed in the Authorization header. Keys are generated on the\n    API keys page in the Detectify dashboard and scoped to a team.\n  sources: [https://developer.detectify.com/]\nnotes: >-\n  The Detectify REST API (base https://api.detectify.com/rest/v3) authenticates\n  with a per-team API key supplied in the Authorization header. No OAuth2 / OIDC\n  surface is documented, so no scopes/ artifact is produced.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/detectify/refs/heads/main/authentication/detectify-authentication.yml
+source_yaml_url: https://artifacts.apis.io/detectify/authentication/detectify-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

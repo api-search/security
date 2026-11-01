@@ -8,25 +8,25 @@ api_specs:
   label: Nebulock Entities API
   slug: nebulock-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/openapi/nebulock-entities-api-openapi.yml
+  url: https://artifacts.apis.io/nebulock/openapi/nebulock-entities-api-openapi.yml
 - filename: nebulock-findings-api-openapi.yml
   format: yaml
   label: Nebulock Findings API
   slug: nebulock-findings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/openapi/nebulock-findings-api-openapi.yml
+  url: https://artifacts.apis.io/nebulock/openapi/nebulock-findings-api-openapi.yml
 - filename: nebulock-hunts-api-openapi.yml
   format: yaml
   label: Nebulock Hunts API
   slug: nebulock-hunts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/openapi/nebulock-hunts-api-openapi.yml
+  url: https://artifacts.apis.io/nebulock/openapi/nebulock-hunts-api-openapi.yml
 - filename: nebulock-rules-api-openapi.yml
   format: yaml
   label: Nebulock Rules API
   slug: nebulock-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/openapi/nebulock-rules-api-openapi.yml
+  url: https://artifacts.apis.io/nebulock/openapi/nebulock-rules-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/nebulock-openapi.yml\ndocs: https://docs.nebulock.io/reference/getting-started-with-the-nebulock-findings-api\nnotes: >-\n  The Nebulock public API is available only to active Nebulock customers.\n  API keys are issued and managed by organization administrators in the Nebulock\n  platform (see https://docs.nebulock.io/docs/create-an-api-key). Every request\n  must carry two headers: X-API-Key-ID and X-API-Key-Secret. Portal/user access\n  to the Nebulock platform itself is via SAML SSO (Okta or Microsoft Entra).\n  Rate limit: 60 requests per minute.\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  portal_sso:\n  - SAML (Okta)\n  - SAML (Microsoft Entra)\n  rate_limit: 60/min\nschemes:\n- name: ApiKeyId\n  type: apiKey\n  in: header\n  parameter: X-API-Key-ID\n  sources:\n  - openapi/nebulock-openapi.yml\n- name: ApiKeySecret\n  type: apiKey\n  in: header\n  parameter: X-API-Key-Secret\n  sources:\n  -\
   \ openapi/nebulock-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/authentication/nebulock-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nebulock/authentication/nebulock-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company

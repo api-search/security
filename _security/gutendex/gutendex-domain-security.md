@@ -5,7 +5,7 @@ api_specs:
   label: Gutendex Books API
   slug: gutendex-books-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gutendex/refs/heads/main/openapi/gutendex-books-api-openapi.yml
+  url: https://artifacts.apis.io/gutendex/openapi/gutendex-books-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -33,7 +33,7 @@ source_filename: gutendex-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gutendex.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 10:44:01 2026 GMT\n  hsts: false\ndomains:\n- domain: gutendex.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gutendex/refs/heads/main/security/gutendex-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gutendex/security/gutendex-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Books

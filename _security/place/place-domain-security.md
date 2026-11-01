@@ -43,7 +43,7 @@ source_filename: place-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: place.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 18:23:39 2026 GMT\n  hsts: false\n- host: sso.place.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 12 00:23:06 2026 GMT\n  hsts: true\n  hsts_max_age: 315360000\n  hsts_include_subdomains: true\n  note: PLACE single sign-on host (Okta custom domain); serves OIDC/OAuth discovery.\n- host: hub.place.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 23 23:49:13 2026 GMT\n  hsts: true\n  hsts_max_age: 315360000\n  hsts_include_subdomains: true\n  note: PLACE identity hub host (Okta custom domain); serves OIDC/OAuth discovery.\ndomains:\n- domain: place.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/place/refs/heads/main/security/place-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/place/security/place-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

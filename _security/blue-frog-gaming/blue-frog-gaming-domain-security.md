@@ -24,7 +24,7 @@ source_filename: blue-frog-gaming-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bluefroggaming.com\n  https: false\ndomains:\n- domain: bluefroggaming.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blue-frog-gaming/refs/heads/main/security/blue-frog-gaming-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/blue-frog-gaming/security/blue-frog-gaming-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

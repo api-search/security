@@ -7,13 +7,13 @@ api_specs:
   label: Reachware Inc. Cards API
   slug: reachware-inc-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reachware-inc/refs/heads/main/openapi/reachware-inc-cards-api-openapi.yml
+  url: https://artifacts.apis.io/reachware-inc/openapi/reachware-inc-cards-api-openapi.yml
 - filename: reachware-inc-payments-api-openapi.yml
   format: yaml
   label: Reachware Inc. Payments API
   slug: reachware-inc-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reachware-inc/refs/heads/main/openapi/reachware-inc-payments-api-openapi.yml
+  url: https://artifacts.apis.io/reachware-inc/openapi/reachware-inc-payments-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: reachware-inc-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/reachware-inc-reachpay-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Merchant API token: Authorization: Bearer {reachToken}'\n  sources:\n  - openapi/reachware-inc-reachpay-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reachware-inc/refs/heads/main/authentication/reachware-inc-authentication.yml
+source_yaml_url: https://artifacts.apis.io/reachware-inc/authentication/reachware-inc-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

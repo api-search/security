@@ -5,55 +5,55 @@ api_specs:
   label: Back Market Backbox API
   slug: back-market-backbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-backbox-api-openapi.yml
+  url: https://artifacts.apis.io/back-market/openapi/back-market-backbox-api-openapi.yml
 - filename: back-market-backship-api-openapi.yml
   format: yaml
   label: Back Market Backship API
   slug: back-market-backship-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-backship-api-openapi.yml
+  url: https://artifacts.apis.io/back-market/openapi/back-market-backship-api-openapi.yml
 - filename: back-market-care-api-openapi.yml
   format: yaml
   label: Back Market Care API
   slug: back-market-care-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-care-api-openapi.yml
+  url: https://artifacts.apis.io/back-market/openapi/back-market-care-api-openapi.yml
 - filename: back-market-categories-api-openapi.yml
   format: yaml
   label: Back Market Categories API
   slug: back-market-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-categories-api-openapi.yml
+  url: https://artifacts.apis.io/back-market/openapi/back-market-categories-api-openapi.yml
 - filename: back-market-listings-api-openapi.yml
   format: yaml
   label: Back Market Listings API
   slug: back-market-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-listings-api-openapi.yml
+  url: https://artifacts.apis.io/back-market/openapi/back-market-listings-api-openapi.yml
 - filename: back-market-orderline-api-openapi.yml
   format: yaml
   label: Back Market Orderline API
   slug: back-market-orderline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-orderline-api-openapi.yml
+  url: https://artifacts.apis.io/back-market/openapi/back-market-orderline-api-openapi.yml
 - filename: back-market-orders-api-openapi.yml
   format: yaml
   label: Back Market Orders API
   slug: back-market-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-orders-api-openapi.yml
+  url: https://artifacts.apis.io/back-market/openapi/back-market-orders-api-openapi.yml
 - filename: back-market-buy-back-api-openapi.yml
   format: yaml
   label: Back Market Buy Back API
   slug: back-market-buy-back-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-buy-back-api-openapi.yml
+  url: https://artifacts.apis.io/back-market/openapi/back-market-buy-back-api-openapi.yml
 - filename: back-market-task-manager-api-openapi.yml
   format: yaml
   label: Back Market task manager API
   slug: back-market-task-manager-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-task-manager-api-openapi.yml
+  url: https://artifacts.apis.io/back-market/openapi/back-market-task-manager-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -98,7 +98,7 @@ source_filename: back-market-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.backmarket.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 14:14:57 2026 GMT\n  hsts: true\n  hsts_max_age: 15768000\n- host: api.backmarket.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 22:00:19 2026 GMT\n  hsts: false\n- host: preprod.backmarket.co.jp\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 00:04:07 2026 GMT\n  hsts: null\ndomains:\n- domain: backmarket.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: backmarket.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/security/back-market-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/back-market/security/back-market-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

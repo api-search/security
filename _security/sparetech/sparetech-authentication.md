@@ -7,37 +7,37 @@ api_specs:
   label: Sparetech Authentication API
   slug: sparetech-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/openapi/sparetech-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sparetech/openapi/sparetech-authentication-api-openapi.yml
 - filename: sparetech-changeintent-api-openapi.yml
   format: yaml
   label: Sparetech ChangeIntent API
   slug: sparetech-changeintent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/openapi/sparetech-changeintent-api-openapi.yml
+  url: https://artifacts.apis.io/sparetech/openapi/sparetech-changeintent-api-openapi.yml
 - filename: sparetech-creationintent-api-openapi.yml
   format: yaml
   label: Sparetech CreationIntent API
   slug: sparetech-creationintent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/openapi/sparetech-creationintent-api-openapi.yml
+  url: https://artifacts.apis.io/sparetech/openapi/sparetech-creationintent-api-openapi.yml
 - filename: sparetech-extensionintent-api-openapi.yml
   format: yaml
   label: Sparetech ExtensionIntent API
   slug: sparetech-extensionintent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/openapi/sparetech-extensionintent-api-openapi.yml
+  url: https://artifacts.apis.io/sparetech/openapi/sparetech-extensionintent-api-openapi.yml
 - filename: sparetech-material-master-sync-api-openapi.yml
   format: yaml
   label: Sparetech Material Master Sync API
   slug: sparetech-material-master-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/openapi/sparetech-material-master-sync-api-openapi.yml
+  url: https://artifacts.apis.io/sparetech/openapi/sparetech-material-master-sync-api-openapi.yml
 - filename: sparetech-schema-api-openapi.yml
   format: yaml
   label: Sparetech Schema API
   slug: sparetech-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/openapi/sparetech-schema-api-openapi.yml
+  url: https://artifacts.apis.io/sparetech/openapi/sparetech-schema-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -72,7 +72,7 @@ source_filename: sparetech-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/sparetech-sync-v1-openapi.json, openapi/sparetech-sync-v2-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: Token\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: This API uses JWT for authorization. SPARETECH will provide your client credentials,\n    that are specific to each organisation and integration environment. See the Authentication\n    section of this documentation for details on how to obtain a token.\n  sources:\n  - openapi/sparetech-sync-v1-openapi.json\n  - openapi/sparetech-sync-v2-openapi.json\n- name: ClientCredentials\n  type: http\n  scheme: basic\n  sources:\n  - openapi/sparetech-sync-v1-openapi.json\n  - openapi/sparetech-sync-v2-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/authentication/sparetech-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sparetech/authentication/sparetech-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Company

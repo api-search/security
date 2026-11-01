@@ -5,31 +5,31 @@ api_specs:
   label: Blockchain.com Bitcoin API
   slug: blockchain-7-bitcoin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain-7/refs/heads/main/openapi/blockchain-7-bitcoin-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain-7/openapi/blockchain-7-bitcoin-api-openapi.yml
 - filename: blockchain-7-bitcoin-cash-api-openapi.yml
   format: yaml
   label: Blockchain.com Bitcoin Cash API
   slug: blockchain-7-bitcoin-cash-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain-7/refs/heads/main/openapi/blockchain-7-bitcoin-cash-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain-7/openapi/blockchain-7-bitcoin-cash-api-openapi.yml
 - filename: blockchain-7-charts-api-openapi.yml
   format: yaml
   label: Blockchain.com Charts API
   slug: blockchain-7-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain-7/refs/heads/main/openapi/blockchain-7-charts-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain-7/openapi/blockchain-7-charts-api-openapi.yml
 - filename: blockchain-7-ethereum-api-openapi.yml
   format: yaml
   label: Blockchain.com Ethereum API
   slug: blockchain-7-ethereum-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain-7/refs/heads/main/openapi/blockchain-7-ethereum-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain-7/openapi/blockchain-7-ethereum-api-openapi.yml
 - filename: blockchain-7-solana-api-openapi.yml
   format: yaml
   label: Blockchain.com Solana API
   slug: blockchain-7-solana-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain-7/refs/heads/main/openapi/blockchain-7-solana-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain-7/openapi/blockchain-7-solana-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: blockchain-7-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.blockchain.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: blockchain.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blockchain-7/refs/heads/main/security/blockchain-7-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/blockchain-7/security/blockchain-7-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

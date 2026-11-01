@@ -5,7 +5,7 @@ api_specs:
   label: Salad Transcription API Default API
   slug: salad-transcription-api-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salad-transcription-api/refs/heads/main/openapi/salad-transcription-api-default-api-openapi.yml
+  url: https://artifacts.apis.io/salad-transcription-api/openapi/salad-transcription-api-default-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -35,7 +35,7 @@ source_filename: salad-transcription-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: salad.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 16:34:15 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: salad.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salad-transcription-api/refs/heads/main/security/salad-transcription-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/salad-transcription-api/security/salad-transcription-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Audio Transcription

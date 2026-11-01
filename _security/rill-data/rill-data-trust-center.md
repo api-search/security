@@ -5,7 +5,7 @@ api_specs:
   label: Rill Data Orgs API
   slug: rill-data-orgs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rill-data/refs/heads/main/openapi/rill-data-orgs-api-openapi.yml
+  url: https://artifacts.apis.io/rill-data/openapi/rill-data-orgs-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2
@@ -22,7 +22,7 @@ source_filename: rill-data-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nsource: https://trust.rilldata.com/\nurl: https://trust.rilldata.com/\ncertifications:\n- SOC 2\nevidence:\n- source: https://trust.rilldata.com/\n  keywords:\n  - soc 2\n  - soc2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rill-data/refs/heads/main/security/rill-data-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/rill-data/security/rill-data-trust-center.yml
 summary_line: SOC 2
 tags:
 - Company

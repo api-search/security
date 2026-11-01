@@ -38,7 +38,7 @@ source_filename: fandom-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fandom.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 12:56:52 2026 GMT\n  hsts: null\n- host: community.fandom.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 17:31:30 2026 GMT\n  hsts: null\ndomains:\n- domain: fandom.com\n  dnssec: false\n  caa:\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 iodef \"mailto:domains@fandom.com\"\n  - 0 iodef \"mailto:ops-l@fandom.com\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fandom/refs/heads/main/security/fandom-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fandom/security/fandom-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

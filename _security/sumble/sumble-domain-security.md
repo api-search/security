@@ -5,61 +5,61 @@ api_specs:
   label: Sumble Contact Lists API
   slug: sumble-contact-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/openapi/sumble-contact-lists-api-openapi.yml
+  url: https://artifacts.apis.io/sumble/openapi/sumble-contact-lists-api-openapi.yml
 - filename: sumble-jobs-api-openapi.yml
   format: yaml
   label: Sumble Jobs API
   slug: sumble-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/openapi/sumble-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/sumble/openapi/sumble-jobs-api-openapi.yml
 - filename: sumble-organization-lists-api-openapi.yml
   format: yaml
   label: Sumble Organization Lists API
   slug: sumble-organization-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/openapi/sumble-organization-lists-api-openapi.yml
+  url: https://artifacts.apis.io/sumble/openapi/sumble-organization-lists-api-openapi.yml
 - filename: sumble-organizations-api-openapi.yml
   format: yaml
   label: Sumble Organizations API
   slug: sumble-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/openapi/sumble-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/sumble/openapi/sumble-organizations-api-openapi.yml
 - filename: sumble-people-api-openapi.yml
   format: yaml
   label: Sumble People API
   slug: sumble-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/openapi/sumble-people-api-openapi.yml
+  url: https://artifacts.apis.io/sumble/openapi/sumble-people-api-openapi.yml
 - filename: sumble-projects-api-openapi.yml
   format: yaml
   label: Sumble Projects API
   slug: sumble-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/openapi/sumble-projects-api-openapi.yml
+  url: https://artifacts.apis.io/sumble/openapi/sumble-projects-api-openapi.yml
 - filename: sumble-signals-api-openapi.yml
   format: yaml
   label: Sumble Signals API
   slug: sumble-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/openapi/sumble-signals-api-openapi.yml
+  url: https://artifacts.apis.io/sumble/openapi/sumble-signals-api-openapi.yml
 - filename: sumble-support-api-openapi.yml
   format: yaml
   label: Sumble Support API
   slug: sumble-support-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/openapi/sumble-support-api-openapi.yml
+  url: https://artifacts.apis.io/sumble/openapi/sumble-support-api-openapi.yml
 - filename: sumble-teams-api-openapi.yml
   format: yaml
   label: Sumble Teams API
   slug: sumble-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/openapi/sumble-teams-api-openapi.yml
+  url: https://artifacts.apis.io/sumble/openapi/sumble-teams-api-openapi.yml
 - filename: sumble-technologies-api-openapi.yml
   format: yaml
   label: Sumble Technologies API
   slug: sumble-technologies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/openapi/sumble-technologies-api-openapi.yml
+  url: https://artifacts.apis.io/sumble/openapi/sumble-technologies-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -100,7 +100,7 @@ source_filename: sumble-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sumble.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 04:44:09 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.sumble.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 03:25:51 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.sumble.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 03:24:16 2026 GMT\n  hsts: null\ndomains:\n- domain: sumble.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/security/sumble-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sumble/security/sumble-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -5,19 +5,19 @@ api_specs:
   label: Universiti Sains Malaysia Export API
   slug: usm-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usm/refs/heads/main/openapi/usm-export-api-openapi.yml
+  url: https://artifacts.apis.io/usm/openapi/usm-export-api-openapi.yml
 - filename: usm-oai-pmh-api-openapi.yml
   format: yaml
   label: Universiti Sains Malaysia OAI PMH API
   slug: usm-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usm/refs/heads/main/openapi/usm-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/usm/openapi/usm-oai-pmh-api-openapi.yml
 - filename: usm-repository-api-openapi.yml
   format: yaml
   label: Universiti Sains Malaysia Repository API
   slug: usm-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usm/refs/heads/main/openapi/usm-repository-api-openapi.yml
+  url: https://artifacts.apis.io/usm/openapi/usm-repository-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -55,7 +55,7 @@ source_filename: usm-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.usm.my\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 07:01:10 2026 GMT\n  hsts: false\n- host: eprints.usm.my\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 25 07:01:10 2026 GMT\n  hsts: false\n- host: api.usm.my\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 25 07:01:10 2026 GMT\n  hsts: false\ndomains:\n- domain: usm.my\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/usm/refs/heads/main/security/usm-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/usm/security/usm-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - University

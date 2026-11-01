@@ -47,7 +47,7 @@ source_filename: optinmonster-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: optinmonster.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 15:35:11 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.optinmonster.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 05:52:12 2026 GMT\n  hsts: false\n- host: wordpress.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 19:43:55 2026 GMT\n  hsts: true\n  hsts_max_age: 3600\ndomains:\n- domain: optinmonster.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: wordpress.org\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:caa@wordpress.org\"\n  - 0 issue \"letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/53691143\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/optinmonster/refs/heads/main/security/optinmonster-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/optinmonster/security/optinmonster-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -16,7 +16,7 @@ source_filename: grin-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: https://grin.co/security/\nurl: https://grin.co/security/\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://grin.co/security/\n  keywords:\n  - soc 2\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/grin/refs/heads/main/security/grin-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/grin/security/grin-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - Company

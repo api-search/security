@@ -46,7 +46,7 @@ source_filename: case-western-reserve-university-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: case.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 13:59:05 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: login.case.edu\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 16 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 15768000\n- host: researchguides.case.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 12:15:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: case.edu\n  dnssec: false\n  caa:\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"emsign.com\"\n  - 0 issue \"godaddy.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/case-western-reserve-university/refs/heads/main/security/case-western-reserve-university-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/case-western-reserve-university/security/case-western-reserve-university-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Education

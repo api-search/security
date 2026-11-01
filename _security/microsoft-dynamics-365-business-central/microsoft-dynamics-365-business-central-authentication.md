@@ -7,43 +7,43 @@ api_specs:
   label: Microsoft Dynamics 365 Business Central Companies API
   slug: microsoft-dynamics-365-business-central-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/openapi/microsoft-dynamics-365-business-central-companies-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-business-central/openapi/microsoft-dynamics-365-business-central-companies-api-openapi.yml
 - filename: microsoft-dynamics-365-business-central-customers-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Business Central Customers API
   slug: microsoft-dynamics-365-business-central-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/openapi/microsoft-dynamics-365-business-central-customers-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-business-central/openapi/microsoft-dynamics-365-business-central-customers-api-openapi.yml
 - filename: microsoft-dynamics-365-business-central-items-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Business Central Items API
   slug: microsoft-dynamics-365-business-central-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/openapi/microsoft-dynamics-365-business-central-items-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-business-central/openapi/microsoft-dynamics-365-business-central-items-api-openapi.yml
 - filename: microsoft-dynamics-365-business-central-vendors-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Business Central Vendors API
   slug: microsoft-dynamics-365-business-central-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/openapi/microsoft-dynamics-365-business-central-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-business-central/openapi/microsoft-dynamics-365-business-central-vendors-api-openapi.yml
 - filename: microsoft-dynamics-365-business-central-purchase-orders-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Business Central Purchase Orders API
   slug: microsoft-dynamics-365-business-central-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/openapi/microsoft-dynamics-365-business-central-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-business-central/openapi/microsoft-dynamics-365-business-central-purchase-orders-api-openapi.yml
 - filename: microsoft-dynamics-365-business-central-sales-invoices-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Business Central Sales Invoices API
   slug: microsoft-dynamics-365-business-central-sales-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/openapi/microsoft-dynamics-365-business-central-sales-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-business-central/openapi/microsoft-dynamics-365-business-central-sales-invoices-api-openapi.yml
 - filename: microsoft-dynamics-365-business-central-sales-orders-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Business Central Sales Orders API
   slug: microsoft-dynamics-365-business-central-sales-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/openapi/microsoft-dynamics-365-business-central-sales-orders-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-business-central/openapi/microsoft-dynamics-365-business-central-sales-orders-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -75,7 +75,7 @@ source_filename: microsoft-dynamics-365-business-central-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-dynamics-365-business-central-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n    scopes: 1\n  description: Microsoft Entra ID OAuth 2.0\n  sources:\n  - openapi/microsoft-dynamics-365-business-central-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/authentication/microsoft-dynamics-365-business-central-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-dynamics-365-business-central/authentication/microsoft-dynamics-365-business-central-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - ERP

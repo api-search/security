@@ -38,7 +38,7 @@ source_filename: buoyant-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: buoyant.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 27 22:22:25 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: linkerd.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 14:58:09 2026 GMT\n  hsts: false\ndomains:\n- domain: buoyant.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: linkerd.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buoyant/refs/heads/main/security/buoyant-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/buoyant/security/buoyant-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - AI Observability

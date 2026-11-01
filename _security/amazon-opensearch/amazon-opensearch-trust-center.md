@@ -5,31 +5,67 @@ api_specs:
   label: Amazon OpenSearch Service API Domain API
   slug: amazon-opensearch-domain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/openapi/amazon-opensearch-domain-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-domain-api-openapi.yml
 - filename: amazon-opensearch-es-api-openapi.yml
   format: yaml
   label: Amazon OpenSearch Service API Es API
   slug: amazon-opensearch-es-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/openapi/amazon-opensearch-es-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-es-api-openapi.yml
 - filename: amazon-opensearch-packages-api-openapi.yml
   format: yaml
   label: Amazon OpenSearch Service API Packages API
   slug: amazon-opensearch-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/openapi/amazon-opensearch-packages-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-packages-api-openapi.yml
 - filename: amazon-opensearch-tags-api-openapi.yml
   format: yaml
   label: Amazon OpenSearch Service API Tags API
   slug: amazon-opensearch-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/openapi/amazon-opensearch-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-tags-api-openapi.yml
 - filename: amazon-opensearch-tags-removal-api-openapi.yml
   format: yaml
   label: Amazon OpenSearch Service API Tags Removal API
   slug: amazon-opensearch-tags-removal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/openapi/amazon-opensearch-tags-removal-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-tags-removal-api-openapi.yml
+- filename: amazon-opensearch-capability-api-openapi.yml
+  format: yaml
+  label: Amazon OpenSearch Service API Opensearch Capability API
+  slug: amazon-opensearch-capability-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-capability-api-openapi.yml
+- filename: amazon-opensearch-config-api-openapi.yml
+  format: yaml
+  label: Amazon OpenSearch Service API Opensearch Config API
+  slug: amazon-opensearch-config-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-config-api-openapi.yml
+- filename: amazon-opensearch-datasource-api-openapi.yml
+  format: yaml
+  label: Amazon OpenSearch Service API Opensearch Datasource API
+  slug: amazon-opensearch-datasource-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-datasource-api-openapi.yml
+- filename: amazon-opensearch-index-api-openapi.yml
+  format: yaml
+  label: Amazon OpenSearch Service API Opensearch Index API
+  slug: amazon-opensearch-index-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-index-api-openapi.yml
+- filename: amazon-opensearch-opensearch-api-openapi.yml
+  format: yaml
+  label: Amazon OpenSearch Service API Opensearch Opensearch API
+  slug: amazon-opensearch-opensearch-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-opensearch-api-openapi.yml
+- filename: amazon-opensearch-operations-api-openapi.yml
+  format: yaml
+  label: Amazon OpenSearch Service API Opensearch Operations API
+  slug: amazon-opensearch-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-operations-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -50,7 +86,7 @@ source_filename: amazon-opensearch-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://aws.amazon.com/compliance/\nurl: https://aws.amazon.com/compliance/\ncertifications:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://aws.amazon.com/compliance/\n  keywords:\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/security/amazon-opensearch-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/amazon-opensearch/security/amazon-opensearch-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Analytics

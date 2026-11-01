@@ -7,109 +7,115 @@ api_specs:
   label: Authenticx Agent API
   slug: authenticx-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-agent-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-agent-api-openapi.yml
 - filename: authenticx-conversations-api-openapi.yml
   format: yaml
   label: Authenticx Conversations API
   slug: authenticx-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-conversations-api-openapi.yml
 - filename: authenticx-evaluations-api-openapi.yml
   format: yaml
   label: Authenticx Evaluations API
   slug: authenticx-evaluations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-evaluations-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-evaluations-api-openapi.yml
 - filename: authenticx-hierarchy-api-openapi.yml
   format: yaml
   label: Authenticx Hierarchy API
   slug: authenticx-hierarchy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-hierarchy-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-hierarchy-api-openapi.yml
 - filename: authenticx-interactions-api-openapi.yml
   format: yaml
   label: Authenticx Interactions API
   slug: authenticx-interactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-interactions-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-interactions-api-openapi.yml
 - filename: authenticx-media-api-openapi.yml
   format: yaml
   label: Authenticx Media API
   slug: authenticx-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-media-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-media-api-openapi.yml
 - filename: authenticx-metadata-api-openapi.yml
   format: yaml
   label: Authenticx Metadata API
   slug: authenticx-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-metadata-api-openapi.yml
 - filename: authenticx-modelresults-api-openapi.yml
   format: yaml
   label: Authenticx Model Results API
   slug: authenticx-modelresults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-modelresults-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-modelresults-api-openapi.yml
 - filename: authenticx-receipts-api-openapi.yml
   format: yaml
   label: Authenticx Receipts API
   slug: authenticx-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-receipts-api-openapi.yml
 - filename: authenticx-roles-api-openapi.yml
   format: yaml
   label: Authenticx Roles API
   slug: authenticx-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-roles-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-roles-api-openapi.yml
 - filename: authenticx-scim-resourcetypes-api-openapi.yml
   format: yaml
   label: Authenticx (Scim) ResourceTypes API
   slug: authenticx-scim-resourcetypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-scim-resourcetypes-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-scim-resourcetypes-api-openapi.yml
 - filename: authenticx-scim-schemas-api-openapi.yml
   format: yaml
   label: Authenticx (Scim) Schemas API
   slug: authenticx-scim-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-scim-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-scim-schemas-api-openapi.yml
 - filename: authenticx-scim-serviceproviderconfig-api-openapi.yml
   format: yaml
   label: Authenticx (Scim) ServiceProviderConfig API
   slug: authenticx-scim-serviceproviderconfig-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-scim-serviceproviderconfig-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-scim-serviceproviderconfig-api-openapi.yml
 - filename: authenticx-scim-users-api-openapi.yml
   format: yaml
   label: Authenticx (Scim) Users API
   slug: authenticx-scim-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-scim-users-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-scim-users-api-openapi.yml
 - filename: authenticx-textmedia-api-openapi.yml
   format: yaml
   label: Authenticx Text Media API
   slug: authenticx-textmedia-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-textmedia-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-textmedia-api-openapi.yml
 - filename: authenticx-user-api-openapi.yml
   format: yaml
   label: Authenticx User API
   slug: authenticx-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-user-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-user-api-openapi.yml
 - filename: authenticx-userhierarchy-api-openapi.yml
   format: yaml
   label: Authenticx User Hierarchy API
   slug: authenticx-userhierarchy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-userhierarchy-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-userhierarchy-api-openapi.yml
 - filename: authenticx-workflows-api-openapi.yml
   format: yaml
   label: Authenticx Workflows API
   slug: authenticx-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-workflows-api-openapi.yml
+- filename: authenticx-scim-groups-api-openapi.yml
+  format: yaml
+  label: Authenticx (Scim) Groups API
+  slug: authenticx-scim-groups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-scim-groups-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -151,7 +157,7 @@ source_yaml: "generated: '2026-08-06'\nmethod: searched\nsource: openapi/authent
   \ /connect/* endpoint set)\n  endpoints:\n    authorization: https://acxapi-net8d-prod1.azurewebsites.net/connect/authorize\n    token: https://acxapi-net8d-prod1.azurewebsites.net/connect/token\n    userinfo: https://acxapi-net8d-prod1.azurewebsites.net/connect/userinfo\n    jwks: https://acxapi-net8d-prod1.azurewebsites.net/.well-known/openid-configuration/jwks\n    introspection: https://acxapi-net8d-prod1.azurewebsites.net/connect/introspect\n    revocation: https://acxapi-net8d-prod1.azurewebsites.net/connect/revocation\n    end_session: https://acxapi-net8d-prod1.azurewebsites.net/connect/endsession\n    device_authorization: https://acxapi-net8d-prod1.azurewebsites.net/connect/deviceauthorization\n    pushed_authorization_request: https://acxapi-net8d-prod1.azurewebsites.net/connect/par\n    backchannel_authentication: https://acxapi-net8d-prod1.azurewebsites.net/connect/ciba\n  grant_types_supported:\n  - authorization_code\n  - client_credentials\n  - refresh_token\n  - implicit\n\
   \  - urn:ietf:params:oauth:grant-type:device_code\n  - urn:openid:params:grant-type:ciba\n  token_endpoint_auth_methods_supported:\n  - client_secret_basic\n  - client_secret_post\n  id_token_signing_alg_values_supported:\n  - RS256\n  require_pushed_authorization_requests: false\nobservations:\n- >-\n  The discovery document's `issuer` and every advertised endpoint point at the underlying Azure App Service\n  hostname (acxapi-net8d-prod1.azurewebsites.net), not at the public api.beauthenticx.com host that serves the\n  document. A strict OIDC client that follows discovery will therefore be redirected off the branded host, and\n  the token endpoint the docs tell integrators to call (api.beauthenticx.com/connect/token) is NOT the one the\n  discovery document advertises. Worth raising with the provider.\n- >-\n  The OpenAPI declares only the `clientCredentials` flow and only the `acxapi` scope, while the OIDC provider\n  advertises authorization_code, implicit, device_code and CIBA plus\
   \ openid/profile/email/address/roles/\n  offline_access. The extra grants and scopes serve the AcxPlatform web application and the documented\n  \"Authenticx as an Auth Provider\" Salesforce OIDC integration, not AcxAPI machine-to-machine access.\n- >-\n  Access tokens expire after 3600 seconds (documented); the client-credentials flow has no refresh token, so\n  integrators re-request a token.\nx-evidence:\n- url: https://api.beauthenticx.com/swagger/v1/swagger.json\n  http_status: 200\n  fetched: '2026-08-06'\n- url: https://api.beauthenticx.com/.well-known/openid-configuration\n  http_status: 200\n  fetched: '2026-08-06'\n- url: https://authenticx.readme.io/reference/retrieving-an-access-token\n  http_status: 200\n  fetched: '2026-08-06'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/authentication/authenticx-authentication.yml
+source_yaml_url: https://artifacts.apis.io/authenticx/authentication/authenticx-authentication.yml
 summary_line: oauth2/openIdConnect · 1 scheme
 tags:
 - Conversation Intelligence

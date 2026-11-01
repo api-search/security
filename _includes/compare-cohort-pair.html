@@ -1,0 +1,130 @@
+{%- comment -%}
+  compare-cohort-pair.html — one compare_cohorts result, rendered from
+  site.data.compare_showcase (written by scripts/build-compare-showcase.py). Every number here
+  is read from the tool's own response; only `narrative`, `headline` and `summary` are prose.
+  The depth_confounded warning renders ABOVE the narrative on purpose: the tool says to check it
+  first, and a quoted gap without it is how our coverage becomes a market statistic.
+{%- endcomment -%}
+{%- assign SC = site.data.compare_showcase -%}
+{%- assign C = SC.cohorts | where: 'id', page.compare_id | first -%}
+{%- assign R = C.result -%}
+{%- assign A = R.a -%}{%- assign B = R.b -%}
+{%- assign SA = A.stats -%}{%- assign SB = B.stats -%}
+{%- assign D = R.delta -%}
+{%- assign fkeys = 'discoverability,contract_quality,contract_governance,operational_transparency,developer_ergonomics,access_clarity' | split: ',' -%}
+{%- assign flabels = 'Discoverability,Contract Quality,Contract Governance,Operational Transparency,Developer Ergonomics,Access Clarity' | split: ',' -%}
+{%- assign fslugs = 'discoverability,contract-quality,governance,operational-transparency,developer-ergonomics,commercial-clarity' | split: ',' -%}
+{%- assign akeys = 'mcp_first_party_pct,mcp_pct,scopes_pct,rules_pct,arazzo_pct,skills_pct,security_pct' | split: ',' -%}
+{%- assign alabels = 'First-party MCP server,Any MCP artifact (incl. derived),OAuth scopes,Spectral rules,Arazzo workflows,Agent skills,Security artifact' | split: ',' -%}
+{%- assign bands = 'exemplar,strong,developing,thin,emerging,minimal' | split: ',' -%}
+{% include compare-css.html %}
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":{{ C.headline | jsonify }},"description":{{ C.summary | jsonify }},"dateModified":"{{ SC.fetched }}","datePublished":"{{ SC.fetched }}","url":"{{ page.url | prepend: site.url }}","publisher":{"@type":"Organization","name":"APIs.io","url":"https://apis.io"},"about":[{"@type":"Thing","name":{{ A.name | jsonify }},"url":"https://apis.io{{ C.links.a }}"},{"@type":"Thing","name":{{ B.name | jsonify }},"url":"https://apis.io{{ C.links.b }}"}]}
+</script>
+
+<div class="cmp-crumb"><a href="/compare/">Compare</a> / <a href="/compare/cohorts/">Markets</a> / {{ A.name }} vs {{ B.name }}</div>
+<span class="cmp-tool">compare_cohorts</span>
+<h1>{{ C.headline }}</h1>
+<p class="cmp-lead">{{ C.summary }}</p>
+
+<div class="cmp-duel">
+  {%- for x in (1..2) -%}
+  {%- if x == 1 -%}{%- assign side = A -%}{%- assign st = SA -%}{%- assign sun = C.suns.a -%}{%- assign link = C.links.a -%}
+  {%- else -%}{%- assign side = B -%}{%- assign st = SB -%}{%- assign sun = C.suns.b -%}{%- assign link = C.links.b -%}{%- endif -%}
+  <div class="cmp-side">
+    {% include compare-sun.html name=side.name score=sun.score band=sun.band agent_score=sun.agent_score agent_band=sun.agent_band facets=sun.facets %}
+    <h2><a href="{{ link }}">{{ side.name }}</a></h2>
+    <div class="cmp-big">{{ st.kin_score.mean }}<span> average</span></div>
+    <span class="cmp-pill cmp-b-{{ sun.band }}">{{ sun.band }} on average</span>
+    <div class="cmp-sub">Agent readiness <strong>{{ st.agent_readiness.mean }}</strong> &middot; {{ sun.agent_band }}</div>
+    <div class="cmp-sub">{{ st.coverage.scored_members }} scored providers &middot; {{ side.kind }}</div>
+  </div>
+  {%- if x == 1 %}<div class="cmp-vs">VS</div>{% endif -%}
+  {%- endfor -%}
+</div>
+<p class="cmp-sub" style="text-align:center;margin-top:-0.5rem">Each sun is drawn from the cohort's averages: six facet rings, the mean Kin Score and mean agent readiness.</p>
+
+{%- if R.depth_confounded %}
+<div class="cmp-note cmp-note-warn"><strong>Check this first: the gap is partly our coverage</strong>{{ R.depth_note }}</div>
+{%- else %}
+<div class="cmp-note cmp-note-ok"><strong>A clean comparison</strong>The higher-scoring cohort is not the one we enriched more deeply (<code>depth_confounded: false</code>), so this gap can be read as a difference between the markets.</div>
+{%- endif %}
+
+<div class="cmp-narr">{{ C.narrative | markdownify }}</div>
+
+<h2 class="section-anchor" id="scores"><a href="#scores">The distributions</a></h2>
+<div class="cmp-scroll"><table class="cmp-table">
+  <thead><tr><th></th><th class="num">{{ A.name }}</th><th class="num">{{ B.name }}</th><th class="num">Delta</th></tr></thead>
+  <tbody>
+  <tr><td>Kin Score, mean</td><td class="num">{{ SA.kin_score.mean }}</td><td class="num">{{ SB.kin_score.mean }}</td><td class="num {% if D.kin_score_mean > 0 %}cmp-pos{% elsif D.kin_score_mean < 0 %}cmp-neg{% endif %}">{% if D.kin_score_mean > 0 %}+{% endif %}{{ D.kin_score_mean }}</td></tr>
+  <tr><td>Kin Score, median</td><td class="num">{{ SA.kin_score.median }}</td><td class="num">{{ SB.kin_score.median }}</td><td class="num {% if D.kin_score_median > 0 %}cmp-pos{% elsif D.kin_score_median < 0 %}cmp-neg{% endif %}">{% if D.kin_score_median > 0 %}+{% endif %}{{ D.kin_score_median }}</td></tr>
+  <tr><td>Kin Score, highest</td><td class="num">{{ SA.kin_score.max }}</td><td class="num">{{ SB.kin_score.max }}</td><td></td></tr>
+  <tr><td>Kin Score, std dev</td><td class="num">{{ SA.kin_score.stdev }}</td><td class="num">{{ SB.kin_score.stdev }}</td><td></td></tr>
+  <tr><td>Agent readiness, mean</td><td class="num">{{ SA.agent_readiness.mean }}</td><td class="num">{{ SB.agent_readiness.mean }}</td><td class="num {% if D.agent_readiness_mean > 0 %}cmp-pos{% elsif D.agent_readiness_mean < 0 %}cmp-neg{% endif %}">{% if D.agent_readiness_mean > 0 %}+{% endif %}{{ D.agent_readiness_mean }}</td></tr>
+  <tr><td>Agent readiness, highest</td><td class="num">{{ SA.agent_readiness.max }}</td><td class="num">{{ SB.agent_readiness.max }}</td><td></td></tr>
+  </tbody>
+</table></div>
+<p class="cmp-sub">Delta is {{ A.name }} minus {{ B.name }}, as the tool returns it.</p>
+
+<h2 class="section-anchor" id="bands"><a href="#bands">Where the providers sit</a></h2>
+{%- for x in (1..2) -%}
+{%- if x == 1 -%}{%- assign side = A -%}{%- assign st = SA -%}{%- else -%}{%- assign side = B -%}{%- assign st = SB -%}{%- endif -%}
+{%- assign tot = 0 -%}{%- for b in bands -%}{%- assign n = st.band_distribution[b] | default: 0 -%}{%- assign tot = tot | plus: n -%}{%- endfor -%}
+<p style="margin:0.75rem 0 0;font-weight:600;font-size:0.9rem">{{ side.name }}</p>
+<div class="cmp-bands" role="img" aria-label="{{ side.name }} band distribution">
+  {%- for b in bands -%}{%- assign n = st.band_distribution[b] | default: 0 -%}{%- if n > 0 -%}
+  <span class="cmp-bar-{{ b }}" style="width:{{ n | times: 100.0 | divided_by: tot }}%" title="{{ b }}: {{ n }}"></span>
+  {%- endif -%}{%- endfor -%}
+</div>
+<div class="cmp-legend">{%- for b in bands -%}<span><b class="cmp-bar-{{ b }}"></b>{{ b }} {{ st.band_distribution[b] | default: 0 }}</span>{%- endfor -%}</div>
+{%- endfor %}
+
+<h2 class="section-anchor" id="facets"><a href="#facets">Facet averages</a></h2>
+<div class="cmp-scroll"><table class="cmp-table">
+  <thead><tr><th>Facet</th><th class="num">{{ A.name }}</th><th class="num">{{ B.name }}</th><th class="num">Delta</th></tr></thead>
+  <tbody>
+  {%- for k in fkeys -%}
+  {%- assign i = forloop.index0 -%}{%- assign va = SA.facet_averages[k].mean | default: 0 -%}{%- assign vb = SB.facet_averages[k].mean | default: 0 -%}{%- assign d = D.facets[k] | default: 0 -%}
+  <tr><td><a href="/rating/facets/{{ fslugs[i] }}/">{{ flabels[i] }}</a></td>
+    <td class="num{% if va > vb %} lead-cell{% endif %}"><span class="cmp-meter"><i style="width:{{ va | times: 0.8 }}px"></i>{{ va }}</span></td>
+    <td class="num{% if vb > va %} lead-cell{% endif %}"><span class="cmp-meter"><i style="width:{{ vb | times: 0.8 }}px"></i>{{ vb }}</span></td>
+    <td class="num {% if d > 0 %}cmp-pos{% elsif d < 0 %}cmp-neg{% endif %}">{% if d > 0 %}+{% endif %}{{ d }}</td></tr>
+  {%- endfor -%}
+  </tbody>
+</table></div>
+
+<h2 class="section-anchor" id="adoption"><a href="#adoption">What they publish</a></h2>
+<p class="section-blurb">Share of each cohort's providers publishing each artifact. {{ SA.adoption.mcp_note }}</p>
+<div class="cmp-scroll"><table class="cmp-table">
+  <thead><tr><th>Artifact</th><th class="num">{{ A.name }}</th><th class="num">{{ B.name }}</th><th class="num">Delta</th></tr></thead>
+  <tbody>
+  {%- for k in akeys -%}
+  {%- assign i = forloop.index0 -%}{%- assign va = SA.adoption[k] | default: 0 -%}{%- assign vb = SB.adoption[k] | default: 0 -%}{%- assign d = D.adoption[k] | default: 0 -%}
+  <tr><td>{{ alabels[i] }}</td><td class="num{% if va > vb %} lead-cell{% endif %}">{{ va }}%</td><td class="num{% if vb > va %} lead-cell{% endif %}">{{ vb }}%</td><td class="num {% if d > 0 %}cmp-pos{% elsif d < 0 %}cmp-neg{% endif %}">{% if d > 0 %}+{% endif %}{{ d }}</td></tr>
+  {%- endfor -%}
+  </tbody>
+</table></div>
+
+<h2 class="section-anchor" id="coverage"><a href="#coverage">How well we know each cohort</a></h2>
+<p class="section-blurb">The coverage behind the averages. A cohort with a higher catalog gap and fewer artifact directories has been enriched less, so part of any difference is our coverage rather than the market.</p>
+<div class="cmp-scroll"><table class="cmp-table">
+  <thead><tr><th></th><th class="num">{{ A.name }}</th><th class="num">{{ B.name }}</th></tr></thead>
+  <tbody>
+  <tr><td>Declared members</td><td class="num">{{ SA.coverage.declared_members }}</td><td class="num">{{ SB.coverage.declared_members }}</td></tr>
+  <tr><td>Scored (in the averages)</td><td class="num">{{ SA.coverage.scored_members }} ({{ SA.coverage.scored_share_pct }}%)</td><td class="num">{{ SB.coverage.scored_members }} ({{ SB.coverage.scored_share_pct }}%)</td></tr>
+  <tr><td>Thinly covered</td><td class="num">{{ SA.coverage.enrichment_depth.thinly_covered }}</td><td class="num">{{ SB.coverage.enrichment_depth.thinly_covered }}</td></tr>
+  <tr><td>Median artifact directories</td><td class="num">{{ SA.coverage.enrichment_depth.median_artifact_dirs }}</td><td class="num">{{ SB.coverage.enrichment_depth.median_artifact_dirs }}</td></tr>
+  <tr><td>Mean catalog gap (points we could add)</td><td class="num">{{ SA.coverage.enrichment_depth.mean_catalog_gap }}</td><td class="num">{{ SB.coverage.enrichment_depth.mean_catalog_gap }}</td></tr>
+  </tbody>
+</table></div>
+
+<details class="cmp-raw">
+  <summary>The full compare_cohorts response</summary>
+  <pre><code>{{ R | jsonify | escape }}</code></pre>
+</details>
+<p class="cmp-sub">Result read {{ SC.fetched }}. <a href="{{ C.links.a }}">{{ A.name }}</a> and <a href="{{ C.links.b }}">{{ B.name }}</a> each have their own page with the full roster and leaderboard.</p>
+
+{%- capture args -%}{"a": "{{ C.a }}", "b": "{{ C.b }}"}{%- endcapture -%}
+{%- capture curlp -%}/cohorts/compare?a={{ C.a }}&b={{ C.b }}{%- endcapture -%}
+{% include compare-footer.html tool='compare_cohorts' args_json=args curl=curlp %}

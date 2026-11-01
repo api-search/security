@@ -5,7 +5,7 @@ api_specs:
   label: AI model Website (WordPress REST)
   slug: ai-model-jp-website-wordpress-rest
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimodel/refs/heads/main/openapi/aimodel-content-wp-routes-original.json
+  url: https://artifacts.apis.io/aimodel/openapi/aimodel-content-wp-routes-original.json
 description: ''
 domains:
 - caa: []
@@ -33,7 +33,7 @@ source_filename: aimodel-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ai-model.jp\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 14:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: ai-model.jp\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aimodel/refs/heads/main/security/aimodel-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aimodel/security/aimodel-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Artificial Intelligence

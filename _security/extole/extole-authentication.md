@@ -10,265 +10,265 @@ api_specs:
   label: Extole Audiences API
   slug: extole-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-audiences-api-openapi.yml
 - filename: extole-authentication-api-openapi.yml
   format: yaml
   label: Extole Authentication API
   slug: extole-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-authentication-api-openapi.yml
 - filename: extole-batch-jobs-api-openapi.yml
   format: yaml
   label: Extole Batch Jobs API
   slug: extole-batch-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-batch-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-batch-jobs-api-openapi.yml
 - filename: extole-blocks-api-openapi.yml
   format: yaml
   label: Extole Blocks API
   slug: extole-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-blocks-api-openapi.yml
 - filename: extole-campaign-controllers-actions-api-openapi.yml
   format: yaml
   label: Extole Campaign Controllers Actions API
   slug: extole-campaign-controllers-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-campaign-controllers-actions-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-campaign-controllers-actions-api-openapi.yml
 - filename: extole-campaign-controllers-api-openapi.yml
   format: yaml
   label: Extole Campaign Controllers API
   slug: extole-campaign-controllers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-campaign-controllers-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-campaign-controllers-api-openapi.yml
 - filename: extole-campaign-controllers-triggers-api-openapi.yml
   format: yaml
   label: Extole Campaign Controllers Triggers API
   slug: extole-campaign-controllers-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-campaign-controllers-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-campaign-controllers-triggers-api-openapi.yml
 - filename: extole-campaign-flow-steps-api-openapi.yml
   format: yaml
   label: Extole Campaign Flow Steps API
   slug: extole-campaign-flow-steps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-campaign-flow-steps-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-campaign-flow-steps-api-openapi.yml
 - filename: extole-campaigns-api-openapi.yml
   format: yaml
   label: Extole Campaigns API
   slug: extole-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-campaigns-api-openapi.yml
 - filename: extole-components-api-openapi.yml
   format: yaml
   label: Extole Components API
   slug: extole-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-components-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-components-api-openapi.yml
 - filename: extole-components-grants-api-openapi.yml
   format: yaml
   label: Extole Components Grants API
   slug: extole-components-grants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-components-grants-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-components-grants-api-openapi.yml
 - filename: extole-components-settings-api-openapi.yml
   format: yaml
   label: Extole Components Settings API
   slug: extole-components-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-components-settings-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-components-settings-api-openapi.yml
 - filename: extole-components-subscriptions-api-openapi.yml
   format: yaml
   label: Extole Components Subscriptions API
   slug: extole-components-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-components-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-components-subscriptions-api-openapi.yml
 - filename: extole-components-types-api-openapi.yml
   format: yaml
   label: Extole Components Types API
   slug: extole-components-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-components-types-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-components-types-api-openapi.yml
 - filename: extole-content-api-openapi.yml
   format: yaml
   label: Extole Content API
   slug: extole-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-content-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-content-api-openapi.yml
 - filename: extole-debug-api-openapi.yml
   format: yaml
   label: Extole Debug API
   slug: extole-debug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-debug-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-debug-api-openapi.yml
 - filename: extole-domains-api-openapi.yml
   format: yaml
   label: Extole Domains API
   slug: extole-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-domains-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-domains-api-openapi.yml
 - filename: extole-email-api-openapi.yml
   format: yaml
   label: Extole Email API
   slug: extole-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-email-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-email-api-openapi.yml
 - filename: extole-erasure-api-openapi.yml
   format: yaml
   label: Extole Erasure API
   slug: extole-erasure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-erasure-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-erasure-api-openapi.yml
 - filename: extole-event-prehandlers-api-openapi.yml
   format: yaml
   label: Extole Event Prehandlers API
   slug: extole-event-prehandlers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-event-prehandlers-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-event-prehandlers-api-openapi.yml
 - filename: extole-event-streams-api-openapi.yml
   format: yaml
   label: Extole Event Streams API
   slug: extole-event-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-event-streams-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-event-streams-api-openapi.yml
 - filename: extole-events-api-openapi.yml
   format: yaml
   label: Extole Events API
   slug: extole-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-events-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-events-api-openapi.yml
 - filename: extole-file-validation-monitors-api-openapi.yml
   format: yaml
   label: Extole File Validation Monitors API
   slug: extole-file-validation-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-file-validation-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-file-validation-monitors-api-openapi.yml
 - filename: extole-files-api-openapi.yml
   format: yaml
   label: Extole Files API
   slug: extole-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-files-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-files-api-openapi.yml
 - filename: extole-javascript-core-extensions-api-openapi.yml
   format: yaml
   label: Extole Javascript Core Extensions API
   slug: extole-javascript-core-extensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-javascript-core-extensions-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-javascript-core-extensions-api-openapi.yml
 - filename: extole-persons-api-openapi.yml
   format: yaml
   label: Extole Persons API
   slug: extole-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-persons-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-persons-api-openapi.yml
 - filename: extole-profile-assets-api-openapi.yml
   format: yaml
   label: Extole Profile Assets API
   slug: extole-profile-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-profile-assets-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-profile-assets-api-openapi.yml
 - filename: extole-profiles-api-openapi.yml
   format: yaml
   label: Extole Profiles API
   slug: extole-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-profiles-api-openapi.yml
 - filename: extole-promotion-links-api-openapi.yml
   format: yaml
   label: Extole Promotion Links API
   slug: extole-promotion-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-promotion-links-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-promotion-links-api-openapi.yml
 - filename: extole-report-schedules-api-openapi.yml
   format: yaml
   label: Extole Report Schedules API
   slug: extole-report-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-report-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-report-schedules-api-openapi.yml
 - filename: extole-report-types-api-openapi.yml
   format: yaml
   label: Extole Report Types API
   slug: extole-report-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-report-types-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-report-types-api-openapi.yml
 - filename: extole-reporting-api-openapi.yml
   format: yaml
   label: Extole Reporting API
   slug: extole-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-reporting-api-openapi.yml
 - filename: extole-reports-api-openapi.yml
   format: yaml
   label: Extole Reports API
   slug: extole-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-reports-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-reports-api-openapi.yml
 - filename: extole-reward-suppliers-api-openapi.yml
   format: yaml
   label: Extole Reward Suppliers API
   slug: extole-reward-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-reward-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-reward-suppliers-api-openapi.yml
 - filename: extole-rewards-api-openapi.yml
   format: yaml
   label: Extole Rewards API
   slug: extole-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-rewards-api-openapi.yml
 - filename: extole-security-keys-api-openapi.yml
   format: yaml
   label: Extole Security Keys API
   slug: extole-security-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-security-keys-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-security-keys-api-openapi.yml
 - filename: extole-settings-api-openapi.yml
   format: yaml
   label: Extole Settings API
   slug: extole-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-settings-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-settings-api-openapi.yml
 - filename: extole-sftp-servers-api-openapi.yml
   format: yaml
   label: Extole SFTP Servers API
   slug: extole-sftp-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-sftp-servers-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-sftp-servers-api-openapi.yml
 - filename: extole-user-notifications-api-openapi.yml
   format: yaml
   label: Extole User Notifications API
   slug: extole-user-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-user-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-user-notifications-api-openapi.yml
 - filename: extole-user-subscriptions-api-openapi.yml
   format: yaml
   label: Extole User Subscriptions API
   slug: extole-user-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-user-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-user-subscriptions-api-openapi.yml
 - filename: extole-users-api-openapi.yml
   format: yaml
   label: Extole Users API
   slug: extole-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-users-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-users-api-openapi.yml
 - filename: extole-webhooks-api-openapi.yml
   format: yaml
   label: Extole Webhooks API
   slug: extole-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-webhooks-api-openapi.yml
 - filename: extole-zone-rendering-api-openapi.yml
   format: yaml
   label: Extole Zone Rendering API
   slug: extole-zone-rendering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-zone-rendering-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-zone-rendering-api-openapi.yml
 - filename: extole-opt-out-api-openapi.yml
   format: yaml
   label: Extole opt Out API
   slug: extole-opt-out-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-opt-out-api-openapi.yml
+  url: https://artifacts.apis.io/extole/openapi/extole-opt-out-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -340,7 +340,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\ndocs: https://docs.exto
   \ apiKey\n  in: query\n  parameter: access_token\n  sources:\n  - openapi/_original/extole-integration-consumer-to-extole-openapi.json\n  - openapi/_original/extole-integration-server-to-extole-openapi.json\n  - openapi/_original/extole-management-expert-openapi.json\n  - openapi/_original/extole-management-openapi.json\n- name: extole-mcp-oauth\n  type: oauth2\n  flows: [authorizationCode, clientCredentials, refreshToken, tokenExchange]\n  sources:\n  - well-known/extole-mcp-oauth-authorization-server.json\n  - https://docs.extole.com/docs/mcp-authentication\nscopes:\n  ref: scopes/extole-scopes.yml\n  rest: [CLIENT_ADMIN, CAMPAIGN_EDIT, USER_SUPPORT, ANY, VERIFIED_CONSUMER]\n  mcp: [openid, profile, email]\n  denied:\n    status: 403\n    code: scopes_denied\nbest_practices:\n- Never embed a bearer access token in client-side code. Use consumer access tokens for browser and\n  native-app integrations.\n- Never commit a bearer token to a repository. Rotate immediately if exposed.\n- Rotate\
   \ JWT signing material on a schedule and when staff with access changes.\n- Use scope minimization — a read-only integration should not carry CLIENT_ADMIN.\n- Use managed tokens for service-to-service integrations; they are easier to inventory and revoke.\nerrors:\n- {status: 401, code: method_unauthorized, cause: Missing, malformed, or expired token.}\n- {status: 401, code: invalid_credentials, cause: Wrong email or password during token creation.}\n- {status: 401, code: invalid_access_token, cause: Token does not match a known credential.}\n- {status: 401, code: expired_access_token, cause: Token is past its expiration.}\n- {status: 401, code: jwt_authentication_error, cause: JWT signature did not verify.}\n- {status: 403, code: missing_access_token, cause: No access token in the request.}\n- {status: 403, code: scopes_denied, cause: Token does not carry the required scope.}\n- {status: 400, code: jwt_error, cause: JWT is malformed or has invalid claims.}\ncross_links:\n  scopes: scopes/extole-scopes.yml\n\
   \  errors: errors/extole-error-codes.yml\n  conventions: conventions/extole-conventions.yml\n  sandbox: sandbox/extole-sandbox.yml\n  mcp: mcp/extole-mcp.yml\nx-evidence:\n- fetched: '2026-08-13'\n  url: https://docs.extole.com/reference/authentication-overview.md\n  http_status: 200\n- fetched: '2026-08-13'\n  url: https://docs.extole.com/docs/mcp-authentication.md\n  http_status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/authentication/extole-authentication.yml
+source_yaml_url: https://artifacts.apis.io/extole/authentication/extole-authentication.yml
 summary_line: apiKey/http/oauth2 · 4 schemes
 tags:
 - Company

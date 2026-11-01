@@ -8,85 +8,85 @@ api_specs:
   label: ASAPP AutoCompose API
   slug: asapp-autocompose-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/openapi/asapp-autocompose-api-openapi.yml
+  url: https://artifacts.apis.io/asapp/openapi/asapp-autocompose-api-openapi.yml
 - filename: asapp-autosummary-api-openapi.yml
   format: yaml
   label: ASAPP AutoSummary API
   slug: asapp-autosummary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/openapi/asapp-autosummary-api-openapi.yml
+  url: https://artifacts.apis.io/asapp/openapi/asapp-autosummary-api-openapi.yml
 - filename: asapp-autotranscribe-api-openapi.yml
   format: yaml
   label: ASAPP AutoTranscribe API
   slug: asapp-autotranscribe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/openapi/asapp-autotranscribe-api-openapi.yml
+  url: https://artifacts.apis.io/asapp/openapi/asapp-autotranscribe-api-openapi.yml
 - filename: asapp-autotranscribe-media-gateway-api-openapi.yml
   format: yaml
   label: ASAPP AutoTranscribe Media Gateway API
   slug: asapp-autotranscribe-media-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/openapi/asapp-autotranscribe-media-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/asapp/openapi/asapp-autotranscribe-media-gateway-api-openapi.yml
 - filename: asapp-configuration-api-openapi.yml
   format: yaml
   label: ASAPP Configuration API
   slug: asapp-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/openapi/asapp-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/asapp/openapi/asapp-configuration-api-openapi.yml
 - filename: asapp-conversations-api-openapi.yml
   format: yaml
   label: ASAPP Conversations API
   slug: asapp-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/openapi/asapp-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/asapp/openapi/asapp-conversations-api-openapi.yml
 - filename: asapp-disengage-api-openapi.yml
   format: yaml
   label: ASAPP Disengage API
   slug: asapp-disengage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/openapi/asapp-disengage-api-openapi.yml
+  url: https://artifacts.apis.io/asapp/openapi/asapp-disengage-api-openapi.yml
 - filename: asapp-engage-api-openapi.yml
   format: yaml
   label: ASAPP Engage API
   slug: asapp-engage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/openapi/asapp-engage-api-openapi.yml
+  url: https://artifacts.apis.io/asapp/openapi/asapp-engage-api-openapi.yml
 - filename: asapp-file-exporter-api-openapi.yml
   format: yaml
   label: ASAPP File Exporter API
   slug: asapp-file-exporter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/openapi/asapp-file-exporter-api-openapi.yml
+  url: https://artifacts.apis.io/asapp/openapi/asapp-file-exporter-api-openapi.yml
 - filename: asapp-generativeagent-api-openapi.yml
   format: yaml
   label: ASAPP GenerativeAgent API
   slug: asapp-generativeagent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/openapi/asapp-generativeagent-api-openapi.yml
+  url: https://artifacts.apis.io/asapp/openapi/asapp-generativeagent-api-openapi.yml
 - filename: asapp-health-check-api-openapi.yml
   format: yaml
   label: ASAPP Health Check API
   slug: asapp-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/openapi/asapp-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/asapp/openapi/asapp-health-check-api-openapi.yml
 - filename: asapp-knowledge-base-api-openapi.yml
   format: yaml
   label: ASAPP Knowledge Base API
   slug: asapp-knowledge-base-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/openapi/asapp-knowledge-base-api-openapi.yml
+  url: https://artifacts.apis.io/asapp/openapi/asapp-knowledge-base-api-openapi.yml
 - filename: asapp-metadata-api-openapi.yml
   format: yaml
   label: ASAPP Metadata API
   slug: asapp-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/openapi/asapp-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/asapp/openapi/asapp-metadata-api-openapi.yml
 - filename: asapp-twilio-media-stream-api-openapi.yml
   format: yaml
   label: ASAPP Twilio Media Stream API
   slug: asapp-twilio-media-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/openapi/asapp-twilio-media-stream-api-openapi.yml
+  url: https://artifacts.apis.io/asapp/openapi/asapp-twilio-media-stream-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -145,7 +145,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\ndocs: https://docs.asapp.com/getting-started/developers\nnotes: >-\n  ASAPP authenticates every request with a paired API Id and API Secret sent as\n  two headers: asapp-api-id and asapp-api-secret. Keys are issued per environment\n  (sandbox vs production). No OAuth2/OIDC surface is published. Base URLs:\n  https://api.asapp.com (production), https://api.sandbox.asapp.com (sandbox).\nsource: openapi/asapp-autocompose-openapi.yml, openapi/asapp-autosummary-openapi.yml, openapi/asapp-autotranscribe-openapi.yml,\n  openapi/asapp-conversations-openapi.yml, openapi/asapp-fileexporter-openapi.yml, openapi/asapp-generativeagent-openapi.yml,\n  openapi/asapp-healthcheck-openapi.yml, openapi/asapp-knowledge-base-openapi.yml, openapi/asapp-metadata-ingestion-openapi.yml,\n  openapi/asapp-mg-autotranscribe-openapi.yml, openapi/asapp-mg-genagent-openapi.yml, openapi/asapp-openapi-openapi.yml\n  ...\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n\
   \  - header\nschemes:\n- name: API-ID\n  type: apiKey\n  in: header\n  parameter: asapp-api-id\n  sources:\n  - openapi/asapp-autocompose-openapi.yml\n  - openapi/asapp-autosummary-openapi.yml\n  - openapi/asapp-autotranscribe-openapi.yml\n  - openapi/asapp-conversations-openapi.yml\n  - openapi/asapp-fileexporter-openapi.yml\n  - openapi/asapp-generativeagent-openapi.yml\n  - openapi/asapp-healthcheck-openapi.yml\n  - openapi/asapp-knowledge-base-openapi.yml\n  - openapi/asapp-metadata-ingestion-openapi.yml\n  - openapi/asapp-mg-autotranscribe-openapi.yml\n  - openapi/asapp-mg-genagent-openapi.yml\n  - openapi/asapp-openapi-openapi.yml\n  - openapi/asapp-partner-configuration-openapi.yml\n- name: API-Secret\n  type: apiKey\n  in: header\n  parameter: asapp-api-secret\n  sources:\n  - openapi/asapp-autocompose-openapi.yml\n  - openapi/asapp-autosummary-openapi.yml\n  - openapi/asapp-autotranscribe-openapi.yml\n  - openapi/asapp-conversations-openapi.yml\n  - openapi/asapp-fileexporter-openapi.yml\n\
   \  - openapi/asapp-generativeagent-openapi.yml\n  - openapi/asapp-healthcheck-openapi.yml\n  - openapi/asapp-knowledge-base-openapi.yml\n  - openapi/asapp-metadata-ingestion-openapi.yml\n  - openapi/asapp-mg-autotranscribe-openapi.yml\n  - openapi/asapp-mg-genagent-openapi.yml\n  - openapi/asapp-openapi-openapi.yml\n  - openapi/asapp-partner-configuration-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/authentication/asapp-authentication.yml
+source_yaml_url: https://artifacts.apis.io/asapp/authentication/asapp-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company

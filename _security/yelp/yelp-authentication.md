@@ -7,31 +7,31 @@ api_specs:
   label: Yelp AI API
   slug: yelp-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/openapi/yelp-ai-api-openapi.yml
+  url: https://artifacts.apis.io/yelp/openapi/yelp-ai-api-openapi.yml
 - filename: yelp-businesses-api-openapi.yml
   format: yaml
   label: Yelp Businesses API
   slug: yelp-businesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/openapi/yelp-businesses-api-openapi.yml
+  url: https://artifacts.apis.io/yelp/openapi/yelp-businesses-api-openapi.yml
 - filename: yelp-categories-api-openapi.yml
   format: yaml
   label: Yelp Categories API
   slug: yelp-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/openapi/yelp-categories-api-openapi.yml
+  url: https://artifacts.apis.io/yelp/openapi/yelp-categories-api-openapi.yml
 - filename: yelp-events-api-openapi.yml
   format: yaml
   label: Yelp Events API
   slug: yelp-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/openapi/yelp-events-api-openapi.yml
+  url: https://artifacts.apis.io/yelp/openapi/yelp-events-api-openapi.yml
 - filename: yelp-reviews-api-openapi.yml
   format: yaml
   label: Yelp Reviews API
   slug: yelp-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/openapi/yelp-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/yelp/openapi/yelp-reviews-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: yelp-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/yelp-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Yelp Fusion API key passed as a bearer token in the Authorization header.\n  sources:\n  - openapi/yelp-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/authentication/yelp-authentication.yml
+source_yaml_url: https://artifacts.apis.io/yelp/authentication/yelp-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Restaurant

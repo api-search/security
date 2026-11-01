@@ -7,13 +7,13 @@ api_specs:
   label: Speechify Audio API
   slug: speechify-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speechify/refs/heads/main/openapi/speechify-audio-api-openapi.yml
+  url: https://artifacts.apis.io/speechify/openapi/speechify-audio-api-openapi.yml
 - filename: speechify-voices-api-openapi.yml
   format: yaml
   label: Speechify Voices API
   slug: speechify-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speechify/refs/heads/main/openapi/speechify-voices-api-openapi.yml
+  url: https://artifacts.apis.io/speechify/openapi/speechify-voices-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: speechify-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/speechify-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Pass your Speechify API key as a Bearer token in the Authorization header, e.g.\n    \"Authorization: Bearer $SPEECHIFY_API_KEY\".'\n  sources:\n  - openapi/speechify-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/speechify/refs/heads/main/authentication/speechify-authentication.yml
+source_yaml_url: https://artifacts.apis.io/speechify/authentication/speechify-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

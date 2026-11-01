@@ -5,19 +5,19 @@ api_specs:
   label: Spring Cloud Gateway Filters API
   slug: spring-cloud-gateway-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-cloud-gateway/refs/heads/main/openapi/spring-cloud-gateway-filters-api-openapi.yml
+  url: https://artifacts.apis.io/spring-cloud-gateway/openapi/spring-cloud-gateway-filters-api-openapi.yml
 - filename: spring-cloud-gateway-predicates-api-openapi.yml
   format: yaml
   label: Spring Cloud Gateway Predicates API
   slug: spring-cloud-gateway-predicates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-cloud-gateway/refs/heads/main/openapi/spring-cloud-gateway-predicates-api-openapi.yml
+  url: https://artifacts.apis.io/spring-cloud-gateway/openapi/spring-cloud-gateway-predicates-api-openapi.yml
 - filename: spring-cloud-gateway-routes-api-openapi.yml
   format: yaml
   label: Spring Cloud Gateway Routes API
   slug: spring-cloud-gateway-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-cloud-gateway/refs/heads/main/openapi/spring-cloud-gateway-routes-api-openapi.yml
+  url: https://artifacts.apis.io/spring-cloud-gateway/openapi/spring-cloud-gateway-routes-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -59,7 +59,7 @@ source_filename: spring-cloud-gateway-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: spring.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 27 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: docs.spring.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 27 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: spring.io\n  dnssec: true\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spring-cloud-gateway/refs/heads/main/security/spring-cloud-gateway-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/spring-cloud-gateway/security/spring-cloud-gateway-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - API Gateway

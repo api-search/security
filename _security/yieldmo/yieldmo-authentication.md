@@ -7,43 +7,43 @@ api_specs:
   label: Yieldmo Canned Reports API
   slug: yieldmo-canned-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/openapi/yieldmo-canned-reports-api-openapi.yml
+  url: https://artifacts.apis.io/yieldmo/openapi/yieldmo-canned-reports-api-openapi.yml
 - filename: yieldmo-dcs-api-openapi.yml
   format: yaml
   label: Yieldmo Dcs API
   slug: yieldmo-dcs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/openapi/yieldmo-dcs-api-openapi.yml
+  url: https://artifacts.apis.io/yieldmo/openapi/yieldmo-dcs-api-openapi.yml
 - filename: yieldmo-manage-api-openapi.yml
   format: yaml
   label: Yieldmo Manage API
   slug: yieldmo-manage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/openapi/yieldmo-manage-api-openapi.yml
+  url: https://artifacts.apis.io/yieldmo/openapi/yieldmo-manage-api-openapi.yml
 - filename: yieldmo-mcp-api-openapi.yml
   format: yaml
   label: Yieldmo MCP API
   slug: yieldmo-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/openapi/yieldmo-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/yieldmo/openapi/yieldmo-mcp-api-openapi.yml
 - filename: yieldmo-ping-api-openapi.yml
   format: yaml
   label: Yieldmo Ping API
   slug: yieldmo-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/openapi/yieldmo-ping-api-openapi.yml
+  url: https://artifacts.apis.io/yieldmo/openapi/yieldmo-ping-api-openapi.yml
 - filename: yieldmo-register-api-openapi.yml
   format: yaml
   label: Yieldmo Register API
   slug: yieldmo-register-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/openapi/yieldmo-register-api-openapi.yml
+  url: https://artifacts.apis.io/yieldmo/openapi/yieldmo-register-api-openapi.yml
 - filename: yieldmo-well-known-api-openapi.yml
   format: yaml
   label: Yieldmo .well Known API
   slug: yieldmo-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/openapi/yieldmo-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/yieldmo/openapi/yieldmo-well-known-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -115,7 +115,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: >-\n  https://api
   \      to the oauth-authorization-server document. It is not a fully conformant OIDC provider\n      configuration — issuer is https://api.yieldmo.com/dcs/mcp while every endpoint lives on the\n      Cognito domain, and required OIDC metadata such as claims_supported is absent.\n    sources: [well-known/yieldmo-openid-configuration.json]\n\nchallenge:\n  observed_on: https://api.yieldmo.com/dcs/mcp\n  http_status: 401\n  www_authenticate: >-\n    Bearer error=\"invalid_token\", error_description=\"Authentication required\",\n    resource_metadata=\"https://api.yieldmo.com/.well-known/oauth-protected-resource/dcs/mcp\"\n  note: >-\n    The resource_metadata URL advertised in the challenge (path-suffixed, per RFC 9728 §3) returns\n    404; the metadata is only retrievable at the unsuffixed /.well-known/oauth-protected-resource.\n    That is a real conformance defect an agent following the challenge would hit.\n\nother_surfaces:\n  - surface: Yieldmo JavaScript SDK (ads.yieldmo.com)\n   \
   \ auth: none\n    note: >-\n      Publisher-side ad serving. Identity is the placement ID issued by Yieldmo account management;\n      there is no credential in the browser call path.\n    source: https://github.com/yieldmo/yieldmo-js-sdk/wiki/Single-page-apps\n  - surface: Prebid.js bid adapter (biddercode yieldmo)\n    auth: none\n    note: >-\n      Authorization is commercial, not technical — the placementId is provisioned by a Yieldmo\n      account manager. Prebid docs state \"reach out to your Yieldmo account's person or\n      support@yieldmo.com\" before the adapter can be used.\n    source: https://docs.prebid.org/dev-docs/bidders/yieldmo.html\n  - surface: YMax console (apps.yieldmo.com/auth)\n    auth: interactive login\n    note: Human sign-in for the Yieldmo platform; presumed to sit on the same Cognito pool, unverified.\n\nx-evidence:\n  fetched: '2026-08-12'\n  probes:\n    - {url: 'https://api.yieldmo.com/.well-known/oauth-authorization-server', status: 200}\n    - {url:\
   \ 'https://api.yieldmo.com/.well-known/openid-configuration', status: 200}\n    - {url: 'https://api.yieldmo.com/.well-known/oauth-protected-resource', status: 200}\n    - {url: 'https://api.yieldmo.com/.well-known/oauth-protected-resource/dcs/mcp', status: 404}\n    - {url: 'https://api.yieldmo.com/dcs/mcp', status: 401}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/authentication/yieldmo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/yieldmo/authentication/yieldmo-authentication.yml
 summary_line: oauth2/openIdConnect · 2 schemes
 tags:
 - Advertising

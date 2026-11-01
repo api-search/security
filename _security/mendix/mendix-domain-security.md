@@ -5,31 +5,31 @@ api_specs:
   label: Mendix Apps API
   slug: mendix-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mendix/refs/heads/main/openapi/mendix-apps-api-openapi.yml
+  url: https://artifacts.apis.io/mendix/openapi/mendix-apps-api-openapi.yml
 - filename: mendix-environments-api-openapi.yml
   format: yaml
   label: Mendix Environments API
   slug: mendix-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mendix/refs/heads/main/openapi/mendix-environments-api-openapi.yml
+  url: https://artifacts.apis.io/mendix/openapi/mendix-environments-api-openapi.yml
 - filename: mendix-logs-api-openapi.yml
   format: yaml
   label: Mendix Logs API
   slug: mendix-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mendix/refs/heads/main/openapi/mendix-logs-api-openapi.yml
+  url: https://artifacts.apis.io/mendix/openapi/mendix-logs-api-openapi.yml
 - filename: mendix-packages-api-openapi.yml
   format: yaml
   label: Mendix Packages API
   slug: mendix-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mendix/refs/heads/main/openapi/mendix-packages-api-openapi.yml
+  url: https://artifacts.apis.io/mendix/openapi/mendix-packages-api-openapi.yml
 - filename: mendix-tags-api-openapi.yml
   format: yaml
   label: Mendix Tags API
   slug: mendix-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mendix/refs/heads/main/openapi/mendix-tags-api-openapi.yml
+  url: https://artifacts.apis.io/mendix/openapi/mendix-tags-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -77,7 +77,7 @@ source_filename: mendix-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mendix.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 27 17:11:33 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.mendix.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 26 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: deploy.mendix.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 26 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: mendix.com\n  dnssec: false\n  caa:\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog ; cansignhttpexchanges=yes\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"ssl.com\"\n  - 0 iodef \"mailto:security@mendix.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mendix/refs/heads/main/security/mendix-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mendix/security/mendix-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Low-Code

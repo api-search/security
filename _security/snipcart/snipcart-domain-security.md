@@ -5,55 +5,55 @@ api_specs:
   label: Snipcart Customers API
   slug: snipcart-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-customers-api-openapi.yml
+  url: https://artifacts.apis.io/snipcart/openapi/snipcart-customers-api-openapi.yml
 - filename: snipcart-discounts-api-openapi.yml
   format: yaml
   label: Snipcart Discounts API
   slug: snipcart-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-discounts-api-openapi.yml
+  url: https://artifacts.apis.io/snipcart/openapi/snipcart-discounts-api-openapi.yml
 - filename: snipcart-domains-api-openapi.yml
   format: yaml
   label: Snipcart Domains API
   slug: snipcart-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-domains-api-openapi.yml
+  url: https://artifacts.apis.io/snipcart/openapi/snipcart-domains-api-openapi.yml
 - filename: snipcart-notifications-api-openapi.yml
   format: yaml
   label: Snipcart Notifications API
   slug: snipcart-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/snipcart/openapi/snipcart-notifications-api-openapi.yml
 - filename: snipcart-orders-api-openapi.yml
   format: yaml
   label: Snipcart Orders API
   slug: snipcart-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-orders-api-openapi.yml
+  url: https://artifacts.apis.io/snipcart/openapi/snipcart-orders-api-openapi.yml
 - filename: snipcart-products-api-openapi.yml
   format: yaml
   label: Snipcart Products API
   slug: snipcart-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-products-api-openapi.yml
+  url: https://artifacts.apis.io/snipcart/openapi/snipcart-products-api-openapi.yml
 - filename: snipcart-refunds-api-openapi.yml
   format: yaml
   label: Snipcart Refunds API
   slug: snipcart-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/snipcart/openapi/snipcart-refunds-api-openapi.yml
 - filename: snipcart-abandoned-carts-api-openapi.yml
   format: yaml
   label: Snipcart Abandoned Carts API
   slug: snipcart-abandoned-carts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-abandoned-carts-api-openapi.yml
+  url: https://artifacts.apis.io/snipcart/openapi/snipcart-abandoned-carts-api-openapi.yml
 - filename: snipcart-user-sessions-api-openapi.yml
   format: yaml
   label: Snipcart User Sessions API
   slug: snipcart-user-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-user-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/snipcart/openapi/snipcart-user-sessions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -100,7 +100,7 @@ source_filename: snipcart-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: snipcart.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 09:23:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.snipcart.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 16:53:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.snipcart.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  9 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: snipcart.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/security/snipcart-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/snipcart/security/snipcart-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - E-Commerce

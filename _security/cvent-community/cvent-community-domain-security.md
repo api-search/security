@@ -59,7 +59,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts; community.cvent.com, support.cvent.com, release.cvent.com\n  and status.cvent.com probed by the enrichment pass 2026-09-07\nhosts:\n- host: www.cvent.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 16 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: community.cvent.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 27 03:08:29 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: support.cvent.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  4 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: release.cvent.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15724800\n- host: status.cvent.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 12 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain:\
   \ cvent.com\n  dnssec: false\n  caa:\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cvent-community/refs/heads/main/security/cvent-community-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cvent-community/security/cvent-community-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Certification

@@ -5,19 +5,19 @@ api_specs:
   label: Plyrium Discovery API
   slug: plyrium-com-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plyrium-com/refs/heads/main/openapi/plyrium-com-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/plyrium-com/openapi/plyrium-com-discovery-api-openapi.yml
 - filename: plyrium-com-purchase-api-openapi.yml
   format: yaml
   label: Plyrium Purchase API
   slug: plyrium-com-purchase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plyrium-com/refs/heads/main/openapi/plyrium-com-purchase-api-openapi.yml
+  url: https://artifacts.apis.io/plyrium-com/openapi/plyrium-com-purchase-api-openapi.yml
 - filename: plyrium-com-verification-api-openapi.yml
   format: yaml
   label: Plyrium Verification API
   slug: plyrium-com-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plyrium-com/refs/heads/main/openapi/plyrium-com-verification-api-openapi.yml
+  url: https://artifacts.apis.io/plyrium-com/openapi/plyrium-com-verification-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -62,7 +62,7 @@ source_filename: plyrium-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: plyrium.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 18:33:49 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: www.plyrium.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 18:33:49 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: vouchspec.plyrium.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 18:33:49 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: plyrium.com\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plyrium-com/refs/heads/main/security/plyrium-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/plyrium-com/security/plyrium-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
@@ -73,6 +73,6 @@ tags:
 - Agentic Commerce
 - A2A
 - MCP
-- Field Service
+- Field Service Management
 - Home Services
 ---

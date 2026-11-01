@@ -7,61 +7,61 @@ api_specs:
   label: SAS Institute CAS API
   slug: sas-cas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-cas-api-openapi.yml
+  url: https://artifacts.apis.io/sas/openapi/sas-cas-api-openapi.yml
 - filename: sas-decisions-api-openapi.yml
   format: yaml
   label: SAS Institute Decisions API
   slug: sas-decisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-decisions-api-openapi.yml
+  url: https://artifacts.apis.io/sas/openapi/sas-decisions-api-openapi.yml
 - filename: sas-files-api-openapi.yml
   format: yaml
   label: SAS Institute Files API
   slug: sas-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-files-api-openapi.yml
+  url: https://artifacts.apis.io/sas/openapi/sas-files-api-openapi.yml
 - filename: sas-folders-api-openapi.yml
   format: yaml
   label: SAS Institute Folders API
   slug: sas-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-folders-api-openapi.yml
+  url: https://artifacts.apis.io/sas/openapi/sas-folders-api-openapi.yml
 - filename: sas-identities-api-openapi.yml
   format: yaml
   label: SAS Institute Identities API
   slug: sas-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-identities-api-openapi.yml
+  url: https://artifacts.apis.io/sas/openapi/sas-identities-api-openapi.yml
 - filename: sas-jobs-api-openapi.yml
   format: yaml
   label: SAS Institute Jobs API
   slug: sas-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/sas/openapi/sas-jobs-api-openapi.yml
 - filename: sas-logon-api-openapi.yml
   format: yaml
   label: SAS Institute Logon API
   slug: sas-logon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-logon-api-openapi.yml
+  url: https://artifacts.apis.io/sas/openapi/sas-logon-api-openapi.yml
 - filename: sas-models-api-openapi.yml
   format: yaml
   label: SAS Institute Models API
   slug: sas-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-models-api-openapi.yml
+  url: https://artifacts.apis.io/sas/openapi/sas-models-api-openapi.yml
 - filename: sas-reports-api-openapi.yml
   format: yaml
   label: SAS Institute Reports API
   slug: sas-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-reports-api-openapi.yml
+  url: https://artifacts.apis.io/sas/openapi/sas-reports-api-openapi.yml
 - filename: sas-business-rules-api-openapi.yml
   format: yaml
   label: SAS Institute Business Rules API
   slug: sas-business-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-business-rules-api-openapi.yml
+  url: https://artifacts.apis.io/sas/openapi/sas-business-rules-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -91,7 +91,7 @@ source_filename: sas-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sas-viya-rest-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - password\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: password\n    tokenUrl: /SASLogon/oauth/token\n    scopes: 1\n  sources:\n  - openapi/sas-viya-rest-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/authentication/sas-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sas/authentication/sas-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Analytics

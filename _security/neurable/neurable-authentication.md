@@ -7,31 +7,31 @@ api_specs:
   label: Neurable Core API
   slug: neurable-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neurable/refs/heads/main/openapi/neurable-core-api-openapi.yml
+  url: https://artifacts.apis.io/neurable/openapi/neurable-core-api-openapi.yml
 - filename: neurable-oidc-api-openapi.yml
   format: yaml
   label: Neurable OIDC API
   slug: neurable-oidc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neurable/refs/heads/main/openapi/neurable-oidc-api-openapi.yml
+  url: https://artifacts.apis.io/neurable/openapi/neurable-oidc-api-openapi.yml
 - filename: neurable-open-api-openapi.yml
   format: yaml
   label: Neurable Open API
   slug: neurable-open-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neurable/refs/heads/main/openapi/neurable-open-api-openapi.yml
+  url: https://artifacts.apis.io/neurable/openapi/neurable-open-api-openapi.yml
 - filename: neurable-protected-api-openapi.yml
   format: yaml
   label: Neurable Protected API
   slug: neurable-protected-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neurable/refs/heads/main/openapi/neurable-protected-api-openapi.yml
+  url: https://artifacts.apis.io/neurable/openapi/neurable-protected-api-openapi.yml
 - filename: neurable-oauth-api-openapi.yml
   format: yaml
   label: Neurable O Auth API
   slug: neurable-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neurable/refs/heads/main/openapi/neurable-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/neurable/openapi/neurable-oauth-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -120,7 +120,7 @@ source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: https://pipe.neur
   \ exp\n  - iat\n  - nonce\n  - email\n  sources:\n  - well-known/neurable-pipe-openid-configuration.json\n- name: oauth2\n  type: oauth2\n  description: >-\n    OAuth 2.0 authorization server co-located with the OIDC provider. The /oauth/authorize\n    operation makes code_challenge and code_challenge_method REQUIRED query parameters, so PKCE\n    is mandatory on the authorization-code flow, and it also requires an explicit `audience`\n    parameter (RFC 8707-style resource targeting). Public clients are supported —\n    token_endpoint_auth_methods_supported includes \"none\" alongside client_secret_post.\n  flows:\n  - flow: authorizationCode\n    authorization_endpoint: https://pipe.neurable.com/oauth/authorize\n    token_endpoint: https://pipe.neurable.com/oauth/token\n    pkce: S256\n    pkce_required: true\n    required_parameters:\n    - client_id\n    - redirect_uri\n    - response_type\n    - code_challenge\n    - code_challenge_method\n    - scope\n    - audience\n    scopes:\n\
   \    - demos:all:read\n    - demos:prime:read\n    - session:stream:create\n    - openid\n    - email\n  - flow: clientCredentials\n    token_endpoint: https://pipe.neurable.com/oauth/token\n    note: >-\n      Advertised in grant_types_supported. The token endpoint's request body schema\n      (Body_post_oauth_token_oauth_token_post) is served as\n      application/x-www-form-urlencoded.\n  - flow: refreshToken\n    token_endpoint: https://pipe.neurable.com/oauth/token\n    note: refresh_token appears in grant_types_supported.\n  response_types_supported:\n  - code\n  token_endpoint_auth_methods_supported:\n  - none\n  - client_secret_post\n  sources:\n  - well-known/neurable-pipe-openid-configuration.json\n  - openapi/neurable-pipe-service-openapi.yml\nunauthenticated_surface:\n- operation: create_headset_license_open_headset_license_post\n  method: POST\n  path: /open/headset/license\n  host: https://analytics-service.neurable.com\n  note: >-\n    Tagged \"open\" (as opposed to the\
   \ \"protected\" tag on every other Analytics Service\n    operation), which is the only in-spec signal that it is reachable without a token. It\n    issues an HMAC-signed HeadsetLicense keyed to a device serial_number + firmware_uuid; the\n    documented error enum (SERIAL_NUMBER_UNAUTHORIZED, SERIAL_NUMBER_ALREADY_ISSUED) shows\n    authorization is enforced on the serial number rather than on a caller credential.\n  probed: not exercised — no request was sent to this endpoint.\ncross_links:\n  scopes: scopes/neurable-scopes.yml\n  conventions: conventions/neurable-conventions.yml\n  conformance: conformance/neurable-conformance.yml\n  well_known: well-known/neurable-well-known.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neurable/refs/heads/main/authentication/neurable-authentication.yml
+source_yaml_url: https://artifacts.apis.io/neurable/authentication/neurable-authentication.yml
 summary_line: oauth2/openIdConnect · 2 schemes
 tags:
 - Neurotechnology

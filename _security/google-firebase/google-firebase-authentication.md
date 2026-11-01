@@ -7,13 +7,13 @@ api_specs:
   label: Google Firebase Data API
   slug: google-firebase-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-firebase/refs/heads/main/openapi/google-firebase-data-api-openapi.yml
+  url: https://artifacts.apis.io/google-firebase/openapi/google-firebase-data-api-openapi.yml
 - filename: google-firebase-messages-api-openapi.yml
   format: yaml
   label: Google Firebase Messages API
   slug: google-firebase-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-firebase/refs/heads/main/openapi/google-firebase-messages-api-openapi.yml
+  url: https://artifacts.apis.io/google-firebase/openapi/google-firebase-messages-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -44,7 +44,7 @@ source_filename: google-firebase-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/firebase-cloud-messaging-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 1\n  sources:\n  - openapi/firebase-cloud-messaging-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-firebase/refs/heads/main/authentication/google-firebase-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-firebase/authentication/google-firebase-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Analytics

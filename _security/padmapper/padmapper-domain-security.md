@@ -34,7 +34,7 @@ source_filename: padmapper-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.padmapper.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 31 22:50:16 2027 GMT\n  hsts: true\n  hsts_max_age: 300\ndomains:\n- domain: padmapper.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 iodef \"mailto:domain@zumper.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/padmapper/refs/heads/main/security/padmapper-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/padmapper/security/padmapper-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Real Estate

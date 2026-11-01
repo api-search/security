@@ -5,37 +5,37 @@ api_specs:
   label: Delighted Autopilot API
   slug: delighted-autopilot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delighted/refs/heads/main/openapi/delighted-autopilot-api-openapi.yml
+  url: https://artifacts.apis.io/delighted/openapi/delighted-autopilot-api-openapi.yml
 - filename: delighted-bounces-api-openapi.yml
   format: yaml
   label: Delighted Bounces API
   slug: delighted-bounces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delighted/refs/heads/main/openapi/delighted-bounces-api-openapi.yml
+  url: https://artifacts.apis.io/delighted/openapi/delighted-bounces-api-openapi.yml
 - filename: delighted-metrics-api-openapi.yml
   format: yaml
   label: Delighted Metrics API
   slug: delighted-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delighted/refs/heads/main/openapi/delighted-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/delighted/openapi/delighted-metrics-api-openapi.yml
 - filename: delighted-people-api-openapi.yml
   format: yaml
   label: Delighted People API
   slug: delighted-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delighted/refs/heads/main/openapi/delighted-people-api-openapi.yml
+  url: https://artifacts.apis.io/delighted/openapi/delighted-people-api-openapi.yml
 - filename: delighted-survey-responses-api-openapi.yml
   format: yaml
   label: Delighted Survey Responses API
   slug: delighted-survey-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delighted/refs/heads/main/openapi/delighted-survey-responses-api-openapi.yml
+  url: https://artifacts.apis.io/delighted/openapi/delighted-survey-responses-api-openapi.yml
 - filename: delighted-unsubscribes-api-openapi.yml
   format: yaml
   label: Delighted Unsubscribes API
   slug: delighted-unsubscribes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delighted/refs/heads/main/openapi/delighted-unsubscribes-api-openapi.yml
+  url: https://artifacts.apis.io/delighted/openapi/delighted-unsubscribes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,12 +75,11 @@ source_filename: delighted-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: delighted.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 15 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.delighted.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 13 23:59:59 2026 GMT\n  hsts: null\n- host: api.delighted.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 13 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: delighted.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/delighted/refs/heads/main/security/delighted-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/delighted/security/delighted-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - NPS
 - CSAT
-- Customer Satisfaction
 - CES
 - Customer Effort Score
 - Surveys

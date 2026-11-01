@@ -5,61 +5,91 @@ api_specs:
   label: Freeplay Agents API
   slug: freeplay-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-agents-api-openapi.yml
-- filename: freeplay-completions-api-openapi.yml
-  format: yaml
-  label: Freeplay Completions API
-  slug: freeplay-completions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-completions-api-openapi.yml
-- filename: freeplay-datasets-api-openapi.yml
-  format: yaml
-  label: Freeplay Datasets API
-  slug: freeplay-datasets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-datasets-api-openapi.yml
-- filename: freeplay-feedback-api-openapi.yml
-  format: yaml
-  label: Freeplay Feedback API
-  slug: freeplay-feedback-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-feedback-api-openapi.yml
-- filename: freeplay-projects-api-openapi.yml
-  format: yaml
-  label: Freeplay Projects API
-  slug: freeplay-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-projects-api-openapi.yml
+  url: https://artifacts.apis.io/freeplay/openapi/freeplay-agents-api-openapi.yml
 - filename: freeplay-prompt-templates-api-openapi.yml
   format: yaml
   label: Freeplay Prompt Templates API
   slug: freeplay-prompt-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-prompt-templates-api-openapi.yml
-- filename: freeplay-search-api-openapi.yml
-  format: yaml
-  label: Freeplay Search API
-  slug: freeplay-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-search-api-openapi.yml
-- filename: freeplay-sessions-api-openapi.yml
-  format: yaml
-  label: Freeplay Sessions API
-  slug: freeplay-sessions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/freeplay/openapi/freeplay-prompt-templates-api-openapi.yml
 - filename: freeplay-test-runs-api-openapi.yml
   format: yaml
   label: Freeplay Test Runs API
   slug: freeplay-test-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-test-runs-api-openapi.yml
-- filename: freeplay-traces-api-openapi.yml
+  url: https://artifacts.apis.io/freeplay/openapi/freeplay-test-runs-api-openapi.yml
+- filename: freeplay-agent-datasets-api-openapi.yml
   format: yaml
-  label: Freeplay Traces API
-  slug: freeplay-traces-api
+  label: Freeplay Agent Datasets API
+  slug: freeplay-agent-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-traces-api-openapi.yml
+  url: https://artifacts.apis.io/freeplay/openapi/freeplay-agent-datasets-api-openapi.yml
+- filename: freeplay-configuration-api-openapi.yml
+  format: yaml
+  label: Freeplay Configuration API
+  slug: freeplay-configuration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/freeplay/openapi/freeplay-configuration-api-openapi.yml
+- filename: freeplay-evaluation-criteria-api-openapi.yml
+  format: yaml
+  label: Freeplay Evaluation Criteria API
+  slug: freeplay-evaluation-criteria-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/freeplay/openapi/freeplay-evaluation-criteria-api-openapi.yml
+- filename: freeplay-insights-api-openapi.yml
+  format: yaml
+  label: Freeplay Insights API
+  slug: freeplay-insights-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/freeplay/openapi/freeplay-insights-api-openapi.yml
+- filename: freeplay-models-api-openapi.yml
+  format: yaml
+  label: Freeplay Models API
+  slug: freeplay-models-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/freeplay/openapi/freeplay-models-api-openapi.yml
+- filename: freeplay-observability-api-openapi.yml
+  format: yaml
+  label: Freeplay Observability API
+  slug: freeplay-observability-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/freeplay/openapi/freeplay-observability-api-openapi.yml
+- filename: freeplay-prompt-datasets-api-openapi.yml
+  format: yaml
+  label: Freeplay Prompt Datasets API
+  slug: freeplay-prompt-datasets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/freeplay/openapi/freeplay-prompt-datasets-api-openapi.yml
+- filename: freeplay-prompt-optimization-api-openapi.yml
+  format: yaml
+  label: Freeplay Prompt Optimization API
+  slug: freeplay-prompt-optimization-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/freeplay/openapi/freeplay-prompt-optimization-api-openapi.yml
+- filename: freeplay-review-queues-api-openapi.yml
+  format: yaml
+  label: Freeplay Review Queues API
+  slug: freeplay-review-queues-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/freeplay/openapi/freeplay-review-queues-api-openapi.yml
+- filename: freeplay-saved-searches-api-openapi.yml
+  format: yaml
+  label: Freeplay Saved Searches API
+  slug: freeplay-saved-searches-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/freeplay/openapi/freeplay-saved-searches-api-openapi.yml
+- filename: freeplay-search-analytics-api-openapi.yml
+  format: yaml
+  label: Freeplay Search & Analytics API
+  slug: freeplay-search-analytics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/freeplay/openapi/freeplay-search-analytics-api-openapi.yml
+- filename: freeplay-tags-api-openapi.yml
+  format: yaml
+  label: Freeplay Tags API
+  slug: freeplay-tags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/freeplay/openapi/freeplay-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -100,7 +130,7 @@ source_filename: freeplay-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: freeplay.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 23:59:59 2026 GMT\n  hsts: null\n- host: docs.freeplay.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 09:36:02 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: app.freeplay.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 10:56:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: freeplay.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/security/freeplay-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/freeplay/security/freeplay-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

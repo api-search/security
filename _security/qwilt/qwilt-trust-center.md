@@ -5,37 +5,37 @@ api_specs:
   label: Qwilt Certificate Templates API
   slug: qwilt-certificate-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/openapi/qwilt-certificate-templates-api-openapi.yml
+  url: https://artifacts.apis.io/qwilt/openapi/qwilt-certificate-templates-api-openapi.yml
 - filename: qwilt-certificates-api-openapi.yml
   format: yaml
   label: Qwilt Certificates API
   slug: qwilt-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/openapi/qwilt-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/qwilt/openapi/qwilt-certificates-api-openapi.yml
 - filename: qwilt-origin-allow-list-api-openapi.yml
   format: yaml
   label: Qwilt Origin Allow List API
   slug: qwilt-origin-allow-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/openapi/qwilt-origin-allow-list-api-openapi.yml
+  url: https://artifacts.apis.io/qwilt/openapi/qwilt-origin-allow-list-api-openapi.yml
 - filename: qwilt-publishing-operations-api-openapi.yml
   format: yaml
   label: Qwilt Publishing Operations API
   slug: qwilt-publishing-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/openapi/qwilt-publishing-operations-api-openapi.yml
+  url: https://artifacts.apis.io/qwilt/openapi/qwilt-publishing-operations-api-openapi.yml
 - filename: qwilt-site-configurations-api-openapi.yml
   format: yaml
   label: Qwilt Site Configurations API
   slug: qwilt-site-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/openapi/qwilt-site-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/qwilt/openapi/qwilt-site-configurations-api-openapi.yml
 - filename: qwilt-sites-api-openapi.yml
   format: yaml
   label: Qwilt Sites API
   slug: qwilt-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/openapi/qwilt-sites-api-openapi.yml
+  url: https://artifacts.apis.io/qwilt/openapi/qwilt-sites-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -55,7 +55,7 @@ source_filename: qwilt-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nprobe: true\nsource: https://qwilt.com/compliance/\nurl: https://qwilt.com/compliance/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\nevidence:\n- source: https://qwilt.com/compliance/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/security/qwilt-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/qwilt/security/qwilt-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018
 tags:
 - Company

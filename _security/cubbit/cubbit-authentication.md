@@ -33,7 +33,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://docs.cubbit.io/getting-started/quickstart\ndocs: https://docs.cubbit.io/guides/s3-api\ndescription: >-\n  Authentication profile for the Cubbit DS3 S3-compatible API. DS3 uses AWS S3\n  authentication: an access key ID and secret access key signed with AWS\n  Signature Version 4. Credentials are created per project in the DS3 web\n  console (Access key menu) and downloaded as a CSV. There is no OAuth surface\n  on the storage API itself (the console login uses a separate OIDC flow that is\n  not the API auth mechanism).\nsummary:\n  types: [awsSigV4]\n  api_key_in: [signed-request]\n  oauth2_flows: []\nschemes:\n- name: AWSSignatureV4\n  type: awsSigV4\n  scheme: aws-sigv4\n  description: >-\n    AWS Signature Version 4 request signing using an access key ID and secret\n    access key, identical to Amazon S3. Compatible with the AWS SDKs and AWS CLI\n    when pointed at the s3.cubbit.eu endpoint.\n  region: eu-west-1\n\
   \  endpoint: https://s3.cubbit.eu\n  credential_source: DS3 web console (console.cubbit.eu) → project → Access key → Create access key\n  sources: [docs.cubbit.io/getting-started/quickstart, docs.cubbit.io/guides/s3-api]\nnotes:\n- Custom tenants sign against https://s3.<tenant>.cubbit.eu.\n- Secret access keys are shown once at creation and downloaded as CSV.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cubbit/refs/heads/main/authentication/cubbit-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cubbit/authentication/cubbit-authentication.yml
 summary_line: awsSigV4 · 1 scheme
 tags:
 - Object Storage

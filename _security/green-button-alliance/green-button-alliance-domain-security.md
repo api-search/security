@@ -5,49 +5,49 @@ api_specs:
   label: Green Button Alliance Application Information API
   slug: green-button-alliance-applicationinformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-applicationinformation-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-applicationinformation-api-openapi.yml
 - filename: green-button-alliance-authorization-api-openapi.yml
   format: yaml
   label: Green Button Alliance Authorization API
   slug: green-button-alliance-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-authorization-api-openapi.yml
 - filename: green-button-alliance-batch-api-openapi.yml
   format: yaml
   label: Green Button Alliance Batch API
   slug: green-button-alliance-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-batch-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-batch-api-openapi.yml
 - filename: green-button-alliance-datacustodian-integration-api-openapi.yml
   format: yaml
   label: Green Button Alliance DataCustodian Integration API
   slug: green-button-alliance-datacustodian-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-datacustodian-integration-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-datacustodian-integration-api-openapi.yml
 - filename: green-button-alliance-oauth2-client-management-api-openapi.yml
   format: yaml
   label: Green Button Alliance OAuth2 Client Management API
   slug: green-button-alliance-oauth2-client-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-oauth2-client-management-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-oauth2-client-management-api-openapi.yml
 - filename: green-button-alliance-oauth2-standard-api-openapi.yml
   format: yaml
   label: Green Button Alliance OAuth2 Standard API
   slug: green-button-alliance-oauth2-standard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-oauth2-standard-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-oauth2-standard-api-openapi.yml
 - filename: green-button-alliance-oidc-api-openapi.yml
   format: yaml
   label: Green Button Alliance OIDC API
   slug: green-button-alliance-oidc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-oidc-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-oidc-api-openapi.yml
 - filename: green-button-alliance-usagepoint-api-openapi.yml
   format: yaml
   label: Green Button Alliance Usage Point API
   slug: green-button-alliance-usagepoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-usagepoint-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-usagepoint-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -100,7 +100,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.greenbuttonalliance.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 16070400\n- host: sandbox.greenbuttonalliance.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 20:26:53 2026 GMT\n  hsts: null\n- host: services.greenbuttondata.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 18:43:32 2026 GMT\n  hsts: false\ndomains:\n- domain: greenbuttonalliance.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: greenbuttondata.org\n  dnssec: false\n  caa:\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"sni.cloudflaressl.com\"\n  spf: true\n\
   \  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/security/green-button-alliance-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/green-button-alliance/security/green-button-alliance-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Energy

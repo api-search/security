@@ -5,37 +5,37 @@ api_specs:
   label: Qobuz Albums API
   slug: qobuz-albums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qobuz/refs/heads/main/openapi/qobuz-albums-api-openapi.yml
+  url: https://artifacts.apis.io/qobuz/openapi/qobuz-albums-api-openapi.yml
 - filename: qobuz-artists-api-openapi.yml
   format: yaml
   label: Qobuz Artists API
   slug: qobuz-artists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qobuz/refs/heads/main/openapi/qobuz-artists-api-openapi.yml
+  url: https://artifacts.apis.io/qobuz/openapi/qobuz-artists-api-openapi.yml
 - filename: qobuz-authentication-api-openapi.yml
   format: yaml
   label: Qobuz Authentication API
   slug: qobuz-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qobuz/refs/heads/main/openapi/qobuz-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/qobuz/openapi/qobuz-authentication-api-openapi.yml
 - filename: qobuz-playlists-api-openapi.yml
   format: yaml
   label: Qobuz Playlists API
   slug: qobuz-playlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qobuz/refs/heads/main/openapi/qobuz-playlists-api-openapi.yml
+  url: https://artifacts.apis.io/qobuz/openapi/qobuz-playlists-api-openapi.yml
 - filename: qobuz-search-api-openapi.yml
   format: yaml
   label: Qobuz Search API
   slug: qobuz-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qobuz/refs/heads/main/openapi/qobuz-search-api-openapi.yml
+  url: https://artifacts.apis.io/qobuz/openapi/qobuz-search-api-openapi.yml
 - filename: qobuz-tracks-api-openapi.yml
   format: yaml
   label: Qobuz Tracks API
   slug: qobuz-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qobuz/refs/heads/main/openapi/qobuz-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/qobuz/openapi/qobuz-tracks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: qobuz-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.qobuz.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: qobuz.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qobuz/refs/heads/main/security/qobuz-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/qobuz/security/qobuz-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Music Streaming

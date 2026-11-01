@@ -5,13 +5,13 @@ api_specs:
   label: Maison Safqa Holdings Limited Inventory API
   slug: maison-safqa-holdings-limited-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/openapi/maison-safqa-holdings-limited-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/maison-safqa-holdings-limited/openapi/maison-safqa-holdings-limited-inventory-api-openapi.yml
 - filename: maison-safqa-holdings-limited-products-api-openapi.yml
   format: yaml
   label: Maison Safqa Holdings Limited Products API
   slug: maison-safqa-holdings-limited-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/openapi/maison-safqa-holdings-limited-products-api-openapi.yml
+  url: https://artifacts.apis.io/maison-safqa-holdings-limited/openapi/maison-safqa-holdings-limited-products-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: maison-safqa-holdings-limited-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: maisonsafqa.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 14:04:22 2026 GMT\n  hsts: false\n- host: api.maisonsafqa.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 14:04:22 2026 GMT\n  hsts: null\ndomains:\n- domain: maisonsafqa.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/security/maison-safqa-holdings-limited-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/maison-safqa-holdings-limited/security/maison-safqa-holdings-limited-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

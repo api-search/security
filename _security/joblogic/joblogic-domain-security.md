@@ -5,55 +5,55 @@ api_specs:
   label: Joblogic Assets API
   slug: joblogic-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-assets-api-openapi.yml
+  url: https://artifacts.apis.io/joblogic/openapi/joblogic-assets-api-openapi.yml
 - filename: joblogic-contacts-api-openapi.yml
   format: yaml
   label: Joblogic Contacts API
   slug: joblogic-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/joblogic/openapi/joblogic-contacts-api-openapi.yml
 - filename: joblogic-customers-api-openapi.yml
   format: yaml
   label: Joblogic Customers API
   slug: joblogic-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-customers-api-openapi.yml
+  url: https://artifacts.apis.io/joblogic/openapi/joblogic-customers-api-openapi.yml
 - filename: joblogic-engineers-api-openapi.yml
   format: yaml
   label: Joblogic Engineers API
   slug: joblogic-engineers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-engineers-api-openapi.yml
+  url: https://artifacts.apis.io/joblogic/openapi/joblogic-engineers-api-openapi.yml
 - filename: joblogic-invoices-api-openapi.yml
   format: yaml
   label: Joblogic Invoices API
   slug: joblogic-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/joblogic/openapi/joblogic-invoices-api-openapi.yml
 - filename: joblogic-jobs-api-openapi.yml
   format: yaml
   label: Joblogic Jobs API
   slug: joblogic-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/joblogic/openapi/joblogic-jobs-api-openapi.yml
 - filename: joblogic-quotes-api-openapi.yml
   format: yaml
   label: Joblogic Quotes API
   slug: joblogic-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/joblogic/openapi/joblogic-quotes-api-openapi.yml
 - filename: joblogic-sites-api-openapi.yml
   format: yaml
   label: Joblogic Sites API
   slug: joblogic-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-sites-api-openapi.yml
+  url: https://artifacts.apis.io/joblogic/openapi/joblogic-sites-api-openapi.yml
 - filename: joblogic-visits-api-openapi.yml
   format: yaml
   label: Joblogic Visits API
   slug: joblogic-visits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-visits-api-openapi.yml
+  url: https://artifacts.apis.io/joblogic/openapi/joblogic-visits-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -105,10 +105,10 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: joblogic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 08:00:14 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.joblogic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 13:24:22 2026 GMT\n  hsts: false\n  http_status: 403\n  note: Production API host resolves and serves TLS but returns 403 - access is firewall / IP-allowlisted per Joblogic's customer-provisioned access model.\n- host: uatapi.joblogic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 06:52:13 2026 GMT\n  hsts: false\n  http_status: 403\n  note: UAT sandbox API host; also IP-allowlisted.\n- host: apidocs.joblogic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 14:47:18 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  note: Public API documentation (Postman-hosted).\ndomains:\n- domain: joblogic.com\n\
   \  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/security/joblogic-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/joblogic/security/joblogic-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Field Service
+- Field Service Management
 - Job Management
 - Scheduling
 - Maintenance

@@ -7,31 +7,31 @@ api_specs:
   label: University of Maryland College Park Art API
   slug: university-of-maryland-college-park-art-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-art-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-maryland-college-park/openapi/university-of-maryland-college-park-art-api-openapi.yml
 - filename: university-of-maryland-college-park-makerspace-api-openapi.yml
   format: yaml
   label: University of Maryland College Park Makerspace API
   slug: university-of-maryland-college-park-makerspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-makerspace-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-maryland-college-park/openapi/university-of-maryland-college-park-makerspace-api-openapi.yml
 - filename: university-of-maryland-college-park-mckeldin-api-openapi.yml
   format: yaml
   label: University of Maryland College Park Mckeldin API
   slug: university-of-maryland-college-park-mckeldin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-mckeldin-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-maryland-college-park/openapi/university-of-maryland-college-park-mckeldin-api-openapi.yml
 - filename: university-of-maryland-college-park-mspal-api-openapi.yml
   format: yaml
   label: University of Maryland College Park Mspal API
   slug: university-of-maryland-college-park-mspal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-mspal-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-maryland-college-park/openapi/university-of-maryland-college-park-mspal-api-openapi.yml
 - filename: university-of-maryland-college-park-stem-api-openapi.yml
   format: yaml
   label: University of Maryland College Park Stem API
   slug: university-of-maryland-college-park-stem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-stem-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-maryland-college-park/openapi/university-of-maryland-college-park-stem-api-openapi.yml
 auth_types: []
 description: Authentication posture of the surfaces the University of Maryland actually operates itself. Every institution-operated library and repository read surface confirmed in this profile is open and keyless. The one exception is the campus Enterprise GIS, which publishes its service catalog without a credential and gates every service behind an ArcGIS token. Beyond that, the institution's authentication engineering is concentrated in its SAML identity provider, which authenticates people into vendor platforms rather than authorising API clients.
 kind: authentication
@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-08-30'\nmethod: probed\nsource: live unauthentica
   \    status: 200\n- name: UMD Shibboleth Identity Provider\n  baseURL: https://shib.idm.umd.edu/idp/shibboleth\n  scheme: saml2\n  api_key_required: false\n  entityID: urn:mace:incommon:umd.edu\n  evidence:\n    url: https://shib.idm.umd.edu/idp/shibboleth\n    status: 200\n    note: >-\n      SAML 2.0 EntityDescriptor served unauthenticated, as the federation protocol requires.\n      This is a browser-SSO identity provider for people, not an OAuth/OIDC authorization\n      server for API clients; it issues no API tokens to third parties.\n  assurance:\n  - https://refeds.org/sirtfi\n  entity_categories:\n  - http://id.incommon.org/category/research-and-scholarship\n  - http://refeds.org/category/research-and-scholarship\n- name: UMD Enterprise GIS — ArcGIS REST Services\n  baseURL: https://gis.umd.edu/arcgis/rest/services\n  scheme: arcgis-token\n  api_key_required: true\n  self_service: false\n  token_endpoint: https://gis.umd.edu/portal/sharing/rest/generateToken\n  evidence:\n   \
   \ url: https://gis.umd.edu/arcgis/rest/info?f=json\n    status: 200\n    note: >-\n      authInfo.isTokenBasedSecurity true, tokenServicesUrl\n      https://gis.umd.edu/portal/sharing/rest/generateToken.\n  probes:\n  - url: https://gis.umd.edu/arcgis/rest/services?f=json\n    status: 200\n    note: Service catalog root enumerated 14 folders with no credential.\n  - url: https://gis.umd.edu/arcgis/rest/services/Navigation?f=json\n    status: 200\n    note: >-\n      HTTP 200 whose body is {\"error\":{\"code\":499,\"message\":\"Token Required\"}}. The status code is\n      not the answer here; the body is. Recorded so a reader does not score this folder as open.\n  - url: https://gis.umd.edu/portal/sharing/rest?f=json\n    status: 200\n    note: Portal version document readable unauthenticated.\n  declared_in_contract: true\n  note: >-\n    Tokens are issued by UMD's own ArcGIS Portal to accounts UMD provisions. There is no public\n    registration path, so this is a credentialed internal\
   \ surface with a public catalog, not a\n    developer programme.\ngaps:\n- No OAuth 2.0 or OpenID Connect authorization server is published for third-party API clients.\n- No developer key issuance, client registration, or self-service credentialing exists on any\n  institution-operated host found in this review.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/authentication/university-of-maryland-college-park-authentication.yml
+source_yaml_url: https://artifacts.apis.io/university-of-maryland-college-park/authentication/university-of-maryland-college-park-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

@@ -5,25 +5,25 @@ api_specs:
   label: MongoDB Atlas Clusters API
   slug: mongodb-atlas-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mongodb-atlas/refs/heads/main/openapi/mongodb-atlas-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/mongodb-atlas/openapi/mongodb-atlas-clusters-api-openapi.yml
 - filename: mongodb-atlas-database-users-api-openapi.yml
   format: yaml
   label: MongoDB Atlas Database Users API
   slug: mongodb-atlas-database-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mongodb-atlas/refs/heads/main/openapi/mongodb-atlas-database-users-api-openapi.yml
+  url: https://artifacts.apis.io/mongodb-atlas/openapi/mongodb-atlas-database-users-api-openapi.yml
 - filename: mongodb-atlas-organizations-api-openapi.yml
   format: yaml
   label: MongoDB Atlas Organizations API
   slug: mongodb-atlas-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mongodb-atlas/refs/heads/main/openapi/mongodb-atlas-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/mongodb-atlas/openapi/mongodb-atlas-organizations-api-openapi.yml
 - filename: mongodb-atlas-projects-api-openapi.yml
   format: yaml
   label: MongoDB Atlas Projects API
   slug: mongodb-atlas-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mongodb-atlas/refs/heads/main/openapi/mongodb-atlas-projects-api-openapi.yml
+  url: https://artifacts.apis.io/mongodb-atlas/openapi/mongodb-atlas-projects-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: mongodb-atlas-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mongodb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  4 23:59:59 2027 GMT\n  hsts: false\n- host: cloud.mongodb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 11 15:01:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: mongodb.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mongodb-atlas/refs/heads/main/security/mongodb-atlas-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mongodb-atlas/security/mongodb-atlas-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Database

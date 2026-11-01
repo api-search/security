@@ -7,31 +7,31 @@ api_specs:
   label: Western Power Content API
   slug: western-power-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/openapi/western-power-content-api-openapi.yml
+  url: https://artifacts.apis.io/western-power/openapi/western-power-content-api-openapi.yml
 - filename: western-power-metadata-api-openapi.yml
   format: yaml
   label: Western Power Metadata API
   slug: western-power-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/openapi/western-power-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/western-power/openapi/western-power-metadata-api-openapi.yml
 - filename: western-power-outages-api-openapi.yml
   format: yaml
   label: Western Power Outages API
   slug: western-power-outages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/openapi/western-power-outages-api-openapi.yml
+  url: https://artifacts.apis.io/western-power/openapi/western-power-outages-api-openapi.yml
 - filename: western-power-query-api-openapi.yml
   format: yaml
   label: Western Power Query API
   slug: western-power-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/openapi/western-power-query-api-openapi.yml
+  url: https://artifacts.apis.io/western-power/openapi/western-power-query-api-openapi.yml
 - filename: western-power-search-api-openapi.yml
   format: yaml
   label: Western Power Search API
   slug: western-power-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/openapi/western-power-search-api-openapi.yml
+  url: https://artifacts.apis.io/western-power/openapi/western-power-search-api-openapi.yml
 auth_types:
 - none
 - esri-token
@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: >-\n  live prob
   \  applies_to:\n  - openapi/western-power-outage-openapi.yml\n  - openapi/western-power-corporate-web-openapi.yml\n  - openapi/western-power-arcgis-outage-openapi.yml\n  description: >-\n    Anonymous, unauthenticated HTTPS GET. Verified 200 on 2026-07-27 against\n    /api/corp/outage/all-outages, /api/corp/outage/details/{outageId},\n    /api/corp/outage/status/{suburb}, /api/search, /api/corp/newsarticles,\n    /api/corp/vacancies and the ArcGIS FeatureServer metadata and query endpoints.\n    No key, token, referer check or origin restriction was required.\n  evidence: examples/western-power-all-outages-sample.json\n- name: esri-token\n  type: token\n  applies_to: Western Power Public Secure Services (SLIP)\n  token_endpoint: https://token.slip.wa.gov.au\n  description: >-\n    Esri token authentication after registering a SLIP account on the WA Government\n    platform and agreeing to Western Power's Data Licence Terms and Conditions.\n    Anonymous calls to the MapServer root and\
   \ to layer 10 both returned HTTP 401 on\n    2026-07-27.\n  registration: https://catalogue.data.wa.gov.au/dataset/wp-licence-terms-and-conditions\n- name: slip-download-session\n  type: session-cookie\n  applies_to: data-downloads.slip.wa.gov.au bulk downloads\n  description: >-\n    Form login; an anonymous request for a dataset download returned HTTP 302 to\n    /Account/Login.\n- name: retailer-generator-portal\n  type: session-cookie\n  applies_to: https://services.westernpower.com.au/online/nbu/do/restricted/Home\n  description: >-\n    Username/password login to the restricted Retailer and Generator portal. A\n    commercial and regulatory relationship is a precondition. No API, no interface\n    control document and no machine credential is published for it.\n- name: consumer-energy-data\n  type: out-of-band\n  applies_to: customer interval and accumulated metering data\n  description: >-\n    Not an authentication scheme at all — a manual gate. A third party registers a\n    business\
   \ with Western Power (name, ABN, business type, invoicing), then obtains\n    verifiable written customer consent per meter. Data is delivered by email or a\n    web portal. There is no OAuth consent flow, no scopes, no accreditation register\n    and no machine interface at the end of it.\n  docs:\n  - https://www.westernpower.com.au/issues-enquiries/requests-preferences/registration-for-access-to-energy-data/\n  - https://www.westernpower.com.au/issues-enquiries/requests-preferences/verifiable-consent-for-access-to-energy-data/\ndiscovery:\n  openid_configuration: 404 on www.westernpower.com.au and my.westernpower.com.au (2026-07-27)\n  oauth_authorization_server: 404 on www.westernpower.com.au (2026-07-27)\n  oauth_protected_resource: 404 on www.westernpower.com.au (2026-07-27)\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/authentication/western-power-authentication.yml
+source_yaml_url: https://artifacts.apis.io/western-power/authentication/western-power-authentication.yml
 summary_line: none/esri-token/session-cookie · 5 schemes
 tags:
 - Energy

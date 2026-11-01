@@ -5,61 +5,61 @@ api_specs:
   label: Regal Reporting Webhooks
   slug: regal-reporting-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/asyncapi/regal-reporting-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/regal-ai/asyncapi/regal-reporting-webhooks-asyncapi.yml
 - filename: regal-ai-campaigns-api-openapi.yml
   format: yaml
   label: Regal Campaigns API
   slug: regal-ai-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/regal-ai/openapi/regal-ai-campaigns-api-openapi.yml
 - filename: regal-ai-dispositions-api-openapi.yml
   format: yaml
   label: Regal Dispositions API
   slug: regal-ai-dispositions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-dispositions-api-openapi.yml
+  url: https://artifacts.apis.io/regal-ai/openapi/regal-ai-dispositions-api-openapi.yml
 - filename: regal-ai-events-api-openapi.yml
   format: yaml
   label: Regal Events API
   slug: regal-ai-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-events-api-openapi.yml
+  url: https://artifacts.apis.io/regal-ai/openapi/regal-ai-events-api-openapi.yml
 - filename: regal-ai-messages-api-openapi.yml
   format: yaml
   label: Regal Messages API
   slug: regal-ai-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-messages-api-openapi.yml
+  url: https://artifacts.apis.io/regal-ai/openapi/regal-ai-messages-api-openapi.yml
 - filename: regal-ai-users-api-openapi.yml
   format: yaml
   label: Regal Users API
   slug: regal-ai-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-users-api-openapi.yml
+  url: https://artifacts.apis.io/regal-ai/openapi/regal-ai-users-api-openapi.yml
 - filename: regal-ai-activephonenumbers-api-openapi.yml
   format: yaml
   label: Regal Active Phone Numbers API
   slug: regal-ai-activephonenumbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-activephonenumbers-api-openapi.yml
+  url: https://artifacts.apis.io/regal-ai/openapi/regal-ai-activephonenumbers-api-openapi.yml
 - filename: regal-ai-brandedphonenumbers-api-openapi.yml
   format: yaml
   label: Regal Branded Phone Numbers API
   slug: regal-ai-brandedphonenumbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-brandedphonenumbers-api-openapi.yml
+  url: https://artifacts.apis.io/regal-ai/openapi/regal-ai-brandedphonenumbers-api-openapi.yml
 - filename: regal-ai-businessprofiles-api-openapi.yml
   format: yaml
   label: Regal Business Profiles API
   slug: regal-ai-businessprofiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-businessprofiles-api-openapi.yml
+  url: https://artifacts.apis.io/regal-ai/openapi/regal-ai-businessprofiles-api-openapi.yml
 - filename: regal-ai-callhandoffs-api-openapi.yml
   format: yaml
   label: Regal Call Handoffs API
   slug: regal-ai-callhandoffs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-callhandoffs-api-openapi.yml
+  url: https://artifacts.apis.io/regal-ai/openapi/regal-ai-callhandoffs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -100,7 +100,7 @@ source_filename: regal-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.regal.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 01:09:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.regal.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 17:15:31 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.regal.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  9 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: regal.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/security/regal-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/regal-ai/security/regal-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

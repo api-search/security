@@ -7,19 +7,19 @@ api_specs:
   label: Dexio Dexio API
   slug: dexio-dexio-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexio/refs/heads/main/openapi/dexio-dexio-api-api-openapi.yml
+  url: https://artifacts.apis.io/dexio/openapi/dexio-dexio-api-api-openapi.yml
 - filename: dexio-install-api-openapi.yml
   format: yaml
   label: Dexio Install API
   slug: dexio-install-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexio/refs/heads/main/openapi/dexio-install-api-openapi.yml
+  url: https://artifacts.apis.io/dexio/openapi/dexio-install-api-openapi.yml
 - filename: dexio-mcp-api-openapi.yml
   format: yaml
   label: Dexio MCP API
   slug: dexio-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexio/refs/heads/main/openapi/dexio-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/dexio/openapi/dexio-mcp-api-openapi.yml
 auth_types: []
 description: Dexio authentication uses an API key sent as a Bearer token in the Authorization header.
 kind: authentication
@@ -45,7 +45,7 @@ source_filename: dexio-authentication.yml
 source_heading: Authentication Profile
 source_url: https://dexio.wiki/guides/codex-mcp/
 source_yaml: "generated: '2026-10-05'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://dexio.wiki/guides/codex-mcp/\nsources:\n- https://dexio.wiki/guides/codex-mcp/\n- https://dexio.wiki/guides/cursor-mcp/\n- https://dexio.wiki/guides/hermes-agent-setup/\n- https://dexio.wiki/guides/openclaw-setup/\ndescription: Dexio authentication uses an API key sent as a Bearer token in the Authorization header.\nschemes:\n- type: http-bearer\n  name: Authorization\n  evidence: http_headers = { \"Authorization\" = \"Bearer dxk_...\" }\n  location: header\n  header: Authorization\n  how_to_obtain: Obtain the API key (dxk_…) by sending a Dexio setup message to the agent, which returns a link and code; after signing in and\n    allowing access, Dexio provides the API key.\nnote: No OAuth2, API key, or other authentication methods are documented on the provided pages.\ndocs: https://dexio.wiki/guides/codex-mcp/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dexio/refs/heads/main/authentication/dexio-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dexio/authentication/dexio-authentication.yml
 summary_line: 1 scheme
 tags:
 - Artificial Intelligence

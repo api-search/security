@@ -5,13 +5,13 @@ api_specs:
   label: Natera Orders API
   slug: natera-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/natera/refs/heads/main/openapi/natera-orders-api-openapi.yml
+  url: https://artifacts.apis.io/natera/openapi/natera-orders-api-openapi.yml
 - filename: natera-results-api-openapi.yml
   format: yaml
   label: Natera Results API
   slug: natera-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/natera/refs/heads/main/openapi/natera-results-api-openapi.yml
+  url: https://artifacts.apis.io/natera/openapi/natera-results-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: natera-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.natera.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 31 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: constellation.natera.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  6 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: connect.natera.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 21:32:02 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: natera.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/natera/refs/heads/main/security/natera-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/natera/security/natera-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Genetic Testing

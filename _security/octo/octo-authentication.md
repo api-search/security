@@ -7,25 +7,25 @@ api_specs:
   label: Open Connectivity for Tours, Activities, and Attractions Availability API
   slug: octo-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octo/refs/heads/main/openapi/octo-availability-api-openapi.yml
+  url: https://artifacts.apis.io/octo/openapi/octo-availability-api-openapi.yml
 - filename: octo-bookings-api-openapi.yml
   format: yaml
   label: Open Connectivity for Tours, Activities, and Attractions Bookings API
   slug: octo-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octo/refs/heads/main/openapi/octo-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/octo/openapi/octo-bookings-api-openapi.yml
 - filename: octo-products-api-openapi.yml
   format: yaml
   label: Open Connectivity for Tours, Activities, and Attractions Products API
   slug: octo-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octo/refs/heads/main/openapi/octo-products-api-openapi.yml
+  url: https://artifacts.apis.io/octo/openapi/octo-products-api-openapi.yml
 - filename: octo-supplier-api-openapi.yml
   format: yaml
   label: Open Connectivity for Tours, Activities, and Attractions Supplier API
   slug: octo-supplier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octo/refs/heads/main/openapi/octo-supplier-api-openapi.yml
+  url: https://artifacts.apis.io/octo/openapi/octo-supplier-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -51,7 +51,7 @@ source_filename: octo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/octo-openapi-original.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: Auth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/octo-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/octo/refs/heads/main/authentication/octo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/octo/authentication/octo-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Activities

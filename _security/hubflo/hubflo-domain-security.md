@@ -5,169 +5,169 @@ api_specs:
   label: Hubflo Chat Room API
   slug: hubflo-chat-room-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-chat-room-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-chat-room-api-openapi.yml
 - filename: hubflo-comment-api-openapi.yml
   format: yaml
   label: Hubflo Comment API
   slug: hubflo-comment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-comment-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-comment-api-openapi.yml
 - filename: hubflo-company-api-openapi.yml
   format: yaml
   label: Hubflo Company API
   slug: hubflo-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-company-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-company-api-openapi.yml
 - filename: hubflo-contact-api-openapi.yml
   format: yaml
   label: Hubflo Contact API
   slug: hubflo-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-contact-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-contact-api-openapi.yml
 - filename: hubflo-custom-field-api-openapi.yml
   format: yaml
   label: Hubflo Custom Field API
   slug: hubflo-custom-field-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-custom-field-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-custom-field-api-openapi.yml
 - filename: hubflo-custom-field-value-api-openapi.yml
   format: yaml
   label: Hubflo Custom Field Value API
   slug: hubflo-custom-field-value-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-custom-field-value-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-custom-field-value-api-openapi.yml
 - filename: hubflo-folder-api-openapi.yml
   format: yaml
   label: Hubflo Folder API
   slug: hubflo-folder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-folder-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-folder-api-openapi.yml
 - filename: hubflo-form-api-openapi.yml
   format: yaml
   label: Hubflo Form API
   slug: hubflo-form-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-form-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-form-api-openapi.yml
 - filename: hubflo-invoice-api-openapi.yml
   format: yaml
   label: Hubflo Invoice API
   slug: hubflo-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-invoice-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-invoice-api-openapi.yml
 - filename: hubflo-invoicing-profile-api-openapi.yml
   format: yaml
   label: Hubflo Invoicing Profile API
   slug: hubflo-invoicing-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-invoicing-profile-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-invoicing-profile-api-openapi.yml
 - filename: hubflo-item-api-openapi.yml
   format: yaml
   label: Hubflo Item API
   slug: hubflo-item-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-item-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-item-api-openapi.yml
 - filename: hubflo-member-api-openapi.yml
   format: yaml
   label: Hubflo Member API
   slug: hubflo-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-member-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-member-api-openapi.yml
 - filename: hubflo-message-api-openapi.yml
   format: yaml
   label: Hubflo Message API
   slug: hubflo-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-message-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-message-api-openapi.yml
 - filename: hubflo-note-api-openapi.yml
   format: yaml
   label: Hubflo Note API
   slug: hubflo-note-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-note-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-note-api-openapi.yml
 - filename: hubflo-organizations-api-openapi.yml
   format: yaml
   label: Hubflo Organizations API
   slug: hubflo-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-organizations-api-openapi.yml
 - filename: hubflo-ping-api-openapi.yml
   format: yaml
   label: Hubflo Ping API
   slug: hubflo-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-ping-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-ping-api-openapi.yml
 - filename: hubflo-portals-api-openapi.yml
   format: yaml
   label: Hubflo Portals API
   slug: hubflo-portals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-portals-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-portals-api-openapi.yml
 - filename: hubflo-project-api-openapi.yml
   format: yaml
   label: Hubflo Project API
   slug: hubflo-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-project-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-project-api-openapi.yml
 - filename: hubflo-project-section-api-openapi.yml
   format: yaml
   label: Hubflo Project Section API
   slug: hubflo-project-section-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-project-section-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-project-section-api-openapi.yml
 - filename: hubflo-project-type-api-openapi.yml
   format: yaml
   label: Hubflo Project Type API
   slug: hubflo-project-type-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-project-type-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-project-type-api-openapi.yml
 - filename: hubflo-proposal-api-openapi.yml
   format: yaml
   label: Hubflo Proposal API
   slug: hubflo-proposal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-proposal-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-proposal-api-openapi.yml
 - filename: hubflo-smartdoc-api-openapi.yml
   format: yaml
   label: Hubflo Smartdoc API
   slug: hubflo-smartdoc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-smartdoc-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-smartdoc-api-openapi.yml
 - filename: hubflo-tag-api-openapi.yml
   format: yaml
   label: Hubflo Tag API
   slug: hubflo-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-tag-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-tag-api-openapi.yml
 - filename: hubflo-task-api-openapi.yml
   format: yaml
   label: Hubflo Task API
   slug: hubflo-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-task-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-task-api-openapi.yml
 - filename: hubflo-task-template-api-openapi.yml
   format: yaml
   label: Hubflo Task Template API
   slug: hubflo-task-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-task-template-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-task-template-api-openapi.yml
 - filename: hubflo-time-tracking-api-openapi.yml
   format: yaml
   label: Hubflo Time Tracking API
   slug: hubflo-time-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-time-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-time-tracking-api-openapi.yml
 - filename: hubflo-webhook-api-openapi.yml
   format: yaml
   label: Hubflo Webhook API
   slug: hubflo-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-webhook-api-openapi.yml
 - filename: hubflo-workspace-api-openapi.yml
   format: yaml
   label: Hubflo Workspace API
   slug: hubflo-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-workspace-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -207,7 +207,7 @@ source_filename: hubflo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: hubflo.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 15 03:55:19 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: app.hubflo.com\n  https: false\n- host: staging.hubflo.com\n  https: false\ndomains:\n- domain: hubflo.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/security/hubflo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hubflo/security/hubflo-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Client Portal

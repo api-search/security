@@ -8,19 +8,49 @@ api_specs:
   label: Aito Technologies Data API
   slug: aito-technologies-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/openapi/aito-technologies-data-api-openapi.yml
+  url: https://artifacts.apis.io/aito-technologies/openapi/aito-technologies-data-api-openapi.yml
 - filename: aito-technologies-query-api-openapi.yml
   format: yaml
   label: Aito Technologies Query API
   slug: aito-technologies-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/openapi/aito-technologies-query-api-openapi.yml
+  url: https://artifacts.apis.io/aito-technologies/openapi/aito-technologies-query-api-openapi.yml
 - filename: aito-technologies-schema-api-openapi.yml
   format: yaml
   label: Aito Technologies Schema API
   slug: aito-technologies-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/openapi/aito-technologies-schema-api-openapi.yml
+  url: https://artifacts.apis.io/aito-technologies/openapi/aito-technologies-schema-api-openapi.yml
+- filename: aito-technologies-envs-api-openapi.yml
+  format: yaml
+  label: Aito Technologies Envs API
+  slug: aito-technologies-envs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aito-technologies/openapi/aito-technologies-envs-api-openapi.yml
+- filename: aito-technologies-introspection-api-openapi.yml
+  format: yaml
+  label: Aito Technologies Introspection API
+  slug: aito-technologies-introspection-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aito-technologies/openapi/aito-technologies-introspection-api-openapi.yml
+- filename: aito-technologies-jobs-api-openapi.yml
+  format: yaml
+  label: Aito Technologies Jobs API
+  slug: aito-technologies-jobs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aito-technologies/openapi/aito-technologies-jobs-api-openapi.yml
+- filename: aito-technologies-refs-api-openapi.yml
+  format: yaml
+  label: Aito Technologies Refs API
+  slug: aito-technologies-refs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aito-technologies/openapi/aito-technologies-refs-api-openapi.yml
+- filename: aito-technologies-releases-api-openapi.yml
+  format: yaml
+  label: Aito Technologies Releases API
+  slug: aito-technologies-releases-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aito-technologies/openapi/aito-technologies-releases-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -51,7 +81,7 @@ source_filename: aito-technologies-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: openapi/aito-technologies-openapi-original.yml\ndocs: https://aito.ai/docs/api/\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  key_types:\n  - read-only\n  - read/write\n  env_vars:\n  - AITO_INSTANCE_URL\n  - AITO_API_KEY\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  key_types:\n  - read-only\n  - read/write\n  docs: https://aito.ai/docs/api/\n  sources:\n  - openapi/aito-technologies-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/authentication/aito-technologies-authentication.yml
+source_yaml_url: https://artifacts.apis.io/aito-technologies/authentication/aito-technologies-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

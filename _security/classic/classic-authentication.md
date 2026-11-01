@@ -7,31 +7,31 @@ api_specs:
   label: Classic Affiliate API
   slug: classic-affiliate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/openapi/classic-affiliate-api-openapi.yml
+  url: https://artifacts.apis.io/classic/openapi/classic-affiliate-api-openapi.yml
 - filename: classic-auth-api-openapi.yml
   format: yaml
   label: Classic Auth API
   slug: classic-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/openapi/classic-auth-api-openapi.yml
+  url: https://artifacts.apis.io/classic/openapi/classic-auth-api-openapi.yml
 - filename: classic-supported-assets-api-openapi.yml
   format: yaml
   label: Classic Supported Assets API
   slug: classic-supported-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/openapi/classic-supported-assets-api-openapi.yml
+  url: https://artifacts.apis.io/classic/openapi/classic-supported-assets-api-openapi.yml
 - filename: classic-supported-chains-api-openapi.yml
   format: yaml
   label: Classic Supported Chains API
   slug: classic-supported-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/openapi/classic-supported-chains-api-openapi.yml
+  url: https://artifacts.apis.io/classic/openapi/classic-supported-chains-api-openapi.yml
 - filename: classic-swaps-api-openapi.yml
   format: yaml
   label: Classic Swaps API
   slug: classic-swaps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/openapi/classic-swaps-api-openapi.yml
+  url: https://artifacts.apis.io/classic/openapi/classic-swaps-api-openapi.yml
 auth_types:
 - siwe
 - http-bearer-jwt
@@ -85,7 +85,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://api.shapeshift.com/docs\nnotes: >-\n  The ShapeShift Public API does not declare securitySchemes in its OpenAPI, but\n  authentication is documented through its Auth operations: Sign-In With Ethereum\n  (SIWE, EIP-4361). A client fetches a nonce (siweNonce), the wallet signs the\n  SIWE message, and siweVerify returns a JWT bearer token used on authenticated\n  endpoints (affiliate create/update). Read endpoints (assets, chains, swap\n  quotes/rates/status) are public. Swap and affiliate endpoints also accept an\n  X-Partner-Code header for partner/affiliate attribution (not authentication).\nsummary:\n  types: [siwe, http-bearer-jwt]\n  public_endpoints: true\n  api_key_in: []\n  oauth2_flows: []\nschemes:\n  - name: SIWE\n    type: siwe\n    standard: EIP-4361 (Sign-In With Ethereum)\n    flow:\n      - \"POST /v1/auth/siwe/nonce (siweNonce) -> nonce\"\n      - \"Wallet signs the SIWE message containing the nonce\"\
   \n      - \"POST /v1/auth/siwe/verify (siweVerify) -> { token (JWT), address }\"\n    sources: [openapi/classic-shapeshift-openapi-original.json]\n  - name: bearerAuth\n    type: http\n    scheme: bearer\n    bearerFormat: JWT\n    description: JWT returned by siweVerify, sent as Authorization Bearer on authenticated affiliate operations (401/403 on failure).\n    applies_to: [createAffiliate, updateAffiliate]\n    sources: [openapi/classic-shapeshift-openapi-original.json]\n  - name: X-Partner-Code\n    type: apiKey\n    in: header\n    parameter: X-Partner-Code\n    role: attribution\n    description: Partner/affiliate code passed on swap endpoints for attribution; not an authentication credential.\n    applies_to: [getSwapQuote, getSwapRates, getSwapStatus]\n    sources: [openapi/classic-shapeshift-openapi-original.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/authentication/classic-authentication.yml
+source_yaml_url: https://artifacts.apis.io/classic/authentication/classic-authentication.yml
 summary_line: siwe/http-bearer-jwt · 3 schemes
 tags:
 - Company

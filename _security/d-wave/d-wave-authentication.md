@@ -8,19 +8,19 @@ api_specs:
   label: D-Wave Account API
   slug: d-wave-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/openapi/d-wave-account-api-openapi.yml
+  url: https://artifacts.apis.io/d-wave/openapi/d-wave-account-api-openapi.yml
 - filename: d-wave-hybrid-api-openapi.yml
   format: yaml
   label: D-Wave Hybrid API
   slug: d-wave-hybrid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/openapi/d-wave-hybrid-api-openapi.yml
+  url: https://artifacts.apis.io/d-wave/openapi/d-wave-hybrid-api-openapi.yml
 - filename: d-wave-regions-api-openapi.yml
   format: yaml
   label: D-Wave Regions API
   slug: d-wave-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/openapi/d-wave-regions-api-openapi.yml
+  url: https://artifacts.apis.io/d-wave/openapi/d-wave-regions-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -62,7 +62,7 @@ source_filename: d-wave-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/d-wave-hybrid-solvers-openapi.yml, openapi/d-wave-leap-account-api-openapi.yml,\n  openapi/d-wave-metadata-api-openapi.yml, openapi/d-wave-problems-api-openapi.yml, openapi/d-wave-qpu-samplers-openapi.yml,\n  openapi/d-wave-solvers-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: SapiToken\n  type: apiKey\n  in: header\n  parameter: X-Auth-Token\n  sources:\n  - openapi/d-wave-hybrid-solvers-openapi.yml\n  - openapi/d-wave-metadata-api-openapi.yml\n  - openapi/d-wave-problems-api-openapi.yml\n  - openapi/d-wave-qpu-samplers-openapi.yml\n  - openapi/d-wave-solvers-api-openapi.yml\n- name: LeapOAuth\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://cloud.dwavesys.com/leap/oauth/authorize\n    tokenUrl: https://cloud.dwavesys.com/leap/oauth/token\n    scopes: 1\n  sources:\n  - openapi/d-wave-leap-account-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/authentication/d-wave-authentication.yml
+source_yaml_url: https://artifacts.apis.io/d-wave/authentication/d-wave-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Quantum Computing

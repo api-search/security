@@ -25,7 +25,7 @@ source_filename: cyemptive-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cyemptive.com\n  https: false\ndomains:\n- domain: cyemptive.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cyemptive/refs/heads/main/security/cyemptive-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cyemptive/security/cyemptive-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

@@ -5,37 +5,37 @@ api_specs:
   label: Deepchecks Application Versions API
   slug: deepchecks-application-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepchecks/refs/heads/main/openapi/deepchecks-application-versions-api-openapi.yml
+  url: https://artifacts.apis.io/deepchecks/openapi/deepchecks-application-versions-api-openapi.yml
 - filename: deepchecks-applications-api-openapi.yml
   format: yaml
   label: Deepchecks Applications API
   slug: deepchecks-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepchecks/refs/heads/main/openapi/deepchecks-applications-api-openapi.yml
+  url: https://artifacts.apis.io/deepchecks/openapi/deepchecks-applications-api-openapi.yml
 - filename: deepchecks-interactions-api-openapi.yml
   format: yaml
   label: Deepchecks Interactions API
   slug: deepchecks-interactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepchecks/refs/heads/main/openapi/deepchecks-interactions-api-openapi.yml
+  url: https://artifacts.apis.io/deepchecks/openapi/deepchecks-interactions-api-openapi.yml
 - filename: deepchecks-properties-api-openapi.yml
   format: yaml
   label: Deepchecks Properties API
   slug: deepchecks-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepchecks/refs/heads/main/openapi/deepchecks-properties-api-openapi.yml
+  url: https://artifacts.apis.io/deepchecks/openapi/deepchecks-properties-api-openapi.yml
 - filename: deepchecks-spans-api-openapi.yml
   format: yaml
   label: Deepchecks Spans API
   slug: deepchecks-spans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepchecks/refs/heads/main/openapi/deepchecks-spans-api-openapi.yml
+  url: https://artifacts.apis.io/deepchecks/openapi/deepchecks-spans-api-openapi.yml
 - filename: deepchecks-system-api-openapi.yml
   format: yaml
   label: Deepchecks System API
   slug: deepchecks-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepchecks/refs/heads/main/openapi/deepchecks-system-api-openapi.yml
+  url: https://artifacts.apis.io/deepchecks/openapi/deepchecks-system-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -72,7 +72,7 @@ source_filename: deepchecks-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.deepchecks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 18:05:11 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: llmdocs.deepchecks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 07:02:29 2026 GMT\n  hsts: null\n- host: app.llm.deepchecks.com\n  https: false\ndomains:\n- domain: deepchecks.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deepchecks/refs/heads/main/security/deepchecks-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/deepchecks/security/deepchecks-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

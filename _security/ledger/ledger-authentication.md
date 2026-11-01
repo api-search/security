@@ -9,241 +9,241 @@ api_specs:
   label: Ledger Accounts API
   slug: ledger-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-accounts-api-openapi.yml
 - filename: ledger-authentication-api-openapi.yml
   format: yaml
   label: Ledger Authentication API
   slug: ledger-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-authentication-api-openapi.yml
 - filename: ledger-buy-redirect-api-openapi.yml
   format: yaml
   label: Ledger Buy Redirect API
   slug: ledger-buy-redirect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-buy-redirect-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-buy-redirect-api-openapi.yml
 - filename: ledger-capabilities-api-openapi.yml
   format: yaml
   label: Ledger Capabilities API
   slug: ledger-capabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-capabilities-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-capabilities-api-openapi.yml
 - filename: ledger-cardano-api-openapi.yml
   format: yaml
   label: Ledger Cardano API
   slug: ledger-cardano-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-cardano-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-cardano-api-openapi.yml
 - filename: ledger-compliance-api-openapi.yml
   format: yaml
   label: Ledger Compliance API
   slug: ledger-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-compliance-api-openapi.yml
 - filename: ledger-crypto-currencies-api-openapi.yml
   format: yaml
   label: Ledger Crypto Currencies API
   slug: ledger-crypto-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-crypto-currencies-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-crypto-currencies-api-openapi.yml
 - filename: ledger-currencies-api-openapi.yml
   format: yaml
   label: Ledger Currencies API
   slug: ledger-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-currencies-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-currencies-api-openapi.yml
 - filename: ledger-delegates-api-openapi.yml
   format: yaml
   label: Ledger Delegates API
   slug: ledger-delegates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-delegates-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-delegates-api-openapi.yml
 - filename: ledger-digests-api-openapi.yml
   format: yaml
   label: Ledger Digests API
   slug: ledger-digests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-digests-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-digests-api-openapi.yml
 - filename: ledger-entities-api-openapi.yml
   format: yaml
   label: Ledger Entities API
   slug: ledger-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-entities-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-entities-api-openapi.yml
 - filename: ledger-ethereum-api-openapi.yml
   format: yaml
   label: Ledger Ethereum API
   slug: ledger-ethereum-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-ethereum-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-ethereum-api-openapi.yml
 - filename: ledger-groups-api-openapi.yml
   format: yaml
   label: Ledger Groups API
   slug: ledger-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-groups-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-groups-api-openapi.yml
 - filename: ledger-grow-api-openapi.yml
   format: yaml
   label: Ledger Grow API
   slug: ledger-grow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-grow-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-grow-api-openapi.yml
 - filename: ledger-labels-api-openapi.yml
   format: yaml
   label: Ledger Labels API
   slug: ledger-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-labels-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-labels-api-openapi.yml
 - filename: ledger-messages-api-openapi.yml
   format: yaml
   label: Ledger Messages API
   slug: ledger-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-messages-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-messages-api-openapi.yml
 - filename: ledger-modules-api-openapi.yml
   format: yaml
   label: Ledger Modules API
   slug: ledger-modules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-modules-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-modules-api-openapi.yml
 - filename: ledger-notifications-api-openapi.yml
   format: yaml
   label: Ledger Notifications API
   slug: ledger-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-notifications-api-openapi.yml
 - filename: ledger-organizations-api-openapi.yml
   format: yaml
   label: Ledger Organizations API
   slug: ledger-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-organizations-api-openapi.yml
 - filename: ledger-owners-api-openapi.yml
   format: yaml
   label: Ledger Owners API
   slug: ledger-owners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-owners-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-owners-api-openapi.yml
 - filename: ledger-pairs-api-openapi.yml
   format: yaml
   label: Ledger Pairs API
   slug: ledger-pairs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-pairs-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-pairs-api-openapi.yml
 - filename: ledger-pki-api-openapi.yml
   format: yaml
   label: Ledger PKI API
   slug: ledger-pki-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-pki-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-pki-api-openapi.yml
 - filename: ledger-pledges-api-openapi.yml
   format: yaml
   label: Ledger Pledges API
   slug: ledger-pledges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-pledges-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-pledges-api-openapi.yml
 - filename: ledger-quote-api-openapi.yml
   format: yaml
   label: Ledger Quote API
   slug: ledger-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-quote-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-quote-api-openapi.yml
 - filename: ledger-requests-api-openapi.yml
   format: yaml
   label: Ledger Requests API
   slug: ledger-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-requests-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-requests-api-openapi.yml
 - filename: ledger-safes-api-openapi.yml
   format: yaml
   label: Ledger Safes API
   slug: ledger-safes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-safes-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-safes-api-openapi.yml
 - filename: ledger-sell-api-openapi.yml
   format: yaml
   label: Ledger Sell API
   slug: ledger-sell-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-sell-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-sell-api-openapi.yml
 - filename: ledger-sell-redirect-api-openapi.yml
   format: yaml
   label: Ledger Sell Redirect API
   slug: ledger-sell-redirect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-sell-redirect-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-sell-redirect-api-openapi.yml
 - filename: ledger-settlements-api-openapi.yml
   format: yaml
   label: Ledger Settlements API
   slug: ledger-settlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-settlements-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-settlements-api-openapi.yml
 - filename: ledger-solana-api-openapi.yml
   format: yaml
   label: Ledger Solana API
   slug: ledger-solana-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-solana-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-solana-api-openapi.yml
 - filename: ledger-stakes-api-openapi.yml
   format: yaml
   label: Ledger Stakes API
   slug: ledger-stakes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-stakes-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-stakes-api-openapi.yml
 - filename: ledger-status-api-openapi.yml
   format: yaml
   label: Ledger Status API
   slug: ledger-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-status-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-status-api-openapi.yml
 - filename: ledger-swap-api-openapi.yml
   format: yaml
   label: Ledger Swap API
   slug: ledger-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-swap-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-swap-api-openapi.yml
 - filename: ledger-tezos-api-openapi.yml
   format: yaml
   label: Ledger Tezos API
   slug: ledger-tezos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-tezos-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-tezos-api-openapi.yml
 - filename: ledger-transaction-api-openapi.yml
   format: yaml
   label: Ledger Transaction API
   slug: ledger-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-transaction-api-openapi.yml
 - filename: ledger-transactions-api-openapi.yml
   format: yaml
   label: Ledger Transactions API
   slug: ledger-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-transactions-api-openapi.yml
 - filename: ledger-users-api-openapi.yml
   format: yaml
   label: Ledger Users API
   slug: ledger-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-users-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-users-api-openapi.yml
 - filename: ledger-webhook-api-openapi.yml
   format: yaml
   label: Ledger Webhook API
   slug: ledger-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-webhook-api-openapi.yml
 - filename: ledger-whitelists-api-openapi.yml
   format: yaml
   label: Ledger Whitelists API
   slug: ledger-whitelists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-whitelists-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-whitelists-api-openapi.yml
 - filename: ledger-tx-service-api-openapi.yml
   format: yaml
   label: Ledger Tx Service API
   slug: ledger-tx-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-tx-service-api-openapi.yml
+  url: https://artifacts.apis.io/ledger/openapi/ledger-tx-service-api-openapi.yml
 auth_types:
 - apiKey
 - http-bearer
@@ -318,7 +318,7 @@ source_yaml: "generated: '2026-08-25'\nmethod: searched\nsource: openapi/ledger-
   \    headers_not_in_spec:\n    - X-Ledger-Workspace\n    - X-Ledger-Reporting-API-Key\n    operator_provisioning: An API Operator is created by an Administrator in the web app (name + public\n      key), confirmed with a Personal Security Device, and must clear quorum acceptance before it is usable.\n      The API key ID and secret are then generated per user. Credentials cannot be self-served.\n    programmatic_approval: 'Approving a governance request as an API user is a local-signature flow, not\n      a shared-secret flow: getChallenge -> verify the decoded payload -> sign with the operator private\n      key (LEDGER_ENTERPRISE_API_PRIVATE_KEY, hex-encoded PEM) -> approve api with the resulting signature.\n      Ledger states the private key never leaves the local machine.'\n    dead_link_note: The authentication page links three times to https://ledger-enterprise-api-portal.redoc.ly/developer-portal/docs/...\n      — that Redocly portal returns 404 on every path as of 2026-08-25,\
   \ so the pages Ledger points readers\n      at for generating reporting API keys and understanding LAM no longer exist.\n  exchange_provider:\n    docs: https://developers.ledger.com/docs/ledger-live/exchange/swap\n    note: 'A per-provider x-api-key shared secret provisioned by Ledger. Additionally, each swap/sell\n      is secured with an application-layer signature independent of transport auth: the partner generates\n      a structured binary payload, signs it with its own private key, and shares the public key with Ledger\n      for verification. The Ledger device then clear-signs the payload.'\n    enumeration_guard: An unknown or unsupported provider is rejected with the same 401 as an invalid\n      key, so a caller cannot discover which providers exist.\n  multisig:\n    docs: https://help.multisig.ledger.com/guides/api-guides/1.-querying-safe-data\n    note: Read endpoints are fully anonymous — \"No private key or API key is needed for read-only queries.\"\n      Writes carry\
   \ Authorization with the literal prefix \"Token\". Authority to move funds is on-chain\n      (Safe owners and threshold), not in the API credential.\n  device:\n    note: The estate-wide authority model is not a bearer credential at all. Every fund-touching action\n      terminates in a physical confirmation on a Ledger device — a Personal Security Device for Ledger\n      Enterprise, a consumer signer for Ledger Wallet. An API credential can PROPOSE; only hardware can\n      APPROVE.\noauth2: false\noauth2_note: No OAuth 2.0 or OpenID Connect anywhere in the estate; scopes/ is therefore not applicable\n  and is intentionally absent.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/authentication/ledger-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ledger/authentication/ledger-authentication.yml
 summary_line: apiKey/http-bearer · 7 schemes
 tags:
 - Ledger

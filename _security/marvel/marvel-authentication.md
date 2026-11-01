@@ -8,37 +8,37 @@ api_specs:
   label: Marvel Characters API
   slug: marvel-characters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marvel/refs/heads/main/openapi/marvel-characters-api-openapi.yml
+  url: https://artifacts.apis.io/marvel/openapi/marvel-characters-api-openapi.yml
 - filename: marvel-comics-api-openapi.yml
   format: yaml
   label: Marvel Comics API
   slug: marvel-comics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marvel/refs/heads/main/openapi/marvel-comics-api-openapi.yml
+  url: https://artifacts.apis.io/marvel/openapi/marvel-comics-api-openapi.yml
 - filename: marvel-creators-api-openapi.yml
   format: yaml
   label: Marvel Creators API
   slug: marvel-creators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marvel/refs/heads/main/openapi/marvel-creators-api-openapi.yml
+  url: https://artifacts.apis.io/marvel/openapi/marvel-creators-api-openapi.yml
 - filename: marvel-events-api-openapi.yml
   format: yaml
   label: Marvel Events API
   slug: marvel-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marvel/refs/heads/main/openapi/marvel-events-api-openapi.yml
+  url: https://artifacts.apis.io/marvel/openapi/marvel-events-api-openapi.yml
 - filename: marvel-series-api-openapi.yml
   format: yaml
   label: Marvel Series API
   slug: marvel-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marvel/refs/heads/main/openapi/marvel-series-api-openapi.yml
+  url: https://artifacts.apis.io/marvel/openapi/marvel-series-api-openapi.yml
 - filename: marvel-stories-api-openapi.yml
   format: yaml
   label: Marvel Stories API
   slug: marvel-stories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marvel/refs/heads/main/openapi/marvel-stories-api-openapi.yml
+  url: https://artifacts.apis.io/marvel/openapi/marvel-stories-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -80,7 +80,7 @@ source_filename: marvel-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/marvel-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: query\n  parameter: apikey\n  description: Public API key issued from the Marvel Developer Portal.\n  sources:\n  - openapi/marvel-openapi.yml\n- name: timestampAuth\n  type: apiKey\n  in: query\n  parameter: ts\n  description: Timestamp (or other long string) used in the hash computation.\n  sources:\n  - openapi/marvel-openapi.yml\n- name: hashAuth\n  type: apiKey\n  in: query\n  parameter: hash\n  description: MD5 hash of ts + private key + public key.\n  sources:\n  - openapi/marvel-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/marvel/refs/heads/main/authentication/marvel-authentication.yml
+source_yaml_url: https://artifacts.apis.io/marvel/authentication/marvel-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - Characters

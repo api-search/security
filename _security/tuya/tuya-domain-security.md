@@ -5,31 +5,31 @@ api_specs:
   label: Tuya Device Control API
   slug: tuya-device-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tuya/refs/heads/main/openapi/tuya-device-control-api-openapi.yml
+  url: https://artifacts.apis.io/tuya/openapi/tuya-device-control-api-openapi.yml
 - filename: tuya-device-logs-api-openapi.yml
   format: yaml
   label: Tuya Device Logs API
   slug: tuya-device-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tuya/refs/heads/main/openapi/tuya-device-logs-api-openapi.yml
+  url: https://artifacts.apis.io/tuya/openapi/tuya-device-logs-api-openapi.yml
 - filename: tuya-device-users-api-openapi.yml
   format: yaml
   label: Tuya Device Users API
   slug: tuya-device-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tuya/refs/heads/main/openapi/tuya-device-users-api-openapi.yml
+  url: https://artifacts.apis.io/tuya/openapi/tuya-device-users-api-openapi.yml
 - filename: tuya-devices-api-openapi.yml
   format: yaml
   label: Tuya Devices API
   slug: tuya-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tuya/refs/heads/main/openapi/tuya-devices-api-openapi.yml
+  url: https://artifacts.apis.io/tuya/openapi/tuya-devices-api-openapi.yml
 - filename: tuya-sub-devices-api-openapi.yml
   format: yaml
   label: Tuya Sub Devices API
   slug: tuya-sub-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tuya/refs/heads/main/openapi/tuya-sub-devices-api-openapi.yml
+  url: https://artifacts.apis.io/tuya/openapi/tuya-sub-devices-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: tuya-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.tuya.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 07:52:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: iot.tuya.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 07:52:36 2026 GMT\n  hsts: null\n- host: openapi.tuyaus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 03:32:32 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: tuya.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: tuyaus.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tuya/refs/heads/main/security/tuya-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tuya/security/tuya-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - IoT

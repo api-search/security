@@ -5,37 +5,37 @@ api_specs:
   label: Kareo Administrative API
   slug: kareo-administrative-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kareo/refs/heads/main/openapi/kareo-administrative-api-openapi.yml
+  url: https://artifacts.apis.io/kareo/openapi/kareo-administrative-api-openapi.yml
 - filename: kareo-appointments-api-openapi.yml
   format: yaml
   label: Kareo Appointments API
   slug: kareo-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kareo/refs/heads/main/openapi/kareo-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/kareo/openapi/kareo-appointments-api-openapi.yml
 - filename: kareo-billing-api-openapi.yml
   format: yaml
   label: Kareo Billing API
   slug: kareo-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kareo/refs/heads/main/openapi/kareo-billing-api-openapi.yml
+  url: https://artifacts.apis.io/kareo/openapi/kareo-billing-api-openapi.yml
 - filename: kareo-encounters-api-openapi.yml
   format: yaml
   label: Kareo Encounters API
   slug: kareo-encounters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kareo/refs/heads/main/openapi/kareo-encounters-api-openapi.yml
+  url: https://artifacts.apis.io/kareo/openapi/kareo-encounters-api-openapi.yml
 - filename: kareo-patients-api-openapi.yml
   format: yaml
   label: Kareo Patients API
   slug: kareo-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kareo/refs/heads/main/openapi/kareo-patients-api-openapi.yml
+  url: https://artifacts.apis.io/kareo/openapi/kareo-patients-api-openapi.yml
 - filename: kareo-providers-api-openapi.yml
   format: yaml
   label: Kareo Providers API
   slug: kareo-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kareo/refs/heads/main/openapi/kareo-providers-api-openapi.yml
+  url: https://artifacts.apis.io/kareo/openapi/kareo-providers-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -94,7 +94,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.kareo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 21:28:50 2026 GMT\n  hsts: false\n- host: helpme.tebra.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: webservice.kareo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  9 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: kareo.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"ssl.com\"\n  - 0 iodef \"mailto:netops-team@kareo.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: tebra.com\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:netops-team@kareo.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n \
   \ - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kareo/refs/heads/main/security/kareo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kareo/security/kareo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Healthcare

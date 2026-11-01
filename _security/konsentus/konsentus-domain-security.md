@@ -5,7 +5,7 @@ api_specs:
   label: Konsentus PSP Checking Service API
   slug: konsentus-psp-checking-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konsentus/refs/heads/main/openapi/konsentus-psp-checking-service-api-openapi.yml
+  url: https://artifacts.apis.io/konsentus/openapi/konsentus-psp-checking-service-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: konsentus-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.konsentus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 20:25:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.konsentus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 23:59:59 2026 GMT\n  hsts: false\n- host: api.konsentus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: konsentus.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/konsentus/refs/heads/main/security/konsentus-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/konsentus/security/konsentus-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Open Banking

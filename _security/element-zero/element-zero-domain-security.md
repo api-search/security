@@ -27,7 +27,7 @@ source_filename: element-zero-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: elementzero.green\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 02:40:40 2026 GMT\n  hsts: false\ndomains:\n- domain: elementzero.green\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/element-zero/refs/heads/main/security/element-zero-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/element-zero/security/element-zero-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

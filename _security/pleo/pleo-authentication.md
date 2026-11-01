@@ -7,127 +7,127 @@ api_specs:
   label: Pleo Accounting Entries API
   slug: pleo-accounting-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-accounting-entries-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-accounting-entries-api-openapi.yml
 - filename: pleo-accounting-entries-external-api-openapi.yml
   format: yaml
   label: Pleo Accounting Entries External API
   slug: pleo-accounting-entries-external-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-accounting-entries-external-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-accounting-entries-external-api-openapi.yml
 - filename: pleo-accountingentryenrichmentv2-api-openapi.yml
   format: yaml
   label: Pleo AccountingEntryEnrichmentV2 API
   slug: pleo-accountingentryenrichmentv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-accountingentryenrichmentv2-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-accountingentryenrichmentv2-api-openapi.yml
 - filename: pleo-accounts-api-openapi.yml
   format: yaml
   label: Pleo Accounts API
   slug: pleo-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-accounts-api-openapi.yml
 - filename: pleo-companies-api-openapi.yml
   format: yaml
   label: Pleo Companies API
   slug: pleo-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-companies-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-companies-api-openapi.yml
 - filename: pleo-employees-api-openapi.yml
   format: yaml
   label: Pleo Employees API
   slug: pleo-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-employees-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-employees-api-openapi.yml
 - filename: pleo-export-api-v0-api-openapi.yml
   format: yaml
   label: Pleo Export API (v0) API
   slug: pleo-export-api-v0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-export-api-v0-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-export-api-v0-api-openapi.yml
 - filename: pleo-export-api-v1-api-openapi.yml
   format: yaml
   label: Pleo Export API (v1) API
   slug: pleo-export-api-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-export-api-v1-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-export-api-v1-api-openapi.yml
 - filename: pleo-export-api-v2-api-openapi.yml
   format: yaml
   label: Pleo Export API (v2) API
   slug: pleo-export-api-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-export-api-v2-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-export-api-v2-api-openapi.yml
 - filename: pleo-export-api-v3-api-openapi.yml
   format: yaml
   label: Pleo Export API (v3) API
   slug: pleo-export-api-v3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-export-api-v3-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-export-api-v3-api-openapi.yml
 - filename: pleo-export-items-v0-api-openapi.yml
   format: yaml
   label: Pleo Export Items (v0) API
   slug: pleo-export-items-v0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-export-items-v0-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-export-items-v0-api-openapi.yml
 - filename: pleo-export-items-v1-api-openapi.yml
   format: yaml
   label: Pleo Export Items (v1) API
   slug: pleo-export-items-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-export-items-v1-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-export-items-v1-api-openapi.yml
 - filename: pleo-export-items-v2-api-openapi.yml
   format: yaml
   label: Pleo Export Items (v2) API
   slug: pleo-export-items-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-export-items-v2-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-export-items-v2-api-openapi.yml
 - filename: pleo-export-items-v3-api-openapi.yml
   format: yaml
   label: Pleo Export Items (v3) API
   slug: pleo-export-items-v3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-export-items-v3-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-export-items-v3-api-openapi.yml
 - filename: pleo-external-clients-api-openapi.yml
   format: yaml
   label: Pleo External Clients API
   slug: pleo-external-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-external-clients-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-external-clients-api-openapi.yml
 - filename: pleo-external-vendors-api-openapi.yml
   format: yaml
   label: Pleo External Vendors API
   slug: pleo-external-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-external-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-external-vendors-api-openapi.yml
 - filename: pleo-installations-api-openapi.yml
   format: yaml
   label: Pleo Installations API
   slug: pleo-installations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-installations-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-installations-api-openapi.yml
 - filename: pleo-subscriptions-api-openapi.yml
   format: yaml
   label: Pleo Subscriptions API
   slug: pleo-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-subscriptions-api-openapi.yml
 - filename: pleo-tag-groups-api-openapi.yml
   format: yaml
   label: Pleo Tag Groups API
   slug: pleo-tag-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-tag-groups-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-tag-groups-api-openapi.yml
 - filename: pleo-tags-api-openapi.yml
   format: yaml
   label: Pleo Tags API
   slug: pleo-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-tags-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-tags-api-openapi.yml
 - filename: pleo-tax-codes-api-openapi.yml
   format: yaml
   label: Pleo Tax Codes API
   slug: pleo-tax-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-tax-codes-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-tax-codes-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -179,7 +179,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pleo-app-marketplace-openapi.yml, openapi/pleo-bookkeeping-core-openapi.yml,\n  openapi/pleo-chart-of-accounts-openapi.yml, openapi/pleo-export-openapi.yml, openapi/pleo-gjoll-openapi.yml,\n  openapi/pleo-oberon-openapi.yml, openapi/pleo-tags-openapi.yml, openapi/pleo-tax-code-openapi.yml,\n  openapi/pleo-triton-openapi.yml, openapi/pleo-vendors-openapi.yml, openapi/pleo-webhook-subscriptions-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: 'JWT Bearer token authentication. Include the token in the Authorization header\n    as: `Bearer <token>`'\n  sources:\n  - openapi/pleo-app-marketplace-openapi.yml\n  - openapi/pleo-bookkeeping-core-openapi.yml\n  - openapi/pleo-chart-of-accounts-openapi.yml\n  - openapi/pleo-export-openapi.yml\n  - openapi/pleo-gjoll-openapi.yml\n  - openapi/pleo-oberon-openapi.yml\n  - openapi/pleo-tags-openapi.yml\n\
   \  - openapi/pleo-tax-code-openapi.yml\n  - openapi/pleo-triton-openapi.yml\n  - openapi/pleo-vendors-openapi.yml\n  - openapi/pleo-webhook-subscriptions-openapi.yml\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: Basic HTTP authentication using API key. Use your API key as the username and\n    leave the password empty. The credentials will be Base64 encoded automatically.\n  sources:\n  - openapi/pleo-app-marketplace-openapi.yml\n  - openapi/pleo-chart-of-accounts-openapi.yml\n  - openapi/pleo-export-openapi.yml\n  - openapi/pleo-gjoll-openapi.yml\n  - openapi/pleo-oberon-openapi.yml\n  - openapi/pleo-triton-openapi.yml\n  - openapi/pleo-vendors-openapi.yml\n  - openapi/pleo-webhook-subscriptions-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/authentication/pleo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pleo/authentication/pleo-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Expense Management

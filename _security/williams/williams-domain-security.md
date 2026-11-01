@@ -32,7 +32,7 @@ source_filename: williams-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.williams.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 03:18:56 2026 GMT\n  hsts: false\n- host: www.1line.williams.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 17:54:43 2026 GMT\n  hsts: false\ndomains:\n- domain: williams.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/williams/refs/heads/main/security/williams-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/williams/security/williams-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Energy

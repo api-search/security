@@ -5,55 +5,55 @@ api_specs:
   label: Restate Cluster Health API
   slug: restate-cluster-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-cluster-health-api-openapi.yml
+  url: https://artifacts.apis.io/restate/openapi/restate-cluster-health-api-openapi.yml
 - filename: restate-deployment-api-openapi.yml
   format: yaml
   label: Restate Deployment API
   slug: restate-deployment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-deployment-api-openapi.yml
+  url: https://artifacts.apis.io/restate/openapi/restate-deployment-api-openapi.yml
 - filename: restate-health-api-openapi.yml
   format: yaml
   label: Restate Health API
   slug: restate-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-health-api-openapi.yml
+  url: https://artifacts.apis.io/restate/openapi/restate-health-api-openapi.yml
 - filename: restate-invocation-api-openapi.yml
   format: yaml
   label: Restate Invocation API
   slug: restate-invocation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-invocation-api-openapi.yml
+  url: https://artifacts.apis.io/restate/openapi/restate-invocation-api-openapi.yml
 - filename: restate-service-api-openapi.yml
   format: yaml
   label: Restate Service API
   slug: restate-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-service-api-openapi.yml
+  url: https://artifacts.apis.io/restate/openapi/restate-service-api-openapi.yml
 - filename: restate-service-handler-api-openapi.yml
   format: yaml
   label: Restate Service Handler API
   slug: restate-service-handler-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-service-handler-api-openapi.yml
+  url: https://artifacts.apis.io/restate/openapi/restate-service-handler-api-openapi.yml
 - filename: restate-subscription-api-openapi.yml
   format: yaml
   label: Restate Subscription API
   slug: restate-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/restate/openapi/restate-subscription-api-openapi.yml
 - filename: restate-version-api-openapi.yml
   format: yaml
   label: Restate Version API
   slug: restate-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-version-api-openapi.yml
+  url: https://artifacts.apis.io/restate/openapi/restate-version-api-openapi.yml
 - filename: restate-open-api-api-openapi.yml
   format: yaml
   label: Restate Open API
   slug: restate-open-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-open-api-api-openapi.yml
+  url: https://artifacts.apis.io/restate/openapi/restate-open-api-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2
@@ -70,7 +70,7 @@ source_filename: restate-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.restate.dev/\nurl: https://trust.restate.dev/\ncertifications:\n- SOC 2\nevidence:\n- source: https://trust.restate.dev/\n  keywords:\n  - soc 2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/security/restate-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/restate/security/restate-trust-center.yml
 summary_line: SOC 2
 tags:
 - Durable Execution

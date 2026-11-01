@@ -7,13 +7,13 @@ api_specs:
   label: Prior Labs Prediction API
   slug: priorlabs-prediction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/priorlabs/refs/heads/main/openapi/priorlabs-prediction-api-openapi.yml
+  url: https://artifacts.apis.io/priorlabs/openapi/priorlabs-prediction-api-openapi.yml
 - filename: priorlabs-training-api-openapi.yml
   format: yaml
   label: Prior Labs Training API
   slug: priorlabs-training-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/priorlabs/refs/heads/main/openapi/priorlabs-training-api-openapi.yml
+  url: https://artifacts.apis.io/priorlabs/openapi/priorlabs-training-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -41,7 +41,7 @@ source_filename: priorlabs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/priorlabs-openapi-original.json\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Bearer token for authentication, obtained after signing up and generating an\n    API key.\n  sources:\n  - openapi/priorlabs-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/priorlabs/refs/heads/main/authentication/priorlabs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/priorlabs/authentication/priorlabs-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

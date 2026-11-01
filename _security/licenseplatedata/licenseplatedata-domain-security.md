@@ -5,19 +5,19 @@ api_specs:
   label: LicensePlateData Images API
   slug: licenseplatedata-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/licenseplatedata/refs/heads/main/openapi/licenseplatedata-images-api-openapi.yml
+  url: https://artifacts.apis.io/licenseplatedata/openapi/licenseplatedata-images-api-openapi.yml
 - filename: licenseplatedata-plate-api-openapi.yml
   format: yaml
   label: LicensePlateData Plate API
   slug: licenseplatedata-plate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/licenseplatedata/refs/heads/main/openapi/licenseplatedata-plate-api-openapi.yml
+  url: https://artifacts.apis.io/licenseplatedata/openapi/licenseplatedata-plate-api-openapi.yml
 - filename: licenseplatedata-vin-api-openapi.yml
   format: yaml
   label: LicensePlateData VIN API
   slug: licenseplatedata-vin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/licenseplatedata/refs/heads/main/openapi/licenseplatedata-vin-api-openapi.yml
+  url: https://artifacts.apis.io/licenseplatedata/openapi/licenseplatedata-vin-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: licenseplatedata-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: licenseplatedata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 17:18:29 2026 GMT\n  hsts: false\n- host: api.licenseplatedata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 17:18:29 2026 GMT\n  hsts: null\ndomains:\n- domain: licenseplatedata.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/licenseplatedata/refs/heads/main/security/licenseplatedata-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/licenseplatedata/security/licenseplatedata-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Vehicles

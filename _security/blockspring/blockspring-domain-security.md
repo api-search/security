@@ -26,7 +26,7 @@ source_filename: blockspring-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: blockspring.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 21:36:55 2026 GMT\n  hsts: false\ndomains:\n- domain: blockspring.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blockspring/refs/heads/main/security/blockspring-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/blockspring/security/blockspring-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

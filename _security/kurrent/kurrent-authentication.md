@@ -7,49 +7,49 @@ api_specs:
   label: Kurrent Admin API
   slug: kurrent-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-admin-api-openapi.yml
+  url: https://artifacts.apis.io/kurrent/openapi/kurrent-admin-api-openapi.yml
 - filename: kurrent-gossip-api-openapi.yml
   format: yaml
   label: Kurrent Gossip API
   slug: kurrent-gossip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-gossip-api-openapi.yml
+  url: https://artifacts.apis.io/kurrent/openapi/kurrent-gossip-api-openapi.yml
 - filename: kurrent-info-api-openapi.yml
   format: yaml
   label: Kurrent Info API
   slug: kurrent-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-info-api-openapi.yml
+  url: https://artifacts.apis.io/kurrent/openapi/kurrent-info-api-openapi.yml
 - filename: kurrent-projections-api-openapi.yml
   format: yaml
   label: Kurrent Projections API
   slug: kurrent-projections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-projections-api-openapi.yml
+  url: https://artifacts.apis.io/kurrent/openapi/kurrent-projections-api-openapi.yml
 - filename: kurrent-statistics-api-openapi.yml
   format: yaml
   label: Kurrent Statistics API
   slug: kurrent-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/kurrent/openapi/kurrent-statistics-api-openapi.yml
 - filename: kurrent-streams-api-openapi.yml
   format: yaml
   label: Kurrent Streams API
   slug: kurrent-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-streams-api-openapi.yml
+  url: https://artifacts.apis.io/kurrent/openapi/kurrent-streams-api-openapi.yml
 - filename: kurrent-subscriptions-api-openapi.yml
   format: yaml
   label: Kurrent Subscriptions API
   slug: kurrent-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/kurrent/openapi/kurrent-subscriptions-api-openapi.yml
 - filename: kurrent-users-api-openapi.yml
   format: yaml
   label: Kurrent Users API
   slug: kurrent-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-users-api-openapi.yml
+  url: https://artifacts.apis.io/kurrent/openapi/kurrent-users-api-openapi.yml
 auth_types:
 - http
 - mutualTLS
@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/kurrent
   \ supports HTTP Basic authentication for the HTTP API. Credentials are supplied per\n    request; the default administrative user is created at first start. Authorization is enforced\n    by access control lists set on stream metadata ($acl with $r/$w/$d/$mr/$mw entries) and by the\n    default ACL on the $settings stream.\n  docs: https://docs.kurrent.io/server/v26.1/http-api/security.html\n  sources:\n  - openapi/kurrent-kurrentdb-http-api-openapi.yml\n- name: clientCertificate\n  type: mutualTLS\n  surface: KurrentDB server (commercial editions)\n  description: >-\n    X.509 client-certificate authentication, introduced with EventStoreDB 24.2, lets clients and\n    nodes authenticate with certificates instead of a username and password.\n  docs: https://docs.kurrent.io/server/v26.1/security/\n  sources:\n  - https://www.kurrent.io/releases\n- name: KurrentCloudOIDC\n  type: openIdConnect\n  surface: Kurrent Cloud console and control plane\n  issuer: https://identity.eventstore.com/\n\
   \  openIdConnectUrl: https://identity.eventstore.com/.well-known/openid-configuration\n  description: >-\n    Kurrent Cloud authenticates users and machine clients through its OpenID Connect provider,\n    which supports the authorization code flow with PKCE, client credentials, the device\n    authorization grant, refresh tokens and multi-factor challenges.\n  scopes: scopes/kurrent-scopes.yml\n  sources:\n  - well-known/kurrent-openid-configuration.json\n  - well-known/kurrent-oauth-authorization-server.json\nauthorization:\n  model: access-control-lists\n  description: >-\n    Per-stream ACLs are written into stream metadata; a default ACL applies from the $settings\n    stream. KurrentDB 24.10 added policy-based authorization as a commercial feature for\n    expressing access rules centrally rather than per stream.\n  docs: https://docs.kurrent.io/server/v26.1/http-api/security.html\nsdk_authentication:\n  description: >-\n    Client SDKs carry credentials in the connection string\
   \ (for example\n    kurrentdb://user:password@host:2113) or per call. Each SDK has a dedicated authentication page\n    in the client documentation.\n  docs: https://docs.kurrent.io/clients/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/authentication/kurrent-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kurrent/authentication/kurrent-authentication.yml
 summary_line: http/mutualTLS/openIdConnect · 3 schemes
 tags:
 - Company

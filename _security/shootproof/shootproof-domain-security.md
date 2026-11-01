@@ -5,43 +5,43 @@ api_specs:
   label: ShootProof Clients API
   slug: shootproof-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-clients-api-openapi.yml
+  url: https://artifacts.apis.io/shootproof/openapi/shootproof-clients-api-openapi.yml
 - filename: shootproof-contracts-api-openapi.yml
   format: yaml
   label: ShootProof Contracts API
   slug: shootproof-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/shootproof/openapi/shootproof-contracts-api-openapi.yml
 - filename: shootproof-events-galleries-api-openapi.yml
   format: yaml
   label: ShootProof Events & Galleries API
   slug: shootproof-events-galleries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-events-galleries-api-openapi.yml
+  url: https://artifacts.apis.io/shootproof/openapi/shootproof-events-galleries-api-openapi.yml
 - filename: shootproof-orders-api-openapi.yml
   format: yaml
   label: ShootProof Orders API
   slug: shootproof-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shootproof/openapi/shootproof-orders-api-openapi.yml
 - filename: shootproof-photos-api-openapi.yml
   format: yaml
   label: ShootProof Photos API
   slug: shootproof-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-photos-api-openapi.yml
+  url: https://artifacts.apis.io/shootproof/openapi/shootproof-photos-api-openapi.yml
 - filename: shootproof-service-description-api-openapi.yml
   format: yaml
   label: ShootProof Service Description API
   slug: shootproof-service-description-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-service-description-api-openapi.yml
+  url: https://artifacts.apis.io/shootproof/openapi/shootproof-service-description-api-openapi.yml
 - filename: shootproof-studios-api-openapi.yml
   format: yaml
   label: ShootProof Studios API
   slug: shootproof-studios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-studios-api-openapi.yml
+  url: https://artifacts.apis.io/shootproof/openapi/shootproof-studios-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -80,7 +80,7 @@ source_filename: shootproof-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.shootproof.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 10:46:49 2026 GMT\n  hsts: false\n- host: developer.shootproof.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 23:59:59 2026 GMT\n  hsts: false\n- host: api.shootproof.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: shootproof.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/security/shootproof-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/shootproof/security/shootproof-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Photography

@@ -40,7 +40,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: axenahealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 06:49:52 2026 GMT\n  hsts: false\n- host: levacares.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 22:55:19 2026 GMT\n  hsts: false\ndomains:\n- domain: axenahealth.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: levacares.com\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: v=spf1 include:us._netblocks.mimecast.com include:_spf.salesforce.com\n    include:spf.protection.outlook.com -all\n  dmarc: true\n  dmarc_policy: reject\nx-note: >-\n  levacares.com was probed by hand because provider_hosts() only walks Website /\n  Portal pointers and API hosts; it is carried in apis.yml as ProductWebsite. It\n  is the host that serves the MCP endpoints and the OAuth discovery documents,\n  so its posture matters more\
   \ than the corporate site's. Neither host sets HSTS\n  and neither registrable domain is DNSSEC-signed or publishes a CAA record;\n  both publish SPF and a DMARC policy of p=reject.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/axena-health/refs/heads/main/security/axena-health-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/axena-health/security/axena-health-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

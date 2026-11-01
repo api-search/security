@@ -5,61 +5,61 @@ api_specs:
   label: Slope Auth API
   slug: slope-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/openapi/slope-auth-api-openapi.yml
+  url: https://artifacts.apis.io/slope/openapi/slope-auth-api-openapi.yml
 - filename: slope-customers-api-openapi.yml
   format: yaml
   label: Slope Customers API
   slug: slope-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/openapi/slope-customers-api-openapi.yml
+  url: https://artifacts.apis.io/slope/openapi/slope-customers-api-openapi.yml
 - filename: slope-files-api-openapi.yml
   format: yaml
   label: Slope Files API
   slug: slope-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/openapi/slope-files-api-openapi.yml
+  url: https://artifacts.apis.io/slope/openapi/slope-files-api-openapi.yml
 - filename: slope-orders-api-openapi.yml
   format: yaml
   label: Slope Orders API
   slug: slope-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/openapi/slope-orders-api-openapi.yml
+  url: https://artifacts.apis.io/slope/openapi/slope-orders-api-openapi.yml
 - filename: slope-payout-accounts-api-openapi.yml
   format: yaml
   label: Slope Payout Accounts API
   slug: slope-payout-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/openapi/slope-payout-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/slope/openapi/slope-payout-accounts-api-openapi.yml
 - filename: slope-persons-api-openapi.yml
   format: yaml
   label: Slope Persons API
   slug: slope-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/openapi/slope-persons-api-openapi.yml
+  url: https://artifacts.apis.io/slope/openapi/slope-persons-api-openapi.yml
 - filename: slope-prescreens-api-openapi.yml
   format: yaml
   label: Slope Prescreens API
   slug: slope-prescreens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/openapi/slope-prescreens-api-openapi.yml
+  url: https://artifacts.apis.io/slope/openapi/slope-prescreens-api-openapi.yml
 - filename: slope-simulation-api-openapi.yml
   format: yaml
   label: Slope Simulation API
   slug: slope-simulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/openapi/slope-simulation-api-openapi.yml
+  url: https://artifacts.apis.io/slope/openapi/slope-simulation-api-openapi.yml
 - filename: slope-transactions-api-openapi.yml
   format: yaml
   label: Slope Transactions API
   slug: slope-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/openapi/slope-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/slope/openapi/slope-transactions-api-openapi.yml
 - filename: slope-user-links-api-openapi.yml
   format: yaml
   label: Slope User Links API
   slug: slope-user-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/openapi/slope-user-links-api-openapi.yml
+  url: https://artifacts.apis.io/slope/openapi/slope-user-links-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -99,7 +99,7 @@ source_filename: slope-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.slopepay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 12:58:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.slopepay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 23:59:59 2026 GMT\n  hsts: null\n- host: api.sandbox.slopepay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: slopepay.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/security/slope-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/slope/security/slope-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -5,25 +5,25 @@ api_specs:
   label: Pelias Autocomplete API
   slug: pelias-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pelias/refs/heads/main/openapi/pelias-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/pelias/openapi/pelias-autocomplete-api-openapi.yml
 - filename: pelias-forward-geocoding-api-openapi.yml
   format: yaml
   label: Pelias Forward Geocoding API
   slug: pelias-forward-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pelias/refs/heads/main/openapi/pelias-forward-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/pelias/openapi/pelias-forward-geocoding-api-openapi.yml
 - filename: pelias-place-lookup-api-openapi.yml
   format: yaml
   label: Pelias Place Lookup API
   slug: pelias-place-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pelias/refs/heads/main/openapi/pelias-place-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/pelias/openapi/pelias-place-lookup-api-openapi.yml
 - filename: pelias-reverse-geocoding-api-openapi.yml
   format: yaml
   label: Pelias Reverse Geocoding API
   slug: pelias-reverse-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pelias/refs/heads/main/openapi/pelias-reverse-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/pelias/openapi/pelias-reverse-geocoding-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: pelias-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pelias.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 20 23:59:59 2026 GMT\n  hsts: false\n- host: api.geocode.earth\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  7 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: pelias.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n- domain: geocode.earth\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pelias/refs/heads/main/security/pelias-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pelias/security/pelias-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Geocoding

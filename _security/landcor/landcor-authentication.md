@@ -7,31 +7,31 @@ api_specs:
   label: Landcor Data AVM Summary API
   slug: landcor-avm-summary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/openapi/landcor-avm-summary-api-openapi.yml
+  url: https://artifacts.apis.io/landcor/openapi/landcor-avm-summary-api-openapi.yml
 - filename: landcor-comparables-api-openapi.yml
   format: yaml
   label: Landcor Data Comparables API
   slug: landcor-comparables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/openapi/landcor-comparables-api-openapi.yml
+  url: https://artifacts.apis.io/landcor/openapi/landcor-comparables-api-openapi.yml
 - filename: landcor-health-api-openapi.yml
   format: yaml
   label: Landcor Data Health API
   slug: landcor-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/openapi/landcor-health-api-openapi.yml
+  url: https://artifacts.apis.io/landcor/openapi/landcor-health-api-openapi.yml
 - filename: landcor-property-api-openapi.yml
   format: yaml
   label: Landcor Data Property API
   slug: landcor-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/openapi/landcor-property-api-openapi.yml
+  url: https://artifacts.apis.io/landcor/openapi/landcor-property-api-openapi.yml
 - filename: landcor-valuation-api-openapi.yml
   format: yaml
   label: Landcor Data Valuation API
   slug: landcor-valuation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/openapi/landcor-valuation-api-openapi.yml
+  url: https://artifacts.apis.io/landcor/openapi/landcor-valuation-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: derived\nsource: openapi/landcor-
   \ for Landcor. The contract is anonymously readable — the OpenAPI,\n    Swagger UI and ReDoc all return HTTP 200 without credentials — but the token is not\n    obtainable through any published route. No developer portal, no API programme page, no key\n    request form, no partner page, no data-licensing page, no API pricing and no API terms exist\n    on landcor.com, and the marketing site never references api.landcor.com. The self-serve\n    account at https://store.landcor.com/user/user_add.aspx buys individual reports through the\n    web store; it is not an API credential. Access requires a direct commercial arrangement\n    (1-866-LANDCOR, https://www.landcor.com/contact/).\n  binding_terms: https://www.landcor.com/acceptable-use/\nevidence:\n- probe: GET https://api.landcor.com/property/search\n  date: '2026-07-26'\n  status: 401\n  body: '{\"detail\":\"Missing token\"}'\n  headers_observed: [Content-Length, Content-Type, Date, 'Server: uvicorn']\n  note: No WWW-Authenticate challenge\
   \ header was returned, which RFC 6750 expects on a 401 from a bearer-protected resource.\n- probe: GET https://api.landcor.com/address/autocomplete?q=main\n  date: '2026-07-26'\n  status: 401\n  body: '{\"detail\":\"Missing token\"}'\n- probe: GET https://api.landcor.com/valuationRange/123456789\n  date: '2026-07-26'\n  status: 401\n  body: '{\"detail\":\"Missing token\"}'\n- probe: GET https://api.landcor.com/health\n  date: '2026-07-26'\n  status: 200\n  body: '{\"status\":\"ok\"}'\n  note: The single operation callable anonymously.\n- probe: GET https://api.landcor.com/.well-known/oauth-authorization-server\n  date: '2026-07-26'\n  status: 404\n  note: >-\n    Also 404 for /.well-known/oauth-protected-resource and /.well-known/openid-configuration —\n    the bearer token is opaque and out-of-band, with no discoverable issuer. See\n    well-known/landcor-well-known.yml.\ntoken_properties:\n  format: unpublished\n  expiry: unpublished\n  refresh: unpublished\n  scopes: none\n  scopes_detail:\
   \ >-\n    No OAuth scheme and no scope surface, so scopes/ is intentionally absent — a single bearer\n    token carries whatever entitlement the commercial agreement grants, with nothing expressed in\n    the contract.\ncross_references:\n  conventions: conventions/landcor-conventions.yml\n  errors: errors/landcor-problem-types.yml\n  conformance: conformance/landcor-conformance.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/authentication/landcor-authentication.yml
+source_yaml_url: https://artifacts.apis.io/landcor/authentication/landcor-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Real Estate

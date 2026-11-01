@@ -5,25 +5,25 @@ api_specs:
   label: National Library of Medicine Discovery API
   slug: national-library-of-medicine-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-library-of-medicine/refs/heads/main/openapi/national-library-of-medicine-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/national-library-of-medicine/openapi/national-library-of-medicine-discovery-api-openapi.yml
 - filename: national-library-of-medicine-history-api-openapi.yml
   format: yaml
   label: National Library of Medicine History API
   slug: national-library-of-medicine-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-library-of-medicine/refs/heads/main/openapi/national-library-of-medicine-history-api-openapi.yml
+  url: https://artifacts.apis.io/national-library-of-medicine/openapi/national-library-of-medicine-history-api-openapi.yml
 - filename: national-library-of-medicine-retrieve-api-openapi.yml
   format: yaml
   label: National Library of Medicine Retrieve API
   slug: national-library-of-medicine-retrieve-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-library-of-medicine/refs/heads/main/openapi/national-library-of-medicine-retrieve-api-openapi.yml
+  url: https://artifacts.apis.io/national-library-of-medicine/openapi/national-library-of-medicine-retrieve-api-openapi.yml
 - filename: national-library-of-medicine-search-api-openapi.yml
   format: yaml
   label: National Library of Medicine Search API
   slug: national-library-of-medicine-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-library-of-medicine/refs/heads/main/openapi/national-library-of-medicine-search-api-openapi.yml
+  url: https://artifacts.apis.io/national-library-of-medicine/openapi/national-library-of-medicine-search-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -70,7 +70,7 @@ source_filename: national-library-of-medicine-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nlm.nih.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  4 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.ncbi.nlm.nih.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 14:06:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: eutils.ncbi.nlm.nih.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 14:06:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: nih.gov\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"entrust.net\"\n  - 0 issue \"godaddy.com\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-library-of-medicine/refs/heads/main/security/national-library-of-medicine-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/national-library-of-medicine/security/national-library-of-medicine-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Federal Government

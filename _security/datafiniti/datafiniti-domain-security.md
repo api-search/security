@@ -5,31 +5,31 @@ api_specs:
   label: Datafiniti Authentication API
   slug: datafiniti-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/openapi/datafiniti-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/datafiniti/openapi/datafiniti-authentication-api-openapi.yml
 - filename: datafiniti-businesses-api-openapi.yml
   format: yaml
   label: Datafiniti Businesses API
   slug: datafiniti-businesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/openapi/datafiniti-businesses-api-openapi.yml
+  url: https://artifacts.apis.io/datafiniti/openapi/datafiniti-businesses-api-openapi.yml
 - filename: datafiniti-people-api-openapi.yml
   format: yaml
   label: Datafiniti People API
   slug: datafiniti-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/openapi/datafiniti-people-api-openapi.yml
+  url: https://artifacts.apis.io/datafiniti/openapi/datafiniti-people-api-openapi.yml
 - filename: datafiniti-products-api-openapi.yml
   format: yaml
   label: Datafiniti Products API
   slug: datafiniti-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/openapi/datafiniti-products-api-openapi.yml
+  url: https://artifacts.apis.io/datafiniti/openapi/datafiniti-products-api-openapi.yml
 - filename: datafiniti-properties-api-openapi.yml
   format: yaml
   label: Datafiniti Properties API
   slug: datafiniti-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/openapi/datafiniti-properties-api-openapi.yml
+  url: https://artifacts.apis.io/datafiniti/openapi/datafiniti-properties-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: datafiniti-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.datafiniti.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 07:01:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.datafiniti.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 07:32:00 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.datafiniti.co\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  1 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: datafiniti.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/security/datafiniti-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/datafiniti/security/datafiniti-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Business Data

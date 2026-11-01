@@ -8,19 +8,19 @@ api_specs:
   label: Odoo Common API
   slug: odoo-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/odoo/refs/heads/main/openapi/odoo-common-api-openapi.yml
+  url: https://artifacts.apis.io/odoo/openapi/odoo-common-api-openapi.yml
 - filename: odoo-json-rpc-api-openapi.yml
   format: yaml
   label: Odoo JSON-RPC API
   slug: odoo-json-rpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/odoo/refs/heads/main/openapi/odoo-json-rpc-api-openapi.yml
+  url: https://artifacts.apis.io/odoo/openapi/odoo-json-rpc-api-openapi.yml
 - filename: odoo-object-api-openapi.yml
   format: yaml
   label: Odoo Object API
   slug: odoo-object-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/odoo/refs/heads/main/openapi/odoo-object-api-openapi.yml
+  url: https://artifacts.apis.io/odoo/openapi/odoo-object-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -52,7 +52,7 @@ source_filename: odoo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/odoo-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: OdooApiKey\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: |-\n    Odoo 14+ supports per-user API keys generated under user preferences\n    Account Security. These can be substituted for the password parameter\n    in `authenticate` and `execute_kw` calls.\n  sources:\n  - openapi/odoo-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/odoo/refs/heads/main/authentication/odoo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/odoo/authentication/odoo-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Business Applications

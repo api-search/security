@@ -14,55 +14,55 @@ api_specs:
   label: Groove Agents API
   slug: groove-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-agents-api-openapi.yml
+  url: https://artifacts.apis.io/groove/openapi/groove-agents-api-openapi.yml
 - filename: groove-attachments-api-openapi.yml
   format: yaml
   label: Groove Attachments API
   slug: groove-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/groove/openapi/groove-attachments-api-openapi.yml
 - filename: groove-customers-api-openapi.yml
   format: yaml
   label: Groove Customers API
   slug: groove-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-customers-api-openapi.yml
+  url: https://artifacts.apis.io/groove/openapi/groove-customers-api-openapi.yml
 - filename: groove-folders-api-openapi.yml
   format: yaml
   label: Groove Folders API
   slug: groove-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-folders-api-openapi.yml
+  url: https://artifacts.apis.io/groove/openapi/groove-folders-api-openapi.yml
 - filename: groove-groups-api-openapi.yml
   format: yaml
   label: Groove Groups API
   slug: groove-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-groups-api-openapi.yml
+  url: https://artifacts.apis.io/groove/openapi/groove-groups-api-openapi.yml
 - filename: groove-mailboxes-api-openapi.yml
   format: yaml
   label: Groove Mailboxes API
   slug: groove-mailboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-mailboxes-api-openapi.yml
+  url: https://artifacts.apis.io/groove/openapi/groove-mailboxes-api-openapi.yml
 - filename: groove-messages-api-openapi.yml
   format: yaml
   label: Groove Messages API
   slug: groove-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-messages-api-openapi.yml
+  url: https://artifacts.apis.io/groove/openapi/groove-messages-api-openapi.yml
 - filename: groove-tickets-api-openapi.yml
   format: yaml
   label: Groove Tickets API
   slug: groove-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/groove/openapi/groove-tickets-api-openapi.yml
 - filename: groove-webhooks-api-openapi.yml
   format: yaml
   label: Groove Webhooks API
   slug: groove-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/groove/openapi/groove-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -97,7 +97,7 @@ source_filename: groove-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/groove-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - query\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth 2.0 / personal access token via Authorization header.\n  sources:\n  - openapi/groove-openapi.yml\n- name: accessTokenQuery\n  type: apiKey\n  in: query\n  parameter: access_token\n  description: Access token passed as a URL query parameter.\n  sources:\n  - openapi/groove-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/authentication/groove-authentication.yml
+source_yaml_url: https://artifacts.apis.io/groove/authentication/groove-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Customer Service

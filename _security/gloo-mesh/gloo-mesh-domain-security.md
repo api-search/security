@@ -38,7 +38,7 @@ source_filename: gloo-mesh-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.solo.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 07:07:34 2026 GMT\n  hsts: false\n- host: docs.solo.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 15:32:53 2026 GMT\n  hsts: false\ndomains:\n- domain: solo.io\n  dnssec: false\n  caa:\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gloo-mesh/refs/heads/main/security/gloo-mesh-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gloo-mesh/security/gloo-mesh-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Istio

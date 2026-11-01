@@ -7,49 +7,49 @@ api_specs:
   label: Pismo Accounts API
   slug: pismo-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-accounts-api-openapi.yml
 - filename: pismo-authorizations-api-openapi.yml
   format: yaml
   label: Pismo Authorizations API
   slug: pismo-authorizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-authorizations-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-authorizations-api-openapi.yml
 - filename: pismo-cards-api-openapi.yml
   format: yaml
   label: Pismo Cards API
   slug: pismo-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-cards-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-cards-api-openapi.yml
 - filename: pismo-customers-api-openapi.yml
   format: yaml
   label: Pismo Customers API
   slug: pismo-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-customers-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-customers-api-openapi.yml
 - filename: pismo-events-api-openapi.yml
   format: yaml
   label: Pismo Events API
   slug: pismo-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-events-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-events-api-openapi.yml
 - filename: pismo-programs-api-openapi.yml
   format: yaml
   label: Pismo Programs API
   slug: pismo-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-programs-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-programs-api-openapi.yml
 - filename: pismo-statements-api-openapi.yml
   format: yaml
   label: Pismo Statements API
   slug: pismo-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-statements-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-statements-api-openapi.yml
 - filename: pismo-transactions-api-openapi.yml
   format: yaml
   label: Pismo Transactions API
   slug: pismo-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-transactions-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -87,7 +87,7 @@ source_filename: pismo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pismo-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: 'OAuth2 client-credentials access token obtained from POST /passport/v2/oauth/token.\n    Pass as `Authorization: Bearer <token>`. Account-scoped endpoints require an account-specific\n    token encoded with a Pismo account ID.'\n  sources:\n  - openapi/pismo-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.pismo.io/passport/v2/oauth/token\n    scopes: 0\n  sources:\n  - openapi/pismo-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/authentication/pismo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pismo/authentication/pismo-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Banking

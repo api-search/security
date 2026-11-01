@@ -8,13 +8,13 @@ api_specs:
   label: KEDA Metrics API
   slug: keda-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keda/refs/heads/main/openapi/keda-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/keda/openapi/keda-metrics-api-openapi.yml
 - filename: keda-cloud-events-asyncapi.yml
   format: yaml
   label: KEDA CloudEventSource API
   slug: keda-cloud-event-source-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keda/refs/heads/main/asyncapi/keda-cloud-events-asyncapi.yml
+  url: https://artifacts.apis.io/keda/asyncapi/keda-cloud-events-asyncapi.yml
 auth_types:
 - apiKey
 - http
@@ -55,7 +55,7 @@ source_filename: keda-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/keda-metrics-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token authentication for secured metrics endpoints.\n  sources:\n  - openapi/keda-metrics-api-openapi.yml\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: Basic authentication for secured metrics endpoints.\n  sources:\n  - openapi/keda-metrics-api-openapi.yml\n- name: apiKeyHeader\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: API key authentication via header for secured metrics endpoints.\n  sources:\n  - openapi/keda-metrics-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keda/refs/heads/main/authentication/keda-authentication.yml
+source_yaml_url: https://artifacts.apis.io/keda/authentication/keda-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Auto-Scaling

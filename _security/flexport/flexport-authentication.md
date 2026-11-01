@@ -7,55 +7,55 @@ api_specs:
   label: Flexport Bookings API
   slug: flexport-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/flexport/openapi/flexport-bookings-api-openapi.yml
 - filename: flexport-customs-api-openapi.yml
   format: yaml
   label: Flexport Customs API
   slug: flexport-customs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-customs-api-openapi.yml
+  url: https://artifacts.apis.io/flexport/openapi/flexport-customs-api-openapi.yml
 - filename: flexport-documents-api-openapi.yml
   format: yaml
   label: Flexport Documents API
   slug: flexport-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-documents-api-openapi.yml
+  url: https://artifacts.apis.io/flexport/openapi/flexport-documents-api-openapi.yml
 - filename: flexport-invoices-api-openapi.yml
   format: yaml
   label: Flexport Invoices API
   slug: flexport-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/flexport/openapi/flexport-invoices-api-openapi.yml
 - filename: flexport-network-api-openapi.yml
   format: yaml
   label: Flexport Network API
   slug: flexport-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-network-api-openapi.yml
+  url: https://artifacts.apis.io/flexport/openapi/flexport-network-api-openapi.yml
 - filename: flexport-products-api-openapi.yml
   format: yaml
   label: Flexport Products API
   slug: flexport-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-products-api-openapi.yml
+  url: https://artifacts.apis.io/flexport/openapi/flexport-products-api-openapi.yml
 - filename: flexport-shipments-api-openapi.yml
   format: yaml
   label: Flexport Shipments API
   slug: flexport-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/flexport/openapi/flexport-shipments-api-openapi.yml
 - filename: flexport-webhooks-api-openapi.yml
   format: yaml
   label: Flexport Webhooks API
   slug: flexport-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/flexport/openapi/flexport-webhooks-api-openapi.yml
 - filename: flexport-purchase-orders-api-openapi.yml
   format: yaml
   label: Flexport Purchase Orders API
   slug: flexport-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/flexport/openapi/flexport-purchase-orders-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -93,7 +93,7 @@ source_filename: flexport-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/flexport-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.flexport.com/oauth/token\n    scopes: 0\n  description: OAuth 2.0 client credentials issued from the Flexport admin console\n  sources:\n  - openapi/flexport-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/flexport-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/authentication/flexport-authentication.yml
+source_yaml_url: https://artifacts.apis.io/flexport/authentication/flexport-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Logistics

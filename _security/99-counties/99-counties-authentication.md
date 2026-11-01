@@ -1,6 +1,13 @@
 ---
 anonymous_access: false
 api_key_in: []
+api_specs:
+- filename: 99-counties-openapi-generated.yml
+  format: yaml
+  label: 99 Counties API
+  slug: 99-counties-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/99-counties/openapi/_ae-authored/99-counties-openapi-generated.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -50,7 +57,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://99counties.com/.well-known/openid-configuration\nsummary:\n  types:\n  - oauth2\n  - openIdConnect\n  oauth2_flows:\n  - authorizationCode\n  platform: Shopify Customer Account (OIDC)\nschemes:\n- name: ShopifyCustomerAccountOIDC\n  type: openIdConnect\n  issuer: https://shopify.com/authentication/35071754378\n  authorization_endpoint: https://account.wallacefarms.com/authentication/oauth/authorize\n  token_endpoint: https://account.wallacefarms.com/authentication/oauth/token\n  end_session_endpoint: https://account.wallacefarms.com/authentication/logout\n  jwks_uri: https://account.wallacefarms.com/authentication/.well-known/jwks.json\n  response_types_supported:\n  - code\n  grant_types_supported:\n  - authorization_code\n  - refresh_token\n  - 'urn:ietf:params:oauth:grant-type:jwt-bearer'\n  code_challenge_methods_supported:\n  - S256\n  token_endpoint_auth_methods_supported:\n  - client_secret_basic\n  id_token_signing_alg_values_supported:\n\
   \  - RS256\n  scopes_supported:\n  - openid\n  - email\n  - customer-account-api:full\n  - customer-account-mcp-api:full\n  sources:\n  - well-known/99-counties-openid-configuration.json\nnotes: >-\n  Storefront browsing and UCP catalog reads are unauthenticated. Authenticated\n  customer-account access (orders, membership, and the customer-account MCP API)\n  uses Shopify Customer Account OAuth 2.0 / OIDC with PKCE (S256). Agent checkout\n  is gated on buyer approval rather than an agent-held credential.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/99-counties/refs/heads/main/authentication/99-counties-authentication.yml
+source_yaml_url: https://artifacts.apis.io/99-counties/authentication/99-counties-authentication.yml
 summary_line: oauth2/openIdConnect · 1 scheme
 tags:
 - Company

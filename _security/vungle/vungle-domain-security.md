@@ -43,7 +43,7 @@ source_filename: vungle-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: vungle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 11:56:32 2026 GMT\n  hsts: false\n- host: docs.liftoff.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 02:36:02 2026 GMT\n  hsts: false\n- host: data.liftoff.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 02:36:02 2026 GMT\n  hsts: null\ndomains:\n- domain: vungle.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: liftoff.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vungle/refs/heads/main/security/vungle-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vungle/security/vungle-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

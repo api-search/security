@@ -5,43 +5,43 @@ api_specs:
   label: Avenue Bank Banking Account Balances API
   slug: avenue-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/openapi/avenue-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/avenue-bank/openapi/avenue-bank-banking-account-balances-api-openapi.yml
 - filename: avenue-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Avenue Bank Banking Account Direct Debits API
   slug: avenue-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/openapi/avenue-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/avenue-bank/openapi/avenue-bank-banking-account-direct-debits-api-openapi.yml
 - filename: avenue-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Avenue Bank Banking Account Scheduled Payments API
   slug: avenue-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/openapi/avenue-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/avenue-bank/openapi/avenue-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: avenue-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Avenue Bank Banking Account Transactions API
   slug: avenue-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/openapi/avenue-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/avenue-bank/openapi/avenue-bank-banking-account-transactions-api-openapi.yml
 - filename: avenue-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Avenue Bank Banking Accounts API
   slug: avenue-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/openapi/avenue-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/avenue-bank/openapi/avenue-bank-banking-accounts-api-openapi.yml
 - filename: avenue-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Avenue Bank Banking Payees API
   slug: avenue-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/openapi/avenue-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/avenue-bank/openapi/avenue-bank-banking-payees-api-openapi.yml
 - filename: avenue-bank-banking-products-api-openapi.yml
   format: yaml
   label: Avenue Bank Banking Products API
   slug: avenue-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/openapi/avenue-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/avenue-bank/openapi/avenue-bank-banking-products-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: avenue-bank-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.avenuebank.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.avenuebank.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 28 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: avenuebank.com.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/security/avenue-bank-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/avenue-bank/security/avenue-bank-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Finance

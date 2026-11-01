@@ -34,12 +34,12 @@ source_filename: arbetsformedlingen-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: arbetsformedlingen.se\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 17 07:06:32 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: arbetsformedlingen.se\n  dnssec: true\n  caa:\n  - 2 iodef \"mailto:soc@arbetsformedlingen.se\"\n  - 1 issue \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"telia.com\"\n  - 1 iodef \"mailto:soc@arbetsformedlingen.se\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arbetsformedlingen/refs/heads/main/security/arbetsformedlingen-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/arbetsformedlingen/security/arbetsformedlingen-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Employment
 - Government
 - Sweden
-- JobSearch
+- Job Search
 ---

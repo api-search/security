@@ -7,55 +7,55 @@ api_specs:
   label: OpusClip Brand Templates API
   slug: opusclip-brand-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-brand-templates-api-openapi.yml
+  url: https://artifacts.apis.io/opusclip/openapi/opusclip-brand-templates-api-openapi.yml
 - filename: opusclip-censor-jobs-api-openapi.yml
   format: yaml
   label: OpusClip Censor Jobs API
   slug: opusclip-censor-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-censor-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/opusclip/openapi/opusclip-censor-jobs-api-openapi.yml
 - filename: opusclip-clip-project-api-openapi.yml
   format: yaml
   label: OpusClip Clip Project API
   slug: opusclip-clip-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-clip-project-api-openapi.yml
+  url: https://artifacts.apis.io/opusclip/openapi/opusclip-clip-project-api-openapi.yml
 - filename: opusclip-collection-api-openapi.yml
   format: yaml
   label: OpusClip Collection API
   slug: opusclip-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-collection-api-openapi.yml
+  url: https://artifacts.apis.io/opusclip/openapi/opusclip-collection-api-openapi.yml
 - filename: opusclip-collection-content-api-openapi.yml
   format: yaml
   label: OpusClip Collection Content API
   slug: opusclip-collection-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-collection-content-api-openapi.yml
+  url: https://artifacts.apis.io/opusclip/openapi/opusclip-collection-content-api-openapi.yml
 - filename: opusclip-exportableclip-api-openapi.yml
   format: yaml
   label: OpusClip ExportableClip API
   slug: opusclip-exportableclip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-exportableclip-api-openapi.yml
+  url: https://artifacts.apis.io/opusclip/openapi/opusclip-exportableclip-api-openapi.yml
 - filename: opusclip-generative-jobs-api-openapi.yml
   format: yaml
   label: OpusClip Generative Jobs API
   slug: opusclip-generative-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-generative-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/opusclip/openapi/opusclip-generative-jobs-api-openapi.yml
 - filename: opusclip-social-posting-api-openapi.yml
   format: yaml
   label: OpusClip Social Posting API
   slug: opusclip-social-posting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-social-posting-api-openapi.yml
+  url: https://artifacts.apis.io/opusclip/openapi/opusclip-social-posting-api-openapi.yml
 - filename: opusclip-transcripts-api-openapi.yml
   format: yaml
   label: OpusClip Transcripts API
   slug: opusclip-transcripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-transcripts-api-openapi.yml
+  url: https://artifacts.apis.io/opusclip/openapi/opusclip-transcripts-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -82,7 +82,7 @@ source_filename: opusclip-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/opusclip-openapi-original.json\ndocs: https://help.opus.pro/api-reference/overview\nsummary:\n  types:\n  - http\n  scheme: HTTP Bearer token; the API key is a JWT-format value passed as a Bearer token\n  header: 'Authorization: Bearer <API_KEY>'\n  org_header: 'x-opus-org-id: <ORG_ID> (required on some endpoints)'\n  key_source: OpusClip dashboard (https://clip.opus.pro/dashboard); Enterprise/Pro(Beta)/Max plans\nschemes:\n- name: bearer\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/opusclip-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/authentication/opusclip-authentication.yml
+source_yaml_url: https://artifacts.apis.io/opusclip/authentication/opusclip-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

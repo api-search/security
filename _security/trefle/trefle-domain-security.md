@@ -5,61 +5,61 @@ api_specs:
   label: Trefle Distributions API
   slug: trefle-distributions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/openapi/trefle-distributions-api-openapi.yml
+  url: https://artifacts.apis.io/trefle/openapi/trefle-distributions-api-openapi.yml
 - filename: trefle-division-classes-api-openapi.yml
   format: yaml
   label: Trefle Division Classes API
   slug: trefle-division-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/openapi/trefle-division-classes-api-openapi.yml
+  url: https://artifacts.apis.io/trefle/openapi/trefle-division-classes-api-openapi.yml
 - filename: trefle-division-orders-api-openapi.yml
   format: yaml
   label: Trefle Division Orders API
   slug: trefle-division-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/openapi/trefle-division-orders-api-openapi.yml
+  url: https://artifacts.apis.io/trefle/openapi/trefle-division-orders-api-openapi.yml
 - filename: trefle-divisions-api-openapi.yml
   format: yaml
   label: Trefle Divisions API
   slug: trefle-divisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/openapi/trefle-divisions-api-openapi.yml
+  url: https://artifacts.apis.io/trefle/openapi/trefle-divisions-api-openapi.yml
 - filename: trefle-families-api-openapi.yml
   format: yaml
   label: Trefle Families API
   slug: trefle-families-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/openapi/trefle-families-api-openapi.yml
+  url: https://artifacts.apis.io/trefle/openapi/trefle-families-api-openapi.yml
 - filename: trefle-genus-api-openapi.yml
   format: yaml
   label: Trefle Genus API
   slug: trefle-genus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/openapi/trefle-genus-api-openapi.yml
+  url: https://artifacts.apis.io/trefle/openapi/trefle-genus-api-openapi.yml
 - filename: trefle-kingdoms-api-openapi.yml
   format: yaml
   label: Trefle Kingdoms API
   slug: trefle-kingdoms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/openapi/trefle-kingdoms-api-openapi.yml
+  url: https://artifacts.apis.io/trefle/openapi/trefle-kingdoms-api-openapi.yml
 - filename: trefle-plants-api-openapi.yml
   format: yaml
   label: Trefle Plants API
   slug: trefle-plants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/openapi/trefle-plants-api-openapi.yml
+  url: https://artifacts.apis.io/trefle/openapi/trefle-plants-api-openapi.yml
 - filename: trefle-species-api-openapi.yml
   format: yaml
   label: Trefle Species API
   slug: trefle-species-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/openapi/trefle-species-api-openapi.yml
+  url: https://artifacts.apis.io/trefle/openapi/trefle-species-api-openapi.yml
 - filename: trefle-subkingdoms-api-openapi.yml
   format: yaml
   label: Trefle Subkingdoms API
   slug: trefle-subkingdoms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/openapi/trefle-subkingdoms-api-openapi.yml
+  url: https://artifacts.apis.io/trefle/openapi/trefle-subkingdoms-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ source_filename: trefle-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: trefle.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 10 22:36:09 2026 GMT\n  hsts: false\ndomains:\n- domain: trefle.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/security/trefle-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trefle/security/trefle-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Agriculture

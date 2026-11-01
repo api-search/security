@@ -7,13 +7,13 @@ api_specs:
   label: GoTo Group (Gojek + Tokopedia) Tokenization API
   slug: goto-gojek-tokenization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goto-gojek/refs/heads/main/openapi/goto-gojek-tokenization-api-openapi.yml
+  url: https://artifacts.apis.io/goto-gojek/openapi/goto-gojek-tokenization-api-openapi.yml
 - filename: goto-gojek-transactions-api-openapi.yml
   format: yaml
   label: GoTo Group (Gojek + Tokopedia) Transactions API
   slug: goto-gojek-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goto-gojek/refs/heads/main/openapi/goto-gojek-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/goto-gojek/openapi/goto-gojek-transactions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: goto-gojek-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/goto-gojek-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: Server Key as username, empty password\n  sources:\n  - openapi/goto-gojek-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goto-gojek/refs/heads/main/authentication/goto-gojek-authentication.yml
+source_yaml_url: https://artifacts.apis.io/goto-gojek/authentication/goto-gojek-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Super App

@@ -5,31 +5,31 @@ api_specs:
   label: SoundStat Genres API
   slug: soundstat-genres-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstat/refs/heads/main/openapi/soundstat-genres-api-openapi.yml
+  url: https://artifacts.apis.io/soundstat/openapi/soundstat-genres-api-openapi.yml
 - filename: soundstat-recommendations-api-openapi.yml
   format: yaml
   label: SoundStat Recommendations API
   slug: soundstat-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstat/refs/heads/main/openapi/soundstat-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/soundstat/openapi/soundstat-recommendations-api-openapi.yml
 - filename: soundstat-stats-api-openapi.yml
   format: yaml
   label: SoundStat Stats API
   slug: soundstat-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstat/refs/heads/main/openapi/soundstat-stats-api-openapi.yml
+  url: https://artifacts.apis.io/soundstat/openapi/soundstat-stats-api-openapi.yml
 - filename: soundstat-track-api-openapi.yml
   format: yaml
   label: SoundStat Track API
   slug: soundstat-track-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstat/refs/heads/main/openapi/soundstat-track-api-openapi.yml
+  url: https://artifacts.apis.io/soundstat/openapi/soundstat-track-api-openapi.yml
 - filename: soundstat-tracks-api-openapi.yml
   format: yaml
   label: SoundStat Tracks API
   slug: soundstat-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstat/refs/heads/main/openapi/soundstat-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/soundstat/openapi/soundstat-tracks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -59,7 +59,7 @@ source_filename: soundstat-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: soundstat.info\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  9 03:21:55 2026 GMT\n  hsts: false\ndomains:\n- domain: soundstat.info\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/soundstat/refs/heads/main/security/soundstat-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/soundstat/security/soundstat-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Music

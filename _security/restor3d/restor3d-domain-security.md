@@ -27,7 +27,7 @@ source_filename: restor3d-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.restor3d.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  5 05:24:23 2026 GMT\n  hsts: false\ndomains:\n- domain: restor3d.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/restor3d/refs/heads/main/security/restor3d-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/restor3d/security/restor3d-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Medical Devices

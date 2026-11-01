@@ -7,19 +7,19 @@ api_specs:
   label: Google Cloud Dataproc Clusters API
   slug: google-cloud-dataproc-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataproc/refs/heads/main/openapi/google-cloud-dataproc-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dataproc/openapi/google-cloud-dataproc-clusters-api-openapi.yml
 - filename: google-cloud-dataproc-jobs-api-openapi.yml
   format: yaml
   label: Google Cloud Dataproc Jobs API
   slug: google-cloud-dataproc-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataproc/refs/heads/main/openapi/google-cloud-dataproc-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dataproc/openapi/google-cloud-dataproc-jobs-api-openapi.yml
 - filename: google-cloud-dataproc-workflow-templates-api-openapi.yml
   format: yaml
   label: Google Cloud Dataproc Workflow Templates API
   slug: google-cloud-dataproc-workflow-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataproc/refs/heads/main/openapi/google-cloud-dataproc-workflow-templates-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dataproc/openapi/google-cloud-dataproc-workflow-templates-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -50,7 +50,7 @@ source_filename: google-cloud-dataproc-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cloud-dataproc-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 1\n  sources:\n  - openapi/cloud-dataproc-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataproc/refs/heads/main/authentication/google-cloud-dataproc-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-dataproc/authentication/google-cloud-dataproc-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Big Data

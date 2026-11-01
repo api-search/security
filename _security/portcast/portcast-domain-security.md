@@ -5,31 +5,31 @@ api_specs:
   label: Portcast Augmentation API
   slug: portcast-augmentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portcast/refs/heads/main/openapi/portcast-augmentation-api-openapi.yml
+  url: https://artifacts.apis.io/portcast/openapi/portcast-augmentation-api-openapi.yml
 - filename: portcast-container-detail-api-openapi.yml
   format: yaml
   label: Portcast Container Detail API
   slug: portcast-container-detail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portcast/refs/heads/main/openapi/portcast-container-detail-api-openapi.yml
+  url: https://artifacts.apis.io/portcast/openapi/portcast-container-detail-api-openapi.yml
 - filename: portcast-reference-api-openapi.yml
   format: yaml
   label: Portcast Reference API
   slug: portcast-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portcast/refs/heads/main/openapi/portcast-reference-api-openapi.yml
+  url: https://artifacts.apis.io/portcast/openapi/portcast-reference-api-openapi.yml
 - filename: portcast-tracking-data-api-openapi.yml
   format: yaml
   label: Portcast Tracking Data API
   slug: portcast-tracking-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portcast/refs/heads/main/openapi/portcast-tracking-data-api-openapi.yml
+  url: https://artifacts.apis.io/portcast/openapi/portcast-tracking-data-api-openapi.yml
 - filename: portcast-tracking-upload-api-openapi.yml
   format: yaml
   label: Portcast Tracking Upload API
   slug: portcast-tracking-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portcast/refs/heads/main/openapi/portcast-tracking-upload-api-openapi.yml
+  url: https://artifacts.apis.io/portcast/openapi/portcast-tracking-upload-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: portcast-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.portcast.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 02:32:53 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: portcast.stoplight.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 22:17:08 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.portcast.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 18:12:33 2026 GMT\n  hsts: null\ndomains:\n- domain: portcast.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: stoplight.io\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:devops@stoplight.io\"\n  - 0 issue \"cloudflare.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/portcast/refs/heads/main/security/portcast-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/portcast/security/portcast-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Supply Chain

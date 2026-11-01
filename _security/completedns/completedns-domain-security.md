@@ -5,13 +5,13 @@ api_specs:
   label: CompleteDNS DNS History API
   slug: completedns-dns-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/completedns/refs/heads/main/openapi/completedns-dns-history-api-openapi.yml
+  url: https://artifacts.apis.io/completedns/openapi/completedns-dns-history-api-openapi.yml
 - filename: completedns-ns-history-api-openapi.yml
   format: yaml
   label: CompleteDNS NS History API
   slug: completedns-ns-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/completedns/refs/heads/main/openapi/completedns-ns-history-api-openapi.yml
+  url: https://artifacts.apis.io/completedns/openapi/completedns-ns-history-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: completedns-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: completedns.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 15:28:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.completedns.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 15:28:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: completedns.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/completedns/refs/heads/main/security/completedns-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/completedns/security/completedns-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - DNS

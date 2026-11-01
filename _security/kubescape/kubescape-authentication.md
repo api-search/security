@@ -7,37 +7,37 @@ api_specs:
   label: Kubescape Access Keys API
   slug: kubescape-access-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/openapi/kubescape-access-keys-api-openapi.yml
+  url: https://artifacts.apis.io/kubescape/openapi/kubescape-access-keys-api-openapi.yml
 - filename: kubescape-network-policies-api-openapi.yml
   format: yaml
   label: Kubescape Network Policies API
   slug: kubescape-network-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/openapi/kubescape-network-policies-api-openapi.yml
+  url: https://artifacts.apis.io/kubescape/openapi/kubescape-network-policies-api-openapi.yml
 - filename: kubescape-posture-compliance-api-openapi.yml
   format: yaml
   label: Kubescape Posture & Compliance API
   slug: kubescape-posture-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/openapi/kubescape-posture-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/kubescape/openapi/kubescape-posture-compliance-api-openapi.yml
 - filename: kubescape-registry-repository-api-openapi.yml
   format: yaml
   label: Kubescape Registry & Repository API
   slug: kubescape-registry-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/openapi/kubescape-registry-repository-api-openapi.yml
+  url: https://artifacts.apis.io/kubescape/openapi/kubescape-registry-repository-api-openapi.yml
 - filename: kubescape-runtime-security-api-openapi.yml
   format: yaml
   label: Kubescape Runtime Security API
   slug: kubescape-runtime-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/openapi/kubescape-runtime-security-api-openapi.yml
+  url: https://artifacts.apis.io/kubescape/openapi/kubescape-runtime-security-api-openapi.yml
 - filename: kubescape-vulnerabilities-api-openapi.yml
   format: yaml
   label: Kubescape Vulnerabilities API
   slug: kubescape-vulnerabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/openapi/kubescape-vulnerabilities-api-openapi.yml
+  url: https://artifacts.apis.io/kubescape/openapi/kubescape-vulnerabilities-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: kubescape-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/kubescape-openapi.yml\nsummary:\n  types:\n  - apiKey\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  keyName: X-API-KEY\n  description: >-\n    ARMO Platform Customer API requests are authenticated with an Agent Access\n    Key generated in ARMO Platform under Settings > Agent Access Keys, sent in\n    the `X-API-KEY` request header. OAuth2 / OpenID Connect login is used for\n    interactive console sessions. The open-source Kubescape CLI authenticates to\n    ARMO for result submission with an account/access key via\n    `kubescape scan --server api.armosec.io`; the in-cluster Operator component\n    APIs are reachable inside the cluster and are not exposed publicly.\n  sources:\n  - https://hub.armosec.io/docs/authentication\n  - openapi/kubescape-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/authentication/kubescape-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kubescape/authentication/kubescape-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Kubernetes Security

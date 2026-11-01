@@ -5,25 +5,25 @@ api_specs:
   label: Global Payments Disputes API
   slug: global-payments-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/openapi/global-payments-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/global-payments/openapi/global-payments-disputes-api-openapi.yml
 - filename: global-payments-payment-methods-api-openapi.yml
   format: yaml
   label: Global Payments Payment Methods API
   slug: global-payments-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/openapi/global-payments-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/global-payments/openapi/global-payments-payment-methods-api-openapi.yml
 - filename: global-payments-settlements-api-openapi.yml
   format: yaml
   label: Global Payments Settlements API
   slug: global-payments-settlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/openapi/global-payments-settlements-api-openapi.yml
+  url: https://artifacts.apis.io/global-payments/openapi/global-payments-settlements-api-openapi.yml
 - filename: global-payments-transactions-api-openapi.yml
   format: yaml
   label: Global Payments Transactions API
   slug: global-payments-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/openapi/global-payments-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/global-payments/openapi/global-payments-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: global-payments-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.globalpayments.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: www.globalpayments.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 06:46:13 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apis.globalpay.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 10 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: globalpayments.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: globalpay.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/security/global-payments-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/global-payments/security/global-payments-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - E-Commerce

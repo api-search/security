@@ -5,25 +5,25 @@ api_specs:
   label: CoinPaprika Coins API
   slug: coinpaprika-coins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinpaprika/refs/heads/main/openapi/coinpaprika-coins-api-openapi.yml
+  url: https://artifacts.apis.io/coinpaprika/openapi/coinpaprika-coins-api-openapi.yml
 - filename: coinpaprika-global-api-openapi.yml
   format: yaml
   label: CoinPaprika Global API
   slug: coinpaprika-global-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinpaprika/refs/heads/main/openapi/coinpaprika-global-api-openapi.yml
+  url: https://artifacts.apis.io/coinpaprika/openapi/coinpaprika-global-api-openapi.yml
 - filename: coinpaprika-search-api-openapi.yml
   format: yaml
   label: CoinPaprika Search API
   slug: coinpaprika-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinpaprika/refs/heads/main/openapi/coinpaprika-search-api-openapi.yml
+  url: https://artifacts.apis.io/coinpaprika/openapi/coinpaprika-search-api-openapi.yml
 - filename: coinpaprika-ticker-api-openapi.yml
   format: yaml
   label: CoinPaprika Ticker API
   slug: coinpaprika-ticker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinpaprika/refs/heads/main/openapi/coinpaprika-ticker-api-openapi.yml
+  url: https://artifacts.apis.io/coinpaprika/openapi/coinpaprika-ticker-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: coinpaprika-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: coinpaprika.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 10:57:04 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.coinpaprika.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 08:47:49 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.coinpaprika.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 13:01:20 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: coinpaprika.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coinpaprika/refs/heads/main/security/coinpaprika-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/coinpaprika/security/coinpaprika-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Cryptocurrency

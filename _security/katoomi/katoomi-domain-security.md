@@ -27,12 +27,12 @@ source_filename: katoomi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: katoomi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 22 07:41:05 2026 GMT\n  hsts: false\ndomains:\n- domain: katoomi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/katoomi/refs/heads/main/security/katoomi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/katoomi/security/katoomi-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Integration
 - NetSuite
-- SaaS
-- eCommerce
+- Software-as-a-Service
+- E-Commerce
 ---

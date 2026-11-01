@@ -8,67 +8,67 @@ api_specs:
   label: JupyterHub Activity API
   slug: jupyterhub-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/openapi/jupyterhub-activity-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterhub/openapi/jupyterhub-activity-api-openapi.yml
 - filename: jupyterhub-admin-api-openapi.yml
   format: yaml
   label: JupyterHub Admin API
   slug: jupyterhub-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/openapi/jupyterhub-admin-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterhub/openapi/jupyterhub-admin-api-openapi.yml
 - filename: jupyterhub-authorizations-api-openapi.yml
   format: yaml
   label: JupyterHub Authorizations API
   slug: jupyterhub-authorizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/openapi/jupyterhub-authorizations-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterhub/openapi/jupyterhub-authorizations-api-openapi.yml
 - filename: jupyterhub-general-api-openapi.yml
   format: yaml
   label: JupyterHub General API
   slug: jupyterhub-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/openapi/jupyterhub-general-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterhub/openapi/jupyterhub-general-api-openapi.yml
 - filename: jupyterhub-groups-api-openapi.yml
   format: yaml
   label: JupyterHub Groups API
   slug: jupyterhub-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/openapi/jupyterhub-groups-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterhub/openapi/jupyterhub-groups-api-openapi.yml
 - filename: jupyterhub-proxy-api-openapi.yml
   format: yaml
   label: JupyterHub Proxy API
   slug: jupyterhub-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/openapi/jupyterhub-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterhub/openapi/jupyterhub-proxy-api-openapi.yml
 - filename: jupyterhub-servers-api-openapi.yml
   format: yaml
   label: JupyterHub Servers API
   slug: jupyterhub-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/openapi/jupyterhub-servers-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterhub/openapi/jupyterhub-servers-api-openapi.yml
 - filename: jupyterhub-services-api-openapi.yml
   format: yaml
   label: JupyterHub Services API
   slug: jupyterhub-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/openapi/jupyterhub-services-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterhub/openapi/jupyterhub-services-api-openapi.yml
 - filename: jupyterhub-tokens-api-openapi.yml
   format: yaml
   label: JupyterHub Tokens API
   slug: jupyterhub-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/openapi/jupyterhub-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterhub/openapi/jupyterhub-tokens-api-openapi.yml
 - filename: jupyterhub-users-api-openapi.yml
   format: yaml
   label: JupyterHub Users API
   slug: jupyterhub-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/openapi/jupyterhub-users-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterhub/openapi/jupyterhub-users-api-openapi.yml
 - filename: jupyterhub-oauth2-api-openapi.yml
   format: yaml
   label: JupyterHub O Auth2 API
   slug: jupyterhub-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/openapi/jupyterhub-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterhub/openapi/jupyterhub-oauth2-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -107,7 +107,7 @@ source_filename: jupyterhub-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/jupyterhub-rest-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: token\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Token-based authentication. Use the form: Authorization: token <token>'\n  sources:\n  - openapi/jupyterhub-rest-api-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: /hub/api/oauth2/authorize\n    tokenUrl: /hub/api/oauth2/token\n    scopes: 9\n  sources:\n  - openapi/jupyterhub-rest-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/authentication/jupyterhub-authentication.yml
+source_yaml_url: https://artifacts.apis.io/jupyterhub/authentication/jupyterhub-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Authentication

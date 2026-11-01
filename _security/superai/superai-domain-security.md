@@ -5,115 +5,115 @@ api_specs:
   label: Super.ai Auth API
   slug: superai-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/openapi/superai-auth-api-openapi.yml
+  url: https://artifacts.apis.io/superai/openapi/superai-auth-api-openapi.yml
 - filename: superai-files-api-openapi.yml
   format: yaml
   label: Super.ai Files API
   slug: superai-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/openapi/superai-files-api-openapi.yml
+  url: https://artifacts.apis.io/superai/openapi/superai-files-api-openapi.yml
 - filename: superai-flow-executions-api-openapi.yml
   format: yaml
   label: Super.ai Flow Executions API
   slug: superai-flow-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/openapi/superai-flow-executions-api-openapi.yml
+  url: https://artifacts.apis.io/superai/openapi/superai-flow-executions-api-openapi.yml
 - filename: superai-flows-api-openapi.yml
   format: yaml
   label: Super.ai Flows API
   slug: superai-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/openapi/superai-flows-api-openapi.yml
+  url: https://artifacts.apis.io/superai/openapi/superai-flows-api-openapi.yml
 - filename: superai-human-review-tasks-api-openapi.yml
   format: yaml
   label: Super.ai Human Review Tasks API
   slug: superai-human-review-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/openapi/superai-human-review-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/superai/openapi/superai-human-review-tasks-api-openapi.yml
 - filename: superai-integrations-api-openapi.yml
   format: yaml
   label: Super.ai Integrations API
   slug: superai-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/openapi/superai-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/superai/openapi/superai-integrations-api-openapi.yml
 - filename: superai-models-api-openapi.yml
   format: yaml
   label: Super.ai Models API
   slug: superai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/openapi/superai-models-api-openapi.yml
+  url: https://artifacts.apis.io/superai/openapi/superai-models-api-openapi.yml
 - filename: superai-organizations-api-openapi.yml
   format: yaml
   label: Super.ai Organizations API
   slug: superai-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/openapi/superai-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/superai/openapi/superai-organizations-api-openapi.yml
 - filename: superai-plugins-api-openapi.yml
   format: yaml
   label: Super.ai Plugins API
   slug: superai-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/openapi/superai-plugins-api-openapi.yml
+  url: https://artifacts.apis.io/superai/openapi/superai-plugins-api-openapi.yml
 - filename: superai-profile-api-openapi.yml
   format: yaml
   label: Super.ai Profile API
   slug: superai-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/openapi/superai-profile-api-openapi.yml
+  url: https://artifacts.apis.io/superai/openapi/superai-profile-api-openapi.yml
 - filename: superai-service-accounts-api-openapi.yml
   format: yaml
   label: Super.ai Service Accounts API
   slug: superai-service-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/openapi/superai-service-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/superai/openapi/superai-service-accounts-api-openapi.yml
 - filename: superai-sso-api-openapi.yml
   format: yaml
   label: Super.ai SSO API
   slug: superai-sso-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/openapi/superai-sso-api-openapi.yml
+  url: https://artifacts.apis.io/superai/openapi/superai-sso-api-openapi.yml
 - filename: superai-task-data-api-openapi.yml
   format: yaml
   label: Super.ai Task Data API
   slug: superai-task-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/openapi/superai-task-data-api-openapi.yml
+  url: https://artifacts.apis.io/superai/openapi/superai-task-data-api-openapi.yml
 - filename: superai-task-executions-api-openapi.yml
   format: yaml
   label: Super.ai Task Executions API
   slug: superai-task-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/openapi/superai-task-executions-api-openapi.yml
+  url: https://artifacts.apis.io/superai/openapi/superai-task-executions-api-openapi.yml
 - filename: superai-task-executors-api-openapi.yml
   format: yaml
   label: Super.ai Task Executors API
   slug: superai-task-executors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/openapi/superai-task-executors-api-openapi.yml
+  url: https://artifacts.apis.io/superai/openapi/superai-task-executors-api-openapi.yml
 - filename: superai-task-outputs-api-openapi.yml
   format: yaml
   label: Super.ai Task Outputs API
   slug: superai-task-outputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/openapi/superai-task-outputs-api-openapi.yml
+  url: https://artifacts.apis.io/superai/openapi/superai-task-outputs-api-openapi.yml
 - filename: superai-task-tags-api-openapi.yml
   format: yaml
   label: Super.ai Task Tags API
   slug: superai-task-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/openapi/superai-task-tags-api-openapi.yml
+  url: https://artifacts.apis.io/superai/openapi/superai-task-tags-api-openapi.yml
 - filename: superai-webhook-data-api-openapi.yml
   format: yaml
   label: Super.ai Webhook Data API
   slug: superai-webhook-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/openapi/superai-webhook-data-api-openapi.yml
+  url: https://artifacts.apis.io/superai/openapi/superai-webhook-data-api-openapi.yml
 - filename: superai-worker-groups-api-openapi.yml
   format: yaml
   label: Super.ai Worker Groups API
   slug: superai-worker-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/openapi/superai-worker-groups-api-openapi.yml
+  url: https://artifacts.apis.io/superai/openapi/superai-worker-groups-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -154,7 +154,7 @@ source_filename: superai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.flows.super.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 10:27:12 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: flows.super.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 09:32:29 2026 GMT\n  hsts: true\n  hsts_max_age: 86400\ndomains:\n- domain: super.ai\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:engineering@super.ai\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/security/superai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/superai/security/superai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

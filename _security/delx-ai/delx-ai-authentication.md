@@ -8,49 +8,49 @@ api_specs:
   label: Delx A2a API
   slug: delx-ai-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/delx-ai/openapi/delx-ai-a2a-api-openapi.yml
 - filename: delx-ai-agents-api-openapi.yml
   format: yaml
   label: Delx Agents API
   slug: delx-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-agents-api-openapi.yml
+  url: https://artifacts.apis.io/delx-ai/openapi/delx-ai-agents-api-openapi.yml
 - filename: delx-ai-discovery-api-openapi.yml
   format: yaml
   label: Delx Discovery API
   slug: delx-ai-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/delx-ai/openapi/delx-ai-discovery-api-openapi.yml
 - filename: delx-ai-mcp-api-openapi.yml
   format: yaml
   label: Delx MCP API
   slug: delx-ai-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/delx-ai/openapi/delx-ai-mcp-api-openapi.yml
 - filename: delx-ai-protocol-api-openapi.yml
   format: yaml
   label: Delx Protocol API
   slug: delx-ai-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/delx-ai/openapi/delx-ai-protocol-api-openapi.yml
 - filename: delx-ai-reliability-api-openapi.yml
   format: yaml
   label: Delx Reliability API
   slug: delx-ai-reliability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-reliability-api-openapi.yml
+  url: https://artifacts.apis.io/delx-ai/openapi/delx-ai-reliability-api-openapi.yml
 - filename: delx-ai-tools-api-openapi.yml
   format: yaml
   label: Delx Tools API
   slug: delx-ai-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-tools-api-openapi.yml
+  url: https://artifacts.apis.io/delx-ai/openapi/delx-ai-tools-api-openapi.yml
 - filename: delx-ai-x402-api-openapi.yml
   format: yaml
   label: Delx X402 API
   slug: delx-ai-x402-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-x402-api-openapi.yml
+  url: https://artifacts.apis.io/delx-ai/openapi/delx-ai-x402-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -119,7 +119,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/delx-ai
   \  sources:\n  - openapi/delx-ai-commerce-x402-openapi.json\n  - openapi/delx-ai-protocol-openapi.json\n- name: xDelxControllerToken\n  type: apiKey\n  in: header\n  parameter: x-delx-controller-token\n  description: Controller-scoped credential for /api/v1/fleet/{controller_id}/* endpoints.\n  sources:\n  - openapi/delx-ai-commerce-x402-openapi.json\n- name: xDelxAdminPin\n  type: apiKey\n  in: header\n  parameter: x-delx-admin-pin\n  description: Operator admin auth header; avoid putting admin PINs in query strings.\n  sources:\n  - openapi/delx-ai-commerce-x402-openapi.json\n- name: xDelxAdminHmacSignature\n  type: apiKey\n  in: header\n  parameter: x-delx-admin-signature\n  description: HMAC admin signature paired with x-delx-admin-timestamp.\n  sources:\n  - openapi/delx-ai-commerce-x402-openapi.json\n- name: mppPaymentAuthorization\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'MPP payment credential using Authorization: Payment <base64url-json>.'\n  sources:\n\
   \  - openapi/delx-ai-commerce-x402-openapi.json\ndocs: https://api.delx.ai/auth.md\ndiscovery_documents:\n- url: https://api.delx.ai/.well-known/oauth-protected-resource\n  file: well-known/delx-ai-api-oauth-protected-resource.json\n  note: 'RFC 9728 on the MCP/API host: resource https://api.delx.ai, authorization_servers [https://api.delx.ai], bearer_methods_supported\n    [header], delx:access_mode public_free_and_x402'\n- url: https://api.delx.ai/.well-known/oauth-authorization-server\n  file: well-known/delx-ai-api-oauth-authorization-server.json\n  note: RFC 8414 with an agent_auth block (identity_types_supported [anonymous]; credential_types [none, session, x402-payment])\n    pointing every endpoint at auth.md\n- url: https://api.delx.ai/auth.md\n  note: 'Agent-facing Auth.md: model table, documents, registration (\"No registration is required for public Protocol tools\")'\nidentity_headers:\n- x-delx-agent-id\n- x-delx-agent-token\n- x-delx-controller-id\n- x-delx-controller-token\n\
   - x-delx-session-id\n- x-delx-context-id\n- x-delx-source\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/authentication/delx-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/delx-ai/authentication/delx-ai-authentication.yml
 summary_line: apiKey · 6 schemes
 tags:
 - Agents

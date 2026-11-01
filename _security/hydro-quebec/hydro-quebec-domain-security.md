@@ -5,13 +5,13 @@ api_specs:
   label: Hydro-Québec Catalog API
   slug: hydro-quebec-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/openapi/hydro-quebec-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/hydro-quebec/openapi/hydro-quebec-catalog-api-openapi.yml
 - filename: hydro-quebec-dataset-api-openapi.yml
   format: yaml
   label: Hydro-Québec Dataset API
   slug: hydro-quebec-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/openapi/hydro-quebec-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/hydro-quebec/openapi/hydro-quebec-dataset-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: hydro-quebec-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hydroquebec.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: donnees.hydroquebec.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 16:41:03 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: hydroquebec.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/security/hydro-quebec-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hydro-quebec/security/hydro-quebec-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Energy

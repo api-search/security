@@ -40,7 +40,7 @@ source_filename: array-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-10'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: array.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 13:24:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: array.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 13:10:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: array.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: array.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/array/refs/heads/main/security/array-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/array/security/array-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

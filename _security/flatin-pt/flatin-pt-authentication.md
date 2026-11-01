@@ -7,7 +7,7 @@ api_specs:
   label: flatin.pt Public API
   slug: flatin-pt-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatin-pt/refs/heads/main/openapi/flatin-pt-public-api-openapi.yml
+  url: https://artifacts.apis.io/flatin-pt/openapi/flatin-pt-public-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -31,7 +31,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-16'\nmethod: searched\nsource: >-\n  openapi/flatin-pt-openapi.json (no securitySchemes), well-known/flatin-pt-api-onboarding.json\n  (authentication.methods: anonymous/none) and the developer docs at\n  https://flatin.pt/en/tools/api-and-data/#rest.\nsummary: >-\n  Keyless public API. There is no authentication of any kind — no API keys, no OAuth, no accounts.\n  Access is anonymous over HTTPS and throttled per client IP address.\nschemes:\n  - id: anonymous\n    type: none\n    description: No credential required. Call https://flatin.pt/api/v1 or connect an MCP client to https://flatin.pt/mcp directly.\naccount_required: false\nagent_policy: allowed\nnotes:\n  - The MCP server at https://flatin.pt/mcp is also anonymous; no OAuth authorization-server or protected-resource metadata is served (both /.well-known probes returned 404).\n  - Every successful JSON answer carries an attribution field that must be displayed next to the numbers (a licence condition,\
   \ not an auth condition).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flatin-pt/refs/heads/main/authentication/flatin-pt-authentication.yml
+source_yaml_url: https://artifacts.apis.io/flatin-pt/authentication/flatin-pt-authentication.yml
 summary_line: 1 scheme
 tags:
 - Real Estate

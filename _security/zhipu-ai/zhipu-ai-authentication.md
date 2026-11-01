@@ -7,19 +7,19 @@ api_specs:
   label: Zhipu AI Agents API
   slug: zhipu-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zhipu-ai/refs/heads/main/openapi/zhipu-ai-agents-api-openapi.yml
+  url: https://artifacts.apis.io/zhipu-ai/openapi/zhipu-ai-agents-api-openapi.yml
 - filename: zhipu-ai-tools-api-api-openapi.yml
   format: yaml
   label: Zhipu AI Tools API
   slug: zhipu-ai-tools-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zhipu-ai/refs/heads/main/openapi/zhipu-ai-tools-api-api-openapi.yml
+  url: https://artifacts.apis.io/zhipu-ai/openapi/zhipu-ai-tools-api-api-openapi.yml
 - filename: zhipu-ai-paa-s-api-openapi.yml
   format: yaml
   label: Zhipu AI Paa S API
   slug: zhipu-ai-paa-s-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zhipu-ai/refs/heads/main/openapi/zhipu-ai-paa-s-api-openapi.yml
+  url: https://artifacts.apis.io/zhipu-ai/openapi/zhipu-ai-paa-s-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: zhipu-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/zhipu-ai-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Use the following format for authentication: Bearer [<your api key>](https://z.ai/manage-apikey/apikey-list)'\n  sources:\n  - openapi/zhipu-ai-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zhipu-ai/refs/heads/main/authentication/zhipu-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zhipu-ai/authentication/zhipu-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

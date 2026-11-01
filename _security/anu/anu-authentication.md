@@ -8,13 +8,13 @@ api_specs:
   label: Australian National University Harvesting API
   slug: anu-harvesting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/openapi/anu-harvesting-api-openapi.yml
+  url: https://artifacts.apis.io/anu/openapi/anu-harvesting-api-openapi.yml
 - filename: anu-random-numbers-api-openapi.yml
   format: yaml
   label: Australian National University Random Numbers API
   slug: anu-random-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/openapi/anu-random-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/anu/openapi/anu-random-numbers-api-openapi.yml
 auth_types:
 - apiKey
 - none
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-08-19'\nmethod: derived\nsource: https://quantumn
   \ calls to the ANU Quantum Numbers service.\n  evidence: >-\n    ANU's own documentation gives the call form as\n    curl -X GET -H \"x-api-key:${API_KEY}\" \"${API_URL}?length=..&type=..&size=..\". A live\n    request with no key returns HTTP 403 {\"message\":\"Forbidden\"} from the gateway.\n  rotation: Not documented.\n  scopes: none\n- name: LegacyQrngAnonymous\n  type: none\n  applies_to: https://qrng.anu.edu.au/API/jsonI.php\n  purpose: The deprecated legacy endpoint requires no credential of any kind.\n  evidence: >-\n    Live unauthenticated GET returned {\"type\":\"uint8\",\"length\":4,\"data\":[74,205,98,159],\"success\":true}\n    on 2026-08-19. Access control is replaced by a one-request-per-minute throttle.\n- name: OaiPmhAnonymous\n  type: none\n  applies_to: https://openresearch-repository.anu.edu.au/server/oai/request\n  purpose: OAI-PMH harvesting is open by design; no credential is required or accepted.\n  evidence: Live Identify and ListRecords calls succeeded unauthenticated\
   \ on 2026-08-19.\n- name: DSpaceRestAnonymous\n  type: none\n  applies_to: https://openresearch-repository.anu.edu.au/server/api\n  purpose: >-\n    The DSpace REST root and its discovery/browse resources are readable anonymously; write\n    and some core collections require a session.\n  evidence: >-\n    GET /server/api returns 200 application/hal+json; GET /server/api/core/items returns 401\n    application/json, so the surface is genuinely access-controlled rather than uniformly open.\n- name: AafShibbolethSso\n  type: saml2\n  applies_to: https://idp2.anu.edu.au/idp/shibboleth\n  purpose: >-\n    Institutional single sign-on for staff and students, federated through the Australian\n    Access Federation and interfederated via eduGAIN. Governs human access to Wattle, library\n    resources and staff systems.\n  evidence: >-\n    Live IdP metadata publishes SAML 2.0 SSO endpoints for HTTP-POST, HTTP-Redirect and\n    SOAP/ECP bindings with scope anu.edu.au.\n  developer_usable: false\n\
   \  developer_note: >-\n    This is an end-user login federation. There is no client registration path, no token\n    endpoint and no consent surface an outside developer could integrate against.\nexcluded:\n- surface: https://researchportalplus.anu.edu.au\n  reason: >-\n    Elsevier Pure tenancy (CNAME anu2-portal.elsevierpure.com). Its authentication is\n    Elsevier's, and crediting it to ANU is exactly the misattribution this pipeline prevents.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/authentication/anu-authentication.yml
+source_yaml_url: https://artifacts.apis.io/anu/authentication/anu-authentication.yml
 summary_line: apiKey/none/saml2 · 5 schemes
 tags:
 - University

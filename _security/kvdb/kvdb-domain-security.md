@@ -5,19 +5,19 @@ api_specs:
   label: KVdb Buckets API
   slug: kvdb-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kvdb/refs/heads/main/openapi/kvdb-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/kvdb/openapi/kvdb-buckets-api-openapi.yml
 - filename: kvdb-keys-api-openapi.yml
   format: yaml
   label: KVdb Keys API
   slug: kvdb-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kvdb/refs/heads/main/openapi/kvdb-keys-api-openapi.yml
+  url: https://artifacts.apis.io/kvdb/openapi/kvdb-keys-api-openapi.yml
 - filename: kvdb-scripts-api-openapi.yml
   format: yaml
   label: KVdb Scripts API
   slug: kvdb-scripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kvdb/refs/heads/main/openapi/kvdb-scripts-api-openapi.yml
+  url: https://artifacts.apis.io/kvdb/openapi/kvdb-scripts-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: kvdb-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: kvdb.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 11:22:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: kvdb.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kvdb/refs/heads/main/security/kvdb-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kvdb/security/kvdb-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Database

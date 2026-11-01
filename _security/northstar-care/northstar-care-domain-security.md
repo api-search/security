@@ -27,7 +27,7 @@ source_filename: northstar-care-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: northstarcare.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 12:52:42 2026 GMT\n  hsts: false\ndomains:\n- domain: northstarcare.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/northstar-care/refs/heads/main/security/northstar-care-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/northstar-care/security/northstar-care-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

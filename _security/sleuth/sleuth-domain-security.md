@@ -5,19 +5,19 @@ api_specs:
   label: Sleuth Deployments API
   slug: sleuth-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleuth/refs/heads/main/openapi/sleuth-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/sleuth/openapi/sleuth-deployments-api-openapi.yml
 - filename: sleuth-impact-api-openapi.yml
   format: yaml
   label: Sleuth Impact API
   slug: sleuth-impact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleuth/refs/heads/main/openapi/sleuth-impact-api-openapi.yml
+  url: https://artifacts.apis.io/sleuth/openapi/sleuth-impact-api-openapi.yml
 - filename: sleuth-manual-changes-api-openapi.yml
   format: yaml
   label: Sleuth Manual Changes API
   slug: sleuth-manual-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleuth/refs/heads/main/openapi/sleuth-manual-changes-api-openapi.yml
+  url: https://artifacts.apis.io/sleuth/openapi/sleuth-manual-changes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: sleuth-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sleuth.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 18:33:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: help.sleuth.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 10:29:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.sleuth.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 3600\ndomains:\n- domain: sleuth.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sleuth/refs/heads/main/security/sleuth-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sleuth/security/sleuth-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - DORA

@@ -27,7 +27,7 @@ source_filename: ohloh-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.openhub.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 18:14:46 2026 GMT\n  hsts: null\ndomains:\n- domain: openhub.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ohloh/refs/heads/main/security/ohloh-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ohloh/security/ohloh-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

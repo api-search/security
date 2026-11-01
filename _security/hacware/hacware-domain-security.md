@@ -5,67 +5,67 @@ api_specs:
   label: Hacware Admin API
   slug: hacware-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/openapi/hacware-admin-api-openapi.yml
+  url: https://artifacts.apis.io/hacware/openapi/hacware-admin-api-openapi.yml
 - filename: hacware-compliance-api-openapi.yml
   format: yaml
   label: Hacware Compliance API
   slug: hacware-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/openapi/hacware-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/hacware/openapi/hacware-compliance-api-openapi.yml
 - filename: hacware-compliance-tenant-api-openapi.yml
   format: yaml
   label: Hacware Compliance-Tenant API
   slug: hacware-compliance-tenant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/openapi/hacware-compliance-tenant-api-openapi.yml
+  url: https://artifacts.apis.io/hacware/openapi/hacware-compliance-tenant-api-openapi.yml
 - filename: hacware-customer-api-openapi.yml
   format: yaml
   label: Hacware Customer API
   slug: hacware-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/openapi/hacware-customer-api-openapi.yml
+  url: https://artifacts.apis.io/hacware/openapi/hacware-customer-api-openapi.yml
 - filename: hacware-email-tenant-api-openapi.yml
   format: yaml
   label: Hacware Email-Tenant API
   slug: hacware-email-tenant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/openapi/hacware-email-tenant-api-openapi.yml
+  url: https://artifacts.apis.io/hacware/openapi/hacware-email-tenant-api-openapi.yml
 - filename: hacware-group-api-openapi.yml
   format: yaml
   label: Hacware Group API
   slug: hacware-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/openapi/hacware-group-api-openapi.yml
+  url: https://artifacts.apis.io/hacware/openapi/hacware-group-api-openapi.yml
 - filename: hacware-multi-tenant-api-openapi.yml
   format: yaml
   label: Hacware Multi-Tenant API
   slug: hacware-multi-tenant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/openapi/hacware-multi-tenant-api-openapi.yml
+  url: https://artifacts.apis.io/hacware/openapi/hacware-multi-tenant-api-openapi.yml
 - filename: hacware-phishing-api-openapi.yml
   format: yaml
   label: Hacware Phishing API
   slug: hacware-phishing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/openapi/hacware-phishing-api-openapi.yml
+  url: https://artifacts.apis.io/hacware/openapi/hacware-phishing-api-openapi.yml
 - filename: hacware-report-api-openapi.yml
   format: yaml
   label: Hacware Report API
   slug: hacware-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/openapi/hacware-report-api-openapi.yml
+  url: https://artifacts.apis.io/hacware/openapi/hacware-report-api-openapi.yml
 - filename: hacware-training-api-openapi.yml
   format: yaml
   label: Hacware Training API
   slug: hacware-training-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/openapi/hacware-training-api-openapi.yml
+  url: https://artifacts.apis.io/hacware/openapi/hacware-training-api-openapi.yml
 - filename: hacware-user-api-openapi.yml
   format: yaml
   label: Hacware User API
   slug: hacware-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/openapi/hacware-user-api-openapi.yml
+  url: https://artifacts.apis.io/hacware/openapi/hacware-user-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -101,7 +101,7 @@ source_filename: hacware-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: hacware.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 19 23:59:59 2027 GMT\n  hsts: false\n- host: www.hacware.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 19 23:59:59 2027 GMT\n  hsts: false\n- host: app.hacware.com\n  https: false\ndomains:\n- domain: hacware.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/security/hacware-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hacware/security/hacware-domain-security.yml
 summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
 - Company

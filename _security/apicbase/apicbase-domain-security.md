@@ -5,37 +5,37 @@ api_specs:
   label: Apicbase Ingredients API
   slug: apicbase-ingredients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-ingredients-api-openapi.yml
+  url: https://artifacts.apis.io/apicbase/openapi/apicbase-ingredients-api-openapi.yml
 - filename: apicbase-outlets-api-openapi.yml
   format: yaml
   label: Apicbase Outlets API
   slug: apicbase-outlets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-outlets-api-openapi.yml
+  url: https://artifacts.apis.io/apicbase/openapi/apicbase-outlets-api-openapi.yml
 - filename: apicbase-procurement-api-openapi.yml
   format: yaml
   label: Apicbase Procurement API
   slug: apicbase-procurement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-procurement-api-openapi.yml
+  url: https://artifacts.apis.io/apicbase/openapi/apicbase-procurement-api-openapi.yml
 - filename: apicbase-recipes-api-openapi.yml
   format: yaml
   label: Apicbase Recipes API
   slug: apicbase-recipes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-recipes-api-openapi.yml
+  url: https://artifacts.apis.io/apicbase/openapi/apicbase-recipes-api-openapi.yml
 - filename: apicbase-stock-api-openapi.yml
   format: yaml
   label: Apicbase Stock API
   slug: apicbase-stock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-stock-api-openapi.yml
+  url: https://artifacts.apis.io/apicbase/openapi/apicbase-stock-api-openapi.yml
 - filename: apicbase-suppliers-api-openapi.yml
   format: yaml
   label: Apicbase Suppliers API
   slug: apicbase-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/apicbase/openapi/apicbase-suppliers-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -82,7 +82,7 @@ source_filename: apicbase-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.apicbase.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 12 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.apicbase.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 01:02:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.apicbase.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 12 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: apicbase.com\n  dnssec: true\n  caa:\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"rapidssl.com\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/security/apicbase-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apicbase/security/apicbase-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Food and Beverage

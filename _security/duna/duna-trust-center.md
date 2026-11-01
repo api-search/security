@@ -17,7 +17,7 @@ source_filename: duna-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nprobe: true\nsource: https://duna.com/resources/trust\nurl: https://duna.com/resources/trust\ntrust_portal: https://app.eu.vanta.com/duna.io/trust/mki73few1yksdt7h5aruep\ncertifications:\n- SOC 2 Type II\n- ISO 27001\n- GDPR\nframeworks:\n- GDPR (EU data protection, EU data residency)\nevidence:\n- source: https://duna.com/resources/trust\n  keywords:\n  - soc 2 type ii\n  - iso 27001\n  - gdpr\n  - trust center\n- source: https://app.eu.vanta.com/duna.io/trust/mki73few1yksdt7h5aruep\n  kind: vanta-trust-center\nnotes: Trust Center hosted on Vanta; SOC 2 Type II audit completed, ISO 27001 certified,\n  GDPR compliant with EU data residency.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/duna/refs/heads/main/security/duna-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/duna/security/duna-trust-center.yml
 summary_line: SOC 2 Type II, ISO 27001, GDPR
 tags:
 - Company

@@ -7,19 +7,19 @@ api_specs:
   label: Palantir Admin - Groups API
   slug: palantir-admin-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/openapi/palantir-admin-groups-api-openapi.yml
+  url: https://artifacts.apis.io/palantir/openapi/palantir-admin-groups-api-openapi.yml
 - filename: palantir-admin-users-api-openapi.yml
   format: yaml
   label: Palantir Admin - Users API
   slug: palantir-admin-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/openapi/palantir-admin-users-api-openapi.yml
+  url: https://artifacts.apis.io/palantir/openapi/palantir-admin-users-api-openapi.yml
 - filename: palantir-datasets-api-openapi.yml
   format: yaml
   label: Palantir Datasets API
   slug: palantir-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/openapi/palantir-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/palantir/openapi/palantir-datasets-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: palantir-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/palantir-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth 2.0 Bearer token. The token must be passed as an `Authorization` header\n    using the `Bearer` authentication scheme. Foundry supports user-generated API tokens (for\n    development), Authorization Code grant, and Client Credentials grant.\n  sources:\n  - openapi/palantir-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/authentication/palantir-authentication.yml
+source_yaml_url: https://artifacts.apis.io/palantir/authentication/palantir-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - AI Platform

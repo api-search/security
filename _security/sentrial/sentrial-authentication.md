@@ -7,13 +7,13 @@ api_specs:
   label: Sentrial Events API
   slug: sentrial-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sentrial/refs/heads/main/openapi/sentrial-events-api-openapi.yml
+  url: https://artifacts.apis.io/sentrial/openapi/sentrial-events-api-openapi.yml
 - filename: sentrial-sessions-api-openapi.yml
   format: yaml
   label: Sentrial Sessions API
   slug: sentrial-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sentrial/refs/heads/main/openapi/sentrial-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/sentrial/openapi/sentrial-sessions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -41,7 +41,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/sentrial-openapi.yml\ndocs: https://www.sentrial.com/docs/api/auth\nsummary:\n  types:\n  - http\n  key_format: sentrial_live_xxxxxxxxxxxxx\n  header: 'Authorization: Bearer <api_key>'\n  key_management: Organization Settings -> API Keys (keys shown once)\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: API key passed as a Bearer token in the Authorization header. Keys follow the\n    format sentrial_live_xxxxxxxxxxxxx and are created in organization Settings -> API Keys.\n  sources:\n  - openapi/sentrial-openapi.yml\nerrors:\n- status: 401\n  error: Unauthorized\n  message: Invalid or missing API key\n- status: 403\n  error: Forbidden\n  message: API key does not have access to this resource\nbest_practices:\n- Store API keys in environment variables (SENTRIAL_API_KEY), never in code.\n- Rotate keys regularly and revoke compromised keys immediately in Settings.\n- Use separate keys per\
   \ environment (dev, staging, production).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sentrial/refs/heads/main/authentication/sentrial-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sentrial/authentication/sentrial-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

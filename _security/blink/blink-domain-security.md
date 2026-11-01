@@ -5,19 +5,19 @@ api_specs:
   label: Blink Charging Locations API
   slug: blink-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blink/refs/heads/main/openapi/blink-locations-api-openapi.yml
+  url: https://artifacts.apis.io/blink/openapi/blink-locations-api-openapi.yml
 - filename: blink-search-api-openapi.yml
   format: yaml
   label: Blink Charging Search API
   slug: blink-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blink/refs/heads/main/openapi/blink-search-api-openapi.yml
+  url: https://artifacts.apis.io/blink/openapi/blink-search-api-openapi.yml
 - filename: blink-status-api-openapi.yml
   format: yaml
   label: Blink Charging Status API
   slug: blink-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blink/refs/heads/main/openapi/blink-status-api-openapi.yml
+  url: https://artifacts.apis.io/blink/openapi/blink-status-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: blink-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: blinkcharging.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 05:04:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: prod.blinknetwork.com\n  https: false\n- host: api.blinknetwork.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 13 12:51:03 2027 GMT\n  hsts: null\ndomains:\n- domain: blinkcharging.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: blinknetwork.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blink/refs/heads/main/security/blink-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/blink/security/blink-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - EV Charging

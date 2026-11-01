@@ -5,37 +5,37 @@ api_specs:
   label: LibertAI Aleph Credits API
   slug: libertai-aleph-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/libertai/refs/heads/main/openapi/libertai-aleph-credits-api-openapi.yml
+  url: https://artifacts.apis.io/libertai/openapi/libertai-aleph-credits-api-openapi.yml
 - filename: libertai-auth-api-openapi.yml
   format: yaml
   label: LibertAI Auth API
   slug: libertai-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/libertai/refs/heads/main/openapi/libertai-auth-api-openapi.yml
+  url: https://artifacts.apis.io/libertai/openapi/libertai-auth-api-openapi.yml
 - filename: libertai-health-api-openapi.yml
   format: yaml
   label: LibertAI Health API
   slug: libertai-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/libertai/refs/heads/main/openapi/libertai-health-api-openapi.yml
+  url: https://artifacts.apis.io/libertai/openapi/libertai-health-api-openapi.yml
 - filename: libertai-models-api-openapi.yml
   format: yaml
   label: LibertAI Models API
   slug: libertai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/libertai/refs/heads/main/openapi/libertai-models-api-openapi.yml
+  url: https://artifacts.apis.io/libertai/openapi/libertai-models-api-openapi.yml
 - filename: libertai-proxy-api-openapi.yml
   format: yaml
   label: LibertAI Proxy API
   slug: libertai-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/libertai/refs/heads/main/openapi/libertai-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/libertai/openapi/libertai-proxy-api-openapi.yml
 - filename: libertai-search-api-openapi.yml
   format: yaml
   label: LibertAI Search API
   slug: libertai-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/libertai/refs/heads/main/openapi/libertai-search-api-openapi.yml
+  url: https://artifacts.apis.io/libertai/openapi/libertai-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: libertai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: libertai.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  9 19:19:12 2027 GMT\n  hsts: false\ndomains:\n- domain: libertai.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/libertai/refs/heads/main/security/libertai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/libertai/security/libertai-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

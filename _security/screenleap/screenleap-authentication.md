@@ -8,7 +8,7 @@ api_specs:
   label: Screenleap Screen Shares API
   slug: screenleap-screen-shares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/screenleap/refs/heads/main/openapi/screenleap-screen-shares-api-openapi.yml
+  url: https://artifacts.apis.io/screenleap/openapi/screenleap-screen-shares-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -43,7 +43,7 @@ source_filename: screenleap-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/screenleap-openapi.yml\ndocs: https://www.screenleap.com/api/native/doc\nnotes: >-\n  Screenleap authenticates every request with two apiKey headers — accountid\n  (your account identifier, may also be a query parameter) and authtoken (your\n  auth token). SSL is required for any request carrying the auth token. There is\n  no OAuth surface.\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: accountId\n  type: apiKey\n  in: header\n  parameter: accountid\n  description: Your Screenleap account identifier.\n  sources:\n  - openapi/screenleap-openapi.yml\n- name: authToken\n  type: apiKey\n  in: header\n  parameter: authtoken\n  description: Your Screenleap authentication token. SSL required when sending it.\n  sources:\n  - openapi/screenleap-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/screenleap/refs/heads/main/authentication/screenleap-authentication.yml
+source_yaml_url: https://artifacts.apis.io/screenleap/authentication/screenleap-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company

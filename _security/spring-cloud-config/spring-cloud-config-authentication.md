@@ -7,25 +7,25 @@ api_specs:
   label: Spring Cloud Config Configuration API
   slug: spring-cloud-config-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-cloud-config/refs/heads/main/openapi/spring-cloud-config-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/spring-cloud-config/openapi/spring-cloud-config-configuration-api-openapi.yml
 - filename: spring-cloud-config-encryption-api-openapi.yml
   format: yaml
   label: Spring Cloud Config Encryption API
   slug: spring-cloud-config-encryption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-cloud-config/refs/heads/main/openapi/spring-cloud-config-encryption-api-openapi.yml
+  url: https://artifacts.apis.io/spring-cloud-config/openapi/spring-cloud-config-encryption-api-openapi.yml
 - filename: spring-cloud-config-monitoring-api-openapi.yml
   format: yaml
   label: Spring Cloud Config Monitoring API
   slug: spring-cloud-config-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-cloud-config/refs/heads/main/openapi/spring-cloud-config-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/spring-cloud-config/openapi/spring-cloud-config-monitoring-api-openapi.yml
 - filename: spring-cloud-config-resources-api-openapi.yml
   format: yaml
   label: Spring Cloud Config Resources API
   slug: spring-cloud-config-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-cloud-config/refs/heads/main/openapi/spring-cloud-config-resources-api-openapi.yml
+  url: https://artifacts.apis.io/spring-cloud-config/openapi/spring-cloud-config-resources-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -56,13 +56,13 @@ source_filename: spring-cloud-config-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/spring-cloud-config-server-api.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/spring-cloud-config-server-api.yml\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/spring-cloud-config-server-api.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spring-cloud-config/refs/heads/main/authentication/spring-cloud-config-authentication.yml
+source_yaml_url: https://artifacts.apis.io/spring-cloud-config/authentication/spring-cloud-config-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Configuration Management
 - Distributed Systems
 - Externalized Configuration
-- Git
+- Version Control
 - Java
 - Microservices
 - Spring

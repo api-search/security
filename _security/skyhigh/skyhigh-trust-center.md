@@ -5,7 +5,7 @@ api_specs:
   label: Skyhigh Security Tenant API
   slug: skyhigh-tenant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skyhigh/refs/heads/main/openapi/skyhigh-tenant-api-openapi.yml
+  url: https://artifacts.apis.io/skyhigh/openapi/skyhigh-tenant-api-openapi.yml
 certification_count: 10
 certifications:
 - SOC 2 Type II
@@ -31,7 +31,7 @@ source_filename: skyhigh-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://www.skyhighsecurity.com/about/certification.html\nurl: https://www.skyhighsecurity.com/about/certification.html\ncertifications:\n  - SOC 2 Type II\n  - ISO/IEC 27001\n  - FedRAMP High\n  - DoD Impact Level (IL2 & IL4)\n  - CSA STAR Level 1\n  - IRAP PROTECTED\n  - BSI C5\n  - GDPR\n  - DPDPA\n  - DORA\nevidence:\n  - source: https://www.skyhighsecurity.com/about/certification.html\n    keywords: [soc 2 type ii, iso/iec 27001, fedramp high, csa star, irap, bsi c5, gdpr, dora]\n    note: Certifications & Compliance hub with a filterable compliance portfolio by region and vertical.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skyhigh/refs/heads/main/security/skyhigh-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/skyhigh/security/skyhigh-trust-center.yml
 summary_line: SOC 2 Type II, ISO/IEC 27001, FedRAMP High, DoD Impact Level (IL2 & IL4), CSA STAR Level 1, IRAP PROTECTED, BSI C5, GDPR, DPDPA, DORA
 tags:
 - Company

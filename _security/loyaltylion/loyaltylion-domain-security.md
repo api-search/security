@@ -5,37 +5,37 @@ api_specs:
   label: LoyaltyLion Activities API
   slug: loyaltylion-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/openapi/loyaltylion-activities-api-openapi.yml
+  url: https://artifacts.apis.io/loyaltylion/openapi/loyaltylion-activities-api-openapi.yml
 - filename: loyaltylion-customers-api-openapi.yml
   format: yaml
   label: LoyaltyLion Customers API
   slug: loyaltylion-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/openapi/loyaltylion-customers-api-openapi.yml
+  url: https://artifacts.apis.io/loyaltylion/openapi/loyaltylion-customers-api-openapi.yml
 - filename: loyaltylion-points-api-openapi.yml
   format: yaml
   label: LoyaltyLion Points API
   slug: loyaltylion-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/openapi/loyaltylion-points-api-openapi.yml
+  url: https://artifacts.apis.io/loyaltylion/openapi/loyaltylion-points-api-openapi.yml
 - filename: loyaltylion-redemptions-api-openapi.yml
   format: yaml
   label: LoyaltyLion Redemptions API
   slug: loyaltylion-redemptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/openapi/loyaltylion-redemptions-api-openapi.yml
+  url: https://artifacts.apis.io/loyaltylion/openapi/loyaltylion-redemptions-api-openapi.yml
 - filename: loyaltylion-rewards-api-openapi.yml
   format: yaml
   label: LoyaltyLion Rewards API
   slug: loyaltylion-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/openapi/loyaltylion-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/loyaltylion/openapi/loyaltylion-rewards-api-openapi.yml
 - filename: loyaltylion-utility-api-openapi.yml
   format: yaml
   label: LoyaltyLion Utility API
   slug: loyaltylion-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/openapi/loyaltylion-utility-api-openapi.yml
+  url: https://artifacts.apis.io/loyaltylion/openapi/loyaltylion-utility-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: loyaltylion-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: loyaltylion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.loyaltylion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  4 12:38:28 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.loyaltylion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 28 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: loyaltylion.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/security/loyaltylion-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/loyaltylion/security/loyaltylion-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Loyalty

@@ -5,25 +5,25 @@ api_specs:
   label: Apache ServiceMix Bundles API
   slug: apache-servicemix-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-servicemix/refs/heads/main/openapi/apache-servicemix-bundles-api-openapi.yml
+  url: https://artifacts.apis.io/apache-servicemix/openapi/apache-servicemix-bundles-api-openapi.yml
 - filename: apache-servicemix-endpoints-api-openapi.yml
   format: yaml
   label: Apache ServiceMix Endpoints API
   slug: apache-servicemix-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-servicemix/refs/heads/main/openapi/apache-servicemix-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/apache-servicemix/openapi/apache-servicemix-endpoints-api-openapi.yml
 - filename: apache-servicemix-messaging-api-openapi.yml
   format: yaml
   label: Apache ServiceMix Messaging API
   slug: apache-servicemix-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-servicemix/refs/heads/main/openapi/apache-servicemix-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/apache-servicemix/openapi/apache-servicemix-messaging-api-openapi.yml
 - filename: apache-servicemix-routes-api-openapi.yml
   format: yaml
   label: Apache ServiceMix Routes API
   slug: apache-servicemix-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-servicemix/refs/heads/main/openapi/apache-servicemix-routes-api-openapi.yml
+  url: https://artifacts.apis.io/apache-servicemix/openapi/apache-servicemix-routes-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -57,7 +57,7 @@ source_filename: apache-servicemix-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: servicemix.apache.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 23:33:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: apache.org\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 iodef \"mailto:root@apache.org\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-servicemix/refs/heads/main/security/apache-servicemix-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apache-servicemix/security/apache-servicemix-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Enterprise Integration

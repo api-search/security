@@ -5,19 +5,19 @@ api_specs:
   label: Norfolk Southern Gate Receipts API
   slug: norfolk-southern-gate-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/norfolk-southern/refs/heads/main/openapi/norfolk-southern-gate-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/norfolk-southern/openapi/norfolk-southern-gate-receipts-api-openapi.yml
 - filename: norfolk-southern-shipment-status-api-openapi.yml
   format: yaml
   label: Norfolk Southern Shipment Status API
   slug: norfolk-southern-shipment-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/norfolk-southern/refs/heads/main/openapi/norfolk-southern-shipment-status-api-openapi.yml
+  url: https://artifacts.apis.io/norfolk-southern/openapi/norfolk-southern-shipment-status-api-openapi.yml
 - filename: norfolk-southern-trip-plan-api-openapi.yml
   format: yaml
   label: Norfolk Southern Trip Plan API
   slug: norfolk-southern-trip-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/norfolk-southern/refs/heads/main/openapi/norfolk-southern-trip-plan-api-openapi.yml
+  url: https://artifacts.apis.io/norfolk-southern/openapi/norfolk-southern-trip-plan-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: norfolk-southern-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.nscorp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 25 23:59:59 2026 GMT\n  hsts: false\n- host: www.norfolksouthern.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.nscorp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: nscorp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: norfolksouthern.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/norfolk-southern/refs/heads/main/security/norfolk-southern-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/norfolk-southern/security/norfolk-southern-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Freight

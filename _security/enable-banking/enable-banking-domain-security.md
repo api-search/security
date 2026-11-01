@@ -5,25 +5,25 @@ api_specs:
   label: Enable Banking Accounts data API
   slug: enable-banking-accounts-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/openapi/enable-banking-accounts-data-api-openapi.yml
+  url: https://artifacts.apis.io/enable-banking/openapi/enable-banking-accounts-data-api-openapi.yml
 - filename: enable-banking-misc-api-openapi.yml
   format: yaml
   label: Enable Banking Misc API
   slug: enable-banking-misc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/openapi/enable-banking-misc-api-openapi.yml
+  url: https://artifacts.apis.io/enable-banking/openapi/enable-banking-misc-api-openapi.yml
 - filename: enable-banking-payments-api-openapi.yml
   format: yaml
   label: Enable Banking Payments API
   slug: enable-banking-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/openapi/enable-banking-payments-api-openapi.yml
+  url: https://artifacts.apis.io/enable-banking/openapi/enable-banking-payments-api-openapi.yml
 - filename: enable-banking-user-sessions-api-openapi.yml
   format: yaml
   label: Enable Banking User sessions API
   slug: enable-banking-user-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/openapi/enable-banking-user-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/enable-banking/openapi/enable-banking-user-sessions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -68,7 +68,7 @@ source_filename: enable-banking-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: enablebanking.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 13:44:00 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.enablebanking.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 02:01:20 2026 GMT\n  hsts: null\n- host: api.tilisy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 16:48:38 2026 GMT\n  hsts: null\ndomains:\n- domain: enablebanking.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: tilisy.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/security/enable-banking-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/enable-banking/security/enable-banking-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Open Banking

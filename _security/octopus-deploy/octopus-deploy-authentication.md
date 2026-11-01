@@ -8,37 +8,37 @@ api_specs:
   label: Octopus Deploy Accounts API
   slug: octopus-deploy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/openapi/octopus-deploy-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/octopus-deploy/openapi/octopus-deploy-accounts-api-openapi.yml
 - filename: octopus-deploy-environments-api-openapi.yml
   format: yaml
   label: Octopus Deploy Environments API
   slug: octopus-deploy-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/openapi/octopus-deploy-environments-api-openapi.yml
+  url: https://artifacts.apis.io/octopus-deploy/openapi/octopus-deploy-environments-api-openapi.yml
 - filename: octopus-deploy-feeds-api-openapi.yml
   format: yaml
   label: Octopus Deploy Feeds API
   slug: octopus-deploy-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/openapi/octopus-deploy-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/octopus-deploy/openapi/octopus-deploy-feeds-api-openapi.yml
 - filename: octopus-deploy-machines-api-openapi.yml
   format: yaml
   label: Octopus Deploy Machines API
   slug: octopus-deploy-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/openapi/octopus-deploy-machines-api-openapi.yml
+  url: https://artifacts.apis.io/octopus-deploy/openapi/octopus-deploy-machines-api-openapi.yml
 - filename: octopus-deploy-projects-api-openapi.yml
   format: yaml
   label: Octopus Deploy Projects API
   slug: octopus-deploy-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/openapi/octopus-deploy-projects-api-openapi.yml
+  url: https://artifacts.apis.io/octopus-deploy/openapi/octopus-deploy-projects-api-openapi.yml
 - filename: octopus-deploy-root-api-openapi.yml
   format: yaml
   label: Octopus Deploy Root API
   slug: octopus-deploy-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/openapi/octopus-deploy-root-api-openapi.yml
+  url: https://artifacts.apis.io/octopus-deploy/openapi/octopus-deploy-root-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -85,7 +85,7 @@ source_filename: octopus-deploy-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/octopus-deploy-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-Octopus-ApiKey\n  description: |-\n    Preferred authentication mechanism. Generate an API key from\n    your Octopus user profile. The key may also be supplied as the\n    `apikey` query parameter for simple cases.\n  sources:\n  - openapi/octopus-deploy-openapi.yml\n- name: OidcAuth\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://your-octopus-instance/api/oidc/token\n    scopes: 0\n  description: |-\n    Authenticate by exchanging an OpenID Connect identity token from\n    a trusted external system (for example GitHub Actions) for a\n    short-lived Octopus access token.\n  sources:\n  - openapi/octopus-deploy-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/authentication/octopus-deploy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/octopus-deploy/authentication/octopus-deploy-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - DevOps

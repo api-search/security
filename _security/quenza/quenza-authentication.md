@@ -7,25 +7,25 @@ api_specs:
   label: Quenza Clients API
   slug: quenza-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-clients-api-openapi.yml
+  url: https://artifacts.apis.io/quenza/openapi/quenza-clients-api-openapi.yml
 - filename: quenza-groups-api-openapi.yml
   format: yaml
   label: Quenza Groups API
   slug: quenza-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-groups-api-openapi.yml
+  url: https://artifacts.apis.io/quenza/openapi/quenza-groups-api-openapi.yml
 - filename: quenza-members-api-openapi.yml
   format: yaml
   label: Quenza Members API
   slug: quenza-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-members-api-openapi.yml
+  url: https://artifacts.apis.io/quenza/openapi/quenza-members-api-openapi.yml
 - filename: quenza-tasks-api-openapi.yml
   format: yaml
   label: Quenza Tasks API
   slug: quenza-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/quenza/openapi/quenza-tasks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +64,7 @@ source_filename: quenza-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/quenza-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: http\n  type: http\n  scheme: bearer\n  description: |-\n    Authenticate using a **Bearer token** in the `Authorization` header:\n\n    ```\n    Authorization: Bearer {your-token}\n    ```\n\n    You can generate or regenerate your API token in your Quenza workspace under\n    **Settings → Developer Tools → API Token**.\n  sources:\n  - openapi/quenza-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/authentication/quenza-authentication.yml
+source_yaml_url: https://artifacts.apis.io/quenza/authentication/quenza-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Coaching

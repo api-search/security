@@ -5,79 +5,79 @@ api_specs:
   label: Weather.gov Alerts API
   slug: weather-gov-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/openapi/weather-gov-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/weather-gov/openapi/weather-gov-alerts-api-openapi.yml
 - filename: weather-gov-aviation-api-openapi.yml
   format: yaml
   label: Weather.gov Aviation API
   slug: weather-gov-aviation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/openapi/weather-gov-aviation-api-openapi.yml
+  url: https://artifacts.apis.io/weather-gov/openapi/weather-gov-aviation-api-openapi.yml
 - filename: weather-gov-glossary-api-openapi.yml
   format: yaml
   label: Weather.gov Glossary API
   slug: weather-gov-glossary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/openapi/weather-gov-glossary-api-openapi.yml
+  url: https://artifacts.apis.io/weather-gov/openapi/weather-gov-glossary-api-openapi.yml
 - filename: weather-gov-gridpoints-api-openapi.yml
   format: yaml
   label: Weather.gov Gridpoints API
   slug: weather-gov-gridpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/openapi/weather-gov-gridpoints-api-openapi.yml
+  url: https://artifacts.apis.io/weather-gov/openapi/weather-gov-gridpoints-api-openapi.yml
 - filename: weather-gov-icons-api-openapi.yml
   format: yaml
   label: Weather.gov Icons API
   slug: weather-gov-icons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/openapi/weather-gov-icons-api-openapi.yml
+  url: https://artifacts.apis.io/weather-gov/openapi/weather-gov-icons-api-openapi.yml
 - filename: weather-gov-offices-api-openapi.yml
   format: yaml
   label: Weather.gov Offices API
   slug: weather-gov-offices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/openapi/weather-gov-offices-api-openapi.yml
+  url: https://artifacts.apis.io/weather-gov/openapi/weather-gov-offices-api-openapi.yml
 - filename: weather-gov-points-api-openapi.yml
   format: yaml
   label: Weather.gov Points API
   slug: weather-gov-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/openapi/weather-gov-points-api-openapi.yml
+  url: https://artifacts.apis.io/weather-gov/openapi/weather-gov-points-api-openapi.yml
 - filename: weather-gov-products-api-openapi.yml
   format: yaml
   label: Weather.gov Products API
   slug: weather-gov-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/openapi/weather-gov-products-api-openapi.yml
+  url: https://artifacts.apis.io/weather-gov/openapi/weather-gov-products-api-openapi.yml
 - filename: weather-gov-radar-api-openapi.yml
   format: yaml
   label: Weather.gov Radar API
   slug: weather-gov-radar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/openapi/weather-gov-radar-api-openapi.yml
+  url: https://artifacts.apis.io/weather-gov/openapi/weather-gov-radar-api-openapi.yml
 - filename: weather-gov-radio-api-openapi.yml
   format: yaml
   label: Weather.gov Radio API
   slug: weather-gov-radio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/openapi/weather-gov-radio-api-openapi.yml
+  url: https://artifacts.apis.io/weather-gov/openapi/weather-gov-radio-api-openapi.yml
 - filename: weather-gov-stations-api-openapi.yml
   format: yaml
   label: Weather.gov Stations API
   slug: weather-gov-stations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/openapi/weather-gov-stations-api-openapi.yml
+  url: https://artifacts.apis.io/weather-gov/openapi/weather-gov-stations-api-openapi.yml
 - filename: weather-gov-thumbnails-api-openapi.yml
   format: yaml
   label: Weather.gov Thumbnails API
   slug: weather-gov-thumbnails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/openapi/weather-gov-thumbnails-api-openapi.yml
+  url: https://artifacts.apis.io/weather-gov/openapi/weather-gov-thumbnails-api-openapi.yml
 - filename: weather-gov-zones-api-openapi.yml
   format: yaml
   label: Weather.gov Zones API
   slug: weather-gov-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/openapi/weather-gov-zones-api-openapi.yml
+  url: https://artifacts.apis.io/weather-gov/openapi/weather-gov-zones-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -113,7 +113,7 @@ source_filename: weather-gov-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.weather.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 17:22:04 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.weather.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 17:22:04 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: weather.gov\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/security/weather-gov-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/weather-gov/security/weather-gov-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Weather

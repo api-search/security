@@ -9,25 +9,31 @@ api_specs:
   label: Brand API (Brandfetch) Brands API
   slug: brand-api-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/openapi/brand-api-brands-api-openapi.yml
+  url: https://artifacts.apis.io/brand-api/openapi/brand-api-brands-api-openapi.yml
 - filename: brand-api-context-api-openapi.yml
   format: yaml
   label: Brand API (Brandfetch) Context API
   slug: brand-api-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/openapi/brand-api-context-api-openapi.yml
+  url: https://artifacts.apis.io/brand-api/openapi/brand-api-context-api-openapi.yml
 - filename: brand-api-search-api-openapi.yml
   format: yaml
   label: Brand API (Brandfetch) Search API
   slug: brand-api-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/openapi/brand-api-search-api-openapi.yml
+  url: https://artifacts.apis.io/brand-api/openapi/brand-api-search-api-openapi.yml
 - filename: brand-api-viewer-api-openapi.yml
   format: yaml
   label: Brand API (Brandfetch) Viewer API
   slug: brand-api-viewer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/openapi/brand-api-viewer-api-openapi.yml
+  url: https://artifacts.apis.io/brand-api/openapi/brand-api-viewer-api-openapi.yml
+- filename: brand-api-agents-api-openapi.yml
+  format: yaml
+  label: Brand API (Brandfetch) Agents API
+  slug: brand-api-agents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/brand-api/openapi/brand-api-agents-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -118,7 +124,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: https://docs.br
   schemes:\n  - name: bearerAuth\n    type: http\n    scheme: bearer\n    in: header\n    parameter: Authorization\n    format: 'Authorization: Bearer <api_key>'\n    applies_to: [Brand API, Brand Context API, Transaction API, Viewer API]\n    sources: [openapi/brand-api-brandfetch-openapi.yml]\n    declared_on_operations:\n      - getBrandData\n      - getBrandDataByDomain\n      - getBrandDataByTicker\n      - getBrandDataByIsin\n      - getBrandDataByCrypto\n      - getBrandContext\n      - getBrandFromTransaction\n      - getViewer\n  - name: clientId\n    type: apiKey\n    in: query\n    parameter: c\n    format: '?c=<client_id>'\n    applies_to: [Logo API, Brand Search API]\n    secret: false\n    sources:\n      - openapi/brand-api-brandfetch-openapi.yml\n      - https://docs.brandfetch.com/logo-api/overview\n    note: >-\n      Present in the spec as a required query parameter on searchBrands rather than as a\n      securityScheme, which is why the mechanical derive missed it. The\
   \ Client ID is\n      embedded in the `src` of a public <img> tag and is explicitly not a secret — it\n      scopes fair-use rate limiting, not authorization. Logo CDN requests additionally\n      require a Referer header and a Referrer-Policy of origin, origin-when-cross-origin,\n      strict-origin, strict-origin-when-cross-origin or unsafe-url.\n  - name: mcpOAuth\n    type: oauth2\n    applies_to: [MCP server]\n    issuer: https://developers.brandfetch.com\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://developers.brandfetch.com/oauth/authorize\n        tokenUrl: https://developers.brandfetch.com/api/oauth/token\n        registrationUrl: https://developers.brandfetch.com/api/oauth/register\n        pkce: [S256]\n        scopes: {read: Read access to Brandfetch brand data}\n    sources:\n      - https://developers.brandfetch.com/.well-known/oauth-authorization-server\n      - https://mcp.brandfetch.io/.well-known/oauth-protected-resource\n    see: scopes/brand-api-scopes.yml\n\
   \  - name: mcpToken\n    type: http\n    scheme: bearer\n    in: header\n    parameter: Authorization\n    prefix: 'bf1.'\n    applies_to: [MCP server]\n    sources: [https://docs.brandfetch.com/mcp/overview]\n    note: >-\n      Non-interactive fallback for MCP clients that cannot run an OAuth flow (CI,\n      scripted agents). Minted in the Keys and MCP section of the developer dashboard.\ncredential_introspection:\n  operation: getViewer\n  path: GET /v2/viewer\n  returns: 'ViewerApiKeyResponse | ViewerUserResponse — a `type` field says which credential was presented.'\n  semantics: '200 = valid credential; 401 = missing/unknown; 403 = revoked key or expired session.'\n  note: 'A genuinely useful integration-time affordance most providers do not ship.'\nfailure_modes:\n  - 'Sending a Client ID as a Bearer token (or an API key as ?c=) returns 401 Unauthorized.'\n  - 'Logo CDN requests without an acceptable Referrer-Policy can be rate limited or blocked.'\ndocs: https://docs.brandfetch.com/get-started\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/authentication/brand-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/brand-api/authentication/brand-api-authentication.yml
 summary_line: http/apiKey/oauth2 · 4 schemes
 tags:
 - Brands

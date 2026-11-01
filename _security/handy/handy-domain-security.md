@@ -5,25 +5,25 @@ api_specs:
   label: handy Bookings API
   slug: handy-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/handy/refs/heads/main/openapi/handy-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/handy/openapi/handy-bookings-api-openapi.yml
 - filename: handy-order-products-api-openapi.yml
   format: yaml
   label: handy Order Products API
   slug: handy-order-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/handy/refs/heads/main/openapi/handy-order-products-api-openapi.yml
+  url: https://artifacts.apis.io/handy/openapi/handy-order-products-api-openapi.yml
 - filename: handy-orders-api-openapi.yml
   format: yaml
   label: handy Orders API
   slug: handy-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/handy/refs/heads/main/openapi/handy-orders-api-openapi.yml
+  url: https://artifacts.apis.io/handy/openapi/handy-orders-api-openapi.yml
 - filename: handy-testing-api-openapi.yml
   format: yaml
   label: handy Testing API
   slug: handy-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/handy/refs/heads/main/openapi/handy-testing-api-openapi.yml
+  url: https://artifacts.apis.io/handy/openapi/handy-testing-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: handy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: handy.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 31 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: handy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/handy/refs/heads/main/security/handy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/handy/security/handy-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company

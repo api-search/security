@@ -5,31 +5,31 @@ api_specs:
   label: Billieio Authentication API
   slug: billieio-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/openapi/billieio-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/billieio/openapi/billieio-authentication-api-openapi.yml
 - filename: billieio-back-end-order-creation-api-openapi.yml
   format: yaml
   label: Billieio Back-end Order Creation API
   slug: billieio-back-end-order-creation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/openapi/billieio-back-end-order-creation-api-openapi.yml
+  url: https://artifacts.apis.io/billieio/openapi/billieio-back-end-order-creation-api-openapi.yml
 - filename: billieio-captures-api-openapi.yml
   format: yaml
   label: Billieio Captures API
   slug: billieio-captures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/openapi/billieio-captures-api-openapi.yml
+  url: https://artifacts.apis.io/billieio/openapi/billieio-captures-api-openapi.yml
 - filename: billieio-front-end-order-creation-api-openapi.yml
   format: yaml
   label: Billieio Front-end Order Creation API
   slug: billieio-front-end-order-creation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/openapi/billieio-front-end-order-creation-api-openapi.yml
+  url: https://artifacts.apis.io/billieio/openapi/billieio-front-end-order-creation-api-openapi.yml
 - filename: billieio-order-management-api-openapi.yml
   format: yaml
   label: Billieio Order Management API
   slug: billieio-order-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/openapi/billieio-order-management-api-openapi.yml
+  url: https://artifacts.apis.io/billieio/openapi/billieio-order-management-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: billieio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.billie.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: billie.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/security/billieio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/billieio/security/billieio-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Fintech

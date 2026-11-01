@@ -8,55 +8,55 @@ api_specs:
   label: iBanFirst Accounts API
   slug: ibanfirst-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/openapi/ibanfirst-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/ibanfirst/openapi/ibanfirst-accounts-api-openapi.yml
 - filename: ibanfirst-beneficiaries-api-openapi.yml
   format: yaml
   label: iBanFirst Beneficiaries API
   slug: ibanfirst-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/openapi/ibanfirst-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/ibanfirst/openapi/ibanfirst-beneficiaries-api-openapi.yml
 - filename: ibanfirst-documents-api-openapi.yml
   format: yaml
   label: iBanFirst Documents API
   slug: ibanfirst-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/openapi/ibanfirst-documents-api-openapi.yml
+  url: https://artifacts.apis.io/ibanfirst/openapi/ibanfirst-documents-api-openapi.yml
 - filename: ibanfirst-financial-movements-api-openapi.yml
   format: yaml
   label: iBanFirst Financial movements API
   slug: ibanfirst-financial-movements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/openapi/ibanfirst-financial-movements-api-openapi.yml
+  url: https://artifacts.apis.io/ibanfirst/openapi/ibanfirst-financial-movements-api-openapi.yml
 - filename: ibanfirst-fixed-forward-payment-contract-api-openapi.yml
   format: yaml
   label: iBanFirst Fixed forward payment contract API
   slug: ibanfirst-fixed-forward-payment-contract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/openapi/ibanfirst-fixed-forward-payment-contract-api-openapi.yml
+  url: https://artifacts.apis.io/ibanfirst/openapi/ibanfirst-fixed-forward-payment-contract-api-openapi.yml
 - filename: ibanfirst-logs-api-openapi.yml
   format: yaml
   label: iBanFirst Logs API
   slug: ibanfirst-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/openapi/ibanfirst-logs-api-openapi.yml
+  url: https://artifacts.apis.io/ibanfirst/openapi/ibanfirst-logs-api-openapi.yml
 - filename: ibanfirst-payments-api-openapi.yml
   format: yaml
   label: iBanFirst Payments API
   slug: ibanfirst-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/openapi/ibanfirst-payments-api-openapi.yml
+  url: https://artifacts.apis.io/ibanfirst/openapi/ibanfirst-payments-api-openapi.yml
 - filename: ibanfirst-spot-trades-api-openapi.yml
   format: yaml
   label: iBanFirst Spot trades API
   slug: ibanfirst-spot-trades-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/openapi/ibanfirst-spot-trades-api-openapi.yml
+  url: https://artifacts.apis.io/ibanfirst/openapi/ibanfirst-spot-trades-api-openapi.yml
 - filename: ibanfirst-webhook-subscriptions-api-openapi.yml
   format: yaml
   label: iBanFirst Webhook subscriptions API
   slug: ibanfirst-webhook-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/openapi/ibanfirst-webhook-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/ibanfirst/openapi/ibanfirst-webhook-subscriptions-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -153,7 +153,7 @@ source_yaml: "generated: '2026-08-17'\nmethod: searched\nsource: openapi/ibanfir
   \ authorizationUrl: https://mcp.ibanfirst.com/authorize\n        tokenUrl: https://mcp.ibanfirst.com/token\n        pkce: S256\n        scopes: {}\n    issuer: https://mcp.ibanfirst.com/\n    registration_endpoint: https://mcp.ibanfirst.com/register\n    dynamic_client_registration: true\n    grant_types_supported: [authorization_code, refresh_token]\n    token_endpoint_auth_methods_supported: [client_secret_post]\n    bearer_methods_supported: [header]\n    scopes_advertised: none\n    credential_issuance: >-\n      iBanFirst issues an \"OAuth Client ID\" and \"OAuth Client Password\" that the user enters when\n      adding the connector in Claude.\n    observations:\n      - >-\n        The authorization-server metadata advertises no scopes_supported, so the MCP surface has\n        no published scope vocabulary. Authorization is all-or-nothing per connected account.\n\n  - name: eIDAS QWAC mutual TLS\n    type: mutualTLS\n    surface: iBanFirst PSD2 XS2A API (AIS/PIS)\n    docs: https://ibanfirst.com/psd2-api\n\
   \    method: searched\n    requirement: >-\n      \"If you are a registered Third-Party Provider (TPP), with a qualified EIDAS QWAC and wish\n      to use iBanFirst API, please contact us at open-api@ibanfirst.com\"\n    sandbox: https://open-api-sdbx.ibanfirst.com/Banking/API\n    probe_result: >-\n      An anonymous HTTPS request to the sandbox host fails at the TLS layer (curl exit 56,\n      SSL_read error) rather than returning an HTTP status - consistent with a listener that\n      requires a client certificate. No specification could be retrieved.\n    sca: >-\n      Strong customer authentication is in scope of the PSD2 API per the provider's description\n      (accounts information, payment initiation and secure customer authentication).\n\nx-evidence:\n  checked: '2026-08-17'\n  probes:\n    - url: https://docs.ibanfirst.com/_spec/api/ClientAPI.yaml\n      http_status: 200\n    - url: https://docs.ibanfirst.com/api/clientapi/section/authentication-x-wsse\n      http_status: 200\n\
   \    - url: https://mcp.ibanfirst.com/.well-known/oauth-authorization-server\n      http_status: 200\n    - url: https://open-api-sdbx.ibanfirst.com/Banking/API\n      http_status: 0\n      note: TLS handshake terminated by the server; no HTTP response\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/authentication/ibanfirst-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ibanfirst/authentication/ibanfirst-authentication.yml
 summary_line: apiKey/oauth2/mutualTLS · 3 schemes
 tags:
 - Company

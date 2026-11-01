@@ -9,43 +9,43 @@ api_specs:
   label: Datadog APM Spans API
   slug: datadog-apm-spans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog-apm/refs/heads/main/openapi/datadog-apm-spans-api-openapi.yml
+  url: https://artifacts.apis.io/datadog-apm/openapi/datadog-apm-spans-api-openapi.yml
 - filename: datadog-apm-spans-metrics-api-openapi.yml
   format: yaml
   label: Datadog APM Spans Metrics API
   slug: datadog-apm-spans-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog-apm/refs/heads/main/openapi/datadog-apm-spans-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/datadog-apm/openapi/datadog-apm-spans-metrics-api-openapi.yml
 - filename: datadog-apm-apm-api-openapi.yml
   format: yaml
   label: Datadog APM API
   slug: datadog-apm-apm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog-apm/refs/heads/main/openapi/datadog-apm-apm-api-openapi.yml
+  url: https://artifacts.apis.io/datadog-apm/openapi/datadog-apm-apm-api-openapi.yml
 - filename: datadog-apm-apm-retention-filters-api-openapi.yml
   format: yaml
   label: Datadog APM Retention Filters API
   slug: datadog-apm-apm-retention-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog-apm/refs/heads/main/openapi/datadog-apm-apm-retention-filters-api-openapi.yml
+  url: https://artifacts.apis.io/datadog-apm/openapi/datadog-apm-apm-retention-filters-api-openapi.yml
 - filename: datadog-apm-service-definition-api-openapi.yml
   format: yaml
   label: Datadog APM Service Definition API
   slug: datadog-apm-service-definition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog-apm/refs/heads/main/openapi/datadog-apm-service-definition-api-openapi.yml
+  url: https://artifacts.apis.io/datadog-apm/openapi/datadog-apm-service-definition-api-openapi.yml
 - filename: datadog-apm-service-level-objective-corrections-api-openapi.yml
   format: yaml
   label: Datadog APM Service Level Objective Corrections API
   slug: datadog-apm-service-level-objective-corrections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog-apm/refs/heads/main/openapi/datadog-apm-service-level-objective-corrections-api-openapi.yml
+  url: https://artifacts.apis.io/datadog-apm/openapi/datadog-apm-service-level-objective-corrections-api-openapi.yml
 - filename: datadog-apm-service-level-objectives-api-openapi.yml
   format: yaml
   label: Datadog APM Service Level Objectives API
   slug: datadog-apm-service-level-objectives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog-apm/refs/heads/main/openapi/datadog-apm-service-level-objectives-api-openapi.yml
+  url: https://artifacts.apis.io/datadog-apm/openapi/datadog-apm-service-level-objectives-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -141,7 +141,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: derived\nsource: openapi/datadog-
   \  - openapi/datadog-apm-slos-api-openapi.yml\n  - openapi/datadog-apm-spans-api-openapi.yml\n  - openapi/datadog-apm-spans-metrics-api-openapi.yml\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: DD-API-KEY\n  description: Your Datadog API Key.\n  sources:\n  - openapi/datadog-apm-retention-filters-api-openapi.yml\n  - openapi/datadog-apm-service-definitions-api-openapi.yml\n  - openapi/datadog-apm-services-api-openapi.yml\n  - openapi/datadog-apm-slo-corrections-api-openapi.yml\n  - openapi/datadog-apm-slos-api-openapi.yml\n  - openapi/datadog-apm-spans-api-openapi.yml\n  - openapi/datadog-apm-spans-metrics-api-openapi.yml\n- name: appKeyAuth\n  type: apiKey\n  in: header\n  parameter: DD-APPLICATION-KEY\n  description: Your Datadog APP Key.\n  sources:\n  - openapi/datadog-apm-retention-filters-api-openapi.yml\n  - openapi/datadog-apm-service-definitions-api-openapi.yml\n  - openapi/datadog-apm-services-api-openapi.yml\n  - openapi/datadog-apm-slo-corrections-api-openapi.yml\n\
   \  - openapi/datadog-apm-slos-api-openapi.yml\n  - openapi/datadog-apm-spans-api-openapi.yml\n  - openapi/datadog-apm-spans-metrics-api-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/datadog-apm-retention-filters-api-openapi.yml\n  - openapi/datadog-apm-service-definitions-api-openapi.yml\n  - openapi/datadog-apm-services-api-openapi.yml\n  - openapi/datadog-apm-slo-corrections-api-openapi.yml\n  - openapi/datadog-apm-slos-api-openapi.yml\n  - openapi/datadog-apm-spans-api-openapi.yml\n  - openapi/datadog-apm-spans-metrics-api-openapi.yml\n- name: apiKeyAuthQuery\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: Deprecated API Key as query argument.\n  sources:\n  - openapi/datadog-apm-slo-corrections-api-openapi.yml\n  - openapi/datadog-apm-slos-api-openapi.yml\n- name: appKeyAuthQuery\n  type: apiKey\n  in: query\n  parameter: application_key\n  description: Deprecated APP Key as query argument.\n  sources:\n  - openapi/datadog-apm-slo-corrections-api-openapi.yml\n\
   \  - openapi/datadog-apm-slos-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datadog-apm/refs/heads/main/authentication/datadog-apm-authentication.yml
+source_yaml_url: https://artifacts.apis.io/datadog-apm/authentication/datadog-apm-authentication.yml
 summary_line: apiKey/http/oauth2 · 6 schemes
 tags:
 - APM

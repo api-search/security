@@ -8,43 +8,43 @@ api_specs:
   label: Komerce Cost API
   slug: komerce-cost-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-cost-api-openapi.yml
+  url: https://artifacts.apis.io/komerce/openapi/komerce-cost-api-openapi.yml
 - filename: komerce-destinations-api-openapi.yml
   format: yaml
   label: Komerce Destinations API
   slug: komerce-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/komerce/openapi/komerce-destinations-api-openapi.yml
 - filename: komerce-orders-api-openapi.yml
   format: yaml
   label: Komerce Orders API
   slug: komerce-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-orders-api-openapi.yml
+  url: https://artifacts.apis.io/komerce/openapi/komerce-orders-api-openapi.yml
 - filename: komerce-payments-api-openapi.yml
   format: yaml
   label: Komerce Payments API
   slug: komerce-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-payments-api-openapi.yml
+  url: https://artifacts.apis.io/komerce/openapi/komerce-payments-api-openapi.yml
 - filename: komerce-pickup-api-openapi.yml
   format: yaml
   label: Komerce Pickup API
   slug: komerce-pickup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-pickup-api-openapi.yml
+  url: https://artifacts.apis.io/komerce/openapi/komerce-pickup-api-openapi.yml
 - filename: komerce-qris-api-openapi.yml
   format: yaml
   label: Komerce QRIS API
   slug: komerce-qris-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-qris-api-openapi.yml
+  url: https://artifacts.apis.io/komerce/openapi/komerce-qris-api-openapi.yml
 - filename: komerce-tracking-api-openapi.yml
   format: yaml
   label: Komerce Tracking API
   slug: komerce-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/komerce/openapi/komerce-tracking-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -89,7 +89,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/komerce-payment-openapi.yml, openapi/komerce-qrisly-openapi.yml, openapi/komerce-shipping-cost-openapi.yml,\n  openapi/komerce-shipping-delivery-openapi.yml\ndocs:\n- https://rajaongkir.com/docs/shipping-cost/getting_started/apikey\n- https://rajaongkir.com/docs/delivery-order-api/getting_started/api-key\n- https://rajaongkir.com/docs/payment-api/getting-started/authentication\n- https://rajaongkir.com/docs/qrisly/getting-started/authentication\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  oauth2_flows: []\n  note: >-\n    Every Komerce surface uses a header API key and nothing else — no OAuth 2.0, OIDC, basic,\n    bearer or mTLS. Crucially the keys are per-product and NOT interchangeable: the docs warn\n    explicitly against using a key issued for one service against another. Keys are issued and\n    rotated from the Collaborator dashboard under Developer -> Settings -> Api Key. Sandbox and\n    production\
   \ require separate keys, and a sandbox key will not work in production without\n    administrator approval. HTTPS is required.\n  issuance: https://collaborator.komerce.id/registration\n  dashboard: https://collaborator.komerce.id\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: Payment API key from the Collaborator dashboard — the same key used for Komerce\n    Shipping (RajaOngkir). Sandbox keys use the sandbox prefix, production keys the live prefix.\n  sources:\n  - openapi/komerce-payment-openapi.yml\n  - openapi/komerce-shipping-delivery-openapi.yml\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: QRISLY API key generated from the RajaOngkir Collaborator dashboard (Developer\n    -> API Settings -> Generate New API Key).\n  sources:\n  - openapi/komerce-qrisly-openapi.yml\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: key\n  description: Shipping Cost API key from the Collaborator\
   \ dashboard (Developer -> Settings\n    -> Api Key).\n  sources:\n  - openapi/komerce-shipping-cost-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/authentication/komerce-authentication.yml
+source_yaml_url: https://artifacts.apis.io/komerce/authentication/komerce-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - Company

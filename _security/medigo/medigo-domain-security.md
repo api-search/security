@@ -5,37 +5,37 @@ api_specs:
   label: Medigo Attachments API
   slug: medigo-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/openapi/medigo-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/medigo/openapi/medigo-attachments-api-openapi.yml
 - filename: medigo-inquiries-api-openapi.yml
   format: yaml
   label: Medigo Inquiries API
   slug: medigo-inquiries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/openapi/medigo-inquiries-api-openapi.yml
+  url: https://artifacts.apis.io/medigo/openapi/medigo-inquiries-api-openapi.yml
 - filename: medigo-search-api-openapi.yml
   format: yaml
   label: Medigo Search API
   slug: medigo-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/openapi/medigo-search-api-openapi.yml
+  url: https://artifacts.apis.io/medigo/openapi/medigo-search-api-openapi.yml
 - filename: medigo-second-opinions-api-openapi.yml
   format: yaml
   label: Medigo Second Opinions API
   slug: medigo-second-opinions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/openapi/medigo-second-opinions-api-openapi.yml
+  url: https://artifacts.apis.io/medigo/openapi/medigo-second-opinions-api-openapi.yml
 - filename: medigo-tpa-api-openapi.yml
   format: yaml
   label: Medigo Tpa API
   slug: medigo-tpa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/openapi/medigo-tpa-api-openapi.yml
+  url: https://artifacts.apis.io/medigo/openapi/medigo-tpa-api-openapi.yml
 - filename: medigo-webhooks-api-openapi.yml
   format: yaml
   label: Medigo Webhooks API
   slug: medigo-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/openapi/medigo-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/medigo/openapi/medigo-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: medigo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.medigo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 13:17:39 2026 GMT\n  hsts: null\n- host: api.medigo.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 26 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: medigo.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/security/medigo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/medigo/security/medigo-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

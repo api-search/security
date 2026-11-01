@@ -23,7 +23,7 @@ source_filename: betteryeah-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: betteryeah.com\n  https: false\ndomains:\n- domain: betteryeah.com\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/betteryeah/refs/heads/main/security/betteryeah-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/betteryeah/security/betteryeah-domain-security.yml
 summary_line: DNSSEC
 tags:
 - Company

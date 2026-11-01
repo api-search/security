@@ -7,25 +7,25 @@ api_specs:
   label: Shapeways Cart API
   slug: shapeways-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeways/refs/heads/main/openapi/shapeways-cart-api-openapi.yml
+  url: https://artifacts.apis.io/shapeways/openapi/shapeways-cart-api-openapi.yml
 - filename: shapeways-materials-api-openapi.yml
   format: yaml
   label: Shapeways Materials API
   slug: shapeways-materials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeways/refs/heads/main/openapi/shapeways-materials-api-openapi.yml
+  url: https://artifacts.apis.io/shapeways/openapi/shapeways-materials-api-openapi.yml
 - filename: shapeways-models-api-openapi.yml
   format: yaml
   label: Shapeways Models API
   slug: shapeways-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeways/refs/heads/main/openapi/shapeways-models-api-openapi.yml
+  url: https://artifacts.apis.io/shapeways/openapi/shapeways-models-api-openapi.yml
 - filename: shapeways-orders-api-openapi.yml
   format: yaml
   label: Shapeways Orders API
   slug: shapeways-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeways/refs/heads/main/openapi/shapeways-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shapeways/openapi/shapeways-orders-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -62,7 +62,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://developers.shapeways.com/getting-started\ndocs: https://developers.shapeways.com/getting-started\nsummary:\n  types: [oauth2]\n  oauth2_flows: [clientCredentials, authorizationCode]\n  token_type: bearer\n  token_ttl_seconds: 3600\nschemes:\n  - name: oauth2\n    type: oauth2\n    description: >-\n      OAuth 2.0. Single-account apps (the app owner's own account) use the\n      client_credentials grant with a Client ID + Client Secret obtained from\n      the Manage Apps dashboard. Apps acting on behalf of other Shapeways users\n      use the authorization_code grant with a redirect_uri, then exchange the\n      returned code for an access token; the refresh_token grant renews expired\n      access tokens. Access tokens are bearer tokens with expires_in 3600.\n    flows:\n      - flow: clientCredentials\n        tokenUrl: https://api.shapeways.com/oauth2/token\n        scopes: 0\n      - flow: authorizationCode\n  \
   \      authorizationUrl: https://api.shapeways.com/oauth2/authorize\n        tokenUrl: https://api.shapeways.com/oauth2/token\n        scopes: 0\n    sources: [openapi/shapeways-openapi.yml]\napp_management: https://developers.shapeways.com/manage-apps\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shapeways/refs/heads/main/authentication/shapeways-authentication.yml
+source_yaml_url: https://artifacts.apis.io/shapeways/authentication/shapeways-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

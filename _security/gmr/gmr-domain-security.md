@@ -27,7 +27,7 @@ source_filename: gmr-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gmr.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: gmr.xyz\n  dnssec: true\n  caa:\n  - dqcq79cfzkeej.cloudfront.net.\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gmr/refs/heads/main/security/gmr-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gmr/security/gmr-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company

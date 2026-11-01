@@ -5,25 +5,25 @@ api_specs:
   label: Elead Activities API
   slug: elead-crm-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elead-crm/refs/heads/main/openapi/elead-crm-activities-api-openapi.yml
+  url: https://artifacts.apis.io/elead-crm/openapi/elead-crm-activities-api-openapi.yml
 - filename: elead-crm-customers-api-openapi.yml
   format: yaml
   label: Elead Customers API
   slug: elead-crm-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elead-crm/refs/heads/main/openapi/elead-crm-customers-api-openapi.yml
+  url: https://artifacts.apis.io/elead-crm/openapi/elead-crm-customers-api-openapi.yml
 - filename: elead-crm-opportunities-api-openapi.yml
   format: yaml
   label: Elead Opportunities API
   slug: elead-crm-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elead-crm/refs/heads/main/openapi/elead-crm-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/elead-crm/openapi/elead-crm-opportunities-api-openapi.yml
 - filename: elead-crm-reference-data-api-openapi.yml
   format: yaml
   label: Elead Reference Data API
   slug: elead-crm-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elead-crm/refs/heads/main/openapi/elead-crm-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/elead-crm/openapi/elead-crm-reference-data-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -68,7 +68,7 @@ source_filename: elead-crm-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.eleadcrm.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 23:59:59 2026 GMT\n  hsts: false\n- host: apidocs.fortellis.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 29 23:59:59 2026 GMT\n  hsts: false\n- host: api.fortellis.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec  4 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: eleadcrm.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: fortellis.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elead-crm/refs/heads/main/security/elead-crm-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/elead-crm/security/elead-crm-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - CRM

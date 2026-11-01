@@ -8,7 +8,7 @@ api_specs:
   label: Blocktorch Hardhat API
   slug: blocktorch-hardhat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blocktorch/refs/heads/main/openapi/blocktorch-hardhat-api-openapi.yml
+  url: https://artifacts.apis.io/blocktorch/openapi/blocktorch-hardhat-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: blocktorch-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/blocktorch-hardhat-forking-openapi.yml\ndocs: https://docs.blocktorch.xyz/concepts/data-sources/local-forks/hardhat-forking-api.md\nnotes: >-\n  API access uses a project-scoped API key passed in the x-api-key header. Keys\n  are created on the Settings page of the Blocktorch project dashboard. Platform\n  (dashboard) sign-in additionally supports email magic-link, Google/GitHub SSO,\n  and Web3 wallet, but those govern the app UI, not the documented API.\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: API key created on the Settings page of your Blocktorch project dashboard. Include\n    it in the header of every request.\n  sources:\n  - openapi/blocktorch-hardhat-forking-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blocktorch/refs/heads/main/authentication/blocktorch-authentication.yml
+source_yaml_url: https://artifacts.apis.io/blocktorch/authentication/blocktorch-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

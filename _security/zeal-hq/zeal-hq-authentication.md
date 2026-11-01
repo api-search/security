@@ -7,61 +7,61 @@ api_specs:
   label: Zeal Companies API
   slug: zeal-hq-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-companies-api-openapi.yml
+  url: https://artifacts.apis.io/zeal-hq/openapi/zeal-hq-companies-api-openapi.yml
 - filename: zeal-hq-contractor-payments-api-openapi.yml
   format: yaml
   label: Zeal Contractor Payments API
   slug: zeal-hq-contractor-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-contractor-payments-api-openapi.yml
+  url: https://artifacts.apis.io/zeal-hq/openapi/zeal-hq-contractor-payments-api-openapi.yml
 - filename: zeal-hq-contractors-api-openapi.yml
   format: yaml
   label: Zeal Contractors API
   slug: zeal-hq-contractors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-contractors-api-openapi.yml
+  url: https://artifacts.apis.io/zeal-hq/openapi/zeal-hq-contractors-api-openapi.yml
 - filename: zeal-hq-employee-check-api-openapi.yml
   format: yaml
   label: Zeal Employee Check API
   slug: zeal-hq-employee-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-employee-check-api-openapi.yml
+  url: https://artifacts.apis.io/zeal-hq/openapi/zeal-hq-employee-check-api-openapi.yml
 - filename: zeal-hq-employees-api-openapi.yml
   format: yaml
   label: Zeal Employees API
   slug: zeal-hq-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-employees-api-openapi.yml
+  url: https://artifacts.apis.io/zeal-hq/openapi/zeal-hq-employees-api-openapi.yml
 - filename: zeal-hq-funding-api-openapi.yml
   format: yaml
   label: Zeal Funding API
   slug: zeal-hq-funding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-funding-api-openapi.yml
+  url: https://artifacts.apis.io/zeal-hq/openapi/zeal-hq-funding-api-openapi.yml
 - filename: zeal-hq-onboarding-api-openapi.yml
   format: yaml
   label: Zeal Onboarding API
   slug: zeal-hq-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/zeal-hq/openapi/zeal-hq-onboarding-api-openapi.yml
 - filename: zeal-hq-pay-schedules-api-openapi.yml
   format: yaml
   label: Zeal Pay Schedules API
   slug: zeal-hq-pay-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-pay-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/zeal-hq/openapi/zeal-hq-pay-schedules-api-openapi.yml
 - filename: zeal-hq-reports-api-openapi.yml
   format: yaml
   label: Zeal Reports API
   slug: zeal-hq-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-reports-api-openapi.yml
+  url: https://artifacts.apis.io/zeal-hq/openapi/zeal-hq-reports-api-openapi.yml
 - filename: zeal-hq-tax-api-openapi.yml
   format: yaml
   label: Zeal Tax API
   slug: zeal-hq-tax-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-tax-api-openapi.yml
+  url: https://artifacts.apis.io/zeal-hq/openapi/zeal-hq-tax-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -88,7 +88,7 @@ source_filename: zeal-hq-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/zeal-hq-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Provide your Zeal API key as a Bearer token: `Authorization: Bearer <YOUR_API_KEY>`.\n    Use a test key for Test Mode and a live key for production. Requests are additionally scoped\n    by a companyID passed in the body or query.'\n  sources:\n  - openapi/zeal-hq-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/authentication/zeal-hq-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zeal-hq/authentication/zeal-hq-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Payroll

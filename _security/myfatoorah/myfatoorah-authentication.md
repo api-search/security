@@ -7,55 +7,55 @@ api_specs:
   label: MyFatoorah Invoicing API
   slug: myfatoorah-invoicing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-invoicing-api-openapi.yml
+  url: https://artifacts.apis.io/myfatoorah/openapi/myfatoorah-invoicing-api-openapi.yml
 - filename: myfatoorah-payment-status-api-openapi.yml
   format: yaml
   label: MyFatoorah Payment Status API
   slug: myfatoorah-payment-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-payment-status-api-openapi.yml
+  url: https://artifacts.apis.io/myfatoorah/openapi/myfatoorah-payment-status-api-openapi.yml
 - filename: myfatoorah-payments-api-openapi.yml
   format: yaml
   label: MyFatoorah Payments API
   slug: myfatoorah-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-payments-api-openapi.yml
+  url: https://artifacts.apis.io/myfatoorah/openapi/myfatoorah-payments-api-openapi.yml
 - filename: myfatoorah-recurring-api-openapi.yml
   format: yaml
   label: MyFatoorah Recurring API
   slug: myfatoorah-recurring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-recurring-api-openapi.yml
+  url: https://artifacts.apis.io/myfatoorah/openapi/myfatoorah-recurring-api-openapi.yml
 - filename: myfatoorah-refunds-api-openapi.yml
   format: yaml
   label: MyFatoorah Refunds API
   slug: myfatoorah-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/myfatoorah/openapi/myfatoorah-refunds-api-openapi.yml
 - filename: myfatoorah-sessions-api-openapi.yml
   format: yaml
   label: MyFatoorah Sessions API
   slug: myfatoorah-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/myfatoorah/openapi/myfatoorah-sessions-api-openapi.yml
 - filename: myfatoorah-shipping-api-openapi.yml
   format: yaml
   label: MyFatoorah Shipping API
   slug: myfatoorah-shipping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-shipping-api-openapi.yml
+  url: https://artifacts.apis.io/myfatoorah/openapi/myfatoorah-shipping-api-openapi.yml
 - filename: myfatoorah-suppliers-api-openapi.yml
   format: yaml
   label: MyFatoorah Suppliers API
   slug: myfatoorah-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/myfatoorah/openapi/myfatoorah-suppliers-api-openapi.yml
 - filename: myfatoorah-webhooks-api-openapi.yml
   format: yaml
   label: MyFatoorah Webhooks API
   slug: myfatoorah-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/myfatoorah/openapi/myfatoorah-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -84,7 +84,7 @@ source_filename: myfatoorah-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: derived\nsource: openapi/myfatoorah-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    MyFatoorah authenticates every REST request with a Bearer API token passed as\n    `Authorization: Bearer {token}`. Tokens are issued from the MyFatoorah portal\n    (log in with the Super Master Account, then Integration Settings -> API Key);\n    up to five tokens can be created per account with custom names, expiration\n    dates, and per-endpoint permissions. Each enabled country requires its own\n    token, and calling an endpoint the token lacks permission for returns HTTP 401\n    with \"The token does not have the required permissions!\". A public sandbox\n    demo token is published in the docs for testing against apitest.myfatoorah.com.\n  sources:\n  - openapi/myfatoorah-openapi.yml\n  - https://docs.myfatoorah.com/docs/api-key\n  - https://docs.myfatoorah.com/docs/authentication\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/authentication/myfatoorah-authentication.yml
+source_yaml_url: https://artifacts.apis.io/myfatoorah/authentication/myfatoorah-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Payments

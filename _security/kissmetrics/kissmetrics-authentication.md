@@ -7,7 +7,7 @@ api_specs:
   label: Kissmetrics REST API
   slug: rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kissmetrics/refs/heads/main/openapi/kissmetrics-products-api-openapi.yml
+  url: https://artifacts.apis.io/kissmetrics/openapi/kissmetrics-products-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -36,7 +36,7 @@ source_filename: kissmetrics-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/kissmetrics-exports-api-openapi.yml, openapi/kissmetrics-products-api-openapi.yml,\n  openapi/kissmetrics-queries-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic. Base64 of `username:password` (or of `API_KEY:` with an empty password)\n    in the Authorization header.\n  sources:\n  - openapi/kissmetrics-exports-api-openapi.yml\n  - openapi/kissmetrics-products-api-openapi.yml\n  - openapi/kissmetrics-queries-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kissmetrics/refs/heads/main/authentication/kissmetrics-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kissmetrics/authentication/kissmetrics-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Analytics

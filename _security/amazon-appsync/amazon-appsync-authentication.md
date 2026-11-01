@@ -8,55 +8,91 @@ api_specs:
   label: Amazon AppSync Api Keys API
   slug: amazon-appsync-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/openapi/amazon-appsync-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-api-keys-api-openapi.yml
 - filename: amazon-appsync-data-sources-api-openapi.yml
   format: yaml
   label: Amazon AppSync Data Sources API
   slug: amazon-appsync-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/openapi/amazon-appsync-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-data-sources-api-openapi.yml
 - filename: amazon-appsync-domain-names-api-openapi.yml
   format: yaml
   label: Amazon AppSync Domain Names API
   slug: amazon-appsync-domain-names-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/openapi/amazon-appsync-domain-names-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-domain-names-api-openapi.yml
 - filename: amazon-appsync-functions-api-openapi.yml
   format: yaml
   label: Amazon AppSync Functions API
   slug: amazon-appsync-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/openapi/amazon-appsync-functions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-functions-api-openapi.yml
 - filename: amazon-appsync-graphql-apis-api-openapi.yml
   format: yaml
   label: Amazon AppSync GraphQL APIs API
   slug: amazon-appsync-graphql-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/openapi/amazon-appsync-graphql-apis-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-graphql-apis-api-openapi.yml
 - filename: amazon-appsync-resolvers-api-openapi.yml
   format: yaml
   label: Amazon AppSync Resolvers API
   slug: amazon-appsync-resolvers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/openapi/amazon-appsync-resolvers-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-resolvers-api-openapi.yml
 - filename: amazon-appsync-schema-api-openapi.yml
   format: yaml
   label: Amazon AppSync Schema API
   slug: amazon-appsync-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/openapi/amazon-appsync-schema-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-schema-api-openapi.yml
 - filename: amazon-appsync-tags-api-openapi.yml
   format: yaml
   label: Amazon AppSync Tags API
   slug: amazon-appsync-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/openapi/amazon-appsync-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-tags-api-openapi.yml
 - filename: amazon-appsync-types-api-openapi.yml
   format: yaml
   label: Amazon AppSync Types API
   slug: amazon-appsync-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/openapi/amazon-appsync-types-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-types-api-openapi.yml
+- filename: amazon-appsync-apiassociation-api-openapi.yml
+  format: yaml
+  label: Amazon AppSync Appsync Apiassociation API
+  slug: amazon-appsync-apiassociation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-apiassociation-api-openapi.yml
+- filename: amazon-appsync-apicaches-api-openapi.yml
+  format: yaml
+  label: Amazon AppSync Appsync Apicaches API
+  slug: amazon-appsync-apicaches-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-apicaches-api-openapi.yml
+- filename: amazon-appsync-apis-api-openapi.yml
+  format: yaml
+  label: Amazon AppSync Appsync Apis API
+  slug: amazon-appsync-apis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-apis-api-openapi.yml
+- filename: amazon-appsync-channelnamespaces-api-openapi.yml
+  format: yaml
+  label: Amazon AppSync Appsync Channelnamespaces API
+  slug: amazon-appsync-channelnamespaces-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-channelnamespaces-api-openapi.yml
+- filename: amazon-appsync-operations-api-openapi.yml
+  format: yaml
+  label: Amazon AppSync Appsync Operations API
+  slug: amazon-appsync-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-operations-api-openapi.yml
+- filename: amazon-appsync-sourceapiassociations-api-openapi.yml
+  format: yaml
+  label: Amazon AppSync Appsync Sourceapiassociations API
+  slug: amazon-appsync-sourceapiassociations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-sourceapiassociations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -84,7 +120,7 @@ source_filename: amazon-appsync-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-appsync-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: awsAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4 authentication\n  sources:\n  - openapi/amazon-appsync-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/authentication/amazon-appsync-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-appsync/authentication/amazon-appsync-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Amazon AppSync

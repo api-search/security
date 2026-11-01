@@ -43,7 +43,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml hosts + known Douglas Elliman subdomains\nhosts:\n- host: www.elliman.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.elliman.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Apr  3 17:31:36 2027 GMT\n  hsts: false\n  hsts_max_age: null\n  note: >-\n    Private IIS/ASP.NET host. HTTP 403 at root, no anonymous access, no documentation.\n    Probed for transport posture only; it is not a listed API.\n- host: status.elliman.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 23:59:59 2026 GMT\n  hsts: false\n  hsts_max_age: null\n  note: >-\n    Self-hosted Uptime Kuma behind nginx/1.24.0 (Ubuntu). Root 302s to /dashboard\n    (login-gated); no public status page is published. See lifecycle/.\ndomains:\n- domain: elliman.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n\
   \  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/douglas-elliman/refs/heads/main/security/douglas-elliman-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/douglas-elliman/security/douglas-elliman-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Real Estate

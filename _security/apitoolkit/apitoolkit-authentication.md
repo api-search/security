@@ -7,19 +7,19 @@ api_specs:
   label: APIToolkit (Monoscope) Metrics API
   slug: apitoolkit-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apitoolkit/refs/heads/main/openapi/apitoolkit-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/apitoolkit/openapi/apitoolkit-metrics-api-openapi.yml
 - filename: apitoolkit-monitors-api-openapi.yml
   format: yaml
   label: APIToolkit (Monoscope) Monitors API
   slug: apitoolkit-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apitoolkit/refs/heads/main/openapi/apitoolkit-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/apitoolkit/openapi/apitoolkit-monitors-api-openapi.yml
 - filename: apitoolkit-schema-api-openapi.yml
   format: yaml
   label: APIToolkit (Monoscope) Schema API
   slug: apitoolkit-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apitoolkit/refs/heads/main/openapi/apitoolkit-schema-api-openapi.yml
+  url: https://artifacts.apis.io/apitoolkit/openapi/apitoolkit-schema-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -51,7 +51,7 @@ source_filename: apitoolkit-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/monoscope-platform-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: API Key\n  description: |-\n    Project-scoped Bearer API key. Create via Settings > API Keys in the\n    Monoscope dashboard; keys are shown once and are scoped to a single\n    project.\n  sources:\n  - openapi/monoscope-platform-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apitoolkit/refs/heads/main/authentication/apitoolkit-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apitoolkit/authentication/apitoolkit-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - AI Observability
@@ -60,7 +60,7 @@ tags:
 - API Management
 - API Monitoring
 - API Testing
-- Breaking Change Detection
+- Breaking Changes
 - CLI
 - Debugging
 - Developer Tools

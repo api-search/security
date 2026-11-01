@@ -28,13 +28,13 @@ source_filename: kissflow-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: kissflow.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 30 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: kissflow.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kissflow/refs/heads/main/security/kissflow-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kissflow/security/kissflow-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Low-Code
 - Workflow Automation
 - enterprise-apps
 - Integration
-- digital-transformation
+- Digital Transformation
 - Company
 ---

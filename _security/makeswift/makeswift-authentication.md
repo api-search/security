@@ -8,19 +8,37 @@ api_specs:
   label: Makeswift Locale API
   slug: makeswift-locale-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeswift/refs/heads/main/openapi/makeswift-locale-api-openapi.yml
+  url: https://artifacts.apis.io/makeswift/openapi/makeswift-locale-api-openapi.yml
 - filename: makeswift-page-api-openapi.yml
   format: yaml
   label: Makeswift Page API
   slug: makeswift-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeswift/refs/heads/main/openapi/makeswift-page-api-openapi.yml
+  url: https://artifacts.apis.io/makeswift/openapi/makeswift-page-api-openapi.yml
 - filename: makeswift-site-api-openapi.yml
   format: yaml
   label: Makeswift Site API
   slug: makeswift-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeswift/refs/heads/main/openapi/makeswift-site-api-openapi.yml
+  url: https://artifacts.apis.io/makeswift/openapi/makeswift-site-api-openapi.yml
+- filename: makeswift-region-api-openapi.yml
+  format: yaml
+  label: Makeswift Region API
+  slug: makeswift-region-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/makeswift/openapi/makeswift-region-api-openapi.yml
+- filename: makeswift-swatch-api-openapi.yml
+  format: yaml
+  label: Makeswift Swatch API
+  slug: makeswift-swatch-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/makeswift/openapi/makeswift-swatch-api-openapi.yml
+- filename: makeswift-typography-api-openapi.yml
+  format: yaml
+  label: Makeswift Typography API
+  slug: makeswift-typography-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/makeswift/openapi/makeswift-typography-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -52,7 +70,7 @@ source_filename: makeswift-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/makeswift-openapi.json + docs.makeswift.com/developer/api-reference/authentication\ndocs: https://docs.makeswift.com/developer/api-reference/authentication\nnotes: App API keys (prefix sk_) are created per app under Workspace -> Apps; Site\n  API keys are UUIDs. A Bearer token is also accepted, but only one auth method may\n  be sent per request (requests with both are rejected).\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: Authentication\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: |-\n    API key authentication. Accepts either:\n    - App API key (e.g. sk_eczMHVBY9fV6GYFhvs53qcnxq7yptlXL3ABKOZtn6dQ)\n    - Site API key (UUID format, e.g. 550e8400-e29b-41d4-a716-446655440000)\n  sources:\n  - openapi/makeswift-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/makeswift/refs/heads/main/authentication/makeswift-authentication.yml
+source_yaml_url: https://artifacts.apis.io/makeswift/authentication/makeswift-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

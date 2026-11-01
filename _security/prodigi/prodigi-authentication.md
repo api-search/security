@@ -8,19 +8,19 @@ api_specs:
   label: Prodigi Orders API
   slug: prodigi-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prodigi/refs/heads/main/openapi/prodigi-orders-api-openapi.yml
+  url: https://artifacts.apis.io/prodigi/openapi/prodigi-orders-api-openapi.yml
 - filename: prodigi-products-api-openapi.yml
   format: yaml
   label: Prodigi Products API
   slug: prodigi-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prodigi/refs/heads/main/openapi/prodigi-products-api-openapi.yml
+  url: https://artifacts.apis.io/prodigi/openapi/prodigi-products-api-openapi.yml
 - filename: prodigi-quotes-api-openapi.yml
   format: yaml
   label: Prodigi Quotes API
   slug: prodigi-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prodigi/refs/heads/main/openapi/prodigi-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/prodigi/openapi/prodigi-quotes-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: prodigi-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/prodigi-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: Your Prodigi API key, sent in the X-API-Key header on every request.\n  sources:\n  - openapi/prodigi-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prodigi/refs/heads/main/authentication/prodigi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/prodigi/authentication/prodigi-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Print on Demand

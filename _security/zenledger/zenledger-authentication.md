@@ -7,79 +7,79 @@ api_specs:
   label: ZenLedger Authentication API
   slug: zenledger-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/openapi/zenledger-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/zenledger/openapi/zenledger-authentication-api-openapi.yml
 - filename: zenledger-companies-api-openapi.yml
   format: yaml
   label: ZenLedger Companies API
   slug: zenledger-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/openapi/zenledger-companies-api-openapi.yml
+  url: https://artifacts.apis.io/zenledger/openapi/zenledger-companies-api-openapi.yml
 - filename: zenledger-holdings-api-openapi.yml
   format: yaml
   label: ZenLedger Holdings API
   slug: zenledger-holdings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/openapi/zenledger-holdings-api-openapi.yml
+  url: https://artifacts.apis.io/zenledger/openapi/zenledger-holdings-api-openapi.yml
 - filename: zenledger-imports-api-openapi.yml
   format: yaml
   label: ZenLedger Imports API
   slug: zenledger-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/openapi/zenledger-imports-api-openapi.yml
+  url: https://artifacts.apis.io/zenledger/openapi/zenledger-imports-api-openapi.yml
 - filename: zenledger-polymarkets-api-openapi.yml
   format: yaml
   label: ZenLedger Polymarkets API
   slug: zenledger-polymarkets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/openapi/zenledger-polymarkets-api-openapi.yml
+  url: https://artifacts.apis.io/zenledger/openapi/zenledger-polymarkets-api-openapi.yml
 - filename: zenledger-portfolios-api-openapi.yml
   format: yaml
   label: ZenLedger Portfolios API
   slug: zenledger-portfolios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/openapi/zenledger-portfolios-api-openapi.yml
+  url: https://artifacts.apis.io/zenledger/openapi/zenledger-portfolios-api-openapi.yml
 - filename: zenledger-supported-chains-api-openapi.yml
   format: yaml
   label: ZenLedger Supported Chains API
   slug: zenledger-supported-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/openapi/zenledger-supported-chains-api-openapi.yml
+  url: https://artifacts.apis.io/zenledger/openapi/zenledger-supported-chains-api-openapi.yml
 - filename: zenledger-supported-currencies-api-openapi.yml
   format: yaml
   label: ZenLedger Supported Currencies API
   slug: zenledger-supported-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/openapi/zenledger-supported-currencies-api-openapi.yml
+  url: https://artifacts.apis.io/zenledger/openapi/zenledger-supported-currencies-api-openapi.yml
 - filename: zenledger-supported-exchanges-and-wallets-api-openapi.yml
   format: yaml
   label: ZenLedger Supported Exchanges and Wallets API
   slug: zenledger-supported-exchanges-and-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/openapi/zenledger-supported-exchanges-and-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/zenledger/openapi/zenledger-supported-exchanges-and-wallets-api-openapi.yml
 - filename: zenledger-taxes-api-openapi.yml
   format: yaml
   label: ZenLedger Taxes API
   slug: zenledger-taxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/openapi/zenledger-taxes-api-openapi.yml
+  url: https://artifacts.apis.io/zenledger/openapi/zenledger-taxes-api-openapi.yml
 - filename: zenledger-transactions-api-openapi.yml
   format: yaml
   label: ZenLedger Transactions API
   slug: zenledger-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/openapi/zenledger-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/zenledger/openapi/zenledger-transactions-api-openapi.yml
 - filename: zenledger-users-api-openapi.yml
   format: yaml
   label: ZenLedger Users API
   slug: zenledger-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/openapi/zenledger-users-api-openapi.yml
+  url: https://artifacts.apis.io/zenledger/openapi/zenledger-users-api-openapi.yml
 - filename: zenledger-wallet-screening-api-openapi.yml
   format: yaml
   label: ZenLedger Wallet Screening API
   slug: zenledger-wallet-screening-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/openapi/zenledger-wallet-screening-api-openapi.yml
+  url: https://artifacts.apis.io/zenledger/openapi/zenledger-wallet-screening-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -130,7 +130,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: https://docs.ze
   \ ZENAGG-AUTHGET-AA4 (Aggregator) — \"Invalid OAuth token: Need\n    to refresh the token every 30 minutes\".\n  sources:\n  - openapi/zenledger-compliance-api-openapi.yml\n  - openapi/zenledger-aggregator-api-openapi.yml\nrequest_signing:\n  applies_to:\n  - POST /compliance/api/v3/companies/{company_reference}/users/{user_id}/imports\n  - POST /compliance/api/v1/companies/{company_reference}/users/{user_id}/imports\n  signature:\n    header: X-Signature\n    algorithm: HMAC-SHA256\n    encoding: hex\n    signed_material: >-\n      The published TypeScript example computes the HMAC over the base64 ciphertext of the encrypted payload using\n      the shared API secret. The prose above the example describes concatenating method, URL path, query parameters\n      and body before hashing; the two descriptions differ and the code sample is the operative one.\n  encryption:\n    algorithm: AES-256-CBC\n    key_derivation: SHA-256 digest of the shared secret\n    iv: 16 random bytes, sent base64-encoded\
   \ in the request body as `iv`\n    envelope_fields:\n    - data\n    - iv\n    - signature\n  key_exchange: The encryption key is shared out of band between client and ZenLedger.\n  source: https://docs.zenledger.io/compliance/v3/README.md\nlive_probe:\n  date: '2026-09-05'\n  probes:\n  - url: https://api.zenledger.io/oauth/token\n    method: POST\n    body: '{\"grant_type\":\"client_credentials\"}'\n    credentials_sent: false\n    http_status: 401\n    response: '{\"error\":\"invalid_client\",\"error_description\":\"Client authentication failed due to unknown client, no client authentication included, or unsupported authentication method.\"}'\n  - url: https://api.zenledger.io/compliance/api/v3/chains\n    method: GET\n    credentials_sent: false\n    http_status: 401\n  finding: >-\n    Both APIs are live at the documented host and enforce authentication. The token endpoint returns a conformant\n    RFC 6749 error object; a protected reference-data endpoint returns 401 to an anonymous\
   \ caller. Confirmed\n    anonymously — no credentials were used and no protected data was read.\n\nnotes:\n- The OpenAPI documents in this repo model the bearer scheme only, because that is what the Postman collection\n  encodes per request; the OAuth 2.0 token flow is documented in prose in the collection's Authentication folder and\n  is captured here.\n- Scope is returned as the single literal value \"public\"; ZenLedger publishes no scope reference page and no\n  per-scope authorization model, so no scopes/ artifact is emitted.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/authentication/zenledger-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zenledger/authentication/zenledger-authentication.yml
 summary_line: oauth2/http · 2 schemes
 tags:
 - Crypto Tax

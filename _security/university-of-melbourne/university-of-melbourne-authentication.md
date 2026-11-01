@@ -7,25 +7,25 @@ api_specs:
   label: University of Melbourne Core API
   slug: university-of-melbourne-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/openapi/university-of-melbourne-core-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-melbourne/openapi/university-of-melbourne-core-api-openapi.yml
 - filename: university-of-melbourne-datasets-api-openapi.yml
   format: yaml
   label: University of Melbourne Datasets API
   slug: university-of-melbourne-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/openapi/university-of-melbourne-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-melbourne/openapi/university-of-melbourne-datasets-api-openapi.yml
 - filename: university-of-melbourne-discovery-api-openapi.yml
   format: yaml
   label: University of Melbourne Discovery API
   slug: university-of-melbourne-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/openapi/university-of-melbourne-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-melbourne/openapi/university-of-melbourne-discovery-api-openapi.yml
 - filename: university-of-melbourne-oai-pmh-api-openapi.yml
   format: yaml
   label: University of Melbourne OAI PMH API
   slug: university-of-melbourne-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/openapi/university-of-melbourne-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-melbourne/openapi/university-of-melbourne-oai-pmh-api-openapi.yml
 auth_types: []
 description: 'Authentication posture per surface, split by operator. The University of Melbourne runs two distinct identity systems and neither is an API product: a self-hosted Shibboleth SAML 2.0 IdP for federated research and library access (institution-operated), and an Okta tenancy on a University vanity hostname for web SSO (tenant). Its two publicly callable read APIs require no authentication at all.'
 kind: authentication
@@ -49,7 +49,7 @@ source_yaml: "generated: '2026-08-19'\nmethod: probed\nsource: >-\n  Live probes
   \ no credential of any kind.\n  - name: Shibboleth Identity Provider\n    url: https://idp.unimelb.edu.au/idp/shibboleth\n    x-operator: institution\n    type: saml2\n    verified: '2026-08-19'\n    detail: >-\n      Self-hosted Shibboleth IdP. Metadata is public (200 application/xml) and\n      registered in the Australian Access Federation aggregate; the\n      authentication itself is federated SAML 2.0 for members of scope\n      `unimelb.edu.au`. SSO endpoints:\n      https://idp.unimelb.edu.au/idp/profile/SAML2/Redirect/SSO,\n      /SAML2/POST/SSO, /SAML2/POST-SimpleSign/SSO.\n      This is the institution's own identity engineering — not a purchased\n      contract — and it is the single most consequential machine-readable\n      surface it operates.\n  - name: University SSO (Okta)\n    url: https://sso.unimelb.edu.au\n    x-operator: tenant\n    type: oauth2/oidc\n    verified: '2026-08-19'\n    detail: >-\n      OpenID Connect discovery and RFC 8414 metadata both return 200.\n\
   \      Issuer https://sso.unimelb.edu.au. Endpoints /oauth2/v1/authorize,\n      /oauth2/v1/token, /oauth2/v1/userinfo, /oauth2/v1/clients. Okta operates\n      the platform — grant_types_supported carries\n      urn:okta:params:oauth:grant-type:otp / :oob and Auth0 MFA grant URNs —\n      under a University hostname. Client registration is not open to the\n      public; there is no developer sign-up.\n  - name: Spartan HPC dashboard\n    url: https://dashboard.hpc.unimelb.edu.au\n    x-operator: institution\n    type: saml2\n    verified: '2026-08-19'\n    detail: >-\n      Registered as a Shibboleth Service Provider in the AAF aggregate\n      (entityID https://dashboard.hpc.unimelb.edu.au/shibboleth). The\n      unauthenticated web root now redirects to a Confluence knowledge base on\n      rcs-knowledge-hub.atlassian.net, so the dashboard itself is gated behind\n      federated login and no API surface is publicly observable.\n  - name: Melbourne Data research repository\n    url:\
   \ https://melbourne.figshare.com\n    x-operator: tenant\n    type: unknown\n    verified: '2026-08-19'\n    detail: >-\n      Returned HTTP 202 with an AWS WAF JavaScript challenge body rather than\n      content. Bot-challenged, therefore live; authentication posture not\n      determinable. The Figshare API is Figshare's contract and is deliberately\n      not saved in this repository.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/authentication/university-of-melbourne-authentication.yml
+source_yaml_url: https://artifacts.apis.io/university-of-melbourne/authentication/university-of-melbourne-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

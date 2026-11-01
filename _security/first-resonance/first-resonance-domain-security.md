@@ -46,7 +46,7 @@ source_filename: first-resonance-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: firstresonance.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 10:36:11 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: manual.firstresonance.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 13:27:25 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.buildwithion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 16:15:20 2026 GMT\n  hsts: null\ndomains:\n- domain: firstresonance.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: buildwithion.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/first-resonance/refs/heads/main/security/first-resonance-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/first-resonance/security/first-resonance-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

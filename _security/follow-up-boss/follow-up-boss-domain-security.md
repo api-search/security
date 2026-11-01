@@ -5,49 +5,49 @@ api_specs:
   label: Follow Up Boss Calls API
   slug: follow-up-boss-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/follow-up-boss/refs/heads/main/openapi/follow-up-boss-calls-api-openapi.yml
+  url: https://artifacts.apis.io/follow-up-boss/openapi/follow-up-boss-calls-api-openapi.yml
 - filename: follow-up-boss-deals-api-openapi.yml
   format: yaml
   label: Follow Up Boss Deals API
   slug: follow-up-boss-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/follow-up-boss/refs/heads/main/openapi/follow-up-boss-deals-api-openapi.yml
+  url: https://artifacts.apis.io/follow-up-boss/openapi/follow-up-boss-deals-api-openapi.yml
 - filename: follow-up-boss-events-api-openapi.yml
   format: yaml
   label: Follow Up Boss Events API
   slug: follow-up-boss-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/follow-up-boss/refs/heads/main/openapi/follow-up-boss-events-api-openapi.yml
+  url: https://artifacts.apis.io/follow-up-boss/openapi/follow-up-boss-events-api-openapi.yml
 - filename: follow-up-boss-notes-api-openapi.yml
   format: yaml
   label: Follow Up Boss Notes API
   slug: follow-up-boss-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/follow-up-boss/refs/heads/main/openapi/follow-up-boss-notes-api-openapi.yml
+  url: https://artifacts.apis.io/follow-up-boss/openapi/follow-up-boss-notes-api-openapi.yml
 - filename: follow-up-boss-people-api-openapi.yml
   format: yaml
   label: Follow Up Boss People API
   slug: follow-up-boss-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/follow-up-boss/refs/heads/main/openapi/follow-up-boss-people-api-openapi.yml
+  url: https://artifacts.apis.io/follow-up-boss/openapi/follow-up-boss-people-api-openapi.yml
 - filename: follow-up-boss-tasks-api-openapi.yml
   format: yaml
   label: Follow Up Boss Tasks API
   slug: follow-up-boss-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/follow-up-boss/refs/heads/main/openapi/follow-up-boss-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/follow-up-boss/openapi/follow-up-boss-tasks-api-openapi.yml
 - filename: follow-up-boss-textmessages-api-openapi.yml
   format: yaml
   label: Follow Up Boss TextMessages API
   slug: follow-up-boss-textmessages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/follow-up-boss/refs/heads/main/openapi/follow-up-boss-textmessages-api-openapi.yml
+  url: https://artifacts.apis.io/follow-up-boss/openapi/follow-up-boss-textmessages-api-openapi.yml
 - filename: follow-up-boss-webhooks-api-openapi.yml
   format: yaml
   label: Follow Up Boss Webhooks API
   slug: follow-up-boss-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/follow-up-boss/refs/heads/main/openapi/follow-up-boss-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/follow-up-boss/openapi/follow-up-boss-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -87,7 +87,7 @@ source_filename: follow-up-boss-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.followupboss.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 23:11:55 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.followupboss.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 08:31:05 2026 GMT\n  hsts: null\n- host: api.followupboss.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  1 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: followupboss.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/follow-up-boss/refs/heads/main/security/follow-up-boss-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/follow-up-boss/security/follow-up-boss-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Real Estate

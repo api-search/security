@@ -7,13 +7,13 @@ api_specs:
   label: Agricultural Marketing Service Offices API
   slug: agricultural-marketing-service-offices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agricultural-marketing-service/refs/heads/main/openapi/agricultural-marketing-service-offices-api-openapi.yml
+  url: https://artifacts.apis.io/agricultural-marketing-service/openapi/agricultural-marketing-service-offices-api-openapi.yml
 - filename: agricultural-marketing-service-reports-api-openapi.yml
   format: yaml
   label: Agricultural Marketing Service Reports API
   slug: agricultural-marketing-service-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agricultural-marketing-service/refs/heads/main/openapi/agricultural-marketing-service-reports-api-openapi.yml
+  url: https://artifacts.apis.io/agricultural-marketing-service/openapi/agricultural-marketing-service-reports-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: agricultural-marketing-service-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/agricultural-marketing-service-mars-api.yaml\nsummary:\n  types:\n  - http\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  description: API key obtained from USDA AMS MyMarketNews registration. Use the API key as\n    the username with an empty password, or encode as Base64 for Bearer auth. Public access\n    without authentication is also available with lower rate limits.\n  sources:\n  - openapi/agricultural-marketing-service-mars-api.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agricultural-marketing-service/refs/heads/main/authentication/agricultural-marketing-service-authentication.yml
+source_yaml_url: https://artifacts.apis.io/agricultural-marketing-service/authentication/agricultural-marketing-service-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Agriculture

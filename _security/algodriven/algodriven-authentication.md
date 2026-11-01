@@ -8,7 +8,7 @@ api_specs:
   label: AlgoDriven Vehicle History Report API
   slug: algodriven-vehicle-history-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algodriven/refs/heads/main/openapi/algodriven-vehicle-history-report-api-openapi.yml
+  url: https://artifacts.apis.io/algodriven/openapi/algodriven-vehicle-history-report-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: algodriven-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: derived\nsource: openapi/algodriven-vehicle-history-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: API key passed in the Authorization request header.\n  sources:\n  - openapi/algodriven-vehicle-history-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/algodriven/refs/heads/main/authentication/algodriven-authentication.yml
+source_yaml_url: https://artifacts.apis.io/algodriven/authentication/algodriven-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

@@ -8,49 +8,49 @@ api_specs:
   label: Spade Card Enrichment API
   slug: spade-card-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/openapi/spade-card-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/spade/openapi/spade-card-enrichment-api-openapi.yml
 - filename: spade-category-action-triggers-api-openapi.yml
   format: yaml
   label: Spade Category Action Triggers API
   slug: spade-category-action-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/openapi/spade-category-action-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/spade/openapi/spade-category-action-triggers-api-openapi.yml
 - filename: spade-category-personalization-api-openapi.yml
   format: yaml
   label: Spade Category Personalization API
   slug: spade-category-personalization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/openapi/spade-category-personalization-api-openapi.yml
+  url: https://artifacts.apis.io/spade/openapi/spade-category-personalization-api-openapi.yml
 - filename: spade-feedback-and-reporting-api-openapi.yml
   format: yaml
   label: Spade Feedback and Reporting API
   slug: spade-feedback-and-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/openapi/spade-feedback-and-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/spade/openapi/spade-feedback-and-reporting-api-openapi.yml
 - filename: spade-merchant-action-triggers-api-openapi.yml
   format: yaml
   label: Spade Merchant Action Triggers API
   slug: spade-merchant-action-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/openapi/spade-merchant-action-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/spade/openapi/spade-merchant-action-triggers-api-openapi.yml
 - filename: spade-merchant-search-api-openapi.yml
   format: yaml
   label: Spade Merchant Search API
   slug: spade-merchant-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/openapi/spade-merchant-search-api-openapi.yml
+  url: https://artifacts.apis.io/spade/openapi/spade-merchant-search-api-openapi.yml
 - filename: spade-transfer-enrichment-api-openapi.yml
   format: yaml
   label: Spade Transfer Enrichment API
   slug: spade-transfer-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/openapi/spade-transfer-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/spade/openapi/spade-transfer-enrichment-api-openapi.yml
 - filename: spade-universal-enrichment-api-openapi.yml
   format: yaml
   label: Spade Universal Enrichment API
   slug: spade-universal-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/openapi/spade-universal-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/spade/openapi/spade-universal-enrichment-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -77,7 +77,7 @@ source_filename: spade-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/spade-openapi-original.yml\ndocs: https://docs.spade.com/reference/integrate-with-spades-api\nnotes: >-\n  Secret-key auth via the X-Api-Key header, chosen for low-latency applications. Sandbox and\n  production environments use different API keys; keys are issued by a Spade representative.\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-Api-Key\n  sources:\n  - openapi/spade-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/authentication/spade-authentication.yml
+source_yaml_url: https://artifacts.apis.io/spade/authentication/spade-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

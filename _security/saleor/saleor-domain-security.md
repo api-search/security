@@ -5,7 +5,7 @@ api_specs:
   label: Saleor GraphQL API
   slug: saleor-saleor-graphql-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saleor/refs/heads/main/openapi/saleor-saleor-graphql-api-api-openapi.yml
+  url: https://artifacts.apis.io/saleor/openapi/saleor-saleor-graphql-api-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -50,7 +50,7 @@ source_filename: saleor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: saleor.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 10:54:13 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.saleor.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 22:46:28 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: cloud.saleor.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 22 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: saleor.io\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"amazon.com\"\n  - 0 iodef \"mailto:saleor-cloud@saleor.io\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/saleor/refs/heads/main/security/saleor-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/saleor/security/saleor-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Commerce

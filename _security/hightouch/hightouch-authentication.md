@@ -8,61 +8,73 @@ api_specs:
   label: Hightouch Sources API
   slug: hightouch-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-sources-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-sources-api-openapi.yml
 - filename: hightouch-models-api-openapi.yml
   format: yaml
   label: Hightouch Models API
   slug: hightouch-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-models-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-models-api-openapi.yml
 - filename: hightouch-destinations-api-openapi.yml
   format: yaml
   label: Hightouch Destinations API
   slug: hightouch-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-destinations-api-openapi.yml
 - filename: hightouch-syncs-api-openapi.yml
   format: yaml
   label: Hightouch Syncs API
   slug: hightouch-syncs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-syncs-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-syncs-api-openapi.yml
 - filename: hightouch-campaigns-api-openapi.yml
   format: yaml
   label: Hightouch Campaigns API
   slug: hightouch-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-campaigns-api-openapi.yml
 - filename: hightouch-events-api-openapi.yml
   format: yaml
   label: Hightouch Events API
   slug: hightouch-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-events-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-events-api-openapi.yml
 - filename: hightouch-decision-engine-api-openapi.yml
   format: yaml
   label: Hightouch Decision Engine API
   slug: hightouch-decision-engine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-decision-engine-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-decision-engine-api-openapi.yml
 - filename: hightouch-id-graphs-api-openapi.yml
   format: yaml
   label: Hightouch Id Graphs API
   slug: hightouch-id-graphs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-id-graphs-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-id-graphs-api-openapi.yml
 - filename: hightouch-idr-api-openapi.yml
   format: yaml
   label: Hightouch Idr API
   slug: hightouch-idr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-idr-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-idr-api-openapi.yml
 - filename: hightouch-sync-sequences-api-openapi.yml
   format: yaml
   label: Hightouch Sync Sequences API
   slug: hightouch-sync-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-sync-sequences-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-sync-sequences-api-openapi.yml
+- filename: hightouch-signups-api-openapi.yml
+  format: yaml
+  label: Hightouch Signups API
+  slug: hightouch-signups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-signups-api-openapi.yml
+- filename: hightouch-sync-templates-api-openapi.yml
+  format: yaml
+  label: Hightouch Sync Templates API
+  slug: hightouch-sync-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-sync-templates-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -129,7 +141,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/_origin
   \ key created by an Admin user under Settings > API keys\n  env_var: HIGHTOUCH_APIKEY (used by the ht CLI)\n  notes:\n  - Keys authenticate AS THEIR CREATING USER. If that user is deactivated, loses workspace access, or\n    is removed during an SSO migration, every key they created stops working — the provider documents\n    this as the most common cause of 401s.\n  - Admin role is required to create an API key.\n  - TLS 1.2 or later is required; the API publishes its accepted cipher suite list.\n  - Keys are revocable individually from the Settings > API keys tab.\n- name: oauth2\n  type: oauth2\n  sources:\n  - a2a/hightouch-agent-card.json\n  - https://api.hightouch.com/.well-known/oauth-authorization-server\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://mcp-auth.hightouch.com/oauth2/authorize\n    tokenUrl: https://mcp-auth.hightouch.com/oauth2/token\n  applies_to: https://api.hightouch.com/api/v1/a2a/messages and the workspace MCP server\n  scopes:\n  - openid\n\
   \  - profile\n  - email\n  - offline_access\n  notes:\n  - 'Protected-resource metadata is advertised per RFC 9728; an unauthenticated POST to the A2A endpoint\n    returns 401 with WWW-Authenticate: Bearer resource_metadata=\"https://api.hightouch.com/.well-known/oauth-protected-resource\".'\n  - Dynamic client registration is open at /oauth2/register.\n  - token_endpoint_auth_methods_supported includes `none`, i.e. public PKCE clients are allowed.\n- name: openIdConnect\n  type: openIdConnect\n  openIdConnectUrl: https://api.hightouch.com/.well-known/openid-configuration\n  sources:\n  - well-known/hightouch-openid-configuration.json\n  notes:\n  - Same issuer as the OAuth AS (mcp-auth.hightouch.com); RS256 ID tokens; userinfo endpoint.\nworkspace_access_control:\n  sso: SAML 2.0 / Okta / Azure AD / Google — https://hightouch.com/docs/workspace-management/sso\n  rbac: https://hightouch.com/docs/workspace-management/roles\n  approval_flows: https://hightouch.com/docs/workspace-management/approval-flows\n\
   \  audit_logs: https://hightouch.com/docs/workspace-management/overview\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/authentication/hightouch-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hightouch/authentication/hightouch-authentication.yml
 summary_line: http/oauth2/openIdConnect · 3 schemes
 tags:
 - CDP

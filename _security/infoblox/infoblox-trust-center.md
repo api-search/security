@@ -5,37 +5,37 @@ api_specs:
   label: Infoblox DHCP API
   slug: infoblox-dhcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-dhcp-api-openapi.yml
+  url: https://artifacts.apis.io/infoblox/openapi/infoblox-dhcp-api-openapi.yml
 - filename: infoblox-dns-records-api-openapi.yml
   format: yaml
   label: Infoblox DNS Records API
   slug: infoblox-dns-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-dns-records-api-openapi.yml
+  url: https://artifacts.apis.io/infoblox/openapi/infoblox-dns-records-api-openapi.yml
 - filename: infoblox-dns-zones-api-openapi.yml
   format: yaml
   label: Infoblox DNS Zones API
   slug: infoblox-dns-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-dns-zones-api-openapi.yml
+  url: https://artifacts.apis.io/infoblox/openapi/infoblox-dns-zones-api-openapi.yml
 - filename: infoblox-grid-api-openapi.yml
   format: yaml
   label: Infoblox Grid API
   slug: infoblox-grid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-grid-api-openapi.yml
+  url: https://artifacts.apis.io/infoblox/openapi/infoblox-grid-api-openapi.yml
 - filename: infoblox-ip-address-management-api-openapi.yml
   format: yaml
   label: Infoblox IP Address Management API
   slug: infoblox-ip-address-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-ip-address-management-api-openapi.yml
+  url: https://artifacts.apis.io/infoblox/openapi/infoblox-ip-address-management-api-openapi.yml
 - filename: infoblox-networks-api-openapi.yml
   format: yaml
   label: Infoblox Networks API
   slug: infoblox-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-networks-api-openapi.yml
+  url: https://artifacts.apis.io/infoblox/openapi/infoblox-networks-api-openapi.yml
 certification_count: 5
 certifications:
 - SOC 2
@@ -56,7 +56,7 @@ source_filename: infoblox-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.infoblox.com/\nurl: https://trust.infoblox.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://trust.infoblox.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - fedramp\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/security/infoblox-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/infoblox/security/infoblox-trust-center.yml
 summary_line: SOC 2, ISO 27001, FedRAMP, GDPR, FIPS 140
 tags:
 - Cloud

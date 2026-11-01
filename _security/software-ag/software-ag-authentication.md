@@ -7,25 +7,25 @@ api_specs:
   label: Software AG Applications API
   slug: software-ag-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/openapi/software-ag-applications-api-openapi.yml
+  url: https://artifacts.apis.io/software-ag/openapi/software-ag-applications-api-openapi.yml
 - filename: software-ag-policies-api-openapi.yml
   format: yaml
   label: Software AG Policies API
   slug: software-ag-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/openapi/software-ag-policies-api-openapi.yml
+  url: https://artifacts.apis.io/software-ag/openapi/software-ag-policies-api-openapi.yml
 - filename: software-ag-publishing-api-openapi.yml
   format: yaml
   label: Software AG Publishing API
   slug: software-ag-publishing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/openapi/software-ag-publishing-api-openapi.yml
+  url: https://artifacts.apis.io/software-ag/openapi/software-ag-publishing-api-openapi.yml
 - filename: software-ag-apis-api-openapi.yml
   format: yaml
   label: Software AG APIs API
   slug: software-ag-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/openapi/software-ag-apis-api-openapi.yml
+  url: https://artifacts.apis.io/software-ag/openapi/software-ag-apis-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: software-ag-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/webmethods-api-gateway-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: Basic authentication with API Gateway administrator credentials\n  sources:\n  - openapi/webmethods-api-gateway-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/authentication/software-ag-authentication.yml
+source_yaml_url: https://artifacts.apis.io/software-ag/authentication/software-ag-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - API Management

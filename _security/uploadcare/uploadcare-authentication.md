@@ -8,55 +8,55 @@ api_specs:
   label: Uploadcare Add-Ons API
   slug: uploadcare-add-ons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-add-ons-api-openapi.yml
+  url: https://artifacts.apis.io/uploadcare/openapi/uploadcare-add-ons-api-openapi.yml
 - filename: uploadcare-conversion-api-openapi.yml
   format: yaml
   label: Uploadcare Conversion API
   slug: uploadcare-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/uploadcare/openapi/uploadcare-conversion-api-openapi.yml
 - filename: uploadcare-file-api-openapi.yml
   format: yaml
   label: Uploadcare File API
   slug: uploadcare-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-file-api-openapi.yml
+  url: https://artifacts.apis.io/uploadcare/openapi/uploadcare-file-api-openapi.yml
 - filename: uploadcare-file-information-api-openapi.yml
   format: yaml
   label: Uploadcare File information API
   slug: uploadcare-file-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-file-information-api-openapi.yml
+  url: https://artifacts.apis.io/uploadcare/openapi/uploadcare-file-information-api-openapi.yml
 - filename: uploadcare-file-metadata-api-openapi.yml
   format: yaml
   label: Uploadcare File metadata API
   slug: uploadcare-file-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-file-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/uploadcare/openapi/uploadcare-file-metadata-api-openapi.yml
 - filename: uploadcare-file-names-api-openapi.yml
   format: yaml
   label: Uploadcare File names API
   slug: uploadcare-file-names-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-file-names-api-openapi.yml
+  url: https://artifacts.apis.io/uploadcare/openapi/uploadcare-file-names-api-openapi.yml
 - filename: uploadcare-group-api-openapi.yml
   format: yaml
   label: Uploadcare Group API
   slug: uploadcare-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-group-api-openapi.yml
+  url: https://artifacts.apis.io/uploadcare/openapi/uploadcare-group-api-openapi.yml
 - filename: uploadcare-project-api-openapi.yml
   format: yaml
   label: Uploadcare Project API
   slug: uploadcare-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-project-api-openapi.yml
+  url: https://artifacts.apis.io/uploadcare/openapi/uploadcare-project-api-openapi.yml
 - filename: uploadcare-webhook-api-openapi.yml
   format: yaml
   label: Uploadcare Webhook API
   slug: uploadcare-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/uploadcare/openapi/uploadcare-webhook-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -126,7 +126,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/uploadcare-rest-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: |-\n    Every request made to `https://api.uploadcare.com/` MUST be signed. HTTPS SHOULD be used with any authorization scheme.\n\n    Requests MUST contain the `Authorization` header defining `auth-scheme` and `auth-param`: `Authorization: auth-scheme auth-param`.\n\n    Every request MUST contain the `Accept` header identifying the REST API version: `Accept: application/vnd.uploadcare-v0.7+json`.\n\n    There are two ava\n  sources:\n  - openapi/uploadcare-rest-api-openapi.yml\n- name: Uploadcare\n  type: apiKey\n  in: header\n  parameter: Uploadcare\n  description: |-\n    With the `Uploadcare` authentication method:\n    * `auth-param` is a `public_key:signature` pair, where your `secret_key` is used to derive `signature`\
   \ but is _not included in every request_ itself.\n    * You MUST also provide the `Date` header in [RFC2822](https://datatracker.ietf.org/doc/html/rfc2822#section-3.3) format with the time zone set to `GMT` (see the example below).\n    * The date you provide MUST\n  sources:\n  - openapi/uploadcare-rest-api-openapi.yml\n- name: Uploadcare.Simple\n  type: apiKey\n  in: header\n  parameter: Uploadcare.Simple\n  description: |-\n    Note: We DO NOT recommend using this authentication method in production.\n\n    With the `Uploadcare.Simple` authentication method, `auth-param` is your `public_key:secret_key` pair. Note that in this scheme, your Uploadcare project `secret_key` is  _included in every request as plain text_.\n\n    ```http\n    Accept: application/vnd.uploadcare-v0.7+json\n    Authorization: Uploadcare.Simple public_key:secret_key\n    ```\n  sources:\n  - openapi/uploadcare-rest-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/authentication/uploadcare-authentication.yml
+source_yaml_url: https://artifacts.apis.io/uploadcare/authentication/uploadcare-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - File Upload

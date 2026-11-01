@@ -29,7 +29,7 @@ source_filename: revrule-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: derived\nsource: openapi/revrule-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Bearer API key for authenticated endpoints\n  sources:\n  - openapi/revrule-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/revrule/refs/heads/main/authentication/revrule-authentication.yml
+source_yaml_url: https://artifacts.apis.io/revrule/authentication/revrule-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

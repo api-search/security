@@ -5,49 +5,49 @@ api_specs:
   label: Routescan (Snowtrace) Accounts API
   slug: snowtrace-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/openapi/snowtrace-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/snowtrace/openapi/snowtrace-accounts-api-openapi.yml
 - filename: snowtrace-blocks-api-openapi.yml
   format: yaml
   label: Routescan (Snowtrace) Blocks API
   slug: snowtrace-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/openapi/snowtrace-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/snowtrace/openapi/snowtrace-blocks-api-openapi.yml
 - filename: snowtrace-contracts-api-openapi.yml
   format: yaml
   label: Routescan (Snowtrace) Contracts API
   slug: snowtrace-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/openapi/snowtrace-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/snowtrace/openapi/snowtrace-contracts-api-openapi.yml
 - filename: snowtrace-logs-api-openapi.yml
   format: yaml
   label: Routescan (Snowtrace) Logs API
   slug: snowtrace-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/openapi/snowtrace-logs-api-openapi.yml
+  url: https://artifacts.apis.io/snowtrace/openapi/snowtrace-logs-api-openapi.yml
 - filename: snowtrace-proxy-api-openapi.yml
   format: yaml
   label: Routescan (Snowtrace) Proxy API
   slug: snowtrace-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/openapi/snowtrace-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/snowtrace/openapi/snowtrace-proxy-api-openapi.yml
 - filename: snowtrace-stats-api-openapi.yml
   format: yaml
   label: Routescan (Snowtrace) Stats API
   slug: snowtrace-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/openapi/snowtrace-stats-api-openapi.yml
+  url: https://artifacts.apis.io/snowtrace/openapi/snowtrace-stats-api-openapi.yml
 - filename: snowtrace-tokens-api-openapi.yml
   format: yaml
   label: Routescan (Snowtrace) Tokens API
   slug: snowtrace-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/openapi/snowtrace-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/snowtrace/openapi/snowtrace-tokens-api-openapi.yml
 - filename: snowtrace-transactions-api-openapi.yml
   format: yaml
   label: Routescan (Snowtrace) Transactions API
   slug: snowtrace-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/openapi/snowtrace-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/snowtrace/openapi/snowtrace-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: snowtrace-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: snowtrace.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: snowtrace.io\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/security/snowtrace-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/snowtrace/security/snowtrace-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Blockchain

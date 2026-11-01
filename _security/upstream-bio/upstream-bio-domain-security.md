@@ -31,7 +31,7 @@ source_filename: upstream-bio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: upstreambio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 03:24:42 2026 GMT\n  hsts: false\ndomains:\n- domain: upstreambio.com\n  dnssec: false\n  caa: []\n  caa_note: >-\n    The first probe timed out; a re-query on 2026-09-02 returned cleanly with no CAA record set.\n    Absence of CAA is the finding, not a failed probe.\n  nameservers:\n  - ns27.domaincontrol.com.\n  - ns28.domaincontrol.com.\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upstream-bio/refs/heads/main/security/upstream-bio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/upstream-bio/security/upstream-bio-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -37,7 +37,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.neuehouse.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 20:42:50 2026 GMT\n  hsts: false\n- host: bradbury.neuehouse.com\n  https: true\n  tls_version: TLSv1.3\n  cert_valid_for_host: false\n  cert_cn: '*.netlify.app'\n  cert_issuer_org: Netlify, Inc\n  hsts: null\n  finding: 'DEFECT — TLS name mismatch. This host serves a real NeueHouse site (HTML title \"NeueHouse:\n    Bradbury\", 28KB, HTTP 200 when verification is disabled) from Netlify, but presents a *.netlify.app\n    certificate. subjectAltName does not match bradbury.neuehouse.com, so every standards-compliant client\n    fails the handshake: curl returns exit 60 and browsers show a full-page interstitial. The host is\n    reachable ONLY by disabling certificate verification. NeueHouse links to it from its own live content\n    API (location record id 6421), so the broken\
   \ link is self-referential. Fix is a custom-domain certificate\n    on the Netlify site.'\n  probed: '2026-08-26'\ndomains:\n- domain: neuehouse.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\nnote: 'forgeglobal.com was removed from this probe set: it is a secondary-market share-listing page that\n  seeded this repo, not a host NeueHouse operates. Hosts probed are the ones NeueHouse actually serves.'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neuehouse/refs/heads/main/security/neuehouse-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/neuehouse/security/neuehouse-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Hospitality

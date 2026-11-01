@@ -7,67 +7,67 @@ api_specs:
   label: Supra Accounts API
   slug: supra-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supra/refs/heads/main/openapi/supra-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/supra/openapi/supra-accounts-api-openapi.yml
 - filename: supra-block-api-openapi.yml
   format: yaml
   label: Supra Block API
   slug: supra-block-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supra/refs/heads/main/openapi/supra-block-api-openapi.yml
+  url: https://artifacts.apis.io/supra/openapi/supra-block-api-openapi.yml
 - filename: supra-consensus-api-openapi.yml
   format: yaml
   label: Supra Consensus API
   slug: supra-consensus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supra/refs/heads/main/openapi/supra-consensus-api-openapi.yml
+  url: https://artifacts.apis.io/supra/openapi/supra-consensus-api-openapi.yml
 - filename: supra-events-api-openapi.yml
   format: yaml
   label: Supra Events API
   slug: supra-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supra/refs/heads/main/openapi/supra-events-api-openapi.yml
+  url: https://artifacts.apis.io/supra/openapi/supra-events-api-openapi.yml
 - filename: supra-faucet-api-openapi.yml
   format: yaml
   label: Supra Faucet API
   slug: supra-faucet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supra/refs/heads/main/openapi/supra-faucet-api-openapi.yml
+  url: https://artifacts.apis.io/supra/openapi/supra-faucet-api-openapi.yml
 - filename: supra-proofs-api-openapi.yml
   format: yaml
   label: Supra Proofs API
   slug: supra-proofs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supra/refs/heads/main/openapi/supra-proofs-api-openapi.yml
+  url: https://artifacts.apis.io/supra/openapi/supra-proofs-api-openapi.yml
 - filename: supra-tables-api-openapi.yml
   format: yaml
   label: Supra Tables API
   slug: supra-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supra/refs/heads/main/openapi/supra-tables-api-openapi.yml
+  url: https://artifacts.apis.io/supra/openapi/supra-tables-api-openapi.yml
 - filename: supra-transactions-api-openapi.yml
   format: yaml
   label: Supra Transactions API
   slug: supra-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supra/refs/heads/main/openapi/supra-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/supra/openapi/supra-transactions-api-openapi.yml
 - filename: supra-version-api-openapi.yml
   format: yaml
   label: Supra Version API
   slug: supra-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supra/refs/heads/main/openapi/supra-version-api-openapi.yml
+  url: https://artifacts.apis.io/supra/openapi/supra-version-api-openapi.yml
 - filename: supra-view-api-openapi.yml
   format: yaml
   label: Supra View API
   slug: supra-view-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supra/refs/heads/main/openapi/supra-view-api-openapi.yml
+  url: https://artifacts.apis.io/supra/openapi/supra-view-api-openapi.yml
 - filename: supra-websocket-api-openapi.yml
   format: yaml
   label: Supra Web Socket API
   slug: supra-websocket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supra/refs/heads/main/openapi/supra-websocket-api-openapi.yml
+  url: https://artifacts.apis.io/supra/openapi/supra-websocket-api-openapi.yml
 auth_types: []
 description: 'Supra runs two authentication regimes side by side. The Layer 1 node RPC is fully public and keyless — no API key, no OAuth, no securityScheme in the OpenAPI at all — because authority on a blockchain comes from the signature inside the transaction payload, not from a credential on the HTTP call. The oracle Price Feeds REST and WebSocket APIs are the opposite: an x-api-key header is mandatory, and the key is issued by hand through a Google Form request, with the surface labelled Early Access.'
 kind: authentication
@@ -117,7 +117,7 @@ source_yaml: "generated: '2026-08-29'\nmethod: searched\nsource: >-\n  https://d
   \ is mandatory, and the key is issued by hand through a\n  Google Form request, with the surface labelled Early Access.\nschemes:\n- id: none\n  type: none\n  applies_to: Supra RPC Node API (https://rpc-mainnet.supra.com, https://rpc-testnet.supra.com)\n  in: n/a\n  description: >-\n    No credential is required for any of the 56 operations. Reads are open. Writes (submit_txn_v3,\n    submit_txn) carry a signed transaction in the request body; the Ed25519 / multi-agent signature inside\n    SignedTransaction is the authorization, and the node verifies it against the sender's on-chain\n    authentication key and sequence number. There is no server-side account to authenticate to.\n  evidence:\n    probe: https://rpc-mainnet.supra.com/rpc/v1/transactions/chain_id\n    status: 200\n    openapi_security_schemes: []\n  optional_node_operator_auth:\n    surface: GET /rpc/v4/ws\n    mechanism: Authorization Bearer token\n    description: >-\n      Per the OpenAPI description of the WebSocket\
   \ upgrade operation, \"When the node configures\n      websocket_auth_tokens, clients must send Authorization: Bearer <token>. Connection and subscription limits\n      are enforced per token.\" This is a per-node-operator configuration, not a Supra-issued credential, and the\n      public mainnet endpoint does not require it.\n- id: price-feeds-api-key\n  type: apiKey\n  applies_to: >-\n    Supra Price Feeds REST API (https://prod-kline-rest.supra.com) and Supra Price Feeds WebSocket API\n    (wss://prod-kline-ws.supra.com)\n  in: header\n  name: x-api-key\n  description: >-\n    Static API key sent on every request and on the WebSocket handshake. Missing key returns HTTP 401 with the\n    JSON body {\"error\":\"API key is missing\"} — confirmed by probing https://prod-kline-rest.supra.com/latest\n    unauthenticated on 2026-08-29.\n  key_issuance: >-\n    Manual. The docs link a Google Form request (\"Please request your key here\") rather than a self-serve\n    developer console; there\
   \ is no signup, dashboard, or key-rotation UI documented.\n  signup: https://docs.google.com/forms/d/e/1FAIpQLSfHZr8BHLTY8q_MjbuKZPpdgQS0oGmRIrsn9H-HrieH9eQjFw/viewform\n  docs: https://docs.supra.com/oracles/apis-real-time-and-historical-data/rest-api\n  evidence:\n    probe: https://prod-kline-rest.supra.com/latest\n    status: 401\n    body: '{\"error\":\"API key is missing\"}'\n  status: Early Access — the docs state \"Supra APIs are currently available in Early Access mode\".\noauth2: false\nopenid_connect: false\nmutual_tls: false\nnotes:\n- >-\n  No OAuth 2.0 or OpenID Connect anywhere: /.well-known/oauth-authorization-server and\n  /.well-known/openid-configuration return 404 on all five probed hosts (see well-known/supra-well-known.yml),\n  so scopes/ is not applicable for this provider.\n- >-\n  Wallet-level authentication for end users is handled by StarKey, Supra's first-party self-custodial wallet,\n  and is a client-side signing concern rather than an API credential.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/supra/refs/heads/main/authentication/supra-authentication.yml
+source_yaml_url: https://artifacts.apis.io/supra/authentication/supra-authentication.yml
 summary_line: 2 schemes
 tags:
 - Blockchain

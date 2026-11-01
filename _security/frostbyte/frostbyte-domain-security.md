@@ -5,61 +5,61 @@ api_specs:
   label: Frostbyte Agent Infrastructure API
   slug: frostbyte-agent-infrastructure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-agent-infrastructure-api-openapi.yml
+  url: https://artifacts.apis.io/frostbyte/openapi/frostbyte-agent-infrastructure-api-openapi.yml
 - filename: frostbyte-communication-api-openapi.yml
   format: yaml
   label: Frostbyte Communication API
   slug: frostbyte-communication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-communication-api-openapi.yml
+  url: https://artifacts.apis.io/frostbyte/openapi/frostbyte-communication-api-openapi.yml
 - filename: frostbyte-crypto-prices-api-openapi.yml
   format: yaml
   label: Frostbyte Crypto Prices API
   slug: frostbyte-crypto-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-crypto-prices-api-openapi.yml
+  url: https://artifacts.apis.io/frostbyte/openapi/frostbyte-crypto-prices-api-openapi.yml
 - filename: frostbyte-data-analytics-api-openapi.yml
   format: yaml
   label: Frostbyte Data & Analytics API
   slug: frostbyte-data-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-data-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/frostbyte/openapi/frostbyte-data-analytics-api-openapi.yml
 - filename: frostbyte-defi-crypto-api-openapi.yml
   format: yaml
   label: Frostbyte DeFi & Crypto API
   slug: frostbyte-defi-crypto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-defi-crypto-api-openapi.yml
+  url: https://artifacts.apis.io/frostbyte/openapi/frostbyte-defi-crypto-api-openapi.yml
 - filename: frostbyte-gaming-api-openapi.yml
   format: yaml
   label: Frostbyte Gaming API
   slug: frostbyte-gaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-gaming-api-openapi.yml
+  url: https://artifacts.apis.io/frostbyte/openapi/frostbyte-gaming-api-openapi.yml
 - filename: frostbyte-gateway-api-openapi.yml
   format: yaml
   label: Frostbyte Gateway API
   slug: frostbyte-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/frostbyte/openapi/frostbyte-gateway-api-openapi.yml
 - filename: frostbyte-ip-geolocation-api-openapi.yml
   format: yaml
   label: Frostbyte IP Geolocation API
   slug: frostbyte-ip-geolocation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-ip-geolocation-api-openapi.yml
+  url: https://artifacts.apis.io/frostbyte/openapi/frostbyte-ip-geolocation-api-openapi.yml
 - filename: frostbyte-other-api-openapi.yml
   format: yaml
   label: Frostbyte Other API
   slug: frostbyte-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-other-api-openapi.yml
+  url: https://artifacts.apis.io/frostbyte/openapi/frostbyte-other-api-openapi.yml
 - filename: frostbyte-security-api-openapi.yml
   format: yaml
   label: Frostbyte Security API
   slug: frostbyte-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-security-api-openapi.yml
+  url: https://artifacts.apis.io/frostbyte/openapi/frostbyte-security-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -97,7 +97,7 @@ source_filename: frostbyte-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api-catalog-three.vercel.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 13:27:56 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: agent-gateway-kappa.vercel.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 13:27:56 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: vercel.app\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/security/frostbyte-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/frostbyte/security/frostbyte-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Developer Tools

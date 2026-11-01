@@ -7,19 +7,19 @@ api_specs:
   label: Liberty Global Applications API
   slug: liberty-global-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/openapi/liberty-global-applications-api-openapi.yml
+  url: https://artifacts.apis.io/liberty-global/openapi/liberty-global-applications-api-openapi.yml
 - filename: liberty-global-maintainer-api-openapi.yml
   format: yaml
   label: Liberty Global Maintainer API
   slug: liberty-global-maintainer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/openapi/liberty-global-maintainer-api-openapi.yml
+  url: https://artifacts.apis.io/liberty-global/openapi/liberty-global-maintainer-api-openapi.yml
 - filename: liberty-global-stb-api-openapi.yml
   format: yaml
   label: Liberty Global STB API
   slug: liberty-global-stb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/openapi/liberty-global-stb-api-openapi.yml
+  url: https://artifacts.apis.io/liberty-global/openapi/liberty-global-stb-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-07-25'\nmethod: searched\nsource: openapi/*.yml (
   \    getMaintainer, replaceMaintainer, deleteMaintainer,\n    listMaintainerApplications, createMaintainerApplication,\n    getMaintainerApplication, replaceMaintainerApplication,\n    deleteMaintainerApplication\n  enforced_by: >-\n    The AS3 Proxy, an Nginx server in front of ASMS that exposes the metadata\n    management methods and authorizes each maintainer to their own\n    applications. Not enforced by the ASMS service itself.\n  documented_example: \"Authorization: Basic <base64 of the as3 dev user>\"\n  source: https://github.com/LibertyGlobal/appstore-metadata-service#request-samples\n  declared_in_spec: false\n- name: stb-basic\n  type: http\n  scheme: basic\n  perspective: STB\n  applies_to: 'Read-only discovery operations: listApplications, getApplicationDetails'\n  enforced_by: >-\n    The ASMS Proxy, a separate Nginx server that limits the method set exposed\n    to set-top-box devices to fetch-only. The README states this component\n    \"should be providing unique authentication/authorization\
   \ capabilities in\n    future versions of the ASMS initiative\" — i.e. the STB-side auth model is\n    explicitly acknowledged as unfinished.\n  documented_example: \"Authorization: Basic <base64 of the stb dev user>\"\n  source: https://github.com/LibertyGlobal/appstore-metadata-service#request-samples\n  declared_in_spec: false\nunauthenticated_surfaces:\n- api: openapi/liberty-global-appstore-bundle-service-openapi.yml\n  note: >-\n    The AppStore Bundle Service specification declares no securitySchemes and\n    the README shows no Authorization header on any call. It is an internal\n    service reached from the caching layer, not a public endpoint.\n- api: openapi/liberty-global-appstore-caching-service-openapi.yml\n  note: >-\n    Same. The caching service is an Nginx proxy in front of the bundle service;\n    no auth is declared or documented.\ngroup_level:\n  camara_apis:\n    auth_model: not published by Liberty Global\n    note: >-\n      The CAMARA network APIs the group sells\
   \ (SIM Swap, Number Verification,\n      KYC Age Verify, KYC Tenure) are onboarded through the operating joint\n      ventures — Virgin Media O2 and VodafoneZiggo — not through the parent.\n      No OIDC discovery document, no CIBA endpoint and no client-credentials\n      flow is published on any libertyglobal.com host; see\n      well-known/liberty-global-well-known.yml. CAMARA's own security profile\n      builds on OIDC/CIBA, but Liberty Global publishes nothing that would let\n      a developer authenticate.\n    ciba: false\n    oidc_discovery: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/authentication/liberty-global-authentication.yml
+source_yaml_url: https://artifacts.apis.io/liberty-global/authentication/liberty-global-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Telecommunications

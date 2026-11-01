@@ -8,13 +8,13 @@ api_specs:
   label: Fave Payments API
   slug: fave-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fave/refs/heads/main/openapi/fave-payments-api-openapi.yml
+  url: https://artifacts.apis.io/fave/openapi/fave-payments-api-openapi.yml
 - filename: fave-transactions-api-openapi.yml
   format: yaml
   label: Fave Transactions API
   slug: fave-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fave/refs/heads/main/openapi/fave-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/fave/openapi/fave-transactions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -43,7 +43,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/fave-favepay-omni-openapi.yml\ndocs: https://developers.myfave.com/fpo-guide.html\nmodel: >-\n  Request signing (not a bearer/OAuth scheme). Every request is signed with\n  HMAC-SHA256 using the secret key Fave issues per integration during partner\n  onboarding. The signing string is the URL-encoded request fields in submission\n  order (never alphabetical), excluding `sign` and `country_code`, plus\n  `outlet_id` on list, `id` on acknowledge, and `details` on merchant scan. The\n  computed digest is passed as `sign` (query param on GET, body field on POST).\n  Webhook callbacks carry the same `sign` field and must be verified before use.\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: hmacSignature\n  type: apiKey\n  in: query\n  parameter: sign\n  description: HMAC-SHA256 signature computed over the URL-encoded request fields in submission\n    order (excluding sign and country_code,\
   \ and excluding outlet_id on list, id on acknowledge,\n    and details on merchant scan), keyed by the secret Fave issued for the integration. On POST\n    requests the signature is passed as the sign field in the request body.\n  sources:\n  - openapi/fave-favepay-omni-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fave/refs/heads/main/authentication/fave-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fave/authentication/fave-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

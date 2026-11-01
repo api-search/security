@@ -7,31 +7,31 @@ api_specs:
   label: LinkedIn Marketing API AdBudgetPricing API
   slug: linkedin-ads-adbudgetpricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-adbudgetpricing-api-openapi.yml
+  url: https://artifacts.apis.io/linkedin-ads/openapi/linkedin-ads-adbudgetpricing-api-openapi.yml
 - filename: linkedin-ads-adtargetingfacets-api-openapi.yml
   format: yaml
   label: LinkedIn Marketing API AdTargetingFacets API
   slug: linkedin-ads-adtargetingfacets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-adtargetingfacets-api-openapi.yml
+  url: https://artifacts.apis.io/linkedin-ads/openapi/linkedin-ads-adtargetingfacets-api-openapi.yml
 - filename: linkedin-ads-ad-accounts-api-openapi.yml
   format: yaml
   label: LinkedIn Marketing API Ad Accounts API
   slug: linkedin-ads-ad-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-ad-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/linkedin-ads/openapi/linkedin-ads-ad-accounts-api-openapi.yml
 - filename: linkedin-ads-ad-targeting-entities-api-openapi.yml
   format: yaml
   label: LinkedIn Marketing API Ad Targeting Entities API
   slug: linkedin-ads-ad-targeting-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-ad-targeting-entities-api-openapi.yml
+  url: https://artifacts.apis.io/linkedin-ads/openapi/linkedin-ads-ad-targeting-entities-api-openapi.yml
 - filename: linkedin-ads-audience-counts-api-openapi.yml
   format: yaml
   label: LinkedIn Marketing API Audience Counts API
   slug: linkedin-ads-audience-counts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-audience-counts-api-openapi.yml
+  url: https://artifacts.apis.io/linkedin-ads/openapi/linkedin-ads-audience-counts-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/_origin
   \      cannot be selected individually, and changing an app's scopes forces\n      members to re-authenticate.\n    sources:\n      - openapi/linkedin-ads-openapi.yml\n  - name: OpenIDConnect\n    type: openIdConnect\n    openIdConnectUrl: https://www.linkedin.com/oauth/.well-known/openid-configuration\n    issuer: https://www.linkedin.com/oauth\n    jwks_uri: https://www.linkedin.com/oauth/openid/jwks\n    userinfo_endpoint: https://api.linkedin.com/v2/userinfo\n    id_token_signing_alg_values_supported: [RS256]\n    scopes: [openid, profile, email]\n    description: >-\n      Sign In with LinkedIn using OpenID Connect. Discovery document served live\n      and captured verbatim in well-known/linkedin-ads-openid-configuration.json.\n    sources:\n      - well-known/linkedin-ads-openid-configuration.json\n  - name: OAuth2ClientCredentials\n    type: oauth2\n    flows:\n      - flow: clientCredentials\n        tokenUrl: https://www.linkedin.com/oauth/v2/accessToken\n    description: >-\n\
   \      Two-legged flow, available only to selected partner programs; it grants\n      application-level access with no member context and is not used by the\n      advertising surface.\n    sources:\n      - https://learn.microsoft.com/en-us/linkedin/shared/authentication/client-credentials-flow\ntransport:\n  header: 'Authorization: Bearer {access_token}'\n  bearer_format: opaque (approximately 500 characters; plan for 1000)\ntokens:\n  access_token_ttl_seconds: 5184000\n  access_token_ttl_human: 60 days\n  refresh_token: true\n  refresh_token_note: >-\n    Refresh tokens are longer-lived than access tokens and are returned with\n    refresh_token_expires_in; programmatic refresh is documented.\n  introspection: true\n  introspection_docs: https://learn.microsoft.com/en-us/linkedin/shared/authentication/token-introspection\n  revocation: >-\n    Members can revoke an application's access from their LinkedIn privacy\n    settings; subsequent calls fail 401 and the member must re-authenticate.\n\
   app_registration:\n  portal: https://www.linkedin.com/developers/apps\n  create: https://www.linkedin.com/developers/apps/new\n  credentials: Client ID + Client Secret, per app\n  redirect_uri_rules:\n    - must be absolute HTTPS\n    - query parameters are ignored\n    - fragments (#) are invalid\n  token_generator: https://www.linkedin.com/developers/tools/oauth\n  postman: >-\n    https://www.postman.com/linkedin-developer-apis/workspace/linkedin-marketing-solutions-versioned-apis/overview\nscopes_artifact: scopes/linkedin-ads-scopes.yml\nx-evidence:\n  fetched: '2026-08-13'\n  checks:\n    - url: https://learn.microsoft.com/en-us/linkedin/shared/authentication/authorization-code-flow\n      http_status: 200\n    - url: https://www.linkedin.com/oauth/.well-known/openid-configuration\n      http_status: 200\n    - url: https://learn.microsoft.com/en-us/linkedin/shared/authentication/token-introspection\n      http_status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/authentication/linkedin-ads-authentication.yml
+source_yaml_url: https://artifacts.apis.io/linkedin-ads/authentication/linkedin-ads-authentication.yml
 summary_line: oauth2/openIdConnect · 3 schemes
 tags:
 - Advertising

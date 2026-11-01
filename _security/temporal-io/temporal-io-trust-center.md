@@ -5,31 +5,31 @@ api_specs:
   label: Temporal Cluster API
   slug: temporal-io-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temporal-io/refs/heads/main/openapi/temporal-io-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/temporal-io/openapi/temporal-io-cluster-api-openapi.yml
 - filename: temporal-io-namespaces-api-openapi.yml
   format: yaml
   label: Temporal Namespaces API
   slug: temporal-io-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temporal-io/refs/heads/main/openapi/temporal-io-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/temporal-io/openapi/temporal-io-namespaces-api-openapi.yml
 - filename: temporal-io-workflow-lifecycle-api-openapi.yml
   format: yaml
   label: Temporal Workflow Lifecycle API
   slug: temporal-io-workflow-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temporal-io/refs/heads/main/openapi/temporal-io-workflow-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/temporal-io/openapi/temporal-io-workflow-lifecycle-api-openapi.yml
 - filename: temporal-io-workflow-messaging-api-openapi.yml
   format: yaml
   label: Temporal Workflow Messaging API
   slug: temporal-io-workflow-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temporal-io/refs/heads/main/openapi/temporal-io-workflow-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/temporal-io/openapi/temporal-io-workflow-messaging-api-openapi.yml
 - filename: temporal-io-workflows-api-openapi.yml
   format: yaml
   label: Temporal Workflows API
   slug: temporal-io-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temporal-io/refs/heads/main/openapi/temporal-io-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/temporal-io/openapi/temporal-io-workflows-api-openapi.yml
 certification_count: 7
 certifications:
 - SOC 2
@@ -52,7 +52,7 @@ source_filename: temporal-io-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.temporal.io/\nurl: https://trust.temporal.io/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- HIPAA\n- FedRAMP\n- GDPR\nevidence:\n- source: https://trust.temporal.io/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - hipaa\n  - fedramp\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/temporal-io/refs/heads/main/security/temporal-io-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/temporal-io/security/temporal-io-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, GDPR
 tags:
 - Durable Execution

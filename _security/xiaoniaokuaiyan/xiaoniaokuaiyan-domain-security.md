@@ -26,7 +26,7 @@ source_filename: xiaoniaokuaiyan-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: xiaoniaokuaiyan.com\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''xiaoniaokua'\n  hsts: null\ndomains:\n- domain: xiaoniaokuaiyan.com\n  dnssec: false\n  caa:\n  - www.xiaoniao99.com.\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xiaoniaokuaiyan/refs/heads/main/security/xiaoniaokuaiyan-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/xiaoniaokuaiyan/security/xiaoniaokuaiyan-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company
@@ -34,7 +34,7 @@ tags:
 - Health
 - Medical Testing
 - Diagnostics
-- Home Health
+- Home Care
 - China
 - Internet Hospital
 ---

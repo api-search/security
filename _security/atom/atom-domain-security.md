@@ -45,7 +45,7 @@ source_filename: atom-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: atomchat.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 12:13:03 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: soporte.atomchat.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 03:55:52 2026 GMT\n  hsts: null\n- host: us-central1-atomchat-io.cloudfunctions.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 18:06:28 2026 GMT\n  hsts: null\ndomains:\n- domain: atomchat.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: cloudfunctions.net\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atom/refs/heads/main/security/atom-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/atom/security/atom-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

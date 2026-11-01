@@ -5,31 +5,31 @@ api_specs:
   label: Workiz Jobs API
   slug: workiz-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workiz/refs/heads/main/openapi/workiz-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/workiz/openapi/workiz-jobs-api-openapi.yml
 - filename: workiz-leads-api-openapi.yml
   format: yaml
   label: Workiz Leads API
   slug: workiz-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workiz/refs/heads/main/openapi/workiz-leads-api-openapi.yml
+  url: https://artifacts.apis.io/workiz/openapi/workiz-leads-api-openapi.yml
 - filename: workiz-payments-api-openapi.yml
   format: yaml
   label: Workiz Payments API
   slug: workiz-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workiz/refs/heads/main/openapi/workiz-payments-api-openapi.yml
+  url: https://artifacts.apis.io/workiz/openapi/workiz-payments-api-openapi.yml
 - filename: workiz-team-api-openapi.yml
   format: yaml
   label: Workiz Team API
   slug: workiz-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workiz/refs/heads/main/openapi/workiz-team-api-openapi.yml
+  url: https://artifacts.apis.io/workiz/openapi/workiz-team-api-openapi.yml
 - filename: workiz-time-off-api-openapi.yml
   format: yaml
   label: Workiz Time Off API
   slug: workiz-time-off-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workiz/refs/heads/main/openapi/workiz-time-off-api-openapi.yml
+  url: https://artifacts.apis.io/workiz/openapi/workiz-time-off-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,10 +69,10 @@ source_filename: workiz-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.workiz.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 01:42:12 2026 GMT\n  hsts: false\n- host: developer.workiz.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 24 23:59:59 2026 GMT\n  hsts: false\n- host: api.workiz.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 06:08:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: workiz.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workiz/refs/heads/main/security/workiz-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/workiz/security/workiz-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Field Service
+- Field Service Management
 - Home Services
 - Scheduling
 - Dispatch

@@ -24,7 +24,7 @@ source_filename: edx-netl-doe-gov-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: edx.netl.doe.gov\n  https: false\ndomains:\n- domain: doe.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edx-netl-doe-gov/refs/heads/main/security/edx-netl-doe-gov-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/edx-netl-doe-gov/security/edx-netl-doe-gov-domain-security.yml
 summary_line: DNSSEC · DMARC
 tags:
 - Open Data

@@ -8,19 +8,19 @@ api_specs:
   label: EPFL Actu News API
   slug: actu-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/openapi/_original/epfl-actu.yaml
+  url: https://artifacts.apis.io/epfl/openapi/_original/epfl-actu.yaml
 - filename: epfl-memento.yaml
   format: yaml
   label: EPFL Memento Events API
   slug: memento-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/openapi/_original/epfl-memento.yaml
+  url: https://artifacts.apis.io/epfl/openapi/_original/epfl-memento.yaml
 - filename: epfl-primers-api-openapi.yml
   format: yaml
   label: EPFL Primers API
   slug: epfl-primers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/openapi/epfl-primers-api-openapi.yml
+  url: https://artifacts.apis.io/epfl/openapi/epfl-primers-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -56,7 +56,7 @@ source_filename: epfl-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/_original/epfl-actu.yaml, openapi/_original/epfl-memento.yaml\nx-operator: institution\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: tokenAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'DRF Token authentication, e.g. \"Authorization: Token <key>\".'\n  sources:\n  - openapi/_original/epfl-actu.yaml\n  - openapi/_original/epfl-memento.yaml\n- name: basicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/_original/epfl-actu.yaml\n  - openapi/_original/epfl-memento.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/authentication/epfl-authentication.yml
+source_yaml_url: https://artifacts.apis.io/epfl/authentication/epfl-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - University

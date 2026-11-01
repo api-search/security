@@ -7,7 +7,7 @@ api_specs:
   label: TrueAccord Customers API
   slug: trueaccord-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trueaccord/refs/heads/main/openapi/trueaccord-customers-api-openapi.yml
+  url: https://artifacts.apis.io/trueaccord/openapi/trueaccord-customers-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -35,7 +35,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://docs.trueaccord.com/recover/recover-api-reference\ndocs: https://docs.trueaccord.com/recover/recover-api-reference\nsummary:\n  types: [http]\n  http_schemes: [basic]\n  api_key_in: []\n  oauth2_flows: []\n  notes: >-\n    HTTP Basic authentication over HTTPS. The TrueAccord API key is supplied as\n    the username; the password field is ignored but a trailing colon is\n    required. Multi-creditor accounts must also send the X-TA-CREDITOR header\n    identifying the creditor, or the API returns 403.\nschemes:\n  - name: basicAuth\n    type: http\n    scheme: basic\n    description: >-\n      API key as HTTP Basic username (password ignored, trailing colon\n      required). Example: curl https://api.trueaccord.com/api/v1/customers/ -u $YOUR_KEY:\n    sources: [openapi/trueaccord-recover-openapi.yml]\nadditional_headers:\n  - name: X-TA-CREDITOR\n    required_when: multi-creditor account\n    description: Creditor id;\
   \ required for multi-creditor accounts, else 403.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trueaccord/refs/heads/main/authentication/trueaccord-authentication.yml
+source_yaml_url: https://artifacts.apis.io/trueaccord/authentication/trueaccord-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

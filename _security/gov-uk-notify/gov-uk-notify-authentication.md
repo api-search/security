@@ -7,19 +7,19 @@ api_specs:
   label: GOV.UK Notify Notifications API
   slug: gov-uk-notify-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gov-uk-notify/refs/heads/main/openapi/gov-uk-notify-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/gov-uk-notify/openapi/gov-uk-notify-notifications-api-openapi.yml
 - filename: gov-uk-notify-received-text-messages-api-openapi.yml
   format: yaml
   label: GOV.UK Notify Received Text Messages API
   slug: gov-uk-notify-received-text-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gov-uk-notify/refs/heads/main/openapi/gov-uk-notify-received-text-messages-api-openapi.yml
+  url: https://artifacts.apis.io/gov-uk-notify/openapi/gov-uk-notify-received-text-messages-api-openapi.yml
 - filename: gov-uk-notify-templates-api-openapi.yml
   format: yaml
   label: GOV.UK Notify Templates API
   slug: gov-uk-notify-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gov-uk-notify/refs/heads/main/openapi/gov-uk-notify-templates-api-openapi.yml
+  url: https://artifacts.apis.io/gov-uk-notify/openapi/gov-uk-notify-templates-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -47,7 +47,7 @@ source_filename: gov-uk-notify-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: JWT token signed with HS256 using the service API key secret. Tokens are short-lived\n    and must include iss (service ID), iat (issued at), and exp (expiry) claims.\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gov-uk-notify/refs/heads/main/authentication/gov-uk-notify-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gov-uk-notify/authentication/gov-uk-notify-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Notification

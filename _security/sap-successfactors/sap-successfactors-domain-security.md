@@ -5,49 +5,49 @@ api_specs:
   label: SAP SuccessFactors EmpEmployment API
   slug: sap-successfactors-empemployment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-empemployment-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-empemployment-api-openapi.yml
 - filename: sap-successfactors-empjob-api-openapi.yml
   format: yaml
   label: SAP SuccessFactors EmpJob API
   slug: sap-successfactors-empjob-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-empjob-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-empjob-api-openapi.yml
 - filename: sap-successfactors-focompany-api-openapi.yml
   format: yaml
   label: SAP SuccessFactors FOCompany API
   slug: sap-successfactors-focompany-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-focompany-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-focompany-api-openapi.yml
 - filename: sap-successfactors-perperson-api-openapi.yml
   format: yaml
   label: SAP SuccessFactors PerPerson API
   slug: sap-successfactors-perperson-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-perperson-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-perperson-api-openapi.yml
 - filename: sap-successfactors-upsert-api-openapi.yml
   format: yaml
   label: SAP SuccessFactors Upsert API
   slug: sap-successfactors-upsert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-upsert-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-upsert-api-openapi.yml
 - filename: sap-successfactors-user-api-openapi.yml
   format: yaml
   label: SAP SuccessFactors User API
   slug: sap-successfactors-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-user-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-user-api-openapi.yml
 - filename: sap-successfactors-user-userid-api-openapi.yml
   format: yaml
   label: SAP SuccessFactors User('{userId}') API
   slug: sap-successfactors-user-userid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-user-userid-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-user-userid-api-openapi.yml
 - filename: sap-successfactors-oauth-api-openapi.yml
   format: yaml
   label: SAP SuccessFactors OAUTH API
   slug: sap-successfactors-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -94,7 +94,7 @@ source_filename: sap-successfactors-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 13 23:59:59 2027 GMT\n  hsts: null\n- host: help.sap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.successfactors.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: sap.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: successfactors.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/security/sap-successfactors-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sap-successfactors/security/sap-successfactors-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - HCM

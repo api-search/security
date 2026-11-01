@@ -16,7 +16,7 @@ source_filename: keelvar-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: searched\nprobe: true\nsource: https://trust.keelvar.com/\nurl: https://trust.keelvar.com/\ncertifications:\n- ISO 27001\n- GDPR\nevidence:\n- source: https://trust.keelvar.com/\n  keywords:\n  - iso 27001\n  - iso/iec 27001\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keelvar/refs/heads/main/security/keelvar-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/keelvar/security/keelvar-trust-center.yml
 summary_line: ISO 27001, GDPR
 tags:
 - Company

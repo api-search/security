@@ -7,31 +7,31 @@ api_specs:
   label: API Blueprint Composer API
   slug: api-blueprint-composer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-blueprint/refs/heads/main/openapi/api-blueprint-composer-api-openapi.yml
+  url: https://artifacts.apis.io/api-blueprint/openapi/api-blueprint-composer-api-openapi.yml
 - filename: api-blueprint-parser-api-openapi.yml
   format: yaml
   label: API Blueprint Parser API
   slug: api-blueprint-parser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-blueprint/refs/heads/main/openapi/api-blueprint-parser-api-openapi.yml
+  url: https://artifacts.apis.io/api-blueprint/openapi/api-blueprint-parser-api-openapi.yml
 - filename: api-blueprint-service-root-api-openapi.yml
   format: yaml
   label: API Blueprint Service Root API
   slug: api-blueprint-service-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-blueprint/refs/heads/main/openapi/api-blueprint-service-root-api-openapi.yml
+  url: https://artifacts.apis.io/api-blueprint/openapi/api-blueprint-service-root-api-openapi.yml
 - filename: api-blueprint-transform-api-openapi.yml
   format: yaml
   label: API Blueprint Transform API
   slug: api-blueprint-transform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-blueprint/refs/heads/main/openapi/api-blueprint-transform-api-openapi.yml
+  url: https://artifacts.apis.io/api-blueprint/openapi/api-blueprint-transform-api-openapi.yml
 - filename: api-blueprint-validate-api-openapi.yml
   format: yaml
   label: API Blueprint Validate API
   slug: api-blueprint-validate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-blueprint/refs/heads/main/openapi/api-blueprint-validate-api-openapi.yml
+  url: https://artifacts.apis.io/api-blueprint/openapi/api-blueprint-validate-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -53,7 +53,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: >-\n  derive-authentication.py produced nothing because the provider's contract\n  declares no securitySchemes — correctly, because the API has no\n  authentication at all. This file records that as a positive finding rather\n  than an absence. Established by unauthenticated live probes of\n  https://api.apiblueprint.org on 2026-09-02 and by reading the provider's API\n  Blueprint contract in apib/, which documents no credential of any kind.\nprovider: API Blueprint\nproviderId: api-blueprint\nsummary: >-\n  The API Blueprint parsing service is completely open. There is no API key, no\n  token, no OAuth flow, no sign-up and no account. Every operation was called\n  successfully on 2026-09-02 with no credential.\nschemes: []\nauthentication_required: false\nsignup_required: false\nschemes_detail:\n  - id: none\n    type: none\n    description: >-\n      No authentication. Confirmed by calling every operation anonymously:\n   \
   \   GET / -> 200; POST /parser with an API Blueprint body -> 200 with a parse\n      result; POST /validate -> 200; POST /transform -> 200. No 401 or 403 was\n      returned by any request during the pass.\ndiscovery:\n  - path: /.well-known/oauth-authorization-server\n    host: api.apiblueprint.org\n    status: 404\n  - path: /.well-known/openid-configuration\n    host: api.apiblueprint.org\n    status: 404\n  - path: /.well-known/oauth-protected-resource\n    host: api.apiblueprint.org\n    status: 404\n  - path: /.well-known/oauth-authorization-server\n    host: apiblueprint.org\n    status: 404\n  - path: /.well-known/openid-configuration\n    host: apiblueprint.org\n    status: 404\ntransport:\n  https: true\n  tls_version: TLSv1.2\n  hsts: false\n  note: >-\n    TLS observed at TLSv1.2 on api.apiblueprint.org (the marketing host\n    apiblueprint.org negotiates TLSv1.3). HSTS is not set on either host. See\n    security/api-blueprint-domain-security.yml.\nagent_note: >-\n  An agent\
   \ can call this API with no onboarding step whatsoever. That is the\n  strongest agent-access property in this profile and the weakest security one:\n  there is no way to attribute, meter or revoke a caller, and no rate limit is\n  published or observed.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-blueprint/refs/heads/main/authentication/api-blueprint-authentication.yml
+source_yaml_url: https://artifacts.apis.io/api-blueprint/authentication/api-blueprint-authentication.yml
 summary_line: 0 schemes
 tags:
 - API Design

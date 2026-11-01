@@ -5,25 +5,25 @@ api_specs:
   label: Speko Agents API
   slug: speko-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speko/refs/heads/main/openapi/speko-agents-api-openapi.yml
+  url: https://artifacts.apis.io/speko/openapi/speko-agents-api-openapi.yml
 - filename: speko-providers-api-openapi.yml
   format: yaml
   label: Speko Providers API
   slug: speko-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speko/refs/heads/main/openapi/speko-providers-api-openapi.yml
+  url: https://artifacts.apis.io/speko/openapi/speko-providers-api-openapi.yml
 - filename: speko-telephony-api-openapi.yml
   format: yaml
   label: Speko Telephony API
   slug: speko-telephony-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speko/refs/heads/main/openapi/speko-telephony-api-openapi.yml
+  url: https://artifacts.apis.io/speko/openapi/speko-telephony-api-openapi.yml
 - filename: speko-voice-api-openapi.yml
   format: yaml
   label: Speko Voice API
   slug: speko-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speko/refs/heads/main/openapi/speko-voice-api-openapi.yml
+  url: https://artifacts.apis.io/speko/openapi/speko-voice-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: speko-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.speko.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 07:55:16 2026 GMT\n  hsts: null\ndomains:\n- domain: speko.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/speko/refs/heads/main/security/speko-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/speko/security/speko-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Voice

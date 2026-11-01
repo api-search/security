@@ -8,19 +8,19 @@ api_specs:
   label: Smithsonian Institution Content API
   slug: smithsonian-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smithsonian/refs/heads/main/openapi/smithsonian-content-api-openapi.yml
+  url: https://artifacts.apis.io/smithsonian/openapi/smithsonian-content-api-openapi.yml
 - filename: smithsonian-metrics-api-openapi.yml
   format: yaml
   label: Smithsonian Institution Metrics API
   slug: smithsonian-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smithsonian/refs/heads/main/openapi/smithsonian-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/smithsonian/openapi/smithsonian-metrics-api-openapi.yml
 - filename: smithsonian-search-api-openapi.yml
   format: yaml
   label: Smithsonian Institution Search API
   slug: smithsonian-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smithsonian/refs/heads/main/openapi/smithsonian-search-api-openapi.yml
+  url: https://artifacts.apis.io/smithsonian/openapi/smithsonian-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: smithsonian-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/smithsonian-open-access-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: API key from https://api.data.gov/signup/\n  sources:\n  - openapi/smithsonian-open-access-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smithsonian/refs/heads/main/authentication/smithsonian-authentication.yml
+source_yaml_url: https://artifacts.apis.io/smithsonian/authentication/smithsonian-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Museums

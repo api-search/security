@@ -5,25 +5,25 @@ api_specs:
   label: Kaleyra Messages API
   slug: kaleyra-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/openapi/kaleyra-messages-api-openapi.yml
+  url: https://artifacts.apis.io/kaleyra/openapi/kaleyra-messages-api-openapi.yml
 - filename: kaleyra-verify-api-openapi.yml
   format: yaml
   label: Kaleyra Verify API
   slug: kaleyra-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/openapi/kaleyra-verify-api-openapi.yml
+  url: https://artifacts.apis.io/kaleyra/openapi/kaleyra-verify-api-openapi.yml
 - filename: kaleyra-video-api-openapi.yml
   format: yaml
   label: Kaleyra Video API
   slug: kaleyra-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/openapi/kaleyra-video-api-openapi.yml
+  url: https://artifacts.apis.io/kaleyra/openapi/kaleyra-video-api-openapi.yml
 - filename: kaleyra-voice-api-openapi.yml
   format: yaml
   label: Kaleyra Voice API
   slug: kaleyra-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/openapi/kaleyra-voice-api-openapi.yml
+  url: https://artifacts.apis.io/kaleyra/openapi/kaleyra-voice-api-openapi.yml
 certification_count: 5
 certifications:
 - ISO 27001
@@ -44,7 +44,7 @@ source_filename: kaleyra-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nprobe: true\nsource: https://www.kaleyra.com/security/\nurl: https://www.kaleyra.com/security/\ncertifications:\n- ISO 27001\n- SOC 2\n- GDPR\n- HIPAA\n- PCI DSS\nevidence:\n- source: https://www.kaleyra.com/security/\n  keywords:\n  - iso 27001\n  - soc 2\n  - gdpr\n  - hipaa\n  - pci dss\nnotes: >-\n  Kaleyra (a Tata Communications company) publishes security and compliance\n  posture across ISO 27001, SOC 2, GDPR, HIPAA, and PCI DSS for its CPaaS\n  platform. Regional data-residency hosts (India / APAC / EU) support\n  in-region processing. Confirm the current certification list and any\n  Tata Communications trust-center consolidation on reconciliation.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/security/kaleyra-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/kaleyra/security/kaleyra-trust-center.yml
 summary_line: ISO 27001, SOC 2, GDPR, HIPAA, PCI DSS
 tags:
 - CPaaS

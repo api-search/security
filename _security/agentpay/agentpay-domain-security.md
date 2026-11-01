@@ -27,7 +27,7 @@ source_filename: agentpay-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: agentpay.agentpay-apis.workers.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 02:32:36 2026 GMT\n  hsts: false\ndomains:\n- domain: workers.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentpay/refs/heads/main/security/agentpay-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/agentpay/security/agentpay-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

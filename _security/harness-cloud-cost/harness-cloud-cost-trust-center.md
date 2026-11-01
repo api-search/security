@@ -5,37 +5,37 @@ api_specs:
   label: Harness Cloud Cost Management Anomalies API
   slug: harness-cloud-cost-anomalies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harness-cloud-cost/refs/heads/main/openapi/harness-cloud-cost-anomalies-api-openapi.yml
+  url: https://artifacts.apis.io/harness-cloud-cost/openapi/harness-cloud-cost-anomalies-api-openapi.yml
 - filename: harness-cloud-cost-budgets-api-openapi.yml
   format: yaml
   label: Harness Cloud Cost Management Budgets API
   slug: harness-cloud-cost-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harness-cloud-cost/refs/heads/main/openapi/harness-cloud-cost-budgets-api-openapi.yml
+  url: https://artifacts.apis.io/harness-cloud-cost/openapi/harness-cloud-cost-budgets-api-openapi.yml
 - filename: harness-cloud-cost-connectors-api-openapi.yml
   format: yaml
   label: Harness Cloud Cost Management Connectors API
   slug: harness-cloud-cost-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harness-cloud-cost/refs/heads/main/openapi/harness-cloud-cost-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/harness-cloud-cost/openapi/harness-cloud-cost-connectors-api-openapi.yml
 - filename: harness-cloud-cost-cost-categories-api-openapi.yml
   format: yaml
   label: Harness Cloud Cost Management Cost Categories API
   slug: harness-cloud-cost-cost-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harness-cloud-cost/refs/heads/main/openapi/harness-cloud-cost-cost-categories-api-openapi.yml
+  url: https://artifacts.apis.io/harness-cloud-cost/openapi/harness-cloud-cost-cost-categories-api-openapi.yml
 - filename: harness-cloud-cost-perspectives-api-openapi.yml
   format: yaml
   label: Harness Cloud Cost Management Perspectives API
   slug: harness-cloud-cost-perspectives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harness-cloud-cost/refs/heads/main/openapi/harness-cloud-cost-perspectives-api-openapi.yml
+  url: https://artifacts.apis.io/harness-cloud-cost/openapi/harness-cloud-cost-perspectives-api-openapi.yml
 - filename: harness-cloud-cost-recommendations-api-openapi.yml
   format: yaml
   label: Harness Cloud Cost Management Recommendations API
   slug: harness-cloud-cost-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harness-cloud-cost/refs/heads/main/openapi/harness-cloud-cost-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/harness-cloud-cost/openapi/harness-cloud-cost-recommendations-api-openapi.yml
 certification_count: 6
 certifications:
 - SOC 2
@@ -57,7 +57,7 @@ source_filename: harness-cloud-cost-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.harness.io/\nurl: https://trust.harness.io/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- GDPR\n- CSA STAR\nevidence:\n- source: https://trust.harness.io/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - trust center\n  - gdpr\n  - csa star\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/harness-cloud-cost/refs/heads/main/security/harness-cloud-cost-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/harness-cloud-cost/security/harness-cloud-cost-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, GDPR, CSA STAR
 tags:
 - Anomaly Detection

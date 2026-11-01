@@ -8,49 +8,49 @@ api_specs:
   label: Advanced Micro Devices Configuration API
   slug: advanced-micro-devices-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/advanced-micro-devices-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/advanced-micro-devices/openapi/advanced-micro-devices-configuration-api-openapi.yml
 - filename: advanced-micro-devices-credits-api-openapi.yml
   format: yaml
   label: Advanced Micro Devices Credits API
   slug: advanced-micro-devices-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/advanced-micro-devices-credits-api-openapi.yml
+  url: https://artifacts.apis.io/advanced-micro-devices/openapi/advanced-micro-devices-credits-api-openapi.yml
 - filename: advanced-micro-devices-devices-api-openapi.yml
   format: yaml
   label: Advanced Micro Devices API
   slug: advanced-micro-devices-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/advanced-micro-devices-devices-api-openapi.yml
+  url: https://artifacts.apis.io/advanced-micro-devices/openapi/advanced-micro-devices-devices-api-openapi.yml
 - filename: advanced-micro-devices-health-api-openapi.yml
   format: yaml
   label: Advanced Micro Devices Health API
   slug: advanced-micro-devices-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/advanced-micro-devices-health-api-openapi.yml
+  url: https://artifacts.apis.io/advanced-micro-devices/openapi/advanced-micro-devices-health-api-openapi.yml
 - filename: advanced-micro-devices-instances-api-openapi.yml
   format: yaml
   label: Advanced Micro Devices Instances API
   slug: advanced-micro-devices-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/advanced-micro-devices-instances-api-openapi.yml
+  url: https://artifacts.apis.io/advanced-micro-devices/openapi/advanced-micro-devices-instances-api-openapi.yml
 - filename: advanced-micro-devices-models-api-openapi.yml
   format: yaml
   label: Advanced Micro Devices Models API
   slug: advanced-micro-devices-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/advanced-micro-devices-models-api-openapi.yml
+  url: https://artifacts.apis.io/advanced-micro-devices/openapi/advanced-micro-devices-models-api-openapi.yml
 - filename: advanced-micro-devices-monitoring-api-openapi.yml
   format: yaml
   label: Advanced Micro Devices Monitoring API
   slug: advanced-micro-devices-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/advanced-micro-devices-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/advanced-micro-devices/openapi/advanced-micro-devices-monitoring-api-openapi.yml
 - filename: advanced-micro-devices-performance-api-openapi.yml
   format: yaml
   label: Advanced Micro Devices Performance API
   slug: advanced-micro-devices-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/advanced-micro-devices-performance-api-openapi.yml
+  url: https://artifacts.apis.io/advanced-micro-devices/openapi/advanced-micro-devices-performance-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -84,7 +84,7 @@ source_filename: advanced-micro-devices-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amd-developer-cloud-api-openapi.yml, openapi/amd-rocm-management-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  sources:\n  - openapi/amd-developer-cloud-api-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/amd-rocm-management-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/authentication/advanced-micro-devices-authentication.yml
+source_yaml_url: https://artifacts.apis.io/advanced-micro-devices/authentication/advanced-micro-devices-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Artificial Intelligence

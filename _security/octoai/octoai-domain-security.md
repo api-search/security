@@ -37,7 +37,7 @@ source_filename: octoai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: octo.ai\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar  5 23:59:59 2027 GMT\n  hsts: false\n- host: text.octoai.run\n  https: false\n- host: image.octoai.run\n  https: false\ndomains:\n- domain: octo.ai\n  dnssec: false\n  caa:\n  - ;; connection timed out; no servers could be reached\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: octoai.run\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/octoai/refs/heads/main/security/octoai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/octoai/security/octoai-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Acquired

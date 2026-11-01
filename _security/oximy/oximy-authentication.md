@@ -8,19 +8,19 @@ api_specs:
   label: Oximy Init API
   slug: oximy-init-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oximy/refs/heads/main/openapi/oximy-init-api-openapi.yml
+  url: https://artifacts.apis.io/oximy/openapi/oximy-init-api-openapi.yml
 - filename: oximy-policy-api-openapi.yml
   format: yaml
   label: Oximy Policy API
   slug: oximy-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oximy/refs/heads/main/openapi/oximy-policy-api-openapi.yml
+  url: https://artifacts.apis.io/oximy/openapi/oximy-policy-api-openapi.yml
 - filename: oximy-telemetry-api-openapi.yml
   format: yaml
   label: Oximy Telemetry API
   slug: oximy-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oximy/refs/heads/main/openapi/oximy-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/oximy/openapi/oximy-telemetry-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -55,7 +55,7 @@ source_filename: oximy-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/oximy-public-api-openapi.yml\ndocs: https://docs.oximy.com/docs/developer/public-api\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Project API key presented as `Authorization: Bearer <apiKey>`. Keys use the\n    `ox_` prefix.'\n  sources:\n  - openapi/oximy-public-api-openapi.yml\n- name: projectId\n  type: apiKey\n  in: header\n  parameter: X-Project-Id\n  description: Project identifier (`proj_` prefix). Sent alongside the bearer key on init and\n    event ingestion.\n  sources:\n  - openapi/oximy-public-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oximy/refs/heads/main/authentication/oximy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/oximy/authentication/oximy-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

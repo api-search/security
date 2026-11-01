@@ -7,31 +7,31 @@ api_specs:
   label: PartnerStack Customers API
   slug: partnerstack-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/partnerstack/refs/heads/main/openapi/partnerstack-customers-api-openapi.yml
+  url: https://artifacts.apis.io/partnerstack/openapi/partnerstack-customers-api-openapi.yml
 - filename: partnerstack-deals-api-openapi.yml
   format: yaml
   label: PartnerStack Deals API
   slug: partnerstack-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/partnerstack/refs/heads/main/openapi/partnerstack-deals-api-openapi.yml
+  url: https://artifacts.apis.io/partnerstack/openapi/partnerstack-deals-api-openapi.yml
 - filename: partnerstack-partnerships-api-openapi.yml
   format: yaml
   label: PartnerStack Partnerships API
   slug: partnerstack-partnerships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/partnerstack/refs/heads/main/openapi/partnerstack-partnerships-api-openapi.yml
+  url: https://artifacts.apis.io/partnerstack/openapi/partnerstack-partnerships-api-openapi.yml
 - filename: partnerstack-rewards-api-openapi.yml
   format: yaml
   label: PartnerStack Rewards API
   slug: partnerstack-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/partnerstack/refs/heads/main/openapi/partnerstack-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/partnerstack/openapi/partnerstack-rewards-api-openapi.yml
 - filename: partnerstack-transactions-api-openapi.yml
   format: yaml
   label: PartnerStack Transactions API
   slug: partnerstack-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/partnerstack/refs/heads/main/openapi/partnerstack-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/partnerstack/openapi/partnerstack-transactions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -63,7 +63,7 @@ source_filename: partnerstack-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/partnerstack-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/partnerstack-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/partnerstack-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/partnerstack/refs/heads/main/authentication/partnerstack-authentication.yml
+source_yaml_url: https://artifacts.apis.io/partnerstack/authentication/partnerstack-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Partnerships

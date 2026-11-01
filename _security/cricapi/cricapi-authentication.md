@@ -8,37 +8,37 @@ api_specs:
   label: CricAPI Fantasy API
   slug: cricapi-fantasy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/openapi/cricapi-fantasy-api-openapi.yml
+  url: https://artifacts.apis.io/cricapi/openapi/cricapi-fantasy-api-openapi.yml
 - filename: cricapi-generic-api-openapi.yml
   format: yaml
   label: CricAPI Generic API
   slug: cricapi-generic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/openapi/cricapi-generic-api-openapi.yml
+  url: https://artifacts.apis.io/cricapi/openapi/cricapi-generic-api-openapi.yml
 - filename: cricapi-info-api-openapi.yml
   format: yaml
   label: CricAPI Info API
   slug: cricapi-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/openapi/cricapi-info-api-openapi.yml
+  url: https://artifacts.apis.io/cricapi/openapi/cricapi-info-api-openapi.yml
 - filename: cricapi-matches-api-openapi.yml
   format: yaml
   label: CricAPI Matches API
   slug: cricapi-matches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/openapi/cricapi-matches-api-openapi.yml
+  url: https://artifacts.apis.io/cricapi/openapi/cricapi-matches-api-openapi.yml
 - filename: cricapi-players-api-openapi.yml
   format: yaml
   label: CricAPI Players API
   slug: cricapi-players-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/openapi/cricapi-players-api-openapi.yml
+  url: https://artifacts.apis.io/cricapi/openapi/cricapi-players-api-openapi.yml
 - filename: cricapi-series-api-openapi.yml
   format: yaml
   label: CricAPI Series API
   slug: cricapi-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/openapi/cricapi-series-api-openapi.yml
+  url: https://artifacts.apis.io/cricapi/openapi/cricapi-series-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: cricapi-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cricapi-cricket-data-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiKeyQuery\n  type: apiKey\n  in: query\n  parameter: apikey\n  description: 'API key for authentication. Obtained from your CricketData.org account. Format:\n    xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx (GUID)'\n  sources:\n  - openapi/cricapi-cricket-data-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/authentication/cricapi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cricapi/authentication/cricapi-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Cricket

@@ -53,7 +53,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-16'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml hosts plus the two consumer brand hosts\n  (rummycircle.com, my11circle.com) Games24x7 operates\nnote: >-\n  Games24x7 publishes no API host, so there is no API-host row here. The corporate\n  site and the two consumer product hosts were probed instead. No CAA record and no\n  DNSSEC on any of the three registrable domains; HSTS is served on the corporate\n  Webflow site but not on either product host.\nhosts:\n- host: www.games24x7.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 22:27:01 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.rummycircle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 23:59:59 2026 GMT\n  hsts: false\n  hsts_max_age: null\n- host: www.my11circle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 23:59:59 2026 GMT\n  hsts: false\n  hsts_max_age: null\ndomains:\n- domain: games24x7.com\n  dnssec: false\n\
   \  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: rummycircle.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: my11circle.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/games24x7/refs/heads/main/security/games24x7-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/games24x7/security/games24x7-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

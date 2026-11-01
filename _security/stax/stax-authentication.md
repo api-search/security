@@ -7,139 +7,139 @@ api_specs:
   label: Stax Admin API
   slug: stax-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-admin-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-admin-api-openapi.yml
 - filename: stax-charge-api-openapi.yml
   format: yaml
   label: Stax Charge API
   slug: stax-charge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-charge-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-charge-api-openapi.yml
 - filename: stax-credit-api-openapi.yml
   format: yaml
   label: Stax Credit API
   slug: stax-credit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-credit-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-credit-api-openapi.yml
 - filename: stax-customer-api-openapi.yml
   format: yaml
   label: Stax Customer API
   slug: stax-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-customer-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-customer-api-openapi.yml
 - filename: stax-ephemeral-api-openapi.yml
   format: yaml
   label: Stax Ephemeral API
   slug: stax-ephemeral-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-ephemeral-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-ephemeral-api-openapi.yml
 - filename: stax-file-api-openapi.yml
   format: yaml
   label: Stax File API
   slug: stax-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-file-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-file-api-openapi.yml
 - filename: stax-file-id-api-openapi.yml
   format: yaml
   label: Stax File{id} API
   slug: stax-file-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-file-id-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-file-id-api-openapi.yml
 - filename: stax-forgot-api-openapi.yml
   format: yaml
   label: Stax Forgot API
   slug: stax-forgot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-forgot-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-forgot-api-openapi.yml
 - filename: stax-invoice-api-openapi.yml
   format: yaml
   label: Stax Invoice API
   slug: stax-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-invoice-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-invoice-api-openapi.yml
 - filename: stax-item-api-openapi.yml
   format: yaml
   label: Stax Item API
   slug: stax-item-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-item-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-item-api-openapi.yml
 - filename: stax-merchant-api-openapi.yml
   format: yaml
   label: Stax Merchant API
   slug: stax-merchant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-merchant-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-merchant-api-openapi.yml
 - filename: stax-payment-method-api-openapi.yml
   format: yaml
   label: Stax Payment Method API
   slug: stax-payment-method-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-payment-method-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-payment-method-api-openapi.yml
 - filename: stax-query-api-openapi.yml
   format: yaml
   label: Stax Query API
   slug: stax-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-query-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-query-api-openapi.yml
 - filename: stax-reset-api-openapi.yml
   format: yaml
   label: Stax Reset API
   slug: stax-reset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-reset-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-reset-api-openapi.yml
 - filename: stax-self-api-openapi.yml
   format: yaml
   label: Stax Self API
   slug: stax-self-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-self-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-self-api-openapi.yml
 - filename: stax-surcharge-api-openapi.yml
   format: yaml
   label: Stax Surcharge API
   slug: stax-surcharge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-surcharge-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-surcharge-api-openapi.yml
 - filename: stax-team-api-openapi.yml
   format: yaml
   label: Stax Team API
   slug: stax-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-team-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-team-api-openapi.yml
 - filename: stax-terminal-api-openapi.yml
   format: yaml
   label: Stax Terminal API
   slug: stax-terminal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-terminal-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-terminal-api-openapi.yml
 - filename: stax-transaction-api-openapi.yml
   format: yaml
   label: Stax Transaction API
   slug: stax-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-transaction-api-openapi.yml
 - filename: stax-underwriting-api-openapi.yml
   format: yaml
   label: Stax Underwriting API
   slug: stax-underwriting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-underwriting-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-underwriting-api-openapi.yml
 - filename: stax-verify-api-openapi.yml
   format: yaml
   label: Stax Verify API
   slug: stax-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-verify-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-verify-api-openapi.yml
 - filename: stax-webhook-api-openapi.yml
   format: yaml
   label: Stax Webhook API
   slug: stax-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-webhook-api-openapi.yml
 - filename: stax-webhookadmin-api-openapi.yml
   format: yaml
   label: Stax Webhookadmin API
   slug: stax-webhookadmin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-webhookadmin-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-webhookadmin-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -189,7 +189,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-29'\nmethod: searched\nsource: https://docs.staxpayments.com/reference/overview\ndocs:\n- https://docs.staxpayments.com/reference/overview\n- https://docs.staxpayments.com/reference/merchant-api-keys\n- https://docs.staxpayments.com/reference/partner-api-keys\n- https://docs.staxpayments.com/docs/accessing-and-creating-api-keys\n- https://docs.staxpayments.com/reference/ephemeral-authentication-tokens-1\nsummary:\n  types:\n  - http\n  oauth2: false\n  openid_connect: false\n  mutual_tls: false\n  note: Bearer API key only. No OAuth 2.0, no OIDC, no scope surface — scopes/ is intentionally not emitted.\ntransport:\n  header: Authorization\n  format: Bearer <API key>\n  content_type: application/json\n  tls: TLS 1.2 or 1.3 required; SSLv2/v3 and TLS 1.0/1.1 are blocked at the network level. Certificate and cipher pinning\n    are explicitly discouraged.\nschemes:\n- name: ApiKeyAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  level: merchant\n\
   \  description: Merchant-level API key. Direct access to Stax Pay for payment processing, invoicing and transaction management;\n    scoped to a single merchant account and cannot reach partner-level functionality.\n  sources:\n  - openapi/stax-api-openapi.json\n  - https://docs.staxpayments.com/reference/merchant-api-keys\n- name: PartnerApiKey\n  type: http\n  scheme: bearer\n  level: partner\n  description: Partner-level API key for ISVs and platforms managing many merchants through one integration — merchant creation,\n    enrollment, registration data, per-merchant key issuance and partner-brand webhooks.\n  operations_declaring_it: 17\n  sources:\n  - openapi/stax-api-openapi.json\n  - https://docs.staxpayments.com/reference/partner-api-keys\n- name: EphemeralAuth\n  type: http\n  scheme: bearer\n  level: ephemeral\n  description: Short-lived token minted from an API key by GET /ephemeral. Expires in 24 hours and is used for single sign-on\n    into Stax from a partner surface.\n\
   \  operations_declaring_it: 2\n  sources:\n  - openapi/stax-api-openapi.json\n  - https://docs.staxpayments.com/reference/ephemeral-authentication-tokens-1\nsandbox_vs_live: Same base URL and same header for both. A sandbox key is bound to a test gateway; a live key processes real\n  money. There is no key PREFIX documented that lets an integrator tell a test key from a live key by inspection — the only\n  published signal is which account issued it.\nclient_side:\n  library: Stax.js\n  credential: Web Payments token (public key)\n  note: Browser tokenization uses a separate public Web Payments token, never the secret API key.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/authentication/stax-authentication.yml
+source_yaml_url: https://artifacts.apis.io/stax/authentication/stax-authentication.yml
 summary_line: http · 3 schemes
 tags:
 - Payments

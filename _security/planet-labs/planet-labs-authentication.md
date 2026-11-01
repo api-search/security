@@ -8,37 +8,37 @@ api_specs:
   label: Planet Labs Data - Item Types API
   slug: planet-labs-data-item-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/openapi/planet-labs-data-item-types-api-openapi.yml
+  url: https://artifacts.apis.io/planet-labs/openapi/planet-labs-data-item-types-api-openapi.yml
 - filename: planet-labs-data-items-api-openapi.yml
   format: yaml
   label: Planet Labs Data - Items API
   slug: planet-labs-data-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/openapi/planet-labs-data-items-api-openapi.yml
+  url: https://artifacts.apis.io/planet-labs/openapi/planet-labs-data-items-api-openapi.yml
 - filename: planet-labs-data-search-api-openapi.yml
   format: yaml
   label: Planet Labs Data - Search API
   slug: planet-labs-data-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/openapi/planet-labs-data-search-api-openapi.yml
+  url: https://artifacts.apis.io/planet-labs/openapi/planet-labs-data-search-api-openapi.yml
 - filename: planet-labs-data-stats-api-openapi.yml
   format: yaml
   label: Planet Labs Data - Stats API
   slug: planet-labs-data-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/openapi/planet-labs-data-stats-api-openapi.yml
+  url: https://artifacts.apis.io/planet-labs/openapi/planet-labs-data-stats-api-openapi.yml
 - filename: planet-labs-orders-api-openapi.yml
   format: yaml
   label: Planet Labs Orders API
   slug: planet-labs-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/openapi/planet-labs-orders-api-openapi.yml
+  url: https://artifacts.apis.io/planet-labs/openapi/planet-labs-orders-api-openapi.yml
 - filename: planet-labs-subscriptions-api-openapi.yml
   format: yaml
   label: Planet Labs Subscriptions API
   slug: planet-labs-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/openapi/planet-labs-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/planet-labs/openapi/planet-labs-subscriptions-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -75,7 +75,7 @@ source_filename: planet-labs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/planet-labs-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: |-\n    HTTP Basic with the Planet API key as the username and an empty\n    password.\n  sources:\n  - openapi/planet-labs-openapi.yml\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Alternative API key/token header.\n  sources:\n  - openapi/planet-labs-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/authentication/planet-labs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/planet-labs/authentication/planet-labs-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Earth Observation

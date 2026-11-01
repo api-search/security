@@ -27,7 +27,7 @@ source_filename: adcentrxtherapeutics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.adcentrx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 21:40:32 2026 GMT\n  hsts: false\ndomains:\n- domain: adcentrx.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adcentrxtherapeutics/refs/heads/main/security/adcentrxtherapeutics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/adcentrxtherapeutics/security/adcentrxtherapeutics-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

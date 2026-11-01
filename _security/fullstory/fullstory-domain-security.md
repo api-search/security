@@ -5,67 +5,67 @@ api_specs:
   label: FullStory Sessions API
   slug: fullstory-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullstory/refs/heads/main/openapi/fullstory-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/fullstory/openapi/fullstory-sessions-api-openapi.yml
 - filename: fullstory-batch-import-api-openapi.yml
   format: yaml
   label: FullStory Batch Import API
   slug: fullstory-batch-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullstory/refs/heads/main/openapi/fullstory-batch-import-api-openapi.yml
+  url: https://artifacts.apis.io/fullstory/openapi/fullstory-batch-import-api-openapi.yml
 - filename: fullstory-endpoints-api-openapi.yml
   format: yaml
   label: FullStory Endpoints API
   slug: fullstory-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullstory/refs/heads/main/openapi/fullstory-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/fullstory/openapi/fullstory-endpoints-api-openapi.yml
 - filename: fullstory-event-types-api-openapi.yml
   format: yaml
   label: FullStory Event Types API
   slug: fullstory-event-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullstory/refs/heads/main/openapi/fullstory-event-types-api-openapi.yml
+  url: https://artifacts.apis.io/fullstory/openapi/fullstory-event-types-api-openapi.yml
 - filename: fullstory-events-api-openapi.yml
   format: yaml
   label: FullStory Events API
   slug: fullstory-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullstory/refs/heads/main/openapi/fullstory-events-api-openapi.yml
+  url: https://artifacts.apis.io/fullstory/openapi/fullstory-events-api-openapi.yml
 - filename: fullstory-exports-api-openapi.yml
   format: yaml
   label: FullStory Exports API
   slug: fullstory-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullstory/refs/heads/main/openapi/fullstory-exports-api-openapi.yml
+  url: https://artifacts.apis.io/fullstory/openapi/fullstory-exports-api-openapi.yml
 - filename: fullstory-operations-api-openapi.yml
   format: yaml
   label: FullStory Operations API
   slug: fullstory-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullstory/refs/heads/main/openapi/fullstory-operations-api-openapi.yml
+  url: https://artifacts.apis.io/fullstory/openapi/fullstory-operations-api-openapi.yml
 - filename: fullstory-segments-api-openapi.yml
   format: yaml
   label: FullStory Segments API
   slug: fullstory-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullstory/refs/heads/main/openapi/fullstory-segments-api-openapi.yml
+  url: https://artifacts.apis.io/fullstory/openapi/fullstory-segments-api-openapi.yml
 - filename: fullstory-session-events-api-openapi.yml
   format: yaml
   label: FullStory Session Events API
   slug: fullstory-session-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullstory/refs/heads/main/openapi/fullstory-session-events-api-openapi.yml
+  url: https://artifacts.apis.io/fullstory/openapi/fullstory-session-events-api-openapi.yml
 - filename: fullstory-session-summaries-api-openapi.yml
   format: yaml
   label: FullStory Session Summaries API
   slug: fullstory-session-summaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullstory/refs/heads/main/openapi/fullstory-session-summaries-api-openapi.yml
+  url: https://artifacts.apis.io/fullstory/openapi/fullstory-session-summaries-api-openapi.yml
 - filename: fullstory-users-api-openapi.yml
   format: yaml
   label: FullStory Users API
   slug: fullstory-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullstory/refs/heads/main/openapi/fullstory-users-api-openapi.yml
+  url: https://artifacts.apis.io/fullstory/openapi/fullstory-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -105,7 +105,7 @@ source_filename: fullstory-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fullstory.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 19:04:01 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.fullstory.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 04:40:54 2026 GMT\n  hsts: false\n- host: api.fullstory.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 06:26:09 2026 GMT\n  hsts: null\ndomains:\n- domain: fullstory.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fullstory/refs/heads/main/security/fullstory-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fullstory/security/fullstory-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Session Replay

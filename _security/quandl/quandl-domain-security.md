@@ -5,19 +5,19 @@ api_specs:
   label: Quandl (Nasdaq Data Link) Databases API
   slug: quandl-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandl/refs/heads/main/openapi/quandl-databases-api-openapi.yml
+  url: https://artifacts.apis.io/quandl/openapi/quandl-databases-api-openapi.yml
 - filename: quandl-datasets-api-openapi.yml
   format: yaml
   label: Quandl (Nasdaq Data Link) Datasets API
   slug: quandl-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandl/refs/heads/main/openapi/quandl-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/quandl/openapi/quandl-datasets-api-openapi.yml
 - filename: quandl-tables-api-openapi.yml
   format: yaml
   label: Quandl (Nasdaq Data Link) Tables API
   slug: quandl-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandl/refs/heads/main/openapi/quandl-tables-api-openapi.yml
+  url: https://artifacts.apis.io/quandl/openapi/quandl-tables-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: quandl-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: data.nasdaq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 16 01:27:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.data.nasdaq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 09:28:08 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: nasdaq.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quandl/refs/heads/main/security/quandl-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/quandl/security/quandl-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Finance

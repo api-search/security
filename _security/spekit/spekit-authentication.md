@@ -8,31 +8,31 @@ api_specs:
   label: Spekit Searches API
   slug: spekit-searches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/openapi/spekit-searches-api-openapi.yml
+  url: https://artifacts.apis.io/spekit/openapi/spekit-searches-api-openapi.yml
 - filename: spekit-spek-reactions-api-openapi.yml
   format: yaml
   label: Spekit Spek Reactions API
   slug: spekit-spek-reactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/openapi/spekit-spek-reactions-api-openapi.yml
+  url: https://artifacts.apis.io/spekit/openapi/spekit-spek-reactions-api-openapi.yml
 - filename: spekit-spek-views-api-openapi.yml
   format: yaml
   label: Spekit Spek Views API
   slug: spekit-spek-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/openapi/spekit-spek-views-api-openapi.yml
+  url: https://artifacts.apis.io/spekit/openapi/spekit-spek-views-api-openapi.yml
 - filename: spekit-user-activities-api-openapi.yml
   format: yaml
   label: Spekit User Activities API
   slug: spekit-user-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/openapi/spekit-user-activities-api-openapi.yml
+  url: https://artifacts.apis.io/spekit/openapi/spekit-user-activities-api-openapi.yml
 - filename: spekit-users-api-openapi.yml
   format: yaml
   label: Spekit Users API
   slug: spekit-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/openapi/spekit-users-api-openapi.yml
+  url: https://artifacts.apis.io/spekit/openapi/spekit-users-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -122,7 +122,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: openapi/spekit-
   \  issuer: https://mcp.spekit.co/\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://mcp.spekit.co/authorize\n    tokenUrl: https://mcp.spekit.co/token\n    pkce: required (S256)\n    scopes: [openid, profile, email, read]\n  registration_endpoint: https://mcp.spekit.co/register\n  dynamic_client_registration: true\n  client_id_metadata_document_supported: true\n  token_endpoint_auth_methods_supported: [client_secret_post, client_secret_basic]\n  grant_types_supported: [authorization_code, refresh_token]\n  bearer_methods_supported: [header]\n  client_credentials: false\n  client_credentials_note: >-\n    Spekit states explicitly there is no machine-to-machine path using a Client ID and secret —\n    every connection requires an interactive sign-in and consent with the user's own Spekit login.\n  access_token_lifetime: 24 hours\n  refresh_token_lifetime: 30 days, rotating on every use; each refresh cancels the prior token\n  token_format: RS256-signed JWT, verified against\
   \ the identity provider's published JWKS with issuer and audience claim checks\n  session_state: encrypted at rest (Fernet) in the session store\n  revocation: users or org admins can disconnect at any time, like any other OAuth grant\n  authorization_model: >-\n    Delegated only. The connector grants no new access — every call runs as the signed-in user\n    within that user's existing Spekit role, enforced at the backend API layer. Scope cannot be\n    narrowed to specific topics or deal rooms, and there is no forced read-only mode independent\n    of role.\n  discovery:\n  - path: /.well-known/oauth-authorization-server\n    rfc: RFC 8414\n    file: ../well-known/spekit-mcp-oauth-authorization-server.json\n  - path: /.well-known/oauth-protected-resource/mcp\n    rfc: RFC 9728\n    file: ../well-known/spekit-mcp-oauth-protected-resource.json\n    advertised_via: WWW-Authenticate resource_metadata on the 401\n  sources:\n  - https://mcp.spekit.co/.well-known/oauth-authorization-server\n\
   \  - https://help.spekit.com/hc/en-us/articles/53991678945435-Spekit-MCP-Data-Privacy-Security-FAQs\nsso:\n  note: >-\n    End-user authentication into the Spekit web app supports SAML SSO and SCIM provisioning\n    with Okta, Entra ID (Azure) and OneLogin. This is workforce identity, not API credentialing —\n    neither surface above accepts an SSO assertion directly.\n  docs: https://help.spekit.com/hc/en-us/articles/9923374365723-SSO-Overview-Configuration\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/authentication/spekit-authentication.yml
+source_yaml_url: https://artifacts.apis.io/spekit/authentication/spekit-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company

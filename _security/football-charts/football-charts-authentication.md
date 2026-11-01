@@ -3,13 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 - path
-api_specs:
-- filename: football-charts-openapi-generated.yml
-  format: yaml
-  label: Football Charts API
-  slug: football-charts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/football-charts/refs/heads/main/openapi/_ae-authored/football-charts-openapi-generated.yml
 auth_types:
 - apiKey
 description: ''
@@ -71,7 +64,7 @@ source_yaml: "generated: '2026-09-04'\nmethod: searched\nsource: https://www.foo
   \ [rest, mcp-remote]\n    sources: ['https://www.football-charts.com/developers', 'live 401 body']\n  - name: xApiKey\n    type: apiKey\n    in: header\n    parameter: X-API-Key\n    surfaces: [rest]\n    sources: ['live 401 body from https://footballcharts-backend.onrender.com/api/v1/leagues/']\n    note: >-\n      Not shown on the developer page — discovered in the API's own 401 message, which names both\n      accepted headers.\n  - name: mcpUrlPathKey\n    type: apiKey\n    in: path\n    parameter: '<key>'\n    format: 'https://mcp.football-charts.com/<fc_key>/mcp'\n    surfaces: [mcp-remote]\n    sources: ['https://www.football-charts.com/developers']\n    note: >-\n      Documented for claude.ai custom connectors, whose configuration field accepts only a URL. The\n      provider states keys are read-only and replaceable, so a key in a URL grants published\n      statistics and nothing else.\n  - name: fcApiKeyEnv\n    type: apiKey\n    in: environment\n    parameter: FC_API_KEY\n\
   \    surfaces: [mcp-stdio]\n    sources: ['https://github.com/ddevetak/footballcharts-mcp/blob/main/server.json']\nkey_issuance:\n  self_serve: true\n  endpoint: 'POST https://footballcharts-backend.onrender.com/api/v1/keys/register/'\n  request_body: '{\"email\": \"you@example.com\"}'\n  web_form: https://www.football-charts.com/developers\n  key_prefix: fc_\n  shown_once: true\n  rotation: 'Provider states a new key can be issued at any time; keys are read-only.'\n  cost: free\nx-evidence:\n  - {fetched: '2026-09-04', url: 'https://footballcharts-backend.onrender.com/api/v1/leagues/', http_status: 401, body: '{\"error\": {\"code\": \"missing_key\", \"message\": \"Pass your API key as \\\"Authorization: Bearer fc_...\\\" or \\\"X-API-Key\\\". Free keys: POST /api/v1/keys/register/\"}}'}\n  - {fetched: '2026-09-04', url: 'https://footballcharts-backend.onrender.com/api/v1/leagues/', http_status: 401, sent: 'Authorization: Bearer <invalid>', body: '{\"error\": {\"code\": \"unknown_key\"\
   , \"message\": \"API key not recognised.\"}}'}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/football-charts/refs/heads/main/authentication/football-charts-authentication.yml
+source_yaml_url: https://artifacts.apis.io/football-charts/authentication/football-charts-authentication.yml
 summary_line: apiKey · 4 schemes
 tags:
 - Football

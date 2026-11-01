@@ -8,175 +8,175 @@ api_specs:
   label: Cloudbeds Access Token API
   slug: cloudbeds-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-access-token-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbeds/openapi/cloudbeds-access-token-api-openapi.yml
 - filename: cloudbeds-getavailableroomtypes-api-openapi.yml
   format: yaml
   label: Cloudbeds GetAvailableRoomTypes API
   slug: cloudbeds-getavailableroomtypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-getavailableroomtypes-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbeds/openapi/cloudbeds-getavailableroomtypes-api-openapi.yml
 - filename: cloudbeds-getguest-api-openapi.yml
   format: yaml
   label: Cloudbeds GetGuest API
   slug: cloudbeds-getguest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-getguest-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbeds/openapi/cloudbeds-getguest-api-openapi.yml
 - filename: cloudbeds-getguestlist-api-openapi.yml
   format: yaml
   label: Cloudbeds GetGuestList API
   slug: cloudbeds-getguestlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-getguestlist-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbeds/openapi/cloudbeds-getguestlist-api-openapi.yml
 - filename: cloudbeds-gethoteldetails-api-openapi.yml
   format: yaml
   label: Cloudbeds GetHotelDetails API
   slug: cloudbeds-gethoteldetails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-gethoteldetails-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbeds/openapi/cloudbeds-gethoteldetails-api-openapi.yml
 - filename: cloudbeds-gethotels-api-openapi.yml
   format: yaml
   label: Cloudbeds GetHotels API
   slug: cloudbeds-gethotels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-gethotels-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbeds/openapi/cloudbeds-gethotels-api-openapi.yml
 - filename: cloudbeds-getpaymentmethods-api-openapi.yml
   format: yaml
   label: Cloudbeds GetPaymentMethods API
   slug: cloudbeds-getpaymentmethods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-getpaymentmethods-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbeds/openapi/cloudbeds-getpaymentmethods-api-openapi.yml
 - filename: cloudbeds-getrate-api-openapi.yml
   format: yaml
   label: Cloudbeds GetRate API
   slug: cloudbeds-getrate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-getrate-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbeds/openapi/cloudbeds-getrate-api-openapi.yml
 - filename: cloudbeds-getrateplans-api-openapi.yml
   format: yaml
   label: Cloudbeds GetRatePlans API
   slug: cloudbeds-getrateplans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-getrateplans-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbeds/openapi/cloudbeds-getrateplans-api-openapi.yml
 - filename: cloudbeds-getreservation-api-openapi.yml
   format: yaml
   label: Cloudbeds GetReservation API
   slug: cloudbeds-getreservation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-getreservation-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbeds/openapi/cloudbeds-getreservation-api-openapi.yml
 - filename: cloudbeds-getreservations-api-openapi.yml
   format: yaml
   label: Cloudbeds GetReservations API
   slug: cloudbeds-getreservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-getreservations-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbeds/openapi/cloudbeds-getreservations-api-openapi.yml
 - filename: cloudbeds-getrooms-api-openapi.yml
   format: yaml
   label: Cloudbeds GetRooms API
   slug: cloudbeds-getrooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-getrooms-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbeds/openapi/cloudbeds-getrooms-api-openapi.yml
 - filename: cloudbeds-getroomtypes-api-openapi.yml
   format: yaml
   label: Cloudbeds GetRoomTypes API
   slug: cloudbeds-getroomtypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-getroomtypes-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbeds/openapi/cloudbeds-getroomtypes-api-openapi.yml
 - filename: cloudbeds-getusers-api-openapi.yml
   format: yaml
   label: Cloudbeds GetUsers API
   slug: cloudbeds-getusers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-getusers-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbeds/openapi/cloudbeds-getusers-api-openapi.yml
 - filename: cloudbeds-postcharge-api-openapi.yml
   format: yaml
   label: Cloudbeds PostCharge API
   slug: cloudbeds-postcharge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-postcharge-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbeds/openapi/cloudbeds-postcharge-api-openapi.yml
 - filename: cloudbeds-postguest-api-openapi.yml
   format: yaml
   label: Cloudbeds PostGuest API
   slug: cloudbeds-postguest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-postguest-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbeds/openapi/cloudbeds-postguest-api-openapi.yml
 - filename: cloudbeds-postpayment-api-openapi.yml
   format: yaml
   label: Cloudbeds PostPayment API
   slug: cloudbeds-postpayment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-postpayment-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbeds/openapi/cloudbeds-postpayment-api-openapi.yml
 - filename: cloudbeds-postreservation-api-openapi.yml
   format: yaml
   label: Cloudbeds PostReservation API
   slug: cloudbeds-postreservation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-postreservation-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbeds/openapi/cloudbeds-postreservation-api-openapi.yml
 - filename: cloudbeds-postroomassign-api-openapi.yml
   format: yaml
   label: Cloudbeds PostRoomAssign API
   slug: cloudbeds-postroomassign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-postroomassign-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbeds/openapi/cloudbeds-postroomassign-api-openapi.yml
 - filename: cloudbeds-postroomcheckin-api-openapi.yml
   format: yaml
   label: Cloudbeds PostRoomCheckIn API
   slug: cloudbeds-postroomcheckin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-postroomcheckin-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbeds/openapi/cloudbeds-postroomcheckin-api-openapi.yml
 - filename: cloudbeds-postroomcheckout-api-openapi.yml
   format: yaml
   label: Cloudbeds PostRoomCheckOut API
   slug: cloudbeds-postroomcheckout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-postroomcheckout-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbeds/openapi/cloudbeds-postroomcheckout-api-openapi.yml
 - filename: cloudbeds-postwebhook-api-openapi.yml
   format: yaml
   label: Cloudbeds PostWebhook API
   slug: cloudbeds-postwebhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-postwebhook-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbeds/openapi/cloudbeds-postwebhook-api-openapi.yml
 - filename: cloudbeds-putguest-api-openapi.yml
   format: yaml
   label: Cloudbeds PutGuest API
   slug: cloudbeds-putguest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-putguest-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbeds/openapi/cloudbeds-putguest-api-openapi.yml
 - filename: cloudbeds-putrate-api-openapi.yml
   format: yaml
   label: Cloudbeds PutRate API
   slug: cloudbeds-putrate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-putrate-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbeds/openapi/cloudbeds-putrate-api-openapi.yml
 - filename: cloudbeds-putreservation-api-openapi.yml
   format: yaml
   label: Cloudbeds PutReservation API
   slug: cloudbeds-putreservation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-putreservation-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbeds/openapi/cloudbeds-putreservation-api-openapi.yml
 - filename: cloudbeds-delete-webhook-api-openapi.yml
   format: yaml
   label: Cloudbeds Delete Webhook API
   slug: cloudbeds-delete-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-delete-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbeds/openapi/cloudbeds-delete-webhook-api-openapi.yml
 - filename: cloudbeds-get-dashboard-api-openapi.yml
   format: yaml
   label: Cloudbeds Get Dashboard API
   slug: cloudbeds-get-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-get-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbeds/openapi/cloudbeds-get-dashboard-api-openapi.yml
 - filename: cloudbeds-get-webhooks-api-openapi.yml
   format: yaml
   label: Cloudbeds Get Webhooks API
   slug: cloudbeds-get-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-get-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbeds/openapi/cloudbeds-get-webhooks-api-openapi.yml
 - filename: cloudbeds-user-info-api-openapi.yml
   format: yaml
   label: Cloudbeds User Info API
   slug: cloudbeds-user-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-user-info-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbeds/openapi/cloudbeds-user-info-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -214,7 +214,7 @@ source_filename: cloudbeds-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cloudbeds-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-API-KEY\n  sources:\n  - openapi/cloudbeds-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://hotels.cloudbeds.com/api/v1.2/oauth\n    tokenUrl: https://hotels.cloudbeds.com/api/v1.2/access_token\n    scopes: 2\n  sources:\n  - openapi/cloudbeds-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/authentication/cloudbeds-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cloudbeds/authentication/cloudbeds-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Hospitality

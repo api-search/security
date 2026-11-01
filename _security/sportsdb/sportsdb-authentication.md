@@ -8,55 +8,55 @@ api_specs:
   label: TheSportsDB Events API
   slug: sportsdb-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdb/refs/heads/main/openapi/sportsdb-events-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdb/openapi/sportsdb-events-api-openapi.yml
 - filename: sportsdb-leagues-api-openapi.yml
   format: yaml
   label: TheSportsDB Leagues API
   slug: sportsdb-leagues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdb/refs/heads/main/openapi/sportsdb-leagues-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdb/openapi/sportsdb-leagues-api-openapi.yml
 - filename: sportsdb-livescores-api-openapi.yml
   format: yaml
   label: TheSportsDB Livescores API
   slug: sportsdb-livescores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdb/refs/heads/main/openapi/sportsdb-livescores-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdb/openapi/sportsdb-livescores-api-openapi.yml
 - filename: sportsdb-lookup-api-openapi.yml
   format: yaml
   label: TheSportsDB Lookup API
   slug: sportsdb-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdb/refs/heads/main/openapi/sportsdb-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdb/openapi/sportsdb-lookup-api-openapi.yml
 - filename: sportsdb-players-api-openapi.yml
   format: yaml
   label: TheSportsDB Players API
   slug: sportsdb-players-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdb/refs/heads/main/openapi/sportsdb-players-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdb/openapi/sportsdb-players-api-openapi.yml
 - filename: sportsdb-search-api-openapi.yml
   format: yaml
   label: TheSportsDB Search API
   slug: sportsdb-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdb/refs/heads/main/openapi/sportsdb-search-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdb/openapi/sportsdb-search-api-openapi.yml
 - filename: sportsdb-teams-api-openapi.yml
   format: yaml
   label: TheSportsDB Teams API
   slug: sportsdb-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdb/refs/heads/main/openapi/sportsdb-teams-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdb/openapi/sportsdb-teams-api-openapi.yml
 - filename: sportsdb-lists-api-openapi.yml
   format: yaml
   label: TheSportsDB Lists API
   slug: sportsdb-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdb/refs/heads/main/openapi/sportsdb-lists-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdb/openapi/sportsdb-lists-api-openapi.yml
 - filename: sportsdb-seasons-api-openapi.yml
   format: yaml
   label: TheSportsDB Seasons API
   slug: sportsdb-seasons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdb/refs/heads/main/openapi/sportsdb-seasons-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdb/openapi/sportsdb-seasons-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -84,7 +84,7 @@ source_filename: sportsdb-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sportsdb-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyHeader\n  type: apiKey\n  in: header\n  parameter: X-API-KEY\n  description: Premium V2 API key supplied in the X-API-KEY request header.\n  sources:\n  - openapi/sportsdb-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sportsdb/refs/heads/main/authentication/sportsdb-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sportsdb/authentication/sportsdb-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Sports

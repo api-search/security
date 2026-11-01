@@ -5,31 +5,31 @@ api_specs:
   label: Signeasy Embedded API
   slug: signeasy-embedded-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-embedded-api-openapi.yml
+  url: https://artifacts.apis.io/signeasy/openapi/signeasy-embedded-api-openapi.yml
 - filename: signeasy-envelopes-api-openapi.yml
   format: yaml
   label: Signeasy Envelopes API
   slug: signeasy-envelopes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-envelopes-api-openapi.yml
+  url: https://artifacts.apis.io/signeasy/openapi/signeasy-envelopes-api-openapi.yml
 - filename: signeasy-originals-api-openapi.yml
   format: yaml
   label: Signeasy Originals API
   slug: signeasy-originals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-originals-api-openapi.yml
+  url: https://artifacts.apis.io/signeasy/openapi/signeasy-originals-api-openapi.yml
 - filename: signeasy-templates-api-openapi.yml
   format: yaml
   label: Signeasy Templates API
   slug: signeasy-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-templates-api-openapi.yml
+  url: https://artifacts.apis.io/signeasy/openapi/signeasy-templates-api-openapi.yml
 - filename: signeasy-users-api-openapi.yml
   format: yaml
   label: Signeasy Users API
   slug: signeasy-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-users-api-openapi.yml
+  url: https://artifacts.apis.io/signeasy/openapi/signeasy-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: signeasy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: signeasy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 05:42:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.signeasy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 12:02:27 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.signeasy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 14 11:51:38 2027 GMT\n  hsts: null\ndomains:\n- domain: signeasy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/security/signeasy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/signeasy/security/signeasy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - E-Signature

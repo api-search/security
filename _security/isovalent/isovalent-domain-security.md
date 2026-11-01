@@ -5,55 +5,55 @@ api_specs:
   label: Isovalent Bgp API
   slug: isovalent-bgp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/openapi/isovalent-bgp-api-openapi.yml
+  url: https://artifacts.apis.io/isovalent/openapi/isovalent-bgp-api-openapi.yml
 - filename: isovalent-connectivity-api-openapi.yml
   format: yaml
   label: Isovalent Connectivity API
   slug: isovalent-connectivity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/openapi/isovalent-connectivity-api-openapi.yml
+  url: https://artifacts.apis.io/isovalent/openapi/isovalent-connectivity-api-openapi.yml
 - filename: isovalent-daemon-api-openapi.yml
   format: yaml
   label: Isovalent Daemon API
   slug: isovalent-daemon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/openapi/isovalent-daemon-api-openapi.yml
+  url: https://artifacts.apis.io/isovalent/openapi/isovalent-daemon-api-openapi.yml
 - filename: isovalent-endpoint-api-openapi.yml
   format: yaml
   label: Isovalent Endpoint API
   slug: isovalent-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/openapi/isovalent-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/isovalent/openapi/isovalent-endpoint-api-openapi.yml
 - filename: isovalent-healthz-api-openapi.yml
   format: yaml
   label: Isovalent Healthz API
   slug: isovalent-healthz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/openapi/isovalent-healthz-api-openapi.yml
+  url: https://artifacts.apis.io/isovalent/openapi/isovalent-healthz-api-openapi.yml
 - filename: isovalent-ipam-api-openapi.yml
   format: yaml
   label: Isovalent Ipam API
   slug: isovalent-ipam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/openapi/isovalent-ipam-api-openapi.yml
+  url: https://artifacts.apis.io/isovalent/openapi/isovalent-ipam-api-openapi.yml
 - filename: isovalent-policy-api-openapi.yml
   format: yaml
   label: Isovalent Policy API
   slug: isovalent-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/openapi/isovalent-policy-api-openapi.yml
+  url: https://artifacts.apis.io/isovalent/openapi/isovalent-policy-api-openapi.yml
 - filename: isovalent-prefilter-api-openapi.yml
   format: yaml
   label: Isovalent Prefilter API
   slug: isovalent-prefilter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/openapi/isovalent-prefilter-api-openapi.yml
+  url: https://artifacts.apis.io/isovalent/openapi/isovalent-prefilter-api-openapi.yml
 - filename: isovalent-service-api-openapi.yml
   format: yaml
   label: Isovalent Service API
   slug: isovalent-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/openapi/isovalent-service-api-openapi.yml
+  url: https://artifacts.apis.io/isovalent/openapi/isovalent-service-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -102,7 +102,7 @@ source_filename: isovalent-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: isovalent.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 08:43:48 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.cilium.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 20:32:49 2026 GMT\n  hsts: false\n- host: hubble-relay.kube-system.svc.cluster.local\n  https: false\ndomains:\n- domain: isovalent.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: cilium.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/security/isovalent-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/isovalent/security/isovalent-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

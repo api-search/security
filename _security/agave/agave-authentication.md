@@ -8,97 +8,97 @@ api_specs:
   label: Agave Budgets API
   slug: agave-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-budgets-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-budgets-api-openapi.yml
 - filename: agave-contracts-api-openapi.yml
   format: yaml
   label: Agave Contracts API
   slug: agave-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-contracts-api-openapi.yml
 - filename: agave-cost-codes-api-openapi.yml
   format: yaml
   label: Agave Cost Codes API
   slug: agave-cost-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-cost-codes-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-cost-codes-api-openapi.yml
 - filename: agave-employees-api-openapi.yml
   format: yaml
   label: Agave Employees API
   slug: agave-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-employees-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-employees-api-openapi.yml
 - filename: agave-invoices-api-openapi.yml
   format: yaml
   label: Agave Invoices API
   slug: agave-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-invoices-api-openapi.yml
 - filename: agave-link-sessions-api-openapi.yml
   format: yaml
   label: Agave Link Sessions API
   slug: agave-link-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-link-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-link-sessions-api-openapi.yml
 - filename: agave-projects-api-openapi.yml
   format: yaml
   label: Agave Projects API
   slug: agave-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-projects-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-projects-api-openapi.yml
 - filename: agave-timesheets-api-openapi.yml
   format: yaml
   label: Agave Timesheets API
   slug: agave-timesheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-timesheets-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-timesheets-api-openapi.yml
 - filename: agave-vendors-api-openapi.yml
   format: yaml
   label: Agave Vendors API
   slug: agave-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-vendors-api-openapi.yml
 - filename: agave-common-api-openapi.yml
   format: yaml
   label: Agave Common API
   slug: agave-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-common-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-common-api-openapi.yml
 - filename: agave-customer-management-api-openapi.yml
   format: yaml
   label: Agave Customer Management API
   slug: agave-customer-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-customer-management-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-customer-management-api-openapi.yml
 - filename: agave-file-management-api-openapi.yml
   format: yaml
   label: Agave File Management API
   slug: agave-file-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-file-management-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-file-management-api-openapi.yml
 - filename: agave-financials-management-api-openapi.yml
   format: yaml
   label: Agave Financials Management API
   slug: agave-financials-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-financials-management-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-financials-management-api-openapi.yml
 - filename: agave-project-management-api-openapi.yml
   format: yaml
   label: Agave Project Management API
   slug: agave-project-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-project-management-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-project-management-api-openapi.yml
 - filename: agave-service-management-api-openapi.yml
   format: yaml
   label: Agave Service Management API
   slug: agave-service-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-service-management-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-service-management-api-openapi.yml
 - filename: agave-webhooks-api-openapi.yml
   format: yaml
   label: Agave Webhooks API
   slug: agave-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/agave/openapi/agave-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: 'Agave''s own API authenticates with three static credential headers plus a required version header; there is no OAuth, no bearer token and no token endpoint on the Agave API itself. OAuth exists in the product, but one layer down: Agave Link runs the OAuth dance against each SOURCE SYSTEM (Procore, Autodesk, QuickBooks, ...) on the user''s behalf and hands back an opaque Account Token. So a caller holds long-lived, non-expiring, non-scoped credentials that grant whatever the linked user granted — there is nothing to narrow. This artifact replaces an earlier derived profile that recorded a single "API-Key" header scheme; that scheme was an artefact of an API Evangelist-authored spec and does not exist on the live API. Verified live 2026-08-30: GET https://api.agaveapi.com/projects returns 401 {"error":"Invalid API-Version header"}.'
@@ -152,7 +152,7 @@ source_yaml: "generated: '2026-08-30'\nmethod: searched\nsource: https://docs.ag
   - name: AccountToken\n  type: apiKey\n  in: header\n  parameter: Account-Token\n  required: true\n  required_except: '\"Link Token\" requests, where it is not applicable'\n  description: >-\n    Per-linked-account token returned after exchanging the Agave Link public token. Selects WHICH\n    end-customer source-system account the request acts against.\n  sources: [https://docs.agaveapi.com/agave-api/headers]\nversion_gate:\n  parameter: API-Version\n  required: true\n  current: '2021-11-21'\n  failure: 401 with {\"message\":\"Invalid API-Version header\"}\n  note: Enforced before authentication — a request without it fails 401 even with valid credentials.\nscoping_headers:\n- name: Project-Id\n  description: Agave Project UUID, scoping the request to one project in PM/field-service systems. Accepts \"*\" on some endpoints.\n- name: Company-Id\n  description: Agave Company UUID, used when the user granted cross-company access. Enumerate via /link/companies.\ndelegated_auth:\n  mechanism:\
   \ Agave Link\n  flow: >-\n    Create a Link Token (POST /link/token with a reference_id) -> open the hosted Agave Link component\n    -> the user authenticates with their source system -> onSuccess returns a publicToken -> exchange\n    it (POST /link/token/exchange) for a long-lived Account-Token.\n  docs: https://docs.agaveapi.com/agave-link/authentication-flow\n  reference_id:\n    description: >-\n      Opaque caller-chosen string, max 255 characters, that identifies the integration/user pair. One\n      reference_id belongs to exactly one integration; on-prem and hosted source systems (QuickBooks\n      Desktop, Foundation, Vista, Sage 100/300, ComputerEase, Cheops) require the SAME reference_id to\n      re-authenticate the same user, and a different one yields different Agave ids for the same\n      underlying object.\n    docs: https://docs.agaveapi.com/agave-api/reference-id\n  single_sign_on: https://docs.agaveapi.com/agave-link/single-sign-on\ngaps:\n- No OAuth 2.0 or OpenID\
   \ Connect on Agave's own API — no authorization or token endpoint, no scopes.\n- No documented credential expiry, rotation procedure, or revocation endpoint for Client-Secret.\n- >-\n  Account tokens can be revoked administratively (POST /admin/accounts/{id}/revoke-tokens appears in\n  Agave's Postman collection) but that operation is not covered in the published docs.\n- Credentials are obtained by emailing api-support@agaveapi.com, not through self-serve issuance.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/authentication/agave-authentication.yml
+source_yaml_url: https://artifacts.apis.io/agave/authentication/agave-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - Accounting
@@ -163,6 +163,6 @@ tags:
 - Unified API
 - iPaaS
 - Webhook
-- Field Service
+- Field Service Management
 - Invoicing
 ---

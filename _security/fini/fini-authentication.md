@@ -7,55 +7,55 @@ api_specs:
   label: Fini Agents API
   slug: fini-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/openapi/fini-agents-api-openapi.yml
+  url: https://artifacts.apis.io/fini/openapi/fini-agents-api-openapi.yml
 - filename: fini-articles-api-openapi.yml
   format: yaml
   label: Fini Articles API
   slug: fini-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/openapi/fini-articles-api-openapi.yml
+  url: https://artifacts.apis.io/fini/openapi/fini-articles-api-openapi.yml
 - filename: fini-conversations-api-openapi.yml
   format: yaml
   label: Fini Conversations API
   slug: fini-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/openapi/fini-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/fini/openapi/fini-conversations-api-openapi.yml
 - filename: fini-knowledge-api-openapi.yml
   format: yaml
   label: Fini Knowledge API
   slug: fini-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/openapi/fini-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/fini/openapi/fini-knowledge-api-openapi.yml
 - filename: fini-knowledge-folders-api-openapi.yml
   format: yaml
   label: Fini Knowledge Folders API
   slug: fini-knowledge-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/openapi/fini-knowledge-folders-api-openapi.yml
+  url: https://artifacts.apis.io/fini/openapi/fini-knowledge-folders-api-openapi.yml
 - filename: fini-prompts-api-openapi.yml
   format: yaml
   label: Fini Prompts API
   slug: fini-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/openapi/fini-prompts-api-openapi.yml
+  url: https://artifacts.apis.io/fini/openapi/fini-prompts-api-openapi.yml
 - filename: fini-rules-api-openapi.yml
   format: yaml
   label: Fini Rules API
   slug: fini-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/openapi/fini-rules-api-openapi.yml
+  url: https://artifacts.apis.io/fini/openapi/fini-rules-api-openapi.yml
 - filename: fini-sources-api-openapi.yml
   format: yaml
   label: Fini Sources API
   slug: fini-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/openapi/fini-sources-api-openapi.yml
+  url: https://artifacts.apis.io/fini/openapi/fini-sources-api-openapi.yml
 - filename: fini-tags-api-openapi.yml
   format: yaml
   label: Fini Tags API
   slug: fini-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/openapi/fini-tags-api-openapi.yml
+  url: https://artifacts.apis.io/fini/openapi/fini-tags-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -91,7 +91,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/fini-openapi.yml\ndocs: https://docs.usefini.com/en/api-reference/authentication\nsummary:\n  types:\n  - http\n  http_schemes:\n  - bearer\n  token_format: fini_\n  api_key_scopes:\n  - read\n  - write\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: fini_ API key\n  in: header\n  header: Authorization\n  description: >-\n    Bearer token containing your Fini workspace API key. Format: `Bearer [example key]`. Every request\n    to the public v2 API authenticates with a workspace API key sent as a bearer token. Keys carry\n    coarse `read` and/or `write` scope; read routes require `read`, write/mutating routes require\n    `write`. A key without the required scope returns 403 Forbidden with body\n    {\"statusCode\":403,\"message\":\"API key does not have the required scope for this operation\",\"error\":\"Forbidden\"}.\n  scopes:\n  - name: read\n    description: Read/export routes (list\
   \ and get conversations, sources, articles, folders, rules, tags, agents, prompts).\n  - name: write\n    description: Mutating routes (create/update/delete, ingest, generate knowledge, generate answer, publish, assign).\n  sources:\n  - openapi/fini-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/authentication/fini-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fini/authentication/fini-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

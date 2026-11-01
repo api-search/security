@@ -7,193 +7,193 @@ api_specs:
   label: Arthur Online Applicant API
   slug: arthur-online-applicant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-applicant-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-applicant-api-openapi.yml
 - filename: arthur-online-applicants-api-openapi.yml
   format: yaml
   label: Arthur Online Applicants API
   slug: arthur-online-applicants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-applicants-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-applicants-api-openapi.yml
 - filename: arthur-online-assets-api-openapi.yml
   format: yaml
   label: Arthur Online Assets API
   slug: arthur-online-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-assets-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-assets-api-openapi.yml
 - filename: arthur-online-assigned-managers-api-openapi.yml
   format: yaml
   label: Arthur Online Assigned Managers API
   slug: arthur-online-assigned-managers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-assigned-managers-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-assigned-managers-api-openapi.yml
 - filename: arthur-online-certificates-api-openapi.yml
   format: yaml
   label: Arthur Online Certificates API
   slug: arthur-online-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-certificates-api-openapi.yml
 - filename: arthur-online-contractor-invoices-api-openapi.yml
   format: yaml
   label: Arthur Online Contractor Invoices API
   slug: arthur-online-contractor-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-contractor-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-contractor-invoices-api-openapi.yml
 - filename: arthur-online-conversations-api-openapi.yml
   format: yaml
   label: Arthur Online Conversations API
   slug: arthur-online-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-conversations-api-openapi.yml
 - filename: arthur-online-credit-checks-api-openapi.yml
   format: yaml
   label: Arthur Online Credit Checks API
   slug: arthur-online-credit-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-credit-checks-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-credit-checks-api-openapi.yml
 - filename: arthur-online-entities-api-openapi.yml
   format: yaml
   label: Arthur Online Entities API
   slug: arthur-online-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-entities-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-entities-api-openapi.yml
 - filename: arthur-online-general-information-api-openapi.yml
   format: yaml
   label: Arthur Online General Information API
   slug: arthur-online-general-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-general-information-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-general-information-api-openapi.yml
 - filename: arthur-online-invite-api-openapi.yml
   format: yaml
   label: Arthur Online Invite API
   slug: arthur-online-invite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-invite-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-invite-api-openapi.yml
 - filename: arthur-online-messages-api-openapi.yml
   format: yaml
   label: Arthur Online Messages API
   slug: arthur-online-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-messages-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-messages-api-openapi.yml
 - filename: arthur-online-notes-api-openapi.yml
   format: yaml
   label: Arthur Online Notes API
   slug: arthur-online-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-notes-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-notes-api-openapi.yml
 - filename: arthur-online-offers-api-openapi.yml
   format: yaml
   label: Arthur Online Offers API
   slug: arthur-online-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-offers-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-offers-api-openapi.yml
 - filename: arthur-online-properties-api-openapi.yml
   format: yaml
   label: Arthur Online Properties API
   slug: arthur-online-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-properties-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-properties-api-openapi.yml
 - filename: arthur-online-property-api-openapi.yml
   format: yaml
   label: Arthur Online Property API
   slug: arthur-online-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-property-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-property-api-openapi.yml
 - filename: arthur-online-quotes-api-openapi.yml
   format: yaml
   label: Arthur Online Quotes API
   slug: arthur-online-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-quotes-api-openapi.yml
 - filename: arthur-online-readings-api-openapi.yml
   format: yaml
   label: Arthur Online Readings API
   slug: arthur-online-readings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-readings-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-readings-api-openapi.yml
 - filename: arthur-online-recurrings-api-openapi.yml
   format: yaml
   label: Arthur Online Recurrings API
   slug: arthur-online-recurrings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-recurrings-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-recurrings-api-openapi.yml
 - filename: arthur-online-register-deposit-api-openapi.yml
   format: yaml
   label: Arthur Online Register Deposit API
   slug: arthur-online-register-deposit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-register-deposit-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-register-deposit-api-openapi.yml
 - filename: arthur-online-subtasks-api-openapi.yml
   format: yaml
   label: Arthur Online Subtasks API
   slug: arthur-online-subtasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-subtasks-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-subtasks-api-openapi.yml
 - filename: arthur-online-tags-api-openapi.yml
   format: yaml
   label: Arthur Online Tags API
   slug: arthur-online-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-tags-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-tags-api-openapi.yml
 - filename: arthur-online-task-api-openapi.yml
   format: yaml
   label: Arthur Online Task API
   slug: arthur-online-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-task-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-task-api-openapi.yml
 - filename: arthur-online-tasks-api-openapi.yml
   format: yaml
   label: Arthur Online Tasks API
   slug: arthur-online-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-tasks-api-openapi.yml
 - filename: arthur-online-tenancies-api-openapi.yml
   format: yaml
   label: Arthur Online Tenancies API
   slug: arthur-online-tenancies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-tenancies-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-tenancies-api-openapi.yml
 - filename: arthur-online-tenants-api-openapi.yml
   format: yaml
   label: Arthur Online Tenants API
   slug: arthur-online-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-tenants-api-openapi.yml
 - filename: arthur-online-transactions-api-openapi.yml
   format: yaml
   label: Arthur Online Transactions API
   slug: arthur-online-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-transactions-api-openapi.yml
 - filename: arthur-online-types-api-openapi.yml
   format: yaml
   label: Arthur Online Types API
   slug: arthur-online-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-types-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-types-api-openapi.yml
 - filename: arthur-online-units-api-openapi.yml
   format: yaml
   label: Arthur Online Units API
   slug: arthur-online-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-units-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-units-api-openapi.yml
 - filename: arthur-online-utilities-api-openapi.yml
   format: yaml
   label: Arthur Online Utilities API
   slug: arthur-online-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-utilities-api-openapi.yml
 - filename: arthur-online-viewings-api-openapi.yml
   format: yaml
   label: Arthur Online Viewings API
   slug: arthur-online-viewings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-viewings-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-viewings-api-openapi.yml
 - filename: arthur-online-work-orders-api-openapi.yml
   format: yaml
   label: Arthur Online Work Orders API
   slug: arthur-online-work-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-work-orders-api-openapi.yml
+  url: https://artifacts.apis.io/arthur-online/openapi/arthur-online-work-orders-api-openapi.yml
 auth_types:
 - oauth2
 description: 'Arthur API v2 uses a single security model: OAuth 2.0 Authorization Code with a bearer access token, plus a mandatory X-EntityID header naming the Arthur account the call is scoped to. There are no API keys, no scopes and no client-credentials flow. Credentials are not self-serve - a developer must be inside a paying Arthur account and ask Arthur support for API access before an OAuth application can be registered.'
@@ -245,7 +245,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: openapi/ (16 do
   \      - openapi/arthur-online-properties-openapi.yml\n      - openapi/arthur-online-tags-openapi.yml\n      - openapi/arthur-online-tenancies-openapi.yml\n      - openapi/arthur-online-tenants-openapi.yml\n      - openapi/arthur-online-types-openapi.yml\n      - openapi/arthur-online-units-openapi.yml\n      - openapi/arthur-online-utilities-openapi.yml\n      - openapi/arthur-online-viewings-openapi.yml\n\ntenancy_header:\n  name: X-EntityID\n  required: true\n  description: >-\n    The Arthur entity (account) the call is scoped to. Every request must carry it, including\n    reads. Records are only addressable inside their entity; an id from another entity returns 404.\n  discovery: 'GET /entities (operationId listEntities) returns the entities a token can address.'\n\nonboarding:\n  self_serve: false\n  steps:\n    - Be an authorised user inside a paying Arthur account.\n    - Contact Arthur support to be granted API access (https://support.arthuronline.co.uk/support/home).\n    -\
   \ In Arthur go to Settings > Your Account > OAuth Applications > Add Application.\n    - Supply name, description, website and an HTTPS callback URL.\n    - Arthur issues a client id and client secret.\n  signup_page: https://www.arthuronline.co.uk/connect/arthur-api\n\ntoken_lifecycle:\n  authorization_code_ttl: 15 minutes\n  access_token_ttl: 14 days\n  refresh_token_ttl: 21 days\n  token_request_encoding: application/x-www-form-urlencoded\n  grants: [authorization_code, refresh_token]\n  expiry_error:\n    status: 401\n    body: '{\"error\": \"expired_token\", \"message\": \"This token has expired.\"}'\n\nscopes:\n  published: false\n  note: >-\n    Arthur publishes no OAuth scopes. A token carries whatever the authorising Arthur user can see.\n    The real access control is organisational: Arthur recommends creating a separate Manager account\n    for third-party developers, and Enterprise accounts can set per-Manager permissions to narrow\n    what an integration can reach.\n\ndiscovery:\n\
   \  openid_configuration: 'https://auth.arthuronline.co.uk/.well-known/openid-configuration - 404 (probed 2026-07-26)'\n  oauth_authorization_server: 'https://auth.arthuronline.co.uk/.well-known/oauth-authorization-server - 404 (probed 2026-07-26)'\n\ntoken_handling_guidance:\n  source: Arthur API collection > Useful Information > Security > Securing API Tokens\n  practices:\n    - Establish a system for rotating passwords and tokens.\n    - Encrypt sensitive data and avoid decrypting it early in the process.\n    - Store user access tokens in a secure, encrypted location.\n    - Regenerate keys and tokens on any suspicion of compromise.\n\nrelated:\n  conventions: conventions/arthur-online-conventions.yml\n  errors: errors/arthur-online-problem-types.yml\n  conformance: conformance/arthur-online-conformance.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/authentication/arthur-online-authentication.yml
+source_yaml_url: https://artifacts.apis.io/arthur-online/authentication/arthur-online-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Real Estate

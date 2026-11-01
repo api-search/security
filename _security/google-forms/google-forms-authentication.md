@@ -7,19 +7,19 @@ api_specs:
   label: Google Forms API
   slug: google-forms-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/openapi/google-forms-forms-api-openapi.yml
+  url: https://artifacts.apis.io/google-forms/openapi/google-forms-forms-api-openapi.yml
 - filename: google-forms-responses-api-openapi.yml
   format: yaml
   label: Google Forms Responses API
   slug: google-forms-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/openapi/google-forms-responses-api-openapi.yml
+  url: https://artifacts.apis.io/google-forms/openapi/google-forms-responses-api-openapi.yml
 - filename: google-forms-watches-api-openapi.yml
   format: yaml
   label: Google Forms Watches API
   slug: google-forms-watches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/openapi/google-forms-watches-api-openapi.yml
+  url: https://artifacts.apis.io/google-forms/openapi/google-forms-watches-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -51,7 +51,7 @@ source_filename: google-forms-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/google-forms-api.yaml\ndocs: https://developers.google.com/workspace/forms/api/guides/authorize\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 6\n  description: OAuth 2.0 authentication for Google Forms API.\n  sources:\n  - openapi/google-forms-api.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/authentication/google-forms-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-forms/authentication/google-forms-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Data Collection

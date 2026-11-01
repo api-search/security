@@ -5,43 +5,43 @@ api_specs:
   label: Zinrelo Events API
   slug: zinrelo-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zinrelo/refs/heads/main/openapi/zinrelo-events-api-openapi.yml
+  url: https://artifacts.apis.io/zinrelo/openapi/zinrelo-events-api-openapi.yml
 - filename: zinrelo-members-api-openapi.yml
   format: yaml
   label: Zinrelo Members API
   slug: zinrelo-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zinrelo/refs/heads/main/openapi/zinrelo-members-api-openapi.yml
+  url: https://artifacts.apis.io/zinrelo/openapi/zinrelo-members-api-openapi.yml
 - filename: zinrelo-points-api-openapi.yml
   format: yaml
   label: Zinrelo Points API
   slug: zinrelo-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zinrelo/refs/heads/main/openapi/zinrelo-points-api-openapi.yml
+  url: https://artifacts.apis.io/zinrelo/openapi/zinrelo-points-api-openapi.yml
 - filename: zinrelo-redemptions-api-openapi.yml
   format: yaml
   label: Zinrelo Redemptions API
   slug: zinrelo-redemptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zinrelo/refs/heads/main/openapi/zinrelo-redemptions-api-openapi.yml
+  url: https://artifacts.apis.io/zinrelo/openapi/zinrelo-redemptions-api-openapi.yml
 - filename: zinrelo-rewards-api-openapi.yml
   format: yaml
   label: Zinrelo Rewards API
   slug: zinrelo-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zinrelo/refs/heads/main/openapi/zinrelo-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/zinrelo/openapi/zinrelo-rewards-api-openapi.yml
 - filename: zinrelo-tiers-api-openapi.yml
   format: yaml
   label: Zinrelo Tiers API
   slug: zinrelo-tiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zinrelo/refs/heads/main/openapi/zinrelo-tiers-api-openapi.yml
+  url: https://artifacts.apis.io/zinrelo/openapi/zinrelo-tiers-api-openapi.yml
 - filename: zinrelo-transactions-api-openapi.yml
   format: yaml
   label: Zinrelo Transactions API
   slug: zinrelo-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zinrelo/refs/heads/main/openapi/zinrelo-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/zinrelo/openapi/zinrelo-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: zinrelo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.zinrelo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 00:26:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: help.zinrelo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 09:46:46 2026 GMT\n  hsts: null\n- host: api.zinrelo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 09:46:46 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\ndomains:\n- domain: zinrelo.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zinrelo/refs/heads/main/security/zinrelo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zinrelo/security/zinrelo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Loyalty

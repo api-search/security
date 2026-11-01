@@ -5,25 +5,25 @@ api_specs:
   label: HashiCorp Auth API
   slug: hashicorp-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/openapi/hashicorp-auth-api-openapi.yml
+  url: https://artifacts.apis.io/hashicorp/openapi/hashicorp-auth-api-openapi.yml
 - filename: hashicorp-identity-api-openapi.yml
   format: yaml
   label: HashiCorp Identity API
   slug: hashicorp-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/openapi/hashicorp-identity-api-openapi.yml
+  url: https://artifacts.apis.io/hashicorp/openapi/hashicorp-identity-api-openapi.yml
 - filename: hashicorp-secrets-api-openapi.yml
   format: yaml
   label: HashiCorp Secrets API
   slug: hashicorp-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/openapi/hashicorp-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/hashicorp/openapi/hashicorp-secrets-api-openapi.yml
 - filename: hashicorp-system-api-openapi.yml
   format: yaml
   label: HashiCorp System API
   slug: hashicorp-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/openapi/hashicorp-system-api-openapi.yml
+  url: https://artifacts.apis.io/hashicorp/openapi/hashicorp-system-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: hashicorp-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.hashicorp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 05:45:45 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: hashicorp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/security/hashicorp-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hashicorp/security/hashicorp-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud

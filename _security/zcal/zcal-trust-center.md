@@ -5,19 +5,19 @@ api_specs:
   label: Zcal Scheduling Links
   slug: scheduling-links
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zcal/refs/heads/main/openapi/_original/zcal-openapi.yml
+  url: https://artifacts.apis.io/zcal/openapi/_original/zcal-openapi.yml
 - filename: zcal-openapi.yml
   format: yaml
   label: Zcal Bookings
   slug: bookings
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zcal/refs/heads/main/openapi/_original/zcal-openapi.yml
+  url: https://artifacts.apis.io/zcal/openapi/_original/zcal-openapi.yml
 - filename: zcal-openapi.yml
   format: yaml
   label: Zcal Integrations and Webhooks
   slug: integrations-webhooks
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zcal/refs/heads/main/openapi/_original/zcal-openapi.yml
+  url: https://artifacts.apis.io/zcal/openapi/_original/zcal-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -35,7 +35,7 @@ source_filename: zcal-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://zcal.co/security\nurl: https://zcal.co/security\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://zcal.co/security\n  keywords:\n  - soc 2\n  - iso 27001\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zcal/refs/heads/main/security/zcal-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/zcal/security/zcal-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Scheduling

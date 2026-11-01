@@ -8,13 +8,13 @@ api_specs:
   label: Infracost Breakdown API
   slug: infracost-breakdown-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infracost/refs/heads/main/openapi/infracost-breakdown-api-openapi.yml
+  url: https://artifacts.apis.io/infracost/openapi/infracost-breakdown-api-openapi.yml
 - filename: infracost-diff-api-openapi.yml
   format: yaml
   label: Infracost Diff API
   slug: infracost-diff-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infracost/refs/heads/main/openapi/infracost-diff-api-openapi.yml
+  url: https://artifacts.apis.io/infracost/openapi/infracost-diff-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: infracost-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/infracost-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: Infracost API key\n  sources:\n  - openapi/infracost-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infracost/refs/heads/main/authentication/infracost-authentication.yml
+source_yaml_url: https://artifacts.apis.io/infracost/authentication/infracost-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Cloud Cost

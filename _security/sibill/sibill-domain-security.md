@@ -5,73 +5,73 @@ api_specs:
   label: Sibill Account API
   slug: sibill-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sibill/refs/heads/main/openapi/sibill-account-api-openapi.yml
+  url: https://artifacts.apis.io/sibill/openapi/sibill-account-api-openapi.yml
 - filename: sibill-category-api-openapi.yml
   format: yaml
   label: Sibill Category API
   slug: sibill-category-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sibill/refs/heads/main/openapi/sibill-category-api-openapi.yml
+  url: https://artifacts.apis.io/sibill/openapi/sibill-category-api-openapi.yml
 - filename: sibill-company-api-openapi.yml
   format: yaml
   label: Sibill Company API
   slug: sibill-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sibill/refs/heads/main/openapi/sibill-company-api-openapi.yml
+  url: https://artifacts.apis.io/sibill/openapi/sibill-company-api-openapi.yml
 - filename: sibill-counterpart-api-openapi.yml
   format: yaml
   label: Sibill Counterpart API
   slug: sibill-counterpart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sibill/refs/heads/main/openapi/sibill-counterpart-api-openapi.yml
+  url: https://artifacts.apis.io/sibill/openapi/sibill-counterpart-api-openapi.yml
 - filename: sibill-document-api-openapi.yml
   format: yaml
   label: Sibill Document API
   slug: sibill-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sibill/refs/heads/main/openapi/sibill-document-api-openapi.yml
+  url: https://artifacts.apis.io/sibill/openapi/sibill-document-api-openapi.yml
 - filename: sibill-documentsectional-api-openapi.yml
   format: yaml
   label: Sibill DocumentSectional API
   slug: sibill-documentsectional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sibill/refs/heads/main/openapi/sibill-documentsectional-api-openapi.yml
+  url: https://artifacts.apis.io/sibill/openapi/sibill-documentsectional-api-openapi.yml
 - filename: sibill-flow-api-openapi.yml
   format: yaml
   label: Sibill Flow API
   slug: sibill-flow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sibill/refs/heads/main/openapi/sibill-flow-api-openapi.yml
+  url: https://artifacts.apis.io/sibill/openapi/sibill-flow-api-openapi.yml
 - filename: sibill-payment-api-openapi.yml
   format: yaml
   label: Sibill Payment API
   slug: sibill-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sibill/refs/heads/main/openapi/sibill-payment-api-openapi.yml
+  url: https://artifacts.apis.io/sibill/openapi/sibill-payment-api-openapi.yml
 - filename: sibill-product-api-openapi.yml
   format: yaml
   label: Sibill Product API
   slug: sibill-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sibill/refs/heads/main/openapi/sibill-product-api-openapi.yml
+  url: https://artifacts.apis.io/sibill/openapi/sibill-product-api-openapi.yml
 - filename: sibill-reconciliation-api-openapi.yml
   format: yaml
   label: Sibill Reconciliation API
   slug: sibill-reconciliation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sibill/refs/heads/main/openapi/sibill-reconciliation-api-openapi.yml
+  url: https://artifacts.apis.io/sibill/openapi/sibill-reconciliation-api-openapi.yml
 - filename: sibill-subcategory-api-openapi.yml
   format: yaml
   label: Sibill Subcategory API
   slug: sibill-subcategory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sibill/refs/heads/main/openapi/sibill-subcategory-api-openapi.yml
+  url: https://artifacts.apis.io/sibill/openapi/sibill-subcategory-api-openapi.yml
 - filename: sibill-transaction-api-openapi.yml
   format: yaml
   label: Sibill Transaction API
   slug: sibill-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sibill/refs/heads/main/openapi/sibill-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/sibill/openapi/sibill-transaction-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -110,7 +110,7 @@ source_filename: sibill-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sibill.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 19:10:56 2026 GMT\n  hsts: false\n- host: docs.sibill.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 10:46:03 2026 GMT\n  hsts: false\n- host: integration.sibill.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 10:46:03 2026 GMT\n  hsts: null\ndomains:\n- domain: sibill.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sibill/refs/heads/main/security/sibill-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sibill/security/sibill-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -5,19 +5,19 @@ api_specs:
   label: Skydio Flights API
   slug: skydio-flights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skydio/refs/heads/main/openapi/skydio-flights-api-openapi.yml
+  url: https://artifacts.apis.io/skydio/openapi/skydio-flights-api-openapi.yml
 - filename: skydio-markers-api-openapi.yml
   format: yaml
   label: Skydio Markers API
   slug: skydio-markers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skydio/refs/heads/main/openapi/skydio-markers-api-openapi.yml
+  url: https://artifacts.apis.io/skydio/openapi/skydio-markers-api-openapi.yml
 - filename: skydio-vehicles-api-openapi.yml
   format: yaml
   label: Skydio Vehicles API
   slug: skydio-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skydio/refs/heads/main/openapi/skydio-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/skydio/openapi/skydio-vehicles-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: skydio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.skydio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 03:58:51 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apidocs.skydio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 14:33:14 2026 GMT\n  hsts: null\n- host: api.skydio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 11:50:00 2026 GMT\n  hsts: null\ndomains:\n- domain: skydio.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skydio/refs/heads/main/security/skydio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/skydio/security/skydio-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Autonomous Systems
@@ -67,5 +67,5 @@ tags:
 - Fleet Management
 - Public Safety
 - Robotics
-- Unmanned Aerial Vehicles
+- UAV
 ---

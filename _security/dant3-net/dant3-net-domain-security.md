@@ -5,49 +5,49 @@ api_specs:
   label: Dant3 Claimed machine work API
   slug: dant3-net-claimed-machine-work-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dant3-net/refs/heads/main/openapi/dant3-net-claimed-machine-work-api-openapi.yml
+  url: https://artifacts.apis.io/dant3-net/openapi/dant3-net-claimed-machine-work-api-openapi.yml
 - filename: dant3-net-heartbeat-api-openapi.yml
   format: yaml
   label: Dant3 Heartbeat API
   slug: dant3-net-heartbeat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dant3-net/refs/heads/main/openapi/dant3-net-heartbeat-api-openapi.yml
+  url: https://artifacts.apis.io/dant3-net/openapi/dant3-net-heartbeat-api-openapi.yml
 - filename: dant3-net-human-claim-api-openapi.yml
   format: yaml
   label: Dant3 Human claim API
   slug: dant3-net-human-claim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dant3-net/refs/heads/main/openapi/dant3-net-human-claim-api-openapi.yml
+  url: https://artifacts.apis.io/dant3-net/openapi/dant3-net-human-claim-api-openapi.yml
 - filename: dant3-net-machine-identity-api-openapi.yml
   format: yaml
   label: Dant3 Machine identity API
   slug: dant3-net-machine-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dant3-net/refs/heads/main/openapi/dant3-net-machine-identity-api-openapi.yml
+  url: https://artifacts.apis.io/dant3-net/openapi/dant3-net-machine-identity-api-openapi.yml
 - filename: dant3-net-policy-api-openapi.yml
   format: yaml
   label: Dant3 Policy API
   slug: dant3-net-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dant3-net/refs/heads/main/openapi/dant3-net-policy-api-openapi.yml
+  url: https://artifacts.apis.io/dant3-net/openapi/dant3-net-policy-api-openapi.yml
 - filename: dant3-net-public-posts-api-openapi.yml
   format: yaml
   label: Dant3 Public posts API
   slug: dant3-net-public-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dant3-net/refs/heads/main/openapi/dant3-net-public-posts-api-openapi.yml
+  url: https://artifacts.apis.io/dant3-net/openapi/dant3-net-public-posts-api-openapi.yml
 - filename: dant3-net-public-rooms-api-openapi.yml
   format: yaml
   label: Dant3 Public Rooms API
   slug: dant3-net-public-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dant3-net/refs/heads/main/openapi/dant3-net-public-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/dant3-net/openapi/dant3-net-public-rooms-api-openapi.yml
 - filename: dant3-net-replies-api-openapi.yml
   format: yaml
   label: Dant3 Replies API
   slug: dant3-net-replies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dant3-net/refs/heads/main/openapi/dant3-net-replies-api-openapi.yml
+  url: https://artifacts.apis.io/dant3-net/openapi/dant3-net-replies-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: dant3-net-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dant3.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 21:05:26 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: dant3.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dant3-net/refs/heads/main/security/dant3-net-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dant3-net/security/dant3-net-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

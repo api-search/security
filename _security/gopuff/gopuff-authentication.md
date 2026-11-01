@@ -8,31 +8,31 @@ api_specs:
   label: Gopuff Availability API
   slug: gopuff-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gopuff/refs/heads/main/openapi/gopuff-availability-api-openapi.yml
+  url: https://artifacts.apis.io/gopuff/openapi/gopuff-availability-api-openapi.yml
 - filename: gopuff-orders-api-openapi.yml
   format: yaml
   label: Gopuff Orders API
   slug: gopuff-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gopuff/refs/heads/main/openapi/gopuff-orders-api-openapi.yml
+  url: https://artifacts.apis.io/gopuff/openapi/gopuff-orders-api-openapi.yml
 - filename: gopuff-rates-api-openapi.yml
   format: yaml
   label: Gopuff Rates API
   slug: gopuff-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gopuff/refs/heads/main/openapi/gopuff-rates-api-openapi.yml
+  url: https://artifacts.apis.io/gopuff/openapi/gopuff-rates-api-openapi.yml
 - filename: gopuff-shops-api-openapi.yml
   format: yaml
   label: Gopuff Shops API
   slug: gopuff-shops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gopuff/refs/heads/main/openapi/gopuff-shops-api-openapi.yml
+  url: https://artifacts.apis.io/gopuff/openapi/gopuff-shops-api-openapi.yml
 - filename: gopuff-zones-api-openapi.yml
   format: yaml
   label: Gopuff Zones API
   slug: gopuff-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gopuff/refs/heads/main/openapi/gopuff-zones-api-openapi.yml
+  url: https://artifacts.apis.io/gopuff/openapi/gopuff-zones-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: gopuff-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/gopuff-fulfillment-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: partnerApiKey\n  type: apiKey\n  in: header\n  parameter: X-Gopuff-Partner-Key\n  description: Partner API key issued by Gopuff during onboarding to the Powered by Gopuff platform.\n    Keys are scoped to a single partnership/shop.\n  sources:\n  - openapi/gopuff-fulfillment-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gopuff/refs/heads/main/authentication/gopuff-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gopuff/authentication/gopuff-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Quick Commerce

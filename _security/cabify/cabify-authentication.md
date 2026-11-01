@@ -7,79 +7,79 @@ api_specs:
   label: Cabify Delivery API
   slug: cabify-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-delivery-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-delivery-api-openapi.yml
 - filename: cabify-estimates-api-openapi.yml
   format: yaml
   label: Cabify Estimates API
   slug: cabify-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-estimates-api-openapi.yml
 - filename: cabify-hubs-api-openapi.yml
   format: yaml
   label: Cabify Hubs API
   slug: cabify-hubs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-hubs-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-hubs-api-openapi.yml
 - filename: cabify-journeys-api-openapi.yml
   format: yaml
   label: Cabify Journeys API
   slug: cabify-journeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-journeys-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-journeys-api-openapi.yml
 - filename: cabify-label-api-openapi.yml
   format: yaml
   label: Cabify Label API
   slug: cabify-label-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-label-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-label-api-openapi.yml
 - filename: cabify-labels-api-openapi.yml
   format: yaml
   label: Cabify Labels API
   slug: cabify-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-labels-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-labels-api-openapi.yml
 - filename: cabify-parcels-api-openapi.yml
   format: yaml
   label: Cabify Parcels API
   slug: cabify-parcels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-parcels-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-parcels-api-openapi.yml
 - filename: cabify-sales-api-openapi.yml
   format: yaml
   label: Cabify Sales API
   slug: cabify-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-sales-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-sales-api-openapi.yml
 - filename: cabify-shipment-api-openapi.yml
   format: yaml
   label: Cabify Shipment API
   slug: cabify-shipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-shipment-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-shipment-api-openapi.yml
 - filename: cabify-shipping-types-api-openapi.yml
   format: yaml
   label: Cabify Shipping Types API
   slug: cabify-shipping-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-shipping-types-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-shipping-types-api-openapi.yml
 - filename: cabify-status-api-openapi.yml
   format: yaml
   label: Cabify Status API
   slug: cabify-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-status-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-status-api-openapi.yml
 - filename: cabify-users-api-openapi.yml
   format: yaml
   label: Cabify Users API
   slug: cabify-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-users-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-users-api-openapi.yml
 - filename: cabify-webhooks-api-openapi.yml
   format: yaml
   label: Cabify Webhooks API
   slug: cabify-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-webhooks-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -113,7 +113,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://developers.cabify.com/docs/get-your-access-token\ndocs: https://developers.cabify.com/docs/getting-started\nsummary:\n  types:\n  - oauth2\n  - http\n  oauth2_flows:\n  - clientCredentials\n  http_schemes:\n  - bearer\nmodel: >-\n  Cabify uses OAuth2 client-credentials. Admin users generate an OAUTH_ID (client_id) and\n  CLIENT_SECRET from the Cabify Business admin panel (Integration section). Clients exchange these\n  for a short-lived Bearer access token, then send it on every request in the Authorization header.\n  The same credentials work for both the Ride-Hailing and Logistics APIs; production and sandbox are\n  independent environments with independent credentials.\ntoken_endpoint:\n  production: https://cabify.com/auth/api/authorization\n  sandbox: https://cabify-sandbox.com/auth/api/authorization\n  grant_type: client_credentials\n  request: 'POST grant_type=client_credentials&client_id=OAUTH_ID&client_secret=SECRET'\n\
   \  response_fields:\n  - token_type (Bearer)\n  - access_token\n  - expires_in (seconds; ~30 days)\ntoken_revocation:\n  method: DELETE\n  endpoint: /auth/api/authorization\n  header: 'Authorization: Bearer <token>'\n  success: 204\nrequest_header: 'Authorization: Bearer <access_token>'\nnotes: >-\n  Token refresh logic is client-side: create a new token before expires_in elapses. The underlying\n  OpenAPI securitySchemes are declared as http/bearer (access_token for Ride-Hailing, bearer_token\n  for Logistics); the client-credentials issuance flow is documented in the developer portal.\nschemes:\n- name: access_token\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/cabify-ride-hailing-openapi.yml\n- name: bearer_token\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/cabify-logistics-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/authentication/cabify-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cabify/authentication/cabify-authentication.yml
 summary_line: oauth2/http · 2 schemes
 tags:
 - Company

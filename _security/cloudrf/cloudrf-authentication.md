@@ -8,43 +8,43 @@ api_specs:
   label: CloudRF Account API
   slug: cloudrf-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/openapi/cloudrf-account-api-openapi.yml
+  url: https://artifacts.apis.io/cloudrf/openapi/cloudrf-account-api-openapi.yml
 - filename: cloudrf-analyse-api-openapi.yml
   format: yaml
   label: CloudRF Analyse API
   slug: cloudrf-analyse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/openapi/cloudrf-analyse-api-openapi.yml
+  url: https://artifacts.apis.io/cloudrf/openapi/cloudrf-analyse-api-openapi.yml
 - filename: cloudrf-create-api-openapi.yml
   format: yaml
   label: CloudRF Create API
   slug: cloudrf-create-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/openapi/cloudrf-create-api-openapi.yml
+  url: https://artifacts.apis.io/cloudrf/openapi/cloudrf-create-api-openapi.yml
 - filename: cloudrf-manage-api-openapi.yml
   format: yaml
   label: CloudRF Manage API
   slug: cloudrf-manage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/openapi/cloudrf-manage-api-openapi.yml
+  url: https://artifacts.apis.io/cloudrf/openapi/cloudrf-manage-api-openapi.yml
 - filename: cloudrf-satellite-api-openapi.yml
   format: yaml
   label: CloudRF Satellite API
   slug: cloudrf-satellite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/openapi/cloudrf-satellite-api-openapi.yml
+  url: https://artifacts.apis.io/cloudrf/openapi/cloudrf-satellite-api-openapi.yml
 - filename: cloudrf-template-api-openapi.yml
   format: yaml
   label: CloudRF Template API
   slug: cloudrf-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/openapi/cloudrf-template-api-openapi.yml
+  url: https://artifacts.apis.io/cloudrf/openapi/cloudrf-template-api-openapi.yml
 - filename: cloudrf-3-d-api-openapi.yml
   format: yaml
   label: CloudRF 3 D API
   slug: cloudrf-3-d-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/openapi/cloudrf-3-d-api-openapi.yml
+  url: https://artifacts.apis.io/cloudrf/openapi/cloudrf-3-d-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -71,7 +71,7 @@ source_filename: cloudrf-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cloudrf-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: key\n  sources:\n  - openapi/cloudrf-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/authentication/cloudrf-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cloudrf/authentication/cloudrf-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Coverage Modeling

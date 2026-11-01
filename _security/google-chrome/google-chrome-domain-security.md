@@ -5,37 +5,37 @@ api_specs:
   label: Google Chrome App Details API
   slug: google-chrome-app-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/openapi/google-chrome-app-details-api-openapi.yml
+  url: https://artifacts.apis.io/google-chrome/openapi/google-chrome-app-details-api-openapi.yml
 - filename: google-chrome-reports-api-openapi.yml
   format: yaml
   label: Google Chrome Reports API
   slug: google-chrome-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/openapi/google-chrome-reports-api-openapi.yml
+  url: https://artifacts.apis.io/google-chrome/openapi/google-chrome-reports-api-openapi.yml
 - filename: google-chrome-telemetry-devices-api-openapi.yml
   format: yaml
   label: Google Chrome Telemetry Devices API
   slug: google-chrome-telemetry-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/openapi/google-chrome-telemetry-devices-api-openapi.yml
+  url: https://artifacts.apis.io/google-chrome/openapi/google-chrome-telemetry-devices-api-openapi.yml
 - filename: google-chrome-telemetry-events-api-openapi.yml
   format: yaml
   label: Google Chrome Telemetry Events API
   slug: google-chrome-telemetry-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/openapi/google-chrome-telemetry-events-api-openapi.yml
+  url: https://artifacts.apis.io/google-chrome/openapi/google-chrome-telemetry-events-api-openapi.yml
 - filename: google-chrome-telemetry-notification-configs-api-openapi.yml
   format: yaml
   label: Google Chrome Telemetry Notification Configs API
   slug: google-chrome-telemetry-notification-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/openapi/google-chrome-telemetry-notification-configs-api-openapi.yml
+  url: https://artifacts.apis.io/google-chrome/openapi/google-chrome-telemetry-notification-configs-api-openapi.yml
 - filename: google-chrome-telemetry-users-api-openapi.yml
   format: yaml
   label: Google Chrome Telemetry Users API
   slug: google-chrome-telemetry-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/openapi/google-chrome-telemetry-users-api-openapi.yml
+  url: https://artifacts.apis.io/google-chrome/openapi/google-chrome-telemetry-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: google-chrome-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: chromeenterprise.google\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:38:10 2026 GMT\n  hsts: false\n- host: chromemanagement.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:17 2026 GMT\n  hsts: null\ndomains:\n- domain: chromeenterprise.google\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/security/google-chrome-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/google-chrome/security/google-chrome-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Browser

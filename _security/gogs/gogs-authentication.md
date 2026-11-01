@@ -8,55 +8,55 @@ api_specs:
   label: Gogs Administration API
   slug: gogs-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gogs/refs/heads/main/openapi/gogs-administration-api-openapi.yml
+  url: https://artifacts.apis.io/gogs/openapi/gogs-administration-api-openapi.yml
 - filename: gogs-collaborators-and-deploy-keys-api-openapi.yml
   format: yaml
   label: Gogs Collaborators and Deploy Keys API
   slug: gogs-collaborators-and-deploy-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gogs/refs/heads/main/openapi/gogs-collaborators-and-deploy-keys-api-openapi.yml
+  url: https://artifacts.apis.io/gogs/openapi/gogs-collaborators-and-deploy-keys-api-openapi.yml
 - filename: gogs-issues-api-openapi.yml
   format: yaml
   label: Gogs Issues API
   slug: gogs-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gogs/refs/heads/main/openapi/gogs-issues-api-openapi.yml
+  url: https://artifacts.apis.io/gogs/openapi/gogs-issues-api-openapi.yml
 - filename: gogs-miscellaneous-api-openapi.yml
   format: yaml
   label: Gogs Miscellaneous API
   slug: gogs-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gogs/refs/heads/main/openapi/gogs-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/gogs/openapi/gogs-miscellaneous-api-openapi.yml
 - filename: gogs-organizations-api-openapi.yml
   format: yaml
   label: Gogs Organizations API
   slug: gogs-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gogs/refs/heads/main/openapi/gogs-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/gogs/openapi/gogs-organizations-api-openapi.yml
 - filename: gogs-releases-api-openapi.yml
   format: yaml
   label: Gogs Releases API
   slug: gogs-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gogs/refs/heads/main/openapi/gogs-releases-api-openapi.yml
+  url: https://artifacts.apis.io/gogs/openapi/gogs-releases-api-openapi.yml
 - filename: gogs-repositories-api-openapi.yml
   format: yaml
   label: Gogs Repositories API
   slug: gogs-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gogs/refs/heads/main/openapi/gogs-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/gogs/openapi/gogs-repositories-api-openapi.yml
 - filename: gogs-users-api-openapi.yml
   format: yaml
   label: Gogs Users API
   slug: gogs-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gogs/refs/heads/main/openapi/gogs-users-api-openapi.yml
+  url: https://artifacts.apis.io/gogs/openapi/gogs-users-api-openapi.yml
 - filename: gogs-webhooks-api-openapi.yml
   format: yaml
   label: Gogs Webhooks API
   slug: gogs-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gogs/refs/heads/main/openapi/gogs-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/gogs/openapi/gogs-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -90,11 +90,11 @@ source_filename: gogs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-21'\nmethod: derived\nsource: openapi/gogs-openapi.json\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/gogs-openapi.json\n- name: AccessToken\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Personal access token. Use format: token {YOUR_ACCESS_TOKEN}'\n  sources:\n  - openapi/gogs-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gogs/refs/heads/main/authentication/gogs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gogs/authentication/gogs-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
-- Git
+- Version Control
 - Self-Hosted
 - Open Source
 - Go

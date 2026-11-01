@@ -5,49 +5,49 @@ api_specs:
   label: Probabl Anthropic Compatible Agent API
   slug: probabl-anthropic-compatible-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/openapi/probabl-anthropic-compatible-agent-api-openapi.yml
+  url: https://artifacts.apis.io/probabl/openapi/probabl-anthropic-compatible-agent-api-openapi.yml
 - filename: probabl-health-api-openapi.yml
   format: yaml
   label: Probabl Health API
   slug: probabl-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/openapi/probabl-health-api-openapi.yml
+  url: https://artifacts.apis.io/probabl/openapi/probabl-health-api-openapi.yml
 - filename: probabl-identity-api-openapi.yml
   format: yaml
   label: Probabl Identity API
   slug: probabl-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/openapi/probabl-identity-api-openapi.yml
+  url: https://artifacts.apis.io/probabl/openapi/probabl-identity-api-openapi.yml
 - filename: probabl-liveness-api-openapi.yml
   format: yaml
   label: Probabl Liveness API
   slug: probabl-liveness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/openapi/probabl-liveness-api-openapi.yml
+  url: https://artifacts.apis.io/probabl/openapi/probabl-liveness-api-openapi.yml
 - filename: probabl-llm-provider-api-openapi.yml
   format: yaml
   label: Probabl LLM Provider API
   slug: probabl-llm-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/openapi/probabl-llm-provider-api-openapi.yml
+  url: https://artifacts.apis.io/probabl/openapi/probabl-llm-provider-api-openapi.yml
 - filename: probabl-openai-compatible-agent-api-openapi.yml
   format: yaml
   label: Probabl OpenAI Compatible Agent API
   slug: probabl-openai-compatible-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/openapi/probabl-openai-compatible-agent-api-openapi.yml
+  url: https://artifacts.apis.io/probabl/openapi/probabl-openai-compatible-agent-api-openapi.yml
 - filename: probabl-projects-api-openapi.yml
   format: yaml
   label: Probabl Projects API
   slug: probabl-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/openapi/probabl-projects-api-openapi.yml
+  url: https://artifacts.apis.io/probabl/openapi/probabl-projects-api-openapi.yml
 - filename: probabl-readiness-api-openapi.yml
   format: yaml
   label: Probabl Readiness API
   slug: probabl-readiness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/openapi/probabl-readiness-api-openapi.yml
+  url: https://artifacts.apis.io/probabl/openapi/probabl-readiness-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -86,7 +86,7 @@ source_filename: probabl-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-16'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: probabl.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 23:59:59 2026 GMT\n  hsts: false\n- host: docs.skore.probabl.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 19 23:59:59 2027 GMT\n  hsts: false\n- host: api.skore.probabl.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 11:42:21 2026 GMT\n  hsts: null\ndomains:\n- domain: probabl.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/security/probabl-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/probabl/security/probabl-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

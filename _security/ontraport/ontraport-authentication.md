@@ -8,13 +8,13 @@ api_specs:
   label: Ontraport Metadata API
   slug: ontraport-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/openapi/ontraport-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/ontraport/openapi/ontraport-metadata-api-openapi.yml
 - filename: ontraport-objects-api-openapi.yml
   format: yaml
   label: Ontraport Objects API
   slug: ontraport-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/openapi/ontraport-objects-api-openapi.yml
+  url: https://artifacts.apis.io/ontraport/openapi/ontraport-objects-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://a
   \ name: McpApiKeyFallback\n  surface: mcp\n  type: apiKey\n  in: header\n  parameter: Api-Appid + Api-Key\n  alternate_form: 'Authorization: Bearer <app-id>:<api-key>'\n  description: >-\n    For orchestration platforms and agent frameworks where the OAuth flow is not practical.\n    The App ID and API Key are NOT used as an OAuth client id/secret — they are passed\n    directly as headers. Ontraport states keys are never surfaced after setup: not in MCP\n    connection summaries, tool responses, URLs, user-facing error messages, or standard logs.\n  sources:\n  - https://ontraport.com/support/My-account/mcp-server\n\nauthorization_model:\n  rest:\n    scopes: false\n    bounded_by:\n    - Ontraport package-level permissions\n    - the permissions of the user who owns the credentials\n    - the per-object Access column in the Accessible Objects table (many types are GET-only)\n    effective_since: '2019-02-01'\n    source: 'https://api.ontraport.com/doc/#api-change-log (notice dated 2018-12-18)'\n\
   \  mcp:\n    scopes:\n    - mcp:tools\n    bounded_by:\n    - the single mcp:tools scope\n    - a per-connection tool allow/deny panel exposed after connecting\n    - a server-side guard that ignores requests to delete every record in a collection\n    - disabled generic writes on Invoices, Payments and Orders\n\nfailure_modes:\n- surface: rest\n  status: 401\n  body: Your App ID and API Key do not authenticate.\n  note: >-\n    Observed live on an unauthenticated GET https://api.ontraport.com/1/... during this pass.\n- surface: mcp\n  status: 401\n  body: '{\"error\":\"unauthorized\",\"error_description\":\"Bearer token required\"}'\n  www_authenticate: >-\n    Bearer resource_metadata=\"https://mcp.ontraport.com/.well-known/oauth-protected-resource\",\n    scope=\"mcp:tools\"\n  note: >-\n    Observed live on an unauthenticated tools/list POST to https://mcp.ontraport.com during\n    this pass. A correct RFC 9728 challenge.\n\ngaps:\n- REST keys do not expire and there is no documented\
   \ rotation or revocation procedure.\n- REST keys are unscoped — an integration that only needs to read contacts holds the same key that can charge a card.\n- No mutual TLS, no signed requests, no IP allowlist documented for the REST API.\n- No key-prefix convention that would let a leaked credential be recognised in logs or scanning.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/authentication/ontraport-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ontraport/authentication/ontraport-authentication.yml
 summary_line: apiKey/oauth2 · 4 schemes
 tags:
 - CRM

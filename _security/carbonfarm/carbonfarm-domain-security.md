@@ -5,37 +5,37 @@ api_specs:
   label: CarbonFarm Assets API
   slug: carbonfarm-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbonfarm/refs/heads/main/openapi/carbonfarm-assets-api-openapi.yml
+  url: https://artifacts.apis.io/carbonfarm/openapi/carbonfarm-assets-api-openapi.yml
 - filename: carbonfarm-authentication-api-openapi.yml
   format: yaml
   label: CarbonFarm Authentication API
   slug: carbonfarm-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbonfarm/refs/heads/main/openapi/carbonfarm-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/carbonfarm/openapi/carbonfarm-authentication-api-openapi.yml
 - filename: carbonfarm-files-api-openapi.yml
   format: yaml
   label: CarbonFarm Files API
   slug: carbonfarm-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbonfarm/refs/heads/main/openapi/carbonfarm-files-api-openapi.yml
+  url: https://artifacts.apis.io/carbonfarm/openapi/carbonfarm-files-api-openapi.yml
 - filename: carbonfarm-items-api-openapi.yml
   format: yaml
   label: CarbonFarm Items API
   slug: carbonfarm-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbonfarm/refs/heads/main/openapi/carbonfarm-items-api-openapi.yml
+  url: https://artifacts.apis.io/carbonfarm/openapi/carbonfarm-items-api-openapi.yml
 - filename: carbonfarm-itemspost-api-openapi.yml
   format: yaml
   label: CarbonFarm Items Post API
   slug: carbonfarm-itemspost-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbonfarm/refs/heads/main/openapi/carbonfarm-itemspost-api-openapi.yml
+  url: https://artifacts.apis.io/carbonfarm/openapi/carbonfarm-itemspost-api-openapi.yml
 - filename: carbonfarm-server-api-openapi.yml
   format: yaml
   label: CarbonFarm Server API
   slug: carbonfarm-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbonfarm/refs/heads/main/openapi/carbonfarm-server-api-openapi.yml
+  url: https://artifacts.apis.io/carbonfarm/openapi/carbonfarm-server-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: carbonfarm-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.carbonfarm.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 03:11:37 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: cms.int.carbonfarm.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 05:55:05 2026 GMT\n  hsts: null\ndomains:\n- domain: carbonfarm.tech\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: carbonfarm.app\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carbonfarm/refs/heads/main/security/carbonfarm-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/carbonfarm/security/carbonfarm-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

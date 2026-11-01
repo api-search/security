@@ -5,49 +5,49 @@ api_specs:
   label: Ribbon Finance Account API
   slug: ribbon-finance-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ribbon-finance/refs/heads/main/openapi/ribbon-finance-account-api-openapi.yml
+  url: https://artifacts.apis.io/ribbon-finance/openapi/ribbon-finance-account-api-openapi.yml
 - filename: ribbon-finance-api-keys-api-openapi.yml
   format: yaml
   label: Ribbon Finance API Keys API
   slug: ribbon-finance-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ribbon-finance/refs/heads/main/openapi/ribbon-finance-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/ribbon-finance/openapi/ribbon-finance-api-keys-api-openapi.yml
 - filename: ribbon-finance-instruments-api-openapi.yml
   format: yaml
   label: Ribbon Finance Instruments API
   slug: ribbon-finance-instruments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ribbon-finance/refs/heads/main/openapi/ribbon-finance-instruments-api-openapi.yml
+  url: https://artifacts.apis.io/ribbon-finance/openapi/ribbon-finance-instruments-api-openapi.yml
 - filename: ribbon-finance-market-data-api-openapi.yml
   format: yaml
   label: Ribbon Finance Market Data API
   slug: ribbon-finance-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ribbon-finance/refs/heads/main/openapi/ribbon-finance-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/ribbon-finance/openapi/ribbon-finance-market-data-api-openapi.yml
 - filename: ribbon-finance-orders-api-openapi.yml
   format: yaml
   label: Ribbon Finance Orders API
   slug: ribbon-finance-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ribbon-finance/refs/heads/main/openapi/ribbon-finance-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ribbon-finance/openapi/ribbon-finance-orders-api-openapi.yml
 - filename: ribbon-finance-positions-api-openapi.yml
   format: yaml
   label: Ribbon Finance Positions API
   slug: ribbon-finance-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ribbon-finance/refs/heads/main/openapi/ribbon-finance-positions-api-openapi.yml
+  url: https://artifacts.apis.io/ribbon-finance/openapi/ribbon-finance-positions-api-openapi.yml
 - filename: ribbon-finance-statistics-api-openapi.yml
   format: yaml
   label: Ribbon Finance Statistics API
   slug: ribbon-finance-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ribbon-finance/refs/heads/main/openapi/ribbon-finance-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/ribbon-finance/openapi/ribbon-finance-statistics-api-openapi.yml
 - filename: ribbon-finance-trade-history-api-openapi.yml
   format: yaml
   label: Ribbon Finance Trade History API
   slug: ribbon-finance-trade-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ribbon-finance/refs/heads/main/openapi/ribbon-finance-trade-history-api-openapi.yml
+  url: https://artifacts.apis.io/ribbon-finance/openapi/ribbon-finance-trade-history-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -100,7 +100,7 @@ source_filename: ribbon-finance-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ribbon.finance\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 02:47:19 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api-docs.aevo.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 11:02:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.aevo.xyz\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 22 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: ribbon.finance\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: aevo.xyz\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ribbon-finance/refs/heads/main/security/ribbon-finance-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ribbon-finance/security/ribbon-finance-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - DeFi

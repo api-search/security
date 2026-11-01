@@ -5,31 +5,31 @@ api_specs:
   label: Paedae Applications API
   slug: paedae-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/openapi/paedae-applications-api-openapi.yml
+  url: https://artifacts.apis.io/paedae/openapi/paedae-applications-api-openapi.yml
 - filename: paedae-beacon-configurations-api-openapi.yml
   format: yaml
   label: Paedae Beacon Configurations API
   slug: paedae-beacon-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/openapi/paedae-beacon-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/paedae/openapi/paedae-beacon-configurations-api-openapi.yml
 - filename: paedae-beacons-api-openapi.yml
   format: yaml
   label: Paedae Beacons API
   slug: paedae-beacons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/openapi/paedae-beacons-api-openapi.yml
+  url: https://artifacts.apis.io/paedae/openapi/paedae-beacons-api-openapi.yml
 - filename: paedae-communications-api-openapi.yml
   format: yaml
   label: Paedae Communications API
   slug: paedae-communications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/openapi/paedae-communications-api-openapi.yml
+  url: https://artifacts.apis.io/paedae/openapi/paedae-communications-api-openapi.yml
 - filename: paedae-places-api-openapi.yml
   format: yaml
   label: Paedae Places API
   slug: paedae-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/openapi/paedae-places-api-openapi.yml
+  url: https://artifacts.apis.io/paedae/openapi/paedae-places-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: paedae-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.gimbal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 20:51:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31622400\n- host: manager.gimbal.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec  6 23:59:59 2026 GMT\n  hsts: null\n- host: docs.gimbal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 13 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: gimbal.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/security/paedae-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/paedae/security/paedae-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

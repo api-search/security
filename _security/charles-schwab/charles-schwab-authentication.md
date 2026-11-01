@@ -7,61 +7,61 @@ api_specs:
   label: Charles Schwab Accounts API
   slug: charles-schwab-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/charles-schwab/openapi/charles-schwab-accounts-api-openapi.yml
 - filename: charles-schwab-instruments-api-openapi.yml
   format: yaml
   label: Charles Schwab Instruments API
   slug: charles-schwab-instruments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-instruments-api-openapi.yml
+  url: https://artifacts.apis.io/charles-schwab/openapi/charles-schwab-instruments-api-openapi.yml
 - filename: charles-schwab-market-hours-api-openapi.yml
   format: yaml
   label: Charles Schwab Market Hours API
   slug: charles-schwab-market-hours-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-market-hours-api-openapi.yml
+  url: https://artifacts.apis.io/charles-schwab/openapi/charles-schwab-market-hours-api-openapi.yml
 - filename: charles-schwab-movers-api-openapi.yml
   format: yaml
   label: Charles Schwab Movers API
   slug: charles-schwab-movers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-movers-api-openapi.yml
+  url: https://artifacts.apis.io/charles-schwab/openapi/charles-schwab-movers-api-openapi.yml
 - filename: charles-schwab-options-api-openapi.yml
   format: yaml
   label: Charles Schwab Options API
   slug: charles-schwab-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-options-api-openapi.yml
+  url: https://artifacts.apis.io/charles-schwab/openapi/charles-schwab-options-api-openapi.yml
 - filename: charles-schwab-orders-api-openapi.yml
   format: yaml
   label: Charles Schwab Orders API
   slug: charles-schwab-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-orders-api-openapi.yml
+  url: https://artifacts.apis.io/charles-schwab/openapi/charles-schwab-orders-api-openapi.yml
 - filename: charles-schwab-price-history-api-openapi.yml
   format: yaml
   label: Charles Schwab Price History API
   slug: charles-schwab-price-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-price-history-api-openapi.yml
+  url: https://artifacts.apis.io/charles-schwab/openapi/charles-schwab-price-history-api-openapi.yml
 - filename: charles-schwab-quotes-api-openapi.yml
   format: yaml
   label: Charles Schwab Quotes API
   slug: charles-schwab-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/charles-schwab/openapi/charles-schwab-quotes-api-openapi.yml
 - filename: charles-schwab-transactions-api-openapi.yml
   format: yaml
   label: Charles Schwab Transactions API
   slug: charles-schwab-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/charles-schwab/openapi/charles-schwab-transactions-api-openapi.yml
 - filename: charles-schwab-user-preferences-api-openapi.yml
   format: yaml
   label: Charles Schwab User Preferences API
   slug: charles-schwab-user-preferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-user-preferences-api-openapi.yml
+  url: https://artifacts.apis.io/charles-schwab/openapi/charles-schwab-user-preferences-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -93,7 +93,7 @@ source_filename: charles-schwab-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/charles-schwab-market-data-api-openapi.yml, openapi/charles-schwab-trader-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.schwabapi.com/v1/oauth/authorize\n    tokenUrl: https://api.schwabapi.com/v1/oauth/token\n    scopes: 1\n  sources:\n  - openapi/charles-schwab-market-data-api-openapi.yml\n  - openapi/charles-schwab-trader-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/authentication/charles-schwab-authentication.yml
+source_yaml_url: https://artifacts.apis.io/charles-schwab/authentication/charles-schwab-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Account

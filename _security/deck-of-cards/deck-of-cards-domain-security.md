@@ -26,7 +26,7 @@ source_filename: deck-of-cards-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: deckofcardsapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 21:56:34 2026 GMT\n  hsts: false\ndomains:\n- domain: deckofcardsapi.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deck-of-cards/refs/heads/main/security/deck-of-cards-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/deck-of-cards/security/deck-of-cards-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Public APIs

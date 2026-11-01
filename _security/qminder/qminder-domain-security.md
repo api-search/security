@@ -5,43 +5,43 @@ api_specs:
   label: Qminder Appointments API
   slug: qminder-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/openapi/qminder-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/qminder/openapi/qminder-appointments-api-openapi.yml
 - filename: qminder-input-fields-api-openapi.yml
   format: yaml
   label: Qminder Input Fields API
   slug: qminder-input-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/openapi/qminder-input-fields-api-openapi.yml
+  url: https://artifacts.apis.io/qminder/openapi/qminder-input-fields-api-openapi.yml
 - filename: qminder-lines-api-openapi.yml
   format: yaml
   label: Qminder Lines API
   slug: qminder-lines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/openapi/qminder-lines-api-openapi.yml
+  url: https://artifacts.apis.io/qminder/openapi/qminder-lines-api-openapi.yml
 - filename: qminder-locations-api-openapi.yml
   format: yaml
   label: Qminder Locations API
   slug: qminder-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/openapi/qminder-locations-api-openapi.yml
+  url: https://artifacts.apis.io/qminder/openapi/qminder-locations-api-openapi.yml
 - filename: qminder-tickets-api-openapi.yml
   format: yaml
   label: Qminder Tickets API
   slug: qminder-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/openapi/qminder-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/qminder/openapi/qminder-tickets-api-openapi.yml
 - filename: qminder-users-api-openapi.yml
   format: yaml
   label: Qminder Users API
   slug: qminder-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/openapi/qminder-users-api-openapi.yml
+  url: https://artifacts.apis.io/qminder/openapi/qminder-users-api-openapi.yml
 - filename: qminder-webhooks-api-openapi.yml
   format: yaml
   label: Qminder Webhooks API
   slug: qminder-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/openapi/qminder-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/qminder/openapi/qminder-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: qminder-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: qminder.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 29 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.qminder.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 11 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: qminder.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/security/qminder-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/qminder/security/qminder-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

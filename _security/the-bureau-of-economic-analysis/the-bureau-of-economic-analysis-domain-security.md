@@ -5,31 +5,31 @@ api_specs:
   label: The Bureau of Economic Analysis Industry API
   slug: the-bureau-of-economic-analysis-industry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-bureau-of-economic-analysis/refs/heads/main/openapi/the-bureau-of-economic-analysis-industry-api-openapi.yml
+  url: https://artifacts.apis.io/the-bureau-of-economic-analysis/openapi/the-bureau-of-economic-analysis-industry-api-openapi.yml
 - filename: the-bureau-of-economic-analysis-international-api-openapi.yml
   format: yaml
   label: The Bureau of Economic Analysis International API
   slug: the-bureau-of-economic-analysis-international-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-bureau-of-economic-analysis/refs/heads/main/openapi/the-bureau-of-economic-analysis-international-api-openapi.yml
+  url: https://artifacts.apis.io/the-bureau-of-economic-analysis/openapi/the-bureau-of-economic-analysis-international-api-openapi.yml
 - filename: the-bureau-of-economic-analysis-metadata-api-openapi.yml
   format: yaml
   label: The Bureau of Economic Analysis Metadata API
   slug: the-bureau-of-economic-analysis-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-bureau-of-economic-analysis/refs/heads/main/openapi/the-bureau-of-economic-analysis-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/the-bureau-of-economic-analysis/openapi/the-bureau-of-economic-analysis-metadata-api-openapi.yml
 - filename: the-bureau-of-economic-analysis-national-accounts-api-openapi.yml
   format: yaml
   label: The Bureau of Economic Analysis National Accounts API
   slug: the-bureau-of-economic-analysis-national-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-bureau-of-economic-analysis/refs/heads/main/openapi/the-bureau-of-economic-analysis-national-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/the-bureau-of-economic-analysis/openapi/the-bureau-of-economic-analysis-national-accounts-api-openapi.yml
 - filename: the-bureau-of-economic-analysis-regional-api-openapi.yml
   format: yaml
   label: The Bureau of Economic Analysis Regional API
   slug: the-bureau-of-economic-analysis-regional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-bureau-of-economic-analysis/refs/heads/main/openapi/the-bureau-of-economic-analysis-regional-api-openapi.yml
+  url: https://artifacts.apis.io/the-bureau-of-economic-analysis/openapi/the-bureau-of-economic-analysis-regional-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: the-bureau-of-economic-analysis-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bea.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 22 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apps.bea.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 22 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: bea.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-bureau-of-economic-analysis/refs/heads/main/security/the-bureau-of-economic-analysis-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/the-bureau-of-economic-analysis/security/the-bureau-of-economic-analysis-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Economics

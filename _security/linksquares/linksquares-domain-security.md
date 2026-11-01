@@ -5,31 +5,31 @@ api_specs:
   label: LinkSquares Account API
   slug: linksquares-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linksquares/refs/heads/main/openapi/linksquares-account-api-openapi.yml
+  url: https://artifacts.apis.io/linksquares/openapi/linksquares-account-api-openapi.yml
 - filename: linksquares-agreements-api-openapi.yml
   format: yaml
   label: LinkSquares Agreements API
   slug: linksquares-agreements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linksquares/refs/heads/main/openapi/linksquares-agreements-api-openapi.yml
+  url: https://artifacts.apis.io/linksquares/openapi/linksquares-agreements-api-openapi.yml
 - filename: linksquares-attachments-api-openapi.yml
   format: yaml
   label: LinkSquares Attachments API
   slug: linksquares-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linksquares/refs/heads/main/openapi/linksquares-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/linksquares/openapi/linksquares-attachments-api-openapi.yml
 - filename: linksquares-finalize-api-openapi.yml
   format: yaml
   label: LinkSquares Finalize API
   slug: linksquares-finalize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linksquares/refs/heads/main/openapi/linksquares-finalize-api-openapi.yml
+  url: https://artifacts.apis.io/linksquares/openapi/linksquares-finalize-api-openapi.yml
 - filename: linksquares-metadata-and-smart-values-api-openapi.yml
   format: yaml
   label: LinkSquares Metadata and Smart Values API
   slug: linksquares-metadata-and-smart-values-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linksquares/refs/heads/main/openapi/linksquares-metadata-and-smart-values-api-openapi.yml
+  url: https://artifacts.apis.io/linksquares/openapi/linksquares-metadata-and-smart-values-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -83,7 +83,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: linksquares.com\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: Google Trust Services (WE1)\n  cert_expires: Sep 20 16:14:10 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  server: cloudflare\n  http_status: 200\n- host: api.linksquares.com\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: Amazon RSA 2048 M04\n  cert_expires: Nov 20 23:59:59 2026 GMT\n  hsts: false\n  http_status: 403\n  note: >-\n    Production API gateway. Returns 403 without a valid x-api-key header, as\n    expected for a customer-gated API. HSTS header not present on the 403 gateway\n    response.\n- host: developer.linksquares.com\n  https: true\n  tls_version: TLSv1.2\n  cert_issuer: Amazon RSA 2048 M04\n  cert_expires: Nov 20 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  server: nginx\n  http_status: 200\n  note: Interactive\
   \ developer/API reference portal (login-gated).\ndomains:\n- domain: linksquares.com\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: v=spf1 include:_spf.google.com include:mail.zendesk.com include:amazonses.com include:_spf.salesforce.com include:6934676.spf56.hubspotemail.net include:stspg-customer.com ~all\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linksquares/refs/heads/main/security/linksquares-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/linksquares/security/linksquares-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Contract Management

@@ -5,19 +5,19 @@ api_specs:
   label: Abacus Authentication API
   slug: abacus-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abacus/refs/heads/main/openapi/abacus-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/abacus/openapi/abacus-authentication-api-openapi.yml
 - filename: abacus-expenses-api-openapi.yml
   format: yaml
   label: Abacus Expenses API
   slug: abacus-expenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abacus/refs/heads/main/openapi/abacus-expenses-api-openapi.yml
+  url: https://artifacts.apis.io/abacus/openapi/abacus-expenses-api-openapi.yml
 - filename: abacus-members-api-openapi.yml
   format: yaml
   label: Abacus Members API
   slug: abacus-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abacus/refs/heads/main/openapi/abacus-members-api-openapi.yml
+  url: https://artifacts.apis.io/abacus/openapi/abacus-members-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -55,7 +55,7 @@ source_filename: abacus-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.abacus.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 15 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: support.abacus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 20:27:51 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.abacus.com\n  https: false\ndomains:\n- domain: abacus.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abacus/refs/heads/main/security/abacus-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/abacus/security/abacus-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Accounting

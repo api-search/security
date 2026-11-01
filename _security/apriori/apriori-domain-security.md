@@ -5,13 +5,13 @@ api_specs:
   label: aPriori Agent API
   slug: apriori-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apriori/refs/heads/main/openapi/apriori-agent-api-openapi.yml
+  url: https://artifacts.apis.io/apriori/openapi/apriori-agent-api-openapi.yml
 - filename: apriori-workflow-api-openapi.yml
   format: yaml
   label: aPriori Workflow API
   slug: apriori-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apriori/refs/heads/main/openapi/apriori-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/apriori/openapi/apriori-workflow-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: apriori-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.apriori.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 15:49:51 2026 GMT\n  hsts: null\n- host: docs.apriori.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 05:04:38 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: apriori.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apriori/refs/heads/main/security/apriori-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apriori/security/apriori-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

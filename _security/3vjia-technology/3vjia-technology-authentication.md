@@ -7,115 +7,115 @@ api_specs:
   label: 3vjia Technology 3D Show API
   slug: 3vjia-technology-3d-show-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3vjia-technology/refs/heads/main/openapi/3vjia-technology-3d-show-api-openapi.yml
+  url: https://artifacts.apis.io/3vjia-technology/openapi/3vjia-technology-3d-show-api-openapi.yml
 - filename: 3vjia-technology-3vjia-ai-api-openapi.yml
   format: yaml
   label: 3vjia Technology 3vjia AI API
   slug: 3vjia-technology-3vjia-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3vjia-technology/refs/heads/main/openapi/3vjia-technology-3vjia-ai-api-openapi.yml
+  url: https://artifacts.apis.io/3vjia-technology/openapi/3vjia-technology-3vjia-ai-api-openapi.yml
 - filename: 3vjia-technology-accounts-api-openapi.yml
   format: yaml
   label: 3vjia Technology Accounts API
   slug: 3vjia-technology-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3vjia-technology/refs/heads/main/openapi/3vjia-technology-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/3vjia-technology/openapi/3vjia-technology-accounts-api-openapi.yml
 - filename: 3vjia-technology-aimes-api-openapi.yml
   format: yaml
   label: 3vjia Technology AIMES API
   slug: 3vjia-technology-aimes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3vjia-technology/refs/heads/main/openapi/3vjia-technology-aimes-api-openapi.yml
+  url: https://artifacts.apis.io/3vjia-technology/openapi/3vjia-technology-aimes-api-openapi.yml
 - filename: 3vjia-technology-asset-management-api-openapi.yml
   format: yaml
   label: 3vjia Technology Asset Management API
   slug: 3vjia-technology-asset-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3vjia-technology/refs/heads/main/openapi/3vjia-technology-asset-management-api-openapi.yml
+  url: https://artifacts.apis.io/3vjia-technology/openapi/3vjia-technology-asset-management-api-openapi.yml
 - filename: 3vjia-technology-authorization-api-openapi.yml
   format: yaml
   label: 3vjia Technology Authorization API
   slug: 3vjia-technology-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3vjia-technology/refs/heads/main/openapi/3vjia-technology-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/3vjia-technology/openapi/3vjia-technology-authorization-api-openapi.yml
 - filename: 3vjia-technology-cad-api-openapi.yml
   format: yaml
   label: 3vjia Technology CAD API
   slug: 3vjia-technology-cad-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3vjia-technology/refs/heads/main/openapi/3vjia-technology-cad-api-openapi.yml
+  url: https://artifacts.apis.io/3vjia-technology/openapi/3vjia-technology-cad-api-openapi.yml
 - filename: 3vjia-technology-chuangdian-api-openapi.yml
   format: yaml
   label: 3vjia Technology Chuangdian API
   slug: 3vjia-technology-chuangdian-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3vjia-technology/refs/heads/main/openapi/3vjia-technology-chuangdian-api-openapi.yml
+  url: https://artifacts.apis.io/3vjia-technology/openapi/3vjia-technology-chuangdian-api-openapi.yml
 - filename: 3vjia-technology-common-services-api-openapi.yml
   format: yaml
   label: 3vjia Technology Common Services API
   slug: 3vjia-technology-common-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3vjia-technology/refs/heads/main/openapi/3vjia-technology-common-services-api-openapi.yml
+  url: https://artifacts.apis.io/3vjia-technology/openapi/3vjia-technology-common-services-api-openapi.yml
 - filename: 3vjia-technology-dedicated-services-api-openapi.yml
   format: yaml
   label: 3vjia Technology Dedicated Services API
   slug: 3vjia-technology-dedicated-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3vjia-technology/refs/heads/main/openapi/3vjia-technology-dedicated-services-api-openapi.yml
+  url: https://artifacts.apis.io/3vjia-technology/openapi/3vjia-technology-dedicated-services-api-openapi.yml
 - filename: 3vjia-technology-design-schemes-api-openapi.yml
   format: yaml
   label: 3vjia Technology Design Schemes API
   slug: 3vjia-technology-design-schemes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3vjia-technology/refs/heads/main/openapi/3vjia-technology-design-schemes-api-openapi.yml
+  url: https://artifacts.apis.io/3vjia-technology/openapi/3vjia-technology-design-schemes-api-openapi.yml
 - filename: 3vjia-technology-dms-api-openapi.yml
   format: yaml
   label: 3vjia Technology DMS API
   slug: 3vjia-technology-dms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3vjia-technology/refs/heads/main/openapi/3vjia-technology-dms-api-openapi.yml
+  url: https://artifacts.apis.io/3vjia-technology/openapi/3vjia-technology-dms-api-openapi.yml
 - filename: 3vjia-technology-dreamer-api-openapi.yml
   format: yaml
   label: 3vjia Technology Dreamer API
   slug: 3vjia-technology-dreamer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3vjia-technology/refs/heads/main/openapi/3vjia-technology-dreamer-api-openapi.yml
+  url: https://artifacts.apis.io/3vjia-technology/openapi/3vjia-technology-dreamer-api-openapi.yml
 - filename: 3vjia-technology-floor-plans-api-openapi.yml
   format: yaml
   label: 3vjia Technology Floor Plans API
   slug: 3vjia-technology-floor-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3vjia-technology/refs/heads/main/openapi/3vjia-technology-floor-plans-api-openapi.yml
+  url: https://artifacts.apis.io/3vjia-technology/openapi/3vjia-technology-floor-plans-api-openapi.yml
 - filename: 3vjia-technology-light-design-api-openapi.yml
   format: yaml
   label: 3vjia Technology Light Design API
   slug: 3vjia-technology-light-design-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3vjia-technology/refs/heads/main/openapi/3vjia-technology-light-design-api-openapi.yml
+  url: https://artifacts.apis.io/3vjia-technology/openapi/3vjia-technology-light-design-api-openapi.yml
 - filename: 3vjia-technology-mos-api-openapi.yml
   format: yaml
   label: 3vjia Technology MOS API
   slug: 3vjia-technology-mos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3vjia-technology/refs/heads/main/openapi/3vjia-technology-mos-api-openapi.yml
+  url: https://artifacts.apis.io/3vjia-technology/openapi/3vjia-technology-mos-api-openapi.yml
 - filename: 3vjia-technology-products-api-openapi.yml
   format: yaml
   label: 3vjia Technology Products API
   slug: 3vjia-technology-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3vjia-technology/refs/heads/main/openapi/3vjia-technology-products-api-openapi.yml
+  url: https://artifacts.apis.io/3vjia-technology/openapi/3vjia-technology-products-api-openapi.yml
 - filename: 3vjia-technology-quotation-api-openapi.yml
   format: yaml
   label: 3vjia Technology Quotation API
   slug: 3vjia-technology-quotation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3vjia-technology/refs/heads/main/openapi/3vjia-technology-quotation-api-openapi.yml
+  url: https://artifacts.apis.io/3vjia-technology/openapi/3vjia-technology-quotation-api-openapi.yml
 - filename: 3vjia-technology-xuanchi-ai-api-openapi.yml
   format: yaml
   label: 3vjia Technology Xuanchi AI API
   slug: 3vjia-technology-xuanchi-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3vjia-technology/refs/heads/main/openapi/3vjia-technology-xuanchi-ai-api-openapi.yml
+  url: https://artifacts.apis.io/3vjia-technology/openapi/3vjia-technology-xuanchi-ai-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -175,7 +175,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: >-\n  https://d
   \ Token TTL 7200s; re-requesting invalidates the\n    previous token.\n  sources:\n  - https://dev.3vjia.com/v1/document?apiId=3a985690d1a94edd924372f8c10187ca\n  - openapi/3vjia-technology-open-platform-openapi.yml\nadditional_mechanisms:\n- name: SSO 联合单点登录 (federated single sign-on)\n  type: signed redirect\n  host: https://sso.3vjia.com/JointLogin/Index\n  signature: MD5(userId + appId + time + appKey)\n  timestamp: 10-digit Unix seconds, ±5 minutes tolerance\n  parameters: [userid, appid, time, sign, redirect_uri]\n  binding: >-\n    An external user id is bound to a 3vjia account either in advance via the account-binding\n    operations, or interactively by the designer on first sign-in.\n  note: >-\n    A separate mechanism from the API token, on a separate host, with a separate credential use of\n    appKey. MD5 without a salt or HMAC construction is weak by modern standards; the ±5 minute\n    window is the only replay bound.\n  sources:\n  - https://dev.3vjia.com/v1/document\
   \ (SSO联合单点登录)\n- name: 授权登录授权码 (authorization code for delegated login)\n  type: temporary code\n  operation: commonApiJoinAuthAuthorize\n  ttl: ten minutes (十分钟内有效)\n  note: >-\n    Exchanges an enterprise user id for a short-lived code plus a token expiry, for opening a 3vjia\n    application as a specific user.\n- name: OSS upload signatures\n  type: short-lived object-storage signature\n  operations:\n  - apiV1ModelOssGetUploadToken\n  - apiV1TextureOssGetUploadToken\n  - apiV1LineOssGetUploadToken\n  - apiV1NjvrStsGetSign\n  note: Direct-to-object-storage uploads are authorised by a separately issued, short-lived signature.\ngaps:\n- No scopes, so an application token carries the full contracted surface — no least privilege.\n- No authorization-server metadata (RFC 8414) and no OIDC discovery document.\n- No mutual TLS, no key rotation guidance, no published credential-revocation procedure.\n- No sandbox or test credential; there is nowhere to exercise auth without a production application.\n\
   - Authentication failures return HTTP 200, so standard 401-driven token-refresh middleware will not fire.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/3vjia-technology/refs/heads/main/authentication/3vjia-technology-authentication.yml
+source_yaml_url: https://artifacts.apis.io/3vjia-technology/authentication/3vjia-technology-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

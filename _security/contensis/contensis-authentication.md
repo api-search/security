@@ -7,25 +7,25 @@ api_specs:
   label: Contensis Content Types API
   slug: contensis-content-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/openapi/contensis-content-types-api-openapi.yml
+  url: https://artifacts.apis.io/contensis/openapi/contensis-content-types-api-openapi.yml
 - filename: contensis-entries-api-openapi.yml
   format: yaml
   label: Contensis Entries API
   slug: contensis-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/openapi/contensis-entries-api-openapi.yml
+  url: https://artifacts.apis.io/contensis/openapi/contensis-entries-api-openapi.yml
 - filename: contensis-projects-api-openapi.yml
   format: yaml
   label: Contensis Projects API
   slug: contensis-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/openapi/contensis-projects-api-openapi.yml
+  url: https://artifacts.apis.io/contensis/openapi/contensis-projects-api-openapi.yml
 - filename: contensis-taxonomy-api-openapi.yml
   format: yaml
   label: Contensis Taxonomy API
   slug: contensis-taxonomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/openapi/contensis-taxonomy-api-openapi.yml
+  url: https://artifacts.apis.io/contensis/openapi/contensis-taxonomy-api-openapi.yml
 auth_types: []
 description: Contensis runs two different authentication models across its two HTTP APIs, and the gap between them matters. The read-only Delivery API takes a single long-lived, environment-wide access token with no scoping and no expiry documented. The Management API runs OAuth 2.0 client credentials against a per-tenant authorization server, with named scopes and one-hour bearer tokens. The captured OpenAPI declares no securitySchemes at all, so everything here is read from the docs, not derived.
 kind: authentication
@@ -98,7 +98,7 @@ source_yaml: "specification: API Commons Authentication\nspecificationVersion: '
   \    parameters:\n      - grant_type=client_credentials\n      - client_id\n      - client_secret\n      - scope\n    credential_source: >-\n      client_id and client_secret (\"shared secret\") are created in the API Management\n      screen of the Contensis management console.\n    token_type: Bearer\n    token_lifetime_seconds: 3600\n    lifetime_note: Returned as `expires_in`; the documented example value is 3600.\n    refresh: >-\n      No refresh token is documented. The guidance is to cache the access token locally and\n      re-request when it expires.\n    presentation: HTTP Authorization header on each Management API request.\n    failures:\n      - status: 400\n        error: invalid_client\n        meaning: Bad client_id / client_secret pair at the token endpoint.\n      - status: 401\n        meaning: Missing, expired or insufficiently scoped token on a Management API call.\n    scopes_artifact: scopes/contensis-scopes.yml\n  - id: cli-credentials\n    api: Contensis CLI\n\
   \    type: passthrough\n    note: >-\n      The first-party CLI accepts either a user/password pair or the same client-id /\n      shared-secret pair as the Management API, supplied per command or cached per\n      environment. It is not a third scheme, it is a client for the two above.\nmtls: not documented\nopenid_connect:\n  discovery: not served\n  note: >-\n    The token path (/authenticate/connect/token) is IdentityServer-shaped, which normally\n    implies a sibling /.well-known/openid-configuration on the tenant host. Contensis does\n    not advertise one from its public domain, and the tenant host is per-customer, so no\n    anonymous discovery document was reachable to probe — see\n    well-known/contensis-well-known.yml.\nfindings:\n  - >-\n    The Delivery API credential is unscoped and environment-wide, with no documented\n    expiry. Anything holding it can read every project in that environment for as long as\n    the token exists. For an agent integration that is the whole\
   \ read surface behind one\n    unrotatable string.\n  - >-\n    Passing the Delivery token as a query parameter is documented as a first-class option.\n    That is the kind of thing an agent will do because it is the easiest path, and it\n    leaks the credential into logs.\n  - >-\n    Management API scopes exist but are few — the published table covers projects and\n    entries only. See scopes/contensis-scopes.yml.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/authentication/contensis-authentication.yml
+source_yaml_url: https://artifacts.apis.io/contensis/authentication/contensis-authentication.yml
 summary_line: 3 schemes
 tags:
 - CMS

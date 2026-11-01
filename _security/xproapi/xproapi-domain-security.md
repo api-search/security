@@ -5,31 +5,31 @@ api_specs:
   label: Xproapi Default API
   slug: xproapi-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xproapi/refs/heads/main/openapi/xproapi-default-api-openapi.yml
+  url: https://artifacts.apis.io/xproapi/openapi/xproapi-default-api-openapi.yml
 - filename: xproapi-follow-followings-api-openapi.yml
   format: yaml
   label: Xproapi Follow, Followings API
   slug: xproapi-follow-followings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xproapi/refs/heads/main/openapi/xproapi-follow-followings-api-openapi.yml
+  url: https://artifacts.apis.io/xproapi/openapi/xproapi-follow-followings-api-openapi.yml
 - filename: xproapi-tweet-activity-api-openapi.yml
   format: yaml
   label: Xproapi Tweet Activity API
   slug: xproapi-tweet-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xproapi/refs/heads/main/openapi/xproapi-tweet-activity-api-openapi.yml
+  url: https://artifacts.apis.io/xproapi/openapi/xproapi-tweet-activity-api-openapi.yml
 - filename: xproapi-tweets-api-openapi.yml
   format: yaml
   label: Xproapi Tweets API
   slug: xproapi-tweets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xproapi/refs/heads/main/openapi/xproapi-tweets-api-openapi.yml
+  url: https://artifacts.apis.io/xproapi/openapi/xproapi-tweets-api-openapi.yml
 - filename: xproapi-users-api-openapi.yml
   format: yaml
   label: Xproapi Users API
   slug: xproapi-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xproapi/refs/heads/main/openapi/xproapi-users-api-openapi.yml
+  url: https://artifacts.apis.io/xproapi/openapi/xproapi-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: xproapi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: xproapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 26 19:51:28 2026 GMT\n  hsts: false\ndomains:\n- domain: xproapi.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xproapi/refs/heads/main/security/xproapi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/xproapi/security/xproapi-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

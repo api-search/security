@@ -5,31 +5,31 @@ api_specs:
   label: Zenserp Batch API
   slug: zenserp-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/openapi/zenserp-batch-api-openapi.yml
+  url: https://artifacts.apis.io/zenserp/openapi/zenserp-batch-api-openapi.yml
 - filename: zenserp-lists-api-openapi.yml
   format: yaml
   label: Zenserp Lists API
   slug: zenserp-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/openapi/zenserp-lists-api-openapi.yml
+  url: https://artifacts.apis.io/zenserp/openapi/zenserp-lists-api-openapi.yml
 - filename: zenserp-search-api-openapi.yml
   format: yaml
   label: Zenserp Search API
   slug: zenserp-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/openapi/zenserp-search-api-openapi.yml
+  url: https://artifacts.apis.io/zenserp/openapi/zenserp-search-api-openapi.yml
 - filename: zenserp-shopping-api-openapi.yml
   format: yaml
   label: Zenserp Shopping Product Page API
   slug: zenserp-shopping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/openapi/zenserp-shopping-api-openapi.yml
+  url: https://artifacts.apis.io/zenserp/openapi/zenserp-shopping-api-openapi.yml
 - filename: zenserp-trends-api-openapi.yml
   format: yaml
   label: Zenserp Trends API
   slug: zenserp-trends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/openapi/zenserp-trends-api-openapi.yml
+  url: https://artifacts.apis.io/zenserp/openapi/zenserp-trends-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: zenserp-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: zenserp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 11:52:36 2026 GMT\n  hsts: false\n- host: app.zenserp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 15 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: zenserp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/security/zenserp-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zenserp/security/zenserp-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - SERP

@@ -7,49 +7,49 @@ api_specs:
   label: University of Ottawa Authn API
   slug: university-of-ottawa-authn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/university-of-ottawa-authn-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-ottawa/openapi/university-of-ottawa-authn-api-openapi.yml
 - filename: university-of-ottawa-core-api-openapi.yml
   format: yaml
   label: University of Ottawa Core API
   slug: university-of-ottawa-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/university-of-ottawa-core-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-ottawa/openapi/university-of-ottawa-core-api-openapi.yml
 - filename: university-of-ottawa-discover-api-openapi.yml
   format: yaml
   label: University of Ottawa Discover API
   slug: university-of-ottawa-discover-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/university-of-ottawa-discover-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-ottawa/openapi/university-of-ottawa-discover-api-openapi.yml
 - filename: university-of-ottawa-node-api-openapi.yml
   format: yaml
   label: University of Ottawa Node API
   slug: university-of-ottawa-node-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/university-of-ottawa-node-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-ottawa/openapi/university-of-ottawa-node-api-openapi.yml
 - filename: university-of-ottawa-request-api-openapi.yml
   format: yaml
   label: University of Ottawa Request API
   slug: university-of-ottawa-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/university-of-ottawa-request-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-ottawa/openapi/university-of-ottawa-request-api-openapi.yml
 - filename: university-of-ottawa-taxonomy-term-api-openapi.yml
   format: yaml
   label: University of Ottawa Taxonomy Term API
   slug: university-of-ottawa-taxonomy-term-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/university-of-ottawa-taxonomy-term-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-ottawa/openapi/university-of-ottawa-taxonomy-term-api-openapi.yml
 - filename: university-of-ottawa-uo-research-recherche-uo-research-dspace-rest-api-api-openapi.yml
   format: yaml
   label: University of Ottawa UO Research (Recherche UO Research) DSpace REST API
   slug: university-of-ottawa-uo-research-recherche-uo-research-dspace-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/university-of-ottawa-uo-research-recherche-uo-research-dspace-rest-api-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-ottawa/openapi/university-of-ottawa-uo-research-recherche-uo-research-dspace-rest-api-api-openapi.yml
 - filename: university-of-ottawa-uottawa-ca-content-json-api-api-openapi.yml
   format: yaml
   label: University of Ottawa Uottawa.ca Content JSON:API API
   slug: university-of-ottawa-uottawa-ca-content-json-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/university-of-ottawa-uottawa-ca-content-json-api-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-ottawa/openapi/university-of-ottawa-uottawa-ca-content-json-api-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-09-01'\nmethod: probed\nsource: https://ruor.uott
   \ closed to\n      anonymous callers and public discovery must go through /discover/search/objects.\n    write_access: >-\n      Not attempted. DSpace 8 supports session-based login at /api/authn/login plus an\n      X-XSRF-TOKEN CSRF flow; no credentials were used and no write path was probed.\n  - id: ruor-oai-pmh\n    name: uO Research OAI-PMH\n    base_url: https://ruor.uottawa.ca/server/oai/request\n    operator: institution\n    public_read: true\n    scheme: none\n    evidence: >-\n      Identify, ListMetadataFormats, ListSets and ListRecords all returned HTTP 200 with no\n      credentials, key, or referrer requirement.\n  - id: www-jsonapi\n    name: uottawa.ca Content JSON:API\n    base_url: https://www.uottawa.ca/en/jsonapi\n    operator: institution\n    public_read: true\n    scheme: none\n    evidence: >-\n      The resource index, node/article, node/alert and taxonomy_term/tags all returned HTTP\n      200 anonymously. Drupal's JSON:API module is running read-only for anonymous\
   \ users;\n      no write was attempted.\n  - id: caf-idp\n    name: uOttawa Shibboleth Identity Provider\n    base_url: https://fca-caf.uottawa.ca/idp\n    operator: institution\n    public_read: true\n    scheme: saml2\n    evidence: >-\n      The SAML 2.0 metadata document at /idp/shibboleth is served anonymously (HTTP 200). The\n      IdP itself authenticates uottawa.ca principals for federated services; this profile\n      records only the public metadata endpoint.\nnegative_probes:\n  - url: https://www.uottawa.ca/.well-known/openid-configuration\n    status: 404\n    note: No OIDC discovery document on the primary web property.\n  - url: https://www.uottawa.ca/.well-known/security.txt\n    status: 404\n    note: No RFC 9116 security contact.\n  - url: https://api.uottawa.ca/\n    status: 0\n    note: Host does not resolve. No central API gateway.\n  - url: https://developer.uottawa.ca/\n    status: 0\n    note: Host does not resolve. No developer portal, so no key-issuing or onboarding\
   \ flow exists.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/authentication/university-of-ottawa-authentication.yml
+source_yaml_url: https://artifacts.apis.io/university-of-ottawa/authentication/university-of-ottawa-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

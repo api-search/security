@@ -8,13 +8,13 @@ api_specs:
   label: Prismatic Authentication API
   slug: prismatic-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prismatic/refs/heads/main/openapi/prismatic-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/prismatic/openapi/prismatic-authentication-api-openapi.yml
 - filename: prismatic-graph-ql-api-openapi.yml
   format: yaml
   label: Prismatic Graph QL API
   slug: prismatic-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prismatic/refs/heads/main/openapi/prismatic-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/prismatic/openapi/prismatic-graph-ql-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -50,7 +50,7 @@ source_filename: prismatic-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/prismatic-graphql-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - cookie\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: JWT token obtained via the Prismatic web app, CLI tool (me:token subcommand),\n    or the /auth/refresh endpoint. Pass as Authorization Bearer header.\n  sources:\n  - openapi/prismatic-graphql-api-openapi.yml\n- name: cookieAuth\n  type: apiKey\n  in: cookie\n  parameter: session\n  description: Session cookie from Prismatic web application login\n  sources:\n  - openapi/prismatic-graphql-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prismatic/refs/heads/main/authentication/prismatic-authentication.yml
+source_yaml_url: https://artifacts.apis.io/prismatic/authentication/prismatic-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Embedded iPaaS

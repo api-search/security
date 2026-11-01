@@ -5,13 +5,13 @@ api_specs:
   label: HipChat REST API v2
   slug: hipchat-rest-api-v2
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hipchat/refs/heads/main/openapi/hipchat-rest-api-openapi.yml
+  url: https://artifacts.apis.io/hipchat/openapi/hipchat-rest-api-openapi.yml
 - filename: hipchat-webhooks-asyncapi.yml
   format: yaml
   label: HipChat Webhooks API
   slug: hipchat-webhooks-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hipchat/refs/heads/main/asyncapi/hipchat-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/hipchat/asyncapi/hipchat-webhooks-asyncapi.yml
 description: ''
 domains:
 - caa:
@@ -47,7 +47,7 @@ source_filename: hipchat-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.atlassian.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  1 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: atlassian.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"digicert.com; account=c2eb0f50ca113d7543d58a10f523d0469ff922f115e5e4e9056f3d5f87d3356c\"\n  - 0 issuewild \"globalsign.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com; account=c2eb0f50ca113d7543d58a10f523d0469ff922f115e5e4e9056f3d5f87d3356c\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hipchat/refs/heads/main/security/hipchat-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hipchat/security/hipchat-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Chat

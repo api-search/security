@@ -8,73 +8,73 @@ api_specs:
   label: SocialListeningAPI Discourse API
   slug: sociallisteningapi-discourse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-discourse-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-discourse-api-openapi.yml
 - filename: sociallisteningapi-facebook-api-openapi.yml
   format: yaml
   label: SocialListeningAPI Facebook API
   slug: sociallisteningapi-facebook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-facebook-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-facebook-api-openapi.yml
 - filename: sociallisteningapi-google-api-openapi.yml
   format: yaml
   label: SocialListeningAPI Google API
   slug: sociallisteningapi-google-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-google-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-google-api-openapi.yml
 - filename: sociallisteningapi-instagram-api-openapi.yml
   format: yaml
   label: SocialListeningAPI Instagram API
   slug: sociallisteningapi-instagram-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-instagram-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-instagram-api-openapi.yml
 - filename: sociallisteningapi-meta-api-openapi.yml
   format: yaml
   label: SocialListeningAPI Meta API
   slug: sociallisteningapi-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-meta-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-meta-api-openapi.yml
 - filename: sociallisteningapi-pinterest-api-openapi.yml
   format: yaml
   label: SocialListeningAPI Pinterest API
   slug: sociallisteningapi-pinterest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-pinterest-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-pinterest-api-openapi.yml
 - filename: sociallisteningapi-reddit-api-openapi.yml
   format: yaml
   label: SocialListeningAPI Reddit API
   slug: sociallisteningapi-reddit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-reddit-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-reddit-api-openapi.yml
 - filename: sociallisteningapi-tiktok-api-openapi.yml
   format: yaml
   label: SocialListeningAPI Tiktok API
   slug: sociallisteningapi-tiktok-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-tiktok-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-tiktok-api-openapi.yml
 - filename: sociallisteningapi-x-api-openapi.yml
   format: yaml
   label: SocialListeningAPI X API
   slug: sociallisteningapi-x-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-x-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-x-api-openapi.yml
 - filename: sociallisteningapi-youtube-api-openapi.yml
   format: yaml
   label: SocialListeningAPI YouTube API
   slug: sociallisteningapi-youtube-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-youtube-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-youtube-api-openapi.yml
 - filename: sociallisteningapi-hacker-news-api-openapi.yml
   format: yaml
   label: SocialListeningAPI Hacker News API
   slug: sociallisteningapi-hacker-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-hacker-news-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-hacker-news-api-openapi.yml
 - filename: sociallisteningapi-linked-in-api-openapi.yml
   format: yaml
   label: SocialListeningAPI Linked In API
   slug: sociallisteningapi-linked-in-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-linked-in-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-linked-in-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -135,7 +135,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: searched\nsource: https://sociallisteningapi.com/docs/authentication\ndocs: https://sociallisteningapi.com/docs/authentication\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: Your SocialListeningAPI key.\n  key_prefix: slapi_\n  applies_to: REST API (https://api.sociallisteningapi.com/api/v1/*)\n  obtain: Create an account, activate it from the email, then copy the key from the dashboard or Settings > API\n    key.\n  errors:\n    '401': A missing or invalid key returns 401.\n    '403': An account that has not been activated returns 403.\n    '402': If the workspace has no credits left, the API returns 402.\n  guidance: Do not put it in the URL. Keep it out of browser code, mobile apps, public repositories, screenshots,\n    and logs. Call SocialListeningAPI from your server so the key stays private.\n  sources:\n  - openapi/sociallisteningapi-openapi.yml\n\
   \  - https://sociallisteningapi.com/docs/authentication\n- name: MCP OAuth\n  type: oauth2\n  applies_to: Remote MCP server https://api.sociallisteningapi.com/mcp\n  flows:\n    authorizationCode:\n      authorizationUrl: https://api.sociallisteningapi.com/authorize\n      tokenUrl: https://api.sociallisteningapi.com/token\n      revocationUrl: https://api.sociallisteningapi.com/revoke\n      pkce: S256\n      scopes:\n      - mcp\n      - mcp:search\n  grant_types:\n  - authorization_code\n  - refresh_token\n  token_endpoint_auth_methods:\n  - none\n  bearer_methods:\n  - header\n  sources:\n  - https://api.sociallisteningapi.com/.well-known/oauth-authorization-server (200)\n  - https://api.sociallisteningapi.com/.well-known/oauth-protected-resource/mcp (200)\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/authentication/sociallisteningapi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sociallisteningapi/authentication/sociallisteningapi-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Social Listening

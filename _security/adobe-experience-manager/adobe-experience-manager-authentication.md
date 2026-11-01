@@ -7,7 +7,7 @@ api_specs:
   label: Adobe Experience Manager Launches API
   slug: adobe-experience-manager-launches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-manager/refs/heads/main/openapi/adobe-experience-manager-launches-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-manager/openapi/adobe-experience-manager-launches-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -38,7 +38,7 @@ source_filename: adobe-experience-manager-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/adobe-experience-manager-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: adobeIMS\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://ims-na1.adobelogin.com/ims/token/v3\n    scopes: 0\n  description: Adobe IMS OAuth 2.0 with Server-to-Server credentials issued from the Adobe Developer\n    Console for an AEM as a Cloud Service project.\n  sources:\n  - openapi/adobe-experience-manager-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-manager/refs/heads/main/authentication/adobe-experience-manager-authentication.yml
+source_yaml_url: https://artifacts.apis.io/adobe-experience-manager/authentication/adobe-experience-manager-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Content Management

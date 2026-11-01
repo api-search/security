@@ -8,37 +8,37 @@ api_specs:
   label: Smartrr Bills API
   slug: smartrr-bills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrr/refs/heads/main/openapi/smartrr-bills-api-openapi.yml
+  url: https://artifacts.apis.io/smartrr/openapi/smartrr-bills-api-openapi.yml
 - filename: smartrr-orders-api-openapi.yml
   format: yaml
   label: Smartrr Orders API
   slug: smartrr-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrr/refs/heads/main/openapi/smartrr-orders-api-openapi.yml
+  url: https://artifacts.apis.io/smartrr/openapi/smartrr-orders-api-openapi.yml
 - filename: smartrr-plans-api-openapi.yml
   format: yaml
   label: Smartrr Plans API
   slug: smartrr-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrr/refs/heads/main/openapi/smartrr-plans-api-openapi.yml
+  url: https://artifacts.apis.io/smartrr/openapi/smartrr-plans-api-openapi.yml
 - filename: smartrr-subscribers-api-openapi.yml
   format: yaml
   label: Smartrr Subscribers API
   slug: smartrr-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrr/refs/heads/main/openapi/smartrr-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/smartrr/openapi/smartrr-subscribers-api-openapi.yml
 - filename: smartrr-subscriptions-api-openapi.yml
   format: yaml
   label: Smartrr Subscriptions API
   slug: smartrr-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrr/refs/heads/main/openapi/smartrr-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/smartrr/openapi/smartrr-subscriptions-api-openapi.yml
 - filename: smartrr-webhooks-api-openapi.yml
   format: yaml
   label: Smartrr Webhooks API
   slug: smartrr-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrr/refs/heads/main/openapi/smartrr-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/smartrr/openapi/smartrr-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: smartrr-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/smartrr-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: smartrrAccessToken\n  type: apiKey\n  in: header\n  parameter: x-smartrr-access-token\n  description: Per-organization API access token generated in the Smartrr admin under the Integrations\n    tab (Add Key). Sent on every request in the x-smartrr-access-token header.\n  sources:\n  - openapi/smartrr-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartrr/refs/heads/main/authentication/smartrr-authentication.yml
+source_yaml_url: https://artifacts.apis.io/smartrr/authentication/smartrr-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Subscription

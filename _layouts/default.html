@@ -107,8 +107,8 @@
         {% assign _kin_alt = page.provider_name | append: ": Kin Score " | append: _kin.c | append: " out of 100 (" | append: _kin.b | append: ")" %}
       {% endif %}
     {% endif %}
-    {% if _kin_slug %}{% assign _og_image = _kin_slug | prepend: "https://kinlane-images.s3.amazonaws.com/shared/kin-score/cards/" | append: ".png" %}{% elsif page.layout == "post" and page.image %}{% assign _og_image = page.image | prepend: site.url %}{% else %}{% assign _og_image = site.image %}{% endif %}
-    {% if _kin_slug %}{% assign _og_alt = _kin_alt %}{% elsif page.title %}{% assign _og_alt = page.title %}{% else %}{% assign _og_alt = site.name %}{% endif %}
+    {% if page.share_image %}{% assign _og_image = page.share_image %}{% elsif _kin_slug %}{% assign _og_image = _kin_slug | prepend: "https://kinlane-images.s3.amazonaws.com/shared/kin-score/cards/" | append: ".png" %}{% elsif page.layout == "post" and page.image %}{% assign _og_image = page.image | prepend: site.url %}{% else %}{% assign _og_image = site.image %}{% endif %}
+    {% if page.share_image and page.share_alt %}{% assign _og_alt = page.share_alt %}{% elsif _kin_slug %}{% assign _og_alt = _kin_alt %}{% elsif page.title %}{% assign _og_alt = page.title %}{% else %}{% assign _og_alt = site.name %}{% endif %}
     {% if page.layout == "post" %}{% assign _og_type = "article" %}{% else %}{% assign _og_type = "website" %}{% endif %}
 
     <!-- Open Graph -->

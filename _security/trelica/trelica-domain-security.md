@@ -5,49 +5,49 @@ api_specs:
   label: Trelica Application Users API
   slug: trelica-application-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-application-users-api-openapi.yml
+  url: https://artifacts.apis.io/trelica/openapi/trelica-application-users-api-openapi.yml
 - filename: trelica-applications-api-openapi.yml
   format: yaml
   label: Trelica Applications API
   slug: trelica-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-applications-api-openapi.yml
+  url: https://artifacts.apis.io/trelica/openapi/trelica-applications-api-openapi.yml
 - filename: trelica-assets-api-openapi.yml
   format: yaml
   label: Trelica Assets API
   slug: trelica-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-assets-api-openapi.yml
+  url: https://artifacts.apis.io/trelica/openapi/trelica-assets-api-openapi.yml
 - filename: trelica-audit-log-api-openapi.yml
   format: yaml
   label: Trelica Audit Log API
   slug: trelica-audit-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-audit-log-api-openapi.yml
+  url: https://artifacts.apis.io/trelica/openapi/trelica-audit-log-api-openapi.yml
 - filename: trelica-contracts-api-openapi.yml
   format: yaml
   label: Trelica Contracts API
   slug: trelica-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/trelica/openapi/trelica-contracts-api-openapi.yml
 - filename: trelica-people-api-openapi.yml
   format: yaml
   label: Trelica People API
   slug: trelica-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-people-api-openapi.yml
+  url: https://artifacts.apis.io/trelica/openapi/trelica-people-api-openapi.yml
 - filename: trelica-users-scim-api-openapi.yml
   format: yaml
   label: Trelica Users (SCIM) API
   slug: trelica-users-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-users-scim-api-openapi.yml
+  url: https://artifacts.apis.io/trelica/openapi/trelica-users-scim-api-openapi.yml
 - filename: trelica-workflows-api-openapi.yml
   format: yaml
   label: Trelica Workflows API
   slug: trelica-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/trelica/openapi/trelica-workflows-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -101,7 +101,7 @@ source_filename: trelica-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.trelica.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 25 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: trelica.gitbook.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 17:00:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.trelica.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 31 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: trelica.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 iodef \"mailto:mark.weaver@trelica.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: gitbook.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/security/trelica-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trelica/security/trelica-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Contract Management

@@ -5,25 +5,25 @@ api_specs:
   label: BetTip Draws API Gosloto API
   slug: bettip-draws-api-gosloto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bettip-draws-api/refs/heads/main/openapi/bettip-draws-api-gosloto-api-openapi.yml
+  url: https://artifacts.apis.io/bettip-draws-api/openapi/bettip-draws-api-gosloto-api-openapi.yml
 - filename: bettip-draws-api-lotto-api-openapi.yml
   format: yaml
   label: BetTip Draws API Lotto API
   slug: bettip-draws-api-lotto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bettip-draws-api/refs/heads/main/openapi/bettip-draws-api-lotto-api-openapi.yml
+  url: https://artifacts.apis.io/bettip-draws-api/openapi/bettip-draws-api-lotto-api-openapi.yml
 - filename: bettip-draws-api-uk49s-api-openapi.yml
   format: yaml
   label: BetTip Draws API Uk49s API
   slug: bettip-draws-api-uk49s-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bettip-draws-api/refs/heads/main/openapi/bettip-draws-api-uk49s-api-openapi.yml
+  url: https://artifacts.apis.io/bettip-draws-api/openapi/bettip-draws-api-uk49s-api-openapi.yml
 - filename: bettip-draws-api-world-api-openapi.yml
   format: yaml
   label: BetTip Draws API World API
   slug: bettip-draws-api-world-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bettip-draws-api/refs/heads/main/openapi/bettip-draws-api-world-api-openapi.yml
+  url: https://artifacts.apis.io/bettip-draws-api/openapi/bettip-draws-api-world-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: bettip-draws-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bettip.co.za\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 19 12:54:54 2026 GMT\n  hsts: false\ndomains:\n- domain: bettip.co.za\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bettip-draws-api/refs/heads/main/security/bettip-draws-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bettip-draws-api/security/bettip-draws-api-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Lottery results

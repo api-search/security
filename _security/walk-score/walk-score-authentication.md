@@ -8,25 +8,25 @@ api_specs:
   label: Walk Score Cities API
   slug: walk-score-cities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walk-score/refs/heads/main/openapi/walk-score-cities-api-openapi.yml
+  url: https://artifacts.apis.io/walk-score/openapi/walk-score-cities-api-openapi.yml
 - filename: walk-score-routes-api-openapi.yml
   format: yaml
   label: Walk Score Routes API
   slug: walk-score-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walk-score/refs/heads/main/openapi/walk-score-routes-api-openapi.yml
+  url: https://artifacts.apis.io/walk-score/openapi/walk-score-routes-api-openapi.yml
 - filename: walk-score-scores-api-openapi.yml
   format: yaml
   label: Walk Score Scores API
   slug: walk-score-scores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walk-score/refs/heads/main/openapi/walk-score-scores-api-openapi.yml
+  url: https://artifacts.apis.io/walk-score/openapi/walk-score-scores-api-openapi.yml
 - filename: walk-score-stops-api-openapi.yml
   format: yaml
   label: Walk Score Stops API
   slug: walk-score-stops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walk-score/refs/heads/main/openapi/walk-score-stops-api-openapi.yml
+  url: https://artifacts.apis.io/walk-score/openapi/walk-score-stops-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -55,7 +55,7 @@ source_filename: walk-score-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/walk-score-openapi.yml, openapi/walk-score-transit-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: wsapikey\n  description: Walk Score API key, contact Walk Score to obtain\n  sources:\n  - openapi/walk-score-openapi.yml\n  - openapi/walk-score-transit-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/walk-score/refs/heads/main/authentication/walk-score-authentication.yml
+source_yaml_url: https://artifacts.apis.io/walk-score/authentication/walk-score-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Walkability

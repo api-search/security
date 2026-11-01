@@ -5,37 +5,37 @@ api_specs:
   label: Apache Kylin Authentication API
   slug: apache-kylin-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/openapi/apache-kylin-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/apache-kylin/openapi/apache-kylin-authentication-api-openapi.yml
 - filename: apache-kylin-jobs-api-openapi.yml
   format: yaml
   label: Apache Kylin Jobs API
   slug: apache-kylin-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/openapi/apache-kylin-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/apache-kylin/openapi/apache-kylin-jobs-api-openapi.yml
 - filename: apache-kylin-models-api-openapi.yml
   format: yaml
   label: Apache Kylin Models API
   slug: apache-kylin-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/openapi/apache-kylin-models-api-openapi.yml
+  url: https://artifacts.apis.io/apache-kylin/openapi/apache-kylin-models-api-openapi.yml
 - filename: apache-kylin-projects-api-openapi.yml
   format: yaml
   label: Apache Kylin Projects API
   slug: apache-kylin-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/openapi/apache-kylin-projects-api-openapi.yml
+  url: https://artifacts.apis.io/apache-kylin/openapi/apache-kylin-projects-api-openapi.yml
 - filename: apache-kylin-query-api-openapi.yml
   format: yaml
   label: Apache Kylin Query API
   slug: apache-kylin-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/openapi/apache-kylin-query-api-openapi.yml
+  url: https://artifacts.apis.io/apache-kylin/openapi/apache-kylin-query-api-openapi.yml
 - filename: apache-kylin-tables-api-openapi.yml
   format: yaml
   label: Apache Kylin Tables API
   slug: apache-kylin-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/openapi/apache-kylin-tables-api-openapi.yml
+  url: https://artifacts.apis.io/apache-kylin/openapi/apache-kylin-tables-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -69,7 +69,7 @@ source_filename: apache-kylin-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: kylin.apache.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 23:33:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: apache.org\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 iodef \"mailto:root@apache.org\"\n  - 0 issue \"globalsign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/security/apache-kylin-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apache-kylin/security/apache-kylin-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics

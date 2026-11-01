@@ -5,55 +5,55 @@ api_specs:
   label: Moovit General API
   slug: moovit-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-general-api-openapi.yml
+  url: https://artifacts.apis.io/moovit/openapi/moovit-general-api-openapi.yml
 - filename: moovit-gtfsrealtime-api-openapi.yml
   format: yaml
   label: Moovit GTFSRealtime API
   slug: moovit-gtfsrealtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-gtfsrealtime-api-openapi.yml
+  url: https://artifacts.apis.io/moovit/openapi/moovit-gtfsrealtime-api-openapi.yml
 - filename: moovit-lines-api-openapi.yml
   format: yaml
   label: Moovit Lines API
   slug: moovit-lines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-lines-api-openapi.yml
+  url: https://artifacts.apis.io/moovit/openapi/moovit-lines-api-openapi.yml
 - filename: moovit-nearby-api-openapi.yml
   format: yaml
   label: Moovit Nearby API
   slug: moovit-nearby-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-nearby-api-openapi.yml
+  url: https://artifacts.apis.io/moovit/openapi/moovit-nearby-api-openapi.yml
 - filename: moovit-realtime-api-openapi.yml
   format: yaml
   label: Moovit RealTime API
   slug: moovit-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/moovit/openapi/moovit-realtime-api-openapi.yml
 - filename: moovit-search-api-openapi.yml
   format: yaml
   label: Moovit Search API
   slug: moovit-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-search-api-openapi.yml
+  url: https://artifacts.apis.io/moovit/openapi/moovit-search-api-openapi.yml
 - filename: moovit-stops-api-openapi.yml
   format: yaml
   label: Moovit Stops API
   slug: moovit-stops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-stops-api-openapi.yml
+  url: https://artifacts.apis.io/moovit/openapi/moovit-stops-api-openapi.yml
 - filename: moovit-service-alerts-api-openapi.yml
   format: yaml
   label: Moovit Service Alerts API
   slug: moovit-service-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-service-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/moovit/openapi/moovit-service-alerts-api-openapi.yml
 - filename: moovit-trip-plan-api-openapi.yml
   format: yaml
   label: Moovit Trip Plan API
   slug: moovit-trip-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-trip-plan-api-openapi.yml
+  url: https://artifacts.apis.io/moovit/openapi/moovit-trip-plan-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -99,7 +99,7 @@ source_filename: moovit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: moovit.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api-docs.moovit.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 23:59:59 2026 GMT\n  hsts: false\n- host: app5.moovitapp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: moovit.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: moovitapp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/security/moovit-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/moovit/security/moovit-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Transit

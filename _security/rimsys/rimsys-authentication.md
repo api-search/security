@@ -28,7 +28,7 @@ source_filename: rimsys-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://docs.rimsys.io/\ndocs: https://docs.rimsys.io/\nsummary:\n  types:\n  - http\n  api_key_in: []\n  oauth2_flows: []\n  notes: >-\n    The Rimsys developer portal (Theneo-hosted) documents API requests authenticated with a\n    bearer access token supplied in the HTTP Authorization header (Authorization: Bearer\n    <accessToken>). No public OpenAPI specification was available for mechanical derivation;\n    this profile is captured from the published documentation and code samples.\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: access_token\n  description: 'Bearer access token passed in the Authorization header, per the Rimsys developer\n    portal code samples (Authorization: Bearer ${accessToken}).'\n  sources:\n  - https://docs.rimsys.io/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rimsys/refs/heads/main/authentication/rimsys-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rimsys/authentication/rimsys-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

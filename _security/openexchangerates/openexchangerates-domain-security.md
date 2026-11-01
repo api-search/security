@@ -5,37 +5,37 @@ api_specs:
   label: Open Exchange Rates Convert API
   slug: openexchangerates-convert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openexchangerates/refs/heads/main/openapi/openexchangerates-convert-api-openapi.yml
+  url: https://artifacts.apis.io/openexchangerates/openapi/openexchangerates-convert-api-openapi.yml
 - filename: openexchangerates-currencies-api-openapi.yml
   format: yaml
   label: Open Exchange Rates Currencies API
   slug: openexchangerates-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openexchangerates/refs/heads/main/openapi/openexchangerates-currencies-api-openapi.yml
+  url: https://artifacts.apis.io/openexchangerates/openapi/openexchangerates-currencies-api-openapi.yml
 - filename: openexchangerates-ohlc-api-openapi.yml
   format: yaml
   label: Open Exchange Rates OHLC API
   slug: openexchangerates-ohlc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openexchangerates/refs/heads/main/openapi/openexchangerates-ohlc-api-openapi.yml
+  url: https://artifacts.apis.io/openexchangerates/openapi/openexchangerates-ohlc-api-openapi.yml
 - filename: openexchangerates-time-series-api-openapi.yml
   format: yaml
   label: Open Exchange Rates Time Series API
   slug: openexchangerates-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openexchangerates/refs/heads/main/openapi/openexchangerates-time-series-api-openapi.yml
+  url: https://artifacts.apis.io/openexchangerates/openapi/openexchangerates-time-series-api-openapi.yml
 - filename: openexchangerates-usage-api-openapi.yml
   format: yaml
   label: Open Exchange Rates Usage API
   slug: openexchangerates-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openexchangerates/refs/heads/main/openapi/openexchangerates-usage-api-openapi.yml
+  url: https://artifacts.apis.io/openexchangerates/openapi/openexchangerates-usage-api-openapi.yml
 - filename: openexchangerates-rates-api-openapi.yml
   format: yaml
   label: Open Exchange Rates API
   slug: openexchangerates-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openexchangerates/refs/heads/main/openapi/openexchangerates-rates-api-openapi.yml
+  url: https://artifacts.apis.io/openexchangerates/openapi/openexchangerates-rates-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +71,7 @@ source_filename: openexchangerates-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: openexchangerates.org\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 30 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: docs.openexchangerates.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 12:03:30 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: openexchangerates.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openexchangerates/refs/heads/main/security/openexchangerates-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/openexchangerates/security/openexchangerates-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Foreign Exchange

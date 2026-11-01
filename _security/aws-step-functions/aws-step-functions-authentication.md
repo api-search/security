@@ -8,49 +8,55 @@ api_specs:
   label: AWS Step Functions State Machines API
   slug: aws-step-functions-state-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/openapi/aws-step-functions-state-machines-api-openapi.yml
+  url: https://artifacts.apis.io/aws-step-functions/openapi/aws-step-functions-state-machines-api-openapi.yml
 - filename: aws-step-functions-aws-step-functions-api-openapi.yml
   format: yaml
   label: AWS Step Functions AWS Step Functions API
   slug: aws-step-functions-aws-step-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/openapi/aws-step-functions-aws-step-functions-api-openapi.yml
+  url: https://artifacts.apis.io/aws-step-functions/openapi/aws-step-functions-aws-step-functions-api-openapi.yml
 - filename: aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-createstat-api-openapi.yml
   format: yaml
   label: 'AWS Step Functions AWS Step Functions #X Amz Target=AWSStepFunctions.CreateStat… API'
   slug: aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-createstat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/openapi/aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-createstat-api-openapi.yml
+  url: https://artifacts.apis.io/aws-step-functions/openapi/aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-createstat-api-openapi.yml
 - filename: aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-deletestat-api-openapi.yml
   format: yaml
   label: 'AWS Step Functions AWS Step Functions #X Amz Target=AWSStepFunctions.DeleteStat… API'
   slug: aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-deletestat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/openapi/aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-deletestat-api-openapi.yml
+  url: https://artifacts.apis.io/aws-step-functions/openapi/aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-deletestat-api-openapi.yml
 - filename: aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-describest-api-openapi.yml
   format: yaml
   label: 'AWS Step Functions AWS Step Functions #X Amz Target=AWSStepFunctions.DescribeSt… API'
   slug: aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-describest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/openapi/aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-describest-api-openapi.yml
+  url: https://artifacts.apis.io/aws-step-functions/openapi/aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-describest-api-openapi.yml
 - filename: aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-liststatem-api-openapi.yml
   format: yaml
   label: 'AWS Step Functions AWS Step Functions #X Amz Target=AWSStepFunctions.ListStateM… API'
   slug: aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-liststatem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/openapi/aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-liststatem-api-openapi.yml
+  url: https://artifacts.apis.io/aws-step-functions/openapi/aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-liststatem-api-openapi.yml
 - filename: aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-publishsta-api-openapi.yml
   format: yaml
   label: 'AWS Step Functions AWS Step Functions #X Amz Target=AWSStepFunctions.PublishSta… API'
   slug: aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-publishsta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/openapi/aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-publishsta-api-openapi.yml
+  url: https://artifacts.apis.io/aws-step-functions/openapi/aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-publishsta-api-openapi.yml
 - filename: aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-updatestat-api-openapi.yml
   format: yaml
   label: 'AWS Step Functions AWS Step Functions #X Amz Target=AWSStepFunctions.UpdateStat… API'
   slug: aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-updatestat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/openapi/aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-updatestat-api-openapi.yml
+  url: https://artifacts.apis.io/aws-step-functions/openapi/aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-updatestat-api-openapi.yml
+- filename: aws-step-functions-operations-api-openapi.yml
+  format: yaml
+  label: AWS Step Functions Step Functions Operations API
+  slug: aws-step-functions-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-step-functions/openapi/aws-step-functions-operations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -78,7 +84,7 @@ source_filename: aws-step-functions-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/aws-step-functions-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/aws-step-functions-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/authentication/aws-step-functions-authentication.yml
+source_yaml_url: https://artifacts.apis.io/aws-step-functions/authentication/aws-step-functions-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - iPaaS

@@ -27,7 +27,7 @@ source_filename: 4r-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: 4rsystems.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 14:35:38 2026 GMT\n  hsts: false\ndomains:\n- domain: 4rsystems.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/4r/refs/heads/main/security/4r-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/4r/security/4r-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

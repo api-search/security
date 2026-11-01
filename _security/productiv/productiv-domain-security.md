@@ -5,67 +5,67 @@ api_specs:
   label: Productiv App Details API
   slug: productiv-app-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/productiv/refs/heads/main/openapi/productiv-app-details-api-openapi.yml
+  url: https://artifacts.apis.io/productiv/openapi/productiv-app-details-api-openapi.yml
 - filename: productiv-app-summaries-api-openapi.yml
   format: yaml
   label: Productiv App Summaries API
   slug: productiv-app-summaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/productiv/refs/heads/main/openapi/productiv-app-summaries-api-openapi.yml
+  url: https://artifacts.apis.io/productiv/openapi/productiv-app-summaries-api-openapi.yml
 - filename: productiv-applications-api-openapi.yml
   format: yaml
   label: Productiv Applications API
   slug: productiv-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/productiv/refs/heads/main/openapi/productiv-applications-api-openapi.yml
+  url: https://artifacts.apis.io/productiv/openapi/productiv-applications-api-openapi.yml
 - filename: productiv-audit-events-api-openapi.yml
   format: yaml
   label: Productiv Audit Events API
   slug: productiv-audit-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/productiv/refs/heads/main/openapi/productiv-audit-events-api-openapi.yml
+  url: https://artifacts.apis.io/productiv/openapi/productiv-audit-events-api-openapi.yml
 - filename: productiv-authentication-api-openapi.yml
   format: yaml
   label: Productiv Authentication API
   slug: productiv-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/productiv/refs/heads/main/openapi/productiv-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/productiv/openapi/productiv-authentication-api-openapi.yml
 - filename: productiv-batch-upload-api-openapi.yml
   format: yaml
   label: Productiv Batch Upload API
   slug: productiv-batch-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/productiv/refs/heads/main/openapi/productiv-batch-upload-api-openapi.yml
+  url: https://artifacts.apis.io/productiv/openapi/productiv-batch-upload-api-openapi.yml
 - filename: productiv-org-chart-api-openapi.yml
   format: yaml
   label: Productiv Org Chart API
   slug: productiv-org-chart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/productiv/refs/heads/main/openapi/productiv-org-chart-api-openapi.yml
+  url: https://artifacts.apis.io/productiv/openapi/productiv-org-chart-api-openapi.yml
 - filename: productiv-provisioned-users-api-openapi.yml
   format: yaml
   label: Productiv Provisioned Users API
   slug: productiv-provisioned-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/productiv/refs/heads/main/openapi/productiv-provisioned-users-api-openapi.yml
+  url: https://artifacts.apis.io/productiv/openapi/productiv-provisioned-users-api-openapi.yml
 - filename: productiv-provisioning-workflows-api-openapi.yml
   format: yaml
   label: Productiv Provisioning Workflows API
   slug: productiv-provisioning-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/productiv/refs/heads/main/openapi/productiv-provisioning-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/productiv/openapi/productiv-provisioning-workflows-api-openapi.yml
 - filename: productiv-spend-data-api-openapi.yml
   format: yaml
   label: Productiv Spend Data API
   slug: productiv-spend-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/productiv/refs/heads/main/openapi/productiv-spend-data-api-openapi.yml
+  url: https://artifacts.apis.io/productiv/openapi/productiv-spend-data-api-openapi.yml
 - filename: productiv-usage-events-api-openapi.yml
   format: yaml
   label: Productiv Usage Events API
   slug: productiv-usage-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/productiv/refs/heads/main/openapi/productiv-usage-events-api-openapi.yml
+  url: https://artifacts.apis.io/productiv/openapi/productiv-usage-events-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -104,7 +104,7 @@ source_filename: productiv-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.app.productiv.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  3 23:59:59 2027 GMT\n  hsts: false\n- host: public-api.productiv.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 23:59:59 2026 GMT\n  hsts: null\n- host: login.api.productiv.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 25 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: productiv.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/productiv/refs/heads/main/security/productiv-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/productiv/security/productiv-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Application Portfolio

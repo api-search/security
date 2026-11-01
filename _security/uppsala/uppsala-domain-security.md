@@ -5,43 +5,43 @@ api_specs:
   label: Uppsala University BattleDeaths API
   slug: uppsala-battledeaths-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/openapi/uppsala-battledeaths-api-openapi.yml
+  url: https://artifacts.apis.io/uppsala/openapi/uppsala-battledeaths-api-openapi.yml
 - filename: uppsala-dyadic-api-openapi.yml
   format: yaml
   label: Uppsala University Dyadic API
   slug: uppsala-dyadic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/openapi/uppsala-dyadic-api-openapi.yml
+  url: https://artifacts.apis.io/uppsala/openapi/uppsala-dyadic-api-openapi.yml
 - filename: uppsala-gedevents-api-openapi.yml
   format: yaml
   label: Uppsala University GEDEvents API
   slug: uppsala-gedevents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/openapi/uppsala-gedevents-api-openapi.yml
+  url: https://artifacts.apis.io/uppsala/openapi/uppsala-gedevents-api-openapi.yml
 - filename: uppsala-nonstate-api-openapi.yml
   format: yaml
   label: Uppsala University NonState API
   slug: uppsala-nonstate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/openapi/uppsala-nonstate-api-openapi.yml
+  url: https://artifacts.apis.io/uppsala/openapi/uppsala-nonstate-api-openapi.yml
 - filename: uppsala-onesided-api-openapi.yml
   format: yaml
   label: Uppsala University OneSided API
   slug: uppsala-onesided-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/openapi/uppsala-onesided-api-openapi.yml
+  url: https://artifacts.apis.io/uppsala/openapi/uppsala-onesided-api-openapi.yml
 - filename: uppsala-organizedviolencecy-api-openapi.yml
   format: yaml
   label: Uppsala University OrganizedViolenceCY API
   slug: uppsala-organizedviolencecy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/openapi/uppsala-organizedviolencecy-api-openapi.yml
+  url: https://artifacts.apis.io/uppsala/openapi/uppsala-organizedviolencecy-api-openapi.yml
 - filename: uppsala-ucdpprioconflict-api-openapi.yml
   format: yaml
   label: Uppsala University UcdpPrioConflict API
   slug: uppsala-ucdpprioconflict-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/openapi/uppsala-ucdpprioconflict-api-openapi.yml
+  url: https://artifacts.apis.io/uppsala/openapi/uppsala-ucdpprioconflict-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: uppsala-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.uu.se\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 02:18:39 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: ucdp.uu.se\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 10:50:19 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: ucdpapi.pcr.uu.se\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 10:45:11 2026 GMT\n  hsts: null\ndomains:\n- domain: uu.se\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/security/uppsala-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/uppsala/security/uppsala-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - University

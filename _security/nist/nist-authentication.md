@@ -8,19 +8,19 @@ api_specs:
   label: National Institute of Standards and Technology (NIST) Cves API
   slug: nist-cves-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nist/refs/heads/main/openapi/nist-cves-api-openapi.yml
+  url: https://artifacts.apis.io/nist/openapi/nist-cves-api-openapi.yml
 - filename: nist-cpe-api-openapi.yml
   format: yaml
   label: National Institute of Standards and Technology (NIST) CPE API
   slug: nist-cpe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nist/refs/heads/main/openapi/nist-cpe-api-openapi.yml
+  url: https://artifacts.apis.io/nist/openapi/nist-cpe-api-openapi.yml
 - filename: nist-cve-history-api-openapi.yml
   format: yaml
   label: National Institute of Standards and Technology (NIST) CVE History API
   slug: nist-cve-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nist/refs/heads/main/openapi/nist-cve-history-api-openapi.yml
+  url: https://artifacts.apis.io/nist/openapi/nist-cve-history-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: nist-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/nist-nvd-cve-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: apiKey\n  description: Optional API key obtained from https://nvd.nist.gov/developers/request-an-api-key.\n    Increases rate limits.\n  sources:\n  - openapi/nist-nvd-cve-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nist/refs/heads/main/authentication/nist-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nist/authentication/nist-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Cybersecurity

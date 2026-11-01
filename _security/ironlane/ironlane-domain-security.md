@@ -26,11 +26,11 @@ source_filename: ironlane-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ironlane.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 29 08:28:56 2026 GMT\n  hsts: false\ndomains:\n- domain: ironlane.ai\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ironlane/refs/heads/main/security/ironlane-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ironlane/security/ironlane-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Inference
 - Routing
 - Platform

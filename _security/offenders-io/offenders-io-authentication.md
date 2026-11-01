@@ -8,7 +8,7 @@ api_specs:
   label: Offenders.io Search API
   slug: offenders-io-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/offenders-io/refs/heads/main/openapi/offenders-io-search-api-openapi.yml
+  url: https://artifacts.apis.io/offenders-io/openapi/offenders-io-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -35,7 +35,7 @@ source_filename: offenders-io-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/offenders-io-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyQuery\n  type: apiKey\n  in: query\n  parameter: key\n  sources:\n  - openapi/offenders-io-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/offenders-io/refs/heads/main/authentication/offenders-io-authentication.yml
+source_yaml_url: https://artifacts.apis.io/offenders-io/authentication/offenders-io-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Sex Offenders

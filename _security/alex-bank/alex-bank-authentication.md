@@ -7,43 +7,43 @@ api_specs:
   label: Alex Bank Banking Account Balances API
   slug: alex-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/openapi/alex-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/alex-bank/openapi/alex-bank-banking-account-balances-api-openapi.yml
 - filename: alex-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Alex Bank Banking Account Direct Debits API
   slug: alex-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/openapi/alex-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/alex-bank/openapi/alex-bank-banking-account-direct-debits-api-openapi.yml
 - filename: alex-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Alex Bank Banking Account Scheduled Payments API
   slug: alex-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/openapi/alex-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/alex-bank/openapi/alex-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: alex-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Alex Bank Banking Account Transactions API
   slug: alex-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/openapi/alex-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/alex-bank/openapi/alex-bank-banking-account-transactions-api-openapi.yml
 - filename: alex-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Alex Bank Banking Accounts API
   slug: alex-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/openapi/alex-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/alex-bank/openapi/alex-bank-banking-accounts-api-openapi.yml
 - filename: alex-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Alex Bank Banking Payees API
   slug: alex-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/openapi/alex-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/alex-bank/openapi/alex-bank-banking-payees-api-openapi.yml
 - filename: alex-bank-banking-products-api-openapi.yml
   format: yaml
   label: Alex Bank Banking Products API
   slug: alex-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/openapi/alex-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/alex-bank/openapi/alex-bank-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -110,7 +110,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://public.cdr.alex.com.au/.well-known/openid-configuration\ndocs: https://www.alex.bank/legal/open-banking/\nsummary:\n  types: [none, oauth2, openIdConnect, mutualTLS]\n  api_key_in: []\n  oauth2_flows: [authorizationCode, clientCredentials, refreshToken]\n  note: >-\n    Two-tier auth. (1) The public CDR Product Reference Data endpoints\n    (GET /banking/products, GET /banking/products/{productId}) are UNAUTHENTICATED\n    by design under the Consumer Data Standards - no key, token or client cert.\n    (2) All consumer-data sharing (accounts, balances, transactions, payees, direct\n    debits, scheduled payments) is gated by the CDR FAPI security profile and is\n    reachable only by ACCC-accredited data recipients.\ntiers:\n- name: Product Reference Data (public)\n  auth: none\n  scheme: none\n  applies_to:\n  - listBankingProducts\n  - getBankingProductDetail\n  base_url: https://public.cdr.alex.com.au/cds-au/v1\n\
   - name: CDR Consumer Data Sharing (accredited data recipients only)\n  auth: FAPI 2.0 / CDR security profile\n  applies_to: all authenticated banking resources\nschemes:\n- name: CDR-OAuth2-OIDC\n  type: openIdConnect\n  openIdConnectUrl: https://public.cdr.alex.com.au/.well-known/openid-configuration\n  issuer: https://public.cdr.alex.com.au\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://public.cdr.alex.com.au/connect/authorize\n    tokenUrl: https://secure.cdr.alex.com.au/connect/token\n  - flow: clientCredentials\n    tokenUrl: https://secure.cdr.alex.com.au/connect/token\n  endpoints:\n    pushed_authorization_request: https://secure.cdr.alex.com.au/connect/par\n    introspection: https://secure.cdr.alex.com.au/connect/introspect\n    revocation: https://secure.cdr.alex.com.au/arrangements/revoke\n    userinfo: https://secure.cdr.alex.com.au/userinfo\n    registration: https://secure.cdr.alex.com.au/connect/register\n    jwks: https://public.cdr.alex.com.au/jwks\n\
   \    cdr_arrangement_revocation: https://secure.cdr.alex.com.au/arrangements/revoke\n  fapi_profile:\n    token_endpoint_auth: private_key_jwt\n    mtls_sender_constrained_tokens: true\n    pushed_authorization_requests: required\n    pkce: S256\n    request_object_signing_alg: [PS256]\n    id_token_signing_alg: [ES256]\n    response_modes: [jwt]\n    acr_values: [urn:cds.au:cdr:2]\n  sources: [https://public.cdr.alex.com.au/.well-known/openid-configuration]\n- name: CDR-mTLS\n  type: mutualTLS\n  note: >-\n    Sender-constrained (mTLS-bound) access tokens per FAPI; token endpoint and all\n    resource calls run over the CDR mTLS host. tls_client_certificate_bound_access_tokens=true.\n  sources: [https://public.cdr.alex.com.au/.well-known/openid-configuration]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/authentication/alex-bank-authentication.yml
+source_yaml_url: https://artifacts.apis.io/alex-bank/authentication/alex-bank-authentication.yml
 summary_line: none/oauth2/openIdConnect/mutualTLS · 2 schemes
 tags:
 - Finance

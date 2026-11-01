@@ -5,7 +5,7 @@ api_specs:
   label: ContextGem Systemone API
   slug: contextgem-systemone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextgem/refs/heads/main/openapi/contextgem-systemone-api-openapi.yml
+  url: https://artifacts.apis.io/contextgem/openapi/contextgem-systemone-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -34,7 +34,7 @@ source_filename: contextgem-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-16'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: contextgem.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 12 20:55:26 2027 GMT\n  hsts: false\ndomains:\n- domain: contextgem.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contextgem/refs/heads/main/security/contextgem-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/contextgem/security/contextgem-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Artificial Intelligence

@@ -8,37 +8,37 @@ api_specs:
   label: Edgee Compress API
   slug: edgee-compress-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/openapi/edgee-compress-api-openapi.yml
+  url: https://artifacts.apis.io/edgee/openapi/edgee-compress-api-openapi.yml
 - filename: edgee-messages-api-openapi.yml
   format: yaml
   label: Edgee Messages API
   slug: edgee-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/openapi/edgee-messages-api-openapi.yml
+  url: https://artifacts.apis.io/edgee/openapi/edgee-messages-api-openapi.yml
 - filename: edgee-models-api-openapi.yml
   format: yaml
   label: Edgee Models API
   slug: edgee-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/openapi/edgee-models-api-openapi.yml
+  url: https://artifacts.apis.io/edgee/openapi/edgee-models-api-openapi.yml
 - filename: edgee-responses-api-openapi.yml
   format: yaml
   label: Edgee Responses API
   slug: edgee-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/openapi/edgee-responses-api-openapi.yml
+  url: https://artifacts.apis.io/edgee/openapi/edgee-responses-api-openapi.yml
 - filename: edgee-tokens-api-openapi.yml
   format: yaml
   label: Edgee Tokens API
   slug: edgee-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/openapi/edgee-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/edgee/openapi/edgee-tokens-api-openapi.yml
 - filename: edgee-chat-completions-api-openapi.yml
   format: yaml
   label: Edgee Chat Completions API
   slug: edgee-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/openapi/edgee-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/edgee/openapi/edgee-chat-completions-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-08-17'\nmethod: searched\nsource: openapi/edgee-o
   \ in the Edgee Console under API Keys. Displayed once at\n    creation and not retrievable afterwards. Observed token prefix in the docs examples: ek_live_.'\n  applies_to: https://api.edgee.app\n  sources:\n  - https://www.edgee.ai/docs/api-reference/console-api-setup\n  in_openapi: false\n  env_var: EDGEE_CONSOLE_API_TOKEN\n  failure_modes:\n  - {status: 401, body: '{\"error\": \"Unauthorized\", \"message\": \"Invalid or expired API token\"}'}\n  - {status: 403, body: '{\"error\": \"Forbidden\", \"message\": \"Your token does not have permission to\n        access this resource\"}'}\nkey_management:\n  console: https://www.edgee.ai/docs/quickstart/api-key\n  capabilities: [view tokens and creation dates, revoke immediately, rotate, monitor per-token usage]\n  api: https://www.edgee.ai/docs/api-reference/console-api-manage-gateway-api-keys\n  api_note: Gateway API keys can be created, listed, updated and deleted over the Console API.\n  scoping:\n  - {control: model and provider access,\
   \ source: 'https://www.edgee.ai/docs/features/model-access',\n    note: Which models and providers an organization may route to.}\n  - {control: usage limits, source: 'https://www.edgee.ai/docs/features/usage-limits', note: Spend\n      caps per key, per member or per squad over a daily, monthly or lifetime window.}\n  - {control: expiry, note: 'Keys can expire; an expired or inactive key returns 403 forbidden.'}\noauth:\n  api_oauth: false\n  cli_oauth: true\n  note: '`edgee auth login` opens a browser for OAuth-based login and writes credentials to\n    ~/.config/edgee/credentials.toml (mode 600). No authorization-server metadata is published —\n    /.well-known/oauth-authorization-server returns 404 on every Edgee host — so there is no\n    documented scope surface and no scopes/ artifact is emitted.'\nsso:\n  available: true\n  tier: Enterprise\n  methods: [SSO, SAML]\n  source: https://www.edgee.ai/pricing\nenv_vars:\n- {name: EDGEE_API_KEY, scope: gateway SDKs, source: 'https://www.edgee.ai/docs/sdk'}\n\
   - {name: EDGEE_CONSOLE_API_TOKEN, scope: Console API, source: 'https://www.edgee.ai/docs/api-reference/console-api-setup'}\n- {name: EDGEE_TOKEN, scope: legacy stdio MCP server, source: 'https://github.com/edgee-ai/mcp-server-edgee'}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/authentication/edgee-authentication.yml
+source_yaml_url: https://artifacts.apis.io/edgee/authentication/edgee-authentication.yml
 summary_line: apiKey/http · 5 schemes
 tags:
 - Company

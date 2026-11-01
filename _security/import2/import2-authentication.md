@@ -7,13 +7,13 @@ api_specs:
   label: Import2 Imports API
   slug: import2-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/import2/refs/heads/main/openapi/import2-imports-api-openapi.yml
+  url: https://artifacts.apis.io/import2/openapi/import2-imports-api-openapi.yml
 - filename: import2-tools-api-openapi.yml
   format: yaml
   label: Import2 Tools API
   slug: import2-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/import2/refs/heads/main/openapi/import2-tools-api-openapi.yml
+  url: https://artifacts.apis.io/import2/openapi/import2-tools-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: import2-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/import2-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: 'HTTP Basic Authentication. Supply the API token as the username and any value\n    (e.g. \"X\") as the password. Example: curl -u <api_token>:X.'\n  sources:\n  - openapi/import2-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/import2/refs/heads/main/authentication/import2-authentication.yml
+source_yaml_url: https://artifacts.apis.io/import2/authentication/import2-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

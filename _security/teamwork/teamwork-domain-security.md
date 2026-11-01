@@ -5,19 +5,19 @@ api_specs:
   label: Teamwork.com Activity API
   slug: teamwork-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamwork/refs/heads/main/openapi/teamwork-activity-api-openapi.yml
+  url: https://artifacts.apis.io/teamwork/openapi/teamwork-activity-api-openapi.yml
 - filename: teamwork-projects-api-openapi.yml
   format: yaml
   label: Teamwork.com Projects API
   slug: teamwork-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamwork/refs/heads/main/openapi/teamwork-projects-api-openapi.yml
+  url: https://artifacts.apis.io/teamwork/openapi/teamwork-projects-api-openapi.yml
 - filename: teamwork-tasks-api-openapi.yml
   format: yaml
   label: Teamwork.com Tasks API
   slug: teamwork-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamwork/refs/heads/main/openapi/teamwork-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/teamwork/openapi/teamwork-tasks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -59,7 +59,7 @@ source_filename: teamwork-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.teamwork.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 11 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apidocs.teamwork.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 16:28:12 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: teamwork.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teamwork/refs/heads/main/security/teamwork-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/teamwork/security/teamwork-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Project Management

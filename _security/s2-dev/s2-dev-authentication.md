@@ -7,37 +7,37 @@ api_specs:
   label: S2 Dev Access Tokens API
   slug: s2-dev-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-access-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/s2-dev/openapi/s2-dev-access-tokens-api-openapi.yml
 - filename: s2-dev-basins-api-openapi.yml
   format: yaml
   label: S2 Dev Basins API
   slug: s2-dev-basins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-basins-api-openapi.yml
+  url: https://artifacts.apis.io/s2-dev/openapi/s2-dev-basins-api-openapi.yml
 - filename: s2-dev-locations-api-openapi.yml
   format: yaml
   label: S2 Dev Locations API
   slug: s2-dev-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-locations-api-openapi.yml
+  url: https://artifacts.apis.io/s2-dev/openapi/s2-dev-locations-api-openapi.yml
 - filename: s2-dev-metrics-api-openapi.yml
   format: yaml
   label: S2 Dev Metrics API
   slug: s2-dev-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/s2-dev/openapi/s2-dev-metrics-api-openapi.yml
 - filename: s2-dev-records-api-openapi.yml
   format: yaml
   label: S2 Dev Records API
   slug: s2-dev-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-records-api-openapi.yml
+  url: https://artifacts.apis.io/s2-dev/openapi/s2-dev-records-api-openapi.yml
 - filename: s2-dev-streams-api-openapi.yml
   format: yaml
   label: S2 Dev Streams API
   slug: s2-dev-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-streams-api-openapi.yml
+  url: https://artifacts.apis.io/s2-dev/openapi/s2-dev-streams-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -65,7 +65,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/s2-dev-openapi-original.json\ndocs: https://s2.dev/docs/interface/rest\nsummary:\n  types:\n  - http\n  http_schemes:\n  - bearer\nschemes:\n- name: access_token\n  type: http\n  scheme: bearer\n  description: >-\n    Bearer authentication header of the form `Authorization: Bearer <token>`,\n    where <token> is a scoped S2 access token. SDKs read S2_ACCESS_TOKEN from\n    the environment. First use of a token on a connection adds tens of ms for\n    verification.\n  sources:\n  - openapi/s2-dev-openapi-original.json\ncapability_model:\n  description: >-\n    S2 access tokens are capability tokens, not OAuth2. A token carries an\n    AccessTokenScope constraining WHICH resources and WHICH operations it can\n    perform. There is no OAuth2 authorization/token flow and therefore no\n    scopes/ artifact.\n  scope_dimensions:\n    resource_sets: [basins, streams, access_tokens]\n    operation_groups:\n      account: [read,\
   \ write]\n      basin: [read, write]\n      stream: [read, write]\n    auto_prefix_streams: >-\n      Namespaces streams to a configured prefix; stream names are auto-prefixed\n      and the prefix is stripped on listing.\n    expiry: Optional expires_at (RFC 3339).\n  issue_operation: issue_access_token (POST /access-tokens)\n  revoke_operation: revoke_access_token (DELETE /access-tokens/{id})\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/authentication/s2-dev-authentication.yml
+source_yaml_url: https://artifacts.apis.io/s2-dev/authentication/s2-dev-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

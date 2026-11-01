@@ -28,7 +28,7 @@ source_filename: genesis-energy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.genesisenergy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  7 11:29:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: genesisenergy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/genesis-energy/refs/heads/main/security/genesis-energy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/genesis-energy/security/genesis-energy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Energy

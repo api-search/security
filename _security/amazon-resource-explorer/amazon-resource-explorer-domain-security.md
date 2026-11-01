@@ -5,31 +5,37 @@ api_specs:
   label: Amazon Resource Explorer Index API
   slug: amazon-resource-explorer-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/openapi/amazon-resource-explorer-index-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-resource-explorer/openapi/amazon-resource-explorer-index-api-openapi.yml
 - filename: amazon-resource-explorer-resources-api-openapi.yml
   format: yaml
   label: Amazon Resource Explorer Resources API
   slug: amazon-resource-explorer-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/openapi/amazon-resource-explorer-resources-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-resource-explorer/openapi/amazon-resource-explorer-resources-api-openapi.yml
 - filename: amazon-resource-explorer-search-api-openapi.yml
   format: yaml
   label: Amazon Resource Explorer Search API
   slug: amazon-resource-explorer-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/openapi/amazon-resource-explorer-search-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-resource-explorer/openapi/amazon-resource-explorer-search-api-openapi.yml
 - filename: amazon-resource-explorer-tags-api-openapi.yml
   format: yaml
   label: Amazon Resource Explorer Tags API
   slug: amazon-resource-explorer-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/openapi/amazon-resource-explorer-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-resource-explorer/openapi/amazon-resource-explorer-tags-api-openapi.yml
 - filename: amazon-resource-explorer-views-api-openapi.yml
   format: yaml
   label: Amazon Resource Explorer Views API
   slug: amazon-resource-explorer-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/openapi/amazon-resource-explorer-views-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-resource-explorer/openapi/amazon-resource-explorer-views-api-openapi.yml
+- filename: amazon-resource-explorer-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Resource Explorer Resource Explorer Operations API
+  slug: amazon-resource-explorer-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-resource-explorer/openapi/amazon-resource-explorer-operations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -72,7 +78,7 @@ source_filename: amazon-resource-explorer-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: console.aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  3 23:59:59 2026 GMT\n  hsts: null\n- host: resource-explorer-2.amazonaws.com\n  https: false\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/security/amazon-resource-explorer-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amazon-resource-explorer/security/amazon-resource-explorer-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Discovery

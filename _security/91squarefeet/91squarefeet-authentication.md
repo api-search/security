@@ -27,7 +27,7 @@ source_filename: 91squarefeet-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: derived\nsource: openapi/91squarefeet-content-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: applicationPassword\n  type: http\n  scheme: basic\n  description: 'WordPress Application Passwords (HTTP Basic). Required only for write operations\n    and the authenticated namespaces, which are not described in this document. Authorization\n    endpoint: https://91squarefeet.com/wp-admin/authorize-application.php'\n  sources:\n  - openapi/91squarefeet-content-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/91squarefeet/refs/heads/main/authentication/91squarefeet-authentication.yml
+source_yaml_url: https://artifacts.apis.io/91squarefeet/authentication/91squarefeet-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

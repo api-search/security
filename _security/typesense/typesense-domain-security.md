@@ -5,37 +5,37 @@ api_specs:
   label: Typesense Analytics Events API
   slug: typesense-analytics-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typesense/refs/heads/main/openapi/typesense-analytics-events-api-openapi.yml
+  url: https://artifacts.apis.io/typesense/openapi/typesense-analytics-events-api-openapi.yml
 - filename: typesense-analytics-operations-api-openapi.yml
   format: yaml
   label: Typesense Analytics Operations API
   slug: typesense-analytics-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typesense/refs/heads/main/openapi/typesense-analytics-operations-api-openapi.yml
+  url: https://artifacts.apis.io/typesense/openapi/typesense-analytics-operations-api-openapi.yml
 - filename: typesense-analytics-rules-api-openapi.yml
   format: yaml
   label: Typesense Analytics Rules API
   slug: typesense-analytics-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typesense/refs/heads/main/openapi/typesense-analytics-rules-api-openapi.yml
+  url: https://artifacts.apis.io/typesense/openapi/typesense-analytics-rules-api-openapi.yml
 - filename: typesense-cluster-management-api-openapi.yml
   format: yaml
   label: Typesense Cluster Management API
   slug: typesense-cluster-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typesense/refs/heads/main/openapi/typesense-cluster-management-api-openapi.yml
+  url: https://artifacts.apis.io/typesense/openapi/typesense-cluster-management-api-openapi.yml
 - filename: typesense-configuration-changes-api-openapi.yml
   format: yaml
   label: Typesense Configuration Changes API
   slug: typesense-configuration-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typesense/refs/heads/main/openapi/typesense-configuration-changes-api-openapi.yml
+  url: https://artifacts.apis.io/typesense/openapi/typesense-configuration-changes-api-openapi.yml
 - filename: typesense-server-configuration-parameters-api-openapi.yml
   format: yaml
   label: Typesense Server Configuration Parameters API
   slug: typesense-server-configuration-parameters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typesense/refs/heads/main/openapi/typesense-server-configuration-parameters-api-openapi.yml
+  url: https://artifacts.apis.io/typesense/openapi/typesense-server-configuration-parameters-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: typesense-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: typesense.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 23:59:59 2026 GMT\n  hsts: false\n- host: cloud.typesense.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 18 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: typesense.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/typesense/refs/heads/main/security/typesense-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/typesense/security/typesense-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Full-Text Search

@@ -5,49 +5,49 @@ api_specs:
   label: Strava Activities API
   slug: strava-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-activities-api-openapi.yml
+  url: https://artifacts.apis.io/strava/openapi/strava-activities-api-openapi.yml
 - filename: strava-athletes-api-openapi.yml
   format: yaml
   label: Strava Athletes API
   slug: strava-athletes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-athletes-api-openapi.yml
+  url: https://artifacts.apis.io/strava/openapi/strava-athletes-api-openapi.yml
 - filename: strava-clubs-api-openapi.yml
   format: yaml
   label: Strava Clubs API
   slug: strava-clubs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-clubs-api-openapi.yml
+  url: https://artifacts.apis.io/strava/openapi/strava-clubs-api-openapi.yml
 - filename: strava-gear-api-openapi.yml
   format: yaml
   label: Strava Gear API
   slug: strava-gear-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-gear-api-openapi.yml
+  url: https://artifacts.apis.io/strava/openapi/strava-gear-api-openapi.yml
 - filename: strava-routes-api-openapi.yml
   format: yaml
   label: Strava Routes API
   slug: strava-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-routes-api-openapi.yml
+  url: https://artifacts.apis.io/strava/openapi/strava-routes-api-openapi.yml
 - filename: strava-segment-efforts-api-openapi.yml
   format: yaml
   label: Strava Segment Efforts API
   slug: strava-segment-efforts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-segment-efforts-api-openapi.yml
+  url: https://artifacts.apis.io/strava/openapi/strava-segment-efforts-api-openapi.yml
 - filename: strava-segments-api-openapi.yml
   format: yaml
   label: Strava Segments API
   slug: strava-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-segments-api-openapi.yml
+  url: https://artifacts.apis.io/strava/openapi/strava-segments-api-openapi.yml
 - filename: strava-streams-api-openapi.yml
   format: yaml
   label: Strava Streams API
   slug: strava-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-streams-api-openapi.yml
+  url: https://artifacts.apis.io/strava/openapi/strava-streams-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,7 +81,7 @@ source_filename: strava-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.strava.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 13:15:48 2026 GMT\n  hsts: false\n- host: developers.strava.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 23 13:15:48 2026 GMT\n  hsts: false\ndomains:\n- domain: strava.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/security/strava-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/strava/security/strava-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Cycling

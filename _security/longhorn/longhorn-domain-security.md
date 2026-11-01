@@ -5,55 +5,55 @@ api_specs:
   label: Longhorn BackingImages API
   slug: longhorn-backingimages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/openapi/longhorn-backingimages-api-openapi.yml
+  url: https://artifacts.apis.io/longhorn/openapi/longhorn-backingimages-api-openapi.yml
 - filename: longhorn-backups-api-openapi.yml
   format: yaml
   label: Longhorn Backups API
   slug: longhorn-backups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/openapi/longhorn-backups-api-openapi.yml
+  url: https://artifacts.apis.io/longhorn/openapi/longhorn-backups-api-openapi.yml
 - filename: longhorn-engineimages-api-openapi.yml
   format: yaml
   label: Longhorn EngineImages API
   slug: longhorn-engineimages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/openapi/longhorn-engineimages-api-openapi.yml
+  url: https://artifacts.apis.io/longhorn/openapi/longhorn-engineimages-api-openapi.yml
 - filename: longhorn-nodes-api-openapi.yml
   format: yaml
   label: Longhorn Nodes API
   slug: longhorn-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/openapi/longhorn-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/longhorn/openapi/longhorn-nodes-api-openapi.yml
 - filename: longhorn-recurringjobs-api-openapi.yml
   format: yaml
   label: Longhorn RecurringJobs API
   slug: longhorn-recurringjobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/openapi/longhorn-recurringjobs-api-openapi.yml
+  url: https://artifacts.apis.io/longhorn/openapi/longhorn-recurringjobs-api-openapi.yml
 - filename: longhorn-settings-api-openapi.yml
   format: yaml
   label: Longhorn Settings API
   slug: longhorn-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/openapi/longhorn-settings-api-openapi.yml
+  url: https://artifacts.apis.io/longhorn/openapi/longhorn-settings-api-openapi.yml
 - filename: longhorn-snapshots-api-openapi.yml
   format: yaml
   label: Longhorn Snapshots API
   slug: longhorn-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/openapi/longhorn-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/longhorn/openapi/longhorn-snapshots-api-openapi.yml
 - filename: longhorn-systembackups-api-openapi.yml
   format: yaml
   label: Longhorn SystemBackups API
   slug: longhorn-systembackups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/openapi/longhorn-systembackups-api-openapi.yml
+  url: https://artifacts.apis.io/longhorn/openapi/longhorn-systembackups-api-openapi.yml
 - filename: longhorn-volumes-api-openapi.yml
   format: yaml
   label: Longhorn Volumes API
   slug: longhorn-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/openapi/longhorn-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/longhorn/openapi/longhorn-volumes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: longhorn-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: longhorn.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 16:21:04 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: longhorn.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/security/longhorn-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/longhorn/security/longhorn-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Backup

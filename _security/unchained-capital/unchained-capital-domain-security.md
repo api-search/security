@@ -51,7 +51,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.unchained.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 17:38:16 2026 GMT\n  hsts: false\n  role: marketing site\n- host: my.unchained.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 18:48:19 2026 GMT\n  hsts: true\n  hsts_max_age: 0\n  role: client application (login/sign-up)\n  note: Strict-Transport-Security present but max-age=0, which disables HSTS.\n- host: help.unchained.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 23:13:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  role: knowledge base (HubSpot-hosted)\n- host: status.unchained.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 17:49:19 2026 GMT\n  hsts: true\n  hsts_max_age: 63113904\n  role: status page (Better Stack) — SSO-gated, redirects to /sso; not public\ndomains:\n- domain: unchained.com\n  dnssec: true\n\
   \  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unchained-capital/refs/heads/main/security/unchained-capital-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/unchained-capital/security/unchained-capital-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

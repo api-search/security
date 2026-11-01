@@ -27,7 +27,7 @@ source_filename: yetcargo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: yetcargo.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 23 10:28:52 2026 GMT\n  hsts: false\ndomains:\n- domain: yetcargo.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yetcargo/refs/heads/main/security/yetcargo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/yetcargo/security/yetcargo-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

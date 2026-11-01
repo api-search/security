@@ -7,25 +7,25 @@ api_specs:
   label: Trioptima Cycles API
   slug: trioptima-cycles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trioptima/refs/heads/main/openapi/trioptima-cycles-api-openapi.yml
+  url: https://artifacts.apis.io/trioptima/openapi/trioptima-cycles-api-openapi.yml
 - filename: trioptima-results-api-openapi.yml
   format: yaml
   label: Trioptima Results API
   slug: trioptima-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trioptima/refs/heads/main/openapi/trioptima-results-api-openapi.yml
+  url: https://artifacts.apis.io/trioptima/openapi/trioptima-results-api-openapi.yml
 - filename: trioptima-risk-api-openapi.yml
   format: yaml
   label: Trioptima Risk API
   slug: trioptima-risk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trioptima/refs/heads/main/openapi/trioptima-risk-api-openapi.yml
+  url: https://artifacts.apis.io/trioptima/openapi/trioptima-risk-api-openapi.yml
 - filename: trioptima-trades-api-openapi.yml
   format: yaml
   label: Trioptima Trades API
   slug: trioptima-trades-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trioptima/refs/heads/main/openapi/trioptima-trades-api-openapi.yml
+  url: https://artifacts.apis.io/trioptima/openapi/trioptima-trades-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -55,7 +55,7 @@ source_filename: trioptima-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/trioptima-trireduce-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.trireduce.com/oauth/token\n    scopes: 2\n  sources:\n  - openapi/trioptima-trireduce-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trioptima/refs/heads/main/authentication/trioptima-authentication.yml
+source_yaml_url: https://artifacts.apis.io/trioptima/authentication/trioptima-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - CME Group

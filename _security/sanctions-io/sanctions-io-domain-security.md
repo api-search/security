@@ -5,37 +5,37 @@ api_specs:
   label: sanctions.io Account Management API
   slug: sanctions-io-account-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/openapi/sanctions-io-account-management-api-openapi.yml
+  url: https://artifacts.apis.io/sanctions-io/openapi/sanctions-io-account-management-api-openapi.yml
 - filename: sanctions-io-adverse-media-api-openapi.yml
   format: yaml
   label: sanctions.io Adverse Media API
   slug: sanctions-io-adverse-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/openapi/sanctions-io-adverse-media-api-openapi.yml
+  url: https://artifacts.apis.io/sanctions-io/openapi/sanctions-io-adverse-media-api-openapi.yml
 - filename: sanctions-io-batch-screening-api-openapi.yml
   format: yaml
   label: sanctions.io Batch Screening API
   slug: sanctions-io-batch-screening-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/openapi/sanctions-io-batch-screening-api-openapi.yml
+  url: https://artifacts.apis.io/sanctions-io/openapi/sanctions-io-batch-screening-api-openapi.yml
 - filename: sanctions-io-data-sources-api-openapi.yml
   format: yaml
   label: sanctions.io Data Sources API
   slug: sanctions-io-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/openapi/sanctions-io-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/sanctions-io/openapi/sanctions-io-data-sources-api-openapi.yml
 - filename: sanctions-io-monitoring-api-openapi.yml
   format: yaml
   label: sanctions.io Monitoring API
   slug: sanctions-io-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/openapi/sanctions-io-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/sanctions-io/openapi/sanctions-io-monitoring-api-openapi.yml
 - filename: sanctions-io-screening-api-openapi.yml
   format: yaml
   label: sanctions.io Screening API
   slug: sanctions-io-screening-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/openapi/sanctions-io-screening-api-openapi.yml
+  url: https://artifacts.apis.io/sanctions-io/openapi/sanctions-io-screening-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -80,7 +80,7 @@ source_filename: sanctions-io-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sanctions.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 05:17:41 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api-docs.sanctions.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 17:51:34 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.sanctions.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 23 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 86400\ndomains:\n- domain: sanctions.io\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/security/sanctions-io-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sanctions-io/security/sanctions-io-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AML

@@ -8,25 +8,25 @@ api_specs:
   label: América Móvil Check SIM swap API
   slug: america-movil-check-sim-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/openapi/america-movil-check-sim-swap-api-openapi.yml
+  url: https://artifacts.apis.io/america-movil/openapi/america-movil-check-sim-swap-api-openapi.yml
 - filename: america-movil-device-locations-api-openapi.yml
   format: yaml
   label: América Móvil Device Locations API
   slug: america-movil-device-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/openapi/america-movil-device-locations-api-openapi.yml
+  url: https://artifacts.apis.io/america-movil/openapi/america-movil-device-locations-api-openapi.yml
 - filename: america-movil-location-verification-api-openapi.yml
   format: yaml
   label: América Móvil Location verification API
   slug: america-movil-location-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/openapi/america-movil-location-verification-api-openapi.yml
+  url: https://artifacts.apis.io/america-movil/openapi/america-movil-location-verification-api-openapi.yml
 - filename: america-movil-retrieve-sim-swap-date-api-openapi.yml
   format: yaml
   label: América Móvil Retrieve SIM swap date API
   slug: america-movil-retrieve-sim-swap-date-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/openapi/america-movil-retrieve-sim-swap-date-api-openapi.yml
+  url: https://artifacts.apis.io/america-movil/openapi/america-movil-retrieve-sim-swap-date-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-25'\nmethod: searched\nsource: >-\n  openapi/a
   \ in the estate.\nsummary:\n  types: [apiKey, http, oauth2]\n  api_key_in: [header]\n  oauth2_flows: [clientCredentials]\n  three_legged: false\n  ciba: false\n  mtls: false\n  openid_connect: false\ntoken_endpoint:\n  url: https://api.claro.com.br/oauth2/v1/token\n  probe_status: 401\n  grant_type: client_credentials\n  request_content_type: application/x-www-form-urlencoded\n  credential_transport:\n  - 'Authorization: Basic base64(client_id:client_secret)'\n  - 'x-client-auth: Basic base64(client_id:client_secret)'\n  response_field: access_token\n  metadata_document: none (no RFC 8414 / OIDC discovery — see well-known/america-movil-well-known.yml)\ncredential_issuance:\n  self_serve: false\n  process: >-\n    Register at https://www.claroinsight.com.br/user/register, log in, request the\n    API from the catalog, and receive client_id/client_secret once the request is\n    approved. Credentials, endpoints and Swagger downloads are all behind the login.\n  ip_filtering: >-\n    The\
   \ gateway documents 403 for source IPs without permission, so allow-listing\n    is part of the access model.\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth2/v1/token\n    absoluteTokenUrl: https://api.claro.com.br/oauth2/v1/token\n    scopes: 2 declared at operation level, none in the flow map\n  sources:\n  - openapi/america-movil-claro-device-location-openapi.json\n  - openapi/america-movil-claro-sim-swap-openapi.json\n  detail: scopes/america-movil-scopes.yml\n- name: BasicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/america-movil-claro-device-location-openapi.json\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/america-movil-claro-device-location-openapi.json\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  sources:\n  - openapi/america-movil-claro-device-location-openapi.json\n  - https://www.claroinsight.com.br/pt-br/geofencing\n  note: Also required alongside\
   \ the bearer token on the Geofencing subscription endpoint.\nnon_standard_headers:\n- header: x-client-auth\n  carries: 'Basic <base64> on the token call, Bearer <token> on the API call'\n  used_by: [Claro Alerta, Claro Score, Claro Valida Telefone, Claro Valida Endereço 2.0, Tenure]\n- header: X-CustomerID\n  carries: partner/tenant identifier, e.g. claro_exemplo\n  used_by: [Claro Alerta, Claro Score, Claro Valida Telefone, Claro Valida Endereço 2.0]\ngaps:\n- No metadata document — clients cannot discover the token endpoint programmatically.\n- No refresh-token, token-introspection or revocation endpoint is documented.\n- >-\n  No subject authorization. CAMARA specifies three-legged/CIBA authorization for\n  SIM Swap, Number Verification, KYC and Device Location; Claro implements\n  two-legged client credentials, and the LGPD consent its own docs require for\n  Device Location Verify is contractual rather than protocol-enforced.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/authentication/america-movil-authentication.yml
+source_yaml_url: https://artifacts.apis.io/america-movil/authentication/america-movil-authentication.yml
 summary_line: apiKey/http/oauth2 · 4 schemes
 tags:
 - Telecommunications

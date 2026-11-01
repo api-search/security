@@ -7,55 +7,55 @@ api_specs:
   label: HyperDX Alerts API
   slug: hyperdx-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/openapi/hyperdx-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/hyperdx/openapi/hyperdx-alerts-api-openapi.yml
 - filename: hyperdx-charts-api-openapi.yml
   format: yaml
   label: HyperDX Charts API
   slug: hyperdx-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/openapi/hyperdx-charts-api-openapi.yml
+  url: https://artifacts.apis.io/hyperdx/openapi/hyperdx-charts-api-openapi.yml
 - filename: hyperdx-connections-api-openapi.yml
   format: yaml
   label: HyperDX Connections API
   slug: hyperdx-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/openapi/hyperdx-connections-api-openapi.yml
+  url: https://artifacts.apis.io/hyperdx/openapi/hyperdx-connections-api-openapi.yml
 - filename: hyperdx-dashboards-api-openapi.yml
   format: yaml
   label: HyperDX Dashboards API
   slug: hyperdx-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/openapi/hyperdx-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/hyperdx/openapi/hyperdx-dashboards-api-openapi.yml
 - filename: hyperdx-saved-searches-api-openapi.yml
   format: yaml
   label: HyperDX Saved Searches API
   slug: hyperdx-saved-searches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/openapi/hyperdx-saved-searches-api-openapi.yml
+  url: https://artifacts.apis.io/hyperdx/openapi/hyperdx-saved-searches-api-openapi.yml
 - filename: hyperdx-search-api-openapi.yml
   format: yaml
   label: HyperDX Search API
   slug: hyperdx-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/openapi/hyperdx-search-api-openapi.yml
+  url: https://artifacts.apis.io/hyperdx/openapi/hyperdx-search-api-openapi.yml
 - filename: hyperdx-sources-api-openapi.yml
   format: yaml
   label: HyperDX Sources API
   slug: hyperdx-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/openapi/hyperdx-sources-api-openapi.yml
+  url: https://artifacts.apis.io/hyperdx/openapi/hyperdx-sources-api-openapi.yml
 - filename: hyperdx-team-api-openapi.yml
   format: yaml
   label: HyperDX Team API
   slug: hyperdx-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/openapi/hyperdx-team-api-openapi.yml
+  url: https://artifacts.apis.io/hyperdx/openapi/hyperdx-team-api-openapi.yml
 - filename: hyperdx-webhooks-api-openapi.yml
   format: yaml
   label: HyperDX Webhooks API
   slug: hyperdx-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/openapi/hyperdx-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/hyperdx/openapi/hyperdx-webhooks-api-openapi.yml
 auth_types:
 - http
 description: One credential, one scheme, across every HyperDX surface. The REST API (v1 and v2), the MCP server and the CLI all authenticate with a personal API access key presented as an HTTP Bearer token. There is no OAuth, no OpenID Connect, no mTLS, no scopes and no service-account concept — the key carries whatever the person it belongs to can do in their team.
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: openapi/hyperdx
   \  - https://www.hyperdx.io/docs/api/alerts\n  - https://github.com/hyperdxio/hyperdx/blob/main/MCP.md\n  applies_to:\n  - HyperDX External API v2 (all 39 operations — declared as a global `security` requirement)\n  - HyperDX Cloud API v1 (documented on hyperdx.io/docs/api)\n  - HyperDX MCP server at /api/mcp (Streamable HTTP, Authorization header)\n  - '@hyperdx/cli (hdx auth login stores the credential)'\ncredential:\n  name: Personal API access key\n  where: HyperDX UI > Team Settings > API keys > Personal API access key\n  prefix: null\n  prefix_note: No documented key prefix, so a leaked key is not identifiable by shape.\n  rotation:\n    supported: true\n    since: 2.36.0\n    since_date: '2026-08-21'\n    note: >-\n      Before release 2.36.0 the personal API access key was fixed for the life of the account and\n      could not be rotated. Any deployment older than 2026-08-21 has no rotation path.\n  expiry: none documented\n  scoping: >-\n    Team-scoped and personal. A 403 means\
   \ the key authenticated but the team or resource is out of\n    reach; there is no narrower permission model to express in the request.\ningestion_credential:\n  name: Ingestion API key\n  distinct_from_management_key: true\n  note: >-\n    Telemetry ingestion into the OpenTelemetry collector uses a separate auto-generated ingestion\n    API key, sent with OTLP data — not the personal access key used for the management API. The\n    ClickStack collector distribution pulls its OTLP endpoint configuration over OpAMP.\nenterprise:\n  saml_sso: true\n  saml_note: >-\n    SAML SSO is an Enterprise-tier feature for logging into the product. It governs human sign-in,\n    not API authentication — API calls are still Bearer key.\n  oss_note: >-\n    The open-source build has no SSO and no Slack/PagerDuty OAuth; the OSS/Cloud comparison page\n    lists alert delivery there as webhooks only.\ngaps:\n- No OAuth 2.0 or OIDC, so no delegated authorization and no third-party app model.\n- No scopes\
   \ or permissions, so a key cannot be narrowed to read-only. An agent handed a key to run\n  clickstack_search can also call clickstack_delete_dashboard.\n- No key prefix and no documented expiry.\nevidence:\n- url: https://www.hyperdx.io/docs/api/alerts\n  status: 200\n- url: https://api.hyperdx.io/api/v1/alerts\n  status: 401\n  note: Unauthenticated GET returns 401 \"Unauthorized\" — confirms the scheme is enforced.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/authentication/hyperdx-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hyperdx/authentication/hyperdx-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

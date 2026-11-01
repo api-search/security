@@ -15,7 +15,7 @@ source_filename: tenzai-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nsource: https://trust.tenzai.com/\nurl: https://trust.tenzai.com/\ncertifications:\n- SOC 2 Type 1\ndocuments:\n- Privacy Policy\n- Terms of Service\n- Subprocessors\n- SOC 2 Type 1 Report\n- Network Diagram\n- Incident Response Policy\n- Disaster Recovery Plan\n- Logging and Monitoring Policy\n- Data Protection Policy\nsubprocessors:\n- Amazon Web Services\n- Google Workspace\n- Datadog\n- HubSpot\n- Groundcover\nevidence:\n- source: https://trust.tenzai.com/\n  keywords:\n  - soc 2 type 1\n  - trust center\n  verified: fetched 2026-07-21\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tenzai/refs/heads/main/security/tenzai-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/tenzai/security/tenzai-trust-center.yml
 summary_line: SOC 2 Type 1
 tags:
 - Company

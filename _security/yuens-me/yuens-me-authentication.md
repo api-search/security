@@ -7,37 +7,37 @@ api_specs:
   label: Sunny Yuen Availability API
   slug: yuens-me-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yuens-me/refs/heads/main/openapi/yuens-me-availability-api-openapi.yml
+  url: https://artifacts.apis.io/yuens-me/openapi/yuens-me-availability-api-openapi.yml
 - filename: yuens-me-info-api-openapi.yml
   format: yaml
   label: Sunny Yuen Info API
   slug: yuens-me-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yuens-me/refs/heads/main/openapi/yuens-me-info-api-openapi.yml
+  url: https://artifacts.apis.io/yuens-me/openapi/yuens-me-info-api-openapi.yml
 - filename: yuens-me-match-api-openapi.yml
   format: yaml
   label: Sunny Yuen Match API
   slug: yuens-me-match-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yuens-me/refs/heads/main/openapi/yuens-me-match-api-openapi.yml
+  url: https://artifacts.apis.io/yuens-me/openapi/yuens-me-match-api-openapi.yml
 - filename: yuens-me-observations-api-openapi.yml
   format: yaml
   label: Sunny Yuen Observations API
   slug: yuens-me-observations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yuens-me/refs/heads/main/openapi/yuens-me-observations-api-openapi.yml
+  url: https://artifacts.apis.io/yuens-me/openapi/yuens-me-observations-api-openapi.yml
 - filename: yuens-me-projects-api-openapi.yml
   format: yaml
   label: Sunny Yuen Projects API
   slug: yuens-me-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yuens-me/refs/heads/main/openapi/yuens-me-projects-api-openapi.yml
+  url: https://artifacts.apis.io/yuens-me/openapi/yuens-me-projects-api-openapi.yml
 - filename: yuens-me-query-api-openapi.yml
   format: yaml
   label: Sunny Yuen Query API
   slug: yuens-me-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yuens-me/refs/heads/main/openapi/yuens-me-query-api-openapi.yml
+  url: https://artifacts.apis.io/yuens-me/openapi/yuens-me-query-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: >-\n  https://g
   \ generator; enforced when AUTH_MODE=key)\n      - site-wide rate-limit bypass\n    evidence: GET /resume and GET /profile returned 401 {\"error\":\"Unauthorized\"} with no WWW-Authenticate header on 2026-09-19.\n  - id: brainKey\n    type: apiKey\n    in: header\n    name: x-brain-key\n    audience: profile owner\n    applies_to:\n      - private MCP server https://agent.yuens.me/mcp (direct API / Claude Desktop via the mcp-remote bridge)\n      - site-wide rate-limit bypass\n    evidence: README security model; CORS allow-headers on /public-mcp and /mcp list x-brain-key.\n  - id: oauth2\n    type: oauth2\n    audience: profile owner's connector clients\n    applies_to:\n      - private MCP server https://agent.yuens.me/mcp (rate-limit bypass on /mcp only)\n    flows:\n      authorizationCode:\n        authorizationUrl: https://agent.yuens.me/authorize\n        tokenUrl: https://agent.yuens.me/token\n        pkce: S256 required\n        scopes: {}\n      clientCredentials:\n        tokenUrl:\
   \ https://agent.yuens.me/token\n        scopes: {}\n      refreshToken:\n        tokenUrl: https://agent.yuens.me/token\n    token_endpoint_auth_methods: [client_secret_post]\n    response_types: [code]\n    resource: https://agent.yuens.me\n    bearer_methods: [header]\n    metadata:\n      authorization_server: well-known/yuens-me-oauth-authorization-server.json\n      protected_resource: well-known/yuens-me-oauth-protected-resource.json\n    dynamic_client_registration: false\n    scopes_published: false\n    client_onboarding: >-\n      The client id and secret are the operator's own OAUTH_CLIENT_ID / OAUTH_CLIENT_SECRET environment\n      variables; there is no registration endpoint (GET /register 404) and no developer sign-up. Third\n      parties cannot obtain an OAuth client, by design.\n    evidence: >-\n      /.well-known/oauth-authorization-server 200 (issuer, endpoints, grants, S256, client_secret_post);\n      /.well-known/oauth-protected-resource 200; GET /authorize 400 (parameter\
   \ validation), GET /token 404\n      (POST-only). CHANGELOG 2026-09-16 records client_secret becoming mandatory on the authorization_code\n      and refresh_token grants.\nidentity:\n  scheme: OEP Phase 1 domain verification\n  public_key: https://agent.yuens.me/.well-known/oep-public-key.json (Ed25519)\n  dns_record: _oep.yuens.me TXT \"v=oep1; alg=ed25519; fp=bZCBY6x_RnGLyQgnCY0lN7CvpiBZMvRUBo68oeisPYc\"\n  card_field: provider.identity.fingerprint\n  verified: '2026-09-19'\n  note: 'Proves the domain owner operates the agent; it does not authenticate callers and signs nothing yet (README: no response or card signing in Phase 1).'\nmcp_auth_summary:\n  public-mcp: none\n  mcp: oauth2 or x-brain-key\nnotes:\n  - Bearer credentials are also the rate-limit bypass, so a third party must not send one it was not issued; the honest posture for agents is anonymous calls under the 30 req/min ceiling.\n  - No API-key issuance, no scopes, no OpenID Connect discovery (openid-configuration 404).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yuens-me/refs/heads/main/authentication/yuens-me-authentication.yml
+source_yaml_url: https://artifacts.apis.io/yuens-me/authentication/yuens-me-authentication.yml
 summary_line: 4 schemes
 tags:
 - Company

@@ -5,37 +5,37 @@ api_specs:
   label: V7 Annotations API
   slug: v7-labs-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v7-labs/refs/heads/main/openapi/v7-labs-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/v7-labs/openapi/v7-labs-annotations-api-openapi.yml
 - filename: v7-labs-classes-api-openapi.yml
   format: yaml
   label: V7 Classes API
   slug: v7-labs-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v7-labs/refs/heads/main/openapi/v7-labs-classes-api-openapi.yml
+  url: https://artifacts.apis.io/v7-labs/openapi/v7-labs-classes-api-openapi.yml
 - filename: v7-labs-datasets-api-openapi.yml
   format: yaml
   label: V7 Datasets API
   slug: v7-labs-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v7-labs/refs/heads/main/openapi/v7-labs-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/v7-labs/openapi/v7-labs-datasets-api-openapi.yml
 - filename: v7-labs-exports-api-openapi.yml
   format: yaml
   label: V7 Exports API
   slug: v7-labs-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v7-labs/refs/heads/main/openapi/v7-labs-exports-api-openapi.yml
+  url: https://artifacts.apis.io/v7-labs/openapi/v7-labs-exports-api-openapi.yml
 - filename: v7-labs-items-api-openapi.yml
   format: yaml
   label: V7 Items API
   slug: v7-labs-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v7-labs/refs/heads/main/openapi/v7-labs-items-api-openapi.yml
+  url: https://artifacts.apis.io/v7-labs/openapi/v7-labs-items-api-openapi.yml
 - filename: v7-labs-workflows-api-openapi.yml
   format: yaml
   label: V7 Workflows API
   slug: v7-labs-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v7-labs/refs/heads/main/openapi/v7-labs-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/v7-labs/openapi/v7-labs-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: v7-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.v7labs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 15:01:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.v7labs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 11:30:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: darwin.v7labs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 16 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: v7labs.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/v7-labs/refs/heads/main/security/v7-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/v7-labs/security/v7-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Artificial Intelligence

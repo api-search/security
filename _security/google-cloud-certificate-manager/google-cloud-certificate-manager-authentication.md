@@ -7,19 +7,19 @@ api_specs:
   label: Google Cloud Certificate Manager CertificateMaps API
   slug: google-cloud-certificate-manager-certificatemaps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-certificate-manager/refs/heads/main/openapi/google-cloud-certificate-manager-certificatemaps-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-certificate-manager/openapi/google-cloud-certificate-manager-certificatemaps-api-openapi.yml
 - filename: google-cloud-certificate-manager-certificates-api-openapi.yml
   format: yaml
   label: Google Cloud Certificate Manager Certificates API
   slug: google-cloud-certificate-manager-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-certificate-manager/refs/heads/main/openapi/google-cloud-certificate-manager-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-certificate-manager/openapi/google-cloud-certificate-manager-certificates-api-openapi.yml
 - filename: google-cloud-certificate-manager-dnsauthorizations-api-openapi.yml
   format: yaml
   label: Google Cloud Certificate Manager DnsAuthorizations API
   slug: google-cloud-certificate-manager-dnsauthorizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-certificate-manager/refs/heads/main/openapi/google-cloud-certificate-manager-dnsauthorizations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-certificate-manager/openapi/google-cloud-certificate-manager-dnsauthorizations-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -50,7 +50,7 @@ source_filename: google-cloud-certificate-manager-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/certificate-manager-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 1\n  sources:\n  - openapi/certificate-manager-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-certificate-manager/refs/heads/main/authentication/google-cloud-certificate-manager-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-certificate-manager/authentication/google-cloud-certificate-manager-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Certificate Management

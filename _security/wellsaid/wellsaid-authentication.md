@@ -8,31 +8,31 @@ api_specs:
   label: WellSaid Labs Clips API
   slug: wellsaid-clips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/openapi/wellsaid-clips-api-openapi.yml
+  url: https://artifacts.apis.io/wellsaid/openapi/wellsaid-clips-api-openapi.yml
 - filename: wellsaid-pronunciation-api-openapi.yml
   format: yaml
   label: WellSaid Labs Pronunciation API
   slug: wellsaid-pronunciation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/openapi/wellsaid-pronunciation-api-openapi.yml
+  url: https://artifacts.apis.io/wellsaid/openapi/wellsaid-pronunciation-api-openapi.yml
 - filename: wellsaid-text-to-speech-api-openapi.yml
   format: yaml
   label: WellSaid Labs Text-to-Speech API
   slug: wellsaid-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/openapi/wellsaid-text-to-speech-api-openapi.yml
+  url: https://artifacts.apis.io/wellsaid/openapi/wellsaid-text-to-speech-api-openapi.yml
 - filename: wellsaid-voices-api-openapi.yml
   format: yaml
   label: WellSaid Labs Voices API
   slug: wellsaid-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/openapi/wellsaid-voices-api-openapi.yml
+  url: https://artifacts.apis.io/wellsaid/openapi/wellsaid-voices-api-openapi.yml
 - filename: wellsaid-voice-avatars-api-openapi.yml
   format: yaml
   label: WellSaid Labs Voice Avatars API
   slug: wellsaid-voice-avatars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/openapi/wellsaid-voice-avatars-api-openapi.yml
+  url: https://artifacts.apis.io/wellsaid/openapi/wellsaid-voice-avatars-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -59,12 +59,11 @@ source_filename: wellsaid-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/wellsaid-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-Api-Key\n  sources:\n  - openapi/wellsaid-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/authentication/wellsaid-authentication.yml
+source_yaml_url: https://artifacts.apis.io/wellsaid/authentication/wellsaid-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence
 - Text-to-Speech
 - Voice
 - Audio
-- TTS
 ---

@@ -1,11 +1,17 @@
 ---
 api_specs:
+- filename: immersa-immersa-api-api-openapi.yml
+  format: yaml
+  label: Immersa API
+  slug: immersa-api-2
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/immersa/openapi/immersa-immersa-api-api-openapi.yml
 - filename: immersa-openapi-generated.yml
   format: yaml
   label: Immersa API
   slug: immersa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/immersa/refs/heads/main/openapi/_ae-authored/immersa-openapi-generated.yml
+  url: https://artifacts.apis.io/immersa/openapi/_ae-authored/immersa-openapi-generated.yml
 description: ''
 domains:
 - caa: []
@@ -35,11 +41,11 @@ source_filename: immersa-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: immersa.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 10:20:09 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: immersa.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/immersa/refs/heads/main/security/immersa-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/immersa/security/immersa-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - DataGateway
 - Platform
 - Security

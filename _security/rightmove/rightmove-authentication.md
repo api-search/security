@@ -7,7 +7,7 @@ api_specs:
   label: Rightmove Property API
   slug: rightmove-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rightmove/refs/heads/main/openapi/rightmove-property-api-openapi.yml
+  url: https://artifacts.apis.io/rightmove/openapi/rightmove-property-api-openapi.yml
 auth_types:
 - oauth2
 - mutualTLS
@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: openapi/rightmo
   \  sources:\n  - openapi/rightmove-commercial-listings-openapi.yml\n  - https://api-docs.rightmove.co.uk/authentication\n- name: MutualTLS\n  api: Rightmove Real Time Data Feed API\n  type: mutualTLS\n  documented_in: RTDF API Web Services Specification v1.4.1, section 2 \"Authentication and Security\"\n  mechanism: >-\n    Rightmove issues a keystore containing a private key and an X.509 client\n    certificate. Format is chosen by the integrator — JKS or JCEKS for Java,\n    PKCS#12 for Windows applications, PEM for other languages.\n  delivery: keystore emailed; password sent separately by SMS to a supplied mobile number\n  certificate_providers: >-\n    Only certificate providers on Rightmove's supported list may be used; the list\n    is obtained from the Data Feed Team.\n  tls:\n    documented_minimum: >-\n      TLS 1.1 or 1.2 (section 2.1.1); TLS 1.0 and 1.1 support was removed in spec\n      v1.3.6, so treat 1.2 as the floor.\n    ssl: not supported\n    media_servers: integrator\
   \ media servers must support TLS 1.2 or Rightmove cannot download images\n  request_identifiers: [Network_ID, Branch_ID, Agent_Ref]\n  outbound_user_agent: rightmove-datafeed/1.0\n  ip_allowlisting: >-\n    Not recommended — Rightmove's outbound IPs can change without notice.\n    Allowlist the user-agent instead, or request the current IPs from the Data\n    Feed Team.\n  anonymous_reachability:\n    probed: '2026-07-26'\n    status: 403\n    note: every path on adfapi.rightmove.co.uk refuses anonymous callers\n  sources:\n  - https://media.rightmove.co.uk/ps/pdf/guides/adf/Rightmove_Real_Time_Datafeed_Specification.pdf\nopenid_connect:\n  supported: false\n  evidence: No /.well-known/openid-configuration on any host (see well-known/rightmove-well-known.yml).\nonboarding:\n  contact: adfsupport@rightmove.co.uk\n  classification: application-approval\n  requirements:\n  - Accept the RTDF End User Licence Agreement with Rightmove Group Limited.\n  - Submit the ADF Provider Contact Form.\n\
   \  - Complete a supervised testing cycle before live credentials are released.\n  - 'In practice: act for a Rightmove member agent — RTDF calls require a Rightmove-issued Network_ID and Branch_ID.'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rightmove/refs/heads/main/authentication/rightmove-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rightmove/authentication/rightmove-authentication.yml
 summary_line: oauth2/mutualTLS · 2 schemes
 tags:
 - Real Estate

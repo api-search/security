@@ -7,31 +7,31 @@ api_specs:
   label: Sysco Accounts API
   slug: sysco-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysco/refs/heads/main/openapi/sysco-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/sysco/openapi/sysco-accounts-api-openapi.yml
 - filename: sysco-deliveries-api-openapi.yml
   format: yaml
   label: Sysco Deliveries API
   slug: sysco-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysco/refs/heads/main/openapi/sysco-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/sysco/openapi/sysco-deliveries-api-openapi.yml
 - filename: sysco-orders-api-openapi.yml
   format: yaml
   label: Sysco Orders API
   slug: sysco-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysco/refs/heads/main/openapi/sysco-orders-api-openapi.yml
+  url: https://artifacts.apis.io/sysco/openapi/sysco-orders-api-openapi.yml
 - filename: sysco-pricing-api-openapi.yml
   format: yaml
   label: Sysco Pricing API
   slug: sysco-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysco/refs/heads/main/openapi/sysco-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/sysco/openapi/sysco-pricing-api-openapi.yml
 - filename: sysco-products-api-openapi.yml
   format: yaml
   label: Sysco Products API
   slug: sysco-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysco/refs/heads/main/openapi/sysco-products-api-openapi.yml
+  url: https://artifacts.apis.io/sysco/openapi/sysco-products-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -57,7 +57,7 @@ source_filename: sysco-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sysco-food-distribution-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/sysco-food-distribution-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sysco/refs/heads/main/authentication/sysco-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sysco/authentication/sysco-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Fortune 100

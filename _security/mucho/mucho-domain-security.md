@@ -26,7 +26,7 @@ source_filename: mucho-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mucho.asia\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 02:32:20 2026 GMT\n  hsts: false\ndomains:\n- domain: mucho.asia\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mucho/refs/heads/main/security/mucho-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mucho/security/mucho-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

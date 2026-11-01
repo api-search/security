@@ -5,31 +5,31 @@ api_specs:
   label: Holistics Data Pipeline API
   slug: holistics-data-pipeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holistics/refs/heads/main/openapi/holistics-data-pipeline-api-openapi.yml
+  url: https://artifacts.apis.io/holistics/openapi/holistics-data-pipeline-api-openapi.yml
 - filename: holistics-datasets-api-openapi.yml
   format: yaml
   label: Holistics Datasets API
   slug: holistics-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holistics/refs/heads/main/openapi/holistics-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/holistics/openapi/holistics-datasets-api-openapi.yml
 - filename: holistics-export-api-openapi.yml
   format: yaml
   label: Holistics Export API
   slug: holistics-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holistics/refs/heads/main/openapi/holistics-export-api-openapi.yml
+  url: https://artifacts.apis.io/holistics/openapi/holistics-export-api-openapi.yml
 - filename: holistics-jobs-api-openapi.yml
   format: yaml
   label: Holistics Jobs API
   slug: holistics-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holistics/refs/heads/main/openapi/holistics-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/holistics/openapi/holistics-jobs-api-openapi.yml
 - filename: holistics-reports-api-openapi.yml
   format: yaml
   label: Holistics Reports API
   slug: holistics-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holistics/refs/heads/main/openapi/holistics-reports-api-openapi.yml
+  url: https://artifacts.apis.io/holistics/openapi/holistics-reports-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: holistics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.holistics.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 21:27:02 2026 GMT\n  hsts: false\n- host: docs-v2.holistics.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 21:27:02 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: secure.holistics.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 21:27:02 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: holistics.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/holistics/refs/heads/main/security/holistics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/holistics/security/holistics-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Business Intelligence

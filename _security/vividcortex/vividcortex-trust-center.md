@@ -5,31 +5,31 @@ api_specs:
   label: VividCortex Alerts API
   slug: vividcortex-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/openapi/vividcortex-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/vividcortex/openapi/vividcortex-alerts-api-openapi.yml
 - filename: vividcortex-events-api-openapi.yml
   format: yaml
   label: VividCortex Events API
   slug: vividcortex-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/openapi/vividcortex-events-api-openapi.yml
+  url: https://artifacts.apis.io/vividcortex/openapi/vividcortex-events-api-openapi.yml
 - filename: vividcortex-hosts-api-openapi.yml
   format: yaml
   label: VividCortex Hosts API
   slug: vividcortex-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/openapi/vividcortex-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/vividcortex/openapi/vividcortex-hosts-api-openapi.yml
 - filename: vividcortex-metrics-api-openapi.yml
   format: yaml
   label: VividCortex Metrics API
   slug: vividcortex-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/openapi/vividcortex-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/vividcortex/openapi/vividcortex-metrics-api-openapi.yml
 - filename: vividcortex-queries-api-openapi.yml
   format: yaml
   label: VividCortex Queries API
   slug: vividcortex-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/openapi/vividcortex-queries-api-openapi.yml
+  url: https://artifacts.apis.io/vividcortex/openapi/vividcortex-queries-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -49,7 +49,7 @@ source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nurl: https://www.solarwinds.com/trust-center\nsource: https://www.solarwinds.com/trust-center\ndescription: >-\n  VividCortex has no trust center on its own domains (probe 2026-07-21: trust=none on\n  vividcortex.com hosts). As a SolarWinds product (DPM), its compliance posture is\n  published on the SolarWinds Trust Center (\"Security Resources\", Secure by Design\n  program), which names SOC 2 and ISO/IEC 27001 certifications and GDPR compliance.\ncertifications: [SOC 2, ISO 27001, GDPR]\nevidence:\n  - source: https://www.solarwinds.com/trust-center\n    status: 200\n    keywords: [soc 2, iso 27001, iso/iec 27001, gdpr, secure by design]\n    fetched: '2026-07-21'\n  - source: probe-security-programs.py vividcortex\n    kind: probe\n    result: no trust surface on vividcortex.com domains (trust=none)\nnotes:\n  - Trust program is owned by parent company SolarWinds; VividCortex is sold as SolarWinds Database Performance\
   \ Monitor.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/security/vividcortex-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/vividcortex/security/vividcortex-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company

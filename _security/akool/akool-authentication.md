@@ -7,43 +7,43 @@ api_specs:
   label: Akool Authentication API
   slug: akool-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/openapi/akool-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/akool/openapi/akool-authentication-api-openapi.yml
 - filename: akool-face-swap-api-openapi.yml
   format: yaml
   label: Akool Face Swap API
   slug: akool-face-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/openapi/akool-face-swap-api-openapi.yml
+  url: https://artifacts.apis.io/akool/openapi/akool-face-swap-api-openapi.yml
 - filename: akool-image-generation-api-openapi.yml
   format: yaml
   label: Akool Image Generation API
   slug: akool-image-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/openapi/akool-image-generation-api-openapi.yml
+  url: https://artifacts.apis.io/akool/openapi/akool-image-generation-api-openapi.yml
 - filename: akool-live-avatar-api-openapi.yml
   format: yaml
   label: Akool Live Avatar API
   slug: akool-live-avatar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/openapi/akool-live-avatar-api-openapi.yml
+  url: https://artifacts.apis.io/akool/openapi/akool-live-avatar-api-openapi.yml
 - filename: akool-talking-avatar-api-openapi.yml
   format: yaml
   label: Akool Talking Avatar API
   slug: akool-talking-avatar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/openapi/akool-talking-avatar-api-openapi.yml
+  url: https://artifacts.apis.io/akool/openapi/akool-talking-avatar-api-openapi.yml
 - filename: akool-talking-photo-api-openapi.yml
   format: yaml
   label: Akool Talking Photo API
   slug: akool-talking-photo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/openapi/akool-talking-photo-api-openapi.yml
+  url: https://artifacts.apis.io/akool/openapi/akool-talking-photo-api-openapi.yml
 - filename: akool-video-translation-api-openapi.yml
   format: yaml
   label: Akool Video Translation API
   slug: akool-video-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/openapi/akool-video-translation-api-openapi.yml
+  url: https://artifacts.apis.io/akool/openapi/akool-video-translation-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -81,7 +81,7 @@ source_filename: akool-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/akool-openapi.yml\nsummary:\n  types:\n  - http\n  - apiKey\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    Bearer token minted by exchanging a clientId and clientSecret at\n    POST https://openapi.akool.com/api/open/v3/getToken. Passed on each request\n    as `Authorization: Bearer {token}`. Token expiry returns error code 1101.\n  sources:\n  - openapi/akool-openapi.yml\n  - https://docs.akool.com/authentication/usage\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  keyName: x-api-key\n  description: >-\n    Direct API key passed as the `x-api-key` request header. This is the method\n    Akool recommends because it needs no separate token-generation step. The\n    clientId/clientSecret are issued from the Akool OpenAPI settings once you\n    have an eligible plan.\n  sources:\n  - openapi/akool-openapi.yml\n  - https://docs.akool.com/authentication/usage\n  - https://help.akool.com/integrations/api-token\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/authentication/akool-authentication.yml
+source_yaml_url: https://artifacts.apis.io/akool/authentication/akool-authentication.yml
 summary_line: http/apiKey · 2 schemes
 tags:
 - AI Avatars

@@ -26,7 +26,7 @@ source_filename: cibo-technologies-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cibo.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 02:53:37 2026 GMT\n  hsts: false\ndomains:\n- domain: cibo.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cibo-technologies/refs/heads/main/security/cibo-technologies-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cibo-technologies/security/cibo-technologies-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Energy

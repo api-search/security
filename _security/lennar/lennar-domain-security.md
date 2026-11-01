@@ -43,7 +43,7 @@ source_filename: lennar-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.lennar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 07:31:13 2026 GMT\n  hsts: false\n- host: azu-lndscapmu01e.portal.azure-api.net\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''azu-lndscap'\n  hsts: null\n- host: singlefamily.fanniemae.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 13 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: lennar.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: azure-api.net\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lennar/refs/heads/main/security/lennar-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lennar/security/lennar-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Homebuilder

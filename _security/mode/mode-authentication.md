@@ -7,67 +7,67 @@ api_specs:
   label: Mode Account API
   slug: mode-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mode/refs/heads/main/openapi/mode-account-api-openapi.yml
+  url: https://artifacts.apis.io/mode/openapi/mode-account-api-openapi.yml
 - filename: mode-audit-logs-api-openapi.yml
   format: yaml
   label: Mode Audit Logs API
   slug: mode-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mode/refs/heads/main/openapi/mode-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/mode/openapi/mode-audit-logs-api-openapi.yml
 - filename: mode-data-sources-api-openapi.yml
   format: yaml
   label: Mode Data Sources API
   slug: mode-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mode/refs/heads/main/openapi/mode-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/mode/openapi/mode-data-sources-api-openapi.yml
 - filename: mode-datasets-api-openapi.yml
   format: yaml
   label: Mode Datasets API
   slug: mode-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mode/refs/heads/main/openapi/mode-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/mode/openapi/mode-datasets-api-openapi.yml
 - filename: mode-definitions-api-openapi.yml
   format: yaml
   label: Mode Definitions API
   slug: mode-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mode/refs/heads/main/openapi/mode-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/mode/openapi/mode-definitions-api-openapi.yml
 - filename: mode-groups-api-openapi.yml
   format: yaml
   label: Mode Groups API
   slug: mode-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mode/refs/heads/main/openapi/mode-groups-api-openapi.yml
+  url: https://artifacts.apis.io/mode/openapi/mode-groups-api-openapi.yml
 - filename: mode-invites-api-openapi.yml
   format: yaml
   label: Mode Invites API
   slug: mode-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mode/refs/heads/main/openapi/mode-invites-api-openapi.yml
+  url: https://artifacts.apis.io/mode/openapi/mode-invites-api-openapi.yml
 - filename: mode-memberships-api-openapi.yml
   format: yaml
   label: Mode Memberships API
   slug: mode-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mode/refs/heads/main/openapi/mode-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/mode/openapi/mode-memberships-api-openapi.yml
 - filename: mode-reports-api-openapi.yml
   format: yaml
   label: Mode Reports API
   slug: mode-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mode/refs/heads/main/openapi/mode-reports-api-openapi.yml
+  url: https://artifacts.apis.io/mode/openapi/mode-reports-api-openapi.yml
 - filename: mode-spaces-api-openapi.yml
   format: yaml
   label: Mode Spaces API
   slug: mode-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mode/refs/heads/main/openapi/mode-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/mode/openapi/mode-spaces-api-openapi.yml
 - filename: mode-verify-api-openapi.yml
   format: yaml
   label: Mode Verify API
   slug: mode-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mode/refs/heads/main/openapi/mode-verify-api-openapi.yml
+  url: https://artifacts.apis.io/mode/openapi/mode-verify-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -94,7 +94,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/mode-openapi-original.yml\ndocs: https://mode.com/developer/api-reference/authentication/\nsummary:\n  types:\n  - http\n  http_schemes:\n  - basic\n  notes: >-\n    HTTP Basic authentication. The token (public access key) is used as the username and\n    the secret (private access key, shown only once) as the password; the pair is\n    base64-encoded into an Authorization: Basic <encoded> header. Workspace must be on a\n    paid Mode Business plan to access the API.\ntoken_types:\n- name: Workspace API token\n  scope: workspace\n  notes: >-\n    Created by workspace admins under Workspace Settings > Privacy & Security > API.\n    Grants admin-level workspace access. Cannot be used with cloning reports or invites\n    endpoints.\n- name: Personal API token\n  scope: user\n  notes: >-\n    Legacy option, no longer creatable but still functional; respects the individual\n    user's permissions within the workspace.\n\
   schemes:\n- name: accessTokenAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/mode-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mode/refs/heads/main/authentication/mode-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mode/authentication/mode-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

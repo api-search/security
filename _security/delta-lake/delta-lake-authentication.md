@@ -7,19 +7,19 @@ api_specs:
   label: Delta Lake Schemas API
   slug: delta-lake-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delta-lake/refs/heads/main/openapi/delta-lake-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/delta-lake/openapi/delta-lake-schemas-api-openapi.yml
 - filename: delta-lake-shares-api-openapi.yml
   format: yaml
   label: Delta Lake Shares API
   slug: delta-lake-shares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delta-lake/refs/heads/main/openapi/delta-lake-shares-api-openapi.yml
+  url: https://artifacts.apis.io/delta-lake/openapi/delta-lake-shares-api-openapi.yml
 - filename: delta-lake-tables-api-openapi.yml
   format: yaml
   label: Delta Lake Tables API
   slug: delta-lake-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delta-lake/refs/heads/main/openapi/delta-lake-tables-api-openapi.yml
+  url: https://artifacts.apis.io/delta-lake/openapi/delta-lake-tables-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -45,7 +45,7 @@ source_filename: delta-lake-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: derived\nsource: openapi/delta-lake-delta-sharing-protocol-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/delta-lake-delta-sharing-protocol-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/delta-lake/refs/heads/main/authentication/delta-lake-authentication.yml
+source_yaml_url: https://artifacts.apis.io/delta-lake/authentication/delta-lake-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Data

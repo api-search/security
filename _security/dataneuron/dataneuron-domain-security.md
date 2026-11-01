@@ -27,7 +27,7 @@ source_filename: dataneuron-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-16'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dataneuron.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 12 16:34:28 2027 GMT\n  hsts: null\ndomains:\n- domain: dataneuron.ai\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dataneuron/refs/heads/main/security/dataneuron-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dataneuron/security/dataneuron-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Artificial Intelligence

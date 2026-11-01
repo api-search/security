@@ -3,54 +3,12 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: mailerlite-automations-api-openapi.yml
+- filename: mailerlite-webhook-api-openapi.yml
   format: yaml
-  label: MailerLite Automations API
-  slug: mailerlite-automations-api
+  label: MailerLite Webhook API
+  slug: mailerlite-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/openapi/mailerlite-automations-api-openapi.yml
-- filename: mailerlite-campaigns-api-openapi.yml
-  format: yaml
-  label: MailerLite Campaigns API
-  slug: mailerlite-campaigns-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/openapi/mailerlite-campaigns-api-openapi.yml
-- filename: mailerlite-fields-api-openapi.yml
-  format: yaml
-  label: MailerLite Fields API
-  slug: mailerlite-fields-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/openapi/mailerlite-fields-api-openapi.yml
-- filename: mailerlite-forms-api-openapi.yml
-  format: yaml
-  label: MailerLite Forms API
-  slug: mailerlite-forms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/openapi/mailerlite-forms-api-openapi.yml
-- filename: mailerlite-groups-api-openapi.yml
-  format: yaml
-  label: MailerLite Groups API
-  slug: mailerlite-groups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/openapi/mailerlite-groups-api-openapi.yml
-- filename: mailerlite-segments-api-openapi.yml
-  format: yaml
-  label: MailerLite Segments API
-  slug: mailerlite-segments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/openapi/mailerlite-segments-api-openapi.yml
-- filename: mailerlite-subscribers-api-openapi.yml
-  format: yaml
-  label: MailerLite Subscribers API
-  slug: mailerlite-subscribers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/openapi/mailerlite-subscribers-api-openapi.yml
-- filename: mailerlite-webhooks-api-openapi.yml
-  format: yaml
-  label: MailerLite Webhooks API
-  slug: mailerlite-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/openapi/mailerlite-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/mailerlite/openapi/mailerlite-webhook-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -150,7 +108,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/*.yml (
   \ metadata:\n      authorization_server: https://mcp.mailerlite.com/.well-known/oauth-authorization-server\n      protected_resource: https://mcp.mailerlite.com/.well-known/oauth-protected-resource/mcp\n    description: >-\n      OAuth 2.1-shaped authorization for the hosted MCP server, discovered\n      through RFC 8414 + RFC 9728 metadata. No scopes are advertised — an\n      issued token carries whatever the authorizing MailerLite user can do.\n    probe:\n      url: https://mcp.mailerlite.com/mcp\n      method: POST\n      date: '2026-08-13'\n      http_status: 401\n      www_authenticate: >-\n        Bearer realm=\"OAuth\",\n        resource_metadata=\"https://mcp.mailerlite.com/.well-known/oauth-protected-resource/mcp\",\n        error=\"invalid_token\"\n    sources:\n      - https://mcp.mailerlite.com/.well-known/oauth-authorization-server\n      - https://developers.mailerlite.com/mcp\n\n  - name: OAuth2 (CLI)\n    type: oauth2\n    surface: cli\n    flows:\n      - flow: authorizationCode\n\
   \    description: >-\n      `mailerlite auth login` is browser-based OAuth and is the CLI's\n      recommended default; tokens auto-refresh. `--method token` falls back to\n      pasting a dashboard API key, and MAILERLITE_API_TOKEN covers CI.\n    docs: https://developers.mailerlite.com/cli\n    sources:\n      - https://developers.mailerlite.com/cli\n\nwebhook_authentication:\n  direction: inbound-to-customer\n  mechanism: HMAC-SHA256\n  header: Signature\n  key: The webhook `secret` returned when the webhook is created\n  signed_material: raw JSON request body\n  timestamp_in_signature: false\n  replay_protection: >-\n    None published — no timestamp is signed and no tolerance window is\n    documented. Receivers must add their own replay defence.\n  docs: https://developers.mailerlite.com/api/webhooks\n\nnot_supported:\n  - openIdConnect\n  - mutualTLS\n  - basic auth\n  - hmac request signing on outbound REST calls\n  - scoped / least-privilege API keys\n  - key expiry\n\ngaps:\n\
   \  - >-\n    No scope surface anywhere: neither the REST keys nor the MCP OAuth tokens\n    can be narrowed. A token that can list subscribers can also schedule a\n    campaign send.\n  - >-\n    No service-account identity — API keys inherit and die with a human user.\n\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/authentication/mailerlite-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mailerlite/authentication/mailerlite-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Email Marketing

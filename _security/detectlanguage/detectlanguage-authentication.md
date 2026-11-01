@@ -7,19 +7,19 @@ api_specs:
   label: DetectLanguage Account API
   slug: detectlanguage-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/detectlanguage/refs/heads/main/openapi/detectlanguage-account-api-openapi.yml
+  url: https://artifacts.apis.io/detectlanguage/openapi/detectlanguage-account-api-openapi.yml
 - filename: detectlanguage-detection-api-openapi.yml
   format: yaml
   label: DetectLanguage Detection API
   slug: detectlanguage-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/detectlanguage/refs/heads/main/openapi/detectlanguage-detection-api-openapi.yml
+  url: https://artifacts.apis.io/detectlanguage/openapi/detectlanguage-detection-api-openapi.yml
 - filename: detectlanguage-languages-api-openapi.yml
   format: yaml
   label: DetectLanguage Languages API
   slug: detectlanguage-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/detectlanguage/refs/heads/main/openapi/detectlanguage-languages-api-openapi.yml
+  url: https://artifacts.apis.io/detectlanguage/openapi/detectlanguage-languages-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: detectlanguage-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Pass your API key in the Authorization header as a Bearer token. Example: Authorization:\n    Bearer [example key]'\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/detectlanguage/refs/heads/main/authentication/detectlanguage-authentication.yml
+source_yaml_url: https://artifacts.apis.io/detectlanguage/authentication/detectlanguage-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Language Detection

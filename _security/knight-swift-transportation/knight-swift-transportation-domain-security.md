@@ -31,7 +31,7 @@ source_filename: knight-swift-transportation-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.knight-swift.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 20:38:26 2026 GMT\n  hsts: false\n- host: developer.knight-swift.com\n  https: false\n- host: api.knight-swift.com\n  https: false\ndomains:\n- domain: knight-swift.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/knight-swift-transportation/refs/heads/main/security/knight-swift-transportation-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/knight-swift-transportation/security/knight-swift-transportation-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Trucking

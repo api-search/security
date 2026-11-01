@@ -30,7 +30,7 @@ source_filename: actifio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.actifio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 08:42:03 2026 GMT\n  hsts: false\ndomains:\n- domain: actifio.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"pki.goog\"\n  - 0 issue \"pki.goog\"\n  - 0 iodef \"mailto:netops@actifio.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/actifio/refs/heads/main/security/actifio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/actifio/security/actifio-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

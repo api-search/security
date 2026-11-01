@@ -28,7 +28,7 @@ source_filename: 4c-medical-technologies-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.4cmed.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  3 04:00:53 2026 GMT\n  hsts: true\n  hsts_max_age: 0\ndomains:\n- domain: 4cmed.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/4c-medical-technologies/refs/heads/main/security/4c-medical-technologies-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/4c-medical-technologies/security/4c-medical-technologies-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

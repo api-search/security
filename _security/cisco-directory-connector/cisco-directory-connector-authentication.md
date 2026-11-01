@@ -7,19 +7,19 @@ api_specs:
   label: Cisco Directory Connector Groups API
   slug: cisco-directory-connector-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-directory-connector/refs/heads/main/openapi/cisco-directory-connector-groups-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-directory-connector/openapi/cisco-directory-connector-groups-api-openapi.yml
 - filename: cisco-directory-connector-organizations-api-openapi.yml
   format: yaml
   label: Cisco Directory Connector Organizations API
   slug: cisco-directory-connector-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-directory-connector/refs/heads/main/openapi/cisco-directory-connector-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-directory-connector/openapi/cisco-directory-connector-organizations-api-openapi.yml
 - filename: cisco-directory-connector-people-api-openapi.yml
   format: yaml
   label: Cisco Directory Connector People API
   slug: cisco-directory-connector-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-directory-connector/refs/heads/main/openapi/cisco-directory-connector-people-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-directory-connector/openapi/cisco-directory-connector-people-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: cisco-directory-connector-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cisco-directory-connector-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: OAuth2-Access-Token\n  sources:\n  - openapi/cisco-directory-connector-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-directory-connector/refs/heads/main/authentication/cisco-directory-connector-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cisco-directory-connector/authentication/cisco-directory-connector-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Active Directory

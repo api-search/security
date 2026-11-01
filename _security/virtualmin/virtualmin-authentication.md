@@ -28,7 +28,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://www.virtualmin.com/docs/development/remote-api/\ndocs: https://www.virtualmin.com/docs/development/remote-api/\nsummary:\n  types: [http]\n  http_schemes: [basic]\n  oauth2_flows: []\n  api_key_in: []\n  note: >-\n    The Remote API authenticates over HTTP Basic against Webmin's own user database,\n    the same credentials as the web interface. It is accessible only to the master\n    administrator (typically the Unix `root` account) for security reasons; there is\n    no OAuth, API-key or token scheme. The command-line API instead relies on local\n    Unix root/system access. No OAuth scopes exist, so no scopes/ artifact is produced.\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: >-\n    HTTP Basic authentication as the Webmin master administrator against\n    https://<host>:10000/virtual-server/remote.cgi. Sent as standard Authorization\n    headers (e.g. wget --http-user / --http-passwd,\
   \ or LWP credentials against the\n    \"Webmin Server\" realm).\n  sources: [docs/development/remote-api]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/virtualmin/refs/heads/main/authentication/virtualmin-authentication.yml
+source_yaml_url: https://artifacts.apis.io/virtualmin/authentication/virtualmin-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

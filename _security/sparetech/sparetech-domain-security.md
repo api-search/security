@@ -5,37 +5,37 @@ api_specs:
   label: Sparetech Authentication API
   slug: sparetech-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/openapi/sparetech-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sparetech/openapi/sparetech-authentication-api-openapi.yml
 - filename: sparetech-changeintent-api-openapi.yml
   format: yaml
   label: Sparetech ChangeIntent API
   slug: sparetech-changeintent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/openapi/sparetech-changeintent-api-openapi.yml
+  url: https://artifacts.apis.io/sparetech/openapi/sparetech-changeintent-api-openapi.yml
 - filename: sparetech-creationintent-api-openapi.yml
   format: yaml
   label: Sparetech CreationIntent API
   slug: sparetech-creationintent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/openapi/sparetech-creationintent-api-openapi.yml
+  url: https://artifacts.apis.io/sparetech/openapi/sparetech-creationintent-api-openapi.yml
 - filename: sparetech-extensionintent-api-openapi.yml
   format: yaml
   label: Sparetech ExtensionIntent API
   slug: sparetech-extensionintent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/openapi/sparetech-extensionintent-api-openapi.yml
+  url: https://artifacts.apis.io/sparetech/openapi/sparetech-extensionintent-api-openapi.yml
 - filename: sparetech-material-master-sync-api-openapi.yml
   format: yaml
   label: Sparetech Material Master Sync API
   slug: sparetech-material-master-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/openapi/sparetech-material-master-sync-api-openapi.yml
+  url: https://artifacts.apis.io/sparetech/openapi/sparetech-material-master-sync-api-openapi.yml
 - filename: sparetech-schema-api-openapi.yml
   format: yaml
   label: Sparetech Schema API
   slug: sparetech-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/openapi/sparetech-schema-api-openapi.yml
+  url: https://artifacts.apis.io/sparetech/openapi/sparetech-schema-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: sparetech-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sparetech.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 22:29:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: sync.sparetech.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 15 23:59:59 2027 GMT\n  hsts: null\n- host: sync.sandbox.sparetech.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  1 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: sparetech.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/security/sparetech-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sparetech/security/sparetech-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

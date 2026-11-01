@@ -38,7 +38,7 @@ source_filename: beato-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: equityzen.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 11 23:59:59 2027 GMT\n  hsts: null\n- host: beato.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 16 10:36:21 2026 GMT\n  hsts: false\ndomains:\n- domain: equityzen.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: beato.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beato/refs/heads/main/security/beato-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/beato/security/beato-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

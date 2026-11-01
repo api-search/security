@@ -8,37 +8,37 @@ api_specs:
   label: GrowthZone Certifications API
   slug: growthzone-certifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/openapi/growthzone-certifications-api-openapi.yml
+  url: https://artifacts.apis.io/growthzone/openapi/growthzone-certifications-api-openapi.yml
 - filename: growthzone-contacts-api-openapi.yml
   format: yaml
   label: GrowthZone Contacts API
   slug: growthzone-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/openapi/growthzone-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/growthzone/openapi/growthzone-contacts-api-openapi.yml
 - filename: growthzone-events-api-openapi.yml
   format: yaml
   label: GrowthZone Events API
   slug: growthzone-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/openapi/growthzone-events-api-openapi.yml
+  url: https://artifacts.apis.io/growthzone/openapi/growthzone-events-api-openapi.yml
 - filename: growthzone-groups-directory-api-openapi.yml
   format: yaml
   label: GrowthZone Groups & Directory API
   slug: growthzone-groups-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/openapi/growthzone-groups-directory-api-openapi.yml
+  url: https://artifacts.apis.io/growthzone/openapi/growthzone-groups-directory-api-openapi.yml
 - filename: growthzone-memberships-api-openapi.yml
   format: yaml
   label: GrowthZone Memberships API
   slug: growthzone-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/openapi/growthzone-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/growthzone/openapi/growthzone-memberships-api-openapi.yml
 - filename: growthzone-scheduled-billing-api-openapi.yml
   format: yaml
   label: GrowthZone Scheduled Billing API
   slug: growthzone-scheduled-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/openapi/growthzone-scheduled-billing-api-openapi.yml
+  url: https://artifacts.apis.io/growthzone/openapi/growthzone-scheduled-billing-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: growthzone-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/growthzone-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Server authentication. Send `Authorization: ApiKey {API_Key}` where the API\n    Key is issued per application by GrowthZone WebSupport. OAuth 2.0 / OpenID Connect (authorize/token/userinfo\n    at growthzoneapp.com) is used for user SSO flows.'\n  sources:\n  - openapi/growthzone-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/authentication/growthzone-authentication.yml
+source_yaml_url: https://artifacts.apis.io/growthzone/authentication/growthzone-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Association Management

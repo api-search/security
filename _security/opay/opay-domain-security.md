@@ -5,19 +5,19 @@ api_specs:
   label: OPay Cashier API
   slug: opay-cashier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opay/refs/heads/main/openapi/opay-cashier-api-openapi.yml
+  url: https://artifacts.apis.io/opay/openapi/opay-cashier-api-openapi.yml
 - filename: opay-payments-api-openapi.yml
   format: yaml
   label: OPay Payments API
   slug: opay-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opay/refs/heads/main/openapi/opay-payments-api-openapi.yml
+  url: https://artifacts.apis.io/opay/openapi/opay-payments-api-openapi.yml
 - filename: opay-refunds-api-openapi.yml
   format: yaml
   label: OPay Refunds API
   slug: opay-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opay/refs/heads/main/openapi/opay-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/opay/openapi/opay-refunds-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -60,7 +60,7 @@ source_filename: opay-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.opayweb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 20 23:59:59 2026 GMT\n  hsts: false\n- host: documentation.opaycheckout.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 23:59:59 2026 GMT\n  hsts: false\n- host: liveapi.opaycheckout.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: opayweb.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: opaycheckout.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opay/refs/heads/main/security/opay-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/opay/security/opay-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Payments

@@ -46,7 +46,7 @@ source_filename: streamsets-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ibm.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: cloud.streamsets.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 13 23:07:25 2026 GMT\n  hsts: true\n  hsts_max_age: 15768000\ndomains:\n- domain: ibm.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: streamsets.com\n  dnssec: false\n  caa:\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"identrust.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/streamsets/refs/heads/main/security/streamsets-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/streamsets/security/streamsets-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

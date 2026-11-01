@@ -44,7 +44,7 @@ source_filename: lifesize-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: lifesize.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 17:21:48 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: support.lifesize.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 00:30:15 2026 GMT\n  hsts: false\n- host: admin.lifesizecloud.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 23 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: lifesize.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: lifesizecloud.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lifesize/refs/heads/main/security/lifesize-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lifesize/security/lifesize-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

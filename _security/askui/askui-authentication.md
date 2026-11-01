@@ -8,91 +8,91 @@ api_specs:
   label: AskUI Access Tokens API
   slug: askui-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-access-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/askui/openapi/askui-access-tokens-api-openapi.yml
 - filename: askui-agent-executions-api-openapi.yml
   format: yaml
   label: AskUI Agent Executions API
   slug: askui-agent-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-agent-executions-api-openapi.yml
+  url: https://artifacts.apis.io/askui/openapi/askui-agent-executions-api-openapi.yml
 - filename: askui-agents-api-openapi.yml
   format: yaml
   label: AskUI Agents API
   slug: askui-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-agents-api-openapi.yml
+  url: https://artifacts.apis.io/askui/openapi/askui-agents-api-openapi.yml
 - filename: askui-analytics-api-openapi.yml
   format: yaml
   label: AskUI Analytics API
   slug: askui-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/askui/openapi/askui-analytics-api-openapi.yml
 - filename: askui-auth-api-openapi.yml
   format: yaml
   label: AskUI Auth API
   slug: askui-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-auth-api-openapi.yml
+  url: https://artifacts.apis.io/askui/openapi/askui-auth-api-openapi.yml
 - filename: askui-billing-api-openapi.yml
   format: yaml
   label: AskUI Billing API
   slug: askui-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-billing-api-openapi.yml
+  url: https://artifacts.apis.io/askui/openapi/askui-billing-api-openapi.yml
 - filename: askui-dashboard-api-openapi.yml
   format: yaml
   label: AskUI Dashboard API
   slug: askui-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/askui/openapi/askui-dashboard-api-openapi.yml
 - filename: askui-files-api-openapi.yml
   format: yaml
   label: AskUI Files API
   slug: askui-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-files-api-openapi.yml
+  url: https://artifacts.apis.io/askui/openapi/askui-files-api-openapi.yml
 - filename: askui-invites-api-openapi.yml
   format: yaml
   label: AskUI Invites API
   slug: askui-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-invites-api-openapi.yml
+  url: https://artifacts.apis.io/askui/openapi/askui-invites-api-openapi.yml
 - filename: askui-runner-jobs-api-openapi.yml
   format: yaml
   label: AskUI Runner Jobs API
   slug: askui-runner-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-runner-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/askui/openapi/askui-runner-jobs-api-openapi.yml
 - filename: askui-runs-api-openapi.yml
   format: yaml
   label: AskUI Runs API
   slug: askui-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-runs-api-openapi.yml
+  url: https://artifacts.apis.io/askui/openapi/askui-runs-api-openapi.yml
 - filename: askui-schedules-api-openapi.yml
   format: yaml
   label: AskUI Schedules API
   slug: askui-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/askui/openapi/askui-schedules-api-openapi.yml
 - filename: askui-tools-api-openapi.yml
   format: yaml
   label: AskUI Tools API
   slug: askui-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-tools-api-openapi.yml
+  url: https://artifacts.apis.io/askui/openapi/askui-tools-api-openapi.yml
 - filename: askui-workspace-memberships-api-openapi.yml
   format: yaml
   label: AskUI Workspace Memberships API
   slug: askui-workspace-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-workspace-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/askui/openapi/askui-workspace-memberships-api-openapi.yml
 - filename: askui-workspaces-api-openapi.yml
   format: yaml
   label: AskUI Workspaces API
   slug: askui-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/askui/openapi/askui-workspaces-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -125,7 +125,7 @@ source_filename: askui-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/askui-workspace-service-openapi-original.json\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: Bearer\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/askui-workspace-service-openapi-original.json\n- name: Basic\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/askui-workspace-service-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/authentication/askui-authentication.yml
+source_yaml_url: https://artifacts.apis.io/askui/authentication/askui-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

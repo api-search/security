@@ -5,55 +5,55 @@ api_specs:
   label: Litecoin Addresses API
   slug: litecoin-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litecoin/refs/heads/main/openapi/litecoin-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/litecoin/openapi/litecoin-addresses-api-openapi.yml
 - filename: litecoin-blockchain-api-openapi.yml
   format: yaml
   label: Litecoin Blockchain API
   slug: litecoin-blockchain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litecoin/refs/heads/main/openapi/litecoin-blockchain-api-openapi.yml
+  url: https://artifacts.apis.io/litecoin/openapi/litecoin-blockchain-api-openapi.yml
 - filename: litecoin-blocks-api-openapi.yml
   format: yaml
   label: Litecoin Blocks API
   slug: litecoin-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litecoin/refs/heads/main/openapi/litecoin-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/litecoin/openapi/litecoin-blocks-api-openapi.yml
 - filename: litecoin-fees-api-openapi.yml
   format: yaml
   label: Litecoin Fees API
   slug: litecoin-fees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litecoin/refs/heads/main/openapi/litecoin-fees-api-openapi.yml
+  url: https://artifacts.apis.io/litecoin/openapi/litecoin-fees-api-openapi.yml
 - filename: litecoin-json-rpc-api-openapi.yml
   format: yaml
   label: Litecoin JSON-RPC API
   slug: litecoin-json-rpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litecoin/refs/heads/main/openapi/litecoin-json-rpc-api-openapi.yml
+  url: https://artifacts.apis.io/litecoin/openapi/litecoin-json-rpc-api-openapi.yml
 - filename: litecoin-mempool-api-openapi.yml
   format: yaml
   label: Litecoin Mempool API
   slug: litecoin-mempool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litecoin/refs/heads/main/openapi/litecoin-mempool-api-openapi.yml
+  url: https://artifacts.apis.io/litecoin/openapi/litecoin-mempool-api-openapi.yml
 - filename: litecoin-mining-api-openapi.yml
   format: yaml
   label: Litecoin Mining API
   slug: litecoin-mining-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litecoin/refs/heads/main/openapi/litecoin-mining-api-openapi.yml
+  url: https://artifacts.apis.io/litecoin/openapi/litecoin-mining-api-openapi.yml
 - filename: litecoin-transactions-api-openapi.yml
   format: yaml
   label: Litecoin Transactions API
   slug: litecoin-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litecoin/refs/heads/main/openapi/litecoin-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/litecoin/openapi/litecoin-transactions-api-openapi.yml
 - filename: litecoin-utxo-api-openapi.yml
   format: yaml
   label: Litecoin UTXO API
   slug: litecoin-utxo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litecoin/refs/heads/main/openapi/litecoin-utxo-api-openapi.yml
+  url: https://artifacts.apis.io/litecoin/openapi/litecoin-utxo-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -98,7 +98,7 @@ source_filename: litecoin-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: litecoin.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 20:49:12 2026 GMT\n  hsts: false\n- host: litecoinspace.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 04:22:10 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: litecoin.org\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n- domain: litecoinspace.org\n  dnssec: true\n  caa:\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/litecoin/refs/heads/main/security/litecoin-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/litecoin/security/litecoin-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Cryptocurrency

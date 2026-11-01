@@ -8,25 +8,25 @@ api_specs:
   label: Narakeet Account API
   slug: narakeet-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/openapi/narakeet-account-api-openapi.yml
+  url: https://artifacts.apis.io/narakeet/openapi/narakeet-account-api-openapi.yml
 - filename: narakeet-text-to-speech-api-openapi.yml
   format: yaml
   label: Narakeet Text to Speech API
   slug: narakeet-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/openapi/narakeet-text-to-speech-api-openapi.yml
+  url: https://artifacts.apis.io/narakeet/openapi/narakeet-text-to-speech-api-openapi.yml
 - filename: narakeet-video-api-openapi.yml
   format: yaml
   label: Narakeet Video API
   slug: narakeet-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/openapi/narakeet-video-api-openapi.yml
+  url: https://artifacts.apis.io/narakeet/openapi/narakeet-video-api-openapi.yml
 - filename: narakeet-voices-api-openapi.yml
   format: yaml
   label: Narakeet Voices API
   slug: narakeet-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/openapi/narakeet-voices-api-openapi.yml
+  url: https://artifacts.apis.io/narakeet/openapi/narakeet-voices-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -53,11 +53,10 @@ source_filename: narakeet-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/narakeet-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/narakeet-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/authentication/narakeet-authentication.yml
+source_yaml_url: https://artifacts.apis.io/narakeet/authentication/narakeet-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Text-to-Speech
-- TTS
 - Voice
 - Audio
 - Video

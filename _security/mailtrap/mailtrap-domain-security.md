@@ -5,19 +5,19 @@ api_specs:
   label: Mailtrap Inboxes API
   slug: mailtrap-inboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailtrap/refs/heads/main/openapi/mailtrap-inboxes-api-openapi.yml
+  url: https://artifacts.apis.io/mailtrap/openapi/mailtrap-inboxes-api-openapi.yml
 - filename: mailtrap-messages-api-openapi.yml
   format: yaml
   label: Mailtrap Messages API
   slug: mailtrap-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailtrap/refs/heads/main/openapi/mailtrap-messages-api-openapi.yml
+  url: https://artifacts.apis.io/mailtrap/openapi/mailtrap-messages-api-openapi.yml
 - filename: mailtrap-send-api-openapi.yml
   format: yaml
   label: Mailtrap Send API
   slug: mailtrap-send-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailtrap/refs/heads/main/openapi/mailtrap-send-api-openapi.yml
+  url: https://artifacts.apis.io/mailtrap/openapi/mailtrap-send-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: mailtrap-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mailtrap.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 12 17:17:20 2026 GMT\n  hsts: true\n  hsts_max_age: 0\n- host: send.api.mailtrap.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 04:53:53 2026 GMT\n  hsts: null\n- host: sandbox.api.mailtrap.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 04:53:53 2026 GMT\n  hsts: null\ndomains:\n- domain: mailtrap.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mailtrap/refs/heads/main/security/mailtrap-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mailtrap/security/mailtrap-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Email

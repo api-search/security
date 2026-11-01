@@ -7,31 +7,31 @@ api_specs:
   label: Tensorlake Datasets API
   slug: tensorlake-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensorlake/refs/heads/main/openapi/tensorlake-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/tensorlake/openapi/tensorlake-datasets-api-openapi.yml
 - filename: tensorlake-files-api-openapi.yml
   format: yaml
   label: Tensorlake Files API
   slug: tensorlake-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensorlake/refs/heads/main/openapi/tensorlake-files-api-openapi.yml
+  url: https://artifacts.apis.io/tensorlake/openapi/tensorlake-files-api-openapi.yml
 - filename: tensorlake-parse-api-openapi.yml
   format: yaml
   label: Tensorlake Parse API
   slug: tensorlake-parse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensorlake/refs/heads/main/openapi/tensorlake-parse-api-openapi.yml
+  url: https://artifacts.apis.io/tensorlake/openapi/tensorlake-parse-api-openapi.yml
 - filename: tensorlake-sandboxes-api-openapi.yml
   format: yaml
   label: Tensorlake Sandboxes API
   slug: tensorlake-sandboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensorlake/refs/heads/main/openapi/tensorlake-sandboxes-api-openapi.yml
+  url: https://artifacts.apis.io/tensorlake/openapi/tensorlake-sandboxes-api-openapi.yml
 - filename: tensorlake-structured-extraction-api-openapi.yml
   format: yaml
   label: Tensorlake Structured Extraction API
   slug: tensorlake-structured-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensorlake/refs/heads/main/openapi/tensorlake-structured-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/tensorlake/openapi/tensorlake-structured-extraction-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -59,7 +59,7 @@ source_filename: tensorlake-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: documented\nsource: https://docs.tensorlake.ai/platform/authentication\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    Tensorlake API key created in the Tensorlake Cloud dashboard\n    (cloud.tensorlake.ai) under a project. Keys are prefixed `tl_apiKey_` and are\n    passed on every REST request as `Authorization: Bearer <token>`. A live\n    unauthenticated request to https://api.tensorlake.ai returns HTTP 401,\n    confirming Bearer enforcement.\n  sources:\n  - https://docs.tensorlake.ai/platform/authentication\n  - https://docs.tensorlake.ai/api-reference/introduction\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tensorlake/refs/heads/main/authentication/tensorlake-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tensorlake/authentication/tensorlake-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Document Extraction

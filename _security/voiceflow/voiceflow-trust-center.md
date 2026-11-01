@@ -5,25 +5,25 @@ api_specs:
   label: Voiceflow Interact API
   slug: voiceflow-interact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voiceflow/refs/heads/main/openapi/voiceflow-interact-api-openapi.yml
+  url: https://artifacts.apis.io/voiceflow/openapi/voiceflow-interact-api-openapi.yml
 - filename: voiceflow-session-api-openapi.yml
   format: yaml
   label: Voiceflow Session API
   slug: voiceflow-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voiceflow/refs/heads/main/openapi/voiceflow-session-api-openapi.yml
+  url: https://artifacts.apis.io/voiceflow/openapi/voiceflow-session-api-openapi.yml
 - filename: voiceflow-state-api-openapi.yml
   format: yaml
   label: Voiceflow State API
   slug: voiceflow-state-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voiceflow/refs/heads/main/openapi/voiceflow-state-api-openapi.yml
+  url: https://artifacts.apis.io/voiceflow/openapi/voiceflow-state-api-openapi.yml
 - filename: voiceflow-variables-api-openapi.yml
   format: yaml
   label: Voiceflow Variables API
   slug: voiceflow-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voiceflow/refs/heads/main/openapi/voiceflow-variables-api-openapi.yml
+  url: https://artifacts.apis.io/voiceflow/openapi/voiceflow-variables-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -41,7 +41,7 @@ source_filename: voiceflow-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://app.drata.com:443/trust/9cc70c0b-0c38-11ee-865f-029d78a187d9\nurl: https://app.drata.com:443/trust/9cc70c0b-0c38-11ee-865f-029d78a187d9\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://app.drata.com:443/trust/9cc70c0b-0c38-11ee-865f-029d78a187d9\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voiceflow/refs/heads/main/security/voiceflow-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/voiceflow/security/voiceflow-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Artificial Intelligence

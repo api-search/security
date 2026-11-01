@@ -33,7 +33,7 @@ source_filename: improvmx-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: improvmx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 05:59:27 2026 GMT\n  hsts: false\ndomains:\n- domain: improvmx.com\n  dnssec: true\n  caa:\n  - 128 iodef \"mailto:support@improvmx.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/improvmx/refs/heads/main/security/improvmx-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/improvmx/security/improvmx-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Email

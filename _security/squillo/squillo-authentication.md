@@ -7,25 +7,25 @@ api_specs:
   label: Squillo Connectors API
   slug: squillo-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/openapi/squillo-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/squillo/openapi/squillo-connectors-api-openapi.yml
 - filename: squillo-executions-api-openapi.yml
   format: yaml
   label: Squillo Executions API
   slug: squillo-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/openapi/squillo-executions-api-openapi.yml
+  url: https://artifacts.apis.io/squillo/openapi/squillo-executions-api-openapi.yml
 - filename: squillo-variables-api-openapi.yml
   format: yaml
   label: Squillo Variables API
   slug: squillo-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/openapi/squillo-variables-api-openapi.yml
+  url: https://artifacts.apis.io/squillo/openapi/squillo-variables-api-openapi.yml
 - filename: squillo-workflows-api-openapi.yml
   format: yaml
   label: Squillo Workflows API
   slug: squillo-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/openapi/squillo-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/squillo/openapi/squillo-workflows-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: squillo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/squillo-platform-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/squillo-platform-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/authentication/squillo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/squillo/authentication/squillo-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Integration Platform

@@ -5,31 +5,31 @@ api_specs:
   label: CareAcademy Compliance Report API
   slug: careacademy-compliance-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/openapi/careacademy-compliance-report-api-openapi.yml
+  url: https://artifacts.apis.io/careacademy/openapi/careacademy-compliance-report-api-openapi.yml
 - filename: careacademy-locations-api-openapi.yml
   format: yaml
   label: CareAcademy Locations API
   slug: careacademy-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/openapi/careacademy-locations-api-openapi.yml
+  url: https://artifacts.apis.io/careacademy/openapi/careacademy-locations-api-openapi.yml
 - filename: careacademy-organizations-api-openapi.yml
   format: yaml
   label: CareAcademy Organizations API
   slug: careacademy-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/openapi/careacademy-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/careacademy/openapi/careacademy-organizations-api-openapi.yml
 - filename: careacademy-practitioners-api-openapi.yml
   format: yaml
   label: CareAcademy Practitioners API
   slug: careacademy-practitioners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/openapi/careacademy-practitioners-api-openapi.yml
+  url: https://artifacts.apis.io/careacademy/openapi/careacademy-practitioners-api-openapi.yml
 - filename: careacademy-sign-in-url-api-openapi.yml
   format: yaml
   label: CareAcademy Sign In Url API
   slug: careacademy-sign-in-url-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/openapi/careacademy-sign-in-url-api-openapi.yml
+  url: https://artifacts.apis.io/careacademy/openapi/careacademy-sign-in-url-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: careacademy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: careacademy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 22:41:20 2026 GMT\n  hsts: false\n- host: staging.careacademy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 22:41:20 2026 GMT\n  hsts: true\n  hsts_max_age: 604800\ndomains:\n- domain: careacademy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/security/careacademy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/careacademy/security/careacademy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
@@ -72,7 +72,6 @@ tags:
 - Education
 - Compliance
 - Home Care
-- Home Health
 - Hospice
 - Senior Living
 - Healthcare

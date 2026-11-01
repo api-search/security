@@ -5,25 +5,25 @@ api_specs:
   label: Cisco Webex Meetings Invitees API
   slug: cisco-webex-meetings-invitees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/openapi/cisco-webex-meetings-invitees-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-webex-meetings/openapi/cisco-webex-meetings-invitees-api-openapi.yml
 - filename: cisco-webex-meetings-meetings-api-openapi.yml
   format: yaml
   label: Cisco Webex Meetings API
   slug: cisco-webex-meetings-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/openapi/cisco-webex-meetings-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-webex-meetings/openapi/cisco-webex-meetings-meetings-api-openapi.yml
 - filename: cisco-webex-meetings-recordings-api-openapi.yml
   format: yaml
   label: Cisco Webex Meetings Recordings API
   slug: cisco-webex-meetings-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/openapi/cisco-webex-meetings-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-webex-meetings/openapi/cisco-webex-meetings-recordings-api-openapi.yml
 - filename: cisco-webex-meetings-transcripts-api-openapi.yml
   format: yaml
   label: Cisco Webex Meetings Transcripts API
   slug: cisco-webex-meetings-transcripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/openapi/cisco-webex-meetings-transcripts-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-webex-meetings/openapi/cisco-webex-meetings-transcripts-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -75,7 +75,7 @@ source_filename: cisco-webex-meetings-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.webex.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 21 09:08:54 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: webexapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 21 08:51:15 2026 GMT\n  hsts: null\n- host: developer.cisco.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 20 00:05:07 2027 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: webex.com\n  dnssec: false\n  caa:\n  - 128 issuewild \"identrust.com\"\n  - 128 iodef \"mailto:infosec@cisco.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: webexapis.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/security/cisco-webex-meetings-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cisco-webex-meetings/security/cisco-webex-meetings-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Collaboration

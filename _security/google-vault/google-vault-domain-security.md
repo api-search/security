@@ -5,37 +5,37 @@ api_specs:
   label: Google Vault Exports API
   slug: google-vault-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/openapi/google-vault-exports-api-openapi.yml
+  url: https://artifacts.apis.io/google-vault/openapi/google-vault-exports-api-openapi.yml
 - filename: google-vault-heldaccounts-api-openapi.yml
   format: yaml
   label: Google Vault HeldAccounts API
   slug: google-vault-heldaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/openapi/google-vault-heldaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/google-vault/openapi/google-vault-heldaccounts-api-openapi.yml
 - filename: google-vault-holds-api-openapi.yml
   format: yaml
   label: Google Vault Holds API
   slug: google-vault-holds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/openapi/google-vault-holds-api-openapi.yml
+  url: https://artifacts.apis.io/google-vault/openapi/google-vault-holds-api-openapi.yml
 - filename: google-vault-matters-api-openapi.yml
   format: yaml
   label: Google Vault Matters API
   slug: google-vault-matters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/openapi/google-vault-matters-api-openapi.yml
+  url: https://artifacts.apis.io/google-vault/openapi/google-vault-matters-api-openapi.yml
 - filename: google-vault-operations-api-openapi.yml
   format: yaml
   label: Google Vault Operations API
   slug: google-vault-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/openapi/google-vault-operations-api-openapi.yml
+  url: https://artifacts.apis.io/google-vault/openapi/google-vault-operations-api-openapi.yml
 - filename: google-vault-saved-queries-api-openapi.yml
   format: yaml
   label: Google Vault Saved Queries API
   slug: google-vault-saved-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/openapi/google-vault-saved-queries-api-openapi.yml
+  url: https://artifacts.apis.io/google-vault/openapi/google-vault-saved-queries-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -83,7 +83,7 @@ source_filename: google-vault-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 08:39:48 2026 GMT\n  hsts: false\n- host: developers.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 08:37:34 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: vault.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 08:39:03 2026 GMT\n  hsts: null\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/security/google-vault-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/google-vault/security/google-vault-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - eDiscovery

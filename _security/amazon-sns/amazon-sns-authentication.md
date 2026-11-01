@@ -7,37 +7,49 @@ api_specs:
   label: Amazon SNS Amazon SNS Amazon Simple Notification Service (SNS) API
   slug: amazon-sns-amazon-sns-amazon-simple-notification-service-sns-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/openapi/amazon-sns-amazon-sns-amazon-simple-notification-service-sns-api-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sns/openapi/amazon-sns-amazon-sns-amazon-simple-notification-service-sns-api-api-openapi.yml
 - filename: amazon-sns-platform-applications-api-openapi.yml
   format: yaml
   label: Amazon SNS Platform Applications API
   slug: amazon-sns-platform-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/openapi/amazon-sns-platform-applications-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sns/openapi/amazon-sns-platform-applications-api-openapi.yml
 - filename: amazon-sns-publishing-api-openapi.yml
   format: yaml
   label: Amazon SNS Publishing API
   slug: amazon-sns-publishing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/openapi/amazon-sns-publishing-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sns/openapi/amazon-sns-publishing-api-openapi.yml
 - filename: amazon-sns-sms-api-openapi.yml
   format: yaml
   label: Amazon SNS SMS API
   slug: amazon-sns-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/openapi/amazon-sns-sms-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sns/openapi/amazon-sns-sms-api-openapi.yml
 - filename: amazon-sns-subscriptions-api-openapi.yml
   format: yaml
   label: Amazon SNS Subscriptions API
   slug: amazon-sns-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/openapi/amazon-sns-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sns/openapi/amazon-sns-subscriptions-api-openapi.yml
 - filename: amazon-sns-topics-api-openapi.yml
   format: yaml
   label: Amazon SNS Topics API
   slug: amazon-sns-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/openapi/amazon-sns-topics-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sns/openapi/amazon-sns-topics-api-openapi.yml
+- filename: amazon-sns-operations-api-openapi.yml
+  format: yaml
+  label: Amazon SNS Sns Operations API
+  slug: amazon-sns-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-sns/openapi/amazon-sns-operations-api-openapi.yml
+- filename: amazon-sns-sms-sandbox-phone-number-api-openapi.yml
+  format: yaml
+  label: Amazon SNS Sns Sms Sandbox Phone Number API
+  slug: amazon-sns-sms-sandbox-phone-number-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-sns/openapi/amazon-sns-sms-sandbox-phone-number-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +76,7 @@ source_filename: amazon-sns-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-sns-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: AWS_IAM\n  type: http\n  scheme: bearer\n  description: AWS Signature Version 4 authentication. Requests must be signed using IAM credentials\n    with appropriate SNS permissions. See https://docs.aws.amazon.com/general/latest/gr/signing_aws_api_requests.html\n  sources:\n  - openapi/amazon-sns-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/authentication/amazon-sns-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-sns/authentication/amazon-sns-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Email

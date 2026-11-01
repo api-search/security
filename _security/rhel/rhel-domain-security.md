@@ -5,31 +5,31 @@ api_specs:
   label: Red Hat Enterprise Linux Advisories API
   slug: rhel-advisories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-advisories-api-openapi.yml
+  url: https://artifacts.apis.io/rhel/openapi/rhel-advisories-api-openapi.yml
 - filename: rhel-oval-api-openapi.yml
   format: yaml
   label: Red Hat Enterprise Linux OVAL API
   slug: rhel-oval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-oval-api-openapi.yml
+  url: https://artifacts.apis.io/rhel/openapi/rhel-oval-api-openapi.yml
 - filename: rhel-subscriptions-api-openapi.yml
   format: yaml
   label: Red Hat Enterprise Linux Subscriptions API
   slug: rhel-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/rhel/openapi/rhel-subscriptions-api-openapi.yml
 - filename: rhel-systems-api-openapi.yml
   format: yaml
   label: Red Hat Enterprise Linux Systems API
   slug: rhel-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-systems-api-openapi.yml
+  url: https://artifacts.apis.io/rhel/openapi/rhel-systems-api-openapi.yml
 - filename: rhel-cves-api-openapi.yml
   format: yaml
   label: Red Hat Enterprise Linux CV Es API
   slug: rhel-cves-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-cves-api-openapi.yml
+  url: https://artifacts.apis.io/rhel/openapi/rhel-cves-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -75,7 +75,7 @@ source_filename: rhel-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: access.redhat.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 86400\n- host: www.redhat.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.access.redhat.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 16 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: redhat.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"digicert.com\"\n  - 0 iodef \"mailto:it-cert-admin@redhat.com\"\n  - 0 issue \"amazontrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/security/rhel-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rhel/security/rhel-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Automation

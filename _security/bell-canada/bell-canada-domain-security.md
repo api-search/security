@@ -5,55 +5,55 @@ api_specs:
   label: Bell Canada Cancel Service Order API
   slug: bell-canada-cancelserviceorder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-cancelserviceorder-api-openapi.yml
+  url: https://artifacts.apis.io/bell-canada/openapi/bell-canada-cancelserviceorder-api-openapi.yml
 - filename: bell-canada-changerequest-api-openapi.yml
   format: yaml
   label: Bell Canada Change Request API
   slug: bell-canada-changerequest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-changerequest-api-openapi.yml
+  url: https://artifacts.apis.io/bell-canada/openapi/bell-canada-changerequest-api-openapi.yml
 - filename: bell-canada-events-subscription-api-openapi.yml
   format: yaml
   label: Bell Canada events subscription API
   slug: bell-canada-events-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-events-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/bell-canada/openapi/bell-canada-events-subscription-api-openapi.yml
 - filename: bell-canada-logicalresource-api-openapi.yml
   format: yaml
   label: Bell Canada Logical Resource API
   slug: bell-canada-logicalresource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-logicalresource-api-openapi.yml
+  url: https://artifacts.apis.io/bell-canada/openapi/bell-canada-logicalresource-api-openapi.yml
 - filename: bell-canada-notification-listeners-client-side-api-openapi.yml
   format: yaml
   label: Bell Canada notification listeners (client side) API
   slug: bell-canada-notification-listeners-client-side-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-notification-listeners-client-side-api-openapi.yml
+  url: https://artifacts.apis.io/bell-canada/openapi/bell-canada-notification-listeners-client-side-api-openapi.yml
 - filename: bell-canada-physicalresource-api-openapi.yml
   format: yaml
   label: Bell Canada Physical Resource API
   slug: bell-canada-physicalresource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-physicalresource-api-openapi.yml
+  url: https://artifacts.apis.io/bell-canada/openapi/bell-canada-physicalresource-api-openapi.yml
 - filename: bell-canada-resource-api-openapi.yml
   format: yaml
   label: Bell Canada Resource API
   slug: bell-canada-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-resource-api-openapi.yml
+  url: https://artifacts.apis.io/bell-canada/openapi/bell-canada-resource-api-openapi.yml
 - filename: bell-canada-service-order-api-openapi.yml
   format: yaml
   label: Bell Canada Service Order API
   slug: bell-canada-service-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-service-order-api-openapi.yml
+  url: https://artifacts.apis.io/bell-canada/openapi/bell-canada-service-order-api-openapi.yml
 - filename: bell-canada-trouble-ticket-api-openapi.yml
   format: yaml
   label: Bell Canada Trouble Ticket API
   slug: bell-canada-trouble-ticket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-trouble-ticket-api-openapi.yml
+  url: https://artifacts.apis.io/bell-canada/openapi/bell-canada-trouble-ticket-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -89,7 +89,7 @@ source_filename: bell-canada-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bell.ca\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.bell.ca\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 11 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: bell.ca\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/security/bell-canada-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bell-canada/security/bell-canada-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Telecommunications

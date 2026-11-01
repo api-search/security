@@ -5,31 +5,31 @@ api_specs:
   label: Wunderkind Contacts API
   slug: bouncex-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bouncex/refs/heads/main/openapi/bouncex-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/bouncex/openapi/bouncex-contacts-api-openapi.yml
 - filename: bouncex-createcontactactivities-api-openapi.yml
   format: yaml
   label: Wunderkind Createcontactactivities API
   slug: bouncex-createcontactactivities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bouncex/refs/heads/main/openapi/bouncex-createcontactactivities-api-openapi.yml
+  url: https://artifacts.apis.io/bouncex/openapi/bouncex-createcontactactivities-api-openapi.yml
 - filename: bouncex-id-resolution-api-openapi.yml
   format: yaml
   label: Wunderkind Id Resolution API
   slug: bouncex-id-resolution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bouncex/refs/heads/main/openapi/bouncex-id-resolution-api-openapi.yml
+  url: https://artifacts.apis.io/bouncex/openapi/bouncex-id-resolution-api-openapi.yml
 - filename: bouncex-interaction-api-openapi.yml
   format: yaml
   label: Wunderkind Interaction API
   slug: bouncex-interaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bouncex/refs/heads/main/openapi/bouncex-interaction-api-openapi.yml
+  url: https://artifacts.apis.io/bouncex/openapi/bouncex-interaction-api-openapi.yml
 - filename: bouncex-text-api-openapi.yml
   format: yaml
   label: Wunderkind Text API
   slug: bouncex-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bouncex/refs/heads/main/openapi/bouncex-text-api-openapi.yml
+  url: https://artifacts.apis.io/bouncex/openapi/bouncex-text-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: bouncex-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: forgeglobal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 16:17:45 2026 GMT\n  hsts: null\ndomains:\n- domain: forgeglobal.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bouncex/refs/heads/main/security/bouncex-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bouncex/security/bouncex-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Marketing

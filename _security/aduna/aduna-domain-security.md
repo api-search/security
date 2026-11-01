@@ -27,7 +27,7 @@ source_filename: aduna-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: adunaglobal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 03:49:14 2026 GMT\n  hsts: false\ndomains:\n- domain: adunaglobal.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aduna/refs/heads/main/security/aduna-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aduna/security/aduna-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Telecommunications

@@ -5,25 +5,25 @@ api_specs:
   label: Mendable Chat API
   slug: mendable-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/openapi/mendable-chat-api-openapi.yml
+  url: https://artifacts.apis.io/mendable/openapi/mendable-chat-api-openapi.yml
 - filename: mendable-conversations-api-openapi.yml
   format: yaml
   label: Mendable Conversations API
   slug: mendable-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/openapi/mendable-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/mendable/openapi/mendable-conversations-api-openapi.yml
 - filename: mendable-ingestion-api-openapi.yml
   format: yaml
   label: Mendable Ingestion API
   slug: mendable-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/openapi/mendable-ingestion-api-openapi.yml
+  url: https://artifacts.apis.io/mendable/openapi/mendable-ingestion-api-openapi.yml
 - filename: mendable-ratings-api-openapi.yml
   format: yaml
   label: Mendable Ratings API
   slug: mendable-ratings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/openapi/mendable-ratings-api-openapi.yml
+  url: https://artifacts.apis.io/mendable/openapi/mendable-ratings-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -41,7 +41,7 @@ source_filename: mendable-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.mendable.ai/security\nurl: https://www.mendable.ai/security\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://www.mendable.ai/security\n  keywords:\n  - soc 2\n  - soc2\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/security/mendable-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/mendable/security/mendable-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - Artificial Intelligence

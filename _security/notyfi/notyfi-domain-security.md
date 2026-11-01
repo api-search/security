@@ -5,31 +5,31 @@ api_specs:
   label: Notyfi Account API
   slug: notyfi-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/openapi/notyfi-account-api-openapi.yml
+  url: https://artifacts.apis.io/notyfi/openapi/notyfi-account-api-openapi.yml
 - filename: notyfi-billing-api-openapi.yml
   format: yaml
   label: Notyfi Billing API
   slug: notyfi-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/openapi/notyfi-billing-api-openapi.yml
+  url: https://artifacts.apis.io/notyfi/openapi/notyfi-billing-api-openapi.yml
 - filename: notyfi-keys-api-openapi.yml
   format: yaml
   label: Notyfi Keys API
   slug: notyfi-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/openapi/notyfi-keys-api-openapi.yml
+  url: https://artifacts.apis.io/notyfi/openapi/notyfi-keys-api-openapi.yml
 - filename: notyfi-trackers-api-openapi.yml
   format: yaml
   label: Notyfi Trackers API
   slug: notyfi-trackers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/openapi/notyfi-trackers-api-openapi.yml
+  url: https://artifacts.apis.io/notyfi/openapi/notyfi-trackers-api-openapi.yml
 - filename: notyfi-webhooks-api-openapi.yml
   format: yaml
   label: Notyfi Webhooks API
   slug: notyfi-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/openapi/notyfi-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/notyfi/openapi/notyfi-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: notyfi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.notyfi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 25 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: notyfi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/security/notyfi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/notyfi/security/notyfi-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

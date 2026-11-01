@@ -5,7 +5,7 @@ api_specs:
   label: Taxley (UK Corporation Tax API) Tools API
   slug: taxley-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxley/refs/heads/main/openapi/taxley-tools-api-openapi.yml
+  url: https://artifacts.apis.io/taxley/openapi/taxley-tools-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -35,7 +35,7 @@ source_filename: taxley-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: taxley.co.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  8 01:20:39 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: taxley.co.uk\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taxley/refs/heads/main/security/taxley-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/taxley/security/taxley-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

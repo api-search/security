@@ -5,61 +5,61 @@ api_specs:
   label: MarketCheck VIN Decoder API
   slug: marketcheck-vin-decoder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/openapi/marketcheck-vin-decoder-api-openapi.yml
+  url: https://artifacts.apis.io/marketcheck/openapi/marketcheck-vin-decoder-api-openapi.yml
 - filename: marketcheck-dealer-api-openapi.yml
   format: yaml
   label: MarketCheck Dealer API
   slug: marketcheck-dealer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/openapi/marketcheck-dealer-api-openapi.yml
+  url: https://artifacts.apis.io/marketcheck/openapi/marketcheck-dealer-api-openapi.yml
 - filename: marketcheck-dealer-api-openapi.yml
   format: yaml
   label: MarketCheck Dealer API
   slug: marketcheck-dealer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/openapi/marketcheck-dealer-api-openapi.yml
+  url: https://artifacts.apis.io/marketcheck/openapi/marketcheck-dealer-api-openapi.yml
 - filename: marketcheck-facets-api-openapi.yml
   format: yaml
   label: MarketCheck Facets API
   slug: marketcheck-facets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/openapi/marketcheck-facets-api-openapi.yml
+  url: https://artifacts.apis.io/marketcheck/openapi/marketcheck-facets-api-openapi.yml
 - filename: marketcheck-graphs-api-openapi.yml
   format: yaml
   label: MarketCheck Graphs API
   slug: marketcheck-graphs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/openapi/marketcheck-graphs-api-openapi.yml
+  url: https://artifacts.apis.io/marketcheck/openapi/marketcheck-graphs-api-openapi.yml
 - filename: marketcheck-history-api-openapi.yml
   format: yaml
   label: MarketCheck History API
   slug: marketcheck-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/openapi/marketcheck-history-api-openapi.yml
+  url: https://artifacts.apis.io/marketcheck/openapi/marketcheck-history-api-openapi.yml
 - filename: marketcheck-inventory-api-openapi.yml
   format: yaml
   label: MarketCheck Inventory API
   slug: marketcheck-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/openapi/marketcheck-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/marketcheck/openapi/marketcheck-inventory-api-openapi.yml
 - filename: marketcheck-listings-api-openapi.yml
   format: yaml
   label: MarketCheck Listings API
   slug: marketcheck-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/openapi/marketcheck-listings-api-openapi.yml
+  url: https://artifacts.apis.io/marketcheck/openapi/marketcheck-listings-api-openapi.yml
 - filename: marketcheck-market-api-openapi.yml
   format: yaml
   label: MarketCheck Market API
   slug: marketcheck-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/openapi/marketcheck-market-api-openapi.yml
+  url: https://artifacts.apis.io/marketcheck/openapi/marketcheck-market-api-openapi.yml
 - filename: marketcheck-vin-decoder-api-openapi.yml
   format: yaml
   label: MarketCheck VIN Decoder API
   slug: marketcheck-vin-decoder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/openapi/marketcheck-vin-decoder-api-openapi.yml
+  url: https://artifacts.apis.io/marketcheck/openapi/marketcheck-vin-decoder-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -93,12 +93,12 @@ source_filename: marketcheck-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.marketcheck.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 19:18:55 2026 GMT\n  hsts: false\n- host: mc-api.marketcheck.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: marketcheck.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/security/marketcheck-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/marketcheck/security/marketcheck-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Automotive
 - Vehicle Data
-- VIN Decoder
+- VIN Decoding
 - Car Inventory
 - Market Data
 - Dealer Inventory

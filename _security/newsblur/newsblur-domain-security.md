@@ -5,43 +5,43 @@ api_specs:
   label: NewsBlur Authentication API
   slug: newsblur-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/openapi/newsblur-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/newsblur/openapi/newsblur-authentication-api-openapi.yml
 - filename: newsblur-classifiers-api-openapi.yml
   format: yaml
   label: NewsBlur Classifiers API
   slug: newsblur-classifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/openapi/newsblur-classifiers-api-openapi.yml
+  url: https://artifacts.apis.io/newsblur/openapi/newsblur-classifiers-api-openapi.yml
 - filename: newsblur-feed-management-api-openapi.yml
   format: yaml
   label: NewsBlur Feed Management API
   slug: newsblur-feed-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/openapi/newsblur-feed-management-api-openapi.yml
+  url: https://artifacts.apis.io/newsblur/openapi/newsblur-feed-management-api-openapi.yml
 - filename: newsblur-feeds-api-openapi.yml
   format: yaml
   label: NewsBlur Feeds API
   slug: newsblur-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/openapi/newsblur-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/newsblur/openapi/newsblur-feeds-api-openapi.yml
 - filename: newsblur-import-export-api-openapi.yml
   format: yaml
   label: NewsBlur Import Export API
   slug: newsblur-import-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/openapi/newsblur-import-export-api-openapi.yml
+  url: https://artifacts.apis.io/newsblur/openapi/newsblur-import-export-api-openapi.yml
 - filename: newsblur-social-api-openapi.yml
   format: yaml
   label: NewsBlur Social API
   slug: newsblur-social-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/openapi/newsblur-social-api-openapi.yml
+  url: https://artifacts.apis.io/newsblur/openapi/newsblur-social-api-openapi.yml
 - filename: newsblur-stories-api-openapi.yml
   format: yaml
   label: NewsBlur Stories API
   slug: newsblur-stories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/openapi/newsblur-stories-api-openapi.yml
+  url: https://artifacts.apis.io/newsblur/openapi/newsblur-stories-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: newsblur-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.newsblur.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 03:05:00 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: newsblur.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/security/newsblur-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/newsblur/security/newsblur-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

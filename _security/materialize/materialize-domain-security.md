@@ -5,13 +5,13 @@ api_specs:
   label: Materialize Streaming Sources and Sinks (AsyncAPI)
   slug: materialize-streaming-asyncapi
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/materialize/refs/heads/main/asyncapi/materialize-asyncapi.yml
+  url: https://artifacts.apis.io/materialize/asyncapi/materialize-asyncapi.yml
 - filename: materialize-sql-api-openapi.yml
   format: yaml
   label: Materialize Sql API
   slug: materialize-sql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/materialize/refs/heads/main/openapi/materialize-sql-api-openapi.yml
+  url: https://artifacts.apis.io/materialize/openapi/materialize-sql-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,7 +41,7 @@ source_filename: materialize-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: materialize.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: materialize.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/materialize/refs/heads/main/security/materialize-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/materialize/security/materialize-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Streaming

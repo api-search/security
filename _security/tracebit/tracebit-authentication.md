@@ -7,13 +7,13 @@ api_specs:
   label: Tracebit Alerts API
   slug: tracebit-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tracebit/refs/heads/main/openapi/tracebit-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/tracebit/openapi/tracebit-alerts-api-openapi.yml
 - filename: tracebit-canary-credentials-api-openapi.yml
   format: yaml
   label: Tracebit Canary Credentials API
   slug: tracebit-canary-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tracebit/refs/heads/main/openapi/tracebit-canary-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/tracebit/openapi/tracebit-canary-credentials-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/tracebit-community-openapi-original.json\ndocs: https://community.tracebit.com/api-docs\nnotes: >-\n  The Tracebit API (Community Edition) authenticates with an API token sent as an\n  HTTP bearer token. API tokens are created in the Tracebit Community portal\n  (community.tracebit.com) and carry granular permissions referenced per operation\n  in the OpenAPI descriptions (e.g. canary-credentials:all:create, alerts:all:list,\n  alerts:all:get). The enterprise product docs (docs.tracebit.com) are\n  login-gated (HTTP 401). The host also publishes an OpenID Connect discovery\n  document at /.well-known/openid-configuration for its user login surface.\nsummary:\n  types:\n  - http\n  http_schemes:\n  - bearer\n  oauth2_flows: []\n  api_key_in: []\npermissions:\n- permission: canary-credentials:all:create\n  operations:\n  - IssueCredentials\n  - ConfirmCredentials\n- permission: alerts:all:list\n  operations:\n  - ListAlerts\n\
   - permission: alerts:all:get\n  operations:\n  - GetAlertLogs\nschemes:\n- name: TracebitApiToken\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/tracebit-community-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tracebit/refs/heads/main/authentication/tracebit-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tracebit/authentication/tracebit-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

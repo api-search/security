@@ -5,7 +5,7 @@ api_specs:
   label: Hilbert's Program API
   slug: hilberts-program-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hilberts-ai/refs/heads/main/openapi/hilberts-ai-program-api-openapi.yml
+  url: https://artifacts.apis.io/hilberts-ai/openapi/hilberts-ai-program-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +40,7 @@ source_filename: hilberts-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: hilberts.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 19:48:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app-api.hilberts.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 00:11:05 2026 GMT\n  hsts: null\ndomains:\n- domain: hilberts.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hilberts-ai/refs/heads/main/security/hilberts-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hilberts-ai/security/hilberts-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

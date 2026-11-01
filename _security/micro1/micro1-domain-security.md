@@ -5,37 +5,37 @@ api_specs:
   label: micro1 Interview API
   slug: micro1-interview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/micro1/refs/heads/main/openapi/micro1-interview-api-openapi.yml
+  url: https://artifacts.apis.io/micro1/openapi/micro1-interview-api-openapi.yml
 - filename: micro1-interview-reports-api-openapi.yml
   format: yaml
   label: micro1 Interview Reports API
   slug: micro1-interview-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/micro1/refs/heads/main/openapi/micro1-interview-reports-api-openapi.yml
+  url: https://artifacts.apis.io/micro1/openapi/micro1-interview-reports-api-openapi.yml
 - filename: micro1-invite-candidate-api-openapi.yml
   format: yaml
   label: micro1 Invite Candidate API
   slug: micro1-invite-candidate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/micro1/refs/heads/main/openapi/micro1-invite-candidate-api-openapi.yml
+  url: https://artifacts.apis.io/micro1/openapi/micro1-invite-candidate-api-openapi.yml
 - filename: micro1-job-api-openapi.yml
   format: yaml
   label: micro1 Job API
   slug: micro1-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/micro1/refs/heads/main/openapi/micro1-job-api-openapi.yml
+  url: https://artifacts.apis.io/micro1/openapi/micro1-job-api-openapi.yml
 - filename: micro1-job-applicant-api-openapi.yml
   format: yaml
   label: micro1 Job Applicant API
   slug: micro1-job-applicant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/micro1/refs/heads/main/openapi/micro1-job-applicant-api-openapi.yml
+  url: https://artifacts.apis.io/micro1/openapi/micro1-job-applicant-api-openapi.yml
 - filename: micro1-webhook-api-openapi.yml
   format: yaml
   label: micro1 Webhook API
   slug: micro1-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/micro1/refs/heads/main/openapi/micro1-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/micro1/openapi/micro1-webhook-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: micro1-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-31'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.micro1.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 22:58:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: ai-recruiter.micro1.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 22:01:48 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: public.api.micro1.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  7 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: micro1.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/micro1/refs/heads/main/security/micro1-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/micro1/security/micro1-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

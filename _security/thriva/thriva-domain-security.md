@@ -5,61 +5,61 @@ api_specs:
   label: Thriva Appointments API
   slug: thriva-appointments-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/openapi/thriva-appointments-api-api-openapi.yml
+  url: https://artifacts.apis.io/thriva/openapi/thriva-appointments-api-api-openapi.yml
 - filename: thriva-auth-api-api-openapi.yml
   format: yaml
   label: Thriva Auth API
   slug: thriva-auth-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/openapi/thriva-auth-api-api-openapi.yml
+  url: https://artifacts.apis.io/thriva/openapi/thriva-auth-api-api-openapi.yml
 - filename: thriva-biomarkers-api-api-openapi.yml
   format: yaml
   label: Thriva Biomarkers API
   slug: thriva-biomarkers-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/openapi/thriva-biomarkers-api-api-openapi.yml
+  url: https://artifacts.apis.io/thriva/openapi/thriva-biomarkers-api-api-openapi.yml
 - filename: thriva-bulk-orders-api-api-openapi.yml
   format: yaml
   label: Thriva Bulk Orders API
   slug: thriva-bulk-orders-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/openapi/thriva-bulk-orders-api-api-openapi.yml
+  url: https://artifacts.apis.io/thriva/openapi/thriva-bulk-orders-api-api-openapi.yml
 - filename: thriva-escalations-api-api-openapi.yml
   format: yaml
   label: Thriva Escalations API
   slug: thriva-escalations-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/openapi/thriva-escalations-api-api-openapi.yml
+  url: https://artifacts.apis.io/thriva/openapi/thriva-escalations-api-api-openapi.yml
 - filename: thriva-orders-api-api-openapi.yml
   format: yaml
   label: Thriva Orders API
   slug: thriva-orders-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/openapi/thriva-orders-api-api-openapi.yml
+  url: https://artifacts.apis.io/thriva/openapi/thriva-orders-api-api-openapi.yml
 - filename: thriva-result-attachments-api-api-openapi.yml
   format: yaml
   label: Thriva Result attachments API
   slug: thriva-result-attachments-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/openapi/thriva-result-attachments-api-api-openapi.yml
+  url: https://artifacts.apis.io/thriva/openapi/thriva-result-attachments-api-api-openapi.yml
 - filename: thriva-results-api-api-openapi.yml
   format: yaml
   label: Thriva Results API
   slug: thriva-results-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/openapi/thriva-results-api-api-openapi.yml
+  url: https://artifacts.apis.io/thriva/openapi/thriva-results-api-api-openapi.yml
 - filename: thriva-tracking-api-api-openapi.yml
   format: yaml
   label: Thriva Tracking API
   slug: thriva-tracking-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/openapi/thriva-tracking-api-api-openapi.yml
+  url: https://artifacts.apis.io/thriva/openapi/thriva-tracking-api-api-openapi.yml
 - filename: thriva-users-api-api-openapi.yml
   format: yaml
   label: Thriva Users API
   slug: thriva-users-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/openapi/thriva-users-api-api-openapi.yml
+  url: https://artifacts.apis.io/thriva/openapi/thriva-users-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -105,7 +105,7 @@ source_filename: thriva-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: thriva.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.thriva.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 23:59:59 2026 GMT\n  hsts: null\n- host: api.euw2.sandbox.thriva.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: thriva.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: thriva.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/security/thriva-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/thriva/security/thriva-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

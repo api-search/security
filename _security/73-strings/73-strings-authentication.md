@@ -9,37 +9,37 @@ api_specs:
   label: 73 Strings Asset Info API
   slug: 73-strings-asset-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/openapi/73-strings-asset-info-api-openapi.yml
+  url: https://artifacts.apis.io/73-strings/openapi/73-strings-asset-info-api-openapi.yml
 - filename: 73-strings-documents-api-openapi.yml
   format: yaml
   label: 73 Strings Documents API
   slug: 73-strings-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/openapi/73-strings-documents-api-openapi.yml
+  url: https://artifacts.apis.io/73-strings/openapi/73-strings-documents-api-openapi.yml
 - filename: 73-strings-financial-data-api-openapi.yml
   format: yaml
   label: 73 Strings Financial Data API
   slug: 73-strings-financial-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/openapi/73-strings-financial-data-api-openapi.yml
+  url: https://artifacts.apis.io/73-strings/openapi/73-strings-financial-data-api-openapi.yml
 - filename: 73-strings-qualitative-data-api-openapi.yml
   format: yaml
   label: 73 Strings Qualitative Data API
   slug: 73-strings-qualitative-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/openapi/73-strings-qualitative-data-api-openapi.yml
+  url: https://artifacts.apis.io/73-strings/openapi/73-strings-qualitative-data-api-openapi.yml
 - filename: 73-strings-transaction-api-api-openapi.yml
   format: yaml
   label: 73 Strings Transaction API
   slug: 73-strings-transaction-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/openapi/73-strings-transaction-api-api-openapi.yml
+  url: https://artifacts.apis.io/73-strings/openapi/73-strings-transaction-api-api-openapi.yml
 - filename: 73-strings-cap-table-api-openapi.yml
   format: yaml
   label: 73 Strings cap table API
   slug: 73-strings-cap-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/openapi/73-strings-cap-table-api-openapi.yml
+  url: https://artifacts.apis.io/73-strings/openapi/73-strings-cap-table-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -83,7 +83,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-05'\nmethod: derived\nsource: openapi/73-strings-asset-info-openapi.yml, openapi/73-strings-captable-openapi.yml,\n  openapi/73-strings-documents-openapi.yml, openapi/73-strings-financial-data-openapi.yml, openapi/73-strings-qualitative-data-openapi.yml,\n  openapi/73-strings-transaction-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: apiKeyHeader\n  type: apiKey\n  in: header\n  parameter: subscription-key\n  sources:\n  - openapi/73-strings-asset-info-openapi.yml\n  - openapi/73-strings-captable-openapi.yml\n  - openapi/73-strings-documents-openapi.yml\n  - openapi/73-strings-financial-data-openapi.yml\n  - openapi/73-strings-qualitative-data-openapi.yml\n  - openapi/73-strings-transaction-api-openapi.yml\n- name: apiKeyQuery\n  type: apiKey\n  in: query\n  parameter: subscription-key\n  sources:\n  - openapi/73-strings-asset-info-openapi.yml\n  - openapi/73-strings-captable-openapi.yml\n  - openapi/73-strings-documents-openapi.yml\n\
   \  - openapi/73-strings-financial-data-openapi.yml\n  - openapi/73-strings-qualitative-data-openapi.yml\n  - openapi/73-strings-transaction-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/authentication/73-strings-authentication.yml
+source_yaml_url: https://artifacts.apis.io/73-strings/authentication/73-strings-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Private Markets

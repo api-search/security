@@ -7,55 +7,55 @@ api_specs:
   label: Tekmetric Appointments API
   slug: tekmetric-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/tekmetric/openapi/tekmetric-appointments-api-openapi.yml
 - filename: tekmetric-canned-jobs-api-openapi.yml
   format: yaml
   label: Tekmetric Canned Jobs API
   slug: tekmetric-canned-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-canned-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/tekmetric/openapi/tekmetric-canned-jobs-api-openapi.yml
 - filename: tekmetric-customers-api-openapi.yml
   format: yaml
   label: Tekmetric Customers API
   slug: tekmetric-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-customers-api-openapi.yml
+  url: https://artifacts.apis.io/tekmetric/openapi/tekmetric-customers-api-openapi.yml
 - filename: tekmetric-employees-api-openapi.yml
   format: yaml
   label: Tekmetric Employees API
   slug: tekmetric-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-employees-api-openapi.yml
+  url: https://artifacts.apis.io/tekmetric/openapi/tekmetric-employees-api-openapi.yml
 - filename: tekmetric-inventory-api-openapi.yml
   format: yaml
   label: Tekmetric Inventory API
   slug: tekmetric-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/tekmetric/openapi/tekmetric-inventory-api-openapi.yml
 - filename: tekmetric-jobs-api-openapi.yml
   format: yaml
   label: Tekmetric Jobs API
   slug: tekmetric-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/tekmetric/openapi/tekmetric-jobs-api-openapi.yml
 - filename: tekmetric-repair-orders-api-openapi.yml
   format: yaml
   label: Tekmetric Repair Orders API
   slug: tekmetric-repair-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-repair-orders-api-openapi.yml
+  url: https://artifacts.apis.io/tekmetric/openapi/tekmetric-repair-orders-api-openapi.yml
 - filename: tekmetric-shops-api-openapi.yml
   format: yaml
   label: Tekmetric Shops API
   slug: tekmetric-shops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-shops-api-openapi.yml
+  url: https://artifacts.apis.io/tekmetric/openapi/tekmetric-shops-api-openapi.yml
 - filename: tekmetric-vehicles-api-openapi.yml
   format: yaml
   label: Tekmetric Vehicles API
   slug: tekmetric-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/tekmetric/openapi/tekmetric-vehicles-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -86,12 +86,12 @@ source_filename: tekmetric-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tekmetric-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://shop.tekmetric.com/api/v1/oauth/token\n    scopes: 0\n  description: OAuth 2.0 client credentials grant. Requires an approved Client ID/Secret issued\n    by Tekmetric after a manual request-access review (reported at roughly 2-3 weeks).\n  sources:\n  - openapi/tekmetric-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/authentication/tekmetric-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tekmetric/authentication/tekmetric-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Automotive
 - Auto Repair
 - Shop Management
-- Fleet
+- Fleet Management
 - Vertical SaaS
 ---

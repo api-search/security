@@ -8,13 +8,13 @@ api_specs:
   label: Autonomys Auto Drive API
   slug: autonomys-auto-drive-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/openapi/autonomys-auto-drive-api-api-openapi.yml
+  url: https://artifacts.apis.io/autonomys/openapi/autonomys-auto-drive-api-api-openapi.yml
 - filename: autonomys-auto-drive-download-gateway-api-openapi.yml
   format: yaml
   label: Autonomys Auto Drive Download Gateway API
   slug: autonomys-auto-drive-download-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/openapi/autonomys-auto-drive-download-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/autonomys/openapi/autonomys-auto-drive-download-gateway-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -49,7 +49,7 @@ source_filename: autonomys-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/autonomys-auto-drive-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Bearer token for authentication. Example: Bearer <token>. Could be either an\n    API key or a JWT token.'\n  sources:\n  - openapi/autonomys-auto-drive-openapi.json\n- name: provider\n  type: apiKey\n  in: header\n  parameter: X-Auth-Provider\n  description: 'Used for differentiating between different auth providers. For most use cases:\n    X-Auth-Provider: apikey'\n  sources:\n  - openapi/autonomys-auto-drive-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/authentication/autonomys-authentication.yml
+source_yaml_url: https://artifacts.apis.io/autonomys/authentication/autonomys-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company

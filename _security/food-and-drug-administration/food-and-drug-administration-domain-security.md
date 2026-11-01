@@ -5,37 +5,37 @@ api_specs:
   label: Food and Drug Administration Animal & Veterinary API
   slug: food-and-drug-administration-animal-veterinary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/food-and-drug-administration/refs/heads/main/openapi/food-and-drug-administration-animal-veterinary-api-openapi.yml
+  url: https://artifacts.apis.io/food-and-drug-administration/openapi/food-and-drug-administration-animal-veterinary-api-openapi.yml
 - filename: food-and-drug-administration-device-api-openapi.yml
   format: yaml
   label: Food and Drug Administration Device API
   slug: food-and-drug-administration-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/food-and-drug-administration/refs/heads/main/openapi/food-and-drug-administration-device-api-openapi.yml
+  url: https://artifacts.apis.io/food-and-drug-administration/openapi/food-and-drug-administration-device-api-openapi.yml
 - filename: food-and-drug-administration-drug-api-openapi.yml
   format: yaml
   label: Food and Drug Administration Drug API
   slug: food-and-drug-administration-drug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/food-and-drug-administration/refs/heads/main/openapi/food-and-drug-administration-drug-api-openapi.yml
+  url: https://artifacts.apis.io/food-and-drug-administration/openapi/food-and-drug-administration-drug-api-openapi.yml
 - filename: food-and-drug-administration-food-api-openapi.yml
   format: yaml
   label: Food and Drug Administration Food API
   slug: food-and-drug-administration-food-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/food-and-drug-administration/refs/heads/main/openapi/food-and-drug-administration-food-api-openapi.yml
+  url: https://artifacts.apis.io/food-and-drug-administration/openapi/food-and-drug-administration-food-api-openapi.yml
 - filename: food-and-drug-administration-other-api-openapi.yml
   format: yaml
   label: Food and Drug Administration Other API
   slug: food-and-drug-administration-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/food-and-drug-administration/refs/heads/main/openapi/food-and-drug-administration-other-api-openapi.yml
+  url: https://artifacts.apis.io/food-and-drug-administration/openapi/food-and-drug-administration-other-api-openapi.yml
 - filename: food-and-drug-administration-tobacco-api-openapi.yml
   format: yaml
   label: Food and Drug Administration Tobacco API
   slug: food-and-drug-administration-tobacco-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/food-and-drug-administration/refs/heads/main/openapi/food-and-drug-administration-tobacco-api-openapi.yml
+  url: https://artifacts.apis.io/food-and-drug-administration/openapi/food-and-drug-administration-tobacco-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: food-and-drug-administration-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fda.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 13 16:54:46 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: open.fda.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 18:57:13 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.fda.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 11:20:53 2026 GMT\n  hsts: null\ndomains:\n- domain: fda.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/food-and-drug-administration/refs/heads/main/security/food-and-drug-administration-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/food-and-drug-administration/security/food-and-drug-administration-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Drugs

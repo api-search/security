@@ -5,7 +5,7 @@ api_specs:
   label: Qiwi Partner API
   slug: qiwi-partner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qiwi/refs/heads/main/openapi/qiwi-partner-api-openapi.yml
+  url: https://artifacts.apis.io/qiwi/openapi/qiwi-partner-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: qiwi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.qiwi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 08:16:43 2026 GMT\n  hsts: false\n- host: qiwi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 08:16:43 2026 GMT\n  hsts: true\n  hsts_max_age: 15724800\n- host: api.qiwi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 08:16:43 2026 GMT\n  hsts: true\n  hsts_max_age: 15724800\ndomains:\n- domain: qiwi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qiwi/refs/heads/main/security/qiwi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/qiwi/security/qiwi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments

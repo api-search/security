@@ -5,31 +5,31 @@ api_specs:
   label: Quorum Software Leases API
   slug: quorum-leases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/openapi/quorum-leases-api-openapi.yml
+  url: https://artifacts.apis.io/quorum/openapi/quorum-leases-api-openapi.yml
 - filename: quorum-owners-api-openapi.yml
   format: yaml
   label: Quorum Software Owners API
   slug: quorum-owners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/openapi/quorum-owners-api-openapi.yml
+  url: https://artifacts.apis.io/quorum/openapi/quorum-owners-api-openapi.yml
 - filename: quorum-tracts-api-openapi.yml
   format: yaml
   label: Quorum Software Tracts API
   slug: quorum-tracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/openapi/quorum-tracts-api-openapi.yml
+  url: https://artifacts.apis.io/quorum/openapi/quorum-tracts-api-openapi.yml
 - filename: quorum-wells-api-openapi.yml
   format: yaml
   label: Quorum Software Wells API
   slug: quorum-wells-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/openapi/quorum-wells-api-openapi.yml
+  url: https://artifacts.apis.io/quorum/openapi/quorum-wells-api-openapi.yml
 - filename: quorum-division-orders-api-openapi.yml
   format: yaml
   label: Quorum Software Division Orders API
   slug: quorum-division-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/openapi/quorum-division-orders-api-openapi.yml
+  url: https://artifacts.apis.io/quorum/openapi/quorum-division-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -61,7 +61,7 @@ source_filename: quorum-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.quorumsoftware.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 03:42:15 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.quorumsoftware.com\n  https: false\ndomains:\n- domain: quorumsoftware.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/security/quorum-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/quorum/security/quorum-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Energy

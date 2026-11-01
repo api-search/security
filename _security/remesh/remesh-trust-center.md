@@ -15,7 +15,7 @@ source_filename: remesh-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nsource: https://trust.remesh.ai/\nurl: https://trust.remesh.ai/\ncertifications:\n- SOC 2\nevidence:\n- source: https://trust.remesh.ai/\n  keywords:\n  - soc 2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/remesh/refs/heads/main/security/remesh-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/remesh/security/remesh-trust-center.yml
 summary_line: SOC 2
 tags:
 - Company

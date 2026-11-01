@@ -5,25 +5,25 @@ api_specs:
   label: Recruitee C API
   slug: recruitee-c-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/openapi/recruitee-c-api-openapi.yml
+  url: https://artifacts.apis.io/recruitee/openapi/recruitee-c-api-openapi.yml
 - filename: recruitee-i-api-openapi.yml
   format: yaml
   label: Recruitee I API
   slug: recruitee-i-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/openapi/recruitee-i-api-openapi.yml
+  url: https://artifacts.apis.io/recruitee/openapi/recruitee-i-api-openapi.yml
 - filename: recruitee-offers-api-openapi.yml
   format: yaml
   label: Recruitee Offers API
   slug: recruitee-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/openapi/recruitee-offers-api-openapi.yml
+  url: https://artifacts.apis.io/recruitee/openapi/recruitee-offers-api-openapi.yml
 - filename: recruitee-p-api-openapi.yml
   format: yaml
   label: Recruitee P API
   slug: recruitee-p-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/openapi/recruitee-p-api-openapi.yml
+  url: https://artifacts.apis.io/recruitee/openapi/recruitee-p-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: recruitee-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: recruitee.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 14:47:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.recruitee.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 01:59:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: recruitee.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/security/recruitee-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/recruitee/security/recruitee-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Recruiting

@@ -11,25 +11,25 @@ api_specs:
   label: Neuphonic Agents API
   slug: neuphonic-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neuphonic/refs/heads/main/openapi/neuphonic-agents-api-openapi.yml
+  url: https://artifacts.apis.io/neuphonic/openapi/neuphonic-agents-api-openapi.yml
 - filename: neuphonic-ping-api-openapi.yml
   format: yaml
   label: Neuphonic Ping API
   slug: neuphonic-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neuphonic/refs/heads/main/openapi/neuphonic-ping-api-openapi.yml
+  url: https://artifacts.apis.io/neuphonic/openapi/neuphonic-ping-api-openapi.yml
 - filename: neuphonic-sse-api-openapi.yml
   format: yaml
   label: Neuphonic Sse API
   slug: neuphonic-sse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neuphonic/refs/heads/main/openapi/neuphonic-sse-api-openapi.yml
+  url: https://artifacts.apis.io/neuphonic/openapi/neuphonic-sse-api-openapi.yml
 - filename: neuphonic-voices-api-openapi.yml
   format: yaml
   label: Neuphonic Voices API
   slug: neuphonic-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neuphonic/refs/heads/main/openapi/neuphonic-voices-api-openapi.yml
+  url: https://artifacts.apis.io/neuphonic/openapi/neuphonic-voices-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: neuphonic-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.neuphonic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 12:53:30 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.neuphonic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 22:01:20 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.neuphonic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 16:32:27 2026 GMT\n  hsts: null\ndomains:\n- domain: neuphonic.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neuphonic/refs/heads/main/security/neuphonic-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/neuphonic/security/neuphonic-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Text-to-Speech

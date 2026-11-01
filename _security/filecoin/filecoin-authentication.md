@@ -7,7 +7,7 @@ api_specs:
   label: Filecoin HTTP REST API
   slug: filecoin-http-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/filecoin/refs/heads/main/openapi/_original/api.yml
+  url: https://artifacts.apis.io/filecoin/openapi/_original/api.yml
 auth_types:
 - http
 description: ''
@@ -37,7 +37,7 @@ source_filename: filecoin-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/api.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerTokenAuth\n  type: http\n  scheme: Bearer Token\n  description: |-\n    The authentication scheme for this API is implementation dependent. Implementations should feel free to use the scheme and granularity they deem fit. This document describes the scheme used by the [go-filecoin](https://github.com/filecoin-project/go-filecoin) daemon.\n\n    Go-filecoin will initially (v0) support a simple all or nothing authentication and authorization suitable for use by the owner/oper\n  sources:\n  - openapi/api.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/filecoin/refs/heads/main/authentication/filecoin-authentication.yml
+source_yaml_url: https://artifacts.apis.io/filecoin/authentication/filecoin-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Decentralized Storage

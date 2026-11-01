@@ -5,7 +5,7 @@ api_specs:
   label: Chengfengtechnology GraphQL API
   slug: chengfengtechnology-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chengfengtechnology/refs/heads/main/graphql/chengfengtechnology-graphql.json
+  url: https://artifacts.apis.io/chengfengtechnology/graphql/chengfengtechnology-graphql.json
 description: ''
 domains:
 - caa: []
@@ -34,7 +34,7 @@ source_filename: chengfengtechnology-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cfenv.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 20 18:45:02 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\ndomains:\n- domain: cfenv.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chengfengtechnology/refs/heads/main/security/chengfengtechnology-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/chengfengtechnology/security/chengfengtechnology-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

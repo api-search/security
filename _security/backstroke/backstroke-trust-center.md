@@ -15,7 +15,7 @@ source_filename: backstroke-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-09-27'\nmethod: searched\nprobe: true\nsource: https://trust.backstroke.com/\nurl: https://trust.backstroke.com/\ncertifications:\n- SOC 2\nevidence:\n- source: https://trust.backstroke.com/\n  keywords:\n  - soc 2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/backstroke/refs/heads/main/security/backstroke-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/backstroke/security/backstroke-trust-center.yml
 summary_line: SOC 2
 tags:
 - Company

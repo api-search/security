@@ -5,13 +5,13 @@ api_specs:
   label: Workflowy Nodes API
   slug: workflowy-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workflowy/refs/heads/main/openapi/workflowy-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/workflowy/openapi/workflowy-nodes-api-openapi.yml
 - filename: workflowy-targets-api-openapi.yml
   format: yaml
   label: Workflowy Targets API
   slug: workflowy-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workflowy/refs/heads/main/openapi/workflowy-targets-api-openapi.yml
+  url: https://artifacts.apis.io/workflowy/openapi/workflowy-targets-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -47,7 +47,7 @@ source_filename: workflowy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: workflowy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 00:11:50 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: workflowy.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issuewild \"amazontrust.com\"\n  - 0 issuewild \"awstrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workflowy/refs/heads/main/security/workflowy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/workflowy/security/workflowy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Productivity

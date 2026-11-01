@@ -31,7 +31,7 @@ source_filename: kema-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: kema.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 17:47:07 2026 GMT\n  hsts: null\ndomains:\n- domain: kema.co\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:hello@kema.co\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kema/refs/heads/main/security/kema-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kema/security/kema-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

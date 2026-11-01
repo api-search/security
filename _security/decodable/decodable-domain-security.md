@@ -5,31 +5,31 @@ api_specs:
   label: Decodable Connections API
   slug: decodable-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decodable/refs/heads/main/openapi/decodable-connections-api-openapi.yml
+  url: https://artifacts.apis.io/decodable/openapi/decodable-connections-api-openapi.yml
 - filename: decodable-pipelines-api-openapi.yml
   format: yaml
   label: Decodable Pipelines API
   slug: decodable-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decodable/refs/heads/main/openapi/decodable-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/decodable/openapi/decodable-pipelines-api-openapi.yml
 - filename: decodable-resources-api-openapi.yml
   format: yaml
   label: Decodable Resources API
   slug: decodable-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decodable/refs/heads/main/openapi/decodable-resources-api-openapi.yml
+  url: https://artifacts.apis.io/decodable/openapi/decodable-resources-api-openapi.yml
 - filename: decodable-secrets-api-openapi.yml
   format: yaml
   label: Decodable Secrets API
   slug: decodable-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decodable/refs/heads/main/openapi/decodable-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/decodable/openapi/decodable-secrets-api-openapi.yml
 - filename: decodable-streams-api-openapi.yml
   format: yaml
   label: Decodable Streams API
   slug: decodable-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decodable/refs/heads/main/openapi/decodable-streams-api-openapi.yml
+  url: https://artifacts.apis.io/decodable/openapi/decodable-streams-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -66,7 +66,7 @@ source_filename: decodable-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.decodable.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 23:46:06 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.decodable.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 26 23:59:59 2027 GMT\n  hsts: false\n- host: <account>.api.decodable.co\n  https: false\ndomains:\n- domain: decodable.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/decodable/refs/heads/main/security/decodable-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/decodable/security/decodable-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Stream Processing

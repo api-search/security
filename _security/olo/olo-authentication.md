@@ -8,43 +8,43 @@ api_specs:
   label: Olo Webhooks
   slug: olo-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/asyncapi/olo-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/olo/asyncapi/olo-webhooks-asyncapi.yml
 - filename: olo-accounts-api-openapi.yml
   format: yaml
   label: Olo Accounts API
   slug: olo-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/openapi/olo-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/olo/openapi/olo-accounts-api-openapi.yml
 - filename: olo-accruals-api-openapi.yml
   format: yaml
   label: Olo Accruals API
   slug: olo-accruals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/openapi/olo-accruals-api-openapi.yml
+  url: https://artifacts.apis.io/olo/openapi/olo-accruals-api-openapi.yml
 - filename: olo-brand-api-openapi.yml
   format: yaml
   label: Olo Brand API
   slug: olo-brand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/openapi/olo-brand-api-openapi.yml
+  url: https://artifacts.apis.io/olo/openapi/olo-brand-api-openapi.yml
 - filename: olo-promotions-api-openapi.yml
   format: yaml
   label: Olo Promotions API
   slug: olo-promotions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/openapi/olo-promotions-api-openapi.yml
+  url: https://artifacts.apis.io/olo/openapi/olo-promotions-api-openapi.yml
 - filename: olo-rails-api-openapi.yml
   format: yaml
   label: Olo Rails API
   slug: olo-rails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/openapi/olo-rails-api-openapi.yml
+  url: https://artifacts.apis.io/olo/openapi/olo-rails-api-openapi.yml
 - filename: olo-users-api-openapi.yml
   format: yaml
   label: Olo Users API
   slug: olo-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/openapi/olo-users-api-openapi.yml
+  url: https://artifacts.apis.io/olo/openapi/olo-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -73,7 +73,7 @@ source_filename: olo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/olo-ordering-openapi.yml, openapi/olo-promotions-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: OloSignature\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: HMAC-SHA256 signature authorization. The signed message is the newline-joined\n    concatenation of clientId, HTTP verb, content type, base64-encoded SHA-256 hash of the request\n    body, path and query, and the RFC 1123 timestamp. The result is base64-encoded and sent\n    as \"OloSignature {clientId}:{signature}\" in the Authorization header, with the matching\n    timestamp in the Date header.\n  sources:\n  - openapi/olo-ordering-openapi.yml\n  - openapi/olo-promotions-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/authentication/olo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/olo/authentication/olo-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Food Service

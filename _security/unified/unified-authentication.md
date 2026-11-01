@@ -7,13 +7,13 @@ api_specs:
   label: Unified Health API
   slug: unified-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unified/refs/heads/main/openapi/unified-health-api-openapi.yml
+  url: https://artifacts.apis.io/unified/openapi/unified-health-api-openapi.yml
 - filename: unified-unified-mcp-service-api-openapi.yml
   format: yaml
   label: Unified Unified Mcp Service API
   slug: unified-unified-mcp-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unified/refs/heads/main/openapi/unified-unified-mcp-service-api-openapi.yml
+  url: https://artifacts.apis.io/unified/openapi/unified-unified-mcp-service-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: >-\n  https://mcp
   \  parameter: Authorization\n  format: Bearer <token>\n  issuer: https://mcp.unified.com/\n  flows:\n    authorizationCode:\n      authorizationUrl: https://mcp.unified.com/authorize\n      tokenUrl: https://mcp.unified.com/token\n      refreshUrl: https://mcp.unified.com/token\n      scopes:\n        openid: The only scope advertised by the authorization server metadata.\n  code_challenge_methods:\n  - S256\n  grant_types:\n  - authorization_code\n  - refresh_token\n  token_endpoint_auth_methods:\n  - client_secret_post\n  - client_secret_basic\n  revocation_endpoint: https://mcp.unified.com/revoke\n  registration_endpoint: https://mcp.unified.com/register\n  dynamic_client_registration: true\n  applies_to:\n  - https://mcp.unified.com/mcp\n- name: none\n  type: none\n  applies_to:\n  - https://api.unified.com/\n  - https://api.unified.com/health\n  - https://api.unified.com/health/ready\n  - https://api.unified.com/health/live\n  - https://api.unified.com/openapi.json\n  note: >-\n \
   \   The root, health and description endpoints answer 200 anonymously; they carry no security\n    requirement in the spec and none was observed.\ncustomer_application:\n  url: https://get.unified.com/login\n  model: session sign-in to the Unified web application; every /.well-known/ path on that host\n    302s into the login flow.\n  observed_status: 200\ndocumentation:\n  url: https://docs.unified.com/\n  observed_status: 200\n  effective: >-\n    307/redirect chain into https://iheartmedia.unified.com/login — a GitBook space behind single\n    sign-on. No anonymous authentication reference could be read.\nx-evidence:\n- fetched: '2026-09-02'\n  url: https://mcp.unified.com/.well-known/oauth-authorization-server\n  http_status: 200\n- fetched: '2026-09-02'\n  url: https://mcp.unified.com/.well-known/oauth-protected-resource/mcp\n  http_status: 200\n- fetched: '2026-09-02'\n  url: https://mcp.unified.com/mcp\n  http_status: 401\n- fetched: '2026-09-02'\n  url: https://docs.unified.com/\n\
   \  http_status: 200\n  effective_url: https://iheartmedia.unified.com/login?next=%2Fiheartmedia%2Fidentity%2Fauth%2Fgitbook%2Fsso\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unified/refs/heads/main/authentication/unified-authentication.yml
+source_yaml_url: https://artifacts.apis.io/unified/authentication/unified-authentication.yml
 summary_line: 2 schemes
 tags:
 - Company

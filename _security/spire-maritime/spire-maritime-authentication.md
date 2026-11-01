@@ -7,7 +7,7 @@ api_specs:
   label: Spire Maritime Vessels API
   slug: spire-maritime-vessels-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/spire-maritime/refs/heads/main/collections/spire-maritime.postman_collection.json
+  url: https://artifacts.apis.io/spire-maritime/collections/spire-maritime.postman_collection.json
 auth_types:
 - http
 - token
@@ -47,7 +47,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: documented\nsource: https://documentation.spire.com/maritime-2-0/\nsummary:\n  types:\n  - http\n  - token\nschemes:\n- name: bearer_token\n  type: http\n  scheme: bearer\n  bearerFormat: token\n  in: header\n  headerName: Authorization\n  note: >-\n    GraphQL requests to https://api.spire.com/graphql carry an\n    'Authorization: Bearer <token>' header. Tokens are issued to\n    contract customers (enterprise / contact-sales).\n  sources:\n  - https://documentation.spire.com/maritime-2-0/\n  - https://github.com/spireglobal/maritime/blob/main/spire-graphql-postman-collection.json\n- name: tcp_stream_token\n  type: token\n  scheme: token\n  in: stream\n  note: >-\n    The raw TCP AIS stream (streamingv2.ais.spire.com:56784) authenticates by\n    sending the authorization token on the socket after connecting; the same\n    account token authorizes both GraphQL and the TCP stream. This is NOT an\n    HTTP Authorization header - it is an application-layer\
   \ token exchange over\n    the TCP socket.\n  sources:\n  - https://documentation.spire.com/tcp-stream-v2/using-the-tcp-stream/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spire-maritime/refs/heads/main/authentication/spire-maritime-authentication.yml
+source_yaml_url: https://artifacts.apis.io/spire-maritime/authentication/spire-maritime-authentication.yml
 summary_line: http/token · 2 schemes
 tags:
 - Vessel Tracking

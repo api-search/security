@@ -5,79 +5,79 @@ api_specs:
   label: Airship Push API
   slug: airship-push-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/openapi/airship-push-api-openapi.yml
+  url: https://artifacts.apis.io/airship/openapi/airship-push-api-openapi.yml
 - filename: airship-segments-api-openapi.yml
   format: yaml
   label: Airship Segments API
   slug: airship-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/openapi/airship-segments-api-openapi.yml
+  url: https://artifacts.apis.io/airship/openapi/airship-segments-api-openapi.yml
 - filename: airship-reports-api-openapi.yml
   format: yaml
   label: Airship Reports API
   slug: airship-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/openapi/airship-reports-api-openapi.yml
+  url: https://artifacts.apis.io/airship/openapi/airship-reports-api-openapi.yml
 - filename: airship-channels-api-openapi.yml
   format: yaml
   label: Airship Channels API
   slug: airship-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/openapi/airship-channels-api-openapi.yml
+  url: https://artifacts.apis.io/airship/openapi/airship-channels-api-openapi.yml
 - filename: airship-custom-events-api-openapi.yml
   format: yaml
   label: Airship Custom Events API
   slug: airship-custom-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/openapi/airship-custom-events-api-openapi.yml
+  url: https://artifacts.apis.io/airship/openapi/airship-custom-events-api-openapi.yml
 - filename: airship-lists-api-openapi.yml
   format: yaml
   label: Airship Lists API
   slug: airship-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/openapi/airship-lists-api-openapi.yml
+  url: https://artifacts.apis.io/airship/openapi/airship-lists-api-openapi.yml
 - filename: airship-message-center-api-openapi.yml
   format: yaml
   label: Airship Message Center API
   slug: airship-message-center-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/openapi/airship-message-center-api-openapi.yml
+  url: https://artifacts.apis.io/airship/openapi/airship-message-center-api-openapi.yml
 - filename: airship-named-users-api-openapi.yml
   format: yaml
   label: Airship Named Users API
   slug: airship-named-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/openapi/airship-named-users-api-openapi.yml
+  url: https://artifacts.apis.io/airship/openapi/airship-named-users-api-openapi.yml
 - filename: airship-push-api-openapi.yml
   format: yaml
   label: Airship Push API
   slug: airship-push-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/openapi/airship-push-api-openapi.yml
+  url: https://artifacts.apis.io/airship/openapi/airship-push-api-openapi.yml
 - filename: airship-reports-api-openapi.yml
   format: yaml
   label: Airship Reports API
   slug: airship-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/openapi/airship-reports-api-openapi.yml
+  url: https://artifacts.apis.io/airship/openapi/airship-reports-api-openapi.yml
 - filename: airship-schedules-api-openapi.yml
   format: yaml
   label: Airship Schedules API
   slug: airship-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/openapi/airship-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/airship/openapi/airship-schedules-api-openapi.yml
 - filename: airship-segments-api-openapi.yml
   format: yaml
   label: Airship Segments API
   slug: airship-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/openapi/airship-segments-api-openapi.yml
+  url: https://artifacts.apis.io/airship/openapi/airship-segments-api-openapi.yml
 - filename: airship-templates-api-openapi.yml
   format: yaml
   label: Airship Templates API
   slug: airship-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/openapi/airship-templates-api-openapi.yml
+  url: https://artifacts.apis.io/airship/openapi/airship-templates-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -136,7 +136,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.airship.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 16:02:11 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.airship.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 17:32:03 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: go.urbanairship.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 20:52:32 2026 GMT\n  hsts: null\ndomains:\n- domain: airship.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"pki.goog\"\n  - 0 iodef \"mailto:caa@airship.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: urbanairship.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 iodef \"mailto:caa@airship.com\"\
   \n  - 0 issuewild \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/security/airship-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/airship/security/airship-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Notification

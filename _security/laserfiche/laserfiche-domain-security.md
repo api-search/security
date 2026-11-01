@@ -5,25 +5,25 @@ api_specs:
   label: Laserfiche OAuth API
   slug: laserfiche-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/laserfiche/refs/heads/main/openapi/laserfiche-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/laserfiche/openapi/laserfiche-oauth-api-openapi.yml
 - filename: laserfiche-odata4-api-openapi.yml
   format: yaml
   label: Laserfiche Odata4 API
   slug: laserfiche-odata4-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/laserfiche/refs/heads/main/openapi/laserfiche-odata4-api-openapi.yml
+  url: https://artifacts.apis.io/laserfiche/openapi/laserfiche-odata4-api-openapi.yml
 - filename: laserfiche-repositories-api-openapi.yml
   format: yaml
   label: Laserfiche Repositories API
   slug: laserfiche-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/laserfiche/refs/heads/main/openapi/laserfiche-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/laserfiche/openapi/laserfiche-repositories-api-openapi.yml
 - filename: laserfiche-repository-api-openapi.yml
   format: yaml
   label: Laserfiche Repository API
   slug: laserfiche-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/laserfiche/refs/heads/main/openapi/laserfiche-repository-api-openapi.yml
+  url: https://artifacts.apis.io/laserfiche/openapi/laserfiche-repository-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -57,12 +57,12 @@ source_filename: laserfiche-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.laserfiche.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 06:15:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31622400\ndomains:\n- domain: laserfiche.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"godaddy.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/laserfiche/refs/heads/main/security/laserfiche-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/laserfiche/security/laserfiche-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- EnterpriseContentManagement
+- Enterprise Content Management
 - Document Management
-- ProcessAutomation
+- Process Automation
 - Artificial Intelligence
 ---

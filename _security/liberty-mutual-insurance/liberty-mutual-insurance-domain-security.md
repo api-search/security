@@ -5,25 +5,25 @@ api_specs:
   label: Liberty Mutual Insurance Data API
   slug: liberty-mutual-insurance-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liberty-mutual-insurance/refs/heads/main/openapi/liberty-mutual-insurance-data-api-openapi.yml
+  url: https://artifacts.apis.io/liberty-mutual-insurance/openapi/liberty-mutual-insurance-data-api-openapi.yml
 - filename: liberty-mutual-insurance-policies-api-openapi.yml
   format: yaml
   label: Liberty Mutual Insurance Policies API
   slug: liberty-mutual-insurance-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liberty-mutual-insurance/refs/heads/main/openapi/liberty-mutual-insurance-policies-api-openapi.yml
+  url: https://artifacts.apis.io/liberty-mutual-insurance/openapi/liberty-mutual-insurance-policies-api-openapi.yml
 - filename: liberty-mutual-insurance-quotes-api-openapi.yml
   format: yaml
   label: Liberty Mutual Insurance Quotes API
   slug: liberty-mutual-insurance-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liberty-mutual-insurance/refs/heads/main/openapi/liberty-mutual-insurance-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/liberty-mutual-insurance/openapi/liberty-mutual-insurance-quotes-api-openapi.yml
 - filename: liberty-mutual-insurance-safety-api-openapi.yml
   format: yaml
   label: Liberty Mutual Insurance Safety API
   slug: liberty-mutual-insurance-safety-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liberty-mutual-insurance/refs/heads/main/openapi/liberty-mutual-insurance-safety-api-openapi.yml
+  url: https://artifacts.apis.io/liberty-mutual-insurance/openapi/liberty-mutual-insurance-safety-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: liberty-mutual-insurance-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.libertymutual.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.libertymutual.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 23:59:59 2026 GMT\n  hsts: null\n- host: developer.libertymutual.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 12 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: libertymutual.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liberty-mutual-insurance/refs/heads/main/security/liberty-mutual-insurance-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/liberty-mutual-insurance/security/liberty-mutual-insurance-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Casualty

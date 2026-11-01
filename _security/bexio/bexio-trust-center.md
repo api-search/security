@@ -5,55 +5,55 @@ api_specs:
   label: bexio Accounting API
   slug: bexio-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-accounting-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-accounting-api-openapi.yml
 - filename: bexio-banking-api-openapi.yml
   format: yaml
   label: bexio Banking API
   slug: bexio-banking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-banking-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-banking-api-openapi.yml
 - filename: bexio-contacts-api-openapi.yml
   format: yaml
   label: bexio Contacts API
   slug: bexio-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-contacts-api-openapi.yml
 - filename: bexio-files-api-openapi.yml
   format: yaml
   label: bexio Files API
   slug: bexio-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-files-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-files-api-openapi.yml
 - filename: bexio-items-api-openapi.yml
   format: yaml
   label: bexio Items API
   slug: bexio-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-items-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-items-api-openapi.yml
 - filename: bexio-payroll-api-openapi.yml
   format: yaml
   label: bexio Payroll API
   slug: bexio-payroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-payroll-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-payroll-api-openapi.yml
 - filename: bexio-projects-api-openapi.yml
   format: yaml
   label: bexio Projects API
   slug: bexio-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-projects-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-projects-api-openapi.yml
 - filename: bexio-purchase-api-openapi.yml
   format: yaml
   label: bexio Purchase API
   slug: bexio-purchase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-purchase-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-purchase-api-openapi.yml
 - filename: bexio-sales-orders-api-openapi.yml
   format: yaml
   label: bexio Sales Orders API
   slug: bexio-sales-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-sales-orders-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-sales-orders-api-openapi.yml
 certification_count: 3
 certifications:
 - ISO 27001
@@ -72,7 +72,7 @@ source_filename: bexio-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nprobe: true\nsource: https://www.bexio.com/en-CH/security\nurl: https://www.bexio.com/en-CH/security\ncertifications:\n- ISO 27001\n- Swiss FADP (revDSG)\n- GDPR\nevidence:\n- source: https://www.bexio.com/en-CH/security\n  keywords:\n  - iso 27001\n  - data protection\n  - swiss data center\n  - gdpr\nnotes: >-\n  bexio (a Swiss company, part of Mobiliar) hosts customer data in Switzerland and\n  documents its information-security program, Swiss FADP/revDSG compliance, and GDPR\n  alignment on its security and privacy pages. Verify the current certification list\n  on the live security page during reconciliation.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/security/bexio-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/bexio/security/bexio-trust-center.yml
 summary_line: ISO 27001, Swiss FADP (revDSG), GDPR
 tags:
 - Accounting

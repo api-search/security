@@ -7,43 +7,43 @@ api_specs:
   label: Happy Scribe Exports API
   slug: happyscribe-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/openapi/happyscribe-exports-api-openapi.yml
+  url: https://artifacts.apis.io/happyscribe/openapi/happyscribe-exports-api-openapi.yml
 - filename: happyscribe-glossaries-and-style-guides-api-openapi.yml
   format: yaml
   label: Happy Scribe Glossaries and Style Guides API
   slug: happyscribe-glossaries-and-style-guides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/openapi/happyscribe-glossaries-and-style-guides-api-openapi.yml
+  url: https://artifacts.apis.io/happyscribe/openapi/happyscribe-glossaries-and-style-guides-api-openapi.yml
 - filename: happyscribe-orders-api-openapi.yml
   format: yaml
   label: Happy Scribe Orders API
   slug: happyscribe-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/openapi/happyscribe-orders-api-openapi.yml
+  url: https://artifacts.apis.io/happyscribe/openapi/happyscribe-orders-api-openapi.yml
 - filename: happyscribe-organization-memberships-api-openapi.yml
   format: yaml
   label: Happy Scribe Organization Memberships API
   slug: happyscribe-organization-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/openapi/happyscribe-organization-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/happyscribe/openapi/happyscribe-organization-memberships-api-openapi.yml
 - filename: happyscribe-organizations-api-openapi.yml
   format: yaml
   label: Happy Scribe Organizations API
   slug: happyscribe-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/openapi/happyscribe-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/happyscribe/openapi/happyscribe-organizations-api-openapi.yml
 - filename: happyscribe-transcriptions-api-openapi.yml
   format: yaml
   label: Happy Scribe Transcriptions API
   slug: happyscribe-transcriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/openapi/happyscribe-transcriptions-api-openapi.yml
+  url: https://artifacts.apis.io/happyscribe/openapi/happyscribe-transcriptions-api-openapi.yml
 - filename: happyscribe-uploads-api-openapi.yml
   format: yaml
   label: Happy Scribe Uploads API
   slug: happyscribe-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/openapi/happyscribe-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/happyscribe/openapi/happyscribe-uploads-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -70,7 +70,7 @@ source_filename: happyscribe-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/happyscribe-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'API token from your Happy Scribe account settings, passed as `Authorization:\n    Bearer [example key]`.'\n  sources:\n  - openapi/happyscribe-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/authentication/happyscribe-authentication.yml
+source_yaml_url: https://artifacts.apis.io/happyscribe/authentication/happyscribe-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Audio Transcription

@@ -7,7 +7,7 @@ api_specs:
   label: DeepSource Graph QL API
   slug: deepsource-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepsource/refs/heads/main/openapi/deepsource-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/deepsource/openapi/deepsource-graph-ql-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -34,7 +34,7 @@ source_filename: deepsource-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/deepsource-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'DeepSource Personal Access Token (PAT) generated from the dashboard, passed\n    as `Authorization: Bearer <PERSONAL_ACCESS_TOKEN>`.'\n  sources:\n  - openapi/deepsource-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deepsource/refs/heads/main/authentication/deepsource-authentication.yml
+source_yaml_url: https://artifacts.apis.io/deepsource/authentication/deepsource-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Code Quality

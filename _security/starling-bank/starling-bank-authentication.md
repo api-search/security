@@ -7,37 +7,37 @@ api_specs:
   label: Starling Bank ATM API
   slug: starling-bank-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starling-bank/refs/heads/main/openapi/starling-bank-atm-api-openapi.yml
+  url: https://artifacts.apis.io/starling-bank/openapi/starling-bank-atm-api-openapi.yml
 - filename: starling-bank-bca-api-openapi.yml
   format: yaml
   label: Starling Bank BCA API
   slug: starling-bank-bca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starling-bank/refs/heads/main/openapi/starling-bank-bca-api-openapi.yml
+  url: https://artifacts.apis.io/starling-bank/openapi/starling-bank-bca-api-openapi.yml
 - filename: starling-bank-branch-api-openapi.yml
   format: yaml
   label: Starling Bank Branch API
   slug: starling-bank-branch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starling-bank/refs/heads/main/openapi/starling-bank-branch-api-openapi.yml
+  url: https://artifacts.apis.io/starling-bank/openapi/starling-bank-branch-api-openapi.yml
 - filename: starling-bank-ccc-api-openapi.yml
   format: yaml
   label: Starling Bank CCC API
   slug: starling-bank-ccc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starling-bank/refs/heads/main/openapi/starling-bank-ccc-api-openapi.yml
+  url: https://artifacts.apis.io/starling-bank/openapi/starling-bank-ccc-api-openapi.yml
 - filename: starling-bank-pca-api-openapi.yml
   format: yaml
   label: Starling Bank PCA API
   slug: starling-bank-pca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starling-bank/refs/heads/main/openapi/starling-bank-pca-api-openapi.yml
+  url: https://artifacts.apis.io/starling-bank/openapi/starling-bank-pca-api-openapi.yml
 - filename: starling-bank-sme-api-openapi.yml
   format: yaml
   label: Starling Bank SME API
   slug: starling-bank-sme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starling-bank/refs/heads/main/openapi/starling-bank-sme-api-openapi.yml
+  url: https://artifacts.apis.io/starling-bank/openapi/starling-bank-sme-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -88,7 +88,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://api.starlingbank.com/.well-known/oauth-authorization-server + https://developer.starlingbank.com/docs + live 401 probe\ndocs: https://developer.starlingbank.com/docs\nsummary:\n  types: [oauth2, http]\n  http_scheme: bearer\n  oauth2_flows: [authorizationCode, personal_access_token]\n  surfaces:\n  - bespoke Developer API (api.starlingbank.com) — OAuth2 bearer\n  - Open Banking Read/Write (AIS/PIS/CBPII) — FAPI OAuth2/OIDC + mutual-TLS + PSD2 SCA\nschemes:\n- name: BespokeOAuth2\n  type: oauth2\n  applies_to: Starling bespoke Developer API (api.starlingbank.com/api/v2)\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth.starlingbank.com\n    tokenUrl: https://token-api.starlingbank.com/oauth/access-token\n    issuer: https://token-api.starlingbank.com\n    response_types_supported: [code, token]\n  - flow: personal_access_token\n    note: Sandbox and read-only integrations can mint a personal\
   \ access token in the\n      developer portal instead of running the full authorization-code flow.\n  evidence: RFC 8414 metadata at api.starlingbank.com/.well-known/oauth-authorization-server;\n    unauthenticated GET /api/v2/accounts returns 401 {\"error\":\"invalid_token\"} requiring\n    an Authorization bearer header.\n- name: BearerToken\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  applies_to: All bespoke Developer API calls carry Authorization Bearer access tokens.\n- name: OpenBankingFAPI\n  type: oauth2\n  applies_to: OBIE Read/Write (AIS/PIS/CBPII) as an FCA-authorised ASPSP\n  profile: FAPI 1.0 Advanced\n  client_authentication: mutual-TLS (eIDAS/OBIE certificates)\n  strong_customer_authentication: PSD2 SCA (redirect / app-to-app)\n  note: Provisioned to enrolled, certificate-holding TPPs; not publicly probeable.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/starling-bank/refs/heads/main/authentication/starling-bank-authentication.yml
+source_yaml_url: https://artifacts.apis.io/starling-bank/authentication/starling-bank-authentication.yml
 summary_line: oauth2/http · 3 schemes
 tags:
 - Financial Services

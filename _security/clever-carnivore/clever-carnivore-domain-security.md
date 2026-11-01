@@ -26,11 +26,11 @@ source_filename: clever-carnivore-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: clevercarnivore.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 15 17:48:26 2027 GMT\n  hsts: false\ndomains:\n- domain: clevercarnivore.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clever-carnivore/refs/heads/main/security/clever-carnivore-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/clever-carnivore/security/clever-carnivore-domain-security.yml
 summary_line: TLSv1.2
 tags:
-- cultivated-meat
-- food-tech
+- Cultivated Meat
+- Food Tech
 - Sustainability
 - Biotechnology
 - Startups

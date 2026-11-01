@@ -5,55 +5,55 @@ api_specs:
   label: OpusClip Brand Templates API
   slug: opusclip-brand-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-brand-templates-api-openapi.yml
+  url: https://artifacts.apis.io/opusclip/openapi/opusclip-brand-templates-api-openapi.yml
 - filename: opusclip-censor-jobs-api-openapi.yml
   format: yaml
   label: OpusClip Censor Jobs API
   slug: opusclip-censor-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-censor-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/opusclip/openapi/opusclip-censor-jobs-api-openapi.yml
 - filename: opusclip-clip-project-api-openapi.yml
   format: yaml
   label: OpusClip Clip Project API
   slug: opusclip-clip-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-clip-project-api-openapi.yml
+  url: https://artifacts.apis.io/opusclip/openapi/opusclip-clip-project-api-openapi.yml
 - filename: opusclip-collection-api-openapi.yml
   format: yaml
   label: OpusClip Collection API
   slug: opusclip-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-collection-api-openapi.yml
+  url: https://artifacts.apis.io/opusclip/openapi/opusclip-collection-api-openapi.yml
 - filename: opusclip-collection-content-api-openapi.yml
   format: yaml
   label: OpusClip Collection Content API
   slug: opusclip-collection-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-collection-content-api-openapi.yml
+  url: https://artifacts.apis.io/opusclip/openapi/opusclip-collection-content-api-openapi.yml
 - filename: opusclip-exportableclip-api-openapi.yml
   format: yaml
   label: OpusClip ExportableClip API
   slug: opusclip-exportableclip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-exportableclip-api-openapi.yml
+  url: https://artifacts.apis.io/opusclip/openapi/opusclip-exportableclip-api-openapi.yml
 - filename: opusclip-generative-jobs-api-openapi.yml
   format: yaml
   label: OpusClip Generative Jobs API
   slug: opusclip-generative-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-generative-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/opusclip/openapi/opusclip-generative-jobs-api-openapi.yml
 - filename: opusclip-social-posting-api-openapi.yml
   format: yaml
   label: OpusClip Social Posting API
   slug: opusclip-social-posting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-social-posting-api-openapi.yml
+  url: https://artifacts.apis.io/opusclip/openapi/opusclip-social-posting-api-openapi.yml
 - filename: opusclip-transcripts-api-openapi.yml
   format: yaml
   label: OpusClip Transcripts API
   slug: opusclip-transcripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-transcripts-api-openapi.yml
+  url: https://artifacts.apis.io/opusclip/openapi/opusclip-transcripts-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -88,7 +88,7 @@ source_filename: opusclip-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.opus.pro\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 18:01:23 2026 GMT\n  hsts: false\ndomains:\n- domain: opus.pro\n  dnssec: true\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/security/opusclip-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/opusclip/security/opusclip-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

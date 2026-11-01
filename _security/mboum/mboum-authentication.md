@@ -29,7 +29,7 @@ source_filename: mboum-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-21'\nmethod: searched\nsource: https://docs.mboum.com/\nsummary: >-\n  API key (Personal Access Token) authentication. Callers pass the key either as an\n  HTTP Authorization Bearer header (\"Bearer {YOUR_AUTH_KEY}\") or, for browser/GET use,\n  as an \"apikey\" query parameter. Tokens are generated and revoked from the account\n  dashboard under Personal Access Tokens. All data endpoints require authentication.\ndocs: https://docs.mboum.com/\nschemes:\n- type: http\n  scheme: bearer\n  name: Authorization\n  location: header\n  description: >-\n    Authorization: Bearer {YOUR_AUTH_KEY}. Personal Access Token issued from the Mboum\n    account dashboard (Account -> Personal Access Tokens).\n- type: apiKey\n  name: apikey\n  location: query\n  description: >-\n    apikey={YOUR_AUTH_KEY} query parameter, offered for browser and simple GET usage\n    as an alternative to the Authorization header.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mboum/refs/heads/main/authentication/mboum-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mboum/authentication/mboum-authentication.yml
 summary_line: 2 schemes
 tags:
 - Stocks

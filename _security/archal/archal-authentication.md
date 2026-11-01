@@ -3,36 +3,18 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: archal-auth-api-openapi.yml
-  format: yaml
-  label: Archal Auth API
-  slug: archal-auth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archal/refs/heads/main/openapi/archal-auth-api-openapi.yml
-- filename: archal-catalog-api-openapi.yml
-  format: yaml
-  label: Archal Catalog API
-  slug: archal-catalog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archal/refs/heads/main/openapi/archal-catalog-api-openapi.yml
-- filename: archal-results-api-openapi.yml
-  format: yaml
-  label: Archal Results API
-  slug: archal-results-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archal/refs/heads/main/openapi/archal-results-api-openapi.yml
-- filename: archal-runtime-api-openapi.yml
-  format: yaml
-  label: Archal Runtime API
-  slug: archal-runtime-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archal/refs/heads/main/openapi/archal-runtime-api-openapi.yml
 - filename: archal-sessions-api-openapi.yml
   format: yaml
   label: Archal Sessions API
   slug: archal-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archal/refs/heads/main/openapi/archal-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/archal/openapi/archal-sessions-api-openapi.yml
+- filename: archal-environments-api-openapi.yml
+  format: yaml
+  label: Archal Environments API
+  slug: archal-environments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/archal/openapi/archal-environments-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -66,7 +48,7 @@ source_filename: archal-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/archal-openapi-original.json\ndocs: https://docs.archal.ai/guides/authentication\nnotes: >\n  Control-plane calls use an Archal bearer token (user token via `archal login` or a\n  workspace API key `archal_ws_<key>` set as ARCHAL_TOKEN). The runtime clone proxy uses a\n  two-header model: `x-route-authorization` authenticates the outer route hop while the\n  service-shaped `Authorization` header is preserved for the clone to see. No OAuth scopes\n  (bearer + route apiKey only); a device-authorization grant (RFC 8628) is used for CLI login.\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: archalToken\n  type: http\n  scheme: bearer\n  bearerFormat: Archal API token\n  sources:\n  - openapi/archal-openapi-original.json\n- name: routeAuthorization\n  type: apiKey\n  in: header\n  parameter: x-route-authorization\n  sources:\n  - openapi/archal-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/archal/refs/heads/main/authentication/archal-authentication.yml
+source_yaml_url: https://artifacts.apis.io/archal/authentication/archal-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

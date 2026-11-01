@@ -5,97 +5,97 @@ api_specs:
   label: Aelf Admin API
   slug: aelf-inc-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-admin-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-admin-api-openapi.yml
 - filename: aelf-inc-approvals-api-openapi.yml
   format: yaml
   label: Aelf Approvals API
   slug: aelf-inc-approvals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-approvals-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-approvals-api-openapi.yml
 - filename: aelf-inc-balances-api-openapi.yml
   format: yaml
   label: Aelf Balances API
   slug: aelf-inc-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-balances-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-balances-api-openapi.yml
 - filename: aelf-inc-blockchain-api-openapi.yml
   format: yaml
   label: Aelf Block Chain API
   slug: aelf-inc-blockchain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-blockchain-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-blockchain-api-openapi.yml
 - filename: aelf-inc-chains-api-openapi.yml
   format: yaml
   label: Aelf Chains API
   slug: aelf-inc-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-chains-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-chains-api-openapi.yml
 - filename: aelf-inc-chainstatus-api-openapi.yml
   format: yaml
   label: Aelf Chain Status API
   slug: aelf-inc-chainstatus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-chainstatus-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-chainstatus-api-openapi.yml
 - filename: aelf-inc-contractfiledescriptorset-api-openapi.yml
   format: yaml
   label: Aelf Contract File Descriptor Set API
   slug: aelf-inc-contractfiledescriptorset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-contractfiledescriptorset-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-contractfiledescriptorset-api-openapi.yml
 - filename: aelf-inc-explorer-api-openapi.yml
   format: yaml
   label: Aelf Explorer API
   slug: aelf-inc-explorer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-explorer-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-explorer-api-openapi.yml
 - filename: aelf-inc-health-api-openapi.yml
   format: yaml
   label: Aelf Health API
   slug: aelf-inc-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-health-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-health-api-openapi.yml
 - filename: aelf-inc-net-api-openapi.yml
   format: yaml
   label: Aelf Net API
   slug: aelf-inc-net-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-net-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-net-api-openapi.yml
 - filename: aelf-inc-taskqueuestatus-api-openapi.yml
   format: yaml
   label: Aelf Task Queue Status API
   slug: aelf-inc-taskqueuestatus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-taskqueuestatus-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-taskqueuestatus-api-openapi.yml
 - filename: aelf-inc-transaction-api-openapi.yml
   format: yaml
   label: Aelf Transaction API
   slug: aelf-inc-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-transaction-api-openapi.yml
 - filename: aelf-inc-transactionresult-api-openapi.yml
   format: yaml
   label: Aelf Transaction Result API
   slug: aelf-inc-transactionresult-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-transactionresult-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-transactionresult-api-openapi.yml
 - filename: aelf-inc-transactions-api-openapi.yml
   format: yaml
   label: Aelf Transactions API
   slug: aelf-inc-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-transactions-api-openapi.yml
 - filename: aelf-inc-transfers-api-openapi.yml
   format: yaml
   label: Aelf Transfers API
   slug: aelf-inc-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-transfers-api-openapi.yml
 - filename: aelf-inc-wallets-api-openapi.yml
   format: yaml
   label: Aelf Wallets API
   slug: aelf-inc-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/aelf-inc/openapi/aelf-inc-wallets-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -142,7 +142,7 @@ source_filename: aelf-inc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aelf.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 15:56:00 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: docs.aelf.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 15:56:00 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: aelf-public-node.aelf.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 17:43:11 2026 GMT\n  hsts: null\ndomains:\n- domain: aelf.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: aelf.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/security/aelf-inc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aelf-inc/security/aelf-inc-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

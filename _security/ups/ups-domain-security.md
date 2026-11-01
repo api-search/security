@@ -5,49 +5,49 @@ api_specs:
   label: UPS Address Validation API
   slug: ups-address-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/openapi/ups-address-validation-api-openapi.yml
+  url: https://artifacts.apis.io/ups/openapi/ups-address-validation-api-openapi.yml
 - filename: ups-paperless-documents-api-openapi.yml
   format: yaml
   label: UPS Paperless Documents API
   slug: ups-paperless-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/openapi/ups-paperless-documents-api-openapi.yml
+  url: https://artifacts.apis.io/ups/openapi/ups-paperless-documents-api-openapi.yml
 - filename: ups-pickup-api-openapi.yml
   format: yaml
   label: UPS Pickup API
   slug: ups-pickup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/openapi/ups-pickup-api-openapi.yml
+  url: https://artifacts.apis.io/ups/openapi/ups-pickup-api-openapi.yml
 - filename: ups-rating-api-openapi.yml
   format: yaml
   label: UPS Rating API
   slug: ups-rating-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/openapi/ups-rating-api-openapi.yml
+  url: https://artifacts.apis.io/ups/openapi/ups-rating-api-openapi.yml
 - filename: ups-shipping-api-openapi.yml
   format: yaml
   label: UPS Shipping API
   slug: ups-shipping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/openapi/ups-shipping-api-openapi.yml
+  url: https://artifacts.apis.io/ups/openapi/ups-shipping-api-openapi.yml
 - filename: ups-time-in-transit-api-openapi.yml
   format: yaml
   label: UPS Time In Transit API
   slug: ups-time-in-transit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/openapi/ups-time-in-transit-api-openapi.yml
+  url: https://artifacts.apis.io/ups/openapi/ups-time-in-transit-api-openapi.yml
 - filename: ups-tracking-api-openapi.yml
   format: yaml
   label: UPS Tracking API
   slug: ups-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/openapi/ups-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/ups/openapi/ups-tracking-api-openapi.yml
 - filename: ups-oauth-api-openapi.yml
   format: yaml
   label: UPS O Auth API
   slug: ups-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/openapi/ups-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/ups/openapi/ups-oauth-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -91,7 +91,7 @@ source_filename: ups-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ups.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 23:59:59 2026 GMT\n  hsts: null\n- host: developer.ups.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 23:59:59 2026 GMT\n  hsts: null\n- host: onlinetools.ups.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  4 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: ups.com\n  dnssec: true\n  caa:\n  - 128 issue \"ica.cz\"\n  - 128 issue \"globalsign.com\"\n  - 128 issue \"sectigo.com\"\n  - 128 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/security/ups-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ups/security/ups-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Logistics

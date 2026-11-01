@@ -7,19 +7,19 @@ api_specs:
   label: ConvertAPI Conversion API
   slug: convertapi-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertapi/refs/heads/main/openapi/convertapi-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/convertapi/openapi/convertapi-conversion-api-openapi.yml
 - filename: convertapi-file-server-api-openapi.yml
   format: yaml
   label: ConvertAPI File Server API
   slug: convertapi-file-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertapi/refs/heads/main/openapi/convertapi-file-server-api-openapi.yml
+  url: https://artifacts.apis.io/convertapi/openapi/convertapi-file-server-api-openapi.yml
 - filename: convertapi-user-api-openapi.yml
   format: yaml
   label: ConvertAPI User API
   slug: convertapi-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertapi/refs/heads/main/openapi/convertapi-user-api-openapi.yml
+  url: https://artifacts.apis.io/convertapi/openapi/convertapi-user-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: convertapi-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: secret\n  type: http\n  scheme: bearer\n  description: '[Get `Secret`](https://www.convertapi.com/a/secret)'\n  sources:\n  - openapi/openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/convertapi/refs/heads/main/authentication/convertapi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/convertapi/authentication/convertapi-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - File Conversion

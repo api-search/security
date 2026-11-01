@@ -8,43 +8,43 @@ api_specs:
   label: SleekFlow Companies API
   slug: sleekflow-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/openapi/sleekflow-companies-api-openapi.yml
+  url: https://artifacts.apis.io/sleekflow/openapi/sleekflow-companies-api-openapi.yml
 - filename: sleekflow-contacts-api-openapi.yml
   format: yaml
   label: SleekFlow Contacts API
   slug: sleekflow-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/openapi/sleekflow-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/sleekflow/openapi/sleekflow-contacts-api-openapi.yml
 - filename: sleekflow-conversations-api-openapi.yml
   format: yaml
   label: SleekFlow Conversations API
   slug: sleekflow-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/openapi/sleekflow-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/sleekflow/openapi/sleekflow-conversations-api-openapi.yml
 - filename: sleekflow-lists-api-openapi.yml
   format: yaml
   label: SleekFlow Lists API
   slug: sleekflow-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/openapi/sleekflow-lists-api-openapi.yml
+  url: https://artifacts.apis.io/sleekflow/openapi/sleekflow-lists-api-openapi.yml
 - filename: sleekflow-messaging-api-openapi.yml
   format: yaml
   label: SleekFlow Messaging API
   slug: sleekflow-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/openapi/sleekflow-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/sleekflow/openapi/sleekflow-messaging-api-openapi.yml
 - filename: sleekflow-staff-and-teams-api-openapi.yml
   format: yaml
   label: SleekFlow Staff and Teams API
   slug: sleekflow-staff-and-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/openapi/sleekflow-staff-and-teams-api-openapi.yml
+  url: https://artifacts.apis.io/sleekflow/openapi/sleekflow-staff-and-teams-api-openapi.yml
 - filename: sleekflow-webhooks-api-openapi.yml
   format: yaml
   label: SleekFlow Webhooks API
   slug: sleekflow-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/openapi/sleekflow-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/sleekflow/openapi/sleekflow-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -72,7 +72,7 @@ source_filename: sleekflow-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sleekflow-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-Sleekflow-ApiKey\n  description: Platform API key issued from the SleekFlow Integrations dashboard (Admin access\n    required).\n  sources:\n  - openapi/sleekflow-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/authentication/sleekflow-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sleekflow/authentication/sleekflow-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Messaging

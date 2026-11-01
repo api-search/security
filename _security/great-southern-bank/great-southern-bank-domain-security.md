@@ -5,43 +5,43 @@ api_specs:
   label: Great Southern Bank Banking Account Balances API
   slug: great-southern-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/great-southern-bank/openapi/great-southern-bank-banking-account-balances-api-openapi.yml
 - filename: great-southern-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Great Southern Bank Banking Account Direct Debits API
   slug: great-southern-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/great-southern-bank/openapi/great-southern-bank-banking-account-direct-debits-api-openapi.yml
 - filename: great-southern-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Great Southern Bank Banking Account Scheduled Payments API
   slug: great-southern-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/great-southern-bank/openapi/great-southern-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: great-southern-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Great Southern Bank Banking Account Transactions API
   slug: great-southern-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/great-southern-bank/openapi/great-southern-bank-banking-account-transactions-api-openapi.yml
 - filename: great-southern-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Great Southern Bank Banking Accounts API
   slug: great-southern-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/great-southern-bank/openapi/great-southern-bank-banking-accounts-api-openapi.yml
 - filename: great-southern-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Great Southern Bank Banking Payees API
   slug: great-southern-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/great-southern-bank/openapi/great-southern-bank-banking-payees-api-openapi.yml
 - filename: great-southern-bank-banking-products-api-openapi.yml
   format: yaml
   label: Great Southern Bank Banking Products API
   slug: great-southern-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/great-southern-bank/openapi/great-southern-bank-banking-products-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -86,7 +86,7 @@ source_filename: great-southern-bank-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.greatsouthernbank.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 19:36:02 2026 GMT\n  hsts: null\n- host: api.open-banking.greatsouthernbank.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 10 23:59:59 2026 GMT\n  hsts: null\n- host: od1.open-banking.business.greatsouthernbank.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: greatsouthernbank.com.au\n  dnssec: false\n  caa:\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \";\"\n  - 0 iodef \"mailto:dns.admin@gsb.com.au\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/security/great-southern-bank-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/great-southern-bank/security/great-southern-bank-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Finance

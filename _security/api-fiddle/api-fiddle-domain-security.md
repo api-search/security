@@ -5,31 +5,31 @@ api_specs:
   label: API-Fiddle Export API
   slug: api-fiddle-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-fiddle/refs/heads/main/openapi/api-fiddle-export-api-openapi.yml
+  url: https://artifacts.apis.io/api-fiddle/openapi/api-fiddle-export-api-openapi.yml
 - filename: api-fiddle-projects-api-openapi.yml
   format: yaml
   label: API-Fiddle Projects API
   slug: api-fiddle-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-fiddle/refs/heads/main/openapi/api-fiddle-projects-api-openapi.yml
+  url: https://artifacts.apis.io/api-fiddle/openapi/api-fiddle-projects-api-openapi.yml
 - filename: api-fiddle-sharing-api-openapi.yml
   format: yaml
   label: API-Fiddle Sharing API
   slug: api-fiddle-sharing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-fiddle/refs/heads/main/openapi/api-fiddle-sharing-api-openapi.yml
+  url: https://artifacts.apis.io/api-fiddle/openapi/api-fiddle-sharing-api-openapi.yml
 - filename: api-fiddle-specifications-api-openapi.yml
   format: yaml
   label: API-Fiddle Specifications API
   slug: api-fiddle-specifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-fiddle/refs/heads/main/openapi/api-fiddle-specifications-api-openapi.yml
+  url: https://artifacts.apis.io/api-fiddle/openapi/api-fiddle-specifications-api-openapi.yml
 - filename: api-fiddle-workspaces-api-openapi.yml
   format: yaml
   label: API-Fiddle Workspaces API
   slug: api-fiddle-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-fiddle/refs/heads/main/openapi/api-fiddle-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/api-fiddle/openapi/api-fiddle-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,7 +62,7 @@ source_filename: api-fiddle-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api-fiddle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 09:51:38 2026 GMT\n  hsts: false\n- host: api.api-fiddle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 17:15:41 2026 GMT\n  hsts: false\ndomains:\n- domain: api-fiddle.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-fiddle/refs/heads/main/security/api-fiddle-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/api-fiddle/security/api-fiddle-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - API Design

@@ -5,43 +5,43 @@ api_specs:
   label: Aeropay Authentication API
   slug: aeropay-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeropay/refs/heads/main/openapi/aeropay-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/aeropay/openapi/aeropay-authentication-api-openapi.yml
 - filename: aeropay-bank-connection-api-openapi.yml
   format: yaml
   label: Aeropay Bank Connection API
   slug: aeropay-bank-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeropay/refs/heads/main/openapi/aeropay-bank-connection-api-openapi.yml
+  url: https://artifacts.apis.io/aeropay/openapi/aeropay-bank-connection-api-openapi.yml
 - filename: aeropay-create-manage-transactions-api-openapi.yml
   format: yaml
   label: Aeropay Create & Manage Transactions API
   slug: aeropay-create-manage-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeropay/refs/heads/main/openapi/aeropay-create-manage-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/aeropay/openapi/aeropay-create-manage-transactions-api-openapi.yml
 - filename: aeropay-merchant-management-api-openapi.yml
   format: yaml
   label: Aeropay Merchant Management API
   slug: aeropay-merchant-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeropay/refs/heads/main/openapi/aeropay-merchant-management-api-openapi.yml
+  url: https://artifacts.apis.io/aeropay/openapi/aeropay-merchant-management-api-openapi.yml
 - filename: aeropay-reports-api-openapi.yml
   format: yaml
   label: Aeropay Reports API
   slug: aeropay-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeropay/refs/heads/main/openapi/aeropay-reports-api-openapi.yml
+  url: https://artifacts.apis.io/aeropay/openapi/aeropay-reports-api-openapi.yml
 - filename: aeropay-user-management-api-openapi.yml
   format: yaml
   label: Aeropay User Management API
   slug: aeropay-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeropay/refs/heads/main/openapi/aeropay-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/aeropay/openapi/aeropay-user-management-api-openapi.yml
 - filename: aeropay-webhooks-api-openapi.yml
   format: yaml
   label: Aeropay Webhooks API
   slug: aeropay-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeropay/refs/heads/main/openapi/aeropay-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/aeropay/openapi/aeropay-webhooks-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -61,7 +61,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-10'\nmethod: searched\nsource: https://www.aeropay.com/trust-center\nurl: https://www.aeropay.com/trust-center\npublished: true\ncertifications:\n- name: SOC 2\n  status: compliant\n  cadence: annual independent audit\n  scope: security, availability and confidentiality controls\n  report_available: false\n  report_type_published: false\n  quote: 'Aeropay is SOC 2 compliant, with annual independent audits verifying that our security,\n    availability, and confidentiality controls meet enterprise-grade standards.'\n- name: Nacha ACH Operating Rules\n  status: compliant\n  cadence: annual independent audit of ACH processes\n  scope: ACH operations\n  quote: 'We handle ACH operations in strict compliance with NACHA standards, and undergo annual\n    independent audits of our ACH processes.'\npractices_claimed:\n- OAuth-first bank linking through the Aerosync widget\n- FDX-style normalization of bank data\nnot_claimed:\n- PCI DSS\n- ISO/IEC 27001\n- HIPAA\n\
   - FedRAMP\n- GDPR certification\nthird_party_trust_portal:\n  present: false\n  note: 'No Vanta, Drata, SafeBase or Conveyor trust portal is linked; the trust center is a marketing page\n    on the Webflow site, not a document exchange. No SOC 2 report, penetration-test summary, subprocessor\n    list or security questionnaire is downloadable, and there is no gated request form for one.'\nvulnerability_disclosure:\n  present: false\n  note: 'The trust center names no vulnerability disclosure policy, responsible disclosure process, bug\n    bounty program or security contact address. No /.well-known/security.txt is served on any Aeropay host\n    (well-known/aeropay-well-known.yml). probe-security-programs.py returned vdp=none. A researcher who\n    finds a flaw in a live payments network has no published channel to report it. NO type: Security\n    pointer is emitted in apis.yml because no disclosure program exists to point at.'\njurisdiction:\n  countries:\n  - US\n  note: Aeropay states\
   \ it currently supports U.S. bank accounts only.\nlegal:\n  privacy_policy: https://www.aeropay.com/legal/privacy-policy\n  terms_merchant: https://www.aeropay.com/legal/terms-of-service\n  terms_end_user: https://www.aeropay.com/legal/terms-of-service---end-user\nevidence:\n- url: https://www.aeropay.com/trust-center\n  status: 200\n- url: https://www.aeropay.com/.well-known/security.txt\n  status: 404\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aeropay/refs/heads/main/security/aeropay-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/aeropay/security/aeropay-trust-center.yml
 summary_line: SOC 2, Nacha ACH Operating Rules
 tags:
 - Payments

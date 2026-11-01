@@ -27,7 +27,7 @@ source_filename: bright-peak-therapeutics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: brightpeaktx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 21:33:30 2026 GMT\n  hsts: false\ndomains:\n- domain: brightpeaktx.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bright-peak-therapeutics/refs/heads/main/security/bright-peak-therapeutics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bright-peak-therapeutics/security/bright-peak-therapeutics-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -8,7 +8,7 @@ api_specs:
   label: Clix Clix External Service API
   slug: clix-so-clixexternalservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clix-so/refs/heads/main/openapi/clix-so-clixexternalservice-api-openapi.yml
+  url: https://artifacts.apis.io/clix-so/openapi/clix-so-clixexternalservice-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://docs.cl
   \ Project ID for authentication — identifies the project; rate limits are tracked on it.\n  required_with: ApiKeyAuth\n  surfaces: [REST]\n  sources: [openapi/clix-so-openapi.yml, 'https://docs.clix.so/api-reference/overview']\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-Clix-API-Key\n  description: API Key for authentication — public or secret depending on the operation.\n  key_types:\n  - {kind: public, prefix: not stated, use: 'Client-side SDKs in mobile apps, browsers, or public environments', visibility: Safe to expose}\n  - {kind: secret, prefix: clix_sk_, use: 'Server-to-server communication, secure backend operations — user management, message sending, campaign triggering', visibility: Must keep confidential}\n  surfaces: [REST]\n  sources: [openapi/clix-so-openapi.yml, 'https://docs.clix.so/api-reference/overview']\n- name: apiKey (A2A)\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: Secret API key for A2A authentication (agent card securitySchemes.apiKey).\
   \ Secret keys only; public keys are rejected; the project is resolved from the key so no project header is sent.\n  surfaces: [A2A — POST https://api.clix.so/a2a]\n  sources: [a2a/clix-so-agent-card.json, 'https://docs.clix.so/a2a/overview']\n  observed: 'POST /a2a without the header -> 401 text/plain \"Missing API key\" (2026-09-19)'\n- name: none (MCP)\n  type: none\n  description: Neither MCP server takes a credential — the stdio @clix-so/clix-mcp-server and the Mintlify docs endpoint at https://docs.clix.so/mcp both search public documentation only.\n  surfaces: [MCP]\n- name: device flow (CLI)\n  type: human-login\n  description: '`clix login` authenticates the CLI with a Clix account via device flow; `clix logout` removes stored credentials; `clix whoami` shows the user. A developer-session login, not an API scheme.'\n  surfaces: [CLI]\n  sources: ['https://docs.clix.so/clix-cli']\nkey_management:\n  issued_in: Clix console (https://console.clix.so — every path 307s to /auth/login)\n\
   \  rotation: 'Docs advise: store keys in environment variables or a secrets manager, rotate, least privilege (public in clients, secret only in trusted backends), audit and revoke unused keys, alert on unusual activity. No rotation API is documented.'\n  scopes: none — no scoped or restricted keys beyond the public/secret split\nerrors:\n  '401': 'Verify API key and Project ID are correct and valid. Observed bodies: \"Missing project id\" (REST), \"Missing API key\" (A2A).'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clix-so/refs/heads/main/authentication/clix-so-authentication.yml
+source_yaml_url: https://artifacts.apis.io/clix-so/authentication/clix-so-authentication.yml
 summary_line: apiKey · 5 schemes
 tags:
 - Push Notifications

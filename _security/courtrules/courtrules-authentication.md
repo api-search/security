@@ -26,7 +26,7 @@ source_filename: courtrules-authentication.yml
 source_heading: Authentication Profile
 source_url: https://docs.courtrules.app/authentication.md
 source_yaml: "generated: '2026-10-02'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://docs.courtrules.app/authentication.md\nsources:\n- https://docs.courtrules.app/authentication.md\n- https://docs.courtrules.app/quickstart.md\ndescription: Authentication methods for Court Rules API\nschemes:\n- type: http-bearer\n  name: Bearer token\n  evidence: All API endpoints require a Bearer token in the `Authorization` header.\n  location: header\n  header: Authorization\n  how_to_obtain: API keys are issued through the console dashboard at console.courtrules.app; the key is used as a Bearer token.\ndocs: https://docs.courtrules.app/authentication.md\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/courtrules/refs/heads/main/authentication/courtrules-authentication.yml
+source_yaml_url: https://artifacts.apis.io/courtrules/authentication/courtrules-authentication.yml
 summary_line: 1 scheme
 tags:
 - Legal Data

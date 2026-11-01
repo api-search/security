@@ -26,7 +26,7 @@ source_filename: viridico2-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: viridico2.co.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 22:52:26 2026 GMT\n  hsts: false\ndomains:\n- domain: viridico2.co.uk\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/viridico2/refs/heads/main/security/viridico2-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/viridico2/security/viridico2-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

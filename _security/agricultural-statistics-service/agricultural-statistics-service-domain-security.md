@@ -5,13 +5,13 @@ api_specs:
   label: Agricultural Statistics Service Parameters API
   slug: agricultural-statistics-service-parameters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agricultural-statistics-service/refs/heads/main/openapi/agricultural-statistics-service-parameters-api-openapi.yml
+  url: https://artifacts.apis.io/agricultural-statistics-service/openapi/agricultural-statistics-service-parameters-api-openapi.yml
 - filename: agricultural-statistics-service-statistics-api-openapi.yml
   format: yaml
   label: Agricultural Statistics Service Statistics API
   slug: agricultural-statistics-service-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agricultural-statistics-service/refs/heads/main/openapi/agricultural-statistics-service-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/agricultural-statistics-service/openapi/agricultural-statistics-service-statistics-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -63,7 +63,7 @@ source_filename: agricultural-statistics-service-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nass.usda.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: quickstats.nass.usda.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 14 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: nassgeodata.gmu.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: usda.gov\n  dnssec: true\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 iodef \"mailto:icam_as_notify@ocio.usda.gov\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: gmu.edu\n  dnssec: false\n  caa:\n  - ;; connection timed out; no servers could be reached\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agricultural-statistics-service/refs/heads/main/security/agricultural-statistics-service-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/agricultural-statistics-service/security/agricultural-statistics-service-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Agriculture

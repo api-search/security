@@ -5,19 +5,19 @@ api_specs:
   label: APIToolkit (Monoscope) Metrics API
   slug: apitoolkit-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apitoolkit/refs/heads/main/openapi/apitoolkit-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/apitoolkit/openapi/apitoolkit-metrics-api-openapi.yml
 - filename: apitoolkit-monitors-api-openapi.yml
   format: yaml
   label: APIToolkit (Monoscope) Monitors API
   slug: apitoolkit-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apitoolkit/refs/heads/main/openapi/apitoolkit-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/apitoolkit/openapi/apitoolkit-monitors-api-openapi.yml
 - filename: apitoolkit-schema-api-openapi.yml
   format: yaml
   label: APIToolkit (Monoscope) Schema API
   slug: apitoolkit-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apitoolkit/refs/heads/main/openapi/apitoolkit-schema-api-openapi.yml
+  url: https://artifacts.apis.io/apitoolkit/openapi/apitoolkit-schema-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: apitoolkit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: monoscope.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 05:01:30 2026 GMT\n  hsts: false\n- host: api.monoscope.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 19:26:14 2026 GMT\n  hsts: null\ndomains:\n- domain: monoscope.tech\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apitoolkit/refs/heads/main/security/apitoolkit-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apitoolkit/security/apitoolkit-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - AI Observability
@@ -60,7 +60,7 @@ tags:
 - API Management
 - API Monitoring
 - API Testing
-- Breaking Change Detection
+- Breaking Changes
 - CLI
 - Debugging
 - Developer Tools

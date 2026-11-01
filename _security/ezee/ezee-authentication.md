@@ -8,13 +8,13 @@ api_specs:
   label: eZee Technosys Inventory and Rates API
   slug: ezee-inventory-and-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezee/refs/heads/main/openapi/ezee-inventory-and-rates-api-openapi.yml
+  url: https://artifacts.apis.io/ezee/openapi/ezee-inventory-and-rates-api-openapi.yml
 - filename: ezee-pms-connectivity-api-openapi.yml
   format: yaml
   label: eZee Technosys PMS Connectivity API
   slug: ezee-pms-connectivity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezee/refs/heads/main/openapi/ezee-pms-connectivity-api-openapi.yml
+  url: https://artifacts.apis.io/ezee/openapi/ezee-pms-connectivity-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: ezee-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ezee-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: HotelCodeAuthCode\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Property-scoped credentials (HotelCode + AuthCode) provisioned through the YCS\n    Connectivity Portal, supplied per the portal's authentication conventions (commonly carried\n    in the request body and/or as HTTP Basic with a vendor-identifying User-Agent header). Not\n    a self-serve public API key.\n  sources:\n  - openapi/ezee-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ezee/refs/heads/main/authentication/ezee-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ezee/authentication/ezee-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Hospitality

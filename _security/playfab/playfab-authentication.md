@@ -8,13 +8,13 @@ api_specs:
   label: PlayFab Account API
   slug: playfab-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playfab/refs/heads/main/openapi/playfab-account-api-openapi.yml
+  url: https://artifacts.apis.io/playfab/openapi/playfab-account-api-openapi.yml
 - filename: playfab-authentication-api-openapi.yml
   format: yaml
   label: PlayFab Authentication API
   slug: playfab-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playfab/refs/heads/main/openapi/playfab-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/playfab/openapi/playfab-authentication-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -51,7 +51,7 @@ source_filename: playfab-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/playfab-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: sessionTicket\n  type: apiKey\n  in: header\n  parameter: X-Authorization\n  description: |-\n    Session ticket returned by a successful `LoginWith*` call. Required\n    for all Client API operations other than login/registration.\n  sources:\n  - openapi/playfab-openapi.yml\n- name: entityToken\n  type: apiKey\n  in: header\n  parameter: X-EntityToken\n  description: Entity token used for Entity-model API calls.\n  sources:\n  - openapi/playfab-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/playfab/refs/heads/main/authentication/playfab-authentication.yml
+source_yaml_url: https://artifacts.apis.io/playfab/authentication/playfab-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Authentication

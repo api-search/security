@@ -5,25 +5,25 @@ api_specs:
   label: Rijksmuseum Collection API
   slug: rijksmuseum-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rijksmuseum/refs/heads/main/openapi/rijksmuseum-collection-api-openapi.yml
+  url: https://artifacts.apis.io/rijksmuseum/openapi/rijksmuseum-collection-api-openapi.yml
 - filename: rijksmuseum-images-api-openapi.yml
   format: yaml
   label: Rijksmuseum Images API
   slug: rijksmuseum-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rijksmuseum/refs/heads/main/openapi/rijksmuseum-images-api-openapi.yml
+  url: https://artifacts.apis.io/rijksmuseum/openapi/rijksmuseum-images-api-openapi.yml
 - filename: rijksmuseum-object-details-api-openapi.yml
   format: yaml
   label: Rijksmuseum Object Details API
   slug: rijksmuseum-object-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rijksmuseum/refs/heads/main/openapi/rijksmuseum-object-details-api-openapi.yml
+  url: https://artifacts.apis.io/rijksmuseum/openapi/rijksmuseum-object-details-api-openapi.yml
 - filename: rijksmuseum-user-generated-content-api-openapi.yml
   format: yaml
   label: Rijksmuseum User Generated Content API
   slug: rijksmuseum-user-generated-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rijksmuseum/refs/heads/main/openapi/rijksmuseum-user-generated-content-api-openapi.yml
+  url: https://artifacts.apis.io/rijksmuseum/openapi/rijksmuseum-user-generated-content-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -63,7 +63,7 @@ source_filename: rijksmuseum-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.rijksmuseum.nl\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: data.rijksmuseum.nl\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 10886400\ndomains:\n- domain: rijksmuseum.nl\n  dnssec: true\n  caa:\n  - 0 issue \"harica.gr\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rijksmuseum/refs/heads/main/security/rijksmuseum-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rijksmuseum/security/rijksmuseum-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Museums

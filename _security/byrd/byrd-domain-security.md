@@ -5,31 +5,31 @@ api_specs:
   label: Byrd Account API
   slug: byrd-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/byrd/refs/heads/main/openapi/byrd-account-api-openapi.yml
+  url: https://artifacts.apis.io/byrd/openapi/byrd-account-api-openapi.yml
 - filename: byrd-authentication-api-openapi.yml
   format: yaml
   label: Byrd Authentication API
   slug: byrd-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/byrd/refs/heads/main/openapi/byrd-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/byrd/openapi/byrd-authentication-api-openapi.yml
 - filename: byrd-catalog-api-openapi.yml
   format: yaml
   label: Byrd Catalog API
   slug: byrd-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/byrd/refs/heads/main/openapi/byrd-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/byrd/openapi/byrd-catalog-api-openapi.yml
 - filename: byrd-inbound-api-openapi.yml
   format: yaml
   label: Byrd Inbound API
   slug: byrd-inbound-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/byrd/refs/heads/main/openapi/byrd-inbound-api-openapi.yml
+  url: https://artifacts.apis.io/byrd/openapi/byrd-inbound-api-openapi.yml
 - filename: byrd-shipments-api-openapi.yml
   format: yaml
   label: Byrd Shipments API
   slug: byrd-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/byrd/refs/heads/main/openapi/byrd-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/byrd/openapi/byrd-shipments-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -76,7 +76,7 @@ source_filename: byrd-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.getbyrd.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 21:37:41 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.getbyrd.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 04:20:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.getbyrd.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 10:32:32 2026 GMT\n  hsts: null\ndomains:\n- domain: getbyrd.com\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 iodef \"mailto:incidents@getbyrd.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"godaddy.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/byrd/refs/heads/main/security/byrd-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/byrd/security/byrd-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

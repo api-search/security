@@ -5,25 +5,25 @@ api_specs:
   label: SkipOdds Alerts API
   slug: skipodds-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/openapi/skipodds-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/skipodds/openapi/skipodds-alerts-api-openapi.yml
 - filename: skipodds-fixtures-api-openapi.yml
   format: yaml
   label: SkipOdds Fixtures API
   slug: skipodds-fixtures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/openapi/skipodds-fixtures-api-openapi.yml
+  url: https://artifacts.apis.io/skipodds/openapi/skipodds-fixtures-api-openapi.yml
 - filename: skipodds-golf-api-openapi.yml
   format: yaml
   label: SkipOdds Golf API
   slug: skipodds-golf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/openapi/skipodds-golf-api-openapi.yml
+  url: https://artifacts.apis.io/skipodds/openapi/skipodds-golf-api-openapi.yml
 - filename: skipodds-outrights-api-openapi.yml
   format: yaml
   label: SkipOdds Outrights API
   slug: skipodds-outrights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/openapi/skipodds-outrights-api-openapi.yml
+  url: https://artifacts.apis.io/skipodds/openapi/skipodds-outrights-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: skipodds-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: skipodds.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 08:05:21 2026 GMT\n  hsts: null\ndomains:\n- domain: skipodds.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/security/skipodds-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/skipodds/security/skipodds-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Sports

@@ -7,19 +7,19 @@ api_specs:
   label: McGill University Metadata API
   slug: mcgill-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcgill/refs/heads/main/openapi/mcgill-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/mcgill/openapi/mcgill-metadata-api-openapi.yml
 - filename: mcgill-sso-api-openapi.yml
   format: yaml
   label: McGill University SSO API
   slug: mcgill-sso-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcgill/refs/heads/main/openapi/mcgill-sso-api-openapi.yml
+  url: https://artifacts.apis.io/mcgill/openapi/mcgill-sso-api-openapi.yml
 - filename: mcgill-status-api-openapi.yml
   format: yaml
   label: McGill University Status API
   slug: mcgill-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcgill/refs/heads/main/openapi/mcgill-status-api-openapi.yml
+  url: https://artifacts.apis.io/mcgill/openapi/mcgill-status-api-openapi.yml
 auth_types:
 - saml
 - none
@@ -73,7 +73,7 @@ source_yaml: "---\ngenerated: '2026-08-30'\nmodified: '2026-08-30'\nmethod: prob
   \ scheme. That token is Dataverse's, issued by Borealis (Scholars Portal), and\n  attributing it to McGill credited the institution with a vendor's access-control design.\nsummary:\n  types:\n  - saml\n  - none\n  api_key_programme: false\n  oauth_authorization_server: false\n  institution_operated_schemes: 1\nschemes:\n- name: ShibbolethSAML\n  type: saml\n  operator: institution\n  description: >-\n    SAML 2.0 web browser SSO against McGill's Shibboleth identity provider. Relying parties\n    configure trust from the published metadata; there is no client-credential or machine-to-machine\n    flow, and access is granted to registered service providers, not to arbitrary API clients.\n  entity_id: https://shibboleth.mcgill.ca/idp/shibboleth\n  metadata_url: https://shibboleth.mcgill.ca/idp/shibboleth\n  scope: mcgill.ca\n  bindings:\n  - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect\n  - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST\n  - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign\n\
   \  endpoints:\n  - type: SingleSignOnService\n    url: https://shibboleth.mcgill.ca/idp/profile/SAML2/Redirect/SSO\n  - type: SingleSignOnService\n    url: https://shibboleth.mcgill.ca/idp/profile/SAML2/POST/SSO\n  - type: SingleLogoutService\n    url: https://shibboleth.mcgill.ca/idp/profile/SAML2/Redirect/SLO\n  sources:\n  - openapi/mcgill-shibboleth-idp-openapi.yml\n- name: PublicMetadataAnonymous\n  type: none\n  operator: institution\n  description: >-\n    The SAML metadata document itself is served unauthenticated, as federation metadata must be.\n    No credential, no rate-limit header, no registration.\n  sources:\n  - openapi/mcgill-shibboleth-idp-openapi.yml\ntenant_platform_schemes:\n- name: ScholarisAnonymousRead\n  type: none\n  operator: tenant\n  platform: Scholaris (Scholars Portal / OCUL) — DSpace 7\n  description: >-\n    eScholarship@McGill serves its DSpace REST (HAL) root and its OAI-PMH endpoint without\n    authentication for public read. Deposit and administration\
   \ are behind Scholaris accounts.\n    The scheme is DSpace's, not McGill's; recorded here as a tenant fact, not as McGill's design.\n  evidence:\n  - url: https://mcgill.scholaris.ca/server/api\n    status: 200\n  - url: https://mcgill.scholaris.ca/server/oai/request?verb=Identify\n    status: 200\n- name: BorealisDataverseToken\n  type: apiKey\n  operator: tenant\n  platform: Borealis (Scholars Portal / OCUL) — Dataverse\n  description: >-\n    The X-Dataverse-key header token governing write and private-data access to the McGill\n    University Dataverse. Issued by Borealis, defined by the Dataverse project, shared with every\n    other Borealis member institution. Recorded as the tenant relationship it is; NOT catalogued\n    as a McGill authentication scheme.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mcgill/refs/heads/main/authentication/mcgill-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mcgill/authentication/mcgill-authentication.yml
 summary_line: saml/none · 2 schemes
 tags:
 - University

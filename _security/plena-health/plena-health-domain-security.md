@@ -27,7 +27,7 @@ source_filename: plena-health-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.plena.health\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 03:56:32 2026 GMT\n  hsts: false\ndomains:\n- domain: plena.health\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plena-health/refs/heads/main/security/plena-health-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/plena-health/security/plena-health-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

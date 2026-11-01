@@ -7,37 +7,37 @@ api_specs:
   label: TourRadar Bookings API
   slug: tourradar-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/openapi/tourradar-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/tourradar/openapi/tourradar-bookings-api-openapi.yml
 - filename: tourradar-bulk-api-openapi.yml
   format: yaml
   label: TourRadar Bulk API
   slug: tourradar-bulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/openapi/tourradar-bulk-api-openapi.yml
+  url: https://artifacts.apis.io/tourradar/openapi/tourradar-bulk-api-openapi.yml
 - filename: tourradar-operators-api-openapi.yml
   format: yaml
   label: TourRadar Operators API
   slug: tourradar-operators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/openapi/tourradar-operators-api-openapi.yml
+  url: https://artifacts.apis.io/tourradar/openapi/tourradar-operators-api-openapi.yml
 - filename: tourradar-pricing-availability-api-openapi.yml
   format: yaml
   label: TourRadar Pricing & Availability API
   slug: tourradar-pricing-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/openapi/tourradar-pricing-availability-api-openapi.yml
+  url: https://artifacts.apis.io/tourradar/openapi/tourradar-pricing-availability-api-openapi.yml
 - filename: tourradar-taxonomy-api-openapi.yml
   format: yaml
   label: TourRadar Taxonomy API
   slug: tourradar-taxonomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/openapi/tourradar-taxonomy-api-openapi.yml
+  url: https://artifacts.apis.io/tourradar/openapi/tourradar-taxonomy-api-openapi.yml
 - filename: tourradar-tours-api-openapi.yml
   format: yaml
   label: TourRadar Tours API
   slug: tourradar-tours-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/openapi/tourradar-tours-api-openapi.yml
+  url: https://artifacts.apis.io/tourradar/openapi/tourradar-tours-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -78,7 +78,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://dashboard.api.b2b.tourradar.com/config.js\ndocs: https://www.tourradar.com/distribution-api\nnotes: >-\n  TourRadar's Distribution API (B2B partner platform for OTAs, airlines and GDSs)\n  authenticates partners with OAuth 2.0 / OpenID Connect issued by an AWS Cognito\n  user pool (us-east-1_AzhYLFMIv). The partner dashboard's public config.js exposes\n  the OAuth endpoint, the Cognito hosted domain, the client id used by the dashboard\n  SPA, and the full resource-server scope list. The API itself (api.b2b.tourradar.com)\n  rejects unauthenticated requests (HTTP 403). Detailed developer documentation sits\n  behind the partner dashboard login (dashboard.api.b2b.tourradar.com/docs).\nsummary:\n  types: [oauth2, openIdConnect]\n  oauth2_flows: [authorizationCode]\n  issuer: https://cognito-idp.us-east-1.amazonaws.com/us-east-1_AzhYLFMIv\nschemes:\n  - name: TourRadarB2BOAuth\n    type: oauth2\n    description: OAuth\
   \ 2.0 for the TourRadar B2B Distribution API, fronted by oauth.api.b2b.tourradar.com and backed by an AWS Cognito user pool.\n    endpoints:\n      oauth: https://oauth.api.b2b.tourradar.com\n      authorization: https://auth.tourradar.com/oauth2/authorize\n      revocation: https://auth.tourradar.com/oauth2/revoke\n      cognito_hosted_domain: https://b2b-tourradar-production.auth.us-east-1.amazoncognito.com\n      login_spa: https://login.tourradar.com\n    scopes_count: 24\n    scopes_ref: scopes/tourradar-scopes.yml\n  - name: TourRadarB2BOIDC\n    type: openIdConnect\n    description: OpenID Connect discovery for the B2B partner identity pool (openid, email, profile scopes).\n    openIdConnectUrl: https://cognito-idp.us-east-1.amazonaws.com/us-east-1_AzhYLFMIv/.well-known/openid-configuration\n    discovery_status: 200\n    discovery_file: well-known/tourradar-openid-configuration.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/authentication/tourradar-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tourradar/authentication/tourradar-authentication.yml
 summary_line: oauth2/openIdConnect · 2 schemes
 tags:
 - Travel

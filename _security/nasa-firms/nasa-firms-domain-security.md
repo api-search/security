@@ -5,25 +5,25 @@ api_specs:
   label: NASA FIRMS Area Fire Detections API
   slug: nasa-firms-area-fire-detections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa-firms/refs/heads/main/openapi/nasa-firms-area-fire-detections-api-openapi.yml
+  url: https://artifacts.apis.io/nasa-firms/openapi/nasa-firms-area-fire-detections-api-openapi.yml
 - filename: nasa-firms-data-availability-api-openapi.yml
   format: yaml
   label: NASA FIRMS Data Availability API
   slug: nasa-firms-data-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa-firms/refs/heads/main/openapi/nasa-firms-data-availability-api-openapi.yml
+  url: https://artifacts.apis.io/nasa-firms/openapi/nasa-firms-data-availability-api-openapi.yml
 - filename: nasa-firms-kml-fire-footprints-api-openapi.yml
   format: yaml
   label: NASA FIRMS KML Fire Footprints API
   slug: nasa-firms-kml-fire-footprints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa-firms/refs/heads/main/openapi/nasa-firms-kml-fire-footprints-api-openapi.yml
+  url: https://artifacts.apis.io/nasa-firms/openapi/nasa-firms-kml-fire-footprints-api-openapi.yml
 - filename: nasa-firms-missing-data-api-openapi.yml
   format: yaml
   label: NASA FIRMS Missing Data API
   slug: nasa-firms-missing-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa-firms/refs/heads/main/openapi/nasa-firms-missing-data-api-openapi.yml
+  url: https://artifacts.apis.io/nasa-firms/openapi/nasa-firms-missing-data-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: nasa-firms-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: firms.modaps.eosdis.nasa.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep  5 04:17:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: nasa.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nasa-firms/refs/heads/main/security/nasa-firms-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nasa-firms/security/nasa-firms-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - NASA

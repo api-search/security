@@ -7,25 +7,25 @@ api_specs:
   label: Ansible Automation Platform Inventories API
   slug: ansible-automation-platform-inventories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-automation-platform/refs/heads/main/openapi/ansible-automation-platform-inventories-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-automation-platform/openapi/ansible-automation-platform-inventories-api-openapi.yml
 - filename: ansible-automation-platform-job-templates-api-openapi.yml
   format: yaml
   label: Ansible Automation Platform Job Templates API
   slug: ansible-automation-platform-job-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-automation-platform/refs/heads/main/openapi/ansible-automation-platform-job-templates-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-automation-platform/openapi/ansible-automation-platform-job-templates-api-openapi.yml
 - filename: ansible-automation-platform-jobs-api-openapi.yml
   format: yaml
   label: Ansible Automation Platform Jobs API
   slug: ansible-automation-platform-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-automation-platform/refs/heads/main/openapi/ansible-automation-platform-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-automation-platform/openapi/ansible-automation-platform-jobs-api-openapi.yml
 - filename: ansible-automation-platform-projects-api-openapi.yml
   format: yaml
   label: Ansible Automation Platform Projects API
   slug: ansible-automation-platform-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-automation-platform/refs/heads/main/openapi/ansible-automation-platform-projects-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-automation-platform/openapi/ansible-automation-platform-projects-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: ansible-automation-platform-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ansible-controller-api.yaml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth2 token or personal access token.\n  sources:\n  - openapi/ansible-controller-api.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ansible-automation-platform/refs/heads/main/authentication/ansible-automation-platform-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ansible-automation-platform/authentication/ansible-automation-platform-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Automation

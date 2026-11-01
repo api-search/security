@@ -7,37 +7,37 @@ api_specs:
   label: Authsignal Actions API
   slug: authsignal-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/openapi/authsignal-actions-api-openapi.yml
+  url: https://artifacts.apis.io/authsignal/openapi/authsignal-actions-api-openapi.yml
 - filename: authsignal-authenticators-api-openapi.yml
   format: yaml
   label: Authsignal Authenticators API
   slug: authsignal-authenticators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/openapi/authsignal-authenticators-api-openapi.yml
+  url: https://artifacts.apis.io/authsignal/openapi/authsignal-authenticators-api-openapi.yml
 - filename: authsignal-challenges-api-openapi.yml
   format: yaml
   label: Authsignal Challenges API
   slug: authsignal-challenges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/openapi/authsignal-challenges-api-openapi.yml
+  url: https://artifacts.apis.io/authsignal/openapi/authsignal-challenges-api-openapi.yml
 - filename: authsignal-devices-api-openapi.yml
   format: yaml
   label: Authsignal Devices API
   slug: authsignal-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/openapi/authsignal-devices-api-openapi.yml
+  url: https://artifacts.apis.io/authsignal/openapi/authsignal-devices-api-openapi.yml
 - filename: authsignal-sessions-api-openapi.yml
   format: yaml
   label: Authsignal Sessions API
   slug: authsignal-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/openapi/authsignal-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/authsignal/openapi/authsignal-sessions-api-openapi.yml
 - filename: authsignal-users-api-openapi.yml
   format: yaml
   label: Authsignal Users API
   slug: authsignal-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/openapi/authsignal-users-api-openapi.yml
+  url: https://artifacts.apis.io/authsignal/openapi/authsignal-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -66,7 +66,7 @@ source_filename: authsignal-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/authsignal-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: |-\n    HTTP Basic auth where the username is the Authsignal tenant secret API\n    key and the password is empty.\n  sources:\n  - openapi/authsignal-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/authentication/authsignal-authentication.yml
+source_yaml_url: https://artifacts.apis.io/authsignal/authentication/authsignal-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Authentication

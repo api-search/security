@@ -27,7 +27,7 @@ source_filename: bluestar-genomics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.clearnotehealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 22:48:34 2026 GMT\n  hsts: false\ndomains:\n- domain: clearnotehealth.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bluestar-genomics/refs/heads/main/security/bluestar-genomics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bluestar-genomics/security/bluestar-genomics-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

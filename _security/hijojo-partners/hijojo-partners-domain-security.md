@@ -47,7 +47,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hijojo-partners.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 23:59:59 2026 GMT\n  hsts: false\n- host: www.hijojo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 29 14:59:00 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  include_subdomains: false\n- host: members.hijojo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 29 14:59:00 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n  include_subdomains: true\ndomains:\n- domain: hijojo-partners.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: hijojo.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\nnote: 'Extended beyond the apis.yml Website host: the retail platform (www.hijojo.com)\n  and the authenticated member application (members.hijojo.com) were probed directly\n  on 2026-08-22. Both\
   \ serve HSTS; the corporate Webflow site does not. hijojo-partners.com\n  publishes SPF but no DMARC record; hijojo.com publishes DMARC p=quarantine. Neither\n  domain is DNSSEC-signed and neither publishes a CAA record.'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hijojo-partners/refs/heads/main/security/hijojo-partners-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hijojo-partners/security/hijojo-partners-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

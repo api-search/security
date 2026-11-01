@@ -26,7 +26,7 @@ source_filename: datos-gob-do-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: datos.gob.do\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 00:03:27 2026 GMT\n  hsts: false\ndomains:\n- domain: gob.do\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datos-gob-do/refs/heads/main/security/datos-gob-do-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/datos-gob-do/security/datos-gob-do-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Open Data

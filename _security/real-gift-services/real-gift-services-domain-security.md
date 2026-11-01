@@ -27,7 +27,7 @@ source_filename: real-gift-services-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.getrealgifts.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 16:14:06 2026 GMT\n  hsts: null\ndomains:\n- domain: getrealgifts.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/real-gift-services/refs/heads/main/security/real-gift-services-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/real-gift-services/security/real-gift-services-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

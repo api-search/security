@@ -5,13 +5,13 @@ api_specs:
   label: Httpstat.us Httpstat API
   slug: httpstat-httpstat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/httpstat/refs/heads/main/openapi/httpstat-httpstat-api-openapi.yml
+  url: https://artifacts.apis.io/httpstat/openapi/httpstat-httpstat-api-openapi.yml
 - filename: httpstat-random-api-openapi.yml
   format: yaml
   label: Httpstat.us Random API
   slug: httpstat-random-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/httpstat/refs/heads/main/openapi/httpstat-random-api-openapi.yml
+  url: https://artifacts.apis.io/httpstat/openapi/httpstat-random-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,7 +39,7 @@ source_filename: httpstat-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: httpstat.us\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 22 01:39:21 2026 GMT\n  hsts: null\ndomains:\n- domain: httpstat.us\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/httpstat/refs/heads/main/security/httpstat-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/httpstat/security/httpstat-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - HTTP

@@ -8,43 +8,43 @@ api_specs:
   label: New Relic Alerts API
   slug: new-relic-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/new-relic/openapi/new-relic-alerts-api-openapi.yml
 - filename: new-relic-applications-api-openapi.yml
   format: yaml
   label: New Relic Applications API
   slug: new-relic-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-applications-api-openapi.yml
+  url: https://artifacts.apis.io/new-relic/openapi/new-relic-applications-api-openapi.yml
 - filename: new-relic-events-api-openapi.yml
   format: yaml
   label: New Relic Events API
   slug: new-relic-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-events-api-openapi.yml
+  url: https://artifacts.apis.io/new-relic/openapi/new-relic-events-api-openapi.yml
 - filename: new-relic-get-api-openapi.yml
   format: yaml
   label: New Relic Get API
   slug: new-relic-get-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-get-api-openapi.yml
+  url: https://artifacts.apis.io/new-relic/openapi/new-relic-get-api-openapi.yml
 - filename: new-relic-logs-api-openapi.yml
   format: yaml
   label: New Relic Logs API
   slug: new-relic-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-logs-api-openapi.yml
+  url: https://artifacts.apis.io/new-relic/openapi/new-relic-logs-api-openapi.yml
 - filename: new-relic-metrics-api-openapi.yml
   format: yaml
   label: New Relic Metrics API
   slug: new-relic-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/new-relic/openapi/new-relic-metrics-api-openapi.yml
 - filename: new-relic-traces-api-openapi.yml
   format: yaml
   label: New Relic Traces API
   slug: new-relic-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-traces-api-openapi.yml
+  url: https://artifacts.apis.io/new-relic/openapi/new-relic-traces-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -76,7 +76,7 @@ source_filename: new-relic-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/new-relic-event-api-openapi.yml, openapi/new-relic-log-api-openapi.yml, openapi/new-relic-metric-api-openapi.yml,\n  openapi/new-relic-openapi.yml, openapi/new-relic-trace-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: Api-Key\n  description: New Relic License Key or Ingest API Key\n  sources:\n  - openapi/new-relic-event-api-openapi.yml\n  - openapi/new-relic-log-api-openapi.yml\n  - openapi/new-relic-metric-api-openapi.yml\n  - openapi/new-relic-openapi.yml\n  - openapi/new-relic-trace-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/authentication/new-relic-authentication.yml
+source_yaml_url: https://artifacts.apis.io/new-relic/authentication/new-relic-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Analysis

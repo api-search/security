@@ -5,43 +5,43 @@ api_specs:
   label: Stannp Account API
   slug: stannp-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/openapi/stannp-account-api-openapi.yml
+  url: https://artifacts.apis.io/stannp/openapi/stannp-account-api-openapi.yml
 - filename: stannp-campaigns-api-openapi.yml
   format: yaml
   label: Stannp Campaigns API
   slug: stannp-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/openapi/stannp-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/stannp/openapi/stannp-campaigns-api-openapi.yml
 - filename: stannp-events-api-openapi.yml
   format: yaml
   label: Stannp Events API
   slug: stannp-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/openapi/stannp-events-api-openapi.yml
+  url: https://artifacts.apis.io/stannp/openapi/stannp-events-api-openapi.yml
 - filename: stannp-groups-api-openapi.yml
   format: yaml
   label: Stannp Groups API
   slug: stannp-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/openapi/stannp-groups-api-openapi.yml
+  url: https://artifacts.apis.io/stannp/openapi/stannp-groups-api-openapi.yml
 - filename: stannp-letters-api-openapi.yml
   format: yaml
   label: Stannp Letters API
   slug: stannp-letters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/openapi/stannp-letters-api-openapi.yml
+  url: https://artifacts.apis.io/stannp/openapi/stannp-letters-api-openapi.yml
 - filename: stannp-postcards-api-openapi.yml
   format: yaml
   label: Stannp Postcards API
   slug: stannp-postcards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/openapi/stannp-postcards-api-openapi.yml
+  url: https://artifacts.apis.io/stannp/openapi/stannp-postcards-api-openapi.yml
 - filename: stannp-recipients-api-openapi.yml
   format: yaml
   label: Stannp Recipients API
   slug: stannp-recipients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/openapi/stannp-recipients-api-openapi.yml
+  url: https://artifacts.apis.io/stannp/openapi/stannp-recipients-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,7 +81,7 @@ source_filename: stannp-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.stannp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 19 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api-eu1.stannp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 16:57:32 2026 GMT\n  hsts: null\n- host: api-us1.stannp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 16:57:32 2026 GMT\n  hsts: null\ndomains:\n- domain: stannp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/security/stannp-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/stannp/security/stannp-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Direct Mail

@@ -9,49 +9,49 @@ api_specs:
   label: SYSTRAN Corpus API
   slug: systran-corpus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-corpus-api-openapi.yml
+  url: https://artifacts.apis.io/systran/openapi/systran-corpus-api-openapi.yml
 - filename: systran-dictionary-api-openapi.yml
   format: yaml
   label: SYSTRAN Dictionary API
   slug: systran-dictionary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-dictionary-api-openapi.yml
+  url: https://artifacts.apis.io/systran/openapi/systran-dictionary-api-openapi.yml
 - filename: systran-file-translation-api-openapi.yml
   format: yaml
   label: SYSTRAN File Translation API
   slug: systran-file-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-file-translation-api-openapi.yml
+  url: https://artifacts.apis.io/systran/openapi/systran-file-translation-api-openapi.yml
 - filename: systran-language-detection-api-openapi.yml
   format: yaml
   label: SYSTRAN Language Detection API
   slug: systran-language-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-language-detection-api-openapi.yml
+  url: https://artifacts.apis.io/systran/openapi/systran-language-detection-api-openapi.yml
 - filename: systran-nlp-api-openapi.yml
   format: yaml
   label: SYSTRAN NLP API
   slug: systran-nlp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-nlp-api-openapi.yml
+  url: https://artifacts.apis.io/systran/openapi/systran-nlp-api-openapi.yml
 - filename: systran-profiles-api-openapi.yml
   format: yaml
   label: SYSTRAN Profiles API
   slug: systran-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/systran/openapi/systran-profiles-api-openapi.yml
 - filename: systran-supported-languages-api-openapi.yml
   format: yaml
   label: SYSTRAN Supported Languages API
   slug: systran-supported-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-supported-languages-api-openapi.yml
+  url: https://artifacts.apis.io/systran/openapi/systran-supported-languages-api-openapi.yml
 - filename: systran-translation-api-openapi.yml
   format: yaml
   label: SYSTRAN Translation API
   slug: systran-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-translation-api-openapi.yml
+  url: https://artifacts.apis.io/systran/openapi/systran-translation-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -86,7 +86,7 @@ source_filename: systran-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/systran-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: ApiKeyQuery\n  type: apiKey\n  in: query\n  parameter: key\n  description: SYSTRAN API key passed as the `key` query parameter.\n  sources:\n  - openapi/systran-openapi.yml\n- name: ApiKeyHeader\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'API key passed as an Authorization header, e.g. `Authorization: Key YOUR_API_KEY`.'\n  sources:\n  - openapi/systran-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/authentication/systran-authentication.yml
+source_yaml_url: https://artifacts.apis.io/systran/authentication/systran-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Machine Translation

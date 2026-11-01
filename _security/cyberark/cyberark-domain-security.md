@@ -5,43 +5,43 @@ api_specs:
   label: CyberArk Authentication API
   slug: cyberark-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark/openapi/cyberark-authentication-api-openapi.yml
 - filename: cyberark-health-api-openapi.yml
   format: yaml
   label: CyberArk Health API
   slug: cyberark-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-health-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark/openapi/cyberark-health-api-openapi.yml
 - filename: cyberark-policies-api-openapi.yml
   format: yaml
   label: CyberArk Policies API
   slug: cyberark-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-policies-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark/openapi/cyberark-policies-api-openapi.yml
 - filename: cyberark-resources-api-openapi.yml
   format: yaml
   label: CyberArk Resources API
   slug: cyberark-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-resources-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark/openapi/cyberark-resources-api-openapi.yml
 - filename: cyberark-roles-api-openapi.yml
   format: yaml
   label: CyberArk Roles API
   slug: cyberark-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-roles-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark/openapi/cyberark-roles-api-openapi.yml
 - filename: cyberark-secrets-api-openapi.yml
   format: yaml
   label: CyberArk Secrets API
   slug: cyberark-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark/openapi/cyberark-secrets-api-openapi.yml
 - filename: cyberark-public-keys-api-openapi.yml
   format: yaml
   label: CyberArk Public Keys API
   slug: cyberark-public-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-public-keys-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark/openapi/cyberark-public-keys-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: cyberark-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cyberark.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 16 15:16:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.cyberark.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 29 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: cyberark.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/security/cyberark-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cyberark/security/cyberark-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Authentication

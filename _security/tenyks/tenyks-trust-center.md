@@ -5,19 +5,19 @@ api_specs:
   label: Tenyks Auth API
   slug: tenyks-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/openapi/tenyks-auth-api-openapi.yml
+  url: https://artifacts.apis.io/tenyks/openapi/tenyks-auth-api-openapi.yml
 - filename: tenyks-data-upload-api-openapi.yml
   format: yaml
   label: Tenyks Data Upload API
   slug: tenyks-data-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/openapi/tenyks-data-upload-api-openapi.yml
+  url: https://artifacts.apis.io/tenyks/openapi/tenyks-data-upload-api-openapi.yml
 - filename: tenyks-datasets-api-openapi.yml
   format: yaml
   label: Tenyks Datasets API
   slug: tenyks-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/openapi/tenyks-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/tenyks/openapi/tenyks-datasets-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2 Type II
@@ -36,7 +36,7 @@ source_filename: tenyks-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://trust.tenyks.ai\ndescription: >-\n  Tenyks operates a public Trust Center at https://trust.tenyks.ai, hosted on\n  Vanta (page title \"Tenyks Trust Center\"). It presents the company's security\n  and compliance posture for its Agentic Platform for Visual Data Management.\nurl: https://trust.tenyks.ai\ncertifications:\n  - SOC 2 Type II\n  - GDPR\n  - CCPA\nevidence:\n  - source: https://trust.tenyks.ai\n    kind: vanta-trust-center\n    detail: >-\n      Vanta-hosted trust report (data-signature-manifest from assets.vanta.com;\n      og:title \"Tenyks Trust Center\"). SOC 2 Type II certification and GDPR/CCPA\n      compliance are stated by Tenyks publicly.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/security/tenyks-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/tenyks/security/tenyks-trust-center.yml
 summary_line: SOC 2 Type II, GDPR, CCPA
 tags:
 - Company

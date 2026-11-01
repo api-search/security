@@ -8,31 +8,31 @@ api_specs:
   label: Digicert Account API
   slug: digicert-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digicert/refs/heads/main/openapi/digicert-account-api-openapi.yml
+  url: https://artifacts.apis.io/digicert/openapi/digicert-account-api-openapi.yml
 - filename: digicert-domain-api-openapi.yml
   format: yaml
   label: Digicert Domain API
   slug: digicert-domain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digicert/refs/heads/main/openapi/digicert-domain-api-openapi.yml
+  url: https://artifacts.apis.io/digicert/openapi/digicert-domain-api-openapi.yml
 - filename: digicert-order-api-openapi.yml
   format: yaml
   label: Digicert Order API
   slug: digicert-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digicert/refs/heads/main/openapi/digicert-order-api-openapi.yml
+  url: https://artifacts.apis.io/digicert/openapi/digicert-order-api-openapi.yml
 - filename: digicert-organization-api-openapi.yml
   format: yaml
   label: Digicert Organization API
   slug: digicert-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digicert/refs/heads/main/openapi/digicert-organization-api-openapi.yml
+  url: https://artifacts.apis.io/digicert/openapi/digicert-organization-api-openapi.yml
 - filename: digicert-user-api-openapi.yml
   format: yaml
   label: Digicert User API
   slug: digicert-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digicert/refs/heads/main/openapi/digicert-user-api-openapi.yml
+  url: https://artifacts.apis.io/digicert/openapi/digicert-user-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -59,7 +59,7 @@ source_filename: digicert-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/digicert-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-DC-DEVKEY\n  sources:\n  - openapi/digicert-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/digicert/refs/heads/main/authentication/digicert-authentication.yml
+source_yaml_url: https://artifacts.apis.io/digicert/authentication/digicert-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Certificates

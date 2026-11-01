@@ -7,25 +7,25 @@ api_specs:
   label: Zipline Ai Fetch API
   slug: zipline-ai-fetch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zipline-ai/refs/heads/main/openapi/zipline-ai-fetch-api-openapi.yml
+  url: https://artifacts.apis.io/zipline-ai/openapi/zipline-ai-fetch-api-openapi.yml
 - filename: zipline-ai-health-api-openapi.yml
   format: yaml
   label: Zipline Ai Health API
   slug: zipline-ai-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zipline-ai/refs/heads/main/openapi/zipline-ai-health-api-openapi.yml
+  url: https://artifacts.apis.io/zipline-ai/openapi/zipline-ai-health-api-openapi.yml
 - filename: zipline-ai-schema-api-openapi.yml
   format: yaml
   label: Zipline Ai Schema API
   slug: zipline-ai-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zipline-ai/refs/heads/main/openapi/zipline-ai-schema-api-openapi.yml
+  url: https://artifacts.apis.io/zipline-ai/openapi/zipline-ai-schema-api-openapi.yml
 - filename: zipline-ai-workflow-api-openapi.yml
   format: yaml
   label: Zipline Ai Workflow API
   slug: zipline-ai-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zipline-ai/refs/heads/main/openapi/zipline-ai-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/zipline-ai/openapi/zipline-ai-workflow-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -58,7 +58,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://zipline.ai/docs/running_on_zipline_hub/Auth\ndocs: https://zipline.ai/docs/running_on_zipline_hub/Auth\nsummary:\n  types:\n  - http\n  - oauth2\n  - openIdConnect\n  overview: >-\n    Zipline supports optional authentication to secure access to the platform.\n    Users authenticate through the frontend (OAuth or SSO); backend services\n    (Orchestration, Eval) validate requests using signed JWTs verified\n    statelessly via JWKS. The CLI authenticates with the device authorization\n    flow (RFC 8628).\n  human_login: [OAuth 2.0, SSO (OIDC), SSO (SAML)]\n  service_auth: [Bearer JWT verified via JWKS]\n  cli_auth: [RFC 8628 device authorization flow]\nproviders:\n  - name: Google OAuth\n    type: oauth2\n    env: [GOOGLE_OAUTH_CLIENT_ID, GOOGLE_OAUTH_CLIENT_SECRET]\n    redirect_uri: \"{AUTH_URL}/api/auth/callback/google\"\n  - name: GitHub OAuth\n    type: oauth2\n    env: [GITHUB_OAUTH_CLIENT_ID, GITHUB_OAUTH_CLIENT_SECRET]\n\
   \  - name: SSO (OIDC / SAML)\n    type: openIdConnect\n    notes: Enterprise SSO via OIDC or SAML; SAML post-login redirect honors AUTH_EXTERNAL_URL behind a reverse proxy.\nschemes:\n  - name: bearerAuth\n    type: http\n    scheme: bearer\n    bearerFormat: JWT\n    description: >-\n      Short-lived JWT minted by `zipline auth get-access-token` (or issued to the\n      frontend after OAuth/SSO login). Backend services validate it statelessly\n      against the JWKS endpoint (AUTH_JWKS_URL, e.g. /api/auth/jwks). When\n      AUTH_ENABLED=true but the JWKS endpoint is unreachable, protected routes\n      return 503 rather than allowing unauthenticated access.\n    sources:\n      - openapi/zipline-ai-workflow-status-openapi.yml\n      - https://zipline.ai/docs/running_on_zipline_hub/Auth\nauthorization:\n  model: role-based (RBAC)\n  notes: Workflow Status API requires viewer access when role-based authorization is enabled.\n  allowlist: AUTH_ALLOWED_PRINCIPALS restricts sign-in to specific\
   \ domains or exact emails.\nconfig_env:\n  - AUTH_ENABLED\n  - AUTH_URL\n  - AUTH_EXTERNAL_URL\n  - AUTH_SECRET\n  - AUTH_ALLOWED_HOSTS\n  - AUTH_ALLOWED_PRINCIPALS\n  - AUTH_JWKS_URL\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zipline-ai/refs/heads/main/authentication/zipline-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zipline-ai/authentication/zipline-ai-authentication.yml
 summary_line: http/oauth2/openIdConnect · 1 scheme
 tags:
 - Company

@@ -7,31 +7,31 @@ api_specs:
   label: Packagist Metadata API
   slug: packagist-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packagist/refs/heads/main/openapi/packagist-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/packagist/openapi/packagist-metadata-api-openapi.yml
 - filename: packagist-packages-api-openapi.yml
   format: yaml
   label: Packagist Packages API
   slug: packagist-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packagist/refs/heads/main/openapi/packagist-packages-api-openapi.yml
+  url: https://artifacts.apis.io/packagist/openapi/packagist-packages-api-openapi.yml
 - filename: packagist-search-api-openapi.yml
   format: yaml
   label: Packagist Search API
   slug: packagist-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packagist/refs/heads/main/openapi/packagist-search-api-openapi.yml
+  url: https://artifacts.apis.io/packagist/openapi/packagist-search-api-openapi.yml
 - filename: packagist-security-api-openapi.yml
   format: yaml
   label: Packagist Security API
   slug: packagist-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packagist/refs/heads/main/openapi/packagist-security-api-openapi.yml
+  url: https://artifacts.apis.io/packagist/openapi/packagist-security-api-openapi.yml
 - filename: packagist-statistics-api-openapi.yml
   format: yaml
   label: Packagist Statistics API
   slug: packagist-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packagist/refs/heads/main/openapi/packagist-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/packagist/openapi/packagist-statistics-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: packagist-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/packagist-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: username:apiToken\n  sources:\n  - openapi/packagist-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/packagist/refs/heads/main/authentication/packagist-authentication.yml
+source_yaml_url: https://artifacts.apis.io/packagist/authentication/packagist-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Composer

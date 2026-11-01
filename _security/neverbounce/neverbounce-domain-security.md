@@ -5,25 +5,25 @@ api_specs:
   label: NeverBounce Account API
   slug: neverbounce-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neverbounce/refs/heads/main/openapi/neverbounce-account-api-openapi.yml
+  url: https://artifacts.apis.io/neverbounce/openapi/neverbounce-account-api-openapi.yml
 - filename: neverbounce-jobs-api-openapi.yml
   format: yaml
   label: NeverBounce Jobs API
   slug: neverbounce-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neverbounce/refs/heads/main/openapi/neverbounce-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/neverbounce/openapi/neverbounce-jobs-api-openapi.yml
 - filename: neverbounce-single-api-openapi.yml
   format: yaml
   label: NeverBounce Single API
   slug: neverbounce-single-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neverbounce/refs/heads/main/openapi/neverbounce-single-api-openapi.yml
+  url: https://artifacts.apis.io/neverbounce/openapi/neverbounce-single-api-openapi.yml
 - filename: neverbounce-poe-api-openapi.yml
   format: yaml
   label: NeverBounce POE API
   slug: neverbounce-poe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neverbounce/refs/heads/main/openapi/neverbounce-poe-api-openapi.yml
+  url: https://artifacts.apis.io/neverbounce/openapi/neverbounce-poe-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: neverbounce-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.neverbounce.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 07:14:34 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developers.neverbounce.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 13:45:02 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.neverbounce.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 07:14:34 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: neverbounce.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neverbounce/refs/heads/main/security/neverbounce-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/neverbounce/security/neverbounce-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Email Verification

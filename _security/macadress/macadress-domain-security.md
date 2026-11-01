@@ -5,19 +5,25 @@ api_specs:
   label: 'MAC Address Lookup: Find Vendor, OUI & Device Type Healthz API'
   slug: macadress-healthz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macadress/refs/heads/main/openapi/macadress-healthz-api-openapi.yml
+  url: https://artifacts.apis.io/macadress/openapi/macadress-healthz-api-openapi.yml
 - filename: macadress-mac-api-openapi.yml
   format: yaml
   label: 'MAC Address Lookup: Find Vendor, OUI & Device Type Mac API'
   slug: macadress-mac-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macadress/refs/heads/main/openapi/macadress-mac-api-openapi.yml
+  url: https://artifacts.apis.io/macadress/openapi/macadress-mac-api-openapi.yml
 - filename: macadress-vendors-api-openapi.yml
   format: yaml
   label: 'MAC Address Lookup: Find Vendor, OUI & Device Type Vendors API'
   slug: macadress-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macadress/refs/heads/main/openapi/macadress-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/macadress/openapi/macadress-vendors-api-openapi.yml
+- filename: macadress-vendor-api-openapi.yml
+  format: yaml
+  label: 'MAC Address Lookup: Find Vendor, OUI & Device Type Vendor API'
+  slug: macadress-vendor-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/macadress/openapi/macadress-vendor-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +57,7 @@ source_filename: macadress-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: macadress.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 24 17:41:25 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.macadress.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 24 17:41:25 2026 GMT\n  hsts: null\ndomains:\n- domain: macadress.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/macadress/refs/heads/main/security/macadress-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/macadress/security/macadress-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Networking

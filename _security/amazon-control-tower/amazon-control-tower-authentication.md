@@ -7,25 +7,25 @@ api_specs:
   label: Amazon Control Tower Baselines API
   slug: amazon-control-tower-baselines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/openapi/amazon-control-tower-baselines-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-control-tower/openapi/amazon-control-tower-baselines-api-openapi.yml
 - filename: amazon-control-tower-controls-api-openapi.yml
   format: yaml
   label: Amazon Control Tower Controls API
   slug: amazon-control-tower-controls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/openapi/amazon-control-tower-controls-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-control-tower/openapi/amazon-control-tower-controls-api-openapi.yml
 - filename: amazon-control-tower-landing-zones-api-openapi.yml
   format: yaml
   label: Amazon Control Tower Landing Zones API
   slug: amazon-control-tower-landing-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/openapi/amazon-control-tower-landing-zones-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-control-tower/openapi/amazon-control-tower-landing-zones-api-openapi.yml
 - filename: amazon-control-tower-tags-api-openapi.yml
   format: yaml
   label: Amazon Control Tower Tags API
   slug: amazon-control-tower-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/openapi/amazon-control-tower-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-control-tower/openapi/amazon-control-tower-tags-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: amazon-control-tower-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-control-tower-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: aws_signature\n  type: http\n  scheme: bearer\n  description: AWS Signature Version 4 authentication. Requests must be signed using IAM credentials\n    with appropriate AWS Control Tower permissions.\n  sources:\n  - openapi/amazon-control-tower-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/authentication/amazon-control-tower-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-control-tower/authentication/amazon-control-tower-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Compliance

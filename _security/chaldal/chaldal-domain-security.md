@@ -5,31 +5,31 @@ api_specs:
   label: Chaldal Accounts API
   slug: chaldal-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaldal/refs/heads/main/openapi/chaldal-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/chaldal/openapi/chaldal-accounts-api-openapi.yml
 - filename: chaldal-heartbeat-api-openapi.yml
   format: yaml
   label: Chaldal Heartbeat API
   slug: chaldal-heartbeat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaldal/refs/heads/main/openapi/chaldal-heartbeat-api-openapi.yml
+  url: https://artifacts.apis.io/chaldal/openapi/chaldal-heartbeat-api-openapi.yml
 - filename: chaldal-identity-api-openapi.yml
   format: yaml
   label: Chaldal Identity API
   slug: chaldal-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaldal/refs/heads/main/openapi/chaldal-identity-api-openapi.yml
+  url: https://artifacts.apis.io/chaldal/openapi/chaldal-identity-api-openapi.yml
 - filename: chaldal-organization-api-openapi.yml
   format: yaml
   label: Chaldal Organization API
   slug: chaldal-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaldal/refs/heads/main/openapi/chaldal-organization-api-openapi.yml
+  url: https://artifacts.apis.io/chaldal/openapi/chaldal-organization-api-openapi.yml
 - filename: chaldal-task-api-openapi.yml
   format: yaml
   label: Chaldal Task API
   slug: chaldal-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaldal/refs/heads/main/openapi/chaldal-task-api-openapi.yml
+  url: https://artifacts.apis.io/chaldal/openapi/chaldal-task-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: chaldal-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: chaldal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 01:32:24 2026 GMT\n  hsts: null\ndomains:\n- domain: chaldal.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chaldal/refs/heads/main/security/chaldal-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/chaldal/security/chaldal-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

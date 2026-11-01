@@ -8,19 +8,19 @@ api_specs:
   label: Bureau of Labor Statistics Popular Series API
   slug: bls-gov-popular-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bls-gov/refs/heads/main/openapi/bls-gov-popular-series-api-openapi.yml
+  url: https://artifacts.apis.io/bls-gov/openapi/bls-gov-popular-series-api-openapi.yml
 - filename: bls-gov-surveys-api-openapi.yml
   format: yaml
   label: Bureau of Labor Statistics Surveys API
   slug: bls-gov-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bls-gov/refs/heads/main/openapi/bls-gov-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/bls-gov/openapi/bls-gov-surveys-api-openapi.yml
 - filename: bls-gov-time-series-api-openapi.yml
   format: yaml
   label: Bureau of Labor Statistics Time Series API
   slug: bls-gov-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bls-gov/refs/heads/main/openapi/bls-gov-time-series-api-openapi.yml
+  url: https://artifacts.apis.io/bls-gov/openapi/bls-gov-time-series-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: bls-gov-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bls-public-data-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKey\n  type: apiKey\n  in: query\n  parameter: registrationkey\n  description: Free API registration key from https://data.bls.gov/registrationEngine/. Required\n    for v2 API access with higher rate limits.\n  sources:\n  - openapi/bls-public-data-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bls-gov/refs/heads/main/authentication/bls-gov-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bls-gov/authentication/bls-gov-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Federal Government

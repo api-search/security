@@ -5,115 +5,115 @@ api_specs:
   label: Bootic Catalog API
   slug: bootic-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bootic/refs/heads/main/openapi/bootic-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/bootic/openapi/bootic-catalog-api-openapi.yml
 - filename: bootic-collections-api-openapi.yml
   format: yaml
   label: Bootic Collections API
   slug: bootic-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bootic/refs/heads/main/openapi/bootic-collections-api-openapi.yml
+  url: https://artifacts.apis.io/bootic/openapi/bootic-collections-api-openapi.yml
 - filename: bootic-content-api-openapi.yml
   format: yaml
   label: Bootic Content API
   slug: bootic-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bootic/refs/heads/main/openapi/bootic-content-api-openapi.yml
+  url: https://artifacts.apis.io/bootic/openapi/bootic-content-api-openapi.yml
 - filename: bootic-customers-api-openapi.yml
   format: yaml
   label: Bootic Customers API
   slug: bootic-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bootic/refs/heads/main/openapi/bootic-customers-api-openapi.yml
+  url: https://artifacts.apis.io/bootic/openapi/bootic-customers-api-openapi.yml
 - filename: bootic-orders-api-openapi.yml
   format: yaml
   label: Bootic Orders API
   slug: bootic-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bootic/refs/heads/main/openapi/bootic-orders-api-openapi.yml
+  url: https://artifacts.apis.io/bootic/openapi/bootic-orders-api-openapi.yml
 - filename: bootic-price-lists-api-openapi.yml
   format: yaml
   label: Bootic Price Lists API
   slug: bootic-price-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bootic/refs/heads/main/openapi/bootic-price-lists-api-openapi.yml
+  url: https://artifacts.apis.io/bootic/openapi/bootic-price-lists-api-openapi.yml
 - filename: bootic-product-types-api-openapi.yml
   format: yaml
   label: Bootic Product Types API
   slug: bootic-product-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bootic/refs/heads/main/openapi/bootic-product-types-api-openapi.yml
+  url: https://artifacts.apis.io/bootic/openapi/bootic-product-types-api-openapi.yml
 - filename: bootic-products-api-openapi.yml
   format: yaml
   label: Bootic Products API
   slug: bootic-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bootic/refs/heads/main/openapi/bootic-products-api-openapi.yml
+  url: https://artifacts.apis.io/bootic/openapi/bootic-products-api-openapi.yml
 - filename: bootic-promotions-api-openapi.yml
   format: yaml
   label: Bootic Promotions API
   slug: bootic-promotions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bootic/refs/heads/main/openapi/bootic-promotions-api-openapi.yml
+  url: https://artifacts.apis.io/bootic/openapi/bootic-promotions-api-openapi.yml
 - filename: bootic-root-api-openapi.yml
   format: yaml
   label: Bootic Root API
   slug: bootic-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bootic/refs/heads/main/openapi/bootic-root-api-openapi.yml
+  url: https://artifacts.apis.io/bootic/openapi/bootic-root-api-openapi.yml
 - filename: bootic-sellers-api-openapi.yml
   format: yaml
   label: Bootic Sellers API
   slug: bootic-sellers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bootic/refs/heads/main/openapi/bootic-sellers-api-openapi.yml
+  url: https://artifacts.apis.io/bootic/openapi/bootic-sellers-api-openapi.yml
 - filename: bootic-shops-api-openapi.yml
   format: yaml
   label: Bootic Shops API
   slug: bootic-shops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bootic/refs/heads/main/openapi/bootic-shops-api-openapi.yml
+  url: https://artifacts.apis.io/bootic/openapi/bootic-shops-api-openapi.yml
 - filename: bootic-store-api-openapi.yml
   format: yaml
   label: Bootic Store API
   slug: bootic-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bootic/refs/heads/main/openapi/bootic-store-api-openapi.yml
+  url: https://artifacts.apis.io/bootic/openapi/bootic-store-api-openapi.yml
 - filename: bootic-subscriptions-api-openapi.yml
   format: yaml
   label: Bootic Subscriptions API
   slug: bootic-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bootic/refs/heads/main/openapi/bootic-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/bootic/openapi/bootic-subscriptions-api-openapi.yml
 - filename: bootic-themes-api-openapi.yml
   format: yaml
   label: Bootic Themes API
   slug: bootic-themes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bootic/refs/heads/main/openapi/bootic-themes-api-openapi.yml
+  url: https://artifacts.apis.io/bootic/openapi/bootic-themes-api-openapi.yml
 - filename: bootic-variants-api-openapi.yml
   format: yaml
   label: Bootic Variants API
   slug: bootic-variants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bootic/refs/heads/main/openapi/bootic-variants-api-openapi.yml
+  url: https://artifacts.apis.io/bootic/openapi/bootic-variants-api-openapi.yml
 - filename: bootic-volume-discounts-api-openapi.yml
   format: yaml
   label: Bootic Volume Discounts API
   slug: bootic-volume-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bootic/refs/heads/main/openapi/bootic-volume-discounts-api-openapi.yml
+  url: https://artifacts.apis.io/bootic/openapi/bootic-volume-discounts-api-openapi.yml
 - filename: bootic-wallets-api-openapi.yml
   format: yaml
   label: Bootic Wallets API
   slug: bootic-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bootic/refs/heads/main/openapi/bootic-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/bootic/openapi/bootic-wallets-api-openapi.yml
 - filename: bootic-webhooks-api-openapi.yml
   format: yaml
   label: Bootic Webhooks API
   slug: bootic-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bootic/refs/heads/main/openapi/bootic-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/bootic/openapi/bootic-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -142,7 +142,7 @@ source_filename: bootic-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bootic.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 28 15:57:22 2026 GMT\n  hsts: true\n  hsts_max_age: 15768000\ndomains:\n- domain: bootic.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bootic/refs/heads/main/security/bootic-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bootic/security/bootic-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - E-Commerce

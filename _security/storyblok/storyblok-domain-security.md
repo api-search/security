@@ -11,61 +11,61 @@ api_specs:
   label: Storyblok Assets API
   slug: storyblok-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-assets-api-openapi.yml
+  url: https://artifacts.apis.io/storyblok/openapi/storyblok-assets-api-openapi.yml
 - filename: storyblok-collaborators-api-openapi.yml
   format: yaml
   label: Storyblok Collaborators API
   slug: storyblok-collaborators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-collaborators-api-openapi.yml
+  url: https://artifacts.apis.io/storyblok/openapi/storyblok-collaborators-api-openapi.yml
 - filename: storyblok-components-api-openapi.yml
   format: yaml
   label: Storyblok Components API
   slug: storyblok-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-components-api-openapi.yml
+  url: https://artifacts.apis.io/storyblok/openapi/storyblok-components-api-openapi.yml
 - filename: storyblok-image-transformation-api-openapi.yml
   format: yaml
   label: Storyblok Image Transformation API
   slug: storyblok-image-transformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-image-transformation-api-openapi.yml
+  url: https://artifacts.apis.io/storyblok/openapi/storyblok-image-transformation-api-openapi.yml
 - filename: storyblok-links-api-openapi.yml
   format: yaml
   label: Storyblok Links API
   slug: storyblok-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-links-api-openapi.yml
+  url: https://artifacts.apis.io/storyblok/openapi/storyblok-links-api-openapi.yml
 - filename: storyblok-spaces-api-openapi.yml
   format: yaml
   label: Storyblok Spaces API
   slug: storyblok-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/storyblok/openapi/storyblok-spaces-api-openapi.yml
 - filename: storyblok-stories-api-openapi.yml
   format: yaml
   label: Storyblok Stories API
   slug: storyblok-stories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-stories-api-openapi.yml
+  url: https://artifacts.apis.io/storyblok/openapi/storyblok-stories-api-openapi.yml
 - filename: storyblok-tags-api-openapi.yml
   format: yaml
   label: Storyblok Tags API
   slug: storyblok-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-tags-api-openapi.yml
+  url: https://artifacts.apis.io/storyblok/openapi/storyblok-tags-api-openapi.yml
 - filename: storyblok-webhooks-api-openapi.yml
   format: yaml
   label: Storyblok Webhooks API
   slug: storyblok-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/storyblok/openapi/storyblok-webhooks-api-openapi.yml
 - filename: storyblok-data-sources-api-openapi.yml
   format: yaml
   label: Storyblok Data Sources API
   slug: storyblok-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/storyblok/openapi/storyblok-data-sources-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -105,7 +105,7 @@ source_filename: storyblok-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.storyblok.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.storyblok.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 23:59:59 2026 GMT\n  hsts: false\n- host: mapi.storyblok.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: storyblok.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/security/storyblok-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/storyblok/security/storyblok-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - CMS

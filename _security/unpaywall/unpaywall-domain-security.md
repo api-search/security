@@ -5,13 +5,13 @@ api_specs:
   label: Unpaywall DOI Lookup API
   slug: unpaywall-doi-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unpaywall/refs/heads/main/openapi/unpaywall-doi-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/unpaywall/openapi/unpaywall-doi-lookup-api-openapi.yml
 - filename: unpaywall-search-api-openapi.yml
   format: yaml
   label: Unpaywall Search API
   slug: unpaywall-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unpaywall/refs/heads/main/openapi/unpaywall-search-api-openapi.yml
+  url: https://artifacts.apis.io/unpaywall/openapi/unpaywall-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -44,7 +44,7 @@ source_filename: unpaywall-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: unpaywall.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 00:31:09 2026 GMT\n  hsts: false\n- host: api.unpaywall.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 23:51:13 2026 GMT\n  hsts: false\ndomains:\n- domain: unpaywall.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unpaywall/refs/heads/main/security/unpaywall-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/unpaywall/security/unpaywall-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Open Access

@@ -28,7 +28,7 @@ source_filename: arc-institute-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: arcinstitute.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 17:32:40 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: arcinstitute.org\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arc-institute/refs/heads/main/security/arc-institute-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/arc-institute/security/arc-institute-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Biomedical Research

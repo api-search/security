@@ -110,25 +110,25 @@ api_specs:
   label: APIs.io Provider Control API
   slug: apis-io-provider-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-provider-control-api-openapi.yml
+  url: https://artifacts.apis.io/apis-io/openapi/apis-io-provider-control-api-openapi.yml
 - filename: apis-io-watches-api-openapi.yml
   format: yaml
   label: APIs.io Watches API
   slug: apis-io-watches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-watches-api-openapi.yml
+  url: https://artifacts.apis.io/apis-io/openapi/apis-io-watches-api-openapi.yml
 - filename: apis-io-apis-api-openapi.yml
   format: yaml
   label: APIs.io APIs API
   slug: apis-io-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apis-io/openapi/apis-io-apis-api-openapi.yml
 - filename: apis-io-prices-api-openapi.yml
   format: yaml
   label: APIs.io Prices API
   slug: apis-io-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-prices-api-openapi.yml
+  url: https://artifacts.apis.io/apis-io/openapi/apis-io-prices-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -183,7 +183,7 @@ source_yaml: "generated: '2026-09-11'\nmethod: searched\nsource: https://apis.io
   \ can\n    register itself and take a token with no human in the loop. The protected resource named by\n    the RFC 9728 document is the MCP server, not the REST API — a key is optional on /api/v1 and\n    raises the tier rather than granting access.\naauth:\n  document: https://apis.io/.well-known/aauth-resource.json\n  issuer: https://apis.io\n  jwks_uri: https://apis.io/.well-known/jwks.json\n  r3_vocabularies:\n    urn:aauth:vocabulary:openapi: https://apis.io/openapi.json\n    urn:aauth:vocabulary:mcp: https://apis.io/mcp\n  defect: >-\n    The r3_vocabularies OpenAPI pointer https://apis.io/openapi.json returned HTTP 404 when\n    probed on 2026-09-11 (the served document is an HTML shell, 26,159 bytes). The MCP pointer\n    resolves. An AAuth client following the OpenAPI vocabulary URI finds nothing. Recorded here\n    rather than quietly dropped — this is our own document making a claim the host does not honour.\nscopes:\n  present: true\n  artifact: scopes/apis-io-scopes.yml\n\
   \  scopes: [apis:read, apis:pro, offline_access]\ncors:\n  allow_origin: '*'\n  allow_headers: [content-type, x-api-key]\n  allow_methods: [GET, OPTIONS]\nmcp_authentication:\n  url: https://apis.io/mcp\n  anonymous_tools_list: true\n  gate: >-\n    Pro-tier tools are listed anonymously but return HTTP 402 `upgrade_required` when called\n    without a paid key.\n  oauth_discovery:\n    /.well-known/oauth-authorization-server: 200\n    /.well-known/oauth-protected-resource: 200\n    /.well-known/openid-configuration: 200\n    /.well-known/aauth-resource.json: 200\n    checked: '2026-09-11'\n    note: All four 404'd on 2026-08-10 and are served now.\nx-evidence:\n  fetched: '2026-09-11'\n  probes:\n  - url: https://apis.io/.well-known/oauth-authorization-server\n    http_status: 200\n    note: RFC 8414, saved to well-known/apis-io-oauth-authorization-server.json\n  - url: https://apis.io/.well-known/openid-configuration\n    http_status: 200\n    note: saved to well-known/apis-io-openid-configuration.json\n\
   \  - url: https://apis.io/.well-known/oauth-protected-resource\n    http_status: 200\n    note: RFC 9728, resource https://apis.io/mcp\n  - url: https://apis.io/.well-known/aauth-resource.json\n    http_status: 200\n    note: AAuth resource, issuer + jwks_uri present\n  - url: https://apis.io/.well-known/jwks.json\n    http_status: 200\n  - url: https://apis.io/openapi.json\n    http_status: 404\n    note: named by aauth r3_vocabularies; not served\n  - url: https://apis.io/api/v1/\n    http_status: 401\n    note: anonymous call to an undefined endpoint — unauthorized envelope\n  - url: https://apis.io/api/v1/search?q=weather&limit=1\n    http_status: 200\n    note: anonymous, no key (first observed 2026-08-10, re-confirmed 2026-09-11)\n  - url: https://apis.io/api/v1/ratings\n    http_status: 402\n    note: anonymous — tier gate\n  - url: https://apis.io/developer/authentication\n    http_status: 200\n  - url: https://apis.io/developer/plans\n    http_status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/authentication/apis-io-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apis-io/authentication/apis-io-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - API Aggregation

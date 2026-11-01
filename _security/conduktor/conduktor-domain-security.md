@@ -5,43 +5,43 @@ api_specs:
   label: Conduktor Certificates API
   slug: conduktor-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conduktor/refs/heads/main/openapi/conduktor-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/conduktor/openapi/conduktor-certificates-api-openapi.yml
 - filename: conduktor-clusters-api-openapi.yml
   format: yaml
   label: Conduktor Clusters API
   slug: conduktor-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conduktor/refs/heads/main/openapi/conduktor-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/conduktor/openapi/conduktor-clusters-api-openapi.yml
 - filename: conduktor-groups-api-openapi.yml
   format: yaml
   label: Conduktor Groups API
   slug: conduktor-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conduktor/refs/heads/main/openapi/conduktor-groups-api-openapi.yml
+  url: https://artifacts.apis.io/conduktor/openapi/conduktor-groups-api-openapi.yml
 - filename: conduktor-interceptors-api-openapi.yml
   format: yaml
   label: Conduktor Interceptors API
   slug: conduktor-interceptors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conduktor/refs/heads/main/openapi/conduktor-interceptors-api-openapi.yml
+  url: https://artifacts.apis.io/conduktor/openapi/conduktor-interceptors-api-openapi.yml
 - filename: conduktor-self-service-api-openapi.yml
   format: yaml
   label: Conduktor Self-Service API
   slug: conduktor-self-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conduktor/refs/heads/main/openapi/conduktor-self-service-api-openapi.yml
+  url: https://artifacts.apis.io/conduktor/openapi/conduktor-self-service-api-openapi.yml
 - filename: conduktor-users-api-openapi.yml
   format: yaml
   label: Conduktor Users API
   slug: conduktor-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conduktor/refs/heads/main/openapi/conduktor-users-api-openapi.yml
+  url: https://artifacts.apis.io/conduktor/openapi/conduktor-users-api-openapi.yml
 - filename: conduktor-virtual-clusters-api-openapi.yml
   format: yaml
   label: Conduktor Virtual Clusters API
   slug: conduktor-virtual-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conduktor/refs/heads/main/openapi/conduktor-virtual-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/conduktor/openapi/conduktor-virtual-clusters-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -79,7 +79,7 @@ source_filename: conduktor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.conduktor.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 21:30:36 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.conduktor.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 13:34:51 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: conduktor.io\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/conduktor/refs/heads/main/security/conduktor-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/conduktor/security/conduktor-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Apache Kafka

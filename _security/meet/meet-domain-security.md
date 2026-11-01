@@ -5,31 +5,31 @@ api_specs:
   label: Google Meet Conference Records API
   slug: meet-conference-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/openapi/meet-conference-records-api-openapi.yml
+  url: https://artifacts.apis.io/meet/openapi/meet-conference-records-api-openapi.yml
 - filename: meet-participants-api-openapi.yml
   format: yaml
   label: Google Meet Participants API
   slug: meet-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/openapi/meet-participants-api-openapi.yml
+  url: https://artifacts.apis.io/meet/openapi/meet-participants-api-openapi.yml
 - filename: meet-recordings-api-openapi.yml
   format: yaml
   label: Google Meet Recordings API
   slug: meet-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/openapi/meet-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/meet/openapi/meet-recordings-api-openapi.yml
 - filename: meet-spaces-api-openapi.yml
   format: yaml
   label: Google Meet Spaces API
   slug: meet-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/openapi/meet-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/meet/openapi/meet-spaces-api-openapi.yml
 - filename: meet-transcripts-api-openapi.yml
   format: yaml
   label: Google Meet Transcripts API
   slug: meet-transcripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/openapi/meet-transcripts-api-openapi.yml
+  url: https://artifacts.apis.io/meet/openapi/meet-transcripts-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -78,7 +78,7 @@ source_filename: meet-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: meet.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: meet.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:17 2026 GMT\n  hsts: null\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/security/meet-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/meet/security/meet-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Video Conferencing

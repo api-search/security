@@ -7,97 +7,97 @@ api_specs:
   label: Power BI Dashboards API
   slug: power-bi-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/openapi/power-bi-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-dashboards-api-openapi.yml
 - filename: power-bi-datasets-api-openapi.yml
   format: yaml
   label: Power BI Datasets API
   slug: power-bi-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/openapi/power-bi-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-datasets-api-openapi.yml
 - filename: power-bi-gateways-api-openapi.yml
   format: yaml
   label: Power BI Gateways API
   slug: power-bi-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/openapi/power-bi-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-gateways-api-openapi.yml
 - filename: power-bi-groups-api-openapi.yml
   format: yaml
   label: Power BI Groups API
   slug: power-bi-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/openapi/power-bi-groups-api-openapi.yml
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-groups-api-openapi.yml
 - filename: power-bi-imports-api-openapi.yml
   format: yaml
   label: Power BI Imports API
   slug: power-bi-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/openapi/power-bi-imports-api-openapi.yml
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-imports-api-openapi.yml
 - filename: power-bi-reports-api-openapi.yml
   format: yaml
   label: Power BI Reports API
   slug: power-bi-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/openapi/power-bi-reports-api-openapi.yml
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-reports-api-openapi.yml
 - filename: power-bi-apps-api-openapi.yml
   format: yaml
   label: Microsoft Power BI Apps API
   slug: microsoft-power-bi-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/openapi/power-bi-apps-api-openapi.yml
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-apps-api-openapi.yml
 - filename: power-bi-capacities-api-openapi.yml
   format: yaml
   label: Microsoft Power BI Capacities API
   slug: microsoft-power-bi-capacities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/openapi/power-bi-capacities-api-openapi.yml
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-capacities-api-openapi.yml
 - filename: power-bi-dashboards-api-openapi.yml
   format: yaml
   label: Microsoft Power BI Dashboards API
   slug: microsoft-power-bi-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/openapi/power-bi-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-dashboards-api-openapi.yml
 - filename: power-bi-dataflows-api-openapi.yml
   format: yaml
   label: Microsoft Power BI Dataflows API
   slug: microsoft-power-bi-dataflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/openapi/power-bi-dataflows-api-openapi.yml
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-dataflows-api-openapi.yml
 - filename: power-bi-datasets-api-openapi.yml
   format: yaml
   label: Microsoft Power BI Datasets API
   slug: microsoft-power-bi-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/openapi/power-bi-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-datasets-api-openapi.yml
 - filename: power-bi-embedtoken-api-openapi.yml
   format: yaml
   label: Microsoft Power BI EmbedToken API
   slug: microsoft-power-bi-embedtoken-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/openapi/power-bi-embedtoken-api-openapi.yml
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-embedtoken-api-openapi.yml
 - filename: power-bi-gateways-api-openapi.yml
   format: yaml
   label: Microsoft Power BI Gateways API
   slug: microsoft-power-bi-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/openapi/power-bi-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-gateways-api-openapi.yml
 - filename: power-bi-groups-api-openapi.yml
   format: yaml
   label: Microsoft Power BI Groups API
   slug: microsoft-power-bi-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/openapi/power-bi-groups-api-openapi.yml
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-groups-api-openapi.yml
 - filename: power-bi-imports-api-openapi.yml
   format: yaml
   label: Microsoft Power BI Imports API
   slug: microsoft-power-bi-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/openapi/power-bi-imports-api-openapi.yml
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-imports-api-openapi.yml
 - filename: power-bi-reports-api-openapi.yml
   format: yaml
   label: Microsoft Power BI Reports API
   slug: microsoft-power-bi-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/openapi/power-bi-reports-api-openapi.yml
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-reports-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -129,7 +129,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/power-bi-rest-api-openapi.yml + Microsoft Power BI authentication docs\ndocs: https://learn.microsoft.com/en-us/power-bi/developer/embedded/get-azuread-access-token\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: >-\n    Azure Active Directory / Microsoft Entra ID OAuth 2.0 access token. Register\n    an Azure AD application, then request a token for the Power BI Service\n    resource (https://analysis.windows.net/powerbi/api). Delegated (user)\n    permissions use the authorization-code flow; app-only automation uses the\n    client-credentials flow with the .default scope and requires tenant admin\n    settings (\"Allow service principals to use Power BI APIs\").\n  sources:\n  - openapi/power-bi-rest-api-openapi.yml\nidentity_provider:\n  name: Microsoft Entra\
   \ ID (Azure AD)\n  authorize_url: https://login.microsoftonline.com/{tenant}/oauth2/v2.0/authorize\n  token_url: https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token\n  resource: https://analysis.windows.net/powerbi/api\nembed_tokens:\n  docs: https://learn.microsoft.com/en-us/power-bi/developer/embedded/embed-tokens\n  note: Embedded scenarios additionally mint short-lived Power BI embed tokens via GenerateToken for embed-for-your-customers and embed-for-your-organization.\nscopes_ref: scopes/power-bi-scopes.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/authentication/power-bi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/power-bi/authentication/power-bi-authentication.yml
 summary_line: http/oauth2 · 1 scheme
 tags:
 - Analytics

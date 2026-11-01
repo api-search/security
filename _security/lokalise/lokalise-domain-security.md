@@ -5,19 +5,61 @@ api_specs:
   label: Lokalise Files API
   slug: lokalise-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lokalise/refs/heads/main/openapi/lokalise-files-api-openapi.yml
+  url: https://artifacts.apis.io/lokalise/openapi/lokalise-files-api-openapi.yml
 - filename: lokalise-keys-api-openapi.yml
   format: yaml
   label: Lokalise Keys API
   slug: lokalise-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lokalise/refs/heads/main/openapi/lokalise-keys-api-openapi.yml
+  url: https://artifacts.apis.io/lokalise/openapi/lokalise-keys-api-openapi.yml
 - filename: lokalise-projects-api-openapi.yml
   format: yaml
   label: Lokalise Projects API
   slug: lokalise-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lokalise/refs/heads/main/openapi/lokalise-projects-api-openapi.yml
+  url: https://artifacts.apis.io/lokalise/openapi/lokalise-projects-api-openapi.yml
+- filename: lokalise-branches-api-openapi.yml
+  format: yaml
+  label: Lokalise Branches API
+  slug: lokalise-branches-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lokalise/openapi/lokalise-branches-api-openapi.yml
+- filename: lokalise-comments-api-openapi.yml
+  format: yaml
+  label: Lokalise Comments API
+  slug: lokalise-comments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lokalise/openapi/lokalise-comments-api-openapi.yml
+- filename: lokalise-languages-api-openapi.yml
+  format: yaml
+  label: Lokalise Languages API
+  slug: lokalise-languages-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lokalise/openapi/lokalise-languages-api-openapi.yml
+- filename: lokalise-queued-processes-api-openapi.yml
+  format: yaml
+  label: Lokalise Queued Processes API
+  slug: lokalise-queued-processes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lokalise/openapi/lokalise-queued-processes-api-openapi.yml
+- filename: lokalise-screenshots-api-openapi.yml
+  format: yaml
+  label: Lokalise Screenshots API
+  slug: lokalise-screenshots-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lokalise/openapi/lokalise-screenshots-api-openapi.yml
+- filename: lokalise-tasks-api-openapi.yml
+  format: yaml
+  label: Lokalise Tasks API
+  slug: lokalise-tasks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lokalise/openapi/lokalise-tasks-api-openapi.yml
+- filename: lokalise-translations-api-openapi.yml
+  format: yaml
+  label: Lokalise Translations API
+  slug: lokalise-translations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lokalise/openapi/lokalise-translations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +101,7 @@ source_filename: lokalise-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: lokalise.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.lokalise.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 15:46:51 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.lokalise.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: lokalise.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lokalise/refs/heads/main/security/lokalise-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lokalise/security/lokalise-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Localization

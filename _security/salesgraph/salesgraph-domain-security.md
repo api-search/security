@@ -5,31 +5,31 @@ api_specs:
   label: Salesgraph Audit API
   slug: salesgraph-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/openapi/salesgraph-audit-api-openapi.yml
+  url: https://artifacts.apis.io/salesgraph/openapi/salesgraph-audit-api-openapi.yml
 - filename: salesgraph-commands-api-openapi.yml
   format: yaml
   label: Salesgraph Commands API
   slug: salesgraph-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/openapi/salesgraph-commands-api-openapi.yml
+  url: https://artifacts.apis.io/salesgraph/openapi/salesgraph-commands-api-openapi.yml
 - filename: salesgraph-runs-api-openapi.yml
   format: yaml
   label: Salesgraph Runs API
   slug: salesgraph-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/openapi/salesgraph-runs-api-openapi.yml
+  url: https://artifacts.apis.io/salesgraph/openapi/salesgraph-runs-api-openapi.yml
 - filename: salesgraph-oms-api-openapi.yml
   format: yaml
   label: Salesgraph OMS API
   slug: salesgraph-oms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/openapi/salesgraph-oms-api-openapi.yml
+  url: https://artifacts.apis.io/salesgraph/openapi/salesgraph-oms-api-openapi.yml
 - filename: salesgraph-status-api-openapi.yml
   format: yaml
   label: Salesgraph Status API
   slug: salesgraph-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/openapi/salesgraph-status-api-openapi.yml
+  url: https://artifacts.apis.io/salesgraph/openapi/salesgraph-status-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -68,7 +68,7 @@ source_filename: salesgraph-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.salesgraph.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 24 22:24:17 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: salesgraph.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 24 22:24:17 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: salesgraph.com\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/security/salesgraph-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/salesgraph/security/salesgraph-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

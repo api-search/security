@@ -5,13 +5,13 @@ api_specs:
   label: Syndigo Auth API
   slug: syndigo-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/syndigo/refs/heads/main/openapi/syndigo-auth-api-openapi.yml
+  url: https://artifacts.apis.io/syndigo/openapi/syndigo-auth-api-openapi.yml
 - filename: syndigo-natural-api-openapi.yml
   format: yaml
   label: Syndigo Natural API
   slug: syndigo-natural-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/syndigo/refs/heads/main/openapi/syndigo-natural-api-openapi.yml
+  url: https://artifacts.apis.io/syndigo/openapi/syndigo-natural-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,12 +41,12 @@ source_filename: syndigo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: syndigo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 10 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: syndigo.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/syndigo/refs/heads/main/security/syndigo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/syndigo/security/syndigo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Data
 - Master Data Management
-- ProductInformationManagement
+- Product Information Management
 - Syndication
 ---

@@ -8,37 +8,37 @@ api_specs:
   label: Fundz Acquisitions API
   slug: fundz-acquisitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/openapi/fundz-acquisitions-api-openapi.yml
+  url: https://artifacts.apis.io/fundz/openapi/fundz-acquisitions-api-openapi.yml
 - filename: fundz-agreements-api-openapi.yml
   format: yaml
   label: Fundz Agreements API
   slug: fundz-agreements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/openapi/fundz-agreements-api-openapi.yml
+  url: https://artifacts.apis.io/fundz/openapi/fundz-agreements-api-openapi.yml
 - filename: fundz-crowdfundings-api-openapi.yml
   format: yaml
   label: Fundz Crowdfundings API
   slug: fundz-crowdfundings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/openapi/fundz-crowdfundings-api-openapi.yml
+  url: https://artifacts.apis.io/fundz/openapi/fundz-crowdfundings-api-openapi.yml
 - filename: fundz-executives-api-openapi.yml
   format: yaml
   label: Fundz Executives API
   slug: fundz-executives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/openapi/fundz-executives-api-openapi.yml
+  url: https://artifacts.apis.io/fundz/openapi/fundz-executives-api-openapi.yml
 - filename: fundz-fundings-api-openapi.yml
   format: yaml
   label: Fundz Fundings API
   slug: fundz-fundings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/openapi/fundz-fundings-api-openapi.yml
+  url: https://artifacts.apis.io/fundz/openapi/fundz-fundings-api-openapi.yml
 - filename: fundz-products-api-openapi.yml
   format: yaml
   label: Fundz Products API
   slug: fundz-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/openapi/fundz-products-api-openapi.yml
+  url: https://artifacts.apis.io/fundz/openapi/fundz-products-api-openapi.yml
 auth_types:
 - apiKey
 - http-bearer
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nstatus: published\nsour
   \ materially more modern auth posture than\n    the core API's raw header, on the same hostname.\naccess:\n  core_api:\n    free_tier: false\n    card_required: true\n    instant: false\n    statement: >-\n      \"The Fundz API is available on paid plans only — there is no free API tier.\" Subscribe to Pro\n      or Strategic, then request the key from your account or support@fundz.net.\n    source: https://app.fundz.net/knowledge/api-references/authentication\n    correction: >-\n      CORRECTED 2026-08-14. A prior pass recorded \"a free key is issued instantly, with no card and\n      no sales call\" from the https://www.fundz.net/api-trial page and treated it as the core API's\n      access model. The API reference states the opposite for the core API. The free instant key is\n      real, but it is the FUNDZWATCH developer key (fundz_test_), which authorizes /v1/watch/* and\n      the MCP server — not GET /fundings. The distinction matters: the differentiator Fundz leads\n      with\
   \ against Crunchbase applies to its agent surface, not to its feed API.\n  fundzwatch_api:\n    free_tier: true\n    plan: Developer (Free)\n    card_required: false\n    instant: true\n    signup: https://fundzwatch.ai/onboarding\n    alt_signup: https://www.fundz.net/api-trial\n    limits: {api_calls_per_month: 1000, ai_score_calls_per_month: 100}\n  mcp:\n    key_required: false\n    note: 7 of the 14 MCP tools return live data with no credential at all.\nfailure_modes:\n- {status: 401, meaning: 'Authentication required, invalid token, or subscription inactive — the message points at fundz.net/pricing.', source: docs}\n- {status: 403, meaning: 'Missing, invalid, orphaned or non-entitled API key.', source: openapi, observed: '{\"type\":\"Unauthorized\",\"message\":\"Authentication required\"}'}\n- {status: 403, meaning: 'On /fund-formations, a non-subscriber receives {\"error\": \"subscription_required\"}.', source: 'https://app.fundz.net/knowledge/api-references/fund-formations'}\n\
   transport_security:\n  https_only: true\n  tls_version: TLSv1.3\n  hsts: false\n  note: >-\n    HSTS is NOT set on api.fundz.net or www.fundz.net — see security/fundz-domain-security.yml. For\n    an API whose only credential is a bearer-equivalent header value, that is the most consequential\n    gap in the auth posture.\nevidence:\n- {url: 'https://app.fundz.net/knowledge/api-references/authentication', status: 200}\n- {url: 'https://app.fundz.net/knowledge/api-references/companies', status: 200}\n- {url: 'https://fundzwatch.ai/docs', status: 200}\n- {url: 'https://api.fundz.net/fundings', status: 403, note: 'live probe, no credential'}\n- {url: 'https://api.fundz.net/.well-known/oauth-authorization-server', status: 404}\n- {url: 'https://www.fundz.net/api-trial', status: 200}\ngaps:\n- Bearer/OAuth is accepted but no authorization server, token endpoint or scopes are published.\n- No key rotation, expiry or revocation policy documented.\n- No HSTS on the API host.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/authentication/fundz-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fundz/authentication/fundz-authentication.yml
 summary_line: apiKey/http-bearer · 4 schemes
 tags:
 - Business Intelligence

@@ -5,7 +5,7 @@ api_specs:
   label: Cloud Custodian C7n-Mailer
   slug: cloud-custodian-c7n-mailer
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloud-custodian/refs/heads/main/asyncapi/cloud-custodian-mailer-asyncapi.yml
+  url: https://artifacts.apis.io/cloud-custodian/asyncapi/cloud-custodian-mailer-asyncapi.yml
 description: ''
 domains:
 - caa: []
@@ -33,7 +33,7 @@ source_filename: cloud-custodian-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cloudcustodian.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: cloudcustodian.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloud-custodian/refs/heads/main/security/cloud-custodian-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cloud-custodian/security/cloud-custodian-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Cloud Security

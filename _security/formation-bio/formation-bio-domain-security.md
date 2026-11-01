@@ -28,7 +28,7 @@ source_filename: formation-bio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.formation.bio\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 06:30:40 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: formation.bio\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/formation-bio/refs/heads/main/security/formation-bio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/formation-bio/security/formation-bio-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

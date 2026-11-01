@@ -9,133 +9,157 @@ api_specs:
   label: Citrix Access Policies API
   slug: citrix-access-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-access-policies-api-openapi.yml
+  url: https://artifacts.apis.io/citrix/openapi/citrix-access-policies-api-openapi.yml
 - filename: citrix-application-domains-api-openapi.yml
   format: yaml
   label: Citrix Application Domains API
   slug: citrix-application-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-application-domains-api-openapi.yml
+  url: https://artifacts.apis.io/citrix/openapi/citrix-application-domains-api-openapi.yml
 - filename: citrix-applications-api-openapi.yml
   format: yaml
   label: Citrix Applications API
   slug: citrix-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-applications-api-openapi.yml
+  url: https://artifacts.apis.io/citrix/openapi/citrix-applications-api-openapi.yml
 - filename: citrix-authentication-api-openapi.yml
   format: yaml
   label: Citrix Authentication API
   slug: citrix-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/citrix/openapi/citrix-authentication-api-openapi.yml
 - filename: citrix-certificates-api-openapi.yml
   format: yaml
   label: Citrix Certificates API
   slug: citrix-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/citrix/openapi/citrix-certificates-api-openapi.yml
 - filename: citrix-content-switching-api-openapi.yml
   format: yaml
   label: Citrix Content Switching API
   slug: citrix-content-switching-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-content-switching-api-openapi.yml
+  url: https://artifacts.apis.io/citrix/openapi/citrix-content-switching-api-openapi.yml
 - filename: citrix-delivery-groups-api-openapi.yml
   format: yaml
   label: Citrix Delivery Groups API
   slug: citrix-delivery-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-delivery-groups-api-openapi.yml
+  url: https://artifacts.apis.io/citrix/openapi/citrix-delivery-groups-api-openapi.yml
 - filename: citrix-devices-api-openapi.yml
   format: yaml
   label: Citrix Devices API
   slug: citrix-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-devices-api-openapi.yml
+  url: https://artifacts.apis.io/citrix/openapi/citrix-devices-api-openapi.yml
 - filename: citrix-hypervisors-api-openapi.yml
   format: yaml
   label: Citrix Hypervisors API
   slug: citrix-hypervisors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-hypervisors-api-openapi.yml
+  url: https://artifacts.apis.io/citrix/openapi/citrix-hypervisors-api-openapi.yml
 - filename: citrix-launch-api-openapi.yml
   format: yaml
   label: Citrix Launch API
   slug: citrix-launch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-launch-api-openapi.yml
+  url: https://artifacts.apis.io/citrix/openapi/citrix-launch-api-openapi.yml
 - filename: citrix-load-balancing-api-openapi.yml
   format: yaml
   label: Citrix Load Balancing API
   slug: citrix-load-balancing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-load-balancing-api-openapi.yml
+  url: https://artifacts.apis.io/citrix/openapi/citrix-load-balancing-api-openapi.yml
 - filename: citrix-machine-catalogs-api-openapi.yml
   format: yaml
   label: Citrix Machine Catalogs API
   slug: citrix-machine-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-machine-catalogs-api-openapi.yml
+  url: https://artifacts.apis.io/citrix/openapi/citrix-machine-catalogs-api-openapi.yml
 - filename: citrix-machines-api-openapi.yml
   format: yaml
   label: Citrix Machines API
   slug: citrix-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-machines-api-openapi.yml
+  url: https://artifacts.apis.io/citrix/openapi/citrix-machines-api-openapi.yml
 - filename: citrix-notifications-api-openapi.yml
   format: yaml
   label: Citrix Notifications API
   slug: citrix-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/citrix/openapi/citrix-notifications-api-openapi.yml
 - filename: citrix-policies-api-openapi.yml
   format: yaml
   label: Citrix Policies API
   slug: citrix-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-policies-api-openapi.yml
+  url: https://artifacts.apis.io/citrix/openapi/citrix-policies-api-openapi.yml
 - filename: citrix-resource-locations-api-openapi.yml
   format: yaml
   label: Citrix Resource Locations API
   slug: citrix-resource-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-resource-locations-api-openapi.yml
+  url: https://artifacts.apis.io/citrix/openapi/citrix-resource-locations-api-openapi.yml
 - filename: citrix-resources-api-openapi.yml
   format: yaml
   label: Citrix Resources API
   slug: citrix-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-resources-api-openapi.yml
+  url: https://artifacts.apis.io/citrix/openapi/citrix-resources-api-openapi.yml
 - filename: citrix-service-principals-api-openapi.yml
   format: yaml
   label: Citrix Service Principals API
   slug: citrix-service-principals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-service-principals-api-openapi.yml
+  url: https://artifacts.apis.io/citrix/openapi/citrix-service-principals-api-openapi.yml
 - filename: citrix-sessions-api-openapi.yml
   format: yaml
   label: Citrix Sessions API
   slug: citrix-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/citrix/openapi/citrix-sessions-api-openapi.yml
 - filename: citrix-ssl-api-openapi.yml
   format: yaml
   label: Citrix SSL API
   slug: citrix-ssl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-ssl-api-openapi.yml
+  url: https://artifacts.apis.io/citrix/openapi/citrix-ssl-api-openapi.yml
 - filename: citrix-system-api-openapi.yml
   format: yaml
   label: Citrix System API
   slug: citrix-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-system-api-openapi.yml
+  url: https://artifacts.apis.io/citrix/openapi/citrix-system-api-openapi.yml
 - filename: citrix-users-api-openapi.yml
   format: yaml
   label: Citrix Users API
   slug: citrix-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-users-api-openapi.yml
+  url: https://artifacts.apis.io/citrix/openapi/citrix-users-api-openapi.yml
+- filename: citrix-casvc-api-openapi.yml
+  format: yaml
+  label: Citrix Casvc API
+  slug: citrix-casvc-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/citrix/openapi/citrix-casvc-api-openapi.yml
+- filename: citrix-ctxana-api-openapi.yml
+  format: yaml
+  label: Citrix Ctxana API
+  slug: citrix-ctxana-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/citrix/openapi/citrix-ctxana-api-openapi.yml
+- filename: citrix-internal-api-openapi.yml
+  format: yaml
+  label: Citrix Internal API
+  slug: citrix-internal-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/citrix/openapi/citrix-internal-api-openapi.yml
+- filename: citrix-intra-api-openapi.yml
+  format: yaml
+  label: Citrix Intra API
+  slug: citrix-intra-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/citrix/openapi/citrix-intra-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -188,7 +212,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/citrix-adc-nitro-openapi.yml, openapi/citrix-cloud-openapi.yml, openapi/citrix-daas-openapi.yml,\n  openapi/citrix-endpoint-management-openapi.yml, openapi/citrix-secure-private-access-openapi.yml,\n  openapi/citrix-storefront-web-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - cookie\n  - header\nschemes:\n- name: nitroAuth\n  type: apiKey\n  in: cookie\n  parameter: NITRO_AUTH_TOKEN\n  description: Session cookie from NITRO login\n  sources:\n  - openapi/citrix-adc-nitro-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: OAuth 2.0 bearer token from client credentials grant\n  sources:\n  - openapi/citrix-cloud-openapi.yml\n  - openapi/citrix-daas-openapi.yml\n  - openapi/citrix-secure-private-access-openapi.yml\n- name: authToken\n  type: apiKey\n  in: header\n  parameter: auth_token\n  description: Authentication token from login endpoint\n\
   \  sources:\n  - openapi/citrix-endpoint-management-openapi.yml\n- name: csrfToken\n  type: apiKey\n  in: header\n  parameter: Csrf-Token\n  description: CSRF token from session cookie for POST requests\n  sources:\n  - openapi/citrix-storefront-web-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/authentication/citrix-authentication.yml
+source_yaml_url: https://artifacts.apis.io/citrix/authentication/citrix-authentication.yml
 summary_line: apiKey/http · 4 schemes
 tags:
 - Application Delivery

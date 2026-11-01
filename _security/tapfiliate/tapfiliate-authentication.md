@@ -8,61 +8,61 @@ api_specs:
   label: Tapfiliate Affiliate Groups API
   slug: tapfiliate-affiliate-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/openapi/tapfiliate-affiliate-groups-api-openapi.yml
+  url: https://artifacts.apis.io/tapfiliate/openapi/tapfiliate-affiliate-groups-api-openapi.yml
 - filename: tapfiliate-affiliate-prospects-api-openapi.yml
   format: yaml
   label: Tapfiliate Affiliate Prospects API
   slug: tapfiliate-affiliate-prospects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/openapi/tapfiliate-affiliate-prospects-api-openapi.yml
+  url: https://artifacts.apis.io/tapfiliate/openapi/tapfiliate-affiliate-prospects-api-openapi.yml
 - filename: tapfiliate-affiliates-api-openapi.yml
   format: yaml
   label: Tapfiliate Affiliates API
   slug: tapfiliate-affiliates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/openapi/tapfiliate-affiliates-api-openapi.yml
+  url: https://artifacts.apis.io/tapfiliate/openapi/tapfiliate-affiliates-api-openapi.yml
 - filename: tapfiliate-balances-api-openapi.yml
   format: yaml
   label: Tapfiliate Balances API
   slug: tapfiliate-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/openapi/tapfiliate-balances-api-openapi.yml
+  url: https://artifacts.apis.io/tapfiliate/openapi/tapfiliate-balances-api-openapi.yml
 - filename: tapfiliate-clicks-api-openapi.yml
   format: yaml
   label: Tapfiliate Clicks API
   slug: tapfiliate-clicks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/openapi/tapfiliate-clicks-api-openapi.yml
+  url: https://artifacts.apis.io/tapfiliate/openapi/tapfiliate-clicks-api-openapi.yml
 - filename: tapfiliate-commissions-api-openapi.yml
   format: yaml
   label: Tapfiliate Commissions API
   slug: tapfiliate-commissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/openapi/tapfiliate-commissions-api-openapi.yml
+  url: https://artifacts.apis.io/tapfiliate/openapi/tapfiliate-commissions-api-openapi.yml
 - filename: tapfiliate-conversions-api-openapi.yml
   format: yaml
   label: Tapfiliate Conversions API
   slug: tapfiliate-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/openapi/tapfiliate-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/tapfiliate/openapi/tapfiliate-conversions-api-openapi.yml
 - filename: tapfiliate-customers-api-openapi.yml
   format: yaml
   label: Tapfiliate Customers API
   slug: tapfiliate-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/openapi/tapfiliate-customers-api-openapi.yml
+  url: https://artifacts.apis.io/tapfiliate/openapi/tapfiliate-customers-api-openapi.yml
 - filename: tapfiliate-payments-api-openapi.yml
   format: yaml
   label: Tapfiliate Payments API
   slug: tapfiliate-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/openapi/tapfiliate-payments-api-openapi.yml
+  url: https://artifacts.apis.io/tapfiliate/openapi/tapfiliate-payments-api-openapi.yml
 - filename: tapfiliate-programs-api-openapi.yml
   format: yaml
   label: Tapfiliate Programs API
   slug: tapfiliate-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/openapi/tapfiliate-programs-api-openapi.yml
+  url: https://artifacts.apis.io/tapfiliate/openapi/tapfiliate-programs-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -137,7 +137,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://t
   \ X-Api-Key\n  applies_to: https://api.tapfiliate.com/1.6\n  transport: HTTPS only — plain HTTP calls fail, and unauthenticated requests fail.\n  key_management: Account settings / profile settings in the Tapfiliate dashboard.\n  rotation: No documented rotation policy, expiry or key-prefix convention.\n  scoping: >-\n    None. One account-level key carries the full surface. Tapfiliate's own docs\n    warn the key can approve commissions and must never be exposed in frontend\n    javascript or public repositories.\n  sources:\n  - openapi/tapfiliate-affiliate-groups-api-openapi.yml\n  - openapi/tapfiliate-affiliate-prospects-api-openapi.yml\n  - openapi/tapfiliate-affiliates-api-openapi.yml\n  - openapi/tapfiliate-balances-api-openapi.yml\n  - openapi/tapfiliate-clicks-api-openapi.yml\n  - openapi/tapfiliate-commissions-api-openapi.yml\n  - openapi/tapfiliate-conversions-api-openapi.yml\n  - openapi/tapfiliate-customers-api-openapi.yml\n  - openapi/tapfiliate-payments-api-openapi.yml\n\
   \  - openapi/tapfiliate-programs-api-openapi.yml\n  - https://tapfiliate.com/docs/rest/#header-authentication\n  note: >-\n    The reference documents the header as `X-Api-Key`. The REST integration guide\n    at /docs/integrations/rest-api/ shows curl examples using a bare `Api-Key:`\n    header instead, and the trigger-webhook guide also says to set \"your Api-Key\n    in the header field\". Recorded as observed; `X-Api-Key` is the form both the\n    reference and the OpenAPI carry.\n- name: TapfiliateMcpOAuth\n  type: oauth2\n  applies_to: https://mcp.tapfiliate.com/mcp\n  flows:\n    authorizationCode:\n      authorizationUrl: https://app.tapfiliate.com/ai/mcp/connect/\n      tokenUrl: https://mcp.tapfiliate.com/oauth/v2/token/\n      refreshUrl: https://mcp.tapfiliate.com/oauth/v2/token/\n      scopes:\n        affiliates: Affiliates, affiliate groups and affiliate prospects\n        conversions_commissions: Clicks, customers, conversions and commissions\n        programs: Affiliate\
   \ programs, commission types, MLM levels and bonuses\n        payments: Affiliate balances and payouts\n  issuer: https://api.tapfiliate.com\n  jwks_uri: https://api.tapfiliate.com/.well-known/jwks.json\n  pkce: [S256]\n  dynamic_client_registration: https://app.tapfiliate.com/oauth/v2/register/\n  bearer_methods: [header]\n  prerequisites:\n  - Admin-level Tapfiliate account permissions\n  - API/Zapier access enabled on the account\n  detail: scopes/tapfiliate-scopes.yml\n  sources:\n  - https://mcp.tapfiliate.com/.well-known/oauth-authorization-server\n  - https://mcp.tapfiliate.com/.well-known/oauth-protected-resource\n  - https://support.tapfiliate.com/en/articles/16011230-how-to-use-your-new-affiliate-analyst-the-tapfiliate-mcp-server\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/authentication/tapfiliate-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tapfiliate/authentication/tapfiliate-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Affiliate Marketing

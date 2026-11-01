@@ -5,37 +5,37 @@ api_specs:
   label: Quartzy Inventory Items API
   slug: quartzy-inventory-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-inventory-items-api-openapi.yml
+  url: https://artifacts.apis.io/quartzy/openapi/quartzy-inventory-items-api-openapi.yml
 - filename: quartzy-labs-api-openapi.yml
   format: yaml
   label: Quartzy Labs API
   slug: quartzy-labs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-labs-api-openapi.yml
+  url: https://artifacts.apis.io/quartzy/openapi/quartzy-labs-api-openapi.yml
 - filename: quartzy-order-requests-api-openapi.yml
   format: yaml
   label: Quartzy Order Requests API
   slug: quartzy-order-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-order-requests-api-openapi.yml
+  url: https://artifacts.apis.io/quartzy/openapi/quartzy-order-requests-api-openapi.yml
 - filename: quartzy-types-api-openapi.yml
   format: yaml
   label: Quartzy Types API
   slug: quartzy-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-types-api-openapi.yml
+  url: https://artifacts.apis.io/quartzy/openapi/quartzy-types-api-openapi.yml
 - filename: quartzy-user-api-openapi.yml
   format: yaml
   label: Quartzy User API
   slug: quartzy-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-user-api-openapi.yml
+  url: https://artifacts.apis.io/quartzy/openapi/quartzy-user-api-openapi.yml
 - filename: quartzy-webhooks-api-openapi.yml
   format: yaml
   label: Quartzy Webhooks API
   slug: quartzy-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/quartzy/openapi/quartzy-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: quartzy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.quartzy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 06:52:43 2026 GMT\n  hsts: true\n  hsts_max_age: 3628800\n- host: docs.quartzy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 31 23:59:59 2026 GMT\n  hsts: false\n- host: api.quartzy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 31 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: quartzy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/security/quartzy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/quartzy/security/quartzy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Lab Management

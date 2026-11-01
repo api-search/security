@@ -5,37 +5,37 @@ api_specs:
   label: Contour Gateway API
   slug: contour-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/openapi/contour-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/contour/openapi/contour-gateway-api-openapi.yml
 - filename: contour-gatewayclass-api-openapi.yml
   format: yaml
   label: Contour GatewayClass API
   slug: contour-gatewayclass-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/openapi/contour-gatewayclass-api-openapi.yml
+  url: https://artifacts.apis.io/contour/openapi/contour-gatewayclass-api-openapi.yml
 - filename: contour-httpproxy-api-openapi.yml
   format: yaml
   label: Contour HTTPProxy API
   slug: contour-httpproxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/openapi/contour-httpproxy-api-openapi.yml
+  url: https://artifacts.apis.io/contour/openapi/contour-httpproxy-api-openapi.yml
 - filename: contour-httproute-api-openapi.yml
   format: yaml
   label: Contour HTTPRoute API
   slug: contour-httproute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/openapi/contour-httproute-api-openapi.yml
+  url: https://artifacts.apis.io/contour/openapi/contour-httproute-api-openapi.yml
 - filename: contour-tlscertificatedelegation-api-openapi.yml
   format: yaml
   label: Contour TLSCertificateDelegation API
   slug: contour-tlscertificatedelegation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/openapi/contour-tlscertificatedelegation-api-openapi.yml
+  url: https://artifacts.apis.io/contour/openapi/contour-tlscertificatedelegation-api-openapi.yml
 - filename: contour-tlsroute-api-openapi.yml
   format: yaml
   label: Contour TLSRoute API
   slug: contour-tlsroute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/openapi/contour-tlsroute-api-openapi.yml
+  url: https://artifacts.apis.io/contour/openapi/contour-tlsroute-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: contour-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: projectcontour.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 02:36:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: projectcontour.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/security/contour-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/contour/security/contour-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Envoy

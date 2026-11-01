@@ -5,25 +5,25 @@ api_specs:
   label: June Companies API
   slug: june-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/june/refs/heads/main/openapi/june-companies-api-openapi.yml
+  url: https://artifacts.apis.io/june/openapi/june-companies-api-openapi.yml
 - filename: june-events-api-openapi.yml
   format: yaml
   label: June Events API
   slug: june-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/june/refs/heads/main/openapi/june-events-api-openapi.yml
+  url: https://artifacts.apis.io/june/openapi/june-events-api-openapi.yml
 - filename: june-users-api-openapi.yml
   format: yaml
   label: June Users API
   slug: june-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/june/refs/heads/main/openapi/june-users-api-openapi.yml
+  url: https://artifacts.apis.io/june/openapi/june-users-api-openapi.yml
 - filename: june-pageviews-api-openapi.yml
   format: yaml
   label: June Pageviews API
   slug: june-pageviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/june/refs/heads/main/openapi/june-pageviews-api-openapi.yml
+  url: https://artifacts.apis.io/june/openapi/june-pageviews-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -60,7 +60,7 @@ source_filename: june-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.june.so\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 10:15:55 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.june.so\n  https: false\n- host: help.june.so\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 06:07:40 2026 GMT\n  hsts: false\ndomains:\n- domain: june.so\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/june/refs/heads/main/security/june-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/june/security/june-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics

@@ -8,31 +8,31 @@ api_specs:
   label: SOAX Web Data API
   slug: soax-web-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/openapi/soax-web-data-api-openapi.yml
+  url: https://artifacts.apis.io/soax/openapi/soax-web-data-api-openapi.yml
 - filename: soax-ecommerce-data-api-openapi.yml
   format: yaml
   label: SOAX Ecommerce Data API
   slug: soax-ecommerce-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/openapi/soax-ecommerce-data-api-openapi.yml
+  url: https://artifacts.apis.io/soax/openapi/soax-ecommerce-data-api-openapi.yml
 - filename: soax-geo-targeting-api-openapi.yml
   format: yaml
   label: SOAX Geo Targeting API
   slug: soax-geo-targeting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/openapi/soax-geo-targeting-api-openapi.yml
+  url: https://artifacts.apis.io/soax/openapi/soax-geo-targeting-api-openapi.yml
 - filename: soax-ip-whitelist-api-openapi.yml
   format: yaml
   label: SOAX IP Whitelist API
   slug: soax-ip-whitelist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/openapi/soax-ip-whitelist-api-openapi.yml
+  url: https://artifacts.apis.io/soax/openapi/soax-ip-whitelist-api-openapi.yml
 - filename: soax-serp-data-api-openapi.yml
   format: yaml
   label: SOAX SERP Data API
   slug: soax-serp-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/openapi/soax-serp-data-api-openapi.yml
+  url: https://artifacts.apis.io/soax/openapi/soax-serp-data-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -67,7 +67,7 @@ source_filename: soax-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/soax-proxy-management-api-openapi.yml, openapi/soax-web-data-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: APIKeyHeader\n  type: apiKey\n  in: header\n  parameter: api-key\n  description: Your SOAX API key from the Profile tab in your dashboard\n  sources:\n  - openapi/soax-proxy-management-api-openapi.yml\n- name: APIKeyHeader\n  type: apiKey\n  in: header\n  parameter: X-SOAX-API-Secret\n  description: SOAX API key from your dashboard Scraper APIs section\n  sources:\n  - openapi/soax-web-data-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/authentication/soax-authentication.yml
+source_yaml_url: https://artifacts.apis.io/soax/authentication/soax-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Proxy

@@ -5,25 +5,25 @@ api_specs:
   label: ZDNet AI API
   slug: zdnet-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zdnet/refs/heads/main/openapi/zdnet-ai-api-openapi.yml
+  url: https://artifacts.apis.io/zdnet/openapi/zdnet-ai-api-openapi.yml
 - filename: zdnet-cloud-api-openapi.yml
   format: yaml
   label: ZDNet Cloud API
   slug: zdnet-cloud-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zdnet/refs/heads/main/openapi/zdnet-cloud-api-openapi.yml
+  url: https://artifacts.apis.io/zdnet/openapi/zdnet-cloud-api-openapi.yml
 - filename: zdnet-news-api-openapi.yml
   format: yaml
   label: ZDNet News API
   slug: zdnet-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zdnet/refs/heads/main/openapi/zdnet-news-api-openapi.yml
+  url: https://artifacts.apis.io/zdnet/openapi/zdnet-news-api-openapi.yml
 - filename: zdnet-security-api-openapi.yml
   format: yaml
   label: ZDNet Security API
   slug: zdnet-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zdnet/refs/heads/main/openapi/zdnet-security-api-openapi.yml
+  url: https://artifacts.apis.io/zdnet/openapi/zdnet-security-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: zdnet-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.zdnet.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 02:43:25 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: zdnet.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zdnet/refs/heads/main/security/zdnet-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zdnet/security/zdnet-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Enterprise IT

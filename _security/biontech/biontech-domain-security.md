@@ -32,7 +32,7 @@ source_filename: biontech-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: biontech.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 09:52:11 2026 GMT\n  hsts: true\n  hsts_max_age: 15768000\ndomains:\n- domain: biontech.com\n  dnssec: false\n  caa:\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"swisssign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/biontech/refs/heads/main/security/biontech-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/biontech/security/biontech-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Biotechnology

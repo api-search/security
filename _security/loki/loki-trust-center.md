@@ -5,31 +5,31 @@ api_specs:
   label: Loki Config API
   slug: loki-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loki/refs/heads/main/openapi/loki-config-api-openapi.yml
+  url: https://artifacts.apis.io/loki/openapi/loki-config-api-openapi.yml
 - filename: loki-loki-api-openapi.yml
   format: yaml
   label: Loki API
   slug: loki-loki-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loki/refs/heads/main/openapi/loki-loki-api-openapi.yml
+  url: https://artifacts.apis.io/loki/openapi/loki-loki-api-openapi.yml
 - filename: loki-metrics-api-openapi.yml
   format: yaml
   label: Loki Metrics API
   slug: loki-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loki/refs/heads/main/openapi/loki-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/loki/openapi/loki-metrics-api-openapi.yml
 - filename: loki-otlp-api-openapi.yml
   format: yaml
   label: Loki Otlp API
   slug: loki-otlp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loki/refs/heads/main/openapi/loki-otlp-api-openapi.yml
+  url: https://artifacts.apis.io/loki/openapi/loki-otlp-api-openapi.yml
 - filename: loki-ready-api-openapi.yml
   format: yaml
   label: Loki Ready API
   slug: loki-ready-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loki/refs/heads/main/openapi/loki-ready-api-openapi.yml
+  url: https://artifacts.apis.io/loki/openapi/loki-ready-api-openapi.yml
 certification_count: 6
 certifications:
 - SOC 2
@@ -51,7 +51,7 @@ source_filename: loki-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.grafana.com/\nurl: https://trust.grafana.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- PCI DSS\n- FedRAMP\n- GDPR\n- CSA STAR\nevidence:\n- source: https://trust.grafana.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - pci dss\n  - pci-dss\n  - fedramp\n  - trust center\n  - gdpr\n  - csa star\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loki/refs/heads/main/security/loki-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/loki/security/loki-trust-center.yml
 summary_line: SOC 2, ISO 27001, PCI DSS, FedRAMP, GDPR, CSA STAR
 tags:
 - Logging

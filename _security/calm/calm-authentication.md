@@ -7,13 +7,13 @@ api_specs:
   label: Calm Authentication API
   slug: calm-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/openapi/calm-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/calm/openapi/calm-authentication-api-openapi.yml
 - filename: calm-subscriptions-api-openapi.yml
   format: yaml
   label: Calm Subscriptions API
   slug: calm-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/openapi/calm-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/calm/openapi/calm-subscriptions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -44,7 +44,7 @@ source_filename: calm-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/calm-partner-api-openapi.yml\ndocs: https://partner.calm.com/docs/api\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: CalmOAuth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.calm.com/v0/authorize\n    scopes: 2\n  description: OAuth 2.0 client-credentials grant against the Calm auth service.\n  sources:\n  - openapi/calm-partner-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/authentication/calm-authentication.yml
+source_yaml_url: https://artifacts.apis.io/calm/authentication/calm-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

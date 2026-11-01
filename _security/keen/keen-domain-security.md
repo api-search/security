@@ -5,37 +5,37 @@ api_specs:
   label: Keen Cached Queries API
   slug: cached-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/openapi/keen-cached-queries-api-openapi.yml
+  url: https://artifacts.apis.io/keen/openapi/keen-cached-queries-api-openapi.yml
 - filename: keen-saved-queries-api-openapi.yml
   format: yaml
   label: Keen Saved Queries API
   slug: saved-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/openapi/keen-saved-queries-api-openapi.yml
+  url: https://artifacts.apis.io/keen/openapi/keen-saved-queries-api-openapi.yml
 - filename: keen-collections-api-openapi.yml
   format: yaml
   label: Keen Collections API
   slug: keen-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/openapi/keen-collections-api-openapi.yml
+  url: https://artifacts.apis.io/keen/openapi/keen-collections-api-openapi.yml
 - filename: keen-events-api-openapi.yml
   format: yaml
   label: Keen Events API
   slug: keen-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/openapi/keen-events-api-openapi.yml
+  url: https://artifacts.apis.io/keen/openapi/keen-events-api-openapi.yml
 - filename: keen-extractions-api-openapi.yml
   format: yaml
   label: Keen Extractions API
   slug: keen-extractions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/openapi/keen-extractions-api-openapi.yml
+  url: https://artifacts.apis.io/keen/openapi/keen-extractions-api-openapi.yml
 - filename: keen-queries-api-openapi.yml
   format: yaml
   label: Keen Queries API
   slug: keen-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/openapi/keen-queries-api-openapi.yml
+  url: https://artifacts.apis.io/keen/openapi/keen-queries-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: keen-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: keen.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 27 23:59:59 2026 GMT\n  hsts: false\n- host: api.keen.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 11 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: keen.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/security/keen-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/keen/security/keen-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Analytics

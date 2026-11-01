@@ -5,49 +5,49 @@ api_specs:
   label: Pulsoid Features API
   slug: pulsoid-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/openapi/pulsoid-features-api-openapi.yml
+  url: https://artifacts.apis.io/pulsoid/openapi/pulsoid-features-api-openapi.yml
 - filename: pulsoid-geometry-dash-api-openapi.yml
   format: yaml
   label: Pulsoid Geometry Dash API
   slug: pulsoid-geometry-dash-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/openapi/pulsoid-geometry-dash-api-openapi.yml
+  url: https://artifacts.apis.io/pulsoid/openapi/pulsoid-geometry-dash-api-openapi.yml
 - filename: pulsoid-heart-rate-api-openapi.yml
   format: yaml
   label: Pulsoid Heart Rate API
   slug: pulsoid-heart-rate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/openapi/pulsoid-heart-rate-api-openapi.yml
+  url: https://artifacts.apis.io/pulsoid/openapi/pulsoid-heart-rate-api-openapi.yml
 - filename: pulsoid-profile-api-openapi.yml
   format: yaml
   label: Pulsoid Profile API
   slug: pulsoid-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/openapi/pulsoid-profile-api-openapi.yml
+  url: https://artifacts.apis.io/pulsoid/openapi/pulsoid-profile-api-openapi.yml
 - filename: pulsoid-statistics-api-openapi.yml
   format: yaml
   label: Pulsoid Statistics API
   slug: pulsoid-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/openapi/pulsoid-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/pulsoid/openapi/pulsoid-statistics-api-openapi.yml
 - filename: pulsoid-token-api-openapi.yml
   format: yaml
   label: Pulsoid Token API
   slug: pulsoid-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/openapi/pulsoid-token-api-openapi.yml
+  url: https://artifacts.apis.io/pulsoid/openapi/pulsoid-token-api-openapi.yml
 - filename: pulsoid-widgets-api-openapi.yml
   format: yaml
   label: Pulsoid Widgets API
   slug: pulsoid-widgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/openapi/pulsoid-widgets-api-openapi.yml
+  url: https://artifacts.apis.io/pulsoid/openapi/pulsoid-widgets-api-openapi.yml
 - filename: pulsoid-oauth2-api-openapi.yml
   format: yaml
   label: Pulsoid O Auth2 API
   slug: pulsoid-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/openapi/pulsoid-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/pulsoid/openapi/pulsoid-oauth2-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -87,7 +87,7 @@ source_filename: pulsoid-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pulsoid.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 04:38:57 2026 GMT\n  hsts: false\n- host: docs.pulsoid.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 17:29:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: dev.pulsoid.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 20:58:57 2026 GMT\n  hsts: false\ndomains:\n- domain: pulsoid.net\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/security/pulsoid-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pulsoid/security/pulsoid-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Heart Rate

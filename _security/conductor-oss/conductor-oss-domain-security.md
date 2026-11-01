@@ -5,25 +5,25 @@ api_specs:
   label: Conductor OSS Events API
   slug: conductor-oss-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conductor-oss/refs/heads/main/openapi/conductor-oss-events-api-openapi.yml
+  url: https://artifacts.apis.io/conductor-oss/openapi/conductor-oss-events-api-openapi.yml
 - filename: conductor-oss-metadata-api-openapi.yml
   format: yaml
   label: Conductor OSS Metadata API
   slug: conductor-oss-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conductor-oss/refs/heads/main/openapi/conductor-oss-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/conductor-oss/openapi/conductor-oss-metadata-api-openapi.yml
 - filename: conductor-oss-tasks-api-openapi.yml
   format: yaml
   label: Conductor OSS Tasks API
   slug: conductor-oss-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conductor-oss/refs/heads/main/openapi/conductor-oss-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/conductor-oss/openapi/conductor-oss-tasks-api-openapi.yml
 - filename: conductor-oss-workflow-api-openapi.yml
   format: yaml
   label: Conductor OSS Workflow API
   slug: conductor-oss-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conductor-oss/refs/heads/main/openapi/conductor-oss-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/conductor-oss/openapi/conductor-oss-workflow-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: conductor-oss-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: conductor-oss.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  1 23:59:59 2026 GMT\n  hsts: false\n- host: cloud.orkes.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 23:22:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.conductor-oss.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 19 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\ndomains:\n- domain: conductor-oss.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: orkes.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/conductor-oss/refs/heads/main/security/conductor-oss-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/conductor-oss/security/conductor-oss-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI Agents

@@ -8,7 +8,7 @@ api_specs:
   label: Saleor GraphQL API
   slug: saleor-saleor-graphql-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saleor/refs/heads/main/openapi/saleor-saleor-graphql-api-api-openapi.yml
+  url: https://artifacts.apis.io/saleor/openapi/saleor-saleor-graphql-api-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -46,7 +46,7 @@ source_filename: saleor-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/saleor-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: User or app JWT issued by Saleor authentication mutations.\n  sources:\n  - openapi/saleor-openapi.yml\n- name: appToken\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: |-\n    Saleor App auth token, sent as `Authorization: Bearer <token>` and\n    scoped to the installed app's permissions.\n  sources:\n  - openapi/saleor-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/saleor/refs/heads/main/authentication/saleor-authentication.yml
+source_yaml_url: https://artifacts.apis.io/saleor/authentication/saleor-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Commerce

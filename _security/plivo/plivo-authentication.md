@@ -7,19 +7,19 @@ api_specs:
   label: Plivo Audio Stream API
   slug: plivo-audio-stream-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plivo/refs/heads/main/asyncapi/plivo-asyncapi.yml
+  url: https://artifacts.apis.io/plivo/asyncapi/plivo-asyncapi.yml
 - filename: plivo-account-api-openapi.yml
   format: yaml
   label: Plivo Account API
   slug: plivo-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plivo/refs/heads/main/openapi/plivo-account-api-openapi.yml
+  url: https://artifacts.apis.io/plivo/openapi/plivo-account-api-openapi.yml
 - filename: plivo-message-api-openapi.yml
   format: yaml
   label: Plivo Message API
   slug: plivo-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plivo/refs/heads/main/openapi/plivo-message-api-openapi.yml
+  url: https://artifacts.apis.io/plivo/openapi/plivo-message-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: plivo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/plivo-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic with Plivo Auth ID (username) and Auth Token (password).\n  sources:\n  - openapi/plivo-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plivo/refs/heads/main/authentication/plivo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/plivo/authentication/plivo-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Communications

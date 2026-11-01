@@ -33,7 +33,7 @@ source_filename: spoon-university-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: spoonuniversity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 21:30:46 2026 GMT\n  hsts: null\ndomains:\n- domain: spoonuniversity.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spoon-university/refs/heads/main/security/spoon-university-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/spoon-university/security/spoon-university-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

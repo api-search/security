@@ -32,7 +32,7 @@ source_filename: federal-committee-on-statistical-methodology-domain-security.ym
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: statspolicy.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 09:18:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: statspolicy.gov\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org; accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/73686273\"\n  - 0 issuewild \";\"\n  - 0 iodef \"mailto:DL.OMB.MAXExtCerts@omb.eop.gov\"\n  - 0 issue \"letsencrypt.org; accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/73686272\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/federal-committee-on-statistical-methodology/refs/heads/main/security/federal-committee-on-statistical-methodology-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/federal-committee-on-statistical-methodology/security/federal-committee-on-statistical-methodology-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Federal Government

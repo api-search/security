@@ -8,19 +8,19 @@ api_specs:
   label: Amazon CodeGuru Profiler Internal API
   slug: amazon-codeguru-profiler-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/openapi/amazon-codeguru-profiler-internal-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codeguru-profiler/openapi/amazon-codeguru-profiler-internal-api-openapi.yml
 - filename: amazon-codeguru-profiler-tags-api-openapi.yml
   format: yaml
   label: Amazon CodeGuru Profiler Tags API
   slug: amazon-codeguru-profiler-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/openapi/amazon-codeguru-profiler-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codeguru-profiler/openapi/amazon-codeguru-profiler-tags-api-openapi.yml
 - filename: amazon-codeguru-profiler-profiling-groups-api-openapi.yml
   format: yaml
   label: Amazon CodeGuru Profiler Profiling Groups API
   slug: amazon-codeguru-profiler-profiling-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/openapi/amazon-codeguru-profiler-profiling-groups-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codeguru-profiler/openapi/amazon-codeguru-profiler-profiling-groups-api-openapi.yml
 auth_types:
 - apiKey
 description: Authentication and authorization profile for Amazon CodeGuru Profiler. Every request is signed with AWS Signature Version 4 using IAM credentials — there is no API key, bearer token, OAuth flow or OIDC discovery document. Authorization is expressed as IAM actions on codeguru-profiler:*, plus an optional resource-based policy on each profiling group for cross-principal access.
@@ -54,7 +54,7 @@ source_yaml: "generated: '2026-09-01'\nmethod: searched\nsource: https://docs.aw
   \        - 'iam:ListUsers'\n      resource: '*'\n    - name: AmazonCodeGuruProfilerReadOnlyAccess\n      description: >-\n        Grants read-only access to CodeGuru Profiler and related resources in other AWS services.\n      actions:\n        - 'codeguru-profiler:Get*'\n        - 'codeguru-profiler:Describe*'\n        - 'codeguru-profiler:List*'\n        - 'codeguru:*'\n        - 'iam:ListRoles'\n        - 'iam:ListUsers'\n      resource: '*'\n    - name: AmazonCodeGuruProfilerAgentAccess\n      description: >-\n        Added to the execution role of AWS Lambda functions onboarded to CodeGuru Profiler via\n        the Lambda console monitoring page. Allows the agent to create a profiling group, refresh\n        its configuration and submit agent profiles.\n      actions:\n        - 'codeguru-profiler:ConfigureAgent'\n        - 'codeguru-profiler:CreateProfilingGroup'\n        - 'codeguru-profiler:PostAgentProfile'\n      resource: 'arn:aws:codeguru-profiler:*:*:profilingGroup/*'\n  \
   \    least_privilege: true\n      note: >-\n        This is the policy an autonomous agent workload should be given. It is the only one of\n        the three scoped to a resource ARN rather than '*', and it grants exactly the three\n        operations a running profiler needs — no read of findings, no delete.\n  resource_based_policy:\n    supported: true\n    operations:\n      - PutPermission\n      - GetPolicy\n      - RemovePermission\n    concurrency: revisionId (optimistic lock; ConflictException 409 on a stale revision)\n    note: >-\n      A profiling group can carry its own resource policy granting an actionGroup to named\n      principals, which is how cross-account agent submission is enabled without sharing IAM\n      credentials.\ndiscovery:\n  openid_configuration: null\n  oauth_authorization_server: null\n  note: >-\n    Probed 2026-09-01 on codeguru-profiler.us-east-1.amazonaws.com (403 SigV4 front door),\n    docs.aws.amazon.com (404) and aws.amazon.com (301 -> 404). No\
   \ OAuth/OIDC discovery document\n    exists, which is expected for a SigV4 service.\n  see: well-known/amazon-codeguru-profiler-well-known.yml\ndocs:\n  - https://docs.aws.amazon.com/codeguru/latest/profiler-ug/security-iam-awsmanpol.html\n  - https://docs.aws.amazon.com/codeguru/latest/profiler-api/CommonParameters.html\n  - https://docs.aws.amazon.com/codeguru/latest/profiler-api/API_PutPermission.html\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/authentication/amazon-codeguru-profiler-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-codeguru-profiler/authentication/amazon-codeguru-profiler-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Amazon

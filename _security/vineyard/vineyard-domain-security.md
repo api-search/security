@@ -5,37 +5,37 @@ api_specs:
   label: Vineyard Blobs API
   slug: vineyard-blobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/openapi/vineyard-blobs-api-openapi.yml
+  url: https://artifacts.apis.io/vineyard/openapi/vineyard-blobs-api-openapi.yml
 - filename: vineyard-connection-api-openapi.yml
   format: yaml
   label: Vineyard Connection API
   slug: vineyard-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/openapi/vineyard-connection-api-openapi.yml
+  url: https://artifacts.apis.io/vineyard/openapi/vineyard-connection-api-openapi.yml
 - filename: vineyard-metadata-api-openapi.yml
   format: yaml
   label: Vineyard Metadata API
   slug: vineyard-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/openapi/vineyard-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/vineyard/openapi/vineyard-metadata-api-openapi.yml
 - filename: vineyard-names-api-openapi.yml
   format: yaml
   label: Vineyard Names API
   slug: vineyard-names-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/openapi/vineyard-names-api-openapi.yml
+  url: https://artifacts.apis.io/vineyard/openapi/vineyard-names-api-openapi.yml
 - filename: vineyard-objects-api-openapi.yml
   format: yaml
   label: Vineyard Objects API
   slug: vineyard-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/openapi/vineyard-objects-api-openapi.yml
+  url: https://artifacts.apis.io/vineyard/openapi/vineyard-objects-api-openapi.yml
 - filename: vineyard-persistence-api-openapi.yml
   format: yaml
   label: Vineyard Persistence API
   slug: vineyard-persistence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/openapi/vineyard-persistence-api-openapi.yml
+  url: https://artifacts.apis.io/vineyard/openapi/vineyard-persistence-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: vineyard-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: v6d.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 07:58:51 2026 GMT\n  hsts: false\ndomains:\n- domain: v6d.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/security/vineyard-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vineyard/security/vineyard-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Big Data

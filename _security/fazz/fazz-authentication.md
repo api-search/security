@@ -7,19 +7,19 @@ api_specs:
   label: Fazz Disbursements API
   slug: fazz-disbursements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/openapi/fazz-disbursements-api-openapi.yml
+  url: https://artifacts.apis.io/fazz/openapi/fazz-disbursements-api-openapi.yml
 - filename: fazz-payment-methods-api-openapi.yml
   format: yaml
   label: Fazz Payment Methods API
   slug: fazz-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/openapi/fazz-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/fazz/openapi/fazz-payment-methods-api-openapi.yml
 - filename: fazz-payments-api-openapi.yml
   format: yaml
   label: Fazz Payments API
   slug: fazz-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/openapi/fazz-payments-api-openapi.yml
+  url: https://artifacts.apis.io/fazz/openapi/fazz-payments-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -47,7 +47,7 @@ source_filename: fazz-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: documented\nsource: https://docs.fazz.com/docs/authentication\nsummary:\n  types:\n  - http\nschemes:\n- name: basic_auth\n  type: http\n  scheme: basic\n  sources:\n  - https://docs.fazz.com/docs/authentication\n  notes: >-\n    HTTP Basic authentication. Provide your API key as the Basic auth\n    username and your secret key as the password\n    (base64(api_key:secret_key)) in the Authorization header. Live keys\n    start with `live_`; sandbox keys start with `test_`. All requests must\n    be made over HTTPS. Keys are generated on the Developer Tools page of\n    the Fazz Business dashboard; the secret key is shown only once.\n  example: 'curl https://www.xfers.io/api/v4/payments -u API_KEY:SECRET_KEY'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/authentication/fazz-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fazz/authentication/fazz-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Fintech

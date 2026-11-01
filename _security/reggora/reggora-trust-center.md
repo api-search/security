@@ -16,7 +16,7 @@ source_filename: reggora-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://security.reggora.com/\nurl: https://security.reggora.com/\ncertifications:\n- SOC 2\n- PCI DSS\nevidence:\n- source: https://security.reggora.com/\n  keywords:\n  - soc 2\n  - pci dss\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reggora/refs/heads/main/security/reggora-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/reggora/security/reggora-trust-center.yml
 summary_line: SOC 2, PCI DSS
 tags:
 - Appraisal Management

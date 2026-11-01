@@ -7,67 +7,67 @@ api_specs:
   label: Aetna Endpoint API
   slug: aetna-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-endpoint-api-openapi.yml
 - filename: aetna-location-api-openapi.yml
   format: yaml
   label: Aetna Location API
   slug: aetna-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-location-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-location-api-openapi.yml
 - filename: aetna-organization-api-openapi.yml
   format: yaml
   label: Aetna Organization API
   slug: aetna-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-organization-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-organization-api-openapi.yml
 - filename: aetna-organizationaffiliation-api-openapi.yml
   format: yaml
   label: Aetna Organization Affiliation API
   slug: aetna-organizationaffiliation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-organizationaffiliation-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-organizationaffiliation-api-openapi.yml
 - filename: aetna-practitioner-api-openapi.yml
   format: yaml
   label: Aetna Practitioner API
   slug: aetna-practitioner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-practitioner-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-practitioner-api-openapi.yml
 - filename: aetna-providerdirectorydata-api-openapi.yml
   format: yaml
   label: Aetna Providerdirectorydata API
   slug: aetna-providerdirectorydata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-providerdirectorydata-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-providerdirectorydata-api-openapi.yml
 - filename: aetna-patient-access-api-openapi.yml
   format: yaml
   label: Aetna Patient Access API
   slug: aetna-patient-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-patient-access-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-patient-access-api-openapi.yml
 - filename: aetna-provider-directory-api-openapi.yml
   format: yaml
   label: Aetna Provider Directory API
   slug: aetna-provider-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-provider-directory-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-provider-directory-api-openapi.yml
 - filename: aetna-healthcare-service-api-openapi.yml
   format: yaml
   label: Aetna Healthcare Service API
   slug: aetna-healthcare-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-healthcare-service-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-healthcare-service-api-openapi.yml
 - filename: aetna-insurance-plan-api-openapi.yml
   format: yaml
   label: Aetna Insurance Plan API
   slug: aetna-insurance-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-insurance-plan-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-insurance-plan-api-openapi.yml
 - filename: aetna-practitioner-role-api-openapi.yml
   format: yaml
   label: Aetna Practitioner Role API
   slug: aetna-practitioner-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-practitioner-role-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-practitioner-role-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-08-30'\nmethod: searched\nsource: openapi/aetna-*
   \  sandbox:\n    authorize: https://vteapif1.aetna.com/fhirdemo/v1/fhirserver_auth/oauth2/authorize\n    token: https://vteapif1.aetna.com/fhirdemo/v1/fhirserver_auth/oauth2/token\n    discovery: https://vteapif1.aetna.com/fhirdemo/.well-known/smart-configuration\n  discrepancy_note: Aetna publishes two different paths for the same endpoints. The live smart-configuration\n    documents give /fhir/prod/v1/fhirserver_auth/... ; the CapabilityStatements and Aetna's own Token Generation\n    PDF give /fhir/v1/fhirserver_auth/... . Both are recorded as served. A client should read the smart-configuration\n    at runtime rather than hard-coding either.\nclient_authentication: client_secret_basic (Client ID and Secret sent as an HTTP Basic header)\npkce:\n  required_for: public clients\n  code_challenge_methods_supported:\n  - S256\nanonymous_access:\n  available: false\n  note: 'Nothing in Aetna''s API surface is callable anonymously. Even the provider directory, which carries\n    no member\
   \ data and which several peer payers expose openly, declares oauth2 on every operation. Two things\n    ARE anonymously readable and are the only unauthenticated surface: the two FHIR CapabilityStatements at\n    /metadata and the two smart-configuration documents.'\nregistration:\n  model: portal registration, then per-application, then per-product subscription\n  portal: https://developerportal.aetna.com/\n  applicant_types:\n  - third-party developer application\n  - payer (payer-to-payer data exchange)\n  - EHR application\n  - provider system\n  - ECS Provider organization (added 2026-08-19)\n  note: A call to a product the application is not subscribed to returns 401, per Aetna's own error reference.\n    Production applications go through a review, not a purchase; the production-access mailbox is AetnaInteroperabilityProductionAccess@AETNA.com.\nidentity_assurance:\n  ial2_supported: true\n  since: '2026-06-25'\n  credential_service_providers:\n  - CLEAR\n  - ID.me\n  standard:\
   \ NIST SP 800-63A Identity Assurance Level 2\n  note: Optional. The alternative Aetna calls \"Well-Known Authentication\" uses the member's Aetna username\n    and password. IAL2 applications cannot use the Sandbox environment.\nspec_template_warning: Every published Swagger declares its oauth2 tokenUrl/authorizationUrl as the un-substituted\n  IBM API Connect template https://$(catalog.url)/... - a literal placeholder, not a URL. Any tool that generates\n  a client straight from Aetna's Swagger will emit a broken auth configuration. The endpoints block above carries\n  the real values.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/authentication/aetna-authentication.yml
+source_yaml_url: https://artifacts.apis.io/aetna/authentication/aetna-authentication.yml
 summary_line: oauth2 · 2 schemes
 tags:
 - Health Insurance

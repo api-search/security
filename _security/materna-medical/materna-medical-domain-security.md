@@ -43,7 +43,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml hosts (www.maternamedical.com corporate site, www.hellomilli.com Milli storefront)\nnote: >-\n  Materna Medical publishes no API host, so there is no API surface to probe here; these are the\n  two public web properties named in apis.yml. www.maternamedical.com is WordPress on WP Engine;\n  www.hellomilli.com is WooCommerce behind Cloudflare. Neither domain publishes DMARC enforcement\n  (hellomilli.com is p=none, maternamedical.com has no _dmarc record at all), neither publishes a\n  CAA record, and neither is DNSSEC-signed.\nhosts:\n- host: www.maternamedical.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 11:33:17 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: www.hellomilli.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 17:51:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  hsts_include_subdomains: true\n  hsts_preload: true\n  cdn:\
   \ cloudflare\ndomains:\n- domain: maternamedical.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: hellomilli.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/materna-medical/refs/heads/main/security/materna-medical-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/materna-medical/security/materna-medical-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

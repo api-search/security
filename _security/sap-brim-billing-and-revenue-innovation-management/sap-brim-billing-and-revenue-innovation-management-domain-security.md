@@ -5,61 +5,61 @@ api_specs:
   label: SAP BRIM (Billing and Revenue Innovation Management) Balances API
   slug: sap-brim-billing-and-revenue-innovation-management-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/openapi/sap-brim-billing-and-revenue-innovation-management-balances-api-openapi.yml
+  url: https://artifacts.apis.io/sap-brim-billing-and-revenue-innovation-management/openapi/sap-brim-billing-and-revenue-innovation-management-balances-api-openapi.yml
 - filename: sap-brim-billing-and-revenue-innovation-management-billing-api-openapi.yml
   format: yaml
   label: SAP BRIM (Billing and Revenue Innovation Management) Billing API
   slug: sap-brim-billing-and-revenue-innovation-management-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/openapi/sap-brim-billing-and-revenue-innovation-management-billing-api-openapi.yml
+  url: https://artifacts.apis.io/sap-brim-billing-and-revenue-innovation-management/openapi/sap-brim-billing-and-revenue-innovation-management-billing-api-openapi.yml
 - filename: sap-brim-billing-and-revenue-innovation-management-charging-api-openapi.yml
   format: yaml
   label: SAP BRIM (Billing and Revenue Innovation Management) Charging API
   slug: sap-brim-billing-and-revenue-innovation-management-charging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/openapi/sap-brim-billing-and-revenue-innovation-management-charging-api-openapi.yml
+  url: https://artifacts.apis.io/sap-brim-billing-and-revenue-innovation-management/openapi/sap-brim-billing-and-revenue-innovation-management-charging-api-openapi.yml
 - filename: sap-brim-billing-and-revenue-innovation-management-customers-api-openapi.yml
   format: yaml
   label: SAP BRIM (Billing and Revenue Innovation Management) Customers API
   slug: sap-brim-billing-and-revenue-innovation-management-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/openapi/sap-brim-billing-and-revenue-innovation-management-customers-api-openapi.yml
+  url: https://artifacts.apis.io/sap-brim-billing-and-revenue-innovation-management/openapi/sap-brim-billing-and-revenue-innovation-management-customers-api-openapi.yml
 - filename: sap-brim-billing-and-revenue-innovation-management-plans-api-openapi.yml
   format: yaml
   label: SAP BRIM (Billing and Revenue Innovation Management) Plans API
   slug: sap-brim-billing-and-revenue-innovation-management-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/openapi/sap-brim-billing-and-revenue-innovation-management-plans-api-openapi.yml
+  url: https://artifacts.apis.io/sap-brim-billing-and-revenue-innovation-management/openapi/sap-brim-billing-and-revenue-innovation-management-plans-api-openapi.yml
 - filename: sap-brim-billing-and-revenue-innovation-management-pricing-api-openapi.yml
   format: yaml
   label: SAP BRIM (Billing and Revenue Innovation Management) Pricing API
   slug: sap-brim-billing-and-revenue-innovation-management-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/openapi/sap-brim-billing-and-revenue-innovation-management-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/sap-brim-billing-and-revenue-innovation-management/openapi/sap-brim-billing-and-revenue-innovation-management-pricing-api-openapi.yml
 - filename: sap-brim-billing-and-revenue-innovation-management-rating-api-openapi.yml
   format: yaml
   label: SAP BRIM (Billing and Revenue Innovation Management) Rating API
   slug: sap-brim-billing-and-revenue-innovation-management-rating-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/openapi/sap-brim-billing-and-revenue-innovation-management-rating-api-openapi.yml
+  url: https://artifacts.apis.io/sap-brim-billing-and-revenue-innovation-management/openapi/sap-brim-billing-and-revenue-innovation-management-rating-api-openapi.yml
 - filename: sap-brim-billing-and-revenue-innovation-management-subscription-items-api-openapi.yml
   format: yaml
   label: SAP BRIM (Billing and Revenue Innovation Management) Subscription Items API
   slug: sap-brim-billing-and-revenue-innovation-management-subscription-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/openapi/sap-brim-billing-and-revenue-innovation-management-subscription-items-api-openapi.yml
+  url: https://artifacts.apis.io/sap-brim-billing-and-revenue-innovation-management/openapi/sap-brim-billing-and-revenue-innovation-management-subscription-items-api-openapi.yml
 - filename: sap-brim-billing-and-revenue-innovation-management-subscriptions-api-openapi.yml
   format: yaml
   label: SAP BRIM (Billing and Revenue Innovation Management) Subscriptions API
   slug: sap-brim-billing-and-revenue-innovation-management-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/openapi/sap-brim-billing-and-revenue-innovation-management-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/sap-brim-billing-and-revenue-innovation-management/openapi/sap-brim-billing-and-revenue-innovation-management-subscriptions-api-openapi.yml
 - filename: sap-brim-billing-and-revenue-innovation-management-usage-events-api-openapi.yml
   format: yaml
   label: SAP BRIM (Billing and Revenue Innovation Management) Usage Events API
   slug: sap-brim-billing-and-revenue-innovation-management-usage-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/openapi/sap-brim-billing-and-revenue-innovation-management-usage-events-api-openapi.yml
+  url: https://artifacts.apis.io/sap-brim-billing-and-revenue-innovation-management/openapi/sap-brim-billing-and-revenue-innovation-management-usage-events-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -99,7 +99,7 @@ source_filename: sap-brim-billing-and-revenue-innovation-management-domain-secur
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.sap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 28 23:59:59 2027 GMT\n  hsts: null\n- host: www.sap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 13 23:59:59 2027 GMT\n  hsts: null\n- host: help.sap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: sap.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/security/sap-brim-billing-and-revenue-innovation-management-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sap-brim-billing-and-revenue-innovation-management/security/sap-brim-billing-and-revenue-innovation-management-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Billing

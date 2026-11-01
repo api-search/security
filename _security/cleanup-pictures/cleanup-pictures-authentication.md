@@ -8,7 +8,7 @@ api_specs:
   label: Cleanup.pictures Cleanup API
   slug: cleanup-pictures-cleanup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cleanup-pictures/refs/heads/main/openapi/cleanup-pictures-cleanup-api-openapi.yml
+  url: https://artifacts.apis.io/cleanup-pictures/openapi/cleanup-pictures-cleanup-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: cleanup-pictures-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cleanup-pictures-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: ClipDrop API key. Obtain via contact@clipdrop.co.\n  sources:\n  - openapi/cleanup-pictures-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cleanup-pictures/refs/heads/main/authentication/cleanup-pictures-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cleanup-pictures/authentication/cleanup-pictures-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence

@@ -1,53 +1,59 @@
 ---
 api_specs:
+- filename: nexi-openapi-generated.yml
+  format: yaml
+  label: Nexi API
+  slug: nexi-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexi/openapi/_ae-authored/nexi-openapi-generated.yml
 - filename: nexi-build-api-openapi.yml
   format: yaml
   label: Nexi Build API
   slug: nexi-build-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexi/refs/heads/main/openapi/nexi-build-api-openapi.yml
+  url: https://artifacts.apis.io/nexi/openapi/nexi-build-api-openapi.yml
 - filename: nexi-contract-api-openapi.yml
   format: yaml
   label: Nexi Contract API
   slug: nexi-contract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexi/refs/heads/main/openapi/nexi-contract-api-openapi.yml
+  url: https://artifacts.apis.io/nexi/openapi/nexi-contract-api-openapi.yml
 - filename: nexi-contracts-api-openapi.yml
   format: yaml
   label: Nexi Contracts API
   slug: nexi-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexi/refs/heads/main/openapi/nexi-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/nexi/openapi/nexi-contracts-api-openapi.yml
 - filename: nexi-nexi-api-api-openapi.yml
   format: yaml
   label: Nexi Nexi API
   slug: nexi-nexi-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexi/refs/heads/main/openapi/nexi-nexi-api-api-openapi.yml
+  url: https://artifacts.apis.io/nexi/openapi/nexi-nexi-api-api-openapi.yml
 - filename: nexi-operations-api-openapi.yml
   format: yaml
   label: Nexi Operations API
   slug: nexi-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexi/refs/heads/main/openapi/nexi-operations-api-openapi.yml
+  url: https://artifacts.apis.io/nexi/openapi/nexi-operations-api-openapi.yml
 - filename: nexi-orders-api-openapi.yml
   format: yaml
   label: Nexi Orders API
   slug: nexi-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexi/refs/heads/main/openapi/nexi-orders-api-openapi.yml
+  url: https://artifacts.apis.io/nexi/openapi/nexi-orders-api-openapi.yml
 - filename: nexi-paybylink-api-openapi.yml
   format: yaml
   label: Nexi Paybylink API
   slug: nexi-paybylink-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexi/refs/heads/main/openapi/nexi-paybylink-api-openapi.yml
+  url: https://artifacts.apis.io/nexi/openapi/nexi-paybylink-api-openapi.yml
 - filename: nexi-payment-methods-api-openapi.yml
   format: yaml
   label: Nexi Payment Methods API
   slug: nexi-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexi/refs/heads/main/openapi/nexi-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/nexi/openapi/nexi-payment-methods-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +82,7 @@ source_filename: nexi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nexigroup.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  1 07:21:32 2027 GMT\n  hsts: false\ndomains:\n- domain: nexigroup.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nexi/refs/heads/main/security/nexi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nexi/security/nexi-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

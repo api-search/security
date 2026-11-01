@@ -5,25 +5,25 @@ api_specs:
   label: Gallop Ethereum API
   slug: gallop-ethereum-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gallop/refs/heads/main/openapi/gallop-ethereum-api-openapi.yml
+  url: https://artifacts.apis.io/gallop/openapi/gallop-ethereum-api-openapi.yml
 - filename: gallop-polygon-api-openapi.yml
   format: yaml
   label: Gallop Polygon API
   slug: gallop-polygon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gallop/refs/heads/main/openapi/gallop-polygon-api-openapi.yml
+  url: https://artifacts.apis.io/gallop/openapi/gallop-polygon-api-openapi.yml
 - filename: gallop-solana-api-openapi.yml
   format: yaml
   label: Gallop Solana API
   slug: gallop-solana-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gallop/refs/heads/main/openapi/gallop-solana-api-openapi.yml
+  url: https://artifacts.apis.io/gallop/openapi/gallop-solana-api-openapi.yml
 - filename: gallop-starknet-api-openapi.yml
   format: yaml
   label: Gallop Starknet API
   slug: gallop-starknet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gallop/refs/heads/main/openapi/gallop-starknet-api-openapi.yml
+  url: https://artifacts.apis.io/gallop/openapi/gallop-starknet-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -56,7 +56,7 @@ source_filename: gallop-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: higallop.com\n  https: false\n- host: api.prod.gallop.run\n  https: false\ndomains:\n- domain: higallop.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: gallop.run\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gallop/refs/heads/main/security/gallop-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gallop/security/gallop-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

@@ -40,7 +40,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: probe (curl + dig) of wutwut.com; probe-domain-security.py reported host unreachable over HTTPS\nnote: >-\n  wutwut.com is a suspended/parked domain. HTTPS (port 443) refuses connections;\n  HTTP serves a Key-Systems GmbH registrar \"ICANN contact verification suspension\"\n  page (Last-Modified 2021-04-08) as a catch-all for every path. The DNS zone is\n  delegated to the registrar's suspension nameservers (ns1/ns2.emailverification.info).\n  Absence of records below is real probed data.\nhosts:\n  - host: wutwut.com\n    ip: 94.23.162.163\n    https: false\n    https_error: connection refused (port 443)\n    http_status: 200\n    http_note: registrar suspension page (nginx/1.18.0 Ubuntu), catch-all for all paths\n    tls_version: null\n    hsts: false\n  - host: www.wutwut.com\n    ip: 94.23.162.163\n    https: false\n    https_error: connection refused (port 443)\n    http_status: 200\ndomains:\n  - domain: wutwut.com\n  \
   \  nameservers: [ns1.emailverification.info, ns2.emailverification.info]\n    dnssec: false\n    caa: []\n    spf: false\n    dmarc: false\n    dmarc_policy: null\n    mx: []\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wutwut/refs/heads/main/security/wutwut-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wutwut/security/wutwut-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

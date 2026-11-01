@@ -5,55 +5,55 @@ api_specs:
   label: Threads Authorization API
   slug: threads-api-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threads-api/refs/heads/main/openapi/threads-api-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/threads-api/openapi/threads-api-authorization-api-openapi.yml
 - filename: threads-api-post-to-threads-quote-threads-posts-api-openapi.yml
   format: yaml
   label: Threads Post to Threads > Quote Threads Posts API
   slug: threads-api-post-to-threads-quote-threads-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threads-api/refs/heads/main/openapi/threads-api-post-to-threads-quote-threads-posts-api-openapi.yml
+  url: https://artifacts.apis.io/threads-api/openapi/threads-api-post-to-threads-quote-threads-posts-api-openapi.yml
 - filename: threads-api-post-to-threads-repost-threads-posts-api-openapi.yml
   format: yaml
   label: Threads Post to Threads > Repost Threads Posts API
   slug: threads-api-post-to-threads-repost-threads-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threads-api/refs/heads/main/openapi/threads-api-post-to-threads-repost-threads-posts-api-openapi.yml
+  url: https://artifacts.apis.io/threads-api/openapi/threads-api-post-to-threads-repost-threads-posts-api-openapi.yml
 - filename: threads-api-read-and-manage-threads-read-and-manage-threads-replies-api-openapi.yml
   format: yaml
   label: Threads Read And Manage Threads > Read and Manage Threads Replies API
   slug: threads-api-read-and-manage-threads-read-and-manage-threads-replies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threads-api/refs/heads/main/openapi/threads-api-read-and-manage-threads-read-and-manage-threads-replies-api-openapi.yml
+  url: https://artifacts.apis.io/threads-api/openapi/threads-api-read-and-manage-threads-read-and-manage-threads-replies-api-openapi.yml
 - filename: threads-api-read-and-manage-threads-read-replies-media-objects-api-openapi.yml
   format: yaml
   label: Threads Read And Manage Threads > Read Replies Media Objects API
   slug: threads-api-read-and-manage-threads-read-replies-media-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threads-api/refs/heads/main/openapi/threads-api-read-and-manage-threads-read-replies-media-objects-api-openapi.yml
+  url: https://artifacts.apis.io/threads-api/openapi/threads-api-read-and-manage-threads-read-replies-media-objects-api-openapi.yml
 - filename: threads-api-read-and-manage-threads-read-threads-insights-api-openapi.yml
   format: yaml
   label: Threads Read And Manage Threads > Read Threads Insights API
   slug: threads-api-read-and-manage-threads-read-threads-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threads-api/refs/heads/main/openapi/threads-api-read-and-manage-threads-read-threads-insights-api-openapi.yml
+  url: https://artifacts.apis.io/threads-api/openapi/threads-api-read-and-manage-threads-read-threads-insights-api-openapi.yml
 - filename: threads-api-read-and-manage-threads-retrieve-threads-media-objects-api-openapi.yml
   format: yaml
   label: Threads Read And Manage Threads > Retrieve Threads Media Objects API
   slug: threads-api-read-and-manage-threads-retrieve-threads-media-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threads-api/refs/heads/main/openapi/threads-api-read-and-manage-threads-retrieve-threads-media-objects-api-openapi.yml
+  url: https://artifacts.apis.io/threads-api/openapi/threads-api-read-and-manage-threads-retrieve-threads-media-objects-api-openapi.yml
 - filename: threads-api-read-and-manage-threads-retrieve-threads-profiles-api-openapi.yml
   format: yaml
   label: Threads Read And Manage Threads > Retrieve Threads Profiles API
   slug: threads-api-read-and-manage-threads-retrieve-threads-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threads-api/refs/heads/main/openapi/threads-api-read-and-manage-threads-retrieve-threads-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/threads-api/openapi/threads-api-read-and-manage-threads-retrieve-threads-profiles-api-openapi.yml
 - filename: threads-api-troubleshooting-api-openapi.yml
   format: yaml
   label: Threads Troubleshooting API
   slug: threads-api-troubleshooting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threads-api/refs/heads/main/openapi/threads-api-troubleshooting-api-openapi.yml
+  url: https://artifacts.apis.io/threads-api/openapi/threads-api-troubleshooting-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -88,7 +88,7 @@ source_filename: threads-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.threads.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 19 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: graph.threads.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 19 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: threads.net\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com; account=271b0beda0771d006aa3a6c11b05187d456d6c239b46cb5241196095b09c92af\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/threads-api/refs/heads/main/security/threads-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/threads-api/security/threads-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Social

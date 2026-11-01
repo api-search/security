@@ -5,43 +5,43 @@ api_specs:
   label: GP Connect Appointment API
   slug: gp-connect-appointment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gp-connect/refs/heads/main/openapi/gp-connect-appointment-api-openapi.yml
+  url: https://artifacts.apis.io/gp-connect/openapi/gp-connect-appointment-api-openapi.yml
 - filename: gp-connect-documents-api-openapi.yml
   format: yaml
   label: GP Connect Documents API
   slug: gp-connect-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gp-connect/refs/heads/main/openapi/gp-connect-documents-api-openapi.yml
+  url: https://artifacts.apis.io/gp-connect/openapi/gp-connect-documents-api-openapi.yml
 - filename: gp-connect-fhir-api-openapi.yml
   format: yaml
   label: GP Connect FHIR API
   slug: gp-connect-fhir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gp-connect/refs/heads/main/openapi/gp-connect-fhir-api-openapi.yml
+  url: https://artifacts.apis.io/gp-connect/openapi/gp-connect-fhir-api-openapi.yml
 - filename: gp-connect-meta-api-openapi.yml
   format: yaml
   label: GP Connect Meta API
   slug: gp-connect-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gp-connect/refs/heads/main/openapi/gp-connect-meta-api-openapi.yml
+  url: https://artifacts.apis.io/gp-connect/openapi/gp-connect-meta-api-openapi.yml
 - filename: gp-connect-patient-api-openapi.yml
   format: yaml
   label: GP Connect Patient API
   slug: gp-connect-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gp-connect/refs/heads/main/openapi/gp-connect-patient-api-openapi.yml
+  url: https://artifacts.apis.io/gp-connect/openapi/gp-connect-patient-api-openapi.yml
 - filename: gp-connect-slot-api-openapi.yml
   format: yaml
   label: GP Connect Slot API
   slug: gp-connect-slot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gp-connect/refs/heads/main/openapi/gp-connect-slot-api-openapi.yml
+  url: https://artifacts.apis.io/gp-connect/openapi/gp-connect-slot-api-openapi.yml
 - filename: gp-connect-task-api-openapi.yml
   format: yaml
   label: GP Connect Task API
   slug: gp-connect-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gp-connect/refs/heads/main/openapi/gp-connect-task-api-openapi.yml
+  url: https://artifacts.apis.io/gp-connect/openapi/gp-connect-task-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -80,7 +80,7 @@ source_filename: gp-connect-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: digital.nhs.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 21:58:44 2026 GMT\n  hsts: null\n- host: sandbox.api.service.nhs.uk\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  2 23:59:59 2027 GMT\n  hsts: null\n- host: int.api.service.nhs.uk\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 24 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: nhs.uk\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gp-connect/refs/heads/main/security/gp-connect-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gp-connect/security/gp-connect-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - NHS

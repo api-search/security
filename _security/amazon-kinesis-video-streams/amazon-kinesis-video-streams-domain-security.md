@@ -5,13 +5,19 @@ api_specs:
   label: Amazon Kinesis Video Streams Signaling Channels API
   slug: amazon-kinesis-video-streams-signaling-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis-video-streams/refs/heads/main/openapi/amazon-kinesis-video-streams-signaling-channels-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-kinesis-video-streams/openapi/amazon-kinesis-video-streams-signaling-channels-api-openapi.yml
 - filename: amazon-kinesis-video-streams-streams-api-openapi.yml
   format: yaml
   label: Amazon Kinesis Video Streams API
   slug: amazon-kinesis-video-streams-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis-video-streams/refs/heads/main/openapi/amazon-kinesis-video-streams-streams-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-kinesis-video-streams/openapi/amazon-kinesis-video-streams-streams-api-openapi.yml
+- filename: amazon-kinesis-video-streams-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Kinesis Video Streams Kinesis Video Streams Operations API
+  slug: amazon-kinesis-video-streams-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kinesis-video-streams/openapi/amazon-kinesis-video-streams-operations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -54,7 +60,7 @@ source_filename: amazon-kinesis-video-streams-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: kinesisvideo.amazonaws.com\n  https: false\n- host: kinesisvideo.us-east-1.amazonaws.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 19 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis-video-streams/refs/heads/main/security/amazon-kinesis-video-streams-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amazon-kinesis-video-streams/security/amazon-kinesis-video-streams-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - IoT

@@ -5,19 +5,19 @@ api_specs:
   label: Salesforce Flow Definitions API
   slug: salesforce-flow-flow-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/openapi/salesforce-flow-flow-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-flow/openapi/salesforce-flow-flow-definitions-api-openapi.yml
 - filename: salesforce-flow-flow-interviews-api-openapi.yml
   format: yaml
   label: Salesforce Flow Interviews API
   slug: salesforce-flow-flow-interviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/openapi/salesforce-flow-flow-interviews-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-flow/openapi/salesforce-flow-flow-interviews-api-openapi.yml
 - filename: salesforce-flow-invocable-actions-api-openapi.yml
   format: yaml
   label: Salesforce Flow Invocable Actions API
   slug: salesforce-flow-invocable-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/openapi/salesforce-flow-invocable-actions-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-flow/openapi/salesforce-flow-invocable-actions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -48,7 +48,7 @@ source_filename: salesforce-flow-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.salesforce.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 23:59:59 2026 GMT\n  hsts: null\n- host: yourinstance.salesforce.com\n  https: false\ndomains:\n- domain: salesforce.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/security/salesforce-flow-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/salesforce-flow/security/salesforce-flow-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Automation

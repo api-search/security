@@ -7,55 +7,55 @@ api_specs:
   label: Tap Payments Authorize API
   slug: tap-payments-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-authorize-api-openapi.yml
+  url: https://artifacts.apis.io/tap-payments/openapi/tap-payments-authorize-api-openapi.yml
 - filename: tap-payments-business-api-openapi.yml
   format: yaml
   label: Tap Payments Business API
   slug: tap-payments-business-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-business-api-openapi.yml
+  url: https://artifacts.apis.io/tap-payments/openapi/tap-payments-business-api-openapi.yml
 - filename: tap-payments-cards-api-openapi.yml
   format: yaml
   label: Tap Payments Cards API
   slug: tap-payments-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-cards-api-openapi.yml
+  url: https://artifacts.apis.io/tap-payments/openapi/tap-payments-cards-api-openapi.yml
 - filename: tap-payments-charges-api-openapi.yml
   format: yaml
   label: Tap Payments Charges API
   slug: tap-payments-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-charges-api-openapi.yml
+  url: https://artifacts.apis.io/tap-payments/openapi/tap-payments-charges-api-openapi.yml
 - filename: tap-payments-customers-api-openapi.yml
   format: yaml
   label: Tap Payments Customers API
   slug: tap-payments-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-customers-api-openapi.yml
+  url: https://artifacts.apis.io/tap-payments/openapi/tap-payments-customers-api-openapi.yml
 - filename: tap-payments-invoices-api-openapi.yml
   format: yaml
   label: Tap Payments Invoices API
   slug: tap-payments-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/tap-payments/openapi/tap-payments-invoices-api-openapi.yml
 - filename: tap-payments-payouts-api-openapi.yml
   format: yaml
   label: Tap Payments Payouts API
   slug: tap-payments-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/tap-payments/openapi/tap-payments-payouts-api-openapi.yml
 - filename: tap-payments-refunds-api-openapi.yml
   format: yaml
   label: Tap Payments Refunds API
   slug: tap-payments-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/tap-payments/openapi/tap-payments-refunds-api-openapi.yml
 - filename: tap-payments-tokens-api-openapi.yml
   format: yaml
   label: Tap Payments Tokens API
   slug: tap-payments-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/tap-payments/openapi/tap-payments-tokens-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -83,7 +83,7 @@ source_filename: tap-payments-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: derived\nsource: openapi/tap-payments-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Secret API key passed as a Bearer token: `Authorization: Bearer [example key]`\n    (test) or `Authorization: Bearer [example key]` (live). Keys are issued from the\n    Tap dashboard, with separate keys per mode. The secret key must remain\n    server-side; a publishable key (pk_test_ / pk_live_) is used for client-side\n    tokenization only.'\n  sources:\n  - openapi/tap-payments-openapi.yml\n  - https://developers.tap.company/reference/api-endpoint\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/authentication/tap-payments-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tap-payments/authentication/tap-payments-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Payments

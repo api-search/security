@@ -7,13 +7,13 @@ api_specs:
   label: Near Space Labs Tile API
   slug: near-space-labs-tile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/near-space-labs/refs/heads/main/openapi/near-space-labs-tile-api-openapi.yml
+  url: https://artifacts.apis.io/near-space-labs/openapi/near-space-labs-tile-api-openapi.yml
 - filename: near-space-labs-oauth-api-openapi.yml
   format: yaml
   label: Near Space Labs OAUTH API
   slug: near-space-labs-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/near-space-labs/refs/heads/main/openapi/near-space-labs-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/near-space-labs/openapi/near-space-labs-oauth-api-openapi.yml
 auth_types: []
 description: 'Every Near Space Labs API endpoint is authenticated. There are two credential shapes, both minted from the same NSL client id + client secret pair: a 60-minute OAuth 2.0 client-credentials Bearer JWT, and a one-year static API key passed in the query string. Credentials are issued by Near Space Labs sales/onboarding — there is no self-service signup.'
 kind: authentication
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-08-26'\nmethod: searched\nsource: >-\n  https://d
   \ by the client. `scopes/` is\n      therefore intentionally not emitted for this provider.\n    docs: https://docs.nearspacelabs.com/authentication\n  - id: static_api_key\n    type: apiKey\n    in: query\n    name: api_key\n    token_endpoint: https://api.nearspacelabs.net/oauth/static_key\n    request_fields:\n      client_id: Your NSL client id (required)\n      client_secret: Your NSL client secret (required)\n    response_fields:\n      api_key: A long-lived signed JWT\n      expires_in: 31536000 (seconds — one year)\n      token_type: Bearer\n    presented_as: '?api_key=<api_key> appended to any authenticated request URL'\n    ttl_seconds: 31536000\n    example_usage: https://api.nearspacelabs.net/tile/v2/{surveyid}/{z}/{x}/{y}?api_key=<api_key>\n    intended_for: >-\n      Embedding tiles in a web map, sharing a demo, or any client with no token-refresh logic.\n    parity: >-\n      \"The key carries the same permissions and contract as your OAuth tokens, so it works anywhere\n\
   \      a Bearer token does.\" — docs.nearspacelabs.com/authentication\n    docs: https://docs.nearspacelabs.com/authentication\n    provider_warning: >-\n      Quoted verbatim from the docs: \"A static key is a bearer credential that lives for a year and\n      travels in the URL, where it can end up in server logs and browser history. Treat it like a\n      password and reissue it if it leaks.\"\ncredential_issuance:\n  self_service: false\n  route: https://www.nearspacelabs.com/contact\n  note: >-\n    NSL_ID / NSL_SECRET are provisioned through sales onboarding. No developer sign-up, no free\n    tier, no key-provisioning endpoint is published.\nfailure_modes:\n  '401': Token missing, expired, or invalid — or an incorrect NSL_ID / NSL_SECRET on /oauth/token.\n  '403': Authenticated but insufficient permissions for the resource.\ndiscovery:\n  openid_configuration: null\n  oauth_authorization_server: null\n  note: >-\n    No /.well-known/openid-configuration and no /.well-known/oauth-authorization-server\
   \ on any host\n    (all 404 — see well-known/near-space-labs-well-known.yml). The token endpoint is discoverable\n    only from prose docs and the OAuth Service Swagger contract.\nspec_gap:\n  observed: >-\n    Neither published Swagger 2.0 document declares `securityDefinitions`, and no operation carries a\n    `security` block, even though the OAuth Service description states \"Authentication is required for\n    all endpoints\" and every tile operation documents 401/403 responses.\n  consequence: >-\n    A code generator or agent reading either contract in isolation would generate an unauthenticated\n    client. Captured as an enhancement in overlays/near-space-labs-tile-service-overlay.yaml and\n    overlays/near-space-labs-oauth-service-overlay.yaml.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/near-space-labs/refs/heads/main/authentication/near-space-labs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/near-space-labs/authentication/near-space-labs-authentication.yml
 summary_line: 2 schemes
 tags:
 - Company

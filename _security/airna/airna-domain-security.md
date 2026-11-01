@@ -27,7 +27,7 @@ source_filename: airna-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: airna.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 16:57:04 2026 GMT\n  hsts: false\ndomains:\n- domain: airna.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airna/refs/heads/main/security/airna-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/airna/security/airna-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

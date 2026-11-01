@@ -5,49 +5,55 @@ api_specs:
   label: Amazon MediaConvert Certificates API
   slug: amazon-mediaconvert-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/openapi/amazon-mediaconvert-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediaconvert/openapi/amazon-mediaconvert-certificates-api-openapi.yml
 - filename: amazon-mediaconvert-endpoints-api-openapi.yml
   format: yaml
   label: Amazon MediaConvert Endpoints API
   slug: amazon-mediaconvert-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/openapi/amazon-mediaconvert-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediaconvert/openapi/amazon-mediaconvert-endpoints-api-openapi.yml
 - filename: amazon-mediaconvert-jobs-api-openapi.yml
   format: yaml
   label: Amazon MediaConvert Jobs API
   slug: amazon-mediaconvert-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/openapi/amazon-mediaconvert-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediaconvert/openapi/amazon-mediaconvert-jobs-api-openapi.yml
 - filename: amazon-mediaconvert-policy-api-openapi.yml
   format: yaml
   label: Amazon MediaConvert Policy API
   slug: amazon-mediaconvert-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/openapi/amazon-mediaconvert-policy-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediaconvert/openapi/amazon-mediaconvert-policy-api-openapi.yml
 - filename: amazon-mediaconvert-presets-api-openapi.yml
   format: yaml
   label: Amazon MediaConvert Presets API
   slug: amazon-mediaconvert-presets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/openapi/amazon-mediaconvert-presets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediaconvert/openapi/amazon-mediaconvert-presets-api-openapi.yml
 - filename: amazon-mediaconvert-queues-api-openapi.yml
   format: yaml
   label: Amazon MediaConvert Queues API
   slug: amazon-mediaconvert-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/openapi/amazon-mediaconvert-queues-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediaconvert/openapi/amazon-mediaconvert-queues-api-openapi.yml
 - filename: amazon-mediaconvert-tags-api-openapi.yml
   format: yaml
   label: Amazon MediaConvert Tags API
   slug: amazon-mediaconvert-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/openapi/amazon-mediaconvert-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediaconvert/openapi/amazon-mediaconvert-tags-api-openapi.yml
 - filename: amazon-mediaconvert-job-templates-api-openapi.yml
   format: yaml
   label: Amazon MediaConvert Job Templates API
   slug: amazon-mediaconvert-job-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/openapi/amazon-mediaconvert-job-templates-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediaconvert/openapi/amazon-mediaconvert-job-templates-api-openapi.yml
+- filename: amazon-mediaconvert-operations-api-openapi.yml
+  format: yaml
+  label: Amazon MediaConvert Mediaconvert Operations API
+  slug: amazon-mediaconvert-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mediaconvert/openapi/amazon-mediaconvert-operations-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -68,7 +74,7 @@ source_filename: amazon-mediaconvert-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://aws.amazon.com/compliance/\nurl: https://aws.amazon.com/compliance/\ncertifications:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://aws.amazon.com/compliance/\n  keywords:\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/security/amazon-mediaconvert-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/amazon-mediaconvert/security/amazon-mediaconvert-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Broadcasting

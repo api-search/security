@@ -8,19 +8,19 @@ api_specs:
   label: Mailtrap Inboxes API
   slug: mailtrap-inboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailtrap/refs/heads/main/openapi/mailtrap-inboxes-api-openapi.yml
+  url: https://artifacts.apis.io/mailtrap/openapi/mailtrap-inboxes-api-openapi.yml
 - filename: mailtrap-messages-api-openapi.yml
   format: yaml
   label: Mailtrap Messages API
   slug: mailtrap-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailtrap/refs/heads/main/openapi/mailtrap-messages-api-openapi.yml
+  url: https://artifacts.apis.io/mailtrap/openapi/mailtrap-messages-api-openapi.yml
 - filename: mailtrap-send-api-openapi.yml
   format: yaml
   label: Mailtrap Send API
   slug: mailtrap-send-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailtrap/refs/heads/main/openapi/mailtrap-send-api-openapi.yml
+  url: https://artifacts.apis.io/mailtrap/openapi/mailtrap-send-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -53,7 +53,7 @@ source_filename: mailtrap-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/mailtrap-email-api-openapi.yml, openapi/mailtrap-email-sandbox-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/mailtrap-email-api-openapi.yml\n- name: ApiTokenAuth\n  type: apiKey\n  in: header\n  parameter: Api-Token\n  sources:\n  - openapi/mailtrap-email-sandbox-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mailtrap/refs/heads/main/authentication/mailtrap-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mailtrap/authentication/mailtrap-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Email

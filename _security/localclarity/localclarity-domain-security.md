@@ -5,7 +5,7 @@ api_specs:
   label: LocalClarity Endpoints API
   slug: localclarity-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/openapi/localclarity-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/localclarity/openapi/localclarity-endpoints-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -55,7 +55,7 @@ source_filename: localclarity-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.localclarity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 00:13:35 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: dev.localclarity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 05:00:48 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: localclarity.cloud.tyk.io\n  https: false\ndomains:\n- domain: localclarity.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: tyk.io\n  dnssec: true\n  caa:\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/security/localclarity-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/localclarity/security/localclarity-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Local SEO

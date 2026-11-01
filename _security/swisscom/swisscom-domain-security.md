@@ -5,19 +5,19 @@ api_specs:
   label: 'Swisscom Process: create API'
   slug: swisscom-process-create-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/openapi/swisscom-process-create-api-openapi.yml
+  url: https://artifacts.apis.io/swisscom/openapi/swisscom-process-create-api-openapi.yml
 - filename: swisscom-process-read-api-openapi.yml
   format: yaml
   label: 'Swisscom Process: read API'
   slug: swisscom-process-read-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/openapi/swisscom-process-read-api-openapi.yml
+  url: https://artifacts.apis.io/swisscom/openapi/swisscom-process-read-api-openapi.yml
 - filename: swisscom-signatures-api-openapi.yml
   format: yaml
   label: Swisscom Signatures API
   slug: swisscom-signatures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/openapi/swisscom-signatures-api-openapi.yml
+  url: https://artifacts.apis.io/swisscom/openapi/swisscom-signatures-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,7 +62,7 @@ source_filename: swisscom-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.swisscom.ch\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  6 09:04:36 2027 GMT\n  hsts: null\n- host: sign.swisscom.ch\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 22:47:29 2026 GMT\n  hsts: null\n- host: ais.swisscom.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 08:51:41 2026 GMT\n  hsts: null\ndomains:\n- domain: swisscom.ch\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: swisscom.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/security/swisscom-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/swisscom/security/swisscom-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Telecommunications

@@ -23,7 +23,7 @@ source_filename: umoja-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: umoja.xyz\n  https: false\ndomains:\n- domain: umoja.xyz\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/umoja-labs/refs/heads/main/security/umoja-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/umoja-labs/security/umoja-labs-domain-security.yml
 summary_line: DNSSEC
 tags:
 - Company

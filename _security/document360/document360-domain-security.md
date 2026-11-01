@@ -5,37 +5,37 @@ api_specs:
   label: Document360 Articles API
   slug: document360-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/openapi/document360-articles-api-openapi.yml
+  url: https://artifacts.apis.io/document360/openapi/document360-articles-api-openapi.yml
 - filename: document360-categories-api-openapi.yml
   format: yaml
   label: Document360 Categories API
   slug: document360-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/openapi/document360-categories-api-openapi.yml
+  url: https://artifacts.apis.io/document360/openapi/document360-categories-api-openapi.yml
 - filename: document360-drive-api-openapi.yml
   format: yaml
   label: Document360 Drive API
   slug: document360-drive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/openapi/document360-drive-api-openapi.yml
+  url: https://artifacts.apis.io/document360/openapi/document360-drive-api-openapi.yml
 - filename: document360-project-versions-api-openapi.yml
   format: yaml
   label: Document360 Project Versions API
   slug: document360-project-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/openapi/document360-project-versions-api-openapi.yml
+  url: https://artifacts.apis.io/document360/openapi/document360-project-versions-api-openapi.yml
 - filename: document360-teams-api-openapi.yml
   format: yaml
   label: Document360 Teams API
   slug: document360-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/openapi/document360-teams-api-openapi.yml
+  url: https://artifacts.apis.io/document360/openapi/document360-teams-api-openapi.yml
 - filename: document360-users-api-openapi.yml
   format: yaml
   label: Document360 Users API
   slug: document360-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/openapi/document360-users-api-openapi.yml
+  url: https://artifacts.apis.io/document360/openapi/document360-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,11 +82,13 @@ source_filename: document360-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: document360.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 22:29:17 2026 GMT\n  hsts: true\n  hsts_max_age: 0\n- host: apidocs.document360.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 16:36:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apihub.document360.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 22:01:25 2026 GMT\n  hsts: null\ndomains:\n- domain: document360.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: document360.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/security/document360-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/document360/security/document360-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Documentation
 - Knowledge Base
 - Software-as-a-Service
 - Knowledge Management
+- API Documentation
+- Developer Portal
 ---

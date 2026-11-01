@@ -27,7 +27,7 @@ source_filename: hg-weather-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: hgbrasil.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 11:15:56 2026 GMT\n  hsts: false\ndomains:\n- domain: hgbrasil.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hg-weather/refs/heads/main/security/hg-weather-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hg-weather/security/hg-weather-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Weather

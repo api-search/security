@@ -5,13 +5,13 @@ api_specs:
   label: DietlyAPI Foods API
   slug: dietlyapi-foods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dietlyapi/refs/heads/main/openapi/dietlyapi-foods-api-openapi.yml
+  url: https://artifacts.apis.io/dietlyapi/openapi/dietlyapi-foods-api-openapi.yml
 - filename: dietlyapi-meta-api-openapi.yml
   format: yaml
   label: DietlyAPI Meta API
   slug: dietlyapi-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dietlyapi/refs/heads/main/openapi/dietlyapi-meta-api-openapi.yml
+  url: https://artifacts.apis.io/dietlyapi/openapi/dietlyapi-meta-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -44,7 +44,7 @@ source_filename: dietlyapi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.getdietly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 18:46:10 2026 GMT\n  hsts: false\n- host: api.getdietly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 18:46:10 2026 GMT\n  hsts: false\ndomains:\n- domain: getdietly.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dietlyapi/refs/heads/main/security/dietlyapi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dietlyapi/security/dietlyapi-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Food

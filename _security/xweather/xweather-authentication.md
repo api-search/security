@@ -8,55 +8,55 @@ api_specs:
   label: Xweather Air Quality API
   slug: xweather-air-quality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/openapi/xweather-air-quality-api-openapi.yml
+  url: https://artifacts.apis.io/xweather/openapi/xweather-air-quality-api-openapi.yml
 - filename: xweather-alerts-api-openapi.yml
   format: yaml
   label: Xweather Alerts API
   slug: xweather-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/openapi/xweather-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/xweather/openapi/xweather-alerts-api-openapi.yml
 - filename: xweather-conditions-api-openapi.yml
   format: yaml
   label: Xweather Conditions API
   slug: xweather-conditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/openapi/xweather-conditions-api-openapi.yml
+  url: https://artifacts.apis.io/xweather/openapi/xweather-conditions-api-openapi.yml
 - filename: xweather-fires-api-openapi.yml
   format: yaml
   label: Xweather Fires API
   slug: xweather-fires-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/openapi/xweather-fires-api-openapi.yml
+  url: https://artifacts.apis.io/xweather/openapi/xweather-fires-api-openapi.yml
 - filename: xweather-forecasts-api-openapi.yml
   format: yaml
   label: Xweather Forecasts API
   slug: xweather-forecasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/openapi/xweather-forecasts-api-openapi.yml
+  url: https://artifacts.apis.io/xweather/openapi/xweather-forecasts-api-openapi.yml
 - filename: xweather-lightning-api-openapi.yml
   format: yaml
   label: Xweather Lightning API
   slug: xweather-lightning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/openapi/xweather-lightning-api-openapi.yml
+  url: https://artifacts.apis.io/xweather/openapi/xweather-lightning-api-openapi.yml
 - filename: xweather-maritime-api-openapi.yml
   format: yaml
   label: Xweather Maritime API
   slug: xweather-maritime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/openapi/xweather-maritime-api-openapi.yml
+  url: https://artifacts.apis.io/xweather/openapi/xweather-maritime-api-openapi.yml
 - filename: xweather-observations-api-openapi.yml
   format: yaml
   label: Xweather Observations API
   slug: xweather-observations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/openapi/xweather-observations-api-openapi.yml
+  url: https://artifacts.apis.io/xweather/openapi/xweather-observations-api-openapi.yml
 - filename: xweather-tropical-api-openapi.yml
   format: yaml
   label: Xweather Tropical API
   slug: xweather-tropical-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/openapi/xweather-tropical-api-openapi.yml
+  url: https://artifacts.apis.io/xweather/openapi/xweather-tropical-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -84,7 +84,7 @@ source_filename: xweather-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/xweather-weather-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: clientAuth\n  type: apiKey\n  in: query\n  parameter: client_id\n  description: Xweather uses client_id and client_secret query parameters for authentication.\n    Both are required on every request.\n  sources:\n  - openapi/xweather-weather-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/authentication/xweather-authentication.yml
+source_yaml_url: https://artifacts.apis.io/xweather/authentication/xweather-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Air Quality

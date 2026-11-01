@@ -8,73 +8,73 @@ api_specs:
   label: Firma.dev Company API
   slug: firma-dev-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/openapi/firma-dev-company-api-openapi.yml
+  url: https://artifacts.apis.io/firma-dev/openapi/firma-dev-company-api-openapi.yml
 - filename: firma-dev-custom-fields-api-openapi.yml
   format: yaml
   label: Firma.dev Custom Fields API
   slug: firma-dev-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/openapi/firma-dev-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/firma-dev/openapi/firma-dev-custom-fields-api-openapi.yml
 - filename: firma-dev-email-domains-api-openapi.yml
   format: yaml
   label: Firma.dev Email Domains API
   slug: firma-dev-email-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/openapi/firma-dev-email-domains-api-openapi.yml
+  url: https://artifacts.apis.io/firma-dev/openapi/firma-dev-email-domains-api-openapi.yml
 - filename: firma-dev-email-templates-api-openapi.yml
   format: yaml
   label: Firma.dev Email Templates API
   slug: firma-dev-email-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/openapi/firma-dev-email-templates-api-openapi.yml
+  url: https://artifacts.apis.io/firma-dev/openapi/firma-dev-email-templates-api-openapi.yml
 - filename: firma-dev-jwt-management-api-openapi.yml
   format: yaml
   label: Firma.dev JWT Management API
   slug: firma-dev-jwt-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/openapi/firma-dev-jwt-management-api-openapi.yml
+  url: https://artifacts.apis.io/firma-dev/openapi/firma-dev-jwt-management-api-openapi.yml
 - filename: firma-dev-organization-seals-api-openapi.yml
   format: yaml
   label: Firma.dev Organization Seals API
   slug: firma-dev-organization-seals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/openapi/firma-dev-organization-seals-api-openapi.yml
+  url: https://artifacts.apis.io/firma-dev/openapi/firma-dev-organization-seals-api-openapi.yml
 - filename: firma-dev-signer-terms-api-openapi.yml
   format: yaml
   label: Firma.dev Signer Terms API
   slug: firma-dev-signer-terms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/openapi/firma-dev-signer-terms-api-openapi.yml
+  url: https://artifacts.apis.io/firma-dev/openapi/firma-dev-signer-terms-api-openapi.yml
 - filename: firma-dev-signing-requests-api-openapi.yml
   format: yaml
   label: Firma.dev Signing Requests API
   slug: firma-dev-signing-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/openapi/firma-dev-signing-requests-api-openapi.yml
+  url: https://artifacts.apis.io/firma-dev/openapi/firma-dev-signing-requests-api-openapi.yml
 - filename: firma-dev-templates-api-openapi.yml
   format: yaml
   label: Firma.dev Templates API
   slug: firma-dev-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/openapi/firma-dev-templates-api-openapi.yml
+  url: https://artifacts.apis.io/firma-dev/openapi/firma-dev-templates-api-openapi.yml
 - filename: firma-dev-webhooks-api-openapi.yml
   format: yaml
   label: Firma.dev Webhooks API
   slug: firma-dev-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/openapi/firma-dev-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/firma-dev/openapi/firma-dev-webhooks-api-openapi.yml
 - filename: firma-dev-workspace-settings-api-openapi.yml
   format: yaml
   label: Firma.dev Workspace Settings API
   slug: firma-dev-workspace-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/openapi/firma-dev-workspace-settings-api-openapi.yml
+  url: https://artifacts.apis.io/firma-dev/openapi/firma-dev-workspace-settings-api-openapi.yml
 - filename: firma-dev-workspaces-api-openapi.yml
   format: yaml
   label: Firma.dev Workspaces API
   slug: firma-dev-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/openapi/firma-dev-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/firma-dev/openapi/firma-dev-workspaces-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -102,7 +102,7 @@ source_filename: firma-dev-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-25'\nmethod: derived\nsource: openapi/app_firma_dev_openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: API key for authentication. Use your API key directly without any prefix (e.g.,\n    'your-api-key'). Bearer prefix is optional but not required.\n  sources:\n  - openapi/app_firma_dev_openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/authentication/firma-dev-authentication.yml
+source_yaml_url: https://artifacts.apis.io/firma-dev/authentication/firma-dev-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

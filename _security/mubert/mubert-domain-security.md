@@ -5,37 +5,37 @@ api_specs:
   label: Mubert Price API
   slug: mubert-price-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mubert/refs/heads/main/openapi/mubert-price-api-openapi.yml
+  url: https://artifacts.apis.io/mubert/openapi/mubert-price-api-openapi.yml
 - filename: mubert-public-api-openapi.yml
   format: yaml
   label: Mubert Public API
   slug: mubert-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mubert/refs/heads/main/openapi/mubert-public-api-openapi.yml
+  url: https://artifacts.apis.io/mubert/openapi/mubert-public-api-openapi.yml
 - filename: mubert-public-service-api-openapi.yml
   format: yaml
   label: Mubert Public Service API
   slug: mubert-public-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mubert/refs/heads/main/openapi/mubert-public-service-api-openapi.yml
+  url: https://artifacts.apis.io/mubert/openapi/mubert-public-service-api-openapi.yml
 - filename: mubert-service-api-openapi.yml
   format: yaml
   label: Mubert Service API
   slug: mubert-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mubert/refs/heads/main/openapi/mubert-service-api-openapi.yml
+  url: https://artifacts.apis.io/mubert/openapi/mubert-service-api-openapi.yml
 - filename: mubert-stripe-api-openapi.yml
   format: yaml
   label: Mubert Stripe API
   slug: mubert-stripe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mubert/refs/heads/main/openapi/mubert-stripe-api-openapi.yml
+  url: https://artifacts.apis.io/mubert/openapi/mubert-stripe-api-openapi.yml
 - filename: mubert-subscription-api-openapi.yml
   format: yaml
   label: Mubert Subscription API
   slug: mubert-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mubert/refs/heads/main/openapi/mubert-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/mubert/openapi/mubert-subscription-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: mubert-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mubert.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 02:42:41 2026 GMT\n  hsts: false\n- host: music-api.mubert.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 02:42:41 2026 GMT\n  hsts: null\ndomains:\n- domain: mubert.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mubert/refs/heads/main/security/mubert-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mubert/security/mubert-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - AI Music

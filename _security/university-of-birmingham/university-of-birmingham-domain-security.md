@@ -5,7 +5,7 @@ api_specs:
   label: English Constructicon API
   slug: english-constructicon
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-birmingham/refs/heads/main/openapi/university-of-birmingham-constructions-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-birmingham/openapi/university-of-birmingham-constructions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: university-of-birmingham-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-30'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.birmingham.ac.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15768000\n- host: edata.bham.ac.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 16070400\n- host: etheses.bham.ac.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 16070400\ndomains:\n- domain: birmingham.ac.uk\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n- domain: bham.ac.uk\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-birmingham/refs/heads/main/security/university-of-birmingham-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/university-of-birmingham/security/university-of-birmingham-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Education

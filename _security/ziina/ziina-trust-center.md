@@ -5,43 +5,43 @@ api_specs:
   label: Ziina Account API
   slug: ziina-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-account-api-openapi.yml
+  url: https://artifacts.apis.io/ziina/openapi/ziina-account-api-openapi.yml
 - filename: ziina-log-api-openapi.yml
   format: yaml
   label: Ziina Log API
   slug: ziina-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-log-api-openapi.yml
+  url: https://artifacts.apis.io/ziina/openapi/ziina-log-api-openapi.yml
 - filename: ziina-paymentintent-api-openapi.yml
   format: yaml
   label: Ziina PaymentIntent API
   slug: ziina-paymentintent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-paymentintent-api-openapi.yml
+  url: https://artifacts.apis.io/ziina/openapi/ziina-paymentintent-api-openapi.yml
 - filename: ziina-refund-api-openapi.yml
   format: yaml
   label: Ziina Refund API
   slug: ziina-refund-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-refund-api-openapi.yml
+  url: https://artifacts.apis.io/ziina/openapi/ziina-refund-api-openapi.yml
 - filename: ziina-transfer-api-openapi.yml
   format: yaml
   label: Ziina Transfer API
   slug: ziina-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/ziina/openapi/ziina-transfer-api-openapi.yml
 - filename: ziina-webhook-api-openapi.yml
   format: yaml
   label: Ziina Webhook API
   slug: ziina-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/ziina/openapi/ziina-webhook-api-openapi.yml
 - filename: ziina-health-check-api-openapi.yml
   format: yaml
   label: Ziina Health Check API
   slug: ziina-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/ziina/openapi/ziina-health-check-api-openapi.yml
 certification_count: 1
 certifications:
 - PCI DSS
@@ -59,7 +59,7 @@ source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nprobe: true\nsource: https://ziina.com/help-center/7915275-is-ziina-safe-to-use\nurl: https://ziina.com/help-center/7915275-is-ziina-safe-to-use\ncertifications:\n- PCI DSS\nregulatory:\n- authority: Central Bank of the UAE (CBUAE)\n  license: Stored Value Facility (SVF)\n  entity: Ziina Payment LLC\n  licenseNumber: '1112672'\n  note: >-\n    Ziina was reported as the first venture-backed startup to secure a CBUAE\n    Stored Value Facility license. Ziina Payment LLC is licensed by the Central\n    Bank of the UAE.\ncontrols:\n- Cardholder data stored in PCI-DSS-certified storage (via Very Good Security and payment gateway partners).\n- Biometric authentication on consumer accounts.\n- Data encrypted in transit to Ziina servers (TLS 1.3 confirmed on live probe).\nevidence:\n- source: https://ziina.com/help-center/7915275-is-ziina-safe-to-use\n  keywords:\n  - pci-dss\n  - central bank of the uae\n  - biometric\n  - encrypted\n- source:\
   \ https://www.adsmehub.ae/en/explore/post-details/ziina-svf-license\n  keywords:\n  - svf license\n  - central bank\nnotes: >-\n  Ziina does not publish a formal SOC 2 / ISO 27001 trust center page as of the\n  review date; PCI DSS is asserted via card-data storage partners and CBUAE SVF\n  regulation is the primary compliance anchor. Verify current certifications with\n  Ziina directly (support@ziina.com) before relying on them.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/security/ziina-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/ziina/security/ziina-trust-center.yml
 summary_line: PCI DSS
 tags:
 - Payments

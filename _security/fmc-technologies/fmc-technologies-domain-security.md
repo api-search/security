@@ -32,7 +32,7 @@ source_filename: fmc-technologies-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.technipfmc.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 06:04:43 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: technipfmc.com\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 iodef \"mailto:admin@technipfmc.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fmc-technologies/refs/heads/main/security/fmc-technologies-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fmc-technologies/security/fmc-technologies-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Energy

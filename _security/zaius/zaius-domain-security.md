@@ -5,97 +5,97 @@ api_specs:
   label: Zaius Compliance API
   slug: zaius-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/zaius/openapi/zaius-compliance-api-openapi.yml
 - filename: zaius-consent-api-openapi.yml
   format: yaml
   label: Zaius Consent API
   slug: zaius-consent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-consent-api-openapi.yml
+  url: https://artifacts.apis.io/zaius/openapi/zaius-consent-api-openapi.yml
 - filename: zaius-consent-legacy-api-openapi.yml
   format: yaml
   label: Zaius Consent (Legacy) API
   slug: zaius-consent-legacy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-consent-legacy-api-openapi.yml
+  url: https://artifacts.apis.io/zaius/openapi/zaius-consent-legacy-api-openapi.yml
 - filename: zaius-customers-api-openapi.yml
   format: yaml
   label: Zaius Customers API
   slug: zaius-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-customers-api-openapi.yml
+  url: https://artifacts.apis.io/zaius/openapi/zaius-customers-api-openapi.yml
 - filename: zaius-events-api-openapi.yml
   format: yaml
   label: Zaius Events API
   slug: zaius-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-events-api-openapi.yml
+  url: https://artifacts.apis.io/zaius/openapi/zaius-events-api-openapi.yml
 - filename: zaius-exports-api-openapi.yml
   format: yaml
   label: Zaius Exports API
   slug: zaius-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-exports-api-openapi.yml
+  url: https://artifacts.apis.io/zaius/openapi/zaius-exports-api-openapi.yml
 - filename: zaius-fields-schema-api-openapi.yml
   format: yaml
   label: Zaius Fields schema API
   slug: zaius-fields-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-fields-schema-api-openapi.yml
+  url: https://artifacts.apis.io/zaius/openapi/zaius-fields-schema-api-openapi.yml
 - filename: zaius-identifiers-api-openapi.yml
   format: yaml
   label: Zaius Identifiers API
   slug: zaius-identifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-identifiers-api-openapi.yml
+  url: https://artifacts.apis.io/zaius/openapi/zaius-identifiers-api-openapi.yml
 - filename: zaius-lists-api-openapi.yml
   format: yaml
   label: Zaius Lists API
   slug: zaius-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-lists-api-openapi.yml
+  url: https://artifacts.apis.io/zaius/openapi/zaius-lists-api-openapi.yml
 - filename: zaius-object-schema-api-openapi.yml
   format: yaml
   label: Zaius Object schema API
   slug: zaius-object-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-object-schema-api-openapi.yml
+  url: https://artifacts.apis.io/zaius/openapi/zaius-object-schema-api-openapi.yml
 - filename: zaius-objects-api-openapi.yml
   format: yaml
   label: Zaius Objects API
   slug: zaius-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-objects-api-openapi.yml
+  url: https://artifacts.apis.io/zaius/openapi/zaius-objects-api-openapi.yml
 - filename: zaius-products-api-openapi.yml
   format: yaml
   label: Zaius Products API
   slug: zaius-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-products-api-openapi.yml
+  url: https://artifacts.apis.io/zaius/openapi/zaius-products-api-openapi.yml
 - filename: zaius-reachability-api-openapi.yml
   format: yaml
   label: Zaius Reachability API
   slug: zaius-reachability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-reachability-api-openapi.yml
+  url: https://artifacts.apis.io/zaius/openapi/zaius-reachability-api-openapi.yml
 - filename: zaius-realtimesegments-api-openapi.yml
   format: yaml
   label: Zaius RealtimeSegments API
   slug: zaius-realtimesegments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-realtimesegments-api-openapi.yml
+  url: https://artifacts.apis.io/zaius/openapi/zaius-realtimesegments-api-openapi.yml
 - filename: zaius-recommendations-api-openapi.yml
   format: yaml
   label: Zaius Recommendations API
   slug: zaius-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/zaius/openapi/zaius-recommendations-api-openapi.yml
 - filename: zaius-relationships-schema-api-openapi.yml
   format: yaml
   label: Zaius Relationships schema API
   slug: zaius-relationships-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-relationships-schema-api-openapi.yml
+  url: https://artifacts.apis.io/zaius/openapi/zaius-relationships-schema-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -141,7 +141,7 @@ source_filename: zaius-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.zaius.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep  3 22:33:20 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.us1.odp.optimizely.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 15 23:59:59 2027 GMT\n  hsts: null\n- host: api.eu1.odp.optimizely.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 19 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: zaius.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: optimizely.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/security/zaius-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zaius/security/zaius-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Company

@@ -5,19 +5,19 @@ api_specs:
   label: Teahouse Finance Logs API
   slug: teahouse-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teahouse/refs/heads/main/openapi/teahouse-logs-api-openapi.yml
+  url: https://artifacts.apis.io/teahouse/openapi/teahouse-logs-api-openapi.yml
 - filename: teahouse-performance-api-openapi.yml
   format: yaml
   label: Teahouse Finance Performance API
   slug: teahouse-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teahouse/refs/heads/main/openapi/teahouse-performance-api-openapi.yml
+  url: https://artifacts.apis.io/teahouse/openapi/teahouse-performance-api-openapi.yml
 - filename: teahouse-vaults-api-openapi.yml
   format: yaml
   label: Teahouse Finance Vaults API
   slug: teahouse-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teahouse/refs/heads/main/openapi/teahouse-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/teahouse/openapi/teahouse-vaults-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: teahouse-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: teahouse.finance\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 08:01:09 2026 GMT\n  hsts: false\ndomains:\n- domain: teahouse.finance\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teahouse/refs/heads/main/security/teahouse-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/teahouse/security/teahouse-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

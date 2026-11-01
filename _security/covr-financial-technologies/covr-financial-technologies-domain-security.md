@@ -27,12 +27,12 @@ source_filename: covr-financial-technologies-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: covrtech.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 04:35:35 2026 GMT\n  hsts: false\ndomains:\n- domain: covrtech.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/covr-financial-technologies/refs/heads/main/security/covr-financial-technologies-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/covr-financial-technologies/security/covr-financial-technologies-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Insurtech
-- DigitalInsurance
+- Digital Insurance
 - Financial Services
 - Software-as-a-Service
 ---

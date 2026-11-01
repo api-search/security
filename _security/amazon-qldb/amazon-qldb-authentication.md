@@ -8,19 +8,19 @@ api_specs:
   label: Amazon QLDB Journal S3 Exports API
   slug: amazon-qldb-journal-s3-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/openapi/amazon-qldb-journal-s3-exports-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-qldb/openapi/amazon-qldb-journal-s3-exports-api-openapi.yml
 - filename: amazon-qldb-ledgers-api-openapi.yml
   format: yaml
   label: Amazon QLDB Ledgers API
   slug: amazon-qldb-ledgers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/openapi/amazon-qldb-ledgers-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-qldb/openapi/amazon-qldb-ledgers-api-openapi.yml
 - filename: amazon-qldb-tags-api-openapi.yml
   format: yaml
   label: Amazon QLDB Tags API
   slug: amazon-qldb-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/openapi/amazon-qldb-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-qldb/openapi/amazon-qldb-tags-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,10 +48,11 @@ source_filename: amazon-qldb-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-qldb-openapi-original.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-qldb-openapi-original.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/authentication/amazon-qldb-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-qldb/authentication/amazon-qldb-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Blockchain
 - Database
 - Ledger
+- Defunct
 ---

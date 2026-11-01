@@ -8,91 +8,115 @@ api_specs:
   label: Langdock Agent API
   slug: langdock-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/openapi/langdock-agent-api-openapi.yml
+  url: https://artifacts.apis.io/langdock/openapi/langdock-agent-api-openapi.yml
 - filename: langdock-agent-build-api-openapi.yml
   format: yaml
   label: Langdock Agent Build API
   slug: langdock-agent-build-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/openapi/langdock-agent-build-api-openapi.yml
-- filename: langdock-assistant-api-openapi.yml
-  format: yaml
-  label: Langdock Assistant API
-  slug: langdock-assistant-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/openapi/langdock-assistant-api-openapi.yml
-- filename: langdock-assistant-build-api-openapi.yml
-  format: yaml
-  label: Langdock Assistant Build API
-  slug: langdock-assistant-build-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/openapi/langdock-assistant-build-api-openapi.yml
+  url: https://artifacts.apis.io/langdock/openapi/langdock-agent-build-api-openapi.yml
 - filename: langdock-attachments-api-openapi.yml
   format: yaml
   label: Langdock Attachments API
   slug: langdock-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/openapi/langdock-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/langdock/openapi/langdock-attachments-api-openapi.yml
 - filename: langdock-audit-logs-api-openapi.yml
   format: yaml
   label: Langdock Audit Logs API
   slug: langdock-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/openapi/langdock-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/langdock/openapi/langdock-audit-logs-api-openapi.yml
 - filename: langdock-embeddings-api-openapi.yml
   format: yaml
   label: Langdock Embeddings API
   slug: langdock-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/openapi/langdock-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/langdock/openapi/langdock-embeddings-api-openapi.yml
 - filename: langdock-fim-api-openapi.yml
   format: yaml
   label: Langdock Fim API
   slug: langdock-fim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/openapi/langdock-fim-api-openapi.yml
+  url: https://artifacts.apis.io/langdock/openapi/langdock-fim-api-openapi.yml
 - filename: langdock-google-api-openapi.yml
   format: yaml
   label: Langdock Google API
   slug: langdock-google-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/openapi/langdock-google-api-openapi.yml
+  url: https://artifacts.apis.io/langdock/openapi/langdock-google-api-openapi.yml
 - filename: langdock-knowledge-api-openapi.yml
   format: yaml
   label: Langdock Knowledge API
   slug: langdock-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/openapi/langdock-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/langdock/openapi/langdock-knowledge-api-openapi.yml
 - filename: langdock-messages-api-openapi.yml
   format: yaml
   label: Langdock Messages API
   slug: langdock-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/openapi/langdock-messages-api-openapi.yml
+  url: https://artifacts.apis.io/langdock/openapi/langdock-messages-api-openapi.yml
 - filename: langdock-skills-api-openapi.yml
   format: yaml
   label: Langdock Skills API
   slug: langdock-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/openapi/langdock-skills-api-openapi.yml
+  url: https://artifacts.apis.io/langdock/openapi/langdock-skills-api-openapi.yml
 - filename: langdock-usage-export-api-openapi.yml
   format: yaml
   label: Langdock Usage Export API
   slug: langdock-usage-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/openapi/langdock-usage-export-api-openapi.yml
+  url: https://artifacts.apis.io/langdock/openapi/langdock-usage-export-api-openapi.yml
 - filename: langdock-user-management-api-openapi.yml
   format: yaml
   label: Langdock User Management API
   slug: langdock-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/openapi/langdock-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/langdock/openapi/langdock-user-management-api-openapi.yml
+- filename: langdock-images-api-openapi.yml
+  format: yaml
+  label: Langdock Images API
+  slug: langdock-images-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/langdock/openapi/langdock-images-api-openapi.yml
+- filename: langdock-prompts-api-openapi.yml
+  format: yaml
+  label: Langdock Prompts API
+  slug: langdock-prompts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/langdock/openapi/langdock-prompts-api-openapi.yml
+- filename: langdock-responses-api-openapi.yml
+  format: yaml
+  label: Langdock Responses API
+  slug: langdock-responses-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/langdock/openapi/langdock-responses-api-openapi.yml
+- filename: langdock-scheduled-tasks-api-openapi.yml
+  format: yaml
+  label: Langdock Scheduled Tasks API
+  slug: langdock-scheduled-tasks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/langdock/openapi/langdock-scheduled-tasks-api-openapi.yml
+- filename: langdock-workflow-run-export-api-openapi.yml
+  format: yaml
+  label: Langdock Workflow Run Export API
+  slug: langdock-workflow-run-export-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/langdock/openapi/langdock-workflow-run-export-api-openapi.yml
+- filename: langdock-workflows-api-openapi.yml
+  format: yaml
+  label: Langdock Workflows API
+  slug: langdock-workflows-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/langdock/openapi/langdock-workflows-api-openapi.yml
 - filename: langdock-chat-completions-api-openapi.yml
   format: yaml
   label: Langdock Chat Completions API
   slug: langdock-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/openapi/langdock-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/langdock/openapi/langdock-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: Langdock authenticates every public API call with a workspace API key presented as an HTTP bearer token. There is no OAuth 2.0 or OpenID Connect surface on the public API — no /.well-known/openid-configuration or /.well-known/oauth-authorization-server is served (both 404). Keys are workspace-scoped, carry named product scopes, and are additionally bound to the specific agents and knowledge folders shared with them.
@@ -124,7 +148,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/langdoc
   \ requirement for all operations\nalternate_headers:\n- header: x-api-key\n  value: <api-key>\n  applies_to: Langdock Agent MCP Server (https://api.langdock.com/mcp)\n  source: https://docs.langdock.com/en/using-langdock/guides/integrations/mcp/langdock-agent-mcp-server\nkey_format:\n  prefix: sk-ld-\n  source: https://docs.langdock.com/en/admin/ai-adoption-and-rollout/best-practices/api-key-best-practices\nkey_management:\n  console: https://app.langdock.com/settings/workspace/products/api\n  path: Workspace Settings → Products → API\n  operations:\n  - create\n  - view\n  - revoke\n  environment_variable: LANGDOCK_API_KEY\n  rotation_guidance: >-\n    Langdock recommends rotating keys at least every 90 days, or immediately if\n    compromise is suspected.\n  docs: https://docs.langdock.com/en/admin/ai-adoption-and-rollout/best-practices/api-key-best-practices\nscopes:\n  model: >-\n    Langdock API keys carry named product scopes. Langdock does not publish a\n    consolidated scope reference\
   \ page; the scope names below are the ones evidenced\n    verbatim in the OpenAPI operation and error descriptions.\n  known:\n  - name: AGENT_API\n    evidence: 403 \"Insufficient permissions - requires AGENT_API scope\" on POST /assistant/v1/create\n    console_label: Agent API\n  - name: AUDIT_LOG_API\n    evidence: GET /audit-logs/{workspace_id} — \"Requires an API key with the `AUDIT_LOG_API`\n      scope.\"\n  unnamed:\n  - area: Skills\n    evidence: >-\n      Skills operations return 403 \"Missing required scope or access / create\n      permission / editor access / owner access\" but the scope name is not published.\nresource_sharing:\n  description: >-\n    Beyond scopes, access is granted per-resource: an agent or a knowledge folder must\n    be explicitly shared with an API key before that key can use it.\n  docs:\n  - https://docs.langdock.com/en/developer/agents-api/agent-api-guide\n  - https://docs.langdock.com/en/developer/knowledge-folder-api/sharing\nbrowser_restriction:\
   \ >-\n  API calls from browsers are blocked for security reasons; the API is backend-access\n  only.\noauth:\n  public_api: false\n  note: >-\n    OAuth appears inside the product as an authentication option for CUSTOM\n    INTEGRATIONS an admin configures — that is Langdock acting as an OAuth client\n    against third-party APIs, not an OAuth surface on the Langdock API itself. No\n    scopes/ artifact is emitted for this reason.\n  integrations_auth_docs: https://docs.langdock.com/en/developer/integrations-api/update-auth\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/authentication/langdock-authentication.yml
+source_yaml_url: https://artifacts.apis.io/langdock/authentication/langdock-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

@@ -27,7 +27,7 @@ source_filename: celera-semiconductor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: celerasemi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 28 20:42:49 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: celerasemi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/celera-semiconductor/refs/heads/main/security/celera-semiconductor-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/celera-semiconductor/security/celera-semiconductor-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

@@ -8,7 +8,7 @@ api_specs:
   label: Orderly Health Look Up Practitioners API
   slug: orderly-health-look-up-practitioners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderly-health/refs/heads/main/openapi/orderly-health-look-up-practitioners-api-openapi.yml
+  url: https://artifacts.apis.io/orderly-health/openapi/orderly-health-look-up-practitioners-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -35,7 +35,7 @@ source_filename: orderly-health-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/orderly-health-provider-directory-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: OrderlyAPIToken\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/orderly-health-provider-directory-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orderly-health/refs/heads/main/authentication/orderly-health-authentication.yml
+source_yaml_url: https://artifacts.apis.io/orderly-health/authentication/orderly-health-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

@@ -8,55 +8,55 @@ api_specs:
   label: Cradlepoint Accounts API
   slug: cradlepoint-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/cradlepoint/openapi/cradlepoint-accounts-api-openapi.yml
 - filename: cradlepoint-alertpushdestinations-api-openapi.yml
   format: yaml
   label: Cradlepoint AlertPushDestinations API
   slug: cradlepoint-alertpushdestinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-alertpushdestinations-api-openapi.yml
+  url: https://artifacts.apis.io/cradlepoint/openapi/cradlepoint-alertpushdestinations-api-openapi.yml
 - filename: cradlepoint-alerts-api-openapi.yml
   format: yaml
   label: Cradlepoint Alerts API
   slug: cradlepoint-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/cradlepoint/openapi/cradlepoint-alerts-api-openapi.yml
 - filename: cradlepoint-groups-api-openapi.yml
   format: yaml
   label: Cradlepoint Groups API
   slug: cradlepoint-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-groups-api-openapi.yml
+  url: https://artifacts.apis.io/cradlepoint/openapi/cradlepoint-groups-api-openapi.yml
 - filename: cradlepoint-locations-api-openapi.yml
   format: yaml
   label: Cradlepoint Locations API
   slug: cradlepoint-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-locations-api-openapi.yml
+  url: https://artifacts.apis.io/cradlepoint/openapi/cradlepoint-locations-api-openapi.yml
 - filename: cradlepoint-netdevices-api-openapi.yml
   format: yaml
   label: Cradlepoint NetDevices API
   slug: cradlepoint-netdevices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-netdevices-api-openapi.yml
+  url: https://artifacts.apis.io/cradlepoint/openapi/cradlepoint-netdevices-api-openapi.yml
 - filename: cradlepoint-routers-api-openapi.yml
   format: yaml
   label: Cradlepoint Routers API
   slug: cradlepoint-routers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-routers-api-openapi.yml
+  url: https://artifacts.apis.io/cradlepoint/openapi/cradlepoint-routers-api-openapi.yml
 - filename: cradlepoint-activity-logs-api-openapi.yml
   format: yaml
   label: Cradlepoint Activity Logs API
   slug: cradlepoint-activity-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-activity-logs-api-openapi.yml
+  url: https://artifacts.apis.io/cradlepoint/openapi/cradlepoint-activity-logs-api-openapi.yml
 - filename: cradlepoint-alert-rules-api-openapi.yml
   format: yaml
   label: Cradlepoint Alert Rules API
   slug: cradlepoint-alert-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-alert-rules-api-openapi.yml
+  url: https://artifacts.apis.io/cradlepoint/openapi/cradlepoint-alert-rules-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -91,7 +91,7 @@ source_filename: cradlepoint-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cradlepoint-netcloud-manager-api-v2-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: CradlepointApiKey\n  type: apiKey\n  in: header\n  parameter: X-CP-API-ID\n  description: Cradlepoint account API ID (paired with X-CP-API-KEY).\n  sources:\n  - openapi/cradlepoint-netcloud-manager-api-v2-openapi.yml\n- name: NetCloudApiKey\n  type: apiKey\n  in: header\n  parameter: X-ECM-API-ID\n  description: NCM tenant API ID (paired with X-ECM-API-KEY), carries the NCM role.\n  sources:\n  - openapi/cradlepoint-netcloud-manager-api-v2-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/authentication/cradlepoint-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cradlepoint/authentication/cradlepoint-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Wireless WAN

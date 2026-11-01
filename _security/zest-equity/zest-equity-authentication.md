@@ -7,49 +7,49 @@ api_specs:
   label: Zest Equity Authentication API
   slug: zest-equity-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/openapi/zest-equity-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/zest-equity/openapi/zest-equity-authentication-api-openapi.yml
 - filename: zest-equity-contracts-api-openapi.yml
   format: yaml
   label: Zest Equity Contracts API
   slug: zest-equity-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/openapi/zest-equity-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/zest-equity/openapi/zest-equity-contracts-api-openapi.yml
 - filename: zest-equity-investors-api-openapi.yml
   format: yaml
   label: Zest Equity Investors API
   slug: zest-equity-investors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/openapi/zest-equity-investors-api-openapi.yml
+  url: https://artifacts.apis.io/zest-equity/openapi/zest-equity-investors-api-openapi.yml
 - filename: zest-equity-spv-requests-api-openapi.yml
   format: yaml
   label: Zest Equity SPV Requests API
   slug: zest-equity-spv-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/openapi/zest-equity-spv-requests-api-openapi.yml
+  url: https://artifacts.apis.io/zest-equity/openapi/zest-equity-spv-requests-api-openapi.yml
 - filename: zest-equity-subscription-forms-api-openapi.yml
   format: yaml
   label: Zest Equity Subscription Forms API
   slug: zest-equity-subscription-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/openapi/zest-equity-subscription-forms-api-openapi.yml
+  url: https://artifacts.apis.io/zest-equity/openapi/zest-equity-subscription-forms-api-openapi.yml
 - filename: zest-equity-subscription-fundings-api-openapi.yml
   format: yaml
   label: Zest Equity Subscription Fundings API
   slug: zest-equity-subscription-fundings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/openapi/zest-equity-subscription-fundings-api-openapi.yml
+  url: https://artifacts.apis.io/zest-equity/openapi/zest-equity-subscription-fundings-api-openapi.yml
 - filename: zest-equity-subscriptions-api-openapi.yml
   format: yaml
   label: Zest Equity Subscriptions API
   slug: zest-equity-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/openapi/zest-equity-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/zest-equity/openapi/zest-equity-subscriptions-api-openapi.yml
 - filename: zest-equity-system-api-openapi.yml
   format: yaml
   label: Zest Equity System API
   slug: zest-equity-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/openapi/zest-equity-system-api-openapi.yml
+  url: https://artifacts.apis.io/zest-equity/openapi/zest-equity-system-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -103,7 +103,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/zest-equity-openapi-original.json\ndocs: https://docs.zestequity.com/authentication\nsummary:\n  types:\n  - http\n  - oauth2\n  api_key_in: []\n  oauth2_flows:\n  - jwt-bearer-assertion\n  - refresh_token\nschemes:\n- name: HTTPBearer\n  type: http\n  scheme: bearer\n  description: >-\n    Every partner API call presents a short-lived bearer access token in the\n    Authorization header. Tokens are minted via the OAuth 2.0 JWT-Bearer\n    assertion grant (RFC 7523), not issued directly.\n  sources:\n  - openapi/zest-equity-openapi-original.json\n- name: OAuth2 JWT-Bearer assertion\n  type: oauth2\n  standard: RFC 7523\n  description: >-\n    Partners sign a JWT assertion with their registered EdDSA (Ed25519) private\n    key and POST it to /v1/oauth2/tokens with\n    grant_type=urn:ietf:params:oauth:grant-type:jwt-bearer to receive an access\n    token + refresh token. Only EdDSA is accepted; RSA/HMAC assertions are\n\
   \    rejected.\n  token_url: https://public-api.zestequity.com/v1/oauth2/tokens\n  sandbox_token_url: https://sandbox-api.zestequity.com/v1/oauth2/tokens\n  assertion_claims:\n    iss: Your API base URL (issuer identifier)\n    sub: Your client_id (must equal client_id claim)\n    aud: >-\n      Exactly the Zest environment base URL —\n      https://public-api.zestequity.com or https://sandbox-api.zestequity.com\n    client_id: Your client_id (must equal sub)\n    iat: Issued-at (unix seconds)\n    exp: Expiry (unix seconds; ~60s recommended)\n  token_response:\n    access_token_ttl_seconds: 3600\n    refresh_token_ttl_seconds: 2592000\n    token_type: Bearer\n    refresh_rotates: true\n    notes: >-\n      Refresh tokens rotate on every use; redeeming a stale refresh token\n      returns 401 and invalidates the whole chain, forcing a fresh JWT-bearer\n      assertion.\n  introspection: GET /v1/oauth2/info (returns client type, client id, application name)\n  sources:\n  - https://docs.zestequity.com/authentication\n\
   notes: >-\n  The OpenAPI declares only the HTTPBearer http/bearer scheme; the JWT-Bearer\n  assertion token-minting flow is documented (RFC 7523) but not modelled as an\n  oauth2 securityScheme in the spec. Provisioning (client_id + EdDSA key) is\n  done during partner onboarding via sara@zestholdco.com.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/authentication/zest-equity-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zest-equity/authentication/zest-equity-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

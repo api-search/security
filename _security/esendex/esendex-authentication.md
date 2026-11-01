@@ -7,19 +7,19 @@ api_specs:
   label: Esendex Credential Management API
   slug: esendex-credential-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esendex/refs/heads/main/openapi/esendex-credential-management-api-openapi.yml
+  url: https://artifacts.apis.io/esendex/openapi/esendex-credential-management-api-openapi.yml
 - filename: esendex-message-dispatcher-api-openapi.yml
   format: yaml
   label: Esendex Message Dispatcher API
   slug: esendex-message-dispatcher-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esendex/refs/heads/main/openapi/esendex-message-dispatcher-api-openapi.yml
+  url: https://artifacts.apis.io/esendex/openapi/esendex-message-dispatcher-api-openapi.yml
 - filename: esendex-message-headers-api-openapi.yml
   format: yaml
   label: Esendex Message Headers API
   slug: esendex-message-headers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esendex/refs/heads/main/openapi/esendex-message-headers-api-openapi.yml
+  url: https://artifacts.apis.io/esendex/openapi/esendex-message-headers-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -47,7 +47,7 @@ source_filename: esendex-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: derived\nsource: openapi/esendex-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: JWTBearerAuth\n  type: http\n  scheme: Bearer\n  bearerFormat: JWT\n  description: Enter a JWT token to authorize the requests...\n  sources:\n  - openapi/esendex-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/esendex/refs/heads/main/authentication/esendex-authentication.yml
+source_yaml_url: https://artifacts.apis.io/esendex/authentication/esendex-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - SMS

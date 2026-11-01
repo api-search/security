@@ -7,25 +7,25 @@ api_specs:
   label: Zamna Session API
   slug: zamna-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zamna/refs/heads/main/openapi/zamna-session-api-openapi.yml
+  url: https://artifacts.apis.io/zamna/openapi/zamna-session-api-openapi.yml
 - filename: zamna-start-api-openapi.yml
   format: yaml
   label: Zamna Start API
   slug: zamna-start-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zamna/refs/heads/main/openapi/zamna-start-api-openapi.yml
+  url: https://artifacts.apis.io/zamna/openapi/zamna-start-api-openapi.yml
 - filename: zamna-start-with-booking-id-and-surname-api-openapi.yml
   format: yaml
   label: Zamna Start With Booking Id And Surname API
   slug: zamna-start-with-booking-id-and-surname-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zamna/refs/heads/main/openapi/zamna-start-with-booking-id-and-surname-api-openapi.yml
+  url: https://artifacts.apis.io/zamna/openapi/zamna-start-with-booking-id-and-surname-api-openapi.yml
 - filename: zamna-start2-api-openapi.yml
   format: yaml
   label: Zamna Start2 API
   slug: zamna-start2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zamna/refs/heads/main/openapi/zamna-start2-api-openapi.yml
+  url: https://artifacts.apis.io/zamna/openapi/zamna-start2-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -51,7 +51,7 @@ source_filename: zamna-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/zamna-paxcheck-openapi-original.json\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/zamna-paxcheck-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zamna/refs/heads/main/authentication/zamna-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zamna/authentication/zamna-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

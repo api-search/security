@@ -9,25 +9,25 @@ api_specs:
   label: Mage Blocks API
   slug: mage-ai-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mage-ai/refs/heads/main/openapi/mage-ai-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/mage-ai/openapi/mage-ai-blocks-api-openapi.yml
 - filename: mage-ai-pipeline-runs-api-openapi.yml
   format: yaml
   label: Mage Pipeline Runs API
   slug: mage-ai-pipeline-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mage-ai/refs/heads/main/openapi/mage-ai-pipeline-runs-api-openapi.yml
+  url: https://artifacts.apis.io/mage-ai/openapi/mage-ai-pipeline-runs-api-openapi.yml
 - filename: mage-ai-pipeline-schedules-api-openapi.yml
   format: yaml
   label: Mage Pipeline Schedules API
   slug: mage-ai-pipeline-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mage-ai/refs/heads/main/openapi/mage-ai-pipeline-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/mage-ai/openapi/mage-ai-pipeline-schedules-api-openapi.yml
 - filename: mage-ai-pipelines-api-openapi.yml
   format: yaml
   label: Mage Pipelines API
   slug: mage-ai-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mage-ai/refs/heads/main/openapi/mage-ai-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/mage-ai/openapi/mage-ai-pipelines-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -62,7 +62,7 @@ source_filename: mage-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/mage-ai-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: API key passed as the api_key query parameter or in the request body.\n  sources:\n  - openapi/mage-ai-openapi.yml\n- name: OAuthToken\n  type: apiKey\n  in: header\n  parameter: OAUTH-TOKEN\n  description: Decoded OAuth token passed in the OAUTH-TOKEN header, or the raw token passed\n    via the oauth_token cookie.\n  sources:\n  - openapi/mage-ai-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mage-ai/refs/heads/main/authentication/mage-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mage-ai/authentication/mage-ai-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Data Pipeline

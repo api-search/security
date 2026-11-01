@@ -7,49 +7,49 @@ api_specs:
   label: Green Button Alliance Application Information API
   slug: green-button-alliance-applicationinformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-applicationinformation-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-applicationinformation-api-openapi.yml
 - filename: green-button-alliance-authorization-api-openapi.yml
   format: yaml
   label: Green Button Alliance Authorization API
   slug: green-button-alliance-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-authorization-api-openapi.yml
 - filename: green-button-alliance-batch-api-openapi.yml
   format: yaml
   label: Green Button Alliance Batch API
   slug: green-button-alliance-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-batch-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-batch-api-openapi.yml
 - filename: green-button-alliance-datacustodian-integration-api-openapi.yml
   format: yaml
   label: Green Button Alliance DataCustodian Integration API
   slug: green-button-alliance-datacustodian-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-datacustodian-integration-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-datacustodian-integration-api-openapi.yml
 - filename: green-button-alliance-oauth2-client-management-api-openapi.yml
   format: yaml
   label: Green Button Alliance OAuth2 Client Management API
   slug: green-button-alliance-oauth2-client-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-oauth2-client-management-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-oauth2-client-management-api-openapi.yml
 - filename: green-button-alliance-oauth2-standard-api-openapi.yml
   format: yaml
   label: Green Button Alliance OAuth2 Standard API
   slug: green-button-alliance-oauth2-standard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-oauth2-standard-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-oauth2-standard-api-openapi.yml
 - filename: green-button-alliance-oidc-api-openapi.yml
   format: yaml
   label: Green Button Alliance OIDC API
   slug: green-button-alliance-oidc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-oidc-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-oidc-api-openapi.yml
 - filename: green-button-alliance-usagepoint-api-openapi.yml
   format: yaml
   label: Green Button Alliance Usage Point API
   slug: green-button-alliance-usagepoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-usagepoint-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-usagepoint-api-openapi.yml
 auth_types:
 - http
 - mutualTLS
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: openapi/green-b
   client_authentication_methods:\n- client_secret_basic\n- client_secret_post\n- tls_client_auth\ngrant_types:\n- authorization_code\n- client_credentials\n- refresh_token\ndynamic_client_registration:\n  supported: true\n  specs:\n  - RFC 7591 OAuth 2.0 Dynamic Client Registration\n  - RFC 7592 OAuth 2.0 Dynamic Client Registration Management\n  evidence: >-\n    Both RFCs are listed as normative references on GBA's /developer-resources, and\n    the published ApplicationInformation resource carries the full RFC 7591/7592\n    field set (client_id, client_secret, client_id_issued_at,\n    client_secret_expires_at, registration_client_uri, registration_access_token,\n    token_endpoint_auth_method, grant_types, response_types).\n  registration_endpoint_field: authorizationServerRegistrationEndpoint\ntoken_types:\n  source: https://www.greenbuttonalliance.org/access-tokens\n  values:\n  - access_token\n  - refresh_token\n  - datacustodian_access_token\n  - client_access_token\n  - upload_access_token\n\
   \  - registration_access_token\n  detail: scopes/green-button-alliance-scopes.yml\ntoken_duration_guidance:\n  source: https://www.greenbuttonalliance.org/oauth-20-access-and-refresh-token-duration\n  summary: >-\n    GBA publishes a guidance article on OAuth 2.0 access and refresh token duration\n    in the Green Button Connect context - access tokens short-lived; refresh tokens\n    \"long lifespans (days to weeks) and be rotated whenever used to meet best\n    practice security standards\". Verbatim numeric ceilings live in the paywalled\n    NAESB REQ.21 ESPI standard and are not reproduced.\nmember_sso:\n  note: Association membership single sign-on. NOT a route to energy data.\n  type: openIdConnect\n  discovery: https://www.greenbuttonalliance.org/.well-known/openid-configuration\n  file: well-known/green-button-alliance-openid-configuration.json\n  issuer: https://www.greenbuttonalliance.org\n  grant_types: [authorization_code, refresh_token]\n  scopes: [openid, email, profile]\n\
   \  pkce: [S256]\n  id_token_signing_alg: [RS256]\n  token_endpoint_auth_methods: [client_secret_post, client_secret_basic]\ntransport_security:\n  espi_v4_0: TLS 1.3 minimum\n  espi_v3_3: TLS 1.2\n  authorization_server: TLS 1.3 only (stated in the OpenESPI Authorization Server spec)\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/authentication/green-button-alliance-authentication.yml
+source_yaml_url: https://artifacts.apis.io/green-button-alliance/authentication/green-button-alliance-authentication.yml
 summary_line: http/mutualTLS/oauth2/openIdConnect · 4 schemes
 tags:
 - Energy

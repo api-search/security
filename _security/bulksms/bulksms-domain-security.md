@@ -5,37 +5,37 @@ api_specs:
   label: BulkSMS Attachments API
   slug: bulksms-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bulksms/refs/heads/main/openapi/bulksms-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/bulksms/openapi/bulksms-attachments-api-openapi.yml
 - filename: bulksms-blocked-numbers-api-openapi.yml
   format: yaml
   label: BulkSMS Blocked Numbers API
   slug: bulksms-blocked-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bulksms/refs/heads/main/openapi/bulksms-blocked-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/bulksms/openapi/bulksms-blocked-numbers-api-openapi.yml
 - filename: bulksms-credits-api-openapi.yml
   format: yaml
   label: BulkSMS Credits API
   slug: bulksms-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bulksms/refs/heads/main/openapi/bulksms-credits-api-openapi.yml
+  url: https://artifacts.apis.io/bulksms/openapi/bulksms-credits-api-openapi.yml
 - filename: bulksms-message-api-openapi.yml
   format: yaml
   label: BulkSMS Message API
   slug: bulksms-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bulksms/refs/heads/main/openapi/bulksms-message-api-openapi.yml
+  url: https://artifacts.apis.io/bulksms/openapi/bulksms-message-api-openapi.yml
 - filename: bulksms-profile-api-openapi.yml
   format: yaml
   label: BulkSMS Profile API
   slug: bulksms-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bulksms/refs/heads/main/openapi/bulksms-profile-api-openapi.yml
+  url: https://artifacts.apis.io/bulksms/openapi/bulksms-profile-api-openapi.yml
 - filename: bulksms-webhooks-api-openapi.yml
   format: yaml
   label: BulkSMS Webhooks API
   slug: bulksms-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bulksms/refs/heads/main/openapi/bulksms-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/bulksms/openapi/bulksms-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,12 +64,12 @@ source_filename: bulksms-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bulksms.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 19 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: bulksms.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bulksms/refs/heads/main/security/bulksms-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bulksms/security/bulksms-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - SMS
 - Messaging
 - Communications
 - Business
-- BulkSMS
+- Bulk SMS
 ---

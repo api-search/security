@@ -5,19 +5,19 @@ api_specs:
   label: Spindl Events API
   slug: spindl-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spindl/refs/heads/main/openapi/spindl-events-api-openapi.yml
+  url: https://artifacts.apis.io/spindl/openapi/spindl-events-api-openapi.yml
 - filename: spindl-short-links-api-openapi.yml
   format: yaml
   label: Spindl Short Links API
   slug: spindl-short-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spindl/refs/heads/main/openapi/spindl-short-links-api-openapi.yml
+  url: https://artifacts.apis.io/spindl/openapi/spindl-short-links-api-openapi.yml
 - filename: spindl-ads-api-openapi.yml
   format: yaml
   label: Spindl Ads API
   slug: spindl-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spindl/refs/heads/main/openapi/spindl-ads-api-openapi.yml
+  url: https://artifacts.apis.io/spindl/openapi/spindl-ads-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: spindl-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: spindl.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 13:55:36 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.spindl.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 14:44:41 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.spindl.xyz\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 29 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: spindl.xyz\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spindl/refs/heads/main/security/spindl-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/spindl/security/spindl-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -7,31 +7,31 @@ api_specs:
   label: Warrant Check API
   slug: warrant-dev-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warrant-dev/refs/heads/main/openapi/warrant-dev-check-api-openapi.yml
+  url: https://artifacts.apis.io/warrant-dev/openapi/warrant-dev-check-api-openapi.yml
 - filename: warrant-dev-object-types-api-openapi.yml
   format: yaml
   label: Warrant Object Types API
   slug: warrant-dev-object-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warrant-dev/refs/heads/main/openapi/warrant-dev-object-types-api-openapi.yml
+  url: https://artifacts.apis.io/warrant-dev/openapi/warrant-dev-object-types-api-openapi.yml
 - filename: warrant-dev-objects-api-openapi.yml
   format: yaml
   label: Warrant Objects API
   slug: warrant-dev-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warrant-dev/refs/heads/main/openapi/warrant-dev-objects-api-openapi.yml
+  url: https://artifacts.apis.io/warrant-dev/openapi/warrant-dev-objects-api-openapi.yml
 - filename: warrant-dev-warrants-api-openapi.yml
   format: yaml
   label: Warrant Warrants API
   slug: warrant-dev-warrants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warrant-dev/refs/heads/main/openapi/warrant-dev-warrants-api-openapi.yml
+  url: https://artifacts.apis.io/warrant-dev/openapi/warrant-dev-warrants-api-openapi.yml
 - filename: warrant-dev-roles-permissions-api-openapi.yml
   format: yaml
   label: Warrant Roles & Permissions API
   slug: warrant-dev-roles-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warrant-dev/refs/heads/main/openapi/warrant-dev-roles-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/warrant-dev/openapi/warrant-dev-roles-permissions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: warrant-dev-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/warrant-dev-openapi.yml\nsummary:\n  types:\n  - apiKey\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  headerName: Authorization\n  description: >-\n    Warrant authenticated API requests with an API key passed in the\n    Authorization header as `Authorization: ApiKey YOUR_API_KEY`. Hosted keys\n    were issued from the Warrant dashboard; self-hosted deployments set the key\n    via the `ApiKey` value in the server configuration. Frontend/self-service\n    flows used short-lived session tokens minted from the API key server-side.\n    RETIRED - the hosted service was sunset 2025-11-15; the same header scheme\n    applies to the open-source self-hosted server.\n  sources:\n  - openapi/warrant-dev-openapi.yml\n  - https://github.com/warrant-dev/warrant\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/warrant-dev/refs/heads/main/authentication/warrant-dev-authentication.yml
+source_yaml_url: https://artifacts.apis.io/warrant-dev/authentication/warrant-dev-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Access Control

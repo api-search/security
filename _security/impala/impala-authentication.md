@@ -8,19 +8,19 @@ api_specs:
   label: Impala Bookings API
   slug: impala-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/openapi/impala-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/impala/openapi/impala-bookings-api-openapi.yml
 - filename: impala-hotels-api-openapi.yml
   format: yaml
   label: Impala Hotels API
   slug: impala-hotels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/openapi/impala-hotels-api-openapi.yml
+  url: https://artifacts.apis.io/impala/openapi/impala-hotels-api-openapi.yml
 - filename: impala-rate-calendar-api-openapi.yml
   format: yaml
   label: Impala Rate Calendar API
   slug: impala-rate-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/openapi/impala-rate-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/impala/openapi/impala-rate-calendar-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -54,7 +54,7 @@ source_filename: impala-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/impala-hotels-openapi-original.json\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: API_Key_Authentication\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/impala-hotels-openapi-original.json\n- name: paymentAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/impala-hotels-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/authentication/impala-authentication.yml
+source_yaml_url: https://artifacts.apis.io/impala/authentication/impala-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

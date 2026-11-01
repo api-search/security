@@ -7,31 +7,31 @@ api_specs:
   label: Ninja Van OAuth API
   slug: ninjavan-oauth-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/openapi/ninjavan-oauth-api-api-openapi.yml
+  url: https://artifacts.apis.io/ninjavan/openapi/ninjavan-oauth-api-api-openapi.yml
 - filename: ninjavan-order-api-api-openapi.yml
   format: yaml
   label: Ninja Van Order API
   slug: ninjavan-order-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/openapi/ninjavan-order-api-api-openapi.yml
+  url: https://artifacts.apis.io/ninjavan/openapi/ninjavan-order-api-api-openapi.yml
 - filename: ninjavan-pudo-api-api-openapi.yml
   format: yaml
   label: Ninja Van PUDO API
   slug: ninjavan-pudo-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/openapi/ninjavan-pudo-api-api-openapi.yml
+  url: https://artifacts.apis.io/ninjavan/openapi/ninjavan-pudo-api-api-openapi.yml
 - filename: ninjavan-tariff-api-api-openapi.yml
   format: yaml
   label: Ninja Van Tariff API
   slug: ninjavan-tariff-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/openapi/ninjavan-tariff-api-api-openapi.yml
+  url: https://artifacts.apis.io/ninjavan/openapi/ninjavan-tariff-api-api-openapi.yml
 - filename: ninjavan-tracking-api-api-openapi.yml
   format: yaml
   label: Ninja Van Tracking API
   slug: ninjavan-tracking-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/openapi/ninjavan-tracking-api-api-openapi.yml
+  url: https://artifacts.apis.io/ninjavan/openapi/ninjavan-tracking-api-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -68,7 +68,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: derived\nsource: openapi/ninjavan-openapi.yml\nsummary:\n  types:\n  - oauth2\n  - http\nschemes:\n- name: oauth2ClientCredentials\n  type: oauth2\n  flow: clientCredentials\n  tokenUrl: https://api.ninjavan.co/{countryCode}/2.0/oauth/access_token\n  description: >-\n    Ninja Van uses the OAuth2 client-credentials grant. POST your client_id,\n    client_secret, and grant_type=client_credentials to\n    /{countryCode}/2.0/oauth/access_token to receive a short-lived access token.\n    The token should be cached with its expiry and regenerated within about five\n    minutes of expiry, or whenever the API returns HTTP 401. Client credentials\n    are issued per merchant during onboarding; production access additionally\n    requires passing Ninja Van's integration audit.\n  sources:\n  - openapi/ninjavan-openapi.yml\n  - https://api-docs.ninjavan.co/\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    The OAuth2 access token\
   \ is passed on every subsequent request as\n    `Authorization: Bearer ACCESS_TOKEN`.\n  sources:\n  - openapi/ninjavan-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/authentication/ninjavan-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ninjavan/authentication/ninjavan-authentication.yml
 summary_line: oauth2/http · 2 schemes
 tags:
 - Logistics

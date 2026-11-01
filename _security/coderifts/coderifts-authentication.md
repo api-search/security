@@ -34,7 +34,7 @@ source_filename: coderifts-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-16'\nmethod: derived\nsource: openapi/coderifts-openapi.json\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/coderifts-openapi.json\n- name: bearer\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/coderifts-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coderifts/refs/heads/main/authentication/coderifts-authentication.yml
+source_yaml_url: https://artifacts.apis.io/coderifts/authentication/coderifts-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

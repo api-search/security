@@ -5,49 +5,49 @@ api_specs:
   label: Credilinq.ai Authentication API
   slug: credilinqai-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/openapi/credilinqai-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/credilinqai/openapi/credilinqai-authentication-api-openapi.yml
 - filename: credilinqai-customers-api-openapi.yml
   format: yaml
   label: Credilinq.ai Customers API
   slug: credilinqai-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/openapi/credilinqai-customers-api-openapi.yml
+  url: https://artifacts.apis.io/credilinqai/openapi/credilinqai-customers-api-openapi.yml
 - filename: credilinqai-kyc-api-openapi.yml
   format: yaml
   label: Credilinq.ai KYC API
   slug: credilinqai-kyc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/openapi/credilinqai-kyc-api-openapi.yml
+  url: https://artifacts.apis.io/credilinqai/openapi/credilinqai-kyc-api-openapi.yml
 - filename: credilinqai-loans-api-openapi.yml
   format: yaml
   label: Credilinq.ai Loans API
   slug: credilinqai-loans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/openapi/credilinqai-loans-api-openapi.yml
+  url: https://artifacts.apis.io/credilinqai/openapi/credilinqai-loans-api-openapi.yml
 - filename: credilinqai-miscellaneous-api-openapi.yml
   format: yaml
   label: Credilinq.ai Miscellaneous API
   slug: credilinqai-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/openapi/credilinqai-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/credilinqai/openapi/credilinqai-miscellaneous-api-openapi.yml
 - filename: credilinqai-onboarding-api-openapi.yml
   format: yaml
   label: Credilinq.ai Onboarding API
   slug: credilinqai-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/openapi/credilinqai-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/credilinqai/openapi/credilinqai-onboarding-api-openapi.yml
 - filename: credilinqai-payment-api-openapi.yml
   format: yaml
   label: Credilinq.ai Payment API
   slug: credilinqai-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/openapi/credilinqai-payment-api-openapi.yml
+  url: https://artifacts.apis.io/credilinqai/openapi/credilinqai-payment-api-openapi.yml
 - filename: credilinqai-report-api-openapi.yml
   format: yaml
   label: Credilinq.ai Report API
   slug: credilinqai-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/openapi/credilinqai-report-api-openapi.yml
+  url: https://artifacts.apis.io/credilinqai/openapi/credilinqai-report-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -87,7 +87,7 @@ source_filename: credilinqai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: credilinq.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 04:00:24 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: sandbox-api.credilinq.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  9 23:59:59 2026 GMT\n  hsts: false\n- host: stage-api.credilinq.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  9 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: credilinq.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/security/credilinqai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/credilinqai/security/credilinqai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

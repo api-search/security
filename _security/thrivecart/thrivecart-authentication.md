@@ -7,67 +7,67 @@ api_specs:
   label: ThriveCart Account API
   slug: thrivecart-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thrivecart/refs/heads/main/openapi/thrivecart-account-api-openapi.yml
+  url: https://artifacts.apis.io/thrivecart/openapi/thrivecart-account-api-openapi.yml
 - filename: thrivecart-affiliates-api-openapi.yml
   format: yaml
   label: ThriveCart Affiliates API
   slug: thrivecart-affiliates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thrivecart/refs/heads/main/openapi/thrivecart-affiliates-api-openapi.yml
+  url: https://artifacts.apis.io/thrivecart/openapi/thrivecart-affiliates-api-openapi.yml
 - filename: thrivecart-bumps-api-openapi.yml
   format: yaml
   label: ThriveCart Bumps API
   slug: thrivecart-bumps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thrivecart/refs/heads/main/openapi/thrivecart-bumps-api-openapi.yml
+  url: https://artifacts.apis.io/thrivecart/openapi/thrivecart-bumps-api-openapi.yml
 - filename: thrivecart-customers-api-openapi.yml
   format: yaml
   label: ThriveCart Customers API
   slug: thrivecart-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thrivecart/refs/heads/main/openapi/thrivecart-customers-api-openapi.yml
+  url: https://artifacts.apis.io/thrivecart/openapi/thrivecart-customers-api-openapi.yml
 - filename: thrivecart-downsells-api-openapi.yml
   format: yaml
   label: ThriveCart Downsells API
   slug: thrivecart-downsells-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thrivecart/refs/heads/main/openapi/thrivecart-downsells-api-openapi.yml
+  url: https://artifacts.apis.io/thrivecart/openapi/thrivecart-downsells-api-openapi.yml
 - filename: thrivecart-event-subscriptions-api-openapi.yml
   format: yaml
   label: ThriveCart Event subscriptions API
   slug: thrivecart-event-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thrivecart/refs/heads/main/openapi/thrivecart-event-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/thrivecart/openapi/thrivecart-event-subscriptions-api-openapi.yml
 - filename: thrivecart-learn-api-openapi.yml
   format: yaml
   label: ThriveCart Learn API
   slug: thrivecart-learn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thrivecart/refs/heads/main/openapi/thrivecart-learn-api-openapi.yml
+  url: https://artifacts.apis.io/thrivecart/openapi/thrivecart-learn-api-openapi.yml
 - filename: thrivecart-products-api-openapi.yml
   format: yaml
   label: ThriveCart Products API
   slug: thrivecart-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thrivecart/refs/heads/main/openapi/thrivecart-products-api-openapi.yml
+  url: https://artifacts.apis.io/thrivecart/openapi/thrivecart-products-api-openapi.yml
 - filename: thrivecart-subscriptions-api-openapi.yml
   format: yaml
   label: ThriveCart Subscriptions API
   slug: thrivecart-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thrivecart/refs/heads/main/openapi/thrivecart-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/thrivecart/openapi/thrivecart-subscriptions-api-openapi.yml
 - filename: thrivecart-transactions-api-openapi.yml
   format: yaml
   label: ThriveCart Transactions API
   slug: thrivecart-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thrivecart/refs/heads/main/openapi/thrivecart-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/thrivecart/openapi/thrivecart-transactions-api-openapi.yml
 - filename: thrivecart-upsells-api-openapi.yml
   format: yaml
   label: ThriveCart Upsells API
   slug: thrivecart-upsells-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thrivecart/refs/heads/main/openapi/thrivecart-upsells-api-openapi.yml
+  url: https://artifacts.apis.io/thrivecart/openapi/thrivecart-upsells-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -106,7 +106,7 @@ source_filename: thrivecart-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: derived\nsource: openapi/thrivecart-api-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Account-scoped API key created under Settings > API & webhooks > API tokens,\n    or an OAuth access token, sent as `Authorization: Bearer <token>`.'\n  sources:\n  - openapi/thrivecart-api-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://thrivecart.com/authorization/new\n    tokenUrl: https://thrivecart.com/authorization/token\n    scopes: 0\n  description: OAuth 2.0 authorization code grant for applications acting on behalf of another\n    ThriveCart account. ThriveCart does not publish a scope reference; access is granted account-wide\n    on consent.\n  sources:\n  - openapi/thrivecart-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thrivecart/refs/heads/main/authentication/thrivecart-authentication.yml
+source_yaml_url: https://artifacts.apis.io/thrivecart/authentication/thrivecart-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

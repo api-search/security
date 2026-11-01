@@ -5,49 +5,49 @@ api_specs:
   label: Jotform Folder API
   slug: jotform-folder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/openapi/jotform-folder-api-openapi.yml
+  url: https://artifacts.apis.io/jotform/openapi/jotform-folder-api-openapi.yml
 - filename: jotform-form-api-openapi.yml
   format: yaml
   label: Jotform Form API
   slug: jotform-form-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/openapi/jotform-form-api-openapi.yml
+  url: https://artifacts.apis.io/jotform/openapi/jotform-form-api-openapi.yml
 - filename: jotform-label-api-openapi.yml
   format: yaml
   label: Jotform Label API
   slug: jotform-label-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/openapi/jotform-label-api-openapi.yml
+  url: https://artifacts.apis.io/jotform/openapi/jotform-label-api-openapi.yml
 - filename: jotform-report-api-openapi.yml
   format: yaml
   label: Jotform Report API
   slug: jotform-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/openapi/jotform-report-api-openapi.yml
+  url: https://artifacts.apis.io/jotform/openapi/jotform-report-api-openapi.yml
 - filename: jotform-submission-api-openapi.yml
   format: yaml
   label: Jotform Submission API
   slug: jotform-submission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/openapi/jotform-submission-api-openapi.yml
+  url: https://artifacts.apis.io/jotform/openapi/jotform-submission-api-openapi.yml
 - filename: jotform-system-api-openapi.yml
   format: yaml
   label: Jotform System API
   slug: jotform-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/openapi/jotform-system-api-openapi.yml
+  url: https://artifacts.apis.io/jotform/openapi/jotform-system-api-openapi.yml
 - filename: jotform-user-api-openapi.yml
   format: yaml
   label: Jotform User API
   slug: jotform-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/openapi/jotform-user-api-openapi.yml
+  url: https://artifacts.apis.io/jotform/openapi/jotform-user-api-openapi.yml
 - filename: jotform-webhook-api-openapi.yml
   format: yaml
   label: Jotform Webhook API
   slug: jotform-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/openapi/jotform-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/jotform/openapi/jotform-webhook-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -87,7 +87,7 @@ source_filename: jotform-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.jotform.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.jotform.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 23:59:59 2026 GMT\n  hsts: null\n- host: eu-api.jotform.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: jotform.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/security/jotform-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/jotform/security/jotform-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Forms

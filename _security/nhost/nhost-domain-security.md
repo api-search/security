@@ -5,67 +5,67 @@ api_specs:
   label: Nhost Authentication API
   slug: nhost-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-authentication-api-openapi.yml
 - filename: nhost-documentation-api-openapi.yml
   format: yaml
   label: Nhost Documentation API
   slug: nhost-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-documentation-api-openapi.yml
 - filename: nhost-excludeme-api-openapi.yml
   format: yaml
   label: Nhost Excludeme API
   slug: nhost-excludeme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-excludeme-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-excludeme-api-openapi.yml
 - filename: nhost-files-api-openapi.yml
   format: yaml
   label: Nhost Files API
   slug: nhost-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-files-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-files-api-openapi.yml
 - filename: nhost-operations-api-openapi.yml
   format: yaml
   label: Nhost Operations API
   slug: nhost-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-operations-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-operations-api-openapi.yml
 - filename: nhost-security-api-openapi.yml
   format: yaml
   label: Nhost Security API
   slug: nhost-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-security-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-security-api-openapi.yml
 - filename: nhost-session-api-openapi.yml
   format: yaml
   label: Nhost Session API
   slug: nhost-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-session-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-session-api-openapi.yml
 - filename: nhost-storage-api-openapi.yml
   format: yaml
   label: Nhost Storage API
   slug: nhost-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-storage-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-storage-api-openapi.yml
 - filename: nhost-system-api-openapi.yml
   format: yaml
   label: Nhost System API
   slug: nhost-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-system-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-system-api-openapi.yml
 - filename: nhost-user-api-openapi.yml
   format: yaml
   label: Nhost User API
   slug: nhost-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-user-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-user-api-openapi.yml
 - filename: nhost-verification-api-openapi.yml
   format: yaml
   label: Nhost Verification API
   slug: nhost-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-verification-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-verification-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -104,7 +104,7 @@ source_filename: nhost-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: nhost.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 10 05:56:32 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.nhost.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 12:38:19 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: nhost.io\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/security/nhost-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nhost/security/nhost-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - GraphQL

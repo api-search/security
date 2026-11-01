@@ -34,7 +34,7 @@ source_filename: tecovas-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tecovas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 23:13:02 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: checkout.tecovas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 19:47:32 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\ndomains:\n- domain: tecovas.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tecovas/refs/heads/main/security/tecovas-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tecovas/security/tecovas-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -69,11 +69,10 @@ source_filename: git-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-16'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: git-scm.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 09:00:38 2026 GMT\n  hsts: false\n- host: docs.gitlab.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 12:39:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: gitlab.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: git-scm.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: gitlab.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/git/refs/heads/main/security/git-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/git/security/git-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Distributed
-- Git
-- Open Source
 - Version Control
+- Open Source
 ---

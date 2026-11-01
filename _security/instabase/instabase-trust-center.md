@@ -5,37 +5,37 @@ api_specs:
   label: Instabase Audit API
   slug: instabase-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/openapi/instabase-audit-api-openapi.yml
+  url: https://artifacts.apis.io/instabase/openapi/instabase-audit-api-openapi.yml
 - filename: instabase-batches-api-openapi.yml
   format: yaml
   label: Instabase Batches API
   slug: instabase-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/openapi/instabase-batches-api-openapi.yml
+  url: https://artifacts.apis.io/instabase/openapi/instabase-batches-api-openapi.yml
 - filename: instabase-files-api-openapi.yml
   format: yaml
   label: Instabase Files API
   slug: instabase-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/openapi/instabase-files-api-openapi.yml
+  url: https://artifacts.apis.io/instabase/openapi/instabase-files-api-openapi.yml
 - filename: instabase-jobs-api-openapi.yml
   format: yaml
   label: Instabase Jobs API
   slug: instabase-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/openapi/instabase-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/instabase/openapi/instabase-jobs-api-openapi.yml
 - filename: instabase-runs-api-openapi.yml
   format: yaml
   label: Instabase Runs API
   slug: instabase-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/openapi/instabase-runs-api-openapi.yml
+  url: https://artifacts.apis.io/instabase/openapi/instabase-runs-api-openapi.yml
 - filename: instabase-secrets-api-openapi.yml
   format: yaml
   label: Instabase Secrets API
   slug: instabase-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/openapi/instabase-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/instabase/openapi/instabase-secrets-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -54,7 +54,7 @@ source_filename: instabase-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nprobe: true\nsource: https://trust.instabase.com/\nurl: https://trust.instabase.com/\ncertifications:\n- SOC 2\n- HIPAA\n- GDPR\nevidence:\n- source: https://trust.instabase.com/\n  keywords:\n  - soc 2\n  - hipaa\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/security/instabase-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/instabase/security/instabase-trust-center.yml
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Company

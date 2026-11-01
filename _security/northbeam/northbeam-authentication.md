@@ -8,43 +8,43 @@ api_specs:
   label: Northbeam Attribution Models API
   slug: northbeam-attribution-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/openapi/northbeam-attribution-models-api-openapi.yml
+  url: https://artifacts.apis.io/northbeam/openapi/northbeam-attribution-models-api-openapi.yml
 - filename: northbeam-breakdowns-api-openapi.yml
   format: yaml
   label: Northbeam Breakdowns API
   slug: northbeam-breakdowns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/openapi/northbeam-breakdowns-api-openapi.yml
+  url: https://artifacts.apis.io/northbeam/openapi/northbeam-breakdowns-api-openapi.yml
 - filename: northbeam-data-export-api-openapi.yml
   format: yaml
   label: Northbeam Data Export API
   slug: northbeam-data-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/openapi/northbeam-data-export-api-openapi.yml
+  url: https://artifacts.apis.io/northbeam/openapi/northbeam-data-export-api-openapi.yml
 - filename: northbeam-metrics-api-openapi.yml
   format: yaml
   label: Northbeam Metrics API
   slug: northbeam-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/openapi/northbeam-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/northbeam/openapi/northbeam-metrics-api-openapi.yml
 - filename: northbeam-orders-api-openapi.yml
   format: yaml
   label: Northbeam Orders API
   slug: northbeam-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/openapi/northbeam-orders-api-openapi.yml
+  url: https://artifacts.apis.io/northbeam/openapi/northbeam-orders-api-openapi.yml
 - filename: northbeam-spend-api-openapi.yml
   format: yaml
   label: Northbeam Spend API
   slug: northbeam-spend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/openapi/northbeam-spend-api-openapi.yml
+  url: https://artifacts.apis.io/northbeam/openapi/northbeam-spend-api-openapi.yml
 - filename: northbeam-spend-hourly-api-openapi.yml
   format: yaml
   label: Northbeam Spend Hourly API
   slug: northbeam-spend-hourly-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/openapi/northbeam-spend-hourly-api-openapi.yml
+  url: https://artifacts.apis.io/northbeam/openapi/northbeam-spend-hourly-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -83,7 +83,7 @@ source_filename: northbeam-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/northbeam-data-export-v1-openapi.yml, openapi/northbeam-orders-v1-openapi.yml,\n  openapi/northbeam-orders-v2-openapi.yml, openapi/northbeam-spend-v1-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: api_key\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/northbeam-data-export-v1-openapi.yml\n  - openapi/northbeam-orders-v1-openapi.yml\n  - openapi/northbeam-orders-v2-openapi.yml\n  - openapi/northbeam-spend-v1-openapi.yml\n- name: client_id\n  type: apiKey\n  in: header\n  parameter: Data-Client-ID\n  sources:\n  - openapi/northbeam-data-export-v1-openapi.yml\n  - openapi/northbeam-orders-v1-openapi.yml\n  - openapi/northbeam-orders-v2-openapi.yml\n  - openapi/northbeam-spend-v1-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/authentication/northbeam-authentication.yml
+source_yaml_url: https://artifacts.apis.io/northbeam/authentication/northbeam-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Marketing Attribution

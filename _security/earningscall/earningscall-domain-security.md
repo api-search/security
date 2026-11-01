@@ -1,47 +1,53 @@
 ---
 api_specs:
+- filename: earningscall-openapi-generated.yml
+  format: yaml
+  label: EarningsCall API
+  slug: earningscall-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/earningscall/openapi/_ae-authored/earningscall-openapi-generated.yml
 - filename: earningscall-audio-api-openapi.yml
   format: yaml
   label: EarningsCall Audio API
   slug: earningscall-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/earningscall/refs/heads/main/openapi/earningscall-audio-api-openapi.yml
+  url: https://artifacts.apis.io/earningscall/openapi/earningscall-audio-api-openapi.yml
 - filename: earningscall-calendar-api-openapi.yml
   format: yaml
   label: EarningsCall Calendar API
   slug: earningscall-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/earningscall/refs/heads/main/openapi/earningscall-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/earningscall/openapi/earningscall-calendar-api-openapi.yml
 - filename: earningscall-events-api-openapi.yml
   format: yaml
   label: EarningsCall Events API
   slug: earningscall-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/earningscall/refs/heads/main/openapi/earningscall-events-api-openapi.yml
+  url: https://artifacts.apis.io/earningscall/openapi/earningscall-events-api-openapi.yml
 - filename: earningscall-live-api-openapi.yml
   format: yaml
   label: EarningsCall Live API
   slug: earningscall-live-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/earningscall/refs/heads/main/openapi/earningscall-live-api-openapi.yml
+  url: https://artifacts.apis.io/earningscall/openapi/earningscall-live-api-openapi.yml
 - filename: earningscall-slides-api-openapi.yml
   format: yaml
   label: EarningsCall Slides API
   slug: earningscall-slides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/earningscall/refs/heads/main/openapi/earningscall-slides-api-openapi.yml
+  url: https://artifacts.apis.io/earningscall/openapi/earningscall-slides-api-openapi.yml
 - filename: earningscall-symbols-api-openapi.yml
   format: yaml
   label: EarningsCall Symbols API
   slug: earningscall-symbols-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/earningscall/refs/heads/main/openapi/earningscall-symbols-api-openapi.yml
+  url: https://artifacts.apis.io/earningscall/openapi/earningscall-symbols-api-openapi.yml
 - filename: earningscall-transcript-api-openapi.yml
   format: yaml
   label: EarningsCall Transcript API
   slug: earningscall-transcript-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/earningscall/refs/heads/main/openapi/earningscall-transcript-api-openapi.yml
+  url: https://artifacts.apis.io/earningscall/openapi/earningscall-transcript-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +76,7 @@ source_filename: earningscall-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-16'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: earningscall.biz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 10 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: earningscall.biz\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/earningscall/refs/heads/main/security/earningscall-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/earningscall/security/earningscall-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -8,7 +8,7 @@ api_specs:
   label: AmunCore Dynamic API
   slug: amuncore-dynamic-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/openapi/amuncore-dynamic-api-api-openapi.yml
+  url: https://artifacts.apis.io/amuncore/openapi/amuncore-dynamic-api-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-08-10'\nmethod: searched\nstatus: published\nsour
   \ secret distinct from the REST API keys, scoped to a single company and\n    disableable per company. Confirmed live: an unauthenticated JSON-RPC POST\n    returns -32001 \"Unauthorized: missing MCP-Token header\".\n- id: mcp-oauth\n  name: OAuth 2.0 (MCP)\n  type: oauth2\n  applies_to: MCP endpoint (https://amuncore.com/mcp)\n  source: https://amuncore.com/.well-known/oauth-authorization-server\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://amuncore.com/oauth/authorize\n    tokenUrl: https://amuncore.com/oauth/token\n    scopes:\n      mcp: Access the AmunCore MCP endpoint.\n    pkce: S256\n  grant_types: [authorization_code, refresh_token]\n  registration_endpoint: https://amuncore.com/oauth/register\n  token_endpoint_auth_methods: [none, client_secret_post]\n  detail: scopes/amuncore-scopes.yml\naccount_security:\n  two_factor: Optional TOTP 2FA on dashboard sign-in, with one-time recovery codes and administrator reset.\n  password_storage: BCrypt hashes.\n \
   \ secret_storage: Database connection strings and 2FA secrets encrypted at rest with AES-256.\n  roles: [SuperAdmin, Admin, Developer, Viewer]\n  tenant_isolation: Strict per-company separation enforced on every request.\n  source: https://amuncore.com/security.html\nsignup:\n  url: https://amuncore.com/Register\n  login: https://amuncore.com/Auth/Login\n  free_plan: true\n  note: '\"Free plan forever\" per the homepage pricing table; no card required to begin.'\ngaps:\n- No OpenID Connect. /.well-known/openid-configuration returns 404, so the OAuth\n  layer carries no identity token for the acting agent.\n- No SSO. The provider's own security page lists OAuth2/SAML single sign-on as\n  roadmap, not shipped.\n- The X-Api-Key parameter is declared on each operation with required omitted, so\n  a strict reader of the spec cannot tell the key is mandatory from the parameter\n  alone — only the securitySchemes block and the prose say so.\nevidence:\n- url: https://amuncore.com/openapi.json\n\
   \  status: 200\n- url: https://amuncore.com/api/v1/demo/customers\n  status: 404\n  method: GET\n  note: Unauthenticated call returned the real JSON auth-failure envelope, not HTML.\n- url: https://amuncore.com/mcp\n  status: 401\n  method: POST\n- url: https://amuncore.com/.well-known/oauth-authorization-server\n  status: 200\n- url: https://amuncore.com/security.html\n  status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/authentication/amuncore-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amuncore/authentication/amuncore-authentication.yml
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - Database

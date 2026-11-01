@@ -7,49 +7,49 @@ api_specs:
   label: Trelica Application Users API
   slug: trelica-application-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-application-users-api-openapi.yml
+  url: https://artifacts.apis.io/trelica/openapi/trelica-application-users-api-openapi.yml
 - filename: trelica-applications-api-openapi.yml
   format: yaml
   label: Trelica Applications API
   slug: trelica-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-applications-api-openapi.yml
+  url: https://artifacts.apis.io/trelica/openapi/trelica-applications-api-openapi.yml
 - filename: trelica-assets-api-openapi.yml
   format: yaml
   label: Trelica Assets API
   slug: trelica-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-assets-api-openapi.yml
+  url: https://artifacts.apis.io/trelica/openapi/trelica-assets-api-openapi.yml
 - filename: trelica-audit-log-api-openapi.yml
   format: yaml
   label: Trelica Audit Log API
   slug: trelica-audit-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-audit-log-api-openapi.yml
+  url: https://artifacts.apis.io/trelica/openapi/trelica-audit-log-api-openapi.yml
 - filename: trelica-contracts-api-openapi.yml
   format: yaml
   label: Trelica Contracts API
   slug: trelica-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/trelica/openapi/trelica-contracts-api-openapi.yml
 - filename: trelica-people-api-openapi.yml
   format: yaml
   label: Trelica People API
   slug: trelica-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-people-api-openapi.yml
+  url: https://artifacts.apis.io/trelica/openapi/trelica-people-api-openapi.yml
 - filename: trelica-users-scim-api-openapi.yml
   format: yaml
   label: Trelica Users (SCIM) API
   slug: trelica-users-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-users-scim-api-openapi.yml
+  url: https://artifacts.apis.io/trelica/openapi/trelica-users-scim-api-openapi.yml
 - filename: trelica-workflows-api-openapi.yml
   format: yaml
   label: Trelica Workflows API
   slug: trelica-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/trelica/openapi/trelica-workflows-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -91,7 +91,7 @@ source_filename: trelica-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/trelica-rest-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: OAuth2ClientCredentials\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://app.trelica.com/connect/token\n    scopes: 9\n  description: OAuth 2.0 Client Credentials flow for server-to-server integrations\n  sources:\n  - openapi/trelica-rest-api-openapi.yml\n- name: OAuth2AuthorizationCode\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.trelica.com/connect/authorize\n    tokenUrl: https://app.trelica.com/connect/token\n    scopes: 9\n  description: OAuth 2.0 Authorization Code flow for third-party developer apps\n  sources:\n  - openapi/trelica-rest-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/authentication/trelica-authentication.yml
+source_yaml_url: https://artifacts.apis.io/trelica/authentication/trelica-authentication.yml
 summary_line: oauth2 · 2 schemes
 tags:
 - Contract Management

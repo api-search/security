@@ -27,7 +27,7 @@ source_filename: custodian-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: getcustodian.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep  5 08:12:19 2026 GMT\n  hsts: false\ndomains:\n- domain: getcustodian.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/custodian/refs/heads/main/security/custodian-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/custodian/security/custodian-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

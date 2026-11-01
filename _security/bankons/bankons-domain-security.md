@@ -27,7 +27,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bankons.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 23:14:15 2026 GMT\n  hsts: false\ndomains:\n- domain: bankons.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\nnotes:\n- bankons.com is a parked GoDaddy lander that returns HTTP 200 for every path (soft-404), so status codes alone\n  are not evidence of a published document. All /.well-known/ probes returned the lander body, not real documents.\ndangling_dns:\n- host: api.bankons.com\n  record: CNAME bankons-api.elasticbeanstalk.com\n  resolves: false\n  connect: failed\n  risk: subdomain-takeover candidate (CNAME to a deleted AWS Elastic Beanstalk environment)\n- host: dev.bankons.com\n  record: CNAME bankons-dev.elasticbeanstalk.com\n  resolves: false\n  connect: failed\n  risk: subdomain-takeover candidate (CNAME to a deleted AWS Elastic Beanstalk environment)\n- host:\
   \ docs.bankons.com\n  record: CNAME ghs.google.com\n  resolves: true\n  http_status: 404\n  risk: dangling CNAME to unclaimed Google-hosted site\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bankons/refs/heads/main/security/bankons-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bankons/security/bankons-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

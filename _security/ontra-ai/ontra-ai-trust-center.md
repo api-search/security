@@ -19,7 +19,7 @@ source_filename: ontra-ai-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nprobe: false\nsource: https://www.ontra.ai/products/security-and-privacy/\nurl: https://www.ontra.ai/products/security-and-privacy/\nnote: >-\n  https://www.ontra.ai/products/security-and-trust/ 301-redirects to the\n  security-and-privacy page, which publishes Ontra's enterprise-grade\n  certifications and data-protection posture. No dedicated trust.<domain>\n  portal was found.\ncertifications:\n- SOC 2 Type 2 (all 5 trust services criteria)\n- ISO 27001:2022\n- ISO 42001\n- GDPR\n- CCPA\nevidence:\n- source: https://www.ontra.ai/products/security-and-privacy/\n  keywords:\n  - soc 2 type 2\n  - iso 27001:2022\n  - iso 42001\n  - gdpr\n  - ccpa\n  - enterprise-grade certifications\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ontra-ai/refs/heads/main/security/ontra-ai-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/ontra-ai/security/ontra-ai-trust-center.yml
 summary_line: SOC 2 Type 2 (all 5 trust services criteria), ISO 27001:2022, ISO 42001, GDPR, CCPA
 tags:
 - Company

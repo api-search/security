@@ -5,31 +5,31 @@ api_specs:
   label: UniUni Batches API
   slug: uniuni-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/openapi/uniuni-batches-api-openapi.yml
+  url: https://artifacts.apis.io/uniuni/openapi/uniuni-batches-api-openapi.yml
 - filename: uniuni-labels-api-openapi.yml
   format: yaml
   label: UniUni Labels API
   slug: uniuni-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/openapi/uniuni-labels-api-openapi.yml
+  url: https://artifacts.apis.io/uniuni/openapi/uniuni-labels-api-openapi.yml
 - filename: uniuni-shipments-api-openapi.yml
   format: yaml
   label: UniUni Shipments API
   slug: uniuni-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/openapi/uniuni-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/uniuni/openapi/uniuni-shipments-api-openapi.yml
 - filename: uniuni-tracking-api-openapi.yml
   format: yaml
   label: UniUni Tracking API
   slug: uniuni-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/openapi/uniuni-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/uniuni/openapi/uniuni-tracking-api-openapi.yml
 - filename: uniuni-webhooks-api-openapi.yml
   format: yaml
   label: UniUni Webhooks API
   slug: uniuni-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/openapi/uniuni-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/uniuni/openapi/uniuni-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: uniuni-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.uniuni.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 23:59:59 2026 GMT\n  hsts: false\n- host: help.ship.uniuni.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 10:12:32 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.ship.uniuni.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: uniuni.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/security/uniuni-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/uniuni/security/uniuni-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

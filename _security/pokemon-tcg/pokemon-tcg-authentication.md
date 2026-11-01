@@ -8,19 +8,19 @@ api_specs:
   label: Pokémon TCG API Cards API
   slug: pokemon-tcg-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokemon-tcg/refs/heads/main/openapi/pokemon-tcg-cards-api-openapi.yml
+  url: https://artifacts.apis.io/pokemon-tcg/openapi/pokemon-tcg-cards-api-openapi.yml
 - filename: pokemon-tcg-metadata-api-openapi.yml
   format: yaml
   label: Pokémon TCG API Metadata API
   slug: pokemon-tcg-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokemon-tcg/refs/heads/main/openapi/pokemon-tcg-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/pokemon-tcg/openapi/pokemon-tcg-metadata-api-openapi.yml
 - filename: pokemon-tcg-sets-api-openapi.yml
   format: yaml
   label: Pokémon TCG API Sets API
   slug: pokemon-tcg-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokemon-tcg/refs/heads/main/openapi/pokemon-tcg-sets-api-openapi.yml
+  url: https://artifacts.apis.io/pokemon-tcg/openapi/pokemon-tcg-sets-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: pokemon-tcg-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pokemon-tcg-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-Api-Key\n  description: Optional API key from the Pokémon TCG Developer Portal (https://dev.pokemontcg.io).\n    Requests without a key still work but are rate limited to 1,000 requests/day (max 30/minute);\n    a free key raises the default limit to 20,000 requests/day.\n  sources:\n  - openapi/pokemon-tcg-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pokemon-tcg/refs/heads/main/authentication/pokemon-tcg-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pokemon-tcg/authentication/pokemon-tcg-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Pokemon

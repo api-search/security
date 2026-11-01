@@ -5,25 +5,25 @@ api_specs:
   label: CleverTap Campaigns API
   slug: clevertap-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/openapi/clevertap-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/clevertap/openapi/clevertap-campaigns-api-openapi.yml
 - filename: clevertap-events-api-openapi.yml
   format: yaml
   label: CleverTap Events API
   slug: clevertap-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/openapi/clevertap-events-api-openapi.yml
+  url: https://artifacts.apis.io/clevertap/openapi/clevertap-events-api-openapi.yml
 - filename: clevertap-profiles-api-openapi.yml
   format: yaml
   label: CleverTap Profiles API
   slug: clevertap-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/openapi/clevertap-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/clevertap/openapi/clevertap-profiles-api-openapi.yml
 - filename: clevertap-reports-api-openapi.yml
   format: yaml
   label: CleverTap Reports API
   slug: clevertap-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/openapi/clevertap-reports-api-openapi.yml
+  url: https://artifacts.apis.io/clevertap/openapi/clevertap-reports-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: clevertap-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: clevertap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 16:47:45 2026 GMT\n  hsts: false\n- host: developer.clevertap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 14:28:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: clevertap.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/security/clevertap-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/clevertap/security/clevertap-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Audiences

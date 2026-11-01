@@ -5,31 +5,31 @@ api_specs:
   label: Magaya Invoices API
   slug: magaya-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magaya/refs/heads/main/openapi/magaya-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/magaya/openapi/magaya-invoices-api-openapi.yml
 - filename: magaya-items-api-openapi.yml
   format: yaml
   label: Magaya Items API
   slug: magaya-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magaya/refs/heads/main/openapi/magaya-items-api-openapi.yml
+  url: https://artifacts.apis.io/magaya/openapi/magaya-items-api-openapi.yml
 - filename: magaya-shipments-api-openapi.yml
   format: yaml
   label: Magaya Shipments API
   slug: magaya-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magaya/refs/heads/main/openapi/magaya-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/magaya/openapi/magaya-shipments-api-openapi.yml
 - filename: magaya-transactions-api-openapi.yml
   format: yaml
   label: Magaya Transactions API
   slug: magaya-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magaya/refs/heads/main/openapi/magaya-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/magaya/openapi/magaya-transactions-api-openapi.yml
 - filename: magaya-warehouse-receipts-api-openapi.yml
   format: yaml
   label: Magaya Warehouse Receipts API
   slug: magaya-warehouse-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magaya/refs/heads/main/openapi/magaya-warehouse-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/magaya/openapi/magaya-warehouse-receipts-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -66,7 +66,7 @@ source_filename: magaya-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.magaya.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 21 14:46:03 2026 GMT\n  hsts: false\n- host: systemid.magayacloud.com\n  https: false\ndomains:\n- domain: magaya.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: magayacloud.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/magaya/refs/heads/main/security/magaya-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/magaya/security/magaya-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Logistics

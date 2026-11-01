@@ -7,25 +7,25 @@ api_specs:
   label: HyperPay COPYandPAY API
   slug: hyperpay-copyandpay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/openapi/hyperpay-copyandpay-api-openapi.yml
+  url: https://artifacts.apis.io/hyperpay/openapi/hyperpay-copyandpay-api-openapi.yml
 - filename: hyperpay-payments-api-openapi.yml
   format: yaml
   label: HyperPay Payments API
   slug: hyperpay-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/openapi/hyperpay-payments-api-openapi.yml
+  url: https://artifacts.apis.io/hyperpay/openapi/hyperpay-payments-api-openapi.yml
 - filename: hyperpay-query-api-openapi.yml
   format: yaml
   label: HyperPay Query API
   slug: hyperpay-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/openapi/hyperpay-query-api-openapi.yml
+  url: https://artifacts.apis.io/hyperpay/openapi/hyperpay-query-api-openapi.yml
 - filename: hyperpay-registrations-api-openapi.yml
   format: yaml
   label: HyperPay Registrations API
   slug: hyperpay-registrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/openapi/hyperpay-registrations-api-openapi.yml
+  url: https://artifacts.apis.io/hyperpay/openapi/hyperpay-registrations-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -60,7 +60,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: openapi/hyperpay-openapi.yml\ndocs: https://hyperpay.docs.oppwa.com/reference/parameters\nsummary:\n  types:\n  - http\nnotes: >-\n  HyperPay (ACI / OPPWA) authenticates every request with TWO credentials issued\n  together: an `entityId` channel identifier (a form field on writes, a query\n  parameter on reads) that scopes the request to a specific merchant channel, and\n  an `Authorization: Bearer <access-token>` header. Requests are\n  application/x-www-form-urlencoded over TLS. Separate entityId values are issued\n  per payment-method channel (e.g. one for cards, one for mada, one for Apple\n  Pay). Test and live use distinct credentials and hosts.\nschemes:\n- name: bearer_token\n  type: http\n  scheme: bearer\n  bearerFormat: accessToken\n  sources:\n  - openapi/hyperpay-openapi.yml\n- name: entity_id\n  type: apiKey\n  in: query\n  paramName: entityId\n  note: Also sent as a form field on POST requests; identifies the\
   \ merchant channel.\n  sources:\n  - openapi/hyperpay-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/authentication/hyperpay-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hyperpay/authentication/hyperpay-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Payments

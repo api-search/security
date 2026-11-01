@@ -7,19 +7,19 @@ api_specs:
   label: Bytescale Files API
   slug: bytescale-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytescale/refs/heads/main/openapi/bytescale-files-api-openapi.yml
+  url: https://artifacts.apis.io/bytescale/openapi/bytescale-files-api-openapi.yml
 - filename: bytescale-folders-api-openapi.yml
   format: yaml
   label: Bytescale Folders API
   slug: bytescale-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytescale/refs/heads/main/openapi/bytescale-folders-api-openapi.yml
+  url: https://artifacts.apis.io/bytescale/openapi/bytescale-folders-api-openapi.yml
 - filename: bytescale-upload-api-openapi.yml
   format: yaml
   label: Bytescale Upload API
   slug: bytescale-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytescale/refs/heads/main/openapi/bytescale-upload-api-openapi.yml
+  url: https://artifacts.apis.io/bytescale/openapi/bytescale-upload-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: bytescale-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bytescale-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bytescale API key passed as a Bearer token. Secret keys (secret_*) are required\n    for write and management operations; public keys (public_*) may be used with JWT-based auth.\n  sources:\n  - openapi/bytescale-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bytescale/refs/heads/main/authentication/bytescale-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bytescale/authentication/bytescale-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - File Upload

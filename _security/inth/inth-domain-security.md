@@ -1,35 +1,17 @@
 ---
 api_specs:
-- filename: inth-consent-api-openapi.yml
+- filename: inth-documentation-api-openapi.yml
   format: yaml
-  label: Inth Consent API
-  slug: inth-consent-api
+  label: Inth Documentation API
+  slug: inth-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/openapi/inth-consent-api-openapi.yml
-- filename: inth-init-api-openapi.yml
+  url: https://artifacts.apis.io/inth/openapi/inth-documentation-api-openapi.yml
+- filename: inth-operations-api-openapi.yml
   format: yaml
-  label: Inth Init API
-  slug: inth-init-api
+  label: Inth Operations API
+  slug: inth-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/openapi/inth-init-api-openapi.yml
-- filename: inth-legal-documents-api-openapi.yml
-  format: yaml
-  label: Inth Legal Documents API
-  slug: inth-legal-documents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/openapi/inth-legal-documents-api-openapi.yml
-- filename: inth-status-api-openapi.yml
-  format: yaml
-  label: Inth Status API
-  slug: inth-status-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/openapi/inth-status-api-openapi.yml
-- filename: inth-subjects-api-openapi.yml
-  format: yaml
-  label: Inth Subjects API
-  slug: inth-subjects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/openapi/inth-subjects-api-openapi.yml
+  url: https://artifacts.apis.io/inth/openapi/inth-operations-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -74,7 +56,7 @@ source_filename: inth-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: c15t.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 02:33:23 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: your-instance.c15t.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 20:57:33 2026 GMT\n  hsts: null\ndomains:\n- domain: c15t.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  spf: false\n  dmarc: false\n- domain: c15t.dev\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/security/inth-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/inth/security/inth-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

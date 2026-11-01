@@ -5,55 +5,55 @@ api_specs:
   label: Zeebe Cluster API
   slug: zeebe-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/zeebe/openapi/zeebe-cluster-api-openapi.yml
 - filename: zeebe-deployments-api-openapi.yml
   format: yaml
   label: Zeebe Deployments API
   slug: zeebe-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/zeebe/openapi/zeebe-deployments-api-openapi.yml
 - filename: zeebe-incidents-api-openapi.yml
   format: yaml
   label: Zeebe Incidents API
   slug: zeebe-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/zeebe/openapi/zeebe-incidents-api-openapi.yml
 - filename: zeebe-jobs-api-openapi.yml
   format: yaml
   label: Zeebe Jobs API
   slug: zeebe-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/zeebe/openapi/zeebe-jobs-api-openapi.yml
 - filename: zeebe-messages-api-openapi.yml
   format: yaml
   label: Zeebe Messages API
   slug: zeebe-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-messages-api-openapi.yml
+  url: https://artifacts.apis.io/zeebe/openapi/zeebe-messages-api-openapi.yml
 - filename: zeebe-process-instances-api-openapi.yml
   format: yaml
   label: Zeebe Process Instances API
   slug: zeebe-process-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-process-instances-api-openapi.yml
+  url: https://artifacts.apis.io/zeebe/openapi/zeebe-process-instances-api-openapi.yml
 - filename: zeebe-resources-api-openapi.yml
   format: yaml
   label: Zeebe Resources API
   slug: zeebe-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-resources-api-openapi.yml
+  url: https://artifacts.apis.io/zeebe/openapi/zeebe-resources-api-openapi.yml
 - filename: zeebe-signals-api-openapi.yml
   format: yaml
   label: Zeebe Signals API
   slug: zeebe-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-signals-api-openapi.yml
+  url: https://artifacts.apis.io/zeebe/openapi/zeebe-signals-api-openapi.yml
 - filename: zeebe-user-tasks-api-openapi.yml
   format: yaml
   label: Zeebe User Tasks API
   slug: zeebe-user-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-user-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/zeebe/openapi/zeebe-user-tasks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -95,7 +95,7 @@ source_filename: zeebe-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: camunda.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 19:15:04 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.camunda.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 05:27:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: camunda.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: camunda.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/security/zeebe-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zeebe/security/zeebe-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - BPMN

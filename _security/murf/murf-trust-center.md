@@ -5,43 +5,43 @@ api_specs:
   label: Murf Subpackage Auth API
   slug: murf-subpackage-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/openapi/murf-subpackage-auth-api-openapi.yml
+  url: https://artifacts.apis.io/murf/openapi/murf-subpackage-auth-api-openapi.yml
 - filename: murf-subpackage-dubbing-subpackage-dubbing-jobs-api-openapi.yml
   format: yaml
   label: Murf subpackage_dubbing.subpackage_dubbing/jobs API
   slug: murf-subpackage-dubbing-subpackage-dubbing-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/openapi/murf-subpackage-dubbing-subpackage-dubbing-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/murf/openapi/murf-subpackage-dubbing-subpackage-dubbing-jobs-api-openapi.yml
 - filename: murf-subpackage-dubbing-subpackage-dubbing-languages-api-openapi.yml
   format: yaml
   label: Murf Subpackage Dubbing.subpackage Dubbing/languages API
   slug: murf-subpackage-dubbing-subpackage-dubbing-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/openapi/murf-subpackage-dubbing-subpackage-dubbing-languages-api-openapi.yml
+  url: https://artifacts.apis.io/murf/openapi/murf-subpackage-dubbing-subpackage-dubbing-languages-api-openapi.yml
 - filename: murf-subpackage-dubbing-subpackage-dubbing-projects-api-openapi.yml
   format: yaml
   label: Murf Subpackage Dubbing.subpackage Dubbing/projects API
   slug: murf-subpackage-dubbing-subpackage-dubbing-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/openapi/murf-subpackage-dubbing-subpackage-dubbing-projects-api-openapi.yml
+  url: https://artifacts.apis.io/murf/openapi/murf-subpackage-dubbing-subpackage-dubbing-projects-api-openapi.yml
 - filename: murf-subpackage-text-api-openapi.yml
   format: yaml
   label: Murf Subpackage Text API
   slug: murf-subpackage-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/openapi/murf-subpackage-text-api-openapi.yml
+  url: https://artifacts.apis.io/murf/openapi/murf-subpackage-text-api-openapi.yml
 - filename: murf-subpackage-texttospeech-api-openapi.yml
   format: yaml
   label: Murf Subpackage Text To Speech API
   slug: murf-subpackage-texttospeech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/openapi/murf-subpackage-texttospeech-api-openapi.yml
+  url: https://artifacts.apis.io/murf/openapi/murf-subpackage-texttospeech-api-openapi.yml
 - filename: murf-subpackage-voicechanger-api-openapi.yml
   format: yaml
   label: Murf Subpackage Voice Changer API
   slug: murf-subpackage-voicechanger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/openapi/murf-subpackage-voicechanger-api-openapi.yml
+  url: https://artifacts.apis.io/murf/openapi/murf-subpackage-voicechanger-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -61,12 +61,12 @@ source_filename: murf-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://murf.ai/security\nurl: https://murf.ai/security\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\n- FIPS 140\nevidence:\n- source: https://murf.ai/security\n  keywords:\n  - soc 2\n  - iso 27001\n  - iso/iec 27001\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/security/murf-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/murf/security/murf-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR, FIPS 140
 tags:
 - Artificial Intelligence
 - Voice
-- TTS
+- Text-to-Speech
 - Voiceover
 - Dubbing
 - Audio

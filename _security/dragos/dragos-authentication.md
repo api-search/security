@@ -8,19 +8,19 @@ api_specs:
   label: Dragos Indicators API
   slug: dragos-indicators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/openapi/dragos-indicators-api-openapi.yml
+  url: https://artifacts.apis.io/dragos/openapi/dragos-indicators-api-openapi.yml
 - filename: dragos-products-api-openapi.yml
   format: yaml
   label: Dragos Products API
   slug: dragos-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/openapi/dragos-products-api-openapi.yml
+  url: https://artifacts.apis.io/dragos/openapi/dragos-products-api-openapi.yml
 - filename: dragos-tags-api-openapi.yml
   format: yaml
   label: Dragos Tags API
   slug: dragos-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/openapi/dragos-tags-api-openapi.yml
+  url: https://artifacts.apis.io/dragos/openapi/dragos-tags-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -71,7 +71,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/dragos-worldview-openapi-original.json\ndocs: https://portal.dragos.com/api/v1/doc/index.html\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: api_token\n  type: apiKey\n  in: header\n  parameter: API-Token\n  description: API Access Token\n  sources:\n  - openapi/dragos-worldview-openapi-original.json\n- name: api_secret\n  type: apiKey\n  in: header\n  parameter: API-Secret\n  description: API Secret Key\n  sources:\n  - openapi/dragos-worldview-openapi-original.json\n- name: npe_token\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: NPE Token\n  sources:\n  - openapi/dragos-worldview-openapi-original.json\n- name: platform_oauth2\n  type: oauth2\n  api: platform-sitestore\n  description: Dragos Platform SiteStore v2 API accepts an OAuth 2.0 Bearer (JWT) access token (recommended, dynamic and expiring) or a static\
   \ API key. Access is role-based (e.g. asset:read to read Asset data).\n  sources:\n  - https://docs.ctpx.secureworks.com/integration/connectNetwork/dragos/\napis:\n  worldview: apiKey headers (API-Token + API-Secret); NPE token via Authorization header\n  platform-sitestore: OAuth 2.0 Bearer JWT (recommended) or static API key, role-based (asset:read)\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/authentication/dragos-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dragos/authentication/dragos-authentication.yml
 summary_line: apiKey/oauth2 · 4 schemes
 tags:
 - Company

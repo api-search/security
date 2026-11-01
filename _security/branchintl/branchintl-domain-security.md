@@ -27,7 +27,7 @@ source_filename: branchintl-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: branch.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 12:11:55 2026 GMT\n  hsts: true\n  hsts_max_age: 15724800\ndomains:\n- domain: branch.co\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/branchintl/refs/heads/main/security/branchintl-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/branchintl/security/branchintl-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Fintech

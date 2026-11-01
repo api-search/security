@@ -5,31 +5,31 @@ api_specs:
   label: Rossum Annotations API
   slug: rossum-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rossum/refs/heads/main/openapi/rossum-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/rossum/openapi/rossum-annotations-api-openapi.yml
 - filename: rossum-authentication-api-openapi.yml
   format: yaml
   label: Rossum Authentication API
   slug: rossum-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rossum/refs/heads/main/openapi/rossum-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/rossum/openapi/rossum-authentication-api-openapi.yml
 - filename: rossum-queues-api-openapi.yml
   format: yaml
   label: Rossum Queues API
   slug: rossum-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rossum/refs/heads/main/openapi/rossum-queues-api-openapi.yml
+  url: https://artifacts.apis.io/rossum/openapi/rossum-queues-api-openapi.yml
 - filename: rossum-schemas-api-openapi.yml
   format: yaml
   label: Rossum Schemas API
   slug: rossum-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rossum/refs/heads/main/openapi/rossum-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/rossum/openapi/rossum-schemas-api-openapi.yml
 - filename: rossum-uploads-api-openapi.yml
   format: yaml
   label: Rossum Uploads API
   slug: rossum-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rossum/refs/heads/main/openapi/rossum-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/rossum/openapi/rossum-uploads-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -71,7 +71,7 @@ source_filename: rossum-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: rossum.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 04:57:15 2026 GMT\n  hsts: false\n- host: elis.rossum.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 02:17:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.elis.rossum.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 21:20:18 2026 GMT\n  hsts: null\ndomains:\n- domain: rossum.ai\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rossum/refs/heads/main/security/rossum-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rossum/security/rossum-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

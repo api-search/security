@@ -8,43 +8,43 @@ api_specs:
   label: Tripadvisor Availability API
   slug: tripadvisor-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripadvisor/refs/heads/main/openapi/tripadvisor-availability-api-openapi.yml
+  url: https://artifacts.apis.io/tripadvisor/openapi/tripadvisor-availability-api-openapi.yml
 - filename: tripadvisor-configuration-api-openapi.yml
   format: yaml
   label: Tripadvisor Configuration API
   slug: tripadvisor-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripadvisor/refs/heads/main/openapi/tripadvisor-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/tripadvisor/openapi/tripadvisor-configuration-api-openapi.yml
 - filename: tripadvisor-hotel-inventory-api-openapi.yml
   format: yaml
   label: Tripadvisor Hotel Inventory API
   slug: tripadvisor-hotel-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripadvisor/refs/heads/main/openapi/tripadvisor-hotel-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/tripadvisor/openapi/tripadvisor-hotel-inventory-api-openapi.yml
 - filename: tripadvisor-location-details-api-openapi.yml
   format: yaml
   label: Tripadvisor Location Details API
   slug: tripadvisor-location-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripadvisor/refs/heads/main/openapi/tripadvisor-location-details-api-openapi.yml
+  url: https://artifacts.apis.io/tripadvisor/openapi/tripadvisor-location-details-api-openapi.yml
 - filename: tripadvisor-location-photos-api-openapi.yml
   format: yaml
   label: Tripadvisor Location Photos API
   slug: tripadvisor-location-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripadvisor/refs/heads/main/openapi/tripadvisor-location-photos-api-openapi.yml
+  url: https://artifacts.apis.io/tripadvisor/openapi/tripadvisor-location-photos-api-openapi.yml
 - filename: tripadvisor-location-reviews-api-openapi.yml
   format: yaml
   label: Tripadvisor Location Reviews API
   slug: tripadvisor-location-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripadvisor/refs/heads/main/openapi/tripadvisor-location-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/tripadvisor/openapi/tripadvisor-location-reviews-api-openapi.yml
 - filename: tripadvisor-location-search-api-openapi.yml
   format: yaml
   label: Tripadvisor Location Search API
   slug: tripadvisor-location-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripadvisor/refs/heads/main/openapi/tripadvisor-location-search-api-openapi.yml
+  url: https://artifacts.apis.io/tripadvisor/openapi/tripadvisor-location-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -72,7 +72,7 @@ source_filename: tripadvisor-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tripadvisor-content-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiKeyQuery\n  type: apiKey\n  in: query\n  parameter: key\n  description: API key passed as a query parameter. Obtain your key by registering at the Tripadvisor\n    Developer Portal.\n  sources:\n  - openapi/tripadvisor-content-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tripadvisor/refs/heads/main/authentication/tripadvisor-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tripadvisor/authentication/tripadvisor-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Attractions

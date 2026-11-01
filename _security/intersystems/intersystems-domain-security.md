@@ -5,7 +5,7 @@ api_specs:
   label: InterSystems Group API
   slug: intersystems-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intersystems/refs/heads/main/openapi/intersystems-group-api-openapi.yml
+  url: https://artifacts.apis.io/intersystems/openapi/intersystems-group-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -34,7 +34,7 @@ source_filename: intersystems-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.intersystems.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 17 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: intersystems.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intersystems/refs/heads/main/security/intersystems-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/intersystems/security/intersystems-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

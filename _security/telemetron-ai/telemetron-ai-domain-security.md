@@ -5,25 +5,25 @@ api_specs:
   label: Telemetron Customer API
   slug: telemetron-ai-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/openapi/telemetron-ai-customer-api-openapi.yml
+  url: https://artifacts.apis.io/telemetron-ai/openapi/telemetron-ai-customer-api-openapi.yml
 - filename: telemetron-ai-device-api-openapi.yml
   format: yaml
   label: Telemetron Device API
   slug: telemetron-ai-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/openapi/telemetron-ai-device-api-openapi.yml
+  url: https://artifacts.apis.io/telemetron-ai/openapi/telemetron-ai-device-api-openapi.yml
 - filename: telemetron-ai-device-assignment-api-openapi.yml
   format: yaml
   label: Telemetron Device Assignment API
   slug: telemetron-ai-device-assignment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/openapi/telemetron-ai-device-assignment-api-openapi.yml
+  url: https://artifacts.apis.io/telemetron-ai/openapi/telemetron-ai-device-assignment-api-openapi.yml
 - filename: telemetron-ai-ticket-api-openapi.yml
   format: yaml
   label: Telemetron Ticket API
   slug: telemetron-ai-ticket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/openapi/telemetron-ai-ticket-api-openapi.yml
+  url: https://artifacts.apis.io/telemetron-ai/openapi/telemetron-ai-ticket-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -56,7 +56,7 @@ source_filename: telemetron-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: admin.telemetron.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 11:55:32 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: telemetron.ai\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/security/telemetron-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/telemetron-ai/security/telemetron-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

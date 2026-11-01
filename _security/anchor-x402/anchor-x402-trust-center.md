@@ -5,130 +5,124 @@ api_specs:
   label: anchor-x402 Anchor API
   slug: anchor-x402-anchor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-anchor-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-anchor-api-openapi.yml
 - filename: anchor-x402-attest-api-openapi.yml
   format: yaml
   label: anchor-x402 Attest API
   slug: anchor-x402-attest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-attest-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-attest-api-openapi.yml
 - filename: anchor-x402-aura-api-openapi.yml
   format: yaml
   label: anchor-x402 Aura API
   slug: anchor-x402-aura-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-aura-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-aura-api-openapi.yml
 - filename: anchor-x402-decode-api-openapi.yml
   format: yaml
   label: anchor-x402 Decode API
   slug: anchor-x402-decode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-decode-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-decode-api-openapi.yml
 - filename: anchor-x402-grade-api-openapi.yml
   format: yaml
   label: anchor-x402 Grade API
   slug: anchor-x402-grade-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-grade-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-grade-api-openapi.yml
 - filename: anchor-x402-health-api-openapi.yml
   format: yaml
   label: anchor-x402 Health API
   slug: anchor-x402-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-health-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-health-api-openapi.yml
 - filename: anchor-x402-intel-api-openapi.yml
   format: yaml
   label: anchor-x402 Intel API
   slug: anchor-x402-intel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-intel-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-intel-api-openapi.yml
 - filename: anchor-x402-investigate-api-openapi.yml
   format: yaml
   label: anchor-x402 Investigate API
   slug: anchor-x402-investigate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-investigate-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-investigate-api-openapi.yml
 - filename: anchor-x402-ledger-api-openapi.yml
   format: yaml
   label: anchor-x402 Ledger API
   slug: anchor-x402-ledger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-ledger-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-ledger-api-openapi.yml
 - filename: anchor-x402-oracle-api-openapi.yml
   format: yaml
   label: anchor-x402 Oracle API
   slug: anchor-x402-oracle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-oracle-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-oracle-api-openapi.yml
 - filename: anchor-x402-parse-api-openapi.yml
   format: yaml
   label: anchor-x402 Parse API
   slug: anchor-x402-parse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-parse-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-parse-api-openapi.yml
 - filename: anchor-x402-price-api-openapi.yml
   format: yaml
   label: anchor-x402 Price API
   slug: anchor-x402-price-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-price-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-price-api-openapi.yml
 - filename: anchor-x402-resolve-api-openapi.yml
   format: yaml
   label: anchor-x402 Resolve API
   slug: anchor-x402-resolve-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-resolve-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-resolve-api-openapi.yml
 - filename: anchor-x402-roast-api-openapi.yml
   format: yaml
   label: anchor-x402 Roast API
   slug: anchor-x402-roast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-roast-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-roast-api-openapi.yml
 - filename: anchor-x402-roll-api-openapi.yml
   format: yaml
   label: anchor-x402 Roll API
   slug: anchor-x402-roll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-roll-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-roll-api-openapi.yml
 - filename: anchor-x402-screen-api-openapi.yml
   format: yaml
   label: anchor-x402 Screen API
   slug: anchor-x402-screen-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-screen-api-openapi.yml
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-screen-api-openapi.yml
 - filename: anchor-x402-tldr-api-openapi.yml
   format: yaml
   label: anchor-x402 Tldr API
   slug: anchor-x402-tldr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-tldr-api-openapi.yml
-- filename: anchor-x402-feedback-api-openapi.yml
-  format: yaml
-  label: anchor-x402 Feedback API
-  slug: anchor-x402-feedback-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-feedback-api-openapi.yml
-certification_count: 4
-certifications:
-- SOC 2
-- ISO 27001
-- HIPAA
-- GDPR
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-tldr-api-openapi.yml
+certification_count: 0
+certifications: []
 description: ''
 kind: trust-center
 layout: security
 name: Anchor X402 Trust Center
 name_suffix: Trust Center
-overview: anchor-x402 maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
+overview: anchor-x402 maintains a public trust center covering its security and compliance posture.
 provider_name: anchor-x402
 provider_slug: anchor-x402
 slug: anchor-x402-trust-center
 source_filename: anchor-x402-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-10-20'\nmethod: searched\nprobe: true\nsource: https://anchor-x402.com/trust/\nurl: https://anchor-x402.com/trust/\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\n- GDPR\nevidence:\n- source: https://anchor-x402.com/trust/\n  keywords:\n  - soc 2\n  - iso 27001\n  - hipaa\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/security/anchor-x402-trust-center.yml
-summary_line: SOC 2, ISO 27001, HIPAA, GDPR
+source_yaml: "generated: '2026-09-11'\nmethod: searched\nprobe: true\nsource: https://anchor-x402.com/trust/\nurl: https://anchor-x402.com/trust/\nhttp_status: 200\ntrust_center_present: true\ncertifications: []\ncertification_count: 0\ncertifications_explicitly_disclaimed:\n- SOC 2\n- ISO 27001\n- PCI DSS\n- HIPAA\n- GDPR DPA\nx-correction: >-\n  0-working/probe-security-programs.py wrote this file on 2026-09-11 with certifications [SOC 2, ISO 27001,\n  HIPAA, GDPR] from a bare keyword match on the trust-portal page. Every one of those matches is a NEGATION.\n  The page's own words are \"We do not hold SOC 2, ISO 27001, or PCI certifications\" and \"No SOC 2 / ISO\n  27001 / PCI / HIPAA certification. Roadmap items, not blockers for the commodity tier.\" The list was\n  corrected to empty by hand and no Compliance pointer was emitted. A scorer reading the generated file\n  would have credited this provider with four certifications it goes out of its way to say it does not hold.\nposture:\
+  \ >-\n  The trust portal is unusually substantial for an uncertified provider and is built around an explicit\n  argument: publish the reasoning instead of the certificates. It carries six documents totalling roughly\n  22,000 words - a STRIDE-lite per-service threat model, a pre-filled SIG-Lite vendor security\n  questionnaire, a code-level self-audit guide mapping 15 compliance concerns to file and line ranges in the\n  MIT-licensed source, a regulated-deployment guide covering trust boundaries and AWS compliance\n  inheritance, an on-chain verifiability primer with live mainnet hashes, and observability docs.\ndocuments:\n- name: Threat model\n  url: https://anchor-x402.com/trust/threat-model.html\n  status: 200\n  form: STRIDE-lite per-service enumeration with mitigations and residual risk\n  approx_words: 5400\n- name: Security questionnaire\n  url: https://anchor-x402.com/trust/security-questionnaire.html\n  status: 200\n  form: Pre-filled SIG-Lite-style vendor security response\
+  \ across 11 sections\n  approx_words: 4300\n- name: Self-audit guide\n  url: https://anchor-x402.com/trust/self-audit.html\n  form: 15 compliance concerns mapped to specific files and line ranges in the codebase\n  approx_words: 4600\n- name: Regulated deployment guide\n  url: https://anchor-x402.com/trust/regulated-deployment.html\n  form: Trust boundaries, AWS compliance inheritance, customer-side responsibilities\n  approx_words: 5300\n- name: On-chain verifiability\n  url: https://anchor-x402.com/trust/on-chain-verifiability\n  status: 200\n  form: The cryptographic primitive and how a customer verifies anchors without contacting the service\n  approx_words: 1800\n- name: Observability\n  url: https://anchor-x402.com/trust/observability.html\n  form: CloudWatch dashboard and status-page setup, what to expose, what consumers should monitor\n  approx_words: 1000\ncompensating_controls_claimed:\n- MIT-licensed open-source codebase, auditable line by line\n- On-chain verifiability - anchors\
+  \ are readable from Base and Solana mainnet independently of the service\n- Deliberately stateless architecture with no per-customer PII at rest\n- Compliance inheritance from AWS infrastructure (Lambda, Secrets Manager, CloudWatch)\ndisclosed_gaps:\n- No SOC 2, ISO 27001, PCI-DSS, HIPAA certification - stated as roadmap items, not blockers for the commodity tier\n- No cyber liability or tech E&O insurance - to be obtained when first contractually required\n- No formal written incident-response runbook - a disclosure email exists, the runbook is on the roadmap\n- No DPA template at the commodity tier\nscope_limitation_published: >-\n  The threat model covers thirteen trust-relevant endpoints. The five LLM content endpoints (roast, oracle,\n  tldr, aura, grade) are documented as explicitly out of scope - freeform text in, generated content out,\n  no wallet-risk verdict and no compliance evidence.\ninstitutional_tier:\n  status: available on request\n  price: USD 499-5,000+/mo\n  inclusions:\n\
+  \  - per-tenant authentication\n  - signed MSA/DPA/SLA\n  - WORM evidence vault on S3 Object Lock\n  - GDPR Article 17 erasure reconciled with AML retention\n  contact: hello@anchor-x402.com\nstatus_page: https://anchor-x402.betteruptime.com\n"
+source_yaml_url: https://artifacts.apis.io/anchor-x402/security/anchor-x402-trust-center.yml
+summary_line: trust center published
 tags:
 - Company
 - x402

@@ -7,13 +7,13 @@ api_specs:
   label: Cerebrium Inference API
   slug: cerebrium-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerebrium/refs/heads/main/openapi/cerebrium-inference-api-openapi.yml
+  url: https://artifacts.apis.io/cerebrium/openapi/cerebrium-inference-api-openapi.yml
 - filename: cerebrium-openai-compatible-api-openapi.yml
   format: yaml
   label: Cerebrium OpenAI Compatible API
   slug: cerebrium-openai-compatible-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerebrium/refs/heads/main/openapi/cerebrium-openai-compatible-api-openapi.yml
+  url: https://artifacts.apis.io/cerebrium/openapi/cerebrium-openai-compatible-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -41,7 +41,7 @@ source_filename: cerebrium-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cerebrium-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: 'JWT token from the dashboard API Keys section, sent as Authorization: Bearer\n    <JWT_TOKEN>.'\n  sources:\n  - openapi/cerebrium-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cerebrium/refs/heads/main/authentication/cerebrium-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cerebrium/authentication/cerebrium-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

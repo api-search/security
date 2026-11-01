@@ -5,13 +5,13 @@ api_specs:
   label: Timoni Artifacts API
   slug: timoni-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timoni/refs/heads/main/openapi/timoni-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/timoni/openapi/timoni-artifacts-api-openapi.yml
 - filename: timoni-modules-api-openapi.yml
   format: yaml
   label: Timoni Modules API
   slug: timoni-modules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timoni/refs/heads/main/openapi/timoni-modules-api-openapi.yml
+  url: https://artifacts.apis.io/timoni/openapi/timoni-modules-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: timoni-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: timoni.sh\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 08:28:05 2026 GMT\n  hsts: false\n- host: ghcr.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: timoni.sh\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: ghcr.io\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"sectigo.com\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/timoni/refs/heads/main/security/timoni-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/timoni/security/timoni-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Containers

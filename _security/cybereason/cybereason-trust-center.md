@@ -5,55 +5,55 @@ api_specs:
   label: Cybereason Authentication API
   slug: cybereason-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/cybereason/openapi/cybereason-authentication-api-openapi.yml
 - filename: cybereason-customdetectionrules-api-openapi.yml
   format: yaml
   label: Cybereason CustomDetectionRules API
   slug: cybereason-customdetectionrules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-customdetectionrules-api-openapi.yml
+  url: https://artifacts.apis.io/cybereason/openapi/cybereason-customdetectionrules-api-openapi.yml
 - filename: cybereason-isolationrules-api-openapi.yml
   format: yaml
   label: Cybereason IsolationRules API
   slug: cybereason-isolationrules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-isolationrules-api-openapi.yml
+  url: https://artifacts.apis.io/cybereason/openapi/cybereason-isolationrules-api-openapi.yml
 - filename: cybereason-malops-api-openapi.yml
   format: yaml
   label: Cybereason Malops API
   slug: cybereason-malops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-malops-api-openapi.yml
+  url: https://artifacts.apis.io/cybereason/openapi/cybereason-malops-api-openapi.yml
 - filename: cybereason-remediation-api-openapi.yml
   format: yaml
   label: Cybereason Remediation API
   slug: cybereason-remediation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-remediation-api-openapi.yml
+  url: https://artifacts.apis.io/cybereason/openapi/cybereason-remediation-api-openapi.yml
 - filename: cybereason-reputation-api-openapi.yml
   format: yaml
   label: Cybereason Reputation API
   slug: cybereason-reputation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-reputation-api-openapi.yml
+  url: https://artifacts.apis.io/cybereason/openapi/cybereason-reputation-api-openapi.yml
 - filename: cybereason-sensors-api-openapi.yml
   format: yaml
   label: Cybereason Sensors API
   slug: cybereason-sensors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-sensors-api-openapi.yml
+  url: https://artifacts.apis.io/cybereason/openapi/cybereason-sensors-api-openapi.yml
 - filename: cybereason-threat-intel-api-openapi.yml
   format: yaml
   label: Cybereason Threat Intel API
   slug: cybereason-threat-intel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-threat-intel-api-openapi.yml
+  url: https://artifacts.apis.io/cybereason/openapi/cybereason-threat-intel-api-openapi.yml
 - filename: cybereason-visual-search-api-openapi.yml
   format: yaml
   label: Cybereason Visual search API
   slug: cybereason-visual-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-visual-search-api-openapi.yml
+  url: https://artifacts.apis.io/cybereason/openapi/cybereason-visual-search-api-openapi.yml
 certification_count: 5
 certifications:
 - SOC 2
@@ -74,7 +74,7 @@ source_filename: cybereason-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.cybereason.com/security\nurl: https://www.cybereason.com/security\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- GDPR\nevidence:\n- source: https://www.cybereason.com/security\n  keywords:\n  - soc2\n  - iso 27001\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/security/cybereason-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/cybereason/security/cybereason-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, GDPR
 tags:
 - Cybersecurity

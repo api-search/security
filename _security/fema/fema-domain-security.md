@@ -5,43 +5,43 @@ api_specs:
   label: OpenFEMA Catalog API
   slug: fema-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/openapi/fema-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/fema/openapi/fema-catalog-api-openapi.yml
 - filename: fema-disaster-declarations-api-openapi.yml
   format: yaml
   label: OpenFEMA Disaster Declarations API
   slug: fema-disaster-declarations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/openapi/fema-disaster-declarations-api-openapi.yml
+  url: https://artifacts.apis.io/fema/openapi/fema-disaster-declarations-api-openapi.yml
 - filename: fema-hazard-mitigation-api-openapi.yml
   format: yaml
   label: OpenFEMA Hazard Mitigation API
   slug: fema-hazard-mitigation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/openapi/fema-hazard-mitigation-api-openapi.yml
+  url: https://artifacts.apis.io/fema/openapi/fema-hazard-mitigation-api-openapi.yml
 - filename: fema-ipaws-api-openapi.yml
   format: yaml
   label: OpenFEMA IPAWS API
   slug: fema-ipaws-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/openapi/fema-ipaws-api-openapi.yml
+  url: https://artifacts.apis.io/fema/openapi/fema-ipaws-api-openapi.yml
 - filename: fema-nfip-api-openapi.yml
   format: yaml
   label: OpenFEMA NFIP API
   slug: fema-nfip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/openapi/fema-nfip-api-openapi.yml
+  url: https://artifacts.apis.io/fema/openapi/fema-nfip-api-openapi.yml
 - filename: fema-public-assistance-api-openapi.yml
   format: yaml
   label: OpenFEMA Public Assistance API
   slug: fema-public-assistance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/openapi/fema-public-assistance-api-openapi.yml
+  url: https://artifacts.apis.io/fema/openapi/fema-public-assistance-api-openapi.yml
 - filename: fema-web-disaster-summaries-api-openapi.yml
   format: yaml
   label: OpenFEMA Web Disaster Summaries API
   slug: fema-web-disaster-summaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/openapi/fema-web-disaster-summaries-api-openapi.yml
+  url: https://artifacts.apis.io/fema/openapi/fema-web-disaster-summaries-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: fema-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fema.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: fema.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/security/fema-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fema/security/fema-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Government

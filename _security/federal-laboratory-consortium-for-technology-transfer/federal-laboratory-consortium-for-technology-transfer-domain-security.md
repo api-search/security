@@ -5,7 +5,7 @@ api_specs:
   label: Federal Laboratory Consortium for Technology Transfer Sections API
   slug: federal-laboratory-consortium-for-technology-transfer-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-laboratory-consortium-for-technology-transfer/refs/heads/main/openapi/federal-laboratory-consortium-for-technology-transfer-sections-api-openapi.yml
+  url: https://artifacts.apis.io/federal-laboratory-consortium-for-technology-transfer/openapi/federal-laboratory-consortium-for-technology-transfer-sections-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -44,7 +44,7 @@ source_filename: federal-laboratory-consortium-for-technology-transfer-domain-se
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.federallabs.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 02:05:58 2026 GMT\n  hsts: false\n- host: federallabs.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 02:05:58 2026 GMT\n  hsts: false\n- host: api.federallabs.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 19:02:14 2026 GMT\n  hsts: null\ndomains:\n- domain: federallabs.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/federal-laboratory-consortium-for-technology-transfer/refs/heads/main/security/federal-laboratory-consortium-for-technology-transfer-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/federal-laboratory-consortium-for-technology-transfer/security/federal-laboratory-consortium-for-technology-transfer-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Federal Government

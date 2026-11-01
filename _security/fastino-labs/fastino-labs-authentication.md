@@ -8,25 +8,25 @@ api_specs:
   label: Fastino Labs Anthropic Compat API
   slug: fastino-labs-anthropic-compat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastino-labs/refs/heads/main/openapi/fastino-labs-anthropic-compat-api-openapi.yml
+  url: https://artifacts.apis.io/fastino-labs/openapi/fastino-labs-anthropic-compat-api-openapi.yml
 - filename: fastino-labs-inference-api-openapi.yml
   format: yaml
   label: Fastino Labs Inference API
   slug: fastino-labs-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastino-labs/refs/heads/main/openapi/fastino-labs-inference-api-openapi.yml
+  url: https://artifacts.apis.io/fastino-labs/openapi/fastino-labs-inference-api-openapi.yml
 - filename: fastino-labs-inference-history-api-openapi.yml
   format: yaml
   label: Fastino Labs Inference History API
   slug: fastino-labs-inference-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastino-labs/refs/heads/main/openapi/fastino-labs-inference-history-api-openapi.yml
+  url: https://artifacts.apis.io/fastino-labs/openapi/fastino-labs-inference-history-api-openapi.yml
 - filename: fastino-labs-openai-compat-api-openapi.yml
   format: yaml
   label: Fastino Labs Openai Compat API
   slug: fastino-labs-openai-compat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastino-labs/refs/heads/main/openapi/fastino-labs-openai-compat-api-openapi.yml
+  url: https://artifacts.apis.io/fastino-labs/openapi/fastino-labs-openai-compat-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -63,7 +63,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/pioneer-openapi-original.json\ndocs: https://docs.pioneer.ai/api-reference/authentication\nkey_prefix: pio_sk_\nkey_management:\n  create: POST https://api.pioneer.ai/create-api-key\n  list: GET https://api.pioneer.ai/list-api-keys\n  revoke: DELETE https://api.pioneer.ai/delete-api-key\n  console: https://agent.pioneer.ai/settings/api-keys\noauth:\n  provider: Supabase\n  metadata: https://api.pioneer.ai/.well-known/openid-configuration\n  scopes: scopes/fastino-labs-scopes.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: Pioneer API key. Generate one at https://agent.pioneer.ai/settings/api-keys.\n    Keys begin with `pio_sk_`.\n  sources:\n  - openapi/pioneer-openapi-original.json\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Supabase access token or\
   \ Pioneer API key as a Bearer token.\n  sources:\n  - openapi/pioneer-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fastino-labs/refs/heads/main/authentication/fastino-labs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fastino-labs/authentication/fastino-labs-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

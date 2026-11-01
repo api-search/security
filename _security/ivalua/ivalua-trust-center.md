@@ -22,7 +22,7 @@ source_filename: ivalua-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "name: Ivalua trust center\ngenerated: '2026-10-20'\nmethod: searched\nsource: https://trust.ivalua.com/\nurl: https://trust.ivalua.com/\ncertifications:\n  - ISO/IEC 27001:2022\n  - SOC 2 Type II\n  - SOC 1 Type II\n  - HIPAA\n  - CSA STAR\n  - TISAX\n  - SCF - EU GDPR\n  - Ivalua ACSC IRAP ISM\nnote: Certifications listed verbatim under \"Compliance\" on the trust portal; detailed documents require an access request.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ivalua/refs/heads/main/security/ivalua-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/ivalua/security/ivalua-trust-center.yml
 summary_line: ISO/IEC 27001:2022, SOC 2 Type II, SOC 1 Type II, HIPAA, CSA STAR, TISAX, SCF - EU GDPR, Ivalua ACSC IRAP ISM
 tags:
 - Procurement

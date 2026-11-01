@@ -5,7 +5,7 @@ api_specs:
   label: Ostium Builder API
   slug: ostium-builder-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ostium-labs/refs/heads/main/asyncapi/ostium-labs-prices-asyncapi.yml
+  url: https://artifacts.apis.io/ostium-labs/asyncapi/ostium-labs-prices-asyncapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: ostium-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ostium.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 05:22:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.ostium.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 23:40:48 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: builder.ostium.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  7 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: ostium.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: ostium.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ostium-labs/refs/heads/main/security/ostium-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ostium-labs/security/ostium-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

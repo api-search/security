@@ -5,19 +5,19 @@ api_specs:
   label: Tigris Buckets API
   slug: tigris-data-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tigris-data/refs/heads/main/openapi/tigris-data-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/tigris-data/openapi/tigris-data-buckets-api-openapi.yml
 - filename: tigris-data-multipart-api-openapi.yml
   format: yaml
   label: Tigris Multipart API
   slug: tigris-data-multipart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tigris-data/refs/heads/main/openapi/tigris-data-multipart-api-openapi.yml
+  url: https://artifacts.apis.io/tigris-data/openapi/tigris-data-multipart-api-openapi.yml
 - filename: tigris-data-objects-api-openapi.yml
   format: yaml
   label: Tigris Objects API
   slug: tigris-data-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tigris-data/refs/heads/main/openapi/tigris-data-objects-api-openapi.yml
+  url: https://artifacts.apis.io/tigris-data/openapi/tigris-data-objects-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,7 +62,7 @@ source_filename: tigris-data-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tigrisdata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 19:02:15 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: t3.storage.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 19:20:01 2026 GMT\n  hsts: null\n- host: iam.storage.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 19:20:01 2026 GMT\n  hsts: null\ndomains:\n- domain: tigrisdata.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: storage.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tigris-data/refs/heads/main/security/tigris-data-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tigris-data/security/tigris-data-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Object Storage

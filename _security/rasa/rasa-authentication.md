@@ -8,31 +8,31 @@ api_specs:
   label: Rasa Domain API
   slug: rasa-domain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/openapi/rasa-domain-api-openapi.yml
+  url: https://artifacts.apis.io/rasa/openapi/rasa-domain-api-openapi.yml
 - filename: rasa-model-api-openapi.yml
   format: yaml
   label: Rasa Model API
   slug: rasa-model-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/openapi/rasa-model-api-openapi.yml
+  url: https://artifacts.apis.io/rasa/openapi/rasa-model-api-openapi.yml
 - filename: rasa-rasa-sdk-action-server-endpoint-api-openapi.yml
   format: yaml
   label: Rasa SDK Action Server Endpoint API
   slug: rasa-rasa-sdk-action-server-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/openapi/rasa-rasa-sdk-action-server-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/rasa/openapi/rasa-rasa-sdk-action-server-endpoint-api-openapi.yml
 - filename: rasa-server-information-api-openapi.yml
   format: yaml
   label: Rasa Server Information API
   slug: rasa-server-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/openapi/rasa-server-information-api-openapi.yml
+  url: https://artifacts.apis.io/rasa/openapi/rasa-server-information-api-openapi.yml
 - filename: rasa-tracker-api-openapi.yml
   format: yaml
   label: Rasa Tracker API
   slug: rasa-tracker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/openapi/rasa-tracker-api-openapi.yml
+  url: https://artifacts.apis.io/rasa/openapi/rasa-tracker-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -68,7 +68,7 @@ source_filename: rasa-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/rasa-http-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - query\nschemes:\n- name: TokenAuth\n  type: apiKey\n  in: query\n  parameter: token\n  description: A plaintext token to secure your server, specified at startup in the argument\n    `--auth-token thisismysecret`\n  sources:\n  - openapi/rasa-http-api-openapi.yml\n- name: JWT\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: |-\n    A JWT token that is signed using the JWT secret specified at startup in the argument `--jwt-secret thisismysecret`,\n    using the `HS256` algorithm.\n\n    The token's payload must contain an object under the `user` key,\n    which in turn must contain the `username` and `role` attributes.\n    The following is an example payload for a JWT token:\n\n    ```json\n    {\n        \"user\": {\n            \"username\": \"<sender_id>\",\n            \"ro\n  sources:\n  - openapi/rasa-http-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/authentication/rasa-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rasa/authentication/rasa-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

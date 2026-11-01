@@ -7,97 +7,97 @@ api_specs:
   label: Lev Account & Team API
   slug: lev-account-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-account-team-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-account-team-api-openapi.yml
 - filename: lev-api-keys-api-openapi.yml
   format: yaml
   label: Lev API Keys API
   slug: lev-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-api-keys-api-openapi.yml
 - filename: lev-billing-api-openapi.yml
   format: yaml
   label: Lev Billing API
   slug: lev-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-billing-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-billing-api-openapi.yml
 - filename: lev-companies-api-openapi.yml
   format: yaml
   label: Lev Companies API
   slug: lev-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-companies-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-companies-api-openapi.yml
 - filename: lev-contacts-api-openapi.yml
   format: yaml
   label: Lev Contacts API
   slug: lev-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-contacts-api-openapi.yml
 - filename: lev-deal-financials-api-openapi.yml
   format: yaml
   label: Lev Deal Financials API
   slug: lev-deal-financials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-deal-financials-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-deal-financials-api-openapi.yml
 - filename: lev-deal-properties-api-openapi.yml
   format: yaml
   label: Lev Deal Properties API
   slug: lev-deal-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-deal-properties-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-deal-properties-api-openapi.yml
 - filename: lev-deal-team-api-openapi.yml
   format: yaml
   label: Lev Deal Team API
   slug: lev-deal-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-deal-team-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-deal-team-api-openapi.yml
 - filename: lev-deals-api-openapi.yml
   format: yaml
   label: Lev Deals API
   slug: lev-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-deals-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-deals-api-openapi.yml
 - filename: lev-lender-directory-api-openapi.yml
   format: yaml
   label: Lev Lender Directory API
   slug: lev-lender-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-lender-directory-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-lender-directory-api-openapi.yml
 - filename: lev-lev-api-documentation-api-openapi.yml
   format: yaml
   label: Lev API Documentation API
   slug: lev-lev-api-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-lev-api-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-lev-api-documentation-api-openapi.yml
 - filename: lev-market-data-api-openapi.yml
   format: yaml
   label: Lev Market Data API
   slug: lev-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-market-data-api-openapi.yml
 - filename: lev-pipelines-api-openapi.yml
   format: yaml
   label: Lev Pipelines API
   slug: lev-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-pipelines-api-openapi.yml
 - filename: lev-placements-api-openapi.yml
   format: yaml
   label: Lev Placements API
   slug: lev-placements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-placements-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-placements-api-openapi.yml
 - filename: lev-quickstart-api-openapi.yml
   format: yaml
   label: Lev Quickstart API
   slug: lev-quickstart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-quickstart-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-quickstart-api-openapi.yml
 - filename: lev-term-sheets-api-openapi.yml
   format: yaml
   label: Lev Term Sheets API
   slug: lev-term-sheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-term-sheets-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-term-sheets-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -171,7 +171,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/lev-ope
   \ API keys are bound to one account at creation time\n    validate_operation: postAuthValidateApiKey\n    validate_endpoint: POST /api/external/v2/auth/validate-api-key\n    management_operations:\n    - postApiKeys\n    - getApiKeys\n    - deleteApiKeysKeyId\n  - kind: jwt\n    issuer: https://auth.lev.com/\n    provider: Auth0\n    algorithm: RS256\n    lifetime: short-lived\n    use: interactive clients\n    multi_account: JWT users with membership on multiple accounts must send X-Active-Account\n      with the account slug; this header does not apply to API keys.\n- name: mcpOAuth\n  type: oauth2\n  source: well-known/lev-oauth-authorization-server.json\n  docs: https://www.lev.com/docs/build/mcp/auth\n  applies_to: hosted MCP server at https://mcp.lev.com/mcp\n  issuer: https://auth.lev.com/\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.lev.com/authorize\n    tokenUrl: https://auth.lev.com/oauth/token\n    revocationUrl: https://auth.lev.com/oauth/revoke\n\
   \    registrationUrl: https://auth.lev.com/oidc/register\n    pkce: true\n    code_challenge_methods:\n    - S256\n    scopes:\n    - openid\n    - email\n    - offline_access\n  dynamic_client_registration: true\n  protected_resource_metadata: well-known/lev-oauth-protected-resource.json\nrequired_headers:\n- name: Authorization\n  value: Bearer <token>\n  required: true\n- name: X-Origin-App\n  value: <client-name>\n  required: true\n  description: Identifies the calling application (for example \"my-integration\").\n- name: X-Active-Account\n  value: <account-slug>\n  required: false\n  description: Required only for JWT users with active memberships on more than one\n    account. Not applicable to API keys, which are account-bound.\npermission_levels:\n- name: full_access\n  default: true\n  description: All scopes granted to the key.\n- name: read_only\n  default: false\n  description: Read scopes only.\nerrors:\n- status: 401\n  type: unauthorized\n  meaning: Missing, invalid, or\
   \ expired token.\n- status: 403\n  type: forbidden\n  meaning: Valid token but insufficient permissions for the resource.\nrelated:\n  scopes: scopes/lev-scopes.yml\n  conventions: conventions/lev-conventions.yml\n  well_known: well-known/lev-well-known.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/authentication/lev-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lev/authentication/lev-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

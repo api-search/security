@@ -2,48 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: general-translation-branches-api-openapi.yml
-  format: yaml
-  label: General Translation Branches API
-  slug: general-translation-branches-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/openapi/general-translation-branches-api-openapi.yml
 - filename: general-translation-context-api-openapi.yml
   format: yaml
   label: General Translation Context API
   slug: general-translation-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/openapi/general-translation-context-api-openapi.yml
+  url: https://artifacts.apis.io/general-translation/openapi/general-translation-context-api-openapi.yml
 - filename: general-translation-files-api-openapi.yml
   format: yaml
   label: General Translation Files API
   slug: general-translation-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/openapi/general-translation-files-api-openapi.yml
-- filename: general-translation-jobs-api-openapi.yml
-  format: yaml
-  label: General Translation Jobs API
-  slug: general-translation-jobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/openapi/general-translation-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/general-translation/openapi/general-translation-files-api-openapi.yml
 - filename: general-translation-project-api-openapi.yml
   format: yaml
   label: General Translation Project API
   slug: general-translation-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/openapi/general-translation-project-api-openapi.yml
-- filename: general-translation-tags-api-openapi.yml
-  format: yaml
-  label: General Translation Tags API
-  slug: general-translation-tags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/openapi/general-translation-tags-api-openapi.yml
+  url: https://artifacts.apis.io/general-translation/openapi/general-translation-project-api-openapi.yml
 - filename: general-translation-translation-api-openapi.yml
   format: yaml
   label: General Translation API
   slug: general-translation-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/openapi/general-translation-translation-api-openapi.yml
+  url: https://artifacts.apis.io/general-translation/openapi/general-translation-translation-api-openapi.yml
+- filename: general-translation-context-management-api-openapi.yml
+  format: yaml
+  label: General Translation Context Management API
+  slug: general-translation-context-management-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/general-translation/openapi/general-translation-context-management-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -83,7 +71,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/general-translation-openapi-original.yml\ndocs: https://generaltranslation.com/en-US/docs/api\nsummary:\n  types:\n  - http\n  api_key_prefixes:\n    development: gtx-dev-\n    production: gtx-api-\n    organization: gtx-org-\nschemes:\n- name: Bearer\n  type: http\n  scheme: bearer\n  description: 'API key sent as a bearer token in the standard `Authorization: Bearer <key>`\n    header. Use a project key (`gtx-api-`, `gtx-dev-`) or an organization key (`gtx-org-`).\n    Organization keys must also send `gt-project-id` on project-scoped routes.'\n  alt_header: x-gt-api-key\n  alt_header_note: >\n    The public API reference also documents sending the same key in an\n    `x-gt-api-key` header instead of the Authorization bearer header.\n  key_permissions:\n    - project:files:read\n    - project:files:write\n    - project:translations:enqueue\n    - project:translations:generate\n    - project:context:read\n    - project:context:write\n\
   \    - project:write\n  sources:\n  - openapi/general-translation-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/authentication/general-translation-authentication.yml
+source_yaml_url: https://artifacts.apis.io/general-translation/authentication/general-translation-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

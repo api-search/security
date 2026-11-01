@@ -7,37 +7,37 @@ api_specs:
   label: Certn Applications API
   slug: certn-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certn/refs/heads/main/openapi/certn-applications-api-openapi.yml
+  url: https://artifacts.apis.io/certn/openapi/certn-applications-api-openapi.yml
 - filename: certn-checks-api-openapi.yml
   format: yaml
   label: Certn Checks API
   slug: certn-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certn/refs/heads/main/openapi/certn-checks-api-openapi.yml
+  url: https://artifacts.apis.io/certn/openapi/certn-checks-api-openapi.yml
 - filename: certn-packages-api-openapi.yml
   format: yaml
   label: Certn Packages API
   slug: certn-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certn/refs/heads/main/openapi/certn-packages-api-openapi.yml
+  url: https://artifacts.apis.io/certn/openapi/certn-packages-api-openapi.yml
 - filename: certn-reports-api-openapi.yml
   format: yaml
   label: Certn Reports API
   slug: certn-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certn/refs/heads/main/openapi/certn-reports-api-openapi.yml
+  url: https://artifacts.apis.io/certn/openapi/certn-reports-api-openapi.yml
 - filename: certn-teams-and-users-api-openapi.yml
   format: yaml
   label: Certn Teams and Users API
   slug: certn-teams-and-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certn/refs/heads/main/openapi/certn-teams-and-users-api-openapi.yml
+  url: https://artifacts.apis.io/certn/openapi/certn-teams-and-users-api-openapi.yml
 - filename: certn-webhooks-api-openapi.yml
   format: yaml
   label: Certn Webhooks API
   slug: certn-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certn/refs/heads/main/openapi/certn-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/certn/openapi/certn-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -65,7 +65,7 @@ source_filename: certn-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/certn-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: 'OAuth 2.0 client credentials. Exchange your Client ID and Client Secret for\n    an access token, then send it as \"Authorization: Bearer {token}\".'\n  sources:\n  - openapi/certn-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/certn/refs/heads/main/authentication/certn-authentication.yml
+source_yaml_url: https://artifacts.apis.io/certn/authentication/certn-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Background Checks

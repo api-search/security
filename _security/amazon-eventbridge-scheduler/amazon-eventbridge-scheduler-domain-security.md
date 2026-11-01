@@ -5,19 +5,19 @@ api_specs:
   label: Amazon EventBridge Scheduler Schedule Groups API
   slug: amazon-eventbridge-scheduler-schedule-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-scheduler/refs/heads/main/openapi/amazon-eventbridge-scheduler-schedule-groups-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-eventbridge-scheduler/openapi/amazon-eventbridge-scheduler-schedule-groups-api-openapi.yml
 - filename: amazon-eventbridge-scheduler-schedules-api-openapi.yml
   format: yaml
   label: Amazon EventBridge Scheduler Schedules API
   slug: amazon-eventbridge-scheduler-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-scheduler/refs/heads/main/openapi/amazon-eventbridge-scheduler-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-eventbridge-scheduler/openapi/amazon-eventbridge-scheduler-schedules-api-openapi.yml
 - filename: amazon-eventbridge-scheduler-tags-api-openapi.yml
   format: yaml
   label: Amazon EventBridge Scheduler Tags API
   slug: amazon-eventbridge-scheduler-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-scheduler/refs/heads/main/openapi/amazon-eventbridge-scheduler-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-eventbridge-scheduler/openapi/amazon-eventbridge-scheduler-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -55,7 +55,7 @@ source_filename: amazon-eventbridge-scheduler-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: scheduler.amazonaws.com\n  https: false\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-scheduler/refs/heads/main/security/amazon-eventbridge-scheduler-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amazon-eventbridge-scheduler/security/amazon-eventbridge-scheduler-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Amazon Web Services

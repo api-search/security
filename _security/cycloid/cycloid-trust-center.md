@@ -5,49 +5,49 @@ api_specs:
   label: Cycloid CloudCost API
   slug: cycloid-cloudcost-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/openapi/cycloid-cloudcost-api-openapi.yml
+  url: https://artifacts.apis.io/cycloid/openapi/cycloid-cloudcost-api-openapi.yml
 - filename: cycloid-configrepositories-api-openapi.yml
   format: yaml
   label: Cycloid ConfigRepositories API
   slug: cycloid-configrepositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/openapi/cycloid-configrepositories-api-openapi.yml
+  url: https://artifacts.apis.io/cycloid/openapi/cycloid-configrepositories-api-openapi.yml
 - filename: cycloid-credentials-api-openapi.yml
   format: yaml
   label: Cycloid Credentials API
   slug: cycloid-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/openapi/cycloid-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/cycloid/openapi/cycloid-credentials-api-openapi.yml
 - filename: cycloid-inventory-api-openapi.yml
   format: yaml
   label: Cycloid Inventory API
   slug: cycloid-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/openapi/cycloid-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/cycloid/openapi/cycloid-inventory-api-openapi.yml
 - filename: cycloid-organizations-api-openapi.yml
   format: yaml
   label: Cycloid Organizations API
   slug: cycloid-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/openapi/cycloid-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/cycloid/openapi/cycloid-organizations-api-openapi.yml
 - filename: cycloid-pipelines-api-openapi.yml
   format: yaml
   label: Cycloid Pipelines API
   slug: cycloid-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/openapi/cycloid-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/cycloid/openapi/cycloid-pipelines-api-openapi.yml
 - filename: cycloid-projects-api-openapi.yml
   format: yaml
   label: Cycloid Projects API
   slug: cycloid-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/openapi/cycloid-projects-api-openapi.yml
+  url: https://artifacts.apis.io/cycloid/openapi/cycloid-projects-api-openapi.yml
 - filename: cycloid-servicecatalogs-api-openapi.yml
   format: yaml
   label: Cycloid ServiceCatalogs API
   slug: cycloid-servicecatalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/openapi/cycloid-servicecatalogs-api-openapi.yml
+  url: https://artifacts.apis.io/cycloid/openapi/cycloid-servicecatalogs-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -65,7 +65,7 @@ source_filename: cycloid-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://app.drata.com/trust/20399cf5-666d-4f4f-ac08-2ed667c26bde\nurl: https://app.drata.com/trust/20399cf5-666d-4f4f-ac08-2ed667c26bde\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://app.drata.com/trust/20399cf5-666d-4f4f-ac08-2ed667c26bde\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/security/cycloid-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/cycloid/security/cycloid-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Asset Inventory

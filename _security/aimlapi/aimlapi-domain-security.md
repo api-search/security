@@ -5,115 +5,115 @@ api_specs:
   label: AIMLAPI API Key Management API
   slug: aimlapi-api-key-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-api-key-management-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-api-key-management-api-openapi.yml
 - filename: aimlapi-assistants-api-openapi.yml
   format: yaml
   label: AIMLAPI Assistants API
   slug: aimlapi-assistants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-assistants-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-assistants-api-openapi.yml
 - filename: aimlapi-images-api-openapi.yml
   format: yaml
   label: AIMLAPI Images API
   slug: aimlapi-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-images-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-images-api-openapi.yml
 - filename: aimlapi-models-api-openapi.yml
   format: yaml
   label: AIMLAPI Models API
   slug: aimlapi-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-models-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-models-api-openapi.yml
 - filename: aimlapi-threads-api-openapi.yml
   format: yaml
   label: AIMLAPI Threads API
   slug: aimlapi-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-threads-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-threads-api-openapi.yml
 - filename: aimlapi-threads-messages-api-openapi.yml
   format: yaml
   label: AIMLAPI Threads > Messages API
   slug: aimlapi-threads-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-threads-messages-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-threads-messages-api-openapi.yml
 - filename: aimlapi-threads-runs-api-openapi.yml
   format: yaml
   label: AIMLAPI Threads > Runs API
   slug: aimlapi-threads-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-threads-runs-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-threads-runs-api-openapi.yml
 - filename: aimlapi-voice-api-openapi.yml
   format: yaml
   label: AIMLAPI Voice API
   slug: aimlapi-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-voice-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-voice-api-openapi.yml
 - filename: aimlapi-wip-completions-api-openapi.yml
   format: yaml
   label: AIMLAPI [WIP] Completions API
   slug: aimlapi-wip-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-wip-completions-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-wip-completions-api-openapi.yml
 - filename: aimlapi-batches-api-openapi.yml
   format: yaml
   label: AIMLAPI Batches API
   slug: aimlapi-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-batches-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-batches-api-openapi.yml
 - filename: aimlapi-embeddings-api-openapi.yml
   format: yaml
   label: AIMLAPI Embeddings API
   slug: aimlapi-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-embeddings-api-openapi.yml
 - filename: aimlapi-generate-api-openapi.yml
   format: yaml
   label: AIMLAPI Generate API
   slug: aimlapi-generate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-generate-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-generate-api-openapi.yml
 - filename: aimlapi-messages-api-openapi.yml
   format: yaml
   label: AIMLAPI Messages API
   slug: aimlapi-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-messages-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-messages-api-openapi.yml
 - filename: aimlapi-ocr-api-openapi.yml
   format: yaml
   label: AIMLAPI Ocr API
   slug: aimlapi-ocr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-ocr-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-ocr-api-openapi.yml
 - filename: aimlapi-responses-api-openapi.yml
   format: yaml
   label: AIMLAPI Responses API
   slug: aimlapi-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-responses-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-responses-api-openapi.yml
 - filename: aimlapi-stt-api-openapi.yml
   format: yaml
   label: AIMLAPI Stt API
   slug: aimlapi-stt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-stt-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-stt-api-openapi.yml
 - filename: aimlapi-tts-api-openapi.yml
   format: yaml
   label: AIMLAPI Tts API
   slug: aimlapi-tts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-tts-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-tts-api-openapi.yml
 - filename: aimlapi-video-api-openapi.yml
   format: yaml
   label: AIMLAPI Video API
   slug: aimlapi-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-video-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-video-api-openapi.yml
 - filename: aimlapi-chat-completions-api-openapi.yml
   format: yaml
   label: AIMLAPI Chat Completions API
   slug: aimlapi-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -148,7 +148,7 @@ source_filename: aimlapi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-30'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aimlapi.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  7 14:12:32 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.aimlapi.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  7 14:12:32 2026 GMT\n  hsts: null\ndomains:\n- domain: aimlapi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/security/aimlapi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aimlapi/security/aimlapi-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Artificial Intelligence

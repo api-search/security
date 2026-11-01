@@ -5,43 +5,43 @@ api_specs:
   label: Sendoso Marketplace and SmartSend API
   slug: sendoso-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/sendoso/openapi/sendoso-marketplace-api-openapi.yml
 - filename: sendoso-webhooks-asyncapi.yml
   format: yaml
   label: Sendoso Webhooks
   slug: sendoso-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/asyncapi/sendoso-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/sendoso/asyncapi/sendoso-webhooks-asyncapi.yml
 - filename: sendoso-campaigns-api-openapi.yml
   format: yaml
   label: Sendoso Campaigns API
   slug: sendoso-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/sendoso/openapi/sendoso-campaigns-api-openapi.yml
 - filename: sendoso-sends-api-openapi.yml
   format: yaml
   label: Sendoso Sends API
   slug: sendoso-sends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-sends-api-openapi.yml
+  url: https://artifacts.apis.io/sendoso/openapi/sendoso-sends-api-openapi.yml
 - filename: sendoso-smartsend-api-openapi.yml
   format: yaml
   label: Sendoso Smart Send API
   slug: sendoso-smartsend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-smartsend-api-openapi.yml
+  url: https://artifacts.apis.io/sendoso/openapi/sendoso-smartsend-api-openapi.yml
 - filename: sendoso-teams-api-openapi.yml
   format: yaml
   label: Sendoso Teams API
   slug: sendoso-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-teams-api-openapi.yml
+  url: https://artifacts.apis.io/sendoso/openapi/sendoso-teams-api-openapi.yml
 - filename: sendoso-users-api-openapi.yml
   format: yaml
   label: Sendoso Users API
   slug: sendoso-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-users-api-openapi.yml
+  url: https://artifacts.apis.io/sendoso/openapi/sendoso-users-api-openapi.yml
 certification_count: 0
 certifications: []
 description: 'Sendoso runs a Vanta-hosted Trust Center at security.sendoso.com. It answers HTTP 200, but it is a client-rendered single-page application: the 5.7 KB HTML the server actually delivers contains the title "Sendoso Trust Center" and nothing else — no certification name, no control, no document list. Certifications are therefore NOT recorded here, because none were readable. That is a measurement of the surface, not a claim about Sendoso''s compliance posture.'
@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://security.
   \  machine_readable: false\n  machine_readable_note: >-\n    Probed for a machine-readable trust report at /api/trust-center, /api/trust-report,\n    app.vanta.com/api/trust-report/sendoso and app.vanta.com/api/trust/sendoso — all returned\n    the SPA HTML shell rather than data.\ncertifications: []\ncertifications_note: >-\n  None readable. Do not emit a Compliance pointer from this file; a trust center whose\n  contents cannot be read is not published evidence of a named certification.\ncompliance_signals_found_elsewhere:\n  - signal: CCPA\n    where: https://www.sendoso.com/ and https://www.sendoso.com/compare-plans (footer link)\n    note: A privacy-rights link, not a certification.\n  - signal: Anti-Bribery Controls\n    where: https://www.sendoso.com/compare-plans\n    note: Sold as an Enterprise-tier feature row, not stated as an external attestation.\n  - signal: Advanced Audit Services\n    where: https://www.sendoso.com/compare-plans\n    note: Enterprise-tier feature row.\n\
   security_claims_in_docs:\n  - claim: Data encrypted at rest with AES-256.\n    source: https://developer.sendoso.com/rest-api/overview/security\n  - claim: Data in transit over HTTPS TLS 1.2 with RSA 256-bit.\n    source: https://developer.sendoso.com/rest-api/overview/security\n    observed: TLSv1.3 negotiated on all three hosts (probed 2026-08-13).\n  - claim: >-\n      All API requests are logged (IP, method, resource, response status) and monitored for\n      suspicious activity.\n    source: https://developer.sendoso.com/rest-api/overview/security\nenterprise_controls_published:\n  source: https://www.sendoso.com/compare-plans\n  controls:\n    - Single Sign-On (SSO) — Core tier and above\n    - SCIM user management — Enterprise tier\n    - IP allow listing — Enterprise tier\n    - Admin audit log — Enterprise tier\n    - Policy Center — Enterprise tier\n    - Advanced IT controls — Enterprise tier\nrecommendation_for_provider: >-\n  The Vanta trust center is invisible to every automated\
   \ reader, including the AI agents\n  Sendoso is otherwise courting with an MCP server and an agent skill. Serving the\n  certification list as static HTML, or exposing Vanta's public trust-report JSON, would make\n  a real compliance program legible without changing what is disclosed.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/security/sendoso-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/sendoso/security/sendoso-trust-center.yml
 summary_line: trust center published
 tags:
 - Corporate Gifting

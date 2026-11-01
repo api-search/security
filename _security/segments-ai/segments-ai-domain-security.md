@@ -5,31 +5,31 @@ api_specs:
   label: Segments.ai Datasets API
   slug: segments-ai-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/openapi/segments-ai-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/segments-ai/openapi/segments-ai-datasets-api-openapi.yml
 - filename: segments-ai-labels-api-openapi.yml
   format: yaml
   label: Segments.ai Labels API
   slug: segments-ai-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/openapi/segments-ai-labels-api-openapi.yml
+  url: https://artifacts.apis.io/segments-ai/openapi/segments-ai-labels-api-openapi.yml
 - filename: segments-ai-releases-api-openapi.yml
   format: yaml
   label: Segments.ai Releases API
   slug: segments-ai-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/openapi/segments-ai-releases-api-openapi.yml
+  url: https://artifacts.apis.io/segments-ai/openapi/segments-ai-releases-api-openapi.yml
 - filename: segments-ai-samples-api-openapi.yml
   format: yaml
   label: Segments.ai Samples API
   slug: segments-ai-samples-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/openapi/segments-ai-samples-api-openapi.yml
+  url: https://artifacts.apis.io/segments-ai/openapi/segments-ai-samples-api-openapi.yml
 - filename: segments-ai-label-sets-api-openapi.yml
   format: yaml
   label: Segments.ai Label Sets API
   slug: segments-ai-label-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/openapi/segments-ai-label-sets-api-openapi.yml
+  url: https://artifacts.apis.io/segments-ai/openapi/segments-ai-label-sets-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: segments-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: segments.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 23:37:43 2026 GMT\n  hsts: false\n- host: docs.segments.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 23:33:26 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.segments.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 03:55:56 2026 GMT\n  hsts: null\ndomains:\n- domain: segments.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/security/segments-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/segments-ai/security/segments-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data Labeling

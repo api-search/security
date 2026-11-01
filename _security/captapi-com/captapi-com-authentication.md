@@ -1,0 +1,282 @@
+---
+anonymous_access: false
+api_key_in:
+- header
+api_specs:
+- filename: captapi-com-account-api-openapi.yml
+  format: yaml
+  label: captapi-com Account API
+  slug: captapi-com-account-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-account-api-openapi.yml
+- filename: captapi-com-amazon-shop-api-openapi.yml
+  format: yaml
+  label: captapi-com Amazon Shop API
+  slug: captapi-com-amazon-shop-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-amazon-shop-api-openapi.yml
+- filename: captapi-com-batch-api-openapi.yml
+  format: yaml
+  label: captapi-com Batch API
+  slug: captapi-com-batch-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-batch-api-openapi.yml
+- filename: captapi-com-bluesky-api-openapi.yml
+  format: yaml
+  label: captapi-com Bluesky API
+  slug: captapi-com-bluesky-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-bluesky-api-openapi.yml
+- filename: captapi-com-facebook-ad-library-api-openapi.yml
+  format: yaml
+  label: captapi-com Facebook Ad Library API
+  slug: captapi-com-facebook-ad-library-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-facebook-ad-library-api-openapi.yml
+- filename: captapi-com-facebook-api-openapi.yml
+  format: yaml
+  label: captapi-com Facebook API
+  slug: captapi-com-facebook-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-facebook-api-openapi.yml
+- filename: captapi-com-facebook-events-api-openapi.yml
+  format: yaml
+  label: captapi-com Facebook Events API
+  slug: captapi-com-facebook-events-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-facebook-events-api-openapi.yml
+- filename: captapi-com-facebook-marketplace-api-openapi.yml
+  format: yaml
+  label: captapi-com Facebook Marketplace API
+  slug: captapi-com-facebook-marketplace-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-facebook-marketplace-api-openapi.yml
+- filename: captapi-com-github-api-openapi.yml
+  format: yaml
+  label: captapi-com GitHub API
+  slug: captapi-com-github-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-github-api-openapi.yml
+- filename: captapi-com-google-ad-library-api-openapi.yml
+  format: yaml
+  label: captapi-com Google Ad Library API
+  slug: captapi-com-google-ad-library-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-google-ad-library-api-openapi.yml
+- filename: captapi-com-google-maps-api-openapi.yml
+  format: yaml
+  label: captapi-com Google Maps API
+  slug: captapi-com-google-maps-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-google-maps-api-openapi.yml
+- filename: captapi-com-history-api-openapi.yml
+  format: yaml
+  label: captapi-com History API
+  slug: captapi-com-history-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-history-api-openapi.yml
+- filename: captapi-com-instagram-api-openapi.yml
+  format: yaml
+  label: captapi-com Instagram API
+  slug: captapi-com-instagram-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-instagram-api-openapi.yml
+- filename: captapi-com-kick-api-openapi.yml
+  format: yaml
+  label: captapi-com Kick API
+  slug: captapi-com-kick-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-kick-api-openapi.yml
+- filename: captapi-com-komi-api-openapi.yml
+  format: yaml
+  label: captapi-com Komi API
+  slug: captapi-com-komi-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-komi-api-openapi.yml
+- filename: captapi-com-kwai-api-openapi.yml
+  format: yaml
+  label: captapi-com Kwai API
+  slug: captapi-com-kwai-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-kwai-api-openapi.yml
+- filename: captapi-com-linkbio-api-openapi.yml
+  format: yaml
+  label: captapi-com Linkbio API
+  slug: captapi-com-linkbio-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-linkbio-api-openapi.yml
+- filename: captapi-com-linkedin-ad-library-api-openapi.yml
+  format: yaml
+  label: captapi-com LinkedIn Ad Library API
+  slug: captapi-com-linkedin-ad-library-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-linkedin-ad-library-api-openapi.yml
+- filename: captapi-com-linkme-api-openapi.yml
+  format: yaml
+  label: captapi-com Linkme API
+  slug: captapi-com-linkme-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-linkme-api-openapi.yml
+- filename: captapi-com-linktree-api-openapi.yml
+  format: yaml
+  label: captapi-com Linktree API
+  slug: captapi-com-linktree-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-linktree-api-openapi.yml
+- filename: captapi-com-monitors-api-openapi.yml
+  format: yaml
+  label: captapi-com Monitors API
+  slug: captapi-com-monitors-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-monitors-api-openapi.yml
+- filename: captapi-com-pillar-api-openapi.yml
+  format: yaml
+  label: captapi-com Pillar API
+  slug: captapi-com-pillar-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-pillar-api-openapi.yml
+- filename: captapi-com-pinterest-api-openapi.yml
+  format: yaml
+  label: captapi-com Pinterest API
+  slug: captapi-com-pinterest-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-pinterest-api-openapi.yml
+- filename: captapi-com-reddit-api-openapi.yml
+  format: yaml
+  label: captapi-com Reddit API
+  slug: captapi-com-reddit-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-reddit-api-openapi.yml
+- filename: captapi-com-rumble-api-openapi.yml
+  format: yaml
+  label: captapi-com Rumble API
+  slug: captapi-com-rumble-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-rumble-api-openapi.yml
+- filename: captapi-com-snapchat-api-openapi.yml
+  format: yaml
+  label: captapi-com Snapchat API
+  slug: captapi-com-snapchat-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-snapchat-api-openapi.yml
+- filename: captapi-com-soundcloud-api-openapi.yml
+  format: yaml
+  label: captapi-com Sound Cloud API
+  slug: captapi-com-soundcloud-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-soundcloud-api-openapi.yml
+- filename: captapi-com-spotify-api-openapi.yml
+  format: yaml
+  label: captapi-com Spotify API
+  slug: captapi-com-spotify-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-spotify-api-openapi.yml
+- filename: captapi-com-status-api-openapi.yml
+  format: yaml
+  label: captapi-com Status API
+  slug: captapi-com-status-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-status-api-openapi.yml
+- filename: captapi-com-threads-api-openapi.yml
+  format: yaml
+  label: captapi-com Threads API
+  slug: captapi-com-threads-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-threads-api-openapi.yml
+- filename: captapi-com-tiktok-ad-library-api-openapi.yml
+  format: yaml
+  label: captapi-com TikTok Ad Library API
+  slug: captapi-com-tiktok-ad-library-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-tiktok-ad-library-api-openapi.yml
+- filename: captapi-com-tiktok-api-openapi.yml
+  format: yaml
+  label: captapi-com Tik Tok API
+  slug: captapi-com-tiktok-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-tiktok-api-openapi.yml
+- filename: captapi-com-tiktok-shop-api-openapi.yml
+  format: yaml
+  label: captapi-com TikTok Shop API
+  slug: captapi-com-tiktok-shop-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-tiktok-shop-api-openapi.yml
+- filename: captapi-com-twitch-api-openapi.yml
+  format: yaml
+  label: captapi-com Twitch API
+  slug: captapi-com-twitch-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-twitch-api-openapi.yml
+- filename: captapi-com-twitter-x-api-openapi.yml
+  format: yaml
+  label: captapi-com Twitter / X API
+  slug: captapi-com-twitter-x-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-twitter-x-api-openapi.yml
+- filename: captapi-com-utilities-api-openapi.yml
+  format: yaml
+  label: captapi-com Utilities API
+  slug: captapi-com-utilities-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-utilities-api-openapi.yml
+- filename: captapi-com-youtube-api-openapi.yml
+  format: yaml
+  label: captapi-com YouTube API
+  slug: captapi-com-youtube-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-youtube-api-openapi.yml
+- filename: captapi-com-linked-in-api-openapi.yml
+  format: yaml
+  label: captapi-com Linked In API
+  slug: captapi-com-linked-in-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-linked-in-api-openapi.yml
+- filename: captapi-com-truthsocial-api-openapi.yml
+  format: yaml
+  label: captapi-com Truthsocial API
+  slug: captapi-com-truthsocial-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captapi-com/openapi/captapi-com-truthsocial-api-openapi.yml
+auth_types:
+- apiKey
+- http
+description: ''
+kind: authentication
+layout: security
+mechanism_count: 2
+method: derived
+name: Captapi Com Authentication
+name_suffix: Authentication
+oauth_flows: []
+overview: captapi-com secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: captapi-com
+provider_slug: captapi-com
+scheme_count: 2
+schemes:
+- description: 'Your API key: `Authorization: Bearer capt_live_...`. Create one at https://captapi.com/dashboard/api-keys.'
+  name: bearerAuth
+  scheme: bearer
+  sources:
+  - openapi/captapi-com-openapi.json
+  type: http
+- description: 'Alternative to the bearer header: `X-API-Key: capt_live_...`.'
+  in: header
+  name: apiKeyHeader
+  parameter: X-API-Key
+  sources:
+  - openapi/captapi-com-openapi.json
+  type: apiKey
+slug: captapi-com-authentication
+source_filename: captapi-com-authentication.yml
+source_heading: Authentication Profile
+source_url: ''
+source_yaml: "generated: '2026-10-30'\nmethod: derived\nsource: openapi/captapi-com-openapi.json\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Your API key: `Authorization: Bearer capt_live_...`. Create one at https://captapi.com/dashboard/api-keys.'\n  sources:\n  - openapi/captapi-com-openapi.json\n- name: apiKeyHeader\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: 'Alternative to the bearer header: `X-API-Key: capt_live_...`.'\n  sources:\n  - openapi/captapi-com-openapi.json\n"
+source_yaml_url: https://artifacts.apis.io/captapi-com/authentication/captapi-com-authentication.yml
+summary_line: apiKey/http · 2 schemes
+tags:
+- Company
+- API
+- Social Media
+- Data Aggregation
+- Video
+---

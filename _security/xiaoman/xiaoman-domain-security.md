@@ -5,43 +5,43 @@ api_specs:
   label: OKKI Go Companies API
   slug: xiaoman-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-companies-api-openapi.yml
+  url: https://artifacts.apis.io/xiaoman/openapi/xiaoman-companies-api-openapi.yml
 - filename: xiaoman-contacts-api-openapi.yml
   format: yaml
   label: OKKI Go Contacts API
   slug: xiaoman-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/xiaoman/openapi/xiaoman-contacts-api-openapi.yml
 - filename: xiaoman-credits-api-openapi.yml
   format: yaml
   label: OKKI Go Credits API
   slug: xiaoman-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-credits-api-openapi.yml
+  url: https://artifacts.apis.io/xiaoman/openapi/xiaoman-credits-api-openapi.yml
 - filename: xiaoman-default-api-openapi.yml
   format: yaml
   label: Xiaoman (OKKI CRM) 产品 API
   slug: xiaoman-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-default-api-openapi.yml
+  url: https://artifacts.apis.io/xiaoman/openapi/xiaoman-default-api-openapi.yml
 - filename: xiaoman-emails-api-openapi.yml
   format: yaml
   label: OKKI Go Emails API
   slug: xiaoman-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-emails-api-openapi.yml
+  url: https://artifacts.apis.io/xiaoman/openapi/xiaoman-emails-api-openapi.yml
 - filename: xiaoman-s7-1-api-openapi.yml
   format: yaml
   label: Xiaoman (OKKI CRM) s7.1 API
   slug: xiaoman-s7-1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-s7-1-api-openapi.yml
+  url: https://artifacts.apis.io/xiaoman/openapi/xiaoman-s7-1-api-openapi.yml
 - filename: xiaoman-dev-ops-api-openapi.yml
   format: yaml
   label: Xiaoman (OKKI) Dev Ops API
   slug: xiaoman-dev-ops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-dev-ops-api-openapi.yml
+  url: https://artifacts.apis.io/xiaoman/openapi/xiaoman-dev-ops-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -74,7 +74,7 @@ source_filename: xiaoman-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: xiaoman.cn\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 14 04:53:00 2026 GMT\n  hsts: false\n- host: api-sandbox.xiaoman.cn\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 14 04:53:00 2026 GMT\n  hsts: false\ndomains:\n- domain: xiaoman.cn\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/security/xiaoman-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/xiaoman/security/xiaoman-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Company

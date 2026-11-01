@@ -8,163 +8,163 @@ api_specs:
   label: Beeketing Abandoned Checkout API
   slug: beeketing-abandoned-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-abandoned-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-abandoned-checkout-api-openapi.yml
 - filename: beeketing-balance-api-openapi.yml
   format: yaml
   label: Beeketing Balance API
   slug: beeketing-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-balance-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-balance-api-openapi.yml
 - filename: beeketing-collect-api-openapi.yml
   format: yaml
   label: Beeketing Collect API
   slug: beeketing-collect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-collect-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-collect-api-openapi.yml
 - filename: beeketing-custom-collection-api-openapi.yml
   format: yaml
   label: Beeketing Custom Collection API
   slug: beeketing-custom-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-custom-collection-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-custom-collection-api-openapi.yml
 - filename: beeketing-customer-address-api-openapi.yml
   format: yaml
   label: Beeketing Customer Address API
   slug: beeketing-customer-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-customer-address-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-customer-address-api-openapi.yml
 - filename: beeketing-customer-api-openapi.yml
   format: yaml
   label: Beeketing Customer API
   slug: beeketing-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-customer-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-customer-api-openapi.yml
 - filename: beeketing-domain-api-openapi.yml
   format: yaml
   label: Beeketing Domain API
   slug: beeketing-domain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-domain-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-domain-api-openapi.yml
 - filename: beeketing-draftorder-api-openapi.yml
   format: yaml
   label: Beeketing Draft Order API
   slug: beeketing-draftorder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-draftorder-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-draftorder-api-openapi.yml
 - filename: beeketing-fulfillment-api-openapi.yml
   format: yaml
   label: Beeketing Fulfillment API
   slug: beeketing-fulfillment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-fulfillment-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-fulfillment-api-openapi.yml
 - filename: beeketing-fulfillmentservice-api-openapi.yml
   format: yaml
   label: Beeketing Fulfillment Service API
   slug: beeketing-fulfillmentservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-fulfillmentservice-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-fulfillmentservice-api-openapi.yml
 - filename: beeketing-metafield-api-openapi.yml
   format: yaml
   label: Beeketing Metafield API
   slug: beeketing-metafield-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-metafield-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-metafield-api-openapi.yml
 - filename: beeketing-order-api-openapi.yml
   format: yaml
   label: Beeketing Order API
   slug: beeketing-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-order-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-order-api-openapi.yml
 - filename: beeketing-page-api-openapi.yml
   format: yaml
   label: Beeketing Page API
   slug: beeketing-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-page-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-page-api-openapi.yml
 - filename: beeketing-payment-simulator-api-openapi.yml
   format: yaml
   label: Beeketing Payment Simulator API
   slug: beeketing-payment-simulator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-payment-simulator-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-payment-simulator-api-openapi.yml
 - filename: beeketing-phuborderapi-api-openapi.yml
   format: yaml
   label: Beeketing Phub Order API
   slug: beeketing-phuborderapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-phuborderapi-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-phuborderapi-api-openapi.yml
 - filename: beeketing-pricerule-api-openapi.yml
   format: yaml
   label: Beeketing Price Rule API
   slug: beeketing-pricerule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-pricerule-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-pricerule-api-openapi.yml
 - filename: beeketing-product-api-openapi.yml
   format: yaml
   label: Beeketing Product API
   slug: beeketing-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-product-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-product-api-openapi.yml
 - filename: beeketing-product-image-api-openapi.yml
   format: yaml
   label: Beeketing Product Image API
   slug: beeketing-product-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-product-image-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-product-image-api-openapi.yml
 - filename: beeketing-product-variant-api-openapi.yml
   format: yaml
   label: Beeketing Product Variant API
   slug: beeketing-product-variant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-product-variant-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-product-variant-api-openapi.yml
 - filename: beeketing-redirect-api-openapi.yml
   format: yaml
   label: Beeketing Redirect API
   slug: beeketing-redirect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-redirect-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-redirect-api-openapi.yml
 - filename: beeketing-refund-api-openapi.yml
   format: yaml
   label: Beeketing Refund API
   slug: beeketing-refund-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-refund-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-refund-api-openapi.yml
 - filename: beeketing-scripttag-api-openapi.yml
   format: yaml
   label: Beeketing Script Tag API
   slug: beeketing-scripttag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-scripttag-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-scripttag-api-openapi.yml
 - filename: beeketing-shop-api-openapi.yml
   format: yaml
   label: Beeketing Shop API
   slug: beeketing-shop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-shop-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-shop-api-openapi.yml
 - filename: beeketing-smartcollection-api-openapi.yml
   format: yaml
   label: Beeketing Smart Collection API
   slug: beeketing-smartcollection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-smartcollection-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-smartcollection-api-openapi.yml
 - filename: beeketing-transaction-api-openapi.yml
   format: yaml
   label: Beeketing Transaction API
   slug: beeketing-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-transaction-api-openapi.yml
 - filename: beeketing-webhook-api-openapi.yml
   format: yaml
   label: Beeketing Webhook API
   slug: beeketing-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-webhook-api-openapi.yml
 - filename: beeketing-discount-code-api-openapi.yml
   format: yaml
   label: Beeketing Discount Code API
   slug: beeketing-discount-code-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-discount-code-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-discount-code-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -225,7 +225,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://develop
   \  tokenUrl: https://{shop}.onshopbase.com/admin/oauth/access_token.json\n  client_credentials: API key + API secret key issued in the Partner Dashboard\n  install_verification: HMAC signature on install/redirect requests\n  scope_param: comma-separated scopes (e.g. write_orders,read_customers)\n  docs: https://developers.shopbase.com/build-an-app/making-your-first-request/authentication/oauth.md\n- name: PrivateAppBasic\n  type: http\n  app_type: private\n  scheme: basic\n  description: >-\n    Private apps interact with the API on behalf of a single store using HTTP\n    Basic authentication; credentials are generated from that store's admin.\n  docs: https://developers.shopbase.com/build-an-app/making-your-first-request/authentication/private-apps.md\n- name: APP_ACCESS_TOKEN\n  type: apiKey\n  in: header\n  parameter: APP_ACCESS_TOKEN\n  source: openapi/beeketing-shopbase-admin-openapi.json#/securityDefinitions\n  description: >-\n    The per-store access token an app obtains from\
   \ the OAuth authorization-code\n    exchange, sent as a request header. Declared on 146 of the 153 published\n    operations.\n- name: SHOP_ACCESS_TOKEN\n  type: apiKey\n  in: header\n  parameter: SHOP_ACCESS_TOKEN\n  source: openapi/beeketing-shopbase-admin-openapi.json#/securityDefinitions\n  description: >-\n    Shop-scoped access token declared in the spec's securityDefinitions. No\n    published operation references it, and the developer docs do not describe how\n    one is issued.\n- name: USER_ACCESS_TOKEN\n  type: apiKey\n  in: header\n  parameter: USER_ACCESS_TOKEN\n  source: openapi/beeketing-shopbase-admin-openapi.json#/securityDefinitions\n  description: >-\n    Staff-user access token; declared on 2 operations that act in a staff user's\n    context rather than an app's.\nenforcement:\n  scoped_operations: 116\n  unscoped_token_operations: 32\n  unauthenticated_operations: 5\n  note: >-\n    Derived from the spec. 116 operations declare an explicit access scope on\n    APP_ACCESS_TOKEN;\
   \ 32 declare the token with no scope; 2 use USER_ACCESS_TOKEN;\n    5 (the four Payment Simulator operations and one webhook receiver) carry no\n    security block at all, because they are called BY ShopBase or by a gateway\n    rather than by an app. Scope list in scopes/beeketing-scopes.yml.\ngaps:\n  openid_connect: false\n  mtls: false\n  token_refresh_documented: false\n  token_revocation_documented: false\n  note: >-\n    ShopBase documents no OIDC discovery, no refresh-token rotation, no\n    revocation endpoint, and serves no /.well-known/oauth-authorization-server\n    (see well-known/beeketing-well-known.yml). The authorization and token URLs\n    are per-store and can only be discovered from the prose docs.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/authentication/beeketing-authentication.yml
+source_yaml_url: https://artifacts.apis.io/beeketing/authentication/beeketing-authentication.yml
 summary_line: oauth2/http/apiKey · 5 schemes
 tags:
 - Company

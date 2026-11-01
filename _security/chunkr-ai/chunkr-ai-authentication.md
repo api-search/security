@@ -8,19 +8,37 @@ api_specs:
   label: Chunkr Files API
   slug: chunkr-ai-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chunkr-ai/refs/heads/main/openapi/chunkr-ai-files-api-openapi.yml
+  url: https://artifacts.apis.io/chunkr-ai/openapi/chunkr-ai-files-api-openapi.yml
 - filename: chunkr-ai-health-api-openapi.yml
   format: yaml
   label: Chunkr Health API
   slug: chunkr-ai-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chunkr-ai/refs/heads/main/openapi/chunkr-ai-health-api-openapi.yml
+  url: https://artifacts.apis.io/chunkr-ai/openapi/chunkr-ai-health-api-openapi.yml
 - filename: chunkr-ai-tasks-api-openapi.yml
   format: yaml
   label: Chunkr Tasks API
   slug: chunkr-ai-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chunkr-ai/refs/heads/main/openapi/chunkr-ai-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/chunkr-ai/openapi/chunkr-ai-tasks-api-openapi.yml
+- filename: chunkr-ai-chunkr-api-api-openapi.yml
+  format: yaml
+  label: Chunkr Chunkr API
+  slug: chunkr-ai-chunkr-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chunkr-ai/openapi/chunkr-ai-chunkr-api-api-openapi.yml
+- filename: chunkr-ai-extras-api-openapi.yml
+  format: yaml
+  label: Chunkr Extras API
+  slug: chunkr-ai-extras-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chunkr-ai/openapi/chunkr-ai-extras-api-openapi.yml
+- filename: chunkr-ai-webhook-api-openapi.yml
+  format: yaml
+  label: Chunkr Webhook API
+  slug: chunkr-ai-webhook-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chunkr-ai/openapi/chunkr-ai-webhook-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +66,7 @@ source_filename: chunkr-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/chunkr-ai-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'API key issued from the Chunkr dashboard, sent as the raw value of the Authorization\n    header (e.g. \"Authorization: lu_...\").'\n  sources:\n  - openapi/chunkr-ai-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chunkr-ai/refs/heads/main/authentication/chunkr-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/chunkr-ai/authentication/chunkr-ai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Document Parsing

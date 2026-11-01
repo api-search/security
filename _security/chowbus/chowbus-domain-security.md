@@ -53,7 +53,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.chowbus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 00:17:12 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: pos.chowbus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 04:37:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  note: merchant dashboard SPA; host added manually during the 2026-08-02 enrichment\n    pass (not reachable from apis.yml Website alone)\n- host: pos-api.chowbus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 04:37:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  note: live JSON API host, undocumented\n- host: api.chowbus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 04:37:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  note:\
   \ legacy marketplace-era Rails backend\ndomains:\n- domain: chowbus.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chowbus/refs/heads/main/security/chowbus-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/chowbus/security/chowbus-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

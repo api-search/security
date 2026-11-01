@@ -27,7 +27,7 @@ source_filename: antic-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.antic.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  4 06:57:18 2026 GMT\n  hsts: false\ndomains:\n- domain: antic.xyz\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/antic/refs/heads/main/security/antic-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/antic/security/antic-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

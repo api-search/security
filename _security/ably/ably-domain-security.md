@@ -5,73 +5,73 @@ api_specs:
   label: Ably Apps API
   slug: ably-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-apps-api-openapi.yml
+  url: https://artifacts.apis.io/ably/openapi/ably-apps-api-openapi.yml
 - filename: ably-authentication-api-openapi.yml
   format: yaml
   label: Ably Authentication API
   slug: ably-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/ably/openapi/ably-authentication-api-openapi.yml
 - filename: ably-history-api-openapi.yml
   format: yaml
   label: Ably History API
   slug: ably-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-history-api-openapi.yml
+  url: https://artifacts.apis.io/ably/openapi/ably-history-api-openapi.yml
 - filename: ably-keys-api-openapi.yml
   format: yaml
   label: Ably Keys API
   slug: ably-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-keys-api-openapi.yml
+  url: https://artifacts.apis.io/ably/openapi/ably-keys-api-openapi.yml
 - filename: ably-namespaces-api-openapi.yml
   format: yaml
   label: Ably Namespaces API
   slug: ably-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/ably/openapi/ably-namespaces-api-openapi.yml
 - filename: ably-publishing-api-openapi.yml
   format: yaml
   label: Ably Publishing API
   slug: ably-publishing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-publishing-api-openapi.yml
+  url: https://artifacts.apis.io/ably/openapi/ably-publishing-api-openapi.yml
 - filename: ably-push-api-openapi.yml
   format: yaml
   label: Ably Push API
   slug: ably-push-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-push-api-openapi.yml
+  url: https://artifacts.apis.io/ably/openapi/ably-push-api-openapi.yml
 - filename: ably-queues-api-openapi.yml
   format: yaml
   label: Ably Queues API
   slug: ably-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-queues-api-openapi.yml
+  url: https://artifacts.apis.io/ably/openapi/ably-queues-api-openapi.yml
 - filename: ably-rules-api-openapi.yml
   format: yaml
   label: Ably Rules API
   slug: ably-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-rules-api-openapi.yml
+  url: https://artifacts.apis.io/ably/openapi/ably-rules-api-openapi.yml
 - filename: ably-stats-api-openapi.yml
   format: yaml
   label: Ably Stats API
   slug: ably-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-stats-api-openapi.yml
+  url: https://artifacts.apis.io/ably/openapi/ably-stats-api-openapi.yml
 - filename: ably-status-api-openapi.yml
   format: yaml
   label: Ably Status API
   slug: ably-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-status-api-openapi.yml
+  url: https://artifacts.apis.io/ably/openapi/ably-status-api-openapi.yml
 - filename: ably-tokens-api-openapi.yml
   format: yaml
   label: Ably Tokens API
   slug: ably-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/ably/openapi/ably-tokens-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -118,7 +118,7 @@ source_filename: ably-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ably.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 01:41:22 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: rest.ably.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 23:59:59 2026 GMT\n  hsts: null\n- host: control.ably.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: ably.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: ably.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/security/ably-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ably/security/ably-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Real-Time

@@ -7,25 +7,25 @@ api_specs:
   label: Google Cloud Functions API
   slug: google-cloud-functions-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-functions/refs/heads/main/openapi/google-cloud-functions-functions-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-functions/openapi/google-cloud-functions-functions-api-openapi.yml
 - filename: google-cloud-functions-locations-api-openapi.yml
   format: yaml
   label: Google Cloud Functions Locations API
   slug: google-cloud-functions-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-functions/refs/heads/main/openapi/google-cloud-functions-locations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-functions/openapi/google-cloud-functions-locations-api-openapi.yml
 - filename: google-cloud-functions-operations-api-openapi.yml
   format: yaml
   label: Google Cloud Functions Operations API
   slug: google-cloud-functions-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-functions/refs/heads/main/openapi/google-cloud-functions-operations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-functions/openapi/google-cloud-functions-operations-api-openapi.yml
 - filename: google-cloud-functions-runtimes-api-openapi.yml
   format: yaml
   label: Google Cloud Functions Runtimes API
   slug: google-cloud-functions-runtimes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-functions/refs/heads/main/openapi/google-cloud-functions-runtimes-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-functions/openapi/google-cloud-functions-runtimes-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -56,7 +56,7 @@ source_filename: google-cloud-functions-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/google-cloud-functions-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 1\n  sources:\n  - openapi/google-cloud-functions-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-functions/refs/heads/main/authentication/google-cloud-functions-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-functions/authentication/google-cloud-functions-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Event-Driven

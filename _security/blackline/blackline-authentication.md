@@ -35,7 +35,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://developer.blackline.com/apis\ndocs: https://developer.blackline.com/apis\nsummary:\n  types: [oauth2]\n  oauth2_flows: [clientCredentials]\n  api_key_in: []\nschemes:\n  - name: OAuth2ClientCredentials\n    type: oauth2\n    flow: clientCredentials\n    token_url: https://api.blackline.com/auth/token\n    grant_type: client_credentials\n    credentials: [client_id, client_secret]\n    token_type: Bearer\n    description: >-\n      BlackLine REST APIs authenticate with OAuth 2.0 client credentials. An\n      application is registered in the BlackLine admin to obtain a Client ID and\n      Client Secret, which are exchanged at the token endpoint for a Bearer\n      access token presented in the Authorization header on each API call.\n    sources: [docs]\nnotes: >-\n  Derived from BlackLine developer portal documentation (no public OpenAPI\n  available to derive securitySchemes from). Token host may be region-specific\n\
   \  in some deployments (SAP Core / STS middleware exchanges an API key for an\n  OAuth Bearer token).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blackline/refs/heads/main/authentication/blackline-authentication.yml
+source_yaml_url: https://artifacts.apis.io/blackline/authentication/blackline-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

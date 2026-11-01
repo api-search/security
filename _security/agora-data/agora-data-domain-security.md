@@ -5,61 +5,61 @@ api_specs:
   label: Agora Data Health API
   slug: agora-data-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/openapi/agora-data-health-api-openapi.yml
+  url: https://artifacts.apis.io/agora-data/openapi/agora-data-health-api-openapi.yml
 - filename: agora-data-hooks-api-openapi.yml
   format: yaml
   label: Agora Data Hooks API
   slug: agora-data-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/openapi/agora-data-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/agora-data/openapi/agora-data-hooks-api-openapi.yml
 - filename: agora-data-import-api-openapi.yml
   format: yaml
   label: Agora Data Import API
   slug: agora-data-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/openapi/agora-data-import-api-openapi.yml
+  url: https://artifacts.apis.io/agora-data/openapi/agora-data-import-api-openapi.yml
 - filename: agora-data-inventory-api-openapi.yml
   format: yaml
   label: Agora Data Inventory API
   slug: agora-data-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/openapi/agora-data-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/agora-data/openapi/agora-data-inventory-api-openapi.yml
 - filename: agora-data-loans-api-openapi.yml
   format: yaml
   label: Agora Data Loans API
   slug: agora-data-loans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/openapi/agora-data-loans-api-openapi.yml
+  url: https://artifacts.apis.io/agora-data/openapi/agora-data-loans-api-openapi.yml
 - filename: agora-data-login-api-openapi.yml
   format: yaml
   label: Agora Data Login API
   slug: agora-data-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/openapi/agora-data-login-api-openapi.yml
+  url: https://artifacts.apis.io/agora-data/openapi/agora-data-login-api-openapi.yml
 - filename: agora-data-providers-api-openapi.yml
   format: yaml
   label: Agora Data Providers API
   slug: agora-data-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/openapi/agora-data-providers-api-openapi.yml
+  url: https://artifacts.apis.io/agora-data/openapi/agora-data-providers-api-openapi.yml
 - filename: agora-data-status-api-openapi.yml
   format: yaml
   label: Agora Data Status API
   slug: agora-data-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/openapi/agora-data-status-api-openapi.yml
+  url: https://artifacts.apis.io/agora-data/openapi/agora-data-status-api-openapi.yml
 - filename: agora-data-uploads-api-openapi.yml
   format: yaml
   label: Agora Data Uploads API
   slug: agora-data-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/openapi/agora-data-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/agora-data/openapi/agora-data-uploads-api-openapi.yml
 - filename: agora-data-oauth-api-openapi.yml
   format: yaml
   label: Agora Data OAUTH API
   slug: agora-data-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/openapi/agora-data-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/agora-data/openapi/agora-data-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,12 +69,12 @@ domains:
   domain: agoradata.com
   spf: true
 hosts:
-- cert_expires: Nov 29 14:38:20 2026 GMT
+- cert_expires: Oct  1 11:29:31 2026 GMT
   host: agoradata.com
   hsts: true
   https: true
   tls_version: TLSv1.3
-- cert_expires: Mar 17 23:59:59 2027 GMT
+- cert_expires: Oct 30 23:59:59 2026 GMT
   host: api.agoradata.com
   hsts: null
   https: true
@@ -92,8 +92,8 @@ slug: agora-data-domain-security
 source_filename: agora-data-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: agoradata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 29 14:38:20 2026 GMT\n  hsts: true\n- host: api.agoradata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 17 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: agoradata.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/security/agora-data-domain-security.yml
+source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: agoradata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 11:29:31 2026 GMT\n  hsts: true\n- host: api.agoradata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: agoradata.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml_url: https://artifacts.apis.io/agora-data/security/agora-data-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

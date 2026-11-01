@@ -28,7 +28,7 @@ source_filename: xena-workwear-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: xenaworkwear.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 23:21:02 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\ndomains:\n- domain: xenaworkwear.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xena-workwear/refs/heads/main/security/xena-workwear-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/xena-workwear/security/xena-workwear-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

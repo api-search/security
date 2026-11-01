@@ -27,7 +27,7 @@ source_filename: clearing-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.clearing.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 11:37:45 2026 GMT\n  hsts: false\ndomains:\n- domain: clearing.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clearing/refs/heads/main/security/clearing-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/clearing/security/clearing-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

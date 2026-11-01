@@ -13,19 +13,19 @@ api_specs:
   label: AI21 Labs Library API
   slug: ai21-labs-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai21-labs/refs/heads/main/openapi/ai21-labs-library-api-openapi.yml
+  url: https://artifacts.apis.io/ai21-labs/openapi/ai21-labs-library-api-openapi.yml
 - filename: ai21-labs-maestro-api-openapi.yml
   format: yaml
   label: AI21 Labs Maestro API
   slug: ai21-labs-maestro-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai21-labs/refs/heads/main/openapi/ai21-labs-maestro-api-openapi.yml
+  url: https://artifacts.apis.io/ai21-labs/openapi/ai21-labs-maestro-api-openapi.yml
 - filename: ai21-labs-chat-completions-api-openapi.yml
   format: yaml
   label: AI21 Labs Chat Completions API
   slug: ai21-labs-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai21-labs/refs/heads/main/openapi/ai21-labs-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/ai21-labs/openapi/ai21-labs-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: ai21-labs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ai21-labs-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer API key in Authorization header.\n  sources:\n  - openapi/ai21-labs-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ai21-labs/refs/heads/main/authentication/ai21-labs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ai21-labs/authentication/ai21-labs-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

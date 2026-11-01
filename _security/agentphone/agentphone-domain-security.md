@@ -5,79 +5,79 @@ api_specs:
   label: AgentPhone Agent Webhooks API
   slug: agentphone-agent-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-agent-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-agent-webhooks-api-openapi.yml
 - filename: agentphone-agents-api-openapi.yml
   format: yaml
   label: AgentPhone Agents API
   slug: agentphone-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-agents-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-agents-api-openapi.yml
 - filename: agentphone-calls-api-openapi.yml
   format: yaml
   label: AgentPhone Calls API
   slug: agentphone-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-calls-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-calls-api-openapi.yml
 - filename: agentphone-contactcards-api-openapi.yml
   format: yaml
   label: AgentPhone Contact Cards API
   slug: agentphone-contactcards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-contactcards-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-contactcards-api-openapi.yml
 - filename: agentphone-contacts-api-openapi.yml
   format: yaml
   label: AgentPhone Contacts API
   slug: agentphone-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-contacts-api-openapi.yml
 - filename: agentphone-conversations-api-openapi.yml
   format: yaml
   label: AgentPhone Conversations API
   slug: agentphone-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-conversations-api-openapi.yml
 - filename: agentphone-location-api-openapi.yml
   format: yaml
   label: AgentPhone Location API
   slug: agentphone-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-location-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-location-api-openapi.yml
 - filename: agentphone-messages-api-openapi.yml
   format: yaml
   label: AgentPhone Messages API
   slug: agentphone-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-messages-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-messages-api-openapi.yml
 - filename: agentphone-numbers-api-openapi.yml
   format: yaml
   label: AgentPhone Numbers API
   slug: agentphone-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-numbers-api-openapi.yml
 - filename: agentphone-registration-api-openapi.yml
   format: yaml
   label: AgentPhone Registration API
   slug: agentphone-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-registration-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-registration-api-openapi.yml
 - filename: agentphone-usage-api-openapi.yml
   format: yaml
   label: AgentPhone Usage API
   slug: agentphone-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-usage-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-usage-api-openapi.yml
 - filename: agentphone-webhooks-api-openapi.yml
   format: yaml
   label: AgentPhone Webhooks API
   slug: agentphone-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-webhooks-api-openapi.yml
 - filename: agentphone-subaccounts-api-openapi.yml
   format: yaml
   label: AgentPhone Subaccounts API
   slug: agentphone-subaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-subaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-subaccounts-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -106,7 +106,7 @@ source_filename: agentphone-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.agentphone.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 10:23:20 2026 GMT\n  hsts: null\ndomains:\n- domain: agentphone.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/security/agentphone-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/agentphone/security/agentphone-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

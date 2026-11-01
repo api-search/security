@@ -8,13 +8,13 @@ api_specs:
   label: SerpApi Account API
   slug: serpapi-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serpapi/refs/heads/main/openapi/serpapi-account-api-openapi.yml
+  url: https://artifacts.apis.io/serpapi/openapi/serpapi-account-api-openapi.yml
 - filename: serpapi-search-api-openapi.yml
   format: yaml
   label: SerpApi Search API
   slug: serpapi-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serpapi/refs/heads/main/openapi/serpapi-search-api-openapi.yml
+  url: https://artifacts.apis.io/serpapi/openapi/serpapi-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -41,7 +41,7 @@ source_filename: serpapi-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/serpapi-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: api_key\n  sources:\n  - openapi/serpapi-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/serpapi/refs/heads/main/authentication/serpapi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/serpapi/authentication/serpapi-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Bing

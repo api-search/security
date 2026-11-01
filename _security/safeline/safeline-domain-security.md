@@ -5,49 +5,49 @@ api_specs:
   label: SafeLine ACL Rules API
   slug: safeline-acl-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/openapi/safeline-acl-rules-api-openapi.yml
+  url: https://artifacts.apis.io/safeline/openapi/safeline-acl-rules-api-openapi.yml
 - filename: safeline-authentication-api-openapi.yml
   format: yaml
   label: SafeLine Authentication API
   slug: safeline-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/openapi/safeline-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/safeline/openapi/safeline-authentication-api-openapi.yml
 - filename: safeline-reports-api-openapi.yml
   format: yaml
   label: SafeLine Reports API
   slug: safeline-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/openapi/safeline-reports-api-openapi.yml
+  url: https://artifacts.apis.io/safeline/openapi/safeline-reports-api-openapi.yml
 - filename: safeline-security-policies-api-openapi.yml
   format: yaml
   label: SafeLine Security Policies API
   slug: safeline-security-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/openapi/safeline-security-policies-api-openapi.yml
+  url: https://artifacts.apis.io/safeline/openapi/safeline-security-policies-api-openapi.yml
 - filename: safeline-ssl-certificates-api-openapi.yml
   format: yaml
   label: SafeLine SSL Certificates API
   slug: safeline-ssl-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/openapi/safeline-ssl-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/safeline/openapi/safeline-ssl-certificates-api-openapi.yml
 - filename: safeline-system-api-openapi.yml
   format: yaml
   label: SafeLine System API
   slug: safeline-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/openapi/safeline-system-api-openapi.yml
+  url: https://artifacts.apis.io/safeline/openapi/safeline-system-api-openapi.yml
 - filename: safeline-users-api-openapi.yml
   format: yaml
   label: SafeLine Users API
   slug: safeline-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/openapi/safeline-users-api-openapi.yml
+  url: https://artifacts.apis.io/safeline/openapi/safeline-users-api-openapi.yml
 - filename: safeline-websites-api-openapi.yml
   format: yaml
   label: SafeLine Websites API
   slug: safeline-websites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/openapi/safeline-websites-api-openapi.yml
+  url: https://artifacts.apis.io/safeline/openapi/safeline-websites-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: safeline-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: waf.chaitin.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 05:52:22 2026 GMT\n  hsts: false\ndomains:\n- domain: chaitin.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/security/safeline-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/safeline/security/safeline-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Proxy

@@ -5,25 +5,25 @@ api_specs:
   label: Inception Edit API
   slug: inception-edit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inception/refs/heads/main/openapi/inception-edit-api-openapi.yml
+  url: https://artifacts.apis.io/inception/openapi/inception-edit-api-openapi.yml
 - filename: inception-fim-api-openapi.yml
   format: yaml
   label: Inception FIM API
   slug: inception-fim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inception/refs/heads/main/openapi/inception-fim-api-openapi.yml
+  url: https://artifacts.apis.io/inception/openapi/inception-fim-api-openapi.yml
 - filename: inception-models-api-openapi.yml
   format: yaml
   label: Inception Models API
   slug: inception-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inception/refs/heads/main/openapi/inception-models-api-openapi.yml
+  url: https://artifacts.apis.io/inception/openapi/inception-models-api-openapi.yml
 - filename: inception-chat-completions-api-openapi.yml
   format: yaml
   label: Inception Chat Completions API
   slug: inception-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inception/refs/heads/main/openapi/inception-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/inception/openapi/inception-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -64,7 +64,7 @@ source_filename: inception-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: inceptionlabs.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 11:19:33 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.inceptionlabs.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: inceptionlabs.ai\n  dnssec: true\n  caa:\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inception/refs/heads/main/security/inception-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/inception/security/inception-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

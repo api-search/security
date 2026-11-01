@@ -26,7 +26,7 @@ source_filename: 01-exchange-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: 01.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 11:25:30 2026 GMT\n  hsts: null\ndomains:\n- domain: 01.xyz\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/01-exchange/refs/heads/main/security/01-exchange-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/01-exchange/security/01-exchange-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company

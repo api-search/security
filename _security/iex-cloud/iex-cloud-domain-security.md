@@ -35,7 +35,7 @@ source_filename: iex-cloud-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nnotes: >-\n  IEX Cloud sunset 2024-08-31. The iexcloud.io domain has lapsed out of IEX\n  Group's control - www.iexcloud.io now serves a Namecheap domain-parking lander,\n  so its TLS certificate and DNS posture below describe the parking service, not\n  IEX Group. cloud.iexapis.com (former API host) no longer answers HTTPS.\nhosts:\n- host: www.iexcloud.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 03:27:23 2026 GMT\n  hsts: false\n- host: iexcloud.io\n  https: false\n- host: cloud.iexapis.com\n  https: false\ndomains:\n- domain: iexcloud.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: iexapis.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iex-cloud/refs/heads/main/security/iex-cloud-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/iex-cloud/security/iex-cloud-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Fintech

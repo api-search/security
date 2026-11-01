@@ -5,31 +5,31 @@ api_specs:
   label: SnackMagic Authentication API
   slug: snackmagic-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/openapi/snackmagic-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/snackmagic/openapi/snackmagic-authentication-api-openapi.yml
 - filename: snackmagic-automation-management-api-openapi.yml
   format: yaml
   label: SnackMagic Automation management API
   slug: snackmagic-automation-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/openapi/snackmagic-automation-management-api-openapi.yml
+  url: https://artifacts.apis.io/snackmagic/openapi/snackmagic-automation-management-api-openapi.yml
 - filename: snackmagic-order-management-api-openapi.yml
   format: yaml
   label: SnackMagic Order management API
   slug: snackmagic-order-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/openapi/snackmagic-order-management-api-openapi.yml
+  url: https://artifacts.apis.io/snackmagic/openapi/snackmagic-order-management-api-openapi.yml
 - filename: snackmagic-store-management-api-openapi.yml
   format: yaml
   label: SnackMagic Store management API
   slug: snackmagic-store-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/openapi/snackmagic-store-management-api-openapi.yml
+  url: https://artifacts.apis.io/snackmagic/openapi/snackmagic-store-management-api-openapi.yml
 - filename: snackmagic-user-management-api-openapi.yml
   format: yaml
   label: SnackMagic User management API
   slug: snackmagic-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/openapi/snackmagic-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/snackmagic/openapi/snackmagic-user-management-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -86,7 +86,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: snackmagic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  7 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.bystadium.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  7 23:59:59 2027 GMT\n  hsts: null\n- host: api.preprod.bystadium.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: snackmagic.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 iodef \"mailto:akhil@snackmagic.com\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: bystadium.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 iodef \"mailto:akhil@snackmagic.com\"\
   \n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/security/snackmagic-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/snackmagic/security/snackmagic-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

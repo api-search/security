@@ -5,25 +5,25 @@ api_specs:
   label: Statable Stats API Bootstrap API
   slug: statable-stats-api-bootstrap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statable-stats-api/refs/heads/main/openapi/statable-stats-api-bootstrap-api-openapi.yml
+  url: https://artifacts.apis.io/statable-stats-api/openapi/statable-stats-api-bootstrap-api-openapi.yml
 - filename: statable-stats-api-keys-api-openapi.yml
   format: yaml
   label: Statable Stats API Keys API
   slug: statable-stats-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statable-stats-api/refs/heads/main/openapi/statable-stats-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/statable-stats-api/openapi/statable-stats-api-keys-api-openapi.yml
 - filename: statable-stats-api-sites-api-openapi.yml
   format: yaml
   label: Statable Stats API Sites API
   slug: statable-stats-api-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statable-stats-api/refs/heads/main/openapi/statable-stats-api-sites-api-openapi.yml
+  url: https://artifacts.apis.io/statable-stats-api/openapi/statable-stats-api-sites-api-openapi.yml
 - filename: statable-stats-api-stats-api-openapi.yml
   format: yaml
   label: Statable Stats API Stats API
   slug: statable-stats-api-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statable-stats-api/refs/heads/main/openapi/statable-stats-api-stats-api-openapi.yml
+  url: https://artifacts.apis.io/statable-stats-api/openapi/statable-stats-api-stats-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -56,7 +56,7 @@ source_filename: statable-stats-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: statable.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 19 21:03:07 2026 GMT\n  hsts: false\n- host: dev.statable.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 17 16:02:59 2026 GMT\n  hsts: false\ndomains:\n- domain: statable.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/statable-stats-api/refs/heads/main/security/statable-stats-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/statable-stats-api/security/statable-stats-api-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Analytics

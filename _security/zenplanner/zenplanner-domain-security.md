@@ -5,43 +5,43 @@ api_specs:
   label: Zen Planner Classes API
   slug: zenplanner-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-classes-api-openapi.yml
+  url: https://artifacts.apis.io/zenplanner/openapi/zenplanner-classes-api-openapi.yml
 - filename: zenplanner-groups-api-openapi.yml
   format: yaml
   label: Zen Planner Groups API
   slug: zenplanner-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-groups-api-openapi.yml
+  url: https://artifacts.apis.io/zenplanner/openapi/zenplanner-groups-api-openapi.yml
 - filename: zenplanner-locations-api-openapi.yml
   format: yaml
   label: Zen Planner Locations API
   slug: zenplanner-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-locations-api-openapi.yml
+  url: https://artifacts.apis.io/zenplanner/openapi/zenplanner-locations-api-openapi.yml
 - filename: zenplanner-memberships-api-openapi.yml
   format: yaml
   label: Zen Planner Memberships API
   slug: zenplanner-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/zenplanner/openapi/zenplanner-memberships-api-openapi.yml
 - filename: zenplanner-people-api-openapi.yml
   format: yaml
   label: Zen Planner People API
   slug: zenplanner-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-people-api-openapi.yml
+  url: https://artifacts.apis.io/zenplanner/openapi/zenplanner-people-api-openapi.yml
 - filename: zenplanner-programs-api-openapi.yml
   format: yaml
   label: Zen Planner Programs API
   slug: zenplanner-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-programs-api-openapi.yml
+  url: https://artifacts.apis.io/zenplanner/openapi/zenplanner-programs-api-openapi.yml
 - filename: zenplanner-prospects-api-openapi.yml
   format: yaml
   label: Zen Planner Prospects API
   slug: zenplanner-prospects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-prospects-api-openapi.yml
+  url: https://artifacts.apis.io/zenplanner/openapi/zenplanner-prospects-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -90,7 +90,7 @@ source_filename: zenplanner-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: zenplanner.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 15:26:41 2026 GMT\n  hsts: false\n- host: docs.partners.daxko.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 23:59:59 2026 GMT\n  hsts: false\n- host: api.partners.daxko.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: zenplanner.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: daxko.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/security/zenplanner-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zenplanner/security/zenplanner-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Fitness

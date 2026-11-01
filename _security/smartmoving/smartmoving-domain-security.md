@@ -5,37 +5,37 @@ api_specs:
   label: SmartMoving Customers API
   slug: smartmoving-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/openapi/smartmoving-customers-api-openapi.yml
+  url: https://artifacts.apis.io/smartmoving/openapi/smartmoving-customers-api-openapi.yml
 - filename: smartmoving-jobs-api-openapi.yml
   format: yaml
   label: SmartMoving Jobs API
   slug: smartmoving-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/openapi/smartmoving-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/smartmoving/openapi/smartmoving-jobs-api-openapi.yml
 - filename: smartmoving-lead-provider-api-openapi.yml
   format: yaml
   label: SmartMoving Lead Provider API
   slug: smartmoving-lead-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/openapi/smartmoving-lead-provider-api-openapi.yml
+  url: https://artifacts.apis.io/smartmoving/openapi/smartmoving-lead-provider-api-openapi.yml
 - filename: smartmoving-leads-api-openapi.yml
   format: yaml
   label: SmartMoving Leads API
   slug: smartmoving-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/openapi/smartmoving-leads-api-openapi.yml
+  url: https://artifacts.apis.io/smartmoving/openapi/smartmoving-leads-api-openapi.yml
 - filename: smartmoving-opportunities-api-openapi.yml
   format: yaml
   label: SmartMoving Opportunities API
   slug: smartmoving-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/openapi/smartmoving-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/smartmoving/openapi/smartmoving-opportunities-api-openapi.yml
 - filename: smartmoving-reference-data-api-openapi.yml
   format: yaml
   label: SmartMoving Reference Data API
   slug: smartmoving-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/openapi/smartmoving-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/smartmoving/openapi/smartmoving-reference-data-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,12 +82,12 @@ source_filename: smartmoving-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.smartmoving.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 23:18:33 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: smartmoving-prod-api-management.developer.azure-api.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 08:10:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.smartmoving.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  6 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: smartmoving.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: azure-api.net\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/security/smartmoving-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/smartmoving/security/smartmoving-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Moving Software
 - CRM
-- Field Service
+- Field Service Management
 - Moving Company
 - Lead Management
 - Dispatch

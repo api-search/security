@@ -7,25 +7,25 @@ api_specs:
   label: Quora Models API
   slug: quora-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quora/refs/heads/main/openapi/quora-models-api-openapi.yml
+  url: https://artifacts.apis.io/quora/openapi/quora-models-api-openapi.yml
 - filename: quora-responses-api-openapi.yml
   format: yaml
   label: Quora Responses API
   slug: quora-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quora/refs/heads/main/openapi/quora-responses-api-openapi.yml
+  url: https://artifacts.apis.io/quora/openapi/quora-responses-api-openapi.yml
 - filename: quora-usage-api-openapi.yml
   format: yaml
   label: Quora Usage API
   slug: quora-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quora/refs/heads/main/openapi/quora-usage-api-openapi.yml
+  url: https://artifacts.apis.io/quora/openapi/quora-usage-api-openapi.yml
 - filename: quora-chat-completions-api-openapi.yml
   format: yaml
   label: Quora Chat Completions API
   slug: quora-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quora/refs/heads/main/openapi/quora-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/quora/openapi/quora-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: quora-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/quora-poe-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: 'Bearer token issued from https://poe.com/api/keys. Pass as `Authorization: Bearer\n    <api_key>`.'\n  sources:\n  - openapi/quora-poe-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quora/refs/heads/main/authentication/quora-authentication.yml
+source_yaml_url: https://artifacts.apis.io/quora/authentication/quora-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Community

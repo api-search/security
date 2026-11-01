@@ -8,31 +8,31 @@ api_specs:
   label: TaskHawk Systems Billing API
   slug: taskhawktech-com-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskhawktech-com/refs/heads/main/openapi/taskhawktech-com-billing-api-openapi.yml
+  url: https://artifacts.apis.io/taskhawktech-com/openapi/taskhawktech-com-billing-api-openapi.yml
 - filename: taskhawktech-com-governance-api-openapi.yml
   format: yaml
   label: TaskHawk Systems Governance API
   slug: taskhawktech-com-governance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskhawktech-com/refs/heads/main/openapi/taskhawktech-com-governance-api-openapi.yml
+  url: https://artifacts.apis.io/taskhawktech-com/openapi/taskhawktech-com-governance-api-openapi.yml
 - filename: taskhawktech-com-media-api-openapi.yml
   format: yaml
   label: TaskHawk Systems Media API
   slug: taskhawktech-com-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskhawktech-com/refs/heads/main/openapi/taskhawktech-com-media-api-openapi.yml
+  url: https://artifacts.apis.io/taskhawktech-com/openapi/taskhawktech-com-media-api-openapi.yml
 - filename: taskhawktech-com-shield-api-openapi.yml
   format: yaml
   label: TaskHawk Systems Shield API
   slug: taskhawktech-com-shield-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskhawktech-com/refs/heads/main/openapi/taskhawktech-com-shield-api-openapi.yml
+  url: https://artifacts.apis.io/taskhawktech-com/openapi/taskhawktech-com-shield-api-openapi.yml
 - filename: taskhawktech-com-signup-api-openapi.yml
   format: yaml
   label: TaskHawk Systems Signup API
   slug: taskhawktech-com-signup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskhawktech-com/refs/heads/main/openapi/taskhawktech-com-signup-api-openapi.yml
+  url: https://artifacts.apis.io/taskhawktech-com/openapi/taskhawktech-com-signup-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: taskhawktech-com-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: derived\nsource: openapi/taskhawktech-com-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: Get a trial key via POST /signup. 1,000-call trial allowance.\n  sources:\n  - openapi/taskhawktech-com-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taskhawktech-com/refs/heads/main/authentication/taskhawktech-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/taskhawktech-com/authentication/taskhawktech-com-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - AI Governance

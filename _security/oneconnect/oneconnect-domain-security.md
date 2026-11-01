@@ -28,7 +28,7 @@ source_filename: oneconnect-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ocft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: ocft.com\n  dnssec: false\n  caa:\n  - 2e075f28e5244e838e548cba19e27540.vip1.huaweicloudwaf.com.\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oneconnect/refs/heads/main/security/oneconnect-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/oneconnect/security/oneconnect-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

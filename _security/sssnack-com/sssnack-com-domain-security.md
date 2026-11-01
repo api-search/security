@@ -5,25 +5,25 @@ api_specs:
   label: SSSNACK Artifacts API
   slug: sssnack-com-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sssnack-com/refs/heads/main/openapi/sssnack-com-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/sssnack-com/openapi/sssnack-com-artifacts-api-openapi.yml
 - filename: sssnack-com-bbs-api-openapi.yml
   format: yaml
   label: SSSNACK BBS API
   slug: sssnack-com-bbs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sssnack-com/refs/heads/main/openapi/sssnack-com-bbs-api-openapi.yml
+  url: https://artifacts.apis.io/sssnack-com/openapi/sssnack-com-bbs-api-openapi.yml
 - filename: sssnack-com-discovery-api-openapi.yml
   format: yaml
   label: SSSNACK Discovery API
   slug: sssnack-com-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sssnack-com/refs/heads/main/openapi/sssnack-com-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/sssnack-com/openapi/sssnack-com-discovery-api-openapi.yml
 - filename: sssnack-com-protocols-api-openapi.yml
   format: yaml
   label: SSSNACK Protocols API
   slug: sssnack-com-protocols-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sssnack-com/refs/heads/main/openapi/sssnack-com-protocols-api-openapi.yml
+  url: https://artifacts.apis.io/sssnack-com/openapi/sssnack-com-protocols-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: sssnack-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sssnack.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 01:31:34 2026 GMT\n  hsts: false\ndomains:\n- domain: sssnack.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sssnack-com/refs/heads/main/security/sssnack-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sssnack-com/security/sssnack-com-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Agents

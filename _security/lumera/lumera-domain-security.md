@@ -30,12 +30,12 @@ source_filename: lumera-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: lumera.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 13:53:46 2027 GMT\n  hsts: false\ndomains:\n- domain: lumera.com\n  dnssec: false\n  caa:\n  - 0 issue \"certainly.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lumera/refs/heads/main/security/lumera-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lumera/security/lumera-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Integration
-- API-Management
-- Data-Synchronization
+- API Management
+- Data Synchronization
 - Enterprise
 ---

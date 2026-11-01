@@ -7,55 +7,55 @@ api_specs:
   label: Zerion Chains API
   slug: zerion-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-chains-api-openapi.yml
+  url: https://artifacts.apis.io/zerion/openapi/zerion-chains-api-openapi.yml
 - filename: zerion-dapps-api-openapi.yml
   format: yaml
   label: Zerion Dapps API
   slug: zerion-dapps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-dapps-api-openapi.yml
+  url: https://artifacts.apis.io/zerion/openapi/zerion-dapps-api-openapi.yml
 - filename: zerion-fungibles-api-openapi.yml
   format: yaml
   label: Zerion Fungibles API
   slug: zerion-fungibles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-fungibles-api-openapi.yml
+  url: https://artifacts.apis.io/zerion/openapi/zerion-fungibles-api-openapi.yml
 - filename: zerion-gas-api-openapi.yml
   format: yaml
   label: Zerion Gas API
   slug: zerion-gas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-gas-api-openapi.yml
+  url: https://artifacts.apis.io/zerion/openapi/zerion-gas-api-openapi.yml
 - filename: zerion-subscriptions-to-transactions-api-openapi.yml
   format: yaml
   label: Zerion subscriptions to transactions API
   slug: zerion-subscriptions-to-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-subscriptions-to-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/zerion/openapi/zerion-subscriptions-to-transactions-api-openapi.yml
 - filename: zerion-swap-api-openapi.yml
   format: yaml
   label: Zerion Swap API
   slug: zerion-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-swap-api-openapi.yml
+  url: https://artifacts.apis.io/zerion/openapi/zerion-swap-api-openapi.yml
 - filename: zerion-wallet-sets-api-openapi.yml
   format: yaml
   label: Zerion wallet sets API
   slug: zerion-wallet-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-wallet-sets-api-openapi.yml
+  url: https://artifacts.apis.io/zerion/openapi/zerion-wallet-sets-api-openapi.yml
 - filename: zerion-wallets-api-openapi.yml
   format: yaml
   label: Zerion Wallets API
   slug: zerion-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/zerion/openapi/zerion-wallets-api-openapi.yml
 - filename: zerion-nfts-api-openapi.yml
   format: yaml
   label: Zerion Nfts API
   slug: zerion-nfts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-nfts-api-openapi.yml
+  url: https://artifacts.apis.io/zerion/openapi/zerion-nfts-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -82,7 +82,7 @@ source_filename: zerion-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/zerion-openapi-original.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: APIKeyBasicAuth\n  type: http\n  scheme: basic\n  description: To test endpoints here, paste your API key from the [dashboard](https://dashboard.zerion.io/)\n    into the username field and leave the password empty.\n  sources:\n  - openapi/zerion-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/authentication/zerion-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zerion/authentication/zerion-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

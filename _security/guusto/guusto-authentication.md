@@ -7,19 +7,19 @@ api_specs:
   label: Guusto Account Budget API
   slug: guusto-account-budget-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guusto/refs/heads/main/openapi/guusto-account-budget-api-openapi.yml
+  url: https://artifacts.apis.io/guusto/openapi/guusto-account-budget-api-openapi.yml
 - filename: guusto-order-gift-api-openapi.yml
   format: yaml
   label: Guusto Order Gift API
   slug: guusto-order-gift-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guusto/refs/heads/main/openapi/guusto-order-gift-api-openapi.yml
+  url: https://artifacts.apis.io/guusto/openapi/guusto-order-gift-api-openapi.yml
 - filename: guusto-reports-api-openapi.yml
   format: yaml
   label: Guusto Reports API
   slug: guusto-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guusto/refs/heads/main/openapi/guusto-reports-api-openapi.yml
+  url: https://artifacts.apis.io/guusto/openapi/guusto-reports-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: guusto-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/guusto-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer API token issued from the Guusto workspace (Premium plan).\n  sources:\n  - openapi/guusto-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/guusto/refs/heads/main/authentication/guusto-authentication.yml
+source_yaml_url: https://artifacts.apis.io/guusto/authentication/guusto-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Employee Recognition

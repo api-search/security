@@ -7,13 +7,13 @@ api_specs:
   label: Cobee by Pluxee Companies API
   slug: cobee-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/openapi/cobee-companies-api-openapi.yml
+  url: https://artifacts.apis.io/cobee/openapi/cobee-companies-api-openapi.yml
 - filename: cobee-oauth-api-openapi.yml
   format: yaml
   label: Cobee by Pluxee OAUTH API
   slug: cobee-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/openapi/cobee-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/cobee/openapi/cobee-oauth-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -53,7 +53,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/cobee-public-api-openapi-original.json\ndocs: https://docs.api.cobee.io/en/api-reference/authentication\n# Upgraded from the derived http-bearer scheme using the provider's docs: the\n# bearer JWT is obtained via an OAuth 2.0 Client Credentials exchange (Auth0).\nsummary:\n  types: [oauth2, http]\n  oauth2_flows: [clientCredentials]\n  http_schemes: [bearer]\n  token_format: JWT (RS256, validated against Auth0 public keys)\n  token_claims: [companyId, corporationId]\nmodel: >-\n  Server-to-server. Exchange clientId + clientSecret (issued by the customer's\n  Customer Success Manager) at POST /oauth/token for a short-lived JWT, then send\n  it as `Authorization: Bearer <jwt>` on every request. Re-authenticate when the\n  JWT expires.\nschemes:\n  - name: clientCredentials\n    type: oauth2\n    flow: clientCredentials\n    token_url: /oauth/token\n    request_fields: [clientId, clientSecret]\n    provider: Auth0\n  \
   \  sources: [https://docs.api.cobee.io/en/api-reference/authentication]\n  - name: bearerAuth\n    type: http\n    scheme: bearer\n    bearer_format: JWT\n    sources: [openapi/cobee-public-api-openapi-original.json]\nnotes: >-\n  The OpenAPI models only the resulting http bearer scheme; the OAuth2\n  client-credentials exchange is documented on the docs security/authentication\n  pages. No OAuth scopes are documented, so no scopes/ artifact is emitted.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/authentication/cobee-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cobee/authentication/cobee-authentication.yml
 summary_line: oauth2/http · 2 schemes
 tags:
 - Company

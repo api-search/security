@@ -5,25 +5,25 @@ api_specs:
   label: Ship24 ➕ API for per-call plans API
   slug: ship24-api-for-per-call-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ship24/refs/heads/main/openapi/ship24-api-for-per-call-plans-api-openapi.yml
+  url: https://artifacts.apis.io/ship24/openapi/ship24-api-for-per-call-plans-api-openapi.yml
 - filename: ship24-couriers-api-openapi.yml
   format: yaml
   label: Ship24 🚚 Couriers API
   slug: ship24-couriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ship24/refs/heads/main/openapi/ship24-couriers-api-openapi.yml
+  url: https://artifacts.apis.io/ship24/openapi/ship24-couriers-api-openapi.yml
 - filename: ship24-trackers-api-openapi.yml
   format: yaml
   label: Ship24 📦 Trackers API
   slug: ship24-trackers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ship24/refs/heads/main/openapi/ship24-trackers-api-openapi.yml
+  url: https://artifacts.apis.io/ship24/openapi/ship24-trackers-api-openapi.yml
 - filename: ship24-ship24-tracking-api-api-openapi.yml
   format: yaml
   label: Ship24 Tracking API
   slug: ship24-ship24-tracking-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ship24/refs/heads/main/openapi/ship24-ship24-tracking-api-api-openapi.yml
+  url: https://artifacts.apis.io/ship24/openapi/ship24-ship24-tracking-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: ship24-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ship24.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.ship24.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 23:59:59 2026 GMT\n  hsts: false\n- host: api.ship24.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 10 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: ship24.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ship24/refs/heads/main/security/ship24-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ship24/security/ship24-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Tracking

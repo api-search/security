@@ -7,37 +7,37 @@ api_specs:
   label: apaleo Availability API
   slug: apaleo-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-availability-api-openapi.yml
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-availability-api-openapi.yml
 - filename: apaleo-booking-api-openapi.yml
   format: yaml
   label: apaleo Booking API
   slug: apaleo-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-booking-api-openapi.yml
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-booking-api-openapi.yml
 - filename: apaleo-finance-api-openapi.yml
   format: yaml
   label: apaleo Finance API
   slug: apaleo-finance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-finance-api-openapi.yml
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-finance-api-openapi.yml
 - filename: apaleo-inventory-api-openapi.yml
   format: yaml
   label: apaleo Inventory API
   slug: apaleo-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-inventory-api-openapi.yml
 - filename: apaleo-rate-plan-api-openapi.yml
   format: yaml
   label: apaleo Rate Plan API
   slug: apaleo-rate-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-rate-plan-api-openapi.yml
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-rate-plan-api-openapi.yml
 - filename: apaleo-settings-api-openapi.yml
   format: yaml
   label: apaleo Settings API
   slug: apaleo-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-settings-api-openapi.yml
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-settings-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -73,7 +73,7 @@ source_filename: apaleo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/apaleo-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://identity.apaleo.com/connect/token\n    scopes: 10\n  - flow: authorizationCode\n    authorizationUrl: https://identity.apaleo.com/connect/authorize\n    tokenUrl: https://identity.apaleo.com/connect/token\n    scopes: 10\n  description: apaleo uses OAuth 2.0. Obtain a bearer access token from the apaleo identity\n    provider and send it in the Authorization header as 'Bearer {token}'. The client-credentials\n    and authorization-code grants are supported.\n  sources:\n  - openapi/apaleo-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/authentication/apaleo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apaleo/authentication/apaleo-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Hospitality

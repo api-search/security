@@ -27,7 +27,7 @@ source_filename: kestrl-muslim-money-app-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: kestrl.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 04:06:20 2026 GMT\n  hsts: null\ndomains:\n- domain: kestrl.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kestrl-muslim-money-app/refs/heads/main/security/kestrl-muslim-money-app-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kestrl-muslim-money-app/security/kestrl-muslim-money-app-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -5,49 +5,49 @@ api_specs:
   label: Reloadly Authentication API
   slug: reloadly-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/reloadly/openapi/reloadly-authentication-api-openapi.yml
 - filename: reloadly-balance-api-openapi.yml
   format: yaml
   label: Reloadly Balance API
   slug: reloadly-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-balance-api-openapi.yml
+  url: https://artifacts.apis.io/reloadly/openapi/reloadly-balance-api-openapi.yml
 - filename: reloadly-discounts-api-openapi.yml
   format: yaml
   label: Reloadly Discounts API
   slug: reloadly-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-discounts-api-openapi.yml
+  url: https://artifacts.apis.io/reloadly/openapi/reloadly-discounts-api-openapi.yml
 - filename: reloadly-operators-api-openapi.yml
   format: yaml
   label: Reloadly Operators API
   slug: reloadly-operators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-operators-api-openapi.yml
+  url: https://artifacts.apis.io/reloadly/openapi/reloadly-operators-api-openapi.yml
 - filename: reloadly-orders-api-openapi.yml
   format: yaml
   label: Reloadly Orders API
   slug: reloadly-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-orders-api-openapi.yml
+  url: https://artifacts.apis.io/reloadly/openapi/reloadly-orders-api-openapi.yml
 - filename: reloadly-products-api-openapi.yml
   format: yaml
   label: Reloadly Products API
   slug: reloadly-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-products-api-openapi.yml
+  url: https://artifacts.apis.io/reloadly/openapi/reloadly-products-api-openapi.yml
 - filename: reloadly-top-ups-api-openapi.yml
   format: yaml
   label: Reloadly Top-Ups API
   slug: reloadly-top-ups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-top-ups-api-openapi.yml
+  url: https://artifacts.apis.io/reloadly/openapi/reloadly-top-ups-api-openapi.yml
 - filename: reloadly-transactions-api-openapi.yml
   format: yaml
   label: Reloadly Transactions API
   slug: reloadly-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/reloadly/openapi/reloadly-transactions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -89,7 +89,7 @@ source_filename: reloadly-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.reloadly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 21 23:59:59 2026 GMT\n  hsts: false\n- host: giftcards.reloadly.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 21 23:59:59 2026 GMT\n  hsts: null\n- host: topups.reloadly.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 21 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: reloadly.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazon.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/security/reloadly-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/reloadly/security/reloadly-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Gift Cards

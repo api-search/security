@@ -5,67 +5,67 @@ api_specs:
   label: PokéAPI Berries API
   slug: pokeapi-berries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-berries-api-openapi.yml
+  url: https://artifacts.apis.io/pokeapi/openapi/pokeapi-berries-api-openapi.yml
 - filename: pokeapi-contests-api-openapi.yml
   format: yaml
   label: PokéAPI Contests API
   slug: pokeapi-contests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-contests-api-openapi.yml
+  url: https://artifacts.apis.io/pokeapi/openapi/pokeapi-contests-api-openapi.yml
 - filename: pokeapi-encounters-api-openapi.yml
   format: yaml
   label: PokéAPI Encounters API
   slug: pokeapi-encounters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-encounters-api-openapi.yml
+  url: https://artifacts.apis.io/pokeapi/openapi/pokeapi-encounters-api-openapi.yml
 - filename: pokeapi-evolution-api-openapi.yml
   format: yaml
   label: PokéAPI Evolution API
   slug: pokeapi-evolution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-evolution-api-openapi.yml
+  url: https://artifacts.apis.io/pokeapi/openapi/pokeapi-evolution-api-openapi.yml
 - filename: pokeapi-games-api-openapi.yml
   format: yaml
   label: PokéAPI Games API
   slug: pokeapi-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-games-api-openapi.yml
+  url: https://artifacts.apis.io/pokeapi/openapi/pokeapi-games-api-openapi.yml
 - filename: pokeapi-items-api-openapi.yml
   format: yaml
   label: PokéAPI Items API
   slug: pokeapi-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-items-api-openapi.yml
+  url: https://artifacts.apis.io/pokeapi/openapi/pokeapi-items-api-openapi.yml
 - filename: pokeapi-locations-api-openapi.yml
   format: yaml
   label: PokéAPI Locations API
   slug: pokeapi-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-locations-api-openapi.yml
+  url: https://artifacts.apis.io/pokeapi/openapi/pokeapi-locations-api-openapi.yml
 - filename: pokeapi-machines-api-openapi.yml
   format: yaml
   label: PokéAPI Machines API
   slug: pokeapi-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-machines-api-openapi.yml
+  url: https://artifacts.apis.io/pokeapi/openapi/pokeapi-machines-api-openapi.yml
 - filename: pokeapi-moves-api-openapi.yml
   format: yaml
   label: PokéAPI Moves API
   slug: pokeapi-moves-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-moves-api-openapi.yml
+  url: https://artifacts.apis.io/pokeapi/openapi/pokeapi-moves-api-openapi.yml
 - filename: pokeapi-pok-mon-api-openapi.yml
   format: yaml
   label: PokéAPI Pokémon API
   slug: pokeapi-pok-mon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-pok-mon-api-openapi.yml
+  url: https://artifacts.apis.io/pokeapi/openapi/pokeapi-pok-mon-api-openapi.yml
 - filename: pokeapi-utility-api-openapi.yml
   format: yaml
   label: PokéAPI Utility API
   slug: pokeapi-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-utility-api-openapi.yml
+  url: https://artifacts.apis.io/pokeapi/openapi/pokeapi-utility-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -100,7 +100,7 @@ source_filename: pokeapi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pokeapi.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 22:36:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\n- host: beta.pokeapi.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 22:36:37 2026 GMT\n  hsts: null\ndomains:\n- domain: pokeapi.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/security/pokeapi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pokeapi/security/pokeapi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Pokémon

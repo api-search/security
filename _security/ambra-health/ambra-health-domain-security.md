@@ -5,61 +5,61 @@ api_specs:
   label: Ambra Health Accounts API
   slug: ambra-health-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/ambra-health/openapi/ambra-health-accounts-api-openapi.yml
 - filename: ambra-health-groups-api-openapi.yml
   format: yaml
   label: Ambra Health Groups API
   slug: ambra-health-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-groups-api-openapi.yml
+  url: https://artifacts.apis.io/ambra-health/openapi/ambra-health-groups-api-openapi.yml
 - filename: ambra-health-namespaces-api-openapi.yml
   format: yaml
   label: Ambra Health Namespaces API
   slug: ambra-health-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/ambra-health/openapi/ambra-health-namespaces-api-openapi.yml
 - filename: ambra-health-patients-api-openapi.yml
   format: yaml
   label: Ambra Health Patients API
   slug: ambra-health-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-patients-api-openapi.yml
+  url: https://artifacts.apis.io/ambra-health/openapi/ambra-health-patients-api-openapi.yml
 - filename: ambra-health-session-api-openapi.yml
   format: yaml
   label: Ambra Health Session API
   slug: ambra-health-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-session-api-openapi.yml
+  url: https://artifacts.apis.io/ambra-health/openapi/ambra-health-session-api-openapi.yml
 - filename: ambra-health-sharing-api-openapi.yml
   format: yaml
   label: Ambra Health Sharing API
   slug: ambra-health-sharing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-sharing-api-openapi.yml
+  url: https://artifacts.apis.io/ambra-health/openapi/ambra-health-sharing-api-openapi.yml
 - filename: ambra-health-storage-images-api-openapi.yml
   format: yaml
   label: Ambra Health Storage & Images API
   slug: ambra-health-storage-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-storage-images-api-openapi.yml
+  url: https://artifacts.apis.io/ambra-health/openapi/ambra-health-storage-images-api-openapi.yml
 - filename: ambra-health-studies-api-openapi.yml
   format: yaml
   label: Ambra Health Studies API
   slug: ambra-health-studies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-studies-api-openapi.yml
+  url: https://artifacts.apis.io/ambra-health/openapi/ambra-health-studies-api-openapi.yml
 - filename: ambra-health-users-api-openapi.yml
   format: yaml
   label: Ambra Health Users API
   slug: ambra-health-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-users-api-openapi.yml
+  url: https://artifacts.apis.io/ambra-health/openapi/ambra-health-users-api-openapi.yml
 - filename: ambra-health-webhooks-api-openapi.yml
   format: yaml
   label: Ambra Health Webhooks API
   slug: ambra-health-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/ambra-health/openapi/ambra-health-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -107,7 +107,7 @@ source_filename: ambra-health-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ambrahealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 21:03:50 2026 GMT\n  hsts: false\n- host: access.dicomgrid.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31550000\ndomains:\n- domain: ambrahealth.com\n  dnssec: false\n  caa:\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"amazontrust.com\"\n  - 0 issuewild \"godaddy.com\"\n  - 0 issue \"amazontrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: dicomgrid.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazontrust.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/security/ambra-health-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ambra-health/security/ambra-health-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Medical Imaging

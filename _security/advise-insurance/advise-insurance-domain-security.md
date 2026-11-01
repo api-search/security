@@ -33,7 +33,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bloomthrives.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 09:46:38 2026 GMT\n  hsts: true\ndomains:\n- domain: bloomthrives.com\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: 'v=spf1 Ip4:66.244.115.1 ip4:66.244.115.241 ip4:66.244.115.242 ip4:65.111.246.2 ip4:65.111.246.3 include:spf.protection.outlook.com -all'\n  dmarc: true\n  dmarc_policy: quarantine\n  notes:\n  - 'SPF re-probed by hand 2026-09-09 after the scripted dig returned an empty TXT\n    set on the first try; the apex publishes a v=spf1 record ending -all. Note the\n    record begins Ip4: (capital I) on the first mechanism, which some strict parsers\n    reject.'\n  - 'A stray v=DMARC1; p=reject; adkim=s; aspf=s TXT record is published at the APEX\n    (bloomthrives.com) in addition to the correct one at _dmarc.bloomthrives.com\n    (p=quarantine; pct=100). Apex\
   \ DMARC records are not read by receivers; the\n    effective policy is quarantine.'\n  - 'No DNSKEY and no CAA records observed for bloomthrives.com.'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/advise-insurance/refs/heads/main/security/advise-insurance-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/advise-insurance/security/advise-insurance-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

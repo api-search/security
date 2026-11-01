@@ -25,7 +25,7 @@ source_filename: kumu-networks-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: kumunetworks.com\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''kumunetwork'\n  hsts: null\ndomains:\n- domain: kumunetworks.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kumu-networks/refs/heads/main/security/kumu-networks-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kumu-networks/security/kumu-networks-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

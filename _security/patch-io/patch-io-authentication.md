@@ -7,25 +7,25 @@ api_specs:
   label: Patch Order Line Items API
   slug: patch-io-order-line-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/patch-io/refs/heads/main/openapi/patch-io-order-line-items-api-openapi.yml
+  url: https://artifacts.apis.io/patch-io/openapi/patch-io-order-line-items-api-openapi.yml
 - filename: patch-io-orders-api-openapi.yml
   format: yaml
   label: Patch Orders API
   slug: patch-io-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/patch-io/refs/heads/main/openapi/patch-io-orders-api-openapi.yml
+  url: https://artifacts.apis.io/patch-io/openapi/patch-io-orders-api-openapi.yml
 - filename: patch-io-projects-api-openapi.yml
   format: yaml
   label: Patch Projects API
   slug: patch-io-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/patch-io/refs/heads/main/openapi/patch-io-projects-api-openapi.yml
+  url: https://artifacts.apis.io/patch-io/openapi/patch-io-projects-api-openapi.yml
 - filename: patch-io-technology-types-api-openapi.yml
   format: yaml
   label: Patch Technology Types API
   slug: patch-io-technology-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/patch-io/refs/heads/main/openapi/patch-io-technology-types-api-openapi.yml
+  url: https://artifacts.apis.io/patch-io/openapi/patch-io-technology-types-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: patch-io-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/patch-io-carbon-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: API key bearer token issued from the Patch dashboard. Sandbox and live keys are\n    separated.\n  sources:\n  - openapi/patch-io-carbon-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/patch-io/refs/heads/main/authentication/patch-io-authentication.yml
+source_yaml_url: https://artifacts.apis.io/patch-io/authentication/patch-io-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Climate

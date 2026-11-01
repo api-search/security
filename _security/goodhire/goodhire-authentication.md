@@ -8,31 +8,31 @@ api_specs:
   label: GoodHire Packages API
   slug: goodhire-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodhire/refs/heads/main/openapi/goodhire-packages-api-openapi.yml
+  url: https://artifacts.apis.io/goodhire/openapi/goodhire-packages-api-openapi.yml
 - filename: goodhire-partner-api-openapi.yml
   format: yaml
   label: GoodHire Partner API
   slug: goodhire-partner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodhire/refs/heads/main/openapi/goodhire-partner-api-openapi.yml
+  url: https://artifacts.apis.io/goodhire/openapi/goodhire-partner-api-openapi.yml
 - filename: goodhire-reports-api-openapi.yml
   format: yaml
   label: GoodHire Reports API
   slug: goodhire-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodhire/refs/heads/main/openapi/goodhire-reports-api-openapi.yml
+  url: https://artifacts.apis.io/goodhire/openapi/goodhire-reports-api-openapi.yml
 - filename: goodhire-requestors-api-openapi.yml
   format: yaml
   label: GoodHire Requestors API
   slug: goodhire-requestors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodhire/refs/heads/main/openapi/goodhire-requestors-api-openapi.yml
+  url: https://artifacts.apis.io/goodhire/openapi/goodhire-requestors-api-openapi.yml
 - filename: goodhire-goodhire-api-api-openapi.yml
   format: yaml
   label: GoodHire API
   slug: goodhire-goodhire-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodhire/refs/heads/main/openapi/goodhire-goodhire-api-api-openapi.yml
+  url: https://artifacts.apis.io/goodhire/openapi/goodhire-goodhire-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: goodhire-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/goodhire-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'API key sent as: Authorization: ApiKey <API_KEY>. Request keys from api@goodhire.com.'\n  sources:\n  - openapi/goodhire-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goodhire/refs/heads/main/authentication/goodhire-authentication.yml
+source_yaml_url: https://artifacts.apis.io/goodhire/authentication/goodhire-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Background Checks

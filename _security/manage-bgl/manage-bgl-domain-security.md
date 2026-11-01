@@ -5,31 +5,31 @@ api_specs:
   label: Manage BGL Authentication API
   slug: manage-bgl-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/openapi/manage-bgl-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/manage-bgl/openapi/manage-bgl-authentication-api-openapi.yml
 - filename: manage-bgl-logs-api-openapi.yml
   format: yaml
   label: Manage BGL Logs API
   slug: manage-bgl-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/openapi/manage-bgl-logs-api-openapi.yml
+  url: https://artifacts.apis.io/manage-bgl/openapi/manage-bgl-logs-api-openapi.yml
 - filename: manage-bgl-predictions-api-openapi.yml
   format: yaml
   label: Manage BGL Predictions API
   slug: manage-bgl-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/openapi/manage-bgl-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/manage-bgl/openapi/manage-bgl-predictions-api-openapi.yml
 - filename: manage-bgl-settings-api-openapi.yml
   format: yaml
   label: Manage BGL Settings API
   slug: manage-bgl-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/openapi/manage-bgl-settings-api-openapi.yml
+  url: https://artifacts.apis.io/manage-bgl/openapi/manage-bgl-settings-api-openapi.yml
 - filename: manage-bgl-system-api-openapi.yml
   format: yaml
   label: Manage BGL System API
   slug: manage-bgl-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/openapi/manage-bgl-system-api-openapi.yml
+  url: https://artifacts.apis.io/manage-bgl/openapi/manage-bgl-system-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: manage-bgl-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: jadediabetes.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 23:59:59 2026 GMT\n  hsts: false\n- host: app.jadediabetes.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: jadediabetes.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/security/manage-bgl-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/manage-bgl/security/manage-bgl-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

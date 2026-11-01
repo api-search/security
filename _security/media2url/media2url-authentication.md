@@ -28,11 +28,11 @@ source_filename: media2url-authentication.yml
 source_heading: Authentication Profile
 source_url: https://docs.gitlab.com/auth/
 source_yaml: "generated: '2026-10-06'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://docs.gitlab.com/auth/\nsources:\n- https://docs.gitlab.com/auth/\n- https://docs.gitlab.com/auth/user_authentication/\n- https://docs.gitlab.com/user/duo_agent_platform/authentication/\n- https://docs.gitlab.com/api/oauth2/\ndescription: Authentication schemes as published on the GitLab documentation pages.\nschemes:\n- type: oauth2\n  name: GitLab OAuth2\n  evidence: 'GitLab supports the following authorization flows: Authorization code with Proof Key for Code Exchange (PKCE) :'\n  flows:\n  - authorization_code\n  - authorization_code_pkce\n  authorize_url: https://gitlab.example.com/oauth/authorize\n  how_to_obtain: Register an application via the /user_settings/applications page to obtain an Application ID and Client Secret.\ndocs: https://docs.gitlab.com/auth/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/media2url/refs/heads/main/authentication/media2url-authentication.yml
+source_yaml_url: https://artifacts.apis.io/media2url/authentication/media2url-authentication.yml
 summary_line: 1 scheme
 tags:
 - Media
-- FileHosting
-- DirectLinks
+- File Hosting
+- Direct Links
 - Upload
 ---

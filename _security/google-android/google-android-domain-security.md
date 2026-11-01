@@ -5,49 +5,49 @@ api_specs:
   label: Google Android Management API
   slug: google-android-android-management-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/openapi/google-android-android-management-api-api-openapi.yml
+  url: https://artifacts.apis.io/google-android/openapi/google-android-android-management-api-api-openapi.yml
 - filename: google-android-device-api-openapi.yml
   format: yaml
   label: Google Android Device API
   slug: google-android-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/openapi/google-android-device-api-openapi.yml
+  url: https://artifacts.apis.io/google-android/openapi/google-android-device-api-openapi.yml
 - filename: google-android-devices-api-openapi.yml
   format: yaml
   label: Google Android Devices API
   slug: google-android-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/openapi/google-android-devices-api-openapi.yml
+  url: https://artifacts.apis.io/google-android/openapi/google-android-devices-api-openapi.yml
 - filename: google-android-enrollmenttokens-api-openapi.yml
   format: yaml
   label: Google Android EnrollmentTokens API
   slug: google-android-enrollmenttokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/openapi/google-android-enrollmenttokens-api-openapi.yml
+  url: https://artifacts.apis.io/google-android/openapi/google-android-enrollmenttokens-api-openapi.yml
 - filename: google-android-enterprises-api-openapi.yml
   format: yaml
   label: Google Android Enterprises API
   slug: google-android-enterprises-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/openapi/google-android-enterprises-api-openapi.yml
+  url: https://artifacts.apis.io/google-android/openapi/google-android-enterprises-api-openapi.yml
 - filename: google-android-policies-api-openapi.yml
   format: yaml
   label: Google Android Policies API
   slug: google-android-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/openapi/google-android-policies-api-openapi.yml
+  url: https://artifacts.apis.io/google-android/openapi/google-android-policies-api-openapi.yml
 - filename: google-android-policy-api-openapi.yml
   format: yaml
   label: Google Android Policy API
   slug: google-android-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/openapi/google-android-policy-api-openapi.yml
+  url: https://artifacts.apis.io/google-android/openapi/google-android-policy-api-openapi.yml
 - filename: google-android-web-apps-api-openapi.yml
   format: yaml
   label: Google Android Web Apps API
   slug: google-android-web-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/openapi/google-android-web-apps-api-openapi.yml
+  url: https://artifacts.apis.io/google-android/openapi/google-android-web-apps-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -96,7 +96,7 @@ source_filename: google-android-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.android.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developers.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: androidmanagement.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:17 2026 GMT\n  hsts: null\ndomains:\n- domain: android.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/security/google-android-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/google-android/security/google-android-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Android

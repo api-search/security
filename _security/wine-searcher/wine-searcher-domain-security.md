@@ -5,13 +5,13 @@ api_specs:
   label: Wine-Searcher Market Price API
   slug: wine-searcher-market-price-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wine-searcher/refs/heads/main/openapi/wine-searcher-market-price-api-openapi.yml
+  url: https://artifacts.apis.io/wine-searcher/openapi/wine-searcher-market-price-api-openapi.yml
 - filename: wine-searcher-wine-check-api-openapi.yml
   format: yaml
   label: Wine-Searcher Wine Check API
   slug: wine-searcher-wine-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wine-searcher/refs/heads/main/openapi/wine-searcher-wine-check-api-openapi.yml
+  url: https://artifacts.apis.io/wine-searcher/openapi/wine-searcher-wine-check-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -46,7 +46,7 @@ source_filename: wine-searcher-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.wine-searcher.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: wine-searcher.com\n  dnssec: false\n  caa:\n  - 0 issue \"www.digicert.com\"\n  - 0 issuewild \"www.digicert.com\"\n  - 0 iodef \"mailto:infrastructure-team@wine-searcher.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wine-searcher/refs/heads/main/security/wine-searcher-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wine-searcher/security/wine-searcher-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Data

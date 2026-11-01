@@ -5,67 +5,67 @@ api_specs:
   label: Dapper Labs Accounts API
   slug: dapper-labs-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/openapi/dapper-labs-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/dapper-labs/openapi/dapper-labs-accounts-api-openapi.yml
 - filename: dapper-labs-blocks-api-openapi.yml
   format: yaml
   label: Dapper Labs Blocks API
   slug: dapper-labs-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/openapi/dapper-labs-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/dapper-labs/openapi/dapper-labs-blocks-api-openapi.yml
 - filename: dapper-labs-collections-api-openapi.yml
   format: yaml
   label: Dapper Labs Collections API
   slug: dapper-labs-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/openapi/dapper-labs-collections-api-openapi.yml
+  url: https://artifacts.apis.io/dapper-labs/openapi/dapper-labs-collections-api-openapi.yml
 - filename: dapper-labs-events-api-openapi.yml
   format: yaml
   label: Dapper Labs Events API
   slug: dapper-labs-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/openapi/dapper-labs-events-api-openapi.yml
+  url: https://artifacts.apis.io/dapper-labs/openapi/dapper-labs-events-api-openapi.yml
 - filename: dapper-labs-execution-receipts-api-openapi.yml
   format: yaml
   label: Dapper Labs Execution Receipts API
   slug: dapper-labs-execution-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/openapi/dapper-labs-execution-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/dapper-labs/openapi/dapper-labs-execution-receipts-api-openapi.yml
 - filename: dapper-labs-execution-results-api-openapi.yml
   format: yaml
   label: Dapper Labs Execution Results API
   slug: dapper-labs-execution-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/openapi/dapper-labs-execution-results-api-openapi.yml
+  url: https://artifacts.apis.io/dapper-labs/openapi/dapper-labs-execution-results-api-openapi.yml
 - filename: dapper-labs-network-api-openapi.yml
   format: yaml
   label: Dapper Labs Network API
   slug: dapper-labs-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/openapi/dapper-labs-network-api-openapi.yml
+  url: https://artifacts.apis.io/dapper-labs/openapi/dapper-labs-network-api-openapi.yml
 - filename: dapper-labs-nodeversioninfo-api-openapi.yml
   format: yaml
   label: Dapper Labs NodeVersionInfo API
   slug: dapper-labs-nodeversioninfo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/openapi/dapper-labs-nodeversioninfo-api-openapi.yml
+  url: https://artifacts.apis.io/dapper-labs/openapi/dapper-labs-nodeversioninfo-api-openapi.yml
 - filename: dapper-labs-scripts-api-openapi.yml
   format: yaml
   label: Dapper Labs Scripts API
   slug: dapper-labs-scripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/openapi/dapper-labs-scripts-api-openapi.yml
+  url: https://artifacts.apis.io/dapper-labs/openapi/dapper-labs-scripts-api-openapi.yml
 - filename: dapper-labs-subscribe-events-api-openapi.yml
   format: yaml
   label: Dapper Labs Subscribe events API
   slug: dapper-labs-subscribe-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/openapi/dapper-labs-subscribe-events-api-openapi.yml
+  url: https://artifacts.apis.io/dapper-labs/openapi/dapper-labs-subscribe-events-api-openapi.yml
 - filename: dapper-labs-transactions-api-openapi.yml
   format: yaml
   label: Dapper Labs Transactions API
   slug: dapper-labs-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/openapi/dapper-labs-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/dapper-labs/openapi/dapper-labs-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -111,7 +111,7 @@ source_filename: dapper-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dapperlabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 06:59:28 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: rest-testnet.onflow.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 16:45:40 2026 GMT\n  hsts: null\n- host: rest-mainnet.onflow.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 12:20:54 2026 GMT\n  hsts: null\ndomains:\n- domain: dapperlabs.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: onflow.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/security/dapper-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dapper-labs/security/dapper-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

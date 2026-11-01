@@ -5,61 +5,61 @@ api_specs:
   label: Classy Authentication API
   slug: classy-org-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/openapi/classy-org-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/classy-org/openapi/classy-org-authentication-api-openapi.yml
 - filename: classy-org-campaigns-api-openapi.yml
   format: yaml
   label: Classy Campaigns API
   slug: classy-org-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/openapi/classy-org-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/classy-org/openapi/classy-org-campaigns-api-openapi.yml
 - filename: classy-org-designations-api-openapi.yml
   format: yaml
   label: Classy Designations API
   slug: classy-org-designations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/openapi/classy-org-designations-api-openapi.yml
+  url: https://artifacts.apis.io/classy-org/openapi/classy-org-designations-api-openapi.yml
 - filename: classy-org-fundraising-pages-api-openapi.yml
   format: yaml
   label: Classy Fundraising Pages API
   slug: classy-org-fundraising-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/openapi/classy-org-fundraising-pages-api-openapi.yml
+  url: https://artifacts.apis.io/classy-org/openapi/classy-org-fundraising-pages-api-openapi.yml
 - filename: classy-org-fundraising-teams-api-openapi.yml
   format: yaml
   label: Classy Fundraising Teams API
   slug: classy-org-fundraising-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/openapi/classy-org-fundraising-teams-api-openapi.yml
+  url: https://artifacts.apis.io/classy-org/openapi/classy-org-fundraising-teams-api-openapi.yml
 - filename: classy-org-members-api-openapi.yml
   format: yaml
   label: Classy Members API
   slug: classy-org-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/openapi/classy-org-members-api-openapi.yml
+  url: https://artifacts.apis.io/classy-org/openapi/classy-org-members-api-openapi.yml
 - filename: classy-org-organizations-api-openapi.yml
   format: yaml
   label: Classy Organizations API
   slug: classy-org-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/openapi/classy-org-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/classy-org/openapi/classy-org-organizations-api-openapi.yml
 - filename: classy-org-recurring-donation-plans-api-openapi.yml
   format: yaml
   label: Classy Recurring Donation Plans API
   slug: classy-org-recurring-donation-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/openapi/classy-org-recurring-donation-plans-api-openapi.yml
+  url: https://artifacts.apis.io/classy-org/openapi/classy-org-recurring-donation-plans-api-openapi.yml
 - filename: classy-org-supporters-api-openapi.yml
   format: yaml
   label: Classy Supporters API
   slug: classy-org-supporters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/openapi/classy-org-supporters-api-openapi.yml
+  url: https://artifacts.apis.io/classy-org/openapi/classy-org-supporters-api-openapi.yml
 - filename: classy-org-transactions-api-openapi.yml
   format: yaml
   label: Classy Transactions API
   slug: classy-org-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/openapi/classy-org-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/classy-org/openapi/classy-org-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -106,7 +106,7 @@ source_filename: classy-org-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.classy.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 03:44:21 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.gofundme.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.classy.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 03:44:21 2026 GMT\n  hsts: null\ndomains:\n- domain: classy.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: gofundme.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/security/classy-org-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/classy-org/security/classy-org-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Non-Profit

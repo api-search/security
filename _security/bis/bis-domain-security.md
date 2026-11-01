@@ -5,25 +5,25 @@ api_specs:
   label: BIS Data availability queries API
   slug: bis-data-availability-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bis/refs/heads/main/openapi/bis-data-availability-queries-api-openapi.yml
+  url: https://artifacts.apis.io/bis/openapi/bis-data-availability-queries-api-openapi.yml
 - filename: bis-data-queries-api-openapi.yml
   format: yaml
   label: BIS Data queries API
   slug: bis-data-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bis/refs/heads/main/openapi/bis-data-queries-api-openapi.yml
+  url: https://artifacts.apis.io/bis/openapi/bis-data-queries-api-openapi.yml
 - filename: bis-item-queries-api-openapi.yml
   format: yaml
   label: BIS Item queries API
   slug: bis-item-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bis/refs/heads/main/openapi/bis-item-queries-api-openapi.yml
+  url: https://artifacts.apis.io/bis/openapi/bis-item-queries-api-openapi.yml
 - filename: bis-structure-queries-api-openapi.yml
   format: yaml
   label: BIS Structure queries API
   slug: bis-structure-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bis/refs/heads/main/openapi/bis-structure-queries-api-openapi.yml
+  url: https://artifacts.apis.io/bis/openapi/bis-structure-queries-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -65,7 +65,7 @@ source_filename: bis-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bis.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 01:04:45 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: stats.bis.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 01:02:47 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: bis.org\n  dnssec: false\n  caa:\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"quovadisglobal.com\"\n  - 0 issue \"swisssign.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bis/refs/heads/main/security/bis-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bis/security/bis-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Financial Statistics

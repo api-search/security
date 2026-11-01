@@ -5,31 +5,31 @@ api_specs:
   label: Sigstore CA API
   slug: sigstore-ca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigstore/refs/heads/main/openapi/sigstore-ca-api-openapi.yml
+  url: https://artifacts.apis.io/sigstore/openapi/sigstore-ca-api-openapi.yml
 - filename: sigstore-entries-api-openapi.yml
   format: yaml
   label: Sigstore Entries API
   slug: sigstore-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigstore/refs/heads/main/openapi/sigstore-entries-api-openapi.yml
+  url: https://artifacts.apis.io/sigstore/openapi/sigstore-entries-api-openapi.yml
 - filename: sigstore-index-api-openapi.yml
   format: yaml
   label: Sigstore Index API
   slug: sigstore-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigstore/refs/heads/main/openapi/sigstore-index-api-openapi.yml
+  url: https://artifacts.apis.io/sigstore/openapi/sigstore-index-api-openapi.yml
 - filename: sigstore-pubkey-api-openapi.yml
   format: yaml
   label: Sigstore Pubkey API
   slug: sigstore-pubkey-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigstore/refs/heads/main/openapi/sigstore-pubkey-api-openapi.yml
+  url: https://artifacts.apis.io/sigstore/openapi/sigstore-pubkey-api-openapi.yml
 - filename: sigstore-tlog-api-openapi.yml
   format: yaml
   label: Sigstore Tlog API
   slug: sigstore-tlog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigstore/refs/heads/main/openapi/sigstore-tlog-api-openapi.yml
+  url: https://artifacts.apis.io/sigstore/openapi/sigstore-tlog-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -73,7 +73,7 @@ source_filename: sigstore-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sigstore.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 11 20:53:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.sigstore.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 11 20:33:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: rekor.sigstore.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 10:53:19 2026 GMT\n  hsts: false\ndomains:\n- domain: sigstore.dev\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 iodef \"mailto:security@sigstore.dev\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sigstore/refs/heads/main/security/sigstore-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sigstore/security/sigstore-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Certificate Authority

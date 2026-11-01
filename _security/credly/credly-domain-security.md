@@ -5,31 +5,31 @@ api_specs:
   label: Credly Badge Templates API
   slug: credly-badge-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credly/refs/heads/main/openapi/credly-badge-templates-api-openapi.yml
+  url: https://artifacts.apis.io/credly/openapi/credly-badge-templates-api-openapi.yml
 - filename: credly-events-api-openapi.yml
   format: yaml
   label: Credly Events API
   slug: credly-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credly/refs/heads/main/openapi/credly-events-api-openapi.yml
+  url: https://artifacts.apis.io/credly/openapi/credly-events-api-openapi.yml
 - filename: credly-issued-badges-api-openapi.yml
   format: yaml
   label: Credly Issued Badges API
   slug: credly-issued-badges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credly/refs/heads/main/openapi/credly-issued-badges-api-openapi.yml
+  url: https://artifacts.apis.io/credly/openapi/credly-issued-badges-api-openapi.yml
 - filename: credly-obi-recipients-api-openapi.yml
   format: yaml
   label: Credly OBI Recipients API
   slug: credly-obi-recipients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credly/refs/heads/main/openapi/credly-obi-recipients-api-openapi.yml
+  url: https://artifacts.apis.io/credly/openapi/credly-obi-recipients-api-openapi.yml
 - filename: credly-organizations-api-openapi.yml
   format: yaml
   label: Credly Organizations API
   slug: credly-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credly/refs/heads/main/openapi/credly-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/credly/openapi/credly-organizations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +71,7 @@ source_filename: credly-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: credly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 17 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.credly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  4 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.credly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  4 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: credly.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/credly/refs/heads/main/security/credly-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/credly/security/credly-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Digital Credentials

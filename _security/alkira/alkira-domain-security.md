@@ -43,7 +43,7 @@ source_filename: alkira-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.alkira.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 05:18:43 2026 GMT\n  hsts: null\n- host: registry.terraform.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 19 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: your_tenant_name.portal.alkira.com\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''your_tenant'\n  hsts: null\ndomains:\n- domain: alkira.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: terraform.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alkira/refs/heads/main/security/alkira-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/alkira/security/alkira-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

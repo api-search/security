@@ -40,7 +40,7 @@ source_filename: lexisnexis-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.lexisnexis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 11 14:51:24 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: dev.lexisnexis.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 22 11:42:16 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: risk.lexisnexis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 21:06:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: lexisnexis.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lexisnexis/refs/heads/main/security/lexisnexis-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lexisnexis/security/lexisnexis-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Legal

@@ -5,25 +5,25 @@ api_specs:
   label: The Guardian Content API
   slug: guardian-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guardian/refs/heads/main/openapi/guardian-content-api-openapi.yml
+  url: https://artifacts.apis.io/guardian/openapi/guardian-content-api-openapi.yml
 - filename: guardian-editions-api-openapi.yml
   format: yaml
   label: The Guardian Editions API
   slug: guardian-editions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guardian/refs/heads/main/openapi/guardian-editions-api-openapi.yml
+  url: https://artifacts.apis.io/guardian/openapi/guardian-editions-api-openapi.yml
 - filename: guardian-sections-api-openapi.yml
   format: yaml
   label: The Guardian Sections API
   slug: guardian-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guardian/refs/heads/main/openapi/guardian-sections-api-openapi.yml
+  url: https://artifacts.apis.io/guardian/openapi/guardian-sections-api-openapi.yml
 - filename: guardian-tags-api-openapi.yml
   format: yaml
   label: The Guardian Tags API
   slug: guardian-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guardian/refs/heads/main/openapi/guardian-tags-api-openapi.yml
+  url: https://artifacts.apis.io/guardian/openapi/guardian-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: guardian-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: open-platform.theguardian.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 19:33:19 2026 GMT\n  hsts: false\n- host: content.guardianapis.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 22 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: theguardian.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: guardianapis.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/guardian/refs/heads/main/security/guardian-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/guardian/security/guardian-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - News

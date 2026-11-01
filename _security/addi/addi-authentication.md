@@ -40,7 +40,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://api-docs-sandbox.addi.com/auth/\ndocs: https://api-docs-sandbox.addi.com/auth/\nsummary:\n  types: [oauth2]\n  oauth2_flows: [clientCredentials]\n  identity_provider: Auth0\ndescription: >-\n  Addi's merchant credit/checkout API authenticates through Auth0 (Identity as a\n  Service) using the OAuth2 client-credentials flow. Merchants receive a client_id\n  (\"Identificador del cliente\") and client_secret (\"Identificador secreto del\n  cliente\") — visible in the first-party VTEX/Magento/PrestaShop plugin\n  configuration — and exchange them at the Auth0 token endpoint for a bearer\n  access token that is presented on subsequent API calls. A separate sandbox\n  (\"Ambiente de Desarrollo\") environment is used before switching to production.\nschemes:\n- name: Auth0OAuth2\n  type: oauth2\n  scheme: clientCredentials\n  identity_provider: Auth0\n  credentials:\n    client_id: merchant client identifier (Identificador\
   \ del cliente)\n    client_secret: merchant client secret (Identificador secreto del cliente)\n  token_presentation: Bearer access token in Authorization header\n  environments:\n  - name: sandbox\n    label: Ambiente de Desarrollo\n    docs: https://api-docs-sandbox.addi.com/auth/\n  - name: production\n    api_host: https://api.addi.com\n  sources: [docs, packages/addi-packages.yml]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/addi/refs/heads/main/authentication/addi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/addi/authentication/addi-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

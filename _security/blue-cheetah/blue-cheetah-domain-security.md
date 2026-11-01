@@ -5,43 +5,43 @@ api_specs:
   label: Blue Cheetah Blue Cheetah API
   slug: blue-cheetah-blue-cheetah-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blue-cheetah/refs/heads/main/openapi/blue-cheetah-blue-cheetah-api-api-openapi.yml
+  url: https://artifacts.apis.io/blue-cheetah/openapi/blue-cheetah-blue-cheetah-api-api-openapi.yml
 - filename: blue-cheetah-chat-api-openapi.yml
   format: yaml
   label: Blue Cheetah Chat API
   slug: blue-cheetah-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blue-cheetah/refs/heads/main/openapi/blue-cheetah-chat-api-openapi.yml
+  url: https://artifacts.apis.io/blue-cheetah/openapi/blue-cheetah-chat-api-openapi.yml
 - filename: blue-cheetah-completions-api-openapi.yml
   format: yaml
   label: Blue Cheetah Completions API
   slug: blue-cheetah-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blue-cheetah/refs/heads/main/openapi/blue-cheetah-completions-api-openapi.yml
+  url: https://artifacts.apis.io/blue-cheetah/openapi/blue-cheetah-completions-api-openapi.yml
 - filename: blue-cheetah-health-api-openapi.yml
   format: yaml
   label: Blue Cheetah Health API
   slug: blue-cheetah-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blue-cheetah/refs/heads/main/openapi/blue-cheetah-health-api-openapi.yml
+  url: https://artifacts.apis.io/blue-cheetah/openapi/blue-cheetah-health-api-openapi.yml
 - filename: blue-cheetah-install-api-openapi.yml
   format: yaml
   label: Blue Cheetah Install API
   slug: blue-cheetah-install-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blue-cheetah/refs/heads/main/openapi/blue-cheetah-install-api-openapi.yml
+  url: https://artifacts.apis.io/blue-cheetah/openapi/blue-cheetah-install-api-openapi.yml
 - filename: blue-cheetah-metrics-api-openapi.yml
   format: yaml
   label: Blue Cheetah Metrics API
   slug: blue-cheetah-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blue-cheetah/refs/heads/main/openapi/blue-cheetah-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/blue-cheetah/openapi/blue-cheetah-metrics-api-openapi.yml
 - filename: blue-cheetah-tt-pkg-key-api-openapi.yml
   format: yaml
   label: Blue Cheetah Tt Pkg Key API
   slug: blue-cheetah-tt-pkg-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blue-cheetah/refs/heads/main/openapi/blue-cheetah-tt-pkg-key-api-openapi.yml
+  url: https://artifacts.apis.io/blue-cheetah/openapi/blue-cheetah-tt-pkg-key-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: blue-cheetah-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bluecheetah.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 17 08:26:51 2027 GMT\n  hsts: null\ndomains:\n- domain: bluecheetah.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blue-cheetah/refs/heads/main/security/blue-cheetah-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/blue-cheetah/security/blue-cheetah-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - AI Hardware

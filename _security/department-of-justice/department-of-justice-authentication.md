@@ -9,49 +9,49 @@ api_specs:
   label: Department of Justice Agency Component API
   slug: department-of-justice-agency-component-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/openapi/department-of-justice-agency-component-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-justice/openapi/department-of-justice-agency-component-api-openapi.yml
 - filename: department-of-justice-agency-taxonomy-api-openapi.yml
   format: yaml
   label: Department of Justice Agency Taxonomy API
   slug: department-of-justice-agency-taxonomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/openapi/department-of-justice-agency-taxonomy-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-justice/openapi/department-of-justice-agency-taxonomy-api-openapi.yml
 - filename: department-of-justice-annual-foia-report-data-api-openapi.yml
   format: yaml
   label: Department of Justice Annual FOIA Report Data API
   slug: department-of-justice-annual-foia-report-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/openapi/department-of-justice-annual-foia-report-data-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-justice/openapi/department-of-justice-annual-foia-report-data-api-openapi.yml
 - filename: department-of-justice-cfo-committee-api-openapi.yml
   format: yaml
   label: Department of Justice CFO Committee API
   slug: department-of-justice-cfo-committee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/openapi/department-of-justice-cfo-committee-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-justice/openapi/department-of-justice-cfo-committee-api-openapi.yml
 - filename: department-of-justice-cfo-council-api-openapi.yml
   format: yaml
   label: Department of Justice CFO Council API
   slug: department-of-justice-cfo-council-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/openapi/department-of-justice-cfo-council-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-justice/openapi/department-of-justice-cfo-council-api-openapi.yml
 - filename: department-of-justice-cfo-meeting-api-openapi.yml
   format: yaml
   label: Department of Justice CFO Meeting API
   slug: department-of-justice-cfo-meeting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/openapi/department-of-justice-cfo-meeting-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-justice/openapi/department-of-justice-cfo-meeting-api-openapi.yml
 - filename: department-of-justice-cfo-page-api-openapi.yml
   format: yaml
   label: Department of Justice CFO Page API
   slug: department-of-justice-cfo-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/openapi/department-of-justice-cfo-page-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-justice/openapi/department-of-justice-cfo-page-api-openapi.yml
 - filename: department-of-justice-quarterly-foia-report-data-api-openapi.yml
   format: yaml
   label: Department of Justice Quarterly FOIA Report Data API
   slug: department-of-justice-quarterly-foia-report-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/openapi/department-of-justice-quarterly-foia-report-data-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-justice/openapi/department-of-justice-quarterly-foia-report-data-api-openapi.yml
 auth_types:
 - apiKey
 - none
@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: searched\nprovider: Department of
   \ publishes a working test api_key inline for the Swagger UI\n        \"Authorize\" button, and api.data.gov publishes a shared DEMO_KEY. Both are heavily rate\n        limited (DEMO_KEY: 30 requests per IP per hour, 50 per day). The literal value is not\n        reproduced in this repository.\n    sources:\n      - openapi/department-of-justice-foia-api-swagger.json\n      - https://www.foia.gov/developer/\n      - https://api.data.gov/docs/developer-manual/\n  - name: None\n    type: none\n    applies_to:\n      - DOJ News API (https://www.justice.gov/api/v1)\n      - BJS NCVS / NIBRS National Estimates (https://api.ojp.gov/bjsdataset/v1)\n      - FARA e-File Registrant feed (https://efile.fara.gov/api/v1)\n      - DOJ Open Data Catalog (https://www.justice.gov/data.json)\n    evidence: >-\n      Anonymous GETs returned 200 on 2026-09-06 for\n      https://www.justice.gov/api/v1/press_releases.json?pagesize=1,\n      https://api.ojp.gov/bjsdataset/v1/r32q-bdaw.json?$limit=1,\n      https://efile.fara.gov/api/v1/Registrants/json/Active\
   \ and\n      https://www.justice.gov/data.json. No key, header or token of any kind is documented or\n      required.\nabsent:\n  - mechanism: OAuth 2.0\n    evidence: '/.well-known/oauth-authorization-server returned 404 on all eight probed hosts, 2026-09-06.'\n  - mechanism: OpenID Connect\n    evidence: '/.well-known/openid-configuration returned 404 on all eight probed hosts, 2026-09-06.'\n  - mechanism: Scopes / permissions\n    evidence: >-\n      No scope model exists. derive-oauth-scopes.py found no oauth2 securityScheme, and no DOJ\n      documentation describes permissions — the api.data.gov key is all-or-nothing across every\n      participating agency API.\n  - mechanism: mTLS\n    evidence: No client-certificate requirement documented on any surface.\ntransport_security:\n  https_enforced: true\n  hsts: true\n  note: >-\n    All four DOJ-operated hosts serve TLS 1.3 with HSTS. api.foia.gov returns\n    'strict-transport-security: max-age=31536000; includeSubDomains; preload'.\
   \ See\n    security/department-of-justice-domain-security.yml.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/authentication/department-of-justice-authentication.yml
+source_yaml_url: https://artifacts.apis.io/department-of-justice/authentication/department-of-justice-authentication.yml
 summary_line: apiKey/none · 2 schemes
 tags:
 - Bureau of Justice Statistics

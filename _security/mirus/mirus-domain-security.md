@@ -33,7 +33,7 @@ source_filename: mirus-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mirusmed.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 19 23:01:33 2026 GMT\n  hsts: null\n- host: rpm.mirusmed.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 23:59:59 2026 GMT\n  hsts: null\n  note: >-\n    GALILEO / \"Mirus Analytics\" clinician application (CloudFront + S3 SPA). Its /api/* routes,\n    including /api/v1/fhir, answer 401 to anonymous requests.\ndomains:\n- domain: mirusmed.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\nnotes:\n- www.mirusmed.com completes a TLS handshake but silently drops anonymous HTTP requests for\n  dynamic (WordPress) paths — /, /contact/, /wp-json/ all time out with no bytes returned —\n  while static /wp-content/ assets on the same host return 200. Recorded as observed; not\n  treated as a dead host.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mirus/refs/heads/main/security/mirus-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mirus/security/mirus-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

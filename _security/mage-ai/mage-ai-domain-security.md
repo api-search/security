@@ -5,25 +5,25 @@ api_specs:
   label: Mage Blocks API
   slug: mage-ai-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mage-ai/refs/heads/main/openapi/mage-ai-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/mage-ai/openapi/mage-ai-blocks-api-openapi.yml
 - filename: mage-ai-pipeline-runs-api-openapi.yml
   format: yaml
   label: Mage Pipeline Runs API
   slug: mage-ai-pipeline-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mage-ai/refs/heads/main/openapi/mage-ai-pipeline-runs-api-openapi.yml
+  url: https://artifacts.apis.io/mage-ai/openapi/mage-ai-pipeline-runs-api-openapi.yml
 - filename: mage-ai-pipeline-schedules-api-openapi.yml
   format: yaml
   label: Mage Pipeline Schedules API
   slug: mage-ai-pipeline-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mage-ai/refs/heads/main/openapi/mage-ai-pipeline-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/mage-ai/openapi/mage-ai-pipeline-schedules-api-openapi.yml
 - filename: mage-ai-pipelines-api-openapi.yml
   format: yaml
   label: Mage Pipelines API
   slug: mage-ai-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mage-ai/refs/heads/main/openapi/mage-ai-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/mage-ai/openapi/mage-ai-pipelines-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: mage-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mage.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 08:53:39 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.mage.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 09:01:06 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: mage.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mage-ai/refs/heads/main/security/mage-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mage-ai/security/mage-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data Pipeline

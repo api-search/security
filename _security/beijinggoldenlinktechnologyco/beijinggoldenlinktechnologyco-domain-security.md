@@ -23,7 +23,7 @@ source_filename: beijinggoldenlinktechnologyco-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.goldlink-tech.com\n  https: false\ndomains:\n- domain: goldlink-tech.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beijinggoldenlinktechnologyco/refs/heads/main/security/beijinggoldenlinktechnologyco-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/beijinggoldenlinktechnologyco/security/beijinggoldenlinktechnologyco-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

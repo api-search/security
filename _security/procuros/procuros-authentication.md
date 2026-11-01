@@ -7,25 +7,25 @@ api_specs:
   label: Procuros All Transactions API
   slug: procuros-all-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/procuros/refs/heads/main/openapi/procuros-all-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/procuros/openapi/procuros-all-transactions-api-openapi.yml
 - filename: procuros-incoming-transactions-api-openapi.yml
   format: yaml
   label: Procuros Incoming Transactions API
   slug: procuros-incoming-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/procuros/refs/heads/main/openapi/procuros-incoming-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/procuros/openapi/procuros-incoming-transactions-api-openapi.yml
 - filename: procuros-misc-api-openapi.yml
   format: yaml
   label: Procuros Misc API
   slug: procuros-misc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/procuros/refs/heads/main/openapi/procuros-misc-api-openapi.yml
+  url: https://artifacts.apis.io/procuros/openapi/procuros-misc-api-openapi.yml
 - filename: procuros-outgoing-transactions-api-openapi.yml
   format: yaml
   label: Procuros Outgoing Transactions API
   slug: procuros-outgoing-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/procuros/refs/heads/main/openapi/procuros-outgoing-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/procuros/openapi/procuros-outgoing-transactions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: procuros-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/procuros-openapi-original.yml\ndocs: https://docs.procuros.io/en/api/v2/concept-authentication\nnotes: >-\n  The Procuros API v2 authenticates every request with a static API token passed as an HTTP\n  Bearer token (`Authorization: Bearer <token>`). Tokens are issued per ERP Connection and\n  requested from Procuros support (no self-service key management or OAuth flow). All requests\n  must be over HTTPS; unauthenticated calls fail with 401. Separate tokens exist for the Staging\n  and Production environments. Test connectivity with `GET /v2/ping`.\nsummary:\n  types:\n  - http\nschemes:\n- name: api_token\n  type: http\n  scheme: bearer\n  description: The API Token of your ERP Connection.\n  sources:\n  - openapi/procuros-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/procuros/refs/heads/main/authentication/procuros-authentication.yml
+source_yaml_url: https://artifacts.apis.io/procuros/authentication/procuros-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

@@ -7,49 +7,49 @@ api_specs:
   label: Formance Auth API
   slug: formance-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-auth-api-openapi.yml
+  url: https://artifacts.apis.io/formance/openapi/formance-auth-api-openapi.yml
 - filename: formance-ledger-api-openapi.yml
   format: yaml
   label: Formance Ledger API
   slug: formance-ledger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-ledger-api-openapi.yml
+  url: https://artifacts.apis.io/formance/openapi/formance-ledger-api-openapi.yml
 - filename: formance-orchestration-api-openapi.yml
   format: yaml
   label: Formance Orchestration API
   slug: formance-orchestration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-orchestration-api-openapi.yml
+  url: https://artifacts.apis.io/formance/openapi/formance-orchestration-api-openapi.yml
 - filename: formance-payments-api-openapi.yml
   format: yaml
   label: Formance Payments API
   slug: formance-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-payments-api-openapi.yml
+  url: https://artifacts.apis.io/formance/openapi/formance-payments-api-openapi.yml
 - filename: formance-reconciliation-api-openapi.yml
   format: yaml
   label: Formance Reconciliation API
   slug: formance-reconciliation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-reconciliation-api-openapi.yml
+  url: https://artifacts.apis.io/formance/openapi/formance-reconciliation-api-openapi.yml
 - filename: formance-search-api-openapi.yml
   format: yaml
   label: Formance Search API
   slug: formance-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-search-api-openapi.yml
+  url: https://artifacts.apis.io/formance/openapi/formance-search-api-openapi.yml
 - filename: formance-wallets-api-openapi.yml
   format: yaml
   label: Formance Wallets API
   slug: formance-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/formance/openapi/formance-wallets-api-openapi.yml
 - filename: formance-webhooks-api-openapi.yml
   format: yaml
   label: Formance Webhooks API
   slug: formance-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/formance/openapi/formance-webhooks-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -80,12 +80,12 @@ source_filename: formance-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/formance-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{organization}.{environment}.formance.cloud/api/auth/oauth/token\n    scopes: 6\n  description: 'OAuth2 client-credentials flow. Exchange a client id and secret at `/api/auth/oauth/token`\n    for a Bearer access token, then send it as `Authorization: Bearer <token>`.'\n  sources:\n  - openapi/formance-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/authentication/formance-authentication.yml
+source_yaml_url: https://artifacts.apis.io/formance/authentication/formance-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Financial Infrastructure
 - Ledger
-- double-entry-accounting
+- Double-Entry
 - Payments
 - Orchestration
 - Money Movement

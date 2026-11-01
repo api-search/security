@@ -8,43 +8,43 @@ api_specs:
   label: SimpleLocalize Customers API
   slug: simplelocalize-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplelocalize/refs/heads/main/openapi/simplelocalize-customers-api-openapi.yml
+  url: https://artifacts.apis.io/simplelocalize/openapi/simplelocalize-customers-api-openapi.yml
 - filename: simplelocalize-export-api-openapi.yml
   format: yaml
   label: SimpleLocalize Export API
   slug: simplelocalize-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplelocalize/refs/heads/main/openapi/simplelocalize-export-api-openapi.yml
+  url: https://artifacts.apis.io/simplelocalize/openapi/simplelocalize-export-api-openapi.yml
 - filename: simplelocalize-import-api-openapi.yml
   format: yaml
   label: SimpleLocalize Import API
   slug: simplelocalize-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplelocalize/refs/heads/main/openapi/simplelocalize-import-api-openapi.yml
+  url: https://artifacts.apis.io/simplelocalize/openapi/simplelocalize-import-api-openapi.yml
 - filename: simplelocalize-languages-api-openapi.yml
   format: yaml
   label: SimpleLocalize Languages API
   slug: simplelocalize-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplelocalize/refs/heads/main/openapi/simplelocalize-languages-api-openapi.yml
+  url: https://artifacts.apis.io/simplelocalize/openapi/simplelocalize-languages-api-openapi.yml
 - filename: simplelocalize-projects-api-openapi.yml
   format: yaml
   label: SimpleLocalize Projects API
   slug: simplelocalize-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplelocalize/refs/heads/main/openapi/simplelocalize-projects-api-openapi.yml
+  url: https://artifacts.apis.io/simplelocalize/openapi/simplelocalize-projects-api-openapi.yml
 - filename: simplelocalize-publication-api-openapi.yml
   format: yaml
   label: SimpleLocalize Publication API
   slug: simplelocalize-publication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplelocalize/refs/heads/main/openapi/simplelocalize-publication-api-openapi.yml
+  url: https://artifacts.apis.io/simplelocalize/openapi/simplelocalize-publication-api-openapi.yml
 - filename: simplelocalize-translations-api-openapi.yml
   format: yaml
   label: SimpleLocalize Translations API
   slug: simplelocalize-translations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplelocalize/refs/heads/main/openapi/simplelocalize-translations-api-openapi.yml
+  url: https://artifacts.apis.io/simplelocalize/openapi/simplelocalize-translations-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -79,7 +79,7 @@ source_filename: simplelocalize-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/simplelocalize-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-SimpleLocalize-Token\n  description: Project API key from Settings > Credentials > API Key\n  sources:\n  - openapi/simplelocalize-openapi.yml\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Personal Token for Projects API. Generated in account settings.\n  sources:\n  - openapi/simplelocalize-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simplelocalize/refs/heads/main/authentication/simplelocalize-authentication.yml
+source_yaml_url: https://artifacts.apis.io/simplelocalize/authentication/simplelocalize-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Localization

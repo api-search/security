@@ -8,13 +8,13 @@ api_specs:
   label: Integry Apps API
   slug: integry-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integry/refs/heads/main/openapi/integry-apps-api-openapi.yml
+  url: https://artifacts.apis.io/integry/openapi/integry-apps-api-openapi.yml
 - filename: integry-functions-api-openapi.yml
   format: yaml
   label: Integry Functions API
   slug: integry-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/integry/refs/heads/main/openapi/integry-functions-api-openapi.yml
+  url: https://artifacts.apis.io/integry/openapi/integry-functions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -56,7 +56,7 @@ source_filename: integry-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/integry-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: AppKey\n  type: apiKey\n  in: header\n  parameter: App-Key\n  description: Integry application key.\n  sources:\n  - openapi/integry-openapi.yml\n- name: UserID\n  type: apiKey\n  in: header\n  parameter: User-ID\n  description: End user identifier within the Integry workspace.\n  sources:\n  - openapi/integry-openapi.yml\n- name: Hash\n  type: apiKey\n  in: header\n  parameter: Hash\n  description: HMAC SHA256 hash of the User-ID using the App-Secret.\n  sources:\n  - openapi/integry-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/integry/refs/heads/main/authentication/integry-authentication.yml
+source_yaml_url: https://artifacts.apis.io/integry/authentication/integry-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - Embedded iPaaS

@@ -15,7 +15,7 @@ source_filename: kojo-technologies-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nprobe: true\nsource: https://www.usekojo.com/security\nurl: https://www.usekojo.com/security\ncertifications:\n- SOC 2\nevidence:\n- source: https://www.usekojo.com/security\n  keywords:\n  - soc 2\n  - soc2\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kojo-technologies/refs/heads/main/security/kojo-technologies-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/kojo-technologies/security/kojo-technologies-trust-center.yml
 summary_line: SOC 2
 tags:
 - Company
@@ -26,7 +26,7 @@ tags:
 - Materials Management
 - Inventory
 - Accounts Payable
-- Field Service
+- Field Service Management
 - Software-as-a-Service
 trust_url: https://www.usekojo.com/security
 ---

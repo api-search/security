@@ -11,43 +11,43 @@ api_specs:
   label: Casdoor Applications API
   slug: casdoor-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/openapi/casdoor-applications-api-openapi.yml
+  url: https://artifacts.apis.io/casdoor/openapi/casdoor-applications-api-openapi.yml
 - filename: casdoor-authentication-api-openapi.yml
   format: yaml
   label: Casdoor Authentication API
   slug: casdoor-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/openapi/casdoor-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/casdoor/openapi/casdoor-authentication-api-openapi.yml
 - filename: casdoor-oidc-api-openapi.yml
   format: yaml
   label: Casdoor OIDC API
   slug: casdoor-oidc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/openapi/casdoor-oidc-api-openapi.yml
+  url: https://artifacts.apis.io/casdoor/openapi/casdoor-oidc-api-openapi.yml
 - filename: casdoor-organizations-api-openapi.yml
   format: yaml
   label: Casdoor Organizations API
   slug: casdoor-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/openapi/casdoor-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/casdoor/openapi/casdoor-organizations-api-openapi.yml
 - filename: casdoor-permissions-api-openapi.yml
   format: yaml
   label: Casdoor Permissions API
   slug: casdoor-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/openapi/casdoor-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/casdoor/openapi/casdoor-permissions-api-openapi.yml
 - filename: casdoor-roles-api-openapi.yml
   format: yaml
   label: Casdoor Roles API
   slug: casdoor-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/openapi/casdoor-roles-api-openapi.yml
+  url: https://artifacts.apis.io/casdoor/openapi/casdoor-roles-api-openapi.yml
 - filename: casdoor-users-api-openapi.yml
   format: yaml
   label: Casdoor Users API
   slug: casdoor-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/openapi/casdoor-users-api-openapi.yml
+  url: https://artifacts.apis.io/casdoor/openapi/casdoor-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -91,7 +91,7 @@ source_filename: casdoor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: casdoor.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 14:50:35 2026 GMT\n  hsts: false\n- host: casdoor.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 14:27:25 2026 GMT\n  hsts: false\n- host: door.casdoor.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 14:38:31 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: casdoor.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: casdoor.ai\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/security/casdoor-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/casdoor/security/casdoor-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Authentication

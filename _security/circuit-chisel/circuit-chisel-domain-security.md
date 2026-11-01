@@ -26,7 +26,7 @@ source_filename: circuit-chisel-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: circuitandchisel.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  7 13:51:42 2026 GMT\n  hsts: false\ndomains:\n- domain: circuitandchisel.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/circuit-chisel/refs/heads/main/security/circuit-chisel-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/circuit-chisel/security/circuit-chisel-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - AI Platform

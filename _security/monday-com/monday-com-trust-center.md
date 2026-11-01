@@ -11,7 +11,7 @@ api_specs:
   label: Monday.com Platform GraphQL API
   slug: monday-com-monday-com-platform-graphql-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monday-com/refs/heads/main/openapi/monday-com-monday-com-platform-graphql-api-api-openapi.yml
+  url: https://artifacts.apis.io/monday-com/openapi/monday-com-monday-com-platform-graphql-api-api-openapi.yml
 certification_count: 8
 certifications:
 - SOC 2
@@ -35,7 +35,7 @@ source_filename: monday-com-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.monday.com/\nurl: https://trust.monday.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- HIPAA\n- FedRAMP\n- GDPR\n- CSA STAR\nevidence:\n- source: https://trust.monday.com/\n  keywords:\n  - soc 2\n  - iso 27001\n  - iso/iec 27001\n  - hipaa\n  - fedramp\n  - trust center\n  - gdpr\n  - csa star\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/monday-com/refs/heads/main/security/monday-com-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/monday-com/security/monday-com-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, GDPR, CSA STAR
 tags:
 - Work Management

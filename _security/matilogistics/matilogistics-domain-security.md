@@ -32,7 +32,7 @@ source_filename: matilogistics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.matilogistics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 20:33:03 2026 GMT\n  hsts: false\n- host: api.matilogistics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 31 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: matilogistics.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/matilogistics/refs/heads/main/security/matilogistics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/matilogistics/security/matilogistics-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Logistics

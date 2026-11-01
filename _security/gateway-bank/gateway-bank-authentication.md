@@ -7,43 +7,43 @@ api_specs:
   label: Gateway Bank Banking Account Balances API
   slug: gateway-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/gateway-bank/openapi/gateway-bank-banking-account-balances-api-openapi.yml
 - filename: gateway-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Gateway Bank Banking Account Direct Debits API
   slug: gateway-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/gateway-bank/openapi/gateway-bank-banking-account-direct-debits-api-openapi.yml
 - filename: gateway-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Gateway Bank Banking Account Scheduled Payments API
   slug: gateway-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/gateway-bank/openapi/gateway-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: gateway-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Gateway Bank Banking Account Transactions API
   slug: gateway-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/gateway-bank/openapi/gateway-bank-banking-account-transactions-api-openapi.yml
 - filename: gateway-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Gateway Bank Banking Accounts API
   slug: gateway-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/gateway-bank/openapi/gateway-bank-banking-accounts-api-openapi.yml
 - filename: gateway-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Gateway Bank Banking Payees API
   slug: gateway-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/gateway-bank/openapi/gateway-bank-banking-payees-api-openapi.yml
 - filename: gateway-bank-banking-products-api-openapi.yml
   format: yaml
   label: Gateway Bank Banking Products API
   slug: gateway-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/gateway-bank/openapi/gateway-bank-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -69,7 +69,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: DSB Consumer Data Standards CDR security profile + openapi x-scopes + review.yml\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#security-profile\nsummary:\n  types: [none, oauth2, openIdConnect]\n  api_key_in: []\n  oauth2_flows: [authorizationCode]\n  note: Two distinct surfaces. The public Product Reference Data (PRD) endpoints are\n    deliberately UNAUTHENTICATED per the Consumer Data Standards (product data carries\n    no consumer information). All consumer-data endpoints (accounts, balances,\n    transactions, direct debits, scheduled payments, payees, instalment plans) are\n    gated by the CDR security profile, an OpenID Connect / FAPI 2.0 flow restricted\n    to ACCC-accredited Data Recipients operating against the CDR Register.\nsurfaces:\n- name: public-prd\n  authentication: none\n  description: GET /banking/products and GET /banking/products/{productId} require no\n    credentials. Only the\
   \ CDS version header (x-v) is mandatory.\n  operations: [listBankingProducts, getBankingProductDetail]\n- name: cdr-consumer-data\n  authentication: oauth2 + openIdConnect (FAPI)\n  profile: CDR security profile (FAPI 2.0 baseline)\n  flows:\n  - flow: authorizationCode\n    grant: authorization_code\n    features: [PAR, PKCE, private_key_jwt or MTLS client auth]\n    authorizationUrl: via the bank's CDR InfoSec endpoints published to the CDR Register\n    tokenUrl: via the bank's CDR InfoSec endpoints published to the CDR Register\n  eligibility: ACCC-accredited Data Recipients (ADR) only; not a self-serve developer\n    surface.\n  scopes_ref: scopes/gateway-bank-scopes.yml\n  operations:\n  - listBankingAccounts\n  - getBankingAccountDetail\n  - listBankingBalancesBulk\n  - listBankingBalancesSpecificAccounts\n  - getBankingBalance\n  - listBankingTransactions\n  - getBankingTransactionDetail\n  - listDirectDebits\n  - listDirectDebitsBulk\n  - listDirectDebitsSpecificAccounts\n  -\
   \ listScheduledPayments\n  - listScheduledPaymentsBulk\n  - listScheduledPaymentsSpecificAccounts\n  - listInstalmentPlans\n  - listInstalmentPlansBulk\n  - listBankingPayees\n  - getBankingPayeeDetail\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/authentication/gateway-bank-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gateway-bank/authentication/gateway-bank-authentication.yml
 summary_line: none/oauth2/openIdConnect · 0 schemes
 tags:
 - Finance

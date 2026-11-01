@@ -5,25 +5,25 @@ api_specs:
   label: Cloudflare Queues Consumer API
   slug: cloudflare-queues-consumer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/openapi/cloudflare-queues-consumer-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-queues/openapi/cloudflare-queues-consumer-api-openapi.yml
 - filename: cloudflare-queues-messages-api-openapi.yml
   format: yaml
   label: Cloudflare Queues Messages API
   slug: cloudflare-queues-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/openapi/cloudflare-queues-messages-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-queues/openapi/cloudflare-queues-messages-api-openapi.yml
 - filename: cloudflare-queues-metrics-api-openapi.yml
   format: yaml
   label: Cloudflare Queues Metrics API
   slug: cloudflare-queues-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/openapi/cloudflare-queues-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-queues/openapi/cloudflare-queues-metrics-api-openapi.yml
 - filename: cloudflare-queues-queue-api-openapi.yml
   format: yaml
   label: Cloudflare Queues Queue API
   slug: cloudflare-queues-queue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/openapi/cloudflare-queues-queue-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-queues/openapi/cloudflare-queues-queue-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -71,7 +71,7 @@ source_filename: cloudflare-queues-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cloudflare.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 07:46:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.cloudflare.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 16:43:14 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.cloudflare.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 23:15:42 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: cloudflare.com\n  dnssec: true\n  caa:\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/security/cloudflare-queues-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cloudflare-queues/security/cloudflare-queues-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Messaging

@@ -7,37 +7,37 @@ api_specs:
   label: CREA (REALTOR.ca) Destination API
   slug: crea-destination-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/openapi/crea-destination-api-openapi.yml
+  url: https://artifacts.apis.io/crea/openapi/crea-destination-api-openapi.yml
 - filename: crea-lead-api-openapi.yml
   format: yaml
   label: CREA (REALTOR.ca) Lead API
   slug: crea-lead-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/openapi/crea-lead-api-openapi.yml
+  url: https://artifacts.apis.io/crea/openapi/crea-lead-api-openapi.yml
 - filename: crea-member-api-openapi.yml
   format: yaml
   label: CREA (REALTOR.ca) Member API
   slug: crea-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/openapi/crea-member-api-openapi.yml
+  url: https://artifacts.apis.io/crea/openapi/crea-member-api-openapi.yml
 - filename: crea-office-api-openapi.yml
   format: yaml
   label: CREA (REALTOR.ca) Office API
   slug: crea-office-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/openapi/crea-office-api-openapi.yml
+  url: https://artifacts.apis.io/crea/openapi/crea-office-api-openapi.yml
 - filename: crea-openhouse-api-openapi.yml
   format: yaml
   label: CREA (REALTOR.ca) Open House API
   slug: crea-openhouse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/openapi/crea-openhouse-api-openapi.yml
+  url: https://artifacts.apis.io/crea/openapi/crea-openhouse-api-openapi.yml
 - filename: crea-property-api-openapi.yml
   format: yaml
   label: CREA (REALTOR.ca) Property API
   slug: crea-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/openapi/crea-property-api-openapi.yml
+  url: https://artifacts.apis.io/crea/openapi/crea-property-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -127,7 +127,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: https://ddfapi-
   \ https://boardapi-docs.realtor.ca/]\n- name: CREA OpenID Connect provider\n  type: openIdConnect\n  issuer: https://identity.crea.ca\n  openid_configuration: https://identity.crea.ca/.well-known/openid-configuration\n  jwks_uri: https://identity.crea.ca/.well-known/openid-configuration/jwks\n  authorization_endpoint: https://identity.crea.ca/connect/authorize\n  token_endpoint: https://identity.crea.ca/connect/token\n  userinfo_endpoint: https://identity.crea.ca/connect/userinfo\n  introspection_endpoint: https://identity.crea.ca/connect/introspect\n  revocation_endpoint: https://identity.crea.ca/connect/revocation\n  end_session_endpoint: https://identity.crea.ca/connect/endsession\n  device_authorization_endpoint: https://identity.crea.ca/connect/deviceauthorization\n  pushed_authorization_request_endpoint: https://identity.crea.ca/connect/par\n  require_pushed_authorization_requests: false\n  grant_types_supported: [authorization_code, client_credentials, refresh_token, implicit, 'urn:ietf:params:oauth:grant-type:device_code',\
   \ 'urn:openid:params:grant-type:ciba']\n  code_challenge_methods_supported: [plain, S256]\n  id_token_signing_alg_values_supported: [RS256]\n  token_endpoint_auth_methods_supported: [client_secret_basic, client_secret_post]\n  claims_supported: [sub, destinationid]\n  subject_types_supported: [public]\n  frontchannel_logout_supported: true\n  backchannel_logout_supported: true\n  note: >-\n    The discovery document advertises far more than the documented APIs use. Only\n    client_credentials is documented for DDF and Board; authorization_code, implicit, device\n    code and CIBA are advertised by the shared identity server and are presumably used by\n    CREA's member-facing products (DDF Dashboard, WEBForms, Offer Management). The\n    \"destinationid\" claim is what scopes a DDF token to a data feed.\ncredential_issuance:\n  self_serve: false\n  process: >-\n    A REALTOR opts a data feed in through the DDF Dashboard on CREA's member portal\n    (ddf.realtor.ca, SSO via sso.realtor.ca).\
   \ A third-party developer must enter a data access\n    agreement with CREA as a Technology Provider operating a National Pool Website or Member\n    Website on behalf of that opted-in member. client_id and client_secret are then provided\n    by CREA. Board API credentials are provided by CREA to member boards.\n  gotchas:\n  - An inactive data feed returns no access token at all, rather than an error explaining why.\n  - Technology Provider accounts get their own credentials that merge every linked feed into one unified dataset.\n  - CREA recommends server-to-server token use only; client-to-server token requests are called out as a security risk.\ntransport_security:\n  min_tls: '1.2'\n  https_required: true\n  source: Release note 2023-01-31 - \"Update to support minimum TLS version 1.2 enforcing all incoming requests to be HTTPS.\"\nrelated:\n  scopes: scopes/crea-scopes.yml\n  well_known: well-known/crea-well-known.yml\n  conventions: conventions/crea-conventions.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/authentication/crea-authentication.yml
+source_yaml_url: https://artifacts.apis.io/crea/authentication/crea-authentication.yml
 summary_line: oauth2/openIdConnect · 2 schemes
 tags:
 - Real Estate

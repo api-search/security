@@ -1,29 +1,35 @@
 ---
 api_specs:
+- filename: kodjin-openapi-generated.yml
+  format: yaml
+  label: Kodjin API
+  slug: kodjin-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kodjin/openapi/_ae-authored/kodjin-openapi-generated.yml
 - filename: kodjin-auth-api-openapi.yml
   format: yaml
   label: Kodjin Auth API
   slug: kodjin-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kodjin/refs/heads/main/openapi/kodjin-auth-api-openapi.yml
+  url: https://artifacts.apis.io/kodjin/openapi/kodjin-auth-api-openapi.yml
 - filename: kodjin-fhir-api-openapi.yml
   format: yaml
   label: Kodjin Fhir API
   slug: kodjin-fhir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kodjin/refs/heads/main/openapi/kodjin-fhir-api-openapi.yml
+  url: https://artifacts.apis.io/kodjin/openapi/kodjin-fhir-api-openapi.yml
 - filename: kodjin-patient-api-openapi.yml
   format: yaml
   label: Kodjin Patient API
   slug: kodjin-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kodjin/refs/heads/main/openapi/kodjin-patient-api-openapi.yml
+  url: https://artifacts.apis.io/kodjin/openapi/kodjin-patient-api-openapi.yml
 - filename: kodjin-terminology-api-openapi.yml
   format: yaml
   label: Kodjin Terminology API
   slug: kodjin-terminology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kodjin/refs/heads/main/openapi/kodjin-terminology-api-openapi.yml
+  url: https://artifacts.apis.io/kodjin/openapi/kodjin-terminology-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,11 +58,11 @@ source_filename: kodjin-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: kodjin.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  2 12:30:57 2027 GMT\n  hsts: false\ndomains:\n- domain: kodjin.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kodjin/refs/heads/main/security/kodjin-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kodjin/security/kodjin-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Low-code
+- Low-Code
 - Platform
 - Automation
 - Integration

@@ -5,37 +5,37 @@ api_specs:
   label: iconik Assets API
   slug: iconik-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-assets-api-openapi.yml
+  url: https://artifacts.apis.io/iconik/openapi/iconik-assets-api-openapi.yml
 - filename: iconik-collections-api-openapi.yml
   format: yaml
   label: iconik Collections API
   slug: iconik-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-collections-api-openapi.yml
+  url: https://artifacts.apis.io/iconik/openapi/iconik-collections-api-openapi.yml
 - filename: iconik-files-api-openapi.yml
   format: yaml
   label: iconik Files API
   slug: iconik-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-files-api-openapi.yml
+  url: https://artifacts.apis.io/iconik/openapi/iconik-files-api-openapi.yml
 - filename: iconik-jobs-api-openapi.yml
   format: yaml
   label: iconik Jobs API
   slug: iconik-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/iconik/openapi/iconik-jobs-api-openapi.yml
 - filename: iconik-metadata-api-openapi.yml
   format: yaml
   label: iconik Metadata API
   slug: iconik-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/iconik/openapi/iconik-metadata-api-openapi.yml
 - filename: iconik-search-api-openapi.yml
   format: yaml
   label: iconik Search API
   slug: iconik-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-search-api-openapi.yml
+  url: https://artifacts.apis.io/iconik/openapi/iconik-search-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2
@@ -52,7 +52,7 @@ source_filename: iconik-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.iconik.io/security\nurl: https://www.iconik.io/security\ncertifications:\n- SOC 2\nevidence:\n- source: https://www.iconik.io/security\n  keywords:\n  - soc 2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/security/iconik-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/iconik/security/iconik-trust-center.yml
 summary_line: SOC 2
 tags:
 - Media Asset Management

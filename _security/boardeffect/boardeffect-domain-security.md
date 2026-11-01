@@ -48,11 +48,10 @@ source_filename: boardeffect-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.boardeffect.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 02:03:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.diligent.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 21:13:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: boardeffect.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"entrust.net\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: diligent.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"entrust.net\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boardeffect/refs/heads/main/security/boardeffect-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/boardeffect/security/boardeffect-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Board Management
-- Board Portal
 - Governance
 - Meetings
 - Non-Profit

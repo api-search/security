@@ -5,49 +5,49 @@ api_specs:
   label: npm Registry API
   slug: registry
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/openapi/npm-registry-api-openapi.yml
+  url: https://artifacts.apis.io/npm/openapi/npm-registry-api-openapi.yml
 - filename: npm-hooks-api-openapi.yml
   format: yaml
   label: npm Hooks API
   slug: hooks
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/openapi/npm-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/npm/openapi/npm-hooks-api-openapi.yml
 - filename: npm-downloads-api-openapi.yml
   format: yaml
   label: npm Downloads API
   slug: npm-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/openapi/npm-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/npm/openapi/npm-downloads-api-openapi.yml
 - filename: npm-oidc-api-openapi.yml
   format: yaml
   label: npm OIDC API
   slug: npm-oidc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/openapi/npm-oidc-api-openapi.yml
+  url: https://artifacts.apis.io/npm/openapi/npm-oidc-api-openapi.yml
 - filename: npm-packages-api-openapi.yml
   format: yaml
   label: npm Packages API
   slug: npm-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/openapi/npm-packages-api-openapi.yml
+  url: https://artifacts.apis.io/npm/openapi/npm-packages-api-openapi.yml
 - filename: npm-search-api-openapi.yml
   format: yaml
   label: npm Search API
   slug: npm-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/openapi/npm-search-api-openapi.yml
+  url: https://artifacts.apis.io/npm/openapi/npm-search-api-openapi.yml
 - filename: npm-tokens-api-openapi.yml
   format: yaml
   label: npm Tokens API
   slug: npm-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/openapi/npm-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/npm/openapi/npm-tokens-api-openapi.yml
 - filename: npm-trusted-publishers-api-openapi.yml
   format: yaml
   label: npm Trusted Publishers API
   slug: npm-trusted-publishers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/openapi/npm-trusted-publishers-api-openapi.yml
+  url: https://artifacts.apis.io/npm/openapi/npm-trusted-publishers-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -106,7 +106,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.npmjs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 03:32:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: registry.npmjs.org\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 23 19:18:50 2026 GMT\n  hsts: false\n- host: api-docs.npmjs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 12:15:51 2026 GMT\n  hsts: false\ndomains:\n- domain: npmjs.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: npmjs.org\n  dnssec: false\n  caa:\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\
   \n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/security/npm-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/npm/security/npm-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Packages

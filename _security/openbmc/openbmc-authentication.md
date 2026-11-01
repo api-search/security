@@ -8,49 +8,49 @@ api_specs:
   label: OpenBMC AccountService API
   slug: openbmc-accountservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-accountservice-api-openapi.yml
+  url: https://artifacts.apis.io/openbmc/openapi/openbmc-accountservice-api-openapi.yml
 - filename: openbmc-chassis-api-openapi.yml
   format: yaml
   label: OpenBMC Chassis API
   slug: openbmc-chassis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-chassis-api-openapi.yml
+  url: https://artifacts.apis.io/openbmc/openapi/openbmc-chassis-api-openapi.yml
 - filename: openbmc-managers-api-openapi.yml
   format: yaml
   label: OpenBMC Managers API
   slug: openbmc-managers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-managers-api-openapi.yml
+  url: https://artifacts.apis.io/openbmc/openapi/openbmc-managers-api-openapi.yml
 - filename: openbmc-openbmc-redfish-api-api-openapi.yml
   format: yaml
   label: OpenBMC Redfish API
   slug: openbmc-openbmc-redfish-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-openbmc-redfish-api-api-openapi.yml
+  url: https://artifacts.apis.io/openbmc/openapi/openbmc-openbmc-redfish-api-api-openapi.yml
 - filename: openbmc-sessionservice-api-openapi.yml
   format: yaml
   label: OpenBMC SessionService API
   slug: openbmc-sessionservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-sessionservice-api-openapi.yml
+  url: https://artifacts.apis.io/openbmc/openapi/openbmc-sessionservice-api-openapi.yml
 - filename: openbmc-systems-api-openapi.yml
   format: yaml
   label: OpenBMC Systems API
   slug: openbmc-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-systems-api-openapi.yml
+  url: https://artifacts.apis.io/openbmc/openapi/openbmc-systems-api-openapi.yml
 - filename: openbmc-event-service-api-openapi.yml
   format: yaml
   label: OpenBMC Event Service API
   slug: openbmc-event-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-event-service-api-openapi.yml
+  url: https://artifacts.apis.io/openbmc/openapi/openbmc-event-service-api-openapi.yml
 - filename: openbmc-update-service-api-openapi.yml
   format: yaml
   label: OpenBMC Update Service API
   slug: openbmc-update-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-update-service-api-openapi.yml
+  url: https://artifacts.apis.io/openbmc/openapi/openbmc-update-service-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -78,7 +78,7 @@ source_filename: openbmc-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openbmc-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: SessionToken\n  type: apiKey\n  in: header\n  parameter: X-Auth-Token\n  description: Redfish session token obtained from POST /SessionService/Sessions\n  sources:\n  - openapi/openbmc-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/authentication/openbmc-authentication.yml
+source_yaml_url: https://artifacts.apis.io/openbmc/authentication/openbmc-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Firmware

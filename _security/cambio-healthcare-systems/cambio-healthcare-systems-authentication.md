@@ -9,31 +9,31 @@ api_specs:
   label: Cambio Healthcare Systems Booked Appointments API
   slug: cambio-healthcare-systems-booked-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-booked-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/cambio-healthcare-systems/openapi/cambio-healthcare-systems-booked-appointments-api-openapi.yml
 - filename: cambio-healthcare-systems-default-api-openapi.yml
   format: yaml
   label: Cambio Healthcare Systems * API
   slug: cambio-healthcare-systems-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-default-api-openapi.yml
+  url: https://artifacts.apis.io/cambio-healthcare-systems/openapi/cambio-healthcare-systems-default-api-openapi.yml
 - filename: cambio-healthcare-systems-payment-notice-api-openapi.yml
   format: yaml
   label: Cambio Healthcare Systems Payment Notice API
   slug: cambio-healthcare-systems-payment-notice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-payment-notice-api-openapi.yml
+  url: https://artifacts.apis.io/cambio-healthcare-systems/openapi/cambio-healthcare-systems-payment-notice-api-openapi.yml
 - filename: cambio-healthcare-systems-protocol-api-openapi.yml
   format: yaml
   label: Cambio Healthcare Systems Protocol API
   slug: cambio-healthcare-systems-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/cambio-healthcare-systems/openapi/cambio-healthcare-systems-protocol-api-openapi.yml
 - filename: cambio-healthcare-systems-well-known-api-openapi.yml
   format: yaml
   label: Cambio Healthcare Systems .well Known API
   slug: cambio-healthcare-systems-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/cambio-healthcare-systems/openapi/cambio-healthcare-systems-well-known-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: searched\nsource: https://develop
   \  - client_secret_basic\n  - client_secret_post\n  - tls_client_auth\n  - client_secret_jwt\n  pkce:\n  - plain\n  - S256\n  mtls_supported: true\nschemes:\n- name: apiKeyHeader\n  type: apiKey\n  in: header\n  parameter: Ocp-Apim-Subscription-Key\n  description: Azure API Management subscription key, issued per COS product subscription and shown in the developer-portal\n    profile as Primary/Secondary Key.\n  source: openapi/ (all 19 exported specs)\n- name: apiKeyQuery\n  type: apiKey\n  in: query\n  parameter: subscription-key\n  description: Same APIM subscription key passed as a query parameter instead of a header.\n  source: openapi/ (all 19 exported specs)\n- name: oauth2\n  type: oauth2\n  flows:\n  - authorizationCode\n  - clientCredentials\n  authorization_endpoint: https://api.openservices.cambio.se/auth/realms/COS/protocol/openid-connect/auth\n  token_endpoint: https://api.openservices.cambio.se/auth/realms/COS/protocol/openid-connect/token\n  jwks_uri: https://api.openservices.cambio.se/auth/realms/COS/protocol/openid-connect/certs\n\
   \  introspection_endpoint: https://api.openservices.cambio.se/auth/realms/COS/protocol/openid-connect/token/introspect\n  revocation_endpoint: https://api.openservices.cambio.se/auth/realms/COS/protocol/openid-connect/revoke\n  description: Cambio Open Services authorization server (Keycloak realm COS). Client-id and client secret are emailed\n    after a product subscription is approved. Access is scoped with SMART-on-FHIR style scopes.\n  source: https://api.openservices.cambio.se/auth/realms/COS/.well-known/openid-configuration\n- name: openIdConnect\n  type: openIdConnect\n  openIdConnectUrl: https://api.openservices.cambio.se/auth/realms/COS/.well-known/openid-configuration\n  issuer: https://api.openservices.cambio.se/auth/realms/COS\n  source: probed 2026-09-02, HTTP 200\nonboarding:\n  signup: https://developer.openservices.cambio.se/signup\n  steps:\n  - Sign up at the COS developer portal\n  - Subscribe to the \"Cambio Open Services\" product (approval required)\n  - Receive\
   \ client-id and client secret by email\n  - Read the API key (Primary/Secondary) from the portal profile\n  - Request an access token from the Keycloak token endpoint, then call the API with both the token and the subscription\n    key\n  approval_required: true\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/authentication/cambio-healthcare-systems-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cambio-healthcare-systems/authentication/cambio-healthcare-systems-authentication.yml
 summary_line: apiKey/oauth2/openIdConnect · 4 schemes
 tags:
 - Healthcare

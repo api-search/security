@@ -8,37 +8,37 @@ api_specs:
   label: Code Climate Issues API
   slug: codeclimate-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeclimate/refs/heads/main/openapi/codeclimate-issues-api-openapi.yml
+  url: https://artifacts.apis.io/codeclimate/openapi/codeclimate-issues-api-openapi.yml
 - filename: codeclimate-organizations-api-openapi.yml
   format: yaml
   label: Code Climate Organizations API
   slug: codeclimate-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeclimate/refs/heads/main/openapi/codeclimate-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/codeclimate/openapi/codeclimate-organizations-api-openapi.yml
 - filename: codeclimate-repositories-api-openapi.yml
   format: yaml
   label: Code Climate Repositories API
   slug: codeclimate-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeclimate/refs/heads/main/openapi/codeclimate-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/codeclimate/openapi/codeclimate-repositories-api-openapi.yml
 - filename: codeclimate-services-api-openapi.yml
   format: yaml
   label: Code Climate Services API
   slug: codeclimate-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeclimate/refs/heads/main/openapi/codeclimate-services-api-openapi.yml
+  url: https://artifacts.apis.io/codeclimate/openapi/codeclimate-services-api-openapi.yml
 - filename: codeclimate-snapshots-api-openapi.yml
   format: yaml
   label: Code Climate Snapshots API
   slug: codeclimate-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeclimate/refs/heads/main/openapi/codeclimate-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/codeclimate/openapi/codeclimate-snapshots-api-openapi.yml
 - filename: codeclimate-test-coverage-api-openapi.yml
   format: yaml
   label: Code Climate Test Coverage API
   slug: codeclimate-test-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeclimate/refs/heads/main/openapi/codeclimate-test-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/codeclimate/openapi/codeclimate-test-coverage-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: codeclimate-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/codeclimate-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: TokenAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Personal access token passed as `Authorization: Token token={TOKEN}`.'\n  sources:\n  - openapi/codeclimate-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codeclimate/refs/heads/main/authentication/codeclimate-authentication.yml
+source_yaml_url: https://artifacts.apis.io/codeclimate/authentication/codeclimate-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Code Quality

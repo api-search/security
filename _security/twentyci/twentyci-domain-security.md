@@ -5,55 +5,55 @@ api_specs:
   label: TwentyCi Address Match API
   slug: twentyci-address-match-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-address-match-api-openapi.yml
+  url: https://artifacts.apis.io/twentyci/openapi/twentyci-address-match-api-openapi.yml
 - filename: twentyci-agent-performance-api-openapi.yml
   format: yaml
   label: TwentyCi Agent Performance API
   slug: twentyci-agent-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-agent-performance-api-openapi.yml
+  url: https://artifacts.apis.io/twentyci/openapi/twentyci-agent-performance-api-openapi.yml
 - filename: twentyci-authorisation-api-openapi.yml
   format: yaml
   label: TwentyCi Authorisation API
   slug: twentyci-authorisation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-authorisation-api-openapi.yml
+  url: https://artifacts.apis.io/twentyci/openapi/twentyci-authorisation-api-openapi.yml
 - filename: twentyci-categories-api-openapi.yml
   format: yaml
   label: TwentyCi Categories API
   slug: twentyci-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-categories-api-openapi.yml
+  url: https://artifacts.apis.io/twentyci/openapi/twentyci-categories-api-openapi.yml
 - filename: twentyci-properties-api-openapi.yml
   format: yaml
   label: TwentyCi Properties API
   slug: twentyci-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-properties-api-openapi.yml
+  url: https://artifacts.apis.io/twentyci/openapi/twentyci-properties-api-openapi.yml
 - filename: twentyci-schools-api-openapi.yml
   format: yaml
   label: TwentyCi Schools API
   slug: twentyci-schools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-schools-api-openapi.yml
+  url: https://artifacts.apis.io/twentyci/openapi/twentyci-schools-api-openapi.yml
 - filename: twentyci-this-is-now-retail-propensity-to-buy-goods-api-openapi.yml
   format: yaml
   label: TwentyCi This is Now | Retail Propensity To Buy Goods API
   slug: twentyci-this-is-now-retail-propensity-to-buy-goods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-this-is-now-retail-propensity-to-buy-goods-api-openapi.yml
+  url: https://artifacts.apis.io/twentyci/openapi/twentyci-this-is-now-retail-propensity-to-buy-goods-api-openapi.yml
 - filename: twentyci-trigger-information-api-openapi.yml
   format: yaml
   label: TwentyCi Trigger Information API
   slug: twentyci-trigger-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-trigger-information-api-openapi.yml
+  url: https://artifacts.apis.io/twentyci/openapi/twentyci-trigger-information-api-openapi.yml
 - filename: twentyci-uk-housing-market-metrics-api-openapi.yml
   format: yaml
   label: TwentyCi UK Housing Market Metrics API
   slug: twentyci-uk-housing-market-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-uk-housing-market-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/twentyci/openapi/twentyci-uk-housing-market-metrics-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ source_filename: twentyci-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.twentyci.co.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.twentyci.co.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: twentyci.co.uk\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/security/twentyci-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/twentyci/security/twentyci-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Real Estate

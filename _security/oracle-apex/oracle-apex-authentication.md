@@ -7,61 +7,61 @@ api_specs:
   label: Oracle APEX AutoREST API
   slug: oracle-apex-autorest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/openapi/oracle-apex-autorest-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-apex/openapi/oracle-apex-autorest-api-openapi.yml
 - filename: oracle-apex-handlers-api-openapi.yml
   format: yaml
   label: Oracle APEX Handlers API
   slug: oracle-apex-handlers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/openapi/oracle-apex-handlers-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-apex/openapi/oracle-apex-handlers-api-openapi.yml
 - filename: oracle-apex-modules-api-openapi.yml
   format: yaml
   label: Oracle APEX Modules API
   slug: oracle-apex-modules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/openapi/oracle-apex-modules-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-apex/openapi/oracle-apex-modules-api-openapi.yml
 - filename: oracle-apex-oauth-clients-api-openapi.yml
   format: yaml
   label: Oracle APEX OAuth Clients API
   slug: oracle-apex-oauth-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/openapi/oracle-apex-oauth-clients-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-apex/openapi/oracle-apex-oauth-clients-api-openapi.yml
 - filename: oracle-apex-overview-api-openapi.yml
   format: yaml
   label: Oracle APEX Overview API
   slug: oracle-apex-overview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/openapi/oracle-apex-overview-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-apex/openapi/oracle-apex-overview-api-openapi.yml
 - filename: oracle-apex-parameters-api-openapi.yml
   format: yaml
   label: Oracle APEX Parameters API
   slug: oracle-apex-parameters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/openapi/oracle-apex-parameters-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-apex/openapi/oracle-apex-parameters-api-openapi.yml
 - filename: oracle-apex-privileges-api-openapi.yml
   format: yaml
   label: Oracle APEX Privileges API
   slug: oracle-apex-privileges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/openapi/oracle-apex-privileges-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-apex/openapi/oracle-apex-privileges-api-openapi.yml
 - filename: oracle-apex-properties-api-openapi.yml
   format: yaml
   label: Oracle APEX Properties API
   slug: oracle-apex-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/openapi/oracle-apex-properties-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-apex/openapi/oracle-apex-properties-api-openapi.yml
 - filename: oracle-apex-roles-api-openapi.yml
   format: yaml
   label: Oracle APEX Roles API
   slug: oracle-apex-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/openapi/oracle-apex-roles-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-apex/openapi/oracle-apex-roles-api-openapi.yml
 - filename: oracle-apex-templates-api-openapi.yml
   format: yaml
   label: Oracle APEX Templates API
   slug: oracle-apex-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/openapi/oracle-apex-templates-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-apex/openapi/oracle-apex-templates-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -104,7 +104,7 @@ source_filename: oracle-apex-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ords-rest-api-openapi.json\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication using ORDS-enabled database schema credentials\n  sources:\n  - openapi/ords-rest-api-openapi.json\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /ords/{schema}/oauth/token\n    scopes: 0\n  - flow: authorizationCode\n    authorizationUrl: /ords/{schema}/oauth/auth\n    tokenUrl: /ords/{schema}/oauth/token\n    scopes: 0\n  description: OAuth 2.0 authorization using ORDS OAuth client credentials or authorization\n    code flow\n  sources:\n  - openapi/ords-rest-api-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/authentication/oracle-apex-authentication.yml
+source_yaml_url: https://artifacts.apis.io/oracle-apex/authentication/oracle-apex-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - APEX

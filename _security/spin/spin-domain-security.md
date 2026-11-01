@@ -28,7 +28,7 @@ source_filename: spin-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: spinframework.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 04:44:42 2026 GMT\n  hsts: false\ndomains:\n- domain: spinframework.dev\n  dnssec: true\n  caa:\n  - cloud-loadbalancer.fermyon.com.\n  - tf-lb-20230512100548813600000002-56f33b69e309d1c9.elb.us-east-1.amazonaws.com.\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spin/refs/heads/main/security/spin-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/spin/security/spin-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Cloud-Native

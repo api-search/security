@@ -8,55 +8,55 @@ api_specs:
   label: Sertifier Attributes API
   slug: sertifier-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sertifier/refs/heads/main/openapi/sertifier-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/sertifier/openapi/sertifier-attributes-api-openapi.yml
 - filename: sertifier-authentication-api-openapi.yml
   format: yaml
   label: Sertifier Authentication API
   slug: sertifier-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sertifier/refs/heads/main/openapi/sertifier-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sertifier/openapi/sertifier-authentication-api-openapi.yml
 - filename: sertifier-campaigns-api-openapi.yml
   format: yaml
   label: Sertifier Campaigns API
   slug: sertifier-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sertifier/refs/heads/main/openapi/sertifier-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/sertifier/openapi/sertifier-campaigns-api-openapi.yml
 - filename: sertifier-credentials-api-openapi.yml
   format: yaml
   label: Sertifier Credentials API
   slug: sertifier-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sertifier/refs/heads/main/openapi/sertifier-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/sertifier/openapi/sertifier-credentials-api-openapi.yml
 - filename: sertifier-designs-api-openapi.yml
   format: yaml
   label: Sertifier Designs API
   slug: sertifier-designs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sertifier/refs/heads/main/openapi/sertifier-designs-api-openapi.yml
+  url: https://artifacts.apis.io/sertifier/openapi/sertifier-designs-api-openapi.yml
 - filename: sertifier-details-api-openapi.yml
   format: yaml
   label: Sertifier Details API
   slug: sertifier-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sertifier/refs/heads/main/openapi/sertifier-details-api-openapi.yml
+  url: https://artifacts.apis.io/sertifier/openapi/sertifier-details-api-openapi.yml
 - filename: sertifier-email-templates-api-openapi.yml
   format: yaml
   label: Sertifier Email Templates API
   slug: sertifier-email-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sertifier/refs/heads/main/openapi/sertifier-email-templates-api-openapi.yml
+  url: https://artifacts.apis.io/sertifier/openapi/sertifier-email-templates-api-openapi.yml
 - filename: sertifier-recipients-api-openapi.yml
   format: yaml
   label: Sertifier Recipients API
   slug: sertifier-recipients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sertifier/refs/heads/main/openapi/sertifier-recipients-api-openapi.yml
+  url: https://artifacts.apis.io/sertifier/openapi/sertifier-recipients-api-openapi.yml
 - filename: sertifier-webhooks-api-openapi.yml
   format: yaml
   label: Sertifier Webhooks API
   slug: sertifier-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sertifier/refs/heads/main/openapi/sertifier-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/sertifier/openapi/sertifier-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -84,7 +84,7 @@ source_filename: sertifier-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sertifier-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: secretKey\n  type: apiKey\n  in: header\n  parameter: secretKey\n  description: Private API key obtained from the Sertifier web application under Settings >\n    API & Integrations (also referenced as Advanced > Integrations). Store it in a secrets vault;\n    never embed it in client-side JavaScript.\n  sources:\n  - openapi/sertifier-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sertifier/refs/heads/main/authentication/sertifier-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sertifier/authentication/sertifier-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Digital Credentials

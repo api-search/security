@@ -5,25 +5,25 @@ api_specs:
   label: Blowfish Download blocklist API
   slug: blowfish-download-blocklist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blowfish/refs/heads/main/openapi/blowfish-download-blocklist-api-openapi.yml
+  url: https://artifacts.apis.io/blowfish/openapi/blowfish-download-blocklist-api-openapi.yml
 - filename: blowfish-scan-domain-api-openapi.yml
   format: yaml
   label: Blowfish Scan domain API
   slug: blowfish-scan-domain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blowfish/refs/heads/main/openapi/blowfish-scan-domain-api-openapi.yml
+  url: https://artifacts.apis.io/blowfish/openapi/blowfish-scan-domain-api-openapi.yml
 - filename: blowfish-scan-message-api-openapi.yml
   format: yaml
   label: Blowfish Scan message API
   slug: blowfish-scan-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blowfish/refs/heads/main/openapi/blowfish-scan-message-api-openapi.yml
+  url: https://artifacts.apis.io/blowfish/openapi/blowfish-scan-message-api-openapi.yml
 - filename: blowfish-scan-transaction-api-openapi.yml
   format: yaml
   label: Blowfish Scan transaction API
   slug: blowfish-scan-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blowfish/refs/heads/main/openapi/blowfish-scan-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/blowfish/openapi/blowfish-scan-transaction-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -60,7 +60,7 @@ source_filename: blowfish-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: blowfish.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 19:47:27 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: free.api.blowfish.xyz\n  https: false\n- host: api.blowfish.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 19:47:27 2026 GMT\n  hsts: null\ndomains:\n- domain: blowfish.xyz\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blowfish/refs/heads/main/security/blowfish-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/blowfish/security/blowfish-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

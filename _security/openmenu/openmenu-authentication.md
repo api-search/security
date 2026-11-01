@@ -8,31 +8,31 @@ api_specs:
   label: OpenMenu Analytics API
   slug: openmenu-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/openapi/openmenu-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/openmenu/openapi/openmenu-analytics-api-openapi.yml
 - filename: openmenu-deals-api-openapi.yml
   format: yaml
   label: OpenMenu Deals API
   slug: openmenu-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/openapi/openmenu-deals-api-openapi.yml
+  url: https://artifacts.apis.io/openmenu/openapi/openmenu-deals-api-openapi.yml
 - filename: openmenu-ingredients-api-openapi.yml
   format: yaml
   label: OpenMenu Ingredients API
   slug: openmenu-ingredients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/openapi/openmenu-ingredients-api-openapi.yml
+  url: https://artifacts.apis.io/openmenu/openapi/openmenu-ingredients-api-openapi.yml
 - filename: openmenu-restaurants-api-openapi.yml
   format: yaml
   label: OpenMenu Restaurants API
   slug: openmenu-restaurants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/openapi/openmenu-restaurants-api-openapi.yml
+  url: https://artifacts.apis.io/openmenu/openapi/openmenu-restaurants-api-openapi.yml
 - filename: openmenu-search-api-openapi.yml
   format: yaml
   label: OpenMenu Search API
   slug: openmenu-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/openapi/openmenu-search-api-openapi.yml
+  url: https://artifacts.apis.io/openmenu/openapi/openmenu-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: openmenu-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openmenu-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: query\n  parameter: key\n  description: API key issued from your OpenMenu account, passed as the `key` query parameter\n    on every request. There is no Bearer token or custom header.\n  sources:\n  - openapi/openmenu-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/authentication/openmenu-authentication.yml
+source_yaml_url: https://artifacts.apis.io/openmenu/authentication/openmenu-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Restaurant

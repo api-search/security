@@ -8,73 +8,73 @@ api_specs:
   label: Fourthwall Collections API
   slug: fourthwall-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-collections-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-collections-api-openapi.yml
 - filename: fourthwall-gifting-api-openapi.yml
   format: yaml
   label: Fourthwall Gifting API
   slug: fourthwall-gifting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-gifting-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-gifting-api-openapi.yml
 - filename: fourthwall-giveaways-api-openapi.yml
   format: yaml
   label: Fourthwall Giveaways API
   slug: fourthwall-giveaways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-giveaways-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-giveaways-api-openapi.yml
 - filename: fourthwall-memberships-api-openapi.yml
   format: yaml
   label: Fourthwall Memberships API
   slug: fourthwall-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-memberships-api-openapi.yml
 - filename: fourthwall-orders-api-openapi.yml
   format: yaml
   label: Fourthwall Orders API
   slug: fourthwall-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-orders-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-orders-api-openapi.yml
 - filename: fourthwall-products-api-openapi.yml
   format: yaml
   label: Fourthwall Products API
   slug: fourthwall-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-products-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-products-api-openapi.yml
 - filename: fourthwall-promotions-api-openapi.yml
   format: yaml
   label: Fourthwall Promotions API
   slug: fourthwall-promotions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-promotions-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-promotions-api-openapi.yml
 - filename: fourthwall-storefront-carts-api-openapi.yml
   format: yaml
   label: Fourthwall Storefront Carts API
   slug: fourthwall-storefront-carts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-storefront-carts-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-storefront-carts-api-openapi.yml
 - filename: fourthwall-storefront-collections-api-openapi.yml
   format: yaml
   label: Fourthwall Storefront Collections API
   slug: fourthwall-storefront-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-storefront-collections-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-storefront-collections-api-openapi.yml
 - filename: fourthwall-storefront-products-api-openapi.yml
   format: yaml
   label: Fourthwall Storefront Products API
   slug: fourthwall-storefront-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-storefront-products-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-storefront-products-api-openapi.yml
 - filename: fourthwall-storefront-shop-api-openapi.yml
   format: yaml
   label: Fourthwall Storefront Shop API
   slug: fourthwall-storefront-shop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-storefront-shop-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-storefront-shop-api-openapi.yml
 - filename: fourthwall-webhooks-api-openapi.yml
   format: yaml
   label: Fourthwall Webhooks API
   slug: fourthwall-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -122,7 +122,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fourthwall-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  - oauth2\n  api_key_in:\n  - query\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: storefrontToken\n  type: apiKey\n  in: query\n  parameter: storefront_token\n  description: Public storefront token obtained from Settings > For Developers, passed as the\n    storefront_token query parameter on Storefront API requests.\n  sources:\n  - openapi/fourthwall-openapi.yml\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: Shop API key used with HTTP Basic Authentication against the Platform (Open)\n    API.\n  sources:\n  - openapi/fourthwall-openapi.yml\n- name: oauth\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.fourthwall.com/auth/realms/Fourthwall/protocol/openid-connect/auth\n    tokenUrl: https://api.fourthwall.com/open-api/v1.0/platform/token\n    scopes: 14\n  description: OAuth\
   \ 2.0 for multi-shop platform apps.\n  sources:\n  - openapi/fourthwall-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/authentication/fourthwall-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fourthwall/authentication/fourthwall-authentication.yml
 summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Creator Commerce

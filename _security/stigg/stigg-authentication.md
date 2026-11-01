@@ -8,25 +8,25 @@ api_specs:
   label: Stigg Coupons API
   slug: stigg-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stigg/refs/heads/main/openapi/stigg-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/stigg/openapi/stigg-coupons-api-openapi.yml
 - filename: stigg-customers-api-openapi.yml
   format: yaml
   label: Stigg Customers API
   slug: stigg-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stigg/refs/heads/main/openapi/stigg-customers-api-openapi.yml
+  url: https://artifacts.apis.io/stigg/openapi/stigg-customers-api-openapi.yml
 - filename: stigg-subscriptions-api-openapi.yml
   format: yaml
   label: Stigg Subscriptions API
   slug: stigg-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stigg/refs/heads/main/openapi/stigg-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/stigg/openapi/stigg-subscriptions-api-openapi.yml
 - filename: stigg-usage-api-openapi.yml
   format: yaml
   label: Stigg Usage API
   slug: stigg-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stigg/refs/heads/main/openapi/stigg-usage-api-openapi.yml
+  url: https://artifacts.apis.io/stigg/openapi/stigg-usage-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -55,7 +55,7 @@ source_filename: stigg-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/stigg-openapi.yml, openapi/stigg-rest-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKey\n  type: apiKey\n  in: header\n  parameter: X-API-KEY\n  description: Full access key from the Stigg dashboard (Integrations > API keys).\n  sources:\n  - openapi/stigg-openapi.yml\n  - openapi/stigg-rest-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stigg/refs/heads/main/authentication/stigg-authentication.yml
+source_yaml_url: https://artifacts.apis.io/stigg/authentication/stigg-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - FinOps

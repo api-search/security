@@ -7,37 +7,37 @@ api_specs:
   label: ClearSlide Insights API
   slug: clearslide-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/openapi/clearslide-insights-api-openapi.yml
+  url: https://artifacts.apis.io/clearslide/openapi/clearslide-insights-api-openapi.yml
 - filename: clearslide-links-api-openapi.yml
   format: yaml
   label: ClearSlide Links API
   slug: clearslide-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/openapi/clearslide-links-api-openapi.yml
+  url: https://artifacts.apis.io/clearslide/openapi/clearslide-links-api-openapi.yml
 - filename: clearslide-meetings-api-openapi.yml
   format: yaml
   label: ClearSlide Meetings API
   slug: clearslide-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/openapi/clearslide-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/clearslide/openapi/clearslide-meetings-api-openapi.yml
 - filename: clearslide-presentations-api-openapi.yml
   format: yaml
   label: ClearSlide Presentations API
   slug: clearslide-presentations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/openapi/clearslide-presentations-api-openapi.yml
+  url: https://artifacts.apis.io/clearslide/openapi/clearslide-presentations-api-openapi.yml
 - filename: clearslide-upload-api-openapi.yml
   format: yaml
   label: ClearSlide Upload API
   slug: clearslide-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/openapi/clearslide-upload-api-openapi.yml
+  url: https://artifacts.apis.io/clearslide/openapi/clearslide-upload-api-openapi.yml
 - filename: clearslide-users-api-openapi.yml
   format: yaml
   label: ClearSlide Users API
   slug: clearslide-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/openapi/clearslide-users-api-openapi.yml
+  url: https://artifacts.apis.io/clearslide/openapi/clearslide-users-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://d
   \ xxxx\"` in a curl example on the same page.\n  note: Two auth header conventions coexist on one host; the SCIM docs are internally inconsistent about the Bearer prefix.\nimpersonation:\n  header: targetUserId\n  required: true\n  applies_to: [GET /presentations, GET /insights, POST /upload]\n  description: >-\n    A required header naming the user on whose behalf the call operates. Authorisation is\n    therefore a function of the token AND this header, and the contract does not state what\n    constrains which users a given token may target.\nscopes:\n  values: [read, write]\n  granularity: coarse\n  cross_ref: scopes/clearslide-scopes.yml\n  note: >-\n    Two scopes for the entire platform, including SCIM user and group provisioning. There is no\n    scope separating directory administration from content read.\ndiscovery:\n  oauth_authorization_server_metadata: false\n  openid_configuration: false\n  evidence: >-\n    /.well-known/oauth-authorization-server and /.well-known/openid-configuration\
   \ return 404 on\n    every ClearSlide host. Endpoints are only discoverable from prose documentation.\nruntime_evidence:\n  method: probed\n  observations:\n  - url: https://oauth.platform.clearslide.com/oauth/token\n    method: POST\n    status: 401\n    www_authenticate: Basic realm=\"oauth2/client\"\n    server: Apache-Coyote/1.1\n    body_shape: '{timestamp, status, error, message, path}'\n    note: Spring Security OAuth authorization server.\n  - url: https://platform.clearslide.com/presentations\n    method: GET\n    status: 401\n    body: '{\"message\":\"Unauthorized\"}'\n    headers: {x-amzn-errortype: UnauthorizedException}\n    note: AWS API Gateway rejects unauthenticated calls at the edge before ClearSlide code runs.\ngaps:\n- The published contract declares no securityDefinitions, so no generated client can discover the auth model.\n- No PKCE (RFC 7636) is documented for the authorization code flow.\n- No token revocation (RFC 7009) or introspection (RFC 7662) endpoint is\
   \ documented.\n- Onboarding is manual and human-gated, so no agent can obtain credentials programmatically.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/authentication/clearslide-authentication.yml
+source_yaml_url: https://artifacts.apis.io/clearslide/authentication/clearslide-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

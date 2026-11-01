@@ -39,7 +39,7 @@ source_filename: mainstreet-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mainstreet.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 19:37:48 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: login.mainstreet.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 10:36:11 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: mainstreet.ai\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: mainstreet.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mainstreet/refs/heads/main/security/mainstreet-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mainstreet/security/mainstreet-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

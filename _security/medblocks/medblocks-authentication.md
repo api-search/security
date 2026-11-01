@@ -7,55 +7,55 @@ api_specs:
   label: Medblocks Certificates API
   slug: medblocks-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/medblocks/openapi/medblocks-certificates-api-openapi.yml
 - filename: medblocks-connections-api-openapi.yml
   format: yaml
   label: Medblocks Connections API
   slug: medblocks-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-connections-api-openapi.yml
+  url: https://artifacts.apis.io/medblocks/openapi/medblocks-connections-api-openapi.yml
 - filename: medblocks-events-api-openapi.yml
   format: yaml
   label: Medblocks Events API
   slug: medblocks-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-events-api-openapi.yml
+  url: https://artifacts.apis.io/medblocks/openapi/medblocks-events-api-openapi.yml
 - filename: medblocks-feeds-api-openapi.yml
   format: yaml
   label: Medblocks Feeds API
   slug: medblocks-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/medblocks/openapi/medblocks-feeds-api-openapi.yml
 - filename: medblocks-health-api-openapi.yml
   format: yaml
   label: Medblocks Health API
   slug: medblocks-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-health-api-openapi.yml
+  url: https://artifacts.apis.io/medblocks/openapi/medblocks-health-api-openapi.yml
 - filename: medblocks-launch-contexts-api-openapi.yml
   format: yaml
   label: Medblocks Launch Contexts API
   slug: medblocks-launch-contexts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-launch-contexts-api-openapi.yml
+  url: https://artifacts.apis.io/medblocks/openapi/medblocks-launch-contexts-api-openapi.yml
 - filename: medblocks-patient-sessions-api-openapi.yml
   format: yaml
   label: Medblocks Patient Sessions API
   slug: medblocks-patient-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-patient-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/medblocks/openapi/medblocks-patient-sessions-api-openapi.yml
 - filename: medblocks-patients-api-openapi.yml
   format: yaml
   label: Medblocks Patients API
   slug: medblocks-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-patients-api-openapi.yml
+  url: https://artifacts.apis.io/medblocks/openapi/medblocks-patients-api-openapi.yml
 - filename: medblocks-webhooks-api-openapi.yml
   format: yaml
   label: Medblocks Webhooks API
   slug: medblocks-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/medblocks/openapi/medblocks-webhooks-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -158,7 +158,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: searched\nsource: >-\n  https://m
   \  - {status: 429, code: api_key_limit_exceeded, meaning: organization has reached its active API key cap}\n- name: MedblocksOAuth\n  type: oauth2\n  applies_to: mcp\n  flows:\n    authorizationCode:\n      authorizationUrl: https://app.medblocks.com/api/auth/oauth2/authorize\n      tokenUrl: https://app.medblocks.com/api/auth/oauth2/token\n      refreshUrl: https://app.medblocks.com/api/auth/oauth2/token\n      pkce: S256\n  additional_grants: [client_credentials, refresh_token]\n  dynamic_client_registration: https://app.medblocks.com/api/auth/oauth2/register\n  scopes_artifact: scopes/medblocks-scopes.yml\n  sources:\n  - https://app.medblocks.com/.well-known/oauth-authorization-server\n  note: >-\n    Not declared in the OpenAPI document. Discovered from the provider's RFC 8414 metadata and\n    the RFC 9728 challenge the MCP endpoint returns.\n- name: MedblocksOIDC\n  type: openIdConnect\n  openIdConnectUrl: https://app.medblocks.com/.well-known/openid-configuration\n  applies_to:\
   \ mcp\n  id_token_signing_alg: [EdDSA]\n  claims: [sub, iss, aud, exp, iat, sid, scope, azp, email, email_verified, name, picture, family_name, given_name]\n  sources:\n  - https://app.medblocks.com/.well-known/openid-configuration\nupstream_authentication:\n  note: >-\n    Distinct from calling Medblocks. Medblocks itself authenticates to the EHRs and payers on\n    the customer's behalf. Patient-mediated sources use per-patient OAuth against the source's\n    portal; backend/bulk sources use SMART Backend Services with a customer-supplied private\n    key. Source client secrets and SMART private keys are configured server-side in Medblocks\n    under Configure connections, never in browser code.\n  docs: https://medblocks.com/docs/configure-connections\nsecret_handling:\n  rules:\n  - Keep MEDBLOCKS_API_KEY server-side only; the frontend calls your backend and your backend calls Medblocks.\n  - Never place an API key in a URL, prompt, tool argument, browser bundle or log.\n  - Webhook\
   \ signing secrets, source client secrets, SMART private keys and export-destination credentials are all server-side secrets.\n  - Do not log API keys, webhook secrets, bearer tokens, access tokens, or full FHIR resources.\n  docs: https://medblocks.com/docs/security-and-compliance\nrevocation:\n  api_key: Rotate or revoke from Dashboard > Settings > API Keys.\n  oauth: >-\n    Dashboard > Settings > MCP server revokes an AI assistant's access; already-issued access\n    expires within an hour.\n  webhook_secret: POST /webhooks/{id}/rotate-secret (api.rotateWebhookSecret).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/authentication/medblocks-authentication.yml
+source_yaml_url: https://artifacts.apis.io/medblocks/authentication/medblocks-authentication.yml
 summary_line: http/oauth2/openIdConnect · 3 schemes
 tags:
 - Health

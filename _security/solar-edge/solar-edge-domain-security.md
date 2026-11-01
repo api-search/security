@@ -5,55 +5,55 @@ api_specs:
   label: SolarEdge Accounts API
   slug: solar-edge-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/openapi/solar-edge-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/solar-edge/openapi/solar-edge-accounts-api-openapi.yml
 - filename: solar-edge-energy-api-openapi.yml
   format: yaml
   label: SolarEdge Energy API
   slug: solar-edge-energy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/openapi/solar-edge-energy-api-openapi.yml
+  url: https://artifacts.apis.io/solar-edge/openapi/solar-edge-energy-api-openapi.yml
 - filename: solar-edge-environmental-api-openapi.yml
   format: yaml
   label: SolarEdge Environmental API
   slug: solar-edge-environmental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/openapi/solar-edge-environmental-api-openapi.yml
+  url: https://artifacts.apis.io/solar-edge/openapi/solar-edge-environmental-api-openapi.yml
 - filename: solar-edge-equipment-api-openapi.yml
   format: yaml
   label: SolarEdge Equipment API
   slug: solar-edge-equipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/openapi/solar-edge-equipment-api-openapi.yml
+  url: https://artifacts.apis.io/solar-edge/openapi/solar-edge-equipment-api-openapi.yml
 - filename: solar-edge-power-api-openapi.yml
   format: yaml
   label: SolarEdge Power API
   slug: solar-edge-power-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/openapi/solar-edge-power-api-openapi.yml
+  url: https://artifacts.apis.io/solar-edge/openapi/solar-edge-power-api-openapi.yml
 - filename: solar-edge-sites-api-openapi.yml
   format: yaml
   label: SolarEdge Sites API
   slug: solar-edge-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/openapi/solar-edge-sites-api-openapi.yml
+  url: https://artifacts.apis.io/solar-edge/openapi/solar-edge-sites-api-openapi.yml
 - filename: solar-edge-storage-api-openapi.yml
   format: yaml
   label: SolarEdge Storage API
   slug: solar-edge-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/openapi/solar-edge-storage-api-openapi.yml
+  url: https://artifacts.apis.io/solar-edge/openapi/solar-edge-storage-api-openapi.yml
 - filename: solar-edge-version-api-openapi.yml
   format: yaml
   label: SolarEdge Version API
   slug: solar-edge-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/openapi/solar-edge-version-api-openapi.yml
+  url: https://artifacts.apis.io/solar-edge/openapi/solar-edge-version-api-openapi.yml
 - filename: solar-edge-account-api-openapi.yml
   format: yaml
   label: SolarEdge Account API
   slug: solar-edge-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/openapi/solar-edge-account-api-openapi.yml
+  url: https://artifacts.apis.io/solar-edge/openapi/solar-edge-account-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -98,7 +98,7 @@ source_filename: solar-edge-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.solaredge.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 23 23:59:59 2027 GMT\n  hsts: null\n- host: developers.solaredge.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 23 23:59:59 2027 GMT\n  hsts: null\n- host: monitoringapi.solaredge.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 23 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: solaredge.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/security/solar-edge-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/solar-edge/security/solar-edge-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Solar

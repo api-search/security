@@ -8,7 +8,7 @@ api_specs:
   label: Amazon Mechanical Turk Amazon Mechanical Turk API
   slug: amazon-mechanical-turk-amazon-mechanical-turk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mechanical-turk/refs/heads/main/openapi/amazon-mechanical-turk-amazon-mechanical-turk-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mechanical-turk/openapi/amazon-mechanical-turk-amazon-mechanical-turk-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: amazon-mechanical-turk-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-mechanical-turk-openapi-original.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-mechanical-turk-openapi-original.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-mechanical-turk/refs/heads/main/authentication/amazon-mechanical-turk-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-mechanical-turk/authentication/amazon-mechanical-turk-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Crowdsourcing

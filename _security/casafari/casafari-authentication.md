@@ -7,67 +7,67 @@ api_specs:
   label: Casafari API and MCP Platform Alerts API Feeds API
   slug: casafari-alerts-api-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casafari/refs/heads/main/openapi/casafari-alerts-api-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/casafari/openapi/casafari-alerts-api-feeds-api-openapi.yml
 - filename: casafari-alerts-api-webhooks-api-openapi.yml
   format: yaml
   label: Casafari API and MCP Platform Alerts API Webhooks API
   slug: casafari-alerts-api-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casafari/refs/heads/main/openapi/casafari-alerts-api-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/casafari/openapi/casafari-alerts-api-webhooks-api-openapi.yml
 - filename: casafari-api-alerts-api-openapi.yml
   format: yaml
   label: Casafari API and MCP Platform API Alerts API
   slug: casafari-api-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casafari/refs/heads/main/openapi/casafari-api-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/casafari/openapi/casafari-api-alerts-api-openapi.yml
 - filename: casafari-api-comparables-api-openapi.yml
   format: yaml
   label: Casafari API and MCP Platform API Comparables API
   slug: casafari-api-comparables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casafari/refs/heads/main/openapi/casafari-api-comparables-api-openapi.yml
+  url: https://artifacts.apis.io/casafari/openapi/casafari-api-comparables-api-openapi.yml
 - filename: casafari-api-properties-api-openapi.yml
   format: yaml
   label: Casafari API and MCP Platform API Properties API
   slug: casafari-api-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casafari/refs/heads/main/openapi/casafari-api-properties-api-openapi.yml
+  url: https://artifacts.apis.io/casafari/openapi/casafari-api-properties-api-openapi.yml
 - filename: casafari-api-references-api-openapi.yml
   format: yaml
   label: Casafari API and MCP Platform API References API
   slug: casafari-api-references-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casafari/refs/heads/main/openapi/casafari-api-references-api-openapi.yml
+  url: https://artifacts.apis.io/casafari/openapi/casafari-api-references-api-openapi.yml
 - filename: casafari-api-valuation-api-openapi.yml
   format: yaml
   label: Casafari API and MCP Platform API Valuation API
   slug: casafari-api-valuation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casafari/refs/heads/main/openapi/casafari-api-valuation-api-openapi.yml
+  url: https://artifacts.apis.io/casafari/openapi/casafari-api-valuation-api-openapi.yml
 - filename: casafari-market-analytics-api-analysis-api-openapi.yml
   format: yaml
   label: Casafari API and MCP Platform Market Analytics API Analysis API
   slug: casafari-market-analytics-api-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casafari/refs/heads/main/openapi/casafari-market-analytics-api-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/casafari/openapi/casafari-market-analytics-api-analysis-api-openapi.yml
 - filename: casafari-market-analytics-api-distributions-api-openapi.yml
   format: yaml
   label: Casafari API and MCP Platform Market Analytics API Distributions API
   slug: casafari-market-analytics-api-distributions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casafari/refs/heads/main/openapi/casafari-market-analytics-api-distributions-api-openapi.yml
+  url: https://artifacts.apis.io/casafari/openapi/casafari-market-analytics-api-distributions-api-openapi.yml
 - filename: casafari-market-analytics-api-time-series-api-openapi.yml
   format: yaml
   label: Casafari API and MCP Platform market-analytics-api---time series API
   slug: casafari-market-analytics-api-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casafari/refs/heads/main/openapi/casafari-market-analytics-api-time-series-api-openapi.yml
+  url: https://artifacts.apis.io/casafari/openapi/casafari-market-analytics-api-time-series-api-openapi.yml
 - filename: casafari-user-management-authentication-api-openapi.yml
   format: yaml
   label: Casafari API and MCP Platform User Management Authentication API
   slug: casafari-user-management-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casafari/refs/heads/main/openapi/casafari-user-management-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/casafari/openapi/casafari-user-management-authentication-api-openapi.yml
 auth_types: []
 description: Authentication methods for Casafari MCP and REST APIs as documented.
 kind: authentication
@@ -107,7 +107,7 @@ source_heading: Authentication Profile
 source_url: https://developers.casafari.com/docs/authentication.md
 source_yaml: "generated: '2026-10-15'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://developers.casafari.com/docs/authentication.md\nsources:\n- https://developers.casafari.com/docs/authentication.md\n- https://developers.casafari.com/docs/rest/authentication/login.md\n- https://developers.casafari.com/docs/rest/authentication/refresh-token.md\n- https://developers.casafari.com/docs/faq/how-authentication-works.md\ndescription: Authentication methods for Casafari MCP and REST APIs as documented.\nschemes:\n- type: oauth2\n  name: Casafari MCP OAuth2\n  evidence: Casafari MCP uses OAuth 2.1 sign-in with no API key; the Casafari MCP server uses no OAuth scopes, and REST signs in with separate\n    credentials.\n  flows:\n  - authorization_code\n  - client_credentials\n  how_to_obtain: Register a client via the registration endpoint to obtain a client_id (and client_secret for client credentials). Include the\n    resource parameter from the protected resource\
   \ metadata in all requests.\n- type: http-bearer\n  name: Authorization\n  evidence: 'Call the server with `Authorization: Bearer <access_token>`.'\n  location: header\n  header: Authorization\n  how_to_obtain: Obtain an access token by POSTing email and password to `https://api.casafari.com/login` (REST API) or via the OAuth flows for\n    MCP.\n- type: apiKey\n  name: X-API-Key\n  evidence: 'The platform''s REST API takes an API key (`cf_sk_…`) in the `X-API-Key` header or as `Authorization: Bearer <api_key>`.'\n  location: header\n  header: X-API-Key\n  how_to_obtain: Generate an API key in the Casafari account dashboard and include it in the request header.\ndocs: https://developers.casafari.com/docs/authentication.md\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/casafari/refs/heads/main/authentication/casafari-authentication.yml
+source_yaml_url: https://artifacts.apis.io/casafari/authentication/casafari-authentication.yml
 summary_line: 3 schemes
 tags:
 - Real Estate Data

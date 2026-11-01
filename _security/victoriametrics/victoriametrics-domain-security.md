@@ -5,31 +5,31 @@ api_specs:
   label: VictoriaMetrics Admin API
   slug: victoriametrics-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/victoriametrics/refs/heads/main/openapi/victoriametrics-admin-api-openapi.yml
+  url: https://artifacts.apis.io/victoriametrics/openapi/victoriametrics-admin-api-openapi.yml
 - filename: victoriametrics-export-api-openapi.yml
   format: yaml
   label: VictoriaMetrics Export API
   slug: victoriametrics-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/victoriametrics/refs/heads/main/openapi/victoriametrics-export-api-openapi.yml
+  url: https://artifacts.apis.io/victoriametrics/openapi/victoriametrics-export-api-openapi.yml
 - filename: victoriametrics-import-api-openapi.yml
   format: yaml
   label: VictoriaMetrics Import API
   slug: victoriametrics-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/victoriametrics/refs/heads/main/openapi/victoriametrics-import-api-openapi.yml
+  url: https://artifacts.apis.io/victoriametrics/openapi/victoriametrics-import-api-openapi.yml
 - filename: victoriametrics-query-api-openapi.yml
   format: yaml
   label: VictoriaMetrics Query API
   slug: victoriametrics-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/victoriametrics/refs/heads/main/openapi/victoriametrics-query-api-openapi.yml
+  url: https://artifacts.apis.io/victoriametrics/openapi/victoriametrics-query-api-openapi.yml
 - filename: victoriametrics-third-party-api-openapi.yml
   format: yaml
   label: VictoriaMetrics Third-Party API
   slug: victoriametrics-third-party-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/victoriametrics/refs/heads/main/openapi/victoriametrics-third-party-api-openapi.yml
+  url: https://artifacts.apis.io/victoriametrics/openapi/victoriametrics-third-party-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -71,7 +71,7 @@ source_filename: victoriametrics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: victoriametrics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 02:46:41 2026 GMT\n  hsts: true\n  hsts_max_age: 15724800\n- host: docs.victoriametrics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 05:24:42 2026 GMT\n  hsts: true\n  hsts_max_age: 15724800\ndomains:\n- domain: victoriametrics.com\n  dnssec: true\n  caa:\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"pki.goog\"\n  - 0 iodef \"mailto:security@victoriametrics.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/victoriametrics/refs/heads/main/security/victoriametrics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/victoriametrics/security/victoriametrics-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Database

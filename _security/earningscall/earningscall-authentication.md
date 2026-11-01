@@ -2,48 +2,54 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
+- filename: earningscall-openapi-generated.yml
+  format: yaml
+  label: EarningsCall API
+  slug: earningscall-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/earningscall/openapi/_ae-authored/earningscall-openapi-generated.yml
 - filename: earningscall-audio-api-openapi.yml
   format: yaml
   label: EarningsCall Audio API
   slug: earningscall-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/earningscall/refs/heads/main/openapi/earningscall-audio-api-openapi.yml
+  url: https://artifacts.apis.io/earningscall/openapi/earningscall-audio-api-openapi.yml
 - filename: earningscall-calendar-api-openapi.yml
   format: yaml
   label: EarningsCall Calendar API
   slug: earningscall-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/earningscall/refs/heads/main/openapi/earningscall-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/earningscall/openapi/earningscall-calendar-api-openapi.yml
 - filename: earningscall-events-api-openapi.yml
   format: yaml
   label: EarningsCall Events API
   slug: earningscall-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/earningscall/refs/heads/main/openapi/earningscall-events-api-openapi.yml
+  url: https://artifacts.apis.io/earningscall/openapi/earningscall-events-api-openapi.yml
 - filename: earningscall-live-api-openapi.yml
   format: yaml
   label: EarningsCall Live API
   slug: earningscall-live-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/earningscall/refs/heads/main/openapi/earningscall-live-api-openapi.yml
+  url: https://artifacts.apis.io/earningscall/openapi/earningscall-live-api-openapi.yml
 - filename: earningscall-slides-api-openapi.yml
   format: yaml
   label: EarningsCall Slides API
   slug: earningscall-slides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/earningscall/refs/heads/main/openapi/earningscall-slides-api-openapi.yml
+  url: https://artifacts.apis.io/earningscall/openapi/earningscall-slides-api-openapi.yml
 - filename: earningscall-symbols-api-openapi.yml
   format: yaml
   label: EarningsCall Symbols API
   slug: earningscall-symbols-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/earningscall/refs/heads/main/openapi/earningscall-symbols-api-openapi.yml
+  url: https://artifacts.apis.io/earningscall/openapi/earningscall-symbols-api-openapi.yml
 - filename: earningscall-transcript-api-openapi.yml
   format: yaml
   label: EarningsCall Transcript API
   slug: earningscall-transcript-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/earningscall/refs/heads/main/openapi/earningscall-transcript-api-openapi.yml
+  url: https://artifacts.apis.io/earningscall/openapi/earningscall-transcript-api-openapi.yml
 auth_types: []
 description: Every request to the EarningsCall API must include an API key. You can send it as a query parameter or as the x-api-key header.
 kind: authentication
@@ -75,7 +81,7 @@ source_heading: Authentication Profile
 source_url: https://earningscall.biz/docs/authentication
 source_yaml: "generated: '2026-10-16'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://earningscall.biz/docs/authentication\nsources:\n- https://earningscall.biz/docs/authentication\ndescription: Every request to the EarningsCall API must include an API key. You can send it as a query parameter or as the x-api-key header.\nschemes:\n- type: apiKey\n  name: API Key (query)\n  evidence: Every request to the EarningsCall API must include an API key. You can send it as a query parameter or as the x-api-key header.\n  location: query\n  how_to_obtain: Your account dashboard has a single API key tied to your subscription plan.\n- type: apiKey\n  name: API Key (header)\n  evidence: Every request to the EarningsCall API must include an API key. You can send it as a query parameter or as the x-api-key header.\n  location: header\n  header: x-api-key\n  how_to_obtain: Your account dashboard has a single API key tied to your subscription plan.\nnote: The reserved demo\
   \ key \"demo\" can be used without sign‑up.\ndocs: https://earningscall.biz/docs/authentication\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/earningscall/refs/heads/main/authentication/earningscall-authentication.yml
+source_yaml_url: https://artifacts.apis.io/earningscall/authentication/earningscall-authentication.yml
 summary_line: 2 schemes
 tags:
 - Company

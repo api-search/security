@@ -28,7 +28,7 @@ source_filename: quantum-space-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.quantumspaceinc.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 16:06:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: quantumspaceinc.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quantum-space/refs/heads/main/security/quantum-space-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/quantum-space/security/quantum-space-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Space

@@ -5,43 +5,73 @@ api_specs:
   label: TheMealDB Categories.php API
   slug: mealdb-categories-php-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-categories-php-api-openapi.yml
+  url: https://artifacts.apis.io/mealdb/openapi/mealdb-categories-php-api-openapi.yml
 - filename: mealdb-filter-php-api-openapi.yml
   format: yaml
   label: TheMealDB Filter.php API
   slug: mealdb-filter-php-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-filter-php-api-openapi.yml
+  url: https://artifacts.apis.io/mealdb/openapi/mealdb-filter-php-api-openapi.yml
 - filename: mealdb-list-php-api-openapi.yml
   format: yaml
   label: TheMealDB List.php API
   slug: mealdb-list-php-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-list-php-api-openapi.yml
+  url: https://artifacts.apis.io/mealdb/openapi/mealdb-list-php-api-openapi.yml
 - filename: mealdb-lookup-php-api-openapi.yml
   format: yaml
   label: TheMealDB Lookup.php API
   slug: mealdb-lookup-php-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-lookup-php-api-openapi.yml
+  url: https://artifacts.apis.io/mealdb/openapi/mealdb-lookup-php-api-openapi.yml
 - filename: mealdb-premium-api-openapi.yml
   format: yaml
   label: TheMealDB Premium API
   slug: mealdb-premium-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-premium-api-openapi.yml
+  url: https://artifacts.apis.io/mealdb/openapi/mealdb-premium-api-openapi.yml
 - filename: mealdb-random-php-api-openapi.yml
   format: yaml
   label: TheMealDB Random.php API
   slug: mealdb-random-php-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-random-php-api-openapi.yml
+  url: https://artifacts.apis.io/mealdb/openapi/mealdb-random-php-api-openapi.yml
 - filename: mealdb-search-php-api-openapi.yml
   format: yaml
   label: TheMealDB Search.php API
   slug: mealdb-search-php-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-search-php-api-openapi.yml
+  url: https://artifacts.apis.io/mealdb/openapi/mealdb-search-php-api-openapi.yml
+- filename: mealdb-discovery-api-openapi.yml
+  format: yaml
+  label: TheMealDB Discovery API
+  slug: mealdb-discovery-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mealdb/openapi/mealdb-discovery-api-openapi.yml
+- filename: mealdb-filter-api-openapi.yml
+  format: yaml
+  label: TheMealDB Filter API
+  slug: mealdb-filter-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mealdb/openapi/mealdb-filter-api-openapi.yml
+- filename: mealdb-lists-api-openapi.yml
+  format: yaml
+  label: TheMealDB Lists API
+  slug: mealdb-lists-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mealdb/openapi/mealdb-lists-api-openapi.yml
+- filename: mealdb-lookup-api-openapi.yml
+  format: yaml
+  label: TheMealDB Lookup API
+  slug: mealdb-lookup-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mealdb/openapi/mealdb-lookup-api-openapi.yml
+- filename: mealdb-search-api-openapi.yml
+  format: yaml
+  label: TheMealDB Search API
+  slug: mealdb-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mealdb/openapi/mealdb-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +100,7 @@ source_filename: mealdb-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.themealdb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 01:51:06 2026 GMT\n  hsts: true\n  hsts_max_age: 0\ndomains:\n- domain: themealdb.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/security/mealdb-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mealdb/security/mealdb-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Food

@@ -5,43 +5,43 @@ api_specs:
   label: Endor Labs Authentication API
   slug: endor-labs-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/endor-labs/openapi/endor-labs-authentication-api-openapi.yml
 - filename: endor-labs-findings-api-openapi.yml
   format: yaml
   label: Endor Labs Findings API
   slug: endor-labs-findings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-findings-api-openapi.yml
+  url: https://artifacts.apis.io/endor-labs/openapi/endor-labs-findings-api-openapi.yml
 - filename: endor-labs-namespaces-api-openapi.yml
   format: yaml
   label: Endor Labs Namespaces API
   slug: endor-labs-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/endor-labs/openapi/endor-labs-namespaces-api-openapi.yml
 - filename: endor-labs-packages-api-openapi.yml
   format: yaml
   label: Endor Labs Packages API
   slug: endor-labs-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-packages-api-openapi.yml
+  url: https://artifacts.apis.io/endor-labs/openapi/endor-labs-packages-api-openapi.yml
 - filename: endor-labs-policies-api-openapi.yml
   format: yaml
   label: Endor Labs Policies API
   slug: endor-labs-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-policies-api-openapi.yml
+  url: https://artifacts.apis.io/endor-labs/openapi/endor-labs-policies-api-openapi.yml
 - filename: endor-labs-projects-api-openapi.yml
   format: yaml
   label: Endor Labs Projects API
   slug: endor-labs-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-projects-api-openapi.yml
+  url: https://artifacts.apis.io/endor-labs/openapi/endor-labs-projects-api-openapi.yml
 - filename: endor-labs-scan-results-api-openapi.yml
   format: yaml
   label: Endor Labs Scan Results API
   slug: endor-labs-scan-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-scan-results-api-openapi.yml
+  url: https://artifacts.apis.io/endor-labs/openapi/endor-labs-scan-results-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -88,7 +88,7 @@ source_filename: endor-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.endorlabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 12 09:54:30 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.endorlabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 10:27:54 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.endorlabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 11:44:38 2026 GMT\n  hsts: null\ndomains:\n- domain: endorlabs.com\n  dnssec: true\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/security/endor-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/endor-labs/security/endor-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Security

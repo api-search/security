@@ -33,7 +33,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://doc.modelbit.com/deployments/calling-the-rest-api/\ndocs: https://doc.modelbit.com/deployments/calling-the-rest-api/using-api-keys/\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  notes: >-\n    Modelbit deployments are called as REST inference endpoints. Access can be\n    restricted with API keys created in the Settings area of the Modelbit\n    workspace; the key is sent to the deployment in the HTTP Authorization\n    header. The Python SDK (modelbit) authenticates the developer session via an\n    interactive login flow (mb.login()) rather than a static key.\nschemes:\n  - name: DeploymentApiKey\n    type: apiKey\n    in: header\n    parameter_name: Authorization\n    description: >-\n      API key created in Modelbit Settings and passed in the Authorization\n      header of REST inference requests to a deployment. Keys can be scoped to\n      limit access to deployed models.\n    source: https://doc.modelbit.com/deployments/calling-the-rest-api/using-api-keys/\n\
   \  - name: SdkLogin\n    type: session\n    description: >-\n      The modelbit Python package establishes an authenticated session via\n      mb.login() (browser/token based) for training-job, dataset, model-registry\n      and deployment operations from a notebook or CI environment.\n    source: https://doc.modelbit.com/api-reference/login/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/modelbit/refs/heads/main/authentication/modelbit-authentication.yml
+source_yaml_url: https://artifacts.apis.io/modelbit/authentication/modelbit-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company

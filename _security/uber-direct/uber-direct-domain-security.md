@@ -5,7 +5,7 @@ api_specs:
   label: Uber Direct Customers API
   slug: uber-direct-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber-direct/refs/heads/main/openapi/uber-direct-customers-api-openapi.yml
+  url: https://artifacts.apis.io/uber-direct/openapi/uber-direct-customers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -44,7 +44,7 @@ source_filename: uber-direct-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.uber.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 16 23:59:59 2027 GMT\n  hsts: null\n- host: developer.uber.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 16 23:59:59 2027 GMT\n  hsts: null\n- host: api.uber.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 16 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: uber.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uber-direct/refs/heads/main/security/uber-direct-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/uber-direct/security/uber-direct-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Logistics

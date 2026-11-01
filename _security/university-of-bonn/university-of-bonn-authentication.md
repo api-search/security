@@ -7,25 +7,25 @@ api_specs:
   label: University of Bonn Datasets API
   slug: university-of-bonn-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/openapi/university-of-bonn-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-bonn/openapi/university-of-bonn-datasets-api-openapi.yml
 - filename: university-of-bonn-info-api-openapi.yml
   format: yaml
   label: University of Bonn Info API
   slug: university-of-bonn-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/openapi/university-of-bonn-info-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-bonn/openapi/university-of-bonn-info-api-openapi.yml
 - filename: university-of-bonn-metrics-api-openapi.yml
   format: yaml
   label: University of Bonn Metrics API
   slug: university-of-bonn-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/openapi/university-of-bonn-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-bonn/openapi/university-of-bonn-metrics-api-openapi.yml
 - filename: university-of-bonn-search-api-openapi.yml
   format: yaml
   label: University of Bonn Search API
   slug: university-of-bonn-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/openapi/university-of-bonn-search-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-bonn/openapi/university-of-bonn-search-api-openapi.yml
 auth_types:
 - none
 - saml2
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-09-01'\nmethod: probed\nsource: >-\n  Live HTTP p
   \ and Authorization Infrastructure)\n  federation_metadata: https://mdq.aai.dfn.de/entities/\n  registration_authority: https://www.aai.dfn.de\n  entity_categories:\n  - DFN-AAI-IdP\n  - http://aai.dfn.de/category/idm.nrw-member\n  bindings:\n  - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect\n  - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST\n  - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign\n  endpoints:\n    sso: https://shibboleth.uni-bonn.de/idp/profile/SAML2/POST/SSO\n    slo: https://shibboleth.uni-bonn.de/idp/profile/SAML2/Redirect/SLO\n    artifact_resolution: https://shibboleth.uni-bonn.de:8443/idp/profile/SAML2/SOAP/ArtifactResolution\n  evidence: >-\n    Metadata fetched from the institution's own host (200, 12,145 bytes) and from the\n    DFN-AAI aggregate (11,457 EntityDescriptors; this is the only uni-bonn.de entity in\n    it), signed, on 2026-09-01. Observed in use: the BASIS student-information system\n    (basis.uni-bonn.de) names Shibboleth and the\
   \ Uni-ID on its sign-in page, and eCampus\n    (ILIAS) offers SAML sign-in with the Uni-ID.\n- name: Dataverse API token (X-Dataverse-key)\n  type: api_key\n  x-operator: institution\n  in: header\n  parameter_name: X-Dataverse-key\n  self_service: false\n  evidence: >-\n    Credentialed Dataverse endpoints answer anonymously with a token-shaped error rather\n    than a wall: GET https://bonndata.uni-bonn.de/api/users/:me returned 400\n    {\"status\":\"ERROR\",\"message\":\"User with token null not found.\"} on 2026-09-01. Tokens\n    are issued to authenticated bonndata accounts, which require a Uni-ID or an affiliated\n    login; there is no public sign-up.\n- name: GitLab personal access token\n  type: api_key\n  x-operator: institution\n  in: header\n  parameter_name: PRIVATE-TOKEN\n  self_service: false\n  evidence: >-\n    The self-hosted GitLab at gitlab.uni-bonn.de serves its public project set anonymously\n    but closes privileged endpoints: GET /api/v4/metadata and GET /api/v4/version\
   \ both\n    returned 401 {\"message\":\"401 Unauthorized\"} on 2026-09-01. Tokens require a university\n    account.\nnot_found:\n- oauth2: >-\n    No OAuth 2.0 or OIDC authorization server, discovery document\n    (/.well-known/openid-configuration) or client-registration path was found on any\n    uni-bonn.de host.\n- developer_portal: >-\n    No developer portal, key-request form or API terms-of-use page exists; there is nothing\n    to sign up for.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/authentication/university-of-bonn-authentication.yml
+source_yaml_url: https://artifacts.apis.io/university-of-bonn/authentication/university-of-bonn-authentication.yml
 summary_line: none/saml2/api_key · 4 schemes
 tags:
 - University

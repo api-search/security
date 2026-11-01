@@ -5,79 +5,79 @@ api_specs:
   label: Ensighten Authentication API
   slug: ensighten-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/openapi/ensighten-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/ensighten/openapi/ensighten-authentication-api-openapi.yml
 - filename: ensighten-conditions-api-openapi.yml
   format: yaml
   label: Ensighten Conditions API
   slug: ensighten-conditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/openapi/ensighten-conditions-api-openapi.yml
+  url: https://artifacts.apis.io/ensighten/openapi/ensighten-conditions-api-openapi.yml
 - filename: ensighten-data-definitions-api-openapi.yml
   format: yaml
   label: Ensighten Data Definitions API
   slug: ensighten-data-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/openapi/ensighten-data-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/ensighten/openapi/ensighten-data-definitions-api-openapi.yml
 - filename: ensighten-deployments-api-openapi.yml
   format: yaml
   label: Ensighten Deployments API
   slug: ensighten-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/openapi/ensighten-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/ensighten/openapi/ensighten-deployments-api-openapi.yml
 - filename: ensighten-event-definitions-api-openapi.yml
   format: yaml
   label: Ensighten Event Definitions API
   slug: ensighten-event-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/openapi/ensighten-event-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/ensighten/openapi/ensighten-event-definitions-api-openapi.yml
 - filename: ensighten-git-api-openapi.yml
   format: yaml
   label: Ensighten GIT API
   slug: ensighten-git-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/openapi/ensighten-git-api-openapi.yml
+  url: https://artifacts.apis.io/ensighten/openapi/ensighten-git-api-openapi.yml
 - filename: ensighten-labels-api-openapi.yml
   format: yaml
   label: Ensighten Labels API
   slug: ensighten-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/openapi/ensighten-labels-api-openapi.yml
+  url: https://artifacts.apis.io/ensighten/openapi/ensighten-labels-api-openapi.yml
 - filename: ensighten-publish-paths-api-openapi.yml
   format: yaml
   label: Ensighten Publish Paths API
   slug: ensighten-publish-paths-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/openapi/ensighten-publish-paths-api-openapi.yml
+  url: https://artifacts.apis.io/ensighten/openapi/ensighten-publish-paths-api-openapi.yml
 - filename: ensighten-roles-api-openapi.yml
   format: yaml
   label: Ensighten Roles API
   slug: ensighten-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/openapi/ensighten-roles-api-openapi.yml
+  url: https://artifacts.apis.io/ensighten/openapi/ensighten-roles-api-openapi.yml
 - filename: ensighten-scim-2-0-api-openapi.yml
   format: yaml
   label: Ensighten SCIM 2.0 API
   slug: ensighten-scim-2-0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/openapi/ensighten-scim-2-0-api-openapi.yml
+  url: https://artifacts.apis.io/ensighten/openapi/ensighten-scim-2-0-api-openapi.yml
 - filename: ensighten-spaces-api-openapi.yml
   format: yaml
   label: Ensighten Spaces API
   slug: ensighten-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/openapi/ensighten-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/ensighten/openapi/ensighten-spaces-api-openapi.yml
 - filename: ensighten-tdn-api-openapi.yml
   format: yaml
   label: Ensighten TDN API
   slug: ensighten-tdn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/openapi/ensighten-tdn-api-openapi.yml
+  url: https://artifacts.apis.io/ensighten/openapi/ensighten-tdn-api-openapi.yml
 - filename: ensighten-users-api-openapi.yml
   format: yaml
   label: Ensighten Users API
   slug: ensighten-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/openapi/ensighten-users-api-openapi.yml
+  url: https://artifacts.apis.io/ensighten/openapi/ensighten-users-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -129,7 +129,7 @@ source_filename: ensighten-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cheq.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 19:43:00 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: manageexternalapi.docs.apiary.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 23:59:59 2026 GMT\n  hsts: false\n- host: manage-api.ensighten.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 15 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: cheq.ai\n  dnssec: false\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: apiary.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/security/ensighten-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ensighten/security/ensighten-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

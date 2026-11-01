@@ -7,37 +7,37 @@ api_specs:
   label: Nowsta Clients API
   slug: nowsta-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/openapi/nowsta-clients-api-openapi.yml
+  url: https://artifacts.apis.io/nowsta/openapi/nowsta-clients-api-openapi.yml
 - filename: nowsta-events-api-openapi.yml
   format: yaml
   label: Nowsta Events API
   slug: nowsta-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/openapi/nowsta-events-api-openapi.yml
+  url: https://artifacts.apis.io/nowsta/openapi/nowsta-events-api-openapi.yml
 - filename: nowsta-positions-api-openapi.yml
   format: yaml
   label: Nowsta Positions API
   slug: nowsta-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/openapi/nowsta-positions-api-openapi.yml
+  url: https://artifacts.apis.io/nowsta/openapi/nowsta-positions-api-openapi.yml
 - filename: nowsta-uniforms-api-openapi.yml
   format: yaml
   label: Nowsta Uniforms API
   slug: nowsta-uniforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/openapi/nowsta-uniforms-api-openapi.yml
+  url: https://artifacts.apis.io/nowsta/openapi/nowsta-uniforms-api-openapi.yml
 - filename: nowsta-venues-api-openapi.yml
   format: yaml
   label: Nowsta Venues API
   slug: nowsta-venues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/openapi/nowsta-venues-api-openapi.yml
+  url: https://artifacts.apis.io/nowsta/openapi/nowsta-venues-api-openapi.yml
 - filename: nowsta-workers-api-openapi.yml
   format: yaml
   label: Nowsta Workers API
   slug: nowsta-workers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/openapi/nowsta-workers-api-openapi.yml
+  url: https://artifacts.apis.io/nowsta/openapi/nowsta-workers-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -78,7 +78,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-01'\nmethod: searched\nsource: https://web.archive.org/web/20240603053309/https://developer.nowsta.com/\ndocs: https://web.archive.org/web/20240603053309/https://developer.nowsta.com/\nspec_source: openapi/nowsta-integration-openapi.yml\nsummary:\n  types:\n  - http\n  http_schemes:\n  - bearer\n  oauth2_flows: []\n  api_key_in: []\n  model: static per-company bearer token, allow-listed by the provider\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  header: Authorization\n  format: 'Bearer <token>'\n  description: >-\n    A per-company integration token issued by Nowsta. The customer retrieves it from the Nowsta UI and\n    enters it into the integrating platform (for example on a settings page); the platform then sends\n    it on every request as `Authorization: Bearer <token>`.\n  sources:\n  - openapi/nowsta-integration-openapi.yml\n  properties:\n    rotation_documented: false\n    expiry_documented: false\n    scopes: none - the token\
   \ is not scoped, it authorizes every operation for the company\n    tenancy: >-\n      One token per company. A token is bound to the single company that purchased the integration and\n      only authorizes operations for that company; referencing another company's objects returns 403\n      with error code 1100.\n    self_serve: false\n    approval_gate: >-\n      Nowsta must approve a company before its token is active. Requests on behalf of an unapproved\n      company return 403 with error code 1101.\n    transport: >-\n      HTTPS required - Nowsta warns HTTP may give unexpected results. Cross-origin browser requests are\n      not permitted, so the credential is intended for server-to-server use only.\n    challenge: >-\n      No WWW-Authenticate challenge is returned. A missing or invalid token yields\n      401 {\"errors\":[{\"code\":1000,\"message\":\"Nil JSON web token\"}]} (verified live 2026-08-01).\n    token_format_hint: >-\n      The 401 message text is \"Nil JSON web token\"\
   , implying the credential is a JWT internally, but\n      Nowsta documents it only as an opaque token and publishes no claims, issuer, audience or expiry.\noauth2: false\nopenid_connect: false\nmutual_tls: false\napi_keys: false\nnotes:\n- >-\n  There is no OAuth 2.0, no OIDC discovery document and no scope surface, so no scopes/ artifact is\n  emitted for this provider - see conformance/nowsta-conformance.yml.\n- >-\n  The single unscoped, non-expiring, company-wide write token is the main authorization weakness of\n  this API: there is no way to grant an integration read-only or resource-limited access, and no\n  documented rotation or revocation procedure.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/authentication/nowsta-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nowsta/authentication/nowsta-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Workforce Management

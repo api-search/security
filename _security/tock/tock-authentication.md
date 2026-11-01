@@ -8,13 +8,13 @@ api_specs:
   label: Tock Reservation API
   slug: reservation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tock/refs/heads/main/openapi/_original/tock-reservation-openapi.yml
+  url: https://artifacts.apis.io/tock/openapi/_original/tock-reservation-openapi.yml
 - filename: tock-guest-profile-openapi.yml
   format: yaml
   label: Tock Guest API
   slug: guest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tock/refs/heads/main/openapi/_original/tock-guest-profile-openapi.yml
+  url: https://artifacts.apis.io/tock/openapi/_original/tock-guest-profile-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -43,7 +43,7 @@ source_filename: tock-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tock-guest-profile-openapi.yml, openapi/tock-reservation-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Tock-issued API key. Request access by emailing integrate@tockhq.com from a Tock\n    Dashboard Account Owner; available on Premium and Premium Unlimited plans.\n  sources:\n  - openapi/tock-guest-profile-openapi.yml\n  - openapi/tock-reservation-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tock/refs/heads/main/authentication/tock-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tock/authentication/tock-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Hospitality

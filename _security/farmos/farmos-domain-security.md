@@ -5,37 +5,37 @@ api_specs:
   label: farmOS Assets API
   slug: farmos-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/openapi/farmos-assets-api-openapi.yml
+  url: https://artifacts.apis.io/farmos/openapi/farmos-assets-api-openapi.yml
 - filename: farmos-logs-api-openapi.yml
   format: yaml
   label: farmOS Logs API
   slug: farmos-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/openapi/farmos-logs-api-openapi.yml
+  url: https://artifacts.apis.io/farmos/openapi/farmos-logs-api-openapi.yml
 - filename: farmos-plans-api-openapi.yml
   format: yaml
   label: farmOS Plans API
   slug: farmos-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/openapi/farmos-plans-api-openapi.yml
+  url: https://artifacts.apis.io/farmos/openapi/farmos-plans-api-openapi.yml
 - filename: farmos-quantities-api-openapi.yml
   format: yaml
   label: farmOS Quantities API
   slug: farmos-quantities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/openapi/farmos-quantities-api-openapi.yml
+  url: https://artifacts.apis.io/farmos/openapi/farmos-quantities-api-openapi.yml
 - filename: farmos-server-info-api-openapi.yml
   format: yaml
   label: farmOS Server Info API
   slug: farmos-server-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/openapi/farmos-server-info-api-openapi.yml
+  url: https://artifacts.apis.io/farmos/openapi/farmos-server-info-api-openapi.yml
 - filename: farmos-taxonomy-api-openapi.yml
   format: yaml
   label: farmOS Taxonomy API
   slug: farmos-taxonomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/openapi/farmos-taxonomy-api-openapi.yml
+  url: https://artifacts.apis.io/farmos/openapi/farmos-taxonomy-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: farmos-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: farmos.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 19:53:58 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: farmos.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/security/farmos-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/farmos/security/farmos-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Agriculture

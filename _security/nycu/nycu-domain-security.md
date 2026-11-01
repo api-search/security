@@ -5,13 +5,13 @@ api_specs:
   label: National Yang Ming Chiao Tung University Profile API
   slug: nycu-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nycu/refs/heads/main/openapi/nycu-profile-api-openapi.yml
+  url: https://artifacts.apis.io/nycu/openapi/nycu-profile-api-openapi.yml
 - filename: nycu-oauth-api-openapi.yml
   format: yaml
   label: National Yang Ming Chiao Tung University O Auth API
   slug: nycu-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nycu/refs/heads/main/openapi/nycu-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/nycu/openapi/nycu-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -55,7 +55,7 @@ source_filename: nycu-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nycu.edu.tw\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject\n    Key Identifier (_ssl.c:1082)'\n  hsts: null\n- host: id.nycu.edu.tw\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 13:31:58 2026 GMT\n  hsts: false\n- host: guides.dataverse.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 30 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: nycu.edu.tw\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n- domain: dataverse.org\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nycu/refs/heads/main/security/nycu-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nycu/security/nycu-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Education

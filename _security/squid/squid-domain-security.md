@@ -5,31 +5,31 @@ api_specs:
   label: Squid Cache Statistics API
   slug: squid-cache-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/openapi/squid-cache-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/squid/openapi/squid-cache-statistics-api-openapi.yml
 - filename: squid-configuration-api-openapi.yml
   format: yaml
   label: Squid Configuration API
   slug: squid-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/openapi/squid-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/squid/openapi/squid-configuration-api-openapi.yml
 - filename: squid-connections-api-openapi.yml
   format: yaml
   label: Squid Connections API
   slug: squid-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/openapi/squid-connections-api-openapi.yml
+  url: https://artifacts.apis.io/squid/openapi/squid-connections-api-openapi.yml
 - filename: squid-memory-api-openapi.yml
   format: yaml
   label: Squid Memory API
   slug: squid-memory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/openapi/squid-memory-api-openapi.yml
+  url: https://artifacts.apis.io/squid/openapi/squid-memory-api-openapi.yml
 - filename: squid-operations-api-openapi.yml
   format: yaml
   label: Squid Operations API
   slug: squid-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/openapi/squid-operations-api-openapi.yml
+  url: https://artifacts.apis.io/squid/openapi/squid-operations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: squid-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.squid-cache.org\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get\n    local issuer certificate (_ssl.c:1082)'\n  hsts: null\ndomains:\n- domain: squid-cache.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/security/squid-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/squid/security/squid-domain-security.yml
 summary_line: DMARC
 tags:
 - Caching Proxy

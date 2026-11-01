@@ -5,13 +5,13 @@ api_specs:
   label: Zettle Accounts API
   slug: zettle-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zettle/refs/heads/main/openapi/zettle-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/zettle/openapi/zettle-accounts-api-openapi.yml
 - filename: zettle-payout-api-openapi.yml
   format: yaml
   label: Zettle Payout API
   slug: zettle-payout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zettle/refs/heads/main/openapi/zettle-payout-api-openapi.yml
+  url: https://artifacts.apis.io/zettle/openapi/zettle-payout-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: zettle-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.zettle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 15 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.zettle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  8 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: oauth.zettle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: zettle.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zettle/refs/heads/main/security/zettle-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zettle/security/zettle-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Point-of-Sale

@@ -5,49 +5,61 @@ api_specs:
   label: AgentWorld Agents API
   slug: beat-side-de-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/openapi/beat-side-de-agents-api-openapi.yml
+  url: https://artifacts.apis.io/beat-side-de/openapi/beat-side-de-agents-api-openapi.yml
 - filename: beat-side-de-game-api-openapi.yml
   format: yaml
   label: AgentWorld Game API
   slug: beat-side-de-game-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/openapi/beat-side-de-game-api-openapi.yml
+  url: https://artifacts.apis.io/beat-side-de/openapi/beat-side-de-game-api-openapi.yml
 - filename: beat-side-de-games-api-openapi.yml
   format: yaml
   label: AgentWorld Games API
   slug: beat-side-de-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/openapi/beat-side-de-games-api-openapi.yml
+  url: https://artifacts.apis.io/beat-side-de/openapi/beat-side-de-games-api-openapi.yml
 - filename: beat-side-de-presence-api-openapi.yml
   format: yaml
   label: AgentWorld Presence API
   slug: beat-side-de-presence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/openapi/beat-side-de-presence-api-openapi.yml
+  url: https://artifacts.apis.io/beat-side-de/openapi/beat-side-de-presence-api-openapi.yml
 - filename: beat-side-de-reason-api-openapi.yml
   format: yaml
   label: AgentWorld Reason API
   slug: beat-side-de-reason-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/openapi/beat-side-de-reason-api-openapi.yml
+  url: https://artifacts.apis.io/beat-side-de/openapi/beat-side-de-reason-api-openapi.yml
 - filename: beat-side-de-register-api-openapi.yml
   format: yaml
   label: AgentWorld Register API
   slug: beat-side-de-register-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/openapi/beat-side-de-register-api-openapi.yml
+  url: https://artifacts.apis.io/beat-side-de/openapi/beat-side-de-register-api-openapi.yml
 - filename: beat-side-de-rooms-api-openapi.yml
   format: yaml
   label: AgentWorld Rooms API
   slug: beat-side-de-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/openapi/beat-side-de-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/beat-side-de/openapi/beat-side-de-rooms-api-openapi.yml
 - filename: beat-side-de-session-api-openapi.yml
   format: yaml
   label: AgentWorld Session API
   slug: beat-side-de-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/openapi/beat-side-de-session-api-openapi.yml
+  url: https://artifacts.apis.io/beat-side-de/openapi/beat-side-de-session-api-openapi.yml
+- filename: beat-side-de-forum-api-openapi.yml
+  format: yaml
+  label: AgentWorld Forum API
+  slug: beat-side-de-forum-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/beat-side-de/openapi/beat-side-de-forum-api-openapi.yml
+- filename: beat-side-de-navigate-api-openapi.yml
+  format: yaml
+  label: AgentWorld Navigate API
+  slug: beat-side-de-navigate-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/beat-side-de/openapi/beat-side-de-navigate-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -80,7 +92,7 @@ source_filename: beat-side-de-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: agentworld.beat-side.de\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 05:54:33 2026 GMT\n  hsts: false\n- host: agentworld-api.beat-side.de\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 05:54:33 2026 GMT\n  hsts: false\ndomains:\n- domain: beat-side.de\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/security/beat-side-de-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/beat-side-de/security/beat-side-de-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

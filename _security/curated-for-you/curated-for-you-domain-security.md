@@ -1,41 +1,23 @@
 ---
 api_specs:
-- filename: curated-for-you-chronicle-api-openapi.yml
-  format: yaml
-  label: Curated for You Chronicle API
-  slug: curated-for-you-chronicle-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curated-for-you/refs/heads/main/openapi/curated-for-you-chronicle-api-openapi.yml
 - filename: curated-for-you-companies-api-openapi.yml
   format: yaml
   label: Curated for You Companies API
   slug: curated-for-you-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curated-for-you/refs/heads/main/openapi/curated-for-you-companies-api-openapi.yml
+  url: https://artifacts.apis.io/curated-for-you/openapi/curated-for-you-companies-api-openapi.yml
 - filename: curated-for-you-curations-api-openapi.yml
   format: yaml
   label: Curated for You Curations API
   slug: curated-for-you-curations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curated-for-you/refs/heads/main/openapi/curated-for-you-curations-api-openapi.yml
-- filename: curated-for-you-feedback-api-openapi.yml
-  format: yaml
-  label: Curated for You Feedback API
-  slug: curated-for-you-feedback-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curated-for-you/refs/heads/main/openapi/curated-for-you-feedback-api-openapi.yml
-- filename: curated-for-you-shopify-api-openapi.yml
-  format: yaml
-  label: Curated for You Shopify API
-  slug: curated-for-you-shopify-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curated-for-you/refs/heads/main/openapi/curated-for-you-shopify-api-openapi.yml
+  url: https://artifacts.apis.io/curated-for-you/openapi/curated-for-you-curations-api-openapi.yml
 - filename: curated-for-you-users-api-openapi.yml
   format: yaml
   label: Curated for You Users API
   slug: curated-for-you-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curated-for-you/refs/heads/main/openapi/curated-for-you-users-api-openapi.yml
+  url: https://artifacts.apis.io/curated-for-you/openapi/curated-for-you-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +47,7 @@ source_filename: curated-for-you-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: curatedforyou.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 16:04:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: curatedforyou.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/curated-for-you/refs/heads/main/security/curated-for-you-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/curated-for-you/security/curated-for-you-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

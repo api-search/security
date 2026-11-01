@@ -5,79 +5,79 @@ api_specs:
   label: Imperva Account Management API
   slug: imperva-account-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/openapi/imperva-account-management-api-openapi.yml
+  url: https://artifacts.apis.io/imperva/openapi/imperva-account-management-api-openapi.yml
 - filename: imperva-administration-api-openapi.yml
   format: yaml
   label: Imperva Administration API
   slug: imperva-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/openapi/imperva-administration-api-openapi.yml
+  url: https://artifacts.apis.io/imperva/openapi/imperva-administration-api-openapi.yml
 - filename: imperva-auth-api-openapi.yml
   format: yaml
   label: Imperva Auth API
   slug: imperva-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/openapi/imperva-auth-api-openapi.yml
+  url: https://artifacts.apis.io/imperva/openapi/imperva-auth-api-openapi.yml
 - filename: imperva-conf-api-openapi.yml
   format: yaml
   label: Imperva Conf API
   slug: imperva-conf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/openapi/imperva-conf-api-openapi.yml
+  url: https://artifacts.apis.io/imperva/openapi/imperva-conf-api-openapi.yml
 - filename: imperva-ddos-for-networks-test-alerts-api-openapi.yml
   format: yaml
   label: Imperva DDoS for Networks Test Alerts API
   slug: imperva-ddos-for-networks-test-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/openapi/imperva-ddos-for-networks-test-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/imperva/openapi/imperva-ddos-for-networks-test-alerts-api-openapi.yml
 - filename: imperva-ddos-protection-for-individual-ips-api-openapi.yml
   format: yaml
   label: Imperva DDoS Protection for Individual IPs API
   slug: imperva-ddos-protection-for-individual-ips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/openapi/imperva-ddos-protection-for-individual-ips-api-openapi.yml
+  url: https://artifacts.apis.io/imperva/openapi/imperva-ddos-protection-for-individual-ips-api-openapi.yml
 - filename: imperva-experimental-api-openapi.yml
   format: yaml
   label: Imperva Experimental API
   slug: imperva-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/openapi/imperva-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/imperva/openapi/imperva-experimental-api-openapi.yml
 - filename: imperva-integrations-api-openapi.yml
   format: yaml
   label: Imperva Integrations API
   slug: imperva-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/openapi/imperva-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/imperva/openapi/imperva-integrations-api-openapi.yml
 - filename: imperva-login-protect-api-openapi.yml
   format: yaml
   label: Imperva Login Protect API
   slug: imperva-login-protect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/openapi/imperva-login-protect-api-openapi.yml
+  url: https://artifacts.apis.io/imperva/openapi/imperva-login-protect-api-openapi.yml
 - filename: imperva-management-api-openapi.yml
   format: yaml
   label: Imperva Management API
   slug: imperva-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/openapi/imperva-management-api-openapi.yml
+  url: https://artifacts.apis.io/imperva/openapi/imperva-management-api-openapi.yml
 - filename: imperva-site-management-api-openapi.yml
   format: yaml
   label: Imperva Site Management API
   slug: imperva-site-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/openapi/imperva-site-management-api-openapi.yml
+  url: https://artifacts.apis.io/imperva/openapi/imperva-site-management-api-openapi.yml
 - filename: imperva-status-api-openapi.yml
   format: yaml
   label: Imperva Status API
   slug: imperva-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/openapi/imperva-status-api-openapi.yml
+  url: https://artifacts.apis.io/imperva/openapi/imperva-status-api-openapi.yml
 - filename: imperva-traffic-statistics-and-logs-api-openapi.yml
   format: yaml
   label: Imperva Traffic Statistics and Logs API
   slug: imperva-traffic-statistics-and-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/openapi/imperva-traffic-statistics-and-logs-api-openapi.yml
+  url: https://artifacts.apis.io/imperva/openapi/imperva-traffic-statistics-and-logs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -124,7 +124,7 @@ source_filename: imperva-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.imperva.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs-cybersec.thalesgroup.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 17:17:26 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.imperva.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 02:59:24 2026 GMT\n  hsts: null\ndomains:\n- domain: imperva.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: thalesgroup.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/security/imperva-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/imperva/security/imperva-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Security

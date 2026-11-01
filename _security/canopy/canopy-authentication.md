@@ -7,79 +7,79 @@ api_specs:
   label: Canopy Connect Consent API
   slug: canopy-consent-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-consent-api-api-openapi.yml
+  url: https://artifacts.apis.io/canopy/openapi/canopy-consent-api-api-openapi.yml
 - filename: canopy-enrichment-api-api-openapi.yml
   format: yaml
   label: Canopy Connect Enrichment API
   slug: canopy-enrichment-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-enrichment-api-api-openapi.yml
+  url: https://artifacts.apis.io/canopy/openapi/canopy-enrichment-api-api-openapi.yml
 - filename: canopy-misc-api-api-openapi.yml
   format: yaml
   label: Canopy Connect Misc API
   slug: canopy-misc-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-misc-api-api-openapi.yml
+  url: https://artifacts.apis.io/canopy/openapi/canopy-misc-api-api-openapi.yml
 - filename: canopy-monitorings-api-api-openapi.yml
   format: yaml
   label: Canopy Connect Monitorings API
   slug: canopy-monitorings-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-monitorings-api-api-openapi.yml
+  url: https://artifacts.apis.io/canopy/openapi/canopy-monitorings-api-api-openapi.yml
 - filename: canopy-policy-check-team-setting-api-api-openapi.yml
   format: yaml
   label: Canopy Connect Policy Check Team Setting API
   slug: canopy-policy-check-team-setting-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-policy-check-team-setting-api-api-openapi.yml
+  url: https://artifacts.apis.io/canopy/openapi/canopy-policy-check-team-setting-api-api-openapi.yml
 - filename: canopy-policy-forms-api-api-openapi.yml
   format: yaml
   label: Canopy Connect Policy Forms API
   slug: canopy-policy-forms-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-policy-forms-api-api-openapi.yml
+  url: https://artifacts.apis.io/canopy/openapi/canopy-policy-forms-api-api-openapi.yml
 - filename: canopy-policy-search-api-api-openapi.yml
   format: yaml
   label: Canopy Connect Policy Search API
   slug: canopy-policy-search-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-policy-search-api-api-openapi.yml
+  url: https://artifacts.apis.io/canopy/openapi/canopy-policy-search-api-api-openapi.yml
 - filename: canopy-pulls-api-api-openapi.yml
   format: yaml
   label: Canopy Connect Pulls API
   slug: canopy-pulls-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-pulls-api-api-openapi.yml
+  url: https://artifacts.apis.io/canopy/openapi/canopy-pulls-api-api-openapi.yml
 - filename: canopy-servicings-api-api-openapi.yml
   format: yaml
   label: Canopy Connect Servicings API
   slug: canopy-servicings-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-servicings-api-api-openapi.yml
+  url: https://artifacts.apis.io/canopy/openapi/canopy-servicings-api-api-openapi.yml
 - filename: canopy-teams-api-api-openapi.yml
   format: yaml
   label: Canopy Connect Teams API
   slug: canopy-teams-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-teams-api-api-openapi.yml
+  url: https://artifacts.apis.io/canopy/openapi/canopy-teams-api-api-openapi.yml
 - filename: canopy-webhooks-api-api-openapi.yml
   format: yaml
   label: Canopy Connect Webhooks API
   slug: canopy-webhooks-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-webhooks-api-api-openapi.yml
+  url: https://artifacts.apis.io/canopy/openapi/canopy-webhooks-api-api-openapi.yml
 - filename: canopy-whitelabel-api-api-openapi.yml
   format: yaml
   label: Canopy Connect Whitelabel API
   slug: canopy-whitelabel-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-whitelabel-api-api-openapi.yml
+  url: https://artifacts.apis.io/canopy/openapi/canopy-whitelabel-api-api-openapi.yml
 - filename: canopy-widgets-api-api-openapi.yml
   format: yaml
   label: Canopy Connect Widgets API
   slug: canopy-widgets-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-widgets-api-api-openapi.yml
+  url: https://artifacts.apis.io/canopy/openapi/canopy-widgets-api-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -141,7 +141,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: https://docs.us
   \    applied: global (security[] on the document root)\n    username: Client ID\n    password: Client Secret\n    header: 'Authorization: Basic <base64(client_id:client_secret)>'\n    description: >-\n      HTTP Basic authentication over HTTPS. Create the key pair in the Canopy\n      Connect dashboard under Settings > API. The Client Secret is shown once at\n      creation and cannot be re-retrieved; losing it requires creating a new key\n      with a new Client ID. Canopy explicitly warns the secret is server-side\n      only and must never be embedded in browser or mobile code.\n    alternate_headers:\n      - x-canopy-client-id\n      - x-canopy-client-secret\n    alternate_note: >-\n      The Apps guide states that x-canopy-client-id / x-canopy-client-secret are\n      an alternative to the Authorization header for calls against your own\n      Team, and that sending them alongside a Bearer token causes the\n      Authorization header to be ignored.\n    sources:\n      - openapi/canopy-openapi.json\n\
   \      - https://docs.usecanopy.com/reference/authentication-guide\n  - name: CanopyAppsOAuth2\n    type: oauth2\n    flow: authorizationCode\n    pkce: required\n    pkce_methods:\n      - S256\n      - plain\n    pkce_note: S256 strongly recommended by the provider; plain accepted.\n    authorization_url: https://app.usecanopy.com/oauth2/authorize\n    token_header: 'Authorization: Bearer <access_token>'\n    response_modes:\n      - query\n      - fragment\n      - form_post\n    state: supported and recommended (CSRF nonce / round-trip state)\n    scopes_artifact: scopes/canopy-scopes.yml\n    declared_in: docs only\n    description: >-\n      OAuth 2.0 authorization-code flow with mandatory PKCE, used by Canopy\n      Connect Apps to act on another Team's behalf. This flow is NOT declared in\n      the provider's published OpenAPI - the spec carries only BasicAuth - so it\n      is recorded here from the docs and mirrored in\n      overlays/canopy-openapi-overlay.yaml.\n    sources:\n\
   \      - https://docs.usecanopy.com/reference/apps-authorization\n      - https://docs.usecanopy.com/reference/apps-api-requests\nfailures:\n  - status: 401\n    code: UNAUTHORIZED\n    meaning: Missing, malformed, or invalid credentials, or an inactive key.\n  - status: 403\n    code: FORBIDDEN\n    meaning: Authenticated but not permitted for this resource.\n  - status: 403\n    code: SUBSCRIPTION_INACTIVE\n    meaning: The Team's Canopy Connect subscription is not active.\n  - status: 400\n    code: INCORRECT_API_KEY_TYPE\n    meaning: A sandbox key was used against a production link, or vice versa.\ngaps:\n  - The OpenAPI declares no oauth2 securityScheme, so scope requirements are invisible to any generated client.\n  - No /.well-known/oauth-authorization-server or /.well-known/openid-configuration is served on any host (probed 2026-09-05, 404 on usecanopy.com, www and docs).\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/authentication/canopy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/canopy/authentication/canopy-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Auto Insurance

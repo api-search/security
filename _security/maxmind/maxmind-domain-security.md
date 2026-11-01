@@ -5,37 +5,37 @@ api_specs:
   label: MaxMind GeoIP City API
   slug: maxmind-geoip-city-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maxmind/refs/heads/main/openapi/maxmind-geoip-city-api-openapi.yml
+  url: https://artifacts.apis.io/maxmind/openapi/maxmind-geoip-city-api-openapi.yml
 - filename: maxmind-geoip-country-api-openapi.yml
   format: yaml
   label: MaxMind GeoIP Country API
   slug: maxmind-geoip-country-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maxmind/refs/heads/main/openapi/maxmind-geoip-country-api-openapi.yml
+  url: https://artifacts.apis.io/maxmind/openapi/maxmind-geoip-country-api-openapi.yml
 - filename: maxmind-geoip-insights-api-openapi.yml
   format: yaml
   label: MaxMind GeoIP Insights API
   slug: maxmind-geoip-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maxmind/refs/heads/main/openapi/maxmind-geoip-insights-api-openapi.yml
+  url: https://artifacts.apis.io/maxmind/openapi/maxmind-geoip-insights-api-openapi.yml
 - filename: maxmind-minfraud-factors-api-openapi.yml
   format: yaml
   label: MaxMind minFraud Factors API
   slug: maxmind-minfraud-factors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maxmind/refs/heads/main/openapi/maxmind-minfraud-factors-api-openapi.yml
+  url: https://artifacts.apis.io/maxmind/openapi/maxmind-minfraud-factors-api-openapi.yml
 - filename: maxmind-minfraud-insights-api-openapi.yml
   format: yaml
   label: MaxMind minFraud Insights API
   slug: maxmind-minfraud-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maxmind/refs/heads/main/openapi/maxmind-minfraud-insights-api-openapi.yml
+  url: https://artifacts.apis.io/maxmind/openapi/maxmind-minfraud-insights-api-openapi.yml
 - filename: maxmind-minfraud-score-api-openapi.yml
   format: yaml
   label: MaxMind minFraud Score API
   slug: maxmind-minfraud-score-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maxmind/refs/heads/main/openapi/maxmind-minfraud-score-api-openapi.yml
+  url: https://artifacts.apis.io/maxmind/openapi/maxmind-minfraud-score-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -83,7 +83,7 @@ source_filename: maxmind-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.maxmind.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 11:00:03 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: dev.maxmind.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 21:57:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: geoip.maxmind.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 22:15:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: maxmind.com\n  dnssec: false\n  caa:\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maxmind/refs/heads/main/security/maxmind-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/maxmind/security/maxmind-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - IP Intelligence

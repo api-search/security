@@ -8,19 +8,19 @@ api_specs:
   label: Tenyks Auth API
   slug: tenyks-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/openapi/tenyks-auth-api-openapi.yml
+  url: https://artifacts.apis.io/tenyks/openapi/tenyks-auth-api-openapi.yml
 - filename: tenyks-data-upload-api-openapi.yml
   format: yaml
   label: Tenyks Data Upload API
   slug: tenyks-data-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/openapi/tenyks-data-upload-api-openapi.yml
+  url: https://artifacts.apis.io/tenyks/openapi/tenyks-data-upload-api-openapi.yml
 - filename: tenyks-datasets-api-openapi.yml
   format: yaml
   label: Tenyks Datasets API
   slug: tenyks-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/openapi/tenyks-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/tenyks/openapi/tenyks-datasets-api-openapi.yml
 auth_types:
 - http
 - apiKey-exchange
@@ -49,7 +49,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: >-\n  https://docs.tenyks.ai/reference/access-token.md and\n  https://docs.tenyks.ai/reference/retrieving-api-keys.md, corroborated by the\n  bearerAuth securityScheme in openapi/tenyks-openapi.json.\ndocs: https://docs.tenyks.ai/reference/access-token.md\nsummary:\n  types: [http, apiKey-exchange]\n  api_key_in: [body]\n  http_schemes: [bearer]\n  model: >-\n    Two-step: exchange a long-lived API key + secret for a short-lived Bearer\n    access token, then send the Bearer token on every other endpoint.\nflow:\n  step_1_token_exchange:\n    endpoint: POST https://dashboard.tenyks.ai/api/auth/apikey\n    request:\n      api_key: Your Tenyks API key (from the dashboard).\n      api_secret: Your Tenyks API secret.\n    response:\n      access_token: Time-limited Bearer token.\n      id_token: JWT with user and authentication-event information.\n      expires_in: 3600\n      token_type: Bearer\n    docs: https://docs.tenyks.ai/reference/access-token.md\n\
   \  step_2_authenticated_calls:\n    header: \"Authorization: Bearer <access_token>\"\n    note: Token expires after 3600 seconds (60 minutes); refresh by repeating step 1.\nschemes:\n  - name: bearerAuth\n    type: http\n    scheme: bearer\n    description: >-\n      Bearer access token obtained from POST /api/auth/apikey. Applied to every\n      dataset/model/prediction endpoint.\n    sources:\n      - openapi/tenyks-openapi.json\napi_keys:\n  retrieval: https://docs.tenyks.ai/reference/retrieving-api-keys.md\n  where: Tenyks dashboard (https://dashboard.tenyks.ai) — Premium; Sandbox key issuance coming for freemium.\nnotes:\n  - The API is currently in alpha and available to Premium (Dashboard) users.\n  - SDK equivalent: Tenyks.authenticate_with_api_key(api_base_url, api_key, api_secret, workspace_name).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/authentication/tenyks-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tenyks/authentication/tenyks-authentication.yml
 summary_line: http/apiKey-exchange · 1 scheme
 tags:
 - Company

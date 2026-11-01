@@ -7,55 +7,55 @@ api_specs:
   label: TaxJar Categories API
   slug: taxjar-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-categories-api-openapi.yml
+  url: https://artifacts.apis.io/taxjar/openapi/taxjar-categories-api-openapi.yml
 - filename: taxjar-customers-api-openapi.yml
   format: yaml
   label: TaxJar Customers API
   slug: taxjar-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-customers-api-openapi.yml
+  url: https://artifacts.apis.io/taxjar/openapi/taxjar-customers-api-openapi.yml
 - filename: taxjar-nexus-api-openapi.yml
   format: yaml
   label: TaxJar Nexus API
   slug: taxjar-nexus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-nexus-api-openapi.yml
+  url: https://artifacts.apis.io/taxjar/openapi/taxjar-nexus-api-openapi.yml
 - filename: taxjar-rates-api-openapi.yml
   format: yaml
   label: TaxJar Rates API
   slug: taxjar-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-rates-api-openapi.yml
+  url: https://artifacts.apis.io/taxjar/openapi/taxjar-rates-api-openapi.yml
 - filename: taxjar-summary-rates-api-openapi.yml
   format: yaml
   label: TaxJar Summary Rates API
   slug: taxjar-summary-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-summary-rates-api-openapi.yml
+  url: https://artifacts.apis.io/taxjar/openapi/taxjar-summary-rates-api-openapi.yml
 - filename: taxjar-taxes-api-openapi.yml
   format: yaml
   label: TaxJar Taxes API
   slug: taxjar-taxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-taxes-api-openapi.yml
+  url: https://artifacts.apis.io/taxjar/openapi/taxjar-taxes-api-openapi.yml
 - filename: taxjar-transactions-orders-api-openapi.yml
   format: yaml
   label: TaxJar Transactions - Orders API
   slug: taxjar-transactions-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-transactions-orders-api-openapi.yml
+  url: https://artifacts.apis.io/taxjar/openapi/taxjar-transactions-orders-api-openapi.yml
 - filename: taxjar-transactions-refunds-api-openapi.yml
   format: yaml
   label: TaxJar Transactions - Refunds API
   slug: taxjar-transactions-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-transactions-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/taxjar/openapi/taxjar-transactions-refunds-api-openapi.yml
 - filename: taxjar-validations-api-openapi.yml
   format: yaml
   label: TaxJar Validations API
   slug: taxjar-validations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-validations-api-openapi.yml
+  url: https://artifacts.apis.io/taxjar/openapi/taxjar-validations-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -82,7 +82,7 @@ source_filename: taxjar-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/taxjar-sales-tax-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Use your TaxJar API token. Format: \"Bearer [token]\" or \"Token token=[token]\"'\n  sources:\n  - openapi/taxjar-sales-tax-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/authentication/taxjar-authentication.yml
+source_yaml_url: https://artifacts.apis.io/taxjar/authentication/taxjar-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Sales Tax

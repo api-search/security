@@ -5,97 +5,97 @@ api_specs:
   label: Glean Activity API
   slug: glean-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-activity-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-activity-api-openapi.yml
 - filename: glean-agents-api-openapi.yml
   format: yaml
   label: Glean Agents API
   slug: glean-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-agents-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-agents-api-openapi.yml
 - filename: glean-announcements-api-openapi.yml
   format: yaml
   label: Glean Announcements API
   slug: glean-announcements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-announcements-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-announcements-api-openapi.yml
 - filename: glean-answers-api-openapi.yml
   format: yaml
   label: Glean Answers API
   slug: glean-answers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-answers-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-answers-api-openapi.yml
 - filename: glean-chat-api-openapi.yml
   format: yaml
   label: Glean Chat API
   slug: glean-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-chat-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-chat-api-openapi.yml
 - filename: glean-collections-api-openapi.yml
   format: yaml
   label: Glean Collections API
   slug: glean-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-collections-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-collections-api-openapi.yml
 - filename: glean-documents-api-openapi.yml
   format: yaml
   label: Glean Documents API
   slug: glean-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-documents-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-documents-api-openapi.yml
 - filename: glean-governance-api-openapi.yml
   format: yaml
   label: Glean Governance API
   slug: glean-governance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-governance-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-governance-api-openapi.yml
 - filename: glean-insights-api-openapi.yml
   format: yaml
   label: Glean Insights API
   slug: glean-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-insights-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-insights-api-openapi.yml
 - filename: glean-people-api-openapi.yml
   format: yaml
   label: Glean People API
   slug: glean-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-people-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-people-api-openapi.yml
 - filename: glean-pins-api-openapi.yml
   format: yaml
   label: Glean Pins API
   slug: glean-pins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-pins-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-pins-api-openapi.yml
 - filename: glean-search-api-openapi.yml
   format: yaml
   label: Glean Search API
   slug: glean-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-search-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-search-api-openapi.yml
 - filename: glean-shortcuts-api-openapi.yml
   format: yaml
   label: Glean Shortcuts API
   slug: glean-shortcuts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-shortcuts-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-shortcuts-api-openapi.yml
 - filename: glean-summarize-api-openapi.yml
   format: yaml
   label: Glean Summarize API
   slug: glean-summarize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-summarize-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-summarize-api-openapi.yml
 - filename: glean-tools-api-openapi.yml
   format: yaml
   label: Glean Tools API
   slug: glean-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-tools-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-tools-api-openapi.yml
 - filename: glean-verification-api-openapi.yml
   format: yaml
   label: Glean Verification API
   slug: glean-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-verification-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-verification-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -114,7 +114,7 @@ source_filename: glean-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.glean.com/platform/security\nurl: https://www.glean.com/platform/security\ncertifications:\n- SOC 2\n- HIPAA\n- GDPR\nevidence:\n- source: https://www.glean.com/platform/security\n  keywords:\n  - soc 2\n  - hipaa\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/security/glean-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/glean/security/glean-trust-center.yml
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Agents

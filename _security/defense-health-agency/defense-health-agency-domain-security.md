@@ -5,7 +5,7 @@ api_specs:
   label: MHS Genesis SMART on FHIR API
   slug: mhs-genesis-smart-on-fhir
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defense-health-agency/refs/heads/main/openapi/defense-health-agency-openapi.yml
+  url: https://artifacts.apis.io/defense-health-agency/openapi/defense-health-agency-openapi.yml
 description: ''
 domains:
 - caa:
@@ -44,7 +44,7 @@ source_filename: defense-health-agency-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.health.mil\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 18 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: health.mil\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 18 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: health.mil\n  dnssec: true\n  caa:\n  - 128 issue \"digicert.com\"\n  - 128 issue \"identrust.com\"\n  - 128 issue \"entrust.net\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/defense-health-agency/refs/heads/main/security/defense-health-agency-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/defense-health-agency/security/defense-health-agency-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Federal Government

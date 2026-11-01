@@ -5,49 +5,49 @@ api_specs:
   label: Nexus Repository Manager Assets API
   slug: nexus-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexus/refs/heads/main/openapi/nexus-assets-api-openapi.yml
+  url: https://artifacts.apis.io/nexus/openapi/nexus-assets-api-openapi.yml
 - filename: nexus-blobstores-api-openapi.yml
   format: yaml
   label: Nexus Repository Manager BlobStores API
   slug: nexus-blobstores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexus/refs/heads/main/openapi/nexus-blobstores-api-openapi.yml
+  url: https://artifacts.apis.io/nexus/openapi/nexus-blobstores-api-openapi.yml
 - filename: nexus-components-api-openapi.yml
   format: yaml
   label: Nexus Repository Manager Components API
   slug: nexus-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexus/refs/heads/main/openapi/nexus-components-api-openapi.yml
+  url: https://artifacts.apis.io/nexus/openapi/nexus-components-api-openapi.yml
 - filename: nexus-repositories-api-openapi.yml
   format: yaml
   label: Nexus Repository Manager Repositories API
   slug: nexus-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexus/refs/heads/main/openapi/nexus-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/nexus/openapi/nexus-repositories-api-openapi.yml
 - filename: nexus-search-api-openapi.yml
   format: yaml
   label: Nexus Repository Manager Search API
   slug: nexus-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexus/refs/heads/main/openapi/nexus-search-api-openapi.yml
+  url: https://artifacts.apis.io/nexus/openapi/nexus-search-api-openapi.yml
 - filename: nexus-security-api-openapi.yml
   format: yaml
   label: Nexus Repository Manager Security API
   slug: nexus-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexus/refs/heads/main/openapi/nexus-security-api-openapi.yml
+  url: https://artifacts.apis.io/nexus/openapi/nexus-security-api-openapi.yml
 - filename: nexus-status-api-openapi.yml
   format: yaml
   label: Nexus Repository Manager Status API
   slug: nexus-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexus/refs/heads/main/openapi/nexus-status-api-openapi.yml
+  url: https://artifacts.apis.io/nexus/openapi/nexus-status-api-openapi.yml
 - filename: nexus-tasks-api-openapi.yml
   format: yaml
   label: Nexus Repository Manager Tasks API
   slug: nexus-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexus/refs/heads/main/openapi/nexus-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/nexus/openapi/nexus-tasks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: nexus-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sonatype.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 18:41:02 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: help.sonatype.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 22:31:57 2026 GMT\n  hsts: false\ndomains:\n- domain: sonatype.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nexus/refs/heads/main/security/nexus-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nexus/security/nexus-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artifact Management

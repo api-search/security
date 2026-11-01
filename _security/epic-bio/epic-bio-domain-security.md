@@ -26,7 +26,7 @@ source_filename: epic-bio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: epicrispr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 08:00:53 2026 GMT\n  hsts: false\ndomains:\n- domain: epicrispr.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/epic-bio/refs/heads/main/security/epic-bio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/epic-bio/security/epic-bio-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

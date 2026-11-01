@@ -7,37 +7,37 @@ api_specs:
   label: SearchStax Authentication API
   slug: searchstax-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/openapi/searchstax-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/searchstax/openapi/searchstax-authentication-api-openapi.yml
 - filename: searchstax-backup-api-openapi.yml
   format: yaml
   label: SearchStax Backup API
   slug: searchstax-backup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/openapi/searchstax-backup-api-openapi.yml
+  url: https://artifacts.apis.io/searchstax/openapi/searchstax-backup-api-openapi.yml
 - filename: searchstax-deployments-api-openapi.yml
   format: yaml
   label: SearchStax Deployments API
   slug: searchstax-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/openapi/searchstax-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/searchstax/openapi/searchstax-deployments-api-openapi.yml
 - filename: searchstax-nodes-api-openapi.yml
   format: yaml
   label: SearchStax Nodes API
   slug: searchstax-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/openapi/searchstax-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/searchstax/openapi/searchstax-nodes-api-openapi.yml
 - filename: searchstax-plans-api-openapi.yml
   format: yaml
   label: SearchStax Plans API
   slug: searchstax-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/openapi/searchstax-plans-api-openapi.yml
+  url: https://artifacts.apis.io/searchstax/openapi/searchstax-plans-api-openapi.yml
 - filename: searchstax-usage-api-openapi.yml
   format: yaml
   label: SearchStax Usage API
   slug: searchstax-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/openapi/searchstax-usage-api-openapi.yml
+  url: https://artifacts.apis.io/searchstax/openapi/searchstax-usage-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +64,7 @@ source_filename: searchstax-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/searchstax-provisioning-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: tokenAuth\n  type: http\n  scheme: bearer\n  description: Token obtained from /obtain-auth-token/ endpoint\n  sources:\n  - openapi/searchstax-provisioning-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/authentication/searchstax-authentication.yml
+source_yaml_url: https://artifacts.apis.io/searchstax/authentication/searchstax-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Search

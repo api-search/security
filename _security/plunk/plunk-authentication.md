@@ -8,43 +8,43 @@ api_specs:
   label: Plunk Campaigns API
   slug: plunk-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/plunk/openapi/plunk-campaigns-api-openapi.yml
 - filename: plunk-contacts-api-openapi.yml
   format: yaml
   label: Plunk Contacts API
   slug: plunk-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/plunk/openapi/plunk-contacts-api-openapi.yml
 - filename: plunk-events-api-openapi.yml
   format: yaml
   label: Plunk Events API
   slug: plunk-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-events-api-openapi.yml
+  url: https://artifacts.apis.io/plunk/openapi/plunk-events-api-openapi.yml
 - filename: plunk-transactional-api-openapi.yml
   format: yaml
   label: Plunk Transactional API
   slug: plunk-transactional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-transactional-api-openapi.yml
+  url: https://artifacts.apis.io/plunk/openapi/plunk-transactional-api-openapi.yml
 - filename: plunk-public-api-api-openapi.yml
   format: yaml
   label: Plunk Public API
   slug: plunk-public-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-public-api-api-openapi.yml
+  url: https://artifacts.apis.io/plunk/openapi/plunk-public-api-api-openapi.yml
 - filename: plunk-segments-api-openapi.yml
   format: yaml
   label: Plunk Segments API
   slug: plunk-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-segments-api-openapi.yml
+  url: https://artifacts.apis.io/plunk/openapi/plunk-segments-api-openapi.yml
 - filename: plunk-templates-api-openapi.yml
   format: yaml
   label: Plunk Templates API
   slug: plunk-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-templates-api-openapi.yml
+  url: https://artifacts.apis.io/plunk/openapi/plunk-templates-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/_origin
   \ is being abused.\nmismatch_behavior:\n  status: 401\n  code: INVALID_API_KEY\n  message_example: 'Invalid secret API key. This endpoint requires a secret key (sk_*), not a public key.'\nmissing_credential:\n  status: 401\n  code: MISSING_AUTH\nrotation:\n  endpoint: \"POST /users/@me/projects/{id}/regenerate-keys\"\n  console: Settings -> API Keys\n  granularity: pair\n  granularity_note: >-\n    The two keys rotate together. There is no way to rotate one without\n    invalidating the other, and there is no grace period — the old keys stop\n    working immediately, so every consumer must be updated in one window.\n  recommended_triggers: [key committed to a public repository, offboarding a contractor, revoking a deployment, periodic rotation policy]\ncompromise_playbook:\n  source: https://docs.useplunk.com/guides/api-keys\n  steps:\n  - Rotate immediately.\n  - Audit the Activity tab for unexpected sends, contact mutations or campaign changes during the exposure window.\n  - Check Billing\
   \ -> Consumption for usage spikes.\n  - Report unauthorized activity to support with the request IDs from the suspicious entries.\nenvironment_separation:\n  test_mode: false\n  note: >-\n    There is NO test/live key split. pk_/sk_ is a capability split, not an\n    environment split, and Plunk publishes no sandbox or test-mode credentials.\n    The documented practice is to run separate Plunk PROJECTS for staging and\n    production so a leaked staging key cannot touch production data. This is why\n    no sandbox/ artifact exists in this repo.\noauth:\n  api_oauth: false\n  console_oauth: true\n  console_providers: [github, google]\n  console_note: >-\n    GET /auth/oauth-config reports which OAuth providers are configured, and\n    https://next-api.useplunk.com/config confirms github and google are enabled\n    on the hosted service. This is human sign-in to the dashboard, not API\n    authorization — there is no authorization server, no scopes and no token\n    endpoint, which is why\
   \ scopes/ is deliberately absent.\nself_hosting:\n  note: >-\n    Self-hosted deployments issue their own key pairs per project against their\n    own base URL; the model is identical because it is the same AGPL-3.0\n    codebase.\n  docs: https://docs.useplunk.com/self-hosting/introduction\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/authentication/plunk-authentication.yml
+source_yaml_url: https://artifacts.apis.io/plunk/authentication/plunk-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Email

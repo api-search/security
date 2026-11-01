@@ -5,43 +5,43 @@ api_specs:
   label: Veryfi Any Documents API
   slug: veryfi-any-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/openapi/veryfi-any-documents-api-openapi.yml
+  url: https://artifacts.apis.io/veryfi/openapi/veryfi-any-documents-api-openapi.yml
 - filename: veryfi-bank-statements-api-openapi.yml
   format: yaml
   label: Veryfi Bank Statements API
   slug: veryfi-bank-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/openapi/veryfi-bank-statements-api-openapi.yml
+  url: https://artifacts.apis.io/veryfi/openapi/veryfi-bank-statements-api-openapi.yml
 - filename: veryfi-checks-api-openapi.yml
   format: yaml
   label: Veryfi Checks API
   slug: veryfi-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/openapi/veryfi-checks-api-openapi.yml
+  url: https://artifacts.apis.io/veryfi/openapi/veryfi-checks-api-openapi.yml
 - filename: veryfi-classification-api-openapi.yml
   format: yaml
   label: Veryfi Classification API
   slug: veryfi-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/openapi/veryfi-classification-api-openapi.yml
+  url: https://artifacts.apis.io/veryfi/openapi/veryfi-classification-api-openapi.yml
 - filename: veryfi-documents-api-openapi.yml
   format: yaml
   label: Veryfi Documents API
   slug: veryfi-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/openapi/veryfi-documents-api-openapi.yml
+  url: https://artifacts.apis.io/veryfi/openapi/veryfi-documents-api-openapi.yml
 - filename: veryfi-w-2-forms-api-openapi.yml
   format: yaml
   label: Veryfi W-2 Forms API
   slug: veryfi-w-2-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/openapi/veryfi-w-2-forms-api-openapi.yml
+  url: https://artifacts.apis.io/veryfi/openapi/veryfi-w-2-forms-api-openapi.yml
 - filename: veryfi-w-9-forms-api-openapi.yml
   format: yaml
   label: Veryfi W-9 Forms API
   slug: veryfi-w-9-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/openapi/veryfi-w-9-forms-api-openapi.yml
+  url: https://artifacts.apis.io/veryfi/openapi/veryfi-w-9-forms-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -60,7 +60,7 @@ source_filename: veryfi-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.veryfi.com/security\nurl: https://www.veryfi.com/security\ncertifications:\n- SOC 2\n- HIPAA\n- GDPR\nevidence:\n- source: https://www.veryfi.com/security\n  keywords:\n  - soc 2\n  - soc2\n  - hipaa\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/security/veryfi-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/veryfi/security/veryfi-trust-center.yml
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Artificial Intelligence

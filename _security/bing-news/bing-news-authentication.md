@@ -8,19 +8,19 @@ api_specs:
   label: Bing News Search News Category API
   slug: bing-news-news-category-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bing-news/refs/heads/main/openapi/bing-news-news-category-api-openapi.yml
+  url: https://artifacts.apis.io/bing-news/openapi/bing-news-news-category-api-openapi.yml
 - filename: bing-news-news-search-api-openapi.yml
   format: yaml
   label: Bing News Search News Search API
   slug: bing-news-news-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bing-news/refs/heads/main/openapi/bing-news-news-search-api-openapi.yml
+  url: https://artifacts.apis.io/bing-news/openapi/bing-news-news-search-api-openapi.yml
 - filename: bing-news-trending-topics-api-openapi.yml
   format: yaml
   label: Bing News Search Trending Topics API
   slug: bing-news-trending-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bing-news/refs/heads/main/openapi/bing-news-trending-topics-api-openapi.yml
+  url: https://artifacts.apis.io/bing-news/openapi/bing-news-trending-topics-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: bing-news-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bing-news-search-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Ocp-Apim-Subscription-Key\n  description: The subscription key received when signing up for the Bing News Search service\n    in the Azure Portal.\n  sources:\n  - openapi/bing-news-search-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bing-news/refs/heads/main/authentication/bing-news-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bing-news/authentication/bing-news-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - News

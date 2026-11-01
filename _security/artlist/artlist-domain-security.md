@@ -5,25 +5,25 @@ api_specs:
   label: Artlist Album API
   slug: artlist-album-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artlist/refs/heads/main/openapi/artlist-album-api-openapi.yml
+  url: https://artifacts.apis.io/artlist/openapi/artlist-album-api-openapi.yml
 - filename: artlist-artist-api-openapi.yml
   format: yaml
   label: Artlist Artist API
   slug: artlist-artist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artlist/refs/heads/main/openapi/artlist-artist-api-openapi.yml
+  url: https://artifacts.apis.io/artlist/openapi/artlist-artist-api-openapi.yml
 - filename: artlist-downloadable-api-openapi.yml
   format: yaml
   label: Artlist Downloadable API
   slug: artlist-downloadable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artlist/refs/heads/main/openapi/artlist-downloadable-api-openapi.yml
+  url: https://artifacts.apis.io/artlist/openapi/artlist-downloadable-api-openapi.yml
 - filename: artlist-song-api-openapi.yml
   format: yaml
   label: Artlist Song API
   slug: artlist-song-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artlist/refs/heads/main/openapi/artlist-song-api-openapi.yml
+  url: https://artifacts.apis.io/artlist/openapi/artlist-song-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: artlist-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: artlist.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 13:18:51 2026 GMT\n  hsts: true\n  hsts_max_age: 604800\n- host: developer.artlist.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 09:34:26 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: business.artlist.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 03:40:06 2026 GMT\n  hsts: null\ndomains:\n- domain: artlist.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/artlist/refs/heads/main/security/artlist-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/artlist/security/artlist-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

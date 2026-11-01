@@ -8,31 +8,31 @@ api_specs:
   label: REKKI Catalog API
   slug: rekki-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/openapi/rekki-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/rekki/openapi/rekki-catalog-api-openapi.yml
 - filename: rekki-connect-customers-api-openapi.yml
   format: yaml
   label: REKKI Connect Customers API
   slug: rekki-connect-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/openapi/rekki-connect-customers-api-openapi.yml
+  url: https://artifacts.apis.io/rekki/openapi/rekki-connect-customers-api-openapi.yml
 - filename: rekki-general-api-openapi.yml
   format: yaml
   label: REKKI General API
   slug: rekki-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/openapi/rekki-general-api-openapi.yml
+  url: https://artifacts.apis.io/rekki/openapi/rekki-general-api-openapi.yml
 - filename: rekki-order-guide-api-openapi.yml
   format: yaml
   label: REKKI Order Guide API
   slug: rekki-order-guide-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/openapi/rekki-order-guide-api-openapi.yml
+  url: https://artifacts.apis.io/rekki/openapi/rekki-order-guide-api-openapi.yml
 - filename: rekki-orders-api-openapi.yml
   format: yaml
   label: REKKI Orders API
   slug: rekki-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/openapi/rekki-orders-api-openapi.yml
+  url: https://artifacts.apis.io/rekki/openapi/rekki-orders-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -59,7 +59,7 @@ source_filename: rekki-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/rekki-supplier-api-openapi-original.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/rekki-supplier-api-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/authentication/rekki-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rekki/authentication/rekki-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

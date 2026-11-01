@@ -5,43 +5,43 @@ api_specs:
   label: Zerodha Alerts API
   slug: zerodha-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerodha/refs/heads/main/openapi/zerodha-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/zerodha/openapi/zerodha-alerts-api-openapi.yml
 - filename: zerodha-gtt-api-openapi.yml
   format: yaml
   label: Zerodha Gtt API
   slug: zerodha-gtt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerodha/refs/heads/main/openapi/zerodha-gtt-api-openapi.yml
+  url: https://artifacts.apis.io/zerodha/openapi/zerodha-gtt-api-openapi.yml
 - filename: zerodha-orders-api-openapi.yml
   format: yaml
   label: Zerodha Orders API
   slug: zerodha-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerodha/refs/heads/main/openapi/zerodha-orders-api-openapi.yml
+  url: https://artifacts.apis.io/zerodha/openapi/zerodha-orders-api-openapi.yml
 - filename: zerodha-portfolio-api-openapi.yml
   format: yaml
   label: Zerodha Portfolio API
   slug: zerodha-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerodha/refs/heads/main/openapi/zerodha-portfolio-api-openapi.yml
+  url: https://artifacts.apis.io/zerodha/openapi/zerodha-portfolio-api-openapi.yml
 - filename: zerodha-session-api-openapi.yml
   format: yaml
   label: Zerodha Session API
   slug: zerodha-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerodha/refs/heads/main/openapi/zerodha-session-api-openapi.yml
+  url: https://artifacts.apis.io/zerodha/openapi/zerodha-session-api-openapi.yml
 - filename: zerodha-trades-api-openapi.yml
   format: yaml
   label: Zerodha Trades API
   slug: zerodha-trades-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerodha/refs/heads/main/openapi/zerodha-trades-api-openapi.yml
+  url: https://artifacts.apis.io/zerodha/openapi/zerodha-trades-api-openapi.yml
 - filename: zerodha-user-api-openapi.yml
   format: yaml
   label: Zerodha User API
   slug: zerodha-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerodha/refs/heads/main/openapi/zerodha-user-api-openapi.yml
+  url: https://artifacts.apis.io/zerodha/openapi/zerodha-user-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: zerodha-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: kite.trade\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  3 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: kite.trade\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zerodha/refs/heads/main/security/zerodha-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zerodha/security/zerodha-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

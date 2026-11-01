@@ -5,25 +5,25 @@ api_specs:
   label: Strimzi Consumer API
   slug: strimzi-consumer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strimzi/refs/heads/main/openapi/strimzi-consumer-api-openapi.yml
+  url: https://artifacts.apis.io/strimzi/openapi/strimzi-consumer-api-openapi.yml
 - filename: strimzi-producer-api-openapi.yml
   format: yaml
   label: Strimzi Producer API
   slug: strimzi-producer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strimzi/refs/heads/main/openapi/strimzi-producer-api-openapi.yml
+  url: https://artifacts.apis.io/strimzi/openapi/strimzi-producer-api-openapi.yml
 - filename: strimzi-seek-api-openapi.yml
   format: yaml
   label: Strimzi Seek API
   slug: strimzi-seek-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strimzi/refs/heads/main/openapi/strimzi-seek-api-openapi.yml
+  url: https://artifacts.apis.io/strimzi/openapi/strimzi-seek-api-openapi.yml
 - filename: strimzi-topics-api-openapi.yml
   format: yaml
   label: Strimzi Topics API
   slug: strimzi-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strimzi/refs/heads/main/openapi/strimzi-topics-api-openapi.yml
+  url: https://artifacts.apis.io/strimzi/openapi/strimzi-topics-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: strimzi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: strimzi.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 16:28:26 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: strimzi.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/strimzi/refs/heads/main/security/strimzi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/strimzi/security/strimzi-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Kafka

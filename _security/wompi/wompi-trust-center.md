@@ -5,37 +5,37 @@ api_specs:
   label: Wompi Merchants API
   slug: wompi-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/openapi/wompi-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/wompi/openapi/wompi-merchants-api-openapi.yml
 - filename: wompi-payment-links-api-openapi.yml
   format: yaml
   label: Wompi Payment Links API
   slug: wompi-payment-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/openapi/wompi-payment-links-api-openapi.yml
+  url: https://artifacts.apis.io/wompi/openapi/wompi-payment-links-api-openapi.yml
 - filename: wompi-payment-sources-api-openapi.yml
   format: yaml
   label: Wompi Payment Sources API
   slug: wompi-payment-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/openapi/wompi-payment-sources-api-openapi.yml
+  url: https://artifacts.apis.io/wompi/openapi/wompi-payment-sources-api-openapi.yml
 - filename: wompi-pse-api-openapi.yml
   format: yaml
   label: Wompi PSE API
   slug: wompi-pse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/openapi/wompi-pse-api-openapi.yml
+  url: https://artifacts.apis.io/wompi/openapi/wompi-pse-api-openapi.yml
 - filename: wompi-tokenization-api-openapi.yml
   format: yaml
   label: Wompi Tokenization API
   slug: wompi-tokenization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/openapi/wompi-tokenization-api-openapi.yml
+  url: https://artifacts.apis.io/wompi/openapi/wompi-tokenization-api-openapi.yml
 - filename: wompi-transactions-api-openapi.yml
   format: yaml
   label: Wompi Transactions API
   slug: wompi-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/openapi/wompi-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/wompi/openapi/wompi-transactions-api-openapi.yml
 certification_count: 2
 certifications:
 - PCI DSS
@@ -53,7 +53,7 @@ source_filename: wompi-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nprobe: false\nsource: https://wompi.co/\nurl: https://wompi.co/\ncertifications:\n- PCI DSS\n- Grupo Bancolombia security & risk controls\nnotes: >-\n  Wompi is operated by Grupo Bancolombia and processes card payments, so it\n  operates under PCI DSS scope. Tokenization keeps raw card data out of merchant\n  systems. Colombian data-protection (Habeas Data / Ley 1581) applies and is\n  reflected in the mandatory personal-data authorization acceptance token.\n  Specific published certification artifacts were not individually probed for\n  this descriptor.\nevidence:\n- source: https://wompi.co/\n  keywords:\n  - pci\n  - tokenizacion\n  - bancolombia\n  - seguridad\n- source: https://docs.wompi.co/en/docs/colombia/tokens-de-aceptacion/\n  keywords:\n  - autorizacion de datos personales\n  - habeas data\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/security/wompi-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/wompi/security/wompi-trust-center.yml
 summary_line: PCI DSS, Grupo Bancolombia security & risk controls
 tags:
 - Payments

@@ -5,37 +5,37 @@ api_specs:
   label: Amazon Panorama Application Instances API
   slug: amazon-panorama-application-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/openapi/amazon-panorama-application-instances-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-panorama/openapi/amazon-panorama-application-instances-api-openapi.yml
 - filename: amazon-panorama-devices-api-openapi.yml
   format: yaml
   label: Amazon Panorama Devices API
   slug: amazon-panorama-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/openapi/amazon-panorama-devices-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-panorama/openapi/amazon-panorama-devices-api-openapi.yml
 - filename: amazon-panorama-jobs-api-openapi.yml
   format: yaml
   label: Amazon Panorama Jobs API
   slug: amazon-panorama-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/openapi/amazon-panorama-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-panorama/openapi/amazon-panorama-jobs-api-openapi.yml
 - filename: amazon-panorama-nodes-api-openapi.yml
   format: yaml
   label: Amazon Panorama Nodes API
   slug: amazon-panorama-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/openapi/amazon-panorama-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-panorama/openapi/amazon-panorama-nodes-api-openapi.yml
 - filename: amazon-panorama-packages-api-openapi.yml
   format: yaml
   label: Amazon Panorama Packages API
   slug: amazon-panorama-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/openapi/amazon-panorama-packages-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-panorama/openapi/amazon-panorama-packages-api-openapi.yml
 - filename: amazon-panorama-tags-api-openapi.yml
   format: yaml
   label: Amazon Panorama Tags API
   slug: amazon-panorama-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/openapi/amazon-panorama-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-panorama/openapi/amazon-panorama-tags-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -56,7 +56,7 @@ source_filename: amazon-panorama-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://aws.amazon.com/compliance/\nurl: https://aws.amazon.com/compliance/\ncertifications:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://aws.amazon.com/compliance/\n  keywords:\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/security/amazon-panorama-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/amazon-panorama/security/amazon-panorama-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Camera

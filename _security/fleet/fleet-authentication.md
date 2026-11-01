@@ -8,7 +8,7 @@ api_specs:
   label: Fleet API
   slug: fleet-fleet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleet/refs/heads/main/openapi/fleet-fleet-api-openapi.yml
+  url: https://artifacts.apis.io/fleet/openapi/fleet-fleet-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -51,7 +51,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://fleetdm.com/docs/rest-api/rest-api#authentication\ndocs: https://fleetdm.com/docs/rest-api/rest-api#authentication\nsummary:\n  types: [http]\n  http_schemes: [bearer]\n  api_key_in: [header]\n  oauth2_flows: []\n  notes: >-\n    Fleet's REST API uses bearer-token authentication. Tokens are obtained by\n    POST /api/v1/fleet/login (email + password) or, for SSO/MFA users, from the\n    \"My account\" page in the Fleet UI (\"Get API token\"). API-only users are the\n    recommended pattern for automation because their tokens do not expire, unlike\n    regular user session tokens which expire frequently. SSO is supported for\n    human login (SAML/OIDC IdPs).\nschemes:\n  - name: bearerToken\n    type: http\n    scheme: bearer\n    in: header\n    header: Authorization\n    format: 'Bearer <token>'\n    obtained_via:\n      - endpoint: POST /api/v1/fleet/login\n        description: Email + password login returning a\
   \ user object and session token.\n      - ui: /profile (\"My account\" > Get API token)\n        description: Required for SSO/MFA users; API login is disabled for them.\n    sources: [docs]\n  - name: apiOnlyUserToken\n    type: http\n    scheme: bearer\n    in: header\n    header: Authorization\n    description: >-\n      Non-expiring token issued to an API-only user (fleetctl user create\n      --api-only) for automation and GitOps workflows.\n    sources: [docs]\nidentity:\n  sso: true\n  sso_protocols: [saml, oidc]\n  mfa: true\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fleet/refs/heads/main/authentication/fleet-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fleet/authentication/fleet-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Company

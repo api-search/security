@@ -5,31 +5,31 @@ api_specs:
   label: Shadeform Instance Types API
   slug: shadeform-instance-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shadeform/refs/heads/main/openapi/shadeform-instance-types-api-openapi.yml
+  url: https://artifacts.apis.io/shadeform/openapi/shadeform-instance-types-api-openapi.yml
 - filename: shadeform-instances-api-openapi.yml
   format: yaml
   label: Shadeform Instances API
   slug: shadeform-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shadeform/refs/heads/main/openapi/shadeform-instances-api-openapi.yml
+  url: https://artifacts.apis.io/shadeform/openapi/shadeform-instances-api-openapi.yml
 - filename: shadeform-ssh-keys-api-openapi.yml
   format: yaml
   label: Shadeform SSH Keys API
   slug: shadeform-ssh-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shadeform/refs/heads/main/openapi/shadeform-ssh-keys-api-openapi.yml
+  url: https://artifacts.apis.io/shadeform/openapi/shadeform-ssh-keys-api-openapi.yml
 - filename: shadeform-templates-api-openapi.yml
   format: yaml
   label: Shadeform Templates API
   slug: shadeform-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shadeform/refs/heads/main/openapi/shadeform-templates-api-openapi.yml
+  url: https://artifacts.apis.io/shadeform/openapi/shadeform-templates-api-openapi.yml
 - filename: shadeform-volumes-api-openapi.yml
   format: yaml
   label: Shadeform Volumes API
   slug: shadeform-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shadeform/refs/heads/main/openapi/shadeform-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/shadeform/openapi/shadeform-volumes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: shadeform-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.shadeform.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 01:10:06 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.shadeform.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 00:22:48 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.shadeform.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 22:35:33 2026 GMT\n  hsts: null\ndomains:\n- domain: shadeform.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shadeform/refs/heads/main/security/shadeform-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/shadeform/security/shadeform-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - GPU

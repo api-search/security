@@ -8,49 +8,49 @@ api_specs:
   label: Toornament Disciplines API
   slug: toornament-disciplines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toornament/refs/heads/main/openapi/toornament-disciplines-api-openapi.yml
+  url: https://artifacts.apis.io/toornament/openapi/toornament-disciplines-api-openapi.yml
 - filename: toornament-matches-api-openapi.yml
   format: yaml
   label: Toornament Matches API
   slug: toornament-matches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toornament/refs/heads/main/openapi/toornament-matches-api-openapi.yml
+  url: https://artifacts.apis.io/toornament/openapi/toornament-matches-api-openapi.yml
 - filename: toornament-participants-api-openapi.yml
   format: yaml
   label: Toornament Participants API
   slug: toornament-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toornament/refs/heads/main/openapi/toornament-participants-api-openapi.yml
+  url: https://artifacts.apis.io/toornament/openapi/toornament-participants-api-openapi.yml
 - filename: toornament-rankings-api-openapi.yml
   format: yaml
   label: Toornament Rankings API
   slug: toornament-rankings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toornament/refs/heads/main/openapi/toornament-rankings-api-openapi.yml
+  url: https://artifacts.apis.io/toornament/openapi/toornament-rankings-api-openapi.yml
 - filename: toornament-registrations-api-openapi.yml
   format: yaml
   label: Toornament Registrations API
   slug: toornament-registrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toornament/refs/heads/main/openapi/toornament-registrations-api-openapi.yml
+  url: https://artifacts.apis.io/toornament/openapi/toornament-registrations-api-openapi.yml
 - filename: toornament-stages-api-openapi.yml
   format: yaml
   label: Toornament Stages API
   slug: toornament-stages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toornament/refs/heads/main/openapi/toornament-stages-api-openapi.yml
+  url: https://artifacts.apis.io/toornament/openapi/toornament-stages-api-openapi.yml
 - filename: toornament-tournaments-api-openapi.yml
   format: yaml
   label: Toornament Tournaments API
   slug: toornament-tournaments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toornament/refs/heads/main/openapi/toornament-tournaments-api-openapi.yml
+  url: https://artifacts.apis.io/toornament/openapi/toornament-tournaments-api-openapi.yml
 - filename: toornament-webhooks-api-openapi.yml
   format: yaml
   label: Toornament Webhooks API
   slug: toornament-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toornament/refs/heads/main/openapi/toornament-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/toornament/openapi/toornament-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -90,7 +90,7 @@ source_filename: toornament-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/toornament-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-Api-Key\n  description: API key obtained from the Toornament developer dashboard.\n  sources:\n  - openapi/toornament-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.toornament.com/oauth/authorize\n    tokenUrl: https://api.toornament.com/oauth/v2/token\n    scopes: 3\n  description: OAuth2 access token with scoped permissions (organizer:view, organizer:admin).\n  sources:\n  - openapi/toornament-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toornament/refs/heads/main/authentication/toornament-authentication.yml
+source_yaml_url: https://artifacts.apis.io/toornament/authentication/toornament-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Esports

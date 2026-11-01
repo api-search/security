@@ -8,19 +8,19 @@ api_specs:
   label: LOVO AI Speakers API
   slug: lovo-ai-speakers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lovo-ai/refs/heads/main/openapi/lovo-ai-speakers-api-openapi.yml
+  url: https://artifacts.apis.io/lovo-ai/openapi/lovo-ai-speakers-api-openapi.yml
 - filename: lovo-ai-teams-api-openapi.yml
   format: yaml
   label: LOVO AI Teams API
   slug: lovo-ai-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lovo-ai/refs/heads/main/openapi/lovo-ai-teams-api-openapi.yml
+  url: https://artifacts.apis.io/lovo-ai/openapi/lovo-ai-teams-api-openapi.yml
 - filename: lovo-ai-text-to-speech-api-openapi.yml
   format: yaml
   label: LOVO AI Text-to-Speech API
   slug: lovo-ai-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lovo-ai/refs/heads/main/openapi/lovo-ai-text-to-speech-api-openapi.yml
+  url: https://artifacts.apis.io/lovo-ai/openapi/lovo-ai-text-to-speech-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,12 +48,11 @@ source_filename: lovo-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/lovo-ai-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: X-API-KEY\n  type: apiKey\n  in: header\n  parameter: X-API-KEY\n  description: API key generated at https://genny.lovo.ai (profile tab).\n  sources:\n  - openapi/lovo-ai-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lovo-ai/refs/heads/main/authentication/lovo-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lovo-ai/authentication/lovo-ai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence
 - Text-to-Speech
-- TTS
 - Voice Generation
 - Voice Cloning
 - Speech Synthesis

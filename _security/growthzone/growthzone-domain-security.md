@@ -5,37 +5,37 @@ api_specs:
   label: GrowthZone Certifications API
   slug: growthzone-certifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/openapi/growthzone-certifications-api-openapi.yml
+  url: https://artifacts.apis.io/growthzone/openapi/growthzone-certifications-api-openapi.yml
 - filename: growthzone-contacts-api-openapi.yml
   format: yaml
   label: GrowthZone Contacts API
   slug: growthzone-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/openapi/growthzone-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/growthzone/openapi/growthzone-contacts-api-openapi.yml
 - filename: growthzone-events-api-openapi.yml
   format: yaml
   label: GrowthZone Events API
   slug: growthzone-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/openapi/growthzone-events-api-openapi.yml
+  url: https://artifacts.apis.io/growthzone/openapi/growthzone-events-api-openapi.yml
 - filename: growthzone-groups-directory-api-openapi.yml
   format: yaml
   label: GrowthZone Groups & Directory API
   slug: growthzone-groups-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/openapi/growthzone-groups-directory-api-openapi.yml
+  url: https://artifacts.apis.io/growthzone/openapi/growthzone-groups-directory-api-openapi.yml
 - filename: growthzone-memberships-api-openapi.yml
   format: yaml
   label: GrowthZone Memberships API
   slug: growthzone-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/openapi/growthzone-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/growthzone/openapi/growthzone-memberships-api-openapi.yml
 - filename: growthzone-scheduled-billing-api-openapi.yml
   format: yaml
   label: GrowthZone Scheduled Billing API
   slug: growthzone-scheduled-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/openapi/growthzone-scheduled-billing-api-openapi.yml
+  url: https://artifacts.apis.io/growthzone/openapi/growthzone-scheduled-billing-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: growthzone-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.growthzone.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 00:18:29 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: integration.growthzone.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 01:14:54 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: documentation.growthzoneapp.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 21 12:05:35 2026 GMT\n  hsts: false\ndomains:\n- domain: growthzone.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: growthzoneapp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/security/growthzone-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/growthzone/security/growthzone-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Association Management

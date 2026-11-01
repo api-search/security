@@ -5,31 +5,31 @@ api_specs:
   label: HyperVerge Database Verification API
   slug: hyperverge-database-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/openapi/hyperverge-database-verification-api-openapi.yml
+  url: https://artifacts.apis.io/hyperverge/openapi/hyperverge-database-verification-api-openapi.yml
 - filename: hyperverge-face-match-api-openapi.yml
   format: yaml
   label: HyperVerge Face Match API
   slug: hyperverge-face-match-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/openapi/hyperverge-face-match-api-openapi.yml
+  url: https://artifacts.apis.io/hyperverge/openapi/hyperverge-face-match-api-openapi.yml
 - filename: hyperverge-input-validation-api-openapi.yml
   format: yaml
   label: HyperVerge Input Validation API
   slug: hyperverge-input-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/openapi/hyperverge-input-validation-api-openapi.yml
+  url: https://artifacts.apis.io/hyperverge/openapi/hyperverge-input-validation-api-openapi.yml
 - filename: hyperverge-kyc-ocr-api-openapi.yml
   format: yaml
   label: HyperVerge KYC OCR API
   slug: hyperverge-kyc-ocr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/openapi/hyperverge-kyc-ocr-api-openapi.yml
+  url: https://artifacts.apis.io/hyperverge/openapi/hyperverge-kyc-ocr-api-openapi.yml
 - filename: hyperverge-matching-api-openapi.yml
   format: yaml
   label: HyperVerge Matching API
   slug: hyperverge-matching-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/openapi/hyperverge-matching-api-openapi.yml
+  url: https://artifacts.apis.io/hyperverge/openapi/hyperverge-matching-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -98,7 +98,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + REST API hosts\nhosts:\n- host: hyperverge.co\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: Let's Encrypt\n  cert_expires: Aug 31 03:10:52 2026 GMT\n  server: LiteSpeed\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  hsts_preload: true\n- host: documentation.hyperverge.co\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: Amazon\n  cert_expires: Oct 12 23:59:59 2026 GMT\n  server: AmazonS3\n  hsts: false\n- host: ind-docs.hyperverge.co\n  https: true\n  tls_version: TLSv1.2\n  cert_issuer: GoDaddy\n  cert_expires: Jul 15 02:21:43 2026 GMT\n  server: awselb/2.0\n  hsts: false\n  note: Root path returns HTTP 502 (endpoints require appId/appKey and a valid request body).\n- host: ind-verify.hyperverge.co\n  https: true\n  tls_version: TLSv1.2\n  cert_issuer: GoDaddy\n  cert_expires: Jan  3 03:46:05 2027 GMT\n  server: awselb/2.0\n  hsts: false\n  note:\
   \ Root path returns HTTP 502; GET /api returns \"Aok\".\n- host: ind-faceid.hyperverge.co\n  https: true\n  tls_version: TLSv1.2\n  cert_issuer: GoDaddy\n  cert_expires: Jul 15 02:21:43 2026 GMT\n  server: nginx\n  hsts: true\n  hsts_max_age: 63072000\n  hsts_include_subdomains: true\n  hsts_preload: true\ndomains:\n- domain: hyperverge.co\n  dnssec: false\n  caa: []\n  spf: true\n  spf_policy: '-all (hard fail)'\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/security/hyperverge-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hyperverge/security/hyperverge-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Identity Verification

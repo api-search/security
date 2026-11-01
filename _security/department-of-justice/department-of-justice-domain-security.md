@@ -5,49 +5,49 @@ api_specs:
   label: Department of Justice Agency Component API
   slug: department-of-justice-agency-component-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/openapi/department-of-justice-agency-component-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-justice/openapi/department-of-justice-agency-component-api-openapi.yml
 - filename: department-of-justice-agency-taxonomy-api-openapi.yml
   format: yaml
   label: Department of Justice Agency Taxonomy API
   slug: department-of-justice-agency-taxonomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/openapi/department-of-justice-agency-taxonomy-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-justice/openapi/department-of-justice-agency-taxonomy-api-openapi.yml
 - filename: department-of-justice-annual-foia-report-data-api-openapi.yml
   format: yaml
   label: Department of Justice Annual FOIA Report Data API
   slug: department-of-justice-annual-foia-report-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/openapi/department-of-justice-annual-foia-report-data-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-justice/openapi/department-of-justice-annual-foia-report-data-api-openapi.yml
 - filename: department-of-justice-cfo-committee-api-openapi.yml
   format: yaml
   label: Department of Justice CFO Committee API
   slug: department-of-justice-cfo-committee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/openapi/department-of-justice-cfo-committee-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-justice/openapi/department-of-justice-cfo-committee-api-openapi.yml
 - filename: department-of-justice-cfo-council-api-openapi.yml
   format: yaml
   label: Department of Justice CFO Council API
   slug: department-of-justice-cfo-council-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/openapi/department-of-justice-cfo-council-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-justice/openapi/department-of-justice-cfo-council-api-openapi.yml
 - filename: department-of-justice-cfo-meeting-api-openapi.yml
   format: yaml
   label: Department of Justice CFO Meeting API
   slug: department-of-justice-cfo-meeting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/openapi/department-of-justice-cfo-meeting-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-justice/openapi/department-of-justice-cfo-meeting-api-openapi.yml
 - filename: department-of-justice-cfo-page-api-openapi.yml
   format: yaml
   label: Department of Justice CFO Page API
   slug: department-of-justice-cfo-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/openapi/department-of-justice-cfo-page-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-justice/openapi/department-of-justice-cfo-page-api-openapi.yml
 - filename: department-of-justice-quarterly-foia-report-data-api-openapi.yml
   format: yaml
   label: Department of Justice Quarterly FOIA Report Data API
   slug: department-of-justice-quarterly-foia-report-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/openapi/department-of-justice-quarterly-foia-report-data-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-justice/openapi/department-of-justice-quarterly-foia-report-data-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -95,7 +95,7 @@ source_filename: department-of-justice-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.justice.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.foia.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: bjs.ojp.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: justice.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: foia.gov\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/security/department-of-justice-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/department-of-justice/security/department-of-justice-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Bureau of Justice Statistics

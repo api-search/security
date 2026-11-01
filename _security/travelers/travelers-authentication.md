@@ -7,19 +7,19 @@ api_specs:
   label: Travelers Claims API
   slug: travelers-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelers/refs/heads/main/openapi/travelers-claims-api-openapi.yml
+  url: https://artifacts.apis.io/travelers/openapi/travelers-claims-api-openapi.yml
 - filename: travelers-policies-api-openapi.yml
   format: yaml
   label: Travelers Policies API
   slug: travelers-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelers/refs/heads/main/openapi/travelers-policies-api-openapi.yml
+  url: https://artifacts.apis.io/travelers/openapi/travelers-policies-api-openapi.yml
 - filename: travelers-quoting-api-openapi.yml
   format: yaml
   label: Travelers Quoting API
   slug: travelers-quoting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelers/refs/heads/main/openapi/travelers-quoting-api-openapi.yml
+  url: https://artifacts.apis.io/travelers/openapi/travelers-quoting-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -49,7 +49,7 @@ source_filename: travelers-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/travelers-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.travelers.com/oauth/token\n    scopes: 5\n  sources:\n  - openapi/travelers-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/travelers/refs/heads/main/authentication/travelers-authentication.yml
+source_yaml_url: https://artifacts.apis.io/travelers/authentication/travelers-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Insurance
@@ -67,7 +67,7 @@ tags:
 - Homeowners
 - Personal Insurance
 - Risk Management
-- Surety Bonds
+- Surety
 - Telematics
 - Workers Compensation
 ---

@@ -27,7 +27,7 @@ source_filename: twinstrand-biosciences-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-05'\nmethod: derived\nsource: openapi/twinstrand-biosciences-content-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: applicationPassword\n  type: http\n  scheme: basic\n  description: WordPress Application Passwords over HTTP Basic, advertised in the discovery\n    document at authentication.application-passwords.endpoints.authorization = https://twinstrandbio.com/wp-admin/authorize-application.php.\n    Required only for write operations and privileged reads; every operation in this document\n    is anonymously readable.\n  sources:\n  - openapi/twinstrand-biosciences-content-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/twinstrand-biosciences/refs/heads/main/authentication/twinstrand-biosciences-authentication.yml
+source_yaml_url: https://artifacts.apis.io/twinstrand-biosciences/authentication/twinstrand-biosciences-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

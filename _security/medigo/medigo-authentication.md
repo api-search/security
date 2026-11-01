@@ -8,37 +8,37 @@ api_specs:
   label: Medigo Attachments API
   slug: medigo-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/openapi/medigo-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/medigo/openapi/medigo-attachments-api-openapi.yml
 - filename: medigo-inquiries-api-openapi.yml
   format: yaml
   label: Medigo Inquiries API
   slug: medigo-inquiries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/openapi/medigo-inquiries-api-openapi.yml
+  url: https://artifacts.apis.io/medigo/openapi/medigo-inquiries-api-openapi.yml
 - filename: medigo-search-api-openapi.yml
   format: yaml
   label: Medigo Search API
   slug: medigo-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/openapi/medigo-search-api-openapi.yml
+  url: https://artifacts.apis.io/medigo/openapi/medigo-search-api-openapi.yml
 - filename: medigo-second-opinions-api-openapi.yml
   format: yaml
   label: Medigo Second Opinions API
   slug: medigo-second-opinions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/openapi/medigo-second-opinions-api-openapi.yml
+  url: https://artifacts.apis.io/medigo/openapi/medigo-second-opinions-api-openapi.yml
 - filename: medigo-tpa-api-openapi.yml
   format: yaml
   label: Medigo Tpa API
   slug: medigo-tpa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/openapi/medigo-tpa-api-openapi.yml
+  url: https://artifacts.apis.io/medigo/openapi/medigo-tpa-api-openapi.yml
 - filename: medigo-webhooks-api-openapi.yml
   format: yaml
   label: Medigo Webhooks API
   slug: medigo-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/openapi/medigo-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/medigo/openapi/medigo-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: medigo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/medigo-openapi-original.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: partner_token\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: |-\n    Authentication done is via an *API token* provided by MEDIGO. The token should be provided as a bearer in the *Authorization* header of every request\n    Note that the string *Bearer* followed by a whitespace should be prepended to the token.\n    Example:\n\n        GET /v2/ HTTP/1.1\n        Host: https://api.medigo.com\n        Authorization: Bearer <your-api-token>\n  sources:\n  - openapi/medigo-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/authentication/medigo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/medigo/authentication/medigo-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

@@ -5,25 +5,25 @@ api_specs:
   label: DemandSphere Keywords API
   slug: demandsphere-keywords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandsphere/refs/heads/main/openapi/demandsphere-keywords-api-openapi.yml
+  url: https://artifacts.apis.io/demandsphere/openapi/demandsphere-keywords-api-openapi.yml
 - filename: demandsphere-pages-api-openapi.yml
   format: yaml
   label: DemandSphere Pages API
   slug: demandsphere-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandsphere/refs/heads/main/openapi/demandsphere-pages-api-openapi.yml
+  url: https://artifacts.apis.io/demandsphere/openapi/demandsphere-pages-api-openapi.yml
 - filename: demandsphere-searchengines-api-openapi.yml
   format: yaml
   label: DemandSphere SearchEngines API
   slug: demandsphere-searchengines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandsphere/refs/heads/main/openapi/demandsphere-searchengines-api-openapi.yml
+  url: https://artifacts.apis.io/demandsphere/openapi/demandsphere-searchengines-api-openapi.yml
 - filename: demandsphere-sites-api-openapi.yml
   format: yaml
   label: DemandSphere Sites API
   slug: demandsphere-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandsphere/refs/heads/main/openapi/demandsphere-sites-api-openapi.yml
+  url: https://artifacts.apis.io/demandsphere/openapi/demandsphere-sites-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: demandsphere-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: demandsphere.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 00:46:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.demandsphere.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 20:32:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.demandsphere.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 13 06:35:27 2026 GMT\n  hsts: false\ndomains:\n- domain: demandsphere.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/demandsphere/refs/heads/main/security/demandsphere-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/demandsphere/security/demandsphere-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

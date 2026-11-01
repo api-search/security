@@ -5,7 +5,7 @@ api_specs:
   label: Dartmouth College Class Search API
   slug: dartmouth-classsearch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dartmouth/refs/heads/main/openapi/dartmouth-classsearch-api-openapi.yml
+  url: https://artifacts.apis.io/dartmouth/openapi/dartmouth-classsearch-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -51,7 +51,7 @@ source_filename: dartmouth-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: home.dartmouth.edu\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 12 16:28:05 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.dartmouth.edu\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug  1 23:59:59 2026 GMT\n  hsts: null\n- host: rc.dartmouth.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 10:24:19 2026 GMT\n  hsts: false\ndomains:\n- domain: dartmouth.edu\n  dnssec: false\n  caa:\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"emsign.com\"\n  - 0 issuemail \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dartmouth/refs/heads/main/security/dartmouth-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dartmouth/security/dartmouth-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - University

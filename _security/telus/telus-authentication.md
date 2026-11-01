@@ -8,7 +8,7 @@ api_specs:
   label: TELUS Insights Location API
   slug: telus-insights-location-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/telus/refs/heads/main/collections/telus-insights-location-api.postman_collection.json
+  url: https://artifacts.apis.io/telus/collections/telus-insights-location-api.postman_collection.json
 auth_types:
 - oauth2
 - http
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-25'\nmethod: searched\nsource: >-\n  https://d
   \ in addition to the bearer token on every operation.\n  required: true\n  sources: [collections/telus-insights-location-api.postman_collection.json]\n- name: CHRSelfSignedJWT\n  api: TELUS Health CHR Enterprise API\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  header: 'Authorization: Bearer {json_web_token}'\n  signing_algorithm: RS512\n  key_material: >-\n    2048-bit RSA key pair. The consumer generates it, keeps the private key, and registers the\n    public key in PEM format in the \"JWT Public Key\" field of an API Consumer under\n    Settings > Enterprise API in the CHR account.\n  required_claims:\n  - claim: iss\n    requirement: Must match the Issuer value configured on the API Consumer record in CHR.\n  - claim: exp\n    requirement: Must expire within the next 15 minutes (900 seconds).\n  token_endpoint: none\n  client_secret: none\n  notes:\n  - There is no authorization server and no token exchange — the consumer mints its own token.\n  - Every API action is audit-logged;\
   \ requests and responses are retained for 90 days.\n  - Access is a paid feature enabled per CHR account, gated by a Privacy & Security questionnaire.\n  sources:\n  - https://help.inputhealth.com/en/articles/6483215-chr-enterprise-api\n  - https://help.inputhealth.com/en/articles/6483223-making-requests-to-the-api\n  - https://help.inputhealth.com/en/articles/6483229-creating-api-consumers\n- name: CHREventNotificationSignature\n  api: TELUS Health CHR Enterprise API — Event Notification Service\n  type: webhookSignature\n  direction: inbound-to-consumer\n  mechanism: >-\n    The CHR signs each outbound event notification with a shared secret supplied by the consumer\n    when creating the subscription; the resulting signature travels in a request header. The header\n    name is not published in the help centre and was not verified.\n  sources: [https://help.inputhealth.com/en/articles/7988802-chr-enterprise-api-event-notifications]\nportal_authentication:\n- name: TELUS Client Identity\
   \ (PingFederate)\n  where: api.telus.com API Marketplace and insights.telus.com portal sign-in\n  type: oauth2\n  flow: authorizationCode\n  authorization_endpoint: https://auth-gateway.telus.com/as/authorization.oauth2\n  scopes_observed: [ciiLogin, identityinfofulldetail, serviceassociation]\n  note: Human browser sign-in for the portals, not an API grant. Discovery documents return 403 (Cloudflare).\nnot_found:\n  openid_connect_discovery: No /.well-known/openid-configuration is reachable on any TELUS host.\n  mtls: No mutual-TLS requirement is documented on either API.\n  ciba: >-\n    CIBA — the backchannel flow CAMARA specifies for network APIs — appears nowhere on a TELUS\n    property; TELUS publishes no first-party CAMARA endpoint.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/telus/refs/heads/main/authentication/telus-authentication.yml
+source_yaml_url: https://artifacts.apis.io/telus/authentication/telus-authentication.yml
 summary_line: oauth2/http · 4 schemes
 tags:
 - Telecommunications

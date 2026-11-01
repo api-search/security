@@ -5,55 +5,55 @@ api_specs:
   label: Snappr Availability API
   slug: snappr-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/openapi/snappr-availability-api-openapi.yml
+  url: https://artifacts.apis.io/snappr/openapi/snappr-availability-api-openapi.yml
 - filename: snappr-bookings-api-openapi.yml
   format: yaml
   label: Snappr Bookings API
   slug: snappr-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/openapi/snappr-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/snappr/openapi/snappr-bookings-api-openapi.yml
 - filename: snappr-coverage-api-openapi.yml
   format: yaml
   label: Snappr Coverage API
   slug: snappr-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/openapi/snappr-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/snappr/openapi/snappr-coverage-api-openapi.yml
 - filename: snappr-editing-job-types-api-openapi.yml
   format: yaml
   label: Snappr Editing Job Types API
   slug: snappr-editing-job-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/openapi/snappr-editing-job-types-api-openapi.yml
+  url: https://artifacts.apis.io/snappr/openapi/snappr-editing-job-types-api-openapi.yml
 - filename: snappr-editing-jobs-api-openapi.yml
   format: yaml
   label: Snappr Editing Jobs API
   slug: snappr-editing-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/openapi/snappr-editing-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/snappr/openapi/snappr-editing-jobs-api-openapi.yml
 - filename: snappr-images-api-openapi.yml
   format: yaml
   label: Snappr Images API
   slug: snappr-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/openapi/snappr-images-api-openapi.yml
+  url: https://artifacts.apis.io/snappr/openapi/snappr-images-api-openapi.yml
 - filename: snappr-presets-api-openapi.yml
   format: yaml
   label: Snappr Presets API
   slug: snappr-presets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/openapi/snappr-presets-api-openapi.yml
+  url: https://artifacts.apis.io/snappr/openapi/snappr-presets-api-openapi.yml
 - filename: snappr-shoot-types-api-openapi.yml
   format: yaml
   label: Snappr Shoot Types API
   slug: snappr-shoot-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/openapi/snappr-shoot-types-api-openapi.yml
+  url: https://artifacts.apis.io/snappr/openapi/snappr-shoot-types-api-openapi.yml
 - filename: snappr-videos-api-openapi.yml
   format: yaml
   label: Snappr Videos API
   slug: snappr-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/openapi/snappr-videos-api-openapi.yml
+  url: https://artifacts.apis.io/snappr/openapi/snappr-videos-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -92,7 +92,7 @@ source_filename: snappr-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: snappr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 14 23:59:59 2027 GMT\n  hsts: false\n- host: docs.snappr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 08:28:50 2026 GMT\n  hsts: false\n- host: api.snappr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 14 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: snappr.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/security/snappr-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/snappr/security/snappr-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

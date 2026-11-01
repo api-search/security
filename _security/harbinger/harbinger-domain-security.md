@@ -27,7 +27,7 @@ source_filename: harbinger-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: harbingermotors.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 02:44:36 2026 GMT\n  hsts: false\ndomains:\n- domain: harbingermotors.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/security/harbinger-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/harbinger/security/harbinger-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

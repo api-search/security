@@ -7,7 +7,7 @@ api_specs:
   label: Cybrary Completions API
   slug: cybrary-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybrary/refs/heads/main/openapi/cybrary-completions-api-openapi.yml
+  url: https://artifacts.apis.io/cybrary/openapi/cybrary-completions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -38,7 +38,7 @@ source_filename: cybrary-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: searched\nsource: https://help.cybrary.it/completions-export-integration\ndocs: https://help.cybrary.it/completions-export-integration\nderived_from: openapi/cybrary-completions-export-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://app.cybrary.it/auth/oauth/token\n    scopes: 1\n  description: OAuth 2.0 client credentials. Credentials are issued by Cybrary to the customer\n    organization; client authentication is sent as a HTTP Basic Authorization header.\n  sources:\n  - openapi/cybrary-completions-export-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cybrary/refs/heads/main/authentication/cybrary-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cybrary/authentication/cybrary-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

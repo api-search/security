@@ -8,19 +8,19 @@ api_specs:
   label: FinOps Foundation Contract Commitments API
   slug: finops-foundation-contract-commitments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finops-foundation/refs/heads/main/openapi/finops-foundation-contract-commitments-api-openapi.yml
+  url: https://artifacts.apis.io/finops-foundation/openapi/finops-foundation-contract-commitments-api-openapi.yml
 - filename: finops-foundation-cost-and-usage-api-openapi.yml
   format: yaml
   label: FinOps Foundation Cost and Usage API
   slug: finops-foundation-cost-and-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finops-foundation/refs/heads/main/openapi/finops-foundation-cost-and-usage-api-openapi.yml
+  url: https://artifacts.apis.io/finops-foundation/openapi/finops-foundation-cost-and-usage-api-openapi.yml
 - filename: finops-foundation-schema-metadata-api-openapi.yml
   format: yaml
   label: FinOps Foundation Schema Metadata API
   slug: finops-foundation-schema-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finops-foundation/refs/heads/main/openapi/finops-foundation-schema-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/finops-foundation/openapi/finops-foundation-schema-metadata-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -55,7 +55,7 @@ source_filename: finops-foundation-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/finops-foundation-focus-cost-and-usage-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token authentication for FOCUS API access.\n  sources:\n  - openapi/finops-foundation-focus-cost-and-usage-openapi.yml\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: API key authentication for FOCUS API access.\n  sources:\n  - openapi/finops-foundation-focus-cost-and-usage-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/finops-foundation/refs/heads/main/authentication/finops-foundation-authentication.yml
+source_yaml_url: https://artifacts.apis.io/finops-foundation/authentication/finops-foundation-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Budgets

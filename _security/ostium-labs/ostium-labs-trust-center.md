@@ -5,7 +5,7 @@ api_specs:
   label: Ostium Builder API
   slug: ostium-builder-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ostium-labs/refs/heads/main/asyncapi/ostium-labs-prices-asyncapi.yml
+  url: https://artifacts.apis.io/ostium-labs/asyncapi/ostium-labs-prices-asyncapi.yml
 certification_count: 0
 certifications: []
 description: ''
@@ -22,7 +22,7 @@ source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nprobe: true\nurl: https://docs.ostium.com/protocol/security/audits\ntype: smart-contract-audit-program\ncertifications: []\naudits:\n- firm: Zellic\n  engagements: [February 2024, November 2025]\n  scope: Trading, vault, and liquidation contracts\n  finding: No critical vulnerabilities identified in either engagement.\n- firm: ThreeSigma\n  engagements: ['2024-02-19 to 2024-03-22']\n  scope: Trading contracts, OLP vault mechanics, fee calculations\n  finding: No critical or high-severity vulnerabilities.\n- firm: Pashov Audit Group\n  engagements: [January 2025, April 2025, January 2026]\n  scope: 13 core contracts post-Jump Liquidity Upgrade\n  finding: All three reviews confirmed no critical vulnerabilities.\nbug_bounty: https://immunefi.com/bug-bounty/ostium/\nnotes: >-\n  Ostium's trust posture is a published independent smart-contract audit program\n  plus an Immunefi bug bounty. It does not publish enterprise compliance\n  certifications\
   \ (SOC 2 / ISO 27001 / PCI DSS), so no named certifications are listed.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ostium-labs/refs/heads/main/security/ostium-labs-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/ostium-labs/security/ostium-labs-trust-center.yml
 summary_line: trust center published
 tags:
 - Company

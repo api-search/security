@@ -5,19 +5,19 @@ api_specs:
   label: GetVocal Contact API
   slug: getvocal-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/openapi/getvocal-contact-api-openapi.yml
+  url: https://artifacts.apis.io/getvocal/openapi/getvocal-contact-api-openapi.yml
 - filename: getvocal-llms-txt-api-openapi.yml
   format: yaml
   label: GetVocal Llms.txt API
   slug: getvocal-llms-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/openapi/getvocal-llms-txt-api-openapi.yml
+  url: https://artifacts.apis.io/getvocal/openapi/getvocal-llms-txt-api-openapi.yml
 - filename: getvocal-well-known-api-openapi.yml
   format: yaml
   label: GetVocal .well Known API
   slug: getvocal-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/openapi/getvocal-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/getvocal/openapi/getvocal-well-known-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: getvocal-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.getvocal.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 22:31:12 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: getvocal.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/security/getvocal-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/getvocal/security/getvocal-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

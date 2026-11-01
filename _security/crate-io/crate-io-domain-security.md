@@ -38,7 +38,7 @@ source_filename: crate-io-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cratedb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 06:48:30 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: console.cratedb.cloud\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 13:25:41 2026 GMT\n  hsts: false\ndomains:\n- domain: cratedb.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: cratedb.cloud\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crate-io/refs/heads/main/security/crate-io-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/crate-io/security/crate-io-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
@@ -47,7 +47,7 @@ tags:
 - Distributed Database
 - Analytics
 - Time Series
-- Vector Database
+- Vector Search
 - IoT
 - Cloud
 - Developer Tools

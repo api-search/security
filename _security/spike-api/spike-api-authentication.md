@@ -7,67 +7,67 @@ api_specs:
   label: Spike Auth API
   slug: spike-api-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-api/refs/heads/main/openapi/spike-api-auth-api-openapi.yml
+  url: https://artifacts.apis.io/spike-api/openapi/spike-api-auth-api-openapi.yml
 - filename: spike-api-lab-reports-api-openapi.yml
   format: yaml
   label: Spike Lab Reports API
   slug: spike-api-lab-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-api/refs/heads/main/openapi/spike-api-lab-reports-api-openapi.yml
+  url: https://artifacts.apis.io/spike-api/openapi/spike-api-lab-reports-api-openapi.yml
 - filename: spike-api-nutrition-ai-api-openapi.yml
   format: yaml
   label: Spike Nutrition AI API
   slug: spike-api-nutrition-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-api/refs/heads/main/openapi/spike-api-nutrition-ai-api-openapi.yml
+  url: https://artifacts.apis.io/spike-api/openapi/spike-api-nutrition-ai-api-openapi.yml
 - filename: spike-api-provider-integrations-api-openapi.yml
   format: yaml
   label: Spike Provider Integrations API
   slug: spike-api-provider-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-api/refs/heads/main/openapi/spike-api-provider-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/spike-api/openapi/spike-api-provider-integrations-api-openapi.yml
 - filename: spike-api-provider-records-api-openapi.yml
   format: yaml
   label: Spike Provider Records API
   slug: spike-api-provider-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-api/refs/heads/main/openapi/spike-api-provider-records-api-openapi.yml
+  url: https://artifacts.apis.io/spike-api/openapi/spike-api-provider-records-api-openapi.yml
 - filename: spike-api-sdk-push-api-openapi.yml
   format: yaml
   label: Spike SDK Push API
   slug: spike-api-sdk-push-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-api/refs/heads/main/openapi/spike-api-sdk-push-api-openapi.yml
+  url: https://artifacts.apis.io/spike-api/openapi/spike-api-sdk-push-api-openapi.yml
 - filename: spike-api-sleep-api-openapi.yml
   format: yaml
   label: Spike Sleep API
   slug: spike-api-sleep-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-api/refs/heads/main/openapi/spike-api-sleep-api-openapi.yml
+  url: https://artifacts.apis.io/spike-api/openapi/spike-api-sleep-api-openapi.yml
 - filename: spike-api-statistics-api-openapi.yml
   format: yaml
   label: Spike Statistics API
   slug: spike-api-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-api/refs/heads/main/openapi/spike-api-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/spike-api/openapi/spike-api-statistics-api-openapi.yml
 - filename: spike-api-time-series-api-openapi.yml
   format: yaml
   label: Spike Time Series API
   slug: spike-api-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-api/refs/heads/main/openapi/spike-api-time-series-api-openapi.yml
+  url: https://artifacts.apis.io/spike-api/openapi/spike-api-time-series-api-openapi.yml
 - filename: spike-api-users-api-openapi.yml
   format: yaml
   label: Spike Users API
   slug: spike-api-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-api/refs/heads/main/openapi/spike-api-users-api-openapi.yml
+  url: https://artifacts.apis.io/spike-api/openapi/spike-api-users-api-openapi.yml
 - filename: spike-api-workouts-api-openapi.yml
   format: yaml
   label: Spike Workouts API
   slug: spike-api-workouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-api/refs/heads/main/openapi/spike-api-workouts-api-openapi.yml
+  url: https://artifacts.apis.io/spike-api/openapi/spike-api-workouts-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -94,7 +94,7 @@ source_filename: spike-api-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/spike-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearer\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/spike-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spike-api/refs/heads/main/authentication/spike-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/spike-api/authentication/spike-api-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Health Data

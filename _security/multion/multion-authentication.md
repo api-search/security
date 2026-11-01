@@ -26,7 +26,7 @@ source_filename: multion-authentication.yml
 source_heading: Authentication Profile
 source_url: https://docs.multion.ai/quick-start.md
 source_yaml: "generated: '2026-10-14'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://docs.multion.ai/quick-start.md\nsources:\n- https://docs.multion.ai/quick-start.md\ndescription: Authentication uses an API key sent in a request header.\nschemes:\n- type: apiKey\n  name: API key\n  evidence: '-H \"X_MULTION_API_KEY: MULTION_API_KEY\"'\n  location: header\n  header: X_MULTION_API_KEY\n  how_to_obtain: Create a new API key in the developer console at https://app.multion.ai/api-keys.\nnote: No OAuth2 or other authentication schemes are documented on the page.\ndocs: https://docs.multion.ai/quick-start.md\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/multion/refs/heads/main/authentication/multion-authentication.yml
+source_yaml_url: https://artifacts.apis.io/multion/authentication/multion-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company

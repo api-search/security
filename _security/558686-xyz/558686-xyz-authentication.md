@@ -7,67 +7,67 @@ api_specs:
   label: gpt55-token-gateway Base Usdc API
   slug: 558686-xyz-base-usdc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/558686-xyz/refs/heads/main/openapi/558686-xyz-base-usdc-api-openapi.yml
+  url: https://artifacts.apis.io/558686-xyz/openapi/558686-xyz-base-usdc-api-openapi.yml
 - filename: 558686-xyz-gpt55-model-gateway-api-openapi.yml
   format: yaml
   label: gpt55-token-gateway Gpt55 Model Gateway API
   slug: 558686-xyz-gpt55-model-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/558686-xyz/refs/heads/main/openapi/558686-xyz-gpt55-model-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/558686-xyz/openapi/558686-xyz-gpt55-model-gateway-api-openapi.yml
 - filename: 558686-xyz-gpt55-retained-high-intent-api-openapi.yml
   format: yaml
   label: gpt55-token-gateway Gpt55 Retained High Intent API
   slug: 558686-xyz-gpt55-retained-high-intent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/558686-xyz/refs/heads/main/openapi/558686-xyz-gpt55-retained-high-intent-api-openapi.yml
+  url: https://artifacts.apis.io/558686-xyz/openapi/558686-xyz-gpt55-retained-high-intent-api-openapi.yml
 - filename: 558686-xyz-gpt55-retained-nonmodel-api-openapi.yml
   format: yaml
   label: gpt55-token-gateway Gpt55 Retained Nonmodel API
   slug: 558686-xyz-gpt55-retained-nonmodel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/558686-xyz/refs/heads/main/openapi/558686-xyz-gpt55-retained-nonmodel-api-openapi.yml
+  url: https://artifacts.apis.io/558686-xyz/openapi/558686-xyz-gpt55-retained-nonmodel-api-openapi.yml
 - filename: 558686-xyz-models-api-openapi.yml
   format: yaml
   label: gpt55-token-gateway Models API
   slug: 558686-xyz-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/558686-xyz/refs/heads/main/openapi/558686-xyz-models-api-openapi.yml
+  url: https://artifacts.apis.io/558686-xyz/openapi/558686-xyz-models-api-openapi.yml
 - filename: 558686-xyz-responses-api-openapi.yml
   format: yaml
   label: gpt55-token-gateway Responses API
   slug: 558686-xyz-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/558686-xyz/refs/heads/main/openapi/558686-xyz-responses-api-openapi.yml
+  url: https://artifacts.apis.io/558686-xyz/openapi/558686-xyz-responses-api-openapi.yml
 - filename: 558686-xyz-utility-tools-api-openapi.yml
   format: yaml
   label: gpt55-token-gateway Utility Tools API
   slug: 558686-xyz-utility-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/558686-xyz/refs/heads/main/openapi/558686-xyz-utility-tools-api-openapi.yml
+  url: https://artifacts.apis.io/558686-xyz/openapi/558686-xyz-utility-tools-api-openapi.yml
 - filename: 558686-xyz-wallet-security-api-openapi.yml
   format: yaml
   label: gpt55-token-gateway Wallet Security API
   slug: 558686-xyz-wallet-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/558686-xyz/refs/heads/main/openapi/558686-xyz-wallet-security-api-openapi.yml
+  url: https://artifacts.apis.io/558686-xyz/openapi/558686-xyz-wallet-security-api-openapi.yml
 - filename: 558686-xyz-wallet-signing-safety-pack-api-openapi.yml
   format: yaml
   label: gpt55-token-gateway Wallet Signing Safety Pack API
   slug: 558686-xyz-wallet-signing-safety-pack-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/558686-xyz/refs/heads/main/openapi/558686-xyz-wallet-signing-safety-pack-api-openapi.yml
+  url: https://artifacts.apis.io/558686-xyz/openapi/558686-xyz-wallet-signing-safety-pack-api-openapi.yml
 - filename: 558686-xyz-x402-api-openapi.yml
   format: yaml
   label: gpt55-token-gateway X402 API
   slug: 558686-xyz-x402-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/558686-xyz/refs/heads/main/openapi/558686-xyz-x402-api-openapi.yml
+  url: https://artifacts.apis.io/558686-xyz/openapi/558686-xyz-x402-api-openapi.yml
 - filename: 558686-xyz-chat-completions-api-openapi.yml
   format: yaml
   label: gpt55-token-gateway Chat Completions API
   slug: 558686-xyz-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/558686-xyz/refs/heads/main/openapi/558686-xyz-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/558686-xyz/openapi/558686-xyz-chat-completions-api-openapi.yml
 auth_types:
 - x402-payment
 - http-bearer
@@ -163,7 +163,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: >-\n  Derived b
   \ one. An unpaid request with an invalid X-PAYMENT header returned the ordinary 402 quote, not a 401.'\n- name: none\n  api: 'GPT55 discovery surface + GPT-5.5 Utility Tools for API.market (gpt55.558686.xyz/api-market)'\n  type: none\n  declared_in_spec: 'api-market OpenAPI declares no securitySchemes; its description says commercial access is configured in API.market'\n  observed: 'GET /api-market/v1/tools/timestamp and /text-stats answered 200 with no credential and no payment (2026-09-20); GET /v1/models, MCP initialize/tools/list/resources/list and every manifest likewise anonymous.'\n- name: bearerAuth\n  api: Sub2API OpenAI-compatible API (sub2api.558686.xyz, api.558686.xyz)\n  type: http\n  scheme: bearer\n  bearerFormat: API key\n  declared_in_spec: true\n  sources: [openapi/558686-xyz-sub2api-openapi.json]\n  alternate_carriers: ['x-api-key header', 'query key (named in the 401 message, truncated in the observed body)']\n  errors: {missing: '401 {\"code\":\"API_KEY_REQUIRED\"\
   ,\"message\":\"API key is required in Authorization header (Bearer scheme), x-api-key header, or ...\"}', invalid: '401 {\"code\":\"INVALID_API_KEY\",\"message\":\"Invalid API key\"}'}\n  key_issuance: 'Console https://sub2api.558686.xyz/keys after email registration + verification; docs: \"创建成功后立即保存完整 Key，它通常只会完整显示一次\" (the full key is normally shown only once). Registration is CLOSED per /verify-models (registration_enabled=false, google_oauth_enabled=false); \"contact the administrator for a test key\".'\n  base_url_for_clients: https://sub2api.558686.xyz/v1\n  applies_to: all three operations (GET /v1/models, POST /v1/chat/completions, POST /v1/responses)\nmcp:\n  endpoint: https://gpt55.558686.xyz/mcp\n  auth: none for initialize / tools/list / resources/list; tool results are HTTP routes that require the x402 payment above\n  declared: '/mcp/config authentication {type: x402-payment-header, apiKeyRequired: false, accountRequired: false, kycRequired: false, quoteFirst: true}'\na2a:\n\
   \  endpoint: https://gpt55.558686.xyz/a2a\n  auth: 'agent card authentication: [{schemes: [x402]}]; payment.accepts[] carries the requirement'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/558686-xyz/refs/heads/main/authentication/558686-xyz-authentication.yml
+source_yaml_url: https://artifacts.apis.io/558686-xyz/authentication/558686-xyz-authentication.yml
 summary_line: x402-payment/http-bearer/api-key-header · 4 schemes
 tags:
 - x402

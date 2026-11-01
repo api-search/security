@@ -7,61 +7,61 @@ api_specs:
   label: Fin Authentication API
   slug: fin-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/fin/openapi/fin-authentication-api-openapi.yml
 - filename: fin-balances-api-openapi.yml
   format: yaml
   label: Fin Balances API
   slug: fin-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-balances-api-openapi.yml
+  url: https://artifacts.apis.io/fin/openapi/fin-balances-api-openapi.yml
 - filename: fin-beneficiaries-api-openapi.yml
   format: yaml
   label: Fin Beneficiaries API
   slug: fin-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/fin/openapi/fin-beneficiaries-api-openapi.yml
 - filename: fin-catalogue-api-openapi.yml
   format: yaml
   label: Fin Catalogue API
   slug: fin-catalogue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-catalogue-api-openapi.yml
+  url: https://artifacts.apis.io/fin/openapi/fin-catalogue-api-openapi.yml
 - filename: fin-crypto-orchestration-api-openapi.yml
   format: yaml
   label: Fin Crypto Orchestration API
   slug: fin-crypto-orchestration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-crypto-orchestration-api-openapi.yml
+  url: https://artifacts.apis.io/fin/openapi/fin-crypto-orchestration-api-openapi.yml
 - filename: fin-customers-api-openapi.yml
   format: yaml
   label: Fin Customers API
   slug: fin-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-customers-api-openapi.yml
+  url: https://artifacts.apis.io/fin/openapi/fin-customers-api-openapi.yml
 - filename: fin-fees-fx-rates-api-openapi.yml
   format: yaml
   label: Fin Fees & FX Rates API
   slug: fin-fees-fx-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-fees-fx-rates-api-openapi.yml
+  url: https://artifacts.apis.io/fin/openapi/fin-fees-fx-rates-api-openapi.yml
 - filename: fin-transactions-api-openapi.yml
   format: yaml
   label: Fin Transactions API
   slug: fin-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/fin/openapi/fin-transactions-api-openapi.yml
 - filename: fin-virtual-accounts-api-openapi.yml
   format: yaml
   label: Fin Virtual Accounts API
   slug: fin-virtual-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-virtual-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/fin/openapi/fin-virtual-accounts-api-openapi.yml
 - filename: fin-webhooks-api-openapi.yml
   format: yaml
   label: Fin Webhooks API
   slug: fin-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/fin/openapi/fin-webhooks-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -92,7 +92,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/fin-openapi-original.yml\ndocs: https://developer.fin.com/api-reference/authentication/issue-a-token\nsummary:\n  types:\n  - http\n  - oauth2\n  api_key_in: []\n  oauth2_flows:\n  - clientCredentials\n  notes: >-\n    The OpenAPI declares a single http bearer (JWT) security scheme applied to\n    all operations. Per the docs the bearer token is obtained via an OAuth 2.0\n    client-credentials flow with an enhanced refresh mechanism: exchange client\n    credentials at POST /v1/oauth/token to receive an access token + refresh\n    token, then renew via POST /v1/oauth/refresh-token without re-authenticating.\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Bearer token authentication. Obtain token from the Issue a Token endpoint.\n  sources:\n  - openapi/fin-openapi-original.yml\nflows:\n- flow: clientCredentials\n  token_endpoint: https://api.fin.com/v1/oauth/token\n\
   \  refresh_endpoint: https://api.fin.com/v1/oauth/refresh-token\n  sandbox_token_endpoint: https://sandbox.api.fin.com/v1/oauth/token\n  docs: https://developer.fin.com/api-reference/authentication/issue-a-token\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/authentication/fin-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fin/authentication/fin-authentication.yml
 summary_line: http/oauth2 · 1 scheme
 tags:
 - Company

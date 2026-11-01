@@ -8,91 +8,91 @@ api_specs:
   label: Venminder (Digital Comply) Contact API
   slug: venminder-digital-comply-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-contact-api-openapi.yml
+  url: https://artifacts.apis.io/venminder-digital-comply/openapi/venminder-digital-comply-contact-api-openapi.yml
 - filename: venminder-digital-comply-contracts-api-openapi.yml
   format: yaml
   label: Venminder (Digital Comply) Contracts API
   slug: venminder-digital-comply-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/venminder-digital-comply/openapi/venminder-digital-comply-contracts-api-openapi.yml
 - filename: venminder-digital-comply-data-api-openapi.yml
   format: yaml
   label: Venminder (Digital Comply) Data API
   slug: venminder-digital-comply-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-data-api-openapi.yml
+  url: https://artifacts.apis.io/venminder-digital-comply/openapi/venminder-digital-comply-data-api-openapi.yml
 - filename: venminder-digital-comply-documents-api-openapi.yml
   format: yaml
   label: Venminder (Digital Comply) Documents API
   slug: venminder-digital-comply-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-documents-api-openapi.yml
+  url: https://artifacts.apis.io/venminder-digital-comply/openapi/venminder-digital-comply-documents-api-openapi.yml
 - filename: venminder-digital-comply-issues-api-openapi.yml
   format: yaml
   label: Venminder (Digital Comply) Issues API
   slug: venminder-digital-comply-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-issues-api-openapi.yml
+  url: https://artifacts.apis.io/venminder-digital-comply/openapi/venminder-digital-comply-issues-api-openapi.yml
 - filename: venminder-digital-comply-oversightrequirement-api-openapi.yml
   format: yaml
   label: Venminder (Digital Comply) OversightRequirement API
   slug: venminder-digital-comply-oversightrequirement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-oversightrequirement-api-openapi.yml
+  url: https://artifacts.apis.io/venminder-digital-comply/openapi/venminder-digital-comply-oversightrequirement-api-openapi.yml
 - filename: venminder-digital-comply-oversighttask-api-openapi.yml
   format: yaml
   label: Venminder (Digital Comply) OversightTask API
   slug: venminder-digital-comply-oversighttask-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-oversighttask-api-openapi.yml
+  url: https://artifacts.apis.io/venminder-digital-comply/openapi/venminder-digital-comply-oversighttask-api-openapi.yml
 - filename: venminder-digital-comply-questionnaire-api-openapi.yml
   format: yaml
   label: Venminder (Digital Comply) Questionnaire API
   slug: venminder-digital-comply-questionnaire-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-questionnaire-api-openapi.yml
+  url: https://artifacts.apis.io/venminder-digital-comply/openapi/venminder-digital-comply-questionnaire-api-openapi.yml
 - filename: venminder-digital-comply-services-api-openapi.yml
   format: yaml
   label: Venminder (Digital Comply) Services API
   slug: venminder-digital-comply-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-services-api-openapi.yml
+  url: https://artifacts.apis.io/venminder-digital-comply/openapi/venminder-digital-comply-services-api-openapi.yml
 - filename: venminder-digital-comply-vendoronboarding-api-openapi.yml
   format: yaml
   label: Venminder (Digital Comply) VendorOnboarding API
   slug: venminder-digital-comply-vendoronboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-vendoronboarding-api-openapi.yml
+  url: https://artifacts.apis.io/venminder-digital-comply/openapi/venminder-digital-comply-vendoronboarding-api-openapi.yml
 - filename: venminder-digital-comply-vendors-api-openapi.yml
   format: yaml
   label: Venminder (Digital Comply) Vendors API
   slug: venminder-digital-comply-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/venminder-digital-comply/openapi/venminder-digital-comply-vendors-api-openapi.yml
 - filename: venminder-digital-comply-vendorspend-api-openapi.yml
   format: yaml
   label: Venminder (Digital Comply) VendorSpend API
   slug: venminder-digital-comply-vendorspend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-vendorspend-api-openapi.yml
+  url: https://artifacts.apis.io/venminder-digital-comply/openapi/venminder-digital-comply-vendorspend-api-openapi.yml
 - filename: venminder-digital-comply-venmonitor-api-openapi.yml
   format: yaml
   label: Venminder (Digital Comply) Venmonitor API
   slug: venminder-digital-comply-venmonitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-venmonitor-api-openapi.yml
+  url: https://artifacts.apis.io/venminder-digital-comply/openapi/venminder-digital-comply-venmonitor-api-openapi.yml
 - filename: venminder-digital-comply-business-unit-api-openapi.yml
   format: yaml
   label: Venminder (Digital Comply) Business Unit API
   slug: venminder-digital-comply-business-unit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-business-unit-api-openapi.yml
+  url: https://artifacts.apis.io/venminder-digital-comply/openapi/venminder-digital-comply-business-unit-api-openapi.yml
 - filename: venminder-digital-comply-client-information-api-openapi.yml
   format: yaml
   label: Venminder (Digital Comply) Client information API
   slug: venminder-digital-comply-client-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-client-information-api-openapi.yml
+  url: https://artifacts.apis.io/venminder-digital-comply/openapi/venminder-digital-comply-client-information-api-openapi.yml
 auth_types:
 - oauth2
 - apiKey
@@ -132,7 +132,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/venminder-digital-comply-openapi-original.json + https://developers.venminder.com/ (Getting\n  Started, Venminder Token pages)\ndocs: https://developers.venminder.com/318218fb2/p/325101-getting-started\nsummary:\n  types:\n  - oauth2\n  - apiKey\n  api_key_in:\n  - header\n  oauth2_flows:\n  - clientCredentials\n  transport: HTTPS with TLS 1.2 required\nnotes: 'Authentication is OAuth 2.0 / OpenID Connect bearer tokens using the client-credentials grant.\n  Customers create an API Key (Client ID + Client Secret + expiration) in the Venminder Admin Panel (requires\n  the API Key Manager role; the API feature itself must be enabled by Venminder). The token endpoint is\n  https://login.venminder.com/connect/token with scope venminderApi; the resulting access token is sent\n  as an Authorization: Bearer header to rsd.venminder.com. Access tokens expire and must be refreshed\n  by re-authenticating.'\ntoken_endpoint: https://login.venminder.com/connect/token\n\
   grant_type: client_credentials\nscope: venminderApi\nexample: curl -v -X POST -d \"grant_type=client_credentials&scope=venminderApi\" -u <api_key>:<client_secret>\n  https://login.venminder.com/connect/token\noidc_discovery: well-known/venminder-digital-comply-openid-configuration.json\nschemes:\n- name: Bearer\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Please insert access token with Bearer into field eg. Bearer eyJhbGciOiJSUzI1Ni and click\n    authorize.\n  sources:\n  - openapi/venminder-digital-comply-openapi-original.json\n- name: OAuth2 client credentials (docs)\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.venminder.com/connect/token\n    scopes:\n      venminderApi: Access to the Venminder API\n  sources:\n  - https://developers.venminder.com/ Token page\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/authentication/venminder-digital-comply-authentication.yml
+source_yaml_url: https://artifacts.apis.io/venminder-digital-comply/authentication/venminder-digital-comply-authentication.yml
 summary_line: oauth2/apiKey · 2 schemes
 tags:
 - Company

@@ -5,49 +5,49 @@ api_specs:
   label: PayStand Balances API
   slug: paystand-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-balances-api-openapi.yml
+  url: https://artifacts.apis.io/paystand/openapi/paystand-balances-api-openapi.yml
 - filename: paystand-banks-api-openapi.yml
   format: yaml
   label: PayStand Banks API
   slug: paystand-banks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-banks-api-openapi.yml
+  url: https://artifacts.apis.io/paystand/openapi/paystand-banks-api-openapi.yml
 - filename: paystand-oauth-api-openapi.yml
   format: yaml
   label: PayStand OAuth API
   slug: paystand-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/paystand/openapi/paystand-oauth-api-openapi.yml
 - filename: paystand-payers-api-openapi.yml
   format: yaml
   label: PayStand Payers API
   slug: paystand-payers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-payers-api-openapi.yml
+  url: https://artifacts.apis.io/paystand/openapi/paystand-payers-api-openapi.yml
 - filename: paystand-payments-api-openapi.yml
   format: yaml
   label: PayStand Payments API
   slug: paystand-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-payments-api-openapi.yml
+  url: https://artifacts.apis.io/paystand/openapi/paystand-payments-api-openapi.yml
 - filename: paystand-refunds-api-openapi.yml
   format: yaml
   label: PayStand Refunds API
   slug: paystand-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/paystand/openapi/paystand-refunds-api-openapi.yml
 - filename: paystand-transfers-api-openapi.yml
   format: yaml
   label: PayStand Transfers API
   slug: paystand-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/paystand/openapi/paystand-transfers-api-openapi.yml
 - filename: paystand-withdrawals-api-openapi.yml
   format: yaml
   label: PayStand Withdrawals API
   slug: paystand-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/paystand/openapi/paystand-withdrawals-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ source_filename: paystand-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.paystand.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 18:11:18 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.paystand.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 08:35:39 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.paystand.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 15:30:17 2026 GMT\n  hsts: null\ndomains:\n- domain: paystand.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/security/paystand-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/paystand/security/paystand-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

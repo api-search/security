@@ -5,55 +5,55 @@ api_specs:
   label: Shopmonkey Appointments API
   slug: shopmonkey-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/openapi/shopmonkey-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/shopmonkey/openapi/shopmonkey-appointments-api-openapi.yml
 - filename: shopmonkey-customers-api-openapi.yml
   format: yaml
   label: Shopmonkey Customers API
   slug: shopmonkey-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/openapi/shopmonkey-customers-api-openapi.yml
+  url: https://artifacts.apis.io/shopmonkey/openapi/shopmonkey-customers-api-openapi.yml
 - filename: shopmonkey-employees-api-openapi.yml
   format: yaml
   label: Shopmonkey Employees API
   slug: shopmonkey-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/openapi/shopmonkey-employees-api-openapi.yml
+  url: https://artifacts.apis.io/shopmonkey/openapi/shopmonkey-employees-api-openapi.yml
 - filename: shopmonkey-inventory-parts-api-openapi.yml
   format: yaml
   label: Shopmonkey Inventory & Parts API
   slug: shopmonkey-inventory-parts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/openapi/shopmonkey-inventory-parts-api-openapi.yml
+  url: https://artifacts.apis.io/shopmonkey/openapi/shopmonkey-inventory-parts-api-openapi.yml
 - filename: shopmonkey-invoices-payments-api-openapi.yml
   format: yaml
   label: Shopmonkey Invoices & Payments API
   slug: shopmonkey-invoices-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/openapi/shopmonkey-invoices-payments-api-openapi.yml
+  url: https://artifacts.apis.io/shopmonkey/openapi/shopmonkey-invoices-payments-api-openapi.yml
 - filename: shopmonkey-locations-api-openapi.yml
   format: yaml
   label: Shopmonkey Locations API
   slug: shopmonkey-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/openapi/shopmonkey-locations-api-openapi.yml
+  url: https://artifacts.apis.io/shopmonkey/openapi/shopmonkey-locations-api-openapi.yml
 - filename: shopmonkey-vehicles-api-openapi.yml
   format: yaml
   label: Shopmonkey Vehicles API
   slug: shopmonkey-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/openapi/shopmonkey-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/shopmonkey/openapi/shopmonkey-vehicles-api-openapi.yml
 - filename: shopmonkey-webhooks-api-openapi.yml
   format: yaml
   label: Shopmonkey Webhooks API
   slug: shopmonkey-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/openapi/shopmonkey-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/shopmonkey/openapi/shopmonkey-webhooks-api-openapi.yml
 - filename: shopmonkey-work-orders-api-openapi.yml
   format: yaml
   label: Shopmonkey Work Orders API
   slug: shopmonkey-work-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/openapi/shopmonkey-work-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shopmonkey/openapi/shopmonkey-work-orders-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -110,12 +110,12 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.shopmonkey.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 18:23:51 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: shopmonkey.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 22:15:19 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.shopmonkey.cloud\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 00:36:27 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: shopmonkey.io\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: shopmonkey.dev\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc:\
   \ true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/security/shopmonkey-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/shopmonkey/security/shopmonkey-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Auto Repair
 - Shop Management
-- Field Service
+- Field Service Management
 - REST
 - Not GraphQL
 ---

@@ -5,31 +5,31 @@ api_specs:
   label: TECO Energy Accounts API
   slug: teco-energy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/openapi/teco-energy-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/teco-energy/openapi/teco-energy-accounts-api-openapi.yml
 - filename: teco-energy-billing-api-openapi.yml
   format: yaml
   label: TECO Energy Billing API
   slug: teco-energy-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/openapi/teco-energy-billing-api-openapi.yml
+  url: https://artifacts.apis.io/teco-energy/openapi/teco-energy-billing-api-openapi.yml
 - filename: teco-energy-energy-usage-api-openapi.yml
   format: yaml
   label: TECO Energy Usage API
   slug: teco-energy-energy-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/openapi/teco-energy-energy-usage-api-openapi.yml
+  url: https://artifacts.apis.io/teco-energy/openapi/teco-energy-energy-usage-api-openapi.yml
 - filename: teco-energy-outages-api-openapi.yml
   format: yaml
   label: TECO Energy Outages API
   slug: teco-energy-outages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/openapi/teco-energy-outages-api-openapi.yml
+  url: https://artifacts.apis.io/teco-energy/openapi/teco-energy-outages-api-openapi.yml
 - filename: teco-energy-service-requests-api-openapi.yml
   format: yaml
   label: TECO Energy Service Requests API
   slug: teco-energy-service-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/openapi/teco-energy-service-requests-api-openapi.yml
+  url: https://artifacts.apis.io/teco-energy/openapi/teco-energy-service-requests-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -83,7 +83,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tecoenergy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 23 23:59:59 2027 GMT\n  hsts: false\n- host: www.tampaelectric.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 24 23:59:59 2027 GMT\n  hsts: false\n- host: account.tecoenergy.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 17 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: tecoenergy.com\n  dnssec: false\n  caa:\n  - 0 issue \"geotrust.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \" pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: tampaelectric.com\n  dnssec: false\n  caa:\n  - 0 issue \"geotrust.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy:\
   \ reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/security/teco-energy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/teco-energy/security/teco-energy-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Energy

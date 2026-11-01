@@ -7,49 +7,49 @@ api_specs:
   label: Blnk Finance Accounts API
   slug: blnkfinance-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/openapi/blnkfinance-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/blnkfinance/openapi/blnkfinance-accounts-api-openapi.yml
 - filename: blnkfinance-backup-api-openapi.yml
   format: yaml
   label: Blnk Finance Backup API
   slug: blnkfinance-backup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/openapi/blnkfinance-backup-api-openapi.yml
+  url: https://artifacts.apis.io/blnkfinance/openapi/blnkfinance-backup-api-openapi.yml
 - filename: blnkfinance-balance-monitors-api-openapi.yml
   format: yaml
   label: Blnk Finance Balance Monitors API
   slug: blnkfinance-balance-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/openapi/blnkfinance-balance-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/blnkfinance/openapi/blnkfinance-balance-monitors-api-openapi.yml
 - filename: blnkfinance-balances-api-openapi.yml
   format: yaml
   label: Blnk Finance Balances API
   slug: blnkfinance-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/openapi/blnkfinance-balances-api-openapi.yml
+  url: https://artifacts.apis.io/blnkfinance/openapi/blnkfinance-balances-api-openapi.yml
 - filename: blnkfinance-identities-api-openapi.yml
   format: yaml
   label: Blnk Finance Identities API
   slug: blnkfinance-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/openapi/blnkfinance-identities-api-openapi.yml
+  url: https://artifacts.apis.io/blnkfinance/openapi/blnkfinance-identities-api-openapi.yml
 - filename: blnkfinance-ledgers-api-openapi.yml
   format: yaml
   label: Blnk Finance Ledgers API
   slug: blnkfinance-ledgers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/openapi/blnkfinance-ledgers-api-openapi.yml
+  url: https://artifacts.apis.io/blnkfinance/openapi/blnkfinance-ledgers-api-openapi.yml
 - filename: blnkfinance-refund-transaction-api-openapi.yml
   format: yaml
   label: Blnk Finance Refund Transaction API
   slug: blnkfinance-refund-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/openapi/blnkfinance-refund-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/blnkfinance/openapi/blnkfinance-refund-transaction-api-openapi.yml
 - filename: blnkfinance-transactions-api-openapi.yml
   format: yaml
   label: Blnk Finance Transactions API
   slug: blnkfinance-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/openapi/blnkfinance-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/blnkfinance/openapi/blnkfinance-transactions-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -77,13 +77,13 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: >-\n  https://d
   - surface: Blnk Cloud REST API\n  base: https://api.cloud.blnkfinance.com\n  schemes:\n  - name: bearer-api-key\n    type: http\n    scheme: bearer\n    header: 'Authorization: Bearer <api key>'\n    docs: https://docs.blnkfinance.com/cloud/auth/api-keys\n  - name: oauth2\n    type: oauth2\n    flows:\n      authorizationCode:\n        authorizationUrl: https://api.cloud.blnkfinance.com/oauth/authorize\n        tokenUrl: https://api.cloud.blnkfinance.com/oauth/token\n        refreshUrl: https://api.cloud.blnkfinance.com/oauth/token\n        pkce: [S256, plain]\n    grant_types: [authorization_code, refresh_token]\n    client_auth: [client_secret_post, client_secret_basic]\n    metadata:\n      rfc8414: https://api.cloud.blnkfinance.com/.well-known/oauth-authorization-server\n      openid_configuration: https://api.cloud.blnkfinance.com/.well-known/openid-configuration\n      http_status: 200\n      probed: '2026-08-27'\n      note: >-\n        The two documents are byte-identical and neither\
   \ advertises an id_token, jwks_uri, userinfo\n        endpoint or scopes_supported -- so despite the /.well-known/openid-configuration path this is\n        plain OAuth 2.0 authorization-code, not OpenID Connect. Do not treat it as an OIDC provider.\n    docs: https://docs.blnkfinance.com/cloud/auth/oauth\n  unauthenticated_behavior:\n    status: 401\n    body: '{\"error\":\"Authorization header is required\"}'\n    note: Every path on api.cloud.blnkfinance.com returns this except the two OAuth metadata documents.\n- surface: Blnk Cloud MCP (ledger)\n  base: https://api.cloud.blnkfinance.com/mcp/{instance_id}\n  schemes:\n  - name: bearer\n    type: http\n    scheme: bearer\n    accepts: [Blnk Cloud API key, OAuth 2.0 access token]\n    required_scopes: ['mcp:read', 'mcp:write']\n  docs: https://docs.blnkfinance.com/cloud/reference/mcp\n- surface: Blnk docs MCP\n  base: https://docs.blnkfinance.com/mcp\n  schemes:\n  - {name: none, type: none}\n  note: Open, no authentication. Documentation\
   \ search only.\n- surface: Prometheus metrics\n  base: GET /metrics on the Core API port and worker monitoring port\n  schemes:\n  - name: metrics-bearer\n    type: http\n    scheme: bearer\n    value_source: BLNK_METRICS_BEARER_TOKEN\n  access_matrix:\n  - {secure: false, token_set: false, access: open}\n  - {secure: false, token_set: true, access: bearer required}\n  - {secure: true, token_set: true, access: bearer required}\n  - {secure: true, token_set: false, access: blocked}\n  docs: https://docs.blnkfinance.com/advanced/configuration/server-security#metrics-endpoint\nsecrets_note: >-\n  BLNK_SERVER_SECRET_KEY is BOTH the master API key and the HMAC signing secret for outgoing webhooks\n  and hook callbacks. Rotating it invalidates request auth and breaks webhook signature verification on\n  every receiver at the same time.\nmtls: false\nopenid_connect: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/authentication/blnkfinance-authentication.yml
+source_yaml_url: https://artifacts.apis.io/blnkfinance/authentication/blnkfinance-authentication.yml
 summary_line: apiKey/http/oauth2 · 0 schemes
 tags:
 - Fintech
 - Financial Services
 - Ledger
-- double-entry-accounting
+- Double-Entry
 - Payments
 - Wallets
 - Lending

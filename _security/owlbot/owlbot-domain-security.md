@@ -26,7 +26,7 @@ source_filename: owlbot-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: owlbot.info\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 03:58:05 2026 GMT\n  hsts: null\ndomains:\n- domain: owlbot.info\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/owlbot/refs/heads/main/security/owlbot-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/owlbot/security/owlbot-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Dictionaries

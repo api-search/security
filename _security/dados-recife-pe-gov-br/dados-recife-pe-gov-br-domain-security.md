@@ -28,7 +28,7 @@ source_filename: dados-recife-pe-gov-br-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dados.recife.pe.gov.br\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  6 15:25:28 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: pe.gov.br\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dados-recife-pe-gov-br/refs/heads/main/security/dados-recife-pe-gov-br-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dados-recife-pe-gov-br/security/dados-recife-pe-gov-br-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Open Data

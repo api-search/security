@@ -7,109 +7,109 @@ api_specs:
   label: Fusebit Accounts API
   slug: fusebit-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-accounts-api-openapi.yml
 - filename: fusebit-boundaries-api-openapi.yml
   format: yaml
   label: Fusebit Boundaries API
   slug: fusebit-boundaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-boundaries-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-boundaries-api-openapi.yml
 - filename: fusebit-clients-api-openapi.yml
   format: yaml
   label: Fusebit Clients API
   slug: fusebit-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-clients-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-clients-api-openapi.yml
 - filename: fusebit-connector-api-openapi.yml
   format: yaml
   label: Fusebit Connector API
   slug: fusebit-connector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-connector-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-connector-api-openapi.yml
 - filename: fusebit-connector-tags-api-openapi.yml
   format: yaml
   label: Fusebit Connector/Tags API
   slug: fusebit-connector-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-connector-tags-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-connector-tags-api-openapi.yml
 - filename: fusebit-functions-api-openapi.yml
   format: yaml
   label: Fusebit Functions API
   slug: fusebit-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-functions-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-functions-api-openapi.yml
 - filename: fusebit-identity-api-openapi.yml
   format: yaml
   label: Fusebit Identity API
   slug: fusebit-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-identity-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-identity-api-openapi.yml
 - filename: fusebit-identity-tags-api-openapi.yml
   format: yaml
   label: Fusebit Identity/Tags API
   slug: fusebit-identity-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-identity-tags-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-identity-tags-api-openapi.yml
 - filename: fusebit-install-api-openapi.yml
   format: yaml
   label: Fusebit Install API
   slug: fusebit-install-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-install-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-install-api-openapi.yml
 - filename: fusebit-install-tags-api-openapi.yml
   format: yaml
   label: Fusebit Install/Tags API
   slug: fusebit-install-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-install-tags-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-install-tags-api-openapi.yml
 - filename: fusebit-integration-api-openapi.yml
   format: yaml
   label: Fusebit Integration API
   slug: fusebit-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-integration-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-integration-api-openapi.yml
 - filename: fusebit-integration-tags-api-openapi.yml
   format: yaml
   label: Fusebit Integration/Tags API
   slug: fusebit-integration-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-integration-tags-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-integration-tags-api-openapi.yml
 - filename: fusebit-issuers-api-openapi.yml
   format: yaml
   label: Fusebit Issuers API
   slug: fusebit-issuers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-issuers-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-issuers-api-openapi.yml
 - filename: fusebit-registry-api-openapi.yml
   format: yaml
   label: Fusebit Registry API
   slug: fusebit-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-registry-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-registry-api-openapi.yml
 - filename: fusebit-session-api-openapi.yml
   format: yaml
   label: Fusebit Session API
   slug: fusebit-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-session-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-session-api-openapi.yml
 - filename: fusebit-storage-api-openapi.yml
   format: yaml
   label: Fusebit Storage API
   slug: fusebit-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-storage-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-storage-api-openapi.yml
 - filename: fusebit-subscriptions-api-openapi.yml
   format: yaml
   label: Fusebit Subscriptions API
   slug: fusebit-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-subscriptions-api-openapi.yml
 - filename: fusebit-users-api-openapi.yml
   format: yaml
   label: Fusebit Users API
   slug: fusebit-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-users-api-openapi.yml
+  url: https://artifacts.apis.io/fusebit/openapi/fusebit-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -146,7 +146,7 @@ source_yaml: "generated: '2026-09-10'\nmethod: derived\nsource: >-\n  openapi/fu
   \      description: Delete subscription-scoped storage.\n    - action: registry:get\n      description: Read the account's private npm registry configuration.\n    - action: integration:add\n      description: Create an integration (v2).\n    - action: integration:get\n      description: Read an integration (v2).\n    - action: integration:put\n      description: Replace an integration (v2).\n    - action: integration:update\n      description: Update an integration (v2).\n    - action: integration:delete\n      description: Delete an integration (v2).\n    - action: integration:put-tag\n      description: Set or remove an integration tag (v2).\n    - action: connector:add\n      description: Create a connector (v2).\n    - action: connector:get\n      description: Read a connector (v2).\n    - action: connector:update\n      description: Update a connector (v2).\n    - action: connector:delete\n      description: Delete a connector (v2).\n    - action: connector:put-tag\n      description:\
   \ Set or remove a connector tag (v2).\n    - action: identity:get\n      description: Read a managed third-party credential (v2).\n    - action: identity:update\n      description: Update a managed third-party credential (v2).\n    - action: identity:delete\n      description: Delete a managed third-party credential (v2).\n    - action: identity:put-tag\n      description: Set or remove an identity tag (v2).\n    - action: install:get\n      description: Read an install (v2).\n    - action: install:put-tag\n      description: Set or remove an install tag (v2).\n    - action: instance:get\n      description: Read an install instance (v2, legacy naming).\n    - action: instance:update\n      description: Update an install instance (v2, legacy naming).\n    - action: instance:delete\n      description: Delete an install instance (v2, legacy naming).\nchallenge_semantics:\n  unauthenticated_status: 403\n  www_authenticate: false\n  note: >-\n    Neither contract declares a 401 response or\
   \ a WWW-Authenticate challenge header on any operation.\n    A missing, expired or insufficiently-granted token is answered 403 in all three cases, so a client\n    cannot distinguish \"not authenticated\" from \"not authorized\" from the status code alone.\nthird_party_oauth:\n  note: >-\n    Distinct from Fusebit's OWN auth: Fusebit's product was managing OAuth 2.0 credentials for OTHER\n    services on behalf of its customers. 40 of its 80 @fusebit-int packages are OAuth connectors\n    (Slack, Salesforce, HubSpot, Xero, Atlassian, QuickBooks, Google, Microsoft Graph and more), plus a\n    generic oauth-connector, a client-credentials-flow connector and a private-key connector. Those\n    flows are the CONSUMING side and are catalogued in packages/fusebit-packages.yml, not here.\ncallable: false\ncallable_note: >-\n  Historical profile. api.us-west-1.on.fusebit.io returns NXDOMAIN (2026-09-10); no token can be\n  presented to anything.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/authentication/fusebit-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fusebit/authentication/fusebit-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Developer Tools

@@ -7,19 +7,19 @@ api_specs:
   label: Ease Incidents API
   slug: ease-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/openapi/ease-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/ease/openapi/ease-incidents-api-openapi.yml
 - filename: ease-maintenance-api-openapi.yml
   format: yaml
   label: Ease Maintenance API
   slug: ease-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/openapi/ease-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/ease/openapi/ease-maintenance-api-openapi.yml
 - filename: ease-status-api-openapi.yml
   format: yaml
   label: Ease Status API
   slug: ease-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/openapi/ease-status-api-openapi.yml
+  url: https://artifacts.apis.io/ease/openapi/ease-status-api-openapi.yml
 auth_types:
 - none
 - http
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-25'\nmethod: searched\nsource: >-\n  openapi/e
   \ Connect discovery, no API-key programme and no self-serve signup for any Ease\n  API. Access to the real integration surfaces - EaseConnect (X12 834), EaseConnect+ direct\n  carrier connections - is negotiated privately and administered behind the customer login.\nschemes:\n- name: anonymous\n  type: none\n  applies_to:\n  - openapi/ease-content-openapi.yml\n  - openapi/ease-status-openapi.yml\n  note: Every published operation returns 200 with no credentials. Verified live 2026-07-25.\n- name: applicationPassword\n  type: http\n  scheme: basic\n  description: >-\n    WordPress Application Passwords, advertised by the site itself in the \"authentication\" block\n    of https://www.ease.com/wp-json/ (authorization endpoint\n    https://www.ease.com/wp-admin/authorize-application.php). Site administration only; not a\n    developer program, and not required by any operation in this repo.\n  sources:\n  - openapi/ease-content-openapi.yml\n  applies_to_operations: none of the published operations\n\
   negative_findings:\n  oauth2: 'No /.well-known/oauth-authorization-server on www.ease.com, secure.ease.com or api.ease.com (all 404).'\n  openid_connect: 'No /.well-known/openid-configuration on any Ease host (all 404).'\n  api_keys: No key issuance, key management or key documentation anywhere on ease.com.\n  mutual_tls: Not documented.\n  scopes: 'No OAuth scope surface exists; scopes/ is deliberately absent - scopes are OAuth-only.'\napplication_authentication:\n  scope: The Ease product at secure.ease.com, not an API\n  factors:\n  - username and password\n  - mandatory two-factor authentication for all users\n  federation:\n    protocol: SAML 2.0\n    provider: Okta\n    availability: Enterprise pricing package\n    docs: https://www.ease.com/product/security/sso/\n  note: >-\n    developer.ease.com, developers.ease.com, api.ease.com and docs.ease.com all resolve through\n    wildcard DNS to this sign-in page. A 200 from those hostnames is a login wall, not an API.\npartner_authentication:\n\
   \  easeconnect:\n    mechanism: ANSI X12 EDI 834 file exchange, mapped per carrier inside the Ease application\n    access: customer/broker login\n  easeconnect_plus:\n    mechanism: privately negotiated direct data connection between Ease and a carrier\n    access: >-\n      arranged by Ease implementation analysts; includes an undocumented Evidence of Insurability\n      API and Member Benefits API in the Principal integration\n  partner_portal:\n    mechanism: scheduled reports downloaded from the portal or delivered over SFTP\n    access: partner login\ncross_links:\n  conventions: conventions/ease-conventions.yml\n  conformance: conformance/ease-conformance.yml\n  domain_security: security/ease-domain-security.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/authentication/ease-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ease/authentication/ease-authentication.yml
 summary_line: none/http · 2 schemes
 tags:
 - Insurance

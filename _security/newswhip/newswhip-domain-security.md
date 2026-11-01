@@ -5,61 +5,61 @@ api_specs:
   label: NewsWhip Articles API
   slug: newswhip-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/openapi/newswhip-articles-api-openapi.yml
+  url: https://artifacts.apis.io/newswhip/openapi/newswhip-articles-api-openapi.yml
 - filename: newswhip-articlesbyhrefs-api-openapi.yml
   format: yaml
   label: NewsWhip ArticlesByHrefs API
   slug: newswhip-articlesbyhrefs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/openapi/newswhip-articlesbyhrefs-api-openapi.yml
+  url: https://artifacts.apis.io/newswhip/openapi/newswhip-articlesbyhrefs-api-openapi.yml
 - filename: newswhip-fbinfluencers-api-openapi.yml
   format: yaml
   label: NewsWhip FbInfluencers API
   slug: newswhip-fbinfluencers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/openapi/newswhip-fbinfluencers-api-openapi.yml
+  url: https://artifacts.apis.io/newswhip/openapi/newswhip-fbinfluencers-api-openapi.yml
 - filename: newswhip-fbposts-api-openapi.yml
   format: yaml
   label: NewsWhip FbPosts API
   slug: newswhip-fbposts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/openapi/newswhip-fbposts-api-openapi.yml
+  url: https://artifacts.apis.io/newswhip/openapi/newswhip-fbposts-api-openapi.yml
 - filename: newswhip-local-api-openapi.yml
   format: yaml
   label: NewsWhip Local API
   slug: newswhip-local-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/openapi/newswhip-local-api-openapi.yml
+  url: https://artifacts.apis.io/newswhip/openapi/newswhip-local-api-openapi.yml
 - filename: newswhip-publisher-api-openapi.yml
   format: yaml
   label: NewsWhip Publisher API
   slug: newswhip-publisher-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/openapi/newswhip-publisher-api-openapi.yml
+  url: https://artifacts.apis.io/newswhip/openapi/newswhip-publisher-api-openapi.yml
 - filename: newswhip-region-api-openapi.yml
   format: yaml
   label: NewsWhip Region API
   slug: newswhip-region-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/openapi/newswhip-region-api-openapi.yml
+  url: https://artifacts.apis.io/newswhip/openapi/newswhip-region-api-openapi.yml
 - filename: newswhip-search-api-openapi.yml
   format: yaml
   label: NewsWhip Search API
   slug: newswhip-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/openapi/newswhip-search-api-openapi.yml
+  url: https://artifacts.apis.io/newswhip/openapi/newswhip-search-api-openapi.yml
 - filename: newswhip-stats-api-openapi.yml
   format: yaml
   label: NewsWhip Stats API
   slug: newswhip-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/openapi/newswhip-stats-api-openapi.yml
+  url: https://artifacts.apis.io/newswhip/openapi/newswhip-stats-api-openapi.yml
 - filename: newswhip-twitterinfluencers-api-openapi.yml
   format: yaml
   label: NewsWhip TwitterInfluencers API
   slug: newswhip-twitterinfluencers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/openapi/newswhip-twitterinfluencers-api-openapi.yml
+  url: https://artifacts.apis.io/newswhip/openapi/newswhip-twitterinfluencers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -99,7 +99,7 @@ source_filename: newswhip-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: newswhip.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 18:56:13 2026 GMT\n  hsts: false\n- host: developer.newswhip.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 14:16:27 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.newswhip.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  7 19:12:54 2026 GMT\n  hsts: null\ndomains:\n- domain: newswhip.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/security/newswhip-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/newswhip/security/newswhip-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

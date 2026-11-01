@@ -5,67 +5,67 @@ api_specs:
   label: Val Town Alias API
   slug: val-town-alias-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-alias-api-openapi.yml
+  url: https://artifacts.apis.io/val-town/openapi/val-town-alias-api-openapi.yml
 - filename: val-town-blobs-api-openapi.yml
   format: yaml
   label: Val Town Blobs API
   slug: val-town-blobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-blobs-api-openapi.yml
+  url: https://artifacts.apis.io/val-town/openapi/val-town-blobs-api-openapi.yml
 - filename: val-town-connections-api-openapi.yml
   format: yaml
   label: Val Town Connections API
   slug: val-town-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-connections-api-openapi.yml
+  url: https://artifacts.apis.io/val-town/openapi/val-town-connections-api-openapi.yml
 - filename: val-town-emails-api-openapi.yml
   format: yaml
   label: Val Town Emails API
   slug: val-town-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-emails-api-openapi.yml
+  url: https://artifacts.apis.io/val-town/openapi/val-town-emails-api-openapi.yml
 - filename: val-town-files-api-openapi.yml
   format: yaml
   label: Val Town Files API
   slug: val-town-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-files-api-openapi.yml
+  url: https://artifacts.apis.io/val-town/openapi/val-town-files-api-openapi.yml
 - filename: val-town-me-api-openapi.yml
   format: yaml
   label: Val Town Me API
   slug: val-town-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-me-api-openapi.yml
+  url: https://artifacts.apis.io/val-town/openapi/val-town-me-api-openapi.yml
 - filename: val-town-orgs-api-openapi.yml
   format: yaml
   label: Val Town Orgs API
   slug: val-town-orgs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-orgs-api-openapi.yml
+  url: https://artifacts.apis.io/val-town/openapi/val-town-orgs-api-openapi.yml
 - filename: val-town-sqlite-api-openapi.yml
   format: yaml
   label: Val Town Sqlite API
   slug: val-town-sqlite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-sqlite-api-openapi.yml
+  url: https://artifacts.apis.io/val-town/openapi/val-town-sqlite-api-openapi.yml
 - filename: val-town-telemetry-api-openapi.yml
   format: yaml
   label: Val Town Telemetry API
   slug: val-town-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/val-town/openapi/val-town-telemetry-api-openapi.yml
 - filename: val-town-users-api-openapi.yml
   format: yaml
   label: Val Town Users API
   slug: val-town-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-users-api-openapi.yml
+  url: https://artifacts.apis.io/val-town/openapi/val-town-users-api-openapi.yml
 - filename: val-town-vals-api-openapi.yml
   format: yaml
   label: Val Town Vals API
   slug: val-town-vals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-vals-api-openapi.yml
+  url: https://artifacts.apis.io/val-town/openapi/val-town-vals-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -106,7 +106,7 @@ source_filename: val-town-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.val.town\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 04:41:21 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: docs.val.town\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 23:39:40 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: api.val.town\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 00:14:34 2026 GMT\n  hsts: null\ndomains:\n- domain: val.town\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/security/val-town-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/val-town/security/val-town-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Developer Tools

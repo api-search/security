@@ -8,37 +8,37 @@ api_specs:
   label: Ordergroove Customers API
   slug: ordergroove-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-customers-api-openapi.yml
+  url: https://artifacts.apis.io/ordergroove/openapi/ordergroove-customers-api-openapi.yml
 - filename: ordergroove-items-api-openapi.yml
   format: yaml
   label: Ordergroove Items API
   slug: ordergroove-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-items-api-openapi.yml
+  url: https://artifacts.apis.io/ordergroove/openapi/ordergroove-items-api-openapi.yml
 - filename: ordergroove-offers-api-openapi.yml
   format: yaml
   label: Ordergroove Offers API
   slug: ordergroove-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-offers-api-openapi.yml
+  url: https://artifacts.apis.io/ordergroove/openapi/ordergroove-offers-api-openapi.yml
 - filename: ordergroove-orders-api-openapi.yml
   format: yaml
   label: Ordergroove Orders API
   slug: ordergroove-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ordergroove/openapi/ordergroove-orders-api-openapi.yml
 - filename: ordergroove-products-api-openapi.yml
   format: yaml
   label: Ordergroove Products API
   slug: ordergroove-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-products-api-openapi.yml
+  url: https://artifacts.apis.io/ordergroove/openapi/ordergroove-products-api-openapi.yml
 - filename: ordergroove-subscriptions-api-openapi.yml
   format: yaml
   label: Ordergroove Subscriptions API
   slug: ordergroove-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/ordergroove/openapi/ordergroove-subscriptions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: ordergroove-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ordergroove-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: Application API scope. Send one of the ten store API keys in the x-api-key header\n    for server-to-server requests. Storefront requests use an HMAC-SHA256 signature scoped to\n    a single customer instead (out of band of this scheme).\n  sources:\n  - openapi/ordergroove-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/authentication/ordergroove-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ordergroove/authentication/ordergroove-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Subscription

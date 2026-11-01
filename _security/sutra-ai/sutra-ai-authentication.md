@@ -7,13 +7,13 @@ api_specs:
   label: SUTRA (Two AI) Models API
   slug: sutra-ai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sutra-ai/refs/heads/main/openapi/sutra-ai-models-api-openapi.yml
+  url: https://artifacts.apis.io/sutra-ai/openapi/sutra-ai-models-api-openapi.yml
 - filename: sutra-ai-chat-completions-api-openapi.yml
   format: yaml
   label: SUTRA (Two AI) Chat Completions API
   slug: sutra-ai-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sutra-ai/refs/heads/main/openapi/sutra-ai-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/sutra-ai/openapi/sutra-ai-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: sutra-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sutra-ai-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Provide your SUTRA API key as a Bearer token in the Authorization header - Authorization:\n    Bearer <YOUR_SUTRA_API_KEY>.'\n  sources:\n  - openapi/sutra-ai-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sutra-ai/refs/heads/main/authentication/sutra-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sutra-ai/authentication/sutra-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

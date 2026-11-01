@@ -7,43 +7,43 @@ api_specs:
   label: Tripleseat Accounts API
   slug: tripleseat-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/tripleseat/openapi/tripleseat-accounts-api-openapi.yml
 - filename: tripleseat-contacts-api-openapi.yml
   format: yaml
   label: Tripleseat Contacts API
   slug: tripleseat-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/tripleseat/openapi/tripleseat-contacts-api-openapi.yml
 - filename: tripleseat-events-api-openapi.yml
   format: yaml
   label: Tripleseat Events API
   slug: tripleseat-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-events-api-openapi.yml
+  url: https://artifacts.apis.io/tripleseat/openapi/tripleseat-events-api-openapi.yml
 - filename: tripleseat-leads-api-openapi.yml
   format: yaml
   label: Tripleseat Leads API
   slug: tripleseat-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-leads-api-openapi.yml
+  url: https://artifacts.apis.io/tripleseat/openapi/tripleseat-leads-api-openapi.yml
 - filename: tripleseat-locations-api-openapi.yml
   format: yaml
   label: Tripleseat Locations API
   slug: tripleseat-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-locations-api-openapi.yml
+  url: https://artifacts.apis.io/tripleseat/openapi/tripleseat-locations-api-openapi.yml
 - filename: tripleseat-sites-api-openapi.yml
   format: yaml
   label: Tripleseat Sites API
   slug: tripleseat-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-sites-api-openapi.yml
+  url: https://artifacts.apis.io/tripleseat/openapi/tripleseat-sites-api-openapi.yml
 - filename: tripleseat-users-api-openapi.yml
   format: yaml
   label: Tripleseat Users API
   slug: tripleseat-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-users-api-openapi.yml
+  url: https://artifacts.apis.io/tripleseat/openapi/tripleseat-users-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -79,7 +79,7 @@ source_filename: tripleseat-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tripleseat-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.tripleseat.com/oauth/token\n    scopes: 0\n  - flow: authorizationCode\n    authorizationUrl: https://api.tripleseat.com/oauth/authorize\n    tokenUrl: https://api.tripleseat.com/oauth/token\n    scopes: 0\n  description: OAuth 2.0. Access tokens are Bearer tokens that expire after 7200 seconds (2\n    hours) and are accompanied by a refresh token. OAuth 1.0 is deprecated and discontinued\n    on July 1, 2026.\n  sources:\n  - openapi/tripleseat-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/authentication/tripleseat-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tripleseat/authentication/tripleseat-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Restaurant

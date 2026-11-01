@@ -5,25 +5,25 @@ api_specs:
   label: Verisk Catastrophe API
   slug: verisk-catastrophe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/openapi/verisk-catastrophe-api-openapi.yml
+  url: https://artifacts.apis.io/verisk/openapi/verisk-catastrophe-api-openapi.yml
 - filename: verisk-claims-api-openapi.yml
   format: yaml
   label: Verisk Claims API
   slug: verisk-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/openapi/verisk-claims-api-openapi.yml
+  url: https://artifacts.apis.io/verisk/openapi/verisk-claims-api-openapi.yml
 - filename: verisk-property-api-openapi.yml
   format: yaml
   label: Verisk Property API
   slug: verisk-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/openapi/verisk-property-api-openapi.yml
+  url: https://artifacts.apis.io/verisk/openapi/verisk-property-api-openapi.yml
 - filename: verisk-risk-scoring-api-openapi.yml
   format: yaml
   label: Verisk Risk Scoring API
   slug: verisk-risk-scoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/openapi/verisk-risk-scoring-api-openapi.yml
+  url: https://artifacts.apis.io/verisk/openapi/verisk-risk-scoring-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: verisk-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.verisk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 00:29:31 2026 GMT\n  hsts: false\n- host: gateway-documentation.verisk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 23:59:59 2026 GMT\n  hsts: false\n- host: gateway.verisk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: verisk.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/security/verisk-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/verisk/security/verisk-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance

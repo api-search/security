@@ -23,7 +23,7 @@ source_filename: oyyi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: oyyi.xyz\n  https: false\ndomains:\n- domain: oyyi.xyz\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oyyi/refs/heads/main/security/oyyi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/oyyi/security/oyyi-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Development

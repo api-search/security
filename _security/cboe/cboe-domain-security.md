@@ -44,7 +44,7 @@ source_filename: cboe-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cboe.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 00:39:46 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.livevol.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 03:31:28 2026 GMT\n  hsts: false\n- host: cdn.cboe.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 15:29:26 2026 GMT\n  hsts: null\ndomains:\n- domain: cboe.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: livevol.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cboe/refs/heads/main/security/cboe-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cboe/security/cboe-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Market Data

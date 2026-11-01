@@ -5,19 +5,19 @@ api_specs:
   label: Arctic Wolf Attachment API
   slug: arctic-wolf-attachment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arctic-wolf/refs/heads/main/openapi/arctic-wolf-attachment-api-openapi.yml
+  url: https://artifacts.apis.io/arctic-wolf/openapi/arctic-wolf-attachment-api-openapi.yml
 - filename: arctic-wolf-comment-api-openapi.yml
   format: yaml
   label: Arctic Wolf Comment API
   slug: arctic-wolf-comment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arctic-wolf/refs/heads/main/openapi/arctic-wolf-comment-api-openapi.yml
+  url: https://artifacts.apis.io/arctic-wolf/openapi/arctic-wolf-comment-api-openapi.yml
 - filename: arctic-wolf-ticket-api-openapi.yml
   format: yaml
   label: Arctic Wolf Ticket API
   slug: arctic-wolf-ticket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arctic-wolf/refs/heads/main/openapi/arctic-wolf-ticket-api-openapi.yml
+  url: https://artifacts.apis.io/arctic-wolf/openapi/arctic-wolf-ticket-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: arctic-wolf-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: portal.arcticwolf.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.arcticwolf.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: ticket-api.managedgw.us001-prod.arcticwolf.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: arcticwolf.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: arcticwolf.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arctic-wolf/refs/heads/main/security/arctic-wolf-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/arctic-wolf/security/arctic-wolf-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company

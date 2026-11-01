@@ -5,49 +5,49 @@ api_specs:
   label: Alaska Airlines Airports API
   slug: alaska-air-airports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-airports-api-openapi.yml
+  url: https://artifacts.apis.io/alaska-air/openapi/alaska-air-airports-api-openapi.yml
 - filename: alaska-air-flight-status-api-openapi.yml
   format: yaml
   label: Alaska Airlines Flight Status API
   slug: alaska-air-flight-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-flight-status-api-openapi.yml
+  url: https://artifacts.apis.io/alaska-air/openapi/alaska-air-flight-status-api-openapi.yml
 - filename: alaska-air-members-api-openapi.yml
   format: yaml
   label: Alaska Airlines Members API
   slug: alaska-air-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-members-api-openapi.yml
+  url: https://artifacts.apis.io/alaska-air/openapi/alaska-air-members-api-openapi.yml
 - filename: alaska-air-partner-miles-api-openapi.yml
   format: yaml
   label: Alaska Airlines Partner Miles API
   slug: alaska-air-partner-miles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-partner-miles-api-openapi.yml
+  url: https://artifacts.apis.io/alaska-air/openapi/alaska-air-partner-miles-api-openapi.yml
 - filename: alaska-air-rates-api-openapi.yml
   format: yaml
   label: Alaska Airlines Rates API
   slug: alaska-air-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-rates-api-openapi.yml
+  url: https://artifacts.apis.io/alaska-air/openapi/alaska-air-rates-api-openapi.yml
 - filename: alaska-air-schedules-api-openapi.yml
   format: yaml
   label: Alaska Airlines Schedules API
   slug: alaska-air-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/alaska-air/openapi/alaska-air-schedules-api-openapi.yml
 - filename: alaska-air-shipments-api-openapi.yml
   format: yaml
   label: Alaska Airlines Shipments API
   slug: alaska-air-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/alaska-air/openapi/alaska-air-shipments-api-openapi.yml
 - filename: alaska-air-transactions-api-openapi.yml
   format: yaml
   label: Alaska Airlines Transactions API
   slug: alaska-air-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/alaska-air/openapi/alaska-air-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -85,7 +85,7 @@ source_filename: alaska-air-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.alaskaair.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 31 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: developers.alaskaair.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.alaskaair.com\n  https: false\ndomains:\n- domain: alaskaair.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/security/alaska-air-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/alaska-air/security/alaska-air-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Airlines

@@ -5,19 +5,19 @@ api_specs:
   label: VPN Catalog API
   slug: vpn-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vpn/refs/heads/main/openapi/vpn-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/vpn/openapi/vpn-catalog-api-openapi.yml
 - filename: vpn-servers-api-openapi.yml
   format: yaml
   label: VPN Servers API
   slug: vpn-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vpn/refs/heads/main/openapi/vpn-servers-api-openapi.yml
+  url: https://artifacts.apis.io/vpn/openapi/vpn-servers-api-openapi.yml
 - filename: vpn-stats-api-openapi.yml
   format: yaml
   label: VPN Stats API
   slug: vpn-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vpn/refs/heads/main/openapi/vpn-stats-api-openapi.yml
+  url: https://artifacts.apis.io/vpn/openapi/vpn-stats-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -36,7 +36,7 @@ source_filename: vpn-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://tailscale.com/security\nurl: https://tailscale.com/security\ncertifications:\n- SOC 2\n- PCI DSS\n- HIPAA\nevidence:\n- source: https://tailscale.com/security\n  keywords:\n  - soc 2\n  - soc2\n  - pci dss\n  - hipaa\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vpn/refs/heads/main/security/vpn-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/vpn/security/vpn-trust-center.yml
 summary_line: SOC 2, PCI DSS, HIPAA
 tags:
 - Encryption

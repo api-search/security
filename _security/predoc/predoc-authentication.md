@@ -7,43 +7,43 @@ api_specs:
   label: Predoc Authentication API
   slug: predoc-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/openapi/predoc-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/predoc/openapi/predoc-authentication-api-openapi.yml
 - filename: predoc-documents-api-openapi.yml
   format: yaml
   label: Predoc Documents API
   slug: predoc-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/openapi/predoc-documents-api-openapi.yml
+  url: https://artifacts.apis.io/predoc/openapi/predoc-documents-api-openapi.yml
 - filename: predoc-events-api-openapi.yml
   format: yaml
   label: Predoc Events API
   slug: predoc-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/openapi/predoc-events-api-openapi.yml
+  url: https://artifacts.apis.io/predoc/openapi/predoc-events-api-openapi.yml
 - filename: predoc-patient-api-openapi.yml
   format: yaml
   label: Predoc Patient API
   slug: predoc-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/openapi/predoc-patient-api-openapi.yml
+  url: https://artifacts.apis.io/predoc/openapi/predoc-patient-api-openapi.yml
 - filename: predoc-record-request-api-openapi.yml
   format: yaml
   label: Predoc Record Request API
   slug: predoc-record-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/openapi/predoc-record-request-api-openapi.yml
+  url: https://artifacts.apis.io/predoc/openapi/predoc-record-request-api-openapi.yml
 - filename: predoc-record-upload-api-openapi.yml
   format: yaml
   label: Predoc Record Upload API
   slug: predoc-record-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/openapi/predoc-record-upload-api-openapi.yml
+  url: https://artifacts.apis.io/predoc/openapi/predoc-record-upload-api-openapi.yml
 - filename: predoc-retrieval-api-openapi.yml
   format: yaml
   label: Predoc Retrieval API
   slug: predoc-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/openapi/predoc-retrieval-api-openapi.yml
+  url: https://artifacts.apis.io/predoc/openapi/predoc-retrieval-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -79,7 +79,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://docs.predoc.ai/reference/authcontroller_signin_v1\ndocs: https://docs.predoc.ai\nsummary:\n  types:\n  - http\n  http_schemes:\n  - bearer\n  bearer_format: JWT\n  token_endpoint: /v1/auth/token\n  token_ttl_seconds: 300\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearer_format: JWT\n  description: >-\n    JWT bearer authentication. Obtain a token by POSTing client_id and secret_key\n    to /v1/auth/token; the response returns a JWT in the access_token field. Include\n    it as `Authorization: Bearer <access_token>` on all subsequent requests. Tokens\n    are valid for 5 minutes and must be refreshed prior to expiration.\n  token_request:\n    endpoint: POST /v1/auth/token\n    credentials:\n    - client_id\n    - secret_key\n    response_field: access_token\n    ttl: 5 minutes\n  sources:\n  - https://docs.predoc.ai/reference/authcontroller_signin_v1\nnotes: >-\n  Predoc also supports SSO/SAML\
   \ integration with multi-factor authentication for\n  application (web app) access per the security & compliance documentation; the\n  Partner API itself uses short-lived JWT bearer tokens.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/authentication/predoc-authentication.yml
+source_yaml_url: https://artifacts.apis.io/predoc/authentication/predoc-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

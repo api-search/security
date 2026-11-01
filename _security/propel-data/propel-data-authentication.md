@@ -7,13 +7,13 @@ api_specs:
   label: Propel O Auth2 API
   slug: propel-data-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propel-data/refs/heads/main/openapi/propel-data-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/propel-data/openapi/propel-data-oauth2-api-openapi.yml
 - filename: propel-data-graph-ql-api-openapi.yml
   format: yaml
   label: Propel Graph QL API
   slug: propel-data-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propel-data/refs/heads/main/openapi/propel-data-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/propel-data/openapi/propel-data-graph-ql-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -41,7 +41,7 @@ source_filename: propel-data-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/propel-data-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: OAuth2 client-credentials access token obtained from POST https://auth.us-east-2.propeldata.com/oauth2/token.\n  sources:\n  - openapi/propel-data-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/propel-data/refs/heads/main/authentication/propel-data-authentication.yml
+source_yaml_url: https://artifacts.apis.io/propel-data/authentication/propel-data-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Analytics

@@ -5,19 +5,19 @@ api_specs:
   label: Nationwide Building Society ATM API
   slug: nationwide-building-society-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nationwide-building-society/refs/heads/main/openapi/nationwide-building-society-atm-api-openapi.yml
+  url: https://artifacts.apis.io/nationwide-building-society/openapi/nationwide-building-society-atm-api-openapi.yml
 - filename: nationwide-building-society-branch-api-openapi.yml
   format: yaml
   label: Nationwide Building Society Branch API
   slug: nationwide-building-society-branch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nationwide-building-society/refs/heads/main/openapi/nationwide-building-society-branch-api-openapi.yml
+  url: https://artifacts.apis.io/nationwide-building-society/openapi/nationwide-building-society-branch-api-openapi.yml
 - filename: nationwide-building-society-pca-api-openapi.yml
   format: yaml
   label: Nationwide Building Society PCA API
   slug: nationwide-building-society-pca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nationwide-building-society/refs/heads/main/openapi/nationwide-building-society-pca-api-openapi.yml
+  url: https://artifacts.apis.io/nationwide-building-society/openapi/nationwide-building-society-pca-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -58,7 +58,7 @@ source_filename: nationwide-building-society-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-23'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nationwide.co.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.nationwide.co.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 27 23:59:59 2027 GMT\n  hsts: null\n- host: openapi.nationwide.co.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 27 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: nationwide.co.uk\n  dnssec: false\n  caa:\n  - ;; connection timed out; no servers could be reached\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nationwide-building-society/refs/heads/main/security/nationwide-building-society-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nationwide-building-society/security/nationwide-building-society-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Financial Services

@@ -7,13 +7,13 @@ api_specs:
   label: Rokwire Core Building Block API
   slug: rokwire-core-building-block
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/openapi/university-of-illinois-urbana-champaign-services-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-illinois-urbana-champaign/openapi/university-of-illinois-urbana-champaign-services-api-openapi.yml
 - filename: university-of-illinois-urbana-champaign-client-api-openapi.yml
   format: yaml
   label: Rokwire Gateway Building Block API
   slug: rokwire-gateway-building-block
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/openapi/university-of-illinois-urbana-champaign-client-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-illinois-urbana-champaign/openapi/university-of-illinois-urbana-champaign-client-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -41,7 +41,7 @@ source_filename: university-of-illinois-urbana-champaign-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/university-of-illinois-urbana-champaign-rokwire-core.yaml, openapi/university-of-illinois-urbana-champaign-rokwire-gateway.yaml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/university-of-illinois-urbana-champaign-rokwire-core.yaml\n  - openapi/university-of-illinois-urbana-champaign-rokwire-gateway.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/authentication/university-of-illinois-urbana-champaign-authentication.yml
+source_yaml_url: https://artifacts.apis.io/university-of-illinois-urbana-champaign/authentication/university-of-illinois-urbana-champaign-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - University

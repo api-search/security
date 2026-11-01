@@ -5,37 +5,37 @@ api_specs:
   label: Trading 212 Accounts API
   slug: trading212-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trading212/refs/heads/main/openapi/trading212-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/trading212/openapi/trading212-accounts-api-openapi.yml
 - filename: trading212-historical-events-api-openapi.yml
   format: yaml
   label: Trading 212 Historical events API
   slug: trading212-historical-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trading212/refs/heads/main/openapi/trading212-historical-events-api-openapi.yml
+  url: https://artifacts.apis.io/trading212/openapi/trading212-historical-events-api-openapi.yml
 - filename: trading212-instruments-api-openapi.yml
   format: yaml
   label: Trading 212 Instruments API
   slug: trading212-instruments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trading212/refs/heads/main/openapi/trading212-instruments-api-openapi.yml
+  url: https://artifacts.apis.io/trading212/openapi/trading212-instruments-api-openapi.yml
 - filename: trading212-orders-api-openapi.yml
   format: yaml
   label: Trading 212 Orders API
   slug: trading212-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trading212/refs/heads/main/openapi/trading212-orders-api-openapi.yml
+  url: https://artifacts.apis.io/trading212/openapi/trading212-orders-api-openapi.yml
 - filename: trading212-pies-deprecated-api-openapi.yml
   format: yaml
   label: Trading 212 Pies (Deprecated) API
   slug: trading212-pies-deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trading212/refs/heads/main/openapi/trading212-pies-deprecated-api-openapi.yml
+  url: https://artifacts.apis.io/trading212/openapi/trading212-pies-deprecated-api-openapi.yml
 - filename: trading212-positions-api-openapi.yml
   format: yaml
   label: Trading 212 Positions API
   slug: trading212-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trading212/refs/heads/main/openapi/trading212-positions-api-openapi.yml
+  url: https://artifacts.apis.io/trading212/openapi/trading212-positions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -74,7 +74,7 @@ source_filename: trading212-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.trading212.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 07:21:53 2026 GMT\n  hsts: false\n- host: live.trading212.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 10:45:18 2026 GMT\n  hsts: null\n- host: demo.trading212.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 10:45:18 2026 GMT\n  hsts: null\ndomains:\n- domain: trading212.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trading212/refs/heads/main/security/trading212-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trading212/security/trading212-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Investing

@@ -7,7 +7,7 @@ api_specs:
   label: CBRE Real Estate API
   slug: cbre-real-estate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cbre/refs/heads/main/openapi/cbre-real-estate-api-openapi.yml
+  url: https://artifacts.apis.io/cbre/openapi/cbre-real-estate-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -33,7 +33,7 @@ source_filename: cbre-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cbre-cbre-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/cbre-cbre-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cbre/refs/heads/main/authentication/cbre-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cbre/authentication/cbre-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Analytics

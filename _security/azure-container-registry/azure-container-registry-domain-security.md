@@ -5,49 +5,49 @@ api_specs:
   label: Azure Container Registry Operation API
   slug: azure-container-registry-operation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-operation-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-registry/openapi/azure-container-registry-operation-api-openapi.yml
 - filename: azure-container-registry-registries-api-openapi.yml
   format: yaml
   label: Azure Container Registry Registries API
   slug: azure-container-registry-registries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-registries-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-registry/openapi/azure-container-registry-registries-api-openapi.yml
 - filename: azure-container-registry-replications-api-openapi.yml
   format: yaml
   label: Azure Container Registry Replications API
   slug: azure-container-registry-replications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-replications-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-registry/openapi/azure-container-registry-replications-api-openapi.yml
 - filename: azure-container-registry-webhooks-api-openapi.yml
   format: yaml
   label: Azure Container Registry Webhooks API
   slug: azure-container-registry-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-registry/openapi/azure-container-registry-webhooks-api-openapi.yml
 - filename: azure-container-registry-blobs-api-openapi.yml
   format: yaml
   label: Azure Container Registry Blobs API
   slug: microsoft-azure-container-registry-blobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-blobs-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-registry/openapi/azure-container-registry-blobs-api-openapi.yml
 - filename: azure-container-registry-manifests-api-openapi.yml
   format: yaml
   label: Azure Container Registry Manifests API
   slug: microsoft-azure-container-registry-manifests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-manifests-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-registry/openapi/azure-container-registry-manifests-api-openapi.yml
 - filename: azure-container-registry-repositories-api-openapi.yml
   format: yaml
   label: Azure Container Registry Repositories API
   slug: microsoft-azure-container-registry-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-registry/openapi/azure-container-registry-repositories-api-openapi.yml
 - filename: azure-container-registry-tags-api-openapi.yml
   format: yaml
   label: Azure Container Registry Tags API
   slug: microsoft-azure-container-registry-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-tags-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-registry/openapi/azure-container-registry-tags-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -89,7 +89,7 @@ source_filename: azure-container-registry-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: azure.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 22:04:48 2026 GMT\n  hsts: null\n- host: management.azure.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 23:36:21 2026 GMT\n  hsts: null\ndomains:\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: azure.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/security/azure-container-registry-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/azure-container-registry/security/azure-container-registry-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Microsoft Azure

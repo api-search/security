@@ -5,25 +5,25 @@ api_specs:
   label: Siemens MindSphere Aspect Types API
   slug: siemens-mindsphere-aspect-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/openapi/siemens-mindsphere-aspect-types-api-openapi.yml
+  url: https://artifacts.apis.io/siemens-mindsphere/openapi/siemens-mindsphere-aspect-types-api-openapi.yml
 - filename: siemens-mindsphere-asset-types-api-openapi.yml
   format: yaml
   label: Siemens MindSphere Asset Types API
   slug: siemens-mindsphere-asset-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/openapi/siemens-mindsphere-asset-types-api-openapi.yml
+  url: https://artifacts.apis.io/siemens-mindsphere/openapi/siemens-mindsphere-asset-types-api-openapi.yml
 - filename: siemens-mindsphere-assets-api-openapi.yml
   format: yaml
   label: Siemens MindSphere Assets API
   slug: siemens-mindsphere-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/openapi/siemens-mindsphere-assets-api-openapi.yml
+  url: https://artifacts.apis.io/siemens-mindsphere/openapi/siemens-mindsphere-assets-api-openapi.yml
 - filename: siemens-mindsphere-time-series-api-openapi.yml
   format: yaml
   label: Siemens Insights Hub (MindSphere) Time Series API
   slug: siemens-mindsphere-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/openapi/siemens-mindsphere-time-series-api-openapi.yml
+  url: https://artifacts.apis.io/siemens-mindsphere/openapi/siemens-mindsphere-time-series-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: siemens-mindsphere-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: siemens.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 13 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: documentation.mindsphere.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: gateway.eu1.mindsphere.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec  4 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: siemens.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: mindsphere.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/security/siemens-mindsphere-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/siemens-mindsphere/security/siemens-mindsphere-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - IoT

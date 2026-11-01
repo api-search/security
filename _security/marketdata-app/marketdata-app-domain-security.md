@@ -5,25 +5,25 @@ api_specs:
   label: Market Data Indices API
   slug: marketdata-app-indices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/openapi/marketdata-app-indices-api-openapi.yml
+  url: https://artifacts.apis.io/marketdata-app/openapi/marketdata-app-indices-api-openapi.yml
 - filename: marketdata-app-markets-api-openapi.yml
   format: yaml
   label: Market Data Markets API
   slug: marketdata-app-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/openapi/marketdata-app-markets-api-openapi.yml
+  url: https://artifacts.apis.io/marketdata-app/openapi/marketdata-app-markets-api-openapi.yml
 - filename: marketdata-app-options-api-openapi.yml
   format: yaml
   label: Market Data Options API
   slug: marketdata-app-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/openapi/marketdata-app-options-api-openapi.yml
+  url: https://artifacts.apis.io/marketdata-app/openapi/marketdata-app-options-api-openapi.yml
 - filename: marketdata-app-stocks-api-openapi.yml
   format: yaml
   label: Market Data Stocks API
   slug: marketdata-app-stocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/openapi/marketdata-app-stocks-api-openapi.yml
+  url: https://artifacts.apis.io/marketdata-app/openapi/marketdata-app-stocks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: marketdata-app-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.marketdata.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 18:45:55 2026 GMT\n  hsts: false\n- host: api.marketdata.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 18:45:55 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\ndomains:\n- domain: marketdata.app\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/security/marketdata-app-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/marketdata-app/security/marketdata-app-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Market Data

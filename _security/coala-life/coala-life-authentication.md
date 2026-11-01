@@ -7,19 +7,19 @@ api_specs:
   label: Coala Life Patient Sessions API
   slug: coala-life-patientsessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coala-life/refs/heads/main/openapi/coala-life-patientsessions-api-openapi.yml
+  url: https://artifacts.apis.io/coala-life/openapi/coala-life-patientsessions-api-openapi.yml
 - filename: coala-life-platform-api-api-openapi.yml
   format: yaml
   label: Coala Life Platform.Api API
   slug: coala-life-platform-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coala-life/refs/heads/main/openapi/coala-life-platform-api-api-openapi.yml
+  url: https://artifacts.apis.io/coala-life/openapi/coala-life-platform-api-api-openapi.yml
 - filename: coala-life-sessions-api-openapi.yml
   format: yaml
   label: Coala Life Sessions API
   slug: coala-life-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coala-life/refs/heads/main/openapi/coala-life-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/coala-life/openapi/coala-life-sessions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: coala-life-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: derived\nsource: openapi/coala-life-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: bearer\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/coala-life-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coala-life/refs/heads/main/authentication/coala-life-authentication.yml
+source_yaml_url: https://artifacts.apis.io/coala-life/authentication/coala-life-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

@@ -5,31 +5,31 @@ api_specs:
   label: Cognito Forms Entries API
   slug: cognito-forms-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognito-forms/refs/heads/main/openapi/cognito-forms-entries-api-openapi.yml
+  url: https://artifacts.apis.io/cognito-forms/openapi/cognito-forms-entries-api-openapi.yml
 - filename: cognito-forms-files-api-openapi.yml
   format: yaml
   label: Cognito Forms Files API
   slug: cognito-forms-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognito-forms/refs/heads/main/openapi/cognito-forms-files-api-openapi.yml
+  url: https://artifacts.apis.io/cognito-forms/openapi/cognito-forms-files-api-openapi.yml
 - filename: cognito-forms-forms-api-openapi.yml
   format: yaml
   label: Cognito Forms API
   slug: cognito-forms-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognito-forms/refs/heads/main/openapi/cognito-forms-forms-api-openapi.yml
+  url: https://artifacts.apis.io/cognito-forms/openapi/cognito-forms-forms-api-openapi.yml
 - filename: cognito-forms-webhooks-api-openapi.yml
   format: yaml
   label: Cognito Forms Webhooks API
   slug: cognito-forms-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognito-forms/refs/heads/main/openapi/cognito-forms-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cognito-forms/openapi/cognito-forms-webhooks-api-openapi.yml
 - filename: cognito-forms-odata-api-openapi.yml
   format: yaml
   label: Cognito Forms O Data API
   slug: cognito-forms-odata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognito-forms/refs/heads/main/openapi/cognito-forms-odata-api-openapi.yml
+  url: https://artifacts.apis.io/cognito-forms/openapi/cognito-forms-odata-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -65,7 +65,7 @@ source_filename: cognito-forms-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cognitoforms.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 22:48:56 2026 GMT\n  hsts: null\n- host: cognitoforms.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 22:48:56 2026 GMT\n  hsts: null\ndomains:\n- domain: cognitoforms.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"godaddy.com\"\n  - 0 iodef \"mailto:support@cognitoforms.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cognito-forms/refs/heads/main/security/cognito-forms-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cognito-forms/security/cognito-forms-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Forms

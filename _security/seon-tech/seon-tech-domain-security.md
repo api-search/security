@@ -5,43 +5,43 @@ api_specs:
   label: SEON AML API
   slug: seon-tech-aml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/openapi/seon-tech-aml-api-openapi.yml
+  url: https://artifacts.apis.io/seon-tech/openapi/seon-tech-aml-api-openapi.yml
 - filename: seon-tech-bin-api-openapi.yml
   format: yaml
   label: SEON BIN API
   slug: seon-tech-bin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/openapi/seon-tech-bin-api-openapi.yml
+  url: https://artifacts.apis.io/seon-tech/openapi/seon-tech-bin-api-openapi.yml
 - filename: seon-tech-email-api-openapi.yml
   format: yaml
   label: SEON Email API
   slug: seon-tech-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/openapi/seon-tech-email-api-openapi.yml
+  url: https://artifacts.apis.io/seon-tech/openapi/seon-tech-email-api-openapi.yml
 - filename: seon-tech-fraud-api-openapi.yml
   format: yaml
   label: SEON Fraud API
   slug: seon-tech-fraud-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/openapi/seon-tech-fraud-api-openapi.yml
+  url: https://artifacts.apis.io/seon-tech/openapi/seon-tech-fraud-api-openapi.yml
 - filename: seon-tech-ip-api-openapi.yml
   format: yaml
   label: SEON IP API
   slug: seon-tech-ip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/openapi/seon-tech-ip-api-openapi.yml
+  url: https://artifacts.apis.io/seon-tech/openapi/seon-tech-ip-api-openapi.yml
 - filename: seon-tech-phone-api-openapi.yml
   format: yaml
   label: SEON Phone API
   slug: seon-tech-phone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/openapi/seon-tech-phone-api-openapi.yml
+  url: https://artifacts.apis.io/seon-tech/openapi/seon-tech-phone-api-openapi.yml
 - filename: seon-tech-labels-api-openapi.yml
   format: yaml
   label: SEON Labels API
   slug: seon-tech-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/openapi/seon-tech-labels-api-openapi.yml
+  url: https://artifacts.apis.io/seon-tech/openapi/seon-tech-labels-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -88,7 +88,7 @@ source_filename: seon-tech-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: seon.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 15:25:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.seon.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 29 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.seon.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: seon.io\n  dnssec: true\n  caa:\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issuewild \"amazontrust.com\"\n  - 0 issuewild \"awstrust.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/security/seon-tech-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/seon-tech/security/seon-tech-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - AML Compliance

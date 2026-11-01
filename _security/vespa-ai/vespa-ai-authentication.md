@@ -7,19 +7,19 @@ api_specs:
   label: Vespa Query API
   slug: vespa-ai-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vespa-ai/refs/heads/main/openapi/vespa-ai-query-api-openapi.yml
+  url: https://artifacts.apis.io/vespa-ai/openapi/vespa-ai-query-api-openapi.yml
 - filename: vespa-ai-documents-api-openapi.yml
   format: yaml
   label: Vespa Documents API
   slug: vespa-ai-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vespa-ai/refs/heads/main/openapi/vespa-ai-documents-api-openapi.yml
+  url: https://artifacts.apis.io/vespa-ai/openapi/vespa-ai-documents-api-openapi.yml
 - filename: vespa-ai-visit-api-openapi.yml
   format: yaml
   label: Vespa Visit API
   slug: vespa-ai-visit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vespa-ai/refs/heads/main/openapi/vespa-ai-visit-api-openapi.yml
+  url: https://artifacts.apis.io/vespa-ai/openapi/vespa-ai-visit-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,12 +46,12 @@ source_filename: vespa-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/vespa-query-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: mtls\n  type: http\n  scheme: bearer\n  description: Vespa Cloud endpoints typically use mTLS with a client data-plane certificate.\n  sources:\n  - openapi/vespa-query-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vespa-ai/refs/heads/main/authentication/vespa-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vespa-ai/authentication/vespa-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
 - Search
-- Vector Database
+- Vector Search
 - Big Data
 - Machine Learning
 - Semantic Search
@@ -59,5 +59,4 @@ tags:
 - Open Source
 - Tensor
 - Recommendations
-- Vector Search
 ---

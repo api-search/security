@@ -5,37 +5,37 @@ api_specs:
   label: Sanity Assets API
   slug: sanity-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-assets-api-openapi.yml
+  url: https://artifacts.apis.io/sanity/openapi/sanity-assets-api-openapi.yml
 - filename: sanity-listen-api-openapi.yml
   format: yaml
   label: Sanity Listen API
   slug: sanity-listen-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-listen-api-openapi.yml
+  url: https://artifacts.apis.io/sanity/openapi/sanity-listen-api-openapi.yml
 - filename: sanity-mutations-api-openapi.yml
   format: yaml
   label: Sanity Mutations API
   slug: sanity-mutations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-mutations-api-openapi.yml
+  url: https://artifacts.apis.io/sanity/openapi/sanity-mutations-api-openapi.yml
 - filename: sanity-projects-api-openapi.yml
   format: yaml
   label: Sanity Projects API
   slug: sanity-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-projects-api-openapi.yml
+  url: https://artifacts.apis.io/sanity/openapi/sanity-projects-api-openapi.yml
 - filename: sanity-query-api-openapi.yml
   format: yaml
   label: Sanity Query API
   slug: sanity-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-query-api-openapi.yml
+  url: https://artifacts.apis.io/sanity/openapi/sanity-query-api-openapi.yml
 - filename: sanity-webhooks-api-openapi.yml
   format: yaml
   label: Sanity Webhooks API
   slug: sanity-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/sanity/openapi/sanity-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -69,7 +69,7 @@ source_filename: sanity-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sanity.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 11:00:52 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: sanity.io\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/security/sanity-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sanity/security/sanity-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Headless CMS

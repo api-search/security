@@ -7,19 +7,19 @@ api_specs:
   label: Zeffy Campaigns API
   slug: zeffy-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeffy/refs/heads/main/openapi/zeffy-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/zeffy/openapi/zeffy-campaigns-api-openapi.yml
 - filename: zeffy-contacts-api-openapi.yml
   format: yaml
   label: Zeffy Contacts API
   slug: zeffy-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeffy/refs/heads/main/openapi/zeffy-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/zeffy/openapi/zeffy-contacts-api-openapi.yml
 - filename: zeffy-payments-api-openapi.yml
   format: yaml
   label: Zeffy Payments API
   slug: zeffy-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeffy/refs/heads/main/openapi/zeffy-payments-api-openapi.yml
+  url: https://artifacts.apis.io/zeffy/openapi/zeffy-payments-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: zeffy-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/zeffy-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Per-organization API key generated under Settings then Integrations, sent as\n    \"Authorization: Bearer [example key]\".'\n  sources:\n  - openapi/zeffy-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zeffy/refs/heads/main/authentication/zeffy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zeffy/authentication/zeffy-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Fundraising

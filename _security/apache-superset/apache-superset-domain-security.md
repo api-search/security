@@ -5,127 +5,127 @@ api_specs:
   label: Apache Superset Annotation Layer API
   slug: apache-superset-annotation-layer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/openapi/apache-superset-annotation-layer-api-openapi.yml
+  url: https://artifacts.apis.io/apache-superset/openapi/apache-superset-annotation-layer-api-openapi.yml
 - filename: apache-superset-assets-api-openapi.yml
   format: yaml
   label: Apache Superset Assets API
   slug: apache-superset-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/openapi/apache-superset-assets-api-openapi.yml
+  url: https://artifacts.apis.io/apache-superset/openapi/apache-superset-assets-api-openapi.yml
 - filename: apache-superset-async-event-api-openapi.yml
   format: yaml
   label: Apache Superset Async Event API
   slug: apache-superset-async-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/openapi/apache-superset-async-event-api-openapi.yml
+  url: https://artifacts.apis.io/apache-superset/openapi/apache-superset-async-event-api-openapi.yml
 - filename: apache-superset-available-domains-api-openapi.yml
   format: yaml
   label: Apache Superset Available Domains API
   slug: apache-superset-available-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/openapi/apache-superset-available-domains-api-openapi.yml
+  url: https://artifacts.apis.io/apache-superset/openapi/apache-superset-available-domains-api-openapi.yml
 - filename: apache-superset-cachekey-api-openapi.yml
   format: yaml
   label: Apache Superset Cachekey API
   slug: apache-superset-cachekey-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/openapi/apache-superset-cachekey-api-openapi.yml
+  url: https://artifacts.apis.io/apache-superset/openapi/apache-superset-cachekey-api-openapi.yml
 - filename: apache-superset-chart-api-openapi.yml
   format: yaml
   label: Apache Superset Chart API
   slug: apache-superset-chart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/openapi/apache-superset-chart-api-openapi.yml
+  url: https://artifacts.apis.io/apache-superset/openapi/apache-superset-chart-api-openapi.yml
 - filename: apache-superset-css-template-api-openapi.yml
   format: yaml
   label: Apache Superset Css Template API
   slug: apache-superset-css-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/openapi/apache-superset-css-template-api-openapi.yml
+  url: https://artifacts.apis.io/apache-superset/openapi/apache-superset-css-template-api-openapi.yml
 - filename: apache-superset-dashboard-api-openapi.yml
   format: yaml
   label: Apache Superset Dashboard API
   slug: apache-superset-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/openapi/apache-superset-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/apache-superset/openapi/apache-superset-dashboard-api-openapi.yml
 - filename: apache-superset-database-api-openapi.yml
   format: yaml
   label: Apache Superset Database API
   slug: apache-superset-database-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/openapi/apache-superset-database-api-openapi.yml
+  url: https://artifacts.apis.io/apache-superset/openapi/apache-superset-database-api-openapi.yml
 - filename: apache-superset-dataset-api-openapi.yml
   format: yaml
   label: Apache Superset Dataset API
   slug: apache-superset-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/openapi/apache-superset-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/apache-superset/openapi/apache-superset-dataset-api-openapi.yml
 - filename: apache-superset-embedded-dashboard-api-openapi.yml
   format: yaml
   label: Apache Superset Embedded Dashboard API
   slug: apache-superset-embedded-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/openapi/apache-superset-embedded-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/apache-superset/openapi/apache-superset-embedded-dashboard-api-openapi.yml
 - filename: apache-superset-log-api-openapi.yml
   format: yaml
   label: Apache Superset Log API
   slug: apache-superset-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/openapi/apache-superset-log-api-openapi.yml
+  url: https://artifacts.apis.io/apache-superset/openapi/apache-superset-log-api-openapi.yml
 - filename: apache-superset-me-api-openapi.yml
   format: yaml
   label: Apache Superset Me API
   slug: apache-superset-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/openapi/apache-superset-me-api-openapi.yml
+  url: https://artifacts.apis.io/apache-superset/openapi/apache-superset-me-api-openapi.yml
 - filename: apache-superset-menu-api-openapi.yml
   format: yaml
   label: Apache Superset Menu API
   slug: apache-superset-menu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/openapi/apache-superset-menu-api-openapi.yml
+  url: https://artifacts.apis.io/apache-superset/openapi/apache-superset-menu-api-openapi.yml
 - filename: apache-superset-query-api-openapi.yml
   format: yaml
   label: Apache Superset Query API
   slug: apache-superset-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/openapi/apache-superset-query-api-openapi.yml
+  url: https://artifacts.apis.io/apache-superset/openapi/apache-superset-query-api-openapi.yml
 - filename: apache-superset-report-api-openapi.yml
   format: yaml
   label: Apache Superset Report API
   slug: apache-superset-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/openapi/apache-superset-report-api-openapi.yml
+  url: https://artifacts.apis.io/apache-superset/openapi/apache-superset-report-api-openapi.yml
 - filename: apache-superset-saved-query-api-openapi.yml
   format: yaml
   label: Apache Superset Saved Query API
   slug: apache-superset-saved-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/openapi/apache-superset-saved-query-api-openapi.yml
+  url: https://artifacts.apis.io/apache-superset/openapi/apache-superset-saved-query-api-openapi.yml
 - filename: apache-superset-security-api-openapi.yml
   format: yaml
   label: Apache Superset Security API
   slug: apache-superset-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/openapi/apache-superset-security-api-openapi.yml
+  url: https://artifacts.apis.io/apache-superset/openapi/apache-superset-security-api-openapi.yml
 - filename: apache-superset-tag-api-openapi.yml
   format: yaml
   label: Apache Superset Tag API
   slug: apache-superset-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/openapi/apache-superset-tag-api-openapi.yml
+  url: https://artifacts.apis.io/apache-superset/openapi/apache-superset-tag-api-openapi.yml
 - filename: apache-superset-theme-api-openapi.yml
   format: yaml
   label: Apache Superset Theme API
   slug: apache-superset-theme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/openapi/apache-superset-theme-api-openapi.yml
+  url: https://artifacts.apis.io/apache-superset/openapi/apache-superset-theme-api-openapi.yml
 - filename: apache-superset-sql-lab-api-openapi.yml
   format: yaml
   label: Apache Superset SQL Lab API
   slug: apache-superset-sql-lab-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/openapi/apache-superset-sql-lab-api-openapi.yml
+  url: https://artifacts.apis.io/apache-superset/openapi/apache-superset-sql-lab-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -159,7 +159,7 @@ source_filename: apache-superset-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: superset.apache.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 23:33:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: apache.org\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 iodef \"mailto:root@apache.org\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/security/apache-superset-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apache-superset/security/apache-superset-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics

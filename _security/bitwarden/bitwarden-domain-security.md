@@ -5,37 +5,37 @@ api_specs:
   label: Bitwarden Collections API
   slug: bitwarden-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/openapi/bitwarden-collections-api-openapi.yml
+  url: https://artifacts.apis.io/bitwarden/openapi/bitwarden-collections-api-openapi.yml
 - filename: bitwarden-events-api-openapi.yml
   format: yaml
   label: Bitwarden Events API
   slug: bitwarden-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/openapi/bitwarden-events-api-openapi.yml
+  url: https://artifacts.apis.io/bitwarden/openapi/bitwarden-events-api-openapi.yml
 - filename: bitwarden-groups-api-openapi.yml
   format: yaml
   label: Bitwarden Groups API
   slug: bitwarden-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/openapi/bitwarden-groups-api-openapi.yml
+  url: https://artifacts.apis.io/bitwarden/openapi/bitwarden-groups-api-openapi.yml
 - filename: bitwarden-members-api-openapi.yml
   format: yaml
   label: Bitwarden Members API
   slug: bitwarden-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/openapi/bitwarden-members-api-openapi.yml
+  url: https://artifacts.apis.io/bitwarden/openapi/bitwarden-members-api-openapi.yml
 - filename: bitwarden-organization-api-openapi.yml
   format: yaml
   label: Bitwarden Organization API
   slug: bitwarden-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/openapi/bitwarden-organization-api-openapi.yml
+  url: https://artifacts.apis.io/bitwarden/openapi/bitwarden-organization-api-openapi.yml
 - filename: bitwarden-policies-api-openapi.yml
   format: yaml
   label: Bitwarden Policies API
   slug: bitwarden-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/openapi/bitwarden-policies-api-openapi.yml
+  url: https://artifacts.apis.io/bitwarden/openapi/bitwarden-policies-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -81,7 +81,7 @@ source_filename: bitwarden-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bitwarden.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 04:13:13 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: api.bitwarden.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 07:43:09 2026 GMT\n  hsts: null\n- host: identity.bitwarden.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 07:33:28 2026 GMT\n  hsts: null\ndomains:\n- domain: bitwarden.com\n  dnssec: true\n  caa:\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"globalsign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/security/bitwarden-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bitwarden/security/bitwarden-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Security

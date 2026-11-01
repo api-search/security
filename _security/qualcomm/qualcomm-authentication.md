@@ -7,7 +7,7 @@ api_specs:
   label: qualcomm Semiconductors API
   slug: qualcomm-semiconductors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qualcomm/refs/heads/main/openapi/qualcomm-semiconductors-api-openapi.yml
+  url: https://artifacts.apis.io/qualcomm/openapi/qualcomm-semiconductors-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -33,7 +33,7 @@ source_filename: qualcomm-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/qualcomm-qualcomm-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/qualcomm-qualcomm-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qualcomm/refs/heads/main/authentication/qualcomm-authentication.yml
+source_yaml_url: https://artifacts.apis.io/qualcomm/authentication/qualcomm-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Fortune 500

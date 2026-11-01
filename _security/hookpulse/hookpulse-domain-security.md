@@ -5,115 +5,115 @@ api_specs:
   label: HookPulse Apis.json API
   slug: hookpulse-apis-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-apis-json-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-apis-json-api-openapi.yml
 - filename: hookpulse-auth-api-openapi.yml
   format: yaml
   label: HookPulse Auth API
   slug: hookpulse-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-auth-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-auth-api-openapi.yml
 - filename: hookpulse-billing-api-openapi.yml
   format: yaml
   label: HookPulse Billing API
   slug: hookpulse-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-billing-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-billing-api-openapi.yml
 - filename: hookpulse-contact-api-openapi.yml
   format: yaml
   label: HookPulse Contact API
   slug: hookpulse-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-contact-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-contact-api-openapi.yml
 - filename: hookpulse-credito-api-openapi.yml
   format: yaml
   label: HookPulse Credito API
   slug: hookpulse-credito-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-credito-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-credito-api-openapi.yml
 - filename: hookpulse-endpoints-api-openapi.yml
   format: yaml
   label: HookPulse Endpoints API
   slug: hookpulse-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-endpoints-api-openapi.yml
 - filename: hookpulse-guest-api-openapi.yml
   format: yaml
   label: HookPulse Guest API
   slug: hookpulse-guest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-guest-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-guest-api-openapi.yml
 - filename: hookpulse-health-api-openapi.yml
   format: yaml
   label: HookPulse Health API
   slug: hookpulse-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-health-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-health-api-openapi.yml
 - filename: hookpulse-hookpulse-api-openapi.yml
   format: yaml
   label: HookPulse Hook Pulse API
   slug: hookpulse-hookpulse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-hookpulse-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-hookpulse-api-openapi.yml
 - filename: hookpulse-in-api-openapi.yml
   format: yaml
   label: HookPulse In API
   slug: hookpulse-in-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-in-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-in-api-openapi.yml
 - filename: hookpulse-mcp-api-openapi.yml
   format: yaml
   label: HookPulse MCP API
   slug: hookpulse-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-mcp-api-openapi.yml
 - filename: hookpulse-me-api-openapi.yml
   format: yaml
   label: HookPulse Me API
   slug: hookpulse-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-me-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-me-api-openapi.yml
 - filename: hookpulse-metrics-api-openapi.yml
   format: yaml
   label: HookPulse Metrics API
   slug: hookpulse-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-metrics-api-openapi.yml
 - filename: hookpulse-okf-api-openapi.yml
   format: yaml
   label: HookPulse Okf API
   slug: hookpulse-okf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-okf-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-okf-api-openapi.yml
 - filename: hookpulse-s-api-openapi.yml
   format: yaml
   label: HookPulse S API
   slug: hookpulse-s-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-s-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-s-api-openapi.yml
 - filename: hookpulse-status-feed-api-openapi.yml
   format: yaml
   label: HookPulse Status Feed API
   slug: hookpulse-status-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-status-feed-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-status-feed-api-openapi.yml
 - filename: hookpulse-templates-api-openapi.yml
   format: yaml
   label: HookPulse Templates API
   slug: hookpulse-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-templates-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-templates-api-openapi.yml
 - filename: hookpulse-visit-api-openapi.yml
   format: yaml
   label: HookPulse Visit API
   slug: hookpulse-visit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-visit-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-visit-api-openapi.yml
 - filename: hookpulse-well-known-api-openapi.yml
   format: yaml
   label: HookPulse .well Known API
   slug: hookpulse-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-well-known-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -142,7 +142,7 @@ source_filename: hookpulse-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: hookpulse.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 23:28:14 2026 GMT\n  hsts: false\ndomains:\n- domain: hookpulse.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/security/hookpulse-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hookpulse/security/hookpulse-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Monitoring

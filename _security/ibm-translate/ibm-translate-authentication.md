@@ -7,25 +7,25 @@ api_specs:
   label: IBM Language Translator Documents API
   slug: ibm-translate-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-translate/refs/heads/main/openapi/ibm-translate-documents-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-translate/openapi/ibm-translate-documents-api-openapi.yml
 - filename: ibm-translate-languages-api-openapi.yml
   format: yaml
   label: IBM Language Translator Languages API
   slug: ibm-translate-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-translate/refs/heads/main/openapi/ibm-translate-languages-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-translate/openapi/ibm-translate-languages-api-openapi.yml
 - filename: ibm-translate-models-api-openapi.yml
   format: yaml
   label: IBM Language Translator Models API
   slug: ibm-translate-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-translate/refs/heads/main/openapi/ibm-translate-models-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-translate/openapi/ibm-translate-models-api-openapi.yml
 - filename: ibm-translate-translation-api-openapi.yml
   format: yaml
   label: IBM Language Translator Translation API
   slug: ibm-translate-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-translate/refs/heads/main/openapi/ibm-translate-translation-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-translate/openapi/ibm-translate-translation-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: ibm-translate-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yaml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: IBM Cloud IAM token authentication\n  sources:\n  - openapi/openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ibm-translate/refs/heads/main/authentication/ibm-translate-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ibm-translate/authentication/ibm-translate-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Translation

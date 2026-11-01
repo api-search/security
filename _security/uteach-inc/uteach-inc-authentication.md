@@ -32,7 +32,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://uteach.io/support/integrations/connect-uteach-to-zapier\ndocs: https://uteach.io/support/integrations\nsummary:\n  types: [apiKey, http-bearer]\n  notes: Uteach publishes no public developer portal or OpenAPI. Its programmatic\n    surface is authenticated two ways, both documented in the support center -\n    an integration API key (plus school domain) for automation platforms, and a\n    bearer token for the single sign-on user-provisioning endpoint.\nschemes:\n  - name: integrationApiKey\n    type: apiKey\n    description: API key generated in the Uteach dashboard under Settings > Integrations,\n      used together with the school domain to connect Zapier, Make, and Pabbly\n      Connect. The Zapier connection prompts for \"API key and domain\".\n    docs: https://uteach.io/support/integrations/connect-uteach-to-zapier\n  - name: ssoCreateUserBearer\n    type: http\n    scheme: bearer\n    description: The single\
   \ sign-on integration provisions users by sending a POST\n      request to the school's \"Create user API URL\" authenticated with a \"Create\n      user API bearer token\", both issued from the Uteach dashboard.\n    docs: https://uteach.io/support/integrations/single-sign-on-for-seamless-authentication\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uteach-inc/refs/heads/main/authentication/uteach-inc-authentication.yml
+source_yaml_url: https://artifacts.apis.io/uteach-inc/authentication/uteach-inc-authentication.yml
 summary_line: apiKey/http-bearer · 2 schemes
 tags:
 - Company

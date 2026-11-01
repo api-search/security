@@ -5,55 +5,55 @@ api_specs:
   label: Rigetti Computing Account API
   slug: rigetti-computing-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/openapi/rigetti-computing-account-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti-computing/openapi/rigetti-computing-account-api-openapi.yml
 - filename: rigetti-computing-authentication-api-openapi.yml
   format: yaml
   label: Rigetti Computing Authentication API
   slug: rigetti-computing-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/openapi/rigetti-computing-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti-computing/openapi/rigetti-computing-authentication-api-openapi.yml
 - filename: rigetti-computing-clientapplications-api-openapi.yml
   format: yaml
   label: Rigetti Computing Client Applications API
   slug: rigetti-computing-clientapplications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/openapi/rigetti-computing-clientapplications-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti-computing/openapi/rigetti-computing-clientapplications-api-openapi.yml
 - filename: rigetti-computing-endpoints-api-openapi.yml
   format: yaml
   label: Rigetti Computing Endpoints API
   slug: rigetti-computing-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/openapi/rigetti-computing-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti-computing/openapi/rigetti-computing-endpoints-api-openapi.yml
 - filename: rigetti-computing-engagements-api-openapi.yml
   format: yaml
   label: Rigetti Computing Engagements API
   slug: rigetti-computing-engagements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/openapi/rigetti-computing-engagements-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti-computing/openapi/rigetti-computing-engagements-api-openapi.yml
 - filename: rigetti-computing-quantumprocessors-api-openapi.yml
   format: yaml
   label: Rigetti Computing Quantum Processors API
   slug: rigetti-computing-quantumprocessors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/openapi/rigetti-computing-quantumprocessors-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti-computing/openapi/rigetti-computing-quantumprocessors-api-openapi.yml
 - filename: rigetti-computing-reservations-api-openapi.yml
   format: yaml
   label: Rigetti Computing Reservations API
   slug: rigetti-computing-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/openapi/rigetti-computing-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti-computing/openapi/rigetti-computing-reservations-api-openapi.yml
 - filename: rigetti-computing-rigetti-qcs-api-api-openapi.yml
   format: yaml
   label: Rigetti Computing Rigetti QCS API
   slug: rigetti-computing-rigetti-qcs-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/openapi/rigetti-computing-rigetti-qcs-api-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti-computing/openapi/rigetti-computing-rigetti-qcs-api-api-openapi.yml
 - filename: rigetti-computing-health-check-api-openapi.yml
   format: yaml
   label: Rigetti Computing Health Check API
   slug: rigetti-computing-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/openapi/rigetti-computing-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti-computing/openapi/rigetti-computing-health-check-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -99,7 +99,7 @@ source_filename: rigetti-computing-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.rigetti.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 06:32:00 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.rigetti.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  5 23:59:59 2026 GMT\n  hsts: false\n- host: api.qcs.rigetti.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 31 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: rigetti.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/security/rigetti-computing-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rigetti-computing/security/rigetti-computing-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

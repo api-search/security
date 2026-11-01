@@ -27,7 +27,7 @@ source_filename: enechain-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: enechain.co.jp\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 21:04:46 2026 GMT\n  hsts: false\ndomains:\n- domain: enechain.co.jp\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/enechain/refs/heads/main/security/enechain-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/enechain/security/enechain-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

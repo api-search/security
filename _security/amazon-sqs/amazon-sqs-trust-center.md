@@ -5,25 +5,25 @@ api_specs:
   label: Amazon SQS Messages API
   slug: amazon-sqs-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/openapi/amazon-sqs-messages-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sqs/openapi/amazon-sqs-messages-api-openapi.yml
 - filename: amazon-sqs-permissions-api-openapi.yml
   format: yaml
   label: Amazon SQS Permissions API
   slug: amazon-sqs-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/openapi/amazon-sqs-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sqs/openapi/amazon-sqs-permissions-api-openapi.yml
 - filename: amazon-sqs-queues-api-openapi.yml
   format: yaml
   label: Amazon SQS Queues API
   slug: amazon-sqs-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/openapi/amazon-sqs-queues-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sqs/openapi/amazon-sqs-queues-api-openapi.yml
 - filename: amazon-sqs-tags-api-openapi.yml
   format: yaml
   label: Amazon SQS Tags API
   slug: amazon-sqs-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/openapi/amazon-sqs-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sqs/openapi/amazon-sqs-tags-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -44,7 +44,7 @@ source_filename: amazon-sqs-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://aws.amazon.com/compliance/\nurl: https://aws.amazon.com/compliance/\ncertifications:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://aws.amazon.com/compliance/\n  keywords:\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/security/amazon-sqs-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/amazon-sqs/security/amazon-sqs-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Cloud

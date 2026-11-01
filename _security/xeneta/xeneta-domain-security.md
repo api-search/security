@@ -5,13 +5,13 @@ api_specs:
   label: Xeneta Air API
   slug: xeneta-air-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xeneta/refs/heads/main/openapi/xeneta-air-api-openapi.yml
+  url: https://artifacts.apis.io/xeneta/openapi/xeneta-air-api-openapi.yml
 - filename: xeneta-ocean-api-openapi.yml
   format: yaml
   label: Xeneta Ocean API
   slug: xeneta-ocean-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xeneta/refs/heads/main/openapi/xeneta-ocean-api-openapi.yml
+  url: https://artifacts.apis.io/xeneta/openapi/xeneta-ocean-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: xeneta-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.xeneta.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 10:01:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: help.xeneta.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 00:50:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.xeneta.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: xeneta.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xeneta/refs/heads/main/security/xeneta-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/xeneta/security/xeneta-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Freight

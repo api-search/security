@@ -7,31 +7,31 @@ api_specs:
   label: Azure Container Apps Authentication API
   slug: azure-container-apps-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/openapi/azure-container-apps-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-apps/openapi/azure-container-apps-authentication-api-openapi.yml
 - filename: azure-container-apps-container-apps-api-openapi.yml
   format: yaml
   label: Azure Container Apps Container Apps API
   slug: azure-container-apps-container-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/openapi/azure-container-apps-container-apps-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-apps/openapi/azure-container-apps-container-apps-api-openapi.yml
 - filename: azure-container-apps-jobs-api-openapi.yml
   format: yaml
   label: Azure Container Apps Jobs API
   slug: azure-container-apps-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/openapi/azure-container-apps-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-apps/openapi/azure-container-apps-jobs-api-openapi.yml
 - filename: azure-container-apps-managed-environments-api-openapi.yml
   format: yaml
   label: Azure Container Apps Managed Environments API
   slug: azure-container-apps-managed-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/openapi/azure-container-apps-managed-environments-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-apps/openapi/azure-container-apps-managed-environments-api-openapi.yml
 - filename: azure-container-apps-revisions-api-openapi.yml
   format: yaml
   label: Azure Container Apps Revisions API
   slug: azure-container-apps-revisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/openapi/azure-container-apps-revisions-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-apps/openapi/azure-container-apps-revisions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -61,7 +61,7 @@ source_filename: azure-container-apps-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-container-apps-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - implicit\nschemes:\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  sources:\n  - openapi/azure-container-apps-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/authentication/azure-container-apps-authentication.yml
+source_yaml_url: https://artifacts.apis.io/azure-container-apps/authentication/azure-container-apps-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Microsoft Azure

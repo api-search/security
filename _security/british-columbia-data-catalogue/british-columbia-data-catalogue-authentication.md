@@ -3,48 +3,78 @@ anonymous_access: true
 api_key_in:
 - header
 api_specs:
-- filename: british-columbia-data-catalogue-datasets-api-openapi.yml
-  format: yaml
-  label: British Columbia Data Catalogue Datasets API
-  slug: british-columbia-data-catalogue-datasets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/openapi/british-columbia-data-catalogue-datasets-api-openapi.yml
-- filename: british-columbia-data-catalogue-groups-api-openapi.yml
-  format: yaml
-  label: British Columbia Data Catalogue Groups API
-  slug: british-columbia-data-catalogue-groups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/openapi/british-columbia-data-catalogue-groups-api-openapi.yml
-- filename: british-columbia-data-catalogue-organizations-api-openapi.yml
-  format: yaml
-  label: British Columbia Data Catalogue Organizations API
-  slug: british-columbia-data-catalogue-organizations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/openapi/british-columbia-data-catalogue-organizations-api-openapi.yml
-- filename: british-columbia-data-catalogue-resources-api-openapi.yml
-  format: yaml
-  label: British Columbia Data Catalogue Resources API
-  slug: british-columbia-data-catalogue-resources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/openapi/british-columbia-data-catalogue-resources-api-openapi.yml
-- filename: british-columbia-data-catalogue-site-api-openapi.yml
-  format: yaml
-  label: British Columbia Data Catalogue Site API
-  slug: british-columbia-data-catalogue-site-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/openapi/british-columbia-data-catalogue-site-api-openapi.yml
 - filename: british-columbia-data-catalogue-tags-api-openapi.yml
   format: yaml
   label: British Columbia Data Catalogue Tags API
   slug: british-columbia-data-catalogue-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/openapi/british-columbia-data-catalogue-tags-api-openapi.yml
+  url: https://artifacts.apis.io/british-columbia-data-catalogue/openapi/british-columbia-data-catalogue-tags-api-openapi.yml
 - filename: british-columbia-data-catalogue-action-api-openapi.yml
   format: yaml
   label: British Columbia Data Catalogue Action API
   slug: british-columbia-data-catalogue-action-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/openapi/british-columbia-data-catalogue-action-api-openapi.yml
+  url: https://artifacts.apis.io/british-columbia-data-catalogue/openapi/british-columbia-data-catalogue-action-api-openapi.yml
+- filename: british-columbia-data-catalogue-facebookposts-api-openapi.yml
+  format: yaml
+  label: British Columbia Data Catalogue Facebook Posts API
+  slug: british-columbia-data-catalogue-facebookposts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/british-columbia-data-catalogue/openapi/british-columbia-data-catalogue-facebookposts-api-openapi.yml
+- filename: british-columbia-data-catalogue-home-api-openapi.yml
+  format: yaml
+  label: British Columbia Data Catalogue Home API
+  slug: british-columbia-data-catalogue-home-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/british-columbia-data-catalogue/openapi/british-columbia-data-catalogue-home-api-openapi.yml
+- filename: british-columbia-data-catalogue-ministries-api-openapi.yml
+  format: yaml
+  label: British Columbia Data Catalogue Ministries API
+  slug: british-columbia-data-catalogue-ministries-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/british-columbia-data-catalogue/openapi/british-columbia-data-catalogue-ministries-api-openapi.yml
+- filename: british-columbia-data-catalogue-newsletters-api-openapi.yml
+  format: yaml
+  label: British Columbia Data Catalogue Newsletters API
+  slug: british-columbia-data-catalogue-newsletters-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/british-columbia-data-catalogue/openapi/british-columbia-data-catalogue-newsletters-api-openapi.yml
+- filename: british-columbia-data-catalogue-posts-api-openapi.yml
+  format: yaml
+  label: British Columbia Data Catalogue Posts API
+  slug: british-columbia-data-catalogue-posts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/british-columbia-data-catalogue/openapi/british-columbia-data-catalogue-posts-api-openapi.yml
+- filename: british-columbia-data-catalogue-sectors-api-openapi.yml
+  format: yaml
+  label: British Columbia Data Catalogue Sectors API
+  slug: british-columbia-data-catalogue-sectors-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/british-columbia-data-catalogue/openapi/british-columbia-data-catalogue-sectors-api-openapi.yml
+- filename: british-columbia-data-catalogue-services-api-openapi.yml
+  format: yaml
+  label: British Columbia Data Catalogue Services API
+  slug: british-columbia-data-catalogue-services-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/british-columbia-data-catalogue/openapi/british-columbia-data-catalogue-services-api-openapi.yml
+- filename: british-columbia-data-catalogue-slides-api-openapi.yml
+  format: yaml
+  label: British Columbia Data Catalogue Slides API
+  slug: british-columbia-data-catalogue-slides-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/british-columbia-data-catalogue/openapi/british-columbia-data-catalogue-slides-api-openapi.yml
+- filename: british-columbia-data-catalogue-themes-api-openapi.yml
+  format: yaml
+  label: British Columbia Data Catalogue Themes API
+  slug: british-columbia-data-catalogue-themes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/british-columbia-data-catalogue/openapi/british-columbia-data-catalogue-themes-api-openapi.yml
+- filename: british-columbia-data-catalogue-resource-links-api-openapi.yml
+  format: yaml
+  label: British Columbia Data Catalogue Resource Links API
+  slug: british-columbia-data-catalogue-resource-links-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/british-columbia-data-catalogue/openapi/british-columbia-data-catalogue-resource-links-api-openapi.yml
 auth_types:
 - none
 - apiKey
@@ -100,7 +130,7 @@ source_yaml: "generated: '2026-09-04'\nmethod: searched\nsource: >-\n  openapi/b
   \ none\n    applies_to: all public read actions\n    detail: >-\n      package_search, package_list, package_show, organization_*, group_*, tag_* and\n      resource_* answered anonymously on every probe.\n    evidence: https://catalogue.data.gov.bc.ca/api/3/action/status_show\n  - name: internalApiKey\n    type: apiKey\n    in: header\n    parameter: ckan_api_key\n    applies_to: write actions\n    obtained_from: >-\n      Account Settings after signing in to catalogue.data.gov.bc.ca. Requires\n      editor/publisher rights in a B.C. government organization — an internal entitlement,\n      not a self-service signup.\n    sources:\n      - openapi/british-columbia-data-catalogue-bcdc-api-openapi.json\n      - https://bcgov.github.io/data-publication/pages/dps_bcdc_api_w_resource_mgmt.html\n    evidence:\n      url: https://catalogue.data.gov.bc.ca/api/3/action/package_create\n      method: POST\n      status: 403\n      body: '{\"error\": {\"__type\": \"Authorization Error\", \"message\"\
   : \"Access denied: User  not authorized to create packages\"}, \"success\": false}'\n  - name: githubAccessCode\n    type: oauth2\n    applies_to: nothing\n    disregard: true\n    declared_in: openapi/british-columbia-data-catalogue-bcdc-api-openapi.json\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://github.com/login/oauth/authorize\n        tokenUrl: https://github.com/login/oauth/access_token\n        scopes: 19\n    finding: >-\n      This oauth2 scheme is Swagger-editor boilerplate, NOT a BC Data Catalogue\n      authorization server. Its endpoints are github.com and its 19 scopes are GitHub's own\n      (repo, gist, delete_repo, admin:org, write:public_key). Treating it as a BC OAuth\n      surface would credit the Province with an authorization server it does not operate\n      and would hand an agent a scope list that has nothing to do with B.C. data. No\n      OAuthScopes artifact or pointer is emitted for this provider for the same reason.\n \
   \   remedy: >-\n      Removing the githubAccessCode block from bcdc.json, or replacing it with the\n      catalogue's real OpenID Connect metadata, would make the contract's security section\n      truthful.\nsso:\n  protocol: OpenID Connect\n  applies_to: interactive sign-in to the catalogue web application\n  evidence:\n    - url: https://catalogue.data.gov.bc.ca/api/3/action/status_show\n      note: 'extensions[] includes \"sso\"'\n    - url: https://github.com/bcgov/ckanext-sso\n      note: '\"OpenID connect plugin for CKAN used by the B.C. Catalogue.\"'\n  discovery_document: null\n  discovery_note: >-\n    No /.well-known/openid-configuration is served on any host in this record — every\n    probe returned the SPA catch-all or a 404. See\n    well-known/british-columbia-data-catalogue-well-known.yml.\nmtls: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/authentication/british-columbia-data-catalogue-authentication.yml
+source_yaml_url: https://artifacts.apis.io/british-columbia-data-catalogue/authentication/british-columbia-data-catalogue-authentication.yml
 summary_line: none/apiKey · 3 schemes
 tags:
 - Open Data

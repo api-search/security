@@ -26,7 +26,7 @@ source_filename: powerhq-authentication.yml
 source_heading: Authentication Profile
 source_url: https://docs.powerhq.co/authentication.md
 source_yaml: "generated: '2026-10-02'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://docs.powerhq.co/authentication.md\nsources:\n- https://docs.powerhq.co/authentication.md\n- https://docs.powerhq.co/quickstart.md\ndescription: PowerHQ uses a single API key authentication scheme.\nschemes:\n- type: apiKey\n  name: API Key\n  evidence: 'Authenticate every PowerHQ API request with your API key: one static secret in the x-api-key header, no OAuth handshake, no token\n    to refresh.'\n  location: header\n  header: x-api-key\n  how_to_obtain: Contact your partner manager to receive your key.\ndocs: https://docs.powerhq.co/authentication.md\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/powerhq/refs/heads/main/authentication/powerhq-authentication.yml
+source_yaml_url: https://artifacts.apis.io/powerhq/authentication/powerhq-authentication.yml
 summary_line: 1 scheme
 tags:
 - Energy Commerce

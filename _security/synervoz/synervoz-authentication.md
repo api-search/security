@@ -32,7 +32,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://docs.switchboard.audio/downloads/\ndocs: https://docs.switchboard.audio/\nsummary:\n  types: [apiKey]\n  api_key_in: [sdk-initialization]\n  model: app-credential\nschemes:\n  - name: AppCredentials\n    type: apiKey\n    description: >-\n      Switchboard SDK is initialized with an appID and appSecret pair issued per\n      application. Developers sign up for a free account to obtain the appID and\n      appSecret values, which are supplied to the SDK at initialization time\n      (SwitchboardSDK.initialize(appID, appSecret)) across all platform bindings\n      (iOS/Swift, Android/Kotlin, JavaScript, React Native, C++).\n    parameters:\n      - appID\n      - appSecret\n    obtain: Sign up for a free account, then retrieve appID/appSecret from the downloads/onboarding page.\n    sources:\n      - https://docs.switchboard.audio/downloads/\nnotes: >-\n  This is a client-SDK credential model, not a hosted REST OAuth\
   \ surface — there\n  is no documented OAuth2/OIDC flow or token endpoint. Credentials gate SDK\n  initialization; some audio-graph nodes are cloud-integrated and use the same\n  app credentials.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synervoz/refs/heads/main/authentication/synervoz-authentication.yml
+source_yaml_url: https://artifacts.apis.io/synervoz/authentication/synervoz-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

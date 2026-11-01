@@ -7,25 +7,25 @@ api_specs:
   label: Google Distributed Cloud Networks API
   slug: google-distributed-cloud-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-distributed-cloud/refs/heads/main/openapi/google-distributed-cloud-networks-api-openapi.yml
+  url: https://artifacts.apis.io/google-distributed-cloud/openapi/google-distributed-cloud-networks-api-openapi.yml
 - filename: google-distributed-cloud-routers-api-openapi.yml
   format: yaml
   label: Google Distributed Cloud Routers API
   slug: google-distributed-cloud-routers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-distributed-cloud/refs/heads/main/openapi/google-distributed-cloud-routers-api-openapi.yml
+  url: https://artifacts.apis.io/google-distributed-cloud/openapi/google-distributed-cloud-routers-api-openapi.yml
 - filename: google-distributed-cloud-subnets-api-openapi.yml
   format: yaml
   label: Google Distributed Cloud Subnets API
   slug: google-distributed-cloud-subnets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-distributed-cloud/refs/heads/main/openapi/google-distributed-cloud-subnets-api-openapi.yml
+  url: https://artifacts.apis.io/google-distributed-cloud/openapi/google-distributed-cloud-subnets-api-openapi.yml
 - filename: google-distributed-cloud-zones-api-openapi.yml
   format: yaml
   label: Google Distributed Cloud Zones API
   slug: google-distributed-cloud-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-distributed-cloud/refs/heads/main/openapi/google-distributed-cloud-zones-api-openapi.yml
+  url: https://artifacts.apis.io/google-distributed-cloud/openapi/google-distributed-cloud-zones-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -56,7 +56,7 @@ source_filename: google-distributed-cloud-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/distributed-cloud-edge-network-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 1\n  sources:\n  - openapi/distributed-cloud-edge-network-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-distributed-cloud/refs/heads/main/authentication/google-distributed-cloud-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-distributed-cloud/authentication/google-distributed-cloud-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Distributed Infrastructure

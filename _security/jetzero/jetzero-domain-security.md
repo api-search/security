@@ -28,7 +28,7 @@ source_filename: jetzero-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-01'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.jetzero.aero\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 15:03:48 2026 GMT\n  hsts: true\n  hsts_max_age: 3628800\ndomains:\n- domain: jetzero.aero\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jetzero/refs/heads/main/security/jetzero-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/jetzero/security/jetzero-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

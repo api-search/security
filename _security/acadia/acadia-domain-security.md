@@ -5,31 +5,31 @@ api_specs:
   label: Acadia Employees API
   slug: acadia-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acadia/refs/heads/main/openapi/acadia-employees-api-openapi.yml
+  url: https://artifacts.apis.io/acadia/openapi/acadia-employees-api-openapi.yml
 - filename: acadia-quizzes-api-openapi.yml
   format: yaml
   label: Acadia Quizzes API
   slug: acadia-quizzes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acadia/refs/heads/main/openapi/acadia-quizzes-api-openapi.yml
+  url: https://artifacts.apis.io/acadia/openapi/acadia-quizzes-api-openapi.yml
 - filename: acadia-roles-api-openapi.yml
   format: yaml
   label: Acadia Roles API
   slug: acadia-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acadia/refs/heads/main/openapi/acadia-roles-api-openapi.yml
+  url: https://artifacts.apis.io/acadia/openapi/acadia-roles-api-openapi.yml
 - filename: acadia-skills-api-openapi.yml
   format: yaml
   label: Acadia Skills API
   slug: acadia-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acadia/refs/heads/main/openapi/acadia-skills-api-openapi.yml
+  url: https://artifacts.apis.io/acadia/openapi/acadia-skills-api-openapi.yml
 - filename: acadia-work-instructions-api-openapi.yml
   format: yaml
   label: Acadia Work Instructions API
   slug: acadia-work-instructions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acadia/refs/heads/main/openapi/acadia-work-instructions-api-openapi.yml
+  url: https://artifacts.apis.io/acadia/openapi/acadia-work-instructions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -60,7 +60,7 @@ source_filename: acadia-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.acadia-software.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  7 22:30:06 2026 GMT\n  hsts: false\n- host: api.acadia-software.com\n  https: false\ndomains:\n- domain: acadia-software.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acadia/refs/heads/main/security/acadia-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/acadia/security/acadia-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Connected Worker

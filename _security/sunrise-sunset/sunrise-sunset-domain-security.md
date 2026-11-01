@@ -5,7 +5,7 @@ api_specs:
   label: Sunrise Sunset Json API
   slug: sunrise-sunset-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sunrise-sunset/refs/heads/main/openapi/sunrise-sunset-json-api-openapi.yml
+  url: https://artifacts.apis.io/sunrise-sunset/openapi/sunrise-sunset-json-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,7 +38,7 @@ source_filename: sunrise-sunset-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sunrise-sunset.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 02:46:15 2026 GMT\n  hsts: false\n- host: api.sunrise-sunset.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 02:46:15 2026 GMT\n  hsts: false\ndomains:\n- domain: sunrise-sunset.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sunrise-sunset/refs/heads/main/security/sunrise-sunset-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sunrise-sunset/security/sunrise-sunset-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Sunrise

@@ -5,43 +5,43 @@ api_specs:
   label: BCU Bank Banking Account Balances API
   slug: bcu-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcu-bank/refs/heads/main/openapi/bcu-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/bcu-bank/openapi/bcu-bank-banking-account-balances-api-openapi.yml
 - filename: bcu-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: BCU Bank Banking Account Direct Debits API
   slug: bcu-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcu-bank/refs/heads/main/openapi/bcu-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/bcu-bank/openapi/bcu-bank-banking-account-direct-debits-api-openapi.yml
 - filename: bcu-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: BCU Bank Banking Account Scheduled Payments API
   slug: bcu-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcu-bank/refs/heads/main/openapi/bcu-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/bcu-bank/openapi/bcu-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: bcu-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: BCU Bank Banking Account Transactions API
   slug: bcu-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcu-bank/refs/heads/main/openapi/bcu-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bcu-bank/openapi/bcu-bank-banking-account-transactions-api-openapi.yml
 - filename: bcu-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: BCU Bank Banking Accounts API
   slug: bcu-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcu-bank/refs/heads/main/openapi/bcu-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bcu-bank/openapi/bcu-bank-banking-accounts-api-openapi.yml
 - filename: bcu-bank-banking-payees-api-openapi.yml
   format: yaml
   label: BCU Bank Banking Payees API
   slug: bcu-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcu-bank/refs/heads/main/openapi/bcu-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/bcu-bank/openapi/bcu-bank-banking-payees-api-openapi.yml
 - filename: bcu-bank-banking-products-api-openapi.yml
   format: yaml
   label: BCU Bank Banking Products API
   slug: bcu-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcu-bank/refs/heads/main/openapi/bcu-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/bcu-bank/openapi/bcu-bank-banking-products-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -82,7 +82,7 @@ source_filename: bcu-bank-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bcu.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 31 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: public.cdr-api.bcu.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 19:02:43 2026 GMT\n  hsts: null\ndomains:\n- domain: bcu.com.au\n  dnssec: false\n  caa:\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bcu-bank/refs/heads/main/security/bcu-bank-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bcu-bank/security/bcu-bank-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Finance

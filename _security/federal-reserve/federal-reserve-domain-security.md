@@ -5,49 +5,49 @@ api_specs:
   label: Federal Reserve Category API
   slug: federal-reserve-category-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-reserve/refs/heads/main/openapi/federal-reserve-category-api-openapi.yml
+  url: https://artifacts.apis.io/federal-reserve/openapi/federal-reserve-category-api-openapi.yml
 - filename: federal-reserve-related-tags-api-openapi.yml
   format: yaml
   label: Federal Reserve Related Tags API
   slug: federal-reserve-related-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-reserve/refs/heads/main/openapi/federal-reserve-related-tags-api-openapi.yml
+  url: https://artifacts.apis.io/federal-reserve/openapi/federal-reserve-related-tags-api-openapi.yml
 - filename: federal-reserve-release-api-openapi.yml
   format: yaml
   label: Federal Reserve Release API
   slug: federal-reserve-release-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-reserve/refs/heads/main/openapi/federal-reserve-release-api-openapi.yml
+  url: https://artifacts.apis.io/federal-reserve/openapi/federal-reserve-release-api-openapi.yml
 - filename: federal-reserve-releases-api-openapi.yml
   format: yaml
   label: Federal Reserve Releases API
   slug: federal-reserve-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-reserve/refs/heads/main/openapi/federal-reserve-releases-api-openapi.yml
+  url: https://artifacts.apis.io/federal-reserve/openapi/federal-reserve-releases-api-openapi.yml
 - filename: federal-reserve-series-api-openapi.yml
   format: yaml
   label: Federal Reserve Series API
   slug: federal-reserve-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-reserve/refs/heads/main/openapi/federal-reserve-series-api-openapi.yml
+  url: https://artifacts.apis.io/federal-reserve/openapi/federal-reserve-series-api-openapi.yml
 - filename: federal-reserve-source-api-openapi.yml
   format: yaml
   label: Federal Reserve Source API
   slug: federal-reserve-source-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-reserve/refs/heads/main/openapi/federal-reserve-source-api-openapi.yml
+  url: https://artifacts.apis.io/federal-reserve/openapi/federal-reserve-source-api-openapi.yml
 - filename: federal-reserve-sources-api-openapi.yml
   format: yaml
   label: Federal Reserve Sources API
   slug: federal-reserve-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-reserve/refs/heads/main/openapi/federal-reserve-sources-api-openapi.yml
+  url: https://artifacts.apis.io/federal-reserve/openapi/federal-reserve-sources-api-openapi.yml
 - filename: federal-reserve-tags-api-openapi.yml
   format: yaml
   label: Federal Reserve Tags API
   slug: federal-reserve-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-reserve/refs/heads/main/openapi/federal-reserve-tags-api-openapi.yml
+  url: https://artifacts.apis.io/federal-reserve/openapi/federal-reserve-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -93,7 +93,7 @@ source_filename: federal-reserve-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.federalreserve.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 12:07:33 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: fred.stlouisfed.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 21 23:59:59 2027 GMT\n  hsts: null\n- host: api.stlouisfed.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 21 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: federalreserve.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: stlouisfed.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/federal-reserve/refs/heads/main/security/federal-reserve-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/federal-reserve/security/federal-reserve-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Economics

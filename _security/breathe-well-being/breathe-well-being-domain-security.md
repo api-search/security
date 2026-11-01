@@ -27,7 +27,7 @@ source_filename: breathe-well-being-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.breathewellbeing.in\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  1 13:10:37 2027 GMT\n  hsts: false\ndomains:\n- domain: breathewellbeing.in\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/breathe-well-being/refs/heads/main/security/breathe-well-being-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/breathe-well-being/security/breathe-well-being-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

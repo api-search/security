@@ -5,25 +5,25 @@ api_specs:
   label: Metrilo Category API
   slug: metrilo-category-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metrilo/refs/heads/main/openapi/metrilo-category-api-openapi.yml
+  url: https://artifacts.apis.io/metrilo/openapi/metrilo-category-api-openapi.yml
 - filename: metrilo-customer-api-openapi.yml
   format: yaml
   label: Metrilo Customer API
   slug: metrilo-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metrilo/refs/heads/main/openapi/metrilo-customer-api-openapi.yml
+  url: https://artifacts.apis.io/metrilo/openapi/metrilo-customer-api-openapi.yml
 - filename: metrilo-order-api-openapi.yml
   format: yaml
   label: Metrilo Order API
   slug: metrilo-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metrilo/refs/heads/main/openapi/metrilo-order-api-openapi.yml
+  url: https://artifacts.apis.io/metrilo/openapi/metrilo-order-api-openapi.yml
 - filename: metrilo-product-api-openapi.yml
   format: yaml
   label: Metrilo Product API
   slug: metrilo-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metrilo/refs/heads/main/openapi/metrilo-product-api-openapi.yml
+  url: https://artifacts.apis.io/metrilo/openapi/metrilo-product-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -94,7 +94,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nnote: >-\n  Baseline written by 0-working/probe-domain-security.py (which resolves the\n  apis.yml baseURL host), then extended by hand with the same kind of live\n  probe against the website, app and docs hosts and both registrable domains.\n  Every value below was observed on 2026-08-13.\nhosts:\n- host: trk.mtrl.me\n  role: api ingestion\n  https: true\n  tls_version: TLSv1.3\n  cert_valid: true\n  cert_expires: Nov  7 00:58:21 2026 GMT\n  hsts: true\n  hsts_max_age: 15724800\n  hsts_include_subdomains: true\n  note: >-\n    HSTS is served on the API host but max-age is 15724800s (182 days) — under\n    the 31536000s (1 year) required for HSTS preload eligibility.\n    An unauthenticated POST to /v2/customer returns 401 (endpoint live);\n    GET returns 405. Fronted by Cloudflare.\n- host: www.metrilo.com\n  role: website\n  https: true\n  tls_version: TLSv1.3\n  cert_valid:\
   \ true\n  hsts: false\n  note: >-\n    No HSTS on the marketing site. Also answers HTTP 200 with the same\n    marketing HTML to arbitrary paths including every /.well-known/* probe —\n    see well-known/metrilo-well-known.yml.\n- host: app.metrilo.com\n  role: application / login\n  https: true\n  tls_version: TLSv1.3\n  cert_valid: true\n  hsts: true\n  hsts_max_age: 15724800\n  hsts_include_subdomains: true\n- host: docs.metrilo.com\n  role: documentation (Intercom-hosted help center)\n  https: true\n  tls_version: TLSv1.3\n  cert_valid: true\n  hsts: false\n  third_party: Intercom\ndomains:\n- domain: mtrl.me\n  role: api\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: 'v=spf1 include:mailgun.org ~all'\n  dmarc: false\n  dmarc_policy: null\n  misconfiguration: >-\n    A TXT record EXISTS at _dmarc.mtrl.me but its value is an SPF policy\n    (\"v=spf1 include:mailgun.org ~all\"), not a DMARC policy. Because it does not\n    begin with \"v=DMARC1\", it provides no DMARC protection\
   \ at all — the domain\n    is unprotected while appearing to have a record. This is a copy-paste\n    misconfiguration, not an absence.\n- domain: metrilo.com\n  role: website / mail\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: 'v=spf1 a mx include:spf.mail.intercom.io include:mailgun.org include:_spf.google.com ~all'\n  dmarc: true\n  dmarc_policy: none\n  dmarc_record: 'v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com'\n  note: >-\n    DMARC is present but set to p=none (monitor only — no quarantine or\n    reject). Aggregate reports are routed to rua@dmarc.brevo.com, independent\n    DNS-level confirmation that Metrilo mail is administered by Brevo, the\n    2021 acquirer.\nsummary:\n  hosts_probed: 4\n  https_everywhere: true\n  hsts_hosts: 2\n  hsts_preload_eligible: 0\n  dnssec_domains: 0\n  caa_domains: 0\n  dmarc_enforcing_domains: 0\nchecked: '2026-08-13'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metrilo/refs/heads/main/security/metrilo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/metrilo/security/metrilo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

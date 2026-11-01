@@ -5,19 +5,19 @@ api_specs:
   label: APOLLO Insurance Affiliates API
   slug: apollo-insurance-affiliates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-insurance/refs/heads/main/openapi/apollo-insurance-affiliates-api-openapi.yml
+  url: https://artifacts.apis.io/apollo-insurance/openapi/apollo-insurance-affiliates-api-openapi.yml
 - filename: apollo-insurance-compliance-api-openapi.yml
   format: yaml
   label: APOLLO Insurance Compliance API
   slug: apollo-insurance-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-insurance/refs/heads/main/openapi/apollo-insurance-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/apollo-insurance/openapi/apollo-insurance-compliance-api-openapi.yml
 - filename: apollo-insurance-quote-api-openapi.yml
   format: yaml
   label: APOLLO Insurance Quote API
   slug: apollo-insurance-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-insurance/refs/heads/main/openapi/apollo-insurance-quote-api-openapi.yml
+  url: https://artifacts.apis.io/apollo-insurance/openapi/apollo-insurance-quote-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -40,7 +40,7 @@ source_yaml: "generated: '2026-07-25'\nmethod: searched\nprobe: true\nsource: ht
   \ programming, automatic static code analysis and\n    dependency scanning (SonarCloud) in CI, separate QA AWS account with no production data,\n    security-by-design embedded in the product organisation\n  monitoring: AWS GuardDuty, DataDome (bot/fraud/DDoS), third-party 24/7 SOC, CloudTrail across all environments, OpsGenie escalation\n  network: AWS security groups, Web Application Firewall, AWS Shield\n  access: role- and permission-based access to customer data, all actions recorded and audited; MFA enforced across AWS and Bitbucket\n  resilience: multi-region replication, versioned S3 buckets, point-in-time recovery to 35 days\n  data_retention: documented Data Retention and Data Classification policies; application logs retained 365 days minimum\n  incident_response: >-\n    documented incident response plan covering notification and cooperation with customers, data\n    protection authorities and law enforcement; affected customers notified without undue delay\n  people: security\
   \ and privacy training for employees and contractors, confidentiality clauses in standard contracts\n  vendor_management: risk assessment of every SaaS/tool; contractual privacy and security commitments required of third parties\n  end_user_controls: two-factor authentication via email; minimum 8-character password policy with complexity requirement\n\ngaps:\n  vulnerability_disclosure: >-\n    No coordinated vulnerability disclosure channel. The page describes internal vulnerability\n    management but publishes no security contact address, no responsible-disclosure policy, no\n    safe-harbour statement and no bug bounty. There is no /.well-known/security.txt on any host.\n    A researcher who found a flaw would have to use the general contact form.\n  audit_reports: none offered, and no request mechanism\n  subprocessors: no subprocessor list published\n  own_certifications: none — every named certification belongs to AWS or Stripe\n  status_page: none\n  privacy_regime: >-\n    PIPEDA\
   \ and provincial privacy law apply, and a public privacy policy exists\n    (https://apollocover.com/privacy-policy), but the security page makes no explicit PIPEDA,\n    Law 25 or GDPR statement.\n\nevidence:\n- source: https://apollocover.com/security\n  kind: security-posture-page\n  keywords:\n  - soc 2 type 2\n  - iso 27001\n  - pci dss\n  - penetration test\n  - vulnerability management\n  - incident response\n  - encryption at rest\n  - aws kms\n  - datadome\n  - guardduty\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apollo-insurance/refs/heads/main/security/apollo-insurance-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/apollo-insurance/security/apollo-insurance-trust-center.yml
 summary_line: SOC 2, ISO 27001, PCI DSS
 tags:
 - Insurance

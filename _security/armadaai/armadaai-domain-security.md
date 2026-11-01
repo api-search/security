@@ -5,25 +5,25 @@ api_specs:
   label: Armadaai Armadaai API
   slug: armadaai-armadaai-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armadaai/refs/heads/main/openapi/armadaai-armadaai-api-api-openapi.yml
+  url: https://artifacts.apis.io/armadaai/openapi/armadaai-armadaai-api-api-openapi.yml
 - filename: armadaai-health-api-openapi.yml
   format: yaml
   label: Armadaai Health API
   slug: armadaai-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armadaai/refs/heads/main/openapi/armadaai-health-api-openapi.yml
+  url: https://artifacts.apis.io/armadaai/openapi/armadaai-health-api-openapi.yml
 - filename: armadaai-kubernetes-sigs-api-openapi.yml
   format: yaml
   label: Armadaai Kubernetes Sigs API
   slug: armadaai-kubernetes-sigs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armadaai/refs/heads/main/openapi/armadaai-kubernetes-sigs-api-openapi.yml
+  url: https://artifacts.apis.io/armadaai/openapi/armadaai-kubernetes-sigs-api-openapi.yml
 - filename: armadaai-metrics-api-openapi.yml
   format: yaml
   label: Armadaai Metrics API
   slug: armadaai-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armadaai/refs/heads/main/openapi/armadaai-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/armadaai/openapi/armadaai-metrics-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: armadaai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.armada.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 22:14:51 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\ndomains:\n- domain: armada.ai\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/armadaai/refs/heads/main/security/armadaai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/armadaai/security/armadaai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

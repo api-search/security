@@ -39,7 +39,7 @@ source_filename: wto-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.wto.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 12:12:17 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apiportal.wto.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.wto.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 26 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: wto.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wto/refs/heads/main/security/wto-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wto/security/wto-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - World Trade

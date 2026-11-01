@@ -5,19 +5,19 @@ api_specs:
   label: Gemnote Gifts API
   slug: gemnote-gifts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemnote/refs/heads/main/openapi/gemnote-gifts-api-openapi.yml
+  url: https://artifacts.apis.io/gemnote/openapi/gemnote-gifts-api-openapi.yml
 - filename: gemnote-greeting-cards-api-openapi.yml
   format: yaml
   label: Gemnote Greeting Cards API
   slug: gemnote-greeting-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemnote/refs/heads/main/openapi/gemnote-greeting-cards-api-openapi.yml
+  url: https://artifacts.apis.io/gemnote/openapi/gemnote-greeting-cards-api-openapi.yml
 - filename: gemnote-shipments-api-openapi.yml
   format: yaml
   label: Gemnote Shipments API
   slug: gemnote-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemnote/refs/heads/main/openapi/gemnote-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/gemnote/openapi/gemnote-shipments-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: gemnote-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.gemnote.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 19:45:07 2026 GMT\n  hsts: false\n- host: api.gemnote.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 00:04:24 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: sandbox.gemnote.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 01:51:29 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: gemnote.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gemnote/refs/heads/main/security/gemnote-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gemnote/security/gemnote-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

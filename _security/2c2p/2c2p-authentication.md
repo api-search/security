@@ -7,43 +7,43 @@ api_specs:
   label: 2C2P Do Payment API
   slug: 2c2p-do-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-do-payment-api-openapi.yml
+  url: https://artifacts.apis.io/2c2p/openapi/2c2p-do-payment-api-openapi.yml
 - filename: 2c2p-exchange-rate-api-openapi.yml
   format: yaml
   label: 2C2P Exchange Rate API
   slug: 2c2p-exchange-rate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-exchange-rate-api-openapi.yml
+  url: https://artifacts.apis.io/2c2p/openapi/2c2p-exchange-rate-api-openapi.yml
 - filename: 2c2p-inquiry-api-openapi.yml
   format: yaml
   label: 2C2P Inquiry API
   slug: 2c2p-inquiry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-inquiry-api-openapi.yml
+  url: https://artifacts.apis.io/2c2p/openapi/2c2p-inquiry-api-openapi.yml
 - filename: 2c2p-maintenance-api-openapi.yml
   format: yaml
   label: 2C2P Maintenance API
   slug: 2c2p-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/2c2p/openapi/2c2p-maintenance-api-openapi.yml
 - filename: 2c2p-payment-option-api-openapi.yml
   format: yaml
   label: 2C2P Payment Option API
   slug: 2c2p-payment-option-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-payment-option-api-openapi.yml
+  url: https://artifacts.apis.io/2c2p/openapi/2c2p-payment-option-api-openapi.yml
 - filename: 2c2p-payment-token-api-openapi.yml
   format: yaml
   label: 2C2P Payment Token API
   slug: 2c2p-payment-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-payment-token-api-openapi.yml
+  url: https://artifacts.apis.io/2c2p/openapi/2c2p-payment-token-api-openapi.yml
 - filename: 2c2p-tokens-api-openapi.yml
   format: yaml
   label: 2C2P Tokens API
   slug: 2c2p-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/2c2p/openapi/2c2p-tokens-api-openapi.yml
 auth_types:
 - jwt
 - hmac
@@ -83,7 +83,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: documented\nsource: https://developer.2c2p.com/docs\nsummary:\n  types:\n  - jwt\n  - hmac\nschemes:\n- name: merchantJwt\n  type: jwt\n  scheme: JWS\n  algorithm: HS256\n  description: >-\n    2C2P Payment Gateway (PGW v4.3) does not use an HTTP Authorization header.\n    Instead, the entire request body is a JSON Web Token (JWS) whose payload\n    carries the transaction fields and whose signature authenticates the\n    merchant. The merchant signs the JWT with its Secret Key using HMAC SHA-256\n    (HS256); 2C2P returns a JWT signed the same way, which the merchant verifies\n    and decodes. The merchant is identified by the merchantID field inside the\n    signed payload. Credentials (Merchant ID + Secret Key) are issued via the\n    2C2P merchant profile after commercial onboarding, separately for sandbox\n    and production.\n  parameters:\n  - name: merchantID\n    location: payload\n    description: Merchant identifier included in the\
   \ signed JWT payload of every request.\n  - name: secretKey\n    location: signing-key\n    description: Merchant secret key used as the HMAC SHA-256 key to sign/verify the JWT. Never transmitted.\n  notes: >-\n    Select endpoints (for example the secured exchangeRate variant) additionally\n    support JWT+JWS with asymmetric signing for enhanced security. The Secure\n    Fields / SecurePay flow tokenizes card data in the browser and returns an\n    encryptedCardInfo (securePayToken) that is then submitted inside the signed\n    Do Payment request, keeping raw card data out of the merchant server.\n  sources:\n  - https://developer.2c2p.com/docs/api-payment-token\n  - https://developer.2c2p.com/docs/api-payment-inquiry\n  - https://developer.2c2p.com/docs/using-securefields\nsandboxHost: https://sandbox-pgw.2c2p.com\nproductionHost: https://pgw.2c2p.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/authentication/2c2p-authentication.yml
+source_yaml_url: https://artifacts.apis.io/2c2p/authentication/2c2p-authentication.yml
 summary_line: jwt/hmac · 1 scheme
 tags:
 - Payments

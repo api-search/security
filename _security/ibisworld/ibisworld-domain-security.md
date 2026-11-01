@@ -5,31 +5,31 @@ api_specs:
   label: IBISWorld Business Environment API
   slug: ibisworld-business-environment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibisworld/refs/heads/main/openapi/ibisworld-business-environment-api-openapi.yml
+  url: https://artifacts.apis.io/ibisworld/openapi/ibisworld-business-environment-api-openapi.yml
 - filename: ibisworld-classification-api-openapi.yml
   format: yaml
   label: IBISWorld Classification API
   slug: ibisworld-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibisworld/refs/heads/main/openapi/ibisworld-classification-api-openapi.yml
+  url: https://artifacts.apis.io/ibisworld/openapi/ibisworld-classification-api-openapi.yml
 - filename: ibisworld-company-api-openapi.yml
   format: yaml
   label: IBISWorld Company API
   slug: ibisworld-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibisworld/refs/heads/main/openapi/ibisworld-company-api-openapi.yml
+  url: https://artifacts.apis.io/ibisworld/openapi/ibisworld-company-api-openapi.yml
 - filename: ibisworld-downloads-api-openapi.yml
   format: yaml
   label: IBISWorld Downloads API
   slug: ibisworld-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibisworld/refs/heads/main/openapi/ibisworld-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/ibisworld/openapi/ibisworld-downloads-api-openapi.yml
 - filename: ibisworld-industry-api-openapi.yml
   format: yaml
   label: IBISWorld Industry API
   slug: ibisworld-industry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibisworld/refs/heads/main/openapi/ibisworld-industry-api-openapi.yml
+  url: https://artifacts.apis.io/ibisworld/openapi/ibisworld-industry-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: ibisworld-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ibisworld.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: api.ibisworld.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: ibisworld.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ibisworld/refs/heads/main/security/ibisworld-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ibisworld/security/ibisworld-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Business Intelligence

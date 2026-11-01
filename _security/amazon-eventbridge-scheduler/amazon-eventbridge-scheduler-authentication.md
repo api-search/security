@@ -8,19 +8,19 @@ api_specs:
   label: Amazon EventBridge Scheduler Schedule Groups API
   slug: amazon-eventbridge-scheduler-schedule-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-scheduler/refs/heads/main/openapi/amazon-eventbridge-scheduler-schedule-groups-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-eventbridge-scheduler/openapi/amazon-eventbridge-scheduler-schedule-groups-api-openapi.yml
 - filename: amazon-eventbridge-scheduler-schedules-api-openapi.yml
   format: yaml
   label: Amazon EventBridge Scheduler Schedules API
   slug: amazon-eventbridge-scheduler-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-scheduler/refs/heads/main/openapi/amazon-eventbridge-scheduler-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-eventbridge-scheduler/openapi/amazon-eventbridge-scheduler-schedules-api-openapi.yml
 - filename: amazon-eventbridge-scheduler-tags-api-openapi.yml
   format: yaml
   label: Amazon EventBridge Scheduler Tags API
   slug: amazon-eventbridge-scheduler-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-scheduler/refs/heads/main/openapi/amazon-eventbridge-scheduler-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-eventbridge-scheduler/openapi/amazon-eventbridge-scheduler-tags-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: amazon-eventbridge-scheduler-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-eventbridge-scheduler-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-eventbridge-scheduler-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-scheduler/refs/heads/main/authentication/amazon-eventbridge-scheduler-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-eventbridge-scheduler/authentication/amazon-eventbridge-scheduler-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Amazon Web Services

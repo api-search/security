@@ -1,11 +1,17 @@
 ---
 api_specs:
+- filename: gust-openapi-generated.yml
+  format: yaml
+  label: Gust API
+  slug: gust-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gust/openapi/_ae-authored/gust-openapi-generated.yml
 - filename: gust-accounts-api-openapi.yml
   format: yaml
   label: Gust Accounts API
   slug: gust-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gust/refs/heads/main/openapi/gust-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/gust/openapi/gust-accounts-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -40,7 +46,7 @@ source_filename: gust-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gust.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 19 12:31:22 2026 GMT\n  hsts: false\ndomains:\n- domain: gust.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gust/refs/heads/main/security/gust-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gust/security/gust-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Incorporation

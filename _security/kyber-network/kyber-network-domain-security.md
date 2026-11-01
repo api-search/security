@@ -5,31 +5,31 @@ api_specs:
   label: Kyber Network General API
   slug: kyber-network-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/openapi/kyber-network-general-api-openapi.yml
+  url: https://artifacts.apis.io/kyber-network/openapi/kyber-network-general-api-openapi.yml
 - filename: kyber-network-maker-api-openapi.yml
   format: yaml
   label: Kyber Network Maker API
   slug: kyber-network-maker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/openapi/kyber-network-maker-api-openapi.yml
+  url: https://artifacts.apis.io/kyber-network/openapi/kyber-network-maker-api-openapi.yml
 - filename: kyber-network-service-api-openapi.yml
   format: yaml
   label: Kyber Network Service API
   slug: kyber-network-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/openapi/kyber-network-service-api-openapi.yml
+  url: https://artifacts.apis.io/kyber-network/openapi/kyber-network-service-api-openapi.yml
 - filename: kyber-network-swap-api-openapi.yml
   format: yaml
   label: Kyber Network Swap API
   slug: kyber-network-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/openapi/kyber-network-swap-api-openapi.yml
+  url: https://artifacts.apis.io/kyber-network/openapi/kyber-network-swap-api-openapi.yml
 - filename: kyber-network-taker-api-openapi.yml
   format: yaml
   label: Kyber Network Taker API
   slug: kyber-network-taker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/openapi/kyber-network-taker-api-openapi.yml
+  url: https://artifacts.apis.io/kyber-network/openapi/kyber-network-taker-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: kyber-network-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: kyber.network\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 03:13:57 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: kyber.network\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/security/kyber-network-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kyber-network/security/kyber-network-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

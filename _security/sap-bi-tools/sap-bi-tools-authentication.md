@@ -8,97 +8,97 @@ api_specs:
   label: SAP BI Tools Administration API
   slug: sap-bi-tools-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-administration-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-administration-api-openapi.yml
 - filename: sap-bi-tools-authentication-api-openapi.yml
   format: yaml
   label: SAP BI Tools Authentication API
   slug: sap-bi-tools-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-authentication-api-openapi.yml
 - filename: sap-bi-tools-calendars-api-openapi.yml
   format: yaml
   label: SAP BI Tools Calendars API
   slug: sap-bi-tools-calendars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-calendars-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-calendars-api-openapi.yml
 - filename: sap-bi-tools-cms-query-api-openapi.yml
   format: yaml
   label: SAP BI Tools CMS Query API
   slug: sap-bi-tools-cms-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-cms-query-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-cms-query-api-openapi.yml
 - filename: sap-bi-tools-content-items-api-openapi.yml
   format: yaml
   label: SAP BI Tools Content Items API
   slug: sap-bi-tools-content-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-content-items-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-content-items-api-openapi.yml
 - filename: sap-bi-tools-fact-data-api-openapi.yml
   format: yaml
   label: SAP BI Tools Fact Data API
   slug: sap-bi-tools-fact-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-fact-data-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-fact-data-api-openapi.yml
 - filename: sap-bi-tools-import-api-openapi.yml
   format: yaml
   label: SAP BI Tools Import API
   slug: sap-bi-tools-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-import-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-import-api-openapi.yml
 - filename: sap-bi-tools-inbox-api-openapi.yml
   format: yaml
   label: SAP BI Tools Inbox API
   slug: sap-bi-tools-inbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-inbox-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-inbox-api-openapi.yml
 - filename: sap-bi-tools-infostore-api-openapi.yml
   format: yaml
   label: SAP BI Tools InfoStore API
   slug: sap-bi-tools-infostore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-infostore-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-infostore-api-openapi.yml
 - filename: sap-bi-tools-master-data-api-openapi.yml
   format: yaml
   label: SAP BI Tools Master Data API
   slug: sap-bi-tools-master-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-master-data-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-master-data-api-openapi.yml
 - filename: sap-bi-tools-metadata-api-openapi.yml
   format: yaml
   label: SAP BI Tools Metadata API
   slug: sap-bi-tools-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-metadata-api-openapi.yml
 - filename: sap-bi-tools-resources-api-openapi.yml
   format: yaml
   label: SAP BI Tools Resources API
   slug: sap-bi-tools-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-resources-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-resources-api-openapi.yml
 - filename: sap-bi-tools-scheduling-api-openapi.yml
   format: yaml
   label: SAP BI Tools Scheduling API
   slug: sap-bi-tools-scheduling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-scheduling-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-scheduling-api-openapi.yml
 - filename: sap-bi-tools-stories-api-openapi.yml
   format: yaml
   label: SAP BI Tools Stories API
   slug: sap-bi-tools-stories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-stories-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-stories-api-openapi.yml
 - filename: sap-bi-tools-teams-api-openapi.yml
   format: yaml
   label: SAP BI Tools Teams API
   slug: sap-bi-tools-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-teams-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-teams-api-openapi.yml
 - filename: sap-bi-tools-users-api-openapi.yml
   format: yaml
   label: SAP BI Tools Users API
   slug: sap-bi-tools-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-users-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-users-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -141,7 +141,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sap-analytics-cloud-api-openapi.yml, openapi/sap-analytics-cloud-content-network-api-openapi.yml,\n  openapi/sap-analytics-cloud-data-export-api-openapi.yml, openapi/sap-businessobjects-bi-platform-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{tenant}.authentication.{region}.hana.ondemand.com/oauth/authorize\n    tokenUrl: https://{tenant}.authentication.{region}.hana.ondemand.com/oauth/token\n    scopes: 0\n  description: OAuth 2.0 authentication using SAML bearer assertion or authorization code grant\n    flow.\n  sources:\n  - openapi/sap-analytics-cloud-api-openapi.yml\n  - openapi/sap-analytics-cloud-content-network-api-openapi.yml\n  - openapi/sap-analytics-cloud-data-export-api-openapi.yml\n- name: logonToken\n  type: apiKey\n\
   \  in: header\n  parameter: X-SAP-LogonToken\n  description: Logon token obtained from the /logon/long endpoint. Must be included in all subsequent\n    API requests.\n  sources:\n  - openapi/sap-businessobjects-bi-platform-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/authentication/sap-bi-tools-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sap-bi-tools/authentication/sap-bi-tools-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Analytics

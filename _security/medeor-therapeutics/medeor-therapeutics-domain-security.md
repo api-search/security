@@ -26,7 +26,7 @@ source_filename: medeor-therapeutics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: medeortx.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 18 10:46:52 2027 GMT\n  hsts: false\ndomains:\n- domain: medeortx.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/medeor-therapeutics/refs/heads/main/security/medeor-therapeutics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/medeor-therapeutics/security/medeor-therapeutics-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Company

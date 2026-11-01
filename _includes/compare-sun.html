@@ -1,0 +1,7 @@
+{%- comment -%}
+  compare-sun.html — one K'in sun placeholder. assets/js/kin-glyph.js (loaded by the default
+  layout) draws every [data-kin-glyph] on the page; never re-implement the drawing here.
+  Params: name, score, band, agent_score, agent_band, facets (keyed by glyph ids), dims
+  (optional; a cohort has none), small (optional).
+{%- endcomment -%}
+<span class="cmp-sun{% if include.small %} cmp-sun-sm{% endif %}" data-kin-glyph data-size="{% if include.small %}56{% else %}120{% endif %}" data-palette="facet" data-name="{{ include.name | escape }}" data-score="{{ include.score }}" data-band="{{ include.band }}" data-agent-score="{{ include.agent_score | default: 0 }}" data-agent-band="{{ include.agent_band | default: 'human-only' }}" data-facets='{{ include.facets | jsonify }}'{% if include.dims %} data-dims='{{ include.dims | jsonify }}'{% endif %} role="img" aria-label="{{ include.name | escape }}: Kin Score {{ include.score }} ({{ include.band }}), agent readiness {{ include.agent_score }}"></span>

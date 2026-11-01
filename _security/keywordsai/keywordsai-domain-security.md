@@ -5,55 +5,55 @@ api_specs:
   label: Keywords AI Datasets API
   slug: keywordsai-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/keywordsai/openapi/keywordsai-datasets-api-openapi.yml
 - filename: keywordsai-evaluators-api-openapi.yml
   format: yaml
   label: Keywords AI Evaluators API
   slug: keywordsai-evaluators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-evaluators-api-openapi.yml
+  url: https://artifacts.apis.io/keywordsai/openapi/keywordsai-evaluators-api-openapi.yml
 - filename: keywordsai-experiments-api-openapi.yml
   format: yaml
   label: Keywords AI Experiments API
   slug: keywordsai-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/keywordsai/openapi/keywordsai-experiments-api-openapi.yml
 - filename: keywordsai-gateway-api-openapi.yml
   format: yaml
   label: Keywords AI Gateway API
   slug: keywordsai-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/keywordsai/openapi/keywordsai-gateway-api-openapi.yml
 - filename: keywordsai-logging-api-openapi.yml
   format: yaml
   label: Keywords AI Logging API
   slug: keywordsai-logging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-logging-api-openapi.yml
+  url: https://artifacts.apis.io/keywordsai/openapi/keywordsai-logging-api-openapi.yml
 - filename: keywordsai-prompts-api-openapi.yml
   format: yaml
   label: Keywords AI Prompts API
   slug: keywordsai-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-prompts-api-openapi.yml
+  url: https://artifacts.apis.io/keywordsai/openapi/keywordsai-prompts-api-openapi.yml
 - filename: keywordsai-threads-api-openapi.yml
   format: yaml
   label: Keywords AI Threads API
   slug: keywordsai-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-threads-api-openapi.yml
+  url: https://artifacts.apis.io/keywordsai/openapi/keywordsai-threads-api-openapi.yml
 - filename: keywordsai-traces-api-openapi.yml
   format: yaml
   label: Keywords AI Traces API
   slug: keywordsai-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-traces-api-openapi.yml
+  url: https://artifacts.apis.io/keywordsai/openapi/keywordsai-traces-api-openapi.yml
 - filename: keywordsai-users-api-openapi.yml
   format: yaml
   label: Keywords AI Users API
   slug: keywordsai-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-users-api-openapi.yml
+  url: https://artifacts.apis.io/keywordsai/openapi/keywordsai-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -94,7 +94,7 @@ source_filename: keywordsai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.keywordsai.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 13:52:48 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.keywordsai.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 17:10:50 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.keywordsai.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: keywordsai.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/security/keywordsai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/keywordsai/security/keywordsai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

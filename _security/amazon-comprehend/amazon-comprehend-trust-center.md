@@ -5,7 +5,13 @@ api_specs:
   label: Amazon Comprehend Amazon Comprehend API
   slug: amazon-comprehend-amazon-comprehend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/openapi/amazon-comprehend-amazon-comprehend-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-comprehend/openapi/amazon-comprehend-amazon-comprehend-api-openapi.yml
+- filename: amazon-comprehend-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Comprehend Comprehend Operations API
+  slug: amazon-comprehend-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-comprehend/openapi/amazon-comprehend-operations-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -26,7 +32,7 @@ source_filename: amazon-comprehend-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://aws.amazon.com/compliance/\nurl: https://aws.amazon.com/compliance/\ncertifications:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://aws.amazon.com/compliance/\n  keywords:\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/security/amazon-comprehend-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/amazon-comprehend/security/amazon-comprehend-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Machine Learning

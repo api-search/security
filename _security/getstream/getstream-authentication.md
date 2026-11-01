@@ -8,31 +8,31 @@ api_specs:
   label: Stream Product:chat API
   slug: getstream-product-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/getstream-product-chat-api-openapi.yml
+  url: https://artifacts.apis.io/getstream/openapi/getstream-product-chat-api-openapi.yml
 - filename: getstream-product-common-api-openapi.yml
   format: yaml
   label: Stream Product:common API
   slug: getstream-product-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/getstream-product-common-api-openapi.yml
+  url: https://artifacts.apis.io/getstream/openapi/getstream-product-common-api-openapi.yml
 - filename: getstream-product-feeds-api-openapi.yml
   format: yaml
   label: Stream Product:feeds API
   slug: getstream-product-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/getstream-product-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/getstream/openapi/getstream-product-feeds-api-openapi.yml
 - filename: getstream-product-moderation-api-openapi.yml
   format: yaml
   label: Stream Product:moderation API
   slug: getstream-product-moderation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/getstream-product-moderation-api-openapi.yml
+  url: https://artifacts.apis.io/getstream/openapi/getstream-product-moderation-api-openapi.yml
 - filename: getstream-product-video-api-openapi.yml
   format: yaml
   label: Stream Product:video API
   slug: getstream-product-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/getstream-product-video-api-openapi.yml
+  url: https://artifacts.apis.io/getstream/openapi/getstream-product-video-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -68,7 +68,7 @@ source_filename: getstream-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/getstream-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - query\nschemes:\n- name: JWT\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: 'A Stream JWT sent in the `Authorization` header. Server-side tokens omit the\n    `user_id` claim; a `Stream-Auth-Type: jwt` header must accompany the request.'\n  sources:\n  - openapi/getstream-openapi.yml\n- name: ApiKey\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: The application API key, sent as the `api_key` query parameter on every request.\n  sources:\n  - openapi/getstream-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/authentication/getstream-authentication.yml
+source_yaml_url: https://artifacts.apis.io/getstream/authentication/getstream-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Chat

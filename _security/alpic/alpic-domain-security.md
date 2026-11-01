@@ -5,49 +5,49 @@ api_specs:
   label: Alpic Analytics API
   slug: alpic-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/alpic/openapi/alpic-analytics-api-openapi.yml
 - filename: alpic-beacon-api-openapi.yml
   format: yaml
   label: Alpic Beacon API
   slug: alpic-beacon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-beacon-api-openapi.yml
+  url: https://artifacts.apis.io/alpic/openapi/alpic-beacon-api-openapi.yml
 - filename: alpic-deployments-api-openapi.yml
   format: yaml
   label: Alpic Deployments API
   slug: alpic-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/alpic/openapi/alpic-deployments-api-openapi.yml
 - filename: alpic-distribution-api-openapi.yml
   format: yaml
   label: Alpic Distribution API
   slug: alpic-distribution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-distribution-api-openapi.yml
+  url: https://artifacts.apis.io/alpic/openapi/alpic-distribution-api-openapi.yml
 - filename: alpic-environments-api-openapi.yml
   format: yaml
   label: Alpic Environments API
   slug: alpic-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-environments-api-openapi.yml
+  url: https://artifacts.apis.io/alpic/openapi/alpic-environments-api-openapi.yml
 - filename: alpic-projects-api-openapi.yml
   format: yaml
   label: Alpic Projects API
   slug: alpic-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-projects-api-openapi.yml
+  url: https://artifacts.apis.io/alpic/openapi/alpic-projects-api-openapi.yml
 - filename: alpic-teams-api-openapi.yml
   format: yaml
   label: Alpic Teams API
   slug: alpic-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-teams-api-openapi.yml
+  url: https://artifacts.apis.io/alpic/openapi/alpic-teams-api-openapi.yml
 - filename: alpic-tunnels-api-openapi.yml
   format: yaml
   label: Alpic Tunnels API
   slug: alpic-tunnels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-tunnels-api-openapi.yml
+  url: https://artifacts.apis.io/alpic/openapi/alpic-tunnels-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -88,7 +88,7 @@ source_filename: alpic-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: alpic.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 10:57:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.alpic.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: alpic.ai\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/security/alpic-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/alpic/security/alpic-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

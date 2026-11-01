@@ -5,43 +5,43 @@ api_specs:
   label: Ziina Account API
   slug: ziina-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-account-api-openapi.yml
+  url: https://artifacts.apis.io/ziina/openapi/ziina-account-api-openapi.yml
 - filename: ziina-log-api-openapi.yml
   format: yaml
   label: Ziina Log API
   slug: ziina-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-log-api-openapi.yml
+  url: https://artifacts.apis.io/ziina/openapi/ziina-log-api-openapi.yml
 - filename: ziina-paymentintent-api-openapi.yml
   format: yaml
   label: Ziina PaymentIntent API
   slug: ziina-paymentintent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-paymentintent-api-openapi.yml
+  url: https://artifacts.apis.io/ziina/openapi/ziina-paymentintent-api-openapi.yml
 - filename: ziina-refund-api-openapi.yml
   format: yaml
   label: Ziina Refund API
   slug: ziina-refund-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-refund-api-openapi.yml
+  url: https://artifacts.apis.io/ziina/openapi/ziina-refund-api-openapi.yml
 - filename: ziina-transfer-api-openapi.yml
   format: yaml
   label: Ziina Transfer API
   slug: ziina-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/ziina/openapi/ziina-transfer-api-openapi.yml
 - filename: ziina-webhook-api-openapi.yml
   format: yaml
   label: Ziina Webhook API
   slug: ziina-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/ziina/openapi/ziina-webhook-api-openapi.yml
 - filename: ziina-health-check-api-openapi.yml
   format: yaml
   label: Ziina Health Check API
   slug: ziina-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/ziina/openapi/ziina-health-check-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -95,7 +95,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ziina.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 08:18:35 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api-v2.ziina.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 09:53:32 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n  hsts_include_subdomains: true\n  note: Bare GET / returns HTTP 400 (API host, expects authenticated API calls).\n- host: auth.ziina.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 09:53:32 2026 GMT\n  hsts: false\n  note: OAuth 2.0 / OIDC authorization server (auth.ziina.com/oidc).\n- host: docs.ziina.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 00:15:06 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: ziina.com\n  dnssec: false\n  caa: []\n  caa_note: No CAA records published for ziina.com (DNS fronted by Cloudflare).\n\
   \  spf: true\n  spf_record: v=spf1 include:_spf.google.com include:spf.mailjet.com include:amazonses.com -all\n  dmarc: true\n  dmarc_policy: none\n  dmarc_note: >-\n    p=none with strict alignment (adkim=s; aspf=s) and rua reporting to\n    dmarc-reports.cloudflare.net and dev@ziina.com.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/security/ziina-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ziina/security/ziina-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments

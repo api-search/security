@@ -5,37 +5,37 @@ api_specs:
   label: veeva Authentication API
   slug: veeva-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/openapi/veeva-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/veeva/openapi/veeva-authentication-api-openapi.yml
 - filename: veeva-documents-api-openapi.yml
   format: yaml
   label: veeva Documents API
   slug: veeva-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/openapi/veeva-documents-api-openapi.yml
+  url: https://artifacts.apis.io/veeva/openapi/veeva-documents-api-openapi.yml
 - filename: veeva-objects-api-openapi.yml
   format: yaml
   label: veeva Objects API
   slug: veeva-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/openapi/veeva-objects-api-openapi.yml
+  url: https://artifacts.apis.io/veeva/openapi/veeva-objects-api-openapi.yml
 - filename: veeva-query-api-openapi.yml
   format: yaml
   label: veeva Query API
   slug: veeva-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/openapi/veeva-query-api-openapi.yml
+  url: https://artifacts.apis.io/veeva/openapi/veeva-query-api-openapi.yml
 - filename: veeva-users-api-openapi.yml
   format: yaml
   label: veeva Users API
   slug: veeva-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/openapi/veeva-users-api-openapi.yml
+  url: https://artifacts.apis.io/veeva/openapi/veeva-users-api-openapi.yml
 - filename: veeva-workflows-api-openapi.yml
   format: yaml
   label: veeva Workflows API
   slug: veeva-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/openapi/veeva-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/veeva/openapi/veeva-workflows-api-openapi.yml
 certification_count: 5
 certifications:
 - ISO/IEC 27001
@@ -58,7 +58,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-15'\nmethod: searched\nsource: https://www.veeva.com/trust/\nname: Veeva Security Program Overview\nurl: https://www.veeva.com/trust/\nx-evidence:\n  fetched: '2026-08-15'\n  url: https://www.veeva.com/trust/\n  http_status: 200\n  title: Veeva Security Program Overview | Veeva\ncertifications:\n- ISO/IEC 27001\n- ISO/IEC 27017\n- ISO/IEC 27018\n- ISO 9001\n- SOC 2 Type II\nframeworks:\n- name: SEI Capability Maturity Model Integration (CMMI)\n- name: IT Infrastructure Library (ITIL)\n- name: ICH Q9 — Quality Risk Management\ncontrols:\n  encryption:\n    in_transit: TLS 1.2 minimum across untrusted networks.\n    at_rest: AES-256 or equivalent.\n  testing: Internal vulnerability testing before every release; internal penetration testing systems; automated\n    and manual vulnerability assessments at least annually; third-party security specialists engaged annually for\n    vulnerability and penetration testing.\n  incident_response: Dedicated team operating\
   \ a formal incident response policy; all personnel trained to report\n    security incidents immediately.\n  access: Documented least-privilege access policies enforced by automated means; separation of duties between operators,\n    admins, and developers.\n  training: Role-based security and annual security awareness training for all employees and contractors.\nstatus_page:\n  url: https://trust.veeva.com/\n  detail: Veeva's security overview describes \"a public 'trust' webpage that displays upcoming maintenance downtimes,\n    data center incidents\". Confirmed live — see lifecycle/veeva-lifecycle.yml.\ngaps:\n- No /.well-known/security.txt on any Veeva host (all probes 403/404, 2026-08-15).\n- No published vulnerability disclosure policy, security contact address, or bug bounty programme found.\n- No downloadable certificate/report portal; certifications are described in prose rather than served as artifacts.\ncertification_details:\n- name: ISO/IEC 27001\n  detail: Information Security\
   \ Management. Audited at least annually by an accredited third-party certification\n    body.\n- name: ISO/IEC 27017\n  detail: Cloud security controls; covered by the same annual third-party audit.\n- name: ISO/IEC 27018\n  detail: Protection of PII in public clouds; covered by the same annual third-party audit.\n- name: ISO 9001\n  detail: Quality Management Systems.\n- name: SOC 2 Type II\n  detail: System and Organization Controls.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/security/veeva-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/veeva/security/veeva-trust-center.yml
 summary_line: ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018, ISO 9001, SOC 2 Type II
 tags:
 - Life Sciences

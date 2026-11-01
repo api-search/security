@@ -5,31 +5,31 @@ api_specs:
   label: Indian Institute of Technology Delhi Circulars API
   slug: iit-delhi-circulars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iit-delhi/refs/heads/main/openapi/iit-delhi-circulars-api-openapi.yml
+  url: https://artifacts.apis.io/iit-delhi/openapi/iit-delhi-circulars-api-openapi.yml
 - filename: iit-delhi-contact-api-openapi.yml
   format: yaml
   label: Indian Institute of Technology Delhi Contact API
   slug: iit-delhi-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iit-delhi/refs/heads/main/openapi/iit-delhi-contact-api-openapi.yml
+  url: https://artifacts.apis.io/iit-delhi/openapi/iit-delhi-contact-api-openapi.yml
 - filename: iit-delhi-media-api-openapi.yml
   format: yaml
   label: Indian Institute of Technology Delhi Media API
   slug: iit-delhi-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iit-delhi/refs/heads/main/openapi/iit-delhi-media-api-openapi.yml
+  url: https://artifacts.apis.io/iit-delhi/openapi/iit-delhi-media-api-openapi.yml
 - filename: iit-delhi-news-api-openapi.yml
   format: yaml
   label: Indian Institute of Technology Delhi News API
   slug: iit-delhi-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iit-delhi/refs/heads/main/openapi/iit-delhi-news-api-openapi.yml
+  url: https://artifacts.apis.io/iit-delhi/openapi/iit-delhi-news-api-openapi.yml
 - filename: iit-delhi-pages-api-openapi.yml
   format: yaml
   label: Indian Institute of Technology Delhi Pages API
   slug: iit-delhi-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iit-delhi/refs/heads/main/openapi/iit-delhi-pages-api-openapi.yml
+  url: https://artifacts.apis.io/iit-delhi/openapi/iit-delhi-pages-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: iit-delhi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: home.iitd.ac.in\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 08:56:01 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: ir.iitd.ac.in\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 08:56:01 2026 GMT\n  hsts: false\n- host: oauth.iitd.ac.in\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: iitd.ac.in\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iit-delhi/refs/heads/main/security/iit-delhi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/iit-delhi/security/iit-delhi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Education

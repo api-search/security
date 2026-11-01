@@ -5,37 +5,37 @@ api_specs:
   label: Sanity Assets API
   slug: sanity-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-assets-api-openapi.yml
+  url: https://artifacts.apis.io/sanity/openapi/sanity-assets-api-openapi.yml
 - filename: sanity-listen-api-openapi.yml
   format: yaml
   label: Sanity Listen API
   slug: sanity-listen-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-listen-api-openapi.yml
+  url: https://artifacts.apis.io/sanity/openapi/sanity-listen-api-openapi.yml
 - filename: sanity-mutations-api-openapi.yml
   format: yaml
   label: Sanity Mutations API
   slug: sanity-mutations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-mutations-api-openapi.yml
+  url: https://artifacts.apis.io/sanity/openapi/sanity-mutations-api-openapi.yml
 - filename: sanity-projects-api-openapi.yml
   format: yaml
   label: Sanity Projects API
   slug: sanity-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-projects-api-openapi.yml
+  url: https://artifacts.apis.io/sanity/openapi/sanity-projects-api-openapi.yml
 - filename: sanity-query-api-openapi.yml
   format: yaml
   label: Sanity Query API
   slug: sanity-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-query-api-openapi.yml
+  url: https://artifacts.apis.io/sanity/openapi/sanity-query-api-openapi.yml
 - filename: sanity-webhooks-api-openapi.yml
   format: yaml
   label: Sanity Webhooks API
   slug: sanity-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/sanity/openapi/sanity-webhooks-api-openapi.yml
 certification_count: 8
 certifications:
 - SOC 2
@@ -59,7 +59,7 @@ source_filename: sanity-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.sanity.io/security\nurl: https://www.sanity.io/security\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- PCI DSS\n- HIPAA\n- GDPR\n- CSA STAR\nevidence:\n- source: https://www.sanity.io/security\n  keywords:\n  - soc 2\n  - iso 27001\n  - pci dss\n  - hipaa\n  - gdpr\n  - csa star\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/security/sanity-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/sanity/security/sanity-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, GDPR, CSA STAR
 tags:
 - Headless CMS

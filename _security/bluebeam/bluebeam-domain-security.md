@@ -5,25 +5,25 @@ api_specs:
   label: bluebeam Documents API
   slug: bluebeam-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/openapi/bluebeam-documents-api-openapi.yml
+  url: https://artifacts.apis.io/bluebeam/openapi/bluebeam-documents-api-openapi.yml
 - filename: bluebeam-markups-api-openapi.yml
   format: yaml
   label: bluebeam Markups API
   slug: bluebeam-markups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/openapi/bluebeam-markups-api-openapi.yml
+  url: https://artifacts.apis.io/bluebeam/openapi/bluebeam-markups-api-openapi.yml
 - filename: bluebeam-sessions-api-openapi.yml
   format: yaml
   label: bluebeam Sessions API
   slug: bluebeam-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/openapi/bluebeam-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/bluebeam/openapi/bluebeam-sessions-api-openapi.yml
 - filename: bluebeam-users-api-openapi.yml
   format: yaml
   label: bluebeam Users API
   slug: bluebeam-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/openapi/bluebeam-users-api-openapi.yml
+  url: https://artifacts.apis.io/bluebeam/openapi/bluebeam-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: bluebeam-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bluebeam.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 01:28:32 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developers.bluebeam.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 23:59:59 2026 GMT\n  hsts: false\n- host: api.bluebeam.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  8 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: bluebeam.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/security/bluebeam-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bluebeam/security/bluebeam-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Construction

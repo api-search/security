@@ -40,7 +40,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://treasury.app/.well-known/oauth-authorization-server\nsummary:\n  types: [oauth2]\n  oauth2_flows: [authorizationCode]\n  pkce: [S256]\n  dynamic_client_registration: true\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://treasury.app/oauth/authorize\n    tokenUrl: https://treasury.app/oauth/token\n    registrationUrl: https://treasury.app/oauth/register   # RFC 7591 dynamic client registration\n    pkce: S256\n    token_endpoint_auth_methods: [client_secret_basic, client_secret_post, none]\n    scopes:\n    - scope: mcp:connect\n      description: Connect to the Treasury Model Context Protocol (MCP) server.\n  sources: [well-known/treasury-oauth-authorization-server.json]\nnotes: >-\n  Auth profile derived from Treasury's published RFC 8414 OAuth Authorization\n  Server Metadata. This OAuth server guards the hosted MCP server at\n  https://treasury.app/mcp.\
   \ No traditional API-key or OpenAPI security scheme is\n  published (the consumer app has no public REST developer platform).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/treasury/refs/heads/main/authentication/treasury-authentication.yml
+source_yaml_url: https://artifacts.apis.io/treasury/authentication/treasury-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

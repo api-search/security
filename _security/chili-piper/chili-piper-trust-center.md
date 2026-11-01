@@ -5,91 +5,91 @@ api_specs:
   label: Chili Piper Availability API
   slug: chili-piper-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-availability-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-availability-api-openapi.yml
 - filename: chili-piper-chat-api-openapi.yml
   format: yaml
   label: Chili Piper Chat API
   slug: chili-piper-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-chat-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-chat-api-openapi.yml
 - filename: chili-piper-concierge-api-openapi.yml
   format: yaml
   label: Chili Piper Concierge API
   slug: chili-piper-concierge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-concierge-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-concierge-api-openapi.yml
 - filename: chili-piper-distribution-api-openapi.yml
   format: yaml
   label: Chili Piper Distribution API
   slug: chili-piper-distribution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-distribution-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-distribution-api-openapi.yml
 - filename: chili-piper-distro-api-openapi.yml
   format: yaml
   label: Chili Piper Distro API
   slug: chili-piper-distro-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-distro-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-distro-api-openapi.yml
 - filename: chili-piper-meeting-type-api-openapi.yml
   format: yaml
   label: Chili Piper Meeting Type API
   slug: chili-piper-meeting-type-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-meeting-type-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-meeting-type-api-openapi.yml
 - filename: chili-piper-meeting-type-reminder-api-openapi.yml
   format: yaml
   label: Chili Piper Meeting Type Reminder API
   slug: chili-piper-meeting-type-reminder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-meeting-type-reminder-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-meeting-type-reminder-api-openapi.yml
 - filename: chili-piper-meetings-api-openapi.yml
   format: yaml
   label: Chili Piper Meetings API
   slug: chili-piper-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-meetings-api-openapi.yml
 - filename: chili-piper-rule-api-openapi.yml
   format: yaml
   label: Chili Piper Rule API
   slug: chili-piper-rule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-rule-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-rule-api-openapi.yml
 - filename: chili-piper-team-api-openapi.yml
   format: yaml
   label: Chili Piper Team API
   slug: chili-piper-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-team-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-team-api-openapi.yml
 - filename: chili-piper-tenant-api-openapi.yml
   format: yaml
   label: Chili Piper Tenant API
   slug: chili-piper-tenant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-tenant-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-tenant-api-openapi.yml
 - filename: chili-piper-user-api-openapi.yml
   format: yaml
   label: Chili Piper User API
   slug: chili-piper-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-user-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-user-api-openapi.yml
 - filename: chili-piper-workspace-api-openapi.yml
   format: yaml
   label: Chili Piper Workspace API
   slug: chili-piper-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-workspace-api-openapi.yml
 - filename: chili-piper-hand-off-api-openapi.yml
   format: yaml
   label: Chili Piper Hand off API
   slug: chili-piper-hand-off-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-hand-off-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-hand-off-api-openapi.yml
 - filename: chili-piper-scheduling-links-api-openapi.yml
   format: yaml
   label: Chili Piper Scheduling Links API
   slug: chili-piper-scheduling-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-scheduling-links-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-scheduling-links-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -108,7 +108,7 @@ source_filename: chili-piper-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-09'\nmethod: searched\nprobe: true\nsource: https://www.chilipiper.com/security\nurl: https://www.chilipiper.com/security\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://www.chilipiper.com/security\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/security/chili-piper-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/chili-piper/security/chili-piper-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Scheduling

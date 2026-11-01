@@ -5,19 +5,19 @@ api_specs:
   label: RSS.app Bundles API
   slug: rss-app-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rss-app/refs/heads/main/openapi/rss-app-bundles-api-openapi.yml
+  url: https://artifacts.apis.io/rss-app/openapi/rss-app-bundles-api-openapi.yml
 - filename: rss-app-feed-api-openapi.yml
   format: yaml
   label: RSS.app Feed API
   slug: rss-app-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rss-app/refs/heads/main/openapi/rss-app-feed-api-openapi.yml
+  url: https://artifacts.apis.io/rss-app/openapi/rss-app-feed-api-openapi.yml
 - filename: rss-app-rss-app-api-api-openapi.yml
   format: yaml
   label: RSS.app RSS.app API
   slug: rss-app-rss-app-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rss-app/refs/heads/main/openapi/rss-app-rss-app-api-api-openapi.yml
+  url: https://artifacts.apis.io/rss-app/openapi/rss-app-rss-app-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: rss-app-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: rss.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  4 01:03:29 2026 GMT\n  hsts: false\ndomains:\n- domain: rss.app\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rss-app/refs/heads/main/security/rss-app-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rss-app/security/rss-app-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

@@ -5,37 +5,37 @@ api_specs:
   label: JupyterLab Licenses API
   slug: jupyterlab-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/openapi/jupyterlab-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterlab/openapi/jupyterlab-licenses-api-openapi.yml
 - filename: jupyterlab-listings-api-openapi.yml
   format: yaml
   label: JupyterLab Listings API
   slug: jupyterlab-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/openapi/jupyterlab-listings-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterlab/openapi/jupyterlab-listings-api-openapi.yml
 - filename: jupyterlab-settings-api-openapi.yml
   format: yaml
   label: JupyterLab Settings API
   slug: jupyterlab-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/openapi/jupyterlab-settings-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterlab/openapi/jupyterlab-settings-api-openapi.yml
 - filename: jupyterlab-themes-api-openapi.yml
   format: yaml
   label: JupyterLab Themes API
   slug: jupyterlab-themes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/openapi/jupyterlab-themes-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterlab/openapi/jupyterlab-themes-api-openapi.yml
 - filename: jupyterlab-translations-api-openapi.yml
   format: yaml
   label: JupyterLab Translations API
   slug: jupyterlab-translations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/openapi/jupyterlab-translations-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterlab/openapi/jupyterlab-translations-api-openapi.yml
 - filename: jupyterlab-workspaces-api-openapi.yml
   format: yaml
   label: JupyterLab Workspaces API
   slug: jupyterlab-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/openapi/jupyterlab-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterlab/openapi/jupyterlab-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -87,7 +87,7 @@ source_filename: jupyterlab-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: jupyter.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 11:01:54 2026 GMT\n  hsts: false\n- host: jupyterlab-server.readthedocs.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 13:13:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: jupyterlab.readthedocs.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 13:13:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: jupyter.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: readthedocs.io\n  dnssec: false\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"amazonaws.com\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/security/jupyterlab-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/jupyterlab/security/jupyterlab-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data Science

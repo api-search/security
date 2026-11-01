@@ -5,37 +5,37 @@ api_specs:
   label: Smartproxy Authentication API
   slug: smartproxy-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartproxy/refs/heads/main/openapi/smartproxy-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/smartproxy/openapi/smartproxy-authentication-api-openapi.yml
 - filename: smartproxy-endpoints-api-openapi.yml
   format: yaml
   label: Smartproxy Endpoints API
   slug: smartproxy-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartproxy/refs/heads/main/openapi/smartproxy-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/smartproxy/openapi/smartproxy-endpoints-api-openapi.yml
 - filename: smartproxy-subscriptions-api-openapi.yml
   format: yaml
   label: Smartproxy Subscriptions API
   slug: smartproxy-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartproxy/refs/heads/main/openapi/smartproxy-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/smartproxy/openapi/smartproxy-subscriptions-api-openapi.yml
 - filename: smartproxy-traffic-api-openapi.yml
   format: yaml
   label: Smartproxy Traffic API
   slug: smartproxy-traffic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartproxy/refs/heads/main/openapi/smartproxy-traffic-api-openapi.yml
+  url: https://artifacts.apis.io/smartproxy/openapi/smartproxy-traffic-api-openapi.yml
 - filename: smartproxy-whitelisted-ips-api-openapi.yml
   format: yaml
   label: Smartproxy Whitelisted IPs API
   slug: smartproxy-whitelisted-ips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartproxy/refs/heads/main/openapi/smartproxy-whitelisted-ips-api-openapi.yml
+  url: https://artifacts.apis.io/smartproxy/openapi/smartproxy-whitelisted-ips-api-openapi.yml
 - filename: smartproxy-subusers-api-openapi.yml
   format: yaml
   label: Smartproxy Subusers API
   slug: smartproxy-subusers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartproxy/refs/heads/main/openapi/smartproxy-subusers-api-openapi.yml
+  url: https://artifacts.apis.io/smartproxy/openapi/smartproxy-subusers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: smartproxy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: smartproxy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 09:25:06 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.decodo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 12:14:15 2026 GMT\n  hsts: null\ndomains:\n- domain: smartproxy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: decodo.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartproxy/refs/heads/main/security/smartproxy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/smartproxy/security/smartproxy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Proxies

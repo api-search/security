@@ -7,7 +7,7 @@ api_specs:
   label: NIFT Customers API
   slug: nift-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/openapi/nift-customers-api-openapi.yml
+  url: https://artifacts.apis.io/nift/openapi/nift-customers-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -38,7 +38,7 @@ source_filename: nift-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/nift-partners-openapi.yml\ndocs: https://github.com/nift-sdks/nift-flow-sdk-docs/blob/main/docs/sdk/customer-status-server.md\nnotes: >-\n  Server-side Partners API uses OAuth 2.0 client_credentials (client_id + client_secret\n  issued by Nift) posted to https://www.gonift.com/oauth/token; scopes read:customers /\n  write:customers gate access. Long-lived tokens (~1 year). Client-side SDKs (web/iOS/\n  Android/React Native) authenticate the gift flow with a Nift-issued clientId + partner\n  referralCode instead of an OAuth token.\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://www.gonift.com/oauth/token\n    scopes: 2\n  description: OAuth 2.0 client credentials issued by Nift; token endpoint at /oauth/token.\n  sources:\n  - openapi/nift-partners-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/authentication/nift-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nift/authentication/nift-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

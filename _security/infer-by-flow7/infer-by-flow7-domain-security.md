@@ -5,19 +5,43 @@ api_specs:
   label: Infer by Flow7 Catalog API
   slug: infer-by-flow7-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/openapi/infer-by-flow7-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/infer-by-flow7/openapi/infer-by-flow7-catalog-api-openapi.yml
 - filename: infer-by-flow7-inference-api-openapi.yml
   format: yaml
   label: Infer by Flow7 Inference API
   slug: infer-by-flow7-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/openapi/infer-by-flow7-inference-api-openapi.yml
+  url: https://artifacts.apis.io/infer-by-flow7/openapi/infer-by-flow7-inference-api-openapi.yml
 - filename: infer-by-flow7-status-api-openapi.yml
   format: yaml
   label: Infer by Flow7 Status API
   slug: infer-by-flow7-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/openapi/infer-by-flow7-status-api-openapi.yml
+  url: https://artifacts.apis.io/infer-by-flow7/openapi/infer-by-flow7-status-api-openapi.yml
+- filename: infer-by-flow7-generation-api-openapi.yml
+  format: yaml
+  label: Infer by Flow7 Generation API
+  slug: infer-by-flow7-generation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infer-by-flow7/openapi/infer-by-flow7-generation-api-openapi.yml
+- filename: infer-by-flow7-messages-api-openapi.yml
+  format: yaml
+  label: Infer by Flow7 Messages API
+  slug: infer-by-flow7-messages-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infer-by-flow7/openapi/infer-by-flow7-messages-api-openapi.yml
+- filename: infer-by-flow7-usage-api-openapi.yml
+  format: yaml
+  label: Infer by Flow7 Usage API
+  slug: infer-by-flow7-usage-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infer-by-flow7/openapi/infer-by-flow7-usage-api-openapi.yml
+- filename: infer-by-flow7-chat-completions-api-openapi.yml
+  format: yaml
+  label: Infer by Flow7 Chat Completions API
+  slug: infer-by-flow7-chat-completions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infer-by-flow7/openapi/infer-by-flow7-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +70,7 @@ source_filename: infer-by-flow7-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: infer.flow7.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 16:26:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: flow7.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/security/infer-by-flow7-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/infer-by-flow7/security/infer-by-flow7-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - AI/ML inference

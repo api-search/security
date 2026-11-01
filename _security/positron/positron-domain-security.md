@@ -5,31 +5,31 @@ api_specs:
   label: Positron Access Tokens API
   slug: positron-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/openapi/positron-access-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/positron/openapi/positron-access-tokens-api-openapi.yml
 - filename: positron-completion-api-openapi.yml
   format: yaml
   label: Positron Completion API
   slug: positron-completion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/openapi/positron-completion-api-openapi.yml
+  url: https://artifacts.apis.io/positron/openapi/positron-completion-api-openapi.yml
 - filename: positron-models-api-openapi.yml
   format: yaml
   label: Positron Models API
   slug: positron-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/openapi/positron-models-api-openapi.yml
+  url: https://artifacts.apis.io/positron/openapi/positron-models-api-openapi.yml
 - filename: positron-service-nodes-api-openapi.yml
   format: yaml
   label: Positron Service Nodes API
   slug: positron-service-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/openapi/positron-service-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/positron/openapi/positron-service-nodes-api-openapi.yml
 - filename: positron-users-api-openapi.yml
   format: yaml
   label: Positron Users API
   slug: positron-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/openapi/positron-users-api-openapi.yml
+  url: https://artifacts.apis.io/positron/openapi/positron-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: positron-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.positron.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 19:39:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: support.positron.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 12:06:21 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.positron.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 06:54:39 2026 GMT\n  hsts: null\ndomains:\n- domain: positron.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/security/positron-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/positron/security/positron-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

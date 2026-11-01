@@ -8,43 +8,43 @@ api_specs:
   label: Ansible Roles Ansible Galaxy Roles & Collections API
   slug: ansible-roles-ansible-galaxy-roles-collections-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/openapi/ansible-roles-ansible-galaxy-roles-collections-api-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-roles/openapi/ansible-roles-ansible-galaxy-roles-collections-api-api-openapi.yml
 - filename: ansible-roles-collections-api-openapi.yml
   format: yaml
   label: Ansible Roles Collections API
   slug: ansible-roles-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/openapi/ansible-roles-collections-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-roles/openapi/ansible-roles-collections-api-openapi.yml
 - filename: ansible-roles-imports-api-openapi.yml
   format: yaml
   label: Ansible Roles Imports API
   slug: ansible-roles-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/openapi/ansible-roles-imports-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-roles/openapi/ansible-roles-imports-api-openapi.yml
 - filename: ansible-roles-namespaces-api-openapi.yml
   format: yaml
   label: Ansible Roles Namespaces API
   slug: ansible-roles-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/openapi/ansible-roles-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-roles/openapi/ansible-roles-namespaces-api-openapi.yml
 - filename: ansible-roles-roles-api-openapi.yml
   format: yaml
   label: Ansible Roles API
   slug: ansible-roles-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/openapi/ansible-roles-roles-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-roles/openapi/ansible-roles-roles-api-openapi.yml
 - filename: ansible-roles-sync-api-openapi.yml
   format: yaml
   label: Ansible Roles Sync API
   slug: ansible-roles-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/openapi/ansible-roles-sync-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-roles/openapi/ansible-roles-sync-api-openapi.yml
 - filename: ansible-roles-users-api-openapi.yml
   format: yaml
   label: Ansible Roles Users API
   slug: ansible-roles-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/openapi/ansible-roles-users-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-roles/openapi/ansible-roles-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -72,7 +72,7 @@ source_filename: ansible-roles-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ansible-roles-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: TokenAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Galaxy / Automation Hub token, sent as `Authorization: Token <value>`.'\n  sources:\n  - openapi/ansible-roles-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/authentication/ansible-roles-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ansible-roles/authentication/ansible-roles-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Ansible

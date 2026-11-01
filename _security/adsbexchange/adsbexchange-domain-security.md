@@ -5,31 +5,31 @@ api_specs:
   label: ADS-B Exchange Geopolitical Filtering API
   slug: adsbexchange-geopolitical-filtering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/openapi/adsbexchange-geopolitical-filtering-api-openapi.yml
+  url: https://artifacts.apis.io/adsbexchange/openapi/adsbexchange-geopolitical-filtering-api-openapi.yml
 - filename: adsbexchange-geospatial-filtering-api-openapi.yml
   format: yaml
   label: ADS-B Exchange Geospatial Filtering API
   slug: adsbexchange-geospatial-filtering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/openapi/adsbexchange-geospatial-filtering-api-openapi.yml
+  url: https://artifacts.apis.io/adsbexchange/openapi/adsbexchange-geospatial-filtering-api-openapi.yml
 - filename: adsbexchange-live-positional-data-api-openapi.yml
   format: yaml
   label: ADS-B Exchange Live Positional Data API
   slug: adsbexchange-live-positional-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/openapi/adsbexchange-live-positional-data-api-openapi.yml
+  url: https://artifacts.apis.io/adsbexchange/openapi/adsbexchange-live-positional-data-api-openapi.yml
 - filename: adsbexchange-operations-api-openapi.yml
   format: yaml
   label: ADS-B Exchange Operations API
   slug: adsbexchange-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/openapi/adsbexchange-operations-api-openapi.yml
+  url: https://artifacts.apis.io/adsbexchange/openapi/adsbexchange-operations-api-openapi.yml
 - filename: adsbexchange-traces-api-openapi.yml
   format: yaml
   label: ADS-B Exchange Traces API
   slug: adsbexchange-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/openapi/adsbexchange-traces-api-openapi.yml
+  url: https://artifacts.apis.io/adsbexchange/openapi/adsbexchange-traces-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: adsbexchange-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.adsbexchange.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 20:12:12 2026 GMT\n  hsts: false\n- host: gateway.adsbexchange.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 19 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: adsbexchange.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/security/adsbexchange-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/adsbexchange/security/adsbexchange-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Aviation

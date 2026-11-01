@@ -5,37 +5,37 @@ api_specs:
   label: Tollbit Auth Tokens API
   slug: tollbit-auth-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/openapi/tollbit-auth-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/tollbit/openapi/tollbit-auth-tokens-api-openapi.yml
 - filename: tollbit-dev-api-openapi.yml
   format: yaml
   label: Tollbit Dev API
   slug: tollbit-dev-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/openapi/tollbit-dev-api-openapi.yml
+  url: https://artifacts.apis.io/tollbit/openapi/tollbit-dev-api-openapi.yml
 - filename: tollbit-reporting-api-openapi.yml
   format: yaml
   label: Tollbit Reporting API
   slug: tollbit-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/openapi/tollbit-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/tollbit/openapi/tollbit-reporting-api-openapi.yml
 - filename: tollbit-search-api-openapi.yml
   format: yaml
   label: Tollbit Search API
   slug: tollbit-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/openapi/tollbit-search-api-openapi.yml
+  url: https://artifacts.apis.io/tollbit/openapi/tollbit-search-api-openapi.yml
 - filename: tollbit-tollbit-content-api-openapi.yml
   format: yaml
   label: Tollbit Content API
   slug: tollbit-tollbit-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/openapi/tollbit-tollbit-content-api-openapi.yml
+  url: https://artifacts.apis.io/tollbit/openapi/tollbit-tollbit-content-api-openapi.yml
 - filename: tollbit-tollbit-subdomain-api-openapi.yml
   format: yaml
   label: Tollbit Subdomain API
   slug: tollbit-tollbit-subdomain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/openapi/tollbit-tollbit-subdomain-api-openapi.yml
+  url: https://artifacts.apis.io/tollbit/openapi/tollbit-tollbit-subdomain-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: tollbit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gateway.tollbit.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: tollbit.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/security/tollbit-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tollbit/security/tollbit-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

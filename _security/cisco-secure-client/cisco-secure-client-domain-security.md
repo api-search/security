@@ -5,37 +5,37 @@ api_specs:
   label: Cisco Secure Client Authentication API
   slug: cisco-secure-client-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-secure-client/refs/heads/main/openapi/cisco-secure-client-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-secure-client/openapi/cisco-secure-client-authentication-api-openapi.yml
 - filename: cisco-secure-client-devices-api-openapi.yml
   format: yaml
   label: Cisco Secure Client Devices API
   slug: cisco-secure-client-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-secure-client/refs/heads/main/openapi/cisco-secure-client-devices-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-secure-client/openapi/cisco-secure-client-devices-api-openapi.yml
 - filename: cisco-secure-client-hosts-api-openapi.yml
   format: yaml
   label: Cisco Secure Client Hosts API
   slug: cisco-secure-client-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-secure-client/refs/heads/main/openapi/cisco-secure-client-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-secure-client/openapi/cisco-secure-client-hosts-api-openapi.yml
 - filename: cisco-secure-client-networkobjects-api-openapi.yml
   format: yaml
   label: Cisco Secure Client NetworkObjects API
   slug: cisco-secure-client-networkobjects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-secure-client/refs/heads/main/openapi/cisco-secure-client-networkobjects-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-secure-client/openapi/cisco-secure-client-networkobjects-api-openapi.yml
 - filename: cisco-secure-client-access-policies-api-openapi.yml
   format: yaml
   label: Cisco Secure Client Access Policies API
   slug: cisco-secure-client-access-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-secure-client/refs/heads/main/openapi/cisco-secure-client-access-policies-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-secure-client/openapi/cisco-secure-client-access-policies-api-openapi.yml
 - filename: cisco-secure-client-access-rules-api-openapi.yml
   format: yaml
   label: Cisco Secure Client Access Rules API
   slug: cisco-secure-client-access-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-secure-client/refs/heads/main/openapi/cisco-secure-client-access-rules-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-secure-client/openapi/cisco-secure-client-access-rules-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -95,7 +95,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.cisco.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 20 00:05:07 2027 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.umbrella.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 20:07:28 2026 GMT\n  hsts: null\n- host: duo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  5 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: cisco.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"identrust.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 128 issuewild \"identrust.com\"\n  - 0 issue \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: umbrella.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0\
   \ issue \"digicert.com\"\n  - 0 issue \"identrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-secure-client/refs/heads/main/security/cisco-secure-client-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cisco-secure-client/security/cisco-secure-client-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Endpoint Security

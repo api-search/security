@@ -1,11 +1,17 @@
 ---
 api_specs:
+- filename: invokely-openapi-generated.yml
+  format: yaml
+  label: Invokely API
+  slug: invokely-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/invokely/openapi/_ae-authored/invokely-openapi-generated.yml
 - filename: invokely-rank-api-openapi.yml
   format: yaml
   label: Invokely Rank API
   slug: invokely-rank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invokely/refs/heads/main/openapi/invokely-rank-api-openapi.yml
+  url: https://artifacts.apis.io/invokely/openapi/invokely-rank-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -35,7 +41,7 @@ source_filename: invokely-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: invokely.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 21:51:42 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: invokely.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/invokely/refs/heads/main/security/invokely-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/invokely/security/invokely-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Statistics

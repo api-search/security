@@ -5,13 +5,13 @@ api_specs:
   label: Keeper Security Bi API
   slug: keeper-security-bi-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keeper-security/refs/heads/main/openapi/keeper-security-bi-api-api-openapi.yml
+  url: https://artifacts.apis.io/keeper-security/openapi/keeper-security-bi-api-api-openapi.yml
 - filename: keeper-security-health-api-openapi.yml
   format: yaml
   label: Keeper Security Health API
   slug: keeper-security-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keeper-security/refs/heads/main/openapi/keeper-security-health-api-openapi.yml
+  url: https://artifacts.apis.io/keeper-security/openapi/keeper-security-health-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -44,7 +44,7 @@ source_filename: keeper-security-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.keepersecurity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 11 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: keepersecurity.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"starfieldtech.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keeper-security/refs/heads/main/security/keeper-security-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/keeper-security/security/keeper-security-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

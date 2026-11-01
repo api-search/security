@@ -28,7 +28,7 @@ source_filename: hershey-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.thehersheycompany.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  5 21:38:24 2027 GMT\n  hsts: true\n  hsts_max_age: 300\ndomains:\n- domain: thehersheycompany.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hershey/refs/heads/main/security/hershey-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hershey/security/hershey-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fortune 500

@@ -5,67 +5,67 @@ api_specs:
   label: Doppel Alerts API
   slug: doppel-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/openapi/doppel-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/doppel/openapi/doppel-alerts-api-openapi.yml
 - filename: doppel-brands-api-openapi.yml
   format: yaml
   label: Doppel Brands API
   slug: doppel-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/openapi/doppel-brands-api-openapi.yml
+  url: https://artifacts.apis.io/doppel/openapi/doppel-brands-api-openapi.yml
 - filename: doppel-hrm-api-openapi.yml
   format: yaml
   label: Doppel Hrm API
   slug: doppel-hrm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/openapi/doppel-hrm-api-openapi.yml
+  url: https://artifacts.apis.io/doppel/openapi/doppel-hrm-api-openapi.yml
 - filename: doppel-phishing-simulation-api-openapi.yml
   format: yaml
   label: Doppel Phishing Simulation API
   slug: doppel-phishing-simulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/openapi/doppel-phishing-simulation-api-openapi.yml
+  url: https://artifacts.apis.io/doppel/openapi/doppel-phishing-simulation-api-openapi.yml
 - filename: doppel-protected-assets-api-openapi.yml
   format: yaml
   label: Doppel Protected Assets API
   slug: doppel-protected-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/openapi/doppel-protected-assets-api-openapi.yml
+  url: https://artifacts.apis.io/doppel/openapi/doppel-protected-assets-api-openapi.yml
 - filename: doppel-reports-api-openapi.yml
   format: yaml
   label: Doppel Reports API
   slug: doppel-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/openapi/doppel-reports-api-openapi.yml
+  url: https://artifacts.apis.io/doppel/openapi/doppel-reports-api-openapi.yml
 - filename: doppel-scan-api-openapi.yml
   format: yaml
   label: Doppel Scan API
   slug: doppel-scan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/openapi/doppel-scan-api-openapi.yml
+  url: https://artifacts.apis.io/doppel/openapi/doppel-scan-api-openapi.yml
 - filename: doppel-iocs-api-openapi.yml
   format: yaml
   label: Doppel Iocs API
   slug: doppel-iocs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/openapi/doppel-iocs-api-openapi.yml
+  url: https://artifacts.apis.io/doppel/openapi/doppel-iocs-api-openapi.yml
 - filename: doppel-reports-deprecated-api-openapi.yml
   format: yaml
   label: Doppel reports (deprecated) API
   slug: doppel-reports-deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/openapi/doppel-reports-deprecated-api-openapi.yml
+  url: https://artifacts.apis.io/doppel/openapi/doppel-reports-deprecated-api-openapi.yml
 - filename: doppel-sms-responses-api-openapi.yml
   format: yaml
   label: Doppel Sms Responses API
   slug: doppel-sms-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/openapi/doppel-sms-responses-api-openapi.yml
+  url: https://artifacts.apis.io/doppel/openapi/doppel-sms-responses-api-openapi.yml
 - filename: doppel-urls-api-openapi.yml
   format: yaml
   label: Doppel URLS API
   slug: doppel-urls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/openapi/doppel-urls-api-openapi.yml
+  url: https://artifacts.apis.io/doppel/openapi/doppel-urls-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -100,7 +100,7 @@ source_filename: doppel-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.doppel.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 12:41:28 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.doppel.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 12:41:28 2026 GMT\n  hsts: null\ndomains:\n- domain: doppel.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/security/doppel-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/doppel/security/doppel-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

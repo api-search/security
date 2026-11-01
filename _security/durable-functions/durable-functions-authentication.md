@@ -8,13 +8,13 @@ api_specs:
   label: Azure Durable Functions Entities API
   slug: durable-functions-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/durable-functions/refs/heads/main/openapi/durable-functions-entities-api-openapi.yml
+  url: https://artifacts.apis.io/durable-functions/openapi/durable-functions-entities-api-openapi.yml
 - filename: durable-functions-orchestrations-api-openapi.yml
   format: yaml
   label: Azure Durable Functions Orchestrations API
   slug: durable-functions-orchestrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/durable-functions/refs/heads/main/openapi/durable-functions-orchestrations-api-openapi.yml
+  url: https://artifacts.apis.io/durable-functions/openapi/durable-functions-orchestrations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -41,7 +41,7 @@ source_filename: durable-functions-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/durable-functions-http-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: systemKey\n  type: apiKey\n  in: query\n  parameter: code\n  sources:\n  - openapi/durable-functions-http-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/durable-functions/refs/heads/main/authentication/durable-functions-authentication.yml
+source_yaml_url: https://artifacts.apis.io/durable-functions/authentication/durable-functions-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - API Composition

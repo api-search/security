@@ -7,37 +7,37 @@ api_specs:
   label: REALTOR.ca Destination API
   slug: realtor-ca-destination-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/openapi/realtor-ca-destination-api-openapi.yml
+  url: https://artifacts.apis.io/realtor-ca/openapi/realtor-ca-destination-api-openapi.yml
 - filename: realtor-ca-lead-api-openapi.yml
   format: yaml
   label: REALTOR.ca Lead API
   slug: realtor-ca-lead-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/openapi/realtor-ca-lead-api-openapi.yml
+  url: https://artifacts.apis.io/realtor-ca/openapi/realtor-ca-lead-api-openapi.yml
 - filename: realtor-ca-member-api-openapi.yml
   format: yaml
   label: REALTOR.ca Member API
   slug: realtor-ca-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/openapi/realtor-ca-member-api-openapi.yml
+  url: https://artifacts.apis.io/realtor-ca/openapi/realtor-ca-member-api-openapi.yml
 - filename: realtor-ca-office-api-openapi.yml
   format: yaml
   label: REALTOR.ca Office API
   slug: realtor-ca-office-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/openapi/realtor-ca-office-api-openapi.yml
+  url: https://artifacts.apis.io/realtor-ca/openapi/realtor-ca-office-api-openapi.yml
 - filename: realtor-ca-openhouse-api-openapi.yml
   format: yaml
   label: REALTOR.ca Open House API
   slug: realtor-ca-openhouse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/openapi/realtor-ca-openhouse-api-openapi.yml
+  url: https://artifacts.apis.io/realtor-ca/openapi/realtor-ca-openhouse-api-openapi.yml
 - filename: realtor-ca-property-api-openapi.yml
   format: yaml
   label: REALTOR.ca Property API
   slug: realtor-ca-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/openapi/realtor-ca-property-api-openapi.yml
+  url: https://artifacts.apis.io/realtor-ca/openapi/realtor-ca-property-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: >-\n  https://i
   \ https://identity.crea.ca/connect/revocation\n  userinfo_endpoint: https://identity.crea.ca/connect/userinfo\n  jwks_uri: https://identity.crea.ca/.well-known/openid-configuration/jwks\n  pushed_authorization_request_endpoint: https://identity.crea.ca/connect/par\n  require_pushed_authorization_requests: false\n  grant_types:\n  - authorization_code\n  - client_credentials\n  - refresh_token\n  - implicit\n  - 'urn:ietf:params:oauth:grant-type:device_code'\n  - 'urn:openid:params:grant-type:ciba'\n  token_endpoint_auth_methods: [client_secret_basic, client_secret_post]\n  id_token_signing_alg: [RS256]\n  code_challenge_methods: [plain, S256]\n  dpop_supported: true\n  dpop_signing_algs: [RS256, RS384, RS512, PS256, PS384, PS512, ES256, ES384, ES512]\n  claims_supported: [sub, destinationid]\n  note: >-\n    The `destinationid` claim is the entitlement carrier — a token is scoped to the member-\n    registered Destination feed whose credentials minted it, not to a developer account.\n\
   - issuer: https://auth.realtor.ca/\n  role: >-\n    Human sign-in for REALTOR.ca / ddf.realtor.ca members and consumers. NOT a developer API gate —\n    no DDF Web API token can be obtained here.\n  vendor: Auth0\n  discovery: https://auth.realtor.ca/.well-known/openid-configuration\n  harvested: authentication/realtor-ca-auth0-openid-configuration.json\n  token_endpoint: https://auth.realtor.ca/oauth/token\n  jwks_uri: https://auth.realtor.ca/.well-known/jwks.json\n  rfc8414_metadata: https://auth.realtor.ca/.well-known/oauth-authorization-server\n  mfa_challenge_endpoint: https://auth.realtor.ca/mfa/challenge\n  dpop_supported: true\n  dpop_signing_algs: [ES256]\ncredential_issuance:\n  self_serve: false\n  sandbox: false\n  gate: >-\n    A licensed REALTOR or broker owner must create a DDF Destination (data feed) in the member\n    portal at https://member.realtor.ca/Distribution/Default.aspx and link it to the integrator.\n    The credential you receive is the FEED's username/password,\
   \ not a developer key. A Technology\n    Provider enumerates the feeds linked to it by querying GET /odata/v1/Destination.\ntransport_security:\n  min_tls: '1.2'\n  https_only: true\n  source: >-\n    DDF Web API release notes, January 31st 2023 — \"Update to support minimum TLS version 1.2\n    enforcing all incoming requests to be HTTPS.\"\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/authentication/realtor-ca-authentication.yml
+source_yaml_url: https://artifacts.apis.io/realtor-ca/authentication/realtor-ca-authentication.yml
 summary_line: oauth2/http · 2 schemes
 tags:
 - Real Estate

@@ -5,49 +5,49 @@ api_specs:
   label: FastPix Data API
   slug: fastpix-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/openapi/fastpix-data-api-openapi.yml
+  url: https://artifacts.apis.io/fastpix/openapi/fastpix-data-api-openapi.yml
 - filename: fastpix-drm-api-openapi.yml
   format: yaml
   label: FastPix DRM API
   slug: fastpix-drm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/openapi/fastpix-drm-api-openapi.yml
+  url: https://artifacts.apis.io/fastpix/openapi/fastpix-drm-api-openapi.yml
 - filename: fastpix-in-video-ai-api-openapi.yml
   format: yaml
   label: FastPix In-Video AI API
   slug: fastpix-in-video-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/openapi/fastpix-in-video-ai-api-openapi.yml
+  url: https://artifacts.apis.io/fastpix/openapi/fastpix-in-video-ai-api-openapi.yml
 - filename: fastpix-live-streaming-api-openapi.yml
   format: yaml
   label: FastPix Live Streaming API
   slug: fastpix-live-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/openapi/fastpix-live-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/fastpix/openapi/fastpix-live-streaming-api-openapi.yml
 - filename: fastpix-on-demand-api-openapi.yml
   format: yaml
   label: FastPix On-Demand API
   slug: fastpix-on-demand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/openapi/fastpix-on-demand-api-openapi.yml
+  url: https://artifacts.apis.io/fastpix/openapi/fastpix-on-demand-api-openapi.yml
 - filename: fastpix-playback-api-openapi.yml
   format: yaml
   label: FastPix Playback API
   slug: fastpix-playback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/openapi/fastpix-playback-api-openapi.yml
+  url: https://artifacts.apis.io/fastpix/openapi/fastpix-playback-api-openapi.yml
 - filename: fastpix-signing-keys-api-openapi.yml
   format: yaml
   label: FastPix Signing Keys API
   slug: fastpix-signing-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/openapi/fastpix-signing-keys-api-openapi.yml
+  url: https://artifacts.apis.io/fastpix/openapi/fastpix-signing-keys-api-openapi.yml
 - filename: fastpix-simulcast-api-openapi.yml
   format: yaml
   label: FastPix Simulcast API
   slug: fastpix-simulcast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/openapi/fastpix-simulcast-api-openapi.yml
+  url: https://artifacts.apis.io/fastpix/openapi/fastpix-simulcast-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -87,7 +87,7 @@ source_filename: fastpix-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fastpix.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 14:35:34 2026 GMT\n  hsts: false\n- host: docs.fastpix.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 20:05:13 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.fastpix.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 14:35:34 2026 GMT\n  hsts: null\ndomains:\n- domain: fastpix.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/security/fastpix-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fastpix/security/fastpix-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Video

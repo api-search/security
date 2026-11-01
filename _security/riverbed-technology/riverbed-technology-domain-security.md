@@ -28,7 +28,7 @@ source_filename: riverbed-technology-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.riverbed.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 16:46:58 2026 GMT\n  hsts: true\n  hsts_max_age: 31622400\ndomains:\n- domain: riverbed.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/riverbed-technology/refs/heads/main/security/riverbed-technology-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/riverbed-technology/security/riverbed-technology-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

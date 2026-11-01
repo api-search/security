@@ -5,127 +5,139 @@ api_specs:
   label: Cashplus Bank Account Access API
   slug: cashplus-account-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-account-access-api-openapi.yml
+  url: https://artifacts.apis.io/cashplus/openapi/cashplus-account-access-api-openapi.yml
 - filename: cashplus-accounts-api-openapi.yml
   format: yaml
   label: Cashplus Accounts API
   slug: cashplus-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/cashplus/openapi/cashplus-accounts-api-openapi.yml
 - filename: cashplus-balances-api-openapi.yml
   format: yaml
   label: Cashplus Bank Balances API
   slug: cashplus-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-balances-api-openapi.yml
+  url: https://artifacts.apis.io/cashplus/openapi/cashplus-balances-api-openapi.yml
 - filename: cashplus-beneficiaries-api-openapi.yml
   format: yaml
   label: Cashplus Bank Beneficiaries API
   slug: cashplus-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/cashplus/openapi/cashplus-beneficiaries-api-openapi.yml
 - filename: cashplus-direct-debits-api-openapi.yml
   format: yaml
   label: Cashplus Bank Direct Debits API
   slug: cashplus-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/cashplus/openapi/cashplus-direct-debits-api-openapi.yml
 - filename: cashplus-domestic-payments-api-openapi.yml
   format: yaml
   label: Cashplus Bank Domestic Payments API
   slug: cashplus-domestic-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-domestic-payments-api-openapi.yml
+  url: https://artifacts.apis.io/cashplus/openapi/cashplus-domestic-payments-api-openapi.yml
 - filename: cashplus-domestic-scheduled-payments-api-openapi.yml
   format: yaml
   label: Cashplus Bank Domestic Scheduled Payments API
   slug: cashplus-domestic-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-domestic-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/cashplus/openapi/cashplus-domestic-scheduled-payments-api-openapi.yml
 - filename: cashplus-domestic-standing-orders-api-openapi.yml
   format: yaml
   label: Cashplus Bank Domestic Standing Orders API
   slug: cashplus-domestic-standing-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-domestic-standing-orders-api-openapi.yml
+  url: https://artifacts.apis.io/cashplus/openapi/cashplus-domestic-standing-orders-api-openapi.yml
 - filename: cashplus-file-payments-api-openapi.yml
   format: yaml
   label: Cashplus Bank File Payments API
   slug: cashplus-file-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-file-payments-api-openapi.yml
+  url: https://artifacts.apis.io/cashplus/openapi/cashplus-file-payments-api-openapi.yml
 - filename: cashplus-funds-confirmations-api-openapi.yml
   format: yaml
   label: Cashplus Bank Funds Confirmations API
   slug: cashplus-funds-confirmations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-funds-confirmations-api-openapi.yml
+  url: https://artifacts.apis.io/cashplus/openapi/cashplus-funds-confirmations-api-openapi.yml
 - filename: cashplus-international-payments-api-openapi.yml
   format: yaml
   label: Cashplus Bank International Payments API
   slug: cashplus-international-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-international-payments-api-openapi.yml
+  url: https://artifacts.apis.io/cashplus/openapi/cashplus-international-payments-api-openapi.yml
 - filename: cashplus-international-scheduled-payments-api-openapi.yml
   format: yaml
   label: Cashplus Bank International Scheduled Payments API
   slug: cashplus-international-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-international-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/cashplus/openapi/cashplus-international-scheduled-payments-api-openapi.yml
 - filename: cashplus-international-standing-orders-api-openapi.yml
   format: yaml
   label: Cashplus Bank International Standing Orders API
   slug: cashplus-international-standing-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-international-standing-orders-api-openapi.yml
+  url: https://artifacts.apis.io/cashplus/openapi/cashplus-international-standing-orders-api-openapi.yml
 - filename: cashplus-offers-api-openapi.yml
   format: yaml
   label: Cashplus Bank Offers API
   slug: cashplus-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-offers-api-openapi.yml
+  url: https://artifacts.apis.io/cashplus/openapi/cashplus-offers-api-openapi.yml
 - filename: cashplus-parties-api-openapi.yml
   format: yaml
   label: Cashplus Bank Parties API
   slug: cashplus-parties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-parties-api-openapi.yml
+  url: https://artifacts.apis.io/cashplus/openapi/cashplus-parties-api-openapi.yml
 - filename: cashplus-payment-details-api-openapi.yml
   format: yaml
   label: Cashplus Bank Payment Details API
   slug: cashplus-payment-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-payment-details-api-openapi.yml
+  url: https://artifacts.apis.io/cashplus/openapi/cashplus-payment-details-api-openapi.yml
 - filename: cashplus-products-api-openapi.yml
   format: yaml
   label: Cashplus Products API
   slug: cashplus-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-products-api-openapi.yml
+  url: https://artifacts.apis.io/cashplus/openapi/cashplus-products-api-openapi.yml
 - filename: cashplus-scheduled-payments-api-openapi.yml
   format: yaml
   label: Cashplus Bank Scheduled Payments API
   slug: cashplus-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/cashplus/openapi/cashplus-scheduled-payments-api-openapi.yml
 - filename: cashplus-standing-orders-api-openapi.yml
   format: yaml
   label: Cashplus Bank Standing Orders API
   slug: cashplus-standing-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-standing-orders-api-openapi.yml
+  url: https://artifacts.apis.io/cashplus/openapi/cashplus-standing-orders-api-openapi.yml
 - filename: cashplus-statements-api-openapi.yml
   format: yaml
   label: Cashplus Bank Statements API
   slug: cashplus-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-statements-api-openapi.yml
+  url: https://artifacts.apis.io/cashplus/openapi/cashplus-statements-api-openapi.yml
 - filename: cashplus-transactions-api-openapi.yml
   format: yaml
   label: Cashplus Transactions API
   slug: cashplus-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/cashplus/openapi/cashplus-transactions-api-openapi.yml
+- filename: cashplus-operations-applications-application-api-openapi.yml
+  format: yaml
+  label: Cashplus Bank Operations Applications - Application API
+  slug: cashplus-operations-applications-application-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cashplus/openapi/cashplus-operations-applications-application-api-openapi.yml
+- filename: cashplus-operations-applications-service-information-api-openapi.yml
+  format: yaml
+  label: Cashplus Bank Operations Applications - Service Information API
+  slug: cashplus-operations-applications-service-information-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cashplus/openapi/cashplus-operations-applications-service-information-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -161,7 +173,7 @@ source_filename: cashplus-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-23'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.zemplerbank.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 03:35:07 2026 GMT\n  hsts: true\n  hsts_max_age: 0\n- host: developer.zemplerbank.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 15:33:51 2026 GMT\n  hsts: true\n  hsts_max_age: 0\ndomains:\n- domain: zemplerbank.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/security/cashplus-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cashplus/security/cashplus-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Financial Services

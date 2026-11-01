@@ -8,25 +8,25 @@ api_specs:
   label: Parsio Documents API
   slug: parsio-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsio/refs/heads/main/openapi/parsio-documents-api-openapi.yml
+  url: https://artifacts.apis.io/parsio/openapi/parsio-documents-api-openapi.yml
 - filename: parsio-mailboxes-api-openapi.yml
   format: yaml
   label: Parsio Mailboxes API
   slug: parsio-mailboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsio/refs/heads/main/openapi/parsio-mailboxes-api-openapi.yml
+  url: https://artifacts.apis.io/parsio/openapi/parsio-mailboxes-api-openapi.yml
 - filename: parsio-templates-api-openapi.yml
   format: yaml
   label: Parsio Templates API
   slug: parsio-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsio/refs/heads/main/openapi/parsio-templates-api-openapi.yml
+  url: https://artifacts.apis.io/parsio/openapi/parsio-templates-api-openapi.yml
 - filename: parsio-webhooks-api-openapi.yml
   format: yaml
   label: Parsio Webhooks API
   slug: parsio-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsio/refs/heads/main/openapi/parsio-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/parsio/openapi/parsio-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -53,7 +53,7 @@ source_filename: parsio-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/parsio-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  sources:\n  - openapi/parsio-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parsio/refs/heads/main/authentication/parsio-authentication.yml
+source_yaml_url: https://artifacts.apis.io/parsio/authentication/parsio-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence

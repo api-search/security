@@ -7,25 +7,25 @@ api_specs:
   label: ItsaCheckmate Locations API
   slug: itsacheckmate-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/refs/heads/main/openapi/itsacheckmate-locations-api-openapi.yml
+  url: https://artifacts.apis.io/itsacheckmate/openapi/itsacheckmate-locations-api-openapi.yml
 - filename: itsacheckmate-menus-api-openapi.yml
   format: yaml
   label: ItsaCheckmate Menus API
   slug: itsacheckmate-menus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/refs/heads/main/openapi/itsacheckmate-menus-api-openapi.yml
+  url: https://artifacts.apis.io/itsacheckmate/openapi/itsacheckmate-menus-api-openapi.yml
 - filename: itsacheckmate-orders-api-openapi.yml
   format: yaml
   label: ItsaCheckmate Orders API
   slug: itsacheckmate-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/refs/heads/main/openapi/itsacheckmate-orders-api-openapi.yml
+  url: https://artifacts.apis.io/itsacheckmate/openapi/itsacheckmate-orders-api-openapi.yml
 - filename: itsacheckmate-oauth-api-openapi.yml
   format: yaml
   label: ItsaCheckmate O Auth API
   slug: itsacheckmate-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/refs/heads/main/openapi/itsacheckmate-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/itsacheckmate/openapi/itsacheckmate-oauth-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: itsacheckmate-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/itsacheckmate-marketplace-api.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth-style scoped access token issued by /oauth/token.\n  sources:\n  - openapi/itsacheckmate-marketplace-api.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/refs/heads/main/authentication/itsacheckmate-authentication.yml
+source_yaml_url: https://artifacts.apis.io/itsacheckmate/authentication/itsacheckmate-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Restaurant

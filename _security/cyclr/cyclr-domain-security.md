@@ -1,59 +1,59 @@
 ---
 api_specs:
-- filename: cyclr-accounts-api-openapi.yml
+- filename: cyclr-cyclr-asyncapi.yml
   format: yaml
   label: Cyclr Accounts API
   slug: cyclr-accounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/openapi/cyclr-accounts-api-openapi.yml
-- filename: cyclr-authentication-api-openapi.yml
+  spec_type: AsyncAPI
+  url: https://artifacts.apis.io/cyclr/asyncapi/cyclr-cyclr-asyncapi.yml
+- filename: cyclr-cyclr-asyncapi.yml
   format: yaml
   label: Cyclr Authentication API
   slug: cyclr-authentication-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/openapi/cyclr-authentication-api-openapi.yml
-- filename: cyclr-connectors-api-openapi.yml
+  spec_type: AsyncAPI
+  url: https://artifacts.apis.io/cyclr/asyncapi/cyclr-cyclr-asyncapi.yml
+- filename: cyclr-cyclr-asyncapi.yml
   format: yaml
   label: Cyclr Connectors API
   slug: cyclr-connectors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/openapi/cyclr-connectors-api-openapi.yml
-- filename: cyclr-cycles-api-openapi.yml
+  spec_type: AsyncAPI
+  url: https://artifacts.apis.io/cyclr/asyncapi/cyclr-cyclr-asyncapi.yml
+- filename: cyclr-cyclr-asyncapi.yml
   format: yaml
   label: Cyclr Cycles API
   slug: cyclr-cycles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/openapi/cyclr-cycles-api-openapi.yml
-- filename: cyclr-data-on-demand-api-openapi.yml
+  spec_type: AsyncAPI
+  url: https://artifacts.apis.io/cyclr/asyncapi/cyclr-cyclr-asyncapi.yml
+- filename: cyclr-cyclr-asyncapi.yml
   format: yaml
   label: Cyclr Data on Demand API
   slug: cyclr-data-on-demand-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/openapi/cyclr-data-on-demand-api-openapi.yml
-- filename: cyclr-launch-api-openapi.yml
+  spec_type: AsyncAPI
+  url: https://artifacts.apis.io/cyclr/asyncapi/cyclr-cyclr-asyncapi.yml
+- filename: cyclr-cyclr-asyncapi.yml
   format: yaml
   label: Cyclr LAUNCH API
   slug: cyclr-launch-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/openapi/cyclr-launch-api-openapi.yml
-- filename: cyclr-marketplace-api-openapi.yml
+  spec_type: AsyncAPI
+  url: https://artifacts.apis.io/cyclr/asyncapi/cyclr-cyclr-asyncapi.yml
+- filename: cyclr-cyclr-asyncapi.yml
   format: yaml
   label: Cyclr Marketplace API
   slug: cyclr-marketplace-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/openapi/cyclr-marketplace-api-openapi.yml
-- filename: cyclr-steps-api-openapi.yml
+  spec_type: AsyncAPI
+  url: https://artifacts.apis.io/cyclr/asyncapi/cyclr-cyclr-asyncapi.yml
+- filename: cyclr-cyclr-asyncapi.yml
   format: yaml
   label: Cyclr Steps API
   slug: cyclr-steps-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/openapi/cyclr-steps-api-openapi.yml
-- filename: cyclr-templates-api-openapi.yml
+  spec_type: AsyncAPI
+  url: https://artifacts.apis.io/cyclr/asyncapi/cyclr-cyclr-asyncapi.yml
+- filename: cyclr-cyclr-asyncapi.yml
   format: yaml
   label: Cyclr Templates API
   slug: cyclr-templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/openapi/cyclr-templates-api-openapi.yml
+  spec_type: AsyncAPI
+  url: https://artifacts.apis.io/cyclr/asyncapi/cyclr-cyclr-asyncapi.yml
 description: ''
 domains:
 - caa: []
@@ -93,7 +93,7 @@ source_filename: cyclr-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cyclr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 07:10:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.cyclr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 23:59:59 2026 GMT\n  hsts: null\n- host: api.eu.cyclr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: cyclr.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/security/cyclr-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cyclr/security/cyclr-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Connectors

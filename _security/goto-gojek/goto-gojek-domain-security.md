@@ -5,13 +5,13 @@ api_specs:
   label: GoTo Group (Gojek + Tokopedia) Tokenization API
   slug: goto-gojek-tokenization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goto-gojek/refs/heads/main/openapi/goto-gojek-tokenization-api-openapi.yml
+  url: https://artifacts.apis.io/goto-gojek/openapi/goto-gojek-tokenization-api-openapi.yml
 - filename: goto-gojek-transactions-api-openapi.yml
   format: yaml
   label: GoTo Group (Gojek + Tokopedia) Transactions API
   slug: goto-gojek-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goto-gojek/refs/heads/main/openapi/goto-gojek-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/goto-gojek/openapi/goto-gojek-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: goto-gojek-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.gotocompany.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  6 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: www.gojek.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 20 23:59:59 2026 GMT\n  hsts: null\n- host: api.gojekapi.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 20 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: gotocompany.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: gojek.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goto-gojek/refs/heads/main/security/goto-gojek-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/goto-gojek/security/goto-gojek-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Super App

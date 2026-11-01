@@ -5,43 +5,43 @@ api_specs:
   label: University of Lisbon Campus Life API
   slug: university-of-lisbon-campus-life-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/openapi/university-of-lisbon-campus-life-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-lisbon/openapi/university-of-lisbon-campus-life-api-openapi.yml
 - filename: university-of-lisbon-courses-api-openapi.yml
   format: yaml
   label: University of Lisbon Courses API
   slug: university-of-lisbon-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/openapi/university-of-lisbon-courses-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-lisbon/openapi/university-of-lisbon-courses-api-openapi.yml
 - filename: university-of-lisbon-degrees-api-openapi.yml
   format: yaml
   label: University of Lisbon Degrees API
   slug: university-of-lisbon-degrees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/openapi/university-of-lisbon-degrees-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-lisbon/openapi/university-of-lisbon-degrees-api-openapi.yml
 - filename: university-of-lisbon-domain-model-api-openapi.yml
   format: yaml
   label: University of Lisbon Domain Model API
   slug: university-of-lisbon-domain-model-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/openapi/university-of-lisbon-domain-model-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-lisbon/openapi/university-of-lisbon-domain-model-api-openapi.yml
 - filename: university-of-lisbon-institution-api-openapi.yml
   format: yaml
   label: University of Lisbon Institution API
   slug: university-of-lisbon-institution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/openapi/university-of-lisbon-institution-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-lisbon/openapi/university-of-lisbon-institution-api-openapi.yml
 - filename: university-of-lisbon-person-api-openapi.yml
   format: yaml
   label: University of Lisbon Person API
   slug: university-of-lisbon-person-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/openapi/university-of-lisbon-person-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-lisbon/openapi/university-of-lisbon-person-api-openapi.yml
 - filename: university-of-lisbon-spaces-api-openapi.yml
   format: yaml
   label: University of Lisbon Spaces API
   slug: university-of-lisbon-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/openapi/university-of-lisbon-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-lisbon/openapi/university-of-lisbon-spaces-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -86,7 +86,7 @@ source_filename: university-of-lisbon-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ulisboa.pt\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 10 03:14:55 2027 GMT\n  hsts: false\n- host: fenixedu.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 04:24:37 2026 GMT\n  hsts: false\n- host: fenix.tecnico.ulisboa.pt\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 15:59:46 2026 GMT\n  hsts: true\n  hsts_max_age: 15768000\ndomains:\n- domain: ulisboa.pt\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: fenixedu.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/security/university-of-lisbon-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/university-of-lisbon/security/university-of-lisbon-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - University

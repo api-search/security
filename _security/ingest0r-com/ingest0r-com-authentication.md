@@ -7,25 +7,25 @@ api_specs:
   label: ingest0r Comps API
   slug: ingest0r-com-comps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ingest0r-com/refs/heads/main/openapi/ingest0r-com-comps-api-openapi.yml
+  url: https://artifacts.apis.io/ingest0r-com/openapi/ingest0r-com-comps-api-openapi.yml
 - filename: ingest0r-com-dossier-api-openapi.yml
   format: yaml
   label: ingest0r Dossier API
   slug: ingest0r-com-dossier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ingest0r-com/refs/heads/main/openapi/ingest0r-com-dossier-api-openapi.yml
+  url: https://artifacts.apis.io/ingest0r-com/openapi/ingest0r-com-dossier-api-openapi.yml
 - filename: ingest0r-com-parcel-api-openapi.yml
   format: yaml
   label: ingest0r Parcel API
   slug: ingest0r-com-parcel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ingest0r-com/refs/heads/main/openapi/ingest0r-com-parcel-api-openapi.yml
+  url: https://artifacts.apis.io/ingest0r-com/openapi/ingest0r-com-parcel-api-openapi.yml
 - filename: ingest0r-com-search-api-openapi.yml
   format: yaml
   label: ingest0r Search API
   slug: ingest0r-com-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ingest0r-com/refs/heads/main/openapi/ingest0r-com-search-api-openapi.yml
+  url: https://artifacts.apis.io/ingest0r-com/openapi/ingest0r-com-search-api-openapi.yml
 auth_types:
 - none
 - payment
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource:\n- https://api.
   \ -> 200 (no headers beyond HSTS); GET /v1/dossier/09253050270000 -> 200 with\n    x-free-example: true; GET /v1/parcel/25221090340000 -> 200 with x-free-tier: true, x-free-tier-limit: 25,\n    x-free-tier-remaining: 24. The free-tier metering key (\"per client\") is not documented further.\n  sources:\n  - https://api.ingest0r.com/\n  - https://api.ingest0r.com/pricing\n- name: x402\n  type: payment\n  standard: x402 v2 (HTTP 402)\n  in: header (payment on the retried request)\n  request_headers: [PAYMENT-SIGNATURE (x402 v2), X-PAYMENT (legacy)]\n  response_headers: [PAYMENT-REQUIRED (base64 PaymentRequired), PAYMENT-RESPONSE (settle receipt, per x402 v2)]\n  networks:\n  - {network: eip155:8453, chain: Base mainnet, asset: USDC, asset_contract: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913', pay_to: '0x98D530C0667A4B18e692F182DdCAb1c2bECb5B9B'}\n  - {network: solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp, chain: Solana mainnet, asset: USDC, asset_mint: EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v,\
   \ pay_to: G3qr8ahZnuFSYjvrCYM4LLDdoLzFq8Boq9XrURVcA9YF, fee_payer: CjNFTjvBhbJJd2B5ePPMHRLx1ELZpa8dwQgGL727eKww}\n  scheme: exact\n  facilitator: https://facilitator.payai.network\n  max_timeout_seconds: 60\n  prices_atomic_usdc_6dp: {v1_search: '0', v1_parcel: '10000', v1_dossier: '30000', v1_comps: '100000'}\n  applies_to:\n  - v1_parcel ($0.01), v1_dossier ($0.03), v1_comps ($0.10) — past the daily free allowance\n  - route-template URLs and directory-probe PINs — always 402 (changelog 0.4.2, \"so listing verification is unaffected\")\n  description: >-\n    The OpenAPI carries a top-level x-payment {protocol x402, x402Version 2, accepts[]} and per-operation\n    x-payment-info {price {mode fixed, amount, currency USD}, protocols[{x402{...}}]}; the agent card carries the\n    same terms as the https://x402.org/extensions/payments capability extension. Payment guards documented in the\n    changelog: HEAD never settles, size cap, replay pre-check, and the guards cover both the v2 PAYMENT-SIGNATURE\n\
   \    header and legacy X-PAYMENT (0.4.1).\n  observed: >-\n    GET https://api.ingest0r.com/v1/parcel/%7Bpin%7D -> HTTP 402, cache-control private no-store, PAYMENT-REQUIRED\n    header present, application/json body with x402Version 2 and both accepts[] entries. Nothing was paid.\n  mcp: >-\n    On the MCP server the 402 is returned in the tool result as _meta[\"x402/error\"] (isError) and payment is\n    supplied via _meta[\"x402/payment\"], with the receipt in _meta[\"x402/payment-response\"] and\n    agents-x402/priceUSD in tool _meta (changelog 0.4.1).\n  sources:\n  - https://api.ingest0r.com/openapi.json\n  - https://api.ingest0r.com/.well-known/x402\n  - https://api.ingest0r.com/changelog.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ingest0r-com/refs/heads/main/authentication/ingest0r-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ingest0r-com/authentication/ingest0r-com-authentication.yml
 summary_line: none/payment · 2 schemes
 tags:
 - Company

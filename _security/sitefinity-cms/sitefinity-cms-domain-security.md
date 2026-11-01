@@ -5,19 +5,19 @@ api_specs:
   label: Sitefinity CMS Blog Posts API
   slug: sitefinity-cms-blog-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/openapi/sitefinity-cms-blog-posts-api-openapi.yml
+  url: https://artifacts.apis.io/sitefinity-cms/openapi/sitefinity-cms-blog-posts-api-openapi.yml
 - filename: sitefinity-cms-events-api-openapi.yml
   format: yaml
   label: Sitefinity CMS Events API
   slug: sitefinity-cms-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/openapi/sitefinity-cms-events-api-openapi.yml
+  url: https://artifacts.apis.io/sitefinity-cms/openapi/sitefinity-cms-events-api-openapi.yml
 - filename: sitefinity-cms-news-items-api-openapi.yml
   format: yaml
   label: Sitefinity CMS News Items API
   slug: sitefinity-cms-news-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/openapi/sitefinity-cms-news-items-api-openapi.yml
+  url: https://artifacts.apis.io/sitefinity-cms/openapi/sitefinity-cms-news-items-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -55,7 +55,7 @@ source_filename: sitefinity-cms-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.progress.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 20:55:58 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: your-site.sitefinity.com\n  https: false\ndomains:\n- domain: progress.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: sitefinity.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/security/sitefinity-cms-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sitefinity-cms/security/sitefinity-cms-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Content Management

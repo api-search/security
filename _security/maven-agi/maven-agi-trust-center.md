@@ -5,55 +5,55 @@ api_specs:
   label: Maven AGI Actions API
   slug: maven-agi-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-actions-api-openapi.yml
+  url: https://artifacts.apis.io/maven-agi/openapi/maven-agi-actions-api-openapi.yml
 - filename: maven-agi-agents-api-openapi.yml
   format: yaml
   label: Maven AGI Agents API
   slug: maven-agi-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-agents-api-openapi.yml
+  url: https://artifacts.apis.io/maven-agi/openapi/maven-agi-agents-api-openapi.yml
 - filename: maven-agi-analytics-api-openapi.yml
   format: yaml
   label: Maven AGI Analytics API
   slug: maven-agi-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/maven-agi/openapi/maven-agi-analytics-api-openapi.yml
 - filename: maven-agi-app-settings-api-openapi.yml
   format: yaml
   label: Maven AGI App Settings API
   slug: maven-agi-app-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-app-settings-api-openapi.yml
+  url: https://artifacts.apis.io/maven-agi/openapi/maven-agi-app-settings-api-openapi.yml
 - filename: maven-agi-conversations-api-openapi.yml
   format: yaml
   label: Maven AGI Conversations API
   slug: maven-agi-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/maven-agi/openapi/maven-agi-conversations-api-openapi.yml
 - filename: maven-agi-events-api-openapi.yml
   format: yaml
   label: Maven AGI Events API
   slug: maven-agi-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-events-api-openapi.yml
+  url: https://artifacts.apis.io/maven-agi/openapi/maven-agi-events-api-openapi.yml
 - filename: maven-agi-knowledge-api-openapi.yml
   format: yaml
   label: Maven AGI Knowledge API
   slug: maven-agi-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/maven-agi/openapi/maven-agi-knowledge-api-openapi.yml
 - filename: maven-agi-triggers-api-openapi.yml
   format: yaml
   label: Maven AGI Triggers API
   slug: maven-agi-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/maven-agi/openapi/maven-agi-triggers-api-openapi.yml
 - filename: maven-agi-users-api-openapi.yml
   format: yaml
   label: Maven AGI Users API
   slug: maven-agi-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-users-api-openapi.yml
+  url: https://artifacts.apis.io/maven-agi/openapi/maven-agi-users-api-openapi.yml
 certification_count: 7
 certifications:
 - SOC 2
@@ -76,7 +76,7 @@ source_filename: maven-agi-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.mavenagi.com/\nurl: https://trust.mavenagi.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- PCI DSS\n- HIPAA\n- GDPR\nevidence:\n- source: https://trust.mavenagi.com/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - iso/iec 27001\n  - pci-dss\n  - hipaa\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/security/maven-agi-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/maven-agi/security/maven-agi-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, GDPR
 tags:
 - Artificial Intelligence

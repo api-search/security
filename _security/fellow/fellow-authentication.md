@@ -8,31 +8,31 @@ api_specs:
   label: Fellow Action Items API
   slug: fellow-action-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/openapi/fellow-action-items-api-openapi.yml
+  url: https://artifacts.apis.io/fellow/openapi/fellow-action-items-api-openapi.yml
 - filename: fellow-notes-api-openapi.yml
   format: yaml
   label: Fellow Notes API
   slug: fellow-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/openapi/fellow-notes-api-openapi.yml
+  url: https://artifacts.apis.io/fellow/openapi/fellow-notes-api-openapi.yml
 - filename: fellow-recordings-api-openapi.yml
   format: yaml
   label: Fellow Recordings API
   slug: fellow-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/openapi/fellow-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/fellow/openapi/fellow-recordings-api-openapi.yml
 - filename: fellow-users-api-openapi.yml
   format: yaml
   label: Fellow Users API
   slug: fellow-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/openapi/fellow-users-api-openapi.yml
+  url: https://artifacts.apis.io/fellow/openapi/fellow-users-api-openapi.yml
 - filename: fellow-webhooks-api-openapi.yml
   format: yaml
   label: Fellow Webhooks API
   slug: fellow-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/openapi/fellow-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/fellow/openapi/fellow-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -80,7 +80,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://developers.fellow.ai/reference/authentication-1\ndocs: https://developers.fellow.ai/reference/authentication-1\nsummary:\n  types: [apiKey, oauth2]\n  api_key_in: [header]\n  api_key_name: X-API-KEY\n  oauth2_flows: [authorizationCode]\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter_name: X-API-KEY\n  applies_to: Fellow Developer REST API\n  docs: https://developers.fellow.ai/reference/authentication-1\n  notes: >-\n    Personal API keys are generated per user under User Settings -> Developer API.\n    Keys are shown once and stored hashed. Multiple keys per user are supported\n    (one per application recommended for selective revocation). Keys may be issued\n    with \"privileged access\" (super-admin) that widens read scope to the whole\n    workspace; write operations always remain scoped to the key owner. The API must\n    be enabled workspace-wide by an admin under Security settings. Missing/invalid\n\
   \    key returns 401 Unauthorized; a valid key without resource access returns 403.\n- name: MCPOAuth\n  type: oauth2\n  applies_to: Fellow hosted MCP server (https://fellow.app/mcp)\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://fellow.app/mcp/authorize\n    tokenUrl: https://fellow.app/mcp/token\n    registrationUrl: https://fellow.app/mcp/register\n    revocationUrl: https://fellow.app/mcp/revoke\n    pkce: S256\n    scopes:\n    - read_calendar\n    - read_meeting_content\n    - read_action_items\n    - read_channels\n    - write_meeting_agenda\n  source: well-known/fellow-oauth-authorization-server.json\naccess_model: >-\n  Both mechanisms enforce Fellow's in-app access rules: an API key or MCP token can\n  only reach resources the owner can already access in the Fellow interface\n  (attendee of the event, explicitly shared, or in a channel where the object was\n  published).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/authentication/fellow-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fellow/authentication/fellow-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company

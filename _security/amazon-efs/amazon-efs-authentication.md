@@ -8,13 +8,37 @@ api_specs:
   label: Amazon EFS Mount Targets API
   slug: amazon-efs-mount-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-efs/refs/heads/main/openapi/amazon-efs-mount-targets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-efs/openapi/amazon-efs-mount-targets-api-openapi.yml
 - filename: amazon-efs-filesystems-api-openapi.yml
   format: yaml
   label: Amazon EFS Filesystems API
   slug: amazon-efs-filesystems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-efs/refs/heads/main/openapi/amazon-efs-filesystems-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-efs/openapi/amazon-efs-filesystems-api-openapi.yml
+- filename: amazon-efs-access-points-api-openapi.yml
+  format: yaml
+  label: Amazon EFS Efs Access Points API
+  slug: amazon-efs-access-points-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-efs/openapi/amazon-efs-access-points-api-openapi.yml
+- filename: amazon-efs-operations-api-openapi.yml
+  format: yaml
+  label: Amazon EFS Efs Operations API
+  slug: amazon-efs-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-efs/openapi/amazon-efs-operations-api-openapi.yml
+- filename: amazon-efs-policy-api-openapi.yml
+  format: yaml
+  label: Amazon EFS Efs Policy API
+  slug: amazon-efs-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-efs/openapi/amazon-efs-policy-api-openapi.yml
+- filename: amazon-efs-resource-tags-api-openapi.yml
+  format: yaml
+  label: Amazon EFS Efs Resource Tags API
+  slug: amazon-efs-resource-tags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-efs/openapi/amazon-efs-resource-tags-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +66,7 @@ source_filename: amazon-efs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-efs-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: aws_sigv4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4 authentication.\n  sources:\n  - openapi/amazon-efs-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-efs/refs/heads/main/authentication/amazon-efs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-efs/authentication/amazon-efs-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Amazon Web Services

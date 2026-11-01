@@ -5,37 +5,37 @@ api_specs:
   label: Albato Automations API
   slug: albato-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-automations-api-openapi.yml
+  url: https://artifacts.apis.io/albato/openapi/albato-automations-api-openapi.yml
 - filename: albato-connectors-api-openapi.yml
   format: yaml
   label: Albato Connectors API
   slug: albato-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/albato/openapi/albato-connectors-api-openapi.yml
 - filename: albato-executions-api-openapi.yml
   format: yaml
   label: Albato Executions API
   slug: albato-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-executions-api-openapi.yml
+  url: https://artifacts.apis.io/albato/openapi/albato-executions-api-openapi.yml
 - filename: albato-teams-api-openapi.yml
   format: yaml
   label: Albato Teams API
   slug: albato-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-teams-api-openapi.yml
+  url: https://artifacts.apis.io/albato/openapi/albato-teams-api-openapi.yml
 - filename: albato-templates-api-openapi.yml
   format: yaml
   label: Albato Templates API
   slug: albato-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-templates-api-openapi.yml
+  url: https://artifacts.apis.io/albato/openapi/albato-templates-api-openapi.yml
 - filename: albato-users-api-openapi.yml
   format: yaml
   label: Albato Users API
   slug: albato-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-users-api-openapi.yml
+  url: https://artifacts.apis.io/albato/openapi/albato-users-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -54,7 +54,7 @@ source_filename: albato-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://albato.com/security\nurl: https://albato.com/security\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://albato.com/security\n  keywords:\n  - soc 2\n  - iso 27001\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/security/albato-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/albato/security/albato-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - No-Code Automation

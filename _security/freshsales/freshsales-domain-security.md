@@ -5,73 +5,73 @@ api_specs:
   label: Freshsales Appointments API
   slug: freshsales-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-appointments-api-openapi.yml
 - filename: freshsales-calls-api-openapi.yml
   format: yaml
   label: Freshsales Calls API
   slug: freshsales-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-calls-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-calls-api-openapi.yml
 - filename: freshsales-contacts-api-openapi.yml
   format: yaml
   label: Freshsales Contacts API
   slug: freshsales-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-contacts-api-openapi.yml
 - filename: freshsales-deals-api-openapi.yml
   format: yaml
   label: Freshsales Deals API
   slug: freshsales-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-deals-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-deals-api-openapi.yml
 - filename: freshsales-jobs-api-openapi.yml
   format: yaml
   label: Freshsales Jobs API
   slug: freshsales-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-jobs-api-openapi.yml
 - filename: freshsales-lists-api-openapi.yml
   format: yaml
   label: Freshsales Lists API
   slug: freshsales-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-lists-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-lists-api-openapi.yml
 - filename: freshsales-notes-api-openapi.yml
   format: yaml
   label: Freshsales Notes API
   slug: freshsales-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-notes-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-notes-api-openapi.yml
 - filename: freshsales-products-api-openapi.yml
   format: yaml
   label: Freshsales Products API
   slug: freshsales-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-products-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-products-api-openapi.yml
 - filename: freshsales-search-api-openapi.yml
   format: yaml
   label: Freshsales Search API
   slug: freshsales-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-search-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-search-api-openapi.yml
 - filename: freshsales-tasks-api-openapi.yml
   format: yaml
   label: Freshsales Tasks API
   slug: freshsales-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-tasks-api-openapi.yml
 - filename: freshsales-sales-accounts-api-openapi.yml
   format: yaml
   label: Freshsales Sales Accounts API
   slug: freshsales-sales-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-sales-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-sales-accounts-api-openapi.yml
 - filename: freshsales-sales-activities-api-openapi.yml
   format: yaml
   label: Freshsales Sales Activities API
   slug: freshsales-sales-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-sales-activities-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-sales-activities-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -116,7 +116,7 @@ source_filename: freshsales-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.freshworks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 10:30:03 2026 GMT\n  hsts: null\n- host: developers.freshworks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: <bundle-alias>.myfreshworks.com\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''<bundle-ali'\n  hsts: null\ndomains:\n- domain: freshworks.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: myfreshworks.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/security/freshsales-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/freshsales/security/freshsales-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - CRM

@@ -5,31 +5,31 @@ api_specs:
   label: University of Southampton Catalogue API
   slug: university-of-southampton-catalogue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/openapi/university-of-southampton-catalogue-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-southampton/openapi/university-of-southampton-catalogue-api-openapi.yml
 - filename: university-of-southampton-datasets-api-openapi.yml
   format: yaml
   label: University of Southampton Datasets API
   slug: university-of-southampton-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/openapi/university-of-southampton-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-southampton/openapi/university-of-southampton-datasets-api-openapi.yml
 - filename: university-of-southampton-eprints-api-openapi.yml
   format: yaml
   label: University of Southampton Eprints API
   slug: university-of-southampton-eprints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/openapi/university-of-southampton-eprints-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-southampton/openapi/university-of-southampton-eprints-api-openapi.yml
 - filename: university-of-southampton-oai-pmh-api-openapi.yml
   format: yaml
   label: University of Southampton OAI PMH API
   slug: university-of-southampton-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/openapi/university-of-southampton-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-southampton/openapi/university-of-southampton-oai-pmh-api-openapi.yml
 - filename: university-of-southampton-resources-api-openapi.yml
   format: yaml
   label: University of Southampton Resources API
   slug: university-of-southampton-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/openapi/university-of-southampton-resources-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-southampton/openapi/university-of-southampton-resources-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +71,7 @@ source_filename: university-of-southampton-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.southampton.ac.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: data.southampton.ac.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 04:23:48 2026 GMT\n  hsts: true\n  hsts_max_age: 10886400\n- host: sparql.data.southampton.ac.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 06:09:18 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: southampton.ac.uk\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/security/university-of-southampton-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/university-of-southampton/security/university-of-southampton-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - University

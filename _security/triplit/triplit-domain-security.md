@@ -5,37 +5,37 @@ api_specs:
   label: Triplit Advanced API
   slug: triplit-advanced-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triplit/refs/heads/main/openapi/triplit-advanced-api-openapi.yml
+  url: https://artifacts.apis.io/triplit/openapi/triplit-advanced-api-openapi.yml
 - filename: triplit-auth-api-openapi.yml
   format: yaml
   label: Triplit Auth API
   slug: triplit-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triplit/refs/heads/main/openapi/triplit-auth-api-openapi.yml
+  url: https://artifacts.apis.io/triplit/openapi/triplit-auth-api-openapi.yml
 - filename: triplit-data-api-openapi.yml
   format: yaml
   label: Triplit Data API
   slug: triplit-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triplit/refs/heads/main/openapi/triplit-data-api-openapi.yml
+  url: https://artifacts.apis.io/triplit/openapi/triplit-data-api-openapi.yml
 - filename: triplit-schema-api-openapi.yml
   format: yaml
   label: Triplit Schema API
   slug: triplit-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triplit/refs/heads/main/openapi/triplit-schema-api-openapi.yml
+  url: https://artifacts.apis.io/triplit/openapi/triplit-schema-api-openapi.yml
 - filename: triplit-system-api-openapi.yml
   format: yaml
   label: Triplit System API
   slug: triplit-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triplit/refs/heads/main/openapi/triplit-system-api-openapi.yml
+  url: https://artifacts.apis.io/triplit/openapi/triplit-system-api-openapi.yml
 - filename: triplit-webhooks-api-openapi.yml
   format: yaml
   label: Triplit Webhooks API
   slug: triplit-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triplit/refs/heads/main/openapi/triplit-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/triplit/openapi/triplit-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -70,7 +70,7 @@ source_filename: triplit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.triplit.dev\n  https: false\n- host: <project-id>.triplit.io\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''<project-id'\n  hsts: null\ndomains:\n- domain: triplit.dev\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: false\n- domain: triplit.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/triplit/refs/heads/main/security/triplit-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/triplit/security/triplit-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Database

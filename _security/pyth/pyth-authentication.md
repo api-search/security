@@ -7,31 +7,31 @@ api_specs:
   label: Pyth Price Differences API
   slug: pyth-price-differences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pyth/refs/heads/main/openapi/pyth-price-differences-api-openapi.yml
+  url: https://artifacts.apis.io/pyth/openapi/pyth-price-differences-api-openapi.yml
 - filename: pyth-price-feeds-api-openapi.yml
   format: yaml
   label: Pyth Price Feeds API
   slug: pyth-price-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pyth/refs/heads/main/openapi/pyth-price-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/pyth/openapi/pyth-price-feeds-api-openapi.yml
 - filename: pyth-rest-api-openapi.yml
   format: yaml
   label: Pyth Rest API
   slug: pyth-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pyth/refs/heads/main/openapi/pyth-rest-api-openapi.yml
+  url: https://artifacts.apis.io/pyth/openapi/pyth-rest-api-openapi.yml
 - filename: pyth-tradingview-api-openapi.yml
   format: yaml
   label: Pyth TradingView API
   slug: pyth-tradingview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pyth/refs/heads/main/openapi/pyth-tradingview-api-openapi.yml
+  url: https://artifacts.apis.io/pyth/openapi/pyth-tradingview-api-openapi.yml
 - filename: pyth-updates-api-openapi.yml
   format: yaml
   label: Pyth Updates API
   slug: pyth-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pyth/refs/heads/main/openapi/pyth-updates-api-openapi.yml
+  url: https://artifacts.apis.io/pyth/openapi/pyth-updates-api-openapi.yml
 auth_types:
 - none
 - http
@@ -67,7 +67,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://docs.pyth.network/price-feeds/pro/acquire-api-key, docs.pyth.network/SKILL.md\ndocs: https://docs.pyth.network/price-feeds/pro/acquire-api-key\nsummary:\n  types: [none, http]\n  http_schemes: [bearer]\n  note: >-\n    Read APIs are historically public. Pyth Pro (Lazer) and the MCP/history endpoints use a\n    Bearer API key. The Hermes public price API is scheduled to require a Pyth API key from\n    2026-08-18.\nschemes:\n  - name: HermesPublic\n    type: none\n    applies_to: openapi/pyth-hermes-openapi-original.json\n    description: >-\n      Hermes REST/SSE endpoints are currently public (rate-limited, no auth in the OpenAPI).\n      An API key becomes required 2026-08-18 (see lifecycle/pyth-lifecycle.yml).\n  - name: BenchmarksPublic\n    type: none\n    applies_to: openapi/pyth-benchmarks-openapi-original.json\n    description: Benchmarks (historical / TradingView shim) endpoints are public; no securityScheme\
   \ declared.\n  - name: PythProBearer\n    type: http\n    scheme: bearer\n    applies_to: Pyth Pro (Lazer) WebSocket + authenticated HTTP (History/REST) + MCP price tools\n    description: >-\n      API key issued from the Pyth Terminal (https://pythdata.app -> View your API key), passed as\n      `Authorization: Bearer {key}`. In the MCP server it is passed as the `access_token` argument.\n      Provider guidance: never embed the key in browser/frontend apps — proxy through your backend.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pyth/refs/heads/main/authentication/pyth-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pyth/authentication/pyth-authentication.yml
 summary_line: none/http · 3 schemes
 tags:
 - Company

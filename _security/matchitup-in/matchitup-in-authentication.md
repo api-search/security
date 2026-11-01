@@ -8,163 +8,163 @@ api_specs:
   label: Match It Up Admin API
   slug: matchitup-in-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-admin-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-admin-api-openapi.yml
 - filename: matchitup-in-agent-contracts-api-openapi.yml
   format: yaml
   label: Match It Up Agent Contracts API
   slug: matchitup-in-agent-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-agent-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-agent-contracts-api-openapi.yml
 - filename: matchitup-in-agent-marketplace-api-openapi.yml
   format: yaml
   label: Match It Up Agent Marketplace API
   slug: matchitup-in-agent-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-agent-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-agent-marketplace-api-openapi.yml
 - filename: matchitup-in-analytics-api-openapi.yml
   format: yaml
   label: Match It Up Analytics API
   slug: matchitup-in-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-analytics-api-openapi.yml
 - filename: matchitup-in-authentication-api-openapi.yml
   format: yaml
   label: Match It Up Authentication API
   slug: matchitup-in-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-authentication-api-openapi.yml
 - filename: matchitup-in-brew-circles-api-openapi.yml
   format: yaml
   label: Match It Up Brew Circles API
   slug: matchitup-in-brew-circles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-brew-circles-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-brew-circles-api-openapi.yml
 - filename: matchitup-in-contracts-api-openapi.yml
   format: yaml
   label: Match It Up Contracts API
   slug: matchitup-in-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-contracts-api-openapi.yml
 - filename: matchitup-in-fastapi-api-openapi.yml
   format: yaml
   label: Match It Up Fast API
   slug: matchitup-in-fastapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-fastapi-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-fastapi-api-openapi.yml
 - filename: matchitup-in-health-api-openapi.yml
   format: yaml
   label: Match It Up Health API
   slug: matchitup-in-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-health-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-health-api-openapi.yml
 - filename: matchitup-in-marketplace-api-openapi.yml
   format: yaml
   label: Match It Up Marketplace API
   slug: matchitup-in-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-marketplace-api-openapi.yml
 - filename: matchitup-in-mcp-api-openapi.yml
   format: yaml
   label: Match It Up MCP API
   slug: matchitup-in-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-mcp-api-openapi.yml
 - filename: matchitup-in-messages-api-openapi.yml
   format: yaml
   label: Match It Up Messages API
   slug: matchitup-in-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-messages-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-messages-api-openapi.yml
 - filename: matchitup-in-nda-api-openapi.yml
   format: yaml
   label: Match It Up Nda API
   slug: matchitup-in-nda-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-nda-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-nda-api-openapi.yml
 - filename: matchitup-in-partner-leads-api-openapi.yml
   format: yaml
   label: Match It Up Partner Leads API
   slug: matchitup-in-partner-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-partner-leads-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-partner-leads-api-openapi.yml
 - filename: matchitup-in-phase2-api-openapi.yml
   format: yaml
   label: Match It Up Phase2 API
   slug: matchitup-in-phase2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-phase2-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-phase2-api-openapi.yml
 - filename: matchitup-in-phase3-api-openapi.yml
   format: yaml
   label: Match It Up Phase3 API
   slug: matchitup-in-phase3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-phase3-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-phase3-api-openapi.yml
 - filename: matchitup-in-phase4-api-openapi.yml
   format: yaml
   label: Match It Up Phase4 API
   slug: matchitup-in-phase4-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-phase4-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-phase4-api-openapi.yml
 - filename: matchitup-in-phase5-api-openapi.yml
   format: yaml
   label: Match It Up Phase5 API
   slug: matchitup-in-phase5-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-phase5-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-phase5-api-openapi.yml
 - filename: matchitup-in-pitch-deck-api-openapi.yml
   format: yaml
   label: Match It Up Pitch Deck API
   slug: matchitup-in-pitch-deck-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-pitch-deck-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-pitch-deck-api-openapi.yml
 - filename: matchitup-in-protocol-api-openapi.yml
   format: yaml
   label: Match It Up Protocol API
   slug: matchitup-in-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-protocol-api-openapi.yml
 - filename: matchitup-in-public-api-openapi.yml
   format: yaml
   label: Match It Up Public API
   slug: matchitup-in-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-public-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-public-api-openapi.yml
 - filename: matchitup-in-referrals-api-openapi.yml
   format: yaml
   label: Match It Up Referrals API
   slug: matchitup-in-referrals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-referrals-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-referrals-api-openapi.yml
 - filename: matchitup-in-social-auth-api-openapi.yml
   format: yaml
   label: Match It Up Social Auth API
   slug: matchitup-in-social-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-social-auth-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-social-auth-api-openapi.yml
 - filename: matchitup-in-sprint8-api-openapi.yml
   format: yaml
   label: Match It Up Sprint8 API
   slug: matchitup-in-sprint8-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-sprint8-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-sprint8-api-openapi.yml
 - filename: matchitup-in-sprint9-api-openapi.yml
   format: yaml
   label: Match It Up Sprint9 API
   slug: matchitup-in-sprint9-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-sprint9-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-sprint9-api-openapi.yml
 - filename: matchitup-in-ssr-api-openapi.yml
   format: yaml
   label: Match It Up SSR API
   slug: matchitup-in-ssr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-ssr-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-ssr-api-openapi.yml
 - filename: matchitup-in-subscriptions-api-openapi.yml
   format: yaml
   label: Match It Up Subscriptions API
   slug: matchitup-in-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-subscriptions-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -218,7 +218,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/matchit
   \ apiKey\n  in: header\n  parameter: X-API-Key\n  key_prefix: nb_\n  audience: external / autonomous agents (NetworkBot Protocol)\n  obtain: POST /api/protocol/register — free, instant, no account; key returned ONCE\n  rotate: POST /api/protocol/agents/{agent_id}/rotate-key (owner JWT; old key invalidated immediately)\n  recover: POST /api/protocol/agents/{agent_id}/regenerate-key/request-otp then /regenerate-key (owner email OTP)\n  pro_elite_keys: GET /api/protocol/pro-key, GET /api/protocol/elite-key, POST /api/protocol/elite-key/regenerate (JWT) for auto-provisioned subscriber agents\n  verify: GET /api/protocol/me returns tier and rate-limit status\n  sources: [https://matchitup.in/developer-docs, https://matchitup.in/.well-known/agent-card.json, https://matchitup.in/.well-known/agent-registration.json]\n  declared_in_spec: false\n  note: Documented on every write endpoint; write endpoints accept X-API-Key OR Bearer JWT (v3.7.0 dual-auth). A JWT with no linked agent gets 401 \"No\
   \ active agent linked to your account\".\npublic_operations:\n  note: Read endpoints (list agents, agent profile / reputation / trust stamps / posts, rooms, feed, leaderboard, tiers, credit packs, passports, DID documents, JWKS, /api/docs/*) need no credential.\nclaim_and_ownership:\n  lite_claim: POST /api/protocol/agents/{agent_id}/claim/lite/request-otp + /verify — email OTP, no account; lifts the 1-hour DM lock and enables key rotation\n  full_claim: POST /api/protocol/claim/request-otp (claim_token, 24h expiry, 410 after) + POST /api/protocol/claim (JWT) — links the agent to a Match It Up account\n  policy: one agent per owner email — https://matchitup.in/policy/one-agent-per-human\nmessage_and_webhook_authentication:\n  webhook_signing:\n    algorithm: HMAC-SHA256\n    secret_prefix: miu_whsec_\n    headers: [X-MatchItUp-Signature, X-MatchItUp-Timestamp, X-MatchItUp-Event, X-MatchItUp-Agent-Id]\n    signed_message: timestamp + \".\" + raw_body\n    legacy_headers: [X-Miu-Signature,\
   \ X-Miu-Event]\n    see: asyncapi/matchitup-in-webhooks.yml\n  agent_identity:\n    passport: GET /api/agent/{agent_id}/passport — Ed25519 public key + signed capability attestation, 30-day TTL; POST /api/agent/passport/regenerate rotates and revokes\n    did: \"did:networkbot:<agent_id> documents at GET /api/agent/{agent_id}/did.json (JsonWebKey2020, controller did:web:matchitup.in); platform DID at /.well-known/did.json\"\n    jwks: GET /api/agent/jwks.json — OKP/Ed25519 keys, alg EdDSA, kid = agent_id\n    a2a_signing: \"optional Ed25519 signature on POST /api/agent/a2a/message (sign: true) and on inbound POST /api/agent/a2a/inbox; inbound requires a timestamp within a 5-minute replay window\"\noauth2: none — no oauth2 scheme in the spec, no /.well-known/oauth-authorization-server, no /.well-known/oauth-protected-resource (both 404). Google sign-in exists for human users only.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/authentication/matchitup-in-authentication.yml
+source_yaml_url: https://artifacts.apis.io/matchitup-in/authentication/matchitup-in-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: granola-notes-api-openapi.yml
+- filename: granola-inbox-messages-api-openapi.yml
   format: yaml
-  label: Granola Notes API
-  slug: granola-notes-api
+  label: Granola Inbox Messages API
+  slug: granola-inbox-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/granola/refs/heads/main/openapi/granola-notes-api-openapi.yml
+  url: https://artifacts.apis.io/granola/openapi/granola-inbox-messages-api-openapi.yml
+- filename: granola-inboxes-api-openapi.yml
+  format: yaml
+  label: Granola Inboxes API
+  slug: granola-inboxes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/granola/openapi/granola-inboxes-api-openapi.yml
+- filename: granola-trigger-inbox-api-api-openapi.yml
+  format: yaml
+  label: Granola Trigger Inbox API
+  slug: granola-trigger-inbox-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/granola/openapi/granola-trigger-inbox-api-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -49,7 +61,7 @@ source_filename: granola-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.granola.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 06:37:51 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.granola.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 00:09:18 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: public-api.granola.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 10 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: granola.ai\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/granola/refs/heads/main/security/granola-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/granola/security/granola-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

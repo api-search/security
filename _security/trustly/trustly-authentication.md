@@ -7,73 +7,73 @@ api_specs:
   label: Trustly Group Accounts API
   slug: trustly-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/trustly/openapi/trustly-accounts-api-openapi.yml
 - filename: trustly-api-api-openapi.yml
   format: yaml
   label: Trustly Group API
   slug: trustly-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-api-api-openapi.yml
+  url: https://artifacts.apis.io/trustly/openapi/trustly-api-api-openapi.yml
 - filename: trustly-countries-api-openapi.yml
   format: yaml
   label: Trustly Group Countries API
   slug: trustly-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-countries-api-openapi.yml
+  url: https://artifacts.apis.io/trustly/openapi/trustly-countries-api-openapi.yml
 - filename: trustly-customers-api-openapi.yml
   format: yaml
   label: Trustly Group Customers API
   slug: trustly-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-customers-api-openapi.yml
+  url: https://artifacts.apis.io/trustly/openapi/trustly-customers-api-openapi.yml
 - filename: trustly-identity-api-openapi.yml
   format: yaml
   label: Trustly Group Identity API
   slug: trustly-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-identity-api-openapi.yml
+  url: https://artifacts.apis.io/trustly/openapi/trustly-identity-api-openapi.yml
 - filename: trustly-networkcheckapi-api-openapi.yml
   format: yaml
   label: Trustly Group Network Check API
   slug: trustly-networkcheckapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-networkcheckapi-api-openapi.yml
+  url: https://artifacts.apis.io/trustly/openapi/trustly-networkcheckapi-api-openapi.yml
 - filename: trustly-payments-api-openapi.yml
   format: yaml
   label: Trustly Group Payments API
   slug: trustly-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-payments-api-openapi.yml
+  url: https://artifacts.apis.io/trustly/openapi/trustly-payments-api-openapi.yml
 - filename: trustly-transactions-api-openapi.yml
   format: yaml
   label: Trustly Group Transactions API
   slug: trustly-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/trustly/openapi/trustly-transactions-api-openapi.yml
 - filename: trustly-verifycustomer-api-openapi.yml
   format: yaml
   label: Trustly Group Verify Customer API
   slug: trustly-verifycustomer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-verifycustomer-api-openapi.yml
+  url: https://artifacts.apis.io/trustly/openapi/trustly-verifycustomer-api-openapi.yml
 - filename: trustly-account-data-api-openapi.yml
   format: yaml
   label: Trustly Group Account Data API
   slug: trustly-account-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-account-data-api-openapi.yml
+  url: https://artifacts.apis.io/trustly/openapi/trustly-account-data-api-openapi.yml
 - filename: trustly-dispute-management-api-openapi.yml
   format: yaml
   label: Trustly Group Dispute Management API
   slug: trustly-dispute-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-dispute-management-api-openapi.yml
+  url: https://artifacts.apis.io/trustly/openapi/trustly-dispute-management-api-openapi.yml
 - filename: trustly-payment-providers-api-openapi.yml
   format: yaml
   label: Trustly Group Payment Providers API
   slug: trustly-payment-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-payment-providers-api-openapi.yml
+  url: https://artifacts.apis.io/trustly/openapi/trustly-payment-providers-api-openapi.yml
 auth_types:
 - http
 - signature
@@ -141,7 +141,7 @@ source_yaml: "generated: '2026-09-18'\nmethod: searched\nsource: openapi/trustly
   \ the present parameters in the documented fixed order (accessId, merchantId, description, currency, amount, ... transactionId, onlinePPSubtype), HMAC with accessKey, Base64-encode\n  required_for: production API requests and SDK operations (POST /establish and the Lightbox establishData)\n  docs: https://amer.developers.trustly.com/integrate/api-fundamentals/secure-requests-and-signature-validation/generate-request-signatures\n- name: webhookAuthorization\n  type: signature\n  surface: Trustly North America API\n  direction: inbound (Trustly -> merchant)\n  location: Authorization header (Basic <base64>) on event-notification POSTs; validate before trusting the event\n  docs: https://amer.developers.trustly.com/integrate/api-fundamentals/secure-requests-and-signature-validation/validate-the-notification-signature\n- name: JSONRPCCredentials\n  type: http\n  scheme: custom\n  surface: Trustly Europe API\n  credentials: Username and Password of the processing account, sent inside every\
   \ JSON-RPC Data object (test and live accounts have different passwords)\n  docs: https://docs.trustly.com/api/api-protocol\n- name: RSASignature\n  type: signature\n  surface: Trustly Europe API\n  algorithm: RSA over SHA-1 (default) or SHA-256/384/512 with prefix alg=RS256; / alg=RS384; / alg=RS512;\n  key: merchant-generated 2048-bit RSA key pair (openssl genrsa); public.pem is registered with Trustly's integration team\n  canonicalisation: Base64(sign(Method + UUID + serialise(Data))) where serialise concatenates all scalars, hash keys/values and array values sorted ASCIIbetically, null as empty string\n  reciprocal: Trustly signs every response and every notification with its own private key; merchants verify with the published TEST / LIVE public keys\n  transport: TLS 1.2 or later only; certificates rotate at least yearly without notice, so do not pin\n  docs: https://docs.trustly.com/api/authentication\ntools:\n- name: Signature tester\n  url: https://docs.trustly.com/api/signature-tester\n\
   - name: Notification tool\n  url: https://docs.trustly.com/api/notification-tool\ndocs_pages:\n- https://amer.developers.trustly.com/integrate/api-fundamentals/secure-requests-and-signature-validation/generate-request-signatures\n- https://amer.developers.trustly.com/integrate/core-concepts/webhooks-and-events\n- https://docs.trustly.com/api/authentication\n- https://docs.trustly.com/api/security\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/authentication/trustly-authentication.yml
+source_yaml_url: https://artifacts.apis.io/trustly/authentication/trustly-authentication.yml
 summary_line: http/signature · 5 schemes
 tags:
 - Company

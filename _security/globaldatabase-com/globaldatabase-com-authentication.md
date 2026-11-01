@@ -8,85 +8,85 @@ api_specs:
   label: Global Database Autocomplete API
   slug: globaldatabase-com-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-autocomplete-api-openapi.yml
 - filename: globaldatabase-com-company-by-linkedin-api-openapi.yml
   format: yaml
   label: Global Database Company By Linkedin API
   slug: globaldatabase-com-company-by-linkedin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-company-by-linkedin-api-openapi.yml
+  url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-company-by-linkedin-api-openapi.yml
 - filename: globaldatabase-com-company-by-url-api-openapi.yml
   format: yaml
   label: Global Database Company By Url API
   slug: globaldatabase-com-company-by-url-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-company-by-url-api-openapi.yml
+  url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-company-by-url-api-openapi.yml
 - filename: globaldatabase-com-company-details-api-openapi.yml
   format: yaml
   label: Global Database Company Details API
   slug: globaldatabase-com-company-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-company-details-api-openapi.yml
+  url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-company-details-api-openapi.yml
 - filename: globaldatabase-com-company-financials-api-openapi.yml
   format: yaml
   label: Global Database Company Financials API
   slug: globaldatabase-com-company-financials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-company-financials-api-openapi.yml
+  url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-company-financials-api-openapi.yml
 - filename: globaldatabase-com-company-ownership-api-openapi.yml
   format: yaml
   label: Global Database Company Ownership API
   slug: globaldatabase-com-company-ownership-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-company-ownership-api-openapi.yml
+  url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-company-ownership-api-openapi.yml
 - filename: globaldatabase-com-fastapi-api-openapi.yml
   format: yaml
   label: Global Database Fast API
   slug: globaldatabase-com-fastapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-fastapi-api-openapi.yml
+  url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-fastapi-api-openapi.yml
 - filename: globaldatabase-com-health-api-openapi.yml
   format: yaml
   label: Global Database Health API
   slug: globaldatabase-com-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-health-api-openapi.yml
+  url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-health-api-openapi.yml
 - filename: globaldatabase-com-nomenclature-api-openapi.yml
   format: yaml
   label: Global Database Nomenclature API
   slug: globaldatabase-com-nomenclature-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-nomenclature-api-openapi.yml
+  url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-nomenclature-api-openapi.yml
 - filename: globaldatabase-com-oauth-api-openapi.yml
   format: yaml
   label: Global Database OAuth API
   slug: globaldatabase-com-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-oauth-api-openapi.yml
 - filename: globaldatabase-com-playground-api-openapi.yml
   format: yaml
   label: Global Database Playground API
   slug: globaldatabase-com-playground-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-playground-api-openapi.yml
+  url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-playground-api-openapi.yml
 - filename: globaldatabase-com-prospecting-api-openapi.yml
   format: yaml
   label: Global Database Prospecting API
   slug: globaldatabase-com-prospecting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-prospecting-api-openapi.yml
+  url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-prospecting-api-openapi.yml
 - filename: globaldatabase-com-verify-token-api-openapi.yml
   format: yaml
   label: Global Database Verify Token API
   slug: globaldatabase-com-verify-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-verify-token-api-openapi.yml
+  url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-verify-token-api-openapi.yml
 - filename: globaldatabase-com-well-known-api-openapi.yml
   format: yaml
   label: Global Database .well Known API
   slug: globaldatabase-com-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-well-known-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -156,7 +156,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://api.glo
   \ 'https://api.globaldatabase.com/v2/ai/query (Regis AI query)']\n  challenge_observed: 'WWW-Authenticate: Token'\n  error_shape: '{\"detail\": \"Authentication credentials were not provided.\"} (401); docs name the invalid-token case TokenVerificationError -> {\"detail\": \"Invalid token\"}.'\n  sources: [https://api.globaldatabase.com/docs/v2/#authentication, live 401 probe 2026-09-19]\n- name: McpOAuth\n  type: oauth2\n  description: >-\n    OAuth 2.1 authorization-code flow with PKCE (S256) and RFC 7591 dynamic client registration,\n    fronting the MCP endpoint. Metadata is published per RFC 8414 and RFC 9728 on the MCP host.\n  flows:\n  - flow: authorizationCode\n    authorization_server: https://mcp.globaldatabase.com/\n    authorization_endpoint: https://mcp.globaldatabase.com/authorize\n    token_endpoint: https://mcp.globaldatabase.com/token\n    registration_endpoint: https://mcp.globaldatabase.com/register\n    pkce: S256\n    grant_types: [authorization_code, refresh_token]\n\
   \    token_endpoint_auth_methods: [client_secret_post, client_secret_basic]\n    scopes: []\n    scopes_note: 'scopes_supported is an empty array; clients must request no scope (README: a non-empty scope fails the token request in Copilot Studio).'\n    bearer_methods: [header]\n    resource: https://mcp.globaldatabase.com/mcp\n  applies_to: [https://mcp.globaldatabase.com/mcp]\n  sources: [well-known/globaldatabase-com-mcp-oauth-authorization-server.json, well-known/globaldatabase-com-mcp-oauth-protected-resource.json, https://github.com/global-database/mcp-server#authentication]\nsecurity_headers_observed:\n  api_host: [x-frame-options DENY, x-content-type-options nosniff, referrer-policy same-origin, cross-origin-opener-policy same-origin, 'strict-transport-security max-age=15724800; includeSubDomains']\n  mcp_host: [x-frame-options DENY, x-content-type-options nosniff, referrer-policy strict-origin-when-cross-origin, 'content-security-policy default-src ''self'' ...', 'strict-transport-security\
   \ max-age=15724800; includeSubDomains']\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/authentication/globaldatabase-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/globaldatabase-com/authentication/globaldatabase-com-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company

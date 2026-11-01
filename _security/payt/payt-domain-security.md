@@ -5,121 +5,121 @@ api_specs:
   label: Payt Administrations API
   slug: payt-administrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-administrations-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-administrations-api-openapi.yml
 - filename: payt-companies-api-openapi.yml
   format: yaml
   label: Payt Companies API
   slug: payt-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-companies-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-companies-api-openapi.yml
 - filename: payt-contacts-api-openapi.yml
   format: yaml
   label: Payt Contacts API
   slug: payt-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-contacts-api-openapi.yml
 - filename: payt-credit-cases-api-openapi.yml
   format: yaml
   label: Payt Credit Cases API
   slug: payt-credit-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-credit-cases-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-credit-cases-api-openapi.yml
 - filename: payt-debtors-api-openapi.yml
   format: yaml
   label: Payt Debtors API
   slug: payt-debtors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-debtors-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-debtors-api-openapi.yml
 - filename: payt-files-api-openapi.yml
   format: yaml
   label: Payt Files API
   slug: payt-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-files-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-files-api-openapi.yml
 - filename: payt-invoices-api-openapi.yml
   format: yaml
   label: Payt Invoices API
   slug: payt-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-invoices-api-openapi.yml
 - filename: payt-messages-api-openapi.yml
   format: yaml
   label: Payt Messages API
   slug: payt-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-messages-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-messages-api-openapi.yml
 - filename: payt-notes-api-openapi.yml
   format: yaml
   label: Payt Notes API
   slug: payt-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-notes-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-notes-api-openapi.yml
 - filename: payt-notifications-api-openapi.yml
   format: yaml
   label: Payt Notifications API
   slug: payt-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-notifications-api-openapi.yml
 - filename: payt-order-lines-api-openapi.yml
   format: yaml
   label: Payt Order Lines API
   slug: payt-order-lines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-order-lines-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-order-lines-api-openapi.yml
 - filename: payt-orders-api-openapi.yml
   format: yaml
   label: Payt Orders API
   slug: payt-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-orders-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-orders-api-openapi.yml
 - filename: payt-payment-conditions-api-openapi.yml
   format: yaml
   label: Payt Payment Conditions API
   slug: payt-payment-conditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-payment-conditions-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-payment-conditions-api-openapi.yml
 - filename: payt-payment-plans-api-openapi.yml
   format: yaml
   label: Payt Payment Plans API
   slug: payt-payment-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-payment-plans-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-payment-plans-api-openapi.yml
 - filename: payt-payments-api-openapi.yml
   format: yaml
   label: Payt Payments API
   slug: payt-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-payments-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-payments-api-openapi.yml
 - filename: payt-psp-mandates-api-openapi.yml
   format: yaml
   label: Payt Psp Mandates API
   slug: payt-psp-mandates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-psp-mandates-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-psp-mandates-api-openapi.yml
 - filename: payt-psp-transactions-api-openapi.yml
   format: yaml
   label: Payt Psp Transactions API
   slug: payt-psp-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-psp-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-psp-transactions-api-openapi.yml
 - filename: payt-tasks-api-openapi.yml
   format: yaml
   label: Payt Tasks API
   slug: payt-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-tasks-api-openapi.yml
 - filename: payt-vat-rates-api-openapi.yml
   format: yaml
   label: Payt Vat Rates API
   slug: payt-vat-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-vat-rates-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-vat-rates-api-openapi.yml
 - filename: payt-signup-api-openapi.yml
   format: yaml
   label: Payt Signup API
   slug: payt-signup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-signup-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-signup-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -162,7 +162,7 @@ source_filename: payt-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.paytsoftware.com\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get\n    local issuer certificate (_ssl.c:1082)'\n  hsts: null\n- host: api.paytsoftware.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 19 23:59:59 2026 GMT\n  hsts: null\n- host: demo-api.paytsoftware.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  6 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: paytsoftware.com\n  dnssec: true\n  caa:\n  - 0 iodef \"mailto:devops@paytsoftware.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/security/payt-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/payt/security/payt-domain-security.yml
 summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
 - Company

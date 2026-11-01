@@ -8,61 +8,61 @@ api_specs:
   label: Fintary Agents API
   slug: fintary-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-agents-api-openapi.yml
+  url: https://artifacts.apis.io/fintary/openapi/fintary-agents-api-openapi.yml
 - filename: fintary-ams-agents-api-openapi.yml
   format: yaml
   label: Fintary AMS - Agents API
   slug: fintary-ams-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-ams-agents-api-openapi.yml
+  url: https://artifacts.apis.io/fintary/openapi/fintary-ams-agents-api-openapi.yml
 - filename: fintary-ams-configs-api-openapi.yml
   format: yaml
   label: Fintary AMS - Configs API
   slug: fintary-ams-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-ams-configs-api-openapi.yml
+  url: https://artifacts.apis.io/fintary/openapi/fintary-ams-configs-api-openapi.yml
 - filename: fintary-ams-customers-api-openapi.yml
   format: yaml
   label: Fintary AMS - Customers API
   slug: fintary-ams-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-ams-customers-api-openapi.yml
+  url: https://artifacts.apis.io/fintary/openapi/fintary-ams-customers-api-openapi.yml
 - filename: fintary-ams-policies-api-openapi.yml
   format: yaml
   label: Fintary AMS - Policies API
   slug: fintary-ams-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-ams-policies-api-openapi.yml
+  url: https://artifacts.apis.io/fintary/openapi/fintary-ams-policies-api-openapi.yml
 - filename: fintary-ams-registry-api-openapi.yml
   format: yaml
   label: Fintary AMS - Registry API
   slug: fintary-ams-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-ams-registry-api-openapi.yml
+  url: https://artifacts.apis.io/fintary/openapi/fintary-ams-registry-api-openapi.yml
 - filename: fintary-ams-tasks-api-openapi.yml
   format: yaml
   label: Fintary AMS - Tasks API
   slug: fintary-ams-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-ams-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/fintary/openapi/fintary-ams-tasks-api-openapi.yml
 - filename: fintary-analytics-api-openapi.yml
   format: yaml
   label: Fintary Analytics API
   slug: fintary-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/fintary/openapi/fintary-analytics-api-openapi.yml
 - filename: fintary-commission-reports-api-openapi.yml
   format: yaml
   label: Fintary Commission Reports API
   slug: fintary-commission-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-commission-reports-api-openapi.yml
+  url: https://artifacts.apis.io/fintary/openapi/fintary-commission-reports-api-openapi.yml
 - filename: fintary-documents-api-openapi.yml
   format: yaml
   label: Fintary Documents API
   slug: fintary-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-documents-api-openapi.yml
+  url: https://artifacts.apis.io/fintary/openapi/fintary-documents-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: openapi/fintary
   \ `data_specialist` (named in the SSO\n    guides) - plus per-operation admin gates in the Open API, where `account_id` and\n    `contact_id` overrides are documented as \"Fintary Admin only\" or \"Fintary Admin or\n    Account Admin\".\nsso:\n  role: client\n  protocol: OAuth 2.0 authorization code\n  docs: https://api.fintary.com/documentation\n  self_service: false\n  note: >-\n    Distinct from API authentication. Fintary acts as the OAuth CLIENT against a customer's\n    identity provider: the user is redirected to the customer's authorization URL, the IdP\n    returns a code to Fintary's redirect URI, Fintary exchanges it at the customer's token\n    endpoint using client credentials the customer issues, then decodes the selected JWT and\n    reads claims. Fintary publishes no authorization server of its own and issues no\n    developer-facing scopes. Setup is performed by Fintary staff from configuration the\n    customer supplies.\n  variants:\n  - id: contact-sync-id-sso\n   \
   \ title: Contact Sync ID SSO\n    user_resolution: contact_sync_id\n    identity_claim: contact_id\n    role_claim: role\n    token_source: access_token or id_token\n    role_mapping: [account_admin, producer, data_specialist]\n    provisioning_flags: [createContactIfMissing, createUserIfMissing]\n    fallback: >-\n      userResolution.identityFallback = 'email' resolves the user by verified email when the\n      identity claim is absent; that path matches existing `users` records only and never\n      reads or writes `contacts`.\n    forwarded_entry: https://api.fintary.com/oauth/callback?code=<code>&provider=<provider_slug>\n  - id: email-sso\n    title: Email-based SSO\n    user_resolution: email\n    identity_claim: email\n    token_source: id_token first, falling back to access_token\n    provisioning: >-\n      Does not create users on the fly - users must be invited into Fintary in advance and\n      must be active, or login fails.\n  configuration_inputs:\n  - provider name/slug\n\
   \  - Fintary account (customer tenant) to map\n  - authorization URL\n  - token URL\n  - client ID and secret\n  - redirect URI(s)\n  - scopes and extra authorization parameters\n  - token endpoint content type (application/json or application/x-www-form-urlencoded)\ntransport:\n  https_only: true\n  hsts: 'max-age=63072000; includeSubDomains'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/authentication/fintary-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fintary/authentication/fintary-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

@@ -26,7 +26,7 @@ source_filename: abtis2772-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: abtis.co.kr\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 22 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: abtis.co.kr\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abtis2772/refs/heads/main/security/abtis2772-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/abtis2772/security/abtis2772-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Company

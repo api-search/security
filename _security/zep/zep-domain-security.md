@@ -39,7 +39,7 @@ source_filename: zep-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.getzep.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 19:26:38 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: help.getzep.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 15:36:15 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: api.getzep.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 15:36:15 2026 GMT\n  hsts: null\ndomains:\n- domain: getzep.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zep/refs/heads/main/security/zep-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zep/security/zep-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Memory

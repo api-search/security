@@ -5,31 +5,31 @@ api_specs:
   label: Yelp AI API
   slug: yelp-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/openapi/yelp-ai-api-openapi.yml
+  url: https://artifacts.apis.io/yelp/openapi/yelp-ai-api-openapi.yml
 - filename: yelp-businesses-api-openapi.yml
   format: yaml
   label: Yelp Businesses API
   slug: yelp-businesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/openapi/yelp-businesses-api-openapi.yml
+  url: https://artifacts.apis.io/yelp/openapi/yelp-businesses-api-openapi.yml
 - filename: yelp-categories-api-openapi.yml
   format: yaml
   label: Yelp Categories API
   slug: yelp-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/openapi/yelp-categories-api-openapi.yml
+  url: https://artifacts.apis.io/yelp/openapi/yelp-categories-api-openapi.yml
 - filename: yelp-events-api-openapi.yml
   format: yaml
   label: Yelp Events API
   slug: yelp-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/openapi/yelp-events-api-openapi.yml
+  url: https://artifacts.apis.io/yelp/openapi/yelp-events-api-openapi.yml
 - filename: yelp-reviews-api-openapi.yml
   format: yaml
   label: Yelp Reviews API
   slug: yelp-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/openapi/yelp-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/yelp/openapi/yelp-reviews-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: yelp-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.developer.yelp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 20:29:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.yelp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  5 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: yelp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/security/yelp-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/yelp/security/yelp-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Restaurant

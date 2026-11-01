@@ -7,19 +7,19 @@ api_specs:
   label: CatchDoms Expired Domains API Domains API
   slug: catchdoms-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/catchdoms/refs/heads/main/openapi/catchdoms-domains-api-openapi.yml
+  url: https://artifacts.apis.io/catchdoms/openapi/catchdoms-domains-api-openapi.yml
 - filename: catchdoms-free-api-openapi.yml
   format: yaml
   label: CatchDoms Expired Domains API Free API
   slug: catchdoms-free-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/catchdoms/refs/heads/main/openapi/catchdoms-free-api-openapi.yml
+  url: https://artifacts.apis.io/catchdoms/openapi/catchdoms-free-api-openapi.yml
 - filename: catchdoms-pending-delete-api-openapi.yml
   format: yaml
   label: CatchDoms Expired Domains API Pending Delete API
   slug: catchdoms-pending-delete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/catchdoms/refs/heads/main/openapi/catchdoms-pending-delete-api-openapi.yml
+  url: https://artifacts.apis.io/catchdoms/openapi/catchdoms-pending-delete-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: catchdoms-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-27'\nmethod: derived\nsource: openapi/catchdoms-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: API token from your CatchDoms account. Get one at https://catchdoms.com/api-access\n  sources:\n  - openapi/catchdoms-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/catchdoms/refs/heads/main/authentication/catchdoms-authentication.yml
+source_yaml_url: https://artifacts.apis.io/catchdoms/authentication/catchdoms-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

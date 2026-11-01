@@ -5,7 +5,7 @@ api_specs:
   label: Cirrus Identity Endpoints API
   slug: cirrus-identity-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cirrus-identity/refs/heads/main/openapi/cirrus-identity-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/cirrus-identity/openapi/cirrus-identity-endpoints-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2 Type 2
@@ -23,7 +23,7 @@ source_filename: cirrus-identity-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://www.cirrusidentity.com/resources/trust-and-compliance-center\nurl: https://www.cirrusidentity.com/resources/trust-and-compliance-center\ncertifications:\n- SOC 2 Type 2\n- TX-RAMP Level 1\nstandards_referenced:\n- HECVAT\n- WCAG\nevidence:\n- source: https://www.cirrusidentity.com/resources/trust-and-compliance-center\n  keywords: [soc 2 type 2, tx-ramp level 1, hecvat, trust and compliance center]\nnotes: >\n  Cirrus Identity has completed a SOC 2 Type 2 audit (full report available on request\n  via support@cirrusidentity.com) and holds TX-RAMP (Texas Risk and Authorization\n  Management Program) Level 1 certification. No ISO 27001, HIPAA, PCI, or FedRAMP\n  certification is claimed on the trust page.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cirrus-identity/refs/heads/main/security/cirrus-identity-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/cirrus-identity/security/cirrus-identity-trust-center.yml
 summary_line: SOC 2 Type 2, TX-RAMP Level 1
 tags:
 - Company

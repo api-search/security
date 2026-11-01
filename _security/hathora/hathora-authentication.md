@@ -7,67 +7,67 @@ api_specs:
   label: Hathora AppsV2 API
   slug: hathora-appsv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-appsv2-api-openapi.yml
+  url: https://artifacts.apis.io/hathora/openapi/hathora-appsv2-api-openapi.yml
 - filename: hathora-authv1-api-openapi.yml
   format: yaml
   label: Hathora AuthV1 API
   slug: hathora-authv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-authv1-api-openapi.yml
+  url: https://artifacts.apis.io/hathora/openapi/hathora-authv1-api-openapi.yml
 - filename: hathora-billingv1-api-openapi.yml
   format: yaml
   label: Hathora BillingV1 API
   slug: hathora-billingv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-billingv1-api-openapi.yml
+  url: https://artifacts.apis.io/hathora/openapi/hathora-billingv1-api-openapi.yml
 - filename: hathora-buildsv3-api-openapi.yml
   format: yaml
   label: Hathora BuildsV3 API
   slug: hathora-buildsv3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-buildsv3-api-openapi.yml
+  url: https://artifacts.apis.io/hathora/openapi/hathora-buildsv3-api-openapi.yml
 - filename: hathora-deploymentsv3-api-openapi.yml
   format: yaml
   label: Hathora DeploymentsV3 API
   slug: hathora-deploymentsv3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-deploymentsv3-api-openapi.yml
+  url: https://artifacts.apis.io/hathora/openapi/hathora-deploymentsv3-api-openapi.yml
 - filename: hathora-discoveryv2-api-openapi.yml
   format: yaml
   label: Hathora DiscoveryV2 API
   slug: hathora-discoveryv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-discoveryv2-api-openapi.yml
+  url: https://artifacts.apis.io/hathora/openapi/hathora-discoveryv2-api-openapi.yml
 - filename: hathora-logsv1-api-openapi.yml
   format: yaml
   label: Hathora LogsV1 API
   slug: hathora-logsv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-logsv1-api-openapi.yml
+  url: https://artifacts.apis.io/hathora/openapi/hathora-logsv1-api-openapi.yml
 - filename: hathora-processesv3-api-openapi.yml
   format: yaml
   label: Hathora ProcessesV3 API
   slug: hathora-processesv3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-processesv3-api-openapi.yml
+  url: https://artifacts.apis.io/hathora/openapi/hathora-processesv3-api-openapi.yml
 - filename: hathora-roomsv2-api-openapi.yml
   format: yaml
   label: Hathora RoomsV2 API
   slug: hathora-roomsv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-roomsv2-api-openapi.yml
+  url: https://artifacts.apis.io/hathora/openapi/hathora-roomsv2-api-openapi.yml
 - filename: hathora-tokensv1-api-openapi.yml
   format: yaml
   label: Hathora TokensV1 API
   slug: hathora-tokensv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-tokensv1-api-openapi.yml
+  url: https://artifacts.apis.io/hathora/openapi/hathora-tokensv1-api-openapi.yml
 - filename: hathora-metrics-v1-api-openapi.yml
   format: yaml
   label: Hathora Metrics V1 API
   slug: hathora-metrics-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-metrics-v1-api-openapi.yml
+  url: https://artifacts.apis.io/hathora/openapi/hathora-metrics-v1-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -95,7 +95,7 @@ source_filename: hathora-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/hathora-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: hathoraDevToken\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Organization developer/API token used for management endpoints (apps, builds,\n    deployments, processes, rooms, logs, metrics, billing, tokens).\n  sources:\n  - openapi/hathora-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/authentication/hathora-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hathora/authentication/hathora-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Game Servers

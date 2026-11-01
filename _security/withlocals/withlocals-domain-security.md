@@ -5,31 +5,31 @@ api_specs:
   label: Withlocals Availability API
   slug: withlocals-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withlocals/refs/heads/main/openapi/withlocals-availability-api-openapi.yml
+  url: https://artifacts.apis.io/withlocals/openapi/withlocals-availability-api-openapi.yml
 - filename: withlocals-bookings-api-openapi.yml
   format: yaml
   label: Withlocals Bookings API
   slug: withlocals-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withlocals/refs/heads/main/openapi/withlocals-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/withlocals/openapi/withlocals-bookings-api-openapi.yml
 - filename: withlocals-products-api-openapi.yml
   format: yaml
   label: Withlocals Products API
   slug: withlocals-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withlocals/refs/heads/main/openapi/withlocals-products-api-openapi.yml
+  url: https://artifacts.apis.io/withlocals/openapi/withlocals-products-api-openapi.yml
 - filename: withlocals-supplier-api-openapi.yml
   format: yaml
   label: Withlocals Supplier API
   slug: withlocals-supplier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withlocals/refs/heads/main/openapi/withlocals-supplier-api-openapi.yml
+  url: https://artifacts.apis.io/withlocals/openapi/withlocals-supplier-api-openapi.yml
 - filename: withlocals-webhooks-api-openapi.yml
   format: yaml
   label: Withlocals Webhooks API
   slug: withlocals-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withlocals/refs/heads/main/openapi/withlocals-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/withlocals/openapi/withlocals-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -64,7 +64,7 @@ source_filename: withlocals-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.withlocals.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 21:56:40 2026 GMT\n  hsts: false\ndomains:\n- domain: withlocals.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/withlocals/refs/heads/main/security/withlocals-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/withlocals/security/withlocals-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

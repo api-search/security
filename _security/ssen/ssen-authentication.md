@@ -8,13 +8,13 @@ api_specs:
   label: Scottish and Southern Electricity Networks Catalog API
   slug: ssen-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssen/refs/heads/main/openapi/ssen-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/ssen/openapi/ssen-catalog-api-openapi.yml
 - filename: ssen-dataset-api-openapi.yml
   format: yaml
   label: Scottish and Southern Electricity Networks Dataset API
   slug: ssen-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssen/refs/heads/main/openapi/ssen-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/ssen/openapi/ssen-dataset-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: ssen-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-27'\nmethod: derived\nsource: openapi/ssen-transmission-opendatasoft-explore-v2.1-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apikey\n  type: apiKey\n  in: query\n  parameter: apikey\n  description: API key to make authenticated requests.\n  sources:\n  - openapi/ssen-transmission-opendatasoft-explore-v2.1-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ssen/refs/heads/main/authentication/ssen-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ssen/authentication/ssen-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Energy

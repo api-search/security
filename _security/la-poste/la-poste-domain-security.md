@@ -5,13 +5,13 @@ api_specs:
   label: 'La Poste SlsInternalService : Services destinés aux applications internes API'
   slug: la-poste-slsinternalservice-services-destin-s-aux-applications-internes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/la-poste/refs/heads/main/openapi/la-poste-slsinternalservice-services-destin-s-aux-applications-internes-api-openapi.yml
+  url: https://artifacts.apis.io/la-poste/openapi/la-poste-slsinternalservice-services-destin-s-aux-applications-internes-api-openapi.yml
 - filename: la-poste-slsservicews-documentation-api-openapi.yml
   format: yaml
   label: 'La Poste SlsServiceWS : documentation API'
   slug: la-poste-slsservicews-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/la-poste/refs/heads/main/openapi/la-poste-slsservicews-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/la-poste/openapi/la-poste-slsservicews-documentation-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: la-poste-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.laposte.fr\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 10:01:31 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.laposte.fr\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 10:01:31 2026 GMT\n  hsts: null\n- host: www.colissimo.entreprise.laposte.fr\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  4 14:16:29 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: laposte.fr\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/la-poste/refs/heads/main/security/la-poste-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/la-poste/security/la-poste-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Postal

@@ -7,19 +7,19 @@ api_specs:
   label: KURENAI OAI-PMH API
   slug: kyoto-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/openapi/kyoto-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/kyoto/openapi/kyoto-oai-pmh-api-openapi.yml
 - filename: kyoto-rest-api-openapi.yml
   format: yaml
   label: KURENAI DSpace REST API
   slug: kyoto-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/openapi/kyoto-rest-api-openapi.yml
+  url: https://artifacts.apis.io/kyoto/openapi/kyoto-rest-api-openapi.yml
 - filename: kyoto-lms-api-openapi.yml
   format: yaml
   label: PandA Learning Support System API (Sakai Entity Broker + IMS LTI)
   slug: kyoto-lms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/openapi/kyoto-lms-api-openapi.yml
+  url: https://artifacts.apis.io/kyoto/openapi/kyoto-lms-api-openapi.yml
 auth_types:
 - none
 - saml
@@ -114,7 +114,7 @@ source_yaml: "generated: '2026-08-19'\nmethod: probed\nsource: >-\n  Live probes
   \ HTTP-Redirect\n    (.../SAML2/Redirect/SSO) and the legacy Shibboleth 1.0 AuthnRequest profile\n    (.../profile/Shibboleth/SSO). University accounts are SPS-ID (faculty/staff) and ECS-ID\n    (students), with multi-factor authentication documented by the IIMC. Service-provider\n    connections to the federation require committee approval — this is institutional SSO\n    infrastructure, not a self-service API.\n  evidence:\n    url: https://authidp1.iimc.kyoto-u.ac.jp/idp/shibboleth\n    status: 200\n    content_type: application/xml\n  additional_evidence:\n  - url: https://metadata.gakunin.nii.ac.jp/gakunin-metadata.xml\n    status: 200\n    note: Kyoto's IdP is present in the GakuNin aggregate metadata as entityID https://authidp1.iimc.kyoto-u.ac.jp/idp/shibboleth.\n  - url: https://www.iimc.kyoto-u.ac.jp/en/services/account/mfa\n    status: 200\n    note: IIMC multi-factor authentication documentation.\n  local_copy: authentication/kyoto-saml-idp-metadata.xml\n- name: KudpcShibbolethSP\n\
   \  type: saml\n  operator: institution\n  applies_to: https://web.kudpc.kyoto-u.ac.jp/shibboleth-sp\n  entity_id: https://web.kudpc.kyoto-u.ac.jp/shibboleth-sp\n  description: >-\n    The supercomputer systems of the Academic Center for Computing and Media Studies are fronted by\n    a Kyoto University-operated Shibboleth service provider registered in GakuNin, with five\n    AssertionConsumerService endpoints (SAML 2.0 HTTP-POST, POST-SimpleSign and HTTP-Artifact, plus\n    the SAML 1.0 browser-post and artifact profiles). Contact consult@kudpc.kyoto-u.ac.jp. This is\n    how researchers reach institution-operated research computing, and it is the access layer for\n    that service rather than a data API.\n  evidence:\n    url: https://metadata.gakunin.nii.ac.jp/gakunin-metadata.xml\n    status: 200\n    note: >-\n      Entity present in the GakuNin aggregate. The SP's own /Shibboleth.sso/Metadata handler returns\n      500 to a direct anonymous request (2026-08-19), so the federation\
   \ aggregate is the citable copy.\nnotes: >-\n  Kyoto University publishes no OAuth 2.0 authorization server, no API key programme and no\n  developer registration of any kind. Every institution-operated public interface it runs is either\n  fully anonymous (KURENAI REST, KURENAI OAI-PMH, the PandA public prefixes) or gated behind\n  university SSO. This file replaces nothing: before 2026-08-19 the repository carried no\n  authentication artifact at all.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/authentication/kyoto-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kyoto/authentication/kyoto-authentication.yml
 summary_line: none/saml/session · 6 schemes
 tags:
 - University

@@ -5,61 +5,61 @@ api_specs:
   label: miso.ai Ask APIs API
   slug: misoai-ask-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/openapi/misoai-ask-apis-api-openapi.yml
+  url: https://artifacts.apis.io/misoai/openapi/misoai-ask-apis-api-openapi.yml
 - filename: misoai-bulk-api-api-openapi.yml
   format: yaml
   label: miso.ai Bulk API
   slug: misoai-bulk-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/openapi/misoai-bulk-api-api-openapi.yml
+  url: https://artifacts.apis.io/misoai/openapi/misoai-bulk-api-api-openapi.yml
 - filename: misoai-experiment-apis-api-openapi.yml
   format: yaml
   label: miso.ai Experiment APIs API
   slug: misoai-experiment-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/openapi/misoai-experiment-apis-api-openapi.yml
+  url: https://artifacts.apis.io/misoai/openapi/misoai-experiment-apis-api-openapi.yml
 - filename: misoai-interaction-apis-api-openapi.yml
   format: yaml
   label: miso.ai Interaction APIs API
   slug: misoai-interaction-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/openapi/misoai-interaction-apis-api-openapi.yml
+  url: https://artifacts.apis.io/misoai/openapi/misoai-interaction-apis-api-openapi.yml
 - filename: misoai-product-content-apis-api-openapi.yml
   format: yaml
   label: miso.ai Product / Content APIs API
   slug: misoai-product-content-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/openapi/misoai-product-content-apis-api-openapi.yml
+  url: https://artifacts.apis.io/misoai/openapi/misoai-product-content-apis-api-openapi.yml
 - filename: misoai-product-recommendations-api-openapi.yml
   format: yaml
   label: miso.ai Product Recommendations API
   slug: misoai-product-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/openapi/misoai-product-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/misoai/openapi/misoai-product-recommendations-api-openapi.yml
 - filename: misoai-q-a-apis-api-openapi.yml
   format: yaml
   label: miso.ai Q&A APIs API
   slug: misoai-q-a-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/openapi/misoai-q-a-apis-api-openapi.yml
+  url: https://artifacts.apis.io/misoai/openapi/misoai-q-a-apis-api-openapi.yml
 - filename: misoai-search-apis-api-openapi.yml
   format: yaml
   label: miso.ai Search APIs API
   slug: misoai-search-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/openapi/misoai-search-apis-api-openapi.yml
+  url: https://artifacts.apis.io/misoai/openapi/misoai-search-apis-api-openapi.yml
 - filename: misoai-user-apis-api-openapi.yml
   format: yaml
   label: miso.ai User APIs API
   slug: misoai-user-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/openapi/misoai-user-apis-api-openapi.yml
+  url: https://artifacts.apis.io/misoai/openapi/misoai-user-apis-api-openapi.yml
 - filename: misoai-user-recommendations-api-openapi.yml
   format: yaml
   label: miso.ai User Recommendations API
   slug: misoai-user-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/openapi/misoai-user-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/misoai/openapi/misoai-user-recommendations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -106,7 +106,7 @@ source_filename: misoai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: miso.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 29 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.miso.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 11:01:15 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.askmiso.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov  6 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: miso.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: askmiso.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/security/misoai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/misoai/security/misoai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

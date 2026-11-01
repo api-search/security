@@ -5,49 +5,49 @@ api_specs:
   label: WarpStream API Keys API
   slug: warpstream-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/openapi/warpstream-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/warpstream/openapi/warpstream-api-keys-api-openapi.yml
 - filename: warpstream-monitoring-api-openapi.yml
   format: yaml
   label: WarpStream Monitoring API
   slug: warpstream-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/openapi/warpstream-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/warpstream/openapi/warpstream-monitoring-api-openapi.yml
 - filename: warpstream-pipelines-api-openapi.yml
   format: yaml
   label: WarpStream Pipelines API
   slug: warpstream-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/openapi/warpstream-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/warpstream/openapi/warpstream-pipelines-api-openapi.yml
 - filename: warpstream-topics-api-openapi.yml
   format: yaml
   label: WarpStream Topics API
   slug: warpstream-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/openapi/warpstream-topics-api-openapi.yml
+  url: https://artifacts.apis.io/warpstream/openapi/warpstream-topics-api-openapi.yml
 - filename: warpstream-virtual-cluster-credentials-api-openapi.yml
   format: yaml
   label: WarpStream Virtual Cluster Credentials API
   slug: warpstream-virtual-cluster-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/openapi/warpstream-virtual-cluster-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/warpstream/openapi/warpstream-virtual-cluster-credentials-api-openapi.yml
 - filename: warpstream-virtual-clusters-api-openapi.yml
   format: yaml
   label: WarpStream Virtual Clusters API
   slug: warpstream-virtual-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/openapi/warpstream-virtual-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/warpstream/openapi/warpstream-virtual-clusters-api-openapi.yml
 - filename: warpstream-workspaces-api-openapi.yml
   format: yaml
   label: WarpStream Workspaces API
   slug: warpstream-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/openapi/warpstream-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/warpstream/openapi/warpstream-workspaces-api-openapi.yml
 - filename: warpstream-acls-api-openapi.yml
   format: yaml
   label: WarpStream AC Ls API
   slug: warpstream-acls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/openapi/warpstream-acls-api-openapi.yml
+  url: https://artifacts.apis.io/warpstream/openapi/warpstream-acls-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -87,7 +87,7 @@ source_filename: warpstream-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.warpstream.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 18:21:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.warpstream.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 12:43:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.warpstream.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: warpstream.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/security/warpstream-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/warpstream/security/warpstream-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Kafka

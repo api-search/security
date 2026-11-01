@@ -7,13 +7,13 @@ api_specs:
   label: Snap Conversion API
   slug: snap-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/openapi/snap-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/snap/openapi/snap-conversion-api-openapi.yml
 - filename: snap-events-api-openapi.yml
   format: yaml
   label: Snap Events API
   slug: snap-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/openapi/snap-events-api-openapi.yml
+  url: https://artifacts.apis.io/snap/openapi/snap-events-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -38,7 +38,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://develop
   '\n    consent_model: >-\n      Two-stage: an Organization/Business Admin approves the agent for the\n      organization, then each member authorizes their own access. Per agent, per\n      member. A member reaches only what their existing Snapchat Ads permissions\n      already allow.\n    revocation: https://accounts.snapchat.com/v2/manage-apps\n    ref: mcp/snap-mcp.yml\n\n  - name: capi-static-token\n    label: Conversions API long-lived token\n    type: apiKey\n    in: query\n    parameter_name: access_token\n    expiry: none\n    rotation: \"Tokens can be generated and deleted from Ads Manager -> Business Details -> Conversions API Tokens.\"\n    required_role: Organization Admin\n    scoping: >-\n      A token may only send events for the Pixel IDs and Snap App IDs that\n      belong to the Org where the token was generated; cross-org use fails.\n    declared_in: openapi/snap-conversions-api-v3-openapi.yml\n    risk_note: >-\n      The V3 spec carries the credential as a QUERY parameter\
   \ on every operation\n      and declares no components.securitySchemes at all. A non-expiring bearer\n      credential in a URL lands in proxy logs, referrer headers and access logs.\n    source: https://developers.snap.com/marketing-api/Conversions-API/GetStarted\n\n  - name: bearerAuth\n    label: Conversions API v2 bearer\n    type: http\n    scheme: bearer\n    bearerFormat: JWT\n    declared_in: openapi/snap-conversions-api-openapi.yml\n    applied: \"Global security requirement on the v2 spec.\"\n\nsnap_kit_login:\n  summary: >-\n    Snap Kit / Login Kit provides \"Login with Snapchat\" built on OAuth 2.0 with\n    OpenID Connect support for identity, returning approved profile fields.\n  docs: https://developers.snap.com/snap-kit/login-kit/overview\n  type: [oauth2, openIdConnect]\n  sdk_status: >-\n    The Login Kit SDKs that wrapped the OAuth2 service (and supplied a drop-in\n    login button) are being deprecated. Snap's guidance is to implement OAuth2\n    directly; the underlying\
   \ OAuth2 service remains fully available.\n\nerrors:\n  - status: 401\n    signal: 'WWW-Authenticate: Bearer error=\"invalid_token\", error_description=\"The access token expired\"'\n    applies_to: Marketing API\n    remediation: Refresh the access token with the refresh_token grant and retry.\n  - status: 401\n    signal: 'WWW-Authenticate: Bearer resource_metadata=\"https://mcp.snapchat.com/.well-known/oauth-protected-resource/ads\"'\n    applies_to: Ads MCP\n    remediation: Complete the OAuth flow with the agent's pre-registered client id and scope snapads.read.\n\nnotes: >-\n  Many standard OAuth 2.0 client libraries handle the Marketing API\n  refresh-and-retry pattern automatically. The MCP server rejects the default\n  scope set requested by generic clients — Snap's own docs warn that the scope\n  must be exactly `snapads.read` or authorization fails.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/authentication/snap-authentication.yml
+source_yaml_url: https://artifacts.apis.io/snap/authentication/snap-authentication.yml
 summary_line: 0 schemes
 tags:
 - Company

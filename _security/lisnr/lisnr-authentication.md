@@ -8,61 +8,61 @@ api_specs:
   label: LISNR Accounts API
   slug: lisnr-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/openapi/lisnr-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/lisnr/openapi/lisnr-accounts-api-openapi.yml
 - filename: lisnr-api-tokens-api-openapi.yml
   format: yaml
   label: LISNR API Tokens API
   slug: lisnr-api-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/openapi/lisnr-api-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/lisnr/openapi/lisnr-api-tokens-api-openapi.yml
 - filename: lisnr-applications-api-openapi.yml
   format: yaml
   label: LISNR Applications API
   slug: lisnr-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/openapi/lisnr-applications-api-openapi.yml
+  url: https://artifacts.apis.io/lisnr/openapi/lisnr-applications-api-openapi.yml
 - filename: lisnr-authentication-api-openapi.yml
   format: yaml
   label: LISNR Authentication API
   slug: lisnr-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/openapi/lisnr-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/lisnr/openapi/lisnr-authentication-api-openapi.yml
 - filename: lisnr-billing-api-openapi.yml
   format: yaml
   label: LISNR Billing API
   slug: lisnr-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/openapi/lisnr-billing-api-openapi.yml
+  url: https://artifacts.apis.io/lisnr/openapi/lisnr-billing-api-openapi.yml
 - filename: lisnr-notifications-api-openapi.yml
   format: yaml
   label: LISNR Notifications API
   slug: lisnr-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/openapi/lisnr-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/lisnr/openapi/lisnr-notifications-api-openapi.yml
 - filename: lisnr-sdk-releases-api-openapi.yml
   format: yaml
   label: LISNR SDK Releases API
   slug: lisnr-sdk-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/openapi/lisnr-sdk-releases-api-openapi.yml
+  url: https://artifacts.apis.io/lisnr/openapi/lisnr-sdk-releases-api-openapi.yml
 - filename: lisnr-sdk-tokens-api-openapi.yml
   format: yaml
   label: LISNR SDK Tokens API
   slug: lisnr-sdk-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/openapi/lisnr-sdk-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/lisnr/openapi/lisnr-sdk-tokens-api-openapi.yml
 - filename: lisnr-tones-service-api-reference-api-openapi.yml
   format: yaml
   label: LISNR Tones Service API Reference API
   slug: lisnr-tones-service-api-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/openapi/lisnr-tones-service-api-reference-api-openapi.yml
+  url: https://artifacts.apis.io/lisnr/openapi/lisnr-tones-service-api-reference-api-openapi.yml
 - filename: lisnr-users-api-openapi.yml
   format: yaml
   label: LISNR Users API
   slug: lisnr-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/openapi/lisnr-users-api-openapi.yml
+  url: https://artifacts.apis.io/lisnr/openapi/lisnr-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://portal.
   \ The\n    transaction type associated with a generated tone is inherited from the app the API token was created\n    under, so accounts with multiple transaction types must select the correct app before minting a token.\n  handling: >-\n    LISNR documents API tokens as being as sensitive as passwords. They must not be shared or distributed to\n    untrusted parties, and must not be used from a website or any other publicly available project.\n- name: SDK Token\n  used_by: Radius / Radius 3 / Point / legacy / SDA client SDKs\n  minted_at: https://portal.lisnr.com/apps/{app_id}/sdk-tokens\n  managed_by:\n  - openapi/lisnr-portal-openapi-derived.json#listSdkTokens\n  - openapi/lisnr-portal-openapi-derived.json#createSdkToken\n  - openapi/lisnr-portal-openapi-derived.json#deleteSdkToken\n  description: >-\n    Initializes the Radius object inside a device SDK. A receiving application must initialize with an SDK\n    token issued from the same account as the API token that created an encrypted\
   \ tone, otherwise it cannot\n    demodulate that tone.\n- name: User session JWT\n  used_by: LISNR Portal API\n  obtained_via: openapi/lisnr-portal-openapi-derived.json#login\n  description: >-\n    Username and password are exchanged at POST /v2/auth/login for a JWT that the Portal then sends on every\n    subsequent call in the Authorization header.\nschemes:\n- name: jwtToken\n  type: apiKey\n  in: header\n  parameter: Authorization\n  value_format: JWT <token>\n  description: >-\n    An API Token prefixed by \"JWT\". Applied to the single Tones Service operation and to every authenticated\n    Portal API operation.\n  sources:\n  - openapi/lisnr-tones-openapi-original.json\n  - openapi/lisnr-portal-openapi-derived.json\nfailure_modes:\n- status: 401\n  meaning: Authentication credentials not provided, or credentials are not valid.\n- status: 403\n  meaning: Forbidden — user is not authorized to access this resource with an explicit deny.\nrelated:\n- conventions/lisnr-conventions.yml\n\
   - errors/lisnr-problem-types.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/authentication/lisnr-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lisnr/authentication/lisnr-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

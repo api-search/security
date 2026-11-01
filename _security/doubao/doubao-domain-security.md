@@ -5,31 +5,31 @@ api_specs:
   label: ByteDance Doubao Batch API
   slug: doubao-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doubao/refs/heads/main/openapi/doubao-batch-api-openapi.yml
+  url: https://artifacts.apis.io/doubao/openapi/doubao-batch-api-openapi.yml
 - filename: doubao-embeddings-api-openapi.yml
   format: yaml
   label: ByteDance Doubao Embeddings API
   slug: doubao-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doubao/refs/heads/main/openapi/doubao-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/doubao/openapi/doubao-embeddings-api-openapi.yml
 - filename: doubao-images-api-openapi.yml
   format: yaml
   label: ByteDance Doubao Images API
   slug: doubao-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doubao/refs/heads/main/openapi/doubao-images-api-openapi.yml
+  url: https://artifacts.apis.io/doubao/openapi/doubao-images-api-openapi.yml
 - filename: doubao-videos-api-openapi.yml
   format: yaml
   label: ByteDance Doubao Videos API
   slug: doubao-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doubao/refs/heads/main/openapi/doubao-videos-api-openapi.yml
+  url: https://artifacts.apis.io/doubao/openapi/doubao-videos-api-openapi.yml
 - filename: doubao-chat-completions-api-openapi.yml
   format: yaml
   label: ByteDance Doubao Chat Completions API
   slug: doubao-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doubao/refs/heads/main/openapi/doubao-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/doubao/openapi/doubao-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: doubao-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.volcengine.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 18 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: ark.cn-beijing.volces.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: volcengine.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: volces.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doubao/refs/heads/main/security/doubao-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/doubao/security/doubao-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

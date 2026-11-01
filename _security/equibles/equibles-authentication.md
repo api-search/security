@@ -7,55 +7,55 @@ api_specs:
   label: Equibles Equibles API
   slug: equibles-equibles-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equibles/refs/heads/main/openapi/equibles-equibles-api-api-openapi.yml
+  url: https://artifacts.apis.io/equibles/openapi/equibles-equibles-api-api-openapi.yml
 - filename: equibles-etfs-api-openapi.yml
   format: yaml
   label: Equibles Etfs API
   slug: equibles-etfs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equibles/refs/heads/main/openapi/equibles-etfs-api-openapi.yml
+  url: https://artifacts.apis.io/equibles/openapi/equibles-etfs-api-openapi.yml
 - filename: equibles-fda-api-openapi.yml
   format: yaml
   label: Equibles Fda API
   slug: equibles-fda-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equibles/refs/heads/main/openapi/equibles-fda-api-openapi.yml
+  url: https://artifacts.apis.io/equibles/openapi/equibles-fda-api-openapi.yml
 - filename: equibles-funds-api-openapi.yml
   format: yaml
   label: Equibles Funds API
   slug: equibles-funds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equibles/refs/heads/main/openapi/equibles-funds-api-openapi.yml
+  url: https://artifacts.apis.io/equibles/openapi/equibles-funds-api-openapi.yml
 - filename: equibles-investment-advisers-api-openapi.yml
   format: yaml
   label: Equibles Investment Advisers API
   slug: equibles-investment-advisers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equibles/refs/heads/main/openapi/equibles-investment-advisers-api-openapi.yml
+  url: https://artifacts.apis.io/equibles/openapi/equibles-investment-advisers-api-openapi.yml
 - filename: equibles-ipos-api-openapi.yml
   format: yaml
   label: Equibles Ipos API
   slug: equibles-ipos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equibles/refs/heads/main/openapi/equibles-ipos-api-openapi.yml
+  url: https://artifacts.apis.io/equibles/openapi/equibles-ipos-api-openapi.yml
 - filename: equibles-short-interest-api-openapi.yml
   format: yaml
   label: Equibles Short Interest API
   slug: equibles-short-interest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equibles/refs/heads/main/openapi/equibles-short-interest-api-openapi.yml
+  url: https://artifacts.apis.io/equibles/openapi/equibles-short-interest-api-openapi.yml
 - filename: equibles-short-volume-api-openapi.yml
   format: yaml
   label: Equibles Short Volume API
   slug: equibles-short-volume-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equibles/refs/heads/main/openapi/equibles-short-volume-api-openapi.yml
+  url: https://artifacts.apis.io/equibles/openapi/equibles-short-volume-api-openapi.yml
 - filename: equibles-stocks-api-openapi.yml
   format: yaml
   label: Equibles Stocks API
   slug: equibles-stocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equibles/refs/heads/main/openapi/equibles-stocks-api-openapi.yml
+  url: https://artifacts.apis.io/equibles/openapi/equibles-stocks-api-openapi.yml
 auth_types: []
 description: Authentication methods for Equibles
 kind: authentication
@@ -87,7 +87,7 @@ source_heading: Authentication Profile
 source_url: https://equibles.com/docs/authentication
 source_yaml: "generated: '2026-10-05'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://equibles.com/docs/authentication\nsources:\n- https://equibles.com/docs/authentication\n- https://equibles.com/docs/mcp/claude-web\n- https://equibles.com/docs/mcp/claude-desktop\n- https://equibles.com/docs\ndescription: Authentication methods for Equibles\nschemes:\n- type: apiKey\n  name: API key\n  evidence: The REST API uses an API key . MCP data requests accept an API key or, in supported clients, OAuth , so there's no key to copy or\n    store.\n  location: header\n  header: Authorization\n  how_to_obtain: Create keys in your dashboard. A key starts with the prefix eq_ and is shown once at creation.\n- type: apiKey\n  name: API key (query)\n  evidence: 'Query parameter — useful where you can''t set headers (for example an MCP client that only takes a URL): https://api.equibles.com/v1/stocks/AAPL/prices?api_key=eq_your_api_key'\n  location: query\n  how_to_obtain:\
   \ Create keys in your dashboard. A key starts with the prefix eq_ and is shown once at creation.\ndocs: https://equibles.com/docs/authentication\nnote: 1 extracted row(s) were dropped because their quote was not on the page.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/equibles/refs/heads/main/authentication/equibles-authentication.yml
+source_yaml_url: https://artifacts.apis.io/equibles/authentication/equibles-authentication.yml
 summary_line: 2 schemes
 tags:
 - Company

@@ -7,37 +7,37 @@ api_specs:
   label: Ceph Auth API
   slug: ceph-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceph/refs/heads/main/openapi/ceph-auth-api-openapi.yml
+  url: https://artifacts.apis.io/ceph/openapi/ceph-auth-api-openapi.yml
 - filename: ceph-cluster-api-openapi.yml
   format: yaml
   label: Ceph Cluster API
   slug: ceph-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceph/refs/heads/main/openapi/ceph-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/ceph/openapi/ceph-cluster-api-openapi.yml
 - filename: ceph-configuration-api-openapi.yml
   format: yaml
   label: Ceph Configuration API
   slug: ceph-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceph/refs/heads/main/openapi/ceph-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/ceph/openapi/ceph-configuration-api-openapi.yml
 - filename: ceph-crush-api-openapi.yml
   format: yaml
   label: Ceph CRUSH API
   slug: ceph-crush-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceph/refs/heads/main/openapi/ceph-crush-api-openapi.yml
+  url: https://artifacts.apis.io/ceph/openapi/ceph-crush-api-openapi.yml
 - filename: ceph-daemon-api-openapi.yml
   format: yaml
   label: Ceph Daemon API
   slug: ceph-daemon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceph/refs/heads/main/openapi/ceph-daemon-api-openapi.yml
+  url: https://artifacts.apis.io/ceph/openapi/ceph-daemon-api-openapi.yml
 - filename: ceph-user-api-openapi.yml
   format: yaml
   label: Ceph User API
   slug: ceph-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceph/refs/heads/main/openapi/ceph-user-api-openapi.yml
+  url: https://artifacts.apis.io/ceph/openapi/ceph-user-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -65,7 +65,7 @@ source_filename: ceph-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ceph-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: JWT obtained from POST /api/auth.\n  sources:\n  - openapi/ceph-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ceph/refs/heads/main/authentication/ceph-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ceph/authentication/ceph-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Storage

@@ -9,19 +9,19 @@ api_specs:
   label: Quandl (Nasdaq Data Link) Databases API
   slug: quandl-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandl/refs/heads/main/openapi/quandl-databases-api-openapi.yml
+  url: https://artifacts.apis.io/quandl/openapi/quandl-databases-api-openapi.yml
 - filename: quandl-datasets-api-openapi.yml
   format: yaml
   label: Quandl (Nasdaq Data Link) Datasets API
   slug: quandl-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandl/refs/heads/main/openapi/quandl-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/quandl/openapi/quandl-datasets-api-openapi.yml
 - filename: quandl-tables-api-openapi.yml
   format: yaml
   label: Quandl (Nasdaq Data Link) Tables API
   slug: quandl-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandl/refs/heads/main/openapi/quandl-tables-api-openapi.yml
+  url: https://artifacts.apis.io/quandl/openapi/quandl-tables-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -56,7 +56,7 @@ source_filename: quandl-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/nasdaq-data-link-timeseries-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: apiKeyQuery\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: Nasdaq Data Link API key passed as query parameter\n  sources:\n  - openapi/nasdaq-data-link-timeseries-openapi.yml\n- name: apiKeyHeader\n  type: apiKey\n  in: header\n  parameter: X-Api-Token\n  description: Nasdaq Data Link API key passed as header\n  sources:\n  - openapi/nasdaq-data-link-timeseries-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quandl/refs/heads/main/authentication/quandl-authentication.yml
+source_yaml_url: https://artifacts.apis.io/quandl/authentication/quandl-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Finance

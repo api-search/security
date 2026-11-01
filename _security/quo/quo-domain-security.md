@@ -5,55 +5,55 @@ api_specs:
   label: Quo Calls API
   slug: quo-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quo/refs/heads/main/openapi/quo-calls-api-openapi.yml
+  url: https://artifacts.apis.io/quo/openapi/quo-calls-api-openapi.yml
 - filename: quo-contact-custom-fields-api-openapi.yml
   format: yaml
   label: Quo Contact Custom Fields API
   slug: quo-contact-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quo/refs/heads/main/openapi/quo-contact-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/quo/openapi/quo-contact-custom-fields-api-openapi.yml
 - filename: quo-contacts-api-openapi.yml
   format: yaml
   label: Quo Contacts API
   slug: quo-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quo/refs/heads/main/openapi/quo-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/quo/openapi/quo-contacts-api-openapi.yml
 - filename: quo-conversations-api-openapi.yml
   format: yaml
   label: Quo Conversations API
   slug: quo-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quo/refs/heads/main/openapi/quo-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/quo/openapi/quo-conversations-api-openapi.yml
 - filename: quo-messages-api-openapi.yml
   format: yaml
   label: Quo Messages API
   slug: quo-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quo/refs/heads/main/openapi/quo-messages-api-openapi.yml
+  url: https://artifacts.apis.io/quo/openapi/quo-messages-api-openapi.yml
 - filename: quo-phone-numbers-api-openapi.yml
   format: yaml
   label: Quo Phone Numbers API
   slug: quo-phone-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quo/refs/heads/main/openapi/quo-phone-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/quo/openapi/quo-phone-numbers-api-openapi.yml
 - filename: quo-tasks-api-openapi.yml
   format: yaml
   label: Quo Tasks API
   slug: quo-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quo/refs/heads/main/openapi/quo-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/quo/openapi/quo-tasks-api-openapi.yml
 - filename: quo-users-api-openapi.yml
   format: yaml
   label: Quo Users API
   slug: quo-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quo/refs/heads/main/openapi/quo-users-api-openapi.yml
+  url: https://artifacts.apis.io/quo/openapi/quo-users-api-openapi.yml
 - filename: quo-webhooks-api-openapi.yml
   format: yaml
   label: Quo Webhooks API
   slug: quo-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quo/refs/heads/main/openapi/quo-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/quo/openapi/quo-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -93,7 +93,7 @@ source_filename: quo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: quo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 23:02:21 2026 GMT\n  hsts: false\n- host: api.quo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 05:54:28 2026 GMT\n  hsts: null\ndomains:\n- domain: quo.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quo/refs/heads/main/security/quo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/quo/security/quo-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

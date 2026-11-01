@@ -7,19 +7,19 @@ api_specs:
   label: Evident Results API
   slug: evident-id-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evident-id/refs/heads/main/openapi/evident-id-results-api-openapi.yml
+  url: https://artifacts.apis.io/evident-id/openapi/evident-id-results-api-openapi.yml
 - filename: evident-id-submission-api-openapi.yml
   format: yaml
   label: Evident Submission API
   slug: evident-id-submission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evident-id/refs/heads/main/openapi/evident-id-submission-api-openapi.yml
+  url: https://artifacts.apis.io/evident-id/openapi/evident-id-submission-api-openapi.yml
 - filename: evident-id-verification-requests-api-openapi.yml
   format: yaml
   label: Evident Verification Requests API
   slug: evident-id-verification-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evident-id/refs/heads/main/openapi/evident-id-verification-requests-api-openapi.yml
+  url: https://artifacts.apis.io/evident-id/openapi/evident-id-verification-requests-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: evident-id-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/evident-id-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic Auth using your Evident username and API key (VerifyAPI).\n  sources:\n  - openapi/evident-id-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token using the userIdentityToken returned by VerifyAPI (SubmitAPI).\n  sources:\n  - openapi/evident-id-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evident-id/refs/heads/main/authentication/evident-id-authentication.yml
+source_yaml_url: https://artifacts.apis.io/evident-id/authentication/evident-id-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Identity Verification

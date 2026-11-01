@@ -5,133 +5,133 @@ api_specs:
   label: Synack Assessment Groups API
   slug: synack-assessment-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-assessment-groups-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-assessment-groups-api-openapi.yml
 - filename: synack-assessment-lifecycle-api-openapi.yml
   format: yaml
   label: Synack Assessment Lifecycle API
   slug: synack-assessment-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-assessment-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-assessment-lifecycle-api-openapi.yml
 - filename: synack-assessments-api-openapi.yml
   format: yaml
   label: Synack Assessments API
   slug: synack-assessments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-assessments-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-assessments-api-openapi.yml
 - filename: synack-asset-relationships-api-openapi.yml
   format: yaml
   label: Synack Asset Relationships API
   slug: synack-asset-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-asset-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-asset-relationships-api-openapi.yml
 - filename: synack-assetproviders-api-openapi.yml
   format: yaml
   label: Synack Assetproviders API
   slug: synack-assetproviders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-assetproviders-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-assetproviders-api-openapi.yml
 - filename: synack-assets-api-openapi.yml
   format: yaml
   label: Synack Assets API
   slug: synack-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-assets-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-assets-api-openapi.yml
 - filename: synack-comments-api-openapi.yml
   format: yaml
   label: Synack Comments API
   slug: synack-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-comments-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-comments-api-openapi.yml
 - filename: synack-credentials-api-openapi.yml
   format: yaml
   label: Synack Credentials API
   slug: synack-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-credentials-api-openapi.yml
 - filename: synack-external-relationships-api-openapi.yml
   format: yaml
   label: Synack External Relationships API
   slug: synack-external-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-external-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-external-relationships-api-openapi.yml
 - filename: synack-health-api-openapi.yml
   format: yaml
   label: Synack Health API
   slug: synack-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-health-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-health-api-openapi.yml
 - filename: synack-hosts-api-openapi.yml
   format: yaml
   label: Synack Hosts API
   slug: synack-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-hosts-api-openapi.yml
 - filename: synack-missions-api-openapi.yml
   format: yaml
   label: Synack Missions API
   slug: synack-missions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-missions-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-missions-api-openapi.yml
 - filename: synack-patch-verifications-api-openapi.yml
   format: yaml
   label: Synack Patch Verifications API
   slug: synack-patch-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-patch-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-patch-verifications-api-openapi.yml
 - filename: synack-seeds-api-openapi.yml
   format: yaml
   label: Synack Seeds API
   slug: synack-seeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-seeds-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-seeds-api-openapi.yml
 - filename: synack-suspected-vulnerabilities-api-openapi.yml
   format: yaml
   label: Synack Suspected Vulnerabilities API
   slug: synack-suspected-vulnerabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-suspected-vulnerabilities-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-suspected-vulnerabilities-api-openapi.yml
 - filename: synack-tags-api-openapi.yml
   format: yaml
   label: Synack Tags API
   slug: synack-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-tags-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-tags-api-openapi.yml
 - filename: synack-tests-api-openapi.yml
   format: yaml
   label: Synack Tests API
   slug: synack-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-tests-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-tests-api-openapi.yml
 - filename: synack-users-api-openapi.yml
   format: yaml
   label: Synack Users API
   slug: synack-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-users-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-users-api-openapi.yml
 - filename: synack-vulnerabilities-api-openapi.yml
   format: yaml
   label: Synack Vulnerabilities API
   slug: synack-vulnerabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-vulnerabilities-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-vulnerabilities-api-openapi.yml
 - filename: synack-vulnerability-statuses-api-openapi.yml
   format: yaml
   label: Synack Vulnerability Statuses API
   slug: synack-vulnerability-statuses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-vulnerability-statuses-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-vulnerability-statuses-api-openapi.yml
 - filename: synack-mobile-apps-api-openapi.yml
   format: yaml
   label: Synack Mobile Apps API
   slug: synack-mobile-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-mobile-apps-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-mobile-apps-api-openapi.yml
 - filename: synack-web-apps-api-openapi.yml
   format: yaml
   label: Synack Web Apps API
   slug: synack-web-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-web-apps-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-web-apps-api-openapi.yml
 certification_count: 6
 certifications:
 - ISO 27001:2022
@@ -153,7 +153,7 @@ source_filename: synack-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nsource: https://www.synack.com/security/\nurl: https://trustcenter.synack.com/\ncertifications:\n- ISO 27001:2022\n- FedRAMP Moderate\n- TX-RAMP Level 2\n- IASME Cyber Essentials\n- CREST\n- Privacy Shield\nnotes: >-\n  Synack publishes a public Trust Center at trustcenter.synack.com (policies,\n  certificates, and completed security questionnaires). The Platform Security\n  page (synack.com/security) enumerates the certifications above. Hosting runs\n  on Google Cloud Platform (PCI DSS Level 1, ISO 27001 certified); data is\n  encrypted in transit with TLS and at rest with 256-bit AES; SAML 2.0 SSO and\n  MFA are supported.\nevidence:\n- source: https://www.synack.com/security/\n  keywords:\n  - iso 27001\n  - fedramp moderate\n  - tx-ramp\n  - cyber essentials\n  - crest\n- source: https://trustcenter.synack.com/\n  kind: trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/security/synack-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/synack/security/synack-trust-center.yml
 summary_line: ISO 27001:2022, FedRAMP Moderate, TX-RAMP Level 2, IASME Cyber Essentials, CREST, Privacy Shield
 tags:
 - Company

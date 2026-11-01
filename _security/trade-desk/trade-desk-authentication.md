@@ -8,31 +8,31 @@ api_specs:
   label: The Trade Desk Advertiser API
   slug: trade-desk-advertiser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/openapi/trade-desk-advertiser-api-openapi.yml
+  url: https://artifacts.apis.io/trade-desk/openapi/trade-desk-advertiser-api-openapi.yml
 - filename: trade-desk-deletionoptout-api-openapi.yml
   format: yaml
   label: The Trade Desk DeletionOptOut API
   slug: trade-desk-deletionoptout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/openapi/trade-desk-deletionoptout-api-openapi.yml
+  url: https://artifacts.apis.io/trade-desk/openapi/trade-desk-deletionoptout-api-openapi.yml
 - filename: trade-desk-offlineconversion-api-openapi.yml
   format: yaml
   label: The Trade Desk OfflineConversion API
   slug: trade-desk-offlineconversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/openapi/trade-desk-offlineconversion-api-openapi.yml
+  url: https://artifacts.apis.io/trade-desk/openapi/trade-desk-offlineconversion-api-openapi.yml
 - filename: trade-desk-ip-address-api-openapi.yml
   format: yaml
   label: The Trade Desk IP Address API
   slug: trade-desk-ip-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/openapi/trade-desk-ip-address-api-openapi.yml
+  url: https://artifacts.apis.io/trade-desk/openapi/trade-desk-ip-address-api-openapi.yml
 - filename: trade-desk-third-party-api-openapi.yml
   format: yaml
   label: The Trade Desk Third Party API
   slug: trade-desk-third-party-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/openapi/trade-desk-third-party-api-openapi.yml
+  url: https://artifacts.apis.io/trade-desk/openapi/trade-desk-third-party-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/_origin
   \ returns {\"Token\": \"...\"} for use as the TTD-Auth header value. Maximum 24 hours. Documented\n    as non-revocable and intended for temporary or low-risk use, not production.'\n  endpoint: https://api.thetradedesk.com/v3/authentication\n- name: OpenIDConnect\n  type: openIdConnect\n  sources:\n  - https://auth.thetradedesk.com/.well-known/openid-configuration\n  openIdConnectUrl: https://auth.thetradedesk.com/.well-known/openid-configuration\n  description: Full OIDC provider fronting the platform. 92 scopes, RS256 id_token signing, PKCE (S256),\n    private_key_jwt client auth, device-code and CIBA grants. This is the authorization server named by\n    the MCP protected-resource metadata.\n  scopes: scopes/trade-desk-scopes.yml\n- name: OAuth2\n  type: oauth2\n  sources:\n  - https://api.thetradedesk.com/.well-known/oauth-protected-resource/mcp/platform-management\n  description: OAuth is offered for the OAK MCP server as the no-manual-token-management path; OIDC token\n    exchange\
   \ is available on request for teams building applications on top of OAK.\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.thetradedesk.com/connect/authorize\n    tokenUrl: https://auth.thetradedesk.com/connect/token\n  - flow: clientCredentials\n    tokenUrl: https://auth.thetradedesk.com/connect/token\n- name: TtdSignature\n  type: apiKey\n  in: header\n  parameter: TtdSignature\n  deprecated: true\n  sources:\n  - https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/data/doc/DataApiCallsAdvertiser\n  description: LEGACY Data API auth. HMAC-SHA1 base64 of the JSON request body keyed with the advertiser\n    secret key (audience data) or the data-provider secret key (offline conversions). The provider now\n    directs all Data API traffic to token authentication.\n- name: SinceraBearer\n  type: http\n  scheme: bearer\n  sources:\n  - https://open.thetradedesk.com/seller/docsApp/GuidesSeller/opensincera/doc/OpenSinceraGetStarted\n  description: 'OpenSincera\
   \ API uses Authorization: Bearer with a personal API key retrieved from the\n    OpenSincera profile page. Separate account and separate credential from the Platform API.'\n  applies_to: https://open.sincera.io/api\n- name: None\n  type: none\n  sources:\n  - https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/data/doc/post-track-realtimeconversion\n  description: The Real-Time Conversion Events endpoint (POST https://insight.adsrvr.org/track/realtimeconversion)\n    is documented as requiring no authentication.\ngaps:\n- No securityScheme is declared in any published OpenAPI — the Data API spec models TTD-Auth as a required\n  header PARAMETER on every operation instead of as a securityScheme, so machine clients get no auth affordance\n  from the contract.\n- No public scopes/permissions reference page; the 92 scopes are discoverable only from the OIDC discovery\n  document.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/authentication/trade-desk-authentication.yml
+source_yaml_url: https://artifacts.apis.io/trade-desk/authentication/trade-desk-authentication.yml
 summary_line: apiKey/oauth2/openIdConnect/http · 7 schemes
 tags:
 - Advertising

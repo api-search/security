@@ -7,13 +7,13 @@ api_specs:
   label: Geckoboard Datasets API
   slug: geckoboard-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geckoboard/refs/heads/main/openapi/geckoboard-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/geckoboard/openapi/geckoboard-datasets-api-openapi.yml
 - filename: geckoboard-health-api-openapi.yml
   format: yaml
   label: Geckoboard Health API
   slug: geckoboard-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geckoboard/refs/heads/main/openapi/geckoboard-health-api-openapi.yml
+  url: https://artifacts.apis.io/geckoboard/openapi/geckoboard-health-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: geckoboard-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/geckoboard-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic with the Geckoboard API key as the username and empty password.\n  sources:\n  - openapi/geckoboard-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/geckoboard/refs/heads/main/authentication/geckoboard-authentication.yml
+source_yaml_url: https://artifacts.apis.io/geckoboard/authentication/geckoboard-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Dashboards

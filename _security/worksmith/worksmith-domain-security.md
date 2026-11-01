@@ -52,7 +52,7 @@ source_filename: worksmith-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.worksmith.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 15:39:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.worksmith.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  6 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 600\n- host: clients.worksmith.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  6 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: vendors.worksmith.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  6 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: status.worksmith.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 20:22:14 2026 GMT\n  hsts: true\n  hsts_max_age: 259200\ndomains:\n- domain: worksmith.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/worksmith/refs/heads/main/security/worksmith-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/worksmith/security/worksmith-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

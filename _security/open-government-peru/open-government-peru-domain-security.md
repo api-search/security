@@ -26,7 +26,7 @@ source_filename: open-government-peru-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.datosabiertos.gob.pe\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 19:00:58 2026 GMT\n  hsts: null\ndomains:\n- domain: gob.pe\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-government-peru/refs/heads/main/security/open-government-peru-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/open-government-peru/security/open-government-peru-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Government

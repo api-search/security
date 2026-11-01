@@ -5,25 +5,25 @@ api_specs:
   label: Datarails Health API
   slug: datarails-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-health-api-openapi.yml
+  url: https://artifacts.apis.io/datarails/openapi/datarails-health-api-openapi.yml
 - filename: datarails-ready-api-openapi.yml
   format: yaml
   label: Datarails Ready API
   slug: datarails-ready-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-ready-api-openapi.yml
+  url: https://artifacts.apis.io/datarails/openapi/datarails-ready-api-openapi.yml
 - filename: datarails-well-known-api-openapi.yml
   format: yaml
   label: Datarails .well Known API
   slug: datarails-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/datarails/openapi/datarails-well-known-api-openapi.yml
 - filename: datarails-oauth-api-openapi.yml
   format: yaml
   label: Datarails OAUTH API
   slug: datarails-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/datarails/openapi/datarails-oauth-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2 Type II
@@ -46,7 +46,7 @@ source_yaml: "generated: '2026-08-01'\nmethod: searched\nprobe: true\nurl: https
   \    last_updated: '2026-03-23'\n    contact: compliance@datarails.com\n  - name: Terms of Service\n    url: https://www.datarails.com/terms-of-service/\n    last_updated: '2026-03-15'\n  - name: AI Terms\n    url: https://www.datarails.com/datarails-ai-terms/\n    last_updated: '2026-03-15'\n    note: Separate published terms governing Datarails' use of AI.\n\ngated_document_set:\n  note: >-\n    The retired /datarails-security-and-compliance-documents/ page rendered one\n    tile per downloadable document, and the tile image slugs survive in the\n    WordPress page sitemap. They enumerate the document set Datarails makes\n    available behind the trust center. The DOCUMENTS THEMSELVES ARE GATED and\n    were not retrieved; only their names are recorded.\n  source: https://www.datarails.com/page-sitemap.xml\n  documents:\n    - SOC 1 Type II\n    - Security white paper\n    - Technical and architecture overview\n    - Penetration test statement\n    - Incident response plan\n    - HIPAA\
   \ compliance\n    - GDPR terms\n    - Terms and conditions\n  caveat: >-\n    A tile named \"soc-1-type-ii\" is evidence of a SOC 1 Type II report, which is\n    a different attestation from the SOC 2 Type II Datarails claims in its\n    support documentation. Both are recorded; neither report was seen.\n\nrelated_pages:\n  - https://support.datarails.com/hc/en-us/articles/6160603869073-Datarails-Security-and-Compliance\n  - https://support.datarails.com/hc/en-us/articles/5568068213265-Data-Privacy\n\nai_data_handling:\n  source: https://support.datarails.com/hc/en-us/articles/25849710214556-Datarails-FinanceOS-MCP-Server-Technical-Documentation\n  hosting_region: United States\n  transport_encryption: HTTPS in transit\n  minimisation: Only the data required to fulfil a specific request is transmitted.\n  replication: No full dataset replication occurs as part of the MCP integration.\n  access_boundary: Access remains limited to the caller's existing Datarails user permissions.\n  read_only:\
   \ The MCP connection cannot create, update or delete records.\n\nx-evidence:\n  fetched: '2026-08-01'\n  probes:\n    - {url: 'https://trust.datarails.com/', http_status: 200, note: 'Nuxt SPA shell; certification list not present in the served HTML'}\n    - {url: 'https://www.datarails.com/datarails-security-and-compliance-documents/', http_status: 301, location: 'https://trust.datarails.com/overview/'}\n    - {url: 'https://trust.datarails.com/overview/', http_status: 404, note: 'Direct fetch of the deep link 404s; the SPA routes it client-side'}\n  keywords_confirmed: [trust center, compliance, security]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/security/datarails-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/datarails/security/datarails-trust-center.yml
 summary_line: SOC 2 Type II, ISO 27001, GDPR
 tags:
 - Company

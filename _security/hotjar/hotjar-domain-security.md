@@ -5,25 +5,25 @@ api_specs:
   label: hotjar Authentication API
   slug: hotjar-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotjar/refs/heads/main/openapi/hotjar-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/hotjar/openapi/hotjar-authentication-api-openapi.yml
 - filename: hotjar-survey-responses-api-openapi.yml
   format: yaml
   label: hotjar Survey Responses API
   slug: hotjar-survey-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotjar/refs/heads/main/openapi/hotjar-survey-responses-api-openapi.yml
+  url: https://artifacts.apis.io/hotjar/openapi/hotjar-survey-responses-api-openapi.yml
 - filename: hotjar-surveys-api-openapi.yml
   format: yaml
   label: hotjar Surveys API
   slug: hotjar-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotjar/refs/heads/main/openapi/hotjar-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/hotjar/openapi/hotjar-surveys-api-openapi.yml
 - filename: hotjar-user-lookup-api-openapi.yml
   format: yaml
   label: hotjar User Lookup API
   slug: hotjar-user-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotjar/refs/heads/main/openapi/hotjar-user-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/hotjar/openapi/hotjar-user-lookup-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -70,7 +70,7 @@ source_filename: hotjar-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: help.hotjar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 23:40:11 2026 GMT\n  hsts: true\n  hsts_max_age: 259200\n- host: api.hotjar.com\n  https: false\n- host: api.hotjar.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: hotjar.com\n  dnssec: false\n  caa:\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: hotjar.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hotjar/refs/heads/main/security/hotjar-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hotjar/security/hotjar-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics

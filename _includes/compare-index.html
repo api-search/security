@@ -1,0 +1,54 @@
+{%- comment -%}
+  compare-index.html — /compare/, the hub for the two comparison tools.
+{%- endcomment -%}
+{%- assign SC = site.data.compare_showcase -%}
+{% include compare-css.html %}
+<h1>Compare API providers and markets</h1>
+<p class="cmp-lead">Two APIs.io tools answer the question every API decision comes down to: <em>how does this compare?</em> One works on vendors, the other on whole markets. Both score on the same rubric, the Kin Score plus agent readiness, so their answers line up with each other.</p>
+
+<div class="cmp-grid" style="grid-template-columns:repeat(auto-fill,minmax(320px,1fr))">
+  <a class="cmp-card" href="/compare/providers/">
+    <span class="cmp-tool">compare_providers</span>
+    <h3>Two vendors, head to head</h3>
+    <p>Composite and band, the leader on each facet, which artifacts each publishes, and what each costs to get into, quoted from their own pricing pages. {{ SC.providers.size }} worked examples, from Stripe vs Adyen to OpenAI vs Anthropic.</p>
+  </a>
+  <a class="cmp-card" href="/compare/cohorts/">
+    <span class="cmp-tool">compare_cohorts</span>
+    <h3>Two markets, one rubric</h3>
+    <p>Distributions, band splits, facet averages and adoption rates for any two tags, industries, regions or VC portfolios, plus a check on whether the gap reflects the market or our own coverage. {{ SC.cohorts.size }} worked examples.</p>
+  </a>
+</div>
+
+<h2 class="section-anchor" id="providers"><a href="#providers">Provider comparisons</a></h2>
+<div class="cmp-grid">
+  {%- for c in SC.providers -%}
+  {%- assign pa = c.result.providers[0] -%}{%- assign pb = c.result.providers[1] -%}
+  {%- assign fa = c.suns[pa.slug].facets -%}{%- assign fb = c.suns[pb.slug].facets -%}{%- assign da = c.dims[pa.slug] -%}{%- assign db = c.dims[pb.slug] -%}
+  <a class="cmp-card" href="/compare/providers/{{ c.id }}/">
+    <div class="cmp-card-suns">
+      {% include compare-sun.html small=true name=pa.name score=pa.composite band=pa.band agent_score=pa.agent_readiness.score agent_band=pa.agent_readiness.band facets=fa dims=da %}
+      <span class="cmp-score">{{ pa.composite }}</span><span class="cmp-vs">VS</span><span class="cmp-score">{{ pb.composite }}</span>
+      {% include compare-sun.html small=true name=pb.name score=pb.composite band=pb.band agent_score=pb.agent_readiness.score agent_band=pb.agent_readiness.band facets=fb dims=db %}
+    </div>
+    <h3>{{ pa.name }} vs {{ pb.name }}</h3>
+    <p>{{ c.summary }}</p>
+  </a>
+  {%- endfor -%}
+</div>
+
+<h2 class="section-anchor" id="cohorts"><a href="#cohorts">Market comparisons</a></h2>
+<div class="cmp-grid">
+  {%- for c in SC.cohorts -%}
+  <a class="cmp-card" href="/compare/cohorts/{{ c.id }}/">
+    <div class="cmp-card-suns">
+      {% include compare-sun.html small=true name=c.result.a.name score=c.suns.a.score band=c.suns.a.band agent_score=c.suns.a.agent_score agent_band=c.suns.a.agent_band facets=c.suns.a.facets %}
+      <span class="cmp-score">{{ c.suns.a.score }}</span><span class="cmp-vs">VS</span><span class="cmp-score">{{ c.suns.b.score }}</span>
+      {% include compare-sun.html small=true name=c.result.b.name score=c.suns.b.score band=c.suns.b.band agent_score=c.suns.b.agent_score agent_band=c.suns.b.agent_band facets=c.suns.b.facets %}
+    </div>
+    <h3>{{ c.result.a.name }} vs {{ c.result.b.name }}</h3>
+    <p>{{ c.summary }}</p>
+  </a>
+  {%- endfor -%}
+</div>
+
+{% include compare-footer.html %}

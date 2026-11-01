@@ -27,7 +27,7 @@ source_filename: open-barnet-gov-uk-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: open.barnet.gov.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 19:48:50 2026 GMT\n  hsts: null\ndomains:\n- domain: barnet.gov.uk\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-barnet-gov-uk/refs/heads/main/security/open-barnet-gov-uk-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/open-barnet-gov-uk/security/open-barnet-gov-uk-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Open Data

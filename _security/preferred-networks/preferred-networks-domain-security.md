@@ -43,7 +43,7 @@ source_filename: preferred-networks-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.preferred.jp\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 29 23:59:59 2026 GMT\n  hsts: false\n- host: docs.plamo.preferredai.jp\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 20 13:21:39 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\n- host: api.platform.preferredai.jp\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 07:15:18 2026 GMT\n  hsts: null\ndomains:\n- domain: preferred.jp\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: preferredai.jp\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/security/preferred-networks-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/preferred-networks/security/preferred-networks-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

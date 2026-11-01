@@ -8,49 +8,79 @@ api_specs:
   label: Fly.io Machines API
   slug: machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-machines-api-openapi.yml
+  url: https://artifacts.apis.io/fly-io/openapi/fly-io-machines-api-openapi.yml
 - filename: fly-io-extensions-api-openapi.yml
   format: yaml
   label: Fly.io Extensions API
   slug: extensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-extensions-api-openapi.yml
+  url: https://artifacts.apis.io/fly-io/openapi/fly-io-extensions-api-openapi.yml
 - filename: fly-io-apps-api-openapi.yml
   format: yaml
   label: fly-io Apps API
   slug: fly-io-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-apps-api-openapi.yml
+  url: https://artifacts.apis.io/fly-io/openapi/fly-io-apps-api-openapi.yml
 - filename: fly-io-sso-api-openapi.yml
   format: yaml
   label: fly-io SSO API
   slug: fly-io-sso-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-sso-api-openapi.yml
+  url: https://artifacts.apis.io/fly-io/openapi/fly-io-sso-api-openapi.yml
 - filename: fly-io-tokens-api-openapi.yml
   format: yaml
   label: fly-io Tokens API
   slug: fly-io-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/fly-io/openapi/fly-io-tokens-api-openapi.yml
 - filename: fly-io-volumes-api-openapi.yml
   format: yaml
   label: fly-io Volumes API
   slug: fly-io-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/fly-io/openapi/fly-io-volumes-api-openapi.yml
 - filename: fly-io-webhooks-api-openapi.yml
   format: yaml
   label: fly-io Webhooks API
   slug: fly-io-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/fly-io/openapi/fly-io-webhooks-api-openapi.yml
 - filename: fly-io-oauth-api-openapi.yml
   format: yaml
   label: Fly Io O Auth API
   slug: fly-io-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/fly-io/openapi/fly-io-oauth-api-openapi.yml
+- filename: fly-io-organizations-api-openapi.yml
+  format: yaml
+  label: Fly Io Organizations API
+  slug: fly-io-organizations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fly-io/openapi/fly-io-organizations-api-openapi.yml
+- filename: fly-io-platform-api-openapi.yml
+  format: yaml
+  label: Fly Io Platform API
+  slug: fly-io-platform-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fly-io/openapi/fly-io-platform-api-openapi.yml
+- filename: fly-io-postgres-clusters-api-openapi.yml
+  format: yaml
+  label: Fly Io Postgres Clusters API
+  slug: fly-io-postgres-clusters-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fly-io/openapi/fly-io-postgres-clusters-api-openapi.yml
+- filename: fly-io-secrets-api-openapi.yml
+  format: yaml
+  label: Fly Io Secrets API
+  slug: fly-io-secrets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fly-io/openapi/fly-io-secrets-api-openapi.yml
+- filename: fly-io-tls-certificates-api-openapi.yml
+  format: yaml
+  label: Fly Io TLS Certificates API
+  slug: fly-io-tls-certificates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fly-io/openapi/fly-io-tls-certificates-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -86,7 +116,7 @@ source_filename: fly-io-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fly-io-extensions-api-openapi.yml, openapi/fly-io-machines-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: flySharedSecret\n  type: http\n  scheme: bearer\n  description: Shared secret provided by Fly.io to the extension provider. Fly.io includes this\n    secret in an Authorization Bearer header on all requests to the provider's API for verification.\n  sources:\n  - openapi/fly-io-extensions-api-openapi.yml\n  - openapi/fly-io-machines-api-openapi.yml\n- name: webhookHmac\n  type: apiKey\n  in: header\n  parameter: X-Fly-Signature\n  description: HMAC-SHA256 signature of the raw request body, computed using the webhook signing\n    secret. Recipients must verify this signature before processing the payload.\n  sources:\n  - openapi/fly-io-extensions-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/authentication/fly-io-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fly-io/authentication/fly-io-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Platform

@@ -5,25 +5,25 @@ api_specs:
   label: RustFS Health API
   slug: rustfs-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rustfs/refs/heads/main/openapi/rustfs-health-api-openapi.yml
+  url: https://artifacts.apis.io/rustfs/openapi/rustfs-health-api-openapi.yml
 - filename: rustfs-minio-api-openapi.yml
   format: yaml
   label: RustFS Minio API
   slug: rustfs-minio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rustfs/refs/heads/main/openapi/rustfs-minio-api-openapi.yml
+  url: https://artifacts.apis.io/rustfs/openapi/rustfs-minio-api-openapi.yml
 - filename: rustfs-rustfs-api-api-openapi.yml
   format: yaml
   label: RustFS RustFS API
   slug: rustfs-rustfs-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rustfs/refs/heads/main/openapi/rustfs-rustfs-api-api-openapi.yml
+  url: https://artifacts.apis.io/rustfs/openapi/rustfs-rustfs-api-api-openapi.yml
 - filename: rustfs-rustfs-api-openapi.yml
   format: yaml
   label: RustFS Rustfs API
   slug: rustfs-rustfs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rustfs/refs/heads/main/openapi/rustfs-rustfs-api-openapi.yml
+  url: https://artifacts.apis.io/rustfs/openapi/rustfs-rustfs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: rustfs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: rustfs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 31 13:38:11 2026 GMT\n  hsts: false\ndomains:\n- domain: rustfs.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rustfs/refs/heads/main/security/rustfs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rustfs/security/rustfs-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

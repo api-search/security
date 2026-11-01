@@ -8,19 +8,19 @@ api_specs:
   label: CalorieNinjas Imagetextnutrition API
   slug: calorie-ninjas-imagetextnutrition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calorie-ninjas/refs/heads/main/openapi/calorie-ninjas-imagetextnutrition-api-openapi.yml
+  url: https://artifacts.apis.io/calorie-ninjas/openapi/calorie-ninjas-imagetextnutrition-api-openapi.yml
 - filename: calorie-ninjas-nutrition-api-openapi.yml
   format: yaml
   label: CalorieNinjas Nutrition API
   slug: calorie-ninjas-nutrition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calorie-ninjas/refs/heads/main/openapi/calorie-ninjas-nutrition-api-openapi.yml
+  url: https://artifacts.apis.io/calorie-ninjas/openapi/calorie-ninjas-nutrition-api-openapi.yml
 - filename: calorie-ninjas-recipe-api-openapi.yml
   format: yaml
   label: CalorieNinjas Recipe API
   slug: calorie-ninjas-recipe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calorie-ninjas/refs/heads/main/openapi/calorie-ninjas-recipe-api-openapi.yml
+  url: https://artifacts.apis.io/calorie-ninjas/openapi/calorie-ninjas-recipe-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -47,7 +47,7 @@ source_filename: calorie-ninjas-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/calorieninjas-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-Api-Key\n  sources:\n  - openapi/calorieninjas-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/calorie-ninjas/refs/heads/main/authentication/calorie-ninjas-authentication.yml
+source_yaml_url: https://artifacts.apis.io/calorie-ninjas/authentication/calorie-ninjas-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Beverages

@@ -8,7 +8,7 @@ api_specs:
   label: Department of Education Schools API
   slug: department-of-education-schools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-education/refs/heads/main/openapi/department-of-education-schools-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-education/openapi/department-of-education-schools-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -35,7 +35,7 @@ source_filename: department-of-education-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/department-of-education-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyQuery\n  type: apiKey\n  in: query\n  parameter: api_key\n  sources:\n  - openapi/department-of-education-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/department-of-education/refs/heads/main/authentication/department-of-education-authentication.yml
+source_yaml_url: https://artifacts.apis.io/department-of-education/authentication/department-of-education-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - College Scorecard

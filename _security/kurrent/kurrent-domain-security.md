@@ -5,49 +5,49 @@ api_specs:
   label: Kurrent Admin API
   slug: kurrent-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-admin-api-openapi.yml
+  url: https://artifacts.apis.io/kurrent/openapi/kurrent-admin-api-openapi.yml
 - filename: kurrent-gossip-api-openapi.yml
   format: yaml
   label: Kurrent Gossip API
   slug: kurrent-gossip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-gossip-api-openapi.yml
+  url: https://artifacts.apis.io/kurrent/openapi/kurrent-gossip-api-openapi.yml
 - filename: kurrent-info-api-openapi.yml
   format: yaml
   label: Kurrent Info API
   slug: kurrent-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-info-api-openapi.yml
+  url: https://artifacts.apis.io/kurrent/openapi/kurrent-info-api-openapi.yml
 - filename: kurrent-projections-api-openapi.yml
   format: yaml
   label: Kurrent Projections API
   slug: kurrent-projections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-projections-api-openapi.yml
+  url: https://artifacts.apis.io/kurrent/openapi/kurrent-projections-api-openapi.yml
 - filename: kurrent-statistics-api-openapi.yml
   format: yaml
   label: Kurrent Statistics API
   slug: kurrent-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/kurrent/openapi/kurrent-statistics-api-openapi.yml
 - filename: kurrent-streams-api-openapi.yml
   format: yaml
   label: Kurrent Streams API
   slug: kurrent-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-streams-api-openapi.yml
+  url: https://artifacts.apis.io/kurrent/openapi/kurrent-streams-api-openapi.yml
 - filename: kurrent-subscriptions-api-openapi.yml
   format: yaml
   label: Kurrent Subscriptions API
   slug: kurrent-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/kurrent/openapi/kurrent-subscriptions-api-openapi.yml
 - filename: kurrent-users-api-openapi.yml
   format: yaml
   label: Kurrent Users API
   slug: kurrent-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-users-api-openapi.yml
+  url: https://artifacts.apis.io/kurrent/openapi/kurrent-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,7 +81,7 @@ source_filename: kurrent-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.kurrent.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 16:22:03 2026 GMT\n  hsts: false\n- host: docs.kurrent.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 16:09:38 2026 GMT\n  hsts: false\ndomains:\n- domain: kurrent.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/security/kurrent-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kurrent/security/kurrent-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -7,7 +7,7 @@ api_specs:
   label: PolicyCheck Chatgpt API
   slug: policycheck-tools-chatgpt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/policycheck-tools/refs/heads/main/openapi/policycheck-tools-chatgpt-api-openapi.yml
+  url: https://artifacts.apis.io/policycheck-tools/openapi/policycheck-tools-chatgpt-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://policyc
   \ sends it so the check is attributed\n    to the caller's audit trail (with agent_id and transaction_ref), but the endpoint answers without it.\n- id: apiKey\n  type: apiKey\n  in: header\n  name: X-API-Key\n  applies_to:\n  - GET /api/v1/audit-log\n  - GET /api/v1/compliance-report\n  - POST /api/v1/signed-assessment (optional; attributes the check to your audit trail)\n  evidence:\n  - 'GET /api/v1/audit-log -> 401 {\"error\":\"X-API-Key header required\"}; no WWW-Authenticate header'\n  - 'agent card securitySchemes.apiKey: type apiKey, in header, name X-API-Key'\n  key_issuance:\n    self_serve: false\n    signup_url: null\n    contact: api@policycheck.tools\n    note: 'Agent card: \"Free tier: 100 requests/minute. Contact api@policycheck.tools for higher limits.\" No docs page explains how to obtain a key.'\n  key_format: undocumented\n- id: x402\n  type: payment\n  in: header\n  name: X-PAYMENT\n  applies_to:\n  - POST /api/x402/analyze\n  evidence:\n  - 'POST /api/x402/analyze\
   \ {} -> 402 with PAYMENT-REQUIRED header (x402Version 2, $0.03 USDC on Base)'\n  note: Payment-gated, not identity-gated; see x402/policycheck-tools-x402.yml.\noauth2: false\nopenid_connect: false\nmutual_tls: false\nprotected_resource_metadata: false\ndynamic_client_registration: false\ndelegated_identity: false\nin_spec:\n  security_schemes_declared: false\n  note: >-\n    The published OpenAPI declares no components.securitySchemes and no security requirement, which is accurate\n    for the two anonymous operations it contains but leaves the X-API-Key endpoints entirely outside the\n    contract. derive-authentication.py therefore produced nothing; this profile is built from the docs, the\n    agent card and live probes.\ngaps:\n- No self-serve key issuance; no documented key format, rotation or revocation.\n- The agent card says every call needs X-API-Key; the docs and the live endpoints say the analysis surface is free and anonymous. Agents that trust the card will stall on a credential\
   \ they cannot obtain.\n- No WWW-Authenticate challenge on the 401, so a client cannot discover the scheme from the response.\n- No OAuth, OIDC or RFC 9728 metadata anywhere (all /.well-known discovery paths 404).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/policycheck-tools/refs/heads/main/authentication/policycheck-tools-authentication.yml
+source_yaml_url: https://artifacts.apis.io/policycheck-tools/authentication/policycheck-tools-authentication.yml
 summary_line: 3 schemes
 tags:
 - Company

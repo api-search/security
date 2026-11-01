@@ -5,37 +5,37 @@ api_specs:
   label: Brown University Collections API
   slug: brown-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/openapi/brown-collections-api-openapi.yml
+  url: https://artifacts.apis.io/brown/openapi/brown-collections-api-openapi.yml
 - filename: brown-discovery-api-openapi.yml
   format: yaml
   label: Brown University Discovery API
   slug: brown-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/openapi/brown-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/brown/openapi/brown-discovery-api-openapi.yml
 - filename: brown-iiif-image-api-openapi.yml
   format: yaml
   label: Brown University IIIF Image API
   slug: brown-iiif-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/openapi/brown-iiif-image-api-openapi.yml
+  url: https://artifacts.apis.io/brown/openapi/brown-iiif-image-api-openapi.yml
 - filename: brown-iiif-presentation-api-openapi.yml
   format: yaml
   label: Brown University IIIF Presentation API
   slug: brown-iiif-presentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/openapi/brown-iiif-presentation-api-openapi.yml
+  url: https://artifacts.apis.io/brown/openapi/brown-iiif-presentation-api-openapi.yml
 - filename: brown-items-api-openapi.yml
   format: yaml
   label: Brown University Items API
   slug: brown-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/openapi/brown-items-api-openapi.yml
+  url: https://artifacts.apis.io/brown/openapi/brown-items-api-openapi.yml
 - filename: brown-search-api-openapi.yml
   format: yaml
   label: Brown University Search API
   slug: brown-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/openapi/brown-search-api-openapi.yml
+  url: https://artifacts.apis.io/brown/openapi/brown-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,7 +81,7 @@ source_filename: brown-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.brown.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 12:44:20 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: repository.library.brown.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 08:14:32 2026 GMT\n  hsts: false\n- host: iiif.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: brown.edu\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: iiif.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/security/brown-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/brown/security/brown-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Education

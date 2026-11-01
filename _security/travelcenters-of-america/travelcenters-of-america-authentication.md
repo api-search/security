@@ -8,37 +8,37 @@ api_specs:
   label: TravelCenters of America Fuel Codes API
   slug: travelcenters-of-america-fuel-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelcenters-of-america/refs/heads/main/openapi/travelcenters-of-america-fuel-codes-api-openapi.yml
+  url: https://artifacts.apis.io/travelcenters-of-america/openapi/travelcenters-of-america-fuel-codes-api-openapi.yml
 - filename: travelcenters-of-america-locations-api-openapi.yml
   format: yaml
   label: TravelCenters of America Locations API
   slug: travelcenters-of-america-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelcenters-of-america/refs/heads/main/openapi/travelcenters-of-america-locations-api-openapi.yml
+  url: https://artifacts.apis.io/travelcenters-of-america/openapi/travelcenters-of-america-locations-api-openapi.yml
 - filename: travelcenters-of-america-parking-api-openapi.yml
   format: yaml
   label: TravelCenters of America Parking API
   slug: travelcenters-of-america-parking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelcenters-of-america/refs/heads/main/openapi/travelcenters-of-america-parking-api-openapi.yml
+  url: https://artifacts.apis.io/travelcenters-of-america/openapi/travelcenters-of-america-parking-api-openapi.yml
 - filename: travelcenters-of-america-pricing-api-openapi.yml
   format: yaml
   label: TravelCenters of America Pricing API
   slug: travelcenters-of-america-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelcenters-of-america/refs/heads/main/openapi/travelcenters-of-america-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/travelcenters-of-america/openapi/travelcenters-of-america-pricing-api-openapi.yml
 - filename: travelcenters-of-america-showers-api-openapi.yml
   format: yaml
   label: TravelCenters of America Showers API
   slug: travelcenters-of-america-showers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelcenters-of-america/refs/heads/main/openapi/travelcenters-of-america-showers-api-openapi.yml
+  url: https://artifacts.apis.io/travelcenters-of-america/openapi/travelcenters-of-america-showers-api-openapi.yml
 - filename: travelcenters-of-america-truck-service-api-openapi.yml
   format: yaml
   label: TravelCenters of America Truck Service API
   slug: travelcenters-of-america-truck-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelcenters-of-america/refs/heads/main/openapi/travelcenters-of-america-truck-service-api-openapi.yml
+  url: https://artifacts.apis.io/travelcenters-of-america/openapi/travelcenters-of-america-truck-service-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: travelcenters-of-america-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/travelcenters-of-america-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: API access token obtained via developer.accessta.com\n  sources:\n  - openapi/travelcenters-of-america-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/travelcenters-of-america/refs/heads/main/authentication/travelcenters-of-america-authentication.yml
+source_yaml_url: https://artifacts.apis.io/travelcenters-of-america/authentication/travelcenters-of-america-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Travel Centers

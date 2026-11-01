@@ -7,85 +7,85 @@ api_specs:
   label: Pennsylvania State University Buildings API
   slug: pennsylvania-state-university-buildings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennsylvania-state-university/refs/heads/main/openapi/pennsylvania-state-university-buildings-api-openapi.yml
+  url: https://artifacts.apis.io/pennsylvania-state-university/openapi/pennsylvania-state-university-buildings-api-openapi.yml
 - filename: pennsylvania-state-university-campuses-api-openapi.yml
   format: yaml
   label: Pennsylvania State University Campuses API
   slug: pennsylvania-state-university-campuses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennsylvania-state-university/refs/heads/main/openapi/pennsylvania-state-university-campuses-api-openapi.yml
+  url: https://artifacts.apis.io/pennsylvania-state-university/openapi/pennsylvania-state-university-campuses-api-openapi.yml
 - filename: pennsylvania-state-university-events-api-openapi.yml
   format: yaml
   label: Pennsylvania State University Events API
   slug: pennsylvania-state-university-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennsylvania-state-university/refs/heads/main/openapi/pennsylvania-state-university-events-api-openapi.yml
+  url: https://artifacts.apis.io/pennsylvania-state-university/openapi/pennsylvania-state-university-events-api-openapi.yml
 - filename: pennsylvania-state-university-health-api-openapi.yml
   format: yaml
   label: Pennsylvania State University Health API
   slug: pennsylvania-state-university-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennsylvania-state-university/refs/heads/main/openapi/pennsylvania-state-university-health-api-openapi.yml
+  url: https://artifacts.apis.io/pennsylvania-state-university/openapi/pennsylvania-state-university-health-api-openapi.yml
 - filename: pennsylvania-state-university-rooms-api-openapi.yml
   format: yaml
   label: Pennsylvania State University Rooms API
   slug: pennsylvania-state-university-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennsylvania-state-university/refs/heads/main/openapi/pennsylvania-state-university-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/pennsylvania-state-university/openapi/pennsylvania-state-university-rooms-api-openapi.yml
 - filename: pennsylvania-state-university-collections-api-openapi.yml
   format: yaml
   label: Pennsylvania State University Collections API
   slug: pennsylvania-state-university-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennsylvania-state-university/refs/heads/main/openapi/pennsylvania-state-university-collections-api-openapi.yml
+  url: https://artifacts.apis.io/pennsylvania-state-university/openapi/pennsylvania-state-university-collections-api-openapi.yml
 - filename: pennsylvania-state-university-dois-api-openapi.yml
   format: yaml
   label: Pennsylvania State University Dois API
   slug: pennsylvania-state-university-dois-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennsylvania-state-university/refs/heads/main/openapi/pennsylvania-state-university-dois-api-openapi.yml
+  url: https://artifacts.apis.io/pennsylvania-state-university/openapi/pennsylvania-state-university-dois-api-openapi.yml
 - filename: pennsylvania-state-university-featured-resources-api-openapi.yml
   format: yaml
   label: Pennsylvania State University Featured Resources API
   slug: pennsylvania-state-university-featured-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennsylvania-state-university/refs/heads/main/openapi/pennsylvania-state-university-featured-resources-api-openapi.yml
+  url: https://artifacts.apis.io/pennsylvania-state-university/openapi/pennsylvania-state-university-featured-resources-api-openapi.yml
 - filename: pennsylvania-state-university-files-api-openapi.yml
   format: yaml
   label: Pennsylvania State University Files API
   slug: pennsylvania-state-university-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennsylvania-state-university/refs/heads/main/openapi/pennsylvania-state-university-files-api-openapi.yml
+  url: https://artifacts.apis.io/pennsylvania-state-university/openapi/pennsylvania-state-university-files-api-openapi.yml
 - filename: pennsylvania-state-university-ingest-api-openapi.yml
   format: yaml
   label: Pennsylvania State University Ingest API
   slug: pennsylvania-state-university-ingest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennsylvania-state-university/refs/heads/main/openapi/pennsylvania-state-university-ingest-api-openapi.yml
+  url: https://artifacts.apis.io/pennsylvania-state-university/openapi/pennsylvania-state-university-ingest-api-openapi.yml
 - filename: pennsylvania-state-university-organization-api-openapi.yml
   format: yaml
   label: Pennsylvania State University Organization API
   slug: pennsylvania-state-university-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennsylvania-state-university/refs/heads/main/openapi/pennsylvania-state-university-organization-api-openapi.yml
+  url: https://artifacts.apis.io/pennsylvania-state-university/openapi/pennsylvania-state-university-organization-api-openapi.yml
 - filename: pennsylvania-state-university-publication-api-openapi.yml
   format: yaml
   label: Pennsylvania State University Publication API
   slug: pennsylvania-state-university-publication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennsylvania-state-university/refs/heads/main/openapi/pennsylvania-state-university-publication-api-openapi.yml
+  url: https://artifacts.apis.io/pennsylvania-state-university/openapi/pennsylvania-state-university-publication-api-openapi.yml
 - filename: pennsylvania-state-university-uploads-api-openapi.yml
   format: yaml
   label: Pennsylvania State University Uploads API
   slug: pennsylvania-state-university-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennsylvania-state-university/refs/heads/main/openapi/pennsylvania-state-university-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/pennsylvania-state-university/openapi/pennsylvania-state-university-uploads-api-openapi.yml
 - filename: pennsylvania-state-university-user-api-openapi.yml
   format: yaml
   label: Pennsylvania State University User API
   slug: pennsylvania-state-university-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennsylvania-state-university/refs/heads/main/openapi/pennsylvania-state-university-user-api-openapi.yml
+  url: https://artifacts.apis.io/pennsylvania-state-university/openapi/pennsylvania-state-university-user-api-openapi.yml
 auth_types:
 - apiKey
 - none
@@ -153,7 +153,7 @@ source_yaml: "generated: '2026-08-30'\nmethod: generated\nx-evidence: probed\nso
   \ X-API-Key\n  description: >-\n    License key issued by Penn State University Libraries. Requested through\n    https://metadata.libraries.psu.edu/ — not self-service.\n  verified: >-\n    GET https://metadata.libraries.psu.edu/v1/organizations without the header returns 401\n    application/json {\"message\":\"401: Request not authorized. Please provide a valid API key for\n    access.\",\"code\":401} (probed 2026-08-30).\n  sources:\n  - openapi/pennsylvania-state-university-researcher-metadata-api-openapi.yml\n  - examples/pennsylvania-state-university-rmd-unauthenticated-example.json\n- name: scholarsphere-api-key\n  api: ScholarSphere API\n  x-operator: institution\n  type: apiKey\n  in: header\n  parameter: X_API_KEY\n  description: >-\n    Key obtained from the ScholarSphere team at Penn State University Libraries; the spec states it\n    is included in the header of all requests. Note the underscore form of the header name — it is\n    X_API_KEY, not X-API-Key, and differs from\
   \ the sibling RMD service.\n  verified: >-\n    GET https://scholarsphere.psu.edu/api/v1/dois without the header returns 401 application/json\n    (probed 2026-08-30).\n  sources:\n  - openapi/pennsylvania-state-university-scholarsphere-api-openapi.yml\n  - examples/pennsylvania-state-university-scholarsphere-unauthenticated-example.json\n- name: lionspacefis-open\n  api: LionSpaceFIS Facilities API\n  x-operator: institution\n  type: none\n  description: >-\n    No authentication. The Office of Physical Plant facilities API answers unauthenticated GETs.\n  verified: >-\n    GET https://apps.opp.psu.edu/fis-api/v1/campuses returns 200 application/json and\n    /fis-api/health returns 200 with appStatus UP, both with no credential (probed 2026-08-30).\n  sources:\n  - examples/pennsylvania-state-university-listCampuses-example.json\n- name: etda-oai-open\n  api: ETDA OAI-PMH provider\n  x-operator: institution\n  type: none\n  description: >-\n    OAI-PMH is an open harvesting protocol;\
   \ no credential, no registration.\n  verified: >-\n    GET https://etda.libraries.psu.edu/catalog/oai?verb=Identify returns 200 text/xml\n    (probed 2026-08-30).\n- name: incommon-shibboleth-idp\n  api: Penn State Identity Federation (InCommon)\n  x-operator: institution\n  type: saml\n  description: >-\n    Institutional SSO, not an API credential. entityID urn:mace:incommon:psu.edu; IdP at\n    as1.fim.psu.edu speaking Shibboleth 1.0, SAML 1.1 and SAML 2.0. This is what stands in front of\n    every internal Penn State service and is the reason most of the institution's REST surface is\n    unreadable from outside.\n  verified: >-\n    https://as1.fim.psu.edu/idp/shibboleth returns 200 application/xml (9,398 bytes) directly from\n    Penn State, and https://mdq.incommon.org/entities/urn%3Amace%3Aincommon%3Apsu.edu returns 200\n    application/samlmetadata+xml from the federation (both probed 2026-08-30).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pennsylvania-state-university/refs/heads/main/authentication/pennsylvania-state-university-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pennsylvania-state-university/authentication/pennsylvania-state-university-authentication.yml
 summary_line: apiKey/none/saml · 5 schemes
 tags:
 - Education

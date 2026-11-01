@@ -5,13 +5,13 @@ api_specs:
   label: SPIFFE Workload API
   slug: spiffe-workload-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spiffe/refs/heads/main/asyncapi/spiffe-workload-asyncapi.yml
+  url: https://artifacts.apis.io/spiffe/asyncapi/spiffe-workload-asyncapi.yml
 - filename: spiffe-bundle-api-openapi.yml
   format: yaml
   label: SPIFFE Bundle API
   slug: spiffe-bundle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spiffe/refs/heads/main/openapi/spiffe-bundle-api-openapi.yml
+  url: https://artifacts.apis.io/spiffe/openapi/spiffe-bundle-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +40,7 @@ source_filename: spiffe-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: spiffe.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 05:17:40 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: spiffe.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spiffe/refs/heads/main/security/spiffe-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/spiffe/security/spiffe-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Authentication

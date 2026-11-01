@@ -8,73 +8,73 @@ api_specs:
   label: Glassnode Addresses API
   slug: glassnode-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glassnode/refs/heads/main/openapi/glassnode-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/glassnode/openapi/glassnode-addresses-api-openapi.yml
 - filename: glassnode-derivatives-api-openapi.yml
   format: yaml
   label: Glassnode Derivatives API
   slug: glassnode-derivatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glassnode/refs/heads/main/openapi/glassnode-derivatives-api-openapi.yml
+  url: https://artifacts.apis.io/glassnode/openapi/glassnode-derivatives-api-openapi.yml
 - filename: glassnode-distribution-api-openapi.yml
   format: yaml
   label: Glassnode Distribution API
   slug: glassnode-distribution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glassnode/refs/heads/main/openapi/glassnode-distribution-api-openapi.yml
+  url: https://artifacts.apis.io/glassnode/openapi/glassnode-distribution-api-openapi.yml
 - filename: glassnode-indicators-api-openapi.yml
   format: yaml
   label: Glassnode Indicators API
   slug: glassnode-indicators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glassnode/refs/heads/main/openapi/glassnode-indicators-api-openapi.yml
+  url: https://artifacts.apis.io/glassnode/openapi/glassnode-indicators-api-openapi.yml
 - filename: glassnode-macro-api-openapi.yml
   format: yaml
   label: Glassnode Macro API
   slug: glassnode-macro-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glassnode/refs/heads/main/openapi/glassnode-macro-api-openapi.yml
+  url: https://artifacts.apis.io/glassnode/openapi/glassnode-macro-api-openapi.yml
 - filename: glassnode-market-api-openapi.yml
   format: yaml
   label: Glassnode Market API
   slug: glassnode-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glassnode/refs/heads/main/openapi/glassnode-market-api-openapi.yml
+  url: https://artifacts.apis.io/glassnode/openapi/glassnode-market-api-openapi.yml
 - filename: glassnode-metadata-api-openapi.yml
   format: yaml
   label: Glassnode Metadata API
   slug: glassnode-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glassnode/refs/heads/main/openapi/glassnode-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/glassnode/openapi/glassnode-metadata-api-openapi.yml
 - filename: glassnode-options-api-openapi.yml
   format: yaml
   label: Glassnode Options API
   slug: glassnode-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glassnode/refs/heads/main/openapi/glassnode-options-api-openapi.yml
+  url: https://artifacts.apis.io/glassnode/openapi/glassnode-options-api-openapi.yml
 - filename: glassnode-supply-api-openapi.yml
   format: yaml
   label: Glassnode Supply API
   slug: glassnode-supply-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glassnode/refs/heads/main/openapi/glassnode-supply-api-openapi.yml
+  url: https://artifacts.apis.io/glassnode/openapi/glassnode-supply-api-openapi.yml
 - filename: glassnode-transactions-api-openapi.yml
   format: yaml
   label: Glassnode Transactions API
   slug: glassnode-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glassnode/refs/heads/main/openapi/glassnode-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/glassnode/openapi/glassnode-transactions-api-openapi.yml
 - filename: glassnode-treasuries-api-openapi.yml
   format: yaml
   label: Glassnode Treasuries API
   slug: glassnode-treasuries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glassnode/refs/heads/main/openapi/glassnode-treasuries-api-openapi.yml
+  url: https://artifacts.apis.io/glassnode/openapi/glassnode-treasuries-api-openapi.yml
 - filename: glassnode-user-api-openapi.yml
   format: yaml
   label: Glassnode User API
   slug: glassnode-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glassnode/refs/heads/main/openapi/glassnode-user-api-openapi.yml
+  url: https://artifacts.apis.io/glassnode/openapi/glassnode-user-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -102,7 +102,7 @@ source_filename: glassnode-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/glassnode-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-Api-Key\n  description: Glassnode API key with institutional or paid plan.\n  sources:\n  - openapi/glassnode-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/glassnode/refs/heads/main/authentication/glassnode-authentication.yml
+source_yaml_url: https://artifacts.apis.io/glassnode/authentication/glassnode-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Web3

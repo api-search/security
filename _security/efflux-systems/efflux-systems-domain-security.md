@@ -26,7 +26,7 @@ source_filename: efflux-systems-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: effluxsystems.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 29 08:29:27 2026 GMT\n  hsts: null\ndomains:\n- domain: effluxsystems.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/efflux-systems/refs/heads/main/security/efflux-systems-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/efflux-systems/security/efflux-systems-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

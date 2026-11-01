@@ -28,7 +28,7 @@ source_filename: bloom-institute-of-technology-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bloomtech.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 30 14:13:27 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: bloomtech.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloom-institute-of-technology/refs/heads/main/security/bloom-institute-of-technology-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bloom-institute-of-technology/security/bloom-institute-of-technology-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

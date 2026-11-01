@@ -5,31 +5,31 @@ api_specs:
   label: LinkAGI Model API Anthropic-style route API
   slug: linkagi-model-api-anthropic-style-route-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkagi-model-api/refs/heads/main/openapi/linkagi-model-api-anthropic-style-route-api-openapi.yml
+  url: https://artifacts.apis.io/linkagi-model-api/openapi/linkagi-model-api-anthropic-style-route-api-openapi.yml
 - filename: linkagi-model-api-discovery-api-openapi.yml
   format: yaml
   label: LinkAGI Model API Discovery API
   slug: linkagi-model-api-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkagi-model-api/refs/heads/main/openapi/linkagi-model-api-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/linkagi-model-api/openapi/linkagi-model-api-discovery-api-openapi.yml
 - filename: linkagi-model-api-gemini-style-route-api-openapi.yml
   format: yaml
   label: LinkAGI Model API Gemini-style route API
   slug: linkagi-model-api-gemini-style-route-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkagi-model-api/refs/heads/main/openapi/linkagi-model-api-gemini-style-route-api-openapi.yml
+  url: https://artifacts.apis.io/linkagi-model-api/openapi/linkagi-model-api-gemini-style-route-api-openapi.yml
 - filename: linkagi-model-api-openai-compatible-api-openapi.yml
   format: yaml
   label: LinkAGI Model API OpenAI compatible API
   slug: linkagi-model-api-openai-compatible-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkagi-model-api/refs/heads/main/openapi/linkagi-model-api-openai-compatible-api-openapi.yml
+  url: https://artifacts.apis.io/linkagi-model-api/openapi/linkagi-model-api-openai-compatible-api-openapi.yml
 - filename: linkagi-model-api-public-metadata-api-openapi.yml
   format: yaml
   label: LinkAGI Model API Public metadata API
   slug: linkagi-model-api-public-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkagi-model-api/refs/heads/main/openapi/linkagi-model-api-public-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/linkagi-model-api/openapi/linkagi-model-api-public-metadata-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,7 +62,7 @@ source_filename: linkagi-model-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.linktoagi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 05:19:27 2026 GMT\n  hsts: false\n- host: api.linktoagi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 05:19:27 2026 GMT\n  hsts: false\ndomains:\n- domain: linktoagi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linkagi-model-api/refs/heads/main/security/linkagi-model-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/linkagi-model-api/security/linkagi-model-api-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Artificial Intelligence

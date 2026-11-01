@@ -9,103 +9,103 @@ api_specs:
   label: Composio Auth Configs API
   slug: composio-auth-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-auth-configs-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-auth-configs-api-openapi.yml
 - filename: composio-authentication-api-openapi.yml
   format: yaml
   label: Composio Authentication API
   slug: composio-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-authentication-api-openapi.yml
 - filename: composio-cli-api-openapi.yml
   format: yaml
   label: Composio CLI API
   slug: composio-cli-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-cli-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-cli-api-openapi.yml
 - filename: composio-cli-authentication-api-openapi.yml
   format: yaml
   label: Composio CLI Authentication API
   slug: composio-cli-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-cli-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-cli-authentication-api-openapi.yml
 - filename: composio-connected-accounts-api-openapi.yml
   format: yaml
   label: Composio Connected Accounts API
   slug: composio-connected-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-connected-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-connected-accounts-api-openapi.yml
 - filename: composio-files-api-openapi.yml
   format: yaml
   label: Composio Files API
   slug: composio-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-files-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-files-api-openapi.yml
 - filename: composio-logs-api-openapi.yml
   format: yaml
   label: Composio Logs API
   slug: composio-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-logs-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-logs-api-openapi.yml
 - filename: composio-mcp-api-openapi.yml
   format: yaml
   label: Composio MCP API
   slug: composio-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-mcp-api-openapi.yml
 - filename: composio-migration-api-openapi.yml
   format: yaml
   label: Composio Migration API
   slug: composio-migration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-migration-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-migration-api-openapi.yml
 - filename: composio-organization-management-api-openapi.yml
   format: yaml
   label: Composio Organization Management API
   slug: composio-organization-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-organization-management-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-organization-management-api-openapi.yml
 - filename: composio-projects-api-openapi.yml
   format: yaml
   label: Composio Projects API
   slug: composio-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-projects-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-projects-api-openapi.yml
 - filename: composio-tool-router-api-openapi.yml
   format: yaml
   label: Composio Tool Router API
   slug: composio-tool-router-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-tool-router-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-tool-router-api-openapi.yml
 - filename: composio-toolkits-api-openapi.yml
   format: yaml
   label: Composio Toolkits API
   slug: composio-toolkits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-toolkits-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-toolkits-api-openapi.yml
 - filename: composio-tools-api-openapi.yml
   format: yaml
   label: Composio Tools API
   slug: composio-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-tools-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-tools-api-openapi.yml
 - filename: composio-triggers-api-openapi.yml
   format: yaml
   label: Composio Triggers API
   slug: composio-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-triggers-api-openapi.yml
 - filename: composio-webhook-endpoints-api-openapi.yml
   format: yaml
   label: Composio Webhook Endpoints API
   slug: composio-webhook-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-webhook-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-webhook-endpoints-api-openapi.yml
 - filename: composio-webhook-subscriptions-api-openapi.yml
   format: yaml
   label: Composio Webhook Subscriptions API
   slug: composio-webhook-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-webhook-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-webhook-subscriptions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -156,7 +156,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/composio-openapi-original.json, openapi/composio-openapi-original.yml\ndocs: https://docs.composio.dev/faq/api_key/api_key\nnotes: >-\n  The Composio platform API is API-key authenticated (project, user, and org keys via\n  header, plus a cookie session for the dashboard). API keys can carry scoped\n  permissions (e.g. MCP, files, realtime routes). Distinct from this, Composio manages\n  OAuth2 flows on behalf of end users to connect third-party toolkits (delegated auth);\n  those tokens are held by Composio and never exposed to the agent, so they are not a\n  securityScheme on this API.\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - cookie\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: Project API key authentication\n  sources:\n  - openapi/composio-openapi-original.json\n  - openapi/composio-openapi-original.yml\n- name: UserApiKeyAuth\n  type:\
   \ apiKey\n  in: header\n  parameter: x-user-api-key\n  description: User API key authentication\n  sources:\n  - openapi/composio-openapi-original.json\n- name: CookieAuth\n  type: apiKey\n  in: cookie\n  parameter: authToken\n  description: Cookie-based session authentication\n  sources:\n  - openapi/composio-openapi-original.json\n- name: OrgApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-org-api-key\n  description: Organization API key authentication\n  sources:\n  - openapi/composio-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/authentication/composio-authentication.yml
+source_yaml_url: https://artifacts.apis.io/composio/authentication/composio-authentication.yml
 summary_line: apiKey · 4 schemes
 tags:
 - AI Agents

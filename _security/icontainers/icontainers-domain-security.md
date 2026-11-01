@@ -5,31 +5,31 @@ api_specs:
   label: iContainers Bookings API
   slug: icontainers-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/icontainers/refs/heads/main/openapi/icontainers-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/icontainers/openapi/icontainers-bookings-api-openapi.yml
 - filename: icontainers-documents-api-openapi.yml
   format: yaml
   label: iContainers Documents API
   slug: icontainers-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/icontainers/refs/heads/main/openapi/icontainers-documents-api-openapi.yml
+  url: https://artifacts.apis.io/icontainers/openapi/icontainers-documents-api-openapi.yml
 - filename: icontainers-places-api-openapi.yml
   format: yaml
   label: iContainers Places API
   slug: icontainers-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/icontainers/refs/heads/main/openapi/icontainers-places-api-openapi.yml
+  url: https://artifacts.apis.io/icontainers/openapi/icontainers-places-api-openapi.yml
 - filename: icontainers-quotes-api-openapi.yml
   format: yaml
   label: iContainers Quotes API
   slug: icontainers-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/icontainers/refs/heads/main/openapi/icontainers-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/icontainers/openapi/icontainers-quotes-api-openapi.yml
 - filename: icontainers-rates-api-openapi.yml
   format: yaml
   label: iContainers Rates API
   slug: icontainers-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/icontainers/refs/heads/main/openapi/icontainers-rates-api-openapi.yml
+  url: https://artifacts.apis.io/icontainers/openapi/icontainers-rates-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: icontainers-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.icontainers.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 27 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.icontainers.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 13 23:59:59 2026 GMT\n  hsts: false\n- host: brutus.icontainers.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 13 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: icontainers.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/icontainers/refs/heads/main/security/icontainers-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/icontainers/security/icontainers-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -9,13 +9,13 @@ api_specs:
   label: Northern Powergrid Catalog API
   slug: northern-powergrid-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/openapi/northern-powergrid-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/northern-powergrid/openapi/northern-powergrid-catalog-api-openapi.yml
 - filename: northern-powergrid-dataset-api-openapi.yml
   format: yaml
   label: Northern Powergrid Dataset API
   slug: northern-powergrid-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/openapi/northern-powergrid-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/northern-powergrid/openapi/northern-powergrid-dataset-api-openapi.yml
 auth_types:
 - none
 - apiKey
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: openapi/norther
   \  - authorizationCode\n  anonymous_access: true\nschemes:\n- name: anonymous\n  type: none\n  description: >-\n    No credential required. The catalogue, dataset metadata, facets and the records of the datasets\n    Northern Powergrid publishes openly all answer to unauthenticated callers, subject to the\n    anonymous daily quota. Roughly 44 of the 102 datasets are metadata-visible but records-gated and\n    return no rows to anonymous callers.\n  sources:\n  - live probe 2026-07-27\n- name: apikey\n  type: apiKey\n  in: query\n  parameter: apikey\n  description: API key to make authenticated requests.\n  sources:\n  - openapi/northern-powergrid-open-data-explore-api-v2-0-openapi.json\n  - openapi/northern-powergrid-open-data-explore-api-v2-1-openapi.json\n- name: apikey-header\n  type: http\n  scheme: Apikey\n  in: header\n  parameter: Authorization\n  format: \"Authorization: Apikey <API_KEY>\"\n  description: >-\n    The platform's recommended way to pass the API key, documented but\
   \ absent from the OpenAPI.\n    Preferred over the query parameter because headers are not retained in browser history or\n    server logs.\n  recommended: true\n  sources:\n  - https://help.huwise.com/apis/ods-explore-v2/#section/Authentication/Providing-API-keys-within-requests\n- name: oauth2\n  type: oauth2\n  description: >-\n    OAuth 2.0 authorization-code flow for third-party applications acting on behalf of a portal user.\n    RFC 6749 compliant, bearer tokens per RFC 6750. Applications are registered per domain from the\n    account \"My applications\" tab; authorization codes expire after 1 hour and are exchanged for a\n    bearer token plus a refresh token.\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://northernpowergrid.opendatasoft.com/oauth2/authorize/\n    tokenUrl: https://northernpowergrid.opendatasoft.com/oauth2/token/\n    refresh: true\n    client_types: [confidential, public]\n    scopes: [all]\n  sources:\n  - https://help.huwise.com/apis/ods-explore-v2/#section/Authentication/Using-OAuth2-authorization\n\
   \  - live probe 2026-07-27\ncredential_acquisition:\n  signup: https://northernpowergrid.opendatasoft.com/signup/\n  login: https://northernpowergrid.opendatasoft.com/account/login/\n  cost: free\n  effect: >-\n    A free portal account raises the daily API allowance above the anonymous 5,000 and unlocks the\n    records of the datasets that are hidden from anonymous callers.\nrelated:\n  scopes: scopes/northern-powergrid-scopes.yml\n  conventions: conventions/northern-powergrid-conventions.yml\n  rate_limits: rate-limits/northern-powergrid-rate-limits.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/authentication/northern-powergrid-authentication.yml
+source_yaml_url: https://artifacts.apis.io/northern-powergrid/authentication/northern-powergrid-authentication.yml
 summary_line: none/apiKey/oauth2 · 4 schemes
 tags:
 - Energy

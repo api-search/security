@@ -8,37 +8,37 @@ api_specs:
   label: Airspace Technologies Address Books API
   slug: airspace-technologies-address-books-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/openapi/airspace-technologies-address-books-api-openapi.yml
+  url: https://artifacts.apis.io/airspace-technologies/openapi/airspace-technologies-address-books-api-openapi.yml
 - filename: airspace-technologies-invoices-api-openapi.yml
   format: yaml
   label: Airspace Technologies Invoices API
   slug: airspace-technologies-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/openapi/airspace-technologies-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/airspace-technologies/openapi/airspace-technologies-invoices-api-openapi.yml
 - filename: airspace-technologies-labels-api-openapi.yml
   format: yaml
   label: Airspace Technologies Labels API
   slug: airspace-technologies-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/openapi/airspace-technologies-labels-api-openapi.yml
+  url: https://artifacts.apis.io/airspace-technologies/openapi/airspace-technologies-labels-api-openapi.yml
 - filename: airspace-technologies-orders-api-openapi.yml
   format: yaml
   label: Airspace Technologies Orders API
   slug: airspace-technologies-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/openapi/airspace-technologies-orders-api-openapi.yml
+  url: https://artifacts.apis.io/airspace-technologies/openapi/airspace-technologies-orders-api-openapi.yml
 - filename: airspace-technologies-piece-libraries-api-openapi.yml
   format: yaml
   label: Airspace Technologies Piece Libraries API
   slug: airspace-technologies-piece-libraries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/openapi/airspace-technologies-piece-libraries-api-openapi.yml
+  url: https://artifacts.apis.io/airspace-technologies/openapi/airspace-technologies-piece-libraries-api-openapi.yml
 - filename: airspace-technologies-quotes-api-openapi.yml
   format: yaml
   label: Airspace Technologies Quotes API
   slug: airspace-technologies-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/openapi/airspace-technologies-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/airspace-technologies/openapi/airspace-technologies-quotes-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -68,7 +68,7 @@ source_filename: airspace-technologies-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: openapi/airspace-technologies-v2-openapi.json, openapi/airspace-technologies-v3-openapi.json\ndocs: https://api.airspace.com/api-docs/v3\nsummary:\n  types:\n  - http\n  api_key_in: [header]\n  oauth2_flows: []\nschemes:\n- name: Bearer\n  type: http\n  scheme: bearer\n  in: header\n  header: Authorization\n  description: 'Unique API key necessary to make API requests. Sent as Authorization: Bearer <API_KEY> header.'\n  sources:\n  - openapi/airspace-technologies-v2-openapi.json\n  - openapi/airspace-technologies-v3-openapi.json\nnotes:\n- API tokens are provisioned by Airspace, not self-service. Contact integrations@airspace.com to request a key.\n- Once issued, a token does not expire.\n- New integrators are provisioned against the test environment (apitest.airspace.com) first; production access is enabled after end-to-end testing sign-off.\n- No OAuth2 scope surface; access is account-scoped by the issued bearer token.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/authentication/airspace-technologies-authentication.yml
+source_yaml_url: https://artifacts.apis.io/airspace-technologies/authentication/airspace-technologies-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

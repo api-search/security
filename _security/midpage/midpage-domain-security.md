@@ -5,19 +5,19 @@ api_specs:
   label: Midpage Opinions API
   slug: midpage-opinions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midpage/refs/heads/main/openapi/midpage-opinions-api-openapi.yml
+  url: https://artifacts.apis.io/midpage/openapi/midpage-opinions-api-openapi.yml
 - filename: midpage-search-api-openapi.yml
   format: yaml
   label: Midpage Search API
   slug: midpage-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midpage/refs/heads/main/openapi/midpage-search-api-openapi.yml
+  url: https://artifacts.apis.io/midpage/openapi/midpage-search-api-openapi.yml
 - filename: midpage-user-api-openapi.yml
   format: yaml
   label: Midpage User API
   slug: midpage-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midpage/refs/heads/main/openapi/midpage-user-api-openapi.yml
+  url: https://artifacts.apis.io/midpage/openapi/midpage-user-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,7 +62,7 @@ source_filename: midpage-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.midpage.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 01:16:13 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: midpage-docs.apidocumentation.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 17:09:39 2026 GMT\n  hsts: false\n- host: app.midpage.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 23:11:26 2026 GMT\n  hsts: null\ndomains:\n- domain: midpage.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: apidocumentation.com\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/midpage/refs/heads/main/security/midpage-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/midpage/security/midpage-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Legal

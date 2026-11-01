@@ -5,55 +5,55 @@ api_specs:
   label: PlanSource ACA API
   slug: plansource-aca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-aca-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-aca-api-openapi.yml
 - filename: plansource-administrators-api-openapi.yml
   format: yaml
   label: PlanSource Administrators API
   slug: plansource-administrators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-administrators-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-administrators-api-openapi.yml
 - filename: plansource-collections-api-openapi.yml
   format: yaml
   label: PlanSource Collections API
   slug: plansource-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-collections-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-collections-api-openapi.yml
 - filename: plansource-coverage-api-openapi.yml
   format: yaml
   label: PlanSource Coverage API
   slug: plansource-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-coverage-api-openapi.yml
 - filename: plansource-demographic-api-openapi.yml
   format: yaml
   label: PlanSource Demographic API
   slug: plansource-demographic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-demographic-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-demographic-api-openapi.yml
 - filename: plansource-eoi-api-openapi.yml
   format: yaml
   label: PlanSource EOI API
   slug: plansource-eoi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-eoi-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-eoi-api-openapi.yml
 - filename: plansource-page-content-api-openapi.yml
   format: yaml
   label: PlanSource Page Content API
   slug: plansource-page-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-page-content-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-page-content-api-openapi.yml
 - filename: plansource-payroll-api-openapi.yml
   format: yaml
   label: PlanSource Payroll API
   slug: plansource-payroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-payroll-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-payroll-api-openapi.yml
 - filename: plansource-security-api-openapi.yml
   format: yaml
   label: PlanSource Security API
   slug: plansource-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-security-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-security-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -93,7 +93,7 @@ source_filename: plansource-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: plansource.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 13:46:07 2026 GMT\n  hsts: false\n- host: developer.plansource.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 04:38:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.plansource.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 20 14:40:48 2027 GMT\n  hsts: null\ndomains:\n- domain: plansource.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/security/plansource-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/plansource/security/plansource-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Employee Benefits

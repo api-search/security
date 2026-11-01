@@ -8,25 +8,25 @@ api_specs:
   label: Recruitee C API
   slug: recruitee-c-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/openapi/recruitee-c-api-openapi.yml
+  url: https://artifacts.apis.io/recruitee/openapi/recruitee-c-api-openapi.yml
 - filename: recruitee-i-api-openapi.yml
   format: yaml
   label: Recruitee I API
   slug: recruitee-i-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/openapi/recruitee-i-api-openapi.yml
+  url: https://artifacts.apis.io/recruitee/openapi/recruitee-i-api-openapi.yml
 - filename: recruitee-offers-api-openapi.yml
   format: yaml
   label: Recruitee Offers API
   slug: recruitee-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/openapi/recruitee-offers-api-openapi.yml
+  url: https://artifacts.apis.io/recruitee/openapi/recruitee-offers-api-openapi.yml
 - filename: recruitee-p-api-openapi.yml
   format: yaml
   label: Recruitee P API
   slug: recruitee-p-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/openapi/recruitee-p-api-openapi.yml
+  url: https://artifacts.apis.io/recruitee/openapi/recruitee-p-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -61,7 +61,7 @@ source_filename: recruitee-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: derived\nsource: openapi/recruitee-ats-api-openapi.yml, openapi/recruitee-partners-production-secret-openapi.yml,\n  openapi/recruitee-partners-release-candidate-secret-openapi.yml, openapi/recruitee-partners-release-candidate-token-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\nschemes:\n- name: sec0\n  type: oauth2\n  flows: []\n  sources:\n  - openapi/recruitee-ats-api-openapi.yml\n  - openapi/recruitee-partners-release-candidate-token-openapi.yml\n- name: sec0\n  type: apiKey\n  in: header\n  parameter: RT-PARTNER-SECRET\n  sources:\n  - openapi/recruitee-partners-production-secret-openapi.yml\n  - openapi/recruitee-partners-release-candidate-secret-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/authentication/recruitee-authentication.yml
+source_yaml_url: https://artifacts.apis.io/recruitee/authentication/recruitee-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Recruiting

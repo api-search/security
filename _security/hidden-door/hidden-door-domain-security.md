@@ -27,7 +27,7 @@ source_filename: hidden-door-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hiddendoor.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 16:43:56 2026 GMT\n  hsts: false\ndomains:\n- domain: hiddendoor.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hidden-door/refs/heads/main/security/hidden-door-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hidden-door/security/hidden-door-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

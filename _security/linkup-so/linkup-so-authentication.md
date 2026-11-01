@@ -7,25 +7,25 @@ api_specs:
   label: Linkup Credits API
   slug: linkup-so-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkup-so/refs/heads/main/openapi/linkup-so-credits-api-openapi.yml
+  url: https://artifacts.apis.io/linkup-so/openapi/linkup-so-credits-api-openapi.yml
 - filename: linkup-so-fetch-api-openapi.yml
   format: yaml
   label: Linkup Fetch API
   slug: linkup-so-fetch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkup-so/refs/heads/main/openapi/linkup-so-fetch-api-openapi.yml
+  url: https://artifacts.apis.io/linkup-so/openapi/linkup-so-fetch-api-openapi.yml
 - filename: linkup-so-research-api-openapi.yml
   format: yaml
   label: Linkup Research API
   slug: linkup-so-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkup-so/refs/heads/main/openapi/linkup-so-research-api-openapi.yml
+  url: https://artifacts.apis.io/linkup-so/openapi/linkup-so-research-api-openapi.yml
 - filename: linkup-so-search-api-openapi.yml
   format: yaml
   label: Linkup Search API
   slug: linkup-so-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkup-so/refs/heads/main/openapi/linkup-so-search-api-openapi.yml
+  url: https://artifacts.apis.io/linkup-so/openapi/linkup-so-search-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -53,7 +53,7 @@ source_filename: linkup-so-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/linkup-so-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: 'Pass your Linkup API key as `Authorization: Bearer <API_KEY>`.'\n  sources:\n  - openapi/linkup-so-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linkup-so/refs/heads/main/authentication/linkup-so-authentication.yml
+source_yaml_url: https://artifacts.apis.io/linkup-so/authentication/linkup-so-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

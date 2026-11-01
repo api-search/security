@@ -5,19 +5,19 @@ api_specs:
   label: Amiibo API Amiibo API
   slug: amiibo-amiibo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amiibo/refs/heads/main/openapi/amiibo-amiibo-api-openapi.yml
+  url: https://artifacts.apis.io/amiibo/openapi/amiibo-amiibo-api-openapi.yml
 - filename: amiibo-metadata-api-openapi.yml
   format: yaml
   label: Amiibo API Metadata API
   slug: amiibo-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amiibo/refs/heads/main/openapi/amiibo-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/amiibo/openapi/amiibo-metadata-api-openapi.yml
 - filename: amiibo-reference-api-openapi.yml
   format: yaml
   label: Amiibo API Reference API
   slug: amiibo-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amiibo/refs/heads/main/openapi/amiibo-reference-api-openapi.yml
+  url: https://artifacts.apis.io/amiibo/openapi/amiibo-reference-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -42,7 +42,7 @@ source_filename: amiibo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: amiiboapi.org\n  https: false\ndomains:\n- domain: amiiboapi.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amiibo/refs/heads/main/security/amiibo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amiibo/security/amiibo-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Nintendo

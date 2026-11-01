@@ -7,7 +7,7 @@ api_specs:
   label: domob Reporting API
   slug: domob-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/openapi/domob-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/domob/openapi/domob-reporting-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: >-\n  https://l
   \      reporting only — a leaked value is a full account takeover on the developer\n      platform.\n    source: Media Data API PDF, section 3 (请求参数 / userInfo)\n  - name: ApiTokenQueryParam\n    api: domob-reporting-api\n    type: apiKey\n    in: query\n    parameter: key\n    required: true\n    scoped: false\n    status: retired-host\n    description: >-\n      Static API token passed as the `key` query-string parameter on every\n      request. Query-string credentials are logged by proxies and servers by\n      default. The API's host (dvx.domob.cn) no longer resolves, so this scheme\n      is documented but not callable.\n    source: reporting_api.md, sections 1-3\nfindings:\n  - id: credentials-in-request-body\n    severity: high\n    detail: >-\n      Account password is a request-payload field on the only live documented\n      API. There is no token layer between the reporting integration and the\n      developer-platform login.\n  - id: shared-signing-key-published\n    severity:\
   \ high\n    detail: >-\n      The AES key used to build the `Token` header is printed verbatim in the\n      provider's own public PDF, so the header cannot authenticate a caller.\n      The key value is deliberately not reproduced in this repository.\n  - id: no-oauth-no-oidc\n    severity: medium\n    detail: >-\n      No oauth2 or openIdConnect scheme is documented on any Domob surface. No\n      /.well-known/openid-configuration or /.well-known/oauth-authorization-server\n      responded with a real document on any host (see well-known/domob-well-known.yml).\n  - id: no-scopes\n    severity: medium\n    detail: >-\n      No permission or scope model is published; access is all-or-nothing per\n      account. Consequently no scopes/ artifact is emitted.\n  - id: no-rotation-policy\n    severity: medium\n    detail: No credential rotation, expiry or revocation policy is documented.\n  - id: plaintext-http-in-legacy-docs\n    severity: medium\n    detail: >-\n      Every worked example\
   \ in reporting_api.md uses http:// (not https://) against\n      dvx.domob.cn, sending the API token in cleartext.\ngated_surfaces:\n  - host: adx.domob.cn\n    status: 401\n    note: >-\n      The Domob ADX endpoint answers HTTP 401 to an anonymous request. Its\n      docking document is on a Feishu wiki that redirects to a BlueFocus SSO\n      login, so its auth scheme could not be read.\n  - host: open.domob.cn\n    status: 200\n    note: >-\n      Self-identifies as \"Domob Open API\" and returns structured error envelopes\n      ({\"error_code\":\"10103\"}), but publishes no discoverable documentation, so\n      no auth scheme could be established.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/authentication/domob-authentication.yml
+source_yaml_url: https://artifacts.apis.io/domob/authentication/domob-authentication.yml
 summary_line: 3 schemes
 tags:
 - Company

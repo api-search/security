@@ -1,17 +1,23 @@
 ---
 api_specs:
+- filename: tado-openapi-generated.yml
+  format: yaml
+  label: tado API
+  slug: tado-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/tado/openapi/_ae-authored/tado-openapi-generated.yml
 - filename: tado-me-api-openapi.yml
   format: yaml
   label: tado Me API
   slug: tado-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tado/refs/heads/main/openapi/tado-me-api-openapi.yml
+  url: https://artifacts.apis.io/tado/openapi/tado-me-api-openapi.yml
 - filename: tado-oauth2-api-openapi.yml
   format: yaml
   label: tado Oauth2 API
   slug: tado-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tado/refs/heads/main/openapi/tado-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/tado/openapi/tado-oauth2-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,7 +47,7 @@ source_filename: tado-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tado.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 19 03:33:43 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: tado.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tado/refs/heads/main/security/tado-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tado/security/tado-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

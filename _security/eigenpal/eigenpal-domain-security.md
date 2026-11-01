@@ -5,37 +5,67 @@ api_specs:
   label: Eigenpal Automations API
   slug: eigenpal-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-automations-api-openapi.yml
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-automations-api-openapi.yml
 - filename: eigenpal-evaluation-api-openapi.yml
   format: yaml
   label: Eigenpal Evaluation API
   slug: eigenpal-evaluation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-evaluation-api-openapi.yml
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-evaluation-api-openapi.yml
 - filename: eigenpal-files-api-openapi.yml
   format: yaml
   label: Eigenpal Files API
   slug: eigenpal-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-files-api-openapi.yml
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-files-api-openapi.yml
 - filename: eigenpal-metadata-api-openapi.yml
   format: yaml
   label: Eigenpal Metadata API
   slug: eigenpal-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-metadata-api-openapi.yml
 - filename: eigenpal-reviews-api-openapi.yml
   format: yaml
   label: Eigenpal Reviews API
   slug: eigenpal-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-reviews-api-openapi.yml
 - filename: eigenpal-runs-api-openapi.yml
   format: yaml
   label: Eigenpal Runs API
   slug: eigenpal-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-runs-api-openapi.yml
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-runs-api-openapi.yml
+- filename: eigenpal-email-servers-api-openapi.yml
+  format: yaml
+  label: Eigenpal Email servers API
+  slug: eigenpal-email-servers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-email-servers-api-openapi.yml
+- filename: eigenpal-folders-api-openapi.yml
+  format: yaml
+  label: Eigenpal Folders API
+  slug: eigenpal-folders-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-folders-api-openapi.yml
+- filename: eigenpal-human-reviews-api-openapi.yml
+  format: yaml
+  label: Eigenpal Human reviews API
+  slug: eigenpal-human-reviews-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-human-reviews-api-openapi.yml
+- filename: eigenpal-models-api-openapi.yml
+  format: yaml
+  label: Eigenpal Models API
+  slug: eigenpal-models-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-models-api-openapi.yml
+- filename: eigenpal-templates-api-openapi.yml
+  format: yaml
+  label: Eigenpal Templates API
+  slug: eigenpal-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-templates-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -82,7 +112,7 @@ source_filename: eigenpal-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.eigenpal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 00:03:26 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.eigenpal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 12:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: studio.eigenpal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 00:03:26 2026 GMT\n  hsts: null\ndomains:\n- domain: eigenpal.com\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/security/eigenpal-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/eigenpal/security/eigenpal-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

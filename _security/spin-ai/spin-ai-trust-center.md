@@ -5,7 +5,7 @@ api_specs:
   label: Spin.AI Entities API
   slug: spin-ai-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spin-ai/refs/heads/main/openapi/spin-ai-entities-api-openapi.yml
+  url: https://artifacts.apis.io/spin-ai/openapi/spin-ai-entities-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -25,7 +25,7 @@ source_filename: spin-ai-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.spin.ai/\nurl: https://trust.spin.ai/\ncertifications:\n- SOC 2\n- PCI DSS\n- HIPAA\n- GDPR\nevidence:\n- source: https://trust.spin.ai/\n  keywords:\n  - soc 2\n  - pci-dss\n  - hipaa\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spin-ai/refs/heads/main/security/spin-ai-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/spin-ai/security/spin-ai-trust-center.yml
 summary_line: SOC 2, PCI DSS, HIPAA, GDPR
 tags:
 - Backup

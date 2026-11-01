@@ -1,23 +1,35 @@
 ---
 api_specs:
-- filename: buywhere-authentication-api-openapi.yml
-  format: yaml
-  label: BuyWhere Authentication API
-  slug: buywhere-authentication-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/openapi/buywhere-authentication-api-openapi.yml
 - filename: buywhere-categories-api-openapi.yml
   format: yaml
   label: BuyWhere Categories API
   slug: buywhere-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/openapi/buywhere-categories-api-openapi.yml
+  url: https://artifacts.apis.io/buywhere/openapi/buywhere-categories-api-openapi.yml
 - filename: buywhere-products-api-openapi.yml
   format: yaml
   label: BuyWhere Products API
   slug: buywhere-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/openapi/buywhere-products-api-openapi.yml
+  url: https://artifacts.apis.io/buywhere/openapi/buywhere-products-api-openapi.yml
+- filename: buywhere-auth-api-openapi.yml
+  format: yaml
+  label: BuyWhere Auth API
+  slug: buywhere-auth-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/buywhere/openapi/buywhere-auth-api-openapi.yml
+- filename: buywhere-featured-api-openapi.yml
+  format: yaml
+  label: BuyWhere Featured API
+  slug: buywhere-featured-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/buywhere/openapi/buywhere-featured-api-openapi.yml
+- filename: buywhere-usage-api-openapi.yml
+  format: yaml
+  label: BuyWhere Usage API
+  slug: buywhere-usage-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/buywhere/openapi/buywhere-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +58,7 @@ source_filename: buywhere-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.buywhere.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 04:27:59 2026 GMT\n  hsts: false\ndomains:\n- domain: buywhere.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/security/buywhere-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/buywhere/security/buywhere-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - E-Commerce

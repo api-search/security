@@ -8,49 +8,49 @@ api_specs:
   label: Delphi Audience API
   slug: delphi-audience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-audience-api-openapi.yml
+  url: https://artifacts.apis.io/delphi/openapi/delphi-audience-api-openapi.yml
 - filename: delphi-clone-api-openapi.yml
   format: yaml
   label: Delphi Clone API
   slug: delphi-clone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-clone-api-openapi.yml
+  url: https://artifacts.apis.io/delphi/openapi/delphi-clone-api-openapi.yml
 - filename: delphi-conversations-api-openapi.yml
   format: yaml
   label: Delphi Conversations API
   slug: delphi-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/delphi/openapi/delphi-conversations-api-openapi.yml
 - filename: delphi-questions-api-openapi.yml
   format: yaml
   label: Delphi Questions API
   slug: delphi-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-questions-api-openapi.yml
+  url: https://artifacts.apis.io/delphi/openapi/delphi-questions-api-openapi.yml
 - filename: delphi-search-api-openapi.yml
   format: yaml
   label: Delphi Search API
   slug: delphi-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-search-api-openapi.yml
+  url: https://artifacts.apis.io/delphi/openapi/delphi-search-api-openapi.yml
 - filename: delphi-tags-api-openapi.yml
   format: yaml
   label: Delphi Tags API
   slug: delphi-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-tags-api-openapi.yml
+  url: https://artifacts.apis.io/delphi/openapi/delphi-tags-api-openapi.yml
 - filename: delphi-usage-api-openapi.yml
   format: yaml
   label: Delphi Usage API
   slug: delphi-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-usage-api-openapi.yml
+  url: https://artifacts.apis.io/delphi/openapi/delphi-usage-api-openapi.yml
 - filename: delphi-voice-api-openapi.yml
   format: yaml
   label: Delphi Voice API
   slug: delphi-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-voice-api-openapi.yml
+  url: https://artifacts.apis.io/delphi/openapi/delphi-voice-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -82,7 +82,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/delphi-openapi.yml\ndocs: https://docs.delphi.ai/advanced/actions/api-immortal-only\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nnotes: >-\n  Delphi uses a single API-key scheme (no OAuth, no scopes). Every request\n  carries an x-api-key header. The key is scoped to a single clone — it can\n  only interact with conversations and users belonging to that clone. API\n  access is available on the Immortal plan; keys are provisioned by Delphi\n  (email support@delphi.ai) and shown only once. Webhook deliveries are\n  authenticated separately with an HMAC signing secret (see asyncapi/).\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  clone_scoped: true\n  provisioning: Immortal plan; request from support@delphi.ai (shown once)\n  docs: https://docs.delphi.ai/advanced/actions/api-immortal-only\n  description: API key scoped to a single clone. Available on the Immortal\
   \ plan; request one\n    from support@delphi.ai.\n  sources:\n  - openapi/delphi-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/authentication/delphi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/delphi/authentication/delphi-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

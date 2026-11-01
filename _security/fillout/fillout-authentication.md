@@ -7,13 +7,13 @@ api_specs:
   label: Fillout Forms API
   slug: fillout-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fillout/refs/heads/main/openapi/fillout-forms-api-openapi.yml
+  url: https://artifacts.apis.io/fillout/openapi/fillout-forms-api-openapi.yml
 - filename: fillout-webhook-api-openapi.yml
   format: yaml
   label: Fillout Webhook API
   slug: fillout-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fillout/refs/heads/main/openapi/fillout-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/fillout/openapi/fillout-webhook-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: fillout-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fillout-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Enter your [Fillout API key](https://build.fillout.com/home/settings/developer).\n    Format: Bearer <api_key>'\n  sources:\n  - openapi/fillout-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fillout/refs/heads/main/authentication/fillout-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fillout/authentication/fillout-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Forms

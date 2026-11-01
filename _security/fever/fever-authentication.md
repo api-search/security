@@ -7,31 +7,31 @@ api_specs:
   label: Fever Authentication API
   slug: fever-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/openapi/fever-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/fever/openapi/fever-authentication-api-openapi.yml
 - filename: fever-feverzone-api-openapi.yml
   format: yaml
   label: Fever FeverZone API
   slug: fever-feverzone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/openapi/fever-feverzone-api-openapi.yml
+  url: https://artifacts.apis.io/fever/openapi/fever-feverzone-api-openapi.yml
 - filename: fever-order-items-api-openapi.yml
   format: yaml
   label: Fever Order Items API
   slug: fever-order-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/openapi/fever-order-items-api-openapi.yml
+  url: https://artifacts.apis.io/fever/openapi/fever-order-items-api-openapi.yml
 - filename: fever-plans-api-openapi.yml
   format: yaml
   label: Fever Plans API
   slug: fever-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/openapi/fever-plans-api-openapi.yml
+  url: https://artifacts.apis.io/fever/openapi/fever-plans-api-openapi.yml
 - filename: fever-sessions-api-openapi.yml
   format: yaml
   label: Fever Sessions API
   slug: fever-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/openapi/fever-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/fever/openapi/fever-sessions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -77,7 +77,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/fever-reporting-api-openapi-original.json\ndocs: https://developer.feverup.com/en/\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - password\n  - authorization_code\n  notes: >-\n    Two distinct auth surfaces. The Reporting API uses an OAuth2 password\n    (resource-owner) flow issuing bearer tokens from POST /v1/auth/token;\n    credentials are provisioned individually by a Fever sales rep. The Fever\n    MCP / event-catalog gateway uses OAuth 2.0 authorization_code with PKCE\n    (S256) and dynamic client registration.\nschemes:\n- name: OAuth2PasswordBearer\n  api: Fever Reporting API\n  type: oauth2\n  flows:\n  - flow: password\n    tokenUrl: /v1/auth/token\n    scopes: 0\n  sources:\n  - openapi/fever-reporting-api-openapi-original.json\n- name: FeverGatewayOAuth\n  api: Fever MCP / Event Catalog\n  type: oauth2\n  flows:\n  - flow: authorization_code\n    pkce: S256\n    authorizationUrl: https://data-search.apigw.feverup.com/authorize\n\
   \    tokenUrl: https://data-search.apigw.feverup.com/token\n    registrationUrl: https://data-search.apigw.feverup.com/register\n    scopes: [openid]\n  sources:\n  - https://data-search.apigw.feverup.com/.well-known/oauth-authorization-server\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/authentication/fever-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fever/authentication/fever-authentication.yml
 summary_line: oauth2 · 2 schemes
 tags:
 - Company

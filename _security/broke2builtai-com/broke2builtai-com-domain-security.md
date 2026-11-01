@@ -5,67 +5,67 @@ api_specs:
   label: broke2built Buy Zero API
   slug: broke2builtai-com-buy-zero-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-buy-zero-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-buy-zero-api-openapi.yml
 - filename: broke2builtai-com-contract-audit-api-openapi.yml
   format: yaml
   label: broke2built Contract Audit API
   slug: broke2builtai-com-contract-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-contract-audit-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-contract-audit-api-openapi.yml
 - filename: broke2builtai-com-interface-xray-api-openapi.yml
   format: yaml
   label: broke2built Interface Xray API
   slug: broke2builtai-com-interface-xray-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-interface-xray-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-interface-xray-api-openapi.yml
 - filename: broke2builtai-com-payer-census-api-openapi.yml
   format: yaml
   label: broke2built Payer Census API
   slug: broke2builtai-com-payer-census-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-payer-census-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-payer-census-api-openapi.yml
 - filename: broke2builtai-com-payout-oracle-api-openapi.yml
   format: yaml
   label: broke2built Payout Oracle API
   slug: broke2builtai-com-payout-oracle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-payout-oracle-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-payout-oracle-api-openapi.yml
 - filename: broke2builtai-com-resolver-allowlist-api-openapi.yml
   format: yaml
   label: broke2built Resolver Allowlist API
   slug: broke2builtai-com-resolver-allowlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-resolver-allowlist-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-resolver-allowlist-api-openapi.yml
 - filename: broke2builtai-com-source-verify-api-openapi.yml
   format: yaml
   label: broke2built Source Verify API
   slug: broke2builtai-com-source-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-source-verify-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-source-verify-api-openapi.yml
 - filename: broke2builtai-com-video-api-openapi.yml
   format: yaml
   label: broke2built Video API
   slug: broke2builtai-com-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-video-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-video-api-openapi.yml
 - filename: broke2builtai-com-vies-check-api-openapi.yml
   format: yaml
   label: broke2built Vies Check API
   slug: broke2builtai-com-vies-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-vies-check-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-vies-check-api-openapi.yml
 - filename: broke2builtai-com-wallet-brief-api-openapi.yml
   format: yaml
   label: broke2built Wallet Brief API
   slug: broke2builtai-com-wallet-brief-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-wallet-brief-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-wallet-brief-api-openapi.yml
 - filename: broke2builtai-com-watch-api-openapi.yml
   format: yaml
   label: broke2built Watch API
   slug: broke2builtai-com-watch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-watch-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-watch-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -105,7 +105,7 @@ source_filename: broke2builtai-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: broke2builtai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 25 03:13:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: aiim.broke2builtai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 17:16:59 2026 GMT\n  hsts: false\n- host: api.broke2builtai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 14 19:00:40 2026 GMT\n  hsts: false\ndomains:\n- domain: broke2builtai.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/security/broke2builtai-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/broke2builtai-com/security/broke2builtai-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

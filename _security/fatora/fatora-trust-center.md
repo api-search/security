@@ -15,7 +15,7 @@ source_filename: fatora-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nprobe: true\nsource: https://fatora.io/ar/security/\nurl: https://fatora.io/ar/security/\ncertifications:\n- PCI DSS\nevidence:\n- source: https://fatora.io/ar/security/\n  keywords:\n  - pci dss\n  - pci-dss\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fatora/refs/heads/main/security/fatora-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/fatora/security/fatora-trust-center.yml
 summary_line: PCI DSS
 tags:
 - Payments

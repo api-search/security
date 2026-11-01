@@ -5,25 +5,25 @@ api_specs:
   label: Dead Drop Documentation API
   slug: dead-drop-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dead-drop/refs/heads/main/openapi/dead-drop-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/dead-drop/openapi/dead-drop-documentation-api-openapi.yml
 - filename: dead-drop-drops-api-openapi.yml
   format: yaml
   label: Dead Drop Drops API
   slug: dead-drop-drops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dead-drop/refs/heads/main/openapi/dead-drop-drops-api-openapi.yml
+  url: https://artifacts.apis.io/dead-drop/openapi/dead-drop-drops-api-openapi.yml
 - filename: dead-drop-health-api-openapi.yml
   format: yaml
   label: Dead Drop Health API
   slug: dead-drop-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dead-drop/refs/heads/main/openapi/dead-drop-health-api-openapi.yml
+  url: https://artifacts.apis.io/dead-drop/openapi/dead-drop-health-api-openapi.yml
 - filename: dead-drop-history-api-openapi.yml
   format: yaml
   label: Dead Drop History API
   slug: dead-drop-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dead-drop/refs/heads/main/openapi/dead-drop-history-api-openapi.yml
+  url: https://artifacts.apis.io/dead-drop/openapi/dead-drop-history-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: dead-drop-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dead-drop.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 02:29:00 2026 GMT\n  hsts: true\n  hsts_max_age: 86400\n- host: api.dead-drop.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 13 17:57:35 2026 GMT\n  hsts: null\ndomains:\n- domain: dead-drop.xyz\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dead-drop/refs/heads/main/security/dead-drop-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dead-drop/security/dead-drop-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Messaging

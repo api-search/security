@@ -8,7 +8,7 @@ api_specs:
   label: Napkin Visuals API
   slug: napkin-visuals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/napkin/refs/heads/main/openapi/napkin-visuals-api-openapi.yml
+  url: https://artifacts.apis.io/napkin/openapi/napkin-visuals-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -56,7 +56,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://api.napkin.ai/oauth-user-authentication\ndocs: https://api.napkin.ai/api/napkin-api-documentation\nsummary:\n  types: [http, oauth2]\n  http_scheme: bearer\n  api_key_in: [header]\n  oauth2_flows: [authorizationCode]\nschemes:\n  - name: bearerAuth\n    type: http\n    scheme: bearer\n    description: >-\n      Napkin account API token sent as `Authorization: Bearer YOUR_API_TOKEN`. Create tokens in\n      the web app: app.napkin.ai -> Account/Team Space Settings -> Developers -> \"Create new API\n      token\". Multiple tokens per account are allowed. API-token auth added in v1.0.0 (2026-01-29).\n    obtain: https://app.napkin.ai/signin\n    sources: [openapi/napkin-openapi.yml]\n  - name: oauth2\n    type: oauth2\n    description: >-\n      OAuth 2.0 authorization-code flow for third-party apps acting on behalf of Napkin users.\n      Applications must be approved by Napkin (contact api@napkin.ai) to obtain client\
   \ credentials.\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://api.napkin.ai/v1/oauth/authorize\n        tokenUrl: https://api.napkin.ai/v1/oauth/token\n        revokeUrl: https://api.napkin.ai/v1/oauth/revoke\n        scopes: [user, generation]\n    token_lifetimes:\n      access_token: 1 hour\n      refresh_token: 30 days\n      authorization_code: 10 minutes\n    sources: [openapi/napkin-openapi.yml]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/napkin/refs/heads/main/authentication/napkin-authentication.yml
+source_yaml_url: https://artifacts.apis.io/napkin/authentication/napkin-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

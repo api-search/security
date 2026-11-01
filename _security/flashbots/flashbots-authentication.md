@@ -8,7 +8,7 @@ api_specs:
   label: Flashbots Auction & MEV Share Relay (JSON RPC) API
   slug: flashbots-flashbots-auction-mev-share-relay-json-rpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flashbots/refs/heads/main/openapi/flashbots-flashbots-auction-mev-share-relay-json-rpc-api-openapi.yml
+  url: https://artifacts.apis.io/flashbots/openapi/flashbots-flashbots-auction-mev-share-relay-json-rpc-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: flashbots-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/flashbots-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: flashbotsSignature\n  type: apiKey\n  in: header\n  parameter: X-Flashbots-Signature\n  description: 'Format: <publicKeyAddress>:<EIP-191 signature of keccak256(body)>'\n  sources:\n  - openapi/flashbots-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flashbots/refs/heads/main/authentication/flashbots-authentication.yml
+source_yaml_url: https://artifacts.apis.io/flashbots/authentication/flashbots-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - MEV

@@ -5,25 +5,25 @@ api_specs:
   label: FrameThrower Discovery API
   slug: framethrower-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/framethrower/refs/heads/main/openapi/framethrower-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/framethrower/openapi/framethrower-discovery-api-openapi.yml
 - filename: framethrower-films-api-openapi.yml
   format: yaml
   label: FrameThrower Films API
   slug: framethrower-films-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/framethrower/refs/heads/main/openapi/framethrower-films-api-openapi.yml
+  url: https://artifacts.apis.io/framethrower/openapi/framethrower-films-api-openapi.yml
 - filename: framethrower-frames-api-openapi.yml
   format: yaml
   label: FrameThrower Frames API
   slug: framethrower-frames-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/framethrower/refs/heads/main/openapi/framethrower-frames-api-openapi.yml
+  url: https://artifacts.apis.io/framethrower/openapi/framethrower-frames-api-openapi.yml
 - filename: framethrower-search-api-openapi.yml
   format: yaml
   label: FrameThrower Search API
   slug: framethrower-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/framethrower/refs/heads/main/openapi/framethrower-search-api-openapi.yml
+  url: https://artifacts.apis.io/framethrower/openapi/framethrower-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: framethrower-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: framethrower.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 01:48:19 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: framethrower.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/framethrower/refs/heads/main/security/framethrower-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/framethrower/security/framethrower-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Film

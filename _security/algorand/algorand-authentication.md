@@ -8,85 +8,85 @@ api_specs:
   label: Algorand Common API
   slug: algorand-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-common-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-common-api-openapi.yml
 - filename: algorand-key-api-openapi.yml
   format: yaml
   label: Algorand Key API
   slug: algorand-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-key-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-key-api-openapi.yml
 - filename: algorand-lookup-api-openapi.yml
   format: yaml
   label: Algorand Lookup API
   slug: algorand-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-lookup-api-openapi.yml
 - filename: algorand-master-key-api-openapi.yml
   format: yaml
   label: Algorand Master Key API
   slug: algorand-master-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-master-key-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-master-key-api-openapi.yml
 - filename: algorand-multisig-api-openapi.yml
   format: yaml
   label: Algorand Multisig API
   slug: algorand-multisig-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-multisig-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-multisig-api-openapi.yml
 - filename: algorand-private-api-openapi.yml
   format: yaml
   label: Algorand Private API
   slug: algorand-private-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-private-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-private-api-openapi.yml
 - filename: algorand-program-api-openapi.yml
   format: yaml
   label: Algorand Program API
   slug: algorand-program-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-program-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-program-api-openapi.yml
 - filename: algorand-public-api-openapi.yml
   format: yaml
   label: Algorand Public API
   slug: algorand-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-public-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-public-api-openapi.yml
 - filename: algorand-search-api-openapi.yml
   format: yaml
   label: Algorand Search API
   slug: algorand-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-search-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-search-api-openapi.yml
 - filename: algorand-swagger-json-api-openapi.yml
   format: yaml
   label: Algorand Swagger.json API
   slug: algorand-swagger-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-swagger-json-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-swagger-json-api-openapi.yml
 - filename: algorand-transaction-api-openapi.yml
   format: yaml
   label: Algorand Transaction API
   slug: algorand-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-transaction-api-openapi.yml
 - filename: algorand-versions-api-openapi.yml
   format: yaml
   label: Algorand Versions API
   slug: algorand-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-versions-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-versions-api-openapi.yml
 - filename: algorand-wallet-api-openapi.yml
   format: yaml
   label: Algorand Wallet API
   slug: algorand-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-wallet-api-openapi.yml
 - filename: algorand-wallets-api-openapi.yml
   format: yaml
   label: Algorand Wallets API
   slug: algorand-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-wallets-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -121,7 +121,7 @@ source_filename: algorand-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/algorand-algod-openapi.json, openapi/algorand-kmd-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: api_key\n  type: apiKey\n  in: header\n  parameter: X-Algo-API-Token\n  description: Generated header parameter. This token can be generated using the Goal command\n    line tool. Example value ='b7e384d0317b8050ce45900a94a1931e28540e1f69b2d242b424659c341b4697'\n  sources:\n  - openapi/algorand-algod-openapi.json\n- name: api_key\n  type: apiKey\n  in: header\n  parameter: X-KMD-API-Token\n  description: 'Generated header parameter. This value can be found in `/kmd/data/dir/kmd.token`.\n    Example value: ''330b2e4fc9b20f4f89812cf87f1dabeb716d23e3f11aec97a61ff5f750563b78'''\n  sources:\n  - openapi/algorand-kmd-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/authentication/algorand-authentication.yml
+source_yaml_url: https://artifacts.apis.io/algorand/authentication/algorand-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Blockchain

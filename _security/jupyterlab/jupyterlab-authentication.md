@@ -8,37 +8,37 @@ api_specs:
   label: JupyterLab Licenses API
   slug: jupyterlab-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/openapi/jupyterlab-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterlab/openapi/jupyterlab-licenses-api-openapi.yml
 - filename: jupyterlab-listings-api-openapi.yml
   format: yaml
   label: JupyterLab Listings API
   slug: jupyterlab-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/openapi/jupyterlab-listings-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterlab/openapi/jupyterlab-listings-api-openapi.yml
 - filename: jupyterlab-settings-api-openapi.yml
   format: yaml
   label: JupyterLab Settings API
   slug: jupyterlab-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/openapi/jupyterlab-settings-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterlab/openapi/jupyterlab-settings-api-openapi.yml
 - filename: jupyterlab-themes-api-openapi.yml
   format: yaml
   label: JupyterLab Themes API
   slug: jupyterlab-themes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/openapi/jupyterlab-themes-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterlab/openapi/jupyterlab-themes-api-openapi.yml
 - filename: jupyterlab-translations-api-openapi.yml
   format: yaml
   label: JupyterLab Translations API
   slug: jupyterlab-translations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/openapi/jupyterlab-translations-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterlab/openapi/jupyterlab-translations-api-openapi.yml
 - filename: jupyterlab-workspaces-api-openapi.yml
   format: yaml
   label: JupyterLab Workspaces API
   slug: jupyterlab-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/openapi/jupyterlab-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterlab/openapi/jupyterlab-workspaces-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -73,7 +73,7 @@ source_filename: jupyterlab-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/jupyterlab-server-rest-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: token\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Token-based authentication. Use the form: Authorization: token <token>'\n  sources:\n  - openapi/jupyterlab-server-rest-api-openapi.yml\n- name: xsrf\n  type: apiKey\n  in: header\n  parameter: X-XSRFToken\n  description: XSRF token required for browser-based requests.\n  sources:\n  - openapi/jupyterlab-server-rest-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/authentication/jupyterlab-authentication.yml
+source_yaml_url: https://artifacts.apis.io/jupyterlab/authentication/jupyterlab-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Data Science

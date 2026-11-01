@@ -5,31 +5,31 @@ api_specs:
   label: iec-cim Customers API
   slug: iec-cim-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iec-cim/refs/heads/main/openapi/iec-cim-customers-api-openapi.yml
+  url: https://artifacts.apis.io/iec-cim/openapi/iec-cim-customers-api-openapi.yml
 - filename: iec-cim-metering-api-openapi.yml
   format: yaml
   label: iec-cim Metering API
   slug: iec-cim-metering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iec-cim/refs/heads/main/openapi/iec-cim-metering-api-openapi.yml
+  url: https://artifacts.apis.io/iec-cim/openapi/iec-cim-metering-api-openapi.yml
 - filename: iec-cim-network-assets-api-openapi.yml
   format: yaml
   label: iec-cim Network Assets API
   slug: iec-cim-network-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iec-cim/refs/heads/main/openapi/iec-cim-network-assets-api-openapi.yml
+  url: https://artifacts.apis.io/iec-cim/openapi/iec-cim-network-assets-api-openapi.yml
 - filename: iec-cim-outages-api-openapi.yml
   format: yaml
   label: iec-cim Outages API
   slug: iec-cim-outages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iec-cim/refs/heads/main/openapi/iec-cim-outages-api-openapi.yml
+  url: https://artifacts.apis.io/iec-cim/openapi/iec-cim-outages-api-openapi.yml
 - filename: iec-cim-work-orders-api-openapi.yml
   format: yaml
   label: iec-cim Work Orders API
   slug: iec-cim-work-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iec-cim/refs/heads/main/openapi/iec-cim-work-orders-api-openapi.yml
+  url: https://artifacts.apis.io/iec-cim/openapi/iec-cim-work-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: iec-cim-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.iec.ch\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 10 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: iec.ch\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iec-cim/refs/heads/main/security/iec-cim-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/iec-cim/security/iec-cim-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Energy

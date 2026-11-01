@@ -5,19 +5,19 @@ api_specs:
   label: Banzai Events API
   slug: banzai-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banzai/refs/heads/main/openapi/banzai-events-api-openapi.yml
+  url: https://artifacts.apis.io/banzai/openapi/banzai-events-api-openapi.yml
 - filename: banzai-intro-api-openapi.yml
   format: yaml
   label: Banzai Intro API
   slug: banzai-intro-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banzai/refs/heads/main/openapi/banzai-intro-api-openapi.yml
+  url: https://artifacts.apis.io/banzai/openapi/banzai-intro-api-openapi.yml
 - filename: banzai-reports-api-openapi.yml
   format: yaml
   label: Banzai Reports API
   slug: banzai-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banzai/refs/heads/main/openapi/banzai-reports-api-openapi.yml
+  url: https://artifacts.apis.io/banzai/openapi/banzai-reports-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -74,7 +74,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.banzai.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 22:59:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.demio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 17:44:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: my.demio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  hsts_preload: true\n  note: >-\n    API host (baseURL https://my.demio.com/api/v1). Probed manually on 2026-08-06 —\n    GET /api/v1/ping returned HTTP 401 with the HSTS header above.\n- host: publicdemioapi.docs.apiary.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: banzai.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy:\
   \ quarantine\n- domain: demio.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/banzai/refs/heads/main/security/banzai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/banzai/security/banzai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

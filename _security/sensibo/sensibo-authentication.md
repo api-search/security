@@ -8,49 +8,49 @@ api_specs:
   label: Sensibo AC States API
   slug: sensibo-ac-states-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sensibo/refs/heads/main/openapi/sensibo-ac-states-api-openapi.yml
+  url: https://artifacts.apis.io/sensibo/openapi/sensibo-ac-states-api-openapi.yml
 - filename: sensibo-climate-react-api-openapi.yml
   format: yaml
   label: Sensibo Climate React API
   slug: sensibo-climate-react-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sensibo/refs/heads/main/openapi/sensibo-climate-react-api-openapi.yml
+  url: https://artifacts.apis.io/sensibo/openapi/sensibo-climate-react-api-openapi.yml
 - filename: sensibo-devices-api-openapi.yml
   format: yaml
   label: Sensibo Devices API
   slug: sensibo-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sensibo/refs/heads/main/openapi/sensibo-devices-api-openapi.yml
+  url: https://artifacts.apis.io/sensibo/openapi/sensibo-devices-api-openapi.yml
 - filename: sensibo-historical-data-api-openapi.yml
   format: yaml
   label: Sensibo Historical Data API
   slug: sensibo-historical-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sensibo/refs/heads/main/openapi/sensibo-historical-data-api-openapi.yml
+  url: https://artifacts.apis.io/sensibo/openapi/sensibo-historical-data-api-openapi.yml
 - filename: sensibo-measurements-api-openapi.yml
   format: yaml
   label: Sensibo Measurements API
   slug: sensibo-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sensibo/refs/heads/main/openapi/sensibo-measurements-api-openapi.yml
+  url: https://artifacts.apis.io/sensibo/openapi/sensibo-measurements-api-openapi.yml
 - filename: sensibo-schedules-api-openapi.yml
   format: yaml
   label: Sensibo Schedules API
   slug: sensibo-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sensibo/refs/heads/main/openapi/sensibo-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/sensibo/openapi/sensibo-schedules-api-openapi.yml
 - filename: sensibo-timers-api-openapi.yml
   format: yaml
   label: Sensibo Timers API
   slug: sensibo-timers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sensibo/refs/heads/main/openapi/sensibo-timers-api-openapi.yml
+  url: https://artifacts.apis.io/sensibo/openapi/sensibo-timers-api-openapi.yml
 - filename: sensibo-users-api-openapi.yml
   format: yaml
   label: Sensibo Users API
   slug: sensibo-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sensibo/refs/heads/main/openapi/sensibo-users-api-openapi.yml
+  url: https://artifacts.apis.io/sensibo/openapi/sensibo-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -78,7 +78,7 @@ source_filename: sensibo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sensibo-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: apiKey\n  description: Per-account API key generated at https://home.sensibo.com/me/api and passed as\n    the apiKey query parameter on every request.\n  sources:\n  - openapi/sensibo-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sensibo/refs/heads/main/authentication/sensibo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sensibo/authentication/sensibo-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Smart Home

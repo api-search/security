@@ -7,115 +7,115 @@ api_specs:
   label: Pricefinder Appraisals API
   slug: pricefinder-appraisals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/openapi/pricefinder-appraisals-api-openapi.yml
+  url: https://artifacts.apis.io/pricefinder/openapi/pricefinder-appraisals-api-openapi.yml
 - filename: pricefinder-events-api-openapi.yml
   format: yaml
   label: Pricefinder Events API
   slug: pricefinder-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/openapi/pricefinder-events-api-openapi.yml
+  url: https://artifacts.apis.io/pricefinder/openapi/pricefinder-events-api-openapi.yml
 - filename: pricefinder-features-api-openapi.yml
   format: yaml
   label: Pricefinder Features API
   slug: pricefinder-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/openapi/pricefinder-features-api-openapi.yml
+  url: https://artifacts.apis.io/pricefinder/openapi/pricefinder-features-api-openapi.yml
 - filename: pricefinder-images-api-openapi.yml
   format: yaml
   label: Pricefinder Images API
   slug: pricefinder-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/openapi/pricefinder-images-api-openapi.yml
+  url: https://artifacts.apis.io/pricefinder/openapi/pricefinder-images-api-openapi.yml
 - filename: pricefinder-listings-api-openapi.yml
   format: yaml
   label: Pricefinder Listings API
   slug: pricefinder-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/openapi/pricefinder-listings-api-openapi.yml
+  url: https://artifacts.apis.io/pricefinder/openapi/pricefinder-listings-api-openapi.yml
 - filename: pricefinder-names-api-openapi.yml
   format: yaml
   label: Pricefinder Names API
   slug: pricefinder-names-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/openapi/pricefinder-names-api-openapi.yml
+  url: https://artifacts.apis.io/pricefinder/openapi/pricefinder-names-api-openapi.yml
 - filename: pricefinder-postcodes-api-openapi.yml
   format: yaml
   label: Pricefinder Postcodes API
   slug: pricefinder-postcodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/openapi/pricefinder-postcodes-api-openapi.yml
+  url: https://artifacts.apis.io/pricefinder/openapi/pricefinder-postcodes-api-openapi.yml
 - filename: pricefinder-properties-api-openapi.yml
   format: yaml
   label: Pricefinder Properties API
   slug: pricefinder-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/openapi/pricefinder-properties-api-openapi.yml
+  url: https://artifacts.apis.io/pricefinder/openapi/pricefinder-properties-api-openapi.yml
 - filename: pricefinder-references-api-openapi.yml
   format: yaml
   label: Pricefinder References API
   slug: pricefinder-references-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/openapi/pricefinder-references-api-openapi.yml
+  url: https://artifacts.apis.io/pricefinder/openapi/pricefinder-references-api-openapi.yml
 - filename: pricefinder-rentals-api-openapi.yml
   format: yaml
   label: Pricefinder Rentals API
   slug: pricefinder-rentals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/openapi/pricefinder-rentals-api-openapi.yml
+  url: https://artifacts.apis.io/pricefinder/openapi/pricefinder-rentals-api-openapi.yml
 - filename: pricefinder-sales-api-openapi.yml
   format: yaml
   label: Pricefinder Sales API
   slug: pricefinder-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/openapi/pricefinder-sales-api-openapi.yml
+  url: https://artifacts.apis.io/pricefinder/openapi/pricefinder-sales-api-openapi.yml
 - filename: pricefinder-spatial-api-openapi.yml
   format: yaml
   label: Pricefinder Spatial API
   slug: pricefinder-spatial-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/openapi/pricefinder-spatial-api-openapi.yml
+  url: https://artifacts.apis.io/pricefinder/openapi/pricefinder-spatial-api-openapi.yml
 - filename: pricefinder-sso-api-openapi.yml
   format: yaml
   label: Pricefinder SSO API
   slug: pricefinder-sso-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/openapi/pricefinder-sso-api-openapi.yml
+  url: https://artifacts.apis.io/pricefinder/openapi/pricefinder-sso-api-openapi.yml
 - filename: pricefinder-streets-api-openapi.yml
   format: yaml
   label: Pricefinder Streets API
   slug: pricefinder-streets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/openapi/pricefinder-streets-api-openapi.yml
+  url: https://artifacts.apis.io/pricefinder/openapi/pricefinder-streets-api-openapi.yml
 - filename: pricefinder-stubs-api-openapi.yml
   format: yaml
   label: Pricefinder Stubs API
   slug: pricefinder-stubs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/openapi/pricefinder-stubs-api-openapi.yml
+  url: https://artifacts.apis.io/pricefinder/openapi/pricefinder-stubs-api-openapi.yml
 - filename: pricefinder-subscriptions-api-openapi.yml
   format: yaml
   label: Pricefinder Subscriptions API
   slug: pricefinder-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/openapi/pricefinder-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/pricefinder/openapi/pricefinder-subscriptions-api-openapi.yml
 - filename: pricefinder-suburbs-api-openapi.yml
   format: yaml
   label: Pricefinder Suburbs API
   slug: pricefinder-suburbs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/openapi/pricefinder-suburbs-api-openapi.yml
+  url: https://artifacts.apis.io/pricefinder/openapi/pricefinder-suburbs-api-openapi.yml
 - filename: pricefinder-suggest-api-openapi.yml
   format: yaml
   label: Pricefinder Suggest API
   slug: pricefinder-suggest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/openapi/pricefinder-suggest-api-openapi.yml
+  url: https://artifacts.apis.io/pricefinder/openapi/pricefinder-suggest-api-openapi.yml
 - filename: pricefinder-oauth2-api-openapi.yml
   format: yaml
   label: Pricefinder Oauth2 API
   slug: pricefinder-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/openapi/pricefinder-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/pricefinder/openapi/pricefinder-oauth2-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -208,7 +208,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: |\n  POST /oaut
   \ [client_id, client_secret, refresh_token]\n    note: Consumes the refresh token and returns BOTH a new access token and a new\n      refresh token (rotating refresh tokens).\n  scopes: []\n  scopes_note: |\n    NO SCOPES. The contract defines no scope vocabulary, the token request accepts no\n    `scope` parameter, and no scopes/permissions reference page exists on any\n    Pricefinder surface. Authorization is all-or-nothing per credentialed user, with\n    entitlement enforced server-side by commercial subscription (see GET /features,\n    operationId getFeatures, which returns the calling user's UserFeatures\n    entitlement set). This is why no scopes/ artifact is emitted for Pricefinder.\n\ntoken_presentation:\n- style: header\n  example: 'Authorization: Bearer <access_token>'\n  preferred: true\n- style: query\n  example: '?access_token=<access_token>'\n  note: |\n    Documented as a first-class alternative. Bearer tokens in query strings are\n    logged by proxies and appear in\
   \ browser history and referrer headers — RFC 6750\n    section 5.3 and RFC 6819 both discourage it. Recorded as observed, not endorsed.\n\ntoken_response:\n  schema: openapi/pricefinder-api-swagger.json#/definitions/ClientAccessToken\n  fields:\n  - {name: access_token, type: string}\n  - {name: token_type, type: string}\n  - {name: expires_in, type: string, note: typed as string, not integer, in the\n      contract}\n  - {name: refresh_token, type: string}\n\ntoken_endpoint_errors:\n- {status: 401, description: Invalid username/password}\n- {status: 400, description: Bad Request}\n\nopenid_connect:\n  supported: false\n  discovery_probe:\n    url: https://api.pricefinder.com.au/.well-known/openid-configuration\n    status: 404\n    date: '2026-07-26'\n  authorization_server_metadata_probe:\n    url: https://api.pricefinder.com.au/.well-known/oauth-authorization-server\n    status: 404\n    date: '2026-07-26'\n\nmutual_tls: false\napi_keys: false\n\nenforcement_evidence:\n- {probe: 'GET\
   \ https://api.pricefinder.com.au/v1/features', status: 401,\n   note: Anonymous call to a data path rejected.}\n- {probe: 'GET https://api.pricefinder.com.au/v1/stubs/java', status: 401,\n   note: Even the client-library generator requires a token.}\n- {probe: 'POST https://api.pricefinder.com.au/v1/oauth2/token (no credentials)',\n   status: 401, note: The token endpoint itself rejects anonymous callers.}\n- {probe: 'GET https://api.pricefinder.com.au/v1/swagger.json', status: 200,\n   note: The CONTRACT is anonymous. The gate is on data, not on discovery.}\n\nrelated:\n  conventions: conventions/pricefinder-conventions.yml\n  conformance: conformance/pricefinder-conformance.yml\n  well_known: well-known/pricefinder-well-known.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/authentication/pricefinder-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pricefinder/authentication/pricefinder-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Real Estate

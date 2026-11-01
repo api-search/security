@@ -7,37 +7,37 @@ api_specs:
   label: Virgin Money UK ATM API
   slug: virgin-money-uk-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/openapi/virgin-money-uk-atm-api-openapi.yml
+  url: https://artifacts.apis.io/virgin-money-uk/openapi/virgin-money-uk-atm-api-openapi.yml
 - filename: virgin-money-uk-bca-api-openapi.yml
   format: yaml
   label: Virgin Money UK BCA API
   slug: virgin-money-uk-bca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/openapi/virgin-money-uk-bca-api-openapi.yml
+  url: https://artifacts.apis.io/virgin-money-uk/openapi/virgin-money-uk-bca-api-openapi.yml
 - filename: virgin-money-uk-branch-api-openapi.yml
   format: yaml
   label: Virgin Money UK Branch API
   slug: virgin-money-uk-branch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/openapi/virgin-money-uk-branch-api-openapi.yml
+  url: https://artifacts.apis.io/virgin-money-uk/openapi/virgin-money-uk-branch-api-openapi.yml
 - filename: virgin-money-uk-ccc-api-openapi.yml
   format: yaml
   label: Virgin Money UK CCC API
   slug: virgin-money-uk-ccc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/openapi/virgin-money-uk-ccc-api-openapi.yml
+  url: https://artifacts.apis.io/virgin-money-uk/openapi/virgin-money-uk-ccc-api-openapi.yml
 - filename: virgin-money-uk-pca-api-openapi.yml
   format: yaml
   label: Virgin Money UK PCA API
   slug: virgin-money-uk-pca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/openapi/virgin-money-uk-pca-api-openapi.yml
+  url: https://artifacts.apis.io/virgin-money-uk/openapi/virgin-money-uk-pca-api-openapi.yml
 - filename: virgin-money-uk-sme-api-openapi.yml
   format: yaml
   label: Virgin Money UK SME API
   slug: virgin-money-uk-sme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/openapi/virgin-money-uk-sme-api-openapi.yml
+  url: https://artifacts.apis.io/virgin-money-uk/openapi/virgin-money-uk-sme-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -119,7 +119,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: well-known/virgin-money-uk-openid-configuration.json\ndocs: https://developer.virginmoney.com/merged/oidc/\nsummary:\n  types: [oauth2, openIdConnect, mutualTLS]\n  api_key_in: []\n  oauth2_flows: [authorizationCode, clientCredentials]\n  profile: FAPI (Financial-grade API) — UK Open Banking / OBIE Read-Write Standard\n  strong_customer_authentication: true\nschemes:\n- name: OpenIDConnect\n  type: openIdConnect\n  openIdConnectUrl: https://api.prod.ob.virginmoney.com/vmpsd2-psd2prod/psd2-production/.well-known/openid-configuration\n  sources: [well-known/virgin-money-uk-openid-configuration.json]\n  details:\n    issuer: https://api.prod.ob.virginmoney.com/vmpsd2-psd2prod/psd2-production\n    authorization_endpoint: https://api.prod.ob.virginmoney.com/vmpsd2-psd2prod/psd2-production/oidcapi/oauth2/authorize\n    token_endpoint: https://secureapi.prod.ob.virginmoney.com/vmpsd2-psd2prod/psd2-production/oidcapi/oauth2/token\n\
   \    registration_endpoint: https://secureapi.prod.ob.virginmoney.com/vmpsd2-psd2prod/psd2-production/register\n    jwks_uri: https://keystore.openbanking.org.uk/0015800000jf8aKAAQ/0015800000jf8aKAAQ.jwks\n    response_types_supported: [code id_token, code]\n    grant_types_supported: [authorization_code, client_credentials]\n    id_token_signing_alg_values_supported: [PS256]\n    request_object_signing_alg_values_supported: [PS256]\n    acr_values_supported: [urn:openbanking:psd2:sca]\n    subject_types_supported: [pairwise]\n- name: OAuth2\n  type: oauth2\n  sources: [well-known/virgin-money-uk-openid-configuration.json]\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.prod.ob.virginmoney.com/vmpsd2-psd2prod/psd2-production/oidcapi/oauth2/authorize\n    tokenUrl: https://secureapi.prod.ob.virginmoney.com/vmpsd2-psd2prod/psd2-production/oidcapi/oauth2/token\n    scopes: [openid, accounts, payments, fundsconfirmations]\n    note: >-\n      Used for AIS/PIS/CBPII\
   \ consent authorisation; combined with an\n      openbanking_intent_id claim and PSD2 strong customer authentication.\n  - flow: clientCredentials\n    tokenUrl: https://secureapi.prod.ob.virginmoney.com/vmpsd2-psd2prod/psd2-production/oidcapi/oauth2/token\n    note: TPP client-credentials grant to create consent/resource requests.\n- name: mutualTLS\n  type: mutualTLS\n  sources: [well-known/virgin-money-uk-openid-configuration.json]\n  details:\n    token_endpoint_auth_methods_supported: [client_secret_basic, client_secret_post, tls_client_auth, private_key_jwt, client_secret_jwt]\n    tls_client_certificate_bound_access_tokens: true\n    note: >-\n      Mutual-TLS client authentication (tls_client_auth) and certificate-bound\n      access tokens per FAPI. TPPs present OBIE (OBWAC/OBSeal) or eIDAS\n      (QWAC/QSEAL) transport/signing certificates. private_key_jwt also supported.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/authentication/virgin-money-uk-authentication.yml
+source_yaml_url: https://artifacts.apis.io/virgin-money-uk/authentication/virgin-money-uk-authentication.yml
 summary_line: oauth2/openIdConnect/mutualTLS · 3 schemes
 tags:
 - Financial Services

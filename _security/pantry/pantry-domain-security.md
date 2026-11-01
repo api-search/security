@@ -5,13 +5,13 @@ api_specs:
   label: Pantry Basket API
   slug: pantry-basket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pantry/refs/heads/main/openapi/pantry-basket-api-openapi.yml
+  url: https://artifacts.apis.io/pantry/openapi/pantry-basket-api-openapi.yml
 - filename: pantry-pantry-api-openapi.yml
   format: yaml
   label: Pantry API
   slug: pantry-pantry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pantry/refs/heads/main/openapi/pantry-pantry-api-openapi.yml
+  url: https://artifacts.apis.io/pantry/openapi/pantry-pantry-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +40,7 @@ source_filename: pantry-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: getpantry.cloud\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 16:10:45 2026 GMT\n  hsts: false\ndomains:\n- domain: getpantry.cloud\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pantry/refs/heads/main/security/pantry-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pantry/security/pantry-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Data Storage

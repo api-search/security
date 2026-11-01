@@ -8,19 +8,19 @@ api_specs:
   label: Osmosis Agent API
   slug: osmosis-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/openapi/osmosis-agent-api-openapi.yml
+  url: https://artifacts.apis.io/osmosis/openapi/osmosis-agent-api-openapi.yml
 - filename: osmosis-knowledge-api-openapi.yml
   format: yaml
   label: Osmosis Knowledge API
   slug: osmosis-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/openapi/osmosis-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/osmosis/openapi/osmosis-knowledge-api-openapi.yml
 - filename: osmosis-osmosis-agent-improvement-api-api-openapi.yml
   format: yaml
   label: Osmosis Agent Improvement API
   slug: osmosis-osmosis-agent-improvement-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/openapi/osmosis-osmosis-agent-improvement-api-api-openapi.yml
+  url: https://artifacts.apis.io/osmosis/openapi/osmosis-osmosis-agent-improvement-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -47,7 +47,7 @@ source_filename: osmosis-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/osmosis-agent-improvement-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/osmosis-agent-improvement-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/authentication/osmosis-authentication.yml
+source_yaml_url: https://artifacts.apis.io/osmosis/authentication/osmosis-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

@@ -31,7 +31,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://docs.billogram.com/guides/authentication\ndocs: https://docs.billogram.com/guides/authentication\nsummary:\n  types: [http]\n  http_schemes: [basic]\n  transport: https-required\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: >-\n    HTTP Basic Authentication. The API User ID is sent as the username and the\n    API Key as the password, Base64-encoded in the Authorization header\n    (Authorization: Basic base64(API_USER_ID:API_KEY)). All requests must be\n    made over HTTPS.\n  credential_source: >-\n    Created in the Billogram web app under Company Settings -> API -> API Users.\n    Separate API users are recommended per integration for independent access\n    management.\n  environments:\n    sandbox: https://sandbox.billogram.com/api/v2\n    production: https://billogram.com/api/v2\n  environment_separation: >-\n    Credentials are environment-specific; sandbox credentials only work\
   \ against\n    the sandbox base URL and production credentials only against production.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/billogram/refs/heads/main/authentication/billogram-authentication.yml
+source_yaml_url: https://artifacts.apis.io/billogram/authentication/billogram-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

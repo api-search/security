@@ -29,7 +29,7 @@ source_filename: cloudgenix-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://github.com/CloudGenix/sdk-python\ndocs: https://developers.cloudgenix.com/\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  notes: >-\n    Token-based authentication. Callers obtain an auth token (via interactive\n    login, SAML 2.0 SSO, or a static AUTH_TOKEN) and present it on every request\n    in the X-Auth-Token header against the CloudGenix Cloud Controller. MSP /\n    ESP tenant switching is supported by the SDK.\nschemes:\n  - name: authToken\n    type: apiKey\n    in: header\n    parameter: X-Auth-Token\n    description: CloudGenix Cloud Controller auth token, presented on every API request.\n    sources: [https://github.com/CloudGenix/sdk-python]\nlogin_methods:\n  - interactive\n  - saml2.0\n  - static-auth-token\ncontroller_default: https://api.elcapitan.cloudgenix.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudgenix/refs/heads/main/authentication/cloudgenix-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cloudgenix/authentication/cloudgenix-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

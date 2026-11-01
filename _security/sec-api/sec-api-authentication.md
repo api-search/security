@@ -7,43 +7,43 @@ api_specs:
   label: SEC API Filing Stream API
   slug: sec-api-filing-stream-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/asyncapi/sec-api-asyncapi.yml
+  url: https://artifacts.apis.io/sec-api/asyncapi/sec-api-asyncapi.yml
 - filename: sec-api-extractor-api-openapi.yml
   format: yaml
   label: SEC API Extractor API
   slug: sec-api-extractor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/openapi/sec-api-extractor-api-openapi.yml
+  url: https://artifacts.apis.io/sec-api/openapi/sec-api-extractor-api-openapi.yml
 - filename: sec-api-filing-query-api-openapi.yml
   format: yaml
   label: SEC API Filing Query API
   slug: sec-api-filing-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/openapi/sec-api-filing-query-api-openapi.yml
+  url: https://artifacts.apis.io/sec-api/openapi/sec-api-filing-query-api-openapi.yml
 - filename: sec-api-form-13f-api-openapi.yml
   format: yaml
   label: SEC API Form 13F API
   slug: sec-api-form-13f-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/openapi/sec-api-form-13f-api-openapi.yml
+  url: https://artifacts.apis.io/sec-api/openapi/sec-api-form-13f-api-openapi.yml
 - filename: sec-api-full-text-search-api-openapi.yml
   format: yaml
   label: SEC API Full-Text Search API
   slug: sec-api-full-text-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/openapi/sec-api-full-text-search-api-openapi.yml
+  url: https://artifacts.apis.io/sec-api/openapi/sec-api-full-text-search-api-openapi.yml
 - filename: sec-api-insider-trading-api-openapi.yml
   format: yaml
   label: SEC API Insider Trading API
   slug: sec-api-insider-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/openapi/sec-api-insider-trading-api-openapi.yml
+  url: https://artifacts.apis.io/sec-api/openapi/sec-api-insider-trading-api-openapi.yml
 - filename: sec-api-xbrl-api-openapi.yml
   format: yaml
   label: SEC API XBRL API
   slug: sec-api-xbrl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/openapi/sec-api-xbrl-api-openapi.yml
+  url: https://artifacts.apis.io/sec-api/openapi/sec-api-xbrl-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -89,7 +89,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: documented\nsource: https://sec-api.io/docs (query-api, full-text-search, stream-api)\nsummary:\n  types:\n  - apiKey\nschemes:\n- name: apiKeyHeader\n  type: apiKey\n  in: header\n  scheme: Authorization\n  description: >-\n    REST calls authenticate with a single API token from your sec-api.io\n    account, passed directly in the Authorization header with no `Bearer`\n    prefix, e.g. `Authorization: YOUR_API_KEY`.\n  sources:\n  - https://sec-api.io/docs/query-api\n  - openapi/sec-api-openapi.yml\n- name: apiKeyQuery\n  type: apiKey\n  in: query\n  scheme: token\n  description: >-\n    Alternative for REST calls: pass the same API token as the `token` query\n    parameter, e.g. `https://api.sec-api.io?token=YOUR_API_KEY`.\n  sources:\n  - https://sec-api.io/docs/query-api\n  - openapi/sec-api-openapi.yml\n- name: apiKeyWebSocket\n  type: apiKey\n  in: query\n  scheme: apiKey\n  description: >-\n    The real-time Filing Stream WebSocket authenticates\
   \ with the token as the\n    `apiKey` query parameter on the connection URL, e.g.\n    `wss://stream.sec-api.io?apiKey=YOUR_API_KEY`.\n  sources:\n  - https://sec-api.io/docs/stream-api\n  - asyncapi/sec-api-asyncapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/authentication/sec-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sec-api/authentication/sec-api-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - SEC Filings

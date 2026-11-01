@@ -5,61 +5,61 @@ api_specs:
   label: AgendaPro Available Slots API
   slug: agendapro-available-slots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agendapro/refs/heads/main/openapi/agendapro-available-slots-api-openapi.yml
+  url: https://artifacts.apis.io/agendapro/openapi/agendapro-available-slots-api-openapi.yml
 - filename: agendapro-bookings-api-openapi.yml
   format: yaml
   label: AgendaPro Bookings API
   slug: agendapro-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agendapro/refs/heads/main/openapi/agendapro-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/agendapro/openapi/agendapro-bookings-api-openapi.yml
 - filename: agendapro-carts-api-openapi.yml
   format: yaml
   label: AgendaPro Carts API
   slug: agendapro-carts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agendapro/refs/heads/main/openapi/agendapro-carts-api-openapi.yml
+  url: https://artifacts.apis.io/agendapro/openapi/agendapro-carts-api-openapi.yml
 - filename: agendapro-clients-api-openapi.yml
   format: yaml
   label: AgendaPro Clients API
   slug: agendapro-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agendapro/refs/heads/main/openapi/agendapro-clients-api-openapi.yml
+  url: https://artifacts.apis.io/agendapro/openapi/agendapro-clients-api-openapi.yml
 - filename: agendapro-custom-attributes-api-openapi.yml
   format: yaml
   label: AgendaPro Custom Attributes API
   slug: agendapro-custom-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agendapro/refs/heads/main/openapi/agendapro-custom-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/agendapro/openapi/agendapro-custom-attributes-api-openapi.yml
 - filename: agendapro-locations-api-openapi.yml
   format: yaml
   label: AgendaPro Locations API
   slug: agendapro-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agendapro/refs/heads/main/openapi/agendapro-locations-api-openapi.yml
+  url: https://artifacts.apis.io/agendapro/openapi/agendapro-locations-api-openapi.yml
 - filename: agendapro-payment-requests-api-openapi.yml
   format: yaml
   label: AgendaPro Payment Requests API
   slug: agendapro-payment-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agendapro/refs/heads/main/openapi/agendapro-payment-requests-api-openapi.yml
+  url: https://artifacts.apis.io/agendapro/openapi/agendapro-payment-requests-api-openapi.yml
 - filename: agendapro-providers-api-openapi.yml
   format: yaml
   label: AgendaPro Providers API
   slug: agendapro-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agendapro/refs/heads/main/openapi/agendapro-providers-api-openapi.yml
+  url: https://artifacts.apis.io/agendapro/openapi/agendapro-providers-api-openapi.yml
 - filename: agendapro-sales-api-openapi.yml
   format: yaml
   label: AgendaPro Sales API
   slug: agendapro-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agendapro/refs/heads/main/openapi/agendapro-sales-api-openapi.yml
+  url: https://artifacts.apis.io/agendapro/openapi/agendapro-sales-api-openapi.yml
 - filename: agendapro-services-api-openapi.yml
   format: yaml
   label: AgendaPro Services API
   slug: agendapro-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agendapro/refs/heads/main/openapi/agendapro-services-api-openapi.yml
+  url: https://artifacts.apis.io/agendapro/openapi/agendapro-services-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -100,7 +100,7 @@ source_filename: agendapro-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: agendapro.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 08:31:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.agendapro.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 06:23:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: connect.agendapro.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 19 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: agendapro.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agendapro/refs/heads/main/security/agendapro-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/agendapro/security/agendapro-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Appointment Scheduling

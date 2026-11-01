@@ -14,37 +14,37 @@ api_specs:
   label: Synopsys Entitlements API
   slug: synopsys-entitlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/openapi/synopsys-entitlements-api-openapi.yml
+  url: https://artifacts.apis.io/synopsys/openapi/synopsys-entitlements-api-openapi.yml
 - filename: synopsys-issues-api-openapi.yml
   format: yaml
   label: Synopsys Issues API
   slug: synopsys-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/openapi/synopsys-issues-api-openapi.yml
+  url: https://artifacts.apis.io/synopsys/openapi/synopsys-issues-api-openapi.yml
 - filename: synopsys-licenses-api-openapi.yml
   format: yaml
   label: Synopsys Licenses API
   slug: synopsys-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/openapi/synopsys-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/synopsys/openapi/synopsys-licenses-api-openapi.yml
 - filename: synopsys-projects-api-openapi.yml
   format: yaml
   label: Synopsys Projects API
   slug: synopsys-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/openapi/synopsys-projects-api-openapi.yml
+  url: https://artifacts.apis.io/synopsys/openapi/synopsys-projects-api-openapi.yml
 - filename: synopsys-reports-api-openapi.yml
   format: yaml
   label: Synopsys Reports API
   slug: synopsys-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/openapi/synopsys-reports-api-openapi.yml
+  url: https://artifacts.apis.io/synopsys/openapi/synopsys-reports-api-openapi.yml
 - filename: synopsys-scans-api-openapi.yml
   format: yaml
   label: Synopsys Scans API
   slug: synopsys-scans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/openapi/synopsys-scans-api-openapi.yml
+  url: https://artifacts.apis.io/synopsys/openapi/synopsys-scans-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -89,7 +89,7 @@ source_filename: synopsys-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/synopsys-cloud-openlink-openapi.yml, openapi/synopsys-polaris-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: API key-based authentication\n  sources:\n  - openapi/synopsys-cloud-openlink-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.synopsys.com/oauth/token\n    scopes: 1\n  sources:\n  - openapi/synopsys-cloud-openlink-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Access token obtained from Polaris portal\n  sources:\n  - openapi/synopsys-polaris-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/authentication/synopsys-authentication.yml
+source_yaml_url: https://artifacts.apis.io/synopsys/authentication/synopsys-authentication.yml
 summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Software Security

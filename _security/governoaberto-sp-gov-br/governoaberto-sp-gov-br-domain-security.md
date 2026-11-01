@@ -26,7 +26,7 @@ source_filename: governoaberto-sp-gov-br-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.governoaberto.sp.gov.br\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''www.governo'\n  hsts: null\ndomains:\n- domain: sp.gov.br\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/governoaberto-sp-gov-br/refs/heads/main/security/governoaberto-sp-gov-br-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/governoaberto-sp-gov-br/security/governoaberto-sp-gov-br-domain-security.yml
 summary_line: DMARC
 tags:
 - Open Data

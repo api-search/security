@@ -5,55 +5,55 @@ api_specs:
   label: Newcastle Permanent Building Society Banking Account Balances API
   slug: newcastle-permanent-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle-permanent/openapi/newcastle-permanent-banking-account-balances-api-openapi.yml
 - filename: newcastle-permanent-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Newcastle Permanent Building Society Banking Account Direct Debits API
   slug: newcastle-permanent-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle-permanent/openapi/newcastle-permanent-banking-account-direct-debits-api-openapi.yml
 - filename: newcastle-permanent-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Newcastle Permanent Building Society Banking Account Scheduled Payments API
   slug: newcastle-permanent-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle-permanent/openapi/newcastle-permanent-banking-account-scheduled-payments-api-openapi.yml
 - filename: newcastle-permanent-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Newcastle Permanent Building Society Banking Account Transactions API
   slug: newcastle-permanent-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle-permanent/openapi/newcastle-permanent-banking-account-transactions-api-openapi.yml
 - filename: newcastle-permanent-banking-accounts-api-openapi.yml
   format: yaml
   label: Newcastle Permanent Building Society Banking Accounts API
   slug: newcastle-permanent-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle-permanent/openapi/newcastle-permanent-banking-accounts-api-openapi.yml
 - filename: newcastle-permanent-banking-api-openapi.yml
   format: yaml
   label: Newcastle Permanent Building Society Banking API
   slug: newcastle-permanent-banking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-banking-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle-permanent/openapi/newcastle-permanent-banking-api-openapi.yml
 - filename: newcastle-permanent-banking-payees-api-openapi.yml
   format: yaml
   label: Newcastle Permanent Building Society Banking Payees API
   slug: newcastle-permanent-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle-permanent/openapi/newcastle-permanent-banking-payees-api-openapi.yml
 - filename: newcastle-permanent-banking-products-api-openapi.yml
   format: yaml
   label: Newcastle Permanent Building Society Banking Products API
   slug: newcastle-permanent-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle-permanent/openapi/newcastle-permanent-banking-products-api-openapi.yml
 - filename: newcastle-permanent-common-api-openapi.yml
   format: yaml
   label: Newcastle Permanent Building Society Common API
   slug: newcastle-permanent-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-common-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle-permanent/openapi/newcastle-permanent-common-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -92,7 +92,7 @@ source_filename: newcastle-permanent-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.newcastlepermanent.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 23:59:59 2026 GMT\n  hsts: null\n- host: developer.newcastlepermanent.com.au\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov  4 23:59:59 2026 GMT\n  hsts: true\n- host: openbank.newcastlepermanent.com.au\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep  9 23:59:59 2026 GMT\n  hsts: true\ndomains:\n- domain: newcastlepermanent.com.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/security/newcastle-permanent-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/newcastle-permanent/security/newcastle-permanent-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Finance

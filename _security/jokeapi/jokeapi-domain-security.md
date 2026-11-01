@@ -5,19 +5,19 @@ api_specs:
   label: JokeAPI Jokes API
   slug: jokeapi-jokes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jokeapi/refs/heads/main/openapi/jokeapi-jokes-api-openapi.yml
+  url: https://artifacts.apis.io/jokeapi/openapi/jokeapi-jokes-api-openapi.yml
 - filename: jokeapi-metadata-api-openapi.yml
   format: yaml
   label: JokeAPI Metadata API
   slug: jokeapi-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jokeapi/refs/heads/main/openapi/jokeapi-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/jokeapi/openapi/jokeapi-metadata-api-openapi.yml
 - filename: jokeapi-system-api-openapi.yml
   format: yaml
   label: JokeAPI System API
   slug: jokeapi-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jokeapi/refs/heads/main/openapi/jokeapi-system-api-openapi.yml
+  url: https://artifacts.apis.io/jokeapi/openapi/jokeapi-system-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: jokeapi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: jokeapi.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 15:51:56 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: v2.jokeapi.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 15:51:56 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: sv443.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 14:51:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: jokeapi.dev\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n- domain: sv443.net\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jokeapi/refs/heads/main/security/jokeapi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/jokeapi/security/jokeapi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Jokes

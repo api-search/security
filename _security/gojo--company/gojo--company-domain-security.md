@@ -27,7 +27,7 @@ source_filename: gojo--company-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gojo.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 09:49:42 2026 GMT\n  hsts: false\ndomains:\n- domain: gojo.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gojo--company/refs/heads/main/security/gojo--company-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gojo--company/security/gojo--company-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -8,7 +8,7 @@ api_specs:
   label: Farm Machinery and Equipment API Farm Machinery API
   slug: farm-machinery-and-equipment-api-farm-machinery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farm-machinery-and-equipment-api/refs/heads/main/openapi/farm-machinery-and-equipment-api-farm-machinery-api-openapi.yml
+  url: https://artifacts.apis.io/farm-machinery-and-equipment-api/openapi/farm-machinery-and-equipment-api-farm-machinery-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -35,7 +35,7 @@ source_filename: farm-machinery-and-equipment-api-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/farm-machinery-and-equipment-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyQuery\n  type: apiKey\n  in: query\n  parameter: api-key\n  sources:\n  - openapi/farm-machinery-and-equipment-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/farm-machinery-and-equipment-api/refs/heads/main/authentication/farm-machinery-and-equipment-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/farm-machinery-and-equipment-api/authentication/farm-machinery-and-equipment-api-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Equipment

@@ -14,7 +14,7 @@ source_filename: ravio-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nprobe: true\nsource: https://trust.ravio.com/\nurl: https://trust.ravio.com/\nevidence:\n- source: https://trust.ravio.com/\n  keywords:\n  - trust center\n  - trust centre\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ravio/refs/heads/main/security/ravio-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/ravio/security/ravio-trust-center.yml
 summary_line: trust center published
 tags:
 - Company

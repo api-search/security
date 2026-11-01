@@ -7,25 +7,25 @@ api_specs:
   label: Bubble Action API
   slug: bubble-action-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/openapi/bubble-action-api-openapi.yml
+  url: https://artifacts.apis.io/bubble/openapi/bubble-action-api-openapi.yml
 - filename: bubble-context-api-openapi.yml
   format: yaml
   label: Bubble Context API
   slug: bubble-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/openapi/bubble-context-api-openapi.yml
+  url: https://artifacts.apis.io/bubble/openapi/bubble-context-api-openapi.yml
 - filename: bubble-element-api-openapi.yml
   format: yaml
   label: Bubble Element API
   slug: bubble-element-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/openapi/bubble-element-api-openapi.yml
+  url: https://artifacts.apis.io/bubble/openapi/bubble-element-api-openapi.yml
 - filename: bubble-thing-api-openapi.yml
   format: yaml
   label: Bubble Thing API
   slug: bubble-thing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/openapi/bubble-thing-api-openapi.yml
+  url: https://artifacts.apis.io/bubble/openapi/bubble-thing-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: bubble-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bubble-data-api-openapi.yml, openapi/bubble-workflow-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: API Token\n  description: |-\n    Send the API token in the `Authorization` header as `Bearer <token>`.\n    Admin tokens bypass privacy rules; user tokens (returned by the\n    `Log the User in` workflow action) enforce privacy rules per user.\n  sources:\n  - openapi/bubble-data-api-openapi.yml\n  - openapi/bubble-workflow-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/authentication/bubble-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bubble/authentication/bubble-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - No-Code

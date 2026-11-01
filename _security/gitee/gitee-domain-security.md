@@ -5,55 +5,55 @@ api_specs:
   label: Gitee Enterprises API
   slug: gitee-enterprises-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-enterprises-api-openapi.yml
+  url: https://artifacts.apis.io/gitee/openapi/gitee-enterprises-api-openapi.yml
 - filename: gitee-gists-api-openapi.yml
   format: yaml
   label: Gitee Gists API
   slug: gitee-gists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-gists-api-openapi.yml
+  url: https://artifacts.apis.io/gitee/openapi/gitee-gists-api-openapi.yml
 - filename: gitee-issues-api-openapi.yml
   format: yaml
   label: Gitee Issues API
   slug: gitee-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-issues-api-openapi.yml
+  url: https://artifacts.apis.io/gitee/openapi/gitee-issues-api-openapi.yml
 - filename: gitee-organizations-api-openapi.yml
   format: yaml
   label: Gitee Organizations API
   slug: gitee-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/gitee/openapi/gitee-organizations-api-openapi.yml
 - filename: gitee-pull-requests-api-openapi.yml
   format: yaml
   label: Gitee Pull Requests API
   slug: gitee-pull-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-pull-requests-api-openapi.yml
+  url: https://artifacts.apis.io/gitee/openapi/gitee-pull-requests-api-openapi.yml
 - filename: gitee-repositories-api-openapi.yml
   format: yaml
   label: Gitee Repositories API
   slug: gitee-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/gitee/openapi/gitee-repositories-api-openapi.yml
 - filename: gitee-search-api-openapi.yml
   format: yaml
   label: Gitee Search API
   slug: gitee-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-search-api-openapi.yml
+  url: https://artifacts.apis.io/gitee/openapi/gitee-search-api-openapi.yml
 - filename: gitee-users-api-openapi.yml
   format: yaml
   label: Gitee Users API
   slug: gitee-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-users-api-openapi.yml
+  url: https://artifacts.apis.io/gitee/openapi/gitee-users-api-openapi.yml
 - filename: gitee-webhooks-api-openapi.yml
   format: yaml
   label: Gitee Webhooks API
   slug: gitee-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/gitee/openapi/gitee-webhooks-api-openapi.yml
 description: ''
 domains:
 - a_records:
@@ -97,13 +97,12 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gitee.com\n  https: true\n  tls_version: TLSv1.3\n  cipher: TLS_AES_256_GCM_SHA384\n  cert_issuer: TrustAsia DV TLS RSA CA 2024\n  cert_not_before: Jan 29 07:00:00 2026 GMT\n  cert_expires: Feb 20 06:59:59 2027 GMT\n  hsts: false\n  hsts_note: No Strict-Transport-Security header was observed on the gitee.com root response.\n  server: ADAS/1.0.214\n  ratelimit_header: true\n  ratelimit_limit: 60\n  ratelimit_note: X-RateLimit-Limit 60 observed on GET /api/v5/repos/oschina/git-osc (unauthenticated).\ndomains:\n- domain: gitee.com\n  dnssec: false\n  caa: []\n  caa_note: No CAA records returned.\n  spf: true\n  spf_record: v=spf1 include:spf.qiye.aliyun.com -all\n  dmarc: true\n  dmarc_policy: quarantine\n  dmarc_record: v=DMARC1;p=quarantine;pct=50;rua=mailto:liminghua@oschina.cn;ruf=mailto:liminghua@oschina.cn\n  a_records:\n  - 180.76.199.13\n  - 180.76.198.225\n\
   notes: >-\n  gitee.com serves the site and the Open API v5 from the same host over TLS 1.3\n  with a TrustAsia DV certificate. HSTS was not present on the probed root\n  response. Email domain policy is present (SPF hard-fail via Aliyun; DMARC\n  quarantine at 50%). Gitee is operated from mainland China and is\n  ICP-registered; DNS resolves to Baidu-hosted infrastructure (180.76.x.x).\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/security/gitee-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gitee/security/gitee-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Code Hosting
-- Git
-- Git Hosting
 - Version Control
+- Git Hosting
 - Repositories
 - Pull Requests
 - Issue Tracking

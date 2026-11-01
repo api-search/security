@@ -5,55 +5,55 @@ api_specs:
   label: Ottimate Accounts API
   slug: ottimate-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/ottimate-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/ottimate/openapi/ottimate-accounts-api-openapi.yml
 - filename: ottimate-batch-api-openapi.yml
   format: yaml
   label: Ottimate Batch API
   slug: ottimate-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/ottimate-batch-api-openapi.yml
+  url: https://artifacts.apis.io/ottimate/openapi/ottimate-batch-api-openapi.yml
 - filename: ottimate-catalog-api-openapi.yml
   format: yaml
   label: Ottimate Catalog API
   slug: ottimate-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/ottimate-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/ottimate/openapi/ottimate-catalog-api-openapi.yml
 - filename: ottimate-dimensions-api-openapi.yml
   format: yaml
   label: Ottimate Dimensions API
   slug: ottimate-dimensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/ottimate-dimensions-api-openapi.yml
+  url: https://artifacts.apis.io/ottimate/openapi/ottimate-dimensions-api-openapi.yml
 - filename: ottimate-invoices-api-openapi.yml
   format: yaml
   label: Ottimate Invoices API
   slug: ottimate-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/ottimate-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/ottimate/openapi/ottimate-invoices-api-openapi.yml
 - filename: ottimate-oauth-api-openapi.yml
   format: yaml
   label: Ottimate OAuth API
   slug: ottimate-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/ottimate-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/ottimate/openapi/ottimate-oauth-api-openapi.yml
 - filename: ottimate-receipts-api-openapi.yml
   format: yaml
   label: Ottimate Receipts API
   slug: ottimate-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/ottimate-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/ottimate/openapi/ottimate-receipts-api-openapi.yml
 - filename: ottimate-vendors-api-openapi.yml
   format: yaml
   label: Ottimate Vendors API
   slug: ottimate-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/ottimate-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/ottimate/openapi/ottimate-vendors-api-openapi.yml
 - filename: ottimate-purchase-orders-api-openapi.yml
   format: yaml
   label: Ottimate Purchase Orders API
   slug: ottimate-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/ottimate-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ottimate/openapi/ottimate-purchase-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -99,7 +99,7 @@ source_filename: plateiq-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: plateiq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 15:20:12 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.ottimate.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 01:01:08 2026 GMT\n  hsts: null\n- host: sandbox-api.ottimate.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 18:31:18 2026 GMT\n  hsts: null\ndomains:\n- domain: plateiq.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: ottimate.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/security/plateiq-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ottimate/security/plateiq-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

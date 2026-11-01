@@ -5,31 +5,31 @@ api_specs:
   label: Split Admin API
   slug: split-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/openapi/split-admin-api-openapi.yml
+  url: https://artifacts.apis.io/split/openapi/split-admin-api-openapi.yml
 - filename: split-evaluation-api-openapi.yml
   format: yaml
   label: Split Evaluation API
   slug: split-evaluation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/openapi/split-evaluation-api-openapi.yml
+  url: https://artifacts.apis.io/split/openapi/split-evaluation-api-openapi.yml
 - filename: split-events-api-openapi.yml
   format: yaml
   label: Split Events API
   slug: split-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/openapi/split-events-api-openapi.yml
+  url: https://artifacts.apis.io/split/openapi/split-events-api-openapi.yml
 - filename: split-feature-flag-definitions-api-openapi.yml
   format: yaml
   label: Split Feature Flag Definitions API
   slug: split-feature-flag-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/openapi/split-feature-flag-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/split/openapi/split-feature-flag-definitions-api-openapi.yml
 - filename: split-feature-flags-api-openapi.yml
   format: yaml
   label: Split Feature Flags API
   slug: split-feature-flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/openapi/split-feature-flags-api-openapi.yml
+  url: https://artifacts.apis.io/split/openapi/split-feature-flags-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -76,7 +76,7 @@ source_filename: split-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.split.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 11:00:24 2026 GMT\n  hsts: null\n- host: www.split.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 07:14:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: help.split.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 13:31:12 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: split.io\n  dnssec: true\n  caa:\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"aws.amazon.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/security/split-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/split/security/split-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Experimentation

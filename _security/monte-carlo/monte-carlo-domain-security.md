@@ -5,7 +5,7 @@ api_specs:
   label: Monte Carlo Graph QL API
   slug: monte-carlo-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monte-carlo/refs/heads/main/openapi/monte-carlo-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/monte-carlo/openapi/monte-carlo-graph-ql-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: monte-carlo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-16'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: montecarlo.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 02:18:58 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.getmontecarlo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  1 14:48:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.getmontecarlo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 16 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: montecarlo.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: getmontecarlo.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"ssl.com\"\n  - 0 iodef \"mailto:domains@montecarlodata.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/monte-carlo/refs/heads/main/security/monte-carlo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/monte-carlo/security/monte-carlo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data Observability
@@ -66,7 +66,7 @@ tags:
 - Data Reliability
 - Data Lake
 - Data Warehouse
-- Lineage
+- Data Lineage
 - Monitoring
 - AI Observability
 ---

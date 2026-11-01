@@ -5,25 +5,25 @@ api_specs:
   label: Loot Rush Games Connect API
   slug: loot-rush-games-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loot-rush-games/refs/heads/main/openapi/loot-rush-games-connect-api-openapi.yml
+  url: https://artifacts.apis.io/loot-rush-games/openapi/loot-rush-games-connect-api-openapi.yml
 - filename: loot-rush-games-history-api-openapi.yml
   format: yaml
   label: Loot Rush Games History API
   slug: loot-rush-games-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loot-rush-games/refs/heads/main/openapi/loot-rush-games-history-api-openapi.yml
+  url: https://artifacts.apis.io/loot-rush-games/openapi/loot-rush-games-history-api-openapi.yml
 - filename: loot-rush-games-mcp-api-openapi.yml
   format: yaml
   label: Loot Rush Games MCP API
   slug: loot-rush-games-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loot-rush-games/refs/heads/main/openapi/loot-rush-games-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/loot-rush-games/openapi/loot-rush-games-mcp-api-openapi.yml
 - filename: loot-rush-games-withdrawals-api-openapi.yml
   format: yaml
   label: Loot Rush Games Withdrawals API
   slug: loot-rush-games-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loot-rush-games/refs/heads/main/openapi/loot-rush-games-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/loot-rush-games/openapi/loot-rush-games-withdrawals-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: loot-rush-games-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.lootrush.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 15:09:44 2026 GMT\n  hsts: null\n- host: docs.lootrush.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 15:09:44 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: third-party.lootrush.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 15:09:44 2026 GMT\n  hsts: null\ndomains:\n- domain: lootrush.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loot-rush-games/refs/heads/main/security/loot-rush-games-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/loot-rush-games/security/loot-rush-games-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

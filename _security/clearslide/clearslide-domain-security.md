@@ -5,37 +5,37 @@ api_specs:
   label: ClearSlide Insights API
   slug: clearslide-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/openapi/clearslide-insights-api-openapi.yml
+  url: https://artifacts.apis.io/clearslide/openapi/clearslide-insights-api-openapi.yml
 - filename: clearslide-links-api-openapi.yml
   format: yaml
   label: ClearSlide Links API
   slug: clearslide-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/openapi/clearslide-links-api-openapi.yml
+  url: https://artifacts.apis.io/clearslide/openapi/clearslide-links-api-openapi.yml
 - filename: clearslide-meetings-api-openapi.yml
   format: yaml
   label: ClearSlide Meetings API
   slug: clearslide-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/openapi/clearslide-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/clearslide/openapi/clearslide-meetings-api-openapi.yml
 - filename: clearslide-presentations-api-openapi.yml
   format: yaml
   label: ClearSlide Presentations API
   slug: clearslide-presentations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/openapi/clearslide-presentations-api-openapi.yml
+  url: https://artifacts.apis.io/clearslide/openapi/clearslide-presentations-api-openapi.yml
 - filename: clearslide-upload-api-openapi.yml
   format: yaml
   label: ClearSlide Upload API
   slug: clearslide-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/openapi/clearslide-upload-api-openapi.yml
+  url: https://artifacts.apis.io/clearslide/openapi/clearslide-upload-api-openapi.yml
 - filename: clearslide-users-api-openapi.yml
   format: yaml
   label: ClearSlide Users API
   slug: clearslide-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/openapi/clearslide-users-api-openapi.yml
+  url: https://artifacts.apis.io/clearslide/openapi/clearslide-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: clearslide-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.clearslide.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  8 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.clearslide.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 06:00:33 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: platform.clearslide.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 27 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: clearslide.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/security/clearslide-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/clearslide/security/clearslide-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company

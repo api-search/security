@@ -5,7 +5,7 @@ api_specs:
   label: Turntide Technologies Website (WordPress REST)
   slug: turntide-com-website-wordpress-rest
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/openapi/turntide-technologies-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/turntide-technologies/openapi/turntide-technologies-mcp-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -34,7 +34,7 @@ source_filename: turntide-technologies-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: turntide.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 13:20:24 2026 GMT\n  hsts: false\ndomains:\n- domain: turntide.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/security/turntide-technologies-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/turntide-technologies/security/turntide-technologies-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

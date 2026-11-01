@@ -5,19 +5,19 @@ api_specs:
   label: Microsoft SQL Server Azure SQL Databases API
   slug: microsoft-sql-server-azure-sql-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-sql-server/refs/heads/main/openapi/microsoft-sql-server-azure-sql-databases-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-sql-server/openapi/microsoft-sql-server-azure-sql-databases-api-openapi.yml
 - filename: microsoft-sql-server-azure-sql-servers-api-openapi.yml
   format: yaml
   label: Microsoft SQL Server Azure SQL Servers API
   slug: microsoft-sql-server-azure-sql-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-sql-server/refs/heads/main/openapi/microsoft-sql-server-azure-sql-servers-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-sql-server/openapi/microsoft-sql-server-azure-sql-servers-api-openapi.yml
 - filename: microsoft-sql-server-data-api-builder-api-openapi.yml
   format: yaml
   label: Microsoft SQL Server Data API Builder API
   slug: microsoft-sql-server-data-api-builder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-sql-server/refs/heads/main/openapi/microsoft-sql-server-data-api-builder-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-sql-server/openapi/microsoft-sql-server-data-api-builder-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -63,7 +63,7 @@ source_filename: microsoft-sql-server-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 06:59:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: your-server.database.windows.net\n  https: false\n- host: learn.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 02:26:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: windows.net\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-sql-server/refs/heads/main/security/microsoft-sql-server-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-sql-server/security/microsoft-sql-server-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud

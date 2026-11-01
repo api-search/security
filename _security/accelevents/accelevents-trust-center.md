@@ -5,31 +5,31 @@ api_specs:
   label: Accelevents Attendees API
   slug: accelevents-attendees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/openapi/accelevents-attendees-api-openapi.yml
+  url: https://artifacts.apis.io/accelevents/openapi/accelevents-attendees-api-openapi.yml
 - filename: accelevents-events-api-openapi.yml
   format: yaml
   label: Accelevents Events API
   slug: accelevents-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/openapi/accelevents-events-api-openapi.yml
+  url: https://artifacts.apis.io/accelevents/openapi/accelevents-events-api-openapi.yml
 - filename: accelevents-orders-api-openapi.yml
   format: yaml
   label: Accelevents Orders API
   slug: accelevents-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/openapi/accelevents-orders-api-openapi.yml
+  url: https://artifacts.apis.io/accelevents/openapi/accelevents-orders-api-openapi.yml
 - filename: accelevents-sessions-api-openapi.yml
   format: yaml
   label: Accelevents Sessions API
   slug: accelevents-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/openapi/accelevents-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/accelevents/openapi/accelevents-sessions-api-openapi.yml
 - filename: accelevents-tickets-api-openapi.yml
   format: yaml
   label: Accelevents Tickets API
   slug: accelevents-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/openapi/accelevents-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/accelevents/openapi/accelevents-tickets-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -47,7 +47,7 @@ source_filename: accelevents-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.accelevents.com/trust\nurl: https://www.accelevents.com/trust\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://www.accelevents.com/trust\n  keywords:\n  - soc 2\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/security/accelevents-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/accelevents/security/accelevents-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - Event Management

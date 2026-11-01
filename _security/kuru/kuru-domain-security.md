@@ -5,13 +5,13 @@ api_specs:
   label: Kuru Generate Token API
   slug: kuru-generate-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kuru/refs/heads/main/openapi/kuru-generate-token-api-openapi.yml
+  url: https://artifacts.apis.io/kuru/openapi/kuru-generate-token-api-openapi.yml
 - filename: kuru-quote-api-openapi.yml
   format: yaml
   label: Kuru Quote API
   slug: kuru-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kuru/refs/heads/main/openapi/kuru-quote-api-openapi.yml
+  url: https://artifacts.apis.io/kuru/openapi/kuru-quote-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: kuru-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.kuru.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 19:38:37 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: ws.kuru.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 19:56:55 2026 GMT\n  hsts: null\ndomains:\n- domain: kuru.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kuru/refs/heads/main/security/kuru-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kuru/security/kuru-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

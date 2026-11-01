@@ -7,19 +7,19 @@ api_specs:
   label: Nationwide Building Society ATM API
   slug: nationwide-building-society-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nationwide-building-society/refs/heads/main/openapi/nationwide-building-society-atm-api-openapi.yml
+  url: https://artifacts.apis.io/nationwide-building-society/openapi/nationwide-building-society-atm-api-openapi.yml
 - filename: nationwide-building-society-branch-api-openapi.yml
   format: yaml
   label: Nationwide Building Society Branch API
   slug: nationwide-building-society-branch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nationwide-building-society/refs/heads/main/openapi/nationwide-building-society-branch-api-openapi.yml
+  url: https://artifacts.apis.io/nationwide-building-society/openapi/nationwide-building-society-branch-api-openapi.yml
 - filename: nationwide-building-society-pca-api-openapi.yml
   format: yaml
   label: Nationwide Building Society PCA API
   slug: nationwide-building-society-pca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nationwide-building-society/refs/heads/main/openapi/nationwide-building-society-pca-api-openapi.yml
+  url: https://artifacts.apis.io/nationwide-building-society/openapi/nationwide-building-society-pca-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -86,7 +86,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://developer.nationwide.co.uk/open-banking\nstandard: OBIE Read/Write API Standard (FAPI 1.0 Advanced) + UK Open Banking Security Profile\ndocs: https://openbankinguk.github.io/read-write-api-site3/\nsummary:\n  types: [none, oauth2, openIdConnect, mutualTLS]\n  api_key_in: []\n  oauth2_flows: [authorizationCode, clientCredentials]\n  notes: >-\n    Two distinct security tiers. The OBIE Open Data APIs (ATM/branch locators,\n    product reference data) are fully public and unauthenticated. The Read/Write\n    APIs (AIS/PIS/CBPII/VRP) require the full UK Open Banking FAPI security stack.\nschemes:\n- name: OpenData\n  tier: open-data\n  type: none\n  applies_to:\n  - Nationwide ATM Locator API\n  - Nationwide Branch Locator API\n  - Nationwide Personal Current Accounts API\n  note: Public, unauthenticated OBIE Open Data. No token or key required.\n- name: OAuth2\n  tier: read-write\n  type: oauth2\n  scheme: FAPI 1.0 Advanced\n\
   \  applies_to:\n  - Nationwide Account and Transaction Information API (AIS)\n  - Nationwide Payment Initiation API (PIS)\n  - Nationwide Confirmation of Funds API (CBPII)\n  - Nationwide Variable Recurring Payments API (VRP)\n  flows:\n  - flow: authorizationCode\n    grant: authorization_code\n    use: PSU consent authorisation (redirect + PSD2 SCA), used for AIS data access and payment authorisation\n  - flow: clientCredentials\n    grant: client_credentials\n    use: TPP-only calls to create consent/intent resources before PSU authorisation\n  scopes: [openid, accounts, payments, fundsconfirmations]\n- name: OpenIDConnect\n  tier: read-write\n  type: openIdConnect\n  note: >-\n    OIDC hybrid flow with request object (JWT), id_token, and the OBIE `intent`\n    claim (openbanking_intent_id) carrying the consent id. Enforces PSD2 Strong\n    Customer Authentication.\n- name: MutualTLS\n  tier: read-write\n  type: mutualTLS\n  confirmed: true\n  evidence: >-\n    TLS handshake to api.nationwide.co.uk\
   \ returns \"Request CERT\" then fails without\n    a presented client certificate (probed 2026-07-23).\n  note: >-\n    OBIE/eIDAS transport certificates (OBWAC/OBSeal or QWAC/QSeal) required for\n    mutual-TLS client authentication and message signing; TPPs onboard via the\n    developer portal and dynamic client registration.\nmessage_signing:\n  header: x-jws-signature\n  note: Detached JWS signature required on payment/consent write operations per the OBIE profile.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nationwide-building-society/refs/heads/main/authentication/nationwide-building-society-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nationwide-building-society/authentication/nationwide-building-society-authentication.yml
 summary_line: none/oauth2/openIdConnect/mutualTLS · 4 schemes
 tags:
 - Financial Services

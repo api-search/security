@@ -5,49 +5,49 @@ api_specs:
   label: YouScan Data Import API
   slug: youscan-data-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youscan/refs/heads/main/openapi/youscan-data-import-api-openapi.yml
+  url: https://artifacts.apis.io/youscan/openapi/youscan-data-import-api-openapi.yml
 - filename: youscan-history-api-openapi.yml
   format: yaml
   label: YouScan History API
   slug: youscan-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youscan/refs/heads/main/openapi/youscan-history-api-openapi.yml
+  url: https://artifacts.apis.io/youscan/openapi/youscan-history-api-openapi.yml
 - filename: youscan-mentions-api-openapi.yml
   format: yaml
   label: YouScan Mentions API
   slug: youscan-mentions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youscan/refs/heads/main/openapi/youscan-mentions-api-openapi.yml
+  url: https://artifacts.apis.io/youscan/openapi/youscan-mentions-api-openapi.yml
 - filename: youscan-spaces-api-openapi.yml
   format: yaml
   label: YouScan Spaces API
   slug: youscan-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youscan/refs/heads/main/openapi/youscan-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/youscan/openapi/youscan-spaces-api-openapi.yml
 - filename: youscan-statistics-api-openapi.yml
   format: yaml
   label: YouScan Statistics API
   slug: youscan-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youscan/refs/heads/main/openapi/youscan-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/youscan/openapi/youscan-statistics-api-openapi.yml
 - filename: youscan-tags-api-openapi.yml
   format: yaml
   label: YouScan Tags API
   slug: youscan-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youscan/refs/heads/main/openapi/youscan-tags-api-openapi.yml
+  url: https://artifacts.apis.io/youscan/openapi/youscan-tags-api-openapi.yml
 - filename: youscan-topics-api-openapi.yml
   format: yaml
   label: YouScan Topics API
   slug: youscan-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youscan/refs/heads/main/openapi/youscan-topics-api-openapi.yml
+  url: https://artifacts.apis.io/youscan/openapi/youscan-topics-api-openapi.yml
 - filename: youscan-webhook-api-openapi.yml
   format: yaml
   label: YouScan Webhook API
   slug: youscan-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youscan/refs/heads/main/openapi/youscan-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/youscan/openapi/youscan-webhook-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ source_filename: youscan-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: youscan.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 20:50:39 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: developers.youscan.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 12:10:19 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: api.youscan.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 20:24:01 2026 GMT\n  hsts: null\ndomains:\n- domain: youscan.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/youscan/refs/heads/main/security/youscan-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/youscan/security/youscan-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

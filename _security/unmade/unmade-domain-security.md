@@ -5,37 +5,37 @@ api_specs:
   label: Unmade Design API
   slug: unmade-design-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/openapi/unmade-design-api-api-openapi.yml
+  url: https://artifacts.apis.io/unmade/openapi/unmade-design-api-api-openapi.yml
 - filename: unmade-ecommerce-orders-api-api-openapi.yml
   format: yaml
   label: Unmade Ecommerce Orders API
   slug: unmade-ecommerce-orders-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/openapi/unmade-ecommerce-orders-api-api-openapi.yml
+  url: https://artifacts.apis.io/unmade/openapi/unmade-ecommerce-orders-api-api-openapi.yml
 - filename: unmade-factory-api-api-openapi.yml
   format: yaml
   label: Unmade Factory API
   slug: unmade-factory-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/openapi/unmade-factory-api-api-openapi.yml
+  url: https://artifacts.apis.io/unmade/openapi/unmade-factory-api-api-openapi.yml
 - filename: unmade-outfit-api-api-openapi.yml
   format: yaml
   label: Unmade Outfit API
   slug: unmade-outfit-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/openapi/unmade-outfit-api-api-openapi.yml
+  url: https://artifacts.apis.io/unmade/openapi/unmade-outfit-api-api-openapi.yml
 - filename: unmade-transfer-preview-api-api-openapi.yml
   format: yaml
   label: Unmade Transfer Preview API
   slug: unmade-transfer-preview-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/openapi/unmade-transfer-preview-api-api-openapi.yml
+  url: https://artifacts.apis.io/unmade/openapi/unmade-transfer-preview-api-api-openapi.yml
 - filename: unmade-unmade-editor-api-openapi.yml
   format: yaml
   label: Unmade Editor API
   slug: unmade-unmade-editor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/openapi/unmade-unmade-editor-api-openapi.yml
+  url: https://artifacts.apis.io/unmade/openapi/unmade-unmade-editor-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -67,7 +67,7 @@ source_filename: unmade-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: unmade.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 07:26:00 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: partner-subdomain.embed.unmade.com\n  https: false\ndomains:\n- domain: unmade.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/security/unmade-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/unmade/security/unmade-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fashion

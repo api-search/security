@@ -5,19 +5,19 @@ api_specs:
   label: Lightning Social Ventures Applications API
   slug: lightning-social-ventures-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightning-social-ventures/refs/heads/main/openapi/lightning-social-ventures-applications-api-openapi.yml
+  url: https://artifacts.apis.io/lightning-social-ventures/openapi/lightning-social-ventures-applications-api-openapi.yml
 - filename: lightning-social-ventures-support-schemes-api-openapi.yml
   format: yaml
   label: Lightning Social Ventures Support Schemes API
   slug: lightning-social-ventures-support-schemes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightning-social-ventures/refs/heads/main/openapi/lightning-social-ventures-support-schemes-api-openapi.yml
+  url: https://artifacts.apis.io/lightning-social-ventures/openapi/lightning-social-ventures-support-schemes-api-openapi.yml
 - filename: lightning-social-ventures-webhooks-api-openapi.yml
   format: yaml
   label: Lightning Social Ventures Webhooks API
   slug: lightning-social-ventures-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightning-social-ventures/refs/heads/main/openapi/lightning-social-ventures-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/lightning-social-ventures/openapi/lightning-social-ventures-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -55,7 +55,7 @@ source_filename: lightning-social-ventures-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: lightningreach.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 10:56:30 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n- host: api.lightningreach.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 11:25:06 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  hsts_note: >-\n    The automated HEAD probe recorded hsts as null because the host answers 401\n    to unauthenticated requests. A direct GET on 2026-07-19 returned\n    'strict-transport-security: max-age=31536000; includeSubDomains' alongside a\n    full Helmet header set (CSP, X-Content-Type-Options, X-Frame-Options,\n    Referrer-Policy, COOP, CORP). Corrected by hand from that observation.\ndomains:\n- domain: lightningreach.org\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightning-social-ventures/refs/heads/main/security/lightning-social-ventures-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lightning-social-ventures/security/lightning-social-ventures-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

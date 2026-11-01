@@ -7,7 +7,7 @@ api_specs:
   label: Replicant API
   slug: replicant-replicant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/openapi/replicant-replicant-api-openapi.yml
+  url: https://artifacts.apis.io/replicant/openapi/replicant-replicant-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -34,7 +34,7 @@ source_filename: replicant-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: derived\nsource: openapi/replicant-outbound-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/replicant-outbound-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/authentication/replicant-authentication.yml
+source_yaml_url: https://artifacts.apis.io/replicant/authentication/replicant-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

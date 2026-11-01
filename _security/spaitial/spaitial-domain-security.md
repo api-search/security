@@ -5,25 +5,25 @@ api_specs:
   label: SpAItial Files API
   slug: spaitial-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/openapi/spaitial-files-api-openapi.yml
+  url: https://artifacts.apis.io/spaitial/openapi/spaitial-files-api-openapi.yml
 - filename: spaitial-models-api-openapi.yml
   format: yaml
   label: SpAItial Models API
   slug: spaitial-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/openapi/spaitial-models-api-openapi.yml
+  url: https://artifacts.apis.io/spaitial/openapi/spaitial-models-api-openapi.yml
 - filename: spaitial-panoramas-api-openapi.yml
   format: yaml
   label: SpAItial Panoramas API
   slug: spaitial-panoramas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/openapi/spaitial-panoramas-api-openapi.yml
+  url: https://artifacts.apis.io/spaitial/openapi/spaitial-panoramas-api-openapi.yml
 - filename: spaitial-worlds-api-openapi.yml
   format: yaml
   label: SpAItial Worlds API
   slug: spaitial-worlds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/openapi/spaitial-worlds-api-openapi.yml
+  url: https://artifacts.apis.io/spaitial/openapi/spaitial-worlds-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: spaitial-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.spaitial.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 13:01:24 2026 GMT\n  hsts: false\ndomains:\n- domain: spaitial.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/security/spaitial-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/spaitial/security/spaitial-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

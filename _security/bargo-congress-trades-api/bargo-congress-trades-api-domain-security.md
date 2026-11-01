@@ -5,19 +5,19 @@ api_specs:
   label: Bargo Congress Trades API Members API
   slug: bargo-congress-trades-api-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/openapi/bargo-congress-trades-api-members-api-openapi.yml
+  url: https://artifacts.apis.io/bargo-congress-trades-api/openapi/bargo-congress-trades-api-members-api-openapi.yml
 - filename: bargo-congress-trades-api-statistics-api-openapi.yml
   format: yaml
   label: Bargo Congress Trades API Statistics API
   slug: bargo-congress-trades-api-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/openapi/bargo-congress-trades-api-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/bargo-congress-trades-api/openapi/bargo-congress-trades-api-statistics-api-openapi.yml
 - filename: bargo-congress-trades-api-trades-api-openapi.yml
   format: yaml
   label: Bargo Congress Trades API Trades API
   slug: bargo-congress-trades-api-trades-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/openapi/bargo-congress-trades-api-trades-api-openapi.yml
+  url: https://artifacts.apis.io/bargo-congress-trades-api/openapi/bargo-congress-trades-api-trades-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: bargo-congress-trades-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bargo.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 04:50:13 2026 GMT\n  hsts: false\ndomains:\n- domain: bargo.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/security/bargo-congress-trades-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bargo-congress-trades-api/security/bargo-congress-trades-api-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Congress

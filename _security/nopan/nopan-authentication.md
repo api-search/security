@@ -7,31 +7,31 @@ api_specs:
   label: Nopan Authentication APIs API
   slug: nopan-authentication-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/openapi/nopan-authentication-apis-api-openapi.yml
+  url: https://artifacts.apis.io/nopan/openapi/nopan-authentication-apis-api-openapi.yml
 - filename: nopan-payment-processing-apis-api-openapi.yml
   format: yaml
   label: Nopan Payment Processing APIs API
   slug: nopan-payment-processing-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/openapi/nopan-payment-processing-apis-api-openapi.yml
+  url: https://artifacts.apis.io/nopan/openapi/nopan-payment-processing-apis-api-openapi.yml
 - filename: nopan-reporting-apis-api-openapi.yml
   format: yaml
   label: Nopan Reporting APIs API
   slug: nopan-reporting-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/openapi/nopan-reporting-apis-api-openapi.yml
+  url: https://artifacts.apis.io/nopan/openapi/nopan-reporting-apis-api-openapi.yml
 - filename: nopan-testing-apis-api-openapi.yml
   format: yaml
   label: Nopan Testing APIs API
   slug: nopan-testing-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/openapi/nopan-testing-apis-api-openapi.yml
+  url: https://artifacts.apis.io/nopan/openapi/nopan-testing-apis-api-openapi.yml
 - filename: nopan-webhooks-api-openapi.yml
   format: yaml
   label: Nopan Webhooks API
   slug: nopan-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/openapi/nopan-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/nopan/openapi/nopan-webhooks-api-openapi.yml
 auth_types:
 - oauth2
 - mutualTLS
@@ -80,7 +80,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://docs.nopan.com/guides/authentication\ndocs: https://docs.nopan.com/guides/authentication\ndescription: >-\n  Nopan uses OAuth2 client_credentials machine-to-machine authentication layered\n  over mutual TLS (mTLS), with every request additionally signed using JWS. The\n  OpenAPI definition documents these in prose (tags and the /auth/token operation)\n  rather than a formal components.securitySchemes block, so this profile is captured\n  from the auth guide and the token operation.\nsummary:\n  types: [oauth2, mutualTLS, http-bearer, jws-signing]\n  oauth2_flows: [clientCredentials]\n  api_key_in: []\nschemes:\n  - name: OAuth2ClientCredentials\n    type: oauth2\n    flow: clientCredentials\n    token_url: https://api.nopan.io/auth/token\n    grant_type: client_credentials\n    client_id: organization account ID issued at onboarding\n    token_type: Bearer (JWT, ES256)\n    default_scope: payments:read\n    scopes:\
   \ [payments:read, payments:process]\n    source: openapi/nopan-openapi-original.yml#getAccessToken\n  - name: MutualTLS\n    type: mutualTLS\n    description: Client certificate required on the TLS handshake for all requests (mTLS).\n  - name: BearerToken\n    type: http\n    scheme: bearer\n    bearer_format: JWT\n    description: Access token from /auth/token presented as Authorization Bearer on protected resources.\n  - name: JWSRequestSigning\n    type: message-signature\n    description: Every request is signed with JWS (JSON Web Signature) and validated server-side.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/authentication/nopan-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nopan/authentication/nopan-authentication.yml
 summary_line: oauth2/mutualTLS/http-bearer/jws-signing · 4 schemes
 tags:
 - Payments

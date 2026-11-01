@@ -5,13 +5,13 @@ api_specs:
   label: Seoul National University OAI PMH API
   slug: snu-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snu/refs/heads/main/openapi/snu-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/snu/openapi/snu-oai-pmh-api-openapi.yml
 - filename: snu-open-search-api-openapi.yml
   format: yaml
   label: Seoul National University Open Search API
   slug: snu-open-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snu/refs/heads/main/openapi/snu-open-search-api-openapi.yml
+  url: https://artifacts.apis.io/snu/openapi/snu-open-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: snu-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: en.snu.ac.kr\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 10 02:17:02 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: s-space.snu.ac.kr\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get\n    local issuer certificate (_ssl.c:1082)'\n  hsts: null\ndomains:\n- domain: snu.ac.kr\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snu/refs/heads/main/security/snu-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/snu/security/snu-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - University

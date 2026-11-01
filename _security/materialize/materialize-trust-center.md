@@ -5,13 +5,13 @@ api_specs:
   label: Materialize Streaming Sources and Sinks (AsyncAPI)
   slug: materialize-streaming-asyncapi
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/materialize/refs/heads/main/asyncapi/materialize-asyncapi.yml
+  url: https://artifacts.apis.io/materialize/asyncapi/materialize-asyncapi.yml
 - filename: materialize-sql-api-openapi.yml
   format: yaml
   label: Materialize Sql API
   slug: materialize-sql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/materialize/refs/heads/main/openapi/materialize-sql-api-openapi.yml
+  url: https://artifacts.apis.io/materialize/openapi/materialize-sql-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2
@@ -28,7 +28,7 @@ source_filename: materialize-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://materialize.com/product/security/\nurl: https://materialize.com/product/security/\ncertifications:\n- SOC 2\nevidence:\n- source: https://materialize.com/product/security/\n  keywords:\n  - soc 2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/materialize/refs/heads/main/security/materialize-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/materialize/security/materialize-trust-center.yml
 summary_line: SOC 2
 tags:
 - Streaming

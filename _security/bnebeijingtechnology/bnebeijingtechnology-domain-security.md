@@ -27,7 +27,7 @@ source_filename: bnebeijingtechnology-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bne-technology.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 03:16:01 2026 GMT\n  hsts: false\ndomains:\n- domain: bne-technology.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bnebeijingtechnology/refs/heads/main/security/bnebeijingtechnology-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bnebeijingtechnology/security/bnebeijingtechnology-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Manufacturing

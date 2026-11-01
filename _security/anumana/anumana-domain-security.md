@@ -46,7 +46,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml hosts\nhosts:\n- host: anumana.ai\n  role: marketing website\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 16:52:43 2026 GMT\n  hsts: false\n- host: api.anumana.ai\n  role: authenticated platform application (nferx); every path redirects to /auth/signin/\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 25 13:14:17 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  hsts_include_subdomains: true\n  hsts_preload: true\n- host: trust.anumana.ai\n  role: Vanta-hosted trust center\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 19:36:11 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\ndomains:\n- domain: anumana.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\nnotes:\n- The apex marketing host anumana.ai does not send HSTS; the application host api.anumana.ai\n  sends a two-year HSTS\
   \ with includeSubDomains and preload.\n- No CAA records are published for anumana.ai. Absence is recorded data, not an error.\n- anumana.com does not resolve; anumana.ai is the operating domain.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anumana/refs/heads/main/security/anumana-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/anumana/security/anumana-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

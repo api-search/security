@@ -5,13 +5,13 @@ api_specs:
   label: KEDA Metrics API
   slug: keda-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keda/refs/heads/main/openapi/keda-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/keda/openapi/keda-metrics-api-openapi.yml
 - filename: keda-cloud-events-asyncapi.yml
   format: yaml
   label: KEDA CloudEventSource API
   slug: keda-cloud-event-source-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keda/refs/heads/main/asyncapi/keda-cloud-events-asyncapi.yml
+  url: https://artifacts.apis.io/keda/asyncapi/keda-cloud-events-asyncapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +40,7 @@ source_filename: keda-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: keda.sh\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 13 05:54:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: keda.sh\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keda/refs/heads/main/security/keda-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/keda/security/keda-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Auto-Scaling

@@ -5,43 +5,43 @@ api_specs:
   label: Let's Encrypt Account API
   slug: lets-encrypt-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lets-encrypt/refs/heads/main/openapi/lets-encrypt-account-api-openapi.yml
+  url: https://artifacts.apis.io/lets-encrypt/openapi/lets-encrypt-account-api-openapi.yml
 - filename: lets-encrypt-authorization-api-openapi.yml
   format: yaml
   label: Let's Encrypt Authorization API
   slug: lets-encrypt-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lets-encrypt/refs/heads/main/openapi/lets-encrypt-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/lets-encrypt/openapi/lets-encrypt-authorization-api-openapi.yml
 - filename: lets-encrypt-certificate-api-openapi.yml
   format: yaml
   label: Let's Encrypt Certificate API
   slug: lets-encrypt-certificate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lets-encrypt/refs/heads/main/openapi/lets-encrypt-certificate-api-openapi.yml
+  url: https://artifacts.apis.io/lets-encrypt/openapi/lets-encrypt-certificate-api-openapi.yml
 - filename: lets-encrypt-challenge-api-openapi.yml
   format: yaml
   label: Let's Encrypt Challenge API
   slug: lets-encrypt-challenge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lets-encrypt/refs/heads/main/openapi/lets-encrypt-challenge-api-openapi.yml
+  url: https://artifacts.apis.io/lets-encrypt/openapi/lets-encrypt-challenge-api-openapi.yml
 - filename: lets-encrypt-directory-api-openapi.yml
   format: yaml
   label: Let's Encrypt Directory API
   slug: lets-encrypt-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lets-encrypt/refs/heads/main/openapi/lets-encrypt-directory-api-openapi.yml
+  url: https://artifacts.apis.io/lets-encrypt/openapi/lets-encrypt-directory-api-openapi.yml
 - filename: lets-encrypt-nonce-api-openapi.yml
   format: yaml
   label: Let's Encrypt Nonce API
   slug: lets-encrypt-nonce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lets-encrypt/refs/heads/main/openapi/lets-encrypt-nonce-api-openapi.yml
+  url: https://artifacts.apis.io/lets-encrypt/openapi/lets-encrypt-nonce-api-openapi.yml
 - filename: lets-encrypt-order-api-openapi.yml
   format: yaml
   label: Let's Encrypt Order API
   slug: lets-encrypt-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lets-encrypt/refs/heads/main/openapi/lets-encrypt-order-api-openapi.yml
+  url: https://artifacts.apis.io/lets-encrypt/openapi/lets-encrypt-order-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -89,7 +89,7 @@ source_filename: lets-encrypt-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: letsencrypt.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 15:24:33 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: acme-v02.api.letsencrypt.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 23:05:30 2026 GMT\n  hsts: true\n  hsts_max_age: 604800\n- host: acme-staging-v02.api.letsencrypt.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 21:57:59 2026 GMT\n  hsts: true\n  hsts_max_age: 604800\ndomains:\n- domain: letsencrypt.org\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"ssl.com\"\n  - 0 issue \"www.digicert.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lets-encrypt/refs/heads/main/security/lets-encrypt-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lets-encrypt/security/lets-encrypt-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Certificates

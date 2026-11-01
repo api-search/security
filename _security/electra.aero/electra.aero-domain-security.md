@@ -5,7 +5,7 @@ api_specs:
   label: Electra.aero News API
   slug: electra.aero-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electra.aero/refs/heads/main/openapi/electra.aero-news-api-openapi.yml
+  url: https://artifacts.apis.io/electra.aero/openapi/electra.aero-news-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -34,7 +34,7 @@ source_filename: electra.aero-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: electra.aero\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 02:12:00 2026 GMT\n  hsts: false\ndomains:\n- domain: electra.aero\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/electra.aero/refs/heads/main/security/electra.aero-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/electra.aero/security/electra.aero-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Aerospace

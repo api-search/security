@@ -8,55 +8,55 @@ api_specs:
   label: Unstoppable Finance (Iron) Addresses API
   slug: unstoppable-finance-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/openapi/unstoppable-finance-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-finance/openapi/unstoppable-finance-addresses-api-openapi.yml
 - filename: unstoppable-finance-autoramp-api-openapi.yml
   format: yaml
   label: Unstoppable Finance (Iron) Autoramp API
   slug: unstoppable-finance-autoramp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/openapi/unstoppable-finance-autoramp-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-finance/openapi/unstoppable-finance-autoramp-api-openapi.yml
 - filename: unstoppable-finance-currencies-api-openapi.yml
   format: yaml
   label: Unstoppable Finance (Iron) Currencies API
   slug: unstoppable-finance-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/openapi/unstoppable-finance-currencies-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-finance/openapi/unstoppable-finance-currencies-api-openapi.yml
 - filename: unstoppable-finance-customer-api-openapi.yml
   format: yaml
   label: Unstoppable Finance (Iron) Customer API
   slug: unstoppable-finance-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/openapi/unstoppable-finance-customer-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-finance/openapi/unstoppable-finance-customer-api-openapi.yml
 - filename: unstoppable-finance-sandbox-api-openapi.yml
   format: yaml
   label: Unstoppable Finance (Iron) Sandbox API
   slug: unstoppable-finance-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/openapi/unstoppable-finance-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-finance/openapi/unstoppable-finance-sandbox-api-openapi.yml
 - filename: unstoppable-finance-webhooks-api-openapi.yml
   format: yaml
   label: Unstoppable Finance (Iron) Webhooks API
   slug: unstoppable-finance-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/openapi/unstoppable-finance-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-finance/openapi/unstoppable-finance-webhooks-api-openapi.yml
 - filename: unstoppable-finance-exchange-rate-api-openapi.yml
   format: yaml
   label: Unstoppable Finance (Iron) Exchange Rate API
   slug: unstoppable-finance-exchange-rate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/openapi/unstoppable-finance-exchange-rate-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-finance/openapi/unstoppable-finance-exchange-rate-api-openapi.yml
 - filename: unstoppable-finance-fee-profiles-api-openapi.yml
   format: yaml
   label: Unstoppable Finance (Iron) Fee Profiles API
   slug: unstoppable-finance-fee-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/openapi/unstoppable-finance-fee-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-finance/openapi/unstoppable-finance-fee-profiles-api-openapi.yml
 - filename: unstoppable-finance-terms-and-conditions-api-openapi.yml
   format: yaml
   label: Unstoppable Finance (Iron) Terms And Conditions API
   slug: unstoppable-finance-terms-and-conditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/openapi/unstoppable-finance-terms-and-conditions-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-finance/openapi/unstoppable-finance-terms-and-conditions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -84,7 +84,7 @@ source_filename: unstoppable-finance-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/unstoppable-finance-iron-openapi-original.yml\ndocs: https://docs.iron.xyz/authentication\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  oauth2_flows: []\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: 'API key created and managed in the Iron Partner Dashboard (Developer -> API Keys). Keys carry a\n    role: Read Only or Read / Write. Missing, incorrect, or revoked keys return 401 Unauthorized with a plain-text\n    authorization error. Separate keys per environment: sandbox keys at app.sandbox.iron.xyz/dashboard/keys, production\n    keys at app.iron.xyz (production keys can only be created by an administrator).'\n  sources:\n  - openapi/unstoppable-finance-iron-openapi-original.yml\nnotes: All Iron API requests require the X-API-Key header. No OAuth2/OIDC surface. The Partner Dashboard itself\n  supports 2FA (docs.iron.xyz/2fa).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/authentication/unstoppable-finance-authentication.yml
+source_yaml_url: https://artifacts.apis.io/unstoppable-finance/authentication/unstoppable-finance-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

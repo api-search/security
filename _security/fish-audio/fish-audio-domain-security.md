@@ -5,25 +5,25 @@ api_specs:
   label: Fish Audio Asr API
   slug: fish-audio-asr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fish-audio/refs/heads/main/openapi/fish-audio-asr-api-openapi.yml
+  url: https://artifacts.apis.io/fish-audio/openapi/fish-audio-asr-api-openapi.yml
 - filename: fish-audio-model-api-openapi.yml
   format: yaml
   label: Fish Audio Model API
   slug: fish-audio-model-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fish-audio/refs/heads/main/openapi/fish-audio-model-api-openapi.yml
+  url: https://artifacts.apis.io/fish-audio/openapi/fish-audio-model-api-openapi.yml
 - filename: fish-audio-tts-api-openapi.yml
   format: yaml
   label: Fish Audio Tts API
   slug: fish-audio-tts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fish-audio/refs/heads/main/openapi/fish-audio-tts-api-openapi.yml
+  url: https://artifacts.apis.io/fish-audio/openapi/fish-audio-tts-api-openapi.yml
 - filename: fish-audio-wallet-api-openapi.yml
   format: yaml
   label: Fish Audio Wallet API
   slug: fish-audio-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fish-audio/refs/heads/main/openapi/fish-audio-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/fish-audio/openapi/fish-audio-wallet-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: fish-audio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: fish.audio\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 11:43:07 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.fish.audio\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 05:35:32 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.fish.audio\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 10:46:37 2026 GMT\n  hsts: null\ndomains:\n- domain: fish.audio\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fish-audio/refs/heads/main/security/fish-audio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fish-audio/security/fish-audio-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Voice

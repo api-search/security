@@ -5,13 +5,13 @@ api_specs:
   label: OurPeople Authentication API
   slug: ourpeople-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ourpeople/refs/heads/main/openapi/ourpeople-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/ourpeople/openapi/ourpeople-authentication-api-openapi.yml
 - filename: ourpeople-broadcasts-api-openapi.yml
   format: yaml
   label: OurPeople Broadcasts API
   slug: ourpeople-broadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ourpeople/refs/heads/main/openapi/ourpeople-broadcasts-api-openapi.yml
+  url: https://artifacts.apis.io/ourpeople/openapi/ourpeople-broadcasts-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: ourpeople-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.ourpeople.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 14:11:49 2026 GMT\n  hsts: false\n- host: ourpeople.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 18:08:53 2026 GMT\n  hsts: false\n- host: example-api.ourpeople.co\n  https: false\ndomains:\n- domain: ourpeople.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: ourpeople.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ourpeople/refs/heads/main/security/ourpeople-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ourpeople/security/ourpeople-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Communications

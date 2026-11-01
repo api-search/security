@@ -7,31 +7,31 @@ api_specs:
   label: Upstash Kafka API
   slug: upstash-kafka-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstash/refs/heads/main/openapi/upstash-kafka-api-openapi.yml
+  url: https://artifacts.apis.io/upstash/openapi/upstash-kafka-api-openapi.yml
 - filename: upstash-redis-api-openapi.yml
   format: yaml
   label: Upstash Redis API
   slug: upstash-redis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstash/refs/heads/main/openapi/upstash-redis-api-openapi.yml
+  url: https://artifacts.apis.io/upstash/openapi/upstash-redis-api-openapi.yml
 - filename: upstash-rediscommand-api-openapi.yml
   format: yaml
   label: Upstash RedisCommand API
   slug: upstash-rediscommand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstash/refs/heads/main/openapi/upstash-rediscommand-api-openapi.yml
+  url: https://artifacts.apis.io/upstash/openapi/upstash-rediscommand-api-openapi.yml
 - filename: upstash-teams-api-openapi.yml
   format: yaml
   label: Upstash Teams API
   slug: upstash-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstash/refs/heads/main/openapi/upstash-teams-api-openapi.yml
+  url: https://artifacts.apis.io/upstash/openapi/upstash-teams-api-openapi.yml
 - filename: upstash-vector-api-openapi.yml
   format: yaml
   label: Upstash Vector API
   slug: upstash-vector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstash/refs/heads/main/openapi/upstash-vector-api-openapi.yml
+  url: https://artifacts.apis.io/upstash/openapi/upstash-vector-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,15 +64,14 @@ source_filename: upstash-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/upstash-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic auth with Upstash account email and API key.\n  sources:\n  - openapi/upstash-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Database-scoped bearer token issued from the Upstash console.\n  sources:\n  - openapi/upstash-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upstash/refs/heads/main/authentication/upstash-authentication.yml
+source_yaml_url: https://artifacts.apis.io/upstash/authentication/upstash-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Serverless
 - Redis
 - Kafka
 - Messaging
-- Vector Database
+- Vector Search
 - Edge Computing
 - Database
-- Vector Search
 ---

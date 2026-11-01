@@ -5,31 +5,31 @@ api_specs:
   label: Royal Mail Labels API
   slug: royal-mail-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/royal-mail/refs/heads/main/openapi/royal-mail-labels-api-openapi.yml
+  url: https://artifacts.apis.io/royal-mail/openapi/royal-mail-labels-api-openapi.yml
 - filename: royal-mail-manifests-api-openapi.yml
   format: yaml
   label: Royal Mail Manifests API
   slug: royal-mail-manifests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/royal-mail/refs/heads/main/openapi/royal-mail-manifests-api-openapi.yml
+  url: https://artifacts.apis.io/royal-mail/openapi/royal-mail-manifests-api-openapi.yml
 - filename: royal-mail-orders-api-openapi.yml
   format: yaml
   label: Royal Mail Orders API
   slug: royal-mail-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/royal-mail/refs/heads/main/openapi/royal-mail-orders-api-openapi.yml
+  url: https://artifacts.apis.io/royal-mail/openapi/royal-mail-orders-api-openapi.yml
 - filename: royal-mail-returns-api-openapi.yml
   format: yaml
   label: Royal Mail Returns API
   slug: royal-mail-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/royal-mail/refs/heads/main/openapi/royal-mail-returns-api-openapi.yml
+  url: https://artifacts.apis.io/royal-mail/openapi/royal-mail-returns-api-openapi.yml
 - filename: royal-mail-version-api-openapi.yml
   format: yaml
   label: Royal Mail Version API
   slug: royal-mail-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/royal-mail/refs/heads/main/openapi/royal-mail-version-api-openapi.yml
+  url: https://artifacts.apis.io/royal-mail/openapi/royal-mail-version-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: royal-mail-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.royalmail.net\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 27 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.royalmail.net\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 27 23:59:59 2026 GMT\n  hsts: null\n- host: help.parcel.royalmail.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 23:44:09 2026 GMT\n  hsts: true\n  hsts_max_age: 259200\ndomains:\n- domain: royalmail.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: royalmail.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/royal-mail/refs/heads/main/security/royal-mail-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/royal-mail/security/royal-mail-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Shipping

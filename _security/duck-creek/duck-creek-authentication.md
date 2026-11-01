@@ -7,31 +7,31 @@ api_specs:
   label: Duck Creek Billing API
   slug: duck-creek-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-billing-api-openapi.yml
+  url: https://artifacts.apis.io/duck-creek/openapi/duck-creek-billing-api-openapi.yml
 - filename: duck-creek-claims-api-openapi.yml
   format: yaml
   label: Duck Creek Claims API
   slug: duck-creek-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-claims-api-openapi.yml
+  url: https://artifacts.apis.io/duck-creek/openapi/duck-creek-claims-api-openapi.yml
 - filename: duck-creek-policies-api-openapi.yml
   format: yaml
   label: duck-creek Policies API
   slug: duck-creek-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-policies-api-openapi.yml
+  url: https://artifacts.apis.io/duck-creek/openapi/duck-creek-policies-api-openapi.yml
 - filename: duck-creek-products-api-openapi.yml
   format: yaml
   label: duck-creek Products API
   slug: duck-creek-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-products-api-openapi.yml
+  url: https://artifacts.apis.io/duck-creek/openapi/duck-creek-products-api-openapi.yml
 - filename: duck-creek-quotes-api-openapi.yml
   format: yaml
   label: duck-creek Quotes API
   slug: duck-creek-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/duck-creek/openapi/duck-creek-quotes-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -62,7 +62,7 @@ source_filename: duck-creek-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/duck-creek-policy-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.duckcreek.com/oauth/token\n    scopes: 5\n  description: OAuth 2.0 for Duck Creek Anywhere API authentication\n  sources:\n  - openapi/duck-creek-policy-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/authentication/duck-creek-authentication.yml
+source_yaml_url: https://artifacts.apis.io/duck-creek/authentication/duck-creek-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Insurance

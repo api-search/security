@@ -27,7 +27,7 @@ source_filename: market-iq-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: themarketiq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 15:40:00 2026 GMT\n  hsts: false\ndomains:\n- domain: themarketiq.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/market-iq/refs/heads/main/security/market-iq-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/market-iq/security/market-iq-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

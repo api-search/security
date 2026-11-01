@@ -5,49 +5,49 @@ api_specs:
   label: Trail Areas API
   slug: trail-areas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail-areas-api-openapi.yml
+  url: https://artifacts.apis.io/trail/openapi/trail-areas-api-openapi.yml
 - filename: trail-scores-api-openapi.yml
   format: yaml
   label: Trail Scores API
   slug: trail-scores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail-scores-api-openapi.yml
+  url: https://artifacts.apis.io/trail/openapi/trail-scores-api-openapi.yml
 - filename: trail-sites-api-openapi.yml
   format: yaml
   label: Trail Sites API
   slug: trail-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail-sites-api-openapi.yml
+  url: https://artifacts.apis.io/trail/openapi/trail-sites-api-openapi.yml
 - filename: trail-tags-api-openapi.yml
   format: yaml
   label: Trail Tags API
   slug: trail-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail-tags-api-openapi.yml
+  url: https://artifacts.apis.io/trail/openapi/trail-tags-api-openapi.yml
 - filename: trail-task-instances-api-openapi.yml
   format: yaml
   label: Trail Task Instances API
   slug: trail-task-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail-task-instances-api-openapi.yml
+  url: https://artifacts.apis.io/trail/openapi/trail-task-instances-api-openapi.yml
 - filename: trail-task-reports-api-openapi.yml
   format: yaml
   label: Trail Task Reports API
   slug: trail-task-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail-task-reports-api-openapi.yml
+  url: https://artifacts.apis.io/trail/openapi/trail-task-reports-api-openapi.yml
 - filename: trail-task-templates-api-openapi.yml
   format: yaml
   label: Trail Task Templates API
   slug: trail-task-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail-task-templates-api-openapi.yml
+  url: https://artifacts.apis.io/trail/openapi/trail-task-templates-api-openapi.yml
 - filename: trail-tasks-api-openapi.yml
   format: yaml
   label: Trail Tasks API
   slug: trail-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/trail/openapi/trail-tasks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -89,7 +89,7 @@ source_filename: trail-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: trailapp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 21:14:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: web.trailapp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 23:34:51 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: us.trailapp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 00:09:36 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: trailapp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/security/trail-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trail/security/trail-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

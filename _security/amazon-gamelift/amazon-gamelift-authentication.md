@@ -8,7 +8,25 @@ api_specs:
   label: Amazon GameLift Amazon GameLift API
   slug: amazon-gamelift-amazon-gamelift-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/openapi/amazon-gamelift-amazon-gamelift-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-gamelift/openapi/amazon-gamelift-amazon-gamelift-api-openapi.yml
+- filename: amazon-gamelift-container-fleet-api-openapi.yml
+  format: yaml
+  label: Amazon GameLift Gamelift Container Fleet API
+  slug: amazon-gamelift-container-fleet-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-gamelift/openapi/amazon-gamelift-container-fleet-api-openapi.yml
+- filename: amazon-gamelift-container-group-definition-api-openapi.yml
+  format: yaml
+  label: Amazon GameLift Gamelift Container Group Definition API
+  slug: amazon-gamelift-container-group-definition-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-gamelift/openapi/amazon-gamelift-container-group-definition-api-openapi.yml
+- filename: amazon-gamelift-operations-api-openapi.yml
+  format: yaml
+  label: Amazon GameLift Gamelift Operations API
+  slug: amazon-gamelift-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-gamelift/openapi/amazon-gamelift-operations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +54,7 @@ source_filename: amazon-gamelift-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-gamelift-openapi.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-gamelift-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/authentication/amazon-gamelift-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-gamelift/authentication/amazon-gamelift-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Cloud Computing

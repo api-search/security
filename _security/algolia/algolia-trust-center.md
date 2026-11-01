@@ -5,85 +5,85 @@ api_specs:
   label: Algolia Search API
   slug: algolia-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-search-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-search-api-openapi.yml
 - filename: algolia-insights-api-openapi.yml
   format: yaml
   label: Algolia Insights API
   slug: algolia-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-insights-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-insights-api-openapi.yml
 - filename: algolia-recommend-api-openapi.yml
   format: yaml
   label: Algolia Recommend API
   slug: algolia-recommend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-recommend-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-recommend-api-openapi.yml
 - filename: algolia-analytics-api-openapi.yml
   format: yaml
   label: Algolia Analytics API
   slug: algolia-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-analytics-api-openapi.yml
 - filename: algolia-abtesting-v3-api-openapi.yml
   format: yaml
   label: Algolia A/B Testing API
   slug: algolia-a-b-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-abtesting-v3-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-abtesting-v3-api-openapi.yml
 - filename: algolia-personalization-api-openapi.yml
   format: yaml
   label: Algolia Personalization API
   slug: algolia-personalization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-personalization-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-personalization-api-openapi.yml
 - filename: algolia-advanced-personalization-api-openapi.yml
   format: yaml
   label: Algolia Advanced Personalization API
   slug: algolia-advanced-personalization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-advanced-personalization-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-advanced-personalization-api-openapi.yml
 - filename: algolia-crawler-api-openapi.yml
   format: yaml
   label: Algolia Crawler API
   slug: algolia-crawler-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-crawler-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-crawler-api-openapi.yml
 - filename: algolia-ingestion-api-openapi.yml
   format: yaml
   label: Algolia Ingestion API
   slug: algolia-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-ingestion-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-ingestion-api-openapi.yml
 - filename: algolia-query-suggestions-api-openapi.yml
   format: yaml
   label: Algolia Query Suggestions API
   slug: algolia-query-suggestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-query-suggestions-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-query-suggestions-api-openapi.yml
 - filename: algolia-composition-api-openapi.yml
   format: yaml
   label: Algolia Composition API
   slug: algolia-composition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-composition-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-composition-api-openapi.yml
 - filename: algolia-agent-studio-api-openapi.yml
   format: yaml
   label: Algolia Agent Studio API
   slug: algolia-agent-studio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-agent-studio-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-agent-studio-api-openapi.yml
 - filename: algolia-monitoring-api-openapi.yml
   format: yaml
   label: Algolia Monitoring API
   slug: algolia-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-monitoring-api-openapi.yml
 - filename: algolia-ab-testing-api-openapi.yml
   format: yaml
   label: Algolia Ab Testing API
   slug: algolia-ab-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-ab-testing-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-ab-testing-api-openapi.yml
 certification_count: 0
 certifications: []
 description: Algolia publishes a Vanta-hosted Trust Center at trust.algolia.com. It is the canonical destination for Algolia's compliance posture - the older marketing page at /distributed-secure/security-compliance/ now 301s to it, and www.algolia.com/security serves the same Trust Center application.
@@ -102,7 +102,7 @@ source_yaml: "specification: API Commons Trust Center\nspecificationVersion: '0.
   \ Serves the same Vanta Trust Center application.\ncertifications: []\ncompliance_notes:\n  read: false\n  named: []\n  reason: NOT recorded, deliberately. The Vanta Trust Center renders its certification list client-side - the served HTML\n    is a 6.4 KB application shell with the certification data fetched by JavaScript, and the Vanta API endpoint behind it\n    returns 401 Unauthorized to an anonymous caller. The supporting Algolia article (support.algolia.com/hc/en-us/articles/4406981951889\n    \"What is Algolia's product compliance?\") returns HTTP 403 to automated fetches behind a Cloudflare bot challenge. Algolia's\n    own llms.txt asserts \"SOC2, GDPR, HIPAA compliance details\" behind that link, but that is a marketing summary line and\n    not a machine-readable attestation, so no certification name is asserted in this artifact. A human in a browser can read\n    the list; an agent cannot.\n  probed:\n  - url: https://trust.algolia.com\n    status: 200\n    note: JS-rendered\
   \ SPA shell; no certification names in the served HTML.\n  - url: https://api.vanta.com/v1/trust-centers/35qkoispbisbf5si15k7o\n    status: 401\n    note: Unauthorized.\n  - url: https://support.algolia.com/hc/en-us/articles/4406981951889-What-is-Algolia-s-product-compliance-\n    status: 403\n    note: Cloudflare bot challenge.\ncompliance_program:\n  published: true\n  evidence: A dedicated, canonical, vendor-operated Trust Center reachable at a first-party subdomain, with a 301 from the\n    provider's own security page. That establishes a published compliance program even though the individual attestations\n    were not machine-readable.\nrelated_security_documentation:\n- name: Shared responsibility model\n  url: https://www.algolia.com/doc/guides/security/security-best-practices/in-depth/shared-responsibility.md\n  note: States Algolia is responsible for \"remaining compliant with standards and certifications\" and for \"letting you know\n    about potential vulnerabilities\", and\
   \ documents SAML SSO and AES256 encryption (Algolia Vault) as Enterprise add-ons.\n- name: Security best practices\n  url: https://www.algolia.com/doc/guides/security/security-best-practices\n- name: Algolia Vault\n  url: https://www.algolia.com/doc/guides/security/algolia-vault\n  note: AES256 encryption at rest, Enterprise add-on.\n- name: API key restrictions\n  url: https://www.algolia.com/doc/guides/security/api-keys/in-depth/api-key-restrictions\npolicies:\n  terms_of_service:\n    url: https://www.algolia.com/policies/terms/\n    status: 200\n  privacy_policy:\n    url: https://www.algolia.com/policies/privacy/\n    status: 200\n  sla:\n    url: https://www.algolia.com/policies/sla/\n    status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/security/algolia-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/algolia/security/algolia-trust-center.yml
 summary_line: trust center published
 tags:
 - Search

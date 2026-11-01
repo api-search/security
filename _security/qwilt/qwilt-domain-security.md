@@ -5,37 +5,37 @@ api_specs:
   label: Qwilt Certificate Templates API
   slug: qwilt-certificate-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/openapi/qwilt-certificate-templates-api-openapi.yml
+  url: https://artifacts.apis.io/qwilt/openapi/qwilt-certificate-templates-api-openapi.yml
 - filename: qwilt-certificates-api-openapi.yml
   format: yaml
   label: Qwilt Certificates API
   slug: qwilt-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/openapi/qwilt-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/qwilt/openapi/qwilt-certificates-api-openapi.yml
 - filename: qwilt-origin-allow-list-api-openapi.yml
   format: yaml
   label: Qwilt Origin Allow List API
   slug: qwilt-origin-allow-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/openapi/qwilt-origin-allow-list-api-openapi.yml
+  url: https://artifacts.apis.io/qwilt/openapi/qwilt-origin-allow-list-api-openapi.yml
 - filename: qwilt-publishing-operations-api-openapi.yml
   format: yaml
   label: Qwilt Publishing Operations API
   slug: qwilt-publishing-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/openapi/qwilt-publishing-operations-api-openapi.yml
+  url: https://artifacts.apis.io/qwilt/openapi/qwilt-publishing-operations-api-openapi.yml
 - filename: qwilt-site-configurations-api-openapi.yml
   format: yaml
   label: Qwilt Site Configurations API
   slug: qwilt-site-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/openapi/qwilt-site-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/qwilt/openapi/qwilt-site-configurations-api-openapi.yml
 - filename: qwilt-sites-api-openapi.yml
   format: yaml
   label: Qwilt Sites API
   slug: qwilt-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/openapi/qwilt-sites-api-openapi.yml
+  url: https://artifacts.apis.io/qwilt/openapi/qwilt-sites-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -79,7 +79,7 @@ source_filename: qwilt-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.qwilt.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep  5 16:46:20 2026 GMT\n  hsts: false\n- host: cert-manager.cqloud.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 22 23:59:59 2026 GMT\n  hsts: null\n- host: media-sites.cqloud.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 22 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: qwilt.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: cqloud.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/security/qwilt-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/qwilt/security/qwilt-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

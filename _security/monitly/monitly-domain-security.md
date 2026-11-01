@@ -5,19 +5,19 @@ api_specs:
   label: Monitly Charts API
   slug: monitly-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monitly/refs/heads/main/openapi/monitly-charts-api-openapi.yml
+  url: https://artifacts.apis.io/monitly/openapi/monitly-charts-api-openapi.yml
 - filename: monitly-datasets-api-openapi.yml
   format: yaml
   label: Monitly Datasets API
   slug: monitly-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monitly/refs/heads/main/openapi/monitly-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/monitly/openapi/monitly-datasets-api-openapi.yml
 - filename: monitly-mcp-api-openapi.yml
   format: yaml
   label: Monitly MCP API
   slug: monitly-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monitly/refs/heads/main/openapi/monitly-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/monitly/openapi/monitly-mcp-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: monitly-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: monit.ly\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 31 17:09:19 2026 GMT\n  hsts: false\ndomains:\n- domain: monit.ly\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/monitly/refs/heads/main/security/monitly-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/monitly/security/monitly-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

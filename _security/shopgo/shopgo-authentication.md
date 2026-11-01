@@ -8,31 +8,31 @@ api_specs:
   label: ShopGo Authentication API
   slug: shopgo-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopgo/refs/heads/main/openapi/shopgo-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/shopgo/openapi/shopgo-authentication-api-openapi.yml
 - filename: shopgo-orders-api-openapi.yml
   format: yaml
   label: ShopGo Orders API
   slug: shopgo-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopgo/refs/heads/main/openapi/shopgo-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shopgo/openapi/shopgo-orders-api-openapi.yml
 - filename: shopgo-store-api-openapi.yml
   format: yaml
   label: ShopGo Store API
   slug: shopgo-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopgo/refs/heads/main/openapi/shopgo-store-api-openapi.yml
+  url: https://artifacts.apis.io/shopgo/openapi/shopgo-store-api-openapi.yml
 - filename: shopgo-tenants-api-openapi.yml
   format: yaml
   label: ShopGo Tenants API
   slug: shopgo-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopgo/refs/heads/main/openapi/shopgo-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/shopgo/openapi/shopgo-tenants-api-openapi.yml
 - filename: shopgo-users-api-openapi.yml
   format: yaml
   label: ShopGo Users API
   slug: shopgo-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopgo/refs/heads/main/openapi/shopgo-users-api-openapi.yml
+  url: https://artifacts.apis.io/shopgo/openapi/shopgo-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -75,7 +75,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://docs.shopgo.me/management-api/authentication.md\ndocs: https://docs.shopgo.me/management-api/authentication\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  api_key_headers: [X-API-KEY]\n  oauth2_flows: []\n  notes: >-\n    ShopGo uses API-key authentication only; there is no OAuth2/OIDC surface.\n    A permission model (see authorization) governs what an authenticated key can access.\nschemes:\n  - name: UserApiKey\n    type: apiKey\n    in: header\n    parameter: X-API-KEY\n    description: >-\n      Dashboard user API key. Grants access to the tenant account the dashboard\n      user belongs to. Obtained by POSTing email + password to\n      /v1/management/auth/key.\n    obtain: POST https://api.shopgo.me/v1/management/auth/key\n    test: GET https://api.shopgo.me/v1/management/auth/test\n    sources: [openapi/shopgo-management-openapi.yml, https://docs.shopgo.me/management-api/authentication/using-user-api-key.md]\n\
   \  - name: PlatformApiKey\n    type: apiKey\n    in: header\n    parameter: X-API-KEY\n    description: >-\n      Platform-level master API key. Can access any tenant account; intended for\n      ShopGo internal use, provisioned via an approval process. Requires an\n      additional X-TENANT-ID (or X-TENANT-NAME) header to select the target tenant.\n    companion_header: X-TENANT-ID\n    test: GET https://api.shopgo.me/v1/platform/auth/test\n    sources: [openapi/shopgo-platform-openapi.yml, https://docs.shopgo.me/management-api/authentication/using-platform-api-key.md]\npermissions:\n  model: per-key permission flags (dashboard + API)\n  docs: https://docs.shopgo.me/management-api/authorization\n  values:\n    - {name: home, relevance: dashboard-only}\n    - {name: orders, relevance: dashboard-and-api}\n    - {name: reports, relevance: dashboard-and-api}\n    - {name: products, relevance: dashboard-and-api}\n    - {name: customers, relevance: dashboard-and-api}\n    - {name: appearance,\
   \ relevance: dashboard-only}\n    - {name: settings, relevance: dashboard-and-api}\n  enforcement: >-\n    Missing permission returns 403 Forbidden; expired trial without subscription\n    returns 402 Payment Required.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shopgo/refs/heads/main/authentication/shopgo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/shopgo/authentication/shopgo-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company

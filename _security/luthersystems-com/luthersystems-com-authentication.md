@@ -7,37 +7,37 @@ api_specs:
   label: Luther Systems Agent API
   slug: luthersystems-com-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luthersystems-com/refs/heads/main/openapi/luthersystems-com-agent-api-openapi.yml
+  url: https://artifacts.apis.io/luthersystems-com/openapi/luthersystems-com-agent-api-openapi.yml
 - filename: luthersystems-com-browse-api-openapi.yml
   format: yaml
   label: Luther Systems Browse API
   slug: luthersystems-com-browse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luthersystems-com/refs/heads/main/openapi/luthersystems-com-browse-api-openapi.yml
+  url: https://artifacts.apis.io/luthersystems-com/openapi/luthersystems-com-browse-api-openapi.yml
 - filename: luthersystems-com-found-agent-api-openapi.yml
   format: yaml
   label: Luther Systems Found Agent API
   slug: luthersystems-com-found-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luthersystems-com/refs/heads/main/openapi/luthersystems-com-found-agent-api-openapi.yml
+  url: https://artifacts.apis.io/luthersystems-com/openapi/luthersystems-com-found-agent-api-openapi.yml
 - filename: luthersystems-com-search-api-openapi.yml
   format: yaml
   label: Luther Systems Search API
   slug: luthersystems-com-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luthersystems-com/refs/heads/main/openapi/luthersystems-com-search-api-openapi.yml
+  url: https://artifacts.apis.io/luthersystems-com/openapi/luthersystems-com-search-api-openapi.yml
 - filename: luthersystems-com-stats-api-openapi.yml
   format: yaml
   label: Luther Systems Stats API
   slug: luthersystems-com-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luthersystems-com/refs/heads/main/openapi/luthersystems-com-stats-api-openapi.yml
+  url: https://artifacts.apis.io/luthersystems-com/openapi/luthersystems-com-stats-api-openapi.yml
 - filename: luthersystems-com-well-known-api-openapi.yml
   format: yaml
   label: Luther Systems .well Known API
   slug: luthersystems-com-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luthersystems-com/refs/heads/main/openapi/luthersystems-com-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/luthersystems-com/openapi/luthersystems-com-well-known-api-openapi.yml
 auth_types: []
 description: 'Three distinct postures. AgentSearch is anonymous end to end — no keys, the card declares securitySchemes.public.type "none". InsideOut is anonymous for design and pricing but session-scoped: convoopen mints a session_id whose ?token= suffix is the per-session credential, deployment requires the user to connect AWS/GCP credentials in a browser (the cloud provider''s own OAuth, never passed through the agent) and to subscribe, and the A2A tasks/get method requires an X-A2A-Task-Secret header. The Luther Enterprise platform (customer-deployed) authenticates with RS256 JWTs issued by LutherAuth against external OIDC IdPs (Cognito, AzureAD, Auth0), with API-key pre-validation supported by the Go SDK and an X-API-KEY header on the starter-kit middleware API.'
 kind: authentication
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: >-\n  https://a
   \ returns session_id in the form sess_v2_xxx?token=yyy; the token is part of the session id and must be sent verbatim on every later tool call. No user-supplied API key. Mcp-Session-Id header carries the MCP transport session.\n  scopes: none\n  evidence: convoopen tool description (live tools/list); SKILL.md \"No API keys required from the user\".\n- name: cloud-credential-connect\n  api: InsideOut MCP (tfdeploy, tfdestroy, awsinspect, gcpinspect)\n  type: delegated (browser-based cloud-provider OAuth, out of band)\n  description: Deployment and inspection need the user to open a connect URL, authenticate directly with AWS or GCP and subscribe to a Luther Systems plan; credawait polls for completion. Credentials are held by the InsideOut platform, never by the agent or skill.\n  evidence: credawait tool description; SECURITY.md \"Cloud credentials\" section.\n- name: x-a2a-task-secret\n  api: InsideOut A2A (https://insideout.luthersystems.com/insideout-a2a/v0/)\n  type: apiKey\n  in:\
   \ header\n  header: X-A2A-Task-Secret\n  description: Required by tasks/get; not declared in the card's securitySchemes.\n  evidence: 'live -32602 \"X-A2A-Task-Secret header is required: invalid params\".'\n- name: lutherauth-jwt\n  api: Luther Enterprise platform (customer-deployed middleware / gRPC)\n  type: http\n  scheme: bearer\n  bearer_format: JWT (RS256)\n  description: Tokens issued by LutherAuth after OAuth/OIDC login with an external IdP; validated from gRPC metadata, HTTP cookies or headers via lutherauth-sdk-go with JWK caching and CSRF nonces. LutherAuth v4.7.6 added Auth0 alongside Cognito and AzureAD.\n  evidence: https://github.com/luthersystems/lutherauth-sdk-go README; docs release-notes.md.\n- name: x-api-key\n  api: Luther Platform starter-kit middleware (sandbox oracle API)\n  type: apiKey\n  in: header\n  header: X-API-KEY\n  description: securityDefinitions.X-API-KEY in the grpc-gateway-generated oracle.swagger.json of the sandbox starter kit; the platform SDK also\
   \ supports API-key pre-validation before claim extraction.\n  evidence: https://github.com/luthersystems/sandbox/blob/main/api/srvpb/v1/oracle.swagger.json\ndocs: https://github.com/luthersystems/insideout-agent-skills/blob/main/SECURITY.md\noauth: false\noidc_discovery: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/luthersystems-com/refs/heads/main/authentication/luthersystems-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/luthersystems-com/authentication/luthersystems-com-authentication.yml
 summary_line: 6 schemes
 tags:
 - Agents

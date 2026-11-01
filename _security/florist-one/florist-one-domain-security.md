@@ -5,25 +5,25 @@ api_specs:
   label: Florist One Affiliate API
   slug: florist-one-affiliate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/openapi/florist-one-affiliate-api-openapi.yml
+  url: https://artifacts.apis.io/florist-one/openapi/florist-one-affiliate-api-openapi.yml
 - filename: florist-one-flowershop-api-openapi.yml
   format: yaml
   label: Florist One FlowerShop API
   slug: florist-one-flowershop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/openapi/florist-one-flowershop-api-openapi.yml
+  url: https://artifacts.apis.io/florist-one/openapi/florist-one-flowershop-api-openapi.yml
 - filename: florist-one-giftbaskets-api-openapi.yml
   format: yaml
   label: Florist One GiftBaskets API
   slug: florist-one-giftbaskets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/openapi/florist-one-giftbaskets-api-openapi.yml
+  url: https://artifacts.apis.io/florist-one/openapi/florist-one-giftbaskets-api-openapi.yml
 - filename: florist-one-shopping-cart-api-openapi.yml
   format: yaml
   label: Florist One Shopping Cart API
   slug: florist-one-shopping-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/openapi/florist-one-shopping-cart-api-openapi.yml
+  url: https://artifacts.apis.io/florist-one/openapi/florist-one-shopping-cart-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: florist-one-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-10'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.floristone.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 19 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: floristone.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/security/florist-one-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/florist-one/security/florist-one-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Delivery

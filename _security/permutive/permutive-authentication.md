@@ -9,37 +9,37 @@ api_specs:
   label: Permutive Contextual API
   slug: permutive-contextual-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/openapi/permutive-contextual-api-openapi.yml
+  url: https://artifacts.apis.io/permutive/openapi/permutive-contextual-api-openapi.yml
 - filename: permutive-cohorts-api-openapi.yml
   format: yaml
   label: Permutive Cohorts API
   slug: permutive-cohorts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/openapi/permutive-cohorts-api-openapi.yml
+  url: https://artifacts.apis.io/permutive/openapi/permutive-cohorts-api-openapi.yml
 - filename: permutive-events-api-openapi.yml
   format: yaml
   label: Permutive Events API
   slug: permutive-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/openapi/permutive-events-api-openapi.yml
+  url: https://artifacts.apis.io/permutive/openapi/permutive-events-api-openapi.yml
 - filename: permutive-identity-api-openapi.yml
   format: yaml
   label: Permutive Identity API
   slug: permutive-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/openapi/permutive-identity-api-openapi.yml
+  url: https://artifacts.apis.io/permutive/openapi/permutive-identity-api-openapi.yml
 - filename: permutive-segmentation-api-openapi.yml
   format: yaml
   label: Permutive Segmentation API
   slug: permutive-segmentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/openapi/permutive-segmentation-api-openapi.yml
+  url: https://artifacts.apis.io/permutive/openapi/permutive-segmentation-api-openapi.yml
 - filename: permutive-taxonomy-api-openapi.yml
   format: yaml
   label: Permutive Taxonomy API
   slug: permutive-taxonomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/openapi/permutive-taxonomy-api-openapi.yml
+  url: https://artifacts.apis.io/permutive/openapi/permutive-taxonomy-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://docs.pe
   \ to cohorts in the workspace that\n    owns it, plus cohorts inherited from parent workspaces. Broader access\n    levels are arranged with Permutive Technical Services\n    (technical-services@permutive.com).\nscopes_model:\n  kind: workspace\n  description: >-\n    Authorization is by workspace, not by OAuth scope. The behaviour of every\n    call depends on which workspace in the organization hierarchy owns the key;\n    the Cohorts API exposes an `include-child-workspaces` query parameter to\n    reach workspaces below the requesting one.\nschemes:\n- name: Header\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: >-\n    Permutive API key (UUID v4) supplied in the X-API-Key request header. The\n    CCS API spells the same header `X-Api-Key`; header names are\n    case-insensitive per RFC 9110.\n  sources:\n  - openapi/permutive-events-api-openapi.yml\n  - openapi/permutive-identity-api-openapi.yml\n  - openapi/permutive-segmentation-api-openapi.yml\n- name: Parameter\n\
   \  type: apiKey\n  in: query\n  parameter: k\n  description: >-\n    Permutive API key (UUID v4) supplied on the `k` query parameter. Documented\n    as the primary mechanism for the Contextual API and as an alternative\n    everywhere else. Note that keys on the query string are logged by\n    intermediaries — prefer the header wherever you control the client.\n  sources:\n  - openapi/permutive-cohorts-api-openapi.yml\n  - openapi/permutive-events-api-openapi.yml\n  - openapi/permutive-identity-api-openapi.yml\n  - openapi/permutive-segmentation-api-openapi.yml\ngaps:\n- >-\n  openapi/permutive-taxonomy-api-openapi.yml declares no securitySchemes at all,\n  although the Taxonomy API documentation states that every request must carry a\n  private API key. The spec understates the contract.\nsso:\n  platform_login: >-\n    The Permutive platform (dash.permutive.com) supports enterprise SSO via SAML\n    and OpenID Connect with MFA enforced through the customer IdP. This is\n    console\
   \ authentication for humans and is unrelated to API authentication.\n  source: https://docs.permutive.com/governance/security\ncross_links:\n  conventions: conventions/permutive-conventions.yml\n  errors: errors/permutive-problem-types.yml\n  key_management: https://dash.permutive.com/settings/keys\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/authentication/permutive-authentication.yml
+source_yaml_url: https://artifacts.apis.io/permutive/authentication/permutive-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company

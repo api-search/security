@@ -5,25 +5,25 @@ api_specs:
   label: Oxylabs Login API
   slug: oxylabs-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/openapi/oxylabs-login-api-openapi.yml
+  url: https://artifacts.apis.io/oxylabs/openapi/oxylabs-login-api-openapi.yml
 - filename: oxylabs-queries-api-openapi.yml
   format: yaml
   label: Oxylabs Queries API
   slug: oxylabs-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/openapi/oxylabs-queries-api-openapi.yml
+  url: https://artifacts.apis.io/oxylabs/openapi/oxylabs-queries-api-openapi.yml
 - filename: oxylabs-stats-api-openapi.yml
   format: yaml
   label: Oxylabs Stats API
   slug: oxylabs-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/openapi/oxylabs-stats-api-openapi.yml
+  url: https://artifacts.apis.io/oxylabs/openapi/oxylabs-stats-api-openapi.yml
 - filename: oxylabs-users-api-openapi.yml
   format: yaml
   label: Oxylabs Users API
   slug: oxylabs-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/openapi/oxylabs-users-api-openapi.yml
+  url: https://artifacts.apis.io/oxylabs/openapi/oxylabs-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: oxylabs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: oxylabs.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 12:46:06 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developers.oxylabs.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 16:15:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: realtime.oxylabs.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 15:21:00 2026 GMT\n  hsts: null\ndomains:\n- domain: oxylabs.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/security/oxylabs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/oxylabs/security/oxylabs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI Web Scraping
@@ -74,7 +74,7 @@ tags:
 - Datacenter Proxies
 - Datasets
 - E-Commerce Data
-- Headless Browser
+- Browser Automation
 - ISP Proxies
 - Mobile Proxies
 - Proxies

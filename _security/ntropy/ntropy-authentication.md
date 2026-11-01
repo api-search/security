@@ -8,91 +8,91 @@ api_specs:
   label: Ntropy Account Holder API
   slug: ntropy-account-holder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-account-holder-api-openapi.yml
+  url: https://artifacts.apis.io/ntropy/openapi/ntropy-account-holder-api-openapi.yml
 - filename: ntropy-bank-statements-api-openapi.yml
   format: yaml
   label: Ntropy Bank statements API
   slug: ntropy-bank-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-bank-statements-api-openapi.yml
+  url: https://artifacts.apis.io/ntropy/openapi/ntropy-bank-statements-api-openapi.yml
 - filename: ntropy-batches-api-openapi.yml
   format: yaml
   label: Ntropy Batches API
   slug: ntropy-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-batches-api-openapi.yml
+  url: https://artifacts.apis.io/ntropy/openapi/ntropy-batches-api-openapi.yml
 - filename: ntropy-categories-api-openapi.yml
   format: yaml
   label: Ntropy Categories API
   slug: ntropy-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-categories-api-openapi.yml
+  url: https://artifacts.apis.io/ntropy/openapi/ntropy-categories-api-openapi.yml
 - filename: ntropy-enrichment-api-openapi.yml
   format: yaml
   label: Ntropy Enrichment API
   slug: ntropy-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/ntropy/openapi/ntropy-enrichment-api-openapi.yml
 - filename: ntropy-entities-api-openapi.yml
   format: yaml
   label: Ntropy Entities API
   slug: ntropy-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-entities-api-openapi.yml
+  url: https://artifacts.apis.io/ntropy/openapi/ntropy-entities-api-openapi.yml
 - filename: ntropy-labels-api-openapi.yml
   format: yaml
   label: Ntropy Labels API
   slug: ntropy-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-labels-api-openapi.yml
+  url: https://artifacts.apis.io/ntropy/openapi/ntropy-labels-api-openapi.yml
 - filename: ntropy-misc-api-openapi.yml
   format: yaml
   label: Ntropy Misc API
   slug: ntropy-misc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-misc-api-openapi.yml
+  url: https://artifacts.apis.io/ntropy/openapi/ntropy-misc-api-openapi.yml
 - filename: ntropy-personalization-api-openapi.yml
   format: yaml
   label: Ntropy Personalization API
   slug: ntropy-personalization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-personalization-api-openapi.yml
+  url: https://artifacts.apis.io/ntropy/openapi/ntropy-personalization-api-openapi.yml
 - filename: ntropy-recurrence-api-openapi.yml
   format: yaml
   label: Ntropy Recurrence API
   slug: ntropy-recurrence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-recurrence-api-openapi.yml
+  url: https://artifacts.apis.io/ntropy/openapi/ntropy-recurrence-api-openapi.yml
 - filename: ntropy-reporting-api-openapi.yml
   format: yaml
   label: Ntropy Reporting API
   slug: ntropy-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/ntropy/openapi/ntropy-reporting-api-openapi.yml
 - filename: ntropy-reports-api-openapi.yml
   format: yaml
   label: Ntropy Reports API
   slug: ntropy-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-reports-api-openapi.yml
+  url: https://artifacts.apis.io/ntropy/openapi/ntropy-reports-api-openapi.yml
 - filename: ntropy-transactions-api-openapi.yml
   format: yaml
   label: Ntropy Transactions API
   slug: ntropy-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/ntropy/openapi/ntropy-transactions-api-openapi.yml
 - filename: ntropy-webhooks-api-openapi.yml
   format: yaml
   label: Ntropy Webhooks API
   slug: ntropy-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/ntropy/openapi/ntropy-webhooks-api-openapi.yml
 - filename: ntropy-account-holders-api-openapi.yml
   format: yaml
   label: Ntropy Account Holders API
   slug: ntropy-account-holders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-account-holders-api-openapi.yml
+  url: https://artifacts.apis.io/ntropy/openapi/ntropy-account-holders-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -120,7 +120,7 @@ source_filename: ntropy-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/ntropy-api-v3-openapi-original.json, openapi/ntropy-transaction-api-openapi-original.json\ndocs: https://docs.ntropy.com/api/auth\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  notes: >-\n    Single auth mechanism: an API key sent in the X-API-KEY request header. Keys are\n    created, disabled and rotated in the dashboard (https://dashboard.ntropy.com/keys).\n    Rotating a key changes only its authorization; previously submitted data stays\n    accessible. No OAuth/OIDC.\nschemes:\n- name: APIKeyHeader\n  type: apiKey\n  in: header\n  parameter: X-Api-Key\n  sources:\n  - openapi/ntropy-api-v3-openapi-original.json\n  - openapi/ntropy-transaction-api-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/authentication/ntropy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ntropy/authentication/ntropy-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

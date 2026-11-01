@@ -5,55 +5,55 @@ api_specs:
   label: Cradlepoint Accounts API
   slug: cradlepoint-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/cradlepoint/openapi/cradlepoint-accounts-api-openapi.yml
 - filename: cradlepoint-alertpushdestinations-api-openapi.yml
   format: yaml
   label: Cradlepoint AlertPushDestinations API
   slug: cradlepoint-alertpushdestinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-alertpushdestinations-api-openapi.yml
+  url: https://artifacts.apis.io/cradlepoint/openapi/cradlepoint-alertpushdestinations-api-openapi.yml
 - filename: cradlepoint-alerts-api-openapi.yml
   format: yaml
   label: Cradlepoint Alerts API
   slug: cradlepoint-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/cradlepoint/openapi/cradlepoint-alerts-api-openapi.yml
 - filename: cradlepoint-groups-api-openapi.yml
   format: yaml
   label: Cradlepoint Groups API
   slug: cradlepoint-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-groups-api-openapi.yml
+  url: https://artifacts.apis.io/cradlepoint/openapi/cradlepoint-groups-api-openapi.yml
 - filename: cradlepoint-locations-api-openapi.yml
   format: yaml
   label: Cradlepoint Locations API
   slug: cradlepoint-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-locations-api-openapi.yml
+  url: https://artifacts.apis.io/cradlepoint/openapi/cradlepoint-locations-api-openapi.yml
 - filename: cradlepoint-netdevices-api-openapi.yml
   format: yaml
   label: Cradlepoint NetDevices API
   slug: cradlepoint-netdevices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-netdevices-api-openapi.yml
+  url: https://artifacts.apis.io/cradlepoint/openapi/cradlepoint-netdevices-api-openapi.yml
 - filename: cradlepoint-routers-api-openapi.yml
   format: yaml
   label: Cradlepoint Routers API
   slug: cradlepoint-routers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-routers-api-openapi.yml
+  url: https://artifacts.apis.io/cradlepoint/openapi/cradlepoint-routers-api-openapi.yml
 - filename: cradlepoint-activity-logs-api-openapi.yml
   format: yaml
   label: Cradlepoint Activity Logs API
   slug: cradlepoint-activity-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-activity-logs-api-openapi.yml
+  url: https://artifacts.apis.io/cradlepoint/openapi/cradlepoint-activity-logs-api-openapi.yml
 - filename: cradlepoint-alert-rules-api-openapi.yml
   format: yaml
   label: Cradlepoint Alert Rules API
   slug: cradlepoint-alert-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-alert-rules-api-openapi.yml
+  url: https://artifacts.apis.io/cradlepoint/openapi/cradlepoint-alert-rules-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -105,7 +105,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cradlepoint.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 17:48:39 2026 GMT\n  hsts: true\n  hsts_max_age: 31622400\n- host: customer.cradlepoint.com\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get\n    local issuer certificate (_ssl.c:1082)'\n  hsts: null\n- host: www.cradlepointecm.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 05:58:51 2026 GMT\n  hsts: null\ndomains:\n- domain: cradlepoint.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: cradlepointecm.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"awstrust.com\"\n  - 0 issuewild \"godaddy.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"amazon.com\"\n  spf: true\n\
   \  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/security/cradlepoint-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cradlepoint/security/cradlepoint-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Wireless WAN

@@ -15,7 +15,7 @@ source_filename: stellate-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://stellate.co/trust\nurl: https://stellate.co/trust\ncertifications:\n- SOC 2\nevidence:\n- source: https://stellate.co/trust\n  keywords:\n  - soc2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stellate/refs/heads/main/security/stellate-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/stellate/security/stellate-trust-center.yml
 summary_line: SOC 2
 tags:
 - GraphQL

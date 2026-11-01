@@ -5,43 +5,43 @@ api_specs:
   label: EdfaPay, Inc. Branch Management API
   slug: edfapay-inc-branch-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/openapi/edfapay-inc-branch-management-api-openapi.yml
+  url: https://artifacts.apis.io/edfapay-inc/openapi/edfapay-inc-branch-management-api-openapi.yml
 - filename: edfapay-inc-merchant-management-api-openapi.yml
   format: yaml
   label: EdfaPay, Inc. Merchant Management API
   slug: edfapay-inc-merchant-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/openapi/edfapay-inc-merchant-management-api-openapi.yml
+  url: https://artifacts.apis.io/edfapay-inc/openapi/edfapay-inc-merchant-management-api-openapi.yml
 - filename: edfapay-inc-partner-management-api-openapi.yml
   format: yaml
   label: EdfaPay, Inc. Partner Management API
   slug: edfapay-inc-partner-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/openapi/edfapay-inc-partner-management-api-openapi.yml
+  url: https://artifacts.apis.io/edfapay-inc/openapi/edfapay-inc-partner-management-api-openapi.yml
 - filename: edfapay-inc-payment-api-openapi.yml
   format: yaml
   label: EdfaPay, Inc. Payment API
   slug: edfapay-inc-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/openapi/edfapay-inc-payment-api-openapi.yml
+  url: https://artifacts.apis.io/edfapay-inc/openapi/edfapay-inc-payment-api-openapi.yml
 - filename: edfapay-inc-role-management-api-openapi.yml
   format: yaml
   label: EdfaPay, Inc. Role Management API
   slug: edfapay-inc-role-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/openapi/edfapay-inc-role-management-api-openapi.yml
+  url: https://artifacts.apis.io/edfapay-inc/openapi/edfapay-inc-role-management-api-openapi.yml
 - filename: edfapay-inc-transaction-management-api-openapi.yml
   format: yaml
   label: EdfaPay, Inc. Transaction Management API
   slug: edfapay-inc-transaction-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/openapi/edfapay-inc-transaction-management-api-openapi.yml
+  url: https://artifacts.apis.io/edfapay-inc/openapi/edfapay-inc-transaction-management-api-openapi.yml
 - filename: edfapay-inc-user-management-api-openapi.yml
   format: yaml
   label: EdfaPay, Inc. User Management API
   slug: edfapay-inc-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/openapi/edfapay-inc-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/edfapay-inc/openapi/edfapay-inc-user-management-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,7 +81,7 @@ source_filename: edfapay-inc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: edfapay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 22:02:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apidev.edfapay.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 21 10:49:05 2026 GMT\n  hsts: null\n- host: revamp-api.edfapay.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 21 10:49:05 2026 GMT\n  hsts: null\ndomains:\n- domain: edfapay.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/security/edfapay-inc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/edfapay-inc/security/edfapay-inc-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

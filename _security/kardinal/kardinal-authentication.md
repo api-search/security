@@ -2,54 +2,24 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: kardinal-authenticate-api-openapi.yml
-  format: yaml
-  label: Kardinal Authenticate API
-  slug: kardinal-authenticate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/openapi/kardinal-authenticate-api-openapi.yml
-- filename: kardinal-core-api-openapi.yml
-  format: yaml
-  label: Kardinal Core API
-  slug: kardinal-core-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/openapi/kardinal-core-api-openapi.yml
-- filename: kardinal-management-api-openapi.yml
-  format: yaml
-  label: Kardinal Management API
-  slug: kardinal-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/openapi/kardinal-management-api-openapi.yml
-- filename: kardinal-order-api-openapi.yml
-  format: yaml
-  label: Kardinal Order API
-  slug: kardinal-order-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/openapi/kardinal-order-api-openapi.yml
 - filename: kardinal-plan-api-openapi.yml
   format: yaml
   label: Kardinal Plan API
   slug: kardinal-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/openapi/kardinal-plan-api-openapi.yml
-- filename: kardinal-resource-api-openapi.yml
-  format: yaml
-  label: Kardinal Resource API
-  slug: kardinal-resource-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/openapi/kardinal-resource-api-openapi.yml
-- filename: kardinal-simpleplan-api-openapi.yml
-  format: yaml
-  label: Kardinal Simple Plan API
-  slug: kardinal-simpleplan-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/openapi/kardinal-simpleplan-api-openapi.yml
+  url: https://artifacts.apis.io/kardinal/openapi/kardinal-plan-api-openapi.yml
 - filename: kardinal-solution-api-openapi.yml
   format: yaml
   label: Kardinal Solution API
   slug: kardinal-solution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/openapi/kardinal-solution-api-openapi.yml
+  url: https://artifacts.apis.io/kardinal/openapi/kardinal-solution-api-openapi.yml
+- filename: kardinal-webhook-api-openapi.yml
+  format: yaml
+  label: Kardinal Webhook API
+  slug: kardinal-webhook-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kardinal/openapi/kardinal-webhook-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -111,7 +81,7 @@ source_yaml: "generated: '2026-08-17'\nmethod: searched\nsource: openapi/kardina
   \    http_status: 200\n    algorithm: ES384\n    key_type: EC P-384\n    note: >-\n      Probed anonymously on 2026-08-17 and returned a real JWK. Tokens are\n      asymmetrically signed, so integrators can verify them offline.\nflows:\n- name: password login\n  steps: [POST /login]\n  operation_ids: [postLogin]\n  returns: [access_token, refresh_token]\n- name: MFA / OTP login\n  steps: [POST /login, POST /login/otp]\n  operation_ids: [postLogin, postLoginOTP]\n  resend: {operation_id: requestNewLoginOTPCode, path: POST /login/resendOTP, rate_limited: true, status_on_exhaustion: 429}\n- name: token refresh\n  steps: [POST /login/refresh]\n  operation_ids: [postLoginRefresh]\n- name: Azure SSO\n  steps: [POST /login/sso/azure]\n  operation_ids: [postLoginWithAzureSSO]\n- name: Google SSO\n  steps: [POST /login/sso/google]\n  operation_ids: [postLoginWithGoogleSSO]\n- name: password reset\n  steps: [POST /auth/password/requestToken, POST /auth/password/validateToken, POST /auth/password/reset]\n\
   \  operation_ids: [postRequestPasswordToken, validatePasswordToken, resetPassword]\n- name: MFA configuration\n  steps: [GET /auth/mfa/config, POST /auth/mfa/request, POST /auth/mfa/validate, PUT /auth/mfa/preferredType, POST /auth/mfa/disable, PUT /auth/mfa/regenerateBackupCodes]\n  operation_ids: [getActorMFAConfig, requestMFAConfigUpdate, validateMFAConfigUpdate, putMFAConfigPreferredType, disableMFAConfig, regenerateMFABackupCodes]\n  resend: {operation_id: requestNewMFAOTPCode, path: POST /auth/mfa/resendOTP, rate_limited: true, status_on_exhaustion: 429}\nprovisioning:\n  self_serve: false\n  model: invitation\n  note: >-\n    Per https://developers.kardinal.ai/getting-started/first-api-call, access is\n    provisioned by invitation — a user is invited to set a password on a per-customer\n    environment host, and there is no self-serve sign-up flow. Credentials are\n    requested from an Account Executive or api@kardinal.ai.\n  environments: per-customer, https://<env>.kardinal.ai,\
   \ sandbox and production fully separate\nrevocation:\n  self_service: false\n  note: >-\n    The docs state there is no documented self-service revocation endpoint; a\n    suspected compromise is handled by contacting api@kardinal.ai or the Account\n    Executive.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/authentication/kardinal-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kardinal/authentication/kardinal-authentication.yml
 summary_line: http · 5 schemes
 tags:
 - Company

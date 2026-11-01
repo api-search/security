@@ -8,43 +8,43 @@ api_specs:
   label: FlightLabs Aircraft API
   slug: flightlabs-aircraft-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightlabs/refs/heads/main/openapi/flightlabs-aircraft-api-openapi.yml
+  url: https://artifacts.apis.io/flightlabs/openapi/flightlabs-aircraft-api-openapi.yml
 - filename: flightlabs-airlines-api-openapi.yml
   format: yaml
   label: FlightLabs Airlines API
   slug: flightlabs-airlines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightlabs/refs/heads/main/openapi/flightlabs-airlines-api-openapi.yml
+  url: https://artifacts.apis.io/flightlabs/openapi/flightlabs-airlines-api-openapi.yml
 - filename: flightlabs-airports-api-openapi.yml
   format: yaml
   label: FlightLabs Airports API
   slug: flightlabs-airports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightlabs/refs/heads/main/openapi/flightlabs-airports-api-openapi.yml
+  url: https://artifacts.apis.io/flightlabs/openapi/flightlabs-airports-api-openapi.yml
 - filename: flightlabs-flights-api-openapi.yml
   format: yaml
   label: FlightLabs Flights API
   slug: flightlabs-flights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightlabs/refs/heads/main/openapi/flightlabs-flights-api-openapi.yml
+  url: https://artifacts.apis.io/flightlabs/openapi/flightlabs-flights-api-openapi.yml
 - filename: flightlabs-geography-api-openapi.yml
   format: yaml
   label: FlightLabs Geography API
   slug: flightlabs-geography-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightlabs/refs/heads/main/openapi/flightlabs-geography-api-openapi.yml
+  url: https://artifacts.apis.io/flightlabs/openapi/flightlabs-geography-api-openapi.yml
 - filename: flightlabs-pricing-api-openapi.yml
   format: yaml
   label: FlightLabs Pricing API
   slug: flightlabs-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightlabs/refs/heads/main/openapi/flightlabs-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/flightlabs/openapi/flightlabs-pricing-api-openapi.yml
 - filename: flightlabs-routes-api-openapi.yml
   format: yaml
   label: FlightLabs Routes API
   slug: flightlabs-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightlabs/refs/heads/main/openapi/flightlabs-routes-api-openapi.yml
+  url: https://artifacts.apis.io/flightlabs/openapi/flightlabs-routes-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -72,7 +72,7 @@ source_filename: flightlabs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: AccessKey\n  type: apiKey\n  in: query\n  parameter: access_key\n  description: API key obtained from your FlightLabs dashboard\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flightlabs/refs/heads/main/authentication/flightlabs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/flightlabs/authentication/flightlabs-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Aviation

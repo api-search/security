@@ -9,55 +9,55 @@ api_specs:
   label: Salsify Digital Assets API
   slug: salsify-digital-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/openapi/salsify-digital-assets-api-openapi.yml
+  url: https://artifacts.apis.io/salsify/openapi/salsify-digital-assets-api-openapi.yml
 - filename: salsify-export-runs-api-openapi.yml
   format: yaml
   label: Salsify Export Runs API
   slug: salsify-export-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/openapi/salsify-export-runs-api-openapi.yml
+  url: https://artifacts.apis.io/salsify/openapi/salsify-export-runs-api-openapi.yml
 - filename: salsify-imports-api-openapi.yml
   format: yaml
   label: Salsify Imports API
   slug: salsify-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/openapi/salsify-imports-api-openapi.yml
+  url: https://artifacts.apis.io/salsify/openapi/salsify-imports-api-openapi.yml
 - filename: salsify-lists-api-openapi.yml
   format: yaml
   label: Salsify Lists API
   slug: salsify-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/openapi/salsify-lists-api-openapi.yml
+  url: https://artifacts.apis.io/salsify/openapi/salsify-lists-api-openapi.yml
 - filename: salsify-org-id-api-openapi.yml
   format: yaml
   label: Salsify <org ID> API
   slug: salsify-org-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/openapi/salsify-org-id-api-openapi.yml
+  url: https://artifacts.apis.io/salsify/openapi/salsify-org-id-api-openapi.yml
 - filename: salsify-products-api-openapi.yml
   format: yaml
   label: Salsify Products API
   slug: salsify-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/openapi/salsify-products-api-openapi.yml
+  url: https://artifacts.apis.io/salsify/openapi/salsify-products-api-openapi.yml
 - filename: salsify-properties-api-openapi.yml
   format: yaml
   label: Salsify Properties API
   slug: salsify-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/openapi/salsify-properties-api-openapi.yml
+  url: https://artifacts.apis.io/salsify/openapi/salsify-properties-api-openapi.yml
 - filename: salsify-record-types-api-openapi.yml
   format: yaml
   label: Salsify Record Types API
   slug: salsify-record-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/openapi/salsify-record-types-api-openapi.yml
+  url: https://artifacts.apis.io/salsify/openapi/salsify-record-types-api-openapi.yml
 - filename: salsify-records-api-openapi.yml
   format: yaml
   label: Salsify Records API
   slug: salsify-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/openapi/salsify-records-api-openapi.yml
+  url: https://artifacts.apis.io/salsify/openapi/salsify-records-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-08-02'\nmethod: searched\nsource: openapi/salsify
   \ on the My Profile page\n    (https://app.salsify.com/app/profile/edit/api). Sent as the Authorization request\n    header; also accepted as an access_token query parameter. The key inherits all of\n    that user's permissions and does not expire unless regenerated. Salsify recommends\n    a dedicated least-privilege integration user rather than a human account.\n  rate_limit: 10,000 requests per hour, per organization\n  docs: https://developers.salsify.com/reference/token-authentication-via-header-parameter\n- id: oauth2\n  name: OAuth 2.0\n  applies_to: Multi-tenant integrations acting on behalf of Salsify users\n  description: >-\n    Salsify is an OAuth 2.0 provider supporting only the Authorization Code grant.\n    OAuth applications are created by Salsify support (name + redirect URI) and are not\n    tied to a user or organization. Access tokens are Bearer tokens valid for 7200\n    seconds (2 hours); refresh tokens are single-use and are rotated on every refresh.\n  rate_limit:\
   \ 10,000 requests per hour, per organization\n  docs: https://developers.salsify.com/docs/oauth2\n- id: saml-sso\n  name: SAML 2.0 Single Sign-On\n  applies_to: Human login to the Salsify application\n  description: >-\n    SSO supported with AD FS 2.0, OneLogin, PingIdentity, Google Apps, Microsoft Entra ID,\n    Okta, and any other SAML 2.0 identity provider.\n  docs: https://developers.salsify.com/docs/sso-overview\nschemes:\n- name: sec0\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/salsify-api-settings-openapi.json\n  - openapi/salsify-non-v1-endpoints-openapi.json\n  - openapi/salsify-write-operations-openapi.json\n- name: OAuth2 (documented, not declared in OpenAPI)\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.salsify.com/oauth/authorize\n    tokenUrl: https://app.salsify.com/oauth/token\n    refreshUrl: https://app.salsify.com/oauth/token\n  sources:\n  - https://developers.salsify.com/docs/oauth2\n\
   \  - well-known/salsify-oauth-authorization-server.json\nauthorization_server_metadata:\n  file: well-known/salsify-oauth-authorization-server.json\n  spec: RFC 8414\n  issuer: https://app.salsify.com\n  code_challenge_methods_supported:\n  - S256\ngaps:\n- >-\n  The three published OpenAPI documents declare only the apiKey scheme (sec0). OAuth 2.0,\n  which the docs and the RFC 8414 metadata both confirm is live, is not modelled in any\n  securityScheme - so a spec-only reader under-reports Salsify's auth surface.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/authentication/salsify-authentication.yml
+source_yaml_url: https://artifacts.apis.io/salsify/authentication/salsify-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company

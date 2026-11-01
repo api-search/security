@@ -8,25 +8,25 @@ api_specs:
   label: AlienVault Indicators API
   slug: alienvault-indicators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/openapi/alienvault-indicators-api-openapi.yml
+  url: https://artifacts.apis.io/alienvault/openapi/alienvault-indicators-api-openapi.yml
 - filename: alienvault-pulses-api-openapi.yml
   format: yaml
   label: AlienVault Pulses API
   slug: alienvault-pulses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/openapi/alienvault-pulses-api-openapi.yml
+  url: https://artifacts.apis.io/alienvault/openapi/alienvault-pulses-api-openapi.yml
 - filename: alienvault-search-api-openapi.yml
   format: yaml
   label: AlienVault Search API
   slug: alienvault-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/openapi/alienvault-search-api-openapi.yml
+  url: https://artifacts.apis.io/alienvault/openapi/alienvault-search-api-openapi.yml
 - filename: alienvault-users-api-openapi.yml
   format: yaml
   label: AlienVault Users API
   slug: alienvault-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/openapi/alienvault-users-api-openapi.yml
+  url: https://artifacts.apis.io/alienvault/openapi/alienvault-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: alienvault-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: openapi/alienvault-otx-openapi.yml\ndocs: https://otx.alienvault.com/api\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: OTXApiKey\n  type: apiKey\n  in: header\n  parameter: X-OTX-API-KEY\n  description: OTX API key, available from your OTX account settings page.\n  sources:\n  - openapi/alienvault-otx-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/authentication/alienvault-authentication.yml
+source_yaml_url: https://artifacts.apis.io/alienvault/authentication/alienvault-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

@@ -8,19 +8,19 @@ api_specs:
   label: Ozan Soft Gender inference API
   slug: ozan-soft-gender-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ozan-soft/refs/heads/main/openapi/ozan-soft-gender-inference-api-openapi.yml
+  url: https://artifacts.apis.io/ozan-soft/openapi/ozan-soft-gender-inference-api-openapi.yml
 - filename: ozan-soft-phone-api-openapi.yml
   format: yaml
   label: Ozan Soft Phone API
   slug: ozan-soft-phone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ozan-soft/refs/heads/main/openapi/ozan-soft-phone-api-openapi.yml
+  url: https://artifacts.apis.io/ozan-soft/openapi/ozan-soft-phone-api-openapi.yml
 - filename: ozan-soft-quota-api-openapi.yml
   format: yaml
   label: Ozan Soft Quota API
   slug: ozan-soft-quota-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ozan-soft/refs/heads/main/openapi/ozan-soft-quota-api-openapi.yml
+  url: https://artifacts.apis.io/ozan-soft/openapi/ozan-soft-quota-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -55,7 +55,7 @@ source_filename: ozan-soft-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-20'\nmethod: derived\nsource: openapi/ozan-soft-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - query\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Recommended server-side API-key transport.\n  sources:\n  - openapi/ozan-soft-openapi.yml\n- name: apiKeyQuery\n  type: apiKey\n  in: query\n  parameter: key\n  description: Supported by documented GET endpoints; keep requests server-side.\n  sources:\n  - openapi/ozan-soft-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ozan-soft/refs/heads/main/authentication/ozan-soft-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ozan-soft/authentication/ozan-soft-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Data Enrichment

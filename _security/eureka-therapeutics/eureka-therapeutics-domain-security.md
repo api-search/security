@@ -26,7 +26,7 @@ source_filename: eureka-therapeutics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.eurekatherapeutics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 11:38:01 2026 GMT\n  hsts: null\ndomains:\n- domain: eurekatherapeutics.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eureka-therapeutics/refs/heads/main/security/eureka-therapeutics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/eureka-therapeutics/security/eureka-therapeutics-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

@@ -7,25 +7,25 @@ api_specs:
   label: CharlieHR Company API
   slug: charliehr-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/openapi/charliehr-company-api-openapi.yml
+  url: https://artifacts.apis.io/charliehr/openapi/charliehr-company-api-openapi.yml
 - filename: charliehr-leave-absences-api-openapi.yml
   format: yaml
   label: CharlieHR Leave / Absences API
   slug: charliehr-leave-absences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/openapi/charliehr-leave-absences-api-openapi.yml
+  url: https://artifacts.apis.io/charliehr/openapi/charliehr-leave-absences-api-openapi.yml
 - filename: charliehr-leave-allowances-api-openapi.yml
   format: yaml
   label: CharlieHR Leave Allowances API
   slug: charliehr-leave-allowances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/openapi/charliehr-leave-allowances-api-openapi.yml
+  url: https://artifacts.apis.io/charliehr/openapi/charliehr-leave-allowances-api-openapi.yml
 - filename: charliehr-team-members-api-openapi.yml
   format: yaml
   label: CharlieHR Team Members API
   slug: charliehr-team-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/openapi/charliehr-team-members-api-openapi.yml
+  url: https://artifacts.apis.io/charliehr/openapi/charliehr-team-members-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -56,7 +56,7 @@ source_filename: charliehr-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/charliehr-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://charliehr.com/oauth/token\n    scopes: 0\n  description: OAuth 2.0. A Client ID and Client Secret issued in the CharlieHR app are exchanged\n    for an access token, which is sent in the Authorization header of each request.\n  sources:\n  - openapi/charliehr-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/authentication/charliehr-authentication.yml
+source_yaml_url: https://artifacts.apis.io/charliehr/authentication/charliehr-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Human Resources

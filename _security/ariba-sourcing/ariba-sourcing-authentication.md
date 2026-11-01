@@ -7,19 +7,19 @@ api_specs:
   label: Ariba Sourcing Approval Tasks API
   slug: ariba-sourcing-approval-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ariba-sourcing/refs/heads/main/openapi/ariba-sourcing-approval-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/ariba-sourcing/openapi/ariba-sourcing-approval-tasks-api-openapi.yml
 - filename: ariba-sourcing-documents-api-openapi.yml
   format: yaml
   label: Ariba Sourcing Documents API
   slug: ariba-sourcing-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ariba-sourcing/refs/heads/main/openapi/ariba-sourcing-documents-api-openapi.yml
+  url: https://artifacts.apis.io/ariba-sourcing/openapi/ariba-sourcing-documents-api-openapi.yml
 - filename: ariba-sourcing-groups-api-openapi.yml
   format: yaml
   label: Ariba Sourcing Groups API
   slug: ariba-sourcing-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ariba-sourcing/refs/heads/main/openapi/ariba-sourcing-groups-api-openapi.yml
+  url: https://artifacts.apis.io/ariba-sourcing/openapi/ariba-sourcing-groups-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -50,7 +50,7 @@ source_filename: ariba-sourcing-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ariba-sourcing-external-approval-api.yaml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.ariba.com/v2/oauth/token\n    scopes: 0\n  description: OAuth 2.0 authentication. Obtain access token from https://api.ariba.com/v2/oauth/token\n    using client credentials.\n  sources:\n  - openapi/ariba-sourcing-external-approval-api.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ariba-sourcing/refs/heads/main/authentication/ariba-sourcing-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ariba-sourcing/authentication/ariba-sourcing-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Approvals

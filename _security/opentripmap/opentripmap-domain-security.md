@@ -5,19 +5,19 @@ api_specs:
   label: OpenTripMap Geographic coordinates of populated place API
   slug: opentripmap-geographic-coordinates-of-populated-place-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentripmap/refs/heads/main/openapi/opentripmap-geographic-coordinates-of-populated-place-api-openapi.yml
+  url: https://artifacts.apis.io/opentripmap/openapi/opentripmap-geographic-coordinates-of-populated-place-api-openapi.yml
 - filename: opentripmap-object-properties-api-openapi.yml
   format: yaml
   label: OpenTripMap Object properties API
   slug: opentripmap-object-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentripmap/refs/heads/main/openapi/opentripmap-object-properties-api-openapi.yml
+  url: https://artifacts.apis.io/opentripmap/openapi/opentripmap-object-properties-api-openapi.yml
 - filename: opentripmap-objects-list-api-openapi.yml
   format: yaml
   label: OpenTripMap Objects list API
   slug: opentripmap-objects-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentripmap/refs/heads/main/openapi/opentripmap-objects-list-api-openapi.yml
+  url: https://artifacts.apis.io/opentripmap/openapi/opentripmap-objects-list-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -60,7 +60,7 @@ source_filename: opentripmap-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: opentripmap.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 27 03:35:14 2026 GMT\n  hsts: false\n- host: dev.opentripmap.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 07:54:39 2026 GMT\n  hsts: false\n- host: api.opentripmap.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 18 13:10:04 2026 GMT\n  hsts: null\ndomains:\n- domain: opentripmap.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: opentripmap.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opentripmap/refs/heads/main/security/opentripmap-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/opentripmap/security/opentripmap-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Travel

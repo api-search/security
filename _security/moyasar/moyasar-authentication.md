@@ -7,31 +7,31 @@ api_specs:
   label: Moyasar Invoices API
   slug: moyasar-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moyasar/refs/heads/main/openapi/moyasar-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/moyasar/openapi/moyasar-invoices-api-openapi.yml
 - filename: moyasar-payments-api-openapi.yml
   format: yaml
   label: Moyasar Payments API
   slug: moyasar-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moyasar/refs/heads/main/openapi/moyasar-payments-api-openapi.yml
+  url: https://artifacts.apis.io/moyasar/openapi/moyasar-payments-api-openapi.yml
 - filename: moyasar-payouts-api-openapi.yml
   format: yaml
   label: Moyasar Payouts API
   slug: moyasar-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moyasar/refs/heads/main/openapi/moyasar-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/moyasar/openapi/moyasar-payouts-api-openapi.yml
 - filename: moyasar-tokens-api-openapi.yml
   format: yaml
   label: Moyasar Tokens API
   slug: moyasar-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moyasar/refs/heads/main/openapi/moyasar-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/moyasar/openapi/moyasar-tokens-api-openapi.yml
 - filename: moyasar-webhooks-api-openapi.yml
   format: yaml
   label: Moyasar Webhooks API
   slug: moyasar-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moyasar/refs/heads/main/openapi/moyasar-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/moyasar/openapi/moyasar-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -59,7 +59,7 @@ source_filename: moyasar-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: derived\nsource: openapi/moyasar-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: >-\n    HTTP Basic authentication. The API key is passed as the username and the\n    password is left empty (e.g. `curl https://api.moyasar.com/v1/payments -u\n    sk_test_123:`). All requests must be over HTTPS. Publishable keys\n    (pk_test_ / pk_live_) are safe for client-side use and may only create\n    payments and tokens; secret keys (sk_test_ / sk_live_) authorize all account\n    operations and must remain on the backend. Test-mode keys drive a sandbox,\n    live-mode keys move real money.\n  sources:\n  - openapi/moyasar-openapi.yml\n  - https://docs.moyasar.com/api/authentication\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moyasar/refs/heads/main/authentication/moyasar-authentication.yml
+source_yaml_url: https://artifacts.apis.io/moyasar/authentication/moyasar-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Payments

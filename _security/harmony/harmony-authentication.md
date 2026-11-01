@@ -8,7 +8,7 @@ api_specs:
   label: Harmony Tickets API
   slug: harmony-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harmony/refs/heads/main/openapi/harmony-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/harmony/openapi/harmony-tickets-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -43,7 +43,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/harmony-service-desk-openapi.json\ndocs: https://docs.harmony.io/api-references/api-documentation/introduction\nsummary:\n  types:\n  - http\n  - apiKey\n  api_key_in:\n  - header\n  notes: >-\n    The published OpenAPI declares a single HTTP bearer scheme (HTTPBearer). The developer docs\n    document the live scheme as an AccessKey token passed in the Authorization header\n    (`Authorization: AccessKey <token>`). Tokens are generated per organization under\n    Settings > API Keys and are shown once. The API base URL is per-tenant:\n    https://<customer_subdomain>.harmony.io.\nschemes:\n- name: HTTPBearer\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/harmony-service-desk-openapi.json\n- name: AccessKey\n  type: apiKey\n  in: header\n  parameter_name: Authorization\n  format: 'AccessKey <token>'\n  source: https://docs.harmony.io/api-references/api-documentation/introduction\n  provisioning: Settings >\
   \ API Keys > Generate New API Key (shown once)\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/harmony/refs/heads/main/authentication/harmony-authentication.yml
+source_yaml_url: https://artifacts.apis.io/harmony/authentication/harmony-authentication.yml
 summary_line: http/apiKey · 2 schemes
 tags:
 - ITSM

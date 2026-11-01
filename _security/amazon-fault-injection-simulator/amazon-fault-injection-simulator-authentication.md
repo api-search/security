@@ -8,37 +8,49 @@ api_specs:
   label: Amazon Fault Injection Simulator Actions API
   slug: amazon-fault-injection-simulator-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/openapi/amazon-fault-injection-simulator-actions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fault-injection-simulator/openapi/amazon-fault-injection-simulator-actions-api-openapi.yml
 - filename: amazon-fault-injection-simulator-experiment-templates-api-openapi.yml
   format: yaml
   label: Amazon Fault Injection Simulator Experiment Templates API
   slug: amazon-fault-injection-simulator-experiment-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/openapi/amazon-fault-injection-simulator-experiment-templates-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fault-injection-simulator/openapi/amazon-fault-injection-simulator-experiment-templates-api-openapi.yml
 - filename: amazon-fault-injection-simulator-experiments-api-openapi.yml
   format: yaml
   label: Amazon Fault Injection Simulator Experiments API
   slug: amazon-fault-injection-simulator-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/openapi/amazon-fault-injection-simulator-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fault-injection-simulator/openapi/amazon-fault-injection-simulator-experiments-api-openapi.yml
 - filename: amazon-fault-injection-simulator-safety-levers-api-openapi.yml
   format: yaml
   label: Amazon Fault Injection Simulator Safety Levers API
   slug: amazon-fault-injection-simulator-safety-levers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/openapi/amazon-fault-injection-simulator-safety-levers-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fault-injection-simulator/openapi/amazon-fault-injection-simulator-safety-levers-api-openapi.yml
 - filename: amazon-fault-injection-simulator-tagging-api-openapi.yml
   format: yaml
   label: Amazon Fault Injection Simulator Tagging API
   slug: amazon-fault-injection-simulator-tagging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/openapi/amazon-fault-injection-simulator-tagging-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fault-injection-simulator/openapi/amazon-fault-injection-simulator-tagging-api-openapi.yml
 - filename: amazon-fault-injection-simulator-target-resource-types-api-openapi.yml
   format: yaml
   label: Amazon Fault Injection Simulator Target Resource Types API
   slug: amazon-fault-injection-simulator-target-resource-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/openapi/amazon-fault-injection-simulator-target-resource-types-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fault-injection-simulator/openapi/amazon-fault-injection-simulator-target-resource-types-api-openapi.yml
+- filename: amazon-fault-injection-simulator-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Fault Injection Simulator Fault Injection Simulator Operations API
+  slug: amazon-fault-injection-simulator-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-fault-injection-simulator/openapi/amazon-fault-injection-simulator-operations-api-openapi.yml
+- filename: amazon-fault-injection-simulator-targetaccountconfigurations-api-openapi.yml
+  format: yaml
+  label: Amazon Fault Injection Simulator Fault Injection Simulator Targetaccountconfigurations API
+  slug: amazon-fault-injection-simulator-targetaccountconfigurations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-fault-injection-simulator/openapi/amazon-fault-injection-simulator-targetaccountconfigurations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,11 +78,10 @@ source_filename: amazon-fault-injection-simulator-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-fis-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: aws_signature_v4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4 authentication\n  sources:\n  - openapi/amazon-fis-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/authentication/amazon-fault-injection-simulator-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-fault-injection-simulator/authentication/amazon-fault-injection-simulator-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Chaos Engineering
 - DevOps
-- Fault Injection
 - Resilience Testing
 ---

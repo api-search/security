@@ -8,85 +8,85 @@ api_specs:
   label: Agent Health Monitor Admin API
   slug: agenthealthmonitor-xyz-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-admin-api-openapi.yml
+  url: https://artifacts.apis.io/agenthealthmonitor-xyz/openapi/agenthealthmonitor-xyz-admin-api-openapi.yml
 - filename: agenthealthmonitor-xyz-alerts-api-openapi.yml
   format: yaml
   label: Agent Health Monitor Alerts API
   slug: agenthealthmonitor-xyz-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/agenthealthmonitor-xyz/openapi/agenthealthmonitor-xyz-alerts-api-openapi.yml
 - filename: agenthealthmonitor-xyz-billing-api-openapi.yml
   format: yaml
   label: Agent Health Monitor Billing API
   slug: agenthealthmonitor-xyz-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-billing-api-openapi.yml
+  url: https://artifacts.apis.io/agenthealthmonitor-xyz/openapi/agenthealthmonitor-xyz-billing-api-openapi.yml
 - filename: agenthealthmonitor-xyz-coupon-access-api-openapi.yml
   format: yaml
   label: Agent Health Monitor Coupon Access API
   slug: agenthealthmonitor-xyz-coupon-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-coupon-access-api-openapi.yml
+  url: https://artifacts.apis.io/agenthealthmonitor-xyz/openapi/agenthealthmonitor-xyz-coupon-access-api-openapi.yml
 - filename: agenthealthmonitor-xyz-discovery-info-api-openapi.yml
   format: yaml
   label: Agent Health Monitor Discovery & Info API
   slug: agenthealthmonitor-xyz-discovery-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-discovery-info-api-openapi.yml
+  url: https://artifacts.apis.io/agenthealthmonitor-xyz/openapi/agenthealthmonitor-xyz-discovery-info-api-openapi.yml
 - filename: agenthealthmonitor-xyz-health-api-openapi.yml
   format: yaml
   label: Agent Health Monitor Health API
   slug: agenthealthmonitor-xyz-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-health-api-openapi.yml
+  url: https://artifacts.apis.io/agenthealthmonitor-xyz/openapi/agenthealthmonitor-xyz-health-api-openapi.yml
 - filename: agenthealthmonitor-xyz-health-hygiene-api-openapi.yml
   format: yaml
   label: Agent Health Monitor Health & Hygiene API
   slug: agenthealthmonitor-xyz-health-hygiene-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-health-hygiene-api-openapi.yml
+  url: https://artifacts.apis.io/agenthealthmonitor-xyz/openapi/agenthealthmonitor-xyz-health-hygiene-api-openapi.yml
 - filename: agenthealthmonitor-xyz-optimization-api-openapi.yml
   format: yaml
   label: Agent Health Monitor Optimization API
   slug: agenthealthmonitor-xyz-optimization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-optimization-api-openapi.yml
+  url: https://artifacts.apis.io/agenthealthmonitor-xyz/openapi/agenthealthmonitor-xyz-optimization-api-openapi.yml
 - filename: agenthealthmonitor-xyz-outputs-api-openapi.yml
   format: yaml
   label: Agent Health Monitor Outputs API
   slug: agenthealthmonitor-xyz-outputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-outputs-api-openapi.yml
+  url: https://artifacts.apis.io/agenthealthmonitor-xyz/openapi/agenthealthmonitor-xyz-outputs-api-openapi.yml
 - filename: agenthealthmonitor-xyz-protection-api-openapi.yml
   format: yaml
   label: Agent Health Monitor Protection API
   slug: agenthealthmonitor-xyz-protection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-protection-api-openapi.yml
+  url: https://artifacts.apis.io/agenthealthmonitor-xyz/openapi/agenthealthmonitor-xyz-protection-api-openapi.yml
 - filename: agenthealthmonitor-xyz-scoring-risk-api-openapi.yml
   format: yaml
   label: Agent Health Monitor Scoring & Risk API
   slug: agenthealthmonitor-xyz-scoring-risk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-scoring-risk-api-openapi.yml
+  url: https://artifacts.apis.io/agenthealthmonitor-xyz/openapi/agenthealthmonitor-xyz-scoring-risk-api-openapi.yml
 - filename: agenthealthmonitor-xyz-specs-api-openapi.yml
   format: yaml
   label: Agent Health Monitor Specs API
   slug: agenthealthmonitor-xyz-specs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-specs-api-openapi.yml
+  url: https://artifacts.apis.io/agenthealthmonitor-xyz/openapi/agenthealthmonitor-xyz-specs-api-openapi.yml
 - filename: agenthealthmonitor-xyz-utility-api-openapi.yml
   format: yaml
   label: Agent Health Monitor Utility API
   slug: agenthealthmonitor-xyz-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-utility-api-openapi.yml
+  url: https://artifacts.apis.io/agenthealthmonitor-xyz/openapi/agenthealthmonitor-xyz-utility-api-openapi.yml
 - filename: agenthealthmonitor-xyz-verdicts-api-openapi.yml
   format: yaml
   label: Agent Health Monitor Verdicts API
   slug: agenthealthmonitor-xyz-verdicts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-verdicts-api-openapi.yml
+  url: https://artifacts.apis.io/agenthealthmonitor-xyz/openapi/agenthealthmonitor-xyz-verdicts-api-openapi.yml
 auth_types:
 - apiKey
 - x402-payment
@@ -197,7 +197,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/agenthe
   \ wallet\" in source.'\n  observed: GET /risk/0x0000000000000000000000000000000000000001 -> 402, accepts[0].amount 1000 (= $0.001); GET /ahs/route/policy\n    -> 402 amount 10000; POST https://verify.agenthealthmonitor.xyz/v1/outputs -> 402 amount 500000 (2026-09-19)\n- name: InternalKey\n  type: apiKey\n  in: header\n  parameter: X-Internal-Key\n  sources:\n  - 'openapi operation descriptions (Admin tag: \"Protected by X-Internal-Key header. Not accessible via x402 payment.\")'\n  applies_to:\n  - security_activity_security_activity_get\n  - trust_registry_trust_registry_get\n  - internal_agent_profile_internal_agent_profile__address__get\n  - trigger_acp_scan_acp_scan_trigger_post\n  - acp_scan_status_acp_scan_status_get\n  - trigger_olas_scan_olas_scan_trigger_post\n  - olas_scan_status_olas_scan_status_get\n  - trigger_arc_scan_arc_scan_trigger_post\n  - arc_scan_status_arc_scan_status_get\n  - trigger_celo_scan_celo_scan_trigger_post\n  - celo_scan_status_celo_scan_status_get\n  -\
   \ trigger_erc8004_scan_erc8004_scan_trigger_post\n  - erc8004_scan_status_erc8004_scan_status_get\n  - erc8183_status_erc8183_status_get\n  note: Operator-only; also bypasses x402 on paid routes (source). Not obtainable by customers.\n  observed: GET /trust-registry -> 401 {\"detail\":\"Unauthorized\"}\n- name: CouponCode\n  type: path-token\n  in: path\n  parameter: '{code} in /coupon/{action}/{code}/{address}'\n  sources:\n  - 'openapi info.description: \"partners can use coupon codes to access any paid endpoint without x402 payment\"'\n  applies_to:\n  - validate_coupon_coupon_validate__code__get\n  - coupon_risk_coupon_risk__code___address__get\n  - coupon_health_coupon_health__code___address__get\n  - coupon_optimize_coupon_optimize__code___address__get\n  - coupon_retry_coupon_retry__code___address__get\n  - coupon_protect_coupon_protect__code___address__get\n  - coupon_alerts_coupon_alerts__code___address__get\n  - coupon_premium_risk_coupon_risk_premium__code___address__get\n \
   \ - coupon_counterparties_coupon_counterparties__code___address__get\n  - coupon_network_map_coupon_network_map__code___address__get\n  - coupon_wash_coupon_wash__code___address__get\n  - coupon_ahs_coupon_ahs__code___address__get\n  - coupon_report_card_coupon_report_card__code___address__get\n  note: Partner-issued codes; rate-limited to 5 attempts per window on validation and access (source). A credential in the\n    URL path, so it appears in logs and caches.\nagent_card_auth:\n  note: The A2A card (a2a/agenthealthmonitor-xyz-agent-card.json) declares bearerAuth (http bearer, JWT) and an apiKey header\n    named X-AHM-API-Key — neither matches the deployed REST API, which uses X-API-Key and no bearer tokens; the A2A endpoint\n    the card protects is not deployed.\nsdk:\n  ahm-shield: AHMShield(api_key=\"ahm_live_...\") sends X-API-Key; no x402 support in the SDK (an agent paying with x402 uses\n    an x402 HTTP client instead).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/authentication/agenthealthmonitor-xyz-authentication.yml
+source_yaml_url: https://artifacts.apis.io/agenthealthmonitor-xyz/authentication/agenthealthmonitor-xyz-authentication.yml
 summary_line: apiKey/x402-payment/internal-key/coupon · 4 schemes
 tags:
 - Agents

@@ -27,14 +27,14 @@ source_filename: convergence-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: convergence.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 12:42:01 2026 GMT\n  hsts: null\ndomains:\n- domain: convergence.ai\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/convergence/refs/heads/main/security/convergence-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/convergence/security/convergence-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Artificial Intelligence
 - AI Agents
 - Machine Learning
-- Web Automation
+- Browser Automation
 - Open Weights
 - Developer Tools
 ---

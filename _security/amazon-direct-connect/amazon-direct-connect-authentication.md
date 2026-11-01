@@ -8,7 +8,19 @@ api_specs:
   label: Amazon Direct Connect AWS Direct Connect API
   slug: amazon-direct-connect-aws-direct-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-direct-connect/refs/heads/main/openapi/amazon-direct-connect-aws-direct-connect-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-direct-connect/openapi/amazon-direct-connect-aws-direct-connect-api-openapi.yml
+- filename: amazon-direct-connect-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Direct Connect Direct Connect Operations API
+  slug: amazon-direct-connect-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-direct-connect/openapi/amazon-direct-connect-operations-api-openapi.yml
+- filename: amazon-direct-connect-resiliency-group-api-openapi.yml
+  format: yaml
+  label: Amazon Direct Connect Direct Connect Resiliency Group API
+  slug: amazon-direct-connect-resiliency-group-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-direct-connect/openapi/amazon-direct-connect-resiliency-group-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +48,7 @@ source_filename: amazon-direct-connect-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-direct-connect-openapi.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-direct-connect-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-direct-connect/refs/heads/main/authentication/amazon-direct-connect-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-direct-connect/authentication/amazon-direct-connect-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Dedicated Connection

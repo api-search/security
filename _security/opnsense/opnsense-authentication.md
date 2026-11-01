@@ -7,19 +7,19 @@ api_specs:
   label: OPNsense Core API
   slug: opnsense-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opnsense/refs/heads/main/openapi/opnsense-core-api-openapi.yml
+  url: https://artifacts.apis.io/opnsense/openapi/opnsense-core-api-openapi.yml
 - filename: opnsense-diagnostics-api-openapi.yml
   format: yaml
   label: OPNsense Diagnostics API
   slug: opnsense-diagnostics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opnsense/refs/heads/main/openapi/opnsense-diagnostics-api-openapi.yml
+  url: https://artifacts.apis.io/opnsense/openapi/opnsense-diagnostics-api-openapi.yml
 - filename: opnsense-firewall-api-openapi.yml
   format: yaml
   label: OPNsense Firewall API
   slug: opnsense-firewall-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opnsense/refs/heads/main/openapi/opnsense-firewall-api-openapi.yml
+  url: https://artifacts.apis.io/opnsense/openapi/opnsense-firewall-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -48,7 +48,7 @@ source_filename: opnsense-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/opnsense-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: |-\n    HTTP Basic Authentication with the API key as username and the\n    API secret as password.\n  sources:\n  - openapi/opnsense-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opnsense/refs/heads/main/authentication/opnsense-authentication.yml
+source_yaml_url: https://artifacts.apis.io/opnsense/authentication/opnsense-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Firewall

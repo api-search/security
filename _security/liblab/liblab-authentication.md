@@ -7,55 +7,55 @@ api_specs:
   label: Liblab Api Docs API
   slug: liblab-api-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liblab/refs/heads/main/openapi/liblab-api-docs-api-openapi.yml
+  url: https://artifacts.apis.io/liblab/openapi/liblab-api-docs-api-openapi.yml
 - filename: liblab-api-json-api-openapi.yml
   format: yaml
   label: Liblab Api Json API
   slug: liblab-api-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liblab/refs/heads/main/openapi/liblab-api-json-api-openapi.yml
+  url: https://artifacts.apis.io/liblab/openapi/liblab-api-json-api-openapi.yml
 - filename: liblab-collections-api-openapi.yml
   format: yaml
   label: Liblab Collections API
   slug: liblab-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liblab/refs/heads/main/openapi/liblab-collections-api-openapi.yml
+  url: https://artifacts.apis.io/liblab/openapi/liblab-collections-api-openapi.yml
 - filename: liblab-docs-api-openapi.yml
   format: yaml
   label: Liblab Docs API
   slug: liblab-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liblab/refs/heads/main/openapi/liblab-docs-api-openapi.yml
+  url: https://artifacts.apis.io/liblab/openapi/liblab-docs-api-openapi.yml
 - filename: liblab-github-linguist-api-openapi.yml
   format: yaml
   label: Liblab Github Linguist API
   slug: liblab-github-linguist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liblab/refs/heads/main/openapi/liblab-github-linguist-api-openapi.yml
+  url: https://artifacts.apis.io/liblab/openapi/liblab-github-linguist-api-openapi.yml
 - filename: liblab-liblab-api-api-openapi.yml
   format: yaml
   label: Liblab Liblab API
   slug: liblab-liblab-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liblab/refs/heads/main/openapi/liblab-liblab-api-api-openapi.yml
+  url: https://artifacts.apis.io/liblab/openapi/liblab-liblab-api-api-openapi.yml
 - filename: liblab-liblaber-api-openapi.yml
   format: yaml
   label: Liblab Liblaber API
   slug: liblab-liblaber-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liblab/refs/heads/main/openapi/liblab-liblaber-api-openapi.yml
+  url: https://artifacts.apis.io/liblab/openapi/liblab-liblaber-api-openapi.yml
 - filename: liblab-schema-api-openapi.yml
   format: yaml
   label: Liblab Schema API
   slug: liblab-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liblab/refs/heads/main/openapi/liblab-schema-api-openapi.yml
+  url: https://artifacts.apis.io/liblab/openapi/liblab-schema-api-openapi.yml
 - filename: liblab-open-api-api-openapi.yml
   format: yaml
   label: Liblab Open API
   slug: liblab-open-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liblab/refs/heads/main/openapi/liblab-open-api-api-openapi.yml
+  url: https://artifacts.apis.io/liblab/openapi/liblab-open-api-api-openapi.yml
 auth_types: []
 description: Authentication methods supported by liblab SDKs and CLI.
 kind: authentication
@@ -100,7 +100,7 @@ source_heading: Authentication Profile
 source_url: https://liblab.com/docs/concepts/authentication
 source_yaml: "generated: '2026-10-04'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://liblab.com/docs/concepts/authentication\nsources:\n- https://liblab.com/docs/concepts/authentication\n- https://liblab.com/docs/cli/cli-overview-auth\n- https://liblab.com/docs/concepts/authentication\n- https://liblab.com/docs/cli/cli-overview-auth\ndescription: Authentication methods supported by liblab SDKs and CLI.\nschemes:\n- type: apiKey\n  name: apikey\n  evidence: By default the X-API-KEY header is used to send the API key\n  location: header\n  header: X-API-KEY\n  how_to_obtain: Set the API key in the SDK config or via setApiKey method; can be customized in the config file.\n- type: http-basic\n  name: basic\n  evidence: Basic authentication with a user name and password\n  how_to_obtain: Provide username and password when configuring the SDK.\n- type: http-bearer\n  name: bearer\n  evidence: Bearer token authentication\n  location: header\n  header: Authorization\n\
   \  how_to_obtain: Supply the bearer token in the SDK config or via environment variable.\n- type: other\n  name: custom\n  evidence: Custom access token authentication\n  how_to_obtain: Provide the custom token as defined by the API.\n- type: oauth2\n  name: oauth\n  evidence: OAuth authentication\n  how_to_obtain: Obtain OAuth credentials as described by the API; details not provided on the page.\ndocs: https://liblab.com/docs/concepts/authentication\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liblab/refs/heads/main/authentication/liblab-authentication.yml
+source_yaml_url: https://artifacts.apis.io/liblab/authentication/liblab-authentication.yml
 summary_line: 5 schemes
 tags:
 - SDK

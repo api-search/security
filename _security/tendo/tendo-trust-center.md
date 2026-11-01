@@ -16,7 +16,7 @@ source_filename: tendo-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nsource: https://trust.tendo.com/\nurl: https://trust.tendo.com/\ncertifications:\n- SOC 2\n- HIPAA\nevidence:\n- source: https://trust.tendo.com/\n  keywords:\n  - soc 2\n  - hipaa\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tendo/refs/heads/main/security/tendo-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/tendo/security/tendo-trust-center.yml
 summary_line: SOC 2, HIPAA
 tags:
 - Company

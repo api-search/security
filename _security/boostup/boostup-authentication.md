@@ -8,7 +8,7 @@ api_specs:
   label: Boostup Export API
   slug: boostup-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/openapi/boostup-export-api-openapi.yml
+  url: https://artifacts.apis.io/boostup/openapi/boostup-export-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -35,7 +35,7 @@ source_filename: boostup-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/boostup-openapi-original.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: APIKeyHeader\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/boostup-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/authentication/boostup-authentication.yml
+source_yaml_url: https://artifacts.apis.io/boostup/authentication/boostup-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

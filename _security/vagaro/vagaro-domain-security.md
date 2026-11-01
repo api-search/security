@@ -5,37 +5,37 @@ api_specs:
   label: Vagaro Appointments API
   slug: vagaro-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/openapi/vagaro-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/vagaro/openapi/vagaro-appointments-api-openapi.yml
 - filename: vagaro-authentication-api-openapi.yml
   format: yaml
   label: Vagaro Authentication API
   slug: vagaro-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/openapi/vagaro-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/vagaro/openapi/vagaro-authentication-api-openapi.yml
 - filename: vagaro-customers-api-openapi.yml
   format: yaml
   label: Vagaro Customers API
   slug: vagaro-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/openapi/vagaro-customers-api-openapi.yml
+  url: https://artifacts.apis.io/vagaro/openapi/vagaro-customers-api-openapi.yml
 - filename: vagaro-employee-management-api-openapi.yml
   format: yaml
   label: Vagaro Employee Management API
   slug: vagaro-employee-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/openapi/vagaro-employee-management-api-openapi.yml
+  url: https://artifacts.apis.io/vagaro/openapi/vagaro-employee-management-api-openapi.yml
 - filename: vagaro-employees-api-openapi.yml
   format: yaml
   label: Vagaro Employees API
   slug: vagaro-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/openapi/vagaro-employees-api-openapi.yml
+  url: https://artifacts.apis.io/vagaro/openapi/vagaro-employees-api-openapi.yml
 - filename: vagaro-locations-api-openapi.yml
   format: yaml
   label: Vagaro Locations API
   slug: vagaro-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/openapi/vagaro-locations-api-openapi.yml
+  url: https://artifacts.apis.io/vagaro/openapi/vagaro-locations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: vagaro-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.vagaro.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 14:29:29 2026 GMT\n  hsts: null\n- host: docs.vagaro.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 03:17:40 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.vagaro.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 14:29:29 2026 GMT\n  hsts: null\ndomains:\n- domain: vagaro.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/security/vagaro-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vagaro/security/vagaro-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Salon

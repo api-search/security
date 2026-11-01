@@ -5,13 +5,13 @@ api_specs:
   label: Agent Diff Diffs API
   slug: agent-diff-diffs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agent-diff/refs/heads/main/openapi/agent-diff-diffs-api-openapi.yml
+  url: https://artifacts.apis.io/agent-diff/openapi/agent-diff-diffs-api-openapi.yml
 - filename: agent-diff-sandboxes-api-openapi.yml
   format: yaml
   label: Agent Diff Sandboxes API
   slug: agent-diff-sandboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agent-diff/refs/heads/main/openapi/agent-diff-sandboxes-api-openapi.yml
+  url: https://artifacts.apis.io/agent-diff/openapi/agent-diff-sandboxes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: agent-diff-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.agentdiff.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 17:42:52 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.agentdiff.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 15:08:42 2026 GMT\n  hsts: null\ndomains:\n- domain: agentdiff.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agent-diff/refs/heads/main/security/agent-diff-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/agent-diff/security/agent-diff-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - API Testing

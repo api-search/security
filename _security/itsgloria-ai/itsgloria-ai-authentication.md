@@ -8,61 +8,61 @@ api_specs:
   label: Gloria API Keys API
   slug: itsgloria-ai-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/openapi/itsgloria-ai-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/itsgloria-ai/openapi/itsgloria-ai-api-keys-api-openapi.yml
 - filename: itsgloria-ai-articles-api-openapi.yml
   format: yaml
   label: Gloria Articles API
   slug: itsgloria-ai-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/openapi/itsgloria-ai-articles-api-openapi.yml
+  url: https://artifacts.apis.io/itsgloria-ai/openapi/itsgloria-ai-articles-api-openapi.yml
 - filename: itsgloria-ai-authentication-api-openapi.yml
   format: yaml
   label: Gloria Authentication API
   slug: itsgloria-ai-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/openapi/itsgloria-ai-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/itsgloria-ai/openapi/itsgloria-ai-authentication-api-openapi.yml
 - filename: itsgloria-ai-bots-api-openapi.yml
   format: yaml
   label: Gloria Bots API
   slug: itsgloria-ai-bots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/openapi/itsgloria-ai-bots-api-openapi.yml
+  url: https://artifacts.apis.io/itsgloria-ai/openapi/itsgloria-ai-bots-api-openapi.yml
 - filename: itsgloria-ai-categories-api-openapi.yml
   format: yaml
   label: Gloria Categories API
   slug: itsgloria-ai-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/openapi/itsgloria-ai-categories-api-openapi.yml
+  url: https://artifacts.apis.io/itsgloria-ai/openapi/itsgloria-ai-categories-api-openapi.yml
 - filename: itsgloria-ai-health-api-openapi.yml
   format: yaml
   label: Gloria Health API
   slug: itsgloria-ai-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/openapi/itsgloria-ai-health-api-openapi.yml
+  url: https://artifacts.apis.io/itsgloria-ai/openapi/itsgloria-ai-health-api-openapi.yml
 - filename: itsgloria-ai-narratives-api-openapi.yml
   format: yaml
   label: Gloria Narratives API
   slug: itsgloria-ai-narratives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/openapi/itsgloria-ai-narratives-api-openapi.yml
+  url: https://artifacts.apis.io/itsgloria-ai/openapi/itsgloria-ai-narratives-api-openapi.yml
 - filename: itsgloria-ai-news-api-openapi.yml
   format: yaml
   label: Gloria News API
   slug: itsgloria-ai-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/openapi/itsgloria-ai-news-api-openapi.yml
+  url: https://artifacts.apis.io/itsgloria-ai/openapi/itsgloria-ai-news-api-openapi.yml
 - filename: itsgloria-ai-recaps-api-openapi.yml
   format: yaml
   label: Gloria Recaps API
   slug: itsgloria-ai-recaps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/openapi/itsgloria-ai-recaps-api-openapi.yml
+  url: https://artifacts.apis.io/itsgloria-ai/openapi/itsgloria-ai-recaps-api-openapi.yml
 - filename: itsgloria-ai-websocket-api-openapi.yml
   format: yaml
   label: Gloria WebSocket API
   slug: itsgloria-ai-websocket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/openapi/itsgloria-ai-websocket-api-openapi.yml
+  url: https://artifacts.apis.io/itsgloria-ai/openapi/itsgloria-ai-websocket-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/itsglor
   \ per request (api.itsgloria.ai); /articles there wants an x-api-key header instead\n    mcp_remote: none (anonymous initialize/tools/list; paid tools hand back x402 instructions)\n    mcp_stdio: GLORIA_API_TOKEN environment variable (an API token)\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: JWT token obtained from `/auth/verify` or `/user/api-tokens`.\n  header: 'Authorization: Bearer <token>'\n  sources:\n  - openapi/itsgloria-ai-openapi.yml\n- name: TokenQuery\n  type: apiKey\n  in: query\n  parameter: token\n  description: JWT token passed as a query parameter. Equivalent to `BearerAuth`.\n  sources:\n  - openapi/itsgloria-ai-openapi.yml\nflows:\n- name: SIWE wallet sign-in (EIP-4361)\n  steps:\n  - 'GET /auth/nonce -> {\"nonce\": \"...\"} (getNonce, no auth)'\n  - sign an EIP-4361 message containing the nonce with an Ethereum wallet\n  - 'POST /auth/verify {\"message\", \"signature\"} -> {\"access_token\": \"<jwt>\", \"is_admin\"\
   : false} (verifySignature)'\n  - use the JWT as Bearer or ?token=\n  docs: https://docs.itsgloria.ai/gloria-data-platform/api-integration/#wallet-authentication\n- name: API token (recommended by the docs)\n  steps:\n  - 'authenticate once (SIWE), then POST /user/api-tokens {\"name\", \"allowed_feed_categories\"} (createApiToken) - or generate in the browser at https://www.itsgloria.ai/api-keys-new'\n  - the ApiToken carries token, issued_at, expires_at and is scoped to the chosen feed categories for life\n  - GET /user/api-tokens lists, DELETE /user/api-tokens revokes\n  docs: https://docs.itsgloria.ai/gloria-data-platform/api-integration/#api-token-recommended\n- name: Public token (anonymous, read-only)\n  steps:\n  - 'GET /auth/public-token -> {\"access_token\": {\"name\": \"Auth\", \"allowed_feed_categories\": \"[]\", \"token\": \"<jwt>\"}} (getPublicToken)'\n  - roles [\"public\"], no feed permissions; observed to read GET /news on 2026-09-19\n  docs: https://docs.itsgloria.ai/gloria-data-platform/api-integration/#public-token\n\
   permissions:\n  model: feed-category scoping - each token carries allowed_feed_categories; a request for another category answers 403 Forbidden\n  categories: 19 codes from GET /available-feed-categories\nobserved:\n  missing_token: 'HTTP 401 {\"detail\":\"Missing token\"} on every gated path of ai-hub.cryptobriefing.com'\n  x402_missing_payment: 'HTTP 402 x402Version 1 body on api.itsgloria.ai/news, /recaps, /news-ticker-summary, /news-by-keyword'\noauth2: none\nopenIdConnect: none\nmutualTLS: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/authentication/itsgloria-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/itsgloria-ai/authentication/itsgloria-ai-authentication.yml
 summary_line: http/apiKey · 2 schemes
 tags:
 - Company

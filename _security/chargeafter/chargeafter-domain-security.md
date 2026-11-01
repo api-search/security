@@ -5,73 +5,73 @@ api_specs:
   label: ChargeAfter Accounts API
   slug: chargeafter-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chargeafter/refs/heads/main/openapi/chargeafter-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/chargeafter/openapi/chargeafter-accounts-api-openapi.yml
 - filename: chargeafter-applicationsv3-api-openapi.yml
   format: yaml
   label: ChargeAfter Applications V3 API
   slug: chargeafter-applicationsv3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chargeafter/refs/heads/main/openapi/chargeafter-applicationsv3-api-openapi.yml
+  url: https://artifacts.apis.io/chargeafter/openapi/chargeafter-applicationsv3-api-openapi.yml
 - filename: chargeafter-charges-api-openapi.yml
   format: yaml
   label: ChargeAfter Charges API
   slug: chargeafter-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chargeafter/refs/heads/main/openapi/chargeafter-charges-api-openapi.yml
+  url: https://artifacts.apis.io/chargeafter/openapi/chargeafter-charges-api-openapi.yml
 - filename: chargeafter-checkout-api-openapi.yml
   format: yaml
   label: ChargeAfter Checkout API
   slug: chargeafter-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chargeafter/refs/heads/main/openapi/chargeafter-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/chargeafter/openapi/chargeafter-checkout-api-openapi.yml
 - filename: chargeafter-consumer-management-api-openapi.yml
   format: yaml
   label: ChargeAfter Consumer Management API
   slug: chargeafter-consumer-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chargeafter/refs/heads/main/openapi/chargeafter-consumer-management-api-openapi.yml
+  url: https://artifacts.apis.io/chargeafter/openapi/chargeafter-consumer-management-api-openapi.yml
 - filename: chargeafter-consumersv2-api-openapi.yml
   format: yaml
   label: ChargeAfter Consumers V2 API
   slug: chargeafter-consumersv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chargeafter/refs/heads/main/openapi/chargeafter-consumersv2-api-openapi.yml
+  url: https://artifacts.apis.io/chargeafter/openapi/chargeafter-consumersv2-api-openapi.yml
 - filename: chargeafter-fundings-api-openapi.yml
   format: yaml
   label: ChargeAfter Fundings API
   slug: chargeafter-fundings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chargeafter/refs/heads/main/openapi/chargeafter-fundings-api-openapi.yml
+  url: https://artifacts.apis.io/chargeafter/openapi/chargeafter-fundings-api-openapi.yml
 - filename: chargeafter-lenders-api-openapi.yml
   format: yaml
   label: ChargeAfter Lenders API
   slug: chargeafter-lenders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chargeafter/refs/heads/main/openapi/chargeafter-lenders-api-openapi.yml
+  url: https://artifacts.apis.io/chargeafter/openapi/chargeafter-lenders-api-openapi.yml
 - filename: chargeafter-links-api-openapi.yml
   format: yaml
   label: ChargeAfter Links API
   slug: chargeafter-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chargeafter/refs/heads/main/openapi/chargeafter-links-api-openapi.yml
+  url: https://artifacts.apis.io/chargeafter/openapi/chargeafter-links-api-openapi.yml
 - filename: chargeafter-orders-api-openapi.yml
   format: yaml
   label: ChargeAfter Orders API
   slug: chargeafter-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chargeafter/refs/heads/main/openapi/chargeafter-orders-api-openapi.yml
+  url: https://artifacts.apis.io/chargeafter/openapi/chargeafter-orders-api-openapi.yml
 - filename: chargeafter-sessionsv3-api-openapi.yml
   format: yaml
   label: ChargeAfter Sessions V3 API
   slug: chargeafter-sessionsv3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chargeafter/refs/heads/main/openapi/chargeafter-sessionsv3-api-openapi.yml
+  url: https://artifacts.apis.io/chargeafter/openapi/chargeafter-sessionsv3-api-openapi.yml
 - filename: chargeafter-transactions-api-openapi.yml
   format: yaml
   label: ChargeAfter Transactions API
   slug: chargeafter-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chargeafter/refs/heads/main/openapi/chargeafter-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/chargeafter/openapi/chargeafter-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -112,7 +112,7 @@ source_filename: chargeafter-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: chargeafter.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  5 16:11:21 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.chargeafter.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 16:09:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.chargeafter.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  4 18:18:48 2027 GMT\n  hsts: null\ndomains:\n- domain: chargeafter.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chargeafter/refs/heads/main/security/chargeafter-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/chargeafter/security/chargeafter-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Financial Services

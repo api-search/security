@@ -5,31 +5,31 @@ api_specs:
   label: Vijil Agent Environment API
   slug: vijil-agent-environment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/openapi/vijil-agent-environment-api-openapi.yml
+  url: https://artifacts.apis.io/vijil/openapi/vijil-agent-environment-api-openapi.yml
 - filename: vijil-diamond-api-openapi.yml
   format: yaml
   label: Vijil Diamond API
   slug: vijil-diamond-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/openapi/vijil-diamond-api-openapi.yml
+  url: https://artifacts.apis.io/vijil/openapi/vijil-diamond-api-openapi.yml
 - filename: vijil-dome-api-openapi.yml
   format: yaml
   label: Vijil Dome API
   slug: vijil-dome-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/openapi/vijil-dome-api-openapi.yml
+  url: https://artifacts.apis.io/vijil/openapi/vijil-dome-api-openapi.yml
 - filename: vijil-red-team-api-openapi.yml
   format: yaml
   label: Vijil Red Team API
   slug: vijil-red-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/openapi/vijil-red-team-api-openapi.yml
+  url: https://artifacts.apis.io/vijil/openapi/vijil-red-team-api-openapi.yml
 - filename: vijil-teams-api-openapi.yml
   format: yaml
   label: Vijil Teams API
   slug: vijil-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/openapi/vijil-teams-api-openapi.yml
+  url: https://artifacts.apis.io/vijil/openapi/vijil-teams-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: vijil-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: vijil.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 19:38:58 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: vijil.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/security/vijil-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vijil/security/vijil-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

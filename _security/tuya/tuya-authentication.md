@@ -8,31 +8,31 @@ api_specs:
   label: Tuya Device Control API
   slug: tuya-device-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tuya/refs/heads/main/openapi/tuya-device-control-api-openapi.yml
+  url: https://artifacts.apis.io/tuya/openapi/tuya-device-control-api-openapi.yml
 - filename: tuya-device-logs-api-openapi.yml
   format: yaml
   label: Tuya Device Logs API
   slug: tuya-device-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tuya/refs/heads/main/openapi/tuya-device-logs-api-openapi.yml
+  url: https://artifacts.apis.io/tuya/openapi/tuya-device-logs-api-openapi.yml
 - filename: tuya-device-users-api-openapi.yml
   format: yaml
   label: Tuya Device Users API
   slug: tuya-device-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tuya/refs/heads/main/openapi/tuya-device-users-api-openapi.yml
+  url: https://artifacts.apis.io/tuya/openapi/tuya-device-users-api-openapi.yml
 - filename: tuya-devices-api-openapi.yml
   format: yaml
   label: Tuya Devices API
   slug: tuya-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tuya/refs/heads/main/openapi/tuya-devices-api-openapi.yml
+  url: https://artifacts.apis.io/tuya/openapi/tuya-devices-api-openapi.yml
 - filename: tuya-sub-devices-api-openapi.yml
   format: yaml
   label: Tuya Sub Devices API
   slug: tuya-sub-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tuya/refs/heads/main/openapi/tuya-sub-devices-api-openapi.yml
+  url: https://artifacts.apis.io/tuya/openapi/tuya-sub-devices-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: tuya-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tuya-device-management-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: tuyaApiKey\n  type: apiKey\n  in: header\n  parameter: client_id\n  description: Tuya API uses HMAC-SHA256 signed requests. Include your Access ID as the client_id\n    header and provide a sign header computed from your Access ID, Access Secret, and timestamp.\n  sources:\n  - openapi/tuya-device-management-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tuya/refs/heads/main/authentication/tuya-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tuya/authentication/tuya-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - IoT

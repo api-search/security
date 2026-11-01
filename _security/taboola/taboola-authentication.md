@@ -7,97 +7,97 @@ api_specs:
   label: Taboola Accounts API
   slug: taboola-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-accounts-api-openapi.yml
 - filename: taboola-audience-targeting-api-openapi.yml
   format: yaml
   label: Taboola Audience Targeting API
   slug: taboola-audience-targeting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-audience-targeting-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-audience-targeting-api-openapi.yml
 - filename: taboola-bulk-items-api-openapi.yml
   format: yaml
   label: Taboola Bulk Items API
   slug: taboola-bulk-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-bulk-items-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-bulk-items-api-openapi.yml
 - filename: taboola-bulk-operations-api-openapi.yml
   format: yaml
   label: Taboola Bulk Operations API
   slug: taboola-bulk-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-bulk-operations-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-bulk-operations-api-openapi.yml
 - filename: taboola-campaign-items-api-openapi.yml
   format: yaml
   label: Taboola Campaign Items API
   slug: taboola-campaign-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-campaign-items-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-campaign-items-api-openapi.yml
 - filename: taboola-campaigns-api-openapi.yml
   format: yaml
   label: Taboola Campaigns API
   slug: taboola-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-campaigns-api-openapi.yml
 - filename: taboola-combined-audiences-api-openapi.yml
   format: yaml
   label: Taboola Combined Audiences API
   slug: taboola-combined-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-combined-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-combined-audiences-api-openapi.yml
 - filename: taboola-conversion-rules-api-openapi.yml
   format: yaml
   label: Taboola Conversion Rules API
   slug: taboola-conversion-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-conversion-rules-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-conversion-rules-api-openapi.yml
 - filename: taboola-custom-audiences-api-openapi.yml
   format: yaml
   label: Taboola Custom Audiences API
   slug: taboola-custom-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-custom-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-custom-audiences-api-openapi.yml
 - filename: taboola-dictionary-api-openapi.yml
   format: yaml
   label: Taboola Dictionary API
   slug: taboola-dictionary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-dictionary-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-dictionary-api-openapi.yml
 - filename: taboola-first-party-audiences-api-openapi.yml
   format: yaml
   label: Taboola First Party Audiences API
   slug: taboola-first-party-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-first-party-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-first-party-audiences-api-openapi.yml
 - filename: taboola-lookalike-audiences-api-openapi.yml
   format: yaml
   label: Taboola Lookalike Audiences API
   slug: taboola-lookalike-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-lookalike-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-lookalike-audiences-api-openapi.yml
 - filename: taboola-marketplace-audiences-api-openapi.yml
   format: yaml
   label: Taboola Marketplace Audiences API
   slug: taboola-marketplace-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-marketplace-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-marketplace-audiences-api-openapi.yml
 - filename: taboola-reach-estimator-api-openapi.yml
   format: yaml
   label: Taboola Reach Estimator API
   slug: taboola-reach-estimator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-reach-estimator-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-reach-estimator-api-openapi.yml
 - filename: taboola-reports-api-openapi.yml
   format: yaml
   label: Taboola Reports API
   slug: taboola-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-reports-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-reports-api-openapi.yml
 - filename: taboola-video-items-api-openapi.yml
   format: yaml
   label: Taboola Video Items API
   slug: taboola-video-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-video-items-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-video-items-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -194,7 +194,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://d
   \      password flow — the provider's own statement that there is no scope vocabulary.\n      Permissions ride on the account the client_id identifies. Trailing slash on the\n      token URL returns a 403 CSRF HTML page.\n\n  - name: realizeMcpOAuth\n    type: oauth2\n    surface: Realize MCP\n    resource: https://mcp.realize.com/mcp\n    issuer: https://mcp.realize.com\n    version: OAuth 2.1\n    flows: [authorization_code, refresh_token, client_credentials]\n    pkce: S256\n    authorization_endpoint: https://authentication.taboola.com/authentication/oauth2.1/authorize\n    token_endpoint: https://authentication.taboola.com/authentication/oauth2.1/token\n    introspection_endpoint: https://authentication.taboola.com/authentication/oauth2.1/introspect\n    registration_endpoint: https://mcp.realize.com/register\n    token_endpoint_auth_methods: [none, client_secret_basic, client_secret_post]\n    scopes:\n      all: The single advertised scope. No read-only alternative.\n    resource_indicators_supported:\
   \ true\n    discovery:\n      authorization_server_metadata: https://mcp.realize.com/.well-known/oauth-authorization-server\n      protected_resource_metadata: https://mcp.realize.com/.well-known/oauth-protected-resource\n    probed: '2026-08-13'\n    http_status: 200\n    note: >-\n      Full RFC 9728 challenge loop verified live — an unauthenticated tools/list returns\n      401 with WWW-Authenticate pointing at the protected-resource metadata document.\n\ncredentials:\n  backstage:\n    issuance: >-\n      \"Ask your Taboola Account Manager to provide you with a client_id and client_secret.\"\n      There is no self-service developer console for Backstage credentials.\n    self_service: false\n  mcp:\n    issuance: Dynamic client registration at https://mcp.realize.com/register, then Taboola SSO.\n    self_service: true\n\nfailure_modes:\n  detail: ../errors/taboola-problem-types.yml\n  modes:\n    - status: 401\n      cause: Missing Authorization header, or an invalid/expired access\
   \ token.\n    - status: 400\n      cause: Bad client credentials at the token endpoint (XML invalid_client fault).\n    - status: 403\n      cause: Trailing slash on the token endpoint URL (HTML CSRF error from Jetty).\n\ndeprecated:\n  - flow: password (resource owner credentials)\n    deprecated_on: '2024-06-30'\n    replacement: client_credentials\n    source: https://developers.taboola.com/backstage-api/changelog/password-credentials-deprecation-notice\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/authentication/taboola-authentication.yml
+source_yaml_url: https://artifacts.apis.io/taboola/authentication/taboola-authentication.yml
 summary_line: oauth2/http · 3 schemes
 tags:
 - Advertising

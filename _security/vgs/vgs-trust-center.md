@@ -5,25 +5,25 @@ api_specs:
   label: Very Good Security Aliases API
   slug: vgs-aliases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/openapi/vgs-aliases-api-openapi.yml
+  url: https://artifacts.apis.io/vgs/openapi/vgs-aliases-api-openapi.yml
 - filename: vgs-organizations-api-openapi.yml
   format: yaml
   label: Very Good Security Organizations API
   slug: vgs-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/openapi/vgs-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/vgs/openapi/vgs-organizations-api-openapi.yml
 - filename: vgs-routes-api-openapi.yml
   format: yaml
   label: Very Good Security Routes API
   slug: vgs-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/openapi/vgs-routes-api-openapi.yml
+  url: https://artifacts.apis.io/vgs/openapi/vgs-routes-api-openapi.yml
 - filename: vgs-vaults-api-openapi.yml
   format: yaml
   label: Very Good Security Vaults API
   slug: vgs-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/openapi/vgs-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/vgs/openapi/vgs-vaults-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -43,7 +43,7 @@ source_filename: vgs-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://security.verygoodsecurity.com/\nurl: https://security.verygoodsecurity.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- PCI DSS\n- GDPR\nevidence:\n- source: https://security.verygoodsecurity.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - pci dss\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/security/vgs-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/vgs/security/vgs-trust-center.yml
 summary_line: SOC 2, ISO 27001, PCI DSS, GDPR
 tags:
 - Security

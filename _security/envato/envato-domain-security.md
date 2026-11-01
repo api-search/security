@@ -5,13 +5,13 @@ api_specs:
   label: Envato Market API
   slug: envato-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/openapi/envato-market-api-openapi.yml
+  url: https://artifacts.apis.io/envato/openapi/envato-market-api-openapi.yml
 - filename: envato-search-api-openapi.yml
   format: yaml
   label: Envato Search API
   slug: envato-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/openapi/envato-search-api-openapi.yml
+  url: https://artifacts.apis.io/envato/openapi/envato-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: envato-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: envato.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 20 07:23:15 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: build.envato.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 19 16:14:21 2026 GMT\n  hsts: false\n- host: api.envato.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 19 14:32:55 2026 GMT\n  hsts: null\ndomains:\n- domain: envato.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/security/envato-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/envato/security/envato-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Stock Media

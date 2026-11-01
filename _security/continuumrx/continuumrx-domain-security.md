@@ -27,12 +27,12 @@ source_filename: continuumrx-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-10'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: continuumrx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 02:45:55 2026 GMT\n  hsts: false\ndomains:\n- domain: continuumrx.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/continuumrx/refs/heads/main/security/continuumrx-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/continuumrx/security/continuumrx-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Healthcare
-- InfusionTherapy
+- Infusion Therapy
 - Home Care
-- PostAcute
+- Post-Acute
 ---

@@ -27,7 +27,7 @@ source_filename: thingsthinking-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.semantha.de\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep  6 07:26:12 2026 GMT\n  hsts: false\ndomains:\n- domain: semantha.de\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thingsthinking/refs/heads/main/security/thingsthinking-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/thingsthinking/security/thingsthinking-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

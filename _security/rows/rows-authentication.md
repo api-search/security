@@ -7,31 +7,31 @@ api_specs:
   label: Rows Data API
   slug: rows-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/openapi/rows-data-api-openapi.yml
+  url: https://artifacts.apis.io/rows/openapi/rows-data-api-openapi.yml
 - filename: rows-folders-api-openapi.yml
   format: yaml
   label: Rows Folders API
   slug: rows-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/openapi/rows-folders-api-openapi.yml
+  url: https://artifacts.apis.io/rows/openapi/rows-folders-api-openapi.yml
 - filename: rows-spreadsheets-api-openapi.yml
   format: yaml
   label: Rows Spreadsheets API
   slug: rows-spreadsheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/openapi/rows-spreadsheets-api-openapi.yml
+  url: https://artifacts.apis.io/rows/openapi/rows-spreadsheets-api-openapi.yml
 - filename: rows-vision-api-openapi.yml
   format: yaml
   label: Rows Vision API
   slug: rows-vision-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/openapi/rows-vision-api-openapi.yml
+  url: https://artifacts.apis.io/rows/openapi/rows-vision-api-openapi.yml
 - filename: rows-workspaces-api-openapi.yml
   format: yaml
   label: Rows Workspaces API
   slug: rows-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/openapi/rows-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/rows/openapi/rows-workspaces-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: rows-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/rows-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: 'Rows API key sent as an Authorization: Bearer <API_KEY> header. Generate a key\n    in your Rows account settings.'\n  sources:\n  - openapi/rows-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/authentication/rows-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rows/authentication/rows-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

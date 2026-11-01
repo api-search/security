@@ -5,43 +5,43 @@ api_specs:
   label: Google Maps Platform Autocomplete API
   slug: google-maps-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-autocomplete-api-openapi.yml
 - filename: google-maps-directions-api-openapi.yml
   format: yaml
   label: Google Maps Platform Directions API
   slug: google-maps-directions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-directions-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-directions-api-openapi.yml
 - filename: google-maps-geocoding-api-openapi.yml
   format: yaml
   label: Google Maps Platform Geocoding API
   slug: google-maps-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-geocoding-api-openapi.yml
 - filename: google-maps-nearby-search-api-openapi.yml
   format: yaml
   label: Google Maps Platform Nearby Search API
   slug: google-maps-nearby-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-nearby-search-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-nearby-search-api-openapi.yml
 - filename: google-maps-photos-api-openapi.yml
   format: yaml
   label: Google Maps Platform Photos API
   slug: google-maps-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-photos-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-photos-api-openapi.yml
 - filename: google-maps-place-details-api-openapi.yml
   format: yaml
   label: Google Maps Platform Place Details API
   slug: google-maps-place-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-place-details-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-place-details-api-openapi.yml
 - filename: google-maps-text-search-api-openapi.yml
   format: yaml
   label: Google Maps Platform Text Search API
   slug: google-maps-text-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-text-search-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-text-search-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -77,7 +77,7 @@ source_filename: google-maps-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: maps.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:17 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: places.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:17 2026 GMT\n  hsts: null\ndomains:\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/security/google-maps-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/google-maps/security/google-maps-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Environment

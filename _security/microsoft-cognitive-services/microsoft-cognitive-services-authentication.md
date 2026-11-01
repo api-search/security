@@ -8,7 +8,7 @@ api_specs:
   label: Microsoft Cognitive Services Image Analysis API
   slug: microsoft-cognitive-services-image-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-cognitive-services/refs/heads/main/openapi/microsoft-cognitive-services-image-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-cognitive-services/openapi/microsoft-cognitive-services-image-analysis-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -47,7 +47,7 @@ source_filename: microsoft-cognitive-services-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-cognitive-services-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: subscription_key\n  type: apiKey\n  in: header\n  parameter: Ocp-Apim-Subscription-Key\n  description: Cognitive Services subscription key\n  sources:\n  - openapi/microsoft-cognitive-services-openapi.yml\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n    scopes: 1\n  description: Microsoft Entra ID OAuth 2.0\n  sources:\n  - openapi/microsoft-cognitive-services-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-cognitive-services/refs/heads/main/authentication/microsoft-cognitive-services-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-cognitive-services/authentication/microsoft-cognitive-services-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Azure AI

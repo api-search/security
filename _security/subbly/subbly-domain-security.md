@@ -5,25 +5,25 @@ api_specs:
   label: Subbly Cart API
   slug: subbly-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/subbly/refs/heads/main/openapi/subbly-cart-api-openapi.yml
+  url: https://artifacts.apis.io/subbly/openapi/subbly-cart-api-openapi.yml
 - filename: subbly-customers-api-openapi.yml
   format: yaml
   label: Subbly Customers API
   slug: subbly-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/subbly/refs/heads/main/openapi/subbly-customers-api-openapi.yml
+  url: https://artifacts.apis.io/subbly/openapi/subbly-customers-api-openapi.yml
 - filename: subbly-products-api-openapi.yml
   format: yaml
   label: Subbly Products API
   slug: subbly-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/subbly/refs/heads/main/openapi/subbly-products-api-openapi.yml
+  url: https://artifacts.apis.io/subbly/openapi/subbly-products-api-openapi.yml
 - filename: subbly-subscriptions-api-openapi.yml
   format: yaml
   label: Subbly Subscriptions API
   slug: subbly-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/subbly/refs/heads/main/openapi/subbly-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/subbly/openapi/subbly-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: subbly-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.subbly.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 03:01:14 2026 GMT\n  hsts: true\n  hsts_max_age: 15724800\n- host: docs.subbly.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 04:35:12 2026 GMT\n  hsts: true\n  hsts_max_age: 15724800\n- host: www.subbly.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 04:16:34 2026 GMT\n  hsts: false\ndomains:\n- domain: subbly.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: subbly.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/subbly/refs/heads/main/security/subbly-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/subbly/security/subbly-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Subscription

@@ -7,13 +7,13 @@ api_specs:
   label: Credoai Audit Logs API
   slug: credoai-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credoai/refs/heads/main/openapi/credoai-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/credoai/openapi/credoai-audit-logs-api-openapi.yml
 - filename: credoai-shadow-ai-api-openapi.yml
   format: yaml
   label: Credoai Shadow AI API
   slug: credoai-shadow-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credoai/refs/heads/main/openapi/credoai-shadow-ai-api-openapi.yml
+  url: https://artifacts.apis.io/credoai/openapi/credoai-shadow-ai-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -44,12 +44,12 @@ source_filename: credoai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-11'\nmethod: derived\nsource: openapi/credoai-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: |-\n    JWT access token obtained from [`POST /auth/exchange`](#tag/Auth/operation/CredoAIWeb.Auth.TokenController.exchange).\n\n    Include in the Authorization header: `Authorization: Bearer <token>`\n  sources:\n  - openapi/credoai-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/credoai/refs/heads/main/authentication/credoai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/credoai/authentication/credoai-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company
 - Artificial Intelligence
 - Governance
 - Software-as-a-Service
-- PaloAlto
+- Palo Alto
 ---

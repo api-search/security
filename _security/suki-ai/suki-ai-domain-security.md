@@ -5,79 +5,79 @@ api_specs:
   label: Suki AI Ambient Content API
   slug: suki-ai-ambient-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-ambient-content-api-openapi.yml
+  url: https://artifacts.apis.io/suki-ai/openapi/suki-ai-ambient-content-api-openapi.yml
 - filename: suki-ai-ambient-sessions-api-openapi.yml
   format: yaml
   label: Suki AI Ambient Sessions API
   slug: suki-ai-ambient-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-ambient-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/suki-ai/openapi/suki-ai-ambient-sessions-api-openapi.yml
 - filename: suki-ai-authentication-api-openapi.yml
   format: yaml
   label: Suki AI Authentication API
   slug: suki-ai-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/suki-ai/openapi/suki-ai-authentication-api-openapi.yml
 - filename: suki-ai-feedback-api-openapi.yml
   format: yaml
   label: Suki AI Feedback API
   slug: suki-ai-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/suki-ai/openapi/suki-ai-feedback-api-openapi.yml
 - filename: suki-ai-form-filling-content-api-openapi.yml
   format: yaml
   label: Suki AI Form Filling Content API
   slug: suki-ai-form-filling-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-form-filling-content-api-openapi.yml
+  url: https://artifacts.apis.io/suki-ai/openapi/suki-ai-form-filling-content-api-openapi.yml
 - filename: suki-ai-form-filling-sessions-api-openapi.yml
   format: yaml
   label: Suki AI Form Filling Sessions API
   slug: suki-ai-form-filling-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-form-filling-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/suki-ai/openapi/suki-ai-form-filling-sessions-api-openapi.yml
 - filename: suki-ai-info-api-openapi.yml
   format: yaml
   label: Suki AI Info API
   slug: suki-ai-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-info-api-openapi.yml
+  url: https://artifacts.apis.io/suki-ai/openapi/suki-ai-info-api-openapi.yml
 - filename: suki-ai-notifications-api-openapi.yml
   format: yaml
   label: Suki AI Notifications API
   slug: suki-ai-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/suki-ai/openapi/suki-ai-notifications-api-openapi.yml
 - filename: suki-ai-user-preferences-api-openapi.yml
   format: yaml
   label: Suki AI User Preferences API
   slug: suki-ai-user-preferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-user-preferences-api-openapi.yml
+  url: https://artifacts.apis.io/suki-ai/openapi/suki-ai-user-preferences-api-openapi.yml
 - filename: suki-ai-content-api-openapi.yml
   format: yaml
   label: Suki AI Content API
   slug: suki-ai-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-content-api-openapi.yml
+  url: https://artifacts.apis.io/suki-ai/openapi/suki-ai-content-api-openapi.yml
 - filename: suki-ai-preferences-api-openapi.yml
   format: yaml
   label: Suki AI Preferences API
   slug: suki-ai-preferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-preferences-api-openapi.yml
+  url: https://artifacts.apis.io/suki-ai/openapi/suki-ai-preferences-api-openapi.yml
 - filename: suki-ai-sessions-api-openapi.yml
   format: yaml
   label: Suki AI Sessions API
   slug: suki-ai-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/suki-ai/openapi/suki-ai-sessions-api-openapi.yml
 - filename: suki-ai-templates-api-openapi.yml
   format: yaml
   label: Suki AI Templates API
   slug: suki-ai-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-templates-api-openapi.yml
+  url: https://artifacts.apis.io/suki-ai/openapi/suki-ai-templates-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -116,7 +116,7 @@ source_filename: suki-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.suki.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 04:42:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.suki.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 11:21:10 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: suki.ai\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"ssl.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/security/suki-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/suki-ai/security/suki-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Healthcare

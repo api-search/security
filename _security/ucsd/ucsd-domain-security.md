@@ -5,55 +5,55 @@ api_specs:
   label: TritonAI Developer API — completions
   slug: tritonai-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-completions-api-openapi.yml
+  url: https://artifacts.apis.io/ucsd/openapi/ucsd-completions-api-openapi.yml
 - filename: ucsd-embeddings-api-openapi.yml
   format: yaml
   label: TritonAI Developer API — embeddings
   slug: tritonai-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/ucsd/openapi/ucsd-embeddings-api-openapi.yml
 - filename: ucsd-models-api-openapi.yml
   format: yaml
   label: TritonAI Developer API — models
   slug: tritonai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-models-api-openapi.yml
+  url: https://artifacts.apis.io/ucsd/openapi/ucsd-models-api-openapi.yml
 - filename: ucsd-images-api-openapi.yml
   format: yaml
   label: TritonAI Developer API — images
   slug: tritonai-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-images-api-openapi.yml
+  url: https://artifacts.apis.io/ucsd/openapi/ucsd-images-api-openapi.yml
 - filename: ucsd-audio-api-openapi.yml
   format: yaml
   label: TritonAI Developer API — audio
   slug: tritonai-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-audio-api-openapi.yml
+  url: https://artifacts.apis.io/ucsd/openapi/ucsd-audio-api-openapi.yml
 - filename: ucsd-scim-api-openapi.yml
   format: yaml
   label: TritonAI Developer API — SCIM 2.0 provisioning
   slug: tritonai-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-scim-api-openapi.yml
+  url: https://artifacts.apis.io/ucsd/openapi/ucsd-scim-api-openapi.yml
 - filename: ucsd-objects-api-openapi.yml
   format: yaml
   label: University of California, San Diego Objects API
   slug: ucsd-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-objects-api-openapi.yml
+  url: https://artifacts.apis.io/ucsd/openapi/ucsd-objects-api-openapi.yml
 - filename: ucsd-search-api-openapi.yml
   format: yaml
   label: University of California, San Diego Search API
   slug: ucsd-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-search-api-openapi.yml
+  url: https://artifacts.apis.io/ucsd/openapi/ucsd-search-api-openapi.yml
 - filename: ucsd-chat-completions-api-openapi.yml
   format: yaml
   label: University of California, San Diego Chat Completions API
   slug: ucsd-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/ucsd/openapi/ucsd-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -93,7 +93,7 @@ source_filename: ucsd-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ucsd.edu\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Apr 11 23:59:59 2027 GMT\n  hsts: false\n- host: developer.ucsd.edu\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Apr 11 23:59:59 2027 GMT\n  hsts: false\n- host: collab.ucsd.edu\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Apr 11 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: ucsd.edu\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/security/ucsd-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ucsd/security/ucsd-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Education

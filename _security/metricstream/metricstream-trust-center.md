@@ -17,7 +17,7 @@ source_filename: metricstream-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: searched\nprobe: true\nsource: https://www.metricstream.com/about-us/trust-center.htm\nurl: https://www.metricstream.com/about-us/trust-center.htm\ncertifications:\n- PCI DSS\n- HIPAA\n- GDPR\nevidence:\n- source: https://www.metricstream.com/about-us/trust-center.htm\n  keywords:\n  - pci dss\n  - hipaa\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metricstream/refs/heads/main/security/metricstream-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/metricstream/security/metricstream-trust-center.yml
 summary_line: PCI DSS, HIPAA, GDPR
 tags:
 - Company

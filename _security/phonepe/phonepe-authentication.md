@@ -8,19 +8,19 @@ api_specs:
   label: PhonePe Checkout API
   slug: phonepe-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phonepe/refs/heads/main/openapi/phonepe-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/phonepe/openapi/phonepe-checkout-api-openapi.yml
 - filename: phonepe-order-status-api-openapi.yml
   format: yaml
   label: PhonePe Order Status API
   slug: phonepe-order-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phonepe/refs/heads/main/openapi/phonepe-order-status-api-openapi.yml
+  url: https://artifacts.apis.io/phonepe/openapi/phonepe-order-status-api-openapi.yml
 - filename: phonepe-refunds-api-openapi.yml
   format: yaml
   label: PhonePe Refunds API
   slug: phonepe-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phonepe/refs/heads/main/openapi/phonepe-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/phonepe/openapi/phonepe-refunds-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -52,7 +52,7 @@ source_filename: phonepe-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/phonepe-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: merchantToken\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: |-\n    Bearer-style merchant auth token issued by PhonePe. Sent as\n    `Authorization: O-Bearer <merchant-auth-token>`. Partner integrations\n    also include `X-MERCHANT-ID: <end-merchant-id>`.\n  sources:\n  - openapi/phonepe-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/phonepe/refs/heads/main/authentication/phonepe-authentication.yml
+source_yaml_url: https://artifacts.apis.io/phonepe/authentication/phonepe-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Payments

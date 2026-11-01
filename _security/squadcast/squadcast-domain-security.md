@@ -5,19 +5,19 @@ api_specs:
   label: Squadcast Authentication API
   slug: squadcast-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squadcast/refs/heads/main/openapi/squadcast-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/squadcast/openapi/squadcast-authentication-api-openapi.yml
 - filename: squadcast-incidents-api-openapi.yml
   format: yaml
   label: Squadcast Incidents API
   slug: squadcast-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squadcast/refs/heads/main/openapi/squadcast-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/squadcast/openapi/squadcast-incidents-api-openapi.yml
 - filename: squadcast-requests-api-openapi.yml
   format: yaml
   label: Squadcast Requests API
   slug: squadcast-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squadcast/refs/heads/main/openapi/squadcast-requests-api-openapi.yml
+  url: https://artifacts.apis.io/squadcast/openapi/squadcast-requests-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: squadcast-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.squadcast.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 04:27:18 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.incidents.cloud.solarwinds.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 07:59:38 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.squadcast.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 09:00:29 2026 GMT\n  hsts: null\ndomains:\n- domain: squadcast.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: solarwinds.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/squadcast/refs/heads/main/security/squadcast-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/squadcast/security/squadcast-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Incident Response

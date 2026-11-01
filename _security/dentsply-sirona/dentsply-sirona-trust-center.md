@@ -5,31 +5,31 @@ api_specs:
   label: Dentsply Sirona Devices API
   slug: dentsply-sirona-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/openapi/dentsply-sirona-devices-api-openapi.yml
+  url: https://artifacts.apis.io/dentsply-sirona/openapi/dentsply-sirona-devices-api-openapi.yml
 - filename: dentsply-sirona-exposures-api-openapi.yml
   format: yaml
   label: Dentsply Sirona Exposures API
   slug: dentsply-sirona-exposures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/openapi/dentsply-sirona-exposures-api-openapi.yml
+  url: https://artifacts.apis.io/dentsply-sirona/openapi/dentsply-sirona-exposures-api-openapi.yml
 - filename: dentsply-sirona-filters-api-openapi.yml
   format: yaml
   label: Dentsply Sirona Filters API
   slug: dentsply-sirona-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/openapi/dentsply-sirona-filters-api-openapi.yml
+  url: https://artifacts.apis.io/dentsply-sirona/openapi/dentsply-sirona-filters-api-openapi.yml
 - filename: dentsply-sirona-generators-api-openapi.yml
   format: yaml
   label: Dentsply Sirona Generators API
   slug: dentsply-sirona-generators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/openapi/dentsply-sirona-generators-api-openapi.yml
+  url: https://artifacts.apis.io/dentsply-sirona/openapi/dentsply-sirona-generators-api-openapi.yml
 - filename: dentsply-sirona-images-api-openapi.yml
   format: yaml
   label: Dentsply Sirona Images API
   slug: dentsply-sirona-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/openapi/dentsply-sirona-images-api-openapi.yml
+  url: https://artifacts.apis.io/dentsply-sirona/openapi/dentsply-sirona-images-api-openapi.yml
 certification_count: 0
 certifications: []
 description: ''
@@ -46,7 +46,7 @@ source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: probed\nprobe: true\nfound: false\nnotes: No trust center was found. trust.dentsplysirona.com and security.dentsplysirona.com do not resolve.\n  The site footer links a \"Trust Center\" at https://coresupport.dentsplysirona.com/doc/cm-trust-center-en-US/-\n  which returns HTTP 200 but is a 13.6 KB JavaScript application shell whose only rendered text is \"Support\"\n  — no certifications, no compliance statements, no security posture, nothing a machine or a person can\n  read without an authenticated session. Dentsply Sirona does publish medical-device and ESG compliance\n  material (ISO 13485, MDR, FDA), but no SOC 2 / ISO 27001 / HIPAA / PCI attestation for its cloud or\n  API surface is publicly reachable, so no Compliance pointer is claimed.\ncertifications: []\nevidence:\n- source: https://coresupport.dentsplysirona.com/doc/cm-trust-center-en-US/-\n  http_status: 200\n  bytes: 13627\n  note: JS shell; rendered body is the single word \"\
   Support\"\n- source: https://trust.dentsplysirona.com/\n  http_status: 0\n  note: does not resolve\n- source: https://security.dentsplysirona.com/\n  http_status: 0\n  note: does not resolve\nsource: https://coresupport.dentsplysirona.com/doc/cm-trust-center-en-US/-\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/security/dentsply-sirona-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/dentsply-sirona/security/dentsply-sirona-trust-center.yml
 summary_line: trust center published
 tags:
 - CAD/CAM

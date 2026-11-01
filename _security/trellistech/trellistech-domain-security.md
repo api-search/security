@@ -5,13 +5,13 @@ api_specs:
   label: Trellis Properties API
   slug: trellistech-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trellistech/refs/heads/main/openapi/trellistech-properties-api-openapi.yml
+  url: https://artifacts.apis.io/trellistech/openapi/trellistech-properties-api-openapi.yml
 - filename: trellistech-tasks-api-openapi.yml
   format: yaml
   label: Trellis Tasks API
   slug: trellistech-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trellistech/refs/heads/main/openapi/trellistech-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/trellistech/openapi/trellistech-tasks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: trellistech-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.trellistech.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 02:49:45 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.trellistech.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 02:49:45 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: app.trellistech.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 01:15:20 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: trellistech.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trellistech/refs/heads/main/security/trellistech-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trellistech/security/trellistech-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

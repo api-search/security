@@ -5,25 +5,25 @@ api_specs:
   label: FuriosaAI Health API
   slug: furiosa-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/furiosa/refs/heads/main/openapi/furiosa-health-api-openapi.yml
+  url: https://artifacts.apis.io/furiosa/openapi/furiosa-health-api-openapi.yml
 - filename: furiosa-models-api-openapi.yml
   format: yaml
   label: FuriosaAI Models API
   slug: furiosa-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/furiosa/refs/heads/main/openapi/furiosa-models-api-openapi.yml
+  url: https://artifacts.apis.io/furiosa/openapi/furiosa-models-api-openapi.yml
 - filename: furiosa-predict-api-api-openapi.yml
   format: yaml
   label: FuriosaAI Predict API
   slug: furiosa-predict-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/furiosa/refs/heads/main/openapi/furiosa-predict-api-api-openapi.yml
+  url: https://artifacts.apis.io/furiosa/openapi/furiosa-predict-api-api-openapi.yml
 - filename: furiosa-repository-api-openapi.yml
   format: yaml
   label: FuriosaAI Repository API
   slug: furiosa-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/furiosa/refs/heads/main/openapi/furiosa-repository-api-openapi.yml
+  url: https://artifacts.apis.io/furiosa/openapi/furiosa-repository-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: furiosa-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-16'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: furiosa.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 01:42:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.furiosa.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 01:42:48 2026 GMT\n  hsts: false\ndomains:\n- domain: furiosa.ai\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/furiosa/refs/heads/main/security/furiosa-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/furiosa/security/furiosa-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

@@ -54,7 +54,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.elphasecure.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 18:36:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: my.elphasecure.com\n  https: true\n  tls_version: TLSv1.3\n  hsts: false\n  note: Elpha Secure Portal (customer/broker sign-in). No Strict-Transport-Security\n    response header observed.\n- host: app.elphasecure.com\n  https: true\n  tls_version: TLSv1.3\n  hsts: true\n  hsts_max_age: 31536000\n- host: help.elphasecure.com\n  https: true\n  tls_version: TLSv1.3\n  hsts: true\n  hsts_max_age: 31536000\n- host: blog.elphasecure.com\n  https: true\n  tls_version: TLSv1.3\n  hsts: false\n  note: Ghost-hosted blog. No Strict-Transport-Security response header observed.\n- host: trust.elphasecure.com\n  https: true\n  reachable: false\n  http_status: 301\n  note: 'Resolves and answers, but redirects to itself (Location:\
   \ https://trust.elphasecure.com)\n    producing an infinite redirect loop; a bare GET without redirects returns 405.\n    A trust-center subdomain appears provisioned but is not serving a document.'\ndomains:\n- domain: elphasecure.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elpha-secure/refs/heads/main/security/elpha-secure-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/elpha-secure/security/elpha-secure-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

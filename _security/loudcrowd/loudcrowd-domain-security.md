@@ -5,49 +5,49 @@ api_specs:
   label: LoudCrowd Attribution Events API
   slug: loudcrowd-attribution-events-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/openapi/loudcrowd-attribution-events-api-api-openapi.yml
+  url: https://artifacts.apis.io/loudcrowd/openapi/loudcrowd-attribution-events-api-api-openapi.yml
 - filename: loudcrowd-brand-api-api-openapi.yml
   format: yaml
   label: LoudCrowd Brand API
   slug: loudcrowd-brand-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/openapi/loudcrowd-brand-api-api-openapi.yml
+  url: https://artifacts.apis.io/loudcrowd/openapi/loudcrowd-brand-api-api-openapi.yml
 - filename: loudcrowd-product-data-api-openapi.yml
   format: yaml
   label: LoudCrowd Product Data API
   slug: loudcrowd-product-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/openapi/loudcrowd-product-data-api-openapi.yml
+  url: https://artifacts.apis.io/loudcrowd/openapi/loudcrowd-product-data-api-openapi.yml
 - filename: loudcrowd-storefrontambassador-api-openapi.yml
   format: yaml
   label: LoudCrowd Storefront Ambassador API
   slug: loudcrowd-storefrontambassador-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/openapi/loudcrowd-storefrontambassador-api-openapi.yml
+  url: https://artifacts.apis.io/loudcrowd/openapi/loudcrowd-storefrontambassador-api-openapi.yml
 - filename: loudcrowd-storefrontfeeditems-api-openapi.yml
   format: yaml
   label: LoudCrowd Storefront Feed Items API
   slug: loudcrowd-storefrontfeeditems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/openapi/loudcrowd-storefrontfeeditems-api-openapi.yml
+  url: https://artifacts.apis.io/loudcrowd/openapi/loudcrowd-storefrontfeeditems-api-openapi.yml
 - filename: loudcrowd-storefrontmediadetails-api-openapi.yml
   format: yaml
   label: LoudCrowd Storefront Media Details API
   slug: loudcrowd-storefrontmediadetails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/openapi/loudcrowd-storefrontmediadetails-api-openapi.yml
+  url: https://artifacts.apis.io/loudcrowd/openapi/loudcrowd-storefrontmediadetails-api-openapi.yml
 - filename: loudcrowd-storefrontproductdetails-api-openapi.yml
   format: yaml
   label: LoudCrowd Storefront Product Details API
   slug: loudcrowd-storefrontproductdetails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/openapi/loudcrowd-storefrontproductdetails-api-openapi.yml
+  url: https://artifacts.apis.io/loudcrowd/openapi/loudcrowd-storefrontproductdetails-api-openapi.yml
 - filename: loudcrowd-storefront-collections-api-openapi.yml
   format: yaml
   label: LoudCrowd Storefront Collections API
   slug: loudcrowd-storefront-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/openapi/loudcrowd-storefront-collections-api-openapi.yml
+  url: https://artifacts.apis.io/loudcrowd/openapi/loudcrowd-storefront-collections-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ source_filename: loudcrowd-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: loudcrowd.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 21:19:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.loudcrowd.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 18:22:01 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.loudcrowd.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  1 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: loudcrowd.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/security/loudcrowd-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/loudcrowd/security/loudcrowd-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Creator Marketing

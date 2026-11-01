@@ -5,55 +5,55 @@ api_specs:
   label: Epidemic Sound Assets API
   slug: epidemic-sound-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-assets-api-openapi.yml
+  url: https://artifacts.apis.io/epidemic-sound/openapi/epidemic-sound-assets-api-openapi.yml
 - filename: epidemic-sound-authentication-api-openapi.yml
   format: yaml
   label: Epidemic Sound Authentication API
   slug: epidemic-sound-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/epidemic-sound/openapi/epidemic-sound-authentication-api-openapi.yml
 - filename: epidemic-sound-beta-api-openapi.yml
   format: yaml
   label: Epidemic Sound Beta API
   slug: epidemic-sound-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-beta-api-openapi.yml
+  url: https://artifacts.apis.io/epidemic-sound/openapi/epidemic-sound-beta-api-openapi.yml
 - filename: epidemic-sound-browse-search-api-openapi.yml
   format: yaml
   label: Epidemic Sound Browse & search API
   slug: epidemic-sound-browse-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-browse-search-api-openapi.yml
+  url: https://artifacts.apis.io/epidemic-sound/openapi/epidemic-sound-browse-search-api-openapi.yml
 - filename: epidemic-sound-reporting-api-openapi.yml
   format: yaml
   label: Epidemic Sound Reporting API
   slug: epidemic-sound-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/epidemic-sound/openapi/epidemic-sound-reporting-api-openapi.yml
 - filename: epidemic-sound-safelisting-api-openapi.yml
   format: yaml
   label: Epidemic Sound Safelisting API
   slug: epidemic-sound-safelisting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-safelisting-api-openapi.yml
+  url: https://artifacts.apis.io/epidemic-sound/openapi/epidemic-sound-safelisting-api-openapi.yml
 - filename: epidemic-sound-sound-effects-api-openapi.yml
   format: yaml
   label: Epidemic Sound Effects API
   slug: epidemic-sound-sound-effects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-sound-effects-api-openapi.yml
+  url: https://artifacts.apis.io/epidemic-sound/openapi/epidemic-sound-sound-effects-api-openapi.yml
 - filename: epidemic-sound-tracks-api-openapi.yml
   format: yaml
   label: Epidemic Sound Tracks API
   slug: epidemic-sound-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/epidemic-sound/openapi/epidemic-sound-tracks-api-openapi.yml
 - filename: epidemic-sound-users-api-openapi.yml
   format: yaml
   label: Epidemic Sound Users API
   slug: epidemic-sound-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-users-api-openapi.yml
+  url: https://artifacts.apis.io/epidemic-sound/openapi/epidemic-sound-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -93,7 +93,7 @@ source_filename: epidemic-sound-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.epidemicsound.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 18:42:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.epidemicsound.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 23:17:32 2026 GMT\n  hsts: false\n- host: partner-content-api.epidemicsound.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 23:17:32 2026 GMT\n  hsts: null\ndomains:\n- domain: epidemicsound.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/security/epidemic-sound-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/epidemic-sound/security/epidemic-sound-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Music

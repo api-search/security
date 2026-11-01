@@ -23,7 +23,7 @@ source_filename: createra-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: createra.fun\n  https: false\ndomains:\n- domain: createra.fun\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/createra/refs/heads/main/security/createra-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/createra/security/createra-domain-security.yml
 summary_line: DNSSEC
 tags:
 - Company

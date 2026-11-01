@@ -5,19 +5,19 @@ api_specs:
   label: FinOps Foundation Contract Commitments API
   slug: finops-foundation-contract-commitments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finops-foundation/refs/heads/main/openapi/finops-foundation-contract-commitments-api-openapi.yml
+  url: https://artifacts.apis.io/finops-foundation/openapi/finops-foundation-contract-commitments-api-openapi.yml
 - filename: finops-foundation-cost-and-usage-api-openapi.yml
   format: yaml
   label: FinOps Foundation Cost and Usage API
   slug: finops-foundation-cost-and-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finops-foundation/refs/heads/main/openapi/finops-foundation-cost-and-usage-api-openapi.yml
+  url: https://artifacts.apis.io/finops-foundation/openapi/finops-foundation-cost-and-usage-api-openapi.yml
 - filename: finops-foundation-schema-metadata-api-openapi.yml
   format: yaml
   label: FinOps Foundation Schema Metadata API
   slug: finops-foundation-schema-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finops-foundation/refs/heads/main/openapi/finops-foundation-schema-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/finops-foundation/openapi/finops-foundation-schema-metadata-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: finops-foundation-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.finops.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 08:21:44 2026 GMT\n  hsts: false\n- host: focus.finops.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 00:23:39 2026 GMT\n  hsts: false\ndomains:\n- domain: finops.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/finops-foundation/refs/heads/main/security/finops-foundation-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/finops-foundation/security/finops-foundation-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Budgets

@@ -5,13 +5,13 @@ api_specs:
   label: Traceable Specifications API
   slug: traceable-specifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traceable/refs/heads/main/openapi/traceable-specifications-api-openapi.yml
+  url: https://artifacts.apis.io/traceable/openapi/traceable-specifications-api-openapi.yml
 - filename: traceable-graph-ql-api-openapi.yml
   format: yaml
   label: Traceable Graph QL API
   slug: traceable-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traceable/refs/heads/main/openapi/traceable-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/traceable/openapi/traceable-graph-ql-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -58,7 +58,7 @@ source_filename: traceable-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.traceable.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 29 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.traceable.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 06:57:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.traceable.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 07:19:11 2026 GMT\n  hsts: null\ndomains:\n- domain: traceable.ai\n  dnssec: false\n  caa:\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \";\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/traceable/refs/heads/main/security/traceable-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/traceable/security/traceable-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - API Discovery

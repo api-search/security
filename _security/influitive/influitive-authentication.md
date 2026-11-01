@@ -8,7 +8,7 @@ api_specs:
   label: Influitive Events API
   slug: influitive-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/influitive/refs/heads/main/openapi/influitive-events-api-openapi.yml
+  url: https://artifacts.apis.io/influitive/openapi/influitive-events-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -41,7 +41,7 @@ source_filename: influitive-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/influitive-events-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: sec0\n  type: apiKey\n  in: header\n  parameter: Auhtorization Token\n  sources:\n  - openapi/influitive-events-openapi.json\n- name: sec1\n  type: apiKey\n  in: header\n  parameter: X_ORG_ID\n  sources:\n  - openapi/influitive-events-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/influitive/refs/heads/main/authentication/influitive-authentication.yml
+source_yaml_url: https://artifacts.apis.io/influitive/authentication/influitive-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company

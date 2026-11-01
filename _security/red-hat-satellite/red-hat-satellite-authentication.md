@@ -7,31 +7,31 @@ api_specs:
   label: Red Hat Satellite Content Views API
   slug: red-hat-satellite-content-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/openapi/red-hat-satellite-content-views-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-satellite/openapi/red-hat-satellite-content-views-api-openapi.yml
 - filename: red-hat-satellite-hosts-api-openapi.yml
   format: yaml
   label: Red Hat Satellite Hosts API
   slug: red-hat-satellite-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/openapi/red-hat-satellite-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-satellite/openapi/red-hat-satellite-hosts-api-openapi.yml
 - filename: red-hat-satellite-lifecycle-environments-api-openapi.yml
   format: yaml
   label: Red Hat Satellite Lifecycle Environments API
   slug: red-hat-satellite-lifecycle-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/openapi/red-hat-satellite-lifecycle-environments-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-satellite/openapi/red-hat-satellite-lifecycle-environments-api-openapi.yml
 - filename: red-hat-satellite-organizations-api-openapi.yml
   format: yaml
   label: Red Hat Satellite Organizations API
   slug: red-hat-satellite-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/openapi/red-hat-satellite-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-satellite/openapi/red-hat-satellite-organizations-api-openapi.yml
 - filename: red-hat-satellite-subscriptions-api-openapi.yml
   format: yaml
   label: Red Hat Satellite Subscriptions API
   slug: red-hat-satellite-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/openapi/red-hat-satellite-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-satellite/openapi/red-hat-satellite-subscriptions-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -69,7 +69,7 @@ source_filename: red-hat-satellite-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/red-hat-satellite-api.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - implicit\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication using Satellite username and password.\n  sources:\n  - openapi/red-hat-satellite-api.yml\n- name: oAuth2\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://satellite.example.com/users/extlogin\n    scopes: 0\n  description: OAuth 2.0 Personal Access Token authentication for Satellite users.\n  sources:\n  - openapi/red-hat-satellite-api.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/authentication/red-hat-satellite-authentication.yml
+source_yaml_url: https://artifacts.apis.io/red-hat-satellite/authentication/red-hat-satellite-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Configuration Management

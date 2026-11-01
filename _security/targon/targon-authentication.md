@@ -7,31 +7,31 @@ api_specs:
   label: Targon Completions API
   slug: targon-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/targon/refs/heads/main/openapi/targon-completions-api-openapi.yml
+  url: https://artifacts.apis.io/targon/openapi/targon-completions-api-openapi.yml
 - filename: targon-images-api-openapi.yml
   format: yaml
   label: Targon Images API
   slug: targon-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/targon/refs/heads/main/openapi/targon-images-api-openapi.yml
+  url: https://artifacts.apis.io/targon/openapi/targon-images-api-openapi.yml
 - filename: targon-models-api-openapi.yml
   format: yaml
   label: Targon Models API
   slug: targon-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/targon/refs/heads/main/openapi/targon-models-api-openapi.yml
+  url: https://artifacts.apis.io/targon/openapi/targon-models-api-openapi.yml
 - filename: targon-search-api-openapi.yml
   format: yaml
   label: Targon Search API
   slug: targon-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/targon/refs/heads/main/openapi/targon-search-api-openapi.yml
+  url: https://artifacts.apis.io/targon/openapi/targon-search-api-openapi.yml
 - filename: targon-chat-completions-api-openapi.yml
   format: yaml
   label: Targon Chat Completions API
   slug: targon-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/targon/refs/heads/main/openapi/targon-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/targon/openapi/targon-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: targon-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/targon-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Targon API key passed as a Bearer token in the Authorization header: `Authorization:\n    Bearer $TARGON_API_KEY`.'\n  sources:\n  - openapi/targon-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/targon/refs/heads/main/authentication/targon-authentication.yml
+source_yaml_url: https://artifacts.apis.io/targon/authentication/targon-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

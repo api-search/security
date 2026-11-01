@@ -5,49 +5,49 @@ api_specs:
   label: SYSTRAN Corpus API
   slug: systran-corpus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-corpus-api-openapi.yml
+  url: https://artifacts.apis.io/systran/openapi/systran-corpus-api-openapi.yml
 - filename: systran-dictionary-api-openapi.yml
   format: yaml
   label: SYSTRAN Dictionary API
   slug: systran-dictionary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-dictionary-api-openapi.yml
+  url: https://artifacts.apis.io/systran/openapi/systran-dictionary-api-openapi.yml
 - filename: systran-file-translation-api-openapi.yml
   format: yaml
   label: SYSTRAN File Translation API
   slug: systran-file-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-file-translation-api-openapi.yml
+  url: https://artifacts.apis.io/systran/openapi/systran-file-translation-api-openapi.yml
 - filename: systran-language-detection-api-openapi.yml
   format: yaml
   label: SYSTRAN Language Detection API
   slug: systran-language-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-language-detection-api-openapi.yml
+  url: https://artifacts.apis.io/systran/openapi/systran-language-detection-api-openapi.yml
 - filename: systran-nlp-api-openapi.yml
   format: yaml
   label: SYSTRAN NLP API
   slug: systran-nlp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-nlp-api-openapi.yml
+  url: https://artifacts.apis.io/systran/openapi/systran-nlp-api-openapi.yml
 - filename: systran-profiles-api-openapi.yml
   format: yaml
   label: SYSTRAN Profiles API
   slug: systran-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/systran/openapi/systran-profiles-api-openapi.yml
 - filename: systran-supported-languages-api-openapi.yml
   format: yaml
   label: SYSTRAN Supported Languages API
   slug: systran-supported-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-supported-languages-api-openapi.yml
+  url: https://artifacts.apis.io/systran/openapi/systran-supported-languages-api-openapi.yml
 - filename: systran-translation-api-openapi.yml
   format: yaml
   label: SYSTRAN Translation API
   slug: systran-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-translation-api-openapi.yml
+  url: https://artifacts.apis.io/systran/openapi/systran-translation-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -94,7 +94,7 @@ source_filename: systran-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.systran.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 03:50:22 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: docs.systran.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 03:50:22 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api-translate.systran.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 03:18:18 2026 GMT\n  hsts: null\ndomains:\n- domain: systran.net\n  dnssec: true\n  caa:\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/security/systran-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/systran/security/systran-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Machine Translation

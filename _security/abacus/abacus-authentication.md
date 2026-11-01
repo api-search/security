@@ -7,19 +7,19 @@ api_specs:
   label: Abacus Authentication API
   slug: abacus-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abacus/refs/heads/main/openapi/abacus-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/abacus/openapi/abacus-authentication-api-openapi.yml
 - filename: abacus-expenses-api-openapi.yml
   format: yaml
   label: Abacus Expenses API
   slug: abacus-expenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abacus/refs/heads/main/openapi/abacus-expenses-api-openapi.yml
+  url: https://artifacts.apis.io/abacus/openapi/abacus-expenses-api-openapi.yml
 - filename: abacus-members-api-openapi.yml
   format: yaml
   label: Abacus Members API
   slug: abacus-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abacus/refs/heads/main/openapi/abacus-members-api-openapi.yml
+  url: https://artifacts.apis.io/abacus/openapi/abacus-members-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -50,7 +50,7 @@ source_filename: abacus-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/abacus-api-openapi.yaml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.abacus.com/oauth/token\n    scopes: 3\n  description: OAuth 2.0 client credentials flow for API authentication\n  sources:\n  - openapi/abacus-api-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abacus/refs/heads/main/authentication/abacus-authentication.yml
+source_yaml_url: https://artifacts.apis.io/abacus/authentication/abacus-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Accounting

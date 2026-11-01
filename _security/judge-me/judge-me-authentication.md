@@ -8,25 +8,25 @@ api_specs:
   label: Judge.me Products API
   slug: judge-me-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/judge-me/refs/heads/main/openapi/judge-me-products-api-openapi.yml
+  url: https://artifacts.apis.io/judge-me/openapi/judge-me-products-api-openapi.yml
 - filename: judge-me-review-requests-api-openapi.yml
   format: yaml
   label: Judge.me Review Requests API
   slug: judge-me-review-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/judge-me/refs/heads/main/openapi/judge-me-review-requests-api-openapi.yml
+  url: https://artifacts.apis.io/judge-me/openapi/judge-me-review-requests-api-openapi.yml
 - filename: judge-me-reviews-api-openapi.yml
   format: yaml
   label: Judge.me Reviews API
   slug: judge-me-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/judge-me/refs/heads/main/openapi/judge-me-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/judge-me/openapi/judge-me-reviews-api-openapi.yml
 - filename: judge-me-widgets-api-openapi.yml
   format: yaml
   label: Judge.me Widgets API
   slug: judge-me-widgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/judge-me/refs/heads/main/openapi/judge-me-widgets-api-openapi.yml
+  url: https://artifacts.apis.io/judge-me/openapi/judge-me-widgets-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -61,7 +61,7 @@ source_filename: judge-me-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/judge-me-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiToken\n  type: apiKey\n  in: query\n  parameter: api_token\n  description: Public or private Judge.me API token passed as a query parameter.\n  sources:\n  - openapi/judge-me-openapi.yml\n- name: shopDomain\n  type: apiKey\n  in: query\n  parameter: shop_domain\n  description: The store's myshopify.com domain passed as a query parameter.\n  sources:\n  - openapi/judge-me-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/judge-me/refs/heads/main/authentication/judge-me-authentication.yml
+source_yaml_url: https://artifacts.apis.io/judge-me/authentication/judge-me-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Reviews

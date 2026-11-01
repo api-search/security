@@ -5,49 +5,49 @@ api_specs:
   label: Kortext Chat API
   slug: kortext-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kortext/refs/heads/main/openapi/kortext-chat-api-openapi.yml
+  url: https://artifacts.apis.io/kortext/openapi/kortext-chat-api-openapi.yml
 - filename: kortext-content-api-openapi.yml
   format: yaml
   label: Kortext Content API
   slug: kortext-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kortext/refs/heads/main/openapi/kortext-content-api-openapi.yml
+  url: https://artifacts.apis.io/kortext/openapi/kortext-content-api-openapi.yml
 - filename: kortext-health-checks-api-openapi.yml
   format: yaml
   label: Kortext Health Checks API
   slug: kortext-health-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kortext/refs/heads/main/openapi/kortext-health-checks-api-openapi.yml
+  url: https://artifacts.apis.io/kortext/openapi/kortext-health-checks-api-openapi.yml
 - filename: kortext-labs-api-openapi.yml
   format: yaml
   label: Kortext Labs API
   slug: kortext-labs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kortext/refs/heads/main/openapi/kortext-labs-api-openapi.yml
+  url: https://artifacts.apis.io/kortext/openapi/kortext-labs-api-openapi.yml
 - filename: kortext-podcast-api-openapi.yml
   format: yaml
   label: Kortext Podcast API
   slug: kortext-podcast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kortext/refs/heads/main/openapi/kortext-podcast-api-openapi.yml
+  url: https://artifacts.apis.io/kortext/openapi/kortext-podcast-api-openapi.yml
 - filename: kortext-quiz-api-openapi.yml
   format: yaml
   label: Kortext Quiz API
   slug: kortext-quiz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kortext/refs/heads/main/openapi/kortext-quiz-api-openapi.yml
+  url: https://artifacts.apis.io/kortext/openapi/kortext-quiz-api-openapi.yml
 - filename: kortext-reading-list-api-openapi.yml
   format: yaml
   label: Kortext Reading List API
   slug: kortext-reading-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kortext/refs/heads/main/openapi/kortext-reading-list-api-openapi.yml
+  url: https://artifacts.apis.io/kortext/openapi/kortext-reading-list-api-openapi.yml
 - filename: kortext-test-api-openapi.yml
   format: yaml
   label: Kortext Test API
   slug: kortext-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kortext/refs/heads/main/openapi/kortext-test-api-openapi.yml
+  url: https://artifacts.apis.io/kortext/openapi/kortext-test-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -86,7 +86,7 @@ source_filename: kortext-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-23'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: kortext.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 12:49:42 2026 GMT\n  hsts: false\n- host: api-demo.labs.kortext.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  7 14:57:05 2026 GMT\n  hsts: null\n- host: vle.kortext.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 08:12:53 2026 GMT\n  hsts: false\ndomains:\n- domain: kortext.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kortext/refs/heads/main/security/kortext-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kortext/security/kortext-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Education

@@ -7,31 +7,31 @@ api_specs:
   label: Whimsical Comments.list API
   slug: whimsical-comments-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whimsical/refs/heads/main/openapi/whimsical-comments-list-api-openapi.yml
+  url: https://artifacts.apis.io/whimsical/openapi/whimsical-comments-list-api-openapi.yml
 - filename: whimsical-files-get-api-openapi.yml
   format: yaml
   label: Whimsical Files.get API
   slug: whimsical-files-get-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whimsical/refs/heads/main/openapi/whimsical-files-get-api-openapi.yml
+  url: https://artifacts.apis.io/whimsical/openapi/whimsical-files-get-api-openapi.yml
 - filename: whimsical-files-list-api-openapi.yml
   format: yaml
   label: Whimsical Files.list API
   slug: whimsical-files-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whimsical/refs/heads/main/openapi/whimsical-files-list-api-openapi.yml
+  url: https://artifacts.apis.io/whimsical/openapi/whimsical-files-list-api-openapi.yml
 - filename: whimsical-teams-list-api-openapi.yml
   format: yaml
   label: Whimsical Teams.list API
   slug: whimsical-teams-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whimsical/refs/heads/main/openapi/whimsical-teams-list-api-openapi.yml
+  url: https://artifacts.apis.io/whimsical/openapi/whimsical-teams-list-api-openapi.yml
 - filename: whimsical-users-get-api-openapi.yml
   format: yaml
   label: Whimsical Users.get API
   slug: whimsical-users-get-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whimsical/refs/heads/main/openapi/whimsical-users-get-api-openapi.yml
+  url: https://artifacts.apis.io/whimsical/openapi/whimsical-users-get-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -63,7 +63,7 @@ source_filename: whimsical-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/whimsical-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://whimsical.com/oauth/authorize\n    tokenUrl: https://whimsical.com/oauth/token\n    scopes: 0\n  description: OAuth 2.1 authorization (contact Whimsical support for client credentials)\n  sources:\n  - openapi/whimsical-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whimsical/refs/heads/main/authentication/whimsical-authentication.yml
+source_yaml_url: https://artifacts.apis.io/whimsical/authentication/whimsical-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Collaboration

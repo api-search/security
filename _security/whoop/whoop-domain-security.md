@@ -5,43 +5,43 @@ api_specs:
   label: WHOOP Activity ID Mapping API
   slug: whoop-activity-id-mapping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/openapi/whoop-activity-id-mapping-api-openapi.yml
+  url: https://artifacts.apis.io/whoop/openapi/whoop-activity-id-mapping-api-openapi.yml
 - filename: whoop-cycle-api-openapi.yml
   format: yaml
   label: WHOOP Cycle API
   slug: whoop-cycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/openapi/whoop-cycle-api-openapi.yml
+  url: https://artifacts.apis.io/whoop/openapi/whoop-cycle-api-openapi.yml
 - filename: whoop-partner-api-openapi.yml
   format: yaml
   label: WHOOP Partner API
   slug: whoop-partner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/openapi/whoop-partner-api-openapi.yml
+  url: https://artifacts.apis.io/whoop/openapi/whoop-partner-api-openapi.yml
 - filename: whoop-recovery-api-openapi.yml
   format: yaml
   label: WHOOP Recovery API
   slug: whoop-recovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/openapi/whoop-recovery-api-openapi.yml
+  url: https://artifacts.apis.io/whoop/openapi/whoop-recovery-api-openapi.yml
 - filename: whoop-sleep-api-openapi.yml
   format: yaml
   label: WHOOP Sleep API
   slug: whoop-sleep-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/openapi/whoop-sleep-api-openapi.yml
+  url: https://artifacts.apis.io/whoop/openapi/whoop-sleep-api-openapi.yml
 - filename: whoop-user-api-openapi.yml
   format: yaml
   label: WHOOP User API
   slug: whoop-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/openapi/whoop-user-api-openapi.yml
+  url: https://artifacts.apis.io/whoop/openapi/whoop-user-api-openapi.yml
 - filename: whoop-workout-api-openapi.yml
   format: yaml
   label: WHOOP Workout API
   slug: whoop-workout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/openapi/whoop-workout-api-openapi.yml
+  url: https://artifacts.apis.io/whoop/openapi/whoop-workout-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -80,7 +80,7 @@ source_filename: whoop-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.whoop.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 14:39:54 2026 GMT\n  hsts: false\n- host: developer.whoop.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 23:59:59 2026 GMT\n  hsts: false\n- host: api.prod.whoop.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 00:33:36 2026 GMT\n  hsts: null\ndomains:\n- domain: whoop.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/security/whoop-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/whoop/security/whoop-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Fitness

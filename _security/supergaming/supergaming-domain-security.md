@@ -27,7 +27,7 @@ source_filename: supergaming-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.supergaming.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 02:29:20 2026 GMT\n  hsts: false\ndomains:\n- domain: supergaming.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/supergaming/refs/heads/main/security/supergaming-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/supergaming/security/supergaming-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

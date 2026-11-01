@@ -5,31 +5,31 @@ api_specs:
   label: Starbucks Loyalty API
   slug: starbucks-loyalty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starbucks/refs/heads/main/openapi/starbucks-loyalty-api-openapi.yml
+  url: https://artifacts.apis.io/starbucks/openapi/starbucks-loyalty-api-openapi.yml
 - filename: starbucks-menu-api-openapi.yml
   format: yaml
   label: Starbucks Menu API
   slug: starbucks-menu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starbucks/refs/heads/main/openapi/starbucks-menu-api-openapi.yml
+  url: https://artifacts.apis.io/starbucks/openapi/starbucks-menu-api-openapi.yml
 - filename: starbucks-orders-api-openapi.yml
   format: yaml
   label: Starbucks Orders API
   slug: starbucks-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starbucks/refs/heads/main/openapi/starbucks-orders-api-openapi.yml
+  url: https://artifacts.apis.io/starbucks/openapi/starbucks-orders-api-openapi.yml
 - filename: starbucks-status-api-openapi.yml
   format: yaml
   label: Starbucks Status API
   slug: starbucks-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starbucks/refs/heads/main/openapi/starbucks-status-api-openapi.yml
+  url: https://artifacts.apis.io/starbucks/openapi/starbucks-status-api-openapi.yml
 - filename: starbucks-stores-api-openapi.yml
   format: yaml
   label: Starbucks Stores API
   slug: starbucks-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starbucks/refs/heads/main/openapi/starbucks-stores-api-openapi.yml
+  url: https://artifacts.apis.io/starbucks/openapi/starbucks-stores-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -67,7 +67,7 @@ source_filename: starbucks-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.starbucks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 10 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.starbucks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 160770400\n- host: api.starbucks.com\n  https: false\ndomains:\n- domain: starbucks.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/starbucks/refs/heads/main/security/starbucks-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/starbucks/security/starbucks-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Coffee

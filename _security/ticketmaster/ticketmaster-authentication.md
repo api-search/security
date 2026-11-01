@@ -8,43 +8,43 @@ api_specs:
   label: Ticketmaster Availability API
   slug: ticketmaster-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/openapi/ticketmaster-availability-api-openapi.yml
+  url: https://artifacts.apis.io/ticketmaster/openapi/ticketmaster-availability-api-openapi.yml
 - filename: ticketmaster-offerings-api-openapi.yml
   format: yaml
   label: Ticketmaster Offerings API
   slug: ticketmaster-offerings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/openapi/ticketmaster-offerings-api-openapi.yml
+  url: https://artifacts.apis.io/ticketmaster/openapi/ticketmaster-offerings-api-openapi.yml
 - filename: ticketmaster-attractions-api-openapi.yml
   format: yaml
   label: Ticketmaster Attractions API
   slug: ticketmaster-attractions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/openapi/ticketmaster-attractions-api-openapi.yml
+  url: https://artifacts.apis.io/ticketmaster/openapi/ticketmaster-attractions-api-openapi.yml
 - filename: ticketmaster-classifications-api-openapi.yml
   format: yaml
   label: Ticketmaster Classifications API
   slug: ticketmaster-classifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/openapi/ticketmaster-classifications-api-openapi.yml
+  url: https://artifacts.apis.io/ticketmaster/openapi/ticketmaster-classifications-api-openapi.yml
 - filename: ticketmaster-events-api-openapi.yml
   format: yaml
   label: Ticketmaster Events API
   slug: ticketmaster-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/openapi/ticketmaster-events-api-openapi.yml
+  url: https://artifacts.apis.io/ticketmaster/openapi/ticketmaster-events-api-openapi.yml
 - filename: ticketmaster-suggestions-api-openapi.yml
   format: yaml
   label: Ticketmaster Suggestions API
   slug: ticketmaster-suggestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/openapi/ticketmaster-suggestions-api-openapi.yml
+  url: https://artifacts.apis.io/ticketmaster/openapi/ticketmaster-suggestions-api-openapi.yml
 - filename: ticketmaster-venues-api-openapi.yml
   format: yaml
   label: Ticketmaster Venues API
   slug: ticketmaster-venues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/openapi/ticketmaster-venues-api-openapi.yml
+  url: https://artifacts.apis.io/ticketmaster/openapi/ticketmaster-venues-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -71,7 +71,7 @@ source_filename: ticketmaster-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ticketmaster-commerce-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyQuery\n  type: apiKey\n  in: query\n  parameter: apikey\n  sources:\n  - openapi/ticketmaster-commerce-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/authentication/ticketmaster-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ticketmaster/authentication/ticketmaster-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Commerce

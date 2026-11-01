@@ -5,61 +5,61 @@ api_specs:
   label: Codesphere Clusters API
   slug: codesphere-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/codesphere/openapi/codesphere-clusters-api-openapi.yml
 - filename: codesphere-domains-api-openapi.yml
   format: yaml
   label: Codesphere Domains API
   slug: codesphere-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-domains-api-openapi.yml
+  url: https://artifacts.apis.io/codesphere/openapi/codesphere-domains-api-openapi.yml
 - filename: codesphere-managed-services-api-openapi.yml
   format: yaml
   label: Codesphere Managed Services API
   slug: codesphere-managed-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-managed-services-api-openapi.yml
+  url: https://artifacts.apis.io/codesphere/openapi/codesphere-managed-services-api-openapi.yml
 - filename: codesphere-metadata-api-openapi.yml
   format: yaml
   label: Codesphere Metadata API
   slug: codesphere-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/codesphere/openapi/codesphere-metadata-api-openapi.yml
 - filename: codesphere-organizations-api-openapi.yml
   format: yaml
   label: Codesphere Organizations API
   slug: codesphere-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/codesphere/openapi/codesphere-organizations-api-openapi.yml
 - filename: codesphere-ssh-api-openapi.yml
   format: yaml
   label: Codesphere Ssh API
   slug: codesphere-ssh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-ssh-api-openapi.yml
+  url: https://artifacts.apis.io/codesphere/openapi/codesphere-ssh-api-openapi.yml
 - filename: codesphere-teams-api-openapi.yml
   format: yaml
   label: Codesphere Teams API
   slug: codesphere-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-teams-api-openapi.yml
+  url: https://artifacts.apis.io/codesphere/openapi/codesphere-teams-api-openapi.yml
 - filename: codesphere-usage-api-openapi.yml
   format: yaml
   label: Codesphere Usage API
   slug: codesphere-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-usage-api-openapi.yml
+  url: https://artifacts.apis.io/codesphere/openapi/codesphere-usage-api-openapi.yml
 - filename: codesphere-vault-api-openapi.yml
   format: yaml
   label: Codesphere Vault API
   slug: codesphere-vault-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-vault-api-openapi.yml
+  url: https://artifacts.apis.io/codesphere/openapi/codesphere-vault-api-openapi.yml
 - filename: codesphere-workspaces-api-openapi.yml
   format: yaml
   label: Codesphere Workspaces API
   slug: codesphere-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/codesphere/openapi/codesphere-workspaces-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -77,7 +77,7 @@ source_filename: codesphere-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nprobe: true\nsource: https://app.drata.com/trust/be8cadd3-0d8d-48cf-ad18-2aecbc39cc9d\nurl: https://app.drata.com/trust/be8cadd3-0d8d-48cf-ad18-2aecbc39cc9d\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://app.drata.com/trust/be8cadd3-0d8d-48cf-ad18-2aecbc39cc9d\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/security/codesphere-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/codesphere/security/codesphere-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Company

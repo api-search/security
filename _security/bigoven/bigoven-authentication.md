@@ -8,43 +8,43 @@ api_specs:
   label: BigOven Collection API
   slug: bigoven-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/openapi/bigoven-collection-api-openapi.yml
+  url: https://artifacts.apis.io/bigoven/openapi/bigoven-collection-api-openapi.yml
 - filename: bigoven-grocerylist-api-openapi.yml
   format: yaml
   label: BigOven GroceryList API
   slug: bigoven-grocerylist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/openapi/bigoven-grocerylist-api-openapi.yml
+  url: https://artifacts.apis.io/bigoven/openapi/bigoven-grocerylist-api-openapi.yml
 - filename: bigoven-images-api-openapi.yml
   format: yaml
   label: BigOven Images API
   slug: bigoven-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/openapi/bigoven-images-api-openapi.yml
+  url: https://artifacts.apis.io/bigoven/openapi/bigoven-images-api-openapi.yml
 - filename: bigoven-me-api-openapi.yml
   format: yaml
   label: BigOven Me API
   slug: bigoven-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/openapi/bigoven-me-api-openapi.yml
+  url: https://artifacts.apis.io/bigoven/openapi/bigoven-me-api-openapi.yml
 - filename: bigoven-note-api-openapi.yml
   format: yaml
   label: BigOven Note API
   slug: bigoven-note-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/openapi/bigoven-note-api-openapi.yml
+  url: https://artifacts.apis.io/bigoven/openapi/bigoven-note-api-openapi.yml
 - filename: bigoven-recipe-api-openapi.yml
   format: yaml
   label: BigOven Recipe API
   slug: bigoven-recipe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/openapi/bigoven-recipe-api-openapi.yml
+  url: https://artifacts.apis.io/bigoven/openapi/bigoven-recipe-api-openapi.yml
 - filename: bigoven-review-api-openapi.yml
   format: yaml
   label: BigOven Review API
   slug: bigoven-review-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/openapi/bigoven-review-api-openapi.yml
+  url: https://artifacts.apis.io/bigoven/openapi/bigoven-review-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -79,7 +79,7 @@ source_filename: bigoven-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bigoven-openapi.yaml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: api_key\n  type: apiKey\n  in: header\n  parameter: X-BigOven-API-Key\n  description: 'Pass your api_key in the header (recommended) or as a URL parameter. For the\n    URL parameter, use api_key. For the header, send it as a header value for: X-BigOven-API-Key'\n  sources:\n  - openapi/bigoven-openapi.yaml\n- name: basic\n  type: http\n  scheme: basic\n  description: Basic HTTP Authentication is used for those endpoint calls where you want to\n    act as a BigOven user -- e.g., to get the list of favorites of a signed-in user, or add\n    items to their grocery list.\n  sources:\n  - openapi/bigoven-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/authentication/bigoven-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bigoven/authentication/bigoven-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Recipes

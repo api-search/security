@@ -5,43 +5,43 @@ api_specs:
   label: University of Florida Analytics API
   slug: university-of-florida-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-florida/refs/heads/main/openapi/university-of-florida-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-florida/openapi/university-of-florida-analytics-api-openapi.yml
 - filename: university-of-florida-discovery-api-openapi.yml
   format: yaml
   label: University of Florida Discovery API
   slug: university-of-florida-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-florida/refs/heads/main/openapi/university-of-florida-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-florida/openapi/university-of-florida-discovery-api-openapi.yml
 - filename: university-of-florida-filters-api-openapi.yml
   format: yaml
   label: University of Florida Filters API
   slug: university-of-florida-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-florida/refs/heads/main/openapi/university-of-florida-filters-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-florida/openapi/university-of-florida-filters-api-openapi.yml
 - filename: university-of-florida-harvest-api-openapi.yml
   format: yaml
   label: University of Florida Harvest API
   slug: university-of-florida-harvest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-florida/refs/heads/main/openapi/university-of-florida-harvest-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-florida/openapi/university-of-florida-harvest-api-openapi.yml
 - filename: university-of-florida-item-api-openapi.yml
   format: yaml
   label: University of Florida Item API
   slug: university-of-florida-item-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-florida/refs/heads/main/openapi/university-of-florida-item-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-florida/openapi/university-of-florida-item-api-openapi.yml
 - filename: university-of-florida-schedule-api-openapi.yml
   format: yaml
   label: University of Florida Schedule API
   slug: university-of-florida-schedule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-florida/refs/heads/main/openapi/university-of-florida-schedule-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-florida/openapi/university-of-florida-schedule-api-openapi.yml
 - filename: university-of-florida-search-api-openapi.yml
   format: yaml
   label: University of Florida Search API
   slug: university-of-florida-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-florida/refs/heads/main/openapi/university-of-florida-search-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-florida/openapi/university-of-florida-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,7 +81,7 @@ source_filename: university-of-florida-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ufl.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  5 23:59:59 2027 GMT\n  hsts: false\n- host: one.ufl.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: campusmap.ufl.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  1 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: ufl.edu\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-florida/refs/heads/main/security/university-of-florida-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/university-of-florida/security/university-of-florida-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - University

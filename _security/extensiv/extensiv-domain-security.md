@@ -5,43 +5,43 @@ api_specs:
   label: Extensiv Authentication API
   slug: extensiv-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/extensiv/openapi/extensiv-authentication-api-openapi.yml
 - filename: extensiv-customers-api-openapi.yml
   format: yaml
   label: Extensiv Customers API
   slug: extensiv-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-customers-api-openapi.yml
+  url: https://artifacts.apis.io/extensiv/openapi/extensiv-customers-api-openapi.yml
 - filename: extensiv-inventory-api-openapi.yml
   format: yaml
   label: Extensiv Inventory API
   slug: extensiv-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/extensiv/openapi/extensiv-inventory-api-openapi.yml
 - filename: extensiv-items-api-openapi.yml
   format: yaml
   label: Extensiv Items API
   slug: extensiv-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-items-api-openapi.yml
+  url: https://artifacts.apis.io/extensiv/openapi/extensiv-items-api-openapi.yml
 - filename: extensiv-orders-api-openapi.yml
   format: yaml
   label: Extensiv Orders API
   slug: extensiv-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-orders-api-openapi.yml
+  url: https://artifacts.apis.io/extensiv/openapi/extensiv-orders-api-openapi.yml
 - filename: extensiv-receivers-api-openapi.yml
   format: yaml
   label: Extensiv Receivers API
   slug: extensiv-receivers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-receivers-api-openapi.yml
+  url: https://artifacts.apis.io/extensiv/openapi/extensiv-receivers-api-openapi.yml
 - filename: extensiv-warehouses-api-openapi.yml
   format: yaml
   label: Extensiv Warehouses API
   slug: extensiv-warehouses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-warehouses-api-openapi.yml
+  url: https://artifacts.apis.io/extensiv/openapi/extensiv-warehouses-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -86,7 +86,7 @@ source_filename: extensiv-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.extensiv.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 13:32:32 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.extensiv.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 23:59:59 2026 GMT\n  hsts: false\n- host: secure-wms.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  5 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: extensiv.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: secure-wms.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/security/extensiv-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/extensiv/security/extensiv-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - 3PL

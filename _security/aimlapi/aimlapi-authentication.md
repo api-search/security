@@ -7,115 +7,115 @@ api_specs:
   label: AIMLAPI API Key Management API
   slug: aimlapi-api-key-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-api-key-management-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-api-key-management-api-openapi.yml
 - filename: aimlapi-assistants-api-openapi.yml
   format: yaml
   label: AIMLAPI Assistants API
   slug: aimlapi-assistants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-assistants-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-assistants-api-openapi.yml
 - filename: aimlapi-images-api-openapi.yml
   format: yaml
   label: AIMLAPI Images API
   slug: aimlapi-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-images-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-images-api-openapi.yml
 - filename: aimlapi-models-api-openapi.yml
   format: yaml
   label: AIMLAPI Models API
   slug: aimlapi-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-models-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-models-api-openapi.yml
 - filename: aimlapi-threads-api-openapi.yml
   format: yaml
   label: AIMLAPI Threads API
   slug: aimlapi-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-threads-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-threads-api-openapi.yml
 - filename: aimlapi-threads-messages-api-openapi.yml
   format: yaml
   label: AIMLAPI Threads > Messages API
   slug: aimlapi-threads-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-threads-messages-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-threads-messages-api-openapi.yml
 - filename: aimlapi-threads-runs-api-openapi.yml
   format: yaml
   label: AIMLAPI Threads > Runs API
   slug: aimlapi-threads-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-threads-runs-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-threads-runs-api-openapi.yml
 - filename: aimlapi-voice-api-openapi.yml
   format: yaml
   label: AIMLAPI Voice API
   slug: aimlapi-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-voice-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-voice-api-openapi.yml
 - filename: aimlapi-wip-completions-api-openapi.yml
   format: yaml
   label: AIMLAPI [WIP] Completions API
   slug: aimlapi-wip-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-wip-completions-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-wip-completions-api-openapi.yml
 - filename: aimlapi-batches-api-openapi.yml
   format: yaml
   label: AIMLAPI Batches API
   slug: aimlapi-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-batches-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-batches-api-openapi.yml
 - filename: aimlapi-embeddings-api-openapi.yml
   format: yaml
   label: AIMLAPI Embeddings API
   slug: aimlapi-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-embeddings-api-openapi.yml
 - filename: aimlapi-generate-api-openapi.yml
   format: yaml
   label: AIMLAPI Generate API
   slug: aimlapi-generate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-generate-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-generate-api-openapi.yml
 - filename: aimlapi-messages-api-openapi.yml
   format: yaml
   label: AIMLAPI Messages API
   slug: aimlapi-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-messages-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-messages-api-openapi.yml
 - filename: aimlapi-ocr-api-openapi.yml
   format: yaml
   label: AIMLAPI Ocr API
   slug: aimlapi-ocr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-ocr-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-ocr-api-openapi.yml
 - filename: aimlapi-responses-api-openapi.yml
   format: yaml
   label: AIMLAPI Responses API
   slug: aimlapi-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-responses-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-responses-api-openapi.yml
 - filename: aimlapi-stt-api-openapi.yml
   format: yaml
   label: AIMLAPI Stt API
   slug: aimlapi-stt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-stt-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-stt-api-openapi.yml
 - filename: aimlapi-tts-api-openapi.yml
   format: yaml
   label: AIMLAPI Tts API
   slug: aimlapi-tts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-tts-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-tts-api-openapi.yml
 - filename: aimlapi-video-api-openapi.yml
   format: yaml
   label: AIMLAPI Video API
   slug: aimlapi-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-video-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-video-api-openapi.yml
 - filename: aimlapi-chat-completions-api-openapi.yml
   format: yaml
   label: AIMLAPI Chat Completions API
   slug: aimlapi-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/aimlapi/openapi/aimlapi-chat-completions-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -207,7 +207,7 @@ source_yaml: "specification: API Commons Authentication\nspecificationVersion: '
   \ dashboard only — cannot be minted through the API\n    shown_once: true\n    note: >-\n      A deliberate privilege split: the credential that can mint credentials is\n      not itself mintable over the wire. A regular key naming another key's\n      prefix on the reporting endpoints gets a 403.\n  sources:\n  - https://docs.aimlapi.com/faq/how-can-i-work-with-my-api-keys\n  - openapi/aimlapi-inference-openapi.yml\n- name: mcpOAuth\n  type: oauth2\n  applies_to: remote MCP server (https://mcp.aimlapi.com/mcp)\n  flows:\n    authorizationCode:\n      authorizationUrl: https://auth.aimlapi.com/mcp-oauth/auth\n      tokenUrl: https://auth.aimlapi.com/mcp-oauth/token\n      registrationUrl: https://auth.aimlapi.com/mcp-oauth/register\n      pushedAuthorizationRequestUrl: https://auth.aimlapi.com/mcp-oauth/par\n      scopes:\n        openid: OpenID Connect subject identity\n        email: the account email address\n        offline_access: refresh tokens for unattended re-authorization\n \
   \       mcp:invoke: permission to invoke MCP tools, billed to the account\n  pkce:\n    required_methods:\n    - S256\n  dynamic_client_registration: true\n  grant_types:\n  - authorization_code\n  - refresh_token\n  - implicit\n  token_endpoint_auth_methods:\n  - client_secret_basic\n  - client_secret_jwt\n  - client_secret_post\n  - private_key_jwt\n  - none\n  id_token_signing_alg:\n  - RS256\n  discovery:\n  - https://mcp.aimlapi.com/.well-known/oauth-protected-resource\n  - https://auth.aimlapi.com/mcp-oauth/.well-known/oauth-authorization-server\n  sources:\n  - https://docs.aimlapi.com/quickstart/mcp\n  - well-known/aimlapi-mcp-oauth-authorization-server.json\ngaps:\n- >-\n  The published OpenAPI at https://api.aimlapi.com/docs-yaml declares NO\n  components.securitySchemes and NO security requirement on any of its 19\n  operations, even though every one of them requires a bearer key. An agent\n  reading only the contract would not know the API needs authentication at all.\n  The\
   \ bearerAuth scheme recorded here comes from the older per-tag specs in\n  openapi/ and from the prose documentation.\n- >-\n  The OAuth authorization server advertises the `openid` scope and an `id_token`\n  response type but serves no /.well-known/openid-configuration, so an OIDC\n  client cannot discover it by the standard path.\n- >-\n  No mutualTLS, no signed-request scheme, and no IP allowlisting is documented.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/authentication/aimlapi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/aimlapi/authentication/aimlapi-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Artificial Intelligence

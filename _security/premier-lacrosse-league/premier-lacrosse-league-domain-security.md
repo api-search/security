@@ -40,7 +40,7 @@ source_filename: premier-lacrosse-league-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: premierlacrosseleague.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 18:52:35 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: stats.premierlacrosseleague.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 23:55:12 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: shop.premierlacrosseleague.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 02:18:02 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\ndomains:\n- domain: premierlacrosseleague.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/premier-lacrosse-league/refs/heads/main/security/premier-lacrosse-league-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/premier-lacrosse-league/security/premier-lacrosse-league-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -45,7 +45,7 @@ source_filename: cloud-commerce-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cloudcommerce.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 13 05:26:21 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: fastship.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 12 07:41:45 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: openapi.fastship.co\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  4 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: cloudcommerce.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: fastship.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloud-commerce/refs/heads/main/security/cloud-commerce-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cloud-commerce/security/cloud-commerce-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

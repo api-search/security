@@ -5,19 +5,19 @@ api_specs:
   label: Qlty CLI
   slug: qlty-cli
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlty/refs/heads/main/openapi/_original/qlty-openapi.yml
+  url: https://artifacts.apis.io/qlty/openapi/_original/qlty-openapi.yml
 - filename: qlty-openapi.yml
   format: yaml
   label: Qlty Coverage Upload
   slug: qlty-coverage-upload
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlty/refs/heads/main/openapi/_original/qlty-openapi.yml
+  url: https://artifacts.apis.io/qlty/openapi/_original/qlty-openapi.yml
 - filename: qlty-openapi.yml
   format: yaml
   label: Qlty Cloud API
   slug: qlty-cloud
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlty/refs/heads/main/openapi/_original/qlty-openapi.yml
+  url: https://artifacts.apis.io/qlty/openapi/_original/qlty-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: qlty-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: qlty.sh\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.qlty.sh\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 00:09:49 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: qlty.sh\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qlty/refs/heads/main/security/qlty-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/qlty/security/qlty-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Code Quality

@@ -8,31 +8,31 @@ api_specs:
   label: OpenSERP Docs API
   slug: openserp-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/openapi/openserp-docs-api-openapi.yml
+  url: https://artifacts.apis.io/openserp/openapi/openserp-docs-api-openapi.yml
 - filename: openserp-health-api-openapi.yml
   format: yaml
   label: OpenSERP Health API
   slug: openserp-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/openapi/openserp-health-api-openapi.yml
+  url: https://artifacts.apis.io/openserp/openapi/openserp-health-api-openapi.yml
 - filename: openserp-mega-api-openapi.yml
   format: yaml
   label: OpenSERP Mega API
   slug: openserp-mega-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/openapi/openserp-mega-api-openapi.yml
+  url: https://artifacts.apis.io/openserp/openapi/openserp-mega-api-openapi.yml
 - filename: openserp-search-api-openapi.yml
   format: yaml
   label: OpenSERP Search API
   slug: openserp-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/openapi/openserp-search-api-openapi.yml
+  url: https://artifacts.apis.io/openserp/openapi/openserp-search-api-openapi.yml
 - filename: openserp-stats-api-openapi.yml
   format: yaml
   label: OpenSERP Stats API
   slug: openserp-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/openapi/openserp-stats-api-openapi.yml
+  url: https://artifacts.apis.io/openserp/openapi/openserp-stats-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -75,13 +75,12 @@ source_yaml: "generated: '2026-08-10'\nmethod: searched\nsource: https://openser
   \ prefix is retained for identification.\n  scopes: none\n  note: Keys are account-wide. The documentation describes no per-key scopes, permissions or\n    restrictions, so there is no scope surface to capture (scopes/ is intentionally absent).\n- name: none\n  type: none\n  applies_to: http://localhost:7000\n  sources: [openapi/openserp-oss-openapi.yml]\n  description: 'The self-hosted OpenSERP server requires no credentials. The OpenAPI declares an\n    empty top-level `security: []` and no `components.securitySchemes`.'\nkey_management:\n  issuance: https://openserp.org/dashboard/keys\n  visibility: full secret shown once at creation\n  environment_variable: OPENSERP_API_KEY\n  rotation:\n    documented: true\n    procedure:\n    - Create a new key in the dashboard.\n    - Update the OPENSERP_API_KEY environment variable.\n    - Deploy and verify with client.me() (GET /v1/me).\n    - Revoke the old key.\n    note: Overlapping validity is explicitly recommended so in-flight requests\
   \ do not fail.\n  revocation: dashboard\n  validation_endpoint:\n    operation: GET /v1/me\n    cost: 0 credits\n    description: Validates a key and returns account details and credit balance. Documented as the\n      deployment smoke test.\n  test_vs_live: single live key class (`osk_live_`). No separate test/sandbox key prefix is\n    documented.\nfailure_modes:\n- status: 401\n  error: unauthorized\n  body: '{\"error\": \"unauthorized\", \"code\": 401, \"message\": \"missing or invalid API key\"}'\n  causes: [missing key, wrong key, revoked key]\n  retryable: false\nx-evidence:\n  fetched: '2026-08-10'\n  checks:\n  - url: https://openserp.org/docs/cloud-authentication/\n    http_status: 200\n  - url: https://api.openserp.org/v1/me\n    http_status: 401\n    note: Anonymous request returned the documented envelope verbatim -\n      {\"error\":\"unauthorized\",\"code\":401,\"message\":\"missing or invalid api key\"}\n  - url: https://api.openserp.org/v1/pricing\n    http_status: 200\n\
   \    note: The one Cloud operation that answers anonymously.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/authentication/openserp-authentication.yml
+source_yaml_url: https://artifacts.apis.io/openserp/authentication/openserp-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Company
 - Search
 - SERP
-- Search API
 - Web Scraping
 - Content Extraction
 - AI Grounding

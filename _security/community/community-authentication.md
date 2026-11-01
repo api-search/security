@@ -8,19 +8,19 @@ api_specs:
   label: Community Member Data API
   slug: community-member-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/openapi/community-member-data-api-openapi.yml
+  url: https://artifacts.apis.io/community/openapi/community-member-data-api-openapi.yml
 - filename: community-messaging-api-openapi.yml
   format: yaml
   label: Community Messaging API
   slug: community-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/openapi/community-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/community/openapi/community-messaging-api-openapi.yml
 - filename: community-tags-api-openapi.yml
   format: yaml
   label: Community Tags API
   slug: community-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/openapi/community-tags-api-openapi.yml
+  url: https://artifacts.apis.io/community/openapi/community-tags-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/_origin
   \ from the docs. This is the primary,\n    documented credential for both APIs; the token is prefixed community_api and\n    is presented as a bearer token in the Authorization header.\ntoken_lifetimes:\n- credential: OAuth 2.0 access token (JWT)\n  lifetime: 60 minutes\n  refresh: OAuth refresh_token issued alongside the access token\n  source: https://developer.community.com/reference/sample-code\n- credential: Seat Context session token (JWT)\n  lifetime: 7 days\n  revocation: DELETE https://dl.community.com/download/v2/auth/logout\n  source: https://developer.community.com/reference/data-export-api-authentication\n- credential: Data Export download redirect URL\n  lifetime: 15 minutes\n  source: https://developer.community.com/reference/data-export-api-downloading-data\n  notes: Time-limited redirect; must not be cached.\nseat_context_api:\n  purpose: >-\n    Alternative Data Export authentication for enterprises managing several\n    Community accounts from one seat (email). Login\
   \ returns a JWT scoped to a\n    client_id; the caller then lists and switches account contexts.\n  base: https://dl.community.com/download/v2\n  operations:\n  - method: POST\n    path: /auth/login\n    description: Establish a session from an account seat email + password; returns seat_id, client_id, device_id and a JWT.\n  - method: POST\n    path: /auth/login/callback/mfa\n    description: Complete two-factor authentication with a six-digit TOTP code when 2FA is enabled on any account the seat can reach.\n  - method: GET\n    path: /auth/context\n    description: List the Community accounts (contexts) the seat can access, each identified by client_id.\n  - method: PUT\n    path: /auth/context\n    description: Switch to a given client_id context and receive a new JWT scoped to it.\n  - method: DELETE\n    path: /auth/logout\n    description: Expire the session token before its 7-day lifetime elapses.\n  mfa: TOTP six-digit code, required when 2FA is enabled on the account\n  source:\
   \ https://developer.community.com/reference/data-export-api-authentication\nwebhook_authentication:\n  direction: inbound (Community -> subscriber endpoint)\n  header: community-signature\n  scheme: HMAC computed with a per-webhook shared signature secret\n  source: https://developer.community.com/reference/webhooks-introduction\nnotes: >-\n  Upgraded from derived to searched on 2026-08-13. The OpenAPI only declares\n  bearerAuth and oAuth; the developer docs add the primary credential actually\n  issued to customers (a community_api-prefixed API token), the concrete token\n  lifetimes, and the Seat Context API used for multi-account Data Export access.\n  No scopes are published for the oauth2 flow — see scopes/community-scopes.yml.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/authentication/community-authentication.yml
+source_yaml_url: https://artifacts.apis.io/community/authentication/community-authentication.yml
 summary_line: http/oauth2/apiKey · 3 schemes
 tags:
 - Messaging

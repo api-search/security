@@ -28,7 +28,7 @@ source_filename: extra-space-storage-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.extraspace.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 02:39:38 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: extraspace.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/extra-space-storage/refs/heads/main/security/extra-space-storage-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/extra-space-storage/security/extra-space-storage-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Self Storage

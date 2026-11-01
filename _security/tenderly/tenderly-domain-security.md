@@ -45,7 +45,7 @@ source_filename: tenderly-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tenderly.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 15:33:17 2026 GMT\n  hsts: null\n- host: docs.tenderly.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 09:34:09 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.tenderly.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 07:45:30 2026 GMT\n  hsts: null\ndomains:\n- domain: tenderly.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tenderly/refs/heads/main/security/tenderly-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tenderly/security/tenderly-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Web3

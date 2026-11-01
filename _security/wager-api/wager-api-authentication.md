@@ -8,31 +8,31 @@ api_specs:
   label: Wager API Futures API
   slug: wager-api-futures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/openapi/wager-api-futures-api-openapi.yml
+  url: https://artifacts.apis.io/wager-api/openapi/wager-api-futures-api-openapi.yml
 - filename: wager-api-games-api-openapi.yml
   format: yaml
   label: Wager API Games API
   slug: wager-api-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/openapi/wager-api-games-api-openapi.yml
+  url: https://artifacts.apis.io/wager-api/openapi/wager-api-games-api-openapi.yml
 - filename: wager-api-odds-api-openapi.yml
   format: yaml
   label: Wager API Odds API
   slug: wager-api-odds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/openapi/wager-api-odds-api-openapi.yml
+  url: https://artifacts.apis.io/wager-api/openapi/wager-api-odds-api-openapi.yml
 - filename: wager-api-players-api-openapi.yml
   format: yaml
   label: Wager API Players API
   slug: wager-api-players-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/openapi/wager-api-players-api-openapi.yml
+  url: https://artifacts.apis.io/wager-api/openapi/wager-api-players-api-openapi.yml
 - filename: wager-api-props-api-openapi.yml
   format: yaml
   label: Wager API Props API
   slug: wager-api-props-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/openapi/wager-api-props-api-openapi.yml
+  url: https://artifacts.apis.io/wager-api/openapi/wager-api-props-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: wager-api-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/wager-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: API key obtained from Wager API, request via wagerapi.com\n  sources:\n  - openapi/wager-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/authentication/wager-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/wager-api/authentication/wager-api-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Sports Betting

@@ -8,19 +8,19 @@ api_specs:
   label: Jentic Authentication API
   slug: jentic-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jentic/refs/heads/main/openapi/jentic-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/jentic/openapi/jentic-authentication-api-openapi.yml
 - filename: jentic-execution-api-openapi.yml
   format: yaml
   label: Jentic Execution API
   slug: jentic-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jentic/refs/heads/main/openapi/jentic-execution-api-openapi.yml
+  url: https://artifacts.apis.io/jentic/openapi/jentic-execution-api-openapi.yml
 - filename: jentic-search-api-openapi.yml
   format: yaml
   label: Jentic Search API
   slug: jentic-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jentic/refs/heads/main/openapi/jentic-search-api-openapi.yml
+  url: https://artifacts.apis.io/jentic/openapi/jentic-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: jentic-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/jentic-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-JENTIC-API-KEY\n  description: Agent-scoped API key obtained either by calling `/auth/register` or by clicking\n    Generate API Key on an agent in the Jentic console at app.jentic.com. The key authorizes\n    only the APIs and workflows in that agent's scope.\n  sources:\n  - openapi/jentic-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jentic/refs/heads/main/authentication/jentic-authentication.yml
+source_yaml_url: https://artifacts.apis.io/jentic/authentication/jentic-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - AI Agents

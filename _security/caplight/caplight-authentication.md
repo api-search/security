@@ -8,97 +8,97 @@ api_specs:
   label: Caplight Companies API
   slug: caplight-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caplight/refs/heads/main/openapi/caplight-companies-api-openapi.yml
+  url: https://artifacts.apis.io/caplight/openapi/caplight-companies-api-openapi.yml
 - filename: caplight-company-api-openapi.yml
   format: yaml
   label: Caplight Company API
   slug: caplight-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caplight/refs/heads/main/openapi/caplight-company-api-openapi.yml
+  url: https://artifacts.apis.io/caplight/openapi/caplight-company-api-openapi.yml
 - filename: caplight-company-details-api-openapi.yml
   format: yaml
   label: Caplight Company Details API
   slug: caplight-company-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caplight/refs/heads/main/openapi/caplight-company-details-api-openapi.yml
+  url: https://artifacts.apis.io/caplight/openapi/caplight-company-details-api-openapi.yml
 - filename: caplight-company-filings-api-openapi.yml
   format: yaml
   label: Caplight Company Filings API
   slug: caplight-company-filings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caplight/refs/heads/main/openapi/caplight-company-filings-api-openapi.yml
+  url: https://artifacts.apis.io/caplight/openapi/caplight-company-filings-api-openapi.yml
 - filename: caplight-company-lookup-api-openapi.yml
   format: yaml
   label: Caplight Company Lookup API
   slug: caplight-company-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caplight/refs/heads/main/openapi/caplight-company-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/caplight/openapi/caplight-company-lookup-api-openapi.yml
 - filename: caplight-composite-index-api-openapi.yml
   format: yaml
   label: Caplight Composite Index API
   slug: caplight-composite-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caplight/refs/heads/main/openapi/caplight-composite-index-api-openapi.yml
+  url: https://artifacts.apis.io/caplight/openapi/caplight-composite-index-api-openapi.yml
 - filename: caplight-comps-api-openapi.yml
   format: yaml
   label: Caplight Comps API
   slug: caplight-comps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caplight/refs/heads/main/openapi/caplight-comps-api-openapi.yml
+  url: https://artifacts.apis.io/caplight/openapi/caplight-comps-api-openapi.yml
 - filename: caplight-fund-marks-api-openapi.yml
   format: yaml
   label: Caplight Fund Marks API
   slug: caplight-fund-marks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caplight/refs/heads/main/openapi/caplight-fund-marks-api-openapi.yml
+  url: https://artifacts.apis.io/caplight/openapi/caplight-fund-marks-api-openapi.yml
 - filename: caplight-funding-rounds-api-openapi.yml
   format: yaml
   label: Caplight Funding Rounds API
   slug: caplight-funding-rounds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caplight/refs/heads/main/openapi/caplight-funding-rounds-api-openapi.yml
+  url: https://artifacts.apis.io/caplight/openapi/caplight-funding-rounds-api-openapi.yml
 - filename: caplight-investors-api-openapi.yml
   format: yaml
   label: Caplight Investors API
   slug: caplight-investors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caplight/refs/heads/main/openapi/caplight-investors-api-openapi.yml
+  url: https://artifacts.apis.io/caplight/openapi/caplight-investors-api-openapi.yml
 - filename: caplight-live-orderbook-api-openapi.yml
   format: yaml
   label: Caplight Live Orderbook API
   slug: caplight-live-orderbook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caplight/refs/heads/main/openapi/caplight-live-orderbook-api-openapi.yml
+  url: https://artifacts.apis.io/caplight/openapi/caplight-live-orderbook-api-openapi.yml
 - filename: caplight-news-api-openapi.yml
   format: yaml
   label: Caplight News API
   slug: caplight-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caplight/refs/heads/main/openapi/caplight-news-api-openapi.yml
+  url: https://artifacts.apis.io/caplight/openapi/caplight-news-api-openapi.yml
 - filename: caplight-order-history-api-openapi.yml
   format: yaml
   label: Caplight Order History API
   slug: caplight-order-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caplight/refs/heads/main/openapi/caplight-order-history-api-openapi.yml
+  url: https://artifacts.apis.io/caplight/openapi/caplight-order-history-api-openapi.yml
 - filename: caplight-stock-splits-api-openapi.yml
   format: yaml
   label: Caplight Stock Splits API
   slug: caplight-stock-splits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caplight/refs/heads/main/openapi/caplight-stock-splits-api-openapi.yml
+  url: https://artifacts.apis.io/caplight/openapi/caplight-stock-splits-api-openapi.yml
 - filename: caplight-trade-history-api-openapi.yml
   format: yaml
   label: Caplight Trade History API
   slug: caplight-trade-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caplight/refs/heads/main/openapi/caplight-trade-history-api-openapi.yml
+  url: https://artifacts.apis.io/caplight/openapi/caplight-trade-history-api-openapi.yml
 - filename: caplight-market-price-api-openapi.yml
   format: yaml
   label: Caplight Market Price API
   slug: caplight-market-price-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caplight/refs/heads/main/openapi/caplight-market-price-api-openapi.yml
+  url: https://artifacts.apis.io/caplight/openapi/caplight-market-price-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -162,7 +162,7 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: openapi/capligh
   \  x-evidence:\n    fetched: '2026-08-09'\n    url: https://us-central1-caplight-prod.cloudfunctions.net/api/public/v1/companies?domain=stripe.com\n    http_status: 401\n    body: '{\"message\":\"Invalid/missing API key. Please set request header api_key with your provided API key\"}'\n- name: mcp_oauth\n  type: oauth2\n  surface: Caplight MCP Server\n  description: >-\n    OAuth 2.1 authorization-code flow protecting https://platform.caplight.com/mcp. Advertised through\n    RFC 8414 authorization-server metadata and RFC 9728 protected-resource metadata. Bearer token in the\n    Authorization header. No scopes are advertised in the metadata document.\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://platform.caplight.com/mcp/authorize\n    tokenUrl: https://platform.caplight.com/mcp/token\n    registrationUrl: https://platform.caplight.com/mcp/register\n    grant_types:\n    - authorization_code\n    - refresh_token\n    code_challenge_methods:\n    - S256\n    scopes:\
   \ []\n  bearer_methods_supported:\n  - header\n  sources:\n  - well-known/caplight-oauth-authorization-server.json\n  - well-known/caplight-oauth-protected-resource.json\n  x-evidence:\n    fetched: '2026-08-09'\n    url: https://platform.caplight.com/mcp\n    http_status: 401\n    body: '{\"error\":\"Unauthorized\",\"message\":\"Valid authentication required. Use the OAuth flow to obtain an access token.\"}'\nauthorization:\n  model: per-account entitlements\n  description: >-\n    Beyond authentication, v2 company-scoped endpoints enforce per-account access control documented in\n    the OpenAPI description: an optional whitelist of permitted companies, an optional annual cap on\n    distinct companies accessed (repeat access to the same company counts once), and field-level\n    restrictions. When a field is restricted it is omitted from the response and named in the\n    restricted.fields array on the funding round object. Restricted fields may include amounts,\n    valuation, pps,\
   \ participants and citations.\n  error_codes:\n  - status: 401\n    meaning: Missing or invalid API key\n  - status: 403\n    meaning: >-\n      Account does not have Companies V2 API access, or the company is outside the whitelist / over the\n      annual cap\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/caplight/refs/heads/main/authentication/caplight-authentication.yml
+source_yaml_url: https://artifacts.apis.io/caplight/authentication/caplight-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Private Markets

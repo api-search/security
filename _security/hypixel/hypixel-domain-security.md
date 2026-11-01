@@ -5,31 +5,31 @@ api_specs:
   label: Hypixel Housing API
   slug: hypixel-housing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypixel/refs/heads/main/openapi/hypixel-housing-api-openapi.yml
+  url: https://artifacts.apis.io/hypixel/openapi/hypixel-housing-api-openapi.yml
 - filename: hypixel-other-api-openapi.yml
   format: yaml
   label: Hypixel Other API
   slug: hypixel-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypixel/refs/heads/main/openapi/hypixel-other-api-openapi.yml
+  url: https://artifacts.apis.io/hypixel/openapi/hypixel-other-api-openapi.yml
 - filename: hypixel-player-data-api-openapi.yml
   format: yaml
   label: Hypixel Player Data API
   slug: hypixel-player-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypixel/refs/heads/main/openapi/hypixel-player-data-api-openapi.yml
+  url: https://artifacts.apis.io/hypixel/openapi/hypixel-player-data-api-openapi.yml
 - filename: hypixel-resources-api-openapi.yml
   format: yaml
   label: Hypixel Resources API
   slug: hypixel-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypixel/refs/heads/main/openapi/hypixel-resources-api-openapi.yml
+  url: https://artifacts.apis.io/hypixel/openapi/hypixel-resources-api-openapi.yml
 - filename: hypixel-skyblock-api-openapi.yml
   format: yaml
   label: Hypixel SkyBlock API
   slug: hypixel-skyblock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypixel/refs/heads/main/openapi/hypixel-skyblock-api-openapi.yml
+  url: https://artifacts.apis.io/hypixel/openapi/hypixel-skyblock-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: hypixel-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: hypixel.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 19:07:04 2026 GMT\n  hsts: null\n- host: api.hypixel.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 19:07:04 2026 GMT\n  hsts: false\ndomains:\n- domain: hypixel.net\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hypixel/refs/heads/main/security/hypixel-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hypixel/security/hypixel-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Gaming

@@ -11,19 +11,19 @@ api_specs:
   label: HiveMQ Data Hub API
   slug: hivemq-data-hub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hivemq/refs/heads/main/openapi/hivemq-data-hub-api-openapi.yml
+  url: https://artifacts.apis.io/hivemq/openapi/hivemq-data-hub-api-openapi.yml
 - filename: hivemq-management-api-openapi.yml
   format: yaml
   label: HiveMQ Management API
   slug: hivemq-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hivemq/refs/heads/main/openapi/hivemq-management-api-openapi.yml
+  url: https://artifacts.apis.io/hivemq/openapi/hivemq-management-api-openapi.yml
 - filename: hivemq-mqtt-api-openapi.yml
   format: yaml
   label: HiveMQ Mqtt API
   slug: hivemq-mqtt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hivemq/refs/heads/main/openapi/hivemq-mqtt-api-openapi.yml
+  url: https://artifacts.apis.io/hivemq/openapi/hivemq-mqtt-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -61,7 +61,7 @@ source_filename: hivemq-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hivemq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 00:53:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.hivemq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 00:13:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: 127.0.0.1\n  https: false\ndomains:\n- domain: hivemq.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hivemq/refs/heads/main/security/hivemq-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hivemq/security/hivemq-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - MQTT

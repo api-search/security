@@ -5,31 +5,31 @@ api_specs:
   label: Credorax Charges API
   slug: credorax-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credorax/refs/heads/main/openapi/credorax-charges-api-openapi.yml
+  url: https://artifacts.apis.io/credorax/openapi/credorax-charges-api-openapi.yml
 - filename: credorax-customers-api-openapi.yml
   format: yaml
   label: Credorax Customers API
   slug: credorax-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credorax/refs/heads/main/openapi/credorax-customers-api-openapi.yml
+  url: https://artifacts.apis.io/credorax/openapi/credorax-customers-api-openapi.yml
 - filename: credorax-events-api-openapi.yml
   format: yaml
   label: Credorax Events API
   slug: credorax-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credorax/refs/heads/main/openapi/credorax-events-api-openapi.yml
+  url: https://artifacts.apis.io/credorax/openapi/credorax-events-api-openapi.yml
 - filename: credorax-plans-api-openapi.yml
   format: yaml
   label: Credorax Plans API
   slug: credorax-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credorax/refs/heads/main/openapi/credorax-plans-api-openapi.yml
+  url: https://artifacts.apis.io/credorax/openapi/credorax-plans-api-openapi.yml
 - filename: credorax-tokens-api-openapi.yml
   format: yaml
   label: Credorax Tokens API
   slug: credorax-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credorax/refs/heads/main/openapi/credorax-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/credorax/openapi/credorax-tokens-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: credorax-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.shift4.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 20:04:53 2026 GMT\n  hsts: null\ndomains:\n- domain: shift4.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/credorax/refs/heads/main/security/credorax-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/credorax/security/credorax-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

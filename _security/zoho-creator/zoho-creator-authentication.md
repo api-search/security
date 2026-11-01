@@ -7,37 +7,37 @@ api_specs:
   label: Zoho Creator Bulk Insert APIs API
   slug: zoho-creator-bulk-insert-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-creator/refs/heads/main/openapi/zoho-creator-bulk-insert-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-creator/openapi/zoho-creator-bulk-insert-apis-api-openapi.yml
 - filename: zoho-creator-bulk-read-apis-api-openapi.yml
   format: yaml
   label: Zoho Creator Bulk Read APIs API
   slug: zoho-creator-bulk-read-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-creator/refs/heads/main/openapi/zoho-creator-bulk-read-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-creator/openapi/zoho-creator-bulk-read-apis-api-openapi.yml
 - filename: zoho-creator-data-apis-api-openapi.yml
   format: yaml
   label: Zoho Creator Data APIs API
   slug: zoho-creator-data-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-creator/refs/heads/main/openapi/zoho-creator-data-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-creator/openapi/zoho-creator-data-apis-api-openapi.yml
 - filename: zoho-creator-file-apis-api-openapi.yml
   format: yaml
   label: Zoho Creator File APIs API
   slug: zoho-creator-file-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-creator/refs/heads/main/openapi/zoho-creator-file-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-creator/openapi/zoho-creator-file-apis-api-openapi.yml
 - filename: zoho-creator-meta-apis-api-openapi.yml
   format: yaml
   label: Zoho Creator Meta APIs API
   slug: zoho-creator-meta-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-creator/refs/heads/main/openapi/zoho-creator-meta-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-creator/openapi/zoho-creator-meta-apis-api-openapi.yml
 - filename: zoho-creator-publish-apis-api-openapi.yml
   format: yaml
   label: Zoho Creator Publish APIs API
   slug: zoho-creator-publish-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-creator/refs/heads/main/openapi/zoho-creator-publish-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-creator/openapi/zoho-creator-publish-apis-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -68,7 +68,7 @@ source_filename: zoho-creator-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.json\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.zoho.com/oauth/v2/auth?access_type=offline\n    tokenUrl: https://accounts.zoho.com/oauth/v2/token\n    scopes: 10\n  sources:\n  - openapi/openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-creator/refs/heads/main/authentication/zoho-creator-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zoho-creator/authentication/zoho-creator-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Low-Code

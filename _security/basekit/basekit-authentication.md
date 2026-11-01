@@ -33,7 +33,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://apidocs.basekit.com/api/overview/\ndocs: https://apidocs.basekit.com/api/overview/\nsummary:\n  types:\n  - http\n  - oauth1\n  api_key_in: []\n  oauth2_flows: []\n  notes: >-\n    The BaseKit REST API recommends HTTP Basic authentication (username/password) for its\n    relative simplicity, and also supports OAuth 1.0. Requests must send a valid User-Agent\n    header; POST/PUT bodies are JSON (Content-Type application/json).\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  recommended: true\n  description: HTTP Basic Auth with username and password credentials scoped to a brand.\n  source: https://apidocs.basekit.com/api/overview/\n- name: oauth1\n  type: oauth1\n  description: OAuth 1.0 is supported as an alternative to Basic Auth.\n  source: https://apidocs.basekit.com/api/overview/\nwebhook_auth:\n  scheme: hmac-sha256\n  header: X-Delivery-Hmac-SHA256\n  description: >-\n    Outgoing webhooks carry\
   \ an HMAC-SHA256 signature in the X-Delivery-Hmac-SHA256 header,\n    computed with a per-consumer HMAC secret, which the consumer can optionally validate.\n  source: https://apidocs.basekit.com/webhooks/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/basekit/refs/heads/main/authentication/basekit-authentication.yml
+source_yaml_url: https://artifacts.apis.io/basekit/authentication/basekit-authentication.yml
 summary_line: http/oauth1 · 2 schemes
 tags:
 - Company

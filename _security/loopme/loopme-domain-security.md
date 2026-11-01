@@ -5,19 +5,19 @@ api_specs:
   label: LoopMe S2S Ad Serving API
   slug: loopme-ad-serving-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/openapi/loopme-ad-serving-api-openapi.yml
+  url: https://artifacts.apis.io/loopme/openapi/loopme-ad-serving-api-openapi.yml
 - filename: loopme-advertiser-reporting-api-openapi.yml
   format: yaml
   label: LoopMe Advertiser Reporting API
   slug: loopme-advertiser-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/openapi/loopme-advertiser-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/loopme/openapi/loopme-advertiser-reporting-api-openapi.yml
 - filename: loopme-publisher-reporting-api-openapi.yml
   format: yaml
   label: LoopMe Publisher Reporting API
   slug: loopme-publisher-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/openapi/loopme-publisher-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/loopme/openapi/loopme-publisher-reporting-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -66,7 +66,7 @@ source_filename: loopme-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: reports.loopme.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 09:22:00 2026 GMT\n  hsts: null\n- host: loopme.me\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 09:22:00 2026 GMT\n  hsts: false\ndomains:\n- domain: loopme.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"digicert.com\"\n  - 0 iodef \"mailto:devops@loopme.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: loopme.me\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"digicert.com\"\n  - 0 iodef \"mailto:devops@loopme.com\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/security/loopme-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/loopme/security/loopme-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

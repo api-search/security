@@ -5,31 +5,31 @@ api_specs:
   label: Smartsheet Columns API
   slug: smartsheet-columns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-columns-api-openapi.yml
+  url: https://artifacts.apis.io/smartsheet/openapi/smartsheet-columns-api-openapi.yml
 - filename: smartsheet-reports-api-openapi.yml
   format: yaml
   label: Smartsheet Reports API
   slug: smartsheet-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-reports-api-openapi.yml
+  url: https://artifacts.apis.io/smartsheet/openapi/smartsheet-reports-api-openapi.yml
 - filename: smartsheet-rows-api-openapi.yml
   format: yaml
   label: Smartsheet Rows API
   slug: smartsheet-rows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-rows-api-openapi.yml
+  url: https://artifacts.apis.io/smartsheet/openapi/smartsheet-rows-api-openapi.yml
 - filename: smartsheet-sheets-api-openapi.yml
   format: yaml
   label: Smartsheet Sheets API
   slug: smartsheet-sheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-sheets-api-openapi.yml
+  url: https://artifacts.apis.io/smartsheet/openapi/smartsheet-sheets-api-openapi.yml
 - filename: smartsheet-webhooks-api-openapi.yml
   format: yaml
   label: Smartsheet Webhooks API
   slug: smartsheet-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/smartsheet/openapi/smartsheet-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -73,7 +73,7 @@ source_filename: smartsheet-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.smartsheet.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 18:50:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: developers.smartsheet.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 11 11:15:38 2026 GMT\n  hsts: false\n- host: api.smartsheet.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: smartsheet.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 iodef \"mailto:security@smartsheet.com\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/security/smartsheet-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/smartsheet/security/smartsheet-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Work Management

@@ -5,61 +5,61 @@ api_specs:
   label: Duffel Ancillaries API
   slug: duffel-ancillaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-ancillaries-api-openapi.yml
+  url: https://artifacts.apis.io/duffel/openapi/duffel-ancillaries-api-openapi.yml
 - filename: duffel-offer-requests-api-openapi.yml
   format: yaml
   label: Duffel Offer Requests API
   slug: duffel-offer-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-offer-requests-api-openapi.yml
+  url: https://artifacts.apis.io/duffel/openapi/duffel-offer-requests-api-openapi.yml
 - filename: duffel-offers-api-openapi.yml
   format: yaml
   label: Duffel Offers API
   slug: duffel-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-offers-api-openapi.yml
+  url: https://artifacts.apis.io/duffel/openapi/duffel-offers-api-openapi.yml
 - filename: duffel-order-cancellations-api-openapi.yml
   format: yaml
   label: Duffel Order Cancellations API
   slug: duffel-order-cancellations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-order-cancellations-api-openapi.yml
+  url: https://artifacts.apis.io/duffel/openapi/duffel-order-cancellations-api-openapi.yml
 - filename: duffel-order-changes-api-openapi.yml
   format: yaml
   label: Duffel Order Changes API
   slug: duffel-order-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-order-changes-api-openapi.yml
+  url: https://artifacts.apis.io/duffel/openapi/duffel-order-changes-api-openapi.yml
 - filename: duffel-orders-api-openapi.yml
   format: yaml
   label: Duffel Orders API
   slug: duffel-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-orders-api-openapi.yml
+  url: https://artifacts.apis.io/duffel/openapi/duffel-orders-api-openapi.yml
 - filename: duffel-payments-api-openapi.yml
   format: yaml
   label: Duffel Payments API
   slug: duffel-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-payments-api-openapi.yml
+  url: https://artifacts.apis.io/duffel/openapi/duffel-payments-api-openapi.yml
 - filename: duffel-seat-maps-api-openapi.yml
   format: yaml
   label: Duffel Seat Maps API
   slug: duffel-seat-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-seat-maps-api-openapi.yml
+  url: https://artifacts.apis.io/duffel/openapi/duffel-seat-maps-api-openapi.yml
 - filename: duffel-stays-api-openapi.yml
   format: yaml
   label: Duffel Stays API
   slug: duffel-stays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-stays-api-openapi.yml
+  url: https://artifacts.apis.io/duffel/openapi/duffel-stays-api-openapi.yml
 - filename: duffel-webhooks-api-openapi.yml
   format: yaml
   label: Duffel Webhooks API
   slug: duffel-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/duffel/openapi/duffel-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -101,7 +101,7 @@ source_filename: duffel-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: duffel.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 11:00:00 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.duffel.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 13:32:30 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: duffel.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issuewild \"ssl.com\"\n  - 0 iodef \"mailto:security@duffel.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/security/duffel-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/duffel/security/duffel-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Travel

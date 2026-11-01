@@ -5,31 +5,31 @@ api_specs:
   label: Internet Engineering Task Force Documents API
   slug: internet-engineering-task-force-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/internet-engineering-task-force/refs/heads/main/openapi/internet-engineering-task-force-documents-api-openapi.yml
+  url: https://artifacts.apis.io/internet-engineering-task-force/openapi/internet-engineering-task-force-documents-api-openapi.yml
 - filename: internet-engineering-task-force-framework-api-api-openapi.yml
   format: yaml
   label: Internet Engineering Task Force Framework API
   slug: internet-engineering-task-force-framework-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/internet-engineering-task-force/refs/heads/main/openapi/internet-engineering-task-force-framework-api-api-openapi.yml
+  url: https://artifacts.apis.io/internet-engineering-task-force/openapi/internet-engineering-task-force-framework-api-api-openapi.yml
 - filename: internet-engineering-task-force-identity-api-openapi.yml
   format: yaml
   label: Internet Engineering Task Force Identity API
   slug: internet-engineering-task-force-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/internet-engineering-task-force/refs/heads/main/openapi/internet-engineering-task-force-identity-api-openapi.yml
+  url: https://artifacts.apis.io/internet-engineering-task-force/openapi/internet-engineering-task-force-identity-api-openapi.yml
 - filename: internet-engineering-task-force-iesg-api-openapi.yml
   format: yaml
   label: Internet Engineering Task Force IESG API
   slug: internet-engineering-task-force-iesg-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/internet-engineering-task-force/refs/heads/main/openapi/internet-engineering-task-force-iesg-api-openapi.yml
+  url: https://artifacts.apis.io/internet-engineering-task-force/openapi/internet-engineering-task-force-iesg-api-openapi.yml
 - filename: internet-engineering-task-force-meetings-api-openapi.yml
   format: yaml
   label: Internet Engineering Task Force Meetings API
   slug: internet-engineering-task-force-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/internet-engineering-task-force/refs/heads/main/openapi/internet-engineering-task-force-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/internet-engineering-task-force/openapi/internet-engineering-task-force-meetings-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -74,7 +74,7 @@ source_filename: internet-engineering-task-force-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ietf.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 20:01:07 2026 GMT\n  hsts: false\n- host: datatracker.ietf.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 20:01:07 2026 GMT\n  hsts: true\n  hsts_max_age: 3600\n- host: www.rfc-editor.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 05:02:36 2026 GMT\n  hsts: false\ndomains:\n- domain: ietf.org\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: rfc-editor.org\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/internet-engineering-task-force/refs/heads/main/security/internet-engineering-task-force-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/internet-engineering-task-force/security/internet-engineering-task-force-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Internet

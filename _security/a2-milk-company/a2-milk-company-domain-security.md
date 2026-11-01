@@ -5,43 +5,43 @@ api_specs:
   label: The a2 Milk Company Article Listing API
   slug: a2-milk-company-article-listing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2-milk-company/refs/heads/main/openapi/a2-milk-company-article-listing-api-openapi.yml
+  url: https://artifacts.apis.io/a2-milk-company/openapi/a2-milk-company-article-listing-api-openapi.yml
 - filename: a2-milk-company-health-api-openapi.yml
   format: yaml
   label: The a2 Milk Company Health API
   slug: a2-milk-company-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2-milk-company/refs/heads/main/openapi/a2-milk-company-health-api-openapi.yml
+  url: https://artifacts.apis.io/a2-milk-company/openapi/a2-milk-company-health-api-openapi.yml
 - filename: a2-milk-company-llms-full-txt-api-openapi.yml
   format: yaml
   label: The a2 Milk Company Llms Full.txt API
   slug: a2-milk-company-llms-full-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2-milk-company/refs/heads/main/openapi/a2-milk-company-llms-full-txt-api-openapi.yml
+  url: https://artifacts.apis.io/a2-milk-company/openapi/a2-milk-company-llms-full-txt-api-openapi.yml
 - filename: a2-milk-company-llms-txt-api-openapi.yml
   format: yaml
   label: The a2 Milk Company Llms.txt API
   slug: a2-milk-company-llms-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2-milk-company/refs/heads/main/openapi/a2-milk-company-llms-txt-api-openapi.yml
+  url: https://artifacts.apis.io/a2-milk-company/openapi/a2-milk-company-llms-txt-api-openapi.yml
 - filename: a2-milk-company-recipe-listing-api-openapi.yml
   format: yaml
   label: The a2 Milk Company Recipe Listing API
   slug: a2-milk-company-recipe-listing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2-milk-company/refs/heads/main/openapi/a2-milk-company-recipe-listing-api-openapi.yml
+  url: https://artifacts.apis.io/a2-milk-company/openapi/a2-milk-company-recipe-listing-api-openapi.yml
 - filename: a2-milk-company-search-api-openapi.yml
   format: yaml
   label: The a2 Milk Company Search API
   slug: a2-milk-company-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2-milk-company/refs/heads/main/openapi/a2-milk-company-search-api-openapi.yml
+  url: https://artifacts.apis.io/a2-milk-company/openapi/a2-milk-company-search-api-openapi.yml
 - filename: a2-milk-company-sitemap-xml-api-openapi.yml
   format: yaml
   label: The a2 Milk Company Sitemap.xml API
   slug: a2-milk-company-sitemap-xml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2-milk-company/refs/heads/main/openapi/a2-milk-company-sitemap-xml-api-openapi.yml
+  url: https://artifacts.apis.io/a2-milk-company/openapi/a2-milk-company-sitemap-xml-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +71,7 @@ source_filename: a2-milk-company-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: thea2milkcompany.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 22 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: thea2milkcompany.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/a2-milk-company/refs/heads/main/security/a2-milk-company-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/a2-milk-company/security/a2-milk-company-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

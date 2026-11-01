@@ -26,7 +26,7 @@ source_filename: opentofu-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: opentofu.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 11:40:12 2026 GMT\n  hsts: false\ndomains:\n- domain: opentofu.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opentofu/refs/heads/main/security/opentofu-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/opentofu/security/opentofu-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Cloud

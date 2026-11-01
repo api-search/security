@@ -26,7 +26,7 @@ source_filename: autonomousa2z-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.autoa2z.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 31 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: autoa2z.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autonomousa2z/refs/heads/main/security/autonomousa2z-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/autonomousa2z/security/autonomousa2z-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

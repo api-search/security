@@ -5,73 +5,73 @@ api_specs:
   label: Keygen Artifacts API
   slug: keygen-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keygen/refs/heads/main/openapi/keygen-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/keygen/openapi/keygen-artifacts-api-openapi.yml
 - filename: keygen-components-api-openapi.yml
   format: yaml
   label: Keygen Components API
   slug: keygen-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keygen/refs/heads/main/openapi/keygen-components-api-openapi.yml
+  url: https://artifacts.apis.io/keygen/openapi/keygen-components-api-openapi.yml
 - filename: keygen-entitlements-api-openapi.yml
   format: yaml
   label: Keygen Entitlements API
   slug: keygen-entitlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keygen/refs/heads/main/openapi/keygen-entitlements-api-openapi.yml
+  url: https://artifacts.apis.io/keygen/openapi/keygen-entitlements-api-openapi.yml
 - filename: keygen-licenses-api-openapi.yml
   format: yaml
   label: Keygen Licenses API
   slug: keygen-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keygen/refs/heads/main/openapi/keygen-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/keygen/openapi/keygen-licenses-api-openapi.yml
 - filename: keygen-machines-api-openapi.yml
   format: yaml
   label: Keygen Machines API
   slug: keygen-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keygen/refs/heads/main/openapi/keygen-machines-api-openapi.yml
+  url: https://artifacts.apis.io/keygen/openapi/keygen-machines-api-openapi.yml
 - filename: keygen-policies-api-openapi.yml
   format: yaml
   label: Keygen Policies API
   slug: keygen-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keygen/refs/heads/main/openapi/keygen-policies-api-openapi.yml
+  url: https://artifacts.apis.io/keygen/openapi/keygen-policies-api-openapi.yml
 - filename: keygen-processes-api-openapi.yml
   format: yaml
   label: Keygen Processes API
   slug: keygen-processes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keygen/refs/heads/main/openapi/keygen-processes-api-openapi.yml
+  url: https://artifacts.apis.io/keygen/openapi/keygen-processes-api-openapi.yml
 - filename: keygen-products-api-openapi.yml
   format: yaml
   label: Keygen Products API
   slug: keygen-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keygen/refs/heads/main/openapi/keygen-products-api-openapi.yml
+  url: https://artifacts.apis.io/keygen/openapi/keygen-products-api-openapi.yml
 - filename: keygen-releases-api-openapi.yml
   format: yaml
   label: Keygen Releases API
   slug: keygen-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keygen/refs/heads/main/openapi/keygen-releases-api-openapi.yml
+  url: https://artifacts.apis.io/keygen/openapi/keygen-releases-api-openapi.yml
 - filename: keygen-tokens-api-openapi.yml
   format: yaml
   label: Keygen Tokens API
   slug: keygen-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keygen/refs/heads/main/openapi/keygen-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/keygen/openapi/keygen-tokens-api-openapi.yml
 - filename: keygen-users-api-openapi.yml
   format: yaml
   label: Keygen Users API
   slug: keygen-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keygen/refs/heads/main/openapi/keygen-users-api-openapi.yml
+  url: https://artifacts.apis.io/keygen/openapi/keygen-users-api-openapi.yml
 - filename: keygen-webhooks-api-openapi.yml
   format: yaml
   label: Keygen Webhooks API
   slug: keygen-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keygen/refs/heads/main/openapi/keygen-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/keygen/openapi/keygen-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -101,7 +101,7 @@ source_filename: keygen-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: keygen.sh\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 12:29:17 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: keygen.sh\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keygen/refs/heads/main/security/keygen-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/keygen/security/keygen-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Software Licensing

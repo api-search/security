@@ -7,115 +7,115 @@ api_specs:
   label: AgentCheck A2a API
   slug: agentcheck-care-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/agentcheck-care/openapi/agentcheck-care-a2a-api-openapi.yml
 - filename: agentcheck-care-agentcheckup-api-openapi.yml
   format: yaml
   label: AgentCheck Agent Checkup API
   slug: agentcheck-care-agentcheckup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-agentcheckup-api-openapi.yml
+  url: https://artifacts.apis.io/agentcheck-care/openapi/agentcheck-care-agentcheckup-api-openapi.yml
 - filename: agentcheck-care-checkout-api-openapi.yml
   format: yaml
   label: AgentCheck Checkout API
   slug: agentcheck-care-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/agentcheck-care/openapi/agentcheck-care-checkout-api-openapi.yml
 - filename: agentcheck-care-checkup-api-openapi.yml
   format: yaml
   label: AgentCheck Checkup API
   slug: agentcheck-care-checkup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-checkup-api-openapi.yml
+  url: https://artifacts.apis.io/agentcheck-care/openapi/agentcheck-care-checkup-api-openapi.yml
 - filename: agentcheck-care-credits-api-openapi.yml
   format: yaml
   label: AgentCheck Credits API
   slug: agentcheck-care-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-credits-api-openapi.yml
+  url: https://artifacts.apis.io/agentcheck-care/openapi/agentcheck-care-credits-api-openapi.yml
 - filename: agentcheck-care-exam-api-openapi.yml
   format: yaml
   label: AgentCheck Exam API
   slug: agentcheck-care-exam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-exam-api-openapi.yml
+  url: https://artifacts.apis.io/agentcheck-care/openapi/agentcheck-care-exam-api-openapi.yml
 - filename: agentcheck-care-free-scan-status-api-openapi.yml
   format: yaml
   label: AgentCheck Free Scan Status API
   slug: agentcheck-care-free-scan-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-free-scan-status-api-openapi.yml
+  url: https://artifacts.apis.io/agentcheck-care/openapi/agentcheck-care-free-scan-status-api-openapi.yml
 - filename: agentcheck-care-free-scans-api-openapi.yml
   format: yaml
   label: AgentCheck Free Scans API
   slug: agentcheck-care-free-scans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-free-scans-api-openapi.yml
+  url: https://artifacts.apis.io/agentcheck-care/openapi/agentcheck-care-free-scans-api-openapi.yml
 - filename: agentcheck-care-health-api-openapi.yml
   format: yaml
   label: AgentCheck Health API
   slug: agentcheck-care-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-health-api-openapi.yml
+  url: https://artifacts.apis.io/agentcheck-care/openapi/agentcheck-care-health-api-openapi.yml
 - filename: agentcheck-care-privacy-api-openapi.yml
   format: yaml
   label: AgentCheck Privacy API
   slug: agentcheck-care-privacy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-privacy-api-openapi.yml
+  url: https://artifacts.apis.io/agentcheck-care/openapi/agentcheck-care-privacy-api-openapi.yml
 - filename: agentcheck-care-report-api-openapi.yml
   format: yaml
   label: AgentCheck Report API
   slug: agentcheck-care-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-report-api-openapi.yml
+  url: https://artifacts.apis.io/agentcheck-care/openapi/agentcheck-care-report-api-openapi.yml
 - filename: agentcheck-care-robots-txt-api-openapi.yml
   format: yaml
   label: AgentCheck Robots.txt API
   slug: agentcheck-care-robots-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-robots-txt-api-openapi.yml
+  url: https://artifacts.apis.io/agentcheck-care/openapi/agentcheck-care-robots-txt-api-openapi.yml
 - filename: agentcheck-care-sitemap-xml-api-openapi.yml
   format: yaml
   label: AgentCheck Sitemap.xml API
   slug: agentcheck-care-sitemap-xml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-sitemap-xml-api-openapi.yml
+  url: https://artifacts.apis.io/agentcheck-care/openapi/agentcheck-care-sitemap-xml-api-openapi.yml
 - filename: agentcheck-care-stats-api-openapi.yml
   format: yaml
   label: AgentCheck Stats API
   slug: agentcheck-care-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-stats-api-openapi.yml
+  url: https://artifacts.apis.io/agentcheck-care/openapi/agentcheck-care-stats-api-openapi.yml
 - filename: agentcheck-care-stripe-webhook-api-openapi.yml
   format: yaml
   label: AgentCheck Stripe Webhook API
   slug: agentcheck-care-stripe-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-stripe-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/agentcheck-care/openapi/agentcheck-care-stripe-webhook-api-openapi.yml
 - filename: agentcheck-care-terms-api-openapi.yml
   format: yaml
   label: AgentCheck Terms API
   slug: agentcheck-care-terms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-terms-api-openapi.yml
+  url: https://artifacts.apis.io/agentcheck-care/openapi/agentcheck-care-terms-api-openapi.yml
 - filename: agentcheck-care-tiers-api-openapi.yml
   format: yaml
   label: AgentCheck Tiers API
   slug: agentcheck-care-tiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-tiers-api-openapi.yml
+  url: https://artifacts.apis.io/agentcheck-care/openapi/agentcheck-care-tiers-api-openapi.yml
 - filename: agentcheck-care-validate-bot-api-openapi.yml
   format: yaml
   label: AgentCheck Validate Bot API
   slug: agentcheck-care-validate-bot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-validate-bot-api-openapi.yml
+  url: https://artifacts.apis.io/agentcheck-care/openapi/agentcheck-care-validate-bot-api-openapi.yml
 - filename: agentcheck-care-well-known-api-openapi.yml
   format: yaml
   label: AgentCheck .well Known API
   slug: agentcheck-care-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/agentcheck-care/openapi/agentcheck-care-well-known-api-openapi.yml
 auth_types:
 - apiKey
 - token-in-path
@@ -190,7 +190,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live anonymous pr
   \  type: token-in-path\n  in: path\n  parameter: token\n  applies_to:\n  - GET /exam/{token}\n  - GET /exam/{token}/status\n  - POST /exam/{token}/relaunch\n  - POST /exam/{token}/v1/chat/completions\n  evidence: >-\n    The \"exam\" mode generates a per-checkup secure URL that the customer pastes into their bot as an\n    OpenAI-compatible endpoint (home page step 1; the chat_completions operation description). The\n    token in the path IS the credential. Anonymous GET /exam/nonexistent/status returned 404\n    {\"detail\":\"Exam session not found\"}.\n  sources:\n  - https://agentcheck.care/\n  - openapi/_original/agentcheck-care-openapi.json\n- name: report-magic-link\n  type: token-in-query\n  in: query\n  parameters:\n  - token\n  - code\n  applies_to:\n  - GET /report/{checkup_id} (magic_link_report_report__checkup_id__get)\n  evidence: >-\n    \"Serve a persisted report via magic link token + optional access code.\" The privacy policy (3.1)\n    says reports are reachable only\
   \ via a unique magic link carrying a cryptographic token and tells\n    users to treat the link like a password. Anonymous GET /report/nonexistent returned 404\n    {\"detail\":\"Report not found\"}.\n  sources:\n  - https://agentcheck.care/privacy\n  - openapi/_original/agentcheck-care-openapi.json\n- name: stripe-webhook\n  type: inbound-webhook\n  applies_to:\n  - POST /api/stripe-webhook (stripe_webhook_api_stripe_webhook_post)\n  note: >-\n    Receiver for Stripe payment events. Signature verification is not described anywhere public and is\n    not asserted here; the endpoint is Stripe-facing, not developer-facing.\nanonymous_surface:\n  operations:\n  - get_tiers_api_tiers_get\n  - free_scans_endpoint_api_free_scans_get\n  - free_scan_status_api_free_scan_status_get\n  - get_public_stats_api_stats_public_get\n  - health_api_health_get\n  - validate_bot_api_validate_bot_post\n  - start_checkup_api_checkup_post\n  - create_checkout_api_checkout_post\n  - upgrade_checkout_api_checkout_get\n\
   \  - a2a_endpoint_a2a_post\n  - agent_card__well_known_agent_card_json_get\n  note: Every one of these answered an anonymous request without a challenge (200, 302 or a 404 on an unknown id). The A2A card declares no securitySchemes, consistent with the open endpoint.\ncustomer_credentials_in_requests:\n  note: >-\n    CheckupRequest and CheckoutRequest carry an optional `api_key` field — the CUSTOMER's key for their\n    own bot's chat API, which AgentCheck uses to call the bot under test. The privacy policy (1.3) states\n    it is held in memory for the session only and never written to disk. This is a credential the caller\n    sends, not one AgentCheck issues.\ngaps:\n- No securitySchemes in the OpenAPI; a generated client will treat /api/credits/balance as anonymous and get a 401.\n- No developer page documents the X-API-Key credential or how to obtain one.\n- No OAuth, no OIDC, no RFC 9728 protected-resource metadata (all /.well-known OAuth paths 404).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/authentication/agentcheck-care-authentication.yml
+source_yaml_url: https://artifacts.apis.io/agentcheck-care/authentication/agentcheck-care-authentication.yml
 summary_line: apiKey/token-in-path/token-in-query · 5 schemes
 tags:
 - AI Agents

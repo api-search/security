@@ -5,43 +5,43 @@ api_specs:
   label: Aquabyte Behaviour API
   slug: aquabyte-behaviour-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/openapi/aquabyte-behaviour-api-openapi.yml
+  url: https://artifacts.apis.io/aquabyte/openapi/aquabyte-behaviour-api-openapi.yml
 - filename: aquabyte-biomass-api-openapi.yml
   format: yaml
   label: Aquabyte Biomass API
   slug: aquabyte-biomass-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/openapi/aquabyte-biomass-api-openapi.yml
+  url: https://artifacts.apis.io/aquabyte/openapi/aquabyte-biomass-api-openapi.yml
 - filename: aquabyte-environmental-api-openapi.yml
   format: yaml
   label: Aquabyte Environmental API
   slug: aquabyte-environmental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/openapi/aquabyte-environmental-api-openapi.yml
+  url: https://artifacts.apis.io/aquabyte/openapi/aquabyte-environmental-api-openapi.yml
 - filename: aquabyte-lice-api-openapi.yml
   format: yaml
   label: Aquabyte Lice API
   slug: aquabyte-lice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/openapi/aquabyte-lice-api-openapi.yml
+  url: https://artifacts.apis.io/aquabyte/openapi/aquabyte-lice-api-openapi.yml
 - filename: aquabyte-sites-api-openapi.yml
   format: yaml
   label: Aquabyte Sites API
   slug: aquabyte-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/openapi/aquabyte-sites-api-openapi.yml
+  url: https://artifacts.apis.io/aquabyte/openapi/aquabyte-sites-api-openapi.yml
 - filename: aquabyte-welfare-api-openapi.yml
   format: yaml
   label: Aquabyte Welfare API
   slug: aquabyte-welfare-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/openapi/aquabyte-welfare-api-openapi.yml
+  url: https://artifacts.apis.io/aquabyte/openapi/aquabyte-welfare-api-openapi.yml
 - filename: aquabyte-pens-api-openapi.yml
   format: yaml
   label: Aquabyte Pens API
   slug: aquabyte-pens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/openapi/aquabyte-pens-api-openapi.yml
+  url: https://artifacts.apis.io/aquabyte/openapi/aquabyte-pens-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: aquabyte-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.aquabyte.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 03:31:50 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.aquabyte.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 01:05:35 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: aquabyte.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/security/aquabyte-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aquabyte/security/aquabyte-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Aquaculture

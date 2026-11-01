@@ -8,31 +8,31 @@ api_specs:
   label: Gravity Forms Entries API
   slug: gravity-forms-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gravity-forms/refs/heads/main/openapi/gravity-forms-entries-api-openapi.yml
+  url: https://artifacts.apis.io/gravity-forms/openapi/gravity-forms-entries-api-openapi.yml
 - filename: gravity-forms-feeds-api-openapi.yml
   format: yaml
   label: Gravity Forms Feeds API
   slug: gravity-forms-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gravity-forms/refs/heads/main/openapi/gravity-forms-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/gravity-forms/openapi/gravity-forms-feeds-api-openapi.yml
 - filename: gravity-forms-forms-api-openapi.yml
   format: yaml
   label: Gravity Forms API
   slug: gravity-forms-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gravity-forms/refs/heads/main/openapi/gravity-forms-forms-api-openapi.yml
+  url: https://artifacts.apis.io/gravity-forms/openapi/gravity-forms-forms-api-openapi.yml
 - filename: gravity-forms-notifications-api-openapi.yml
   format: yaml
   label: Gravity Forms Notifications API
   slug: gravity-forms-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gravity-forms/refs/heads/main/openapi/gravity-forms-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/gravity-forms/openapi/gravity-forms-notifications-api-openapi.yml
 - filename: gravity-forms-results-api-openapi.yml
   format: yaml
   label: Gravity Forms Results API
   slug: gravity-forms-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gravity-forms/refs/heads/main/openapi/gravity-forms-results-api-openapi.yml
+  url: https://artifacts.apis.io/gravity-forms/openapi/gravity-forms-results-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -67,7 +67,7 @@ source_filename: gravity-forms-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/gravity-forms-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: Basic auth using a Gravity Forms REST API key/secret.\n  sources:\n  - openapi/gravity-forms-openapi.yml\n- name: oauth1\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: OAuth 1.0a signed requests using API key/secret.\n  sources:\n  - openapi/gravity-forms-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gravity-forms/refs/heads/main/authentication/gravity-forms-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gravity-forms/authentication/gravity-forms-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - WordPress

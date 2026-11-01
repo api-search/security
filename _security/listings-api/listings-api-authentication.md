@@ -8,43 +8,43 @@ api_specs:
   label: Listings API Analytics API
   slug: listings-api-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listings-api/refs/heads/main/openapi/listings-api-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/listings-api/openapi/listings-api-analytics-api-openapi.yml
 - filename: listings-api-connected-accounts-api-openapi.yml
   format: yaml
   label: Listings API Connected Accounts API
   slug: listings-api-connected-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listings-api/refs/heads/main/openapi/listings-api-connected-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/listings-api/openapi/listings-api-connected-accounts-api-openapi.yml
 - filename: listings-api-listings-api-openapi.yml
   format: yaml
   label: Listings API Listings API
   slug: listings-api-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listings-api/refs/heads/main/openapi/listings-api-listings-api-openapi.yml
+  url: https://artifacts.apis.io/listings-api/openapi/listings-api-listings-api-openapi.yml
 - filename: listings-api-locations-api-openapi.yml
   format: yaml
   label: Listings API Locations API
   slug: listings-api-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listings-api/refs/heads/main/openapi/listings-api-locations-api-openapi.yml
+  url: https://artifacts.apis.io/listings-api/openapi/listings-api-locations-api-openapi.yml
 - filename: listings-api-posts-api-openapi.yml
   format: yaml
   label: Listings API Posts API
   slug: listings-api-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listings-api/refs/heads/main/openapi/listings-api-posts-api-openapi.yml
+  url: https://artifacts.apis.io/listings-api/openapi/listings-api-posts-api-openapi.yml
 - filename: listings-api-reviews-api-openapi.yml
   format: yaml
   label: Listings API Reviews API
   slug: listings-api-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listings-api/refs/heads/main/openapi/listings-api-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/listings-api/openapi/listings-api-reviews-api-openapi.yml
 - filename: listings-api-supporting-apis-api-openapi.yml
   format: yaml
   label: Listings API Supporting APIs API
   slug: listings-api-supporting-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listings-api/refs/heads/main/openapi/listings-api-supporting-apis-api-openapi.yml
+  url: https://artifacts.apis.io/listings-api/openapi/listings-api-supporting-apis-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -91,7 +91,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-03'\nmethod: searched\nsource: openapi/listings-api-openapi.yaml, https://docs.listingsapi.com/docs/authentication, https://www.listingsapi.com/auth.md\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Authenticate with `Authorization: API <your-key>`.'\n  sources:\n  - openapi/listings-api-openapi.yaml\n  access_levels:\n  - Read\n  - Write\n  notes: Header value is the literal \"API \" prefix plus the key. Keys are created/rotated in the dashboard,\n    one per agent recommended so each can be revoked independently; revocation is immediate. Access level\n    (Read or Write) is chosen at creation. The agent-facing auth guide at https://www.listingsapi.com/auth.md\n    documents the discover-register-credential flow.\n- name: rapidApiKey\n  type: apiKey\n  in: header\n  parameter: X-RapidAPI-Key\n  description: RapidAPI marketplace key. Sent with\
   \ `X-RapidAPI-Host` when calling via the RapidAPI proxy.\n  sources:\n  - openapi/listings-api-openapi.yaml\n- name: rapidApiHost\n  type: apiKey\n  in: header\n  parameter: X-RapidAPI-Host\n  description: RapidAPI marketplace host header. Sent with `X-RapidAPI-Key` when calling via the RapidAPI\n    proxy.\n  sources:\n  - openapi/listings-api-openapi.yaml\ndocs: https://docs.listingsapi.com/docs/authentication\noauth_note: 'The hosted MCP server additionally accepts OAuth 2.0 Bearer tokens: RFC 8414 metadata at\n  https://listingsapi.com/.well-known/oauth-authorization-server (PKCE S256, dynamic client registration,\n  scopes read/write); consent creates an API key named after the client. See scopes/listings-api-scopes.yml.'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/listings-api/refs/heads/main/authentication/listings-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/listings-api/authentication/listings-api-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - Business Listings

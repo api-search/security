@@ -5,13 +5,13 @@ api_specs:
   label: Vistra Documents API
   slug: vistra-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vistra/refs/heads/main/openapi/vistra-documents-api-openapi.yml
+  url: https://artifacts.apis.io/vistra/openapi/vistra-documents-api-openapi.yml
 - filename: vistra-incorporations-api-openapi.yml
   format: yaml
   label: Vistra Incorporations API
   slug: vistra-incorporations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vistra/refs/heads/main/openapi/vistra-incorporations-api-openapi.yml
+  url: https://artifacts.apis.io/vistra/openapi/vistra-incorporations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -49,7 +49,7 @@ source_filename: vistra-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.vistra.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 05:46:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: help.vistra.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 08:20:16 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.vistra.com\n  https: false\ndomains:\n- domain: vistra.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vistra/refs/heads/main/security/vistra-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vistra/security/vistra-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Compliance

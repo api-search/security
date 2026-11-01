@@ -27,7 +27,7 @@ source_filename: caremerge-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.caremerge.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 11:28:47 2026 GMT\n  hsts: false\ndomains:\n- domain: caremerge.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/caremerge/refs/heads/main/security/caremerge-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/caremerge/security/caremerge-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

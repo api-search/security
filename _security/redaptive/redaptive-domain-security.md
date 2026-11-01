@@ -42,7 +42,7 @@ source_filename: redaptive-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: redaptive.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 22:26:52 2026 GMT\n  hsts: false\n- host: one.redaptive.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 25 23:59:59 2027 GMT\n  hsts: false\n- host: core.api.prod.redaptivegroup.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 11:14:44 2026 GMT\n  hsts: null\ndomains:\n- domain: redaptive.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: redaptivegroup.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/redaptive/refs/heads/main/security/redaptive-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/redaptive/security/redaptive-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

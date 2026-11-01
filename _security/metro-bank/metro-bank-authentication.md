@@ -7,37 +7,37 @@ api_specs:
   label: Metro Bank ATM API
   slug: metro-bank-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metro-bank/refs/heads/main/openapi/metro-bank-atm-api-openapi.yml
+  url: https://artifacts.apis.io/metro-bank/openapi/metro-bank-atm-api-openapi.yml
 - filename: metro-bank-bca-api-openapi.yml
   format: yaml
   label: Metro Bank BCA API
   slug: metro-bank-bca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metro-bank/refs/heads/main/openapi/metro-bank-bca-api-openapi.yml
+  url: https://artifacts.apis.io/metro-bank/openapi/metro-bank-bca-api-openapi.yml
 - filename: metro-bank-branch-api-openapi.yml
   format: yaml
   label: Metro Bank Branch API
   slug: metro-bank-branch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metro-bank/refs/heads/main/openapi/metro-bank-branch-api-openapi.yml
+  url: https://artifacts.apis.io/metro-bank/openapi/metro-bank-branch-api-openapi.yml
 - filename: metro-bank-ccc-api-openapi.yml
   format: yaml
   label: Metro Bank CCC API
   slug: metro-bank-ccc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metro-bank/refs/heads/main/openapi/metro-bank-ccc-api-openapi.yml
+  url: https://artifacts.apis.io/metro-bank/openapi/metro-bank-ccc-api-openapi.yml
 - filename: metro-bank-pca-api-openapi.yml
   format: yaml
   label: Metro Bank PCA API
   slug: metro-bank-pca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metro-bank/refs/heads/main/openapi/metro-bank-pca-api-openapi.yml
+  url: https://artifacts.apis.io/metro-bank/openapi/metro-bank-pca-api-openapi.yml
 - filename: metro-bank-sme-api-openapi.yml
   format: yaml
   label: Metro Bank SME API
   slug: metro-bank-sme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metro-bank/refs/heads/main/openapi/metro-bank-sme-api-openapi.yml
+  url: https://artifacts.apis.io/metro-bank/openapi/metro-bank-sme-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: >-\n  OBIE Read
   \ [openapi/obie-open-data-api-standard-v1.3-swagger.json]\n    note: >-\n      OBIE Open Data API standard defines no security scheme; access is public\n      and read-only over HTTPS.\n  - name: OBIE-FAPI-OAuth2\n    type: oauth2\n    applies_to:\n      - metro-bank:metro-bank-account-information-api\n      - metro-bank:metro-bank-payment-initiation-api\n      - metro-bank:metro-bank-confirmation-of-funds-api\n    flows:\n      - flow: authorizationCode\n        note: >-\n          Customer-present consent (PSD2 SCA) for AIS/PIS/CBPII resource access;\n          OIDC hybrid flow with a signed request object (JWS), FAPI-compliant.\n      - flow: clientCredentials\n        note: >-\n          Used to create the account-access / payment / funds-confirmation\n          consent resource before the customer authorisation redirect.\n    fapi: true\n    sca: PSD2 strong customer authentication\n    sources: [OBIE Read/Write API Security Profile]\n  - name: OpenIDConnect\n    type: openIdConnect\n\
   \    applies_to:\n      - metro-bank:metro-bank-account-information-api\n      - metro-bank:metro-bank-payment-initiation-api\n      - metro-bank:metro-bank-confirmation-of-funds-api\n    note: >-\n      OIDC provider issues id_token; discovery document is served from the\n      ASPSP well-known endpoint (mTLS/edge-gated - not anonymously retrievable).\n  - name: MutualTLS\n    type: mutualTLS\n    applies_to:\n      - metro-bank:metro-bank-account-information-api\n      - metro-bank:metro-bank-payment-initiation-api\n      - metro-bank:metro-bank-confirmation-of-funds-api\n    note: >-\n      Mandatory client-certificate transport security using eIDAS / OBIE\n      (OBWAC / OBSEAL) certificates; also used for tls_client_auth token\n      endpoint authentication. Confirmed live (HTTP 400 without a client cert).\nclient_registration:\n  method: dynamic\n  standard: OBIE Dynamic Client Registration (DCR) with eIDAS/OBIE certificates\n  onboarding: >-\n    TPPs must onboard via the developer\
   \ portal and present valid OB certificates;\n    unregistered/anonymous access is not possible.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metro-bank/refs/heads/main/authentication/metro-bank-authentication.yml
+source_yaml_url: https://artifacts.apis.io/metro-bank/authentication/metro-bank-authentication.yml
 summary_line: oauth2/openIdConnect/mutualTLS · 4 schemes
 tags:
 - Financial Services

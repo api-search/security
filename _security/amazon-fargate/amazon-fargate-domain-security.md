@@ -5,37 +5,37 @@ api_specs:
   label: Amazon Fargate Account Settings API
   slug: amazon-fargate-account-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/openapi/amazon-fargate-account-settings-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fargate/openapi/amazon-fargate-account-settings-api-openapi.yml
 - filename: amazon-fargate-clusters-api-openapi.yml
   format: yaml
   label: Amazon Fargate Clusters API
   slug: amazon-fargate-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/openapi/amazon-fargate-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fargate/openapi/amazon-fargate-clusters-api-openapi.yml
 - filename: amazon-fargate-services-api-openapi.yml
   format: yaml
   label: Amazon Fargate Services API
   slug: amazon-fargate-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/openapi/amazon-fargate-services-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fargate/openapi/amazon-fargate-services-api-openapi.yml
 - filename: amazon-fargate-tagging-api-openapi.yml
   format: yaml
   label: Amazon Fargate Tagging API
   slug: amazon-fargate-tagging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/openapi/amazon-fargate-tagging-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fargate/openapi/amazon-fargate-tagging-api-openapi.yml
 - filename: amazon-fargate-task-definitions-api-openapi.yml
   format: yaml
   label: Amazon Fargate Task Definitions API
   slug: amazon-fargate-task-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/openapi/amazon-fargate-task-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fargate/openapi/amazon-fargate-task-definitions-api-openapi.yml
 - filename: amazon-fargate-tasks-api-openapi.yml
   format: yaml
   label: Amazon Fargate Tasks API
   slug: amazon-fargate-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/openapi/amazon-fargate-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fargate/openapi/amazon-fargate-tasks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -80,7 +80,7 @@ source_filename: amazon-fargate-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: console.aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  3 23:59:59 2026 GMT\n  hsts: null\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: ecs.amazonaws.com\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''ecs.amazona'\n  hsts: null\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/security/amazon-fargate-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amazon-fargate/security/amazon-fargate-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Compute

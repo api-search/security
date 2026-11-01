@@ -7,67 +7,67 @@ api_specs:
   label: Squarespace Orders API
   slug: squarespace-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-orders-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-orders-api-openapi.yml
 - filename: squarespace-products-api-openapi.yml
   format: yaml
   label: Squarespace Products API
   slug: squarespace-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-products-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-products-api-openapi.yml
 - filename: squarespace-inventory-api-openapi.yml
   format: yaml
   label: Squarespace Inventory API
   slug: squarespace-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-inventory-api-openapi.yml
 - filename: squarespace-profiles-api-openapi.yml
   format: yaml
   label: Squarespace Profiles API
   slug: squarespace-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-profiles-api-openapi.yml
 - filename: squarespace-transactions-api-openapi.yml
   format: yaml
   label: Squarespace Transactions API
   slug: squarespace-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-transactions-api-openapi.yml
 - filename: squarespace-webhook-subscriptions-api-openapi.yml
   format: yaml
   label: Squarespace Webhook Subscriptions API
   slug: squarespace-webhook-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-webhook-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-webhook-subscriptions-api-openapi.yml
 - filename: squarespace-site-api-openapi.yml
   format: yaml
   label: Squarespace Site API
   slug: squarespace-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-site-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-site-api-openapi.yml
 - filename: squarespace-analytics-api-openapi.yml
   format: yaml
   label: Squarespace Analytics API
   slug: squarespace-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-analytics-api-openapi.yml
 - filename: squarespace-contacts-api-openapi.yml
   format: yaml
   label: Squarespace Contacts API
   slug: squarespace-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-contacts-api-openapi.yml
 - filename: squarespace-discounts-api-openapi.yml
   format: yaml
   label: Squarespace Discounts API
   slug: squarespace-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-discounts-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-discounts-api-openapi.yml
 - filename: squarespace-websites-api-openapi.yml
   format: yaml
   label: Squarespace Websites API
   slug: squarespace-websites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-websites-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-websites-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://develop
   \ >-\n      Authorization code grant after manual Squarespace review and issuance of client_id/client_secret.\n    transport: Authorization Bearer header\n    access_token_ttl: 30m\n    refresh: grant_type=refresh_token, requires access_type=offline on the authorize call\n    token_endpoint_auth: >-\n      HTTP Basic — the client builds an Authorization header from its OAuth 2.0 credentials.\n    permission_model: Comma-separated website.* scopes; see scopes/squarespace-scopes.yml\n    restrictions:\n      - Permissions cannot be changed on an existing grant; the merchant must re-initiate the connection.\n    source: https://developers.squarespace.com/oauth\ntransport_requirements:\n  - requirement: HTTPS only\n    detail: All requests sent over HTTP instead of HTTPS are rejected.\n  - requirement: User-Agent required\n    detail: Requests without a User-Agent header are rejected; default client User-Agents may be rate-limited harder.\n  - requirement: No CORS\n    detail: >-\n      Squarespace\
   \ explicitly does not support browser-side calls and documents CORS as a security\n      risk because it would expose the bearer token; a server-side proxy is the documented pattern.\n    source: https://developers.squarespace.com/commerce-apis/faq\nwebhook_authentication:\n  mechanism: HMAC-SHA256 request signature\n  header: Squarespace-Signature\n  secret: >-\n    Returned only when creating a subscription or rotating a secret; a rotateSecret operation exists\n    (POST /1.0/webhook_subscriptions/{subscriptionId}/actions/rotateSecret).\n  source: https://developers.squarespace.com/webhooks/overview\nauth_errors:\n  - status: 401\n    type: AUTHORIZATION_ERROR\n    meaning: Missing Authorization header, or the token is invalid or expired.\n  - status: 402\n    type: WEBSITE_EXPIRED\n    meaning: The website that owns the token is in an expired billing state.\n  - status: 403\n    subtype: MISSING_SCOPE / OAUTH_TOKEN_REQUIRED / FORBIDDEN_RESOURCE\n    meaning: Token is valid but lacks\
   \ the permission, or the endpoint requires OAuth rather than an API key.\ngaps:\n  - oauth2 is documented but absent from the OpenAPI securitySchemes.\n  - No /.well-known/oauth-authorization-server or /.well-known/openid-configuration is served (404 on every host probed).\n  - API keys never expire and have no documented rotation path.\nevidence:\n  - url: https://developers.squarespace.com/commerce-apis/authentication-and-permissions\n    status: 200\n  - url: https://developers.squarespace.com/oauth\n    status: 200\n  - url: https://developers.squarespace.com/commerce-apis/making-requests\n    status: 200\n  - url: https://www.squarespace.com/.well-known/oauth-authorization-server\n    status: 404\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/authentication/squarespace-authentication.yml
+source_yaml_url: https://artifacts.apis.io/squarespace/authentication/squarespace-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Commerce

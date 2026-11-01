@@ -7,31 +7,31 @@ api_specs:
   label: konfetti Account API
   slug: konfetti-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/openapi/konfetti-account-api-openapi.yml
+  url: https://artifacts.apis.io/konfetti/openapi/konfetti-account-api-openapi.yml
 - filename: konfetti-auth-api-openapi.yml
   format: yaml
   label: konfetti Auth API
   slug: konfetti-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/openapi/konfetti-auth-api-openapi.yml
+  url: https://artifacts.apis.io/konfetti/openapi/konfetti-auth-api-openapi.yml
 - filename: konfetti-catalog-api-openapi.yml
   format: yaml
   label: konfetti Catalog API
   slug: konfetti-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/openapi/konfetti-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/konfetti/openapi/konfetti-catalog-api-openapi.yml
 - filename: konfetti-checkout-api-openapi.yml
   format: yaml
   label: konfetti Checkout API
   slug: konfetti-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/openapi/konfetti-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/konfetti/openapi/konfetti-checkout-api-openapi.yml
 - filename: konfetti-requests-api-openapi.yml
   format: yaml
   label: konfetti Requests API
   slug: konfetti-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/openapi/konfetti-requests-api-openapi.yml
+  url: https://artifacts.apis.io/konfetti/openapi/konfetti-requests-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -74,7 +74,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: derived\nsource: openapi/konfetti-account-api-openapi.yml, openapi/konfetti-auth-api-openapi.yml, openapi/konfetti-catalog-api-openapi.yml,\n  openapi/konfetti-checkout-api-openapi.yml, openapi/konfetti-requests-api-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Access token obtained from POST /v1/oauth/token and sent as `Authorization:\n    Bearer <token>`.'\n  sources:\n  - openapi/konfetti-account-api-openapi.yml\n  - openapi/konfetti-auth-api-openapi.yml\n  - openapi/konfetti-catalog-api-openapi.yml\n  - openapi/konfetti-checkout-api-openapi.yml\n  - openapi/konfetti-requests-api-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows: []\n  description: OAuth 2.0 token endpoint confirmed at /v1/oauth/token (League OAuth2 Server).\n    No authorization endpoint, discovery document or scope reference is published, so no flows\n    are enumerated here.\n  sources:\n\
   \  - openapi/konfetti-account-api-openapi.yml\n  - openapi/konfetti-auth-api-openapi.yml\n  - openapi/konfetti-catalog-api-openapi.yml\n  - openapi/konfetti-checkout-api-openapi.yml\n  - openapi/konfetti-requests-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/authentication/konfetti-authentication.yml
+source_yaml_url: https://artifacts.apis.io/konfetti/authentication/konfetti-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

@@ -5,13 +5,13 @@ api_specs:
   label: Magic Client API
   slug: magic-link-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magic-link/refs/heads/main/openapi/magic-link-client-api-openapi.yml
+  url: https://artifacts.apis.io/magic-link/openapi/magic-link-client-api-openapi.yml
 - filename: magic-link-users-api-openapi.yml
   format: yaml
   label: Magic Users API
   slug: magic-link-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magic-link/refs/heads/main/openapi/magic-link-users-api-openapi.yml
+  url: https://artifacts.apis.io/magic-link/openapi/magic-link-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: magic-link-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: magic.link\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 14:52:50 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.magic.link\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 19:32:21 2026 GMT\n  hsts: null\n- host: api.toaster.magic.link\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 17:12:17 2026 GMT\n  hsts: null\ndomains:\n- domain: magic.link\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/magic-link/refs/heads/main/security/magic-link-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/magic-link/security/magic-link-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Web3

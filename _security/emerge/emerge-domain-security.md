@@ -5,55 +5,55 @@ api_specs:
   label: Emerge Authentication API
   slug: emerge-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/openapi/emerge-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/emerge/openapi/emerge-authentication-api-openapi.yml
 - filename: emerge-awards-api-openapi.yml
   format: yaml
   label: Emerge Awards API
   slug: emerge-awards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/openapi/emerge-awards-api-openapi.yml
+  url: https://artifacts.apis.io/emerge/openapi/emerge-awards-api-openapi.yml
 - filename: emerge-network-partners-api-openapi.yml
   format: yaml
   label: Emerge Network Partners API
   slug: emerge-network-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/openapi/emerge-network-partners-api-openapi.yml
+  url: https://artifacts.apis.io/emerge/openapi/emerge-network-partners-api-openapi.yml
 - filename: emerge-opportunities-api-openapi.yml
   format: yaml
   label: Emerge Opportunities API
   slug: emerge-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/openapi/emerge-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/emerge/openapi/emerge-opportunities-api-openapi.yml
 - filename: emerge-options-api-openapi.yml
   format: yaml
   label: Emerge Options API
   slug: emerge-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/openapi/emerge-options-api-openapi.yml
+  url: https://artifacts.apis.io/emerge/openapi/emerge-options-api-openapi.yml
 - filename: emerge-shipments-api-openapi.yml
   format: yaml
   label: Emerge Shipments API
   slug: emerge-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/openapi/emerge-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/emerge/openapi/emerge-shipments-api-openapi.yml
 - filename: emerge-tender-api-openapi.yml
   format: yaml
   label: Emerge Tender API
   slug: emerge-tender-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/openapi/emerge-tender-api-openapi.yml
+  url: https://artifacts.apis.io/emerge/openapi/emerge-tender-api-openapi.yml
 - filename: emerge-tenders-api-openapi.yml
   format: yaml
   label: Emerge Tenders API
   slug: emerge-tenders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/openapi/emerge-tenders-api-openapi.yml
+  url: https://artifacts.apis.io/emerge/openapi/emerge-tenders-api-openapi.yml
 - filename: emerge-webhooks-api-openapi.yml
   format: yaml
   label: Emerge Webhooks API
   slug: emerge-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/openapi/emerge-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/emerge/openapi/emerge-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -106,7 +106,7 @@ source_filename: emerge-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.emergemarket.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 20:29:16 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api-docs.emergemarket.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 22:31:42 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.emergemarket.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 22:31:42 2026 GMT\n  hsts: null\ndomains:\n- domain: emergemarket.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: emergemarket.io\n  dnssec: true\n  caa:\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/security/emerge-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/emerge/security/emerge-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Freight

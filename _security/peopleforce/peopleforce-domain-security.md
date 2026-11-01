@@ -5,43 +5,43 @@ api_specs:
   label: PeopleForce Candidates API
   slug: peopleforce-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peopleforce/refs/heads/main/openapi/peopleforce-candidates-api-openapi.yml
+  url: https://artifacts.apis.io/peopleforce/openapi/peopleforce-candidates-api-openapi.yml
 - filename: peopleforce-departments-api-openapi.yml
   format: yaml
   label: PeopleForce Departments API
   slug: peopleforce-departments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peopleforce/refs/heads/main/openapi/peopleforce-departments-api-openapi.yml
+  url: https://artifacts.apis.io/peopleforce/openapi/peopleforce-departments-api-openapi.yml
 - filename: peopleforce-divisions-api-openapi.yml
   format: yaml
   label: PeopleForce Divisions API
   slug: peopleforce-divisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peopleforce/refs/heads/main/openapi/peopleforce-divisions-api-openapi.yml
+  url: https://artifacts.apis.io/peopleforce/openapi/peopleforce-divisions-api-openapi.yml
 - filename: peopleforce-employees-api-openapi.yml
   format: yaml
   label: PeopleForce Employees API
   slug: peopleforce-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peopleforce/refs/heads/main/openapi/peopleforce-employees-api-openapi.yml
+  url: https://artifacts.apis.io/peopleforce/openapi/peopleforce-employees-api-openapi.yml
 - filename: peopleforce-leave-requests-api-openapi.yml
   format: yaml
   label: PeopleForce Leave Requests API
   slug: peopleforce-leave-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peopleforce/refs/heads/main/openapi/peopleforce-leave-requests-api-openapi.yml
+  url: https://artifacts.apis.io/peopleforce/openapi/peopleforce-leave-requests-api-openapi.yml
 - filename: peopleforce-positions-api-openapi.yml
   format: yaml
   label: PeopleForce Positions API
   slug: peopleforce-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peopleforce/refs/heads/main/openapi/peopleforce-positions-api-openapi.yml
+  url: https://artifacts.apis.io/peopleforce/openapi/peopleforce-positions-api-openapi.yml
 - filename: peopleforce-vacancies-api-openapi.yml
   format: yaml
   label: PeopleForce Vacancies API
   slug: peopleforce-vacancies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peopleforce/refs/heads/main/openapi/peopleforce-vacancies-api-openapi.yml
+  url: https://artifacts.apis.io/peopleforce/openapi/peopleforce-vacancies-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -89,7 +89,7 @@ source_filename: peopleforce-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: peopleforce.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 04:21:52 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: developer.peopleforce.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 04:21:52 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: app.peopleforce.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 04:21:52 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: peopleforce.io\n  dnssec: false\n  caa:\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peopleforce/refs/heads/main/security/peopleforce-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/peopleforce/security/peopleforce-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Human Resources

@@ -16,7 +16,7 @@ source_filename: solvo-ai-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nsource: https://www.solvo.ai/trust\nurl: https://www.solvo.ai/trust\ncertifications:\n- ISO 27001\n- GDPR\nevidence:\n- source: https://www.solvo.ai/trust\n  keywords:\n  - iso 27001\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/solvo-ai/refs/heads/main/security/solvo-ai-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/solvo-ai/security/solvo-ai-trust-center.yml
 summary_line: ISO 27001, GDPR
 tags:
 - Company

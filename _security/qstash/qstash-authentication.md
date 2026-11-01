@@ -7,43 +7,43 @@ api_specs:
   label: QStash Dead Letter Queue API
   slug: qstash-dead-letter-queue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qstash/refs/heads/main/openapi/qstash-dead-letter-queue-api-openapi.yml
+  url: https://artifacts.apis.io/qstash/openapi/qstash-dead-letter-queue-api-openapi.yml
 - filename: qstash-flow-control-api-openapi.yml
   format: yaml
   label: QStash Flow Control API
   slug: qstash-flow-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qstash/refs/heads/main/openapi/qstash-flow-control-api-openapi.yml
+  url: https://artifacts.apis.io/qstash/openapi/qstash-flow-control-api-openapi.yml
 - filename: qstash-logs-api-openapi.yml
   format: yaml
   label: QStash Logs API
   slug: qstash-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qstash/refs/heads/main/openapi/qstash-logs-api-openapi.yml
+  url: https://artifacts.apis.io/qstash/openapi/qstash-logs-api-openapi.yml
 - filename: qstash-messages-api-openapi.yml
   format: yaml
   label: QStash Messages API
   slug: qstash-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qstash/refs/heads/main/openapi/qstash-messages-api-openapi.yml
+  url: https://artifacts.apis.io/qstash/openapi/qstash-messages-api-openapi.yml
 - filename: qstash-queues-api-openapi.yml
   format: yaml
   label: QStash Queues API
   slug: qstash-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qstash/refs/heads/main/openapi/qstash-queues-api-openapi.yml
+  url: https://artifacts.apis.io/qstash/openapi/qstash-queues-api-openapi.yml
 - filename: qstash-schedules-api-openapi.yml
   format: yaml
   label: QStash Schedules API
   slug: qstash-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qstash/refs/heads/main/openapi/qstash-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/qstash/openapi/qstash-schedules-api-openapi.yml
 - filename: qstash-url-groups-api-openapi.yml
   format: yaml
   label: QStash URL Groups API
   slug: qstash-url-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qstash/refs/heads/main/openapi/qstash-url-groups-api-openapi.yml
+  url: https://artifacts.apis.io/qstash/openapi/qstash-url-groups-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -70,7 +70,7 @@ source_filename: qstash-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/qstash-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token obtained from the Upstash console at https://console.upstash.com/qstash.\n    Alternatively, pass as query parameter `qstash_token`.\n  sources:\n  - openapi/qstash-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qstash/refs/heads/main/authentication/qstash-authentication.yml
+source_yaml_url: https://artifacts.apis.io/qstash/authentication/qstash-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Message Queue

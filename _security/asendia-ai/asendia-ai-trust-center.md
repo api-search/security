@@ -18,7 +18,7 @@ source_filename: asendia-ai-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nprobe: true\nsource: https://asendia.ai/security\nurl: https://asendia.ai/security\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\n- GDPR\nevidence:\n- source: https://asendia.ai/security\n  keywords:\n  - soc 2\n  - iso 27001\n  - hipaa\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/asendia-ai/refs/heads/main/security/asendia-ai-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/asendia-ai/security/asendia-ai-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Company

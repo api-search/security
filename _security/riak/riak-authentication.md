@@ -7,37 +7,37 @@ api_specs:
   label: Riak KV Mapred API
   slug: riak-mapred-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riak/refs/heads/main/openapi/riak-mapred-api-openapi.yml
+  url: https://artifacts.apis.io/riak/openapi/riak-mapred-api-openapi.yml
 - filename: riak-ping-api-openapi.yml
   format: yaml
   label: Riak KV Ping API
   slug: riak-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riak/refs/heads/main/openapi/riak-ping-api-openapi.yml
+  url: https://artifacts.apis.io/riak/openapi/riak-ping-api-openapi.yml
 - filename: riak-riak-kv-http-api-api-openapi.yml
   format: yaml
   label: Riak KV Riak KV HTTP API
   slug: riak-riak-kv-http-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riak/refs/heads/main/openapi/riak-riak-kv-http-api-api-openapi.yml
+  url: https://artifacts.apis.io/riak/openapi/riak-riak-kv-http-api-api-openapi.yml
 - filename: riak-search-api-openapi.yml
   format: yaml
   label: Riak KV Search API
   slug: riak-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riak/refs/heads/main/openapi/riak-search-api-openapi.yml
+  url: https://artifacts.apis.io/riak/openapi/riak-search-api-openapi.yml
 - filename: riak-stats-api-openapi.yml
   format: yaml
   label: Riak KV Stats API
   slug: riak-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riak/refs/heads/main/openapi/riak-stats-api-openapi.yml
+  url: https://artifacts.apis.io/riak/openapi/riak-stats-api-openapi.yml
 - filename: riak-types-api-openapi.yml
   format: yaml
   label: Riak KV Types API
   slug: riak-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riak/refs/heads/main/openapi/riak-types-api-openapi.yml
+  url: https://artifacts.apis.io/riak/openapi/riak-types-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -68,7 +68,7 @@ source_filename: riak-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/riak-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  description: |-\n    Riak KV supports optional security with HTTPS and basic auth or\n    certificate-based authentication. By default, the HTTP listener is\n    unauthenticated.\n  sources:\n  - openapi/riak-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/riak/refs/heads/main/authentication/riak-authentication.yml
+source_yaml_url: https://artifacts.apis.io/riak/authentication/riak-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Database

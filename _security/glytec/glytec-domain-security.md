@@ -47,7 +47,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + application hosts\nhosts:\n- host: glytec.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 20:03:50 2026 GMT\n  hsts: null\n- host: app.glytec.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 16 23:59:59 2026 GMT\n  hsts: null\n  notes: >-\n    GlytecOne Command Center tenant login (organization-scoped). Root returns 302 into the login flow.\n    Fronted by an AWS ELB (k8s-prod01cluster-*.us-east-2.elb.amazonaws.com).\n- host: glytecsystems.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 20:24:14 2026 GMT\n  hsts: null\n  notes: Legacy corporate domain; 301 redirects to https://glytec.com/.\ndomains:\n- domain: glytec.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: glytecsystems.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n\
   findings:\n- No HSTS response header observed on any Glytec host.\n- No CAA record on glytec.com; glytecsystems.com pins issuance to letsencrypt.org.\n- DNSSEC not enabled on either registrable domain.\n- DMARC published at p=quarantine on both domains (glytecsystems.com sets sp=none for subdomains).\n- No /.well-known/security.txt on any host, so no machine-readable security contact is advertised.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/glytec/refs/heads/main/security/glytec-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/glytec/security/glytec-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

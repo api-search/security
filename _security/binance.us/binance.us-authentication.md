@@ -9,13 +9,13 @@ api_specs:
   label: Binance.US WebSocket API
   slug: websocket-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/asyncapi/binance.us-websocket-api-asyncapi.yml
+  url: https://artifacts.apis.io/binance.us/asyncapi/binance.us-websocket-api-asyncapi.yml
 - filename: binance.us-websocket-streams-asyncapi.yml
   format: yaml
   label: Binance.US WebSocket Streams
   slug: websocket-streams
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/asyncapi/binance.us-websocket-streams-asyncapi.yml
+  url: https://artifacts.apis.io/binance.us/asyncapi/binance.us-websocket-streams-asyncapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_yaml: "generated: '2026-08-07'\nmethod: searched\nsource: https://docs.bi
   \  description: Endpoint requires sending a valid API key and signature.\n  requires_api_key: true\n  requires_signature: true\n- id: USER_DATA\n  description: Endpoint requires sending a valid API key and signature.\n  requires_api_key: true\n  requires_signature: true\n- id: USER_STREAM\n  description: Endpoint requires sending a valid API key.\n  requires_api_key: true\n  requires_signature: false\n- id: MARKET_DATA\n  description: Endpoint requires sending a valid API key.\n  requires_api_key: true\n  requires_signature: false\nkey_types:\n- id: exchange\n  name: Exchange API Keys\n  availability: self-serve\n  description: >-\n    Private API keys for the majority of API users to interact with Binance.US API endpoints. Provides access\n    to markets and real-time trading services. Created from the account profile menu > API Management, with\n    2FA confirmation. KYC must be completed before an API key can be created.\n  covers:\n  - REST API\n  - WebSocket API\n  - WebSocket Streams\n\
   \  - OTC endpoints (requires 'Enable Spot Trading' restriction)\n- id: custodial-solution\n  name: Custodial Solution API Keys\n  availability: agreement-required\n  description: >-\n    Only available to users who have entered into a Custody Exchange Network agreement between a participating\n    custody partner and Binance.US. Provides access to Custodial Solution endpoints only.\n  covers:\n  - Custodial Solution endpoints\n- id: credit-line\n  name: Credit Line API Keys\n  availability: agreement-required\n  description: >-\n    Only available to institutional users who have signed a credit line agreement with Binance.US. Provides\n    access to Credit Line endpoints only.\n  covers:\n  - Credit Line endpoints\nkey_management:\n  console: https://www.binance.us/ (profile menu > API Management)\n  two_factor_required: true\n  kyc_required: true\n  ip_allowlisting: recommended\nerrors:\n- code: -1022\n  meaning: Signature for this request is not valid.\n- code: -1021\n  meaning: Timestamp\
   \ for this request is outside of the recvWindow.\n- code: -2014\n  meaning: API-key format invalid.\n- code: -2015\n  meaning: Invalid API-key, IP, or permissions for action.\nx-evidence:\n  fetched: '2026-08-07'\n  url: https://docs.binance.us/\n  http_status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/authentication/binance.us-authentication.yml
+source_yaml_url: https://artifacts.apis.io/binance.us/authentication/binance.us-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company

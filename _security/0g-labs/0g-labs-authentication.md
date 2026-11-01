@@ -8,37 +8,37 @@ api_specs:
   label: 0G Labs Account API
   slug: 0g-labs-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/openapi/0g-labs-account-api-openapi.yml
+  url: https://artifacts.apis.io/0g-labs/openapi/0g-labs-account-api-openapi.yml
 - filename: 0g-labs-api-key-api-openapi.yml
   format: yaml
   label: 0G Labs API Key API
   slug: 0g-labs-api-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/openapi/0g-labs-api-key-api-openapi.yml
+  url: https://artifacts.apis.io/0g-labs/openapi/0g-labs-api-key-api-openapi.yml
 - filename: 0g-labs-inference-api-openapi.yml
   format: yaml
   label: 0G Labs Inference API
   slug: 0g-labs-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/openapi/0g-labs-inference-api-openapi.yml
+  url: https://artifacts.apis.io/0g-labs/openapi/0g-labs-inference-api-openapi.yml
 - filename: 0g-labs-models-api-openapi.yml
   format: yaml
   label: 0G Labs Models API
   slug: 0g-labs-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/openapi/0g-labs-models-api-openapi.yml
+  url: https://artifacts.apis.io/0g-labs/openapi/0g-labs-models-api-openapi.yml
 - filename: 0g-labs-provider-api-openapi.yml
   format: yaml
   label: 0G Labs Provider API
   slug: 0g-labs-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/openapi/0g-labs-provider-api-openapi.yml
+  url: https://artifacts.apis.io/0g-labs/openapi/0g-labs-provider-api-openapi.yml
 - filename: 0g-labs-service-types-api-openapi.yml
   format: yaml
   label: 0G Labs Service Types API
   slug: 0g-labs-service-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/openapi/0g-labs-service-types-api-openapi.yml
+  url: https://artifacts.apis.io/0g-labs/openapi/0g-labs-service-types-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -117,7 +117,7 @@ source_yaml: "generated: '2026-08-05'\nmethod: searched\nsource: openapi/0g-labs
   \ mk-...\"\n  issued_at: https://pc.0g.ai\n  issuance: Settings > Management Keys. Each key carries an explicit scope allowlist. Keys do not expire.\n  scoped: true\n  scopes:\n  - name: account:read\n    description: Read balance, usage and per-request history (GET /v1/account/*).\n  - name: keys:read\n    description: List API keys (GET /v1/api-keys).\n  - name: keys:create\n    description: Create API keys (POST /v1/api-keys).\n  - name: keys:manage\n    description: Edit or revoke API keys (PATCH / DELETE /v1/api-keys/{keyId}).\n  presets:\n  - name: Read-only\n    scopes: [account:read, keys:read]\n  - name: Key Manager\n    scopes: [keys:read, keys:manage]\n  - name: Full Admin\n    scopes: [account:read, keys:read, keys:create, keys:manage]\n  audit_fields:\n  - last_used_at\n  - last_source_ip\n  audit_note: >-\n    Updated on every successful mk- request, coalesced to at most one write per key per 60s.\n    IPv4-mapped IPv6 addresses are normalized to dotted-quad. sk- keys do\
   \ not record these —\n    their audit signal is usage/billing.\n  sources:\n  - openapi/0g-labs-router-openapi.yml\npermission_matrix:\n- scenario: Run inference\n  endpoint: POST /v1/chat/completions (and other inference endpoints)\n  api_key: allowed\n  management_key: denied\n- scenario: Read balance / usage / history\n  endpoint: GET /v1/account/*\n  api_key: denied\n  management_key: allowed\n  required_scope: account:read\n- scenario: List API keys\n  endpoint: GET /v1/api-keys\n  api_key: denied\n  management_key: allowed\n  required_scope: keys:read\n- scenario: Create API key\n  endpoint: POST /v1/api-keys\n  api_key: denied\n  management_key: allowed\n  required_scope: keys:create\n- scenario: Edit / revoke API key\n  endpoint: PATCH or DELETE /v1/api-keys/{keyId}\n  api_key: denied\n  management_key: allowed\n  required_scope: keys:manage\n- scenario: Manage management keys\n  endpoint: ANY /v1/management-keys/*\n  api_key: denied\n  management_key: denied\n  required: wallet\
   \ JWT (sign-in session) only\n  rationale: >-\n    A leaked mk- cannot mint replacements for itself. keys:manage and keys:create are also\n    deliberately split so an audit integration can revoke a compromised key without being able\n    to issue a new one.\nunauthenticated_endpoints:\n- GET /v1/models\n- GET /v1/providers\n- GET /v1/service-types\nguidance:\n- Never ship either key to a browser — proxy client requests through your own backend.\n- One key per deployment so a revocation is scoped to one service.\n- Least privilege for mk-; rotate by issuing a replacement and revoking the old key.\nbreaking_change:\n  observed: '2026-08-05'\n  detail: >-\n    sk- keys no longer have access to /v1/account/* (balance, usage, history). Existing\n    dashboard/billing code must move to an mk- key with the account:read scope.\n  source: https://docs.0g.ai/developer-hub/building-on-0g/compute-network/router/authentication\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/authentication/0g-labs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/0g-labs/authentication/0g-labs-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Artificial Intelligence

@@ -5,7 +5,7 @@ api_specs:
   label: Replicant API
   slug: replicant-replicant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/openapi/replicant-replicant-api-openapi.yml
+  url: https://artifacts.apis.io/replicant/openapi/replicant-replicant-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2 Type 2
@@ -25,7 +25,7 @@ source_filename: replicant-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nprobe: true\nurl: https://www.replicant.com/safety-ai-security\ncertifications:\n- SOC 2 Type 2\n- PCI DSS\n- HIPAA\n- GDPR\ncontrols:\n- TLS 1.2+ in transit, AES-256 at rest\n- Automatic redaction of PII, payment, and regulated content in transcripts and logs\n- Role-Based Access Control (RBAC) with Multi-Factor Authentication (MFA)\n- Full audit trails for data-access transparency\n- Intrusion Detection & Prevention Systems (IDPS) with continuous threat monitoring\n- Infrastructure hosted on Google Cloud Platform (GCP)\n- Privacy-by-design architecture aligned to GDPR\nevidence:\n- source: https://www.replicant.com/safety-ai-security\n  keywords: [soc 2 type 2, pci dss, hipaa, gdpr, aes-256, rbac, audit trails]\nnotes: >-\n  No dedicated trust.replicant.com subdomain exists; the Safety & AI Security page is the\n  provider's public trust/compliance posture. ISO 27001 and FedRAMP were not claimed.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/security/replicant-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/replicant/security/replicant-trust-center.yml
 summary_line: SOC 2 Type 2, PCI DSS, HIPAA, GDPR
 tags:
 - Company

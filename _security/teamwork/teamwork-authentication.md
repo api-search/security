@@ -7,19 +7,19 @@ api_specs:
   label: Teamwork.com Activity API
   slug: teamwork-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamwork/refs/heads/main/openapi/teamwork-activity-api-openapi.yml
+  url: https://artifacts.apis.io/teamwork/openapi/teamwork-activity-api-openapi.yml
 - filename: teamwork-projects-api-openapi.yml
   format: yaml
   label: Teamwork.com Projects API
   slug: teamwork-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamwork/refs/heads/main/openapi/teamwork-projects-api-openapi.yml
+  url: https://artifacts.apis.io/teamwork/openapi/teamwork-projects-api-openapi.yml
 - filename: teamwork-tasks-api-openapi.yml
   format: yaml
   label: Teamwork.com Tasks API
   slug: teamwork-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamwork/refs/heads/main/openapi/teamwork-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/teamwork/openapi/teamwork-tasks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -50,7 +50,7 @@ source_filename: teamwork-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/teamwork-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/teamwork-openapi.yml\n- name: basicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/teamwork-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teamwork/refs/heads/main/authentication/teamwork-authentication.yml
+source_yaml_url: https://artifacts.apis.io/teamwork/authentication/teamwork-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Project Management

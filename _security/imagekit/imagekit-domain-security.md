@@ -5,37 +5,37 @@ api_specs:
   label: ImageKit Account Management API
   slug: imagekit-account-management-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imagekit/refs/heads/main/openapi/imagekit-account-management-api-api-openapi.yml
+  url: https://artifacts.apis.io/imagekit/openapi/imagekit-account-management-api-api-openapi.yml
 - filename: imagekit-caching-api-openapi.yml
   format: yaml
   label: ImageKit Caching API
   slug: imagekit-caching-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imagekit/refs/heads/main/openapi/imagekit-caching-api-openapi.yml
+  url: https://artifacts.apis.io/imagekit/openapi/imagekit-caching-api-openapi.yml
 - filename: imagekit-digital-asset-management-dam-api-openapi.yml
   format: yaml
   label: ImageKit Digital Asset Management (DAM) API
   slug: imagekit-digital-asset-management-dam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imagekit/refs/heads/main/openapi/imagekit-digital-asset-management-dam-api-openapi.yml
+  url: https://artifacts.apis.io/imagekit/openapi/imagekit-digital-asset-management-dam-api-openapi.yml
 - filename: imagekit-dummy-test-api-openapi.yml
   format: yaml
   label: ImageKit Dummy Test API
   slug: imagekit-dummy-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imagekit/refs/heads/main/openapi/imagekit-dummy-test-api-openapi.yml
+  url: https://artifacts.apis.io/imagekit/openapi/imagekit-dummy-test-api-openapi.yml
 - filename: imagekit-file-metadata-api-openapi.yml
   format: yaml
   label: ImageKit File Metadata API
   slug: imagekit-file-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imagekit/refs/heads/main/openapi/imagekit-file-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/imagekit/openapi/imagekit-file-metadata-api-openapi.yml
 - filename: imagekit-upload-file-api-openapi.yml
   format: yaml
   label: ImageKit Upload File API
   slug: imagekit-upload-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imagekit/refs/heads/main/openapi/imagekit-upload-file-api-openapi.yml
+  url: https://artifacts.apis.io/imagekit/openapi/imagekit-upload-file-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -76,7 +76,7 @@ source_filename: imagekit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: imagekit.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 20 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.imagekit.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: imagekit.io\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imagekit/refs/heads/main/security/imagekit-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/imagekit/security/imagekit-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Image

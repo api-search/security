@@ -5,61 +5,61 @@ api_specs:
   label: Wealthbox Activity API
   slug: wealthbox-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-activity-api-openapi.yml
+  url: https://artifacts.apis.io/wealthbox/openapi/wealthbox-activity-api-openapi.yml
 - filename: wealthbox-contacts-api-openapi.yml
   format: yaml
   label: Wealthbox Contacts API
   slug: wealthbox-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/wealthbox/openapi/wealthbox-contacts-api-openapi.yml
 - filename: wealthbox-events-api-openapi.yml
   format: yaml
   label: Wealthbox Events API
   slug: wealthbox-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-events-api-openapi.yml
+  url: https://artifacts.apis.io/wealthbox/openapi/wealthbox-events-api-openapi.yml
 - filename: wealthbox-notes-api-openapi.yml
   format: yaml
   label: Wealthbox Notes API
   slug: wealthbox-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-notes-api-openapi.yml
+  url: https://artifacts.apis.io/wealthbox/openapi/wealthbox-notes-api-openapi.yml
 - filename: wealthbox-opportunities-api-openapi.yml
   format: yaml
   label: Wealthbox Opportunities API
   slug: wealthbox-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/wealthbox/openapi/wealthbox-opportunities-api-openapi.yml
 - filename: wealthbox-profile-api-openapi.yml
   format: yaml
   label: Wealthbox Profile API
   slug: wealthbox-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-profile-api-openapi.yml
+  url: https://artifacts.apis.io/wealthbox/openapi/wealthbox-profile-api-openapi.yml
 - filename: wealthbox-tasks-api-openapi.yml
   format: yaml
   label: Wealthbox Tasks API
   slug: wealthbox-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/wealthbox/openapi/wealthbox-tasks-api-openapi.yml
 - filename: wealthbox-teams-api-openapi.yml
   format: yaml
   label: Wealthbox Teams API
   slug: wealthbox-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-teams-api-openapi.yml
+  url: https://artifacts.apis.io/wealthbox/openapi/wealthbox-teams-api-openapi.yml
 - filename: wealthbox-users-api-openapi.yml
   format: yaml
   label: Wealthbox Users API
   slug: wealthbox-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-users-api-openapi.yml
+  url: https://artifacts.apis.io/wealthbox/openapi/wealthbox-users-api-openapi.yml
 - filename: wealthbox-workflows-api-openapi.yml
   format: yaml
   label: Wealthbox Workflows API
   slug: wealthbox-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/wealthbox/openapi/wealthbox-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -105,7 +105,7 @@ source_filename: wealthbox-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.wealthbox.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 06:17:51 2026 GMT\n  hsts: false\n- host: dev.wealthbox.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 17 23:59:59 2027 GMT\n  hsts: false\n- host: api.crmworkspace.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 06:29:34 2026 GMT\n  hsts: true\n  hsts_max_age: 0\ndomains:\n- domain: wealthbox.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: crmworkspace.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/security/wealthbox-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wealthbox/security/wealthbox-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - CRM

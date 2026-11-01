@@ -5,37 +5,37 @@ api_specs:
   label: Openlayer Commits API
   slug: openlayer-commits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openlayer/refs/heads/main/openapi/openlayer-commits-api-openapi.yml
+  url: https://artifacts.apis.io/openlayer/openapi/openlayer-commits-api-openapi.yml
 - filename: openlayer-data-stream-api-openapi.yml
   format: yaml
   label: Openlayer Data Stream API
   slug: openlayer-data-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openlayer/refs/heads/main/openapi/openlayer-data-stream-api-openapi.yml
+  url: https://artifacts.apis.io/openlayer/openapi/openlayer-data-stream-api-openapi.yml
 - filename: openlayer-inference-pipelines-api-openapi.yml
   format: yaml
   label: Openlayer Inference Pipelines API
   slug: openlayer-inference-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openlayer/refs/heads/main/openapi/openlayer-inference-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/openlayer/openapi/openlayer-inference-pipelines-api-openapi.yml
 - filename: openlayer-projects-api-openapi.yml
   format: yaml
   label: Openlayer Projects API
   slug: openlayer-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openlayer/refs/heads/main/openapi/openlayer-projects-api-openapi.yml
+  url: https://artifacts.apis.io/openlayer/openapi/openlayer-projects-api-openapi.yml
 - filename: openlayer-storage-api-openapi.yml
   format: yaml
   label: Openlayer Storage API
   slug: openlayer-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openlayer/refs/heads/main/openapi/openlayer-storage-api-openapi.yml
+  url: https://artifacts.apis.io/openlayer/openapi/openlayer-storage-api-openapi.yml
 - filename: openlayer-tests-api-openapi.yml
   format: yaml
   label: Openlayer Tests API
   slug: openlayer-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openlayer/refs/heads/main/openapi/openlayer-tests-api-openapi.yml
+  url: https://artifacts.apis.io/openlayer/openapi/openlayer-tests-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -54,7 +54,7 @@ source_filename: openlayer-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.openlayer.com/security\nurl: https://www.openlayer.com/security\ncertifications:\n- SOC 2\n- HIPAA\n- GDPR\nevidence:\n- source: https://www.openlayer.com/security\n  keywords:\n  - soc 2\n  - hipaa\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openlayer/refs/heads/main/security/openlayer-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/openlayer/security/openlayer-trust-center.yml
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Artificial Intelligence

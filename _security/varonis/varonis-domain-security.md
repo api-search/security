@@ -5,19 +5,19 @@ api_specs:
   label: Varonis Alerts API
   slug: varonis-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/openapi/varonis-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/varonis/openapi/varonis-alerts-api-openapi.yml
 - filename: varonis-events-api-openapi.yml
   format: yaml
   label: Varonis Events API
   slug: varonis-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/openapi/varonis-events-api-openapi.yml
+  url: https://artifacts.apis.io/varonis/openapi/varonis-events-api-openapi.yml
 - filename: varonis-threat-models-api-openapi.yml
   format: yaml
   label: Varonis Threat Models API
   slug: varonis-threat-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/openapi/varonis-threat-models-api-openapi.yml
+  url: https://artifacts.apis.io/varonis/openapi/varonis-threat-models-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -55,7 +55,7 @@ source_filename: varonis-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.varonis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 11:14:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.varonis.com\n  https: false\ndomains:\n- domain: varonis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"globalsign.com\"\n  - 0 issuewild \"godaddy.com\"\n  - 0 iodef \"mailto:soc@varonis.com\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/security/varonis-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/varonis/security/varonis-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud Security

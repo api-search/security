@@ -5,7 +5,7 @@ api_specs:
   label: Vector Health API
   slug: vector-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vector/refs/heads/main/openapi/vector-health-api-openapi.yml
+  url: https://artifacts.apis.io/vector/openapi/vector-health-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -35,7 +35,7 @@ source_filename: vector-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: vector.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 23:59:59 2026 GMT\n  hsts: false\n- host: 127.0.0.1\n  https: false\ndomains:\n- domain: vector.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vector/refs/heads/main/security/vector-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vector/security/vector-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Data Pipeline

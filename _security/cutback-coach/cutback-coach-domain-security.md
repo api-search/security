@@ -27,7 +27,7 @@ source_filename: cutback-coach-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sunnyside.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  6 03:07:57 2027 GMT\n  hsts: false\ndomains:\n- domain: sunnyside.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cutback-coach/refs/heads/main/security/cutback-coach-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cutback-coach/security/cutback-coach-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -5,25 +5,25 @@ api_specs:
   label: Afero Cloud Authentication API
   slug: authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/openapi/afero-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/afero/openapi/afero-authentication-api-openapi.yml
 - filename: afero-users-api-openapi.yml
   format: yaml
   label: Afero Cloud Users API
   slug: users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/openapi/afero-users-api-openapi.yml
+  url: https://artifacts.apis.io/afero/openapi/afero-users-api-openapi.yml
 - filename: afero-devices-api-openapi.yml
   format: yaml
   label: Afero Cloud Devices API
   slug: devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/openapi/afero-devices-api-openapi.yml
+  url: https://artifacts.apis.io/afero/openapi/afero-devices-api-openapi.yml
 - filename: afero-ota-api-openapi.yml
   format: yaml
   label: Afero Cloud OTA Firmware API
   slug: ota-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/openapi/afero-ota-api-openapi.yml
+  url: https://artifacts.apis.io/afero/openapi/afero-ota-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: afero-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.afero.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 02:07:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: afero-docs.readthedocs.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 13:31:53 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.afero.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov  6 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: afero.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: readthedocs.io\n  dnssec: false\n  caa:\n  - 0 issue \" amazontrust.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/security/afero-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/afero/security/afero-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -5,31 +5,31 @@ api_specs:
   label: Nine Fives Attenuator API
   slug: nine-fives-attenuator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/openapi/nine-fives-attenuator-api-openapi.yml
+  url: https://artifacts.apis.io/nine-fives/openapi/nine-fives-attenuator-api-openapi.yml
 - filename: nine-fives-firmware-api-openapi.yml
   format: yaml
   label: Nine Fives Firmware API
   slug: nine-fives-firmware-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/openapi/nine-fives-firmware-api-openapi.yml
+  url: https://artifacts.apis.io/nine-fives/openapi/nine-fives-firmware-api-openapi.yml
 - filename: nine-fives-network-api-openapi.yml
   format: yaml
   label: Nine Fives Network API
   slug: nine-fives-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/openapi/nine-fives-network-api-openapi.yml
+  url: https://artifacts.apis.io/nine-fives/openapi/nine-fives-network-api-openapi.yml
 - filename: nine-fives-switch-api-openapi.yml
   format: yaml
   label: Nine Fives Switch API
   slug: nine-fives-switch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/openapi/nine-fives-switch-api-openapi.yml
+  url: https://artifacts.apis.io/nine-fives/openapi/nine-fives-switch-api-openapi.yml
 - filename: nine-fives-system-api-openapi.yml
   format: yaml
   label: Nine Fives System API
   slug: nine-fives-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/openapi/nine-fives-system-api-openapi.yml
+  url: https://artifacts.apis.io/nine-fives/openapi/nine-fives-system-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -66,7 +66,7 @@ source_filename: nine-fives-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ninefives.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 16:46:32 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\n- host: docs.ninefives.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 01:47:18 2026 GMT\n  hsts: false\n- host: 192.168.0.95\n  https: false\ndomains:\n- domain: ninefives.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/security/nine-fives-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nine-fives/security/nine-fives-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -5,43 +5,43 @@ api_specs:
   label: SlashID Identity Management API
   slug: slashid-identity-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/openapi/slashid-identity-management-api-openapi.yml
+  url: https://artifacts.apis.io/slashid/openapi/slashid-identity-management-api-openapi.yml
 - filename: slashid-oidc-discovery-api-openapi.yml
   format: yaml
   label: SlashID OIDC discovery API
   slug: slashid-oidc-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/openapi/slashid-oidc-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/slashid/openapi/slashid-oidc-discovery-api-openapi.yml
 - filename: slashid-organization-sso-config-api-openapi.yml
   format: yaml
   label: SlashID Organization SSO config API
   slug: slashid-organization-sso-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/openapi/slashid-organization-sso-config-api-openapi.yml
+  url: https://artifacts.apis.io/slashid/openapi/slashid-organization-sso-config-api-openapi.yml
 - filename: slashid-organization-webhooks-api-openapi.yml
   format: yaml
   label: SlashID Organization Webhooks API
   slug: slashid-organization-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/openapi/slashid-organization-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/slashid/openapi/slashid-organization-webhooks-api-openapi.yml
 - filename: slashid-super-admin-management-api-openapi.yml
   format: yaml
   label: SlashID Super Admin Management API
   slug: slashid-super-admin-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/openapi/slashid-super-admin-management-api-openapi.yml
+  url: https://artifacts.apis.io/slashid/openapi/slashid-super-admin-management-api-openapi.yml
 - filename: slashid-tokens-api-openapi.yml
   format: yaml
   label: SlashID Tokens API
   slug: slashid-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/openapi/slashid-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/slashid/openapi/slashid-tokens-api-openapi.yml
 - filename: slashid-workflows-api-openapi.yml
   format: yaml
   label: SlashID Workflows API
   slug: slashid-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/openapi/slashid-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/slashid/openapi/slashid-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -83,7 +83,7 @@ source_filename: slashid-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.slashid.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 21:11:48 2026 GMT\n  hsts: false\n- host: developer.slashid.dev\n  https: false\n- host: api.slashid.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 01:47:38 2026 GMT\n  hsts: null\ndomains:\n- domain: slashid.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: slashid.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/security/slashid-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/slashid/security/slashid-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Identity

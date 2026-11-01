@@ -5,31 +5,31 @@ api_specs:
   label: SpotHero Availability API
   slug: spothero-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spothero/refs/heads/main/openapi/spothero-availability-api-openapi.yml
+  url: https://artifacts.apis.io/spothero/openapi/spothero-availability-api-openapi.yml
 - filename: spothero-facilities-api-openapi.yml
   format: yaml
   label: SpotHero Facilities API
   slug: spothero-facilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spothero/refs/heads/main/openapi/spothero-facilities-api-openapi.yml
+  url: https://artifacts.apis.io/spothero/openapi/spothero-facilities-api-openapi.yml
 - filename: spothero-rates-api-openapi.yml
   format: yaml
   label: SpotHero Rates API
   slug: spothero-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spothero/refs/heads/main/openapi/spothero-rates-api-openapi.yml
+  url: https://artifacts.apis.io/spothero/openapi/spothero-rates-api-openapi.yml
 - filename: spothero-reservations-api-openapi.yml
   format: yaml
   label: SpotHero Reservations API
   slug: spothero-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spothero/refs/heads/main/openapi/spothero-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/spothero/openapi/spothero-reservations-api-openapi.yml
 - filename: spothero-search-api-openapi.yml
   format: yaml
   label: SpotHero Search API
   slug: spothero-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spothero/refs/heads/main/openapi/spothero-search-api-openapi.yml
+  url: https://artifacts.apis.io/spothero/openapi/spothero-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: spothero-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: spothero.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 23:59:59 2026 GMT\n  hsts: false\n- host: api.spothero.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  3 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: spothero.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spothero/refs/heads/main/security/spothero-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/spothero/security/spothero-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Parking

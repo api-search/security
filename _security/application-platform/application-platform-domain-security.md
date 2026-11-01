@@ -5,13 +5,13 @@ api_specs:
   label: doppelt.digital Doppelt.digital API
   slug: application-platform-doppelt-digital-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/application-platform/refs/heads/main/openapi/application-platform-doppelt-digital-api-api-openapi.yml
+  url: https://artifacts.apis.io/application-platform/openapi/application-platform-doppelt-digital-api-api-openapi.yml
 - filename: application-platform-install-api-openapi.yml
   format: yaml
   label: doppelt.digital Install API
   slug: application-platform-install-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/application-platform/refs/heads/main/openapi/application-platform-install-api-openapi.yml
+  url: https://artifacts.apis.io/application-platform/openapi/application-platform-install-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,10 +39,10 @@ source_filename: application-platform-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-16'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: application-platform.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 12 19:37:08 2026 GMT\n  hsts: false\ndomains:\n- domain: application-platform.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/application-platform/refs/heads/main/security/application-platform-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/application-platform/security/application-platform-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- Low-code
+- Low-Code
 - Development Platform
 - Cloud Hosting
 - European SaaS

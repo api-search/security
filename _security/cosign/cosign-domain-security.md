@@ -55,7 +55,7 @@ source_filename: cosign-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sigstore.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 23:23:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.sigstore.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 23:13:41 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: rekor.sigstore.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 12:11:57 2026 GMT\n  hsts: false\ndomains:\n- domain: sigstore.dev\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 iodef \"mailto:security@sigstore.dev\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cosign/refs/heads/main/security/cosign-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cosign/security/cosign-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Apache 2.0

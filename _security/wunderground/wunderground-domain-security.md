@@ -5,25 +5,25 @@ api_specs:
   label: Weather Underground Forecast API
   slug: wunderground-forecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wunderground/refs/heads/main/openapi/wunderground-forecast-api-openapi.yml
+  url: https://artifacts.apis.io/wunderground/openapi/wunderground-forecast-api-openapi.yml
 - filename: wunderground-historical-api-openapi.yml
   format: yaml
   label: Weather Underground Historical API
   slug: wunderground-historical-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wunderground/refs/heads/main/openapi/wunderground-historical-api-openapi.yml
+  url: https://artifacts.apis.io/wunderground/openapi/wunderground-historical-api-openapi.yml
 - filename: wunderground-location-api-openapi.yml
   format: yaml
   label: Weather Underground Location API
   slug: wunderground-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wunderground/refs/heads/main/openapi/wunderground-location-api-openapi.yml
+  url: https://artifacts.apis.io/wunderground/openapi/wunderground-location-api-openapi.yml
 - filename: wunderground-observations-api-openapi.yml
   format: yaml
   label: Weather Underground Observations API
   slug: wunderground-observations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wunderground/refs/heads/main/openapi/wunderground-observations-api-openapi.yml
+  url: https://artifacts.apis.io/wunderground/openapi/wunderground-observations-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -72,7 +72,7 @@ source_filename: wunderground-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.wunderground.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 23:59:59 2027 GMT\n  hsts: false\n- host: api.weather.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  6 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: wunderground.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: false\n- domain: weather.com\n  dnssec: false\n  caa:\n  - 10 issue \"digicert.com\"\n  - 0 issue \"sectigo.com\"\n  - 100 issue \"letsencrypt.org\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wunderground/refs/heads/main/security/wunderground-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wunderground/security/wunderground-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Weather

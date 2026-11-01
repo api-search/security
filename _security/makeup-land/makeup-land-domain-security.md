@@ -5,55 +5,55 @@ api_specs:
   label: makeup.land Brands API
   slug: makeup-land-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-brands-api-openapi.yml
+  url: https://artifacts.apis.io/makeup-land/openapi/makeup-land-brands-api-openapi.yml
 - filename: makeup-land-cart-api-openapi.yml
   format: yaml
   label: makeup.land Cart API
   slug: makeup-land-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-cart-api-openapi.yml
+  url: https://artifacts.apis.io/makeup-land/openapi/makeup-land-cart-api-openapi.yml
 - filename: makeup-land-customers-api-openapi.yml
   format: yaml
   label: makeup.land Customers API
   slug: makeup-land-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-customers-api-openapi.yml
+  url: https://artifacts.apis.io/makeup-land/openapi/makeup-land-customers-api-openapi.yml
 - filename: makeup-land-gift-cards-api-openapi.yml
   format: yaml
   label: makeup.land Gift Cards API
   slug: makeup-land-gift-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-gift-cards-api-openapi.yml
+  url: https://artifacts.apis.io/makeup-land/openapi/makeup-land-gift-cards-api-openapi.yml
 - filename: makeup-land-orders-api-openapi.yml
   format: yaml
   label: makeup.land Orders API
   slug: makeup-land-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-orders-api-openapi.yml
+  url: https://artifacts.apis.io/makeup-land/openapi/makeup-land-orders-api-openapi.yml
 - filename: makeup-land-payment-links-api-openapi.yml
   format: yaml
   label: makeup.land Payment Links API
   slug: makeup-land-payment-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-payment-links-api-openapi.yml
+  url: https://artifacts.apis.io/makeup-land/openapi/makeup-land-payment-links-api-openapi.yml
 - filename: makeup-land-products-api-openapi.yml
   format: yaml
   label: makeup.land Products API
   slug: makeup-land-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-products-api-openapi.yml
+  url: https://artifacts.apis.io/makeup-land/openapi/makeup-land-products-api-openapi.yml
 - filename: makeup-land-proposals-api-openapi.yml
   format: yaml
   label: makeup.land Proposals API
   slug: makeup-land-proposals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-proposals-api-openapi.yml
+  url: https://artifacts.apis.io/makeup-land/openapi/makeup-land-proposals-api-openapi.yml
 - filename: makeup-land-register-api-openapi.yml
   format: yaml
   label: makeup.land Register API
   slug: makeup-land-register-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-register-api-openapi.yml
+  url: https://artifacts.apis.io/makeup-land/openapi/makeup-land-register-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -89,7 +89,7 @@ source_filename: makeup-land-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: makeup.land\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  3 07:52:01 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: makeup.land\n  dnssec: true\n  caa:\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/security/makeup-land-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/makeup-land/security/makeup-land-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Cosmetics

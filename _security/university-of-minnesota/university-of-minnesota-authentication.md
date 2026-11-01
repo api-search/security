@@ -7,43 +7,43 @@ api_specs:
   label: University of Minnesota Catchment API
   slug: university-of-minnesota-catchment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-catchment-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-minnesota/openapi/university-of-minnesota-catchment-api-openapi.yml
 - filename: university-of-minnesota-dataset-api-openapi.yml
   format: yaml
   label: University of Minnesota Dataset API
   slug: university-of-minnesota-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-minnesota/openapi/university-of-minnesota-dataset-api-openapi.yml
 - filename: university-of-minnesota-item-api-openapi.yml
   format: yaml
   label: University of Minnesota Item API
   slug: university-of-minnesota-item-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-item-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-minnesota/openapi/university-of-minnesota-item-api-openapi.yml
 - filename: university-of-minnesota-lake-api-openapi.yml
   format: yaml
   label: University of Minnesota Lake API
   slug: university-of-minnesota-lake-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-lake-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-minnesota/openapi/university-of-minnesota-lake-api-openapi.yml
 - filename: university-of-minnesota-pedtools-api-openapi.yml
   format: yaml
   label: University of Minnesota Pedtools API
   slug: university-of-minnesota-pedtools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-pedtools-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-minnesota/openapi/university-of-minnesota-pedtools-api-openapi.yml
 - filename: university-of-minnesota-search-json-api-openapi.yml
   format: yaml
   label: University of Minnesota Search.json API
   slug: university-of-minnesota-search-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-search-json-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-minnesota/openapi/university-of-minnesota-search-json-api-openapi.yml
 - filename: university-of-minnesota-co-p-api-openapi.yml
   format: yaml
   label: University of Minnesota Co P API
   slug: university-of-minnesota-co-p-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-co-p-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-minnesota/openapi/university-of-minnesota-co-p-api-openapi.yml
 auth_types: []
 description: How each University of Minnesota surface authenticates. Recorded per surface because the institution operates several unrelated surfaces with unrelated auth models, and two of them are run on vendor platforms under a UMN tenancy rather than by the University itself.
 kind: authentication
@@ -68,7 +68,7 @@ source_yaml: "---\nname: University of Minnesota — authentication across progr
   \ note: DSpace 10.0 HAL root, anonymous.\n      - url: https://conservancy.umn.edu/server/api/core/communities?size=2\n        status: 200\n        note: Community listing, anonymous.\n      - url: https://conservancy.umn.edu/server/api/core/items?size=1\n        status: 401\n        body: '{\"status\":401,\"error\":\"Unauthorized\",\"message\":\"Authentication is required\"}'\n      - url: https://conservancy.umn.edu/server/oai/request?verb=Identify\n        status: 200\n        note: OAI-PMH 2.0, anonymous, no credential of any kind.\n  - surface: Common Good APIs (OIT Integrations)\n    x-operator: institution\n    host: integration-boomi.umn.edu\n    scheme: gated\n    detail: >-\n      Access is granted by request and data-custodian approval, scaled to the University's data\n      classification tiers (public / private / restricted / highly restricted). No anonymous\n      credential path exists and the Swagger documents live only inside the tenant developer\n      portal, behind\
   \ its sign-in.\n    evidence:\n      - url: https://sites.google.com/umn.edu/integration-apis/common-good-apis\n        status: 200\n      - url: https://umn-prod-apigw.boomi.cloud:18077/#catalog\n        status: 200\n        note: >-\n          The catalog UI answers, but it is a GWT single-page app; no anonymous REST or Swagger\n          path was reachable. /api/{id}/swagger, /api/{id}/openapi, /rest/apis and eleven other\n          candidate paths all returned 404.\n  - surface: Institutional identity (Shibboleth IdP)\n    x-operator: federation\n    host: login.umn.edu\n    scheme: saml2\n    detail: >-\n      The University operates its own Shibboleth IdP and publishes it through InCommon. This is\n      the auth surface behind almost every gated University application.\n    evidence:\n      - url: https://mdq.incommon.org/entities/urn%3Amace%3Aincommon%3Aumn.edu\n        status: 200\n        note: >-\n          entityID urn:mace:incommon:umn.edu, shibmd:Scope umn.edu, SingleSignOnService\
   \ at\n          https://login.umn.edu/idp/profile/SAML2/Redirect/SSO.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/authentication/university-of-minnesota-authentication.yml
+source_yaml_url: https://artifacts.apis.io/university-of-minnesota/authentication/university-of-minnesota-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

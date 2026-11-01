@@ -8,25 +8,25 @@ api_specs:
   label: Aloha POS Catalog API
   slug: aloha-pos-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aloha-pos/refs/heads/main/openapi/aloha-pos-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/aloha-pos/openapi/aloha-pos-catalog-api-openapi.yml
 - filename: aloha-pos-menu-api-openapi.yml
   format: yaml
   label: Aloha POS Menu API
   slug: aloha-pos-menu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aloha-pos/refs/heads/main/openapi/aloha-pos-menu-api-openapi.yml
+  url: https://artifacts.apis.io/aloha-pos/openapi/aloha-pos-menu-api-openapi.yml
 - filename: aloha-pos-order-api-openapi.yml
   format: yaml
   label: Aloha POS Order API
   slug: aloha-pos-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aloha-pos/refs/heads/main/openapi/aloha-pos-order-api-openapi.yml
+  url: https://artifacts.apis.io/aloha-pos/openapi/aloha-pos-order-api-openapi.yml
 - filename: aloha-pos-site-api-openapi.yml
   format: yaml
   label: Aloha POS Site API
   slug: aloha-pos-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aloha-pos/refs/heads/main/openapi/aloha-pos-site-api-openapi.yml
+  url: https://artifacts.apis.io/aloha-pos/openapi/aloha-pos-site-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: aloha-pos-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ncr-voyix-platform-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmacAccessKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: HMAC authentication. The Authorization header carries \"AccessKey {sharedKey}:{signature}\",\n    where the signature is a Base64 SHA-512 HMAC computed over the HTTP method, path and query,\n    Content-Type, nep-correlation-id, and nep-organization, keyed by the secret key concatenated\n    with the ISO-8601 request date. See the ncr-bsp-hmac repository for reference implementations.\n  sources:\n  - openapi/ncr-voyix-platform-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aloha-pos/refs/heads/main/authentication/aloha-pos-authentication.yml
+source_yaml_url: https://artifacts.apis.io/aloha-pos/authentication/aloha-pos-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Point-of-Sale

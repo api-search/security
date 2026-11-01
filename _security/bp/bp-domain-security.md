@@ -5,49 +5,49 @@ api_specs:
   label: BP Cards API
   slug: bp-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/openapi/bp-cards-api-openapi.yml
+  url: https://artifacts.apis.io/bp/openapi/bp-cards-api-openapi.yml
 - filename: bp-fueling-api-openapi.yml
   format: yaml
   label: BP Fueling API
   slug: bp-fueling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/openapi/bp-fueling-api-openapi.yml
+  url: https://artifacts.apis.io/bp/openapi/bp-fueling-api-openapi.yml
 - filename: bp-openapiinvoices-api-openapi.yml
   format: yaml
   label: BP Open API Invoices API
   slug: bp-openapiinvoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/openapi/bp-openapiinvoices-api-openapi.yml
+  url: https://artifacts.apis.io/bp/openapi/bp-openapiinvoices-api-openapi.yml
 - filename: bp-openapitransactions-api-openapi.yml
   format: yaml
   label: BP Open API Transactions API
   slug: bp-openapitransactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/openapi/bp-openapitransactions-api-openapi.yml
+  url: https://artifacts.apis.io/bp/openapi/bp-openapitransactions-api-openapi.yml
 - filename: bp-sitediscovery-api-openapi.yml
   format: yaml
   label: BP Site Discovery API
   slug: bp-sitediscovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/openapi/bp-sitediscovery-api-openapi.yml
+  url: https://artifacts.apis.io/bp/openapi/bp-sitediscovery-api-openapi.yml
 - filename: bp-token-api-openapi.yml
   format: yaml
   label: BP Token API
   slug: bp-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/openapi/bp-token-api-openapi.yml
+  url: https://artifacts.apis.io/bp/openapi/bp-token-api-openapi.yml
 - filename: bp-health-check-api-openapi.yml
   format: yaml
   label: BP Health Check API
   slug: bp-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/openapi/bp-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/bp/openapi/bp-health-check-api-openapi.yml
 - filename: bp-payment-method-api-openapi.yml
   format: yaml
   label: BP Payment Method API
   slug: bp-payment-method-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/openapi/bp-payment-method-api-openapi.yml
+  url: https://artifacts.apis.io/bp/openapi/bp-payment-method-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -88,7 +88,7 @@ source_filename: bp-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 19 23:59:59 2027 GMT\n  hsts: null\n- host: developer.bp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 10886400\ndomains:\n- domain: bp.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issue \"www.digicert.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/security/bp-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bp/security/bp-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Energy
@@ -96,7 +96,7 @@ tags:
 - Gas
 - Renewables
 - Developer Platform
-- Fleet
+- Fleet Management
 - Fuel Cards
 - Mobility
 - Retail Fuel

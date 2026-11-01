@@ -5,7 +5,7 @@ api_specs:
   label: Meshes API
   slug: meshes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meshes/refs/heads/main/openapi/_ae-authored/meshes-openapi-generated.yml
+  url: https://artifacts.apis.io/meshes/openapi/_ae-authored/meshes-openapi-generated.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -23,13 +23,12 @@ source_filename: meshes-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-18'\nmethod: searched\nprobe: true\nsource: https://meshes.io/security\nurl: https://meshes.io/security\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://meshes.io/security\n  keywords:\n  - soc 2\n  - soc2\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meshes/refs/heads/main/security/meshes-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/meshes/security/meshes-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - Company
 - iPaaS
-- SaaS
+- Software-as-a-Service
 - Integration
-- API
 trust_url: https://meshes.io/security
 ---

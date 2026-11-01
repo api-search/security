@@ -8,7 +8,13 @@ api_specs:
   label: Amazon Compute Optimizer AWS Compute Optimizer API
   slug: amazon-compute-optimizer-aws-compute-optimizer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/openapi/amazon-compute-optimizer-aws-compute-optimizer-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-compute-optimizer/openapi/amazon-compute-optimizer-aws-compute-optimizer-api-openapi.yml
+- filename: amazon-compute-optimizer-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Compute Optimizer Compute Optimizer Operations API
+  slug: amazon-compute-optimizer-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-compute-optimizer/openapi/amazon-compute-optimizer-operations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +42,7 @@ source_filename: amazon-compute-optimizer-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-compute-optimizer-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-compute-optimizer-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/authentication/amazon-compute-optimizer-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-compute-optimizer/authentication/amazon-compute-optimizer-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Cost Optimization

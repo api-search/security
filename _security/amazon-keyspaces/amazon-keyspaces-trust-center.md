@@ -5,13 +5,25 @@ api_specs:
   label: Amazon Keyspaces API
   slug: amazon-keyspaces-keyspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/openapi/amazon-keyspaces-keyspaces-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-keyspaces/openapi/amazon-keyspaces-keyspaces-api-openapi.yml
 - filename: amazon-keyspaces-tables-api-openapi.yml
   format: yaml
   label: Amazon Keyspaces Tables API
   slug: amazon-keyspaces-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/openapi/amazon-keyspaces-tables-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-keyspaces/openapi/amazon-keyspaces-tables-api-openapi.yml
+- filename: amazon-keyspaces-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Keyspaces Keyspaces Operations API
+  slug: amazon-keyspaces-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-keyspaces/openapi/amazon-keyspaces-operations-api-openapi.yml
+- filename: amazon-keyspaces-type-api-openapi.yml
+  format: yaml
+  label: Amazon Keyspaces Keyspaces Type API
+  slug: amazon-keyspaces-type-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-keyspaces/openapi/amazon-keyspaces-type-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -32,7 +44,7 @@ source_filename: amazon-keyspaces-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://aws.amazon.com/compliance/\nurl: https://aws.amazon.com/compliance/\ncertifications:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://aws.amazon.com/compliance/\n  keywords:\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/security/amazon-keyspaces-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/amazon-keyspaces/security/amazon-keyspaces-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Cassandra

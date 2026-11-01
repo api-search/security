@@ -7,37 +7,37 @@ api_specs:
   label: Luminary Documents API
   slug: luminary-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-documents-api-openapi.yml
+  url: https://artifacts.apis.io/luminary/openapi/luminary-documents-api-openapi.yml
 - filename: luminary-entities-api-openapi.yml
   format: yaml
   label: Luminary Entities API
   slug: luminary-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-entities-api-openapi.yml
+  url: https://artifacts.apis.io/luminary/openapi/luminary-entities-api-openapi.yml
 - filename: luminary-households-api-openapi.yml
   format: yaml
   label: Luminary Households API
   slug: luminary-households-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-households-api-openapi.yml
+  url: https://artifacts.apis.io/luminary/openapi/luminary-households-api-openapi.yml
 - filename: luminary-individuals-api-openapi.yml
   format: yaml
   label: Luminary Individuals API
   slug: luminary-individuals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-individuals-api-openapi.yml
+  url: https://artifacts.apis.io/luminary/openapi/luminary-individuals-api-openapi.yml
 - filename: luminary-users-api-openapi.yml
   format: yaml
   label: Luminary Users API
   slug: luminary-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-users-api-openapi.yml
+  url: https://artifacts.apis.io/luminary/openapi/luminary-users-api-openapi.yml
 - filename: luminary-valuations-api-openapi.yml
   format: yaml
   label: Luminary Valuations API
   slug: luminary-valuations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-valuations-api-openapi.yml
+  url: https://artifacts.apis.io/luminary/openapi/luminary-valuations-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -73,7 +73,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/luminary-openapi-original.yml\ndocs: https://api.withluminary.com/.well-known/openid-configuration\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\n  # From the authorization-server discovery docs (well-known/): PKCE S256 is\n  # supported, plus the device_code grant and refresh_token. SDKs default to the\n  # client_credentials flow (CLIENT_ID / CLIENT_SECRET env vars).\n  discovery:\n  - https://api.withluminary.com/.well-known/openid-configuration\n  - https://api.withluminary.com/.well-known/oauth-authorization-server\n  pkce: S256\n  additional_grants:\n  - refresh_token\n  - urn:ietf:params:oauth:grant-type:device_code\n  issuer: https://auth.withluminary.com\nschemes:\n- name: oauth2Profiles\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.withluminary.com/oauth2/authorize\n    tokenUrl: https://auth.withluminary.com/oauth2/token\n\
   \    scopes: 0\n  - flow: clientCredentials\n    tokenUrl: https://auth.withluminary.com/oauth2/token\n    scopes: 0\n  sources:\n  - openapi/luminary-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/authentication/luminary-authentication.yml
+source_yaml_url: https://artifacts.apis.io/luminary/authentication/luminary-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

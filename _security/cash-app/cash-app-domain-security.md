@@ -5,151 +5,151 @@ api_specs:
   label: Cash App Add Cash App Pay To Your Site API
   slug: cash-app-add-cash-app-pay-to-your-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-add-cash-app-pay-to-your-site-api-openapi.yml
+  url: https://artifacts.apis.io/cash-app/openapi/cash-app-add-cash-app-pay-to-your-site-api-openapi.yml
 - filename: cash-app-balances-api-openapi.yml
   format: yaml
   label: Cash App Balances API
   slug: cash-app-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-balances-api-openapi.yml
+  url: https://artifacts.apis.io/cash-app/openapi/cash-app-balances-api-openapi.yml
 - filename: cash-app-billing-agreements-deprecated-api-openapi.yml
   format: yaml
   label: Cash App Billing Agreements (Deprecated) API
   slug: cash-app-billing-agreements-deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-billing-agreements-deprecated-api-openapi.yml
+  url: https://artifacts.apis.io/cash-app/openapi/cash-app-billing-agreements-deprecated-api-openapi.yml
 - filename: cash-app-brands-api-openapi.yml
   format: yaml
   label: Cash App Brands API
   slug: cash-app-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-brands-api-openapi.yml
+  url: https://artifacts.apis.io/cash-app/openapi/cash-app-brands-api-openapi.yml
 - filename: cash-app-customer-request-api-api-openapi.yml
   format: yaml
   label: Cash App Customer Request API
   slug: cash-app-customer-request-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-customer-request-api-api-openapi.yml
+  url: https://artifacts.apis.io/cash-app/openapi/cash-app-customer-request-api-api-openapi.yml
 - filename: cash-app-customers-api-openapi.yml
   format: yaml
   label: Cash App Customers API
   slug: cash-app-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-customers-api-openapi.yml
+  url: https://artifacts.apis.io/cash-app/openapi/cash-app-customers-api-openapi.yml
 - filename: cash-app-disputes-api-openapi.yml
   format: yaml
   label: Cash App Disputes API
   slug: cash-app-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/cash-app/openapi/cash-app-disputes-api-openapi.yml
 - filename: cash-app-grants-afterpay-api-openapi.yml
   format: yaml
   label: Cash App Grants Afterpay API
   slug: cash-app-grants-afterpay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-grants-afterpay-api-openapi.yml
+  url: https://artifacts.apis.io/cash-app/openapi/cash-app-grants-afterpay-api-openapi.yml
 - filename: cash-app-merchants-api-openapi.yml
   format: yaml
   label: Cash App Merchants API
   slug: cash-app-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/cash-app/openapi/cash-app-merchants-api-openapi.yml
 - filename: cash-app-network-api-api-openapi.yml
   format: yaml
   label: Cash App Network API
   slug: cash-app-network-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-network-api-api-openapi.yml
+  url: https://artifacts.apis.io/cash-app/openapi/cash-app-network-api-api-openapi.yml
 - filename: cash-app-payments-api-openapi.yml
   format: yaml
   label: Cash App Payments API
   slug: cash-app-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-payments-api-openapi.yml
+  url: https://artifacts.apis.io/cash-app/openapi/cash-app-payments-api-openapi.yml
 - filename: cash-app-payouts-api-openapi.yml
   format: yaml
   label: Cash App Payouts API
   slug: cash-app-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/cash-app/openapi/cash-app-payouts-api-openapi.yml
 - filename: cash-app-refunds-api-openapi.yml
   format: yaml
   label: Cash App Refunds API
   slug: cash-app-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/cash-app/openapi/cash-app-refunds-api-openapi.yml
 - filename: cash-app-requestchains-api-openapi.yml
   format: yaml
   label: Cash App Request Chains API
   slug: cash-app-requestchains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-requestchains-api-openapi.yml
+  url: https://artifacts.apis.io/cash-app/openapi/cash-app-requestchains-api-openapi.yml
 - filename: cash-app-requests-api-openapi.yml
   format: yaml
   label: Cash App Requests API
   slug: cash-app-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-requests-api-openapi.yml
+  url: https://artifacts.apis.io/cash-app/openapi/cash-app-requests-api-openapi.yml
 - filename: cash-app-webhooks-api-openapi.yml
   format: yaml
   label: Cash App Webhooks API
   slug: cash-app-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cash-app/openapi/cash-app-webhooks-api-openapi.yml
 - filename: cash-app-billing-agreements-api-openapi.yml
   format: yaml
   label: Cash App Billing Agreements API
   slug: cash-app-billing-agreements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-billing-agreements-api-openapi.yml
+  url: https://artifacts.apis.io/cash-app/openapi/cash-app-billing-agreements-api-openapi.yml
 - filename: cash-app-checkouts-api-openapi.yml
   format: yaml
   label: Cash App Checkouts API
   slug: cash-app-checkouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-checkouts-api-openapi.yml
+  url: https://artifacts.apis.io/cash-app/openapi/cash-app-checkouts-api-openapi.yml
 - filename: cash-app-configuration-api-openapi.yml
   format: yaml
   label: Cash App Configuration API
   slug: cash-app-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/cash-app/openapi/cash-app-configuration-api-openapi.yml
 - filename: cash-app-grants-api-openapi.yml
   format: yaml
   label: Cash App Grants API
   slug: cash-app-grants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-grants-api-openapi.yml
+  url: https://artifacts.apis.io/cash-app/openapi/cash-app-grants-api-openapi.yml
 - filename: cash-app-orders-api-openapi.yml
   format: yaml
   label: Cash App Orders API
   slug: cash-app-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-orders-api-openapi.yml
+  url: https://artifacts.apis.io/cash-app/openapi/cash-app-orders-api-openapi.yml
 - filename: cash-app-ping-api-openapi.yml
   format: yaml
   label: Cash App Ping API
   slug: cash-app-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-ping-api-openapi.yml
+  url: https://artifacts.apis.io/cash-app/openapi/cash-app-ping-api-openapi.yml
 - filename: cash-app-recurring-payments-api-openapi.yml
   format: yaml
   label: Cash App Recurring Payments API
   slug: cash-app-recurring-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-recurring-payments-api-openapi.yml
+  url: https://artifacts.apis.io/cash-app/openapi/cash-app-recurring-payments-api-openapi.yml
 - filename: cash-app-api-keys-api-openapi.yml
   format: yaml
   label: Cash App API Keys API
   slug: cash-app-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/cash-app/openapi/cash-app-api-keys-api-openapi.yml
 - filename: cash-app-fee-plans-api-openapi.yml
   format: yaml
   label: Cash App Fee Plans API
   slug: cash-app-fee-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-fee-plans-api-openapi.yml
+  url: https://artifacts.apis.io/cash-app/openapi/cash-app-fee-plans-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -190,7 +190,7 @@ source_filename: cash-app-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-23'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cash.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 23:31:29 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.cash.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 13:53:11 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.cash.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 22:09:30 2026 GMT\n  hsts: null\ndomains:\n- domain: cash.app\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/security/cash-app-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cash-app/security/cash-app-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Financial Services

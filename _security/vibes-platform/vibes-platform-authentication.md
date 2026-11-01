@@ -7,181 +7,181 @@ api_specs:
   label: Vibes Platform Acquisition Campaigns API
   slug: vibes-platform-acquisition-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-acquisition-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/vibes-platform/openapi/vibes-platform-acquisition-campaigns-api-openapi.yml
 - filename: vibes-platform-broadcasts-api-openapi.yml
   format: yaml
   label: Vibes Platform Broadcasts API
   slug: vibes-platform-broadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-broadcasts-api-openapi.yml
+  url: https://artifacts.apis.io/vibes-platform/openapi/vibes-platform-broadcasts-api-openapi.yml
 - filename: vibes-platform-callbacks-api-openapi.yml
   format: yaml
   label: Vibes Platform Callbacks API
   slug: vibes-platform-callbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-callbacks-api-openapi.yml
+  url: https://artifacts.apis.io/vibes-platform/openapi/vibes-platform-callbacks-api-openapi.yml
 - filename: vibes-platform-carrier-lookup-api-openapi.yml
   format: yaml
   label: Vibes Platform Carrier Lookup API
   slug: vibes-platform-carrier-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-carrier-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/vibes-platform/openapi/vibes-platform-carrier-lookup-api-openapi.yml
 - filename: vibes-platform-events-api-openapi.yml
   format: yaml
   label: Vibes Platform Events API
   slug: vibes-platform-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-events-api-openapi.yml
+  url: https://artifacts.apis.io/vibes-platform/openapi/vibes-platform-events-api-openapi.yml
 - filename: vibes-platform-inbound-messages-api-openapi.yml
   format: yaml
   label: Vibes Platform Inbound Messages API
   slug: vibes-platform-inbound-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-inbound-messages-api-openapi.yml
+  url: https://artifacts.apis.io/vibes-platform/openapi/vibes-platform-inbound-messages-api-openapi.yml
 - filename: vibes-platform-messages-api-openapi.yml
   format: yaml
   label: Vibes Platform Messages API
   slug: vibes-platform-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-messages-api-openapi.yml
+  url: https://artifacts.apis.io/vibes-platform/openapi/vibes-platform-messages-api-openapi.yml
 - filename: vibes-platform-persons-api-openapi.yml
   format: yaml
   label: Vibes Platform Persons API
   slug: vibes-platform-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-persons-api-openapi.yml
+  url: https://artifacts.apis.io/vibes-platform/openapi/vibes-platform-persons-api-openapi.yml
 - filename: vibes-platform-subscription-lists-api-openapi.yml
   format: yaml
   label: Vibes Platform Subscription Lists API
   slug: vibes-platform-subscription-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-subscription-lists-api-openapi.yml
+  url: https://artifacts.apis.io/vibes-platform/openapi/vibes-platform-subscription-lists-api-openapi.yml
 - filename: vibes-platform-wallet-passes-api-openapi.yml
   format: yaml
   label: Vibes Platform Wallet Passes API
   slug: vibes-platform-wallet-passes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-wallet-passes-api-openapi.yml
+  url: https://artifacts.apis.io/vibes-platform/openapi/vibes-platform-wallet-passes-api-openapi.yml
 - filename: vibes-platform-acquisition-campaign-api-api-openapi.yml
   format: yaml
   label: Vibes Platform Acquisition Campaign API
   slug: vibes-platform-acquisition-campaign-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-acquisition-campaign-api-api-openapi.yml
+  url: https://artifacts.apis.io/vibes-platform/openapi/vibes-platform-acquisition-campaign-api-api-openapi.yml
 - filename: vibes-platform-android-wallet-templates-api-api-openapi.yml
   format: yaml
   label: Vibes Platform Android Wallet Templates API
   slug: vibes-platform-android-wallet-templates-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-android-wallet-templates-api-api-openapi.yml
+  url: https://artifacts.apis.io/vibes-platform/openapi/vibes-platform-android-wallet-templates-api-api-openapi.yml
 - filename: vibes-platform-authentication-api-openapi.yml
   format: yaml
   label: Vibes Platform Authentication API
   slug: vibes-platform-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/vibes-platform/openapi/vibes-platform-authentication-api-openapi.yml
 - filename: vibes-platform-broadcast-api-api-openapi.yml
   format: yaml
   label: Vibes Platform Broadcast API
   slug: vibes-platform-broadcast-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-broadcast-api-api-openapi.yml
+  url: https://artifacts.apis.io/vibes-platform/openapi/vibes-platform-broadcast-api-api-openapi.yml
 - filename: vibes-platform-callback-api-api-openapi.yml
   format: yaml
   label: Vibes Platform Callback API
   slug: vibes-platform-callback-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-callback-api-api-openapi.yml
+  url: https://artifacts.apis.io/vibes-platform/openapi/vibes-platform-callback-api-api-openapi.yml
 - filename: vibes-platform-event-api-api-openapi.yml
   format: yaml
   label: Vibes Platform Event API
   slug: vibes-platform-event-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-event-api-api-openapi.yml
+  url: https://artifacts.apis.io/vibes-platform/openapi/vibes-platform-event-api-api-openapi.yml
 - filename: vibes-platform-event-triggered-campaign-api-api-openapi.yml
   format: yaml
   label: Vibes Platform Event-Triggered Campaign API
   slug: vibes-platform-event-triggered-campaign-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-event-triggered-campaign-api-api-openapi.yml
+  url: https://artifacts.apis.io/vibes-platform/openapi/vibes-platform-event-triggered-campaign-api-api-openapi.yml
 - filename: vibes-platform-incentive-code-api-api-openapi.yml
   format: yaml
   label: Vibes Platform Incentive Code API
   slug: vibes-platform-incentive-code-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-incentive-code-api-api-openapi.yml
+  url: https://artifacts.apis.io/vibes-platform/openapi/vibes-platform-incentive-code-api-api-openapi.yml
 - filename: vibes-platform-incentive-pool-api-api-openapi.yml
   format: yaml
   label: Vibes Platform Incentive Pool API
   slug: vibes-platform-incentive-pool-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-incentive-pool-api-api-openapi.yml
+  url: https://artifacts.apis.io/vibes-platform/openapi/vibes-platform-incentive-pool-api-api-openapi.yml
 - filename: vibes-platform-ios-wallet-templates-api-api-openapi.yml
   format: yaml
   label: Vibes Platform iOS Wallet Templates API
   slug: vibes-platform-ios-wallet-templates-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-ios-wallet-templates-api-api-openapi.yml
+  url: https://artifacts.apis.io/vibes-platform/openapi/vibes-platform-ios-wallet-templates-api-api-openapi.yml
 - filename: vibes-platform-person-api-api-openapi.yml
   format: yaml
   label: Vibes Platform Person API
   slug: vibes-platform-person-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-person-api-api-openapi.yml
+  url: https://artifacts.apis.io/vibes-platform/openapi/vibes-platform-person-api-api-openapi.yml
 - filename: vibes-platform-push-device-manager-api-api-openapi.yml
   format: yaml
   label: Vibes Platform Push Device Manager API
   slug: vibes-platform-push-device-manager-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-push-device-manager-api-api-openapi.yml
+  url: https://artifacts.apis.io/vibes-platform/openapi/vibes-platform-push-device-manager-api-api-openapi.yml
 - filename: vibes-platform-rcs-business-messaging-api-openapi.yml
   format: yaml
   label: Vibes Platform RCS Business Messaging API
   slug: vibes-platform-rcs-business-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-rcs-business-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/vibes-platform/openapi/vibes-platform-rcs-business-messaging-api-openapi.yml
 - filename: vibes-platform-source-code-api-api-openapi.yml
   format: yaml
   label: Vibes Platform Source Code API
   slug: vibes-platform-source-code-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-source-code-api-api-openapi.yml
+  url: https://artifacts.apis.io/vibes-platform/openapi/vibes-platform-source-code-api-api-openapi.yml
 - filename: vibes-platform-subscription-api-api-openapi.yml
   format: yaml
   label: Vibes Platform Subscription API
   slug: vibes-platform-subscription-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-subscription-api-api-openapi.yml
+  url: https://artifacts.apis.io/vibes-platform/openapi/vibes-platform-subscription-api-api-openapi.yml
 - filename: vibes-platform-subscription-list-api-api-openapi.yml
   format: yaml
   label: Vibes Platform Subscription List API
   slug: vibes-platform-subscription-list-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-subscription-list-api-api-openapi.yml
+  url: https://artifacts.apis.io/vibes-platform/openapi/vibes-platform-subscription-list-api-api-openapi.yml
 - filename: vibes-platform-wallet-campaign-api-api-openapi.yml
   format: yaml
   label: Vibes Platform Wallet Campaign API
   slug: vibes-platform-wallet-campaign-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-wallet-campaign-api-api-openapi.yml
+  url: https://artifacts.apis.io/vibes-platform/openapi/vibes-platform-wallet-campaign-api-api-openapi.yml
 - filename: vibes-platform-wallet-location-selector-api-api-openapi.yml
   format: yaml
   label: Vibes Platform Wallet Location Selector API
   slug: vibes-platform-wallet-location-selector-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-wallet-location-selector-api-api-openapi.yml
+  url: https://artifacts.apis.io/vibes-platform/openapi/vibes-platform-wallet-location-selector-api-api-openapi.yml
 - filename: vibes-platform-wallet-messaging-api-api-openapi.yml
   format: yaml
   label: Vibes Platform Wallet Messaging API
   slug: vibes-platform-wallet-messaging-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-wallet-messaging-api-api-openapi.yml
+  url: https://artifacts.apis.io/vibes-platform/openapi/vibes-platform-wallet-messaging-api-api-openapi.yml
 - filename: vibes-platform-wallet-store-locations-api-api-openapi.yml
   format: yaml
   label: Vibes Platform Wallet Store Locations API
   slug: vibes-platform-wallet-store-locations-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-wallet-store-locations-api-api-openapi.yml
+  url: https://artifacts.apis.io/vibes-platform/openapi/vibes-platform-wallet-store-locations-api-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -232,7 +232,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\ndocs: https://developer
   \ - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic Authentication. Combine the username and password into a \"username:password\"\n    string, encode it using Base64, and add the Authorization HTTP header set to \"Basic \" plus\n    the encoded string.\n  sources:\n  - openapi/vibes-platform-acquisition-campaigns-api-openapi.yml\n  - openapi/vibes-platform-api-openapi.json\n  - openapi/vibes-platform-broadcasts-api-openapi.yml\n  - openapi/vibes-platform-callbacks-api-openapi.yml\n  - openapi/vibes-platform-carrier-lookup-api-openapi.yml\n  - openapi/vibes-platform-events-api-openapi.yml\n  - openapi/vibes-platform-inbound-messages-api-openapi.yml\n  - openapi/vibes-platform-messages-api-openapi.yml\n  - openapi/vibes-platform-persons-api-openapi.yml\n  - openapi/vibes-platform-rbm-authentication-openapi.json\n  - openapi/vibes-platform-subscription-lists-api-openapi.yml\n  - openapi/vibes-platform-wallet-passes-api-openapi.yml\n\
   - name: OAuth2Auth\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://vibes-rbm-prd.auth.us-west-2.amazoncognito.com/oauth2/token\n    scopes: 1\n  sources:\n  - openapi/vibes-platform-rcs-business-messaging-openapi.json\ndocs_findings:\n  - scheme: basicAuth\n    published: true\n    detail: >-\n      Vibes' Technical Details page documents Basic auth construction step by step and warns that\n      usernames must DIFFER between the EU and US instances — credentials are not portable across\n      regions, which the OpenAPI does not say.\n    source: https://developer-platform.vibes.com/reference/technical-details\n  - scheme: clientCertificate\n    type: mutualTLS\n    published: true\n    in_spec: false\n    detail: >-\n      Vibes documents client certificate authentication as an optional additional layer on top of\n      Basic for API calls. It appears in NO securityScheme in any published spec, so a\n      spec-only reader would never learn it exists.\n \
   \   source: https://developer-platform.vibes.com/docs/client-certificate-authentication-for-vibes-apis\n  - scheme: OAuth2Auth\n    published: true\n    detail: >-\n      OAuth 2.0 client credentials, documented for the RCS Business Messaging API only. Token is\n      issued by a Vibes-operated AWS Cognito user pool and presented as\n      `Authorization: Bearer [access_token]`.\n    source: https://developer-aggregation.vibes.com/reference/authentication-1\nrequired_headers_note: >-\n  Authentication alone is not sufficient — X-API-Version must also be sent (see\n  conventions/vibes-platform-conventions.yml). Omitting it silently selects version 1, which cannot\n  handle E.164 phone numbers.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/authentication/vibes-platform-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vibes-platform/authentication/vibes-platform-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Mobile Marketing

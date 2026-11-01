@@ -5,25 +5,25 @@ api_specs:
   label: United States Steel Inventory API
   slug: united-states-steel-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-steel/refs/heads/main/openapi/united-states-steel-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-steel/openapi/united-states-steel-inventory-api-openapi.yml
 - filename: united-states-steel-orders-api-openapi.yml
   format: yaml
   label: United States Steel Orders API
   slug: united-states-steel-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-steel/refs/heads/main/openapi/united-states-steel-orders-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-steel/openapi/united-states-steel-orders-api-openapi.yml
 - filename: united-states-steel-shipments-api-openapi.yml
   format: yaml
   label: United States Steel Shipments API
   slug: united-states-steel-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-steel/refs/heads/main/openapi/united-states-steel-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-steel/openapi/united-states-steel-shipments-api-openapi.yml
 - filename: united-states-steel-test-reports-api-openapi.yml
   format: yaml
   label: United States Steel Test Reports API
   slug: united-states-steel-test-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-steel/refs/heads/main/openapi/united-states-steel-test-reports-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-steel/openapi/united-states-steel-test-reports-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -56,7 +56,7 @@ source_filename: united-states-steel-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ussteel.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 13 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: steeltrack.ussteel.com\n  https: false\ndomains:\n- domain: ussteel.com\n  dnssec: false\n  caa:\n  - ;; connection timed out; no servers could be reached\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/united-states-steel/refs/heads/main/security/united-states-steel-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/united-states-steel/security/united-states-steel-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Steel

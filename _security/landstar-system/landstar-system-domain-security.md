@@ -24,7 +24,7 @@ source_filename: landstar-system-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.landstar-system.com\n  https: false\ndomains:\n- domain: landstar-system.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/landstar-system/refs/heads/main/security/landstar-system-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/landstar-system/security/landstar-system-domain-security.yml
 summary_line: DMARC
 tags:
 - Transportation

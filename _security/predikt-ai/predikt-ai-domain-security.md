@@ -33,7 +33,7 @@ source_filename: predikt-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: predikdata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 02:57:43 2026 GMT\n  hsts: true\n  hsts_max_age: 0\n- host: api.predikdata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 20 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: predikdata.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/predikt-ai/refs/heads/main/security/predikt-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/predikt-ai/security/predikt-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Web Intelligence
@@ -45,7 +45,7 @@ tags:
 - Location Intelligence
 - Geospatial
 - Foot Traffic
-- POI Data
+- POI
 - Mobility Data
 - Demand Forecasting
 - Site Selection

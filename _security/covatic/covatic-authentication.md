@@ -7,109 +7,109 @@ api_specs:
   label: Covatic Audience Builder Agent API
   slug: covatic-audience-builder-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-audience-builder-agent-api-openapi.yml
+  url: https://artifacts.apis.io/covatic/openapi/covatic-audience-builder-agent-api-openapi.yml
 - filename: covatic-audience-builder-api-openapi.yml
   format: yaml
   label: Covatic Audience Builder API
   slug: covatic-audience-builder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-audience-builder-api-openapi.yml
+  url: https://artifacts.apis.io/covatic/openapi/covatic-audience-builder-api-openapi.yml
 - filename: covatic-auth-api-openapi.yml
   format: yaml
   label: Covatic Auth API
   slug: covatic-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-auth-api-openapi.yml
+  url: https://artifacts.apis.io/covatic/openapi/covatic-auth-api-openapi.yml
 - filename: covatic-campaigns-api-openapi.yml
   format: yaml
   label: Covatic Campaigns API
   slug: covatic-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/covatic/openapi/covatic-campaigns-api-openapi.yml
 - filename: covatic-commons-api-openapi.yml
   format: yaml
   label: Covatic Commons API
   slug: covatic-commons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-commons-api-openapi.yml
+  url: https://artifacts.apis.io/covatic/openapi/covatic-commons-api-openapi.yml
 - filename: covatic-company-api-openapi.yml
   format: yaml
   label: Covatic Company API
   slug: covatic-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-company-api-openapi.yml
+  url: https://artifacts.apis.io/covatic/openapi/covatic-company-api-openapi.yml
 - filename: covatic-event-traits-api-openapi.yml
   format: yaml
   label: Covatic Event Traits API
   slug: covatic-event-traits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-event-traits-api-openapi.yml
+  url: https://artifacts.apis.io/covatic/openapi/covatic-event-traits-api-openapi.yml
 - filename: covatic-insights-api-openapi.yml
   format: yaml
   label: Covatic Insights API
   slug: covatic-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-insights-api-openapi.yml
+  url: https://artifacts.apis.io/covatic/openapi/covatic-insights-api-openapi.yml
 - filename: covatic-notes-api-openapi.yml
   format: yaml
   label: Covatic Notes API
   slug: covatic-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-notes-api-openapi.yml
+  url: https://artifacts.apis.io/covatic/openapi/covatic-notes-api-openapi.yml
 - filename: covatic-profiles-api-openapi.yml
   format: yaml
   label: Covatic Profiles API
   slug: covatic-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/covatic/openapi/covatic-profiles-api-openapi.yml
 - filename: covatic-qa-and-debug-api-openapi.yml
   format: yaml
   label: Covatic QA and Debug API
   slug: covatic-qa-and-debug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-qa-and-debug-api-openapi.yml
+  url: https://artifacts.apis.io/covatic/openapi/covatic-qa-and-debug-api-openapi.yml
 - filename: covatic-retargeting-traits-api-openapi.yml
   format: yaml
   label: Covatic Retargeting Traits API
   slug: covatic-retargeting-traits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-retargeting-traits-api-openapi.yml
+  url: https://artifacts.apis.io/covatic/openapi/covatic-retargeting-traits-api-openapi.yml
 - filename: covatic-root-api-openapi.yml
   format: yaml
   label: Covatic Root API
   slug: covatic-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-root-api-openapi.yml
+  url: https://artifacts.apis.io/covatic/openapi/covatic-root-api-openapi.yml
 - filename: covatic-seeders-api-openapi.yml
   format: yaml
   label: Covatic Seeders API
   slug: covatic-seeders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-seeders-api-openapi.yml
+  url: https://artifacts.apis.io/covatic/openapi/covatic-seeders-api-openapi.yml
 - filename: covatic-tags-api-openapi.yml
   format: yaml
   label: Covatic Tags API
   slug: covatic-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-tags-api-openapi.yml
+  url: https://artifacts.apis.io/covatic/openapi/covatic-tags-api-openapi.yml
 - filename: covatic-traits-api-openapi.yml
   format: yaml
   label: Covatic Traits API
   slug: covatic-traits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-traits-api-openapi.yml
+  url: https://artifacts.apis.io/covatic/openapi/covatic-traits-api-openapi.yml
 - filename: covatic-users-api-openapi.yml
   format: yaml
   label: Covatic Users API
   slug: covatic-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-users-api-openapi.yml
+  url: https://artifacts.apis.io/covatic/openapi/covatic-users-api-openapi.yml
 - filename: covatic-chat-gpt-api-openapi.yml
   format: yaml
   label: Covatic Chat GPT API
   slug: covatic-chat-gpt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-chat-gpt-api-openapi.yml
+  url: https://artifacts.apis.io/covatic/openapi/covatic-chat-gpt-api-openapi.yml
 auth_types:
 - http
 - openIdConnect
@@ -175,7 +175,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: >-\n  openapi/cov
   \  end_session_endpoint: https://clienttoolsapi.auth.eu-west-2.amazoncognito.com/logout\n  jwks_uri: https://cognito-idp.eu-west-2.amazonaws.com/eu-west-2_mQWqhJueg/.well-known/jwks.json\n  id_token_signing_alg_values_supported:\n  - RS256\n  response_types_supported:\n  - code\n  - token\n  token_endpoint_auth_methods_supported:\n  - client_secret_basic\n  - client_secret_post\n  scopes_supported:\n  - openid\n  - email\n  - phone\n  - profile\n  sources:\n  - https://cognito-idp.eu-west-2.amazonaws.com/eu-west-2_mQWqhJueg/.well-known/openid-configuration\n  note: >-\n    Discovered from the public JavaScript bundle Covatic serves at\n    platform.covatic.io/assets/App-DtRW1Itl.js, which constructs a CognitoUserPool with\n    UserPoolId eu-west-2_mQWqhJueg. The Cognito hosted-UI domain is `clienttoolsapi`,\n    which matches the API root banner \"Welcome to Covatic client tools.\" The SPA client\n    id is public browser configuration and is deliberately not recorded here.\nchallenge_observed:\n\
   \  url: https://prodaudiencebuilderapi.covatic.io/api/v1/campaigns/\n  http_status: 401\n  body: '{\"detail\":\"Not authenticated\"}'\n  www_authenticate: null\n  note: >-\n    FastAPI's HTTPBearer returns a bare 401 JSON body with NO WWW-Authenticate header,\n    so an agent gets no machine-readable pointer to the token endpoint from the 401\n    itself. Adding `WWW-Authenticate: Bearer` (RFC 6750) or an\n    /.well-known/oauth-protected-resource document (RFC 9728) would close that gap.\nauthorization_model:\n  multi_tenant: true\n  tenant_parameter: client_id\n  note: >-\n    Most operations accept a `client_id` query parameter (34 operations) and users are\n    associated with one or more companies/clients; /api/v1/user/clients lists them and\n    /api/v1/user/clients/default/{default_client_id} sets the active tenant. Roles are\n    assigned at user creation (/api/v1/user/create-users-with-roles). The role\n    vocabulary itself is not published in the spec.\ndocs:\n  public: false\n\
   \  note: >-\n    Covatic's SDK/API documentation at docs.covatic.io is Wiki.js behind a login (403\n    for every unauthenticated path); covatic.com/technical/ tells existing clients to\n    email support@covatic.com for credentials. No public authentication guide exists.\ncross_links:\n  scopes: scopes/covatic-scopes.yml\n  conventions: conventions/covatic-conventions.yml\n  well_known: well-known/covatic-well-known.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/authentication/covatic-authentication.yml
+source_yaml_url: https://artifacts.apis.io/covatic/authentication/covatic-authentication.yml
 summary_line: http/openIdConnect · 2 schemes
 tags:
 - Company

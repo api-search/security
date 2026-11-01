@@ -5,25 +5,25 @@ api_specs:
   label: Microsoft Office 365 Calendar API
   slug: microsoft-office-365-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/openapi/microsoft-office-365-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-office-365/openapi/microsoft-office-365-calendar-api-openapi.yml
 - filename: microsoft-office-365-groups-api-openapi.yml
   format: yaml
   label: Microsoft Office 365 Groups API
   slug: microsoft-office-365-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/openapi/microsoft-office-365-groups-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-office-365/openapi/microsoft-office-365-groups-api-openapi.yml
 - filename: microsoft-office-365-mail-api-openapi.yml
   format: yaml
   label: Microsoft Office 365 Mail API
   slug: microsoft-office-365-mail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/openapi/microsoft-office-365-mail-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-office-365/openapi/microsoft-office-365-mail-api-openapi.yml
 - filename: microsoft-office-365-users-api-openapi.yml
   format: yaml
   label: Microsoft Office 365 Users API
   slug: microsoft-office-365-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/openapi/microsoft-office-365-users-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-office-365/openapi/microsoft-office-365-users-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -65,7 +65,7 @@ source_filename: microsoft-office-365-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 20 02:11:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: graph.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 23:59:59 2026 GMT\n  hsts: null\n- host: docs.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 06:59:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/security/microsoft-office-365-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-office-365/security/microsoft-office-365-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud

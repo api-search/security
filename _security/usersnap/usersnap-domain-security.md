@@ -5,25 +5,25 @@ api_specs:
   label: Usersnap Feedback API
   slug: usersnap-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/openapi/usersnap-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/usersnap/openapi/usersnap-feedback-api-openapi.yml
 - filename: usersnap-pre-submit-api-openapi.yml
   format: yaml
   label: Usersnap Pre Submit API
   slug: usersnap-pre-submit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/openapi/usersnap-pre-submit-api-openapi.yml
+  url: https://artifacts.apis.io/usersnap/openapi/usersnap-pre-submit-api-openapi.yml
 - filename: usersnap-project-api-openapi.yml
   format: yaml
   label: Usersnap Project API
   slug: usersnap-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/openapi/usersnap-project-api-openapi.yml
+  url: https://artifacts.apis.io/usersnap/openapi/usersnap-project-api-openapi.yml
 - filename: usersnap-submit-api-openapi.yml
   format: yaml
   label: Usersnap Submit API
   slug: usersnap-submit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/openapi/usersnap-submit-api-openapi.yml
+  url: https://artifacts.apis.io/usersnap/openapi/usersnap-submit-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -68,7 +68,7 @@ source_filename: usersnap-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: usersnap.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  2 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: help.usersnap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 22:51:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: platform.usersnap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: usersnap.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/security/usersnap-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/usersnap/security/usersnap-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company

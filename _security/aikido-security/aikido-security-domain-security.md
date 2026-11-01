@@ -5,73 +5,73 @@ api_specs:
   label: Aikido Security Clouds API
   slug: aikido-security-clouds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/openapi/aikido-security-clouds-api-openapi.yml
+  url: https://artifacts.apis.io/aikido-security/openapi/aikido-security-clouds-api-openapi.yml
 - filename: aikido-security-code-repositories-api-openapi.yml
   format: yaml
   label: Aikido Security Code Repositories API
   slug: aikido-security-code-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/openapi/aikido-security-code-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/aikido-security/openapi/aikido-security-code-repositories-api-openapi.yml
 - filename: aikido-security-compliance-api-openapi.yml
   format: yaml
   label: Aikido Security Compliance API
   slug: aikido-security-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/openapi/aikido-security-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/aikido-security/openapi/aikido-security-compliance-api-openapi.yml
 - filename: aikido-security-containers-api-openapi.yml
   format: yaml
   label: Aikido Security Containers API
   slug: aikido-security-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/openapi/aikido-security-containers-api-openapi.yml
+  url: https://artifacts.apis.io/aikido-security/openapi/aikido-security-containers-api-openapi.yml
 - filename: aikido-security-custom-rules-api-openapi.yml
   format: yaml
   label: Aikido Security Custom Rules API
   slug: aikido-security-custom-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/openapi/aikido-security-custom-rules-api-openapi.yml
+  url: https://artifacts.apis.io/aikido-security/openapi/aikido-security-custom-rules-api-openapi.yml
 - filename: aikido-security-domains-api-openapi.yml
   format: yaml
   label: Aikido Security Domains API
   slug: aikido-security-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/openapi/aikido-security-domains-api-openapi.yml
+  url: https://artifacts.apis.io/aikido-security/openapi/aikido-security-domains-api-openapi.yml
 - filename: aikido-security-issues-api-openapi.yml
   format: yaml
   label: Aikido Security Issues API
   slug: aikido-security-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/openapi/aikido-security-issues-api-openapi.yml
+  url: https://artifacts.apis.io/aikido-security/openapi/aikido-security-issues-api-openapi.yml
 - filename: aikido-security-teams-api-openapi.yml
   format: yaml
   label: Aikido Security Teams API
   slug: aikido-security-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/openapi/aikido-security-teams-api-openapi.yml
+  url: https://artifacts.apis.io/aikido-security/openapi/aikido-security-teams-api-openapi.yml
 - filename: aikido-security-users-api-openapi.yml
   format: yaml
   label: Aikido Security Users API
   slug: aikido-security-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/openapi/aikido-security-users-api-openapi.yml
+  url: https://artifacts.apis.io/aikido-security/openapi/aikido-security-users-api-openapi.yml
 - filename: aikido-security-webhooks-api-openapi.yml
   format: yaml
   label: Aikido Security Webhooks API
   slug: aikido-security-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/openapi/aikido-security-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/aikido-security/openapi/aikido-security-webhooks-api-openapi.yml
 - filename: aikido-security-workspace-api-openapi.yml
   format: yaml
   label: Aikido Security Workspace API
   slug: aikido-security-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/openapi/aikido-security-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/aikido-security/openapi/aikido-security-workspace-api-openapi.yml
 - filename: aikido-security-zen-api-openapi.yml
   format: yaml
   label: Aikido Security Zen API
   slug: aikido-security-zen-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/openapi/aikido-security-zen-api-openapi.yml
+  url: https://artifacts.apis.io/aikido-security/openapi/aikido-security-zen-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -119,7 +119,7 @@ source_filename: aikido-security-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.aikido.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 15:24:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apidocs.aikido.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 08:59:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.aikido.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 20 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: aikido.dev\n  dnssec: true\n  caa:\n  - 0 iodef \"mailto:support@aikido.dev\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/security/aikido-security-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aikido-security/security/aikido-security-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - AI Pentesting

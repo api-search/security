@@ -5,37 +5,37 @@ api_specs:
   label: SynFutures Cash API
   slug: synfutures-cash-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/openapi/synfutures-cash-api-openapi.yml
+  url: https://artifacts.apis.io/synfutures/openapi/synfutures-cash-api-openapi.yml
 - filename: synfutures-market-data-api-openapi.yml
   format: yaml
   label: SynFutures Market Data API
   slug: synfutures-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/openapi/synfutures-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/synfutures/openapi/synfutures-market-data-api-openapi.yml
 - filename: synfutures-one-click-api-openapi.yml
   format: yaml
   label: SynFutures One Click API
   slug: synfutures-one-click-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/openapi/synfutures-one-click-api-openapi.yml
+  url: https://artifacts.apis.io/synfutures/openapi/synfutures-one-click-api-openapi.yml
 - filename: synfutures-orders-api-openapi.yml
   format: yaml
   label: SynFutures Orders API
   slug: synfutures-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/openapi/synfutures-orders-api-openapi.yml
+  url: https://artifacts.apis.io/synfutures/openapi/synfutures-orders-api-openapi.yml
 - filename: synfutures-portfolio-api-openapi.yml
   format: yaml
   label: SynFutures Portfolio API
   slug: synfutures-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/openapi/synfutures-portfolio-api-openapi.yml
+  url: https://artifacts.apis.io/synfutures/openapi/synfutures-portfolio-api-openapi.yml
 - filename: synfutures-stock-api-openapi.yml
   format: yaml
   label: SynFutures Stock API
   slug: synfutures-stock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/openapi/synfutures-stock-api-openapi.yml
+  url: https://artifacts.apis.io/synfutures/openapi/synfutures-stock-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: synfutures-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.synfutures.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 21 23:59:59 2026 GMT\n  hsts: false\n- host: docs.synfutures.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 07:50:00 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: base-api.synfutures.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 22 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: synfutures.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/security/synfutures-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/synfutures/security/synfutures-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

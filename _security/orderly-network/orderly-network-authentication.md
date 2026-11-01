@@ -7,25 +7,25 @@ api_specs:
   label: Orderly Network Admin API
   slug: orderly-network-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/openapi/orderly-network-admin-api-openapi.yml
+  url: https://artifacts.apis.io/orderly-network/openapi/orderly-network-admin-api-openapi.yml
 - filename: orderly-network-client-api-openapi.yml
   format: yaml
   label: Orderly Network Client API
   slug: orderly-network-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/openapi/orderly-network-client-api-openapi.yml
+  url: https://artifacts.apis.io/orderly-network/openapi/orderly-network-client-api-openapi.yml
 - filename: orderly-network-private-api-openapi.yml
   format: yaml
   label: Orderly Network Private API
   slug: orderly-network-private-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/openapi/orderly-network-private-api-openapi.yml
+  url: https://artifacts.apis.io/orderly-network/openapi/orderly-network-private-api-openapi.yml
 - filename: orderly-network-public-api-openapi.yml
   format: yaml
   label: Orderly Network Public API
   slug: orderly-network-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/openapi/orderly-network-public-api-openapi.yml
+  url: https://artifacts.apis.io/orderly-network/openapi/orderly-network-public-api-openapi.yml
 auth_types:
 - signature
 description: ''
@@ -67,7 +67,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://orderly.network/docs/build-on-omnichain/api-authentication\ndocs: https://orderly.network/docs/build-on-omnichain/api-authentication\nnote: >\n  The OpenAPI does not declare formal securitySchemes; authentication is a\n  custom request-signing scheme documented in the auth guide and captured here.\nsummary:\n  types: [signature]\n  scheme: ed25519\n  transport: custom-headers\n  oauth2_flows: []\nschemes:\n  - name: OrderlyKeySignature\n    type: signature\n    algorithm: ed25519\n    encoding: base64url\n    key_format: \"ed25519:<base58-public-key>\"\n    headers:\n      - orderly-account-id   # registered Orderly account identifier\n      - orderly-key          # public key, ed25519:<base58>\n      - orderly-signature    # base64url ed25519 signature of the normalized request\n      - orderly-timestamp    # request time in milliseconds\n    signing_string: \"<timestamp><HTTP-METHOD><path?query><json-body>\"\n   \
   \ validations:\n      timestamp_tolerance_seconds: 300\n      checks: [signature-verification, key-registered-and-not-expired]\n    key_registration: >\n      Orderly Keys are generated and registered via wallet authentication\n      (EIP-712 wallet signature), or supplied by a frontend such as WOOFi Pro.\n    docs: https://orderly.network/docs/build-on-omnichain/user-flows/wallet-authentication\npublic_access:\n  description: >\n    Public market-data endpoints and the Public Info API (POST /v1/public/query)\n    require no authentication.\n  docs: https://orderly.network/docs/build-on-omnichain/public-info-api/overview\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/authentication/orderly-network-authentication.yml
+source_yaml_url: https://artifacts.apis.io/orderly-network/authentication/orderly-network-authentication.yml
 summary_line: signature · 1 scheme
 tags:
 - Company

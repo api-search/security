@@ -7,43 +7,43 @@ api_specs:
   label: Sift Decisions API
   slug: sift-decisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/openapi/sift-decisions-api-openapi.yml
+  url: https://artifacts.apis.io/sift/openapi/sift-decisions-api-openapi.yml
 - filename: sift-events-api-openapi.yml
   format: yaml
   label: Sift Events API
   slug: sift-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/openapi/sift-events-api-openapi.yml
+  url: https://artifacts.apis.io/sift/openapi/sift-events-api-openapi.yml
 - filename: sift-labels-api-openapi.yml
   format: yaml
   label: Sift Labels API
   slug: sift-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/openapi/sift-labels-api-openapi.yml
+  url: https://artifacts.apis.io/sift/openapi/sift-labels-api-openapi.yml
 - filename: sift-psp-merchant-management-api-openapi.yml
   format: yaml
   label: Sift PSP Merchant Management API
   slug: sift-psp-merchant-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/openapi/sift-psp-merchant-management-api-openapi.yml
+  url: https://artifacts.apis.io/sift/openapi/sift-psp-merchant-management-api-openapi.yml
 - filename: sift-score-api-openapi.yml
   format: yaml
   label: Sift Score API
   slug: sift-score-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/openapi/sift-score-api-openapi.yml
+  url: https://artifacts.apis.io/sift/openapi/sift-score-api-openapi.yml
 - filename: sift-verification-api-openapi.yml
   format: yaml
   label: Sift Verification API
   slug: sift-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/openapi/sift-verification-api-openapi.yml
+  url: https://artifacts.apis.io/sift/openapi/sift-verification-api-openapi.yml
 - filename: sift-workflows-api-openapi.yml
   format: yaml
   label: Sift Workflows API
   slug: sift-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/openapi/sift-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/sift/openapi/sift-workflows-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -71,7 +71,7 @@ source_filename: sift-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: derived\nsource: openapi/sift-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: apiKeyBasic\n  type: http\n  scheme: basic\n  description: >-\n    HTTP Basic authentication using your Sift REST API key as the username and an\n    empty password (Authorization: Basic base64(api_key + \":\")). The ingestion\n    APIs (Events, Score, Labels) also accept the key as `$api_key` in the JSON\n    request body. Account-scoped APIs (Decisions, Workflows, PSP Merchant\n    Management) additionally require your numeric Account ID in the URL path.\n    Mobile SDKs authenticate separately with a Beacon Key. There is no OAuth.\n  sources:\n  - openapi/sift-openapi.yml\n  - https://developers.sift.com/docs/curl/apis-overview\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/authentication/sift-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sift/authentication/sift-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Fraud Prevention

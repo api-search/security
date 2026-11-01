@@ -7,31 +7,31 @@ api_specs:
   label: Siemens Alarms API
   slug: siemens-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siemens/refs/heads/main/openapi/siemens-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/siemens/openapi/siemens-alarms-api-openapi.yml
 - filename: siemens-equipment-api-openapi.yml
   format: yaml
   label: Siemens Equipment API
   slug: siemens-equipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siemens/refs/heads/main/openapi/siemens-equipment-api-openapi.yml
+  url: https://artifacts.apis.io/siemens/openapi/siemens-equipment-api-openapi.yml
 - filename: siemens-points-api-openapi.yml
   format: yaml
   label: Siemens Points API
   slug: siemens-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siemens/refs/heads/main/openapi/siemens-points-api-openapi.yml
+  url: https://artifacts.apis.io/siemens/openapi/siemens-points-api-openapi.yml
 - filename: siemens-schedules-api-openapi.yml
   format: yaml
   label: Siemens Schedules API
   slug: siemens-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siemens/refs/heads/main/openapi/siemens-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/siemens/openapi/siemens-schedules-api-openapi.yml
 - filename: siemens-trends-api-openapi.yml
   format: yaml
   label: Siemens Trends API
   slug: siemens-trends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siemens/refs/heads/main/openapi/siemens-trends-api-openapi.yml
+  url: https://artifacts.apis.io/siemens/openapi/siemens-trends-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -59,7 +59,7 @@ source_filename: siemens-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/siemens-building-operations-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: OAuth 2.0 Bearer token from Siemens Building X identity service\n  sources:\n  - openapi/siemens-building-operations-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/siemens/refs/heads/main/authentication/siemens-authentication.yml
+source_yaml_url: https://artifacts.apis.io/siemens/authentication/siemens-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Automation

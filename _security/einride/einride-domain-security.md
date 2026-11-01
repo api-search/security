@@ -5,19 +5,19 @@ api_specs:
   label: Einride BookingService API
   slug: einride-bookingservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/openapi/einride-bookingservice-api-openapi.yml
+  url: https://artifacts.apis.io/einride/openapi/einride-bookingservice-api-openapi.yml
 - filename: einride-shipmentservice-api-openapi.yml
   format: yaml
   label: Einride ShipmentService API
   slug: einride-shipmentservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/openapi/einride-shipmentservice-api-openapi.yml
+  url: https://artifacts.apis.io/einride/openapi/einride-shipmentservice-api-openapi.yml
 - filename: einride-authentication-service-api-openapi.yml
   format: yaml
   label: Einride Authentication Service API
   slug: einride-authentication-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/openapi/einride-authentication-service-api-openapi.yml
+  url: https://artifacts.apis.io/einride/openapi/einride-authentication-service-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -49,7 +49,7 @@ source_filename: einride-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.einride.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 18:40:41 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: einride.tech\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/security/einride-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/einride/security/einride-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

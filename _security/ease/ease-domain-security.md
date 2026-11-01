@@ -5,19 +5,19 @@ api_specs:
   label: Ease Incidents API
   slug: ease-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/openapi/ease-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/ease/openapi/ease-incidents-api-openapi.yml
 - filename: ease-maintenance-api-openapi.yml
   format: yaml
   label: Ease Maintenance API
   slug: ease-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/openapi/ease-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/ease/openapi/ease-maintenance-api-openapi.yml
 - filename: ease-status-api-openapi.yml
   format: yaml
   label: Ease Status API
   slug: ease-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/openapi/ease-status-api-openapi.yml
+  url: https://artifacts.apis.io/ease/openapi/ease-status-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: ease-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ease.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 21:45:16 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: ease.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/security/ease-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ease/security/ease-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance

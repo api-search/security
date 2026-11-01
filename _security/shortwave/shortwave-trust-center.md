@@ -16,7 +16,7 @@ source_filename: shortwave-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nsource: https://www.shortwave.com/docs/guides/security/\nurl: https://www.shortwave.com/docs/guides/security/\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://www.shortwave.com/docs/guides/security/\n  keywords:\n  - soc 2\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shortwave/refs/heads/main/security/shortwave-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/shortwave/security/shortwave-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - Company

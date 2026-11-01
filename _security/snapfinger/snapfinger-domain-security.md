@@ -27,7 +27,7 @@ source_filename: snapfinger-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: snapfinger.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 23 20:16:42 2027 GMT\n  hsts: null\ndomains:\n- domain: snapfinger.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snapfinger/refs/heads/main/security/snapfinger-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/snapfinger/security/snapfinger-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

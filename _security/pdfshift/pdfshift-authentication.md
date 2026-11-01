@@ -8,49 +8,49 @@ api_specs:
   label: PDFShift Account API
   slug: pdfshift-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-account-api-openapi.yml
+  url: https://artifacts.apis.io/pdfshift/openapi/pdfshift-account-api-openapi.yml
 - filename: pdfshift-convert-api-openapi.yml
   format: yaml
   label: PDFShift Convert API
   slug: pdfshift-convert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-convert-api-openapi.yml
+  url: https://artifacts.apis.io/pdfshift/openapi/pdfshift-convert-api-openapi.yml
 - filename: pdfshift-credits-api-openapi.yml
   format: yaml
   label: PDFShift Credits API
   slug: pdfshift-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-credits-api-openapi.yml
+  url: https://artifacts.apis.io/pdfshift/openapi/pdfshift-credits-api-openapi.yml
 - filename: pdfshift-details-api-openapi.yml
   format: yaml
   label: PDFShift Details API
   slug: pdfshift-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-details-api-openapi.yml
+  url: https://artifacts.apis.io/pdfshift/openapi/pdfshift-details-api-openapi.yml
 - filename: pdfshift-invoices-api-openapi.yml
   format: yaml
   label: PDFShift Invoices API
   slug: pdfshift-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/pdfshift/openapi/pdfshift-invoices-api-openapi.yml
 - filename: pdfshift-logs-api-openapi.yml
   format: yaml
   label: PDFShift Logs API
   slug: pdfshift-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-logs-api-openapi.yml
+  url: https://artifacts.apis.io/pdfshift/openapi/pdfshift-logs-api-openapi.yml
 - filename: pdfshift-templates-api-openapi.yml
   format: yaml
   label: PDFShift Templates API
   slug: pdfshift-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-templates-api-openapi.yml
+  url: https://artifacts.apis.io/pdfshift/openapi/pdfshift-templates-api-openapi.yml
 - filename: pdfshift-usage-api-openapi.yml
   format: yaml
   label: PDFShift Usage API
   slug: pdfshift-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-usage-api-openapi.yml
+  url: https://artifacts.apis.io/pdfshift/openapi/pdfshift-usage-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -83,7 +83,7 @@ source_filename: pdfshift-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pdfshift-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyHeader\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: |-\n    Authenticate your account by including your secret key in API requests.\n    You can manage your API keys in the [Dashboard](https://app.pdfshift.io/dashboard/).\n\n    Authentication to the API is performed by using the HTTP Header X-API-Key.\n  sources:\n  - openapi/pdfshift-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/authentication/pdfshift-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pdfshift/authentication/pdfshift-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - PDF

@@ -5,7 +5,7 @@ api_specs:
   label: Impulse Dynamics MCP API
   slug: impulse-dynamics-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/impulse-dynamics/refs/heads/main/openapi/impulse-dynamics-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/impulse-dynamics/openapi/impulse-dynamics-mcp-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -34,7 +34,7 @@ source_filename: impulse-dynamics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-23'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: impulse-dynamics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 05:02:47 2026 GMT\n  hsts: false\ndomains:\n- domain: impulse-dynamics.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/impulse-dynamics/refs/heads/main/security/impulse-dynamics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/impulse-dynamics/security/impulse-dynamics-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

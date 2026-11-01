@@ -8,55 +8,55 @@ api_specs:
   label: Moovit General API
   slug: moovit-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-general-api-openapi.yml
+  url: https://artifacts.apis.io/moovit/openapi/moovit-general-api-openapi.yml
 - filename: moovit-gtfsrealtime-api-openapi.yml
   format: yaml
   label: Moovit GTFSRealtime API
   slug: moovit-gtfsrealtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-gtfsrealtime-api-openapi.yml
+  url: https://artifacts.apis.io/moovit/openapi/moovit-gtfsrealtime-api-openapi.yml
 - filename: moovit-lines-api-openapi.yml
   format: yaml
   label: Moovit Lines API
   slug: moovit-lines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-lines-api-openapi.yml
+  url: https://artifacts.apis.io/moovit/openapi/moovit-lines-api-openapi.yml
 - filename: moovit-nearby-api-openapi.yml
   format: yaml
   label: Moovit Nearby API
   slug: moovit-nearby-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-nearby-api-openapi.yml
+  url: https://artifacts.apis.io/moovit/openapi/moovit-nearby-api-openapi.yml
 - filename: moovit-realtime-api-openapi.yml
   format: yaml
   label: Moovit RealTime API
   slug: moovit-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/moovit/openapi/moovit-realtime-api-openapi.yml
 - filename: moovit-search-api-openapi.yml
   format: yaml
   label: Moovit Search API
   slug: moovit-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-search-api-openapi.yml
+  url: https://artifacts.apis.io/moovit/openapi/moovit-search-api-openapi.yml
 - filename: moovit-stops-api-openapi.yml
   format: yaml
   label: Moovit Stops API
   slug: moovit-stops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-stops-api-openapi.yml
+  url: https://artifacts.apis.io/moovit/openapi/moovit-stops-api-openapi.yml
 - filename: moovit-service-alerts-api-openapi.yml
   format: yaml
   label: Moovit Service Alerts API
   slug: moovit-service-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-service-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/moovit/openapi/moovit-service-alerts-api-openapi.yml
 - filename: moovit-trip-plan-api-openapi.yml
   format: yaml
   label: Moovit Trip Plan API
   slug: moovit-trip-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-trip-plan-api-openapi.yml
+  url: https://artifacts.apis.io/moovit/openapi/moovit-trip-plan-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -91,7 +91,7 @@ source_filename: moovit-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/moovit-public-transit-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmacAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: HMAC-SHA256 signature in the form `hmacauth <signature>:<nonce>:<timestamp>`\n    over `<timestamp>:<payload>:<nonce>` using the API secret key.\n  sources:\n  - openapi/moovit-public-transit-api-openapi.yml\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: API_KEY\n  description: Public API key issued by Moovit. Required on every request.\n  sources:\n  - openapi/moovit-public-transit-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/authentication/moovit-authentication.yml
+source_yaml_url: https://artifacts.apis.io/moovit/authentication/moovit-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Transit

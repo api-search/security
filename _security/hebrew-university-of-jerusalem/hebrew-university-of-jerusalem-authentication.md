@@ -7,37 +7,37 @@ api_specs:
   label: Hebrew University of Jerusalem Courses API
   slug: hebrew-university-of-jerusalem-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/openapi/hebrew-university-of-jerusalem-courses-api-openapi.yml
+  url: https://artifacts.apis.io/hebrew-university-of-jerusalem/openapi/hebrew-university-of-jerusalem-courses-api-openapi.yml
 - filename: hebrew-university-of-jerusalem-organization-api-openapi.yml
   format: yaml
   label: Hebrew University of Jerusalem Organization API
   slug: hebrew-university-of-jerusalem-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/openapi/hebrew-university-of-jerusalem-organization-api-openapi.yml
+  url: https://artifacts.apis.io/hebrew-university-of-jerusalem/openapi/hebrew-university-of-jerusalem-organization-api-openapi.yml
 - filename: hebrew-university-of-jerusalem-reference-data-api-openapi.yml
   format: yaml
   label: Hebrew University of Jerusalem Reference Data API
   slug: hebrew-university-of-jerusalem-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/openapi/hebrew-university-of-jerusalem-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/hebrew-university-of-jerusalem/openapi/hebrew-university-of-jerusalem-reference-data-api-openapi.yml
 - filename: hebrew-university-of-jerusalem-service-api-openapi.yml
   format: yaml
   label: Hebrew University of Jerusalem Service API
   slug: hebrew-university-of-jerusalem-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/openapi/hebrew-university-of-jerusalem-service-api-openapi.yml
+  url: https://artifacts.apis.io/hebrew-university-of-jerusalem/openapi/hebrew-university-of-jerusalem-service-api-openapi.yml
 - filename: hebrew-university-of-jerusalem-specializations-api-openapi.yml
   format: yaml
   label: Hebrew University of Jerusalem Specializations API
   slug: hebrew-university-of-jerusalem-specializations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/openapi/hebrew-university-of-jerusalem-specializations-api-openapi.yml
+  url: https://artifacts.apis.io/hebrew-university-of-jerusalem/openapi/hebrew-university-of-jerusalem-specializations-api-openapi.yml
 - filename: hebrew-university-of-jerusalem-syllabus-api-openapi.yml
   format: yaml
   label: Hebrew University of Jerusalem Syllabus API
   slug: hebrew-university-of-jerusalem-syllabus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/openapi/hebrew-university-of-jerusalem-syllabus-api-openapi.yml
+  url: https://artifacts.apis.io/hebrew-university-of-jerusalem/openapi/hebrew-university-of-jerusalem-syllabus-api-openapi.yml
 auth_types: []
 description: 'Authentication across the Hebrew University of Jerusalem''s programmable surfaces. The headline is that the one institution-operated API found in this profile requires no authentication at all, and the university operates no API key issuance, no OAuth authorization server, and no developer registration of any kind that could be found. Human and staff authentication is a different story and is entirely SAML: a university-run SimpleSAMLphp identity provider at idp.cc.huji.ac.il fronts the institutional web estate, including the vendor platforms the university is a tenant of.'
 kind: authentication
@@ -62,7 +62,7 @@ source_yaml: "# x-method: derived\n# x-source-url: https://shnaton.huji.ac.il/ap
   \ own SAML 2.0 identity provider, run by the Authority for Computation,\n      Communication and Information (cc.huji.ac.il). The signing certificate embedded in the\n      metadata carries subject O=Hebrew University, OU=The authority for computation,\n      communication and information, CN=idp1.cc.huji.ac.il, emailAddress=ssobox@cc.huji.ac.il\n      — the institution's own key, not a managed federation service's. This is the strongest\n      machine-readable authentication contract the university publishes.\n    evidence:\n      - url: https://idp.cc.huji.ac.il/simplesaml/saml2/idp/metadata.php\n        status: 200\n        note: SAML 2.0 EntityDescriptor with IDPSSODescriptor, application/xml.\n\n  - name: Elsevier Pure CRIS (cris.huji.ac.il)\n    x-operator: tenant\n    scheme: saml2\n    detail: >-\n      The research portal's administrative surface redirects unauthenticated callers to the\n      university's own IdP, which is how the tenant relationship was confirmed from the\n\
   \      authentication path rather than from the hostname alone. The Pure web services API at\n      /ws/api requires an Elsevier-issued API key the university holds and does not publish;\n      an unauthenticated request for its OpenAPI returned HTTP 401. The public OAI-PMH\n      endpoint at /ws/oai is unauthenticated.\n    evidence:\n      - url: https://cris.huji.ac.il/admin/workspace.xhtml\n        status: 200\n        note: Redirects to idp.cc.huji.ac.il SSOService with spentityid=https://cris.huji.ac.il/admin.\n      - url: https://cris.huji.ac.il/ws/api/524/openapi.yaml\n        status: 401\n        note: Pure API contract is key-gated; the key is Elsevier-issued and not public.\n      - url: https://cris.huji.ac.il/ws/oai?verb=Identify\n        status: 200\n        note: OAI-PMH is open, no credential required.\n\nabsent:\n  - what: API key issuance\n    detail: No developer registration, key request form or self-service portal was found on any huji.ac.il host.\n  - what: OAuth\
   \ 2.0 / OpenID Connect\n    detail: No authorization server, no .well-known/openid-configuration on any probed host.\n  - what: Developer portal\n    detail: api.huji.ac.il and developer.huji.ac.il do not resolve (NXDOMAIN).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/authentication/hebrew-university-of-jerusalem-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hebrew-university-of-jerusalem/authentication/hebrew-university-of-jerusalem-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

@@ -7,37 +7,37 @@ api_specs:
   label: Tongji University AI Services API
   slug: tongji-ai-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tongji/refs/heads/main/openapi/tongji-ai-services-api-openapi.yml
+  url: https://artifacts.apis.io/tongji/openapi/tongji-ai-services-api-openapi.yml
 - filename: tongji-assets-and-procurement-api-openapi.yml
   format: yaml
   label: Tongji University Assets and Procurement API
   slug: tongji-assets-and-procurement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tongji/refs/heads/main/openapi/tongji-assets-and-procurement-api-openapi.yml
+  url: https://artifacts.apis.io/tongji/openapi/tongji-assets-and-procurement-api-openapi.yml
 - filename: tongji-education-data-verification-api-openapi.yml
   format: yaml
   label: Tongji University Education Data Verification API
   slug: tongji-education-data-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tongji/refs/heads/main/openapi/tongji-education-data-verification-api-openapi.yml
+  url: https://artifacts.apis.io/tongji/openapi/tongji-education-data-verification-api-openapi.yml
 - filename: tongji-library-api-openapi.yml
   format: yaml
   label: Tongji University Library API
   slug: tongji-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tongji/refs/heads/main/openapi/tongji-library-api-openapi.yml
+  url: https://artifacts.apis.io/tongji/openapi/tongji-library-api-openapi.yml
 - filename: tongji-reference-metadata-api-openapi.yml
   format: yaml
   label: Tongji University Reference Metadata API
   slug: tongji-reference-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tongji/refs/heads/main/openapi/tongji-reference-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/tongji/openapi/tongji-reference-metadata-api-openapi.yml
 - filename: tongji-research-api-openapi.yml
   format: yaml
   label: Tongji University Research API
   slug: tongji-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tongji/refs/heads/main/openapi/tongji-research-api-openapi.yml
+  url: https://artifacts.apis.io/tongji/openapi/tongji-research-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -117,7 +117,7 @@ source_yaml: "---\ngenerated: '2026-09-01'\nmethod: probed\nsource: >-\n  Live f
   \ access token is presented as `Authorization: Bearer\n    <access_token>`. The platform documents a 7200-second default lifetime, asks callers to\n    cache the token rather than re-request it, and returns 401 when the token is expired or\n    unauthorized and 403 when the token's scope does not cover the interface.\ndiscovery:\n  issuer: https://api.tongji.edu.cn/keycloak/realms/OpenPlatform\n  jwks_uri: https://api.tongji.edu.cn/keycloak/realms/OpenPlatform/protocol/openid-connect/certs\n  introspection_endpoint: https://api.tongji.edu.cn/keycloak/realms/OpenPlatform/protocol/openid-connect/token/introspect\n  revocation_endpoint: https://api.tongji.edu.cn/keycloak/realms/OpenPlatform/protocol/openid-connect/revoke\n  registration_endpoint: https://api.tongji.edu.cn/keycloak/realms/OpenPlatform/clients-registrations/openid-connect\n  device_authorization_endpoint: https://api.tongji.edu.cn/keycloak/realms/OpenPlatform/protocol/openid-connect/auth/device\n  pushed_authorization_request_endpoint:\
   \ https://api.tongji.edu.cn/keycloak/realms/OpenPlatform/protocol/openid-connect/ext/par/request\n  backchannel_authentication_endpoint: https://api.tongji.edu.cn/keycloak/realms/OpenPlatform/protocol/openid-connect/ext/ciba/auth\n  grant_types_supported:\n  - authorization_code\n  - implicit\n  - refresh_token\n  - password\n  - client_credentials\n  - urn:ietf:params:oauth:grant-type:device_code\n  - urn:openid:params:grant-type:ciba\n  token_endpoint_auth_methods_supported:\n  - private_key_jwt\n  - client_secret_basic\n  - client_secret_post\n  - tls_client_auth\n  - client_secret_jwt\nnotes: >-\n  The discovery document advertises an open dynamic client registration endpoint path, but\n  registration on a Keycloak realm is normally gated by an initial access token; this pipeline\n  did not attempt a registration and makes no claim that it is open. Access to non-anonymous\n  interfaces is granted per application by the Information Office, not self-service.\nmaintainers:\n- FN: Kin\
   \ Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tongji/refs/heads/main/authentication/tongji-open-platform-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tongji/authentication/tongji-open-platform-authentication.yml
 summary_line: none/oauth2/openid-connect/bearer · 4 schemes
 tags:
 - University

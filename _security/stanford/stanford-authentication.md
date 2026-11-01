@@ -7,97 +7,97 @@ api_specs:
   label: Stanford University About API
   slug: stanford-about-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-about-api-openapi.yml
+  url: https://artifacts.apis.io/stanford/openapi/stanford-about-api-openapi.yml
 - filename: stanford-authentication-api-openapi.yml
   format: yaml
   label: Stanford University Authentication API
   slug: stanford-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/stanford/openapi/stanford-authentication-api-openapi.yml
 - filename: stanford-catalog-api-openapi.yml
   format: yaml
   label: Stanford University Catalog API
   slug: stanford-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/stanford/openapi/stanford-catalog-api-openapi.yml
 - filename: stanford-events-api-openapi.yml
   format: yaml
   label: Stanford University Events API
   slug: stanford-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-events-api-openapi.yml
+  url: https://artifacts.apis.io/stanford/openapi/stanford-events-api-openapi.yml
 - filename: stanford-files-api-openapi.yml
   format: yaml
   label: Stanford University Files API
   slug: stanford-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-files-api-openapi.yml
+  url: https://artifacts.apis.io/stanford/openapi/stanford-files-api-openapi.yml
 - filename: stanford-identifiers-api-openapi.yml
   format: yaml
   label: Stanford University Identifiers API
   slug: stanford-identifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-identifiers-api-openapi.yml
+  url: https://artifacts.apis.io/stanford/openapi/stanford-identifiers-api-openapi.yml
 - filename: stanford-integrations-api-openapi.yml
   format: yaml
   label: Stanford University Integrations API
   slug: stanford-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/stanford/openapi/stanford-integrations-api-openapi.yml
 - filename: stanford-jobs-api-openapi.yml
   format: yaml
   label: Stanford University Jobs API
   slug: stanford-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/stanford/openapi/stanford-jobs-api-openapi.yml
 - filename: stanford-legacy-api-openapi.yml
   format: yaml
   label: Stanford University Legacy API
   slug: stanford-legacy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-legacy-api-openapi.yml
+  url: https://artifacts.apis.io/stanford/openapi/stanford-legacy-api-openapi.yml
 - filename: stanford-metadata-api-openapi.yml
   format: yaml
   label: Stanford University Metadata API
   slug: stanford-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/stanford/openapi/stanford-metadata-api-openapi.yml
 - filename: stanford-objects-api-openapi.yml
   format: yaml
   label: Stanford University Objects API
   slug: stanford-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-objects-api-openapi.yml
+  url: https://artifacts.apis.io/stanford/openapi/stanford-objects-api-openapi.yml
 - filename: stanford-release-tags-api-openapi.yml
   format: yaml
   label: Stanford University Release Tags API
   slug: stanford-release-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-release-tags-api-openapi.yml
+  url: https://artifacts.apis.io/stanford/openapi/stanford-release-tags-api-openapi.yml
 - filename: stanford-tags-api-openapi.yml
   format: yaml
   label: Stanford University Tags API
   slug: stanford-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-tags-api-openapi.yml
+  url: https://artifacts.apis.io/stanford/openapi/stanford-tags-api-openapi.yml
 - filename: stanford-versions-api-openapi.yml
   format: yaml
   label: Stanford University Versions API
   slug: stanford-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-versions-api-openapi.yml
+  url: https://artifacts.apis.io/stanford/openapi/stanford-versions-api-openapi.yml
 - filename: stanford-workflows-api-openapi.yml
   format: yaml
   label: Stanford University Workflows API
   slug: stanford-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/stanford/openapi/stanford-workflows-api-openapi.yml
 - filename: stanford-workspaces-api-openapi.yml
   format: yaml
   label: Stanford University Workspaces API
   slug: stanford-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/stanford/openapi/stanford-workspaces-api-openapi.yml
 auth_types: []
 description: 'How access is established across Stanford''s institution-operated API surfaces. Stanford runs four distinct authentication regimes rather than one developer-portal key: an open/anonymous tier for library discovery data, a bearer-token tier for the Stanford Digital Repository backends, an x509 client-certificate tier for the MaIS Registry, and campus SSO (Shibboleth SAML 2.0 / OIDC) for everything a human logs into. No public self-service key issuance exists for any of them; every credentialed surface is requested through a Stanford support workflow.'
 kind: authentication
@@ -122,7 +122,7 @@ source_yaml: "name: Stanford University — authentication\ndescription: >-\n  H
   \ absence of a security block in the source contracts\n    applies_to:\n      - Technical Metadata API\n      - SURI API\n    note: >-\n      Neither contract declares security. Both are internal SDR backends whose hostnames do not\n      resolve in public DNS (technical-metadata-prod.stanford.edu, sul-suri-prod.stanford.edu are\n      NXDOMAIN), so the absence reflects network placement rather than an open surface. This is a\n      contract-quality gap worth reporting to sul-dlss, not an access route.\n  - id: x509-client-certificate\n    name: x509 client certificate (mutual TLS)\n    type: mutualTLS\n    method: searched\n    source: https://uit.stanford.edu/developers/apis\n    applies_to:\n      - MaIS Registry APIs (Account, Person, Student, CourseClass, Privilege, Workgroup)\n    issuance: >-\n      Certificate signed by the Stanford MaIS team, requested through the UIT developer\n      onboarding checklist. No sandbox, no public base URL, no anonymous tier.\n    evidence:\n   \
   \   - url: https://uit.stanford.edu/developers/apis\n        status: 200\n      - url: https://uit.stanford.edu/developers/apis/getting-started\n        status: 200\n  - id: api-key\n    name: Issued API key\n    type: apiKey\n    method: searched\n    source: https://uit.stanford.edu/service/ai-api-gateway\n    applies_to:\n      - Stanford AI API Gateway\n    issuance: >-\n      Requested through the ServiceNow catalog; requires a valid Stanford PTA (billing account).\n      Metered and rate-carded — usage is queryable by API key.\n    evidence:\n      - url: https://uit.stanford.edu/service/ai-api-gateway\n        status: 200\n  - id: shibboleth-sso\n    name: Campus SSO — Shibboleth SAML 2.0 and OIDC\n    type: federated\n    method: probed\n    source: https://idp.stanford.edu/metadata.xml\n    applies_to:\n      - CAP / Stanford Profiles API console\n      - AI Playground\n      - Stanford Community of Practice\n    entity_id: https://idp.stanford.edu/\n    protocols:\n      - urn:oasis:names:tc:SAML:2.0:protocol\n\
   \      - openid-connect\n    bindings:\n      - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST\n      - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign\n      - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect\n    sso_endpoint: https://login.stanford.edu/idp/profile/SAML2/POST/SSO\n    oidc_authorize: https://login.stanford.edu/idp/profile/oidc/authorize\n    evidence:\n      - url: https://idp.stanford.edu/metadata.xml\n        status: 200\n      - url: https://aiplayground.stanford.edu/\n        status: 200\n        note: redirects to login.stanford.edu/idp/profile/oidc/authorize\n      - url: https://cap.stanford.edu/cap-api/console\n        status: 303\n        note: redirects to authentication\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/authentication/stanford-authentication.yml
+source_yaml_url: https://artifacts.apis.io/stanford/authentication/stanford-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

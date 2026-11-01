@@ -5,49 +5,49 @@ api_specs:
   label: Defined.ai (DefinedCrowd) Deliverables API
   slug: definedcrowd-deliverables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/definedcrowd/refs/heads/main/openapi/definedcrowd-deliverables-api-openapi.yml
+  url: https://artifacts.apis.io/definedcrowd/openapi/definedcrowd-deliverables-api-openapi.yml
 - filename: definedcrowd-input-units-api-openapi.yml
   format: yaml
   label: Defined.ai (DefinedCrowd) Input Units API
   slug: definedcrowd-input-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/definedcrowd/refs/heads/main/openapi/definedcrowd-input-units-api-openapi.yml
+  url: https://artifacts.apis.io/definedcrowd/openapi/definedcrowd-input-units-api-openapi.yml
 - filename: definedcrowd-jobs-api-openapi.yml
   format: yaml
   label: Defined.ai (DefinedCrowd) Jobs API
   slug: definedcrowd-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/definedcrowd/refs/heads/main/openapi/definedcrowd-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/definedcrowd/openapi/definedcrowd-jobs-api-openapi.yml
 - filename: definedcrowd-mean-opinion-score-api-openapi.yml
   format: yaml
   label: Defined.ai (DefinedCrowd) Mean Opinion Score API
   slug: definedcrowd-mean-opinion-score-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/definedcrowd/refs/heads/main/openapi/definedcrowd-mean-opinion-score-api-openapi.yml
+  url: https://artifacts.apis.io/definedcrowd/openapi/definedcrowd-mean-opinion-score-api-openapi.yml
 - filename: definedcrowd-project-management-api-openapi.yml
   format: yaml
   label: Defined.ai (DefinedCrowd) Project Management API
   slug: definedcrowd-project-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/definedcrowd/refs/heads/main/openapi/definedcrowd-project-management-api-openapi.yml
+  url: https://artifacts.apis.io/definedcrowd/openapi/definedcrowd-project-management-api-openapi.yml
 - filename: definedcrowd-pronunciation-validation-api-openapi.yml
   format: yaml
   label: Defined.ai (DefinedCrowd) Pronunciation Validation API
   slug: definedcrowd-pronunciation-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/definedcrowd/refs/heads/main/openapi/definedcrowd-pronunciation-validation-api-openapi.yml
+  url: https://artifacts.apis.io/definedcrowd/openapi/definedcrowd-pronunciation-validation-api-openapi.yml
 - filename: definedcrowd-subscriptions-api-openapi.yml
   format: yaml
   label: Defined.ai (DefinedCrowd) Subscriptions API
   slug: definedcrowd-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/definedcrowd/refs/heads/main/openapi/definedcrowd-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/definedcrowd/openapi/definedcrowd-subscriptions-api-openapi.yml
 - filename: definedcrowd-supported-languages-api-openapi.yml
   format: yaml
   label: Defined.ai (DefinedCrowd) Supported Languages API
   slug: definedcrowd-supported-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/definedcrowd/refs/heads/main/openapi/definedcrowd-supported-languages-api-openapi.yml
+  url: https://artifacts.apis.io/definedcrowd/openapi/definedcrowd-supported-languages-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -87,7 +87,7 @@ source_filename: definedcrowd-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.definedcrowd.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 15:38:14 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: developers.definedcrowd.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 15:38:14 2026 GMT\n  hsts: false\n- host: api.production-na01.definedcrowd.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 15:38:14 2026 GMT\n  hsts: null\ndomains:\n- domain: definedcrowd.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/definedcrowd/refs/heads/main/security/definedcrowd-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/definedcrowd/security/definedcrowd-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

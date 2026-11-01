@@ -8,7 +8,7 @@ api_specs:
   label: Evermuse Ingestion API
   slug: evermuse-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evermuse/refs/heads/main/openapi/evermuse-ingestion-api-openapi.yml
+  url: https://artifacts.apis.io/evermuse/openapi/evermuse-ingestion-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -69,7 +69,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/evermuse-ingest-v1-openapi-original.yml\ndocs: https://docs.evermuse.com/authentication\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: IngestApiKey\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: |-\n    Workspace-scoped API key, sent as the `x-api-key` header. Keys are prefixed\n    `em_sk_` and created in Settings > API Keys. Each workspace can hold up to 10 keys.\n    The Ingestion API requires the `api:write` permission (`api:read` keys get 403).\n  sources:\n  - openapi/evermuse-ingest-v1-openapi-original.yml\n  - https://docs.evermuse.com/authentication\n- name: EvermuseOAuth\n  type: oauth2\n  scheme: authorization_code\n  description: |-\n    OAuth 2.1 protects the hosted Evermuse MCP server (https://api.evermuse.com/api/mcp).\n    Authorization Server metadata is published at\n    /.well-known/oauth-authorization-server\
   \ (RFC 8414) and the protected resource at\n    /.well-known/oauth-protected-resource (RFC 9728). PKCE (S256) is required and\n    Dynamic Client Registration is supported (RFC 7591) at /oauth/register.\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.evermuse.com/oauth/authorize\n    tokenUrl: https://api.evermuse.com/oauth/token\n    registrationUrl: https://api.evermuse.com/oauth/register\n    pkce: S256\n    scopes:\n    - mcp:read\n    - mcp:write\n    - mcp:thirdparty\n  sources:\n  - well-known/evermuse-oauth-authorization-server.json\n  - well-known/evermuse-oauth-protected-resource.json\npermissions:\n- key: api:read\n  description: Read access to API endpoints (e.g. checking batch status).\n- key: api:write\n  description: Write access to API endpoints. Required for the Ingestion API.\n- key: mcp:read\n  description: Read access via MCP. Requires a default product.\n- key: mcp:write\n  description: Write access via MCP. Requires a default product.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evermuse/refs/heads/main/authentication/evermuse-authentication.yml
+source_yaml_url: https://artifacts.apis.io/evermuse/authentication/evermuse-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company

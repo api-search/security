@@ -5,7 +5,7 @@ api_specs:
   label: Talkdesk Webhook Surface
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkdesk/refs/heads/main/asyncapi/talkdesk-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/talkdesk/asyncapi/talkdesk-webhooks-asyncapi.yml
 description: ''
 domains:
 - caa:
@@ -46,7 +46,7 @@ source_filename: talkdesk-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.talkdesk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 08:02:35 2026 GMT\n  hsts: false\n- host: docs.talkdesk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 20:16:33 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: talkdesk.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issuewild \"ssl.com\"\n  - 128 iodef \"mailto:domain-names@talkdesk.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/talkdesk/refs/heads/main/security/talkdesk-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/talkdesk/security/talkdesk-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Contact Center

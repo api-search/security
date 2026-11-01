@@ -42,7 +42,7 @@ source_filename: jd-technology-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.jdt.com.cn\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 19 05:50:13 2026 GMT\n  hsts: false\n- host: docs.jdcloud.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 02:05:24 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: vm.jdcloud-api.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 02:05:24 2026 GMT\n  hsts: null\ndomains:\n- domain: jdt.com.cn\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: jdcloud.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jd-technology/refs/heads/main/security/jd-technology-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/jd-technology/security/jd-technology-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

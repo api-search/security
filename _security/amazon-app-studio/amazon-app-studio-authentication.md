@@ -7,7 +7,7 @@ api_specs:
   label: Amazon App Studio Apps API
   slug: amazon-app-studio-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-app-studio/refs/heads/main/openapi/amazon-app-studio-apps-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-app-studio/openapi/amazon-app-studio-apps-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -34,7 +34,7 @@ source_filename: amazon-app-studio-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-app-studio-openapi.yaml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: AWS Sig V4\n  sources:\n  - openapi/amazon-app-studio-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-app-studio/refs/heads/main/authentication/amazon-app-studio-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-app-studio/authentication/amazon-app-studio-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Generative AI

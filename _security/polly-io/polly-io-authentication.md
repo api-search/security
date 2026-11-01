@@ -7,25 +7,25 @@ api_specs:
   label: Polly Event Types API
   slug: polly-io-event-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polly-io/refs/heads/main/openapi/polly-io-event-types-api-openapi.yml
+  url: https://artifacts.apis.io/polly-io/openapi/polly-io-event-types-api-openapi.yml
 - filename: polly-io-lock-confirmation-documents-api-openapi.yml
   format: yaml
   label: Polly Lock Confirmation Documents API
   slug: polly-io-lock-confirmation-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polly-io/refs/heads/main/openapi/polly-io-lock-confirmation-documents-api-openapi.yml
+  url: https://artifacts.apis.io/polly-io/openapi/polly-io-lock-confirmation-documents-api-openapi.yml
 - filename: polly-io-mi-quotes-api-openapi.yml
   format: yaml
   label: Polly Mi Quotes API
   slug: polly-io-mi-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polly-io/refs/heads/main/openapi/polly-io-mi-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/polly-io/openapi/polly-io-mi-quotes-api-openapi.yml
 - filename: polly-io-webhooks-api-openapi.yml
   format: yaml
   label: Polly Webhooks API
   slug: polly-io-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polly-io/refs/heads/main/openapi/polly-io-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/polly-io/openapi/polly-io-webhooks-api-openapi.yml
 auth_types: []
 description: Polly uses an OAuth 2.0‑style Resource Owner Password Credentials (ROPC) flow to issue short‑lived access tokens.
 kind: authentication
@@ -62,12 +62,12 @@ source_heading: Authentication Profile
 source_url: https://docs.polly.io/docs/authentication.md
 source_yaml: "generated: '2026-10-15'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://docs.polly.io/docs/authentication.md\nsources:\n- https://docs.polly.io/docs/authentication.md\n- https://docs.polly.io/reference/securityoauthretrieve.md\n- https://docs.polly.io/reference/securityoauthcreate.md\n- https://docs.polly.io/reference/securityoauthpartialupdate.md\ndescription: Polly uses an OAuth 2.0‑style Resource Owner Password Credentials (ROPC) flow to issue short‑lived access tokens.\nschemes:\n- type: oauth2\n  name: Polly OAuth2\n  evidence: Polly uses an OAuth 2.0–style Resource Owner Password Credentials (ROPC) flow to issue short-lived access tokens.\n  flows:\n  - password\n  token_url: https://api.prod.polly.io/api/v2/auth/token/\n  scopes:\n  - write\n  - read\n  how_to_obtain: POST https://api.prod.polly.io/api/v2/auth/token/ with form‑encoded body parameters username, password, client_id, client_secret\n    and grant_type=password.\n- type: http-bearer\n\
   \  name: Bearer token\n  evidence: 'Include your bearer token in the header of every API request: Authorization: Bearer YOUR_ACCESS_TOKEN'\n  location: header\n  header: Authorization\n  how_to_obtain: Obtain the token via the OAuth2 password flow described above and then send it in the Authorization header as \"Bearer <token>\".\ndocs: https://docs.polly.io/docs/authentication.md\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/polly-io/refs/heads/main/authentication/polly-io-authentication.yml
+source_yaml_url: https://artifacts.apis.io/polly-io/authentication/polly-io-authentication.yml
 summary_line: 2 schemes
 tags:
 - Fintech
-- CapitalMarkets
+- Capital Markets
 - Mortgage
-- APIPlatform
+- API Platform
 - Artificial Intelligence
 ---

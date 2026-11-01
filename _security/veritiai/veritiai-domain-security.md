@@ -29,7 +29,7 @@ source_filename: veritiai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: veriti.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: veriti.ai\n  dnssec: true\n  caa:\n  - d396y8eo3tk9fl.cloudfront.net.\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veritiai/refs/heads/main/security/veritiai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/veritiai/security/veritiai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

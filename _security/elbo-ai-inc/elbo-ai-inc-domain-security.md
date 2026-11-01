@@ -5,31 +5,31 @@ api_specs:
   label: ELBO AI, INC Audio Uploads API
   slug: elbo-ai-inc-audio-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/openapi/elbo-ai-inc-audio-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/elbo-ai-inc/openapi/elbo-ai-inc-audio-uploads-api-openapi.yml
 - filename: elbo-ai-inc-text-to-speech-api-openapi.yml
   format: yaml
   label: ELBO AI, INC Text to Speech API
   slug: elbo-ai-inc-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/openapi/elbo-ai-inc-text-to-speech-api-openapi.yml
+  url: https://artifacts.apis.io/elbo-ai-inc/openapi/elbo-ai-inc-text-to-speech-api-openapi.yml
 - filename: elbo-ai-inc-usage-api-openapi.yml
   format: yaml
   label: ELBO AI, INC Usage API
   slug: elbo-ai-inc-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/openapi/elbo-ai-inc-usage-api-openapi.yml
+  url: https://artifacts.apis.io/elbo-ai-inc/openapi/elbo-ai-inc-usage-api-openapi.yml
 - filename: elbo-ai-inc-videos-api-openapi.yml
   format: yaml
   label: ELBO AI, INC Videos API
   slug: elbo-ai-inc-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/openapi/elbo-ai-inc-videos-api-openapi.yml
+  url: https://artifacts.apis.io/elbo-ai-inc/openapi/elbo-ai-inc-videos-api-openapi.yml
 - filename: elbo-ai-inc-voices-api-openapi.yml
   format: yaml
   label: ELBO AI, INC Voices API
   slug: elbo-ai-inc-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/openapi/elbo-ai-inc-voices-api-openapi.yml
+  url: https://artifacts.apis.io/elbo-ai-inc/openapi/elbo-ai-inc-voices-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: elbo-ai-inc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: puppetry.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 10:21:47 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: www.puppetry.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 02:26:23 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: puppetry.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/security/elbo-ai-inc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/elbo-ai-inc/security/elbo-ai-inc-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

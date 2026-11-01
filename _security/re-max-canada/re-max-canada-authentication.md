@@ -7,7 +7,7 @@ api_specs:
   label: RE/MAX Canada Website (WordPress REST)
   slug: blog-remax-ca-website-wordpress-rest
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/re-max-canada/refs/heads/main/openapi/re-max-canada-blog-wp-json-index.json
+  url: https://artifacts.apis.io/re-max-canada/openapi/re-max-canada-blog-wp-json-index.json
 auth_types:
 - http
 description: ''
@@ -53,7 +53,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: >-\n  openapi/r
   \  - openapi/re-max-canada-blog-wp-json-index.json\n- name: application-passwords\n  type: http\n  scheme: basic\n  standard: RFC 7617 HTTP Basic over TLS\n  description: >-\n    WordPress Application Passwords. Declared verbatim by the harvested\n    discovery index as\n    {\"application-passwords\":{\"endpoints\":{\"authorization\":\"https://blog.remax.ca/wp-admin/authorize-application.php\"}}}.\n    A credential is minted inside wp-admin by an already-authenticated WordPress\n    user and then sent as HTTP Basic (username + application password) on\n    subsequent REST calls. This is a CMS staff-login mechanism supplied by the\n    hosting platform, NOT a developer onboarding path: there is no self-serve\n    signup, no key-request form, no application review and no published terms\n    governing it.\n  authorization_endpoint: https://blog.remax.ca/wp-admin/authorize-application.php\n  self_serve: false\n  sources:\n  - openapi/re-max-canada-blog-wp-json-index.json\n- name: cookie-plus-nonce\n\
   \  type: apiKey\n  in: header\n  parameter_name: X-WP-Nonce\n  description: >-\n    The WordPress core first-party scheme for logged-in browser sessions. Listed\n    for completeness because it is inherent to every WordPress REST install; it\n    is not usable by a third-party integrator and it is not advertised in the\n    discovery index's authentication block.\n  self_serve: false\n  sources:\n  - WordPress core behaviour (not asserted by the provider)\nobserved_behaviour:\n- probe: GET https://blog.remax.ca/wp-json/wp/v2/settings\n  status: 401\n  body: '{\"code\":\"rest_forbidden\",\"message\":\"Sorry, you are not allowed to do that.\",\"data\":{\"status\":401}}'\n  note: >-\n    Authenticated-only routes reject anonymous callers with the WordPress\n    rest_forbidden envelope carrying HTTP 401 — no WWW-Authenticate challenge is\n    returned, so there is no discoverable auth negotiation.\n- probe: GET https://blog.remax.ca/wp-json/wp/v2/posts?per_page=1\n  status: 200\n  note: Content\
   \ routes read anonymously; CORS is Access-Control-Allow-Origin *.\nnegative_findings:\n  oauth2: >-\n    None documented and none discoverable.\n    /.well-known/oauth-authorization-server returns 404 on every host.\n  openid_connect: >-\n    None. /.well-known/openid-configuration returns 404 on blog.remax.ca,\n    join.remax.ca, franchise.remax.ca and www.remax.ca.\n  api_keys: None issued or documented by RE/MAX Canada.\n  mutual_tls: None documented.\n  scopes: >-\n    No scope vocabulary exists. WordPress authorizes by user capability, not by\n    OAuth scope, so scopes/ is deliberately NOT emitted for this provider.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/re-max-canada/refs/heads/main/authentication/re-max-canada-authentication.yml
+source_yaml_url: https://artifacts.apis.io/re-max-canada/authentication/re-max-canada-authentication.yml
 summary_line: http · 3 schemes
 tags:
 - Real Estate

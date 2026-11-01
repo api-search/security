@@ -5,43 +5,43 @@ api_specs:
   label: 1Factory Customers API
   slug: 1factory-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/openapi/1factory-customers-api-openapi.yml
+  url: https://artifacts.apis.io/1factory/openapi/1factory-customers-api-openapi.yml
 - filename: 1factory-manufacturing-api-openapi.yml
   format: yaml
   label: 1Factory Manufacturing API
   slug: 1factory-manufacturing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/openapi/1factory-manufacturing-api-openapi.yml
+  url: https://artifacts.apis.io/1factory/openapi/1factory-manufacturing-api-openapi.yml
 - filename: 1factory-part-master-api-openapi.yml
   format: yaml
   label: 1Factory Part Master API
   slug: 1factory-part-master-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/openapi/1factory-part-master-api-openapi.yml
+  url: https://artifacts.apis.io/1factory/openapi/1factory-part-master-api-openapi.yml
 - filename: 1factory-qms-api-openapi.yml
   format: yaml
   label: 1Factory QMS API
   slug: 1factory-qms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/openapi/1factory-qms-api-openapi.yml
+  url: https://artifacts.apis.io/1factory/openapi/1factory-qms-api-openapi.yml
 - filename: 1factory-receiving-api-openapi.yml
   format: yaml
   label: 1Factory Receiving API
   slug: 1factory-receiving-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/openapi/1factory-receiving-api-openapi.yml
+  url: https://artifacts.apis.io/1factory/openapi/1factory-receiving-api-openapi.yml
 - filename: 1factory-suppliers-api-openapi.yml
   format: yaml
   label: 1Factory Suppliers API
   slug: 1factory-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/openapi/1factory-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/1factory/openapi/1factory-suppliers-api-openapi.yml
 - filename: 1factory-work-orders-api-openapi.yml
   format: yaml
   label: 1Factory Work Orders API
   slug: 1factory-work-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/openapi/1factory-work-orders-api-openapi.yml
+  url: https://artifacts.apis.io/1factory/openapi/1factory-work-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ source_filename: 1factory-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.1factory.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 13 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.1factory.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 13 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: val.1factory.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 11:39:46 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: 1factory.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: 1factory.co\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/security/1factory-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/1factory/security/1factory-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Analytics

@@ -7,13 +7,13 @@ api_specs:
   label: EBSCO Content API
   slug: ebsco-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ebsco/refs/heads/main/openapi/ebsco-content-api-openapi.yml
+  url: https://artifacts.apis.io/ebsco/openapi/ebsco-content-api-openapi.yml
 - filename: ebsco-publishers-api-openapi.yml
   format: yaml
   label: EBSCO Publishers API
   slug: ebsco-publishers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ebsco/refs/heads/main/openapi/ebsco-publishers-api-openapi.yml
+  url: https://artifacts.apis.io/ebsco/openapi/ebsco-publishers-api-openapi.yml
 auth_types: []
 description: Authentication methods for EBSCO APIs
 kind: authentication
@@ -47,7 +47,7 @@ source_heading: Authentication Profile
 source_url: https://developer.ebsco.com/ebscohost-api/docs/authentication-and-access-tokens.md
 source_yaml: "generated: '2026-10-14'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://developer.ebsco.com/ebscohost-api/docs/authentication-and-access-tokens.md\nsources:\n- https://developer.ebsco.com/ebscohost-api/docs/authentication-and-access-tokens.md\n- https://developer.ebsco.com/ebscohost-api/docs/authentication-concepts.md\n- https://developer.ebsco.com/home/page/request-api-key-information.md\n- https://developer.ebsco.com/knowledge-services/docs/holdingsiq-authentication.md\ndescription: Authentication methods for EBSCO APIs\nschemes:\n- type: oauth2\n  name: EBSCO OAuth\n  evidence: EBSCOhost API Beta uses the OAuth 2.0 **authorization code grant** to give each user, or each guest visitor, their own access token.\n  flows:\n  - authorization_code\n  authorize_url: https://logon.ebsco.zone/api/dispatcher/oauth/authorize\n  how_to_obtain: Register a client app to receive a Client ID and Client Secret.\n- type: apiKey\n  name: x-api-key\n  evidence:\
   \ 'All requests to HoldingsIQ must contain the following API key header field: **x-api-key** {Unique API key as a string}'\n  location: header\n  header: x-api-key\n  how_to_obtain: Request an API key via the Request API Key Information form.\ndocs: https://developer.ebsco.com/ebscohost-api/docs/authentication-and-access-tokens.md\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ebsco/refs/heads/main/authentication/ebsco-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ebsco/authentication/ebsco-authentication.yml
 summary_line: 2 schemes
 tags:
 - Company

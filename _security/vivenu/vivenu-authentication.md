@@ -8,451 +8,451 @@ api_specs:
   label: vivenu Payments API
   slug: vivenu-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-payments-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-payments-api-openapi.yml
 - filename: vivenu-access-lists-api-openapi.yml
   format: yaml
   label: vivenu Access Lists API
   slug: vivenu-access-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-access-lists-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-access-lists-api-openapi.yml
 - filename: vivenu-accessusers-api-openapi.yml
   format: yaml
   label: vivenu Accessusers API
   slug: vivenu-accessusers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-accessusers-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-accessusers-api-openapi.yml
 - filename: vivenu-api-keys-api-openapi.yml
   format: yaml
   label: vivenu API Keys API
   slug: vivenu-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-api-keys-api-openapi.yml
 - filename: vivenu-attributes-api-openapi.yml
   format: yaml
   label: vivenu Attributes API
   slug: vivenu-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-attributes-api-openapi.yml
 - filename: vivenu-auth-api-openapi.yml
   format: yaml
   label: vivenu Auth API
   slug: vivenu-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-auth-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-auth-api-openapi.yml
 - filename: vivenu-billing-api-openapi.yml
   format: yaml
   label: vivenu Billing API
   slug: vivenu-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-billing-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-billing-api-openapi.yml
 - filename: vivenu-bundles-api-openapi.yml
   format: yaml
   label: vivenu Bundles API
   slug: vivenu-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-bundles-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-bundles-api-openapi.yml
 - filename: vivenu-cancellations-api-openapi.yml
   format: yaml
   label: vivenu Cancellations API
   slug: vivenu-cancellations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-cancellations-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-cancellations-api-openapi.yml
 - filename: vivenu-channels-api-openapi.yml
   format: yaml
   label: vivenu Channels API
   slug: vivenu-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-channels-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-channels-api-openapi.yml
 - filename: vivenu-chargebacks-api-openapi.yml
   format: yaml
   label: vivenu Chargebacks API
   slug: vivenu-chargebacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-chargebacks-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-chargebacks-api-openapi.yml
 - filename: vivenu-checkout-api-openapi.yml
   format: yaml
   label: vivenu Checkout API
   slug: vivenu-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-checkout-api-openapi.yml
 - filename: vivenu-checkouts-api-openapi.yml
   format: yaml
   label: vivenu Checkouts API
   slug: vivenu-checkouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-checkouts-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-checkouts-api-openapi.yml
 - filename: vivenu-coupons-api-openapi.yml
   format: yaml
   label: vivenu Coupons API
   slug: vivenu-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-coupons-api-openapi.yml
 - filename: vivenu-credit-notes-api-openapi.yml
   format: yaml
   label: vivenu Credit Notes API
   slug: vivenu-credit-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-credit-notes-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-credit-notes-api-openapi.yml
 - filename: vivenu-customer-payment-methods-api-openapi.yml
   format: yaml
   label: vivenu Customer Payment Methods API
   slug: vivenu-customer-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-customer-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-customer-payment-methods-api-openapi.yml
 - filename: vivenu-customers-api-openapi.yml
   format: yaml
   label: vivenu Customers API
   slug: vivenu-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-customers-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-customers-api-openapi.yml
 - filename: vivenu-data-fields-api-openapi.yml
   format: yaml
   label: vivenu Data Fields API
   slug: vivenu-data-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-data-fields-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-data-fields-api-openapi.yml
 - filename: vivenu-disputes-api-openapi.yml
   format: yaml
   label: vivenu Disputes API
   slug: vivenu-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-disputes-api-openapi.yml
 - filename: vivenu-distribution-api-api-openapi.yml
   format: yaml
   label: vivenu Distribution API
   slug: vivenu-distribution-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-distribution-api-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-distribution-api-api-openapi.yml
 - filename: vivenu-distributor-api-openapi.yml
   format: yaml
   label: vivenu Distributor API
   slug: vivenu-distributor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-distributor-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-distributor-api-openapi.yml
 - filename: vivenu-document-templates-api-openapi.yml
   format: yaml
   label: vivenu Document Templates API
   slug: vivenu-document-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-document-templates-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-document-templates-api-openapi.yml
 - filename: vivenu-entitlements-api-openapi.yml
   format: yaml
   label: vivenu Entitlements API
   slug: vivenu-entitlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-entitlements-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-entitlements-api-openapi.yml
 - filename: vivenu-event-series-api-openapi.yml
   format: yaml
   label: vivenu Event Series API
   slug: vivenu-event-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-event-series-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-event-series-api-openapi.yml
 - filename: vivenu-events-api-openapi.yml
   format: yaml
   label: vivenu Events API
   slug: vivenu-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-events-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-events-api-openapi.yml
 - filename: vivenu-fee-schemes-api-openapi.yml
   format: yaml
   label: vivenu Fee Schemes API
   slug: vivenu-fee-schemes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-fee-schemes-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-fee-schemes-api-openapi.yml
 - filename: vivenu-fundraise-api-openapi.yml
   format: yaml
   label: vivenu Fundraise API
   slug: vivenu-fundraise-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-fundraise-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-fundraise-api-openapi.yml
 - filename: vivenu-images-api-openapi.yml
   format: yaml
   label: vivenu Images API
   slug: vivenu-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-images-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-images-api-openapi.yml
 - filename: vivenu-insurance-api-openapi.yml
   format: yaml
   label: vivenu Insurance API
   slug: vivenu-insurance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-insurance-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-insurance-api-openapi.yml
 - filename: vivenu-invoices-api-openapi.yml
   format: yaml
   label: vivenu Invoices API
   slug: vivenu-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-invoices-api-openapi.yml
 - filename: vivenu-jobs-api-openapi.yml
   format: yaml
   label: vivenu Jobs API
   slug: vivenu-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-jobs-api-openapi.yml
 - filename: vivenu-marketing-api-openapi.yml
   format: yaml
   label: vivenu Marketing API
   slug: vivenu-marketing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-marketing-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-marketing-api-openapi.yml
 - filename: vivenu-methods-api-openapi.yml
   format: yaml
   label: vivenu Methods API
   slug: vivenu-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-methods-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-methods-api-openapi.yml
 - filename: vivenu-notifications-api-openapi.yml
   format: yaml
   label: vivenu Notifications API
   slug: vivenu-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-notifications-api-openapi.yml
 - filename: vivenu-organizations-api-openapi.yml
   format: yaml
   label: vivenu Organizations API
   slug: vivenu-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-organizations-api-openapi.yml
 - filename: vivenu-packages-api-openapi.yml
   format: yaml
   label: vivenu Packages API
   slug: vivenu-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-packages-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-packages-api-openapi.yml
 - filename: vivenu-payment-gateways-api-openapi.yml
   format: yaml
   label: vivenu Payment Gateways API
   slug: vivenu-payment-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-payment-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-payment-gateways-api-openapi.yml
 - filename: vivenu-payment-plans-api-openapi.yml
   format: yaml
   label: vivenu Payment Plans API
   slug: vivenu-payment-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-payment-plans-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-payment-plans-api-openapi.yml
 - filename: vivenu-payment-requests-api-openapi.yml
   format: yaml
   label: vivenu Payment Requests API
   slug: vivenu-payment-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-payment-requests-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-payment-requests-api-openapi.yml
 - filename: vivenu-payment-strategies-api-openapi.yml
   format: yaml
   label: vivenu Payment Strategies API
   slug: vivenu-payment-strategies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-payment-strategies-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-payment-strategies-api-openapi.yml
 - filename: vivenu-perks-api-openapi.yml
   format: yaml
   label: vivenu Perks API
   slug: vivenu-perks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-perks-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-perks-api-openapi.yml
 - filename: vivenu-pos-api-openapi.yml
   format: yaml
   label: vivenu Pos API
   slug: vivenu-pos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-pos-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-pos-api-openapi.yml
 - filename: vivenu-price-tables-api-openapi.yml
   format: yaml
   label: vivenu Price Tables API
   slug: vivenu-price-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-price-tables-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-price-tables-api-openapi.yml
 - filename: vivenu-printjob-api-openapi.yml
   format: yaml
   label: vivenu Printjob API
   slug: vivenu-printjob-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-printjob-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-printjob-api-openapi.yml
 - filename: vivenu-private-api-openapi.yml
   format: yaml
   label: vivenu Private API
   slug: vivenu-private-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-private-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-private-api-openapi.yml
 - filename: vivenu-product-categories-api-openapi.yml
   format: yaml
   label: vivenu Product Categories API
   slug: vivenu-product-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-product-categories-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-product-categories-api-openapi.yml
 - filename: vivenu-products-api-openapi.yml
   format: yaml
   label: vivenu Products API
   slug: vivenu-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-products-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-products-api-openapi.yml
 - filename: vivenu-public-api-openapi.yml
   format: yaml
   label: vivenu Public API
   slug: vivenu-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-public-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-public-api-openapi.yml
 - filename: vivenu-purchaseintents-api-openapi.yml
   format: yaml
   label: vivenu Purchaseintents API
   slug: vivenu-purchaseintents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-purchaseintents-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-purchaseintents-api-openapi.yml
 - filename: vivenu-queue-slips-api-openapi.yml
   format: yaml
   label: vivenu Queue Slips API
   slug: vivenu-queue-slips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-queue-slips-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-queue-slips-api-openapi.yml
 - filename: vivenu-rebooking-api-openapi.yml
   format: yaml
   label: vivenu Rebooking API
   slug: vivenu-rebooking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-rebooking-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-rebooking-api-openapi.yml
 - filename: vivenu-refunds-api-openapi.yml
   format: yaml
   label: vivenu Refunds API
   slug: vivenu-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-refunds-api-openapi.yml
 - filename: vivenu-reports-api-openapi.yml
   format: yaml
   label: vivenu Reports API
   slug: vivenu-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-reports-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-reports-api-openapi.yml
 - filename: vivenu-resell-offers-api-openapi.yml
   format: yaml
   label: vivenu Resell Offers API
   slug: vivenu-resell-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-resell-offers-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-resell-offers-api-openapi.yml
 - filename: vivenu-sales-channels-api-openapi.yml
   format: yaml
   label: vivenu Sales Channels API
   slug: vivenu-sales-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-sales-channels-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-sales-channels-api-openapi.yml
 - filename: vivenu-scan-groups-api-openapi.yml
   format: yaml
   label: vivenu Scan Groups API
   slug: vivenu-scan-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-scan-groups-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-scan-groups-api-openapi.yml
 - filename: vivenu-scan-zones-api-openapi.yml
   format: yaml
   label: vivenu Scan Zones API
   slug: vivenu-scan-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-scan-zones-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-scan-zones-api-openapi.yml
 - filename: vivenu-sellers-api-openapi.yml
   format: yaml
   label: vivenu Sellers API
   slug: vivenu-sellers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-sellers-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-sellers-api-openapi.yml
 - filename: vivenu-short-links-api-openapi.yml
   format: yaml
   label: vivenu Short Links API
   slug: vivenu-short-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-short-links-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-short-links-api-openapi.yml
 - filename: vivenu-stats-api-openapi.yml
   format: yaml
   label: vivenu Stats API
   slug: vivenu-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-stats-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-stats-api-openapi.yml
 - filename: vivenu-subscription-cycles-api-openapi.yml
   format: yaml
   label: vivenu Subscription Cycles API
   slug: vivenu-subscription-cycles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-subscription-cycles-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-subscription-cycles-api-openapi.yml
 - filename: vivenu-subscription-plans-api-openapi.yml
   format: yaml
   label: vivenu Subscription Plans API
   slug: vivenu-subscription-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-subscription-plans-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-subscription-plans-api-openapi.yml
 - filename: vivenu-subscriptions-api-openapi.yml
   format: yaml
   label: vivenu Subscriptions API
   slug: vivenu-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-subscriptions-api-openapi.yml
 - filename: vivenu-supports-api-openapi.yml
   format: yaml
   label: vivenu Supports API
   slug: vivenu-supports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-supports-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-supports-api-openapi.yml
 - filename: vivenu-third-api-openapi.yml
   format: yaml
   label: vivenu Third API
   slug: vivenu-third-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-third-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-third-api-openapi.yml
 - filename: vivenu-ticket-api-openapi.yml
   format: yaml
   label: vivenu Ticket API
   slug: vivenu-ticket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-ticket-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-ticket-api-openapi.yml
 - filename: vivenu-ticket-transfers-api-openapi.yml
   format: yaml
   label: vivenu Ticket Transfers API
   slug: vivenu-ticket-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-ticket-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-ticket-transfers-api-openapi.yml
 - filename: vivenu-tickets-api-openapi.yml
   format: yaml
   label: vivenu Tickets API
   slug: vivenu-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-tickets-api-openapi.yml
 - filename: vivenu-transaction-api-openapi.yml
   format: yaml
   label: vivenu Transaction API
   slug: vivenu-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-transaction-api-openapi.yml
 - filename: vivenu-transactions-api-openapi.yml
   format: yaml
   label: vivenu Transactions API
   slug: vivenu-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-transactions-api-openapi.yml
 - filename: vivenu-transfers-api-openapi.yml
   format: yaml
   label: vivenu Transfers API
   slug: vivenu-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-transfers-api-openapi.yml
 - filename: vivenu-upload-api-openapi.yml
   format: yaml
   label: vivenu Upload API
   slug: vivenu-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-upload-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-upload-api-openapi.yml
 - filename: vivenu-users-api-openapi.yml
   format: yaml
   label: vivenu Users API
   slug: vivenu-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-users-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-users-api-openapi.yml
 - filename: vivenu-vouchers-api-openapi.yml
   format: yaml
   label: vivenu Vouchers API
   slug: vivenu-vouchers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-vouchers-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-vouchers-api-openapi.yml
 - filename: vivenu-webhooks-api-openapi.yml
   format: yaml
   label: vivenu Webhooks API
   slug: vivenu-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/vivenu/openapi/vivenu-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -486,7 +486,7 @@ source_filename: vivenu-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/vivenu-openapi-original.json\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: jwt\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/vivenu-openapi-original.json\n- name: apikey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/vivenu-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/authentication/vivenu-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vivenu/authentication/vivenu-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

@@ -8,31 +8,31 @@ api_specs:
   label: Buxfer Accounts API
   slug: buxfer-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buxfer/refs/heads/main/openapi/buxfer-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/buxfer/openapi/buxfer-accounts-api-openapi.yml
 - filename: buxfer-authentication-api-openapi.yml
   format: yaml
   label: Buxfer Authentication API
   slug: buxfer-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buxfer/refs/heads/main/openapi/buxfer-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/buxfer/openapi/buxfer-authentication-api-openapi.yml
 - filename: buxfer-organization-api-openapi.yml
   format: yaml
   label: Buxfer Organization API
   slug: buxfer-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buxfer/refs/heads/main/openapi/buxfer-organization-api-openapi.yml
+  url: https://artifacts.apis.io/buxfer/openapi/buxfer-organization-api-openapi.yml
 - filename: buxfer-social-api-openapi.yml
   format: yaml
   label: Buxfer Social API
   slug: buxfer-social-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buxfer/refs/heads/main/openapi/buxfer-social-api-openapi.yml
+  url: https://artifacts.apis.io/buxfer/openapi/buxfer-social-api-openapi.yml
 - filename: buxfer-transactions-api-openapi.yml
   format: yaml
   label: Buxfer Transactions API
   slug: buxfer-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buxfer/refs/heads/main/openapi/buxfer-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/buxfer/openapi/buxfer-transactions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: buxfer-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/buxfer-openapi.yml\ndocs: https://www.buxfer.com/help/api\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\n  model: login-token\n  notes: >-\n    Buxfer does not use OAuth. A client authenticates once with the account\n    email and password via the login operation, which returns a unique ephemeral\n    token. That token is then passed as a `token` query parameter on every\n    subsequent request. There are no OAuth scopes; access is full-account.\nlogin_flow:\n  operation: login\n  request:\n    email: account email\n    password: account password\n  returns: token\n  token_param: token\n  token_lifetime: ephemeral\nschemes:\n- name: token\n  type: apiKey\n  in: query\n  parameter: token\n  description: >-\n    Ephemeral token returned by the login operation, passed as a query parameter\n    on every subsequent request.\n  sources:\n  - openapi/buxfer-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buxfer/refs/heads/main/authentication/buxfer-authentication.yml
+source_yaml_url: https://artifacts.apis.io/buxfer/authentication/buxfer-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

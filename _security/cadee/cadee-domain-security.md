@@ -26,7 +26,7 @@ source_filename: cadee-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cadee.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 03:25:56 2026 GMT\n  hsts: null\ndomains:\n- domain: cadee.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cadee/refs/heads/main/security/cadee-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cadee/security/cadee-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

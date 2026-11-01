@@ -7,43 +7,43 @@ api_specs:
   label: Sterling Authentication API
   slug: sterling-check-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sterling-check/openapi/sterling-check-authentication-api-openapi.yml
 - filename: sterling-check-candidates-api-openapi.yml
   format: yaml
   label: Sterling Candidates API
   slug: sterling-check-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-candidates-api-openapi.yml
+  url: https://artifacts.apis.io/sterling-check/openapi/sterling-check-candidates-api-openapi.yml
 - filename: sterling-check-invites-api-openapi.yml
   format: yaml
   label: Sterling Invites API
   slug: sterling-check-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-invites-api-openapi.yml
+  url: https://artifacts.apis.io/sterling-check/openapi/sterling-check-invites-api-openapi.yml
 - filename: sterling-check-packages-api-openapi.yml
   format: yaml
   label: Sterling Packages API
   slug: sterling-check-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-packages-api-openapi.yml
+  url: https://artifacts.apis.io/sterling-check/openapi/sterling-check-packages-api-openapi.yml
 - filename: sterling-check-reports-api-openapi.yml
   format: yaml
   label: Sterling Reports API
   slug: sterling-check-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-reports-api-openapi.yml
+  url: https://artifacts.apis.io/sterling-check/openapi/sterling-check-reports-api-openapi.yml
 - filename: sterling-check-screenings-api-openapi.yml
   format: yaml
   label: Sterling Screenings API
   slug: sterling-check-screenings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-screenings-api-openapi.yml
+  url: https://artifacts.apis.io/sterling-check/openapi/sterling-check-screenings-api-openapi.yml
 - filename: sterling-check-webhooks-api-openapi.yml
   format: yaml
   label: Sterling Webhooks API
   slug: sterling-check-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/sterling-check/openapi/sterling-check-webhooks-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -81,7 +81,7 @@ source_filename: sterling-check-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sterling-check-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oAuth2ClientCredentials\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.sterlingcheck.app/oauth/token\n    scopes: 0\n  description: OAuth2 client credentials grant using your Client ID and Client Secret.\n  sources:\n  - openapi/sterling-check-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: The access token returned from the OAuth token exchange, sent as a Bearer token.\n  sources:\n  - openapi/sterling-check-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/authentication/sterling-check-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sterling-check/authentication/sterling-check-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Background Screening

@@ -5,31 +5,31 @@ api_specs:
   label: Fortnite Tracker Challenges API
   slug: fortnite-challenges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnite/refs/heads/main/openapi/fortnite-challenges-api-openapi.yml
+  url: https://artifacts.apis.io/fortnite/openapi/fortnite-challenges-api-openapi.yml
 - filename: fortnite-leaderboards-api-openapi.yml
   format: yaml
   label: Fortnite Tracker Leaderboards API
   slug: fortnite-leaderboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnite/refs/heads/main/openapi/fortnite-leaderboards-api-openapi.yml
+  url: https://artifacts.apis.io/fortnite/openapi/fortnite-leaderboards-api-openapi.yml
 - filename: fortnite-power-rankings-api-openapi.yml
   format: yaml
   label: Fortnite Tracker Power Rankings API
   slug: fortnite-power-rankings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnite/refs/heads/main/openapi/fortnite-power-rankings-api-openapi.yml
+  url: https://artifacts.apis.io/fortnite/openapi/fortnite-power-rankings-api-openapi.yml
 - filename: fortnite-profile-api-openapi.yml
   format: yaml
   label: Fortnite Tracker Profile API
   slug: fortnite-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnite/refs/heads/main/openapi/fortnite-profile-api-openapi.yml
+  url: https://artifacts.apis.io/fortnite/openapi/fortnite-profile-api-openapi.yml
 - filename: fortnite-store-api-openapi.yml
   format: yaml
   label: Fortnite Tracker Store API
   slug: fortnite-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnite/refs/heads/main/openapi/fortnite-store-api-openapi.yml
+  url: https://artifacts.apis.io/fortnite/openapi/fortnite-store-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -66,7 +66,7 @@ source_filename: fortnite-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: fortnitetracker.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 10:39:23 2026 GMT\n  hsts: null\n- host: api.fortnitetracker.com\n  https: false\ndomains:\n- domain: fortnitetracker.com\n  dnssec: false\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fortnite/refs/heads/main/security/fortnite-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fortnite/security/fortnite-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Public APIs

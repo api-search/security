@@ -8,19 +8,19 @@ api_specs:
   label: Azure Notification Hubs Installations API
   slug: microsoft-azure-notification-hubs-installations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-notification-hubs/refs/heads/main/openapi/microsoft-azure-notification-hubs-installations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-notification-hubs/openapi/microsoft-azure-notification-hubs-installations-api-openapi.yml
 - filename: microsoft-azure-notification-hubs-notifications-api-openapi.yml
   format: yaml
   label: Azure Notification Hubs Notifications API
   slug: microsoft-azure-notification-hubs-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-notification-hubs/refs/heads/main/openapi/microsoft-azure-notification-hubs-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-notification-hubs/openapi/microsoft-azure-notification-hubs-notifications-api-openapi.yml
 - filename: microsoft-azure-notification-hubs-registrations-api-openapi.yml
   format: yaml
   label: Azure Notification Hubs Registrations API
   slug: microsoft-azure-notification-hubs-registrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-notification-hubs/refs/heads/main/openapi/microsoft-azure-notification-hubs-registrations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-notification-hubs/openapi/microsoft-azure-notification-hubs-registrations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -47,7 +47,7 @@ source_filename: microsoft-azure-notification-hubs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-azure-notification-hubs-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: sasToken\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/microsoft-azure-notification-hubs-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-notification-hubs/refs/heads/main/authentication/microsoft-azure-notification-hubs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-notification-hubs/authentication/microsoft-azure-notification-hubs-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Cross-Platform

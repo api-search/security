@@ -5,31 +5,31 @@ api_specs:
   label: Gradescope LTI Integration
   slug: gradescope-lti-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradescope/refs/heads/main/openapi/_original/gradescope-openapi.yml
+  url: https://artifacts.apis.io/gradescope/openapi/_original/gradescope-openapi.yml
 - filename: gradescope-openapi.yml
   format: yaml
   label: Gradescope Courses API
   slug: gradescope-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradescope/refs/heads/main/openapi/_original/gradescope-openapi.yml
+  url: https://artifacts.apis.io/gradescope/openapi/_original/gradescope-openapi.yml
 - filename: gradescope-openapi.yml
   format: yaml
   label: Gradescope Assignments API
   slug: gradescope-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradescope/refs/heads/main/openapi/_original/gradescope-openapi.yml
+  url: https://artifacts.apis.io/gradescope/openapi/_original/gradescope-openapi.yml
 - filename: gradescope-openapi.yml
   format: yaml
   label: Gradescope Submissions API
   slug: gradescope-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradescope/refs/heads/main/openapi/_original/gradescope-openapi.yml
+  url: https://artifacts.apis.io/gradescope/openapi/_original/gradescope-openapi.yml
 - filename: gradescope-openapi.yml
   format: yaml
   label: Gradescope Grades API
   slug: gradescope-grades-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradescope/refs/heads/main/openapi/_original/gradescope-openapi.yml
+  url: https://artifacts.apis.io/gradescope/openapi/_original/gradescope-openapi.yml
 description: ''
 domains:
 - caa:
@@ -85,7 +85,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.gradescope.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 12 23:59:59 2026 GMT\n  hsts: false\n- host: guides.gradescope.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 23:42:39 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: gradescope-autograders.readthedocs.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 13:13:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: gradescope.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 iodef \"mailto:devops+caa@turnitin.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: readthedocs.io\n  dnssec: false\n  caa:\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n \
   \ - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gradescope/refs/heads/main/security/gradescope-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gradescope/security/gradescope-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Education

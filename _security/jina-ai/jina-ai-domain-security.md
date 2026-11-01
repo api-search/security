@@ -5,25 +5,25 @@ api_specs:
   label: Jina AI Batch API
   slug: jina-ai-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/openapi/jina-ai-batch-api-openapi.yml
+  url: https://artifacts.apis.io/jina-ai/openapi/jina-ai-batch-api-openapi.yml
 - filename: jina-ai-embeddings-api-openapi.yml
   format: yaml
   label: Jina AI Embeddings API
   slug: jina-ai-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/openapi/jina-ai-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/jina-ai/openapi/jina-ai-embeddings-api-openapi.yml
 - filename: jina-ai-reader-api-openapi.yml
   format: yaml
   label: Jina AI Reader API
   slug: jina-ai-reader-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/openapi/jina-ai-reader-api-openapi.yml
+  url: https://artifacts.apis.io/jina-ai/openapi/jina-ai-reader-api-openapi.yml
 - filename: jina-ai-reranker-api-openapi.yml
   format: yaml
   label: Jina AI Reranker API
   slug: jina-ai-reranker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/openapi/jina-ai-reranker-api-openapi.yml
+  url: https://artifacts.apis.io/jina-ai/openapi/jina-ai-reranker-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,7 +62,7 @@ source_filename: jina-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: jina.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 12:12:38 2026 GMT\n  hsts: false\n- host: api.jina.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 07:03:02 2026 GMT\n  hsts: null\n- host: r.jina.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 07:03:02 2026 GMT\n  hsts: null\ndomains:\n- domain: jina.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/security/jina-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/jina-ai/security/jina-ai-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Artificial Intelligence

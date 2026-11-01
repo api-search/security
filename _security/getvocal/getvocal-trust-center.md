@@ -5,19 +5,19 @@ api_specs:
   label: GetVocal Contact API
   slug: getvocal-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/openapi/getvocal-contact-api-openapi.yml
+  url: https://artifacts.apis.io/getvocal/openapi/getvocal-contact-api-openapi.yml
 - filename: getvocal-llms-txt-api-openapi.yml
   format: yaml
   label: GetVocal Llms.txt API
   slug: getvocal-llms-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/openapi/getvocal-llms-txt-api-openapi.yml
+  url: https://artifacts.apis.io/getvocal/openapi/getvocal-llms-txt-api-openapi.yml
 - filename: getvocal-well-known-api-openapi.yml
   format: yaml
   label: GetVocal .well Known API
   slug: getvocal-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/openapi/getvocal-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/getvocal/openapi/getvocal-well-known-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -36,7 +36,7 @@ source_filename: getvocal-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://www.getvocal.ai/llms.txt\nurl: https://trust.getvocal.ai/\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\ncompliance:\n- GDPR\n- EU AI Act\nnotes: >-\n  A public Trust Center is hosted at trust.getvocal.ai (a client-rendered SPA,\n  so its document list could not be scraped verbatim). The certification and\n  compliance postures above are stated by the provider in their published\n  /llms.txt: \"GDPR and EU AI Act aligned; ISO 27001, SOC 2 and HIPAA postures\n  available.\" Deployment options: on-premises, self-hosted, EU-hosted or hybrid.\nevidence:\n- source: https://www.getvocal.ai/llms.txt\n  keywords: [iso 27001, soc 2, hipaa, gdpr, eu ai act]\n- source: https://trust.getvocal.ai/\n  keywords: [trust center]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/security/getvocal-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/getvocal/security/getvocal-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA
 tags:
 - Company

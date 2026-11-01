@@ -5,37 +5,37 @@ api_specs:
   label: Wagepoint Companies API
   slug: wagepoint-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wagepoint/refs/heads/main/openapi/wagepoint-companies-api-openapi.yml
+  url: https://artifacts.apis.io/wagepoint/openapi/wagepoint-companies-api-openapi.yml
 - filename: wagepoint-health-api-openapi.yml
   format: yaml
   label: Wagepoint Health API
   slug: wagepoint-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wagepoint/refs/heads/main/openapi/wagepoint-health-api-openapi.yml
+  url: https://artifacts.apis.io/wagepoint/openapi/wagepoint-health-api-openapi.yml
 - filename: wagepoint-mcp-api-openapi.yml
   format: yaml
   label: Wagepoint MCP API
   slug: wagepoint-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wagepoint/refs/heads/main/openapi/wagepoint-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/wagepoint/openapi/wagepoint-mcp-api-openapi.yml
 - filename: wagepoint-pay-groups-api-openapi.yml
   format: yaml
   label: Wagepoint Pay Groups API
   slug: wagepoint-pay-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wagepoint/refs/heads/main/openapi/wagepoint-pay-groups-api-openapi.yml
+  url: https://artifacts.apis.io/wagepoint/openapi/wagepoint-pay-groups-api-openapi.yml
 - filename: wagepoint-persons-api-openapi.yml
   format: yaml
   label: Wagepoint Persons API
   slug: wagepoint-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wagepoint/refs/heads/main/openapi/wagepoint-persons-api-openapi.yml
+  url: https://artifacts.apis.io/wagepoint/openapi/wagepoint-persons-api-openapi.yml
 - filename: wagepoint-time-entries-api-openapi.yml
   format: yaml
   label: Wagepoint Time Entries API
   slug: wagepoint-time-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wagepoint/refs/heads/main/openapi/wagepoint-time-entries-api-openapi.yml
+  url: https://artifacts.apis.io/wagepoint/openapi/wagepoint-time-entries-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2
@@ -52,7 +52,7 @@ source_filename: wagepoint-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: searched\nprobe: true\nsource: https://trust.wagepoint.com/\nurl: https://trust.wagepoint.com/\ncertifications:\n- SOC 2\nevidence:\n- source: https://trust.wagepoint.com/\n  keywords:\n  - soc 2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wagepoint/refs/heads/main/security/wagepoint-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/wagepoint/security/wagepoint-trust-center.yml
 summary_line: SOC 2
 tags:
 - Company

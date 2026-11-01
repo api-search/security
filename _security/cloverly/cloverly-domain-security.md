@@ -5,25 +5,25 @@ api_specs:
   label: Cloverly Estimates API
   slug: cloverly-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloverly/refs/heads/main/openapi/cloverly-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/cloverly/openapi/cloverly-estimates-api-openapi.yml
 - filename: cloverly-purchases-api-openapi.yml
   format: yaml
   label: Cloverly Purchases API
   slug: cloverly-purchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloverly/refs/heads/main/openapi/cloverly-purchases-api-openapi.yml
+  url: https://artifacts.apis.io/cloverly/openapi/cloverly-purchases-api-openapi.yml
 - filename: cloverly-offset-types-api-openapi.yml
   format: yaml
   label: Cloverly Offset Types API
   slug: cloverly-offset-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloverly/refs/heads/main/openapi/cloverly-offset-types-api-openapi.yml
+  url: https://artifacts.apis.io/cloverly/openapi/cloverly-offset-types-api-openapi.yml
 - filename: cloverly-account-api-openapi.yml
   format: yaml
   label: Cloverly Account API
   slug: cloverly-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloverly/refs/heads/main/openapi/cloverly-account-api-openapi.yml
+  url: https://artifacts.apis.io/cloverly/openapi/cloverly-account-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: cloverly-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cloverly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 23:39:53 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.cloverly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 22:14:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.cloverly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 13 17:42:39 2026 GMT\n  hsts: false\ndomains:\n- domain: cloverly.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloverly/refs/heads/main/security/cloverly-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cloverly/security/cloverly-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Carbon

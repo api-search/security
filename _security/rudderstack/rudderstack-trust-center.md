@@ -5,19 +5,19 @@ api_specs:
   label: RudderStack Webhook Source API
   slug: rudderstack-webhook-source-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rudderstack/refs/heads/main/asyncapi/rudderstack-event-streaming-asyncapi.yml
+  url: https://artifacts.apis.io/rudderstack/asyncapi/rudderstack-event-streaming-asyncapi.yml
 - filename: rudderstack-http-api-api-openapi.yml
   format: yaml
   label: RudderStack HTTP API
   slug: rudderstack-http-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rudderstack/refs/heads/main/openapi/rudderstack-http-api-api-openapi.yml
+  url: https://artifacts.apis.io/rudderstack/openapi/rudderstack-http-api-api-openapi.yml
 - filename: rudderstack-internal-api-api-openapi.yml
   format: yaml
   label: RudderStack Internal API
   slug: rudderstack-internal-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rudderstack/refs/heads/main/openapi/rudderstack-internal-api-api-openapi.yml
+  url: https://artifacts.apis.io/rudderstack/openapi/rudderstack-internal-api-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -39,7 +39,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: ht
   \ status: 200}\ncertifications:\n  - name: SOC 2\n    level: Type 2\n    status: obtained\n    evidence: >-\n      \"SOC 2 - We have obtained SOC 2 Type 2 compliance and regularly audit our\n      policies and procedures to ensure continued compliance.\"\n  - name: HIPAA\n    status: compliant, BAA available\n    plan_gate: Enterprise\n    evidence: >-\n      \"HIPAA - We comply with HIPAA requirements for PHI and can sign a BAA.\"\n      The pricing comparison table lists HIPAA / BAA under Enterprise only.\n  - name: GDPR\n    status: compliant\n    evidence: >-\n      \"GDPR - We compliant with GDPR and are constantly adding features to enable\n      you to meet your EU data protection requirements.\" EU data residency is\n      backed by a separate control-plane host, https://api.eu.rudderstack.com.\nnot_claimed:\n  certifications:\n    - ISO 27001\n    - PCI DSS\n    - FedRAMP\n    - CSA STAR\n  note: >-\n    These were not claimed on the security page. That records the absence of\
   \ a\n    published claim, not a finding about RudderStack's controls.\nsecurity_controls_published:\n  - {name: SSO, detail: 'Okta, OneLogin', plan_gate: Enterprise}\n  - {name: SSH Tunnel, detail: Encryption for in-flight data to warehouses/databases, plan_gate: Enterprise}\n  - {name: Permissions management, detail: Limit access to features exposing PHI or PII}\n  - {name: Audit logs, detail: 'Track user activity in the workspace; exposed programmatically via the Audit Logs API (/v2/audit-logs)'}\n  - {name: MFA, detail: 'TOTP authenticator app or SMS, with single-use backup codes', since: '2026-08-05'}\n  - {name: VPC deployment, detail: Available on Enterprise (talk to sales)}\n  - {name: PII masking, detail: Data Compliance Toolkit; also applied automatically by Rudder AI}\n  - {name: User suppression and deletion, detail: 'User Suppression API (/v2/regulations)', plan_gate: 'Growth, Enterprise'}\narchitecture_claim: >-\n  \"We do not store your data, giving you complete ownership,\
   \ control and\n  transparency. We build on your warehouse.\"\nrelated:\n  vulnerability_disclosure: security/rudderstack-vulnerability-disclosure.yml\n  domain_security: security/rudderstack-domain-security.yml\n  legal:\n    master_service_agreement: https://www.rudderstack.com/master-service-agreement/\n    privacy_policy: https://www.rudderstack.com/privacy-policy/\n    terms_of_service: https://www.rudderstack.com/terms-of-service/\nevidence:\n  - source: https://www.rudderstack.com/security/\n    http_status: 200\n    keywords:\n      - soc 2\n      - soc 2 type 2\n      - hipaa\n      - baa\n      - gdpr\n      - sso\n      - audit logs\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rudderstack/refs/heads/main/security/rudderstack-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/rudderstack/security/rudderstack-trust-center.yml
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Customer Data Platform

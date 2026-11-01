@@ -11,19 +11,19 @@ api_specs:
   label: Acuity Scheduling Appointments API
   slug: acuity-scheduling-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuity-scheduling/refs/heads/main/openapi/acuity-scheduling-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/acuity-scheduling/openapi/acuity-scheduling-appointments-api-openapi.yml
 - filename: acuity-scheduling-meta-api-openapi.yml
   format: yaml
   label: Acuity Scheduling Meta API
   slug: acuity-scheduling-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuity-scheduling/refs/heads/main/openapi/acuity-scheduling-meta-api-openapi.yml
+  url: https://artifacts.apis.io/acuity-scheduling/openapi/acuity-scheduling-meta-api-openapi.yml
 - filename: acuity-scheduling-payments-api-openapi.yml
   format: yaml
   label: Acuity Scheduling Payments API
   slug: acuity-scheduling-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuity-scheduling/refs/heads/main/openapi/acuity-scheduling-payments-api-openapi.yml
+  url: https://artifacts.apis.io/acuity-scheduling/openapi/acuity-scheduling-payments-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: acuity-scheduling-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: acuityscheduling.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developers.acuityscheduling.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 07:47:32 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: acuityscheduling.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acuity-scheduling/refs/heads/main/security/acuity-scheduling-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/acuity-scheduling/security/acuity-scheduling-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Appointment Scheduling

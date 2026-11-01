@@ -27,7 +27,7 @@ source_filename: aigen-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.aigen.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  6 08:29:32 2026 GMT\n  hsts: false\ndomains:\n- domain: aigen.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aigen/refs/heads/main/security/aigen-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aigen/security/aigen-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

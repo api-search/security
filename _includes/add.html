@@ -61,9 +61,45 @@
   // widget is reset after any failed POST, or the retry would send a spent token.
   var ADD_TURNSTILE_SITEKEY = '0x4AAAAAAE8OtzayKemZlt6o';
   var addTurnstileId = null;
+  // roadmap#1046: two submitters on 2026-10-28 saw the widget and still could not get a token. A widget
+  // that renders and then fails (an error code, an expired token, a challenge timeout) left nothing but
+  // "Please complete the verification" and logged nothing anywhere. Now each failure says what happened,
+  // offers email, and sends a field-free beacon so the rate is finally measurable.
+  var addTurnstileState = null;
+  function addTurnstileBeacon(kind, code) {
+    try {
+      fetch('https://apis.io/api/v1/submit', { method: 'POST', headers: { 'content-type': 'application/json' }, keepalive: true,
+        body: JSON.stringify({ client_event: 'turnstile_client', kind: kind, code: String(code || ''), host: location.hostname }) });
+    } catch (x) {}
+  }
+  function addTurnstileProblem(kind, code) {
+    addTurnstileState = { kind: kind, code: code };
+    addTurnstileBeacon(kind, code);
+    var note = document.getElementById('add-turnstile-note');
+    if (!note) {
+      note = document.createElement('div'); note.id = 'add-turnstile-note';
+      note.className = 'alert alert-warning small mt-2 mb-0'; note.setAttribute('role', 'status');
+      document.getElementById('add-turnstile').after(note);
+    }
+    var what = kind === 'expired' ? 'The verification expired while the form was open.'
+             : kind === 'timeout' ? 'The verification challenge timed out.'
+             : 'The verification could not complete' + (code ? ' (Cloudflare error ' + code + ')' : '') + '.';
+    note.innerHTML = what + ' It retries on its own; if it keeps failing, reload the page, or send the same details to '
+      + '<a href="mailto:info@apis.io">info@apis.io</a> and we will list it from your email.';
+  }
+  function addTurnstileOk() {
+    addTurnstileState = null;
+    var note = document.getElementById('add-turnstile-note'); if (note) note.remove();
+  }
   function addTurnstileReady() {
     if (!window.turnstile) return;
-    addTurnstileId = turnstile.render('#add-turnstile', { sitekey: ADD_TURNSTILE_SITEKEY, theme: 'light' });
+    addTurnstileId = turnstile.render('#add-turnstile', {
+      sitekey: ADD_TURNSTILE_SITEKEY, theme: 'light',
+      callback: addTurnstileOk,
+      'error-callback': function (code) { addTurnstileProblem('error', code); return true; },
+      'expired-callback': function () { addTurnstileProblem('expired'); },
+      'timeout-callback': function () { addTurnstileProblem('timeout'); }
+    });
   }
   // roadmap#930: two submitters in one week hit `turnstile_required` and fell back to email with no
   // idea why. If the widget has not rendered a few seconds after the page loads (blocked script,
@@ -111,7 +147,14 @@
     };
     if (!payload.name) { err('Please give the API or company name.'); $('add-name').focus(); return; }
     if (!validEmail(payload.contact)) { err('Please add your email address so we can reply.'); $('add-contact').focus(); return; }
-    if (!payload.turnstile_token) { err('Please complete the verification above before sending.'); return; }
+    if (!payload.turnstile_token) {
+      if (addTurnstileState) { addTurnstileBeacon('blocked-submit', addTurnstileState.code || addTurnstileState.kind); }
+      else if (addTurnstileId === null) { addTurnstileBeacon('blocked-submit', 'not-rendered'); }
+      err(addTurnstileState || addTurnstileId === null
+        ? 'The verification above did not complete, so this cannot be sent from here. Please email the same details to info@apis.io and we will list it.'
+        : 'Please complete the verification above before sending.');
+      return;
+    }
 
     var btn = $('add-submit-btn');
     btn.disabled = true; btn.textContent = 'Sending…';

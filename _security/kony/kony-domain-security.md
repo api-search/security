@@ -30,7 +30,7 @@ source_filename: kony-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.kony.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 14 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: kony.com\n  dnssec: false\n  caa:\n  - 128 issue \"godaddy.com\"\n  - 128 iodef \"mailto:CloudAdmin@temenos.com\"\n  - 128 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kony/refs/heads/main/security/kony-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kony/security/kony-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

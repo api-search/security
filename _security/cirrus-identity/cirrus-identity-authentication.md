@@ -7,7 +7,7 @@ api_specs:
   label: Cirrus Identity Endpoints API
   slug: cirrus-identity-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cirrus-identity/refs/heads/main/openapi/cirrus-identity-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/cirrus-identity/openapi/cirrus-identity-endpoints-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -33,7 +33,7 @@ source_filename: cirrus-identity-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/cirrus-identity-log-api-openapi.json\ndocs: https://blog.cirrusidentity.com/documentation/log-api-credentials\nnotes: >\n  Log API endpoints require HTTP Basic authentication using Log API credentials\n  provisioned in the Cirrus Console.\nsummary:\n  types:\n  - http\nschemes:\n- name: HTTPBasic\n  type: http\n  scheme: basic\n  sources:\n  - openapi/cirrus-identity-log-api-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cirrus-identity/refs/heads/main/authentication/cirrus-identity-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cirrus-identity/authentication/cirrus-identity-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

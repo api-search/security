@@ -7,25 +7,25 @@ api_specs:
   label: Cesanta Data API
   slug: cesanta-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cesanta/refs/heads/main/openapi/cesanta-data-api-openapi.yml
+  url: https://artifacts.apis.io/cesanta/openapi/cesanta-data-api-openapi.yml
 - filename: cesanta-devices-api-openapi.yml
   format: yaml
   label: Cesanta Devices API
   slug: cesanta-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cesanta/refs/heads/main/openapi/cesanta-devices-api-openapi.yml
+  url: https://artifacts.apis.io/cesanta/openapi/cesanta-devices-api-openapi.yml
 - filename: cesanta-keys-api-openapi.yml
   format: yaml
   label: Cesanta Keys API
   slug: cesanta-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cesanta/refs/heads/main/openapi/cesanta-keys-api-openapi.yml
+  url: https://artifacts.apis.io/cesanta/openapi/cesanta-keys-api-openapi.yml
 - filename: cesanta-logs-api-openapi.yml
   format: yaml
   label: Cesanta Logs API
   slug: cesanta-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cesanta/refs/heads/main/openapi/cesanta-logs-api-openapi.yml
+  url: https://artifacts.apis.io/cesanta/openapi/cesanta-logs-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: cesanta-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/cesanta-mdash-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: mDash API key sent as an HTTP bearer token.\n  sources:\n  - openapi/cesanta-mdash-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cesanta/refs/heads/main/authentication/cesanta-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cesanta/authentication/cesanta-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

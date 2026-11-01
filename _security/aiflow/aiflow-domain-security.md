@@ -44,7 +44,7 @@ source_filename: aiflow-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aiflow.solutions\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 22 18:33:49 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: www.veratainsight.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  6 23:28:57 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: aiflow.solutions\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: veratainsight.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aiflow/refs/heads/main/security/aiflow-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aiflow/security/aiflow-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

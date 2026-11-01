@@ -8,31 +8,31 @@ api_specs:
   label: Castr Analytics API
   slug: castr-live-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/castr-live/refs/heads/main/openapi/castr-live-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/castr-live/openapi/castr-live-analytics-api-openapi.yml
 - filename: castr-live-live-streams-api-openapi.yml
   format: yaml
   label: Castr Live Streams API
   slug: castr-live-live-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/castr-live/refs/heads/main/openapi/castr-live-live-streams-api-openapi.yml
+  url: https://artifacts.apis.io/castr-live/openapi/castr-live-live-streams-api-openapi.yml
 - filename: castr-live-sub-second-streams-api-openapi.yml
   format: yaml
   label: Castr Sub-Second Streams API
   slug: castr-live-sub-second-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/castr-live/refs/heads/main/openapi/castr-live-sub-second-streams-api-openapi.yml
+  url: https://artifacts.apis.io/castr-live/openapi/castr-live-sub-second-streams-api-openapi.yml
 - filename: castr-live-video-hosting-api-openapi.yml
   format: yaml
   label: Castr Video Hosting API
   slug: castr-live-video-hosting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/castr-live/refs/heads/main/openapi/castr-live-video-hosting-api-openapi.yml
+  url: https://artifacts.apis.io/castr-live/openapi/castr-live-video-hosting-api-openapi.yml
 - filename: castr-live-webhooks-api-openapi.yml
   format: yaml
   label: Castr Webhooks API
   slug: castr-live-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/castr-live/refs/heads/main/openapi/castr-live-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/castr-live/openapi/castr-live-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: castr-live-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/castr-live-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiToken\n  type: apiKey\n  in: header\n  parameter: authorization\n  description: API token issued from the Castr account settings API section (https://castr.com/app/manage/api),\n    sent in the authorization header.\n  sources:\n  - openapi/castr-live-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/castr-live/refs/heads/main/authentication/castr-live-authentication.yml
+source_yaml_url: https://artifacts.apis.io/castr-live/authentication/castr-live-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Live Streaming

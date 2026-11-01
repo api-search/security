@@ -7,37 +7,37 @@ api_specs:
   label: Pacific Gas and Electric Application Information API
   slug: pge-applicationinformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-applicationinformation-api-openapi.yml
+  url: https://artifacts.apis.io/pge/openapi/pge-applicationinformation-api-openapi.yml
 - filename: pge-authorization-api-openapi.yml
   format: yaml
   label: Pacific Gas and Electric Authorization API
   slug: pge-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/pge/openapi/pge-authorization-api-openapi.yml
 - filename: pge-batch-api-openapi.yml
   format: yaml
   label: Pacific Gas and Electric Batch API
   slug: pge-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-batch-api-openapi.yml
+  url: https://artifacts.apis.io/pge/openapi/pge-batch-api-openapi.yml
 - filename: pge-usagepoint-api-openapi.yml
   format: yaml
   label: Pacific Gas and Electric Usage Point API
   slug: pge-usagepoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-usagepoint-api-openapi.yml
+  url: https://artifacts.apis.io/pge/openapi/pge-usagepoint-api-openapi.yml
 - filename: pge-subscriptions-api-openapi.yml
   format: yaml
   label: Pacific Gas and Electric Subscriptions API
   slug: pge-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/pge/openapi/pge-subscriptions-api-openapi.yml
 - filename: pge-usage-api-openapi.yml
   format: yaml
   label: Pacific Gas and Electric Usage API
   slug: pge-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-usage-api-openapi.yml
+  url: https://artifacts.apis.io/pge/openapi/pge-usage-api-openapi.yml
 auth_types:
 - oauth2
 - mutualTLS
@@ -129,7 +129,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: >-\n  https://w
   \    used_for: >-\n      Per-customer resources — LocalTimeParameters, ReadingType, the\n      Subscription/UsagePoint/MeterReading/IntervalBlock/UsageSummary trees and\n      the customer-level Batch resources.\n    customer_journey: >-\n      The PG&E customer authenticates on PG&E's own site (or the Guest Access\n      tab) and selects data groups, interval duration and authorization period\n      (defined period or Indefinite). A customer may cancel; a third party may\n      revoke with HTTP DELETE on the Authorization resource.\n    source: docs\n  - name: RegistrationAccessToken\n    type: http\n    scheme: bearer\n    token: registration_access_token\n    issued_at: registration, via the Share My Data third-party portal\n    used_for: >-\n      The ApplicationInformation resource, which returns the third party's own\n      registered application record.\n    source: docs\n  - name: oauth2\n    type: oauth2\n    first_party: false\n    note: >-\n      Retained from the derived pass\
   \ over the Green Button Alliance OpenAPI. Its\n      URLs are the GBA sandbox (https://sandbox.greenbuttonalliance.org:8443),\n      NOT PG&E hosts. Kept only to document the standard contract.\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/authorize\n        tokenUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/token\n        scopes: 0\n      - flow: clientCredentials\n        tokenUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/token\n        scopes: 0\n    sources:\n      - openapi/green-button-alliance-espi-openapi.json\nopenid_connect:\n  served: false\n  probed: '2026-07-27'\n  probes:\n    - {url: 'https://www.pge.com/.well-known/openid-configuration', status: 404}\n    - {url: 'https://api.pge.com/.well-known/openid-configuration', status: 404}\n    - {url: 'https://sharemydata.pge.com/.well-known/openid-configuration', status: 404}\noauth_metadata:\n  rfc8414_served: false\n  probed: '2026-07-27'\n\
   \  probes:\n    - {url: 'https://api.pge.com/.well-known/oauth-authorization-server', status: 404}\n    - {url: 'https://www.pge.com/.well-known/oauth-authorization-server', status: 404}\naccess_gate: >-\n  Credentials are not self-serve. A client_id/client_secret pair is issued only\n  after registration at https://sharemydata.pge.com/ with a US EIN, CPUC\n  eligibility screening, tariff acceptance and completion of the mandatory\n  connectivity and OAuth tests within 90 days.\nrelated:\n  - scopes/pge-scopes.yml\n  - conventions/pge-conventions.yml\n  - sandbox/pge-sandbox.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/authentication/pge-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pge/authentication/pge-authentication.yml
 summary_line: oauth2/mutualTLS/http · 5 schemes
 tags:
 - Energy

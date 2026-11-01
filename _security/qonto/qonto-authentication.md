@@ -7,79 +7,79 @@ api_specs:
   label: Qonto Cards API
   slug: qonto-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-cards-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-cards-api-openapi.yml
 - filename: qonto-client-invoices-api-openapi.yml
   format: yaml
   label: Qonto Client Invoices API
   slug: qonto-client-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-client-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-client-invoices-api-openapi.yml
 - filename: qonto-internal-transfers-api-openapi.yml
   format: yaml
   label: Qonto Internal Transfers API
   slug: qonto-internal-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-internal-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-internal-transfers-api-openapi.yml
 - filename: qonto-international-transfers-api-openapi.yml
   format: yaml
   label: Qonto International Transfers API
   slug: qonto-international-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-international-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-international-transfers-api-openapi.yml
 - filename: qonto-organizations-accounts-api-openapi.yml
   format: yaml
   label: Qonto Organizations & Accounts API
   slug: qonto-organizations-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-organizations-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-organizations-accounts-api-openapi.yml
 - filename: qonto-payment-links-api-openapi.yml
   format: yaml
   label: Qonto Payment Links API
   slug: qonto-payment-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-payment-links-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-payment-links-api-openapi.yml
 - filename: qonto-sepa-direct-debit-api-openapi.yml
   format: yaml
   label: Qonto SEPA Direct Debit API
   slug: qonto-sepa-direct-debit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-sepa-direct-debit-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-sepa-direct-debit-api-openapi.yml
 - filename: qonto-sepa-transfers-api-openapi.yml
   format: yaml
   label: Qonto SEPA Transfers API
   slug: qonto-sepa-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-sepa-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-sepa-transfers-api-openapi.yml
 - filename: qonto-supplier-invoices-api-openapi.yml
   format: yaml
   label: Qonto Supplier Invoices API
   slug: qonto-supplier-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-supplier-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-supplier-invoices-api-openapi.yml
 - filename: qonto-terminals-api-openapi.yml
   format: yaml
   label: Qonto Terminals API
   slug: qonto-terminals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-terminals-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-terminals-api-openapi.yml
 - filename: qonto-webhooks-api-openapi.yml
   format: yaml
   label: Qonto Webhooks API
   slug: qonto-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-webhooks-api-openapi.yml
 - filename: qonto-oauth-api-openapi.yml
   format: yaml
   label: Qonto O Auth API
   slug: qonto-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-oauth-api-openapi.yml
 - filename: qonto-transactions-and-statements-api-openapi.yml
   format: yaml
   label: Qonto Transactions and Statements API
   slug: qonto-transactions-and-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-transactions-and-statements-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-transactions-and-statements-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -130,7 +130,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://docs.qonto.com/get-started/business-api/authentication/api-key\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  - mtls\nschemes:\n- name: secret_key\n  type: apiKey\n  in: header\n  headerName: Authorization\n  format: '{sign-in}:{secret-key}'\n  note: >-\n    Organization sign-in and secret key concatenated with a colon in the\n    Authorization header. Resembles HTTP Basic authentication but is NOT - the\n    value is not Base64 encoded. Generated from the Qonto app under Integrations\n    and Partnerships > API key.\n  sources:\n  - https://docs.qonto.com/get-started/business-api/authentication/api-key\n- name: oauth2\n  type: oauth2\n  flow: authorizationCode\n  tokenUrl: https://thirdparty.qonto.com/oauth2/token\n  accessTokenTtlSeconds: 3600\n  refreshTokenTtlDays: 90\n  supportsOpenIdConnect: true\n  note: >-\n    OAuth 2.0 authorization code flow; recommended for SaaS integrations. Access\n    token valid 1 hour,\
   \ refresh token 90 days (offline_access scope), ID token via\n    openid scope. Client secret must only be used server-side. Per-resource scopes\n    (e.g. organization.read, payment.write, card.write, sepa_direct_debit.write,\n    webhook). A User OAuth flow enables access across multiple organizations of the\n    same user.\n  sources:\n  - https://docs.qonto.com/api-reference/business-api/authentication/oauth2/create_tokens\n  - https://docs.qonto.com/get-started/business-api/authentication/oauth/oauth-flow\n  - https://docs.qonto.com/get-started/business-api/authentication/oauth/available-scopes\n- name: qsealc\n  type: mtls\n  standard: PSD2 QSeal certificate (QSealC)\n  note: >-\n    Regulated Third-Party Providers (TPPs) identify themselves via a PSD2 QSeal\n    certificate for open-banking access.\n  sources:\n  - https://docs.qonto.com/get-started/business-api/authentication/qsealc\nadditionalControls:\n- name: Strong Customer Authentication (SCA)\n  applies_to:\n  - SEPA transfers\n\
   \  - bulk transfers\n  - international transfers\n  headers:\n  - X-Qonto-Sca-Session-Token\n  - X-Qonto-MFA\n  - X-Qonto-2fa-Preference\n  note: >-\n    PSD2 Strong Customer Authentication is enforced on sensitive money-movement\n    operations; the client drives an SCA session and supplies the session token /\n    MFA challenge headers. Trusted beneficiaries (Embed partners only) can bypass\n    per-transfer SCA.\n  sources:\n  - https://docs.qonto.com/api-reference/business-api/authentication/sca/sca-flows\n- name: Idempotency\n  headers:\n  - X-Qonto-Idempotency-Key\n  note: Client-generated key to safely retry create requests without duplication.\n  sources:\n  - https://docs.qonto.com/get-started/general/idempotent-requests\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/authentication/qonto-authentication.yml
+source_yaml_url: https://artifacts.apis.io/qonto/authentication/qonto-authentication.yml
 summary_line: apiKey/oauth2/mtls · 3 schemes
 tags:
 - Business Banking

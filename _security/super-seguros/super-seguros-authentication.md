@@ -8,7 +8,7 @@ api_specs:
   label: Super Seguros Quotes API
   slug: super-seguros-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-seguros/refs/heads/main/openapi/super-seguros-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/super-seguros/openapi/super-seguros-quotes-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -35,7 +35,7 @@ source_filename: super-seguros-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/super-seguros-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-Api-Key\n  sources:\n  - openapi/super-seguros-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/super-seguros/refs/heads/main/authentication/super-seguros-authentication.yml
+source_yaml_url: https://artifacts.apis.io/super-seguros/authentication/super-seguros-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

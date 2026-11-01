@@ -5,37 +5,37 @@ api_specs:
   label: Solcast Aggregations API
   slug: solcast-aggregations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/openapi/solcast-aggregations-api-openapi.yml
+  url: https://artifacts.apis.io/solcast/openapi/solcast-aggregations-api-openapi.yml
 - filename: solcast-forecast-data-api-openapi.yml
   format: yaml
   label: Solcast Forecast Data API
   slug: solcast-forecast-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/openapi/solcast-forecast-data-api-openapi.yml
+  url: https://artifacts.apis.io/solcast/openapi/solcast-forecast-data-api-openapi.yml
 - filename: solcast-historic-data-api-openapi.yml
   format: yaml
   label: Solcast Historic Data API
   slug: solcast-historic-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/openapi/solcast-historic-data-api-openapi.yml
+  url: https://artifacts.apis.io/solcast/openapi/solcast-historic-data-api-openapi.yml
 - filename: solcast-live-data-api-openapi.yml
   format: yaml
   label: Solcast Live Data API
   slug: solcast-live-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/openapi/solcast-live-data-api-openapi.yml
+  url: https://artifacts.apis.io/solcast/openapi/solcast-live-data-api-openapi.yml
 - filename: solcast-pv-power-sites-api-openapi.yml
   format: yaml
   label: Solcast PV Power Sites API
   slug: solcast-pv-power-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/openapi/solcast-pv-power-sites-api-openapi.yml
+  url: https://artifacts.apis.io/solcast/openapi/solcast-pv-power-sites-api-openapi.yml
 - filename: solcast-tmy-data-api-openapi.yml
   format: yaml
   label: Solcast TMY Data API
   slug: solcast-tmy-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/openapi/solcast-tmy-data-api-openapi.yml
+  url: https://artifacts.apis.io/solcast/openapi/solcast-tmy-data-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -88,7 +88,7 @@ source_filename: solcast-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: solcast.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.solcast.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 00:07:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.solcast.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 22 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: solcast.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 iodef \"mailto:security@solcast.com.au\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: solcast.com.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/security/solcast-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/solcast/security/solcast-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Solar

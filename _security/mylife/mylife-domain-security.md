@@ -29,7 +29,7 @@ source_filename: mylife-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: stopbreathethink.com\n  https: false\ndomains:\n- domain: stopbreathethink.com\n  dnssec: false\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"trust-provider.com\"\n  - 0 issue \"usertrust.com\"\n  - 0 issue \"amazon.com\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mylife/refs/heads/main/security/mylife-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mylife/security/mylife-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

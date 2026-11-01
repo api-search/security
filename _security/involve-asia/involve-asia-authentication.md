@@ -7,37 +7,37 @@ api_specs:
   label: Involve Asia Auth API
   slug: involve-asia-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/openapi/involve-asia-auth-api-openapi.yml
+  url: https://artifacts.apis.io/involve-asia/openapi/involve-asia-auth-api-openapi.yml
 - filename: involve-asia-campaigns-api-openapi.yml
   format: yaml
   label: Involve Asia Campaigns API
   slug: involve-asia-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/openapi/involve-asia-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/involve-asia/openapi/involve-asia-campaigns-api-openapi.yml
 - filename: involve-asia-conversions-api-openapi.yml
   format: yaml
   label: Involve Asia Conversions API
   slug: involve-asia-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/openapi/involve-asia-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/involve-asia/openapi/involve-asia-conversions-api-openapi.yml
 - filename: involve-asia-deeplink-api-openapi.yml
   format: yaml
   label: Involve Asia Deeplink API
   slug: involve-asia-deeplink-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/openapi/involve-asia-deeplink-api-openapi.yml
+  url: https://artifacts.apis.io/involve-asia/openapi/involve-asia-deeplink-api-openapi.yml
 - filename: involve-asia-offers-api-openapi.yml
   format: yaml
   label: Involve Asia Offers API
   slug: involve-asia-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/openapi/involve-asia-offers-api-openapi.yml
+  url: https://artifacts.apis.io/involve-asia/openapi/involve-asia-offers-api-openapi.yml
 - filename: involve-asia-shopee-api-openapi.yml
   format: yaml
   label: Involve Asia Shopee API
   slug: involve-asia-shopee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/openapi/involve-asia-shopee-api-openapi.yml
+  url: https://artifacts.apis.io/involve-asia/openapi/involve-asia-shopee-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -65,7 +65,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/involve-asia-publisher-openapi.yml\ndocs: https://api.involve.asia/docs/#auth\nsummary:\n  types:\n  - http\n  scheme: bearer\n  bearer_format: JWT\nflow:\n  type: key-secret-exchange\n  steps:\n    - POST /authenticate with form fields key + secret returns {data:{token}}.\n    - Send Authorization Bearer <token> on every other call.\n  token_ttl: 2 hours\n  caching: Cache the token ~110 minutes and refresh proactively (or on 401).\n  key_management: https://app.involve.asia/v2/publisher/api-keys\n  reauth_on_401: Re-authenticate once and retry the original request.\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/involve-asia-publisher-openapi.yml\nnotes:\n  - Requests are application/x-www-form-urlencoded; use --data-urlencode so secrets with + / = are not mangled.\n  - JWT auth errors may break the standard envelope (e.g. {message,status_code} or {error}).\
   \ See errors/involve-asia-problem-types.yml.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/authentication/involve-asia-authentication.yml
+source_yaml_url: https://artifacts.apis.io/involve-asia/authentication/involve-asia-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Affiliate Marketing

@@ -5,85 +5,85 @@ api_specs:
   label: Algolia Search API
   slug: algolia-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-search-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-search-api-openapi.yml
 - filename: algolia-insights-api-openapi.yml
   format: yaml
   label: Algolia Insights API
   slug: algolia-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-insights-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-insights-api-openapi.yml
 - filename: algolia-recommend-api-openapi.yml
   format: yaml
   label: Algolia Recommend API
   slug: algolia-recommend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-recommend-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-recommend-api-openapi.yml
 - filename: algolia-analytics-api-openapi.yml
   format: yaml
   label: Algolia Analytics API
   slug: algolia-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-analytics-api-openapi.yml
 - filename: algolia-abtesting-v3-api-openapi.yml
   format: yaml
   label: Algolia A/B Testing API
   slug: algolia-a-b-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-abtesting-v3-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-abtesting-v3-api-openapi.yml
 - filename: algolia-personalization-api-openapi.yml
   format: yaml
   label: Algolia Personalization API
   slug: algolia-personalization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-personalization-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-personalization-api-openapi.yml
 - filename: algolia-advanced-personalization-api-openapi.yml
   format: yaml
   label: Algolia Advanced Personalization API
   slug: algolia-advanced-personalization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-advanced-personalization-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-advanced-personalization-api-openapi.yml
 - filename: algolia-crawler-api-openapi.yml
   format: yaml
   label: Algolia Crawler API
   slug: algolia-crawler-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-crawler-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-crawler-api-openapi.yml
 - filename: algolia-ingestion-api-openapi.yml
   format: yaml
   label: Algolia Ingestion API
   slug: algolia-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-ingestion-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-ingestion-api-openapi.yml
 - filename: algolia-query-suggestions-api-openapi.yml
   format: yaml
   label: Algolia Query Suggestions API
   slug: algolia-query-suggestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-query-suggestions-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-query-suggestions-api-openapi.yml
 - filename: algolia-composition-api-openapi.yml
   format: yaml
   label: Algolia Composition API
   slug: algolia-composition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-composition-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-composition-api-openapi.yml
 - filename: algolia-agent-studio-api-openapi.yml
   format: yaml
   label: Algolia Agent Studio API
   slug: algolia-agent-studio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-agent-studio-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-agent-studio-api-openapi.yml
 - filename: algolia-monitoring-api-openapi.yml
   format: yaml
   label: Algolia Monitoring API
   slug: algolia-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-monitoring-api-openapi.yml
 - filename: algolia-ab-testing-api-openapi.yml
   format: yaml
   label: Algolia Ab Testing API
   slug: algolia-ab-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-ab-testing-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-ab-testing-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -135,7 +135,7 @@ source_filename: algolia-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.algolia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  5 04:50:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: insights.algolia.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 23:59:59 2026 GMT\n  hsts: null\n- host: analytics.algolia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  5 04:50:42 2026 GMT\n  hsts: null\ndomains:\n- domain: algolia.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issuewild \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: algolia.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/security/algolia-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/algolia/security/algolia-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Search

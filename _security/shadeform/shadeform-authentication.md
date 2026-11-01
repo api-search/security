@@ -8,31 +8,31 @@ api_specs:
   label: Shadeform Instance Types API
   slug: shadeform-instance-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shadeform/refs/heads/main/openapi/shadeform-instance-types-api-openapi.yml
+  url: https://artifacts.apis.io/shadeform/openapi/shadeform-instance-types-api-openapi.yml
 - filename: shadeform-instances-api-openapi.yml
   format: yaml
   label: Shadeform Instances API
   slug: shadeform-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shadeform/refs/heads/main/openapi/shadeform-instances-api-openapi.yml
+  url: https://artifacts.apis.io/shadeform/openapi/shadeform-instances-api-openapi.yml
 - filename: shadeform-ssh-keys-api-openapi.yml
   format: yaml
   label: Shadeform SSH Keys API
   slug: shadeform-ssh-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shadeform/refs/heads/main/openapi/shadeform-ssh-keys-api-openapi.yml
+  url: https://artifacts.apis.io/shadeform/openapi/shadeform-ssh-keys-api-openapi.yml
 - filename: shadeform-templates-api-openapi.yml
   format: yaml
   label: Shadeform Templates API
   slug: shadeform-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shadeform/refs/heads/main/openapi/shadeform-templates-api-openapi.yml
+  url: https://artifacts.apis.io/shadeform/openapi/shadeform-templates-api-openapi.yml
 - filename: shadeform-volumes-api-openapi.yml
   format: yaml
   label: Shadeform Volumes API
   slug: shadeform-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shadeform/refs/heads/main/openapi/shadeform-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/shadeform/openapi/shadeform-volumes-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: shadeform-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/shadeform-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-KEY\n  description: API key issued from the Shadeform dashboard.\n  sources:\n  - openapi/shadeform-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shadeform/refs/heads/main/authentication/shadeform-authentication.yml
+source_yaml_url: https://artifacts.apis.io/shadeform/authentication/shadeform-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - GPU

@@ -36,7 +36,7 @@ source_filename: first-horizon-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://developers-test.firsthorizon.com/apis/v0/oauth\ndocs: https://developers-test.firsthorizon.com/apis/v0/oauth\nnote: >-\n  No public OpenAPI is downloadable, so the securityScheme could not be derived\n  mechanically. First Horizon's API Banking developer portal documents that all\n  API Banking endpoints are authorized with OAuth 2.0 access tokens. The specific\n  grant/flow, authorization and token URLs, and scope names are behind\n  partner/relationship-gated onboarding and are not published anonymously; they\n  are recorded here as unspecified rather than fabricated.\nsummary:\n  types:\n  - oauth2\n  api_key_in: []\n  oauth2_flows: []\nschemes:\n- name: OAuth2\n  type: oauth2\n  documented: true\n  flows: []\n  authorization_url: null\n  token_url: null\n  scopes: []\n  applies_to:\n  - Move Money Transfer v1\n  - ACH Origination\n  - Account Information\n  - ABA Lookup v1\n  - BIC Lookup v1\n  sources:\n  - https://developers-test.firsthorizon.com/apis/v0/oauth\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/first-horizon/refs/heads/main/authentication/first-horizon-authentication.yml
+source_yaml_url: https://artifacts.apis.io/first-horizon/authentication/first-horizon-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - United States

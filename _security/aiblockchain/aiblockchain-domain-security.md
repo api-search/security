@@ -26,7 +26,7 @@ source_filename: aiblockchain-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ai-blockchain.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 08:49:49 2026 GMT\n  hsts: false\ndomains:\n- domain: ai-blockchain.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aiblockchain/refs/heads/main/security/aiblockchain-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aiblockchain/security/aiblockchain-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

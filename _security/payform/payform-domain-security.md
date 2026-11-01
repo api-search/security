@@ -26,7 +26,7 @@ source_filename: payform-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: payform.me\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 21:45:00 2026 GMT\n  hsts: false\ndomains:\n- domain: payform.me\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payform/refs/heads/main/security/payform-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/payform/security/payform-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

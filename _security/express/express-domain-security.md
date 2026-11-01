@@ -26,7 +26,7 @@ source_filename: express-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: expressjs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 04:03:06 2026 GMT\n  hsts: false\ndomains:\n- domain: expressjs.com\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/express/refs/heads/main/security/express-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/express/security/express-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Express.js

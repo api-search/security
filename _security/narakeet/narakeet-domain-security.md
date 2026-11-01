@@ -5,25 +5,25 @@ api_specs:
   label: Narakeet Account API
   slug: narakeet-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/openapi/narakeet-account-api-openapi.yml
+  url: https://artifacts.apis.io/narakeet/openapi/narakeet-account-api-openapi.yml
 - filename: narakeet-text-to-speech-api-openapi.yml
   format: yaml
   label: Narakeet Text to Speech API
   slug: narakeet-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/openapi/narakeet-text-to-speech-api-openapi.yml
+  url: https://artifacts.apis.io/narakeet/openapi/narakeet-text-to-speech-api-openapi.yml
 - filename: narakeet-video-api-openapi.yml
   format: yaml
   label: Narakeet Video API
   slug: narakeet-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/openapi/narakeet-video-api-openapi.yml
+  url: https://artifacts.apis.io/narakeet/openapi/narakeet-video-api-openapi.yml
 - filename: narakeet-voices-api-openapi.yml
   format: yaml
   label: Narakeet Voices API
   slug: narakeet-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/openapi/narakeet-voices-api-openapi.yml
+  url: https://artifacts.apis.io/narakeet/openapi/narakeet-voices-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,11 +58,10 @@ source_filename: narakeet-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.narakeet.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.narakeet.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: narakeet.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/security/narakeet-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/narakeet/security/narakeet-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Text-to-Speech
-- TTS
 - Voice
 - Audio
 - Video

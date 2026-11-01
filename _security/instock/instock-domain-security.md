@@ -5,37 +5,37 @@ api_specs:
   label: Instock Articles API
   slug: instock-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/openapi/instock-articles-api-openapi.yml
+  url: https://artifacts.apis.io/instock/openapi/instock-articles-api-openapi.yml
 - filename: instock-inventory-api-openapi.yml
   format: yaml
   label: Instock Inventory API
   slug: instock-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/openapi/instock-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/instock/openapi/instock-inventory-api-openapi.yml
 - filename: instock-moves-api-openapi.yml
   format: yaml
   label: Instock Moves API
   slug: instock-moves-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/openapi/instock-moves-api-openapi.yml
+  url: https://artifacts.apis.io/instock/openapi/instock-moves-api-openapi.yml
 - filename: instock-orders-api-openapi.yml
   format: yaml
   label: Instock Orders API
   slug: instock-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/openapi/instock-orders-api-openapi.yml
+  url: https://artifacts.apis.io/instock/openapi/instock-orders-api-openapi.yml
 - filename: instock-ordertasks-api-openapi.yml
   format: yaml
   label: Instock Ordertasks API
   slug: instock-ordertasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/openapi/instock-ordertasks-api-openapi.yml
+  url: https://artifacts.apis.io/instock/openapi/instock-ordertasks-api-openapi.yml
 - filename: instock-sites-api-openapi.yml
   format: yaml
   label: Instock Sites API
   slug: instock-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/openapi/instock-sites-api-openapi.yml
+  url: https://artifacts.apis.io/instock/openapi/instock-sites-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -68,7 +68,7 @@ source_filename: instock-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: instock.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 10 12:54:21 2026 GMT\n  hsts: false\n- host: api.instock.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 10 12:54:21 2026 GMT\n  hsts: null\ndomains:\n- domain: instock.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/security/instock-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/instock/security/instock-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

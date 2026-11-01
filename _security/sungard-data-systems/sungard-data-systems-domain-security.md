@@ -37,7 +37,7 @@ source_filename: sungard-data-systems-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sungard-data-systems.com\n  https: false\n- host: www.fisglobal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  9 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: sungard-data-systems.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: fisglobal.com\n  dnssec: false\n  caa:\n  - 0 issue \"visa.com\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sungard-data-systems/refs/heads/main/security/sungard-data-systems-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sungard-data-systems/security/sungard-data-systems-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Financial Services

@@ -8,43 +8,43 @@ api_specs:
   label: SlashID Identity Management API
   slug: slashid-identity-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/openapi/slashid-identity-management-api-openapi.yml
+  url: https://artifacts.apis.io/slashid/openapi/slashid-identity-management-api-openapi.yml
 - filename: slashid-oidc-discovery-api-openapi.yml
   format: yaml
   label: SlashID OIDC discovery API
   slug: slashid-oidc-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/openapi/slashid-oidc-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/slashid/openapi/slashid-oidc-discovery-api-openapi.yml
 - filename: slashid-organization-sso-config-api-openapi.yml
   format: yaml
   label: SlashID Organization SSO config API
   slug: slashid-organization-sso-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/openapi/slashid-organization-sso-config-api-openapi.yml
+  url: https://artifacts.apis.io/slashid/openapi/slashid-organization-sso-config-api-openapi.yml
 - filename: slashid-organization-webhooks-api-openapi.yml
   format: yaml
   label: SlashID Organization Webhooks API
   slug: slashid-organization-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/openapi/slashid-organization-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/slashid/openapi/slashid-organization-webhooks-api-openapi.yml
 - filename: slashid-super-admin-management-api-openapi.yml
   format: yaml
   label: SlashID Super Admin Management API
   slug: slashid-super-admin-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/openapi/slashid-super-admin-management-api-openapi.yml
+  url: https://artifacts.apis.io/slashid/openapi/slashid-super-admin-management-api-openapi.yml
 - filename: slashid-tokens-api-openapi.yml
   format: yaml
   label: SlashID Tokens API
   slug: slashid-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/openapi/slashid-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/slashid/openapi/slashid-tokens-api-openapi.yml
 - filename: slashid-workflows-api-openapi.yml
   format: yaml
   label: SlashID Workflows API
   slug: slashid-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/openapi/slashid-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/slashid/openapi/slashid-workflows-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -86,7 +86,7 @@ source_filename: slashid-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/slashid-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: SlashID-API-Key\n  description: Authorizes the request with the organization's API Key.\n  sources:\n  - openapi/slashid-api-openapi.yml\n- name: OAuth2ClientIdSecret\n  type: http\n  scheme: basic\n  description: Authorizes the request with a client ID/client secret pair\n  sources:\n  - openapi/slashid-api-openapi.yml\n- name: OAuth2AccessTokenBearer\n  type: http\n  scheme: bearer\n  bearerFormat: opaque\n  description: Authorizes the request with an Access Token for the current user.\n  sources:\n  - openapi/slashid-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/authentication/slashid-authentication.yml
+source_yaml_url: https://artifacts.apis.io/slashid/authentication/slashid-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Identity

@@ -8,31 +8,37 @@ api_specs:
   label: Gauntlet Prices API
   slug: gauntlet-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gauntlet/refs/heads/main/openapi/gauntlet-prices-api-openapi.yml
+  url: https://artifacts.apis.io/gauntlet/openapi/gauntlet-prices-api-openapi.yml
 - filename: gauntlet-system-api-openapi.yml
   format: yaml
   label: Gauntlet System API
   slug: gauntlet-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gauntlet/refs/heads/main/openapi/gauntlet-system-api-openapi.yml
+  url: https://artifacts.apis.io/gauntlet/openapi/gauntlet-system-api-openapi.yml
 - filename: gauntlet-tvl-api-openapi.yml
   format: yaml
   label: Gauntlet TVL API
   slug: gauntlet-tvl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gauntlet/refs/heads/main/openapi/gauntlet-tvl-api-openapi.yml
+  url: https://artifacts.apis.io/gauntlet/openapi/gauntlet-tvl-api-openapi.yml
 - filename: gauntlet-users-api-openapi.yml
   format: yaml
   label: Gauntlet Users API
   slug: gauntlet-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gauntlet/refs/heads/main/openapi/gauntlet-users-api-openapi.yml
+  url: https://artifacts.apis.io/gauntlet/openapi/gauntlet-users-api-openapi.yml
 - filename: gauntlet-vaults-api-openapi.yml
   format: yaml
   label: Gauntlet Vaults API
   slug: gauntlet-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gauntlet/refs/heads/main/openapi/gauntlet-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/gauntlet/openapi/gauntlet-vaults-api-openapi.yml
+- filename: gauntlet-strategies-api-openapi.yml
+  format: yaml
+  label: Gauntlet Strategies API
+  slug: gauntlet-strategies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gauntlet/openapi/gauntlet-strategies-api-openapi.yml
 auth_types:
 - http
 description: The Gauntlet REST API (api.gauntlet.xyz) authenticates every request with a partner-provisioned API key passed as an HTTP Bearer token. The published OpenAPI does not declare securitySchemes, so this profile is captured from the docs Auth & Credentials page; 401 responses are documented across the spec.
@@ -64,7 +70,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://docs.gauntlet.xyz/onboarding/credentials\ndescription: >-\n  The Gauntlet REST API (api.gauntlet.xyz) authenticates every request with a\n  partner-provisioned API key passed as an HTTP Bearer token. The published\n  OpenAPI does not declare securitySchemes, so this profile is captured from the\n  docs Auth & Credentials page; 401 responses are documented across the spec.\ndocs: https://docs.gauntlet.xyz/onboarding/credentials\nsummary:\n  types: [http]\n  http_schemes: [bearer]\n  api_key_in: [header]\nschemes:\n  - name: bearerAuth\n    type: http\n    scheme: bearer\n    header: Authorization\n    format: \"Authorization: Bearer <API_KEY>\"\n    description: >-\n      Partner-provisioned API key. After partner approval Gauntlet provisions an\n      API key for your organization. Keys are server-side only — never expose in\n      client-side code, public repos, or version control. Docs recommend separate\n      keys\
   \ for development, staging, and production, and rotating production\n      credentials every 90 days.\n    provisioning: Partner approval, then Gauntlet provisions a key (docs.gauntlet.xyz/onboarding/sign-up)\n    test_live_separation: none-documented\n    sources: [https://docs.gauntlet.xyz/onboarding/credentials]\nnotes: >-\n  On-chain deposit/withdraw flows via @gauntlet-xyz/sdk are authorized by the user's\n  wallet signature (viem), not the API key; the API key authorizes read access to\n  vault/position/analytics data.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gauntlet/refs/heads/main/authentication/gauntlet-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gauntlet/authentication/gauntlet-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

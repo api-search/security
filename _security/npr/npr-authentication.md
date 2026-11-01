@@ -13,19 +13,19 @@ api_specs:
   label: NPR Authorization API
   slug: npr-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/npr/refs/heads/main/openapi/npr-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/npr/openapi/npr-authorization-api-openapi.yml
 - filename: npr-identity-api-openapi.yml
   format: yaml
   label: NPR Identity API
   slug: npr-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/npr/refs/heads/main/openapi/npr-identity-api-openapi.yml
+  url: https://artifacts.apis.io/npr/openapi/npr-identity-api-openapi.yml
 - filename: npr-stationfinder-api-openapi.yml
   format: yaml
   label: NPR Stationfinder API
   slug: npr-stationfinder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/npr/refs/heads/main/openapi/npr-stationfinder-api-openapi.yml
+  url: https://artifacts.apis.io/npr/openapi/npr-stationfinder-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -58,7 +58,7 @@ source_filename: npr-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/npr-authorization-openapi-original.yml, openapi/npr-identity-openapi-original.yml,\n  openapi/npr-station-finder-openapi-original.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://authorization.api.npr.org/v2/authorize\n    tokenUrl: https://authorization.api.npr.org/v2/token\n    scopes: 5\n  sources:\n  - openapi/npr-authorization-openapi-original.yml\n  - openapi/npr-identity-openapi-original.yml\n  - openapi/npr-station-finder-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/npr/refs/heads/main/authentication/npr-authentication.yml
+source_yaml_url: https://artifacts.apis.io/npr/authentication/npr-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Media

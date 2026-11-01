@@ -8,25 +8,25 @@ api_specs:
   label: Make AI Agents API
   slug: make-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/openapi/make-ai-agents-api-openapi.yml
+  url: https://artifacts.apis.io/make/openapi/make-ai-agents-api-openapi.yml
 - filename: make-scenario-execution-api-openapi.yml
   format: yaml
   label: Make Scenario Execution API
   slug: make-scenario-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/openapi/make-scenario-execution-api-openapi.yml
+  url: https://artifacts.apis.io/make/openapi/make-scenario-execution-api-openapi.yml
 - filename: make-scenario-variables-api-openapi.yml
   format: yaml
   label: Make Scenario Variables API
   slug: make-scenario-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/openapi/make-scenario-variables-api-openapi.yml
+  url: https://artifacts.apis.io/make/openapi/make-scenario-variables-api-openapi.yml
 - filename: make-scenarios-api-openapi.yml
   format: yaml
   label: Make Scenarios API
   slug: make-scenarios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/openapi/make-scenarios-api-openapi.yml
+  url: https://artifacts.apis.io/make/openapi/make-scenarios-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: make-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/make-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: TokenAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'API token in the form: `Token <api-token>` with the required scopes enabled.'\n  sources:\n  - openapi/make-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/authentication/make-authentication.yml
+source_yaml_url: https://artifacts.apis.io/make/authentication/make-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Automation

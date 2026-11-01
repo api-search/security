@@ -5,7 +5,7 @@ api_specs:
   label: Atsena Therapeutics Website (WordPress REST)
   slug: atsenatx-com-website-wordpress-rest
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atsena-therapeutics/refs/heads/main/openapi/atsena-therapeutics-wp-rest-discovery-original.json
+  url: https://artifacts.apis.io/atsena-therapeutics/openapi/atsena-therapeutics-wp-rest-discovery-original.json
 description: ''
 domains:
 - caa: []
@@ -35,7 +35,7 @@ source_filename: atsena-therapeutics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: atsenatx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 20:42:33 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: atsenatx.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atsena-therapeutics/refs/heads/main/security/atsena-therapeutics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/atsena-therapeutics/security/atsena-therapeutics-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

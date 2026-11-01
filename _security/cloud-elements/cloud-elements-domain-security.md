@@ -26,7 +26,7 @@ source_filename: cloud-elements-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cloud-elements.com\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''cloud-eleme'\n  hsts: null\ndomains:\n- domain: cloud-elements.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloud-elements/refs/heads/main/security/cloud-elements-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cloud-elements/security/cloud-elements-domain-security.yml
 summary_line: DMARC
 tags:
 - Acquired

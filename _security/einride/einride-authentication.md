@@ -8,19 +8,19 @@ api_specs:
   label: Einride BookingService API
   slug: einride-bookingservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/openapi/einride-bookingservice-api-openapi.yml
+  url: https://artifacts.apis.io/einride/openapi/einride-bookingservice-api-openapi.yml
 - filename: einride-shipmentservice-api-openapi.yml
   format: yaml
   label: Einride ShipmentService API
   slug: einride-shipmentservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/openapi/einride-shipmentservice-api-openapi.yml
+  url: https://artifacts.apis.io/einride/openapi/einride-shipmentservice-api-openapi.yml
 - filename: einride-authentication-service-api-openapi.yml
   format: yaml
   label: Einride Authentication Service API
   slug: einride-authentication-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/openapi/einride-authentication-service-api-openapi.yml
+  url: https://artifacts.apis.io/einride/openapi/einride-authentication-service-api-openapi.yml
 auth_types:
 - bearer
 description: ''
@@ -50,7 +50,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: >-\n  openapi/einride-book-openapi-original.yml, openapi/einride-auth-openapi-original.yml,\n  https://extend.saga.einride.tech\ndocs: https://github.com/einride/extend/blob/master/docs/apis.md\nsummary:\n  types:\n  - bearer\n  api_key_in:\n  - header\n  flow: client-credentials (secret exchange for short-lived bearer token)\nmodel:\n  description: >-\n    Einride Extend uses standard Bearer token authentication. An integration is issued a\n    client ID and client secret by an Einride representative, then exchanges them for a\n    short-lived access token via AuthenticationService_ExchangeSecret. The returned\n    accessToken is sent as `Authorization: Bearer <token>` on all subsequent HTTP (or gRPC)\n    calls and refreshed before its expireTime.\n  token_endpoint_operation: AuthenticationService_ExchangeSecret\n  credential_source: Contact your Einride representative to obtain a client ID and client secret.\nschemes:\n\
   - name: Authorization\n  type: http\n  scheme: bearer\n  in: header\n  parameter: authorization\n  sources:\n  - openapi/einride-book-openapi-original.yml\n  - openapi/einride-auth-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/authentication/einride-authentication.yml
+source_yaml_url: https://artifacts.apis.io/einride/authentication/einride-authentication.yml
 summary_line: bearer · 1 scheme
 tags:
 - Company

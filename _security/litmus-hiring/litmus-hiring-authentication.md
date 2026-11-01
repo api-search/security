@@ -7,19 +7,19 @@ api_specs:
   label: Litmus Hiring Invites API
   slug: litmus-hiring-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litmus-hiring/refs/heads/main/openapi/litmus-hiring-invites-api-openapi.yml
+  url: https://artifacts.apis.io/litmus-hiring/openapi/litmus-hiring-invites-api-openapi.yml
 - filename: litmus-hiring-roles-api-openapi.yml
   format: yaml
   label: Litmus Hiring Roles API
   slug: litmus-hiring-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litmus-hiring/refs/heads/main/openapi/litmus-hiring-roles-api-openapi.yml
+  url: https://artifacts.apis.io/litmus-hiring/openapi/litmus-hiring-roles-api-openapi.yml
 - filename: litmus-hiring-submissions-api-openapi.yml
   format: yaml
   label: Litmus Hiring Submissions API
   slug: litmus-hiring-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litmus-hiring/refs/heads/main/openapi/litmus-hiring-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/litmus-hiring/openapi/litmus-hiring-submissions-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -79,7 +79,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://litmushiring.com/docs/rest\ndocs: https://litmushiring.com/docs/mcp/authentication\nsummary:\n  types: [http, oauth2]\n  http_schemes: [bearer]\n  oauth2_flows: [authorizationCode]\n  notes: >-\n    The REST API uses an organization-scoped bearer API key. The hosted MCP\n    server additionally supports Clerk OAuth (authorization code + PKCE) for\n    interactive agent clients, and the same API key for headless automation.\nschemes:\n  - name: bearerApiKey\n    type: http\n    scheme: bearer\n    key_prefix: litmus_sk_\n    location: 'Authorization: Bearer litmus_sk_...'\n    scope: organization\n    issued_at: Dashboard -> Settings -> API Keys\n    surfaces: [rest, mcp]\n    notes: >-\n      A 401 indicates a missing, malformed, or revoked credential. Keys are\n      production secrets; rotate regularly. Preserve trailing slashes on URLs to\n      avoid Authorization-header drops (401) during redirects.\n    sources:\
   \ [openapi/litmus-hiring-openapi.yml, https://litmushiring.com/docs/rest]\n  - name: clerkOAuth\n    type: oauth2\n    surfaces: [mcp]\n    provider: Clerk\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://clerk.litmushiring.com/oauth/authorize\n        tokenUrl: https://clerk.litmushiring.com/oauth/token\n        revocationUrl: https://clerk.litmushiring.com/oauth/token/revoke\n        registrationUrl: https://clerk.litmushiring.com/oauth/register\n        pkce: S256\n        scopes:\n          - openid\n          - profile\n          - email\n          - public_metadata\n          - private_metadata\n          - offline_access\n          - user:org:read\n    sources: [well-known/litmus-hiring-oauth-authorization-server.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/litmus-hiring/refs/heads/main/authentication/litmus-hiring-authentication.yml
+source_yaml_url: https://artifacts.apis.io/litmus-hiring/authentication/litmus-hiring-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

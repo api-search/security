@@ -5,55 +5,91 @@ api_specs:
   label: Amazon AppSync Api Keys API
   slug: amazon-appsync-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/openapi/amazon-appsync-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-api-keys-api-openapi.yml
 - filename: amazon-appsync-data-sources-api-openapi.yml
   format: yaml
   label: Amazon AppSync Data Sources API
   slug: amazon-appsync-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/openapi/amazon-appsync-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-data-sources-api-openapi.yml
 - filename: amazon-appsync-domain-names-api-openapi.yml
   format: yaml
   label: Amazon AppSync Domain Names API
   slug: amazon-appsync-domain-names-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/openapi/amazon-appsync-domain-names-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-domain-names-api-openapi.yml
 - filename: amazon-appsync-functions-api-openapi.yml
   format: yaml
   label: Amazon AppSync Functions API
   slug: amazon-appsync-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/openapi/amazon-appsync-functions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-functions-api-openapi.yml
 - filename: amazon-appsync-graphql-apis-api-openapi.yml
   format: yaml
   label: Amazon AppSync GraphQL APIs API
   slug: amazon-appsync-graphql-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/openapi/amazon-appsync-graphql-apis-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-graphql-apis-api-openapi.yml
 - filename: amazon-appsync-resolvers-api-openapi.yml
   format: yaml
   label: Amazon AppSync Resolvers API
   slug: amazon-appsync-resolvers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/openapi/amazon-appsync-resolvers-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-resolvers-api-openapi.yml
 - filename: amazon-appsync-schema-api-openapi.yml
   format: yaml
   label: Amazon AppSync Schema API
   slug: amazon-appsync-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/openapi/amazon-appsync-schema-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-schema-api-openapi.yml
 - filename: amazon-appsync-tags-api-openapi.yml
   format: yaml
   label: Amazon AppSync Tags API
   slug: amazon-appsync-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/openapi/amazon-appsync-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-tags-api-openapi.yml
 - filename: amazon-appsync-types-api-openapi.yml
   format: yaml
   label: Amazon AppSync Types API
   slug: amazon-appsync-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/openapi/amazon-appsync-types-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-types-api-openapi.yml
+- filename: amazon-appsync-apiassociation-api-openapi.yml
+  format: yaml
+  label: Amazon AppSync Appsync Apiassociation API
+  slug: amazon-appsync-apiassociation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-apiassociation-api-openapi.yml
+- filename: amazon-appsync-apicaches-api-openapi.yml
+  format: yaml
+  label: Amazon AppSync Appsync Apicaches API
+  slug: amazon-appsync-apicaches-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-apicaches-api-openapi.yml
+- filename: amazon-appsync-apis-api-openapi.yml
+  format: yaml
+  label: Amazon AppSync Appsync Apis API
+  slug: amazon-appsync-apis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-apis-api-openapi.yml
+- filename: amazon-appsync-channelnamespaces-api-openapi.yml
+  format: yaml
+  label: Amazon AppSync Appsync Channelnamespaces API
+  slug: amazon-appsync-channelnamespaces-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-channelnamespaces-api-openapi.yml
+- filename: amazon-appsync-operations-api-openapi.yml
+  format: yaml
+  label: Amazon AppSync Appsync Operations API
+  slug: amazon-appsync-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-operations-api-openapi.yml
+- filename: amazon-appsync-sourceapiassociations-api-openapi.yml
+  format: yaml
+  label: Amazon AppSync Appsync Sourceapiassociations API
+  slug: amazon-appsync-sourceapiassociations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-sourceapiassociations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -99,7 +135,7 @@ source_filename: amazon-appsync-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: appsync.us-east-1.amazonaws.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 23:59:59 2026 GMT\n  hsts: null\n- host: appsync.eu-west-1.amazonaws.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 22 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/security/amazon-appsync-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amazon-appsync/security/amazon-appsync-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Amazon AppSync

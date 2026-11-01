@@ -7,13 +7,13 @@ api_specs:
   label: Doximity OpenID Connect API
   slug: doximity-openid-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/openapi/doximity-openid-connect-api-openapi.yml
+  url: https://artifacts.apis.io/doximity/openapi/doximity-openid-connect-api-openapi.yml
 - filename: doximity-oauth-api-openapi.yml
   format: yaml
   label: Doximity O Auth API
   slug: doximity-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/openapi/doximity-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/doximity/openapi/doximity-oauth-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -62,7 +62,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://www.doximity.com/developers/documentation\ndocs: https://www.doximity.com/developers/documentation\ndiscovery: https://auth.doximity.com/.well-known/openid-configuration\nsummary:\n  types: [oauth2, openIdConnect]\n  oauth2_flows: [authorizationCode, refreshToken, deviceCode]\n  pkce: required\n  pkce_methods: [S256]\n  token_endpoint_auth_methods: [client_secret_basic]\n  id_token_signing_alg: [RS256]\n  response_types: [\"code\", \"code id_token\", \"id_token\"]\nschemes:\n- name: doximityOAuth\n  type: oauth2\n  sources: [openapi/doximity-oauth-openapi.yml]\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.doximity.com/oauth/authorize\n    tokenUrl: https://auth.doximity.com/oauth/token\n    refreshUrl: https://auth.doximity.com/oauth/token\n    scope_count: 21\n  grant_types:\n  - authorization_code\n  - refresh_token\n  - urn:ietf:params:oauth:grant-type:device_code\n  notes: >-\n    Authorization\
   \ Code grant with mandatory PKCE (S256). Client authentication at the token\n    endpoint uses HTTP Basic (client_secret_basic). Access tokens are bearer tokens with a\n    typical 1800s lifetime; refresh tokens rotate access. The device_code grant supports\n    input-constrained clients.\n- name: openIdConnect\n  type: openIdConnect\n  openIdConnectUrl: https://auth.doximity.com/.well-known/openid-configuration\n  sources: [openapi/doximity-oauth-openapi.yml]\n  id_token_signing_alg: RS256\n  jwks_uri: https://auth.doximity.com/.well-known/jwks.json\n  userinfo_endpoint: https://auth.doximity.com/oauth/userinfo\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/authentication/doximity-authentication.yml
+source_yaml_url: https://artifacts.apis.io/doximity/authentication/doximity-authentication.yml
 summary_line: oauth2/openIdConnect · 2 schemes
 tags:
 - Company

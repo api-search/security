@@ -7,7 +7,7 @@ api_specs:
   label: Konsentus PSP Checking Service API
   slug: konsentus-psp-checking-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konsentus/refs/heads/main/openapi/konsentus-psp-checking-service-api-openapi.yml
+  url: https://artifacts.apis.io/konsentus/openapi/konsentus-psp-checking-service-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -34,7 +34,7 @@ source_filename: konsentus-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/konsentus-verify-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication using the API consumer's client ID and client secret.\n  sources:\n  - openapi/konsentus-verify-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/konsentus/refs/heads/main/authentication/konsentus-authentication.yml
+source_yaml_url: https://artifacts.apis.io/konsentus/authentication/konsentus-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Open Banking

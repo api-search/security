@@ -5,55 +5,55 @@ api_specs:
   label: SAP Business One BusinessPartners('{CardCode}') API
   slug: sap-business-one-businesspartners-cardcode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-businesspartners-cardcode-api-openapi.yml
+  url: https://artifacts.apis.io/sap-business-one/openapi/sap-business-one-businesspartners-cardcode-api-openapi.yml
 - filename: sap-business-one-companyservice-getcompanyinfo-api-openapi.yml
   format: yaml
   label: SAP Business One CompanyService GetCompanyInfo API
   slug: sap-business-one-companyservice-getcompanyinfo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-companyservice-getcompanyinfo-api-openapi.yml
+  url: https://artifacts.apis.io/sap-business-one/openapi/sap-business-one-companyservice-getcompanyinfo-api-openapi.yml
 - filename: sap-business-one-invoices-api-openapi.yml
   format: yaml
   label: SAP Business One Invoices API
   slug: sap-business-one-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/sap-business-one/openapi/sap-business-one-invoices-api-openapi.yml
 - filename: sap-business-one-items-api-openapi.yml
   format: yaml
   label: SAP Business One Items API
   slug: sap-business-one-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-items-api-openapi.yml
+  url: https://artifacts.apis.io/sap-business-one/openapi/sap-business-one-items-api-openapi.yml
 - filename: sap-business-one-login-api-openapi.yml
   format: yaml
   label: SAP Business One Login API
   slug: sap-business-one-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-login-api-openapi.yml
+  url: https://artifacts.apis.io/sap-business-one/openapi/sap-business-one-login-api-openapi.yml
 - filename: sap-business-one-logout-api-openapi.yml
   format: yaml
   label: SAP Business One Logout API
   slug: sap-business-one-logout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-logout-api-openapi.yml
+  url: https://artifacts.apis.io/sap-business-one/openapi/sap-business-one-logout-api-openapi.yml
 - filename: sap-business-one-orders-api-openapi.yml
   format: yaml
   label: SAP Business One Orders API
   slug: sap-business-one-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-orders-api-openapi.yml
+  url: https://artifacts.apis.io/sap-business-one/openapi/sap-business-one-orders-api-openapi.yml
 - filename: sap-business-one-orders-docentry-api-openapi.yml
   format: yaml
   label: SAP Business One Orders({DocEntry}) API
   slug: sap-business-one-orders-docentry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-orders-docentry-api-openapi.yml
+  url: https://artifacts.apis.io/sap-business-one/openapi/sap-business-one-orders-docentry-api-openapi.yml
 - filename: sap-business-one-business-partners-api-openapi.yml
   format: yaml
   label: SAP Business One Business Partners API
   slug: sap-business-one-business-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-business-partners-api-openapi.yml
+  url: https://artifacts.apis.io/sap-business-one/openapi/sap-business-one-business-partners-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ source_filename: sap-business-one-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 13 23:59:59 2027 GMT\n  hsts: null\n- host: help.sap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: sap.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/security/sap-business-one-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sap-business-one/security/sap-business-one-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - ERP

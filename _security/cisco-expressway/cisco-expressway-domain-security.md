@@ -5,97 +5,97 @@ api_specs:
   label: Cisco Expressway Admin Account API
   slug: cisco-expressway-admin-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/openapi/cisco-expressway-admin-account-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-expressway/openapi/cisco-expressway-admin-account-api-openapi.yml
 - filename: cisco-expressway-alarms-api-openapi.yml
   format: yaml
   label: Cisco Expressway Alarms API
   slug: cisco-expressway-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/openapi/cisco-expressway-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-expressway/openapi/cisco-expressway-alarms-api-openapi.yml
 - filename: cisco-expressway-calls-api-openapi.yml
   format: yaml
   label: Cisco Expressway Calls API
   slug: cisco-expressway-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/openapi/cisco-expressway-calls-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-expressway/openapi/cisco-expressway-calls-api-openapi.yml
 - filename: cisco-expressway-dns-api-openapi.yml
   format: yaml
   label: Cisco Expressway DNS API
   slug: cisco-expressway-dns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/openapi/cisco-expressway-dns-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-expressway/openapi/cisco-expressway-dns-api-openapi.yml
 - filename: cisco-expressway-licensing-api-openapi.yml
   format: yaml
   label: Cisco Expressway Licensing API
   slug: cisco-expressway-licensing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/openapi/cisco-expressway-licensing-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-expressway/openapi/cisco-expressway-licensing-api-openapi.yml
 - filename: cisco-expressway-ntp-api-openapi.yml
   format: yaml
   label: Cisco Expressway NTP API
   slug: cisco-expressway-ntp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/openapi/cisco-expressway-ntp-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-expressway/openapi/cisco-expressway-ntp-api-openapi.yml
 - filename: cisco-expressway-registrations-api-openapi.yml
   format: yaml
   label: Cisco Expressway Registrations API
   slug: cisco-expressway-registrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/openapi/cisco-expressway-registrations-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-expressway/openapi/cisco-expressway-registrations-api-openapi.yml
 - filename: cisco-expressway-resource-usage-api-openapi.yml
   format: yaml
   label: Cisco Expressway Resource Usage API
   slug: cisco-expressway-resource-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/openapi/cisco-expressway-resource-usage-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-expressway/openapi/cisco-expressway-resource-usage-api-openapi.yml
 - filename: cisco-expressway-search-rules-api-openapi.yml
   format: yaml
   label: Cisco Expressway Search Rules API
   slug: cisco-expressway-search-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/openapi/cisco-expressway-search-rules-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-expressway/openapi/cisco-expressway-search-rules-api-openapi.yml
 - filename: cisco-expressway-sftp-api-openapi.yml
   format: yaml
   label: Cisco Expressway SFTP API
   slug: cisco-expressway-sftp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/openapi/cisco-expressway-sftp-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-expressway/openapi/cisco-expressway-sftp-api-openapi.yml
 - filename: cisco-expressway-sip-api-openapi.yml
   format: yaml
   label: Cisco Expressway SIP API
   slug: cisco-expressway-sip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/openapi/cisco-expressway-sip-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-expressway/openapi/cisco-expressway-sip-api-openapi.yml
 - filename: cisco-expressway-system-api-openapi.yml
   format: yaml
   label: Cisco Expressway System API
   slug: cisco-expressway-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/openapi/cisco-expressway-system-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-expressway/openapi/cisco-expressway-system-api-openapi.yml
 - filename: cisco-expressway-system-status-api-openapi.yml
   format: yaml
   label: Cisco Expressway System Status API
   slug: cisco-expressway-system-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/openapi/cisco-expressway-system-status-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-expressway/openapi/cisco-expressway-system-status-api-openapi.yml
 - filename: cisco-expressway-transforms-api-openapi.yml
   format: yaml
   label: Cisco Expressway Transforms API
   slug: cisco-expressway-transforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/openapi/cisco-expressway-transforms-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-expressway/openapi/cisco-expressway-transforms-api-openapi.yml
 - filename: cisco-expressway-upgrade-api-openapi.yml
   format: yaml
   label: Cisco Expressway Upgrade API
   slug: cisco-expressway-upgrade-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/openapi/cisco-expressway-upgrade-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-expressway/openapi/cisco-expressway-upgrade-api-openapi.yml
 - filename: cisco-expressway-zones-api-openapi.yml
   format: yaml
   label: Cisco Expressway Zones API
   slug: cisco-expressway-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/openapi/cisco-expressway-zones-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-expressway/openapi/cisco-expressway-zones-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -137,7 +137,7 @@ source_filename: cisco-expressway-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.cisco.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 20 00:05:07 2027 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: www.cisco.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 01:46:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: cisco.com\n  dnssec: false\n  caa:\n  - 128 issuewild \"ssl.com\"\n  - 0 issue \"digicert.com\"\n  - 128 iodef \"mailto:infosec@cisco.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"identrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/security/cisco-expressway-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cisco-expressway/security/cisco-expressway-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Collaboration

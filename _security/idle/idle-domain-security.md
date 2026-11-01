@@ -5,19 +5,19 @@ api_specs:
   label: Idle Finance Pools API
   slug: idle-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idle/refs/heads/main/openapi/idle-pools-api-openapi.yml
+  url: https://artifacts.apis.io/idle/openapi/idle-pools-api-openapi.yml
 - filename: idle-rates-api-openapi.yml
   format: yaml
   label: Idle Finance Rates API
   slug: idle-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idle/refs/heads/main/openapi/idle-rates-api-openapi.yml
+  url: https://artifacts.apis.io/idle/openapi/idle-rates-api-openapi.yml
 - filename: idle-tvl-api-openapi.yml
   format: yaml
   label: Idle Finance TVL API
   slug: idle-tvl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idle/refs/heads/main/openapi/idle-tvl-api-openapi.yml
+  url: https://artifacts.apis.io/idle/openapi/idle-tvl-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -54,7 +54,7 @@ source_filename: idle-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: idle.finance\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 16:33:26 2026 GMT\n  hsts: false\n- host: docs.idle.finance\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 13:11:14 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.idle.finance\n  https: false\ndomains:\n- domain: idle.finance\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/idle/refs/heads/main/security/idle-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/idle/security/idle-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - DeFi

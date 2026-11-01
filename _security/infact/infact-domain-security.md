@@ -35,7 +35,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: infact.solutions\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 12:29:26 2026 GMT\n  hsts: false\n- host: api.hpzone.nl\n  https: false\ndomains:\n- domain: infact.solutions\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: hpzone.nl\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\nnotes:\n- api.hpzone.nl shows https:false because the probe tests port 443. The HPZone API is served on port 8899,\n  which our network could not reach either (TCP connect timeout on all three A records, single bounded\n  attempt). No conclusion should be drawn about the API host's TLS posture from this row.\n- infact.solutions serves TLS 1.3 but sets no HSTS header. The site sits behind a SiteGround JavaScript\n  bot challenge (HTTP 202 on every path), which is what the HEAD probe reached.\n- DMARC is published at\
   \ p=none — monitoring only, no enforcement — on a domain belonging to a supplier\n  of national public-health case-management systems.\n- Neither infact.solutions nor hpzone.nl publishes DNSSEC or a CAA record. hpzone.nl publishes no SPF\n  and no DMARC at all; its root is a parked GoDaddy lander, while the operational API lives at api.hpzone.nl:8899.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infact/refs/heads/main/security/infact-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/infact/security/infact-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

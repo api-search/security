@@ -28,7 +28,7 @@ source_filename: national-council-on-disability-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ncd.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  5 19:20:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: ncd.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/security/national-council-on-disability-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/national-council-on-disability/security/national-council-on-disability-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Disability

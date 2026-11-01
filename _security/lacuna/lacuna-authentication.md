@@ -8,19 +8,19 @@ api_specs:
   label: Lacuna Music API Events
   slug: lacuna-lacuna-music-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lacuna/refs/heads/main/openapi/lacuna-lacuna-music-api-api-openapi.yml
+  url: https://artifacts.apis.io/lacuna/openapi/lacuna-lacuna-music-api-api-openapi.yml
 - filename: lacuna-music-api-openapi.yml
   format: yaml
   label: Lacuna Music API
   slug: lacuna-music-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lacuna/refs/heads/main/openapi/lacuna-music-api-openapi.yml
+  url: https://artifacts.apis.io/lacuna/openapi/lacuna-music-api-openapi.yml
 - filename: lacuna-account-api-openapi.yml
   format: yaml
   label: Lacuna Account API
   slug: lacuna-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lacuna/refs/heads/main/openapi/lacuna-account-api-openapi.yml
+  url: https://artifacts.apis.io/lacuna/openapi/lacuna-account-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-09-11'\nmethod: searched\nsource: openapi/lacuna-
   \ nor an anonymous claim ceremony — there are exactly two credential paths and\n      both put a human account holder in the loop at some point.\n    sources:\n      - well-known/lacuna-oauth-authorization-server.json\n      - well-known/lacuna-auth.md\n      - a2a/lacuna-agent-card.json\ncredential_introspection:\n  operation: getMe\n  endpoint: GET https://www.lacuna.fm/api/v1/me\n  cost: free — no credits consumed\n  returns: auth.kind (api_key|oauth), auth.scopes[], auth.key.id / name / expires_at, plan, credit balance, rate limits\n  note: >-\n    The API now lets a credential describe itself. This is the documented connection test and the only\n    way for an agent to learn its own scopes, plan eligibility and key expiry without attempting a\n    billable call and reading the 402/403. Added to the published OpenAPI since the August round.\nchallenge:\n  header: WWW-Authenticate\n  example: 'Bearer realm=\"lacuna\", resource_metadata=\"https://www.lacuna.fm/.well-known/oauth-protected-resource\"\
   , error=\"invalid_token\", error_description=\"Invalid API key\"'\n  rfc9728_pointer: true\n  note: >-\n    A 401 points the caller back at the protected-resource metadata in the challenge itself, which is\n    the RFC 9728 discovery loop working as intended — an agent that arrives with nothing can bootstrap\n    from a single failed call.\nsurfaces:\n  - surface: REST\n    endpoint: https://www.lacuna.fm/api/v1/me\n    auth_required: true\n    note: Free credential/plan/credit introspection; the documented connection test.\n  - surface: REST\n    endpoint: https://www.lacuna.fm/api/v1/music/generations\n    auth_required: true\n  - surface: MCP (Streamable HTTP)\n    endpoint: https://www.lacuna.fm/mcp\n    auth_required: partial\n    note: initialize and tools/list answer anonymously; tools/call requires a credential.\n  - surface: A2A (JSON-RPC)\n    endpoint: https://www.lacuna.fm/a2a\n    auth_required: true\n    note: Anonymous POST observed returning 401 authentication_error / invalid_api_key.\n\
   x-evidence:\n  fetched: '2026-09-11'\n  urls:\n    - url: https://www.lacuna.fm/auth.md\n      http_status: 200\n    - url: https://www.lacuna.fm/.well-known/oauth-authorization-server\n      http_status: 200\n    - url: https://www.lacuna.fm/.well-known/oauth-protected-resource\n      http_status: 200\n    - url: https://www.lacuna.fm/api/openapi.json\n      http_status: 200\n    - url: https://www.lacuna.fm/.well-known/jwks.json\n      http_status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lacuna/refs/heads/main/authentication/lacuna-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lacuna/authentication/lacuna-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - AI Music

@@ -7,19 +7,19 @@ api_specs:
   label: Secureworks Authentication API
   slug: secureworks-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/secureworks/refs/heads/main/openapi/secureworks-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/secureworks/openapi/secureworks-authentication-api-openapi.yml
 - filename: secureworks-system-api-openapi.yml
   format: yaml
   label: Secureworks System API
   slug: secureworks-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/secureworks/refs/heads/main/openapi/secureworks-system-api-openapi.yml
+  url: https://artifacts.apis.io/secureworks/openapi/secureworks-system-api-openapi.yml
 - filename: secureworks-graph-ql-api-openapi.yml
   format: yaml
   label: Secureworks Graph QL API
   slug: secureworks-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/secureworks/refs/heads/main/openapi/secureworks-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/secureworks/openapi/secureworks-graph-ql-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: secureworks-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/secureworks-taegis-xdr-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth2 bearer access token from /auth/api/v2/auth/token\n  sources:\n  - openapi/secureworks-taegis-xdr-openapi.yml\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic auth with client_id as username and client_secret as password\n  sources:\n  - openapi/secureworks-taegis-xdr-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/secureworks/refs/heads/main/authentication/secureworks-authentication.yml
+source_yaml_url: https://artifacts.apis.io/secureworks/authentication/secureworks-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Cybersecurity

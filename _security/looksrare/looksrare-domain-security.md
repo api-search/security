@@ -5,31 +5,31 @@ api_specs:
   label: LooksRare Collections API
   slug: looksrare-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looksrare/refs/heads/main/openapi/looksrare-collections-api-openapi.yml
+  url: https://artifacts.apis.io/looksrare/openapi/looksrare-collections-api-openapi.yml
 - filename: looksrare-events-api-openapi.yml
   format: yaml
   label: LooksRare Events API
   slug: looksrare-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looksrare/refs/heads/main/openapi/looksrare-events-api-openapi.yml
+  url: https://artifacts.apis.io/looksrare/openapi/looksrare-events-api-openapi.yml
 - filename: looksrare-orders-api-openapi.yml
   format: yaml
   label: LooksRare Orders API
   slug: looksrare-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looksrare/refs/heads/main/openapi/looksrare-orders-api-openapi.yml
+  url: https://artifacts.apis.io/looksrare/openapi/looksrare-orders-api-openapi.yml
 - filename: looksrare-seaport-api-openapi.yml
   format: yaml
   label: LooksRare Seaport API
   slug: looksrare-seaport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looksrare/refs/heads/main/openapi/looksrare-seaport-api-openapi.yml
+  url: https://artifacts.apis.io/looksrare/openapi/looksrare-seaport-api-openapi.yml
 - filename: looksrare-tokens-api-openapi.yml
   format: yaml
   label: LooksRare Tokens API
   slug: looksrare-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looksrare/refs/heads/main/openapi/looksrare-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/looksrare/openapi/looksrare-tokens-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -80,7 +80,7 @@ source_filename: looksrare-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: looksrare.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 20:24:58 2026 GMT\n  hsts: null\n- host: looksrare.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 21:29:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.looksrare.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 20:24:58 2026 GMT\n  hsts: null\ndomains:\n- domain: looksrare.org\n  dnssec: true\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: looksrare.dev\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/looksrare/refs/heads/main/security/looksrare-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/looksrare/security/looksrare-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - NFT

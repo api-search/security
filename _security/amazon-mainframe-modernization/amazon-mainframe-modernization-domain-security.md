@@ -5,31 +5,37 @@ api_specs:
   label: Amazon Mainframe Modernization Applications API
   slug: amazon-mainframe-modernization-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/openapi/amazon-mainframe-modernization-applications-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mainframe-modernization/openapi/amazon-mainframe-modernization-applications-api-openapi.yml
 - filename: amazon-mainframe-modernization-engine-versions-api-openapi.yml
   format: yaml
   label: Amazon Mainframe Modernization Engine Versions API
   slug: amazon-mainframe-modernization-engine-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/openapi/amazon-mainframe-modernization-engine-versions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mainframe-modernization/openapi/amazon-mainframe-modernization-engine-versions-api-openapi.yml
 - filename: amazon-mainframe-modernization-environments-api-openapi.yml
   format: yaml
   label: Amazon Mainframe Modernization Environments API
   slug: amazon-mainframe-modernization-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/openapi/amazon-mainframe-modernization-environments-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mainframe-modernization/openapi/amazon-mainframe-modernization-environments-api-openapi.yml
 - filename: amazon-mainframe-modernization-signed-bi-url-api-openapi.yml
   format: yaml
   label: Amazon Mainframe Modernization Signed Bi Url API
   slug: amazon-mainframe-modernization-signed-bi-url-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/openapi/amazon-mainframe-modernization-signed-bi-url-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mainframe-modernization/openapi/amazon-mainframe-modernization-signed-bi-url-api-openapi.yml
 - filename: amazon-mainframe-modernization-tags-api-openapi.yml
   format: yaml
   label: Amazon Mainframe Modernization Tags API
   slug: amazon-mainframe-modernization-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/openapi/amazon-mainframe-modernization-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mainframe-modernization/openapi/amazon-mainframe-modernization-tags-api-openapi.yml
+- filename: amazon-mainframe-modernization-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Mainframe Modernization Mainframe Modernization Operations API
+  slug: amazon-mainframe-modernization-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mainframe-modernization/openapi/amazon-mainframe-modernization-operations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -67,7 +73,7 @@ source_filename: amazon-mainframe-modernization-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: m2.amazonaws.com\n  https: false\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/security/amazon-mainframe-modernization-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amazon-mainframe-modernization/security/amazon-mainframe-modernization-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - COBOL

@@ -27,7 +27,7 @@ source_filename: hong-kong-geodata-store-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: geodata.gov.hk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  3 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: geodata.gov.hk\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hong-kong-geodata-store/refs/heads/main/security/hong-kong-geodata-store-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hong-kong-geodata-store/security/hong-kong-geodata-store-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Geocoding

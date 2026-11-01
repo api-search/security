@@ -7,91 +7,91 @@ api_specs:
   label: Agrology Alerts API
   slug: agrology-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/openapi/agrology-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/agrology/openapi/agrology-alerts-api-openapi.yml
 - filename: agrology-charts-api-openapi.yml
   format: yaml
   label: Agrology Charts API
   slug: agrology-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/openapi/agrology-charts-api-openapi.yml
+  url: https://artifacts.apis.io/agrology/openapi/agrology-charts-api-openapi.yml
 - filename: agrology-dashboards-api-openapi.yml
   format: yaml
   label: Agrology Dashboards API
   slug: agrology-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/openapi/agrology-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/agrology/openapi/agrology-dashboards-api-openapi.yml
 - filename: agrology-experiments-api-openapi.yml
   format: yaml
   label: Agrology Experiments API
   slug: agrology-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/openapi/agrology-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/agrology/openapi/agrology-experiments-api-openapi.yml
 - filename: agrology-feedback-api-openapi.yml
   format: yaml
   label: Agrology Feedback API
   slug: agrology-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/openapi/agrology-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/agrology/openapi/agrology-feedback-api-openapi.yml
 - filename: agrology-files-api-openapi.yml
   format: yaml
   label: Agrology Files API
   slug: agrology-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/openapi/agrology-files-api-openapi.yml
+  url: https://artifacts.apis.io/agrology/openapi/agrology-files-api-openapi.yml
 - filename: agrology-ground-truth-api-openapi.yml
   format: yaml
   label: Agrology Ground Truth API
   slug: agrology-ground-truth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/openapi/agrology-ground-truth-api-openapi.yml
+  url: https://artifacts.apis.io/agrology/openapi/agrology-ground-truth-api-openapi.yml
 - filename: agrology-metrics-api-openapi.yml
   format: yaml
   label: Agrology Metrics API
   slug: agrology-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/openapi/agrology-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/agrology/openapi/agrology-metrics-api-openapi.yml
 - filename: agrology-microclimate-api-openapi.yml
   format: yaml
   label: Agrology Microclimate API
   slug: agrology-microclimate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/openapi/agrology-microclimate-api-openapi.yml
+  url: https://artifacts.apis.io/agrology/openapi/agrology-microclimate-api-openapi.yml
 - filename: agrology-reports-api-openapi.yml
   format: yaml
   label: Agrology Reports API
   slug: agrology-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/openapi/agrology-reports-api-openapi.yml
+  url: https://artifacts.apis.io/agrology/openapi/agrology-reports-api-openapi.yml
 - filename: agrology-summary-data-api-openapi.yml
   format: yaml
   label: Agrology Summary Data API
   slug: agrology-summary-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/openapi/agrology-summary-data-api-openapi.yml
+  url: https://artifacts.apis.io/agrology/openapi/agrology-summary-data-api-openapi.yml
 - filename: agrology-synthetics-api-openapi.yml
   format: yaml
   label: Agrology Synthetics API
   slug: agrology-synthetics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/openapi/agrology-synthetics-api-openapi.yml
+  url: https://artifacts.apis.io/agrology/openapi/agrology-synthetics-api-openapi.yml
 - filename: agrology-topology-api-openapi.yml
   format: yaml
   label: Agrology Topology API
   slug: agrology-topology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/openapi/agrology-topology-api-openapi.yml
+  url: https://artifacts.apis.io/agrology/openapi/agrology-topology-api-openapi.yml
 - filename: agrology-user-api-openapi.yml
   format: yaml
   label: Agrology User API
   slug: agrology-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/openapi/agrology-user-api-openapi.yml
+  url: https://artifacts.apis.io/agrology/openapi/agrology-user-api-openapi.yml
 - filename: agrology-weather-api-openapi.yml
   format: yaml
   label: Agrology Weather API
   slug: agrology-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/openapi/agrology-weather-api-openapi.yml
+  url: https://artifacts.apis.io/agrology/openapi/agrology-weather-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -151,7 +151,7 @@ source_yaml: "generated: '2026-09-13'\nmethod: searched\nsource: https://github.
   \    list of customers, sites and nodes, resolved at call time rather than encoded as\n    OAuth scopes in the token.\n  discovery_endpoint: GET /access\n  discovery_url: https://api.agrology.ag/v2/access\n  shape: >-\n    Returns siteAccess[] — one entry per customer the caller can reach, each carrying\n    displayName and a sites{} map keyed by site id, each site carrying a role\n    (e.g. \"admin\") and its nodes[].\n  roles_observed:\n  - admin\n  roles_note: >-\n    The README's example shows role \"admin\" on a site. The full role vocabulary is not\n    published; /access/manage/{customerID}/{accessUser}/{accessLevel} implies an\n    accessLevel vocabulary that the docs also do not enumerate.\n  delegated_administration:\n    list: GET /access/manage/{customerID}\n    grant: POST /access/manage/{customerID}/{accessUser}/{accessLevel}\n    revoke: DELETE /access/manage/{customerID}/{accessUser}\nobserved_behavior:\n  method: probed\n  probes:\n  - url: https://api.agrology.ag/v2/access\n\
   \    request: no credential\n    status: 403\n    body: '{\"message\":\"Forbidden\"}'\n    amzn_error_type: MissingAuthenticationTokenException\n  - url: https://api.agrology.ag/v2/access\n    request: 'x-api-key: <invalid>'\n    status: 401\n    cors_allow_origin: '*'\n  note: >-\n    A missing credential returns 403 with an AWS API Gateway\n    MissingAuthenticationTokenException, while a present-but-invalid key returns 401.\n    This inverts the README, which says \"Any API request without a Bearer Token or API\n    Key will be rejected with a 401 Unauthorized error\" — an agent retrying on 401\n    alone will not recognise the unauthenticated case. The API responds with\n    Access-Control-Allow-Origin *, so browser clients may call it cross-origin.\ngaps:\n- The x-api-key scheme is documented but absent from the OpenAPI securitySchemes.\n- No refresh-token or client-credentials flow is documented; long-running machine\n  clients must use an API key obtained by contacting staff.\n\
   - API key rotation is not yet self-service.\n- The documented 401-on-missing-credential does not match the observed 403.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/authentication/agrology-authentication.yml
+source_yaml_url: https://artifacts.apis.io/agrology/authentication/agrology-authentication.yml
 summary_line: http/apiKey · 2 schemes
 tags:
 - Company

@@ -26,7 +26,7 @@ source_filename: represent-by-open-north-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: represent.opennorth.ca\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep  6 12:32:29 2026 GMT\n  hsts: false\ndomains:\n- domain: opennorth.ca\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/represent-by-open-north/refs/heads/main/security/represent-by-open-north-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/represent-by-open-north/security/represent-by-open-north-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Government

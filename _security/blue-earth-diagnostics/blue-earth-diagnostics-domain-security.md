@@ -27,7 +27,7 @@ source_filename: blue-earth-diagnostics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.blueearthdiagnostics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 18 11:35:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: blueearthdiagnostics.com\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blue-earth-diagnostics/refs/heads/main/security/blue-earth-diagnostics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/blue-earth-diagnostics/security/blue-earth-diagnostics-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company

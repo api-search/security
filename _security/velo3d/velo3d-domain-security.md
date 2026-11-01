@@ -5,25 +5,25 @@ api_specs:
   label: Velo3D Sapphire Printers
   slug: sapphire-printers
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/velo3d/refs/heads/main/openapi/_original/velo3d-openapi.yml
+  url: https://artifacts.apis.io/velo3d/openapi/_original/velo3d-openapi.yml
 - filename: velo3d-openapi.yml
   format: yaml
   label: Velo3D Flow Print Preparation
   slug: flow-print-prep
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/velo3d/refs/heads/main/openapi/_original/velo3d-openapi.yml
+  url: https://artifacts.apis.io/velo3d/openapi/_original/velo3d-openapi.yml
 - filename: velo3d-openapi.yml
   format: yaml
   label: Velo3D Assure Quality Assurance
   slug: assure-qa
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/velo3d/refs/heads/main/openapi/_original/velo3d-openapi.yml
+  url: https://artifacts.apis.io/velo3d/openapi/_original/velo3d-openapi.yml
 - filename: velo3d-openapi.yml
   format: yaml
   label: Velo3D Intelligent Fusion
   slug: intelligent-fusion
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/velo3d/refs/heads/main/openapi/_original/velo3d-openapi.yml
+  url: https://artifacts.apis.io/velo3d/openapi/_original/velo3d-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: velo3d-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: velo3d.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 09:49:46 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: velo3d.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/velo3d/refs/heads/main/security/velo3d-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/velo3d/security/velo3d-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - 3D Printing

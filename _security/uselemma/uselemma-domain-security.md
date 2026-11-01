@@ -5,25 +5,25 @@ api_specs:
   label: Lemma Artifacts API
   slug: uselemma-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/openapi/uselemma-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/uselemma/openapi/uselemma-artifacts-api-openapi.yml
 - filename: uselemma-issues-api-openapi.yml
   format: yaml
   label: Lemma Issues API
   slug: uselemma-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/openapi/uselemma-issues-api-openapi.yml
+  url: https://artifacts.apis.io/uselemma/openapi/uselemma-issues-api-openapi.yml
 - filename: uselemma-projects-api-openapi.yml
   format: yaml
   label: Lemma Projects API
   slug: uselemma-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/openapi/uselemma-projects-api-openapi.yml
+  url: https://artifacts.apis.io/uselemma/openapi/uselemma-projects-api-openapi.yml
 - filename: uselemma-traces-api-openapi.yml
   format: yaml
   label: Lemma Traces API
   slug: uselemma-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/openapi/uselemma-traces-api-openapi.yml
+  url: https://artifacts.apis.io/uselemma/openapi/uselemma-traces-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -70,7 +70,7 @@ source_filename: uselemma-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.uselemma.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 22:09:29 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.uselemma.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 22:09:29 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.uselemma.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 22:09:29 2026 GMT\n  hsts: false\ndomains:\n- domain: uselemma.ai\n  dnssec: true\n  caa:\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/security/uselemma-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/uselemma/security/uselemma-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

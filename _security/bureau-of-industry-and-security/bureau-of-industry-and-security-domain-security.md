@@ -5,7 +5,7 @@ api_specs:
   label: Bureau of Industry and Security Search API
   slug: bureau-of-industry-and-security-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-industry-and-security/refs/heads/main/openapi/bureau-of-industry-and-security-search-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-industry-and-security/openapi/bureau-of-industry-and-security-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: bureau-of-industry-and-security-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bis.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 13:28:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.trade.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  4 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.trade.gov\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has\n    expired (_ssl.c:1082)'\n  hsts: null\ndomains:\n- domain: bis.gov\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: trade.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-industry-and-security/refs/heads/main/security/bureau-of-industry-and-security-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bureau-of-industry-and-security/security/bureau-of-industry-and-security-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Compliance

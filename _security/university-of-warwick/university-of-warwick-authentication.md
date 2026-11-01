@@ -7,25 +7,25 @@ api_specs:
   label: University of Warwick Administration API
   slug: university-of-warwick-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-warwick/refs/heads/main/openapi/university-of-warwick-administration-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-warwick/openapi/university-of-warwick-administration-api-openapi.yml
 - filename: university-of-warwick-jobs-api-openapi.yml
   format: yaml
   label: University of Warwick Jobs API
   slug: university-of-warwick-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-warwick/refs/heads/main/openapi/university-of-warwick-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-warwick/openapi/university-of-warwick-jobs-api-openapi.yml
 - filename: university-of-warwick-oai-pmh-api-openapi.yml
   format: yaml
   label: University of Warwick OAI PMH API
   slug: university-of-warwick-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-warwick/refs/heads/main/openapi/university-of-warwick-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-warwick/openapi/university-of-warwick-oai-pmh-api-openapi.yml
 - filename: university-of-warwick-timetabling-api-openapi.yml
   format: yaml
   label: University of Warwick Timetabling API
   slug: university-of-warwick-timetabling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-warwick/refs/heads/main/openapi/university-of-warwick-timetabling-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-warwick/openapi/university-of-warwick-timetabling-api-openapi.yml
 auth_types:
 - http
 - oauth1
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-08-19'\nmethod: searched\nsource: https://warwick
   \    - POST body\n    applies_to:\n      - Tabula API\n      - Sitebuilder\n      - Warwick Search\n      - Files.Warwick\n      - Warwick Blogs\n      - Warwick Forums\n      - Exam Timetabling\n      - Printer Credits\n      - Web Sign-on\n    sources:\n      - https://warwick.ac.uk/services/its/servicessupport/web/sign-on/help/oauth/apis/\n    scopes_artifact: scopes/university-of-warwick-oauth-scopes.yml\n  - name: shibboleth-saml\n    type: saml\n    version: SAML 2.0\n    description: >-\n      Warwick operates a Shibboleth identity provider as a member of the UK Access Management\n      Federation and, through it, eduGAIN. The SAML 2.0 metadata is published unauthenticated\n      and is machine-readable.\n    entity_id: https://idp.warwick.ac.uk/idp/shibboleth\n    metadata_url: https://idp.warwick.ac.uk/idp/shibboleth\n    scope: warwick.ac.uk\n    protocols_supported:\n      - urn:mace:shibboleth:1.0\n      - urn:oasis:names:tc:SAML:1.1:protocol\n      - urn:oasis:names:tc:SAML:2.0:protocol\n\
   \    entity_attributes:\n      assurance_certification: https://refeds.org/sirtfi\n      entity_category_support: http://refeds.org/category/research-and-scholarship\n    evidence: >-\n      Probed https://idp.warwick.ac.uk/idp/shibboleth on 2026-08-19 — HTTP 200,\n      application/xml, 7,843 bytes, root element <EntityDescriptor> with\n      entityID=\"https://idp.warwick.ac.uk/idp/shibboleth\" and an IDPSSODescriptor.\n    sources:\n      - https://idp.warwick.ac.uk/idp/shibboleth\npublic_surface:\n  note: >-\n    Three Tabula calendar endpoints require no authentication at all and were verified returning\n    live data unauthenticated on 2026-08-19: /api/v1/termdates, /api/v1/termdates/weeks and\n    /api/v1/holidaydates, each also available as iCalendar. WRAP's OAI-PMH endpoint is likewise\n    fully open. Everything else on Warwick's surface is credentialed.\nx-evidence:\n  - url: https://tabula.warwick.ac.uk/api/v1/termdates\n    status: 200\n  - url: https://tabula.warwick.ac.uk/api/v1/department\n\
   \    status: 401\n  - url: https://idp.warwick.ac.uk/idp/shibboleth\n    status: 200\n  - url: https://warwick.ac.uk/.well-known/openid-configuration\n    status: 404\n  - url: https://warwick.ac.uk/services/its/servicessupport/web/sign-on/help/oauth/apis/\n    status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-warwick/refs/heads/main/authentication/university-of-warwick-authentication.yml
+source_yaml_url: https://artifacts.apis.io/university-of-warwick/authentication/university-of-warwick-authentication.yml
 summary_line: http/oauth1/saml · 3 schemes
 tags:
 - University

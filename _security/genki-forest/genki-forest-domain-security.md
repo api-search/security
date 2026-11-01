@@ -5,7 +5,7 @@ api_specs:
   label: Genki Forest Open Platform — Distributor & Receivables Management
   slug: genki-forest-open-platform-distributor-receivables-management
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genki-forest/refs/heads/main/openapi/genki-forest-open-platform-swagger.json
+  url: https://artifacts.apis.io/genki-forest/openapi/genki-forest-open-platform-swagger.json
 description: ''
 domains:
 - caa: []
@@ -42,7 +42,7 @@ source_filename: genki-forest-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.yuanqisenlin.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 631138519\n- host: open.yuanqisenlin.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15724800\n  hsts_include_subdomains: true\n  note: >-\n    HSTS is served on this host but the automated probe recorded null because GET / returns\n    405 Method Not Allowed (the gateway root accepts POST only). Header observed verbatim on\n    that 405 response: Strict-Transport-Security: max-age=15724800; includeSubDomains.\ndomains:\n- domain: yuanqisenlin.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/genki-forest/refs/heads/main/security/genki-forest-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/genki-forest/security/genki-forest-domain-security.yml
 summary_line: TLSv1.2 · HSTS
 tags:
 - Company

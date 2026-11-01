@@ -8,73 +8,73 @@ api_specs:
   label: Bolt Financial Account API
   slug: bolt-financial-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-account-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-financial/openapi/bolt-financial-account-api-openapi.yml
 - filename: bolt-financial-callbacks-api-openapi.yml
   format: yaml
   label: Bolt Financial Callbacks API
   slug: bolt-financial-callbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-callbacks-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-financial/openapi/bolt-financial-callbacks-api-openapi.yml
 - filename: bolt-financial-configuration-api-openapi.yml
   format: yaml
   label: Bolt Financial Configuration API
   slug: bolt-financial-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-financial/openapi/bolt-financial-configuration-api-openapi.yml
 - filename: bolt-financial-orders-api-openapi.yml
   format: yaml
   label: Bolt Financial Orders API
   slug: bolt-financial-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-orders-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-financial/openapi/bolt-financial-orders-api-openapi.yml
 - filename: bolt-financial-payments-api-openapi.yml
   format: yaml
   label: Bolt Financial Payments API
   slug: bolt-financial-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-payments-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-financial/openapi/bolt-financial-payments-api-openapi.yml
 - filename: bolt-financial-statements-api-openapi.yml
   format: yaml
   label: Bolt Financial Statements API
   slug: bolt-financial-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-statements-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-financial/openapi/bolt-financial-statements-api-openapi.yml
 - filename: bolt-financial-subscriptions-api-openapi.yml
   format: yaml
   label: Bolt Financial Subscriptions API
   slug: bolt-financial-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-financial/openapi/bolt-financial-subscriptions-api-openapi.yml
 - filename: bolt-financial-testing-api-openapi.yml
   format: yaml
   label: Bolt Financial Testing API
   slug: bolt-financial-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-testing-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-financial/openapi/bolt-financial-testing-api-openapi.yml
 - filename: bolt-financial-tokenizer-api-openapi.yml
   format: yaml
   label: Bolt Financial Tokenizer API
   slug: bolt-financial-tokenizer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-tokenizer-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-financial/openapi/bolt-financial-tokenizer-api-openapi.yml
 - filename: bolt-financial-transactions-api-openapi.yml
   format: yaml
   label: Bolt Financial Transactions API
   slug: bolt-financial-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-financial/openapi/bolt-financial-transactions-api-openapi.yml
 - filename: bolt-financial-webhooks-api-openapi.yml
   format: yaml
   label: Bolt Financial Webhooks API
   slug: bolt-financial-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-financial/openapi/bolt-financial-webhooks-api-openapi.yml
 - filename: bolt-financial-oauth-api-openapi.yml
   format: yaml
   label: Bolt Financial O Auth API
   slug: bolt-financial-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-financial/openapi/bolt-financial-oauth-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -125,7 +125,7 @@ source_yaml: "generated: '2026-07-31'\nmethod: searched\ndocs: https://help.bolt
   \ the OAuth token endpoint.](/api-bolt/#tag/OAuth)\n  sources:\n  - openapi/bolt-financial-bolt-api-openapi.yml\n  - openapi/bolt-financial-embeddable-checkout-v1-openapi.yml\n  - openapi/bolt-financial-embeddable-checkout-v3-openapi.yml\n- name: X-API-Key\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: Admins and Developers can obtain their Bolt API key from the Bolt Merchant Dashboard.\n  sources:\n  - openapi/bolt-financial-bolt-api-openapi.yml\n  - openapi/bolt-financial-embeddable-checkout-v1-openapi.yml\n  - openapi/bolt-financial-embeddable-checkout-v3-openapi.yml\ncredentials:\n- name: API Key\n  header: X-Api-Key\n  purpose: Server-side calls from the merchant backend to the Bolt API.\n  notes: Up to five active API keys per merchant; rotatable with no downtime from the Merchant\n    Dashboard (Administration > API).\n  source: https://help.boltapp.com/developers/tools/api-keys/\n- name: Signing Secret\n  header: X-Bolt-Hmac-Sha256\n  rotation_header: X-Bolt-Hmac-Sha256-Pending\n\
   \  purpose: HMAC-SHA256 signature verification of inbound Bolt webhooks and Merchant Callback\n    requests.\n  notes: Rotation supports an Active + Pending pair; reverting to the previous secret is possible\n    for up to 48 hours.\n  source: https://help.boltapp.com/developers/tools/api-keys/\n- name: Publishable Key\n  purpose: Client-side SDK initialization; also serves as the OAuth client_id.\n  source: https://help.boltapp.com/developers/bolt-oauth/\nrequired_headers:\n- header: X-Api-Key\n  value: the merchant API key\n- header: X-Nonce\n  value: unique 12-16 digit value per request (UUID recommended)\n- header: Content-Type\n  value: application/json\noauth:\n  grant: authorization_code\n  client_id: merchant publishable key\n  client_secret: merchant API key\n  authorization_code_ttl: 5 minutes\n  access_token_ttl: 1 hour\n  refresh_token_ttl: 1 year (single use)\n  refresh_token_rotation: true\n  token_presentation: 'Authorization: Bearer ${TOKEN}'\n  oidc: true\n  oidc_discovery:\
   \ https://api.boltapp.com/.well-known/openid-configuration\n  id_token_alg: RS256\n  jwks_uri: https://api.boltapp.com/v1/oauth/jwks.json\n  docs: https://help.boltapp.com/developers/bolt-oauth/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/authentication/bolt-financial-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bolt-financial/authentication/bolt-financial-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company

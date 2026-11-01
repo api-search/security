@@ -8,31 +8,31 @@ api_specs:
   label: JarvisLabs Account API
   slug: jarvislabs-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/openapi/jarvislabs-account-api-openapi.yml
+  url: https://artifacts.apis.io/jarvislabs/openapi/jarvislabs-account-api-openapi.yml
 - filename: jarvislabs-filesystems-api-openapi.yml
   format: yaml
   label: JarvisLabs Filesystems API
   slug: jarvislabs-filesystems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/openapi/jarvislabs-filesystems-api-openapi.yml
+  url: https://artifacts.apis.io/jarvislabs/openapi/jarvislabs-filesystems-api-openapi.yml
 - filename: jarvislabs-gpu-types-api-openapi.yml
   format: yaml
   label: JarvisLabs GPU Types API
   slug: jarvislabs-gpu-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/openapi/jarvislabs-gpu-types-api-openapi.yml
+  url: https://artifacts.apis.io/jarvislabs/openapi/jarvislabs-gpu-types-api-openapi.yml
 - filename: jarvislabs-instances-api-openapi.yml
   format: yaml
   label: JarvisLabs Instances API
   slug: jarvislabs-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/openapi/jarvislabs-instances-api-openapi.yml
+  url: https://artifacts.apis.io/jarvislabs/openapi/jarvislabs-instances-api-openapi.yml
 - filename: jarvislabs-templates-api-openapi.yml
   format: yaml
   label: JarvisLabs Templates API
   slug: jarvislabs-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/openapi/jarvislabs-templates-api-openapi.yml
+  url: https://artifacts.apis.io/jarvislabs/openapi/jarvislabs-templates-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: jarvislabs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/jarvislabs-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: API token generated at https://jarvislabs.ai/settings/api-keys. In the SDK this\n    is set via jarvisclient.token; the CLI stores it via `jl setup`.\n  sources:\n  - openapi/jarvislabs-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/authentication/jarvislabs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/jarvislabs/authentication/jarvislabs-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence

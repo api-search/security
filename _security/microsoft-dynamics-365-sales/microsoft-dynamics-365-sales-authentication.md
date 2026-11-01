@@ -7,61 +7,61 @@ api_specs:
   label: Microsoft Dynamics 365 Sales Accounts API
   slug: microsoft-dynamics-365-sales-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-sales/openapi/microsoft-dynamics-365-sales-accounts-api-openapi.yml
 - filename: microsoft-dynamics-365-sales-batch-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Sales $batch API
   slug: microsoft-dynamics-365-sales-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-batch-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-sales/openapi/microsoft-dynamics-365-sales-batch-api-openapi.yml
 - filename: microsoft-dynamics-365-sales-contacts-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Sales Contacts API
   slug: microsoft-dynamics-365-sales-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-sales/openapi/microsoft-dynamics-365-sales-contacts-api-openapi.yml
 - filename: microsoft-dynamics-365-sales-invoices-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Sales Invoices API
   slug: microsoft-dynamics-365-sales-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-sales/openapi/microsoft-dynamics-365-sales-invoices-api-openapi.yml
 - filename: microsoft-dynamics-365-sales-leads-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Sales Leads API
   slug: microsoft-dynamics-365-sales-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-leads-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-sales/openapi/microsoft-dynamics-365-sales-leads-api-openapi.yml
 - filename: microsoft-dynamics-365-sales-opportunities-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Sales Opportunities API
   slug: microsoft-dynamics-365-sales-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-sales/openapi/microsoft-dynamics-365-sales-opportunities-api-openapi.yml
 - filename: microsoft-dynamics-365-sales-products-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Sales Products API
   slug: microsoft-dynamics-365-sales-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-products-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-sales/openapi/microsoft-dynamics-365-sales-products-api-openapi.yml
 - filename: microsoft-dynamics-365-sales-quotes-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Sales Quotes API
   slug: microsoft-dynamics-365-sales-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-sales/openapi/microsoft-dynamics-365-sales-quotes-api-openapi.yml
 - filename: microsoft-dynamics-365-sales-tasks-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Sales Tasks API
   slug: microsoft-dynamics-365-sales-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-sales/openapi/microsoft-dynamics-365-sales-tasks-api-openapi.yml
 - filename: microsoft-dynamics-365-sales-sales-orders-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Sales Sales Orders API
   slug: microsoft-dynamics-365-sales-sales-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-sales-orders-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-sales/openapi/microsoft-dynamics-365-sales-sales-orders-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/_origin
   \ /.well-known/oauth-authorization-server\n    is not.\n\nregistration:\n  required: true\n  where: Microsoft Entra ID tenant\n  app_types:\n  - type: Web app / API\n    subtypes: [web client, user-agent-based client (SPA)]\n    requires: Sign-On URL\n  - type: Native\n    requires: 'Redirect URI, typically app://<guid>'\n  delegated_permission: Access Dynamics 365 as organization users\n  docs: https://learn.microsoft.com/en-us/power-apps/developer/data-platform/walkthrough-register-app-azure-active-directory\n\nserver_to_server:\n  supported: true\n  mechanism: application user bound to an Entra app registration\n  credentials: [client secret, X.509 certificate]\n  licence: 'does not consume a paid user licence'\n  requires:\n  - a registered Entra app\n  - a Dataverse application user bound to it\n  - a custom security role assigned to that user\n  note: >-\n    Learn, verbatim — \"While you could achieve these scenarios by using credentials for an\n    ordinary user, that user account\
   \ needs a paid license. Don't use this approach.\"\n\ntoken:\n  lifetime: 'approximately 60 minutes (default)'\n  refresh: handled by MSAL token cache; re-acquire per request via a DelegatingHandler\n  library: Microsoft Authentication Library (MSAL)\n  deprecated_library: ADAL — 'isn''t actively receiving updates and is supported only until June 2022'\n\nclient_handling:\n- client: Microsoft.PowerPlatform.Dataverse.Client ServiceClient\n  auth_library: MSAL\n  note: recommended; also handles 429 Retry-After automatically\n- client: Microsoft.Xrm.Tooling.Connector CrmServiceClient\n  auth_library: ADAL\n  note: legacy\n- client: PowerPlatform-Dataverse-Client (Python)\n  auth_library: azure-identity TokenCredential (InteractiveBrowserCredential, ClientSecretCredential, CertificateCredential, AzureCliCredential)\n\nimpersonation:\n  header: CallerObjectId\n  value: Microsoft Entra ID Object ID of the user to impersonate\n  requires: caller holds the impersonation privilege\n  docs: https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/impersonate-another-user-web-api\n\
   \nauthorization_note: >-\n  A valid token is necessary but not sufficient. Effective access is decided by the\n  Dataverse security model — security roles, table and column privileges, privilege depth.\n  See scopes/microsoft-dynamics-365-sales-scopes.yml.\n\nfailure_modes:\n  401:\n  - BadAuthTicket\n  - ExpiredAuthTicket\n  - InsufficientAuthTicket\n  - InvalidAuthTicket\n  - InvalidUserAuth\n  - RequestIsNotAuthenticated\n  - TamperedAuthTicket\n  403:\n  - AccessDenied\n  - PrivilegeDenied\n  - PrincipalPrivilegeDenied\n  - CannotActOnBehalfOfAnotherUser\n  see: errors/microsoft-dynamics-365-sales-problem-types.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/authentication/microsoft-dynamics-365-sales-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-dynamics-365-sales/authentication/microsoft-dynamics-365-sales-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - CRM

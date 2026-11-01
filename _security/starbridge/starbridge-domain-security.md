@@ -5,31 +5,31 @@ api_specs:
   label: Starbridge Bridges API
   slug: starbridge-bridges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/openapi/starbridge-bridges-api-openapi.yml
+  url: https://artifacts.apis.io/starbridge/openapi/starbridge-bridges-api-openapi.yml
 - filename: starbridge-buyer-api-openapi.yml
   format: yaml
   label: Starbridge Buyer API
   slug: starbridge-buyer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/openapi/starbridge-buyer-api-openapi.yml
+  url: https://artifacts.apis.io/starbridge/openapi/starbridge-buyer-api-openapi.yml
 - filename: starbridge-columns-api-openapi.yml
   format: yaml
   label: Starbridge Columns API
   slug: starbridge-columns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/openapi/starbridge-columns-api-openapi.yml
+  url: https://artifacts.apis.io/starbridge/openapi/starbridge-columns-api-openapi.yml
 - filename: starbridge-external-mcp-api-openapi.yml
   format: yaml
   label: Starbridge External MCP API
   slug: starbridge-external-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/openapi/starbridge-external-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/starbridge/openapi/starbridge-external-mcp-api-openapi.yml
 - filename: starbridge-signal-api-openapi.yml
   format: yaml
   label: Starbridge Signal API
   slug: starbridge-signal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/openapi/starbridge-signal-api-openapi.yml
+  url: https://artifacts.apis.io/starbridge/openapi/starbridge-signal-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: starbridge-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: starbridge.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 23:53:18 2026 GMT\n  hsts: false\n- host: hc.starbridge.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 09:13:06 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: dashboard.starbridge.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 22:37:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: starbridge.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/security/starbridge-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/starbridge/security/starbridge-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -30,7 +30,7 @@ source_filename: lydia-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: lydia-app.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 23:04:57 2026 GMT\n  hsts: false\ndomains:\n- domain: lydia-app.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lydia/refs/heads/main/security/lydia-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lydia/security/lydia-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

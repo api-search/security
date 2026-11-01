@@ -26,7 +26,7 @@ source_filename: time-door-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: timedoor.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 17:20:32 2026 GMT\n  hsts: false\ndomains:\n- domain: timedoor.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/time-door/refs/heads/main/security/time-door-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/time-door/security/time-door-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Machine Learning

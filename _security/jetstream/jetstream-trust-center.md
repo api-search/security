@@ -17,7 +17,7 @@ source_filename: jetstream-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nprobe: true\nsource: https://jetstream.security/trust-center/\nurl: https://jetstream.security/trust-center/\nstatus: in-progress\nstatus_note: 'As of the trust-center page, all named frameworks are being actively\n  pursued / in progress rather than achieved: SOC 2 Type I and Type II (with Coalfire\n  and A-LIGN), FedRAMP High, and DoD Impact Level 5 (IL5).'\ncertifications:\n- SOC 2\n- FedRAMP High\n- DoD IL5\nevidence:\n- source: https://jetstream.security/trust-center/\n  keywords:\n  - soc 2\n  - fedramp\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jetstream/refs/heads/main/security/jetstream-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/jetstream/security/jetstream-trust-center.yml
 summary_line: SOC 2, FedRAMP High, DoD IL5
 tags:
 - Company

@@ -7,25 +7,25 @@ api_specs:
   label: Lemma Artifacts API
   slug: uselemma-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/openapi/uselemma-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/uselemma/openapi/uselemma-artifacts-api-openapi.yml
 - filename: uselemma-issues-api-openapi.yml
   format: yaml
   label: Lemma Issues API
   slug: uselemma-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/openapi/uselemma-issues-api-openapi.yml
+  url: https://artifacts.apis.io/uselemma/openapi/uselemma-issues-api-openapi.yml
 - filename: uselemma-projects-api-openapi.yml
   format: yaml
   label: Lemma Projects API
   slug: uselemma-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/openapi/uselemma-projects-api-openapi.yml
+  url: https://artifacts.apis.io/uselemma/openapi/uselemma-projects-api-openapi.yml
 - filename: uselemma-traces-api-openapi.yml
   format: yaml
   label: Lemma Traces API
   slug: uselemma-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/openapi/uselemma-traces-api-openapi.yml
+  url: https://artifacts.apis.io/uselemma/openapi/uselemma-traces-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: uselemma-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/uselemma-platform-api-openapi-original.json\ndocs: https://docs.uselemma.ai/tracing/instrumentation/setup\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/uselemma-platform-api-openapi-original.json\n  notes: >-\n    The bearer token is a project API key with prefix lma_, created in Lemma\n    project settings (platform.uselemma.ai) and shown only once at creation.\n    SDK clients read it from LEMMA_API_KEY (with LEMMA_PROJECT_ID, prefix\n    proj_, selecting the project). The same key authenticates the Platform\n    API, trace ingest, and the remote MCP server at\n    https://api.uselemma.ai/mcp (Authorization: Bearer header). Missing\n    credentials return 401; the entire api.uselemma.ai host is authenticated.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/authentication/uselemma-authentication.yml
+source_yaml_url: https://artifacts.apis.io/uselemma/authentication/uselemma-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

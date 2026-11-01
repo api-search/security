@@ -39,7 +39,7 @@ source_filename: anvilogic-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-31'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.anvilogic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 02:45:13 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: public-docs.anvilogic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 10:50:17 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: secure.anvilogic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: anvilogic.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anvilogic/refs/heads/main/security/anvilogic-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/anvilogic/security/anvilogic-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

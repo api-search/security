@@ -5,67 +5,67 @@ api_specs:
   label: PaulieB14 Agent API
   slug: graphadvocate-com-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-agent-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-agent-api-openapi.yml
 - filename: graphadvocate-com-ask-api-openapi.yml
   format: yaml
   label: PaulieB14 Ask API
   slug: graphadvocate-com-ask-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-ask-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-ask-api-openapi.yml
 - filename: graphadvocate-com-hyperliquid-api-openapi.yml
   format: yaml
   label: PaulieB14 Hyperliquid API
   slug: graphadvocate-com-hyperliquid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-hyperliquid-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-hyperliquid-api-openapi.yml
 - filename: graphadvocate-com-kalshi-api-openapi.yml
   format: yaml
   label: PaulieB14 Kalshi API
   slug: graphadvocate-com-kalshi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-kalshi-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-kalshi-api-openapi.yml
 - filename: graphadvocate-com-kalshi-polymarket-api-openapi.yml
   format: yaml
   label: PaulieB14 Kalshi Polymarket API
   slug: graphadvocate-com-kalshi-polymarket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-kalshi-polymarket-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-kalshi-polymarket-api-openapi.yml
 - filename: graphadvocate-com-narrative-api-openapi.yml
   format: yaml
   label: PaulieB14 Narrative API
   slug: graphadvocate-com-narrative-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-narrative-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-narrative-api-openapi.yml
 - filename: graphadvocate-com-onchain-x402-api-openapi.yml
   format: yaml
   label: PaulieB14 Onchain X402 API
   slug: graphadvocate-com-onchain-x402-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-onchain-x402-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-onchain-x402-api-openapi.yml
 - filename: graphadvocate-com-polymarket-api-openapi.yml
   format: yaml
   label: PaulieB14 Polymarket API
   slug: graphadvocate-com-polymarket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-polymarket-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-polymarket-api-openapi.yml
 - filename: graphadvocate-com-predmarket-api-openapi.yml
   format: yaml
   label: PaulieB14 Predmarket API
   slug: graphadvocate-com-predmarket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-predmarket-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-predmarket-api-openapi.yml
 - filename: graphadvocate-com-route-api-openapi.yml
   format: yaml
   label: PaulieB14 Route API
   slug: graphadvocate-com-route-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-route-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-route-api-openapi.yml
 - filename: graphadvocate-com-uniswap-api-openapi.yml
   format: yaml
   label: PaulieB14 Uniswap API
   slug: graphadvocate-com-uniswap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-uniswap-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-uniswap-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -99,7 +99,7 @@ source_filename: graphadvocate-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: graphadvocate.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 29 22:50:58 2026 GMT\n  hsts: null\n- host: docs.graphadvocate.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 14:11:45 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: graphadvocate.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/security/graphadvocate-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/graphadvocate-com/security/graphadvocate-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Blockchain

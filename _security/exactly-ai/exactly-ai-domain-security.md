@@ -5,13 +5,13 @@ api_specs:
   label: Exactly Ai Images v1 API
   slug: exactly-ai-images-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/openapi/exactly-ai-images-v1-api-openapi.yml
+  url: https://artifacts.apis.io/exactly-ai/openapi/exactly-ai-images-v1-api-openapi.yml
 - filename: exactly-ai-models-v1-api-openapi.yml
   format: yaml
   label: Exactly Ai Models v1 API
   slug: exactly-ai-models-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/openapi/exactly-ai-models-v1-api-openapi.yml
+  url: https://artifacts.apis.io/exactly-ai/openapi/exactly-ai-models-v1-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +40,7 @@ source_filename: exactly-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.exactly.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 18:54:47 2026 GMT\n  hsts: null\ndomains:\n- domain: exactly.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/security/exactly-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/exactly-ai/security/exactly-ai-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

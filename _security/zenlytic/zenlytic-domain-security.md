@@ -5,7 +5,7 @@ api_specs:
   label: Zenlytic Embedding API
   slug: zenlytic-embedding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenlytic/refs/heads/main/openapi/zenlytic-embedding-api-openapi.yml
+  url: https://artifacts.apis.io/zenlytic/openapi/zenlytic-embedding-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -40,7 +40,7 @@ source_filename: zenlytic-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.zenlytic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 09:03:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: zenlytic.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issuewild \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zenlytic/refs/heads/main/security/zenlytic-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zenlytic/security/zenlytic-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -26,7 +26,7 @@ source_filename: reality-reflection-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: realityreflection.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 05:43:51 2026 GMT\n  hsts: false\ndomains:\n- domain: realityreflection.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reality-reflection/refs/heads/main/security/reality-reflection-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/reality-reflection/security/reality-reflection-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

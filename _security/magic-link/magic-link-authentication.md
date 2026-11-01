@@ -8,13 +8,13 @@ api_specs:
   label: Magic Client API
   slug: magic-link-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magic-link/refs/heads/main/openapi/magic-link-client-api-openapi.yml
+  url: https://artifacts.apis.io/magic-link/openapi/magic-link-client-api-openapi.yml
 - filename: magic-link-users-api-openapi.yml
   format: yaml
   label: Magic Users API
   slug: magic-link-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magic-link/refs/heads/main/openapi/magic-link-users-api-openapi.yml
+  url: https://artifacts.apis.io/magic-link/openapi/magic-link-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: magic-link-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/magic-link-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: SecretKey\n  type: apiKey\n  in: header\n  parameter: X-Magic-Secret-Key\n  description: Workspace secret API key from the Magic dashboard.\n  sources:\n  - openapi/magic-link-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/magic-link/refs/heads/main/authentication/magic-link-authentication.yml
+source_yaml_url: https://artifacts.apis.io/magic-link/authentication/magic-link-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Web3

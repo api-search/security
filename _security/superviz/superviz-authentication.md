@@ -8,37 +8,37 @@ api_specs:
   label: SuperViz Channels API
   slug: superviz-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-channels-api-openapi.yml
+  url: https://artifacts.apis.io/superviz/openapi/superviz-channels-api-openapi.yml
 - filename: superviz-comments-api-openapi.yml
   format: yaml
   label: SuperViz Comments API
   slug: superviz-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-comments-api-openapi.yml
+  url: https://artifacts.apis.io/superviz/openapi/superviz-comments-api-openapi.yml
 - filename: superviz-meetings-api-openapi.yml
   format: yaml
   label: SuperViz Meetings API
   slug: superviz-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/superviz/openapi/superviz-meetings-api-openapi.yml
 - filename: superviz-presence-api-openapi.yml
   format: yaml
   label: SuperViz Presence API
   slug: superviz-presence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-presence-api-openapi.yml
+  url: https://artifacts.apis.io/superviz/openapi/superviz-presence-api-openapi.yml
 - filename: superviz-realtime-api-openapi.yml
   format: yaml
   label: SuperViz Realtime API
   slug: superviz-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/superviz/openapi/superviz-realtime-api-openapi.yml
 - filename: superviz-rooms-api-openapi.yml
   format: yaml
   label: SuperViz Rooms API
   slug: superviz-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/superviz/openapi/superviz-rooms-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -73,7 +73,7 @@ source_filename: superviz-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/superviz-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: clientId\n  type: apiKey\n  in: header\n  parameter: client_id\n  description: Client ID issued from the SuperViz Dashboard under Developer > Keys. Sent on\n    every REST request alongside the `secret` header.\n  sources:\n  - openapi/superviz-openapi.yml\n- name: secret\n  type: apiKey\n  in: header\n  parameter: secret\n  description: Secret Key issued from the SuperViz Dashboard under Developer > Keys. Displayed\n    only once at creation; store it securely and never commit it to version control.\n  sources:\n  - openapi/superviz-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/authentication/superviz-authentication.yml
+source_yaml_url: https://artifacts.apis.io/superviz/authentication/superviz-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Real-Time

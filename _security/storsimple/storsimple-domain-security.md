@@ -27,7 +27,7 @@ source_filename: storsimple-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.storsimple.com\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''www.storsim'\n  hsts: null\ndomains:\n- domain: storsimple.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/storsimple/refs/heads/main/security/storsimple-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/storsimple/security/storsimple-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

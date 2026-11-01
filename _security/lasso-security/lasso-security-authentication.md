@@ -8,7 +8,7 @@ api_specs:
   label: Lasso Security Classify API
   slug: lasso-security-classify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lasso-security/refs/heads/main/openapi/lasso-security-classify-api-openapi.yml
+  url: https://artifacts.apis.io/lasso-security/openapi/lasso-security-classify-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: lasso-security-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/lasso-security-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: LassoApiKey\n  type: apiKey\n  in: header\n  parameter: lasso-api-key\n  description: Lasso API key issued from the Lasso dashboard (app.lasso.security).\n  sources:\n  - openapi/lasso-security-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lasso-security/refs/heads/main/authentication/lasso-security-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lasso-security/authentication/lasso-security-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence

@@ -8,37 +8,37 @@ api_specs:
   label: SmartMoving Customers API
   slug: smartmoving-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/openapi/smartmoving-customers-api-openapi.yml
+  url: https://artifacts.apis.io/smartmoving/openapi/smartmoving-customers-api-openapi.yml
 - filename: smartmoving-jobs-api-openapi.yml
   format: yaml
   label: SmartMoving Jobs API
   slug: smartmoving-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/openapi/smartmoving-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/smartmoving/openapi/smartmoving-jobs-api-openapi.yml
 - filename: smartmoving-lead-provider-api-openapi.yml
   format: yaml
   label: SmartMoving Lead Provider API
   slug: smartmoving-lead-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/openapi/smartmoving-lead-provider-api-openapi.yml
+  url: https://artifacts.apis.io/smartmoving/openapi/smartmoving-lead-provider-api-openapi.yml
 - filename: smartmoving-leads-api-openapi.yml
   format: yaml
   label: SmartMoving Leads API
   slug: smartmoving-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/openapi/smartmoving-leads-api-openapi.yml
+  url: https://artifacts.apis.io/smartmoving/openapi/smartmoving-leads-api-openapi.yml
 - filename: smartmoving-opportunities-api-openapi.yml
   format: yaml
   label: SmartMoving Opportunities API
   slug: smartmoving-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/openapi/smartmoving-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/smartmoving/openapi/smartmoving-opportunities-api-openapi.yml
 - filename: smartmoving-reference-data-api-openapi.yml
   format: yaml
   label: SmartMoving Reference Data API
   slug: smartmoving-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/openapi/smartmoving-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/smartmoving/openapi/smartmoving-reference-data-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,12 +66,12 @@ source_filename: smartmoving-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/smartmoving-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: Open API key issued at Settings > Integrations > SmartMoving API. The Azure API\n    Management gateway may additionally require an Ocp-Apim-Subscription-Key header.\n  sources:\n  - openapi/smartmoving-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/authentication/smartmoving-authentication.yml
+source_yaml_url: https://artifacts.apis.io/smartmoving/authentication/smartmoving-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Moving Software
 - CRM
-- Field Service
+- Field Service Management
 - Moving Company
 - Lead Management
 - Dispatch

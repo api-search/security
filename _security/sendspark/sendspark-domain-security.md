@@ -5,25 +5,25 @@ api_specs:
   label: Sendspark DVM Bundles API
   slug: sendspark-dvm-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/openapi/sendspark-dvm-bundles-api-openapi.yml
+  url: https://artifacts.apis.io/sendspark/openapi/sendspark-dvm-bundles-api-openapi.yml
 - filename: sendspark-dynamics-campaign-api-openapi.yml
   format: yaml
   label: Sendspark Dynamics Campaign API
   slug: sendspark-dynamics-campaign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/openapi/sendspark-dynamics-campaign-api-openapi.yml
+  url: https://artifacts.apis.io/sendspark/openapi/sendspark-dynamics-campaign-api-openapi.yml
 - filename: sendspark-webhook-api-openapi.yml
   format: yaml
   label: Sendspark Webhook API
   slug: sendspark-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/openapi/sendspark-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/sendspark/openapi/sendspark-webhook-api-openapi.yml
 - filename: sendspark-workspace-api-openapi.yml
   format: yaml
   label: Sendspark Workspace API
   slug: sendspark-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/openapi/sendspark-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/sendspark/openapi/sendspark-workspace-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -70,7 +70,7 @@ source_filename: sendspark-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sendspark.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 12:30:06 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: help.sendspark.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 01:35:27 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api-gw.sendspark.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 12:47:54 2026 GMT\n  hsts: null\ndomains:\n- domain: sendspark.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"amazontrust.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/security/sendspark-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sendspark/security/sendspark-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

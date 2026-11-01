@@ -8,31 +8,31 @@ api_specs:
   label: Rotten Tomatoes Detailed Info API
   slug: rottentomatoes-detailed-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rottentomatoes/refs/heads/main/openapi/rottentomatoes-detailed-info-api-openapi.yml
+  url: https://artifacts.apis.io/rottentomatoes/openapi/rottentomatoes-detailed-info-api-openapi.yml
 - filename: rottentomatoes-dvd-lists-api-openapi.yml
   format: yaml
   label: Rotten Tomatoes DVD Lists API
   slug: rottentomatoes-dvd-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rottentomatoes/refs/heads/main/openapi/rottentomatoes-dvd-lists-api-openapi.yml
+  url: https://artifacts.apis.io/rottentomatoes/openapi/rottentomatoes-dvd-lists-api-openapi.yml
 - filename: rottentomatoes-movie-lists-api-openapi.yml
   format: yaml
   label: Rotten Tomatoes Movie Lists API
   slug: rottentomatoes-movie-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rottentomatoes/refs/heads/main/openapi/rottentomatoes-movie-lists-api-openapi.yml
+  url: https://artifacts.apis.io/rottentomatoes/openapi/rottentomatoes-movie-lists-api-openapi.yml
 - filename: rottentomatoes-search-api-openapi.yml
   format: yaml
   label: Rotten Tomatoes Search API
   slug: rottentomatoes-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rottentomatoes/refs/heads/main/openapi/rottentomatoes-search-api-openapi.yml
+  url: https://artifacts.apis.io/rottentomatoes/openapi/rottentomatoes-search-api-openapi.yml
 - filename: rottentomatoes-top-level-lists-api-openapi.yml
   format: yaml
   label: Rotten Tomatoes Top Level Lists API
   slug: rottentomatoes-top-level-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rottentomatoes/refs/heads/main/openapi/rottentomatoes-top-level-lists-api-openapi.yml
+  url: https://artifacts.apis.io/rottentomatoes/openapi/rottentomatoes-top-level-lists-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -59,7 +59,7 @@ source_filename: rottentomatoes-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: key\n  type: apiKey\n  in: query\n  parameter: apikey\n  sources:\n  - openapi/openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rottentomatoes/refs/heads/main/authentication/rottentomatoes-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rottentomatoes/authentication/rottentomatoes-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Movies

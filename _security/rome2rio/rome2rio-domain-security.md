@@ -29,7 +29,7 @@ source_filename: rome2rio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.rome2rio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  5 23:59:59 2027 GMT\n  hsts: false\n- host: free.rome2rio.com\n  https: false\ndomains:\n- domain: rome2rio.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rome2rio/refs/heads/main/security/rome2rio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rome2rio/security/rome2rio-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Travel

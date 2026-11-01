@@ -5,13 +5,13 @@ api_specs:
   label: IDrive Reseller API
   slug: idrive-reseller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idrive/refs/heads/main/openapi/idrive-reseller-api-openapi.yml
+  url: https://artifacts.apis.io/idrive/openapi/idrive-reseller-api-openapi.yml
 - filename: idrive-subusers-api-openapi.yml
   format: yaml
   label: IDrive Subusers API
   slug: idrive-subusers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idrive/refs/heads/main/openapi/idrive-subusers-api-openapi.yml
+  url: https://artifacts.apis.io/idrive/openapi/idrive-subusers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: idrive-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.idrive.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  8 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 15768000\n- host: api.idrivee2.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 10 05:31:07 2027 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: idrive.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: idrivee2.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/idrive/refs/heads/main/security/idrive-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/idrive/security/idrive-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

@@ -8,25 +8,25 @@ api_specs:
   label: Cloudflare Queues Consumer API
   slug: cloudflare-queues-consumer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/openapi/cloudflare-queues-consumer-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-queues/openapi/cloudflare-queues-consumer-api-openapi.yml
 - filename: cloudflare-queues-messages-api-openapi.yml
   format: yaml
   label: Cloudflare Queues Messages API
   slug: cloudflare-queues-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/openapi/cloudflare-queues-messages-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-queues/openapi/cloudflare-queues-messages-api-openapi.yml
 - filename: cloudflare-queues-metrics-api-openapi.yml
   format: yaml
   label: Cloudflare Queues Metrics API
   slug: cloudflare-queues-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/openapi/cloudflare-queues-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-queues/openapi/cloudflare-queues-metrics-api-openapi.yml
 - filename: cloudflare-queues-queue-api-openapi.yml
   format: yaml
   label: Cloudflare Queues Queue API
   slug: cloudflare-queues-queue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/openapi/cloudflare-queues-queue-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-queues/openapi/cloudflare-queues-queue-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -68,7 +68,7 @@ source_filename: cloudflare-queues-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cloudflare-queues-cloudflare-queues-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: api_token\n  type: http\n  scheme: bearer\n  description: Cloudflare API Token (Bearer)\n  sources:\n  - openapi/cloudflare-queues-cloudflare-queues-api-openapi.yml\n- name: api_email\n  type: apiKey\n  in: header\n  parameter: X-Auth-Email\n  description: Cloudflare account email address\n  sources:\n  - openapi/cloudflare-queues-cloudflare-queues-api-openapi.yml\n- name: api_key\n  type: apiKey\n  in: header\n  parameter: X-Auth-Key\n  description: Cloudflare Global API Key\n  sources:\n  - openapi/cloudflare-queues-cloudflare-queues-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/authentication/cloudflare-queues-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cloudflare-queues/authentication/cloudflare-queues-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Messaging

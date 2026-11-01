@@ -26,7 +26,7 @@ source_filename: peerless-systems-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.peerless.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 20:44:10 2026 GMT\n  hsts: false\ndomains:\n- domain: peerless.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peerless-systems/refs/heads/main/security/peerless-systems-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/peerless-systems/security/peerless-systems-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

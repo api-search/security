@@ -7,19 +7,19 @@ api_specs:
   label: Kpler Aggregations API
   slug: kpler-aggregations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kpler/refs/heads/main/openapi/kpler-aggregations-api-openapi.yml
+  url: https://artifacts.apis.io/kpler/openapi/kpler-aggregations-api-openapi.yml
 - filename: kpler-authentication-api-openapi.yml
   format: yaml
   label: Kpler Authentication API
   slug: kpler-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kpler/refs/heads/main/openapi/kpler-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/kpler/openapi/kpler-authentication-api-openapi.yml
 - filename: kpler-facts-api-openapi.yml
   format: yaml
   label: Kpler Facts API
   slug: kpler-facts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kpler/refs/heads/main/openapi/kpler-facts-api-openapi.yml
+  url: https://artifacts.apis.io/kpler/openapi/kpler-facts-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: kpler-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/kpler-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: Encoded Kpler client credentials in the Authorization header.\n  sources:\n  - openapi/kpler-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Token obtained from the /login endpoint.\n  sources:\n  - openapi/kpler-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kpler/refs/heads/main/authentication/kpler-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kpler/authentication/kpler-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Vessel Tracking

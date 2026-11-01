@@ -28,7 +28,7 @@ source_filename: ctrip-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ctrip.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Apr 12 09:11:55 2027 GMT\n  hsts: true\n  hsts_max_age: 120\ndomains:\n- domain: ctrip.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ctrip/refs/heads/main/security/ctrip-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ctrip/security/ctrip-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company

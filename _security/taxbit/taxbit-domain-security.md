@@ -28,7 +28,7 @@ source_filename: taxbit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: taxbit.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 00:29:01 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: taxbit.com\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taxbit/refs/heads/main/security/taxbit-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/taxbit/security/taxbit-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

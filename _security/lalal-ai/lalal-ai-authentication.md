@@ -8,25 +8,25 @@ api_specs:
   label: LALAL.AI Batch Stem Separation API
   slug: lalal-ai-batch-stem-separation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/openapi/lalal-ai-batch-stem-separation-api-openapi.yml
+  url: https://artifacts.apis.io/lalal-ai/openapi/lalal-ai-batch-stem-separation-api-openapi.yml
 - filename: lalal-ai-common-api-openapi.yml
   format: yaml
   label: LALAL.AI Common API
   slug: lalal-ai-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/openapi/lalal-ai-common-api-openapi.yml
+  url: https://artifacts.apis.io/lalal-ai/openapi/lalal-ai-common-api-openapi.yml
 - filename: lalal-ai-stem-separation-api-openapi.yml
   format: yaml
   label: LALAL.AI Stem Separation API
   slug: lalal-ai-stem-separation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/openapi/lalal-ai-stem-separation-api-openapi.yml
+  url: https://artifacts.apis.io/lalal-ai/openapi/lalal-ai-stem-separation-api-openapi.yml
 - filename: lalal-ai-voice-change-api-openapi.yml
   format: yaml
   label: LALAL.AI Voice Change API
   slug: lalal-ai-voice-change-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/openapi/lalal-ai-voice-change-api-openapi.yml
+  url: https://artifacts.apis.io/lalal-ai/openapi/lalal-ai-voice-change-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/_origin
   \ the Pro plan or any minute top-up pack - no subscription required\". The free Starter\n    plan does not grant API access.\n  scoped: false\n  rotatable_via_api: false\n  expiring: false\n  prefix: none\n  test_counterpart: none\n  note: >-\n    One long-lived, unscoped credential per account, carrying the full surface — including the destructive\n    cancel_cancel_all and delete_delete operations and the billable split operations. There is no\n    read-only key, no per-integration key and no programmatic rotation. Treat it as a root credential:\n    server-side only, one per integration boundary you can afford to revoke by hand.\n\nobserved_behavior:\n  probed: '2026-08-13'\n  url: https://www.lalal.ai/api/v1/check/\n  missing_credential_status: 403\n  missing_credential_body: '{\"detail\": \"Provide license key in ''X-License-Key'' header\"}'\n  www_authenticate: absent\n  note: >-\n    A missing credential answers 403, not 401, and returns no WWW-Authenticate challenge. Client code\
   \ that\n    branches on 401 to trigger a re-auth path will never fire.\n  cors:\n    access_control_allow_origin: '*'\n    access_control_allow_headers: Authorization,Content-Disposition,Content-Type,Cache-Control,Keep-Alive,Origin\n    warning: >-\n      Wildcard CORS permits the license key to be sent from a browser. Do not ship it to a client — it is\n      an account credential with billing and delete authority.\n\noauth2:\n  supported: false\n  evidence:\n    - no oauth2 securityScheme in the OpenAPI document\n    - https://www.lalal.ai/.well-known/oauth-authorization-server returned HTTP 404 on 2026-08-13\n    - https://www.lalal.ai/.well-known/openid-configuration returned HTTP 404 on 2026-08-13\n  note: >-\n    No OAuth and no OIDC, so there is no scopes/ artifact for this provider — nothing to enumerate.\n\nsuperseded_scheme:\n  version: v0\n  header: 'Authorization: license <key>'\n  status: deprecated\n  docs: https://www.lalal.ai/api/help/\n  note: >-\n    API v0 used a different\
   \ header entirely. Migrating from v0 to v1 is an authentication change, not just\n    a path change.\n\ncross_references:\n  - conventions/lalal-ai-conventions.yml\n  - errors/lalal-ai-problem-types.yml\n  - sandbox/lalal-ai-sandbox.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/authentication/lalal-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lalal-ai/authentication/lalal-ai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence

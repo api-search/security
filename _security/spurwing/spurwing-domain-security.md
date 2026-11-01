@@ -5,19 +5,19 @@ api_specs:
   label: Spurwing Appointments API
   slug: spurwing-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spurwing/refs/heads/main/openapi/spurwing-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/spurwing/openapi/spurwing-appointments-api-openapi.yml
 - filename: spurwing-availability-api-openapi.yml
   format: yaml
   label: Spurwing Availability API
   slug: spurwing-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spurwing/refs/heads/main/openapi/spurwing-availability-api-openapi.yml
+  url: https://artifacts.apis.io/spurwing/openapi/spurwing-availability-api-openapi.yml
 - filename: spurwing-services-api-openapi.yml
   format: yaml
   label: Spurwing Services API
   slug: spurwing-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spurwing/refs/heads/main/openapi/spurwing-services-api-openapi.yml
+  url: https://artifacts.apis.io/spurwing/openapi/spurwing-services-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -49,7 +49,7 @@ source_filename: spurwing-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.spurwing.io\n  https: false\n- host: docs.spurwing.io\n  https: false\n- host: api.spurwing.io\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has\n    expired (_ssl.c:1082)'\n  hsts: null\ndomains:\n- domain: spurwing.io\n  dnssec: false\n  caa:\n  - ;; connection timed out; no servers could be reached\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spurwing/refs/heads/main/security/spurwing-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/spurwing/security/spurwing-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Scheduling

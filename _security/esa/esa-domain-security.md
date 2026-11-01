@@ -5,49 +5,49 @@ api_specs:
   label: European Space Agency (ESA) Bulk Transaction Extension API
   slug: esa-bulk-transaction-extension-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/openapi/esa-bulk-transaction-extension-api-openapi.yml
+  url: https://artifacts.apis.io/esa/openapi/esa-bulk-transaction-extension-api-openapi.yml
 - filename: esa-collections-api-openapi.yml
   format: yaml
   label: European Space Agency (ESA) Collections API
   slug: esa-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/openapi/esa-collections-api-openapi.yml
+  url: https://artifacts.apis.io/esa/openapi/esa-collections-api-openapi.yml
 - filename: esa-conformance-api-openapi.yml
   format: yaml
   label: European Space Agency (ESA) Conformance API
   slug: esa-conformance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/openapi/esa-conformance-api-openapi.yml
+  url: https://artifacts.apis.io/esa/openapi/esa-conformance-api-openapi.yml
 - filename: esa-copernicus-data-space-ecosystem-cdse-asset-level-stac-catalogue-api-openapi.yml
   format: yaml
   label: European Space Agency (ESA) Copernicus Data Space Ecosystem (CDSE) Asset Level STAC Catalogue API
   slug: esa-copernicus-data-space-ecosystem-cdse-asset-level-stac-catalogue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/openapi/esa-copernicus-data-space-ecosystem-cdse-asset-level-stac-catalogue-api-openapi.yml
+  url: https://artifacts.apis.io/esa/openapi/esa-copernicus-data-space-ecosystem-cdse-asset-level-stac-catalogue-api-openapi.yml
 - filename: esa-filter-extension-api-openapi.yml
   format: yaml
   label: European Space Agency (ESA) Filter Extension API
   slug: esa-filter-extension-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/openapi/esa-filter-extension-api-openapi.yml
+  url: https://artifacts.apis.io/esa/openapi/esa-filter-extension-api-openapi.yml
 - filename: esa-liveliness-readiness-api-openapi.yml
   format: yaml
   label: European Space Agency (ESA) Liveliness/Readiness API
   slug: esa-liveliness-readiness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/openapi/esa-liveliness-readiness-api-openapi.yml
+  url: https://artifacts.apis.io/esa/openapi/esa-liveliness-readiness-api-openapi.yml
 - filename: esa-search-api-openapi.yml
   format: yaml
   label: European Space Agency (ESA) Search API
   slug: esa-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/openapi/esa-search-api-openapi.yml
+  url: https://artifacts.apis.io/esa/openapi/esa-search-api-openapi.yml
 - filename: esa-transaction-extension-api-openapi.yml
   format: yaml
   label: European Space Agency (ESA) Transaction Extension API
   slug: esa-transaction-extension-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/openapi/esa-transaction-extension-api-openapi.yml
+  url: https://artifacts.apis.io/esa/openapi/esa-transaction-extension-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -93,7 +93,7 @@ source_filename: esa-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.esa.int\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  3 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15552001\n- host: documentation.dataspace.copernicus.eu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  9 23:59:59 2027 GMT\n  hsts: false\n- host: catalogue.dataspace.copernicus.eu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  9 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: esa.int\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: copernicus.eu\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/security/esa-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/esa/security/esa-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Earth Observation

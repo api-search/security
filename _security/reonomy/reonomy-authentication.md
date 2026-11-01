@@ -7,13 +7,13 @@ api_specs:
   label: Reonomy Property API
   slug: reonomy-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reonomy/refs/heads/main/openapi/reonomy-property-api-openapi.yml
+  url: https://artifacts.apis.io/reonomy/openapi/reonomy-property-api-openapi.yml
 - filename: reonomy-search-api-openapi.yml
   format: yaml
   label: Reonomy Search API
   slug: reonomy-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reonomy/refs/heads/main/openapi/reonomy-search-api-openapi.yml
+  url: https://artifacts.apis.io/reonomy/openapi/reonomy-search-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: reonomy-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/reonomy-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic Authentication. The Authorization header carries a base64-encoded\n    access_key:secret_key access token issued by Reonomy.\n  sources:\n  - openapi/reonomy-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reonomy/refs/heads/main/authentication/reonomy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/reonomy/authentication/reonomy-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Commercial Real Estate

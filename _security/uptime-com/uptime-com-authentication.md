@@ -8,43 +8,43 @@ api_specs:
   label: Uptime.com Checks API
   slug: uptime-com-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-checks-api-openapi.yml
+  url: https://artifacts.apis.io/uptime-com/openapi/uptime-com-checks-api-openapi.yml
 - filename: uptime-com-contacts-api-openapi.yml
   format: yaml
   label: Uptime.com Contacts API
   slug: uptime-com-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/uptime-com/openapi/uptime-com-contacts-api-openapi.yml
 - filename: uptime-com-integrations-api-openapi.yml
   format: yaml
   label: Uptime.com Integrations API
   slug: uptime-com-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/uptime-com/openapi/uptime-com-integrations-api-openapi.yml
 - filename: uptime-com-outages-api-openapi.yml
   format: yaml
   label: Uptime.com Outages API
   slug: uptime-com-outages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-outages-api-openapi.yml
+  url: https://artifacts.apis.io/uptime-com/openapi/uptime-com-outages-api-openapi.yml
 - filename: uptime-com-sla-reports-api-openapi.yml
   format: yaml
   label: Uptime.com SLA Reports API
   slug: uptime-com-sla-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-sla-reports-api-openapi.yml
+  url: https://artifacts.apis.io/uptime-com/openapi/uptime-com-sla-reports-api-openapi.yml
 - filename: uptime-com-status-pages-api-openapi.yml
   format: yaml
   label: Uptime.com Status Pages API
   slug: uptime-com-status-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-status-pages-api-openapi.yml
+  url: https://artifacts.apis.io/uptime-com/openapi/uptime-com-status-pages-api-openapi.yml
 - filename: uptime-com-tags-api-openapi.yml
   format: yaml
   label: Uptime.com Tags API
   slug: uptime-com-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-tags-api-openapi.yml
+  url: https://artifacts.apis.io/uptime-com/openapi/uptime-com-tags-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -72,7 +72,7 @@ source_filename: uptime-com-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/uptime-com-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: tokenAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'API token authentication. Pass the header as `Authorization: Token your_api_token`.\n    Tokens are generated from Settings > API in the Uptime.com app and require a paid account.'\n  sources:\n  - openapi/uptime-com-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/authentication/uptime-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/uptime-com/authentication/uptime-com-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Monitoring

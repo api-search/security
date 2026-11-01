@@ -7,19 +7,19 @@ api_specs:
   label: Carbone Render API
   slug: carbone-render-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbone/refs/heads/main/openapi/carbone-render-api-openapi.yml
+  url: https://artifacts.apis.io/carbone/openapi/carbone-render-api-openapi.yml
 - filename: carbone-status-api-openapi.yml
   format: yaml
   label: Carbone Status API
   slug: carbone-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbone/refs/heads/main/openapi/carbone-status-api-openapi.yml
+  url: https://artifacts.apis.io/carbone/openapi/carbone-status-api-openapi.yml
 - filename: carbone-template-api-openapi.yml
   format: yaml
   label: Carbone Template API
   slug: carbone-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbone/refs/heads/main/openapi/carbone-template-api-openapi.yml
+  url: https://artifacts.apis.io/carbone/openapi/carbone-template-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: carbone-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/carbone-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Carbone Cloud API token\n  sources:\n  - openapi/carbone-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carbone/refs/heads/main/authentication/carbone-authentication.yml
+source_yaml_url: https://artifacts.apis.io/carbone/authentication/carbone-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Document Generation

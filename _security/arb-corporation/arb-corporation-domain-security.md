@@ -28,7 +28,7 @@ source_filename: arb-corporation-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: arb.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 15 08:35:50 2027 GMT\n  hsts: true\n  hsts_max_age: 31557600\ndomains:\n- domain: arb.com.au\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arb-corporation/refs/heads/main/security/arb-corporation-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/arb-corporation/security/arb-corporation-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

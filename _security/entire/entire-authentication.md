@@ -42,15 +42,14 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://github.com/entireio/cli + https://docs.entire.io/ (Security and privacy)\nnote: >-\n  Entire exposes no public REST API, so this profile is derived from the platform's\n  documented CLI/client authentication rather than from an OpenAPI securityScheme.\nsummary:\n  types: [oauth2-device, bearer-token]\n  api_key_in: []\n  oauth2_flows: [deviceAuthorization]\nschemes:\n- name: EntireDeviceAuth\n  type: oauth2\n  flow: deviceAuthorization\n  command: entire login\n  description: >-\n    The Entire CLI authenticates with the platform via a device authorization flow\n    (`entire login`), which mints a token used for subsequent Checkpoint/session sync.\n  sources: [https://github.com/entireio/cli]\n- name: EntireToken\n  type: http\n  scheme: bearer\n  token_env: ENTIRE_TOKEN\n  token_storage: [os-keyring, file-backed store, environment variable]\n  description: >-\n    Access token issued by device auth. Stored in the OS\
   \ keyring by default, with\n    file-backed and ENTIRE_TOKEN environment-variable fallbacks for CI/headless use.\n  sources: [https://github.com/entireio/cli]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/entire/refs/heads/main/authentication/entire-authentication.yml
+source_yaml_url: https://artifacts.apis.io/entire/authentication/entire-authentication.yml
 summary_line: oauth2-device/bearer-token · 2 schemes
 tags:
 - Company
 - Developer Tools
 - Developer Platform
-- Git
-- Git Hosting
 - Version Control
+- Git Hosting
 - AI Agents
 - Agent Infrastructure
 - CLI

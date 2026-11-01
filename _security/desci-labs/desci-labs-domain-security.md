@@ -5,19 +5,19 @@ api_specs:
   label: DeSci Labs Data API
   slug: desci-labs-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/desci-labs/refs/heads/main/openapi/desci-labs-data-api-openapi.yml
+  url: https://artifacts.apis.io/desci-labs/openapi/desci-labs-data-api-openapi.yml
 - filename: desci-labs-query-api-openapi.yml
   format: yaml
   label: DeSci Labs Query API
   slug: desci-labs-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/desci-labs/refs/heads/main/openapi/desci-labs-query-api-openapi.yml
+  url: https://artifacts.apis.io/desci-labs/openapi/desci-labs-query-api-openapi.yml
 - filename: desci-labs-resolve-api-openapi.yml
   format: yaml
   label: DeSci Labs Resolve API
   slug: desci-labs-resolve-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/desci-labs/refs/heads/main/openapi/desci-labs-resolve-api-openapi.yml
+  url: https://artifacts.apis.io/desci-labs/openapi/desci-labs-resolve-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,7 +50,7 @@ source_filename: desci-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: beta.dpid.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 16:32:53 2026 GMT\n  hsts: null\n- host: dev-beta.dpid.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 01:59:17 2026 GMT\n  hsts: null\ndomains:\n- domain: dpid.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/desci-labs/refs/heads/main/security/desci-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/desci-labs/security/desci-labs-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

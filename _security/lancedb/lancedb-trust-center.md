@@ -5,25 +5,25 @@ api_specs:
   label: LanceDB MaterializedView API
   slug: lancedb-materializedview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/openapi/lancedb-materializedview-api-openapi.yml
+  url: https://artifacts.apis.io/lancedb/openapi/lancedb-materializedview-api-openapi.yml
 - filename: lancedb-namespace-api-openapi.yml
   format: yaml
   label: LanceDB Namespace API
   slug: lancedb-namespace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/openapi/lancedb-namespace-api-openapi.yml
+  url: https://artifacts.apis.io/lancedb/openapi/lancedb-namespace-api-openapi.yml
 - filename: lancedb-table-api-openapi.yml
   format: yaml
   label: LanceDB Table API
   slug: lancedb-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/openapi/lancedb-table-api-openapi.yml
+  url: https://artifacts.apis.io/lancedb/openapi/lancedb-table-api-openapi.yml
 - filename: lancedb-transaction-api-openapi.yml
   format: yaml
   label: LanceDB Transaction API
   slug: lancedb-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/openapi/lancedb-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/lancedb/openapi/lancedb-transaction-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -42,10 +42,10 @@ source_filename: lancedb-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.lancedb.com/\nurl: https://trust.lancedb.com/\ncertifications:\n- SOC 2\n- HIPAA\n- GDPR\nevidence:\n- source: https://trust.lancedb.com/\n  keywords:\n  - soc 2\n  - hipaa\n  - trust center\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/security/lancedb-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/lancedb/security/lancedb-trust-center.yml
 summary_line: SOC 2, HIPAA, GDPR
 tags:
-- Vector Database
+- Vector Search
 - Multi-Modal
 - Lance Format
 - Lakehouse
@@ -58,6 +58,5 @@ tags:
 - Columnar Storage
 - Arrow
 - AI Infrastructure
-- Vector Search
 trust_url: https://trust.lancedb.com/
 ---

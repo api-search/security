@@ -5,31 +5,31 @@ api_specs:
   label: CentML Clusters API
   slug: centml-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/openapi/centml-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/centml/openapi/centml-clusters-api-openapi.yml
 - filename: centml-completions-api-openapi.yml
   format: yaml
   label: CentML Completions API
   slug: centml-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/openapi/centml-completions-api-openapi.yml
+  url: https://artifacts.apis.io/centml/openapi/centml-completions-api-openapi.yml
 - filename: centml-deployments-api-openapi.yml
   format: yaml
   label: CentML Deployments API
   slug: centml-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/openapi/centml-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/centml/openapi/centml-deployments-api-openapi.yml
 - filename: centml-models-api-openapi.yml
   format: yaml
   label: CentML Models API
   slug: centml-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/openapi/centml-models-api-openapi.yml
+  url: https://artifacts.apis.io/centml/openapi/centml-models-api-openapi.yml
 - filename: centml-chat-completions-api-openapi.yml
   format: yaml
   label: CentML Chat Completions API
   slug: centml-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/openapi/centml-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/centml/openapi/centml-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: centml-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: centml.ai\n  https: false\n- host: docs.centml.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 21:40:01 2026 GMT\n  hsts: false\n- host: api.centml.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 00:55:09 2026 GMT\n  hsts: null\ndomains:\n- domain: centml.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: centml.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/security/centml-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/centml/security/centml-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Artificial Intelligence

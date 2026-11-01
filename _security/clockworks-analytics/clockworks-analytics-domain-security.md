@@ -44,7 +44,7 @@ source_filename: clockworks-analytics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: clockworksanalytics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 17:02:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: cw.clockworksanalytics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 14 19:07:32 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: rest.buildingsapi.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 21 12:06:32 2026 GMT\n  hsts: null\ndomains:\n- domain: clockworksanalytics.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: buildingsapi.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clockworks-analytics/refs/heads/main/security/clockworks-analytics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/clockworks-analytics/security/clockworks-analytics-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

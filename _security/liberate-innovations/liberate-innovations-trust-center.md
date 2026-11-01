@@ -5,13 +5,13 @@ api_specs:
   label: Liberate Innovations Events API
   slug: liberate-innovations-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liberate-innovations/refs/heads/main/openapi/liberate-innovations-events-api-openapi.yml
+  url: https://artifacts.apis.io/liberate-innovations/openapi/liberate-innovations-events-api-openapi.yml
 - filename: liberate-innovations-workflows-api-openapi.yml
   format: yaml
   label: Liberate Innovations Workflows API
   slug: liberate-innovations-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liberate-innovations/refs/heads/main/openapi/liberate-innovations-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/liberate-innovations/openapi/liberate-innovations-workflows-api-openapi.yml
 certification_count: 7
 certifications:
 - SOC 2
@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://www.lib
   \ 2\n    claimed: true\n    type: not specified (Type I vs Type II not stated publicly)\n    evidence: >-\n      \"Liberate provides enterprise-grade security with certifications in HIPAA, SOC 2, PCI, and\n      GDPR\" and \"Our SOC2 certification verifies our strong security measures.\"\n  - name: HIPAA\n    claimed: true\n    evidence: Named in the certifications list on the security page.\n  - name: PCI DSS\n    claimed: true\n    evidence: \"SOC2, CCPA, HIPAA, and PCI DSS certifications give you peace of mind.\"\n  - name: GDPR\n    claimed: true\n    type: regulatory compliance (not a certification)\n    evidence: Named in the certifications list on the security page.\n  - name: CCPA\n    claimed: true\n    type: regulatory compliance (not a certification)\n    evidence: >-\n      Named in the certifications list; a dedicated CCPA notice is published at\n      https://signup.liberateinc.com/ccpa\n  - name: ISO 27001\n    claimed: false\n  - name: FedRAMP\n    claimed: false\n\ncontrols_published:\n\
   \  - name: Role and attribute-based access control\n    detail: >-\n      Role-based access controls restrict data access to authorized users; role and attribute-based\n      permissions allow customization within a single role.\n  - name: Project-based permissions\n    detail: Teams can be granted access to specific information within a shared project.\n  - name: Encryption in transit and at rest\n    detail: >-\n      All data, including third-party sourced data, is encrypted. Integration credentials are\n      encrypted both in transit and at rest.\n  - name: Single-tenant data isolation\n    detail: >-\n      \"Unlike typical multi-tenant systems, Liberate never mixes your data with that of other\n      customers.\" Each organization is given its own instance.\n  - name: Audit logging\n    detail: >-\n      Amazon CloudTrail logs and tracks account activity across the AWS infrastructure, providing\n      change attribution and the ability to revert to previous versions.\n  - name:\
   \ Penetration testing\n    detail: Liberate states it regularly conducts penetration tests.\n  - name: Single sign-on\n    detail: SAML SSO brokered through Amazon Cognito. See authentication/liberate-innovations-authentication.yml.\n  - name: Backups\n    detail: Named among data security practices on the security FAQ.\n\ninfrastructure:\n  cloud: AWS\n  region_evidence: >-\n    us-west-2 appears in the documented Cognito ACS URL format\n    (https://<tenant>.auth.us-west-2.amazoncognito.com/saml2/idpresponse).\n  evidence_url: https://docs.liberateinc.com/docs/google-workspace\n\nprivacy:\n  privacy_policy: https://www.liberateinc.com/legal/privacy-policy\n  privacy_policy_effective: '2024-10-15'\n  terms_of_service: https://www.liberateinc.com/legal/terms-of-service\n  ccpa_notice: https://signup.liberateinc.com/ccpa\n  legal_entity: Liberate Innovations, Inc.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liberate-innovations/refs/heads/main/security/liberate-innovations-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/liberate-innovations/security/liberate-innovations-trust-center.yml
 summary_line: SOC 2, HIPAA, PCI DSS, GDPR, CCPA, ISO 27001, FedRAMP
 tags:
 - Company

@@ -7,7 +7,7 @@ api_specs:
   label: Conveyor Single Question API
   slug: conveyor-single-question-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conveyor/refs/heads/main/openapi/conveyor-single-question-api-openapi.yml
+  url: https://artifacts.apis.io/conveyor/openapi/conveyor-single-question-api-openapi.yml
 auth_types: []
 description: Conveyor authentication methods as documented
 kind: authentication
@@ -38,7 +38,7 @@ source_heading: Authentication Profile
 source_url: https://docs.conveyor.com/docs/passwordless-authentication.md
 source_yaml: "generated: '2026-10-11'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://docs.conveyor.com/docs/passwordless-authentication.md\nsources:\n- https://docs.conveyor.com/docs/passwordless-authentication.md\n- https://docs.conveyor.com/docs/setting-up-the-salesforce-oauth-integration.md\n- https://docs.conveyor.com/docs/bring-your-own-auth.md\n- https://docs.conveyor.com/reference/api-token.md\ndescription: Conveyor authentication methods as documented\nschemes:\n- type: apiKey\n  name: Conveyor API Key\n  evidence: This token authenticates to the Conveyor API. To successfully authenticate, you must include this token in the headers of your request.\n  location: header\n  how_to_obtain: Generate an API token via the Conveyor UI under Settings → Integrations → Add Integration → Conveyor API.\n- type: jwt\n  name: Bring‑Your‑Own‑Auth JWT\n  evidence: To enable BYOAuth, your application will send Conveyor a **signed JSON Web Token (JWT)** containing\
   \ the user’s information.\n  location: query\n  how_to_obtain: Generate a signed JWT using a private key and include it as the `jwt` query parameter in the login URL.\nnote: No OAuth flows, passwordless passcode, or other authentication schemes provide sufficient details for header/query names or URLs, so they\n  are omitted.\ndocs: https://docs.conveyor.com/docs/passwordless-authentication.md\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/conveyor/refs/heads/main/authentication/conveyor-authentication.yml
+source_yaml_url: https://artifacts.apis.io/conveyor/authentication/conveyor-authentication.yml
 summary_line: 2 schemes
 tags:
 - Artificial Intelligence

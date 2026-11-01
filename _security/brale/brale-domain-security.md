@@ -5,37 +5,43 @@ api_specs:
   label: Brale Accounts API
   slug: brale-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/openapi/brale-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/brale/openapi/brale-accounts-api-openapi.yml
 - filename: brale-addresses-api-openapi.yml
   format: yaml
   label: Brale Addresses API
   slug: brale-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/openapi/brale-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/brale/openapi/brale-addresses-api-openapi.yml
 - filename: brale-automations-api-openapi.yml
   format: yaml
   label: Brale Automations API
   slug: brale-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/openapi/brale-automations-api-openapi.yml
+  url: https://artifacts.apis.io/brale/openapi/brale-automations-api-openapi.yml
 - filename: brale-financial-institutions-api-openapi.yml
   format: yaml
   label: Brale Financial Institutions API
   slug: brale-financial-institutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/openapi/brale-financial-institutions-api-openapi.yml
+  url: https://artifacts.apis.io/brale/openapi/brale-financial-institutions-api-openapi.yml
 - filename: brale-orders-api-openapi.yml
   format: yaml
   label: Brale Orders API
   slug: brale-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/openapi/brale-orders-api-openapi.yml
-- filename: brale-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/brale/openapi/brale-orders-api-openapi.yml
+- filename: brale-plaid-api-openapi.yml
   format: yaml
-  label: Brale Webhooks API
-  slug: brale-webhooks-api
+  label: Brale Plaid API
+  slug: brale-plaid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/openapi/brale-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/brale/openapi/brale-plaid-api-openapi.yml
+- filename: brale-transfers-api-openapi.yml
+  format: yaml
+  label: Brale Transfers API
+  slug: brale-transfers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/brale/openapi/brale-transfers-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -76,7 +82,7 @@ source_filename: brale-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.brale.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 02:28:21 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.brale.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 04:52:00 2026 GMT\n  hsts: null\ndomains:\n- domain: brale.xyz\n  dnssec: true\n  caa:\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/security/brale-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/brale/security/brale-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

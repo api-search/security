@@ -8,7 +8,7 @@ api_specs:
   label: Arize AI Traces API
   slug: arize-ai-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arize-ai/refs/heads/main/openapi/arize-ai-traces-api-openapi.yml
+  url: https://artifacts.apis.io/arize-ai/openapi/arize-ai-traces-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -43,7 +43,7 @@ source_filename: arize-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/arize-ai-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ArizeApiKey\n  type: apiKey\n  in: header\n  parameter: api_key\n  description: Arize AX API Key (paired with space_id header).\n  sources:\n  - openapi/arize-ai-openapi.yml\n- name: ArizeSpaceId\n  type: apiKey\n  in: header\n  parameter: space_id\n  description: Arize AX Space ID.\n  sources:\n  - openapi/arize-ai-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arize-ai/refs/heads/main/authentication/arize-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/arize-ai/authentication/arize-ai-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - LLM Observability

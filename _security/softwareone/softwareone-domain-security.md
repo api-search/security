@@ -5,31 +5,31 @@ api_specs:
   label: SoftwareOne Items API
   slug: softwareone-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/softwareone/refs/heads/main/openapi/softwareone-items-api-openapi.yml
+  url: https://artifacts.apis.io/softwareone/openapi/softwareone-items-api-openapi.yml
 - filename: softwareone-listings-api-openapi.yml
   format: yaml
   label: SoftwareOne Listings API
   slug: softwareone-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/softwareone/refs/heads/main/openapi/softwareone-listings-api-openapi.yml
+  url: https://artifacts.apis.io/softwareone/openapi/softwareone-listings-api-openapi.yml
 - filename: softwareone-media-api-openapi.yml
   format: yaml
   label: SoftwareOne Media API
   slug: softwareone-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/softwareone/refs/heads/main/openapi/softwareone-media-api-openapi.yml
+  url: https://artifacts.apis.io/softwareone/openapi/softwareone-media-api-openapi.yml
 - filename: softwareone-parameters-api-openapi.yml
   format: yaml
   label: SoftwareOne Parameters API
   slug: softwareone-parameters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/softwareone/refs/heads/main/openapi/softwareone-parameters-api-openapi.yml
+  url: https://artifacts.apis.io/softwareone/openapi/softwareone-parameters-api-openapi.yml
 - filename: softwareone-products-api-openapi.yml
   format: yaml
   label: SoftwareOne Products API
   slug: softwareone-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/softwareone/refs/heads/main/openapi/softwareone-products-api-openapi.yml
+  url: https://artifacts.apis.io/softwareone/openapi/softwareone-products-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: softwareone-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.softwareone.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 13 18:29:56 2026 GMT\n  hsts: null\n- host: docs.platform.softwareone.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 08:58:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.platform.softwareone.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 30 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: softwareone.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/softwareone/refs/heads/main/security/softwareone-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/softwareone/security/softwareone-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Marketplace

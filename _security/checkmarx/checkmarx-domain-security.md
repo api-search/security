@@ -5,91 +5,91 @@ api_specs:
   label: Checkmarx Applications API
   slug: checkmarx-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-applications-api-openapi.yml
+  url: https://artifacts.apis.io/checkmarx/openapi/checkmarx-applications-api-openapi.yml
 - filename: checkmarx-authentication-api-openapi.yml
   format: yaml
   label: Checkmarx Authentication API
   slug: checkmarx-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/checkmarx/openapi/checkmarx-authentication-api-openapi.yml
 - filename: checkmarx-configuration-api-openapi.yml
   format: yaml
   label: Checkmarx Configuration API
   slug: checkmarx-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/checkmarx/openapi/checkmarx-configuration-api-openapi.yml
 - filename: checkmarx-engines-api-openapi.yml
   format: yaml
   label: Checkmarx Engines API
   slug: checkmarx-engines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-engines-api-openapi.yml
+  url: https://artifacts.apis.io/checkmarx/openapi/checkmarx-engines-api-openapi.yml
 - filename: checkmarx-groups-api-openapi.yml
   format: yaml
   label: Checkmarx Groups API
   slug: checkmarx-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-groups-api-openapi.yml
+  url: https://artifacts.apis.io/checkmarx/openapi/checkmarx-groups-api-openapi.yml
 - filename: checkmarx-packages-api-openapi.yml
   format: yaml
   label: Checkmarx Packages API
   slug: checkmarx-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-packages-api-openapi.yml
+  url: https://artifacts.apis.io/checkmarx/openapi/checkmarx-packages-api-openapi.yml
 - filename: checkmarx-presets-api-openapi.yml
   format: yaml
   label: Checkmarx Presets API
   slug: checkmarx-presets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-presets-api-openapi.yml
+  url: https://artifacts.apis.io/checkmarx/openapi/checkmarx-presets-api-openapi.yml
 - filename: checkmarx-projects-api-openapi.yml
   format: yaml
   label: Checkmarx Projects API
   slug: checkmarx-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-projects-api-openapi.yml
+  url: https://artifacts.apis.io/checkmarx/openapi/checkmarx-projects-api-openapi.yml
 - filename: checkmarx-queries-api-openapi.yml
   format: yaml
   label: Checkmarx Queries API
   slug: checkmarx-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-queries-api-openapi.yml
+  url: https://artifacts.apis.io/checkmarx/openapi/checkmarx-queries-api-openapi.yml
 - filename: checkmarx-reports-api-openapi.yml
   format: yaml
   label: Checkmarx Reports API
   slug: checkmarx-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-reports-api-openapi.yml
+  url: https://artifacts.apis.io/checkmarx/openapi/checkmarx-reports-api-openapi.yml
 - filename: checkmarx-results-api-openapi.yml
   format: yaml
   label: Checkmarx Results API
   slug: checkmarx-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-results-api-openapi.yml
+  url: https://artifacts.apis.io/checkmarx/openapi/checkmarx-results-api-openapi.yml
 - filename: checkmarx-risk-reports-api-openapi.yml
   format: yaml
   label: Checkmarx Risk Reports API
   slug: checkmarx-risk-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-risk-reports-api-openapi.yml
+  url: https://artifacts.apis.io/checkmarx/openapi/checkmarx-risk-reports-api-openapi.yml
 - filename: checkmarx-scans-api-openapi.yml
   format: yaml
   label: Checkmarx Scans API
   slug: checkmarx-scans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-scans-api-openapi.yml
+  url: https://artifacts.apis.io/checkmarx/openapi/checkmarx-scans-api-openapi.yml
 - filename: checkmarx-settings-api-openapi.yml
   format: yaml
   label: Checkmarx Settings API
   slug: checkmarx-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-settings-api-openapi.yml
+  url: https://artifacts.apis.io/checkmarx/openapi/checkmarx-settings-api-openapi.yml
 - filename: checkmarx-teams-api-openapi.yml
   format: yaml
   label: Checkmarx Teams API
   slug: checkmarx-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-teams-api-openapi.yml
+  url: https://artifacts.apis.io/checkmarx/openapi/checkmarx-teams-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -130,7 +130,7 @@ source_filename: checkmarx-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.checkmarx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 17:36:46 2026 GMT\n  hsts: false\n- host: checkmarx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 12:59:16 2026 GMT\n  hsts: false\n- host: your-checkmarx-instance.com\n  https: false\ndomains:\n- domain: checkmarx.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: your-checkmarx-instance.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/security/checkmarx-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/checkmarx/security/checkmarx-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Application Security

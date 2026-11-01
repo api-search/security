@@ -26,7 +26,7 @@ source_filename: fakejson-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: fakejson.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 10:45:27 2026 GMT\n  hsts: null\ndomains:\n- domain: fakejson.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fakejson/refs/heads/main/security/fakejson-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fakejson/security/fakejson-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Test Data

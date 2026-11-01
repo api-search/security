@@ -7,37 +7,37 @@ api_specs:
   label: Sequence Billing Schedules API
   slug: sequence-hq-billing-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/openapi/sequence-hq-billing-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/sequence-hq/openapi/sequence-hq-billing-schedules-api-openapi.yml
 - filename: sequence-hq-customers-api-openapi.yml
   format: yaml
   label: Sequence Customers API
   slug: sequence-hq-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/openapi/sequence-hq-customers-api-openapi.yml
+  url: https://artifacts.apis.io/sequence-hq/openapi/sequence-hq-customers-api-openapi.yml
 - filename: sequence-hq-invoices-api-openapi.yml
   format: yaml
   label: Sequence Invoices API
   slug: sequence-hq-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/openapi/sequence-hq-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/sequence-hq/openapi/sequence-hq-invoices-api-openapi.yml
 - filename: sequence-hq-products-api-openapi.yml
   format: yaml
   label: Sequence Products API
   slug: sequence-hq-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/openapi/sequence-hq-products-api-openapi.yml
+  url: https://artifacts.apis.io/sequence-hq/openapi/sequence-hq-products-api-openapi.yml
 - filename: sequence-hq-quotes-api-openapi.yml
   format: yaml
   label: Sequence Quotes API
   slug: sequence-hq-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/openapi/sequence-hq-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/sequence-hq/openapi/sequence-hq-quotes-api-openapi.yml
 - filename: sequence-hq-usage-api-openapi.yml
   format: yaml
   label: Sequence Usage API
   slug: sequence-hq-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/openapi/sequence-hq-usage-api-openapi.yml
+  url: https://artifacts.apis.io/sequence-hq/openapi/sequence-hq-usage-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -65,7 +65,7 @@ source_filename: sequence-hq-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: documented\nsource: https://docs.sequencehq.com/reference/authentication\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: >-\n    HTTP Basic authentication. When you create an API client in the Sequence\n    Dashboard you receive a Client ID and a Client Secret. The Client ID is used\n    as the Basic auth username and the Client Secret as the password, sent as\n    `Authorization: Basic base64(clientId:clientSecret)`. The Client Secret is\n    shown only once and cannot be retrieved later. Requests also accept a\n    `sequence-version` header to pin the date-based API version (for example\n    2024-07-30). Two environments are available - Production and Sandbox - each\n    with its own credentials.\n  sources:\n  - https://docs.sequencehq.com/reference/authentication\n  - https://docs.sequencehq.com/reference/gettingStarted\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/authentication/sequence-hq-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sequence-hq/authentication/sequence-hq-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Billing

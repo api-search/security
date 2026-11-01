@@ -8,43 +8,43 @@ api_specs:
   label: Ablo Branches API
   slug: ablo-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abloatai/refs/heads/main/openapi/abloatai-branches-api-openapi.yml
+  url: https://artifacts.apis.io/abloatai/openapi/abloatai-branches-api-openapi.yml
 - filename: abloatai-claims-api-openapi.yml
   format: yaml
   label: Ablo Claims API
   slug: ablo-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abloatai/refs/heads/main/openapi/abloatai-claims-api-openapi.yml
+  url: https://artifacts.apis.io/abloatai/openapi/abloatai-claims-api-openapi.yml
 - filename: abloatai-commits-api-openapi.yml
   format: yaml
   label: Ablo Commits API
   slug: ablo-commits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abloatai/refs/heads/main/openapi/abloatai-commits-api-openapi.yml
+  url: https://artifacts.apis.io/abloatai/openapi/abloatai-commits-api-openapi.yml
 - filename: abloatai-credentials-api-openapi.yml
   format: yaml
   label: Ablo Credentials API
   slug: ablo-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abloatai/refs/heads/main/openapi/abloatai-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/abloatai/openapi/abloatai-credentials-api-openapi.yml
 - filename: abloatai-logs-api-openapi.yml
   format: yaml
   label: Ablo Logs API
   slug: ablo-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abloatai/refs/heads/main/openapi/abloatai-logs-api-openapi.yml
+  url: https://artifacts.apis.io/abloatai/openapi/abloatai-logs-api-openapi.yml
 - filename: abloatai-models-api-openapi.yml
   format: yaml
   label: Ablo Models API
   slug: ablo-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abloatai/refs/heads/main/openapi/abloatai-models-api-openapi.yml
+  url: https://artifacts.apis.io/abloatai/openapi/abloatai-models-api-openapi.yml
 - filename: abloatai-schema-api-openapi.yml
   format: yaml
   label: Ablo Schema API
   slug: ablo-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abloatai/refs/heads/main/openapi/abloatai-schema-api-openapi.yml
+  url: https://artifacts.apis.io/abloatai/openapi/abloatai-schema-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-08-19'\nmethod: searched\nsource: https://docs.ab
   \ credentials.', classes: [mk_]}\n    - {scope: 'organization:act-as', description: 'Cross-organization authority to mint a short-lived user session into a customer organization. Follows the Stripe Connect shape; the resulting session is still bounded by its can grant and expiry.'}\n  session_grants:\n    model: 'Per-session typed can grant, e.g. can: { records: [read, update] } — model/verb scoped, applied when minting an ek_ or rk_.'\nauthority_axes:\n  - axis: capability class\n    carried_by: key prefix\n  - axis: scope set\n    carried_by: server-side key row\n  - axis: branch binding\n    carried_by: immutable server-side binding\n    note: 'A temporary child-branch key can act only inside that child; it cannot manage siblings or gain root authority even with no scope strings.'\njwt:\n  supported: true\n  note: >-\n    The error registry documents a full third-party JWT path (jwt_issuer_untrusted,\n    jwt_audience_mismatch, jwt_missing_organization, jwt_org_membership_denied, issuer_register_forbidden),\n\
   \    so a customer's own IdP can be registered as a trusted issuer. This is not declared in the OpenAPI.\n  source: https://docs.abloatai.com/errors\ncredential_hygiene:\n  - 'A mint returns plaintext exactly once; only a hash is retained, so no API or MCP tool can hand a key back later.'\n  - 'Rotation: POST /v1/capabilities/{id}/rotate (rotateCapability) mints a replacement keeping the grant.'\n  - 'Revocation: DELETE /v1/capabilities/{id} (revokeCapability).'\nfailure_signalling:\n  header: X-Auth-Failure\n  cors_exposed: true\n  note: 'The specific auth failure code is echoed on a CORS-exposed response header, so a browser client can distinguish apikey_invalid from auth_no_credentials without reading the body.'\n  observed:\n    - {probe: 'GET https://api.abloatai.com/api/v1/schema (no credential)', http_status: 401, x_auth_failure: auth_no_credentials}\n    - {probe: 'GET https://api.abloatai.com/api/v1/schema (bogus bearer)', http_status: 401, x_auth_failure: apikey_invalid}\nx-evidence:\n\
   \  - {url: 'https://docs.abloatai.com/api-keys', http_status: 200}\n  - {url: 'https://api.abloatai.com/.well-known/openid-configuration', http_status: 404}\n  - {url: 'https://api.abloatai.com/.well-known/oauth-authorization-server', http_status: 404}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abloatai/refs/heads/main/authentication/abloatai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/abloatai/authentication/abloatai-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Agent Infrastructure

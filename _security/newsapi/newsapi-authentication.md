@@ -9,19 +9,19 @@ api_specs:
   label: NewsAPI Everything API
   slug: newsapi-everything-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newsapi/refs/heads/main/openapi/newsapi-everything-api-openapi.yml
+  url: https://artifacts.apis.io/newsapi/openapi/newsapi-everything-api-openapi.yml
 - filename: newsapi-sources-api-openapi.yml
   format: yaml
   label: NewsAPI Sources API
   slug: newsapi-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newsapi/refs/heads/main/openapi/newsapi-sources-api-openapi.yml
+  url: https://artifacts.apis.io/newsapi/openapi/newsapi-sources-api-openapi.yml
 - filename: newsapi-top-headlines-api-openapi.yml
   format: yaml
   label: NewsAPI Top Headlines API
   slug: newsapi-top-headlines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newsapi/refs/heads/main/openapi/newsapi-top-headlines-api-openapi.yml
+  url: https://artifacts.apis.io/newsapi/openapi/newsapi-top-headlines-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -63,7 +63,7 @@ source_filename: newsapi-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/newsapi-newsapi-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: apiKeyHeader\n  type: apiKey\n  in: header\n  parameter: X-Api-Key\n  description: API key passed via X-Api-Key HTTP header\n  sources:\n  - openapi/newsapi-newsapi-openapi.yml\n- name: apiKeyQuery\n  type: apiKey\n  in: query\n  parameter: apiKey\n  description: API key passed as a query parameter\n  sources:\n  - openapi/newsapi-newsapi-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'API key passed as a Bearer token. Note: the Bearer prefix is optional and the\n    key should NOT be base64 encoded.'\n  sources:\n  - openapi/newsapi-newsapi-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/newsapi/refs/heads/main/authentication/newsapi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/newsapi/authentication/newsapi-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - News

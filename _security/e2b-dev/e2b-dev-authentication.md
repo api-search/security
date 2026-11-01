@@ -3,84 +3,78 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: e2b-dev-access-tokens-api-openapi.yml
-  format: yaml
-  label: E2B Access Tokens API
-  slug: e2b-dev-access-tokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-access-tokens-api-openapi.yml
-- filename: e2b-dev-admin-api-openapi.yml
-  format: yaml
-  label: E2B Admin API
-  slug: e2b-dev-admin-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-admin-api-openapi.yml
-- filename: e2b-dev-api-keys-api-openapi.yml
-  format: yaml
-  label: E2B API Keys API
-  slug: e2b-dev-api-keys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-api-keys-api-openapi.yml
-- filename: e2b-dev-auth-api-openapi.yml
-  format: yaml
-  label: E2B Auth API
-  slug: e2b-dev-auth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-auth-api-openapi.yml
 - filename: e2b-dev-events-api-openapi.yml
   format: yaml
   label: E2B Events API
   slug: e2b-dev-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-events-api-openapi.yml
-- filename: e2b-dev-health-api-openapi.yml
-  format: yaml
-  label: E2B Health API
-  slug: e2b-dev-health-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-health-api-openapi.yml
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-events-api-openapi.yml
 - filename: e2b-dev-sandboxes-api-openapi.yml
   format: yaml
   label: E2B Sandboxes API
   slug: e2b-dev-sandboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-sandboxes-api-openapi.yml
-- filename: e2b-dev-snapshots-api-openapi.yml
-  format: yaml
-  label: E2B Snapshots API
-  slug: e2b-dev-snapshots-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-sandboxes-api-openapi.yml
 - filename: e2b-dev-tags-api-openapi.yml
   format: yaml
   label: E2B Tags API
   slug: e2b-dev-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-tags-api-openapi.yml
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-tags-api-openapi.yml
 - filename: e2b-dev-templates-api-openapi.yml
   format: yaml
   label: E2B Templates API
   slug: e2b-dev-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-templates-api-openapi.yml
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-templates-api-openapi.yml
 - filename: e2b-dev-volumes-api-openapi.yml
   format: yaml
   label: E2B Volumes API
   slug: e2b-dev-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-volumes-api-openapi.yml
 - filename: e2b-dev-webhooks-api-openapi.yml
   format: yaml
   label: E2B Webhooks API
   slug: e2b-dev-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-webhooks-api-openapi.yml
 - filename: e2b-dev-e2b-sandbox-events-and-webhooks-api-api-openapi.yml
   format: yaml
   label: E2B Sandbox Events And Webhooks API
   slug: e2b-dev-e2b-sandbox-events-and-webhooks-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-e2b-sandbox-events-and-webhooks-api-api-openapi.yml
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-e2b-sandbox-events-and-webhooks-api-api-openapi.yml
+- filename: e2b-dev-envd-api-openapi.yml
+  format: yaml
+  label: E2B Envd API
+  slug: e2b-dev-envd-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-envd-api-openapi.yml
+- filename: e2b-dev-filesystem-api-openapi.yml
+  format: yaml
+  label: E2B Filesystem API
+  slug: e2b-dev-filesystem-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-filesystem-api-openapi.yml
+- filename: e2b-dev-process-api-openapi.yml
+  format: yaml
+  label: E2B Process API
+  slug: e2b-dev-process-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-process-api-openapi.yml
+- filename: e2b-dev-secrets-api-openapi.yml
+  format: yaml
+  label: E2B Secrets API
+  slug: e2b-dev-secrets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-secrets-api-openapi.yml
+- filename: e2b-dev-teams-api-openapi.yml
+  format: yaml
+  label: E2B Teams API
+  slug: e2b-dev-teams-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-teams-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -134,7 +128,7 @@ source_filename: e2b-dev-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/e2b-api-openapi.yml, openapi/e2b-events-openapi.yml, openapi/e2b-volumes-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  sources:\n  - openapi/e2b-api-openapi.yml\n  - openapi/e2b-events-openapi.yml\n- name: AccessTokenAuth\n  type: http\n  scheme: bearer\n  bearerFormat: access_token\n  sources:\n  - openapi/e2b-api-openapi.yml\n  - openapi/e2b-volumes-openapi.yml\n- name: Supabase1TokenAuth\n  type: apiKey\n  in: header\n  parameter: X-Supabase-Token\n  sources:\n  - openapi/e2b-api-openapi.yml\n- name: Supabase2TeamAuth\n  type: apiKey\n  in: header\n  parameter: X-Supabase-Team\n  sources:\n  - openapi/e2b-api-openapi.yml\n- name: AdminTokenAuth\n  type: apiKey\n  in: header\n  parameter: X-Admin-Token\n  sources:\n  - openapi/e2b-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/authentication/e2b-dev-authentication.yml
+source_yaml_url: https://artifacts.apis.io/e2b-dev/authentication/e2b-dev-authentication.yml
 summary_line: apiKey/http · 5 schemes
 tags:
 - Artificial Intelligence

@@ -16,7 +16,7 @@ source_filename: novoic-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nprobe: true\nsource: https://novoic.com\nurl: https://novoic.com\nnote: >-\n  HIPAA/GDPR compliance is a stated posture on the Novoic homepage; Novoic\n  does not publish a dedicated trust portal (the /trust path soft-404s to the\n  SPA homepage, which carries the compliance claim).\ncertifications:\n- HIPAA\n- GDPR\nevidence:\n- source: https://novoic.com\n  keywords:\n  - hipaa\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/novoic/refs/heads/main/security/novoic-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/novoic/security/novoic-trust-center.yml
 summary_line: HIPAA, GDPR
 tags:
 - Company

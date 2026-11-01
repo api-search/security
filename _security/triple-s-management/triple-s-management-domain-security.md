@@ -40,7 +40,7 @@ source_filename: triple-s-management-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.triple-s-management.com\n  https: false\n- host: management.grupotriples.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 21:35:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: service.ssspr.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 26 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: triple-s-management.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: grupotriples.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/triple-s-management/refs/heads/main/security/triple-s-management-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/triple-s-management/security/triple-s-management-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Health Insurance

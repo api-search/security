@@ -5,13 +5,13 @@ api_specs:
   label: Keyo Authentication API
   slug: keyo-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keyo/refs/heads/main/openapi/keyo-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/keyo/openapi/keyo-authentication-api-openapi.yml
 - filename: keyo-identities-api-openapi.yml
   format: yaml
   label: Keyo Identities API
   slug: keyo-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keyo/refs/heads/main/openapi/keyo-identities-api-openapi.yml
+  url: https://artifacts.apis.io/keyo/openapi/keyo-identities-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -56,7 +56,7 @@ source_filename: keyo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: keyo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 15:56:05 2026 GMT\n  hsts: false\n- host: api.keyo.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 18:31:39 2026 GMT\n  hsts: null\n- host: api.africa.keyo.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 18:31:39 2026 GMT\n  hsts: null\ndomains:\n- domain: keyo.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: keyo.co\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keyo/refs/heads/main/security/keyo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/keyo/security/keyo-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

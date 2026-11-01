@@ -7,67 +7,67 @@ api_specs:
   label: Reddit Account API
   slug: reddit-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/openapi/reddit-account-api-openapi.yml
+  url: https://artifacts.apis.io/reddit/openapi/reddit-account-api-openapi.yml
 - filename: reddit-flair-api-openapi.yml
   format: yaml
   label: Reddit Flair API
   slug: reddit-flair-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/openapi/reddit-flair-api-openapi.yml
+  url: https://artifacts.apis.io/reddit/openapi/reddit-flair-api-openapi.yml
 - filename: reddit-links-comments-api-openapi.yml
   format: yaml
   label: Reddit Links & Comments API
   slug: reddit-links-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/openapi/reddit-links-comments-api-openapi.yml
+  url: https://artifacts.apis.io/reddit/openapi/reddit-links-comments-api-openapi.yml
 - filename: reddit-listings-api-openapi.yml
   format: yaml
   label: Reddit Listings API
   slug: reddit-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/openapi/reddit-listings-api-openapi.yml
+  url: https://artifacts.apis.io/reddit/openapi/reddit-listings-api-openapi.yml
 - filename: reddit-messages-api-openapi.yml
   format: yaml
   label: Reddit Messages API
   slug: reddit-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/openapi/reddit-messages-api-openapi.yml
+  url: https://artifacts.apis.io/reddit/openapi/reddit-messages-api-openapi.yml
 - filename: reddit-moderation-api-openapi.yml
   format: yaml
   label: Reddit Moderation API
   slug: reddit-moderation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/openapi/reddit-moderation-api-openapi.yml
+  url: https://artifacts.apis.io/reddit/openapi/reddit-moderation-api-openapi.yml
 - filename: reddit-search-api-openapi.yml
   format: yaml
   label: Reddit Search API
   slug: reddit-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/openapi/reddit-search-api-openapi.yml
+  url: https://artifacts.apis.io/reddit/openapi/reddit-search-api-openapi.yml
 - filename: reddit-subreddits-api-openapi.yml
   format: yaml
   label: Reddit Subreddits API
   slug: reddit-subreddits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/openapi/reddit-subreddits-api-openapi.yml
+  url: https://artifacts.apis.io/reddit/openapi/reddit-subreddits-api-openapi.yml
 - filename: reddit-users-api-openapi.yml
   format: yaml
   label: Reddit Users API
   slug: reddit-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/openapi/reddit-users-api-openapi.yml
+  url: https://artifacts.apis.io/reddit/openapi/reddit-users-api-openapi.yml
 - filename: reddit-wiki-api-openapi.yml
   format: yaml
   label: Reddit Wiki API
   slug: reddit-wiki-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/openapi/reddit-wiki-api-openapi.yml
+  url: https://artifacts.apis.io/reddit/openapi/reddit-wiki-api-openapi.yml
 - filename: reddit-o-embed-api-openapi.yml
   format: yaml
   label: Reddit o Embed API
   slug: reddit-o-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/openapi/reddit-o-embed-api-openapi.yml
+  url: https://artifacts.apis.io/reddit/openapi/reddit-o-embed-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -100,7 +100,7 @@ source_filename: reddit-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/reddit-ads-api-openapi.yml, openapi/reddit-data-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.reddit.com/api/v1/authorize\n    tokenUrl: https://www.reddit.com/api/v1/access_token\n    scopes: 1\n  description: Reddit Ads API uses OAuth 2.0 for authentication. Access tokens are obtained\n    via the authorization code flow.\n  sources:\n  - openapi/reddit-ads-api-openapi.yml\n  - openapi/reddit-data-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/authentication/reddit-authentication.yml
+source_yaml_url: https://artifacts.apis.io/reddit/authentication/reddit-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Reddit

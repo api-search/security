@@ -5,13 +5,13 @@ api_specs:
   label: RXNT Authentication API
   slug: rxnt-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rxnt/refs/heads/main/openapi/rxnt-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/rxnt/openapi/rxnt-authentication-api-openapi.yml
 - filename: rxnt-clinical-data-api-openapi.yml
   format: yaml
   label: RXNT Clinical Data API
   slug: rxnt-clinical-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rxnt/refs/heads/main/openapi/rxnt-clinical-data-api-openapi.yml
+  url: https://artifacts.apis.io/rxnt/openapi/rxnt-clinical-data-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -52,7 +52,7 @@ source_filename: rxnt-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.rxnt.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: app2.rxnt.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 00:05:01 2026 GMT\n  hsts: null\ndomains:\n- domain: rxnt.com\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issuewild \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rxnt/refs/heads/main/security/rxnt-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rxnt/security/rxnt-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Healthcare

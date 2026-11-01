@@ -44,7 +44,7 @@ source_filename: doubleverify-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: doubleverify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 11:11:05 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: mcp.doubleverify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 14:39:47 2026 GMT\n  hsts: null\n- host: developer.doubleverify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 13:10:47 2026 GMT\n  hsts: false\ndomains:\n- domain: doubleverify.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issuewild \"pki.goog\"\n  - 0 issuewild \"microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doubleverify/refs/heads/main/security/doubleverify-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/doubleverify/security/doubleverify-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Ad Verification

@@ -8,43 +8,43 @@ api_specs:
   label: PayFit Absences API
   slug: payfit-absences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payfit/refs/heads/main/openapi/payfit-absences-api-openapi.yml
+  url: https://artifacts.apis.io/payfit/openapi/payfit-absences-api-openapi.yml
 - filename: payfit-collaborators-api-openapi.yml
   format: yaml
   label: PayFit Collaborators API
   slug: payfit-collaborators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payfit/refs/heads/main/openapi/payfit-collaborators-api-openapi.yml
+  url: https://artifacts.apis.io/payfit/openapi/payfit-collaborators-api-openapi.yml
 - filename: payfit-company-api-openapi.yml
   format: yaml
   label: PayFit Company API
   slug: payfit-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payfit/refs/heads/main/openapi/payfit-company-api-openapi.yml
+  url: https://artifacts.apis.io/payfit/openapi/payfit-company-api-openapi.yml
 - filename: payfit-contracts-api-openapi.yml
   format: yaml
   label: PayFit Contracts API
   slug: payfit-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payfit/refs/heads/main/openapi/payfit-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/payfit/openapi/payfit-contracts-api-openapi.yml
 - filename: payfit-documents-api-openapi.yml
   format: yaml
   label: PayFit Documents API
   slug: payfit-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payfit/refs/heads/main/openapi/payfit-documents-api-openapi.yml
+  url: https://artifacts.apis.io/payfit/openapi/payfit-documents-api-openapi.yml
 - filename: payfit-insurance-api-openapi.yml
   format: yaml
   label: PayFit Insurance API
   slug: payfit-insurance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payfit/refs/heads/main/openapi/payfit-insurance-api-openapi.yml
+  url: https://artifacts.apis.io/payfit/openapi/payfit-insurance-api-openapi.yml
 - filename: payfit-payslips-api-openapi.yml
   format: yaml
   label: PayFit Payslips API
   slug: payfit-payslips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payfit/refs/heads/main/openapi/payfit-payslips-api-openapi.yml
+  url: https://artifacts.apis.io/payfit/openapi/payfit-payslips-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -79,7 +79,7 @@ source_filename: payfit-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/payfit-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth 2.0 bearer token for Partner API integrations.\n  sources:\n  - openapi/payfit-openapi.yml\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Private API key for Customer API direct access.\n  sources:\n  - openapi/payfit-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payfit/refs/heads/main/authentication/payfit-authentication.yml
+source_yaml_url: https://artifacts.apis.io/payfit/authentication/payfit-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Payroll

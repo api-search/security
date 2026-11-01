@@ -17,7 +17,7 @@ source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nprobe: false\nsource: https://www.changeengine.com/ (footer \"Security & Trust Center\") + https://www.changeengine.com/pricing\nurl: https://trust.changeengine.com/\ntitle: ChangeEngine Security & Trust Center\ncertifications:\n- SOC 2\n- GDPR\nnotes: >-\n  Trust center is a JavaScript-rendered \"Trust Vault\" portal linked from the site footer\n  as \"Security & Trust Center\". SOC 2 Certification and GDPR Compliance are published as\n  plan features on the pricing page (Access & Security section), alongside data encryption,\n  SSO, 2FA, and custom data hosting (US/EU/CA). No bug bounty or public responsible-disclosure\n  program was found; no /.well-known/security.txt is served.\nevidence:\n- source: https://www.changeengine.com/\n  kind: footer-link\n  detail: \"Security & Trust Center -> https://trust.changeengine.com/\"\n- source: https://www.changeengine.com/pricing\n  kind: published-feature\n  detail: \"SOC 2 Certification;\
   \ GDPR Compliance; Data Encryption; SSO Support; 2FA; Custom Data Hosting (US/EU/CA)\"\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/changeengine/refs/heads/main/security/changeengine-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/changeengine/security/changeengine-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - Company

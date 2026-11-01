@@ -5,25 +5,25 @@ api_specs:
   label: AbuseIPDB Blacklist API
   slug: abuseipdb-blacklist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/openapi/abuseipdb-blacklist-api-openapi.yml
+  url: https://artifacts.apis.io/abuseipdb/openapi/abuseipdb-blacklist-api-openapi.yml
 - filename: abuseipdb-management-api-openapi.yml
   format: yaml
   label: AbuseIPDB Management API
   slug: abuseipdb-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/openapi/abuseipdb-management-api-openapi.yml
+  url: https://artifacts.apis.io/abuseipdb/openapi/abuseipdb-management-api-openapi.yml
 - filename: abuseipdb-reports-api-openapi.yml
   format: yaml
   label: AbuseIPDB Reports API
   slug: abuseipdb-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/openapi/abuseipdb-reports-api-openapi.yml
+  url: https://artifacts.apis.io/abuseipdb/openapi/abuseipdb-reports-api-openapi.yml
 - filename: abuseipdb-reputation-api-openapi.yml
   format: yaml
   label: AbuseIPDB Reputation API
   slug: abuseipdb-reputation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/openapi/abuseipdb-reputation-api-openapi.yml
+  url: https://artifacts.apis.io/abuseipdb/openapi/abuseipdb-reputation-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -61,7 +61,7 @@ source_filename: abuseipdb-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.abuseipdb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 04:12:19 2026 GMT\n  hsts: null\n- host: docs.abuseipdb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 04:12:19 2026 GMT\n  hsts: false\n- host: api.abuseipdb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 04:12:19 2026 GMT\n  hsts: null\ndomains:\n- domain: abuseipdb.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/security/abuseipdb-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/abuseipdb/security/abuseipdb-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Anti Malware

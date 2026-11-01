@@ -5,19 +5,19 @@ api_specs:
   label: Openverse Audio API
   slug: openverse-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openverse/refs/heads/main/openapi/openverse-audio-api-openapi.yml
+  url: https://artifacts.apis.io/openverse/openapi/openverse-audio-api-openapi.yml
 - filename: openverse-auth-api-openapi.yml
   format: yaml
   label: Openverse Auth API
   slug: openverse-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openverse/refs/heads/main/openapi/openverse-auth-api-openapi.yml
+  url: https://artifacts.apis.io/openverse/openapi/openverse-auth-api-openapi.yml
 - filename: openverse-images-api-openapi.yml
   format: yaml
   label: Openverse Images API
   slug: openverse-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openverse/refs/heads/main/openapi/openverse-images-api-openapi.yml
+  url: https://artifacts.apis.io/openverse/openapi/openverse-images-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: openverse-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.openverse.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 13:21:29 2026 GMT\n  hsts: false\ndomains:\n- domain: openverse.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openverse/refs/heads/main/security/openverse-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/openverse/security/openverse-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Image

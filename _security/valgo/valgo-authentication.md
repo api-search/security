@@ -8,55 +8,55 @@ api_specs:
   label: Valgo Compute API
   slug: valgo-compute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-compute-api-openapi.yml
+  url: https://artifacts.apis.io/valgo/openapi/valgo-compute-api-openapi.yml
 - filename: valgo-compute-batch-api-openapi.yml
   format: yaml
   label: Valgo Compute Batch API
   slug: valgo-compute-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-compute-batch-api-openapi.yml
+  url: https://artifacts.apis.io/valgo/openapi/valgo-compute-batch-api-openapi.yml
 - filename: valgo-compute-depot-route-api-openapi.yml
   format: yaml
   label: Valgo Compute Depot Route API
   slug: valgo-compute-depot-route-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-compute-depot-route-api-openapi.yml
+  url: https://artifacts.apis.io/valgo/openapi/valgo-compute-depot-route-api-openapi.yml
 - filename: valgo-compute-route-api-openapi.yml
   format: yaml
   label: Valgo Compute Route API
   slug: valgo-compute-route-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-compute-route-api-openapi.yml
+  url: https://artifacts.apis.io/valgo/openapi/valgo-compute-route-api-openapi.yml
 - filename: valgo-health-api-openapi.yml
   format: yaml
   label: Valgo Health API
   slug: valgo-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-health-api-openapi.yml
+  url: https://artifacts.apis.io/valgo/openapi/valgo-health-api-openapi.yml
 - filename: valgo-manifest-api-openapi.yml
   format: yaml
   label: Valgo Manifest API
   slug: valgo-manifest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-manifest-api-openapi.yml
+  url: https://artifacts.apis.io/valgo/openapi/valgo-manifest-api-openapi.yml
 - filename: valgo-request-api-key-api-openapi.yml
   format: yaml
   label: Valgo Request Api Key API
   slug: valgo-request-api-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-request-api-key-api-openapi.yml
+  url: https://artifacts.apis.io/valgo/openapi/valgo-request-api-key-api-openapi.yml
 - filename: valgo-filters-api-openapi.yml
   format: yaml
   label: Valgo Filters API
   slug: valgo-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-filters-api-openapi.yml
+  url: https://artifacts.apis.io/valgo/openapi/valgo-filters-api-openapi.yml
 - filename: valgo-regions-api-openapi.yml
   format: yaml
   label: Valgo Regions API
   slug: valgo-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-regions-api-openapi.yml
+  url: https://artifacts.apis.io/valgo/openapi/valgo-regions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -87,7 +87,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://github.com/valgorithmic/humanbaselines (README) + https://humanbaselines.com/openapi.json (info.description)\ndocs: https://docs.humanbaselines.com\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  oauth2_flows: []\nschemes:\n- name: X-API-Key\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  key_prefix: hbk_\n  environment_variable: HUMANBASELINES_API_KEY\n  description: >-\n    The versioned public surface under /v1 is API-key-authenticated; keys are\n    sent via the X-API-Key header (quoted from the API's own OpenAPI\n    info.description). Keys use the hbk_ prefix and the official Python\n    client reads them from the HUMANBASELINES_API_KEY environment variable.\n    Keys are requested via the POST /request-api-key operation\n    (operationId request_api_key_request_api_key_post).\n  sources:\n  - openapi/valgo-humanbaselines-openapi.json\nnotes: >-\n  The OpenAPI document itself declares no components.securitySchemes;\
   \ the\n  auth model above is taken from the provider's published README and the\n  spec's info.description. Missing 401 responses / securitySchemes in the\n  spec are flagged in overlays/valgo-humanbaselines-overlay.yaml.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/authentication/valgo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/valgo/authentication/valgo-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

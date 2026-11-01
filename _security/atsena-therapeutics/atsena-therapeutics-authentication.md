@@ -8,7 +8,7 @@ api_specs:
   label: Atsena Therapeutics Website (WordPress REST)
   slug: atsenatx-com-website-wordpress-rest
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atsena-therapeutics/refs/heads/main/openapi/atsena-therapeutics-wp-rest-discovery-original.json
+  url: https://artifacts.apis.io/atsena-therapeutics/openapi/atsena-therapeutics-wp-rest-discovery-original.json
 auth_types:
 - none
 - http
@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-08-02'\nmethod: derived\nsource: >-\n  openapi/at
   \  - name: wpNonce\n    type: apiKey\n    in: header\n    parameter: X-WP-Nonce\n    description: >-\n      WordPress cookie-authentication nonce, used by the site's own logged-in admin UI rather than by\n      API clients. Not advertised in the route index; observed in the live\n      `Access-Control-Allow-Headers` response header on every wp-json response\n      (Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type).\n    sources:\n      - live response headers on https://atsenatx.com/wp-json/wp/v2/posts\ngated_surfaces:\n  - path: /wp/v2/users\n    status: 401\n    code: rest_user_cannot_view\n    note: >-\n      Author identities are not disclosed anonymously, so the `author` id on a post or page cannot be\n      resolved without credentials.\n  - path: /wp/v2/settings\n    status: 401\n    code: rest_forbidden\n  - path: /wp/v2/plugins\n    status: 401\n    code: rest_forbidden\n  - path: /wp/v2/templates\n    status: 401\n    code: rest_forbidden\n  - path: /wp/v2/menus\n\
   \    status: 401\n    code: rest_forbidden\n  - path: /wp-abilities/v1/abilities\n    status: 401\n    code: rest_forbidden\n    note: >-\n      The WordPress Abilities registry — the agent-facing capability surface WordPress 6.8+ exposes —\n      is registered on this install but rejects anonymous callers. The namespace index at\n      /wp-abilities/v1 is readable (200); the abilities and categories collections beneath it are\n      not. No MCP namespace is registered on this install.\n  - path: /oembed/1.0/proxy\n    status: 401\n    code: rest_forbidden\n  - path: /wp/v2/comments\n    status: 403\n    code: rest_comment_disabled\n    note: Comments are disabled site-wide, so the collection is unavailable to everyone, not just anonymous callers.\nabsent:\n  oauth2: >-\n    No OAuth. /.well-known/oauth-authorization-server and /.well-known/oauth-protected-resource both\n    returned 404, and no scope surface exists anywhere on this host — scopes/ is deliberately not\n    emitted.\n  openid_connect:\
   \ '/.well-known/openid-configuration returned 404.'\n  api_keys: No API key programme, no key issuance, no developer account.\n  mtls: Not offered.\nx-evidence:\n  fetched: '2026-08-02'\n  anonymous_200_operations: 20\n  http_401_surfaces: 7\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atsena-therapeutics/refs/heads/main/authentication/atsena-therapeutics-authentication.yml
+source_yaml_url: https://artifacts.apis.io/atsena-therapeutics/authentication/atsena-therapeutics-authentication.yml
 summary_line: none/http/apiKey · 3 schemes
 tags:
 - Company

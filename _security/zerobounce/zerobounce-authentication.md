@@ -7,7 +7,7 @@ api_specs:
   label: ZeroBounce Validation API
   slug: zerobounce-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/openapi/zerobounce-validation-api-openapi.yml
+  url: https://artifacts.apis.io/zerobounce/openapi/zerobounce-validation-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://www.zer
   \  - id: api_key_optional_plugin\n    type: apiKey\n    in: body\n    name: api_key\n    optional: true\n    description: >-\n      The ChatGPT-plugin endpoints on members-api.zerobounce.net accept an OPTIONAL\n      api_key: an unauthenticated caller gets up to 3 single-validation requests per day.\n      Batch validation on that host requires a key.\n    applies_to:\n      - validate\n      - validateBatch\n    evidence: openapi/zerobounce-validation-api-openapi.yml\n\nkey_management:\n  created_in: ZeroBounce member dashboard (API / Developer section)\n  docs: https://www.zerobounce.net/docs/api-dashboard\n  signup: https://www.zerobounce.net/members/createaccount\n  rotation: >-\n    ZeroBounce documents an \"API Keys Management\" section in the dashboard docs; key\n    rotation is performed from the dashboard. The provider's own MCP README advises using\n    separate keys per environment and rotating them periodically, which implies multiple\n    keys per account are supported.\n\
   \  scopes: none\n  expiry: none documented\n\ntransport:\n  https_required: true\n  tls_support_page: https://www.zerobounce.net/docs/api-dashboard/tls-support\n  regions:\n    - host: https://api-us.zerobounce.net\n      residency: United States only\n    - host: https://api-eu.zerobounce.net\n      residency: European Union only\n    - host: https://api.zerobounce.net\n      residency: >-\n        Legacy endpoint; per ZeroBounce's own endpoints page it now serves EU validations\n        and interactions only.\n\nrisks:\n  - >-\n    The key travels in the query string on the majority of operations, so it lands in\n    proxy logs, browser history and referrer headers. Any integration that logs full URLs\n    is logging the credential.\n  - >-\n    No scopes means read-only agent use (get_credits, get_api_usage) cannot be separated\n    from spend-incurring use (validate, sendfile, scoring).\n  - >-\n    ZeroBounce applies a punitive auth-failure policy rather than a scoped one: 200 bad\n\
   \    API key requests in 1 hour triggers a 1-hour to 1-day block on the whole account key.\n\nnot_present:\n  oauth2: false\n  openid_connect: false\n  mutual_tls: false\n  http_bearer: false\n  jwt: false\n  webhook_signing: >-\n    ZeroBounce POSTs bulk-completion callbacks to a caller-supplied return_url but\n    documents no signature, shared secret or verification header on that request. See\n    asyncapi/zerobounce-webhooks.yml.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/authentication/zerobounce-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zerobounce/authentication/zerobounce-authentication.yml
 summary_line: 3 schemes
 tags:
 - Email Verification

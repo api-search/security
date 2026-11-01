@@ -5,25 +5,25 @@ api_specs:
   label: Celsius Network KYC API
   slug: celsius-network-kyc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/openapi/celsius-network-kyc-api-openapi.yml
+  url: https://artifacts.apis.io/celsius-network/openapi/celsius-network-kyc-api-openapi.yml
 - filename: celsius-network-users-api-openapi.yml
   format: yaml
   label: Celsius Network Users API
   slug: celsius-network-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/openapi/celsius-network-users-api-openapi.yml
+  url: https://artifacts.apis.io/celsius-network/openapi/celsius-network-users-api-openapi.yml
 - filename: celsius-network-utility-api-openapi.yml
   format: yaml
   label: Celsius Network Utility API
   slug: celsius-network-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/openapi/celsius-network-utility-api-openapi.yml
+  url: https://artifacts.apis.io/celsius-network/openapi/celsius-network-utility-api-openapi.yml
 - filename: celsius-network-wallet-api-openapi.yml
   format: yaml
   label: Celsius Network Wallet API
   slug: celsius-network-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/openapi/celsius-network-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/celsius-network/openapi/celsius-network-wallet-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -80,7 +80,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: celsius.network\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 11:57:08 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: www.postman.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 09:01:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: wallet-api.celsius.network\n  https: false\ndomains:\n- domain: celsius.network\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 iodef \"mailto:devops@celsius.network\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: postman.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"amazon.com\"\
   \n  - 0 issuewild \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/security/celsius-network-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/celsius-network/security/celsius-network-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

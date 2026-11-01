@@ -7,121 +7,121 @@ api_specs:
   label: Loops API key API
   slug: loops-api-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-api-key-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-api-key-api-openapi.yml
 - filename: loops-audience-segments-api-openapi.yml
   format: yaml
   label: Loops Audience segments API
   slug: loops-audience-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-audience-segments-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-audience-segments-api-openapi.yml
 - filename: loops-campaign-groups-api-openapi.yml
   format: yaml
   label: Loops Campaign groups API
   slug: loops-campaign-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-campaign-groups-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-campaign-groups-api-openapi.yml
 - filename: loops-campaigns-api-openapi.yml
   format: yaml
   label: Loops Campaigns API
   slug: loops-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-campaigns-api-openapi.yml
 - filename: loops-components-api-openapi.yml
   format: yaml
   label: Loops Components API
   slug: loops-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-components-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-components-api-openapi.yml
 - filename: loops-configuration-api-openapi.yml
   format: yaml
   label: Loops Configuration API
   slug: loops-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-configuration-api-openapi.yml
 - filename: loops-contact-properties-api-openapi.yml
   format: yaml
   label: Loops Contact properties API
   slug: loops-contact-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-contact-properties-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-contact-properties-api-openapi.yml
 - filename: loops-contacts-api-openapi.yml
   format: yaml
   label: Loops Contacts API
   slug: loops-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-contacts-api-openapi.yml
 - filename: loops-email-messages-api-openapi.yml
   format: yaml
   label: Loops Email messages API
   slug: loops-email-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-email-messages-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-email-messages-api-openapi.yml
 - filename: loops-event-patterns-api-openapi.yml
   format: yaml
   label: Loops Event patterns API
   slug: loops-event-patterns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-event-patterns-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-event-patterns-api-openapi.yml
 - filename: loops-events-api-openapi.yml
   format: yaml
   label: Loops Events API
   slug: loops-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-events-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-events-api-openapi.yml
 - filename: loops-mailing-lists-api-openapi.yml
   format: yaml
   label: Loops Mailing lists API
   slug: loops-mailing-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-mailing-lists-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-mailing-lists-api-openapi.yml
 - filename: loops-themes-api-openapi.yml
   format: yaml
   label: Loops Themes API
   slug: loops-themes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-themes-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-themes-api-openapi.yml
 - filename: loops-transactional-emails-api-openapi.yml
   format: yaml
   label: Loops Transactional emails API
   slug: loops-transactional-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-transactional-emails-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-transactional-emails-api-openapi.yml
 - filename: loops-transactional-groups-api-openapi.yml
   format: yaml
   label: Loops Transactional groups API
   slug: loops-transactional-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-transactional-groups-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-transactional-groups-api-openapi.yml
 - filename: loops-uploads-api-openapi.yml
   format: yaml
   label: Loops Uploads API
   slug: loops-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-uploads-api-openapi.yml
 - filename: loops-workflow-nodes-api-openapi.yml
   format: yaml
   label: Loops Workflow nodes API
   slug: loops-workflow-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-workflow-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-workflow-nodes-api-openapi.yml
 - filename: loops-workflows-api-openapi.yml
   format: yaml
   label: Loops Workflows API
   slug: loops-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-workflows-api-openapi.yml
 - filename: loops-webhooks-asyncapi.yml
   format: yaml
   label: Loops Webhooks
   slug: loops-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/asyncapi/loops-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/loops/asyncapi/loops-webhooks-asyncapi.yml
 - filename: loops-webhooks-api-openapi.yml
   format: yaml
   label: Loops Webhooks API
   slug: loops-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-webhooks-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -194,7 +194,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://loops.s
   \ with named keyring entries and a\n        `--team` flag.\n    sources:\n      - openapi/_original/loops-openapi.yaml\n      - https://loops.so/docs/api-reference/intro\n  - name: oauth2\n    type: oauth2\n    surface: MCP server (https://mcp.loops.so)\n    flow: authorization_code\n    pkce: required (S256)\n    scopes:\n      - mcp\n    issuer: https://app.loops.so\n    authorization_endpoint: https://app.loops.so/oauth/authorize\n    token_endpoint: https://app.loops.so/oauth/token\n    revocation_endpoint: https://app.loops.so/oauth/revoke\n    refresh_tokens: true\n    client_authentication: none (public client)\n    client_registration: Client ID Metadata Documents, or pre-registration with Loops. No RFC 7591 DCR.\n    discovery:\n      authorization_server_metadata: https://app.loops.so/.well-known/oauth-authorization-server\n      protected_resource_metadata: https://mcp.loops.so/.well-known/oauth-protected-resource\n    challenge: >-\n      An unauthenticated call to the MCP\
   \ endpoint returns 401 with\n      `WWW-Authenticate: Bearer resource_metadata=\"https://mcp.loops.so/.well-known/oauth-protected-resource\", scope=\"mcp\"`.\n    sources:\n      - https://app.loops.so/.well-known/oauth-authorization-server\n      - https://mcp.loops.so/.well-known/oauth-protected-resource\n      - https://loops.so/docs/mcp-server\ncli_credential_handling:\n  storage: OS keyring, multiple named team keys\n  env_var: LOOPS_API_KEY\n  precedence:\n    - LOOPS_API_KEY\n    - --team flag\n    - stored default (`loops auth use`)\nwebhook_authentication:\n  direction: inbound to subscriber\n  mechanism: HMAC-SHA256 signature, Standard-Webhooks-style headers\n  headers:\n    - webhook-id\n    - webhook-timestamp\n    - webhook-signature\n  secret: issued per endpoint at https://app.loops.so/settings?page=webhooks, prefixed `whsec_`\n  see: asyncapi/loops-webhooks-asyncapi.yml\ngaps:\n  - No scoped or least-privilege REST credentials — every API key is full-access for its team.\n\
   \  - No key expiry or automatic rotation; rotation is manual.\n  - No OAuth path for third-party applications against the REST API; OAuth exists only for MCP.\n  - No mTLS, no request signing, no IP allowlisting documented.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/authentication/loops-authentication.yml
+source_yaml_url: https://artifacts.apis.io/loops/authentication/loops-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Email

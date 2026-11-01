@@ -7,55 +7,55 @@ api_specs:
   label: Lumos Tasks API
   slug: lumos-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/openapi/lumos-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/lumos/openapi/lumos-tasks-api-openapi.yml
 - filename: lumos-access-reviews-api-openapi.yml
   format: yaml
   label: Lumos Access Reviews API
   slug: lumos-access-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/openapi/lumos-access-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/lumos/openapi/lumos-access-reviews-api-openapi.yml
 - filename: lumos-core-api-openapi.yml
   format: yaml
   label: Lumos Core API
   slug: lumos-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/openapi/lumos-core-api-openapi.yml
+  url: https://artifacts.apis.io/lumos/openapi/lumos-core-api-openapi.yml
 - filename: lumos-integration-webhooks-api-openapi.yml
   format: yaml
   label: Lumos Integration Webhooks API
   slug: lumos-integration-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/openapi/lumos-integration-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/lumos/openapi/lumos-integration-webhooks-api-openapi.yml
 - filename: lumos-knowledge-api-openapi.yml
   format: yaml
   label: Lumos Knowledge API
   slug: lumos-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/openapi/lumos-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/lumos/openapi/lumos-knowledge-api-openapi.yml
 - filename: lumos-lifecycle-management-api-openapi.yml
   format: yaml
   label: Lumos Lifecycle Management API
   slug: lumos-lifecycle-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/openapi/lumos-lifecycle-management-api-openapi.yml
+  url: https://artifacts.apis.io/lumos/openapi/lumos-lifecycle-management-api-openapi.yml
 - filename: lumos-meta-api-openapi.yml
   format: yaml
   label: Lumos Meta API
   slug: lumos-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/openapi/lumos-meta-api-openapi.yml
+  url: https://artifacts.apis.io/lumos/openapi/lumos-meta-api-openapi.yml
 - filename: lumos-vendor-management-api-openapi.yml
   format: yaml
   label: Lumos Vendor Management API
   slug: lumos-vendor-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/openapi/lumos-vendor-management-api-openapi.yml
+  url: https://artifacts.apis.io/lumos/openapi/lumos-vendor-management-api-openapi.yml
 - filename: lumos-app-store-api-openapi.yml
   format: yaml
   label: Lumos App Store API
   slug: lumos-app-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/openapi/lumos-app-store-api-openapi.yml
+  url: https://artifacts.apis.io/lumos/openapi/lumos-app-store-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -117,7 +117,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-29'\nmethod: searched\nsource: >-\n  https://developers.lumos.com/docs/rest-api, https://api.lumos.com/openapi.json,\n  https://api.lumos.com/.well-known/oauth-authorization-server, and the RFC 9728 protected-resource\n  documents for both MCP endpoints\ndocs: https://developers.lumos.com/docs/rest-api\ndescription: >-\n  Lumos runs TWO independent credential systems on one host. The REST API takes a static bearer API\n  key prefixed `lsk_`. The two hosted MCP servers take an OAuth 2.1 access token from\n  b.app.lumosidentity.com and explicitly refuse API keys. An agent that has a working REST key still\n  cannot call the MCP servers, and vice versa.\nsummary:\n  types:\n  - http\n  - oauth2\n  systems: 2\nschemes:\n- name: HTTPBearer\n  type: http\n  scheme: bearer\n  bearerFormat: Lumos API key (lsk_ prefix)\n  applies_to: REST API (https://api.lumos.com)\n  in: Authorization header\n  key_prefix: lsk_\n  rotation: not documented\n  expiry: not documented\n\
   \  sources:\n  - openapi/lumos-openapi.json\n  - https://developers.lumos.com/docs/rest-api\n- name: LumosOAuth\n  type: oauth2\n  applies_to:\n  - https://api.lumos.com/mcp/user\n  - https://api.lumos.com/mcp/admin\n  flows:\n    authorizationCode:\n      authorizationUrl: https://b.app.lumosidentity.com/b/oauth/authorize\n      tokenUrl: https://b.app.lumosidentity.com/b/oauth/token\n      refreshUrl: https://b.app.lumosidentity.com/b/oauth/token\n      pkce: S256\n  issuer: https://b.app.lumosidentity.com\n  dynamic_client_registration: https://b.app.lumosidentity.com/b/oauth/register\n  token_endpoint_auth_methods:\n  - none\n  - client_secret_basic\n  - client_secret_post\n  scopes: scopes/lumos-scopes.yml\n  discovery:\n  - https://api.lumos.com/.well-known/oauth-authorization-server\n  - https://api.lumos.com/.well-known/oauth-protected-resource/mcp/user\n  - https://api.lumos.com/.well-known/oauth-protected-resource/mcp/admin\n  sources:\n  - well-known/lumos-oauth-authorization-server.json\n\
   \  - https://developers.lumos.com/docs/mcp\n  note: >-\n    Public-client friendly — `none` is an accepted token endpoint auth method and RFC 7591 dynamic\n    registration is open, which is what lets an arbitrary MCP client onboard without a pre-provisioned\n    client_id.\nchallenge_observed:\n  url: https://api.lumos.com/mcp/user\n  http_status: 401\n  www_authenticate: Bearer resource_metadata=\"https://api.lumos.com/.well-known/oauth-protected-resource/mcp/user\"\n  probed: '2026-08-29'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/authentication/lumos-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lumos/authentication/lumos-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Identity and Access Management

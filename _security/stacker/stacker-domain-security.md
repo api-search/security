@@ -5,25 +5,25 @@ api_specs:
   label: Stacker Accounts API
   slug: stacker-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacker/refs/heads/main/openapi/stacker-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/stacker/openapi/stacker-accounts-api-openapi.yml
 - filename: stacker-hello-api-openapi.yml
   format: yaml
   label: Stacker Hello API
   slug: stacker-hello-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacker/refs/heads/main/openapi/stacker-hello-api-openapi.yml
+  url: https://artifacts.apis.io/stacker/openapi/stacker-hello-api-openapi.yml
 - filename: stacker-objects-api-openapi.yml
   format: yaml
   label: Stacker Objects API
   slug: stacker-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacker/refs/heads/main/openapi/stacker-objects-api-openapi.yml
+  url: https://artifacts.apis.io/stacker/openapi/stacker-objects-api-openapi.yml
 - filename: stacker-records-api-openapi.yml
   format: yaml
   label: Stacker Records API
   slug: stacker-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacker/refs/heads/main/openapi/stacker-records-api-openapi.yml
+  url: https://artifacts.apis.io/stacker/openapi/stacker-records-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: stacker-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: stacker.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 19:23:02 2026 GMT\n  hsts: false\n- host: docs.stackerhq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 00:13:41 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.go.stackerhq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 21:34:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: stacker.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: stackerhq.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stacker/refs/heads/main/security/stacker-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/stacker/security/stacker-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Application Development

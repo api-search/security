@@ -8,49 +8,49 @@ api_specs:
   label: Bancontact Callback to Merchants API
   slug: bancontact-callback-to-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancontact/refs/heads/main/openapi/bancontact-callback-to-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/bancontact/openapi/bancontact-callback-to-merchants-api-openapi.yml
 - filename: bancontact-merchant-acknowledge-api-openapi.yml
   format: yaml
   label: Bancontact Merchant Acknowledge API
   slug: bancontact-merchant-acknowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancontact/refs/heads/main/openapi/bancontact-merchant-acknowledge-api-openapi.yml
+  url: https://artifacts.apis.io/bancontact/openapi/bancontact-merchant-acknowledge-api-openapi.yml
 - filename: bancontact-merchant-endpoints-api-openapi.yml
   format: yaml
   label: Bancontact Merchant Endpoints API
   slug: bancontact-merchant-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancontact/refs/heads/main/openapi/bancontact-merchant-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/bancontact/openapi/bancontact-merchant-endpoints-api-openapi.yml
 - filename: bancontact-payments-api-openapi.yml
   format: yaml
   label: Bancontact Payments API
   slug: bancontact-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancontact/refs/heads/main/openapi/bancontact-payments-api-openapi.yml
+  url: https://artifacts.apis.io/bancontact/openapi/bancontact-payments-api-openapi.yml
 - filename: bancontact-payoutlist-api-openapi.yml
   format: yaml
   label: Bancontact Payout List API
   slug: bancontact-payoutlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancontact/refs/heads/main/openapi/bancontact-payoutlist-api-openapi.yml
+  url: https://artifacts.apis.io/bancontact/openapi/bancontact-payoutlist-api-openapi.yml
 - filename: bancontact-payoutpayments-api-openapi.yml
   format: yaml
   label: Bancontact Payout Payments API
   slug: bancontact-payoutpayments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancontact/refs/heads/main/openapi/bancontact-payoutpayments-api-openapi.yml
+  url: https://artifacts.apis.io/bancontact/openapi/bancontact-payoutpayments-api-openapi.yml
 - filename: bancontact-payoutrefunds-api-openapi.yml
   format: yaml
   label: Bancontact Payout Refunds API
   slug: bancontact-payoutrefunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancontact/refs/heads/main/openapi/bancontact-payoutrefunds-api-openapi.yml
+  url: https://artifacts.apis.io/bancontact/openapi/bancontact-payoutrefunds-api-openapi.yml
 - filename: bancontact-refunds-api-openapi.yml
   format: yaml
   label: Bancontact Refunds API
   slug: bancontact-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancontact/refs/heads/main/openapi/bancontact-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/bancontact/openapi/bancontact-refunds-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -119,7 +119,7 @@ source_yaml: "generated: '2026-09-17'\nmethod: searched\ndocs: https://docs.banc
   \ over the request body, alg ES256, with a JOSE header\n      carrying kid, typ jose+json and the critical claims https://payconiq.com/sub (merchant\n      profile id), /iss, /iat (ISO 8601 UTC), /jti (unique request id) and /path (request path).\n      The merchant hosts its public key as a JWKS and shares the URL with Bancontact during\n      integration; Bancontact publishes its own keys at https://jwks.bancontact.net/ (PROD) and\n      https://jwks.preprod.bancontact.net/ (PREPROD) so merchants can verify signed responses\n      (SignatureBank header) and callbacks. Refund creation must additionally be activated by\n      Bancontact support before the JWS-signed endpoint accepts calls.\n    variants:\n      - {name: JWS-Request-Signature-Payment, spec: openapi/bancontact-payment-v3-api-openapi.yml, note: added in Payment API 3.6.4 (2025-08-26) for all payment calls}\n      - {name: JWS-Request-Signature-Refund, spec: openapi/bancontact-payment-refund-service-api-openapi.yml}\n    \
   \  - {name: JWS-Request-Signature, spec: openapi/bancontact-merchant-reconciliation-api-openapi.yml}\n    applies_to: [createRefund, getRefundById, getPayoutList, getPayments, getRefunds, create, merchant-get-payment, cancel_payment, search, create_static_qr_payment]\n    sources:\n      - openapi/bancontact-merchant-reconciliation-api-openapi.yml\n      - openapi/bancontact-payment-refund-service-api-openapi.yml\n      - openapi/bancontact-payment-v3-api-openapi.yml\ninbound_verification:\n  callbacks: >-\n    Status callbacks POSTed to the merchant carry a detached JWS in the `signature` header signed\n    by Bancontact (kid resolved against the published JWKS); merchants must verify origin,\n    integrity, audience (sub) and all crit claims before trusting the body. Bancontact rotates\n    keys without notice — a new JWK is published 24 h before the old one is removed; cache JWKS\n    for at most 12 h and re-fetch on verification failure.\n  docs: https://docs.bancontactpro.com/guides/general/callback052025\n\
   related:\n  scopes: none — no OAuth scopes; authorities (MERCHANT_PAYMENT, MERCHANT_REFUND) are baked into the issued key\n  conventions: conventions/bancontact-conventions.yml\n  sandbox: sandbox/bancontact-sandbox.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bancontact/refs/heads/main/authentication/bancontact-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bancontact/authentication/bancontact-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Banking

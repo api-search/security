@@ -5,25 +5,25 @@ api_specs:
   label: Amazon SQS Messages API
   slug: amazon-sqs-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/openapi/amazon-sqs-messages-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sqs/openapi/amazon-sqs-messages-api-openapi.yml
 - filename: amazon-sqs-permissions-api-openapi.yml
   format: yaml
   label: Amazon SQS Permissions API
   slug: amazon-sqs-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/openapi/amazon-sqs-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sqs/openapi/amazon-sqs-permissions-api-openapi.yml
 - filename: amazon-sqs-queues-api-openapi.yml
   format: yaml
   label: Amazon SQS Queues API
   slug: amazon-sqs-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/openapi/amazon-sqs-queues-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sqs/openapi/amazon-sqs-queues-api-openapi.yml
 - filename: amazon-sqs-tags-api-openapi.yml
   format: yaml
   label: Amazon SQS Tags API
   slug: amazon-sqs-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/openapi/amazon-sqs-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sqs/openapi/amazon-sqs-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: amazon-sqs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/security/amazon-sqs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amazon-sqs/security/amazon-sqs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud

@@ -8,13 +8,13 @@ api_specs:
   label: Dark Sky Forecast API
   slug: dark-sky-forecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dark-sky/refs/heads/main/openapi/dark-sky-forecast-api-openapi.yml
+  url: https://artifacts.apis.io/dark-sky/openapi/dark-sky-forecast-api-openapi.yml
 - filename: dark-sky-time-machine-api-openapi.yml
   format: yaml
   label: Dark Sky Time Machine API
   slug: dark-sky-time-machine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dark-sky/refs/heads/main/openapi/dark-sky-time-machine-api-openapi.yml
+  url: https://artifacts.apis.io/dark-sky/openapi/dark-sky-time-machine-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: dark-sky-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - path\nschemes:\n- name: ApiKeyPath\n  type: apiKey\n  in: path\n  parameter: key\n  description: Dark Sky API key included as the first path segment after /forecast/. Obtain\n    your key from https://darksky.net/dev.\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dark-sky/refs/heads/main/authentication/dark-sky-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dark-sky/authentication/dark-sky-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Weather

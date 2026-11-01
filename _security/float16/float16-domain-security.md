@@ -5,31 +5,31 @@ api_specs:
   label: Float16 Chat API
   slug: float16-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/float16/refs/heads/main/openapi/float16-chat-api-openapi.yml
+  url: https://artifacts.apis.io/float16/openapi/float16-chat-api-openapi.yml
 - filename: float16-fact-api-openapi.yml
   format: yaml
   label: Float16 Fact API
   slug: float16-fact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/float16/refs/heads/main/openapi/float16-fact-api-openapi.yml
+  url: https://artifacts.apis.io/float16/openapi/float16-fact-api-openapi.yml
 - filename: float16-float16-api-api-openapi.yml
   format: yaml
   label: Float16 Float16 API
   slug: float16-float16-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/float16/refs/heads/main/openapi/float16-float16-api-api-openapi.yml
+  url: https://artifacts.apis.io/float16/openapi/float16-float16-api-api-openapi.yml
 - filename: float16-ocr-api-openapi.yml
   format: yaml
   label: Float16 Ocr API
   slug: float16-ocr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/float16/refs/heads/main/openapi/float16-ocr-api-openapi.yml
+  url: https://artifacts.apis.io/float16/openapi/float16-ocr-api-openapi.yml
 - filename: float16-task-api-openapi.yml
   format: yaml
   label: Float16 Task API
   slug: float16-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/float16/refs/heads/main/openapi/float16-task-api-openapi.yml
+  url: https://artifacts.apis.io/float16/openapi/float16-task-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: float16-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-16'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: float16.cloud\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 13 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: float16.cloud\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/float16/refs/heads/main/security/float16-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/float16/security/float16-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

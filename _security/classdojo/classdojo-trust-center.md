@@ -15,7 +15,7 @@ source_filename: classdojo-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://security.classdojo.com/\nurl: https://security.classdojo.com/\ncertifications:\n- SOC 2\nevidence:\n- source: https://security.classdojo.com/\n  keywords:\n  - soc 2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/classdojo/refs/heads/main/security/classdojo-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/classdojo/security/classdojo-trust-center.yml
 summary_line: SOC 2
 tags:
 - Education

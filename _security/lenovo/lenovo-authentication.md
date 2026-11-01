@@ -8,13 +8,13 @@ api_specs:
   label: Lenovo Inventory API
   slug: lenovo-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lenovo/refs/heads/main/openapi/lenovo-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/lenovo/openapi/lenovo-inventory-api-openapi.yml
 - filename: lenovo-sessions-api-openapi.yml
   format: yaml
   label: Lenovo Sessions API
   slug: lenovo-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lenovo/refs/heads/main/openapi/lenovo-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/lenovo/openapi/lenovo-sessions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -44,7 +44,7 @@ source_filename: lenovo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/lenovo-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - cookie\nschemes:\n- name: sessionCookie\n  type: apiKey\n  in: cookie\n  parameter: JSESSIONID\n  description: |-\n    Session cookie issued by `POST /sessions`. Requests also require\n    the `X-Csrf-Token` header populated from the session response.\n  sources:\n  - openapi/lenovo-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lenovo/refs/heads/main/authentication/lenovo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lenovo/authentication/lenovo-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Data Center

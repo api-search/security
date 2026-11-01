@@ -7,49 +7,49 @@ api_specs:
   label: Datavant Configuration API
   slug: datavant-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/datavant/openapi/datavant-configuration-api-openapi.yml
 - filename: datavant-documents-api-openapi.yml
   format: yaml
   label: Datavant Documents API
   slug: datavant-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-documents-api-openapi.yml
+  url: https://artifacts.apis.io/datavant/openapi/datavant-documents-api-openapi.yml
 - filename: datavant-order-queries-api-openapi.yml
   format: yaml
   label: Datavant Order Queries API
   slug: datavant-order-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-order-queries-api-openapi.yml
+  url: https://artifacts.apis.io/datavant/openapi/datavant-order-queries-api-openapi.yml
 - filename: datavant-orders-api-openapi.yml
   format: yaml
   label: Datavant Orders API
   slug: datavant-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-orders-api-openapi.yml
+  url: https://artifacts.apis.io/datavant/openapi/datavant-orders-api-openapi.yml
 - filename: datavant-prematch-api-openapi.yml
   format: yaml
   label: Datavant Prematch API
   slug: datavant-prematch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-prematch-api-openapi.yml
+  url: https://artifacts.apis.io/datavant/openapi/datavant-prematch-api-openapi.yml
 - filename: datavant-projects-api-openapi.yml
   format: yaml
   label: Datavant Projects API
   slug: datavant-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-projects-api-openapi.yml
+  url: https://artifacts.apis.io/datavant/openapi/datavant-projects-api-openapi.yml
 - filename: datavant-visits-api-openapi.yml
   format: yaml
   label: Datavant Visits API
   slug: datavant-visits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-visits-api-openapi.yml
+  url: https://artifacts.apis.io/datavant/openapi/datavant-visits-api-openapi.yml
 - filename: datavant-oauth2-api-openapi.yml
   format: yaml
   label: Datavant Oauth2 API
   slug: datavant-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/datavant/openapi/datavant-oauth2-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: openapi/datavan
   \ it backs the Datavant Portal and the\n      identity layer around the API rather than the REST operations themselves.\n    sources:\n      - well-known/datavant-openid-configuration.json\ntoken_request:\n  method: POST\n  url: https://api.datavant.io/v2/oauth2/token\n  content_type: application/json\n  body_fields:\n    - grant_type\n    - client_id\n    - client_secret\n  grant_type: client_credentials\n  response_fields:\n    - access_token\n    - token_type\n    - expires_in\n  token_type: bearer\n  expires_in_seconds: 7200\n  source: openapi/datavant-rest-api-openapi.yml#/paths/~1oauth2~1token\nauthorization_server_metadata:\n  discovery:\n    openid_configuration: https://auth.datavant.com/.well-known/openid-configuration\n    oauth_authorization_server: https://auth.datavant.com/.well-known/oauth-authorization-server\n    jwks_uri: https://datavant.auth0.com/.well-known/jwks.json\n  grant_types_supported:\n    - client_credentials\n    - authorization_code\n    - refresh_token\n\
   \    - password\n    - implicit\n    - 'urn:ietf:params:oauth:grant-type:device_code'\n    - 'urn:ietf:params:oauth:grant-type:token-exchange'\n    - 'urn:ietf:params:oauth:grant-type:jwt-bearer'\n  token_endpoint_auth_methods_supported:\n    - client_secret_basic\n    - client_secret_post\n    - private_key_jwt\n    - none\n  code_challenge_methods_supported:\n    - S256\n    - plain\n  id_token_signing_alg_values_supported_note: RS256 (Auth0 default; see the captured discovery document)\nother_credentials:\n  - surface: Datavant Portal / Datavant CLI\n    mechanism: generated application credential (credentials.txt), piped to the CLI on stdin or supplied via the DV_USER_CREDENTIALS environment variable\n    lifetime: 10 years\n    issued_from: Datavant Portal Download page (login-gated)\n    note: >-\n      This is a separate credential from the REST API OAuth client. It is generated once\n      and cannot be viewed again; account admins are emailed before expiry.\n    source: https://aws.amazon.com/marketplace/pp/prodview-eolcfagze2ihw\n\
   gaps:\n  - No scopes are published for the REST API, so an agent cannot request least privilege.\n  - No mTLS, no API-key scheme, and no DPoP / proof-of-possession is declared.\n  - No token-introspection or revocation endpoint is documented for the REST API token issuer.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/authentication/datavant-authentication.yml
+source_yaml_url: https://artifacts.apis.io/datavant/authentication/datavant-authentication.yml
 summary_line: oauth2/openIdConnect · 2 schemes
 tags:
 - Healthcare

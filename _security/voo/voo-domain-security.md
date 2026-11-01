@@ -26,7 +26,7 @@ source_filename: voo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sa.sideup.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 15:10:30 2026 GMT\n  hsts: false\ndomains:\n- domain: sideup.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voo/refs/heads/main/security/voo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/voo/security/voo-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

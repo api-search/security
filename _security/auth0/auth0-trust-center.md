@@ -5,433 +5,433 @@ api_specs:
   label: Auth0 Actions API
   slug: auth0-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-actions-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-actions-api-openapi.yml
 - filename: auth0-anomaly-api-openapi.yml
   format: yaml
   label: Auth0 Anomaly API
   slug: auth0-anomaly-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-anomaly-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-anomaly-api-openapi.yml
 - filename: auth0-assertions-api-openapi.yml
   format: yaml
   label: Auth0 Assertions API
   slug: auth0-assertions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-assertions-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-assertions-api-openapi.yml
 - filename: auth0-attack-protection-api-openapi.yml
   format: yaml
   label: Auth0 Attack Protection API
   slug: auth0-attack-protection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-attack-protection-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-attack-protection-api-openapi.yml
 - filename: auth0-authorization-models-api-openapi.yml
   format: yaml
   label: Auth0 Authorization Models API
   slug: auth0-authorization-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-authorization-models-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-authorization-models-api-openapi.yml
 - filename: auth0-authorize-user-api-openapi.yml
   format: yaml
   label: Auth0 Authorize User API
   slug: auth0-authorize-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-authorize-user-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-authorize-user-api-openapi.yml
 - filename: auth0-authzenservice-api-openapi.yml
   format: yaml
   label: Auth0 AuthZenService API
   slug: auth0-authzenservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-authzenservice-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-authzenservice-api-openapi.yml
 - filename: auth0-branding-api-openapi.yml
   format: yaml
   label: Auth0 Branding API
   slug: auth0-branding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-branding-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-branding-api-openapi.yml
 - filename: auth0-client-grants-api-openapi.yml
   format: yaml
   label: Auth0 Client Grants API
   slug: auth0-client-grants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-client-grants-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-client-grants-api-openapi.yml
 - filename: auth0-clients-api-openapi.yml
   format: yaml
   label: Auth0 Clients API
   slug: auth0-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-clients-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-clients-api-openapi.yml
 - filename: auth0-connection-profiles-api-openapi.yml
   format: yaml
   label: Auth0 Connection Profiles API
   slug: auth0-connection-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-connection-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-connection-profiles-api-openapi.yml
 - filename: auth0-connections-api-openapi.yml
   format: yaml
   label: Auth0 Connections API
   slug: auth0-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-connections-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-connections-api-openapi.yml
 - filename: auth0-connections-directory-provisionings-api-openapi.yml
   format: yaml
   label: Auth0 Connections Directory Provisionings API
   slug: auth0-connections-directory-provisionings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-connections-directory-provisionings-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-connections-directory-provisionings-api-openapi.yml
 - filename: auth0-connections-scim-configurations-api-openapi.yml
   format: yaml
   label: Auth0 Connections SCIM Configurations API
   slug: auth0-connections-scim-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-connections-scim-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-connections-scim-configurations-api-openapi.yml
 - filename: auth0-custom-domains-api-openapi.yml
   format: yaml
   label: Auth0 Custom Domains API
   slug: auth0-custom-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-custom-domains-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-custom-domains-api-openapi.yml
 - filename: auth0-db-connections-api-openapi.yml
   format: yaml
   label: Auth0 DB Connections API
   slug: auth0-db-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-db-connections-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-db-connections-api-openapi.yml
 - filename: auth0-deprecated-authenticate-api-openapi.yml
   format: yaml
   label: Auth0 Deprecated > Authenticate API
   slug: auth0-deprecated-authenticate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-deprecated-authenticate-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-deprecated-authenticate-api-openapi.yml
 - filename: auth0-deprecated-delegated-authentication-api-openapi.yml
   format: yaml
   label: Auth0 Deprecated > Delegated Authentication API
   slug: auth0-deprecated-delegated-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-deprecated-delegated-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-deprecated-delegated-authentication-api-openapi.yml
 - filename: auth0-deprecated-impersonation-api-openapi.yml
   format: yaml
   label: Auth0 Deprecated > Impersonation API
   slug: auth0-deprecated-impersonation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-deprecated-impersonation-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-deprecated-impersonation-api-openapi.yml
 - filename: auth0-deprecated-link-accounts-api-openapi.yml
   format: yaml
   label: Auth0 Deprecated > Link Accounts API
   slug: auth0-deprecated-link-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-deprecated-link-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-deprecated-link-accounts-api-openapi.yml
 - filename: auth0-deprecated-passwordless-api-openapi.yml
   format: yaml
   label: Auth0 Deprecated > Passwordless API
   slug: auth0-deprecated-passwordless-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-deprecated-passwordless-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-deprecated-passwordless-api-openapi.yml
 - filename: auth0-device-credentials-api-openapi.yml
   format: yaml
   label: Auth0 Device Credentials API
   slug: auth0-device-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-device-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-device-credentials-api-openapi.yml
 - filename: auth0-device-flow-api-openapi.yml
   format: yaml
   label: Auth0 Device Flow API
   slug: auth0-device-flow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-device-flow-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-device-flow-api-openapi.yml
 - filename: auth0-email-templates-api-openapi.yml
   format: yaml
   label: Auth0 Email Templates API
   slug: auth0-email-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-email-templates-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-email-templates-api-openapi.yml
 - filename: auth0-emails-api-openapi.yml
   format: yaml
   label: Auth0 Emails API
   slug: auth0-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-emails-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-emails-api-openapi.yml
 - filename: auth0-event-streams-api-openapi.yml
   format: yaml
   label: Auth0 Event Streams API
   slug: auth0-event-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-event-streams-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-event-streams-api-openapi.yml
 - filename: auth0-events-api-openapi.yml
   format: yaml
   label: Auth0 Events API
   slug: auth0-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-events-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-events-api-openapi.yml
 - filename: auth0-flows-api-openapi.yml
   format: yaml
   label: Auth0 Flows API
   slug: auth0-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-flows-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-flows-api-openapi.yml
 - filename: auth0-forms-api-openapi.yml
   format: yaml
   label: Auth0 Forms API
   slug: auth0-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-forms-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-forms-api-openapi.yml
 - filename: auth0-grants-api-openapi.yml
   format: yaml
   label: Auth0 Grants API
   slug: auth0-grants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-grants-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-grants-api-openapi.yml
 - filename: auth0-groups-api-openapi.yml
   format: yaml
   label: Auth0 Groups API
   slug: auth0-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-groups-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-groups-api-openapi.yml
 - filename: auth0-guardian-api-openapi.yml
   format: yaml
   label: Auth0 Guardian API
   slug: auth0-guardian-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-guardian-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-guardian-api-openapi.yml
 - filename: auth0-hooks-api-openapi.yml
   format: yaml
   label: Auth0 Hooks API
   slug: auth0-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-hooks-api-openapi.yml
 - filename: auth0-jobs-api-openapi.yml
   format: yaml
   label: Auth0 Jobs API
   slug: auth0-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-jobs-api-openapi.yml
 - filename: auth0-keys-api-openapi.yml
   format: yaml
   label: Auth0 Keys API
   slug: auth0-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-keys-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-keys-api-openapi.yml
 - filename: auth0-log-streams-api-openapi.yml
   format: yaml
   label: Auth0 Log Streams API
   slug: auth0-log-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-log-streams-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-log-streams-api-openapi.yml
 - filename: auth0-logout-api-openapi.yml
   format: yaml
   label: Auth0 Logout API
   slug: auth0-logout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-logout-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-logout-api-openapi.yml
 - filename: auth0-logs-api-openapi.yml
   format: yaml
   label: Auth0 Logs API
   slug: auth0-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-logs-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-logs-api-openapi.yml
 - filename: auth0-mfa-api-openapi.yml
   format: yaml
   label: Auth0 MFA API
   slug: auth0-mfa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-mfa-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-mfa-api-openapi.yml
 - filename: auth0-network-acls-api-openapi.yml
   format: yaml
   label: Auth0 Network Acls API
   slug: auth0-network-acls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-network-acls-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-network-acls-api-openapi.yml
 - filename: auth0-oauth-token-api-openapi.yml
   format: yaml
   label: Auth0 OAuth Token API
   slug: auth0-oauth-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-oauth-token-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-oauth-token-api-openapi.yml
 - filename: auth0-oidc-api-openapi.yml
   format: yaml
   label: Auth0 OIDC API
   slug: auth0-oidc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-oidc-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-oidc-api-openapi.yml
 - filename: auth0-organizations-api-openapi.yml
   format: yaml
   label: Auth0 Organizations API
   slug: auth0-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-organizations-api-openapi.yml
 - filename: auth0-passwordless-api-openapi.yml
   format: yaml
   label: Auth0 Passwordless API
   slug: auth0-passwordless-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-passwordless-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-passwordless-api-openapi.yml
 - filename: auth0-prompts-api-openapi.yml
   format: yaml
   label: Auth0 Prompts API
   slug: auth0-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-prompts-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-prompts-api-openapi.yml
 - filename: auth0-refresh-tokens-api-openapi.yml
   format: yaml
   label: Auth0 Refresh Tokens API
   slug: auth0-refresh-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-refresh-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-refresh-tokens-api-openapi.yml
 - filename: auth0-relationship-queries-api-openapi.yml
   format: yaml
   label: Auth0 Relationship Queries API
   slug: auth0-relationship-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-relationship-queries-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-relationship-queries-api-openapi.yml
 - filename: auth0-relationship-tuples-api-openapi.yml
   format: yaml
   label: Auth0 Relationship Tuples API
   slug: auth0-relationship-tuples-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-relationship-tuples-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-relationship-tuples-api-openapi.yml
 - filename: auth0-resource-servers-api-openapi.yml
   format: yaml
   label: Auth0 Resource Servers API
   slug: auth0-resource-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-resource-servers-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-resource-servers-api-openapi.yml
 - filename: auth0-revoke-refresh-token-api-openapi.yml
   format: yaml
   label: Auth0 Revoke Refresh Token API
   slug: auth0-revoke-refresh-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-revoke-refresh-token-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-revoke-refresh-token-api-openapi.yml
 - filename: auth0-risk-assessments-api-openapi.yml
   format: yaml
   label: Auth0 Risk Assessments API
   slug: auth0-risk-assessments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-risk-assessments-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-risk-assessments-api-openapi.yml
 - filename: auth0-roles-api-openapi.yml
   format: yaml
   label: Auth0 Roles API
   slug: auth0-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-roles-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-roles-api-openapi.yml
 - filename: auth0-rules-api-openapi.yml
   format: yaml
   label: Auth0 Rules API
   slug: auth0-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-rules-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-rules-api-openapi.yml
 - filename: auth0-rules-configs-api-openapi.yml
   format: yaml
   label: Auth0 Rules Configs API
   slug: auth0-rules-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-rules-configs-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-rules-configs-api-openapi.yml
 - filename: auth0-saml-api-openapi.yml
   format: yaml
   label: Auth0 SAML API
   slug: auth0-saml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-saml-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-saml-api-openapi.yml
 - filename: auth0-self-service-profiles-api-openapi.yml
   format: yaml
   label: Auth0 Self Service Profiles API
   slug: auth0-self-service-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-self-service-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-self-service-profiles-api-openapi.yml
 - filename: auth0-sessions-api-openapi.yml
   format: yaml
   label: Auth0 Sessions API
   slug: auth0-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-sessions-api-openapi.yml
 - filename: auth0-sso-api-openapi.yml
   format: yaml
   label: Auth0 SSO API
   slug: auth0-sso-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-sso-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-sso-api-openapi.yml
 - filename: auth0-stats-api-openapi.yml
   format: yaml
   label: Auth0 Stats API
   slug: auth0-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-stats-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-stats-api-openapi.yml
 - filename: auth0-stores-api-openapi.yml
   format: yaml
   label: Auth0 Stores API
   slug: auth0-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-stores-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-stores-api-openapi.yml
 - filename: auth0-supplemental-signals-api-openapi.yml
   format: yaml
   label: Auth0 Supplemental Signals API
   slug: auth0-supplemental-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-supplemental-signals-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-supplemental-signals-api-openapi.yml
 - filename: auth0-tenants-api-openapi.yml
   format: yaml
   label: Auth0 Tenants API
   slug: auth0-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-tenants-api-openapi.yml
 - filename: auth0-tickets-api-openapi.yml
   format: yaml
   label: Auth0 Tickets API
   slug: auth0-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-tickets-api-openapi.yml
 - filename: auth0-token-exchange-profiles-api-openapi.yml
   format: yaml
   label: Auth0 Token Exchange Profiles API
   slug: auth0-token-exchange-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-token-exchange-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-token-exchange-profiles-api-openapi.yml
 - filename: auth0-user-attribute-profiles-api-openapi.yml
   format: yaml
   label: Auth0 User Attribute Profiles API
   slug: auth0-user-attribute-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-user-attribute-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-user-attribute-profiles-api-openapi.yml
 - filename: auth0-user-blocks-api-openapi.yml
   format: yaml
   label: Auth0 User Blocks API
   slug: auth0-user-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-user-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-user-blocks-api-openapi.yml
 - filename: auth0-user-profile-api-openapi.yml
   format: yaml
   label: Auth0 User Profile API
   slug: auth0-user-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-user-profile-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-user-profile-api-openapi.yml
 - filename: auth0-users-api-openapi.yml
   format: yaml
   label: Auth0 Users API
   slug: auth0-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-users-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-users-api-openapi.yml
 - filename: auth0-users-by-email-api-openapi.yml
   format: yaml
   label: Auth0 Users By Email API
   slug: auth0-users-by-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-users-by-email-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-users-by-email-api-openapi.yml
 - filename: auth0-verifiable-credentials-api-openapi.yml
   format: yaml
   label: Auth0 Verifiable Credentials API
   slug: auth0-verifiable-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-verifiable-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-verifiable-credentials-api-openapi.yml
 - filename: auth0-ws-fed-api-openapi.yml
   format: yaml
   label: Auth0 WS-Fed API
   slug: auth0-ws-fed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-ws-fed-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-ws-fed-api-openapi.yml
 - filename: auth0-ws-federation-api-openapi.yml
   format: yaml
   label: Auth0 WS-Federation API
   slug: auth0-ws-federation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-ws-federation-api-openapi.yml
+  url: https://artifacts.apis.io/auth0/openapi/auth0-ws-federation-api-openapi.yml
 certification_count: 10
 certifications:
 - SOC 2
@@ -457,7 +457,7 @@ source_filename: auth0-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://security.okta.com/\nurl: https://security.okta.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- CSA STAR\n- FIPS 140\nevidence:\n- source: https://security.okta.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - pci dss\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/security/auth0-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/auth0/security/auth0-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, GDPR, CSA STAR, FIPS 140
 tags:
 - Auth0

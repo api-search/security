@@ -7,7 +7,7 @@ api_specs:
   label: University of Michigan-Ann Arbor Repository API
   slug: university-of-michigan-ann-arbor-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-michigan-ann-arbor/refs/heads/main/openapi/university-of-michigan-ann-arbor-repository-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-michigan-ann-arbor/openapi/university-of-michigan-ann-arbor-repository-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -31,7 +31,7 @@ source_yaml: "---\nname: University of Michigan-Ann Arbor — Authentication\nge
   \ by ITS documentation and by mlibrary/class_api_requester.\n    public_credential_issuance: false\n  - surface: Magic Bus (mbus.ltp.umich.edu) BusTime API\n    operator: institution\n    scheme: api-key\n    description: >-\n      Query-string API access key. No public self-service key issuance page was found.\n    evidence: >-\n      GET https://mbus.ltp.umich.edu/bustime/api/v3/getroutes -> 200 text/xml,\n      '<bustime-response><error><msg>No API access key supplied</msg></error></bustime-response>'\nidentity_federation:\n  operator: institution\n  standard: SAML 2.0 / Shibboleth\n  entity_id: https://shibboleth.umich.edu/idp/shibboleth\n  metadata_url: https://shibboleth.umich.edu/idp/shibboleth\n  metadata_mirror: https://weblogin.umich.edu/idp/shibboleth\n  local_copy: authentication/university-of-michigan-ann-arbor-shibboleth-idp-metadata.xml\n  federation: InCommon\n  federation_registration_authority: https://incommon.org\n  federation_mdq: https://mdq.incommon.org/entities/https%3A%2F%2Fshibboleth.umich.edu%2Fidp%2Fshibboleth\n\
   \  scopes:\n    - umich.edu\n    - annarbor.umich.edu\n    - umd.umich.edu\n    - dearborn.umich.edu\n    - flint.umich.edu\n  display_name: University of Michigan\n  privacy_statement: https://it.umich.edu/security-privacy\n  entity_category: https://github.com/umich-iam/shibboleth-umich-federation/raw/master/category/prod.md\n  evidence: >-\n    GET https://shibboleth.umich.edu/idp/shibboleth -> 200 application/xml, 10,923 bytes;\n    GET https://mdq.incommon.org/entities/... -> 200 application/samlmetadata+xml, 9,252 bytes\n    with mdrpi:RegistrationInfo registrationAuthority=\"https://incommon.org\".\n  note: >-\n    U-M ITS Identity and Access Management publishes working SAML and OIDC service-provider\n    integration examples publicly at github.com/umich-iam (SSO-Examples plus fifteen\n    per-framework example repositories, and iam-api-examples). That is genuine, institution-authored\n    developer material — it just documents how to federate WITH U-M, not how to consume a U-M\
   \ API\n    without a U-M account.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-michigan-ann-arbor/refs/heads/main/authentication/university-of-michigan-ann-arbor-authentication.yml
+source_yaml_url: https://artifacts.apis.io/university-of-michigan-ann-arbor/authentication/university-of-michigan-ann-arbor-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

@@ -7,7 +7,7 @@ api_specs:
   label: StarTree (Cortexdata) Query API
   slug: startree-cortexdata-query-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/startree-cortexdata/refs/heads/main/openapi/startree-cortexdata-query-api-api-openapi.yml
+  url: https://artifacts.apis.io/startree-cortexdata/openapi/startree-cortexdata-query-api-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -34,7 +34,7 @@ source_filename: startree-cortexdata-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/startree-cortexdata-query-openapi.json\ndocs: https://docs.startree.ai/api-reference/introduction\nnotes: >-\n  StarTree Cloud authenticates with a Bearer token (JWT) generated in the\n  console under API Access. The token must be included on every request. A\n  `database` HTTP header carries the Workspace ID (e.g. ws_2kc8e2dnzzb0) for\n  multi-tenant (Free Tier) clusters; it is not required for dedicated clusters.\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/startree-cortexdata-query-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/startree-cortexdata/refs/heads/main/authentication/startree-cortexdata-authentication.yml
+source_yaml_url: https://artifacts.apis.io/startree-cortexdata/authentication/startree-cortexdata-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

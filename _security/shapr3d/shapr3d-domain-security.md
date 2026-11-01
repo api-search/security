@@ -33,7 +33,7 @@ source_filename: shapr3d-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.shapr3d.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 06:27:04 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: shapr3d.com\n  dnssec: false\n  caa:\n  - 0 issue \"www.digicert.com\"\n  - 0 iodef \"mailto:security@shapr3d.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shapr3d/refs/heads/main/security/shapr3d-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/shapr3d/security/shapr3d-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

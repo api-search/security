@@ -7,31 +7,31 @@ api_specs:
   label: Crescendo Lab Broadcast API
   slug: crescendo-lab-broadcast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/openapi/crescendo-lab-broadcast-api-openapi.yml
+  url: https://artifacts.apis.io/crescendo-lab/openapi/crescendo-lab-broadcast-api-openapi.yml
 - filename: crescendo-lab-contacts-api-openapi.yml
   format: yaml
   label: Crescendo Lab Contacts API
   slug: crescendo-lab-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/openapi/crescendo-lab-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/crescendo-lab/openapi/crescendo-lab-contacts-api-openapi.yml
 - filename: crescendo-lab-sms-api-openapi.yml
   format: yaml
   label: Crescendo Lab SMS API
   slug: crescendo-lab-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/openapi/crescendo-lab-sms-api-openapi.yml
+  url: https://artifacts.apis.io/crescendo-lab/openapi/crescendo-lab-sms-api-openapi.yml
 - filename: crescendo-lab-teams-api-openapi.yml
   format: yaml
   label: Crescendo Lab Teams API
   slug: crescendo-lab-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/openapi/crescendo-lab-teams-api-openapi.yml
+  url: https://artifacts.apis.io/crescendo-lab/openapi/crescendo-lab-teams-api-openapi.yml
 - filename: crescendo-lab-maac-go-api-api-openapi.yml
   format: yaml
   label: Crescendo Lab MAAC Go API
   slug: crescendo-lab-maac-go-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/openapi/crescendo-lab-maac-go-api-api-openapi.yml
+  url: https://artifacts.apis.io/crescendo-lab/openapi/crescendo-lab-maac-go-api-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -71,7 +71,7 @@ source_filename: crescendo-lab-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/crescendo-lab-maacgo-openapi.yaml\ndocs: https://sms.cresclab.com/developers.html\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  header: Authorization\n  format: 'Bearer <api_key>'\n  key_prefixes:\n  - sk_live_\n  - sk_test_\n  obtain: Generated on signup; managed in the dashboard at https://sms.cresclab.com/app.html#transactional\n  scoped: true\n  scope_note: >-\n    API keys are scoped (e.g. sms.read) and wallet-backed; a read-only key\n    cannot call send endpoints. Scopes gate which MCP tools succeed.\n  description: |-\n    `Authorization: Bearer <api_key>`. Production keys start with `sk_live_`,\n    test keys with `sk_test_` for environment separation. Sending still follows\n    the account wallet and deployment adapter settings.\n  sources:\n  - openapi/crescendo-lab-maacgo-openapi.yaml\n  - https://sms.cresclab.com/developers.html\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/authentication/crescendo-lab-authentication.yml
+source_yaml_url: https://artifacts.apis.io/crescendo-lab/authentication/crescendo-lab-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

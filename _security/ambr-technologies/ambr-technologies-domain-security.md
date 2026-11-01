@@ -28,7 +28,7 @@ source_filename: ambr-technologies-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-24'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ambr.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 23:09:01 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: ambr.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ambr-technologies/refs/heads/main/security/ambr-technologies-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ambr-technologies/security/ambr-technologies-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

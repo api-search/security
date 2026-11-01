@@ -8,7 +8,7 @@ api_specs:
   label: Freshpaint Events API
   slug: freshpaint-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshpaint/refs/heads/main/openapi/freshpaint-events-api-openapi.yml
+  url: https://artifacts.apis.io/freshpaint/openapi/freshpaint-events-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: freshpaint-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/freshpaint-events-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: EnvironmentToken\n  type: apiKey\n  in: query\n  parameter: token\n  description: Freshpaint authenticates server-side events with your environment ID (token).\n    The token is supplied inside the event payload as properties.token rather than as a header\n    or query string; this scheme documents the token-based, in-body authentication used by the\n    HTTP API. Obtain the token from the Server Side API section of the Sources page in the Freshpaint\n    app.\n  sources:\n  - openapi/freshpaint-events-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freshpaint/refs/heads/main/authentication/freshpaint-authentication.yml
+source_yaml_url: https://artifacts.apis.io/freshpaint/authentication/freshpaint-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Customer Data Platform

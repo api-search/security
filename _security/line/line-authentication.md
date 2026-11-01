@@ -7,67 +7,67 @@ api_specs:
   label: LINE Channel Access Token API
   slug: line-channel-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-channel-access-token-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-channel-access-token-api-openapi.yml
 - filename: line-dummy-api-openapi.yml
   format: yaml
   label: LINE Dummy API
   slug: line-dummy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-dummy-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-dummy-api-openapi.yml
 - filename: line-insight-api-openapi.yml
   format: yaml
   label: LINE Insight API
   slug: line-insight-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-insight-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-insight-api-openapi.yml
 - filename: line-liff-api-openapi.yml
   format: yaml
   label: LINE Liff API
   slug: line-liff-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-liff-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-liff-api-openapi.yml
 - filename: line-line-module-api-openapi.yml
   format: yaml
   label: LINE Module API
   slug: line-line-module-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-line-module-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-line-module-api-openapi.yml
 - filename: line-line-module-attach-api-openapi.yml
   format: yaml
   label: LINE Module Attach API
   slug: line-line-module-attach-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-line-module-attach-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-line-module-attach-api-openapi.yml
 - filename: line-manage-audience-api-openapi.yml
   format: yaml
   label: LINE Manage Audience API
   slug: line-manage-audience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-manage-audience-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-manage-audience-api-openapi.yml
 - filename: line-manage-audience-blob-api-openapi.yml
   format: yaml
   label: LINE Manage Audience Blob API
   slug: line-manage-audience-blob-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-manage-audience-blob-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-manage-audience-blob-api-openapi.yml
 - filename: line-messaging-api-api-openapi.yml
   format: yaml
   label: LINE Messaging API
   slug: line-messaging-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-messaging-api-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-messaging-api-api-openapi.yml
 - filename: line-messaging-api-blob-api-openapi.yml
   format: yaml
   label: LINE Messaging API Blob API
   slug: line-messaging-api-blob-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-messaging-api-blob-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-messaging-api-blob-api-openapi.yml
 - filename: line-shop-api-openapi.yml
   format: yaml
   label: LINE Shop API
   slug: line-shop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-shop-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-shop-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -158,7 +158,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\ndocs: https://developer
   \        ttl: 15 minutes\n        credentials: client_credentials with channel ID + channel secret\n        revoke: not revocable — expiry only\n        rate_limit: 370 requests per second\n  - name: basicAuth\n    type: http\n    scheme: basic\n    description: >-\n      HTTP Basic authentication used only by the Module Attach API on\n      manager.line.biz — the module channel presents its channel ID and secret\n      to attach a module channel to a LINE Official Account.\n    applies_to:\n      - openapi/line-module-attach-openapi.yml\n    host: https://manager.line.biz\n  - name: LINE Login (OAuth 2.0 / OpenID Connect)\n    type: openIdConnect\n    openIdConnectUrl: https://access.line.me/.well-known/openid-configuration\n    description: >-\n      End-user authentication and authorization. Authorization code grant with\n      optional PKCE (S256 only); ID tokens are ES256-signed JWTs verified\n      against the JWKS at https://api.line.me/oauth2/v2.1/certs. Subject\n      identifiers\
   \ are pairwise, so a user ID is stable per channel and not\n      portable across channels.\n    endpoints:\n      authorization: https://access.line.me/oauth2/v2.1/authorize\n      token: https://api.line.me/oauth2/v2.1/token\n      userinfo: https://api.line.me/oauth2/v2.1/userinfo\n      revocation: https://api.line.me/oauth2/v2.1/revoke\n      jwks: https://api.line.me/oauth2/v2.1/certs\n    scopes: [openid, profile, email]\n    not_in_spec: >-\n      This scheme is documented and machine-discoverable via OIDC discovery but\n      is not represented in any of the nine published OpenAPI documents — the\n      specs cover the bot/server surface only.\n    see: scopes/line-scopes.yml\ninbound_authentication:\n  webhook_signature:\n    header: x-line-signature\n    algorithm: Base64(HMAC-SHA256(channel secret, raw request body))\n    docs: https://developers.line.biz/en/docs/messaging-api/verify-webhook-signature/\n    note: >-\n      The bot server authenticates LINE, not the other way\
   \ round. Signature\n      must be computed over raw bytes before JSON parsing.\ngaps:\n  - >-\n    The published OpenAPI documents declare the Bearer scheme with only the\n    description \"Channel access token\" and no bearerFormat, so a generated\n    client cannot tell which of the four token flavours is expected.\n  - >-\n    No securityScheme at all is declared in channel-access-token.yml or\n    webhook.yml.\n  - >-\n    LINE Login is absent from the OpenAPI surface entirely; only OIDC discovery\n    describes it machine-readably.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/authentication/line-authentication.yml
+source_yaml_url: https://artifacts.apis.io/line/authentication/line-authentication.yml
 summary_line: http/oauth2/openIdConnect · 3 schemes
 tags:
 - Messaging

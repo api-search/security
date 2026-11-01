@@ -16,13 +16,13 @@ source_filename: integuru-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-17'\nmethod: searched\nprobe: true\nsource: https://www.integuru.com/trust\nurl: https://www.integuru.com/trust\ncertifications:\n- HIPAA\n- GDPR\nevidence:\n- source: https://www.integuru.com/trust\n  keywords:\n  - hipaa\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/integuru/refs/heads/main/security/integuru-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/integuru/security/integuru-trust-center.yml
 summary_line: HIPAA, GDPR
 tags:
 - Company
-- API-Generation
+- API Generation
 - Automation
 - Integration
-- Y-Combinator
+- Y Combinator
 trust_url: https://www.integuru.com/trust
 ---

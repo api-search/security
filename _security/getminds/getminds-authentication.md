@@ -7,85 +7,85 @@ api_specs:
   label: Minds Agent Runs API
   slug: getminds-agent-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getminds/refs/heads/main/openapi/getminds-agent-runs-api-openapi.yml
+  url: https://artifacts.apis.io/getminds/openapi/getminds-agent-runs-api-openapi.yml
 - filename: getminds-api-keys-api-openapi.yml
   format: yaml
   label: Minds API Keys API
   slug: getminds-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getminds/refs/heads/main/openapi/getminds-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/getminds/openapi/getminds-api-keys-api-openapi.yml
 - filename: getminds-audiences-api-openapi.yml
   format: yaml
   label: Minds Audiences API
   slug: getminds-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getminds/refs/heads/main/openapi/getminds-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/getminds/openapi/getminds-audiences-api-openapi.yml
 - filename: getminds-auth-api-openapi.yml
   format: yaml
   label: Minds Auth API
   slug: getminds-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getminds/refs/heads/main/openapi/getminds-auth-api-openapi.yml
+  url: https://artifacts.apis.io/getminds/openapi/getminds-auth-api-openapi.yml
 - filename: getminds-chat-api-openapi.yml
   format: yaml
   label: Minds Chat API
   slug: getminds-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getminds/refs/heads/main/openapi/getminds-chat-api-openapi.yml
+  url: https://artifacts.apis.io/getminds/openapi/getminds-chat-api-openapi.yml
 - filename: getminds-knowledge-api-openapi.yml
   format: yaml
   label: Minds Knowledge API
   slug: getminds-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getminds/refs/heads/main/openapi/getminds-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/getminds/openapi/getminds-knowledge-api-openapi.yml
 - filename: getminds-meta-api-openapi.yml
   format: yaml
   label: Minds Meta API
   slug: getminds-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getminds/refs/heads/main/openapi/getminds-meta-api-openapi.yml
+  url: https://artifacts.apis.io/getminds/openapi/getminds-meta-api-openapi.yml
 - filename: getminds-minds-api-openapi.yml
   format: yaml
   label: Minds Minds API
   slug: getminds-minds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getminds/refs/heads/main/openapi/getminds-minds-api-openapi.yml
+  url: https://artifacts.apis.io/getminds/openapi/getminds-minds-api-openapi.yml
 - filename: getminds-models-api-openapi.yml
   format: yaml
   label: Minds Models API
   slug: getminds-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getminds/refs/heads/main/openapi/getminds-models-api-openapi.yml
+  url: https://artifacts.apis.io/getminds/openapi/getminds-models-api-openapi.yml
 - filename: getminds-research-api-openapi.yml
   format: yaml
   label: Minds Research API
   slug: getminds-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getminds/refs/heads/main/openapi/getminds-research-api-openapi.yml
+  url: https://artifacts.apis.io/getminds/openapi/getminds-research-api-openapi.yml
 - filename: getminds-studies-api-openapi.yml
   format: yaml
   label: Minds Studies API
   slug: getminds-studies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getminds/refs/heads/main/openapi/getminds-studies-api-openapi.yml
+  url: https://artifacts.apis.io/getminds/openapi/getminds-studies-api-openapi.yml
 - filename: getminds-study-drafts-api-openapi.yml
   format: yaml
   label: Minds Study Drafts API
   slug: getminds-study-drafts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getminds/refs/heads/main/openapi/getminds-study-drafts-api-openapi.yml
+  url: https://artifacts.apis.io/getminds/openapi/getminds-study-drafts-api-openapi.yml
 - filename: getminds-study-runs-api-openapi.yml
   format: yaml
   label: Minds Study Runs API
   slug: getminds-study-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getminds/refs/heads/main/openapi/getminds-study-runs-api-openapi.yml
+  url: https://artifacts.apis.io/getminds/openapi/getminds-study-runs-api-openapi.yml
 - filename: getminds-study-templates-api-openapi.yml
   format: yaml
   label: Minds Study Templates API
   slug: getminds-study-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getminds/refs/heads/main/openapi/getminds-study-templates-api-openapi.yml
+  url: https://artifacts.apis.io/getminds/openapi/getminds-study-templates-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -146,7 +146,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-20'\nmethod: searched\nsource: https://getminds.ai/docs/api/authentication\nsummary:\n  types:\n  - http\n  - oauth2\n  note: >-\n    REST v1 API uses a personal API key sent as a bearer token. The MCP server\n    (https://getminds.ai/mcp) is a separate protected resource that uses OAuth 2.0\n    (or the same API key). The OpenAPI document itself is intentionally public.\nschemes:\n- name: ApiKeyAuth\n  surface: rest\n  type: http\n  scheme: bearer\n  bearerFormat: API Key\n  key_prefix: minds_\n  header: Authorization\n  description: >-\n    Personal API key sent as `Authorization: Bearer minds_…`. Keys are prefixed\n    `minds_`, created at https://getminds.ai/settings/api-keys, shown once at\n    creation, and never returned again. `GET /api/v1/auth/me` verifies a key.\n    A missing/invalid/revoked key returns a generic 401 (the API deliberately\n    does not distinguish among them).\n  docs: https://getminds.ai/docs/api/authentication\n  sources:\n\
   \  - openapi/getminds-openapi.json\n  - https://getminds.ai/docs/api/authentication\n- name: MCP OAuth2\n  surface: mcp\n  type: oauth2\n  flow: authorization_code\n  pkce: S256\n  dynamic_client_registration: true\n  token_endpoint_auth_methods:\n  - none\n  authorization_endpoint: https://getminds.ai/oauth/authorize\n  token_endpoint: https://getminds.ai/oauth/token\n  registration_endpoint: https://getminds.ai/oauth/register\n  revocation_endpoint: https://getminds.ai/oauth/revoke\n  protected_resource: https://getminds.ai/mcp\n  scopes:\n  - sparks:read\n  - sparks:write\n  - sparks:chat\n  - flows:read\n  - flows:write\n  description: >-\n    RFC 9728 protected-resource metadata is served at\n    /.well-known/oauth-protected-resource; the authorization server metadata\n    (RFC 8414) and OpenID configuration are served on the same host. Public\n    client (token_endpoint_auth_method none) with PKCE and dynamic client\n    registration. The MCP server also accepts a Minds API key in\
   \ place of OAuth.\n  docs: https://getminds.ai/mcp/setup\n  sources:\n  - well-known/getminds-oauth-authorization-server.json\n  - well-known/getminds-oauth-protected-resource.json\n  - well-known/getminds-openid-configuration.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/getminds/refs/heads/main/authentication/getminds-authentication.yml
+source_yaml_url: https://artifacts.apis.io/getminds/authentication/getminds-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Synthetic Research

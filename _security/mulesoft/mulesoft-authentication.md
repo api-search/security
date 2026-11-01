@@ -7,19 +7,19 @@ api_specs:
   label: MuleSoft Applications API
   slug: mulesoft-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mulesoft/refs/heads/main/openapi/mulesoft-applications-api-openapi.yml
+  url: https://artifacts.apis.io/mulesoft/openapi/mulesoft-applications-api-openapi.yml
 - filename: mulesoft-environments-api-openapi.yml
   format: yaml
   label: MuleSoft Environments API
   slug: mulesoft-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mulesoft/refs/heads/main/openapi/mulesoft-environments-api-openapi.yml
+  url: https://artifacts.apis.io/mulesoft/openapi/mulesoft-environments-api-openapi.yml
 - filename: mulesoft-organizations-api-openapi.yml
   format: yaml
   label: MuleSoft Organizations API
   slug: mulesoft-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mulesoft/refs/heads/main/openapi/mulesoft-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/mulesoft/openapi/mulesoft-organizations-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: mulesoft-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/mulesoft-anypoint-platform-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Anypoint Platform access token obtained via the Access Management API login endpoint\n    or a connected app OAuth 2.0 flow.\n  sources:\n  - openapi/mulesoft-anypoint-platform-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mulesoft/refs/heads/main/authentication/mulesoft-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mulesoft/authentication/mulesoft-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - API Gateway

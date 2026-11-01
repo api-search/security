@@ -5,43 +5,43 @@ api_specs:
   label: Aptos Accounts API
   slug: aptos-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptos/refs/heads/main/openapi/aptos-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/aptos/openapi/aptos-accounts-api-openapi.yml
 - filename: aptos-blocks-api-openapi.yml
   format: yaml
   label: Aptos Blocks API
   slug: aptos-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptos/refs/heads/main/openapi/aptos-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/aptos/openapi/aptos-blocks-api-openapi.yml
 - filename: aptos-events-api-openapi.yml
   format: yaml
   label: Aptos Events API
   slug: aptos-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptos/refs/heads/main/openapi/aptos-events-api-openapi.yml
+  url: https://artifacts.apis.io/aptos/openapi/aptos-events-api-openapi.yml
 - filename: aptos-general-api-openapi.yml
   format: yaml
   label: Aptos General API
   slug: aptos-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptos/refs/heads/main/openapi/aptos-general-api-openapi.yml
+  url: https://artifacts.apis.io/aptos/openapi/aptos-general-api-openapi.yml
 - filename: aptos-tables-api-openapi.yml
   format: yaml
   label: Aptos Tables API
   slug: aptos-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptos/refs/heads/main/openapi/aptos-tables-api-openapi.yml
+  url: https://artifacts.apis.io/aptos/openapi/aptos-tables-api-openapi.yml
 - filename: aptos-transactions-api-openapi.yml
   format: yaml
   label: Aptos Transactions API
   slug: aptos-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptos/refs/heads/main/openapi/aptos-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/aptos/openapi/aptos-transactions-api-openapi.yml
 - filename: aptos-view-api-openapi.yml
   format: yaml
   label: Aptos View API
   slug: aptos-view-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptos/refs/heads/main/openapi/aptos-view-api-openapi.yml
+  url: https://artifacts.apis.io/aptos/openapi/aptos-view-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -86,7 +86,7 @@ source_filename: aptos-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aptos.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 05:19:18 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.mainnet.aptoslabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 20:05:08 2026 GMT\n  hsts: null\n- host: grpc.mainnet.aptoslabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 20:05:08 2026 GMT\n  hsts: null\ndomains:\n- domain: aptos.dev\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n- domain: aptoslabs.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aptos/refs/heads/main/security/aptos-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aptos/security/aptos-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Blockchain

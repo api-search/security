@@ -5,19 +5,19 @@ api_specs:
   label: Arc Prize Foundation Commands API
   slug: arc-prize-foundation-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arc-prize-foundation/refs/heads/main/openapi/arc-prize-foundation-commands-api-openapi.yml
+  url: https://artifacts.apis.io/arc-prize-foundation/openapi/arc-prize-foundation-commands-api-openapi.yml
 - filename: arc-prize-foundation-games-api-openapi.yml
   format: yaml
   label: Arc Prize Foundation Games API
   slug: arc-prize-foundation-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arc-prize-foundation/refs/heads/main/openapi/arc-prize-foundation-games-api-openapi.yml
+  url: https://artifacts.apis.io/arc-prize-foundation/openapi/arc-prize-foundation-games-api-openapi.yml
 - filename: arc-prize-foundation-scorecards-api-openapi.yml
   format: yaml
   label: Arc Prize Foundation Scorecards API
   slug: arc-prize-foundation-scorecards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arc-prize-foundation/refs/heads/main/openapi/arc-prize-foundation-scorecards-api-openapi.yml
+  url: https://artifacts.apis.io/arc-prize-foundation/openapi/arc-prize-foundation-scorecards-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: arc-prize-foundation-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: three.arcprize.org\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 26 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: arcprize.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arc-prize-foundation/refs/heads/main/security/arc-prize-foundation-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/arc-prize-foundation/security/arc-prize-foundation-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

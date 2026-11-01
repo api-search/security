@@ -5,43 +5,43 @@ api_specs:
   label: Wego Countries API
   slug: wego-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wego/refs/heads/main/openapi/wego-countries-api-openapi.yml
+  url: https://artifacts.apis.io/wego/openapi/wego-countries-api-openapi.yml
 - filename: wego-feedback-api-openapi.yml
   format: yaml
   label: Wego Feedback API
   slug: wego-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wego/refs/heads/main/openapi/wego-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/wego/openapi/wego-feedback-api-openapi.yml
 - filename: wego-flights-api-openapi.yml
   format: yaml
   label: Wego Flights API
   slug: wego-flights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wego/refs/heads/main/openapi/wego-flights-api-openapi.yml
+  url: https://artifacts.apis.io/wego/openapi/wego-flights-api-openapi.yml
 - filename: wego-health-api-openapi.yml
   format: yaml
   label: Wego Health API
   slug: wego-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wego/refs/heads/main/openapi/wego-health-api-openapi.yml
+  url: https://artifacts.apis.io/wego/openapi/wego-health-api-openapi.yml
 - filename: wego-hotels-api-openapi.yml
   format: yaml
   label: Wego Hotels API
   slug: wego-hotels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wego/refs/heads/main/openapi/wego-hotels-api-openapi.yml
+  url: https://artifacts.apis.io/wego/openapi/wego-hotels-api-openapi.yml
 - filename: wego-places-api-openapi.yml
   format: yaml
   label: Wego Places API
   slug: wego-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wego/refs/heads/main/openapi/wego-places-api-openapi.yml
+  url: https://artifacts.apis.io/wego/openapi/wego-places-api-openapi.yml
 - filename: wego-user-api-openapi.yml
   format: yaml
   label: Wego User API
   slug: wego-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wego/refs/heads/main/openapi/wego-user-api-openapi.yml
+  url: https://artifacts.apis.io/wego/openapi/wego-user-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: wego-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.wego.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  3 07:01:58 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: docs.wego.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 03:38:14 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.wego.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  3 07:01:58 2026 GMT\n  hsts: null\ndomains:\n- domain: wego.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wego/refs/heads/main/security/wego-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wego/security/wego-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

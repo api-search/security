@@ -5,37 +5,37 @@ api_specs:
   label: Xylem Doc View API
   slug: xylem-docview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/openapi/xylem-docview-api-openapi.yml
+  url: https://artifacts.apis.io/xylem/openapi/xylem-docview-api-openapi.yml
 - filename: xylem-infor-api-openapi.yml
   format: yaml
   label: Xylem Infor API
   slug: xylem-infor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/openapi/xylem-infor-api-openapi.yml
+  url: https://artifacts.apis.io/xylem/openapi/xylem-infor-api-openapi.yml
 - filename: xylem-mes-api-openapi.yml
   format: yaml
   label: Xylem MES API
   slug: xylem-mes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/openapi/xylem-mes-api-openapi.yml
+  url: https://artifacts.apis.io/xylem/openapi/xylem-mes-api-openapi.yml
 - filename: xylem-mes-v2-api-openapi.yml
   format: yaml
   label: Xylem MES V2 API
   slug: xylem-mes-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/openapi/xylem-mes-v2-api-openapi.yml
+  url: https://artifacts.apis.io/xylem/openapi/xylem-mes-v2-api-openapi.yml
 - filename: xylem-nameplate-api-openapi.yml
   format: yaml
   label: Xylem Name Plate API
   slug: xylem-nameplate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/openapi/xylem-nameplate-api-openapi.yml
+  url: https://artifacts.apis.io/xylem/openapi/xylem-nameplate-api-openapi.yml
 - filename: xylem-serialcard-api-openapi.yml
   format: yaml
   label: Xylem Serial Card API
   slug: xylem-serialcard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/openapi/xylem-serialcard-api-openapi.yml
+  url: https://artifacts.apis.io/xylem/openapi/xylem-serialcard-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: xylem-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.xylem.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 29 07:04:28 2027 GMT\n  hsts: null\ndomains:\n- domain: xylem.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/security/xylem-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/xylem/security/xylem-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Fortune 1000

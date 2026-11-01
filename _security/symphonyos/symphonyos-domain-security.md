@@ -1,17 +1,23 @@
 ---
 api_specs:
+- filename: symphonyos-openapi-generated.yml
+  format: yaml
+  label: SymphonyOS API
+  slug: symphonyos-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/symphonyos/openapi/_ae-authored/symphonyos-openapi-generated.yml
 - filename: symphonyos-campaigns-api-openapi.yml
   format: yaml
   label: SymphonyOS Campaigns API
   slug: symphonyos-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symphonyos/refs/heads/main/openapi/symphonyos-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/symphonyos/openapi/symphonyos-campaigns-api-openapi.yml
 - filename: symphonyos-sym-api-openapi.yml
   format: yaml
   label: SymphonyOS Sym API
   slug: symphonyos-sym-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symphonyos/refs/heads/main/openapi/symphonyos-sym-api-openapi.yml
+  url: https://artifacts.apis.io/symphonyos/openapi/symphonyos-sym-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,7 +47,7 @@ source_filename: symphonyos-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: symphonyos.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 27 22:35:21 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: symphonyos.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/symphonyos/refs/heads/main/security/symphonyos-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/symphonyos/security/symphonyos-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

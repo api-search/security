@@ -8,61 +8,61 @@ api_specs:
   label: Seshat Markets Agent API
   slug: seshat-markets-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seshat-markets/refs/heads/main/openapi/seshat-markets-agent-api-openapi.yml
+  url: https://artifacts.apis.io/seshat-markets/openapi/seshat-markets-agent-api-openapi.yml
 - filename: seshat-markets-agent-intelligence-api-openapi.yml
   format: yaml
   label: Seshat Markets Agent Intelligence API
   slug: seshat-markets-agent-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seshat-markets/refs/heads/main/openapi/seshat-markets-agent-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/seshat-markets/openapi/seshat-markets-agent-intelligence-api-openapi.yml
 - filename: seshat-markets-analysis-api-openapi.yml
   format: yaml
   label: Seshat Markets Analysis API
   slug: seshat-markets-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seshat-markets/refs/heads/main/openapi/seshat-markets-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/seshat-markets/openapi/seshat-markets-analysis-api-openapi.yml
 - filename: seshat-markets-discovery-api-openapi.yml
   format: yaml
   label: Seshat Markets Discovery API
   slug: seshat-markets-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seshat-markets/refs/heads/main/openapi/seshat-markets-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/seshat-markets/openapi/seshat-markets-discovery-api-openapi.yml
 - filename: seshat-markets-experimental-api-openapi.yml
   format: yaml
   label: Seshat Markets Experimental API
   slug: seshat-markets-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seshat-markets/refs/heads/main/openapi/seshat-markets-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/seshat-markets/openapi/seshat-markets-experimental-api-openapi.yml
 - filename: seshat-markets-forecast-api-openapi.yml
   format: yaml
   label: Seshat Markets Forecast API
   slug: seshat-markets-forecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seshat-markets/refs/heads/main/openapi/seshat-markets-forecast-api-openapi.yml
+  url: https://artifacts.apis.io/seshat-markets/openapi/seshat-markets-forecast-api-openapi.yml
 - filename: seshat-markets-market-intelligence-api-openapi.yml
   format: yaml
   label: Seshat Markets Market Intelligence API
   slug: seshat-markets-market-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seshat-markets/refs/heads/main/openapi/seshat-markets-market-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/seshat-markets/openapi/seshat-markets-market-intelligence-api-openapi.yml
 - filename: seshat-markets-semantic-similarity-api-openapi.yml
   format: yaml
   label: Seshat Markets Semantic Similarity API
   slug: seshat-markets-semantic-similarity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seshat-markets/refs/heads/main/openapi/seshat-markets-semantic-similarity-api-openapi.yml
+  url: https://artifacts.apis.io/seshat-markets/openapi/seshat-markets-semantic-similarity-api-openapi.yml
 - filename: seshat-markets-signal-api-openapi.yml
   format: yaml
   label: Seshat Markets Signal API
   slug: seshat-markets-signal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seshat-markets/refs/heads/main/openapi/seshat-markets-signal-api-openapi.yml
+  url: https://artifacts.apis.io/seshat-markets/openapi/seshat-markets-signal-api-openapi.yml
 - filename: seshat-markets-verification-api-openapi.yml
   format: yaml
   label: Seshat Markets Verification API
   slug: seshat-markets-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seshat-markets/refs/heads/main/openapi/seshat-markets-verification-api-openapi.yml
+  url: https://artifacts.apis.io/seshat-markets/openapi/seshat-markets-verification-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -91,7 +91,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: openapi/seshat-markets-kronos-quant-signal-api-openapi.json\ndocs: https://kronos.seshat.markets/docs#x402\nmodel: >-\n  Keyless by design: x402 micropayments ARE the authentication. Paid endpoints answer HTTP\n  402 with a signed payment requirement (price, USDC asset, destination, network); the\n  buyer-controlled wallet signs an authorization and the client retries with the payment in\n  the PAYMENT-SIGNATURE (or legacy X-PAYMENT) header. Settlement is real USDC on Solana\n  mainnet (~400ms) or Base L2 (~2s) via the PayAI facilitator, using EIP-3009/Permit2 (EVM)\n  or exact SVM (Solana) schemes - see /.well-known/x402 (saved in well-known/). Free\n  endpoints require no credentials at all; there is no signup, no API key, and no OAuth.\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: x402Payment\n  type: apiKey\n  in: header\n  parameter: PAYMENT-SIGNATURE\n  description: x402 v2 payment payload.\
   \ Required for paid endpoints when the service manifest\n    at /.well-known/x402 has enforcement=active_mainnet. Send the signed payment in this header\n    (or the legacy X-PAYMENT header) to satisfy the 402 challenge.\n  sources:\n  - openapi/seshat-markets-kronos-quant-signal-api-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seshat-markets/refs/heads/main/authentication/seshat-markets-authentication.yml
+source_yaml_url: https://artifacts.apis.io/seshat-markets/authentication/seshat-markets-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Finance

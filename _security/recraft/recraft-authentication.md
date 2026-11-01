@@ -13,25 +13,25 @@ api_specs:
   label: Recraft Images API
   slug: recraft-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recraft/refs/heads/main/openapi/recraft-images-api-openapi.yml
+  url: https://artifacts.apis.io/recraft/openapi/recraft-images-api-openapi.yml
 - filename: recraft-prompts-api-openapi.yml
   format: yaml
   label: Recraft Prompts API
   slug: recraft-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recraft/refs/heads/main/openapi/recraft-prompts-api-openapi.yml
+  url: https://artifacts.apis.io/recraft/openapi/recraft-prompts-api-openapi.yml
 - filename: recraft-styles-api-openapi.yml
   format: yaml
   label: Recraft Styles API
   slug: recraft-styles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recraft/refs/heads/main/openapi/recraft-styles-api-openapi.yml
+  url: https://artifacts.apis.io/recraft/openapi/recraft-styles-api-openapi.yml
 - filename: recraft-users-api-openapi.yml
   format: yaml
   label: Recraft Users API
   slug: recraft-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recraft/refs/heads/main/openapi/recraft-users-api-openapi.yml
+  url: https://artifacts.apis.io/recraft/openapi/recraft-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: recraft-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/recraft-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token authentication using a Recraft API token.\n  sources:\n  - openapi/recraft-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/recraft/refs/heads/main/authentication/recraft-authentication.yml
+source_yaml_url: https://artifacts.apis.io/recraft/authentication/recraft-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

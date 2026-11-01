@@ -7,13 +7,13 @@ api_specs:
   label: Otonomo EU API
   slug: otonomo-eu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/otonomo/refs/heads/main/openapi/otonomo-eu-api-openapi.yml
+  url: https://artifacts.apis.io/otonomo/openapi/otonomo-eu-api-openapi.yml
 - filename: otonomo-us-api-openapi.yml
   format: yaml
   label: Otonomo US API
   slug: otonomo-us-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/otonomo/refs/heads/main/openapi/otonomo-us-api-openapi.yml
+  url: https://artifacts.apis.io/otonomo/openapi/otonomo-us-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -44,7 +44,7 @@ source_filename: otonomo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/otonomo-fleet-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.otonomo.io/v1/oauth/token/\n    scopes: 0\n  description: 'OAuth2 client-credentials. Obtain a Bearer token from POST /v1/oauth/token/\n    then send it as Authorization: Bearer <token>.'\n  sources:\n  - openapi/otonomo-fleet-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/otonomo/refs/heads/main/authentication/otonomo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/otonomo/authentication/otonomo-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

@@ -8,139 +8,139 @@ api_specs:
   label: Agent Exchange Agents API
   slug: agentexchange-work-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentexchange-work/refs/heads/main/openapi/agentexchange-work-agents-api-openapi.yml
+  url: https://artifacts.apis.io/agentexchange-work/openapi/agentexchange-work-agents-api-openapi.yml
 - filename: agentexchange-work-billing-api-openapi.yml
   format: yaml
   label: Agent Exchange Billing API
   slug: agentexchange-work-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentexchange-work/refs/heads/main/openapi/agentexchange-work-billing-api-openapi.yml
+  url: https://artifacts.apis.io/agentexchange-work/openapi/agentexchange-work-billing-api-openapi.yml
 - filename: agentexchange-work-claim-api-openapi.yml
   format: yaml
   label: Agent Exchange Claim API
   slug: agentexchange-work-claim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentexchange-work/refs/heads/main/openapi/agentexchange-work-claim-api-openapi.yml
+  url: https://artifacts.apis.io/agentexchange-work/openapi/agentexchange-work-claim-api-openapi.yml
 - filename: agentexchange-work-crawl-api-openapi.yml
   format: yaml
   label: Agent Exchange Crawl API
   slug: agentexchange-work-crawl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentexchange-work/refs/heads/main/openapi/agentexchange-work-crawl-api-openapi.yml
+  url: https://artifacts.apis.io/agentexchange-work/openapi/agentexchange-work-crawl-api-openapi.yml
 - filename: agentexchange-work-crypto-api-openapi.yml
   format: yaml
   label: Agent Exchange Crypto API
   slug: agentexchange-work-crypto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentexchange-work/refs/heads/main/openapi/agentexchange-work-crypto-api-openapi.yml
+  url: https://artifacts.apis.io/agentexchange-work/openapi/agentexchange-work-crypto-api-openapi.yml
 - filename: agentexchange-work-directory-api-openapi.yml
   format: yaml
   label: Agent Exchange Directory API
   slug: agentexchange-work-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentexchange-work/refs/heads/main/openapi/agentexchange-work-directory-api-openapi.yml
+  url: https://artifacts.apis.io/agentexchange-work/openapi/agentexchange-work-directory-api-openapi.yml
 - filename: agentexchange-work-enrichment-api-openapi.yml
   format: yaml
   label: Agent Exchange Enrichment API
   slug: agentexchange-work-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentexchange-work/refs/heads/main/openapi/agentexchange-work-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/agentexchange-work/openapi/agentexchange-work-enrichment-api-openapi.yml
 - filename: agentexchange-work-enterprise-api-openapi.yml
   format: yaml
   label: Agent Exchange Enterprise API
   slug: agentexchange-work-enterprise-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentexchange-work/refs/heads/main/openapi/agentexchange-work-enterprise-api-openapi.yml
+  url: https://artifacts.apis.io/agentexchange-work/openapi/agentexchange-work-enterprise-api-openapi.yml
 - filename: agentexchange-work-handshakes-api-openapi.yml
   format: yaml
   label: Agent Exchange Handshakes API
   slug: agentexchange-work-handshakes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentexchange-work/refs/heads/main/openapi/agentexchange-work-handshakes-api-openapi.yml
+  url: https://artifacts.apis.io/agentexchange-work/openapi/agentexchange-work-handshakes-api-openapi.yml
 - filename: agentexchange-work-human-checkout-api-openapi.yml
   format: yaml
   label: Agent Exchange Human Checkout API
   slug: agentexchange-work-human-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentexchange-work/refs/heads/main/openapi/agentexchange-work-human-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/agentexchange-work/openapi/agentexchange-work-human-checkout-api-openapi.yml
 - filename: agentexchange-work-llm-api-openapi.yml
   format: yaml
   label: Agent Exchange Llm API
   slug: agentexchange-work-llm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentexchange-work/refs/heads/main/openapi/agentexchange-work-llm-api-openapi.yml
+  url: https://artifacts.apis.io/agentexchange-work/openapi/agentexchange-work-llm-api-openapi.yml
 - filename: agentexchange-work-marketplace-api-openapi.yml
   format: yaml
   label: Agent Exchange Marketplace API
   slug: agentexchange-work-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentexchange-work/refs/heads/main/openapi/agentexchange-work-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/agentexchange-work/openapi/agentexchange-work-marketplace-api-openapi.yml
 - filename: agentexchange-work-notary-api-openapi.yml
   format: yaml
   label: Agent Exchange Notary API
   slug: agentexchange-work-notary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentexchange-work/refs/heads/main/openapi/agentexchange-work-notary-api-openapi.yml
+  url: https://artifacts.apis.io/agentexchange-work/openapi/agentexchange-work-notary-api-openapi.yml
 - filename: agentexchange-work-odds-api-openapi.yml
   format: yaml
   label: Agent Exchange Odds API
   slug: agentexchange-work-odds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentexchange-work/refs/heads/main/openapi/agentexchange-work-odds-api-openapi.yml
+  url: https://artifacts.apis.io/agentexchange-work/openapi/agentexchange-work-odds-api-openapi.yml
 - filename: agentexchange-work-oracle-api-openapi.yml
   format: yaml
   label: Agent Exchange Oracle API
   slug: agentexchange-work-oracle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentexchange-work/refs/heads/main/openapi/agentexchange-work-oracle-api-openapi.yml
+  url: https://artifacts.apis.io/agentexchange-work/openapi/agentexchange-work-oracle-api-openapi.yml
 - filename: agentexchange-work-planets-api-openapi.yml
   format: yaml
   label: Agent Exchange Planets API
   slug: agentexchange-work-planets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentexchange-work/refs/heads/main/openapi/agentexchange-work-planets-api-openapi.yml
+  url: https://artifacts.apis.io/agentexchange-work/openapi/agentexchange-work-planets-api-openapi.yml
 - filename: agentexchange-work-pulse-api-openapi.yml
   format: yaml
   label: Agent Exchange Pulse API
   slug: agentexchange-work-pulse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentexchange-work/refs/heads/main/openapi/agentexchange-work-pulse-api-openapi.yml
+  url: https://artifacts.apis.io/agentexchange-work/openapi/agentexchange-work-pulse-api-openapi.yml
 - filename: agentexchange-work-scrape-api-openapi.yml
   format: yaml
   label: Agent Exchange Scrape API
   slug: agentexchange-work-scrape-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentexchange-work/refs/heads/main/openapi/agentexchange-work-scrape-api-openapi.yml
+  url: https://artifacts.apis.io/agentexchange-work/openapi/agentexchange-work-scrape-api-openapi.yml
 - filename: agentexchange-work-scraper-api-openapi.yml
   format: yaml
   label: Agent Exchange Scraper API
   slug: agentexchange-work-scraper-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentexchange-work/refs/heads/main/openapi/agentexchange-work-scraper-api-openapi.yml
+  url: https://artifacts.apis.io/agentexchange-work/openapi/agentexchange-work-scraper-api-openapi.yml
 - filename: agentexchange-work-search-api-openapi.yml
   format: yaml
   label: Agent Exchange Search API
   slug: agentexchange-work-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentexchange-work/refs/heads/main/openapi/agentexchange-work-search-api-openapi.yml
+  url: https://artifacts.apis.io/agentexchange-work/openapi/agentexchange-work-search-api-openapi.yml
 - filename: agentexchange-work-survey-api-openapi.yml
   format: yaml
   label: Agent Exchange Survey API
   slug: agentexchange-work-survey-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentexchange-work/refs/heads/main/openapi/agentexchange-work-survey-api-openapi.yml
+  url: https://artifacts.apis.io/agentexchange-work/openapi/agentexchange-work-survey-api-openapi.yml
 - filename: agentexchange-work-weather-api-openapi.yml
   format: yaml
   label: Agent Exchange Weather API
   slug: agentexchange-work-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentexchange-work/refs/heads/main/openapi/agentexchange-work-weather-api-openapi.yml
+  url: https://artifacts.apis.io/agentexchange-work/openapi/agentexchange-work-weather-api-openapi.yml
 - filename: agentexchange-work-x402-api-openapi.yml
   format: yaml
   label: Agent Exchange X402 API
   slug: agentexchange-work-x402-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentexchange-work/refs/heads/main/openapi/agentexchange-work-x402-api-openapi.yml
+  url: https://artifacts.apis.io/agentexchange-work/openapi/agentexchange-work-x402-api-openapi.yml
 auth_types:
 - x402-payment
 - apiKey
@@ -203,7 +203,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://store.a
   \ call returns the requirements (initialize instructions, verbatim: \"settle and retry with the signed payment payload in the x_payment argument\")'\n  sources:\n  - https://store.agentexchange.work/api-docs\n  - live 402 on GET https://store.agentexchange.work/chain/gas?chain=base (2026-09-19)\n- name: Card-bought API key (optional)\n  type: apiKey\n  in: header\n  parameter: 'Authorization: Bearer ak_… or X-API-Key'\n  applied_to: every store SKU over plain HTTPS\n  description: >-\n    billing/catalog.json, verbatim: \"Buy an API key with a credit/debit card. The key unlocks every SKU over\n    plain HTTPS (send `Authorization: Bearer ak_...` or `X-API-Key`).\" Plans: $29/month all-access, $19 one-time\n    1,000-call pack, and a not-yet-purchasable $0.01/call metered plan; \"Fair-use rate limited.\" The key prefix\n    ak_ is the provider's own statement.\n  sources:\n  - https://store.agentexchange.work/billing/catalog.json\n  - https://store.agentexchange.work/.well-known/usd.json\n\
   - name: Agent Planets api_key\n  type: apiKey\n  in: body\n  parameter: api_key\n  applied_to: planets mutating calls (terraform, build, post_offer, accept_offer …) and the $0.05 POST /api/accept\n  description: 'Issued free on POST /api/claim (\"Requires a planet api_key (free via POST /api/claim)\" — planets x402 catalog). Identity for the claimed planet, not a paid credential.'\n  sources:\n  - https://planets.agentexchange.work/.well-known/x402\n  - https://planets.agentexchange.work/llms.txt\n- name: none (free surfaces)\n  type: none\n  applied_to: GET /score, /samples, /docs, /api-docs, /status, /health, /v1/models, /badge, /market/tasks, the Clearing House register/discover/bid routes, planets /pulse, /api/planets, /handshakes, oracle /oracle/info, and every discovery document\n  description: Anonymous. CORS Access-Control-Allow-Origin * observed.\nmcp:\n  endpoint: https://store.agentexchange.work/mcp\n  auth: none (initialize and tools/list anonymous); paid tools x402-gated per\
   \ call via x_payment\n  oauth_protected_resource: 404 — JSON body {\"error\":\"not_oauth_protected\", \"authentication\":{\"type\":\"none\",\"protocol\":\"x402\",\"network\":\"base\",\"asset\":\"USDC\"}}\n  dynamic_client_registration: not offered\nattribution_headers:\n  note: 'Optional, non-authenticating headers the /partners document defines for installed integrations: x-agent-store-client (stable integration name), x-agent-store-install-id (stored only as a one-way fingerprint after a paid call), x-agent-store-referrer (public referrer id). They identify an integration for attribution and never grant access.'\nabsent:\n- OAuth 2.0 / OIDC (no discovery document on any of six hosts; the MCP host says so explicitly)\n- mutual TLS\n- signed requests beyond the x402 payment payload\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentexchange-work/refs/heads/main/authentication/agentexchange-work-authentication.yml
+source_yaml_url: https://artifacts.apis.io/agentexchange-work/authentication/agentexchange-work-authentication.yml
 summary_line: x402-payment/apiKey · 4 schemes
 tags:
 - Agents

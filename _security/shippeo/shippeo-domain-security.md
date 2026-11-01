@@ -5,25 +5,25 @@ api_specs:
   label: Shippeo ETA and Status API
   slug: shippeo-eta-and-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippeo/refs/heads/main/openapi/shippeo-eta-and-status-api-openapi.yml
+  url: https://artifacts.apis.io/shippeo/openapi/shippeo-eta-and-status-api-openapi.yml
 - filename: shippeo-event-subscriptions-api-openapi.yml
   format: yaml
   label: Shippeo Event Subscriptions API
   slug: shippeo-event-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippeo/refs/heads/main/openapi/shippeo-event-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/shippeo/openapi/shippeo-event-subscriptions-api-openapi.yml
 - filename: shippeo-positions-api-openapi.yml
   format: yaml
   label: Shippeo Positions API
   slug: shippeo-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippeo/refs/heads/main/openapi/shippeo-positions-api-openapi.yml
+  url: https://artifacts.apis.io/shippeo/openapi/shippeo-positions-api-openapi.yml
 - filename: shippeo-transport-orders-api-openapi.yml
   format: yaml
   label: Shippeo Transport Orders API
   slug: shippeo-transport-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippeo/refs/heads/main/openapi/shippeo-transport-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shippeo/openapi/shippeo-transport-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -86,7 +86,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.shippeo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_subject: developers.shippeo.com\n  cert_expires: Oct  1 20:46:16 2026 GMT\n  http_status: 200\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  note: Developer portal (SPA; Redoc/Swagger-based).\n- host: api.shippeo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_subject: '*.shippeo.com'\n  cert_expires: Sep 10 12:41:38 2026 GMT\n  http_status: 404\n  health_status: 200\n  hsts: false\n  note: Production API host, fronted by a Google load balancer. GET /health returns {\"http-server\":{\"healthy\":true}}; root returns 404.\n- host: www.shippeo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_subject: www.shippeo.com\n  cert_expires: Oct  1 07:09:18 2026 GMT\n  http_status: 200\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: false\n- host:\
   \ shippeo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_subject: shippeo.com\n  cert_expires: Sep  6 18:19:05 2026 GMT\n  http_status: 301\n  redirect: https://www.shippeo.com/\ndomains:\n- domain: shippeo.com\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: 'v=spf1 a include:_spf.google.com include:6849930.spf04.hubspotemail.net include:mailgun.org mx ~all'\n  dmarc: true\n  dmarc_policy: quarantine\n  dmarc_pct: 1\n  dmarc_rua: mailto:webmaster@shippeo.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shippeo/refs/heads/main/security/shippeo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/shippeo/security/shippeo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Supply Chain

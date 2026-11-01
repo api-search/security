@@ -8,19 +8,19 @@ api_specs:
   label: Softr Databases API
   slug: softr-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/softr/refs/heads/main/openapi/softr-databases-api-openapi.yml
+  url: https://artifacts.apis.io/softr/openapi/softr-databases-api-openapi.yml
 - filename: softr-records-api-openapi.yml
   format: yaml
   label: Softr Records API
   slug: softr-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/softr/refs/heads/main/openapi/softr-records-api-openapi.yml
+  url: https://artifacts.apis.io/softr/openapi/softr-records-api-openapi.yml
 - filename: softr-users-api-openapi.yml
   format: yaml
   label: Softr Users API
   slug: softr-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/softr/refs/heads/main/openapi/softr-users-api-openapi.yml
+  url: https://artifacts.apis.io/softr/openapi/softr-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: softr-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/softr-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: SoftrApiKey\n  type: apiKey\n  in: header\n  parameter: Softr-Api-Key\n  description: Personal access token generated from the Softr workspace settings.\n  sources:\n  - openapi/softr-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/softr/refs/heads/main/authentication/softr-authentication.yml
+source_yaml_url: https://artifacts.apis.io/softr/authentication/softr-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - No-Code

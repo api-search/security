@@ -5,55 +5,55 @@ api_specs:
   label: RunSignup Corrals API
   slug: runsignup-corrals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-corrals-api-openapi.yml
+  url: https://artifacts.apis.io/runsignup/openapi/runsignup-corrals-api-openapi.yml
 - filename: runsignup-divisions-api-openapi.yml
   format: yaml
   label: RunSignup Divisions API
   slug: runsignup-divisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-divisions-api-openapi.yml
+  url: https://artifacts.apis.io/runsignup/openapi/runsignup-divisions-api-openapi.yml
 - filename: runsignup-donations-api-openapi.yml
   format: yaml
   label: RunSignup Donations API
   slug: runsignup-donations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-donations-api-openapi.yml
+  url: https://artifacts.apis.io/runsignup/openapi/runsignup-donations-api-openapi.yml
 - filename: runsignup-participants-api-openapi.yml
   format: yaml
   label: RunSignup Participants API
   slug: runsignup-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-participants-api-openapi.yml
+  url: https://artifacts.apis.io/runsignup/openapi/runsignup-participants-api-openapi.yml
 - filename: runsignup-races-api-openapi.yml
   format: yaml
   label: RunSignup Races API
   slug: runsignup-races-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-races-api-openapi.yml
+  url: https://artifacts.apis.io/runsignup/openapi/runsignup-races-api-openapi.yml
 - filename: runsignup-reference-api-openapi.yml
   format: yaml
   label: RunSignup Reference API
   slug: runsignup-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-reference-api-openapi.yml
+  url: https://artifacts.apis.io/runsignup/openapi/runsignup-reference-api-openapi.yml
 - filename: runsignup-results-api-openapi.yml
   format: yaml
   label: RunSignup Results API
   slug: runsignup-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-results-api-openapi.yml
+  url: https://artifacts.apis.io/runsignup/openapi/runsignup-results-api-openapi.yml
 - filename: runsignup-teams-api-openapi.yml
   format: yaml
   label: RunSignup Teams API
   slug: runsignup-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-teams-api-openapi.yml
+  url: https://artifacts.apis.io/runsignup/openapi/runsignup-teams-api-openapi.yml
 - filename: runsignup-users-api-openapi.yml
   format: yaml
   label: RunSignup Users API
   slug: runsignup-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-users-api-openapi.yml
+  url: https://artifacts.apis.io/runsignup/openapi/runsignup-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -83,7 +83,7 @@ source_filename: runsignup-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: runsignup.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 09:23:57 2026 GMT\n  hsts: true\n  hsts_max_age: 15768000\ndomains:\n- domain: runsignup.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/security/runsignup-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/runsignup/security/runsignup-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Race Registration

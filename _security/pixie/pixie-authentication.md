@@ -8,19 +8,19 @@ api_specs:
   label: Pixie Clusters API
   slug: pixie-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/openapi/pixie-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/pixie/openapi/pixie-clusters-api-openapi.yml
 - filename: pixie-health-api-openapi.yml
   format: yaml
   label: Pixie Health API
   slug: pixie-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/openapi/pixie-health-api-openapi.yml
+  url: https://artifacts.apis.io/pixie/openapi/pixie-health-api-openapi.yml
 - filename: pixie-scripts-api-openapi.yml
   format: yaml
   label: Pixie Scripts API
   slug: pixie-scripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/openapi/pixie-scripts-api-openapi.yml
+  url: https://artifacts.apis.io/pixie/openapi/pixie-scripts-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: pixie-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pixie-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: pixie-api-key\n  description: Pixie API key for authenticating requests. Generate an API key from the Pixie\n    Cloud UI under Profile > API Keys.\n  sources:\n  - openapi/pixie-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/authentication/pixie-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pixie/authentication/pixie-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - eBPF

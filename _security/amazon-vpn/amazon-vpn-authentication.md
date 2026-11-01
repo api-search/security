@@ -8,7 +8,7 @@ api_specs:
   label: Amazon VPN AWS VPN API (Amazon EC2 Query API Subset) API
   slug: amazon-vpn-aws-vpn-api-amazon-ec2-query-api-subset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/openapi/amazon-vpn-aws-vpn-api-amazon-ec2-query-api-subset-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-vpn/openapi/amazon-vpn-aws-vpn-api-amazon-ec2-query-api-subset-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -49,7 +49,7 @@ source_yaml: "generated: '2026-09-01'\nmethod: searched\nsource: https://docs.aw
   \    - ec2:ModifyClientVpnEndpoint\n    - ec2:AssociateClientVpnTargetNetwork\n    - ec2:DisassociateClientVpnTargetNetwork\n    - ec2:AuthorizeClientVpnIngress\n    - ec2:RevokeClientVpnIngress\n    - ec2:ImportClientVpnClientCertificateRevocationList\n    - ec2:ExportClientVpnClientCertificateRevocationList\n    - ec2:CreateClientVpnRoute\n    - ec2:DeleteClientVpnRoute\n    - ec2:DescribeClientVpnConnections\n    - ec2:TerminateClientVpnConnections\n  service_linked_role: AWSServiceRoleForVPCS2SVPN\n  managed_policy: AWSVPCS2SVpnServiceRolePolicy\n  managed_policy_docs: https://docs.aws.amazon.com/vpn/latest/s2svpn/s2s-security-iam-awsmanpol.html\npermission_check:\n  parameter: DryRun\n  success_error: DryRunOperation\n  failure_error: UnauthorizedOperation\n  note: The API ships a first-class way to test authorization without acting. See conventions/amazon-vpn-conventions.yml.\nauth_failures:\n  - code: AuthFailure\n    status: 401\n    cause: Unsigned request. Observed live on 2026-09-01\
   \ across every /.well-known/ probe of ec2.amazonaws.com.\n  - code: IncompleteSignature\n    status: 400\n    cause: Malformed SigV4 signature.\n  - code: MissingAuthenticationToken\n    status: 403\n    cause: No credentials presented.\n  - code: ExpiredTokenException\n    status: 403\n    cause: STS session credentials expired.\n  - code: UnrecognizedClientException\n    status: 403\n    cause: Access key ID not recognised.\n  - code: AccessDeniedException\n    status: 403\n    cause: Credentials valid, IAM policy does not permit the action.\ntunnel_authentication:\n  note: >-\n    Distinct from API authentication — this is how the VPN tunnel itself authenticates,\n    and it is a separate concern an agent must not conflate with the API credential.\n  options:\n    - kind: pre-shared-key\n      default: true\n      storage: [site-to-site-vpn-service, aws-secrets-manager]\n      secrets_manager_since: '2025-05-27'\n    - kind: private-certificate\n      authority: AWS Private Certificate\
   \ Authority\n      docs: https://docs.aws.amazon.com/vpn/latest/s2svpn/vpn-tunnel-authentication-options.html\n    - kind: client-vpn-mutual-authentication\n      scope: AWS Client VPN\n      note: X.509 server and client certificates in AWS Certificate Manager, generated with OpenVPN easy-rsa.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/authentication/amazon-vpn-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-vpn/authentication/amazon-vpn-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Networking

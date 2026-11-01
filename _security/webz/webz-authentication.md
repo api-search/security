@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: >-\n  https://d
   \ https://news-search-mcp.webz.io/register\n  scopes:\n  - mcp\n  applies_to:\n  - https://news-search-mcp.webz.io/mcp\ntoken_acquisition:\n  where: https://app.webz.io/playground/dashboard\n  self_service: true\n  note: >-\n    A verified account with a positive credit balance is required. News API Lite issues a free\n    non-commercial token through https://webz.io/products/news-api#lite.\npermissions_model:\n  style: per-product entitlement attached to the token\n  documented_permissions:\n  - api_news\n  known_products:\n  - News / Blogs / Forums\n  - Reviews\n  - Cyber (dark web)\n  - Data Breaches\n  - Archive\n  - Firehose (FH API)\n  - News Search\n  escalation: >-\n    Adding a product is a sales/support action — support@webz.io for News/Blogs/Forums and Reviews,\n    sales@webz.io for Cyber, Data Breaches and Archive. There is no self-service upgrade path\n    documented for the dark-web products.\n  data_breach_extras:\n  - Domain authorization — a token may only search domains\
   \ authorized for it. A newly queried domain\n    is authorized automatically and takes ~20 seconds to index on first request; a domain with over\n    ~1,000,000 records in the past year is blocked with 403 until support enables it.\n  - A view-password permission controls whether the password field is returned in full or masked\n    (for example pa****23).\nfailure_modes:\n- status: 401\n  when: Missing or unknown token, or the account lacks the product permission for that endpoint.\n  body: '{ \"detail\": \"Unknown API token\" }'\n- status: 401\n  when: Cyber API without the Cyber permission. Note /cyberSeg returns 429 rather than 401 in this case.\n- status: 402\n  when: News Search — insufficient credits. Data Breaches — the account email is not verified.\n- status: 403\n  when: Account inactive, blocked, or trial ended; also an unauthorized or safeguard-blocked breach domain.\nwarnings:\n- The token travels in the query string on most products, so it lands in access logs, browser\n\
   \  history and any shared URL. The provider's own MCP guidance warns \"never commit your token to git\n  or put it in a URL\", which the query-parameter auth on the other six products directly contradicts.\n- Opening https://news-search-mcp.webz.io/mcp in a browser returns 401 by design.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/authentication/webz-authentication.yml
+source_yaml_url: https://artifacts.apis.io/webz/authentication/webz-authentication.yml
 summary_line: 3 schemes
 tags:
 - News Data
@@ -75,7 +75,7 @@ tags:
 - deep-web
 - Cybersecurity
 - Threat Intelligence
-- Data Breach
+- Data Breaches
 - pii-monitoring
 - OSINT
 - reviews-data

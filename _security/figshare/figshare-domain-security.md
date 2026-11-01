@@ -5,61 +5,61 @@ api_specs:
   label: Figshare Altmetric API
   slug: figshare-altmetric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-altmetric-api-openapi.yml
+  url: https://artifacts.apis.io/figshare/openapi/figshare-altmetric-api-openapi.yml
 - filename: figshare-articles-api-openapi.yml
   format: yaml
   label: Figshare Articles API
   slug: figshare-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-articles-api-openapi.yml
+  url: https://artifacts.apis.io/figshare/openapi/figshare-articles-api-openapi.yml
 - filename: figshare-authors-api-openapi.yml
   format: yaml
   label: Figshare Authors API
   slug: figshare-authors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-authors-api-openapi.yml
+  url: https://artifacts.apis.io/figshare/openapi/figshare-authors-api-openapi.yml
 - filename: figshare-collections-api-openapi.yml
   format: yaml
   label: Figshare Collections API
   slug: figshare-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-collections-api-openapi.yml
+  url: https://artifacts.apis.io/figshare/openapi/figshare-collections-api-openapi.yml
 - filename: figshare-institutions-api-openapi.yml
   format: yaml
   label: Figshare Institutions API
   slug: figshare-institutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-institutions-api-openapi.yml
+  url: https://artifacts.apis.io/figshare/openapi/figshare-institutions-api-openapi.yml
 - filename: figshare-other-api-openapi.yml
   format: yaml
   label: Figshare Other API
   slug: figshare-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-other-api-openapi.yml
+  url: https://artifacts.apis.io/figshare/openapi/figshare-other-api-openapi.yml
 - filename: figshare-profiles-api-openapi.yml
   format: yaml
   label: Figshare Profiles API
   slug: figshare-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/figshare/openapi/figshare-profiles-api-openapi.yml
 - filename: figshare-projects-api-openapi.yml
   format: yaml
   label: Figshare Projects API
   slug: figshare-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-projects-api-openapi.yml
+  url: https://artifacts.apis.io/figshare/openapi/figshare-projects-api-openapi.yml
 - filename: figshare-symplectic-api-openapi.yml
   format: yaml
   label: Figshare Symplectic API
   slug: figshare-symplectic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-symplectic-api-openapi.yml
+  url: https://artifacts.apis.io/figshare/openapi/figshare-symplectic-api-openapi.yml
 - filename: figshare-oauth-api-openapi.yml
   format: yaml
   label: Figshare OAUTH API
   slug: figshare-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/figshare/openapi/figshare-oauth-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -106,7 +106,7 @@ source_filename: figshare-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: figshare.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 23:59:59 2026 GMT\n  hsts: false\n- host: docs.figshare.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 25 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.figshare.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 25 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: figshare.com\n  dnssec: false\n  caa:\n  - 0 issue \"certainly.com\"\n  - 0 issue \"harica.gr\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/security/figshare-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/figshare/security/figshare-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Research Data

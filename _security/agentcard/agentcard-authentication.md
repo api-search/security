@@ -7,31 +7,31 @@ api_specs:
   label: Agentcard Authentication API
   slug: agentcard-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/openapi/agentcard-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/agentcard/openapi/agentcard-authentication-api-openapi.yml
 - filename: agentcard-connect-api-openapi.yml
   format: yaml
   label: Agentcard Connect API
   slug: agentcard-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/openapi/agentcard-connect-api-openapi.yml
+  url: https://artifacts.apis.io/agentcard/openapi/agentcard-connect-api-openapi.yml
 - filename: agentcard-identity-verification-api-openapi.yml
   format: yaml
   label: Agentcard Identity verification API
   slug: agentcard-identity-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/openapi/agentcard-identity-verification-api-openapi.yml
-- filename: agentcard-wallet-funding-api-openapi.yml
+  url: https://artifacts.apis.io/agentcard/openapi/agentcard-identity-verification-api-openapi.yml
+- filename: agentcard-member-cards-api-openapi.yml
   format: yaml
-  label: Agentcard Wallet funding API
-  slug: agentcard-wallet-funding-api
+  label: Agentcard Member cards API
+  slug: agentcard-member-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/openapi/agentcard-wallet-funding-api-openapi.yml
-- filename: agentcard-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/agentcard/openapi/agentcard-member-cards-api-openapi.yml
+- filename: agentcard-purchase-api-openapi.yml
   format: yaml
-  label: Agentcard Withdrawals API
-  slug: agentcard-withdrawals-api
+  label: Agentcard Purchase API
+  slug: agentcard-purchase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/openapi/agentcard-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/agentcard/openapi/agentcard-purchase-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -78,7 +78,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: openapi/agentcard-openapi-original.json + https://docs.agentcard.sh/companies/authentication/oauth + https://mcp.agentcard.sh/.well-known/oauth-authorization-server\ndocs: https://docs.agentcard.sh/companies/api/user-authentication\nsummary:\n  types: [http, oauth2]\n  http_schemes: [bearer]\n  oauth2_flows: [clientCredentials, authorizationCode]\nschemes:\n- name: platformToken\n  type: http\n  scheme: bearer\n  description: >-\n    Platform access token for the REST v2 API. Mint it via POST /api/v2/oauth/token by\n    exchanging client_id + client_secret (OAuth2 client credentials, RFC 6749 §4.4). Send as\n    Authorization: Bearer <token>. Tokens live one hour; no refresh token on this grant — re-mint.\n  sources: [openapi/agentcard-openapi-original.json]\n- name: connectWithAgentcard\n  type: oauth2\n  flow: authorizationCode\n  pkce: required   # S256, enforced for every client including confidential\n  authorization_server:\
   \ https://mcp.agentcard.sh\n  authorization_endpoint: https://mcp.agentcard.sh/authorize\n  token_endpoint: https://mcp.agentcard.sh/token\n  registration_endpoint: https://mcp.agentcard.sh/register\n  revocation_endpoint: https://mcp.agentcard.sh/revoke\n  resource: https://mcp.agentcard.sh/mcp   # audience-bound, sent on /authorize and /token\n  refresh: rotating   # refresh tokens rotate on every refresh — persist the new one\n  description: >-\n    \"Connect with Agentcard\" — OAuth 2.1 + PKCE for end-user authorization to the hosted MCP\n    server. Confidential clients get an acs_ secret; public (PKCE-only) clients omit it.\n    Discoverable via /.well-known/oauth-authorization-server and /.well-known/oauth-protected-resource.\n  sources: [https://mcp.agentcard.sh/.well-known/oauth-authorization-server, https://docs.agentcard.sh/companies/authentication/oauth]\nnotes: >-\n  The REST spec declares only the platformToken bearer scheme; the OAuth 2.1 + PKCE end-user\n  flow is documented\
   \ in the Companies auth docs and the MCP authorization-server metadata.\n  A headless phone-authentication path exists for messaging agents with no browser moment.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/authentication/agentcard-authentication.yml
+source_yaml_url: https://artifacts.apis.io/agentcard/authentication/agentcard-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

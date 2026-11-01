@@ -8,25 +8,25 @@ api_specs:
   label: Segmind Inference API
   slug: segmind-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/openapi/segmind-inference-api-openapi.yml
+  url: https://artifacts.apis.io/segmind/openapi/segmind-inference-api-openapi.yml
 - filename: segmind-account-api-openapi.yml
   format: yaml
   label: Segmind Account API
   slug: segmind-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/openapi/segmind-account-api-openapi.yml
+  url: https://artifacts.apis.io/segmind/openapi/segmind-account-api-openapi.yml
 - filename: segmind-storage-api-openapi.yml
   format: yaml
   label: Segmind Storage API
   slug: segmind-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/openapi/segmind-storage-api-openapi.yml
+  url: https://artifacts.apis.io/segmind/openapi/segmind-storage-api-openapi.yml
 - filename: segmind-fine-tuning-api-openapi.yml
   format: yaml
   label: Segmind Fine-tuning API
   slug: segmind-fine-tuning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/openapi/segmind-fine-tuning-api-openapi.yml
+  url: https://artifacts.apis.io/segmind/openapi/segmind-fine-tuning-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -138,7 +138,7 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: >-\n  https://d
   \      user in — they are not Segmind API scopes. See scopes/segmind-scopes.yml.\n    in_openapi: false\n  - name: oauth21AuthorizationServer\n    type: oauth2\n    surface: Third-party application access\n    status: announced\n    announced: '2026-06-16'\n    endpoint_base: '/oauth/ (host not stated in the release note)'\n    description: >-\n      Segmind runs an OAuth 2.1 authorization server so third-party applications,\n      \"including MCP clients\", can request scoped, user-authorized access and call the API\n      without ever handling an API key. Described as fully additive.\n    discoverable: false\n    note: >-\n      Not discoverable and not documented beyond the release note. There is no\n      /.well-known/oauth-authorization-server (RFC 8414) or\n      /.well-known/oauth-protected-resource (RFC 9728) on any Segmind host, no scope\n      reference, no registration flow, and no page under /docs describing it. Probed\n      2026-08-27: platform.segmind.com/.well-known/oauth-authorization-server\
   \ -> 404,\n      platform.segmind.com/oauth/authorize -> 404, api.segmind.com/oauth/authorize -> 400.\n      Recorded as announced-but-undiscoverable rather than as a usable scheme.\n    in_openapi: false\n    source: https://docs.segmind.com/docs/platform/release-notes/2026-06-21-weekly\nmutual_tls: false\nopenid_connect: false\nerrors:\n  - status: 401\n    code: invalid_token\n    description: Token is invalid or expired.\n  - status: 401\n    code: invalid_api_key\n    description: API key is invalid.\n  - status: 403\n    code: insufficient_scope\n    description: Token lacks required permissions.\n  - status: 429\n    code: rate_limit_exceeded\n    description: Too many requests.\nauth_rate_limits:\n  - scope: ip\n    surface: Authentication endpoints\n    limit: 5 requests/minute\n  - scope: user\n    surface: Token refresh\n    limit: 10 requests/hour\nbest_practices_published:\n  - Never expose API keys in client-side code\n  - Use environment variables for key storage (the Python\
   \ SDK reads SEGMIND_API_KEY)\n  - Rotate API keys periodically\n  - Implement retry logic with exponential backoff\n  - Watch Cost Analytics, which can filter by API key and break spend down per key\ngaps:\n  - >-\n    No per-key scoping is exposed to users. The key-creation example accepts a scopes\n    array, but no scope reference is published and the console UI is not documented as\n    offering it.\n  - >-\n    No OIDC discovery, no JWKS endpoint, and no published token-introspection or\n    revocation endpoint for the JWT surface.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/authentication/segmind-authentication.yml
+source_yaml_url: https://artifacts.apis.io/segmind/authentication/segmind-authentication.yml
 summary_line: apiKey/http/oauth2 · 4 schemes
 tags:
 - Artificial Intelligence

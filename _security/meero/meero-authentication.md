@@ -7,25 +7,25 @@ api_specs:
   label: Meero Asynchronous API
   slug: meero-asynchronous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/openapi/meero-asynchronous-api-openapi.yml
+  url: https://artifacts.apis.io/meero/openapi/meero-asynchronous-api-openapi.yml
 - filename: meero-feature-api-openapi.yml
   format: yaml
   label: Meero Feature API
   slug: meero-feature-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/openapi/meero-feature-api-openapi.yml
+  url: https://artifacts.apis.io/meero/openapi/meero-feature-api-openapi.yml
 - filename: meero-synchronous-api-openapi.yml
   format: yaml
   label: Meero Synchronous API
   slug: meero-synchronous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/openapi/meero-synchronous-api-openapi.yml
+  url: https://artifacts.apis.io/meero/openapi/meero-synchronous-api-openapi.yml
 - filename: meero-vehicle-api-openapi.yml
   format: yaml
   label: Meero Vehicle API
   slug: meero-vehicle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/openapi/meero-vehicle-api-openapi.yml
+  url: https://artifacts.apis.io/meero/openapi/meero-vehicle-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-08-25'\nmethod: probed\nsource: openapi/meero-car
   \ (no Authorization header)\n    http_status: 401\n    body_content_type: text/html\n    note: 'The live 401 body is an HTML \"401 Unauthorized\" page, not the JSON UnauthorizedResponse\n      the contract documents — a real gap between contract and runtime.'\n- name: none (public demo)\n  type: none\n  surface: POST https://api.car-cutter.com/vehicle/composition/segment\n  detail: 'A keyless demo composition path documented in github.com/carcutter/carcutter-api-samples.\n    Probed unauthenticated on 2026-08-25 and returned 400 \"invalid file\" rather than 401,\n    confirming it requires no credential. See sandbox/meero-sandbox.yml.'\n- name: carcutter_mcp_oauth\n  type: oauth2\n  surface: https://www.carcutter.com/wp-json/mcp/mcp-oauth-server\n  flows:\n    authorizationCode:\n      authorizationUrl: https://www.carcutter.com/oauth/authorize\n      tokenUrl: https://www.carcutter.com/oauth/token\n      refreshUrl: https://www.carcutter.com/oauth/token\n      scopes:\n        mcp: Access\
   \ to the CarCutter MCP server resource.\n  pkce: S256\n  client_registration: client_id_metadata_document (no client secret)\n  discovery:\n  - https://www.carcutter.com/.well-known/oauth-authorization-server\n  - https://www.carcutter.com/.well-known/oauth-protected-resource\n  detail: RFC 8414 + RFC 9728 compliant; the MCP 401 returns a WWW-Authenticate header pointing at the protected-resource metadata.\n- name: carcutter_hub_oidc\n  type: openIdConnect\n  openIdConnectUrl: https://auth.eu.car-cutter.com/.well-known/openid-configuration\n  surface: CarCutter Hub (https://hub.car-cutter.com/) and the gated audience https://api2.car-cutter.com\n  provider: Auth0\n  pkce: [S256, plain]\n  scopes_requested_by_hub: [openid, offline_access]\n  detail: 'Discovered from the Hub login redirect. api2.car-cutter.com is an AWS API Gateway that\n    answers every path with 403 {\"message\":\"Missing Authentication Token\"} — there is no public\n    contract for it, so it is recorded but not profiled.'\n\
   gaps:\n- No token rotation, expiry or revocation policy is published for the REST bearer token.\n- The REST API has no scopes; a token is all-or-nothing for the account.\n- No mutual TLS, no request signing, no IP allowlisting is documented.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/authentication/meero-authentication.yml
+source_yaml_url: https://artifacts.apis.io/meero/authentication/meero-authentication.yml
 summary_line: http/oauth2/openIdConnect · 4 schemes
 tags:
 - Automotive

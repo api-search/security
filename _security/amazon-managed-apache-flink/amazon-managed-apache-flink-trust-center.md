@@ -5,7 +5,13 @@ api_specs:
   label: Amazon Managed Service for Apache Flink Amazon Kinesis Analytics API
   slug: amazon-managed-apache-flink-amazon-kinesis-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-apache-flink/refs/heads/main/openapi/amazon-managed-apache-flink-amazon-kinesis-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-managed-apache-flink/openapi/amazon-managed-apache-flink-amazon-kinesis-analytics-api-openapi.yml
+- filename: amazon-managed-apache-flink-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Managed Service for Apache Flink Managed Apache Flink Operations API
+  slug: amazon-managed-apache-flink-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-managed-apache-flink/openapi/amazon-managed-apache-flink-operations-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -26,7 +32,7 @@ source_filename: amazon-managed-apache-flink-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://aws.amazon.com/compliance/\nurl: https://aws.amazon.com/compliance/\ncertifications:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://aws.amazon.com/compliance/\n  keywords:\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-apache-flink/refs/heads/main/security/amazon-managed-apache-flink-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/amazon-managed-apache-flink/security/amazon-managed-apache-flink-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Apache Flink

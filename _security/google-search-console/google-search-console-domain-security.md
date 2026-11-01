@@ -5,37 +5,37 @@ api_specs:
   label: Google Search Console Search Analytics API
   slug: google-search-console-search-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/openapi/google-search-console-search-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/google-search-console/openapi/google-search-console-search-analytics-api-openapi.yml
 - filename: google-search-console-sitemaps-api-openapi.yml
   format: yaml
   label: Google Search Console Sitemaps API
   slug: google-search-console-sitemaps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/openapi/google-search-console-sitemaps-api-openapi.yml
+  url: https://artifacts.apis.io/google-search-console/openapi/google-search-console-sitemaps-api-openapi.yml
 - filename: google-search-console-sites-api-openapi.yml
   format: yaml
   label: Google Search Console Sites API
   slug: google-search-console-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/openapi/google-search-console-sites-api-openapi.yml
+  url: https://artifacts.apis.io/google-search-console/openapi/google-search-console-sites-api-openapi.yml
 - filename: google-search-console-url-inspection-api-openapi.yml
   format: yaml
   label: Google Search Console URL Inspection API
   slug: google-search-console-url-inspection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/openapi/google-search-console-url-inspection-api-openapi.yml
+  url: https://artifacts.apis.io/google-search-console/openapi/google-search-console-url-inspection-api-openapi.yml
 - filename: google-search-console-urlnotifications-api-openapi.yml
   format: yaml
   label: Google Search Console URL Notifications API
   slug: google-search-console-urlnotifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/openapi/google-search-console-urlnotifications-api-openapi.yml
+  url: https://artifacts.apis.io/google-search-console/openapi/google-search-console-urlnotifications-api-openapi.yml
 - filename: google-search-console-urltestingtools-api-openapi.yml
   format: yaml
   label: Google Search Console URL Testing Tools API
   slug: google-search-console-urltestingtools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/openapi/google-search-console-urltestingtools-api-openapi.yml
+  url: https://artifacts.apis.io/google-search-console/openapi/google-search-console-urltestingtools-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -83,7 +83,7 @@ source_filename: google-search-console-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 18:05:55 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: searchconsole.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 18:07:34 2026 GMT\n  hsts: null\n- host: indexing.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 18:07:34 2026 GMT\n  hsts: null\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/security/google-search-console-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/google-search-console/security/google-search-console-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics

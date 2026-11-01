@@ -8,31 +8,31 @@ api_specs:
   label: Horizon Blockchain Games Analytics API
   slug: horizon-blockchain-games-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/openapi/horizon-blockchain-games-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/horizon-blockchain-games/openapi/horizon-blockchain-games-analytics-api-openapi.yml
 - filename: horizon-blockchain-games-marketplace-api-openapi.yml
   format: yaml
   label: Horizon Blockchain Games Marketplace API
   slug: horizon-blockchain-games-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/openapi/horizon-blockchain-games-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/horizon-blockchain-games/openapi/horizon-blockchain-games-marketplace-api-openapi.yml
 - filename: horizon-blockchain-games-public-api-openapi.yml
   format: yaml
   label: Horizon Blockchain Games Public API
   slug: horizon-blockchain-games-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/openapi/horizon-blockchain-games-public-api-openapi.yml
+  url: https://artifacts.apis.io/horizon-blockchain-games/openapi/horizon-blockchain-games-public-api-openapi.yml
 - filename: horizon-blockchain-games-rpc-api-openapi.yml
   format: yaml
   label: Horizon Blockchain Games Rpc API
   slug: horizon-blockchain-games-rpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/openapi/horizon-blockchain-games-rpc-api-openapi.yml
+  url: https://artifacts.apis.io/horizon-blockchain-games/openapi/horizon-blockchain-games-rpc-api-openapi.yml
 - filename: horizon-blockchain-games-secret-api-openapi.yml
   format: yaml
   label: Horizon Blockchain Games Secret API
   slug: horizon-blockchain-games-secret-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/openapi/horizon-blockchain-games-secret-api-openapi.yml
+  url: https://artifacts.apis.io/horizon-blockchain-games/openapi/horizon-blockchain-games-secret-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -78,7 +78,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/horizon-blockchain-games-builder-openapi-original.json, openapi/horizon-blockchain-games-indexer-openapi-original.json,\n  openapi/horizon-blockchain-games-infrastructure-openapi-original.json, openapi/horizon-blockchain-games-marketplace-openapi-original.json,\n  openapi/horizon-blockchain-games-metadata-openapi-original.json, openapi/horizon-blockchain-games-transactions-openapi-original.json\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-Access-Key\n  description: 'Public project access key for authenticating requests obtained on Sequence Builder.\n    Example Test Key: AQAAAAAAAEGvyZiWA9FMslYeG_yayXaHnSI'\n  sources:\n  - openapi/horizon-blockchain-games-builder-openapi-original.json\n  - openapi/horizon-blockchain-games-indexer-openapi-original.json\n  - openapi/horizon-blockchain-games-infrastructure-openapi-original.json\n\
   \  - openapi/horizon-blockchain-games-marketplace-openapi-original.json\n  - openapi/horizon-blockchain-games-metadata-openapi-original.json\n  - openapi/horizon-blockchain-games-transactions-openapi-original.json\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Secret JWT token for authenticating requests obtained from Sequence Builder -\n    should not be exposed publicly.\n  sources:\n  - openapi/horizon-blockchain-games-builder-openapi-original.json\n  - openapi/horizon-blockchain-games-indexer-openapi-original.json\n  - openapi/horizon-blockchain-games-infrastructure-openapi-original.json\n  - openapi/horizon-blockchain-games-metadata-openapi-original.json\n  - openapi/horizon-blockchain-games-transactions-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/authentication/horizon-blockchain-games-authentication.yml
+source_yaml_url: https://artifacts.apis.io/horizon-blockchain-games/authentication/horizon-blockchain-games-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

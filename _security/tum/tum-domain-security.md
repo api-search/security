@@ -5,19 +5,19 @@ api_specs:
   label: NavigaTUM
   slug: navigatum
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/openapi/tum-locations-api-openapi.yml
+  url: https://artifacts.apis.io/tum/openapi/tum-locations-api-openapi.yml
 - filename: tum-menu-api-openapi.yml
   format: yaml
   label: eat-api — Munich Student Canteen Menus
   slug: eat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/openapi/tum-menu-api-openapi.yml
+  url: https://artifacts.apis.io/tum/openapi/tum-menu-api-openapi.yml
 - filename: tum-campus-api-openapi.yml
   format: yaml
   label: Technical University of Munich Campus API
   slug: tum-campus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/openapi/tum-campus-api-openapi.yml
+  url: https://artifacts.apis.io/tum/openapi/tum-campus-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: tum-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tum.de\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 05:27:04 2026 GMT\n  hsts: true\n  hsts_max_age: 86400000\n- host: nav.tum.de\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 16:16:55 2026 GMT\n  hsts: false\ndomains:\n- domain: tum.de\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/security/tum-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tum/security/tum-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - University

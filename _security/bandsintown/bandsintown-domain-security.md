@@ -5,13 +5,13 @@ api_specs:
   label: Bandsintown artist events API
   slug: bandsintown-artist-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bandsintown/refs/heads/main/openapi/bandsintown-artist-events-api-openapi.yml
+  url: https://artifacts.apis.io/bandsintown/openapi/bandsintown-artist-events-api-openapi.yml
 - filename: bandsintown-artist-information-api-openapi.yml
   format: yaml
   label: Bandsintown artist information API
   slug: bandsintown-artist-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bandsintown/refs/heads/main/openapi/bandsintown-artist-information-api-openapi.yml
+  url: https://artifacts.apis.io/bandsintown/openapi/bandsintown-artist-information-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,7 +50,7 @@ source_filename: bandsintown-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bandsintown.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 12 17:58:07 2026 GMT\n  hsts: null\n- host: help.artists.bandsintown.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  7 23:59:59 2027 GMT\n  hsts: false\n- host: rest.bandsintown.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: bandsintown.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bandsintown/refs/heads/main/security/bandsintown-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bandsintown/security/bandsintown-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Concerts

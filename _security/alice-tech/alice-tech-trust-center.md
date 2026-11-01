@@ -15,7 +15,7 @@ source_filename: alice-tech-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.alicetechnologies.com/\nurl: https://trust.alicetechnologies.com/\ncertifications:\n- SOC 2\nevidence:\n- source: https://trust.alicetechnologies.com/\n  keywords:\n  - soc 2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alice-tech/refs/heads/main/security/alice-tech-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/alice-tech/security/alice-tech-trust-center.yml
 summary_line: SOC 2
 tags:
 - Construction

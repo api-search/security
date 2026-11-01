@@ -7,43 +7,43 @@ api_specs:
   label: Stainless Build Target Outputs API
   slug: stainless-build-target-outputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/openapi/stainless-build-target-outputs-api-openapi.yml
+  url: https://artifacts.apis.io/stainless/openapi/stainless-build-target-outputs-api-openapi.yml
 - filename: stainless-builds-api-openapi.yml
   format: yaml
   label: Stainless Builds API
   slug: stainless-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/openapi/stainless-builds-api-openapi.yml
+  url: https://artifacts.apis.io/stainless/openapi/stainless-builds-api-openapi.yml
 - filename: stainless-orgs-api-openapi.yml
   format: yaml
   label: Stainless Orgs API
   slug: stainless-orgs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/openapi/stainless-orgs-api-openapi.yml
+  url: https://artifacts.apis.io/stainless/openapi/stainless-orgs-api-openapi.yml
 - filename: stainless-projects-api-openapi.yml
   format: yaml
   label: Stainless Projects API
   slug: stainless-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/openapi/stainless-projects-api-openapi.yml
+  url: https://artifacts.apis.io/stainless/openapi/stainless-projects-api-openapi.yml
 - filename: stainless-user-api-openapi.yml
   format: yaml
   label: Stainless User API
   slug: stainless-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/openapi/stainless-user-api-openapi.yml
+  url: https://artifacts.apis.io/stainless/openapi/stainless-user-api-openapi.yml
 - filename: stainless-spec-api-openapi.yml
   format: yaml
   label: Stainless Spec API
   slug: stainless-spec-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/openapi/stainless-spec-api-openapi.yml
+  url: https://artifacts.apis.io/stainless/openapi/stainless-spec-api-openapi.yml
 - filename: stainless-open-api-api-openapi.yml
   format: yaml
   label: Stainless Open API
   slug: stainless-open-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/openapi/stainless-open-api-api-openapi.yml
+  url: https://artifacts.apis.io/stainless/openapi/stainless-open-api-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -71,7 +71,7 @@ source_filename: stainless-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/stainless-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: API Key\n  description: Stainless API key passed as a Bearer token.\n  sources:\n  - openapi/stainless-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/authentication/stainless-authentication.yml
+source_yaml_url: https://artifacts.apis.io/stainless/authentication/stainless-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Code Generation

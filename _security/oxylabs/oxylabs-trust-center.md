@@ -5,25 +5,25 @@ api_specs:
   label: Oxylabs Login API
   slug: oxylabs-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/openapi/oxylabs-login-api-openapi.yml
+  url: https://artifacts.apis.io/oxylabs/openapi/oxylabs-login-api-openapi.yml
 - filename: oxylabs-queries-api-openapi.yml
   format: yaml
   label: Oxylabs Queries API
   slug: oxylabs-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/openapi/oxylabs-queries-api-openapi.yml
+  url: https://artifacts.apis.io/oxylabs/openapi/oxylabs-queries-api-openapi.yml
 - filename: oxylabs-stats-api-openapi.yml
   format: yaml
   label: Oxylabs Stats API
   slug: oxylabs-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/openapi/oxylabs-stats-api-openapi.yml
+  url: https://artifacts.apis.io/oxylabs/openapi/oxylabs-stats-api-openapi.yml
 - filename: oxylabs-users-api-openapi.yml
   format: yaml
   label: Oxylabs Users API
   slug: oxylabs-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/openapi/oxylabs-users-api-openapi.yml
+  url: https://artifacts.apis.io/oxylabs/openapi/oxylabs-users-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -42,7 +42,7 @@ source_filename: oxylabs-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.oxylabs.io/\nurl: https://trust.oxylabs.io/\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://trust.oxylabs.io/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - trust center\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/security/oxylabs-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/oxylabs/security/oxylabs-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - AI Web Scraping
@@ -52,7 +52,7 @@ tags:
 - Datacenter Proxies
 - Datasets
 - E-Commerce Data
-- Headless Browser
+- Browser Automation
 - ISP Proxies
 - Mobile Proxies
 - Proxies

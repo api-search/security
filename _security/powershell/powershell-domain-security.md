@@ -5,25 +5,25 @@ api_specs:
   label: PowerShell Metadata API
   slug: powershell-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershell/refs/heads/main/openapi/powershell-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/powershell/openapi/powershell-metadata-api-openapi.yml
 - filename: powershell-packages-api-openapi.yml
   format: yaml
   label: PowerShell Packages API
   slug: powershell-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershell/refs/heads/main/openapi/powershell-packages-api-openapi.yml
+  url: https://artifacts.apis.io/powershell/openapi/powershell-packages-api-openapi.yml
 - filename: powershell-search-api-openapi.yml
   format: yaml
   label: PowerShell Search API
   slug: powershell-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershell/refs/heads/main/openapi/powershell-search-api-openapi.yml
+  url: https://artifacts.apis.io/powershell/openapi/powershell-search-api-openapi.yml
 - filename: powershell-updates-api-openapi.yml
   format: yaml
   label: PowerShell Updates API
   slug: powershell-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershell/refs/heads/main/openapi/powershell-updates-api-openapi.yml
+  url: https://artifacts.apis.io/powershell/openapi/powershell-updates-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -73,7 +73,7 @@ source_filename: powershell-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 20 09:04:17 2026 GMT\n  hsts: false\n- host: www.powershellgallery.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 13 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 06:59:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: powershellgallery.com\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:caarecordaware@microsoft.com\"\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/powershell/refs/heads/main/security/powershell-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/powershell/security/powershell-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Automation

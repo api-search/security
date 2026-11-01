@@ -7,7 +7,7 @@ api_specs:
   label: Jama Connect REST API
   slug: jama-connect-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jama-software/refs/heads/main/openapi/_ae-authored/jama-software-openapi-generated.yml
+  url: https://artifacts.apis.io/jama-software/openapi/_ae-authored/jama-software-openapi-generated.yml
 auth_types:
 - http
 - oauth2
@@ -44,7 +44,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://dev.jamasoftware.com/api/\ndocs: https://dev.jamasoftware.com/api/\nsummary:\n  types: [http, oauth2]\n  http_schemes: [basic]\n  oauth2_flows: [clientCredentials]\nschemes:\n  - name: basicAuth\n    type: http\n    scheme: basic\n    description: >-\n      HTTP Basic authentication (RFC 2617) using a Jama Connect username and\n      password in the Authorization header. Available on all Jama Connect\n      deployments.\n    sources: [https://dev.jamasoftware.com/api/]\n  - name: oauth2ClientCredentials\n    type: oauth2\n    flow: clientCredentials\n    tokenUrl: /rest/oauth/token\n    description: >-\n      OAuth 2.0 client-credentials grant. Available on Jamacloud and self-hosted\n      8.62+. POST to /rest/oauth/token with grant_type=client_credentials using\n      the client ID as HTTP Basic username and the client secret as password;\n      the response returns an access_token and expires_in (default 3600s). Send\n\
   \      the token as Authorization: Bearer {access_token} on subsequent calls.\n    sources: [https://dev.jamasoftware.com/api/]\nnotes:\n  - OAuth clients are provisioned by each user under their Jama Connect profile (API credentials).\n  - As of Jama Connect 9.4 the REST API is restricted to Creator-license users.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jama-software/refs/heads/main/authentication/jama-software-authentication.yml
+source_yaml_url: https://artifacts.apis.io/jama-software/authentication/jama-software-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

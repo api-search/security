@@ -5,127 +5,127 @@ api_specs:
   label: Wish Brands API
   slug: wish-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-brands-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-brands-api-openapi.yml
 - filename: wish-bulk-products-api-openapi.yml
   format: yaml
   label: Wish Bulk Products API
   slug: wish-bulk-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-bulk-products-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-bulk-products-api-openapi.yml
 - filename: wish-currencies-api-openapi.yml
   format: yaml
   label: Wish Currencies API
   slug: wish-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-currencies-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-currencies-api-openapi.yml
 - filename: wish-eu-product-compliance-api-openapi.yml
   format: yaml
   label: Wish EU Product Compliance API
   slug: wish-eu-product-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-eu-product-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-eu-product-compliance-api-openapi.yml
 - filename: wish-france-epr-compliance-api-openapi.yml
   format: yaml
   label: Wish France EPR Compliance API
   slug: wish-france-epr-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-france-epr-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-france-epr-compliance-api-openapi.yml
 - filename: wish-germany-epr-compliance-api-openapi.yml
   format: yaml
   label: Wish Germany EPR Compliance API
   slug: wish-germany-epr-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-germany-epr-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-germany-epr-compliance-api-openapi.yml
 - filename: wish-merchant-api-openapi.yml
   format: yaml
   label: Wish Merchant API
   slug: wish-merchant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-merchant-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-merchant-api-openapi.yml
 - filename: wish-orders-api-openapi.yml
   format: yaml
   label: Wish Orders API
   slug: wish-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-orders-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-orders-api-openapi.yml
 - filename: wish-payments-api-openapi.yml
   format: yaml
   label: Wish Payments API
   slug: wish-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-payments-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-payments-api-openapi.yml
 - filename: wish-penalties-api-openapi.yml
   format: yaml
   label: Wish Penalties API
   slug: wish-penalties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-penalties-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-penalties-api-openapi.yml
 - filename: wish-productboost-api-openapi.yml
   format: yaml
   label: Wish ProductBoost API
   slug: wish-productboost-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-productboost-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-productboost-api-openapi.yml
 - filename: wish-products-api-openapi.yml
   format: yaml
   label: Wish Products API
   slug: wish-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-products-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-products-api-openapi.yml
 - filename: wish-promotions-platform-api-openapi.yml
   format: yaml
   label: Wish Promotions Platform API
   slug: wish-promotions-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-promotions-platform-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-promotions-platform-api-openapi.yml
 - filename: wish-ratings-api-openapi.yml
   format: yaml
   label: Wish Ratings API
   slug: wish-ratings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-ratings-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-ratings-api-openapi.yml
 - filename: wish-taxonomy-api-openapi.yml
   format: yaml
   label: Wish Taxonomy API
   slug: wish-taxonomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-taxonomy-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-taxonomy-api-openapi.yml
 - filename: wish-tickets-api-openapi.yml
   format: yaml
   label: Wish Tickets API
   slug: wish-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-tickets-api-openapi.yml
 - filename: wish-unification-initiative-api-openapi.yml
   format: yaml
   label: Wish Unification Initiative API
   slug: wish-unification-initiative-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-unification-initiative-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-unification-initiative-api-openapi.yml
 - filename: wish-variations-api-openapi.yml
   format: yaml
   label: Wish Variations API
   slug: wish-variations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-variations-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-variations-api-openapi.yml
 - filename: wish-videos-api-openapi.yml
   format: yaml
   label: Wish Videos API
   slug: wish-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-videos-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-videos-api-openapi.yml
 - filename: wish-webhook-api-openapi.yml
   format: yaml
   label: Wish Webhook API
   slug: wish-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-webhook-api-openapi.yml
 - filename: wish-oauth-api-openapi.yml
   format: yaml
   label: Wish O Auth API
   slug: wish-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -164,7 +164,7 @@ source_filename: wish-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: wish.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 27 23:59:59 2026 GMT\n  hsts: null\n- host: china-merchant.wish.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 11:28:29 2026 GMT\n  hsts: null\n- host: merchant.wish.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 11:28:29 2026 GMT\n  hsts: null\ndomains:\n- domain: wish.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/security/wish-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wish/security/wish-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

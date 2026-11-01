@@ -8,55 +8,55 @@ api_specs:
   label: D-ID Agents API
   slug: d-id-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-agents-api-openapi.yml
+  url: https://artifacts.apis.io/d-id/openapi/d-id-agents-api-openapi.yml
 - filename: d-id-chat-api-openapi.yml
   format: yaml
   label: D-ID Chat API
   slug: d-id-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-chat-api-openapi.yml
+  url: https://artifacts.apis.io/d-id/openapi/d-id-chat-api-openapi.yml
 - filename: d-id-credits-api-openapi.yml
   format: yaml
   label: D-ID Credits API
   slug: d-id-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-credits-api-openapi.yml
+  url: https://artifacts.apis.io/d-id/openapi/d-id-credits-api-openapi.yml
 - filename: d-id-knowledge-api-openapi.yml
   format: yaml
   label: D-ID Knowledge API
   slug: d-id-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/d-id/openapi/d-id-knowledge-api-openapi.yml
 - filename: d-id-sessions-api-openapi.yml
   format: yaml
   label: D-ID Sessions API
   slug: d-id-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/d-id/openapi/d-id-sessions-api-openapi.yml
 - filename: d-id-talks-api-openapi.yml
   format: yaml
   label: D-ID Talks API
   slug: d-id-talks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-talks-api-openapi.yml
+  url: https://artifacts.apis.io/d-id/openapi/d-id-talks-api-openapi.yml
 - filename: d-id-translations-api-openapi.yml
   format: yaml
   label: D-ID Translations API
   slug: d-id-translations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-translations-api-openapi.yml
+  url: https://artifacts.apis.io/d-id/openapi/d-id-translations-api-openapi.yml
 - filename: d-id-videos-v4-api-openapi.yml
   format: yaml
   label: D-ID Videos V4 API
   slug: d-id-videos-v4-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-videos-v4-api-openapi.yml
+  url: https://artifacts.apis.io/d-id/openapi/d-id-videos-v4-api-openapi.yml
 - filename: d-id-voices-api-openapi.yml
   format: yaml
   label: D-ID Voices API
   slug: d-id-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-voices-api-openapi.yml
+  url: https://artifacts.apis.io/d-id/openapi/d-id-voices-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -99,7 +99,7 @@ source_filename: d-id-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/d-id-agents-openapi.yml, openapi/d-id-videos-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic Authentication using API key as username.\n  sources:\n  - openapi/d-id-agents-openapi.yml\n  - openapi/d-id-videos-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token authentication.\n  sources:\n  - openapi/d-id-agents-openapi.yml\n  - openapi/d-id-videos-openapi.yml\n- name: clientKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Scoped client key for SDK embedding.\n  sources:\n  - openapi/d-id-agents-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/authentication/d-id-authentication.yml
+source_yaml_url: https://artifacts.apis.io/d-id/authentication/d-id-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Avatars

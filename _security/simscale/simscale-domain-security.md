@@ -5,43 +5,43 @@ api_specs:
   label: SimScale Geometry API
   slug: simscale-geometry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simscale/refs/heads/main/openapi/simscale-geometry-api-openapi.yml
+  url: https://artifacts.apis.io/simscale/openapi/simscale-geometry-api-openapi.yml
 - filename: simscale-mesh-operations-api-openapi.yml
   format: yaml
   label: SimScale Mesh Operations API
   slug: simscale-mesh-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simscale/refs/heads/main/openapi/simscale-mesh-operations-api-openapi.yml
+  url: https://artifacts.apis.io/simscale/openapi/simscale-mesh-operations-api-openapi.yml
 - filename: simscale-projects-api-openapi.yml
   format: yaml
   label: SimScale Projects API
   slug: simscale-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simscale/refs/heads/main/openapi/simscale-projects-api-openapi.yml
+  url: https://artifacts.apis.io/simscale/openapi/simscale-projects-api-openapi.yml
 - filename: simscale-reports-api-openapi.yml
   format: yaml
   label: SimScale Reports API
   slug: simscale-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simscale/refs/heads/main/openapi/simscale-reports-api-openapi.yml
+  url: https://artifacts.apis.io/simscale/openapi/simscale-reports-api-openapi.yml
 - filename: simscale-simulation-runs-api-openapi.yml
   format: yaml
   label: SimScale Simulation Runs API
   slug: simscale-simulation-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simscale/refs/heads/main/openapi/simscale-simulation-runs-api-openapi.yml
+  url: https://artifacts.apis.io/simscale/openapi/simscale-simulation-runs-api-openapi.yml
 - filename: simscale-simulations-api-openapi.yml
   format: yaml
   label: SimScale Simulations API
   slug: simscale-simulations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simscale/refs/heads/main/openapi/simscale-simulations-api-openapi.yml
+  url: https://artifacts.apis.io/simscale/openapi/simscale-simulations-api-openapi.yml
 - filename: simscale-storage-api-openapi.yml
   format: yaml
   label: SimScale Storage API
   slug: simscale-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simscale/refs/heads/main/openapi/simscale-storage-api-openapi.yml
+  url: https://artifacts.apis.io/simscale/openapi/simscale-storage-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -81,7 +81,7 @@ source_filename: simscale-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.simscale.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 27 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.simscale.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 27 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: simscale.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simscale/refs/heads/main/security/simscale-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/simscale/security/simscale-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - CAE

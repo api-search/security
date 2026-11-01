@@ -8,31 +8,31 @@ api_specs:
   label: Flipp (Wishabi) Copyright API
   slug: flipp-wishabi-copyright-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/openapi/flipp-wishabi-copyright-api-openapi.yml
+  url: https://artifacts.apis.io/flipp-wishabi/openapi/flipp-wishabi-copyright-api-openapi.yml
 - filename: flipp-wishabi-fsa-api-openapi.yml
   format: yaml
   label: Flipp (Wishabi) Fsa API
   slug: flipp-wishabi-fsa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/openapi/flipp-wishabi-fsa-api-openapi.yml
+  url: https://artifacts.apis.io/flipp-wishabi/openapi/flipp-wishabi-fsa-api-openapi.yml
 - filename: flipp-wishabi-products-api-openapi.yml
   format: yaml
   label: Flipp (Wishabi) Products API
   slug: flipp-wishabi-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/openapi/flipp-wishabi-products-api-openapi.yml
+  url: https://artifacts.apis.io/flipp-wishabi/openapi/flipp-wishabi-products-api-openapi.yml
 - filename: flipp-wishabi-publications-api-openapi.yml
   format: yaml
   label: Flipp (Wishabi) Publications API
   slug: flipp-wishabi-publications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/openapi/flipp-wishabi-publications-api-openapi.yml
+  url: https://artifacts.apis.io/flipp-wishabi/openapi/flipp-wishabi-publications-api-openapi.yml
 - filename: flipp-wishabi-stores-api-openapi.yml
   format: yaml
   label: Flipp (Wishabi) Stores API
   slug: flipp-wishabi-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/openapi/flipp-wishabi-stores-api-openapi.yml
+  url: https://artifacts.apis.io/flipp-wishabi/openapi/flipp-wishabi-stores-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: https://api.fli
   \    out of band by a Flipp account/technical contact - there is no self-service signup,\n    no developer console, and no token endpoint. Tokens are passed to the FlyerKit API as\n    URL query parameters.\n  applies_to: >-\n    Every FlyerKit v4.0 operation except GET /copyright, which is unauthenticated.\nissuance:\n  self_service: false\n  channel: Flipp technical contact / account manager\n  quoted: >-\n    \"Access tokens are issued by your Flipp technical contact and if needed, multiple\n    access tokens can be created for your various development teams or partners. Access\n    tokens should always be kept secret and not shared.\"\n  source: https://api.flipp.com/flyerkit/v4.0/documentation\npermissions:\n  model: per-token scoping\n  note: >-\n    v4.0 introduced a multi-token model: \"Updated the access token model, allowing\n    retailers to have multiple FlyerKit access tokens with different levels of\n    permission.\" One named permission is documented - viewing future (not\
   \ yet live)\n    publications and products via `see_future`, which \"requires an access token with\n    special permissions issued by your Flipp technical contact.\" Flipp publishes no\n    enumerated scope list, so there is no scopes/ artifact for this provider.\n  breaking_change: >-\n    \"access tokens from previous FlyerKit versions will no longer work in v4.0 and new\n    ones will need to be issued by your Flipp technical contact.\"\ntransport:\n  https_only: true\n  cors: true\n  cors_note: >-\n    \"The API allows cross-origin requests using CORS.\" (FlyerKit v2.0 and v3.0\n    documentation.) Because the token travels in the query string of a browser-visible\n    URL, a CORS-enabled front-end integration exposes it to the client.\nobservations:\n- >-\n  Credential in the query string, not a header. Query parameters are logged by\n  intermediaries, proxies and browser history; Flipp's own v3.0 docs temper this by\n  stating the token \"is not intended as a security mechanism ...\
   \ All data available\n  through the API is publicly available information.\"\n- No OAuth 2.0, no OpenID Connect, no mTLS, and no key-rotation endpoint is published.\n- >-\n  The mobile SDKs (FlyerKit iOS/Android, DVM) use a separate `clientToken` / SDK key,\n  also issued by Flipp; see components/flipp-wishabi-components.yml.\ncross_links:\n  conventions: conventions/flipp-wishabi-conventions.yml\n  errors: errors/flipp-wishabi-problem-types.yml\n  lifecycle: lifecycle/flipp-wishabi-lifecycle.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/authentication/flipp-wishabi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/flipp-wishabi/authentication/flipp-wishabi-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

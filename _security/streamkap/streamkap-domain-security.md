@@ -5,55 +5,55 @@ api_specs:
   label: Streamkap Authentication API
   slug: streamkap-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/openapi/streamkap-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/streamkap/openapi/streamkap-authentication-api-openapi.yml
 - filename: streamkap-connectors-api-openapi.yml
   format: yaml
   label: Streamkap Connectors API
   slug: streamkap-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/openapi/streamkap-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/streamkap/openapi/streamkap-connectors-api-openapi.yml
 - filename: streamkap-destinations-api-openapi.yml
   format: yaml
   label: Streamkap Destinations API
   slug: streamkap-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/openapi/streamkap-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/streamkap/openapi/streamkap-destinations-api-openapi.yml
 - filename: streamkap-kafka-access-api-openapi.yml
   format: yaml
   label: Streamkap Kafka Access API
   slug: streamkap-kafka-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/openapi/streamkap-kafka-access-api-openapi.yml
+  url: https://artifacts.apis.io/streamkap/openapi/streamkap-kafka-access-api-openapi.yml
 - filename: streamkap-pipelines-api-openapi.yml
   format: yaml
   label: Streamkap Pipelines API
   slug: streamkap-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/openapi/streamkap-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/streamkap/openapi/streamkap-pipelines-api-openapi.yml
 - filename: streamkap-sources-api-openapi.yml
   format: yaml
   label: Streamkap Sources API
   slug: streamkap-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/openapi/streamkap-sources-api-openapi.yml
+  url: https://artifacts.apis.io/streamkap/openapi/streamkap-sources-api-openapi.yml
 - filename: streamkap-tags-api-openapi.yml
   format: yaml
   label: Streamkap Tags API
   slug: streamkap-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/openapi/streamkap-tags-api-openapi.yml
+  url: https://artifacts.apis.io/streamkap/openapi/streamkap-tags-api-openapi.yml
 - filename: streamkap-topics-api-openapi.yml
   format: yaml
   label: Streamkap Topics API
   slug: streamkap-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/openapi/streamkap-topics-api-openapi.yml
+  url: https://artifacts.apis.io/streamkap/openapi/streamkap-topics-api-openapi.yml
 - filename: streamkap-transforms-api-openapi.yml
   format: yaml
   label: Streamkap Transforms API
   slug: streamkap-transforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/openapi/streamkap-transforms-api-openapi.yml
+  url: https://artifacts.apis.io/streamkap/openapi/streamkap-transforms-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -100,7 +100,7 @@ source_filename: streamkap-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: streamkap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 24 14:02:57 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.streamkap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 14 08:04:41 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.streamkap.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 20 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: streamkap.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/security/streamkap-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/streamkap/security/streamkap-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Streaming

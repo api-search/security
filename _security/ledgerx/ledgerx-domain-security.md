@@ -5,7 +5,7 @@ api_specs:
   label: MIAXdx Market Data and Account API
   slug: market-data
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledgerx/refs/heads/main/asyncapi/ledgerx-market-data-asyncapi.yml
+  url: https://artifacts.apis.io/ledgerx/asyncapi/ledgerx-market-data-asyncapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: ledgerx-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: app.ledgerx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 04:38:51 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: docs.miaxdx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 00:31:53 2026 GMT\n  hsts: null\n- host: api.ledgerx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 04:38:51 2026 GMT\n  hsts: null\ndomains:\n- domain: ledgerx.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: miaxdx.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ledgerx/refs/heads/main/security/ledgerx-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ledgerx/security/ledgerx-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

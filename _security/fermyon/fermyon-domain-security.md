@@ -5,85 +5,85 @@ api_specs:
   label: Fermyon Accounts API
   slug: fermyon-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/fermyon/openapi/fermyon-accounts-api-openapi.yml
 - filename: fermyon-apps-api-openapi.yml
   format: yaml
   label: Fermyon Apps API
   slug: fermyon-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-apps-api-openapi.yml
+  url: https://artifacts.apis.io/fermyon/openapi/fermyon-apps-api-openapi.yml
 - filename: fermyon-auth-tokens-api-openapi.yml
   format: yaml
   label: Fermyon Auth Tokens API
   slug: fermyon-auth-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-auth-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/fermyon/openapi/fermyon-auth-tokens-api-openapi.yml
 - filename: fermyon-channels-api-openapi.yml
   format: yaml
   label: Fermyon Channels API
   slug: fermyon-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-channels-api-openapi.yml
+  url: https://artifacts.apis.io/fermyon/openapi/fermyon-channels-api-openapi.yml
 - filename: fermyon-custom-domains-api-openapi.yml
   format: yaml
   label: Fermyon Custom Domains API
   slug: fermyon-custom-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-custom-domains-api-openapi.yml
+  url: https://artifacts.apis.io/fermyon/openapi/fermyon-custom-domains-api-openapi.yml
 - filename: fermyon-device-codes-api-openapi.yml
   format: yaml
   label: Fermyon Device Codes API
   slug: fermyon-device-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-device-codes-api-openapi.yml
+  url: https://artifacts.apis.io/fermyon/openapi/fermyon-device-codes-api-openapi.yml
 - filename: fermyon-key-value-pairs-api-openapi.yml
   format: yaml
   label: Fermyon Key Value Pairs API
   slug: fermyon-key-value-pairs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-key-value-pairs-api-openapi.yml
+  url: https://artifacts.apis.io/fermyon/openapi/fermyon-key-value-pairs-api-openapi.yml
 - filename: fermyon-key-value-stores-api-openapi.yml
   format: yaml
   label: Fermyon Key Value Stores API
   slug: fermyon-key-value-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-key-value-stores-api-openapi.yml
+  url: https://artifacts.apis.io/fermyon/openapi/fermyon-key-value-stores-api-openapi.yml
 - filename: fermyon-oci-api-openapi.yml
   format: yaml
   label: Fermyon Oci API
   slug: fermyon-oci-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-oci-api-openapi.yml
+  url: https://artifacts.apis.io/fermyon/openapi/fermyon-oci-api-openapi.yml
 - filename: fermyon-payments-api-openapi.yml
   format: yaml
   label: Fermyon Payments API
   slug: fermyon-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-payments-api-openapi.yml
+  url: https://artifacts.apis.io/fermyon/openapi/fermyon-payments-api-openapi.yml
 - filename: fermyon-personal-access-tokens-api-openapi.yml
   format: yaml
   label: Fermyon Personal Access Tokens API
   slug: fermyon-personal-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-personal-access-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/fermyon/openapi/fermyon-personal-access-tokens-api-openapi.yml
 - filename: fermyon-revisions-api-openapi.yml
   format: yaml
   label: Fermyon Revisions API
   slug: fermyon-revisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-revisions-api-openapi.yml
+  url: https://artifacts.apis.io/fermyon/openapi/fermyon-revisions-api-openapi.yml
 - filename: fermyon-sql-databases-api-openapi.yml
   format: yaml
   label: Fermyon Sql Databases API
   slug: fermyon-sql-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-sql-databases-api-openapi.yml
+  url: https://artifacts.apis.io/fermyon/openapi/fermyon-sql-databases-api-openapi.yml
 - filename: fermyon-variable-pairs-api-openapi.yml
   format: yaml
   label: Fermyon Variable Pairs API
   slug: fermyon-variable-pairs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-variable-pairs-api-openapi.yml
+  url: https://artifacts.apis.io/fermyon/openapi/fermyon-variable-pairs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -122,7 +122,7 @@ source_filename: fermyon-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.fermyon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 19:25:34 2026 GMT\n  hsts: false\n- host: www.fermyon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 17:45:02 2026 GMT\n  hsts: null\n- host: cloud.fermyon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 19:26:18 2026 GMT\n  hsts: false\ndomains:\n- domain: fermyon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/security/fermyon-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fermyon/security/fermyon-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Compute

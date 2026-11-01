@@ -27,7 +27,7 @@ source_filename: kartos-therapeutics-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: derived\nsource: openapi/kartos-therapeutics-content-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: applicationPassword\n  type: http\n  scheme: basic\n  description: WordPress application passwords, advertised by the site's own route index at\n    `/wp-json/` (`authentication.application-passwords.endpoints.authorization` → https://kartosthera.com/wp-admin/authorize-application.php).\n    Application passwords are issued to existing WordPress accounts only; there is no public\n    sign-up, no developer registration and no self-service credential issuance. Every operation\n    mod\n  sources:\n  - openapi/kartos-therapeutics-content-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kartos-therapeutics/refs/heads/main/authentication/kartos-therapeutics-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kartos-therapeutics/authentication/kartos-therapeutics-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

@@ -5,37 +5,37 @@ api_specs:
   label: Traefik Labs Health API
   slug: traefik-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/openapi/traefik-health-api-openapi.yml
+  url: https://artifacts.apis.io/traefik/openapi/traefik-health-api-openapi.yml
 - filename: traefik-http-api-openapi.yml
   format: yaml
   label: Traefik Labs HTTP API
   slug: traefik-http-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/openapi/traefik-http-api-openapi.yml
+  url: https://artifacts.apis.io/traefik/openapi/traefik-http-api-openapi.yml
 - filename: traefik-overview-api-openapi.yml
   format: yaml
   label: Traefik Labs Overview API
   slug: traefik-overview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/openapi/traefik-overview-api-openapi.yml
+  url: https://artifacts.apis.io/traefik/openapi/traefik-overview-api-openapi.yml
 - filename: traefik-tcp-api-openapi.yml
   format: yaml
   label: Traefik Labs TCP API
   slug: traefik-tcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/openapi/traefik-tcp-api-openapi.yml
+  url: https://artifacts.apis.io/traefik/openapi/traefik-tcp-api-openapi.yml
 - filename: traefik-udp-api-openapi.yml
   format: yaml
   label: Traefik Labs UDP API
   slug: traefik-udp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/openapi/traefik-udp-api-openapi.yml
+  url: https://artifacts.apis.io/traefik/openapi/traefik-udp-api-openapi.yml
 - filename: traefik-entry-points-api-openapi.yml
   format: yaml
   label: Traefik Labs Entry Points API
   slug: traefik-entry-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/openapi/traefik-entry-points-api-openapi.yml
+  url: https://artifacts.apis.io/traefik/openapi/traefik-entry-points-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -82,7 +82,7 @@ source_filename: traefik-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: traefik.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 13:22:54 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: doc.traefik.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 13:22:54 2026 GMT\n  hsts: false\n- host: plugins.traefik.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 13:22:54 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: traefik.io\n  dnssec: false\n  caa:\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/security/traefik-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/traefik/security/traefik-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI Gateway

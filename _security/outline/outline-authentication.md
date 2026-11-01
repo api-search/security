@@ -7,109 +7,109 @@ api_specs:
   label: Outline Attachments API
   slug: outline-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-attachments-api-openapi.yml
 - filename: outline-auth-api-openapi.yml
   format: yaml
   label: Outline Auth API
   slug: outline-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-auth-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-auth-api-openapi.yml
 - filename: outline-collections-api-openapi.yml
   format: yaml
   label: Outline Collections API
   slug: outline-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-collections-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-collections-api-openapi.yml
 - filename: outline-comments-api-openapi.yml
   format: yaml
   label: Outline Comments API
   slug: outline-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-comments-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-comments-api-openapi.yml
 - filename: outline-dataattributes-api-openapi.yml
   format: yaml
   label: Outline DataAttributes API
   slug: outline-dataattributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-dataattributes-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-dataattributes-api-openapi.yml
 - filename: outline-documents-api-openapi.yml
   format: yaml
   label: Outline Documents API
   slug: outline-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-documents-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-documents-api-openapi.yml
 - filename: outline-events-api-openapi.yml
   format: yaml
   label: Outline Events API
   slug: outline-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-events-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-events-api-openapi.yml
 - filename: outline-groups-api-openapi.yml
   format: yaml
   label: Outline Groups API
   slug: outline-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-groups-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-groups-api-openapi.yml
 - filename: outline-oauthauthentications-api-openapi.yml
   format: yaml
   label: Outline OAuthAuthentications API
   slug: outline-oauthauthentications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-oauthauthentications-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-oauthauthentications-api-openapi.yml
 - filename: outline-revisions-api-openapi.yml
   format: yaml
   label: Outline Revisions API
   slug: outline-revisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-revisions-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-revisions-api-openapi.yml
 - filename: outline-shares-api-openapi.yml
   format: yaml
   label: Outline Shares API
   slug: outline-shares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-shares-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-shares-api-openapi.yml
 - filename: outline-stars-api-openapi.yml
   format: yaml
   label: Outline Stars API
   slug: outline-stars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-stars-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-stars-api-openapi.yml
 - filename: outline-templates-api-openapi.yml
   format: yaml
   label: Outline Templates API
   slug: outline-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-templates-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-templates-api-openapi.yml
 - filename: outline-users-api-openapi.yml
   format: yaml
   label: Outline Users API
   slug: outline-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-users-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-users-api-openapi.yml
 - filename: outline-views-api-openapi.yml
   format: yaml
   label: Outline Views API
   slug: outline-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-views-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-views-api-openapi.yml
 - filename: outline-access-requests-api-openapi.yml
   format: yaml
   label: Outline Access Requests API
   slug: outline-access-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-access-requests-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-access-requests-api-openapi.yml
 - filename: outline-file-operations-api-openapi.yml
   format: yaml
   label: Outline File Operations API
   slug: outline-file-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-file-operations-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-file-operations-api-openapi.yml
 - filename: outline-oauth-clients-api-openapi.yml
   format: yaml
   label: Outline OAuth Clients API
   slug: outline-oauth-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-oauth-clients-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-oauth-clients-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -147,7 +147,7 @@ source_filename: outline-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/outline-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/outline-openapi.yml\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.getoutline.com/oauth/authorize\n    tokenUrl: https://app.getoutline.com/oauth/token\n    scopes: 2\n  sources:\n  - openapi/outline-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/authentication/outline-authentication.yml
+source_yaml_url: https://artifacts.apis.io/outline/authentication/outline-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Knowledge Base

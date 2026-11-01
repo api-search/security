@@ -5,25 +5,25 @@ api_specs:
   label: Docsumo Document Types API
   slug: docsumo-document-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docsumo/refs/heads/main/openapi/docsumo-document-types-api-openapi.yml
+  url: https://artifacts.apis.io/docsumo/openapi/docsumo-document-types-api-openapi.yml
 - filename: docsumo-documents-api-openapi.yml
   format: yaml
   label: Docsumo Documents API
   slug: docsumo-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docsumo/refs/heads/main/openapi/docsumo-documents-api-openapi.yml
+  url: https://artifacts.apis.io/docsumo/openapi/docsumo-documents-api-openapi.yml
 - filename: docsumo-extraction-api-openapi.yml
   format: yaml
   label: Docsumo Extraction API
   slug: docsumo-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docsumo/refs/heads/main/openapi/docsumo-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/docsumo/openapi/docsumo-extraction-api-openapi.yml
 - filename: docsumo-review-api-openapi.yml
   format: yaml
   label: Docsumo Review API
   slug: docsumo-review-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docsumo/refs/heads/main/openapi/docsumo-review-api-openapi.yml
+  url: https://artifacts.apis.io/docsumo/openapi/docsumo-review-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: docsumo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.docsumo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 17:45:01 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: support.docsumo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 09:57:44 2026 GMT\n  hsts: null\n- host: app.docsumo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 03:44:01 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: docsumo.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docsumo/refs/heads/main/security/docsumo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/docsumo/security/docsumo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Document Processing

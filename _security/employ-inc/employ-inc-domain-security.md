@@ -5,31 +5,31 @@ api_specs:
   label: Employ Inc Status API
   slug: employ-inc-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/openapi/employ-inc-status-api-openapi.yml
+  url: https://artifacts.apis.io/employ-inc/openapi/employ-inc-status-api-openapi.yml
 - filename: employ-inc-components-api-openapi.yml
   format: yaml
   label: Employ Components API
   slug: employ-inc-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/openapi/employ-inc-components-api-openapi.yml
+  url: https://artifacts.apis.io/employ-inc/openapi/employ-inc-components-api-openapi.yml
 - filename: employ-inc-incidents-api-openapi.yml
   format: yaml
   label: Employ Incidents API
   slug: employ-inc-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/openapi/employ-inc-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/employ-inc/openapi/employ-inc-incidents-api-openapi.yml
 - filename: employ-inc-maintenance-api-openapi.yml
   format: yaml
   label: Employ Maintenance API
   slug: employ-inc-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/openapi/employ-inc-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/employ-inc/openapi/employ-inc-maintenance-api-openapi.yml
 - filename: employ-inc-summary-api-openapi.yml
   format: yaml
   label: Employ Summary API
   slug: employ-inc-summary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/openapi/employ-inc-summary-api-openapi.yml
+  url: https://artifacts.apis.io/employ-inc/openapi/employ-inc-summary-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: employ-inc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.employinc.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 12:26:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31622400\n- host: status.employinc.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 13:23:06 2026 GMT\n  hsts: true\n  hsts_max_age: 259200\ndomains:\n- domain: employinc.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/security/employ-inc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/employ-inc/security/employ-inc-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Human Resources

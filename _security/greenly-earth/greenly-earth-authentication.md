@@ -8,43 +8,43 @@ api_specs:
   label: Greenly Alternatives API
   slug: greenly-earth-alternatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenly-earth/refs/heads/main/openapi/greenly-earth-alternatives-api-openapi.yml
+  url: https://artifacts.apis.io/greenly-earth/openapi/greenly-earth-alternatives-api-openapi.yml
 - filename: greenly-earth-live-api-openapi.yml
   format: yaml
   label: Greenly Live API
   slug: greenly-earth-live-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenly-earth/refs/heads/main/openapi/greenly-earth-live-api-openapi.yml
+  url: https://artifacts.apis.io/greenly-earth/openapi/greenly-earth-live-api-openapi.yml
 - filename: greenly-earth-offsetprojects-api-openapi.yml
   format: yaml
   label: Greenly Offset Projects API
   slug: greenly-earth-offsetprojects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenly-earth/refs/heads/main/openapi/greenly-earth-offsetprojects-api-openapi.yml
+  url: https://artifacts.apis.io/greenly-earth/openapi/greenly-earth-offsetprojects-api-openapi.yml
 - filename: greenly-earth-ready-api-openapi.yml
   format: yaml
   label: Greenly Ready API
   slug: greenly-earth-ready-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenly-earth/refs/heads/main/openapi/greenly-earth-ready-api-openapi.yml
+  url: https://artifacts.apis.io/greenly-earth/openapi/greenly-earth-ready-api-openapi.yml
 - filename: greenly-earth-transactions-api-openapi.yml
   format: yaml
   label: Greenly Transactions API
   slug: greenly-earth-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenly-earth/refs/heads/main/openapi/greenly-earth-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/greenly-earth/openapi/greenly-earth-transactions-api-openapi.yml
 - filename: greenly-earth-users-api-openapi.yml
   format: yaml
   label: Greenly Users API
   slug: greenly-earth-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenly-earth/refs/heads/main/openapi/greenly-earth-users-api-openapi.yml
+  url: https://artifacts.apis.io/greenly-earth/openapi/greenly-earth-users-api-openapi.yml
 - filename: greenly-earth-purchase-categories-api-openapi.yml
   format: yaml
   label: Greenly Purchase Categories API
   slug: greenly-earth-purchase-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenly-earth/refs/heads/main/openapi/greenly-earth-purchase-categories-api-openapi.yml
+  url: https://artifacts.apis.io/greenly-earth/openapi/greenly-earth-purchase-categories-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -71,7 +71,7 @@ source_filename: greenly-earth-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/greenly-carbon-analytics-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: api_key\n  type: apiKey\n  in: header\n  parameter: api-key\n  sources:\n  - openapi/greenly-carbon-analytics-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/greenly-earth/refs/heads/main/authentication/greenly-earth-authentication.yml
+source_yaml_url: https://artifacts.apis.io/greenly-earth/authentication/greenly-earth-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Carbon Accounting

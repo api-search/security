@@ -5,115 +5,115 @@ api_specs:
   label: Smol Machines Apps API
   slug: smol-machines-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-apps-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-apps-api-openapi.yml
 - filename: smol-machines-billing-api-openapi.yml
   format: yaml
   label: Smol Machines Billing API
   slug: smol-machines-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-billing-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-billing-api-openapi.yml
 - filename: smol-machines-containers-api-openapi.yml
   format: yaml
   label: Smol Machines Containers API
   slug: smol-machines-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-containers-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-containers-api-openapi.yml
 - filename: smol-machines-execution-api-openapi.yml
   format: yaml
   label: Smol Machines Execution API
   slug: smol-machines-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-execution-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-execution-api-openapi.yml
 - filename: smol-machines-health-api-openapi.yml
   format: yaml
   label: Smol Machines Health API
   slug: smol-machines-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-health-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-health-api-openapi.yml
 - filename: smol-machines-images-api-openapi.yml
   format: yaml
   label: Smol Machines Images API
   slug: smol-machines-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-images-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-images-api-openapi.yml
 - filename: smol-machines-logs-api-openapi.yml
   format: yaml
   label: Smol Machines Logs API
   slug: smol-machines-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-logs-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-logs-api-openapi.yml
 - filename: smol-machines-machines-api-openapi.yml
   format: yaml
   label: Smol Machines API
   slug: smol-machines-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-machines-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-machines-api-openapi.yml
 - filename: smol-machines-microvms-api-openapi.yml
   format: yaml
   label: Smol Machines MicroVMs API
   slug: smol-machines-microvms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-microvms-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-microvms-api-openapi.yml
 - filename: smol-machines-nodes-api-openapi.yml
   format: yaml
   label: Smol Machines Nodes API
   slug: smol-machines-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-nodes-api-openapi.yml
 - filename: smol-machines-operations-api-openapi.yml
   format: yaml
   label: Smol Machines Operations API
   slug: smol-machines-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-operations-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-operations-api-openapi.yml
 - filename: smol-machines-plans-api-openapi.yml
   format: yaml
   label: Smol Machines Plans API
   slug: smol-machines-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-plans-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-plans-api-openapi.yml
 - filename: smol-machines-pools-api-openapi.yml
   format: yaml
   label: Smol Machines Pools API
   slug: smol-machines-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-pools-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-pools-api-openapi.yml
 - filename: smol-machines-sandboxes-api-openapi.yml
   format: yaml
   label: Smol Machines Sandboxes API
   slug: smol-machines-sandboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-sandboxes-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-sandboxes-api-openapi.yml
 - filename: smol-machines-tenants-api-openapi.yml
   format: yaml
   label: Smol Machines Tenants API
   slug: smol-machines-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-tenants-api-openapi.yml
 - filename: smol-machines-tokens-api-openapi.yml
   format: yaml
   label: Smol Machines Tokens API
   slug: smol-machines-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-tokens-api-openapi.yml
 - filename: smol-machines-usage-api-openapi.yml
   format: yaml
   label: Smol Machines Usage API
   slug: smol-machines-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-usage-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-usage-api-openapi.yml
 - filename: smol-machines-volumes-api-openapi.yml
   format: yaml
   label: Smol Machines Volumes API
   slug: smol-machines-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-volumes-api-openapi.yml
 - filename: smol-machines-api-keys-api-openapi.yml
   format: yaml
   label: Smol Machines API Keys API
   slug: smol-machines-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-api-keys-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -147,7 +147,7 @@ source_filename: smol-machines-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: smolmachines.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 13:03:12 2026 GMT\n  hsts: false\n- host: api.smolmachines.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 02:29:30 2026 GMT\n  hsts: null\ndomains:\n- domain: smolmachines.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/security/smol-machines-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/smol-machines/security/smol-machines-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

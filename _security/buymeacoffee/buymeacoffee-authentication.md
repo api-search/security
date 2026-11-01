@@ -2,24 +2,24 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: buymeacoffee-extras-api-openapi.yml
-  format: yaml
+- filename: buymeacoffee.postman_collection.json
+  format: json
   label: Buy Me a Coffee Extras API
   slug: buymeacoffee-extras-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/openapi/buymeacoffee-extras-api-openapi.yml
-- filename: buymeacoffee-subscriptions-api-openapi.yml
-  format: yaml
+  spec_type: Postman
+  url: https://artifacts.apis.io/buymeacoffee/collections/buymeacoffee.postman_collection.json
+- filename: buymeacoffee.postman_collection.json
+  format: json
   label: Buy Me a Coffee Subscriptions API
   slug: buymeacoffee-subscriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/openapi/buymeacoffee-subscriptions-api-openapi.yml
-- filename: buymeacoffee-supporters-api-openapi.yml
-  format: yaml
+  spec_type: Postman
+  url: https://artifacts.apis.io/buymeacoffee/collections/buymeacoffee.postman_collection.json
+- filename: buymeacoffee.postman_collection.json
+  format: json
   label: Buy Me a Coffee Supporters API
   slug: buymeacoffee-supporters-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/openapi/buymeacoffee-supporters-api-openapi.yml
+  spec_type: Postman
+  url: https://artifacts.apis.io/buymeacoffee/collections/buymeacoffee.postman_collection.json
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: buymeacoffee-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/buymeacoffee-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Personal access token created in the Buy Me a Coffee Developer Dashboard. Sent\n    as `Authorization: Bearer <token>`.'\n  sources:\n  - openapi/buymeacoffee-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/authentication/buymeacoffee-authentication.yml
+source_yaml_url: https://artifacts.apis.io/buymeacoffee/authentication/buymeacoffee-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Creator Economy

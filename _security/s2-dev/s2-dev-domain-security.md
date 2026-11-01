@@ -5,37 +5,37 @@ api_specs:
   label: S2 Dev Access Tokens API
   slug: s2-dev-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-access-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/s2-dev/openapi/s2-dev-access-tokens-api-openapi.yml
 - filename: s2-dev-basins-api-openapi.yml
   format: yaml
   label: S2 Dev Basins API
   slug: s2-dev-basins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-basins-api-openapi.yml
+  url: https://artifacts.apis.io/s2-dev/openapi/s2-dev-basins-api-openapi.yml
 - filename: s2-dev-locations-api-openapi.yml
   format: yaml
   label: S2 Dev Locations API
   slug: s2-dev-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-locations-api-openapi.yml
+  url: https://artifacts.apis.io/s2-dev/openapi/s2-dev-locations-api-openapi.yml
 - filename: s2-dev-metrics-api-openapi.yml
   format: yaml
   label: S2 Dev Metrics API
   slug: s2-dev-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/s2-dev/openapi/s2-dev-metrics-api-openapi.yml
 - filename: s2-dev-records-api-openapi.yml
   format: yaml
   label: S2 Dev Records API
   slug: s2-dev-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-records-api-openapi.yml
+  url: https://artifacts.apis.io/s2-dev/openapi/s2-dev-records-api-openapi.yml
 - filename: s2-dev-streams-api-openapi.yml
   format: yaml
   label: S2 Dev Streams API
   slug: s2-dev-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-streams-api-openapi.yml
+  url: https://artifacts.apis.io/s2-dev/openapi/s2-dev-streams-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: s2-dev-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: a.s2.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 13:28:56 2026 GMT\n  hsts: null\ndomains:\n- domain: s2.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/security/s2-dev-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/s2-dev/security/s2-dev-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

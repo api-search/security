@@ -5,25 +5,25 @@ api_specs:
   label: AlienVault Indicators API
   slug: alienvault-indicators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/openapi/alienvault-indicators-api-openapi.yml
+  url: https://artifacts.apis.io/alienvault/openapi/alienvault-indicators-api-openapi.yml
 - filename: alienvault-pulses-api-openapi.yml
   format: yaml
   label: AlienVault Pulses API
   slug: alienvault-pulses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/openapi/alienvault-pulses-api-openapi.yml
+  url: https://artifacts.apis.io/alienvault/openapi/alienvault-pulses-api-openapi.yml
 - filename: alienvault-search-api-openapi.yml
   format: yaml
   label: AlienVault Search API
   slug: alienvault-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/openapi/alienvault-search-api-openapi.yml
+  url: https://artifacts.apis.io/alienvault/openapi/alienvault-search-api-openapi.yml
 - filename: alienvault-users-api-openapi.yml
   format: yaml
   label: AlienVault Users API
   slug: alienvault-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/openapi/alienvault-users-api-openapi.yml
+  url: https://artifacts.apis.io/alienvault/openapi/alienvault-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: alienvault-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: otx.alienvault.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 15 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: alienvault.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/security/alienvault-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/alienvault/security/alienvault-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

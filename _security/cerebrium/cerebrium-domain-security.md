@@ -5,13 +5,13 @@ api_specs:
   label: Cerebrium Inference API
   slug: cerebrium-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerebrium/refs/heads/main/openapi/cerebrium-inference-api-openapi.yml
+  url: https://artifacts.apis.io/cerebrium/openapi/cerebrium-inference-api-openapi.yml
 - filename: cerebrium-openai-compatible-api-openapi.yml
   format: yaml
   label: Cerebrium OpenAI Compatible API
   slug: cerebrium-openai-compatible-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerebrium/refs/heads/main/openapi/cerebrium-openai-compatible-api-openapi.yml
+  url: https://artifacts.apis.io/cerebrium/openapi/cerebrium-openai-compatible-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: cerebrium-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cerebrium.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.aws.us-east-1.cerebrium.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 16:23:54 2026 GMT\n  hsts: null\n- host: status.cerebrium.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 20:02:31 2026 GMT\n  hsts: true\n  hsts_max_age: 63113904\ndomains:\n- domain: cerebrium.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cerebrium/refs/heads/main/security/cerebrium-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cerebrium/security/cerebrium-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

@@ -5,7 +5,7 @@ api_specs:
   label: Snowball Studio Ltd. API
   slug: infere-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infere/refs/heads/main/openapi/_ae-authored/infere-openapi-generated.yml
+  url: https://artifacts.apis.io/infere/openapi/_ae-authored/infere-openapi-generated.yml
 description: ''
 domains:
 - caa: []
@@ -34,12 +34,12 @@ source_filename: infere-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: infere.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 23 13:33:45 2026 GMT\n  hsts: false\ndomains:\n- domain: infere.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infere/refs/heads/main/security/infere-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/infere/security/infere-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Observability
-- PromptManagement
+- Prompt Management
 - LLM
 ---

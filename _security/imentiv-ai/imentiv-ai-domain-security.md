@@ -5,37 +5,37 @@ api_specs:
   label: Imentiv AI AI Insights API
   slug: imentiv-ai-ai-insights-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imentiv-ai/refs/heads/main/openapi/imentiv-ai-ai-insights-api-api-openapi.yml
+  url: https://artifacts.apis.io/imentiv-ai/openapi/imentiv-ai-ai-insights-api-api-openapi.yml
 - filename: imentiv-ai-audio-emotion-api-api-openapi.yml
   format: yaml
   label: Imentiv AI Audio Emotion API
   slug: imentiv-ai-audio-emotion-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imentiv-ai/refs/heads/main/openapi/imentiv-ai-audio-emotion-api-api-openapi.yml
+  url: https://artifacts.apis.io/imentiv-ai/openapi/imentiv-ai-audio-emotion-api-api-openapi.yml
 - filename: imentiv-ai-image-emotion-api-api-openapi.yml
   format: yaml
   label: Imentiv AI Image Emotion API
   slug: imentiv-ai-image-emotion-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imentiv-ai/refs/heads/main/openapi/imentiv-ai-image-emotion-api-api-openapi.yml
+  url: https://artifacts.apis.io/imentiv-ai/openapi/imentiv-ai-image-emotion-api-api-openapi.yml
 - filename: imentiv-ai-report-api-api-openapi.yml
   format: yaml
   label: Imentiv AI Report API
   slug: imentiv-ai-report-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imentiv-ai/refs/heads/main/openapi/imentiv-ai-report-api-api-openapi.yml
+  url: https://artifacts.apis.io/imentiv-ai/openapi/imentiv-ai-report-api-api-openapi.yml
 - filename: imentiv-ai-text-emotion-api-api-openapi.yml
   format: yaml
   label: Imentiv AI Text Emotion API
   slug: imentiv-ai-text-emotion-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imentiv-ai/refs/heads/main/openapi/imentiv-ai-text-emotion-api-api-openapi.yml
+  url: https://artifacts.apis.io/imentiv-ai/openapi/imentiv-ai-text-emotion-api-api-openapi.yml
 - filename: imentiv-ai-video-emotion-api-api-openapi.yml
   format: yaml
   label: Imentiv AI Video Emotion API
   slug: imentiv-ai-video-emotion-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imentiv-ai/refs/heads/main/openapi/imentiv-ai-video-emotion-api-api-openapi.yml
+  url: https://artifacts.apis.io/imentiv-ai/openapi/imentiv-ai-video-emotion-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: imentiv-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: imentiv.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 03:12:04 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\n- host: api.imentiv.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 21:23:35 2026 GMT\n  hsts: null\ndomains:\n- domain: imentiv.ai\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imentiv-ai/refs/heads/main/security/imentiv-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/imentiv-ai/security/imentiv-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Artificial Intelligence

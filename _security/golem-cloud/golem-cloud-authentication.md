@@ -7,25 +7,25 @@ api_specs:
   label: Golem ApiDefinition API
   slug: golem-cloud-apidefinition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golem-cloud/refs/heads/main/openapi/golem-cloud-apidefinition-api-openapi.yml
+  url: https://artifacts.apis.io/golem-cloud/openapi/golem-cloud-apidefinition-api-openapi.yml
 - filename: golem-cloud-component-api-openapi.yml
   format: yaml
   label: Golem Component API
   slug: golem-cloud-component-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golem-cloud/refs/heads/main/openapi/golem-cloud-component-api-openapi.yml
+  url: https://artifacts.apis.io/golem-cloud/openapi/golem-cloud-component-api-openapi.yml
 - filename: golem-cloud-plugin-api-openapi.yml
   format: yaml
   label: Golem Plugin API
   slug: golem-cloud-plugin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golem-cloud/refs/heads/main/openapi/golem-cloud-plugin-api-openapi.yml
+  url: https://artifacts.apis.io/golem-cloud/openapi/golem-cloud-plugin-api-openapi.yml
 - filename: golem-cloud-worker-api-openapi.yml
   format: yaml
   label: Golem Worker API
   slug: golem-cloud-worker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golem-cloud/refs/heads/main/openapi/golem-cloud-worker-api-openapi.yml
+  url: https://artifacts.apis.io/golem-cloud/openapi/golem-cloud-worker-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: golem-cloud-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/golem-cloud-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: Token\n  type: http\n  scheme: bearer\n  description: Bearer token created for your Golem account. Pass it in the Authorization header\n    as `Bearer <token>`.\n  sources:\n  - openapi/golem-cloud-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/golem-cloud/refs/heads/main/authentication/golem-cloud-authentication.yml
+source_yaml_url: https://artifacts.apis.io/golem-cloud/authentication/golem-cloud-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Durable Computing

@@ -5,37 +5,37 @@ api_specs:
   label: Virgin Money UK ATM API
   slug: virgin-money-uk-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/openapi/virgin-money-uk-atm-api-openapi.yml
+  url: https://artifacts.apis.io/virgin-money-uk/openapi/virgin-money-uk-atm-api-openapi.yml
 - filename: virgin-money-uk-bca-api-openapi.yml
   format: yaml
   label: Virgin Money UK BCA API
   slug: virgin-money-uk-bca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/openapi/virgin-money-uk-bca-api-openapi.yml
+  url: https://artifacts.apis.io/virgin-money-uk/openapi/virgin-money-uk-bca-api-openapi.yml
 - filename: virgin-money-uk-branch-api-openapi.yml
   format: yaml
   label: Virgin Money UK Branch API
   slug: virgin-money-uk-branch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/openapi/virgin-money-uk-branch-api-openapi.yml
+  url: https://artifacts.apis.io/virgin-money-uk/openapi/virgin-money-uk-branch-api-openapi.yml
 - filename: virgin-money-uk-ccc-api-openapi.yml
   format: yaml
   label: Virgin Money UK CCC API
   slug: virgin-money-uk-ccc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/openapi/virgin-money-uk-ccc-api-openapi.yml
+  url: https://artifacts.apis.io/virgin-money-uk/openapi/virgin-money-uk-ccc-api-openapi.yml
 - filename: virgin-money-uk-pca-api-openapi.yml
   format: yaml
   label: Virgin Money UK PCA API
   slug: virgin-money-uk-pca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/openapi/virgin-money-uk-pca-api-openapi.yml
+  url: https://artifacts.apis.io/virgin-money-uk/openapi/virgin-money-uk-pca-api-openapi.yml
 - filename: virgin-money-uk-sme-api-openapi.yml
   format: yaml
   label: Virgin Money UK SME API
   slug: virgin-money-uk-sme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/openapi/virgin-money-uk-sme-api-openapi.yml
+  url: https://artifacts.apis.io/virgin-money-uk/openapi/virgin-money-uk-sme-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -94,7 +94,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-23'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: uk.virginmoney.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  4 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.virginmoney.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api-ib.cybservices.co.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 25 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: virginmoney.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"globalsign.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"entrust.net\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: cybservices.co.uk\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"entrust.net\"\n  - 0 issue \"sectigo.com\"\
   \n  - 0 iodef \"mailto:iodef.report@cybg.com\"\n  - 0 issuewild \";\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/security/virgin-money-uk-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/virgin-money-uk/security/virgin-money-uk-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Financial Services

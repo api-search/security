@@ -5,121 +5,121 @@ api_specs:
   label: Despegar Availability API
   slug: despegar-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/openapi/despegar-availability-api-openapi.yml
+  url: https://artifacts.apis.io/despegar/openapi/despegar-availability-api-openapi.yml
 - filename: despegar-booking-api-openapi.yml
   format: yaml
   label: Despegar Booking API
   slug: despegar-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/openapi/despegar-booking-api-openapi.yml
+  url: https://artifacts.apis.io/despegar/openapi/despegar-booking-api-openapi.yml
 - filename: despegar-cancellations-api-openapi.yml
   format: yaml
   label: Despegar Cancellations API
   slug: despegar-cancellations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/openapi/despegar-cancellations-api-openapi.yml
+  url: https://artifacts.apis.io/despegar/openapi/despegar-cancellations-api-openapi.yml
 - filename: despegar-changes-api-openapi.yml
   format: yaml
   label: Despegar Changes API
   slug: despegar-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/openapi/despegar-changes-api-openapi.yml
+  url: https://artifacts.apis.io/despegar/openapi/despegar-changes-api-openapi.yml
 - filename: despegar-commission-update-api-openapi.yml
   format: yaml
   label: Despegar Commission Update API
   slug: despegar-commission-update-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/openapi/despegar-commission-update-api-openapi.yml
+  url: https://artifacts.apis.io/despegar/openapi/despegar-commission-update-api-openapi.yml
 - filename: despegar-discovery-api-openapi.yml
   format: yaml
   label: Despegar Discovery API
   slug: despegar-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/openapi/despegar-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/despegar/openapi/despegar-discovery-api-openapi.yml
 - filename: despegar-flights-api-openapi.yml
   format: yaml
   label: Despegar Flights API
   slug: despegar-flights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/openapi/despegar-flights-api-openapi.yml
+  url: https://artifacts.apis.io/despegar/openapi/despegar-flights-api-openapi.yml
 - filename: despegar-geography-api-openapi.yml
   format: yaml
   label: Despegar Geography API
   slug: despegar-geography-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/openapi/despegar-geography-api-openapi.yml
+  url: https://artifacts.apis.io/despegar/openapi/despegar-geography-api-openapi.yml
 - filename: despegar-hotel-api-openapi.yml
   format: yaml
   label: Despegar Hotel API
   slug: despegar-hotel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/openapi/despegar-hotel-api-openapi.yml
+  url: https://artifacts.apis.io/despegar/openapi/despegar-hotel-api-openapi.yml
 - filename: despegar-hotel-content-api-openapi.yml
   format: yaml
   label: Despegar Hotel content API
   slug: despegar-hotel-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/openapi/despegar-hotel-content-api-openapi.yml
+  url: https://artifacts.apis.io/despegar/openapi/despegar-hotel-content-api-openapi.yml
 - filename: despegar-hotels-inventory-api-openapi.yml
   format: yaml
   label: Despegar Hotels inventory API
   slug: despegar-hotels-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/openapi/despegar-hotels-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/despegar/openapi/despegar-hotels-inventory-api-openapi.yml
 - filename: despegar-modalities-api-openapi.yml
   format: yaml
   label: Despegar Modalities API
   slug: despegar-modalities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/openapi/despegar-modalities-api-openapi.yml
+  url: https://artifacts.apis.io/despegar/openapi/despegar-modalities-api-openapi.yml
 - filename: despegar-payments-api-openapi.yml
   format: yaml
   label: Despegar Payments API
   slug: despegar-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/openapi/despegar-payments-api-openapi.yml
+  url: https://artifacts.apis.io/despegar/openapi/despegar-payments-api-openapi.yml
 - filename: despegar-pre-booking-api-openapi.yml
   format: yaml
   label: Despegar Pre-booking API
   slug: despegar-pre-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/openapi/despegar-pre-booking-api-openapi.yml
+  url: https://artifacts.apis.io/despegar/openapi/despegar-pre-booking-api-openapi.yml
 - filename: despegar-price-jump-api-openapi.yml
   format: yaml
   label: Despegar Price Jump API
   slug: despegar-price-jump-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/openapi/despegar-price-jump-api-openapi.yml
+  url: https://artifacts.apis.io/despegar/openapi/despegar-price-jump-api-openapi.yml
 - filename: despegar-reschedulings-api-openapi.yml
   format: yaml
   label: Despegar Reschedulings API
   slug: despegar-reschedulings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/openapi/despegar-reschedulings-api-openapi.yml
+  url: https://artifacts.apis.io/despegar/openapi/despegar-reschedulings-api-openapi.yml
 - filename: despegar-reservations-api-openapi.yml
   format: yaml
   label: Despegar Reservations API
   slug: despegar-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/openapi/despegar-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/despegar/openapi/despegar-reservations-api-openapi.yml
 - filename: despegar-special-requests-api-openapi.yml
   format: yaml
   label: Despegar Special Requests API
   slug: despegar-special-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/openapi/despegar-special-requests-api-openapi.yml
+  url: https://artifacts.apis.io/despegar/openapi/despegar-special-requests-api-openapi.yml
 - filename: despegar-suggestions-api-openapi.yml
   format: yaml
   label: Despegar Suggestions API
   slug: despegar-suggestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/openapi/despegar-suggestions-api-openapi.yml
+  url: https://artifacts.apis.io/despegar/openapi/despegar-suggestions-api-openapi.yml
 - filename: despegar-hotel-availability-api-openapi.yml
   format: yaml
   label: Despegar Hotel Availability API
   slug: despegar-hotel-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/openapi/despegar-hotel-availability-api-openapi.yml
+  url: https://artifacts.apis.io/despegar/openapi/despegar-hotel-availability-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -148,7 +148,7 @@ source_filename: despegar-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.despegar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: despegar.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/security/despegar-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/despegar/security/despegar-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

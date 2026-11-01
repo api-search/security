@@ -5,67 +5,67 @@ api_specs:
   label: iGaming Tools Demand API
   slug: igaming-tools-demand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/openapi/igaming-tools-demand-api-openapi.yml
+  url: https://artifacts.apis.io/igaming-tools/openapi/igaming-tools-demand-api-openapi.yml
 - filename: igaming-tools-features-api-openapi.yml
   format: yaml
   label: iGaming Tools Features API
   slug: igaming-tools-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/openapi/igaming-tools-features-api-openapi.yml
+  url: https://artifacts.apis.io/igaming-tools/openapi/igaming-tools-features-api-openapi.yml
 - filename: igaming-tools-jobs-api-openapi.yml
   format: yaml
   label: iGaming Tools Jobs API
   slug: igaming-tools-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/openapi/igaming-tools-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/igaming-tools/openapi/igaming-tools-jobs-api-openapi.yml
 - filename: igaming-tools-news-api-openapi.yml
   format: yaml
   label: iGaming Tools News API
   slug: igaming-tools-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/openapi/igaming-tools-news-api-openapi.yml
+  url: https://artifacts.apis.io/igaming-tools/openapi/igaming-tools-news-api-openapi.yml
 - filename: igaming-tools-providers-api-openapi.yml
   format: yaml
   label: iGaming Tools Providers API
   slug: igaming-tools-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/openapi/igaming-tools-providers-api-openapi.yml
+  url: https://artifacts.apis.io/igaming-tools/openapi/igaming-tools-providers-api-openapi.yml
 - filename: igaming-tools-regulators-api-openapi.yml
   format: yaml
   label: iGaming Tools Regulators API
   slug: igaming-tools-regulators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/openapi/igaming-tools-regulators-api-openapi.yml
+  url: https://artifacts.apis.io/igaming-tools/openapi/igaming-tools-regulators-api-openapi.yml
 - filename: igaming-tools-series-api-openapi.yml
   format: yaml
   label: iGaming Tools Series API
   slug: igaming-tools-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/openapi/igaming-tools-series-api-openapi.yml
+  url: https://artifacts.apis.io/igaming-tools/openapi/igaming-tools-series-api-openapi.yml
 - filename: igaming-tools-slots-api-openapi.yml
   format: yaml
   label: iGaming Tools Slots API
   slug: igaming-tools-slots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/openapi/igaming-tools-slots-api-openapi.yml
+  url: https://artifacts.apis.io/igaming-tools/openapi/igaming-tools-slots-api-openapi.yml
 - filename: igaming-tools-sources-api-openapi.yml
   format: yaml
   label: iGaming Tools Sources API
   slug: igaming-tools-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/openapi/igaming-tools-sources-api-openapi.yml
+  url: https://artifacts.apis.io/igaming-tools/openapi/igaming-tools-sources-api-openapi.yml
 - filename: igaming-tools-stats-api-openapi.yml
   format: yaml
   label: iGaming Tools Stats API
   slug: igaming-tools-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/openapi/igaming-tools-stats-api-openapi.yml
+  url: https://artifacts.apis.io/igaming-tools/openapi/igaming-tools-stats-api-openapi.yml
 - filename: igaming-tools-themes-api-openapi.yml
   format: yaml
   label: iGaming Tools Themes API
   slug: igaming-tools-themes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/openapi/igaming-tools-themes-api-openapi.yml
+  url: https://artifacts.apis.io/igaming-tools/openapi/igaming-tools-themes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -100,7 +100,7 @@ source_filename: igaming-tools-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-30'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: i-gaming.tools\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 07:35:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: mcp.i-gaming.tools\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 07:35:10 2026 GMT\n  hsts: false\ndomains:\n- domain: i-gaming.tools\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/security/igaming-tools-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/igaming-tools/security/igaming-tools-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - iGaming

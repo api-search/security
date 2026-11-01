@@ -14,7 +14,7 @@ api_specs:
   label: Monday.com Platform GraphQL API
   slug: monday-com-monday-com-platform-graphql-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monday-com/refs/heads/main/openapi/monday-com-monday-com-platform-graphql-api-api-openapi.yml
+  url: https://artifacts.apis.io/monday-com/openapi/monday-com-monday-com-platform-graphql-api-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -55,7 +55,7 @@ source_filename: monday-com-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/monday-com-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: apiToken\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: |-\n    Personal API token from the monday.com developer settings, passed as\n    the `Authorization` header value (no `Bearer` prefix).\n  sources:\n  - openapi/monday-com-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.monday.com/oauth2/authorize\n    tokenUrl: https://auth.monday.com/oauth2/token\n    scopes: 7\n  sources:\n  - openapi/monday-com-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/monday-com/refs/heads/main/authentication/monday-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/monday-com/authentication/monday-com-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Work Management

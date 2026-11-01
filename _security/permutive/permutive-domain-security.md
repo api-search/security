@@ -5,37 +5,37 @@ api_specs:
   label: Permutive Contextual API
   slug: permutive-contextual-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/openapi/permutive-contextual-api-openapi.yml
+  url: https://artifacts.apis.io/permutive/openapi/permutive-contextual-api-openapi.yml
 - filename: permutive-cohorts-api-openapi.yml
   format: yaml
   label: Permutive Cohorts API
   slug: permutive-cohorts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/openapi/permutive-cohorts-api-openapi.yml
+  url: https://artifacts.apis.io/permutive/openapi/permutive-cohorts-api-openapi.yml
 - filename: permutive-events-api-openapi.yml
   format: yaml
   label: Permutive Events API
   slug: permutive-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/openapi/permutive-events-api-openapi.yml
+  url: https://artifacts.apis.io/permutive/openapi/permutive-events-api-openapi.yml
 - filename: permutive-identity-api-openapi.yml
   format: yaml
   label: Permutive Identity API
   slug: permutive-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/openapi/permutive-identity-api-openapi.yml
+  url: https://artifacts.apis.io/permutive/openapi/permutive-identity-api-openapi.yml
 - filename: permutive-segmentation-api-openapi.yml
   format: yaml
   label: Permutive Segmentation API
   slug: permutive-segmentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/openapi/permutive-segmentation-api-openapi.yml
+  url: https://artifacts.apis.io/permutive/openapi/permutive-segmentation-api-openapi.yml
 - filename: permutive-taxonomy-api-openapi.yml
   format: yaml
   label: Permutive Taxonomy API
   slug: permutive-taxonomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/openapi/permutive-taxonomy-api-openapi.yml
+  url: https://artifacts.apis.io/permutive/openapi/permutive-taxonomy-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -80,7 +80,7 @@ source_filename: permutive-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: permutive.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 13:47:47 2026 GMT\n  hsts: false\n- host: docs.permutive.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 19:08:20 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.permutive.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 03:15:31 2026 GMT\n  hsts: null\ndomains:\n- domain: permutive.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: permutive.app\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/security/permutive-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/permutive/security/permutive-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

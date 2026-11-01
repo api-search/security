@@ -8,7 +8,7 @@ api_specs:
   label: ENTSO-E Market Data Query API
   slug: entso-e-market-data-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/entso-e/refs/heads/main/openapi/entso-e-market-data-query-api-openapi.yml
+  url: https://artifacts.apis.io/entso-e/openapi/entso-e-market-data-query-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: entso-e-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/entso-e-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: securityToken\n  type: apiKey\n  in: query\n  parameter: securityToken\n  description: Free personal token issued after registering on the Transparency Platform and\n    requesting Restful API access from transparency@entsoe.eu.\n  sources:\n  - openapi/entso-e-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/entso-e/refs/heads/main/authentication/entso-e-authentication.yml
+source_yaml_url: https://artifacts.apis.io/entso-e/authentication/entso-e-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Electricity

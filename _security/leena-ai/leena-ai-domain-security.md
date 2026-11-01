@@ -5,31 +5,31 @@ api_specs:
   label: Leena AI Analytics API
   slug: leena-ai-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/openapi/leena-ai-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/leena-ai/openapi/leena-ai-analytics-api-openapi.yml
 - filename: leena-ai-aop-api-openapi.yml
   format: yaml
   label: Leena AI AOP API
   slug: leena-ai-aop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/openapi/leena-ai-aop-api-openapi.yml
+  url: https://artifacts.apis.io/leena-ai/openapi/leena-ai-aop-api-openapi.yml
 - filename: leena-ai-audit-logs-api-openapi.yml
   format: yaml
   label: Leena AI Audit Logs API
   slug: leena-ai-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/openapi/leena-ai-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/leena-ai/openapi/leena-ai-audit-logs-api-openapi.yml
 - filename: leena-ai-authentication-api-openapi.yml
   format: yaml
   label: Leena AI Authentication API
   slug: leena-ai-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/openapi/leena-ai-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/leena-ai/openapi/leena-ai-authentication-api-openapi.yml
 - filename: leena-ai-knowledge-articles-api-openapi.yml
   format: yaml
   label: Leena AI Knowledge Articles API
   slug: leena-ai-knowledge-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/openapi/leena-ai-knowledge-articles-api-openapi.yml
+  url: https://artifacts.apis.io/leena-ai/openapi/leena-ai-knowledge-articles-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -76,7 +76,7 @@ source_filename: leena-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: leena.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 23 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: docs.leena.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 15:58:51 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: us-east-1-aic.leena.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 23 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: leena.ai\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/security/leena-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/leena-ai/security/leena-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

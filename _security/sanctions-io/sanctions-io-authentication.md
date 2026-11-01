@@ -7,37 +7,37 @@ api_specs:
   label: sanctions.io Account Management API
   slug: sanctions-io-account-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/openapi/sanctions-io-account-management-api-openapi.yml
+  url: https://artifacts.apis.io/sanctions-io/openapi/sanctions-io-account-management-api-openapi.yml
 - filename: sanctions-io-adverse-media-api-openapi.yml
   format: yaml
   label: sanctions.io Adverse Media API
   slug: sanctions-io-adverse-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/openapi/sanctions-io-adverse-media-api-openapi.yml
+  url: https://artifacts.apis.io/sanctions-io/openapi/sanctions-io-adverse-media-api-openapi.yml
 - filename: sanctions-io-batch-screening-api-openapi.yml
   format: yaml
   label: sanctions.io Batch Screening API
   slug: sanctions-io-batch-screening-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/openapi/sanctions-io-batch-screening-api-openapi.yml
+  url: https://artifacts.apis.io/sanctions-io/openapi/sanctions-io-batch-screening-api-openapi.yml
 - filename: sanctions-io-data-sources-api-openapi.yml
   format: yaml
   label: sanctions.io Data Sources API
   slug: sanctions-io-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/openapi/sanctions-io-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/sanctions-io/openapi/sanctions-io-data-sources-api-openapi.yml
 - filename: sanctions-io-monitoring-api-openapi.yml
   format: yaml
   label: sanctions.io Monitoring API
   slug: sanctions-io-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/openapi/sanctions-io-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/sanctions-io/openapi/sanctions-io-monitoring-api-openapi.yml
 - filename: sanctions-io-screening-api-openapi.yml
   format: yaml
   label: sanctions.io Screening API
   slug: sanctions-io-screening-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/openapi/sanctions-io-screening-api-openapi.yml
+  url: https://artifacts.apis.io/sanctions-io/openapi/sanctions-io-screening-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +64,7 @@ source_filename: sanctions-io-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sanctions-io-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'API token from the sanctions.io user portal, passed as \"Authorization: Bearer\n    {token}\". The token may also be sent as a URL parameter, but the Authorization header is\n    recommended.'\n  sources:\n  - openapi/sanctions-io-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/authentication/sanctions-io-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sanctions-io/authentication/sanctions-io-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - AML

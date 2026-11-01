@@ -5,121 +5,121 @@ api_specs:
   label: WooCommerce Webhook Events
   slug: webhook-events
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/asyncapi/woocommerce-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/woocommerce/asyncapi/woocommerce-webhooks-asyncapi.yml
 - filename: woocommerce-cart-api-openapi.yml
   format: yaml
   label: WooCommerce Cart API
   slug: woocommerce-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-cart-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-cart-api-openapi.yml
 - filename: woocommerce-checkout-api-openapi.yml
   format: yaml
   label: WooCommerce Checkout API
   slug: woocommerce-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-checkout-api-openapi.yml
 - filename: woocommerce-coupons-api-openapi.yml
   format: yaml
   label: WooCommerce Coupons API
   slug: woocommerce-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-coupons-api-openapi.yml
 - filename: woocommerce-customers-api-openapi.yml
   format: yaml
   label: WooCommerce Customers API
   slug: woocommerce-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-customers-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-customers-api-openapi.yml
 - filename: woocommerce-order-notes-api-openapi.yml
   format: yaml
   label: WooCommerce Order Notes API
   slug: woocommerce-order-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-order-notes-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-order-notes-api-openapi.yml
 - filename: woocommerce-order-refunds-api-openapi.yml
   format: yaml
   label: WooCommerce Order Refunds API
   slug: woocommerce-order-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-order-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-order-refunds-api-openapi.yml
 - filename: woocommerce-orders-api-openapi.yml
   format: yaml
   label: WooCommerce Orders API
   slug: woocommerce-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-orders-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-orders-api-openapi.yml
 - filename: woocommerce-payment-gateways-api-openapi.yml
   format: yaml
   label: WooCommerce Payment Gateways API
   slug: woocommerce-payment-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-payment-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-payment-gateways-api-openapi.yml
 - filename: woocommerce-product-attributes-api-openapi.yml
   format: yaml
   label: WooCommerce Product Attributes API
   slug: woocommerce-product-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-product-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-product-attributes-api-openapi.yml
 - filename: woocommerce-product-categories-api-openapi.yml
   format: yaml
   label: WooCommerce Product Categories API
   slug: woocommerce-product-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-product-categories-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-product-categories-api-openapi.yml
 - filename: woocommerce-product-reviews-api-openapi.yml
   format: yaml
   label: WooCommerce Product Reviews API
   slug: woocommerce-product-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-product-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-product-reviews-api-openapi.yml
 - filename: woocommerce-product-tags-api-openapi.yml
   format: yaml
   label: WooCommerce Product Tags API
   slug: woocommerce-product-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-product-tags-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-product-tags-api-openapi.yml
 - filename: woocommerce-product-variations-api-openapi.yml
   format: yaml
   label: WooCommerce Product Variations API
   slug: woocommerce-product-variations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-product-variations-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-product-variations-api-openapi.yml
 - filename: woocommerce-products-api-openapi.yml
   format: yaml
   label: WooCommerce Products API
   slug: woocommerce-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-products-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-products-api-openapi.yml
 - filename: woocommerce-reports-api-openapi.yml
   format: yaml
   label: WooCommerce Reports API
   slug: woocommerce-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-reports-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-reports-api-openapi.yml
 - filename: woocommerce-shipping-zones-api-openapi.yml
   format: yaml
   label: WooCommerce Shipping Zones API
   slug: woocommerce-shipping-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-shipping-zones-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-shipping-zones-api-openapi.yml
 - filename: woocommerce-system-status-api-openapi.yml
   format: yaml
   label: WooCommerce System Status API
   slug: woocommerce-system-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-system-status-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-system-status-api-openapi.yml
 - filename: woocommerce-tax-rates-api-openapi.yml
   format: yaml
   label: WooCommerce Tax Rates API
   slug: woocommerce-tax-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-tax-rates-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-tax-rates-api-openapi.yml
 - filename: woocommerce-webhooks-api-openapi.yml
   format: yaml
   label: WooCommerce Webhooks API
   slug: woocommerce-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -166,7 +166,7 @@ source_filename: woocommerce-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: woocommerce.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  2 12:39:24 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: woographql.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 22 16:55:14 2026 GMT\n  hsts: false\n- host: yoursite.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 18:28:36 2026 GMT\n  hsts: false\ndomains:\n- domain: woocommerce.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/36334489\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: woographql.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/security/woocommerce-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/woocommerce/security/woocommerce-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - WooCommerce

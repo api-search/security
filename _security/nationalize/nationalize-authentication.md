@@ -8,7 +8,7 @@ api_specs:
   label: Nationalize.io Nationality API
   slug: nationalize-nationality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nationalize/refs/heads/main/openapi/nationalize-nationality-api-openapi.yml
+  url: https://artifacts.apis.io/nationalize/openapi/nationalize-nationality-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: nationalize-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/nationalize-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: apikey\n  description: API key obtained from https://nationalize.io/login. The same key is shared across\n    all three Demografix services (Genderize, Agify, Nationalize).\n  sources:\n  - openapi/nationalize-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nationalize/refs/heads/main/authentication/nationalize-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nationalize/authentication/nationalize-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Nationality

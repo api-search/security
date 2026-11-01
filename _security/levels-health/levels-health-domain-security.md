@@ -5,19 +5,19 @@ api_specs:
   label: Levels Data Export
   slug: levels-data-export
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/levels-health/refs/heads/main/openapi/_original/levels-health-openapi.yml
+  url: https://artifacts.apis.io/levels-health/openapi/_original/levels-health-openapi.yml
 - filename: levels-health-openapi.yml
   format: yaml
   label: Levels Health Data Integrations
   slug: levels-health-data-integrations
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/levels-health/refs/heads/main/openapi/_original/levels-health-openapi.yml
+  url: https://artifacts.apis.io/levels-health/openapi/_original/levels-health-openapi.yml
 - filename: levels-health-openapi.yml
   format: yaml
   label: Levels Partner Program
   slug: levels-partner-program
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/levels-health/refs/heads/main/openapi/_original/levels-health-openapi.yml
+  url: https://artifacts.apis.io/levels-health/openapi/_original/levels-health-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: levels-health-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.levelshealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 17:54:20 2026 GMT\n  hsts: false\n- host: support.levels.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 00:01:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: levelshealth.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: levels.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/levels-health/refs/heads/main/security/levels-health-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/levels-health/security/levels-health-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Metabolic Health

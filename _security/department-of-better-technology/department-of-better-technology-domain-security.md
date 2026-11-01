@@ -5,49 +5,49 @@ api_specs:
   label: Department of Better Technology Files API
   slug: department-of-better-technology-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/openapi/department-of-better-technology-files-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-better-technology/openapi/department-of-better-technology-files-api-openapi.yml
 - filename: department-of-better-technology-forms-api-openapi.yml
   format: yaml
   label: Department of Better Technology Forms API
   slug: department-of-better-technology-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/openapi/department-of-better-technology-forms-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-better-technology/openapi/department-of-better-technology-forms-api-openapi.yml
 - filename: department-of-better-technology-labels-api-openapi.yml
   format: yaml
   label: Department of Better Technology Labels API
   slug: department-of-better-technology-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/openapi/department-of-better-technology-labels-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-better-technology/openapi/department-of-better-technology-labels-api-openapi.yml
 - filename: department-of-better-technology-projects-api-openapi.yml
   format: yaml
   label: Department of Better Technology Projects API
   slug: department-of-better-technology-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/openapi/department-of-better-technology-projects-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-better-technology/openapi/department-of-better-technology-projects-api-openapi.yml
 - filename: department-of-better-technology-response-assignments-api-openapi.yml
   format: yaml
   label: Department of Better Technology Response Assignments API
   slug: department-of-better-technology-response-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/openapi/department-of-better-technology-response-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-better-technology/openapi/department-of-better-technology-response-assignments-api-openapi.yml
 - filename: department-of-better-technology-response-labels-api-openapi.yml
   format: yaml
   label: Department of Better Technology Response Labels API
   slug: department-of-better-technology-response-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/openapi/department-of-better-technology-response-labels-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-better-technology/openapi/department-of-better-technology-response-labels-api-openapi.yml
 - filename: department-of-better-technology-responses-api-openapi.yml
   format: yaml
   label: Department of Better Technology Responses API
   slug: department-of-better-technology-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/openapi/department-of-better-technology-responses-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-better-technology/openapi/department-of-better-technology-responses-api-openapi.yml
 - filename: department-of-better-technology-statuses-api-openapi.yml
   format: yaml
   label: Department of Better Technology Statuses API
   slug: department-of-better-technology-statuses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/openapi/department-of-better-technology-statuses-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-better-technology/openapi/department-of-better-technology-statuses-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: department-of-better-technology-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dobt.co\n  https: false\n- host: screendoor.dobt.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: dobt.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/security/department-of-better-technology-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/department-of-better-technology/security/department-of-better-technology-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

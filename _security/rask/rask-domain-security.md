@@ -5,19 +5,19 @@ api_specs:
   label: Rask AI Media API
   slug: rask-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rask/refs/heads/main/openapi/rask-media-api-openapi.yml
+  url: https://artifacts.apis.io/rask/openapi/rask-media-api-openapi.yml
 - filename: rask-projects-api-openapi.yml
   format: yaml
   label: Rask AI Projects API
   slug: rask-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rask/refs/heads/main/openapi/rask-projects-api-openapi.yml
+  url: https://artifacts.apis.io/rask/openapi/rask-projects-api-openapi.yml
 - filename: rask-transcription-api-openapi.yml
   format: yaml
   label: Rask AI Transcription API
   slug: rask-transcription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rask/refs/heads/main/openapi/rask-transcription-api-openapi.yml
+  url: https://artifacts.apis.io/rask/openapi/rask-transcription-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: rask-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.rask.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 07:52:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.api.rask.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 06:25:04 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.rask.ai\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 23 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: rask.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rask/refs/heads/main/security/rask-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rask/security/rask-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

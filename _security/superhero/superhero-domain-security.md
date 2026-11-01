@@ -5,13 +5,13 @@ api_specs:
   label: Superhero API Characters API
   slug: superhero-characters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superhero/refs/heads/main/openapi/superhero-characters-api-openapi.yml
+  url: https://artifacts.apis.io/superhero/openapi/superhero-characters-api-openapi.yml
 - filename: superhero-search-api-openapi.yml
   format: yaml
   label: Superhero API Search API
   slug: superhero-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superhero/refs/heads/main/openapi/superhero-search-api-openapi.yml
+  url: https://artifacts.apis.io/superhero/openapi/superhero-search-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -51,7 +51,7 @@ source_filename: superhero-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.superheroapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 03:34:48 2026 GMT\n  hsts: false\n- host: superheroapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 03:34:48 2026 GMT\n  hsts: false\ndomains:\n- domain: superheroapi.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"globalsign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superhero/refs/heads/main/security/superhero-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/superhero/security/superhero-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Superheroes

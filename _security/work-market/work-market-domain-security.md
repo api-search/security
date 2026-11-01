@@ -5,61 +5,61 @@ api_specs:
   label: Work Market Assignments API
   slug: work-market-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/openapi/work-market-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/work-market/openapi/work-market-assignments-api-openapi.yml
 - filename: work-market-authorization-api-openapi.yml
   format: yaml
   label: Work Market Authorization API
   slug: work-market-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/openapi/work-market-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/work-market/openapi/work-market-authorization-api-openapi.yml
 - filename: work-market-constants-api-openapi.yml
   format: yaml
   label: Work Market Constants API
   slug: work-market-constants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/openapi/work-market-constants-api-openapi.yml
+  url: https://artifacts.apis.io/work-market/openapi/work-market-constants-api-openapi.yml
 - filename: work-market-custom-fields-api-openapi.yml
   format: yaml
   label: Work Market Custom Fields API
   slug: work-market-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/openapi/work-market-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/work-market/openapi/work-market-custom-fields-api-openapi.yml
 - filename: work-market-labels-api-openapi.yml
   format: yaml
   label: Work Market Labels API
   slug: work-market-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/openapi/work-market-labels-api-openapi.yml
+  url: https://artifacts.apis.io/work-market/openapi/work-market-labels-api-openapi.yml
 - filename: work-market-locations-api-openapi.yml
   format: yaml
   label: Work Market Locations API
   slug: work-market-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/openapi/work-market-locations-api-openapi.yml
+  url: https://artifacts.apis.io/work-market/openapi/work-market-locations-api-openapi.yml
 - filename: work-market-projects-api-openapi.yml
   format: yaml
   label: Work Market Projects API
   slug: work-market-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/openapi/work-market-projects-api-openapi.yml
+  url: https://artifacts.apis.io/work-market/openapi/work-market-projects-api-openapi.yml
 - filename: work-market-talent-pools-api-openapi.yml
   format: yaml
   label: Work Market Talent Pools API
   slug: work-market-talent-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/openapi/work-market-talent-pools-api-openapi.yml
+  url: https://artifacts.apis.io/work-market/openapi/work-market-talent-pools-api-openapi.yml
 - filename: work-market-updatecheckin-api-openapi.yml
   format: yaml
   label: Work Market UpdateCheckIn API
   slug: work-market-updatecheckin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/openapi/work-market-updatecheckin-api-openapi.yml
+  url: https://artifacts.apis.io/work-market/openapi/work-market-updatecheckin-api-openapi.yml
 - filename: work-market-address-book-api-openapi.yml
   format: yaml
   label: Work Market Address Book API
   slug: work-market-address-book-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/openapi/work-market-address-book-api-openapi.yml
+  url: https://artifacts.apis.io/work-market/openapi/work-market-address-book-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -107,7 +107,7 @@ source_filename: work-market-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: workmarket.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 21 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: employer-api.workmarket.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 22:08:27 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.workmarket.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 21 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: workmarket.com\n  dnssec: false\n  caa:\n  - 0 issue \"globalsign.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"globalsign.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issuewild \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/security/work-market-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/work-market/security/work-market-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Workforce Management
@@ -116,6 +116,6 @@ tags:
 - Gig Economy
 - Human Resources
 - Payments
-- Field Service
+- Field Service Management
 - Staffing
 ---

@@ -7,13 +7,13 @@ api_specs:
   label: Dunamu Exchange API
   slug: dunamu-exchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dunamu/refs/heads/main/openapi/dunamu-exchange-api-openapi.yml
+  url: https://artifacts.apis.io/dunamu/openapi/dunamu-exchange-api-openapi.yml
 - filename: dunamu-quotation-api-openapi.yml
   format: yaml
   label: Dunamu Quotation API
   slug: dunamu-quotation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dunamu/refs/heads/main/openapi/dunamu-quotation-api-openapi.yml
+  url: https://artifacts.apis.io/dunamu/openapi/dunamu-quotation-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: https://global-
   \ not permitted for hashing.\n  - name: query_hash_alg\n    required: conditional\n    description: Algorithm used for query_hash. SHA512.\n  deprecated_predecessor: >-\n    The legacy `query` claim form was deprecated in March 2022 in favour of\n    query_hash + query_hash_alg.\nkey_management:\n  issuance_url: https://global-docs.upbit.com/docs/api-key\n  issuance_path: 'Upbit PC web > My Profile > Open API'\n  issuance_constraint: >-\n    \"API Keys can be issued only through the PC web interface and require a security level of 2 or\n    higher.\" Not issuable from mobile.\n  permissions:\n  - id: view-assets\n    description: Read account assets and balances.\n    ip_allowlist_required: false\n  - id: make-orders\n    description: Create and cancel orders.\n    ip_allowlist_required: true\n  - id: withdraw\n    description: Request digital asset withdrawals.\n    ip_allowlist_required: true\n  ip_allowlist:\n    required_for: [make-orders, withdraw]\n    rule: >-\n      \"If you select\
   \ Make Orders or Withdraw, you must register an allowlisted IP address.\"\n      A static IP is mandatory — the FAQ states dynamic-IP environments are not supported for\n      key-authenticated Exchange APIs because they involve deposits, withdrawals and trading.\n    error_on_mismatch: no_authorization_ip (HTTP 401)\n  expiry:\n    documented_period: null\n    note: >-\n      The docs expose an \"Expired Keys\" tab for deleting expired keys and an `expired_access_key`\n      (HTTP 401) error code, so keys DO expire — but no validity period is stated on the API-key\n      page. Recorded as an honest gap, not guessed.\noauth2:\n  supported: false\n  note: >-\n    No OAuth 2.0, no OpenID Connect, no authorization-server metadata. Probed 2026-08-12:\n    /.well-known/oauth-authorization-server and /.well-known/openid-configuration return 404 on\n    global-docs.upbit.com and dunamu.com. No scopes/ artifact is emitted for this provider —\n    permissions are key-level checkboxes set at issuance,\
   \ not OAuth scopes. The single\n    scope-shaped runtime signal is the `out_of_scope` error code (HTTP 403), which reports that a\n    key lacks the permission for the requested operation.\ntransport:\n  tls_minimum: TLSv1.2\n  tls_recommended: TLSv1.3\n  note: >-\n    \"The Upbit Open API supports only TLS version 1.2 or higher.\" Versions below TLS 1.2 are\n    stated as no longer supported.\nwebsocket:\n  authentication: >-\n    Private WebSocket streams (wss://<region>-api.upbit.com/websocket/v1/private) use the same JWT\n    bearer token as the REST Exchange API. Public streams\n    (wss://<region>-api.upbit.com/websocket/v1) require no authentication.\n  docs: https://global-docs.upbit.com/reference/websocket-guide\nerrors:\n  reference: errors/dunamu-problem-types.yml\n  auth_codes:\n  - invalid_query_payload\n  - jwt_verification\n  - expired_access_key\n  - nonce_used\n  - no_authorization_ip\n  - no_authorization_token\n  - out_of_scope\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dunamu/refs/heads/main/authentication/dunamu-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dunamu/authentication/dunamu-authentication.yml
 summary_line: 1 scheme
 tags:
 - Fintech

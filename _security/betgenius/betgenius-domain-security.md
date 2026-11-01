@@ -5,25 +5,25 @@ api_specs:
   label: BetGenius Booking V1 API
   slug: betgenius-bookingv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/openapi/betgenius-bookingv1-api-openapi.yml
+  url: https://artifacts.apis.io/betgenius/openapi/betgenius-bookingv1-api-openapi.yml
 - filename: betgenius-bookingv2-api-openapi.yml
   format: yaml
   label: BetGenius Booking V2 API
   slug: betgenius-bookingv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/openapi/betgenius-bookingv2-api-openapi.yml
+  url: https://artifacts.apis.io/betgenius/openapi/betgenius-bookingv2-api-openapi.yml
 - filename: betgenius-fixtures-api-openapi.yml
   format: yaml
   label: BetGenius Fixtures API
   slug: betgenius-fixtures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/openapi/betgenius-fixtures-api-openapi.yml
+  url: https://artifacts.apis.io/betgenius/openapi/betgenius-fixtures-api-openapi.yml
 - filename: betgenius-regions-api-openapi.yml
   format: yaml
   label: BetGenius Regions API
   slug: betgenius-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/openapi/betgenius-regions-api-openapi.yml
+  url: https://artifacts.apis.io/betgenius/openapi/betgenius-regions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: betgenius-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.betgenius.com\n  https: false\n- host: dataservices.betgenius.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: api.geniussports.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: betgenius.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: geniussports.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/security/betgenius-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/betgenius/security/betgenius-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Sportsbook

@@ -5,19 +5,19 @@ api_specs:
   label: Volcano Jobs API
   slug: volcano-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/volcano/refs/heads/main/openapi/volcano-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/volcano/openapi/volcano-jobs-api-openapi.yml
 - filename: volcano-podgroups-api-openapi.yml
   format: yaml
   label: Volcano PodGroups API
   slug: volcano-podgroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/volcano/refs/heads/main/openapi/volcano-podgroups-api-openapi.yml
+  url: https://artifacts.apis.io/volcano/openapi/volcano-podgroups-api-openapi.yml
 - filename: volcano-queues-api-openapi.yml
   format: yaml
   label: Volcano Queues API
   slug: volcano-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/volcano/refs/heads/main/openapi/volcano-queues-api-openapi.yml
+  url: https://artifacts.apis.io/volcano/openapi/volcano-queues-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: volcano-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: volcano.sh\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 05:56:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: volcano.sh\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/volcano/refs/heads/main/security/volcano-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/volcano/security/volcano-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Batch Processing

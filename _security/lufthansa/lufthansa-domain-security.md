@@ -5,25 +5,25 @@ api_specs:
   label: Lufthansa Cargo API
   slug: lufthansa-cargo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lufthansa/refs/heads/main/openapi/lufthansa-cargo-api-openapi.yml
+  url: https://artifacts.apis.io/lufthansa/openapi/lufthansa-cargo-api-openapi.yml
 - filename: lufthansa-offers-api-openapi.yml
   format: yaml
   label: Lufthansa Offers API
   slug: lufthansa-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lufthansa/refs/heads/main/openapi/lufthansa-offers-api-openapi.yml
+  url: https://artifacts.apis.io/lufthansa/openapi/lufthansa-offers-api-openapi.yml
 - filename: lufthansa-operations-api-openapi.yml
   format: yaml
   label: Lufthansa Operations API
   slug: lufthansa-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lufthansa/refs/heads/main/openapi/lufthansa-operations-api-openapi.yml
+  url: https://artifacts.apis.io/lufthansa/openapi/lufthansa-operations-api-openapi.yml
 - filename: lufthansa-reference-data-api-openapi.yml
   format: yaml
   label: Lufthansa Reference Data API
   slug: lufthansa-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lufthansa/refs/heads/main/openapi/lufthansa-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/lufthansa/openapi/lufthansa-reference-data-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: lufthansa-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.lufthansagroup.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15768000\n- host: developer.lufthansa.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 23:59:59 2026 GMT\n  hsts: false\n- host: api.lufthansa.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: lufthansagroup.com\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n- domain: lufthansa.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lufthansa/refs/heads/main/security/lufthansa-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lufthansa/security/lufthansa-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Airlines

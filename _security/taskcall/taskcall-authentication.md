@@ -8,13 +8,13 @@ api_specs:
   label: TaskCall Components API
   slug: taskcall-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskcall/refs/heads/main/openapi/taskcall-components-api-openapi.yml
+  url: https://artifacts.apis.io/taskcall/openapi/taskcall-components-api-openapi.yml
 - filename: taskcall-incidents-api-openapi.yml
   format: yaml
   label: TaskCall Incidents API
   slug: taskcall-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskcall/refs/heads/main/openapi/taskcall-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/taskcall/openapi/taskcall-incidents-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: taskcall-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/taskcall-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: tokenAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'API key formatted as: token <api_key>'\n  sources:\n  - openapi/taskcall-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taskcall/refs/heads/main/authentication/taskcall-authentication.yml
+source_yaml_url: https://artifacts.apis.io/taskcall/authentication/taskcall-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Incident Management

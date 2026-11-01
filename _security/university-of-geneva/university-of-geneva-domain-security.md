@@ -5,19 +5,19 @@ api_specs:
   label: Yareta Access API
   slug: university-of-geneva-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/openapi/university-of-geneva-access-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-geneva/openapi/university-of-geneva-access-api-openapi.yml
 - filename: university-of-geneva-ingest-api-openapi.yml
   format: yaml
   label: Yareta Ingest API
   slug: university-of-geneva-ingest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/openapi/university-of-geneva-ingest-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-geneva/openapi/university-of-geneva-ingest-api-openapi.yml
 - filename: university-of-geneva-oai-pmh-api-openapi.yml
   format: yaml
   label: Yareta OAI-PMH Provider API
   slug: university-of-geneva-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/openapi/university-of-geneva-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-geneva/openapi/university-of-geneva-oai-pmh-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -56,7 +56,7 @@ source_filename: university-of-geneva-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.unige.ch\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 16 23:59:59 2027 GMT\n  hsts: false\n- host: archive-ouverte.unige.ch\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 13:26:53 2026 GMT\n  hsts: false\n- host: yareta.unige.ch\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 05:30:00 2026 GMT\n  hsts: false\ndomains:\n- domain: unige.ch\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/security/university-of-geneva-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/university-of-geneva/security/university-of-geneva-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Education

@@ -27,7 +27,7 @@ source_filename: dimensional-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dimensional.me\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 13:02:35 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: dimensional.me\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dimensional/refs/heads/main/security/dimensional-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dimensional/security/dimensional-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

@@ -8,31 +8,31 @@ api_specs:
   label: Airweave Collections API
   slug: airweave-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/openapi/airweave-collections-api-openapi.yml
+  url: https://artifacts.apis.io/airweave/openapi/airweave-collections-api-openapi.yml
 - filename: airweave-collections-search-api-openapi.yml
   format: yaml
   label: Airweave collections > search API
   slug: airweave-collections-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/openapi/airweave-collections-search-api-openapi.yml
+  url: https://artifacts.apis.io/airweave/openapi/airweave-collections-search-api-openapi.yml
 - filename: airweave-source-connections-api-openapi.yml
   format: yaml
   label: Airweave Source Connections API
   slug: airweave-source-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/openapi/airweave-source-connections-api-openapi.yml
+  url: https://artifacts.apis.io/airweave/openapi/airweave-source-connections-api-openapi.yml
 - filename: airweave-sources-api-openapi.yml
   format: yaml
   label: Airweave Sources API
   slug: airweave-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/openapi/airweave-sources-api-openapi.yml
+  url: https://artifacts.apis.io/airweave/openapi/airweave-sources-api-openapi.yml
 - filename: airweave-webhooks-api-openapi.yml
   format: yaml
   label: Airweave Webhooks API
   slug: airweave-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/openapi/airweave-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/airweave/openapi/airweave-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -59,7 +59,7 @@ source_filename: airweave-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: derived\nsource: openapi/airweave-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: default\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/airweave-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/authentication/airweave-authentication.yml
+source_yaml_url: https://artifacts.apis.io/airweave/authentication/airweave-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

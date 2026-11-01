@@ -7,13 +7,13 @@ api_specs:
   label: Cherre Auth API
   slug: cherre-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cherre/refs/heads/main/openapi/cherre-auth-api-openapi.yml
+  url: https://artifacts.apis.io/cherre/openapi/cherre-auth-api-openapi.yml
 - filename: cherre-graph-ql-api-openapi.yml
   format: yaml
   label: Cherre Graph QL API
   slug: cherre-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cherre/refs/heads/main/openapi/cherre-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/cherre/openapi/cherre-graph-ql-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: cherre-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cherre-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/cherre-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cherre/refs/heads/main/authentication/cherre-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cherre/authentication/cherre-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Real Estate

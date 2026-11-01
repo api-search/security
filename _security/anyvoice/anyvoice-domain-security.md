@@ -26,7 +26,7 @@ source_filename: anyvoice-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: anyvoice.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 00:18:24 2026 GMT\n  hsts: false\ndomains:\n- domain: anyvoice.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anyvoice/refs/heads/main/security/anyvoice-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/anyvoice/security/anyvoice-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Artificial Intelligence

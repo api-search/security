@@ -8,37 +8,37 @@ api_specs:
   label: Cyble Domain API
   slug: cyble-domain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/openapi/cyble-domain-api-openapi.yml
+  url: https://artifacts.apis.io/cyble/openapi/cyble-domain-api-openapi.yml
 - filename: cyble-exposedbuckets-api-openapi.yml
   format: yaml
   label: Cyble Exposed Buckets API
   slug: cyble-exposedbuckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/openapi/cyble-exposedbuckets-api-openapi.yml
+  url: https://artifacts.apis.io/cyble/openapi/cyble-exposedbuckets-api-openapi.yml
 - filename: cyble-exposedfiles-api-openapi.yml
   format: yaml
   label: Cyble Exposed Files API
   slug: cyble-exposedfiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/openapi/cyble-exposedfiles-api-openapi.yml
+  url: https://artifacts.apis.io/cyble/openapi/cyble-exposedfiles-api-openapi.yml
 - filename: cyble-fields-api-openapi.yml
   format: yaml
   label: Cyble Fields API
   slug: cyble-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/openapi/cyble-fields-api-openapi.yml
+  url: https://artifacts.apis.io/cyble/openapi/cyble-fields-api-openapi.yml
 - filename: cyble-health-api-openapi.yml
   format: yaml
   label: Cyble Health API
   slug: cyble-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/openapi/cyble-health-api-openapi.yml
+  url: https://artifacts.apis.io/cyble/openapi/cyble-health-api-openapi.yml
 - filename: cyble-hosts-api-openapi.yml
   format: yaml
   label: Cyble Hosts API
   slug: cyble-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/openapi/cyble-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/cyble/openapi/cyble-hosts-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -65,7 +65,7 @@ source_filename: cyble-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-11'\nmethod: derived\nsource: openapi/cyble-odin-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  sources:\n  - openapi/cyble-odin-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/authentication/cyble-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cyble/authentication/cyble-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Threat Intelligence

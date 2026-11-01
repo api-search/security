@@ -8,19 +8,19 @@ api_specs:
   label: Cloudimage Filerobot DAM API
   slug: cloudimage-filerobot-dam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudimage/refs/heads/main/openapi/cloudimage-filerobot-dam-api-openapi.yml
+  url: https://artifacts.apis.io/cloudimage/openapi/cloudimage-filerobot-dam-api-openapi.yml
 - filename: cloudimage-image-api-openapi.yml
   format: yaml
   label: Cloudimage Image API
   slug: cloudimage-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudimage/refs/heads/main/openapi/cloudimage-image-api-openapi.yml
+  url: https://artifacts.apis.io/cloudimage/openapi/cloudimage-image-api-openapi.yml
 - filename: cloudimage-video-api-openapi.yml
   format: yaml
   label: Cloudimage Video API
   slug: cloudimage-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudimage/refs/heads/main/openapi/cloudimage-video-api-openapi.yml
+  url: https://artifacts.apis.io/cloudimage/openapi/cloudimage-video-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: cloudimage-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cloudimage-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: filerobotKey\n  type: apiKey\n  in: header\n  parameter: X-Filerobot-Key\n  description: Filerobot DAM API key.\n  sources:\n  - openapi/cloudimage-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudimage/refs/heads/main/authentication/cloudimage-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cloudimage/authentication/cloudimage-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Image Optimization

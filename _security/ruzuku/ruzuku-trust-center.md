@@ -16,7 +16,7 @@ source_filename: ruzuku-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.ruzuku.com/security\nurl: https://www.ruzuku.com/security\ncertifications:\n- PCI DSS\n- GDPR\nevidence:\n- source: https://www.ruzuku.com/security\n  keywords:\n  - pci dss\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ruzuku/refs/heads/main/security/ruzuku-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/ruzuku/security/ruzuku-trust-center.yml
 summary_line: PCI DSS, GDPR
 tags:
 - Online Courses

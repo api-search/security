@@ -8,37 +8,37 @@ api_specs:
   label: Packlink Clients API
   slug: packlink-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/openapi/packlink-clients-api-openapi.yml
+  url: https://artifacts.apis.io/packlink/openapi/packlink-clients-api-openapi.yml
 - filename: packlink-customs-api-openapi.yml
   format: yaml
   label: Packlink Customs API
   slug: packlink-customs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/openapi/packlink-customs-api-openapi.yml
+  url: https://artifacts.apis.io/packlink/openapi/packlink-customs-api-openapi.yml
 - filename: packlink-integrations-api-openapi.yml
   format: yaml
   label: Packlink Integrations API
   slug: packlink-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/openapi/packlink-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/packlink/openapi/packlink-integrations-api-openapi.yml
 - filename: packlink-locations-api-openapi.yml
   format: yaml
   label: Packlink Locations API
   slug: packlink-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/openapi/packlink-locations-api-openapi.yml
+  url: https://artifacts.apis.io/packlink/openapi/packlink-locations-api-openapi.yml
 - filename: packlink-services-api-openapi.yml
   format: yaml
   label: Packlink Services API
   slug: packlink-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/openapi/packlink-services-api-openapi.yml
+  url: https://artifacts.apis.io/packlink/openapi/packlink-services-api-openapi.yml
 - filename: packlink-shipments-api-openapi.yml
   format: yaml
   label: Packlink Shipments API
   slug: packlink-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/openapi/packlink-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/packlink/openapi/packlink-shipments-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: packlink-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/packlink-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Packlink PRO API key passed in the Authorization header. Obtain the key from\n    the Packlink PRO dashboard under Settings > Packlink PRO API.\n  sources:\n  - openapi/packlink-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/authentication/packlink-authentication.yml
+source_yaml_url: https://artifacts.apis.io/packlink/authentication/packlink-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

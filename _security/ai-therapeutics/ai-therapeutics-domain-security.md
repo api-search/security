@@ -28,7 +28,7 @@ source_filename: ai-therapeutics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: orphai-therapeutics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 23:05:11 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\ndomains:\n- domain: orphai-therapeutics.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ai-therapeutics/refs/heads/main/security/ai-therapeutics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ai-therapeutics/security/ai-therapeutics-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

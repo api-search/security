@@ -5,25 +5,25 @@ api_specs:
   label: Dropwizard Diagnostics API
   slug: dropwizard-diagnostics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dropwizard/refs/heads/main/openapi/dropwizard-diagnostics-api-openapi.yml
+  url: https://artifacts.apis.io/dropwizard/openapi/dropwizard-diagnostics-api-openapi.yml
 - filename: dropwizard-health-api-openapi.yml
   format: yaml
   label: Dropwizard Health API
   slug: dropwizard-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dropwizard/refs/heads/main/openapi/dropwizard-health-api-openapi.yml
+  url: https://artifacts.apis.io/dropwizard/openapi/dropwizard-health-api-openapi.yml
 - filename: dropwizard-metrics-api-openapi.yml
   format: yaml
   label: Dropwizard Metrics API
   slug: dropwizard-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dropwizard/refs/heads/main/openapi/dropwizard-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/dropwizard/openapi/dropwizard-metrics-api-openapi.yml
 - filename: dropwizard-tasks-api-openapi.yml
   format: yaml
   label: Dropwizard Tasks API
   slug: dropwizard-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dropwizard/refs/heads/main/openapi/dropwizard-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/dropwizard/openapi/dropwizard-tasks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: dropwizard-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dropwizard.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 22:32:34 2026 GMT\n  hsts: false\ndomains:\n- domain: dropwizard.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dropwizard/refs/heads/main/security/dropwizard-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dropwizard/security/dropwizard-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - API Development

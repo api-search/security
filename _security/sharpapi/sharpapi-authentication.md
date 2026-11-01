@@ -7,67 +7,67 @@ api_specs:
   label: SharpAPI Account API
   slug: sharpapi-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/openapi/sharpapi-account-api-openapi.yml
+  url: https://artifacts.apis.io/sharpapi/openapi/sharpapi-account-api-openapi.yml
 - filename: sharpapi-betting-splits-api-openapi.yml
   format: yaml
   label: SharpAPI Betting Splits API
   slug: sharpapi-betting-splits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/openapi/sharpapi-betting-splits-api-openapi.yml
+  url: https://artifacts.apis.io/sharpapi/openapi/sharpapi-betting-splits-api-openapi.yml
 - filename: sharpapi-deep-links-api-openapi.yml
   format: yaml
   label: SharpAPI Deep Links API
   slug: sharpapi-deep-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/openapi/sharpapi-deep-links-api-openapi.yml
+  url: https://artifacts.apis.io/sharpapi/openapi/sharpapi-deep-links-api-openapi.yml
 - filename: sharpapi-events-api-openapi.yml
   format: yaml
   label: SharpAPI Events API
   slug: sharpapi-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/openapi/sharpapi-events-api-openapi.yml
+  url: https://artifacts.apis.io/sharpapi/openapi/sharpapi-events-api-openapi.yml
 - filename: sharpapi-futures-api-openapi.yml
   format: yaml
   label: SharpAPI Futures API
   slug: sharpapi-futures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/openapi/sharpapi-futures-api-openapi.yml
+  url: https://artifacts.apis.io/sharpapi/openapi/sharpapi-futures-api-openapi.yml
 - filename: sharpapi-game-state-api-openapi.yml
   format: yaml
   label: SharpAPI Game State API
   slug: sharpapi-game-state-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/openapi/sharpapi-game-state-api-openapi.yml
+  url: https://artifacts.apis.io/sharpapi/openapi/sharpapi-game-state-api-openapi.yml
 - filename: sharpapi-health-api-openapi.yml
   format: yaml
   label: SharpAPI Health API
   slug: sharpapi-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/openapi/sharpapi-health-api-openapi.yml
+  url: https://artifacts.apis.io/sharpapi/openapi/sharpapi-health-api-openapi.yml
 - filename: sharpapi-odds-api-openapi.yml
   format: yaml
   label: SharpAPI Odds API
   slug: sharpapi-odds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/openapi/sharpapi-odds-api-openapi.yml
+  url: https://artifacts.apis.io/sharpapi/openapi/sharpapi-odds-api-openapi.yml
 - filename: sharpapi-opportunities-api-openapi.yml
   format: yaml
   label: SharpAPI Opportunities API
   slug: sharpapi-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/openapi/sharpapi-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/sharpapi/openapi/sharpapi-opportunities-api-openapi.yml
 - filename: sharpapi-reference-data-api-openapi.yml
   format: yaml
   label: SharpAPI Reference Data API
   slug: sharpapi-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/openapi/sharpapi-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/sharpapi/openapi/sharpapi-reference-data-api-openapi.yml
 - filename: sharpapi-streaming-api-openapi.yml
   format: yaml
   label: SharpAPI Streaming API
   slug: sharpapi-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/openapi/sharpapi-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/sharpapi/openapi/sharpapi-streaming-api-openapi.yml
 auth_types: []
 description: 'SharpAPI supports three authentication methods: X-API-Key header, Authorization Bearer header, and query parameter.'
 kind: authentication
@@ -105,7 +105,7 @@ source_heading: Authentication Profile
 source_url: https://docs.sharpapi.io/en/authentication/
 source_yaml: "generated: '2026-10-14'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://docs.sharpapi.io/en/authentication/\nsources:\n- https://docs.sharpapi.io/en/authentication/\n- https://docs.sharpapi.io/en/authentication/\n- https://docs.sharpapi.io/es/authentication/\n- https://docs.sharpapi.io/pt-BR/authentication/\ndescription: 'SharpAPI supports three authentication methods: X-API-Key header, Authorization Bearer header, and query parameter.'\nschemes:\n- type: apiKey\n  name: X-API-Key\n  evidence: The most secure method for server-side applications.\n  location: header\n  header: X-API-Key\n  how_to_obtain: Your API key is displayed on the main dashboard after signing up.\n- type: http-bearer\n  name: Authorization\n  evidence: Standard OAuth-style bearer token format.\n  location: header\n  header: Authorization\n  how_to_obtain: Your API key is displayed on the main dashboard after signing up.\n- type: apiKey\n  name: api_key\n  evidence: Useful\
   \ for SSE streaming in browsers where you cannot set custom headers.\n  location: query\n  how_to_obtain: Your API key is displayed on the main dashboard after signing up.\ndocs: https://docs.sharpapi.io/en/authentication/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/authentication/sharpapi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sharpapi/authentication/sharpapi-authentication.yml
 summary_line: 3 schemes
 tags:
 - Company

@@ -7,19 +7,19 @@ api_specs:
   label: Ciloo Cart API
   slug: ciloo-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ciloo/refs/heads/main/openapi/ciloo-cart-api-openapi.yml
+  url: https://artifacts.apis.io/ciloo/openapi/ciloo-cart-api-openapi.yml
 - filename: ciloo-authentication-api-openapi.yml
   format: yaml
   label: Ciloo Authentication API
   slug: ciloo-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ciloo/refs/heads/main/openapi/ciloo-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/ciloo/openapi/ciloo-authentication-api-openapi.yml
 - filename: ciloo-customers-api-openapi.yml
   format: yaml
   label: Ciloo Customers API
   slug: ciloo-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ciloo/refs/heads/main/openapi/ciloo-customers-api-openapi.yml
+  url: https://artifacts.apis.io/ciloo/openapi/ciloo-customers-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: openapi/ciloo-c
   \ type causes signature\n    failures. Body parameters are merged into the signature base string for POST and PUT only; path\n    parameters (such as asset_id) are included. Signing key is urlencode(consumer_secret) + \"&\" — there\n    is no token secret, so this is the two-legged variant.\n  sources:\n  - openapi/ciloo-cart-api-openapi.yml\n  applies_to:\n  - getCartItems\n  - addCartItem\n  - updateCartItem\n  - removeCartItem\n  - generateCustomerKeys\n  - generateLoginToken\n  - createCustomer\n  - updateCustomer\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: >-\n    HTTP Basic authentication using the consumer key as username and consumer secret as password. The\n    provider flags this as a deliberate exception to the OAuth rule.\n  sources:\n  - openapi/ciloo-cart-api-openapi.yml\n  applies_to:\n  - generateCustomerLoginToken\ncredential_tiers:\n- name: admin\n  prefixes: [ck_admin_, cs_admin_]\n  issued_by: Ciloo\n  purpose: Generating per-customer OAuth keys.\
   \ The provider states these should not be used for cart operations.\n- name: customer\n  prefixes: [ck_, cs_]\n  issued_by: POST /wp-json/ciloo/v1/generate_customer_keys\n  purpose: All cart operations, scoped to a single customer account.\n  delivery: >-\n    Keys are POSTed to a callback_url supplied on the request; return_keys=1 additionally returns them\n    in the response body.\nsession_tokens:\n  mechanism: auto-login token\n  issued_by: [generateLoginToken, generateCustomerLoginToken]\n  ttl_seconds: 3600\n  bound_to: customer + ip_address\n  transport: query string — {base_url}?action=autologin&token=<token>&path=/cart\nweaknesses_documented_by_provider:\n- >-\n  oauth_timestamp and oauth_nonce are accepted without validation, so OAuth 1.0a replay protection is\n  not enforced by the implementation.\n- >-\n  Session tokens travel in a URL query string, which is exposed to browser history, referrers and\n  intermediate logs.\n- Newly minted customer credentials are delivered over\
   \ an integrator-supplied callback URL.\nmissing:\n- No OAuth 2.0 or OpenID Connect surface (no scopes artifact is emitted — there are no scopes).\n- No mTLS, no signed requests on the printer callbacks, no key-rotation API.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ciloo/refs/heads/main/authentication/ciloo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ciloo/authentication/ciloo-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Company

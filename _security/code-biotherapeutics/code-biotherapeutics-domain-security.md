@@ -28,7 +28,7 @@ source_filename: code-biotherapeutics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.codebiotx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 12:40:12 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\ndomains:\n- domain: codebiotx.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/code-biotherapeutics/refs/heads/main/security/code-biotherapeutics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/code-biotherapeutics/security/code-biotherapeutics-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

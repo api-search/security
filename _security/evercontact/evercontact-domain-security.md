@@ -39,7 +39,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.evercontact.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 04:08:48 2026 GMT\n  hsts: false\n- host: api.evercontact.com\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''api.evercon'\n  hsts: null\n  cert_subject_cn: b2b-lb.eu-prod.sonysnacloud.net\n  cert_issuer: 'C=US, O=Amazon, CN=Amazon RSA 2048 M01'\n  cert_sans:\n  - b2b-lb.eu-prod.sonysnacloud.net\n  http_status_verification_disabled: 403\n  server_header: awselb/2.0\n  finding: >-\n    The published API base host does not present an Evercontact certificate. DNS\n    resolves to an AWS ELB whose only certificate name is a Sony property\n    (b2b-lb.eu-prod.sonysnacloud.net), so TLS fails for every conforming client and\n    the load balancer answers 403 to everything. Reads as\
   \ a dangling DNS record on\n    recycled AWS infrastructure. Full probe record in\n    well-known/evercontact-well-known.yml (api_host_finding).\ndomains:\n- domain: evercontact.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evercontact/refs/heads/main/security/evercontact-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/evercontact/security/evercontact-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

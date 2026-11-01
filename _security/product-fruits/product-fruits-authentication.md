@@ -7,25 +7,25 @@ api_specs:
   label: Product Fruits Events API
   slug: product-fruits-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/product-fruits/refs/heads/main/openapi/product-fruits-events-api-openapi.yml
+  url: https://artifacts.apis.io/product-fruits/openapi/product-fruits-events-api-openapi.yml
 - filename: product-fruits-feedback-api-openapi.yml
   format: yaml
   label: Product Fruits Feedback API
   slug: product-fruits-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/product-fruits/refs/heads/main/openapi/product-fruits-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/product-fruits/openapi/product-fruits-feedback-api-openapi.yml
 - filename: product-fruits-knowledge-base-api-openapi.yml
   format: yaml
   label: Product Fruits Knowledge Base API
   slug: product-fruits-knowledge-base-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/product-fruits/refs/heads/main/openapi/product-fruits-knowledge-base-api-openapi.yml
+  url: https://artifacts.apis.io/product-fruits/openapi/product-fruits-knowledge-base-api-openapi.yml
 - filename: product-fruits-users-api-openapi.yml
   format: yaml
   label: Product Fruits Users API
   slug: product-fruits-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/product-fruits/refs/heads/main/openapi/product-fruits-users-api-openapi.yml
+  url: https://artifacts.apis.io/product-fruits/openapi/product-fruits-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: product-fruits-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: API key generated from the Integrations section in Product Fruits. Should never\n    be exposed in front-end environments.\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/product-fruits/refs/heads/main/authentication/product-fruits-authentication.yml
+source_yaml_url: https://artifacts.apis.io/product-fruits/authentication/product-fruits-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Product Adoption

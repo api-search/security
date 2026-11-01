@@ -30,7 +30,7 @@ source_filename: carrot-labs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://superpenguin.ai/docs\ndocs: https://superpenguin.ai/docs\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - sdk\n  oauth2_flows: []\nschemes:\n- name: SuperPenguinApiKey\n  type: apiKey\n  in: sdk\n  key_prefix: \"sp-\"\n  env_var: SP_API_KEY\n  init: 'sp.init(api_key=\"sp-...\")'\n  provisioning: https://app.superpenguin.ai/proxies\n  notes: >-\n    API keys are created in the dashboard at app.superpenguin.ai/proxies and are\n    shown only once. Keys are passed to the SDK via sp.init(api_key=...) or the\n    SP_API_KEY environment variable. Keys must be kept server-side for\n    TypeScript/JavaScript applications. No OAuth2 or OpenID Connect surface is\n    documented; the SuperPenguin backend does not publish an OpenAPI spec.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carrot-labs/refs/heads/main/authentication/carrot-labs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/carrot-labs/authentication/carrot-labs-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

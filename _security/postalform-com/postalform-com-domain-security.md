@@ -5,55 +5,55 @@ api_specs:
   label: PostalForm Api Keys API
   slug: postalform-com-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/postalform-com/openapi/postalform-com-api-keys-api-openapi.yml
 - filename: postalform-com-credits-api-openapi.yml
   format: yaml
   label: PostalForm Credits API
   slug: postalform-com-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-credits-api-openapi.yml
+  url: https://artifacts.apis.io/postalform-com/openapi/postalform-com-credits-api-openapi.yml
 - filename: postalform-com-documents-api-openapi.yml
   format: yaml
   label: PostalForm Documents API
   slug: postalform-com-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-documents-api-openapi.yml
+  url: https://artifacts.apis.io/postalform-com/openapi/postalform-com-documents-api-openapi.yml
 - filename: postalform-com-letters-api-openapi.yml
   format: yaml
   label: PostalForm Letters API
   slug: postalform-com-letters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-letters-api-openapi.yml
+  url: https://artifacts.apis.io/postalform-com/openapi/postalform-com-letters-api-openapi.yml
 - filename: postalform-com-machine-api-openapi.yml
   format: yaml
   label: PostalForm Machine API
   slug: postalform-com-machine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-machine-api-openapi.yml
+  url: https://artifacts.apis.io/postalform-com/openapi/postalform-com-machine-api-openapi.yml
 - filename: postalform-com-postcards-api-openapi.yml
   format: yaml
   label: PostalForm Postcards API
   slug: postalform-com-postcards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-postcards-api-openapi.yml
+  url: https://artifacts.apis.io/postalform-com/openapi/postalform-com-postcards-api-openapi.yml
 - filename: postalform-com-return-receipts-api-openapi.yml
   format: yaml
   label: PostalForm Return Receipts API
   slug: postalform-com-return-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-return-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/postalform-com/openapi/postalform-com-return-receipts-api-openapi.yml
 - filename: postalform-com-webhook-endpoints-api-openapi.yml
   format: yaml
   label: PostalForm Webhook Endpoints API
   slug: postalform-com-webhook-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-webhook-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/postalform-com/openapi/postalform-com-webhook-endpoints-api-openapi.yml
 - filename: postalform-com-webhook-events-api-openapi.yml
   format: yaml
   label: PostalForm Webhook Events API
   slug: postalform-com-webhook-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-webhook-events-api-openapi.yml
+  url: https://artifacts.apis.io/postalform-com/openapi/postalform-com-webhook-events-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ source_filename: postalform-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: postalform.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 06:21:47 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: projects.postalform.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 06:21:47 2026 GMT\n  hsts: false\ndomains:\n- domain: postalform.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/security/postalform-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/postalform-com/security/postalform-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Physical Mail

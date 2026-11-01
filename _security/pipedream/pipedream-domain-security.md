@@ -5,97 +5,97 @@ api_specs:
   label: Pipedream Accounts API
   slug: pipedream-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-accounts-api-openapi.yml
 - filename: pipedream-actions-api-openapi.yml
   format: yaml
   label: Pipedream Actions API
   slug: pipedream-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-actions-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-actions-api-openapi.yml
 - filename: pipedream-app-categories-api-openapi.yml
   format: yaml
   label: Pipedream App Categories API
   slug: pipedream-app-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-app-categories-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-app-categories-api-openapi.yml
 - filename: pipedream-apps-api-openapi.yml
   format: yaml
   label: Pipedream Apps API
   slug: pipedream-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-apps-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-apps-api-openapi.yml
 - filename: pipedream-components-api-openapi.yml
   format: yaml
   label: Pipedream Components API
   slug: pipedream-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-components-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-components-api-openapi.yml
 - filename: pipedream-deployed-triggers-api-openapi.yml
   format: yaml
   label: Pipedream Deployed Triggers API
   slug: pipedream-deployed-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-deployed-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-deployed-triggers-api-openapi.yml
 - filename: pipedream-file-stash-api-openapi.yml
   format: yaml
   label: Pipedream File Stash API
   slug: pipedream-file-stash-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-file-stash-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-file-stash-api-openapi.yml
 - filename: pipedream-mcp-api-openapi.yml
   format: yaml
   label: Pipedream MCP API
   slug: pipedream-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-mcp-api-openapi.yml
 - filename: pipedream-projects-api-openapi.yml
   format: yaml
   label: Pipedream Projects API
   slug: pipedream-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-projects-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-projects-api-openapi.yml
 - filename: pipedream-proxy-api-openapi.yml
   format: yaml
   label: Pipedream Proxy API
   slug: pipedream-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-proxy-api-openapi.yml
 - filename: pipedream-tokens-api-openapi.yml
   format: yaml
   label: Pipedream Tokens API
   slug: pipedream-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-tokens-api-openapi.yml
 - filename: pipedream-triggers-api-openapi.yml
   format: yaml
   label: Pipedream Triggers API
   slug: pipedream-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-triggers-api-openapi.yml
 - filename: pipedream-usage-api-openapi.yml
   format: yaml
   label: Pipedream Usage API
   slug: pipedream-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-usage-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-usage-api-openapi.yml
 - filename: pipedream-users-api-openapi.yml
   format: yaml
   label: Pipedream Users API
   slug: pipedream-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-users-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-users-api-openapi.yml
 - filename: pipedream-webhooks-api-openapi.yml
   format: yaml
   label: Pipedream Webhooks API
   slug: pipedream-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-webhooks-api-openapi.yml
 - filename: pipedream-oauth-api-openapi.yml
   format: yaml
   label: Pipedream O Auth API
   slug: pipedream-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -141,7 +141,7 @@ source_filename: pipedream-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pipedream.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.pipedream.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 26 23:59:59 2026 GMT\n  hsts: false\n- host: remote.mcp.pipedream.net\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov  4 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: pipedream.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: pipedream.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/security/pipedream-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pipedream/security/pipedream-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Pipedream

@@ -8,19 +8,19 @@ api_specs:
   label: Samu Meetings API
   slug: samu-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/openapi/samu-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/samu/openapi/samu-meetings-api-openapi.yml
 - filename: samu-threads-api-openapi.yml
   format: yaml
   label: Samu Threads API
   slug: samu-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/openapi/samu-threads-api-openapi.yml
+  url: https://artifacts.apis.io/samu/openapi/samu-threads-api-openapi.yml
 - filename: samu-usuarios-api-openapi.yml
   format: yaml
   label: Samu Usuarios API
   slug: samu-usuarios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/openapi/samu-usuarios-api-openapi.yml
+  url: https://artifacts.apis.io/samu/openapi/samu-usuarios-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -76,7 +76,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/samu-openapi.yml\ndocs: https://api.samu.ai/docs\nnote: >-\n  Two distinct auth models on one host. The REST API (api.samu.ai/api/*) uses a\n  static account API key in a header literally named \"apiKey\" (not Authorization,\n  not X-API-Key) — worth noting because it is unusual and easy to get wrong. The\n  MCP endpoint (api.samu.ai/mcp) uses OAuth 2.1 bearer tokens with dynamic client\n  registration and PKCE, advertised via RFC 8414 metadata; it rejects anonymous\n  calls with 401 MCP_UNAUTHORIZED and a WWW-Authenticate challenge pointing at\n  its RFC 9728 protected-resource metadata. Samu publishes no page describing how\n  to obtain an API key; the pricing page places API access on the Enterprise plan\n  and MCP on the Pro plan, so provisioning is sales-mediated.\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\n  - refreshToken\nschemes:\n- name: ApiKeyAuth\n\
   \  type: apiKey\n  in: header\n  parameter: apiKey\n  description: API key de la cuenta\n  applies_to: https://api.samu.ai/api/* (all 10 REST operations)\n  sources:\n  - openapi/samu-openapi.yml\n- name: MCP OAuth 2.1\n  type: oauth2\n  bearer_methods: [header]\n  applies_to: https://api.samu.ai/mcp\n  issuer: https://api.samu.ai\n  authorizationUrl: https://api.samu.ai/oauth/authorize\n  tokenUrl: https://api.samu.ai/oauth/token\n  registrationUrl: https://api.samu.ai/oauth/register\n  revocationUrl: https://api.samu.ai/oauth/revoke\n  code_challenge_methods: [S256]\n  token_endpoint_auth_methods: [none]\n  scopes: [mcp:read]\n  flows: [authorizationCode, refreshToken]\n  sources:\n  - well-known/samu-oauth-authorization-server.json\n  - well-known/samu-oauth-protected-resource-mcp.json\nprovisioning:\n  self_serve: false\n  note: >-\n    No public sign-up for API credentials. Pricing page sells \"acceso a la API\"\n    (API Out / API In) on Enterprise ($900/mo) and MCP on Pro ($250/mo).\n\
   \  source: https://samu.ai/precios\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/authentication/samu-authentication.yml
+source_yaml_url: https://artifacts.apis.io/samu/authentication/samu-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company

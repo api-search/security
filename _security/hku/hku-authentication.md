@@ -7,13 +7,13 @@ api_specs:
   label: University of Hong Kong Discovery API
   slug: hku-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/hku/openapi/hku-discovery-api-openapi.yml
 - filename: hku-oauth-api-openapi.yml
   format: yaml
   label: University of Hong Kong O Auth API
   slug: hku-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/hku/openapi/hku-oauth-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-08-19'\nmethod: probed\nsource: https://adfs.hku.
   \ registration; relying parties are registered by HKU ITS.\n  sources:\n  - well-known/hku-adfs-openid-configuration.json\n- name: hku-adfs-wsfed-saml\n  type: saml2\n  entityId: http://adfs.hku.hk/adfs/services/trust\n  metadata: https://adfs.hku.hk/FederationMetadata/2007-06/FederationMetadata.xml\n  description: >-\n    Signed WS-Federation / SAML 2.0 federation metadata for the HKU AD FS deployment\n    (200, application/samlmetadata+xml, 71,026 bytes on 2026-08-19).\n  sources:\n  - https://adfs.hku.hk/FederationMetadata/2007-06/FederationMetadata.xml\n- name: hku-shibboleth-idp\n  type: saml2\n  entityId: https://hkafidp.hku.hk/idp/shibboleth\n  metadata: https://hkafidp.hku.hk/idp/shibboleth\n  scope: hku.hk\n  federation: Hong Kong Access Federation (HKAF, JUCC) — exported to eduGAIN\n  registrationAuthority: https://hkaf.edu.hk\n  registrationInstant: '2016-12-15T07:04:40Z'\n  entityCategories:\n  - http://refeds.org/category/research-and-scholarship\n  assuranceCertification:\n\
   \  - https://refeds.org/sirtfi\n  bindings:\n  - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST\n  - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect\n  - urn:oasis:names:tc:SAML:2.0:bindings:SOAP\n  nameIdFormats:\n  - urn:oasis:names:tc:SAML:2.0:nameid-format:transient\n  description: >-\n    Shibboleth identity provider operated by HKU, self-publishing its metadata (200,\n    application/xml, 14,831 bytes) and present in the eduGAIN interfederation aggregate.\n    Technical and REFEDS security contacts are published in the metadata; they are named\n    individuals and are deliberately not copied into this catalog.\n  sources:\n  - https://hkafidp.hku.hk/idp/shibboleth\n  - https://mds.edugain.org/edugain-v2.xml\n- name: hku-its-api-subscription-key\n  type: apiKey\n  in: header\n  description: >-\n    Azure API Management subscription key pair issued through developer.hku.hk after HKU\n    institutional sign-in, used for the HKU GenAI chat-completion, embedding and image-generation\n\
   \    APIs. The portal returns HTTP 200 but redirects every route to /signin, so the API catalog,\n    the header name and the key policy are not publicly readable.\n  gated: true\n  audience: HKU staff and students\n  sources:\n  - https://developer.hku.hk/\ntenantSchemes:\n- name: microsoft-entra-hku-tenant\n  x-operator: tenant\n  type: openIdConnect\n  openIdConnectUrl: https://login.microsoftonline.com/hku.hk/v2.0/.well-known/openid-configuration\n  tenantId: 42f9b54e-2477-41ba-bf09-7a0d2a83ff09\n  description: >-\n    HKU's Microsoft Entra ID tenant. Machine-readable and institution-specific, but operated by\n    Microsoft on Microsoft's host — recorded as a tenant relationship, not as an HKU contract.\n    Microsoft's realm discovery reports domain hku.hk as Federated to https://adfs.hku.hk/adfs/ls/\n    under the brand \"The University Of Hong Kong\".\n  sources:\n  - https://login.microsoftonline.com/hku.hk/v2.0/.well-known/openid-configuration\n  - https://login.microsoftonline.com/getuserrealm.srf?login=user@hku.hk&json=1\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/authentication/hku-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hku/authentication/hku-authentication.yml
 summary_line: oauth2/openIdConnect/saml2/apiKey · 4 schemes
 tags:
 - Education

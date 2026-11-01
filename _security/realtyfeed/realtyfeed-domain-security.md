@@ -5,7 +5,7 @@ api_specs:
   label: MLS Router API
   slug: mls-router-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/realtyfeed/refs/heads/main/postman/realtyfeed-mls-router-postman.json
+  url: https://artifacts.apis.io/realtyfeed/postman/realtyfeed-mls-router-postman.json
 description: ''
 domains:
 - caa: []
@@ -34,7 +34,7 @@ source_filename: realtyfeed-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: realtyfeed.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 09:43:14 2026 GMT\n  hsts: false\ndomains:\n- domain: realtyfeed.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/realtyfeed/refs/heads/main/security/realtyfeed-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/realtyfeed/security/realtyfeed-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

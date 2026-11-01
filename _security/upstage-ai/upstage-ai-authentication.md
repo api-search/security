@@ -7,7 +7,7 @@ api_specs:
   label: Upstage System One API
   slug: upstage-ai-system-one-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstage-ai/refs/heads/main/openapi/upstage-ai-system-one-api-openapi.yml
+  url: https://artifacts.apis.io/upstage-ai/openapi/upstage-ai-system-one-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -33,7 +33,7 @@ source_filename: upstage-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: derived\nsource: openapi/_ae-authored/upstage-ai-systemone-openapi-generated.yml\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  in: header\n  header: Authorization\n  credential: Upstage Console API key\nsummary: 'API key issued in Upstage Console sent as Authorization: Bearer <UPSTAGE_API_KEY>.\n  No OAuth scopes.'\ndocs: https://console.upstage.ai/api/systemone\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upstage-ai/refs/heads/main/authentication/upstage-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/upstage-ai/authentication/upstage-ai-authentication.yml
 summary_line: 1 scheme
 tags:
 - Artificial Intelligence

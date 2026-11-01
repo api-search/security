@@ -5,37 +5,37 @@ api_specs:
   label: taylor-morrison-home Communities API
   slug: taylor-morrison-home-communities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/openapi/taylor-morrison-home-communities-api-openapi.yml
+  url: https://artifacts.apis.io/taylor-morrison-home/openapi/taylor-morrison-home-communities-api-openapi.yml
 - filename: taylor-morrison-home-design-api-openapi.yml
   format: yaml
   label: taylor-morrison-home Design API
   slug: taylor-morrison-home-design-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/openapi/taylor-morrison-home-design-api-openapi.yml
+  url: https://artifacts.apis.io/taylor-morrison-home/openapi/taylor-morrison-home-design-api-openapi.yml
 - filename: taylor-morrison-home-floor-plans-api-openapi.yml
   format: yaml
   label: taylor-morrison-home Floor Plans API
   slug: taylor-morrison-home-floor-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/openapi/taylor-morrison-home-floor-plans-api-openapi.yml
+  url: https://artifacts.apis.io/taylor-morrison-home/openapi/taylor-morrison-home-floor-plans-api-openapi.yml
 - filename: taylor-morrison-home-homes-api-openapi.yml
   format: yaml
   label: taylor-morrison-home Homes API
   slug: taylor-morrison-home-homes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/openapi/taylor-morrison-home-homes-api-openapi.yml
+  url: https://artifacts.apis.io/taylor-morrison-home/openapi/taylor-morrison-home-homes-api-openapi.yml
 - filename: taylor-morrison-home-lots-api-openapi.yml
   format: yaml
   label: taylor-morrison-home Lots API
   slug: taylor-morrison-home-lots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/openapi/taylor-morrison-home-lots-api-openapi.yml
+  url: https://artifacts.apis.io/taylor-morrison-home/openapi/taylor-morrison-home-lots-api-openapi.yml
 - filename: taylor-morrison-home-reservations-api-openapi.yml
   format: yaml
   label: taylor-morrison-home Reservations API
   slug: taylor-morrison-home-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/openapi/taylor-morrison-home-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/taylor-morrison-home/openapi/taylor-morrison-home-reservations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -72,7 +72,7 @@ source_filename: taylor-morrison-home-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.taylormorrison.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 22:36:17 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.taylormorrisonfunding.com\n  https: false\ndomains:\n- domain: taylormorrison.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: taylormorrisonfunding.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/security/taylor-morrison-home-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/taylor-morrison-home/security/taylor-morrison-home-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Homebuilding

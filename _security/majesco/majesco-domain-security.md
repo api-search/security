@@ -5,25 +5,25 @@ api_specs:
   label: majesco Billing API
   slug: majesco-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/openapi/majesco-billing-api-openapi.yml
+  url: https://artifacts.apis.io/majesco/openapi/majesco-billing-api-openapi.yml
 - filename: majesco-claims-api-openapi.yml
   format: yaml
   label: majesco Claims API
   slug: majesco-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/openapi/majesco-claims-api-openapi.yml
+  url: https://artifacts.apis.io/majesco/openapi/majesco-claims-api-openapi.yml
 - filename: majesco-distribution-api-openapi.yml
   format: yaml
   label: majesco Distribution API
   slug: majesco-distribution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/openapi/majesco-distribution-api-openapi.yml
+  url: https://artifacts.apis.io/majesco/openapi/majesco-distribution-api-openapi.yml
 - filename: majesco-policies-api-openapi.yml
   format: yaml
   label: majesco Policies API
   slug: majesco-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/openapi/majesco-policies-api-openapi.yml
+  url: https://artifacts.apis.io/majesco/openapi/majesco-policies-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: majesco-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.majesco.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  2 16:04:32 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: majesco.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/security/majesco-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/majesco/security/majesco-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Insurance

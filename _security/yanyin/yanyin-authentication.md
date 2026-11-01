@@ -35,7 +35,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://www.yanyin.tech/product/mega-open-platform\ndocs: https://www.yanyin.tech/product/mega-open-platform#api-gateway\nsummary:\n  types: [apiKey, oauth2]\n  oauth2_flows: [clientCredentials]\n  scope_model: per-tenant and per-application authorization\nschemes:\n- name: apiKey\n  type: apiKey\n  description: >-\n    API Key authentication issued and managed through the Yanyin Developer\n    Center (密钥与凭证管理). Enforced with request signing and IP allowlisting at the\n    API gateway.\n  sources: [https://www.yanyin.tech/product/mega-open-platform]\n- name: oauth2ClientCredentials\n  type: oauth2\n  scheme: clientCredentials\n  description: >-\n    OAuth2 Client Credentials flow for server-to-server application access,\n    advertised on the Mega Open Platform API gateway.\n  sources: [https://www.yanyin.tech/product/mega-open-platform]\nnotes: >-\n  Derived from the provider's published Open Platform product page; the concrete\n\
   \  OpenAPI securitySchemes are not public (developer console is behind\n  app.yanyin.tech login).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yanyin/refs/heads/main/authentication/yanyin-authentication.yml
+source_yaml_url: https://artifacts.apis.io/yanyin/authentication/yanyin-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company

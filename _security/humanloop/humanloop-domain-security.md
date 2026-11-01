@@ -5,37 +5,37 @@ api_specs:
   label: Humanloop Datasets API
   slug: humanloop-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humanloop/refs/heads/main/openapi/humanloop-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/humanloop/openapi/humanloop-datasets-api-openapi.yml
 - filename: humanloop-evaluators-api-openapi.yml
   format: yaml
   label: Humanloop Evaluators API
   slug: humanloop-evaluators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humanloop/refs/heads/main/openapi/humanloop-evaluators-api-openapi.yml
+  url: https://artifacts.apis.io/humanloop/openapi/humanloop-evaluators-api-openapi.yml
 - filename: humanloop-logs-api-openapi.yml
   format: yaml
   label: Humanloop Logs API
   slug: humanloop-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humanloop/refs/heads/main/openapi/humanloop-logs-api-openapi.yml
+  url: https://artifacts.apis.io/humanloop/openapi/humanloop-logs-api-openapi.yml
 - filename: humanloop-prompts-api-openapi.yml
   format: yaml
   label: Humanloop Prompts API
   slug: humanloop-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humanloop/refs/heads/main/openapi/humanloop-prompts-api-openapi.yml
+  url: https://artifacts.apis.io/humanloop/openapi/humanloop-prompts-api-openapi.yml
 - filename: humanloop-sessions-api-openapi.yml
   format: yaml
   label: Humanloop Sessions API
   slug: humanloop-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humanloop/refs/heads/main/openapi/humanloop-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/humanloop/openapi/humanloop-sessions-api-openapi.yml
 - filename: humanloop-tools-api-openapi.yml
   format: yaml
   label: Humanloop Tools API
   slug: humanloop-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humanloop/refs/heads/main/openapi/humanloop-tools-api-openapi.yml
+  url: https://artifacts.apis.io/humanloop/openapi/humanloop-tools-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -67,7 +67,7 @@ source_filename: humanloop-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: humanloop.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 13:30:43 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.humanloop.com\n  https: false\ndomains:\n- domain: humanloop.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/humanloop/refs/heads/main/security/humanloop-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/humanloop/security/humanloop-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - LLM Platform

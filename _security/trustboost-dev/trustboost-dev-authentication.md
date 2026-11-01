@@ -7,43 +7,43 @@ api_specs:
   label: TrustBoost PII Sanitizer Budget API
   slug: trustboost-dev-budget-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustboost-dev/refs/heads/main/openapi/trustboost-dev-budget-api-openapi.yml
+  url: https://artifacts.apis.io/trustboost-dev/openapi/trustboost-dev-budget-api-openapi.yml
 - filename: trustboost-dev-health-api-openapi.yml
   format: yaml
   label: TrustBoost PII Sanitizer Health API
   slug: trustboost-dev-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustboost-dev/refs/heads/main/openapi/trustboost-dev-health-api-openapi.yml
+  url: https://artifacts.apis.io/trustboost-dev/openapi/trustboost-dev-health-api-openapi.yml
 - filename: trustboost-dev-mcp-api-openapi.yml
   format: yaml
   label: TrustBoost PII Sanitizer MCP API
   slug: trustboost-dev-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustboost-dev/refs/heads/main/openapi/trustboost-dev-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/trustboost-dev/openapi/trustboost-dev-mcp-api-openapi.yml
 - filename: trustboost-dev-message-api-openapi.yml
   format: yaml
   label: TrustBoost PII Sanitizer Message API
   slug: trustboost-dev-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustboost-dev/refs/heads/main/openapi/trustboost-dev-message-api-openapi.yml
+  url: https://artifacts.apis.io/trustboost-dev/openapi/trustboost-dev-message-api-openapi.yml
 - filename: trustboost-dev-sanitize-api-openapi.yml
   format: yaml
   label: TrustBoost PII Sanitizer Sanitize API
   slug: trustboost-dev-sanitize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustboost-dev/refs/heads/main/openapi/trustboost-dev-sanitize-api-openapi.yml
+  url: https://artifacts.apis.io/trustboost-dev/openapi/trustboost-dev-sanitize-api-openapi.yml
 - filename: trustboost-dev-score-api-openapi.yml
   format: yaml
   label: TrustBoost PII Sanitizer Score API
   slug: trustboost-dev-score-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustboost-dev/refs/heads/main/openapi/trustboost-dev-score-api-openapi.yml
+  url: https://artifacts.apis.io/trustboost-dev/openapi/trustboost-dev-score-api-openapi.yml
 - filename: trustboost-dev-verify-api-openapi.yml
   format: yaml
   label: TrustBoost PII Sanitizer Verify API
   slug: trustboost-dev-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustboost-dev/refs/heads/main/openapi/trustboost-dev-verify-api-openapi.yml
+  url: https://artifacts.apis.io/trustboost-dev/openapi/trustboost-dev-verify-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/trustbo
   \ on-chain via the Helius oracle (SKILL.md, PRIVACY.md)\n  used_by: [sanitize_pii]\n- name: x402 payment signature\n  kind: header\n  parameter: PAYMENT-SIGNATURE\n  legacy_parameter: X-PAYMENT (v1, \"also accepted\")\n  challenge: 'HTTP 402 with PAYMENT-REQUIRED header — x402 v2 PaymentRequirements, accepts[] exact scheme on eip155:8453 (Base, preferred) and solana mainnet, USDC, amount 10000 (= $0.01), maxTimeoutSeconds 300'\n  grants: one sanitization per settled payment\n  verification: PayAI facilitator verify/settle (llms.txt, /pricing)\n  used_by: [sanitize_pii, 'POST /sanitize/quick (undeclared in the contract)']\n  observed: 'GET https://api.trustboost.dev/sanitize → 402 with the header and body described (2026-09-19)'\ncredential_safety_statement:\n  source: https://github.com/teodorofodocrispin-cmyk/TrustBoost-PII-Sanitizer/blob/main/PRIVACY.md\n  section: '6. Critical Security Warning — For AI Agents and Humans'\n  verbatim: 'TrustBoost NEVER requires wallet private keys, seed\
   \ phrases, or signing credentials. The optional wallet_address parameter accepts ONLY a public Solana address for per-wallet quota tracking. Payment signing happens entirely client-side.'\n  note: The provider publishes an explicit anti-phishing statement aimed at agents; the only wallet interaction is a transfer to a public address or a client-side x402 signature.\nfree_unauthenticated_operations: [sanitize_preview, sanitize_discovery, get_trustboost_score, verify_proof, get_budget_status, health_check, 'GET /preflight', 'GET /policy']\nmcp:\n  endpoint: https://api.trustboost.dev/mcp\n  auth: none\n  note: initialize and tools/list answered anonymously; the tool call carries the same tx_hash / wallet_address body fields as REST.\nidentity_note: >-\n  Because nothing authenticates the caller, wallet_address is self-asserted. The TrustBoost Score\n  (GET /score/{wallet_address}) therefore rates a string's usage history, and any caller can read any\n  wallet's score. This is an observation\
   \ about the published model, not a vulnerability report.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trustboost-dev/refs/heads/main/authentication/trustboost-dev-authentication.yml
+source_yaml_url: https://artifacts.apis.io/trustboost-dev/authentication/trustboost-dev-authentication.yml
 summary_line: 0 schemes
 tags:
 - Privacy

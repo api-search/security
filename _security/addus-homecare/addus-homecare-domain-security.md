@@ -31,12 +31,11 @@ source_filename: addus-homecare-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-30'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.addus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 17 14:46:41 2026 GMT\n  hsts: false\n- host: developer.addus.com\n  https: false\n- host: api.addus.com\n  https: false\ndomains:\n- domain: addus.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/addus-homecare/refs/heads/main/security/addus-homecare-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/addus-homecare/security/addus-homecare-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Home Care
-- Home Health
 - Hospice
 - Personal Care
 - Healthcare Services

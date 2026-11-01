@@ -25,7 +25,7 @@ source_filename: haoyiku-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: haoyiku.com.cn\n  https: false\ndomains:\n- domain: haoyiku.com.cn\n  dnssec: false\n  caa:\n  - haoyiku.com.cn.w.kunlunpi.com.\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/haoyiku/refs/heads/main/security/haoyiku-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/haoyiku/security/haoyiku-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

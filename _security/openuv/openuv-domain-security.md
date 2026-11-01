@@ -5,19 +5,19 @@ api_specs:
   label: OpenUV Account API
   slug: openuv-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openuv/refs/heads/main/openapi/openuv-account-api-openapi.yml
+  url: https://artifacts.apis.io/openuv/openapi/openuv-account-api-openapi.yml
 - filename: openuv-protection-api-openapi.yml
   format: yaml
   label: OpenUV Protection API
   slug: openuv-protection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openuv/refs/heads/main/openapi/openuv-protection-api-openapi.yml
+  url: https://artifacts.apis.io/openuv/openapi/openuv-protection-api-openapi.yml
 - filename: openuv-uv-index-api-openapi.yml
   format: yaml
   label: OpenUV UV Index API
   slug: openuv-uv-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openuv/refs/heads/main/openapi/openuv-uv-index-api-openapi.yml
+  url: https://artifacts.apis.io/openuv/openapi/openuv-uv-index-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,7 +50,7 @@ source_filename: openuv-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.openuv.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 23:32:42 2026 GMT\n  hsts: false\n- host: api.openuv.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 23:51:22 2026 GMT\n  hsts: null\ndomains:\n- domain: openuv.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openuv/refs/heads/main/security/openuv-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/openuv/security/openuv-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Weather

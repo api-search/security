@@ -8,31 +8,31 @@ api_specs:
   label: regal-entertainment-group Loyalty API
   slug: regal-entertainment-group-loyalty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-entertainment-group/refs/heads/main/openapi/regal-entertainment-group-loyalty-api-openapi.yml
+  url: https://artifacts.apis.io/regal-entertainment-group/openapi/regal-entertainment-group-loyalty-api-openapi.yml
 - filename: regal-entertainment-group-movies-api-openapi.yml
   format: yaml
   label: regal-entertainment-group Movies API
   slug: regal-entertainment-group-movies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-entertainment-group/refs/heads/main/openapi/regal-entertainment-group-movies-api-openapi.yml
+  url: https://artifacts.apis.io/regal-entertainment-group/openapi/regal-entertainment-group-movies-api-openapi.yml
 - filename: regal-entertainment-group-showtimes-api-openapi.yml
   format: yaml
   label: regal-entertainment-group Showtimes API
   slug: regal-entertainment-group-showtimes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-entertainment-group/refs/heads/main/openapi/regal-entertainment-group-showtimes-api-openapi.yml
+  url: https://artifacts.apis.io/regal-entertainment-group/openapi/regal-entertainment-group-showtimes-api-openapi.yml
 - filename: regal-entertainment-group-theatres-api-openapi.yml
   format: yaml
   label: regal-entertainment-group Theatres API
   slug: regal-entertainment-group-theatres-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-entertainment-group/refs/heads/main/openapi/regal-entertainment-group-theatres-api-openapi.yml
+  url: https://artifacts.apis.io/regal-entertainment-group/openapi/regal-entertainment-group-theatres-api-openapi.yml
 - filename: regal-entertainment-group-tickets-api-openapi.yml
   format: yaml
   label: regal-entertainment-group Tickets API
   slug: regal-entertainment-group-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-entertainment-group/refs/heads/main/openapi/regal-entertainment-group-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/regal-entertainment-group/openapi/regal-entertainment-group-tickets-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: regal-entertainment-group-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/regal-cinema-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Ocp-Apim-Subscription-Key\n  description: Azure API Management subscription key from developer.regmovies.com\n  sources:\n  - openapi/regal-cinema-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/regal-entertainment-group/refs/heads/main/authentication/regal-entertainment-group-authentication.yml
+source_yaml_url: https://artifacts.apis.io/regal-entertainment-group/authentication/regal-entertainment-group-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Cinema

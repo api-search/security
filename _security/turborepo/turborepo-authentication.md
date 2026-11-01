@@ -7,13 +7,13 @@ api_specs:
   label: Turborepo Analytics API
   slug: turborepo-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turborepo/refs/heads/main/openapi/turborepo-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/turborepo/openapi/turborepo-analytics-api-openapi.yml
 - filename: turborepo-artifacts-api-openapi.yml
   format: yaml
   label: Turborepo Artifacts API
   slug: turborepo-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turborepo/refs/heads/main/openapi/turborepo-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/turborepo/openapi/turborepo-artifacts-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -49,7 +49,7 @@ source_filename: turborepo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/turborepo-remote-cache-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerToken\n  type: http\n  scheme: bearer\n  description: |-\n    Bearer token authentication. Pass your authentication token in the `Authorization` header as `Bearer <token>`.\n\n    For self-hosted implementations, the token format and validation logic is up to the implementer. Common approaches include:\n    - Static tokens for simple setups\n    - JWT tokens for stateless authentication\n    - OAuth2 tokens for integration with identity providers\n  sources:\n  - openapi/turborepo-remote-cache-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/turborepo/refs/heads/main/authentication/turborepo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/turborepo/authentication/turborepo-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Build Systems

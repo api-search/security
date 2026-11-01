@@ -8,25 +8,25 @@ api_specs:
   label: LogRocket Data Export API
   slug: logrocket-data-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logrocket/refs/heads/main/openapi/logrocket-data-export-api-openapi.yml
+  url: https://artifacts.apis.io/logrocket/openapi/logrocket-data-export-api-openapi.yml
 - filename: logrocket-highlights-api-openapi.yml
   format: yaml
   label: LogRocket Highlights API
   slug: logrocket-highlights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logrocket/refs/heads/main/openapi/logrocket-highlights-api-openapi.yml
+  url: https://artifacts.apis.io/logrocket/openapi/logrocket-highlights-api-openapi.yml
 - filename: logrocket-users-api-openapi.yml
   format: yaml
   label: LogRocket Users API
   slug: logrocket-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logrocket/refs/heads/main/openapi/logrocket-users-api-openapi.yml
+  url: https://artifacts.apis.io/logrocket/openapi/logrocket-users-api-openapi.yml
 - filename: logrocket-graph-ql-api-openapi.yml
   format: yaml
   label: LogRocket Graph QL API
   slug: logrocket-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logrocket/refs/heads/main/openapi/logrocket-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/logrocket/openapi/logrocket-graph-ql-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -55,7 +55,7 @@ source_filename: logrocket-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/logrocket-graphql-api-openapi.yml, openapi/logrocket-rest-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: tokenAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: API token authentication. Use the format \"token <your-api-key>\". API keys are\n    available from the LogRocket dashboard under Settings > General Settings.\n  sources:\n  - openapi/logrocket-graphql-api-openapi.yml\n  - openapi/logrocket-rest-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/logrocket/refs/heads/main/authentication/logrocket-authentication.yml
+source_yaml_url: https://artifacts.apis.io/logrocket/authentication/logrocket-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Session Replay

@@ -13,37 +13,37 @@ api_specs:
   label: ChartMogul Account API
   slug: chartmogul-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chartmogul/refs/heads/main/openapi/chartmogul-account-api-openapi.yml
+  url: https://artifacts.apis.io/chartmogul/openapi/chartmogul-account-api-openapi.yml
 - filename: chartmogul-customers-api-openapi.yml
   format: yaml
   label: ChartMogul Customers API
   slug: chartmogul-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chartmogul/refs/heads/main/openapi/chartmogul-customers-api-openapi.yml
+  url: https://artifacts.apis.io/chartmogul/openapi/chartmogul-customers-api-openapi.yml
 - filename: chartmogul-invoices-api-openapi.yml
   format: yaml
   label: ChartMogul Invoices API
   slug: chartmogul-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chartmogul/refs/heads/main/openapi/chartmogul-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/chartmogul/openapi/chartmogul-invoices-api-openapi.yml
 - filename: chartmogul-metrics-api-openapi.yml
   format: yaml
   label: ChartMogul Metrics API
   slug: chartmogul-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chartmogul/refs/heads/main/openapi/chartmogul-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/chartmogul/openapi/chartmogul-metrics-api-openapi.yml
 - filename: chartmogul-plans-api-openapi.yml
   format: yaml
   label: ChartMogul Plans API
   slug: chartmogul-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chartmogul/refs/heads/main/openapi/chartmogul-plans-api-openapi.yml
+  url: https://artifacts.apis.io/chartmogul/openapi/chartmogul-plans-api-openapi.yml
 - filename: chartmogul-subscriptions-api-openapi.yml
   format: yaml
   label: ChartMogul Subscriptions API
   slug: chartmogul-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chartmogul/refs/heads/main/openapi/chartmogul-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/chartmogul/openapi/chartmogul-subscriptions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -70,7 +70,7 @@ source_filename: chartmogul-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/chartmogul-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic Auth. Username is your ChartMogul API key; password is empty.\n  sources:\n  - openapi/chartmogul-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chartmogul/refs/heads/main/authentication/chartmogul-authentication.yml
+source_yaml_url: https://artifacts.apis.io/chartmogul/authentication/chartmogul-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Subscription Analytics

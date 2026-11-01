@@ -32,7 +32,7 @@ source_filename: zatanna-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.zatanna.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 22:54:43 2026 GMT\n  hsts: false\n- host: api.zatanna.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 02:12:34 2026 GMT\n  hsts: null\ndomains:\n- domain: zatanna.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zatanna/refs/heads/main/security/zatanna-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zatanna/security/zatanna-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

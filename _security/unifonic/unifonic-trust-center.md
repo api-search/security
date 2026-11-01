@@ -5,43 +5,43 @@ api_specs:
   label: Unifonic Call Management and Status API
   slug: unifonic-call-management-and-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/openapi/unifonic-call-management-and-status-api-openapi.yml
+  url: https://artifacts.apis.io/unifonic/openapi/unifonic-call-management-and-status-api-openapi.yml
 - filename: unifonic-call-queue-management-api-openapi.yml
   format: yaml
   label: Unifonic Call Queue Management API
   slug: unifonic-call-queue-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/openapi/unifonic-call-queue-management-api-openapi.yml
+  url: https://artifacts.apis.io/unifonic/openapi/unifonic-call-queue-management-api-openapi.yml
 - filename: unifonic-number-masking-api-openapi.yml
   format: yaml
   label: Unifonic Number Masking API
   slug: unifonic-number-masking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/openapi/unifonic-number-masking-api-openapi.yml
+  url: https://artifacts.apis.io/unifonic/openapi/unifonic-number-masking-api-openapi.yml
 - filename: unifonic-rest-api-openapi.yml
   format: yaml
   label: Unifonic Rest API
   slug: unifonic-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/openapi/unifonic-rest-api-openapi.yml
+  url: https://artifacts.apis.io/unifonic/openapi/unifonic-rest-api-openapi.yml
 - filename: unifonic-verifications-api-openapi.yml
   format: yaml
   label: Unifonic Verifications API
   slug: unifonic-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/openapi/unifonic-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/unifonic/openapi/unifonic-verifications-api-openapi.yml
 - filename: unifonic-webhooks-api-openapi.yml
   format: yaml
   label: Unifonic Webhooks API
   slug: unifonic-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/openapi/unifonic-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/unifonic/openapi/unifonic-webhooks-api-openapi.yml
 - filename: unifonic-wrapper-api-openapi.yml
   format: yaml
   label: Unifonic Wrapper API
   slug: unifonic-wrapper-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/openapi/unifonic-wrapper-api-openapi.yml
+  url: https://artifacts.apis.io/unifonic/openapi/unifonic-wrapper-api-openapi.yml
 certification_count: 7
 certifications:
 - ISO 27001
@@ -64,7 +64,7 @@ source_filename: unifonic-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nurl: https://www.unifonic.com/en/legal/trust-centre\ndescription: >-\n  Unifonic publishes a Trust Centre (\"Security & Compliance\") page on its main\n  website with named certifications and security reports. The page states\n  that internationally recognized cybersecurity standards and best practices\n  are followed, and that certifications reflect a commitment to meeting CST\n  (Saudi Communications, Space & Technology Commission) requirements.\ncertifications:\n  - ISO 27001\n  - ISO 42001\n  - ISO 27017\n  - ISO 27018\n  - CSA STAR Level 2\n  - SOC 2 Type I\n  - SOC 2 Type II\nevidence:\n  - source: https://www.unifonic.com/en/legal/trust-centre\n    keywords: [security & compliance, iso 27001, iso 42001, iso 27017, iso 27018, csa star level 2, soc 2 type i and ii, security certifications and reports]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/security/unifonic-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/unifonic/security/unifonic-trust-center.yml
 summary_line: ISO 27001, ISO 42001, ISO 27017, ISO 27018, CSA STAR Level 2, SOC 2 Type I, SOC 2 Type II
 tags:
 - Company

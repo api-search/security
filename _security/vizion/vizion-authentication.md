@@ -8,13 +8,13 @@ api_specs:
   label: Vizion References API
   slug: vizion-references-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vizion/refs/heads/main/openapi/vizion-references-api-openapi.yml
+  url: https://artifacts.apis.io/vizion/openapi/vizion-references-api-openapi.yml
 - filename: vizion-updates-api-openapi.yml
   format: yaml
   label: Vizion Updates API
   slug: vizion-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vizion/refs/heads/main/openapi/vizion-updates-api-openapi.yml
+  url: https://artifacts.apis.io/vizion/openapi/vizion-updates-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: vizion-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/vizion-container-tracking-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: Your Vizion API key. Include in all requests.\n  sources:\n  - openapi/vizion-container-tracking-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vizion/refs/heads/main/authentication/vizion-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vizion/authentication/vizion-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Container Tracking

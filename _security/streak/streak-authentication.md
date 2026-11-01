@@ -7,43 +7,43 @@ api_specs:
   label: Streak Boxes API
   slug: streak-boxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-boxes-api-openapi.yml
+  url: https://artifacts.apis.io/streak/openapi/streak-boxes-api-openapi.yml
 - filename: streak-fields-api-openapi.yml
   format: yaml
   label: Streak Fields API
   slug: streak-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-fields-api-openapi.yml
+  url: https://artifacts.apis.io/streak/openapi/streak-fields-api-openapi.yml
 - filename: streak-pipelines-api-openapi.yml
   format: yaml
   label: Streak Pipelines API
   slug: streak-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/streak/openapi/streak-pipelines-api-openapi.yml
 - filename: streak-stages-api-openapi.yml
   format: yaml
   label: Streak Stages API
   slug: streak-stages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-stages-api-openapi.yml
+  url: https://artifacts.apis.io/streak/openapi/streak-stages-api-openapi.yml
 - filename: streak-users-api-openapi.yml
   format: yaml
   label: Streak Users API
   slug: streak-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-users-api-openapi.yml
+  url: https://artifacts.apis.io/streak/openapi/streak-users-api-openapi.yml
 - filename: streak-webhooks-api-openapi.yml
   format: yaml
   label: Streak Webhooks API
   slug: streak-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/streak/openapi/streak-webhooks-api-openapi.yml
 - filename: streak-news-feed-api-openapi.yml
   format: yaml
   label: Streak News Feed API
   slug: streak-news-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-news-feed-api-openapi.yml
+  url: https://artifacts.apis.io/streak/openapi/streak-news-feed-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -74,7 +74,7 @@ source_filename: streak-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/streak-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: |-\n    HTTP Basic Authentication. Set the username to your Streak API key and leave\n    the password empty. Obtain an API key from\n    https://support.streak.com/en/articles/2612883-get-your-streak-api-key.\n  sources:\n  - openapi/streak-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/authentication/streak-authentication.yml
+source_yaml_url: https://artifacts.apis.io/streak/authentication/streak-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - CRM

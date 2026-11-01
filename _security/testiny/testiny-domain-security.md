@@ -5,31 +5,31 @@ api_specs:
   label: Testiny Automation API
   slug: testiny-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testiny/refs/heads/main/openapi/testiny-automation-api-openapi.yml
+  url: https://artifacts.apis.io/testiny/openapi/testiny-automation-api-openapi.yml
 - filename: testiny-projects-api-openapi.yml
   format: yaml
   label: Testiny Projects API
   slug: testiny-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testiny/refs/heads/main/openapi/testiny-projects-api-openapi.yml
+  url: https://artifacts.apis.io/testiny/openapi/testiny-projects-api-openapi.yml
 - filename: testiny-test-cases-api-openapi.yml
   format: yaml
   label: Testiny Test Cases API
   slug: testiny-test-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testiny/refs/heads/main/openapi/testiny-test-cases-api-openapi.yml
+  url: https://artifacts.apis.io/testiny/openapi/testiny-test-cases-api-openapi.yml
 - filename: testiny-test-plans-api-openapi.yml
   format: yaml
   label: Testiny Test Plans API
   slug: testiny-test-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testiny/refs/heads/main/openapi/testiny-test-plans-api-openapi.yml
+  url: https://artifacts.apis.io/testiny/openapi/testiny-test-plans-api-openapi.yml
 - filename: testiny-test-runs-api-openapi.yml
   format: yaml
   label: Testiny Test Runs API
   slug: testiny-test-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testiny/refs/heads/main/openapi/testiny-test-runs-api-openapi.yml
+  url: https://artifacts.apis.io/testiny/openapi/testiny-test-runs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: testiny-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.testiny.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 12:24:54 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n- host: app.testiny.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 09:29:54 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n- host: testiny.io\n  https: true\n  http_status: 308\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\ndomains:\n- domain: testiny.io\n  dnssec: false\n  caa: []\n  spf: true\n  spf_policy: ~all\n  dmarc: true\n  dmarc_policy: quarantine\n  dmarc_pct: 80\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/testiny/refs/heads/main/security/testiny-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/testiny/security/testiny-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Test Runs

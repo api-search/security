@@ -5,19 +5,19 @@ api_specs:
   label: Zilliz Cloud Providers API
   slug: zilliz-cloud-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zilliz/refs/heads/main/openapi/zilliz-cloud-providers-api-openapi.yml
+  url: https://artifacts.apis.io/zilliz/openapi/zilliz-cloud-providers-api-openapi.yml
 - filename: zilliz-clusters-api-openapi.yml
   format: yaml
   label: Zilliz Clusters API
   slug: zilliz-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zilliz/refs/heads/main/openapi/zilliz-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/zilliz/openapi/zilliz-clusters-api-openapi.yml
 - filename: zilliz-collections-api-openapi.yml
   format: yaml
   label: Zilliz Collections API
   slug: zilliz-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zilliz/refs/heads/main/openapi/zilliz-collections-api-openapi.yml
+  url: https://artifacts.apis.io/zilliz/openapi/zilliz-collections-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -56,13 +56,12 @@ source_filename: zilliz-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: zilliz.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  2 23:59:59 2027 GMT\n  hsts: false\n- host: docs.zilliz.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec  2 23:59:59 2026 GMT\n  hsts: false\n- host: api.cloud.zilliz.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 24 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: zilliz.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zilliz/refs/heads/main/security/zilliz-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zilliz/security/zilliz-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Vector Database
+- Vector Search
 - Artificial Intelligence
 - Cloud
 - Milvus
 - Managed
-- Vector Search
 ---

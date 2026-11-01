@@ -17,7 +17,7 @@ source_filename: forma-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nprobe: true\nurl: https://trust.joinforma.com/\nsource: https://www.joinforma.com/platform/security\ncertifications:\n- SOC 2 Type 2\n- HIPAA\n- GDPR\nevidence:\n- source: https://www.joinforma.com/platform/security\n  kind: security & compliance page\n  keywords:\n  - soc 2 type 2\n  - hipaa\n  - gdpr\n  - encryption at rest and in transit\n- source: https://trust.joinforma.com/\n  kind: trust center portal\n  note: real-time control monitor (JS-rendered) linked from the security page\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forma/refs/heads/main/security/forma-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/forma/security/forma-trust-center.yml
 summary_line: SOC 2 Type 2, HIPAA, GDPR
 tags:
 - Company

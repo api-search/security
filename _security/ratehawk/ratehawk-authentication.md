@@ -7,37 +7,37 @@ api_specs:
   label: RateHawk Booking API
   slug: ratehawk-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ratehawk/refs/heads/main/openapi/ratehawk-booking-api-openapi.yml
+  url: https://artifacts.apis.io/ratehawk/openapi/ratehawk-booking-api-openapi.yml
 - filename: ratehawk-cancellation-api-openapi.yml
   format: yaml
   label: RateHawk Cancellation API
   slug: ratehawk-cancellation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ratehawk/refs/heads/main/openapi/ratehawk-cancellation-api-openapi.yml
+  url: https://artifacts.apis.io/ratehawk/openapi/ratehawk-cancellation-api-openapi.yml
 - filename: ratehawk-hotel-content-api-openapi.yml
   format: yaml
   label: RateHawk Hotel Content API
   slug: ratehawk-hotel-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ratehawk/refs/heads/main/openapi/ratehawk-hotel-content-api-openapi.yml
+  url: https://artifacts.apis.io/ratehawk/openapi/ratehawk-hotel-content-api-openapi.yml
 - filename: ratehawk-hotel-search-api-openapi.yml
   format: yaml
   label: RateHawk Hotel Search API
   slug: ratehawk-hotel-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ratehawk/refs/heads/main/openapi/ratehawk-hotel-search-api-openapi.yml
+  url: https://artifacts.apis.io/ratehawk/openapi/ratehawk-hotel-search-api-openapi.yml
 - filename: ratehawk-orders-api-openapi.yml
   format: yaml
   label: RateHawk Orders API
   slug: ratehawk-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ratehawk/refs/heads/main/openapi/ratehawk-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ratehawk/openapi/ratehawk-orders-api-openapi.yml
 - filename: ratehawk-prebook-api-openapi.yml
   format: yaml
   label: RateHawk Prebook API
   slug: ratehawk-prebook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ratehawk/refs/heads/main/openapi/ratehawk-prebook-api-openapi.yml
+  url: https://artifacts.apis.io/ratehawk/openapi/ratehawk-prebook-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +64,7 @@ source_filename: ratehawk-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ratehawk-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication. The username is the API key id and the password is\n    the API key (uuid). Both are issued per contract for the test (sandbox) and production environments.\n  sources:\n  - openapi/ratehawk-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ratehawk/refs/heads/main/authentication/ratehawk-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ratehawk/authentication/ratehawk-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Travel

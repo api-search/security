@@ -25,7 +25,7 @@ source_filename: richapi-authentication.yml
 source_heading: Authentication Profile
 source_url: https://richapi.ai/playbooks/per-client-api-keys-for-agencies
 source_yaml: "generated: '2026-10-02'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://richapi.ai/playbooks/per-client-api-keys-for-agencies\nsources:\n- https://richapi.ai/playbooks/per-client-api-keys-for-agencies\ndescription: Authentication uses the x-api-key header.\nschemes:\n- type: apiKey\n  name: apiKey\n  evidence: Authentication uses the x-api-key header.\n  location: header\n  header: x-api-key\ndocs: https://richapi.ai/playbooks/per-client-api-keys-for-agencies\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/richapi/refs/heads/main/authentication/richapi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/richapi/authentication/richapi-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company

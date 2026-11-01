@@ -5,13 +5,13 @@ api_specs:
   label: ISS Location API (Open Notify) Astronauts API
   slug: iss-api-astronauts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iss-api/refs/heads/main/openapi/iss-api-astronauts-api-openapi.yml
+  url: https://artifacts.apis.io/iss-api/openapi/iss-api-astronauts-api-openapi.yml
 - filename: iss-api-iss-location-api-openapi.yml
   format: yaml
   label: ISS Location API (Open Notify) ISS Location API
   slug: iss-api-iss-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iss-api/refs/heads/main/openapi/iss-api-iss-location-api-openapi.yml
+  url: https://artifacts.apis.io/iss-api/openapi/iss-api-iss-location-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +40,7 @@ source_filename: iss-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: open-notify.org\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''open-notify'\n  hsts: null\n- host: api.open-notify.org\n  https: false\ndomains:\n- domain: open-notify.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iss-api/refs/heads/main/security/iss-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/iss-api/security/iss-api-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Space

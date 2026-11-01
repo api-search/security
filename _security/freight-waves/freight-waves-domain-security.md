@@ -5,19 +5,19 @@ api_specs:
   label: Freight Waves Authentication API
   slug: freight-waves-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/openapi/freight-waves-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/freight-waves/openapi/freight-waves-authentication-api-openapi.yml
 - filename: freight-waves-data-api-openapi.yml
   format: yaml
   label: Freight Waves Data API
   slug: freight-waves-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/openapi/freight-waves-data-api-openapi.yml
+  url: https://artifacts.apis.io/freight-waves/openapi/freight-waves-data-api-openapi.yml
 - filename: freight-waves-lookup-api-openapi.yml
   format: yaml
   label: Freight Waves Lookup API
   slug: freight-waves-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/openapi/freight-waves-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/freight-waves/openapi/freight-waves-lookup-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,7 +62,7 @@ source_filename: freight-waves-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: freightwaves.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 08:44:54 2026 GMT\n  hsts: false\n- host: api.sonar.surf\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 09:55:36 2026 GMT\n  hsts: false\n- host: api.freightwaves.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 23:18:18 2026 GMT\n  hsts: false\ndomains:\n- domain: freightwaves.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: sonar.surf\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/security/freight-waves-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/freight-waves/security/freight-waves-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

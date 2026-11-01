@@ -5,43 +5,43 @@ api_specs:
   label: Microsoft 365 Calendar API
   slug: microsoft-365-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/openapi/microsoft-365-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-365/openapi/microsoft-365-calendar-api-openapi.yml
 - filename: microsoft-365-files-api-openapi.yml
   format: yaml
   label: Microsoft 365 Files API
   slug: microsoft-365-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/openapi/microsoft-365-files-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-365/openapi/microsoft-365-files-api-openapi.yml
 - filename: microsoft-365-groups-api-openapi.yml
   format: yaml
   label: Microsoft 365 Groups API
   slug: microsoft-365-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/openapi/microsoft-365-groups-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-365/openapi/microsoft-365-groups-api-openapi.yml
 - filename: microsoft-365-mail-api-openapi.yml
   format: yaml
   label: Microsoft 365 Mail API
   slug: microsoft-365-mail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/openapi/microsoft-365-mail-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-365/openapi/microsoft-365-mail-api-openapi.yml
 - filename: microsoft-365-me-api-openapi.yml
   format: yaml
   label: Microsoft 365 Me API
   slug: microsoft-365-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/openapi/microsoft-365-me-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-365/openapi/microsoft-365-me-api-openapi.yml
 - filename: microsoft-365-teams-api-openapi.yml
   format: yaml
   label: Microsoft 365 Teams API
   slug: microsoft-365-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/openapi/microsoft-365-teams-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-365/openapi/microsoft-365-teams-api-openapi.yml
 - filename: microsoft-365-users-api-openapi.yml
   format: yaml
   label: Microsoft 365 Users API
   slug: microsoft-365-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/openapi/microsoft-365-users-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-365/openapi/microsoft-365-users-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -82,7 +82,7 @@ source_filename: microsoft-365-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 17 19:55:21 2027 GMT\n  hsts: false\n- host: learn.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 02:26:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: graph.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/security/microsoft-365-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-365/security/microsoft-365-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Productivity

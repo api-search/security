@@ -30,7 +30,7 @@ source_filename: aiforcetech-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of the aiforcetech.com marketing host (the company publishes\n  no API host); TLS values read directly with openssl s_client after probe-domain-security.py\n  recorded a transient socket failure against the Alibaba Cloud CDN edge.\nhosts:\n- host: www.aiforcetech.com\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: \"Let's Encrypt (YE1)\"\n  cert_expires: Oct  2 02:23:46 2026 GMT\n  hsts: null\n  note: HSTS could not be read — the Alibaba Cloud (Tengine/kunlun) edge answered every\n    HEAD/GET with HTTP 429 after the first handful of probes, so no response headers\n    were observable. Recorded as unknown rather than false.\ndomains:\n- domain: aiforcetech.com\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: v=spf1 include:spf.mxhichina.com -all\n  dmarc: false\n  note: No _dmarc.aiforcetech.com TXT record and no CAA record at the apex. Mail is\n    Alibaba Cloud (mxhichina.com).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aiforcetech/refs/heads/main/security/aiforcetech-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aiforcetech/security/aiforcetech-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

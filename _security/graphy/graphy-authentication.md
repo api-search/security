@@ -7,7 +7,7 @@ api_specs:
   label: Graphy Agents API
   slug: graphy-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphy/refs/heads/main/openapi/graphy-agents-api-openapi.yml
+  url: https://artifacts.apis.io/graphy/openapi/graphy-agents-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -36,7 +36,7 @@ source_filename: graphy-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/graphy-agents-openapi.yaml\ndocs: https://docs.graphy.dev/agents/rest/authentication\nsummary:\n  types:\n  - http\n  http_schemes:\n  - bearer\n  api_key_prefix: graphy_\n  key_console: https://agents.graphy.dev/console/\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  header: Authorization\n  format: 'Bearer [example key]'\n  description: Your Graphy API key (starts with graphy_). Create one in the Graphy console at\n    https://agents.graphy.dev/console/. Keys must be kept out of frontend code and stored via\n    environment variables or a secrets manager. All requests also require Content-Type application/json.\n  sources:\n  - openapi/graphy-agents-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/graphy/refs/heads/main/authentication/graphy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/graphy/authentication/graphy-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

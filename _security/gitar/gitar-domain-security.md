@@ -5,19 +5,25 @@ api_specs:
   label: Gitar GitLab MR Status API
   slug: gitar-gitlab-mr-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitar/refs/heads/main/openapi/gitar-gitlab-mr-status-api-openapi.yml
+  url: https://artifacts.apis.io/gitar/openapi/gitar-gitlab-mr-status-api-openapi.yml
 - filename: gitar-gitlab-projects-api-openapi.yml
   format: yaml
   label: Gitar GitLab Projects API
   slug: gitar-gitlab-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitar/refs/heads/main/openapi/gitar-gitlab-projects-api-openapi.yml
+  url: https://artifacts.apis.io/gitar/openapi/gitar-gitlab-projects-api-openapi.yml
 - filename: gitar-installation-health-api-openapi.yml
   format: yaml
   label: Gitar Installation Health API
   slug: gitar-installation-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitar/refs/heads/main/openapi/gitar-installation-health-api-openapi.yml
+  url: https://artifacts.apis.io/gitar/openapi/gitar-installation-health-api-openapi.yml
+- filename: gitar-organizations-api-openapi.yml
+  format: yaml
+  label: Gitar Organizations API
+  slug: gitar-organizations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gitar/openapi/gitar-organizations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +59,7 @@ source_filename: gitar-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gitar.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 17:19:57 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.gitar.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: gitar.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gitar/refs/heads/main/security/gitar-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gitar/security/gitar-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

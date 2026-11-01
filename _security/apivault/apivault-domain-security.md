@@ -5,73 +5,73 @@ api_specs:
   label: Apivault All API
   slug: apivault-all-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-all-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-all-api-openapi.yml
 - filename: apivault-auth-api-openapi.yml
   format: yaml
   label: Apivault Auth API
   slug: apivault-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-auth-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-auth-api-openapi.yml
 - filename: apivault-categories-api-openapi.yml
   format: yaml
   label: Apivault Categories API
   slug: apivault-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-categories-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-categories-api-openapi.yml
 - filename: apivault-category-api-openapi.yml
   format: yaml
   label: Apivault Category API
   slug: apivault-category-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-category-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-category-api-openapi.yml
 - filename: apivault-count-api-openapi.yml
   format: yaml
   label: Apivault Count API
   slug: apivault-count-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-count-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-count-api-openapi.yml
 - filename: apivault-create-api-openapi.yml
   format: yaml
   label: Apivault Create API
   slug: apivault-create-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-create-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-create-api-openapi.yml
 - filename: apivault-detail-api-openapi.yml
   format: yaml
   label: Apivault Detail API
   slug: apivault-detail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-detail-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-detail-api-openapi.yml
 - filename: apivault-interaction-api-openapi.yml
   format: yaml
   label: Apivault Interaction API
   slug: apivault-interaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-interaction-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-interaction-api-openapi.yml
 - filename: apivault-my-api-api-openapi.yml
   format: yaml
   label: Apivault My API
   slug: apivault-my-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-my-api-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-my-api-api-openapi.yml
 - filename: apivault-pending-api-openapi.yml
   format: yaml
   label: Apivault Pending API
   slug: apivault-pending-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-pending-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-pending-api-openapi.yml
 - filename: apivault-random-api-openapi.yml
   format: yaml
   label: Apivault Random API
   slug: apivault-random-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-random-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-random-api-openapi.yml
 - filename: apivault-search-api-openapi.yml
   format: yaml
   label: Apivault Search API
   slug: apivault-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-search-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -99,7 +99,7 @@ source_filename: apivault-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: apivault.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 12:31:58 2026 GMT\n  hsts: false\ndomains:\n- domain: apivault.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/security/apivault-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apivault/security/apivault-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - API Catalog

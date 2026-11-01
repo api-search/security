@@ -7,19 +7,19 @@ api_specs:
   label: Volkswagen Catalog API
   slug: volkswagen-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/volkswagen/refs/heads/main/openapi/volkswagen-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/volkswagen/openapi/volkswagen-catalog-api-openapi.yml
 - filename: volkswagen-configuration-api-openapi.yml
   format: yaml
   label: Volkswagen Configuration API
   slug: volkswagen-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/volkswagen/refs/heads/main/openapi/volkswagen-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/volkswagen/openapi/volkswagen-configuration-api-openapi.yml
 - filename: volkswagen-information-api-openapi.yml
   format: yaml
   label: Volkswagen Information API
   slug: volkswagen-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/volkswagen/refs/heads/main/openapi/volkswagen-information-api-openapi.yml
+  url: https://artifacts.apis.io/volkswagen/openapi/volkswagen-information-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: volkswagen-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/volkswagen-okapi-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token obtained by requesting client credentials from the Volkswagen OKAPI\n    Developer Portal.\n  sources:\n  - openapi/volkswagen-okapi-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/volkswagen/refs/heads/main/authentication/volkswagen-authentication.yml
+source_yaml_url: https://artifacts.apis.io/volkswagen/authentication/volkswagen-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Automobiles

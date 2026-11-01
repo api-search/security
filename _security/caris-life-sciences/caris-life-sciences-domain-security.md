@@ -5,13 +5,13 @@ api_specs:
   label: Caris Life Sciences Information API
   slug: caris-life-sciences-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caris-life-sciences/refs/heads/main/openapi/caris-life-sciences-information-api-openapi.yml
+  url: https://artifacts.apis.io/caris-life-sciences/openapi/caris-life-sciences-information-api-openapi.yml
 - filename: caris-life-sciences-portal-api-openapi.yml
   format: yaml
   label: Caris Life Sciences Portal API
   slug: caris-life-sciences-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caris-life-sciences/refs/heads/main/openapi/caris-life-sciences-portal-api-openapi.yml
+  url: https://artifacts.apis.io/caris-life-sciences/openapi/caris-life-sciences-portal-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -60,7 +60,7 @@ source_filename: caris-life-sciences-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.carislifesciences.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 12:06:29 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: portal.caris.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 08:16:17 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: carislifesciences.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: caris.ai\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/caris-life-sciences/refs/heads/main/security/caris-life-sciences-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/caris-life-sciences/security/caris-life-sciences-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Precision Oncology

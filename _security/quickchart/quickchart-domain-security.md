@@ -32,7 +32,7 @@ source_filename: quickchart-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: quickchart.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  2 00:01:57 2026 GMT\n  hsts: false\ndomains:\n- domain: quickchart.io\n  dnssec: true\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quickchart/refs/heads/main/security/quickchart-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/quickchart/security/quickchart-domain-security.yml
 summary_line: TLSv1.2 · DNSSEC
 tags:
 - Development

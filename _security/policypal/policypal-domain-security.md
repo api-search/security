@@ -26,7 +26,7 @@ source_filename: policypal-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: policypal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 08:40:56 2026 GMT\n  hsts: false\ndomains:\n- domain: policypal.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/policypal/refs/heads/main/security/policypal-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/policypal/security/policypal-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

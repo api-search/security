@@ -5,37 +5,37 @@ api_specs:
   label: SamCart Charges API
   slug: samcart-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samcart/refs/heads/main/openapi/samcart-charges-api-openapi.yml
+  url: https://artifacts.apis.io/samcart/openapi/samcart-charges-api-openapi.yml
 - filename: samcart-customers-api-openapi.yml
   format: yaml
   label: SamCart Customers API
   slug: samcart-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samcart/refs/heads/main/openapi/samcart-customers-api-openapi.yml
+  url: https://artifacts.apis.io/samcart/openapi/samcart-customers-api-openapi.yml
 - filename: samcart-orders-api-openapi.yml
   format: yaml
   label: SamCart Orders API
   slug: samcart-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samcart/refs/heads/main/openapi/samcart-orders-api-openapi.yml
+  url: https://artifacts.apis.io/samcart/openapi/samcart-orders-api-openapi.yml
 - filename: samcart-products-api-openapi.yml
   format: yaml
   label: SamCart Products API
   slug: samcart-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samcart/refs/heads/main/openapi/samcart-products-api-openapi.yml
+  url: https://artifacts.apis.io/samcart/openapi/samcart-products-api-openapi.yml
 - filename: samcart-refunds-api-openapi.yml
   format: yaml
   label: SamCart Refunds API
   slug: samcart-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samcart/refs/heads/main/openapi/samcart-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/samcart/openapi/samcart-refunds-api-openapi.yml
 - filename: samcart-subscriptions-api-openapi.yml
   format: yaml
   label: SamCart Subscriptions API
   slug: samcart-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samcart/refs/heads/main/openapi/samcart-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/samcart/openapi/samcart-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: samcart-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.samcart.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  7 12:33:17 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.samcart.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  3 23:59:59 2027 GMT\n  hsts: false\n- host: api.samcart.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar 10 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: samcart.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/samcart/refs/heads/main/security/samcart-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/samcart/security/samcart-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - E-Commerce

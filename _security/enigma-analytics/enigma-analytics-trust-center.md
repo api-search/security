@@ -15,7 +15,7 @@ source_filename: enigma-analytics-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: searched\nprobe: true\nsource: https://www.enigma.com/legal/security\nurl: https://www.enigma.com/legal/security\ncertifications:\n- SOC 2\nevidence:\n- source: https://www.enigma.com/legal/security\n  keywords:\n  - soc 2\n  - soc2\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/enigma-analytics/refs/heads/main/security/enigma-analytics-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/enigma-analytics/security/enigma-analytics-trust-center.yml
 summary_line: SOC 2
 tags:
 - Company

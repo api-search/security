@@ -5,61 +5,61 @@ api_specs:
   label: SiliconFlow Audio API
   slug: siliconflow-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/openapi/siliconflow-audio-api-openapi.yml
+  url: https://artifacts.apis.io/siliconflow/openapi/siliconflow-audio-api-openapi.yml
 - filename: siliconflow-completions-api-openapi.yml
   format: yaml
   label: SiliconFlow Completions API
   slug: siliconflow-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/openapi/siliconflow-completions-api-openapi.yml
+  url: https://artifacts.apis.io/siliconflow/openapi/siliconflow-completions-api-openapi.yml
 - filename: siliconflow-embeddings-api-openapi.yml
   format: yaml
   label: SiliconFlow Embeddings API
   slug: siliconflow-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/openapi/siliconflow-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/siliconflow/openapi/siliconflow-embeddings-api-openapi.yml
 - filename: siliconflow-images-api-openapi.yml
   format: yaml
   label: SiliconFlow Images API
   slug: siliconflow-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/openapi/siliconflow-images-api-openapi.yml
+  url: https://artifacts.apis.io/siliconflow/openapi/siliconflow-images-api-openapi.yml
 - filename: siliconflow-messages-api-openapi.yml
   format: yaml
   label: SiliconFlow Messages API
   slug: siliconflow-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/openapi/siliconflow-messages-api-openapi.yml
+  url: https://artifacts.apis.io/siliconflow/openapi/siliconflow-messages-api-openapi.yml
 - filename: siliconflow-models-api-openapi.yml
   format: yaml
   label: SiliconFlow Models API
   slug: siliconflow-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/openapi/siliconflow-models-api-openapi.yml
+  url: https://artifacts.apis.io/siliconflow/openapi/siliconflow-models-api-openapi.yml
 - filename: siliconflow-rerank-api-openapi.yml
   format: yaml
   label: SiliconFlow Rerank API
   slug: siliconflow-rerank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/openapi/siliconflow-rerank-api-openapi.yml
+  url: https://artifacts.apis.io/siliconflow/openapi/siliconflow-rerank-api-openapi.yml
 - filename: siliconflow-user-api-openapi.yml
   format: yaml
   label: SiliconFlow User API
   slug: siliconflow-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/openapi/siliconflow-user-api-openapi.yml
+  url: https://artifacts.apis.io/siliconflow/openapi/siliconflow-user-api-openapi.yml
 - filename: siliconflow-videos-api-openapi.yml
   format: yaml
   label: SiliconFlow Videos API
   slug: siliconflow-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/openapi/siliconflow-videos-api-openapi.yml
+  url: https://artifacts.apis.io/siliconflow/openapi/siliconflow-videos-api-openapi.yml
 - filename: siliconflow-chat-completions-api-openapi.yml
   format: yaml
   label: SiliconFlow Chat Completions API
   slug: siliconflow-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/openapi/siliconflow-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/siliconflow/openapi/siliconflow-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -100,7 +100,7 @@ source_filename: siliconflow-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: siliconflow.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.siliconflow.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 19:44:10 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.siliconflow.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 10:12:23 2026 GMT\n  hsts: null\ndomains:\n- domain: siliconflow.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/security/siliconflow-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/siliconflow/security/siliconflow-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Artificial Intelligence

@@ -27,12 +27,12 @@ source_filename: lottielab-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.lottielab.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 00:00:51 2026 GMT\n  hsts: false\ndomains:\n- domain: lottielab.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lottielab/refs/heads/main/security/lottielab-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lottielab/security/lottielab-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Animation
-- Motion Design
+- Motion Graphics
 - Lottie
 - Design Tools
 - Developer Tools

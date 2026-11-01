@@ -7,37 +7,37 @@ api_specs:
   label: Notion Blocks API
   slug: notion-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/openapi/notion-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/notion/openapi/notion-blocks-api-openapi.yml
 - filename: notion-comments-api-openapi.yml
   format: yaml
   label: Notion Comments API
   slug: notion-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/openapi/notion-comments-api-openapi.yml
+  url: https://artifacts.apis.io/notion/openapi/notion-comments-api-openapi.yml
 - filename: notion-databases-api-openapi.yml
   format: yaml
   label: Notion Databases API
   slug: notion-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/openapi/notion-databases-api-openapi.yml
+  url: https://artifacts.apis.io/notion/openapi/notion-databases-api-openapi.yml
 - filename: notion-pages-api-openapi.yml
   format: yaml
   label: Notion Pages API
   slug: notion-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/openapi/notion-pages-api-openapi.yml
+  url: https://artifacts.apis.io/notion/openapi/notion-pages-api-openapi.yml
 - filename: notion-search-api-openapi.yml
   format: yaml
   label: Notion Search API
   slug: notion-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/openapi/notion-search-api-openapi.yml
+  url: https://artifacts.apis.io/notion/openapi/notion-search-api-openapi.yml
 - filename: notion-users-api-openapi.yml
   format: yaml
   label: Notion Users API
   slug: notion-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/openapi/notion-users-api-openapi.yml
+  url: https://artifacts.apis.io/notion/openapi/notion-users-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -82,7 +82,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/notion-openapi.yml\ndocs: https://developers.notion.com/reference/authentication\nsummary:\n  types:\n  - http\n  - oauth2\n  api_key_in: []\n  oauth2_flows:\n  - authorizationCode\n  authorization_model: capabilities\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Notion API uses bearer token authentication. Obtain an integration token from\n    https://www.notion.so/my-integrations. Pass the token in the Authorization header as \"Bearer\n    {token}\".\n  token_types:\n  - internal integration token\n  - personal access token\n  sources:\n  - openapi/notion-openapi.yml\n- name: oauth2\n  type: oauth2\n  description: >-\n    Public connections authorize end users via OAuth 2.0 authorization code flow.\n    What a token can do is governed by integration \"capabilities\" (read/insert/update\n    content, read/insert comments, read user info) rather than granular OAuth scopes.\n  flows:\n\
   \  - flow: authorizationCode\n    authorizationUrl: https://api.notion.com/v1/oauth/authorize\n    tokenUrl: https://api.notion.com/v1/oauth/token\n    refresh: true\n  docs: https://developers.notion.com/guides/get-started/authorization\n  capabilities_docs: https://developers.notion.com/reference/capabilities\n  sources:\n  - https://developers.notion.com/reference/authentication\nnotes:\n  - The remote Notion MCP server (mcp.notion.com) requires user-based OAuth; discovery at /.well-known/oauth-authorization-server.\n  - No granular OAuth scope surface — capabilities are configured per integration; scopes/ artifact intentionally omitted.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/authentication/notion-authentication.yml
+source_yaml_url: https://artifacts.apis.io/notion/authentication/notion-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Collaboration

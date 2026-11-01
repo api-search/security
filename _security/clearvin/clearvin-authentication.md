@@ -7,13 +7,13 @@ api_specs:
   label: ClearVIN Authentication API
   slug: clearvin-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearvin/refs/heads/main/openapi/clearvin-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/clearvin/openapi/clearvin-authentication-api-openapi.yml
 - filename: clearvin-report-api-openapi.yml
   format: yaml
   label: ClearVIN Report API
   slug: clearvin-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearvin/refs/heads/main/openapi/clearvin-report-api-openapi.yml
+  url: https://artifacts.apis.io/clearvin/openapi/clearvin-report-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -41,7 +41,7 @@ source_filename: clearvin-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/clearvin-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: 'JWT obtained from /rest/vendor/login, sent as \"Authorization: Bearer {token}\".\n    Tokens expire after 120 minutes.'\n  sources:\n  - openapi/clearvin-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clearvin/refs/heads/main/authentication/clearvin-authentication.yml
+source_yaml_url: https://artifacts.apis.io/clearvin/authentication/clearvin-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - VIN

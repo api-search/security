@@ -5,31 +5,31 @@ api_specs:
   label: Seventh Sense Collections API
   slug: seventh-sense-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seventh-sense/refs/heads/main/openapi/seventh-sense-collections-api-openapi.yml
+  url: https://artifacts.apis.io/seventh-sense/openapi/seventh-sense-collections-api-openapi.yml
 - filename: seventh-sense-face-anti-spoofing-liveness-api-openapi.yml
   format: yaml
   label: Seventh Sense Face Anti-Spoofing / Liveness API
   slug: seventh-sense-face-anti-spoofing-liveness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seventh-sense/refs/heads/main/openapi/seventh-sense-face-anti-spoofing-liveness-api-openapi.yml
+  url: https://artifacts.apis.io/seventh-sense/openapi/seventh-sense-face-anti-spoofing-liveness-api-openapi.yml
 - filename: seventh-sense-face-verification-api-openapi.yml
   format: yaml
   label: Seventh Sense Face Verification API
   slug: seventh-sense-face-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seventh-sense/refs/heads/main/openapi/seventh-sense-face-verification-api-openapi.yml
+  url: https://artifacts.apis.io/seventh-sense/openapi/seventh-sense-face-verification-api-openapi.yml
 - filename: seventh-sense-persons-api-openapi.yml
   format: yaml
   label: Seventh Sense Persons API
   slug: seventh-sense-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seventh-sense/refs/heads/main/openapi/seventh-sense-persons-api-openapi.yml
+  url: https://artifacts.apis.io/seventh-sense/openapi/seventh-sense-persons-api-openapi.yml
 - filename: seventh-sense-search-api-openapi.yml
   format: yaml
   label: Seventh Sense Search API
   slug: seventh-sense-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seventh-sense/refs/heads/main/openapi/seventh-sense-search-api-openapi.yml
+  url: https://artifacts.apis.io/seventh-sense/openapi/seventh-sense-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: seventh-sense-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: seventhsense.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 04:49:23 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: us.opencv.fr\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 31 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: seventhsense.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: opencv.fr\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seventh-sense/refs/heads/main/security/seventh-sense-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/seventh-sense/security/seventh-sense-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

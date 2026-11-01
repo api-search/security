@@ -5,13 +5,13 @@ api_specs:
   label: Blub0x Enage API
   slug: blub0x-enage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blub0x/refs/heads/main/openapi/blub0x-enage-api-openapi.yml
+  url: https://artifacts.apis.io/blub0x/openapi/blub0x-enage-api-openapi.yml
 - filename: blub0x-engage-api-openapi.yml
   format: yaml
   label: Blub0x Engage API
   slug: blub0x-engage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blub0x/refs/heads/main/openapi/blub0x-engage-api-openapi.yml
+  url: https://artifacts.apis.io/blub0x/openapi/blub0x-engage-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +40,7 @@ source_filename: blub0x-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.blub0x.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 12 23:30:29 2026 GMT\n  hsts: false\ndomains:\n- domain: blub0x.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blub0x/refs/heads/main/security/blub0x-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/blub0x/security/blub0x-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Physical Security

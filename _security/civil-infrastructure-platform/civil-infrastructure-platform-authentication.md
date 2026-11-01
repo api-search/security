@@ -26,7 +26,7 @@ source_filename: civil-infrastructure-platform-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: derived\nsource: openapi/civil-infrastructure-platform-tec-v1-openapi-original.json\nsummary:\n  types:\n  - http\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/civil-infrastructure-platform-tec-v1-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/authentication/civil-infrastructure-platform-authentication.yml
+source_yaml_url: https://artifacts.apis.io/civil-infrastructure-platform/authentication/civil-infrastructure-platform-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Embedded

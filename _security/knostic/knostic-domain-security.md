@@ -5,25 +5,25 @@ api_specs:
   label: Knostic Extensions API
   slug: knostic-extensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/openapi/knostic-extensions-api-openapi.yml
+  url: https://artifacts.apis.io/knostic/openapi/knostic-extensions-api-openapi.yml
 - filename: knostic-mcp-api-openapi.yml
   format: yaml
   label: Knostic MCP API
   slug: knostic-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/openapi/knostic-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/knostic/openapi/knostic-mcp-api-openapi.yml
 - filename: knostic-scans-api-openapi.yml
   format: yaml
   label: Knostic Scans API
   slug: knostic-scans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/openapi/knostic-scans-api-openapi.yml
+  url: https://artifacts.apis.io/knostic/openapi/knostic-scans-api-openapi.yml
 - filename: knostic-skills-api-openapi.yml
   format: yaml
   label: Knostic Skills API
   slug: knostic-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/openapi/knostic-skills-api-openapi.yml
+  url: https://artifacts.apis.io/knostic/openapi/knostic-skills-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: knostic-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: knostic.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 13:47:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: agentmesh.knostic.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 19:31:56 2026 GMT\n  hsts: true\n  hsts_max_age: 0\ndomains:\n- domain: knostic.ai\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/security/knostic-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/knostic/security/knostic-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

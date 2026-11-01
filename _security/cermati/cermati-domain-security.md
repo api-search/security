@@ -5,7 +5,7 @@ api_specs:
   label: Cermati Protect Generic Insurance API
   slug: cermati-protect-generic-insurance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cermati/refs/heads/main/openapi/cermati-protect-openapi.json
+  url: https://artifacts.apis.io/cermati/openapi/cermati-protect-openapi.json
 description: ''
 domains:
 - caa: []
@@ -35,7 +35,7 @@ source_filename: cermati-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cermati.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: cermati.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cermati/refs/heads/main/security/cermati-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cermati/security/cermati-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fintech

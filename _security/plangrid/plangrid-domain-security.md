@@ -5,31 +5,31 @@ api_specs:
   label: PlanGrid Batch API
   slug: plangrid-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plangrid/refs/heads/main/openapi/plangrid-batch-api-openapi.yml
+  url: https://artifacts.apis.io/plangrid/openapi/plangrid-batch-api-openapi.yml
 - filename: plangrid-me-api-openapi.yml
   format: yaml
   label: PlanGrid Me API
   slug: plangrid-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plangrid/refs/heads/main/openapi/plangrid-me-api-openapi.yml
+  url: https://artifacts.apis.io/plangrid/openapi/plangrid-me-api-openapi.yml
 - filename: plangrid-oauth-api-openapi.yml
   format: yaml
   label: PlanGrid OAuth API
   slug: plangrid-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plangrid/refs/heads/main/openapi/plangrid-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/plangrid/openapi/plangrid-oauth-api-openapi.yml
 - filename: plangrid-projects-api-openapi.yml
   format: yaml
   label: PlanGrid Projects API
   slug: plangrid-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plangrid/refs/heads/main/openapi/plangrid-projects-api-openapi.yml
+  url: https://artifacts.apis.io/plangrid/openapi/plangrid-projects-api-openapi.yml
 - filename: plangrid-rate-limits-api-openapi.yml
   format: yaml
   label: PlanGrid Rate Limits API
   slug: plangrid-rate-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plangrid/refs/heads/main/openapi/plangrid-rate-limits-api-openapi.yml
+  url: https://artifacts.apis.io/plangrid/openapi/plangrid-rate-limits-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: plangrid-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: construction.autodesk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 20:13:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.plangrid.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 12:10:06 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: io.plangrid.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  6 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: autodesk.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: plangrid.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plangrid/refs/heads/main/security/plangrid-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/plangrid/security/plangrid-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

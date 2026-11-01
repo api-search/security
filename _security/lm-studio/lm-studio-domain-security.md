@@ -5,25 +5,25 @@ api_specs:
   label: LM Studio Anthropic Compatibility API
   slug: lm-studio-anthropic-compatibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lm-studio/refs/heads/main/openapi/lm-studio-anthropic-compatibility-api-openapi.yml
+  url: https://artifacts.apis.io/lm-studio/openapi/lm-studio-anthropic-compatibility-api-openapi.yml
 - filename: lm-studio-chat-api-openapi.yml
   format: yaml
   label: LM Studio Chat API
   slug: lm-studio-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lm-studio/refs/heads/main/openapi/lm-studio-chat-api-openapi.yml
+  url: https://artifacts.apis.io/lm-studio/openapi/lm-studio-chat-api-openapi.yml
 - filename: lm-studio-models-api-openapi.yml
   format: yaml
   label: LM Studio Models API
   slug: lm-studio-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lm-studio/refs/heads/main/openapi/lm-studio-models-api-openapi.yml
+  url: https://artifacts.apis.io/lm-studio/openapi/lm-studio-models-api-openapi.yml
 - filename: lm-studio-openai-compatibility-api-openapi.yml
   format: yaml
   label: LM Studio OpenAI Compatibility API
   slug: lm-studio-openai-compatibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lm-studio/refs/heads/main/openapi/lm-studio-openai-compatibility-api-openapi.yml
+  url: https://artifacts.apis.io/lm-studio/openapi/lm-studio-openai-compatibility-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -58,7 +58,7 @@ source_filename: lm-studio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: lmstudio.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 12:45:40 2026 GMT\n  hsts: false\ndomains:\n- domain: lmstudio.ai\n  dnssec: true\n  caa:\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lm-studio/refs/heads/main/security/lm-studio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lm-studio/security/lm-studio-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

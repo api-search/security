@@ -29,7 +29,7 @@ source_filename: bitwise-investments-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://developers.bitwiseinvestments.com/\ndocs: https://developers.bitwiseinvestments.com/\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  oauth2_flows: []\n  notes: >-\n    The Bitwise API is documented via a public Postman collection. Authentication is performed with\n    an API key presented in the HTTP Authorization request header. API keys are not self-service —\n    they are issued on request by contacting api@bitwiseinvestments.com. No OpenAPI/Swagger definition\n    is published, so this profile is captured from the developer documentation rather than derived\n    from a spec.\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter_name: Authorization\n  description: API key issued by Bitwise, presented in the Authorization request header.\n  sources:\n  - https://developers.bitwiseinvestments.com/\nkey_provisioning:\n  self_service: false\n  contact: api@bitwiseinvestments.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitwise-investments/refs/heads/main/authentication/bitwise-investments-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bitwise-investments/authentication/bitwise-investments-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

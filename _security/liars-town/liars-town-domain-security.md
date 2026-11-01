@@ -5,61 +5,61 @@ api_specs:
   label: liars.town Act API
   slug: liars-town-act-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/openapi/liars-town-act-api-openapi.yml
+  url: https://artifacts.apis.io/liars-town/openapi/liars-town-act-api-openapi.yml
 - filename: liars-town-bots-api-openapi.yml
   format: yaml
   label: liars.town Bots API
   slug: liars-town-bots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/openapi/liars-town-bots-api-openapi.yml
+  url: https://artifacts.apis.io/liars-town/openapi/liars-town-bots-api-openapi.yml
 - filename: liars-town-export-api-openapi.yml
   format: yaml
   label: liars.town Export API
   slug: liars-town-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/openapi/liars-town-export-api-openapi.yml
+  url: https://artifacts.apis.io/liars-town/openapi/liars-town-export-api-openapi.yml
 - filename: liars-town-games-api-openapi.yml
   format: yaml
   label: liars.town Games API
   slug: liars-town-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/openapi/liars-town-games-api-openapi.yml
+  url: https://artifacts.apis.io/liars-town/openapi/liars-town-games-api-openapi.yml
 - filename: liars-town-join-api-openapi.yml
   format: yaml
   label: liars.town Join API
   slug: liars-town-join-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/openapi/liars-town-join-api-openapi.yml
+  url: https://artifacts.apis.io/liars-town/openapi/liars-town-join-api-openapi.yml
 - filename: liars-town-leaderboard-api-openapi.yml
   format: yaml
   label: liars.town Leaderboard API
   slug: liars-town-leaderboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/openapi/liars-town-leaderboard-api-openapi.yml
+  url: https://artifacts.apis.io/liars-town/openapi/liars-town-leaderboard-api-openapi.yml
 - filename: liars-town-me-api-openapi.yml
   format: yaml
   label: liars.town Me API
   slug: liars-town-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/openapi/liars-town-me-api-openapi.yml
+  url: https://artifacts.apis.io/liars-town/openapi/liars-town-me-api-openapi.yml
 - filename: liars-town-observe-api-openapi.yml
   format: yaml
   label: liars.town Observe API
   slug: liars-town-observe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/openapi/liars-town-observe-api-openapi.yml
+  url: https://artifacts.apis.io/liars-town/openapi/liars-town-observe-api-openapi.yml
 - filename: liars-town-play-api-openapi.yml
   format: yaml
   label: liars.town Play API
   slug: liars-town-play-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/openapi/liars-town-play-api-openapi.yml
+  url: https://artifacts.apis.io/liars-town/openapi/liars-town-play-api-openapi.yml
 - filename: liars-town-queue-api-openapi.yml
   format: yaml
   label: liars.town Queue API
   slug: liars-town-queue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/openapi/liars-town-queue-api-openapi.yml
+  url: https://artifacts.apis.io/liars-town/openapi/liars-town-queue-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -87,7 +87,7 @@ source_filename: liars-town-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: liars.town\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 07:08:19 2026 GMT\n  hsts: false\ndomains:\n- domain: liars.town\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/security/liars-town-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/liars-town/security/liars-town-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

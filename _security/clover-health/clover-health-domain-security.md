@@ -5,13 +5,13 @@ api_specs:
   label: Clover Health Fhir R4 Formulary API
   slug: clover-health-fhir-r4-formulary-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clover-health/refs/heads/main/openapi/clover-health-fhir-r4-formulary-api-api-openapi.yml
+  url: https://artifacts.apis.io/clover-health/openapi/clover-health-fhir-r4-formulary-api-api-openapi.yml
 - filename: clover-health-fhir-r4-providerdirectory-api-api-openapi.yml
   format: yaml
   label: Clover Health FHIR R4 ProviderDirectory API
   slug: clover-health-fhir-r4-providerdirectory-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clover-health/refs/heads/main/openapi/clover-health-fhir-r4-providerdirectory-api-api-openapi.yml
+  url: https://artifacts.apis.io/clover-health/openapi/clover-health-fhir-r4-providerdirectory-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: clover-health-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cloverhealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 11:54:15 2026 GMT\n  hsts: true\n  hsts_max_age: 3600\n- host: public-api.cloverhealth.com\n  https: true\n  tls_version: TLSv1.3\n  hsts: false\ndomains:\n- domain: cloverhealth.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clover-health/refs/heads/main/security/clover-health-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/clover-health/security/clover-health-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

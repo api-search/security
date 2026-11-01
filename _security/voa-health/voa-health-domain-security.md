@@ -5,13 +5,13 @@ api_specs:
   label: VOA Health Authentication API
   slug: voa-health-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/openapi/voa-health-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/voa-health/openapi/voa-health-authentication-api-openapi.yml
 - filename: voa-health-rnds-api-openapi.yml
   format: yaml
   label: VOA Health RNDS API
   slug: voa-health-rnds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/openapi/voa-health-rnds-api-openapi.yml
+  url: https://artifacts.apis.io/voa-health/openapi/voa-health-rnds-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,7 +41,7 @@ source_filename: voa-health-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: voa.health\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 21:31:24 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: voa.health\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/security/voa-health-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/voa-health/security/voa-health-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

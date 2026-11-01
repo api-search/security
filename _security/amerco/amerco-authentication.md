@@ -8,13 +8,13 @@ api_specs:
   label: AMERCO Wss API
   slug: amerco-wssapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amerco/refs/heads/main/openapi/amerco-wssapi-api-openapi.yml
+  url: https://artifacts.apis.io/amerco/openapi/amerco-wssapi-api-openapi.yml
 - filename: amerco-wssapiv4-api-openapi.yml
   format: yaml
   label: AMERCO Wss API V4 API
   slug: amerco-wssapiv4-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amerco/refs/heads/main/openapi/amerco-wssapiv4-api-openapi.yml
+  url: https://artifacts.apis.io/amerco/openapi/amerco-wssapiv4-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -43,7 +43,7 @@ source_filename: amerco-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-02'\nmethod: derived\nsource: openapi/amerco-webselfstorage-affiliate-api-v3-openapi.yml, openapi/amerco-webselfstorage-affiliate-api-v4-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Add \"Bearer\" followed by space and then your access token to test\n  sources:\n  - openapi/amerco-webselfstorage-affiliate-api-v3-openapi.yml\n  - openapi/amerco-webselfstorage-affiliate-api-v4-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amerco/refs/heads/main/authentication/amerco-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amerco/authentication/amerco-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Moving

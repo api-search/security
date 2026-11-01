@@ -8,19 +8,19 @@ api_specs:
   label: LMNT Ai API
   slug: lmnt-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lmnt/refs/heads/main/openapi/lmnt-ai-api-openapi.yml
+  url: https://artifacts.apis.io/lmnt/openapi/lmnt-ai-api-openapi.yml
 - filename: lmnt-health-check-api-openapi.yml
   format: yaml
   label: LMNT Health Check API
   slug: lmnt-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lmnt/refs/heads/main/openapi/lmnt-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/lmnt/openapi/lmnt-health-check-api-openapi.yml
 - filename: lmnt-speech-api-openapi.yml
   format: yaml
   label: LMNT Speech API
   slug: lmnt-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lmnt/refs/heads/main/openapi/lmnt-speech-api-openapi.yml
+  url: https://artifacts.apis.io/lmnt/openapi/lmnt-speech-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: lmnt-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/lmnt-speech-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: API key obtained from the LMNT dashboard at https://app.lmnt.com\n  sources:\n  - openapi/lmnt-speech-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lmnt/refs/heads/main/authentication/lmnt-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lmnt/authentication/lmnt-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Text-to-Speech

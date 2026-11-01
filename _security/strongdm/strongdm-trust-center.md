@@ -5,13 +5,13 @@ api_specs:
   label: StrongDM Admin API
   slug: strongdm-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strongdm/refs/heads/main/openapi/strongdm-admin-api-openapi.yml
+  url: https://artifacts.apis.io/strongdm/openapi/strongdm-admin-api-openapi.yml
 - filename: strongdm-admin-api-openapi.yml
   format: yaml
   label: StrongDM Admin API
   slug: strongdm-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strongdm/refs/heads/main/openapi/strongdm-admin-api-openapi.yml
+  url: https://artifacts.apis.io/strongdm/openapi/strongdm-admin-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -30,7 +30,7 @@ source_filename: strongdm-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-04'\nmethod: searched\nprobe: true\nsource: https://security.strongdm.com/\nurl: https://security.strongdm.com/\ncertifications:\n- SOC 2\n- PCI DSS\n- GDPR\nevidence:\n- source: https://security.strongdm.com/\n  keywords:\n  - soc 2\n  - pci dss\n  - pci-dss\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/strongdm/refs/heads/main/security/strongdm-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/strongdm/security/strongdm-trust-center.yml
 summary_line: SOC 2, PCI DSS, GDPR
 tags:
 - Company

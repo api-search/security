@@ -8,61 +8,61 @@ api_specs:
   label: OpenWeb Export API
   slug: openweb-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/openapi/openweb-export-api-openapi.yml
+  url: https://artifacts.apis.io/openweb/openapi/openweb-export-api-openapi.yml
 - filename: openweb-top-comments-api-openapi.yml
   format: yaml
   label: OpenWeb top comments API
   slug: openweb-top-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/openapi/openweb-top-comments-api-openapi.yml
+  url: https://artifacts.apis.io/openweb/openapi/openweb-top-comments-api-openapi.yml
 - filename: openweb-trending-articles-api-openapi.yml
   format: yaml
   label: OpenWeb trending articles API
   slug: openweb-trending-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/openapi/openweb-trending-articles-api-openapi.yml
+  url: https://artifacts.apis.io/openweb/openapi/openweb-trending-articles-api-openapi.yml
 - filename: openweb-article-api-openapi.yml
   format: yaml
   label: OpenWeb Article API
   slug: openweb-article-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/openapi/openweb-article-api-openapi.yml
+  url: https://artifacts.apis.io/openweb/openapi/openweb-article-api-openapi.yml
 - filename: openweb-comment-api-openapi.yml
   format: yaml
   label: OpenWeb Comment API
   slug: openweb-comment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/openapi/openweb-comment-api-openapi.yml
+  url: https://artifacts.apis.io/openweb/openapi/openweb-comment-api-openapi.yml
 - filename: openweb-live-blog-api-openapi.yml
   format: yaml
   label: OpenWeb live blog API
   slug: openweb-live-blog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/openapi/openweb-live-blog-api-openapi.yml
+  url: https://artifacts.apis.io/openweb/openapi/openweb-live-blog-api-openapi.yml
 - filename: openweb-moderation-policy-api-openapi.yml
   format: yaml
   label: OpenWeb moderation policy API
   slug: openweb-moderation-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/openapi/openweb-moderation-policy-api-openapi.yml
+  url: https://artifacts.apis.io/openweb/openapi/openweb-moderation-policy-api-openapi.yml
 - filename: openweb-score-and-reviews-api-openapi.yml
   format: yaml
   label: OpenWeb score and reviews API
   slug: openweb-score-and-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/openapi/openweb-score-and-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/openweb/openapi/openweb-score-and-reviews-api-openapi.yml
 - filename: openweb-sso-api-openapi.yml
   format: yaml
   label: OpenWeb SSO API
   slug: openweb-sso-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/openapi/openweb-sso-api-openapi.yml
+  url: https://artifacts.apis.io/openweb/openapi/openweb-sso-api-openapi.yml
 - filename: openweb-token-api-openapi.yml
   format: yaml
   label: OpenWeb Token API
   slug: openweb-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/openapi/openweb-token-api-openapi.yml
+  url: https://artifacts.apis.io/openweb/openapi/openweb-token-api-openapi.yml
 auth_types:
 - http
 - jwt
@@ -108,7 +108,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://developers.openweb.com/docs/authentication + https://developers.openweb.com/reference/post_v1-publisher-auth\ndocs: https://developers.openweb.com/docs/getting-started\nsummary:\n  types: [http, jwt, sso]\n  api_key_in: [body]\n  token_endpoint: https://api.openweb.com/v1/publisher/auth\nschemes:\n- name: PublisherApiToken\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: >-\n    Server-to-server Publisher API auth. POST spot_id + apikey (the Export/API\n    key from Admin Panel > Settings > Authentication Tokens) to\n    https://api.openweb.com/v1/publisher/auth to mint a short-lived JWT, then send\n    it as a Bearer token on subsequent Publisher API calls.\n  token_endpoint: https://api.openweb.com/v1/publisher/auth\n  credentials:\n    spot_id: Unique OpenWeb identifier for your property (Spot ID).\n    apikey: Export/API key generated in the OpenWeb Admin Panel.\n- name: SSO\n  type: sso\n  description:\
   \ >-\n    End-user authentication for embedded Conversation. A codeA/codeB handshake:\n    the OpenWeb SDK issues an SSO session id (codeA) which the publisher backend\n    exchanges (with its secret access_token + user primary_key/user_name) for\n    codeB to complete login.\n  docs: https://developers.openweb.com/docs/single-sign-on\n- name: SSOWithJWT\n  type: openIdConnect\n  description: >-\n    Third-party SSO: authenticate users via an external identity provider by\n    passing a signed JWT (ssoWithJwt).\n  docs: https://developers.openweb.com/docs/implement-third-party-single-sign-on\n- name: WebhookClientSecretJWT\n  type: oauth2\n  scheme: client_secret_jwt\n  description: >-\n    Notification webhook verification. Supports an x-openweb-notification-event-webhook-token\n    header (partner_secret_token) or RFC 7523 client_secret_jwt (HS256, ~600s\n    expiry) to authenticate delivered events.\n  docs: https://developers.openweb.com/docs/notification-webhook\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/authentication/openweb-authentication.yml
+source_yaml_url: https://artifacts.apis.io/openweb/authentication/openweb-authentication.yml
 summary_line: http/jwt/sso · 4 schemes
 tags:
 - Company

@@ -5,49 +5,49 @@ api_specs:
   label: FlightAware Airports API
   slug: flightaware-airports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/openapi/flightaware-airports-api-openapi.yml
+  url: https://artifacts.apis.io/flightaware/openapi/flightaware-airports-api-openapi.yml
 - filename: flightaware-alerts-api-openapi.yml
   format: yaml
   label: FlightAware Alerts API
   slug: flightaware-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/openapi/flightaware-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/flightaware/openapi/flightaware-alerts-api-openapi.yml
 - filename: flightaware-flights-api-openapi.yml
   format: yaml
   label: FlightAware Flights API
   slug: flightaware-flights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/openapi/flightaware-flights-api-openapi.yml
+  url: https://artifacts.apis.io/flightaware/openapi/flightaware-flights-api-openapi.yml
 - filename: flightaware-foresight-api-openapi.yml
   format: yaml
   label: FlightAware Foresight API
   slug: flightaware-foresight-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/openapi/flightaware-foresight-api-openapi.yml
+  url: https://artifacts.apis.io/flightaware/openapi/flightaware-foresight-api-openapi.yml
 - filename: flightaware-history-api-openapi.yml
   format: yaml
   label: FlightAware History API
   slug: flightaware-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/openapi/flightaware-history-api-openapi.yml
+  url: https://artifacts.apis.io/flightaware/openapi/flightaware-history-api-openapi.yml
 - filename: flightaware-miscellaneous-api-openapi.yml
   format: yaml
   label: FlightAware Miscellaneous API
   slug: flightaware-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/openapi/flightaware-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/flightaware/openapi/flightaware-miscellaneous-api-openapi.yml
 - filename: flightaware-operators-api-openapi.yml
   format: yaml
   label: FlightAware Operators API
   slug: flightaware-operators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/openapi/flightaware-operators-api-openapi.yml
+  url: https://artifacts.apis.io/flightaware/openapi/flightaware-operators-api-openapi.yml
 - filename: flightaware-account-api-openapi.yml
   format: yaml
   label: FlightAware Account API
   slug: flightaware-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/openapi/flightaware-account-api-openapi.yml
+  url: https://artifacts.apis.io/flightaware/openapi/flightaware-account-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -88,7 +88,7 @@ source_filename: flightaware-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-10'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.flightaware.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 10:22:31 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: aeroapi.flightaware.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 16 15:23:27 2027 GMT\n  hsts: null\ndomains:\n- domain: flightaware.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/security/flightaware-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/flightaware/security/flightaware-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Aviation

@@ -5,31 +5,31 @@ api_specs:
   label: K6 Load tests API
   slug: k6-load-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/k6/refs/heads/main/openapi/k6-load-tests-api-openapi.yml
+  url: https://artifacts.apis.io/k6/openapi/k6-load-tests-api-openapi.yml
 - filename: k6-load-zones-api-openapi.yml
   format: yaml
   label: K6 Load zones API
   slug: k6-load-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/k6/refs/heads/main/openapi/k6-load-zones-api-openapi.yml
+  url: https://artifacts.apis.io/k6/openapi/k6-load-zones-api-openapi.yml
 - filename: k6-projects-api-openapi.yml
   format: yaml
   label: K6 Projects API
   slug: k6-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/k6/refs/heads/main/openapi/k6-projects-api-openapi.yml
+  url: https://artifacts.apis.io/k6/openapi/k6-projects-api-openapi.yml
 - filename: k6-schedules-api-openapi.yml
   format: yaml
   label: K6 Schedules API
   slug: k6-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/k6/refs/heads/main/openapi/k6-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/k6/openapi/k6-schedules-api-openapi.yml
 - filename: k6-test-runs-api-openapi.yml
   format: yaml
   label: K6 Test runs API
   slug: k6-test-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/k6/refs/heads/main/openapi/k6-test-runs-api-openapi.yml
+  url: https://artifacts.apis.io/k6/openapi/k6-test-runs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: k6-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: k6.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 23:59:59 2026 GMT\n  hsts: false\n- host: api.k6.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: k6.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/k6/refs/heads/main/security/k6-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/k6/security/k6-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Load Testing

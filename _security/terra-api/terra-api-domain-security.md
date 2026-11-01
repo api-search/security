@@ -5,61 +5,61 @@ api_specs:
   label: Terra Activity API
   slug: terra-api-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-activity-api-openapi.yml
+  url: https://artifacts.apis.io/terra-api/openapi/terra-api-activity-api-openapi.yml
 - filename: terra-api-athlete-api-openapi.yml
   format: yaml
   label: Terra Athlete API
   slug: terra-api-athlete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-athlete-api-openapi.yml
+  url: https://artifacts.apis.io/terra-api/openapi/terra-api-athlete-api-openapi.yml
 - filename: terra-api-authentication-api-openapi.yml
   format: yaml
   label: Terra Authentication API
   slug: terra-api-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/terra-api/openapi/terra-api-authentication-api-openapi.yml
 - filename: terra-api-body-api-openapi.yml
   format: yaml
   label: Terra Body API
   slug: terra-api-body-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-body-api-openapi.yml
+  url: https://artifacts.apis.io/terra-api/openapi/terra-api-body-api-openapi.yml
 - filename: terra-api-daily-api-openapi.yml
   format: yaml
   label: Terra Daily API
   slug: terra-api-daily-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-daily-api-openapi.yml
+  url: https://artifacts.apis.io/terra-api/openapi/terra-api-daily-api-openapi.yml
 - filename: terra-api-integrations-api-openapi.yml
   format: yaml
   label: Terra Integrations API
   slug: terra-api-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/terra-api/openapi/terra-api-integrations-api-openapi.yml
 - filename: terra-api-menstruation-api-openapi.yml
   format: yaml
   label: Terra Menstruation API
   slug: terra-api-menstruation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-menstruation-api-openapi.yml
+  url: https://artifacts.apis.io/terra-api/openapi/terra-api-menstruation-api-openapi.yml
 - filename: terra-api-nutrition-api-openapi.yml
   format: yaml
   label: Terra Nutrition API
   slug: terra-api-nutrition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-nutrition-api-openapi.yml
+  url: https://artifacts.apis.io/terra-api/openapi/terra-api-nutrition-api-openapi.yml
 - filename: terra-api-sleep-api-openapi.yml
   format: yaml
   label: Terra Sleep API
   slug: terra-api-sleep-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-sleep-api-openapi.yml
+  url: https://artifacts.apis.io/terra-api/openapi/terra-api-sleep-api-openapi.yml
 - filename: terra-api-users-api-openapi.yml
   format: yaml
   label: Terra Users API
   slug: terra-api-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-users-api-openapi.yml
+  url: https://artifacts.apis.io/terra-api/openapi/terra-api-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -100,7 +100,7 @@ source_filename: terra-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tryterra.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 09:33:32 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.tryterra.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 05:29:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.tryterra.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 04:31:31 2026 GMT\n  hsts: null\ndomains:\n- domain: tryterra.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/security/terra-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/terra-api/security/terra-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Wearables

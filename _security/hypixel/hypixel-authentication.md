@@ -8,31 +8,31 @@ api_specs:
   label: Hypixel Housing API
   slug: hypixel-housing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypixel/refs/heads/main/openapi/hypixel-housing-api-openapi.yml
+  url: https://artifacts.apis.io/hypixel/openapi/hypixel-housing-api-openapi.yml
 - filename: hypixel-other-api-openapi.yml
   format: yaml
   label: Hypixel Other API
   slug: hypixel-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypixel/refs/heads/main/openapi/hypixel-other-api-openapi.yml
+  url: https://artifacts.apis.io/hypixel/openapi/hypixel-other-api-openapi.yml
 - filename: hypixel-player-data-api-openapi.yml
   format: yaml
   label: Hypixel Player Data API
   slug: hypixel-player-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypixel/refs/heads/main/openapi/hypixel-player-data-api-openapi.yml
+  url: https://artifacts.apis.io/hypixel/openapi/hypixel-player-data-api-openapi.yml
 - filename: hypixel-resources-api-openapi.yml
   format: yaml
   label: Hypixel Resources API
   slug: hypixel-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypixel/refs/heads/main/openapi/hypixel-resources-api-openapi.yml
+  url: https://artifacts.apis.io/hypixel/openapi/hypixel-resources-api-openapi.yml
 - filename: hypixel-skyblock-api-openapi.yml
   format: yaml
   label: Hypixel SkyBlock API
   slug: hypixel-skyblock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypixel/refs/heads/main/openapi/hypixel-skyblock-api-openapi.yml
+  url: https://artifacts.apis.io/hypixel/openapi/hypixel-skyblock-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -61,7 +61,7 @@ source_filename: hypixel-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/hypixel-public-api-openapi.json, openapi/hypixel-public-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKey\n  type: apiKey\n  in: header\n  parameter: API-Key\n  description: Obtained via the [Hypixel Developer Dashboard](https://developer.hypixel.net)\n    when creating an application. You can also request higher limits for production applications\n    in this dashboard.\n  sources:\n  - openapi/hypixel-public-api-openapi.json\n  - openapi/hypixel-public-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hypixel/refs/heads/main/authentication/hypixel-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hypixel/authentication/hypixel-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Gaming

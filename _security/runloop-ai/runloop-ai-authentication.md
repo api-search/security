@@ -7,145 +7,145 @@ api_specs:
   label: Runloop Agents API
   slug: runloop-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-agents-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-agents-api-openapi.yml
 - filename: runloop-ai-axons-api-openapi.yml
   format: yaml
   label: Runloop Axons API
   slug: runloop-ai-axons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-axons-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-axons-api-openapi.yml
 - filename: runloop-ai-benchmark-api-openapi.yml
   format: yaml
   label: Runloop Benchmark API
   slug: runloop-ai-benchmark-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-benchmark-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-benchmark-api-openapi.yml
 - filename: runloop-ai-blueprint-api-openapi.yml
   format: yaml
   label: Runloop Blueprint API
   slug: runloop-ai-blueprint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-blueprint-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-blueprint-api-openapi.yml
 - filename: runloop-ai-blueprint-lifecycle-api-openapi.yml
   format: yaml
   label: Runloop Blueprint-Lifecycle API
   slug: runloop-ai-blueprint-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-blueprint-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-blueprint-lifecycle-api-openapi.yml
 - filename: runloop-ai-blueprint-observabilitytools-api-openapi.yml
   format: yaml
   label: Runloop Blueprint-ObservabilityTools API
   slug: runloop-ai-blueprint-observabilitytools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-blueprint-observabilitytools-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-blueprint-observabilitytools-api-openapi.yml
 - filename: runloop-ai-devbox-api-openapi.yml
   format: yaml
   label: Runloop Devbox API
   slug: runloop-ai-devbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-devbox-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-devbox-api-openapi.yml
 - filename: runloop-ai-devbox-filetools-api-openapi.yml
   format: yaml
   label: Runloop Devbox-FileTools API
   slug: runloop-ai-devbox-filetools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-devbox-filetools-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-devbox-filetools-api-openapi.yml
 - filename: runloop-ai-devbox-lifecycle-api-openapi.yml
   format: yaml
   label: Runloop Devbox-Lifecycle API
   slug: runloop-ai-devbox-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-devbox-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-devbox-lifecycle-api-openapi.yml
 - filename: runloop-ai-devbox-networktools-api-openapi.yml
   format: yaml
   label: Runloop Devbox-NetworkTools API
   slug: runloop-ai-devbox-networktools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-devbox-networktools-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-devbox-networktools-api-openapi.yml
 - filename: runloop-ai-devbox-observabilitytools-api-openapi.yml
   format: yaml
   label: Runloop Devbox-ObservabilityTools API
   slug: runloop-ai-devbox-observabilitytools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-devbox-observabilitytools-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-devbox-observabilitytools-api-openapi.yml
 - filename: runloop-ai-devbox-persistencetools-api-openapi.yml
   format: yaml
   label: Runloop Devbox-PersistenceTools API
   slug: runloop-ai-devbox-persistencetools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-devbox-persistencetools-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-devbox-persistencetools-api-openapi.yml
 - filename: runloop-ai-devbox-shelltools-api-openapi.yml
   format: yaml
   label: Runloop Devbox-ShellTools API
   slug: runloop-ai-devbox-shelltools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-devbox-shelltools-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-devbox-shelltools-api-openapi.yml
 - filename: runloop-ai-executions-api-openapi.yml
   format: yaml
   label: Runloop Executions API
   slug: runloop-ai-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-executions-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-executions-api-openapi.yml
 - filename: runloop-ai-gateway-configs-api-openapi.yml
   format: yaml
   label: Runloop Gateway Configs API
   slug: runloop-ai-gateway-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-gateway-configs-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-gateway-configs-api-openapi.yml
 - filename: runloop-ai-mcp-configs-api-openapi.yml
   format: yaml
   label: Runloop MCP Configs API
   slug: runloop-ai-mcp-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-mcp-configs-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-mcp-configs-api-openapi.yml
 - filename: runloop-ai-network-policies-api-openapi.yml
   format: yaml
   label: Runloop Network Policies API
   slug: runloop-ai-network-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-network-policies-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-network-policies-api-openapi.yml
 - filename: runloop-ai-objects-api-openapi.yml
   format: yaml
   label: Runloop Objects API
   slug: runloop-ai-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-objects-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-objects-api-openapi.yml
 - filename: runloop-ai-restricted-keys-api-openapi.yml
   format: yaml
   label: Runloop Restricted Keys API
   slug: runloop-ai-restricted-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-restricted-keys-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-restricted-keys-api-openapi.yml
 - filename: runloop-ai-scenario-api-openapi.yml
   format: yaml
   label: Runloop Scenario API
   slug: runloop-ai-scenario-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-scenario-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-scenario-api-openapi.yml
 - filename: runloop-ai-scenarioscorer-api-openapi.yml
   format: yaml
   label: Runloop ScenarioScorer API
   slug: runloop-ai-scenarioscorer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-scenarioscorer-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-scenarioscorer-api-openapi.yml
 - filename: runloop-ai-secrets-api-openapi.yml
   format: yaml
   label: Runloop Secrets API
   slug: runloop-ai-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-secrets-api-openapi.yml
 - filename: runloop-ai-streaming-api-openapi.yml
   format: yaml
   label: Runloop Streaming API
   slug: runloop-ai-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-streaming-api-openapi.yml
 - filename: runloop-ai-api-keys-api-openapi.yml
   format: yaml
   label: Runloop API Keys API
   slug: runloop-ai-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-api-keys-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -185,7 +185,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/runloop-agents-api-openapi.yml, openapi/runloop-api-openapi.yml, openapi/runloop-apikeys-api-openapi.yml,\n  openapi/runloop-axons-api-openapi.yml, openapi/runloop-benchmark-api-openapi.yml, openapi/runloop-blueprint-api-openapi.yml,\n  openapi/runloop-devbox-api-openapi.yml, openapi/runloop-executions-api-openapi.yml, openapi/runloop-gateway-configs-api-openapi.yml,\n  openapi/runloop-mcp-configs-api-openapi.yml, openapi/runloop-network-policies-api-openapi.yml,\n  openapi/runloop-objects-api-openapi.yml ...\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/runloop-agents-api-openapi.yml\n  - openapi/runloop-api-openapi.yml\n  - openapi/runloop-apikeys-api-openapi.yml\n  - openapi/runloop-axons-api-openapi.yml\n  - openapi/runloop-benchmark-api-openapi.yml\n  - openapi/runloop-blueprint-api-openapi.yml\n  - openapi/runloop-devbox-api-openapi.yml\n  -\
   \ openapi/runloop-executions-api-openapi.yml\n  - openapi/runloop-gateway-configs-api-openapi.yml\n  - openapi/runloop-mcp-configs-api-openapi.yml\n  - openapi/runloop-network-policies-api-openapi.yml\n  - openapi/runloop-objects-api-openapi.yml\n  - openapi/runloop-scenario-api-openapi.yml\n  - openapi/runloop-secrets-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/authentication/runloop-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/runloop-ai/authentication/runloop-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

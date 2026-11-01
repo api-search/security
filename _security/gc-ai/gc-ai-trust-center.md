@@ -5,55 +5,55 @@ api_specs:
   label: GC AI Chat API
   slug: gc-ai-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/openapi/gc-ai-chat-api-openapi.yml
+  url: https://artifacts.apis.io/gc-ai/openapi/gc-ai-chat-api-openapi.yml
 - filename: gc-ai-files-api-openapi.yml
   format: yaml
   label: GC AI Files API
   slug: gc-ai-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/openapi/gc-ai-files-api-openapi.yml
+  url: https://artifacts.apis.io/gc-ai/openapi/gc-ai-files-api-openapi.yml
 - filename: gc-ai-folders-api-openapi.yml
   format: yaml
   label: GC AI Folders API
   slug: gc-ai-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/openapi/gc-ai-folders-api-openapi.yml
+  url: https://artifacts.apis.io/gc-ai/openapi/gc-ai-folders-api-openapi.yml
 - filename: gc-ai-playbooks-api-openapi.yml
   format: yaml
   label: GC AI Playbooks API
   slug: gc-ai-playbooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/openapi/gc-ai-playbooks-api-openapi.yml
+  url: https://artifacts.apis.io/gc-ai/openapi/gc-ai-playbooks-api-openapi.yml
 - filename: gc-ai-profiles-api-openapi.yml
   format: yaml
   label: GC AI Profiles API
   slug: gc-ai-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/openapi/gc-ai-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/gc-ai/openapi/gc-ai-profiles-api-openapi.yml
 - filename: gc-ai-projects-api-openapi.yml
   format: yaml
   label: GC AI Projects API
   slug: gc-ai-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/openapi/gc-ai-projects-api-openapi.yml
+  url: https://artifacts.apis.io/gc-ai/openapi/gc-ai-projects-api-openapi.yml
 - filename: gc-ai-skills-api-openapi.yml
   format: yaml
   label: GC AI Skills API
   slug: gc-ai-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/openapi/gc-ai-skills-api-openapi.yml
+  url: https://artifacts.apis.io/gc-ai/openapi/gc-ai-skills-api-openapi.yml
 - filename: gc-ai-usage-api-openapi.yml
   format: yaml
   label: GC AI Usage API
   slug: gc-ai-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/openapi/gc-ai-usage-api-openapi.yml
+  url: https://artifacts.apis.io/gc-ai/openapi/gc-ai-usage-api-openapi.yml
 - filename: gc-ai-utility-api-openapi.yml
   format: yaml
   label: GC AI Utility API
   slug: gc-ai-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/openapi/gc-ai-utility-api-openapi.yml
+  url: https://artifacts.apis.io/gc-ai/openapi/gc-ai-utility-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2 Type 1
@@ -73,7 +73,7 @@ source_filename: gc-ai-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nprobe: true\nsource: https://trust.gc.ai/\nurl: https://trust.gc.ai/\ncertifications:\n- SOC 2 Type 1\n- SOC 2 Type 2\n- SOC 3\n- GDPR\ncompliance_docs:\n- Data Processing Agreement\n- Subprocessors\nevidence:\n- source: https://trust.gc.ai/\n  keywords:\n  - soc 2 type 1\n  - soc 2 type 2\n  - soc 3\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/security/gc-ai-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/gc-ai/security/gc-ai-trust-center.yml
 summary_line: SOC 2 Type 1, SOC 2 Type 2, SOC 3, GDPR
 tags:
 - Company

@@ -5,25 +5,25 @@ api_specs:
   label: Penn Medicine Bulk Data API
   slug: penn-medicine-bulk-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/penn-medicine/refs/heads/main/openapi/penn-medicine-bulk-data-api-openapi.yml
+  url: https://artifacts.apis.io/penn-medicine/openapi/penn-medicine-bulk-data-api-openapi.yml
 - filename: penn-medicine-patient-access-api-openapi.yml
   format: yaml
   label: Penn Medicine Patient Access API
   slug: penn-medicine-patient-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/penn-medicine/refs/heads/main/openapi/penn-medicine-patient-access-api-openapi.yml
+  url: https://artifacts.apis.io/penn-medicine/openapi/penn-medicine-patient-access-api-openapi.yml
 - filename: penn-medicine-provider-directory-api-openapi.yml
   format: yaml
   label: Penn Medicine Provider Directory API
   slug: penn-medicine-provider-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/penn-medicine/refs/heads/main/openapi/penn-medicine-provider-directory-api-openapi.yml
+  url: https://artifacts.apis.io/penn-medicine/openapi/penn-medicine-provider-directory-api-openapi.yml
 - filename: penn-medicine-smart-api-openapi.yml
   format: yaml
   label: Penn Medicine SMART API
   slug: penn-medicine-smart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/penn-medicine/refs/heads/main/openapi/penn-medicine-smart-api-openapi.yml
+  url: https://artifacts.apis.io/penn-medicine/openapi/penn-medicine-smart-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: penn-medicine-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.pennmedicine.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: ssproxy.pennhealth.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 17 23:59:59 2026 GMT\n  hsts: false\n- host: secure.mypennmedicine.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 27 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 16070400\ndomains:\n- domain: pennmedicine.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: pennhealth.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/penn-medicine/refs/heads/main/security/penn-medicine-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/penn-medicine/security/penn-medicine-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Healthcare

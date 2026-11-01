@@ -29,7 +29,7 @@ source_filename: boosted-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://www.boosted.ai/api\ndocs: https://www.boosted.ai/api\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  oauth2_flows: []\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter_name: x-api-key\n  description: >-\n    Boosted.ai (Alfa) API requests authenticate with an API key passed in the\n    x-api-key request header, as shown in the provider's published Python\n    example (headers = {\"x-api-key\": API_KEY}). Keys are issued per client.\n  sources: [https://www.boosted.ai/api]\nnotes: >-\n  No public OpenAPI/Swagger specification is published for the Boosted.ai API;\n  the auth model is captured from the provider's documented API code sample.\n  The application host (alfa-3.boosted.ai) additionally fronts an OIDC/OAuth\n  login surface for the web app, but the developer API itself is API-key based.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boosted/refs/heads/main/authentication/boosted-authentication.yml
+source_yaml_url: https://artifacts.apis.io/boosted/authentication/boosted-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

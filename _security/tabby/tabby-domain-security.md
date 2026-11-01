@@ -5,25 +5,25 @@ api_specs:
   label: Tabby Checkout API
   slug: tabby-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/openapi/tabby-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/tabby/openapi/tabby-checkout-api-openapi.yml
 - filename: tabby-disputes-api-openapi.yml
   format: yaml
   label: Tabby Disputes API
   slug: tabby-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/openapi/tabby-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/tabby/openapi/tabby-disputes-api-openapi.yml
 - filename: tabby-payments-api-openapi.yml
   format: yaml
   label: Tabby Payments API
   slug: tabby-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/openapi/tabby-payments-api-openapi.yml
+  url: https://artifacts.apis.io/tabby/openapi/tabby-payments-api-openapi.yml
 - filename: tabby-webhooks-api-openapi.yml
   format: yaml
   label: Tabby Webhooks API
   slug: tabby-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/openapi/tabby-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/tabby/openapi/tabby-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -70,7 +70,7 @@ source_filename: tabby-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tabby.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.tabby.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 08:36:23 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.tabby.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: tabby.ai\n  dnssec: true\n  caa:\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/security/tabby-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tabby/security/tabby-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Buy Now Pay Later

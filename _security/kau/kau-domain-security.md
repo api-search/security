@@ -5,7 +5,7 @@ api_specs:
   label: King Abdulaziz University Students Data API
   slug: kau-studentsdata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kau/refs/heads/main/openapi/kau-studentsdata-api-openapi.yml
+  url: https://artifacts.apis.io/kau/openapi/kau-studentsdata-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -38,7 +38,7 @@ source_filename: kau-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.kau.edu.sa\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: kau.edu.sa\n  dnssec: true\n  caa:\n  - 0 issue \"Digicert.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kau/refs/heads/main/security/kau-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kau/security/kau-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - University

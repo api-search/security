@@ -25,7 +25,7 @@ source_filename: catalogodatos-gub-uy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: catalogodatos.gub.uy\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate\n    in certificate chain (_ssl.c:1082)'\n  hsts: null\ndomains:\n- domain: gub.uy\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/catalogodatos-gub-uy/refs/heads/main/security/catalogodatos-gub-uy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/catalogodatos-gub-uy/security/catalogodatos-gub-uy-domain-security.yml
 summary_line: DNSSEC
 tags:
 - Open Data

@@ -5,7 +5,7 @@ api_specs:
   label: RealSelf Lead Sharing
   slug: realself-lead-sharing
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/asyncapi/realself-lead-sharing-asyncapi.yml
+  url: https://artifacts.apis.io/realself/asyncapi/realself-lead-sharing-asyncapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +40,7 @@ source_filename: realself-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.realself.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar 22 20:00:19 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.realself.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 12 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: realself.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/security/realself-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/realself/security/realself-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company

@@ -39,7 +39,7 @@ source_filename: 4basecare-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.4basecare.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 10:31:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: galens.4basecare.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  7 08:14:48 2026 GMT\n  hsts: false\n- host: api.4basecare.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 25 08:14:43 2026 GMT\n  hsts: false\n  note: 'Private application backend for the Galens single-page app; not in apis.yml\n    hosts so the probe script did not reach it. Probed by hand 2026-09-05 with the\n    same openssl/HEAD method.'\ndomains:\n- domain: 4basecare.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/4basecare/refs/heads/main/security/4basecare-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/4basecare/security/4basecare-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Precision Oncology

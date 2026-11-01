@@ -8,13 +8,13 @@ api_specs:
   label: Pathmind Model Upload API
   slug: skymind-model-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skymind/refs/heads/main/openapi/skymind-model-upload-api-openapi.yml
+  url: https://artifacts.apis.io/skymind/openapi/skymind-model-upload-api-openapi.yml
 - filename: skymind-projects-api-openapi.yml
   format: yaml
   label: Pathmind Projects API
   slug: skymind-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skymind/refs/heads/main/openapi/skymind-projects-api-openapi.yml
+  url: https://artifacts.apis.io/skymind/openapi/skymind-projects-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -41,7 +41,7 @@ source_filename: skymind-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-05'\nmethod: derived\nsource: openapi/skymind-pathmind-openapi-original.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: api_key\n  type: apiKey\n  in: header\n  parameter: X-PM-API-TOKEN\n  sources:\n  - openapi/skymind-pathmind-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skymind/refs/heads/main/authentication/skymind-authentication.yml
+source_yaml_url: https://artifacts.apis.io/skymind/authentication/skymind-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

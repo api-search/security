@@ -7,61 +7,61 @@ api_specs:
   label: Aalto University Buildings API
   slug: aalto-buildings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/openapi/aalto-buildings-api-openapi.yml
+  url: https://artifacts.apis.io/aalto/openapi/aalto-buildings-api-openapi.yml
 - filename: aalto-groups-api-openapi.yml
   format: yaml
   label: Aalto University Groups API
   slug: aalto-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/openapi/aalto-groups-api-openapi.yml
+  url: https://artifacts.apis.io/aalto/openapi/aalto-groups-api-openapi.yml
 - filename: aalto-organisational-data-api-openapi.yml
   format: yaml
   label: Aalto University Organisational Data API
   slug: aalto-organisational-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/openapi/aalto-organisational-data-api-openapi.yml
+  url: https://artifacts.apis.io/aalto/openapi/aalto-organisational-data-api-openapi.yml
 - filename: aalto-profiles-api-openapi.yml
   format: yaml
   label: Aalto University Profiles API
   slug: aalto-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/openapi/aalto-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/aalto/openapi/aalto-profiles-api-openapi.yml
 - filename: aalto-projects-api-openapi.yml
   format: yaml
   label: Aalto University Projects API
   slug: aalto-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/openapi/aalto-projects-api-openapi.yml
+  url: https://artifacts.apis.io/aalto/openapi/aalto-projects-api-openapi.yml
 - filename: aalto-research-outputs-api-openapi.yml
   format: yaml
   label: Aalto University Research Outputs API
   slug: aalto-research-outputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/openapi/aalto-research-outputs-api-openapi.yml
+  url: https://artifacts.apis.io/aalto/openapi/aalto-research-outputs-api-openapi.yml
 - filename: aalto-research-outputs-enhanced-api-openapi.yml
   format: yaml
   label: Aalto University Research Outputs Enhanced API
   slug: aalto-research-outputs-enhanced-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/openapi/aalto-research-outputs-enhanced-api-openapi.yml
+  url: https://artifacts.apis.io/aalto/openapi/aalto-research-outputs-enhanced-api-openapi.yml
 - filename: aalto-reservations-api-openapi.yml
   format: yaml
   label: Aalto University Reservations API
   slug: aalto-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/openapi/aalto-reservations-api-openapi.yml
-- filename: aalto-sisu-courses-api-openapi.yml
+  url: https://artifacts.apis.io/aalto/openapi/aalto-reservations-api-openapi.yml
+- filename: aalto-courseunitrealisations-deprecated-api-openapi.yml
   format: yaml
-  label: Aalto University SISU Courses API
-  slug: aalto-sisu-courses-api
+  label: Aalto University CourseUnitRealisations (Deprecated) API
+  slug: aalto-courseunitrealisations-deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/openapi/aalto-sisu-courses-api-openapi.yml
+  url: https://artifacts.apis.io/aalto/openapi/aalto-courseunitrealisations-deprecated-api-openapi.yml
 - filename: aalto-cost-centers-api-openapi.yml
   format: yaml
   label: Aalto University Cost Centers API
   slug: aalto-cost-centers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/openapi/aalto-cost-centers-api-openapi.yml
+  url: https://artifacts.apis.io/aalto/openapi/aalto-cost-centers-api-openapi.yml
 auth_types: []
 description: 'How Aalto University''s institution-operated API surfaces authenticate. Two distinct regimes are in play: every Aalto API Gateway product is API-key gated and returns 403 to an anonymous caller, while the Aaltodoc repository''s OAI-PMH and DSpace REST read surfaces are fully anonymous. Separately, Aalto operates its own Shibboleth SAML 2.0 identity provider for browser-based sign-in to campus services, which is federation infrastructure rather than an API credential.'
 kind: authentication
@@ -85,7 +85,7 @@ source_yaml: "---\nname: Aalto University — Authentication\ndescription: >-\n 
   \n  - id: gateway-undeclared\n    type: apiKey\n    label: Gateway-enforced key, not declared in the contract\n    in: unknown\n    applies_to:\n      - Aalto facilities api\n      - Aalto people profile api\n    note: >-\n      Neither document declares a securityScheme, but both declared servers reject an anonymous call\n      at the 3scale edge. The enforcement is real and the contract does not describe it — a genuine\n      contract gap, recorded here rather than invented into the spec.\n    method: probed\n    source: https://facilities.api.aalto.fi/api/aalto/facilities/v1/buildings\n\n  - id: anonymous-read\n    type: none\n    label: Anonymous public read\n    applies_to:\n      - Aaltodoc OAI-PMH 2.0 (https://aaltodoc.aalto.fi/server/oai/request)\n      - Aaltodoc DSpace 9.2 REST API (https://aaltodoc.aalto.fi/server/api)\n      - Linked Open Aalto Data SPARQL (http://ldf.fi/loa/sparql, POST only)\n    note: >-\n      These are the only Aalto surfaces that answer a credential-free\
   \ request with data. Everything on\n      the API Gateway does not.\n    method: probed\n    source: https://aaltodoc.aalto.fi/server/oai/request?verb=Identify\n\n  - id: shibboleth-saml\n    type: saml\n    label: Shibboleth SAML 2.0 identity provider (browser SSO, not an API credential)\n    entity_id: https://idp.aalto.fi/idp/shibboleth\n    scope: aalto.fi\n    federation: Haka (Finnish higher-education federation), onward to eduGAIN\n    method: probed\n    source: https://idp.aalto.fi/idp/shibboleth\n\nanonymous_probe_results:\n  - url: https://facilities.api.aalto.fi/api/aalto/facilities/v1/buildings\n    status: 403\n    body: Authentication parameters missing\n  - url: https://course.api.aalto.fi/api/sisu/v1/courseunits\n    status: 403\n  - url: https://research.api.aalto.fi/api/acris/v1/research-outputs\n    status: 403\n  - url: https://aaltopeople.api.aalto.fi/api/aaltopeople/v1/profiles\n    status: 403\n  - url: https://api.aalto.fi/api/dw_projects/schools\n    status: 403\n\
   \  - url: https://aaltodoc.aalto.fi/server/oai/request?verb=Identify\n    status: 200\n  - url: https://aaltodoc.aalto.fi/server/api\n    status: 200\n\noauth: false\nscopes: none_declared\nnotes: >-\n  No OAuth 2.0 authorization server, no declared scopes, and no machine-readable onboarding document\n  were found on any Aalto surface. The gateway's key issuance is a human web flow behind an Aalto\n  account, so third-party access to the five gateway products is not self-service for the public.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/authentication/aalto-authentication.yml
+source_yaml_url: https://artifacts.apis.io/aalto/authentication/aalto-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

@@ -8,7 +8,7 @@ api_specs:
   label: Altinity Auth API
   slug: altinity-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altinity/refs/heads/main/openapi/altinity-auth-api-openapi.yml
+  url: https://artifacts.apis.io/altinity/openapi/altinity-auth-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -50,7 +50,7 @@ source_filename: altinity-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: openapi/altinity-acm-openapi-original.json\ndocs: https://docs.altinity.com/altinitycloud/administratorguide/acm-api-quickstart/\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - auth0-sso\n  notes: >-\n    Primary auth is an ACM API key (or login token) passed in the X-Auth-Token\n    header. Single sign-on is available via Auth0 oAuth token exchange\n    (GetSingleAuth / DoSingleAuth). 2FA is supported via LoginVerify.\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-Auth-Token\n  key_types:\n  - ACM API key (My Account > API Access; default 24h expiry, adjustable)\n  - Login token (POST /login)\n  - Anywhere API token (single per account)\n  sources:\n  - openapi/altinity-acm-openapi-original.json\n- name: Auth0SSO\n  type: oauth2\n  provider: Auth0\n  flow: token-exchange\n  operations:\n  - GetSingleAuth\n  - DoSingleAuth\n  sources:\n  - docs.altinity.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/altinity/refs/heads/main/authentication/altinity-authentication.yml
+source_yaml_url: https://artifacts.apis.io/altinity/authentication/altinity-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company

@@ -5,13 +5,13 @@ api_specs:
   label: Xoserve Shipper API
   slug: xoserve-shipper-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/openapi/xoserve-shipper-api-openapi.yml
+  url: https://artifacts.apis.io/xoserve/openapi/xoserve-shipper-api-openapi.yml
 - filename: xoserve-supplier-api-openapi.yml
   format: yaml
   label: Xoserve Supplier API
   slug: xoserve-supplier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/openapi/xoserve-supplier-api-openapi.yml
+  url: https://artifacts.apis.io/xoserve/openapi/xoserve-supplier-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: xoserve-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.xoserve.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 30 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: discoveryapiportal.correla.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  5 15:31:58 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: discoveryapi.correla.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  5 15:31:42 2026 GMT\n  hsts: null\ndomains:\n- domain: xoserve.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: correla.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/security/xoserve-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/xoserve/security/xoserve-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Energy

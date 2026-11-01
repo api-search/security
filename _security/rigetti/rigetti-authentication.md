@@ -7,55 +7,55 @@ api_specs:
   label: Rigetti Computing Account API
   slug: rigetti-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/openapi/rigetti-account-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti/openapi/rigetti-account-api-openapi.yml
 - filename: rigetti-authentication-api-openapi.yml
   format: yaml
   label: Rigetti Computing Authentication API
   slug: rigetti-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/openapi/rigetti-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti/openapi/rigetti-authentication-api-openapi.yml
 - filename: rigetti-clientapplications-api-openapi.yml
   format: yaml
   label: Rigetti Computing Client Applications API
   slug: rigetti-clientapplications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/openapi/rigetti-clientapplications-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti/openapi/rigetti-clientapplications-api-openapi.yml
 - filename: rigetti-endpoints-api-openapi.yml
   format: yaml
   label: Rigetti Computing Endpoints API
   slug: rigetti-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/openapi/rigetti-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti/openapi/rigetti-endpoints-api-openapi.yml
 - filename: rigetti-engagements-api-openapi.yml
   format: yaml
   label: Rigetti Computing Engagements API
   slug: rigetti-engagements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/openapi/rigetti-engagements-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti/openapi/rigetti-engagements-api-openapi.yml
 - filename: rigetti-quantumprocessors-api-openapi.yml
   format: yaml
   label: Rigetti Computing Quantum Processors API
   slug: rigetti-quantumprocessors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/openapi/rigetti-quantumprocessors-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti/openapi/rigetti-quantumprocessors-api-openapi.yml
 - filename: rigetti-reservations-api-openapi.yml
   format: yaml
   label: Rigetti Computing Reservations API
   slug: rigetti-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/openapi/rigetti-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti/openapi/rigetti-reservations-api-openapi.yml
 - filename: rigetti-rigetti-qcs-api-api-openapi.yml
   format: yaml
   label: Rigetti Computing Rigetti QCS API
   slug: rigetti-rigetti-qcs-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/openapi/rigetti-rigetti-qcs-api-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti/openapi/rigetti-rigetti-qcs-api-api-openapi.yml
 - filename: rigetti-health-check-api-openapi.yml
   format: yaml
   label: Rigetti Computing Health Check API
   slug: rigetti-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/openapi/rigetti-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti/openapi/rigetti-health-check-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -83,7 +83,7 @@ source_filename: rigetti-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/rigetti-qcs-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: JWTBearer\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: A JSON web token with `sub` or `uid` claim, as well as `groups` claim. If the\n    token is absent, invalid or expired, the client will receive a 401 response. If the token\n    is valid, the server uses the claims to authorize the request, which may result in a 403\n    response.\n  sources:\n  - openapi/rigetti-qcs-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/authentication/rigetti-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rigetti/authentication/rigetti-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Quantum Computing

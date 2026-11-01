@@ -9,163 +9,163 @@ api_specs:
   label: Affise Admin Adcosts API
   slug: affise-admin-adcosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-adcosts-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-admin-adcosts-api-openapi.yml
 - filename: affise-admin-advertisers-api-openapi.yml
   format: yaml
   label: Affise Admin Advertisers API
   slug: affise-admin-advertisers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-advertisers-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-admin-advertisers-api-openapi.yml
 - filename: affise-admin-affiliates-api-openapi.yml
   format: yaml
   label: Affise Admin Affiliates API
   slug: affise-admin-affiliates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-affiliates-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-admin-affiliates-api-openapi.yml
 - filename: affise-admin-automation-api-openapi.yml
   format: yaml
   label: Affise Admin Automation API
   slug: affise-admin-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-automation-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-admin-automation-api-openapi.yml
 - filename: affise-admin-billing-api-openapi.yml
   format: yaml
   label: Affise Admin Billing API
   slug: affise-admin-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-billing-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-admin-billing-api-openapi.yml
 - filename: affise-admin-conversions-api-openapi.yml
   format: yaml
   label: Affise Admin Conversions API
   slug: affise-admin-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-admin-conversions-api-openapi.yml
 - filename: affise-admin-offers-api-openapi.yml
   format: yaml
   label: Affise Admin Offers API
   slug: affise-admin-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-offers-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-admin-offers-api-openapi.yml
 - filename: affise-admin-other-api-openapi.yml
   format: yaml
   label: Affise Admin Other API
   slug: affise-admin-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-other-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-admin-other-api-openapi.yml
 - filename: affise-admin-payments-api-openapi.yml
   format: yaml
   label: Affise Admin Payments API
   slug: affise-admin-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-payments-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-admin-payments-api-openapi.yml
 - filename: affise-admin-presets-api-openapi.yml
   format: yaml
   label: Affise Admin Presets API
   slug: affise-admin-presets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-presets-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-admin-presets-api-openapi.yml
 - filename: affise-admin-smartlinks-api-openapi.yml
   format: yaml
   label: Affise Admin Smartlinks API
   slug: affise-admin-smartlinks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-smartlinks-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-admin-smartlinks-api-openapi.yml
 - filename: affise-admin-stats-api-openapi.yml
   format: yaml
   label: Affise Admin Stats API
   slug: affise-admin-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-stats-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-admin-stats-api-openapi.yml
 - filename: affise-admin-tickets-api-openapi.yml
   format: yaml
   label: Affise Admin Tickets API
   slug: affise-admin-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-admin-tickets-api-openapi.yml
 - filename: affise-admin-users-api-openapi.yml
   format: yaml
   label: Affise Admin Users API
   slug: affise-admin-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-users-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-admin-users-api-openapi.yml
 - filename: affise-advertiser-auth-api-openapi.yml
   format: yaml
   label: Affise Advertiser Auth API
   slug: affise-advertiser-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-advertiser-auth-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-advertiser-auth-api-openapi.yml
 - filename: affise-advertiser-offers-api-openapi.yml
   format: yaml
   label: Affise Advertiser Offers API
   slug: affise-advertiser-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-advertiser-offers-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-advertiser-offers-api-openapi.yml
 - filename: affise-advertiser-stats-api-openapi.yml
   format: yaml
   label: Affise Advertiser Stats API
   slug: affise-advertiser-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-advertiser-stats-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-advertiser-stats-api-openapi.yml
 - filename: affise-affiliate-conversions-api-openapi.yml
   format: yaml
   label: Affise Affiliate Conversions API
   slug: affise-affiliate-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-affiliate-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-affiliate-conversions-api-openapi.yml
 - filename: affise-affiliate-news-api-openapi.yml
   format: yaml
   label: Affise Affiliate News API
   slug: affise-affiliate-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-affiliate-news-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-affiliate-news-api-openapi.yml
 - filename: affise-affiliate-offers-api-openapi.yml
   format: yaml
   label: Affise Affiliate Offers API
   slug: affise-affiliate-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-affiliate-offers-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-affiliate-offers-api-openapi.yml
 - filename: affise-affiliate-other-api-openapi.yml
   format: yaml
   label: Affise Affiliate Other API
   slug: affise-affiliate-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-affiliate-other-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-affiliate-other-api-openapi.yml
 - filename: affise-affiliate-pixels-api-openapi.yml
   format: yaml
   label: Affise Affiliate Pixels API
   slug: affise-affiliate-pixels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-affiliate-pixels-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-affiliate-pixels-api-openapi.yml
 - filename: affise-affiliate-postbacks-api-openapi.yml
   format: yaml
   label: Affise Affiliate Postbacks API
   slug: affise-affiliate-postbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-affiliate-postbacks-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-affiliate-postbacks-api-openapi.yml
 - filename: affise-affiliate-profile-api-openapi.yml
   format: yaml
   label: Affise Affiliate Profile API
   slug: affise-affiliate-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-affiliate-profile-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-affiliate-profile-api-openapi.yml
 - filename: affise-affiliate-smartlinks-api-openapi.yml
   format: yaml
   label: Affise Affiliate Smartlinks API
   slug: affise-affiliate-smartlinks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-affiliate-smartlinks-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-affiliate-smartlinks-api-openapi.yml
 - filename: affise-affiliate-stats-api-openapi.yml
   format: yaml
   label: Affise Affiliate Stats API
   slug: affise-affiliate-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-affiliate-stats-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-affiliate-stats-api-openapi.yml
 - filename: affise-resources-api-openapi.yml
   format: yaml
   label: Affise Resources API
   slug: affise-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-resources-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-resources-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -208,7 +208,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://help-ce
   \ — Change partner api key'\n  - name: Advertiser session\n    audience: advertiser\n    where_issued: 'POST /3.1/advertiser/login'\n    notes: >-\n      The advertiser surface exposes an explicit login/registration pair\n      (/3.1/advertiser/login, /3.1/advertiser/registration) alongside the key model.\nauthorization_model:\n  style: role-based\n  description: >-\n    Affise has no OAuth 2.0 scope surface. Authorization is decided by the platform\n    role attached to the user the key belongs to (General manager, Affiliate manager,\n    Account manager, affiliate, advertiser) plus per-user permissions.\n  permissions_endpoint: 'POST /3.1/user/{id}/permissions — Update user permissions'\n  docs: https://help-center.affise.com/en/articles/6463226-user-permissions\n  verification_endpoint: 'GET /3.1/user/me — used by the first-party MCP server to validate a key'\nhost_model:\n  style: per-tenant subdomain\n  pattern: https://api-<company>.affise.com\n  demo: https://api-demo.affise.com\n\
   \  note: >-\n    Every Affise customer gets its own API host. The base URL is read from\n    Settings > Settings > Tracking domains > Default URL, and a custom API domain can\n    be configured. https://api.affise.com serves the shared API reference; it is not a\n    tenant data host.\n  docs: https://help-center.affise.com/en/articles/6593074-set-up-a-custom-api-domain-a-domain-for-the-admin-panel-or-the-affiliate-panel\nfailures:\n  - status: 401\n    meaning: Token is necessary — API key missing, invalid, or aimed at the wrong data center.\n  - status: 403\n    meaning: Auth Denied — key is valid but the role lacks permission for the resource.\ngaps:\n  - no_security_schemes_in_openapi: >-\n      components.securitySchemes is absent; add an apiKey scheme (in: header, name: API-Key)\n      and apply it with a top-level `security` block.\n  - no_oauth: No OAuth 2.0 / OIDC authorization-code surface is published.\n  - no_scopes: No delegated scope vocabulary; third-party access requires\
   \ sharing a full user key.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/authentication/affise-authentication.yml
+source_yaml_url: https://artifacts.apis.io/affise/authentication/affise-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Affiliate Marketing

@@ -5,31 +5,31 @@ api_specs:
   label: Wadifa Info Agenda API
   slug: wadifa-info-agenda-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wadifa-info/refs/heads/main/openapi/wadifa-info-agenda-api-openapi.yml
+  url: https://artifacts.apis.io/wadifa-info/openapi/wadifa-info-agenda-api-openapi.yml
 - filename: wadifa-info-concours-api-openapi.yml
   format: yaml
   label: Wadifa Info Concours API
   slug: wadifa-info-concours-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wadifa-info/refs/heads/main/openapi/wadifa-info-concours-api-openapi.yml
+  url: https://artifacts.apis.io/wadifa-info/openapi/wadifa-info-concours-api-openapi.yml
 - filename: wadifa-info-jours-feries-api-openapi.yml
   format: yaml
   label: Wadifa Info Jours Feries API
   slug: wadifa-info-jours-feries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wadifa-info/refs/heads/main/openapi/wadifa-info-jours-feries-api-openapi.yml
+  url: https://artifacts.apis.io/wadifa-info/openapi/wadifa-info-jours-feries-api-openapi.yml
 - filename: wadifa-info-salaires-api-openapi.yml
   format: yaml
   label: Wadifa Info Salaires API
   slug: wadifa-info-salaires-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wadifa-info/refs/heads/main/openapi/wadifa-info-salaires-api-openapi.yml
+  url: https://artifacts.apis.io/wadifa-info/openapi/wadifa-info-salaires-api-openapi.yml
 - filename: wadifa-info-vacances-scolaires-api-openapi.yml
   format: yaml
   label: Wadifa Info Vacances Scolaires API
   slug: wadifa-info-vacances-scolaires-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wadifa-info/refs/heads/main/openapi/wadifa-info-vacances-scolaires-api-openapi.yml
+  url: https://artifacts.apis.io/wadifa-info/openapi/wadifa-info-vacances-scolaires-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: wadifa-info-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.wadifa-info.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 17 02:53:04 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: wadifa-info.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wadifa-info/refs/heads/main/security/wadifa-info-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wadifa-info/security/wadifa-info-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

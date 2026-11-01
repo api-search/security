@@ -24,7 +24,7 @@ source_filename: independence-health-group-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.independencehealthgroup.com\n  https: false\ndomains:\n- domain: independencehealthgroup.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/independence-health-group/refs/heads/main/security/independence-health-group-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/independence-health-group/security/independence-health-group-domain-security.yml
 summary_line: DMARC
 tags:
 - Healthcare

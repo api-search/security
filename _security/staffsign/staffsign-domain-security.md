@@ -26,7 +26,7 @@ source_filename: staffsign-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: staffsign.de\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 02:17:41 2026 GMT\n  hsts: false\ndomains:\n- domain: staffsign.de\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/staffsign/refs/heads/main/security/staffsign-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/staffsign/security/staffsign-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Public APIs

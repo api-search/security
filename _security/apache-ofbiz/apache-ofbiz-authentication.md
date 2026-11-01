@@ -7,13 +7,13 @@ api_specs:
   label: Apache OFBiz Authentication API
   slug: apache-ofbiz-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ofbiz/refs/heads/main/openapi/apache-ofbiz-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ofbiz/openapi/apache-ofbiz-authentication-api-openapi.yml
 - filename: apache-ofbiz-services-api-openapi.yml
   format: yaml
   label: Apache OFBiz Services API
   slug: apache-ofbiz-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ofbiz/refs/heads/main/openapi/apache-ofbiz-services-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ofbiz/openapi/apache-ofbiz-services-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -47,7 +47,7 @@ source_filename: apache-ofbiz-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/apache-ofbiz-rest-api-openapi.yaml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic Auth used only for token acquisition at /auth/token.\n  sources:\n  - openapi/apache-ofbiz-rest-api-openapi.yaml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: JWT Bearer token obtained from /auth/token. Required for all service endpoints.\n  sources:\n  - openapi/apache-ofbiz-rest-api-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-ofbiz/refs/heads/main/authentication/apache-ofbiz-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apache-ofbiz/authentication/apache-ofbiz-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - ERP

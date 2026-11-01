@@ -25,7 +25,7 @@ source_filename: wunderite-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://docs.wunderite.com/quickstart\ndocs: https://docs.wunderite.com/quickstart\nsummary:\n  types: [http]\n  http_schemes: [bearer]\n  oauth2_flows: []\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    API key passed as a bearer token — \"Authorization: Bearer {token}\" with\n    \"Accept: application/json\". Keys are generated in Wunderite under\n    Account > Settings > Integrations; docs recommend creating a dedicated\n    API User for programmatic access.\nnotes:\n- No OAuth 2.0 or OpenID Connect surface documented.\n- No public OpenAPI spec published; profile captured from the docs quickstart.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wunderite/refs/heads/main/authentication/wunderite-authentication.yml
+source_yaml_url: https://artifacts.apis.io/wunderite/authentication/wunderite-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

@@ -13,19 +13,19 @@ api_specs:
   label: FreeAgent Contacts API
   slug: freeagent-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freeagent/refs/heads/main/openapi/freeagent-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/freeagent/openapi/freeagent-contacts-api-openapi.yml
 - filename: freeagent-invoices-api-openapi.yml
   format: yaml
   label: FreeAgent Invoices API
   slug: freeagent-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freeagent/refs/heads/main/openapi/freeagent-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/freeagent/openapi/freeagent-invoices-api-openapi.yml
 - filename: freeagent-bank-accounts-api-openapi.yml
   format: yaml
   label: FreeAgent Bank Accounts API
   slug: freeagent-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freeagent/refs/heads/main/openapi/freeagent-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/freeagent/openapi/freeagent-bank-accounts-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -59,7 +59,7 @@ source_filename: freeagent-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/freeagent-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.freeagent.com/v2/approve_app\n    tokenUrl: https://api.freeagent.com/v2/token_endpoint\n    scopes: 0\n  description: |-\n    OAuth 2.0 authorization code flow. Access tokens valid for ~1 hour;\n    refresh tokens used to obtain new access tokens.\n  sources:\n  - openapi/freeagent-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freeagent/refs/heads/main/authentication/freeagent-authentication.yml
+source_yaml_url: https://artifacts.apis.io/freeagent/authentication/freeagent-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Accounting

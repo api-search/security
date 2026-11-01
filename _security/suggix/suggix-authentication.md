@@ -7,37 +7,37 @@ api_specs:
   label: Suggix Indicators API
   slug: suggix-indicators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suggix/refs/heads/main/openapi/suggix-indicators-api-openapi.yml
+  url: https://artifacts.apis.io/suggix/openapi/suggix-indicators-api-openapi.yml
 - filename: suggix-industries-api-openapi.yml
   format: yaml
   label: Suggix Industries API
   slug: suggix-industries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suggix/refs/heads/main/openapi/suggix-industries-api-openapi.yml
+  url: https://artifacts.apis.io/suggix/openapi/suggix-industries-api-openapi.yml
 - filename: suggix-regions-api-openapi.yml
   format: yaml
   label: Suggix Regions API
   slug: suggix-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suggix/refs/heads/main/openapi/suggix-regions-api-openapi.yml
+  url: https://artifacts.apis.io/suggix/openapi/suggix-regions-api-openapi.yml
 - filename: suggix-search-api-openapi.yml
   format: yaml
   label: Suggix Search API
   slug: suggix-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suggix/refs/heads/main/openapi/suggix-search-api-openapi.yml
+  url: https://artifacts.apis.io/suggix/openapi/suggix-search-api-openapi.yml
 - filename: suggix-sources-api-openapi.yml
   format: yaml
   label: Suggix Sources API
   slug: suggix-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suggix/refs/heads/main/openapi/suggix-sources-api-openapi.yml
+  url: https://artifacts.apis.io/suggix/openapi/suggix-sources-api-openapi.yml
 - filename: suggix-statistics-api-openapi.yml
   format: yaml
   label: Suggix Statistics API
   slug: suggix-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suggix/refs/heads/main/openapi/suggix-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/suggix/openapi/suggix-statistics-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -63,7 +63,7 @@ source_filename: suggix-authentication.yml
 source_heading: Authentication Profile
 source_url: https://help.suggix.com/mcp/claude-code
 source_yaml: "generated: '2026-10-14'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://help.suggix.com/mcp/claude-code\nsources:\n- https://help.suggix.com/mcp/claude-code\n- https://help.suggix.com/mcp/codex\n- https://help.suggix.com/mcp/cursor\nschemes:\n- type: http-bearer\n  name: MCP API Key\n  evidence: 'Set the MCP API key in your shell environment: export SUGGIX_MCP_API_KEY = \"sgx_mcp_your_key\"'\n  location: header\n  header: Authorization\n  how_to_obtain: Create or revoke a workspace MCP API key in Developer Settings and set it as the environment variable SUGGIX_MCP_API_KEY.\ndocs: https://help.suggix.com/mcp/claude-code\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/suggix/refs/heads/main/authentication/suggix-authentication.yml
+source_yaml_url: https://artifacts.apis.io/suggix/authentication/suggix-authentication.yml
 summary_line: 1 scheme
 tags:
 - Software-as-a-Service

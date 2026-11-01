@@ -5,25 +5,25 @@ api_specs:
   label: Beeceptor Endpoint Settings API
   slug: beeceptor-endpoint-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeceptor/refs/heads/main/openapi/beeceptor-endpoint-settings-api-openapi.yml
+  url: https://artifacts.apis.io/beeceptor/openapi/beeceptor-endpoint-settings-api-openapi.yml
 - filename: beeceptor-mock-rules-api-openapi.yml
   format: yaml
   label: Beeceptor Mock Rules API
   slug: beeceptor-mock-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeceptor/refs/heads/main/openapi/beeceptor-mock-rules-api-openapi.yml
+  url: https://artifacts.apis.io/beeceptor/openapi/beeceptor-mock-rules-api-openapi.yml
 - filename: beeceptor-request-history-api-openapi.yml
   format: yaml
   label: Beeceptor Request History API
   slug: beeceptor-request-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeceptor/refs/heads/main/openapi/beeceptor-request-history-api-openapi.yml
+  url: https://artifacts.apis.io/beeceptor/openapi/beeceptor-request-history-api-openapi.yml
 - filename: beeceptor-state-store-api-openapi.yml
   format: yaml
   label: Beeceptor State Store API
   slug: beeceptor-state-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeceptor/refs/heads/main/openapi/beeceptor-state-store-api-openapi.yml
+  url: https://artifacts.apis.io/beeceptor/openapi/beeceptor-state-store-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,7 +62,7 @@ source_filename: beeceptor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: beeceptor.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 08:09:58 2026 GMT\n  hsts: false\n- host: app.beeceptor.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 23:59:59 2026 GMT\n  hsts: false\n- host: api.beeceptor.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 10:37:56 2026 GMT\n  hsts: null\ndomains:\n- domain: beeceptor.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beeceptor/refs/heads/main/security/beeceptor-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/beeceptor/security/beeceptor-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - API Mocking

@@ -7,7 +7,7 @@ api_specs:
   label: Turquoise Health Consumer Pricing API
   slug: turquoise-health-consumer-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/openapi/turquoise-health-consumer-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/turquoise-health/openapi/turquoise-health-consumer-pricing-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -46,7 +46,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: openapi/turquoi
   \ Bearer token to send on every request.\n    token_type: Always \"Bearer\".\n    expires_in: Seconds until expiry (documented example 3600).\n  expiry_note: >-\n    The docs state expires_in in the example is 3600 (one hour) but also advise that\n    \"access tokens are valid for a week\" and recommend caching rather than minting per\n    request. Treat expires_in on the live response as authoritative and refresh\n    proactively rather than waiting for a 401.\n  on_expiry: Requests receive HTTP 401 Unauthorized; repeat the token request to obtain a new one.\n\nrequest_header:\n  name: Authorization\n  format: 'Bearer <token>'\n  applies_to:\n  - https://api.turquoise.health (every v3 request)\n  - https://consumer-mcp.turquoise.health/mcp (every MCP request)\n\ninteractive_alternative:\n  applies_to: MCP only\n  description: >-\n    MCP-capable interactive clients (Claude Code, Claude Desktop, Codex, Cursor) sign in\n    through the browser with a Turquoise account, so there is no token\
   \ to manage; the\n    server then scopes calls to that user's organization.\n\ndiscovery:\n  authorization_server_metadata:\n    url: https://consumer-mcp.turquoise.health/.well-known/oauth-authorization-server\n    spec: RFC 8414\n    status: 200\n    file: well-known/turquoise-health-oauth-authorization-server.json\n  protected_resource_metadata:\n    url: https://consumer-mcp.turquoise.health/.well-known/oauth-protected-resource/mcp\n    spec: RFC 9728\n    status: 200\n    file: well-known/turquoise-health-oauth-protected-resource.json\n\ncredential_acquisition:\n  test: https://turquoise.health/signup/?signupContext=api\n  test_note: Free sign-up returns test credentials in a demo account.\n  production: https://turquoise.health/request-a-demo\n  production_note: >-\n    Production access is required to send real PHI to the personalized-estimates endpoint\n    and mandates a signed Business Associate Agreement (BAA) with Turquoise.\n\nauth_errors:\n- status: 401\n  meaning: Missing,\
   \ expired, or wrong-audience token.\n- status: 403\n  meaning: Token is valid but not granted the correct scope.\n- code: unauthorized\n  surface: personalized-estimates\n- code: forbidden\n  surface: personalized-estimates\n- code: insufficient_scope\n  surface: v3\n- code: authorization_unavailable\n  surface: personalized-estimates\n\nsee_also:\n- scopes/turquoise-health-scopes.yml\n- conventions/turquoise-health-conventions.yml\n- well-known/turquoise-health-well-known.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/authentication/turquoise-health-authentication.yml
+source_yaml_url: https://artifacts.apis.io/turquoise-health/authentication/turquoise-health-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Healthcare

@@ -7,25 +7,25 @@ api_specs:
   label: Email on Acid Authentication API
   slug: email-on-acid-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/email-on-acid/refs/heads/main/openapi/email-on-acid-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/email-on-acid/openapi/email-on-acid-authentication-api-openapi.yml
 - filename: email-on-acid-email-clients-api-openapi.yml
   format: yaml
   label: Email on Acid Email Clients API
   slug: email-on-acid-email-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/email-on-acid/refs/heads/main/openapi/email-on-acid-email-clients-api-openapi.yml
+  url: https://artifacts.apis.io/email-on-acid/openapi/email-on-acid-email-clients-api-openapi.yml
 - filename: email-on-acid-email-testing-api-openapi.yml
   format: yaml
   label: Email on Acid Email Testing API
   slug: email-on-acid-email-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/email-on-acid/refs/heads/main/openapi/email-on-acid-email-testing-api-openapi.yml
+  url: https://artifacts.apis.io/email-on-acid/openapi/email-on-acid-email-testing-api-openapi.yml
 - filename: email-on-acid-spam-testing-api-openapi.yml
   format: yaml
   label: Email on Acid Spam Testing API
   slug: email-on-acid-spam-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/email-on-acid/refs/heads/main/openapi/email-on-acid-spam-testing-api-openapi.yml
+  url: https://artifacts.apis.io/email-on-acid/openapi/email-on-acid-spam-testing-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: email-on-acid-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/email-on-acid-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic Authentication using `<api_key>:<account_password>` base64-encoded.\n    Use \"sandbox:sandbox\" credentials for sandbox testing.\n  sources:\n  - openapi/email-on-acid-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/email-on-acid/refs/heads/main/authentication/email-on-acid-authentication.yml
+source_yaml_url: https://artifacts.apis.io/email-on-acid/authentication/email-on-acid-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Email Testing

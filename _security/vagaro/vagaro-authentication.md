@@ -7,37 +7,37 @@ api_specs:
   label: Vagaro Appointments API
   slug: vagaro-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/openapi/vagaro-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/vagaro/openapi/vagaro-appointments-api-openapi.yml
 - filename: vagaro-authentication-api-openapi.yml
   format: yaml
   label: Vagaro Authentication API
   slug: vagaro-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/openapi/vagaro-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/vagaro/openapi/vagaro-authentication-api-openapi.yml
 - filename: vagaro-customers-api-openapi.yml
   format: yaml
   label: Vagaro Customers API
   slug: vagaro-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/openapi/vagaro-customers-api-openapi.yml
+  url: https://artifacts.apis.io/vagaro/openapi/vagaro-customers-api-openapi.yml
 - filename: vagaro-employee-management-api-openapi.yml
   format: yaml
   label: Vagaro Employee Management API
   slug: vagaro-employee-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/openapi/vagaro-employee-management-api-openapi.yml
+  url: https://artifacts.apis.io/vagaro/openapi/vagaro-employee-management-api-openapi.yml
 - filename: vagaro-employees-api-openapi.yml
   format: yaml
   label: Vagaro Employees API
   slug: vagaro-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/openapi/vagaro-employees-api-openapi.yml
+  url: https://artifacts.apis.io/vagaro/openapi/vagaro-employees-api-openapi.yml
 - filename: vagaro-locations-api-openapi.yml
   format: yaml
   label: Vagaro Locations API
   slug: vagaro-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/openapi/vagaro-locations-api-openapi.yml
+  url: https://artifacts.apis.io/vagaro/openapi/vagaro-locations-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +64,7 @@ source_filename: vagaro-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/vagaro-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: token issued by /merchants/generate-access-token\n  sources:\n  - openapi/vagaro-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/authentication/vagaro-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vagaro/authentication/vagaro-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Salon

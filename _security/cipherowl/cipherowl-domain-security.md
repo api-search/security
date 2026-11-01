@@ -5,19 +5,19 @@ api_specs:
   label: CipherOwl Onchain Service API
   slug: cipherowl-onchain-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/openapi/cipherowl-onchain-service-api-openapi.yml
+  url: https://artifacts.apis.io/cipherowl/openapi/cipherowl-onchain-service-api-openapi.yml
 - filename: cipherowl-private-data-api-api-openapi.yml
   format: yaml
   label: CipherOwl Private Data API
   slug: cipherowl-private-data-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/openapi/cipherowl-private-data-api-api-openapi.yml
+  url: https://artifacts.apis.io/cipherowl/openapi/cipherowl-private-data-api-api-openapi.yml
 - filename: cipherowl-srr-api-api-openapi.yml
   format: yaml
   label: CipherOwl SRR API
   slug: cipherowl-srr-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/openapi/cipherowl-srr-api-api-openapi.yml
+  url: https://artifacts.apis.io/cipherowl/openapi/cipherowl-srr-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: cipherowl-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: svc.cipherowl.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 21:46:14 2026 GMT\n  hsts: null\ndomains:\n- domain: cipherowl.ai\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/security/cipherowl-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cipherowl/security/cipherowl-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Blockchain

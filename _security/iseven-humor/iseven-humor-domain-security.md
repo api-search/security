@@ -26,7 +26,7 @@ source_filename: iseven-humor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: isevenapi.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 21:47:47 2026 GMT\n  hsts: false\ndomains:\n- domain: isevenapi.xyz\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iseven-humor/refs/heads/main/security/iseven-humor-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/iseven-humor/security/iseven-humor-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Public APIs

@@ -8,49 +8,49 @@ api_specs:
   label: Discogs Database API
   slug: discogs-database-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-database-api-openapi.yml
+  url: https://artifacts.apis.io/discogs/openapi/discogs-database-api-openapi.yml
 - filename: discogs-image-api-openapi.yml
   format: yaml
   label: Discogs Image API
   slug: discogs-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-image-api-openapi.yml
+  url: https://artifacts.apis.io/discogs/openapi/discogs-image-api-openapi.yml
 - filename: discogs-inventory-management-api-openapi.yml
   format: yaml
   label: Discogs Inventory Management API
   slug: discogs-inventory-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-inventory-management-api-openapi.yml
+  url: https://artifacts.apis.io/discogs/openapi/discogs-inventory-management-api-openapi.yml
 - filename: discogs-marketplace-api-openapi.yml
   format: yaml
   label: Discogs Marketplace API
   slug: discogs-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/discogs/openapi/discogs-marketplace-api-openapi.yml
 - filename: discogs-user-collection-api-openapi.yml
   format: yaml
   label: Discogs User Collection API
   slug: discogs-user-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-user-collection-api-openapi.yml
+  url: https://artifacts.apis.io/discogs/openapi/discogs-user-collection-api-openapi.yml
 - filename: discogs-user-identity-api-openapi.yml
   format: yaml
   label: Discogs User Identity API
   slug: discogs-user-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-user-identity-api-openapi.yml
+  url: https://artifacts.apis.io/discogs/openapi/discogs-user-identity-api-openapi.yml
 - filename: discogs-user-lists-api-openapi.yml
   format: yaml
   label: Discogs User Lists API
   slug: discogs-user-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-user-lists-api-openapi.yml
+  url: https://artifacts.apis.io/discogs/openapi/discogs-user-lists-api-openapi.yml
 - filename: discogs-user-wantlist-api-openapi.yml
   format: yaml
   label: Discogs User Wantlist API
   slug: discogs-user-wantlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-user-wantlist-api-openapi.yml
+  url: https://artifacts.apis.io/discogs/openapi/discogs-user-wantlist-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -90,7 +90,7 @@ source_filename: discogs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/discogs-openapi-original.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: DiscogsToken\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Discogs personal access token in header: ''Discogs token={token}''.'\n  sources:\n  - openapi/discogs-openapi-original.yml\n- name: OAuth1\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://discogs.com/oauth/authorize\n    tokenUrl: https://api.discogs.com/oauth/access_token\n    scopes: 2\n  description: OAuth 1.0a flow modeled as OAuth2 for tooling. Required for write actions on\n    behalf of other users.\n  sources:\n  - openapi/discogs-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/authentication/discogs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/discogs/authentication/discogs-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Music

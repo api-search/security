@@ -30,7 +30,7 @@ source_filename: bayzat-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bayzat.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 10:37:10 2026 GMT\n  hsts: false\ndomains:\n- domain: bayzat.com\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bayzat/refs/heads/main/security/bayzat-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bayzat/security/bayzat-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Human Resources

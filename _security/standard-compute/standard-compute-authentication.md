@@ -7,49 +7,49 @@ api_specs:
   label: Standard Compute Completions API
   slug: standard-compute-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/standard-compute/refs/heads/main/openapi/standard-compute-completions-api-openapi.yml
+  url: https://artifacts.apis.io/standard-compute/openapi/standard-compute-completions-api-openapi.yml
 - filename: standard-compute-healthz-api-openapi.yml
   format: yaml
   label: Standard Compute Healthz API
   slug: standard-compute-healthz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/standard-compute/refs/heads/main/openapi/standard-compute-healthz-api-openapi.yml
+  url: https://artifacts.apis.io/standard-compute/openapi/standard-compute-healthz-api-openapi.yml
 - filename: standard-compute-install-ps1-api-openapi.yml
   format: yaml
   label: Standard Compute Install.ps1 API
   slug: standard-compute-install-ps1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/standard-compute/refs/heads/main/openapi/standard-compute-install-ps1-api-openapi.yml
+  url: https://artifacts.apis.io/standard-compute/openapi/standard-compute-install-ps1-api-openapi.yml
 - filename: standard-compute-install-sh-api-openapi.yml
   format: yaml
   label: Standard Compute Install.sh API
   slug: standard-compute-install-sh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/standard-compute/refs/heads/main/openapi/standard-compute-install-sh-api-openapi.yml
+  url: https://artifacts.apis.io/standard-compute/openapi/standard-compute-install-sh-api-openapi.yml
 - filename: standard-compute-messages-api-openapi.yml
   format: yaml
   label: Standard Compute Messages API
   slug: standard-compute-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/standard-compute/refs/heads/main/openapi/standard-compute-messages-api-openapi.yml
+  url: https://artifacts.apis.io/standard-compute/openapi/standard-compute-messages-api-openapi.yml
 - filename: standard-compute-models-api-openapi.yml
   format: yaml
   label: Standard Compute Models API
   slug: standard-compute-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/standard-compute/refs/heads/main/openapi/standard-compute-models-api-openapi.yml
+  url: https://artifacts.apis.io/standard-compute/openapi/standard-compute-models-api-openapi.yml
 - filename: standard-compute-responses-api-openapi.yml
   format: yaml
   label: Standard Compute Responses API
   slug: standard-compute-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/standard-compute/refs/heads/main/openapi/standard-compute-responses-api-openapi.yml
+  url: https://artifacts.apis.io/standard-compute/openapi/standard-compute-responses-api-openapi.yml
 - filename: standard-compute-chat-completions-api-openapi.yml
   format: yaml
   label: Standard Compute Chat Completions API
   slug: standard-compute-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/standard-compute/refs/heads/main/openapi/standard-compute-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/standard-compute/openapi/standard-compute-chat-completions-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: searched\nsource: https://standar
   \ (https://standardcompute.com/dashboard)\n    rotation: >-\n      Plaintext key is displayed exactly once at creation; only an encrypted blob\n      and the last four characters are retained afterwards, and the provider states\n      there is no administrative path to recover the plaintext. Rotation therefore\n      means issuing a new key.\n    storage_guidance: >-\n      Docs instruct storing the key in the platform secrets store rather than\n      hardcoding it.\n    applies_to:\n      - POST /v1/chat/completions\n      - POST /v1/completions\n      - POST /v1/responses\n      - POST /v1/messages\n      - POST /v1/messages/count_tokens\nanonymous_operations:\n  - path: /v1/models\n    method: GET\n    note: >-\n      Confirmed unauthenticated on 2026-09-02 (HTTP 200, model list returned). The\n      provider's own status page documents this as the self-service uptime check.\n  - path: /install.sh\n    method: GET\n    note: Setup script, served without authentication (HTTP 200).\n\
   \  - path: /install.ps1\n    method: GET\nalternate_env_conventions:\n  - description: >-\n      OpenAI-compatible agents read the standard OpenAI variables.\n    variables:\n      OPENAI_BASE_URL: https://api.stdcmpt.com/v1\n      OPENAI_API_KEY: \"<Standard Compute key>\"\n      OPENAI_MODEL: standardcompute\n  - description: >-\n      Anthropic-compatible agents (Claude Code) read the Anthropic variables, and\n      the base URL deliberately drops the /v1 suffix because the client appends\n      /v1/messages itself.\n    variables:\n      ANTHROPIC_BASE_URL: https://api.stdcmpt.com\n      ANTHROPIC_API_KEY: \"<Standard Compute key>\"\n    source: https://standardcompute.com/integrations/claude-code\nkey_verification:\n  method: HMAC-SHA256 over the submitted key compared against the stored hash\n  constant_time_compare: true\n  at_rest_encryption: AES-256-GCM, per-account derived key stored separately\n  brute_force_control: failed authentication attempts are rate limited\n  source:\
   \ https://standardcompute.com/security\ntransport:\n  tls_minimum: '1.2'\n  plaintext_http: refused (not redirected or downgraded)\n  profile: Mozilla Intermediate\n  source: https://standardcompute.com/security\nfailure_modes:\n  - status: 401\n    body: '{\"error\": {\"message\": \"Invalid API key\", \"type\": \"invalid_request_error\"}}'\n    observed: '2026-09-02'\n    note: Observed live against POST /v1/chat/completions with no Authorization header.\ngaps:\n  - >-\n    The published OpenAPI (https://api.stdcmpt.com/openapi.json) declares NO\n    components.securitySchemes and no security requirement on any operation, even\n    though every /v1 completion path requires a Bearer key. An agent reading only\n    the spec would believe the API is anonymous. This is captured as a correction\n    in overlays/standard-compute-openapi-overlay.yaml and is the single highest-value\n    fix the provider could make to their contract.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/standard-compute/refs/heads/main/authentication/standard-compute-authentication.yml
+source_yaml_url: https://artifacts.apis.io/standard-compute/authentication/standard-compute-authentication.yml
 summary_line: 1 scheme
 tags:
 - LLM API

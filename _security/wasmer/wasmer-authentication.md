@@ -7,7 +7,7 @@ api_specs:
   label: Wasmer Graph QL API
   slug: wasmer-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wasmer/refs/heads/main/openapi/wasmer-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/wasmer/openapi/wasmer-graph-ql-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -35,7 +35,7 @@ source_filename: wasmer-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/wasmer-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: wap_*\n  description: 'Wasmer API token (wap_* prefix). Create one via `wasmer login` or the dashboard,\n    and supply it as `Authorization: Bearer <token>` or via the WASMER_TOKEN environment variable.'\n  sources:\n  - openapi/wasmer-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wasmer/refs/heads/main/authentication/wasmer-authentication.yml
+source_yaml_url: https://artifacts.apis.io/wasmer/authentication/wasmer-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - WebAssembly

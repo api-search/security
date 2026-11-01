@@ -5,13 +5,13 @@ api_specs:
   label: Shop ICON Storefront API
   slug: icon-aircraft-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/icon-aircraft/refs/heads/main/openapi/icon-aircraft-store-api-openapi.yml
+  url: https://artifacts.apis.io/icon-aircraft/openapi/icon-aircraft-store-api-openapi.yml
 - filename: icon-aircraft-search-api-openapi.yml
   format: yaml
   label: ICON Aircraft Search API
   slug: icon-aircraft-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/icon-aircraft/refs/heads/main/openapi/icon-aircraft-search-api-openapi.yml
+  url: https://artifacts.apis.io/icon-aircraft/openapi/icon-aircraft-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: icon-aircraft-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.iconaircraft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 17:17:29 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: store.iconaircraft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 04:25:33 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\n- host: iconaircraft.myshopify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 15:01:35 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\ndomains:\n- domain: iconaircraft.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: myshopify.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/icon-aircraft/refs/heads/main/security/icon-aircraft-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/icon-aircraft/security/icon-aircraft-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -29,7 +29,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://support.trellis.law/trellis-api\ndocs: https://support.trellis.law/trellis-api\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  oauth2_flows: []\n  notes: >-\n    Trellis authenticates API requests with issued API credentials (key-based),\n    provisioned when a customer begins a free trial via Trellis Sales. The full\n    authentication reference (exact header names, key rotation, temporary\n    client-side access keys vs. backend secret keys) is gated behind API\n    onboarding and is not published on the public developer surface.\nschemes:\n  - name: ApiKey\n    type: apiKey\n    in: header\n    description: >-\n      API-key credentials issued to Trellis API customers. Details provided\n      during onboarding.\n    sources: [https://support.trellis.law/trellis-api]\naccess:\n  model: sales-gated free trial\n  contact: sales@trellis.law\nnotes: >-\n  No OpenAPI/Swagger spec is published publicly, so this\
   \ profile is searched\n  from docs rather than derived from a spec. There is no OAuth2 scope surface\n  documented; scopes/ is intentionally omitted.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trellis/refs/heads/main/authentication/trellis-authentication.yml
+source_yaml_url: https://artifacts.apis.io/trellis/authentication/trellis-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

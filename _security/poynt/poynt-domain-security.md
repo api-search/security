@@ -44,7 +44,7 @@ source_filename: poynt-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.poynt.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 21:53:44 2026 GMT\n  hsts: true\n  hsts_max_age: 3628800\n- host: docs.poynt.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 19:30:19 2026 GMT\n  hsts: false\n- host: services.poynt.net\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep  8 19:43:06 2026 GMT\n  hsts: null\ndomains:\n- domain: poynt.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: poynt.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/poynt/refs/heads/main/security/poynt-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/poynt/security/poynt-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

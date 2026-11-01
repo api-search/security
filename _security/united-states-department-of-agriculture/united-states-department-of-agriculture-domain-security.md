@@ -5,49 +5,49 @@ api_specs:
   label: United States Department of Agriculture Data API
   slug: united-states-department-of-agriculture-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/openapi/united-states-department-of-agriculture-data-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-department-of-agriculture/openapi/united-states-department-of-agriculture-data-api-openapi.yml
 - filename: united-states-department-of-agriculture-foods-api-openapi.yml
   format: yaml
   label: United States Department of Agriculture Foods API
   slug: united-states-department-of-agriculture-foods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/openapi/united-states-department-of-agriculture-foods-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-department-of-agriculture/openapi/united-states-department-of-agriculture-foods-api-openapi.yml
 - filename: united-states-department-of-agriculture-forecasts-api-openapi.yml
   format: yaml
   label: United States Department of Agriculture Forecasts API
   slug: united-states-department-of-agriculture-forecasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/openapi/united-states-department-of-agriculture-forecasts-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-department-of-agriculture/openapi/united-states-department-of-agriculture-forecasts-api-openapi.yml
 - filename: united-states-department-of-agriculture-metadata-api-openapi.yml
   format: yaml
   label: United States Department of Agriculture Metadata API
   slug: united-states-department-of-agriculture-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/openapi/united-states-department-of-agriculture-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-department-of-agriculture/openapi/united-states-department-of-agriculture-metadata-api-openapi.yml
 - filename: united-states-department-of-agriculture-nutrients-api-openapi.yml
   format: yaml
   label: United States Department of Agriculture Nutrients API
   slug: united-states-department-of-agriculture-nutrients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/openapi/united-states-department-of-agriculture-nutrients-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-department-of-agriculture/openapi/united-states-department-of-agriculture-nutrients-api-openapi.yml
 - filename: united-states-department-of-agriculture-stations-api-openapi.yml
   format: yaml
   label: United States Department of Agriculture Stations API
   slug: united-states-department-of-agriculture-stations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/openapi/united-states-department-of-agriculture-stations-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-department-of-agriculture/openapi/united-states-department-of-agriculture-stations-api-openapi.yml
 - filename: united-states-department-of-agriculture-statistics-api-openapi.yml
   format: yaml
   label: United States Department of Agriculture Statistics API
   slug: united-states-department-of-agriculture-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/openapi/united-states-department-of-agriculture-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-department-of-agriculture/openapi/united-states-department-of-agriculture-statistics-api-openapi.yml
 - filename: united-states-department-of-agriculture-survey-data-api-openapi.yml
   format: yaml
   label: United States Department of Agriculture Survey Data API
   slug: united-states-department-of-agriculture-survey-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/openapi/united-states-department-of-agriculture-survey-data-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-department-of-agriculture/openapi/united-states-department-of-agriculture-survey-data-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -93,7 +93,7 @@ source_filename: united-states-department-of-agriculture-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: fdc.nal.usda.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 10 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.nal.usda.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 19:20:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: quickstats.nass.usda.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 14 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: usda.gov\n  dnssec: true\n  caa:\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"digicert.com\"\n  - 0 iodef \"mailto:icam_as_notify@ocio.usda.gov\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/security/united-states-department-of-agriculture-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/united-states-department-of-agriculture/security/united-states-department-of-agriculture-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Federal Government

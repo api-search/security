@@ -7,55 +7,55 @@ api_specs:
   label: Deliveroo Catalogue API
   slug: catalogue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-catalogue-api-openapi.yml
+  url: https://artifacts.apis.io/deliveroo/openapi/deliveroo-catalogue-api-openapi.yml
 - filename: deliveroo-picking-api-openapi.yml
   format: yaml
   label: Deliveroo Picking API
   slug: picking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-picking-api-openapi.yml
+  url: https://artifacts.apis.io/deliveroo/openapi/deliveroo-picking-api-openapi.yml
 - filename: deliveroo-deliveries-api-openapi.yml
   format: yaml
   label: Deliveroo Deliveries API
   slug: deliveroo-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/deliveroo/openapi/deliveroo-deliveries-api-openapi.yml
 - filename: deliveroo-menus-api-openapi.yml
   format: yaml
   label: Deliveroo Menus API
   slug: deliveroo-menus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-menus-api-openapi.yml
+  url: https://artifacts.apis.io/deliveroo/openapi/deliveroo-menus-api-openapi.yml
 - filename: deliveroo-opening-hours-api-openapi.yml
   format: yaml
   label: Deliveroo Opening Hours API
   slug: deliveroo-opening-hours-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-opening-hours-api-openapi.yml
+  url: https://artifacts.apis.io/deliveroo/openapi/deliveroo-opening-hours-api-openapi.yml
 - filename: deliveroo-orders-api-openapi.yml
   format: yaml
   label: Deliveroo Orders API
   slug: deliveroo-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-orders-api-openapi.yml
+  url: https://artifacts.apis.io/deliveroo/openapi/deliveroo-orders-api-openapi.yml
 - filename: deliveroo-pricing-api-openapi.yml
   format: yaml
   label: Deliveroo Pricing API
   slug: deliveroo-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/deliveroo/openapi/deliveroo-pricing-api-openapi.yml
 - filename: deliveroo-quotes-api-openapi.yml
   format: yaml
   label: Deliveroo Quotes API
   slug: deliveroo-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/deliveroo/openapi/deliveroo-quotes-api-openapi.yml
 - filename: deliveroo-sync-status-api-openapi.yml
   format: yaml
   label: Deliveroo Sync Status API
   slug: deliveroo-sync-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-sync-status-api-openapi.yml
+  url: https://artifacts.apis.io/deliveroo/openapi/deliveroo-sync-status-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -88,7 +88,7 @@ source_filename: deliveroo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/deliveroo-catalogue-api-openapi.yml, openapi/deliveroo-menu-api-openapi.yml,\n  openapi/deliveroo-order-api-openapi.yml, openapi/deliveroo-picking-api-openapi.yml, openapi/deliveroo-signature-api-openapi.yml,\n  openapi/deliveroo-site-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: OAuth 2.0 client credentials access token obtained from https://auth.developers.deliveroo.com/oauth2/token.\n    Tokens expire after 5 minutes; no refresh tokens are issued.\n  sources:\n  - openapi/deliveroo-catalogue-api-openapi.yml\n  - openapi/deliveroo-menu-api-openapi.yml\n  - openapi/deliveroo-order-api-openapi.yml\n  - openapi/deliveroo-picking-api-openapi.yml\n  - openapi/deliveroo-signature-api-openapi.yml\n  - openapi/deliveroo-site-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/authentication/deliveroo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/deliveroo/authentication/deliveroo-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Food Delivery

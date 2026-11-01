@@ -5,67 +5,67 @@ api_specs:
   label: Paradox Authentication API
   slug: paradox-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/openapi/paradox-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/paradox/openapi/paradox-authentication-api-openapi.yml
 - filename: paradox-candidate-attributes-api-openapi.yml
   format: yaml
   label: Paradox Candidate Attributes API
   slug: paradox-candidate-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/openapi/paradox-candidate-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/paradox/openapi/paradox-candidate-attributes-api-openapi.yml
 - filename: paradox-candidates-api-openapi.yml
   format: yaml
   label: Paradox Candidates API
   slug: paradox-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/openapi/paradox-candidates-api-openapi.yml
+  url: https://artifacts.apis.io/paradox/openapi/paradox-candidates-api-openapi.yml
 - filename: paradox-company-api-openapi.yml
   format: yaml
   label: Paradox Company API
   slug: paradox-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/openapi/paradox-company-api-openapi.yml
+  url: https://artifacts.apis.io/paradox/openapi/paradox-company-api-openapi.yml
 - filename: paradox-location-areas-api-openapi.yml
   format: yaml
   label: Paradox Location Areas API
   slug: paradox-location-areas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/openapi/paradox-location-areas-api-openapi.yml
+  url: https://artifacts.apis.io/paradox/openapi/paradox-location-areas-api-openapi.yml
 - filename: paradox-location-rooms-api-openapi.yml
   format: yaml
   label: Paradox Location Rooms API
   slug: paradox-location-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/openapi/paradox-location-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/paradox/openapi/paradox-location-rooms-api-openapi.yml
 - filename: paradox-locations-api-openapi.yml
   format: yaml
   label: Paradox Locations API
   slug: paradox-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/openapi/paradox-locations-api-openapi.yml
+  url: https://artifacts.apis.io/paradox/openapi/paradox-locations-api-openapi.yml
 - filename: paradox-reporting-api-openapi.yml
   format: yaml
   label: Paradox Reporting API
   slug: paradox-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/openapi/paradox-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/paradox/openapi/paradox-reporting-api-openapi.yml
 - filename: paradox-scheduling-api-openapi.yml
   format: yaml
   label: Paradox Scheduling API
   slug: paradox-scheduling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/openapi/paradox-scheduling-api-openapi.yml
+  url: https://artifacts.apis.io/paradox/openapi/paradox-scheduling-api-openapi.yml
 - filename: paradox-user-permissions-api-openapi.yml
   format: yaml
   label: Paradox User Permissions API
   slug: paradox-user-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/openapi/paradox-user-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/paradox/openapi/paradox-user-permissions-api-openapi.yml
 - filename: paradox-users-api-openapi.yml
   format: yaml
   label: Paradox Users API
   slug: paradox-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/openapi/paradox-users-api-openapi.yml
+  url: https://artifacts.apis.io/paradox/openapi/paradox-users-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -112,7 +112,7 @@ source_filename: paradox-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: readme.paradox.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 12 21:12:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.paradox.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 14:56:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.paradox.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: paradox.ai\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"www.digicert.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 iodef \"mailto:paradox-devops@workday.com\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/security/paradox-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/paradox/security/paradox-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

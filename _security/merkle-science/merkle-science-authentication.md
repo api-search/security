@@ -8,7 +8,7 @@ api_specs:
   label: Merkle Science VASP Entities API
   slug: merkle-science-vasp-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/merkle-science/refs/heads/main/openapi/merkle-science-vasp-entities-api-openapi.yml
+  url: https://artifacts.apis.io/merkle-science/openapi/merkle-science-vasp-entities-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -35,7 +35,7 @@ source_filename: merkle-science-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/merkle-science-kybb-openapi.yml\ndocs: https://kybb.docs.merklescience.com/reference/authentication\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nnotes: >-\n  The KYBB API authenticates every request with an API key passed in the x-api-key\n  request header. All requests must use HTTPS; unencrypted HTTP calls and requests\n  missing the header are rejected. API keys are issued directly by Merkle Science\n  (there is no self-service key provisioning); contact support@merklescience.com to\n  obtain one. Separate keys apply per environment (sandbox vs production) and, in the\n  Compass product, per workspace.\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/merkle-science-kybb-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/merkle-science/refs/heads/main/authentication/merkle-science-authentication.yml
+source_yaml_url: https://artifacts.apis.io/merkle-science/authentication/merkle-science-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

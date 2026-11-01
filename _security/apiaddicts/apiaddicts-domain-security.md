@@ -5,19 +5,19 @@ api_specs:
   label: apIAddicts Configuration API
   slug: apiaddicts-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiaddicts/refs/heads/main/openapi/apiaddicts-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/apiaddicts/openapi/apiaddicts-configuration-api-openapi.yml
 - filename: apiaddicts-generator-api-openapi.yml
   format: yaml
   label: apIAddicts Generator API
   slug: apiaddicts-generator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiaddicts/refs/heads/main/openapi/apiaddicts-generator-api-openapi.yml
+  url: https://artifacts.apis.io/apiaddicts/openapi/apiaddicts-generator-api-openapi.yml
 - filename: apiaddicts-soapui-api-openapi.yml
   format: yaml
   label: apIAddicts Soap UI API
   slug: apiaddicts-soapui-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiaddicts/refs/heads/main/openapi/apiaddicts-soapui-api-openapi.yml
+  url: https://artifacts.apis.io/apiaddicts/openapi/apiaddicts-soapui-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: apiaddicts-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.apiaddicts.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 30 05:02:46 2026 GMT\n  hsts: false\ndomains:\n- domain: apiaddicts.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apiaddicts/refs/heads/main/security/apiaddicts-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apiaddicts/security/apiaddicts-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

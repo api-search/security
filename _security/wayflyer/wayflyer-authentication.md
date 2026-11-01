@@ -7,67 +7,67 @@ api_specs:
   label: Wayflyer Auth API
   slug: wayflyer-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-auth-api-openapi.yml
+  url: https://artifacts.apis.io/wayflyer/openapi/wayflyer-auth-api-openapi.yml
 - filename: wayflyer-company-details-api-openapi.yml
   format: yaml
   label: Wayflyer Company Details API
   slug: wayflyer-company-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-company-details-api-openapi.yml
+  url: https://artifacts.apis.io/wayflyer/openapi/wayflyer-company-details-api-openapi.yml
 - filename: wayflyer-company-search-api-openapi.yml
   format: yaml
   label: Wayflyer Company Search API
   slug: wayflyer-company-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-company-search-api-openapi.yml
+  url: https://artifacts.apis.io/wayflyer/openapi/wayflyer-company-search-api-openapi.yml
 - filename: wayflyer-cta-api-openapi.yml
   format: yaml
   label: Wayflyer CTA API
   slug: wayflyer-cta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-cta-api-openapi.yml
+  url: https://artifacts.apis.io/wayflyer/openapi/wayflyer-cta-api-openapi.yml
 - filename: wayflyer-data-upload-api-openapi.yml
   format: yaml
   label: Wayflyer Data Upload API
   slug: wayflyer-data-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-data-upload-api-openapi.yml
+  url: https://artifacts.apis.io/wayflyer/openapi/wayflyer-data-upload-api-openapi.yml
 - filename: wayflyer-documents-api-openapi.yml
   format: yaml
   label: Wayflyer Documents API
   slug: wayflyer-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-documents-api-openapi.yml
+  url: https://artifacts.apis.io/wayflyer/openapi/wayflyer-documents-api-openapi.yml
 - filename: wayflyer-handover-api-openapi.yml
   format: yaml
   label: Wayflyer Handover API
   slug: wayflyer-handover-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-handover-api-openapi.yml
+  url: https://artifacts.apis.io/wayflyer/openapi/wayflyer-handover-api-openapi.yml
 - filename: wayflyer-industry-classification-api-openapi.yml
   format: yaml
   label: Wayflyer Industry Classification API
   slug: wayflyer-industry-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-industry-classification-api-openapi.yml
+  url: https://artifacts.apis.io/wayflyer/openapi/wayflyer-industry-classification-api-openapi.yml
 - filename: wayflyer-simulation-api-openapi.yml
   format: yaml
   label: Wayflyer Simulation API
   slug: wayflyer-simulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-simulation-api-openapi.yml
+  url: https://artifacts.apis.io/wayflyer/openapi/wayflyer-simulation-api-openapi.yml
 - filename: wayflyer-tracked-login-api-openapi.yml
   format: yaml
   label: Wayflyer Tracked Login API
   slug: wayflyer-tracked-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-tracked-login-api-openapi.yml
+  url: https://artifacts.apis.io/wayflyer/openapi/wayflyer-tracked-login-api-openapi.yml
 - filename: wayflyer-user-details-api-openapi.yml
   format: yaml
   label: Wayflyer User Details API
   slug: wayflyer-user-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-user-details-api-openapi.yml
+  url: https://artifacts.apis.io/wayflyer/openapi/wayflyer-user-details-api-openapi.yml
 auth_types:
 - http
 description: 'Authentication profile for the Wayflyer Embedded Finance (Hosted Capital) API. Two-tier bearer-JWT model: partners exchange a backend-only client_id/client_secret for a Partner Token, then mint per-merchant Company Tokens that are forwarded to the frontend for SDK / API calls. Both token classes appear in the OpenAPI as http bearer securitySchemes (PartnerToken, CompanyToken). No OAuth2/OIDC flows and no API-key scheme; the sandbox environment uses a separate sandbox client_id/secret.'
@@ -102,7 +102,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://docs.wayflyer.com/embedded-journey-v5-overview/shared/authentication\ndocs: https://docs.wayflyer.com/embedded-journey-v5-overview/shared/authentication\ndescription: >-\n  Authentication profile for the Wayflyer Embedded Finance (Hosted Capital)\n  API. Two-tier bearer-JWT model: partners exchange a backend-only\n  client_id/client_secret for a Partner Token, then mint per-merchant Company\n  Tokens that are forwarded to the frontend for SDK / API calls. Both token\n  classes appear in the OpenAPI as http bearer securitySchemes (PartnerToken,\n  CompanyToken). No OAuth2/OIDC flows and no API-key scheme; the sandbox\n  environment uses a separate sandbox client_id/secret.\nsummary:\n  types: [http]\n  schemes: [bearer]\n  oauth2_flows: []\ncredentials:\n  issued: client_id + client_secret at partner onboarding (backend-only; never expose in the frontend)\ntoken_model:\n  - name: PartnerToken\n    obtain: POST https://api.wayflyer.com/financing/v1/partner-token/\n\
   \    payload: '{\"partner_id\": \"<client_id>\", \"partner_secret\": \"<client_secret>\"}'\n    format: JWT\n    header: 'Authorization: Bearer <token>'\n    expires_in: 86000\n    caching: securely cache and re-use until expiry\n    used_for: partner-scope operations (company-token minting, anonymized data uploads)\n  - name: CompanyToken\n    obtain: POST https://api.wayflyer.com/financing/v1/partner/company-token/ (authenticated with PartnerToken)\n    payload: '{\"company_id\": \"<anonymous-string-id>\", \"user_id\": \"<user-id>\"}'\n    format: JWT\n    header: 'Authorization: Bearer <token>'\n    expires_in: 86000\n    used_for: all company-scope operations (CTA, applications, details, documents); forwarded to the frontend for the SDKs\n    company_id_rules: anonymous, consistent, unique per company, string < 255 chars, must not reveal identity without consent\nschemes:\n  - name: CompanyToken\n    type: http\n    scheme: bearer\n    sources:\n      - openapi/wayflyer-embedded-finance-openapi-original.json\n\
   \      - openapi/wayflyer-embedded-finance-sandbox-openapi-original.json\n  - name: PartnerToken\n    type: http\n    scheme: bearer\n    sources:\n      - openapi/wayflyer-embedded-finance-openapi-original.json\n      - openapi/wayflyer-embedded-finance-sandbox-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/authentication/wayflyer-authentication.yml
+source_yaml_url: https://artifacts.apis.io/wayflyer/authentication/wayflyer-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Company

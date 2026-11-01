@@ -5,31 +5,31 @@ api_specs:
   label: Mosaic Members API
   slug: mosaic-app-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/openapi/mosaic-app-members-api-openapi.yml
+  url: https://artifacts.apis.io/mosaic-app/openapi/mosaic-app-members-api-openapi.yml
 - filename: mosaic-app-projects-api-openapi.yml
   format: yaml
   label: Mosaic Projects API
   slug: mosaic-app-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/openapi/mosaic-app-projects-api-openapi.yml
+  url: https://artifacts.apis.io/mosaic-app/openapi/mosaic-app-projects-api-openapi.yml
 - filename: mosaic-app-tasks-api-openapi.yml
   format: yaml
   label: Mosaic Tasks API
   slug: mosaic-app-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/openapi/mosaic-app-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/mosaic-app/openapi/mosaic-app-tasks-api-openapi.yml
 - filename: mosaic-app-time-entries-api-openapi.yml
   format: yaml
   label: Mosaic Time Entries API
   slug: mosaic-app-time-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/openapi/mosaic-app-time-entries-api-openapi.yml
+  url: https://artifacts.apis.io/mosaic-app/openapi/mosaic-app-time-entries-api-openapi.yml
 - filename: mosaic-app-work-plans-api-openapi.yml
   format: yaml
   label: Mosaic Work Plans API
   slug: mosaic-app-work-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/openapi/mosaic-app-work-plans-api-openapi.yml
+  url: https://artifacts.apis.io/mosaic-app/openapi/mosaic-app-work-plans-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2
@@ -46,7 +46,7 @@ source_filename: mosaic-app-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.mosaicapp.com/security\nurl: https://www.mosaicapp.com/security\ncertifications:\n- SOC 2\nevidence:\n- source: https://www.mosaicapp.com/security\n  keywords:\n  - soc 2\n  - soc2\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/security/mosaic-app-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/mosaic-app/security/mosaic-app-trust-center.yml
 summary_line: SOC 2
 tags:
 - Resource Management

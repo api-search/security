@@ -8,43 +8,43 @@ api_specs:
   label: NuGet Package Publish API
   slug: nuget-package-publish-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-package-publish-api-openapi.yml
+  url: https://artifacts.apis.io/nuget/openapi/nuget-package-publish-api-openapi.yml
 - filename: nuget-registration-api-openapi.yml
   format: yaml
   label: NuGet Registration API
   slug: nuget-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-registration-api-openapi.yml
+  url: https://artifacts.apis.io/nuget/openapi/nuget-registration-api-openapi.yml
 - filename: nuget-service-index-api-openapi.yml
   format: yaml
   label: NuGet Service Index API
   slug: nuget-service-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-service-index-api-openapi.yml
+  url: https://artifacts.apis.io/nuget/openapi/nuget-service-index-api-openapi.yml
 - filename: nuget-autocomplete-api-openapi.yml
   format: yaml
   label: Microsoft NuGet Autocomplete API
   slug: microsoft-nuget-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/nuget/openapi/nuget-autocomplete-api-openapi.yml
 - filename: nuget-flatcontainer-api-openapi.yml
   format: yaml
   label: Microsoft NuGet Flatcontainer API
   slug: microsoft-nuget-flatcontainer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-flatcontainer-api-openapi.yml
+  url: https://artifacts.apis.io/nuget/openapi/nuget-flatcontainer-api-openapi.yml
 - filename: nuget-query-api-openapi.yml
   format: yaml
   label: Microsoft NuGet Query API
   slug: microsoft-nuget-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-query-api-openapi.yml
+  url: https://artifacts.apis.io/nuget/openapi/nuget-query-api-openapi.yml
 - filename: nuget-registration5-gz-semver2-api-openapi.yml
   format: yaml
   label: Microsoft NuGet Registration5 Gz Semver2 API
   slug: microsoft-nuget-registration5-gz-semver2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-registration5-gz-semver2-api-openapi.yml
+  url: https://artifacts.apis.io/nuget/openapi/nuget-registration5-gz-semver2-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -72,7 +72,7 @@ source_filename: nuget-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/nuget-server-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-NuGet-ApiKey\n  description: An API key obtained from the NuGet package source. Required for push, delete,\n    and relist operations.\n  sources:\n  - openapi/nuget-server-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/authentication/nuget-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nuget/authentication/nuget-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Package Management

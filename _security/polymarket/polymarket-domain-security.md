@@ -11,25 +11,25 @@ api_specs:
   label: Polymarket CLOB Market Data API
   slug: polymarket-clob-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/openapi/polymarket-clob-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/polymarket/openapi/polymarket-clob-market-data-api-openapi.yml
 - filename: polymarket-clob-trade-api-openapi.yml
   format: yaml
   label: Polymarket CLOB Trade API
   slug: polymarket-clob-trade-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/openapi/polymarket-clob-trade-api-openapi.yml
+  url: https://artifacts.apis.io/polymarket/openapi/polymarket-clob-trade-api-openapi.yml
 - filename: polymarket-gamma-events-api-openapi.yml
   format: yaml
   label: Polymarket Gamma Events API
   slug: polymarket-gamma-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/openapi/polymarket-gamma-events-api-openapi.yml
+  url: https://artifacts.apis.io/polymarket/openapi/polymarket-gamma-events-api-openapi.yml
 - filename: polymarket-gamma-markets-api-openapi.yml
   format: yaml
   label: Polymarket Gamma Markets API
   slug: polymarket-gamma-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/openapi/polymarket-gamma-markets-api-openapi.yml
+  url: https://artifacts.apis.io/polymarket/openapi/polymarket-gamma-markets-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -77,7 +77,7 @@ source_filename: polymarket-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: polymarket.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 10:50:18 2026 GMT\n  hsts: true\n  hsts_max_age: 7776000\n- host: docs.polymarket.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 00:52:14 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: clob.polymarket.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 10:50:18 2026 GMT\n  hsts: true\n  hsts_max_age: 7776000\ndomains:\n- domain: polymarket.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/security/polymarket-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/polymarket/security/polymarket-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Prediction Markets

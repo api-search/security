@@ -7,109 +7,109 @@ api_specs:
   label: Metabolon Assistant API
   slug: metabolon-assistant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-assistant-api-openapi.yml
+  url: https://artifacts.apis.io/metabolon/openapi/metabolon-assistant-api-openapi.yml
 - filename: metabolon-auth-api-openapi.yml
   format: yaml
   label: Metabolon Auth API
   slug: metabolon-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-auth-api-openapi.yml
+  url: https://artifacts.apis.io/metabolon/openapi/metabolon-auth-api-openapi.yml
 - filename: metabolon-decentralization-api-openapi.yml
   format: yaml
   label: Metabolon Decentralization API
   slug: metabolon-decentralization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-decentralization-api-openapi.yml
+  url: https://artifacts.apis.io/metabolon/openapi/metabolon-decentralization-api-openapi.yml
 - filename: metabolon-eula-api-openapi.yml
   format: yaml
   label: Metabolon Eula API
   slug: metabolon-eula-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-eula-api-openapi.yml
+  url: https://artifacts.apis.io/metabolon/openapi/metabolon-eula-api-openapi.yml
 - filename: metabolon-files-api-openapi.yml
   format: yaml
   label: Metabolon Files API
   slug: metabolon-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-files-api-openapi.yml
+  url: https://artifacts.apis.io/metabolon/openapi/metabolon-files-api-openapi.yml
 - filename: metabolon-health-api-openapi.yml
   format: yaml
   label: Metabolon Health API
   slug: metabolon-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-health-api-openapi.yml
+  url: https://artifacts.apis.io/metabolon/openapi/metabolon-health-api-openapi.yml
 - filename: metabolon-labvantagefiles-api-openapi.yml
   format: yaml
   label: Metabolon Lab Vantage Files API
   slug: metabolon-labvantagefiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-labvantagefiles-api-openapi.yml
+  url: https://artifacts.apis.io/metabolon/openapi/metabolon-labvantagefiles-api-openapi.yml
 - filename: metabolon-projects-api-openapi.yml
   format: yaml
   label: Metabolon Projects API
   slug: metabolon-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-projects-api-openapi.yml
+  url: https://artifacts.apis.io/metabolon/openapi/metabolon-projects-api-openapi.yml
 - filename: metabolon-reports-api-openapi.yml
   format: yaml
   label: Metabolon Reports API
   slug: metabolon-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-reports-api-openapi.yml
+  url: https://artifacts.apis.io/metabolon/openapi/metabolon-reports-api-openapi.yml
 - filename: metabolon-samplesets-api-openapi.yml
   format: yaml
   label: Metabolon Sample Sets API
   slug: metabolon-samplesets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-samplesets-api-openapi.yml
+  url: https://artifacts.apis.io/metabolon/openapi/metabolon-samplesets-api-openapi.yml
 - filename: metabolon-samplesetsinfo-api-openapi.yml
   format: yaml
   label: Metabolon Sample Sets Info API
   slug: metabolon-samplesetsinfo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-samplesetsinfo-api-openapi.yml
+  url: https://artifacts.apis.io/metabolon/openapi/metabolon-samplesetsinfo-api-openapi.yml
 - filename: metabolon-search-api-openapi.yml
   format: yaml
   label: Metabolon Search API
   slug: metabolon-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-search-api-openapi.yml
+  url: https://artifacts.apis.io/metabolon/openapi/metabolon-search-api-openapi.yml
 - filename: metabolon-sharedfile-api-openapi.yml
   format: yaml
   label: Metabolon Shared File API
   slug: metabolon-sharedfile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-sharedfile-api-openapi.yml
+  url: https://artifacts.apis.io/metabolon/openapi/metabolon-sharedfile-api-openapi.yml
 - filename: metabolon-spectraldata-api-openapi.yml
   format: yaml
   label: Metabolon Spectral Data API
   slug: metabolon-spectraldata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-spectraldata-api-openapi.yml
+  url: https://artifacts.apis.io/metabolon/openapi/metabolon-spectraldata-api-openapi.yml
 - filename: metabolon-status-api-openapi.yml
   format: yaml
   label: Metabolon Status API
   slug: metabolon-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-status-api-openapi.yml
+  url: https://artifacts.apis.io/metabolon/openapi/metabolon-status-api-openapi.yml
 - filename: metabolon-studybuilder-api-openapi.yml
   format: yaml
   label: Metabolon Study Builder API
   slug: metabolon-studybuilder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-studybuilder-api-openapi.yml
+  url: https://artifacts.apis.io/metabolon/openapi/metabolon-studybuilder-api-openapi.yml
 - filename: metabolon-users-api-openapi.yml
   format: yaml
   label: Metabolon Users API
   slug: metabolon-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-users-api-openapi.yml
+  url: https://artifacts.apis.io/metabolon/openapi/metabolon-users-api-openapi.yml
 - filename: metabolon-pipeline-status-api-openapi.yml
   format: yaml
   label: Metabolon Pipeline Status API
   slug: metabolon-pipeline-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-pipeline-status-api-openapi.yml
+  url: https://artifacts.apis.io/metabolon/openapi/metabolon-pipeline-status-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -190,7 +190,7 @@ source_yaml: "generated: '2026-08-25'\nmethod: probed\nsource: https://auth0.met
   \ openapi/metabolon-portal-api-openapi.yml#Auth_VerifySalesforceConnection\n- name: Authorized context\n  description: GET /api/v1/auth/context returns the caller's resolved roles, permissions and project entitlements (IAuthorizedContext).\n  operation: openapi/metabolon-portal-api-openapi.yml#Auth_GetAuthorizedContext\n- name: Learning centre authorization\n  description: POST /api/v1/auth0/learning-center/authorize brokers access to the TalentLMS learning centre.\n  operation: openapi/metabolon-portal-api-openapi.yml#Auth_AuthorizeLearningCenterAccess\n- name: Assistant token exchange\n  description: POST /api/v1/assistant/token/{tenant} mints a scoped token for the in-portal assistant per tenant.\n  operation: openapi/metabolon-portal-api-openapi.yml#Assistant_GetToken\nauthorization:\n  model: role-and-project entitlement\n  note: >-\n    Authorization is enforced per project, not per scope. A user is granted membership of specific projects\n    (UserProject) and named roles carrying\
   \ permissions from a server-side catalog\n    (GET /api/v1/admin/users/roles/permissions/catalog). OAuth scopes on the token are the stock Auth0 OIDC\n    profile scopes and carry no API authorization meaning.\n  permission_catalog_operation: openapi/metabolon-portal-api-openapi.yml#Users_GetPermissionsCatalog\n  role_operations:\n  - openapi/metabolon-portal-api-openapi.yml#Users_GetRoles\n  - openapi/metabolon-portal-api-openapi.yml#Users_GetRolePermissions\n  - openapi/metabolon-portal-api-openapi.yml#Users_AddRolePermission\n  - openapi/metabolon-portal-api-openapi.yml#Users_RemoveRolePermission\ntransport_security:\n  tls: TLSv1.3 on every probed host\n  hsts: enabled on www.metabolon.com (max-age 31536000); absent on the *.prod.metabolon.com API hosts\n  encryption_at_rest: stated on https://www.metabolon.com/support/portal/data/\n  source: security/metabolon-domain-security.yml\ngaps:\n- No securitySchemes are declared in any of the four published OpenAPI documents.\n- No public\
   \ developer authentication documentation, no API key issuance, no documented service-account or client-credentials path for customers.\n- The published OpenAPI is served unauthenticated, but every non-health operation it describes requires a portal account.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/authentication/metabolon-authentication.yml
+source_yaml_url: https://artifacts.apis.io/metabolon/authentication/metabolon-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company

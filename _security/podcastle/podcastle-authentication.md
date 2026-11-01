@@ -8,13 +8,13 @@ api_specs:
   label: Podcastle Text to Speech API
   slug: podcastle-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podcastle/refs/heads/main/openapi/podcastle-text-to-speech-api-openapi.yml
+  url: https://artifacts.apis.io/podcastle/openapi/podcastle-text-to-speech-api-openapi.yml
 - filename: podcastle-voices-api-openapi.yml
   format: yaml
   label: Podcastle Voices API
   slug: podcastle-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podcastle/refs/heads/main/openapi/podcastle-voices-api-openapi.yml
+  url: https://artifacts.apis.io/podcastle/openapi/podcastle-voices-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: podcastle-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/podcastle-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: API key issued from the Async developer console.\n  sources:\n  - openapi/podcastle-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/podcastle/refs/heads/main/authentication/podcastle-authentication.yml
+source_yaml_url: https://artifacts.apis.io/podcastle/authentication/podcastle-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence

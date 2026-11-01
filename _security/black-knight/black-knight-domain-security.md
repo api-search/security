@@ -53,7 +53,7 @@ source_filename: black-knight-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mortgagetech.ice.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 20 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 16070400\n- host: developer.ice.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 11 12:47:10 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: developer.icemortgagetechnology.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 18:25:55 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: ice.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: icemortgagetechnology.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/black-knight/refs/heads/main/security/black-knight-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/black-knight/security/black-knight-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Mortgage

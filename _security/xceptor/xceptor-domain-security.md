@@ -11,61 +11,61 @@ api_specs:
   label: Xceptor Authentication API
   slug: xceptor-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/openapi/xceptor-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/xceptor/openapi/xceptor-authentication-api-openapi.yml
 - filename: xceptor-data-sources-api-openapi.yml
   format: yaml
   label: Xceptor Data Sources API
   slug: xceptor-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/openapi/xceptor-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/xceptor/openapi/xceptor-data-sources-api-openapi.yml
 - filename: xceptor-documents-api-openapi.yml
   format: yaml
   label: Xceptor Documents API
   slug: xceptor-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/openapi/xceptor-documents-api-openapi.yml
+  url: https://artifacts.apis.io/xceptor/openapi/xceptor-documents-api-openapi.yml
 - filename: xceptor-extraction-api-openapi.yml
   format: yaml
   label: Xceptor Extraction API
   slug: xceptor-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/openapi/xceptor-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/xceptor/openapi/xceptor-extraction-api-openapi.yml
 - filename: xceptor-health-api-openapi.yml
   format: yaml
   label: Xceptor Health API
   slug: xceptor-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/openapi/xceptor-health-api-openapi.yml
+  url: https://artifacts.apis.io/xceptor/openapi/xceptor-health-api-openapi.yml
 - filename: xceptor-jobs-api-openapi.yml
   format: yaml
   label: Xceptor Jobs API
   slug: xceptor-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/openapi/xceptor-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/xceptor/openapi/xceptor-jobs-api-openapi.yml
 - filename: xceptor-templates-api-openapi.yml
   format: yaml
   label: Xceptor Templates API
   slug: xceptor-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/openapi/xceptor-templates-api-openapi.yml
+  url: https://artifacts.apis.io/xceptor/openapi/xceptor-templates-api-openapi.yml
 - filename: xceptor-workflow-runs-api-openapi.yml
   format: yaml
   label: Xceptor Workflow Runs API
   slug: xceptor-workflow-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/openapi/xceptor-workflow-runs-api-openapi.yml
+  url: https://artifacts.apis.io/xceptor/openapi/xceptor-workflow-runs-api-openapi.yml
 - filename: xceptor-workflow-steps-api-openapi.yml
   format: yaml
   label: Xceptor Workflow Steps API
   slug: xceptor-workflow-steps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/openapi/xceptor-workflow-steps-api-openapi.yml
+  url: https://artifacts.apis.io/xceptor/openapi/xceptor-workflow-steps-api-openapi.yml
 - filename: xceptor-workflows-api-openapi.yml
   format: yaml
   label: Xceptor Workflows API
   slug: xceptor-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/openapi/xceptor-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/xceptor/openapi/xceptor-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -98,7 +98,7 @@ source_filename: xceptor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: portal.xceptor.com\n  https: false\n- host: www.xceptor.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 13:17:58 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.xceptor.com\n  https: false\ndomains:\n- domain: xceptor.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/security/xceptor-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/xceptor/security/xceptor-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - API Integration

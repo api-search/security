@@ -9,49 +9,49 @@ api_specs:
   label: Ocean.io Autocomplete API
   slug: ocean-io-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-io/openapi/ocean-io-autocomplete-api-openapi.yml
 - filename: ocean-io-enrich-api-openapi.yml
   format: yaml
   label: Ocean.io Enrich API
   slug: ocean-io-enrich-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-enrich-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-io/openapi/ocean-io-enrich-api-openapi.yml
 - filename: ocean-io-lookup-api-openapi.yml
   format: yaml
   label: Ocean.io Lookup API
   slug: ocean-io-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-io/openapi/ocean-io-lookup-api-openapi.yml
 - filename: ocean-io-ocean-io-api-documentation-api-openapi.yml
   format: yaml
   label: Ocean.io API Documentation API
   slug: ocean-io-ocean-io-api-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-ocean-io-api-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-io/openapi/ocean-io-ocean-io-api-documentation-api-openapi.yml
 - filename: ocean-io-other-api-openapi.yml
   format: yaml
   label: Ocean.io Other API
   slug: ocean-io-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-other-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-io/openapi/ocean-io-other-api-openapi.yml
 - filename: ocean-io-reveal-api-openapi.yml
   format: yaml
   label: Ocean.io Reveal API
   slug: ocean-io-reveal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-reveal-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-io/openapi/ocean-io-reveal-api-openapi.yml
 - filename: ocean-io-search-api-openapi.yml
   format: yaml
   label: Ocean.io Search API
   slug: ocean-io-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-search-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-io/openapi/ocean-io-search-api-openapi.yml
 - filename: ocean-io-segmentation-api-openapi.yml
   format: yaml
   label: Ocean.io Segmentation API
   slug: ocean-io-segmentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-segmentation-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-io/openapi/ocean-io-segmentation-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/ocean-i
   \ passed as a query-string parameter.\n    example_request: \"curl -X GET 'https://api.ocean.io/v2/credits/balance?apiToken=YOUR_API_TOKEN'\"\n    sources:\n      - https://app.ocean.io/docs/getting-started/authentication\n      - openapi/ocean-io-api-openapi.yml\n  - name: OAuth 2.0 client credentials\n    type: oauth2\n    flow: clientCredentials\n    token_url: https://api.ocean.io/oauth/token\n    issuer: https://api.ocean.io\n    token_endpoint_auth_methods_supported:\n      - client_secret_post\n    scopes_supported: []\n    documented: false\n    description: >-\n      Discovered only from the RFC 8414 metadata document at\n      https://api.ocean.io/.well-known/oauth-authorization-server (HTTP 200, application/json). No\n      Ocean.io documentation page describes this flow, no client registration process is published,\n      and scopes_supported is empty.\n    sources:\n      - well-known/ocean-io-oauth-authorization-server.json\ntoken_errors:\n  - scenario: Token missing from\
   \ request\n    status: 403\n    body: '{\"detail\": \"API token should be provided in headers or query parameters\"}'\n  - scenario: Token is invalid or unrecognised\n    status: 403\n    body: '{\"detail\": \"Invalid API token\"}'\n  - scenario: Token provided in both header and query parameter\n    status: 400\n    body: '{\"detail\": \"Conflicting API tokens provided in query parameters and headers\"}'\nrotation:\n  supported: true\n  process: >-\n    Revoke a suspected-compromised token immediately in Account Settings and generate a new one;\n    update all consuming systems before revoking to avoid downtime.\n  docs: https://app.ocean.io/docs/getting-started/authentication\nmcp:\n  endpoint: https://api.ocean.io/mcp/\n  auth: same account API token, passed as the api-token query parameter on the endpoint URL\ngaps:\n  - >-\n    The OpenAPI declares no components.securitySchemes and no security requirement, so the auth\n    contract is only discoverable from prose. Declaring an apiKey\
   \ scheme (header X-Api-Token) and\n    applying it globally would make the spec self-describing for generated clients and agents.\n  - >-\n    The OAuth authorization-server metadata is published but undocumented; a consumer cannot obtain\n    client credentials from any public page.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/authentication/ocean-io-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ocean-io/authentication/ocean-io-authentication.yml
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - Sales Intelligence

@@ -31,7 +31,7 @@ source_filename: freeverse-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://docs.laosnetwork.io/api/write-queries/GettingStarted\ndocs: https://docs.laosnetwork.io/api/introduction\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  oauth2_flows: []\n  notes: >-\n    Read-only GraphQL queries (AllCollectionAssets, Inventory, AssetHistory,\n    LAOSCollection, token/tokens/transfers/tokenHistory) require NO authentication.\n    Write mutations (createCollection, mint/mintAsync, evolve/evolveBatch,\n    broadcast) require an API key issued by the LAOS Foundation.\nschemes:\n- name: apiKeyHeader\n  type: apiKey\n  in: header\n  parameter_name: x-api-key\n  applies_to: write mutations\n  obtain: Contact info@laosnetwork.io / the LAOS Foundation to request a private API key.\n  key_binding: >-\n    Each key is associated with a web3 address that holds LAOS tokens, POLs and\n    ETH used to pay gas for minting/evolving. Testnet keys are pre-funded.\n  sources: [graphql/freeverse-laos-client-api-schema.graphql]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freeverse/refs/heads/main/authentication/freeverse-authentication.yml
+source_yaml_url: https://artifacts.apis.io/freeverse/authentication/freeverse-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

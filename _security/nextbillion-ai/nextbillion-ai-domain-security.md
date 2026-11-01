@@ -1,47 +1,53 @@
 ---
 api_specs:
+- filename: nextbillion-ai-openapi-generated.yml
+  format: yaml
+  label: NextBillion AI API
+  slug: nextbillion-ai-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nextbillion-ai/openapi/_ae-authored/nextbillion-ai-openapi-generated.yml
 - filename: nextbillion-ai-directions-api-openapi.yml
   format: yaml
   label: NextBillion.ai Directions API
   slug: nextbillion-ai-directions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextbillion-ai/refs/heads/main/openapi/nextbillion-ai-directions-api-openapi.yml
+  url: https://artifacts.apis.io/nextbillion-ai/openapi/nextbillion-ai-directions-api-openapi.yml
 - filename: nextbillion-ai-distancematrix-api-openapi.yml
   format: yaml
   label: NextBillion.ai Distancematrix API
   slug: nextbillion-ai-distancematrix-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextbillion-ai/refs/heads/main/openapi/nextbillion-ai-distancematrix-api-openapi.yml
+  url: https://artifacts.apis.io/nextbillion-ai/openapi/nextbillion-ai-distancematrix-api-openapi.yml
 - filename: nextbillion-ai-hos-api-openapi.yml
   format: yaml
   label: NextBillion.ai Hos API
   slug: nextbillion-ai-hos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextbillion-ai/refs/heads/main/openapi/nextbillion-ai-hos-api-openapi.yml
+  url: https://artifacts.apis.io/nextbillion-ai/openapi/nextbillion-ai-hos-api-openapi.yml
 - filename: nextbillion-ai-isochrone-api-openapi.yml
   format: yaml
   label: NextBillion.ai Isochrone API
   slug: nextbillion-ai-isochrone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextbillion-ai/refs/heads/main/openapi/nextbillion-ai-isochrone-api-openapi.yml
+  url: https://artifacts.apis.io/nextbillion-ai/openapi/nextbillion-ai-isochrone-api-openapi.yml
 - filename: nextbillion-ai-mdm-api-openapi.yml
   format: yaml
   label: NextBillion.ai Mdm API
   slug: nextbillion-ai-mdm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextbillion-ai/refs/heads/main/openapi/nextbillion-ai-mdm-api-openapi.yml
+  url: https://artifacts.apis.io/nextbillion-ai/openapi/nextbillion-ai-mdm-api-openapi.yml
 - filename: nextbillion-ai-navigation-api-openapi.yml
   format: yaml
   label: NextBillion.ai Navigation API
   slug: nextbillion-ai-navigation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextbillion-ai/refs/heads/main/openapi/nextbillion-ai-navigation-api-openapi.yml
+  url: https://artifacts.apis.io/nextbillion-ai/openapi/nextbillion-ai-navigation-api-openapi.yml
 - filename: nextbillion-ai-optimization-api-openapi.yml
   format: yaml
   label: NextBillion.ai Optimization API
   slug: nextbillion-ai-optimization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextbillion-ai/refs/heads/main/openapi/nextbillion-ai-optimization-api-openapi.yml
+  url: https://artifacts.apis.io/nextbillion-ai/openapi/nextbillion-ai-optimization-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +77,7 @@ source_filename: nextbillion-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: nextbillion.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 17:44:43 2026 GMT\n  hsts: true\n  hsts_max_age: 15724800\ndomains:\n- domain: nextbillion.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nextbillion-ai/refs/heads/main/security/nextbillion-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nextbillion-ai/security/nextbillion-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

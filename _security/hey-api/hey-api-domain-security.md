@@ -5,37 +5,37 @@ api_specs:
   label: Hey API Get API
   slug: hey-api-get-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/openapi/hey-api-get-api-openapi.yml
+  url: https://artifacts.apis.io/hey-api/openapi/hey-api-get-api-openapi.yml
 - filename: hey-api-hey-api-api-openapi.yml
   format: yaml
   label: Hey API Hey API
   slug: hey-api-hey-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/openapi/hey-api-hey-api-api-openapi.yml
+  url: https://artifacts.apis.io/hey-api/openapi/hey-api-hey-api-api-openapi.yml
 - filename: hey-api-internal-api-openapi.yml
   format: yaml
   label: Hey API Internal API
   slug: hey-api-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/openapi/hey-api-internal-api-openapi.yml
+  url: https://artifacts.apis.io/hey-api/openapi/hey-api-internal-api-openapi.yml
 - filename: hey-api-organizations-api-openapi.yml
   format: yaml
   label: Hey API Organizations API
   slug: hey-api-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/openapi/hey-api-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/hey-api/openapi/hey-api-organizations-api-openapi.yml
 - filename: hey-api-specifications-api-openapi.yml
   format: yaml
   label: Hey API Specifications API
   slug: hey-api-specifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/openapi/hey-api-specifications-api-openapi.yml
+  url: https://artifacts.apis.io/hey-api/openapi/hey-api-specifications-api-openapi.yml
 - filename: hey-api-users-api-openapi.yml
   format: yaml
   label: Hey API Users API
   slug: hey-api-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/openapi/hey-api-users-api-openapi.yml
+  url: https://artifacts.apis.io/hey-api/openapi/hey-api-users-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -73,7 +73,7 @@ source_filename: hey-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: heyapi.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 00:13:28 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.heyapi.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 12:52:40 2026 GMT\n  hsts: false\ndomains:\n- domain: heyapi.dev\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/security/hey-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hey-api/security/hey-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Code Generation

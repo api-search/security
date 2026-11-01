@@ -9,7 +9,7 @@ api_specs:
   label: Columbia Sportswear External Image API
   slug: columbia-sportswear-externalimage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/columbia-sportswear/refs/heads/main/openapi/columbia-sportswear-externalimage-api-openapi.yml
+  url: https://artifacts.apis.io/columbia-sportswear/openapi/columbia-sportswear-externalimage-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: columbia-sportswear-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: derived\nsource: openapi/columbia-sportswear-content-hub-external-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: apiKeyHeader\n  type: apiKey\n  in: header\n  parameter: Ocp-Apim-Subscription-Key\n  sources:\n  - openapi/columbia-sportswear-content-hub-external-openapi.json\n- name: apiKeyQuery\n  type: apiKey\n  in: query\n  parameter: subscription-key\n  sources:\n  - openapi/columbia-sportswear-content-hub-external-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/columbia-sportswear/refs/heads/main/authentication/columbia-sportswear-authentication.yml
+source_yaml_url: https://artifacts.apis.io/columbia-sportswear/authentication/columbia-sportswear-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Apparel

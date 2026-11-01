@@ -8,25 +8,25 @@ api_specs:
   label: Amazon SQS Messages API
   slug: amazon-sqs-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/openapi/amazon-sqs-messages-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sqs/openapi/amazon-sqs-messages-api-openapi.yml
 - filename: amazon-sqs-permissions-api-openapi.yml
   format: yaml
   label: Amazon SQS Permissions API
   slug: amazon-sqs-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/openapi/amazon-sqs-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sqs/openapi/amazon-sqs-permissions-api-openapi.yml
 - filename: amazon-sqs-queues-api-openapi.yml
   format: yaml
   label: Amazon SQS Queues API
   slug: amazon-sqs-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/openapi/amazon-sqs-queues-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sqs/openapi/amazon-sqs-queues-api-openapi.yml
 - filename: amazon-sqs-tags-api-openapi.yml
   format: yaml
   label: Amazon SQS Tags API
   slug: amazon-sqs-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/openapi/amazon-sqs-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sqs/openapi/amazon-sqs-tags-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: amazon-sqs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-sqs-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: aws_sig_v4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4 authentication. All SQS API requests must be signed using\n    AWS credentials (Access Key ID and Secret Access Key). The signature is included in the\n    Authorization header.\n  sources:\n  - openapi/amazon-sqs-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/authentication/amazon-sqs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-sqs/authentication/amazon-sqs-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Cloud

@@ -5,37 +5,37 @@ api_specs:
   label: Dyte Meetings API
   slug: dyte-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyte/refs/heads/main/openapi/dyte-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/dyte/openapi/dyte-meetings-api-openapi.yml
 - filename: dyte-participants-api-openapi.yml
   format: yaml
   label: Dyte Participants API
   slug: dyte-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyte/refs/heads/main/openapi/dyte-participants-api-openapi.yml
+  url: https://artifacts.apis.io/dyte/openapi/dyte-participants-api-openapi.yml
 - filename: dyte-recordings-api-openapi.yml
   format: yaml
   label: Dyte Recordings API
   slug: dyte-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyte/refs/heads/main/openapi/dyte-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/dyte/openapi/dyte-recordings-api-openapi.yml
 - filename: dyte-sessions-api-openapi.yml
   format: yaml
   label: Dyte Sessions API
   slug: dyte-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyte/refs/heads/main/openapi/dyte-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/dyte/openapi/dyte-sessions-api-openapi.yml
 - filename: dyte-webhooks-api-openapi.yml
   format: yaml
   label: Dyte Webhooks API
   slug: dyte-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyte/refs/heads/main/openapi/dyte-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/dyte/openapi/dyte-webhooks-api-openapi.yml
 - filename: dyte-live-streams-api-openapi.yml
   format: yaml
   label: Dyte Live Streams API
   slug: dyte-live-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyte/refs/heads/main/openapi/dyte-live-streams-api-openapi.yml
+  url: https://artifacts.apis.io/dyte/openapi/dyte-live-streams-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -81,7 +81,7 @@ source_filename: dyte-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dyte.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 05:39:05 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.dyte.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 17:57:05 2026 GMT\n  hsts: false\n- host: api.dyte.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 18:14:33 2026 GMT\n  hsts: null\ndomains:\n- domain: dyte.io\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dyte/refs/heads/main/security/dyte-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dyte/security/dyte-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Video

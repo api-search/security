@@ -8,31 +8,31 @@ api_specs:
   label: Fixer Conversion API
   slug: fixer-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixer/refs/heads/main/openapi/fixer-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/fixer/openapi/fixer-conversion-api-openapi.yml
 - filename: fixer-fluctuation-api-openapi.yml
   format: yaml
   label: Fixer Fluctuation API
   slug: fixer-fluctuation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixer/refs/heads/main/openapi/fixer-fluctuation-api-openapi.yml
+  url: https://artifacts.apis.io/fixer/openapi/fixer-fluctuation-api-openapi.yml
 - filename: fixer-rates-api-openapi.yml
   format: yaml
   label: Fixer Rates API
   slug: fixer-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixer/refs/heads/main/openapi/fixer-rates-api-openapi.yml
+  url: https://artifacts.apis.io/fixer/openapi/fixer-rates-api-openapi.yml
 - filename: fixer-symbols-api-openapi.yml
   format: yaml
   label: Fixer Symbols API
   slug: fixer-symbols-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixer/refs/heads/main/openapi/fixer-symbols-api-openapi.yml
+  url: https://artifacts.apis.io/fixer/openapi/fixer-symbols-api-openapi.yml
 - filename: fixer-time-series-api-openapi.yml
   format: yaml
   label: Fixer Time Series API
   slug: fixer-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixer/refs/heads/main/openapi/fixer-time-series-api-openapi.yml
+  url: https://artifacts.apis.io/fixer/openapi/fixer-time-series-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: fixer-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fixer-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: apikey\n  description: APILayer API key provisioned at https://apilayer.com/marketplace/fixer-api.\n  sources:\n  - openapi/fixer-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fixer/refs/heads/main/authentication/fixer-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fixer/authentication/fixer-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Foreign Exchange

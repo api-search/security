@@ -5,67 +5,67 @@ api_specs:
   label: EZRentOut Assets API
   slug: ezrentout-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/openapi/ezrentout-assets-api-openapi.yml
+  url: https://artifacts.apis.io/ezrentout/openapi/ezrentout-assets-api-openapi.yml
 - filename: ezrentout-availability-api-openapi.yml
   format: yaml
   label: EZRentOut Availability API
   slug: ezrentout-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/openapi/ezrentout-availability-api-openapi.yml
+  url: https://artifacts.apis.io/ezrentout/openapi/ezrentout-availability-api-openapi.yml
 - filename: ezrentout-bundles-api-openapi.yml
   format: yaml
   label: EZRentOut Bundles API
   slug: ezrentout-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/openapi/ezrentout-bundles-api-openapi.yml
+  url: https://artifacts.apis.io/ezrentout/openapi/ezrentout-bundles-api-openapi.yml
 - filename: ezrentout-customers-api-openapi.yml
   format: yaml
   label: EZRentOut Customers API
   slug: ezrentout-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/openapi/ezrentout-customers-api-openapi.yml
+  url: https://artifacts.apis.io/ezrentout/openapi/ezrentout-customers-api-openapi.yml
 - filename: ezrentout-inventory-api-openapi.yml
   format: yaml
   label: EZRentOut Inventory API
   slug: ezrentout-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/openapi/ezrentout-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/ezrentout/openapi/ezrentout-inventory-api-openapi.yml
 - filename: ezrentout-locations-api-openapi.yml
   format: yaml
   label: EZRentOut Locations API
   slug: ezrentout-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/openapi/ezrentout-locations-api-openapi.yml
+  url: https://artifacts.apis.io/ezrentout/openapi/ezrentout-locations-api-openapi.yml
 - filename: ezrentout-maintenance-api-openapi.yml
   format: yaml
   label: EZRentOut Maintenance API
   slug: ezrentout-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/openapi/ezrentout-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/ezrentout/openapi/ezrentout-maintenance-api-openapi.yml
 - filename: ezrentout-members-api-openapi.yml
   format: yaml
   label: EZRentOut Members API
   slug: ezrentout-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/openapi/ezrentout-members-api-openapi.yml
+  url: https://artifacts.apis.io/ezrentout/openapi/ezrentout-members-api-openapi.yml
 - filename: ezrentout-orders-api-openapi.yml
   format: yaml
   label: EZRentOut Orders API
   slug: ezrentout-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/openapi/ezrentout-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ezrentout/openapi/ezrentout-orders-api-openapi.yml
 - filename: ezrentout-payments-api-openapi.yml
   format: yaml
   label: EZRentOut Payments API
   slug: ezrentout-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/openapi/ezrentout-payments-api-openapi.yml
+  url: https://artifacts.apis.io/ezrentout/openapi/ezrentout-payments-api-openapi.yml
 - filename: ezrentout-purchase-orders-api-openapi.yml
   format: yaml
   label: EZRentOut Purchase Orders API
   slug: ezrentout-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/openapi/ezrentout-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ezrentout/openapi/ezrentout-purchase-orders-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -84,7 +84,7 @@ source_filename: ezrentout-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://ezo.io/security/\nurl: https://ezo.io/security/\ncertifications:\n- SOC 2\n- ISO 27001\n- CSA STAR\nevidence:\n- source: https://ezo.io/security/\n  keywords:\n  - soc 2\n  - iso 27001\n  - csa star\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/security/ezrentout-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/ezrentout/security/ezrentout-trust-center.yml
 summary_line: SOC 2, ISO 27001, CSA STAR
 tags:
 - Equipment Rental

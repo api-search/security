@@ -5,25 +5,25 @@ api_specs:
   label: Squillo Connectors API
   slug: squillo-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/openapi/squillo-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/squillo/openapi/squillo-connectors-api-openapi.yml
 - filename: squillo-executions-api-openapi.yml
   format: yaml
   label: Squillo Executions API
   slug: squillo-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/openapi/squillo-executions-api-openapi.yml
+  url: https://artifacts.apis.io/squillo/openapi/squillo-executions-api-openapi.yml
 - filename: squillo-variables-api-openapi.yml
   format: yaml
   label: Squillo Variables API
   slug: squillo-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/openapi/squillo-variables-api-openapi.yml
+  url: https://artifacts.apis.io/squillo/openapi/squillo-variables-api-openapi.yml
 - filename: squillo-workflows-api-openapi.yml
   format: yaml
   label: Squillo Workflows API
   slug: squillo-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/openapi/squillo-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/squillo/openapi/squillo-workflows-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -60,7 +60,7 @@ source_filename: squillo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: squillo.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 08:24:52 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.squillo.io\n  https: false\ndomains:\n- domain: squillo.io\n  dnssec: false\n  caa:\n  - 0 issuewild \";\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/security/squillo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/squillo/security/squillo-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Integration Platform

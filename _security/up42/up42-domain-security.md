@@ -5,49 +5,49 @@ api_specs:
   label: UP42 Catalog API
   slug: up42-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/up42/openapi/up42-catalog-api-openapi.yml
 - filename: up42-orders-api-openapi.yml
   format: yaml
   label: UP42 Orders API
   slug: up42-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-orders-api-openapi.yml
+  url: https://artifacts.apis.io/up42/openapi/up42-orders-api-openapi.yml
 - filename: up42-processing-api-openapi.yml
   format: yaml
   label: UP42 Processing API
   slug: up42-processing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-processing-api-openapi.yml
+  url: https://artifacts.apis.io/up42/openapi/up42-processing-api-openapi.yml
 - filename: up42-stac-data-management-api-openapi.yml
   format: yaml
   label: UP42 STAC Data Management API
   slug: up42-stac-data-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-stac-data-management-api-openapi.yml
+  url: https://artifacts.apis.io/up42/openapi/up42-stac-data-management-api-openapi.yml
 - filename: up42-storage-assets-api-openapi.yml
   format: yaml
   label: UP42 Storage Assets API
   slug: up42-storage-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-storage-assets-api-openapi.yml
+  url: https://artifacts.apis.io/up42/openapi/up42-storage-assets-api-openapi.yml
 - filename: up42-tasking-api-openapi.yml
   format: yaml
   label: UP42 Tasking API
   slug: up42-tasking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-tasking-api-openapi.yml
+  url: https://artifacts.apis.io/up42/openapi/up42-tasking-api-openapi.yml
 - filename: up42-webhooks-api-openapi.yml
   format: yaml
   label: UP42 Webhooks API
   slug: up42-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/up42/openapi/up42-webhooks-api-openapi.yml
 - filename: up42-workspaces-account-api-openapi.yml
   format: yaml
   label: UP42 Workspaces & Account API
   slug: up42-workspaces-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-workspaces-account-api-openapi.yml
+  url: https://artifacts.apis.io/up42/openapi/up42-workspaces-account-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -94,7 +94,7 @@ source_filename: up42-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: up42.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 09:55:08 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.up42.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 01:52:24 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.up42.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 01:52:24 2026 GMT\n  hsts: null\ndomains:\n- domain: up42.com\n  dnssec: true\n  caa:\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/security/up42-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/up42/security/up42-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Geospatial

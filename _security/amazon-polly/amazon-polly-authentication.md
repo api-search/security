@@ -8,25 +8,31 @@ api_specs:
   label: Amazon Polly Lexicons API
   slug: amazon-polly-lexicons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/openapi/amazon-polly-lexicons-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-polly/openapi/amazon-polly-lexicons-api-openapi.yml
 - filename: amazon-polly-speech-api-openapi.yml
   format: yaml
   label: Amazon Polly Speech API
   slug: amazon-polly-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/openapi/amazon-polly-speech-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-polly/openapi/amazon-polly-speech-api-openapi.yml
 - filename: amazon-polly-voices-api-openapi.yml
   format: yaml
   label: Amazon Polly Voices API
   slug: amazon-polly-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/openapi/amazon-polly-voices-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-polly/openapi/amazon-polly-voices-api-openapi.yml
 - filename: amazon-polly-synthesis-tasks-api-openapi.yml
   format: yaml
   label: Amazon Polly Synthesis Tasks API
   slug: amazon-polly-synthesis-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/openapi/amazon-polly-synthesis-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-polly/openapi/amazon-polly-synthesis-tasks-api-openapi.yml
+- filename: amazon-polly-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Polly Polly Operations API
+  slug: amazon-polly-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-polly/openapi/amazon-polly-operations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -55,14 +61,13 @@ source_filename: amazon-polly-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-polly-openapi-original.yaml, openapi/amazon-polly-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-polly-openapi-original.yaml\n  - openapi/amazon-polly-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/authentication/amazon-polly-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-polly/authentication/amazon-polly-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence
 - Machine Learning
 - Speech Synthesis
 - Text-to-Speech
-- TTS
 - Voice
 - SSML
 - Neural Engine

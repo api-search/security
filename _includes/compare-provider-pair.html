@@ -1,0 +1,114 @@
+{%- comment -%}
+  compare-provider-pair.html — one compare_providers result, rendered from
+  site.data.compare_showcase (written by scripts/build-compare-showcase.py). Every number here
+  is read from the tool's own response; only `narrative`, `headline` and `summary` are prose.
+{%- endcomment -%}
+{%- assign SC = site.data.compare_showcase -%}
+{%- assign P = SC.providers | where: 'id', page.compare_id | first -%}
+{%- assign R = P.result -%}
+{%- assign A = R.providers[0] -%}{%- assign B = R.providers[1] -%}
+{%- assign fkeys = 'discoverability,contract_quality,contract_governance,operational_transparency,developer_ergonomics,access_clarity' | split: ',' -%}
+{%- assign flabels = 'Discoverability,Contract Quality,Contract Governance,Operational Transparency,Developer Ergonomics,Access Clarity' | split: ',' -%}
+{%- assign fslugs = 'discoverability,contract-quality,governance,operational-transparency,developer-ergonomics,commercial-clarity' | split: ',' -%}
+{% include compare-css.html %}
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":{{ P.headline | jsonify }},"description":{{ P.summary | jsonify }},"dateModified":"{{ SC.fetched }}","datePublished":"{{ SC.fetched }}","url":"{{ page.url | prepend: site.url }}","publisher":{"@type":"Organization","name":"APIs.io","url":"https://apis.io"},"about":[{% for x in R.providers %}{"@type":"Organization","name":{{ x.name | jsonify }},"url":"https://apis.io/providers/{{ x.slug }}/"}{% unless forloop.last %},{% endunless %}{% endfor %}]}
+</script>
+
+<div class="cmp-crumb"><a href="/compare/">Compare</a> / <a href="/compare/providers/">Providers</a> / {{ A.name }} vs {{ B.name }}</div>
+<span class="cmp-tool">compare_providers</span>
+<h1>{{ P.headline }}</h1>
+<p class="cmp-lead">{{ P.summary }}</p>
+
+<div class="cmp-duel">
+  {%- for x in R.providers limit: 2 -%}
+  {%- assign sun = P.suns[x.slug] -%}{%- assign xd = P.dims[x.slug] -%}
+  <div class="cmp-side">
+    {% include compare-sun.html name=x.name score=x.composite band=x.band agent_score=x.agent_readiness.score agent_band=x.agent_readiness.band facets=sun.facets dims=xd %}
+    <h2><a href="/providers/{{ x.slug }}/">{{ x.name }}</a></h2>
+    <div class="cmp-big">{{ x.composite }}<span>/100</span></div>
+    <span class="cmp-pill cmp-b-{{ x.band }}">{{ x.band }}</span>
+    <div class="cmp-sub">Agent readiness <strong>{{ x.agent_readiness.score }}</strong> &middot; {{ x.agent_readiness.band }}</div>
+    <div class="cmp-sub">{{ x.api_count }} APIs &middot; {{ x.artifact_types.size }} artifact types</div>
+    {%- if R.best_overall == x.slug %}<span class="cmp-win">Best overall</span>{% endif -%}
+    {%- if R.cheapest_entry == x.slug %} <span class="cmp-win">Cheapest entry</span>{% endif -%}
+  </div>
+  {%- if forloop.first %}<div class="cmp-vs">VS</div>{% endif -%}
+  {%- endfor -%}
+</div>
+
+<div class="cmp-narr">{{ P.narrative | markdownify }}</div>
+
+<h2 class="section-anchor" id="facets"><a href="#facets">Facet by facet</a></h2>
+<p class="section-blurb">The six Kin Score facets, 0 to 100. The facet leader is the one the tool names in <code>facet_leaders</code>. Each facet links to how it is measured.</p>
+<div class="cmp-scroll"><table class="cmp-table">
+  <thead><tr><th>Facet</th><th class="num">{{ A.name }}</th><th class="num">{{ B.name }}</th><th>Leader</th></tr></thead>
+  <tbody>
+  {%- for k in fkeys -%}
+  {%- assign i = forloop.index0 -%}{%- assign va = A.facets[k] | default: 0 -%}{%- assign vb = B.facets[k] | default: 0 -%}
+  {%- assign ld = R.facet_leaders[k].provider -%}
+  <tr><td><a href="/rating/facets/{{ fslugs[i] }}/">{{ flabels[i] }}</a></td>
+    <td class="num{% if ld == A.slug %} lead-cell{% endif %}"><span class="cmp-meter"><i style="width:{{ va | times: 0.8 }}px"></i>{{ va }}</span></td>
+    <td class="num{% if ld == B.slug %} lead-cell{% endif %}"><span class="cmp-meter"><i style="width:{{ vb | times: 0.8 }}px"></i>{{ vb }}</span></td>
+    <td>{% if ld == A.slug %}{{ A.name }}{% elsif ld == B.slug %}{{ B.name }}{% else %}&mdash;{% endif %}</td></tr>
+  {%- endfor -%}
+  <tr><td><strong>Kin Score</strong></td><td class="num{% if R.best_overall == A.slug %} lead-cell{% endif %}">{{ A.composite }}</td><td class="num{% if R.best_overall == B.slug %} lead-cell{% endif %}">{{ B.composite }}</td><td>{% if R.best_overall == A.slug %}{{ A.name }}{% else %}{{ B.name }}{% endif %}</td></tr>
+  <tr><td><strong>Agent readiness</strong></td><td class="num">{{ A.agent_readiness.score }} <span class="cmp-sub">{{ A.agent_readiness.band }}</span></td><td class="num">{{ B.agent_readiness.score }} <span class="cmp-sub">{{ B.agent_readiness.band }}</span></td><td>{% if A.agent_readiness.score > B.agent_readiness.score %}{{ A.name }}{% elsif B.agent_readiness.score > A.agent_readiness.score %}{{ B.name }}{% else %}Tie{% endif %}</td></tr>
+  </tbody>
+</table></div>
+
+<h2 class="section-anchor" id="artifacts"><a href="#artifacts">Artifact coverage</a></h2>
+<p class="section-blurb">Every artifact type either provider publishes, from the tool's <code>artifact_matrix</code>. Differences are listed first.</p>
+<div class="cmp-scroll"><table class="cmp-table">
+  <thead><tr><th>Artifact</th><th class="num">{{ A.name }}</th><th class="num">{{ B.name }}</th></tr></thead>
+  <tbody>
+  {%- for pass in (1..2) -%}
+  {%- for row in R.artifact_matrix -%}
+  {%- assign ha = row[1][A.slug] -%}{%- assign hb = row[1][B.slug] -%}
+  {%- comment -%} Liquid has no operator precedence, so the pass test is spelled out. {%- endcomment -%}
+  {%- assign show = false -%}
+  {%- if pass == 1 -%}{%- if ha != hb -%}{%- assign show = true -%}{%- endif -%}
+  {%- else -%}{%- if ha == hb -%}{%- assign show = true -%}{%- endif -%}{%- endif -%}
+  {%- if show -%}
+  <tr><td>{{ row[0] }}</td><td class="num">{% if ha %}<span class="cmp-yes">&#10003;</span>{% else %}<span class="cmp-no">&mdash;</span>{% endif %}</td><td class="num">{% if hb %}<span class="cmp-yes">&#10003;</span>{% else %}<span class="cmp-no">&mdash;</span>{% endif %}</td></tr>
+  {%- endif -%}
+  {%- endfor -%}
+  {%- endfor -%}
+  </tbody>
+</table></div>
+
+<h2 class="section-anchor" id="economics"><a href="#economics">What it costs to get in</a></h2>
+<p class="section-blurb">Each provider's economics as the tool returns them. Grade A is quoted on the provider's own pricing page, B is arithmetic on quotes, C a stated prior. {{ R.economics_basis.note }}</p>
+<div class="cmp-scroll"><table class="cmp-table">
+  <thead><tr><th></th><th>{{ A.name }}</th><th>{{ B.name }}</th></tr></thead>
+  <tbody>
+  {%- assign ea = A.economics -%}{%- assign eb = B.economics -%}
+  <tr><td>Audience</td><td>{{ ea.audience | default: '&mdash;' }}</td><td>{{ eb.audience | default: '&mdash;' }}</td></tr>
+  <tr><td>Pricing basis</td><td>{{ ea.pricing_basis | default: '&mdash;' }}</td><td>{{ eb.pricing_basis | default: '&mdash;' }}</td></tr>
+  <tr><td>Delivery</td><td>{{ ea.delivery | default: '&mdash;' }}</td><td>{{ eb.delivery | default: '&mdash;' }}</td></tr>
+  <tr><td>Entry (per month)</td>
+    <td>{% if ea.entry_usd_month %}{{ ea.entry_usd_month.from }} <span class="cmp-sub">grade {{ ea.entry_usd_month.grade }}{% if ea.entry_usd_month.plan %} &middot; {{ ea.entry_usd_month.plan }}{% endif %}</span>{% else %}<span class="cmp-no">not published</span>{% endif %}</td>
+    <td>{% if eb.entry_usd_month %}{{ eb.entry_usd_month.from }} <span class="cmp-sub">grade {{ eb.entry_usd_month.grade }}{% if eb.entry_usd_month.plan %} &middot; {{ eb.entry_usd_month.plan }}{% endif %}</span>{% else %}<span class="cmp-no">not published</span>{% endif %}</td></tr>
+  <tr><td>Marginal cost</td>
+    <td>{% if ea.marginal_usd %}{{ ea.marginal_usd.from }} <span class="cmp-sub">grade {{ ea.marginal_usd.grade }}</span>{% else %}<span class="cmp-no">&mdash;</span>{% endif %}</td>
+    <td>{% if eb.marginal_usd %}{{ eb.marginal_usd.from }} <span class="cmp-sub">grade {{ eb.marginal_usd.grade }}</span>{% else %}<span class="cmp-no">&mdash;</span>{% endif %}</td></tr>
+  <tr><td>Take rate</td>
+    <td>{% if ea.take_rate %}{{ ea.take_rate.from }} <span class="cmp-sub">grade {{ ea.take_rate.grade }}</span>{% else %}<span class="cmp-no">&mdash;</span>{% endif %}</td>
+    <td>{% if eb.take_rate %}{{ eb.take_rate.from }} <span class="cmp-sub">grade {{ eb.take_rate.grade }}</span>{% else %}<span class="cmp-no">&mdash;</span>{% endif %}</td></tr>
+  <tr><td>Source</td>
+    <td>{% if ea.source %}<a href="{{ ea.source }}" rel="nofollow noopener" target="_blank">pricing page</a> <span class="cmp-sub">read {{ ea.fetched }}</span>{% else %}&mdash;{% endif %}</td>
+    <td>{% if eb.source %}<a href="{{ eb.source }}" rel="nofollow noopener" target="_blank">pricing page</a> <span class="cmp-sub">read {{ eb.fetched }}</span>{% else %}&mdash;{% endif %}</td></tr>
+  </tbody>
+</table></div>
+<p class="cmp-sub">Cheapest published way in: <strong>{% if R.cheapest_entry %}{% for x in R.providers %}{% if x.slug == R.cheapest_entry %}{{ x.name }}{% endif %}{% endfor %}{% else %}neither publishes one{% endif %}</strong>. Priced {{ R.economics_basis.priced }} of {{ R.economics_basis.of }}.</p>
+
+<details class="cmp-raw">
+  <summary>The full compare_providers response</summary>
+  <pre><code>{{ R | jsonify | escape }}</code></pre>
+</details>
+<p class="cmp-sub">Result read {{ SC.fetched }}. Scores move as providers publish; <a href="#run-it">run it yourself</a> for today's numbers.</p>
+
+{%- capture args -%}{"providers": {{ P.providers | jsonify }}}{%- endcapture -%}
+{%- capture curlp -%}/compare?providers={{ P.providers | join: ',' }}{%- endcapture -%}
+{% include compare-footer.html tool='compare_providers' args_json=args curl=curlp %}

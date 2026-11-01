@@ -8,7 +8,7 @@ api_specs:
   label: IEEE Xplore Metadata Search API
   slug: ieee-metadata-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ieee/refs/heads/main/openapi/ieee-metadata-search-api-openapi.yml
+  url: https://artifacts.apis.io/ieee/openapi/ieee-metadata-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: ieee-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyQuery\n  type: apiKey\n  in: query\n  parameter: apikey\n  description: API key obtained by registering at https://developer.ieee.org/member/register.\n    Must be appended to every request as the apikey query parameter.\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ieee/refs/heads/main/authentication/ieee-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ieee/authentication/ieee-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Scholarly Publishing

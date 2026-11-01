@@ -7,13 +7,13 @@ api_specs:
   label: Autonomous University of Barcelona OAI PMH API
   slug: uab-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uab/refs/heads/main/openapi/uab-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/uab/openapi/uab-oai-pmh-api-openapi.yml
 - filename: uab-search-api-openapi.yml
   format: yaml
   label: Autonomous University of Barcelona Search API
   slug: uab-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uab/refs/heads/main/openapi/uab-search-api-openapi.yml
+  url: https://artifacts.apis.io/uab/openapi/uab-search-api-openapi.yml
 auth_types: []
 description: UAB's programmable surface splits cleanly in two on authentication. Everything that carries scholarly metadata out of the institution — OAI-PMH harvesting and Invenio export at ddd, traces, ifmuc and the journal platform — is open and anonymous, with no key, no registration and no quota published. Everything that touches a person is behind the institution's own Apereo CAS server, which speaks CAS 3.0 to UAB applications and SAML 2.0 to federated relying parties. There is no API-key programme, no OAuth authorization server for third-party developers, and no self-service developer registration anywhere on the estate.
 kind: authentication
@@ -37,7 +37,7 @@ source_yaml: "specification: API Commons Authentication\nspecificationVersion: '
   \  evidence:\n    url: 'https://sso.uab.cat/cas/p3/serviceValidate?service=https://example.org&ticket=ST-invalid'\n    status: 403\n    body: >-\n      <cas:serviceResponse><cas:authenticationFailure code=\"INVALID_TICKET\">No se ha\n      reconocido el tique 'ST-invalid'</cas:authenticationFailure></cas:serviceResponse>\n    note: >-\n      A well-formed CAS protocol rejection of a deliberately invalid ticket — evidence the\n      validation endpoint is live and speaking the protocol, not evidence of any access\n      granted. Service registration is administrative; there is no self-service path.\n\n- name: SAML 2.0 web browser SSO\n  applies_to:\n  - uab:sso-saml-idp\n  - uab:sir-federation-entity\n  x-operator: institution\n  type: saml\n  metadata: https://sso.uab.cat/cas/idp/metadata\n  entity_id: https://sso.uab.cat/cas/idp\n  bindings:\n  - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST\n  - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign\n  - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect\n\
   \  - urn:oasis:names:tc:SAML:2.0:bindings:SOAP\n  evidence:\n    url: https://sso.uab.cat/cas/idp/metadata\n    status: 200\n    note: >-\n      Signing and encryption key descriptors both present. Federated relying parties reach\n      UAB either directly against this entity or through the RedIRIS SIR gateway entity\n      https://www.rediris.es/sir/uabidp, which is federation-operated and detailed in\n      identity-federation/uab-identity-federation.yml.\n\n- name: Dataverse API token\n  applies_to:\n  - uab:cora-rdr\n  x-operator: tenant\n  type: apiKey\n  in: header\n  parameter_name: X-Dataverse-key\n  evidence:\n    url: https://dataverse.csuc.cat/api/dataverses/UAB\n    status: 200\n    note: >-\n      Read access to UAB's collection is anonymous; write access uses the X-Dataverse-key\n      header advertised in the platform's CORS Access-Control-Allow-Headers. This scheme is\n      CSUC's and Dataverse's, recorded here because it is how UAB's research data is\n      reached —\
   \ not because UAB designed it.\n\nabsent:\n- mechanism: oauth2\n  note: No authorization server, no /.well-known/oauth-authorization-server, no consent screen on any UAB host.\n- mechanism: apiKey\n  note: No API-key issuance, developer registration or key-management page exists on any UAB host.\n- mechanism: openid_connect\n  note: >-\n    Apereo CAS can serve OIDC, but the module is not exposed here:\n    https://sso.uab.cat/cas/oidc/.well-known/openid-configuration returns 404,\n    https://sso.uab.cat/.well-known/openid-configuration returns 404, and\n    https://sso.uab.cat/cas/oidc/jwks returns a CAS 404 error document. Probed\n    2026-09-01.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uab/refs/heads/main/authentication/uab-authentication.yml
+source_yaml_url: https://artifacts.apis.io/uab/authentication/uab-authentication.yml
 summary_line: 0 schemes
 tags:
 - Education

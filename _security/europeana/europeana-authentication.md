@@ -8,13 +8,13 @@ api_specs:
   label: Europeana Record API
   slug: europeana-record-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/europeana/refs/heads/main/openapi/europeana-record-api-openapi.yml
+  url: https://artifacts.apis.io/europeana/openapi/europeana-record-api-openapi.yml
 - filename: europeana-search-api-openapi.yml
   format: yaml
   label: Europeana Search API
   slug: europeana-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/europeana/refs/heads/main/openapi/europeana-search-api-openapi.yml
+  url: https://artifacts.apis.io/europeana/openapi/europeana-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: europeana-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/europeana-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: query\n  parameter: wskey\n  description: Europeana API key. Register at https://pro.europeana.eu/pages/get-api.\n  sources:\n  - openapi/europeana-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/europeana/refs/heads/main/authentication/europeana-authentication.yml
+source_yaml_url: https://artifacts.apis.io/europeana/authentication/europeana-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Archives

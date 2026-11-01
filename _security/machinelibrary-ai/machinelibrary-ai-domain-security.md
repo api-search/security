@@ -5,37 +5,37 @@ api_specs:
   label: Space Frontiers Documents API
   slug: machinelibrary-ai-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/machinelibrary-ai/refs/heads/main/openapi/machinelibrary-ai-documents-api-openapi.yml
+  url: https://artifacts.apis.io/machinelibrary-ai/openapi/machinelibrary-ai-documents-api-openapi.yml
 - filename: machinelibrary-ai-payments-api-openapi.yml
   format: yaml
   label: Space Frontiers Payments API
   slug: machinelibrary-ai-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/machinelibrary-ai/refs/heads/main/openapi/machinelibrary-ai-payments-api-openapi.yml
+  url: https://artifacts.apis.io/machinelibrary-ai/openapi/machinelibrary-ai-payments-api-openapi.yml
 - filename: machinelibrary-ai-raw-document-downloads-api-openapi.yml
   format: yaml
   label: Space Frontiers Raw document downloads API
   slug: machinelibrary-ai-raw-document-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/machinelibrary-ai/refs/heads/main/openapi/machinelibrary-ai-raw-document-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/machinelibrary-ai/openapi/machinelibrary-ai-raw-document-downloads-api-openapi.yml
 - filename: machinelibrary-ai-recognition-api-openapi.yml
   format: yaml
   label: Space Frontiers Recognition API
   slug: machinelibrary-ai-recognition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/machinelibrary-ai/refs/heads/main/openapi/machinelibrary-ai-recognition-api-openapi.yml
+  url: https://artifacts.apis.io/machinelibrary-ai/openapi/machinelibrary-ai-recognition-api-openapi.yml
 - filename: machinelibrary-ai-search-api-openapi.yml
   format: yaml
   label: Space Frontiers Search API
   slug: machinelibrary-ai-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/machinelibrary-ai/refs/heads/main/openapi/machinelibrary-ai-search-api-openapi.yml
+  url: https://artifacts.apis.io/machinelibrary-ai/openapi/machinelibrary-ai-search-api-openapi.yml
 - filename: machinelibrary-ai-conversations-api-openapi.yml
   format: yaml
   label: Space Frontiers Conversations API
   slug: machinelibrary-ai-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/machinelibrary-ai/refs/heads/main/openapi/machinelibrary-ai-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/machinelibrary-ai/openapi/machinelibrary-ai-conversations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: machinelibrary-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: machinelibrary.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 05:29:39 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: mcp.machinelibrary.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 05:29:39 2026 GMT\n  hsts: null\n- host: api.machinelibrary.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 05:29:39 2026 GMT\n  hsts: null\ndomains:\n- domain: machinelibrary.ai\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/machinelibrary-ai/refs/heads/main/security/machinelibrary-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/machinelibrary-ai/security/machinelibrary-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Research

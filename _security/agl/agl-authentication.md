@@ -8,49 +8,49 @@ api_specs:
   label: AGL AGL To Supplier API
   slug: agl-agltosupplier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl/refs/heads/main/openapi/agl-agltosupplier-api-openapi.yml
+  url: https://artifacts.apis.io/agl/openapi/agl-agltosupplier-api-openapi.yml
 - filename: agl-codes-api-openapi.yml
   format: yaml
   label: AGL Codes API
   slug: agl-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl/refs/heads/main/openapi/agl-codes-api-openapi.yml
+  url: https://artifacts.apis.io/agl/openapi/agl-codes-api-openapi.yml
 - filename: agl-golf-clubs-api-openapi.yml
   format: yaml
   label: AGL Golf Clubs API
   slug: agl-golf-clubs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl/refs/heads/main/openapi/agl-golf-clubs-api-openapi.yml
+  url: https://artifacts.apis.io/agl/openapi/agl-golf-clubs-api-openapi.yml
 - filename: agl-reservation-api-openapi.yml
   format: yaml
   label: AGL Reservation API
   slug: agl-reservation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl/refs/heads/main/openapi/agl-reservation-api-openapi.yml
+  url: https://artifacts.apis.io/agl/openapi/agl-reservation-api-openapi.yml
 - filename: agl-reservations-api-openapi.yml
   format: yaml
   label: AGL Reservations API
   slug: agl-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl/refs/heads/main/openapi/agl-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/agl/openapi/agl-reservations-api-openapi.yml
 - filename: agl-static-packages-api-openapi.yml
   format: yaml
   label: AGL Static Packages API
   slug: agl-static-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl/refs/heads/main/openapi/agl-static-packages-api-openapi.yml
+  url: https://artifacts.apis.io/agl/openapi/agl-static-packages-api-openapi.yml
 - filename: agl-suppliertoagl-api-openapi.yml
   format: yaml
   label: AGL Supplier To AGL API
   slug: agl-suppliertoagl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl/refs/heads/main/openapi/agl-suppliertoagl-api-openapi.yml
+  url: https://artifacts.apis.io/agl/openapi/agl-suppliertoagl-api-openapi.yml
 - filename: agl-tee-times-api-openapi.yml
   format: yaml
   label: AGL Tee Times API
   slug: agl-tee-times-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl/refs/heads/main/openapi/agl-tee-times-api-openapi.yml
+  url: https://artifacts.apis.io/agl/openapi/agl-tee-times-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -151,7 +151,7 @@ source_yaml: "generated: '2026-09-12'\nmethod: searched\nsource: >-\n  openapi/a
   \ X-Client-Code\n  api: AGL OPEN API\n  type: identification-header\n  in: header\n  parameter: X-Client-Code\n  required: true\n  description: >-\n    Client code issued by the supplier to AGL. Required on the AGLToSupplier operations - the\n    callbacks AGL makes into the supplier's endpoint.\n  sources: [openapi/agl-open-openapi-original.yml]\n- name: bearerAuth\n  api: AGL OTA API\n  type: apiKey\n  in: header\n  parameter: Authorization\n  applied: globally via the root security block\n  note: >-\n    Declared as an apiKey in the Authorization header rather than as http/bearer, so the contract\n    does not state whether the value is prefixed \"Bearer \".\n  sources: [openapi/agl-ota-openapi-original.yml]\n- name: clientId\n  api: AGL OTA API\n  type: apiKey\n  in: header\n  parameter: clientId\n  applied: globally via the root security block\n  description: Partner identifier issued by AGL, sent alongside the Authorization token.\n  sources: [openapi/agl-ota-openapi-original.yml]\n\
   - name: Bearer\n  api: AGL Trip.com Reservation Integration API\n  type: http\n  scheme: Bearer\n  bearerFormat: JWT\n  sources: [openapi/agl-tripcom-outbound-openapi-original.yml]\n- name: ClientId\n  api: AGL Trip.com Reservation Integration API\n  type: apiKey\n  in: header\n  parameter: ClientId\n  sources: [openapi/agl-tripcom-outbound-openapi-original.yml]\n- name: Currency\n  api: AGL Trip.com Reservation Integration API\n  type: apiKey\n  in: header\n  parameter: Currency\n  note: >-\n    Declared as a securityScheme but is a content-negotiation header, not a credential. Recorded\n    as the contract declares it.\n  sources: [openapi/agl-tripcom-outbound-openapi-original.yml]\n- name: Language\n  api: AGL Trip.com Reservation Integration API\n  type: apiKey\n  in: header\n  parameter: Language\n  note: Same as Currency - declared as a securityScheme but is not a credential.\n  sources: [openapi/agl-tripcom-outbound-openapi-original.yml]\nscopes:\n  supported: false\n  note: >-\n\
   \    No OAuth 2.0 and therefore no scope surface. Authorization is all-or-nothing per issued\n    credential, differentiated only by partner type (Provider Partner or Seller Partner, chosen at\n    sign-up) and by which of the two contracts the partner is given access to. No scopes/ artifact\n    is written - there is nothing to enumerate.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agl/refs/heads/main/authentication/agl-authentication.yml
+source_yaml_url: https://artifacts.apis.io/agl/authentication/agl-authentication.yml
 summary_line: apiKey/http · 9 schemes
 tags:
 - Company

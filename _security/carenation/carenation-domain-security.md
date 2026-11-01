@@ -26,12 +26,12 @@ source_filename: carenation-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: carenation.in\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 13 03:32:27 2026 GMT\n  hsts: false\ndomains:\n- domain: carenation.in\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carenation/refs/heads/main/security/carenation-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/carenation/security/carenation-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Telehealth
 - Healthcare
-- RemoteCare
+- Remote Care
 - Digital Health
 - Platform
 ---

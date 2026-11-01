@@ -42,7 +42,7 @@ source_filename: honey-insurance-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.honeyinsurance.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 14 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: auth.honeyinsurance.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 16:58:24 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  note: Auth0 custom-domain tenant serving anonymous OIDC discovery and JWKS.\n- host: api.honeyinsurance.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 17 23:59:59 2027 GMT\n  hsts: false\n  note: >-\n    Private AWS API Gateway backing Honey's own quote funnel and account app.\n    Every anonymous path returns HTTP 403 {\"message\":\"Forbidden\"}; no HSTS\n    header is sent on the deny response.\ndomains:\n- domain: honeyinsurance.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/honey-insurance/refs/heads/main/security/honey-insurance-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/honey-insurance/security/honey-insurance-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance

@@ -5,43 +5,43 @@ api_specs:
   label: Neo4j Query API
   slug: query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-query-api-openapi.yml
+  url: https://artifacts.apis.io/neo4j/openapi/neo4j-query-api-openapi.yml
 - filename: neo4j-authentication-api-openapi.yml
   format: yaml
   label: Neo4j Authentication API
   slug: neo4j-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/neo4j/openapi/neo4j-authentication-api-openapi.yml
 - filename: neo4j-discovery-api-openapi.yml
   format: yaml
   label: Neo4j Discovery API
   slug: neo4j-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/neo4j/openapi/neo4j-discovery-api-openapi.yml
 - filename: neo4j-instances-api-openapi.yml
   format: yaml
   label: Neo4j Instances API
   slug: neo4j-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-instances-api-openapi.yml
+  url: https://artifacts.apis.io/neo4j/openapi/neo4j-instances-api-openapi.yml
 - filename: neo4j-snapshots-api-openapi.yml
   format: yaml
   label: Neo4j Snapshots API
   slug: neo4j-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/neo4j/openapi/neo4j-snapshots-api-openapi.yml
 - filename: neo4j-tenants-api-openapi.yml
   format: yaml
   label: Neo4j Tenants API
   slug: neo4j-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/neo4j/openapi/neo4j-tenants-api-openapi.yml
 - filename: neo4j-transactions-api-openapi.yml
   format: yaml
   label: Neo4j Transactions API
   slug: neo4j-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/neo4j/openapi/neo4j-transactions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -88,7 +88,7 @@ source_filename: neo4j-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: neo4j.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 17:27:13 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.neo4j.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 08:03:04 2026 GMT\n  hsts: null\ndomains:\n- domain: neo4j.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \";\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: neo4j.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/security/neo4j-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/neo4j/security/neo4j-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Neo4j

@@ -7,37 +7,37 @@ api_specs:
   label: Sanity Assets API
   slug: sanity-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-assets-api-openapi.yml
+  url: https://artifacts.apis.io/sanity/openapi/sanity-assets-api-openapi.yml
 - filename: sanity-listen-api-openapi.yml
   format: yaml
   label: Sanity Listen API
   slug: sanity-listen-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-listen-api-openapi.yml
+  url: https://artifacts.apis.io/sanity/openapi/sanity-listen-api-openapi.yml
 - filename: sanity-mutations-api-openapi.yml
   format: yaml
   label: Sanity Mutations API
   slug: sanity-mutations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-mutations-api-openapi.yml
+  url: https://artifacts.apis.io/sanity/openapi/sanity-mutations-api-openapi.yml
 - filename: sanity-projects-api-openapi.yml
   format: yaml
   label: Sanity Projects API
   slug: sanity-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-projects-api-openapi.yml
+  url: https://artifacts.apis.io/sanity/openapi/sanity-projects-api-openapi.yml
 - filename: sanity-query-api-openapi.yml
   format: yaml
   label: Sanity Query API
   slug: sanity-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-query-api-openapi.yml
+  url: https://artifacts.apis.io/sanity/openapi/sanity-query-api-openapi.yml
 - filename: sanity-webhooks-api-openapi.yml
   format: yaml
   label: Sanity Webhooks API
   slug: sanity-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/sanity/openapi/sanity-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +64,7 @@ source_filename: sanity-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sanity-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Sanity project API token\n  sources:\n  - openapi/sanity-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/authentication/sanity-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sanity/authentication/sanity-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Headless CMS

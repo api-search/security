@@ -7,55 +7,55 @@ api_specs:
   label: Harver Accounts API
   slug: harver-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/harver/openapi/harver-accounts-api-openapi.yml
 - filename: harver-applications-api-openapi.yml
   format: yaml
   label: Harver Applications API
   slug: harver-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-applications-api-openapi.yml
+  url: https://artifacts.apis.io/harver/openapi/harver-applications-api-openapi.yml
 - filename: harver-candidate-statuses-api-openapi.yml
   format: yaml
   label: Harver Candidate Statuses API
   slug: harver-candidate-statuses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-candidate-statuses-api-openapi.yml
+  url: https://artifacts.apis.io/harver/openapi/harver-candidate-statuses-api-openapi.yml
 - filename: harver-candidateapplications-api-openapi.yml
   format: yaml
   label: Harver Candidate Applications API
   slug: harver-candidateapplications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-candidateapplications-api-openapi.yml
+  url: https://artifacts.apis.io/harver/openapi/harver-candidateapplications-api-openapi.yml
 - filename: harver-scheduling-api-openapi.yml
   format: yaml
   label: Harver Scheduling API
   slug: harver-scheduling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-scheduling-api-openapi.yml
+  url: https://artifacts.apis.io/harver/openapi/harver-scheduling-api-openapi.yml
 - filename: harver-user-profile-api-openapi.yml
   format: yaml
   label: Harver User Profile API
   slug: harver-user-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-user-profile-api-openapi.yml
+  url: https://artifacts.apis.io/harver/openapi/harver-user-profile-api-openapi.yml
 - filename: harver-vacancies-api-openapi.yml
   format: yaml
   label: Harver Vacancies API
   slug: harver-vacancies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-vacancies-api-openapi.yml
+  url: https://artifacts.apis.io/harver/openapi/harver-vacancies-api-openapi.yml
 - filename: harver-webhook-api-openapi.yml
   format: yaml
   label: Harver Webhook API
   slug: harver-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/harver/openapi/harver-webhook-api-openapi.yml
 - filename: harver-oauth-api-openapi.yml
   format: yaml
   label: Harver OAUTH API
   slug: harver-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/harver/openapi/harver-oauth-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -91,7 +91,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://api.harver.com/docs\ndocs: https://api.harver.com/docs#tag/oauth\nsummary:\n  types: [oauth2]\n  oauth2_flows: [clientCredentials]\n  token_type: Bearer\n  access_token_ttl_seconds: 3600\nnotes: >-\n  The Harver Public API uses OAuth2 client_credentials. The client_id and\n  client_secret are provisioned by Harver per environment (Test / Production);\n  the API is available only to Harver customers. Security schemes are not\n  declared in the components of the published OpenAPI, so this profile is\n  captured from the documented authentication section rather than derived.\nschemes:\n- name: OAuth2ClientCredentials\n  type: oauth2\n  flow: clientCredentials\n  token_url: https://api.harver.com/oauth/token\n  token_url_test: https://api.harver-test.com/oauth/token\n  grant_type: client_credentials\n  content_type: application/x-www-form-urlencoded\n  request_body:\n    grant_type: client_credentials\n    client_id: '{provided\
   \ by Harver}'\n    client_secret: '{provided by Harver}'\n  usage: 'Authorization: Bearer {access_token}'\n  scopes: []\nenvironments:\n- name: Production\n  base_url: https://api.harver.com\n- name: Test\n  base_url: https://api.harver-test.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/authentication/harver-authentication.yml
+source_yaml_url: https://artifacts.apis.io/harver/authentication/harver-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

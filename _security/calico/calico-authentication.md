@@ -7,43 +7,43 @@ api_specs:
   label: Calico BGPConfiguration API
   slug: calico-bgpconfiguration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-bgpconfiguration-api-openapi.yml
+  url: https://artifacts.apis.io/calico/openapi/calico-bgpconfiguration-api-openapi.yml
 - filename: calico-bgppeer-api-openapi.yml
   format: yaml
   label: Calico BGPPeer API
   slug: calico-bgppeer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-bgppeer-api-openapi.yml
+  url: https://artifacts.apis.io/calico/openapi/calico-bgppeer-api-openapi.yml
 - filename: calico-globalnetworkpolicy-api-openapi.yml
   format: yaml
   label: Calico GlobalNetworkPolicy API
   slug: calico-globalnetworkpolicy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-globalnetworkpolicy-api-openapi.yml
+  url: https://artifacts.apis.io/calico/openapi/calico-globalnetworkpolicy-api-openapi.yml
 - filename: calico-hostendpoint-api-openapi.yml
   format: yaml
   label: Calico HostEndpoint API
   slug: calico-hostendpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-hostendpoint-api-openapi.yml
+  url: https://artifacts.apis.io/calico/openapi/calico-hostendpoint-api-openapi.yml
 - filename: calico-profile-api-openapi.yml
   format: yaml
   label: Calico Profile API
   slug: calico-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-profile-api-openapi.yml
+  url: https://artifacts.apis.io/calico/openapi/calico-profile-api-openapi.yml
 - filename: calico-ip-pool-api-openapi.yml
   format: yaml
   label: Calico IP Pool API
   slug: calico-ip-pool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-ip-pool-api-openapi.yml
+  url: https://artifacts.apis.io/calico/openapi/calico-ip-pool-api-openapi.yml
 - filename: calico-network-policy-api-openapi.yml
   format: yaml
   label: Calico Network Policy API
   slug: calico-network-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-network-policy-api-openapi.yml
+  url: https://artifacts.apis.io/calico/openapi/calico-network-policy-api-openapi.yml
 auth_types:
 - http
 - mutualTLS
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: >-\n  openapi/*
   \ API and used by most operator tooling,\n    including calicoctl through the standard kubeconfig.\n  declared_in_spec: false\n  spec_gap: true\n  source: Kubernetes API server contract, inherited. Not declared in openapi/.\nauthorization:\n  model: Kubernetes RBAC\n  api_group: projectcalico.org\n  docs: https://docs.tigera.io/calico/latest/getting-started/kubernetes/hardway/end-user-rbac\n  resources:\n  - networkpolicies\n  - globalnetworkpolicies\n  - stagednetworkpolicies\n  - stagedglobalnetworkpolicies\n  - stagedkubernetesnetworkpolicies\n  - networksets\n  - globalnetworksets\n  - ippools\n  - ipreservations\n  - bgppeers\n  - bgpconfigurations\n  - bgpfilters\n  - hostendpoints\n  - profiles\n  - tiers\n  - felixconfigurations\n  - clusterinformations\n  - caliconodestatuses\n  - kubecontrollersconfigurations\n  verbs: [get, list, watch, create, update, patch, delete]\n  tiered_policy_note: >-\n    Policy tiers add a second RBAC dimension: access to a policy is granted through\
   \ the `tiers`\n    resource as well as the policy resource itself, so a caller can hold full rights on\n    networkpolicies and still be refused inside a tier. See\n    https://docs.tigera.io/calico/latest/network-policy/policy-tiers/rbac-tiered-policies\n  cross_group_note: >-\n    Configuring an authenticated BGP peer requires RBAC on core/v1 Secrets as well, because\n    BGPPeer.spec.password.secretKeyRef points out of the projectcalico.org group. See\n    data-model/calico-data-model.yml.\n  failure_mode: >-\n    403 Forbidden with a Kubernetes metav1.Status body. NOT declared in openapi/ — see\n    errors/calico-problem-types.yml.\ndatastore_auth:\n  note: >-\n    On the legacy etcdv3 datastore (rather than the Kubernetes API datastore), Calico components\n    authenticate to etcd with their own TLS client certificates and etcd RBAC users/roles. That is a\n    component-to-datastore credential, not a client-facing one.\n  docs: https://docs.tigera.io/calico/latest/reference/etcd-rbac/\n\
   unrelated_oauth_surface:\n  note: >-\n    www.tigera.io publishes an RFC 8414 OAuth authorization server (scope `mcp`) fronting Tigera's\n    MCP server. It has nothing to do with authenticating to the Calico API. Recorded here only so it\n    is not mistaken for one. See scopes/calico-scopes.yml and mcp/calico-mcp.yml.\nagent_guidance: >-\n  Use the ambient cluster credential — an in-cluster service account token at\n  /var/run/secrets/kubernetes.io/serviceaccount/token, or the caller's kubeconfig. Do not look for a\n  Calico API key; none exists. Ensure the service account's Role/ClusterRole grants the verbs you\n  intend on the projectcalico.org resources above, plus the tier if tiered policy is in use.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/authentication/calico-authentication.yml
+source_yaml_url: https://artifacts.apis.io/calico/authentication/calico-authentication.yml
 summary_line: http/mutualTLS · 2 schemes
 tags:
 - CNI

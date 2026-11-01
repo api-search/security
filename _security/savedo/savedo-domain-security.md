@@ -27,7 +27,7 @@ source_filename: savedo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.savedo.de\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 07:44:34 2026 GMT\n  hsts: null\ndomains:\n- domain: savedo.de\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/savedo/refs/heads/main/security/savedo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/savedo/security/savedo-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

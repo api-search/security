@@ -9,73 +9,73 @@ api_specs:
   label: Abstract API VAT Validation API
   slug: abstract-api-vat-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-vat-validation-api-openapi.yml
+  url: https://artifacts.apis.io/abstract-api/openapi/abstract-api-vat-validation-api-openapi.yml
 - filename: abstract-api-abstract-avatars-api-api-openapi.yml
   format: yaml
   label: Abstract API Abstract Avatars API
   slug: abstract-api-abstract-avatars-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-abstract-avatars-api-api-openapi.yml
+  url: https://artifacts.apis.io/abstract-api/openapi/abstract-api-abstract-avatars-api-api-openapi.yml
 - filename: abstract-api-calculate-api-openapi.yml
   format: yaml
   label: Abstract API Calculate API
   slug: abstract-api-calculate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-calculate-api-openapi.yml
+  url: https://artifacts.apis.io/abstract-api/openapi/abstract-api-calculate-api-openapi.yml
 - filename: abstract-api-categories-api-openapi.yml
   format: yaml
   label: Abstract API Categories API
   slug: abstract-api-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-categories-api-openapi.yml
+  url: https://artifacts.apis.io/abstract-api/openapi/abstract-api-categories-api-openapi.yml
 - filename: abstract-api-convert-api-openapi.yml
   format: yaml
   label: Abstract API Convert API
   slug: abstract-api-convert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-convert-api-openapi.yml
+  url: https://artifacts.apis.io/abstract-api/openapi/abstract-api-convert-api-openapi.yml
 - filename: abstract-api-convert-time-api-openapi.yml
   format: yaml
   label: Abstract API Convert Time API
   slug: abstract-api-convert-time-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-convert-time-api-openapi.yml
+  url: https://artifacts.apis.io/abstract-api/openapi/abstract-api-convert-time-api-openapi.yml
 - filename: abstract-api-current-time-api-openapi.yml
   format: yaml
   label: Abstract API Current Time API
   slug: abstract-api-current-time-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-current-time-api-openapi.yml
+  url: https://artifacts.apis.io/abstract-api/openapi/abstract-api-current-time-api-openapi.yml
 - filename: abstract-api-historical-api-openapi.yml
   format: yaml
   label: Abstract API Historical API
   slug: abstract-api-historical-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-historical-api-openapi.yml
+  url: https://artifacts.apis.io/abstract-api/openapi/abstract-api-historical-api-openapi.yml
 - filename: abstract-api-live-api-openapi.yml
   format: yaml
   label: Abstract API Live API
   slug: abstract-api-live-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-live-api-openapi.yml
+  url: https://artifacts.apis.io/abstract-api/openapi/abstract-api-live-api-openapi.yml
 - filename: abstract-api-upload-api-openapi.yml
   format: yaml
   label: Abstract API Upload API
   slug: abstract-api-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-upload-api-openapi.yml
+  url: https://artifacts.apis.io/abstract-api/openapi/abstract-api-upload-api-openapi.yml
 - filename: abstract-api-url-api-openapi.yml
   format: yaml
   label: Abstract API URL API
   slug: abstract-api-url-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-url-api-openapi.yml
+  url: https://artifacts.apis.io/abstract-api/openapi/abstract-api-url-api-openapi.yml
 - filename: abstract-api-validate-api-openapi.yml
   format: yaml
   label: Abstract API Validate API
   slug: abstract-api-validate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-validate-api-openapi.yml
+  url: https://artifacts.apis.io/abstract-api/openapi/abstract-api-validate-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -119,7 +119,7 @@ source_yaml: "generated: '2026-08-29'\nmethod: searched\nsource: https://docs.ab
   \  - openapi/abstract-api-exchange-rates-api-openapi.yml\n  - openapi/abstract-api-iban-validation-api-openapi.yml\n  - openapi/abstract-api-image-processing-api-openapi.yml\n  - openapi/abstract-api-ip-geolocation-api-openapi.yml\n  - openapi/abstract-api-ip-intelligence-api-openapi.yml\n  - openapi/abstract-api-phone-intelligence-api-openapi.yml\n  - openapi/abstract-api-public-holidays-api-openapi.yml\n  - openapi/abstract-api-timezones-api-openapi.yml\n  - openapi/abstract-api-vat-validation-api-openapi.yml\n  - openapi/abstract-api-web-scraping-api-openapi.yml\n  - openapi/abstract-api-website-screenshot-api-openapi.yml\ndocs: https://docs.abstractapi.com/api/email-reputation\nmethods:\n- name: api-key-query\n  type: apiKey\n  in: query\n  parameter: api_key\n  example: GET https://emailreputation.abstractapi.com/v1/?api_key=KEY&email=user@example.com\n  provider_guidance: Simplest; the provider warns it exposes the key in URLs and server logs.\n- name: bearer-token\n  type: http\n\
   \  scheme: bearer\n  in: header\n  parameter: Authorization\n  example: 'Authorization: Bearer KEY'\n  provider_guidance: Recommended for production. When used, omit api_key from the query string.\n  gotcha: Must be \"Bearer KEY\" — not a bare key and not \"ApiKey KEY\".\n- name: form-post\n  type: apiKey\n  in: formData\n  parameter: api_key\n  example: 'POST body: api_key=KEY&email=user@example.com'\n- name: json-post\n  type: http\n  scheme: bearer\n  in: header\n  parameter: Authorization\n  example: 'POST {\"email\":\"user@example.com\"} with Authorization: Bearer KEY'\n  gotcha: 'Content-Type: application/json is required or the body is read as form data and the parameter\n    is not detected.'\nkey_management:\n  scope: per-product\n  note: Every Abstract product issues its own key. A key from one product returns 401 against another.\n    Keys are created and rotated in the dashboard at https://app.abstractapi.com/.\n  rotation_policy_published: false\n  expiry: none documented\n\
   \  domain_whitelisting:\n    available: true\n    tiers: Starter and above\n    note: Listed as a plan feature on every product pricing table.\noauth:\n  supported: false\n  note: No OAuth or OIDC. /.well-known/oauth-authorization-server and /.well-known/openid-configuration\n    404 on every host probed 2026-08-29. No scopes/ artifact is emitted, correctly.\nmtls:\n  supported: false\nunauthenticated_surface:\n  present: false\n  note: Every product endpoint requires a key; an unauthenticated call returns 400 or 401.\nfailure_modes:\n- status: 401\n  cause: missing key, wrong key, or a key issued for a different Abstract product\n- status: 422\n  cause: valid key, plan quota exhausted\n- status: 429\n  cause: valid key, per-second ceiling exceeded\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/authentication/abstract-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/abstract-api/authentication/abstract-api-authentication.yml
 summary_line: apiKey/http · 1 scheme
 tags:
 - Avatars

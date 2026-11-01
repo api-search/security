@@ -5,25 +5,25 @@ api_specs:
   label: Gooten Orders API
   slug: gooten-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/openapi/gooten-orders-api-openapi.yml
+  url: https://artifacts.apis.io/gooten/openapi/gooten-orders-api-openapi.yml
 - filename: gooten-print-assets-api-openapi.yml
   format: yaml
   label: Gooten Print Assets API
   slug: gooten-print-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/openapi/gooten-print-assets-api-openapi.yml
+  url: https://artifacts.apis.io/gooten/openapi/gooten-print-assets-api-openapi.yml
 - filename: gooten-products-api-openapi.yml
   format: yaml
   label: Gooten Products API
   slug: gooten-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/openapi/gooten-products-api-openapi.yml
+  url: https://artifacts.apis.io/gooten/openapi/gooten-products-api-openapi.yml
 - filename: gooten-shipping-api-openapi.yml
   format: yaml
   label: Gooten Shipping API
   slug: gooten-shipping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/openapi/gooten-shipping-api-openapi.yml
+  url: https://artifacts.apis.io/gooten/openapi/gooten-shipping-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: gooten-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.gooten.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.print.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: gooten.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: print.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/security/gooten-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gooten/security/gooten-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Print on Demand

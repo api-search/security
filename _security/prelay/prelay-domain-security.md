@@ -24,7 +24,7 @@ source_filename: prelay-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.prelay.com\n  https: false\ndomains:\n- domain: prelay.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prelay/refs/heads/main/security/prelay-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/prelay/security/prelay-domain-security.yml
 summary_line: DNSSEC · DMARC
 tags:
 - Company

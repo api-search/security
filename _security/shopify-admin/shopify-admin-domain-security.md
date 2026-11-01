@@ -5,55 +5,55 @@ api_specs:
   label: Shopify Webhooks
   slug: shopify-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/asyncapi/shopify-admin-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/shopify-admin/asyncapi/shopify-admin-webhooks-asyncapi.yml
 - filename: shopify-admin-collections-api-openapi.yml
   format: yaml
   label: Shopify Admin API Collections API
   slug: shopify-admin-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/openapi/shopify-admin-collections-api-openapi.yml
+  url: https://artifacts.apis.io/shopify-admin/openapi/shopify-admin-collections-api-openapi.yml
 - filename: shopify-admin-customers-api-openapi.yml
   format: yaml
   label: Shopify Admin API Customers API
   slug: shopify-admin-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/openapi/shopify-admin-customers-api-openapi.yml
+  url: https://artifacts.apis.io/shopify-admin/openapi/shopify-admin-customers-api-openapi.yml
 - filename: shopify-admin-inventory-api-openapi.yml
   format: yaml
   label: Shopify Admin API Inventory API
   slug: shopify-admin-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/openapi/shopify-admin-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/shopify-admin/openapi/shopify-admin-inventory-api-openapi.yml
 - filename: shopify-admin-locations-api-openapi.yml
   format: yaml
   label: Shopify Admin API Locations API
   slug: shopify-admin-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/openapi/shopify-admin-locations-api-openapi.yml
+  url: https://artifacts.apis.io/shopify-admin/openapi/shopify-admin-locations-api-openapi.yml
 - filename: shopify-admin-orders-api-openapi.yml
   format: yaml
   label: Shopify Admin API Orders API
   slug: shopify-admin-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/openapi/shopify-admin-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shopify-admin/openapi/shopify-admin-orders-api-openapi.yml
 - filename: shopify-admin-products-api-openapi.yml
   format: yaml
   label: Shopify Admin API Products API
   slug: shopify-admin-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/openapi/shopify-admin-products-api-openapi.yml
+  url: https://artifacts.apis.io/shopify-admin/openapi/shopify-admin-products-api-openapi.yml
 - filename: shopify-admin-shop-api-openapi.yml
   format: yaml
   label: Shopify Admin API Shop API
   slug: shopify-admin-shop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/openapi/shopify-admin-shop-api-openapi.yml
+  url: https://artifacts.apis.io/shopify-admin/openapi/shopify-admin-shop-api-openapi.yml
 - filename: shopify-admin-webhooks-api-openapi.yml
   format: yaml
   label: Shopify Admin API Webhooks API
   slug: shopify-admin-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/openapi/shopify-admin-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/shopify-admin/openapi/shopify-admin-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -83,7 +83,7 @@ source_filename: shopify-admin-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: shopify.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 12 05:59:10 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: shopify.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/security/shopify-admin-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/shopify-admin/security/shopify-admin-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Commerce

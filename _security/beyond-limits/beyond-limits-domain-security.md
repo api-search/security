@@ -28,7 +28,7 @@ source_filename: beyond-limits-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-31'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.beyond.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 17:16:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: beyond.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beyond-limits/refs/heads/main/security/beyond-limits-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/beyond-limits/security/beyond-limits-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

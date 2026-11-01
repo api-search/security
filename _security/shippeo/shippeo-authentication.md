@@ -7,25 +7,25 @@ api_specs:
   label: Shippeo ETA and Status API
   slug: shippeo-eta-and-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippeo/refs/heads/main/openapi/shippeo-eta-and-status-api-openapi.yml
+  url: https://artifacts.apis.io/shippeo/openapi/shippeo-eta-and-status-api-openapi.yml
 - filename: shippeo-event-subscriptions-api-openapi.yml
   format: yaml
   label: Shippeo Event Subscriptions API
   slug: shippeo-event-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippeo/refs/heads/main/openapi/shippeo-event-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/shippeo/openapi/shippeo-event-subscriptions-api-openapi.yml
 - filename: shippeo-positions-api-openapi.yml
   format: yaml
   label: Shippeo Positions API
   slug: shippeo-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippeo/refs/heads/main/openapi/shippeo-positions-api-openapi.yml
+  url: https://artifacts.apis.io/shippeo/openapi/shippeo-positions-api-openapi.yml
 - filename: shippeo-transport-orders-api-openapi.yml
   format: yaml
   label: Shippeo Transport Orders API
   slug: shippeo-transport-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippeo/refs/heads/main/openapi/shippeo-transport-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shippeo/openapi/shippeo-transport-orders-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -60,7 +60,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: researched\nsource: developers.shippeo.com portal + public product documentation\nsummary:\n  types:\n  - oauth2\n  - http\nschemes:\n- name: oauth2ClientCredentials\n  type: oauth2\n  flow: clientCredentials\n  description: >-\n    OAuth2 client-credentials. A client_id / client_secret pair is issued when\n    you create an application in the Shippeo Developer Portal (each application\n    corresponds to an API user / clientID). The client credentials are\n    exchanged for an access token, which is then presented on API calls. The\n    exact token endpoint is documented in the login-gated portal and is not\n    reproduced here.\n  sources:\n  - https://developers.shippeo.com/\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    The OAuth2 access token is presented on each request as\n    `Authorization: Bearer ACCESS_TOKEN`.\n  sources:\n  - openapi/shippeo-openapi.yml\nnotes: >-\n  Shippeo is enterprise, customer-provisioned\
   \ - API credentials require a\n  contracted account. Shippeo additionally supports SSO with just-in-time (JIT)\n  user provisioning for platform/portal users, which is a login mechanism for\n  humans rather than an API authentication scheme.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shippeo/refs/heads/main/authentication/shippeo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/shippeo/authentication/shippeo-authentication.yml
 summary_line: oauth2/http · 2 schemes
 tags:
 - Supply Chain

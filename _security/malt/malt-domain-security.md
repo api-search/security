@@ -5,25 +5,25 @@ api_specs:
   label: Malt Fee Invoices API
   slug: malt-fee-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/malt/refs/heads/main/openapi/malt-fee-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/malt/openapi/malt-fee-invoices-api-openapi.yml
 - filename: malt-invoices-api-openapi.yml
   format: yaml
   label: Malt Invoices API
   slug: malt-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/malt/refs/heads/main/openapi/malt-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/malt/openapi/malt-invoices-api-openapi.yml
 - filename: malt-payments-api-openapi.yml
   format: yaml
   label: Malt Payments API
   slug: malt-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/malt/refs/heads/main/openapi/malt-payments-api-openapi.yml
+  url: https://artifacts.apis.io/malt/openapi/malt-payments-api-openapi.yml
 - filename: malt-scim-api-openapi.yml
   format: yaml
   label: Malt SCIM API
   slug: malt-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/malt/refs/heads/main/openapi/malt-scim-api-openapi.yml
+  url: https://artifacts.apis.io/malt/openapi/malt-scim-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: malt-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.malt.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 13:50:21 2026 GMT\n  hsts: null\n- host: api.malt.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 00:44:51 2026 GMT\n  hsts: true\n  hsts_max_age: 315360000\ndomains:\n- domain: malt.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/malt/refs/heads/main/security/malt-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/malt/security/malt-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

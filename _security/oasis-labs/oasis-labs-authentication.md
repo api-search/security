@@ -35,7 +35,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: >-\n  github.com/oasislabs/parcel-clients typescript/src/token.ts + http.ts\n  (documented OAuth2 model of the official SDK)\ndocs: https://docs.oasislabs.com/parcel/latest\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\n  client_authentication: private_key_jwt\nschemes:\n- name: OAuth2ClientCredentials\n  type: oauth2\n  flow: clientCredentials\n  token_url: https://auth.oasislabs.com/oauth/token\n  grant_type: client_credentials\n  client_authentication:\n    method: private_key_jwt\n    client_assertion_type: urn:ietf:params:oauth:client-assertion-type:jwt-bearer\n    description: >-\n      The client authenticates with a signed JWT client assertion (private_key_jwt)\n      rather than a shared client secret. The SDK mints a short-lived JWT\n      (default 1 hour lifetime) signed with the app's private key.\n  audience: https://api.oasislabs.com/parcel\n  default_scopes:\n  - parcel.full\nnotes:\
   \ >-\n  Access tokens are used as Bearer tokens against the Parcel API base\n  (https://api.oasislabs.com/parcel/v1) and storage endpoint\n  (https://storage.oasislabs.com/v1/parcel). Scope grammar is parcel.full or\n  parcel.<resource>.<action>; see scopes/oasis-labs-scopes.yml.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oasis-labs/refs/heads/main/authentication/oasis-labs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/oasis-labs/authentication/oasis-labs-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

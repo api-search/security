@@ -4,36 +4,24 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: meteosource-air-quality-data-api-air-quality-api-openapi.yml
-  format: yaml
-  label: MeteoSource Air Quality Data API Air Quality API
-  slug: meteosource-air-quality-data-api-air-quality-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meteosource-air-quality-data-api/refs/heads/main/openapi/meteosource-air-quality-data-api-air-quality-api-openapi.yml
-- filename: meteosource-air-quality-data-api-history-api-openapi.yml
-  format: yaml
-  label: MeteoSource Air Quality Data API History API
-  slug: meteosource-air-quality-data-api-history-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meteosource-air-quality-data-api/refs/heads/main/openapi/meteosource-air-quality-data-api-history-api-openapi.yml
 - filename: meteosource-air-quality-data-api-locations-api-openapi.yml
   format: yaml
   label: MeteoSource Air Quality Data API Locations API
   slug: meteosource-air-quality-data-api-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meteosource-air-quality-data-api/refs/heads/main/openapi/meteosource-air-quality-data-api-locations-api-openapi.yml
-- filename: meteosource-air-quality-data-api-maps-api-openapi.yml
-  format: yaml
-  label: MeteoSource Air Quality Data API Maps API
-  slug: meteosource-air-quality-data-api-maps-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meteosource-air-quality-data-api/refs/heads/main/openapi/meteosource-air-quality-data-api-maps-api-openapi.yml
+  url: https://artifacts.apis.io/meteosource-air-quality-data-api/openapi/meteosource-air-quality-data-api-locations-api-openapi.yml
 - filename: meteosource-air-quality-data-api-weather-api-openapi.yml
   format: yaml
   label: MeteoSource Air Quality Data API Weather API
   slug: meteosource-air-quality-data-api-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meteosource-air-quality-data-api/refs/heads/main/openapi/meteosource-air-quality-data-api-weather-api-openapi.yml
+  url: https://artifacts.apis.io/meteosource-air-quality-data-api/openapi/meteosource-air-quality-data-api-weather-api-openapi.yml
+- filename: meteosource-air-quality-data-api-weather-maps-api-openapi.yml
+  format: yaml
+  label: MeteoSource Air Quality Data API Weather maps API
+  slug: meteosource-air-quality-data-api-weather-maps-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/meteosource-air-quality-data-api/openapi/meteosource-air-quality-data-api-weather-maps-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +54,7 @@ source_filename: meteosource-air-quality-data-api-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/meteosource-air-quality-data-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: apiKeyQuery\n  type: apiKey\n  in: query\n  parameter: key\n  sources:\n  - openapi/meteosource-air-quality-data-api-openapi.yml\n- name: apiKeyHeader\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  sources:\n  - openapi/meteosource-air-quality-data-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meteosource-air-quality-data-api/refs/heads/main/authentication/meteosource-air-quality-data-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/meteosource-air-quality-data-api/authentication/meteosource-air-quality-data-api-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Air Quality

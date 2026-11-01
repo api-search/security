@@ -5,61 +5,61 @@ api_specs:
   label: Archastro Activity Feed API
   slug: archastro-activity-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-activity-feed-api-openapi.yml
+  url: https://artifacts.apis.io/archastro/openapi/archastro-activity-feed-api-openapi.yml
 - filename: archastro-agents-api-openapi.yml
   format: yaml
   label: Archastro Agents API
   slug: archastro-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-agents-api-openapi.yml
+  url: https://artifacts.apis.io/archastro/openapi/archastro-agents-api-openapi.yml
 - filename: archastro-auth-api-openapi.yml
   format: yaml
   label: Archastro Auth API
   slug: archastro-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-auth-api-openapi.yml
+  url: https://artifacts.apis.io/archastro/openapi/archastro-auth-api-openapi.yml
 - filename: archastro-files-api-openapi.yml
   format: yaml
   label: Archastro Files API
   slug: archastro-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-files-api-openapi.yml
+  url: https://artifacts.apis.io/archastro/openapi/archastro-files-api-openapi.yml
 - filename: archastro-s2s-api-openapi.yml
   format: yaml
   label: Archastro S2s API
   slug: archastro-s2s-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-s2s-api-openapi.yml
+  url: https://artifacts.apis.io/archastro/openapi/archastro-s2s-api-openapi.yml
 - filename: archastro-slack-channel-bindings-api-openapi.yml
   format: yaml
   label: Archastro Slack Channel Bindings API
   slug: archastro-slack-channel-bindings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-slack-channel-bindings-api-openapi.yml
+  url: https://artifacts.apis.io/archastro/openapi/archastro-slack-channel-bindings-api-openapi.yml
 - filename: archastro-teams-api-openapi.yml
   format: yaml
   label: Archastro Teams API
   slug: archastro-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-teams-api-openapi.yml
+  url: https://artifacts.apis.io/archastro/openapi/archastro-teams-api-openapi.yml
 - filename: archastro-threads-api-openapi.yml
   format: yaml
   label: Archastro Threads API
   slug: archastro-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-threads-api-openapi.yml
+  url: https://artifacts.apis.io/archastro/openapi/archastro-threads-api-openapi.yml
 - filename: archastro-users-api-openapi.yml
   format: yaml
   label: Archastro Users API
   slug: archastro-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-users-api-openapi.yml
+  url: https://artifacts.apis.io/archastro/openapi/archastro-users-api-openapi.yml
 - filename: archastro-oauth-api-openapi.yml
   format: yaml
   label: Archastro OAUTH API
   slug: archastro-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/archastro/openapi/archastro-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -87,7 +87,7 @@ source_filename: archastro-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: archastro.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 07:50:12 2026 GMT\n  hsts: false\ndomains:\n- domain: archastro.ai\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/security/archastro-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/archastro/security/archastro-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

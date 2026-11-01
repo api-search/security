@@ -5,25 +5,25 @@ api_specs:
   label: Perenual Care API
   slug: perenual-care-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perenual/refs/heads/main/openapi/perenual-care-api-openapi.yml
+  url: https://artifacts.apis.io/perenual/openapi/perenual-care-api-openapi.yml
 - filename: perenual-maps-api-openapi.yml
   format: yaml
   label: Perenual Maps API
   slug: perenual-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perenual/refs/heads/main/openapi/perenual-maps-api-openapi.yml
+  url: https://artifacts.apis.io/perenual/openapi/perenual-maps-api-openapi.yml
 - filename: perenual-pests-api-openapi.yml
   format: yaml
   label: Perenual Pests API
   slug: perenual-pests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perenual/refs/heads/main/openapi/perenual-pests-api-openapi.yml
+  url: https://artifacts.apis.io/perenual/openapi/perenual-pests-api-openapi.yml
 - filename: perenual-species-api-openapi.yml
   format: yaml
   label: Perenual Species API
   slug: perenual-species-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perenual/refs/heads/main/openapi/perenual-species-api-openapi.yml
+  url: https://artifacts.apis.io/perenual/openapi/perenual-species-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: perenual-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: perenual.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 11:32:07 2026 GMT\n  hsts: false\ndomains:\n- domain: perenual.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/perenual/refs/heads/main/security/perenual-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/perenual/security/perenual-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Plants

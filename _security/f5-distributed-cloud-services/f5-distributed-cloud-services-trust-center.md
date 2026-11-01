@@ -5,13 +5,13 @@ api_specs:
   label: F5 Distributed Cloud Services Config API
   slug: f5-distributed-cloud-services-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5-distributed-cloud-services/refs/heads/main/openapi/f5-distributed-cloud-services-config-api-openapi.yml
+  url: https://artifacts.apis.io/f5-distributed-cloud-services/openapi/f5-distributed-cloud-services-config-api-openapi.yml
 - filename: f5-distributed-cloud-services-data-api-openapi.yml
   format: yaml
   label: F5 Distributed Cloud Services Data API
   slug: f5-distributed-cloud-services-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5-distributed-cloud-services/refs/heads/main/openapi/f5-distributed-cloud-services-data-api-openapi.yml
+  url: https://artifacts.apis.io/f5-distributed-cloud-services/openapi/f5-distributed-cloud-services-data-api-openapi.yml
 certification_count: 2
 certifications:
 - PCI DSS
@@ -29,7 +29,7 @@ source_filename: f5-distributed-cloud-services-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.f5.com/\nurl: https://trust.f5.com/\ncertifications:\n- PCI DSS\n- GDPR\nevidence:\n- source: https://trust.f5.com/\n  keywords:\n  - pci dss\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/f5-distributed-cloud-services/refs/heads/main/security/f5-distributed-cloud-services-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/f5-distributed-cloud-services/security/f5-distributed-cloud-services-trust-center.yml
 summary_line: PCI DSS, GDPR
 tags:
 - Application Security

@@ -5,97 +5,97 @@ api_specs:
   label: The Administration for Children and Families Plg Auth Check API
   slug: the-administration-for-children-and-families-plg-auth-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-plg-auth-check-api-openapi.yml
+  url: https://artifacts.apis.io/the-administration-for-children-and-families/openapi/the-administration-for-children-and-families-plg-auth-check-api-openapi.yml
 - filename: the-administration-for-children-and-families-auth-check-api-openapi.yml
   format: yaml
   label: The Administration for Children and Families Auth Check API
   slug: the-administration-for-children-and-families-auth-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-auth-check-api-openapi.yml
+  url: https://artifacts.apis.io/the-administration-for-children-and-families/openapi/the-administration-for-children-and-families-auth-check-api-openapi.yml
 - filename: the-administration-for-children-and-families-change-request-logs-api-openapi.yml
   format: yaml
   label: The Administration for Children and Families Change Request Logs API
   slug: the-administration-for-children-and-families-change-request-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-change-request-logs-api-openapi.yml
+  url: https://artifacts.apis.io/the-administration-for-children-and-families/openapi/the-administration-for-children-and-families-change-request-logs-api-openapi.yml
 - filename: the-administration-for-children-and-families-change-requests-api-openapi.yml
   format: yaml
   label: The Administration for Children and Families Change Requests API
   slug: the-administration-for-children-and-families-change-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-change-requests-api-openapi.yml
+  url: https://artifacts.apis.io/the-administration-for-children-and-families/openapi/the-administration-for-children-and-families-change-requests-api-openapi.yml
 - filename: the-administration-for-children-and-families-data-files-api-openapi.yml
   format: yaml
   label: The Administration for Children and Families Data Files API
   slug: the-administration-for-children-and-families-data-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-data-files-api-openapi.yml
+  url: https://artifacts.apis.io/the-administration-for-children-and-families/openapi/the-administration-for-children-and-families-data-files-api-openapi.yml
 - filename: the-administration-for-children-and-families-feature-flags-api-openapi.yml
   format: yaml
   label: The Administration for Children and Families Feature Flags API
   slug: the-administration-for-children-and-families-feature-flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-feature-flags-api-openapi.yml
+  url: https://artifacts.apis.io/the-administration-for-children-and-families/openapi/the-administration-for-children-and-families-feature-flags-api-openapi.yml
 - filename: the-administration-for-children-and-families-feedback-api-openapi.yml
   format: yaml
   label: The Administration for Children and Families Feedback API
   slug: the-administration-for-children-and-families-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/the-administration-for-children-and-families/openapi/the-administration-for-children-and-families-feedback-api-openapi.yml
 - filename: the-administration-for-children-and-families-login-api-openapi.yml
   format: yaml
   label: The Administration for Children and Families Login API
   slug: the-administration-for-children-and-families-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-login-api-openapi.yml
+  url: https://artifacts.apis.io/the-administration-for-children-and-families/openapi/the-administration-for-children-and-families-login-api-openapi.yml
 - filename: the-administration-for-children-and-families-logout-api-openapi.yml
   format: yaml
   label: The Administration for Children and Families Logout API
   slug: the-administration-for-children-and-families-logout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-logout-api-openapi.yml
+  url: https://artifacts.apis.io/the-administration-for-children-and-families/openapi/the-administration-for-children-and-families-logout-api-openapi.yml
 - filename: the-administration-for-children-and-families-logs-api-openapi.yml
   format: yaml
   label: The Administration for Children and Families Logs API
   slug: the-administration-for-children-and-families-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-logs-api-openapi.yml
+  url: https://artifacts.apis.io/the-administration-for-children-and-families/openapi/the-administration-for-children-and-families-logs-api-openapi.yml
 - filename: the-administration-for-children-and-families-oidc-api-openapi.yml
   format: yaml
   label: The Administration for Children and Families Oidc API
   slug: the-administration-for-children-and-families-oidc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-oidc-api-openapi.yml
+  url: https://artifacts.apis.io/the-administration-for-children-and-families/openapi/the-administration-for-children-and-families-oidc-api-openapi.yml
 - filename: the-administration-for-children-and-families-reports-api-openapi.yml
   format: yaml
   label: The Administration for Children and Families Reports API
   slug: the-administration-for-children-and-families-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-reports-api-openapi.yml
+  url: https://artifacts.apis.io/the-administration-for-children-and-families/openapi/the-administration-for-children-and-families-reports-api-openapi.yml
 - filename: the-administration-for-children-and-families-roles-api-openapi.yml
   format: yaml
   label: The Administration for Children and Families Roles API
   slug: the-administration-for-children-and-families-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-roles-api-openapi.yml
+  url: https://artifacts.apis.io/the-administration-for-children-and-families/openapi/the-administration-for-children-and-families-roles-api-openapi.yml
 - filename: the-administration-for-children-and-families-security-api-openapi.yml
   format: yaml
   label: The Administration for Children and Families Security API
   slug: the-administration-for-children-and-families-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-security-api-openapi.yml
+  url: https://artifacts.apis.io/the-administration-for-children-and-families/openapi/the-administration-for-children-and-families-security-api-openapi.yml
 - filename: the-administration-for-children-and-families-stts-api-openapi.yml
   format: yaml
   label: The Administration for Children and Families Stts API
   slug: the-administration-for-children-and-families-stts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-stts-api-openapi.yml
+  url: https://artifacts.apis.io/the-administration-for-children-and-families/openapi/the-administration-for-children-and-families-stts-api-openapi.yml
 - filename: the-administration-for-children-and-families-users-api-openapi.yml
   format: yaml
   label: The Administration for Children and Families Users API
   slug: the-administration-for-children-and-families-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-users-api-openapi.yml
+  url: https://artifacts.apis.io/the-administration-for-children-and-families/openapi/the-administration-for-children-and-families-users-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -153,7 +153,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.acf.hhs.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 20 23:59:59 2027 GMT\n  hsts: false\n- host: tanfdata.acf.hhs.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 20:21:05 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: acf.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 27 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: hhs.gov\n  dnssec: true\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"e5.com\"\n  - 0 issue \"entrust.net\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: acf.gov\n  dnssec: true\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"entrust.net\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n\
   \  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/security/the-administration-for-children-and-families-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/the-administration-for-children-and-families/security/the-administration-for-children-and-families-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Children

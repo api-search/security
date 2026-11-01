@@ -5,31 +5,31 @@ api_specs:
   label: The Trade Desk Advertiser API
   slug: trade-desk-advertiser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/openapi/trade-desk-advertiser-api-openapi.yml
+  url: https://artifacts.apis.io/trade-desk/openapi/trade-desk-advertiser-api-openapi.yml
 - filename: trade-desk-deletionoptout-api-openapi.yml
   format: yaml
   label: The Trade Desk DeletionOptOut API
   slug: trade-desk-deletionoptout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/openapi/trade-desk-deletionoptout-api-openapi.yml
+  url: https://artifacts.apis.io/trade-desk/openapi/trade-desk-deletionoptout-api-openapi.yml
 - filename: trade-desk-offlineconversion-api-openapi.yml
   format: yaml
   label: The Trade Desk OfflineConversion API
   slug: trade-desk-offlineconversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/openapi/trade-desk-offlineconversion-api-openapi.yml
+  url: https://artifacts.apis.io/trade-desk/openapi/trade-desk-offlineconversion-api-openapi.yml
 - filename: trade-desk-ip-address-api-openapi.yml
   format: yaml
   label: The Trade Desk IP Address API
   slug: trade-desk-ip-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/openapi/trade-desk-ip-address-api-openapi.yml
+  url: https://artifacts.apis.io/trade-desk/openapi/trade-desk-ip-address-api-openapi.yml
 - filename: trade-desk-third-party-api-openapi.yml
   format: yaml
   label: The Trade Desk Third Party API
   slug: trade-desk-third-party-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/openapi/trade-desk-third-party-api-openapi.yml
+  url: https://artifacts.apis.io/trade-desk/openapi/trade-desk-third-party-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -131,7 +131,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.thetradedesk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 20:55:21 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: partner.thetradedesk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  2 07:59:59 2027 GMT\n  hsts: null\n- host: api.thetradedesk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  2 07:59:59 2027 GMT\n  hsts: null\n- host: open.thetradedesk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  2 07:59:59 2027 GMT\n  hsts: false\n  hsts_max_age: null\n- host: auth.thetradedesk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  2 07:59:59 2027 GMT\n  hsts: false\n  hsts_max_age: null\n- host: usw-data.adsrvr.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  2 07:59:59 2027 GMT\n  hsts: false\n  hsts_max_age: null\n- host: offlineattrib.adsrvr.org\n\
   \  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  2 07:59:59 2027 GMT\n  hsts: false\n  hsts_max_age: null\n- host: insight.adsrvr.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  2 07:59:59 2027 GMT\n  hsts: false\n  hsts_max_age: null\n- host: open.sincera.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 08:23:39 2026 GMT\n  hsts: false\n  hsts_max_age: null\n- host: prod.uidapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 23 23:59:59 2027 GMT\n  hsts: false\n  hsts_max_age: null\ndomains:\n- domain: thetradedesk.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: adsrvr.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: sincera.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: uidapi.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\nnote: The mechanical probe\
   \ caps at three hosts and one registrable domain. The additional hosts and domains\n  below were probed by hand on 2026-08-13 with the same method, to cover the API, auth, data-ingest, OpenSincera\n  and UID2 operator surfaces. No HSTS on any host except www.thetradedesk.com; no CAA and no DNSSEC on\n  any Trade Desk domain. DMARC is p=reject across thetradedesk.com, adsrvr.org, sincera.io and uidapi.com,\n  with adsrvr.org and uidapi.com aggregate reports routing to secops@thetradedesk.com — which is a useful\n  ownership signal for those two non-thetradedesk.com domains.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/security/trade-desk-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trade-desk/security/trade-desk-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Advertising

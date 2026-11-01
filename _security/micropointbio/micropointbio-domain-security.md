@@ -26,7 +26,7 @@ source_filename: micropointbio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: micropointbio.com.cn\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 28 05:42:39 2026 GMT\n  hsts: false\ndomains:\n- domain: micropointbio.com.cn\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/micropointbio/refs/heads/main/security/micropointbio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/micropointbio/security/micropointbio-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company

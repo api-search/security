@@ -7,25 +7,25 @@ api_specs:
   label: Microsoft Bot Framework Activities API
   slug: microsoft-bot-framework-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bot-framework/refs/heads/main/openapi/microsoft-bot-framework-activities-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bot-framework/openapi/microsoft-bot-framework-activities-api-openapi.yml
 - filename: microsoft-bot-framework-attachments-api-openapi.yml
   format: yaml
   label: Microsoft Bot Framework Attachments API
   slug: microsoft-bot-framework-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bot-framework/refs/heads/main/openapi/microsoft-bot-framework-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bot-framework/openapi/microsoft-bot-framework-attachments-api-openapi.yml
 - filename: microsoft-bot-framework-conversations-api-openapi.yml
   format: yaml
   label: Microsoft Bot Framework Conversations API
   slug: microsoft-bot-framework-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bot-framework/refs/heads/main/openapi/microsoft-bot-framework-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bot-framework/openapi/microsoft-bot-framework-conversations-api-openapi.yml
 - filename: microsoft-bot-framework-members-api-openapi.yml
   format: yaml
   label: Microsoft Bot Framework Members API
   slug: microsoft-bot-framework-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bot-framework/refs/heads/main/openapi/microsoft-bot-framework-members-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bot-framework/openapi/microsoft-bot-framework-members-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: microsoft-bot-framework-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-bot-framework-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/microsoft-bot-framework-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-bot-framework/refs/heads/main/authentication/microsoft-bot-framework-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-bot-framework/authentication/microsoft-bot-framework-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Bots

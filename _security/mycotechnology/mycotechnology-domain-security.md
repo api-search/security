@@ -27,7 +27,7 @@ source_filename: mycotechnology-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mycoiq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 09:13:19 2026 GMT\n  hsts: false\ndomains:\n- domain: mycoiq.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mycotechnology/refs/heads/main/security/mycotechnology-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mycotechnology/security/mycotechnology-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

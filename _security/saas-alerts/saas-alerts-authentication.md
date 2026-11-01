@@ -8,13 +8,13 @@ api_specs:
   label: SaaS Alerts Events API
   slug: saas-alerts-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saas-alerts/refs/heads/main/openapi/saas-alerts-events-api-openapi.yml
+  url: https://artifacts.apis.io/saas-alerts/openapi/saas-alerts-events-api-openapi.yml
 - filename: saas-alerts-reports-api-openapi.yml
   format: yaml
   label: SaaS Alerts Reports API
   slug: saas-alerts-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saas-alerts/refs/heads/main/openapi/saas-alerts-reports-api-openapi.yml
+  url: https://artifacts.apis.io/saas-alerts/openapi/saas-alerts-reports-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -41,7 +41,7 @@ source_filename: saas-alerts-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/saas-alerts-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  sources:\n  - openapi/saas-alerts-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/saas-alerts/refs/heads/main/authentication/saas-alerts-authentication.yml
+source_yaml_url: https://artifacts.apis.io/saas-alerts/authentication/saas-alerts-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - MSP

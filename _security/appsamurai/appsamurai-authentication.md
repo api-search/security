@@ -8,43 +8,43 @@ api_specs:
   label: Appsamurai Campaign Spend API
   slug: appsamurai-campaign-spend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/openapi/appsamurai-campaign-spend-api-openapi.yml
+  url: https://artifacts.apis.io/appsamurai/openapi/appsamurai-campaign-spend-api-openapi.yml
 - filename: appsamurai-app-api-openapi.yml
   format: yaml
   label: Appsamurai App API
   slug: appsamurai-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/openapi/appsamurai-app-api-openapi.yml
+  url: https://artifacts.apis.io/appsamurai/openapi/appsamurai-app-api-openapi.yml
 - filename: appsamurai-audience-api-openapi.yml
   format: yaml
   label: Appsamurai Audience API
   slug: appsamurai-audience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/openapi/appsamurai-audience-api-openapi.yml
+  url: https://artifacts.apis.io/appsamurai/openapi/appsamurai-audience-api-openapi.yml
 - filename: appsamurai-instance-api-openapi.yml
   format: yaml
   label: Appsamurai Instance API
   slug: appsamurai-instance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/openapi/appsamurai-instance-api-openapi.yml
+  url: https://artifacts.apis.io/appsamurai/openapi/appsamurai-instance-api-openapi.yml
 - filename: appsamurai-segment-api-openapi.yml
   format: yaml
   label: Appsamurai Segment API
   slug: appsamurai-segment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/openapi/appsamurai-segment-api-openapi.yml
+  url: https://artifacts.apis.io/appsamurai/openapi/appsamurai-segment-api-openapi.yml
 - filename: appsamurai-story-api-openapi.yml
   format: yaml
   label: Appsamurai Story API
   slug: appsamurai-story-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/openapi/appsamurai-story-api-openapi.yml
+  url: https://artifacts.apis.io/appsamurai/openapi/appsamurai-story-api-openapi.yml
 - filename: appsamurai-story-group-api-openapi.yml
   format: yaml
   label: Appsamurai Story Group API
   slug: appsamurai-story-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/openapi/appsamurai-story-group-api-openapi.yml
+  url: https://artifacts.apis.io/appsamurai/openapi/appsamurai-story-group-api-openapi.yml
 auth_types:
 - http-bearer
 - apiKey
@@ -114,7 +114,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://d
   \ conventional 401.\n        - request: GET https://api.storyly.io/external/app with an invalid bearer token\n          status: 401\n          body_code: InvalidToken\n    gaps:\n      - The spec declares no 401/403 responses, so a generated client has no failure path.\n      - No token lifetime, refresh or revocation is documented.\n\n  - name: PathApiKey\n    api: AppSamurai Campaign Spend API\n    type: apiKey\n    in: path\n    parameter: api_key\n    path_template: /api/customer-pull/spent/{api_key}\n    issuance: manual (provided by an AppSamurai account manager)\n    rotation: not documented\n    sources:\n      - openapi/appsamurai-campaign-spend-api-openapi.yml\n    docs: https://help.appsamurai.com/en/articles/11105087-appsamurai-campaign-spend-api\n    risk:\n      credential_in_url: true\n      documented_over_http: true\n      note: >-\n        A secret in a path segment is written to every proxy log, browser history\n        and referrer along the route, and the published\
   \ base URL is http://, not\n        https://. It also cannot be rotated by the customer. See\n        security/appsamurai-domain-security.yml.\n    modelling_note: >-\n      Represented in the OpenAPI as apiKey/in:query because OpenAPI 3.x has no\n      in:path security scheme. The real placement is a path segment.\n\nunauthenticated_surfaces:\n  - name: Storyly Integration MCP server\n    url: https://mcp.storyly.io/mcp\n    auth: none\n    verified: probed\n    checked: '2026-08-13'\n    note: >-\n      tools/list and tools/call both answered anonymously. No OAuth challenge,\n      and no /.well-known/oauth-authorization-server or\n      /.well-known/oauth-protected-resource is served (both 404). It exposes\n      documentation content only, not customer data.\n  - name: Storyly External API OpenAPI\n    url: https://docs.storyly.io/openapi/68f9ff1ab2a841f03a72b06b\n    note: The specification is public; the operations it describes are not.\n\nscopes:\n  model: none\n  note: >-\n   \
   \ Neither credential carries scopes, roles or permissions. The Storyly JWT is\n    account-wide - any holder can create and delete story groups, stories and\n    segments across every app on the account. No scopes/ artifact is emitted\n    because there is nothing to enumerate.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/authentication/appsamurai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/appsamurai/authentication/appsamurai-authentication.yml
 summary_line: http-bearer/apiKey · 2 schemes
 tags:
 - Company

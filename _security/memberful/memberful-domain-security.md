@@ -5,25 +5,25 @@ api_specs:
   label: Memberful Members API
   slug: memberful-members-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/memberful/refs/heads/main/collections/memberful.postman_collection.json
+  url: https://artifacts.apis.io/memberful/collections/memberful.postman_collection.json
 - filename: memberful.postman_collection.json
   format: json
   label: Memberful Subscriptions API
   slug: memberful-subscriptions-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/memberful/refs/heads/main/collections/memberful.postman_collection.json
+  url: https://artifacts.apis.io/memberful/collections/memberful.postman_collection.json
 - filename: memberful.postman_collection.json
   format: json
   label: Memberful Plans and Passes API
   slug: memberful-plans-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/memberful/refs/heads/main/collections/memberful.postman_collection.json
+  url: https://artifacts.apis.io/memberful/collections/memberful.postman_collection.json
 - filename: memberful.postman_collection.json
   format: json
   label: Memberful Orders API
   slug: memberful-orders-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/memberful/refs/heads/main/collections/memberful.postman_collection.json
+  url: https://artifacts.apis.io/memberful/collections/memberful.postman_collection.json
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: memberful-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: memberful.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 20:25:57 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: account.memberful.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 02:42:31 2026 GMT\n  hsts: null\ndomains:\n- domain: memberful.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/memberful/refs/heads/main/security/memberful-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/memberful/security/memberful-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Membership

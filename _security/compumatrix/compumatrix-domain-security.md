@@ -26,12 +26,12 @@ source_filename: compumatrix-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-10'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.compumatrix.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 31 04:37:48 2026 GMT\n  hsts: false\ndomains:\n- domain: compumatrix.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/compumatrix/refs/heads/main/security/compumatrix-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/compumatrix/security/compumatrix-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company
-- WebTechnology
+- Web Technology
 - Fintech
-- SocialNetworking
+- Social Network
 - Entrepreneurship
 ---

@@ -15,7 +15,7 @@ source_filename: blip-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: searched\nprobe: true\nsource: https://www.blip.ai/en/trust-center/\nurl: https://www.blip.ai/en/trust-center/\ncertifications:\n- ISO 27001\nevidence:\n- source: https://www.blip.ai/en/trust-center/\n  keywords:\n  - iso 27001\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blip/refs/heads/main/security/blip-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/blip/security/blip-trust-center.yml
 summary_line: ISO 27001
 tags:
 - Conversational AI

@@ -5,25 +5,25 @@ api_specs:
   label: CarGurus Car Selector API
   slug: cargurus-dealer-car-selector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargurus-dealer/refs/heads/main/openapi/cargurus-dealer-car-selector-api-openapi.yml
+  url: https://artifacts.apis.io/cargurus-dealer/openapi/cargurus-dealer-car-selector-api-openapi.yml
 - filename: cargurus-dealer-dealer-reviews-api-openapi.yml
   format: yaml
   label: CarGurus Dealer Reviews API
   slug: cargurus-dealer-dealer-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargurus-dealer/refs/heads/main/openapi/cargurus-dealer-dealer-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/cargurus-dealer/openapi/cargurus-dealer-dealer-reviews-api-openapi.yml
 - filename: cargurus-dealer-dealer-stats-api-openapi.yml
   format: yaml
   label: CarGurus Dealer Stats API
   slug: cargurus-dealer-dealer-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargurus-dealer/refs/heads/main/openapi/cargurus-dealer-dealer-stats-api-openapi.yml
+  url: https://artifacts.apis.io/cargurus-dealer/openapi/cargurus-dealer-dealer-stats-api-openapi.yml
 - filename: cargurus-dealer-instant-market-value-api-openapi.yml
   format: yaml
   label: CarGurus Instant Market Value API
   slug: cargurus-dealer-instant-market-value-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargurus-dealer/refs/heads/main/openapi/cargurus-dealer-instant-market-value-api-openapi.yml
+  url: https://artifacts.apis.io/cargurus-dealer/openapi/cargurus-dealer-instant-market-value-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: cargurus-dealer-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cargurus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 10 14:58:38 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: cargurus.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cargurus-dealer/refs/heads/main/security/cargurus-dealer-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cargurus-dealer/security/cargurus-dealer-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Automotive

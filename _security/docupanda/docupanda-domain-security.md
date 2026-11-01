@@ -5,79 +5,79 @@ api_specs:
   label: DocuPipe Analysis API
   slug: docupanda-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/docupanda/openapi/docupanda-analysis-api-openapi.yml
 - filename: docupanda-account-api-openapi.yml
   format: yaml
   label: DocuPipe Account API
   slug: docupanda-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-account-api-openapi.yml
+  url: https://artifacts.apis.io/docupanda/openapi/docupanda-account-api-openapi.yml
 - filename: docupanda-account-api-openapi.yml
   format: yaml
   label: DocuPipe Account API
   slug: docupanda-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-account-api-openapi.yml
+  url: https://artifacts.apis.io/docupanda/openapi/docupanda-account-api-openapi.yml
 - filename: docupanda-analysis-api-openapi.yml
   format: yaml
   label: DocuPipe Analysis API
   slug: docupanda-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/docupanda/openapi/docupanda-analysis-api-openapi.yml
 - filename: docupanda-classification-api-openapi.yml
   format: yaml
   label: DocuPipe Classification API
   slug: docupanda-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-classification-api-openapi.yml
+  url: https://artifacts.apis.io/docupanda/openapi/docupanda-classification-api-openapi.yml
 - filename: docupanda-document-api-openapi.yml
   format: yaml
   label: DocuPipe Document API
   slug: docupanda-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-document-api-openapi.yml
+  url: https://artifacts.apis.io/docupanda/openapi/docupanda-document-api-openapi.yml
 - filename: docupanda-job-api-openapi.yml
   format: yaml
   label: DocuPipe Job API
   slug: docupanda-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-job-api-openapi.yml
+  url: https://artifacts.apis.io/docupanda/openapi/docupanda-job-api-openapi.yml
 - filename: docupanda-review-api-openapi.yml
   format: yaml
   label: DocuPipe Review API
   slug: docupanda-review-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-review-api-openapi.yml
+  url: https://artifacts.apis.io/docupanda/openapi/docupanda-review-api-openapi.yml
 - filename: docupanda-schema-api-openapi.yml
   format: yaml
   label: DocuPipe Schema API
   slug: docupanda-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-schema-api-openapi.yml
+  url: https://artifacts.apis.io/docupanda/openapi/docupanda-schema-api-openapi.yml
 - filename: docupanda-standardization-api-openapi.yml
   format: yaml
   label: DocuPipe Standardization API
   slug: docupanda-standardization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-standardization-api-openapi.yml
+  url: https://artifacts.apis.io/docupanda/openapi/docupanda-standardization-api-openapi.yml
 - filename: docupanda-transformation-api-openapi.yml
   format: yaml
   label: DocuPipe Transformation API
   slug: docupanda-transformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-transformation-api-openapi.yml
+  url: https://artifacts.apis.io/docupanda/openapi/docupanda-transformation-api-openapi.yml
 - filename: docupanda-webhook-api-openapi.yml
   format: yaml
   label: DocuPipe Webhook API
   slug: docupanda-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/docupanda/openapi/docupanda-webhook-api-openapi.yml
 - filename: docupanda-workflow-api-openapi.yml
   format: yaml
   label: DocuPipe Workflow API
   slug: docupanda-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/docupanda/openapi/docupanda-workflow-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -124,7 +124,7 @@ source_filename: docupanda-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.docupipe.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 13 01:14:53 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: www.docupanda.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 08:56:05 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.docupipe.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 14:15:40 2026 GMT\n  hsts: null\ndomains:\n- domain: docupipe.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: docupanda.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/security/docupanda-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/docupanda/security/docupanda-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

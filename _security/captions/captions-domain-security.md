@@ -5,55 +5,73 @@ api_specs:
   label: Captions Audio API
   slug: captions-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-audio-api-openapi.yml
+  url: https://artifacts.apis.io/captions/openapi/captions-audio-api-openapi.yml
 - filename: captions-health-api-openapi.yml
   format: yaml
   label: Captions Health API
   slug: captions-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-health-api-openapi.yml
+  url: https://artifacts.apis.io/captions/openapi/captions-health-api-openapi.yml
 - filename: captions-internal-api-openapi.yml
   format: yaml
   label: Captions Internal API
   slug: captions-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-internal-api-openapi.yml
+  url: https://artifacts.apis.io/captions/openapi/captions-internal-api-openapi.yml
 - filename: captions-meta-text-overlays-api-openapi.yml
   format: yaml
   label: Captions Meta Text Overlays API
   slug: captions-meta-text-overlays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-meta-text-overlays-api-openapi.yml
+  url: https://artifacts.apis.io/captions/openapi/captions-meta-text-overlays-api-openapi.yml
 - filename: captions-root-api-openapi.yml
   format: yaml
   label: Captions Root API
   slug: captions-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-root-api-openapi.yml
+  url: https://artifacts.apis.io/captions/openapi/captions-root-api-openapi.yml
 - filename: captions-video-captions-api-openapi.yml
   format: yaml
   label: Captions Video Captions API
   slug: captions-video-captions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-video-captions-api-openapi.yml
+  url: https://artifacts.apis.io/captions/openapi/captions-video-captions-api-openapi.yml
 - filename: captions-videos-api-openapi.yml
   format: yaml
   label: Captions Videos API
   slug: captions-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-videos-api-openapi.yml
+  url: https://artifacts.apis.io/captions/openapi/captions-videos-api-openapi.yml
 - filename: captions-ai-ads-api-openapi.yml
   format: yaml
   label: Captions AI Ads API
   slug: captions-ai-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-ai-ads-api-openapi.yml
+  url: https://artifacts.apis.io/captions/openapi/captions-ai-ads-api-openapi.yml
 - filename: captions-ai-creator-api-openapi.yml
   format: yaml
   label: Captions AI Creator API
   slug: captions-ai-creator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-ai-creator-api-openapi.yml
+  url: https://artifacts.apis.io/captions/openapi/captions-ai-creator-api-openapi.yml
+- filename: captions-catalog-api-openapi.yml
+  format: yaml
+  label: Captions Catalog API
+  slug: captions-catalog-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captions/openapi/captions-catalog-api-openapi.yml
+- filename: captions-internal-fal-api-openapi.yml
+  format: yaml
+  label: Captions Internal Fal API
+  slug: captions-internal-fal-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captions/openapi/captions-internal-fal-api-openapi.yml
+- filename: captions-videos-v2-api-openapi.yml
+  format: yaml
+  label: Captions Videos v2 API
+  slug: captions-videos-v2-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/captions/openapi/captions-videos-v2-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -105,7 +123,7 @@ source_filename: captions-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: platform.mirage.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 23:30:41 2026 GMT\n  hsts: true\n  hsts_max_age: 0\n- host: captions.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 20:35:07 2026 GMT\n  hsts: false\n- host: api.mirage.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 16:44:58 2026 GMT\n  hsts: null\ndomains:\n- domain: mirage.app\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: captions.ai\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/security/captions-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/captions/security/captions-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

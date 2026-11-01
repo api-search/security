@@ -5,61 +5,73 @@ api_specs:
   label: Artie Column Hashing Salts API
   slug: artie-column-hashing-salts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-column-hashing-salts-api-openapi.yml
+  url: https://artifacts.apis.io/artie/openapi/artie-column-hashing-salts-api-openapi.yml
 - filename: artie-connectors-api-openapi.yml
   format: yaml
   label: Artie Connectors API
   slug: artie-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/artie/openapi/artie-connectors-api-openapi.yml
 - filename: artie-data-catalog-api-openapi.yml
   format: yaml
   label: Artie Data Catalog API
   slug: artie-data-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-data-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/artie/openapi/artie-data-catalog-api-openapi.yml
 - filename: artie-encryption-keys-api-openapi.yml
   format: yaml
   label: Artie Encryption Keys API
   slug: artie-encryption-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-encryption-keys-api-openapi.yml
+  url: https://artifacts.apis.io/artie/openapi/artie-encryption-keys-api-openapi.yml
 - filename: artie-ingestion-api-keys-api-openapi.yml
   format: yaml
   label: Artie Ingestion API Keys API
   slug: artie-ingestion-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-ingestion-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/artie/openapi/artie-ingestion-api-keys-api-openapi.yml
 - filename: artie-pipelines-api-openapi.yml
   format: yaml
   label: Artie Pipelines API
   slug: artie-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/artie/openapi/artie-pipelines-api-openapi.yml
 - filename: artie-privatelink-connections-api-openapi.yml
   format: yaml
   label: Artie PrivateLink Connections API
   slug: artie-privatelink-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-privatelink-connections-api-openapi.yml
+  url: https://artifacts.apis.io/artie/openapi/artie-privatelink-connections-api-openapi.yml
 - filename: artie-source-readers-api-openapi.yml
   format: yaml
   label: Artie Source Readers API
   slug: artie-source-readers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-source-readers-api-openapi.yml
+  url: https://artifacts.apis.io/artie/openapi/artie-source-readers-api-openapi.yml
 - filename: artie-ssh-tunnels-api-openapi.yml
   format: yaml
   label: Artie SSH Tunnels API
   slug: artie-ssh-tunnels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-ssh-tunnels-api-openapi.yml
+  url: https://artifacts.apis.io/artie/openapi/artie-ssh-tunnels-api-openapi.yml
 - filename: artie-artie-api-api-openapi.yml
   format: yaml
   label: Artie API
   slug: artie-artie-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-artie-api-api-openapi.yml
+  url: https://artifacts.apis.io/artie/openapi/artie-artie-api-api-openapi.yml
+- filename: artie-company-api-openapi.yml
+  format: yaml
+  label: Artie Company API
+  slug: artie-company-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/artie/openapi/artie-company-api-openapi.yml
+- filename: artie-kafka-clusters-api-openapi.yml
+  format: yaml
+  label: Artie Kafka Clusters API
+  slug: artie-kafka-clusters-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/artie/openapi/artie-kafka-clusters-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -94,7 +106,7 @@ source_filename: artie-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.artie.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 07:06:51 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.artie.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 03:38:33 2026 GMT\n  hsts: null\ndomains:\n- domain: artie.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/security/artie-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/artie/security/artie-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

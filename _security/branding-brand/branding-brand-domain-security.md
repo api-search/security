@@ -27,7 +27,7 @@ source_filename: branding-brand-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.brandingbrand.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: brandingbrand.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/branding-brand/refs/heads/main/security/branding-brand-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/branding-brand/security/branding-brand-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

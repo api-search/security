@@ -5,13 +5,13 @@ api_specs:
   label: Vite Dev Server API
   slug: vite-dev-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vite/refs/heads/main/openapi/vite-dev-server-api-openapi.yml
+  url: https://artifacts.apis.io/vite/openapi/vite-dev-server-api-openapi.yml
 - filename: vite-hot-module-replacement-api-openapi.yml
   format: yaml
   label: Vite Hot Module Replacement API
   slug: vite-hot-module-replacement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vite/refs/heads/main/openapi/vite-hot-module-replacement-api-openapi.yml
+  url: https://artifacts.apis.io/vite/openapi/vite-hot-module-replacement-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: vite-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: vitejs.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 21:14:02 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: vite.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 21:14:02 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: vitejs.dev\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n- domain: vite.dev\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vite/refs/heads/main/security/vite-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vite/security/vite-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Build Tools

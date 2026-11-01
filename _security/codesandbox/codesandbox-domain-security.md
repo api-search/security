@@ -5,49 +5,49 @@ api_specs:
   label: CodeSandbox Meta API
   slug: codesandbox-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-meta-api-openapi.yml
+  url: https://artifacts.apis.io/codesandbox/openapi/codesandbox-meta-api-openapi.yml
 - filename: codesandbox-preview-host-api-openapi.yml
   format: yaml
   label: CodeSandbox Preview Host API
   slug: codesandbox-preview-host-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-preview-host-api-openapi.yml
+  url: https://artifacts.apis.io/codesandbox/openapi/codesandbox-preview-host-api-openapi.yml
 - filename: codesandbox-preview-token-api-openapi.yml
   format: yaml
   label: CodeSandbox Preview Token API
   slug: codesandbox-preview-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-preview-token-api-openapi.yml
+  url: https://artifacts.apis.io/codesandbox/openapi/codesandbox-preview-token-api-openapi.yml
 - filename: codesandbox-sandbox-api-openapi.yml
   format: yaml
   label: CodeSandbox Sandbox API
   slug: codesandbox-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/codesandbox/openapi/codesandbox-sandbox-api-openapi.yml
 - filename: codesandbox-templates-api-openapi.yml
   format: yaml
   label: CodeSandbox Templates API
   slug: codesandbox-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-templates-api-openapi.yml
+  url: https://artifacts.apis.io/codesandbox/openapi/codesandbox-templates-api-openapi.yml
 - filename: codesandbox-token-api-openapi.yml
   format: yaml
   label: CodeSandbox Token API
   slug: codesandbox-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-token-api-openapi.yml
+  url: https://artifacts.apis.io/codesandbox/openapi/codesandbox-token-api-openapi.yml
 - filename: codesandbox-vm-api-openapi.yml
   format: yaml
   label: CodeSandbox Vm API
   slug: codesandbox-vm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-vm-api-openapi.yml
+  url: https://artifacts.apis.io/codesandbox/openapi/codesandbox-vm-api-openapi.yml
 - filename: codesandbox-workspace-api-openapi.yml
   format: yaml
   label: CodeSandbox Workspace API
   slug: codesandbox-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/codesandbox/openapi/codesandbox-workspace-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -87,7 +87,7 @@ source_filename: codesandbox-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: codesandbox.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 16:44:57 2026 GMT\n  hsts: false\n- host: api.codesandbox.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 03:44:26 2026 GMT\n  hsts: false\n- host: sandpack.codesandbox.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 03:44:26 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: codesandbox.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/security/codesandbox-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/codesandbox/security/codesandbox-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Developer Tools

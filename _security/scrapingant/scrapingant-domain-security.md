@@ -5,19 +5,19 @@ api_specs:
   label: ScrapingAnt Scraping API
   slug: scrapingant-scraping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapingant/refs/heads/main/openapi/scrapingant-scraping-api-openapi.yml
+  url: https://artifacts.apis.io/scrapingant/openapi/scrapingant-scraping-api-openapi.yml
 - filename: scrapingant-usage-api-openapi.yml
   format: yaml
   label: ScrapingAnt Usage API
   slug: scrapingant-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapingant/refs/heads/main/openapi/scrapingant-usage-api-openapi.yml
+  url: https://artifacts.apis.io/scrapingant/openapi/scrapingant-usage-api-openapi.yml
 - filename: scrapingant-general-api-openapi.yml
   format: yaml
   label: ScrapingAnt General API
   slug: scrapingant-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapingant/refs/heads/main/openapi/scrapingant-general-api-openapi.yml
+  url: https://artifacts.apis.io/scrapingant/openapi/scrapingant-general-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,13 +51,13 @@ source_filename: scrapingant-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: scrapingant.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 23:13:19 2026 GMT\n  hsts: false\n- host: api.scrapingant.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 08:39:52 2026 GMT\n  hsts: null\ndomains:\n- domain: scrapingant.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scrapingant/refs/heads/main/security/scrapingant-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/scrapingant/security/scrapingant-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Data Extraction
 - Proxies
 - Web Scraping
-- Headless Browser
+- Browser Automation
 - AI Agents
 - MCP
 - LLM

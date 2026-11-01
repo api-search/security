@@ -7,25 +7,25 @@ api_specs:
   label: Avis Budget Group Car Availability API
   slug: avis-budget-car-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avis-budget/refs/heads/main/openapi/avis-budget-car-availability-api-openapi.yml
+  url: https://artifacts.apis.io/avis-budget/openapi/avis-budget-car-availability-api-openapi.yml
 - filename: avis-budget-car-locations-api-openapi.yml
   format: yaml
   label: Avis Budget Group Car Locations API
   slug: avis-budget-car-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avis-budget/refs/heads/main/openapi/avis-budget-car-locations-api-openapi.yml
+  url: https://artifacts.apis.io/avis-budget/openapi/avis-budget-car-locations-api-openapi.yml
 - filename: avis-budget-car-reservation-api-openapi.yml
   format: yaml
   label: Avis Budget Group Car Reservation API
   slug: avis-budget-car-reservation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avis-budget/refs/heads/main/openapi/avis-budget-car-reservation-api-openapi.yml
+  url: https://artifacts.apis.io/avis-budget/openapi/avis-budget-car-reservation-api-openapi.yml
 - filename: avis-budget-terms-and-conditions-api-openapi.yml
   format: yaml
   label: Avis Budget Group Terms And Conditions API
   slug: avis-budget-terms-and-conditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avis-budget/refs/heads/main/openapi/avis-budget-terms-and-conditions-api-openapi.yml
+  url: https://artifacts.apis.io/avis-budget/openapi/avis-budget-terms-and-conditions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-09-18'\nmethod: searched\nsource: https://develop
   \    ABG approval; sandbox/staging credentials are separate from production credentials.\nschemes:\n- name: ABG-Access-Token\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://stage.abgapiservices.com/oauth/token/v2\n    scopes: 0\n    scopes_note: The spec declares an empty scopes map and the docs name no scopes; access is governed by application approval, not by scope.\n  description: OAuth 2.0 client credentials flow used to authenticate all API requests in this package.\n  token_request:\n    method: GET\n    url: https://stage.abgapiservices.com/oauth/token/v2\n    headers: [client_id, client_secret]\n    docs: https://developer.avis.com/getting-started#step-3-get-an-access-token\n  token_response:\n    fields: [access_token, token_type, expires_in]\n    token_type: Bearer\n    documented_expires_in_seconds: 7140\n  api_request_headers:\n    - name: Authorization\n      value: Bearer <access_token>\n    - name: client_id\n      value: <client_id>\n     \
   \ note: Declared as a required header parameter on all 9 operations in the OpenAPI.\n  error_responses:\n    - status: 400\n      reason: invalid_request\n      details: Invalid credentials were provided in the request.\n    - status: 401\n      reason: authentication_failure\n      details: Missing or expired credentials were provided in the request.\n  sources:\n  - openapi/avis-budget-rental-cars-openapi.yml\n  - https://developer.avis.com/getting-started\nonboarding:\n  steps:\n    - Sign up for a portal account at https://developer.avis.com/register (email confirmation, then ABG review — typically 1-2 business days).\n    - Create a Client Application against the Rental Cars API (\"Use this API\" > \"+ New application\"); the Client Secret is shown once.\n    - ABG administrator approves the application; approval email confirms it is ready.\n    - Exchange Client ID/Secret for a Bearer access token; call the API with the token and client_id header.\n    - Contact ABG to launch in\
   \ production; production credentials are separate.\n  self_serve: false\n  approval_required: true\n  docs: https://developer.avis.com/getting-started\nobserved:\n  - url: https://stage.abgapiservices.com/cars/locations/v2/keyword?keyword=Boston\n    status: 401\n    checked: '2026-09-18'\n    www_authenticate: Bearer realm=\"abg-api-preprod.oktapreview.com\", error=\"invalid_token\"\n    body: '{\"error_description\":\"token not found, expired or invalid\",\"error\":\"invalid_grant\"}'\n    note: >-\n      An unauthenticated call is rejected at the gateway with a WWW-Authenticate realm naming an Okta\n      tenant (abg-api-preprod.oktapreview.com), which serves standard OIDC/OAuth discovery documents\n      (recorded in well-known/). The documented token endpoint remains the gateway-fronted\n      /oauth/token/v2, not Okta's /oauth2/v1/token.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avis-budget/refs/heads/main/authentication/avis-budget-authentication.yml
+source_yaml_url: https://artifacts.apis.io/avis-budget/authentication/avis-budget-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Fortune 500

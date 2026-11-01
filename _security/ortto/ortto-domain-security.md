@@ -5,37 +5,37 @@ api_specs:
   label: Ortto Accounts API
   slug: ortto-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ortto/refs/heads/main/openapi/ortto-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/ortto/openapi/ortto-accounts-api-openapi.yml
 - filename: ortto-activities-api-openapi.yml
   format: yaml
   label: Ortto Activities API
   slug: ortto-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ortto/refs/heads/main/openapi/ortto-activities-api-openapi.yml
+  url: https://artifacts.apis.io/ortto/openapi/ortto-activities-api-openapi.yml
 - filename: ortto-campaigns-api-openapi.yml
   format: yaml
   label: Ortto Campaigns API
   slug: ortto-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ortto/refs/heads/main/openapi/ortto-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/ortto/openapi/ortto-campaigns-api-openapi.yml
 - filename: ortto-people-api-openapi.yml
   format: yaml
   label: Ortto People API
   slug: ortto-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ortto/refs/heads/main/openapi/ortto-people-api-openapi.yml
+  url: https://artifacts.apis.io/ortto/openapi/ortto-people-api-openapi.yml
 - filename: ortto-tags-api-openapi.yml
   format: yaml
   label: Ortto Tags API
   slug: ortto-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ortto/refs/heads/main/openapi/ortto-tags-api-openapi.yml
+  url: https://artifacts.apis.io/ortto/openapi/ortto-tags-api-openapi.yml
 - filename: ortto-transactional-api-openapi.yml
   format: yaml
   label: Ortto Transactional API
   slug: ortto-transactional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ortto/refs/heads/main/openapi/ortto-transactional-api-openapi.yml
+  url: https://artifacts.apis.io/ortto/openapi/ortto-transactional-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -88,7 +88,7 @@ source_filename: ortto-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ortto.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: help.ortto.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.ap3api.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: ortto.com\n  dnssec: true\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: ap3api.com\n  dnssec: true\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ortto/refs/heads/main/security/ortto-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ortto/security/ortto-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Marketing Automation

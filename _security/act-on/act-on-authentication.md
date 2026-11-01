@@ -7,145 +7,145 @@ api_specs:
   label: Act-On Account API
   slug: act-on-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-account-api-openapi.yml
+  url: https://artifacts.apis.io/act-on/openapi/act-on-account-api-openapi.yml
 - filename: act-on-campaigns-api-openapi.yml
   format: yaml
   label: Act-On Campaigns API
   slug: act-on-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/act-on/openapi/act-on-campaigns-api-openapi.yml
 - filename: act-on-custom-data-dataset-api-api-openapi.yml
   format: yaml
   label: Act-On Custom Data Dataset API
   slug: act-on-custom-data-dataset-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-custom-data-dataset-api-api-openapi.yml
+  url: https://artifacts.apis.io/act-on/openapi/act-on-custom-data-dataset-api-api-openapi.yml
 - filename: act-on-custom-data-query-api-api-openapi.yml
   format: yaml
   label: Act-On Custom Data Query API
   slug: act-on-custom-data-query-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-custom-data-query-api-api-openapi.yml
+  url: https://artifacts.apis.io/act-on/openapi/act-on-custom-data-query-api-api-openapi.yml
 - filename: act-on-custom-data-schema-api-api-openapi.yml
   format: yaml
   label: Act-On Custom Data Schema API
   slug: act-on-custom-data-schema-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-custom-data-schema-api-api-openapi.yml
+  url: https://artifacts.apis.io/act-on/openapi/act-on-custom-data-schema-api-api-openapi.yml
 - filename: act-on-ete-api-openapi.yml
   format: yaml
   label: Act-On Ete API
   slug: act-on-ete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-ete-api-openapi.yml
+  url: https://artifacts.apis.io/act-on/openapi/act-on-ete-api-openapi.yml
 - filename: act-on-footer-api-openapi.yml
   format: yaml
   label: Act-On Footer API
   slug: act-on-footer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-footer-api-openapi.yml
+  url: https://artifacts.apis.io/act-on/openapi/act-on-footer-api-openapi.yml
 - filename: act-on-form-api-openapi.yml
   format: yaml
   label: Act-On Form API
   slug: act-on-form-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-form-api-openapi.yml
+  url: https://artifacts.apis.io/act-on/openapi/act-on-form-api-openapi.yml
 - filename: act-on-header-api-openapi.yml
   format: yaml
   label: Act-On Header API
   slug: act-on-header-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-header-api-openapi.yml
+  url: https://artifacts.apis.io/act-on/openapi/act-on-header-api-openapi.yml
 - filename: act-on-image-api-openapi.yml
   format: yaml
   label: Act-On Image API
   slug: act-on-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-image-api-openapi.yml
+  url: https://artifacts.apis.io/act-on/openapi/act-on-image-api-openapi.yml
 - filename: act-on-list-api-openapi.yml
   format: yaml
   label: Act-On List API
   slug: act-on-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-list-api-openapi.yml
+  url: https://artifacts.apis.io/act-on/openapi/act-on-list-api-openapi.yml
 - filename: act-on-logo-api-openapi.yml
   format: yaml
   label: Act-On Logo API
   slug: act-on-logo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-logo-api-openapi.yml
+  url: https://artifacts.apis.io/act-on/openapi/act-on-logo-api-openapi.yml
 - filename: act-on-media-api-openapi.yml
   format: yaml
   label: Act-On Media API
   slug: act-on-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-media-api-openapi.yml
+  url: https://artifacts.apis.io/act-on/openapi/act-on-media-api-openapi.yml
 - filename: act-on-medialink-api-openapi.yml
   format: yaml
   label: Act-On Medialink API
   slug: act-on-medialink-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-medialink-api-openapi.yml
+  url: https://artifacts.apis.io/act-on/openapi/act-on-medialink-api-openapi.yml
 - filename: act-on-message-api-openapi.yml
   format: yaml
   label: Act-On Message API
   slug: act-on-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-message-api-openapi.yml
+  url: https://artifacts.apis.io/act-on/openapi/act-on-message-api-openapi.yml
 - filename: act-on-page-api-openapi.yml
   format: yaml
   label: Act-On Page API
   slug: act-on-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-page-api-openapi.yml
+  url: https://artifacts.apis.io/act-on/openapi/act-on-page-api-openapi.yml
 - filename: act-on-program-api-openapi.yml
   format: yaml
   label: Act-On Program API
   slug: act-on-program-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-program-api-openapi.yml
+  url: https://artifacts.apis.io/act-on/openapi/act-on-program-api-openapi.yml
 - filename: act-on-seokeywords-api-openapi.yml
   format: yaml
   label: Act-On Seokeywords API
   slug: act-on-seokeywords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-seokeywords-api-openapi.yml
+  url: https://artifacts.apis.io/act-on/openapi/act-on-seokeywords-api-openapi.yml
 - filename: act-on-seoreport-api-openapi.yml
   format: yaml
   label: Act-On Seoreport API
   slug: act-on-seoreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-seoreport-api-openapi.yml
+  url: https://artifacts.apis.io/act-on/openapi/act-on-seoreport-api-openapi.yml
 - filename: act-on-subscription-api-openapi.yml
   format: yaml
   label: Act-On Subscription API
   slug: act-on-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/act-on/openapi/act-on-subscription-api-openapi.yml
 - filename: act-on-token-api-openapi.yml
   format: yaml
   label: Act-On Token API
   slug: act-on-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-token-api-openapi.yml
+  url: https://artifacts.apis.io/act-on/openapi/act-on-token-api-openapi.yml
 - filename: act-on-ucl-api-openapi.yml
   format: yaml
   label: Act-On Ucl API
   slug: act-on-ucl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-ucl-api-openapi.yml
+  url: https://artifacts.apis.io/act-on/openapi/act-on-ucl-api-openapi.yml
 - filename: act-on-user-api-openapi.yml
   format: yaml
   label: Act-On User API
   slug: act-on-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-user-api-openapi.yml
+  url: https://artifacts.apis.io/act-on/openapi/act-on-user-api-openapi.yml
 - filename: act-on-custom-events-api-openapi.yml
   format: yaml
   label: Act-On Custom Events API
   slug: act-on-custom-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-custom-events-api-openapi.yml
+  url: https://artifacts.apis.io/act-on/openapi/act-on-custom-events-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -203,7 +203,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://develop
   \ the same bearer token correctly, and states\n    the format is JWT.\nauthorization_model:\n  scopes: false\n  permissions: >-\n    Act-On users carry per-capability privileges set on the account (launch, admin,\n    contactLists create/delete/download, content create/delete, programs\n    create/delete, accountWideEmail view/manage) — documented on the Userspecs\n    Overview page as fields on user creation. Those permissions bound what a token\n    obtained for that user can do, but they are not exposed or negotiated through the\n    API and do not appear in any token response.\n  evidence: https://developer.act-on.com/reference/userspecs-overview\n  ref: scopes/act-on-scopes.yml\nrate_limit:\n  auth_calls: 5 per hour, per account\n  consequence: >-\n    The single most important operational fact about Act-On auth. Token acquisition\n    must be cached and refreshed on expiry; an integration that authenticates per\n    request exhausts its hourly budget in the first minute.\n  source:\
   \ https://developer.act-on.com/reference/api-overview\n  ref: rate-limits/act-on-rate-limits.yml\ndiscovery:\n  oauth_authorization_server_metadata: absent (RFC 8414 — /.well-known/oauth-authorization-server\n    404 on every host)\n  protected_resource_metadata: absent (RFC 9728 — /.well-known/oauth-protected-resource\n    404 on every host)\n  openid_configuration: absent (404 on every host)\n  note: An agent cannot discover the token endpoint; it must be read out of prose docs.\n  ref: well-known/act-on-well-known.yml\nmtls: false\ndocs: https://developer.act-on.com/reference/api-overview\nnotes:\n- Developer/API access requires an Act-On developer account (see request-a-developer-account);\n  provisioning takes 24-48 hours.\n- No API-key-only scheme is documented; OAuth 2.0 is the sole mechanism.\n- Token lifetime and refresh_token lifetime are not published.\nprobes:\n- {url: 'https://api.actonsoftware.com/token', status: 401}\n- {url: 'https://api-eu.actonsoftware.com/token', status:\
   \ 401}\n- {url: 'https://restapi.actonsoftware.com/token', status: 401}\n- {url: 'https://api.actonsoftware.com/api/1/message', status: 401}\n- {url: 'https://api.actonsoftware.com/.well-known/openid-configuration', status: 404}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/authentication/act-on-authentication.yml
+source_yaml_url: https://artifacts.apis.io/act-on/authentication/act-on-authentication.yml
 summary_line: 3 schemes
 tags:
 - Company

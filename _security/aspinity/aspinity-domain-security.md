@@ -27,7 +27,7 @@ source_filename: aspinity-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aspinity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 19:04:15 2026 GMT\n  hsts: false\ndomains:\n- domain: aspinity.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aspinity/refs/heads/main/security/aspinity-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aspinity/security/aspinity-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

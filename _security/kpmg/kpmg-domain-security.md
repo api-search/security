@@ -1,17 +1,29 @@
 ---
 api_specs:
-- filename: kpmg-movements-api-openapi.yml
+- filename: kpmg-locations-api-openapi.yml
   format: yaml
-  label: KPMG Movements API
-  slug: kpmg-movements-api
+  label: KPMG Locations API
+  slug: kpmg-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kpmg/refs/heads/main/openapi/kpmg-movements-api-openapi.yml
-- filename: kpmg-registries-api-openapi.yml
+  url: https://artifacts.apis.io/kpmg/openapi/kpmg-locations-api-openapi.yml
+- filename: kpmg-organizations-api-openapi.yml
   format: yaml
-  label: KPMG Registries API
-  slug: kpmg-registries-api
+  label: KPMG Organizations API
+  slug: kpmg-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kpmg/refs/heads/main/openapi/kpmg-registries-api-openapi.yml
+  url: https://artifacts.apis.io/kpmg/openapi/kpmg-organizations-api-openapi.yml
+- filename: kpmg-producttemplates-api-openapi.yml
+  format: yaml
+  label: KPMG Product Templates API
+  slug: kpmg-producttemplates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kpmg/openapi/kpmg-producttemplates-api-openapi.yml
+- filename: kpmg-token-api-openapi.yml
+  format: yaml
+  label: KPMG Token API
+  slug: kpmg-token-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kpmg/openapi/kpmg-token-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +71,7 @@ source_filename: kpmg-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: kpmg.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  1 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: help.kpmgorigins.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 17:15:01 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: app.kpmgorigins.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: kpmg.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: kpmgorigins.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kpmg/refs/heads/main/security/kpmg-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kpmg/security/kpmg-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Consulting

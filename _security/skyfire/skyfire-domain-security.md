@@ -5,31 +5,31 @@ api_specs:
   label: Skyfire Agents API
   slug: skyfire-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/openapi/skyfire-agents-api-openapi.yml
+  url: https://artifacts.apis.io/skyfire/openapi/skyfire-agents-api-openapi.yml
 - filename: skyfire-auth-api-openapi.yml
   format: yaml
   label: Skyfire Auth API
   slug: skyfire-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/openapi/skyfire-auth-api-openapi.yml
+  url: https://artifacts.apis.io/skyfire/openapi/skyfire-auth-api-openapi.yml
 - filename: skyfire-directory-api-openapi.yml
   format: yaml
   label: Skyfire Directory API
   slug: skyfire-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/openapi/skyfire-directory-api-openapi.yml
+  url: https://artifacts.apis.io/skyfire/openapi/skyfire-directory-api-openapi.yml
 - filename: skyfire-organizations-api-openapi.yml
   format: yaml
   label: Skyfire Organizations API
   slug: skyfire-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/openapi/skyfire-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/skyfire/openapi/skyfire-organizations-api-openapi.yml
 - filename: skyfire-tokens-api-openapi.yml
   format: yaml
   label: Skyfire Tokens API
   slug: skyfire-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/openapi/skyfire-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/skyfire/openapi/skyfire-tokens-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: skyfire-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: skyfire.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 07:41:27 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.skyfire.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 12:37:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.skyfire.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 04:32:15 2026 GMT\n  hsts: null\ndomains:\n- domain: skyfire.xyz\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/security/skyfire-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/skyfire/security/skyfire-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

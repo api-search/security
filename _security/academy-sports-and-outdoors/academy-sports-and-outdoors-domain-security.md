@@ -27,7 +27,7 @@ source_filename: academy-sports-and-outdoors-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.academy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 25 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: academy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/academy-sports-and-outdoors/refs/heads/main/security/academy-sports-and-outdoors-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/academy-sports-and-outdoors/security/academy-sports-and-outdoors-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Fortune 500

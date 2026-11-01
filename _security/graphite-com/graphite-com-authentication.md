@@ -7,25 +7,25 @@ api_specs:
   label: Graphite Authentication API
   slug: graphite-com-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphite-com/refs/heads/main/openapi/graphite-com-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/graphite-com/openapi/graphite-com-authentication-api-openapi.yml
 - filename: graphite-com-github-app-api-openapi.yml
   format: yaml
   label: Graphite GitHub App API
   slug: graphite-com-github-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphite-com/refs/heads/main/openapi/graphite-com-github-app-api-openapi.yml
+  url: https://artifacts.apis.io/graphite-com/openapi/graphite-com-github-app-api-openapi.yml
 - filename: graphite-com-merge-queue-api-openapi.yml
   format: yaml
   label: Graphite Merge Queue API
   slug: graphite-com-merge-queue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphite-com/refs/heads/main/openapi/graphite-com-merge-queue-api-openapi.yml
+  url: https://artifacts.apis.io/graphite-com/openapi/graphite-com-merge-queue-api-openapi.yml
 - filename: graphite-com-stacks-api-openapi.yml
   format: yaml
   label: Graphite Stacks API
   slug: graphite-com-stacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphite-com/refs/heads/main/openapi/graphite-com-stacks-api-openapi.yml
+  url: https://artifacts.apis.io/graphite-com/openapi/graphite-com-stacks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: graphite-com-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/graphite-com-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: graphiteAuthToken\n  type: http\n  scheme: bearer\n  description: Graphite auth token registered via `gt auth`, used by the CLI to act on the user's\n    behalf.\n  sources:\n  - openapi/graphite-com-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/graphite-com/refs/heads/main/authentication/graphite-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/graphite-com/authentication/graphite-com-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Code Review

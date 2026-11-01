@@ -5,31 +5,31 @@ api_specs:
   label: Autifyhq Autify Cli API
   slug: autifyhq-autify-cli-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autifyhq/refs/heads/main/openapi/autifyhq-autify-cli-api-openapi.yml
+  url: https://artifacts.apis.io/autifyhq/openapi/autifyhq-autify-cli-api-openapi.yml
 - filename: autifyhq-default-api-openapi.yml
   format: yaml
   label: Autifyhq ~ API
   slug: autifyhq-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autifyhq/refs/heads/main/openapi/autifyhq-default-api-openapi.yml
+  url: https://artifacts.apis.io/autifyhq/openapi/autifyhq-default-api-openapi.yml
 - filename: autifyhq-payload-api-openapi.yml
   format: yaml
   label: Autifyhq Payload API
   slug: autifyhq-payload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autifyhq/refs/heads/main/openapi/autifyhq-payload-api-openapi.yml
+  url: https://artifacts.apis.io/autifyhq/openapi/autifyhq-payload-api-openapi.yml
 - filename: autifyhq-projects-api-openapi.yml
   format: yaml
   label: Autifyhq Projects API
   slug: autifyhq-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autifyhq/refs/heads/main/openapi/autifyhq-projects-api-openapi.yml
+  url: https://artifacts.apis.io/autifyhq/openapi/autifyhq-projects-api-openapi.yml
 - filename: autifyhq-workspaces-api-openapi.yml
   format: yaml
   label: Autifyhq Workspaces API
   slug: autifyhq-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autifyhq/refs/heads/main/openapi/autifyhq-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/autifyhq/openapi/autifyhq-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: autifyhq-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: autify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 12 15:25:18 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: autify.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autifyhq/refs/heads/main/security/autifyhq-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/autifyhq/security/autifyhq-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

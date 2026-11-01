@@ -41,7 +41,7 @@ source_filename: openllmetry-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.traceloop.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 20:48:08 2026 GMT\n  hsts: null\n- host: opentelemetry.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 18:28:58 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: traceloop.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: opentelemetry.io\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"letsencrypt.org;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/54403714\"\n  - 0 issue \"letsencrypt.org;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/2185112545\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openllmetry/refs/heads/main/security/openllmetry-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/openllmetry/security/openllmetry-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

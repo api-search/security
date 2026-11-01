@@ -5,31 +5,31 @@ api_specs:
   label: Prophecy.io Connections API
   slug: prophecyio-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/openapi/prophecyio-connections-api-openapi.yml
+  url: https://artifacts.apis.io/prophecyio/openapi/prophecyio-connections-api-openapi.yml
 - filename: prophecyio-fabrics-api-openapi.yml
   format: yaml
   label: Prophecy.io Fabrics API
   slug: prophecyio-fabrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/openapi/prophecyio-fabrics-api-openapi.yml
+  url: https://artifacts.apis.io/prophecyio/openapi/prophecyio-fabrics-api-openapi.yml
 - filename: prophecyio-pipeline-runs-api-openapi.yml
   format: yaml
   label: Prophecy.io Pipeline Runs API
   slug: prophecyio-pipeline-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/openapi/prophecyio-pipeline-runs-api-openapi.yml
+  url: https://artifacts.apis.io/prophecyio/openapi/prophecyio-pipeline-runs-api-openapi.yml
 - filename: prophecyio-project-deployment-api-openapi.yml
   format: yaml
   label: Prophecy.io Project Deployment API
   slug: prophecyio-project-deployment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/openapi/prophecyio-project-deployment-api-openapi.yml
+  url: https://artifacts.apis.io/prophecyio/openapi/prophecyio-project-deployment-api-openapi.yml
 - filename: prophecyio-secrets-api-openapi.yml
   format: yaml
   label: Prophecy.io Secrets API
   slug: prophecyio-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/openapi/prophecyio-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/prophecyio/openapi/prophecyio-secrets-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -90,7 +90,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.prophecy.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 16:43:38 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.prophecy.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 21:20:43 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: app.prophecy.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  3 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: prophecy.io\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog\"\n  - 0 iodef \"mailto:security@prophecy.io\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: prophecy.ai\n  dnssec: false\n  caa:\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"\
   pki.goog\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issuewild \"amazontrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/security/prophecyio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/prophecyio/security/prophecyio-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

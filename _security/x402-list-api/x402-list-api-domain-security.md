@@ -5,67 +5,67 @@ api_specs:
   label: x402 List API Assess API
   slug: x402-list-api-assess-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/openapi/x402-list-api-assess-api-openapi.yml
+  url: https://artifacts.apis.io/x402-list-api/openapi/x402-list-api-assess-api-openapi.yml
 - filename: x402-list-api-changes-api-openapi.yml
   format: yaml
   label: x402 List API Changes API
   slug: x402-list-api-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/openapi/x402-list-api-changes-api-openapi.yml
+  url: https://artifacts.apis.io/x402-list-api/openapi/x402-list-api-changes-api-openapi.yml
 - filename: x402-list-api-checks-api-openapi.yml
   format: yaml
   label: x402 List API Checks API
   slug: x402-list-api-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/openapi/x402-list-api-checks-api-openapi.yml
+  url: https://artifacts.apis.io/x402-list-api/openapi/x402-list-api-checks-api-openapi.yml
 - filename: x402-list-api-facilitators-api-openapi.yml
   format: yaml
   label: x402 List API Facilitators API
   slug: x402-list-api-facilitators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/openapi/x402-list-api-facilitators-api-openapi.yml
+  url: https://artifacts.apis.io/x402-list-api/openapi/x402-list-api-facilitators-api-openapi.yml
 - filename: x402-list-api-recommender-api-openapi.yml
   format: yaml
   label: x402 List API Recommender API
   slug: x402-list-api-recommender-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/openapi/x402-list-api-recommender-api-openapi.yml
+  url: https://artifacts.apis.io/x402-list-api/openapi/x402-list-api-recommender-api-openapi.yml
 - filename: x402-list-api-reference-api-openapi.yml
   format: yaml
   label: x402 List API Reference API
   slug: x402-list-api-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/openapi/x402-list-api-reference-api-openapi.yml
+  url: https://artifacts.apis.io/x402-list-api/openapi/x402-list-api-reference-api-openapi.yml
 - filename: x402-list-api-services-api-openapi.yml
   format: yaml
   label: x402 List API Services API
   slug: x402-list-api-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/openapi/x402-list-api-services-api-openapi.yml
+  url: https://artifacts.apis.io/x402-list-api/openapi/x402-list-api-services-api-openapi.yml
 - filename: x402-list-api-stats-api-openapi.yml
   format: yaml
   label: x402 List API Stats API
   slug: x402-list-api-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/openapi/x402-list-api-stats-api-openapi.yml
+  url: https://artifacts.apis.io/x402-list-api/openapi/x402-list-api-stats-api-openapi.yml
 - filename: x402-list-api-status-api-openapi.yml
   format: yaml
   label: x402 List API Status API
   slug: x402-list-api-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/openapi/x402-list-api-status-api-openapi.yml
+  url: https://artifacts.apis.io/x402-list-api/openapi/x402-list-api-status-api-openapi.yml
 - filename: x402-list-api-submissions-api-openapi.yml
   format: yaml
   label: x402 List API Submissions API
   slug: x402-list-api-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/openapi/x402-list-api-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/x402-list-api/openapi/x402-list-api-submissions-api-openapi.yml
 - filename: x402-list-api-suggestions-api-openapi.yml
   format: yaml
   label: x402 List API Suggestions API
   slug: x402-list-api-suggestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/openapi/x402-list-api-suggestions-api-openapi.yml
+  url: https://artifacts.apis.io/x402-list-api/openapi/x402-list-api-suggestions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -95,7 +95,7 @@ source_filename: x402-list-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: x402-list.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 17:55:13 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: x402-list.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/security/x402-list-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/x402-list-api/security/x402-list-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - x402

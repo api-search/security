@@ -5,25 +5,49 @@ api_specs:
   label: AWS Elastic Beanstalk Amazon Elastic Beanstalk AWS Elastic Beanstalk API
   slug: aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-elastic-beanstalk/refs/heads/main/openapi/aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-api-api-openapi.yml
+  url: https://artifacts.apis.io/aws-elastic-beanstalk/openapi/aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-api-api-openapi.yml
 - filename: aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-create-api-openapi.yml
   format: yaml
   label: 'AWS Elastic Beanstalk Amazon Elastic Beanstalk AWS Elastic Beanstalk #Create… API'
   slug: aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-create-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-elastic-beanstalk/refs/heads/main/openapi/aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-create-api-openapi.yml
+  url: https://artifacts.apis.io/aws-elastic-beanstalk/openapi/aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-create-api-openapi.yml
 - filename: aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-describe-api-openapi.yml
   format: yaml
   label: 'AWS Elastic Beanstalk Amazon Elastic Beanstalk AWS Elastic Beanstalk #Describe… API'
   slug: aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-describe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-elastic-beanstalk/refs/heads/main/openapi/aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-describe-api-openapi.yml
+  url: https://artifacts.apis.io/aws-elastic-beanstalk/openapi/aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-describe-api-openapi.yml
 - filename: aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-update-api-openapi.yml
   format: yaml
   label: 'AWS Elastic Beanstalk Amazon Elastic Beanstalk AWS Elastic Beanstalk #Update… API'
   slug: aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-update-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-elastic-beanstalk/refs/heads/main/openapi/aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-update-api-openapi.yml
+  url: https://artifacts.apis.io/aws-elastic-beanstalk/openapi/aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-update-api-openapi.yml
+- filename: aws-elastic-beanstalk-application-version-api-openapi.yml
+  format: yaml
+  label: AWS Elastic Beanstalk Elastic Beanstalk Application Version API
+  slug: aws-elastic-beanstalk-application-version-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-elastic-beanstalk/openapi/aws-elastic-beanstalk-application-version-api-openapi.yml
+- filename: aws-elastic-beanstalk-configuration-template-api-openapi.yml
+  format: yaml
+  label: AWS Elastic Beanstalk Elastic Beanstalk Configuration Template API
+  slug: aws-elastic-beanstalk-configuration-template-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-elastic-beanstalk/openapi/aws-elastic-beanstalk-configuration-template-api-openapi.yml
+- filename: aws-elastic-beanstalk-operations-api-openapi.yml
+  format: yaml
+  label: AWS Elastic Beanstalk Elastic Beanstalk Operations API
+  slug: aws-elastic-beanstalk-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-elastic-beanstalk/openapi/aws-elastic-beanstalk-operations-api-openapi.yml
+- filename: aws-elastic-beanstalk-platform-version-api-openapi.yml
+  format: yaml
+  label: AWS Elastic Beanstalk Elastic Beanstalk Platform Version API
+  slug: aws-elastic-beanstalk-platform-version-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-elastic-beanstalk/openapi/aws-elastic-beanstalk-platform-version-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +94,7 @@ source_filename: aws-elastic-beanstalk-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: docs.aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: elasticbeanstalk.us-east-1.amazonaws.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 19 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-elastic-beanstalk/refs/heads/main/security/aws-elastic-beanstalk-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aws-elastic-beanstalk/security/aws-elastic-beanstalk-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Platform-as-a-Service

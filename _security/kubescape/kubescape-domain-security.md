@@ -5,37 +5,37 @@ api_specs:
   label: Kubescape Access Keys API
   slug: kubescape-access-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/openapi/kubescape-access-keys-api-openapi.yml
+  url: https://artifacts.apis.io/kubescape/openapi/kubescape-access-keys-api-openapi.yml
 - filename: kubescape-network-policies-api-openapi.yml
   format: yaml
   label: Kubescape Network Policies API
   slug: kubescape-network-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/openapi/kubescape-network-policies-api-openapi.yml
+  url: https://artifacts.apis.io/kubescape/openapi/kubescape-network-policies-api-openapi.yml
 - filename: kubescape-posture-compliance-api-openapi.yml
   format: yaml
   label: Kubescape Posture & Compliance API
   slug: kubescape-posture-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/openapi/kubescape-posture-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/kubescape/openapi/kubescape-posture-compliance-api-openapi.yml
 - filename: kubescape-registry-repository-api-openapi.yml
   format: yaml
   label: Kubescape Registry & Repository API
   slug: kubescape-registry-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/openapi/kubescape-registry-repository-api-openapi.yml
+  url: https://artifacts.apis.io/kubescape/openapi/kubescape-registry-repository-api-openapi.yml
 - filename: kubescape-runtime-security-api-openapi.yml
   format: yaml
   label: Kubescape Runtime Security API
   slug: kubescape-runtime-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/openapi/kubescape-runtime-security-api-openapi.yml
+  url: https://artifacts.apis.io/kubescape/openapi/kubescape-runtime-security-api-openapi.yml
 - filename: kubescape-vulnerabilities-api-openapi.yml
   format: yaml
   label: Kubescape Vulnerabilities API
   slug: kubescape-vulnerabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/openapi/kubescape-vulnerabilities-api-openapi.yml
+  url: https://artifacts.apis.io/kubescape/openapi/kubescape-vulnerabilities-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -92,7 +92,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: kubescape.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 10:40:06 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.armosec.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 08:34:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  note: Returns 401 without an X-API-KEY (authenticated API host).\n- host: hub.armosec.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 17:00:14 2026 GMT\n- host: cloud.armosec.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 10:45:31 2026 GMT\n- host: armosec.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 07:14:19 2026 GMT\ndomains:\n- domain: armosec.io\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: v=spf1 include:spf.protection.outlook.com include:_spf.google.com include:5882526.spf04.hubspotemail.net\
   \ ~all\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: kubescape.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/security/kubescape-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kubescape/security/kubescape-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Kubernetes Security

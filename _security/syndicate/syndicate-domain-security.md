@@ -5,25 +5,25 @@ api_specs:
   label: Syndicate api-key-manager > admin API
   slug: syndicate-api-key-manager-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/syndicate/refs/heads/main/openapi/syndicate-api-key-manager-admin-api-openapi.yml
+  url: https://artifacts.apis.io/syndicate/openapi/syndicate-api-key-manager-admin-api-openapi.yml
 - filename: syndicate-call-api-openapi.yml
   format: yaml
   label: Syndicate Call API
   slug: syndicate-call-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/syndicate/refs/heads/main/openapi/syndicate-call-api-openapi.yml
+  url: https://artifacts.apis.io/syndicate/openapi/syndicate-call-api-openapi.yml
 - filename: syndicate-transact-api-openapi.yml
   format: yaml
   label: Syndicate Transact API
   slug: syndicate-transact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/syndicate/refs/heads/main/openapi/syndicate-transact-api-openapi.yml
+  url: https://artifacts.apis.io/syndicate/openapi/syndicate-transact-api-openapi.yml
 - filename: syndicate-wallet-api-openapi.yml
   format: yaml
   label: Syndicate Wallet API
   slug: syndicate-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/syndicate/refs/heads/main/openapi/syndicate-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/syndicate/openapi/syndicate-wallet-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: syndicate-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: syndicate.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  3 21:22:34 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: tc.docs.syndicate.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 28 07:56:34 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.syndicate.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  9 06:25:51 2026 GMT\n  hsts: null\ndomains:\n- domain: syndicate.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/syndicate/refs/heads/main/security/syndicate-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/syndicate/security/syndicate-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Blockchain

@@ -5,7 +5,7 @@ api_specs:
   label: Merkle Science VASP Entities API
   slug: merkle-science-vasp-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/merkle-science/refs/heads/main/openapi/merkle-science-vasp-entities-api-openapi.yml
+  url: https://artifacts.apis.io/merkle-science/openapi/merkle-science-vasp-entities-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: merkle-science-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: merklescience.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 09:49:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: kybb.docs.merklescience.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 01:35:21 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.kybb.app.merklescience.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 16:08:29 2026 GMT\n  hsts: null\ndomains:\n- domain: merklescience.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/merkle-science/refs/heads/main/security/merkle-science-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/merkle-science/security/merkle-science-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

@@ -7,37 +7,37 @@ api_specs:
   label: Pomelo Authentication API
   slug: pomelo-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pomelo/refs/heads/main/openapi/pomelo-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/pomelo/openapi/pomelo-authentication-api-openapi.yml
 - filename: pomelo-card-accounts-api-openapi.yml
   format: yaml
   label: Pomelo Card Accounts API
   slug: pomelo-card-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pomelo/refs/heads/main/openapi/pomelo-card-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/pomelo/openapi/pomelo-card-accounts-api-openapi.yml
 - filename: pomelo-cards-api-openapi.yml
   format: yaml
   label: Pomelo Cards API
   slug: pomelo-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pomelo/refs/heads/main/openapi/pomelo-cards-api-openapi.yml
+  url: https://artifacts.apis.io/pomelo/openapi/pomelo-cards-api-openapi.yml
 - filename: pomelo-transactions-api-openapi.yml
   format: yaml
   label: Pomelo Transactions API
   slug: pomelo-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pomelo/refs/heads/main/openapi/pomelo-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/pomelo/openapi/pomelo-transactions-api-openapi.yml
 - filename: pomelo-transfers-api-openapi.yml
   format: yaml
   label: Pomelo Transfers API
   slug: pomelo-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pomelo/refs/heads/main/openapi/pomelo-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/pomelo/openapi/pomelo-transfers-api-openapi.yml
 - filename: pomelo-users-api-openapi.yml
   format: yaml
   label: Pomelo Users API
   slug: pomelo-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pomelo/refs/heads/main/openapi/pomelo-users-api-openapi.yml
+  url: https://artifacts.apis.io/pomelo/openapi/pomelo-users-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -75,7 +75,7 @@ source_filename: pomelo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pomelo-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: OAuth 2.0 client-credentials access token issued by /oauth/token.\n  sources:\n  - openapi/pomelo-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.pomelo.la/oauth/token\n    scopes: 0\n  sources:\n  - openapi/pomelo-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pomelo/refs/heads/main/authentication/pomelo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pomelo/authentication/pomelo-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Fintech

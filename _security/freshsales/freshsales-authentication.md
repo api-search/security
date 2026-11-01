@@ -8,73 +8,73 @@ api_specs:
   label: Freshsales Appointments API
   slug: freshsales-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-appointments-api-openapi.yml
 - filename: freshsales-calls-api-openapi.yml
   format: yaml
   label: Freshsales Calls API
   slug: freshsales-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-calls-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-calls-api-openapi.yml
 - filename: freshsales-contacts-api-openapi.yml
   format: yaml
   label: Freshsales Contacts API
   slug: freshsales-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-contacts-api-openapi.yml
 - filename: freshsales-deals-api-openapi.yml
   format: yaml
   label: Freshsales Deals API
   slug: freshsales-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-deals-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-deals-api-openapi.yml
 - filename: freshsales-jobs-api-openapi.yml
   format: yaml
   label: Freshsales Jobs API
   slug: freshsales-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-jobs-api-openapi.yml
 - filename: freshsales-lists-api-openapi.yml
   format: yaml
   label: Freshsales Lists API
   slug: freshsales-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-lists-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-lists-api-openapi.yml
 - filename: freshsales-notes-api-openapi.yml
   format: yaml
   label: Freshsales Notes API
   slug: freshsales-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-notes-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-notes-api-openapi.yml
 - filename: freshsales-products-api-openapi.yml
   format: yaml
   label: Freshsales Products API
   slug: freshsales-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-products-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-products-api-openapi.yml
 - filename: freshsales-search-api-openapi.yml
   format: yaml
   label: Freshsales Search API
   slug: freshsales-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-search-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-search-api-openapi.yml
 - filename: freshsales-tasks-api-openapi.yml
   format: yaml
   label: Freshsales Tasks API
   slug: freshsales-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-tasks-api-openapi.yml
 - filename: freshsales-sales-accounts-api-openapi.yml
   format: yaml
   label: Freshsales Sales Accounts API
   slug: freshsales-sales-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-sales-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-sales-accounts-api-openapi.yml
 - filename: freshsales-sales-activities-api-openapi.yml
   format: yaml
   label: Freshsales Sales Activities API
   slug: freshsales-sales-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-sales-activities-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-sales-activities-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -104,7 +104,7 @@ source_filename: freshsales-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/freshsales-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: tokenAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: |-\n    Token-based authentication header in the form\n    \"Authorization: Token token=YOUR_API_KEY\".\n  sources:\n  - openapi/freshsales-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/authentication/freshsales-authentication.yml
+source_yaml_url: https://artifacts.apis.io/freshsales/authentication/freshsales-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - CRM

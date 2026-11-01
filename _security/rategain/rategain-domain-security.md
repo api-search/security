@@ -5,19 +5,19 @@ api_specs:
   label: RateGain Developer Portal API
   slug: rategain-developer-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rategain/refs/heads/main/openapi/rategain-developer-portal-api-openapi.yml
+  url: https://artifacts.apis.io/rategain/openapi/rategain-developer-portal-api-openapi.yml
 - filename: rategain-our-products-api-openapi.yml
   format: yaml
   label: RateGain Our Products API
   slug: rategain-our-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rategain/refs/heads/main/openapi/rategain-our-products-api-openapi.yml
+  url: https://artifacts.apis.io/rategain/openapi/rategain-our-products-api-openapi.yml
 - filename: rategain-ultradirect-api-openapi.yml
   format: yaml
   label: RateGain Ultradirect API
   slug: rategain-ultradirect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rategain/refs/heads/main/openapi/rategain-ultradirect-api-openapi.yml
+  url: https://artifacts.apis.io/rategain/openapi/rategain-ultradirect-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: rategain-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: rategain.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 19 07:10:38 2026 GMT\n  hsts: false\ndomains:\n- domain: rategain.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rategain/refs/heads/main/security/rategain-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rategain/security/rategain-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

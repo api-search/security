@@ -5,19 +5,19 @@ api_specs:
   label: jService Categories API
   slug: jservice-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jservice/refs/heads/main/openapi/jservice-categories-api-openapi.yml
+  url: https://artifacts.apis.io/jservice/openapi/jservice-categories-api-openapi.yml
 - filename: jservice-clues-api-openapi.yml
   format: yaml
   label: jService Clues API
   slug: jservice-clues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jservice/refs/heads/main/openapi/jservice-clues-api-openapi.yml
+  url: https://artifacts.apis.io/jservice/openapi/jservice-clues-api-openapi.yml
 - filename: jservice-moderation-api-openapi.yml
   format: yaml
   label: jService Moderation API
   slug: jservice-moderation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jservice/refs/heads/main/openapi/jservice-moderation-api-openapi.yml
+  url: https://artifacts.apis.io/jservice/openapi/jservice-moderation-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -43,13 +43,13 @@ source_filename: jservice-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: jservice.io\n  https: false\ndomains:\n- domain: jservice.io\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jservice/refs/heads/main/security/jservice-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/jservice/security/jservice-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Trivia
 - Jeopardy
 - Open Source
 - Ruby
-- Rails
+- Ruby on Rails
 - Public APIs
 ---

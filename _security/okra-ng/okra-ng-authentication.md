@@ -7,79 +7,79 @@ api_specs:
   label: Okra Accounts API
   slug: okra-ng-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-ng-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/okra-ng/openapi/okra-ng-accounts-api-openapi.yml
 - filename: okra-ng-auth-api-openapi.yml
   format: yaml
   label: Okra Auth API
   slug: okra-ng-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-ng-auth-api-openapi.yml
+  url: https://artifacts.apis.io/okra-ng/openapi/okra-ng-auth-api-openapi.yml
 - filename: okra-ng-balance-api-openapi.yml
   format: yaml
   label: Okra Balance API
   slug: okra-ng-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-ng-balance-api-openapi.yml
+  url: https://artifacts.apis.io/okra-ng/openapi/okra-ng-balance-api-openapi.yml
 - filename: okra-ng-identity-api-openapi.yml
   format: yaml
   label: Okra Identity API
   slug: okra-ng-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-ng-identity-api-openapi.yml
+  url: https://artifacts.apis.io/okra-ng/openapi/okra-ng-identity-api-openapi.yml
 - filename: okra-ng-income-api-openapi.yml
   format: yaml
   label: Okra Income API
   slug: okra-ng-income-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-ng-income-api-openapi.yml
+  url: https://artifacts.apis.io/okra-ng/openapi/okra-ng-income-api-openapi.yml
 - filename: okra-ng-payments-api-openapi.yml
   format: yaml
   label: Okra Payments API
   slug: okra-ng-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-ng-payments-api-openapi.yml
+  url: https://artifacts.apis.io/okra-ng/openapi/okra-ng-payments-api-openapi.yml
 - filename: okra-ng-transactions-api-openapi.yml
   format: yaml
   label: Okra Transactions API
   slug: okra-ng-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-ng-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/okra-ng/openapi/okra-ng-transactions-api-openapi.yml
 - filename: okra-ng-webhooks-api-openapi.yml
   format: yaml
   label: Okra Webhooks API
   slug: okra-ng-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-ng-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/okra-ng/openapi/okra-ng-webhooks-api-openapi.yml
 - filename: okra-ng-banks-api-openapi.yml
   format: yaml
   label: Okra Banks API
   slug: okra-ng-banks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-ng-banks-api-openapi.yml
+  url: https://artifacts.apis.io/okra-ng/openapi/okra-ng-banks-api-openapi.yml
 - filename: okra-ng-customers-api-openapi.yml
   format: yaml
   label: Okra Customers API
   slug: okra-ng-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-ng-customers-api-openapi.yml
+  url: https://artifacts.apis.io/okra-ng/openapi/okra-ng-customers-api-openapi.yml
 - filename: okra-ng-reports-api-openapi.yml
   format: yaml
   label: Okra Reports API
   slug: okra-ng-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-ng-reports-api-openapi.yml
+  url: https://artifacts.apis.io/okra-ng/openapi/okra-ng-reports-api-openapi.yml
 - filename: okra-ng-verification-api-openapi.yml
   format: yaml
   label: Okra Verification API
   slug: okra-ng-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-ng-verification-api-openapi.yml
+  url: https://artifacts.apis.io/okra-ng/openapi/okra-ng-verification-api-openapi.yml
 - filename: okra-ng-wallet-api-openapi.yml
   format: yaml
   label: Okra Wallet API
   slug: okra-ng-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-ng-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/okra-ng/openapi/okra-ng-wallet-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -106,7 +106,7 @@ source_filename: okra-ng-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/okra-ng-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Okra secret API key supplied as a Bearer token.\n  sources:\n  - openapi/okra-ng-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/authentication/okra-ng-authentication.yml
+source_yaml_url: https://artifacts.apis.io/okra-ng/authentication/okra-ng-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Open Banking

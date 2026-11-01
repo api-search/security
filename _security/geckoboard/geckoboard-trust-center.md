@@ -5,13 +5,13 @@ api_specs:
   label: Geckoboard Datasets API
   slug: geckoboard-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geckoboard/refs/heads/main/openapi/geckoboard-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/geckoboard/openapi/geckoboard-datasets-api-openapi.yml
 - filename: geckoboard-health-api-openapi.yml
   format: yaml
   label: Geckoboard Health API
   slug: geckoboard-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geckoboard/refs/heads/main/openapi/geckoboard-health-api-openapi.yml
+  url: https://artifacts.apis.io/geckoboard/openapi/geckoboard-health-api-openapi.yml
 certification_count: 2
 certifications:
 - PCI DSS
@@ -29,7 +29,7 @@ source_filename: geckoboard-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://support.geckoboard.com/en/articles/6055694-how-geckoboard-protects-your-data\nurl: https://support.geckoboard.com/en/articles/6055694-how-geckoboard-protects-your-data\ncertifications:\n- PCI DSS\n- GDPR\nevidence:\n- source: https://support.geckoboard.com/en/articles/6055694-how-geckoboard-protects-your-data\n  keywords:\n  - pci dss\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/geckoboard/refs/heads/main/security/geckoboard-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/geckoboard/security/geckoboard-trust-center.yml
 summary_line: PCI DSS, GDPR
 tags:
 - Dashboards

@@ -5,19 +5,19 @@ api_specs:
   label: Toggl Track Me API
   slug: toggl-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toggl/refs/heads/main/openapi/toggl-me-api-openapi.yml
+  url: https://artifacts.apis.io/toggl/openapi/toggl-me-api-openapi.yml
 - filename: toggl-reports-api-openapi.yml
   format: yaml
   label: Toggl Track Reports API
   slug: toggl-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toggl/refs/heads/main/openapi/toggl-reports-api-openapi.yml
+  url: https://artifacts.apis.io/toggl/openapi/toggl-reports-api-openapi.yml
 - filename: toggl-time-entries-api-openapi.yml
   format: yaml
   label: Toggl Track Time Entries API
   slug: toggl-time-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toggl/refs/heads/main/openapi/toggl-time-entries-api-openapi.yml
+  url: https://artifacts.apis.io/toggl/openapi/toggl-time-entries-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: toggl-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: toggl.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 04:25:48 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: engineering.toggl.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 04:52:39 2026 GMT\n  hsts: false\n- host: api.track.toggl.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 07:46:20 2026 GMT\n  hsts: null\ndomains:\n- domain: toggl.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toggl/refs/heads/main/security/toggl-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/toggl/security/toggl-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Time Tracking

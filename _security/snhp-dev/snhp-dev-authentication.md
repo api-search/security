@@ -10,133 +10,133 @@ api_specs:
   label: SNHP Arena API
   slug: snhp-dev-arena-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-arena-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-arena-api-openapi.yml
 - filename: snhp-dev-auctions-api-openapi.yml
   format: yaml
   label: SNHP Auctions API
   slug: snhp-dev-auctions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-auctions-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-auctions-api-openapi.yml
 - filename: snhp-dev-billing-api-openapi.yml
   format: yaml
   label: SNHP Billing API
   slug: snhp-dev-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-billing-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-billing-api-openapi.yml
 - filename: snhp-dev-block-api-openapi.yml
   format: yaml
   label: SNHP Block API
   slug: snhp-dev-block-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-block-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-block-api-openapi.yml
 - filename: snhp-dev-discovery-api-openapi.yml
   format: yaml
   label: SNHP Discovery API
   slug: snhp-dev-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-discovery-api-openapi.yml
 - filename: snhp-dev-divorce-api-openapi.yml
   format: yaml
   label: SNHP Divorce API
   slug: snhp-dev-divorce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-divorce-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-divorce-api-openapi.yml
 - filename: snhp-dev-health-api-openapi.yml
   format: yaml
   label: SNHP Health API
   slug: snhp-dev-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-health-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-health-api-openapi.yml
 - filename: snhp-dev-helper-api-openapi.yml
   format: yaml
   label: SNHP Helper API
   slug: snhp-dev-helper-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-helper-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-helper-api-openapi.yml
 - filename: snhp-dev-hit-api-openapi.yml
   format: yaml
   label: SNHP Hit API
   slug: snhp-dev-hit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-hit-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-hit-api-openapi.yml
 - filename: snhp-dev-mechanism-api-openapi.yml
   format: yaml
   label: SNHP Mechanism API
   slug: snhp-dev-mechanism-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-mechanism-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-mechanism-api-openapi.yml
 - filename: snhp-dev-mpp-api-openapi.yml
   format: yaml
   label: SNHP Mpp API
   slug: snhp-dev-mpp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-mpp-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-mpp-api-openapi.yml
 - filename: snhp-dev-negotiation-api-openapi.yml
   format: yaml
   label: SNHP Negotiation API
   slug: snhp-dev-negotiation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-negotiation-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-negotiation-api-openapi.yml
 - filename: snhp-dev-notary-api-openapi.yml
   format: yaml
   label: SNHP Notary API
   slug: snhp-dev-notary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-notary-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-notary-api-openapi.yml
 - filename: snhp-dev-offer-api-openapi.yml
   format: yaml
   label: SNHP Offer API
   slug: snhp-dev-offer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-offer-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-offer-api-openapi.yml
 - filename: snhp-dev-par-api-openapi.yml
   format: yaml
   label: SNHP Par API
   slug: snhp-dev-par-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-par-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-par-api-openapi.yml
 - filename: snhp-dev-rent-api-openapi.yml
   format: yaml
   label: SNHP Rent API
   slug: snhp-dev-rent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-rent-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-rent-api-openapi.yml
 - filename: snhp-dev-snhp-evolution-arena-api-openapi.yml
   format: yaml
   label: SNHP SNHP Evolution Arena API
   slug: snhp-dev-snhp-evolution-arena-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-snhp-evolution-arena-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-snhp-evolution-arena-api-openapi.yml
 - filename: snhp-dev-stats-api-openapi.yml
   format: yaml
   label: SNHP Stats API
   slug: snhp-dev-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-stats-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-stats-api-openapi.yml
 - filename: snhp-dev-store-api-openapi.yml
   format: yaml
   label: SNHP Store API
   slug: snhp-dev-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-store-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-store-api-openapi.yml
 - filename: snhp-dev-telemetry-api-openapi.yml
   format: yaml
   label: SNHP Telemetry API
   slug: snhp-dev-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-telemetry-api-openapi.yml
 - filename: snhp-dev-vend-api-openapi.yml
   format: yaml
   label: SNHP Vend API
   slug: snhp-dev-vend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-vend-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-vend-api-openapi.yml
 - filename: snhp-dev-world-api-openapi.yml
   format: yaml
   label: SNHP World API
   slug: snhp-dev-world-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-world-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-world-api-openapi.yml
 auth_types:
 - apiKey
 - http-bearer
@@ -194,7 +194,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: >-\n  https://s
   \ MPPPayment\n    type: http\n    scheme: Payment\n    header: 'Authorization: Payment <credential carrying a Stripe Shared Payment Token>'\n    status: documented-and-observed\n    note: >-\n      Not identity — a payment credential (Machine Payments Protocol). POST /v1/mpp/topup with no\n      credential answers 402 application/problem+json with a signed `WWW-Authenticate: Payment\n      id=..., realm=\"snhp.dev\", method=\"stripe\", intent=\"charge\", request=<b64 challenge>,\n      description=..., expires=...` header and `Accept-Payment: stripe`; the client authorises the\n      challenge with an SPT scoped to the store and retries. Observed live 2026-09-19.\n  - name: PeerProof\n    type: custom\n    status: documented\n    note: >-\n      The verified-peer A2A flow authenticates OPERATORS, not callers: an Ed25519 keypair per\n      operator, a signed attestation JWT from POST /v1/registry/register_operator (optionally\n      upgraded to domain-level by a DNS-TXT challenge), and\
   \ a short-lived per-negotiation proof\n      signed locally. Verified server-side by open_session; not a request credential.\nkey_lifecycle:\n  issue: 'POST /v1/keys {agent_id, contact_email, intended_use_summary, telemetry_consent?} -> {api_key: gt_*, rate_limit_per_minute: 600, telemetry_consent, wallet (50c starter credit)}'\n  shown_once: true\n  rotate: 'POST /v1/keys/rotate — replacement issued, full balance carries over, old key invalidated IMMEDIATELY with no grace period.'\n  revoke: 'No standalone revoke; rotation is the revocation path.'\n  recover: 'Manual, human-verified: email the registered contact address from that same address.'\n  telemetry_consent: 'Set ONCE at issuance and immutable; revoke by DELETE /v1/telemetry/delete + stop passing share_outcome.'\nobserved:\n  - {request: 'POST /v1/negotiate/turn (no key, documented quickstart body)', status: 200, note: free floor works}\n  - {request: 'GET /v1/billing/balance (no key)', status: 422, body: 'missing header X-API-Key'}\n\
   \  - {request: 'POST /v1/advice/session (no key)', status: 422, body: 'missing body api_key'}\n  - {request: 'POST /v1/mpp/topup (no credential)', status: 402, headers: ['WWW-Authenticate: Payment ...', 'Accept-Payment: stripe']}\nsee:\n  scopes: 'none — no OAuth2 (derive-oauth-scopes.py: 0 schemes)'\n  rate_limits: rate-limits/snhp-dev-rate-limits.yml\n  conventions: conventions/snhp-dev-conventions.yml\n  overlay: overlays/snhp-dev-openapi-overlay.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/authentication/snhp-dev-authentication.yml
+source_yaml_url: https://artifacts.apis.io/snhp-dev/authentication/snhp-dev-authentication.yml
 summary_line: apiKey/http-bearer/body-field/none · 5 schemes
 tags:
 - Negotiation

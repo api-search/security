@@ -5,67 +5,67 @@ api_specs:
   label: Snov.io Authentication API
   slug: snov-io-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-authentication-api-openapi.yml
 - filename: snov-io-campaigns-api-openapi.yml
   format: yaml
   label: Snov.io Campaigns API
   slug: snov-io-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-campaigns-api-openapi.yml
 - filename: snov-io-crm-pipeline-api-openapi.yml
   format: yaml
   label: Snov.io CRM Pipeline API
   slug: snov-io-crm-pipeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-crm-pipeline-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-crm-pipeline-api-openapi.yml
 - filename: snov-io-domain-search-api-openapi.yml
   format: yaml
   label: Snov.io Domain Search API
   slug: snov-io-domain-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-domain-search-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-domain-search-api-openapi.yml
 - filename: snov-io-email-accounts-api-openapi.yml
   format: yaml
   label: Snov.io Email Accounts API
   slug: snov-io-email-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-email-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-email-accounts-api-openapi.yml
 - filename: snov-io-email-finder-api-openapi.yml
   format: yaml
   label: Snov.io Email Finder API
   slug: snov-io-email-finder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-email-finder-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-email-finder-api-openapi.yml
 - filename: snov-io-email-verification-api-openapi.yml
   format: yaml
   label: Snov.io Email Verification API
   slug: snov-io-email-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-email-verification-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-email-verification-api-openapi.yml
 - filename: snov-io-email-warm-up-api-openapi.yml
   format: yaml
   label: Snov.io Email Warm-up API
   slug: snov-io-email-warm-up-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-email-warm-up-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-email-warm-up-api-openapi.yml
 - filename: snov-io-prospects-api-openapi.yml
   format: yaml
   label: Snov.io Prospects API
   slug: snov-io-prospects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-prospects-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-prospects-api-openapi.yml
 - filename: snov-io-user-api-openapi.yml
   format: yaml
   label: Snov.io User API
   slug: snov-io-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-user-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-user-api-openapi.yml
 - filename: snov-io-webhooks-api-openapi.yml
   format: yaml
   label: Snov.io Webhooks API
   slug: snov-io-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-webhooks-api-openapi.yml
 certification_count: 3
 certifications:
 - GDPR
@@ -88,7 +88,7 @@ source_yaml: "name: Snov.io Trust Center\nspecificationVersion: '0.1'\ngenerated
   \ on snov.io. Snov.io states that \"internal and external audits\n    take place regularly to test access control, risk possibility, information security, and IT\n    infrastructure\" but names no framework, no auditor and no report. For a platform whose\n    entire product is B2B contact data, the absence of a named third-party attestation is the\n    notable finding here.\n\ncontrols_published:\n  - name: Database protections\n    detail: >-\n      Encrypted passwords, intrusion detection systems, and a VPC with strict firewall settings.\n  - name: Integrations security\n    detail: >-\n      Integrated SaaS services are authorized with OAuth2 and their credentials are not stored.\n  - name: Encryption in transit and at rest\n    detail: Data is encrypted both when transmitted over public networks and when stored.\n  - name: Data recovery\n    detail: Regular backups with a maximum 24-hour RPO and a maximum 24-hour RTO.\n  - name: Internal and external audits\n    detail: >-\n      Regular\
   \ audits covering access control, risk, information security and IT infrastructure.\n      No framework or auditor named.\n\nlegal:\n  privacy_policy: https://snov.io/privacy-policy\n  gdpr: https://snov.io/gdpr\n  terms: https://snov.io/terms-and-conditions\n  cookie_policy: https://snov.io/cookie-policy\n  do_not_sell: published in site footer\n\nvulnerability_disclosure:\n  published: false\n  security_txt: false\n  bug_bounty: false\n  note: >-\n    Probed 2026-08-13. No /.well-known/security.txt on snov.io or api.snov.io (both HTTP 404),\n    no disclosure or responsible-reporting page, and no HackerOne, Bugcrowd or Intigriti\n    program. There is no published route for a researcher to report a vulnerability other than\n    the general contact form. No VulnerabilityDisclosure or Security pointer is wired in\n    apis.yml as a result.\n\nx-evidence:\n  - fetched: '2026-08-13'\n    url: https://snov.io/security-center\n    http_status: 200\n  - fetched: '2026-08-13'\n    url: https://snov.io/gdpr\n\
   \    http_status: 200\n  - fetched: '2026-08-13'\n    url: https://snov.io/privacy-policy\n    http_status: 200\n  - fetched: '2026-08-13'\n    url: https://snov.io/.well-known/security.txt\n    http_status: 404\n  - fetched: '2026-08-13'\n    url: https://api.snov.io/.well-known/security.txt\n    http_status: 404\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/security/snov-io-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/snov-io/security/snov-io-trust-center.yml
 summary_line: GDPR, LOA (Letter of Authorization), CCPA / Do Not Sell My Personal Information
 tags:
 - Sales Automation

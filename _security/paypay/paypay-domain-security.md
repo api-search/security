@@ -5,13 +5,13 @@ api_specs:
   label: PayPay Payment API
   slug: paypay-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypay/refs/heads/main/openapi/paypay-payment-api-openapi.yml
+  url: https://artifacts.apis.io/paypay/openapi/paypay-payment-api-openapi.yml
 - filename: paypay-payments-api-openapi.yml
   format: yaml
   label: PayPay Payments API
   slug: paypay-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypay/refs/heads/main/openapi/paypay-payments-api-openapi.yml
+  url: https://artifacts.apis.io/paypay/openapi/paypay-payments-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -49,7 +49,7 @@ source_filename: paypay-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: apigw.paypay.ne.jp\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  7 23:59:59 2027 GMT\n  hsts: null\n- host: apigw.stg.paypay.ne.jp\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  8 23:59:59 2027 GMT\n  hsts: null\n- host: apigw.sandbox.paypay.ne.jp\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: ne.jp\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paypay/refs/heads/main/security/paypay-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/paypay/security/paypay-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

@@ -5,19 +5,19 @@ api_specs:
   label: Sonarly Bugs API
   slug: sonarly-bugs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarly/refs/heads/main/openapi/sonarly-bugs-api-openapi.yml
+  url: https://artifacts.apis.io/sonarly/openapi/sonarly-bugs-api-openapi.yml
 - filename: sonarly-incidents-api-openapi.yml
   format: yaml
   label: Sonarly Incidents API
   slug: sonarly-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarly/refs/heads/main/openapi/sonarly-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/sonarly/openapi/sonarly-incidents-api-openapi.yml
 - filename: sonarly-setup-api-openapi.yml
   format: yaml
   label: Sonarly Setup API
   slug: sonarly-setup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarly/refs/heads/main/openapi/sonarly-setup-api-openapi.yml
+  url: https://artifacts.apis.io/sonarly/openapi/sonarly-setup-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: sonarly-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sonarly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 00:11:00 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: sonarly.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sonarly/refs/heads/main/security/sonarly-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sonarly/security/sonarly-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

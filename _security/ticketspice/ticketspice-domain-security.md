@@ -5,61 +5,61 @@ api_specs:
   label: TicketSpice Coupons API
   slug: ticketspice-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/ticketspice/openapi/ticketspice-coupons-api-openapi.yml
 - filename: ticketspice-customers-api-openapi.yml
   format: yaml
   label: TicketSpice Customers API
   slug: ticketspice-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-customers-api-openapi.yml
+  url: https://artifacts.apis.io/ticketspice/openapi/ticketspice-customers-api-openapi.yml
 - filename: ticketspice-forms-api-openapi.yml
   format: yaml
   label: TicketSpice Forms API
   slug: ticketspice-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-forms-api-openapi.yml
+  url: https://artifacts.apis.io/ticketspice/openapi/ticketspice-forms-api-openapi.yml
 - filename: ticketspice-health-api-openapi.yml
   format: yaml
   label: TicketSpice Health API
   slug: ticketspice-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-health-api-openapi.yml
+  url: https://artifacts.apis.io/ticketspice/openapi/ticketspice-health-api-openapi.yml
 - filename: ticketspice-orders-api-openapi.yml
   format: yaml
   label: TicketSpice Orders API
   slug: ticketspice-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ticketspice/openapi/ticketspice-orders-api-openapi.yml
 - filename: ticketspice-registrants-api-openapi.yml
   format: yaml
   label: TicketSpice Registrants API
   slug: ticketspice-registrants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-registrants-api-openapi.yml
+  url: https://artifacts.apis.io/ticketspice/openapi/ticketspice-registrants-api-openapi.yml
 - filename: ticketspice-subscriptions-api-openapi.yml
   format: yaml
   label: TicketSpice Subscriptions API
   slug: ticketspice-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/ticketspice/openapi/ticketspice-subscriptions-api-openapi.yml
 - filename: ticketspice-tickets-api-openapi.yml
   format: yaml
   label: TicketSpice Tickets API
   slug: ticketspice-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/ticketspice/openapi/ticketspice-tickets-api-openapi.yml
 - filename: ticketspice-transactions-api-openapi.yml
   format: yaml
   label: TicketSpice Transactions API
   slug: ticketspice-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/ticketspice/openapi/ticketspice-transactions-api-openapi.yml
 - filename: ticketspice-webhooks-api-openapi.yml
   format: yaml
   label: TicketSpice Webhooks API
   slug: ticketspice-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/ticketspice/openapi/ticketspice-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -111,7 +111,7 @@ source_filename: ticketspice-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ticketspice.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 08:06:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.webconnex.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  3 23:59:59 2027 GMT\n  hsts: false\n- host: api.webconnex.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 13 01:24:20 2026 GMT\n  hsts: null\ndomains:\n- domain: ticketspice.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog\"\n  - 0 iodef \"mailto:security@webconnex.com\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: webconnex.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/security/ticketspice-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ticketspice/security/ticketspice-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Event Ticketing

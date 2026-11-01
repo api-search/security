@@ -8,31 +8,31 @@ api_specs:
   label: Noun Project Autocomplete API
   slug: noun-project-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/openapi/noun-project-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/noun-project/openapi/noun-project-autocomplete-api-openapi.yml
 - filename: noun-project-blocklist-api-openapi.yml
   format: yaml
   label: Noun Project Blocklist API
   slug: noun-project-blocklist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/openapi/noun-project-blocklist-api-openapi.yml
+  url: https://artifacts.apis.io/noun-project/openapi/noun-project-blocklist-api-openapi.yml
 - filename: noun-project-collection-api-openapi.yml
   format: yaml
   label: Noun Project Collection API
   slug: noun-project-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/openapi/noun-project-collection-api-openapi.yml
+  url: https://artifacts.apis.io/noun-project/openapi/noun-project-collection-api-openapi.yml
 - filename: noun-project-icon-api-openapi.yml
   format: yaml
   label: Noun Project Icon API
   slug: noun-project-icon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/openapi/noun-project-icon-api-openapi.yml
+  url: https://artifacts.apis.io/noun-project/openapi/noun-project-icon-api-openapi.yml
 - filename: noun-project-usage-api-openapi.yml
   format: yaml
   label: Noun Project Usage API
   slug: noun-project-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/openapi/noun-project-usage-api-openapi.yml
+  url: https://artifacts.apis.io/noun-project/openapi/noun-project-usage-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: noun-project-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/noun-project-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: oauth1\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: OAuth 1.0a signed Authorization header constructed with the client key and secret\n    obtained from the Noun Project developer portal. A nonce of at least 8 characters is required.\n    Use any standards-compliant OAuth 1.0a library (requests_oauthlib, Faraday-OAuth, DotNetOpenAuth,\n    etc.).\n  sources:\n  - openapi/noun-project-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/authentication/noun-project-authentication.yml
+source_yaml_url: https://artifacts.apis.io/noun-project/authentication/noun-project-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Icons

@@ -7,25 +7,25 @@ api_specs:
   label: Bandcamp Account API
   slug: bandcamp-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bandcamp/refs/heads/main/openapi/bandcamp-account-api-openapi.yml
+  url: https://artifacts.apis.io/bandcamp/openapi/bandcamp-account-api-openapi.yml
 - filename: bandcamp-merch-orders-api-openapi.yml
   format: yaml
   label: Bandcamp Merch Orders API
   slug: bandcamp-merch-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bandcamp/refs/heads/main/openapi/bandcamp-merch-orders-api-openapi.yml
+  url: https://artifacts.apis.io/bandcamp/openapi/bandcamp-merch-orders-api-openapi.yml
 - filename: bandcamp-sales-api-openapi.yml
   format: yaml
   label: Bandcamp Sales API
   slug: bandcamp-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bandcamp/refs/heads/main/openapi/bandcamp-sales-api-openapi.yml
+  url: https://artifacts.apis.io/bandcamp/openapi/bandcamp-sales-api-openapi.yml
 - filename: bandcamp-oauth-api-openapi.yml
   format: yaml
   label: Bandcamp O Auth API
   slug: bandcamp-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bandcamp/refs/heads/main/openapi/bandcamp-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/bandcamp/openapi/bandcamp-oauth-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -63,7 +63,7 @@ source_filename: bandcamp-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bandcamp-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: OAuth 2.0 access token returned by `/oauth_token`.\n  sources:\n  - openapi/bandcamp-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://bandcamp.com/oauth_token\n    scopes: 0\n  sources:\n  - openapi/bandcamp-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bandcamp/refs/heads/main/authentication/bandcamp-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bandcamp/authentication/bandcamp-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Music

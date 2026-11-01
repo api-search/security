@@ -5,25 +5,25 @@ api_specs:
   label: Quenza Clients API
   slug: quenza-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-clients-api-openapi.yml
+  url: https://artifacts.apis.io/quenza/openapi/quenza-clients-api-openapi.yml
 - filename: quenza-groups-api-openapi.yml
   format: yaml
   label: Quenza Groups API
   slug: quenza-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-groups-api-openapi.yml
+  url: https://artifacts.apis.io/quenza/openapi/quenza-groups-api-openapi.yml
 - filename: quenza-members-api-openapi.yml
   format: yaml
   label: Quenza Members API
   slug: quenza-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-members-api-openapi.yml
+  url: https://artifacts.apis.io/quenza/openapi/quenza-members-api-openapi.yml
 - filename: quenza-tasks-api-openapi.yml
   format: yaml
   label: Quenza Tasks API
   slug: quenza-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/quenza/openapi/quenza-tasks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: quenza-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: quenza.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 18:32:49 2026 GMT\n  hsts: false\n- host: developers.quenza.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 22:47:47 2026 GMT\n  hsts: false\ndomains:\n- domain: quenza.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/security/quenza-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/quenza/security/quenza-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Coaching

@@ -7,31 +7,31 @@ api_specs:
   label: KonbiniAPI Instagram API
   slug: konbiniapi-instagram-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/openapi/konbiniapi-instagram-api-openapi.yml
+  url: https://artifacts.apis.io/konbiniapi/openapi/konbiniapi-instagram-api-openapi.yml
 - filename: konbiniapi-tiktok-api-openapi.yml
   format: yaml
   label: KonbiniAPI TikTok API
   slug: konbiniapi-tiktok-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/openapi/konbiniapi-tiktok-api-openapi.yml
+  url: https://artifacts.apis.io/konbiniapi/openapi/konbiniapi-tiktok-api-openapi.yml
 - filename: konbiniapi-x-api-openapi.yml
   format: yaml
   label: KonbiniAPI X API
   slug: konbiniapi-x-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/openapi/konbiniapi-x-api-openapi.yml
+  url: https://artifacts.apis.io/konbiniapi/openapi/konbiniapi-x-api-openapi.yml
 - filename: konbiniapi-reddit-api-openapi.yml
   format: yaml
   label: KonbiniAPI Reddit API
   slug: konbiniapi-reddit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/openapi/konbiniapi-reddit-api-openapi.yml
+  url: https://artifacts.apis.io/konbiniapi/openapi/konbiniapi-reddit-api-openapi.yml
 - filename: konbiniapi-linked-in-api-openapi.yml
   format: yaml
   label: KonbiniAPI Linked In API
   slug: konbiniapi-linked-in-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/openapi/konbiniapi-linked-in-api-openapi.yml
+  url: https://artifacts.apis.io/konbiniapi/openapi/konbiniapi-linked-in-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://docs.ko
   \        scopes:\n          api_key: Act on the account's KonbiniAPI API key on the user's behalf.\n          offline_access: Receive a refresh token and act without the user present.\n      clientCredentials:\n        tokenUrl: https://app.konbiniapi.com/api/auth/oauth2/token\n    issuer: https://app.konbiniapi.com/api/auth\n    jwks_uri: https://app.konbiniapi.com/api/auth/jwks\n    registration_endpoint: https://app.konbiniapi.com/api/auth/oauth2/register\n    introspection_endpoint: https://app.konbiniapi.com/api/auth/oauth2/introspect\n    revocation_endpoint: https://app.konbiniapi.com/api/auth/oauth2/revoke\n    pkce: ['S256']\n    dynamic_client_registration: true\n    id_token_signing_alg: EdDSA\n    description: >-\n      OAuth 2.1 authorization code + PKCE for the hosted MCP server, discoverable through RFC 9728\n      protected-resource metadata and RFC 8414 authorization-server metadata.\n    sources:\n      - well-known/konbiniapi-mcp-oauth-protected-resource.json\n     \
   \ - well-known/konbiniapi-mcp-oauth-authorization-server.json\n  - name: mcpBearer\n    type: http\n    scheme: bearer\n    surface: mcp\n    applies_to: https://mcp.konbiniapi.com\n    description: >-\n      Fallback for MCP clients that support remote servers but not OAuth: send the KonbiniAPI API\n      key as a Bearer token instead of completing the authorization flow.\n    sources:\n      - https://docs.konbiniapi.com/reference/mcp/overview\nidentity_providers:\n  - Email and password\n  - Google\n  - GitHub\nscopes: scopes/konbiniapi-scopes.yml\nfailure_modes:\n  - status: 401\n    code: missing_api_key\n    meaning: Authorization header absent or malformed.\n  - status: 401\n    code: invalid_api_key\n    meaning: Key not recognised or revoked.\n  - status: 403\n    code: api_key_disabled\n    meaning: Key exists but is disabled.\n  - status: 403\n    code: api_key_expired\n    meaning: Key exists but is expired.\nobserved:\n  - url: https://api.konbiniapi.com/v1/openapi.json\n\
   \    http_status: 401\n    note: unauthenticated request returns missing_api_key, confirming the key is enforced at the edge\n  - url: https://mcp.konbiniapi.com/\n    http_status: 401\n    note: 'anonymous MCP tools/list returns {\"code\":-32000,\"message\":\"Unauthorized\"}'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/authentication/konbiniapi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/konbiniapi/authentication/konbiniapi-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Social Media

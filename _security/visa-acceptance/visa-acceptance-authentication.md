@@ -7,37 +7,37 @@ api_specs:
   label: Visa Acceptance Captures API
   slug: visa-acceptance-captures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/openapi/visa-acceptance-captures-api-openapi.yml
+  url: https://artifacts.apis.io/visa-acceptance/openapi/visa-acceptance-captures-api-openapi.yml
 - filename: visa-acceptance-invoices-api-openapi.yml
   format: yaml
   label: Visa Acceptance Invoices API
   slug: visa-acceptance-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/openapi/visa-acceptance-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/visa-acceptance/openapi/visa-acceptance-invoices-api-openapi.yml
 - filename: visa-acceptance-pay-by-link-api-openapi.yml
   format: yaml
   label: Visa Acceptance Pay by Link API
   slug: visa-acceptance-pay-by-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/openapi/visa-acceptance-pay-by-link-api-openapi.yml
+  url: https://artifacts.apis.io/visa-acceptance/openapi/visa-acceptance-pay-by-link-api-openapi.yml
 - filename: visa-acceptance-payments-api-openapi.yml
   format: yaml
   label: Visa Acceptance Payments API
   slug: visa-acceptance-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/openapi/visa-acceptance-payments-api-openapi.yml
+  url: https://artifacts.apis.io/visa-acceptance/openapi/visa-acceptance-payments-api-openapi.yml
 - filename: visa-acceptance-refunds-api-openapi.yml
   format: yaml
   label: Visa Acceptance Refunds API
   slug: visa-acceptance-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/openapi/visa-acceptance-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/visa-acceptance/openapi/visa-acceptance-refunds-api-openapi.yml
 - filename: visa-acceptance-voids-api-openapi.yml
   format: yaml
   label: Visa Acceptance Voids API
   slug: visa-acceptance-voids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/openapi/visa-acceptance-voids-api-openapi.yml
+  url: https://artifacts.apis.io/visa-acceptance/openapi/visa-acceptance-voids-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -65,7 +65,7 @@ source_filename: visa-acceptance-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/visa-acceptance-payments-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: JWT\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: RSA-signed JSON Web Token. Generate using your merchant ID and RSA key pair from\n    the Visa Acceptance Business Center.\n  sources:\n  - openapi/visa-acceptance-payments-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/authentication/visa-acceptance-authentication.yml
+source_yaml_url: https://artifacts.apis.io/visa-acceptance/authentication/visa-acceptance-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Payments

@@ -5,55 +5,55 @@ api_specs:
   label: Microsoft Bing Autosuggest API
   slug: microsoft-bing-autosuggest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-autosuggest-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bing/openapi/microsoft-bing-autosuggest-api-openapi.yml
 - filename: microsoft-bing-custom-search-api-openapi.yml
   format: yaml
   label: Microsoft Bing Custom Search API
   slug: microsoft-bing-custom-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-custom-search-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bing/openapi/microsoft-bing-custom-search-api-openapi.yml
 - filename: microsoft-bing-entity-search-api-openapi.yml
   format: yaml
   label: Microsoft Bing Entity Search API
   slug: microsoft-bing-entity-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-entity-search-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bing/openapi/microsoft-bing-entity-search-api-openapi.yml
 - filename: microsoft-bing-image-search-api-openapi.yml
   format: yaml
   label: Microsoft Bing Image Search API
   slug: microsoft-bing-image-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-image-search-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bing/openapi/microsoft-bing-image-search-api-openapi.yml
 - filename: microsoft-bing-news-search-api-openapi.yml
   format: yaml
   label: Microsoft Bing News Search API
   slug: microsoft-bing-news-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-news-search-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bing/openapi/microsoft-bing-news-search-api-openapi.yml
 - filename: microsoft-bing-spell-check-api-openapi.yml
   format: yaml
   label: Microsoft Bing Spell Check API
   slug: microsoft-bing-spell-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-spell-check-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bing/openapi/microsoft-bing-spell-check-api-openapi.yml
 - filename: microsoft-bing-video-search-api-openapi.yml
   format: yaml
   label: Microsoft Bing Video Search API
   slug: microsoft-bing-video-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-video-search-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bing/openapi/microsoft-bing-video-search-api-openapi.yml
 - filename: microsoft-bing-visual-search-api-openapi.yml
   format: yaml
   label: Microsoft Bing Visual search API
   slug: microsoft-bing-visual-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-visual-search-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bing/openapi/microsoft-bing-visual-search-api-openapi.yml
 - filename: microsoft-bing-web-search-api-openapi.yml
   format: yaml
   label: Microsoft Bing Web Search API
   slug: microsoft-bing-web-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-web-search-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bing/openapi/microsoft-bing-web-search-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -102,7 +102,7 @@ source_filename: microsoft-bing-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: portal.azure.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 19:53:18 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: learn.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 02:26:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.bing.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 22:43:39 2026 GMT\n  hsts: null\ndomains:\n- domain: azure.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/security/microsoft-bing-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-bing/security/microsoft-bing-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Search

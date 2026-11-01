@@ -8,19 +8,19 @@ api_specs:
   label: Sportsbook API Betting Analysis API
   slug: sportsbook-api-betting-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsbook-api/refs/heads/main/openapi/sportsbook-api-betting-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/sportsbook-api/openapi/sportsbook-api-betting-analysis-api-openapi.yml
 - filename: sportsbook-api-odds-api-openapi.yml
   format: yaml
   label: Sportsbook API Odds API
   slug: sportsbook-api-odds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsbook-api/refs/heads/main/openapi/sportsbook-api-odds-api-openapi.yml
+  url: https://artifacts.apis.io/sportsbook-api/openapi/sportsbook-api-odds-api-openapi.yml
 - filename: sportsbook-api-reference-api-openapi.yml
   format: yaml
   label: Sportsbook API Reference API
   slug: sportsbook-api-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsbook-api/refs/heads/main/openapi/sportsbook-api-reference-api-openapi.yml
+  url: https://artifacts.apis.io/sportsbook-api/openapi/sportsbook-api-reference-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -47,7 +47,7 @@ source_filename: sportsbook-api-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sportsbook-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: rapidApiKey\n  type: apiKey\n  in: header\n  parameter: X-RapidAPI-Key\n  sources:\n  - openapi/sportsbook-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sportsbook-api/refs/heads/main/authentication/sportsbook-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sportsbook-api/authentication/sportsbook-api-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Sports Betting

@@ -7,19 +7,19 @@ api_specs:
   label: Lowe's Inventory API
   slug: lowes-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lowes/refs/heads/main/openapi/lowes-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/lowes/openapi/lowes-inventory-api-openapi.yml
 - filename: lowes-products-api-openapi.yml
   format: yaml
   label: Lowe's Products API
   slug: lowes-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lowes/refs/heads/main/openapi/lowes-products-api-openapi.yml
+  url: https://artifacts.apis.io/lowes/openapi/lowes-products-api-openapi.yml
 - filename: lowes-stores-api-openapi.yml
   format: yaml
   label: Lowe's Stores API
   slug: lowes-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lowes/refs/heads/main/openapi/lowes-stores-api-openapi.yml
+  url: https://artifacts.apis.io/lowes/openapi/lowes-stores-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -45,7 +45,7 @@ source_filename: lowes-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/lowes-product-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/lowes-product-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lowes/refs/heads/main/authentication/lowes-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lowes/authentication/lowes-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - E-Commerce

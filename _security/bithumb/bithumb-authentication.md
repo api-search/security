@@ -8,31 +8,31 @@ api_specs:
   label: Bithumb Account API
   slug: bithumb-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/openapi/bithumb-account-api-openapi.yml
+  url: https://artifacts.apis.io/bithumb/openapi/bithumb-account-api-openapi.yml
 - filename: bithumb-general-api-openapi.yml
   format: yaml
   label: Bithumb General API
   slug: bithumb-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/openapi/bithumb-general-api-openapi.yml
+  url: https://artifacts.apis.io/bithumb/openapi/bithumb-general-api-openapi.yml
 - filename: bithumb-market-data-api-openapi.yml
   format: yaml
   label: Bithumb Market Data API
   slug: bithumb-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/openapi/bithumb-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/bithumb/openapi/bithumb-market-data-api-openapi.yml
 - filename: bithumb-spot-trading-api-openapi.yml
   format: yaml
   label: Bithumb Spot Trading API
   slug: bithumb-spot-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/openapi/bithumb-spot-trading-api-openapi.yml
+  url: https://artifacts.apis.io/bithumb/openapi/bithumb-spot-trading-api-openapi.yml
 - filename: bithumb-wallet-api-openapi.yml
   format: yaml
   label: Bithumb Wallet API
   slug: bithumb-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/openapi/bithumb-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/bithumb/openapi/bithumb-wallet-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: bithumb-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: query\n  parameter: apiKey\n  description: API key issued from bithumb.pro. All authenticated requests must also include\n    `timestamp` (Unix ms) and `signature` (HmacSHA256 of sorted request parameters joined with\n    \"&\").\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/authentication/bithumb-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bithumb/authentication/bithumb-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Cryptocurrency

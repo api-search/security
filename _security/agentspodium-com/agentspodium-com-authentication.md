@@ -8,43 +8,43 @@ api_specs:
   label: AgentsPodium A2A API
   slug: agentspodium-com-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/agentspodium-com/openapi/agentspodium-com-a2a-api-openapi.yml
 - filename: agentspodium-com-agents-api-openapi.yml
   format: yaml
   label: AgentsPodium Agents API
   slug: agentspodium-com-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-agents-api-openapi.yml
+  url: https://artifacts.apis.io/agentspodium-com/openapi/agentspodium-com-agents-api-openapi.yml
 - filename: agentspodium-com-api-keys-api-openapi.yml
   format: yaml
   label: AgentsPodium API keys API
   slug: agentspodium-com-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/agentspodium-com/openapi/agentspodium-com-api-keys-api-openapi.yml
 - filename: agentspodium-com-auth-api-openapi.yml
   format: yaml
   label: AgentsPodium Auth API
   slug: agentspodium-com-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-auth-api-openapi.yml
+  url: https://artifacts.apis.io/agentspodium-com/openapi/agentspodium-com-auth-api-openapi.yml
 - filename: agentspodium-com-catalog-api-openapi.yml
   format: yaml
   label: AgentsPodium Catalog API
   slug: agentspodium-com-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/agentspodium-com/openapi/agentspodium-com-catalog-api-openapi.yml
 - filename: agentspodium-com-payment-api-openapi.yml
   format: yaml
   label: AgentsPodium Payment API
   slug: agentspodium-com-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-payment-api-openapi.yml
+  url: https://artifacts.apis.io/agentspodium-com/openapi/agentspodium-com-payment-api-openapi.yml
 - filename: agentspodium-com-status-api-openapi.yml
   format: yaml
   label: AgentsPodium Status API
   slug: agentspodium-com-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-status-api-openapi.yml
+  url: https://artifacts.apis.io/agentspodium-com/openapi/agentspodium-com-status-api-openapi.yml
 auth_types:
 - http
 description: 'One bearer scheme with two credential kinds. An API key (ak_live_...) is created by a signed-in person on https://agentspodium.com/account ("API keys for agents"), carries the same rights as that person''s sign-in, never expires, and can be revoked from the same page. A session token comes from a passwordless e-mail code (POST /auth/request -> 202 always, six-digit code valid 10 minutes -> POST /auth/verify) and lives 30 days. Both are sent as "Authorization: Bearer <token>" on every authenticated endpoint. Key management itself (POST /keys, DELETE /keys/{id}) is refused to a key (403) and reserved for the person''s session.'
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/agentsp
   \ 10 minutes -> POST /auth/verify {\"email\",\"code\"} -> {\"token\",\"user\":{\"id\":\"usr_…\",\"email\"}}'\n  lifetime: 30 days\n  recommended_for: people, and agents that can read the mailbox (IMAP or a mail API)\ngateway_headers:\n  note: The MCP gateway (mcp.agentspodium.com) and A2A gateway (a2a.agentspodium.com) forward the same credential to the account API and additionally accept an x-api-key header or an apiKey query parameter (from the gateway's own 401 body and developer-ai.txt). The A2A agent card declares the same scheme as securitySchemes.bearerAuth.\npublic_operations:\n- GET /engines\n- GET /tiers\n- GET /personas\n- GET /personas/{id}\n- GET /tools\n- GET /models\n- GET /llm-providers\n- GET /status\n- GET /a2a-catalog\n- POST /auth/request\n- POST /auth/verify\nfailure_modes:\n- {status: 401, code: UNAUTHORIZED, when: 'no bearer, expired session, revoked key', observed: '{\"error\":\"UNAUTHORIZED\",\"message\":\"Authentication required\"} on GET /api/agents without a\
   \ token (2026-09-19)'}\n- {status: 403, code: FORBIDDEN, when: 'a key managing keys; someone else''s agent'}\n- {status: 429, when: '/auth/request rate limit exceeded'}\noidc_note: >-\n  https://agentspodium.com/.well-known/openid-configuration advertises an OpenID Provider at https://app.agentspodium.com\n  (authorization_code + PKCE, RS256, scopes openid profile email). This is the account identity provider that signs pod\n  owners into their engine dashboards (the \"sso\" capability on GET /api/engines), not an OAuth flow for the account API,\n  MCP server or A2A agent — none of which publishes OAuth metadata or accepts anything but the bearer key/session token.\n  Saved at well-known/agentspodium-com-openid-configuration.json.\nscopes: none — the key inherits the full rights of the person who created it; there is no scoped or read-only key\nx-evidence:\n  fetched: '2026-09-19'\n  probes:\n  - {url: 'https://hosting.defispace.com/docs/auth.md', http_status: 200}\n  - {url: 'https://agentspodium.com/api/agents',\
   \ http_status: 401, note: unauthenticated}\n  - {url: 'https://agentspodium.com/api/tiers', http_status: 200, note: public}\n  - {url: 'https://mcp.agentspodium.com/mcp', method: POST, body: 'tools/call list_instances (no key)', http_status: 200, note: 'UNAUTHORIZED body naming Authorization Bearer, x-api-key and apiKey'}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/authentication/agentspodium-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/agentspodium-com/authentication/agentspodium-com-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - AI Agents

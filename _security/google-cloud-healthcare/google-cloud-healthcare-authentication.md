@@ -7,7 +7,7 @@ api_specs:
   label: Google Cloud Healthcare Projects API
   slug: google-cloud-healthcare-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-healthcare/refs/heads/main/openapi/google-cloud-healthcare-projects-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-healthcare/openapi/google-cloud-healthcare-projects-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -51,7 +51,7 @@ source_filename: google-cloud-healthcare-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi-v1.yaml, openapi/openapi-v1beta1.yaml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - implicit\nschemes:\n- name: Oauth2\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    scopes: 2\n  description: Oauth 2.0 implicit authentication\n  sources:\n  - openapi/openapi-v1.yaml\n  - openapi/openapi-v1beta1.yaml\n- name: Oauth2c\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://accounts.google.com/o/oauth2/token\n    scopes: 2\n  description: Oauth 2.0 authorizationCode authentication\n  sources:\n  - openapi/openapi-v1.yaml\n  - openapi/openapi-v1beta1.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-healthcare/refs/heads/main/authentication/google-cloud-healthcare-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-healthcare/authentication/google-cloud-healthcare-authentication.yml
 summary_line: oauth2 · 2 schemes
 tags:
 - Healthcare

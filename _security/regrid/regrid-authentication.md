@@ -8,31 +8,31 @@ api_specs:
   label: Regrid Metadata API
   slug: regrid-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/openapi/regrid-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/regrid/openapi/regrid-metadata-api-openapi.yml
 - filename: regrid-parcel-query-api-openapi.yml
   format: yaml
   label: Regrid Parcel Query API
   slug: regrid-parcel-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/openapi/regrid-parcel-query-api-openapi.yml
+  url: https://artifacts.apis.io/regrid/openapi/regrid-parcel-query-api-openapi.yml
 - filename: regrid-parcel-search-api-openapi.yml
   format: yaml
   label: Regrid Parcel Search API
   slug: regrid-parcel-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/openapi/regrid-parcel-search-api-openapi.yml
+  url: https://artifacts.apis.io/regrid/openapi/regrid-parcel-search-api-openapi.yml
 - filename: regrid-schemas-api-openapi.yml
   format: yaml
   label: Regrid Schemas API
   slug: regrid-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/openapi/regrid-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/regrid/openapi/regrid-schemas-api-openapi.yml
 - filename: regrid-typeahead-api-openapi.yml
   format: yaml
   label: Regrid Typeahead API
   slug: regrid-typeahead-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/openapi/regrid-typeahead-api-openapi.yml
+  url: https://artifacts.apis.io/regrid/openapi/regrid-typeahead-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: regrid-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/regrid-parcel-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiToken\n  type: apiKey\n  in: query\n  parameter: token\n  description: API token obtained from your Regrid account profile\n  sources:\n  - openapi/regrid-parcel-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/authentication/regrid-authentication.yml
+source_yaml_url: https://artifacts.apis.io/regrid/authentication/regrid-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Land Data

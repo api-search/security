@@ -8,43 +8,43 @@ api_specs:
   label: VergeSense Buildings API
   slug: vergesense-buildings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vergesense/refs/heads/main/openapi/vergesense-buildings-api-openapi.yml
+  url: https://artifacts.apis.io/vergesense/openapi/vergesense-buildings-api-openapi.yml
 - filename: vergesense-hardware-api-openapi.yml
   format: yaml
   label: VergeSense Hardware API
   slug: vergesense-hardware-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vergesense/refs/heads/main/openapi/vergesense-hardware-api-openapi.yml
+  url: https://artifacts.apis.io/vergesense/openapi/vergesense-hardware-api-openapi.yml
 - filename: vergesense-metrics-api-openapi.yml
   format: yaml
   label: VergeSense Metrics API
   slug: vergesense-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vergesense/refs/heads/main/openapi/vergesense-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/vergesense/openapi/vergesense-metrics-api-openapi.yml
 - filename: vergesense-predict-api-openapi.yml
   format: yaml
   label: VergeSense Predict API
   slug: vergesense-predict-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vergesense/refs/heads/main/openapi/vergesense-predict-api-openapi.yml
+  url: https://artifacts.apis.io/vergesense/openapi/vergesense-predict-api-openapi.yml
 - filename: vergesense-sensors-api-openapi.yml
   format: yaml
   label: VergeSense Sensors API
   slug: vergesense-sensors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vergesense/refs/heads/main/openapi/vergesense-sensors-api-openapi.yml
+  url: https://artifacts.apis.io/vergesense/openapi/vergesense-sensors-api-openapi.yml
 - filename: vergesense-spaces-api-openapi.yml
   format: yaml
   label: VergeSense Spaces API
   slug: vergesense-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vergesense/refs/heads/main/openapi/vergesense-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/vergesense/openapi/vergesense-spaces-api-openapi.yml
 - filename: vergesense-webhooks-api-openapi.yml
   format: yaml
   label: VergeSense Webhooks API
   slug: vergesense-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vergesense/refs/heads/main/openapi/vergesense-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/vergesense/openapi/vergesense-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: searched\nsource: https://vergese
   \ Bearer resource_metadata=\"https://mcp.vergesense.com/.well-known/oauth-protected-resource/mcp\".\n    The live tool schemas are therefore auth-gated and were not read.\n\nkey_management:\n  issuance: >-\n    Not self-serve. The docs instruct prospective developers to contact support@vergesense.com to\n    request a VergeSense Developer account; keys are then generated inside the VergeSense Cloud app.\n  console_path: Settings > API Keys > Generate API Key\n  key_naming: an API Token Name is required at creation\n  scoping: >-\n    An API key is scoped to a selected set of buildings at creation, and the building selection can\n    be edited afterwards from Integrations > Details. This is the only authorization granularity the\n    REST API exposes — there are no OAuth scopes or per-endpoint permissions.\n  rotation: >-\n    Self-service rotation is published: Integrations > Details > Rotate generates a new API key.\n    The docs recommend periodic rotation and rotation on suspected compromise.\n\
   \  visibility: the key can be revealed in-app via Integrations > Details > Show\n  source: https://vergesense.readme.io/reference/reference-getting-started\n\nenvironments:\n- name: AWS (default)\n  base_url: https://api.vergesense.com\n- name: Azure\n  base_url: https://api.azure.vergesense.com\n  note: >-\n    Alternate deployment for Azure-hosted tenants. The published OpenAPI declares only the AWS host\n    in servers[]; the Azure host is documented in prose on the Getting Started page.\n\noutbound_webhook_authentication:\n  note: >-\n    Distinct from inbound API auth — this is how VergeSense authenticates ITSELF to a customer's\n    webhook receiver. Authentication is optional but recommended by the provider.\n  methods:\n  - technique: Basic access authentication\n    header: 'Basic: [base64(username:password)]'\n    configurable_in_ui: true\n  - technique: Bearer token\n    header: 'Bearer: [token]'\n    configurable_in_ui: true\n  - technique: Custom header\n    header: any key:value\
   \ pair\n    configurable_in_ui: true\n  - technique: OAuth 2.0\n    header: 'Bearer: [token] (after retrieving a token from the configured token URL)'\n    configurable_in_ui: false\n    reference: https://headwayapp.co/vergesense-changelog/bearer-token-authorization-webhook-support-137616\n  ip_allow_list:\n    available: true\n    self_serve: false\n    note: >-\n      VergeSense sends webhook requests from a known set of source IP addresses and will share the\n      list on request; it is not published in the documentation.\n  source: https://vergesense.readme.io/reference/events\n\ngaps:\n- No OAuth 2.0 or OIDC on the REST API — a single long-lived header key is the only credential.\n- No published scope or permission vocabulary for the REST API; authorization is building-level only.\n- No self-serve signup for API credentials; an email to support@vergesense.com gates access.\n- No documented key expiry or automatic rotation policy.\n- MCP tool schemas cannot be introspected anonymously.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vergesense/refs/heads/main/authentication/vergesense-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vergesense/authentication/vergesense-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Occupancy Intelligence

@@ -5,25 +5,25 @@ api_specs:
   label: Microsoft 365 Copilot Connectors API
   slug: microsoft-365-copilot-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365-copilot/refs/heads/main/openapi/microsoft-365-copilot-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-365-copilot/openapi/microsoft-365-copilot-connectors-api-openapi.yml
 - filename: microsoft-365-copilot-external-items-api-openapi.yml
   format: yaml
   label: Microsoft 365 Copilot External Items API
   slug: microsoft-365-copilot-external-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365-copilot/refs/heads/main/openapi/microsoft-365-copilot-external-items-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-365-copilot/openapi/microsoft-365-copilot-external-items-api-openapi.yml
 - filename: microsoft-365-copilot-search-api-openapi.yml
   format: yaml
   label: Microsoft 365 Copilot Search API
   slug: microsoft-365-copilot-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365-copilot/refs/heads/main/openapi/microsoft-365-copilot-search-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-365-copilot/openapi/microsoft-365-copilot-search-api-openapi.yml
 - filename: microsoft-365-copilot-user-content-api-openapi.yml
   format: yaml
   label: Microsoft 365 Copilot User Content API
   slug: microsoft-365-copilot-user-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365-copilot/refs/heads/main/openapi/microsoft-365-copilot-user-content-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-365-copilot/openapi/microsoft-365-copilot-user-content-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -72,7 +72,7 @@ source_filename: microsoft-365-copilot-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: portal.azure.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 19:53:18 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 20 02:11:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: graph.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: azure.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-365-copilot/refs/heads/main/security/microsoft-365-copilot-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-365-copilot/security/microsoft-365-copilot-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

@@ -8,37 +8,37 @@ api_specs:
   label: Parseur Async API
   slug: parseur-async-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/openapi/parseur-async-api-openapi.yml
+  url: https://artifacts.apis.io/parseur/openapi/parseur-async-api-openapi.yml
 - filename: parseur-bootstrap-api-openapi.yml
   format: yaml
   label: Parseur Bootstrap API
   slug: parseur-bootstrap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/openapi/parseur-bootstrap-api-openapi.yml
+  url: https://artifacts.apis.io/parseur/openapi/parseur-bootstrap-api-openapi.yml
 - filename: parseur-document-api-openapi.yml
   format: yaml
   label: Parseur Document API
   slug: parseur-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/openapi/parseur-document-api-openapi.yml
+  url: https://artifacts.apis.io/parseur/openapi/parseur-document-api-openapi.yml
 - filename: parseur-parser-api-openapi.yml
   format: yaml
   label: Parseur Parser API
   slug: parseur-parser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/openapi/parseur-parser-api-openapi.yml
+  url: https://artifacts.apis.io/parseur/openapi/parseur-parser-api-openapi.yml
 - filename: parseur-template-api-openapi.yml
   format: yaml
   label: Parseur Template API
   slug: parseur-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/openapi/parseur-template-api-openapi.yml
+  url: https://artifacts.apis.io/parseur/openapi/parseur-template-api-openapi.yml
 - filename: parseur-webhook-api-openapi.yml
   format: yaml
   label: Parseur Webhook API
   slug: parseur-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/openapi/parseur-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/parseur/openapi/parseur-webhook-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: parseur-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/parseur-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: TokenAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Use header: Authorization: Token YOUR_API_KEY. API keys are here: https://app.parseur.com/account/api-keys'\n  sources:\n  - openapi/parseur-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/authentication/parseur-authentication.yml
+source_yaml_url: https://artifacts.apis.io/parseur/authentication/parseur-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence

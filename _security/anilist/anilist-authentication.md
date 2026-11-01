@@ -7,13 +7,13 @@ api_specs:
   label: AniList O Auth2 API
   slug: anilist-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anilist/refs/heads/main/openapi/anilist-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/anilist/openapi/anilist-oauth2-api-openapi.yml
 - filename: anilist-graph-ql-api-openapi.yml
   format: yaml
   label: AniList Graph QL API
   slug: anilist-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anilist/refs/heads/main/openapi/anilist-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/anilist/openapi/anilist-graph-ql-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -57,7 +57,7 @@ source_filename: anilist-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/anilist-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - implicit\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: OAuth2 access token issued by AniList. No scopes; access tokens grant (almost)\n    full access to a user's data. Tokens are valid for one year.\n  sources:\n  - openapi/anilist-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://anilist.co/api/v2/oauth/authorize\n    tokenUrl: https://anilist.co/api/v2/oauth/token\n    scopes: 0\n  - flow: implicit\n    authorizationUrl: https://anilist.co/api/v2/oauth/authorize\n    scopes: 0\n  description: AniList OAuth2 (no scopes supported)\n  sources:\n  - openapi/anilist-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anilist/refs/heads/main/authentication/anilist-authentication.yml
+source_yaml_url: https://artifacts.apis.io/anilist/authentication/anilist-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Anime

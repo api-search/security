@@ -5,25 +5,25 @@ api_specs:
   label: Polly Event Types API
   slug: polly-io-event-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polly-io/refs/heads/main/openapi/polly-io-event-types-api-openapi.yml
+  url: https://artifacts.apis.io/polly-io/openapi/polly-io-event-types-api-openapi.yml
 - filename: polly-io-lock-confirmation-documents-api-openapi.yml
   format: yaml
   label: Polly Lock Confirmation Documents API
   slug: polly-io-lock-confirmation-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polly-io/refs/heads/main/openapi/polly-io-lock-confirmation-documents-api-openapi.yml
+  url: https://artifacts.apis.io/polly-io/openapi/polly-io-lock-confirmation-documents-api-openapi.yml
 - filename: polly-io-mi-quotes-api-openapi.yml
   format: yaml
   label: Polly Mi Quotes API
   slug: polly-io-mi-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polly-io/refs/heads/main/openapi/polly-io-mi-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/polly-io/openapi/polly-io-mi-quotes-api-openapi.yml
 - filename: polly-io-webhooks-api-openapi.yml
   format: yaml
   label: Polly Webhooks API
   slug: polly-io-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polly-io/refs/heads/main/openapi/polly-io-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/polly-io/openapi/polly-io-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,12 +53,12 @@ source_filename: polly-io-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: polly.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  3 20:04:16 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: polly.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/polly-io/refs/heads/main/security/polly-io-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/polly-io/security/polly-io-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fintech
-- CapitalMarkets
+- Capital Markets
 - Mortgage
-- APIPlatform
+- API Platform
 - Artificial Intelligence
 ---

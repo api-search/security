@@ -7,43 +7,43 @@ api_specs:
   label: MyState Bank Banking Account Balances API
   slug: mystate-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/openapi/mystate-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/mystate-bank/openapi/mystate-bank-banking-account-balances-api-openapi.yml
 - filename: mystate-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: MyState Bank Banking Account Direct Debits API
   slug: mystate-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/openapi/mystate-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/mystate-bank/openapi/mystate-bank-banking-account-direct-debits-api-openapi.yml
 - filename: mystate-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: MyState Bank Banking Account Scheduled Payments API
   slug: mystate-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/openapi/mystate-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/mystate-bank/openapi/mystate-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: mystate-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: MyState Bank Banking Account Transactions API
   slug: mystate-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/openapi/mystate-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/mystate-bank/openapi/mystate-bank-banking-account-transactions-api-openapi.yml
 - filename: mystate-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: MyState Bank Banking Accounts API
   slug: mystate-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/openapi/mystate-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/mystate-bank/openapi/mystate-bank-banking-accounts-api-openapi.yml
 - filename: mystate-bank-banking-payees-api-openapi.yml
   format: yaml
   label: MyState Bank Banking Payees API
   slug: mystate-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/openapi/mystate-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/mystate-bank/openapi/mystate-bank-banking-payees-api-openapi.yml
 - filename: mystate-bank-banking-products-api-openapi.yml
   format: yaml
   label: MyState Bank Banking Products API
   slug: mystate-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/openapi/mystate-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/mystate-bank/openapi/mystate-bank-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: >-\n  Consumer 
   \ level.\nsurfaces:\n- name: Product Reference Data (public)\n  api: openapi/mystate-bank-cds-banking-products-openapi.yml\n  auth: none\n  detail: >-\n    GET /banking/products and GET /banking/products/{productId} are openly\n    callable with no credential. Only the x-v version header is required.\n- name: Consumer data sharing (authorised)\n  api: openapi/mystate-bank-cds-banking-openapi.yml\n  auth: oauth2 + mutualTLS\n  profile: CDR / FAPI (Consumer Data Standards Information Security profile)\n  detail: >-\n    Access is restricted to Accredited Data Recipients (ADRs) acting on an\n    explicit, revocable consumer consent. Callers must be onboarded to the CDR\n    Register and present a valid access token bound to that consent.\nschemes:\n- name: none\n  type: none\n  applies_to: PRD (products) endpoints\n- name: CDR OAuth2 (FAPI)\n  type: oauth2\n  scheme_notes: >-\n    OAuth 2.0 authorization-code flow hardened to the FAPI profile: Pushed\n    Authorization Requests (PAR, RFC\
   \ 9126), OIDC hybrid/JARM authorization\n    responses, private_key_jwt client authentication, PKCE, and request-object\n    signing. Tokens are sender-constrained.\n  flows:\n  - flow: authorizationCode\n    detail: >-\n      Consent is captured in the data holder's authorisation UI; the ADR receives\n      an authorization code exchanged for an access/refresh token scoped to the\n      consented data clusters (e.g. bank:accounts.basic:read,\n      bank:accounts.detail:read, bank:transactions:read, bank:payees:read,\n      bank:regular_payments:read).\n- name: Mutual TLS\n  type: mutualTLS\n  scheme_notes: >-\n    All token and resource calls are made over mutually-authenticated TLS\n    (RFC 8705) using CDR-issued transport certificates; access tokens are\n    certificate-bound (sender-constrained).\nrelated:\n  scopes_note: >-\n    CDR data-cluster scopes are defined by the Consumer Data Standards, not by a\n    bank-proprietary OpenAPI oauth2 flow, so no scopes/ artifact is derived;\
   \ the\n    consented clusters are listed above.\n  conventions: conventions/mystate-bank-conventions.yml\n  conformance: conformance/mystate-bank-conformance.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/authentication/mystate-bank-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mystate-bank/authentication/mystate-bank-authentication.yml
 summary_line: none/oauth2/mutualTLS · 3 schemes
 tags:
 - Finance

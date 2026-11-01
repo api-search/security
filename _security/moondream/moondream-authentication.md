@@ -8,13 +8,13 @@ api_specs:
   label: Moondream OpenAI Compatibility API
   slug: moondream-openai-compatibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moondream/refs/heads/main/openapi/moondream-openai-compatibility-api-openapi.yml
+  url: https://artifacts.apis.io/moondream/openapi/moondream-openai-compatibility-api-openapi.yml
 - filename: moondream-skills-api-openapi.yml
   format: yaml
   label: Moondream Skills API
   slug: moondream-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moondream/refs/heads/main/openapi/moondream-skills-api-openapi.yml
+  url: https://artifacts.apis.io/moondream/openapi/moondream-skills-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -49,7 +49,7 @@ source_filename: moondream-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/moondream-openapi.yml\ndocs: https://docs.moondream.ai/api\nsummary:\n  types: [apiKey, http]\n  api_key_in: [header]\n  http_schemes: [bearer]\n  oauth2_flows: []\nnotes: >-\n  Moondream Cloud authenticates every request with an API key issued from the\n  Moondream Cloud Console (https://moondream.ai/c/cloud/api-keys). Native Skill\n  endpoints (/query, /caption, /detect, /point, /segment) pass the key in the\n  X-Moondream-Auth header. The OpenAI-compatible /chat/completions endpoint takes\n  the same key as an HTTP bearer token (Authorization: Bearer). There is no OAuth\n  or scope surface.\nschemes:\n  - name: MoondreamAuth\n    type: apiKey\n    in: header\n    parameter_name: X-Moondream-Auth\n    sources: [openapi/moondream-openapi.yml]\n  - name: BearerAuth\n    type: http\n    scheme: bearer\n    used_by: [/chat/completions]\n    sources: [openapi/moondream-openapi.yml]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moondream/refs/heads/main/authentication/moondream-authentication.yml
+source_yaml_url: https://artifacts.apis.io/moondream/authentication/moondream-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

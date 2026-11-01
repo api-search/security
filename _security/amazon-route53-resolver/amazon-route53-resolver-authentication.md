@@ -8,7 +8,25 @@ api_specs:
   label: Amazon Route 53 Resolver Amazon Route 53 Resolver API
   slug: amazon-route53-resolver-amazon-route-53-resolver-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/openapi/amazon-route53-resolver-amazon-route-53-resolver-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-route53-resolver/openapi/amazon-route53-resolver-amazon-route-53-resolver-api-openapi.yml
+- filename: amazon-route53-resolver-firewall-rule-api-openapi.yml
+  format: yaml
+  label: Amazon Route 53 Resolver Route53 Resolver Firewall Rule API
+  slug: amazon-route53-resolver-firewall-rule-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-route53-resolver/openapi/amazon-route53-resolver-firewall-rule-api-openapi.yml
+- filename: amazon-route53-resolver-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Route 53 Resolver Route53 Resolver Operations API
+  slug: amazon-route53-resolver-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-route53-resolver/openapi/amazon-route53-resolver-operations-api-openapi.yml
+- filename: amazon-route53-resolver-outpost-resolver-api-openapi.yml
+  format: yaml
+  label: Amazon Route 53 Resolver Route53 Resolver Outpost Resolver API
+  slug: amazon-route53-resolver-outpost-resolver-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-route53-resolver/openapi/amazon-route53-resolver-outpost-resolver-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +54,7 @@ source_filename: amazon-route53-resolver-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-route53-resolver-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-route53-resolver-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/authentication/amazon-route53-resolver-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-route53-resolver/authentication/amazon-route53-resolver-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - DNS

@@ -8,97 +8,97 @@ api_specs:
   label: Memesio Agent Infra API
   slug: memesio-agent-infra-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-agent-infra-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-agent-infra-api-openapi.yml
 - filename: memesio-ai-captions-api-openapi.yml
   format: yaml
   label: Memesio AI Captions API
   slug: memesio-ai-captions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-ai-captions-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-ai-captions-api-openapi.yml
 - filename: memesio-ai-jobs-api-openapi.yml
   format: yaml
   label: Memesio AI Jobs API
   slug: memesio-ai-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-ai-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-ai-jobs-api-openapi.yml
 - filename: memesio-ai-providers-api-openapi.yml
   format: yaml
   label: Memesio AI Providers API
   slug: memesio-ai-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-ai-providers-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-ai-providers-api-openapi.yml
 - filename: memesio-analytics-api-openapi.yml
   format: yaml
   label: Memesio Analytics API
   slug: memesio-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-analytics-api-openapi.yml
 - filename: memesio-auth-api-openapi.yml
   format: yaml
   label: Memesio Auth API
   slug: memesio-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-auth-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-auth-api-openapi.yml
 - filename: memesio-billing-api-openapi.yml
   format: yaml
   label: Memesio Billing API
   slug: memesio-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-billing-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-billing-api-openapi.yml
 - filename: memesio-collaboration-api-openapi.yml
   format: yaml
   label: Memesio Collaboration API
   slug: memesio-collaboration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-collaboration-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-collaboration-api-openapi.yml
 - filename: memesio-compliance-api-openapi.yml
   format: yaml
   label: Memesio Compliance API
   slug: memesio-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-compliance-api-openapi.yml
 - filename: memesio-developer-api-api-openapi.yml
   format: yaml
   label: Memesio Developer API
   slug: memesio-developer-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-developer-api-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-developer-api-api-openapi.yml
 - filename: memesio-growth-api-openapi.yml
   format: yaml
   label: Memesio Growth API
   slug: memesio-growth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-growth-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-growth-api-openapi.yml
 - filename: memesio-media-api-openapi.yml
   format: yaml
   label: Memesio Media API
   slug: memesio-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-media-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-media-api-openapi.yml
 - filename: memesio-memes-api-openapi.yml
   format: yaml
   label: Memesio Memes API
   slug: memesio-memes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-memes-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-memes-api-openapi.yml
 - filename: memesio-public-free-api-openapi.yml
   format: yaml
   label: Memesio Public Free API
   slug: memesio-public-free-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-public-free-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-public-free-api-openapi.yml
 - filename: memesio-trend-alerts-api-openapi.yml
   format: yaml
   label: Memesio Trend Alerts API
   slug: memesio-trend-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-trend-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-trend-alerts-api-openapi.yml
 - filename: memesio-video-api-openapi.yml
   format: yaml
   label: Memesio Video API
   slug: memesio-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-video-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-video-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -133,7 +133,7 @@ source_filename: memesio-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/memesio-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: DeveloperApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-developer-api-key\n  description: 'Optional higher-rate free-tier auth. You can also send the key as Authorization:\n    Bearer <key>.'\n  sources:\n  - openapi/memesio-openapi.yml\n- name: AgentApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-agent-api-key\n  description: 'Agent auth for free endpoints and agent-admin routes. You can also send the\n    key as Authorization: Bearer <key>.'\n  sources:\n  - openapi/memesio-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/authentication/memesio-authentication.yml
+source_yaml_url: https://artifacts.apis.io/memesio/authentication/memesio-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Memes

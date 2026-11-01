@@ -5,37 +5,37 @@ api_specs:
   label: AppstoreSpy App Store API
   slug: appstorespy-app-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appstorespy/refs/heads/main/openapi/appstorespy-app-store-api-openapi.yml
+  url: https://artifacts.apis.io/appstorespy/openapi/appstorespy-app-store-api-openapi.yml
 - filename: appstorespy-events-api-openapi.yml
   format: yaml
   label: AppstoreSpy Events API
   slug: appstorespy-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appstorespy/refs/heads/main/openapi/appstorespy-events-api-openapi.yml
+  url: https://artifacts.apis.io/appstorespy/openapi/appstorespy-events-api-openapi.yml
 - filename: appstorespy-google-play-api-openapi.yml
   format: yaml
   label: AppstoreSpy Google Play API
   slug: appstorespy-google-play-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appstorespy/refs/heads/main/openapi/appstorespy-google-play-api-openapi.yml
+  url: https://artifacts.apis.io/appstorespy/openapi/appstorespy-google-play-api-openapi.yml
 - filename: appstorespy-jobs-api-openapi.yml
   format: yaml
   label: AppstoreSpy Jobs API
   slug: appstorespy-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appstorespy/refs/heads/main/openapi/appstorespy-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/appstorespy/openapi/appstorespy-jobs-api-openapi.yml
 - filename: appstorespy-search-filter-v-2-api-openapi.yml
   format: yaml
   label: AppstoreSpy Search Filter v.2 API
   slug: appstorespy-search-filter-v-2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appstorespy/refs/heads/main/openapi/appstorespy-search-filter-v-2-api-openapi.yml
+  url: https://artifacts.apis.io/appstorespy/openapi/appstorespy-search-filter-v-2-api-openapi.yml
 - filename: appstorespy-suggestions-api-openapi.yml
   format: yaml
   label: AppstoreSpy Suggestions API
   slug: appstorespy-suggestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appstorespy/refs/heads/main/openapi/appstorespy-suggestions-api-openapi.yml
+  url: https://artifacts.apis.io/appstorespy/openapi/appstorespy-suggestions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ domains:
   domain: appstorespy.com
   spf: true
 hosts:
-- cert_expires: Nov 17 05:33:38 2026 GMT
+- cert_expires: Jan 16 10:23:57 2027 GMT
   host: www.appstorespy.com
   hsts: false
   https: true
@@ -68,8 +68,8 @@ slug: appstorespy-domain-security
 source_filename: appstorespy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.appstorespy.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 17 05:33:38 2026 GMT\n  hsts: false\n- host: api.appstorespy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 22 08:22:55 2026 GMT\n  hsts: false\ndomains:\n- domain: appstorespy.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appstorespy/refs/heads/main/security/appstorespy-domain-security.yml
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.appstorespy.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 16 10:23:57 2027 GMT\n  hsts: false\n- host: api.appstorespy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 22 08:22:55 2026 GMT\n  hsts: false\ndomains:\n- domain: appstorespy.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml_url: https://artifacts.apis.io/appstorespy/security/appstorespy-domain-security.yml
 summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
 - Mobile App

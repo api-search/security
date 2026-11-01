@@ -7,25 +7,25 @@ api_specs:
   label: MongoDB Atlas Clusters API
   slug: mongodb-atlas-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mongodb-atlas/refs/heads/main/openapi/mongodb-atlas-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/mongodb-atlas/openapi/mongodb-atlas-clusters-api-openapi.yml
 - filename: mongodb-atlas-database-users-api-openapi.yml
   format: yaml
   label: MongoDB Atlas Database Users API
   slug: mongodb-atlas-database-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mongodb-atlas/refs/heads/main/openapi/mongodb-atlas-database-users-api-openapi.yml
+  url: https://artifacts.apis.io/mongodb-atlas/openapi/mongodb-atlas-database-users-api-openapi.yml
 - filename: mongodb-atlas-organizations-api-openapi.yml
   format: yaml
   label: MongoDB Atlas Organizations API
   slug: mongodb-atlas-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mongodb-atlas/refs/heads/main/openapi/mongodb-atlas-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/mongodb-atlas/openapi/mongodb-atlas-organizations-api-openapi.yml
 - filename: mongodb-atlas-projects-api-openapi.yml
   format: yaml
   label: MongoDB Atlas Projects API
   slug: mongodb-atlas-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mongodb-atlas/refs/heads/main/openapi/mongodb-atlas-projects-api-openapi.yml
+  url: https://artifacts.apis.io/mongodb-atlas/openapi/mongodb-atlas-projects-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: mongodb-atlas-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/mongodb-atlas-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: httpDigest\n  type: http\n  scheme: digest\n  description: HTTP Digest auth using public/private API key pair.\n  sources:\n  - openapi/mongodb-atlas-openapi.yml\n- name: bearer\n  type: http\n  scheme: bearer\n  description: OAuth 2.0 bearer access token issued to an Atlas service account.\n  sources:\n  - openapi/mongodb-atlas-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mongodb-atlas/refs/heads/main/authentication/mongodb-atlas-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mongodb-atlas/authentication/mongodb-atlas-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Database

@@ -7,145 +7,145 @@ api_specs:
   label: Kota Associated Persons API
   slug: kota-associated-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-associated-persons-api-openapi.yml
+  url: https://artifacts.apis.io/kota/openapi/kota-associated-persons-api-openapi.yml
 - filename: kota-contribution-reports-api-openapi.yml
   format: yaml
   label: Kota Contribution Reports API
   slug: kota-contribution-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-contribution-reports-api-openapi.yml
+  url: https://artifacts.apis.io/kota/openapi/kota-contribution-reports-api-openapi.yml
 - filename: kota-dependents-management-intents-api-openapi.yml
   format: yaml
   label: Kota Dependents Management Intents API
   slug: kota-dependents-management-intents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-dependents-management-intents-api-openapi.yml
+  url: https://artifacts.apis.io/kota/openapi/kota-dependents-management-intents-api-openapi.yml
 - filename: kota-embed-sessions-api-openapi.yml
   format: yaml
   label: Kota Embed Sessions API
   slug: kota-embed-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-embed-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/kota/openapi/kota-embed-sessions-api-openapi.yml
 - filename: kota-employees-api-openapi.yml
   format: yaml
   label: Kota Employees API
   slug: kota-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-employees-api-openapi.yml
+  url: https://artifacts.apis.io/kota/openapi/kota-employees-api-openapi.yml
 - filename: kota-employers-api-openapi.yml
   format: yaml
   label: Kota Employers API
   slug: kota-employers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-employers-api-openapi.yml
+  url: https://artifacts.apis.io/kota/openapi/kota-employers-api-openapi.yml
 - filename: kota-enrolment-intents-api-openapi.yml
   format: yaml
   label: Kota Enrolment Intents API
   slug: kota-enrolment-intents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-enrolment-intents-api-openapi.yml
+  url: https://artifacts.apis.io/kota/openapi/kota-enrolment-intents-api-openapi.yml
 - filename: kota-events-api-openapi.yml
   format: yaml
   label: Kota Events API
   slug: kota-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-events-api-openapi.yml
+  url: https://artifacts.apis.io/kota/openapi/kota-events-api-openapi.yml
 - filename: kota-group-policies-api-openapi.yml
   format: yaml
   label: Kota Group Policies API
   slug: kota-group-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-group-policies-api-openapi.yml
+  url: https://artifacts.apis.io/kota/openapi/kota-group-policies-api-openapi.yml
 - filename: kota-group-policy-intents-api-openapi.yml
   format: yaml
   label: Kota Group Policy Intents API
   slug: kota-group-policy-intents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-group-policy-intents-api-openapi.yml
+  url: https://artifacts.apis.io/kota/openapi/kota-group-policy-intents-api-openapi.yml
 - filename: kota-group-quote-intents-api-openapi.yml
   format: yaml
   label: Kota Group Quote Intents API
   slug: kota-group-quote-intents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-group-quote-intents-api-openapi.yml
+  url: https://artifacts.apis.io/kota/openapi/kota-group-quote-intents-api-openapi.yml
 - filename: kota-groups-api-openapi.yml
   format: yaml
   label: Kota Groups API
   slug: kota-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-groups-api-openapi.yml
+  url: https://artifacts.apis.io/kota/openapi/kota-groups-api-openapi.yml
 - filename: kota-health-insurance-api-openapi.yml
   format: yaml
   label: Kota Health Insurance API
   slug: kota-health-insurance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-health-insurance-api-openapi.yml
+  url: https://artifacts.apis.io/kota/openapi/kota-health-insurance-api-openapi.yml
 - filename: kota-hosted-sessions-api-openapi.yml
   format: yaml
   label: Kota Hosted Sessions API
   slug: kota-hosted-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-hosted-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/kota/openapi/kota-hosted-sessions-api-openapi.yml
 - filename: kota-plans-api-openapi.yml
   format: yaml
   label: Kota Plans API
   slug: kota-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-plans-api-openapi.yml
+  url: https://artifacts.apis.io/kota/openapi/kota-plans-api-openapi.yml
 - filename: kota-policies-api-openapi.yml
   format: yaml
   label: Kota Policies API
   slug: kota-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-policies-api-openapi.yml
+  url: https://artifacts.apis.io/kota/openapi/kota-policies-api-openapi.yml
 - filename: kota-policy-amendment-intents-api-openapi.yml
   format: yaml
   label: Kota Policy Amendment Intents API
   slug: kota-policy-amendment-intents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-policy-amendment-intents-api-openapi.yml
+  url: https://artifacts.apis.io/kota/openapi/kota-policy-amendment-intents-api-openapi.yml
 - filename: kota-policy-import-intents-api-openapi.yml
   format: yaml
   label: Kota Policy Import Intents API
   slug: kota-policy-import-intents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-policy-import-intents-api-openapi.yml
+  url: https://artifacts.apis.io/kota/openapi/kota-policy-import-intents-api-openapi.yml
 - filename: kota-providers-api-openapi.yml
   format: yaml
   label: Kota Providers API
   slug: kota-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-providers-api-openapi.yml
+  url: https://artifacts.apis.io/kota/openapi/kota-providers-api-openapi.yml
 - filename: kota-requirements-api-openapi.yml
   format: yaml
   label: Kota Requirements API
   slug: kota-requirements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-requirements-api-openapi.yml
+  url: https://artifacts.apis.io/kota/openapi/kota-requirements-api-openapi.yml
 - filename: kota-webhooks-api-openapi.yml
   format: yaml
   label: Kota Webhooks API
   slug: kota-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/kota/openapi/kota-webhooks-api-openapi.yml
 - filename: kota-api-reference-api-openapi.yml
   format: yaml
   label: Kota API Reference API
   slug: kota-api-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-api-reference-api-openapi.yml
+  url: https://artifacts.apis.io/kota/openapi/kota-api-reference-api-openapi.yml
 - filename: kota-types-of-events-api-openapi.yml
   format: yaml
   label: Kota Types of events API
   slug: kota-types-of-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-types-of-events-api-openapi.yml
+  url: https://artifacts.apis.io/kota/openapi/kota-types-of-events-api-openapi.yml
 - filename: kota-types-of-events-v2-api-openapi.yml
   format: yaml
   label: Kota Types of events V2 API
   slug: kota-types-of-events-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-types-of-events-v2-api-openapi.yml
+  url: https://artifacts.apis.io/kota/openapi/kota-types-of-events-v2-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -178,7 +178,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/kota-openapi-original.json, openapi/kota-api-reference-openapi.json\ndocs: https://docs.kota.io/core-components/authentication\nreference: https://docs.kota.io/api-reference#authentication\nsummary:\n  types:\n  - http\n  http_schemes:\n  - bearer\n  api_key_in: []\n  oauth2_flows: []\n  model: >-\n    Single-credential bearer API key. No OAuth 2.0, no OpenID Connect, no scope surface — access is\n    bounded by the platform the key belongs to and that platform's type, not by scopes.\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Authorization header using the Bearer scheme\n  header: 'Authorization: Bearer <YOUR_API_SECRET_KEY>'\n  env_var_convention: KOTA_API_KEY\n  applied: globally (root-level security requirement in the published spec)\n  sources:\n  - openapi/kota-api-reference-openapi.json\n  - openapi/kota-openapi-original.json\nkey_model:\n  prefixes:\n  - prefix: pk_test_\n \
   \   mode: test\n    base_url: https://test.api.kota.io\n  - prefix: pk_live_\n    mode: live\n    base_url: https://api.kota.io\n  scoping: >-\n    API keys are tied to an individual platform and restricted to that platform's type, such as\n    employer_of_record or payroll_provider. Endpoints restricted to specific platform types are\n    noted in the API reference and return 403 forbidden to keys of the wrong type.\n  handling: >-\n    Secret keys must not be shared in publicly accessible areas such as GitHub or client-side code.\n    Browser-side flows use short-lived Embed session tokens from POST /embed/sessions instead.\ntransport:\n  https_required: true\n  note: >-\n    All API requests must be made over HTTPS; calls made over plain HTTP will fail. Requests\n    without authentication also fail.\nbrowser_credentials:\n  mechanism: Embed session access token\n  issued_by: POST /embed/sessions (server-side, with the secret key)\n  scope: bound to a single employer or employee UI\
   \ context\n  docs: https://docs.kota.io/embed/server-side\nauth_errors:\n- status: 401\n  error_code: unauthorized\n  meaning: Authorization header missing or invalid\n- status: 403\n  error_code: forbidden\n  meaning: Token lacks permission for the operation (often a platform-type restriction)\noauth_scopes: none - Kota publishes no OAuth 2.0 or scope surface\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/authentication/kota-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kota/authentication/kota-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

@@ -8,31 +8,31 @@ api_specs:
   label: PlanGrid Batch API
   slug: plangrid-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plangrid/refs/heads/main/openapi/plangrid-batch-api-openapi.yml
+  url: https://artifacts.apis.io/plangrid/openapi/plangrid-batch-api-openapi.yml
 - filename: plangrid-me-api-openapi.yml
   format: yaml
   label: PlanGrid Me API
   slug: plangrid-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plangrid/refs/heads/main/openapi/plangrid-me-api-openapi.yml
+  url: https://artifacts.apis.io/plangrid/openapi/plangrid-me-api-openapi.yml
 - filename: plangrid-oauth-api-openapi.yml
   format: yaml
   label: PlanGrid OAuth API
   slug: plangrid-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plangrid/refs/heads/main/openapi/plangrid-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/plangrid/openapi/plangrid-oauth-api-openapi.yml
 - filename: plangrid-projects-api-openapi.yml
   format: yaml
   label: PlanGrid Projects API
   slug: plangrid-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plangrid/refs/heads/main/openapi/plangrid-projects-api-openapi.yml
+  url: https://artifacts.apis.io/plangrid/openapi/plangrid-projects-api-openapi.yml
 - filename: plangrid-rate-limits-api-openapi.yml
   format: yaml
   label: PlanGrid Rate Limits API
   slug: plangrid-rate-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plangrid/refs/heads/main/openapi/plangrid-rate-limits-api-openapi.yml
+  url: https://artifacts.apis.io/plangrid/openapi/plangrid-rate-limits-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -75,7 +75,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://developer.plangrid.com/reference/authentication\ndocs: https://developer.plangrid.com/reference/authentication\nsummary:\n  types: [oauth2, http]\n  api_key_in: [header]\n  oauth2_flows: [authorizationCode, implicit]\nschemes:\n- name: OAuth2\n  type: oauth2\n  description: >-\n    OAuth 2.0 for authenticating and authorizing PlanGrid users on behalf of an application.\n    Applications must be registered with PlanGrid (contact developers@plangrid.com) with an\n    application name, logo, and list of redirect URIs. Access tokens are sent as\n    \"Authorization: Bearer <access_token>\".\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://io.plangrid.com/oauth/authorize\n    tokenUrl: https://io.plangrid.com/oauth/token\n    refresh: true\n  - flow: implicit\n    authorizationUrl: https://io.plangrid.com/oauth/authorize\n  scopes: [write:projects, read:profile]\n- name: ApiKeyBasic\n  type: http\n \
   \ scheme: basic\n  in: header\n  description: >-\n    HTTP Basic authentication where the API key is sent as the username and the password is left\n    blank (e.g. curl -u API_KEY:). 401 is returned when the API key is missing, 403 when the key\n    is invalid or deactivated.\nheaders:\n  accept: 'application/vnd.plangrid+json; version=1'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plangrid/refs/heads/main/authentication/plangrid-authentication.yml
+source_yaml_url: https://artifacts.apis.io/plangrid/authentication/plangrid-authentication.yml
 summary_line: oauth2/http · 2 schemes
 tags:
 - Company

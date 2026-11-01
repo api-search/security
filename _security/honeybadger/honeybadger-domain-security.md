@@ -11,37 +11,37 @@ api_specs:
   label: Honeybadger Check In API
   slug: honeybadger-check-in-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/openapi/honeybadger-check-in-api-openapi.yml
+  url: https://artifacts.apis.io/honeybadger/openapi/honeybadger-check-in-api-openapi.yml
 - filename: honeybadger-deploys-api-openapi.yml
   format: yaml
   label: Honeybadger Deploys API
   slug: honeybadger-deploys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/openapi/honeybadger-deploys-api-openapi.yml
+  url: https://artifacts.apis.io/honeybadger/openapi/honeybadger-deploys-api-openapi.yml
 - filename: honeybadger-events-api-openapi.yml
   format: yaml
   label: Honeybadger Events API
   slug: honeybadger-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/openapi/honeybadger-events-api-openapi.yml
+  url: https://artifacts.apis.io/honeybadger/openapi/honeybadger-events-api-openapi.yml
 - filename: honeybadger-notices-api-openapi.yml
   format: yaml
   label: Honeybadger Notices API
   slug: honeybadger-notices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/openapi/honeybadger-notices-api-openapi.yml
+  url: https://artifacts.apis.io/honeybadger/openapi/honeybadger-notices-api-openapi.yml
 - filename: honeybadger-projects-api-openapi.yml
   format: yaml
   label: Honeybadger Projects API
   slug: honeybadger-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/openapi/honeybadger-projects-api-openapi.yml
+  url: https://artifacts.apis.io/honeybadger/openapi/honeybadger-projects-api-openapi.yml
 - filename: honeybadger-source-maps-api-openapi.yml
   format: yaml
   label: Honeybadger Source Maps API
   slug: honeybadger-source-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/openapi/honeybadger-source-maps-api-openapi.yml
+  url: https://artifacts.apis.io/honeybadger/openapi/honeybadger-source-maps-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -89,7 +89,7 @@ source_filename: honeybadger-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.honeybadger.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 21:13:53 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.honeybadger.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 10:43:41 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.honeybadger.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 28 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: honeybadger.io\n  dnssec: false\n  caa:\n  - 0 issuewild \"awstrust.com\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/security/honeybadger-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/honeybadger/security/honeybadger-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Error Monitoring

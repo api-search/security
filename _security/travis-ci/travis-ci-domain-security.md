@@ -5,37 +5,37 @@ api_specs:
   label: Travis CI Builds API
   slug: travis-ci-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/openapi/travis-ci-builds-api-openapi.yml
+  url: https://artifacts.apis.io/travis-ci/openapi/travis-ci-builds-api-openapi.yml
 - filename: travis-ci-jobs-api-openapi.yml
   format: yaml
   label: Travis CI Jobs API
   slug: travis-ci-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/openapi/travis-ci-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/travis-ci/openapi/travis-ci-jobs-api-openapi.yml
 - filename: travis-ci-logs-api-openapi.yml
   format: yaml
   label: Travis CI Logs API
   slug: travis-ci-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/openapi/travis-ci-logs-api-openapi.yml
+  url: https://artifacts.apis.io/travis-ci/openapi/travis-ci-logs-api-openapi.yml
 - filename: travis-ci-organizations-api-openapi.yml
   format: yaml
   label: Travis CI Organizations API
   slug: travis-ci-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/openapi/travis-ci-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/travis-ci/openapi/travis-ci-organizations-api-openapi.yml
 - filename: travis-ci-repositories-api-openapi.yml
   format: yaml
   label: Travis CI Repositories API
   slug: travis-ci-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/openapi/travis-ci-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/travis-ci/openapi/travis-ci-repositories-api-openapi.yml
 - filename: travis-ci-users-api-openapi.yml
   format: yaml
   label: Travis CI Users API
   slug: travis-ci-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/openapi/travis-ci-users-api-openapi.yml
+  url: https://artifacts.apis.io/travis-ci/openapi/travis-ci-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: travis-ci-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.travis-ci.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 10:16:45 2026 GMT\n  hsts: false\n- host: developer.travis-ci.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 31 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.travis-ci.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 31 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: travis-ci.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/security/travis-ci-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/travis-ci/security/travis-ci-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - DevOps

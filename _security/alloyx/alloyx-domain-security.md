@@ -5,43 +5,43 @@ api_specs:
   label: AlloyX Availability API
   slug: alloyx-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloyx/refs/heads/main/openapi/alloyx-availability-api-openapi.yml
+  url: https://artifacts.apis.io/alloyx/openapi/alloyx-availability-api-openapi.yml
 - filename: alloyx-bookings-api-openapi.yml
   format: yaml
   label: AlloyX Bookings API
   slug: alloyx-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloyx/refs/heads/main/openapi/alloyx-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/alloyx/openapi/alloyx-bookings-api-openapi.yml
 - filename: alloyx-discovery-api-openapi.yml
   format: yaml
   label: AlloyX Discovery API
   slug: alloyx-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloyx/refs/heads/main/openapi/alloyx-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/alloyx/openapi/alloyx-discovery-api-openapi.yml
 - filename: alloyx-registry-api-openapi.yml
   format: yaml
   label: AlloyX Registry API
   slug: alloyx-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloyx/refs/heads/main/openapi/alloyx-registry-api-openapi.yml
+  url: https://artifacts.apis.io/alloyx/openapi/alloyx-registry-api-openapi.yml
 - filename: alloyx-services-api-openapi.yml
   format: yaml
   label: AlloyX Services API
   slug: alloyx-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloyx/refs/heads/main/openapi/alloyx-services-api-openapi.yml
+  url: https://artifacts.apis.io/alloyx/openapi/alloyx-services-api-openapi.yml
 - filename: alloyx-universal-scheduling-protocol-usp-rest-api-api-openapi.yml
   format: yaml
   label: AlloyX Universal Scheduling Protocol (USP) REST API
   slug: alloyx-universal-scheduling-protocol-usp-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloyx/refs/heads/main/openapi/alloyx-universal-scheduling-protocol-usp-rest-api-api-openapi.yml
+  url: https://artifacts.apis.io/alloyx/openapi/alloyx-universal-scheduling-protocol-usp-rest-api-api-openapi.yml
 - filename: alloyx-waitlist-api-openapi.yml
   format: yaml
   label: AlloyX Waitlist API
   slug: alloyx-waitlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloyx/refs/heads/main/openapi/alloyx-waitlist-api-openapi.yml
+  url: https://artifacts.apis.io/alloyx/openapi/alloyx-waitlist-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +71,7 @@ source_filename: alloyx-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-24'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.alloyx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 05:27:30 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\ndomains:\n- domain: alloyx.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alloyx/refs/heads/main/security/alloyx-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/alloyx/security/alloyx-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Stablecoins

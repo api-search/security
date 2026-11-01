@@ -26,7 +26,7 @@ source_filename: cloudfabrixsoftware-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: fabrix.ai\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  7 01:54:34 2027 GMT\n  hsts: false\ndomains:\n- domain: fabrix.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudfabrixsoftware/refs/heads/main/security/cloudfabrixsoftware-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cloudfabrixsoftware/security/cloudfabrixsoftware-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Artificial Intelligence

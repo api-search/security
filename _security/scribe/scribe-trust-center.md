@@ -5,19 +5,19 @@ api_specs:
   label: Scribe Documents API
   slug: scribe-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scribe/refs/heads/main/openapi/scribe-documents-api-openapi.yml
+  url: https://artifacts.apis.io/scribe/openapi/scribe-documents-api-openapi.yml
 - filename: scribe-search-api-openapi.yml
   format: yaml
   label: Scribe Search API
   slug: scribe-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scribe/refs/heads/main/openapi/scribe-search-api-openapi.yml
+  url: https://artifacts.apis.io/scribe/openapi/scribe-search-api-openapi.yml
 - filename: scribe-teams-api-openapi.yml
   format: yaml
   label: Scribe Teams API
   slug: scribe-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scribe/refs/heads/main/openapi/scribe-teams-api-openapi.yml
+  url: https://artifacts.apis.io/scribe/openapi/scribe-teams-api-openapi.yml
 certification_count: 6
 certifications:
 - SOC 2 Type II
@@ -39,7 +39,7 @@ source_filename: scribe-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://scribe.com/security + https://trust.scribehow.com/resources\nurl: https://trust.scribehow.com/resources\ncertifications:\n- SOC 2 Type II\n- ISO 27001\n- HIPAA\n- FERPA\n- GDPR\n- US State Privacy Laws\nsecurity_controls:\n  encryption_at_rest: AES-256\n  encryption_in_transit: TLS 1.2+\n  backup_encryption: true\n  key_management: key management vault with key rotation\n  intrusion_detection: advanced IDS/IPS with 24x7 on-call security engineer\nevidence:\n- source: https://scribe.com/security\n  keywords: [soc 2 type ii, iso 27001, hipaa, ferpa, gdpr, aes-256, tls 1.2]\n- source: https://trust.scribehow.com/resources\n  keywords: [trust center]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scribe/refs/heads/main/security/scribe-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/scribe/security/scribe-trust-center.yml
 summary_line: SOC 2 Type II, ISO 27001, HIPAA, FERPA, GDPR, US State Privacy Laws
 tags:
 - Company

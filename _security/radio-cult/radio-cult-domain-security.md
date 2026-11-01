@@ -5,43 +5,43 @@ api_specs:
   label: Radio Cult Artists API
   slug: radio-cult-artists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-cult/refs/heads/main/openapi/radio-cult-artists-api-openapi.yml
+  url: https://artifacts.apis.io/radio-cult/openapi/radio-cult-artists-api-openapi.yml
 - filename: radio-cult-media-api-openapi.yml
   format: yaml
   label: Radio Cult Media API
   slug: radio-cult-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-cult/refs/heads/main/openapi/radio-cult-media-api-openapi.yml
+  url: https://artifacts.apis.io/radio-cult/openapi/radio-cult-media-api-openapi.yml
 - filename: radio-cult-playlists-api-openapi.yml
   format: yaml
   label: Radio Cult Playlists API
   slug: radio-cult-playlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-cult/refs/heads/main/openapi/radio-cult-playlists-api-openapi.yml
+  url: https://artifacts.apis.io/radio-cult/openapi/radio-cult-playlists-api-openapi.yml
 - filename: radio-cult-recordings-api-openapi.yml
   format: yaml
   label: Radio Cult Recordings API
   slug: radio-cult-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-cult/refs/heads/main/openapi/radio-cult-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/radio-cult/openapi/radio-cult-recordings-api-openapi.yml
 - filename: radio-cult-schedule-api-openapi.yml
   format: yaml
   label: Radio Cult Schedule API
   slug: radio-cult-schedule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-cult/refs/heads/main/openapi/radio-cult-schedule-api-openapi.yml
+  url: https://artifacts.apis.io/radio-cult/openapi/radio-cult-schedule-api-openapi.yml
 - filename: radio-cult-streaming-api-openapi.yml
   format: yaml
   label: Radio Cult Streaming API
   slug: radio-cult-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-cult/refs/heads/main/openapi/radio-cult-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/radio-cult/openapi/radio-cult-streaming-api-openapi.yml
 - filename: radio-cult-tags-api-openapi.yml
   format: yaml
   label: Radio Cult Tags API
   slug: radio-cult-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-cult/refs/heads/main/openapi/radio-cult-tags-api-openapi.yml
+  url: https://artifacts.apis.io/radio-cult/openapi/radio-cult-tags-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -77,7 +77,7 @@ source_filename: radio-cult-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.radiocult.fm\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 03:38:04 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.radiocult.fm\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 30 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: radiocult.fm\n  dnssec: false\n  caa:\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/radio-cult/refs/heads/main/security/radio-cult-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/radio-cult/security/radio-cult-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Radio

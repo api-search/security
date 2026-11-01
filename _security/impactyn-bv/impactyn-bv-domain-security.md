@@ -26,7 +26,7 @@ source_filename: impactyn-bv-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: impactyn.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 20:46:12 2026 GMT\n  hsts: false\ndomains:\n- domain: impactyn.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/impactyn-bv/refs/heads/main/security/impactyn-bv-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/impactyn-bv/security/impactyn-bv-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

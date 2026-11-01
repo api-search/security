@@ -5,85 +5,85 @@ api_specs:
   label: Powernaut Authentication API
   slug: powernaut-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/openapi/powernaut-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/powernaut/openapi/powernaut-authentication-api-openapi.yml
 - filename: powernaut-baselining-api-openapi.yml
   format: yaml
   label: Powernaut Baselining API
   slug: powernaut-baselining-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/openapi/powernaut-baselining-api-openapi.yml
+  url: https://artifacts.apis.io/powernaut/openapi/powernaut-baselining-api-openapi.yml
 - filename: powernaut-creating-bids-api-openapi.yml
   format: yaml
   label: Powernaut Creating Bids API
   slug: powernaut-creating-bids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/openapi/powernaut-creating-bids-api-openapi.yml
+  url: https://artifacts.apis.io/powernaut/openapi/powernaut-creating-bids-api-openapi.yml
 - filename: powernaut-events-api-openapi.yml
   format: yaml
   label: Powernaut Events API
   slug: powernaut-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/openapi/powernaut-events-api-openapi.yml
+  url: https://artifacts.apis.io/powernaut/openapi/powernaut-events-api-openapi.yml
 - filename: powernaut-getting-forecasts-api-openapi.yml
   format: yaml
   label: Powernaut Getting Forecasts API
   slug: powernaut-getting-forecasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/openapi/powernaut-getting-forecasts-api-openapi.yml
+  url: https://artifacts.apis.io/powernaut/openapi/powernaut-getting-forecasts-api-openapi.yml
 - filename: powernaut-historical-data-api-openapi.yml
   format: yaml
   label: Powernaut Historical Data API
   slug: powernaut-historical-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/openapi/powernaut-historical-data-api-openapi.yml
+  url: https://artifacts.apis.io/powernaut/openapi/powernaut-historical-data-api-openapi.yml
 - filename: powernaut-managing-bids-api-openapi.yml
   format: yaml
   label: Powernaut Managing Bids API
   slug: powernaut-managing-bids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/openapi/powernaut-managing-bids-api-openapi.yml
+  url: https://artifacts.apis.io/powernaut/openapi/powernaut-managing-bids-api-openapi.yml
 - filename: powernaut-markets-api-openapi.yml
   format: yaml
   label: Powernaut Markets API
   slug: powernaut-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/openapi/powernaut-markets-api-openapi.yml
+  url: https://artifacts.apis.io/powernaut/openapi/powernaut-markets-api-openapi.yml
 - filename: powernaut-metrics-api-openapi.yml
   format: yaml
   label: Powernaut Metrics API
   slug: powernaut-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/openapi/powernaut-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/powernaut/openapi/powernaut-metrics-api-openapi.yml
 - filename: powernaut-resources-api-openapi.yml
   format: yaml
   label: Powernaut Resources API
   slug: powernaut-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/openapi/powernaut-resources-api-openapi.yml
+  url: https://artifacts.apis.io/powernaut/openapi/powernaut-resources-api-openapi.yml
 - filename: powernaut-sensor-data-api-openapi.yml
   format: yaml
   label: Powernaut Sensor Data API
   slug: powernaut-sensor-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/openapi/powernaut-sensor-data-api-openapi.yml
+  url: https://artifacts.apis.io/powernaut/openapi/powernaut-sensor-data-api-openapi.yml
 - filename: powernaut-sites-api-openapi.yml
   format: yaml
   label: Powernaut Sites API
   slug: powernaut-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/openapi/powernaut-sites-api-openapi.yml
+  url: https://artifacts.apis.io/powernaut/openapi/powernaut-sites-api-openapi.yml
 - filename: powernaut-uploading-forecasts-api-openapi.yml
   format: yaml
   label: Powernaut Uploading Forecasts API
   slug: powernaut-uploading-forecasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/openapi/powernaut-uploading-forecasts-api-openapi.yml
+  url: https://artifacts.apis.io/powernaut/openapi/powernaut-uploading-forecasts-api-openapi.yml
 - filename: powernaut-accepting-bids-api-openapi.yml
   format: yaml
   label: Powernaut Accepting Bids API
   slug: powernaut-accepting-bids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/openapi/powernaut-accepting-bids-api-openapi.yml
+  url: https://artifacts.apis.io/powernaut/openapi/powernaut-accepting-bids-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -113,7 +113,7 @@ source_filename: powernaut-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: powernaut.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 16:11:24 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: powernaut.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/security/powernaut-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/powernaut/security/powernaut-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

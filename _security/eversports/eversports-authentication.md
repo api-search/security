@@ -33,7 +33,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://helpcenter.eversportsmanager.com/what-is-the-provider-api\ndocs: https://helpcenter.eversportsmanager.com/what-is-the-provider-api\nsummary:\n  types: [http]\n  http_schemes: [bearer]\n  api_key_in: []\n  oauth2_flows: []\n  notes: >-\n    Both Eversports GraphQL APIs authenticate with a static Bearer token issued\n    by Eversports on request. There is no self-serve OAuth flow and no documented\n    scope surface; the opaque token is scoped to the provider/venue account that\n    Eversports provisions. Tokens are sent on every HTTP request.\nschemes:\n  - name: bearerAuth\n    type: http\n    scheme: bearer\n    header: 'Authorization: Bearer <TOKEN>'\n    provisioning: Contact support@eversports.com; Eversports issues access credentials plus a Quick Start Guide.\n    applies_to:\n      - graphql/eversports-provider-api.graphql\n      - graphql/eversports-aggregator.graphql\n    sources:\n      - graphql/eversports-provider-api-introspection.json\n\
   \      - graphql/eversports-aggregator-introspection.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eversports/refs/heads/main/authentication/eversports-authentication.yml
+source_yaml_url: https://artifacts.apis.io/eversports/authentication/eversports-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

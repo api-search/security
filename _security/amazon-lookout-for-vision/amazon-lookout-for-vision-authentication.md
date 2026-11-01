@@ -8,13 +8,13 @@ api_specs:
   label: Amazon Lookout for Vision Projects API
   slug: amazon-lookout-for-vision-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/openapi/amazon-lookout-for-vision-projects-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lookout-for-vision/openapi/amazon-lookout-for-vision-projects-api-openapi.yml
 - filename: amazon-lookout-for-vision-tags-api-openapi.yml
   format: yaml
   label: Amazon Lookout for Vision Tags API
   slug: amazon-lookout-for-vision-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/openapi/amazon-lookout-for-vision-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lookout-for-vision/openapi/amazon-lookout-for-vision-tags-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: amazon-lookout-for-vision-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-lookout-for-vision-openapi-original.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-lookout-for-vision-openapi-original.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/authentication/amazon-lookout-for-vision-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-lookout-for-vision/authentication/amazon-lookout-for-vision-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Computer Vision

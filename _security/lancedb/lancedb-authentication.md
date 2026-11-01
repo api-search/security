@@ -8,25 +8,25 @@ api_specs:
   label: LanceDB MaterializedView API
   slug: lancedb-materializedview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/openapi/lancedb-materializedview-api-openapi.yml
+  url: https://artifacts.apis.io/lancedb/openapi/lancedb-materializedview-api-openapi.yml
 - filename: lancedb-namespace-api-openapi.yml
   format: yaml
   label: LanceDB Namespace API
   slug: lancedb-namespace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/openapi/lancedb-namespace-api-openapi.yml
+  url: https://artifacts.apis.io/lancedb/openapi/lancedb-namespace-api-openapi.yml
 - filename: lancedb-table-api-openapi.yml
   format: yaml
   label: LanceDB Table API
   slug: lancedb-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/openapi/lancedb-table-api-openapi.yml
+  url: https://artifacts.apis.io/lancedb/openapi/lancedb-table-api-openapi.yml
 - filename: lancedb-transaction-api-openapi.yml
   format: yaml
   label: LanceDB Transaction API
   slug: lancedb-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/openapi/lancedb-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/lancedb/openapi/lancedb-transaction-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -69,10 +69,10 @@ source_filename: lancedb-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/lance-namespace-openapi.yaml\nsummary:\n  types:\n  - apiKey\n  - http\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n    scopes: 0\n  sources:\n  - openapi/lance-namespace-openapi.yaml\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/lance-namespace-openapi.yaml\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/lance-namespace-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/authentication/lancedb-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lancedb/authentication/lancedb-authentication.yml
 summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
-- Vector Database
+- Vector Search
 - Multi-Modal
 - Lance Format
 - Lakehouse
@@ -85,5 +85,4 @@ tags:
 - Columnar Storage
 - Arrow
 - AI Infrastructure
-- Vector Search
 ---

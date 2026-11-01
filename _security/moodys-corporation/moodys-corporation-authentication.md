@@ -8,55 +8,55 @@ api_specs:
   label: Moody's Corporation Authentication API
   slug: moodys-corporation-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/openapi/moodys-corporation-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-corporation/openapi/moodys-corporation-authentication-api-openapi.yml
 - filename: moodys-corporation-baskets-api-openapi.yml
   format: yaml
   label: Moody's Corporation Baskets API
   slug: moodys-corporation-baskets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/openapi/moodys-corporation-baskets-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-corporation/openapi/moodys-corporation-baskets-api-openapi.yml
 - filename: moodys-corporation-catalog-api-openapi.yml
   format: yaml
   label: Moody's Corporation Catalog API
   slug: moodys-corporation-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/openapi/moodys-corporation-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-corporation/openapi/moodys-corporation-catalog-api-openapi.yml
 - filename: moodys-corporation-health-api-openapi.yml
   format: yaml
   label: Moody's Corporation Health API
   slug: moodys-corporation-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/openapi/moodys-corporation-health-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-corporation/openapi/moodys-corporation-health-api-openapi.yml
 - filename: moodys-corporation-jobs-api-openapi.yml
   format: yaml
   label: Moody's Corporation Jobs API
   slug: moodys-corporation-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/openapi/moodys-corporation-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-corporation/openapi/moodys-corporation-jobs-api-openapi.yml
 - filename: moodys-corporation-orders-api-openapi.yml
   format: yaml
   label: Moody's Corporation Orders API
   slug: moodys-corporation-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/openapi/moodys-corporation-orders-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-corporation/openapi/moodys-corporation-orders-api-openapi.yml
 - filename: moodys-corporation-reference-api-openapi.yml
   format: yaml
   label: Moody's Corporation Reference API
   slug: moodys-corporation-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/openapi/moodys-corporation-reference-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-corporation/openapi/moodys-corporation-reference-api-openapi.yml
 - filename: moodys-corporation-search-api-openapi.yml
   format: yaml
   label: Moody's Corporation Search API
   slug: moodys-corporation-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/openapi/moodys-corporation-search-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-corporation/openapi/moodys-corporation-search-api-openapi.yml
 - filename: moodys-corporation-series-api-openapi.yml
   format: yaml
   label: Moody's Corporation Series API
   slug: moodys-corporation-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/openapi/moodys-corporation-series-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-corporation/openapi/moodys-corporation-series-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -95,7 +95,7 @@ source_filename: moodys-corporation-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/moodys-analytics-developer-openapi.yml, openapi/moodys-data-buffet-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.economy.com/oauth2/token\n    scopes: 2\n  sources:\n  - openapi/moodys-analytics-developer-openapi.yml\n  - openapi/moodys-data-buffet-api-openapi.yml\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: HMAC-SHA256 request signing scheme used as an alternative to OAuth2 on legacy\n    Moody's Analytics product APIs (Data Buffet, Scenario Studio).\n  sources:\n  - openapi/moodys-analytics-developer-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/authentication/moodys-corporation-authentication.yml
+source_yaml_url: https://artifacts.apis.io/moodys-corporation/authentication/moodys-corporation-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Analytics

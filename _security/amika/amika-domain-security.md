@@ -5,73 +5,109 @@ api_specs:
   label: Amika API keys API
   slug: amika-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/openapi/amika-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/amika/openapi/amika-api-keys-api-openapi.yml
 - filename: amika-docker-registries-api-openapi.yml
   format: yaml
   label: Amika Docker registries API
   slug: amika-docker-registries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/openapi/amika-docker-registries-api-openapi.yml
+  url: https://artifacts.apis.io/amika/openapi/amika-docker-registries-api-openapi.yml
 - filename: amika-downloads-api-openapi.yml
   format: yaml
   label: Amika Downloads API
   slug: amika-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/openapi/amika-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/amika/openapi/amika-downloads-api-openapi.yml
 - filename: amika-git-user-settings-api-openapi.yml
   format: yaml
   label: Amika Git user settings API
   slug: amika-git-user-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/openapi/amika-git-user-settings-api-openapi.yml
+  url: https://artifacts.apis.io/amika/openapi/amika-git-user-settings-api-openapi.yml
 - filename: amika-integrations-api-openapi.yml
   format: yaml
   label: Amika Integrations API
   slug: amika-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/openapi/amika-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/amika/openapi/amika-integrations-api-openapi.yml
 - filename: amika-repositories-api-openapi.yml
   format: yaml
   label: Amika Repositories API
   slug: amika-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/openapi/amika-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/amika/openapi/amika-repositories-api-openapi.yml
 - filename: amika-sandboxes-api-openapi.yml
   format: yaml
   label: Amika Sandboxes API
   slug: amika-sandboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/openapi/amika-sandboxes-api-openapi.yml
+  url: https://artifacts.apis.io/amika/openapi/amika-sandboxes-api-openapi.yml
 - filename: amika-sandboxsnapshots-api-openapi.yml
   format: yaml
   label: Amika SandboxSnapshots API
   slug: amika-sandboxsnapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/openapi/amika-sandboxsnapshots-api-openapi.yml
+  url: https://artifacts.apis.io/amika/openapi/amika-sandboxsnapshots-api-openapi.yml
 - filename: amika-secrets-api-openapi.yml
   format: yaml
   label: Amika Secrets API
   slug: amika-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/openapi/amika-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/amika/openapi/amika-secrets-api-openapi.yml
 - filename: amika-services-api-openapi.yml
   format: yaml
   label: Amika Services API
   slug: amika-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/openapi/amika-services-api-openapi.yml
+  url: https://artifacts.apis.io/amika/openapi/amika-services-api-openapi.yml
 - filename: amika-slack-api-openapi.yml
   format: yaml
   label: Amika Slack API
   slug: amika-slack-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/openapi/amika-slack-api-openapi.yml
+  url: https://artifacts.apis.io/amika/openapi/amika-slack-api-openapi.yml
 - filename: amika-uploads-api-openapi.yml
   format: yaml
   label: Amika Uploads API
   slug: amika-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/openapi/amika-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/amika/openapi/amika-uploads-api-openapi.yml
+- filename: amika-agentsessions-api-openapi.yml
+  format: yaml
+  label: Amika Agent Sessions API
+  slug: amika-agentsessions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amika/openapi/amika-agentsessions-api-openapi.yml
+- filename: amika-hosts-api-openapi.yml
+  format: yaml
+  label: Amika Hosts API
+  slug: amika-hosts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amika/openapi/amika-hosts-api-openapi.yml
+- filename: amika-linear-api-openapi.yml
+  format: yaml
+  label: Amika Linear API
+  slug: amika-linear-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amika/openapi/amika-linear-api-openapi.yml
+- filename: amika-meta-api-openapi.yml
+  format: yaml
+  label: Amika Meta API
+  slug: amika-meta-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amika/openapi/amika-meta-api-openapi.yml
+- filename: amika-sandboxbindings-api-openapi.yml
+  format: yaml
+  label: Amika Sandbox Bindings API
+  slug: amika-sandboxbindings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amika/openapi/amika-sandboxbindings-api-openapi.yml
+- filename: amika-sandboxservices-api-openapi.yml
+  format: yaml
+  label: Amika Sandbox Services API
+  slug: amika-sandboxservices-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amika/openapi/amika-sandboxservices-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -113,7 +149,7 @@ source_filename: amika-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.amika.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 10:14:27 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.amika.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 07:04:45 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: app.amika.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 05:01:21 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: amika.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/security/amika-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amika/security/amika-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

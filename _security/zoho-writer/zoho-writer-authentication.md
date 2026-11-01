@@ -7,25 +7,25 @@ api_specs:
   label: Zoho Writer Combine API
   slug: zoho-writer-combine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-writer/refs/heads/main/openapi/zoho-writer-combine-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-writer/openapi/zoho-writer-combine-api-openapi.yml
 - filename: zoho-writer-documents-api-openapi.yml
   format: yaml
   label: Zoho Writer Documents API
   slug: zoho-writer-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-writer/refs/heads/main/openapi/zoho-writer-documents-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-writer/openapi/zoho-writer-documents-api-openapi.yml
 - filename: zoho-writer-merge-api-openapi.yml
   format: yaml
   label: Zoho Writer Merge API
   slug: zoho-writer-merge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-writer/refs/heads/main/openapi/zoho-writer-merge-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-writer/openapi/zoho-writer-merge-api-openapi.yml
 - filename: zoho-writer-signatures-api-openapi.yml
   format: yaml
   label: Zoho Writer Signatures API
   slug: zoho-writer-signatures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-writer/refs/heads/main/openapi/zoho-writer-signatures-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-writer/openapi/zoho-writer-signatures-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -57,7 +57,7 @@ source_filename: zoho-writer-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/zoho-writer-openapi.json\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.zoho.com/oauth/v2/auth\n    tokenUrl: https://accounts.zoho.com/oauth/v2/token\n    scopes: 6\n  description: OAuth 2.0 authentication. Refer to https://www.zoho.com/writer/help/api/v1/oauth-2.html\n    for setup.\n  sources:\n  - openapi/zoho-writer-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-writer/refs/heads/main/authentication/zoho-writer-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zoho-writer/authentication/zoho-writer-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Documents

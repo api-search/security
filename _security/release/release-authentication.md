@@ -8,55 +8,55 @@ api_specs:
   label: Release Accounts API
   slug: release-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/openapi/release-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/release/openapi/release-accounts-api-openapi.yml
 - filename: release-apps-api-openapi.yml
   format: yaml
   label: Release Apps API
   slug: release-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/openapi/release-apps-api-openapi.yml
+  url: https://artifacts.apis.io/release/openapi/release-apps-api-openapi.yml
 - filename: release-builds-api-openapi.yml
   format: yaml
   label: Release Builds API
   slug: release-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/openapi/release-builds-api-openapi.yml
+  url: https://artifacts.apis.io/release/openapi/release-builds-api-openapi.yml
 - filename: release-clusters-api-openapi.yml
   format: yaml
   label: Release Clusters API
   slug: release-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/openapi/release-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/release/openapi/release-clusters-api-openapi.yml
 - filename: release-configs-api-openapi.yml
   format: yaml
   label: Release Configs API
   slug: release-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/openapi/release-configs-api-openapi.yml
+  url: https://artifacts.apis.io/release/openapi/release-configs-api-openapi.yml
 - filename: release-deploys-api-openapi.yml
   format: yaml
   label: Release Deploys API
   slug: release-deploys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/openapi/release-deploys-api-openapi.yml
+  url: https://artifacts.apis.io/release/openapi/release-deploys-api-openapi.yml
 - filename: release-environments-api-openapi.yml
   format: yaml
   label: Release Environments API
   slug: release-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/openapi/release-environments-api-openapi.yml
+  url: https://artifacts.apis.io/release/openapi/release-environments-api-openapi.yml
 - filename: release-instances-api-openapi.yml
   format: yaml
   label: Release Instances API
   slug: release-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/openapi/release-instances-api-openapi.yml
+  url: https://artifacts.apis.io/release/openapi/release-instances-api-openapi.yml
 - filename: release-remote-development-api-openapi.yml
   format: yaml
   label: Release Remote Development API
   slug: release-remote-development-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/openapi/release-remote-development-api-openapi.yml
+  url: https://artifacts.apis.io/release/openapi/release-remote-development-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -92,7 +92,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/release-openapi-original.json\ndocs: https://docs.release.com/reference-documentation/release-api/authentication.md\nnotes: >-\n  Two apiKey header credentials are required together (X-User-Email + X-User-Token),\n  sourced from ~/.release.yaml (populated by `release auth login`). Some Platform API\n  endpoints instead use account-level headers X-Account-ID + X-Account-Token (found in\n  Account Settings > Account Info); AI Sandbox and GraphQL APIs always use user auth.\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  account_level_headers:\n  - X-Account-ID\n  - X-Account-Token\nschemes:\n- name: userEmail\n  type: apiKey\n  in: header\n  parameter: X-User-Email\n  description: User's email address for authentication\n  sources:\n  - openapi/release-openapi-original.json\n- name: userToken\n  type: apiKey\n  in: header\n  parameter: X-User-Token\n  description: User's authentication token (from ~/.release.yaml)\n\
   \  sources:\n  - openapi/release-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/authentication/release-authentication.yml
+source_yaml_url: https://artifacts.apis.io/release/authentication/release-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company

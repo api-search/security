@@ -5,31 +5,31 @@ api_specs:
   label: World Meteorological Organization Jobs API
   slug: wmo-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/openapi/wmo-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/wmo/openapi/wmo-jobs-api-openapi.yml
 - filename: wmo-pywcmp-wis2-wcmp2-ets-api-openapi.yml
   format: yaml
   label: World Meteorological Organization Pywcmp Wis2 Wcmp2 Ets API
   slug: wmo-pywcmp-wis2-wcmp2-ets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/openapi/wmo-pywcmp-wis2-wcmp2-ets-api-openapi.yml
+  url: https://artifacts.apis.io/wmo/openapi/wmo-pywcmp-wis2-wcmp2-ets-api-openapi.yml
 - filename: wmo-pywcmp-wis2-wcmp2-kpi-api-openapi.yml
   format: yaml
   label: World Meteorological Organization Pywcmp Wis2 Wcmp2 Kpi API
   slug: wmo-pywcmp-wis2-wcmp2-kpi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/openapi/wmo-pywcmp-wis2-wcmp2-kpi-api-openapi.yml
+  url: https://artifacts.apis.io/wmo/openapi/wmo-pywcmp-wis2-wcmp2-kpi-api-openapi.yml
 - filename: wmo-server-api-openapi.yml
   format: yaml
   label: World Meteorological Organization Server API
   slug: wmo-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/openapi/wmo-server-api-openapi.yml
+  url: https://artifacts.apis.io/wmo/openapi/wmo-server-api-openapi.yml
 - filename: wmo-wis2-discovery-metadata-api-openapi.yml
   format: yaml
   label: World Meteorological Organization Wis2 Discovery Metadata API
   slug: wmo-wis2-discovery-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/openapi/wmo-wis2-discovery-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/wmo/openapi/wmo-wis2-discovery-metadata-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: wmo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: wmo.int\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 11:31:41 2026 GMT\n  hsts: true\n  hsts_max_age: 31622400\n- host: worldweather.wmo.int\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  7 11:28:02 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: oscar.wmo.int\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: wmo.int\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/security/wmo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wmo/security/wmo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Weather

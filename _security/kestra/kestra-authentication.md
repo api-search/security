@@ -7,37 +7,37 @@ api_specs:
   label: Kestra Executions API
   slug: kestra-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-executions-api-openapi.yml
+  url: https://artifacts.apis.io/kestra/openapi/kestra-executions-api-openapi.yml
 - filename: kestra-files-api-openapi.yml
   format: yaml
   label: Kestra Files API
   slug: kestra-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-files-api-openapi.yml
+  url: https://artifacts.apis.io/kestra/openapi/kestra-files-api-openapi.yml
 - filename: kestra-flows-api-openapi.yml
   format: yaml
   label: Kestra Flows API
   slug: kestra-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-flows-api-openapi.yml
+  url: https://artifacts.apis.io/kestra/openapi/kestra-flows-api-openapi.yml
 - filename: kestra-namespaces-api-openapi.yml
   format: yaml
   label: Kestra Namespaces API
   slug: kestra-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/kestra/openapi/kestra-namespaces-api-openapi.yml
 - filename: kestra-triggers-api-openapi.yml
   format: yaml
   label: Kestra Triggers API
   slug: kestra-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/kestra/openapi/kestra-triggers-api-openapi.yml
 - filename: kestra-kv-store-api-openapi.yml
   format: yaml
   label: Kestra KV Store API
   slug: kestra-kv-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-kv-store-api-openapi.yml
+  url: https://artifacts.apis.io/kestra/openapi/kestra-kv-store-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +64,7 @@ source_filename: kestra-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/kestra-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: Optional HTTP basic authentication for self-hosted Kestra instances.\n  sources:\n  - openapi/kestra-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/authentication/kestra-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kestra/authentication/kestra-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Automation

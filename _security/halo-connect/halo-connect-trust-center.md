@@ -5,31 +5,31 @@ api_specs:
   label: Halo Connect FHIR API
   slug: halo-connect-fhir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/openapi/halo-connect-fhir-api-openapi.yml
+  url: https://artifacts.apis.io/halo-connect/openapi/halo-connect-fhir-api-openapi.yml
 - filename: halo-connect-registered-queries-api-openapi.yml
   format: yaml
   label: Halo Connect Registered Queries API
   slug: halo-connect-registered-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/openapi/halo-connect-registered-queries-api-openapi.yml
+  url: https://artifacts.apis.io/halo-connect/openapi/halo-connect-registered-queries-api-openapi.yml
 - filename: halo-connect-sites-api-openapi.yml
   format: yaml
   label: Halo Connect Sites API
   slug: halo-connect-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/openapi/halo-connect-sites-api-openapi.yml
+  url: https://artifacts.apis.io/halo-connect/openapi/halo-connect-sites-api-openapi.yml
 - filename: halo-connect-sql-passthrough-api-openapi.yml
   format: yaml
   label: Halo Connect SQL Passthrough API
   slug: halo-connect-sql-passthrough-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/openapi/halo-connect-sql-passthrough-api-openapi.yml
+  url: https://artifacts.apis.io/halo-connect/openapi/halo-connect-sql-passthrough-api-openapi.yml
 - filename: halo-connect-tokens-api-openapi.yml
   format: yaml
   label: Halo Connect Tokens API
   slug: halo-connect-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/openapi/halo-connect-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/halo-connect/openapi/halo-connect-tokens-api-openapi.yml
 certification_count: 2
 certifications:
 - CyberCert SMB1001-2023 Level 3 (Gold)
@@ -47,7 +47,7 @@ source_filename: halo-connect-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-24'\nmethod: searched\nprobe: true\nurl: https://haloconnect.io/trust\ncertifications:\n  - CyberCert SMB1001-2023 Level 3 (Gold)\n  - ISO 27001 (policies/procedures align to principles; not stated as certified)\nframeworks:\n  - ACSC (Australian Cyber Security Centre) guidelines\n  - OWASP recommendations\n  - Australian Privacy Principles\npractices:\n  - TLS 1.3 encryption in transit\n  - No data retention; no data inspection beyond practice identification\n  - Two-factor authentication and role-based access control\n  - Zero Trust security model\n  - Regular third-party penetration testing and architecture reviews\n  - Australian-based, allowlisted integrator IP addresses\ndata_residency:\n  region: Australia\n  provider: Microsoft Azure (Australian datacenters)\nevidence:\n  - source: https://haloconnect.io/trust\n    keywords: [cybercert, iso 27001, acsc, owasp, tls 1.3, zero trust, penetration testing]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/security/halo-connect-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/halo-connect/security/halo-connect-trust-center.yml
 summary_line: CyberCert SMB1001-2023 Level 3 (Gold), ISO 27001 (policies/procedures align to principles; not stated as certified)
 tags:
 - Healthcare

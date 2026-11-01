@@ -26,7 +26,7 @@ source_filename: alteon-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://support.radware.com/app/answers/answer_view/a_id/16798/~/how-to-authenticate-the-alteon-rest-api\ndocs: https://support.radware.com/app/answers/answer_view/a_id/16280/~/alteon-rest-api\nnotes: >-\n  The Alteon REST API is embedded in each Alteon device (accessed at\n  https://<device>/restdoc/, available from Alteon 34.0.4 / 33.5.8 / 33.0.12 and\n  above). There is no public multi-tenant OpenAPI to derive from, so this profile\n  is captured from Radware's documented auth model. Authentication is HTTP Basic\n  (username + password base64-encoded); Radware recommends restricting API access\n  over HTTPS.\nsummary:\n  types:\n  - http\n  http_schemes:\n  - basic\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication with device username/password (base64-encoded), over HTTPS.\n  docs: https://support.radware.com/app/answers/answer_view/a_id/16798/~/how-to-authenticate-the-alteon-rest-api\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alteon/refs/heads/main/authentication/alteon-authentication.yml
+source_yaml_url: https://artifacts.apis.io/alteon/authentication/alteon-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

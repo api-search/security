@@ -8,7 +8,7 @@ api_specs:
   label: Friendly Captcha Siteverify API
   slug: friendly-captcha-siteverify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/friendly-captcha/refs/heads/main/openapi/friendly-captcha-siteverify-api-openapi.yml
+  url: https://artifacts.apis.io/friendly-captcha/openapi/friendly-captcha-siteverify-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: friendly-captcha-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/friendly-captcha-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: API key created in the Friendly Captcha dashboard\n  sources:\n  - openapi/friendly-captcha-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/friendly-captcha/refs/heads/main/authentication/friendly-captcha-authentication.yml
+source_yaml_url: https://artifacts.apis.io/friendly-captcha/authentication/friendly-captcha-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - CAPTCHA

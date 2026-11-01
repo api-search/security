@@ -5,55 +5,55 @@ api_specs:
   label: Medblocks Certificates API
   slug: medblocks-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/medblocks/openapi/medblocks-certificates-api-openapi.yml
 - filename: medblocks-connections-api-openapi.yml
   format: yaml
   label: Medblocks Connections API
   slug: medblocks-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-connections-api-openapi.yml
+  url: https://artifacts.apis.io/medblocks/openapi/medblocks-connections-api-openapi.yml
 - filename: medblocks-events-api-openapi.yml
   format: yaml
   label: Medblocks Events API
   slug: medblocks-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-events-api-openapi.yml
+  url: https://artifacts.apis.io/medblocks/openapi/medblocks-events-api-openapi.yml
 - filename: medblocks-feeds-api-openapi.yml
   format: yaml
   label: Medblocks Feeds API
   slug: medblocks-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/medblocks/openapi/medblocks-feeds-api-openapi.yml
 - filename: medblocks-health-api-openapi.yml
   format: yaml
   label: Medblocks Health API
   slug: medblocks-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-health-api-openapi.yml
+  url: https://artifacts.apis.io/medblocks/openapi/medblocks-health-api-openapi.yml
 - filename: medblocks-launch-contexts-api-openapi.yml
   format: yaml
   label: Medblocks Launch Contexts API
   slug: medblocks-launch-contexts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-launch-contexts-api-openapi.yml
+  url: https://artifacts.apis.io/medblocks/openapi/medblocks-launch-contexts-api-openapi.yml
 - filename: medblocks-patient-sessions-api-openapi.yml
   format: yaml
   label: Medblocks Patient Sessions API
   slug: medblocks-patient-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-patient-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/medblocks/openapi/medblocks-patient-sessions-api-openapi.yml
 - filename: medblocks-patients-api-openapi.yml
   format: yaml
   label: Medblocks Patients API
   slug: medblocks-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-patients-api-openapi.yml
+  url: https://artifacts.apis.io/medblocks/openapi/medblocks-patients-api-openapi.yml
 - filename: medblocks-webhooks-api-openapi.yml
   format: yaml
   label: Medblocks Webhooks API
   slug: medblocks-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/medblocks/openapi/medblocks-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ source_filename: medblocks-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: medblocks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 22:04:24 2026 GMT\n  hsts: true\n  hsts_max_age: 0\n- host: app.medblocks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 17 17:22:39 2026 GMT\n  hsts: false\ndomains:\n- domain: medblocks.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/security/medblocks-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/medblocks/security/medblocks-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Health

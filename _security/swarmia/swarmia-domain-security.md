@@ -5,37 +5,37 @@ api_specs:
   label: Swarmia Additional AI integrations API
   slug: swarmia-additional-ai-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swarmia/refs/heads/main/openapi/swarmia-additional-ai-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/swarmia/openapi/swarmia-additional-ai-integrations-api-openapi.yml
 - filename: swarmia-built-in-reports-api-openapi.yml
   format: yaml
   label: Swarmia Built-in reports API
   slug: swarmia-built-in-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swarmia/refs/heads/main/openapi/swarmia-built-in-reports-api-openapi.yml
+  url: https://artifacts.apis.io/swarmia/openapi/swarmia-built-in-reports-api-openapi.yml
 - filename: swarmia-custom-reports-api-openapi.yml
   format: yaml
   label: Swarmia Custom reports API
   slug: swarmia-custom-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swarmia/refs/heads/main/openapi/swarmia-custom-reports-api-openapi.yml
+  url: https://artifacts.apis.io/swarmia/openapi/swarmia-custom-reports-api-openapi.yml
 - filename: swarmia-deployments-api-openapi.yml
   format: yaml
   label: Swarmia Deployments API
   slug: swarmia-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swarmia/refs/heads/main/openapi/swarmia-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/swarmia/openapi/swarmia-deployments-api-openapi.yml
 - filename: swarmia-team-management-api-openapi.yml
   format: yaml
   label: Swarmia Team management API
   slug: swarmia-team-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swarmia/refs/heads/main/openapi/swarmia-team-management-api-openapi.yml
+  url: https://artifacts.apis.io/swarmia/openapi/swarmia-team-management-api-openapi.yml
 - filename: swarmia-time-off-api-openapi.yml
   format: yaml
   label: Swarmia Time off API
   slug: swarmia-time-off-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swarmia/refs/heads/main/openapi/swarmia-time-off-api-openapi.yml
+  url: https://artifacts.apis.io/swarmia/openapi/swarmia-time-off-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -80,7 +80,7 @@ source_filename: swarmia-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.swarmia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 10:09:40 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: help.swarmia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 18:31:14 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.swarmia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 20:43:41 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: swarmia.com\n  dnssec: true\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swarmia/refs/heads/main/security/swarmia-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/swarmia/security/swarmia-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Engineering Effectiveness

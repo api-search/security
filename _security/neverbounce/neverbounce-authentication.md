@@ -9,25 +9,25 @@ api_specs:
   label: NeverBounce Account API
   slug: neverbounce-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neverbounce/refs/heads/main/openapi/neverbounce-account-api-openapi.yml
+  url: https://artifacts.apis.io/neverbounce/openapi/neverbounce-account-api-openapi.yml
 - filename: neverbounce-jobs-api-openapi.yml
   format: yaml
   label: NeverBounce Jobs API
   slug: neverbounce-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neverbounce/refs/heads/main/openapi/neverbounce-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/neverbounce/openapi/neverbounce-jobs-api-openapi.yml
 - filename: neverbounce-single-api-openapi.yml
   format: yaml
   label: NeverBounce Single API
   slug: neverbounce-single-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neverbounce/refs/heads/main/openapi/neverbounce-single-api-openapi.yml
+  url: https://artifacts.apis.io/neverbounce/openapi/neverbounce-single-api-openapi.yml
 - filename: neverbounce-poe-api-openapi.yml
   format: yaml
   label: NeverBounce POE API
   slug: neverbounce-poe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neverbounce/refs/heads/main/openapi/neverbounce-poe-api-openapi.yml
+  url: https://artifacts.apis.io/neverbounce/openapi/neverbounce-poe-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://develop
   key_prefixes:\n- prefix: secret_\n  surface: v4 REST API\n  usage: >-\n    Server-side only. Grants access to account data and consumes verification credits.\n    Accepted in the query string (`?key=`), in an `application/x-www-form-urlencoded`\n    body, or in an `application/json` body.\n  note: >-\n    NeverBounce explicitly warns that the standard API is not usable from a browser — CORS\n    is not enabled — because the key would be exposed client-side.\n- prefix: public_\n  surface: JavaScript widget\n  usage: >-\n    Browser-safe publishable key for the NeverBounce JS widget only. Keys starting with\n    `public_` cannot authenticate the standard API, and `secret_` keys cannot drive the\n    widget.\n  source: https://developers.neverbounce.com/reference/widget-overview\n- prefix: webhook_secret_\n  surface: single/check webhook URLs\n  usage: >-\n    Key embedded in a generated webhook URL (created at\n    https://app.neverbounce.com/apps/webhook/new) so third-party tools can call\n\
   \    `/single/check` without code. NeverBounce documents these URLs as sensitive — they\n    carry a live key and must not be used client-side.\n  source: https://developers.neverbounce.com/reference/single-webhooks\ntransport:\n  https_only: true\n  interchangeable_verbs: true\n  accepted_content_types:\n  - application/x-www-form-urlencoded\n  - application/json\n  note: >-\n    v4 accepts GET and POST interchangeably; PUT, DELETE, HEAD and OPTIONS are not\n    supported. See https://developers.neverbounce.com/reference/encoding-requests\nfailure_modes:\n- status: auth_failure\n  http_status: 200\n  meaning: >-\n    Request could not be authenticated. Most often a legacy V3 username/secret being sent\n    to a V4 endpoint — V3 credentials do not work on V4.\n- status: bad_referrer\n  http_status: 200\n  meaning: >-\n    Request originated from a domain or IP not listed in the app's Trusted Domains\n    (widget and webhook apps).\nnotes:\n- >-\n  There is no OAuth 2.0 or OpenID Connect\
   \ surface. Authentication is a single static API\n  key per integration app, rotated by resetting the key in the dashboard.\n- >-\n  Authentication failures are returned inside a HTTP 200 body via the `status` property,\n  not as a 401 — see errors/neverbounce-problem-types.yml.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neverbounce/refs/heads/main/authentication/neverbounce-authentication.yml
+source_yaml_url: https://artifacts.apis.io/neverbounce/authentication/neverbounce-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Email Verification

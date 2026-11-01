@@ -8,67 +8,67 @@ api_specs:
   label: Gandi Authorization API
   slug: gandi-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-authorization-api-openapi.yml
 - filename: gandi-availability-api-openapi.yml
   format: yaml
   label: Gandi Availability API
   slug: gandi-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-availability-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-availability-api-openapi.yml
 - filename: gandi-dnssec-api-openapi.yml
   format: yaml
   label: Gandi DNSSEC API
   slug: gandi-dnssec-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-dnssec-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-dnssec-api-openapi.yml
 - filename: gandi-domains-api-openapi.yml
   format: yaml
   label: Gandi Domains API
   slug: gandi-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-domains-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-domains-api-openapi.yml
 - filename: gandi-ownership-api-openapi.yml
   format: yaml
   label: Gandi Ownership API
   slug: gandi-ownership-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-ownership-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-ownership-api-openapi.yml
 - filename: gandi-records-api-openapi.yml
   format: yaml
   label: Gandi Records API
   slug: gandi-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-records-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-records-api-openapi.yml
 - filename: gandi-renewal-api-openapi.yml
   format: yaml
   label: Gandi Renewal API
   slug: gandi-renewal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-renewal-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-renewal-api-openapi.yml
 - filename: gandi-trademark-api-openapi.yml
   format: yaml
   label: Gandi Trademark API
   slug: gandi-trademark-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-trademark-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-trademark-api-openapi.yml
 - filename: gandi-tsig-api-openapi.yml
   format: yaml
   label: Gandi TSIG API
   slug: gandi-tsig-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-tsig-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-tsig-api-openapi.yml
 - filename: gandi-utilities-api-openapi.yml
   format: yaml
   label: Gandi Utilities API
   slug: gandi-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-utilities-api-openapi.yml
 - filename: gandi-zone-transfers-api-openapi.yml
   format: yaml
   label: Gandi Zone Transfers API
   slug: gandi-zone-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-zone-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-zone-transfers-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -104,7 +104,7 @@ source_filename: gandi-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/domains-openapi-original.yml, openapi/livedns-openapi-original.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearer\n  type: http\n  scheme: bearer\n  description: Personal Access Token (PAT) - format `Bearer [example key]`.\n  sources:\n  - openapi/domains-openapi-original.yml\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Deprecated API key - format `Apikey YOUR_API_KEY`.\n  sources:\n  - openapi/domains-openapi-original.yml\n  - openapi/livedns-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/authentication/gandi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gandi/authentication/gandi-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - DNS

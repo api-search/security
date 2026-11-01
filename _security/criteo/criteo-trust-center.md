@@ -5,73 +5,73 @@ api_specs:
   label: Criteo Accounts API
   slug: criteo-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-accounts-api-openapi.yml
 - filename: criteo-advertiser-api-openapi.yml
   format: yaml
   label: Criteo Advertiser API
   slug: criteo-advertiser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-advertiser-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-advertiser-api-openapi.yml
 - filename: criteo-analytics-api-openapi.yml
   format: yaml
   label: Criteo Analytics API
   slug: criteo-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-analytics-api-openapi.yml
 - filename: criteo-audience-api-openapi.yml
   format: yaml
   label: Criteo Audience API
   slug: criteo-audience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-audience-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-audience-api-openapi.yml
 - filename: criteo-balance-api-openapi.yml
   format: yaml
   label: Criteo Balance API
   slug: criteo-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-balance-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-balance-api-openapi.yml
 - filename: criteo-billing-api-openapi.yml
   format: yaml
   label: Criteo Billing API
   slug: criteo-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-billing-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-billing-api-openapi.yml
 - filename: criteo-campaign-api-openapi.yml
   format: yaml
   label: Criteo Campaign API
   slug: criteo-campaign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-campaign-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-campaign-api-openapi.yml
 - filename: criteo-catalog-api-openapi.yml
   format: yaml
   label: Criteo Catalog API
   slug: criteo-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-catalog-api-openapi.yml
 - filename: criteo-creative-api-openapi.yml
   format: yaml
   label: Criteo Creative API
   slug: criteo-creative-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-creative-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-creative-api-openapi.yml
 - filename: criteo-gateway-api-openapi.yml
   format: yaml
   label: Criteo Gateway API
   slug: criteo-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-gateway-api-openapi.yml
 - filename: criteo-reco-api-openapi.yml
   format: yaml
   label: Criteo Reco API
   slug: criteo-reco-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-reco-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-reco-api-openapi.yml
 - filename: criteo-segment-api-openapi.yml
   format: yaml
   label: Criteo Segment API
   slug: criteo-segment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-segment-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-segment-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -92,7 +92,7 @@ source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: https://security.criteo.com/\nurl: https://security.criteo.com/\nplatform: SafeBase\nhttp_status: 200\nfetched: '2026-08-13'\n\ncertifications:\n- SOC 2\n- SOC 2 Type 1\n- SOC 2 Type 2\n- ISO/IEC 27001\n\ndocuments_listed:\n  reports:\n  - Pentest Report\n  - SOC 2 Report\n  assurance_reports:\n  - ISO/IEC 27001\n  - SOC 2 Type 1\n  - SOC 2 Type 2\n  policies:\n  - Acceptable Use Policy\n  - Access Control Policy\n  - Asset Management Policy\n  - Data Management Policy\n  - Data Protection Policy\n  - Data Security Policy\n  - Encryption Policy\n  - Third Party Management Policy\n\nprogram_areas:\n- Incident Response (designated response personnel, incident reporting process, Security Operations Center)\n- Risk Management (risk assessments, third-party risk management, data access/impact levels)\n- Asset Management (asset classification, hardware/software inventories, secure asset disposal)\n- Training (phishing,\
   \ secure development, security awareness)\n\naccess_model:\n  public_documents: partial\n  gated: true\n  detail: >-\n    The trust center NAMES its certifications and policies publicly, which is what makes the\n    compliance posture verifiable, but the artefacts themselves (SOC 2 report, pentest report,\n    ISO certificate, the policy set) sit behind a \"Start your security review\" / \"Get access\"\n    request flow. Documents are labelled Public or Private; the substantive assurance reports\n    are Private.\n\nnot_published:\n  fedramp: false\n  hipaa: false\n  pci_dss: false\n  csa_star: false\n  note: >-\n    No FedRAMP, HIPAA, PCI DSS or CSA STAR attestation is listed — consistent with an\n    advertising-technology provider that does not process cardholder or protected health data.\n\nevidence:\n- source: https://security.criteo.com/\n  status: 200\n  keywords: [soc 2, soc 2 type 1, soc 2 type 2, iso/iec 27001, trust center, pentest report, incident response]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/security/criteo-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/criteo/security/criteo-trust-center.yml
 summary_line: SOC 2, SOC 2 Type 1, SOC 2 Type 2, ISO/IEC 27001
 tags:
 - Advertising

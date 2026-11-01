@@ -33,12 +33,12 @@ source_filename: bmat-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bmat.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar 13 10:30:16 2027 GMT\n  hsts: false\ndomains:\n- domain: bmat.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"godaddy.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 iodef \"mailto:it@bmat.com\"\n  - 0 issuewild \"amazontrust.com\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bmat/refs/heads/main/security/bmat-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bmat/security/bmat-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Music
 - Data
 - Analytics
-- RightsManagement
+- Rights Management
 - Platform
 ---

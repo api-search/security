@@ -8,25 +8,25 @@ api_specs:
   label: The Guardian Content API
   slug: guardian-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guardian/refs/heads/main/openapi/guardian-content-api-openapi.yml
+  url: https://artifacts.apis.io/guardian/openapi/guardian-content-api-openapi.yml
 - filename: guardian-editions-api-openapi.yml
   format: yaml
   label: The Guardian Editions API
   slug: guardian-editions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guardian/refs/heads/main/openapi/guardian-editions-api-openapi.yml
+  url: https://artifacts.apis.io/guardian/openapi/guardian-editions-api-openapi.yml
 - filename: guardian-sections-api-openapi.yml
   format: yaml
   label: The Guardian Sections API
   slug: guardian-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guardian/refs/heads/main/openapi/guardian-sections-api-openapi.yml
+  url: https://artifacts.apis.io/guardian/openapi/guardian-sections-api-openapi.yml
 - filename: guardian-tags-api-openapi.yml
   format: yaml
   label: The Guardian Tags API
   slug: guardian-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guardian/refs/heads/main/openapi/guardian-tags-api-openapi.yml
+  url: https://artifacts.apis.io/guardian/openapi/guardian-tags-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: guardian-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiKeyQuery\n  type: apiKey\n  in: query\n  parameter: api-key\n  description: API key obtained from https://open-platform.theguardian.com/access/. A test key\n    'test' is available for development.\n  sources:\n  - openapi/openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/guardian/refs/heads/main/authentication/guardian-authentication.yml
+source_yaml_url: https://artifacts.apis.io/guardian/authentication/guardian-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - News

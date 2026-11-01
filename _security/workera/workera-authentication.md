@@ -7,49 +7,49 @@ api_specs:
   label: Workera Audit Events API
   slug: workera-audit-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workera/refs/heads/main/openapi/workera-audit-events-api-openapi.yml
+  url: https://artifacts.apis.io/workera/openapi/workera-audit-events-api-openapi.yml
 - filename: workera-benchmarks-api-openapi.yml
   format: yaml
   label: Workera Benchmarks API
   slug: workera-benchmarks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workera/refs/heads/main/openapi/workera-benchmarks-api-openapi.yml
+  url: https://artifacts.apis.io/workera/openapi/workera-benchmarks-api-openapi.yml
 - filename: workera-capability-api-openapi.yml
   format: yaml
   label: Workera Capability API
   slug: workera-capability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workera/refs/heads/main/openapi/workera-capability-api-openapi.yml
+  url: https://artifacts.apis.io/workera/openapi/workera-capability-api-openapi.yml
 - filename: workera-domains-api-openapi.yml
   format: yaml
   label: Workera Domains API
   slug: workera-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workera/refs/heads/main/openapi/workera-domains-api-openapi.yml
+  url: https://artifacts.apis.io/workera/openapi/workera-domains-api-openapi.yml
 - filename: workera-ping-api-openapi.yml
   format: yaml
   label: Workera Ping API
   slug: workera-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workera/refs/heads/main/openapi/workera-ping-api-openapi.yml
+  url: https://artifacts.apis.io/workera/openapi/workera-ping-api-openapi.yml
 - filename: workera-programs-api-openapi.yml
   format: yaml
   label: Workera Programs API
   slug: workera-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workera/refs/heads/main/openapi/workera-programs-api-openapi.yml
+  url: https://artifacts.apis.io/workera/openapi/workera-programs-api-openapi.yml
 - filename: workera-scores-api-openapi.yml
   format: yaml
   label: Workera Scores API
   slug: workera-scores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workera/refs/heads/main/openapi/workera-scores-api-openapi.yml
+  url: https://artifacts.apis.io/workera/openapi/workera-scores-api-openapi.yml
 - filename: workera-self-ratings-api-openapi.yml
   format: yaml
   label: Workera Self Ratings API
   slug: workera-self-ratings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workera/refs/heads/main/openapi/workera-self-ratings-api-openapi.yml
+  url: https://artifacts.apis.io/workera/openapi/workera-self-ratings-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-09-04'\nmethod: searched\nsource: https://skills.
   \ tied to a Workera company/organization, are available only to enterprise customers,\n    and are issued on request through the customer's Workera CSM. There is no public developer signup\n    that yields an API key.\n  rotation: not_documented\nscopes:\n  model: key-restricted scopes\n  enforcement: >-\n    API keys can be restricted by scope. Endpoints that require a scope return HTTP 403 when the scope\n    is missing.\n  known_scopes:\n  - name: audit_events\n    required_by:\n    - GET /api/v1/audit_events\n    evidence: https://skills.workera.ai/api/docs\n  note: >-\n    Workera documents that scopes exist and names one (audit_events) but publishes no full scope\n    reference. This is NOT an OAuth 2.0 scope surface, so scopes/workera-scopes.yml is intentionally\n    absent; the scope model belongs to the API key.\ntransport:\n  https_required: true\n  statement: All API requests must be made authenticated and sent over HTTPS.\nmcp_authorization:\n  endpoint: https://skills.workera.ai/mcp\n\
   \  model: oauth2\n  issuer: https://skills.workera.ai\n  authorization_endpoint: https://skills.workera.ai/mcp/oauth/authorize\n  token_endpoint: https://skills.workera.ai/mcp/oauth/token\n  registration_endpoint: https://skills.workera.ai/mcp/oauth/register\n  grant_types:\n  - authorization_code\n  - refresh_token\n  pkce:\n  - S256\n  scopes_supported:\n  - mcp\n  discovery:\n  - https://skills.workera.ai/.well-known/oauth-authorization-server\n  - https://skills.workera.ai/.well-known/oauth-protected-resource/mcp\nwebhook_authentication:\n  mechanism: HMAC-SHA256 request signature\n  header: X-Workera-Signature\n  format: 'sha256=<hex digest of the raw request body keyed with the shared webhook secret>'\n  secret_provisioning: configured per company through the Workera CSM\n  source: https://skills.workera.ai/api/docs\nevidence:\n- url: https://skills.workera.ai/api/docs\n  status: 200\n- url: https://skills.workera.ai/api/docs/openapi\n  status: 200\n- url: https://skills.workera.ai/api/v1\n\
   \  status: 401\n  body: '{\"code\":\"unauthorized\",\"message\":\"You are not authorized to access this resource. Please provide a valid API key.\",\"type\":\"invalid_request_error\"}'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workera/refs/heads/main/authentication/workera-authentication.yml
+source_yaml_url: https://artifacts.apis.io/workera/authentication/workera-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Skills Intelligence

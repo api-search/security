@@ -5,49 +5,49 @@ api_specs:
   label: Fivetran Connections API
   slug: fivetran-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/openapi/fivetran-connections-api-openapi.yml
+  url: https://artifacts.apis.io/fivetran/openapi/fivetran-connections-api-openapi.yml
 - filename: fivetran-destinations-api-openapi.yml
   format: yaml
   label: Fivetran Destinations API
   slug: fivetran-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/openapi/fivetran-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/fivetran/openapi/fivetran-destinations-api-openapi.yml
 - filename: fivetran-groups-api-openapi.yml
   format: yaml
   label: Fivetran Groups API
   slug: fivetran-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/openapi/fivetran-groups-api-openapi.yml
+  url: https://artifacts.apis.io/fivetran/openapi/fivetran-groups-api-openapi.yml
 - filename: fivetran-metadata-api-openapi.yml
   format: yaml
   label: Fivetran Metadata API
   slug: fivetran-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/openapi/fivetran-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/fivetran/openapi/fivetran-metadata-api-openapi.yml
 - filename: fivetran-roles-api-openapi.yml
   format: yaml
   label: Fivetran Roles API
   slug: fivetran-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/openapi/fivetran-roles-api-openapi.yml
+  url: https://artifacts.apis.io/fivetran/openapi/fivetran-roles-api-openapi.yml
 - filename: fivetran-teams-api-openapi.yml
   format: yaml
   label: Fivetran Teams API
   slug: fivetran-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/openapi/fivetran-teams-api-openapi.yml
+  url: https://artifacts.apis.io/fivetran/openapi/fivetran-teams-api-openapi.yml
 - filename: fivetran-users-api-openapi.yml
   format: yaml
   label: Fivetran Users API
   slug: fivetran-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/openapi/fivetran-users-api-openapi.yml
+  url: https://artifacts.apis.io/fivetran/openapi/fivetran-users-api-openapi.yml
 - filename: fivetran-webhooks-api-openapi.yml
   format: yaml
   label: Fivetran Webhooks API
   slug: fivetran-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/openapi/fivetran-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/fivetran/openapi/fivetran-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ source_filename: fivetran-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fivetran.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 13:37:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: fivetran.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 19:24:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.fivetran.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 17 17:10:07 2026 GMT\n  hsts: null\ndomains:\n- domain: fivetran.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/security/fivetran-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fivetran/security/fivetran-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Connectors

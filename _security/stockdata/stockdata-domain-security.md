@@ -5,19 +5,19 @@ api_specs:
   label: StockData Entities API
   slug: stockdata-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/openapi/stockdata-entities-api-openapi.yml
+  url: https://artifacts.apis.io/stockdata/openapi/stockdata-entities-api-openapi.yml
 - filename: stockdata-news-api-openapi.yml
   format: yaml
   label: StockData News API
   slug: stockdata-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/openapi/stockdata-news-api-openapi.yml
+  url: https://artifacts.apis.io/stockdata/openapi/stockdata-news-api-openapi.yml
 - filename: stockdata-stock-data-api-openapi.yml
   format: yaml
   label: StockData Stock Data API
   slug: stockdata-stock-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/openapi/stockdata-stock-data-api-openapi.yml
+  url: https://artifacts.apis.io/stockdata/openapi/stockdata-stock-data-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,7 +50,7 @@ source_filename: stockdata-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.stockdata.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 20:42:26 2026 GMT\n  hsts: false\n- host: api.stockdata.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 20:42:26 2026 GMT\n  hsts: null\ndomains:\n- domain: stockdata.org\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/security/stockdata-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/stockdata/security/stockdata-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Finance

@@ -7,31 +7,31 @@ api_specs:
   label: Gemfury Accounts API
   slug: gemfury-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/openapi/gemfury-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/gemfury/openapi/gemfury-accounts-api-openapi.yml
 - filename: gemfury-members-api-openapi.yml
   format: yaml
   label: Gemfury Members API
   slug: gemfury-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/openapi/gemfury-members-api-openapi.yml
+  url: https://artifacts.apis.io/gemfury/openapi/gemfury-members-api-openapi.yml
 - filename: gemfury-packages-api-openapi.yml
   format: yaml
   label: Gemfury Packages API
   slug: gemfury-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/openapi/gemfury-packages-api-openapi.yml
+  url: https://artifacts.apis.io/gemfury/openapi/gemfury-packages-api-openapi.yml
 - filename: gemfury-tokens-api-openapi.yml
   format: yaml
   label: Gemfury Tokens API
   slug: gemfury-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/openapi/gemfury-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/gemfury/openapi/gemfury-tokens-api-openapi.yml
 - filename: gemfury-versions-api-openapi.yml
   format: yaml
   label: Gemfury Versions API
   slug: gemfury-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/openapi/gemfury-versions-api-openapi.yml
+  url: https://artifacts.apis.io/gemfury/openapi/gemfury-versions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: gemfury-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/gemfury-gemfury-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: API token obtained from the Gemfury dashboard\n  sources:\n  - openapi/gemfury-gemfury-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/authentication/gemfury-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gemfury/authentication/gemfury-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Package Repository

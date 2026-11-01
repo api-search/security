@@ -5,43 +5,43 @@ api_specs:
   label: Kora Balances API
   slug: korapay-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/openapi/korapay-balances-api-openapi.yml
+  url: https://artifacts.apis.io/korapay/openapi/korapay-balances-api-openapi.yml
 - filename: korapay-charges-api-openapi.yml
   format: yaml
   label: Kora Charges API
   slug: korapay-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/openapi/korapay-charges-api-openapi.yml
+  url: https://artifacts.apis.io/korapay/openapi/korapay-charges-api-openapi.yml
 - filename: korapay-currency-conversion-api-openapi.yml
   format: yaml
   label: Kora Currency Conversion API
   slug: korapay-currency-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/openapi/korapay-currency-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/korapay/openapi/korapay-currency-conversion-api-openapi.yml
 - filename: korapay-misc-api-openapi.yml
   format: yaml
   label: Kora Misc API
   slug: korapay-misc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/openapi/korapay-misc-api-openapi.yml
+  url: https://artifacts.apis.io/korapay/openapi/korapay-misc-api-openapi.yml
 - filename: korapay-payouts-api-openapi.yml
   format: yaml
   label: Kora Payouts API
   slug: korapay-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/openapi/korapay-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/korapay/openapi/korapay-payouts-api-openapi.yml
 - filename: korapay-refunds-api-openapi.yml
   format: yaml
   label: Kora Refunds API
   slug: korapay-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/openapi/korapay-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/korapay/openapi/korapay-refunds-api-openapi.yml
 - filename: korapay-virtual-bank-accounts-api-openapi.yml
   format: yaml
   label: Kora Virtual Bank Accounts API
   slug: korapay-virtual-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/openapi/korapay-virtual-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/korapay/openapi/korapay-virtual-bank-accounts-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -91,7 +91,7 @@ source_filename: korapay-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + API hosts\nhosts:\n- host: api.korapay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 12:38:39 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n- host: korapay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 13:37:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: korahq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 06:25:34 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.korapay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 19:30:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: korapay.com\n  dnssec: false\n  caa: []\n  spf: true\n  spf_policy: '-all'\n  dmarc: true\n  dmarc_policy: reject\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/security/korapay-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/korapay/security/korapay-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments

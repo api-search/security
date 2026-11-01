@@ -5,31 +5,31 @@ api_specs:
   label: Autodesk Construction Cloud Companies API
   slug: autodesk-construction-cloud-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/openapi/autodesk-construction-cloud-companies-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-construction-cloud/openapi/autodesk-construction-cloud-companies-api-openapi.yml
 - filename: autodesk-construction-cloud-issues-api-openapi.yml
   format: yaml
   label: Autodesk Construction Cloud Issues API
   slug: autodesk-construction-cloud-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/openapi/autodesk-construction-cloud-issues-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-construction-cloud/openapi/autodesk-construction-cloud-issues-api-openapi.yml
 - filename: autodesk-construction-cloud-projects-api-openapi.yml
   format: yaml
   label: Autodesk Construction Cloud Projects API
   slug: autodesk-construction-cloud-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/openapi/autodesk-construction-cloud-projects-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-construction-cloud/openapi/autodesk-construction-cloud-projects-api-openapi.yml
 - filename: autodesk-construction-cloud-users-api-openapi.yml
   format: yaml
   label: Autodesk Construction Cloud Users API
   slug: autodesk-construction-cloud-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/openapi/autodesk-construction-cloud-users-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-construction-cloud/openapi/autodesk-construction-cloud-users-api-openapi.yml
 - filename: autodesk-construction-cloud-issue-types-api-openapi.yml
   format: yaml
   label: Autodesk Construction Cloud Issue Types API
   slug: autodesk-construction-cloud-issue-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/openapi/autodesk-construction-cloud-issue-types-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-construction-cloud/openapi/autodesk-construction-cloud-issue-types-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: autodesk-construction-cloud-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.autodesk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 23:59:59 2026 GMT\n  hsts: null\n- host: aps.autodesk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: developer.api.autodesk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: autodesk.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/security/autodesk-construction-cloud-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/autodesk-construction-cloud/security/autodesk-construction-cloud-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Construction

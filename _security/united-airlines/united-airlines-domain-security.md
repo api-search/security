@@ -5,25 +5,25 @@ api_specs:
   label: United Airlines Booking API
   slug: united-airlines-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-airlines/refs/heads/main/openapi/united-airlines-booking-api-openapi.yml
+  url: https://artifacts.apis.io/united-airlines/openapi/united-airlines-booking-api-openapi.yml
 - filename: united-airlines-servicing-api-openapi.yml
   format: yaml
   label: United Airlines Servicing API
   slug: united-airlines-servicing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-airlines/refs/heads/main/openapi/united-airlines-servicing-api-openapi.yml
+  url: https://artifacts.apis.io/united-airlines/openapi/united-airlines-servicing-api-openapi.yml
 - filename: united-airlines-shopping-api-openapi.yml
   format: yaml
   label: United Airlines Shopping API
   slug: united-airlines-shopping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-airlines/refs/heads/main/openapi/united-airlines-shopping-api-openapi.yml
+  url: https://artifacts.apis.io/united-airlines/openapi/united-airlines-shopping-api-openapi.yml
 - filename: united-airlines-status-api-openapi.yml
   format: yaml
   label: United Airlines Status API
   slug: united-airlines-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-airlines/refs/heads/main/openapi/united-airlines-status-api-openapi.yml
+  url: https://artifacts.apis.io/united-airlines/openapi/united-airlines-status-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: united-airlines-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.united.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 23:59:59 2026 GMT\n  hsts: null\n- host: united.business\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 03:51:17 2026 GMT\n  hsts: false\n- host: api.united.com\n  https: false\ndomains:\n- domain: united.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: united.business\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/united-airlines/refs/heads/main/security/united-airlines-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/united-airlines/security/united-airlines-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Airlines

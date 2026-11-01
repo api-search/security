@@ -8,19 +8,19 @@ api_specs:
   label: Golden Recursion Entity API
   slug: golden-recursion-entity-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/openapi/golden-recursion-entity-api-api-openapi.yml
+  url: https://artifacts.apis.io/golden-recursion/openapi/golden-recursion-entity-api-api-openapi.yml
 - filename: golden-recursion-query-api-api-openapi.yml
   format: yaml
   label: Golden Recursion Query API
   slug: golden-recursion-query-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/openapi/golden-recursion-query-api-api-openapi.yml
+  url: https://artifacts.apis.io/golden-recursion/openapi/golden-recursion-query-api-api-openapi.yml
 - filename: golden-recursion-schema-api-api-openapi.yml
   format: yaml
   label: Golden Recursion Schema API
   slug: golden-recursion-schema-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/openapi/golden-recursion-schema-api-api-openapi.yml
+  url: https://artifacts.apis.io/golden-recursion/openapi/golden-recursion-schema-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -47,7 +47,7 @@ source_filename: golden-recursion-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/golden-recursion-openapi-original.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: apikey\n  sources:\n  - openapi/golden-recursion-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/authentication/golden-recursion-authentication.yml
+source_yaml_url: https://artifacts.apis.io/golden-recursion/authentication/golden-recursion-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

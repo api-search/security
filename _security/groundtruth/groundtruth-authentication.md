@@ -8,109 +8,121 @@ api_specs:
   label: GroundTruth Accounts API
   slug: groundtruth-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-accounts-api-openapi.yml
 - filename: groundtruth-ad-groups-api-openapi.yml
   format: yaml
   label: GroundTruth Ad Groups API
   slug: groundtruth-ad-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-ad-groups-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-ad-groups-api-openapi.yml
 - filename: groundtruth-audiences-api-openapi.yml
   format: yaml
   label: GroundTruth Audiences API
   slug: groundtruth-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-audiences-api-openapi.yml
 - filename: groundtruth-campaigns-api-openapi.yml
   format: yaml
   label: GroundTruth Campaigns API
   slug: groundtruth-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-campaigns-api-openapi.yml
 - filename: groundtruth-creative-assets-api-openapi.yml
   format: yaml
   label: GroundTruth Creative Assets API
   slug: groundtruth-creative-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-creative-assets-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-creative-assets-api-openapi.yml
 - filename: groundtruth-creatives-api-openapi.yml
   format: yaml
   label: GroundTruth Creatives API
   slug: groundtruth-creatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-creatives-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-creatives-api-openapi.yml
 - filename: groundtruth-demand-api-openapi.yml
   format: yaml
   label: GroundTruth Demand API
   slug: groundtruth-demand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-demand-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-demand-api-openapi.yml
 - filename: groundtruth-direct-mail-api-openapi.yml
   format: yaml
   label: GroundTruth Direct Mail API
   slug: groundtruth-direct-mail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-direct-mail-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-direct-mail-api-openapi.yml
 - filename: groundtruth-health-api-openapi.yml
   format: yaml
   label: GroundTruth Health API
   slug: groundtruth-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-health-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-health-api-openapi.yml
 - filename: groundtruth-jobs-api-openapi.yml
   format: yaml
   label: GroundTruth Jobs API
   slug: groundtruth-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-jobs-api-openapi.yml
 - filename: groundtruth-miscellaneous-api-openapi.yml
   format: yaml
   label: GroundTruth Miscellaneous API
   slug: groundtruth-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-miscellaneous-api-openapi.yml
 - filename: groundtruth-organizations-api-openapi.yml
   format: yaml
   label: GroundTruth Organizations API
   slug: groundtruth-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-organizations-api-openapi.yml
 - filename: groundtruth-reporting-api-openapi.yml
   format: yaml
   label: GroundTruth Reporting API
   slug: groundtruth-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-reporting-api-openapi.yml
 - filename: groundtruth-search-api-openapi.yml
   format: yaml
   label: GroundTruth Search API
   slug: groundtruth-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-search-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-search-api-openapi.yml
 - filename: groundtruth-static-api-openapi.yml
   format: yaml
   label: GroundTruth Static API
   slug: groundtruth-static-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-static-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-static-api-openapi.yml
 - filename: groundtruth-tenants-api-openapi.yml
   format: yaml
   label: GroundTruth Tenants API
   slug: groundtruth-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-tenants-api-openapi.yml
 - filename: groundtruth-upload-api-openapi.yml
   format: yaml
   label: GroundTruth Upload API
   slug: groundtruth-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-upload-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-upload-api-openapi.yml
 - filename: groundtruth-users-api-openapi.yml
   format: yaml
   label: GroundTruth Users API
   slug: groundtruth-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-users-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-users-api-openapi.yml
+- filename: groundtruth-location-groups-api-openapi.yml
+  format: yaml
+  label: GroundTruth Location Groups API
+  slug: groundtruth-location-groups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-location-groups-api-openapi.yml
+- filename: groundtruth-pois-api-openapi.yml
+  format: yaml
+  label: GroundTruth POIs API
+  slug: groundtruth-pois-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-pois-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -149,7 +161,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: openapi/groundtruth-ads-manager-openapi.yml + openapi/groundtruth-reporting-openapi.yml\ndocs: https://api-docs.groundtruth.com/welcome-824669m0\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  model: >-\n    Paired-header API key. Both GroundTruth API surfaces require the SAME two headers together —\n    X-GT-USER-ID (the calling user's identifier) and X-GT-API-KEY (the secret). Neither header is\n    sufficient on its own. There is no OAuth 2.0, OIDC, mutual TLS or bearer-token flow on either\n    surface, and therefore no scope surface (scopes/ is intentionally absent).\n  credential_issuance: >-\n    Not self-serve. The provider's own reference states \"API credentials are provided on a request\n    basis\", and the help centre directs reporting-API users to contact support to request\n    credentials. There is no signup, key-provisioning or key-rotation endpoint in either spec.\nschemes:\n- name: api-key\n\
   \  type: apiKey\n  in: header\n  parameter: X-GT-API-KEY\n  description: Secret API key issued by GroundTruth on request.\n  sources:\n  - openapi/groundtruth-ads-manager-openapi.yml\n  - openapi/groundtruth-reporting-openapi.yml\n- name: user-id\n  type: apiKey\n  in: header\n  parameter: X-GT-USER-ID\n  description: Identifier of the user the key is issued to; sent alongside X-GT-API-KEY.\n  sources:\n  - openapi/groundtruth-ads-manager-openapi.yml\n  - openapi/groundtruth-reporting-openapi.yml\ndeclared_but_undefined:\n- name: session\n  used_by_operations: 248\n  note: >-\n    248 of the 259 Ads Manager operations list `session` in their `security` requirement, but\n    `session` is NOT defined in components.securitySchemes (only `api-key` and `user-id` are).\n    This is a real defect in the published contract: a generated client cannot resolve the scheme.\n    It most likely refers to the browser session cookie the ads.groundtruth.com console uses.\n    Recorded as observed; not\
   \ resolved, and not invented.\nobserved:\n- probe: GET https://api-public.groundtruth.com/accounts?tenant_id=1&organization_id=1\n  http_status: 401\n  body: '{\"errors\":[{\"code\":\"UNAUTHENTICATED\",\"message\":\"Sorry, you need to be authenticated to perform this operation.\"}]}'\n  fetched: '2026-08-12'\n- probe: GET https://reporting.groundtruth.com/demand/v1/campaign/1/daily\n  http_status: 401\n  header: 'x-amzn-ErrorType: UnauthorizedException'\n  fetched: '2026-08-12'\nunauthenticated_operations:\n  count: 11\n  note: >-\n    11 Ads Manager operations carry no `security` block at all (including GET /health and\n    GET /version). GET https://api-public.groundtruth.com/health returned 200 \"ok\" anonymously.\ncross_links:\n  conventions: conventions/groundtruth-conventions.yml\n  errors: errors/groundtruth-problem-types.yml\n  conformance: conformance/groundtruth-conformance.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/authentication/groundtruth-authentication.yml
+source_yaml_url: https://artifacts.apis.io/groundtruth/authentication/groundtruth-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company

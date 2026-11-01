@@ -34,7 +34,7 @@ source_filename: acadia-healthcare-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.acadiahealthcare.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  4 23:59:59 2027 GMT\n  hsts: false\n- host: developer.acadiahealthcare.com\n  https: false\n- host: api.acadiahealthcare.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 13 15:59:27 2026 GMT\n  hsts: null\ndomains:\n- domain: acadiahealthcare.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acadia-healthcare/refs/heads/main/security/acadia-healthcare-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/acadia-healthcare/security/acadia-healthcare-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Behavioral Health

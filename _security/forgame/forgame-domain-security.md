@@ -24,7 +24,7 @@ source_filename: forgame-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: forgame.com\n  https: false\ndomains:\n- domain: forgame.com\n  dnssec: true\n  caa:\n  - hk836.pc51.com.\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forgame/refs/heads/main/security/forgame-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/forgame/security/forgame-domain-security.yml
 summary_line: DNSSEC
 tags:
 - Company

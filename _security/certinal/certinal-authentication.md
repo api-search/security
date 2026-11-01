@@ -7,13 +7,13 @@ api_specs:
   label: Certinal Auth API
   slug: certinal-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certinal/refs/heads/main/openapi/certinal-auth-api-openapi.yml
+  url: https://artifacts.apis.io/certinal/openapi/certinal-auth-api-openapi.yml
 - filename: certinal-rssp-api-openapi.yml
   format: yaml
   label: Certinal Rssp API
   slug: certinal-rssp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certinal/refs/heads/main/openapi/certinal-rssp-api-openapi.yml
+  url: https://artifacts.apis.io/certinal/openapi/certinal-rssp-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -41,7 +41,7 @@ source_heading: Authentication Profile
 source_url: https://certinal.stoplight.io/docs/api/b6b6c2d4906e9-authentication
 source_yaml: "generated: '2026-10-16'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://certinal.stoplight.io/docs/api/b6b6c2d4906e9-authentication\nsources:\n- https://certinal.stoplight.io/docs/api/b6b6c2d4906e9-authentication\n- https://certinal.stoplight.io/docs/api/q8v4vixymc0m7-o-auth-2-0-client-credentials-grant-flow-api\n- https://certinal.stoplight.io/docs/api/25t2fujer3i1u-remote-signing-with-email-or-sms-based-authentication\n- https://certinal.stoplight.io/docs/api/3fr7rwlmnk53b-in-person-signing-in-presence-of-a-staff\nschemes:\n- type: oauth2\n  name: OAuth2 Client Credentials\n  evidence: Certinal eSign supports the OAuth2 Client Credentials Grant to generate your access token with ease.\n  flows:\n  - client_credentials\n  token_url: https://esign-staging.certinal.com/auth/v1/token\n  how_to_obtain: Log in to your Certinal eSign account, go to the More tab, click Create Custom Integration, and copy your Client ID, Secret,\n    and API URL.\n\
   docs: https://certinal.stoplight.io/docs/api/b6b6c2d4906e9-authentication\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/certinal/refs/heads/main/authentication/certinal-authentication.yml
+source_yaml_url: https://artifacts.apis.io/certinal/authentication/certinal-authentication.yml
 summary_line: 1 scheme
 tags:
 - Healthcare

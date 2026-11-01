@@ -27,7 +27,7 @@ source_filename: regis-healthcare-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: regis.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 13 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: regis.com.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/regis-healthcare/refs/heads/main/security/regis-healthcare-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/regis-healthcare/security/regis-healthcare-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

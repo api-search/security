@@ -32,7 +32,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://api.infogram.com/\ndocs: https://api.infogram.com/\nsummary:\n  types:\n  - http\n  http_schemes:\n  - bearer\n  api_key_in: []\n  oauth2_flows: []\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    API requests authenticate with a personal API token created in the user's\n    Infogram account settings, passed as an \"Authorization: Bearer <token>\"\n    header on every request. Tokens inherit the permissions of the account that\n    generated them.\n  location: header\n  header: Authorization\n  format: Bearer <token>\n  token_source: Infogram account settings\n  sources:\n  - https://api.infogram.com/\nnotes: >-\n  No OAuth2/OpenID Connect flows are documented for the current API — access is\n  personal bearer tokens only, so no OAuth scopes artifact applies. The legacy\n  infogr.am API used an API key + shared-secret HMAC signature model; the client\n  libraries in packages/ target\
   \ that legacy scheme.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infogram/refs/heads/main/authentication/infogram-authentication.yml
+source_yaml_url: https://artifacts.apis.io/infogram/authentication/infogram-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

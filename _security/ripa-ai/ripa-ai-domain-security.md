@@ -24,7 +24,7 @@ source_filename: ripa-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: oriongeo.com\n  https: false\ndomains:\n- domain: oriongeo.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ripa-ai/refs/heads/main/security/ripa-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ripa-ai/security/ripa-ai-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

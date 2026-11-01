@@ -26,7 +26,7 @@ source_filename: teem-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: teem.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 18:10:52 2026 GMT\n  hsts: false\ndomains:\n- domain: teem.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teem/refs/heads/main/security/teem-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/teem/security/teem-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

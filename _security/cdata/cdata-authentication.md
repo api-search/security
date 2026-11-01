@@ -7,85 +7,85 @@ api_specs:
   label: CData Connect AI MCP Server
   slug: mcp
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/cdata/openapi/cdata-mcp-api-openapi.yml
 - filename: cdata-account-api-openapi.yml
   format: yaml
   label: CData Account API
   slug: cdata-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-account-api-openapi.yml
+  url: https://artifacts.apis.io/cdata/openapi/cdata-account-api-openapi.yml
 - filename: cdata-cache-api-openapi.yml
   format: yaml
   label: CData Cache API
   slug: cdata-cache-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-cache-api-openapi.yml
+  url: https://artifacts.apis.io/cdata/openapi/cdata-cache-api-openapi.yml
 - filename: cdata-connection-api-openapi.yml
   format: yaml
   label: CData Connection API
   slug: cdata-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-connection-api-openapi.yml
+  url: https://artifacts.apis.io/cdata/openapi/cdata-connection-api-openapi.yml
 - filename: cdata-data-explorer-api-openapi.yml
   format: yaml
   label: CData Data Explorer API
   slug: cdata-data-explorer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-data-explorer-api-openapi.yml
+  url: https://artifacts.apis.io/cdata/openapi/cdata-data-explorer-api-openapi.yml
 - filename: cdata-job-api-openapi.yml
   format: yaml
   label: CData Job API
   slug: cdata-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-job-api-openapi.yml
+  url: https://artifacts.apis.io/cdata/openapi/cdata-job-api-openapi.yml
 - filename: cdata-jobs-api-openapi.yml
   format: yaml
   label: CData Jobs API
   slug: cdata-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/cdata/openapi/cdata-jobs-api-openapi.yml
 - filename: cdata-log-api-openapi.yml
   format: yaml
   label: CData Log API
   slug: cdata-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-log-api-openapi.yml
+  url: https://artifacts.apis.io/cdata/openapi/cdata-log-api-openapi.yml
 - filename: cdata-metadata-api-openapi.yml
   format: yaml
   label: CData Metadata API
   slug: cdata-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/cdata/openapi/cdata-metadata-api-openapi.yml
 - filename: cdata-query-api-openapi.yml
   format: yaml
   label: CData Query API
   slug: cdata-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-query-api-openapi.yml
+  url: https://artifacts.apis.io/cdata/openapi/cdata-query-api-openapi.yml
 - filename: cdata-service-accounts-api-openapi.yml
   format: yaml
   label: CData Service Accounts API
   slug: cdata-service-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-service-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/cdata/openapi/cdata-service-accounts-api-openapi.yml
 - filename: cdata-users-api-openapi.yml
   format: yaml
   label: CData Users API
   slug: cdata-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-users-api-openapi.yml
+  url: https://artifacts.apis.io/cdata/openapi/cdata-users-api-openapi.yml
 - filename: cdata-odata-api-openapi.yml
   format: yaml
   label: CData O Data API
   slug: cdata-odata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-odata-api-openapi.yml
+  url: https://artifacts.apis.io/cdata/openapi/cdata-odata-api-openapi.yml
 - filename: cdata-open-api-api-openapi.yml
   format: yaml
   label: CData Open API
   slug: cdata-open-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-open-api-api-openapi.yml
+  url: https://artifacts.apis.io/cdata/openapi/cdata-open-api-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -138,7 +138,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\ndocs:\n- https://docs.c
   \    methods:\n    - name: JWT bearer\n      note: >-\n        All requests to the Connect AI Embed API authenticate with a JSON Web Token minted\n        by the ISV. Matches the BearerAuth scheme in the Embed specs above.\n  mcp:\n    url: https://docs.cloud.cdata.com/en/API/MCP.md\n    methods:\n    - name: OAuth 2.1 (authorization code + PKCE)\n      authorization_server: https://mcp.cloud.cdata.com\n      authorization_endpoint: https://mcp.cloud.cdata.com/authorize\n      token_endpoint: https://mcp.cloud.cdata.com/token\n      registration_endpoint: https://mcp.cloud.cdata.com/register\n      code_challenge_methods: [S256]\n      token_endpoint_auth_methods: [none]\n      scopes: [openid, profile, email, offline_access]\n      discovery: well-known/cdata-mcp-oauth-authorization-server.json\n      protected_resource_metadata: well-known/cdata-mcp-oauth-protected-resource.json\n      note: >-\n        A live anonymous POST to https://mcp.cloud.cdata.com/mcp returns HTTP 401 with a\n\
   \        correct RFC 9728 WWW-Authenticate challenge naming the resource_metadata document.\n        This is the strongest auth signal in the record: it was observed, not read.\n    - name: HTTP Basic\n      note: Connect AI user id plus PAT, for MCP clients that do not implement OAuth.\nenterprise_identity:\n  sso:\n    url: https://docs.cloud.cdata.com/en/SCIM/SSO.md\n    note: Enterprise SSO with multiple identity providers; listed as a Business-tier feature.\n  scim:\n    url: https://docs.cloud.cdata.com/en/SCIM.md\n    version: '2.0'\n    note: >-\n      SCIM 2.0 user and group provisioning from Okta, Entra ID and Ping Identity, plus\n      Just-in-Time provisioning on first SSO login. The Management API exposes\n      `scim_managed` on user records and refuses name updates on SCIM-managed users,\n      because the IdP owns those fields. See conformance/cdata-conformance.yml.\n  passthrough_identity:\n    note: >-\n      Business tier passes each end user's own credentials through\
   \ to the source system at\n      query time, so an agent inherits that user's permissions rather than sharing a\n      service credential. Published on https://www.cdata.com/ai/pricing/.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/authentication/cdata-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cdata/authentication/cdata-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Data

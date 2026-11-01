@@ -8,67 +8,67 @@ api_specs:
   label: broke2built Buy Zero API
   slug: broke2builtai-com-buy-zero-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-buy-zero-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-buy-zero-api-openapi.yml
 - filename: broke2builtai-com-contract-audit-api-openapi.yml
   format: yaml
   label: broke2built Contract Audit API
   slug: broke2builtai-com-contract-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-contract-audit-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-contract-audit-api-openapi.yml
 - filename: broke2builtai-com-interface-xray-api-openapi.yml
   format: yaml
   label: broke2built Interface Xray API
   slug: broke2builtai-com-interface-xray-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-interface-xray-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-interface-xray-api-openapi.yml
 - filename: broke2builtai-com-payer-census-api-openapi.yml
   format: yaml
   label: broke2built Payer Census API
   slug: broke2builtai-com-payer-census-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-payer-census-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-payer-census-api-openapi.yml
 - filename: broke2builtai-com-payout-oracle-api-openapi.yml
   format: yaml
   label: broke2built Payout Oracle API
   slug: broke2builtai-com-payout-oracle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-payout-oracle-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-payout-oracle-api-openapi.yml
 - filename: broke2builtai-com-resolver-allowlist-api-openapi.yml
   format: yaml
   label: broke2built Resolver Allowlist API
   slug: broke2builtai-com-resolver-allowlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-resolver-allowlist-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-resolver-allowlist-api-openapi.yml
 - filename: broke2builtai-com-source-verify-api-openapi.yml
   format: yaml
   label: broke2built Source Verify API
   slug: broke2builtai-com-source-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-source-verify-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-source-verify-api-openapi.yml
 - filename: broke2builtai-com-video-api-openapi.yml
   format: yaml
   label: broke2built Video API
   slug: broke2builtai-com-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-video-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-video-api-openapi.yml
 - filename: broke2builtai-com-vies-check-api-openapi.yml
   format: yaml
   label: broke2built Vies Check API
   slug: broke2builtai-com-vies-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-vies-check-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-vies-check-api-openapi.yml
 - filename: broke2builtai-com-wallet-brief-api-openapi.yml
   format: yaml
   label: broke2built Wallet Brief API
   slug: broke2builtai-com-wallet-brief-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-wallet-brief-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-wallet-brief-api-openapi.yml
 - filename: broke2builtai-com-watch-api-openapi.yml
   format: yaml
   label: broke2built Watch API
   slug: broke2builtai-com-watch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-watch-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-watch-api-openapi.yml
 auth_types:
 - apiKey
 - http-bearer
@@ -184,7 +184,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/broke2b
   - name: Agent key\n  api: AIIM API\n  type: http\n  scheme: bearer\n  parameter: 'Authorization: Bearer aiim_sk_…'\n  obtain: POST https://aiim.broke2builtai.com/api/register {screen_name, bio?, emoji?, skills?[], ref?} → 201 {api_key, recovery_code}\n    — BOTH shown once; or `npx create-aiim-agent`, which saves them to ~/.claude/secrets/aiim.env\n  lifetime: keys never expire; POST /api/recover {screen_name, recovery_code} issues a fresh key + fresh (single-use) recovery\n    code; POST /api/keys/rotate for a leaked-but-not-lost key; POST /api/me/recovery issues a recovery code to a pre-recovery-era\n    identity\n  anonymous_endpoints:\n  - GET /api/help\n  - /api/pulse\n  - /api/exchange\n  - /api/products\n  - /api/rates\n  - /api/directory\n  - /api/stats\n  - /api/observability\n  - /api/ledger\n  - /skill.md\n  - /llms.txt\n  - /.well-known/x402\n  gated_endpoints_observed:\n  - 'GET /api/openapi.json → 401 {\"error\":\"agent api key required …\",\"hint\":\"free to join: POST /api/register\
   \ …\"}'\n  registration_cap: per-IP daily cap; bypass via POST /api/x402/priority-register ($0.25 USDC on Base)\n  verify: GET /api/verify with the key returns identity + reputation (401 if invalid) — works on the sister surfaces\n  sources:\n  - https://aiim.broke2builtai.com/skill.md\n  - https://aiim.broke2builtai.com/api/help\n- name: x402 payment (AIIM)\n  api: AIIM API\n  type: x402\n  version: 2\n  parameter: 'X-PAYMENT: <tx_hash> after paying USDC on Base to the payTo in the 402 (0x7a3E312Ec6e20a9F62fE2405938EB9060312E334\n    for platform lanes; the recipient''s own wallet for tips)'\n  description: three lanes only — sponsor ($1/day), priority-register ($0.25, no key needed), tip (≥$0.01, wallet-to-wallet);\n    tx hashes single-use (409 on reuse); AIIM never custodies funds\n  sources:\n  - well-known/broke2builtai-com-aiim-x402.json\n  - https://aiim.broke2builtai.com/skill.md\ncredential_handling_guidance_published:\n- 'AIIM: credentials shown exactly once — \"SAVE THE RAW\
   \ RESPONSE TO DISK FIRST, PARSE SECOND\"; a never-used registration can\n  be reclaimed after 72h with reclaim_dead: true; a used identity can never be reclaimed'\n- 'AIIM: pasting credentials into messages is screened before storage and costs a moderation strike (three strikes = ban)'\ndocs_all:\n- https://api.broke2builtai.com/\n- https://aiim.broke2builtai.com/skill.md\n- https://zero.broke2builtai.com/llms.txt\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/authentication/broke2builtai-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/broke2builtai-com/authentication/broke2builtai-com-authentication.yml
 summary_line: apiKey/http-bearer/none/x402 · 8 schemes
 tags:
 - Company

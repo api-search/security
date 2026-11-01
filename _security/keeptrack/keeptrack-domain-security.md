@@ -5,25 +5,25 @@ api_specs:
   label: KeepTrack Catalog API
   slug: keeptrack-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keeptrack/refs/heads/main/openapi/keeptrack-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/keeptrack/openapi/keeptrack-catalog-api-openapi.yml
 - filename: keeptrack-orbits-api-openapi.yml
   format: yaml
   label: KeepTrack Orbits API
   slug: keeptrack-orbits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keeptrack/refs/heads/main/openapi/keeptrack-orbits-api-openapi.yml
+  url: https://artifacts.apis.io/keeptrack/openapi/keeptrack-orbits-api-openapi.yml
 - filename: keeptrack-positions-api-openapi.yml
   format: yaml
   label: KeepTrack Positions API
   slug: keeptrack-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keeptrack/refs/heads/main/openapi/keeptrack-positions-api-openapi.yml
+  url: https://artifacts.apis.io/keeptrack/openapi/keeptrack-positions-api-openapi.yml
 - filename: keeptrack-satellites-api-openapi.yml
   format: yaml
   label: KeepTrack Satellites API
   slug: keeptrack-satellites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keeptrack/refs/heads/main/openapi/keeptrack-satellites-api-openapi.yml
+  url: https://artifacts.apis.io/keeptrack/openapi/keeptrack-satellites-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -63,7 +63,7 @@ source_filename: keeptrack-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.keeptrack.space\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 04:43:46 2026 GMT\n  hsts: false\n- host: api.keeptrack.space\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 05:06:40 2026 GMT\n  hsts: false\ndomains:\n- domain: keeptrack.space\n  dnssec: false\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keeptrack/refs/heads/main/security/keeptrack-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/keeptrack/security/keeptrack-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Satellite

@@ -5,19 +5,19 @@ api_specs:
   label: Scalapay Instore API
   slug: scalapay-instore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalapay/refs/heads/main/openapi/scalapay-instore-api-openapi.yml
+  url: https://artifacts.apis.io/scalapay/openapi/scalapay-instore-api-openapi.yml
 - filename: scalapay-orders-api-openapi.yml
   format: yaml
   label: Scalapay Orders API
   slug: scalapay-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalapay/refs/heads/main/openapi/scalapay-orders-api-openapi.yml
+  url: https://artifacts.apis.io/scalapay/openapi/scalapay-orders-api-openapi.yml
 - filename: scalapay-reporting-api-openapi.yml
   format: yaml
   label: Scalapay Reporting API
   slug: scalapay-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalapay/refs/heads/main/openapi/scalapay-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/scalapay/openapi/scalapay-reporting-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: scalapay-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.scalapay.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 30 23:59:59 2026 GMT\n  hsts: false\n- host: integration.api.scalapay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 11 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.scalapay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 11 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: scalapay.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scalapay/refs/heads/main/security/scalapay-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/scalapay/security/scalapay-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Payments

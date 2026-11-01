@@ -5,7 +5,7 @@ api_specs:
   label: Skymerse Notams API
   slug: skymerse-notams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skymerse/refs/heads/main/openapi/skymerse-notams-api-openapi.yml
+  url: https://artifacts.apis.io/skymerse/openapi/skymerse-notams-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -34,7 +34,7 @@ source_filename: skymerse-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.notamify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 12:48:37 2026 GMT\n  hsts: null\ndomains:\n- domain: notamify.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skymerse/refs/heads/main/security/skymerse-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/skymerse/security/skymerse-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

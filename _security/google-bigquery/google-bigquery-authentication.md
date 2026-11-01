@@ -7,43 +7,43 @@ api_specs:
   label: Google BigQuery Datasets API
   slug: google-bigquery-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-bigquery/refs/heads/main/openapi/google-bigquery-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/google-bigquery/openapi/google-bigquery-datasets-api-openapi.yml
 - filename: google-bigquery-jobs-api-openapi.yml
   format: yaml
   label: Google BigQuery Jobs API
   slug: google-bigquery-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-bigquery/refs/heads/main/openapi/google-bigquery-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/google-bigquery/openapi/google-bigquery-jobs-api-openapi.yml
 - filename: google-bigquery-models-api-openapi.yml
   format: yaml
   label: Google BigQuery Models API
   slug: google-bigquery-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-bigquery/refs/heads/main/openapi/google-bigquery-models-api-openapi.yml
+  url: https://artifacts.apis.io/google-bigquery/openapi/google-bigquery-models-api-openapi.yml
 - filename: google-bigquery-projects-api-openapi.yml
   format: yaml
   label: Google BigQuery Projects API
   slug: google-bigquery-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-bigquery/refs/heads/main/openapi/google-bigquery-projects-api-openapi.yml
+  url: https://artifacts.apis.io/google-bigquery/openapi/google-bigquery-projects-api-openapi.yml
 - filename: google-bigquery-routines-api-openapi.yml
   format: yaml
   label: Google BigQuery Routines API
   slug: google-bigquery-routines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-bigquery/refs/heads/main/openapi/google-bigquery-routines-api-openapi.yml
+  url: https://artifacts.apis.io/google-bigquery/openapi/google-bigquery-routines-api-openapi.yml
 - filename: google-bigquery-tabledata-api-openapi.yml
   format: yaml
   label: Google BigQuery Tabledata API
   slug: google-bigquery-tabledata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-bigquery/refs/heads/main/openapi/google-bigquery-tabledata-api-openapi.yml
+  url: https://artifacts.apis.io/google-bigquery/openapi/google-bigquery-tabledata-api-openapi.yml
 - filename: google-bigquery-tables-api-openapi.yml
   format: yaml
   label: Google BigQuery Tables API
   slug: google-bigquery-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-bigquery/refs/heads/main/openapi/google-bigquery-tables-api-openapi.yml
+  url: https://artifacts.apis.io/google-bigquery/openapi/google-bigquery-tables-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -74,7 +74,7 @@ source_filename: google-bigquery-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bigquery-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 2\n  sources:\n  - openapi/bigquery-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-bigquery/refs/heads/main/authentication/google-bigquery-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-bigquery/authentication/google-bigquery-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Analytics

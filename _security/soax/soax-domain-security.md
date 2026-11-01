@@ -5,31 +5,31 @@ api_specs:
   label: SOAX Web Data API
   slug: soax-web-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/openapi/soax-web-data-api-openapi.yml
+  url: https://artifacts.apis.io/soax/openapi/soax-web-data-api-openapi.yml
 - filename: soax-ecommerce-data-api-openapi.yml
   format: yaml
   label: SOAX Ecommerce Data API
   slug: soax-ecommerce-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/openapi/soax-ecommerce-data-api-openapi.yml
+  url: https://artifacts.apis.io/soax/openapi/soax-ecommerce-data-api-openapi.yml
 - filename: soax-geo-targeting-api-openapi.yml
   format: yaml
   label: SOAX Geo Targeting API
   slug: soax-geo-targeting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/openapi/soax-geo-targeting-api-openapi.yml
+  url: https://artifacts.apis.io/soax/openapi/soax-geo-targeting-api-openapi.yml
 - filename: soax-ip-whitelist-api-openapi.yml
   format: yaml
   label: SOAX IP Whitelist API
   slug: soax-ip-whitelist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/openapi/soax-ip-whitelist-api-openapi.yml
+  url: https://artifacts.apis.io/soax/openapi/soax-ip-whitelist-api-openapi.yml
 - filename: soax-serp-data-api-openapi.yml
   format: yaml
   label: SOAX SERP Data API
   slug: soax-serp-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/openapi/soax-serp-data-api-openapi.yml
+  url: https://artifacts.apis.io/soax/openapi/soax-serp-data-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -75,7 +75,7 @@ source_filename: soax-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: soax.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 18:44:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: partner.api.soax.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 24 01:56:22 2026 GMT\n  hsts: null\n- host: scraping.soax.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 03:12:09 2026 GMT\n  hsts: null\ndomains:\n- domain: soax.com\n  dnssec: false\n  caa:\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/security/soax-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/soax/security/soax-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Proxy

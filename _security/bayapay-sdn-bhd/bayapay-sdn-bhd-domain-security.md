@@ -27,7 +27,7 @@ source_filename: bayapay-sdn-bhd-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bayapay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 14:54:33 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\ndomains:\n- domain: bayapay.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bayapay-sdn-bhd/refs/heads/main/security/bayapay-sdn-bhd-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bayapay-sdn-bhd/security/bayapay-sdn-bhd-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
@@ -35,7 +35,7 @@ tags:
 - Fintech
 - Prepaid Cards
 - Expense Management
-- Fleet
+- Fleet Management
 - Mastercard
 - Malaysia
 - Asia Pacific

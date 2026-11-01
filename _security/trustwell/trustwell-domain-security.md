@@ -5,37 +5,37 @@ api_specs:
   label: Trustwell Compliance API
   slug: trustwell-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/openapi/trustwell-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/trustwell/openapi/trustwell-compliance-api-openapi.yml
 - filename: trustwell-products-api-openapi.yml
   format: yaml
   label: Trustwell Products API
   slug: trustwell-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/openapi/trustwell-products-api-openapi.yml
+  url: https://artifacts.apis.io/trustwell/openapi/trustwell-products-api-openapi.yml
 - filename: trustwell-quality-api-openapi.yml
   format: yaml
   label: Trustwell Quality API
   slug: trustwell-quality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/openapi/trustwell-quality-api-openapi.yml
+  url: https://artifacts.apis.io/trustwell/openapi/trustwell-quality-api-openapi.yml
 - filename: trustwell-recalls-api-openapi.yml
   format: yaml
   label: Trustwell Recalls API
   slug: trustwell-recalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/openapi/trustwell-recalls-api-openapi.yml
+  url: https://artifacts.apis.io/trustwell/openapi/trustwell-recalls-api-openapi.yml
 - filename: trustwell-suppliers-api-openapi.yml
   format: yaml
   label: Trustwell Suppliers API
   slug: trustwell-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/openapi/trustwell-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/trustwell/openapi/trustwell-suppliers-api-openapi.yml
 - filename: trustwell-traceability-api-openapi.yml
   format: yaml
   label: Trustwell Traceability API
   slug: trustwell-traceability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/openapi/trustwell-traceability-api-openapi.yml
+  url: https://artifacts.apis.io/trustwell/openapi/trustwell-traceability-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: trustwell-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.trustwell.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 08:39:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.trustwell.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 13 23:59:59 2026 GMT\n  hsts: false\n- host: api.trustwell.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 11 16:11:50 2026 GMT\n  hsts: null\ndomains:\n- domain: trustwell.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/security/trustwell-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trustwell/security/trustwell-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Food Industry

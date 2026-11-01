@@ -5,55 +5,55 @@ api_specs:
   label: Help Scout Conversations API
   slug: helpscout-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/openapi/helpscout-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/helpscout/openapi/helpscout-conversations-api-openapi.yml
 - filename: helpscout-customers-api-openapi.yml
   format: yaml
   label: Help Scout Customers API
   slug: helpscout-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/openapi/helpscout-customers-api-openapi.yml
+  url: https://artifacts.apis.io/helpscout/openapi/helpscout-customers-api-openapi.yml
 - filename: helpscout-mailboxes-api-openapi.yml
   format: yaml
   label: Help Scout Mailboxes API
   slug: helpscout-mailboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/openapi/helpscout-mailboxes-api-openapi.yml
+  url: https://artifacts.apis.io/helpscout/openapi/helpscout-mailboxes-api-openapi.yml
 - filename: helpscout-tags-api-openapi.yml
   format: yaml
   label: Help Scout Tags API
   slug: helpscout-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/openapi/helpscout-tags-api-openapi.yml
+  url: https://artifacts.apis.io/helpscout/openapi/helpscout-tags-api-openapi.yml
 - filename: helpscout-teams-api-openapi.yml
   format: yaml
   label: Help Scout Teams API
   slug: helpscout-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/openapi/helpscout-teams-api-openapi.yml
+  url: https://artifacts.apis.io/helpscout/openapi/helpscout-teams-api-openapi.yml
 - filename: helpscout-threads-api-openapi.yml
   format: yaml
   label: Help Scout Threads API
   slug: helpscout-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/openapi/helpscout-threads-api-openapi.yml
+  url: https://artifacts.apis.io/helpscout/openapi/helpscout-threads-api-openapi.yml
 - filename: helpscout-users-api-openapi.yml
   format: yaml
   label: Help Scout Users API
   slug: helpscout-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/openapi/helpscout-users-api-openapi.yml
+  url: https://artifacts.apis.io/helpscout/openapi/helpscout-users-api-openapi.yml
 - filename: helpscout-webhooks-api-openapi.yml
   format: yaml
   label: Help Scout Webhooks API
   slug: helpscout-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/openapi/helpscout-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/helpscout/openapi/helpscout-webhooks-api-openapi.yml
 - filename: helpscout-workflows-api-openapi.yml
   format: yaml
   label: Help Scout Workflows API
   slug: helpscout-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/openapi/helpscout-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/helpscout/openapi/helpscout-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -94,7 +94,7 @@ source_filename: helpscout-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.helpscout.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 22:11:27 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.helpscout.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 11:33:38 2026 GMT\n  hsts: null\ndomains:\n- domain: helpscout.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: helpscout.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/security/helpscout-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/helpscout/security/helpscout-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Customer Service

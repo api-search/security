@@ -5,91 +5,91 @@ api_specs:
   label: Nooks Accounts API
   slug: nooks-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-accounts-api-openapi.yml
 - filename: nooks-calls-api-openapi.yml
   format: yaml
   label: Nooks Calls API
   slug: nooks-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-calls-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-calls-api-openapi.yml
 - filename: nooks-emails-api-openapi.yml
   format: yaml
   label: Nooks Emails API
   slug: nooks-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-emails-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-emails-api-openapi.yml
 - filename: nooks-introspection-api-openapi.yml
   format: yaml
   label: Nooks Introspection API
   slug: nooks-introspection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-introspection-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-introspection-api-openapi.yml
 - filename: nooks-mailboxes-api-openapi.yml
   format: yaml
   label: Nooks Mailboxes API
   slug: nooks-mailboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-mailboxes-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-mailboxes-api-openapi.yml
 - filename: nooks-nooks-sequencing-api-api-openapi.yml
   format: yaml
   label: Nooks Sequencing API
   slug: nooks-nooks-sequencing-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-nooks-sequencing-api-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-nooks-sequencing-api-api-openapi.yml
 - filename: nooks-notes-api-openapi.yml
   format: yaml
   label: Nooks Notes API
   slug: nooks-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-notes-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-notes-api-openapi.yml
 - filename: nooks-prospects-api-openapi.yml
   format: yaml
   label: Nooks Prospects API
   slug: nooks-prospects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-prospects-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-prospects-api-openapi.yml
 - filename: nooks-sequences-api-openapi.yml
   format: yaml
   label: Nooks Sequences API
   slug: nooks-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-sequences-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-sequences-api-openapi.yml
 - filename: nooks-sequencesteps-api-openapi.yml
   format: yaml
   label: Nooks Sequence Steps API
   slug: nooks-sequencesteps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-sequencesteps-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-sequencesteps-api-openapi.yml
 - filename: nooks-tasks-api-openapi.yml
   format: yaml
   label: Nooks Tasks API
   slug: nooks-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-tasks-api-openapi.yml
 - filename: nooks-users-api-openapi.yml
   format: yaml
   label: Nooks Users API
   slug: nooks-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-users-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-users-api-openapi.yml
 - filename: nooks-call-dispositions-api-openapi.yml
   format: yaml
   label: Nooks Call Dispositions API
   slug: nooks-call-dispositions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-call-dispositions-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-call-dispositions-api-openapi.yml
 - filename: nooks-email-templates-api-openapi.yml
   format: yaml
   label: Nooks Email Templates API
   slug: nooks-email-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-email-templates-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-email-templates-api-openapi.yml
 - filename: nooks-sequence-states-api-openapi.yml
   format: yaml
   label: Nooks Sequence States API
   slug: nooks-sequence-states-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-sequence-states-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-sequence-states-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -136,7 +136,7 @@ source_filename: nooks-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nooks.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 22:41:01 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.nooks.in\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 23:21:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: partner-api.nooks.in\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 06:47:29 2026 GMT\n  hsts: null\ndomains:\n- domain: nooks.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: nooks.in\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/security/nooks-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nooks/security/nooks-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -8,55 +8,55 @@ api_specs:
   label: Chado Studio A2a API
   slug: llama-box-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llama-box/refs/heads/main/openapi/llama-box-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/llama-box/openapi/llama-box-a2a-api-openapi.yml
 - filename: llama-box-access-log-api-openapi.yml
   format: yaml
   label: Chado Studio Access Log API
   slug: llama-box-access-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llama-box/refs/heads/main/openapi/llama-box-access-log-api-openapi.yml
+  url: https://artifacts.apis.io/llama-box/openapi/llama-box-access-log-api-openapi.yml
 - filename: llama-box-best-yield-api-openapi.yml
   format: yaml
   label: Chado Studio Best Yield API
   slug: llama-box-best-yield-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llama-box/refs/heads/main/openapi/llama-box-best-yield-api-openapi.yml
+  url: https://artifacts.apis.io/llama-box/openapi/llama-box-best-yield-api-openapi.yml
 - filename: llama-box-health-api-openapi.yml
   format: yaml
   label: Chado Studio Health API
   slug: llama-box-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llama-box/refs/heads/main/openapi/llama-box-health-api-openapi.yml
+  url: https://artifacts.apis.io/llama-box/openapi/llama-box-health-api-openapi.yml
 - filename: llama-box-pools-api-openapi.yml
   format: yaml
   label: Chado Studio Pools API
   slug: llama-box-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llama-box/refs/heads/main/openapi/llama-box-pools-api-openapi.yml
+  url: https://artifacts.apis.io/llama-box/openapi/llama-box-pools-api-openapi.yml
 - filename: llama-box-pricing-api-openapi.yml
   format: yaml
   label: Chado Studio Pricing API
   slug: llama-box-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llama-box/refs/heads/main/openapi/llama-box-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/llama-box/openapi/llama-box-pricing-api-openapi.yml
 - filename: llama-box-rebalance-api-openapi.yml
   format: yaml
   label: Chado Studio Rebalance API
   slug: llama-box-rebalance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llama-box/refs/heads/main/openapi/llama-box-rebalance-api-openapi.yml
+  url: https://artifacts.apis.io/llama-box/openapi/llama-box-rebalance-api-openapi.yml
 - filename: llama-box-risk-score-api-openapi.yml
   format: yaml
   label: Chado Studio Risk Score API
   slug: llama-box-risk-score-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llama-box/refs/heads/main/openapi/llama-box-risk-score-api-openapi.yml
+  url: https://artifacts.apis.io/llama-box/openapi/llama-box-risk-score-api-openapi.yml
 - filename: llama-box-well-known-api-openapi.yml
   format: yaml
   label: Chado Studio .well Known API
   slug: llama-box-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llama-box/refs/heads/main/openapi/llama-box-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/llama-box/openapi/llama-box-well-known-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -136,7 +136,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/llama-b
   \  - {request: 'GET https://llama.box/yo/api/best-yield?top=1 with no key', status: 200, fetched: '2026-09-19', note: free operation}\n  - {request: 'POST https://llama.box/yo/api/rebalance with no key', status: 402, body: '{}', fetched: '2026-09-19', note: paid operation — x402 challenge in the PAYMENT-REQUIRED header}\n  sources:\n  - openapi/llama-box-crvusd-yield-optimizer-openapi.yml\n- name: x402 payment\n  type: payment\n  standard: x402 v2 (HTTP 402 Payment Required)\n  in: header\n  parameter: X-PAYMENT (request) / PAYMENT-REQUIRED (challenge response)\n  description: >-\n    Per /yo/api/pricing: \"1. Request any paid endpoint without payment -> get 402 with payment details.\n    2. Sign a USDC payment on Base using the returned parameters. 3. Resend request with X-PAYMENT header ->\n    get 200 with data.\" The observed challenge is x402Version 2, scheme \"exact\", network eip155:84532 (Base\n    Sepolia testnet), asset 0x036CbD53842c5426634e7929541eC2318f3dCF7e (extra.name USDC,\
   \ extra.version 2),\n    payTo 0x6a1175D0EA0e6817786Ce51F1C4F3294F907f410, maxTimeoutSeconds 300, amount 10000 base units\n    ($0.01) for POST /a2a.\n  applies_to:\n  - {operation: risk_score_api_risk_score__pool_id__get, price: '$0.005'}\n  - {operation: simulate_rebalance_api_rebalance_post, price: '$0.01'}\n  - {operation: a2a_endpoint_a2a_post, price: '$0.01'}\n  - {operation: a2a_stream_endpoint_a2a_stream_post, price: '$0.01'}\n  free_operations: [health_health_get, list_pools_api_pools_get, best_yield_api_best_yield_get, pricing_api_pricing_get, agent_card__well_known_agent_json_get, access_log_api_access_log_get]\n  note: >-\n    Not a securityScheme in the OpenAPI and not declared in the agent card. The paid operations declare only\n    200 and 422 responses; the 402 is undocumented in the contract and discoverable only by calling.\n  sources:\n  - https://llama.box/yo/api/pricing\n  - a2a/llama-box-a2a.yml (x-evidence: decoded PAYMENT-REQUIRED header)\ndiscovery_documents:\n\
   \  openid_configuration: 404\n  oauth_authorization_server: 404\n  oauth_protected_resource: 404\n  note: See well-known/llama-box-well-known.yml.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/llama-box/refs/heads/main/authentication/llama-box-authentication.yml
+source_yaml_url: https://artifacts.apis.io/llama-box/authentication/llama-box-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Agents

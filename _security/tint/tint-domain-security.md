@@ -5,37 +5,37 @@ api_specs:
   label: Tint Claims API
   slug: tint-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tint/refs/heads/main/openapi/tint-claims-api-openapi.yml
+  url: https://artifacts.apis.io/tint/openapi/tint-claims-api-openapi.yml
 - filename: tint-decisions-api-openapi.yml
   format: yaml
   label: Tint Decisions API
   slug: tint-decisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tint/refs/heads/main/openapi/tint-decisions-api-openapi.yml
+  url: https://artifacts.apis.io/tint/openapi/tint-decisions-api-openapi.yml
 - filename: tint-policies-api-openapi.yml
   format: yaml
   label: Tint Policies API
   slug: tint-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tint/refs/heads/main/openapi/tint-policies-api-openapi.yml
+  url: https://artifacts.apis.io/tint/openapi/tint-policies-api-openapi.yml
 - filename: tint-programs-api-openapi.yml
   format: yaml
   label: Tint Programs API
   slug: tint-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tint/refs/heads/main/openapi/tint-programs-api-openapi.yml
+  url: https://artifacts.apis.io/tint/openapi/tint-programs-api-openapi.yml
 - filename: tint-questionnaires-api-openapi.yml
   format: yaml
   label: Tint Questionnaires API
   slug: tint-questionnaires-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tint/refs/heads/main/openapi/tint-questionnaires-api-openapi.yml
+  url: https://artifacts.apis.io/tint/openapi/tint-questionnaires-api-openapi.yml
 - filename: tint-quotes-api-openapi.yml
   format: yaml
   label: Tint Quotes API
   slug: tint-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tint/refs/heads/main/openapi/tint-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/tint/openapi/tint-quotes-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -82,7 +82,7 @@ source_filename: tint-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tint.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: docs.tint.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 22:12:33 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.tint.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 14:20:07 2026 GMT\n  hsts: null\ndomains:\n- domain: tint.ai\n  dnssec: true\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tint/refs/heads/main/security/tint-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tint/security/tint-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Insurance

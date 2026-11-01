@@ -7,37 +7,37 @@ api_specs:
   label: Sisense Authentication API
   slug: sisense-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/openapi/sisense-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sisense/openapi/sisense-authentication-api-openapi.yml
 - filename: sisense-dashboards-api-openapi.yml
   format: yaml
   label: Sisense Dashboards API
   slug: sisense-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/openapi/sisense-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/sisense/openapi/sisense-dashboards-api-openapi.yml
 - filename: sisense-data-security-api-openapi.yml
   format: yaml
   label: Sisense Data Security API
   slug: sisense-data-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/openapi/sisense-data-security-api-openapi.yml
+  url: https://artifacts.apis.io/sisense/openapi/sisense-data-security-api-openapi.yml
 - filename: sisense-elasticubes-api-openapi.yml
   format: yaml
   label: Sisense Elasticubes API
   slug: sisense-elasticubes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/openapi/sisense-elasticubes-api-openapi.yml
+  url: https://artifacts.apis.io/sisense/openapi/sisense-elasticubes-api-openapi.yml
 - filename: sisense-groups-api-openapi.yml
   format: yaml
   label: Sisense Groups API
   slug: sisense-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/openapi/sisense-groups-api-openapi.yml
+  url: https://artifacts.apis.io/sisense/openapi/sisense-groups-api-openapi.yml
 - filename: sisense-users-api-openapi.yml
   format: yaml
   label: Sisense Users API
   slug: sisense-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/openapi/sisense-users-api-openapi.yml
+  url: https://artifacts.apis.io/sisense/openapi/sisense-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +64,7 @@ source_filename: sisense-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sisense-rest-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token obtained from POST /api/v1/authentication/login\n  sources:\n  - openapi/sisense-rest-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/authentication/sisense-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sisense/authentication/sisense-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Analytics

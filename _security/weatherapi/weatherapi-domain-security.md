@@ -5,43 +5,43 @@ api_specs:
   label: WeatherAPI Alerts API
   slug: weatherapi-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/openapi/weatherapi-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/weatherapi/openapi/weatherapi-alerts-api-openapi.yml
 - filename: weatherapi-future-api-openapi.yml
   format: yaml
   label: WeatherAPI Future API
   slug: weatherapi-future-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/openapi/weatherapi-future-api-openapi.yml
+  url: https://artifacts.apis.io/weatherapi/openapi/weatherapi-future-api-openapi.yml
 - filename: weatherapi-geo-api-openapi.yml
   format: yaml
   label: WeatherAPI Geo API
   slug: weatherapi-geo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/openapi/weatherapi-geo-api-openapi.yml
+  url: https://artifacts.apis.io/weatherapi/openapi/weatherapi-geo-api-openapi.yml
 - filename: weatherapi-history-api-openapi.yml
   format: yaml
   label: WeatherAPI History API
   slug: weatherapi-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/openapi/weatherapi-history-api-openapi.yml
+  url: https://artifacts.apis.io/weatherapi/openapi/weatherapi-history-api-openapi.yml
 - filename: weatherapi-marine-api-openapi.yml
   format: yaml
   label: WeatherAPI Marine API
   slug: weatherapi-marine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/openapi/weatherapi-marine-api-openapi.yml
+  url: https://artifacts.apis.io/weatherapi/openapi/weatherapi-marine-api-openapi.yml
 - filename: weatherapi-sports-api-openapi.yml
   format: yaml
   label: WeatherAPI Sports API
   slug: weatherapi-sports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/openapi/weatherapi-sports-api-openapi.yml
+  url: https://artifacts.apis.io/weatherapi/openapi/weatherapi-sports-api-openapi.yml
 - filename: weatherapi-weather-api-openapi.yml
   format: yaml
   label: WeatherAPI Weather API
   slug: weatherapi-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/openapi/weatherapi-weather-api-openapi.yml
+  url: https://artifacts.apis.io/weatherapi/openapi/weatherapi-weather-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: weatherapi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.weatherapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 03:04:41 2026 GMT\n  hsts: false\n- host: api.weatherapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 23:03:40 2026 GMT\n  hsts: false\ndomains:\n- domain: weatherapi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/security/weatherapi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/weatherapi/security/weatherapi-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Weather

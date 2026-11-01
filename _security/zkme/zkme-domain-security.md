@@ -5,31 +5,31 @@ api_specs:
   label: zkMe Auth API
   slug: zkme-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zkme/refs/heads/main/openapi/zkme-auth-api-openapi.yml
+  url: https://artifacts.apis.io/zkme/openapi/zkme-auth-api-openapi.yml
 - filename: zkme-kyt-api-openapi.yml
   format: yaml
   label: zkMe KYT API
   slug: zkme-kyt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zkme/refs/heads/main/openapi/zkme-kyt-api-openapi.yml
+  url: https://artifacts.apis.io/zkme/openapi/zkme-kyt-api-openapi.yml
 - filename: zkme-zkkyb-api-openapi.yml
   format: yaml
   label: zkMe zkKYB API
   slug: zkme-zkkyb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zkme/refs/heads/main/openapi/zkme-zkkyb-api-openapi.yml
+  url: https://artifacts.apis.io/zkme/openapi/zkme-zkkyb-api-openapi.yml
 - filename: zkme-zkkyc-api-openapi.yml
   format: yaml
   label: zkMe zkKYC API
   slug: zkme-zkkyc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zkme/refs/heads/main/openapi/zkme-zkkyc-api-openapi.yml
+  url: https://artifacts.apis.io/zkme/openapi/zkme-zkkyc-api-openapi.yml
 - filename: zkme-zkobs-api-openapi.yml
   format: yaml
   label: zkMe zkOBS API
   slug: zkme-zkobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zkme/refs/heads/main/openapi/zkme-zkobs-api-openapi.yml
+  url: https://artifacts.apis.io/zkme/openapi/zkme-zkobs-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -76,7 +76,7 @@ source_filename: zkme-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: zk.me\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 14:55:36 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: docs.zk.me\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 18:15:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: agw.zk.me\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 14:55:36 2026 GMT\n  hsts: null\ndomains:\n- domain: zk.me\n  dnssec: true\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zkme/refs/heads/main/security/zkme-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zkme/security/zkme-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

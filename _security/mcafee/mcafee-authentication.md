@@ -8,145 +8,145 @@ api_specs:
   label: McAfee (Trellix) Alarms API
   slug: mcafee-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcafee/refs/heads/main/openapi/mcafee-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/mcafee/openapi/mcafee-alarms-api-openapi.yml
 - filename: mcafee-authentication-api-openapi.yml
   format: yaml
   label: McAfee (Trellix) Authentication API
   slug: mcafee-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcafee/refs/heads/main/openapi/mcafee-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/mcafee/openapi/mcafee-authentication-api-openapi.yml
 - filename: mcafee-cases-api-openapi.yml
   format: yaml
   label: McAfee (Trellix) Cases API
   slug: mcafee-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcafee/refs/heads/main/openapi/mcafee-cases-api-openapi.yml
+  url: https://artifacts.apis.io/mcafee/openapi/mcafee-cases-api-openapi.yml
 - filename: mcafee-core-api-openapi.yml
   format: yaml
   label: McAfee (Trellix) Core API
   slug: mcafee-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcafee/refs/heads/main/openapi/mcafee-core-api-openapi.yml
+  url: https://artifacts.apis.io/mcafee/openapi/mcafee-core-api-openapi.yml
 - filename: mcafee-data-sources-api-openapi.yml
   format: yaml
   label: McAfee (Trellix) Data Sources API
   slug: mcafee-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcafee/refs/heads/main/openapi/mcafee-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/mcafee/openapi/mcafee-data-sources-api-openapi.yml
 - filename: mcafee-detections-api-openapi.yml
   format: yaml
   label: McAfee (Trellix) Detections API
   slug: mcafee-detections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcafee/refs/heads/main/openapi/mcafee-detections-api-openapi.yml
+  url: https://artifacts.apis.io/mcafee/openapi/mcafee-detections-api-openapi.yml
 - filename: mcafee-devices-api-openapi.yml
   format: yaml
   label: McAfee (Trellix) Devices API
   slug: mcafee-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcafee/refs/heads/main/openapi/mcafee-devices-api-openapi.yml
+  url: https://artifacts.apis.io/mcafee/openapi/mcafee-devices-api-openapi.yml
 - filename: mcafee-events-api-openapi.yml
   format: yaml
   label: McAfee (Trellix) Events API
   slug: mcafee-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcafee/refs/heads/main/openapi/mcafee-events-api-openapi.yml
+  url: https://artifacts.apis.io/mcafee/openapi/mcafee-events-api-openapi.yml
 - filename: mcafee-file-operations-api-openapi.yml
   format: yaml
   label: McAfee (Trellix) File Operations API
   slug: mcafee-file-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcafee/refs/heads/main/openapi/mcafee-file-operations-api-openapi.yml
+  url: https://artifacts.apis.io/mcafee/openapi/mcafee-file-operations-api-openapi.yml
 - filename: mcafee-investigations-api-openapi.yml
   format: yaml
   label: McAfee (Trellix) Investigations API
   slug: mcafee-investigations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcafee/refs/heads/main/openapi/mcafee-investigations-api-openapi.yml
+  url: https://artifacts.apis.io/mcafee/openapi/mcafee-investigations-api-openapi.yml
 - filename: mcafee-lists-api-openapi.yml
   format: yaml
   label: McAfee (Trellix) Lists API
   slug: mcafee-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcafee/refs/heads/main/openapi/mcafee-lists-api-openapi.yml
+  url: https://artifacts.apis.io/mcafee/openapi/mcafee-lists-api-openapi.yml
 - filename: mcafee-monitoring-api-openapi.yml
   format: yaml
   label: McAfee (Trellix) Monitoring API
   slug: mcafee-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcafee/refs/heads/main/openapi/mcafee-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/mcafee/openapi/mcafee-monitoring-api-openapi.yml
 - filename: mcafee-policies-api-openapi.yml
   format: yaml
   label: McAfee (Trellix) Policies API
   slug: mcafee-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcafee/refs/heads/main/openapi/mcafee-policies-api-openapi.yml
+  url: https://artifacts.apis.io/mcafee/openapi/mcafee-policies-api-openapi.yml
 - filename: mcafee-policy-configuration-api-openapi.yml
   format: yaml
   label: McAfee (Trellix) Policy Configuration API
   slug: mcafee-policy-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcafee/refs/heads/main/openapi/mcafee-policy-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/mcafee/openapi/mcafee-policy-configuration-api-openapi.yml
 - filename: mcafee-queries-api-openapi.yml
   format: yaml
   label: McAfee (Trellix) Queries API
   slug: mcafee-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcafee/refs/heads/main/openapi/mcafee-queries-api-openapi.yml
+  url: https://artifacts.apis.io/mcafee/openapi/mcafee-queries-api-openapi.yml
 - filename: mcafee-real-time-search-api-openapi.yml
   format: yaml
   label: McAfee (Trellix) Real-Time Search API
   slug: mcafee-real-time-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcafee/refs/heads/main/openapi/mcafee-real-time-search-api-openapi.yml
+  url: https://artifacts.apis.io/mcafee/openapi/mcafee-real-time-search-api-openapi.yml
 - filename: mcafee-software-api-openapi.yml
   format: yaml
   label: McAfee (Trellix) Software API
   slug: mcafee-software-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcafee/refs/heads/main/openapi/mcafee-software-api-openapi.yml
+  url: https://artifacts.apis.io/mcafee/openapi/mcafee-software-api-openapi.yml
 - filename: mcafee-system-groups-api-openapi.yml
   format: yaml
   label: McAfee (Trellix) System Groups API
   slug: mcafee-system-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcafee/refs/heads/main/openapi/mcafee-system-groups-api-openapi.yml
+  url: https://artifacts.apis.io/mcafee/openapi/mcafee-system-groups-api-openapi.yml
 - filename: mcafee-systems-api-openapi.yml
   format: yaml
   label: McAfee (Trellix) Systems API
   slug: mcafee-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcafee/refs/heads/main/openapi/mcafee-systems-api-openapi.yml
+  url: https://artifacts.apis.io/mcafee/openapi/mcafee-systems-api-openapi.yml
 - filename: mcafee-tasks-api-openapi.yml
   format: yaml
   label: McAfee (Trellix) Tasks API
   slug: mcafee-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcafee/refs/heads/main/openapi/mcafee-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/mcafee/openapi/mcafee-tasks-api-openapi.yml
 - filename: mcafee-threat-events-api-openapi.yml
   format: yaml
   label: McAfee (Trellix) Threat Events API
   slug: mcafee-threat-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcafee/refs/heads/main/openapi/mcafee-threat-events-api-openapi.yml
+  url: https://artifacts.apis.io/mcafee/openapi/mcafee-threat-events-api-openapi.yml
 - filename: mcafee-threats-api-openapi.yml
   format: yaml
   label: McAfee (Trellix) Threats API
   slug: mcafee-threats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcafee/refs/heads/main/openapi/mcafee-threats-api-openapi.yml
+  url: https://artifacts.apis.io/mcafee/openapi/mcafee-threats-api-openapi.yml
 - filename: mcafee-watchlists-api-openapi.yml
   format: yaml
   label: McAfee (Trellix) Watchlists API
   slug: mcafee-watchlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcafee/refs/heads/main/openapi/mcafee-watchlists-api-openapi.yml
+  url: https://artifacts.apis.io/mcafee/openapi/mcafee-watchlists-api-openapi.yml
 - filename: mcafee-rulesets-api-openapi.yml
   format: yaml
   label: McAfee (Trellix) Rulesets API
   slug: mcafee-rulesets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcafee/refs/heads/main/openapi/mcafee-rulesets-api-openapi.yml
+  url: https://artifacts.apis.io/mcafee/openapi/mcafee-rulesets-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -196,7 +196,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/mcafee-epo-openapi.yml, openapi/mcafee-esm-openapi.yml, openapi/mcafee-mvision-openapi.yml,\n  openapi/mcafee-web-gateway-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - cookie\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication using ePO administrator credentials. Credentials are\n    transmitted as a Base64-encoded username:password pair.\n  sources:\n  - openapi/mcafee-epo-openapi.yml\n- name: sessionAuth\n  type: apiKey\n  in: cookie\n  parameter: JWTToken\n  description: Session token obtained from the login endpoint\n  sources:\n  - openapi/mcafee-esm-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: OAuth 2.0 bearer token from client credentials grant\n  sources:\n  - openapi/mcafee-mvision-openapi.yml\n- name: cookieAuth\n  type: apiKey\n  in: cookie\n  parameter: JSESSIONID\n  description:\
   \ Session cookie obtained from the login endpoint\n  sources:\n  - openapi/mcafee-web-gateway-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mcafee/refs/heads/main/authentication/mcafee-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mcafee/authentication/mcafee-authentication.yml
 summary_line: apiKey/http · 4 schemes
 tags:
 - Antivirus

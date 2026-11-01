@@ -5,49 +5,49 @@ api_specs:
   label: Vyne Dental Eligibility and Benefits API (Onederful)
   slug: eligibility-and-benefits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vynedental/refs/heads/main/openapi/vynedental-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/vynedental/openapi/vynedental-eligibility-api-openapi.yml
 - filename: vynedental-async-api-openapi.yml
   format: yaml
   label: Vyne Dental Async API
   slug: vynedental-async-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vynedental/refs/heads/main/openapi/vynedental-async-api-openapi.yml
+  url: https://artifacts.apis.io/vynedental/openapi/vynedental-async-api-openapi.yml
 - filename: vynedental-edi-api-openapi.yml
   format: yaml
   label: Vyne Dental EDI API
   slug: vynedental-edi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vynedental/refs/heads/main/openapi/vynedental-edi-api-openapi.yml
+  url: https://artifacts.apis.io/vynedental/openapi/vynedental-edi-api-openapi.yml
 - filename: vynedental-eligibility-response-api-openapi.yml
   format: yaml
   label: Vyne Dental Eligibility Response API
   slug: vynedental-eligibility-response-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vynedental/refs/heads/main/openapi/vynedental-eligibility-response-api-openapi.yml
+  url: https://artifacts.apis.io/vynedental/openapi/vynedental-eligibility-response-api-openapi.yml
 - filename: vynedental-eligibility-status-api-openapi.yml
   format: yaml
   label: Vyne Dental Eligibility Status API
   slug: vynedental-eligibility-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vynedental/refs/heads/main/openapi/vynedental-eligibility-status-api-openapi.yml
+  url: https://artifacts.apis.io/vynedental/openapi/vynedental-eligibility-status-api-openapi.yml
 - filename: vynedental-enhanced-eligibility-api-openapi.yml
   format: yaml
   label: Vyne Dental Enhanced Eligibility API
   slug: vynedental-enhanced-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vynedental/refs/heads/main/openapi/vynedental-enhanced-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/vynedental/openapi/vynedental-enhanced-eligibility-api-openapi.yml
 - filename: vynedental-oauth2-api-openapi.yml
   format: yaml
   label: Vyne Dental Oauth2 API
   slug: vynedental-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vynedental/refs/heads/main/openapi/vynedental-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/vynedental/openapi/vynedental-oauth2-api-openapi.yml
 - filename: vynedental-well-known-api-openapi.yml
   format: yaml
   label: Vyne Dental .well Known API
   slug: vynedental-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vynedental/refs/heads/main/openapi/vynedental-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/vynedental/openapi/vynedental-well-known-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: vynedental-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: vynedental.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 20 08:04:51 2026 GMT\n  hsts: false\ndomains:\n- domain: vynedental.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vynedental/refs/heads/main/security/vynedental-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vynedental/security/vynedental-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

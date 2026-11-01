@@ -5,31 +5,31 @@ api_specs:
   label: Aptean Consumers API
   slug: aptean-consumers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptean/refs/heads/main/openapi/aptean-consumers-api-openapi.yml
+  url: https://artifacts.apis.io/aptean/openapi/aptean-consumers-api-openapi.yml
 - filename: aptean-events-api-openapi.yml
   format: yaml
   label: Aptean Events API
   slug: aptean-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptean/refs/heads/main/openapi/aptean-events-api-openapi.yml
+  url: https://artifacts.apis.io/aptean/openapi/aptean-events-api-openapi.yml
 - filename: aptean-producers-api-openapi.yml
   format: yaml
   label: Aptean Producers API
   slug: aptean-producers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptean/refs/heads/main/openapi/aptean-producers-api-openapi.yml
+  url: https://artifacts.apis.io/aptean/openapi/aptean-producers-api-openapi.yml
 - filename: aptean-event-definitions-api-openapi.yml
   format: yaml
   label: Aptean Event Definitions API
   slug: aptean-event-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptean/refs/heads/main/openapi/aptean-event-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/aptean/openapi/aptean-event-definitions-api-openapi.yml
 - filename: aptean-public-keys-api-openapi.yml
   format: yaml
   label: Aptean Public Keys API
   slug: aptean-public-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptean/refs/heads/main/openapi/aptean-public-keys-api-openapi.yml
+  url: https://artifacts.apis.io/aptean/openapi/aptean-public-keys-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: aptean-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.aptean.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 00:26:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: aptean.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aptean/refs/heads/main/security/aptean-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aptean/security/aptean-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

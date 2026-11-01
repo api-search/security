@@ -44,7 +44,7 @@ source_filename: hush-security-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hush.security\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 09:37:20 2026 GMT\n  hsts: false\n- host: docs.hush.security\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.us.hush-security.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 17 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: hush.security\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: hush-security.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hush-security/refs/heads/main/security/hush-security-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hush-security/security/hush-security-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

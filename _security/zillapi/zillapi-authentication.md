@@ -8,43 +8,43 @@ api_specs:
   label: Zillapi Account API
   slug: zillapi-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/openapi/zillapi-account-api-openapi.yml
+  url: https://artifacts.apis.io/zillapi/openapi/zillapi-account-api-openapi.yml
 - filename: zillapi-buildings-api-openapi.yml
   format: yaml
   label: Zillapi Buildings API
   slug: zillapi-buildings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/openapi/zillapi-buildings-api-openapi.yml
+  url: https://artifacts.apis.io/zillapi/openapi/zillapi-buildings-api-openapi.yml
 - filename: zillapi-jobs-api-openapi.yml
   format: yaml
   label: Zillapi Jobs API
   slug: zillapi-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/openapi/zillapi-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/zillapi/openapi/zillapi-jobs-api-openapi.yml
 - filename: zillapi-listings-api-openapi.yml
   format: yaml
   label: Zillapi Listings API
   slug: zillapi-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/openapi/zillapi-listings-api-openapi.yml
+  url: https://artifacts.apis.io/zillapi/openapi/zillapi-listings-api-openapi.yml
 - filename: zillapi-properties-api-openapi.yml
   format: yaml
   label: Zillapi Properties API
   slug: zillapi-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/openapi/zillapi-properties-api-openapi.yml
+  url: https://artifacts.apis.io/zillapi/openapi/zillapi-properties-api-openapi.yml
 - filename: zillapi-search-api-openapi.yml
   format: yaml
   label: Zillapi Search API
   slug: zillapi-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/openapi/zillapi-search-api-openapi.yml
+  url: https://artifacts.apis.io/zillapi/openapi/zillapi-search-api-openapi.yml
 - filename: zillapi-webhooks-api-openapi.yml
   format: yaml
   label: Zillapi Webhooks API
   slug: zillapi-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/openapi/zillapi-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/zillapi/openapi/zillapi-webhooks-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -114,7 +114,7 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: openapi/zillapi
   \    bearerFormat: API key (zk_*)\n    sources:\n      - openapi/zillapi-openapi-original.json\n    key_format:\n      prefix: zk_\n      body: 43 characters, URL-safe base64 of 32 random bytes\n      total_length: 46\n    storage: >-\n      Plaintext shown once at creation; provider states it stores only the SHA-256 hash and cannot\n      recover the original.\n    management_url: https://zillapi.com/app/keys/\n    signup_url: https://zillapi.com/signup\n    rotation:\n      documented: true\n      procedure:\n        - Create a new key in the dashboard\n        - Roll it into the environment\n        - Confirm traffic on the new key under Usage\n        - Revoke the old key\n      revocation: immediate — calls on a revoked key return 401 invalid_api_key within seconds\n  - name: oauth2\n    type: oauth2\n    sources:\n      - well-known/zillapi-oauth-authorization-server.json\n      - well-known/zillapi-oauth-protected-resource.json\n    issuer: https://api.zillapi.com\n    flows:\n\
   \      - flow: authorizationCode\n        authorizationUrl: https://api.zillapi.com/oauth/authorize\n        tokenUrl: https://api.zillapi.com/oauth/token\n        revocationUrl: https://api.zillapi.com/oauth/revoke\n        registrationUrl: https://api.zillapi.com/oauth/register\n        pkce: S256\n        pkce_required: true\n        token_endpoint_auth_methods: [none]\n        scopes:\n          mcp:access: Access the Zillapi MCP server and the /v1 REST surface\n    dynamic_client_registration:\n      supported: true\n      standard: RFC 7591\n      endpoint: https://api.zillapi.com/oauth/register\n    intended_for: remote-MCP connectors (e.g. claude.ai connector install flow)\nerrors:\n  - {status: 401, code: missing_api_key, cause: No Authorization header}\n  - {status: 401, code: invalid_api_key, cause: Bad format, unknown key, or revoked}\n  - {status: 403, code: account_suspended, cause: Account is suspended or closed}\n  - {status: 402, code: out_of_credits, cause: Credit balance\
   \ reached 0}\n  - {status: 429, code: rate_limited, cause: Per-minute rate limit hit}\nguidance:\n  - Server-side only; never embed a key in browser or mobile code that ships to users\n  - One key per environment (staging vs production)\n  - One key per service so they can be revoked independently\ncross_links:\n  scopes: scopes/zillapi-scopes.yml\n  conventions: conventions/zillapi-conventions.yml\n  well_known: well-known/zillapi-well-known.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/authentication/zillapi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zillapi/authentication/zillapi-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Real Estate

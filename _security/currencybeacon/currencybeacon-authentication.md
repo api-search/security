@@ -8,19 +8,19 @@ api_specs:
   label: CurrencyBeacon Conversion API
   slug: currencybeacon-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencybeacon/refs/heads/main/openapi/currencybeacon-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/currencybeacon/openapi/currencybeacon-conversion-api-openapi.yml
 - filename: currencybeacon-currencies-api-openapi.yml
   format: yaml
   label: CurrencyBeacon Currencies API
   slug: currencybeacon-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencybeacon/refs/heads/main/openapi/currencybeacon-currencies-api-openapi.yml
+  url: https://artifacts.apis.io/currencybeacon/openapi/currencybeacon-currencies-api-openapi.yml
 - filename: currencybeacon-rates-api-openapi.yml
   format: yaml
   label: CurrencyBeacon Rates API
   slug: currencybeacon-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencybeacon/refs/heads/main/openapi/currencybeacon-rates-api-openapi.yml
+  url: https://artifacts.apis.io/currencybeacon/openapi/currencybeacon-rates-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -55,7 +55,7 @@ source_filename: currencybeacon-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/currencybeacon-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyQuery\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: API key passed as a query parameter.\n  sources:\n  - openapi/currencybeacon-openapi.yml\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: API key passed as a Bearer token in the Authorization header.\n  sources:\n  - openapi/currencybeacon-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/currencybeacon/refs/heads/main/authentication/currencybeacon-authentication.yml
+source_yaml_url: https://artifacts.apis.io/currencybeacon/authentication/currencybeacon-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Currency

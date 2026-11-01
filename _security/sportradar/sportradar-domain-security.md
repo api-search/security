@@ -5,61 +5,61 @@ api_specs:
   label: Sportradar Competitors API
   slug: sportradar-competitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-competitors-api-openapi.yml
+  url: https://artifacts.apis.io/sportradar/openapi/sportradar-competitors-api-openapi.yml
 - filename: sportradar-nba-push-api-openapi.yml
   format: yaml
   label: Sportradar NBA Push API
   slug: sportradar-nba-push-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-nba-push-api-openapi.yml
+  url: https://artifacts.apis.io/sportradar/openapi/sportradar-nba-push-api-openapi.yml
 - filename: sportradar-nfl-push-api-openapi.yml
   format: yaml
   label: Sportradar NFL Push API
   slug: sportradar-nfl-push-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-nfl-push-api-openapi.yml
+  url: https://artifacts.apis.io/sportradar/openapi/sportradar-nfl-push-api-openapi.yml
 - filename: sportradar-nhl-push-api-openapi.yml
   format: yaml
   label: Sportradar NHL Push API
   slug: sportradar-nhl-push-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-nhl-push-api-openapi.yml
+  url: https://artifacts.apis.io/sportradar/openapi/sportradar-nhl-push-api-openapi.yml
 - filename: sportradar-schedules-api-openapi.yml
   format: yaml
   label: Sportradar Schedules API
   slug: sportradar-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/sportradar/openapi/sportradar-schedules-api-openapi.yml
 - filename: sportradar-scores-api-openapi.yml
   format: yaml
   label: Sportradar Scores API
   slug: sportradar-scores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-scores-api-openapi.yml
+  url: https://artifacts.apis.io/sportradar/openapi/sportradar-scores-api-openapi.yml
 - filename: sportradar-soccer-push-api-openapi.yml
   format: yaml
   label: Sportradar Soccer Push API
   slug: sportradar-soccer-push-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-soccer-push-api-openapi.yml
+  url: https://artifacts.apis.io/sportradar/openapi/sportradar-soccer-push-api-openapi.yml
 - filename: sportradar-standings-api-openapi.yml
   format: yaml
   label: Sportradar Standings API
   slug: sportradar-standings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-standings-api-openapi.yml
+  url: https://artifacts.apis.io/sportradar/openapi/sportradar-standings-api-openapi.yml
 - filename: sportradar-statistics-api-openapi.yml
   format: yaml
   label: Sportradar Statistics API
   slug: sportradar-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/sportradar/openapi/sportradar-statistics-api-openapi.yml
 - filename: sportradar-wnba-push-api-openapi.yml
   format: yaml
   label: Sportradar WNBA Push API
   slug: sportradar-wnba-push-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-wnba-push-api-openapi.yml
+  url: https://artifacts.apis.io/sportradar/openapi/sportradar-wnba-push-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -99,7 +99,7 @@ source_filename: sportradar-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.sportradar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 01:36:45 2026 GMT\n  hsts: null\n- host: sportradar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 01:43:31 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.sportradar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  6 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: sportradar.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/security/sportradar-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sportradar/security/sportradar-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data

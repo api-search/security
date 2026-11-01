@@ -8,55 +8,55 @@ api_specs:
   label: Vitally Accounts API
   slug: vitally-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/openapi/vitally-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/vitally/openapi/vitally-accounts-api-openapi.yml
 - filename: vitally-admins-api-openapi.yml
   format: yaml
   label: Vitally Admins API
   slug: vitally-admins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/openapi/vitally-admins-api-openapi.yml
+  url: https://artifacts.apis.io/vitally/openapi/vitally-admins-api-openapi.yml
 - filename: vitally-conversations-api-openapi.yml
   format: yaml
   label: Vitally Conversations API
   slug: vitally-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/openapi/vitally-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/vitally/openapi/vitally-conversations-api-openapi.yml
 - filename: vitally-custom-objects-api-openapi.yml
   format: yaml
   label: Vitally Custom Objects API
   slug: vitally-custom-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/openapi/vitally-custom-objects-api-openapi.yml
+  url: https://artifacts.apis.io/vitally/openapi/vitally-custom-objects-api-openapi.yml
 - filename: vitally-notes-api-openapi.yml
   format: yaml
   label: Vitally Notes API
   slug: vitally-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/openapi/vitally-notes-api-openapi.yml
+  url: https://artifacts.apis.io/vitally/openapi/vitally-notes-api-openapi.yml
 - filename: vitally-nps-responses-api-openapi.yml
   format: yaml
   label: Vitally NPS Responses API
   slug: vitally-nps-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/openapi/vitally-nps-responses-api-openapi.yml
+  url: https://artifacts.apis.io/vitally/openapi/vitally-nps-responses-api-openapi.yml
 - filename: vitally-organizations-api-openapi.yml
   format: yaml
   label: Vitally Organizations API
   slug: vitally-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/openapi/vitally-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/vitally/openapi/vitally-organizations-api-openapi.yml
 - filename: vitally-tasks-api-openapi.yml
   format: yaml
   label: Vitally Tasks API
   slug: vitally-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/openapi/vitally-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/vitally/openapi/vitally-tasks-api-openapi.yml
 - filename: vitally-users-api-openapi.yml
   format: yaml
   label: Vitally Users API
   slug: vitally-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/openapi/vitally-users-api-openapi.yml
+  url: https://artifacts.apis.io/vitally/openapi/vitally-users-api-openapi.yml
 auth_types:
 - http
 description: Vitally's REST API authenticates with HTTP Basic authentication using a Vitally REST API key as the username and an empty password. Keys are created and managed in the Vitally UI under Settings -> Integrations -> Vitally REST API, where each key has an editable name, a copyable secret token, a copyable Basic Auth header, and per-key regenerate / revoke controls. Multiple keys can coexist for different integrations or environments. The Vitally MCP server authenticates separately with OAuth (see mcp/vitally-mcp.yml).
@@ -87,7 +87,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://docs.vitally.io/en/articles/9880649-rest-api-overview\ndocs: https://docs.vitally.io/en/articles/9880649-rest-api-overview\ndescription: >-\n  Vitally's REST API authenticates with HTTP Basic authentication using a\n  Vitally REST API key as the username and an empty password. Keys are created\n  and managed in the Vitally UI under Settings -> Integrations -> Vitally REST\n  API, where each key has an editable name, a copyable secret token, a copyable\n  Basic Auth header, and per-key regenerate / revoke controls. Multiple keys can\n  coexist for different integrations or environments. The Vitally MCP server\n  authenticates separately with OAuth (see mcp/vitally-mcp.yml).\nsummary:\n  types: [http]\n  http_schemes: [basic]\n  api_key_in: [header]\n  oauth2_flows: []\nschemes:\n  - name: basicAuth\n    type: http\n    scheme: basic\n    in: header\n    header: Authorization\n    format: 'Authorization: Basic base64(<api_key>:)'\n\
   \    description: >-\n      Basic auth with the REST API key as the username and an empty password.\n      The docs also show the pre-computed header form, e.g.\n      'Authorization: Basic c2VjcmV0X2tleTo='.\n    sources:\n      - openapi/vitally-rest-openapi.yml\nkey_management:\n  location: 'Settings -> Integrations -> Vitally REST API (Quick Jump: Cmd/Alt + j)'\n  multiple_keys: true\n  rotation: Keys can be rolled (regenerated) or revoked individually.\nrelated:\n  mcp_oauth: mcp/vitally-mcp.yml\n  data_centers:\n    us: https://{subdomain}.rest.vitally.io\n    eu: https://rest.vitally-eu.io\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/authentication/vitally-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vitally/authentication/vitally-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

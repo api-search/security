@@ -33,7 +33,7 @@ source_filename: bored-ape-yacht-club-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.yuga.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  1 12:17:39 2026 GMT\n  hsts: false\ndomains:\n- domain: yuga.com\n  dnssec: true\n  caa:\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bored-ape-yacht-club/refs/heads/main/security/bored-ape-yacht-club-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bored-ape-yacht-club/security/bored-ape-yacht-club-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

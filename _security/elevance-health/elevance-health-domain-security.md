@@ -5,31 +5,31 @@ api_specs:
   label: Elevance Health Claims API
   slug: elevance-health-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/openapi/elevance-health-claims-api-openapi.yml
+  url: https://artifacts.apis.io/elevance-health/openapi/elevance-health-claims-api-openapi.yml
 - filename: elevance-health-conformance-api-openapi.yml
   format: yaml
   label: Elevance Health Conformance API
   slug: elevance-health-conformance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/openapi/elevance-health-conformance-api-openapi.yml
+  url: https://artifacts.apis.io/elevance-health/openapi/elevance-health-conformance-api-openapi.yml
 - filename: elevance-health-coverage-api-openapi.yml
   format: yaml
   label: Elevance Health Coverage API
   slug: elevance-health-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/openapi/elevance-health-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/elevance-health/openapi/elevance-health-coverage-api-openapi.yml
 - filename: elevance-health-patient-api-openapi.yml
   format: yaml
   label: Elevance Health Patient API
   slug: elevance-health-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/openapi/elevance-health-patient-api-openapi.yml
+  url: https://artifacts.apis.io/elevance-health/openapi/elevance-health-patient-api-openapi.yml
 - filename: elevance-health-provider-directory-api-openapi.yml
   format: yaml
   label: Elevance Health Provider Directory API
   slug: elevance-health-provider-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/openapi/elevance-health-provider-directory-api-openapi.yml
+  url: https://artifacts.apis.io/elevance-health/openapi/elevance-health-provider-directory-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -84,7 +84,7 @@ source_filename: elevance-health-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.elevancehealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.anthem.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  7 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: patient360.anthem.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 30 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\ndomains:\n- domain: elevancehealth.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"entrust.net\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: anthem.com\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"symantec.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"entrust.net\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/security/elevance-health-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/elevance-health/security/elevance-health-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fortune 500

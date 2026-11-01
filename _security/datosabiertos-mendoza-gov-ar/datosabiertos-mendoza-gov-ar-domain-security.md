@@ -26,7 +26,7 @@ source_filename: datosabiertos-mendoza-gov-ar-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: datosabiertos.mendoza.gov.ar\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 28 17:17:19 2026 GMT\n  hsts: false\ndomains:\n- domain: mendoza.gov.ar\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datosabiertos-mendoza-gov-ar/refs/heads/main/security/datosabiertos-mendoza-gov-ar-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/datosabiertos-mendoza-gov-ar/security/datosabiertos-mendoza-gov-ar-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Open Data

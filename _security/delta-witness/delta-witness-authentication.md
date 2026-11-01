@@ -7,61 +7,61 @@ api_specs:
   label: DELTA Witness — Trust Layer for Autonomous Actions browser verification API
   slug: delta-witness-browser-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/openapi/delta-witness-browser-verification-api-openapi.yml
+  url: https://artifacts.apis.io/delta-witness/openapi/delta-witness-browser-verification-api-openapi.yml
 - filename: delta-witness-capture-api-openapi.yml
   format: yaml
   label: DELTA Witness — Trust Layer for Autonomous Actions Capture API
   slug: delta-witness-capture-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/openapi/delta-witness-capture-api-openapi.yml
+  url: https://artifacts.apis.io/delta-witness/openapi/delta-witness-capture-api-openapi.yml
 - filename: delta-witness-demo-api-openapi.yml
   format: yaml
   label: DELTA Witness — Trust Layer for Autonomous Actions Demo API
   slug: delta-witness-demo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/openapi/delta-witness-demo-api-openapi.yml
+  url: https://artifacts.apis.io/delta-witness/openapi/delta-witness-demo-api-openapi.yml
 - filename: delta-witness-guarded-action-pilot-api-openapi.yml
   format: yaml
   label: DELTA Witness — Trust Layer for Autonomous Actions Guarded Action Pilot API
   slug: delta-witness-guarded-action-pilot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/openapi/delta-witness-guarded-action-pilot-api-openapi.yml
+  url: https://artifacts.apis.io/delta-witness/openapi/delta-witness-guarded-action-pilot-api-openapi.yml
 - filename: delta-witness-health-api-openapi.yml
   format: yaml
   label: DELTA Witness — Trust Layer for Autonomous Actions Health API
   slug: delta-witness-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/openapi/delta-witness-health-api-openapi.yml
+  url: https://artifacts.apis.io/delta-witness/openapi/delta-witness-health-api-openapi.yml
 - filename: delta-witness-preflight-api-openapi.yml
   format: yaml
   label: DELTA Witness — Trust Layer for Autonomous Actions Preflight API
   slug: delta-witness-preflight-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/openapi/delta-witness-preflight-api-openapi.yml
+  url: https://artifacts.apis.io/delta-witness/openapi/delta-witness-preflight-api-openapi.yml
 - filename: delta-witness-preflight-autonomous-action-api-openapi.yml
   format: yaml
   label: DELTA Witness — Trust Layer for Autonomous Actions preflight autonomous action API
   slug: delta-witness-preflight-autonomous-action-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/openapi/delta-witness-preflight-autonomous-action-api-openapi.yml
+  url: https://artifacts.apis.io/delta-witness/openapi/delta-witness-preflight-autonomous-action-api-openapi.yml
 - filename: delta-witness-proofs-api-openapi.yml
   format: yaml
   label: DELTA Witness — Trust Layer for Autonomous Actions Proofs API
   slug: delta-witness-proofs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/openapi/delta-witness-proofs-api-openapi.yml
+  url: https://artifacts.apis.io/delta-witness/openapi/delta-witness-proofs-api-openapi.yml
 - filename: delta-witness-quote-api-openapi.yml
   format: yaml
   label: DELTA Witness — Trust Layer for Autonomous Actions Quote API
   slug: delta-witness-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/openapi/delta-witness-quote-api-openapi.yml
+  url: https://artifacts.apis.io/delta-witness/openapi/delta-witness-quote-api-openapi.yml
 - filename: delta-witness-watch-api-openapi.yml
   format: yaml
   label: DELTA Witness — Trust Layer for Autonomous Actions Watch API
   slug: delta-witness-watch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/openapi/delta-witness-watch-api-openapi.yml
+  url: https://artifacts.apis.io/delta-witness/openapi/delta-witness-watch-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -103,7 +103,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-11'\nmethod: searched\nsource: >-\n  openapi/delta-witness-openapi.json (security: [] on all operations),\n  the /.well-known/x402 discovery document, observed 402 challenges, and\n  openapi/delta-witness-partner-gateway-openapi.json.\nsummary: >-\n  The public DELTA Witness API declares no traditional authentication. Access to\n  billable operations is gated by machine payment (x402 v2) rather than by an API\n  key or OAuth token. Free operations (/health, /v1/quote, /v1/demo,\n  /v1/proofs/{id}) are open. The separate partner gateway uses an apiKey secret.\nschemes:\n  - id: x402-payment\n    type: payment\n    protocol: x402-v2\n    location: HTTP 402 challenge + payment-required header\n    network: eip155:8453\n    asset: USDC (0x833589fCD6eDb6E08f4c7C32d4f71b54bdA02913)\n    recipient: '0x1990e21bc219696ff7fbc26527dbaed335ac6367'\n    facilitator: https://facilitator.payai.network\n    applies_to:\n      - POST /v1/capture\n      - POST /v1/preflight\n\
   \      - POST /v1/guarded-action-pilot\n    note: >-\n      Not a classic securityScheme. The paid operations declare security: [] in\n      OpenAPI and enforce payment at runtime via the x402 402 flow.\n  - id: PartnerProxySecret\n    type: apiKey\n    in: header\n    name: x-delta-partner-secret\n    applies_to:\n      - partner gateway /capture, /preflight, /watch\n    host: delta-witness-partner-gateway.ruphussten.workers.dev\n    note: >-\n      Provider-managed reseller secret; must not be exposed to marketplace end\n      users. Used only on the authenticated partner rail (not the public API).\nopen_operations:\n  - GET /health\n  - GET /v1/quote\n  - GET /v1/demo\n  - GET /v1/proofs/{proof_id}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/authentication/delta-witness-authentication.yml
+source_yaml_url: https://artifacts.apis.io/delta-witness/authentication/delta-witness-authentication.yml
 summary_line: 2 schemes
 tags:
 - web-verification

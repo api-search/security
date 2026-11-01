@@ -5,43 +5,43 @@ api_specs:
   label: Payem AI Discovery API
   slug: payem-ai-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payem/refs/heads/main/openapi/payem-ai-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/payem/openapi/payem-ai-discovery-api-openapi.yml
 - filename: payem-business-api-openapi.yml
   format: yaml
   label: Payem Business API
   slug: payem-business-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payem/refs/heads/main/openapi/payem-business-api-openapi.yml
+  url: https://artifacts.apis.io/payem/openapi/payem-business-api-openapi.yml
 - filename: payem-categories-api-openapi.yml
   format: yaml
   label: Payem Categories API
   slug: payem-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payem/refs/heads/main/openapi/payem-categories-api-openapi.yml
+  url: https://artifacts.apis.io/payem/openapi/payem-categories-api-openapi.yml
 - filename: payem-faq-api-openapi.yml
   format: yaml
   label: Payem Faq API
   slug: payem-faq-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payem/refs/heads/main/openapi/payem-faq-api-openapi.yml
+  url: https://artifacts.apis.io/payem/openapi/payem-faq-api-openapi.yml
 - filename: payem-qa-api-openapi.yml
   format: yaml
   label: Payem Qa API
   slug: payem-qa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payem/refs/heads/main/openapi/payem-qa-api-openapi.yml
+  url: https://artifacts.apis.io/payem/openapi/payem-qa-api-openapi.yml
 - filename: payem-search-api-openapi.yml
   format: yaml
   label: Payem Search API
   slug: payem-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payem/refs/heads/main/openapi/payem-search-api-openapi.yml
+  url: https://artifacts.apis.io/payem/openapi/payem-search-api-openapi.yml
 - filename: payem-testimonials-api-openapi.yml
   format: yaml
   label: Payem Testimonials API
   slug: payem-testimonials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payem/refs/heads/main/openapi/payem-testimonials-api-openapi.yml
+  url: https://artifacts.apis.io/payem/openapi/payem-testimonials-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: payem-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.payem.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 15:44:40 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.llm-discovery-api.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 23:40:58 2026 GMT\n  hsts: null\ndomains:\n- domain: payem.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: llm-discovery-api.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payem/refs/heads/main/security/payem-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/payem/security/payem-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

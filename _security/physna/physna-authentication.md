@@ -7,49 +7,49 @@ api_specs:
   label: Physna Collections API
   slug: physna-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/openapi/physna-collections-api-openapi.yml
+  url: https://artifacts.apis.io/physna/openapi/physna-collections-api-openapi.yml
 - filename: physna-deprecated-api-openapi.yml
   format: yaml
   label: Physna Deprecated API
   slug: physna-deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/openapi/physna-deprecated-api-openapi.yml
+  url: https://artifacts.apis.io/physna/openapi/physna-deprecated-api-openapi.yml
 - filename: physna-folders-api-openapi.yml
   format: yaml
   label: Physna Folders API
   slug: physna-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/openapi/physna-folders-api-openapi.yml
+  url: https://artifacts.apis.io/physna/openapi/physna-folders-api-openapi.yml
 - filename: physna-image-search-api-openapi.yml
   format: yaml
   label: Physna Image Search API
   slug: physna-image-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/openapi/physna-image-search-api-openapi.yml
+  url: https://artifacts.apis.io/physna/openapi/physna-image-search-api-openapi.yml
 - filename: physna-metadata-api-openapi.yml
   format: yaml
   label: Physna Metadata API
   slug: physna-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/openapi/physna-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/physna/openapi/physna-metadata-api-openapi.yml
 - filename: physna-models-api-openapi.yml
   format: yaml
   label: Physna Models API
   slug: physna-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/openapi/physna-models-api-openapi.yml
+  url: https://artifacts.apis.io/physna/openapi/physna-models-api-openapi.yml
 - filename: physna-users-api-openapi.yml
   format: yaml
   label: Physna Users API
   slug: physna-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/openapi/physna-users-api-openapi.yml
+  url: https://artifacts.apis.io/physna/openapi/physna-users-api-openapi.yml
 - filename: physna-client-credentials-api-openapi.yml
   format: yaml
   label: Physna Client Credentials API
   slug: physna-client-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/openapi/physna-client-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/physna/openapi/physna-client-credentials-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -86,7 +86,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/physna-openapi-original.json\ndocs: https://physna.github.io/public-api-guide/api-reference/authentication.html\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nnotes: >-\n  The OpenAPI declares a single oauth2 scheme named \"okta\" using the\n  authorizationCode flow against Physna's Okta authorization server. The public\n  API guide documents machine-to-machine access via the OAuth 2.0\n  client_credentials grant: POST to the Okta token endpoint with HTTP Basic\n  auth (CLIENT_ID:CLIENT_SECRET) and body\n  `grant_type=client_credentials&scope=tenantApp roles`. The returned Bearer\n  access_token is valid for 36000 seconds (10 hours) and is sent as\n  `Authorization: Bearer <token>`. Requests are tenant-scoped and several\n  operations additionally carry an `X-PHYSNA-TENANTID` header. Client\n  credentials are provisioned via the /client-credentials endpoints.\nschemes:\n\
   - name: okta\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://physna.okta.com/oauth2/default/v1/authorize\n    tokenUrl: https://physna.okta.com/oauth2/default/v1/token\n    scopes: 3\n  - flow: clientCredentials\n    tokenUrl: https://physna.okta.com/oauth2/default/v1/token\n    documented_scope: tenantApp roles\n  sources:\n  - openapi/physna-openapi-original.json\n  - https://physna.github.io/public-api-guide/api-reference/authentication.html\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/authentication/physna-authentication.yml
+source_yaml_url: https://artifacts.apis.io/physna/authentication/physna-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

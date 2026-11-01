@@ -7,19 +7,19 @@ api_specs:
   label: Apache Tomcat Applications API
   slug: apache-tomcat-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-tomcat/refs/heads/main/openapi/apache-tomcat-applications-api-openapi.yml
+  url: https://artifacts.apis.io/apache-tomcat/openapi/apache-tomcat-applications-api-openapi.yml
 - filename: apache-tomcat-server-api-openapi.yml
   format: yaml
   label: Apache Tomcat Server API
   slug: apache-tomcat-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-tomcat/refs/heads/main/openapi/apache-tomcat-server-api-openapi.yml
+  url: https://artifacts.apis.io/apache-tomcat/openapi/apache-tomcat-server-api-openapi.yml
 - filename: apache-tomcat-sessions-api-openapi.yml
   format: yaml
   label: Apache Tomcat Sessions API
   slug: apache-tomcat-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-tomcat/refs/heads/main/openapi/apache-tomcat-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/apache-tomcat/openapi/apache-tomcat-sessions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: apache-tomcat-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/apache-tomcat-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication; user must hold the `manager-script` role\n  sources:\n  - openapi/apache-tomcat-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-tomcat/refs/heads/main/authentication/apache-tomcat-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apache-tomcat/authentication/apache-tomcat-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Application Server

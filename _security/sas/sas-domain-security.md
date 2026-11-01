@@ -5,61 +5,61 @@ api_specs:
   label: SAS Institute CAS API
   slug: sas-cas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-cas-api-openapi.yml
+  url: https://artifacts.apis.io/sas/openapi/sas-cas-api-openapi.yml
 - filename: sas-decisions-api-openapi.yml
   format: yaml
   label: SAS Institute Decisions API
   slug: sas-decisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-decisions-api-openapi.yml
+  url: https://artifacts.apis.io/sas/openapi/sas-decisions-api-openapi.yml
 - filename: sas-files-api-openapi.yml
   format: yaml
   label: SAS Institute Files API
   slug: sas-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-files-api-openapi.yml
+  url: https://artifacts.apis.io/sas/openapi/sas-files-api-openapi.yml
 - filename: sas-folders-api-openapi.yml
   format: yaml
   label: SAS Institute Folders API
   slug: sas-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-folders-api-openapi.yml
+  url: https://artifacts.apis.io/sas/openapi/sas-folders-api-openapi.yml
 - filename: sas-identities-api-openapi.yml
   format: yaml
   label: SAS Institute Identities API
   slug: sas-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-identities-api-openapi.yml
+  url: https://artifacts.apis.io/sas/openapi/sas-identities-api-openapi.yml
 - filename: sas-jobs-api-openapi.yml
   format: yaml
   label: SAS Institute Jobs API
   slug: sas-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/sas/openapi/sas-jobs-api-openapi.yml
 - filename: sas-logon-api-openapi.yml
   format: yaml
   label: SAS Institute Logon API
   slug: sas-logon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-logon-api-openapi.yml
+  url: https://artifacts.apis.io/sas/openapi/sas-logon-api-openapi.yml
 - filename: sas-models-api-openapi.yml
   format: yaml
   label: SAS Institute Models API
   slug: sas-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-models-api-openapi.yml
+  url: https://artifacts.apis.io/sas/openapi/sas-models-api-openapi.yml
 - filename: sas-reports-api-openapi.yml
   format: yaml
   label: SAS Institute Reports API
   slug: sas-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-reports-api-openapi.yml
+  url: https://artifacts.apis.io/sas/openapi/sas-reports-api-openapi.yml
 - filename: sas-business-rules-api-openapi.yml
   format: yaml
   label: SAS Institute Business Rules API
   slug: sas-business-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-business-rules-api-openapi.yml
+  url: https://artifacts.apis.io/sas/openapi/sas-business-rules-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -101,7 +101,7 @@ source_filename: sas-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sas.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  2 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.sas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 27 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: sas.com\n  dnssec: true\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issuewild \"amazontrust.com\"\n  - 0 issuewild \"awstrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/security/sas-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sas/security/sas-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Analytics

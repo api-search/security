@@ -5,49 +5,49 @@ api_specs:
   label: Backendless Cache API
   slug: backendless-cache-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/openapi/backendless-cache-api-openapi.yml
+  url: https://artifacts.apis.io/backendless/openapi/backendless-cache-api-openapi.yml
 - filename: backendless-cloudcode-api-openapi.yml
   format: yaml
   label: Backendless CloudCode API
   slug: backendless-cloudcode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/openapi/backendless-cloudcode-api-openapi.yml
+  url: https://artifacts.apis.io/backendless/openapi/backendless-cloudcode-api-openapi.yml
 - filename: backendless-counters-api-openapi.yml
   format: yaml
   label: Backendless Counters API
   slug: backendless-counters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/openapi/backendless-counters-api-openapi.yml
+  url: https://artifacts.apis.io/backendless/openapi/backendless-counters-api-openapi.yml
 - filename: backendless-data-api-openapi.yml
   format: yaml
   label: Backendless Data API
   slug: backendless-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/openapi/backendless-data-api-openapi.yml
+  url: https://artifacts.apis.io/backendless/openapi/backendless-data-api-openapi.yml
 - filename: backendless-files-api-openapi.yml
   format: yaml
   label: Backendless Files API
   slug: backendless-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/openapi/backendless-files-api-openapi.yml
+  url: https://artifacts.apis.io/backendless/openapi/backendless-files-api-openapi.yml
 - filename: backendless-geo-api-openapi.yml
   format: yaml
   label: Backendless Geo API
   slug: backendless-geo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/openapi/backendless-geo-api-openapi.yml
+  url: https://artifacts.apis.io/backendless/openapi/backendless-geo-api-openapi.yml
 - filename: backendless-messaging-api-openapi.yml
   format: yaml
   label: Backendless Messaging API
   slug: backendless-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/openapi/backendless-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/backendless/openapi/backendless-messaging-api-openapi.yml
 - filename: backendless-users-api-openapi.yml
   format: yaml
   label: Backendless Users API
   slug: backendless-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/openapi/backendless-users-api-openapi.yml
+  url: https://artifacts.apis.io/backendless/openapi/backendless-users-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -80,7 +80,7 @@ source_filename: backendless-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: backendless.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 01:27:46 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: backendless.com\n  dnssec: false\n  caa:\n  - 128 issue \"letsencrypt.org\"\n  - 128 issue \"sectigo.com\"\n  - 128 issuewild \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/security/backendless-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/backendless/security/backendless-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Backend-as-a-Service

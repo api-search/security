@@ -8,19 +8,19 @@ api_specs:
   label: Seamless.AI Public API
   slug: seamless-ai-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/openapi/_original/seamless-ai-public-api-openapi-original.json
+  url: https://artifacts.apis.io/seamless-ai/openapi/_original/seamless-ai-public-api-openapi-original.json
 - filename: seamless-ai-mcp-api-openapi.yml
   format: yaml
   label: Seamless.AI MCP API
   slug: seamless-ai-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/openapi/seamless-ai-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/seamless-ai/openapi/seamless-ai-mcp-api-openapi.yml
 - filename: seamless-ai-oauth-api-openapi.yml
   format: yaml
   label: Seamless.AI O Auth API
   slug: seamless-ai-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/openapi/seamless-ai-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/seamless-ai/openapi/seamless-ai-oauth-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -107,7 +107,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: openapi/seamles
   \ verify origin.\n  hmac: false\n  see_also: asyncapi/seamless-ai-webhooks.yml\ndocs: https://docs.seamless.ai/authentication/api-keys\nsources:\n- https://docs.seamless.ai/authentication/api-keys\n- https://docs.seamless.ai/authentication/oauth\n- https://docs.seamless.ai/mcp/authentication\n- https://mcp.seamless.ai/.well-known/oauth-authorization-server\n- openapi/_original/seamless-ai-public-api-openapi-original.json\nnote: 'Upgraded from derived to searched against the provider''s own authentication pages. Seamless.AI\n  runs TWO independent auth surfaces: the REST Public API v1 (API key in a `Token` header, or OAuth 2.0\n  authorization-code with a client_secret against login.seamless.ai) and the MCP server (OAuth 2.1 with\n  PKCE S256, dynamic client registration, no client_secret, against mcp.seamless.ai). The same API key\n  also works on MCP. The docs warn explicitly that the API key header (`Token`) and the OAuth header (`Authorization:\n  Bearer`) must not be mixed on one request.\
   \ `webhookSecret` is not a caller credential -- it is the inbound\n  shared secret Seamless sends to YOUR endpoint on a webhook delivery.'\nmcp_authentication:\n  surface: https://mcp.seamless.ai/mcp\n  protocol: OAuth 2.1\n  authorization_endpoint: https://mcp.seamless.ai/mcp/authorize\n  token_endpoint: https://mcp.seamless.ai/mcp/token\n  registration_endpoint: https://mcp.seamless.ai/mcp/register\n  revocation_endpoint: https://mcp.seamless.ai/mcp/revoke\n  grant_types:\n  - authorization_code\n  - refresh_token\n  code_challenge_methods:\n  - S256\n  token_endpoint_auth_methods:\n  - none\n  dynamic_client_registration: true\n  scopes:\n  - mcp.all\n  discovery:\n  - /.well-known/oauth-authorization-server\n  - /.well-known/oauth-protected-resource\n  alternate: API key via the Token header\n  verified: Anonymous POST to https://mcp.seamless.ai/mcp returned HTTP 401 with a WWW-Authenticate Bearer\n    challenge carrying resource_metadata and scope=\"mcp.all\" (2026-08-14).\nentitlement_gate:\n\
   \  rest: HTTP 422 code=missingLicense when the org has no active Public API license.\n  mcp: '\"MCP Server access is not enabled for your account\"; per-domain tool visibility further filtered\n    by the Connect license.'\n  note: Authentication succeeding does not mean authorization succeeds. Both surfaces gate on a license\n    separate from the credential.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/authentication/seamless-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/seamless-ai/authentication/seamless-ai-authentication.yml
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - B2B

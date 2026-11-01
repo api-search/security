@@ -5,37 +5,37 @@ api_specs:
   label: Chronicling America Batches API
   slug: chroniclingamerica-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/openapi/chroniclingamerica-batches-api-openapi.yml
+  url: https://artifacts.apis.io/chroniclingamerica/openapi/chroniclingamerica-batches-api-openapi.yml
 - filename: chroniclingamerica-issues-api-openapi.yml
   format: yaml
   label: Chronicling America Issues API
   slug: chroniclingamerica-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/openapi/chroniclingamerica-issues-api-openapi.yml
+  url: https://artifacts.apis.io/chroniclingamerica/openapi/chroniclingamerica-issues-api-openapi.yml
 - filename: chroniclingamerica-ocr-api-openapi.yml
   format: yaml
   label: Chronicling America OCR API
   slug: chroniclingamerica-ocr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/openapi/chroniclingamerica-ocr-api-openapi.yml
+  url: https://artifacts.apis.io/chroniclingamerica/openapi/chroniclingamerica-ocr-api-openapi.yml
 - filename: chroniclingamerica-pages-api-openapi.yml
   format: yaml
   label: Chronicling America Pages API
   slug: chroniclingamerica-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/openapi/chroniclingamerica-pages-api-openapi.yml
+  url: https://artifacts.apis.io/chroniclingamerica/openapi/chroniclingamerica-pages-api-openapi.yml
 - filename: chroniclingamerica-search-api-openapi.yml
   format: yaml
   label: Chronicling America Search API
   slug: chroniclingamerica-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/openapi/chroniclingamerica-search-api-openapi.yml
+  url: https://artifacts.apis.io/chroniclingamerica/openapi/chroniclingamerica-search-api-openapi.yml
 - filename: chroniclingamerica-titles-api-openapi.yml
   format: yaml
   label: Chronicling America Titles API
   slug: chroniclingamerica-titles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/openapi/chroniclingamerica-titles-api-openapi.yml
+  url: https://artifacts.apis.io/chroniclingamerica/openapi/chroniclingamerica-titles-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: chroniclingamerica-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: chroniclingamerica.loc.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 04:56:11 2026 GMT\n  hsts: null\ndomains:\n- domain: loc.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/security/chroniclingamerica-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/chroniclingamerica/security/chroniclingamerica-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Newspapers

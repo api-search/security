@@ -26,7 +26,7 @@ source_filename: dappradar-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dappradar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 08:55:38 2026 GMT\n  hsts: false\ndomains:\n- domain: dappradar.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dappradar/refs/heads/main/security/dappradar-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dappradar/security/dappradar-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

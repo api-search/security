@@ -5,25 +5,25 @@ api_specs:
   label: LootRush Connect API
   slug: lootrush-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/openapi/lootrush-connect-api-openapi.yml
+  url: https://artifacts.apis.io/lootrush/openapi/lootrush-connect-api-openapi.yml
 - filename: lootrush-history-api-openapi.yml
   format: yaml
   label: LootRush History API
   slug: lootrush-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/openapi/lootrush-history-api-openapi.yml
+  url: https://artifacts.apis.io/lootrush/openapi/lootrush-history-api-openapi.yml
 - filename: lootrush-mcp-api-openapi.yml
   format: yaml
   label: LootRush MCP API
   slug: lootrush-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/openapi/lootrush-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/lootrush/openapi/lootrush-mcp-api-openapi.yml
 - filename: lootrush-withdrawals-api-openapi.yml
   format: yaml
   label: LootRush Withdrawals API
   slug: lootrush-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/openapi/lootrush-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/lootrush/openapi/lootrush-withdrawals-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: lootrush-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.lootrush.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 15:09:44 2026 GMT\n  hsts: null\ndomains:\n- domain: lootrush.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/security/lootrush-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lootrush/security/lootrush-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

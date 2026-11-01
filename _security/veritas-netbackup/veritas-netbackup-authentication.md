@@ -7,31 +7,31 @@ api_specs:
   label: Veritas NetBackup Clients API
   slug: veritas-netbackup-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/openapi/veritas-netbackup-clients-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-netbackup/openapi/veritas-netbackup-clients-api-openapi.yml
 - filename: veritas-netbackup-images-api-openapi.yml
   format: yaml
   label: Veritas NetBackup Images API
   slug: veritas-netbackup-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/openapi/veritas-netbackup-images-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-netbackup/openapi/veritas-netbackup-images-api-openapi.yml
 - filename: veritas-netbackup-jobs-api-openapi.yml
   format: yaml
   label: Veritas NetBackup Jobs API
   slug: veritas-netbackup-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/openapi/veritas-netbackup-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-netbackup/openapi/veritas-netbackup-jobs-api-openapi.yml
 - filename: veritas-netbackup-login-api-openapi.yml
   format: yaml
   label: Veritas NetBackup Login API
   slug: veritas-netbackup-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/openapi/veritas-netbackup-login-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-netbackup/openapi/veritas-netbackup-login-api-openapi.yml
 - filename: veritas-netbackup-policies-api-openapi.yml
   format: yaml
   label: Veritas NetBackup Policies API
   slug: veritas-netbackup-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/openapi/veritas-netbackup-policies-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-netbackup/openapi/veritas-netbackup-policies-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -59,7 +59,7 @@ source_filename: veritas-netbackup-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/veritas-netbackup-rest-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: jwtAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: 'JSON Web Token obtained from the /login endpoint. Include in the Authorization\n    header as: Bearer <token>'\n  sources:\n  - openapi/veritas-netbackup-rest-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/authentication/veritas-netbackup-authentication.yml
+source_yaml_url: https://artifacts.apis.io/veritas-netbackup/authentication/veritas-netbackup-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Backup

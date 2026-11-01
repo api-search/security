@@ -29,7 +29,7 @@ source_filename: techy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: techy-api.vercel.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 13:27:56 2026 GMT\n  hsts: null\ndomains:\n- domain: vercel.app\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/techy/refs/heads/main/security/techy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/techy/security/techy-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Entertainment

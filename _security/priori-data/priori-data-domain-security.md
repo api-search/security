@@ -26,7 +26,7 @@ source_filename: priori-data-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: prioridata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 17:33:32 2026 GMT\n  hsts: false\ndomains:\n- domain: prioridata.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/priori-data/refs/heads/main/security/priori-data-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/priori-data/security/priori-data-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

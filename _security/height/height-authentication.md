@@ -8,55 +8,55 @@ api_specs:
   label: Height Activities API
   slug: height-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/openapi/height-activities-api-openapi.yml
+  url: https://artifacts.apis.io/height/openapi/height-activities-api-openapi.yml
 - filename: height-field-templates-api-openapi.yml
   format: yaml
   label: Height Field Templates API
   slug: height-field-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/openapi/height-field-templates-api-openapi.yml
+  url: https://artifacts.apis.io/height/openapi/height-field-templates-api-openapi.yml
 - filename: height-groups-api-openapi.yml
   format: yaml
   label: Height Groups API
   slug: height-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/openapi/height-groups-api-openapi.yml
+  url: https://artifacts.apis.io/height/openapi/height-groups-api-openapi.yml
 - filename: height-lists-api-openapi.yml
   format: yaml
   label: Height Lists API
   slug: height-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/openapi/height-lists-api-openapi.yml
+  url: https://artifacts.apis.io/height/openapi/height-lists-api-openapi.yml
 - filename: height-security-log-events-api-openapi.yml
   format: yaml
   label: Height Security Log Events API
   slug: height-security-log-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/openapi/height-security-log-events-api-openapi.yml
+  url: https://artifacts.apis.io/height/openapi/height-security-log-events-api-openapi.yml
 - filename: height-task-forms-api-openapi.yml
   format: yaml
   label: Height Task Forms API
   slug: height-task-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/openapi/height-task-forms-api-openapi.yml
+  url: https://artifacts.apis.io/height/openapi/height-task-forms-api-openapi.yml
 - filename: height-tasks-api-openapi.yml
   format: yaml
   label: Height Tasks API
   slug: height-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/openapi/height-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/height/openapi/height-tasks-api-openapi.yml
 - filename: height-users-api-openapi.yml
   format: yaml
   label: Height Users API
   slug: height-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/openapi/height-users-api-openapi.yml
+  url: https://artifacts.apis.io/height/openapi/height-users-api-openapi.yml
 - filename: height-workspace-api-openapi.yml
   format: yaml
   label: Height Workspace API
   slug: height-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/openapi/height-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/height/openapi/height-workspace-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -84,7 +84,7 @@ source_filename: height-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/height-height-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: |-\n    The Height API uses API keys to authenticate requests. **You can view your API key in the Height settings under API**.\n     ex: `api-key secret_1234`\n  sources:\n  - openapi/height-height-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/authentication/height-authentication.yml
+source_yaml_url: https://artifacts.apis.io/height/authentication/height-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Project Management

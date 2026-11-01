@@ -7,7 +7,7 @@ api_specs:
   label: Qiwi Partner API
   slug: qiwi-partner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qiwi/refs/heads/main/openapi/qiwi-partner-api-openapi.yml
+  url: https://artifacts.apis.io/qiwi/openapi/qiwi-partner-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -33,7 +33,7 @@ source_filename: qiwi-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/qiwi-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/qiwi-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qiwi/refs/heads/main/authentication/qiwi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/qiwi/authentication/qiwi-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Payments

@@ -8,31 +8,31 @@ api_specs:
   label: BetterCloud Events API
   slug: bettercloud-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bettercloud/refs/heads/main/openapi/bettercloud-events-api-openapi.yml
+  url: https://artifacts.apis.io/bettercloud/openapi/bettercloud-events-api-openapi.yml
 - filename: bettercloud-groups-api-openapi.yml
   format: yaml
   label: BetterCloud Groups API
   slug: bettercloud-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bettercloud/refs/heads/main/openapi/bettercloud-groups-api-openapi.yml
+  url: https://artifacts.apis.io/bettercloud/openapi/bettercloud-groups-api-openapi.yml
 - filename: bettercloud-integrations-api-openapi.yml
   format: yaml
   label: BetterCloud Integrations API
   slug: bettercloud-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bettercloud/refs/heads/main/openapi/bettercloud-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/bettercloud/openapi/bettercloud-integrations-api-openapi.yml
 - filename: bettercloud-users-api-openapi.yml
   format: yaml
   label: BetterCloud Users API
   slug: bettercloud-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bettercloud/refs/heads/main/openapi/bettercloud-users-api-openapi.yml
+  url: https://artifacts.apis.io/bettercloud/openapi/bettercloud-users-api-openapi.yml
 - filename: bettercloud-workflows-api-openapi.yml
   format: yaml
   label: BetterCloud Workflows API
   slug: bettercloud-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bettercloud/refs/heads/main/openapi/bettercloud-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/bettercloud/openapi/bettercloud-workflows-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: bettercloud-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bettercloud-platform-api.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: API key authentication. Provide your BetterCloud API key in the X-API-Key header.\n    Keys can be generated from the BetterCloud developer portal.\n  sources:\n  - openapi/bettercloud-platform-api.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bettercloud/refs/heads/main/authentication/bettercloud-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bettercloud/authentication/bettercloud-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Automation

@@ -8,43 +8,43 @@ api_specs:
   label: HeyForm Auth API
   slug: heyform-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-auth-api-openapi.yml
+  url: https://artifacts.apis.io/heyform/openapi/heyform-auth-api-openapi.yml
 - filename: heyform-config-api-openapi.yml
   format: yaml
   label: HeyForm Config API
   slug: heyform-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-config-api-openapi.yml
+  url: https://artifacts.apis.io/heyform/openapi/heyform-config-api-openapi.yml
 - filename: heyform-forms-api-openapi.yml
   format: yaml
   label: HeyForm Forms API
   slug: heyform-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-forms-api-openapi.yml
+  url: https://artifacts.apis.io/heyform/openapi/heyform-forms-api-openapi.yml
 - filename: heyform-images-api-openapi.yml
   format: yaml
   label: HeyForm Images API
   slug: heyform-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-images-api-openapi.yml
+  url: https://artifacts.apis.io/heyform/openapi/heyform-images-api-openapi.yml
 - filename: heyform-submissions-api-openapi.yml
   format: yaml
   label: HeyForm Submissions API
   slug: heyform-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/heyform/openapi/heyform-submissions-api-openapi.yml
 - filename: heyform-upload-api-openapi.yml
   format: yaml
   label: HeyForm Upload API
   slug: heyform-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-upload-api-openapi.yml
+  url: https://artifacts.apis.io/heyform/openapi/heyform-upload-api-openapi.yml
 - filename: heyform-graph-ql-api-openapi.yml
   format: yaml
   label: HeyForm Graph QL API
   slug: heyform-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/heyform/openapi/heyform-graph-ql-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -72,7 +72,7 @@ source_filename: heyform-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/heyform-heyform-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - cookie\nschemes:\n- name: cookieAuth\n  type: apiKey\n  in: cookie\n  parameter: heyform_sid\n  description: Session cookie set by the login mutation or OAuth callback. All authenticated\n    GraphQL mutations and the CSV export endpoint require this cookie.\n  sources:\n  - openapi/heyform-heyform-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/authentication/heyform-authentication.yml
+source_yaml_url: https://artifacts.apis.io/heyform/authentication/heyform-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Forms

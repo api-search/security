@@ -32,7 +32,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: >-\n  Live probe of https://app.fawaterk.com/api/v2/ (Authorization: Bearer challenge)\n  and https://app.fawaterk.com/documentation\nsummary:\n  types: [http]\n  http_schemes: [bearer]\n  api_key_in: [header]\n  oauth2_flows: []\nschemes:\n- name: vendorToken\n  type: http\n  scheme: bearer\n  description: >-\n    Fawaterak/EasyPay authenticates every API call with a vendor API token issued\n    from the merchant dashboard, sent in the HTTP Authorization header as\n    \"Authorization: Bearer <token>\". A missing token returns\n    {\"status\":\"error\",\"message\":{\"token\":[\"Token Is Missing\"]}}; an invalid token\n    returns {\"token\":[\"Invalid Token or inactive vendor.\"]}.\n  in: header\n  header_name: Authorization\n  format: Bearer <vendor-token>\n  sources:\n  - live-probe:https://app.fawaterk.com/api/v2/invoiceInitPay\nnotes: >-\n  No OpenAPI/Swagger spec is published (both /openapi.json and /swagger.json return\n\
   \  the SPA HTML shell). The scheme above was confirmed by live probing the production\n  API host: sending \"Authorization: Bearer [example key]\" changes the error from \"Token Is\n  Missing\" to \"Invalid Token or inactive vendor.\", confirming a header-carried bearer\n  vendor token. No OAuth2/OIDC surface was found.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/easypay/refs/heads/main/authentication/easypay-authentication.yml
+source_yaml_url: https://artifacts.apis.io/easypay/authentication/easypay-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

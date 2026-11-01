@@ -8,61 +8,61 @@ api_specs:
   label: Wealthbox Activity API
   slug: wealthbox-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-activity-api-openapi.yml
+  url: https://artifacts.apis.io/wealthbox/openapi/wealthbox-activity-api-openapi.yml
 - filename: wealthbox-contacts-api-openapi.yml
   format: yaml
   label: Wealthbox Contacts API
   slug: wealthbox-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/wealthbox/openapi/wealthbox-contacts-api-openapi.yml
 - filename: wealthbox-events-api-openapi.yml
   format: yaml
   label: Wealthbox Events API
   slug: wealthbox-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-events-api-openapi.yml
+  url: https://artifacts.apis.io/wealthbox/openapi/wealthbox-events-api-openapi.yml
 - filename: wealthbox-notes-api-openapi.yml
   format: yaml
   label: Wealthbox Notes API
   slug: wealthbox-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-notes-api-openapi.yml
+  url: https://artifacts.apis.io/wealthbox/openapi/wealthbox-notes-api-openapi.yml
 - filename: wealthbox-opportunities-api-openapi.yml
   format: yaml
   label: Wealthbox Opportunities API
   slug: wealthbox-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/wealthbox/openapi/wealthbox-opportunities-api-openapi.yml
 - filename: wealthbox-profile-api-openapi.yml
   format: yaml
   label: Wealthbox Profile API
   slug: wealthbox-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-profile-api-openapi.yml
+  url: https://artifacts.apis.io/wealthbox/openapi/wealthbox-profile-api-openapi.yml
 - filename: wealthbox-tasks-api-openapi.yml
   format: yaml
   label: Wealthbox Tasks API
   slug: wealthbox-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/wealthbox/openapi/wealthbox-tasks-api-openapi.yml
 - filename: wealthbox-teams-api-openapi.yml
   format: yaml
   label: Wealthbox Teams API
   slug: wealthbox-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-teams-api-openapi.yml
+  url: https://artifacts.apis.io/wealthbox/openapi/wealthbox-teams-api-openapi.yml
 - filename: wealthbox-users-api-openapi.yml
   format: yaml
   label: Wealthbox Users API
   slug: wealthbox-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-users-api-openapi.yml
+  url: https://artifacts.apis.io/wealthbox/openapi/wealthbox-users-api-openapi.yml
 - filename: wealthbox-workflows-api-openapi.yml
   format: yaml
   label: Wealthbox Workflows API
   slug: wealthbox-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/wealthbox/openapi/wealthbox-workflows-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -102,7 +102,7 @@ source_filename: wealthbox-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/wealthbox-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: accessToken\n  type: apiKey\n  in: header\n  parameter: ACCESS_TOKEN\n  description: Personal Access Token issued from the Wealthbox account settings.\n  sources:\n  - openapi/wealthbox-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.crmworkspace.com/oauth/authorize\n    tokenUrl: https://app.crmworkspace.com/oauth/token\n    scopes: 2\n  description: OAuth 2.0 authorization code flow for third-party integrations.\n  sources:\n  - openapi/wealthbox-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/authentication/wealthbox-authentication.yml
+source_yaml_url: https://artifacts.apis.io/wealthbox/authentication/wealthbox-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - CRM

@@ -5,31 +5,31 @@ api_specs:
   label: Debezium Cluster API
   slug: debezium-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debezium/refs/heads/main/openapi/debezium-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/debezium/openapi/debezium-cluster-api-openapi.yml
 - filename: debezium-connectors-api-openapi.yml
   format: yaml
   label: Debezium Connectors API
   slug: debezium-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debezium/refs/heads/main/openapi/debezium-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/debezium/openapi/debezium-connectors-api-openapi.yml
 - filename: debezium-offsets-api-openapi.yml
   format: yaml
   label: Debezium Offsets API
   slug: debezium-offsets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debezium/refs/heads/main/openapi/debezium-offsets-api-openapi.yml
+  url: https://artifacts.apis.io/debezium/openapi/debezium-offsets-api-openapi.yml
 - filename: debezium-plugins-api-openapi.yml
   format: yaml
   label: Debezium Plugins API
   slug: debezium-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debezium/refs/heads/main/openapi/debezium-plugins-api-openapi.yml
+  url: https://artifacts.apis.io/debezium/openapi/debezium-plugins-api-openapi.yml
 - filename: debezium-tasks-api-openapi.yml
   format: yaml
   label: Debezium Tasks API
   slug: debezium-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debezium/refs/heads/main/openapi/debezium-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/debezium/openapi/debezium-tasks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: debezium-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: debezium.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 08:15:45 2026 GMT\n  hsts: false\ndomains:\n- domain: debezium.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/debezium/refs/heads/main/security/debezium-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/debezium/security/debezium-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Apache Kafka

@@ -7,25 +7,25 @@ api_specs:
   label: Hello Retail Customer Bias API
   slug: hello-retail-customer-bias-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hello-retail/refs/heads/main/openapi/hello-retail-customer-bias-api-openapi.yml
+  url: https://artifacts.apis.io/hello-retail/openapi/hello-retail-customer-bias-api-openapi.yml
 - filename: hello-retail-pages-api-openapi.yml
   format: yaml
   label: Hello Retail Pages API
   slug: hello-retail-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hello-retail/refs/heads/main/openapi/hello-retail-pages-api-openapi.yml
+  url: https://artifacts.apis.io/hello-retail/openapi/hello-retail-pages-api-openapi.yml
 - filename: hello-retail-recommendations-api-openapi.yml
   format: yaml
   label: Hello Retail Recommendations API
   slug: hello-retail-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hello-retail/refs/heads/main/openapi/hello-retail-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/hello-retail/openapi/hello-retail-recommendations-api-openapi.yml
 - filename: hello-retail-search-api-openapi.yml
   format: yaml
   label: Hello Retail Search API
   slug: hello-retail-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hello-retail/refs/heads/main/openapi/hello-retail-search-api-openapi.yml
+  url: https://artifacts.apis.io/hello-retail/openapi/hello-retail-search-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: hello-retail-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/hello-retail-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: API Key\n  sources:\n  - openapi/hello-retail-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hello-retail/refs/heads/main/authentication/hello-retail-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hello-retail/authentication/hello-retail-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - E-Commerce

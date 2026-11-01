@@ -8,31 +8,31 @@ api_specs:
   label: ShopBack Account Linking API
   slug: shopback-account-linking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/openapi/shopback-account-linking-api-openapi.yml
+  url: https://artifacts.apis.io/shopback/openapi/shopback-account-linking-api-openapi.yml
 - filename: shopback-authentication-api-openapi.yml
   format: yaml
   label: ShopBack Authentication API
   slug: shopback-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/openapi/shopback-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/shopback/openapi/shopback-authentication-api-openapi.yml
 - filename: shopback-notification-api-openapi.yml
   format: yaml
   label: ShopBack Notification API
   slug: shopback-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/openapi/shopback-notification-api-openapi.yml
+  url: https://artifacts.apis.io/shopback/openapi/shopback-notification-api-openapi.yml
 - filename: shopback-orders-api-openapi.yml
   format: yaml
   label: ShopBack Orders API
   slug: shopback-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/openapi/shopback-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shopback/openapi/shopback-orders-api-openapi.yml
 - filename: shopback-pre-auth-api-openapi.yml
   format: yaml
   label: ShopBack Pre Auth API
   slug: shopback-pre-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/openapi/shopback-pre-auth-api-openapi.yml
+  url: https://artifacts.apis.io/shopback/openapi/shopback-pre-auth-api-openapi.yml
 auth_types:
 - http
 - hmac
@@ -117,7 +117,7 @@ source_yaml: "generated: '2026-08-02'\nmethod: searched\nsource: >-\n  derived f
   \  - https://docs.shopback.com/docs/token-validity\n- name: SB1-HMAC-SHA256\n  api: ShopBack In-Store Payments API\n  type: hmac\n  algorithm: HMAC-SHA256\n  encoding: hex\n  header: 'Authorization: SB1-HMAC-SHA256 <accessKeyId>:<hmacSignature>'\n  additional_required_headers:\n  - name: Date\n    description: ISO-8601 UTC timestamp; must be byte-identical to the value used\n      in the signature. Non-UTC offsets or roughly a minute of clock skew expire\n      the signature.\n  - name: Content-Type\n    description: application/json\n  signed_string_order:\n  - HTTP method (uppercase)\n  - request content type\n  - ISO-8601 UTC date-time\n  - fully qualified request path including query parameters\n  - SHA-256 hex digest of the alphabetically key-sorted, stringified JSON body\n  credentials:\n    accessKeyId: identifier paired with the secret\n    accessKeySecret: HMAC signing secret\n    posId: one per terminal, kiosk, cashier register, app or website instance\n    note: Sandbox and\
   \ production credentials differ; production keys are issued at\n      go-live.\n  sources:\n  - https://docs.shopback.com/reference/generating-hmac-signature\n  - https://docs.shopback.com/reference/in-store-getting-started\n  - openapi/shopback-in-store-payments-openapi.yml\n- name: X-ShopBack-App-Token\n  api: ShopBack Online Payments API (tokenized payments, client-side)\n  type: apiKey\n  in: header\n  parameter_name: X-ShopBack-App-Token\n  description: >-\n    Short-lived JWT returned by the link-session endpoint. Passed by the merchant\n    app as a custom header when opening the ShopBack consent page in an in-app\n    browser (SFSafariViewController / Chrome Custom Tabs). Not a server-to-server\n    credential.\n  sources:\n  - https://docs.shopback.com/reference/account-linking-1\n  - openapi/shopback-online-payments-openapi.yml\nbearer_tokens_of_record:\n- name: paymentToken\n  kind: long-lived user payment token\n  description: >-\n    Issued after a user completes the ShopBack\
   \ consent flow; scoped to one user\n    and one merchant channel. States LINKED / UNLINKED. Not an API credential —\n    it is a payment instrument reference sent in the request body.\n  docs: https://docs.shopback.com/reference/account-linking-1\noauth2:\n  supported: false\n  note: >-\n    Account linking is OAuth-shaped (hosted consent page, single-use 60-second\n    auth code, code-for-token exchange, revocation endpoint) but is not an OAuth\n    2.0 profile: there is no authorization-server metadata, no scope model, no\n    refresh token, and /.well-known/oauth-authorization-server returns 404 on\n    every ShopBack host. No scopes/ artifact was written for this reason.\ntransport:\n  https_required: true\n  tls_minimum: TLS 1.2\n  source: https://docs.shopback.com/docs/quickstart-api\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/authentication/shopback-authentication.yml
+source_yaml_url: https://artifacts.apis.io/shopback/authentication/shopback-authentication.yml
 summary_line: http/hmac/apiKey · 3 schemes
 tags:
 - Company

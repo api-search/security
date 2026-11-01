@@ -11,37 +11,37 @@ api_specs:
   label: Honeybadger Check In API
   slug: honeybadger-check-in-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/openapi/honeybadger-check-in-api-openapi.yml
+  url: https://artifacts.apis.io/honeybadger/openapi/honeybadger-check-in-api-openapi.yml
 - filename: honeybadger-deploys-api-openapi.yml
   format: yaml
   label: Honeybadger Deploys API
   slug: honeybadger-deploys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/openapi/honeybadger-deploys-api-openapi.yml
+  url: https://artifacts.apis.io/honeybadger/openapi/honeybadger-deploys-api-openapi.yml
 - filename: honeybadger-events-api-openapi.yml
   format: yaml
   label: Honeybadger Events API
   slug: honeybadger-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/openapi/honeybadger-events-api-openapi.yml
+  url: https://artifacts.apis.io/honeybadger/openapi/honeybadger-events-api-openapi.yml
 - filename: honeybadger-notices-api-openapi.yml
   format: yaml
   label: Honeybadger Notices API
   slug: honeybadger-notices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/openapi/honeybadger-notices-api-openapi.yml
+  url: https://artifacts.apis.io/honeybadger/openapi/honeybadger-notices-api-openapi.yml
 - filename: honeybadger-projects-api-openapi.yml
   format: yaml
   label: Honeybadger Projects API
   slug: honeybadger-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/openapi/honeybadger-projects-api-openapi.yml
+  url: https://artifacts.apis.io/honeybadger/openapi/honeybadger-projects-api-openapi.yml
 - filename: honeybadger-source-maps-api-openapi.yml
   format: yaml
   label: Honeybadger Source Maps API
   slug: honeybadger-source-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/openapi/honeybadger-source-maps-api-openapi.yml
+  url: https://artifacts.apis.io/honeybadger/openapi/honeybadger-source-maps-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -60,7 +60,7 @@ source_filename: honeybadger-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.honeybadger.io/security/\nurl: https://www.honeybadger.io/security/\ncertifications:\n- SOC 2\n- HIPAA\n- GDPR\nevidence:\n- source: https://www.honeybadger.io/security/\n  keywords:\n  - soc 2\n  - soc2\n  - hipaa\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/security/honeybadger-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/honeybadger/security/honeybadger-trust-center.yml
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Error Monitoring

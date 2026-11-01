@@ -5,43 +5,43 @@ api_specs:
   label: CyberArk Identity Authentication API
   slug: cyberark-identity-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/openapi/cyberark-identity-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark-identity/openapi/cyberark-identity-authentication-api-openapi.yml
 - filename: cyberark-identity-cdirectoryservice-api-openapi.yml
   format: yaml
   label: CyberArk Identity CDirectoryService API
   slug: cyberark-identity-cdirectoryservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/openapi/cyberark-identity-cdirectoryservice-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark-identity/openapi/cyberark-identity-cdirectoryservice-api-openapi.yml
 - filename: cyberark-identity-extdata-api-openapi.yml
   format: yaml
   label: CyberArk Identity ExtData API
   slug: cyberark-identity-extdata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/openapi/cyberark-identity-extdata-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark-identity/openapi/cyberark-identity-extdata-api-openapi.yml
 - filename: cyberark-identity-org-api-openapi.yml
   format: yaml
   label: CyberArk Identity Org API
   slug: cyberark-identity-org-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/openapi/cyberark-identity-org-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark-identity/openapi/cyberark-identity-org-api-openapi.yml
 - filename: cyberark-identity-scim-api-openapi.yml
   format: yaml
   label: CyberArk Identity SCIM API
   slug: cyberark-identity-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/openapi/cyberark-identity-scim-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark-identity/openapi/cyberark-identity-scim-api-openapi.yml
 - filename: cyberark-identity-usermgmt-api-openapi.yml
   format: yaml
   label: CyberArk Identity UserMgmt API
   slug: cyberark-identity-usermgmt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/openapi/cyberark-identity-usermgmt-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark-identity/openapi/cyberark-identity-usermgmt-api-openapi.yml
 - filename: cyberark-identity-oauth-api-openapi.yml
   format: yaml
   label: CyberArk Identity O Auth API
   slug: cyberark-identity-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/openapi/cyberark-identity-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark-identity/openapi/cyberark-identity-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -85,7 +85,7 @@ source_filename: cyberark-identity-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cyberark.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 14:43:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api-docs-identity.cyberark.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 14:43:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: <tenant>.id.cyberark.cloud\n  https: false\ndomains:\n- domain: cyberark.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: cyberark.cloud\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/security/cyberark-identity-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cyberark-identity/security/cyberark-identity-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Identity

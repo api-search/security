@@ -5,7 +5,7 @@ api_specs:
   label: OpenTopography API Public API
   slug: opentopography-api-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentopography-api/refs/heads/main/openapi/opentopography-api-public-api-openapi.yml
+  url: https://artifacts.apis.io/opentopography-api/openapi/opentopography-api-public-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,7 +39,7 @@ source_filename: opentopography-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: opentopography.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 14:51:04 2026 GMT\n  hsts: false\n- host: portal.opentopography.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 09:31:36 2026 GMT\n  hsts: false\ndomains:\n- domain: opentopography.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opentopography-api/refs/heads/main/security/opentopography-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/opentopography-api/security/opentopography-api-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - DEM

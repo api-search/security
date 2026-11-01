@@ -5,43 +5,43 @@ api_specs:
   label: Tripleseat Accounts API
   slug: tripleseat-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/tripleseat/openapi/tripleseat-accounts-api-openapi.yml
 - filename: tripleseat-contacts-api-openapi.yml
   format: yaml
   label: Tripleseat Contacts API
   slug: tripleseat-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/tripleseat/openapi/tripleseat-contacts-api-openapi.yml
 - filename: tripleseat-events-api-openapi.yml
   format: yaml
   label: Tripleseat Events API
   slug: tripleseat-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-events-api-openapi.yml
+  url: https://artifacts.apis.io/tripleseat/openapi/tripleseat-events-api-openapi.yml
 - filename: tripleseat-leads-api-openapi.yml
   format: yaml
   label: Tripleseat Leads API
   slug: tripleseat-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-leads-api-openapi.yml
+  url: https://artifacts.apis.io/tripleseat/openapi/tripleseat-leads-api-openapi.yml
 - filename: tripleseat-locations-api-openapi.yml
   format: yaml
   label: Tripleseat Locations API
   slug: tripleseat-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-locations-api-openapi.yml
+  url: https://artifacts.apis.io/tripleseat/openapi/tripleseat-locations-api-openapi.yml
 - filename: tripleseat-sites-api-openapi.yml
   format: yaml
   label: Tripleseat Sites API
   slug: tripleseat-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-sites-api-openapi.yml
+  url: https://artifacts.apis.io/tripleseat/openapi/tripleseat-sites-api-openapi.yml
 - filename: tripleseat-users-api-openapi.yml
   format: yaml
   label: Tripleseat Users API
   slug: tripleseat-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-users-api-openapi.yml
+  url: https://artifacts.apis.io/tripleseat/openapi/tripleseat-users-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -59,7 +59,7 @@ source_filename: tripleseat-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.tripleseat.com/\nurl: https://trust.tripleseat.com/\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://trust.tripleseat.com/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/security/tripleseat-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/tripleseat/security/tripleseat-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Restaurant

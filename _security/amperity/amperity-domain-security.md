@@ -5,31 +5,31 @@ api_specs:
   label: Amperity Audit Events API
   slug: amperity-audit-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/openapi/amperity-audit-events-api-openapi.yml
+  url: https://artifacts.apis.io/amperity/openapi/amperity-audit-events-api-openapi.yml
 - filename: amperity-campaigns-api-openapi.yml
   format: yaml
   label: Amperity Campaigns API
   slug: amperity-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/openapi/amperity-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/amperity/openapi/amperity-campaigns-api-openapi.yml
 - filename: amperity-ingest-api-openapi.yml
   format: yaml
   label: Amperity Ingest API
   slug: amperity-ingest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/openapi/amperity-ingest-api-openapi.yml
+  url: https://artifacts.apis.io/amperity/openapi/amperity-ingest-api-openapi.yml
 - filename: amperity-segments-api-openapi.yml
   format: yaml
   label: Amperity Segments API
   slug: amperity-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/openapi/amperity-segments-api-openapi.yml
+  url: https://artifacts.apis.io/amperity/openapi/amperity-segments-api-openapi.yml
 - filename: amperity-workflow-api-openapi.yml
   format: yaml
   label: Amperity Workflow API
   slug: amperity-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/openapi/amperity-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/amperity/openapi/amperity-workflow-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: amperity-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.amperity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 11:53:56 2026 GMT\n  hsts: null\n- host: docs.amperity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 10 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.amperity.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 19 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: amperity.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/security/amperity-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amperity/security/amperity-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

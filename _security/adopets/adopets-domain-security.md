@@ -5,19 +5,19 @@ api_specs:
   label: Adopets Payment Request API
   slug: adopets-payment-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/openapi/adopets-payment-request-api-openapi.yml
+  url: https://artifacts.apis.io/adopets/openapi/adopets-payment-request-api-openapi.yml
 - filename: adopets-payment-transaction-api-openapi.yml
   format: yaml
   label: Adopets Payment Transaction API
   slug: adopets-payment-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/openapi/adopets-payment-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/adopets/openapi/adopets-payment-transaction-api-openapi.yml
 - filename: adopets-system-auth-api-openapi.yml
   format: yaml
   label: Adopets System Auth API
   slug: adopets-system-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/openapi/adopets-system-auth-api-openapi.yml
+  url: https://artifacts.apis.io/adopets/openapi/adopets-system-auth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -60,7 +60,7 @@ source_filename: adopets-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: adopets.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  4 23:59:59 2027 GMT\n  hsts: false\n- host: service.api.dev.adopets.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: service.api.adopets.app\n  https: false\ndomains:\n- domain: adopets.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n- domain: adopets.app\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/security/adopets-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/adopets/security/adopets-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Pet Adoption

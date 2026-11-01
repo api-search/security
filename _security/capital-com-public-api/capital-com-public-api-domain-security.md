@@ -5,49 +5,49 @@ api_specs:
   label: Capital.com WebSocket API
   slug: capital-com-websocket-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capital-com-public-api/refs/heads/main/asyncapi/capital-com-public-api-asyncapi.yml
+  url: https://artifacts.apis.io/capital-com-public-api/asyncapi/capital-com-public-api-asyncapi.yml
 - filename: capital-com-public-api-accounts-api-openapi.yml
   format: yaml
   label: Capital.com Public API Accounts API
   slug: capital-com-public-api-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capital-com-public-api/refs/heads/main/openapi/capital-com-public-api-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/capital-com-public-api/openapi/capital-com-public-api-accounts-api-openapi.yml
 - filename: capital-com-public-api-general-api-openapi.yml
   format: yaml
   label: Capital.com Public API General API
   slug: capital-com-public-api-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capital-com-public-api/refs/heads/main/openapi/capital-com-public-api-general-api-openapi.yml
+  url: https://artifacts.apis.io/capital-com-public-api/openapi/capital-com-public-api-general-api-openapi.yml
 - filename: capital-com-public-api-history-api-openapi.yml
   format: yaml
   label: Capital.com Public API History API
   slug: capital-com-public-api-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capital-com-public-api/refs/heads/main/openapi/capital-com-public-api-history-api-openapi.yml
+  url: https://artifacts.apis.io/capital-com-public-api/openapi/capital-com-public-api-history-api-openapi.yml
 - filename: capital-com-public-api-markets-api-openapi.yml
   format: yaml
   label: Capital.com Public API Markets API
   slug: capital-com-public-api-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capital-com-public-api/refs/heads/main/openapi/capital-com-public-api-markets-api-openapi.yml
+  url: https://artifacts.apis.io/capital-com-public-api/openapi/capital-com-public-api-markets-api-openapi.yml
 - filename: capital-com-public-api-positions-api-openapi.yml
   format: yaml
   label: Capital.com Public API Positions API
   slug: capital-com-public-api-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capital-com-public-api/refs/heads/main/openapi/capital-com-public-api-positions-api-openapi.yml
+  url: https://artifacts.apis.io/capital-com-public-api/openapi/capital-com-public-api-positions-api-openapi.yml
 - filename: capital-com-public-api-session-api-openapi.yml
   format: yaml
   label: Capital.com Public API Session API
   slug: capital-com-public-api-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capital-com-public-api/refs/heads/main/openapi/capital-com-public-api-session-api-openapi.yml
+  url: https://artifacts.apis.io/capital-com-public-api/openapi/capital-com-public-api-session-api-openapi.yml
 - filename: capital-com-public-api-working-orders-api-openapi.yml
   format: yaml
   label: Capital.com Public API Working Orders API
   slug: capital-com-public-api-working-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capital-com-public-api/refs/heads/main/openapi/capital-com-public-api-working-orders-api-openapi.yml
+  url: https://artifacts.apis.io/capital-com-public-api/openapi/capital-com-public-api-working-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -93,7 +93,7 @@ source_filename: capital-com-public-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: capital.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 25 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: open-api.capital.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 10:14:34 2026 GMT\n  hsts: false\n- host: api-capital.backend-capital.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 25 11:30:14 2026 GMT\n  hsts: null\ndomains:\n- domain: capital.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: backend-capital.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/capital-com-public-api/refs/heads/main/security/capital-com-public-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/capital-com-public-api/security/capital-com-public-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - CFD

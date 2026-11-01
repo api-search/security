@@ -7,31 +7,31 @@ api_specs:
   label: Stanley Black & Decker Assets API
   slug: stanley-black-and-decker-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stanley-black-and-decker/refs/heads/main/openapi/stanley-black-and-decker-assets-api-openapi.yml
+  url: https://artifacts.apis.io/stanley-black-and-decker/openapi/stanley-black-and-decker-assets-api-openapi.yml
 - filename: stanley-black-and-decker-batteries-api-openapi.yml
   format: yaml
   label: Stanley Black & Decker Batteries API
   slug: stanley-black-and-decker-batteries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stanley-black-and-decker/refs/heads/main/openapi/stanley-black-and-decker-batteries-api-openapi.yml
+  url: https://artifacts.apis.io/stanley-black-and-decker/openapi/stanley-black-and-decker-batteries-api-openapi.yml
 - filename: stanley-black-and-decker-jobsites-api-openapi.yml
   format: yaml
   label: Stanley Black & Decker Jobsites API
   slug: stanley-black-and-decker-jobsites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stanley-black-and-decker/refs/heads/main/openapi/stanley-black-and-decker-jobsites-api-openapi.yml
+  url: https://artifacts.apis.io/stanley-black-and-decker/openapi/stanley-black-and-decker-jobsites-api-openapi.yml
 - filename: stanley-black-and-decker-tools-api-openapi.yml
   format: yaml
   label: Stanley Black & Decker Tools API
   slug: stanley-black-and-decker-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stanley-black-and-decker/refs/heads/main/openapi/stanley-black-and-decker-tools-api-openapi.yml
+  url: https://artifacts.apis.io/stanley-black-and-decker/openapi/stanley-black-and-decker-tools-api-openapi.yml
 - filename: stanley-black-and-decker-users-api-openapi.yml
   format: yaml
   label: Stanley Black & Decker Users API
   slug: stanley-black-and-decker-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stanley-black-and-decker/refs/heads/main/openapi/stanley-black-and-decker-users-api-openapi.yml
+  url: https://artifacts.apis.io/stanley-black-and-decker/openapi/stanley-black-and-decker-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: stanley-black-and-decker-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/stanley-black-and-decker-tool-connect-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/stanley-black-and-decker-tool-connect-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stanley-black-and-decker/refs/heads/main/authentication/stanley-black-and-decker-authentication.yml
+source_yaml_url: https://artifacts.apis.io/stanley-black-and-decker/authentication/stanley-black-and-decker-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Tools

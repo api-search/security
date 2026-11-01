@@ -23,7 +23,7 @@ source_filename: go-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gosubscription.com\n  https: false\ndomains:\n- domain: gosubscription.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/go/refs/heads/main/security/go-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/go/security/go-domain-security.yml
 summary_line: DNSSEC
 tags:
 - Company

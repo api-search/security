@@ -5,19 +5,19 @@ api_specs:
   label: US Department of Commerce Blogs API
   slug: us-department-of-commerce-blogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-commerce/refs/heads/main/openapi/us-department-of-commerce-blogs-api-openapi.yml
+  url: https://artifacts.apis.io/us-department-of-commerce/openapi/us-department-of-commerce-blogs-api-openapi.yml
 - filename: us-department-of-commerce-images-api-openapi.yml
   format: yaml
   label: US Department of Commerce Images API
   slug: us-department-of-commerce-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-commerce/refs/heads/main/openapi/us-department-of-commerce-images-api-openapi.yml
+  url: https://artifacts.apis.io/us-department-of-commerce/openapi/us-department-of-commerce-images-api-openapi.yml
 - filename: us-department-of-commerce-news-api-openapi.yml
   format: yaml
   label: US Department of Commerce News API
   slug: us-department-of-commerce-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-commerce/refs/heads/main/openapi/us-department-of-commerce-news-api-openapi.yml
+  url: https://artifacts.apis.io/us-department-of-commerce/openapi/us-department-of-commerce-news-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: us-department-of-commerce-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.commerce.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 01:39:28 2026 GMT\n  hsts: null\n- host: www.census.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 23:56:12 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apps.bea.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 22 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: commerce.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: census.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-department-of-commerce/refs/heads/main/security/us-department-of-commerce-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/us-department-of-commerce/security/us-department-of-commerce-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Commerce

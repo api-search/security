@@ -7,37 +7,37 @@ api_specs:
   label: Ariba Invoices API
   slug: ariba-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ariba/refs/heads/main/openapi/ariba-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/ariba/openapi/ariba-invoices-api-openapi.yml
 - filename: ariba-purchase-order-line-items-api-openapi.yml
   format: yaml
   label: Ariba Purchase Order Line Items API
   slug: ariba-purchase-order-line-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ariba/refs/heads/main/openapi/ariba-purchase-order-line-items-api-openapi.yml
+  url: https://artifacts.apis.io/ariba/openapi/ariba-purchase-order-line-items-api-openapi.yml
 - filename: ariba-purchase-orders-api-openapi.yml
   format: yaml
   label: Ariba Purchase Orders API
   slug: ariba-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ariba/refs/heads/main/openapi/ariba-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ariba/openapi/ariba-purchase-orders-api-openapi.yml
 - filename: ariba-receipts-api-openapi.yml
   format: yaml
   label: Ariba Receipts API
   slug: ariba-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ariba/refs/heads/main/openapi/ariba-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/ariba/openapi/ariba-receipts-api-openapi.yml
 - filename: ariba-requisitions-api-openapi.yml
   format: yaml
   label: Ariba Requisitions API
   slug: ariba-requisitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ariba/refs/heads/main/openapi/ariba-requisitions-api-openapi.yml
+  url: https://artifacts.apis.io/ariba/openapi/ariba-requisitions-api-openapi.yml
 - filename: ariba-suppliers-api-openapi.yml
   format: yaml
   label: Ariba Suppliers API
   slug: ariba-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ariba/refs/heads/main/openapi/ariba-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/ariba/openapi/ariba-suppliers-api-openapi.yml
 auth_types: []
 description: Authentication profile for the SAP Ariba API gateway, read from SAP's own developer-portal help set. There is no OpenAPI to derive securitySchemes from - SAP does not publish a machine-readable contract for these APIs anonymously - so every scheme below is transcribed from a cited documentation page rather than from a spec.
 kind: authentication
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-08-29'\nmethod: searched\nsource: https://help.sa
   \ developer-portal authentication help set, so client-certificate\n      mutual authentication is an available option for registered applications.\n    docs: https://help.sap.com/docs/ARIBA_APIS/b61dd8c7e22c4fe489f191f66b4c48d6/c61ddbd093c1498aae76e42ffaf37e21.html\nrequest_shape:\n  example: >-\n    curl -X GET 'https://openapi.ariba.com/api/approval/{version}/{environment}/...?realm=myRealm&limit=5&offset=0&needTotal=false'\n    -H 'accept: application/json' -H 'apiKey: <api_key>' -H 'Authorization: Bearer <access_token>'\n  source: https://help.sap.com/docs/ARIBA_APIS/b61dd8c7e22c4fe489f191f66b4c48d6/583fd26833af47f4b38cfe7d5443f243.html\n  required_query_parameter:\n    name: realm\n    description: >-\n      Nearly every SAP Ariba API requires a realm (site name) query parameter\n      identifying the customer tenant. It is part of authorization, not just routing -\n      SAP documents a 401 reading \"This client id: {ID} is not authorized to access the\n      realm: {realm} for this\
   \ API\".\nscopes:\n  published: false\n  note: >-\n    SAP's error catalogue proves OAuth scopes exist - \"The token scopes are not\n    supported by the API - Your client application is not authorized to use the API\n    endpoints associated with this scope\" (401) - but SAP does not publish a scope\n    reference anonymously. Scopes are bound to an application when an administrator\n    approves its API-access request on the developer portal. No scopes/ artifact is\n    written rather than an empty one; see the Conventions artifact.\n  evidence: https://help.sap.com/docs/ARIBA_APIS/c1aedced5c044a41b84be5312db93fc1/0607784ed86d45eeb137aab8470c096e.html\nonboarding:\n  gate: >-\n    \"Only applications approved by the SAP Ariba APIs administration can execute OAuth\n    authentication.\" Registration on the developer portal creates an application; an\n    Organization admin then requests API access, and production credentials are issued\n    only after approval. This is a human approval\
   \ gate on the credential path, not a\n    self-serve key.\n  docs: https://help.sap.com/docs/ARIBA_APIS/b61dd8c7e22c4fe489f191f66b4c48d6/5124973951a54a05a6cfaab3243e9a47.html\ncredential_handling_guidance:\n  source: https://help.sap.com/docs/ARIBA_APIS/b61dd8c7e22c4fe489f191f66b4c48d6/88e991ccca584d93ba4d4d2951e409fa.html\n  note: >-\n    SAP publishes an explicit credential-storage page telling integrators not to store\n    the OAuth client secret or the Base64-encoded client-and-secret in a database, and\n    warning that regulatory compliance may require stronger key storage.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n    url: https://apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ariba/refs/heads/main/authentication/ariba-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ariba/authentication/ariba-authentication.yml
 summary_line: 4 schemes
 tags:
 - B2B

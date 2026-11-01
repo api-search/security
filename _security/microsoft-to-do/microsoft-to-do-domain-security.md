@@ -5,25 +5,25 @@ api_specs:
   label: Microsoft to Do LinkedResources API
   slug: microsoft-to-do-linkedresources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-to-do/refs/heads/main/openapi/microsoft-to-do-linkedresources-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-to-do/openapi/microsoft-to-do-linkedresources-api-openapi.yml
 - filename: microsoft-to-do-tasklists-api-openapi.yml
   format: yaml
   label: Microsoft to Do TaskLists API
   slug: microsoft-to-do-tasklists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-to-do/refs/heads/main/openapi/microsoft-to-do-tasklists-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-to-do/openapi/microsoft-to-do-tasklists-api-openapi.yml
 - filename: microsoft-to-do-tasks-api-openapi.yml
   format: yaml
   label: Microsoft to Do Tasks API
   slug: microsoft-to-do-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-to-do/refs/heads/main/openapi/microsoft-to-do-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-to-do/openapi/microsoft-to-do-tasks-api-openapi.yml
 - filename: microsoft-to-do-checklist-items-api-openapi.yml
   format: yaml
   label: Microsoft to Do Checklist Items API
   slug: microsoft-to-do-checklist-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-to-do/refs/heads/main/openapi/microsoft-to-do-checklist-items-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-to-do/openapi/microsoft-to-do-checklist-items-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -64,7 +64,7 @@ source_filename: microsoft-to-do-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: to-do.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 21 07:10:40 2026 GMT\n  hsts: null\n- host: www.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 17 19:55:21 2027 GMT\n  hsts: false\n- host: learn.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 02:26:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-to-do/refs/heads/main/security/microsoft-to-do-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-to-do/security/microsoft-to-do-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Microsoft

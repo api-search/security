@@ -5,13 +5,13 @@ api_specs:
   label: Cover Genius Bookings API
   slug: cover-genius-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cover-genius/refs/heads/main/openapi/cover-genius-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/cover-genius/openapi/cover-genius-bookings-api-openapi.yml
 - filename: cover-genius-offers-api-openapi.yml
   format: yaml
   label: Cover Genius Offers API
   slug: cover-genius-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cover-genius/refs/heads/main/openapi/cover-genius-offers-api-openapi.yml
+  url: https://artifacts.apis.io/cover-genius/openapi/cover-genius-offers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: cover-genius-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.covergenius.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 20:00:46 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: partner-docs.covergenius.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 15:12:01 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.xcover.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 21:44:43 2026 GMT\n  hsts: null\ndomains:\n- domain: covergenius.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: xcover.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cover-genius/refs/heads/main/security/cover-genius-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cover-genius/security/cover-genius-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance

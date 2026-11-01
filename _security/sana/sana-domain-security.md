@@ -5,61 +5,61 @@ api_specs:
   label: Sana Assignments API
   slug: sana-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/sana/openapi/sana-assignments-api-openapi.yml
 - filename: sana-authentication-api-openapi.yml
   format: yaml
   label: Sana Authentication API
   slug: sana-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sana/openapi/sana-authentication-api-openapi.yml
 - filename: sana-courses-api-openapi.yml
   format: yaml
   label: Sana Courses API
   slug: sana-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-courses-api-openapi.yml
+  url: https://artifacts.apis.io/sana/openapi/sana-courses-api-openapi.yml
 - filename: sana-groups-api-openapi.yml
   format: yaml
   label: Sana Groups API
   slug: sana-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-groups-api-openapi.yml
+  url: https://artifacts.apis.io/sana/openapi/sana-groups-api-openapi.yml
 - filename: sana-paths-api-openapi.yml
   format: yaml
   label: Sana Paths API
   slug: sana-paths-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-paths-api-openapi.yml
+  url: https://artifacts.apis.io/sana/openapi/sana-paths-api-openapi.yml
 - filename: sana-programs-api-openapi.yml
   format: yaml
   label: Sana Programs API
   slug: sana-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-programs-api-openapi.yml
+  url: https://artifacts.apis.io/sana/openapi/sana-programs-api-openapi.yml
 - filename: sana-reporting-api-openapi.yml
   format: yaml
   label: Sana Reporting API
   slug: sana-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/sana/openapi/sana-reporting-api-openapi.yml
 - filename: sana-teamspaces-api-openapi.yml
   format: yaml
   label: Sana Teamspaces API
   slug: sana-teamspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-teamspaces-api-openapi.yml
+  url: https://artifacts.apis.io/sana/openapi/sana-teamspaces-api-openapi.yml
 - filename: sana-users-api-openapi.yml
   format: yaml
   label: Sana Users API
   slug: sana-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-users-api-openapi.yml
+  url: https://artifacts.apis.io/sana/openapi/sana-users-api-openapi.yml
 - filename: sana-x-api-api-openapi.yml
   format: yaml
   label: Sana x API
   slug: sana-x-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-x-api-api-openapi.yml
+  url: https://artifacts.apis.io/sana/openapi/sana-x-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -105,7 +105,7 @@ source_filename: sana-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sanalabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 04:13:46 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.sana.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 08:49:35 2026 GMT\n  hsts: null\n- host: app.sana.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 08:49:35 2026 GMT\n  hsts: null\ndomains:\n- domain: sanalabs.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: sana.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/security/sana-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sana/security/sana-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

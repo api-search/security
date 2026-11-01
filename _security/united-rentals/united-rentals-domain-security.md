@@ -5,31 +5,31 @@ api_specs:
   label: United Rentals Equipment API
   slug: united-rentals-equipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/openapi/united-rentals-equipment-api-openapi.yml
+  url: https://artifacts.apis.io/united-rentals/openapi/united-rentals-equipment-api-openapi.yml
 - filename: united-rentals-fleet-api-openapi.yml
   format: yaml
   label: United Rentals Fleet API
   slug: united-rentals-fleet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/openapi/united-rentals-fleet-api-openapi.yml
+  url: https://artifacts.apis.io/united-rentals/openapi/united-rentals-fleet-api-openapi.yml
 - filename: united-rentals-invoices-api-openapi.yml
   format: yaml
   label: United Rentals Invoices API
   slug: united-rentals-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/openapi/united-rentals-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/united-rentals/openapi/united-rentals-invoices-api-openapi.yml
 - filename: united-rentals-locations-api-openapi.yml
   format: yaml
   label: United Rentals Locations API
   slug: united-rentals-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/openapi/united-rentals-locations-api-openapi.yml
+  url: https://artifacts.apis.io/united-rentals/openapi/united-rentals-locations-api-openapi.yml
 - filename: united-rentals-rentals-api-openapi.yml
   format: yaml
   label: United Rentals API
   slug: united-rentals-rentals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/openapi/united-rentals-rentals-api-openapi.yml
+  url: https://artifacts.apis.io/united-rentals/openapi/united-rentals-rentals-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -61,7 +61,7 @@ source_filename: united-rentals-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.unitedrentals.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 13 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 0\n- host: api.unitedrentals.com\n  https: false\ndomains:\n- domain: unitedrentals.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/security/united-rentals-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/united-rentals/security/united-rentals-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Equipment Rental

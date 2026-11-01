@@ -5,19 +5,19 @@ api_specs:
   label: Zoho Desk Agents API
   slug: zoho-desk-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-desk/refs/heads/main/openapi/zoho-desk-agents-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-desk/openapi/zoho-desk-agents-api-openapi.yml
 - filename: zoho-desk-contacts-api-openapi.yml
   format: yaml
   label: Zoho Desk Contacts API
   slug: zoho-desk-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-desk/refs/heads/main/openapi/zoho-desk-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-desk/openapi/zoho-desk-contacts-api-openapi.yml
 - filename: zoho-desk-tickets-api-openapi.yml
   format: yaml
   label: Zoho Desk Tickets API
   slug: zoho-desk-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-desk/refs/heads/main/openapi/zoho-desk-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-desk/openapi/zoho-desk-tickets-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -55,7 +55,7 @@ source_filename: zoho-desk-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.zoho.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 64072000\n- host: desk.zoho.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: zoho.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-desk/refs/heads/main/security/zoho-desk-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zoho-desk/security/zoho-desk-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Customer Service

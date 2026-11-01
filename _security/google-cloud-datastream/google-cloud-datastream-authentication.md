@@ -7,19 +7,19 @@ api_specs:
   label: Google Cloud Datastream Operations API
   slug: google-cloud-datastream-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-datastream/refs/heads/main/openapi/google-cloud-datastream-operations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-datastream/openapi/google-cloud-datastream-operations-api-openapi.yml
 - filename: google-cloud-datastream-streams-api-openapi.yml
   format: yaml
   label: Google Cloud Datastream Streams API
   slug: google-cloud-datastream-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-datastream/refs/heads/main/openapi/google-cloud-datastream-streams-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-datastream/openapi/google-cloud-datastream-streams-api-openapi.yml
 - filename: google-cloud-datastream-connection-profiles-api-openapi.yml
   format: yaml
   label: Google Cloud Datastream Connection Profiles API
   slug: google-cloud-datastream-connection-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-datastream/refs/heads/main/openapi/google-cloud-datastream-connection-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-datastream/openapi/google-cloud-datastream-connection-profiles-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -50,7 +50,7 @@ source_filename: google-cloud-datastream-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/google-cloud-datastream-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 1\n  sources:\n  - openapi/google-cloud-datastream-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-datastream/refs/heads/main/authentication/google-cloud-datastream-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-datastream/authentication/google-cloud-datastream-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Change Data Capture

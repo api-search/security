@@ -5,31 +5,31 @@ api_specs:
   label: Whimsical Comments.list API
   slug: whimsical-comments-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whimsical/refs/heads/main/openapi/whimsical-comments-list-api-openapi.yml
+  url: https://artifacts.apis.io/whimsical/openapi/whimsical-comments-list-api-openapi.yml
 - filename: whimsical-files-get-api-openapi.yml
   format: yaml
   label: Whimsical Files.get API
   slug: whimsical-files-get-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whimsical/refs/heads/main/openapi/whimsical-files-get-api-openapi.yml
+  url: https://artifacts.apis.io/whimsical/openapi/whimsical-files-get-api-openapi.yml
 - filename: whimsical-files-list-api-openapi.yml
   format: yaml
   label: Whimsical Files.list API
   slug: whimsical-files-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whimsical/refs/heads/main/openapi/whimsical-files-list-api-openapi.yml
+  url: https://artifacts.apis.io/whimsical/openapi/whimsical-files-list-api-openapi.yml
 - filename: whimsical-teams-list-api-openapi.yml
   format: yaml
   label: Whimsical Teams.list API
   slug: whimsical-teams-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whimsical/refs/heads/main/openapi/whimsical-teams-list-api-openapi.yml
+  url: https://artifacts.apis.io/whimsical/openapi/whimsical-teams-list-api-openapi.yml
 - filename: whimsical-users-get-api-openapi.yml
   format: yaml
   label: Whimsical Users.get API
   slug: whimsical-users-get-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whimsical/refs/heads/main/openapi/whimsical-users-get-api-openapi.yml
+  url: https://artifacts.apis.io/whimsical/openapi/whimsical-users-get-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -64,7 +64,7 @@ source_filename: whimsical-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: whimsical.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 16:57:49 2026 GMT\n  hsts: false\ndomains:\n- domain: whimsical.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whimsical/refs/heads/main/security/whimsical-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/whimsical/security/whimsical-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Collaboration

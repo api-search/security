@@ -29,7 +29,7 @@ source_filename: verifier-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: verifier.meetchopra.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 12:49:50 2026 GMT\n  hsts: null\ndomains:\n- domain: meetchopra.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/verifier/refs/heads/main/security/verifier-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/verifier/security/verifier-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Email

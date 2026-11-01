@@ -5,13 +5,13 @@ api_specs:
   label: Resultid Endpoints API
   slug: resultid-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resultid/refs/heads/main/openapi/resultid-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/resultid/openapi/resultid-endpoints-api-openapi.yml
 - filename: resultid-insight-endpoints-api-openapi.yml
   format: yaml
   label: Resultid Insight endpoints API
   slug: resultid-insight-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resultid/refs/heads/main/openapi/resultid-insight-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/resultid/openapi/resultid-insight-endpoints-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: resultid-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.resultid.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 23:59:59 2026 GMT\n  hsts: false\n- host: docs.resultid.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 15 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: resultid.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: resultid.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/resultid/refs/heads/main/security/resultid-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/resultid/security/resultid-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

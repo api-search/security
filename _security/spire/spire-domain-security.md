@@ -5,25 +5,25 @@ api_specs:
   label: SPIRE Workload API
   slug: spire-workload-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spire/refs/heads/main/asyncapi/spire-workload-asyncapi.yml
+  url: https://artifacts.apis.io/spire/asyncapi/spire-workload-asyncapi.yml
 - filename: spire-discovery-api-openapi.yml
   format: yaml
   label: SPIRE Discovery API
   slug: spire-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spire/refs/heads/main/openapi/spire-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/spire/openapi/spire-discovery-api-openapi.yml
 - filename: spire-health-api-openapi.yml
   format: yaml
   label: SPIRE Health API
   slug: spire-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spire/refs/heads/main/openapi/spire-health-api-openapi.yml
+  url: https://artifacts.apis.io/spire/openapi/spire-health-api-openapi.yml
 - filename: spire-keys-api-openapi.yml
   format: yaml
   label: SPIRE Keys API
   slug: spire-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spire/refs/heads/main/openapi/spire-keys-api-openapi.yml
+  url: https://artifacts.apis.io/spire/openapi/spire-keys-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: spire-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: spiffe.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 05:17:40 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: spiffe.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spire/refs/heads/main/security/spire-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/spire/security/spire-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Authentication

@@ -5,7 +5,7 @@ api_specs:
   label: Hypertune Graph QL API
   slug: hypertune-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypertune/refs/heads/main/openapi/hypertune-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/hypertune/openapi/hypertune-graph-ql-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: hypertune-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hypertune.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 07:05:48 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.hypertune.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 20:12:31 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: edge.hypertune.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 13:03:13 2026 GMT\n  hsts: null\ndomains:\n- domain: hypertune.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hypertune/refs/heads/main/security/hypertune-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hypertune/security/hypertune-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Feature Flags

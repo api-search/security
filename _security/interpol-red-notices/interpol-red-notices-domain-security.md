@@ -27,7 +27,7 @@ source_filename: interpol-red-notices-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: interpol.api.bund.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 05:48:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\ndomains:\n- domain: bund.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/interpol-red-notices/refs/heads/main/security/interpol-red-notices-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/interpol-red-notices/security/interpol-red-notices-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Government

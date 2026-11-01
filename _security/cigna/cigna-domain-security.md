@@ -5,91 +5,91 @@ api_specs:
   label: Cigna Bulk Data API
   slug: cigna-bulk-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-bulk-data-api-openapi.yml
+  url: https://artifacts.apis.io/cigna/openapi/cigna-bulk-data-api-openapi.yml
 - filename: cigna-condition-api-openapi.yml
   format: yaml
   label: Cigna Condition API
   slug: cigna-condition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-condition-api-openapi.yml
+  url: https://artifacts.apis.io/cigna/openapi/cigna-condition-api-openapi.yml
 - filename: cigna-coverage-api-openapi.yml
   format: yaml
   label: Cigna Coverage API
   slug: cigna-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/cigna/openapi/cigna-coverage-api-openapi.yml
 - filename: cigna-encounter-api-openapi.yml
   format: yaml
   label: Cigna Encounter API
   slug: cigna-encounter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-encounter-api-openapi.yml
+  url: https://artifacts.apis.io/cigna/openapi/cigna-encounter-api-openapi.yml
 - filename: cigna-explanationofbenefit-api-openapi.yml
   format: yaml
   label: Cigna ExplanationOfBenefit API
   slug: cigna-explanationofbenefit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-explanationofbenefit-api-openapi.yml
+  url: https://artifacts.apis.io/cigna/openapi/cigna-explanationofbenefit-api-openapi.yml
 - filename: cigna-location-api-openapi.yml
   format: yaml
   label: Cigna Location API
   slug: cigna-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-location-api-openapi.yml
+  url: https://artifacts.apis.io/cigna/openapi/cigna-location-api-openapi.yml
 - filename: cigna-medicationknowledge-api-openapi.yml
   format: yaml
   label: Cigna MedicationKnowledge API
   slug: cigna-medicationknowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-medicationknowledge-api-openapi.yml
+  url: https://artifacts.apis.io/cigna/openapi/cigna-medicationknowledge-api-openapi.yml
 - filename: cigna-observation-api-openapi.yml
   format: yaml
   label: Cigna Observation API
   slug: cigna-observation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-observation-api-openapi.yml
+  url: https://artifacts.apis.io/cigna/openapi/cigna-observation-api-openapi.yml
 - filename: cigna-organization-api-openapi.yml
   format: yaml
   label: Cigna Organization API
   slug: cigna-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-organization-api-openapi.yml
+  url: https://artifacts.apis.io/cigna/openapi/cigna-organization-api-openapi.yml
 - filename: cigna-patient-api-openapi.yml
   format: yaml
   label: Cigna Patient API
   slug: cigna-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-patient-api-openapi.yml
+  url: https://artifacts.apis.io/cigna/openapi/cigna-patient-api-openapi.yml
 - filename: cigna-practitioner-api-openapi.yml
   format: yaml
   label: Cigna Practitioner API
   slug: cigna-practitioner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-practitioner-api-openapi.yml
+  url: https://artifacts.apis.io/cigna/openapi/cigna-practitioner-api-openapi.yml
 - filename: cigna-healthcare-service-api-openapi.yml
   format: yaml
   label: Cigna Healthcare Service API
   slug: cigna-healthcare-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-healthcare-service-api-openapi.yml
+  url: https://artifacts.apis.io/cigna/openapi/cigna-healthcare-service-api-openapi.yml
 - filename: cigna-insurance-plan-api-openapi.yml
   format: yaml
   label: Cigna Insurance Plan API
   slug: cigna-insurance-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-insurance-plan-api-openapi.yml
+  url: https://artifacts.apis.io/cigna/openapi/cigna-insurance-plan-api-openapi.yml
 - filename: cigna-medication-request-api-openapi.yml
   format: yaml
   label: Cigna Medication Request API
   slug: cigna-medication-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-medication-request-api-openapi.yml
+  url: https://artifacts.apis.io/cigna/openapi/cigna-medication-request-api-openapi.yml
 - filename: cigna-practitioner-role-api-openapi.yml
   format: yaml
   label: Cigna Practitioner Role API
   slug: cigna-practitioner-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-practitioner-role-api-openapi.yml
+  url: https://artifacts.apis.io/cigna/openapi/cigna-practitioner-role-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -130,7 +130,7 @@ source_filename: cigna-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cigna.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 21 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.cigna.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: fhir.cigna.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: cigna.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/security/cigna-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cigna/security/cigna-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - CMS Interoperability

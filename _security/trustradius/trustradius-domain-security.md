@@ -5,31 +5,31 @@ api_specs:
   label: TrustRadius Product Data API
   slug: trustradius-product-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/openapi/trustradius-product-data-api-openapi.yml
+  url: https://artifacts.apis.io/trustradius/openapi/trustradius-product-data-api-openapi.yml
 - filename: trustradius-intent-data-api-openapi.yml
   format: yaml
   label: TrustRadius Downstream Intent Data API
   slug: trustradius-intent-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/openapi/trustradius-intent-data-api-openapi.yml
+  url: https://artifacts.apis.io/trustradius/openapi/trustradius-intent-data-api-openapi.yml
 - filename: trustradius-trustquotes-api-openapi.yml
   format: yaml
   label: TrustRadius TrustQuotes Content Syndication API
   slug: trustradius-trustquotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/openapi/trustradius-trustquotes-api-openapi.yml
+  url: https://artifacts.apis.io/trustradius/openapi/trustradius-trustquotes-api-openapi.yml
 - filename: trustradius-traffic-data-api-openapi.yml
   format: yaml
   label: TrustRadius Traffic Data API
   slug: trustradius-traffic-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/openapi/trustradius-traffic-data-api-openapi.yml
+  url: https://artifacts.apis.io/trustradius/openapi/trustradius-traffic-data-api-openapi.yml
 - filename: trustradius-legacy-api-openapi.yml
   format: yaml
   label: TrustRadius Legacy Visitor Insights API
   slug: trustradius-legacy-visitor-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/openapi/trustradius-legacy-api-openapi.yml
+  url: https://artifacts.apis.io/trustradius/openapi/trustradius-legacy-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: trustradius-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.trustradius.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 21 02:39:22 2026 GMT\n  hsts: null\n- host: solutions.trustradius.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 09:19:24 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.trustradius.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 05:59:18 2026 GMT\n  hsts: null\ndomains:\n- domain: trustradius.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/security/trustradius-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trustradius/security/trustradius-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - B2B Software Reviews

@@ -45,7 +45,7 @@ source_filename: conviva-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-01'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.conviva.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 23:56:46 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.conviva.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 04:28:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.conviva.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 14:12:32 2026 GMT\n  hsts: null\ndomains:\n- domain: conviva.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: conviva.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/conviva/refs/heads/main/security/conviva-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/conviva/security/conviva-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics

@@ -5,7 +5,7 @@ api_specs:
   label: Matik External API
   slug: matik-external-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/matik/refs/heads/main/postman/matik-oauth-postman-collection.json
+  url: https://artifacts.apis.io/matik/postman/matik-oauth-postman-collection.json
 description: ''
 domains:
 - caa: []
@@ -35,7 +35,7 @@ source_filename: matik-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: matik.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 23:48:11 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: matik.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/matik/refs/heads/main/security/matik-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/matik/security/matik-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

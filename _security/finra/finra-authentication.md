@@ -7,25 +7,25 @@ api_specs:
   label: FINRA Async API
   slug: finra-async-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finra/refs/heads/main/openapi/finra-async-api-openapi.yml
+  url: https://artifacts.apis.io/finra/openapi/finra-async-api-openapi.yml
 - filename: finra-datasets-api-openapi.yml
   format: yaml
   label: FINRA Datasets API
   slug: finra-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finra/refs/heads/main/openapi/finra-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/finra/openapi/finra-datasets-api-openapi.yml
 - filename: finra-metadata-api-openapi.yml
   format: yaml
   label: FINRA Metadata API
   slug: finra-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finra/refs/heads/main/openapi/finra-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/finra/openapi/finra-metadata-api-openapi.yml
 - filename: finra-partitions-api-openapi.yml
   format: yaml
   label: FINRA Partitions API
   slug: finra-partitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finra/refs/heads/main/openapi/finra-partitions-api-openapi.yml
+  url: https://artifacts.apis.io/finra/openapi/finra-partitions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: finra-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/finra-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/finra-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/finra/refs/heads/main/authentication/finra-authentication.yml
+source_yaml_url: https://artifacts.apis.io/finra/authentication/finra-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Compliance

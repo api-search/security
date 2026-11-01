@@ -5,31 +5,31 @@ api_specs:
   label: Nookal Appointments API
   slug: nookal-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nookal/refs/heads/main/openapi/nookal-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/nookal/openapi/nookal-appointments-api-openapi.yml
 - filename: nookal-clinic-api-openapi.yml
   format: yaml
   label: Nookal Clinic API
   slug: nookal-clinic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nookal/refs/heads/main/openapi/nookal-clinic-api-openapi.yml
+  url: https://artifacts.apis.io/nookal/openapi/nookal-clinic-api-openapi.yml
 - filename: nookal-invoices-api-openapi.yml
   format: yaml
   label: Nookal Invoices API
   slug: nookal-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nookal/refs/heads/main/openapi/nookal-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/nookal/openapi/nookal-invoices-api-openapi.yml
 - filename: nookal-patients-api-openapi.yml
   format: yaml
   label: Nookal Patients API
   slug: nookal-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nookal/refs/heads/main/openapi/nookal-patients-api-openapi.yml
+  url: https://artifacts.apis.io/nookal/openapi/nookal-patients-api-openapi.yml
 - filename: nookal-verification-api-openapi.yml
   format: yaml
   label: Nookal Verification API
   slug: nookal-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nookal/refs/heads/main/openapi/nookal-verification-api-openapi.yml
+  url: https://artifacts.apis.io/nookal/openapi/nookal-verification-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -84,7 +84,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + API hosts\nhosts:\n- host: api.nookal.com\n  https: true\n  tls_version: TLSv1.2\n  cert_issuer: GoDaddy.com, Inc.\n  cert_expires: Mar 10 01:17:07 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  server: Apache\n  api_live: true\n  api_note: https://api.nookal.com/production/v2/verify returns a JSON status envelope; requires api_key.\n- host: www.nookal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: GoDaddy.com, Inc.\n  cert_expires: Mar 10 01:17:07 2027 GMT\n  hsts: true\n  hsts_max_age: 10886400\n  hsts_include_subdomains: true\n  server: AmazonS3 via CloudFront\ndomains:\n- domain: nookal.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"starfieldtech.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"godaddy.com\"\n  - 0\
   \ issuewild \"letsencrypt.org\"\n  - 0 issuewild \"starfieldtech.com\"\n  spf: true\n  spf_record: v=spf1 include:amazonses.com include:_spf.google.com include:mail.zendesk.com include:441562201.spf08.hubspotemail.net ~all\n  dmarc: true\n  dmarc_policy: reject\nnotes: >-\n  Probes run 2026-07-12. api.nookal.com serves the production REST API over HTTPS\n  with HSTS (max-age 31536000, includeSubDomains) and a GoDaddy-issued certificate;\n  TLS negotiated at 1.2. www.nookal.com is served from Amazon S3 behind CloudFront\n  with HSTS and TLS 1.3. The nookal.com domain publishes SPF and a strict DMARC\n  policy (p=reject) and a CAA record set, but no DNSSEC DS record was found.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nookal/refs/heads/main/security/nookal-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nookal/security/nookal-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Practice Management

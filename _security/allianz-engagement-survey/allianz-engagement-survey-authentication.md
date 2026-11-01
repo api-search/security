@@ -7,31 +7,31 @@ api_specs:
   label: Allianz Engagement Survey Action Plans API
   slug: allianz-engagement-survey-action-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-engagement-survey/refs/heads/main/openapi/allianz-engagement-survey-action-plans-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-engagement-survey/openapi/allianz-engagement-survey-action-plans-api-openapi.yml
 - filename: allianz-engagement-survey-analytics-api-openapi.yml
   format: yaml
   label: Allianz Engagement Survey Analytics API
   slug: allianz-engagement-survey-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-engagement-survey/refs/heads/main/openapi/allianz-engagement-survey-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-engagement-survey/openapi/allianz-engagement-survey-analytics-api-openapi.yml
 - filename: allianz-engagement-survey-participants-api-openapi.yml
   format: yaml
   label: Allianz Engagement Survey Participants API
   slug: allianz-engagement-survey-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-engagement-survey/refs/heads/main/openapi/allianz-engagement-survey-participants-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-engagement-survey/openapi/allianz-engagement-survey-participants-api-openapi.yml
 - filename: allianz-engagement-survey-responses-api-openapi.yml
   format: yaml
   label: Allianz Engagement Survey Responses API
   slug: allianz-engagement-survey-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-engagement-survey/refs/heads/main/openapi/allianz-engagement-survey-responses-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-engagement-survey/openapi/allianz-engagement-survey-responses-api-openapi.yml
 - filename: allianz-engagement-survey-surveys-api-openapi.yml
   format: yaml
   label: Allianz Engagement Survey Surveys API
   slug: allianz-engagement-survey-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-engagement-survey/refs/heads/main/openapi/allianz-engagement-survey-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-engagement-survey/openapi/allianz-engagement-survey-surveys-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -62,7 +62,7 @@ source_filename: allianz-engagement-survey-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/allianz-engagement-survey.yaml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.allianz.com/oauth2/token\n    scopes: 5\n  description: OAuth2 client credentials for Allianz internal API access\n  sources:\n  - openapi/allianz-engagement-survey.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allianz-engagement-survey/refs/heads/main/authentication/allianz-engagement-survey-authentication.yml
+source_yaml_url: https://artifacts.apis.io/allianz-engagement-survey/authentication/allianz-engagement-survey-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Analytics

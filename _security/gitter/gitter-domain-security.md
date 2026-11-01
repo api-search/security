@@ -29,7 +29,7 @@ source_filename: gitter-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.gitter.im\n  https: false\ndomains:\n- domain: gitter.im\n  dnssec: false\n  caa:\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gitter/refs/heads/main/security/gitter-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gitter/security/gitter-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Development

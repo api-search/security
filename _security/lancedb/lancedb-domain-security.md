@@ -5,25 +5,25 @@ api_specs:
   label: LanceDB MaterializedView API
   slug: lancedb-materializedview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/openapi/lancedb-materializedview-api-openapi.yml
+  url: https://artifacts.apis.io/lancedb/openapi/lancedb-materializedview-api-openapi.yml
 - filename: lancedb-namespace-api-openapi.yml
   format: yaml
   label: LanceDB Namespace API
   slug: lancedb-namespace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/openapi/lancedb-namespace-api-openapi.yml
+  url: https://artifacts.apis.io/lancedb/openapi/lancedb-namespace-api-openapi.yml
 - filename: lancedb-table-api-openapi.yml
   format: yaml
   label: LanceDB Table API
   slug: lancedb-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/openapi/lancedb-table-api-openapi.yml
+  url: https://artifacts.apis.io/lancedb/openapi/lancedb-table-api-openapi.yml
 - filename: lancedb-transaction-api-openapi.yml
   format: yaml
   label: LanceDB Transaction API
   slug: lancedb-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/openapi/lancedb-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/lancedb/openapi/lancedb-transaction-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -72,10 +72,10 @@ source_filename: lancedb-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: lancedb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 01:11:11 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.lancedb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 13:53:03 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: your-tenant.lancedb.cloud\n  https: false\ndomains:\n- domain: lancedb.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issuewild \"amazontrust.com\"\n  - 0 issuewild \"awstrust.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: lancedb.cloud\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/security/lancedb-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lancedb/security/lancedb-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Vector Database
+- Vector Search
 - Multi-Modal
 - Lance Format
 - Lakehouse
@@ -88,5 +88,4 @@ tags:
 - Columnar Storage
 - Arrow
 - AI Infrastructure
-- Vector Search
 ---

@@ -5,19 +5,19 @@ api_specs:
   label: Amazon Transit Gateway Route Tables API
   slug: amazon-transit-gateway-route-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/openapi/amazon-transit-gateway-route-tables-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-transit-gateway/openapi/amazon-transit-gateway-route-tables-api-openapi.yml
 - filename: amazon-transit-gateway-transit-gateways-api-openapi.yml
   format: yaml
   label: Amazon Transit Gateway Transit Gateways API
   slug: amazon-transit-gateway-transit-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/openapi/amazon-transit-gateway-transit-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-transit-gateway/openapi/amazon-transit-gateway-transit-gateways-api-openapi.yml
 - filename: amazon-transit-gateway-vpc-attachments-api-openapi.yml
   format: yaml
   label: Amazon Transit Gateway VPC Attachments API
   slug: amazon-transit-gateway-vpc-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/openapi/amazon-transit-gateway-vpc-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-transit-gateway/openapi/amazon-transit-gateway-vpc-attachments-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -38,7 +38,7 @@ source_filename: amazon-transit-gateway-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://aws.amazon.com/compliance/\nurl: https://aws.amazon.com/compliance/\ncertifications:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://aws.amazon.com/compliance/\n  keywords:\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/security/amazon-transit-gateway-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/amazon-transit-gateway/security/amazon-transit-gateway-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Cloud Networking

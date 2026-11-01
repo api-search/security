@@ -5,97 +5,97 @@ api_specs:
   label: Glean Activity API
   slug: glean-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-activity-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-activity-api-openapi.yml
 - filename: glean-agents-api-openapi.yml
   format: yaml
   label: Glean Agents API
   slug: glean-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-agents-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-agents-api-openapi.yml
 - filename: glean-announcements-api-openapi.yml
   format: yaml
   label: Glean Announcements API
   slug: glean-announcements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-announcements-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-announcements-api-openapi.yml
 - filename: glean-answers-api-openapi.yml
   format: yaml
   label: Glean Answers API
   slug: glean-answers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-answers-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-answers-api-openapi.yml
 - filename: glean-chat-api-openapi.yml
   format: yaml
   label: Glean Chat API
   slug: glean-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-chat-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-chat-api-openapi.yml
 - filename: glean-collections-api-openapi.yml
   format: yaml
   label: Glean Collections API
   slug: glean-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-collections-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-collections-api-openapi.yml
 - filename: glean-documents-api-openapi.yml
   format: yaml
   label: Glean Documents API
   slug: glean-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-documents-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-documents-api-openapi.yml
 - filename: glean-governance-api-openapi.yml
   format: yaml
   label: Glean Governance API
   slug: glean-governance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-governance-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-governance-api-openapi.yml
 - filename: glean-insights-api-openapi.yml
   format: yaml
   label: Glean Insights API
   slug: glean-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-insights-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-insights-api-openapi.yml
 - filename: glean-people-api-openapi.yml
   format: yaml
   label: Glean People API
   slug: glean-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-people-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-people-api-openapi.yml
 - filename: glean-pins-api-openapi.yml
   format: yaml
   label: Glean Pins API
   slug: glean-pins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-pins-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-pins-api-openapi.yml
 - filename: glean-search-api-openapi.yml
   format: yaml
   label: Glean Search API
   slug: glean-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-search-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-search-api-openapi.yml
 - filename: glean-shortcuts-api-openapi.yml
   format: yaml
   label: Glean Shortcuts API
   slug: glean-shortcuts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-shortcuts-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-shortcuts-api-openapi.yml
 - filename: glean-summarize-api-openapi.yml
   format: yaml
   label: Glean Summarize API
   slug: glean-summarize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-summarize-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-summarize-api-openapi.yml
 - filename: glean-tools-api-openapi.yml
   format: yaml
   label: Glean Tools API
   slug: glean-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-tools-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-tools-api-openapi.yml
 - filename: glean-verification-api-openapi.yml
   format: yaml
   label: Glean Verification API
   slug: glean-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-verification-api-openapi.yml
+  url: https://artifacts.apis.io/glean/openapi/glean-verification-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -131,7 +131,7 @@ source_filename: glean-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.glean.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 01:35:43 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.glean.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 01:28:53 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: glean.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/security/glean-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/glean/security/glean-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Agents

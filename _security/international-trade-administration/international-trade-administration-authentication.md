@@ -8,37 +8,37 @@ api_specs:
   label: International Trade Administration Consolidated Screening List API
   slug: international-trade-administration-consolidated-screening-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/openapi/international-trade-administration-consolidated-screening-list-api-openapi.yml
+  url: https://artifacts.apis.io/international-trade-administration/openapi/international-trade-administration-consolidated-screening-list-api-openapi.yml
 - filename: international-trade-administration-country-commercial-guides-api-openapi.yml
   format: yaml
   label: International Trade Administration Country Commercial Guides API
   slug: international-trade-administration-country-commercial-guides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/openapi/international-trade-administration-country-commercial-guides-api-openapi.yml
+  url: https://artifacts.apis.io/international-trade-administration/openapi/international-trade-administration-country-commercial-guides-api-openapi.yml
 - filename: international-trade-administration-customs-tariff-api-openapi.yml
   format: yaml
   label: International Trade Administration Customs Tariff API
   slug: international-trade-administration-customs-tariff-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/openapi/international-trade-administration-customs-tariff-api-openapi.yml
+  url: https://artifacts.apis.io/international-trade-administration/openapi/international-trade-administration-customs-tariff-api-openapi.yml
 - filename: international-trade-administration-de-minimis-api-openapi.yml
   format: yaml
   label: International Trade Administration De Minimis API
   slug: international-trade-administration-de-minimis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/openapi/international-trade-administration-de-minimis-api-openapi.yml
+  url: https://artifacts.apis.io/international-trade-administration/openapi/international-trade-administration-de-minimis-api-openapi.yml
 - filename: international-trade-administration-market-intelligence-api-openapi.yml
   format: yaml
   label: International Trade Administration Market Intelligence API
   slug: international-trade-administration-market-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/openapi/international-trade-administration-market-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/international-trade-administration/openapi/international-trade-administration-market-intelligence-api-openapi.yml
 - filename: international-trade-administration-trade-events-api-openapi.yml
   format: yaml
   label: International Trade Administration Trade Events API
   slug: international-trade-administration-trade-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/openapi/international-trade-administration-trade-events-api-openapi.yml
+  url: https://artifacts.apis.io/international-trade-administration/openapi/international-trade-administration-trade-events-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: international-trade-administration-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/international-trade-administration-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: subscriptionKey\n  type: apiKey\n  in: header\n  parameter: subscription-key\n  description: ITA APIs require an Ocp-Apim Subscription Key obtained from the developer.trade.gov\n    portal.\n  sources:\n  - openapi/international-trade-administration-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/authentication/international-trade-administration-authentication.yml
+source_yaml_url: https://artifacts.apis.io/international-trade-administration/authentication/international-trade-administration-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Compliance

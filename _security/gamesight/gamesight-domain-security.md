@@ -5,13 +5,13 @@ api_specs:
   label: Gamesight Measurement API
   slug: gamesight-measurement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/openapi/gamesight-measurement-api-openapi.yml
+  url: https://artifacts.apis.io/gamesight/openapi/gamesight-measurement-api-openapi.yml
 - filename: gamesight-reporting-api-openapi.yml
   format: yaml
   label: Gamesight Reporting API
   slug: gamesight-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/openapi/gamesight-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/gamesight/openapi/gamesight-reporting-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: gamesight-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gamesight.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 18 23:59:59 2026 GMT\n  hsts: false\n- host: docs.gamesight.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 17:57:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.ingest.marketing.gamesight.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 10:36:52 2026 GMT\n  hsts: null\ndomains:\n- domain: gamesight.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/security/gamesight-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gamesight/security/gamesight-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

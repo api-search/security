@@ -5,25 +5,25 @@ api_specs:
   label: Datarails Health API
   slug: datarails-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-health-api-openapi.yml
+  url: https://artifacts.apis.io/datarails/openapi/datarails-health-api-openapi.yml
 - filename: datarails-ready-api-openapi.yml
   format: yaml
   label: Datarails Ready API
   slug: datarails-ready-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-ready-api-openapi.yml
+  url: https://artifacts.apis.io/datarails/openapi/datarails-ready-api-openapi.yml
 - filename: datarails-well-known-api-openapi.yml
   format: yaml
   label: Datarails .well Known API
   slug: datarails-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/datarails/openapi/datarails-well-known-api-openapi.yml
 - filename: datarails-oauth-api-openapi.yml
   format: yaml
   label: Datarails OAUTH API
   slug: datarails-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/datarails/openapi/datarails-oauth-api-openapi.yml
 description: Transport and DNS security posture, probed directly. The application and API hosts are consistently strong (TLS 1.3, HSTS at 180 days); the marketing host ships no HSTS header at all, and the registrable domain has neither DNSSEC nor a CAA record. Email authentication is the strongest part of the posture — SPF with a hard fail and DMARC at p=reject.
 domains:
 - caa: []
@@ -107,7 +107,7 @@ source_yaml: "generated: '2026-08-01'\nmethod: probed\nsource: live DNS and TLS 
   \ host. Also returns\n      HTTP 403 to non-browser user agents (bot protection), which is why the\n      site pages were read through a browser-class fetch.\n  - host: trust.datarails.com\n    role: Trust center (Vendict-hosted)\n    https: true\n    note: Third-party hosted; not probed for TLS parameters.\n  - host: support.datarails.com\n    role: Help center (Zendesk-hosted)\n    https: true\n    note: Third-party hosted; returns 403 to non-browser user agents.\n\ndomains:\n  - domain: datarails.com\n    dnssec: false\n    dnssec_evidence: no DNSKEY records returned\n    caa: []\n    caa_evidence: no CAA records returned — any public CA may issue for this domain\n    spf: true\n    spf_record: 'v=spf1 include:mail.zendesk.com mx include:_spf.google.com include:6909491.spf10.hubspotemail.net include:amazonses.com -all'\n    spf_policy: hard fail (-all)\n    dmarc: true\n    dmarc_policy: reject\n    dmarc_record: 'v=DMARC1; p=reject; rua=mailto:dmarc@datarails.com, mailto:rpy61q5g9y@rua.powerdmarc.com'\n\
   \    dmarc_aggregate_reporting: true\n\nthird_party_domain_verifications:\n  note: >-\n    TXT records on datarails.com show which platforms Datarails has verified\n    domain ownership with. Recorded because it corroborates the AI-connector\n    surface.\n  records:\n    - google-site-verification\n    - openai-domain-verification\n    - lovable_verification\n    - mongodb-site-verification\n    - 'MS= (Microsoft)'\n\nfindings:\n  - severity: medium\n    finding: No CAA record on datarails.com — certificate issuance is not restricted to named CAs.\n  - severity: medium\n    finding: No DNSSEC on datarails.com.\n  - severity: low\n    finding: No HSTS on www.datarails.com; the application, auth and API hosts all carry it at 180 days.\n  - severity: info\n    finding: No HSTS preload and no includeSubDomains on any host.\n  - severity: positive\n    finding: DMARC at p=reject with aggregate reporting, and SPF with a hard fail.\n  - severity: positive\n    finding: TLS 1.3 on every first-party\
   \ host, with a full modern security-header set on the MCP host.\n\nx-evidence:\n  fetched: '2026-08-01'\n  tools: [dig, 'openssl s_client', 'curl -D']\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/security/datarails-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/datarails/security/datarails-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

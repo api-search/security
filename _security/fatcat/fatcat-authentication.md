@@ -8,67 +8,67 @@ api_specs:
   label: Fatcat Auth API
   slug: fatcat-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-auth-api-openapi.yml
+  url: https://artifacts.apis.io/fatcat/openapi/fatcat-auth-api-openapi.yml
 - filename: fatcat-changelog-api-openapi.yml
   format: yaml
   label: Fatcat Changelog API
   slug: fatcat-changelog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-changelog-api-openapi.yml
+  url: https://artifacts.apis.io/fatcat/openapi/fatcat-changelog-api-openapi.yml
 - filename: fatcat-containers-api-openapi.yml
   format: yaml
   label: Fatcat Containers API
   slug: fatcat-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-containers-api-openapi.yml
+  url: https://artifacts.apis.io/fatcat/openapi/fatcat-containers-api-openapi.yml
 - filename: fatcat-creators-api-openapi.yml
   format: yaml
   label: Fatcat Creators API
   slug: fatcat-creators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-creators-api-openapi.yml
+  url: https://artifacts.apis.io/fatcat/openapi/fatcat-creators-api-openapi.yml
 - filename: fatcat-editgroups-api-openapi.yml
   format: yaml
   label: Fatcat Editgroups API
   slug: fatcat-editgroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-editgroups-api-openapi.yml
+  url: https://artifacts.apis.io/fatcat/openapi/fatcat-editgroups-api-openapi.yml
 - filename: fatcat-editors-api-openapi.yml
   format: yaml
   label: Fatcat Editors API
   slug: fatcat-editors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-editors-api-openapi.yml
+  url: https://artifacts.apis.io/fatcat/openapi/fatcat-editors-api-openapi.yml
 - filename: fatcat-files-api-openapi.yml
   format: yaml
   label: Fatcat Files API
   slug: fatcat-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-files-api-openapi.yml
+  url: https://artifacts.apis.io/fatcat/openapi/fatcat-files-api-openapi.yml
 - filename: fatcat-filesets-api-openapi.yml
   format: yaml
   label: Fatcat Filesets API
   slug: fatcat-filesets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-filesets-api-openapi.yml
+  url: https://artifacts.apis.io/fatcat/openapi/fatcat-filesets-api-openapi.yml
 - filename: fatcat-releases-api-openapi.yml
   format: yaml
   label: Fatcat Releases API
   slug: fatcat-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-releases-api-openapi.yml
+  url: https://artifacts.apis.io/fatcat/openapi/fatcat-releases-api-openapi.yml
 - filename: fatcat-webcaptures-api-openapi.yml
   format: yaml
   label: Fatcat Webcaptures API
   slug: fatcat-webcaptures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-webcaptures-api-openapi.yml
+  url: https://artifacts.apis.io/fatcat/openapi/fatcat-webcaptures-api-openapi.yml
 - filename: fatcat-works-api-openapi.yml
   format: yaml
   label: Fatcat Works API
   slug: fatcat-works-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-works-api-openapi.yml
+  url: https://artifacts.apis.io/fatcat/openapi/fatcat-works-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -96,14 +96,14 @@ source_filename: fatcat-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: Bearer\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: |-\n    The only current API authentication mechanism is HTTP bearer\n    authentication using the `Authorization` HTTP header. The header should\n    be formatted as the string \"Bearer\", then a space, then API token (in the\n    usual base64 string encoding).\n\n    An example HTTP request would look on the wire like:\n\n        GET /v0/auth/check HTTP/1.1\n        Accept: */*\n        Accept-Encoding: gzip, deflate\n        Authorization: Beare\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/authentication/fatcat-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fatcat/authentication/fatcat-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Scholarly
 - Research
 - Academic
 - Open Access
-- Bibliographic
+- Bibliographic Records
 - Publications
 - Metadata
 - Internet Archive

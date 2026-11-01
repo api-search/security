@@ -7,7 +7,7 @@ api_specs:
   label: EDDA Technology Website (WordPress REST)
   slug: eddatech-com-website-wordpress-rest
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edda/refs/heads/main/openapi/edda-wordpress-rest-discovery.json
+  url: https://artifacts.apis.io/edda/openapi/edda-wordpress-rest-discovery.json
 auth_types:
 - none
 - http
@@ -48,7 +48,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://www.eddatech.com/wp-json/\ndocs: https://www.eddatech.com/wp-json/\nsummary:\n  types:\n  - none\n  - http\n  api_key_in: []\n  oauth2_flows: []\n  anonymous_read: true\n  notes: >-\n    EDDA Technology publishes no developer-facing authentication program. The only public HTTP API\n    surface is the WordPress REST API on www.eddatech.com, whose entire public read surface\n    (posts, pages, media, taxonomies, search, oEmbed) is served anonymously with no credential.\n    The API root advertises exactly one authentication mechanism — WordPress application passwords\n    (HTTP Basic) — which gates write operations and administrative routes and is not offered to\n    third-party developers. There is no OAuth 2.0, no OpenID Connect, no API-key program and no\n    developer key issuance, so scopes/ is intentionally absent.\nschemes:\n- name: anonymous\n  type: none\n  description: >-\n    All read operations catalogued\
   \ in openapi/edda-wordpress-openapi.yml return 200 with no\n    Authorization header. Verified live 2026-07-20.\n  sources:\n  - openapi/edda-wordpress-openapi.yml\n- name: applicationPassword\n  type: http\n  scheme: basic\n  description: >-\n    WordPress application passwords (HTTP Basic: username + application password). Advertised by the\n    API root at https://www.eddatech.com/wp-json/ under authentication.application-passwords.\n    Credentials are issued per WordPress user account by the site administrator, not through a public\n    developer program. Required only for write operations and non-public routes.\n  authorization_endpoint: https://www.eddatech.com/wp-admin/authorize-application.php\n  accepted_headers:\n  - Authorization\n  - X-WP-Nonce\n  applies_to: write operations and non-public routes (e.g. /wp/v2/settings, /mpdl/downloads/files)\n  sources:\n  - https://www.eddatech.com/wp-json/\n  - openapi/edda-wordpress-openapi.yml\nobserved:\n- request: GET https://www.eddatech.com/wp-json/wp/v2/posts?per_page=1\n\
   \  auth: none\n  status: 200\n- request: GET https://www.eddatech.com/wp-json/wp/v2/settings\n  auth: none\n  status: 401\n  body: '{\"code\":\"rest_forbidden\",\"message\":\"Sorry, you are not allowed to do that.\",\"data\":{\"status\":401}}'\n- request: GET https://www.eddatech.com/wp-json/mpdl/downloads/files\n  auth: none\n  status: 401\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edda/refs/heads/main/authentication/edda-authentication.yml
+source_yaml_url: https://artifacts.apis.io/edda/authentication/edda-authentication.yml
 summary_line: none/http · 2 schemes
 tags:
 - Company

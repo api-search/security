@@ -47,7 +47,7 @@ source_filename: bloomberg-government-bgov-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bloomberg.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 14 23:59:59 2027 GMT\n  hsts: null\n- host: about.bgov.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: api.bgov.com\n  https: false\ndomains:\n- domain: bloomberg.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 iodef \"mailto:reportvuln@bloomberg.net\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: bgov.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloomberg-government-bgov/refs/heads/main/security/bloomberg-government-bgov-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bloomberg-government-bgov/security/bloomberg-government-bgov-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Government

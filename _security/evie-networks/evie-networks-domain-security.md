@@ -63,7 +63,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts, extended by hand with the undocumented API host (api.goevie.com.au) found during review\nhosts:\n- host: evie.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 05:34:11 2026 GMT\n  hsts: false\n- host: api.goevie.com.au\n  https: true\n  http_version: HTTP/2\n  tls_version: TLSv1.3\n  cert_issuer: Google Trust Services WR3\n  cert_expires: Sep 13 01:15:06 2026 GMT\n  hsts: false\n  note: |\n    Undocumented production API gateway behind the Evie Charging mobile app.\n    Server headers identify Google Frontend with an Envoy/ESPv2 decorator\n    (x-envoy-decorator-operation: ingress UnknownOperationName), i.e. Google\n    Cloud Endpoints. Not listed in apis.yml because no public documentation,\n    contract, terms or onboarding exist for it.\ndomains:\n- domain: evie.com.au\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n\
   - domain: goevie.com.au\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: v=spf1 include:spf.protection.outlook.com include:_spf.firebasemail.com include:spf.mandrillapp.com -all\n  dmarc: true\n  dmarc_policy: none\n  dmarc_record: v=DMARC1; p=none; pct=100; rua=mailto:dmarc@goevie.com.au\n  note: |\n    TXT records also disclose the app-side stack: firebase=prod-evie (Firebase\n    project), an Atlassian domain verification, a Google site verification and\n    Microsoft 365 mail. No CAA and no DNSSEC on this domain, and DMARC is\n    monitor-only (p=none) versus quarantine on evie.com.au.\nfindings: |\n  Both hosts serve TLS 1.3 with valid certificates. Neither host sets HSTS.\n  The corporate domain (evie.com.au) is DNSSEC-signed with a DMARC quarantine\n  policy; the API/app domain (goevie.com.au) is neither DNSSEC-signed nor\n  CAA-protected and runs DMARC in monitor-only mode. Absence of a record is\n  recorded data, not a failed probe.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evie-networks/refs/heads/main/security/evie-networks-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/evie-networks/security/evie-networks-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Energy
@@ -73,6 +73,6 @@ tags:
 - Utilities
 - E-Mobility
 - Charging Infrastructure
-- Fleet
+- Fleet Management
 - Transport Electrification
 ---

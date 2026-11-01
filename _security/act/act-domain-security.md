@@ -11,61 +11,61 @@ api_specs:
   label: Act! CRM Activity Series API
   slug: act-activityseries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-activityseries-api-openapi.yml
+  url: https://artifacts.apis.io/act/openapi/act-activityseries-api-openapi.yml
 - filename: act-historytypes-api-openapi.yml
   format: yaml
   label: Act! CRM History Types API
   slug: act-historytypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-historytypes-api-openapi.yml
+  url: https://artifacts.apis.io/act/openapi/act-historytypes-api-openapi.yml
 - filename: act-marketingautomations-api-openapi.yml
   format: yaml
   label: Act! CRM Marketing Automations API
   slug: act-marketingautomations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-marketingautomations-api-openapi.yml
+  url: https://artifacts.apis.io/act/openapi/act-marketingautomations-api-openapi.yml
 - filename: act-metadatainfo-api-openapi.yml
   format: yaml
   label: Act! CRM Metadata Info API
   slug: act-metadatainfo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-metadatainfo-api-openapi.yml
+  url: https://artifacts.apis.io/act/openapi/act-metadatainfo-api-openapi.yml
 - filename: act-secondarycontacts-api-openapi.yml
   format: yaml
   label: Act! CRM Secondary Contacts API
   slug: act-secondarycontacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-secondarycontacts-api-openapi.yml
+  url: https://artifacts.apis.io/act/openapi/act-secondarycontacts-api-openapi.yml
 - filename: act-supplementalfiles-api-openapi.yml
   format: yaml
   label: Act! CRM Supplemental Files API
   slug: act-supplementalfiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-supplementalfiles-api-openapi.yml
+  url: https://artifacts.apis.io/act/openapi/act-supplementalfiles-api-openapi.yml
 - filename: act-custom-entities-api-openapi.yml
   format: yaml
   label: Act! CRM Custom Entities API
   slug: act-custom-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-custom-entities-api-openapi.yml
+  url: https://artifacts.apis.io/act/openapi/act-custom-entities-api-openapi.yml
 - filename: act-document-types-api-openapi.yml
   format: yaml
   label: Act! CRM Document Types API
   slug: act-document-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-document-types-api-openapi.yml
+  url: https://artifacts.apis.io/act/openapi/act-document-types-api-openapi.yml
 - filename: act-sync-data-api-openapi.yml
   format: yaml
   label: Act! CRM Sync Data API
   slug: act-sync-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-sync-data-api-openapi.yml
+  url: https://artifacts.apis.io/act/openapi/act-sync-data-api-openapi.yml
 - filename: act-task-types-api-openapi.yml
   format: yaml
   label: Act! CRM Task Types API
   slug: act-task-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-task-types-api-openapi.yml
+  url: https://artifacts.apis.io/act/openapi/act-task-types-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -108,7 +108,7 @@ source_filename: act-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.act.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  9 23:59:59 2027 GMT\n  hsts: null\n- host: developer.act.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  9 23:59:59 2027 GMT\n  hsts: null\n- host: apimta.act.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  9 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: act.com\n  dnssec: false\n  caa:\n  - 0 issue \"networksolutions.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/security/act-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/act/security/act-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - CRM

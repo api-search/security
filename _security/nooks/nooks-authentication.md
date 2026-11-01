@@ -8,91 +8,91 @@ api_specs:
   label: Nooks Accounts API
   slug: nooks-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-accounts-api-openapi.yml
 - filename: nooks-calls-api-openapi.yml
   format: yaml
   label: Nooks Calls API
   slug: nooks-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-calls-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-calls-api-openapi.yml
 - filename: nooks-emails-api-openapi.yml
   format: yaml
   label: Nooks Emails API
   slug: nooks-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-emails-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-emails-api-openapi.yml
 - filename: nooks-introspection-api-openapi.yml
   format: yaml
   label: Nooks Introspection API
   slug: nooks-introspection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-introspection-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-introspection-api-openapi.yml
 - filename: nooks-mailboxes-api-openapi.yml
   format: yaml
   label: Nooks Mailboxes API
   slug: nooks-mailboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-mailboxes-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-mailboxes-api-openapi.yml
 - filename: nooks-nooks-sequencing-api-api-openapi.yml
   format: yaml
   label: Nooks Sequencing API
   slug: nooks-nooks-sequencing-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-nooks-sequencing-api-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-nooks-sequencing-api-api-openapi.yml
 - filename: nooks-notes-api-openapi.yml
   format: yaml
   label: Nooks Notes API
   slug: nooks-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-notes-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-notes-api-openapi.yml
 - filename: nooks-prospects-api-openapi.yml
   format: yaml
   label: Nooks Prospects API
   slug: nooks-prospects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-prospects-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-prospects-api-openapi.yml
 - filename: nooks-sequences-api-openapi.yml
   format: yaml
   label: Nooks Sequences API
   slug: nooks-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-sequences-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-sequences-api-openapi.yml
 - filename: nooks-sequencesteps-api-openapi.yml
   format: yaml
   label: Nooks Sequence Steps API
   slug: nooks-sequencesteps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-sequencesteps-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-sequencesteps-api-openapi.yml
 - filename: nooks-tasks-api-openapi.yml
   format: yaml
   label: Nooks Tasks API
   slug: nooks-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-tasks-api-openapi.yml
 - filename: nooks-users-api-openapi.yml
   format: yaml
   label: Nooks Users API
   slug: nooks-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-users-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-users-api-openapi.yml
 - filename: nooks-call-dispositions-api-openapi.yml
   format: yaml
   label: Nooks Call Dispositions API
   slug: nooks-call-dispositions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-call-dispositions-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-call-dispositions-api-openapi.yml
 - filename: nooks-email-templates-api-openapi.yml
   format: yaml
   label: Nooks Email Templates API
   slug: nooks-email-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-email-templates-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-email-templates-api-openapi.yml
 - filename: nooks-sequence-states-api-openapi.yml
   format: yaml
   label: Nooks Sequence States API
   slug: nooks-sequence-states-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-sequence-states-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-sequence-states-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -125,7 +125,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: openapi/nooks-s
   \ a long-lived Nooks API key\n    (`nooks-api-...`, from Developer Settings → API Keys) or an OAuth 2.0 access token issued by\n    https://oauth.nooks.in. The API detects which format was sent and validates accordingly.\n  sources:\n  - openapi/nooks-sequencing-openapi.yml\ncredentials:\n- kind: api-key\n  name: Nooks API key\n  transport: Authorization Bearer header\n  prefix: nooks-api-\n  lifetime: long-lived\n  scoping: workspace-scoped, full read/write within the owning workspace\n  issuance: Developer Settings → API Keys in the Nooks workspace\n  best_for: backend integrations and server-to-server automation\n- kind: oauth2-access-token\n  name: OAuth 2.0 access token\n  transport: Authorization Bearer header\n  format: JWT\n  lifetime: 1 hour\n  scoping: user-scoped, limited to consented scopes\n  refresh: refresh tokens rotate every 90 days and are invalidated on first re-use (refresh-token reuse detection)\n  best_for: third-party apps acting on behalf of a specific user\noauth2:\n\
   \  issuer: https://oauth.nooks.in\n  discovery: well-known/nooks-oauth-authorization-server.json\n  discovery_url: https://oauth.nooks.in/.well-known/oauth-authorization-server\n  authorization_endpoint: https://oauth.nooks.in/oauth/authorize\n  token_endpoint: https://oauth.nooks.in/oauth/token\n  revocation_endpoint: https://oauth.nooks.in/oauth/revoke\n  jwks_uri: https://oauth.nooks.in/.well-known/jwks.json\n  jwks_file: well-known/nooks-jwks.json\n  response_types_supported:\n  - code\n  grant_types_supported:\n  - authorization_code\n  - refresh_token\n  token_endpoint_auth_methods_supported:\n  - client_secret_post\n  code_challenge_methods_supported:\n  - S256\n  pkce: required (S256)\n  scope_count: 24\n  scopes: scopes/nooks-scopes.yml\nprotected_resources:\n- resource: https://mcp.nooks.in/\n  resource_name: Nooks MCP Server\n  metadata: well-known/nooks-oauth-protected-resource.json\n  metadata_url: https://mcp.nooks.in/.well-known/oauth-protected-resource\n  spec: RFC 9728\
   \ OAuth 2.0 Protected Resource Metadata\n  authorization_servers:\n  - https://oauth.nooks.in\nerrors:\n  '401': Unauthorized — missing, malformed, or expired credential\n  '403': Forbidden — credential valid but lacks the required scope or workspace access\nx-evidence:\n- url: https://developer.nooks.in/openapi.yml\n  status: 200\n- url: https://oauth.nooks.in/.well-known/oauth-authorization-server\n  status: 200\n- url: https://oauth.nooks.in/.well-known/jwks.json\n  status: 200\n- url: https://mcp.nooks.in/.well-known/oauth-protected-resource\n  status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/authentication/nooks-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nooks/authentication/nooks-authentication.yml
 summary_line: http/oauth2 · 1 scheme
 tags:
 - Company

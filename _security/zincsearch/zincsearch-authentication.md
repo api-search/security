@@ -7,49 +7,49 @@ api_specs:
   label: ZincSearch Document API
   slug: zincsearch-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/openapi/zincsearch-document-api-openapi.yml
+  url: https://artifacts.apis.io/zincsearch/openapi/zincsearch-document-api-openapi.yml
 - filename: zincsearch-healthz-api-openapi.yml
   format: yaml
   label: ZincSearch Healthz API
   slug: zincsearch-healthz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/openapi/zincsearch-healthz-api-openapi.yml
+  url: https://artifacts.apis.io/zincsearch/openapi/zincsearch-healthz-api-openapi.yml
 - filename: zincsearch-index-api-openapi.yml
   format: yaml
   label: ZincSearch Index API
   slug: zincsearch-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/openapi/zincsearch-index-api-openapi.yml
+  url: https://artifacts.apis.io/zincsearch/openapi/zincsearch-index-api-openapi.yml
 - filename: zincsearch-permission-api-openapi.yml
   format: yaml
   label: ZincSearch Permission API
   slug: zincsearch-permission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/openapi/zincsearch-permission-api-openapi.yml
+  url: https://artifacts.apis.io/zincsearch/openapi/zincsearch-permission-api-openapi.yml
 - filename: zincsearch-role-api-openapi.yml
   format: yaml
   label: ZincSearch Role API
   slug: zincsearch-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/openapi/zincsearch-role-api-openapi.yml
+  url: https://artifacts.apis.io/zincsearch/openapi/zincsearch-role-api-openapi.yml
 - filename: zincsearch-search-api-openapi.yml
   format: yaml
   label: ZincSearch Search API
   slug: zincsearch-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/openapi/zincsearch-search-api-openapi.yml
+  url: https://artifacts.apis.io/zincsearch/openapi/zincsearch-search-api-openapi.yml
 - filename: zincsearch-user-api-openapi.yml
   format: yaml
   label: ZincSearch User API
   slug: zincsearch-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/openapi/zincsearch-user-api-openapi.yml
+  url: https://artifacts.apis.io/zincsearch/openapi/zincsearch-user-api-openapi.yml
 - filename: zincsearch-version-api-openapi.yml
   format: yaml
   label: ZincSearch Version API
   slug: zincsearch-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/openapi/zincsearch-version-api-openapi.yml
+  url: https://artifacts.apis.io/zincsearch/openapi/zincsearch-version-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -75,7 +75,7 @@ source_filename: zincsearch-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: derived\nsource: openapi/zincsearch-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/zincsearch-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/authentication/zincsearch-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zincsearch/authentication/zincsearch-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

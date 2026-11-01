@@ -5,31 +5,31 @@ api_specs:
   label: Disqus Categories API
   slug: disqus-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disqus/refs/heads/main/openapi/disqus-categories-api-openapi.yml
+  url: https://artifacts.apis.io/disqus/openapi/disqus-categories-api-openapi.yml
 - filename: disqus-forums-api-openapi.yml
   format: yaml
   label: Disqus Forums API
   slug: disqus-forums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disqus/refs/heads/main/openapi/disqus-forums-api-openapi.yml
+  url: https://artifacts.apis.io/disqus/openapi/disqus-forums-api-openapi.yml
 - filename: disqus-posts-api-openapi.yml
   format: yaml
   label: Disqus Posts API
   slug: disqus-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disqus/refs/heads/main/openapi/disqus-posts-api-openapi.yml
+  url: https://artifacts.apis.io/disqus/openapi/disqus-posts-api-openapi.yml
 - filename: disqus-threads-api-openapi.yml
   format: yaml
   label: Disqus Threads API
   slug: disqus-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disqus/refs/heads/main/openapi/disqus-threads-api-openapi.yml
+  url: https://artifacts.apis.io/disqus/openapi/disqus-threads-api-openapi.yml
 - filename: disqus-users-api-openapi.yml
   format: yaml
   label: Disqus Users API
   slug: disqus-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disqus/refs/heads/main/openapi/disqus-users-api-openapi.yml
+  url: https://artifacts.apis.io/disqus/openapi/disqus-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: disqus-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: disqus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 300\ndomains:\n- domain: disqus.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/disqus/refs/heads/main/security/disqus-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/disqus/security/disqus-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Comments

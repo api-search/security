@@ -5,85 +5,85 @@ api_specs:
   label: Fixie Accounts API
   slug: fixie-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/fixie/openapi/fixie-accounts-api-openapi.yml
 - filename: fixie-agents-api-openapi.yml
   format: yaml
   label: Fixie Agents API
   slug: fixie-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-agents-api-openapi.yml
+  url: https://artifacts.apis.io/fixie/openapi/fixie-agents-api-openapi.yml
 - filename: fixie-api-keys-api-openapi.yml
   format: yaml
   label: Fixie API Keys API
   slug: fixie-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/fixie/openapi/fixie-api-keys-api-openapi.yml
 - filename: fixie-call-throttles-api-openapi.yml
   format: yaml
   label: Fixie Call Throttles API
   slug: fixie-call-throttles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-call-throttles-api-openapi.yml
+  url: https://artifacts.apis.io/fixie/openapi/fixie-call-throttles-api-openapi.yml
 - filename: fixie-calls-api-openapi.yml
   format: yaml
   label: Fixie Calls API
   slug: fixie-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-calls-api-openapi.yml
+  url: https://artifacts.apis.io/fixie/openapi/fixie-calls-api-openapi.yml
 - filename: fixie-corpora-api-openapi.yml
   format: yaml
   label: Fixie Corpora API
   slug: fixie-corpora-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-corpora-api-openapi.yml
+  url: https://artifacts.apis.io/fixie/openapi/fixie-corpora-api-openapi.yml
 - filename: fixie-deleted-calls-api-openapi.yml
   format: yaml
   label: Fixie Deleted Calls API
   slug: fixie-deleted-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-deleted-calls-api-openapi.yml
+  url: https://artifacts.apis.io/fixie/openapi/fixie-deleted-calls-api-openapi.yml
 - filename: fixie-models-api-openapi.yml
   format: yaml
   label: Fixie Models API
   slug: fixie-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-models-api-openapi.yml
+  url: https://artifacts.apis.io/fixie/openapi/fixie-models-api-openapi.yml
 - filename: fixie-schema-api-openapi.yml
   format: yaml
   label: Fixie Schema API
   slug: fixie-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-schema-api-openapi.yml
+  url: https://artifacts.apis.io/fixie/openapi/fixie-schema-api-openapi.yml
 - filename: fixie-sip-api-openapi.yml
   format: yaml
   label: Fixie Sip API
   slug: fixie-sip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-sip-api-openapi.yml
+  url: https://artifacts.apis.io/fixie/openapi/fixie-sip-api-openapi.yml
 - filename: fixie-telephony-configs-api-openapi.yml
   format: yaml
   label: Fixie Telephony Configs API
   slug: fixie-telephony-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-telephony-configs-api-openapi.yml
+  url: https://artifacts.apis.io/fixie/openapi/fixie-telephony-configs-api-openapi.yml
 - filename: fixie-tools-api-openapi.yml
   format: yaml
   label: Fixie Tools API
   slug: fixie-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-tools-api-openapi.yml
+  url: https://artifacts.apis.io/fixie/openapi/fixie-tools-api-openapi.yml
 - filename: fixie-voices-api-openapi.yml
   format: yaml
   label: Fixie Voices API
   slug: fixie-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-voices-api-openapi.yml
+  url: https://artifacts.apis.io/fixie/openapi/fixie-voices-api-openapi.yml
 - filename: fixie-webhooks-api-openapi.yml
   format: yaml
   label: Fixie Webhooks API
   slug: fixie-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/fixie/openapi/fixie-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -124,7 +124,7 @@ source_filename: fixie-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fixie.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 09:41:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.ultravox.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 07:04:09 2026 GMT\n  hsts: false\ndomains:\n- domain: fixie.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: ultravox.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/security/fixie-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fixie/security/fixie-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

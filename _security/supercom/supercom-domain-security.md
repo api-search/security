@@ -41,7 +41,7 @@ source_filename: supercom-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.super.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 22:48:48 2026 GMT\n  hsts: true\n  hsts_header: max-age=2592000; includeSubDomains; preload\n  hsts_max_age: 2592000\n  note: >-\n    The automated HTTP probe recorded null because every HTML path on www.super.com answers a\n    403 Cloudflare bot challenge; the header was read directly from a 200 response\n    (https://www.super.com/robots.txt) on 2026-08-05.\n- host: api.snaptravel.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 18:16:09 2026 GMT\n  hsts: false\ndomains:\n- domain: super.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: snaptravel.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/supercom/refs/heads/main/security/supercom-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/supercom/security/supercom-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

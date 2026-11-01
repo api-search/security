@@ -27,7 +27,7 @@ source_filename: gerson-lehrman-group-glg-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: glg.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 19:38:45 2026 GMT\n  hsts: false\ndomains:\n- domain: glg.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gerson-lehrman-group-glg/refs/heads/main/security/gerson-lehrman-group-glg-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gerson-lehrman-group-glg/security/gerson-lehrman-group-glg-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

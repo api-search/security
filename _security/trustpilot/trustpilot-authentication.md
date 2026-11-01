@@ -8,49 +8,49 @@ api_specs:
   label: Trustpilot Business Units API
   slug: trustpilot-business-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/openapi/trustpilot-business-units-api-openapi.yml
+  url: https://artifacts.apis.io/trustpilot/openapi/trustpilot-business-units-api-openapi.yml
 - filename: trustpilot-conversations-api-openapi.yml
   format: yaml
   label: Trustpilot Conversations API
   slug: trustpilot-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/openapi/trustpilot-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/trustpilot/openapi/trustpilot-conversations-api-openapi.yml
 - filename: trustpilot-images-api-openapi.yml
   format: yaml
   label: Trustpilot Images API
   slug: trustpilot-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/openapi/trustpilot-images-api-openapi.yml
+  url: https://artifacts.apis.io/trustpilot/openapi/trustpilot-images-api-openapi.yml
 - filename: trustpilot-invitations-api-openapi.yml
   format: yaml
   label: Trustpilot Invitations API
   slug: trustpilot-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/openapi/trustpilot-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/trustpilot/openapi/trustpilot-invitations-api-openapi.yml
 - filename: trustpilot-product-review-management-api-openapi.yml
   format: yaml
   label: Trustpilot Product Review Management API
   slug: trustpilot-product-review-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/openapi/trustpilot-product-review-management-api-openapi.yml
+  url: https://artifacts.apis.io/trustpilot/openapi/trustpilot-product-review-management-api-openapi.yml
 - filename: trustpilot-product-reviews-api-openapi.yml
   format: yaml
   label: Trustpilot Product Reviews API
   slug: trustpilot-product-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/openapi/trustpilot-product-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/trustpilot/openapi/trustpilot-product-reviews-api-openapi.yml
 - filename: trustpilot-review-management-api-openapi.yml
   format: yaml
   label: Trustpilot Review Management API
   slug: trustpilot-review-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/openapi/trustpilot-review-management-api-openapi.yml
+  url: https://artifacts.apis.io/trustpilot/openapi/trustpilot-review-management-api-openapi.yml
 - filename: trustpilot-reviews-api-openapi.yml
   format: yaml
   label: Trustpilot Reviews API
   slug: trustpilot-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/openapi/trustpilot-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/trustpilot/openapi/trustpilot-reviews-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -106,7 +106,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/trustpilot-business-units-openapi.yml, openapi/trustpilot-invitation-openapi.yml,\n  openapi/trustpilot-product-reviews-openapi.yml, openapi/trustpilot-service-reviews-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - query\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: ApiKey\n  type: apiKey\n  in: query\n  parameter: apikey\n  sources:\n  - openapi/trustpilot-business-units-openapi.yml\n  - openapi/trustpilot-product-reviews-openapi.yml\n  - openapi/trustpilot-service-reviews-openapi.yml\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://authenticate.trustpilot.com/oauth/connect/authorize\n    tokenUrl: https://authenticate.trustpilot.com/oauth/token\n    scopes: 1\n  sources:\n  - openapi/trustpilot-business-units-openapi.yml\n  - openapi/trustpilot-product-reviews-openapi.yml\n  - openapi/trustpilot-service-reviews-openapi.yml\n\
   - name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://authenticate.trustpilot.com/oauth/connect/authorize\n    tokenUrl: https://authenticate.trustpilot.com/oauth/token\n    scopes: 1\n  - flow: clientCredentials\n    tokenUrl: https://authenticate.trustpilot.com/oauth/token\n    scopes: 1\n  sources:\n  - openapi/trustpilot-invitation-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/authentication/trustpilot-authentication.yml
+source_yaml_url: https://artifacts.apis.io/trustpilot/authentication/trustpilot-authentication.yml
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - Consumer Reviews

@@ -7,49 +7,49 @@ api_specs:
   label: Guidewire Integration Gateway API
   slug: guidewire-integration-gateway-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/asyncapi/guidewire-integration-gateway-asyncapi.yml
+  url: https://artifacts.apis.io/guidewire/asyncapi/guidewire-integration-gateway-asyncapi.yml
 - filename: guidewire-accounts-api-openapi.yml
   format: yaml
   label: Guidewire Accounts API
   slug: guidewire-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/guidewire/openapi/guidewire-accounts-api-openapi.yml
 - filename: guidewire-claims-api-openapi.yml
   format: yaml
   label: Guidewire Claims API
   slug: guidewire-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-claims-api-openapi.yml
+  url: https://artifacts.apis.io/guidewire/openapi/guidewire-claims-api-openapi.yml
 - filename: guidewire-exposures-api-openapi.yml
   format: yaml
   label: Guidewire Exposures API
   slug: guidewire-exposures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-exposures-api-openapi.yml
+  url: https://artifacts.apis.io/guidewire/openapi/guidewire-exposures-api-openapi.yml
 - filename: guidewire-fnol-api-openapi.yml
   format: yaml
   label: Guidewire FNOL API
   slug: guidewire-fnol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-fnol-api-openapi.yml
+  url: https://artifacts.apis.io/guidewire/openapi/guidewire-fnol-api-openapi.yml
 - filename: guidewire-payments-api-openapi.yml
   format: yaml
   label: Guidewire Payments API
   slug: guidewire-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-payments-api-openapi.yml
+  url: https://artifacts.apis.io/guidewire/openapi/guidewire-payments-api-openapi.yml
 - filename: guidewire-policies-api-openapi.yml
   format: yaml
   label: Guidewire Policies API
   slug: guidewire-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-policies-api-openapi.yml
+  url: https://artifacts.apis.io/guidewire/openapi/guidewire-policies-api-openapi.yml
 - filename: guidewire-quotes-api-openapi.yml
   format: yaml
   label: Guidewire Quotes API
   slug: guidewire-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/guidewire/openapi/guidewire-quotes-api-openapi.yml
 auth_types:
 - http-basic
 - bearer-jwt
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-09-12'\nmethod: searched\nsource: >-\n  Guidewire
   \  - name: HTTPBasic\n    type: http\n    scheme: basic\n    applies_to: [internal user]\n    description: >-\n      User name and password in the request header; authentication and authorization are read from the\n      operational database.\n    production_supported: false\n    constraint: >-\n      \"Basic authentication is not supported in production environments. It can only be used in\n      development environments.\" Quoted verbatim.\n    docs: https://docs.guidewire.com/cloud/is/202607/cloudapica/cloudAPI/AuthFlows/basic-auth/c_basic-authentication.html\ncaller_types:\n  types:\n  - internal user\n  - external user\n  - anonymous user\n  - standalone service\n  - service with user context (GW-User-Context header)\n  - service with service-account mapping\n  docs_note: Each caller type has its own documented authentication flow.\n  docs: https://docs.guidewire.com/cloud/is/202607/cloudapica/cloudAPI/AuthChoose/overview-authentication/c_types-of-callers.html\nauthorization:\n  model:\
   \ API roles\n  description: >-\n    Access is granted through named API roles defined in role.yaml files and assigned to callers. A\n    role names the endpoints it opens, the operations allowed on them, and the fields readable or\n    writable. Three orthogonal access types apply: endpoint access (all callers), resource access\n    (users only, in the base configuration) and proxy-user access (external users and services only).\n  reserved_roles: true\n  docs: https://docs.guidewire.com/cloud/is/202607/cloudapica/cloudAPI/AuthImplement/endpoint-access/c_API-role-files.html\n  access_types_docs: https://docs.guidewire.com/cloud/is/202607/cloudapica/cloudAPI/AuthChoose/overview-authentication/c_types_of_access.html\nfailure_handling:\n  docs: https://docs.guidewire.com/cloud/is/202607/cloudapica/cloudAPI/AuthChoose/overview-authentication/c_authentication-failure-error-messages.html\nunauthenticated_surface:\n  endpoints:\n  - path: <applicationURL>/rest/<APIpath>/openapi.json\n    note:\
   \ >-\n      \"In the base configuration, the API definition endpoints are available to any caller, including\n      unauthenticated\" callers. Deployments may restrict this.\n    docs: https://docs.guidewire.com/cloud/cc/202511/cloudapibf/cloudAPI/topics/101-Fund/01-overview-of-Cloud-API/c_viewing-API-definitions.html\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/authentication/guidewire-authentication.yml
+source_yaml_url: https://artifacts.apis.io/guidewire/authentication/guidewire-authentication.yml
 summary_line: http-basic/bearer-jwt · 2 schemes
 tags:
 - Insurance

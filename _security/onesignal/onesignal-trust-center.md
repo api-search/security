@@ -5,31 +5,31 @@ api_specs:
   label: OneSignal Apps API
   slug: onesignal-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/openapi/onesignal-apps-api-openapi.yml
+  url: https://artifacts.apis.io/onesignal/openapi/onesignal-apps-api-openapi.yml
 - filename: onesignal-notifications-api-openapi.yml
   format: yaml
   label: OneSignal Notifications API
   slug: onesignal-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/openapi/onesignal-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/onesignal/openapi/onesignal-notifications-api-openapi.yml
 - filename: onesignal-players-api-openapi.yml
   format: yaml
   label: OneSignal Players API
   slug: onesignal-players-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/openapi/onesignal-players-api-openapi.yml
+  url: https://artifacts.apis.io/onesignal/openapi/onesignal-players-api-openapi.yml
 - filename: onesignal-templates-api-openapi.yml
   format: yaml
   label: OneSignal Templates API
   slug: onesignal-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/openapi/onesignal-templates-api-openapi.yml
+  url: https://artifacts.apis.io/onesignal/openapi/onesignal-templates-api-openapi.yml
 - filename: onesignal-organizations-api-openapi.yml
   format: yaml
   label: OneSignal Organizations API
   slug: onesignal-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/openapi/onesignal-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/onesignal/openapi/onesignal-organizations-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2 Type II
@@ -53,7 +53,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://documen
   \ GDPR\n  status: compliant\n  url: https://documentation.onesignal.com/docs/en/gdpr-compliance\n  role: data processor (the customer is the data controller)\n  note: Primary data centers are located in the European Union.\n- name: COPPA\n  status: partial\n  detail: OneSignal is certified under the Families Ads Program (as of 2022-01-10).\n    COPPA compliance itself remains the publisher's responsibility; OneSignal provides\n    consent-collection tooling.\n- name: CAN-SPAM / email regulatory compliance\n  url: https://documentation.onesignal.com/docs/en/email-compliance\n- name: SMS regulatory compliance\n  url: https://documentation.onesignal.com/docs/en/sms-regulatory-compliance\nsecurity_practices:\n- name: Third-party security assessment\n  cadence: annual\n- name: Vulnerability and penetration scans\n  cadence: quarterly\n  note: All critical and high-severity findings remediated promptly.\n- name: Encryption in transit\n  detail: TLS 1.2+\n- name: Encryption at rest\n  detail:\
   \ AES-256\n- name: Incident response program\n  detail: Documented program to detect, contain and remediate security incidents.\n- name: Dedicated security organization\n  detail: A standing Security Team monitors, triages and responds to security events.\n- name: Workstation security\n  detail: Firewall and endpoint protection, full disk encryption, automatic patch management\n    on all employee workstations.\n- name: Personnel security\n  detail: Background checks and regular security awareness training for all employees.\n- name: Single sign-on\n  detail: SSO via WorkOS, integrating major identity providers.\n  url: https://documentation.onesignal.com/docs/en/sso\n- name: Two-step authentication\n  detail: Organization administrators can enforce 2FA for all team members.\n- name: Audit logs\n  detail: Organization-wide user activity tracking, exportable to JSONL or queryable\n    via the REST API (list-audit-logs).\n  url: https://documentation.onesignal.com/docs/en/audit-logs\n- name:\
   \ PII masking\n  detail: Email addresses and phone numbers can be hidden from the dashboard and from\n    data exports.\npassword_policy:\n  minimum_length: 8\n  breached_password_check: true\n  rotation_required: false\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/security/onesignal-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/onesignal/security/onesignal-trust-center.yml
 summary_line: SOC 2 Type II, ISO 27001, ISO 27701, EU-U.S. Data Privacy Framework
 tags:
 - Notification

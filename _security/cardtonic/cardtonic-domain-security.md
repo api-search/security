@@ -5,13 +5,13 @@ api_specs:
   label: Cardtonic Auth API
   slug: cardtonic-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardtonic/refs/heads/main/openapi/cardtonic-auth-api-openapi.yml
+  url: https://artifacts.apis.io/cardtonic/openapi/cardtonic-auth-api-openapi.yml
 - filename: cardtonic-user-api-openapi.yml
   format: yaml
   label: Cardtonic User API
   slug: cardtonic-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardtonic/refs/heads/main/openapi/cardtonic-user-api-openapi.yml
+  url: https://artifacts.apis.io/cardtonic/openapi/cardtonic-user-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -51,7 +51,7 @@ source_filename: cardtonic-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cardtonic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 15:02:59 2026 GMT\n  hsts: false\n- host: api.cardtonic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 15:02:59 2026 GMT\n  hsts: null\ndomains:\n- domain: cardtonic.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cardtonic/refs/heads/main/security/cardtonic-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cardtonic/security/cardtonic-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Africa

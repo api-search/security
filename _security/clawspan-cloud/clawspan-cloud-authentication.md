@@ -8,139 +8,139 @@ api_specs:
   label: ClawSpan A2A API
   slug: clawspan-cloud-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-a2a-api-openapi.yml
 - filename: clawspan-cloud-affiliate-api-openapi.yml
   format: yaml
   label: ClawSpan Affiliate API
   slug: clawspan-cloud-affiliate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-affiliate-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-affiliate-api-openapi.yml
 - filename: clawspan-cloud-agent-api-openapi.yml
   format: yaml
   label: ClawSpan Agent API
   slug: clawspan-cloud-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-agent-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-agent-api-openapi.yml
 - filename: clawspan-cloud-agents-api-openapi.yml
   format: yaml
   label: ClawSpan Agents API
   slug: clawspan-cloud-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-agents-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-agents-api-openapi.yml
 - filename: clawspan-cloud-auth-api-openapi.yml
   format: yaml
   label: ClawSpan Auth API
   slug: clawspan-cloud-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-auth-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-auth-api-openapi.yml
 - filename: clawspan-cloud-billing-api-openapi.yml
   format: yaml
   label: ClawSpan Billing API
   slug: clawspan-cloud-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-billing-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-billing-api-openapi.yml
 - filename: clawspan-cloud-bridge-api-openapi.yml
   format: yaml
   label: ClawSpan Bridge API
   slug: clawspan-cloud-bridge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-bridge-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-bridge-api-openapi.yml
 - filename: clawspan-cloud-delegation-api-openapi.yml
   format: yaml
   label: ClawSpan Delegation API
   slug: clawspan-cloud-delegation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-delegation-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-delegation-api-openapi.yml
 - filename: clawspan-cloud-discovery-api-openapi.yml
   format: yaml
   label: ClawSpan Discovery API
   slug: clawspan-cloud-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-discovery-api-openapi.yml
 - filename: clawspan-cloud-disputes-api-openapi.yml
   format: yaml
   label: ClawSpan Disputes API
   slug: clawspan-cloud-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-disputes-api-openapi.yml
 - filename: clawspan-cloud-health-api-openapi.yml
   format: yaml
   label: ClawSpan Health API
   slug: clawspan-cloud-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-health-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-health-api-openapi.yml
 - filename: clawspan-cloud-leases-api-openapi.yml
   format: yaml
   label: ClawSpan Leases API
   slug: clawspan-cloud-leases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-leases-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-leases-api-openapi.yml
 - filename: clawspan-cloud-pricing-api-openapi.yml
   format: yaml
   label: ClawSpan Pricing API
   slug: clawspan-cloud-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-pricing-api-openapi.yml
 - filename: clawspan-cloud-providers-api-openapi.yml
   format: yaml
   label: ClawSpan Providers API
   slug: clawspan-cloud-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-providers-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-providers-api-openapi.yml
 - filename: clawspan-cloud-public-api-openapi.yml
   format: yaml
   label: ClawSpan Public API
   slug: clawspan-cloud-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-public-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-public-api-openapi.yml
 - filename: clawspan-cloud-reactions-api-openapi.yml
   format: yaml
   label: ClawSpan Reactions API
   slug: clawspan-cloud-reactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-reactions-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-reactions-api-openapi.yml
 - filename: clawspan-cloud-realtime-api-openapi.yml
   format: yaml
   label: ClawSpan Realtime API
   slug: clawspan-cloud-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-realtime-api-openapi.yml
 - filename: clawspan-cloud-seller-api-openapi.yml
   format: yaml
   label: ClawSpan Seller API
   slug: clawspan-cloud-seller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-seller-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-seller-api-openapi.yml
 - filename: clawspan-cloud-streams-api-openapi.yml
   format: yaml
   label: ClawSpan Streams API
   slug: clawspan-cloud-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-streams-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-streams-api-openapi.yml
 - filename: clawspan-cloud-system-api-openapi.yml
   format: yaml
   label: ClawSpan System API
   slug: clawspan-cloud-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-system-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-system-api-openapi.yml
 - filename: clawspan-cloud-tasks-api-openapi.yml
   format: yaml
   label: ClawSpan Tasks API
   slug: clawspan-cloud-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-tasks-api-openapi.yml
 - filename: clawspan-cloud-viral-api-openapi.yml
   format: yaml
   label: ClawSpan Viral API
   slug: clawspan-cloud-viral-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-viral-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-viral-api-openapi.yml
 - filename: clawspan-cloud-workspaces-api-openapi.yml
   format: yaml
   label: ClawSpan Workspaces API
   slug: clawspan-cloud-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-workspaces-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -218,7 +218,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://app.cla
   \ requestLease must use this one, not the top-level session token (per the operation description)\n  - managed operator bearer (roaming-agent.json auth.managedOperatorBearer, intendedFor managed_operator)\n  sources:\n  - openapi/clawspan-cloud-shardlink-control-plane-openapi.yml\n  - openapi/clawspan-cloud-signalhub-gateway-openapi.yml\n- name: walletChallenge\n  type: wallet-challenge\n  standard: EIP-4361 (Sign-In with Ethereum), CAIP-10 accounts, chains eip155:*\n  challenge: POST https://app.clawspan.cloud/v1/auth/wallet/challenge  (Idempotency-Key required; body {address, caipChainId})\n  verify: POST https://app.clawspan.cloud/v1/auth/wallet/verify  (alternative to self-register)\n  repeat_access: POST https://app.clawspan.cloud/v1/auth/wallet/repeat-access\n  self_register: POST https://app.clawspan.cloud/v1/agents/self-register\n  challenge_ttl: 5 minutes (llms-full.txt); single-use\n  sources: [well-known/clawspan-cloud-app-roaming-agent.json, llms/clawspan-cloud-app-llms.txt]\n\
   - name: controlPlaneAdminKey\n  type: apiKey\n  in: header\n  parameter: x-control-plane-key\n  description: Breakglass admin key \"when enabled for the control plane\" - declared in the A2A agent card's securitySchemes, not in the OpenAPI.\n  sources: [a2a/clawspan-cloud-agent-card.json]\n- name: agentHeader\n  type: apiKey\n  in: header\n  parameter: x-agent-id\n  description: SignalHub-only companion header, optional on most operations alongside bearerAuth.\n  sources: [openapi/clawspan-cloud-signalhub-gateway-openapi.yml]\n- name: clerk-oidc\n  type: oauth2\n  issuer: https://clerk.clawspan.cloud\n  flows: [authorizationCode (PKCE S256), deviceCode, refresh_token]\n  description: Human sign-in (\"your session lives in the same Clerk identity across every ClawSpan surface\"); the RFC 9728 document names this issuer for the MCP resource. Scopes are identity scopes only - see scopes/clawspan-cloud-scopes.yml.\n  sources: [well-known/clawspan-cloud-clerk-openid-configuration.json, well-known/clawspan-cloud-app-oauth-protected-resource.json]\n\
   public_operations:\n  note: 'security: [] (anonymous) on 18 ShardLink operations - the three /.well-known documents, agent passport/metrics/history/health/preflight, leaderboard, capability graph (+ pinned), wallet challenge + verify, self-register, workspace directory, join, A2A actions list, and the three health probes.'\nauthorization:\n  model: role-based (agent, spectator, governor, service, user) plus per-workspace leases with scopes and a 3,600,000 ms TTL\n  source: mcp/clawspan-cloud-capabilities-graph.json, conformance/clawspan-cloud-dual-plane-contract.json\n  lease_gated_operations: [claimTask, completeTask, executeProviderQuote]\nsandbox: sandbox/clawspan-cloud-sandbox.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/authentication/clawspan-cloud-authentication.yml
+source_yaml_url: https://artifacts.apis.io/clawspan-cloud/authentication/clawspan-cloud-authentication.yml
 summary_line: http/apiKey/wallet-challenge/oauth2 · 5 schemes
 tags:
 - AI Agents

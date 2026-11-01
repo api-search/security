@@ -5,25 +5,25 @@ api_specs:
   label: Mendable Chat API
   slug: mendable-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/openapi/mendable-chat-api-openapi.yml
+  url: https://artifacts.apis.io/mendable/openapi/mendable-chat-api-openapi.yml
 - filename: mendable-conversations-api-openapi.yml
   format: yaml
   label: Mendable Conversations API
   slug: mendable-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/openapi/mendable-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/mendable/openapi/mendable-conversations-api-openapi.yml
 - filename: mendable-ingestion-api-openapi.yml
   format: yaml
   label: Mendable Ingestion API
   slug: mendable-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/openapi/mendable-ingestion-api-openapi.yml
+  url: https://artifacts.apis.io/mendable/openapi/mendable-ingestion-api-openapi.yml
 - filename: mendable-ratings-api-openapi.yml
   format: yaml
   label: Mendable Ratings API
   slug: mendable-ratings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/openapi/mendable-ratings-api-openapi.yml
+  url: https://artifacts.apis.io/mendable/openapi/mendable-ratings-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: mendable-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mendable.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 15:27:31 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.mendable.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 05:07:06 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.mendable.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 23:23:06 2026 GMT\n  hsts: false\ndomains:\n- domain: mendable.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/security/mendable-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mendable/security/mendable-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

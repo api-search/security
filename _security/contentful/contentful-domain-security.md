@@ -5,13 +5,13 @@ api_specs:
   label: Contentful Webhooks
   slug: contentful-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentful/refs/heads/main/openapi/contentful-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/contentful/openapi/contentful-webhooks-asyncapi.yml
 - filename: contentful-spaces-api-openapi.yml
   format: yaml
   label: Contentful Spaces API
   slug: contentful-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentful/refs/heads/main/openapi/contentful-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/contentful/openapi/contentful-spaces-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: contentful-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.contentful.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 13:18:24 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: cdn.contentful.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  9 23:00:19 2027 GMT\n  hsts: true\n  hsts_max_age: 15768000\ndomains:\n- domain: contentful.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contentful/refs/heads/main/security/contentful-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/contentful/security/contentful-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - CMS

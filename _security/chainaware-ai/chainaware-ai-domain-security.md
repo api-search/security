@@ -5,19 +5,19 @@ api_specs:
   label: ChainAware.ai Behaviour Prediction API
   slug: chainaware-ai-behaviour-prediction-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainaware-ai/refs/heads/main/openapi/chainaware-ai-behaviour-prediction-api-api-openapi.yml
+  url: https://artifacts.apis.io/chainaware-ai/openapi/chainaware-ai-behaviour-prediction-api-api-openapi.yml
 - filename: chainaware-ai-credit-score-api-api-openapi.yml
   format: yaml
   label: ChainAware.ai Credit Score API
   slug: chainaware-ai-credit-score-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainaware-ai/refs/heads/main/openapi/chainaware-ai-credit-score-api-api-openapi.yml
+  url: https://artifacts.apis.io/chainaware-ai/openapi/chainaware-ai-credit-score-api-api-openapi.yml
 - filename: chainaware-ai-fraud-api-api-openapi.yml
   format: yaml
   label: ChainAware.ai Fraud API
   slug: chainaware-ai-fraud-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainaware-ai/refs/heads/main/openapi/chainaware-ai-fraud-api-api-openapi.yml
+  url: https://artifacts.apis.io/chainaware-ai/openapi/chainaware-ai-fraud-api-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -58,7 +58,7 @@ source_filename: chainaware-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: chainaware.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  3 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: enterprise.api.chainaware.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 22 23:59:59 2027 GMT\n  hsts: null\n- host: prediction.mcp.chainaware.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 27 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: chainaware.ai\n  dnssec: true\n  caa:\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chainaware-ai/refs/heads/main/security/chainaware-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/chainaware-ai/security/chainaware-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Blockchain

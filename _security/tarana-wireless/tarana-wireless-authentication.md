@@ -7,7 +7,7 @@ api_specs:
   label: Tarana Cloud Suite (TCS) Northbound API
   slug: tarana-cloud-suite-tcs-northbound-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tarana-wireless/refs/heads/main/asyncapi/tarana-wireless-alerts-asyncapi.yml
+  url: https://artifacts.apis.io/tarana-wireless/asyncapi/tarana-wireless-alerts-asyncapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: >-\n  Live anonym
   \ and\n      the body {\"data\":null,\"error\":{\"code\":403,\"message\":\"The HTTP method or resources may\n      not be supported.\",\"status\":\"Unsupported API\"}}. MissingAuthenticationTokenException is\n      the standard AWS API Gateway response to an unsigned/unkeyed request. CORS\n      access-control-allow-origin is pinned to https://portal.tcs.taranawireless.com, so this\n      edge is provisioned for the first-party portal, not as a public developer API.\n- id: support-portal-oidc\n  surface: Salesforce Experience Cloud support portal (support.taranawireless.com)\n  type: openIdConnect\n  openIdConnectUrl: https://support.taranawireless.com/.well-known/openid-configuration\n  artifact: well-known/tarana-wireless-support-openid-configuration.json\n  status: published\n  evidence:\n  - url: https://support.taranawireless.com/.well-known/openid-configuration\n    status: 200\n    note: >-\n      Complete OpenID Provider Metadata: authorization, token, revocation, introspection,\n\
   \      userinfo, registration and JWKS endpoints; RS256 id_token signing; DPoP signing\n      algorithms advertised; client_secret_post / client_secret_basic / private_key_jwt token\n      endpoint auth. Scopes are the Salesforce platform set, not Tarana product scopes.\n  scope: >-\n    This governs sign-in to the customer support and knowledge portal only. It is NOT the\n    authorization server for the TCS northbound API — that is idp.tcs.taranawireless.com.\noauth_scopes_published: false\noauth_scopes_note: >-\n  No Tarana-defined scope reference is reachable. The only scopes list found anywhere is the\n  Salesforce platform scope set in the support portal's OIDC metadata, which describes\n  Salesforce APIs and not Tarana's. scopes/ is deliberately not written rather than filled\n  with a foreign vocabulary.\nauthorization_model:\n  style: role-based access control (RBAC), enforced at the ingress\n  evidence: >-\n    Anonymous requests to gated paths are refused by the Istio ingress\
   \ with the literal\n    string \"RBAC: access denied\", and the portal env-config exposes an HBAC block with a\n    ROLES_WITH_GLOBAL_ACCESS list.\n  documented_roles:\n  - NOC Operator\n  - NOC L1 User\n  - OP Admin\n  roles_source: >-\n    Role names appear in Tarana's own operator-portal documentation surface; the machine\n    definition is not public.\n  hierarchy: >-\n    Access is additionally scoped by the network hierarchy the portal filters on — operator,\n    region, market, cell, site, sector, device — which is the same hierarchy carried on every\n    webhook payload.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tarana-wireless/refs/heads/main/authentication/tarana-wireless-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tarana-wireless/authentication/tarana-wireless-authentication.yml
 summary_line: 4 schemes
 tags:
 - Company

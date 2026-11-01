@@ -7,49 +7,49 @@ api_specs:
   label: Agent Disco Checks API
   slug: agentdisco-io-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentdisco-io/refs/heads/main/openapi/agentdisco-io-checks-api-openapi.yml
+  url: https://artifacts.apis.io/agentdisco-io/openapi/agentdisco-io-checks-api-openapi.yml
 - filename: agentdisco-io-keys-api-openapi.yml
   format: yaml
   label: Agent Disco Keys API
   slug: agentdisco-io-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentdisco-io/refs/heads/main/openapi/agentdisco-io-keys-api-openapi.yml
+  url: https://artifacts.apis.io/agentdisco-io/openapi/agentdisco-io-keys-api-openapi.yml
 - filename: agentdisco-io-ops-api-openapi.yml
   format: yaml
   label: Agent Disco Ops API
   slug: agentdisco-io-ops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentdisco-io/refs/heads/main/openapi/agentdisco-io-ops-api-openapi.yml
+  url: https://artifacts.apis.io/agentdisco-io/openapi/agentdisco-io-ops-api-openapi.yml
 - filename: agentdisco-io-scans-api-openapi.yml
   format: yaml
   label: Agent Disco Scans API
   slug: agentdisco-io-scans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentdisco-io/refs/heads/main/openapi/agentdisco-io-scans-api-openapi.yml
+  url: https://artifacts.apis.io/agentdisco-io/openapi/agentdisco-io-scans-api-openapi.yml
 - filename: agentdisco-io-unlist-api-openapi.yml
   format: yaml
   label: Agent Disco Unlist API
   slug: agentdisco-io-unlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentdisco-io/refs/heads/main/openapi/agentdisco-io-unlist-api-openapi.yml
+  url: https://artifacts.apis.io/agentdisco-io/openapi/agentdisco-io-unlist-api-openapi.yml
 - filename: agentdisco-io-webhooks-api-openapi.yml
   format: yaml
   label: Agent Disco Webhooks API
   slug: agentdisco-io-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentdisco-io/refs/heads/main/openapi/agentdisco-io-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/agentdisco-io/openapi/agentdisco-io-webhooks-api-openapi.yml
 - filename: agentdisco-io-websites-api-openapi.yml
   format: yaml
   label: Agent Disco Websites API
   slug: agentdisco-io-websites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentdisco-io/refs/heads/main/openapi/agentdisco-io-websites-api-openapi.yml
+  url: https://artifacts.apis.io/agentdisco-io/openapi/agentdisco-io-websites-api-openapi.yml
 - filename: agentdisco-io-open-api-api-openapi.yml
   format: yaml
   label: Agent Disco Open API
   slug: agentdisco-io-open-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentdisco-io/refs/heads/main/openapi/agentdisco-io-open-api-api-openapi.yml
+  url: https://artifacts.apis.io/agentdisco-io/openapi/agentdisco-io-open-api-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -139,7 +139,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\ndocs: https://agentdisc
   \  token_endpoint: https://thecolony.ai/oauth/token\n  audience: colony_gNvs-06hD2sPmBWHgQ4skwGUMpDwqmcl\n  grant_type: urn:ietf:params:oauth:grant-type:token-exchange\n  subject_token_type: urn:ietf:params:oauth:token-type:access_token\n  requested_token_type: urn:ietf:params:oauth:token-type:id_token\n  scope: openid profile\n  discovery: GET https://agentdisco.io/api/v1/auth/colony/agent (get_api_colony_agent_login_discovery) publishes all of the above; cacheable, static per deployment.\n  exchange_endpoint: 'POST https://agentdisco.io/api/v1/auth/colony/agent with {\"id_token\": \"...\"}'\n  responses:\n    201: authenticated-tier ak_ key shown once\n    400: missing id_token\n    401: invalid/expired token, wrong audience, or a non-agent (human) subject\n    404: Colony login disabled on this deployment\n    429: too many attempts from this IP\n  rules:\n  - Only an id_token audienced to AgentDisco is accepted; never send the raw Colony credential.\n  - Agent-only - human Colony subjects\
   \ are rejected; humans use \"Log in with the Colony\" on the website.\n  - The Python SDK (>=0.4.0) runs the exchange at the Colony itself (AgentDisco.from_colony_token).\n  colony_metadata:\n    file: well-known/agentdisco-io-colony-openid-configuration.json\n    registration_endpoint: https://thecolony.ai/oauth/register\n    pkce: S256\n    grant_types_supported: [authorization_code, refresh_token, 'urn:ietf:params:oauth:grant-type:token-exchange', 'urn:openid:params:grant-type:ciba', 'urn:ietf:params:oauth:grant-type:device_code']\nown_oauth_metadata:\n  openid_configuration: 404\n  oauth_authorization_server: 404\n  oauth_protected_resource: 404\n  note: Agent Disco publishes no RFC 8414 / RFC 9728 / OIDC discovery of its own; it issues opaque ak_ keys, not OAuth tokens.\ndelegated_identity:\n  supported: true\n  mechanism: Colony identity -> RFC 8693 token exchange -> account-bound ak_ key\n  human_in_loop: none required for agents holding a Colony identity\nwebsite_accounts:\n  sign_up:\
   \ https://agentdisco.io/register\n  login: https://agentdisco.io/login\n  detail: Password accounts with optional 2FA and a per-user activity log at /account/activity (privacy policy section 2); \"Log in with the Colony\" is offered to humans.\nrelated:\n  conventions: conventions/agentdisco-io-conventions.yml\n  rate_limits: rate-limits/agentdisco-io-rate-limits.yml\n  overlay_adding_securitySchemes: overlays/agentdisco-io-openapi-overlay.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentdisco-io/refs/heads/main/authentication/agentdisco-io-authentication.yml
+source_yaml_url: https://artifacts.apis.io/agentdisco-io/authentication/agentdisco-io-authentication.yml
 summary_line: 3 schemes
 tags:
 - AI Agents

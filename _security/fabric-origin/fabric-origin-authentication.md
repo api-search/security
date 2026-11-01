@@ -9,103 +9,103 @@ api_specs:
   label: Fabric Origin Entertainment API
   slug: entertainment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-entertainment-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-entertainment-api-openapi.yml
 - filename: fabric-origin-celebrity-api-openapi.yml
   format: yaml
   label: Fabric Origin Celebrity API
   slug: celebrity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-celebrity-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-celebrity-api-openapi.yml
 - filename: fabric-origin-videos-api-openapi.yml
   format: yaml
   label: Fabric Origin Video API
   slug: video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-videos-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-videos-api-openapi.yml
 - filename: fabric-origin-images-api-openapi.yml
   format: yaml
   label: Fabric Origin Image API
   slug: image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-images-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-images-api-openapi.yml
 - filename: fabric-origin-entertainment-api-openapi.yml
   format: yaml
   label: Fabric Origin Entertainment API
   slug: fabric-origin-entertainment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-entertainment-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-entertainment-api-openapi.yml
 - filename: fabric-origin-images-api-openapi.yml
   format: yaml
   label: Fabric Origin Images API
   slug: fabric-origin-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-images-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-images-api-openapi.yml
 - filename: fabric-origin-videos-api-openapi.yml
   format: yaml
   label: Fabric Origin Videos API
   slug: fabric-origin-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-videos-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-videos-api-openapi.yml
 - filename: fabric-origin-fandango-api-openapi.yml
   format: yaml
   label: Fabric Origin Fandango API
   slug: fandango-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-fandango-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-fandango-api-openapi.yml
 - filename: fabric-origin-metacritic-api-openapi.yml
   format: yaml
   label: Fabric Origin Metacritic API
   slug: metacritic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-metacritic-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-metacritic-api-openapi.yml
 - filename: fabric-origin-analytics-api-openapi.yml
   format: yaml
   label: Fabric Origin Analytics API
   slug: fabric-origin-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-analytics-api-openapi.yml
 - filename: fabric-origin-common-api-openapi.yml
   format: yaml
   label: Fabric Origin Common API
   slug: fabric-origin-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-common-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-common-api-openapi.yml
 - filename: fabric-origin-commonsense-api-openapi.yml
   format: yaml
   label: Fabric Origin Commonsense API
   slug: fabric-origin-commonsense-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-commonsense-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-commonsense-api-openapi.yml
 - filename: fabric-origin-katchmedia-api-openapi.yml
   format: yaml
   label: Fabric Origin Katchmedia API
   slug: fabric-origin-katchmedia-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-katchmedia-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-katchmedia-api-openapi.yml
 - filename: fabric-origin-rabbitrecommendations-api-openapi.yml
   format: yaml
   label: Fabric Origin Rabbitrecommendations API
   slug: fabric-origin-rabbitrecommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-rabbitrecommendations-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-rabbitrecommendations-api-openapi.yml
 - filename: fabric-origin-rev-api-openapi.yml
   format: yaml
   label: Fabric Origin Rev API
   slug: fabric-origin-rev-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-rev-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-rev-api-openapi.yml
 - filename: fabric-origin-rottentomatoes-api-openapi.yml
   format: yaml
   label: Fabric Origin Rottentomatoes API
   slug: fabric-origin-rottentomatoes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-rottentomatoes-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-rottentomatoes-api-openapi.yml
 - filename: fabric-origin-tvgrid-api-openapi.yml
   format: yaml
   label: Fabric Origin Tvgrid API
   slug: fabric-origin-tvgrid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-tvgrid-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-tvgrid-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -135,7 +135,7 @@ source_yaml: "generated: '2026-09-07'\nmethod: searched\nsource: https://knowled
   \ at login; a client cannot pre-select the tenant\n    discovery: https://mcp-api.studio.fabricdata.com/.well-known/oauth-authorization-server\n    probed_status: 200\n  - name: StudioMcpApiKey\n    type: http\n    scheme: bearer\n    note: >-\n      Any non-JWT bearer is treated as an Origin Studio API key and validated server-side. This is\n      the supported headless path; there is no client-credentials flow for third parties.\n  protected_resource_metadata: https://mcp-api.studio.fabricdata.com/.well-known/oauth-protected-resource\n  challenge: 'HTTP 401 with WWW-Authenticate: Bearer error=\"invalid_token\", resource_metadata=<RFC 9728 URL>'\n  broker_note: >-\n    Origin Studio brokers login with Auth0 internally but the MCP server is its own authorization\n    server. Clients never talk to Auth0 directly; Auth0 DCR is disabled and rejects registration.\n- id: origin-insights-mcp\n  name: Origin Insights MCP Server\n  hosts: [insights.fabric-mcp.link]\n  schemes:\n  - name: InsightsMcpOAuth\n\
   \    type: oauth2\n    flow: authorization_code\n    issuer: https://insights.fabric-mcp.link/\n    authorization_endpoint: https://insights.fabric-mcp.link/oauth/authorize\n    token_endpoint: https://insights.fabric-mcp.link/oauth/token\n    registration_endpoint: https://insights.fabric-mcp.link/oauth/register\n    jwks_uri: https://cognito-idp.us-east-2.amazonaws.com/us-east-2_V84pL7JUo/.well-known/jwks.json\n    dynamic_client_registration: true\n    scopes: [openid, email, profile]\n    discovery: https://insights.fabric-mcp.link/.well-known/oauth-authorization-server\n    probed_status: 200\n  protected_resource_metadata: https://insights.fabric-mcp.link/.well-known/oauth-protected-resource\n  challenge: 'HTTP 401 with WWW-Authenticate: Bearer realm=\"fabric-mcp\", resource_metadata=<RFC 9728 URL>'\ngovernance:\n  source: https://www.fabricdata.com/agent-governance\n  machine_identity: agents authenticate as first-class OAuth identities; service accounts supported\n  no_shared_human_credentials:\
   \ true\n  rbac: agent permissions map to the same RBAC model that governs human users\n  audit: agent actions are logged and attributable to the acting identity\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/authentication/fabric-origin-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fabric-origin/authentication/fabric-origin-authentication.yml
 summary_line: apiKey/http/oauth2 · 0 schemes
 tags:
 - Entertainment

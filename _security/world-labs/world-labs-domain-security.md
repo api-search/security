@@ -5,13 +5,13 @@ api_specs:
   label: World Labs Credits API
   slug: world-labs-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/world-labs/refs/heads/main/openapi/world-labs-credits-api-openapi.yml
+  url: https://artifacts.apis.io/world-labs/openapi/world-labs-credits-api-openapi.yml
 - filename: world-labs-marble-api-openapi.yml
   format: yaml
   label: World Labs Marble API
   slug: world-labs-marble-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/world-labs/refs/heads/main/openapi/world-labs-marble-api-openapi.yml
+  url: https://artifacts.apis.io/world-labs/openapi/world-labs-marble-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: world-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: worldlabs.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 20:18:55 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.worldlabs.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 15:25:54 2026 GMT\n  hsts: null\ndomains:\n- domain: worldlabs.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/world-labs/refs/heads/main/security/world-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/world-labs/security/world-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

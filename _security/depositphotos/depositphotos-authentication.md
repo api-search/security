@@ -8,7 +8,7 @@ api_specs:
   label: Depositphotos Authentication API
   slug: depositphotos-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depositphotos/refs/heads/main/openapi/depositphotos-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/depositphotos/openapi/depositphotos-authentication-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -45,7 +45,7 @@ source_filename: depositphotos-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/depositphotos-enterprise-api.json, openapi/depositphotos-partner-api.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyParam\n  type: apiKey\n  in: query\n  parameter: dp_apikey\n  description: API key issued to the registered corporate client\n  sources:\n  - openapi/depositphotos-enterprise-api.json\n  - openapi/depositphotos-partner-api.json\n- name: SessionId\n  type: apiKey\n  in: query\n  parameter: dp_session_id\n  description: Session identifier obtained from loginEnterprise, valid for 3 hours\n  sources:\n  - openapi/depositphotos-enterprise-api.json\n  - openapi/depositphotos-partner-api.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/depositphotos/refs/heads/main/authentication/depositphotos-authentication.yml
+source_yaml_url: https://artifacts.apis.io/depositphotos/authentication/depositphotos-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Stock Photos

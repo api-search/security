@@ -24,7 +24,7 @@ source_filename: chuang-ke-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ke-chuang.com\n  https: false\ndomains:\n- domain: ke-chuang.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chuang-ke/refs/heads/main/security/chuang-ke-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/chuang-ke/security/chuang-ke-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

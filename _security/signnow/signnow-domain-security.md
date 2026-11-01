@@ -5,43 +5,43 @@ api_specs:
   label: SignNow Authentication API
   slug: signnow-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/openapi/signnow-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/signnow/openapi/signnow-authentication-api-openapi.yml
 - filename: signnow-documents-api-openapi.yml
   format: yaml
   label: SignNow Documents API
   slug: signnow-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/openapi/signnow-documents-api-openapi.yml
+  url: https://artifacts.apis.io/signnow/openapi/signnow-documents-api-openapi.yml
 - filename: signnow-envelopes-api-openapi.yml
   format: yaml
   label: SignNow Envelopes API
   slug: signnow-envelopes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/openapi/signnow-envelopes-api-openapi.yml
+  url: https://artifacts.apis.io/signnow/openapi/signnow-envelopes-api-openapi.yml
 - filename: signnow-signing-api-openapi.yml
   format: yaml
   label: SignNow Signing API
   slug: signnow-signing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/openapi/signnow-signing-api-openapi.yml
+  url: https://artifacts.apis.io/signnow/openapi/signnow-signing-api-openapi.yml
 - filename: signnow-templates-api-openapi.yml
   format: yaml
   label: SignNow Templates API
   slug: signnow-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/openapi/signnow-templates-api-openapi.yml
+  url: https://artifacts.apis.io/signnow/openapi/signnow-templates-api-openapi.yml
 - filename: signnow-users-api-openapi.yml
   format: yaml
   label: SignNow Users API
   slug: signnow-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/openapi/signnow-users-api-openapi.yml
+  url: https://artifacts.apis.io/signnow/openapi/signnow-users-api-openapi.yml
 - filename: signnow-webhooks-api-openapi.yml
   format: yaml
   label: SignNow Webhooks API
   slug: signnow-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/openapi/signnow-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/signnow/openapi/signnow-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,7 +81,7 @@ source_filename: signnow-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.signnow.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 07:01:05 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.signnow.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 17:54:47 2026 GMT\n  hsts: null\n- host: api-eval.signnow.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 17:54:47 2026 GMT\n  hsts: null\ndomains:\n- domain: signnow.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/security/signnow-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/signnow/security/signnow-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - E-Signature

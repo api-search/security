@@ -7,31 +7,31 @@ api_specs:
   label: aflac Claims API
   slug: aflac-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/openapi/aflac-claims-api-openapi.yml
+  url: https://artifacts.apis.io/aflac/openapi/aflac-claims-api-openapi.yml
 - filename: aflac-eligibility-api-openapi.yml
   format: yaml
   label: aflac Eligibility API
   slug: aflac-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/openapi/aflac-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/aflac/openapi/aflac-eligibility-api-openapi.yml
 - filename: aflac-enrollment-api-openapi.yml
   format: yaml
   label: aflac Enrollment API
   slug: aflac-enrollment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/openapi/aflac-enrollment-api-openapi.yml
+  url: https://artifacts.apis.io/aflac/openapi/aflac-enrollment-api-openapi.yml
 - filename: aflac-groups-api-openapi.yml
   format: yaml
   label: aflac Groups API
   slug: aflac-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/openapi/aflac-groups-api-openapi.yml
+  url: https://artifacts.apis.io/aflac/openapi/aflac-groups-api-openapi.yml
 - filename: aflac-policies-api-openapi.yml
   format: yaml
   label: aflac Policies API
   slug: aflac-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/openapi/aflac-policies-api-openapi.yml
+  url: https://artifacts.apis.io/aflac/openapi/aflac-policies-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-09-04'\nmethod: searched\nsource: >-\n  https://d
   \ >-\n    OAuth 2.0 client-credentials is the sole authentication method into the AEC API gateway. Aflac\n    documents the full Postman setup: type OAuth 2.0, auth data added to request headers, header\n    prefix Bearer, auto-refresh off, client authentication sent as a Basic auth header.\n  sources:\n  - https://docs.enterprise-connect.aflac.com/docs/developer-guide/how-to-guides/how-to-make-a-request-to-aec-using-postman\n  - https://docs.enterprise-connect.aflac.com/docs/developer-guide/how-to-guides/how-to-make-a-request-using-swagger\n\nadditional_headers:\n- header: aflac-openid-token\n  required: conditional\n  description: >-\n    Documented alongside the OAuth 2.0 header on the a-cipher aspect service — \"send POST request\n    to /a-cipher-1/v1/cipher-actions/protect with the appropriate OAuth 2.0 and aflac-openid-token\n    headers depending on environment\". A second, user-identity-bearing token distinct from the\n    machine client-credentials token.\n  source: https://docs.enterprise-connect.aflac.com/docs/developer-guide/how-to-guides/how-to-encrypt-and-decrypt\n\
   \ntransport_security:\n  mtls_inbound_required: false\n  note: >-\n    \"In AEC, you no longer need to use Mutual TLS (mTLS) to make requests to the running service in\n    AEC.\" mTLS remains in use for egress to third parties that enforce it and for legacy EIB 1.0\n    (Akana) systems; those certificates are managed through Venafi and injected into service\n    keystores automatically.\n  service_to_service: >-\n    Services inside AEC communicate directly across the service mesh without going back out through\n    the AWS API Gateway and without per-call certificates.\n\nportal_authentication:\n  provider: PingIdentity\n  federation: >-\n    Portal login in non-production uses an environment-suffixed identity — rmurphy@aflac.com becomes\n    rmurphy@aflacdev.com or rmurphy@aflacqa.com; a new PING profile may be required on first login.\n  saml_sso: Used for the Cloudsmith artifact registry (organization tag aflac-prod), not for the API.\n\ngate:\n  self_serve: false\n  public_signup:\
   \ false\n  note: >-\n    Every path to an AEC credential runs through an internal Aflac ServiceNow request. A member of\n    the public can read the platform's design rules in full but cannot obtain a token.\n\nanonymous_probe:\n  url: https://enterprise-connect.aflac.com/\n  status: 403\n  body: '{\"message\":\"Forbidden\"}'\n  checked: '2026-09-04'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/authentication/aflac-authentication.yml
+source_yaml_url: https://artifacts.apis.io/aflac/authentication/aflac-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Fortune 500

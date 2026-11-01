@@ -27,7 +27,7 @@ source_filename: kubevela-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: kubevela.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 09:55:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\ndomains:\n- domain: kubevela.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kubevela/refs/heads/main/security/kubevela-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kubevela/security/kubevela-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Application Delivery

@@ -5,49 +5,49 @@ api_specs:
   label: Redocly Health API
   slug: redocly-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/openapi/redocly-health-api-openapi.yml
+  url: https://artifacts.apis.io/redocly/openapi/redocly-health-api-openapi.yml
 - filename: redocly-metadata-api-openapi.yml
   format: yaml
   label: Redocly Metadata API
   slug: redocly-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/openapi/redocly-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/redocly/openapi/redocly-metadata-api-openapi.yml
 - filename: redocly-remotes-api-openapi.yml
   format: yaml
   label: Redocly Remotes API
   slug: redocly-remotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/openapi/redocly-remotes-api-openapi.yml
+  url: https://artifacts.apis.io/redocly/openapi/redocly-remotes-api-openapi.yml
 - filename: redocly-search-api-openapi.yml
   format: yaml
   label: Redocly Search API
   slug: redocly-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/openapi/redocly-search-api-openapi.yml
+  url: https://artifacts.apis.io/redocly/openapi/redocly-search-api-openapi.yml
 - filename: redocly-status-api-openapi.yml
   format: yaml
   label: Redocly Status API
   slug: redocly-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/openapi/redocly-status-api-openapi.yml
+  url: https://artifacts.apis.io/redocly/openapi/redocly-status-api-openapi.yml
 - filename: redocly-tasks-api-openapi.yml
   format: yaml
   label: Redocly Tasks API
   slug: redocly-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/openapi/redocly-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/redocly/openapi/redocly-tasks-api-openapi.yml
 - filename: redocly-webhooks-api-openapi.yml
   format: yaml
   label: Redocly Webhooks API
   slug: redocly-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/openapi/redocly-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/redocly/openapi/redocly-webhooks-api-openapi.yml
 - filename: redocly-to-dos-api-openapi.yml
   format: yaml
   label: Redocly To Dos API
   slug: redocly-to-dos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/openapi/redocly-to-dos-api-openapi.yml
+  url: https://artifacts.apis.io/redocly/openapi/redocly-to-dos-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2 Type II
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: >-\n  https://r
   \    gated: true\n  - name: CSA STAR / CAIQ v4\n    status: certified\n    evidence: >-\n      \"Completed the CAIQ version 4 questionnaire and certified under the\n      Cloud Security Alliance's (CSA) STAR program for cybersecurity.\"\n  - name: PCI DSS\n    status: inherited\n    evidence: >-\n      Redocly does not store or process payment information; it relies on\n      Stripe and Rebilly, both PCI DSS Level 1 service providers.\n  - name: GDPR / CCPA\n    status: addressed-by-dpa\n    evidence: Data Processing Addendum published at https://redocly.com/dpa\npractices:\n  encryption:\n    in_transit: TLS 1.2+\n    at_rest: AES-256\n  identity:\n    sso: [SAML 2.0, OpenID Connect]\n    domain_verification: true\n    rbac: Project-level permissions for groups; IdP-attribute team mapping.\n    audit_trail: Event logging of project updates over time.\n  testing:\n    penetration_testing: Internal and third-party, at least annually.\n    vulnerability_management: >-\n      Daily code and\
   \ dependency scanning via AWS Elastic Container Registry;\n      critical issues resolved in under one week.\n    malware_protection: Continuous container monitoring via AWS ECR plus device agents.\n  people:\n    background_checks: true\n    security_awareness_training: true\n    least_privilege: true\n  availability:\n    waf: true\n    rpo_minutes: 10\n    rto_minutes: 30\n    dr_last_tested: '2026-06-25'\n    status_page: https://status.redocly.com/\n    sla: https://redocly.com/sla\n  infrastructure:\n    hosting: AWS\n    sub_processors: https://redocly.com/sub-processors\n    named_sub_processors:\n      - name: AWS\n        location: US\n        role: All services, email service provider, storage and processing\n      - name: Google\n        location: US\n        role: LLM provider for AI search and AI assistant features\n      - name: ClickHouse, Inc.\n        location: US\n        role: Analytics data\n      - name: Auth0\n        location: US\n        role: Identity provider\
   \ for login and registration (Redocly Workflows only)\ndata_ownership:\n  statement: >-\n    Redocly states that every code sample, page and asset a customer creates\n    belongs to the customer.\n  privacy_notice: https://redocly.com/privacy-notice\ngaps:\n  - No hosted trust center (Vanta/Drata/SafeBase style) with self-serve document access.\n  - Compliance reports require a Reunite login; there is no NDA-gated public request flow described.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/security/redocly-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/redocly/security/redocly-trust-center.yml
 summary_line: SOC 2 Type II, CSA STAR / CAIQ v4, PCI DSS, GDPR / CCPA
 tags:
 - Artificial Intelligence

@@ -8,19 +8,19 @@ api_specs:
   label: Pexels Collections API
   slug: pexels-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexels/refs/heads/main/openapi/pexels-collections-api-openapi.yml
+  url: https://artifacts.apis.io/pexels/openapi/pexels-collections-api-openapi.yml
 - filename: pexels-photos-api-openapi.yml
   format: yaml
   label: Pexels Photos API
   slug: pexels-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexels/refs/heads/main/openapi/pexels-photos-api-openapi.yml
+  url: https://artifacts.apis.io/pexels/openapi/pexels-photos-api-openapi.yml
 - filename: pexels-videos-api-openapi.yml
   format: yaml
   label: Pexels Videos API
   slug: pexels-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexels/refs/heads/main/openapi/pexels-videos-api-openapi.yml
+  url: https://artifacts.apis.io/pexels/openapi/pexels-videos-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -50,7 +50,7 @@ source_filename: pexels-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pexels-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: |-\n    Pexels uses an API-key in the `Authorization` request header.\n    Send your key as `Authorization: YOUR_API_KEY` on every request.\n  sources:\n  - openapi/pexels-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pexels/refs/heads/main/authentication/pexels-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pexels/authentication/pexels-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Photos

@@ -5,61 +5,61 @@ api_specs:
   label: Vantiv Authorizations API
   slug: vantiv-authorizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-authorizations-api-openapi.yml
+  url: https://artifacts.apis.io/vantiv/openapi/vantiv-authorizations-api-openapi.yml
 - filename: vantiv-captures-api-openapi.yml
   format: yaml
   label: Vantiv Captures API
   slug: vantiv-captures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-captures-api-openapi.yml
+  url: https://artifacts.apis.io/vantiv/openapi/vantiv-captures-api-openapi.yml
 - filename: vantiv-chargebacks-api-openapi.yml
   format: yaml
   label: Vantiv Chargebacks API
   slug: vantiv-chargebacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-chargebacks-api-openapi.yml
+  url: https://artifacts.apis.io/vantiv/openapi/vantiv-chargebacks-api-openapi.yml
 - filename: vantiv-credits-api-openapi.yml
   format: yaml
   label: Vantiv Credits API
   slug: vantiv-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-credits-api-openapi.yml
+  url: https://artifacts.apis.io/vantiv/openapi/vantiv-credits-api-openapi.yml
 - filename: vantiv-documents-api-openapi.yml
   format: yaml
   label: Vantiv Documents API
   slug: vantiv-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-documents-api-openapi.yml
+  url: https://artifacts.apis.io/vantiv/openapi/vantiv-documents-api-openapi.yml
 - filename: vantiv-echeck-api-openapi.yml
   format: yaml
   label: Vantiv eCheck API
   slug: vantiv-echeck-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-echeck-api-openapi.yml
+  url: https://artifacts.apis.io/vantiv/openapi/vantiv-echeck-api-openapi.yml
 - filename: vantiv-recurring-api-openapi.yml
   format: yaml
   label: Vantiv Recurring API
   slug: vantiv-recurring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-recurring-api-openapi.yml
+  url: https://artifacts.apis.io/vantiv/openapi/vantiv-recurring-api-openapi.yml
 - filename: vantiv-sales-api-openapi.yml
   format: yaml
   label: Vantiv Sales API
   slug: vantiv-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-sales-api-openapi.yml
+  url: https://artifacts.apis.io/vantiv/openapi/vantiv-sales-api-openapi.yml
 - filename: vantiv-tokenization-api-openapi.yml
   format: yaml
   label: Vantiv Tokenization API
   slug: vantiv-tokenization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-tokenization-api-openapi.yml
+  url: https://artifacts.apis.io/vantiv/openapi/vantiv-tokenization-api-openapi.yml
 - filename: vantiv-voids-api-openapi.yml
   format: yaml
   label: Vantiv Voids API
   slug: vantiv-voids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-voids-api-openapi.yml
+  url: https://artifacts.apis.io/vantiv/openapi/vantiv-voids-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -98,7 +98,7 @@ source_filename: vantiv-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.vantiv.com\n  https: false\n- host: www.vantiv.com\n  https: false\n- host: payments.vantivprelive.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: vantiv.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: vantivprelive.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/security/vantiv-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vantiv/security/vantiv-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Payments

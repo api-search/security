@@ -8,43 +8,43 @@ api_specs:
   label: Reachdesk Bulk Sends API
   slug: reachdesk-bulk-sends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/openapi/reachdesk-bulk-sends-api-openapi.yml
+  url: https://artifacts.apis.io/reachdesk/openapi/reachdesk-bulk-sends-api-openapi.yml
 - filename: reachdesk-campaigns-api-openapi.yml
   format: yaml
   label: Reachdesk Campaigns API
   slug: reachdesk-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/openapi/reachdesk-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/reachdesk/openapi/reachdesk-campaigns-api-openapi.yml
 - filename: reachdesk-contacts-api-openapi.yml
   format: yaml
   label: Reachdesk Contacts API
   slug: reachdesk-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/openapi/reachdesk-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/reachdesk/openapi/reachdesk-contacts-api-openapi.yml
 - filename: reachdesk-gdpr-api-openapi.yml
   format: yaml
   label: Reachdesk Gdpr API
   slug: reachdesk-gdpr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/openapi/reachdesk-gdpr-api-openapi.yml
+  url: https://artifacts.apis.io/reachdesk/openapi/reachdesk-gdpr-api-openapi.yml
 - filename: reachdesk-organization-api-openapi.yml
   format: yaml
   label: Reachdesk Organization API
   slug: reachdesk-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/openapi/reachdesk-organization-api-openapi.yml
+  url: https://artifacts.apis.io/reachdesk/openapi/reachdesk-organization-api-openapi.yml
 - filename: reachdesk-sends-api-openapi.yml
   format: yaml
   label: Reachdesk Sends API
   slug: reachdesk-sends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/openapi/reachdesk-sends-api-openapi.yml
+  url: https://artifacts.apis.io/reachdesk/openapi/reachdesk-sends-api-openapi.yml
 - filename: reachdesk-transactions-api-openapi.yml
   format: yaml
   label: Reachdesk Transactions API
   slug: reachdesk-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/openapi/reachdesk-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/reachdesk/openapi/reachdesk-transactions-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://reachde
   \    provisioning: >-\n      An Organization Admin creates and revokes tokens in the Reachdesk platform\n      under Organization > Settings > API Tokens > Add New. Tokens are\n      organization-scoped, not per-user.\n    example_request: |\n      curl https://app.reachdesk.com/api/v2/organization \\\n        -H \"Authorization: Bearer {api_token}\"\n    sources:\n      - openapi/reachdesk-api-openapi.yml\n      - https://reachdesk.readme.io/reference/authentication\n      - https://support.reachdesk.com/hc/en-gb/articles/29669486204305-Send-gifts-with-the-Reachdesk-Trigger-Campaign-API\n    notes:\n      - >-\n        The OpenAPI declares this as type apiKey with x-bearer-format bearer, so\n        the literal header value is \"Bearer <token>\" even though the scheme is not\n        modelled as http/bearer.\n      - >-\n        No token expiry, rotation cadence or scope model is documented. The token\n        carries whatever the organization can do; there is no per-endpoint\n      \
   \  restriction published.\n  - name: mcp-oauth\n    type: oauth2\n    surface: mcp\n    applies_to: https://app.reachdesk.com/mcp\n    issuer: https://app.reachdesk.com\n    authorization_endpoint: https://app.reachdesk.com/oauth/authorize\n    token_endpoint: https://app.reachdesk.com/oauth/token\n    registration_endpoint: https://app.reachdesk.com/oauth/register\n    grant_types:\n      - authorization_code\n      - client_credentials\n      - refresh_token\n    pkce: S256\n    token_endpoint_auth_methods:\n      - client_secret_basic\n      - client_secret_post\n      - none\n    scopes:\n      - mcp:tools.user.read\n      - mcp:tools.user.write\n    dynamic_client_registration: true\n    sources:\n      - well-known/reachdesk-oauth-authorization-server.json\n      - well-known/reachdesk-oauth-protected-resource.json\n    notes:\n      - >-\n        Discovered by probe. Reachdesk does not document this OAuth surface in its\n        API reference or knowledge base.\n\nplatform_identity:\n\
   \  description: >-\n    Distinct from API authentication: end-user access to the Reachdesk application\n    supports SAML SSO and SCIM 2.0 user provisioning. These govern human logins,\n    not API calls.\n  saml_sso:\n    supported: true\n    providers:\n      - Okta\n      - Microsoft Entra ID\n      - OneLogin\n    jit_provisioning: true\n    source: https://support.reachdesk.com/hc/en-gb/articles/4420374592017-Just-in-Time-JIT-Provisioning-SAML\n  scim:\n    supported: true\n    version: '2.0'\n    source: https://support.reachdesk.com/hc/en-gb/articles/29322223500689-How-to-enable-SCIM-user-provisioning-in-Okta\n\ngaps:\n  - No documented token rotation or expiry policy for REST API tokens.\n  - No scope or permission model on the REST API — one token, full organization access.\n  - >-\n    The MCP OAuth surface is undocumented; a developer cannot learn it exists\n    without probing the host.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/authentication/reachdesk-authentication.yml
+source_yaml_url: https://artifacts.apis.io/reachdesk/authentication/reachdesk-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Corporate Gifting

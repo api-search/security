@@ -8,37 +8,67 @@ api_specs:
   label: Eigenpal Automations API
   slug: eigenpal-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-automations-api-openapi.yml
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-automations-api-openapi.yml
 - filename: eigenpal-evaluation-api-openapi.yml
   format: yaml
   label: Eigenpal Evaluation API
   slug: eigenpal-evaluation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-evaluation-api-openapi.yml
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-evaluation-api-openapi.yml
 - filename: eigenpal-files-api-openapi.yml
   format: yaml
   label: Eigenpal Files API
   slug: eigenpal-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-files-api-openapi.yml
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-files-api-openapi.yml
 - filename: eigenpal-metadata-api-openapi.yml
   format: yaml
   label: Eigenpal Metadata API
   slug: eigenpal-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-metadata-api-openapi.yml
 - filename: eigenpal-reviews-api-openapi.yml
   format: yaml
   label: Eigenpal Reviews API
   slug: eigenpal-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-reviews-api-openapi.yml
 - filename: eigenpal-runs-api-openapi.yml
   format: yaml
   label: Eigenpal Runs API
   slug: eigenpal-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-runs-api-openapi.yml
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-runs-api-openapi.yml
+- filename: eigenpal-email-servers-api-openapi.yml
+  format: yaml
+  label: Eigenpal Email servers API
+  slug: eigenpal-email-servers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-email-servers-api-openapi.yml
+- filename: eigenpal-folders-api-openapi.yml
+  format: yaml
+  label: Eigenpal Folders API
+  slug: eigenpal-folders-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-folders-api-openapi.yml
+- filename: eigenpal-human-reviews-api-openapi.yml
+  format: yaml
+  label: Eigenpal Human reviews API
+  slug: eigenpal-human-reviews-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-human-reviews-api-openapi.yml
+- filename: eigenpal-models-api-openapi.yml
+  format: yaml
+  label: Eigenpal Models API
+  slug: eigenpal-models-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-models-api-openapi.yml
+- filename: eigenpal-templates-api-openapi.yml
+  format: yaml
+  label: Eigenpal Templates API
+  slug: eigenpal-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-templates-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -66,7 +96,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/eigenpal-openapi-original.json\ndocs: https://docs.eigenpal.com/api-reference\nsummary:\n  types:\n  - http\n  scheme: bearer-api-key\n  api_key_in:\n  - header\n  oauth2_flows: []\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'API key issued from the dashboard under Settings → API Keys. Pass as `Authorization: Bearer <key>`.'\n  sources:\n  - openapi/eigenpal-openapi-original.json\nnotes:\n  key_issuance: Dashboard → Settings → API Keys (one key maps to one tenant/organization).\n  cli_login: '`eigenpal auth login` opens a browser to create an API key and stores it in ~/.config/eigenpal/credentials.json as a named profile.'\n  identity_endpoint: 'GET /api/v1/auth/check returns the tenant, user, API key, and scope for the current key.'\n  scopes: API keys carry a scope; a 403 is returned when the key lacks the scope required by an operation (key-level scopes, not OAuth scopes).\n  self_hosted:\
   \ SDKs and CLI accept a custom base URL (baseUrl / base_url / EIGENPAL server profile) to target self-hosted deployments.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/authentication/eigenpal-authentication.yml
+source_yaml_url: https://artifacts.apis.io/eigenpal/authentication/eigenpal-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

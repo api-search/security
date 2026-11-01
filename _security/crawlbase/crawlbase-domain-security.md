@@ -5,31 +5,31 @@ api_specs:
   label: Crawlbase Crawling API
   slug: crawlbase-crawling-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/openapi/crawlbase-crawling-api-api-openapi.yml
+  url: https://artifacts.apis.io/crawlbase/openapi/crawlbase-crawling-api-api-openapi.yml
 - filename: crawlbase-leads-api-api-openapi.yml
   format: yaml
   label: Crawlbase Leads API
   slug: crawlbase-leads-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/openapi/crawlbase-leads-api-api-openapi.yml
+  url: https://artifacts.apis.io/crawlbase/openapi/crawlbase-leads-api-api-openapi.yml
 - filename: crawlbase-scraper-api-api-openapi.yml
   format: yaml
   label: Crawlbase Scraper API
   slug: crawlbase-scraper-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/openapi/crawlbase-scraper-api-api-openapi.yml
+  url: https://artifacts.apis.io/crawlbase/openapi/crawlbase-scraper-api-api-openapi.yml
 - filename: crawlbase-screenshots-api-api-openapi.yml
   format: yaml
   label: Crawlbase Screenshots API
   slug: crawlbase-screenshots-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/openapi/crawlbase-screenshots-api-api-openapi.yml
+  url: https://artifacts.apis.io/crawlbase/openapi/crawlbase-screenshots-api-api-openapi.yml
 - filename: crawlbase-storage-api-api-openapi.yml
   format: yaml
   label: Crawlbase Storage API
   slug: crawlbase-storage-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/openapi/crawlbase-storage-api-api-openapi.yml
+  url: https://artifacts.apis.io/crawlbase/openapi/crawlbase-storage-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +71,7 @@ source_filename: crawlbase-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: crawlbase.com\n  https: true\n  tls_version: TLSv1.3\n  cert_not_before: May 29 17:51:33 2026 GMT\n  cert_expires: Aug 27 18:47:34 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  hsts_preload: true\n  server: cloudflare\n- host: api.crawlbase.com\n  https: true\n  cert_not_before: Jul 3 16:01:34 2026 GMT\n  cert_expires: Oct 1 16:01:33 2026 GMT\n  hsts: false\n  server: PC-WS\n  note: Returns HTTP 400 to an unauthenticated root request, as expected for the token-gated API host.\ndomains:\n- domain: crawlbase.com\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: v=spf1 include:emsd1.com include:spf.zoho.com include:zoho.com include:em8389.crawlbase.com include:zeptomail.net mx -all\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/security/crawlbase-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/crawlbase/security/crawlbase-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Web Scraping

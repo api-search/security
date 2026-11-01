@@ -7,49 +7,49 @@ api_specs:
   label: Preset Authentication API
   slug: preset-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/openapi/preset-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/preset/openapi/preset-authentication-api-openapi.yml
 - filename: preset-charts-api-openapi.yml
   format: yaml
   label: Preset Charts API
   slug: preset-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/openapi/preset-charts-api-openapi.yml
+  url: https://artifacts.apis.io/preset/openapi/preset-charts-api-openapi.yml
 - filename: preset-dashboards-api-openapi.yml
   format: yaml
   label: Preset Dashboards API
   slug: preset-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/openapi/preset-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/preset/openapi/preset-dashboards-api-openapi.yml
 - filename: preset-databases-api-openapi.yml
   format: yaml
   label: Preset Databases API
   slug: preset-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/openapi/preset-databases-api-openapi.yml
+  url: https://artifacts.apis.io/preset/openapi/preset-databases-api-openapi.yml
 - filename: preset-datasets-api-openapi.yml
   format: yaml
   label: Preset Datasets API
   slug: preset-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/openapi/preset-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/preset/openapi/preset-datasets-api-openapi.yml
 - filename: preset-sql-lab-api-openapi.yml
   format: yaml
   label: Preset SQL Lab API
   slug: preset-sql-lab-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/openapi/preset-sql-lab-api-openapi.yml
+  url: https://artifacts.apis.io/preset/openapi/preset-sql-lab-api-openapi.yml
 - filename: preset-teams-api-openapi.yml
   format: yaml
   label: Preset Teams API
   slug: preset-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/openapi/preset-teams-api-openapi.yml
+  url: https://artifacts.apis.io/preset/openapi/preset-teams-api-openapi.yml
 - filename: preset-workspaces-api-openapi.yml
   format: yaml
   label: Preset Workspaces API
   slug: preset-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/openapi/preset-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/preset/openapi/preset-workspaces-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -77,7 +77,7 @@ source_filename: preset-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/preset-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: 'JWT obtained from POST /v1/auth/ by exchanging an API token name and secret.\n    Passed as Authorization: Bearer <token>.'\n  sources:\n  - openapi/preset-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/authentication/preset-authentication.yml
+source_yaml_url: https://artifacts.apis.io/preset/authentication/preset-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Business Intelligence

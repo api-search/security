@@ -7,151 +7,151 @@ api_specs:
   label: Conekta Api Keys API
   slug: conekta-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-api-keys-api-openapi.yml
 - filename: conekta-balances-api-openapi.yml
   format: yaml
   label: Conekta Balances API
   slug: conekta-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-balances-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-balances-api-openapi.yml
 - filename: conekta-charges-api-openapi.yml
   format: yaml
   label: Conekta Charges API
   slug: conekta-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-charges-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-charges-api-openapi.yml
 - filename: conekta-companies-api-openapi.yml
   format: yaml
   label: Conekta Companies API
   slug: conekta-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-companies-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-companies-api-openapi.yml
 - filename: conekta-customers-api-openapi.yml
   format: yaml
   label: Conekta Customers API
   slug: conekta-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-customers-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-customers-api-openapi.yml
 - filename: conekta-discounts-api-openapi.yml
   format: yaml
   label: Conekta Discounts API
   slug: conekta-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-discounts-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-discounts-api-openapi.yml
 - filename: conekta-events-api-openapi.yml
   format: yaml
   label: Conekta Events API
   slug: conekta-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-events-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-events-api-openapi.yml
 - filename: conekta-logs-api-openapi.yml
   format: yaml
   label: Conekta Logs API
   slug: conekta-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-logs-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-logs-api-openapi.yml
 - filename: conekta-orders-api-openapi.yml
   format: yaml
   label: Conekta Orders API
   slug: conekta-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-orders-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-orders-api-openapi.yml
 - filename: conekta-payment-link-api-openapi.yml
   format: yaml
   label: Conekta Payment Link API
   slug: conekta-payment-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-payment-link-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-payment-link-api-openapi.yml
 - filename: conekta-payment-methods-api-openapi.yml
   format: yaml
   label: Conekta Payment Methods API
   slug: conekta-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-payment-methods-api-openapi.yml
 - filename: conekta-payout-orders-api-openapi.yml
   format: yaml
   label: Conekta Payout Orders API
   slug: conekta-payout-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-payout-orders-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-payout-orders-api-openapi.yml
 - filename: conekta-plans-api-openapi.yml
   format: yaml
   label: Conekta Plans API
   slug: conekta-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-plans-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-plans-api-openapi.yml
 - filename: conekta-products-api-openapi.yml
   format: yaml
   label: Conekta Products API
   slug: conekta-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-products-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-products-api-openapi.yml
 - filename: conekta-shipping-contacts-api-openapi.yml
   format: yaml
   label: Conekta Shipping Contacts API
   slug: conekta-shipping-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-shipping-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-shipping-contacts-api-openapi.yml
 - filename: conekta-shippings-api-openapi.yml
   format: yaml
   label: Conekta Shippings API
   slug: conekta-shippings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-shippings-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-shippings-api-openapi.yml
 - filename: conekta-subscriptions-api-openapi.yml
   format: yaml
   label: Conekta Subscriptions API
   slug: conekta-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-subscriptions-api-openapi.yml
 - filename: conekta-subscriptions-customer-portal-api-openapi.yml
   format: yaml
   label: Conekta Subscriptions - Customer Portal API
   slug: conekta-subscriptions-customer-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-subscriptions-customer-portal-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-subscriptions-customer-portal-api-openapi.yml
 - filename: conekta-taxes-api-openapi.yml
   format: yaml
   label: Conekta Taxes API
   slug: conekta-taxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-taxes-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-taxes-api-openapi.yml
 - filename: conekta-tokens-api-openapi.yml
   format: yaml
   label: Conekta Tokens API
   slug: conekta-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-tokens-api-openapi.yml
 - filename: conekta-transactions-api-openapi.yml
   format: yaml
   label: Conekta Transactions API
   slug: conekta-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-transactions-api-openapi.yml
 - filename: conekta-transfers-api-openapi.yml
   format: yaml
   label: Conekta Transfers API
   slug: conekta-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-transfers-api-openapi.yml
 - filename: conekta-webhook-keys-api-openapi.yml
   format: yaml
   label: Conekta Webhook keys API
   slug: conekta-webhook-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-webhook-keys-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-webhook-keys-api-openapi.yml
 - filename: conekta-webhooks-api-openapi.yml
   format: yaml
   label: Conekta Webhooks API
   slug: conekta-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-webhooks-api-openapi.yml
 - filename: conekta-anti-fraud-api-openapi.yml
   format: yaml
   label: Conekta anti Fraud API
   slug: conekta-anti-fraud-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-anti-fraud-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-anti-fraud-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -177,7 +177,7 @@ source_filename: conekta-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/conekta-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/conekta-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/authentication/conekta-authentication.yml
+source_yaml_url: https://artifacts.apis.io/conekta/authentication/conekta-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Payments

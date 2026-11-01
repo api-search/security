@@ -27,7 +27,7 @@ source_filename: beyond-reach-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.beyondreachlabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 03:45:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: beyondreachlabs.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beyond-reach-labs/refs/heads/main/security/beyond-reach-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/beyond-reach-labs/security/beyond-reach-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

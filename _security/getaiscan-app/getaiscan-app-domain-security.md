@@ -5,13 +5,13 @@ api_specs:
   label: AIScan Agent API
   slug: getaiscan-app-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getaiscan-app/refs/heads/main/openapi/getaiscan-app-agent-api-openapi.yml
+  url: https://artifacts.apis.io/getaiscan-app/openapi/getaiscan-app-agent-api-openapi.yml
 - filename: getaiscan-app-ai-visibility-api-openapi.yml
   format: yaml
   label: AIScan AI Visibility API
   slug: getaiscan-app-ai-visibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getaiscan-app/refs/heads/main/openapi/getaiscan-app-ai-visibility-api-openapi.yml
+  url: https://artifacts.apis.io/getaiscan-app/openapi/getaiscan-app-ai-visibility-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -44,7 +44,7 @@ source_filename: getaiscan-app-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: getaiscan.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 17:18:57 2026 GMT\n  hsts: false\n- host: api.getaiscan.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 19:20:56 2026 GMT\n  hsts: false\ndomains:\n- domain: getaiscan.app\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/getaiscan-app/refs/heads/main/security/getaiscan-app-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/getaiscan-app/security/getaiscan-app-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - AI Visibility

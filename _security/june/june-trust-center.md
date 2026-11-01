@@ -5,25 +5,25 @@ api_specs:
   label: June Companies API
   slug: june-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/june/refs/heads/main/openapi/june-companies-api-openapi.yml
+  url: https://artifacts.apis.io/june/openapi/june-companies-api-openapi.yml
 - filename: june-events-api-openapi.yml
   format: yaml
   label: June Events API
   slug: june-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/june/refs/heads/main/openapi/june-events-api-openapi.yml
+  url: https://artifacts.apis.io/june/openapi/june-events-api-openapi.yml
 - filename: june-users-api-openapi.yml
   format: yaml
   label: June Users API
   slug: june-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/june/refs/heads/main/openapi/june-users-api-openapi.yml
+  url: https://artifacts.apis.io/june/openapi/june-users-api-openapi.yml
 - filename: june-pageviews-api-openapi.yml
   format: yaml
   label: June Pageviews API
   slug: june-pageviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/june/refs/heads/main/openapi/june-pageviews-api-openapi.yml
+  url: https://artifacts.apis.io/june/openapi/june-pageviews-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -41,7 +41,7 @@ source_filename: june-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.june.so/security\nurl: https://www.june.so/security\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://www.june.so/security\n  keywords:\n  - soc 2\n  - soc2\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/june/refs/heads/main/security/june-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/june/security/june-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - Analytics

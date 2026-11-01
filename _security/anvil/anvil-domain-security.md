@@ -5,13 +5,13 @@ api_specs:
   label: Anvil Fill API
   slug: anvil-fill-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anvil/refs/heads/main/openapi/anvil-fill-api-openapi.yml
+  url: https://artifacts.apis.io/anvil/openapi/anvil-fill-api-openapi.yml
 - filename: anvil-generate-pdf-api-openapi.yml
   format: yaml
   label: Anvil Generate Pdf API
   slug: anvil-generate-pdf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anvil/refs/heads/main/openapi/anvil-generate-pdf-api-openapi.yml
+  url: https://artifacts.apis.io/anvil/openapi/anvil-generate-pdf-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: anvil-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.useanvil.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 07:55:36 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: app.useanvil.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 11:40:52 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: useanvil.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anvil/refs/heads/main/security/anvil-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/anvil/security/anvil-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - PDF

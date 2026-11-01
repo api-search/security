@@ -8,19 +8,19 @@ api_specs:
   label: CanFly Agents API
   slug: canfly-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canfly-ai/refs/heads/main/openapi/canfly-ai-agents-api-openapi.yml
+  url: https://artifacts.apis.io/canfly-ai/openapi/canfly-ai-agents-api-openapi.yml
 - filename: canfly-ai-discovery-api-openapi.yml
   format: yaml
   label: CanFly Discovery API
   slug: canfly-ai-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canfly-ai/refs/heads/main/openapi/canfly-ai-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/canfly-ai/openapi/canfly-ai-discovery-api-openapi.yml
 - filename: canfly-ai-skills-api-openapi.yml
   format: yaml
   label: CanFly Skills API
   slug: canfly-ai-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canfly-ai/refs/heads/main/openapi/canfly-ai-skills-api-openapi.yml
+  url: https://artifacts.apis.io/canfly-ai/openapi/canfly-ai-skills-api-openapi.yml
 auth_types:
 - http-bearer
 - payment (HTTP 402 / MPP)
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://canfly.
   \ WWW-Authenticate: Payment method=\"tempo\", intent=\"charge\", realm=\"canfly.ai\" and body {type: payment-required, title: Payment Required, status: 402} (llms-full.txt); the OpenAPI declares the 402 with schema PaymentRequired {error, status, hint} and per-operation x-payment-info {amount, method: tempo, intent: charge, currency: <token address>}'\n  credential: 'Payment / Payment-Method request headers (allowed by CORS on the live API) for the MPP path; tx_hash (+ optional task_id, payment_method usdc_base | escrow) in the JSON body for the on-chain path'\n  verification: 'Transfer or Deposited event on Base (chainId 8453), 3 block confirmations; USDC 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913, TaskEscrow 0x6e44489c33eB6e66cC814569459De7B9BDb0176d'\n  used_by: [createAgentTask, 'orderSkill_* (48 operations)']\n  receipt_header: Payment-Receipt (exposed by CORS on live responses; semantics undocumented)\n  sources:\n  - https://canfly.ai/llms-full.txt\n  - https://canfly.ai/api/openapi.json\n\
   public_operations:\n  note: 'No credential on: getApiIndex, listAgents, getAgent, getAgentCard, getCommunityHealth, listUsers, getUser, listAgentTasks, getAgentTask, getLiveFeed, registerAgent, and the MCP server (initialize/tools/list/resources/list all anonymous).'\nundocumented_credentials_seen:\n  note: >-\n    The live CORS allow-list on /api names X-Canfly-Api-Key, X-Edit-Token, X-Wallet-Address, X-Buyer-Wallet,\n    X-Canfly-Channel and X-Canfly-Sender-Type. None appears in the contract or the docs; recorded so a reader\n    knows they exist, not as supported schemes.\ndiscovery:\n  oauth_authorization_server: none (SPA shell at /.well-known/oauth-authorization-server)\n  oauth_protected_resource: none\n  openid_configuration: none\n  mcp_auth: none required\ngaps:\n- The contract declares no securitySchemes, so generated clients will not send the Bearer header without hand edits; overlays/canfly-ai-openapi-overlay.yaml adds the scheme.\n- No key rotation, revocation or expiry is\
   \ documented.\n- Four write routes that require the key (milestones, basemail, task complete, task rate) are absent from the OpenAPI.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canfly-ai/refs/heads/main/authentication/canfly-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/canfly-ai/authentication/canfly-ai-authentication.yml
 summary_line: http-bearer/payment (HTTP 402 / MPP) · 2 schemes
 tags:
 - Agents

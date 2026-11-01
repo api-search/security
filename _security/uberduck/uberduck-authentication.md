@@ -7,25 +7,25 @@ api_specs:
   label: Uberduck Conversational API
   slug: uberduck-conversational-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/openapi/uberduck-conversational-api-openapi.yml
+  url: https://artifacts.apis.io/uberduck/openapi/uberduck-conversational-api-openapi.yml
 - filename: uberduck-models-api-openapi.yml
   format: yaml
   label: Uberduck Models API
   slug: uberduck-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/openapi/uberduck-models-api-openapi.yml
+  url: https://artifacts.apis.io/uberduck/openapi/uberduck-models-api-openapi.yml
 - filename: uberduck-text-to-speech-api-openapi.yml
   format: yaml
   label: Uberduck Text-to-Speech API
   slug: uberduck-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/openapi/uberduck-text-to-speech-api-openapi.yml
+  url: https://artifacts.apis.io/uberduck/openapi/uberduck-text-to-speech-api-openapi.yml
 - filename: uberduck-voices-api-openapi.yml
   format: yaml
   label: Uberduck Voices API
   slug: uberduck-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/openapi/uberduck-voices-api-openapi.yml
+  url: https://artifacts.apis.io/uberduck/openapi/uberduck-voices-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,12 +52,11 @@ source_filename: uberduck-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/uberduck-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: HTTPBearer\n  type: http\n  scheme: bearer\n  description: Bearer API key generated in Uberduck account settings under the API section.\n  sources:\n  - openapi/uberduck-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/authentication/uberduck-authentication.yml
+source_yaml_url: https://artifacts.apis.io/uberduck/authentication/uberduck-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
 - Text-to-Speech
-- TTS
 - Voice
 - Voice Cloning
 - Speech Synthesis

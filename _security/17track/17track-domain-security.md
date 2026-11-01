@@ -5,13 +5,13 @@ api_specs:
   label: 17TRACK Tracking API
   slug: 17track-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/17track/refs/heads/main/openapi/17track-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/17track/openapi/17track-tracking-api-openapi.yml
 - filename: 17track-webhooks-api-openapi.yml
   format: yaml
   label: 17TRACK Webhooks API
   slug: 17track-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/17track/refs/heads/main/openapi/17track-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/17track/openapi/17track-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: 17track-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.17track.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 23:59:59 2026 GMT\n  hsts: false\n- host: api.17track.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: 17track.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/17track/refs/heads/main/security/17track-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/17track/security/17track-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Shipping

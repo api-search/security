@@ -26,7 +26,7 @@ source_filename: benhuatechnology-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ben-hua.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 03:54:48 2026 GMT\n  hsts: false\ndomains:\n- domain: ben-hua.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/benhuatechnology/refs/heads/main/security/benhuatechnology-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/benhuatechnology/security/benhuatechnology-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

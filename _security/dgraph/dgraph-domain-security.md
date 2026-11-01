@@ -31,7 +31,7 @@ source_filename: dgraph-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: site.dgraph.io\n  https: false\n- host: docs.dgraph.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 03:38:31 2026 GMT\n  hsts: false\n- host: cloud.dgraph.io\n  https: false\ndomains:\n- domain: dgraph.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dgraph/refs/heads/main/security/dgraph-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dgraph/security/dgraph-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - GraphQL

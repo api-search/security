@@ -38,7 +38,7 @@ source_filename: aibee-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.aibee.cn\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  7 23:59:59 2027 GMT\n  hsts: false\n- host: map.aibee.cn\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar  7 23:59:59 2027 GMT\n  hsts: false\n- host: deploy.aibee.cn\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar  7 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: aibee.cn\n  dnssec: true\n  caa:\n  - aibee.cn.a.bdydns.com.\n  - opencdn.jomodns.com.\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aibee/refs/heads/main/security/aibee-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aibee/security/aibee-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company

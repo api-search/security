@@ -26,7 +26,7 @@ source_filename: allena-pharmaceuticals-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: allenapharma.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep  5 06:24:39 2026 GMT\n  hsts: null\ndomains:\n- domain: allenapharma.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allena-pharmaceuticals/refs/heads/main/security/allena-pharmaceuticals-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/allena-pharmaceuticals/security/allena-pharmaceuticals-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Company

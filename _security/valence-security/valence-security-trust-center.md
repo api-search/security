@@ -15,7 +15,7 @@ source_filename: valence-security-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.valencesecurity.com/security\nurl: https://www.valencesecurity.com/security\ncertifications:\n- SOC 2\nevidence:\n- source: https://www.valencesecurity.com/security\n  keywords:\n  - soc 2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/valence-security/refs/heads/main/security/valence-security-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/valence-security/security/valence-security-trust-center.yml
 summary_line: SOC 2
 tags:
 - SaaS Security

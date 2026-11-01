@@ -5,7 +5,7 @@ api_specs:
   label: tRPC Procedures API
   slug: trpc-procedures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trpc/refs/heads/main/openapi/trpc-procedures-api-openapi.yml
+  url: https://artifacts.apis.io/trpc/openapi/trpc-procedures-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -38,7 +38,7 @@ source_filename: trpc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: trpc.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 13 23:40:53 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: trpc.io\n  dnssec: true\n  caa:\n  - 0 issuewild \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"digicert.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trpc/refs/heads/main/security/trpc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trpc/security/trpc-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - API Composition

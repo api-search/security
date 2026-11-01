@@ -8,25 +8,25 @@ api_specs:
   label: Airmee Collection Point Deliveries API
   slug: airmee-collection-point-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airmee/refs/heads/main/openapi/airmee-collection-point-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/airmee/openapi/airmee-collection-point-deliveries-api-openapi.yml
 - filename: airmee-home-deliveries-api-openapi.yml
   format: yaml
   label: Airmee Home Deliveries API
   slug: airmee-home-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airmee/refs/heads/main/openapi/airmee-home-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/airmee/openapi/airmee-home-deliveries-api-openapi.yml
 - filename: airmee-parcel-locker-deliveries-api-openapi.yml
   format: yaml
   label: Airmee Parcel Locker Deliveries API
   slug: airmee-parcel-locker-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airmee/refs/heads/main/openapi/airmee-parcel-locker-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/airmee/openapi/airmee-parcel-locker-deliveries-api-openapi.yml
 - filename: airmee-returns-api-openapi.yml
   format: yaml
   label: Airmee Returns API
   slug: airmee-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airmee/refs/heads/main/openapi/airmee-returns-api-openapi.yml
+  url: https://artifacts.apis.io/airmee/openapi/airmee-returns-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: airmee-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: derived\nsource: openapi/airmee-integration-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: jwtAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Pickup place's long-lived JWT issued by Airmee, sent as the raw value of the\n    Authorization header (the published curl examples use `Authorization:<YOUR_JWT>` with no\n    scheme prefix).\n  sources:\n  - openapi/airmee-integration-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airmee/refs/heads/main/authentication/airmee-authentication.yml
+source_yaml_url: https://artifacts.apis.io/airmee/authentication/airmee-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Logistics

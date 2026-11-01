@@ -33,14 +33,14 @@ source_filename: rx-redefined-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: rxredefined.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 19 23:59:59 2027 GMT\n  hsts: false\n- host: app.rxredefined.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 21 17:20:26 2026 GMT\n  hsts: false\n  note: >-\n    Customer-only application host (Aptible-hosted). Probed manually on 2026-08-26; the\n    automated pass only reads hosts named by apis.yml Website/baseURL.\ndomains:\n- domain: rxredefined.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rx-redefined/refs/heads/main/security/rx-redefined-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rx-redefined/security/rx-redefined-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Healthcare
 - Medical Supplies
 - DMEPOS
-- Durable Medical Equipment
+- DME
 - Compliance
 - HIPAA
 - Revenue Cycle Management

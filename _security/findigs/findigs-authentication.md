@@ -8,19 +8,19 @@ api_specs:
   label: Findigs Applications API
   slug: findigs-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/openapi/findigs-applications-api-openapi.yml
+  url: https://artifacts.apis.io/findigs/openapi/findigs-applications-api-openapi.yml
 - filename: findigs-groups-api-openapi.yml
   format: yaml
   label: Findigs Groups API
   slug: findigs-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/openapi/findigs-groups-api-openapi.yml
+  url: https://artifacts.apis.io/findigs/openapi/findigs-groups-api-openapi.yml
 - filename: findigs-listings-api-openapi.yml
   format: yaml
   label: Findigs Listings API
   slug: findigs-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/openapi/findigs-listings-api-openapi.yml
+  url: https://artifacts.apis.io/findigs/openapi/findigs-listings-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -47,7 +47,7 @@ source_filename: findigs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: derived\nsource: openapi/findigs-client-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: APIKeyHeader\n  type: apiKey\n  in: header\n  parameter: X-API-KEY\n  sources:\n  - openapi/findigs-client-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/authentication/findigs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/findigs/authentication/findigs-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - rental-screening

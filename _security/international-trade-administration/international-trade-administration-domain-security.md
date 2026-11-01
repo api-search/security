@@ -5,37 +5,37 @@ api_specs:
   label: International Trade Administration Consolidated Screening List API
   slug: international-trade-administration-consolidated-screening-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/openapi/international-trade-administration-consolidated-screening-list-api-openapi.yml
+  url: https://artifacts.apis.io/international-trade-administration/openapi/international-trade-administration-consolidated-screening-list-api-openapi.yml
 - filename: international-trade-administration-country-commercial-guides-api-openapi.yml
   format: yaml
   label: International Trade Administration Country Commercial Guides API
   slug: international-trade-administration-country-commercial-guides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/openapi/international-trade-administration-country-commercial-guides-api-openapi.yml
+  url: https://artifacts.apis.io/international-trade-administration/openapi/international-trade-administration-country-commercial-guides-api-openapi.yml
 - filename: international-trade-administration-customs-tariff-api-openapi.yml
   format: yaml
   label: International Trade Administration Customs Tariff API
   slug: international-trade-administration-customs-tariff-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/openapi/international-trade-administration-customs-tariff-api-openapi.yml
+  url: https://artifacts.apis.io/international-trade-administration/openapi/international-trade-administration-customs-tariff-api-openapi.yml
 - filename: international-trade-administration-de-minimis-api-openapi.yml
   format: yaml
   label: International Trade Administration De Minimis API
   slug: international-trade-administration-de-minimis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/openapi/international-trade-administration-de-minimis-api-openapi.yml
+  url: https://artifacts.apis.io/international-trade-administration/openapi/international-trade-administration-de-minimis-api-openapi.yml
 - filename: international-trade-administration-market-intelligence-api-openapi.yml
   format: yaml
   label: International Trade Administration Market Intelligence API
   slug: international-trade-administration-market-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/openapi/international-trade-administration-market-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/international-trade-administration/openapi/international-trade-administration-market-intelligence-api-openapi.yml
 - filename: international-trade-administration-trade-events-api-openapi.yml
   format: yaml
   label: International Trade Administration Trade Events API
   slug: international-trade-administration-trade-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/openapi/international-trade-administration-trade-events-api-openapi.yml
+  url: https://artifacts.apis.io/international-trade-administration/openapi/international-trade-administration-trade-events-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: international-trade-administration-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.trade.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 28 10:56:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.trade.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 28 10:56:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: data.trade.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: trade.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/security/international-trade-administration-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/international-trade-administration/security/international-trade-administration-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Compliance

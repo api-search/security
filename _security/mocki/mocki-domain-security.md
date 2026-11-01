@@ -1,11 +1,17 @@
 ---
 api_specs:
+- filename: mocki-mocki-api-api-openapi.yml
+  format: yaml
+  label: Mocki API
+  slug: mocki-api-2
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mocki/openapi/mocki-mocki-api-api-openapi.yml
 - filename: mocki-openapi-generated.yml
   format: yaml
   label: Mocki API
   slug: mocki-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mocki/refs/heads/main/openapi/_ae-authored/mocki-openapi-generated.yml
+  url: https://artifacts.apis.io/mocki/openapi/_ae-authored/mocki-openapi-generated.yml
 description: ''
 domains:
 - caa: []
@@ -33,11 +39,11 @@ source_filename: mocki-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mocki.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  6 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: mocki.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mocki/refs/heads/main/security/mocki-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mocki/security/mocki-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Mock API
 - Testing
 - Development

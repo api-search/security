@@ -5,19 +5,19 @@ api_specs:
   label: Dog API Breeds API
   slug: dog-api-breeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dog-api/refs/heads/main/openapi/dog-api-breeds-api-openapi.yml
+  url: https://artifacts.apis.io/dog-api/openapi/dog-api-breeds-api-openapi.yml
 - filename: dog-api-images-api-openapi.yml
   format: yaml
   label: Dog API Images API
   slug: dog-api-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dog-api/refs/heads/main/openapi/dog-api-images-api-openapi.yml
+  url: https://artifacts.apis.io/dog-api/openapi/dog-api-images-api-openapi.yml
 - filename: dog-api-info-api-openapi.yml
   format: yaml
   label: Dog API Info API
   slug: dog-api-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dog-api/refs/heads/main/openapi/dog-api-info-api-openapi.yml
+  url: https://artifacts.apis.io/dog-api/openapi/dog-api-info-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: dog-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dog.ceo\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 23:14:51 2026 GMT\n  hsts: false\ndomains:\n- domain: dog.ceo\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dog-api/refs/heads/main/security/dog-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dog-api/security/dog-api-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Dogs

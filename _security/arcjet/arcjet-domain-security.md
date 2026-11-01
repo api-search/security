@@ -5,13 +5,13 @@ api_specs:
   label: Arcjet Decide API
   slug: arcjet-decide-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcjet/refs/heads/main/openapi/arcjet-decide-api-openapi.yml
+  url: https://artifacts.apis.io/arcjet/openapi/arcjet-decide-api-openapi.yml
 - filename: arcjet-report-api-openapi.yml
   format: yaml
   label: Arcjet Report API
   slug: arcjet-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcjet/refs/heads/main/openapi/arcjet-report-api-openapi.yml
+  url: https://artifacts.apis.io/arcjet/openapi/arcjet-report-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: arcjet-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: arcjet.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 06:34:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.arcjet.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 07:26:18 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: decide.arcjet.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: arcjet.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arcjet/refs/heads/main/security/arcjet-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/arcjet/security/arcjet-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Security

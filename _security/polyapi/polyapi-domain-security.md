@@ -5,61 +5,61 @@ api_specs:
   label: PolyAPI API Functions API
   slug: polyapi-api-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/openapi/polyapi-api-functions-api-openapi.yml
+  url: https://artifacts.apis.io/polyapi/openapi/polyapi-api-functions-api-openapi.yml
 - filename: polyapi-assistants-api-openapi.yml
   format: yaml
   label: PolyAPI Assistants API
   slug: polyapi-assistants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/openapi/polyapi-assistants-api-openapi.yml
+  url: https://artifacts.apis.io/polyapi/openapi/polyapi-assistants-api-openapi.yml
 - filename: polyapi-client-functions-api-openapi.yml
   format: yaml
   label: PolyAPI Client Functions API
   slug: polyapi-client-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/openapi/polyapi-client-functions-api-openapi.yml
+  url: https://artifacts.apis.io/polyapi/openapi/polyapi-client-functions-api-openapi.yml
 - filename: polyapi-environments-api-openapi.yml
   format: yaml
   label: PolyAPI Environments API
   slug: polyapi-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/openapi/polyapi-environments-api-openapi.yml
+  url: https://artifacts.apis.io/polyapi/openapi/polyapi-environments-api-openapi.yml
 - filename: polyapi-jobs-api-openapi.yml
   format: yaml
   label: PolyAPI Jobs API
   slug: polyapi-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/openapi/polyapi-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/polyapi/openapi/polyapi-jobs-api-openapi.yml
 - filename: polyapi-schemas-api-openapi.yml
   format: yaml
   label: PolyAPI Schemas API
   slug: polyapi-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/openapi/polyapi-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/polyapi/openapi/polyapi-schemas-api-openapi.yml
 - filename: polyapi-server-functions-api-openapi.yml
   format: yaml
   label: PolyAPI Server Functions API
   slug: polyapi-server-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/openapi/polyapi-server-functions-api-openapi.yml
+  url: https://artifacts.apis.io/polyapi/openapi/polyapi-server-functions-api-openapi.yml
 - filename: polyapi-triggers-api-openapi.yml
   format: yaml
   label: PolyAPI Triggers API
   slug: polyapi-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/openapi/polyapi-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/polyapi/openapi/polyapi-triggers-api-openapi.yml
 - filename: polyapi-variables-api-openapi.yml
   format: yaml
   label: PolyAPI Variables API
   slug: polyapi-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/openapi/polyapi-variables-api-openapi.yml
+  url: https://artifacts.apis.io/polyapi/openapi/polyapi-variables-api-openapi.yml
 - filename: polyapi-webhooks-api-openapi.yml
   format: yaml
   label: PolyAPI Webhooks API
   slug: polyapi-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/openapi/polyapi-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/polyapi/openapi/polyapi-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -100,7 +100,7 @@ source_filename: polyapi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: polyapi.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 03:32:33 2026 GMT\n  hsts: false\n- host: na1.polyapi.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 03:25:02 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: eu1.polyapi.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 06:37:32 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: polyapi.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/security/polyapi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/polyapi/security/polyapi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Integration

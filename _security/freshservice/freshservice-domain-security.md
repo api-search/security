@@ -5,49 +5,49 @@ api_specs:
   label: Freshservice Agents API
   slug: freshservice-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshservice/refs/heads/main/openapi/freshservice-agents-api-openapi.yml
+  url: https://artifacts.apis.io/freshservice/openapi/freshservice-agents-api-openapi.yml
 - filename: freshservice-assets-api-openapi.yml
   format: yaml
   label: Freshservice Assets API
   slug: freshservice-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshservice/refs/heads/main/openapi/freshservice-assets-api-openapi.yml
+  url: https://artifacts.apis.io/freshservice/openapi/freshservice-assets-api-openapi.yml
 - filename: freshservice-changes-api-openapi.yml
   format: yaml
   label: Freshservice Changes API
   slug: freshservice-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshservice/refs/heads/main/openapi/freshservice-changes-api-openapi.yml
+  url: https://artifacts.apis.io/freshservice/openapi/freshservice-changes-api-openapi.yml
 - filename: freshservice-groups-api-openapi.yml
   format: yaml
   label: Freshservice Groups API
   slug: freshservice-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshservice/refs/heads/main/openapi/freshservice-groups-api-openapi.yml
+  url: https://artifacts.apis.io/freshservice/openapi/freshservice-groups-api-openapi.yml
 - filename: freshservice-problems-api-openapi.yml
   format: yaml
   label: Freshservice Problems API
   slug: freshservice-problems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshservice/refs/heads/main/openapi/freshservice-problems-api-openapi.yml
+  url: https://artifacts.apis.io/freshservice/openapi/freshservice-problems-api-openapi.yml
 - filename: freshservice-releases-api-openapi.yml
   format: yaml
   label: Freshservice Releases API
   slug: freshservice-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshservice/refs/heads/main/openapi/freshservice-releases-api-openapi.yml
+  url: https://artifacts.apis.io/freshservice/openapi/freshservice-releases-api-openapi.yml
 - filename: freshservice-requesters-api-openapi.yml
   format: yaml
   label: Freshservice Requesters API
   slug: freshservice-requesters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshservice/refs/heads/main/openapi/freshservice-requesters-api-openapi.yml
+  url: https://artifacts.apis.io/freshservice/openapi/freshservice-requesters-api-openapi.yml
 - filename: freshservice-tickets-api-openapi.yml
   format: yaml
   label: Freshservice Tickets API
   slug: freshservice-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshservice/refs/heads/main/openapi/freshservice-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/freshservice/openapi/freshservice-tickets-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -92,7 +92,7 @@ source_filename: freshservice-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.freshworks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 17:43:09 2026 GMT\n  hsts: null\n- host: api.freshservice.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: <domain>.freshservice.com\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''<domain>.fr'\n  hsts: null\ndomains:\n- domain: freshworks.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: freshservice.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freshservice/refs/heads/main/security/freshservice-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/freshservice/security/freshservice-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - ITSM

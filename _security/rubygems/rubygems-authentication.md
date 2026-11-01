@@ -38,25 +38,25 @@ api_specs:
   label: RubyGems Dependencies API
   slug: rubygems-dependencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubygems/refs/heads/main/openapi/rubygems-dependencies-api-openapi.yml
+  url: https://artifacts.apis.io/rubygems/openapi/rubygems-dependencies-api-openapi.yml
 - filename: rubygems-owners-api-openapi.yml
   format: yaml
   label: RubyGems Owners API
   slug: rubygems-owners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubygems/refs/heads/main/openapi/rubygems-owners-api-openapi.yml
+  url: https://artifacts.apis.io/rubygems/openapi/rubygems-owners-api-openapi.yml
 - filename: rubygems-profiles-api-openapi.yml
   format: yaml
   label: RubyGems Profiles API
   slug: rubygems-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubygems/refs/heads/main/openapi/rubygems-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/rubygems/openapi/rubygems-profiles-api-openapi.yml
 - filename: rubygems-versions-api-openapi.yml
   format: yaml
   label: RubyGems Versions API
   slug: rubygems-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubygems/refs/heads/main/openapi/rubygems-versions-api-openapi.yml
+  url: https://artifacts.apis.io/rubygems/openapi/rubygems-versions-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -92,7 +92,7 @@ source_filename: rubygems-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/rubygems-gems-api-openapi.yml, openapi/rubygems-webhooks-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: RubyGems.org API key passed in the Authorization header.\n  sources:\n  - openapi/rubygems-gems-api-openapi.yml\n  - openapi/rubygems-webhooks-api-openapi.yml\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication using email and password. Used for retrieving API keys\n    and authenticated user profiles.\n  sources:\n  - openapi/rubygems-gems-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rubygems/refs/heads/main/authentication/rubygems-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rubygems/authentication/rubygems-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Ruby

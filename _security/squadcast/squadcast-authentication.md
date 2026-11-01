@@ -7,19 +7,19 @@ api_specs:
   label: Squadcast Authentication API
   slug: squadcast-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squadcast/refs/heads/main/openapi/squadcast-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/squadcast/openapi/squadcast-authentication-api-openapi.yml
 - filename: squadcast-incidents-api-openapi.yml
   format: yaml
   label: Squadcast Incidents API
   slug: squadcast-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squadcast/refs/heads/main/openapi/squadcast-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/squadcast/openapi/squadcast-incidents-api-openapi.yml
 - filename: squadcast-requests-api-openapi.yml
   format: yaml
   label: Squadcast Requests API
   slug: squadcast-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squadcast/refs/heads/main/openapi/squadcast-requests-api-openapi.yml
+  url: https://artifacts.apis.io/squadcast/openapi/squadcast-requests-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -49,7 +49,7 @@ source_filename: squadcast-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/squadcast-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: |-\n    Bearer access token obtained via the `/oauth/access-token` endpoint on\n    the auth host. Send as `Authorization: Bearer <access_token>`.\n  sources:\n  - openapi/squadcast-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/squadcast/refs/heads/main/authentication/squadcast-authentication.yml
+source_yaml_url: https://artifacts.apis.io/squadcast/authentication/squadcast-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Incident Response

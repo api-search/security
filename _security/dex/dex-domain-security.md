@@ -27,7 +27,7 @@ source_filename: dex-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dexidp.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 22:48:32 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: dexidp.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dex/refs/heads/main/security/dex-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dex/security/dex-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Authentication

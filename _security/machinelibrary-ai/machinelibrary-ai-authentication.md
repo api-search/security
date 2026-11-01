@@ -8,37 +8,37 @@ api_specs:
   label: Space Frontiers Documents API
   slug: machinelibrary-ai-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/machinelibrary-ai/refs/heads/main/openapi/machinelibrary-ai-documents-api-openapi.yml
+  url: https://artifacts.apis.io/machinelibrary-ai/openapi/machinelibrary-ai-documents-api-openapi.yml
 - filename: machinelibrary-ai-payments-api-openapi.yml
   format: yaml
   label: Space Frontiers Payments API
   slug: machinelibrary-ai-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/machinelibrary-ai/refs/heads/main/openapi/machinelibrary-ai-payments-api-openapi.yml
+  url: https://artifacts.apis.io/machinelibrary-ai/openapi/machinelibrary-ai-payments-api-openapi.yml
 - filename: machinelibrary-ai-raw-document-downloads-api-openapi.yml
   format: yaml
   label: Space Frontiers Raw document downloads API
   slug: machinelibrary-ai-raw-document-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/machinelibrary-ai/refs/heads/main/openapi/machinelibrary-ai-raw-document-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/machinelibrary-ai/openapi/machinelibrary-ai-raw-document-downloads-api-openapi.yml
 - filename: machinelibrary-ai-recognition-api-openapi.yml
   format: yaml
   label: Space Frontiers Recognition API
   slug: machinelibrary-ai-recognition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/machinelibrary-ai/refs/heads/main/openapi/machinelibrary-ai-recognition-api-openapi.yml
+  url: https://artifacts.apis.io/machinelibrary-ai/openapi/machinelibrary-ai-recognition-api-openapi.yml
 - filename: machinelibrary-ai-search-api-openapi.yml
   format: yaml
   label: Space Frontiers Search API
   slug: machinelibrary-ai-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/machinelibrary-ai/refs/heads/main/openapi/machinelibrary-ai-search-api-openapi.yml
+  url: https://artifacts.apis.io/machinelibrary-ai/openapi/machinelibrary-ai-search-api-openapi.yml
 - filename: machinelibrary-ai-conversations-api-openapi.yml
   format: yaml
   label: Space Frontiers Conversations API
   slug: machinelibrary-ai-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/machinelibrary-ai/refs/heads/main/openapi/machinelibrary-ai-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/machinelibrary-ai/openapi/machinelibrary-ai-conversations-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -121,7 +121,7 @@ source_yaml: "generated: '2026-10-03'\nmethod: searched\nsource: openapi/machine
   \ identity_assertion; renew with grant_type=urn:ietf:params:oauth:grant-type:jwt-bearer&assertion=...\n      endpoints:\n        identity: https://api.machinelibrary.ai/v2/agent/identity (issuer metadata, 2026-10-03)\n        claim: https://api.machinelibrary.ai/v2/agent/identity/claim\n        claim_complete: https://api.machinelibrary.ai/v2/agent/identity/claim/complete (browser-only; agents must not call it)\n      constraints: Anonymous registration and external identity assertions are not accepted; the email is a login hint, not proof of identity.\n  token_lifetimes:\n    access_token: 3600 seconds\n    refresh_token: 30 days, rotating; reuse of a rotated token revokes the chain\n    authorization_code: deleted on exchange or after 60 seconds\n  audience_binding: Tokens are audience-bound to the requested MCP host (privacy policy section 4).\n  a2a_card_schemes:\n    bearer: http bearer — \"Machine Library API key or OAuth 2.1 access token\"\n    apiKey: header X-Api-Key\noperation_security:\n\
   \  default: Every REST operation lists api_key OR bearer_auth (the Recognition operations inherit the same two schemes in the standalone spec); no operation is anonymous except GET /v1/pricing, which answered 200 unauthenticated on 2026-09-19.\n  unauthenticated_observations:\n  - {url: 'POST https://api.machinelibrary.ai/v2/search/', status: 401, body: '{\"detail\":\"Unauthorized\",\"status\":\"error\"}'}\n  - {url: 'POST https://mcp.machinelibrary.ai/ tools/list', status: 401, www_authenticate: 'Bearer resource_metadata=\"https://mcp.machinelibrary.ai/.well-known/oauth-protected-resource\"'}\n  - {url: 'POST https://machinelibrary.ai/a2a message/send', status: 200, note: answered with an agent message describing how to authenticate}\n  - {url: 'GET https://api.machinelibrary.ai/v1/pricing', status: 200}\nsafety_rules_from_provider:\n- Never ask a user to share a password, session cookie, API key, authorization code, access token, refresh token, claim token, or identity assertion in chat.\
   \ (auth.md)\n- Store claim_token as a secret; show the user only the verification_uri and user_code together; do not email the code. (auth.md)\n- Send the access token only to the configured MCP resource. (auth.md)\n- On a 401, discard the credential, re-fetch both discovery documents, and restart registration if necessary. (auth.md)\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/machinelibrary-ai/refs/heads/main/authentication/machinelibrary-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/machinelibrary-ai/authentication/machinelibrary-ai-authentication.yml
 summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Research

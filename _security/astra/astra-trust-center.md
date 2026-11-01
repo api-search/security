@@ -5,49 +5,49 @@ api_specs:
   label: Astra Accounts API
   slug: astra-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astra/refs/heads/main/openapi/astra-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/astra/openapi/astra-accounts-api-openapi.yml
 - filename: astra-authorization-api-openapi.yml
   format: yaml
   label: Astra Authorization API
   slug: astra-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astra/refs/heads/main/openapi/astra-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/astra/openapi/astra-authorization-api-openapi.yml
 - filename: astra-cards-api-openapi.yml
   format: yaml
   label: Astra Cards API
   slug: astra-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astra/refs/heads/main/openapi/astra-cards-api-openapi.yml
+  url: https://artifacts.apis.io/astra/openapi/astra-cards-api-openapi.yml
 - filename: astra-instant-payment-eligibility-api-openapi.yml
   format: yaml
   label: Astra Instant Payment Eligibility API
   slug: astra-instant-payment-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astra/refs/heads/main/openapi/astra-instant-payment-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/astra/openapi/astra-instant-payment-eligibility-api-openapi.yml
 - filename: astra-payment-instruments-api-openapi.yml
   format: yaml
   label: Astra Payment Instruments API
   slug: astra-payment-instruments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astra/refs/heads/main/openapi/astra-payment-instruments-api-openapi.yml
+  url: https://artifacts.apis.io/astra/openapi/astra-payment-instruments-api-openapi.yml
 - filename: astra-routines-api-openapi.yml
   format: yaml
   label: Astra Routines API
   slug: astra-routines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astra/refs/heads/main/openapi/astra-routines-api-openapi.yml
+  url: https://artifacts.apis.io/astra/openapi/astra-routines-api-openapi.yml
 - filename: astra-transfers-api-openapi.yml
   format: yaml
   label: Astra Transfers API
   slug: astra-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astra/refs/heads/main/openapi/astra-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/astra/openapi/astra-transfers-api-openapi.yml
 - filename: astra-user-api-openapi.yml
   format: yaml
   label: Astra User API
   slug: astra-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astra/refs/heads/main/openapi/astra-user-api-openapi.yml
+  url: https://artifacts.apis.io/astra/openapi/astra-user-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -68,7 +68,7 @@ source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nprobe: true\nurl: https://trust.astrafi.com/\nsource: https://astrafi.com/security-and-privacy/\npowered_by: Vanta\ncertifications:\n- SOC 2\n- PCI DSS\n- GDPR\n- CCPA/CPRA\npractices:\n- Regular external audits including SOC, PCI, and vulnerability testing\n- Encryption of data at rest and in transit\n- Role-based access permissions audited monthly\n- Tokenization to obscure sensitive information\n- Change control and security testing in the development lifecycle\n- Automated backups and redundancy for critical capabilities\n- Vendor management and employee background checks\n- Security and privacy awareness training for staff\nevidence:\n- source: https://astrafi.com/security-and-privacy/\n  keywords: [soc 2, pci, gdpr, ccpa, vulnerability testing, encryption]\n- source: https://trust.astrafi.com/\n  keywords: [trust center, vanta]\nnotes: >-\n  The Vanta-powered Trust Center (trust.astrafi.com) renders certification\n  detail via\
   \ client-side JavaScript and is not machine-readable from static\n  HTML; certification names above are taken verbatim from the public\n  security-and-privacy page. \"PCI DSS\" is recorded as the framework Astra states\n  it is audited against (\"SOC, PCI\").\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/astra/refs/heads/main/security/astra-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/astra/security/astra-trust-center.yml
 summary_line: SOC 2, PCI DSS, GDPR, CCPA/CPRA
 tags:
 - Company

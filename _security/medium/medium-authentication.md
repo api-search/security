@@ -7,37 +7,37 @@ api_specs:
   label: medium Authorization API
   slug: medium-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/openapi/medium-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/medium/openapi/medium-authorization-api-openapi.yml
 - filename: medium-images-api-openapi.yml
   format: yaml
   label: medium Images API
   slug: medium-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/openapi/medium-images-api-openapi.yml
+  url: https://artifacts.apis.io/medium/openapi/medium-images-api-openapi.yml
 - filename: medium-posts-api-openapi.yml
   format: yaml
   label: medium Posts API
   slug: medium-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/openapi/medium-posts-api-openapi.yml
+  url: https://artifacts.apis.io/medium/openapi/medium-posts-api-openapi.yml
 - filename: medium-publications-api-openapi.yml
   format: yaml
   label: medium Publications API
   slug: medium-publications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/openapi/medium-publications-api-openapi.yml
+  url: https://artifacts.apis.io/medium/openapi/medium-publications-api-openapi.yml
 - filename: medium-tokens-api-openapi.yml
   format: yaml
   label: medium Tokens API
   slug: medium-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/openapi/medium-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/medium/openapi/medium-tokens-api-openapi.yml
 - filename: medium-users-api-openapi.yml
   format: yaml
   label: medium Users API
   slug: medium-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/openapi/medium-users-api-openapi.yml
+  url: https://artifacts.apis.io/medium/openapi/medium-users-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -97,7 +97,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-17'\nmethod: searched\nsource: https://github.com/Medium/medium-api-docs#2-authentication\ndocs: https://github.com/Medium/medium-api-docs#2-authentication\ndescription: >-\n  Medium offers two credentials for the same bearer header. Self-issued integration tokens are the\n  recommended path and never expire; OAuth2 access tokens last 60 days and are refreshed with a\n  non-expiring refresh token. Both are closed to new consumers — Medium stopped issuing new\n  integration tokens and states it does not allow new integrations — so this profile documents how\n  an EXISTING credential works, not a path a new developer can take today.\nsummary:\n  types:\n  - http\n  - oauth2\n  schemes: 2\n  new_credentials_available: false\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  header: Authorization\n  format: 'Bearer <token>'\n  description: >-\n    Self-issued access token (called an \"integration token\" in Medium's user-facing copy), generated\n\
   \    by the user at https://medium.com/me/settings. Does not expire; revocable by the user at any\n    time. Carries no scope selection — it is all-or-nothing against the user's account.\n  applies_to:\n  - getAuthenticatedUser\n  - listUserPublications\n  - listPublicationContributors\n  - createUserPost\n  - createPublicationPost\n  - uploadImage\n  sources:\n  - openapi/medium-images-api-openapi.yml\n  - openapi/medium-posts-api-openapi.yml\n  - openapi/medium-publications-api-openapi.yml\n  - openapi/medium-users-api-openapi.yml\n  - https://github.com/Medium/medium-api-docs#21-self-issued-access-tokens\n- name: oauth2\n  type: oauth2\n  flow: authorizationCode\n  authorizationUrl: https://medium.com/m/oauth/authorize\n  tokenUrl: https://api.medium.com/v1/tokens\n  refreshUrl: https://api.medium.com/v1/tokens\n  scopes:\n  - basicProfile\n  - listPublications\n  - publishPost\n  - uploadImage\n  access_token_ttl_days: 60\n  refresh_token_expires: false\n  description: >-\n    Browser-based\
   \ authorization code flow. NOT DECLARED IN ANY OPENAPI — derive-authentication.py\n    and derive-oauth-scopes.py both find zero oauth2 securitySchemes across the six specs, so this\n    scheme is recorded from Medium's documentation only. Medium states the flow is \"supported for\n    existing integrations only\".\n  sources:\n  - https://github.com/Medium/medium-api-docs#22-browser-based-authentication\n  see: scopes/medium-scopes.yml\nrevocation:\n  api_endpoint: null\n  note: >-\n    No RFC 7009 revocation endpoint and no introspection endpoint. Users revoke tokens from the\n    medium.com account settings UI; an integration cannot revoke its own credential through the API.\ntransport:\n  https_required: true\n  evidence: 'Medium''s docs: \"All requests must be secure, i.e. https, not http.\"'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/authentication/medium-authentication.yml
+source_yaml_url: https://artifacts.apis.io/medium/authentication/medium-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Publishing

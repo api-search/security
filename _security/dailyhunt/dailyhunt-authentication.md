@@ -9,49 +9,49 @@ api_specs:
   label: Dailyhunt Catalog API
   slug: dailyhunt-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/openapi/dailyhunt-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/dailyhunt/openapi/dailyhunt-catalog-api-openapi.yml
 - filename: dailyhunt-channels-api-openapi.yml
   format: yaml
   label: Dailyhunt Channels API
   slug: dailyhunt-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/openapi/dailyhunt-channels-api-openapi.yml
+  url: https://artifacts.apis.io/dailyhunt/openapi/dailyhunt-channels-api-openapi.yml
 - filename: dailyhunt-content-fetch-api-openapi.yml
   format: yaml
   label: Dailyhunt Content Fetch API
   slug: dailyhunt-content-fetch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/openapi/dailyhunt-content-fetch-api-openapi.yml
+  url: https://artifacts.apis.io/dailyhunt/openapi/dailyhunt-content-fetch-api-openapi.yml
 - filename: dailyhunt-cricket-api-openapi.yml
   format: yaml
   label: Dailyhunt Cricket API
   slug: dailyhunt-cricket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/openapi/dailyhunt-cricket-api-openapi.yml
+  url: https://artifacts.apis.io/dailyhunt/openapi/dailyhunt-cricket-api-openapi.yml
 - filename: dailyhunt-feedback-api-openapi.yml
   format: yaml
   label: Dailyhunt Feedback API
   slug: dailyhunt-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/openapi/dailyhunt-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/dailyhunt/openapi/dailyhunt-feedback-api-openapi.yml
 - filename: dailyhunt-languages-api-openapi.yml
   format: yaml
   label: Dailyhunt Languages API
   slug: dailyhunt-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/openapi/dailyhunt-languages-api-openapi.yml
+  url: https://artifacts.apis.io/dailyhunt/openapi/dailyhunt-languages-api-openapi.yml
 - filename: dailyhunt-products-api-openapi.yml
   format: yaml
   label: Dailyhunt Products API
   slug: dailyhunt-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/openapi/dailyhunt-products-api-openapi.yml
+  url: https://artifacts.apis.io/dailyhunt/openapi/dailyhunt-products-api-openapi.yml
 - filename: dailyhunt-tracking-api-openapi.yml
   format: yaml
   label: Dailyhunt Tracking API
   slug: dailyhunt-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/openapi/dailyhunt-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/dailyhunt/openapi/dailyhunt-tracking-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-08-04'\nmethod: searched\nsource: openapi/dailyhu
   - name: RequestSignature\n  type: apiKey\n  in: header\n  parameter: Signature\n  algorithm: HMAC-SHA1\n  encoding: base64\n  description: >-\n    Every Content Syndication request additionally carries a request signature. The signature base\n    string is built by appending a `ts` timestamp query parameter, URL-encoding every parameter key\n    and value, sorting the parameters lexicographically on the encoded key, joining them as\n    `key=value` pairs, and appending the uppercased HTTP method. That string is signed with the\n    partner Secret Key using HMAC-SHA1 and Base64-encoded into the `Signature` header. Dailyhunt\n    publishes worked JavaScript and Java reference implementations in the Partner Integration\n    Reference.\n  sources:\n  - openapi/dailyhunt-content-syndication-openapi.yml\n  docs: https://api-syndication.dailyhunt.in/\n- name: VendorAccessToken\n  type: apiKey\n  in: body\n  parameter: access_token\n  description: >-\n    The E-Commerce Shopping Catalog API authenticates\
   \ with a vendor access_token passed as a field in\n    the JSON request body of every catalog and batch call. The vendor must already be registered in\n    the Dailyhunt system.\n  sources:\n  - openapi/dailyhunt-shopping-catalog-openapi.yml\n  docs: https://developer.dailyhunt.in/ads/docs/shopping-catalog/\nidentity:\n  partner_user_id:\n    parameter: puid\n    required: true\n    description: >-\n      A partner-supplied unique identifier for the end user consuming Dailyhunt content (for example\n      a device identifier). Required on every Content Syndication call. Dailyhunt maps it to an\n      internal user id to build a personalization profile.\n  session_cookie:\n    name: dhFeedV1\n    description: >-\n      Dailyhunt returns a per-user dhFeedV1 cookie on the first API response. The partner must\n      persist it per user and replay it on subsequent calls; Dailyhunt regenerates it if missing or\n      expired and rejects requests carrying an invalid one. It avoids repeated puid-to-internal-id\n\
   \      lookups.\n    ttl: one month initially (Dailyhunt notes this may change)\nnotes:\n- No OAuth 2.0 or OpenID Connect surface is published; there is no scope model, so no scopes/\n  artifact is emitted for this provider.\n- No self-service developer signup exists for the Content Syndication API. The only self-service\n  signup on the estate is the Dailyhunt Direct advertising console at https://direct.dailyhunt.in/login.\nx-evidence:\n  fetched: '2026-08-04'\n  urls:\n  - {url: 'https://api-syndication.dailyhunt.in/', http_status: 200}\n  - {url: 'https://developer.dailyhunt.in/ads/docs/shopping-catalog/', http_status: 200}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/authentication/dailyhunt-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dailyhunt/authentication/dailyhunt-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - Company

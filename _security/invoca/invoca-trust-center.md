@@ -5,13 +5,13 @@ api_specs:
   label: Invoca Messages API
   slug: invoca-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/openapi/invoca-messages-api-openapi.yml
+  url: https://artifacts.apis.io/invoca/openapi/invoca-messages-api-openapi.yml
 - filename: invoca-phone-numbers-api-openapi.yml
   format: yaml
   label: Invoca Phone Numbers API
   slug: invoca-phone-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/openapi/invoca-phone-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/invoca/openapi/invoca-phone-numbers-api-openapi.yml
 certification_count: 8
 certifications:
 - SOC 2 Type 2
@@ -35,7 +35,7 @@ source_filename: invoca-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nprobe: false\nurl: https://trust.invoca.com\nsource: https://www.invoca.com/product/security-compliance\ncertifications:\n- SOC 2 Type 2\n- ISO 27001\n- PCI DSS\n- HIPAA\n- GDPR\n- CCPA\n- FSQS\n- TRUSTe\npractices:\n- Independent auditors examine Invoca annually for security, availability, processing integrity, confidentiality, and privacy.\n- Regular security audits and web application penetration tests (twice yearly).\n- Business Associate Agreement (BAA) support for HIPAA-covered organizations.\nevidence:\n- source: https://www.invoca.com/product/security-compliance\n  keywords: [soc 2 type 2, iso 27001, pci dss, hipaa, gdpr, ccpa, penetration test]\n- source: https://trust.invoca.com\n  note: SafeBase-style trust center (JS-rendered); certifications confirmed via the public security-compliance page.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/security/invoca-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/invoca/security/invoca-trust-center.yml
 summary_line: SOC 2 Type 2, ISO 27001, PCI DSS, HIPAA, GDPR, CCPA, FSQS, TRUSTe
 tags:
 - Company

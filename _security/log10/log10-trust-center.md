@@ -5,31 +5,31 @@ api_specs:
   label: Log10 Feedback API
   slug: log10-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/openapi/log10-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/log10/openapi/log10-feedback-api-openapi.yml
 - filename: log10-completions-api-openapi.yml
   format: yaml
   label: Log10 Completions API
   slug: log10-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/openapi/log10-completions-api-openapi.yml
+  url: https://artifacts.apis.io/log10/openapi/log10-completions-api-openapi.yml
 - filename: log10-feedback-api-openapi.yml
   format: yaml
   label: Log10 Feedback API
   slug: log10-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/openapi/log10-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/log10/openapi/log10-feedback-api-openapi.yml
 - filename: log10-feedbacktasks-api-openapi.yml
   format: yaml
   label: Log10 FeedbackTasks API
   slug: log10-feedbacktasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/openapi/log10-feedbacktasks-api-openapi.yml
+  url: https://artifacts.apis.io/log10/openapi/log10-feedbacktasks-api-openapi.yml
 - filename: log10-sessions-api-openapi.yml
   format: yaml
   label: Log10 Sessions API
   slug: log10-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/openapi/log10-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/log10/openapi/log10-sessions-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -47,7 +47,7 @@ source_filename: log10-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.log10.io/\nurl: https://trust.log10.io/\ncertifications:\n- SOC 2\n- HIPAA\nevidence:\n- source: https://trust.log10.io/\n  keywords:\n  - soc 2\n  - hipaa\n  - trust center\n  - compliance certification\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/security/log10-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/log10/security/log10-trust-center.yml
 summary_line: SOC 2, HIPAA
 tags:
 - LLM

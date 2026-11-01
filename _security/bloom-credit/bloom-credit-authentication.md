@@ -8,31 +8,31 @@ api_specs:
   label: Bloom Credit Consumers API
   slug: bloom-credit-consumers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloom-credit/refs/heads/main/openapi/bloom-credit-consumers-api-openapi.yml
+  url: https://artifacts.apis.io/bloom-credit/openapi/bloom-credit-consumers-api-openapi.yml
 - filename: bloom-credit-credit-reports-api-openapi.yml
   format: yaml
   label: Bloom Credit Reports API
   slug: bloom-credit-credit-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloom-credit/refs/heads/main/openapi/bloom-credit-credit-reports-api-openapi.yml
+  url: https://artifacts.apis.io/bloom-credit/openapi/bloom-credit-credit-reports-api-openapi.yml
 - filename: bloom-credit-credit-scores-api-openapi.yml
   format: yaml
   label: Bloom Credit Scores API
   slug: bloom-credit-credit-scores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloom-credit/refs/heads/main/openapi/bloom-credit-credit-scores-api-openapi.yml
+  url: https://artifacts.apis.io/bloom-credit/openapi/bloom-credit-credit-scores-api-openapi.yml
 - filename: bloom-credit-monitoring-api-openapi.yml
   format: yaml
   label: Bloom Credit Monitoring API
   slug: bloom-credit-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloom-credit/refs/heads/main/openapi/bloom-credit-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/bloom-credit/openapi/bloom-credit-monitoring-api-openapi.yml
 - filename: bloom-credit-trade-lines-api-openapi.yml
   format: yaml
   label: Bloom Credit Trade Lines API
   slug: bloom-credit-trade-lines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloom-credit/refs/heads/main/openapi/bloom-credit-trade-lines-api-openapi.yml
+  url: https://artifacts.apis.io/bloom-credit/openapi/bloom-credit-trade-lines-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: bloom-credit-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bloom-credit-api-openapi.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: API key obtained from the Bloom Credit developer portal\n  sources:\n  - openapi/bloom-credit-api-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloom-credit/refs/heads/main/authentication/bloom-credit-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bloom-credit/authentication/bloom-credit-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Credit Bureau

@@ -5,19 +5,19 @@ api_specs:
   label: Fama Public Endpoints API
   slug: fama-public-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/openapi/fama-public-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/fama/openapi/fama-public-endpoints-api-openapi.yml
 - filename: fama-publicapi-api-openapi.yml
   format: yaml
   label: Fama Public API
   slug: fama-publicapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/openapi/fama-publicapi-api-openapi.yml
+  url: https://artifacts.apis.io/fama/openapi/fama-publicapi-api-openapi.yml
 - filename: fama-report-api-openapi.yml
   format: yaml
   label: Fama Report API
   slug: fama-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/openapi/fama-report-api-openapi.yml
+  url: https://artifacts.apis.io/fama/openapi/fama-report-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2 Type 1
@@ -34,7 +34,7 @@ source_filename: fama-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nprobe: true\nsource: https://trust.fama.io/\nurl: https://trust.fama.io/\ncertifications:\n- SOC 2 Type 1\nevidence:\n- source: https://trust.fama.io/\n  keywords:\n  - soc 2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/security/fama-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/fama/security/fama-trust-center.yml
 summary_line: SOC 2 Type 1
 tags:
 - Company

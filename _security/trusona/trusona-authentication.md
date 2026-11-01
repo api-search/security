@@ -7,43 +7,43 @@ api_specs:
   label: Trusona Devices API
   slug: trusona-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/openapi/trusona-devices-api-openapi.yml
+  url: https://artifacts.apis.io/trusona/openapi/trusona-devices-api-openapi.yml
 - filename: trusona-documents-api-openapi.yml
   format: yaml
   label: Trusona Documents API
   slug: trusona-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/openapi/trusona-documents-api-openapi.yml
+  url: https://artifacts.apis.io/trusona/openapi/trusona-documents-api-openapi.yml
 - filename: trusona-encrypted-verifications-api-openapi.yml
   format: yaml
   label: Trusona Encrypted Verifications API
   slug: trusona-encrypted-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/openapi/trusona-encrypted-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/trusona/openapi/trusona-encrypted-verifications-api-openapi.yml
 - filename: trusona-id-verifications-api-openapi.yml
   format: yaml
   label: Trusona ID Verifications API
   slug: trusona-id-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/openapi/trusona-id-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/trusona/openapi/trusona-id-verifications-api-openapi.yml
 - filename: trusona-messages-api-openapi.yml
   format: yaml
   label: Trusona Messages API
   slug: trusona-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/openapi/trusona-messages-api-openapi.yml
+  url: https://artifacts.apis.io/trusona/openapi/trusona-messages-api-openapi.yml
 - filename: trusona-risk-scores-api-openapi.yml
   format: yaml
   label: Trusona Risk Scores API
   slug: trusona-risk-scores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/openapi/trusona-risk-scores-api-openapi.yml
+  url: https://artifacts.apis.io/trusona/openapi/trusona-risk-scores-api-openapi.yml
 - filename: trusona-verifications-api-openapi.yml
   format: yaml
   label: Trusona Verifications API
   slug: trusona-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/openapi/trusona-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/trusona/openapi/trusona-verifications-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-09-01'\nmethod: searched\nsource: openapi/trusona
   \  header: Authorization\n  value_format: 'Bearer <JWT>'\n  provisioning: out-of-band\n  provisioning_note: 'Neither spec defines a token-issuing endpoint. The JWT is issued\n    from the Trusona dashboard (https://dashboard.trusona.com/) or by an account contact,\n    so there is no programmatic credential-rotation path in the published contract.'\n  environment_variables:\n  - name: ATOP_TOKEN\n    required: true\n    purpose: The Bearer JWT.\n  - name: ATOP_BASE_URL\n    required: false\n    default: https://authcloud.trusona.net\n    purpose: API origin; overridable for non-prod.\n  handling_guidance: 'Trusona''s own reference tells integrators to pass the Authorization\n    header to curl via --config rather than on the command line, so the token stays out\n    of the process argument list, and warns that the residual exposure is the environment\n    variable itself — prefer a short-lived token on a shared host.'\n  smoke_test: 'GET /api/v1/verifications?since=2024-01-01T00:00:00Z\
   \ — any numeric array\n    length (including 0) proves the token works; 401 means missing/expired/wrong, 400\n    usually means a malformed `since`.'\nlegacy_scheme:\n  api: Trusona ID Proofing API (v2)\n  type: apiKey\n  spec_documented: false\n  note: 'The legacy AAMVA ID Proofing surface uses an API key rather than a bearer JWT\n    and answers 403 (\"Either the API key was not provided or it was invalid\") where the\n    authcloud APIs answer 401. The header name is not published in the integration guide,\n    so it is not recorded here. There is no OpenAPI for this surface.'\n  docs: https://www.trusona.com/integrations/trusona-id-proofing-integration-guide\noauth:\n  present: false\n  note: 'No OAuth 2.0 or OpenID Connect anywhere — no oauth2 securityScheme, no\n    authorization/token endpoints, and /.well-known/openid-configuration and\n    /.well-known/oauth-authorization-server both 404 on the API hosts. There is\n    consequently NO scope surface, which is why scopes/ is intentionally\
   \ not emitted\n    rather than left empty.'\nresponse_encryption:\n  supported: true\n  note: 'Beyond transport auth, Trusona offers an encrypted projection of the API at\n    /api/v1/encrypted/verifications: the caller supplies a public key in JWK format\n    (RSA, EC, or OKP with crv=X25519) and verification and document payloads are returned\n    encrypted to it. This is unusual and materially reduces PII exposure in transit\n    logging and at the response boundary.'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/authentication/trusona-authentication.yml
+source_yaml_url: https://artifacts.apis.io/trusona/authentication/trusona-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

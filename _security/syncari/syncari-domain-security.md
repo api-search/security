@@ -38,7 +38,7 @@ source_filename: syncari-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: syncari.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 19:35:00 2026 GMT\n  hsts: false\n- host: support.syncari.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 18 23:46:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.syncari.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 11:19:31 2026 GMT\n  hsts: null\ndomains:\n- domain: syncari.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/syncari/refs/heads/main/security/syncari-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/syncari/security/syncari-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

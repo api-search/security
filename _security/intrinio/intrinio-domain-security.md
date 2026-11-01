@@ -27,7 +27,7 @@ source_filename: intrinio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: intrinio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 21:05:26 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: intrinio.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intrinio/refs/heads/main/security/intrinio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/intrinio/security/intrinio-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Finance

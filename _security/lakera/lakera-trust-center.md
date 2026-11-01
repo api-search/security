@@ -1,23 +1,29 @@
 ---
 api_specs:
-- filename: lakera-guard-api-openapi.yml
-  format: yaml
-  label: Lakera Guard API
-  slug: lakera-guard-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/openapi/lakera-guard-api-openapi.yml
-- filename: lakera-health-api-openapi.yml
-  format: yaml
-  label: Lakera Health API
-  slug: lakera-health-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/openapi/lakera-health-api-openapi.yml
 - filename: lakera-policies-api-openapi.yml
   format: yaml
   label: Lakera Policies API
   slug: lakera-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/openapi/lakera-policies-api-openapi.yml
+  url: https://artifacts.apis.io/lakera/openapi/lakera-policies-api-openapi.yml
+- filename: lakera-analytics-api-openapi.yml
+  format: yaml
+  label: Lakera Analytics API
+  slug: lakera-analytics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lakera/openapi/lakera-analytics-api-openapi.yml
+- filename: lakera-logs-api-openapi.yml
+  format: yaml
+  label: Lakera Logs API
+  slug: lakera-logs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lakera/openapi/lakera-logs-api-openapi.yml
+- filename: lakera-projects-api-openapi.yml
+  format: yaml
+  label: Lakera Projects API
+  slug: lakera-projects-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lakera/openapi/lakera-projects-api-openapi.yml
 certification_count: 1
 certifications:
 - GDPR
@@ -34,7 +40,7 @@ source_filename: lakera-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.lakera.ai/security\nurl: https://www.lakera.ai/security\ncertifications:\n- GDPR\nevidence:\n- source: https://www.lakera.ai/security\n  keywords:\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/security/lakera-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/lakera/security/lakera-trust-center.yml
 summary_line: GDPR
 tags:
 - AI Security

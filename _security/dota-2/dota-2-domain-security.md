@@ -26,7 +26,7 @@ source_filename: dota-2-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.opendota.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 12:27:23 2026 GMT\n  hsts: false\ndomains:\n- domain: opendota.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dota-2/refs/heads/main/security/dota-2-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dota-2/security/dota-2-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Public APIs

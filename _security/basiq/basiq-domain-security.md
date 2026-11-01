@@ -5,127 +5,127 @@ api_specs:
   label: Basiq Accounts API
   slug: basiq-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/basiq/openapi/basiq-accounts-api-openapi.yml
 - filename: basiq-authentication-api-openapi.yml
   format: yaml
   label: Basiq Authentication API
   slug: basiq-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/basiq/openapi/basiq-authentication-api-openapi.yml
 - filename: basiq-connections-api-openapi.yml
   format: yaml
   label: Basiq Connections API
   slug: basiq-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-connections-api-openapi.yml
+  url: https://artifacts.apis.io/basiq/openapi/basiq-connections-api-openapi.yml
 - filename: basiq-transactions-api-openapi.yml
   format: yaml
   label: Basiq Transactions API
   slug: basiq-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/basiq/openapi/basiq-transactions-api-openapi.yml
 - filename: basiq-users-api-openapi.yml
   format: yaml
   label: Basiq Users API
   slug: basiq-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-users-api-openapi.yml
+  url: https://artifacts.apis.io/basiq/openapi/basiq-users-api-openapi.yml
 - filename: basiq-consents-api-openapi.yml
   format: yaml
   label: Basiq Consents API
   slug: basiq-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-consents-api-openapi.yml
+  url: https://artifacts.apis.io/basiq/openapi/basiq-consents-api-openapi.yml
 - filename: basiq-jobs-api-openapi.yml
   format: yaml
   label: Basiq Jobs API
   slug: basiq-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/basiq/openapi/basiq-jobs-api-openapi.yml
 - filename: basiq-affordability-api-openapi.yml
   format: yaml
   label: Basiq Affordability API
   slug: basiq-affordability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-affordability-api-openapi.yml
+  url: https://artifacts.apis.io/basiq/openapi/basiq-affordability-api-openapi.yml
 - filename: basiq-analytics-api-openapi.yml
   format: yaml
   label: Basiq Analytics API
   slug: basiq-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/basiq/openapi/basiq-analytics-api-openapi.yml
 - filename: basiq-authlinks-api-openapi.yml
   format: yaml
   label: Basiq Auth Links API
   slug: basiq-authlinks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-authlinks-api-openapi.yml
+  url: https://artifacts.apis.io/basiq/openapi/basiq-authlinks-api-openapi.yml
 - filename: basiq-connectors-api-openapi.yml
   format: yaml
   label: Basiq Connectors API
   slug: basiq-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/basiq/openapi/basiq-connectors-api-openapi.yml
 - filename: basiq-enrich-api-openapi.yml
   format: yaml
   label: Basiq Enrich API
   slug: basiq-enrich-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-enrich-api-openapi.yml
+  url: https://artifacts.apis.io/basiq/openapi/basiq-enrich-api-openapi.yml
 - filename: basiq-events-api-openapi.yml
   format: yaml
   label: Basiq Events API
   slug: basiq-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-events-api-openapi.yml
+  url: https://artifacts.apis.io/basiq/openapi/basiq-events-api-openapi.yml
 - filename: basiq-expenses-api-openapi.yml
   format: yaml
   label: Basiq Expenses API
   slug: basiq-expenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-expenses-api-openapi.yml
+  url: https://artifacts.apis.io/basiq/openapi/basiq-expenses-api-openapi.yml
 - filename: basiq-identities-api-openapi.yml
   format: yaml
   label: Basiq Identities API
   slug: basiq-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-identities-api-openapi.yml
+  url: https://artifacts.apis.io/basiq/openapi/basiq-identities-api-openapi.yml
 - filename: basiq-income-api-openapi.yml
   format: yaml
   label: Basiq Income API
   slug: basiq-income-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-income-api-openapi.yml
+  url: https://artifacts.apis.io/basiq/openapi/basiq-income-api-openapi.yml
 - filename: basiq-insights-api-openapi.yml
   format: yaml
   label: Basiq Insights API
   slug: basiq-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-insights-api-openapi.yml
+  url: https://artifacts.apis.io/basiq/openapi/basiq-insights-api-openapi.yml
 - filename: basiq-payees-api-openapi.yml
   format: yaml
   label: Basiq Payees API
   slug: basiq-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-payees-api-openapi.yml
+  url: https://artifacts.apis.io/basiq/openapi/basiq-payees-api-openapi.yml
 - filename: basiq-reports-api-openapi.yml
   format: yaml
   label: Basiq Reports API
   slug: basiq-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-reports-api-openapi.yml
+  url: https://artifacts.apis.io/basiq/openapi/basiq-reports-api-openapi.yml
 - filename: basiq-statements-api-openapi.yml
   format: yaml
   label: Basiq Statements API
   slug: basiq-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-statements-api-openapi.yml
+  url: https://artifacts.apis.io/basiq/openapi/basiq-statements-api-openapi.yml
 - filename: basiq-webhooks-api-openapi.yml
   format: yaml
   label: Basiq Webhooks API
   slug: basiq-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/basiq/openapi/basiq-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -172,7 +172,7 @@ source_filename: basiq-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: basiq.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  7 16:55:46 2027 GMT\n  hsts: false\n- host: dashboard.basiq.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 26 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.basiq.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  1 22:12:41 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: basiq.io\n  dnssec: false\n  caa:\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"trust-provider.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/security/basiq-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/basiq/security/basiq-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Australia

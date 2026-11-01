@@ -7,25 +7,25 @@ api_specs:
   label: Universiti Teknologi PETRONAS Discovery API
   slug: universiti-teknologi-petronas-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/universiti-teknologi-petronas/refs/heads/main/openapi/universiti-teknologi-petronas-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/universiti-teknologi-petronas/openapi/universiti-teknologi-petronas-discovery-api-openapi.yml
 - filename: universiti-teknologi-petronas-eprints-rest-api-openapi.yml
   format: yaml
   label: Universiti Teknologi PETRONAS EPrints REST API
   slug: universiti-teknologi-petronas-eprints-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/universiti-teknologi-petronas/refs/heads/main/openapi/universiti-teknologi-petronas-eprints-rest-api-openapi.yml
+  url: https://artifacts.apis.io/universiti-teknologi-petronas/openapi/universiti-teknologi-petronas-eprints-rest-api-openapi.yml
 - filename: universiti-teknologi-petronas-export-api-openapi.yml
   format: yaml
   label: Universiti Teknologi PETRONAS Export API
   slug: universiti-teknologi-petronas-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/universiti-teknologi-petronas/refs/heads/main/openapi/universiti-teknologi-petronas-export-api-openapi.yml
+  url: https://artifacts.apis.io/universiti-teknologi-petronas/openapi/universiti-teknologi-petronas-export-api-openapi.yml
 - filename: universiti-teknologi-petronas-oai-pmh-api-openapi.yml
   format: yaml
   label: Universiti Teknologi PETRONAS OAI PMH API
   slug: universiti-teknologi-petronas-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/universiti-teknologi-petronas/refs/heads/main/openapi/universiti-teknologi-petronas-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/universiti-teknologi-petronas/openapi/universiti-teknologi-petronas-oai-pmh-api-openapi.yml
 auth_types: []
 description: How each machine-readable surface Universiti Teknologi PETRONAS operates or holds a tenancy in handles authentication, established by probing each endpoint without credentials on 2026-09-01. No credential was supplied, guessed, or obtained at any point.
 kind: authentication
@@ -48,7 +48,7 @@ source_yaml: "---\nname: Universiti Teknologi PETRONAS — authentication postur
   \    /rest/eprint/{id}.xml is open; an unknown id returns 404.\n  - surface: UTPedia JSON export\n    url: https://utpedia.utp.edu.my/cgi/export/eprint/376/JSON/utpedia-eprint-376.js\n    x-operator: institution\n    auth: none\n    observed_status: 200\n    detail: application/json served without authentication for this record.\n  - surface: UTP Scholarly Publication JSON export\n    url: https://scholars.utp.edu.my/cgi/export/eprint/205/JSON/scholars-eprint-205.js\n    x-operator: institution\n    auth: basic\n    observed_status: 401\n    detail: >-\n      The sibling repository gates its JSON export behind HTTP Basic where UTPedia does not — the\n      two EPrints deployments are configured differently. OAI-PMH and REST read on this host\n      remain open.\n  - surface: SWORD deposit service document (both repositories)\n    url: https://utpedia.utp.edu.my/sword-app/servicedocument\n    x-operator: institution\n    auth: basic\n    observed_status: 401\n    detail: Deposit is credentialed.\
   \ Present but not usable by the public; no attempt was made.\n  - surface: Moodle web services (uLearn)\n    url: https://ulearn.utp.edu.my/webservice/rest/server.php\n    x-operator: tenant\n    auth: token\n    observed_status: 200\n    detail: >-\n      Returns a structured Moodle exception — ERRORCODE invalidtoken, \"Invalid token - token not\n      found\" — so the web-service layer is enabled and expects a wstoken. Tokens are issued to\n      enrolled users, not to the public.\n  - surface: LTI 1.3 platform keys (uLearn)\n    url: https://ulearn.utp.edu.my/mod/lti/certs.php\n    x-operator: tenant\n    auth: none\n    observed_status: 200\n    detail: Public JWKS, as LTI 1.3 requires. RS256.\n  - surface: Microsoft Entra ID tenant (utp.edu.my)\n    url: https://login.microsoftonline.com/utp.edu.my/v2.0/.well-known/openid-configuration\n    x-operator: federation\n    auth: oauth2\n    observed_status: 200\n    detail: >-\n      OIDC discovery and SAML 2.0 federation metadata are\
   \ public by design; the endpoints they\n      describe are the institution's own single-sign-on, tenant\n      84187be3-037e-41ec-889c-a150fe476432.\n  - surface: UCS single sign-on\n    url: https://ucs.utp.edu.my/SignIn\n    x-operator: institution\n    auth: interactive\n    observed_status: 200\n    detail: >-\n      Human sign-in page for UTP Computing Services. Not a documented API and no machine-readable\n      descriptor was found on the host.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/universiti-teknologi-petronas/refs/heads/main/authentication/universiti-teknologi-petronas-authentication.yml
+source_yaml_url: https://artifacts.apis.io/universiti-teknologi-petronas/authentication/universiti-teknologi-petronas-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

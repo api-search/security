@@ -7,37 +7,37 @@ api_specs:
   label: Agree.com Agreements API
   slug: agree-com-agreements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agree-com/refs/heads/main/openapi/agree-com-agreements-api-openapi.yml
+  url: https://artifacts.apis.io/agree-com/openapi/agree-com-agreements-api-openapi.yml
 - filename: agree-com-contacts-api-openapi.yml
   format: yaml
   label: Agree.com Contacts API
   slug: agree-com-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agree-com/refs/heads/main/openapi/agree-com-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/agree-com/openapi/agree-com-contacts-api-openapi.yml
 - filename: agree-com-customers-api-openapi.yml
   format: yaml
   label: Agree.com Customers API
   slug: agree-com-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agree-com/refs/heads/main/openapi/agree-com-customers-api-openapi.yml
+  url: https://artifacts.apis.io/agree-com/openapi/agree-com-customers-api-openapi.yml
 - filename: agree-com-invoices-api-openapi.yml
   format: yaml
   label: Agree.com Invoices API
   slug: agree-com-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agree-com/refs/heads/main/openapi/agree-com-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/agree-com/openapi/agree-com-invoices-api-openapi.yml
 - filename: agree-com-reports-api-openapi.yml
   format: yaml
   label: Agree.com Reports API
   slug: agree-com-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agree-com/refs/heads/main/openapi/agree-com-reports-api-openapi.yml
+  url: https://artifacts.apis.io/agree-com/openapi/agree-com-reports-api-openapi.yml
 - filename: agree-com-webhooks-api-openapi.yml
   format: yaml
   label: Agree.com Webhooks API
   slug: agree-com-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agree-com/refs/heads/main/openapi/agree-com-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/agree-com/openapi/agree-com-webhooks-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -107,7 +107,7 @@ source_yaml: "generated: '2026-09-12'\nmethod: searched\nsource: >-\n  https://s
   \ is manual and\n      dashboard-only; no rotation endpoint exists in the API.\n  sources:\n  - openapi/agree-com-api-openapi.json\n  - https://secure.agree.com/documentation\n- name: oauth2-mcp\n  type: oauth2\n  surface: MCP server (https://secure.agree.com/mcp)\n  description: >-\n    OAuth 2.1 authorization code flow protecting the hosted MCP endpoint. Not declared in the\n    OpenAPI - it was found by probing RFC 8414 authorization server metadata and RFC 9728\n    protected resource metadata, both of which are served anonymously.\n  flows:\n    authorization_code:\n      authorization_url: https://secure.agree.com/oauth/authorize\n      token_url: https://secure.agree.com/oauth/token\n      refresh_supported: true\n      pkce: S256\n      pkce_required: true\n      scopes:\n        mcp: >-\n          The single scope the authorization server advertises. Its grants are not documented;\n          see scopes/agree-com-scopes.yml.\n  endpoints:\n    issuer: https://secure.agree.com\n\
   \    registration_endpoint: https://secure.agree.com/oauth/register\n    revocation_endpoint: https://secure.agree.com/oauth/revoke\n  client_authentication:\n  - none\n  - client_secret_post\n  - client_secret_basic\n  dynamic_client_registration: true\n  bearer_methods_supported:\n  - header\n  sources:\n  - https://secure.agree.com/.well-known/oauth-authorization-server\n  - https://secure.agree.com/.well-known/oauth-protected-resource\nwebhook_verification:\n  mechanism: HMAC-SHA256\n  header: X-Webhook-Signature\n  timestamp_header: X-Webhook-Timestamp\n  encoding: hex, lowercase\n  secret: >-\n    Per-endpoint signing secret (whsec_ prefix) returned exactly once, in the response to\n    POST /api/v1/webhooks. It is not retrievable afterwards.\n  computation: HMAC-SHA256 over the raw request body, keyed by the endpoint secret.\n  comparison: >-\n    Constant-time. The documentation ships working Node.js (crypto.timingSafeEqual) and\n    Python (hmac.compare_digest) verification examples.\n\
   \  replay_protection: >-\n    PARTIAL. A timestamp header is sent but the documented verification procedure does not\n    include it in the signed payload and states no tolerance window, so the published\n    recipe does not by itself defeat replay.\n  source: https://secure.agree.com/documentation#tag/Webhooks\nfindings:\n- >-\n  The REST API has no OAuth, no scopes, and no key scoping. A single compromised key is full\n  organization access to contracts, invoices, contacts and revenue reporting.\n- >-\n  The MCP surface is materially better authenticated than the REST surface it fronts, which\n  is an unusual inversion - most providers in the catalog bolt a weaker key model onto MCP,\n  not a stronger one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agree-com/refs/heads/main/authentication/agree-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/agree-com/authentication/agree-com-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Agreements

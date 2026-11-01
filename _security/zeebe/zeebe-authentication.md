@@ -7,55 +7,55 @@ api_specs:
   label: Zeebe Cluster API
   slug: zeebe-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/zeebe/openapi/zeebe-cluster-api-openapi.yml
 - filename: zeebe-deployments-api-openapi.yml
   format: yaml
   label: Zeebe Deployments API
   slug: zeebe-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/zeebe/openapi/zeebe-deployments-api-openapi.yml
 - filename: zeebe-incidents-api-openapi.yml
   format: yaml
   label: Zeebe Incidents API
   slug: zeebe-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/zeebe/openapi/zeebe-incidents-api-openapi.yml
 - filename: zeebe-jobs-api-openapi.yml
   format: yaml
   label: Zeebe Jobs API
   slug: zeebe-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/zeebe/openapi/zeebe-jobs-api-openapi.yml
 - filename: zeebe-messages-api-openapi.yml
   format: yaml
   label: Zeebe Messages API
   slug: zeebe-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-messages-api-openapi.yml
+  url: https://artifacts.apis.io/zeebe/openapi/zeebe-messages-api-openapi.yml
 - filename: zeebe-process-instances-api-openapi.yml
   format: yaml
   label: Zeebe Process Instances API
   slug: zeebe-process-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-process-instances-api-openapi.yml
+  url: https://artifacts.apis.io/zeebe/openapi/zeebe-process-instances-api-openapi.yml
 - filename: zeebe-resources-api-openapi.yml
   format: yaml
   label: Zeebe Resources API
   slug: zeebe-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-resources-api-openapi.yml
+  url: https://artifacts.apis.io/zeebe/openapi/zeebe-resources-api-openapi.yml
 - filename: zeebe-signals-api-openapi.yml
   format: yaml
   label: Zeebe Signals API
   slug: zeebe-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-signals-api-openapi.yml
+  url: https://artifacts.apis.io/zeebe/openapi/zeebe-signals-api-openapi.yml
 - filename: zeebe-user-tasks-api-openapi.yml
   format: yaml
   label: Zeebe User Tasks API
   slug: zeebe-user-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-user-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/zeebe/openapi/zeebe-user-tasks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -81,7 +81,7 @@ source_filename: zeebe-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/zeebe-api.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/zeebe-api.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/authentication/zeebe-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zeebe/authentication/zeebe-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - BPMN

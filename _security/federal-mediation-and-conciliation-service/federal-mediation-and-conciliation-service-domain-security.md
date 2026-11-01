@@ -5,7 +5,7 @@ api_specs:
   label: Federal Mediation and Conciliation Service Website (WordPress REST)
   slug: fmcs-gov-website-wordpress-rest
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-mediation-and-conciliation-service/refs/heads/main/openapi/federal-mediation-and-conciliation-service-wp-routes-original.json
+  url: https://artifacts.apis.io/federal-mediation-and-conciliation-service/openapi/federal-mediation-and-conciliation-service-wp-routes-original.json
 description: ''
 domains:
 - caa: []
@@ -35,7 +35,7 @@ source_filename: federal-mediation-and-conciliation-service-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fmcs.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  1 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: fmcs.gov\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/federal-mediation-and-conciliation-service/refs/heads/main/security/federal-mediation-and-conciliation-service-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/federal-mediation-and-conciliation-service/security/federal-mediation-and-conciliation-service-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Federal Government

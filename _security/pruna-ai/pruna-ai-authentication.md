@@ -8,19 +8,19 @@ api_specs:
   label: Pruna AI Content Delivery API
   slug: pruna-ai-content-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pruna-ai/refs/heads/main/openapi/pruna-ai-content-delivery-api-openapi.yml
+  url: https://artifacts.apis.io/pruna-ai/openapi/pruna-ai-content-delivery-api-openapi.yml
 - filename: pruna-ai-file-management-api-openapi.yml
   format: yaml
   label: Pruna AI File Management API
   slug: pruna-ai-file-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pruna-ai/refs/heads/main/openapi/pruna-ai-file-management-api-openapi.yml
+  url: https://artifacts.apis.io/pruna-ai/openapi/pruna-ai-file-management-api-openapi.yml
 - filename: pruna-ai-predictions-api-openapi.yml
   format: yaml
   label: Pruna AI Predictions API
   slug: pruna-ai-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pruna-ai/refs/heads/main/openapi/pruna-ai-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/pruna-ai/openapi/pruna-ai-predictions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -53,7 +53,7 @@ source_filename: pruna-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/pruna-ai-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: apikey\n  description: |-\n    API key for authentication. You can obtain your API key from the\n    Pruna AI dashboard.\n\n    Include it in the `apikey` header for all requests.\n  sources:\n  - openapi/pruna-ai-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pruna-ai/refs/heads/main/authentication/pruna-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pruna-ai/authentication/pruna-ai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

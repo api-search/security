@@ -30,7 +30,7 @@ source_filename: modular-robotics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: modrobotics.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 19 14:16:44 2027 GMT\n  hsts: false\ndomains:\n- domain: modrobotics.com\n  dnssec: false\n  caa:\n  - 0 issue \"godaddy.com\"\n  - 0 iodef \"mailto:devops@modrobotics.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/modular-robotics/refs/heads/main/security/modular-robotics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/modular-robotics/security/modular-robotics-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

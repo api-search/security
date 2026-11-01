@@ -5,13 +5,13 @@ api_specs:
   label: Klaus PubImportApi API
   slug: klaus-pubimportapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/openapi/klaus-pubimportapi-api-openapi.yml
+  url: https://artifacts.apis.io/klaus/openapi/klaus-pubimportapi-api-openapi.yml
 - filename: klaus-publicexportapi-api-openapi.yml
   format: yaml
   label: Klaus PublicExportApi API
   slug: klaus-publicexportapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/openapi/klaus-publicexportapi-api-openapi.yml
+  url: https://artifacts.apis.io/klaus/openapi/klaus-publicexportapi-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: klaus-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.klausapp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 12:21:03 2026 GMT\n  hsts: true\n  hsts_max_age: 0\n- host: pub.klausapp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 06:00:46 2026 GMT\n  hsts: false\n- host: yoursubdomain.zendesk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 14:46:45 2026 GMT\n  hsts: true\n  hsts_max_age: 0\ndomains:\n- domain: klausapp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: zendesk.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/security/klaus-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/klaus/security/klaus-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

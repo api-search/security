@@ -5,43 +5,43 @@ api_specs:
   label: AgentsPodium A2A API
   slug: agentspodium-com-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/agentspodium-com/openapi/agentspodium-com-a2a-api-openapi.yml
 - filename: agentspodium-com-agents-api-openapi.yml
   format: yaml
   label: AgentsPodium Agents API
   slug: agentspodium-com-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-agents-api-openapi.yml
+  url: https://artifacts.apis.io/agentspodium-com/openapi/agentspodium-com-agents-api-openapi.yml
 - filename: agentspodium-com-api-keys-api-openapi.yml
   format: yaml
   label: AgentsPodium API keys API
   slug: agentspodium-com-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/agentspodium-com/openapi/agentspodium-com-api-keys-api-openapi.yml
 - filename: agentspodium-com-auth-api-openapi.yml
   format: yaml
   label: AgentsPodium Auth API
   slug: agentspodium-com-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-auth-api-openapi.yml
+  url: https://artifacts.apis.io/agentspodium-com/openapi/agentspodium-com-auth-api-openapi.yml
 - filename: agentspodium-com-catalog-api-openapi.yml
   format: yaml
   label: AgentsPodium Catalog API
   slug: agentspodium-com-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/agentspodium-com/openapi/agentspodium-com-catalog-api-openapi.yml
 - filename: agentspodium-com-payment-api-openapi.yml
   format: yaml
   label: AgentsPodium Payment API
   slug: agentspodium-com-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-payment-api-openapi.yml
+  url: https://artifacts.apis.io/agentspodium-com/openapi/agentspodium-com-payment-api-openapi.yml
 - filename: agentspodium-com-status-api-openapi.yml
   format: yaml
   label: AgentsPodium Status API
   slug: agentspodium-com-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-status-api-openapi.yml
+  url: https://artifacts.apis.io/agentspodium-com/openapi/agentspodium-com-status-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -85,7 +85,7 @@ source_filename: agentspodium-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: agentspodium.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 25 21:48:21 2026 GMT\n  hsts: false\n- host: hosting.defispace.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  7 10:03:53 2026 GMT\n  hsts: false\n- host: mcp.agentspodium.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 25 21:48:21 2026 GMT\n  hsts: false\ndomains:\n- domain: agentspodium.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n- domain: defispace.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/security/agentspodium-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/agentspodium-com/security/agentspodium-com-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - AI Agents

@@ -7,7 +7,7 @@ api_specs:
   label: Google Marketing Platform Admin V1alpha API
   slug: google-marketing-platform-v1alpha-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/openapi/google-marketing-platform-v1alpha-api-openapi.yml
+  url: https://artifacts.apis.io/google-marketing-platform/openapi/google-marketing-platform-v1alpha-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -44,7 +44,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/google-
   \ the shared Google authorization server.\ncredentials:\n  - kind: oauth-user\n    description: >-\n      Three-legged OAuth as a user who has access to the GMP organization. This\n      is the path the quickstart takes.\n    header: 'Authorization: Bearer <access_token>'\n  - kind: application-default-credentials\n    description: >-\n      Local ADC via gcloud. The quickstart's exact command:\n      gcloud auth application-default login\n      --scopes=\"https://www.googleapis.com/auth/cloud-platform,https://www.googleapis.com/auth/marketingplatformadmin.analytics.read\"\n    header: 'Authorization: Bearer $(gcloud auth application-default print-access-token)'\n  - kind: service-account\n    description: >-\n      Supported through the standard Google auth libraries the GAPIC clients\n      depend on. The service account must itself be granted access to the GMP\n      organization; the API documents no domain-wide-delegation path of its own.\napi_key: false\napi_key_note: >-\n  This\
   \ API accepts no API key for authentication. The Discovery Document\n  declares the standard `key` system parameter on every method, but that is\n  Google's project-identification parameter and does not authenticate a call\n  to this service.\nrequired_setup:\n  - step: Enable the API\n    detail: >-\n      marketingplatformadmin.googleapis.com must be enabled on the calling\n      Google Cloud project.\n  - step: Set a quota project\n    detail: >-\n      \"The Google Marketing Platform Admin API requires a quota project, which\n      is not set by default.\" Without it, correctly scoped credentials still\n      fail. This is the most common first-call failure on this API.\n    source: https://developers.google.com/marketing-platform/devguides/api/admin/v1/quickstart\n  - step: Grant organization access\n    detail: >-\n      The authenticated principal must have access to the target GMP\n      organization; scopes alone do not grant it.\nscopes_detail: scopes/google-marketing-platform-scopes.yml\n\
   failure_modes:\n  - status: 401\n    grpc_status: UNAUTHENTICATED\n    cause: Missing, expired or malformed access token.\n  - status: 403\n    grpc_status: PERMISSION_DENIED\n    cause: >-\n      Wrong scope, no access to the organization, API not enabled, or no quota\n      project set.\n  - status: 403\n    grpc_status: RESOURCE_EXHAUSTED\n    reason: rateLimitExceeded\n    cause: >-\n      Quota, NOT authentication. Shares the 403 status with the genuine auth\n      failures above — branch on error.errors[].reason before deciding a\n      credential is bad.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/authentication/google-marketing-platform-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-marketing-platform/authentication/google-marketing-platform-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Analytics

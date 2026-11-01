@@ -8,7 +8,7 @@ api_specs:
   label: Sejda HTML to PDF API
   slug: sejda-html-to-pdf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sejda/refs/heads/main/openapi/sejda-html-to-pdf-api-openapi.yml
+  url: https://artifacts.apis.io/sejda/openapi/sejda-html-to-pdf-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: sejda-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sejda-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: TokenAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Secret API key sent as `Authorization: Token: api_YOURAPIKEYHERE`. A publishable\n    key (`api_public_...`) may be used for browser-side requests when the calling domain is\n    on the account''s allowed-domains list.'\n  sources:\n  - openapi/sejda-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sejda/refs/heads/main/authentication/sejda-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sejda/authentication/sejda-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - PDF

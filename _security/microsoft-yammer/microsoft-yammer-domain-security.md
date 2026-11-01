@@ -5,55 +5,55 @@ api_specs:
   label: Microsoft Yammer Files API
   slug: microsoft-yammer-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-files-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-yammer/openapi/microsoft-yammer-files-api-openapi.yml
 - filename: microsoft-yammer-groups-api-openapi.yml
   format: yaml
   label: Microsoft Yammer Groups API
   slug: microsoft-yammer-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-groups-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-yammer/openapi/microsoft-yammer-groups-api-openapi.yml
 - filename: microsoft-yammer-messages-api-openapi.yml
   format: yaml
   label: Microsoft Yammer Messages API
   slug: microsoft-yammer-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-messages-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-yammer/openapi/microsoft-yammer-messages-api-openapi.yml
 - filename: microsoft-yammer-networks-api-openapi.yml
   format: yaml
   label: Microsoft Yammer Networks API
   slug: microsoft-yammer-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-networks-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-yammer/openapi/microsoft-yammer-networks-api-openapi.yml
 - filename: microsoft-yammer-search-api-openapi.yml
   format: yaml
   label: Microsoft Yammer Search API
   slug: microsoft-yammer-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-search-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-yammer/openapi/microsoft-yammer-search-api-openapi.yml
 - filename: microsoft-yammer-subscriptions-api-openapi.yml
   format: yaml
   label: Microsoft Yammer Subscriptions API
   slug: microsoft-yammer-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-yammer/openapi/microsoft-yammer-subscriptions-api-openapi.yml
 - filename: microsoft-yammer-threads-api-openapi.yml
   format: yaml
   label: Microsoft Yammer Threads API
   slug: microsoft-yammer-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-threads-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-yammer/openapi/microsoft-yammer-threads-api-openapi.yml
 - filename: microsoft-yammer-topics-api-openapi.yml
   format: yaml
   label: Microsoft Yammer Topics API
   slug: microsoft-yammer-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-topics-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-yammer/openapi/microsoft-yammer-topics-api-openapi.yml
 - filename: microsoft-yammer-users-api-openapi.yml
   format: yaml
   label: Microsoft Yammer Users API
   slug: microsoft-yammer-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-users-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-yammer/openapi/microsoft-yammer-users-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -106,7 +106,7 @@ source_filename: microsoft-yammer-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: engage.cloud.microsoft\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 29 18:44:29 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: learn.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 02:26:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.yammer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 29 18:44:29 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: cloud.microsoft\n  dnssec: true\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  - 0 iodef \"mailto:caarecordaware@microsoft.com\"\n  - 0 issue \"microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/security/microsoft-yammer-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-yammer/security/microsoft-yammer-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Enterprise Social

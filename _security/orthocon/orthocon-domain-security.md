@@ -27,7 +27,7 @@ source_filename: orthocon-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.abyrx.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 30 16:04:58 2026 GMT\n  hsts: false\ndomains:\n- domain: abyrx.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orthocon/refs/heads/main/security/orthocon-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/orthocon/security/orthocon-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

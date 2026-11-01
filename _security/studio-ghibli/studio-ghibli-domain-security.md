@@ -5,31 +5,31 @@ api_specs:
   label: Studio Ghibli Films API
   slug: studio-ghibli-films-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/studio-ghibli/refs/heads/main/openapi/studio-ghibli-films-api-openapi.yml
+  url: https://artifacts.apis.io/studio-ghibli/openapi/studio-ghibli-films-api-openapi.yml
 - filename: studio-ghibli-locations-api-openapi.yml
   format: yaml
   label: Studio Ghibli Locations API
   slug: studio-ghibli-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/studio-ghibli/refs/heads/main/openapi/studio-ghibli-locations-api-openapi.yml
+  url: https://artifacts.apis.io/studio-ghibli/openapi/studio-ghibli-locations-api-openapi.yml
 - filename: studio-ghibli-people-api-openapi.yml
   format: yaml
   label: Studio Ghibli People API
   slug: studio-ghibli-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/studio-ghibli/refs/heads/main/openapi/studio-ghibli-people-api-openapi.yml
+  url: https://artifacts.apis.io/studio-ghibli/openapi/studio-ghibli-people-api-openapi.yml
 - filename: studio-ghibli-species-api-openapi.yml
   format: yaml
   label: Studio Ghibli Species API
   slug: studio-ghibli-species-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/studio-ghibli/refs/heads/main/openapi/studio-ghibli-species-api-openapi.yml
+  url: https://artifacts.apis.io/studio-ghibli/openapi/studio-ghibli-species-api-openapi.yml
 - filename: studio-ghibli-vehicles-api-openapi.yml
   format: yaml
   label: Studio Ghibli Vehicles API
   slug: studio-ghibli-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/studio-ghibli/refs/heads/main/openapi/studio-ghibli-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/studio-ghibli/openapi/studio-ghibli-vehicles-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -71,7 +71,7 @@ source_filename: studio-ghibli-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ghibliapi.vercel.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 13:27:56 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: ghibliapi.herokuapp.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 29 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: vercel.app\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: herokuapp.com\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/studio-ghibli/refs/heads/main/security/studio-ghibli-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/studio-ghibli/security/studio-ghibli-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Anime

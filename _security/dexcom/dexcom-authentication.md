@@ -7,43 +7,43 @@ api_specs:
   label: Dexcom Alerts API
   slug: dexcom-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcom/refs/heads/main/openapi/dexcom-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/dexcom/openapi/dexcom-alerts-api-openapi.yml
 - filename: dexcom-authentication-api-openapi.yml
   format: yaml
   label: Dexcom Authentication API
   slug: dexcom-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcom/refs/heads/main/openapi/dexcom-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/dexcom/openapi/dexcom-authentication-api-openapi.yml
 - filename: dexcom-calibrations-api-openapi.yml
   format: yaml
   label: Dexcom Calibrations API
   slug: dexcom-calibrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcom/refs/heads/main/openapi/dexcom-calibrations-api-openapi.yml
+  url: https://artifacts.apis.io/dexcom/openapi/dexcom-calibrations-api-openapi.yml
 - filename: dexcom-data-range-api-openapi.yml
   format: yaml
   label: Dexcom Data Range API
   slug: dexcom-data-range-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcom/refs/heads/main/openapi/dexcom-data-range-api-openapi.yml
+  url: https://artifacts.apis.io/dexcom/openapi/dexcom-data-range-api-openapi.yml
 - filename: dexcom-devices-api-openapi.yml
   format: yaml
   label: Dexcom Devices API
   slug: dexcom-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcom/refs/heads/main/openapi/dexcom-devices-api-openapi.yml
+  url: https://artifacts.apis.io/dexcom/openapi/dexcom-devices-api-openapi.yml
 - filename: dexcom-estimated-glucose-values-api-openapi.yml
   format: yaml
   label: Dexcom Estimated Glucose Values API
   slug: dexcom-estimated-glucose-values-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcom/refs/heads/main/openapi/dexcom-estimated-glucose-values-api-openapi.yml
+  url: https://artifacts.apis.io/dexcom/openapi/dexcom-estimated-glucose-values-api-openapi.yml
 - filename: dexcom-events-api-openapi.yml
   format: yaml
   label: Dexcom Events API
   slug: dexcom-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcom/refs/heads/main/openapi/dexcom-events-api-openapi.yml
+  url: https://artifacts.apis.io/dexcom/openapi/dexcom-events-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -75,7 +75,7 @@ source_filename: dexcom-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/dexcom-dexcom-api.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.dexcom.com/v2/oauth2/login\n    tokenUrl: https://api.dexcom.com/v2/oauth2/token\n    scopes: 1\n  description: Dexcom uses OAuth 2.0 authorization code flow. The only acceptable scope value\n    is `offline_access`.\n  sources:\n  - openapi/dexcom-dexcom-api.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dexcom/refs/heads/main/authentication/dexcom-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dexcom/authentication/dexcom-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Continuous Glucose Monitoring

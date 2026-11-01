@@ -5,31 +5,31 @@ api_specs:
   label: Sequence Analytics API
   slug: sequence-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/openapi/sequence-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/sequence/openapi/sequence-analytics-api-openapi.yml
 - filename: sequence-marketplace-api-openapi.yml
   format: yaml
   label: Sequence Marketplace API
   slug: sequence-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/openapi/sequence-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/sequence/openapi/sequence-marketplace-api-openapi.yml
 - filename: sequence-public-api-openapi.yml
   format: yaml
   label: Sequence Public API
   slug: sequence-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/openapi/sequence-public-api-openapi.yml
+  url: https://artifacts.apis.io/sequence/openapi/sequence-public-api-openapi.yml
 - filename: sequence-rpc-api-openapi.yml
   format: yaml
   label: Sequence Rpc API
   slug: sequence-rpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/openapi/sequence-rpc-api-openapi.yml
+  url: https://artifacts.apis.io/sequence/openapi/sequence-rpc-api-openapi.yml
 - filename: sequence-secret-api-openapi.yml
   format: yaml
   label: Sequence Secret API
   slug: sequence-secret-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/openapi/sequence-secret-api-openapi.yml
+  url: https://artifacts.apis.io/sequence/openapi/sequence-secret-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: sequence-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sequence.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 23:29:55 2026 GMT\n  hsts: false\ndomains:\n- domain: sequence.xyz\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/security/sequence-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sequence/security/sequence-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

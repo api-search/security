@@ -26,7 +26,7 @@ source_filename: fairbanc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: fairbanc.app\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate\n    (_ssl.c:1082)'\n  hsts: null\ndomains:\n- domain: fairbanc.app\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fairbanc/refs/heads/main/security/fairbanc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fairbanc/security/fairbanc-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

@@ -38,7 +38,7 @@ source_filename: thinking-machines-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: thinkingmachines.ai\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  1 08:32:28 2026 GMT\n  hsts: false\n- host: tinker-docs.thinkingmachines.ai\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 28 22:02:34 2026 GMT\n  hsts: false\n- host: tinker.thinkingmachines.ai\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep  3 11:19:57 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: thinkingmachines.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thinking-machines/refs/heads/main/security/thinking-machines-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/thinking-machines/security/thinking-machines-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company

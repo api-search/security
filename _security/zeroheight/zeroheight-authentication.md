@@ -7,19 +7,19 @@ api_specs:
   label: Zeroheight Pages API
   slug: zeroheight-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeroheight/refs/heads/main/openapi/zeroheight-pages-api-openapi.yml
+  url: https://artifacts.apis.io/zeroheight/openapi/zeroheight-pages-api-openapi.yml
 - filename: zeroheight-styleguides-api-openapi.yml
   format: yaml
   label: Zeroheight Styleguides API
   slug: zeroheight-styleguides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeroheight/refs/heads/main/openapi/zeroheight-styleguides-api-openapi.yml
+  url: https://artifacts.apis.io/zeroheight/openapi/zeroheight-styleguides-api-openapi.yml
 - filename: zeroheight-tokens-api-openapi.yml
   format: yaml
   label: Zeroheight Tokens API
   slug: zeroheight-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeroheight/refs/heads/main/openapi/zeroheight-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/zeroheight/openapi/zeroheight-tokens-api-openapi.yml
 auth_types: []
 description: zeroheight authenticates the REST API with a paired Client ID and Access Token sent as two custom headers. There is no OAuth on the REST surface. OAuth exists only on the MCP surface, where the remote server runs a browser login flow against the customer's zeroheight team (password or SSO).
 kind: authentication
@@ -68,7 +68,7 @@ source_yaml: "specification: API Commons Authentication\nspecificationVersion: '
   \ (RFC 9728) is served on mcp.zeroheight.com — both 404.\n  - id: mcpLinkCredential\n    type: bearer-in-url\n    surface: MCP\n    description: >-\n      \"MCP via link\" issues each viewer a unique MCP URL that carries its own credential. The URL is\n      the secret; zeroheight tells customers not to share their own URL. Private pages are not\n      reachable through it.\ntoken_management:\n  created_at: Developers section of organization or workspace settings\n  ownership: Tokens belong to the team, not an individual, so activity can be monitored centrally.\n  who_can_create: any member with editor permissions\n  acting_as: actions taken with a token are performed on behalf of the member who created it\n  quantity: unlimited — create and revoke as many as needed\n  rotation: tokens can be regenerated; a suspected leak should be revoked immediately\n  visibility: Access Token displayed once at creation; Client ID remains retrievable\n  use_cases:\n    - name: Measure Adoption\n    \
   \  description: Pre-defined scope set for authenticating @zeroheight/adoption-cli — package versions, component usage.\n    - name: Zapier\n      description: Pre-defined scope set for Zapier automation workflows. Requires \"Read and write\" access level for actions that change content.\n    - name: Style Dictionary Exports\n      description: Pre-defined scope set for accessing private design-token export URLs.\n  granular_scopes:\n    available: true\n    plans: Enterprise only\n    description: Granular CLI scopes for precise control over access levels beyond the pre-defined use cases.\n  access_levels:\n    - Read\n    - Read and write\nenvironment_variables:\n  - name: ZEROHEIGHT_CLIENT_ID\n    used_by: ['@zeroheight/mcp-server', '@zeroheight/adoption-cli']\n    maps_to: X-API-CLIENT\n  - name: ZEROHEIGHT_ACCESS_TOKEN\n    used_by: ['@zeroheight/mcp-server', '@zeroheight/adoption-cli']\n    maps_to: X-API-KEY\nfailure_semantics:\n  status: 401\n  body: '{\"status\":\"fail\",\"message\"\
   :\"Unauthorized\",\"data\":{\"request_id\":\"...\"}}'\n  triggers: [missing key, malformed key, invalid key]\n  observed: '2026-08-28 on GET https://zeroheight.com/open_api/v2/styleguides'\nplan_gating:\n  rest_api: Enterprise plan only — API access is not listed on Free or Starter.\n  mcp: all plans, capped at 500 calls/month on Free and Starter.\nsso:\n  supported: true\n  note: SAML/SSO sign-in for styleguide viewers; separate SSO configurations can be applied per workspace, and SSO viewer groups control which styleguides a viewer reaches over MCP.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zeroheight/refs/heads/main/authentication/zeroheight-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zeroheight/authentication/zeroheight-authentication.yml
 summary_line: 4 schemes
 tags:
 - Design Systems

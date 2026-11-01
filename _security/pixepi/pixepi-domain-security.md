@@ -5,19 +5,19 @@ api_specs:
   label: Pixepi Apps API
   slug: pixepi-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixepi/refs/heads/main/openapi/pixepi-apps-api-openapi.yml
+  url: https://artifacts.apis.io/pixepi/openapi/pixepi-apps-api-openapi.yml
 - filename: pixepi-jobs-api-openapi.yml
   format: yaml
   label: Pixepi Jobs API
   slug: pixepi-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixepi/refs/heads/main/openapi/pixepi-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/pixepi/openapi/pixepi-jobs-api-openapi.yml
 - filename: pixepi-usage-api-openapi.yml
   format: yaml
   label: Pixepi Usage API
   slug: pixepi-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixepi/refs/heads/main/openapi/pixepi-usage-api-openapi.yml
+  url: https://artifacts.apis.io/pixepi/openapi/pixepi-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: pixepi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pixepi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 21 12:30:50 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: pixepi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pixepi/refs/heads/main/security/pixepi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pixepi/security/pixepi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

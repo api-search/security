@@ -8,13 +8,13 @@ api_specs:
   label: Choozle Authorization API
   slug: choozle-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/choozle/refs/heads/main/openapi/choozle-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/choozle/openapi/choozle-authorization-api-openapi.yml
 - filename: choozle-reporting-api-openapi.yml
   format: yaml
   label: Choozle Reporting API
   slug: choozle-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/choozle/refs/heads/main/openapi/choozle-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/choozle/openapi/choozle-reporting-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://help.ch
   \ 8601 datetime\n      example: '2015-05-04T11:34:02-06:00'\n      constraint: must be within five minutes of the Choozle server's current time\n    - name: signature\n      required: true\n      type: string\n      description: >-\n        HMAC-SHA256 digest of the concatenation of the submitted email and\n        timestamp, keyed with the API private key.\n      encoding: lowercase hex\n      encoding_constraint: >-\n        Lowercase hex only. Uppercase hex and base64 are both rejected, and this\n        is the provider's first-listed troubleshooting issue.\n  returns:\n    field: token\n    type: string\n    ttl_seconds: 7200\n    refresh: none — re-run the handshake\ncredentials:\n  self_service: false\n  issuance: >-\n    An ORG admin or advertiser admin creates an API profile/username for the\n    account, at which point the system generates an API secret key. The key is\n    released only by submitting a ticket through the Choozle Customer Portal.\n    There is no self-service\
   \ key page and no key-management API.\n  rotation: not documented\n  scopes: none\n  scopes_note: >-\n    There is no scope or permission model on the API. Access is all-or-nothing\n    at the account level, determined by which accounts the API profile is\n    attached to.\n  api_only_role: >-\n    \"API Only access: Full access to account data through the API, including\n    campaign and ad group reporting data. An API Only user cannot view, edit, or\n    otherwise access the account from the website.\" This is a genuine least-\n    privilege control — a machine credential that cannot log into the UI.\ntransport:\n  https_only: true\n  tls_version: TLSv1.3\n  hsts: false\n  hsts_note: >-\n    app.choozle.com does not send Strict-Transport-Security, so the credential\n    exchange is not HSTS-protected even though it is HTTPS-only in practice.\nfailure_modes:\n  - status: 401\n    body: '{\"error\": \"Request incomplete\"}'\n    cause: missing or unverifiable email/timestamp/signature\
   \ on the handshake\n  - status: 401\n    body: '{\"error\": \"Unauthorized - No Token Found in request\"}'\n    cause: no `token` header on a reporting call\n  - status: 401\n    body: '{\"error\": \"Unauthorized - Token is expired\"}'\n    cause: token older than two hours\nsee: errors/choozle-problem-types.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/choozle/refs/heads/main/authentication/choozle-authentication.yml
+source_yaml_url: https://artifacts.apis.io/choozle/authentication/choozle-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Digital Advertising

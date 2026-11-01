@@ -7,19 +7,19 @@ api_specs:
   label: Qwen Embeddings API
   slug: qwen-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwen/refs/heads/main/openapi/qwen-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/qwen/openapi/qwen-embeddings-api-openapi.yml
 - filename: qwen-models-api-openapi.yml
   format: yaml
   label: Qwen Models API
   slug: qwen-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwen/refs/heads/main/openapi/qwen-models-api-openapi.yml
+  url: https://artifacts.apis.io/qwen/openapi/qwen-models-api-openapi.yml
 - filename: qwen-chat-completions-api-openapi.yml
   format: yaml
   label: Qwen Chat Completions API
   slug: qwen-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwen/refs/heads/main/openapi/qwen-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/qwen/openapi/qwen-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: qwen-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/qwen-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: 'Bearer API key from the DashScope key management page. Pass as `Authorization:\n    Bearer <DASHSCOPE_API_KEY>`.'\n  sources:\n  - openapi/qwen-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qwen/refs/heads/main/authentication/qwen-authentication.yml
+source_yaml_url: https://artifacts.apis.io/qwen/authentication/qwen-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

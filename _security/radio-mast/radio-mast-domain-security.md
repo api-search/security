@@ -5,31 +5,31 @@ api_specs:
   label: Radio Mast Analytics API
   slug: radio-mast-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-mast/refs/heads/main/openapi/radio-mast-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/radio-mast/openapi/radio-mast-analytics-api-openapi.yml
 - filename: radio-mast-listener-pools-api-openapi.yml
   format: yaml
   label: Radio Mast Listener Pools API
   slug: radio-mast-listener-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-mast/refs/heads/main/openapi/radio-mast-listener-pools-api-openapi.yml
+  url: https://artifacts.apis.io/radio-mast/openapi/radio-mast-listener-pools-api-openapi.yml
 - filename: radio-mast-radio-mast-api-api-openapi.yml
   format: yaml
   label: Radio Mast Radio Mast API
   slug: radio-mast-radio-mast-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-mast/refs/heads/main/openapi/radio-mast-radio-mast-api-api-openapi.yml
+  url: https://artifacts.apis.io/radio-mast/openapi/radio-mast-radio-mast-api-api-openapi.yml
 - filename: radio-mast-radio-stations-api-openapi.yml
   format: yaml
   label: Radio Mast Radio Stations API
   slug: radio-mast-radio-stations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-mast/refs/heads/main/openapi/radio-mast-radio-stations-api-openapi.yml
+  url: https://artifacts.apis.io/radio-mast/openapi/radio-mast-radio-stations-api-openapi.yml
 - filename: radio-mast-radio-streams-api-openapi.yml
   format: yaml
   label: Radio Mast Radio Streams API
   slug: radio-mast-radio-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-mast/refs/heads/main/openapi/radio-mast-radio-streams-api-openapi.yml
+  url: https://artifacts.apis.io/radio-mast/openapi/radio-mast-radio-streams-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: radio-mast-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.radiomast.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 11 20:23:13 2026 GMT\n  hsts: false\n- host: api.radiomast.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 12 14:07:21 2026 GMT\n  hsts: false\ndomains:\n- domain: radiomast.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/radio-mast/refs/heads/main/security/radio-mast-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/radio-mast/security/radio-mast-domain-security.yml
 summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
 - Radio

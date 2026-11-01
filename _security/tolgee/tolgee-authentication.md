@@ -8,43 +8,43 @@ api_specs:
   label: Tolgee API Keys API
   slug: tolgee-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tolgee/refs/heads/main/openapi/tolgee-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/tolgee/openapi/tolgee-api-keys-api-openapi.yml
 - filename: tolgee-import-export-api-openapi.yml
   format: yaml
   label: Tolgee Import/Export API
   slug: tolgee-import-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tolgee/refs/heads/main/openapi/tolgee-import-export-api-openapi.yml
+  url: https://artifacts.apis.io/tolgee/openapi/tolgee-import-export-api-openapi.yml
 - filename: tolgee-keys-api-openapi.yml
   format: yaml
   label: Tolgee Keys API
   slug: tolgee-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tolgee/refs/heads/main/openapi/tolgee-keys-api-openapi.yml
+  url: https://artifacts.apis.io/tolgee/openapi/tolgee-keys-api-openapi.yml
 - filename: tolgee-languages-api-openapi.yml
   format: yaml
   label: Tolgee Languages API
   slug: tolgee-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tolgee/refs/heads/main/openapi/tolgee-languages-api-openapi.yml
+  url: https://artifacts.apis.io/tolgee/openapi/tolgee-languages-api-openapi.yml
 - filename: tolgee-projects-api-openapi.yml
   format: yaml
   label: Tolgee Projects API
   slug: tolgee-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tolgee/refs/heads/main/openapi/tolgee-projects-api-openapi.yml
+  url: https://artifacts.apis.io/tolgee/openapi/tolgee-projects-api-openapi.yml
 - filename: tolgee-screenshots-api-openapi.yml
   format: yaml
   label: Tolgee Screenshots API
   slug: tolgee-screenshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tolgee/refs/heads/main/openapi/tolgee-screenshots-api-openapi.yml
+  url: https://artifacts.apis.io/tolgee/openapi/tolgee-screenshots-api-openapi.yml
 - filename: tolgee-translations-api-openapi.yml
   format: yaml
   label: Tolgee Translations API
   slug: tolgee-translations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tolgee/refs/heads/main/openapi/tolgee-translations-api-openapi.yml
+  url: https://artifacts.apis.io/tolgee/openapi/tolgee-translations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -72,7 +72,7 @@ source_filename: tolgee-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tolgee-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: Project API key prefixed with `tgpak_`. Scoped to a single project.\n  sources:\n  - openapi/tolgee-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tolgee/refs/heads/main/authentication/tolgee-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tolgee/authentication/tolgee-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Localization

@@ -27,7 +27,7 @@ source_filename: budget-direct-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.budgetdirect.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 15:38:46 2026 GMT\n  hsts: false\ndomains:\n- domain: budgetdirect.com.au\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/budget-direct/refs/heads/main/security/budget-direct-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/budget-direct/security/budget-direct-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Insurance

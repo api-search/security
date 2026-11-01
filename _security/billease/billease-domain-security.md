@@ -5,31 +5,31 @@ api_specs:
   label: Billease Be Store Admin API
   slug: billease-be-store-admin-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billease/refs/heads/main/openapi/billease-be-store-admin-api-api-openapi.yml
+  url: https://artifacts.apis.io/billease/openapi/billease-be-store-admin-api-api-openapi.yml
 - filename: billease-be-transactions-api-api-openapi.yml
   format: yaml
   label: Billease Be Transactions API
   slug: billease-be-transactions-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billease/refs/heads/main/openapi/billease-be-transactions-api-api-openapi.yml
+  url: https://artifacts.apis.io/billease/openapi/billease-be-transactions-api-api-openapi.yml
 - filename: billease-categories-api-openapi.yml
   format: yaml
   label: Billease Categories API
   slug: billease-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billease/refs/heads/main/openapi/billease-categories-api-openapi.yml
+  url: https://artifacts.apis.io/billease/openapi/billease-categories-api-openapi.yml
 - filename: billease-products-api-openapi.yml
   format: yaml
   label: Billease Products API
   slug: billease-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billease/refs/heads/main/openapi/billease-products-api-openapi.yml
+  url: https://artifacts.apis.io/billease/openapi/billease-products-api-openapi.yml
 - filename: billease-trx-api-openapi.yml
   format: yaml
   label: Billease Trx API
   slug: billease-trx-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billease/refs/heads/main/openapi/billease-trx-api-openapi.yml
+  url: https://artifacts.apis.io/billease/openapi/billease-trx-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: billease-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: billease.ph\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 16 00:06:04 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: billease.ph\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/billease/refs/heads/main/security/billease-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/billease/security/billease-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

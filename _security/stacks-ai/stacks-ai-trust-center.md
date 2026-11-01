@@ -5,31 +5,31 @@ api_specs:
   label: Stacks Ai Analytics API
   slug: stacks-ai-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/openapi/stacks-ai-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/stacks-ai/openapi/stacks-ai-analytics-api-openapi.yml
 - filename: stacks-ai-knowledge-base-resources-api-openapi.yml
   format: yaml
   label: Stacks Ai Knowledge Base Resources API
   slug: stacks-ai-knowledge-base-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/openapi/stacks-ai-knowledge-base-resources-api-openapi.yml
+  url: https://artifacts.apis.io/stacks-ai/openapi/stacks-ai-knowledge-base-resources-api-openapi.yml
 - filename: stacks-ai-knowledge-base-sync-api-openapi.yml
   format: yaml
   label: Stacks Ai Knowledge Base Sync API
   slug: stacks-ai-knowledge-base-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/openapi/stacks-ai-knowledge-base-sync-api-openapi.yml
+  url: https://artifacts.apis.io/stacks-ai/openapi/stacks-ai-knowledge-base-sync-api-openapi.yml
 - filename: stacks-ai-knowledge-bases-api-openapi.yml
   format: yaml
   label: Stacks Ai Knowledge Bases API
   slug: stacks-ai-knowledge-bases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/openapi/stacks-ai-knowledge-bases-api-openapi.yml
+  url: https://artifacts.apis.io/stacks-ai/openapi/stacks-ai-knowledge-bases-api-openapi.yml
 - filename: stacks-ai-run-flow-api-openapi.yml
   format: yaml
   label: Stacks Ai Run Flow API
   slug: stacks-ai-run-flow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/openapi/stacks-ai-run-flow-api-openapi.yml
+  url: https://artifacts.apis.io/stacks-ai/openapi/stacks-ai-run-flow-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -47,7 +47,7 @@ source_filename: stacks-ai-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nsource: https://trust.stackai.com/\nurl: https://trust.stackai.com/\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://trust.stackai.com/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/security/stacks-ai-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/stacks-ai/security/stacks-ai-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Company

@@ -5,13 +5,13 @@ api_specs:
   label: Binance.US WebSocket API
   slug: websocket-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/asyncapi/binance.us-websocket-api-asyncapi.yml
+  url: https://artifacts.apis.io/binance.us/asyncapi/binance.us-websocket-api-asyncapi.yml
 - filename: binance.us-websocket-streams-asyncapi.yml
   format: yaml
   label: Binance.US WebSocket Streams
   slug: websocket-streams
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/asyncapi/binance.us-websocket-streams-asyncapi.yml
+  url: https://artifacts.apis.io/binance.us/asyncapi/binance.us-websocket-streams-asyncapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: binance.us-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.binance.us\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 18 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.binance.us\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 18 23:59:59 2027 GMT\n  hsts: false\n- host: api.binance.us\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 18 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: binance.us\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/security/binance.us-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/binance.us/security/binance.us-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

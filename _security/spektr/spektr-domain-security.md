@@ -5,55 +5,55 @@ api_specs:
   label: Spektr Action API
   slug: spektr-action-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-action-api-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-action-api-api-openapi.yml
 - filename: spektr-events-api-api-openapi.yml
   format: yaml
   label: Spektr Events API
   slug: spektr-events-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-events-api-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-events-api-api-openapi.yml
 - filename: spektr-execution-api-api-openapi.yml
   format: yaml
   label: Spektr Execution API
   slug: spektr-execution-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-execution-api-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-execution-api-api-openapi.yml
 - filename: spektr-import-api-api-openapi.yml
   format: yaml
   label: Spektr Import API
   slug: spektr-import-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-import-api-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-import-api-api-openapi.yml
 - filename: spektr-orchestration-api-api-openapi.yml
   format: yaml
   label: Spektr Orchestration API
   slug: spektr-orchestration-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-orchestration-api-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-orchestration-api-api-openapi.yml
 - filename: spektr-records-api-api-openapi.yml
   format: yaml
   label: Spektr Records API
   slug: spektr-records-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-records-api-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-records-api-api-openapi.yml
 - filename: spektr-transaction-definitions-api-openapi.yml
   format: yaml
   label: Spektr Transaction Definitions API
   slug: spektr-transaction-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-transaction-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-transaction-definitions-api-openapi.yml
 - filename: spektr-transactions-api-openapi.yml
   format: yaml
   label: Spektr Transactions API
   slug: spektr-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-transactions-api-openapi.yml
 - filename: spektr-workspace-fields-api-api-openapi.yml
   format: yaml
   label: Spektr Workspace Fields API
   slug: spektr-workspace-fields-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-workspace-fields-api-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-workspace-fields-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ source_filename: spektr-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: spektr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 05:03:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: ingest.spektr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 17 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: spektr.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/security/spektr-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/spektr/security/spektr-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

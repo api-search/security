@@ -7,13 +7,13 @@ api_specs:
   label: Shufti Pro Status API
   slug: shufti-pro-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shufti-pro/refs/heads/main/openapi/shufti-pro-status-api-openapi.yml
+  url: https://artifacts.apis.io/shufti-pro/openapi/shufti-pro-status-api-openapi.yml
 - filename: shufti-pro-verification-api-openapi.yml
   format: yaml
   label: Shufti Pro Verification API
   slug: shufti-pro-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shufti-pro/refs/heads/main/openapi/shufti-pro-verification-api-openapi.yml
+  url: https://artifacts.apis.io/shufti-pro/openapi/shufti-pro-verification-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: shufti-pro-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/shuftipro-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic Auth using your Client ID as the username and your Secret Key as the\n    password.\n  sources:\n  - openapi/shuftipro-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer access token shared with the client; valid for 10 minutes and single use.\n  sources:\n  - openapi/shuftipro-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shufti-pro/refs/heads/main/authentication/shufti-pro-authentication.yml
+source_yaml_url: https://artifacts.apis.io/shufti-pro/authentication/shufti-pro-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Identity Verification

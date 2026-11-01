@@ -5,43 +5,43 @@ api_specs:
   label: western-digital Authentication API
   slug: western-digital-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/openapi/western-digital-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/western-digital/openapi/western-digital-authentication-api-openapi.yml
 - filename: western-digital-configuration-api-openapi.yml
   format: yaml
   label: western-digital Configuration API
   slug: western-digital-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/openapi/western-digital-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/western-digital/openapi/western-digital-configuration-api-openapi.yml
 - filename: western-digital-device-api-openapi.yml
   format: yaml
   label: western-digital Device API
   slug: western-digital-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/openapi/western-digital-device-api-openapi.yml
+  url: https://artifacts.apis.io/western-digital/openapi/western-digital-device-api-openapi.yml
 - filename: western-digital-files-api-openapi.yml
   format: yaml
   label: western-digital Files API
   slug: western-digital-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/openapi/western-digital-files-api-openapi.yml
+  url: https://artifacts.apis.io/western-digital/openapi/western-digital-files-api-openapi.yml
 - filename: western-digital-search-api-openapi.yml
   format: yaml
   label: western-digital Search API
   slug: western-digital-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/openapi/western-digital-search-api-openapi.yml
+  url: https://artifacts.apis.io/western-digital/openapi/western-digital-search-api-openapi.yml
 - filename: western-digital-sharing-api-openapi.yml
   format: yaml
   label: western-digital Sharing API
   slug: western-digital-sharing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/openapi/western-digital-sharing-api-openapi.yml
+  url: https://artifacts.apis.io/western-digital/openapi/western-digital-sharing-api-openapi.yml
 - filename: western-digital-user-api-openapi.yml
   format: yaml
   label: western-digital User API
   slug: western-digital-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/openapi/western-digital-user-api-openapi.yml
+  url: https://artifacts.apis.io/western-digital/openapi/western-digital-user-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -84,7 +84,7 @@ source_filename: western-digital-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.westerndigital.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: developer.westerndigital.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 23:59:59 2026 GMT\n  hsts: null\n- host: device.mycloud.com\n  https: false\ndomains:\n- domain: westerndigital.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: mycloud.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/security/western-digital-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/western-digital/security/western-digital-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fortune 500

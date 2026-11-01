@@ -27,7 +27,7 @@ source_filename: open-government-luxembourg-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: data.public.lu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  6 14:40:00 2027 GMT\n  hsts: false\ndomains:\n- domain: public.lu\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-government-luxembourg/refs/heads/main/security/open-government-luxembourg-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/open-government-luxembourg/security/open-government-luxembourg-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Government

@@ -5,19 +5,19 @@ api_specs:
   label: Foreign Agricultural Service ESR Data API - United States Weekly Export Sales of Agricultural Commodity Data API
   slug: foreign-agricultural-service-esr-data-api-united-states-weekly-export-sales-of-agricultural-commodity-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/openapi/foreign-agricultural-service-esr-data-api-united-states-weekly-export-sales-of-agricultural-commodity-data-api-openapi.yml
+  url: https://artifacts.apis.io/foreign-agricultural-service/openapi/foreign-agricultural-service-esr-data-api-united-states-weekly-export-sales-of-agricultural-commodity-data-api-openapi.yml
 - filename: foreign-agricultural-service-gats-data-api-us-census-and-un-comtrade-import-export-re-export-data-api-openapi.yml
   format: yaml
   label: Foreign Agricultural Service GATS Data API - US Census and UN ComTrade Import Export & Re-Export Data API
   slug: foreign-agricultural-service-gats-data-api-us-census-and-un-comtrade-import-export-re-export-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/openapi/foreign-agricultural-service-gats-data-api-us-census-and-un-comtrade-import-export-re-export-data-api-openapi.yml
+  url: https://artifacts.apis.io/foreign-agricultural-service/openapi/foreign-agricultural-service-gats-data-api-us-census-and-un-comtrade-import-export-re-export-data-api-openapi.yml
 - filename: foreign-agricultural-service-psd-data-api-production-supply-and-distribution-forecast-data-of-world-agricultural-commodities-api-openapi.yml
   format: yaml
   label: Foreign Agricultural Service PSD Data API - Production, Supply and Distribution Forecast Data of World Agricultural Commodities API
   slug: foreign-agricultural-service-psd-data-api-production-supply-and-distribution-forecast-data-of-world-agricultural-commodities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/openapi/foreign-agricultural-service-psd-data-api-production-supply-and-distribution-forecast-data-of-world-agricultural-commodities-api-openapi.yml
+  url: https://artifacts.apis.io/foreign-agricultural-service/openapi/foreign-agricultural-service-psd-data-api-production-supply-and-distribution-forecast-data-of-world-agricultural-commodities-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -56,7 +56,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-10'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fas.usda.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 16 23:59:59 2027 GMT\n  hsts: null\n- host: apps.fas.usda.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 17 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: usda.gov\n  dnssec: true\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 iodef \"mailto:icam_as_notify@ocio.usda.gov\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\nobserved_on_api_path:\n  note: >-\n    Added 2026-09-10 from a direct probe of the API itself. The automated prober records\n    hsts: null for apps.fas.usda.gov because it probes the host root, which returns a 500\n    ASP.NET error page with no HSTS header. The API path DOES set it: responses from\n    https://apps.fas.usda.gov/OpenData/api/esr/regions carry\n    `strict-transport-security:\
   \ max-age=31536000; includeSubdomains; preload` and\n    `x-content-type-options: nosniff`. Recorded here rather than by editing the machine-written\n    hosts[] block above, so the prober's own output stays honest about what it measured.\n  host: apps.fas.usda.gov\n  path: /OpenData/api/esr/regions\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  hsts_preload: true\n  x_content_type_options: nosniff\n  fetched: '2026-09-10'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/security/foreign-agricultural-service-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/foreign-agricultural-service/security/foreign-agricultural-service-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Agriculture

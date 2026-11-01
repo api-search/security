@@ -26,7 +26,7 @@ source_filename: specflow-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: reqnroll.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 20:18:19 2026 GMT\n  hsts: false\ndomains:\n- domain: reqnroll.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/specflow/refs/heads/main/security/specflow-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/specflow/security/specflow-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - .NET

@@ -5,25 +5,25 @@ api_specs:
   label: e2open Bookings API
   slug: e2open-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2open/refs/heads/main/openapi/e2open-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/e2open/openapi/e2open-bookings-api-openapi.yml
 - filename: e2open-schedules-api-openapi.yml
   format: yaml
   label: e2open Schedules API
   slug: e2open-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2open/refs/heads/main/openapi/e2open-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/e2open/openapi/e2open-schedules-api-openapi.yml
 - filename: e2open-shipping-instructions-api-openapi.yml
   format: yaml
   label: e2open Shipping Instructions API
   slug: e2open-shipping-instructions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2open/refs/heads/main/openapi/e2open-shipping-instructions-api-openapi.yml
+  url: https://artifacts.apis.io/e2open/openapi/e2open-shipping-instructions-api-openapi.yml
 - filename: e2open-tracking-api-openapi.yml
   format: yaml
   label: e2open Tracking API
   slug: e2open-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2open/refs/heads/main/openapi/e2open-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/e2open/openapi/e2open-tracking-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: e2open-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.e2open.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 10:23:38 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apidocs.inttra.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 05:33:58 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.e2open.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 21:07:38 2026 GMT\n  hsts: null\ndomains:\n- domain: e2open.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: inttra.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/e2open/refs/heads/main/security/e2open-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/e2open/security/e2open-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Logistics

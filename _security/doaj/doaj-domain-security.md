@@ -5,31 +5,31 @@ api_specs:
   label: DOAJ Bulk API
   slug: doaj-bulk-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doaj/refs/heads/main/openapi/doaj-bulk-api-api-openapi.yml
+  url: https://artifacts.apis.io/doaj/openapi/doaj-bulk-api-api-openapi.yml
 - filename: doaj-crud-applications-api-openapi.yml
   format: yaml
   label: DOAJ CRUD Applications API
   slug: doaj-crud-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doaj/refs/heads/main/openapi/doaj-crud-applications-api-openapi.yml
+  url: https://artifacts.apis.io/doaj/openapi/doaj-crud-applications-api-openapi.yml
 - filename: doaj-crud-articles-api-openapi.yml
   format: yaml
   label: DOAJ CRUD Articles API
   slug: doaj-crud-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doaj/refs/heads/main/openapi/doaj-crud-articles-api-openapi.yml
+  url: https://artifacts.apis.io/doaj/openapi/doaj-crud-articles-api-openapi.yml
 - filename: doaj-crud-journals-api-openapi.yml
   format: yaml
   label: DOAJ CRUD Journals API
   slug: doaj-crud-journals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doaj/refs/heads/main/openapi/doaj-crud-journals-api-openapi.yml
+  url: https://artifacts.apis.io/doaj/openapi/doaj-crud-journals-api-openapi.yml
 - filename: doaj-search-api-openapi.yml
   format: yaml
   label: DOAJ Search API
   slug: doaj-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doaj/refs/heads/main/openapi/doaj-search-api-openapi.yml
+  url: https://artifacts.apis.io/doaj/openapi/doaj-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,11 +57,11 @@ source_filename: doaj-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: doaj.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 11 05:21:31 2027 GMT\n  hsts: null\ndomains:\n- domain: doaj.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doaj/refs/heads/main/security/doaj-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/doaj/security/doaj-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- OpenAccess
+- Open Access
 - Journals
-- ScholarlyPublishing
+- Scholarly Publishing
 - Metadata
 ---

@@ -28,7 +28,7 @@ source_filename: trocafone-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: trocafone.com.br\n  https: false\ndomains:\n- domain: trocafone.com.br\n  dnssec: true\n  caa:\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trocafone/refs/heads/main/security/trocafone-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trocafone/security/trocafone-domain-security.yml
 summary_line: DNSSEC
 tags:
 - Company

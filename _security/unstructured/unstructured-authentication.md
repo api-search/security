@@ -8,55 +8,55 @@ api_specs:
   label: Unstructured Channels API
   slug: unstructured-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/openapi/unstructured-channels-api-openapi.yml
+  url: https://artifacts.apis.io/unstructured/openapi/unstructured-channels-api-openapi.yml
 - filename: unstructured-destinations-api-openapi.yml
   format: yaml
   label: Unstructured Destinations API
   slug: unstructured-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/openapi/unstructured-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/unstructured/openapi/unstructured-destinations-api-openapi.yml
 - filename: unstructured-general-api-openapi.yml
   format: yaml
   label: Unstructured General API
   slug: unstructured-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/openapi/unstructured-general-api-openapi.yml
+  url: https://artifacts.apis.io/unstructured/openapi/unstructured-general-api-openapi.yml
 - filename: unstructured-jobs-api-openapi.yml
   format: yaml
   label: Unstructured Jobs API
   slug: unstructured-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/openapi/unstructured-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/unstructured/openapi/unstructured-jobs-api-openapi.yml
 - filename: unstructured-notifications-api-openapi.yml
   format: yaml
   label: Unstructured Notifications API
   slug: unstructured-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/openapi/unstructured-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/unstructured/openapi/unstructured-notifications-api-openapi.yml
 - filename: unstructured-sources-api-openapi.yml
   format: yaml
   label: Unstructured Sources API
   slug: unstructured-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/openapi/unstructured-sources-api-openapi.yml
+  url: https://artifacts.apis.io/unstructured/openapi/unstructured-sources-api-openapi.yml
 - filename: unstructured-templates-api-openapi.yml
   format: yaml
   label: Unstructured Templates API
   slug: unstructured-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/openapi/unstructured-templates-api-openapi.yml
+  url: https://artifacts.apis.io/unstructured/openapi/unstructured-templates-api-openapi.yml
 - filename: unstructured-workflow-channels-api-openapi.yml
   format: yaml
   label: Unstructured Workflow Channels API
   slug: unstructured-workflow-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/openapi/unstructured-workflow-channels-api-openapi.yml
+  url: https://artifacts.apis.io/unstructured/openapi/unstructured-workflow-channels-api-openapi.yml
 - filename: unstructured-workflows-api-openapi.yml
   format: yaml
   label: Unstructured Workflows API
   slug: unstructured-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/openapi/unstructured-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/unstructured/openapi/unstructured-workflows-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -83,7 +83,7 @@ source_filename: unstructured-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/unstructured-partition-endpoint-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: unstructured-api-key\n  sources:\n  - openapi/unstructured-partition-endpoint-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/authentication/unstructured-authentication.yml
+source_yaml_url: https://artifacts.apis.io/unstructured/authentication/unstructured-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Document Processing

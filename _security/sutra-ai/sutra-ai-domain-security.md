@@ -5,13 +5,13 @@ api_specs:
   label: SUTRA (Two AI) Models API
   slug: sutra-ai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sutra-ai/refs/heads/main/openapi/sutra-ai-models-api-openapi.yml
+  url: https://artifacts.apis.io/sutra-ai/openapi/sutra-ai-models-api-openapi.yml
 - filename: sutra-ai-chat-completions-api-openapi.yml
   format: yaml
   label: SUTRA (Two AI) Chat Completions API
   slug: sutra-ai-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sutra-ai/refs/heads/main/openapi/sutra-ai-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/sutra-ai/openapi/sutra-ai-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -48,7 +48,7 @@ source_filename: sutra-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.two.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 01:58:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.two.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 13 03:40:01 2026 GMT\n  hsts: false\n- host: api.two.ai\n  https: false\ndomains:\n- domain: two.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sutra-ai/refs/heads/main/security/sutra-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sutra-ai/security/sutra-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

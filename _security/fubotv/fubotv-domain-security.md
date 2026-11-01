@@ -33,7 +33,7 @@ source_filename: fubotv-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fubo.tv\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar 22 21:10:24 2027 GMT\n  hsts: false\ndomains:\n- domain: fubo.tv\n  dnssec: false\n  caa:\n  - 0 issuewild \"globalsign.com\"\n  - 0 issuewild \"google.com\"\n  - 0 issuewild \"googlehosted.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog\"\n  - 0 iodef \"mailto:infra@fubo.tv\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fubotv/refs/heads/main/security/fubotv-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fubotv/security/fubotv-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

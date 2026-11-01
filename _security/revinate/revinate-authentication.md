@@ -8,37 +8,37 @@ api_specs:
   label: Revinate Hotel Sets API
   slug: revinate-hotel-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revinate/refs/heads/main/openapi/revinate-hotel-sets-api-openapi.yml
+  url: https://artifacts.apis.io/revinate/openapi/revinate-hotel-sets-api-openapi.yml
 - filename: revinate-hotels-api-openapi.yml
   format: yaml
   label: Revinate Hotels API
   slug: revinate-hotels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revinate/refs/heads/main/openapi/revinate-hotels-api-openapi.yml
+  url: https://artifacts.apis.io/revinate/openapi/revinate-hotels-api-openapi.yml
 - filename: revinate-languages-api-openapi.yml
   format: yaml
   label: Revinate Languages API
   slug: revinate-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revinate/refs/heads/main/openapi/revinate-languages-api-openapi.yml
+  url: https://artifacts.apis.io/revinate/openapi/revinate-languages-api-openapi.yml
 - filename: revinate-review-sites-api-openapi.yml
   format: yaml
   label: Revinate Review Sites API
   slug: revinate-review-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revinate/refs/heads/main/openapi/revinate-review-sites-api-openapi.yml
+  url: https://artifacts.apis.io/revinate/openapi/revinate-review-sites-api-openapi.yml
 - filename: revinate-reviews-api-openapi.yml
   format: yaml
   label: Revinate Reviews API
   slug: revinate-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revinate/refs/heads/main/openapi/revinate-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/revinate/openapi/revinate-reviews-api-openapi.yml
 - filename: revinate-widget-reviews-api-openapi.yml
   format: yaml
   label: Revinate Widget Reviews API
   slug: revinate-widget-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revinate/refs/heads/main/openapi/revinate-widget-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/revinate/openapi/revinate-widget-reviews-api-openapi.yml
 auth_types:
 - apiKey
 - openIdConnect
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-08-26'\nmethod: searched\nsource: https://porter.
   \  openid_configuration: https://auth.revinate.com/.well-known/openid-configuration\n  issuer: https://auth.revinate.com/\n  authorization_endpoint: https://auth.revinate.com/authorize\n  token_endpoint: https://auth.revinate.com/oauth/token\n  userinfo_endpoint: https://auth.revinate.com/userinfo\n  jwks_uri: https://auth.revinate.com/.well-known/jwks.json\n  revocation_endpoint: https://auth.revinate.com/oauth/revoke\n  device_authorization_endpoint: https://auth.revinate.com/oauth/device/code\n  registration_endpoint: https://auth.revinate.com/oidc/register\n  mfa_challenge_endpoint: https://auth.revinate.com/mfa/challenge\n  pkce: true\n  pkce_methods:\n  - S256\n  - plain\n  id_token_signing_alg:\n  - RS256\n  - HS256\n  - PS256\n  provider: Auth0\n  description: >-\n    Full OIDC issuer securing the Revinate application UI. Supports authorization code with PKCE,\n    client credentials, refresh tokens, device code, and token exchange. Dynamic client registration\n    is advertised.\
   \ This surface does not grant access to the Porter API.\n  scopes: scopes/revinate-scopes.yml\nschemes:\n- name: porterUsername\n  type: apiKey\n  in: header\n  parameter: X-Revinate-Porter-Username\n  description: Username with access to the requested resources and to the API key used.\n  sources:\n  - openapi/revinate-porter-openapi.yml\n  - https://porter.revinate.com/documentation\n- name: porterTimestamp\n  type: apiKey\n  in: header\n  parameter: X-Revinate-Porter-Timestamp\n  description: Epoch-seconds timestamp; must be within 5 minutes (before or after) of the request.\n  sources:\n  - openapi/revinate-porter-openapi.yml\n  - https://porter.revinate.com/documentation\n- name: porterKey\n  type: apiKey\n  in: header\n  parameter: X-Revinate-Porter-Key\n  description: API key issued by Revinate (contact your sales rep or account manager).\n  sources:\n  - openapi/revinate-porter-openapi.yml\n  - https://porter.revinate.com/documentation\n- name: porterEncoded\n  type: apiKey\n \
   \ in: header\n  parameter: X-Revinate-Porter-Encoded\n  description: HMAC_SHA256(apiSecret, username + timestamp), hex-encoded.\n  sources:\n  - openapi/revinate-porter-openapi.yml\n  - https://porter.revinate.com/documentation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/revinate/refs/heads/main/authentication/revinate-authentication.yml
+source_yaml_url: https://artifacts.apis.io/revinate/authentication/revinate-authentication.yml
 summary_line: apiKey/openIdConnect · 4 schemes
 tags:
 - Hospitality

@@ -8,43 +8,43 @@ api_specs:
   label: mParticle Data Plan API
   slug: mparticle-data-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-data-plan-api-openapi.yml
+  url: https://artifacts.apis.io/mparticle/openapi/mparticle-data-plan-api-openapi.yml
 - filename: mparticle-data-plan-version-api-openapi.yml
   format: yaml
   label: mParticle Data Plan Version API
   slug: mparticle-data-plan-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-data-plan-version-api-openapi.yml
+  url: https://artifacts.apis.io/mparticle/openapi/mparticle-data-plan-version-api-openapi.yml
 - filename: mparticle-events-api-openapi.yml
   format: yaml
   label: mParticle Events API
   slug: mparticle-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-events-api-openapi.yml
+  url: https://artifacts.apis.io/mparticle/openapi/mparticle-events-api-openapi.yml
 - filename: mparticle-identify-api-openapi.yml
   format: yaml
   label: mParticle Identify API
   slug: mparticle-identify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-identify-api-openapi.yml
+  url: https://artifacts.apis.io/mparticle/openapi/mparticle-identify-api-openapi.yml
 - filename: mparticle-login-api-openapi.yml
   format: yaml
   label: mParticle Login API
   slug: mparticle-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-login-api-openapi.yml
+  url: https://artifacts.apis.io/mparticle/openapi/mparticle-login-api-openapi.yml
 - filename: mparticle-logout-api-openapi.yml
   format: yaml
   label: mParticle Logout API
   slug: mparticle-logout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-logout-api-openapi.yml
+  url: https://artifacts.apis.io/mparticle/openapi/mparticle-logout-api-openapi.yml
 - filename: mparticle-modify-api-openapi.yml
   format: yaml
   label: mParticle Modify API
   slug: mparticle-modify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-modify-api-openapi.yml
+  url: https://artifacts.apis.io/mparticle/openapi/mparticle-modify-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -123,7 +123,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/mpartic
   \ and x-mp-signature (hex HMAC-SHA256 of\n      \"<HTTP METHOD>\\n<ISO 8601 date>\\n<request path><request body>\" keyed with the API secret).\n    headers:\n      - x-mp-key\n      - x-mp-signature\n      - Date\n    sources:\n      - openapi/mparticle-identity-swagger-original.yml\n      - https://docs.mparticle.com/developers/apis/idsync/\n  - name: bearerAuth\n    type: http\n    scheme: bearer\n    bearerFormat: JWT\n    description: >-\n      Bearer JWT obtained from the OAuth 2.0 client-credentials token endpoint below. Used by\n      the Platform API, Data Planning API and Warehouse Sync API.\n    sources:\n      - openapi/mparticle-dataplanning-openapi-original.yml\n      - https://docs.mparticle.com/developers/apis/platform/overview/\n  - name: oauth2ClientCredentials\n    type: oauth2\n    flow: clientCredentials\n    token_url: https://sso.auth.mparticle.com/oauth/token\n    audience: https://api.mparticle.com\n    grant_type: client_credentials\n    token_lifetime: ~8 hours\n\
   \    revocable: false\n    scopes: []\n    description: >-\n      OAuth 2.0 client-credentials grant. POST client_id, client_secret, audience\n      (https://api.mparticle.com) and grant_type=client_credentials to the token endpoint; the\n      returned access_token is sent as \"Authorization: Bearer {access_token}\". mParticle\n      documents no scope parameter - authorization is carried by the credential and the\n      AccountId/workspace_id in the request path or query string. Tokens cannot be revoked and\n      expire in roughly 8 hours, so the docs require token caching.\n    sources:\n      - https://docs.mparticle.com/developers/apis/platform/overview/\n      - https://docs.mparticle.com/developers/apis/dataplanning-api/\n      - well-known/mparticle-openid-configuration.json\ndiscovery:\n  openid_configuration: well-known/mparticle-openid-configuration.json\n  issuer: https://sso.auth.mparticle.com/\n  jwks_uri: https://sso.auth.mparticle.com/.well-known/jwks.json\n  probed: '2026-08-13'\n\
   \  http_status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/authentication/mparticle-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mparticle/authentication/mparticle-authentication.yml
 summary_line: apiKey/http/oauth2 · 5 schemes
 tags:
 - Customer Data Platform

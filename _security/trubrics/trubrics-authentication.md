@@ -8,13 +8,13 @@ api_specs:
   label: Trubrics Events API
   slug: trubrics-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trubrics/refs/heads/main/openapi/trubrics-events-api-openapi.yml
+  url: https://artifacts.apis.io/trubrics/openapi/trubrics-events-api-openapi.yml
 - filename: trubrics-llm-events-api-openapi.yml
   format: yaml
   label: Trubrics LLM Events API
   slug: trubrics-llm-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trubrics/refs/heads/main/openapi/trubrics-llm-events-api-openapi.yml
+  url: https://artifacts.apis.io/trubrics/openapi/trubrics-llm-events-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: trubrics-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/trubrics-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: Project-scoped write-only API key, copied from the project settings page in the\n    Trubrics application.\n  sources:\n  - openapi/trubrics-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trubrics/refs/heads/main/authentication/trubrics-authentication.yml
+source_yaml_url: https://artifacts.apis.io/trubrics/authentication/trubrics-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence

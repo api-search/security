@@ -8,13 +8,13 @@ api_specs:
   label: Unitlab AI Datasets API
   slug: unitlab-ai-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitlab-ai/refs/heads/main/openapi/unitlab-ai-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/unitlab-ai/openapi/unitlab-ai-datasets-api-openapi.yml
 - filename: unitlab-ai-projects-api-openapi.yml
   format: yaml
   label: Unitlab AI Projects API
   slug: unitlab-ai-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitlab-ai/refs/heads/main/openapi/unitlab-ai-projects-api-openapi.yml
+  url: https://artifacts.apis.io/unitlab-ai/openapi/unitlab-ai-projects-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: unitlab-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/unitlab-ai-sdk-openapi.yml\ndocs: https://docs.unitlab.ai/how-to-integrate/create-an-api-key\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'API key issued at https://app.unitlab.ai (API Keys page), sent as \"Authorization:\n    Api-Key <key>\". The SDK/CLI also read UNITLAB_API_KEY or ~/.unitlab/credentials.'\n  sources:\n  - openapi/unitlab-ai-sdk-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unitlab-ai/refs/heads/main/authentication/unitlab-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/unitlab-ai/authentication/unitlab-ai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

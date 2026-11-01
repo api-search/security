@@ -39,7 +39,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://github.com/NebuSec/vega-skill/blob/main/skills/vega-cli/SKILL.md\nnote: >-\n  No public OpenAPI is published, so this profile is derived from the Vega CLI\n  authentication documentation rather than a machine-readable securityScheme.\n  The Vega backend (VEGA_API_URL, default production) authenticates with either a\n  bearer API key or an OAuth browser login.\nsummary:\n  types: [apiKey, oauth2]\n  api_key_in: [header]\n  api_key_prefix: vega_\n  oauth2_flows: [browser-login]\nschemes:\n- name: VegaApiKey\n  type: apiKey\n  key_prefix: vega_\n  env: VEGA_API_KEY\n  cli_flag: --api-key\n  precedence: 1\n  note: Highest-precedence credential; suitable for headless/CI use.\n- name: VegaOAuthLogin\n  type: oauth2\n  flow: browser-login\n  cli: vega auth login\n  headless_flag: --headless\n  precedence: 2\n  note: Stored OAuth token from an interactive browser login; used when VEGA_API_KEY is unset.\nverify: vega auth status\
   \ --json\nunauthenticated_exit_code: 3\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nebula-security/refs/heads/main/authentication/nebula-security-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nebula-security/authentication/nebula-security-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company

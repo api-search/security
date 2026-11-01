@@ -5,43 +5,43 @@ api_specs:
   label: Blockchair Address Dashboards API
   slug: blockchair-address-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchair/refs/heads/main/openapi/blockchair-address-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/blockchair/openapi/blockchair-address-dashboards-api-openapi.yml
 - filename: blockchair-block-dashboards-api-openapi.yml
   format: yaml
   label: Blockchair Block Dashboards API
   slug: blockchair-block-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchair/refs/heads/main/openapi/blockchair-block-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/blockchair/openapi/blockchair-block-dashboards-api-openapi.yml
 - filename: blockchair-broadcast-api-openapi.yml
   format: yaml
   label: Blockchair Broadcast API
   slug: blockchair-broadcast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchair/refs/heads/main/openapi/blockchair-broadcast-api-openapi.yml
+  url: https://artifacts.apis.io/blockchair/openapi/blockchair-broadcast-api-openapi.yml
 - filename: blockchair-outputs-database-api-openapi.yml
   format: yaml
   label: Blockchair Outputs Database API
   slug: blockchair-outputs-database-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchair/refs/heads/main/openapi/blockchair-outputs-database-api-openapi.yml
+  url: https://artifacts.apis.io/blockchair/openapi/blockchair-outputs-database-api-openapi.yml
 - filename: blockchair-raw-data-api-openapi.yml
   format: yaml
   label: Blockchair Raw Data API
   slug: blockchair-raw-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchair/refs/heads/main/openapi/blockchair-raw-data-api-openapi.yml
+  url: https://artifacts.apis.io/blockchair/openapi/blockchair-raw-data-api-openapi.yml
 - filename: blockchair-stats-api-openapi.yml
   format: yaml
   label: Blockchair Stats API
   slug: blockchair-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchair/refs/heads/main/openapi/blockchair-stats-api-openapi.yml
+  url: https://artifacts.apis.io/blockchair/openapi/blockchair-stats-api-openapi.yml
 - filename: blockchair-transaction-dashboards-api-openapi.yml
   format: yaml
   label: Blockchair Transaction Dashboards API
   slug: blockchair-transaction-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchair/refs/heads/main/openapi/blockchair-transaction-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/blockchair/openapi/blockchair-transaction-dashboards-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -80,7 +80,7 @@ source_filename: blockchair-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: blockchair.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 14:33:07 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.blockchair.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 13 06:00:23 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: blockchair.com\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 iodef \"mailto:admin@blockchair.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blockchair/refs/heads/main/security/blockchair-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/blockchair/security/blockchair-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Blockchain

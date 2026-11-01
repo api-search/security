@@ -46,7 +46,7 @@ source_filename: federal-student-aid-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: studentaid.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  3 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: collegescorecard.ed.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 17 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.data.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 14:21:13 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: studentaid.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: ed.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/federal-student-aid/refs/heads/main/security/federal-student-aid-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/federal-student-aid/security/federal-student-aid-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Education

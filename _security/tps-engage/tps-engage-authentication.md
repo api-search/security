@@ -7,13 +7,13 @@ api_specs:
   label: TPS Engage Play API
   slug: tps-engage-play-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tps-engage/refs/heads/main/openapi/tps-engage-play-api-openapi.yml
+  url: https://artifacts.apis.io/tps-engage/openapi/tps-engage-play-api-openapi.yml
 - filename: tps-engage-prefetch-api-openapi.yml
   format: yaml
   label: TPS Engage Prefetch API
   slug: tps-engage-prefetch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tps-engage/refs/heads/main/openapi/tps-engage-prefetch-api-openapi.yml
+  url: https://artifacts.apis.io/tps-engage/openapi/tps-engage-prefetch-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -36,7 +36,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/_origin
   \    URL path. That is a bearer-in-URL model with the usual consequences — the\n    identifier leaks into proxy logs, browser history and Referer headers, cannot be\n    scoped, and cannot be rotated without re-provisioning the player device.\n    The commercial platform behind the API (portal.seeblindspot.com) does have real\n    authentication — account sign-in at /auth/login, and the Trust & Security page\n    states \"Access control on a least-privilege basis, with multi-factor\n    authentication for administrative and remote access\" — but that is the buyer-side\n    web application, not an API credential, and no developer key issuance, OAuth\n    client registration or token endpoint is published.\nschemes: []\nobserved:\n- host: rtb.network.tpsengage.com\n  checked: '2026-08-13'\n  note: >-\n    GET /api/sv/play/{deviceId} and GET /api/sv/prefetch/{deviceId} called with no\n    Authorization header, no API key header and no cookie. Neither returned 401/403;\n    both returned 500.\
   \ No WWW-Authenticate header on any response.\n- host: rtb.network.tpsengage.com\n  checked: '2026-08-13'\n  note: >-\n    Response headers show a Helmet-style hardening baseline\n    (Strict-Transport-Security: max-age=31536000; includeSubDomains,\n    X-Content-Type-Options: nosniff, Referrer-Policy: no-referrer,\n    Content-Security-Policy, X-Frame-Options: SAMEORIGIN) with\n    access-control-allow-origin: * — an intentionally public, browser-callable\n    surface.\nidentifiers:\n- name: deviceId\n  in: path\n  format: uuid\n  required: true\n  role: capability\n  description: >-\n    Unique identifier of a registered player device on the Blindspot DOOH network.\n    Sole basis on which the API decides what to return. Provisioned to the screen\n    owner out of band during CMS integration; no self-service issuance is published.\n- name: apiPublisher\n  in: path\n  format: string\n  required: true\n  default: sv\n  role: routing\n  description: >-\n    Server variable in the base URL\
   \ (https://rtb.network.tpsengage.com/api/{apiPublisher}).\n    Names the publisher/CMS integration, not the caller; it is a routing segment, not\n    a credential.\ngaps:\n- No securitySchemes in the published OpenAPI.\n- No API key, OAuth 2.0, OIDC or mTLS surface published for the Pull API.\n- No token rotation, expiry or revocation story for a compromised deviceId.\n- >-\n  No scope model — a deviceId grants exactly the playback slice for that one screen,\n  which is a small blast radius, but there is nothing to scope down further and\n  nothing to scope up for a multi-screen operator.\n- >-\n  Portal (buyer-side) API access is not documented at all; the full API is described\n  in Blindspot's own marketing as available \"reach out to set up a demo\", so any\n  campaign/booking API sits behind a sales gate.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tps-engage/refs/heads/main/authentication/tps-engage-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tps-engage/authentication/tps-engage-authentication.yml
 summary_line: 0 schemes
 tags:
 - Company

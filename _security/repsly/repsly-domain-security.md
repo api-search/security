@@ -5,55 +5,55 @@ api_specs:
   label: Repsly Clients API
   slug: repsly-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-clients-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-clients-api-openapi.yml
 - filename: repsly-forms-api-openapi.yml
   format: yaml
   label: Repsly Forms API
   slug: repsly-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-forms-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-forms-api-openapi.yml
 - filename: repsly-import-api-openapi.yml
   format: yaml
   label: Repsly Import API
   slug: repsly-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-import-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-import-api-openapi.yml
 - filename: repsly-photos-api-openapi.yml
   format: yaml
   label: Repsly Photos API
   slug: repsly-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-photos-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-photos-api-openapi.yml
 - filename: repsly-products-api-openapi.yml
   format: yaml
   label: Repsly Products API
   slug: repsly-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-products-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-products-api-openapi.yml
 - filename: repsly-purchase-orders-api-openapi.yml
   format: yaml
   label: Repsly Purchase Orders API
   slug: repsly-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-purchase-orders-api-openapi.yml
 - filename: repsly-representatives-api-openapi.yml
   format: yaml
   label: Repsly Representatives API
   slug: repsly-representatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-representatives-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-representatives-api-openapi.yml
 - filename: repsly-visits-api-openapi.yml
   format: yaml
   label: Repsly Visits API
   slug: repsly-visits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-visits-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-visits-api-openapi.yml
 - filename: repsly-price-lists-api-openapi.yml
   format: yaml
   label: Repsly Price Lists API
   slug: repsly-price-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-price-lists-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-price-lists-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -100,7 +100,7 @@ source_filename: repsly-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.repsly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 11:10:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: repsly-dev.readme.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 13:12:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.repsly.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 17 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: repsly.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: readme.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/security/repsly-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/repsly/security/repsly-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Retail Execution

@@ -5,31 +5,31 @@ api_specs:
   label: Federal Railroad Administration Accidents API
   slug: federal-railroad-administration-accidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-railroad-administration/refs/heads/main/openapi/federal-railroad-administration-accidents-api-openapi.yml
+  url: https://artifacts.apis.io/federal-railroad-administration/openapi/federal-railroad-administration-accidents-api-openapi.yml
 - filename: federal-railroad-administration-crossings-api-openapi.yml
   format: yaml
   label: Federal Railroad Administration Crossings API
   slug: federal-railroad-administration-crossings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-railroad-administration/refs/heads/main/openapi/federal-railroad-administration-crossings-api-openapi.yml
+  url: https://artifacts.apis.io/federal-railroad-administration/openapi/federal-railroad-administration-crossings-api-openapi.yml
 - filename: federal-railroad-administration-incidents-api-openapi.yml
   format: yaml
   label: Federal Railroad Administration Incidents API
   slug: federal-railroad-administration-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-railroad-administration/refs/heads/main/openapi/federal-railroad-administration-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/federal-railroad-administration/openapi/federal-railroad-administration-incidents-api-openapi.yml
 - filename: federal-railroad-administration-inspections-api-openapi.yml
   format: yaml
   label: Federal Railroad Administration Inspections API
   slug: federal-railroad-administration-inspections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-railroad-administration/refs/heads/main/openapi/federal-railroad-administration-inspections-api-openapi.yml
+  url: https://artifacts.apis.io/federal-railroad-administration/openapi/federal-railroad-administration-inspections-api-openapi.yml
 - filename: federal-railroad-administration-operational-data-api-openapi.yml
   format: yaml
   label: Federal Railroad Administration Operational Data API
   slug: federal-railroad-administration-operational-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-railroad-administration/refs/heads/main/openapi/federal-railroad-administration-operational-data-api-openapi.yml
+  url: https://artifacts.apis.io/federal-railroad-administration/openapi/federal-railroad-administration-operational-data-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -61,7 +61,7 @@ source_filename: federal-railroad-administration-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fra.dot.gov\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get\n    local issuer certificate (_ssl.c:1082)'\n  hsts: null\n- host: safetydata.fra.dot.gov\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get\n    local issuer certificate (_ssl.c:1082)'\n  hsts: null\ndomains:\n- domain: dot.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/federal-railroad-administration/refs/heads/main/security/federal-railroad-administration-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/federal-railroad-administration/security/federal-railroad-administration-domain-security.yml
 summary_line: DNSSEC · DMARC
 tags:
 - Federal Government

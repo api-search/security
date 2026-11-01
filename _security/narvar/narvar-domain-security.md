@@ -5,7 +5,7 @@ api_specs:
   label: Narvar Orders API
   slug: narvar-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/narvar/refs/heads/main/openapi/narvar-orders-api-openapi.yml
+  url: https://artifacts.apis.io/narvar/openapi/narvar-orders-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -50,7 +50,7 @@ source_filename: narvar-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: corp.narvar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 15:42:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: support.narvar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 23:41:49 2026 GMT\n  hsts: true\n  hsts_max_age: 259200\n- host: api.narvar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 13 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: narvar.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"Digicert.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 iodef \"mailto:info@narvar.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/narvar/refs/heads/main/security/narvar-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/narvar/security/narvar-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Post-Purchase

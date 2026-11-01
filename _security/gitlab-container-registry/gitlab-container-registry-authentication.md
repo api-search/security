@@ -8,13 +8,13 @@ api_specs:
   label: GitLab Container Registry Repositories API
   slug: gitlab-container-registry-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab-container-registry/refs/heads/main/openapi/gitlab-container-registry-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/gitlab-container-registry/openapi/gitlab-container-registry-repositories-api-openapi.yml
 - filename: gitlab-container-registry-tags-api-openapi.yml
   format: yaml
   label: GitLab Container Registry Tags API
   slug: gitlab-container-registry-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab-container-registry/refs/heads/main/openapi/gitlab-container-registry-tags-api-openapi.yml
+  url: https://artifacts.apis.io/gitlab-container-registry/openapi/gitlab-container-registry-tags-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -52,7 +52,7 @@ source_filename: gitlab-container-registry-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/gitlab-container-registry-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: PrivateToken\n  type: apiKey\n  in: header\n  parameter: PRIVATE-TOKEN\n  sources:\n  - openapi/gitlab-container-registry-openapi.yml\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://gitlab.com/oauth/authorize\n    tokenUrl: https://gitlab.com/oauth/token\n    scopes: 1\n  sources:\n  - openapi/gitlab-container-registry-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gitlab-container-registry/refs/heads/main/authentication/gitlab-container-registry-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gitlab-container-registry/authentication/gitlab-container-registry-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Container Images

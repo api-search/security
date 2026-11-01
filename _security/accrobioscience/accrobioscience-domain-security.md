@@ -26,7 +26,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nnote: >-\n  www.accropeutics.com negotiates TLSv1.3 but serves an INCOMPLETE certificate chain: the origin\n  presents only the leaf (CN=accropeutics.com, issued by Certum Domain Validation CA SHA2) and\n  omits the intermediate, so `openssl s_client` returns verify code 21, \"unable to verify the first\n  certificate\". Ordinary browsers recover via AIA fetching; strict clients — curl without -k,\n  Python urllib, and most server-side HTTP libraries — fail the handshake outright. The apex\n  publishes SPF but no DMARC record, no CAA records, and the accropeutics.com zone is not\n  DNSSEC-signed.\nhosts:\n- host: www.accropeutics.com\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get\n    local issuer certificate (_ssl.c:1082)'\n  hsts: null\ndomains:\n- domain: accropeutics.com\n  dnssec: false\n  caa: []\n  spf: true\n\
   \  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/accrobioscience/refs/heads/main/security/accrobioscience-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/accrobioscience/security/accrobioscience-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

@@ -7,13 +7,13 @@ api_specs:
   label: Rice University Datasets API
   slug: rice-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rice/refs/heads/main/openapi/rice-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/rice/openapi/rice-datasets-api-openapi.yml
 - filename: rice-reference-api-openapi.yml
   format: yaml
   label: Rice University Reference API
   slug: rice-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rice/refs/heads/main/openapi/rice-reference-api-openapi.yml
+  url: https://artifacts.apis.io/rice/openapi/rice-reference-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -41,7 +41,7 @@ source_filename: rice-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: derived\nsource: openapi/rice-datasets-api-openapi.yml, openapi/rice-reference-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: memberSession\n  type: http\n  scheme: bearer\n  description: Undocumented. Inferred only from the API Gateway authorizer's 401 envelope on\n    /user/catalog. Not verified — no credentials were obtained or used.\n  sources:\n  - openapi/rice-datasets-api-openapi.yml\n  - openapi/rice-reference-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rice/refs/heads/main/authentication/rice-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rice/authentication/rice-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - University

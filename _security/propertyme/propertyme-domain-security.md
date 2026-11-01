@@ -5,37 +5,37 @@ api_specs:
   label: PropertyMe Connection API
   slug: propertyme-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-connection-api-openapi.yml
+  url: https://artifacts.apis.io/propertyme/openapi/propertyme-connection-api-openapi.yml
 - filename: propertyme-scope-activities-api-openapi.yml
   format: yaml
   label: 'PropertyMe Scope: Activities API'
   slug: propertyme-scope-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-scope-activities-api-openapi.yml
+  url: https://artifacts.apis.io/propertyme/openapi/propertyme-scope-activities-api-openapi.yml
 - filename: propertyme-scope-bills-api-openapi.yml
   format: yaml
   label: 'PropertyMe Scope: Bills API'
   slug: propertyme-scope-bills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-scope-bills-api-openapi.yml
+  url: https://artifacts.apis.io/propertyme/openapi/propertyme-scope-bills-api-openapi.yml
 - filename: propertyme-scope-contacts-api-openapi.yml
   format: yaml
   label: 'PropertyMe Scope: Contacts API'
   slug: propertyme-scope-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-scope-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/propertyme/openapi/propertyme-scope-contacts-api-openapi.yml
 - filename: propertyme-scope-messages-api-openapi.yml
   format: yaml
   label: 'PropertyMe Scope: Messages API'
   slug: propertyme-scope-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-scope-messages-api-openapi.yml
+  url: https://artifacts.apis.io/propertyme/openapi/propertyme-scope-messages-api-openapi.yml
 - filename: propertyme-scope-properties-api-openapi.yml
   format: yaml
   label: 'PropertyMe Scope: Properties API'
   slug: propertyme-scope-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-scope-properties-api-openapi.yml
+  url: https://artifacts.apis.io/propertyme/openapi/propertyme-scope-properties-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: propertyme-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.propertyme.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 10:32:03 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: app.propertyme.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 04:40:54 2026 GMT\n  hsts: null\ndomains:\n- domain: propertyme.com.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: propertyme.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/security/propertyme-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/propertyme/security/propertyme-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Real Estate

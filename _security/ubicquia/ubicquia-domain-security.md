@@ -5,49 +5,49 @@ api_specs:
   label: Ubicquia Auth Check API
   slug: ubicquia-authcheck-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubicquia/refs/heads/main/openapi/ubicquia-authcheck-api-openapi.yml
+  url: https://artifacts.apis.io/ubicquia/openapi/ubicquia-authcheck-api-openapi.yml
 - filename: ubicquia-customer-detail-api-openapi.yml
   format: yaml
   label: Ubicquia Customer Detail API
   slug: ubicquia-customer-detail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubicquia/refs/heads/main/openapi/ubicquia-customer-detail-api-openapi.yml
+  url: https://artifacts.apis.io/ubicquia/openapi/ubicquia-customer-detail-api-openapi.yml
 - filename: ubicquia-fulfillment-details-api-openapi.yml
   format: yaml
   label: Ubicquia Fulfillment Details API
   slug: ubicquia-fulfillment-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubicquia/refs/heads/main/openapi/ubicquia-fulfillment-details-api-openapi.yml
+  url: https://artifacts.apis.io/ubicquia/openapi/ubicquia-fulfillment-details-api-openapi.yml
 - filename: ubicquia-iccid-master-api-openapi.yml
   format: yaml
   label: Ubicquia ICCID Master API
   slug: ubicquia-iccid-master-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubicquia/refs/heads/main/openapi/ubicquia-iccid-master-api-openapi.yml
+  url: https://artifacts.apis.io/ubicquia/openapi/ubicquia-iccid-master-api-openapi.yml
 - filename: ubicquia-sales-order-api-openapi.yml
   format: yaml
   label: Ubicquia Sales Order API
   slug: ubicquia-sales-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubicquia/refs/heads/main/openapi/ubicquia-sales-order-api-openapi.yml
+  url: https://artifacts.apis.io/ubicquia/openapi/ubicquia-sales-order-api-openapi.yml
 - filename: ubicquia-serial-number-api-openapi.yml
   format: yaml
   label: Ubicquia Serial Number API
   slug: ubicquia-serial-number-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubicquia/refs/heads/main/openapi/ubicquia-serial-number-api-openapi.yml
+  url: https://artifacts.apis.io/ubicquia/openapi/ubicquia-serial-number-api-openapi.yml
 - filename: ubicquia-transformer-details-api-openapi.yml
   format: yaml
   label: Ubicquia Transformer Details API
   slug: ubicquia-transformer-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubicquia/refs/heads/main/openapi/ubicquia-transformer-details-api-openapi.yml
+  url: https://artifacts.apis.io/ubicquia/openapi/ubicquia-transformer-details-api-openapi.yml
 - filename: ubicquia-user-api-openapi.yml
   format: yaml
   label: Ubicquia User API
   slug: ubicquia-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubicquia/refs/heads/main/openapi/ubicquia-user-api-openapi.yml
+  url: https://artifacts.apis.io/ubicquia/openapi/ubicquia-user-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -83,7 +83,7 @@ source_filename: ubicquia-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-01'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ubicquia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: config.api.ubicquia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: ubicquia.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ubicquia/refs/heads/main/security/ubicquia-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ubicquia/security/ubicquia-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

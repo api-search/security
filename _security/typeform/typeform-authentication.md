@@ -7,25 +7,25 @@ api_specs:
   label: Typeform Webhooks API
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeform/refs/heads/main/asyncapi/typeform-asyncapi.yml
+  url: https://artifacts.apis.io/typeform/asyncapi/typeform-asyncapi.yml
 - filename: typeform-forms-api-openapi.yml
   format: yaml
   label: Typeform Forms API
   slug: typeform-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeform/refs/heads/main/openapi/typeform-forms-api-openapi.yml
+  url: https://artifacts.apis.io/typeform/openapi/typeform-forms-api-openapi.yml
 - filename: typeform-images-api-openapi.yml
   format: yaml
   label: Typeform Images API
   slug: typeform-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeform/refs/heads/main/openapi/typeform-images-api-openapi.yml
+  url: https://artifacts.apis.io/typeform/openapi/typeform-images-api-openapi.yml
 - filename: typeform-themes-api-openapi.yml
   format: yaml
   label: Typeform Themes API
   slug: typeform-themes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeform/refs/heads/main/openapi/typeform-themes-api-openapi.yml
+  url: https://artifacts.apis.io/typeform/openapi/typeform-themes-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -63,7 +63,7 @@ source_filename: typeform-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/typeform-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Personal access token or OAuth 2.0 access token.\n  sources:\n  - openapi/typeform-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.typeform.com/oauth/authorize\n    tokenUrl: https://api.typeform.com/oauth/token\n    scopes: 6\n  sources:\n  - openapi/typeform-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/typeform/refs/heads/main/authentication/typeform-authentication.yml
+source_yaml_url: https://artifacts.apis.io/typeform/authentication/typeform-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Forms

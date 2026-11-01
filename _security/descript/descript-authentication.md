@@ -7,19 +7,19 @@ api_specs:
   label: Descript API Endpoints API
   slug: descript-api-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/openapi/descript-api-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/descript/openapi/descript-api-endpoints-api-openapi.yml
 - filename: descript-edit-in-descript-api-openapi.yml
   format: yaml
   label: Descript Edit in Descript API
   slug: descript-edit-in-descript-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/openapi/descript-edit-in-descript-api-openapi.yml
+  url: https://artifacts.apis.io/descript/openapi/descript-edit-in-descript-api-openapi.yml
 - filename: descript-export-from-descript-api-openapi.yml
   format: yaml
   label: Descript Export from Descript API
   slug: descript-export-from-descript-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/openapi/descript-export-from-descript-api-openapi.yml
+  url: https://artifacts.apis.io/descript/openapi/descript-export-from-descript-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: descript-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/descript-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Personal API token created in Descript Settings → API Tokens. See the Authentication\n    section for details.\n  sources:\n  - openapi/descript-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/authentication/descript-authentication.yml
+source_yaml_url: https://artifacts.apis.io/descript/authentication/descript-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

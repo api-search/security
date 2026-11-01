@@ -5,43 +5,43 @@ api_specs:
   label: Appdome API Account Maintenance API
   slug: appdome-api-account-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/openapi/appdome-api-account-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/appdome/openapi/appdome-api-account-maintenance-api-openapi.yml
 - filename: appdome-api-team-management-api-openapi.yml
   format: yaml
   label: Appdome API Team Management API
   slug: appdome-api-team-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/openapi/appdome-api-team-management-api-openapi.yml
+  url: https://artifacts.apis.io/appdome/openapi/appdome-api-team-management-api-openapi.yml
 - filename: appdome-api-user-management-api-openapi.yml
   format: yaml
   label: Appdome API User Management API
   slug: appdome-api-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/openapi/appdome-api-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/appdome/openapi/appdome-api-user-management-api-openapi.yml
 - filename: appdome-app-validation-api-openapi.yml
   format: yaml
   label: Appdome App Validation API
   slug: appdome-app-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/openapi/appdome-app-validation-api-openapi.yml
+  url: https://artifacts.apis.io/appdome/openapi/appdome-app-validation-api-openapi.yml
 - filename: appdome-device-match-api-openapi.yml
   format: yaml
   label: Appdome Device Match API
   slug: appdome-device-match-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/openapi/appdome-device-match-api-openapi.yml
+  url: https://artifacts.apis.io/appdome/openapi/appdome-device-match-api-openapi.yml
 - filename: appdome-secure-certificate-api-openapi.yml
   format: yaml
   label: Appdome Secure Certificate API
   slug: appdome-secure-certificate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/openapi/appdome-secure-certificate-api-openapi.yml
+  url: https://artifacts.apis.io/appdome/openapi/appdome-secure-certificate-api-openapi.yml
 - filename: appdome-tasks-api-openapi.yml
   format: yaml
   label: Appdome Tasks API
   slug: appdome-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/openapi/appdome-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/appdome/openapi/appdome-tasks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: appdome-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: appdome.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 23:59:59 2026 GMT\n  hsts: false\n- host: apis.appdome.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 08:48:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: fusion.appdome.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: appdome.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/security/appdome-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/appdome/security/appdome-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

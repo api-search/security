@@ -7,7 +7,7 @@ api_specs:
   label: StarTree Query API
   slug: startree-query-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/startree/refs/heads/main/openapi/startree-query-api-api-openapi.yml
+  url: https://artifacts.apis.io/startree/openapi/startree-query-api-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -34,7 +34,7 @@ source_filename: startree-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/startree-query-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/startree-query-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/startree/refs/heads/main/authentication/startree-authentication.yml
+source_yaml_url: https://artifacts.apis.io/startree/authentication/startree-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company
